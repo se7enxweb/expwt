@@ -13,7 +13,8 @@
     <p class="expwt-field-saved" role="status">{'The draft is saved.'|i18n( 'extension/expwt' )}</p>
     {/if}
     <div class="expwt-field-input">
-        {attribute_edit_gui attribute=$attribute}
+        {* attribute_base as content/edit gives it: the edit templates name their inputs after it *}
+        {attribute_edit_gui attribute=$attribute attribute_base='ContentObjectAttribute'}
     </div>
     <div class="expwt-field-tools"></div>
     <div class="expwt-field-actions">
