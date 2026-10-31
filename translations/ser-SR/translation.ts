@@ -80,20 +80,12 @@
         <translation>Ovo nije spisak stranica na ovom mestu.</translation>
     </message>
     <message>
-        <source>The input is not JSON.</source>
-        <translation>Ulaz nije JSON.</translation>
-    </message>
-    <message>
         <source>This action changes something: send it with expwtWrite.</source>
         <translation>Ova radnja nešto menja: pošaljite je preko expwtWrite.</translation>
     </message>
     <message>
-        <source>Verify it's you</source>
-        <translation>Potvrdite da ste to vi</translation>
-    </message>
-    <message>
-        <source>Thank you. You can go back to the page; this window closes by itself.</source>
-        <translation>Hvala. Možete da se vratite na stranicu; ovaj prozor se sam zatvara.</translation>
+        <source>The input is not JSON.</source>
+        <translation>Ulaz nije JSON.</translation>
     </message>
     <message>
         <source>Something went wrong.</source>
@@ -448,16 +440,28 @@
         <translation>Bočna traka</translation>
     </message>
     <message>
-        <source>Side</source>
-        <translation>Strana</translation>
+        <source>Anchored at</source>
+        <translation>Usidreno uz</translation>
+    </message>
+    <message>
+        <source>Left</source>
+        <translation>Levo</translation>
     </message>
     <message>
         <source>Right</source>
         <translation>Desno</translation>
     </message>
     <message>
-        <source>Left</source>
-        <translation>Levo</translation>
+        <source>Position</source>
+        <translation>Položaj</translation>
+    </message>
+    <message>
+        <source>Top</source>
+        <translation>Gore</translation>
+    </message>
+    <message>
+        <source>Bottom</source>
+        <translation>Dole</translation>
     </message>
     <message>
         <source>When open</source>
@@ -496,6 +500,10 @@
         <translation>Strelice je pomeraju, Enter je otvara.</translation>
     </message>
     <message>
+        <source>Ctrl and an arrow key put it on another edge.</source>
+        <translation>Ctrl i strelica je premeštaju na drugu ivicu.</translation>
+    </message>
+    <message>
         <source>Width of the sidebar</source>
         <translation>Širina bočne trake</translation>
     </message>
@@ -528,8 +536,8 @@
         <translation>Ja</translation>
     </message>
     <message>
-        <source>The sidebar was moved.</source>
-        <translation>Bočna traka je premeštena.</translation>
+        <source>Height of the sidebar</source>
+        <translation>Visina bočne trake</translation>
     </message>
     <message>
         <source>The sidebar is on the left.</source>
@@ -538,6 +546,18 @@
     <message>
         <source>The sidebar is on the right.</source>
         <translation>Bočna traka je desno.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the top.</source>
+        <translation>Bočna traka je gore.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the bottom.</source>
+        <translation>Bočna traka je dole.</translation>
+    </message>
+    <message>
+        <source>The sidebar was moved.</source>
+        <translation>Bočna traka je premeštena.</translation>
     </message>
     <message>
         <source>The sidebar could not reach the server.</source>
@@ -586,6 +606,14 @@
     <message>
         <source>Dark</source>
         <translation>Tamno</translation>
+    </message>
+    <message>
+        <source>Thank you. You can go back to the page; this window closes by itself.</source>
+        <translation>Hvala. Možete da se vratite na stranicu; ovaj prozor se sam zatvara.</translation>
+    </message>
+    <message>
+        <source>Verify it's you</source>
+        <translation>Potvrdite da ste to vi</translation>
     </message>
 </context>
 </TS>

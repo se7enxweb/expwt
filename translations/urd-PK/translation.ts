@@ -80,20 +80,12 @@
         <translation>یہ یہاں کے صفحات کی فہرست نہیں ہے۔</translation>
     </message>
     <message>
-        <source>The input is not JSON.</source>
-        <translation>ان پٹ JSON نہیں ہے۔</translation>
-    </message>
-    <message>
         <source>This action changes something: send it with expwtWrite.</source>
         <translation>یہ کارروائی کچھ تبدیل کرتی ہے: اسے expwtWrite سے بھیجیں۔</translation>
     </message>
     <message>
-        <source>Verify it's you</source>
-        <translation>تصدیق کریں کہ یہ آپ ہیں</translation>
-    </message>
-    <message>
-        <source>Thank you. You can go back to the page; this window closes by itself.</source>
-        <translation>شکریہ۔ آپ صفحے پر واپس جا سکتے ہیں؛ یہ ونڈو خود بند ہو جائے گی۔</translation>
+        <source>The input is not JSON.</source>
+        <translation>ان پٹ JSON نہیں ہے۔</translation>
     </message>
     <message>
         <source>Something went wrong.</source>
@@ -448,16 +440,28 @@
         <translation>سائیڈ بار</translation>
     </message>
     <message>
-        <source>Side</source>
-        <translation>طرف</translation>
+        <source>Anchored at</source>
+        <translation>منسلک سمت</translation>
+    </message>
+    <message>
+        <source>Left</source>
+        <translation>بائیں</translation>
     </message>
     <message>
         <source>Right</source>
         <translation>دائیں</translation>
     </message>
     <message>
-        <source>Left</source>
-        <translation>بائیں</translation>
+        <source>Position</source>
+        <translation>مقام</translation>
+    </message>
+    <message>
+        <source>Top</source>
+        <translation>اوپر</translation>
+    </message>
+    <message>
+        <source>Bottom</source>
+        <translation>نیچے</translation>
     </message>
     <message>
         <source>When open</source>
@@ -496,6 +500,10 @@
         <translation>تیر والی کلیدیں اسے منتقل کرتی ہیں، Enter اسے کھولتی ہے۔</translation>
     </message>
     <message>
+        <source>Ctrl and an arrow key put it on another edge.</source>
+        <translation>Ctrl اور تیر والی کلید اسے دوسرے کنارے پر لے جاتی ہیں۔</translation>
+    </message>
+    <message>
         <source>Width of the sidebar</source>
         <translation>سائیڈ بار کی چوڑائی</translation>
     </message>
@@ -528,8 +536,8 @@
         <translation>میں</translation>
     </message>
     <message>
-        <source>The sidebar was moved.</source>
-        <translation>سائیڈ بار منتقل ہو گیا۔</translation>
+        <source>Height of the sidebar</source>
+        <translation>سائیڈ بار کی اونچائی</translation>
     </message>
     <message>
         <source>The sidebar is on the left.</source>
@@ -538,6 +546,18 @@
     <message>
         <source>The sidebar is on the right.</source>
         <translation>سائیڈ بار دائیں طرف ہے۔</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the top.</source>
+        <translation>سائیڈ بار اوپر ہے۔</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the bottom.</source>
+        <translation>سائیڈ بار نیچے ہے۔</translation>
+    </message>
+    <message>
+        <source>The sidebar was moved.</source>
+        <translation>سائیڈ بار منتقل ہو گیا۔</translation>
     </message>
     <message>
         <source>The sidebar could not reach the server.</source>
@@ -586,6 +606,14 @@
     <message>
         <source>Dark</source>
         <translation>تاریک</translation>
+    </message>
+    <message>
+        <source>Thank you. You can go back to the page; this window closes by itself.</source>
+        <translation>شکریہ۔ آپ صفحے پر واپس جا سکتے ہیں؛ یہ ونڈو خود بند ہو جائے گی۔</translation>
+    </message>
+    <message>
+        <source>Verify it's you</source>
+        <translation>تصدیق کریں کہ یہ آپ ہیں</translation>
     </message>
 </context>
 </TS>

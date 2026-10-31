@@ -80,20 +80,12 @@
         <translation>Nid hon yw'r rhestr o dudalennau yma.</translation>
     </message>
     <message>
-        <source>The input is not JSON.</source>
-        <translation>Nid JSON yw'r mewnbwn.</translation>
-    </message>
-    <message>
         <source>This action changes something: send it with expwtWrite.</source>
         <translation>Mae'r weithred hon yn newid rhywbeth: anfonwch hi gydag expwtWrite.</translation>
     </message>
     <message>
-        <source>Verify it's you</source>
-        <translation>Dilyswch mai chi sydd yno</translation>
-    </message>
-    <message>
-        <source>Thank you. You can go back to the page; this window closes by itself.</source>
-        <translation>Diolch. Gallwch fynd yn ôl i'r dudalen; mae'r ffenestr hon yn cau ohoni ei hun.</translation>
+        <source>The input is not JSON.</source>
+        <translation>Nid JSON yw'r mewnbwn.</translation>
     </message>
     <message>
         <source>Something went wrong.</source>
@@ -448,16 +440,28 @@
         <translation>Y bar ochr</translation>
     </message>
     <message>
-        <source>Side</source>
-        <translation>Ochr</translation>
+        <source>Anchored at</source>
+        <translation>Wedi'i angori wrth</translation>
+    </message>
+    <message>
+        <source>Left</source>
+        <translation>Chwith</translation>
     </message>
     <message>
         <source>Right</source>
         <translation>De</translation>
     </message>
     <message>
-        <source>Left</source>
-        <translation>Chwith</translation>
+        <source>Position</source>
+        <translation>Safle</translation>
+    </message>
+    <message>
+        <source>Top</source>
+        <translation>Brig</translation>
+    </message>
+    <message>
+        <source>Bottom</source>
+        <translation>Gwaelod</translation>
     </message>
     <message>
         <source>When open</source>
@@ -496,6 +500,10 @@
         <translation>Mae'r bysellau saeth yn ei symud, mae Enter yn ei agor.</translation>
     </message>
     <message>
+        <source>Ctrl and an arrow key put it on another edge.</source>
+        <translation>Mae Ctrl a bysell saeth yn ei roi ar ymyl arall.</translation>
+    </message>
+    <message>
         <source>Width of the sidebar</source>
         <translation>Lled y bar ochr</translation>
     </message>
@@ -528,8 +536,8 @@
         <translation>Fi</translation>
     </message>
     <message>
-        <source>The sidebar was moved.</source>
-        <translation>Mae'r bar ochr wedi'i symud.</translation>
+        <source>Height of the sidebar</source>
+        <translation>Uchder y bar ochr</translation>
     </message>
     <message>
         <source>The sidebar is on the left.</source>
@@ -538,6 +546,18 @@
     <message>
         <source>The sidebar is on the right.</source>
         <translation>Mae'r bar ochr ar y dde.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the top.</source>
+        <translation>Mae'r bar ochr ar y brig.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the bottom.</source>
+        <translation>Mae'r bar ochr ar y gwaelod.</translation>
+    </message>
+    <message>
+        <source>The sidebar was moved.</source>
+        <translation>Mae'r bar ochr wedi'i symud.</translation>
     </message>
     <message>
         <source>The sidebar could not reach the server.</source>
@@ -586,6 +606,14 @@
     <message>
         <source>Dark</source>
         <translation>Tywyll</translation>
+    </message>
+    <message>
+        <source>Thank you. You can go back to the page; this window closes by itself.</source>
+        <translation>Diolch. Gallwch fynd yn ôl i'r dudalen; mae'r ffenestr hon yn cau ohoni ei hun.</translation>
+    </message>
+    <message>
+        <source>Verify it's you</source>
+        <translation>Dilyswch mai chi sydd yno</translation>
     </message>
 </context>
 </TS>

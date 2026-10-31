@@ -80,20 +80,12 @@
         <translation>Hic non est index paginarum huius loci.</translation>
     </message>
     <message>
-        <source>The input is not JSON.</source>
-        <translation>Inductum non est JSON.</translation>
-    </message>
-    <message>
         <source>This action changes something: send it with expwtWrite.</source>
         <translation>Haec actio aliquid mutat: per expwtWrite eam mitte.</translation>
     </message>
     <message>
-        <source>Verify it's you</source>
-        <translation>Confirma te esse</translation>
-    </message>
-    <message>
-        <source>Thank you. You can go back to the page; this window closes by itself.</source>
-        <translation>Gratias. Ad paginam redire potes; haec fenestra sua sponte clauditur.</translation>
+        <source>The input is not JSON.</source>
+        <translation>Inductum non est JSON.</translation>
     </message>
     <message>
         <source>Something went wrong.</source>
@@ -448,16 +440,28 @@
         <translation>Tabula lateralis</translation>
     </message>
     <message>
-        <source>Side</source>
-        <translation>Latus</translation>
+        <source>Anchored at</source>
+        <translation>Affixa ad</translation>
+    </message>
+    <message>
+        <source>Left</source>
+        <translation>Sinistra</translation>
     </message>
     <message>
         <source>Right</source>
         <translation>Dextra</translation>
     </message>
     <message>
-        <source>Left</source>
-        <translation>Sinistra</translation>
+        <source>Position</source>
+        <translation>Positio</translation>
+    </message>
+    <message>
+        <source>Top</source>
+        <translation>Supra</translation>
+    </message>
+    <message>
+        <source>Bottom</source>
+        <translation>Infra</translation>
     </message>
     <message>
         <source>When open</source>
@@ -496,6 +500,10 @@
         <translation>Claves sagittarum eam movent, Enter eam aperit.</translation>
     </message>
     <message>
+        <source>Ctrl and an arrow key put it on another edge.</source>
+        <translation>Ctrl et clavis sagittae eam ad aliam oram ponunt.</translation>
+    </message>
+    <message>
         <source>Width of the sidebar</source>
         <translation>Latitudo tabulae lateralis</translation>
     </message>
@@ -528,8 +536,8 @@
         <translation>Ego</translation>
     </message>
     <message>
-        <source>The sidebar was moved.</source>
-        <translation>Tabula lateralis mota est.</translation>
+        <source>Height of the sidebar</source>
+        <translation>Altitudo tabulae lateralis</translation>
     </message>
     <message>
         <source>The sidebar is on the left.</source>
@@ -538,6 +546,18 @@
     <message>
         <source>The sidebar is on the right.</source>
         <translation>Tabula lateralis a dextra est.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the top.</source>
+        <translation>Tabula lateralis supra est.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the bottom.</source>
+        <translation>Tabula lateralis infra est.</translation>
+    </message>
+    <message>
+        <source>The sidebar was moved.</source>
+        <translation>Tabula lateralis mota est.</translation>
     </message>
     <message>
         <source>The sidebar could not reach the server.</source>
@@ -586,6 +606,14 @@
     <message>
         <source>Dark</source>
         <translation>Obscurum</translation>
+    </message>
+    <message>
+        <source>Thank you. You can go back to the page; this window closes by itself.</source>
+        <translation>Gratias. Ad paginam redire potes; haec fenestra sua sponte clauditur.</translation>
+    </message>
+    <message>
+        <source>Verify it's you</source>
+        <translation>Confirma te esse</translation>
     </message>
 </context>
 </TS>

@@ -80,20 +80,12 @@
         <translation>Đây không phải danh sách các trang ở đây.</translation>
     </message>
     <message>
-        <source>The input is not JSON.</source>
-        <translation>Dữ liệu đầu vào không phải JSON.</translation>
-    </message>
-    <message>
         <source>This action changes something: send it with expwtWrite.</source>
         <translation>Thao tác này thay đổi dữ liệu: hãy gửi bằng expwtWrite.</translation>
     </message>
     <message>
-        <source>Verify it's you</source>
-        <translation>Xác minh đó là bạn</translation>
-    </message>
-    <message>
-        <source>Thank you. You can go back to the page; this window closes by itself.</source>
-        <translation>Cảm ơn. Bạn có thể quay lại trang; cửa sổ này sẽ tự đóng.</translation>
+        <source>The input is not JSON.</source>
+        <translation>Dữ liệu đầu vào không phải JSON.</translation>
     </message>
     <message>
         <source>Something went wrong.</source>
@@ -448,16 +440,28 @@
         <translation>Thanh bên</translation>
     </message>
     <message>
-        <source>Side</source>
-        <translation>Phía</translation>
+        <source>Anchored at</source>
+        <translation>Neo tại</translation>
+    </message>
+    <message>
+        <source>Left</source>
+        <translation>Trái</translation>
     </message>
     <message>
         <source>Right</source>
         <translation>Phải</translation>
     </message>
     <message>
-        <source>Left</source>
-        <translation>Trái</translation>
+        <source>Position</source>
+        <translation>Vị trí</translation>
+    </message>
+    <message>
+        <source>Top</source>
+        <translation>Trên</translation>
+    </message>
+    <message>
+        <source>Bottom</source>
+        <translation>Dưới</translation>
     </message>
     <message>
         <source>When open</source>
@@ -496,6 +500,10 @@
         <translation>Phím mũi tên để di chuyển, Enter để mở.</translation>
     </message>
     <message>
+        <source>Ctrl and an arrow key put it on another edge.</source>
+        <translation>Ctrl và một phím mũi tên đưa nó sang cạnh khác.</translation>
+    </message>
+    <message>
         <source>Width of the sidebar</source>
         <translation>Độ rộng thanh bên</translation>
     </message>
@@ -528,8 +536,8 @@
         <translation>Tôi</translation>
     </message>
     <message>
-        <source>The sidebar was moved.</source>
-        <translation>Đã di chuyển thanh bên.</translation>
+        <source>Height of the sidebar</source>
+        <translation>Chiều cao thanh bên</translation>
     </message>
     <message>
         <source>The sidebar is on the left.</source>
@@ -538,6 +546,18 @@
     <message>
         <source>The sidebar is on the right.</source>
         <translation>Thanh bên ở bên phải.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the top.</source>
+        <translation>Thanh bên ở trên cùng.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the bottom.</source>
+        <translation>Thanh bên ở dưới cùng.</translation>
+    </message>
+    <message>
+        <source>The sidebar was moved.</source>
+        <translation>Đã di chuyển thanh bên.</translation>
     </message>
     <message>
         <source>The sidebar could not reach the server.</source>
@@ -586,6 +606,14 @@
     <message>
         <source>Dark</source>
         <translation>Tối</translation>
+    </message>
+    <message>
+        <source>Thank you. You can go back to the page; this window closes by itself.</source>
+        <translation>Cảm ơn. Bạn có thể quay lại trang; cửa sổ này sẽ tự đóng.</translation>
+    </message>
+    <message>
+        <source>Verify it's you</source>
+        <translation>Xác minh đó là bạn</translation>
     </message>
 </context>
 </TS>

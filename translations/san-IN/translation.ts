@@ -80,20 +80,12 @@
         <translation>एषा अत्रत्यपृष्ठानां सूची न।</translation>
     </message>
     <message>
-        <source>The input is not JSON.</source>
-        <translation>निवेशः JSON न।</translation>
-    </message>
-    <message>
         <source>This action changes something: send it with expwtWrite.</source>
         <translation>इयं क्रिया किञ्चित् परिवर्तयति: expwtWrite द्वारा प्रेषयतु।</translation>
     </message>
     <message>
-        <source>Verify it's you</source>
-        <translation>भवान् एव इति सत्यापयतु</translation>
-    </message>
-    <message>
-        <source>Thank you. You can go back to the page; this window closes by itself.</source>
-        <translation>धन्यवादः। भवान् पृष्ठं प्रति प्रत्यागन्तुं शक्नोति; इदं गवाक्षं स्वयमेव पिधीयते।</translation>
+        <source>The input is not JSON.</source>
+        <translation>निवेशः JSON न।</translation>
     </message>
     <message>
         <source>Something went wrong.</source>
@@ -448,16 +440,28 @@
         <translation>पार्श्वपट्टिका</translation>
     </message>
     <message>
-        <source>Side</source>
-        <translation>पार्श्वः</translation>
+        <source>Anchored at</source>
+        <translation>आश्रितपार्श्वः</translation>
+    </message>
+    <message>
+        <source>Left</source>
+        <translation>वामम्</translation>
     </message>
     <message>
         <source>Right</source>
         <translation>दक्षिणम्</translation>
     </message>
     <message>
-        <source>Left</source>
-        <translation>वामम्</translation>
+        <source>Position</source>
+        <translation>स्थानम्</translation>
+    </message>
+    <message>
+        <source>Top</source>
+        <translation>ऊर्ध्वम्</translation>
+    </message>
+    <message>
+        <source>Bottom</source>
+        <translation>अधः</translation>
     </message>
     <message>
         <source>When open</source>
@@ -496,6 +500,10 @@
         <translation>बाणकुञ्चिकाः तां चालयन्ति, Enter ताम् उद्घाटयति।</translation>
     </message>
     <message>
+        <source>Ctrl and an arrow key put it on another edge.</source>
+        <translation>Ctrl बाणकुञ्चिका च ताम् अन्यम् अन्तं नयतः।</translation>
+    </message>
+    <message>
         <source>Width of the sidebar</source>
         <translation>पार्श्वपट्टिकायाः विस्तारः</translation>
     </message>
@@ -528,8 +536,8 @@
         <translation>अहम्</translation>
     </message>
     <message>
-        <source>The sidebar was moved.</source>
-        <translation>पार्श्वपट्टिका स्थानान्तरिता।</translation>
+        <source>Height of the sidebar</source>
+        <translation>पार्श्वपट्टिकायाः उच्चता</translation>
     </message>
     <message>
         <source>The sidebar is on the left.</source>
@@ -538,6 +546,18 @@
     <message>
         <source>The sidebar is on the right.</source>
         <translation>पार्श्वपट्टिका दक्षिणभागे अस्ति।</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the top.</source>
+        <translation>पार्श्वपट्टिका उपरिभागे अस्ति।</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the bottom.</source>
+        <translation>पार्श्वपट्टिका अधोभागे अस्ति।</translation>
+    </message>
+    <message>
+        <source>The sidebar was moved.</source>
+        <translation>पार्श्वपट्टिका स्थानान्तरिता।</translation>
     </message>
     <message>
         <source>The sidebar could not reach the server.</source>
@@ -586,6 +606,14 @@
     <message>
         <source>Dark</source>
         <translation>अन्धकारः</translation>
+    </message>
+    <message>
+        <source>Thank you. You can go back to the page; this window closes by itself.</source>
+        <translation>धन्यवादः। भवान् पृष्ठं प्रति प्रत्यागन्तुं शक्नोति; इदं गवाक्षं स्वयमेव पिधीयते।</translation>
+    </message>
+    <message>
+        <source>Verify it's you</source>
+        <translation>भवान् एव इति सत्यापयतु</translation>
     </message>
 </context>
 </TS>

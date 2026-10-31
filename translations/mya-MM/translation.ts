@@ -80,20 +80,12 @@
         <translation>ဤအရာသည် ဤနေရာရှိ စာမျက်နှာစာရင်း မဟုတ်ပါ။</translation>
     </message>
     <message>
-        <source>The input is not JSON.</source>
-        <translation>ထည့်သွင်းချက်သည် JSON မဟုတ်ပါ။</translation>
-    </message>
-    <message>
         <source>This action changes something: send it with expwtWrite.</source>
         <translation>ဤလုပ်ဆောင်ချက်သည် တစ်ခုခုကို ပြောင်းလဲသည်- expwtWrite ဖြင့် ပို့ပါ။</translation>
     </message>
     <message>
-        <source>Verify it's you</source>
-        <translation>သင်ဖြစ်ကြောင်း အတည်ပြုပါ</translation>
-    </message>
-    <message>
-        <source>Thank you. You can go back to the page; this window closes by itself.</source>
-        <translation>ကျေးဇူးတင်ပါသည်။ စာမျက်နှာသို့ ပြန်သွားနိုင်ပါသည်၊ ဤဝင်းဒိုး အလိုအလျောက် ပိတ်မည်။</translation>
+        <source>The input is not JSON.</source>
+        <translation>ထည့်သွင်းချက်သည် JSON မဟုတ်ပါ။</translation>
     </message>
     <message>
         <source>Something went wrong.</source>
@@ -448,16 +440,28 @@
         <translation>ဘေးဘား</translation>
     </message>
     <message>
-        <source>Side</source>
-        <translation>ဘက်</translation>
+        <source>Anchored at</source>
+        <translation>ချိတ်ထားရာ</translation>
+    </message>
+    <message>
+        <source>Left</source>
+        <translation>ဘယ်</translation>
     </message>
     <message>
         <source>Right</source>
         <translation>ညာ</translation>
     </message>
     <message>
-        <source>Left</source>
-        <translation>ဘယ်</translation>
+        <source>Position</source>
+        <translation>နေရာ</translation>
+    </message>
+    <message>
+        <source>Top</source>
+        <translation>အပေါ်</translation>
+    </message>
+    <message>
+        <source>Bottom</source>
+        <translation>အောက်</translation>
     </message>
     <message>
         <source>When open</source>
@@ -496,6 +500,10 @@
         <translation>မြှားခလုတ်များက ရွှေ့ပြီး Enter က ဖွင့်သည်။</translation>
     </message>
     <message>
+        <source>Ctrl and an arrow key put it on another edge.</source>
+        <translation>Ctrl နှင့် မြှားခလုတ်က အခြားအစွန်းသို့ ရွှေ့သည်။</translation>
+    </message>
+    <message>
         <source>Width of the sidebar</source>
         <translation>ဘေးဘား၏ အကျယ်</translation>
     </message>
@@ -528,8 +536,8 @@
         <translation>ကျွန်ုပ်</translation>
     </message>
     <message>
-        <source>The sidebar was moved.</source>
-        <translation>ဘေးဘားကို ရွှေ့ပြီးပါပြီ။</translation>
+        <source>Height of the sidebar</source>
+        <translation>ဘေးဘား၏ အမြင့်</translation>
     </message>
     <message>
         <source>The sidebar is on the left.</source>
@@ -538,6 +546,18 @@
     <message>
         <source>The sidebar is on the right.</source>
         <translation>ဘေးဘားသည် ညာဘက်တွင် ရှိသည်။</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the top.</source>
+        <translation>ဘေးဘားသည် အပေါ်တွင် ရှိသည်။</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the bottom.</source>
+        <translation>ဘေးဘားသည် အောက်တွင် ရှိသည်။</translation>
+    </message>
+    <message>
+        <source>The sidebar was moved.</source>
+        <translation>ဘေးဘားကို ရွှေ့ပြီးပါပြီ။</translation>
     </message>
     <message>
         <source>The sidebar could not reach the server.</source>
@@ -586,6 +606,14 @@
     <message>
         <source>Dark</source>
         <translation>အမှောင်</translation>
+    </message>
+    <message>
+        <source>Thank you. You can go back to the page; this window closes by itself.</source>
+        <translation>ကျေးဇူးတင်ပါသည်။ စာမျက်နှာသို့ ပြန်သွားနိုင်ပါသည်၊ ဤဝင်းဒိုး အလိုအလျောက် ပိတ်မည်။</translation>
+    </message>
+    <message>
+        <source>Verify it's you</source>
+        <translation>သင်ဖြစ်ကြောင်း အတည်ပြုပါ</translation>
     </message>
 </context>
 </TS>

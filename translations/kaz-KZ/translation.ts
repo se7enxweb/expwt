@@ -80,20 +80,12 @@
         <translation>Бұл мұндағы беттер тізімі емес.</translation>
     </message>
     <message>
-        <source>The input is not JSON.</source>
-        <translation>Енгізілген дерек JSON емес.</translation>
-    </message>
-    <message>
         <source>This action changes something: send it with expwtWrite.</source>
         <translation>Бұл әрекет бір нәрсені өзгертеді: оны expwtWrite арқылы жіберіңіз.</translation>
     </message>
     <message>
-        <source>Verify it's you</source>
-        <translation>Бұл сіз екеніңізді растаңыз</translation>
-    </message>
-    <message>
-        <source>Thank you. You can go back to the page; this window closes by itself.</source>
-        <translation>Рахмет. Бетке қайта оралуыңызға болады; бұл терезе өзі жабылады.</translation>
+        <source>The input is not JSON.</source>
+        <translation>Енгізілген дерек JSON емес.</translation>
     </message>
     <message>
         <source>Something went wrong.</source>
@@ -448,16 +440,28 @@
         <translation>Бүйірлік панель</translation>
     </message>
     <message>
-        <source>Side</source>
-        <translation>Жағы</translation>
+        <source>Anchored at</source>
+        <translation>Бекітілген жақ</translation>
+    </message>
+    <message>
+        <source>Left</source>
+        <translation>Сол жақ</translation>
     </message>
     <message>
         <source>Right</source>
         <translation>Оң жақ</translation>
     </message>
     <message>
-        <source>Left</source>
-        <translation>Сол жақ</translation>
+        <source>Position</source>
+        <translation>Орны</translation>
+    </message>
+    <message>
+        <source>Top</source>
+        <translation>Жоғарғы жақ</translation>
+    </message>
+    <message>
+        <source>Bottom</source>
+        <translation>Төменгі жақ</translation>
     </message>
     <message>
         <source>When open</source>
@@ -496,6 +500,10 @@
         <translation>Көрсеткі пернелері жылжытады, Enter ашады.</translation>
     </message>
     <message>
+        <source>Ctrl and an arrow key put it on another edge.</source>
+        <translation>Ctrl және көрсеткі пернесі оны басқа шетке ауыстырады.</translation>
+    </message>
+    <message>
         <source>Width of the sidebar</source>
         <translation>Бүйірлік панельдің ені</translation>
     </message>
@@ -528,8 +536,8 @@
         <translation>Мен</translation>
     </message>
     <message>
-        <source>The sidebar was moved.</source>
-        <translation>Бүйірлік панель жылжытылды.</translation>
+        <source>Height of the sidebar</source>
+        <translation>Бүйірлік панельдің биіктігі</translation>
     </message>
     <message>
         <source>The sidebar is on the left.</source>
@@ -538,6 +546,18 @@
     <message>
         <source>The sidebar is on the right.</source>
         <translation>Бүйірлік панель оң жақта.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the top.</source>
+        <translation>Бүйірлік панель жоғарыда.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the bottom.</source>
+        <translation>Бүйірлік панель төменде.</translation>
+    </message>
+    <message>
+        <source>The sidebar was moved.</source>
+        <translation>Бүйірлік панель жылжытылды.</translation>
     </message>
     <message>
         <source>The sidebar could not reach the server.</source>
@@ -586,6 +606,14 @@
     <message>
         <source>Dark</source>
         <translation>Қараңғы</translation>
+    </message>
+    <message>
+        <source>Thank you. You can go back to the page; this window closes by itself.</source>
+        <translation>Рахмет. Бетке қайта оралуыңызға болады; бұл терезе өзі жабылады.</translation>
+    </message>
+    <message>
+        <source>Verify it's you</source>
+        <translation>Бұл сіз екеніңізді растаңыз</translation>
     </message>
 </context>
 </TS>

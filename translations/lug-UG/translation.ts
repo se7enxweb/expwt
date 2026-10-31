@@ -80,20 +80,12 @@
         <translation>Kino si lukalala lwa mpapula wano.</translation>
     </message>
     <message>
-        <source>The input is not JSON.</source>
-        <translation>Ekiyingiziddwa si JSON.</translation>
-    </message>
-    <message>
         <source>This action changes something: send it with expwtWrite.</source>
         <translation>Ekikolwa kino kikyusa ekintu: kiweereze ne expwtWrite.</translation>
     </message>
     <message>
-        <source>Verify it's you</source>
-        <translation>Kakasa nti ggwe</translation>
-    </message>
-    <message>
-        <source>Thank you. You can go back to the page; this window closes by itself.</source>
-        <translation>Webale. Oyinza okudda ku lupapula; eddirisa lino lijja kweggalawo lyokka.</translation>
+        <source>The input is not JSON.</source>
+        <translation>Ekiyingiziddwa si JSON.</translation>
     </message>
     <message>
         <source>Something went wrong.</source>
@@ -448,16 +440,28 @@
         <translation>Ekiwayi ky'ebbali</translation>
     </message>
     <message>
-        <source>Side</source>
-        <translation>Oludda</translation>
+        <source>Anchored at</source>
+        <translation>Kisibiddwa ku</translation>
+    </message>
+    <message>
+        <source>Left</source>
+        <translation>Kkono</translation>
     </message>
     <message>
         <source>Right</source>
         <translation>Ddyo</translation>
     </message>
     <message>
-        <source>Left</source>
-        <translation>Kkono</translation>
+        <source>Position</source>
+        <translation>Ekifo</translation>
+    </message>
+    <message>
+        <source>Top</source>
+        <translation>Waggulu</translation>
+    </message>
+    <message>
+        <source>Bottom</source>
+        <translation>Wansi</translation>
     </message>
     <message>
         <source>When open</source>
@@ -496,6 +500,10 @@
         <translation>Obusaale bukijjulula, Enter ekiggulawo.</translation>
     </message>
     <message>
+        <source>Ctrl and an arrow key put it on another edge.</source>
+        <translation>Ctrl n'akasaale bikitwala ku ludda olulala.</translation>
+    </message>
+    <message>
         <source>Width of the sidebar</source>
         <translation>Obugazi bw'ekiwayi ky'ebbali</translation>
     </message>
@@ -528,8 +536,8 @@
         <translation>Nze</translation>
     </message>
     <message>
-        <source>The sidebar was moved.</source>
-        <translation>Ekiwayi ky'ebbali kijjuluddwa.</translation>
+        <source>Height of the sidebar</source>
+        <translation>Obuwanvu bw'ekiwayi ky'ebbali</translation>
     </message>
     <message>
         <source>The sidebar is on the left.</source>
@@ -538,6 +546,18 @@
     <message>
         <source>The sidebar is on the right.</source>
         <translation>Ekiwayi ky'ebbali kiri ku ddyo.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the top.</source>
+        <translation>Ekiwayi ky'ebbali kiri waggulu.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the bottom.</source>
+        <translation>Ekiwayi ky'ebbali kiri wansi.</translation>
+    </message>
+    <message>
+        <source>The sidebar was moved.</source>
+        <translation>Ekiwayi ky'ebbali kijjuluddwa.</translation>
     </message>
     <message>
         <source>The sidebar could not reach the server.</source>
@@ -586,6 +606,14 @@
     <message>
         <source>Dark</source>
         <translation>Kizikiza</translation>
+    </message>
+    <message>
+        <source>Thank you. You can go back to the page; this window closes by itself.</source>
+        <translation>Webale. Oyinza okudda ku lupapula; eddirisa lino lijja kweggalawo lyokka.</translation>
+    </message>
+    <message>
+        <source>Verify it's you</source>
+        <translation>Kakasa nti ggwe</translation>
     </message>
 </context>
 </TS>

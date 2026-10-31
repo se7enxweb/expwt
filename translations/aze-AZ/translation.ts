@@ -80,20 +80,12 @@
         <translation>Bu, buradakı səhifələrin siyahısı deyil.</translation>
     </message>
     <message>
-        <source>The input is not JSON.</source>
-        <translation>Giriş JSON deyil.</translation>
-    </message>
-    <message>
         <source>This action changes something: send it with expwtWrite.</source>
         <translation>Bu əməliyyat nəyisə dəyişir: onu expwtWrite ilə göndərin.</translation>
     </message>
     <message>
-        <source>Verify it's you</source>
-        <translation>Siz olduğunuzu təsdiqləyin</translation>
-    </message>
-    <message>
-        <source>Thank you. You can go back to the page; this window closes by itself.</source>
-        <translation>Təşəkkür edirik. Səhifəyə qayıda bilərsiniz; bu pəncərə özü bağlanır.</translation>
+        <source>The input is not JSON.</source>
+        <translation>Giriş JSON deyil.</translation>
     </message>
     <message>
         <source>Something went wrong.</source>
@@ -448,16 +440,28 @@
         <translation>Yan panel</translation>
     </message>
     <message>
-        <source>Side</source>
-        <translation>Tərəf</translation>
+        <source>Anchored at</source>
+        <translation>Bərkidildiyi tərəf</translation>
+    </message>
+    <message>
+        <source>Left</source>
+        <translation>Sol</translation>
     </message>
     <message>
         <source>Right</source>
         <translation>Sağ</translation>
     </message>
     <message>
-        <source>Left</source>
-        <translation>Sol</translation>
+        <source>Position</source>
+        <translation>Mövqe</translation>
+    </message>
+    <message>
+        <source>Top</source>
+        <translation>Yuxarı</translation>
+    </message>
+    <message>
+        <source>Bottom</source>
+        <translation>Aşağı</translation>
     </message>
     <message>
         <source>When open</source>
@@ -496,6 +500,10 @@
         <translation>Ox düymələri onu hərəkət etdirir, Enter açır.</translation>
     </message>
     <message>
+        <source>Ctrl and an arrow key put it on another edge.</source>
+        <translation>Ctrl və ox düyməsi onu başqa kənara keçirir.</translation>
+    </message>
+    <message>
         <source>Width of the sidebar</source>
         <translation>Yan panelin eni</translation>
     </message>
@@ -528,8 +536,8 @@
         <translation>Mən</translation>
     </message>
     <message>
-        <source>The sidebar was moved.</source>
-        <translation>Yan panel köçürüldü.</translation>
+        <source>Height of the sidebar</source>
+        <translation>Yan panelin hündürlüyü</translation>
     </message>
     <message>
         <source>The sidebar is on the left.</source>
@@ -538,6 +546,18 @@
     <message>
         <source>The sidebar is on the right.</source>
         <translation>Yan panel sağdadır.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the top.</source>
+        <translation>Yan panel yuxarıdadır.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the bottom.</source>
+        <translation>Yan panel aşağıdadır.</translation>
+    </message>
+    <message>
+        <source>The sidebar was moved.</source>
+        <translation>Yan panel köçürüldü.</translation>
     </message>
     <message>
         <source>The sidebar could not reach the server.</source>
@@ -586,6 +606,14 @@
     <message>
         <source>Dark</source>
         <translation>Qaranlıq</translation>
+    </message>
+    <message>
+        <source>Thank you. You can go back to the page; this window closes by itself.</source>
+        <translation>Təşəkkür edirik. Səhifəyə qayıda bilərsiniz; bu pəncərə özü bağlanır.</translation>
+    </message>
+    <message>
+        <source>Verify it's you</source>
+        <translation>Siz olduğunuzu təsdiqləyin</translation>
     </message>
 </context>
 </TS>

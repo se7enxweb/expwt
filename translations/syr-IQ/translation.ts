@@ -80,20 +80,12 @@
         <translation>ܗܕܐ ܠܐ ܗܘܬ ܪܫܝܡܬܐ ܕܦܐܬ̈ܐ ܕܗܪܟܐ.</translation>
     </message>
     <message>
-        <source>The input is not JSON.</source>
-        <translation>ܡܥܠܢܐ ܠܐ ܗܘܐ JSON.</translation>
-    </message>
-    <message>
         <source>This action changes something: send it with expwtWrite.</source>
         <translation>ܥܒܕܐ ܗܢܐ ܡܫܚܠܦ ܡܕܡ: ܫܕܪܝܗܝ ܒܝܕ expwtWrite.</translation>
     </message>
     <message>
-        <source>Verify it's you</source>
-        <translation>ܫܪܪ ܕܐܢܬ ܗܘ</translation>
-    </message>
-    <message>
-        <source>Thank you. You can go back to the page; this window closes by itself.</source>
-        <translation>ܬܘܕܝ. ܡܫܟܚ ܐܢܬ ܠܡܗܦܟܘ ܠܦܐܬܐ؛ ܟܘܬܐ ܗܕܐ ܡܬܬܚܕܐ ܡܢ ܢܦܫܗ̇.</translation>
+        <source>The input is not JSON.</source>
+        <translation>ܡܥܠܢܐ ܠܐ ܗܘܐ JSON.</translation>
     </message>
     <message>
         <source>Something went wrong.</source>
@@ -448,16 +440,28 @@
         <translation>ܣܪܓܐ ܕܓܢܒܐ</translation>
     </message>
     <message>
-        <source>Side</source>
-        <translation>ܓܢܒܐ</translation>
+        <source>Anchored at</source>
+        <translation>ܩܒܝܥ ܒ</translation>
+    </message>
+    <message>
+        <source>Left</source>
+        <translation>ܣܡܠܐ</translation>
     </message>
     <message>
         <source>Right</source>
         <translation>ܝܡܝܢܐ</translation>
     </message>
     <message>
-        <source>Left</source>
-        <translation>ܣܡܠܐ</translation>
+        <source>Position</source>
+        <translation>ܕܘܟܬܐ</translation>
+    </message>
+    <message>
+        <source>Top</source>
+        <translation>ܠܥܠ</translation>
+    </message>
+    <message>
+        <source>Bottom</source>
+        <translation>ܠܬܚܬ</translation>
     </message>
     <message>
         <source>When open</source>
@@ -496,6 +500,10 @@
         <translation>ܩܠܝܕ̈ܐ ܕܓܐܪ̈ܐ ܡܫܢܝܢ ܠܗ، Enter ܦܬܚ ܠܗ.</translation>
     </message>
     <message>
+        <source>Ctrl and an arrow key put it on another edge.</source>
+        <translation>Ctrl ܘܩܠܝܕܐ ܕܓܐܪܐ ܡܫܢܝܢ ܠܗ ܠܣܦܬܐ ܐܚܪܬܐ.</translation>
+    </message>
+    <message>
         <source>Width of the sidebar</source>
         <translation>ܦܬܝܘܬܐ ܕܣܪܓܐ ܕܓܢܒܐ</translation>
     </message>
@@ -528,8 +536,8 @@
         <translation>ܐܢܐ</translation>
     </message>
     <message>
-        <source>The sidebar was moved.</source>
-        <translation>ܣܪܓܐ ܕܓܢܒܐ ܐܫܬܢܝ.</translation>
+        <source>Height of the sidebar</source>
+        <translation>ܪܘܡܐ ܕܣܪܓܐ ܕܓܢܒܐ</translation>
     </message>
     <message>
         <source>The sidebar is on the left.</source>
@@ -538,6 +546,18 @@
     <message>
         <source>The sidebar is on the right.</source>
         <translation>ܣܪܓܐ ܕܓܢܒܐ ܒܝܡܝܢܐ.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the top.</source>
+        <translation>ܣܪܓܐ ܕܓܢܒܐ ܠܥܠ.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the bottom.</source>
+        <translation>ܣܪܓܐ ܕܓܢܒܐ ܠܬܚܬ.</translation>
+    </message>
+    <message>
+        <source>The sidebar was moved.</source>
+        <translation>ܣܪܓܐ ܕܓܢܒܐ ܐܫܬܢܝ.</translation>
     </message>
     <message>
         <source>The sidebar could not reach the server.</source>
@@ -586,6 +606,14 @@
     <message>
         <source>Dark</source>
         <translation>ܚܫܘܟܐ</translation>
+    </message>
+    <message>
+        <source>Thank you. You can go back to the page; this window closes by itself.</source>
+        <translation>ܬܘܕܝ. ܡܫܟܚ ܐܢܬ ܠܡܗܦܟܘ ܠܦܐܬܐ؛ ܟܘܬܐ ܗܕܐ ܡܬܬܚܕܐ ܡܢ ܢܦܫܗ̇.</translation>
+    </message>
+    <message>
+        <source>Verify it's you</source>
+        <translation>ܫܪܪ ܕܐܢܬ ܗܘ</translation>
     </message>
 </context>
 </TS>

@@ -80,20 +80,12 @@
         <translation>ଏହା ଏଠାକାର ପୃଷ୍ଠାଗୁଡ଼ିକର ତାଲିକା ନୁହେଁ।</translation>
     </message>
     <message>
-        <source>The input is not JSON.</source>
-        <translation>ଇନପୁଟ୍ JSON ନୁହେଁ।</translation>
-    </message>
-    <message>
         <source>This action changes something: send it with expwtWrite.</source>
         <translation>ଏହି କାର୍ଯ୍ୟ କିଛି ବଦଳାଏ: ଏହାକୁ expwtWrite ସହ ପଠାନ୍ତୁ।</translation>
     </message>
     <message>
-        <source>Verify it's you</source>
-        <translation>ଏହା ଆପଣ ବୋଲି ନିଶ୍ଚିତ କରନ୍ତୁ</translation>
-    </message>
-    <message>
-        <source>Thank you. You can go back to the page; this window closes by itself.</source>
-        <translation>ଧନ୍ୟବାଦ। ଆପଣ ପୃଷ୍ଠାକୁ ଫେରିପାରିବେ; ଏହି ୱିଣ୍ଡୋ ନିଜେ ବନ୍ଦ ହୋଇଯିବ।</translation>
+        <source>The input is not JSON.</source>
+        <translation>ଇନପୁଟ୍ JSON ନୁହେଁ।</translation>
     </message>
     <message>
         <source>Something went wrong.</source>
@@ -448,16 +440,28 @@
         <translation>ସାଇଡବାର୍</translation>
     </message>
     <message>
-        <source>Side</source>
-        <translation>ପାର୍ଶ୍ୱ</translation>
+        <source>Anchored at</source>
+        <translation>ସଂଲଗ୍ନ ପାର୍ଶ୍ୱ</translation>
+    </message>
+    <message>
+        <source>Left</source>
+        <translation>ବାମ</translation>
     </message>
     <message>
         <source>Right</source>
         <translation>ଡାହାଣ</translation>
     </message>
     <message>
-        <source>Left</source>
-        <translation>ବାମ</translation>
+        <source>Position</source>
+        <translation>ସ୍ଥାନ</translation>
+    </message>
+    <message>
+        <source>Top</source>
+        <translation>ଉପର</translation>
+    </message>
+    <message>
+        <source>Bottom</source>
+        <translation>ତଳ</translation>
     </message>
     <message>
         <source>When open</source>
@@ -496,6 +500,10 @@
         <translation>ତୀର ଚାବି ଏହାକୁ ଘୁଞ୍ଚାଏ, Enter ଏହାକୁ ଖୋଲେ।</translation>
     </message>
     <message>
+        <source>Ctrl and an arrow key put it on another edge.</source>
+        <translation>Ctrl ଓ ଏକ ତୀର ଚାବି ଏହାକୁ ଅନ୍ୟ ଧାରକୁ ଘୁଞ୍ଚାଏ।</translation>
+    </message>
+    <message>
         <source>Width of the sidebar</source>
         <translation>ସାଇଡବାରର ଓସାର</translation>
     </message>
@@ -528,8 +536,8 @@
         <translation>ମୁଁ</translation>
     </message>
     <message>
-        <source>The sidebar was moved.</source>
-        <translation>ସାଇଡବାର୍ ଘୁଞ୍ଚାଗଲା।</translation>
+        <source>Height of the sidebar</source>
+        <translation>ସାଇଡବାରର ଉଚ୍ଚତା</translation>
     </message>
     <message>
         <source>The sidebar is on the left.</source>
@@ -538,6 +546,18 @@
     <message>
         <source>The sidebar is on the right.</source>
         <translation>ସାଇଡବାର୍ ଡାହାଣ ପଟେ ଅଛି।</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the top.</source>
+        <translation>ସାଇଡବାର୍ ଉପରେ ଅଛି।</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the bottom.</source>
+        <translation>ସାଇଡବାର୍ ତଳେ ଅଛି।</translation>
+    </message>
+    <message>
+        <source>The sidebar was moved.</source>
+        <translation>ସାଇଡବାର୍ ଘୁଞ୍ଚାଗଲା।</translation>
     </message>
     <message>
         <source>The sidebar could not reach the server.</source>
@@ -586,6 +606,14 @@
     <message>
         <source>Dark</source>
         <translation>ଗାଢ଼</translation>
+    </message>
+    <message>
+        <source>Thank you. You can go back to the page; this window closes by itself.</source>
+        <translation>ଧନ୍ୟବାଦ। ଆପଣ ପୃଷ୍ଠାକୁ ଫେରିପାରିବେ; ଏହି ୱିଣ୍ଡୋ ନିଜେ ବନ୍ଦ ହୋଇଯିବ।</translation>
+    </message>
+    <message>
+        <source>Verify it's you</source>
+        <translation>ଏହା ଆପଣ ବୋଲି ନିଶ୍ଚିତ କରନ୍ତୁ</translation>
     </message>
 </context>
 </TS>

@@ -80,20 +80,12 @@
         <translation>Dis one no be di list of pages for here.</translation>
     </message>
     <message>
-        <source>The input is not JSON.</source>
-        <translation>Wetin you put no be JSON.</translation>
-    </message>
-    <message>
         <source>This action changes something: send it with expwtWrite.</source>
         <translation>Dis action dey change sometin: send am with expwtWrite.</translation>
     </message>
     <message>
-        <source>Verify it's you</source>
-        <translation>Show sey na you</translation>
-    </message>
-    <message>
-        <source>Thank you. You can go back to the page; this window closes by itself.</source>
-        <translation>Thank you. You fit go back to di page; dis window go close by imsef.</translation>
+        <source>The input is not JSON.</source>
+        <translation>Wetin you put no be JSON.</translation>
     </message>
     <message>
         <source>Something went wrong.</source>
@@ -448,16 +440,28 @@
         <translation>Di sidebar</translation>
     </message>
     <message>
-        <source>Side</source>
-        <translation>Side</translation>
+        <source>Anchored at</source>
+        <translation>E hook for</translation>
+    </message>
+    <message>
+        <source>Left</source>
+        <translation>Left</translation>
     </message>
     <message>
         <source>Right</source>
         <translation>Right</translation>
     </message>
     <message>
-        <source>Left</source>
-        <translation>Left</translation>
+        <source>Position</source>
+        <translation>Where e dey</translation>
+    </message>
+    <message>
+        <source>Top</source>
+        <translation>Top</translation>
+    </message>
+    <message>
+        <source>Bottom</source>
+        <translation>Bottom</translation>
     </message>
     <message>
         <source>When open</source>
@@ -496,6 +500,10 @@
         <translation>Arrow keys dey move am, Enter dey open am.</translation>
     </message>
     <message>
+        <source>Ctrl and an arrow key put it on another edge.</source>
+        <translation>Ctrl plus arrow key dey move am go another edge.</translation>
+    </message>
+    <message>
         <source>Width of the sidebar</source>
         <translation>How wide di sidebar be</translation>
     </message>
@@ -528,8 +536,8 @@
         <translation>Me</translation>
     </message>
     <message>
-        <source>The sidebar was moved.</source>
-        <translation>Di sidebar don move.</translation>
+        <source>Height of the sidebar</source>
+        <translation>How tall di sidebar be</translation>
     </message>
     <message>
         <source>The sidebar is on the left.</source>
@@ -538,6 +546,18 @@
     <message>
         <source>The sidebar is on the right.</source>
         <translation>Di sidebar dey for right.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the top.</source>
+        <translation>Di sidebar dey for top.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the bottom.</source>
+        <translation>Di sidebar dey for bottom.</translation>
+    </message>
+    <message>
+        <source>The sidebar was moved.</source>
+        <translation>Di sidebar don move.</translation>
     </message>
     <message>
         <source>The sidebar could not reach the server.</source>
@@ -586,6 +606,14 @@
     <message>
         <source>Dark</source>
         <translation>Dark</translation>
+    </message>
+    <message>
+        <source>Thank you. You can go back to the page; this window closes by itself.</source>
+        <translation>Thank you. You fit go back to di page; dis window go close by imsef.</translation>
+    </message>
+    <message>
+        <source>Verify it's you</source>
+        <translation>Show sey na you</translation>
     </message>
 </context>
 </TS>

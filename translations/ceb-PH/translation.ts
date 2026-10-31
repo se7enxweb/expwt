@@ -80,20 +80,12 @@
         <translation>Dili kini ang listahan sa mga panid dinhi.</translation>
     </message>
     <message>
-        <source>The input is not JSON.</source>
-        <translation>Ang input dili JSON.</translation>
-    </message>
-    <message>
         <source>This action changes something: send it with expwtWrite.</source>
         <translation>Kini nga aksyon adunay usbon: ipadala kini pinaagi sa expwtWrite.</translation>
     </message>
     <message>
-        <source>Verify it's you</source>
-        <translation>Pamatud-i nga ikaw kini</translation>
-    </message>
-    <message>
-        <source>Thank you. You can go back to the page; this window closes by itself.</source>
-        <translation>Salamat. Makabalik ka na sa panid; kini nga bintana mosira ra sa iyang kaugalingon.</translation>
+        <source>The input is not JSON.</source>
+        <translation>Ang input dili JSON.</translation>
     </message>
     <message>
         <source>Something went wrong.</source>
@@ -448,16 +440,28 @@
         <translation>Ang sidebar</translation>
     </message>
     <message>
-        <source>Side</source>
-        <translation>Kilid</translation>
+        <source>Anchored at</source>
+        <translation>Gitaod sa</translation>
+    </message>
+    <message>
+        <source>Left</source>
+        <translation>Wala</translation>
     </message>
     <message>
         <source>Right</source>
         <translation>Tuo</translation>
     </message>
     <message>
-        <source>Left</source>
-        <translation>Wala</translation>
+        <source>Position</source>
+        <translation>Posisyon</translation>
+    </message>
+    <message>
+        <source>Top</source>
+        <translation>Ibabaw</translation>
+    </message>
+    <message>
+        <source>Bottom</source>
+        <translation>Ubos</translation>
     </message>
     <message>
         <source>When open</source>
@@ -496,6 +500,10 @@
         <translation>Ang mga arrow key mobalhin niini, ang Enter moabli niini.</translation>
     </message>
     <message>
+        <source>Ctrl and an arrow key put it on another edge.</source>
+        <translation>Ang Ctrl ug usa ka arrow key mobalhin niini sa laing kilid.</translation>
+    </message>
+    <message>
         <source>Width of the sidebar</source>
         <translation>Gilapdon sa sidebar</translation>
     </message>
@@ -528,8 +536,8 @@
         <translation>Ako</translation>
     </message>
     <message>
-        <source>The sidebar was moved.</source>
-        <translation>Gibalhin ang sidebar.</translation>
+        <source>Height of the sidebar</source>
+        <translation>Gitas-on sa sidebar</translation>
     </message>
     <message>
         <source>The sidebar is on the left.</source>
@@ -538,6 +546,18 @@
     <message>
         <source>The sidebar is on the right.</source>
         <translation>Ang sidebar anaa sa tuo.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the top.</source>
+        <translation>Ang sidebar anaa sa ibabaw.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the bottom.</source>
+        <translation>Ang sidebar anaa sa ubos.</translation>
+    </message>
+    <message>
+        <source>The sidebar was moved.</source>
+        <translation>Gibalhin ang sidebar.</translation>
     </message>
     <message>
         <source>The sidebar could not reach the server.</source>
@@ -586,6 +606,14 @@
     <message>
         <source>Dark</source>
         <translation>Ngitngit</translation>
+    </message>
+    <message>
+        <source>Thank you. You can go back to the page; this window closes by itself.</source>
+        <translation>Salamat. Makabalik ka na sa panid; kini nga bintana mosira ra sa iyang kaugalingon.</translation>
+    </message>
+    <message>
+        <source>Verify it's you</source>
+        <translation>Pamatud-i nga ikaw kini</translation>
     </message>
 </context>
 </TS>

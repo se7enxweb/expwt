@@ -80,20 +80,12 @@
         <translation>Iri harisi rondedzero yemapeji ari pano.</translation>
     </message>
     <message>
-        <source>The input is not JSON.</source>
-        <translation>Zvakaiswa hazvisi JSON.</translation>
-    </message>
-    <message>
         <source>This action changes something: send it with expwtWrite.</source>
         <translation>Chiito ichi chinoshandura chimwe chinhu: chitumire neexpwtWrite.</translation>
     </message>
     <message>
-        <source>Verify it's you</source>
-        <translation>Simbisa kuti ndiwe</translation>
-    </message>
-    <message>
-        <source>Thank you. You can go back to the page; this window closes by itself.</source>
-        <translation>Ndatenda. Unogona kudzokera kupeji; hwindo iri rinovhara roga.</translation>
+        <source>The input is not JSON.</source>
+        <translation>Zvakaiswa hazvisi JSON.</translation>
     </message>
     <message>
         <source>Something went wrong.</source>
@@ -448,16 +440,28 @@
         <translation>Bhaa yeparutivi</translation>
     </message>
     <message>
-        <source>Side</source>
-        <translation>Rutivi</translation>
+        <source>Anchored at</source>
+        <translation>Yakasungirirwa ku</translation>
+    </message>
+    <message>
+        <source>Left</source>
+        <translation>Kuruboshwe</translation>
     </message>
     <message>
         <source>Right</source>
         <translation>Kurudyi</translation>
     </message>
     <message>
-        <source>Left</source>
-        <translation>Kuruboshwe</translation>
+        <source>Position</source>
+        <translation>Nzvimbo</translation>
+    </message>
+    <message>
+        <source>Top</source>
+        <translation>Kumusoro</translation>
+    </message>
+    <message>
+        <source>Bottom</source>
+        <translation>Pasi</translation>
     </message>
     <message>
         <source>When open</source>
@@ -496,6 +500,10 @@
         <translation>Makiyi emiseve anoifambisa, Enter inoivhura.</translation>
     </message>
     <message>
+        <source>Ctrl and an arrow key put it on another edge.</source>
+        <translation>Ctrl nekiyi yemuseve zvinoiisa kune imwe mucheto.</translation>
+    </message>
+    <message>
         <source>Width of the sidebar</source>
         <translation>Upamhi hwebhaa yeparutivi</translation>
     </message>
@@ -528,8 +536,8 @@
         <translation>Ini</translation>
     </message>
     <message>
-        <source>The sidebar was moved.</source>
-        <translation>Bhaa yeparutivi yafambiswa.</translation>
+        <source>Height of the sidebar</source>
+        <translation>Kureba kwebhaa yeparutivi</translation>
     </message>
     <message>
         <source>The sidebar is on the left.</source>
@@ -538,6 +546,18 @@
     <message>
         <source>The sidebar is on the right.</source>
         <translation>Bhaa yeparutivi iri kurudyi.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the top.</source>
+        <translation>Bhaa yeparutivi iri kumusoro.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the bottom.</source>
+        <translation>Bhaa yeparutivi iri pasi.</translation>
+    </message>
+    <message>
+        <source>The sidebar was moved.</source>
+        <translation>Bhaa yeparutivi yafambiswa.</translation>
     </message>
     <message>
         <source>The sidebar could not reach the server.</source>
@@ -586,6 +606,14 @@
     <message>
         <source>Dark</source>
         <translation>Rima</translation>
+    </message>
+    <message>
+        <source>Thank you. You can go back to the page; this window closes by itself.</source>
+        <translation>Ndatenda. Unogona kudzokera kupeji; hwindo iri rinovhara roga.</translation>
+    </message>
+    <message>
+        <source>Verify it's you</source>
+        <translation>Simbisa kuti ndiwe</translation>
     </message>
 </context>
 </TS>

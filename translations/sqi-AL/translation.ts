@@ -80,20 +80,12 @@
         <translation>Kjo nuk është lista e faqeve këtu.</translation>
     </message>
     <message>
-        <source>The input is not JSON.</source>
-        <translation>Hyrja nuk është JSON.</translation>
-    </message>
-    <message>
         <source>This action changes something: send it with expwtWrite.</source>
         <translation>Ky veprim ndryshon diçka: dërgojeni me expwtWrite.</translation>
     </message>
     <message>
-        <source>Verify it's you</source>
-        <translation>Verifikoni që jeni ju</translation>
-    </message>
-    <message>
-        <source>Thank you. You can go back to the page; this window closes by itself.</source>
-        <translation>Faleminderit. Mund të ktheheni te faqja; kjo dritare mbyllet vetë.</translation>
+        <source>The input is not JSON.</source>
+        <translation>Hyrja nuk është JSON.</translation>
     </message>
     <message>
         <source>Something went wrong.</source>
@@ -448,16 +440,28 @@
         <translation>Shiriti anësor</translation>
     </message>
     <message>
-        <source>Side</source>
-        <translation>Ana</translation>
+        <source>Anchored at</source>
+        <translation>Ankoruar në</translation>
+    </message>
+    <message>
+        <source>Left</source>
+        <translation>Majtas</translation>
     </message>
     <message>
         <source>Right</source>
         <translation>Djathtas</translation>
     </message>
     <message>
-        <source>Left</source>
-        <translation>Majtas</translation>
+        <source>Position</source>
+        <translation>Pozicioni</translation>
+    </message>
+    <message>
+        <source>Top</source>
+        <translation>Lart</translation>
+    </message>
+    <message>
+        <source>Bottom</source>
+        <translation>Poshtë</translation>
     </message>
     <message>
         <source>When open</source>
@@ -496,6 +500,10 @@
         <translation>Tastet e shigjetave e lëvizin, Enter e hap.</translation>
     </message>
     <message>
+        <source>Ctrl and an arrow key put it on another edge.</source>
+        <translation>Ctrl dhe një shigjetë e çojnë në një skaj tjetër.</translation>
+    </message>
+    <message>
         <source>Width of the sidebar</source>
         <translation>Gjerësia e shiritit anësor</translation>
     </message>
@@ -528,8 +536,8 @@
         <translation>Unë</translation>
     </message>
     <message>
-        <source>The sidebar was moved.</source>
-        <translation>Shiriti anësor u zhvendos.</translation>
+        <source>Height of the sidebar</source>
+        <translation>Lartësia e shiritit anësor</translation>
     </message>
     <message>
         <source>The sidebar is on the left.</source>
@@ -538,6 +546,18 @@
     <message>
         <source>The sidebar is on the right.</source>
         <translation>Shiriti anësor është djathtas.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the top.</source>
+        <translation>Shiriti anësor është lart.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the bottom.</source>
+        <translation>Shiriti anësor është poshtë.</translation>
+    </message>
+    <message>
+        <source>The sidebar was moved.</source>
+        <translation>Shiriti anësor u zhvendos.</translation>
     </message>
     <message>
         <source>The sidebar could not reach the server.</source>
@@ -586,6 +606,14 @@
     <message>
         <source>Dark</source>
         <translation>E errët</translation>
+    </message>
+    <message>
+        <source>Thank you. You can go back to the page; this window closes by itself.</source>
+        <translation>Faleminderit. Mund të ktheheni te faqja; kjo dritare mbyllet vetë.</translation>
+    </message>
+    <message>
+        <source>Verify it's you</source>
+        <translation>Verifikoni që jeni ju</translation>
     </message>
 </context>
 </TS>

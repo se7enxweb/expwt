@@ -80,20 +80,12 @@
         <translation>ఇది ఇక్కడి పేజీల జాబితా కాదు.</translation>
     </message>
     <message>
-        <source>The input is not JSON.</source>
-        <translation>ఇన్‌పుట్ JSON కాదు.</translation>
-    </message>
-    <message>
         <source>This action changes something: send it with expwtWrite.</source>
         <translation>ఈ చర్య ఏదో మారుస్తుంది: దీన్ని expwtWrite తో పంపండి.</translation>
     </message>
     <message>
-        <source>Verify it's you</source>
-        <translation>ఇది మీరేనని ధృవీకరించండి</translation>
-    </message>
-    <message>
-        <source>Thank you. You can go back to the page; this window closes by itself.</source>
-        <translation>ధన్యవాదాలు. మీరు పేజీకి తిరిగి వెళ్ళవచ్చు; ఈ విండో దానంతట అదే మూసుకుంటుంది.</translation>
+        <source>The input is not JSON.</source>
+        <translation>ఇన్‌పుట్ JSON కాదు.</translation>
     </message>
     <message>
         <source>Something went wrong.</source>
@@ -448,16 +440,28 @@
         <translation>సైడ్‌బార్</translation>
     </message>
     <message>
-        <source>Side</source>
-        <translation>వైపు</translation>
+        <source>Anchored at</source>
+        <translation>అనుసంధాన వైపు</translation>
+    </message>
+    <message>
+        <source>Left</source>
+        <translation>ఎడమ</translation>
     </message>
     <message>
         <source>Right</source>
         <translation>కుడి</translation>
     </message>
     <message>
-        <source>Left</source>
-        <translation>ఎడమ</translation>
+        <source>Position</source>
+        <translation>స్థానం</translation>
+    </message>
+    <message>
+        <source>Top</source>
+        <translation>పైన</translation>
+    </message>
+    <message>
+        <source>Bottom</source>
+        <translation>కింద</translation>
     </message>
     <message>
         <source>When open</source>
@@ -496,6 +500,10 @@
         <translation>బాణం కీలు దాన్ని కదిలిస్తాయి, Enter తెరుస్తుంది.</translation>
     </message>
     <message>
+        <source>Ctrl and an arrow key put it on another edge.</source>
+        <translation>Ctrl మరియు బాణం కీ దాన్ని మరో అంచుకు కదిలిస్తాయి.</translation>
+    </message>
+    <message>
         <source>Width of the sidebar</source>
         <translation>సైడ్‌బార్ వెడల్పు</translation>
     </message>
@@ -528,8 +536,8 @@
         <translation>నేను</translation>
     </message>
     <message>
-        <source>The sidebar was moved.</source>
-        <translation>సైడ్‌బార్ తరలించబడింది.</translation>
+        <source>Height of the sidebar</source>
+        <translation>సైడ్‌బార్ ఎత్తు</translation>
     </message>
     <message>
         <source>The sidebar is on the left.</source>
@@ -538,6 +546,18 @@
     <message>
         <source>The sidebar is on the right.</source>
         <translation>సైడ్‌బార్ కుడి వైపు ఉంది.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the top.</source>
+        <translation>సైడ్‌బార్ పైన ఉంది.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the bottom.</source>
+        <translation>సైడ్‌బార్ కింద ఉంది.</translation>
+    </message>
+    <message>
+        <source>The sidebar was moved.</source>
+        <translation>సైడ్‌బార్ తరలించబడింది.</translation>
     </message>
     <message>
         <source>The sidebar could not reach the server.</source>
@@ -586,6 +606,14 @@
     <message>
         <source>Dark</source>
         <translation>ముదురు</translation>
+    </message>
+    <message>
+        <source>Thank you. You can go back to the page; this window closes by itself.</source>
+        <translation>ధన్యవాదాలు. మీరు పేజీకి తిరిగి వెళ్ళవచ్చు; ఈ విండో దానంతట అదే మూసుకుంటుంది.</translation>
+    </message>
+    <message>
+        <source>Verify it's you</source>
+        <translation>ఇది మీరేనని ధృవీకరించండి</translation>
     </message>
 </context>
 </TS>

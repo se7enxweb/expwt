@@ -80,20 +80,12 @@
         <translation>Esia menye axa siwo le afi sia ƒe xexlẽdzesi o.</translation>
     </message>
     <message>
-        <source>The input is not JSON.</source>
-        <translation>Nusi wode eme la menye JSON o.</translation>
-    </message>
-    <message>
         <source>This action changes something: send it with expwtWrite.</source>
         <translation>Dɔwɔwɔ sia trɔa nane: dɔe kple expwtWrite.</translation>
     </message>
     <message>
-        <source>Verify it's you</source>
-        <translation>Ɖe kpeɖodzi be wòe</translation>
-    </message>
-    <message>
-        <source>Thank you. You can go back to the page; this window closes by itself.</source>
-        <translation>Akpe. Àte ŋu atrɔ ayi axa la dzi; fesre sia atu le eɖokui si.</translation>
+        <source>The input is not JSON.</source>
+        <translation>Nusi wode eme la menye JSON o.</translation>
     </message>
     <message>
         <source>Something went wrong.</source>
@@ -448,16 +440,28 @@
         <translation>Axadzimɔ</translation>
     </message>
     <message>
-        <source>Side</source>
-        <translation>Axa</translation>
+        <source>Anchored at</source>
+        <translation>Wobla ɖe</translation>
+    </message>
+    <message>
+        <source>Left</source>
+        <translation>Miame</translation>
     </message>
     <message>
         <source>Right</source>
         <translation>Ɖusime</translation>
     </message>
     <message>
-        <source>Left</source>
-        <translation>Miame</translation>
+        <source>Position</source>
+        <translation>Teƒe</translation>
+    </message>
+    <message>
+        <source>Top</source>
+        <translation>Dzime</translation>
+    </message>
+    <message>
+        <source>Bottom</source>
+        <translation>Anyigbame</translation>
     </message>
     <message>
         <source>When open</source>
@@ -496,6 +500,10 @@
         <translation>Dzesidzesi ƒe safuiwo ʋãnɛ, Enter ʋunɛ.</translation>
     </message>
     <message>
+        <source>Ctrl and an arrow key put it on another edge.</source>
+        <translation>Ctrl kple dzesidzesi ƒe safui ɖeka tsɔnɛ yia go bubu.</translation>
+    </message>
+    <message>
         <source>Width of the sidebar</source>
         <translation>Axadzimɔ la ƒe kekeme</translation>
     </message>
@@ -528,8 +536,8 @@
         <translation>Nye</translation>
     </message>
     <message>
-        <source>The sidebar was moved.</source>
-        <translation>Woʋã axadzimɔ la.</translation>
+        <source>Height of the sidebar</source>
+        <translation>Axadzimɔ la ƒe kɔkɔme</translation>
     </message>
     <message>
         <source>The sidebar is on the left.</source>
@@ -538,6 +546,18 @@
     <message>
         <source>The sidebar is on the right.</source>
         <translation>Axadzimɔ la le ɖusime.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the top.</source>
+        <translation>Axadzimɔ la le dzime.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the bottom.</source>
+        <translation>Axadzimɔ la le anyigbame.</translation>
+    </message>
+    <message>
+        <source>The sidebar was moved.</source>
+        <translation>Woʋã axadzimɔ la.</translation>
     </message>
     <message>
         <source>The sidebar could not reach the server.</source>
@@ -586,6 +606,14 @@
     <message>
         <source>Dark</source>
         <translation>Viviti</translation>
+    </message>
+    <message>
+        <source>Thank you. You can go back to the page; this window closes by itself.</source>
+        <translation>Akpe. Àte ŋu atrɔ ayi axa la dzi; fesre sia atu le eɖokui si.</translation>
+    </message>
+    <message>
+        <source>Verify it's you</source>
+        <translation>Ɖe kpeɖodzi be wòe</translation>
     </message>
 </context>
 </TS>

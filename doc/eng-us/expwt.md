@@ -21,17 +21,32 @@ extensions. A dry run lists the changes first.
 
 ## The sidebar
 
-- **Where:** docked to the right edge (or the left), just below the site header, staying at the top of the window
-  once the header has scrolled away. Closed it is a tab; open it is a panel.
-- **Moving it:** drag the tab along the edge, or across to the other edge (mouse, pen or finger). With the keyboard:
-  focus the tab, the arrow keys up and down move it (Shift for bigger steps), left and right switch the side, Enter
-  opens it. **Alt+Shift+E** opens it from anywhere and puts the focus in it; Escape closes it.
-- **Width:** drag the panel's inner edge, or focus it and use the arrow keys (Home and End: narrowest and widest).
-- **Beside or over the page:** on a wide window the open panel pushes the page aside, on a phone (below 768 px) it
-  lies over the page. The Me panel lets each user choose "over the page" on a wide window too.
-- **Remembered:** side, place, width, open or closed, beside or over, and light or dark are kept for the user on the
-  server (they follow to every device), or only on this device ("Keep these settings only on this device"). A visitor
-  who is not signed in keeps them in the browser.
+- **Where:** docked to one of the four edges of the window (right by default). On the **left or right** it is a panel
+  just below the site header, staying at the top of the window once the header has scrolled away. On the **top** it is
+  a horizontal bar under the header, which stays at the top of the window once the header has scrolled away; on the
+  **bottom** it is a horizontal bar above whatever the site keeps at the bottom of the window (a fixed footer, a
+  cookie bar). On top and bottom its tab is anchored at the left or the right end of the bar. Closed it is a tab; open
+  it is a panel (left, right) or a bar (top, bottom).
+- **Moving it:** drag the tab along its edge, or to any other edge (mouse, pen or finger); it docks to the nearest
+  edge. With the keyboard, focus the tab:
+  - the arrow keys along the edge move it (Shift for bigger steps), the arrow keys across it switch to the opposite
+    edge (left and right on a side, up and down on top and bottom);
+  - **Ctrl** with an arrow key docks it to that edge; **Page Down** and **Page Up** go round the edges (right,
+    bottom, left, top);
+  - **Home** and **End** take it to the start or the end of the edge (on top and bottom: anchored at the left or the
+    right end);
+  - Enter opens it. **Alt+Shift+E** opens it from anywhere and puts the focus in it; Escape closes it.
+  The Me panel has the same as a setting: **Position** left, right, top or bottom, and for top and bottom
+  **Anchored at** left or right.
+- **Size:** the width of the panel on the left and right, the height of the bar on top and bottom: drag the panel's
+  inner edge, or focus it and use the arrow keys (Home and End: smallest and largest).
+- **Beside or over the page:** on a wide window the open panel pushes the page aside (left, right), down below the
+  bar (top: the header stays where it is, what follows it moves down) or gives it room at its end (bottom); on a phone
+  (below 768 px) it lies over the page. The Me panel lets each user choose "over the page" on a wide window too.
+- **Remembered:** edge, end of the bar, place, width and height, open or closed, beside or over, and light or dark are
+  kept for the user on the server (they follow to every device), or only on this device ("Keep these settings only on
+  this device"). A visitor who is not signed in keeps them in the browser. A position saved before the top and bottom
+  edges existed (left or right) is read as that edge.
 - **Light or dark:** the user's choice for the sidebar, else their choice for the administration (light or dark: it
   wins on every design), else the page's: on a site design with its own light/dark switch (the media designs:
   site, smarty, twig) the mode that switch shows, followed at once when it is flipped; elsewhere the system's.
@@ -117,10 +132,14 @@ sidebar is first opened. The closed tab (script and stylesheet) stays below 50 K
 | `ShowToAnonymous` | enabled | the closed tab for visitors not signed in |
 | `DataLayer` | rest | rest or graphql |
 | `InjectWithoutHook` | enabled | place the sidebar in pagelayouts without the hook |
-| `DefaultSide`, `DefaultWidth`, `MinWidth`, `MaxWidth` | right, 380, 300, 720 | a first visit's side and width, the limits |
+| `DefaultEdge`, `DefaultAlign` | (empty), end | a first visit's edge (left, right, top, bottom; empty: `DefaultSide`) and, on top and bottom, the end of the bar the tab is anchored at (start: left, end: right) |
+| `DefaultSide` | right | the edge when `DefaultEdge` is empty (left or right; the setting from before the top and bottom edges) |
+| `DefaultWidth`, `MinWidth`, `MaxWidth` | 380, 300, 720 | a first visit's width of the panel on the left and right, the limits |
+| `DefaultHeight`, `MinHeight`, `MaxHeight` | 320, 160, 640 | a first visit's height of the bar on top and bottom, the limits |
 | `OverlayBelowWidth` | 768 | narrower windows get the panel over the page |
 | `ShortcutKey` | E | Alt+Shift+<key> |
-| `HeaderSelector` | header, [role=banner], #header, .header | the site header the tab sits below |
+| `HeaderSelector` | header, [role=banner], #header, .header | the site header the tab and the top bar sit below |
+| `FooterSelector` | footer, [role=contentinfo], cookie bars | what the site may fix to the bottom of the window; the bottom bar sits above whichever of them is fixed or sticky there |
 | `[CreateSettings] HiddenClassList[]` | common_ini_settings | classes Create never offers |
 | `[LockSettings] LockSeconds` | 300 | how long a soft lock lasts without a heartbeat |
 

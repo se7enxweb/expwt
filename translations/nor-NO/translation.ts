@@ -80,20 +80,12 @@
         <translation>Dette er ikke listen over sidene her.</translation>
     </message>
     <message>
-        <source>The input is not JSON.</source>
-        <translation>Inndataene er ikke JSON.</translation>
-    </message>
-    <message>
         <source>This action changes something: send it with expwtWrite.</source>
         <translation>Denne handlingen endrer noe: send den med expwtWrite.</translation>
     </message>
     <message>
-        <source>Verify it's you</source>
-        <translation>Bekreft at det er deg</translation>
-    </message>
-    <message>
-        <source>Thank you. You can go back to the page; this window closes by itself.</source>
-        <translation>Takk. Du kan gå tilbake til siden; dette vinduet lukkes av seg selv.</translation>
+        <source>The input is not JSON.</source>
+        <translation>Inndataene er ikke JSON.</translation>
     </message>
     <message>
         <source>Something went wrong.</source>
@@ -448,16 +440,28 @@
         <translation>Sidepanelet</translation>
     </message>
     <message>
-        <source>Side</source>
-        <translation>Plassering</translation>
+        <source>Anchored at</source>
+        <translation>Forankret til</translation>
+    </message>
+    <message>
+        <source>Left</source>
+        <translation>Venstre</translation>
     </message>
     <message>
         <source>Right</source>
         <translation>Høyre</translation>
     </message>
     <message>
-        <source>Left</source>
-        <translation>Venstre</translation>
+        <source>Position</source>
+        <translation>Plassering</translation>
+    </message>
+    <message>
+        <source>Top</source>
+        <translation>Øverst</translation>
+    </message>
+    <message>
+        <source>Bottom</source>
+        <translation>Nederst</translation>
     </message>
     <message>
         <source>When open</source>
@@ -496,6 +500,10 @@
         <translation>Piltastene flytter den, Enter åpner den.</translation>
     </message>
     <message>
+        <source>Ctrl and an arrow key put it on another edge.</source>
+        <translation>Ctrl og en piltast flytter den til en annen kant.</translation>
+    </message>
+    <message>
         <source>Width of the sidebar</source>
         <translation>Bredden på sidepanelet</translation>
     </message>
@@ -528,8 +536,8 @@
         <translation>Meg</translation>
     </message>
     <message>
-        <source>The sidebar was moved.</source>
-        <translation>Sidepanelet ble flyttet.</translation>
+        <source>Height of the sidebar</source>
+        <translation>Høyden på sidepanelet</translation>
     </message>
     <message>
         <source>The sidebar is on the left.</source>
@@ -538,6 +546,18 @@
     <message>
         <source>The sidebar is on the right.</source>
         <translation>Sidepanelet er til høyre.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the top.</source>
+        <translation>Sidepanelet er øverst.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the bottom.</source>
+        <translation>Sidepanelet er nederst.</translation>
+    </message>
+    <message>
+        <source>The sidebar was moved.</source>
+        <translation>Sidepanelet ble flyttet.</translation>
     </message>
     <message>
         <source>The sidebar could not reach the server.</source>
@@ -586,6 +606,14 @@
     <message>
         <source>Dark</source>
         <translation>Mørkt</translation>
+    </message>
+    <message>
+        <source>Thank you. You can go back to the page; this window closes by itself.</source>
+        <translation>Takk. Du kan gå tilbake til siden; dette vinduet lukkes av seg selv.</translation>
+    </message>
+    <message>
+        <source>Verify it's you</source>
+        <translation>Bekreft at det er deg</translation>
     </message>
 </context>
 </TS>

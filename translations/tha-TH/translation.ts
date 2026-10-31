@@ -80,20 +80,12 @@
         <translation>นี่ไม่ใช่รายการหน้าในที่นี้</translation>
     </message>
     <message>
-        <source>The input is not JSON.</source>
-        <translation>ข้อมูลที่ส่งมาไม่ใช่ JSON</translation>
-    </message>
-    <message>
         <source>This action changes something: send it with expwtWrite.</source>
         <translation>การดำเนินการนี้เปลี่ยนแปลงข้อมูล: ส่งด้วย expwtWrite</translation>
     </message>
     <message>
-        <source>Verify it's you</source>
-        <translation>ยืนยันว่าเป็นคุณ</translation>
-    </message>
-    <message>
-        <source>Thank you. You can go back to the page; this window closes by itself.</source>
-        <translation>ขอบคุณ คุณกลับไปที่หน้าได้แล้ว หน้าต่างนี้จะปิดเอง</translation>
+        <source>The input is not JSON.</source>
+        <translation>ข้อมูลที่ส่งมาไม่ใช่ JSON</translation>
     </message>
     <message>
         <source>Something went wrong.</source>
@@ -448,16 +440,28 @@
         <translation>แถบด้านข้าง</translation>
     </message>
     <message>
-        <source>Side</source>
-        <translation>ด้าน</translation>
+        <source>Anchored at</source>
+        <translation>ยึดที่</translation>
+    </message>
+    <message>
+        <source>Left</source>
+        <translation>ซ้าย</translation>
     </message>
     <message>
         <source>Right</source>
         <translation>ขวา</translation>
     </message>
     <message>
-        <source>Left</source>
-        <translation>ซ้าย</translation>
+        <source>Position</source>
+        <translation>ตำแหน่ง</translation>
+    </message>
+    <message>
+        <source>Top</source>
+        <translation>บน</translation>
+    </message>
+    <message>
+        <source>Bottom</source>
+        <translation>ล่าง</translation>
     </message>
     <message>
         <source>When open</source>
@@ -496,6 +500,10 @@
         <translation>ปุ่มลูกศรใช้ย้าย ปุ่ม Enter ใช้เปิด</translation>
     </message>
     <message>
+        <source>Ctrl and an arrow key put it on another edge.</source>
+        <translation>Ctrl และปุ่มลูกศรจะย้ายไปยังขอบอื่น</translation>
+    </message>
+    <message>
         <source>Width of the sidebar</source>
         <translation>ความกว้างของแถบด้านข้าง</translation>
     </message>
@@ -528,8 +536,8 @@
         <translation>ฉัน</translation>
     </message>
     <message>
-        <source>The sidebar was moved.</source>
-        <translation>ย้ายแถบด้านข้างแล้ว</translation>
+        <source>Height of the sidebar</source>
+        <translation>ความสูงของแถบด้านข้าง</translation>
     </message>
     <message>
         <source>The sidebar is on the left.</source>
@@ -538,6 +546,18 @@
     <message>
         <source>The sidebar is on the right.</source>
         <translation>แถบด้านข้างอยู่ทางขวา</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the top.</source>
+        <translation>แถบด้านข้างอยู่ด้านบน</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the bottom.</source>
+        <translation>แถบด้านข้างอยู่ด้านล่าง</translation>
+    </message>
+    <message>
+        <source>The sidebar was moved.</source>
+        <translation>ย้ายแถบด้านข้างแล้ว</translation>
     </message>
     <message>
         <source>The sidebar could not reach the server.</source>
@@ -586,6 +606,14 @@
     <message>
         <source>Dark</source>
         <translation>มืด</translation>
+    </message>
+    <message>
+        <source>Thank you. You can go back to the page; this window closes by itself.</source>
+        <translation>ขอบคุณ คุณกลับไปที่หน้าได้แล้ว หน้าต่างนี้จะปิดเอง</translation>
+    </message>
+    <message>
+        <source>Verify it's you</source>
+        <translation>ยืนยันว่าเป็นคุณ</translation>
     </message>
 </context>
 </TS>

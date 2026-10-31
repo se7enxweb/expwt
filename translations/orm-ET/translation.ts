@@ -80,20 +80,12 @@
         <translation>Kun tarree fuulota as jiranii miti.</translation>
     </message>
     <message>
-        <source>The input is not JSON.</source>
-        <translation>Galteen JSON miti.</translation>
-    </message>
-    <message>
         <source>This action changes something: send it with expwtWrite.</source>
         <translation>Tarkaanfiin kun waan tokko jijjiira: expwtWrite fayyadamii ergi.</translation>
     </message>
     <message>
-        <source>Verify it's you</source>
-        <translation>Ati ta'uu kee mirkaneessi</translation>
-    </message>
-    <message>
-        <source>Thank you. You can go back to the page; this window closes by itself.</source>
-        <translation>Galatoomi. Gara fuulaatti deebi'uu dandeessa; foddaan kun ofumaan cufama.</translation>
+        <source>The input is not JSON.</source>
+        <translation>Galteen JSON miti.</translation>
     </message>
     <message>
         <source>Something went wrong.</source>
@@ -448,16 +440,28 @@
         <translation>Barreessaa cinaa</translation>
     </message>
     <message>
-        <source>Side</source>
-        <translation>Cinaa</translation>
+        <source>Anchored at</source>
+        <translation>Kan itti hidhame</translation>
+    </message>
+    <message>
+        <source>Left</source>
+        <translation>Bitaa</translation>
     </message>
     <message>
         <source>Right</source>
         <translation>Mirga</translation>
     </message>
     <message>
-        <source>Left</source>
-        <translation>Bitaa</translation>
+        <source>Position</source>
+        <translation>Bakka</translation>
+    </message>
+    <message>
+        <source>Top</source>
+        <translation>Gubbaa</translation>
+    </message>
+    <message>
+        <source>Bottom</source>
+        <translation>Jala</translation>
     </message>
     <message>
         <source>When open</source>
@@ -496,6 +500,10 @@
         <translation>Furtuuwwan xiyyaa ni socho'su, Enter ni bana.</translation>
     </message>
     <message>
+        <source>Ctrl and an arrow key put it on another edge.</source>
+        <translation>Ctrl fi furtuun xiyyaa gara qarree biraatti isa socho'su.</translation>
+    </message>
+    <message>
         <source>Width of the sidebar</source>
         <translation>Bal'ina barreessaa cinaa</translation>
     </message>
@@ -528,8 +536,8 @@
         <translation>Ana</translation>
     </message>
     <message>
-        <source>The sidebar was moved.</source>
-        <translation>Barreessaan cinaa socho'eera.</translation>
+        <source>Height of the sidebar</source>
+        <translation>Dheerina barreessaa cinaa</translation>
     </message>
     <message>
         <source>The sidebar is on the left.</source>
@@ -538,6 +546,18 @@
     <message>
         <source>The sidebar is on the right.</source>
         <translation>Barreessaan cinaa mirga jira.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the top.</source>
+        <translation>Barreessaan cinaa gubbaa jira.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the bottom.</source>
+        <translation>Barreessaan cinaa jala jira.</translation>
+    </message>
+    <message>
+        <source>The sidebar was moved.</source>
+        <translation>Barreessaan cinaa socho'eera.</translation>
     </message>
     <message>
         <source>The sidebar could not reach the server.</source>
@@ -586,6 +606,14 @@
     <message>
         <source>Dark</source>
         <translation>Dukkana</translation>
+    </message>
+    <message>
+        <source>Thank you. You can go back to the page; this window closes by itself.</source>
+        <translation>Galatoomi. Gara fuulaatti deebi'uu dandeessa; foddaan kun ofumaan cufama.</translation>
+    </message>
+    <message>
+        <source>Verify it's you</source>
+        <translation>Ati ta'uu kee mirkaneessi</translation>
     </message>
 </context>
 </TS>

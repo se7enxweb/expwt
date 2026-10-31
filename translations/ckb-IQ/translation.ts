@@ -80,20 +80,12 @@
         <translation>ئەمە لیستی پەڕەکانی ئێرە نییە.</translation>
     </message>
     <message>
-        <source>The input is not JSON.</source>
-        <translation>تێخراوەکە JSON نییە.</translation>
-    </message>
-    <message>
         <source>This action changes something: send it with expwtWrite.</source>
         <translation>ئەم کردارە شتێک دەگۆڕێت: بە expwtWrite بینێرە.</translation>
     </message>
     <message>
-        <source>Verify it's you</source>
-        <translation>بیسەلمێنە کە خۆتی</translation>
-    </message>
-    <message>
-        <source>Thank you. You can go back to the page; this window closes by itself.</source>
-        <translation>سوپاس. دەتوانیت بگەڕێیتەوە بۆ پەڕەکە؛ ئەم پەنجەرەیە خۆی دادەخرێت.</translation>
+        <source>The input is not JSON.</source>
+        <translation>تێخراوەکە JSON نییە.</translation>
     </message>
     <message>
         <source>Something went wrong.</source>
@@ -448,16 +440,28 @@
         <translation>لاتەنیشت</translation>
     </message>
     <message>
-        <source>Side</source>
-        <translation>لا</translation>
+        <source>Anchored at</source>
+        <translation>چەسپاو لە</translation>
+    </message>
+    <message>
+        <source>Left</source>
+        <translation>چەپ</translation>
     </message>
     <message>
         <source>Right</source>
         <translation>ڕاست</translation>
     </message>
     <message>
-        <source>Left</source>
-        <translation>چەپ</translation>
+        <source>Position</source>
+        <translation>شوێن</translation>
+    </message>
+    <message>
+        <source>Top</source>
+        <translation>سەرەوە</translation>
+    </message>
+    <message>
+        <source>Bottom</source>
+        <translation>خوارەوە</translation>
     </message>
     <message>
         <source>When open</source>
@@ -496,6 +500,10 @@
         <translation>کلیلەکانی تیر دەیجوڵێنن، Enter دەیکاتەوە.</translation>
     </message>
     <message>
+        <source>Ctrl and an arrow key put it on another edge.</source>
+        <translation>Ctrl و کلیلێکی تیر دەیبەنە لێوارێکی تر.</translation>
+    </message>
+    <message>
         <source>Width of the sidebar</source>
         <translation>پانی لاتەنیشت</translation>
     </message>
@@ -528,8 +536,8 @@
         <translation>من</translation>
     </message>
     <message>
-        <source>The sidebar was moved.</source>
-        <translation>لاتەنیشتەکە گوازرایەوە.</translation>
+        <source>Height of the sidebar</source>
+        <translation>بەرزی لاتەنیشت</translation>
     </message>
     <message>
         <source>The sidebar is on the left.</source>
@@ -538,6 +546,18 @@
     <message>
         <source>The sidebar is on the right.</source>
         <translation>لاتەنیشتەکە لە ڕاستە.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the top.</source>
+        <translation>لاتەنیشتەکە لە سەرەوەیە.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the bottom.</source>
+        <translation>لاتەنیشتەکە لە خوارەوەیە.</translation>
+    </message>
+    <message>
+        <source>The sidebar was moved.</source>
+        <translation>لاتەنیشتەکە گوازرایەوە.</translation>
     </message>
     <message>
         <source>The sidebar could not reach the server.</source>
@@ -586,6 +606,14 @@
     <message>
         <source>Dark</source>
         <translation>تاریک</translation>
+    </message>
+    <message>
+        <source>Thank you. You can go back to the page; this window closes by itself.</source>
+        <translation>سوپاس. دەتوانیت بگەڕێیتەوە بۆ پەڕەکە؛ ئەم پەنجەرەیە خۆی دادەخرێت.</translation>
+    </message>
+    <message>
+        <source>Verify it's you</source>
+        <translation>بیسەلمێنە کە خۆتی</translation>
     </message>
 </context>
 </TS>

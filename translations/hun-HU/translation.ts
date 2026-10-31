@@ -80,20 +80,12 @@
         <translation>Ez nem az itteni oldalak listája.</translation>
     </message>
     <message>
-        <source>The input is not JSON.</source>
-        <translation>A bemenet nem JSON.</translation>
-    </message>
-    <message>
         <source>This action changes something: send it with expwtWrite.</source>
         <translation>Ez a művelet módosít valamit: küldje az expwtWrite segítségével.</translation>
     </message>
     <message>
-        <source>Verify it's you</source>
-        <translation>Igazolja, hogy Ön az</translation>
-    </message>
-    <message>
-        <source>Thank you. You can go back to the page; this window closes by itself.</source>
-        <translation>Köszönjük. Visszatérhet az oldalra; ez az ablak magától bezárul.</translation>
+        <source>The input is not JSON.</source>
+        <translation>A bemenet nem JSON.</translation>
     </message>
     <message>
         <source>Something went wrong.</source>
@@ -448,16 +440,28 @@
         <translation>Az oldalsáv</translation>
     </message>
     <message>
-        <source>Side</source>
-        <translation>Oldal</translation>
+        <source>Anchored at</source>
+        <translation>Rögzítés</translation>
+    </message>
+    <message>
+        <source>Left</source>
+        <translation>Bal</translation>
     </message>
     <message>
         <source>Right</source>
         <translation>Jobb</translation>
     </message>
     <message>
-        <source>Left</source>
-        <translation>Bal</translation>
+        <source>Position</source>
+        <translation>Elhelyezés</translation>
+    </message>
+    <message>
+        <source>Top</source>
+        <translation>Felső</translation>
+    </message>
+    <message>
+        <source>Bottom</source>
+        <translation>Alsó</translation>
     </message>
     <message>
         <source>When open</source>
@@ -496,6 +500,10 @@
         <translation>A nyílbillentyűk mozgatják, az Enter megnyitja.</translation>
     </message>
     <message>
+        <source>Ctrl and an arrow key put it on another edge.</source>
+        <translation>A Ctrl és egy nyílbillentyű másik szélre helyezi.</translation>
+    </message>
+    <message>
         <source>Width of the sidebar</source>
         <translation>Az oldalsáv szélessége</translation>
     </message>
@@ -528,8 +536,8 @@
         <translation>Én</translation>
     </message>
     <message>
-        <source>The sidebar was moved.</source>
-        <translation>Az oldalsáv áthelyezve.</translation>
+        <source>Height of the sidebar</source>
+        <translation>Az oldalsáv magassága</translation>
     </message>
     <message>
         <source>The sidebar is on the left.</source>
@@ -538,6 +546,18 @@
     <message>
         <source>The sidebar is on the right.</source>
         <translation>Az oldalsáv jobb oldalon van.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the top.</source>
+        <translation>Az oldalsáv fent van.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the bottom.</source>
+        <translation>Az oldalsáv lent van.</translation>
+    </message>
+    <message>
+        <source>The sidebar was moved.</source>
+        <translation>Az oldalsáv áthelyezve.</translation>
     </message>
     <message>
         <source>The sidebar could not reach the server.</source>
@@ -586,6 +606,14 @@
     <message>
         <source>Dark</source>
         <translation>Sötét</translation>
+    </message>
+    <message>
+        <source>Thank you. You can go back to the page; this window closes by itself.</source>
+        <translation>Köszönjük. Visszatérhet az oldalra; ez az ablak magától bezárul.</translation>
+    </message>
+    <message>
+        <source>Verify it's you</source>
+        <translation>Igazolja, hogy Ön az</translation>
     </message>
 </context>
 </TS>

@@ -80,20 +80,12 @@
         <translation>Wannan ba jerin shafukan nan ba ne.</translation>
     </message>
     <message>
-        <source>The input is not JSON.</source>
-        <translation>Shigarwar ba JSON ba ce.</translation>
-    </message>
-    <message>
         <source>This action changes something: send it with expwtWrite.</source>
         <translation>Wannan aiki yana canza wani abu: ku aika shi da expwtWrite.</translation>
     </message>
     <message>
-        <source>Verify it's you</source>
-        <translation>Tabbatar cewa ku ne</translation>
-    </message>
-    <message>
-        <source>Thank you. You can go back to the page; this window closes by itself.</source>
-        <translation>Na gode. Kuna iya komawa shafin; wannan taga za ta rufe da kanta.</translation>
+        <source>The input is not JSON.</source>
+        <translation>Shigarwar ba JSON ba ce.</translation>
     </message>
     <message>
         <source>Something went wrong.</source>
@@ -448,16 +440,28 @@
         <translation>Labarun gefe</translation>
     </message>
     <message>
-        <source>Side</source>
-        <translation>Gefe</translation>
+        <source>Anchored at</source>
+        <translation>An kafa a</translation>
+    </message>
+    <message>
+        <source>Left</source>
+        <translation>Hagu</translation>
     </message>
     <message>
         <source>Right</source>
         <translation>Dama</translation>
     </message>
     <message>
-        <source>Left</source>
-        <translation>Hagu</translation>
+        <source>Position</source>
+        <translation>Matsayi</translation>
+    </message>
+    <message>
+        <source>Top</source>
+        <translation>Sama</translation>
+    </message>
+    <message>
+        <source>Bottom</source>
+        <translation>Ƙasa</translation>
     </message>
     <message>
         <source>When open</source>
@@ -496,6 +500,10 @@
         <translation>Maɓallan kibiya suna matsar da shi, Enter yana buɗe shi.</translation>
     </message>
     <message>
+        <source>Ctrl and an arrow key put it on another edge.</source>
+        <translation>Ctrl da maɓallin kibiya suna sanya shi a wani gefen taga.</translation>
+    </message>
+    <message>
         <source>Width of the sidebar</source>
         <translation>Faɗin labarun gefe</translation>
     </message>
@@ -528,8 +536,8 @@
         <translation>Ni</translation>
     </message>
     <message>
-        <source>The sidebar was moved.</source>
-        <translation>An matsar da labarun gefe.</translation>
+        <source>Height of the sidebar</source>
+        <translation>Tsayin labarun gefe</translation>
     </message>
     <message>
         <source>The sidebar is on the left.</source>
@@ -538,6 +546,18 @@
     <message>
         <source>The sidebar is on the right.</source>
         <translation>Labarun gefe yana dama.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the top.</source>
+        <translation>Labarun gefe yana sama.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the bottom.</source>
+        <translation>Labarun gefe yana ƙasa.</translation>
+    </message>
+    <message>
+        <source>The sidebar was moved.</source>
+        <translation>An matsar da labarun gefe.</translation>
     </message>
     <message>
         <source>The sidebar could not reach the server.</source>
@@ -586,6 +606,14 @@
     <message>
         <source>Dark</source>
         <translation>Duhu</translation>
+    </message>
+    <message>
+        <source>Thank you. You can go back to the page; this window closes by itself.</source>
+        <translation>Na gode. Kuna iya komawa shafin; wannan taga za ta rufe da kanta.</translation>
+    </message>
+    <message>
+        <source>Verify it's you</source>
+        <translation>Tabbatar cewa ku ne</translation>
     </message>
 </context>
 </TS>

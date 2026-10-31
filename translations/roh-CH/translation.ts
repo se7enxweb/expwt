@@ -80,20 +80,12 @@
         <translation>Quai n'è betg la glista da las paginas da qua.</translation>
     </message>
     <message>
-        <source>The input is not JSON.</source>
-        <translation>L'endataziun n'è betg JSON.</translation>
-    </message>
-    <message>
         <source>This action changes something: send it with expwtWrite.</source>
         <translation>Questa acziun mida insatge: tramettai ella cun expwtWrite.</translation>
     </message>
     <message>
-        <source>Verify it's you</source>
-        <translation>Confermai che Vus essas Vus</translation>
-    </message>
-    <message>
-        <source>Thank you. You can go back to the page; this window closes by itself.</source>
-        <translation>Grazia fitg. Vus pudais turnar a la pagina; questa fanestra sa serra da sasezza.</translation>
+        <source>The input is not JSON.</source>
+        <translation>L'endataziun n'è betg JSON.</translation>
     </message>
     <message>
         <source>Something went wrong.</source>
@@ -448,16 +440,28 @@
         <translation>La trav laterala</translation>
     </message>
     <message>
-        <source>Side</source>
-        <translation>Vart</translation>
+        <source>Anchored at</source>
+        <translation>Ancurada a</translation>
+    </message>
+    <message>
+        <source>Left</source>
+        <translation>Sanester</translation>
     </message>
     <message>
         <source>Right</source>
         <translation>Dretg</translation>
     </message>
     <message>
-        <source>Left</source>
-        <translation>Sanester</translation>
+        <source>Position</source>
+        <translation>Posiziun</translation>
+    </message>
+    <message>
+        <source>Top</source>
+        <translation>Sisum</translation>
+    </message>
+    <message>
+        <source>Bottom</source>
+        <translation>Giusum</translation>
     </message>
     <message>
         <source>When open</source>
@@ -496,6 +500,10 @@
         <translation>Las frizzas la spostan, Enter l'avra.</translation>
     </message>
     <message>
+        <source>Ctrl and an arrow key put it on another edge.</source>
+        <translation>Ctrl ed ina frizza la mettan ad in auter ur.</translation>
+    </message>
+    <message>
         <source>Width of the sidebar</source>
         <translation>Ladezza da la trav laterala</translation>
     </message>
@@ -528,8 +536,8 @@
         <translation>Jau</translation>
     </message>
     <message>
-        <source>The sidebar was moved.</source>
-        <translation>La trav laterala è vegnida spustada.</translation>
+        <source>Height of the sidebar</source>
+        <translation>Autezza da la trav laterala</translation>
     </message>
     <message>
         <source>The sidebar is on the left.</source>
@@ -538,6 +546,18 @@
     <message>
         <source>The sidebar is on the right.</source>
         <translation>La trav laterala è a dretg.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the top.</source>
+        <translation>La trav laterala è sisum.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the bottom.</source>
+        <translation>La trav laterala è giusum.</translation>
+    </message>
+    <message>
+        <source>The sidebar was moved.</source>
+        <translation>La trav laterala è vegnida spustada.</translation>
     </message>
     <message>
         <source>The sidebar could not reach the server.</source>
@@ -586,6 +606,14 @@
     <message>
         <source>Dark</source>
         <translation>Stgir</translation>
+    </message>
+    <message>
+        <source>Thank you. You can go back to the page; this window closes by itself.</source>
+        <translation>Grazia fitg. Vus pudais turnar a la pagina; questa fanestra sa serra da sasezza.</translation>
+    </message>
+    <message>
+        <source>Verify it's you</source>
+        <translation>Confermai che Vus essas Vus</translation>
     </message>
 </context>
 </TS>

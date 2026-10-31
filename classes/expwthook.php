@@ -87,10 +87,11 @@ class expwtHook
             'config' => array(
                 'anonymous' => $anonymous, 'node' => (int)$nodeId, 'css' => $css, 'panels' => $panels,
                 'boot' => $anonymous ? '' : $url( '/expwt/api' ),
-                'side' => $settings['default_side'], 'width' => $settings['default_width'],
+                'edge' => $settings['default_edge'], 'align' => $settings['default_align'], 'width' => $settings['default_width'],
                 'minWidth' => $settings['min_width'], 'maxWidth' => $settings['max_width'],
+                'height' => $settings['default_height'], 'minHeight' => $settings['min_height'], 'maxHeight' => $settings['max_height'],
                 'overlayBelow' => $settings['overlay_below_width'], 'key' => $settings['shortcut_key'],
-                'header' => $settings['header_selector'],
+                'header' => $settings['header_selector'], 'footer' => $settings['footer_selector'],
                 'login' => $url( '/user/login' ), 'register' => $url( '/user/register' ), 'search' => $url( '/content/search' ),
                 'strings' => expwtStrings::tab(),
             ),

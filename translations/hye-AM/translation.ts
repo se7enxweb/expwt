@@ -80,20 +80,12 @@
         <translation>Սա այստեղի էջերի ցանկը չէ։</translation>
     </message>
     <message>
-        <source>The input is not JSON.</source>
-        <translation>Մուտքագրվածը JSON չէ։</translation>
-    </message>
-    <message>
         <source>This action changes something: send it with expwtWrite.</source>
         <translation>Այս գործողությունը ինչ-որ բան է փոխում. ուղարկեք այն expwtWrite-ով։</translation>
     </message>
     <message>
-        <source>Verify it's you</source>
-        <translation>Հաստատեք, որ դա Դուք եք</translation>
-    </message>
-    <message>
-        <source>Thank you. You can go back to the page; this window closes by itself.</source>
-        <translation>Շնորհակալություն։ Կարող եք վերադառնալ էջ. այս պատուհանն ինքնըստինքյան կփակվի։</translation>
+        <source>The input is not JSON.</source>
+        <translation>Մուտքագրվածը JSON չէ։</translation>
     </message>
     <message>
         <source>Something went wrong.</source>
@@ -448,16 +440,28 @@
         <translation>Կողագոտին</translation>
     </message>
     <message>
-        <source>Side</source>
-        <translation>Կողմ</translation>
+        <source>Anchored at</source>
+        <translation>Ամրացված է</translation>
+    </message>
+    <message>
+        <source>Left</source>
+        <translation>Ձախ</translation>
     </message>
     <message>
         <source>Right</source>
         <translation>Աջ</translation>
     </message>
     <message>
-        <source>Left</source>
-        <translation>Ձախ</translation>
+        <source>Position</source>
+        <translation>Դիրք</translation>
+    </message>
+    <message>
+        <source>Top</source>
+        <translation>Վերև</translation>
+    </message>
+    <message>
+        <source>Bottom</source>
+        <translation>Ներքև</translation>
     </message>
     <message>
         <source>When open</source>
@@ -496,6 +500,10 @@
         <translation>Սլաքները տեղափոխում են այն, Enter-ը բացում է։</translation>
     </message>
     <message>
+        <source>Ctrl and an arrow key put it on another edge.</source>
+        <translation>Ctrl-ը և սլաքը այն տեղափոխում են մեկ այլ եզր։</translation>
+    </message>
+    <message>
         <source>Width of the sidebar</source>
         <translation>Կողագոտու լայնությունը</translation>
     </message>
@@ -528,8 +536,8 @@
         <translation>Ես</translation>
     </message>
     <message>
-        <source>The sidebar was moved.</source>
-        <translation>Կողագոտին տեղափոխվեց։</translation>
+        <source>Height of the sidebar</source>
+        <translation>Կողագոտու բարձրությունը</translation>
     </message>
     <message>
         <source>The sidebar is on the left.</source>
@@ -538,6 +546,18 @@
     <message>
         <source>The sidebar is on the right.</source>
         <translation>Կողագոտին աջ կողմում է։</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the top.</source>
+        <translation>Կողագոտին վերևում է։</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the bottom.</source>
+        <translation>Կողագոտին ներքևում է։</translation>
+    </message>
+    <message>
+        <source>The sidebar was moved.</source>
+        <translation>Կողագոտին տեղափոխվեց։</translation>
     </message>
     <message>
         <source>The sidebar could not reach the server.</source>
@@ -586,6 +606,14 @@
     <message>
         <source>Dark</source>
         <translation>Մուգ</translation>
+    </message>
+    <message>
+        <source>Thank you. You can go back to the page; this window closes by itself.</source>
+        <translation>Շնորհակալություն։ Կարող եք վերադառնալ էջ. այս պատուհանն ինքնըստինքյան կփակվի։</translation>
+    </message>
+    <message>
+        <source>Verify it's you</source>
+        <translation>Հաստատեք, որ դա Դուք եք</translation>
     </message>
 </context>
 </TS>

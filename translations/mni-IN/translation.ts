@@ -80,20 +80,12 @@
         <translation>মসি মফম অসিগী পেজশিংগী লিস্ট নত্তে।</translation>
     </message>
     <message>
-        <source>The input is not JSON.</source>
-        <translation>ইনপুট অসি JSON নত্তে।</translation>
-    </message>
-    <message>
         <source>This action changes something: send it with expwtWrite.</source>
         <translation>এক্সন অসিনা কারিগুম্বা অমা হোংদোকই: expwtWrite শীজিন্নদুনা থাবিয়ু।</translation>
     </message>
     <message>
-        <source>Verify it's you</source>
-        <translation>নহাক্নি হায়বা অসি শোয়দনা হায়বিয়ু</translation>
-    </message>
-    <message>
-        <source>Thank you. You can go back to the page; this window closes by itself.</source>
-        <translation>থাগৎচরি। নহাক্না পেজদা হল্লকপা য়াই; উইন্দো অসি মশানা লোইগনি।</translation>
+        <source>The input is not JSON.</source>
+        <translation>ইনপুট অসি JSON নত্তে।</translation>
     </message>
     <message>
         <source>Something went wrong.</source>
@@ -448,16 +440,28 @@
         <translation>সাইদবার</translation>
     </message>
     <message>
-        <source>Side</source>
-        <translation>মনাক</translation>
+        <source>Anchored at</source>
+        <translation>চেপশিনবা মফম</translation>
+    </message>
+    <message>
+        <source>Left</source>
+        <translation>ওইথংবা</translation>
     </message>
     <message>
         <source>Right</source>
         <translation>য়েৎথংবা</translation>
     </message>
     <message>
-        <source>Left</source>
-        <translation>ওইথংবা</translation>
+        <source>Position</source>
+        <translation>মফম</translation>
+    </message>
+    <message>
+        <source>Top</source>
+        <translation>মথক</translation>
+    </message>
+    <message>
+        <source>Bottom</source>
+        <translation>মখা</translation>
     </message>
     <message>
         <source>When open</source>
@@ -496,6 +500,10 @@
         <translation>এরো কীশিংনা সন্নহল্লি, Enter না ফোংহল্লি।</translation>
     </message>
     <message>
+        <source>Ctrl and an arrow key put it on another edge.</source>
+        <translation>Ctrl অমসুং এরো কী অমনা মসি অতোপ্পা অরোইবা অমদা থম্মি।</translation>
+    </message>
+    <message>
         <source>Width of the sidebar</source>
         <translation>সাইদবারগী অপাকপা</translation>
     </message>
@@ -528,8 +536,8 @@
         <translation>ঐ</translation>
     </message>
     <message>
-        <source>The sidebar was moved.</source>
-        <translation>সাইদবার সন্নখ্রে।</translation>
+        <source>Height of the sidebar</source>
+        <translation>সাইদবারগী অৱাংবা</translation>
     </message>
     <message>
         <source>The sidebar is on the left.</source>
@@ -538,6 +546,18 @@
     <message>
         <source>The sidebar is on the right.</source>
         <translation>সাইদবার য়েৎথংবদা লৈ।</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the top.</source>
+        <translation>সাইদবার মথক্তা লৈ।</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the bottom.</source>
+        <translation>সাইদবার মখাদা লৈ।</translation>
+    </message>
+    <message>
+        <source>The sidebar was moved.</source>
+        <translation>সাইদবার সন্নখ্রে।</translation>
     </message>
     <message>
         <source>The sidebar could not reach the server.</source>
@@ -586,6 +606,14 @@
     <message>
         <source>Dark</source>
         <translation>অমমবা</translation>
+    </message>
+    <message>
+        <source>Thank you. You can go back to the page; this window closes by itself.</source>
+        <translation>থাগৎচরি। নহাক্না পেজদা হল্লকপা য়াই; উইন্দো অসি মশানা লোইগনি।</translation>
+    </message>
+    <message>
+        <source>Verify it's you</source>
+        <translation>নহাক্নি হায়বা অসি শোয়দনা হায়বিয়ু</translation>
     </message>
 </context>
 </TS>

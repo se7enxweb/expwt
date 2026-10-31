@@ -80,20 +80,12 @@
         <translation>Aceasta nu este lista paginilor de aici.</translation>
     </message>
     <message>
-        <source>The input is not JSON.</source>
-        <translation>Datele primite nu sunt JSON.</translation>
-    </message>
-    <message>
         <source>This action changes something: send it with expwtWrite.</source>
         <translation>Această acțiune modifică ceva: trimiteți-o cu expwtWrite.</translation>
     </message>
     <message>
-        <source>Verify it's you</source>
-        <translation>Confirmați că sunteți dumneavoastră</translation>
-    </message>
-    <message>
-        <source>Thank you. You can go back to the page; this window closes by itself.</source>
-        <translation>Vă mulțumim. Puteți reveni la pagină; această fereastră se închide singură.</translation>
+        <source>The input is not JSON.</source>
+        <translation>Datele primite nu sunt JSON.</translation>
     </message>
     <message>
         <source>Something went wrong.</source>
@@ -448,16 +440,28 @@
         <translation>Bara laterală</translation>
     </message>
     <message>
-        <source>Side</source>
-        <translation>Parte</translation>
+        <source>Anchored at</source>
+        <translation>Ancorată la</translation>
+    </message>
+    <message>
+        <source>Left</source>
+        <translation>Stânga</translation>
     </message>
     <message>
         <source>Right</source>
         <translation>Dreapta</translation>
     </message>
     <message>
-        <source>Left</source>
-        <translation>Stânga</translation>
+        <source>Position</source>
+        <translation>Poziție</translation>
+    </message>
+    <message>
+        <source>Top</source>
+        <translation>Sus</translation>
+    </message>
+    <message>
+        <source>Bottom</source>
+        <translation>Jos</translation>
     </message>
     <message>
         <source>When open</source>
@@ -496,6 +500,10 @@
         <translation>Săgețile o mută, Enter o deschide.</translation>
     </message>
     <message>
+        <source>Ctrl and an arrow key put it on another edge.</source>
+        <translation>Ctrl și o săgeată o mută pe altă margine.</translation>
+    </message>
+    <message>
         <source>Width of the sidebar</source>
         <translation>Lățimea barei laterale</translation>
     </message>
@@ -528,8 +536,8 @@
         <translation>Eu</translation>
     </message>
     <message>
-        <source>The sidebar was moved.</source>
-        <translation>Bara laterală a fost mutată.</translation>
+        <source>Height of the sidebar</source>
+        <translation>Înălțimea barei laterale</translation>
     </message>
     <message>
         <source>The sidebar is on the left.</source>
@@ -538,6 +546,18 @@
     <message>
         <source>The sidebar is on the right.</source>
         <translation>Bara laterală este în dreapta.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the top.</source>
+        <translation>Bara laterală este sus.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the bottom.</source>
+        <translation>Bara laterală este jos.</translation>
+    </message>
+    <message>
+        <source>The sidebar was moved.</source>
+        <translation>Bara laterală a fost mutată.</translation>
     </message>
     <message>
         <source>The sidebar could not reach the server.</source>
@@ -586,6 +606,14 @@
     <message>
         <source>Dark</source>
         <translation>Întunecat</translation>
+    </message>
+    <message>
+        <source>Thank you. You can go back to the page; this window closes by itself.</source>
+        <translation>Vă mulțumim. Puteți reveni la pagină; această fereastră se închide singură.</translation>
+    </message>
+    <message>
+        <source>Verify it's you</source>
+        <translation>Confirmați că sunteți dumneavoastră</translation>
     </message>
 </context>
 </TS>

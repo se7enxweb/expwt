@@ -80,20 +80,12 @@
         <translation>ይህ የዚህ ቦታ ገጾች ዝርዝር አይደለም።</translation>
     </message>
     <message>
-        <source>The input is not JSON.</source>
-        <translation>ግብዓቱ JSON አይደለም።</translation>
-    </message>
-    <message>
         <source>This action changes something: send it with expwtWrite.</source>
         <translation>ይህ ተግባር የሆነ ነገር ይለውጣል፤ በexpwtWrite ይላኩት።</translation>
     </message>
     <message>
-        <source>Verify it's you</source>
-        <translation>እርስዎ መሆንዎን ያረጋግጡ</translation>
-    </message>
-    <message>
-        <source>Thank you. You can go back to the page; this window closes by itself.</source>
-        <translation>እናመሰግናለን። ወደ ገጹ መመለስ ይችላሉ፤ ይህ መስኮት በራሱ ይዘጋል።</translation>
+        <source>The input is not JSON.</source>
+        <translation>ግብዓቱ JSON አይደለም።</translation>
     </message>
     <message>
         <source>Something went wrong.</source>
@@ -448,16 +440,28 @@
         <translation>የጎን አሞሌው</translation>
     </message>
     <message>
-        <source>Side</source>
-        <translation>ጎን</translation>
+        <source>Anchored at</source>
+        <translation>የተያያዘበት</translation>
+    </message>
+    <message>
+        <source>Left</source>
+        <translation>ግራ</translation>
     </message>
     <message>
         <source>Right</source>
         <translation>ቀኝ</translation>
     </message>
     <message>
-        <source>Left</source>
-        <translation>ግራ</translation>
+        <source>Position</source>
+        <translation>አቀማመጥ</translation>
+    </message>
+    <message>
+        <source>Top</source>
+        <translation>ላይ</translation>
+    </message>
+    <message>
+        <source>Bottom</source>
+        <translation>ታች</translation>
     </message>
     <message>
         <source>When open</source>
@@ -496,6 +500,10 @@
         <translation>የቀስት ቁልፎች ያንቀሳቅሱታል፣ Enter ይከፍተዋል።</translation>
     </message>
     <message>
+        <source>Ctrl and an arrow key put it on another edge.</source>
+        <translation>Ctrl እና የቀስት ቁልፍ ወደ ሌላ ጠርዝ ያዛውሩታል።</translation>
+    </message>
+    <message>
         <source>Width of the sidebar</source>
         <translation>የጎን አሞሌው ስፋት</translation>
     </message>
@@ -528,8 +536,8 @@
         <translation>እኔ</translation>
     </message>
     <message>
-        <source>The sidebar was moved.</source>
-        <translation>የጎን አሞሌው ተንቀሳቅሷል።</translation>
+        <source>Height of the sidebar</source>
+        <translation>የጎን አሞሌው ቁመት</translation>
     </message>
     <message>
         <source>The sidebar is on the left.</source>
@@ -538,6 +546,18 @@
     <message>
         <source>The sidebar is on the right.</source>
         <translation>የጎን አሞሌው በቀኝ ነው።</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the top.</source>
+        <translation>የጎን አሞሌው ላይ ነው።</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the bottom.</source>
+        <translation>የጎን አሞሌው ታች ነው።</translation>
+    </message>
+    <message>
+        <source>The sidebar was moved.</source>
+        <translation>የጎን አሞሌው ተንቀሳቅሷል።</translation>
     </message>
     <message>
         <source>The sidebar could not reach the server.</source>
@@ -586,6 +606,14 @@
     <message>
         <source>Dark</source>
         <translation>ጨለማ</translation>
+    </message>
+    <message>
+        <source>Thank you. You can go back to the page; this window closes by itself.</source>
+        <translation>እናመሰግናለን። ወደ ገጹ መመለስ ይችላሉ፤ ይህ መስኮት በራሱ ይዘጋል።</translation>
+    </message>
+    <message>
+        <source>Verify it's you</source>
+        <translation>እርስዎ መሆንዎን ያረጋግጡ</translation>
     </message>
 </context>
 </TS>

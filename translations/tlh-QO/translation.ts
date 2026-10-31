@@ -80,20 +80,12 @@
         <translation>naDev navmey tetlh ghaHbe' Dochvam.</translation>
     </message>
     <message>
-        <source>The input is not JSON.</source>
-        <translation>JSON ghaHbe' 'ochbogh De'.</translation>
-    </message>
-    <message>
         <source>This action changes something: send it with expwtWrite.</source>
         <translation>vay' choHmoH mIwvam: expwtWrite yIlo'taH 'ej yIngeH.</translation>
     </message>
     <message>
-        <source>Verify it's you</source>
-        <translation>SoH Dabejqa'</translation>
-    </message>
-    <message>
-        <source>Thank you. You can go back to the page; this window closes by itself.</source>
-        <translation>qatlho'. navDaq DacheghlaH; wa'Dichvo' SoQ HanDeghvam.</translation>
+        <source>The input is not JSON.</source>
+        <translation>JSON ghaHbe' 'ochbogh De'.</translation>
     </message>
     <message>
         <source>Something went wrong.</source>
@@ -448,16 +440,28 @@
         <translation>retlh beQ</translation>
     </message>
     <message>
-        <source>Side</source>
-        <translation>retlh</translation>
+        <source>Anchored at</source>
+        <translation>ngaQ Daq</translation>
+    </message>
+    <message>
+        <source>Left</source>
+        <translation>poS</translation>
     </message>
     <message>
         <source>Right</source>
         <translation>nIH</translation>
     </message>
     <message>
-        <source>Left</source>
-        <translation>poS</translation>
+        <source>Position</source>
+        <translation>Daq</translation>
+    </message>
+    <message>
+        <source>Top</source>
+        <translation>Dung</translation>
+    </message>
+    <message>
+        <source>Bottom</source>
+        <translation>bIng</translation>
     </message>
     <message>
         <source>When open</source>
@@ -496,6 +500,10 @@
         <translation>vIHmoH naQjej leQmey, poSmoH Enter.</translation>
     </message>
     <message>
+        <source>Ctrl and an arrow key put it on another edge.</source>
+        <translation>HeH latlhDaq lanmoH Ctrl naQjej leQ je.</translation>
+    </message>
+    <message>
         <source>Width of the sidebar</source>
         <translation>retlh beQ juch</translation>
     </message>
@@ -528,8 +536,8 @@
         <translation>jIH</translation>
     </message>
     <message>
-        <source>The sidebar was moved.</source>
-        <translation>retlh beQ vIHmoHlu'pu'.</translation>
+        <source>Height of the sidebar</source>
+        <translation>retlh beQ jen</translation>
     </message>
     <message>
         <source>The sidebar is on the left.</source>
@@ -538,6 +546,18 @@
     <message>
         <source>The sidebar is on the right.</source>
         <translation>nIH retlhDaq ghaH retlh beQ.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the top.</source>
+        <translation>DungDaq ghaH retlh beQ.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the bottom.</source>
+        <translation>bIngDaq ghaH retlh beQ.</translation>
+    </message>
+    <message>
+        <source>The sidebar was moved.</source>
+        <translation>retlh beQ vIHmoHlu'pu'.</translation>
     </message>
     <message>
         <source>The sidebar could not reach the server.</source>
@@ -586,6 +606,14 @@
     <message>
         <source>Dark</source>
         <translation>Hurgh</translation>
+    </message>
+    <message>
+        <source>Thank you. You can go back to the page; this window closes by itself.</source>
+        <translation>qatlho'. navDaq DacheghlaH; wa'Dichvo' SoQ HanDeghvam.</translation>
+    </message>
+    <message>
+        <source>Verify it's you</source>
+        <translation>SoH Dabejqa'</translation>
     </message>
 </context>
 </TS>

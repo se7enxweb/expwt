@@ -22,20 +22,33 @@ der Stelle von ezwt in den aktiven Erweiterungen. Ein Probelauf listet die Ände
 
 ## Die Seitenleiste
 
-- **Wo:** am rechten Rand (oder am linken), direkt unter dem Kopf der Website, und oben im Fenster, sobald der Kopf
-  weggescrollt ist. Geschlossen ist sie ein Reiter, geöffnet ein Bereich.
-- **Verschieben:** den Reiter am Rand entlang ziehen oder an den anderen Rand (Maus, Stift oder Finger). Mit der
-  Tastatur: den Reiter fokussieren, Pfeil hoch und runter verschieben ihn (mit Umschalt in größeren Schritten), links
-  und rechts wechseln die Seite, Enter öffnet ihn. **Alt+Umschalt+E** öffnet sie von überall und setzt den Fokus
-  hinein; Escape schließt sie.
-- **Breite:** den inneren Rand des Bereichs ziehen, oder ihn fokussieren und die Pfeiltasten nutzen (Pos1 und Ende:
-  am schmalsten und am breitesten).
-- **Neben oder über der Seite:** In einem breiten Fenster schiebt der geöffnete Bereich die Seite beiseite, auf einem
-  Telefon (unter 768 px) liegt er über der Seite. Im Bereich „Ich" kann jeder „über der Seite" auch für breite Fenster
-  wählen.
-- **Gemerkt:** Seite, Platz, Breite, offen oder geschlossen, neben oder über und hell oder dunkel werden für den
-  Benutzer auf dem Server gehalten (sie folgen auf jedes Gerät) oder nur auf diesem Gerät („Diese Einstellungen nur auf
-  diesem Gerät behalten"). Ein nicht angemeldeter Besucher behält sie im Browser.
+- **Wo:** an einem der vier Ränder des Fensters (standardmäßig rechts). **Links oder rechts** ist sie ein Bereich
+  direkt unter dem Kopf der Website, und oben im Fenster, sobald der Kopf weggescrollt ist. **Oben** ist sie eine
+  waagerechte Leiste unter dem Kopf, die oben im Fenster bleibt, sobald der Kopf weggescrollt ist; **unten** eine
+  waagerechte Leiste über dem, was die Website unten im Fenster hält (eine feste Fußzeile, ein Cookie-Hinweis). Oben
+  und unten sitzt ihr Reiter am linken oder am rechten Ende der Leiste. Geschlossen ist sie ein Reiter, geöffnet ein
+  Bereich (links, rechts) oder eine Leiste (oben, unten).
+- **Verschieben:** den Reiter an seinem Rand entlang ziehen oder an einen anderen Rand (Maus, Stift oder Finger); sie
+  legt sich an den nächsten Rand. Mit der Tastatur den Reiter fokussieren:
+  - die Pfeiltasten entlang des Randes verschieben ihn (mit Umschalt in größeren Schritten), die Pfeiltasten quer dazu
+    wechseln an den gegenüberliegenden Rand (links und rechts an der Seite, hoch und runter oben und unten);
+  - **Strg** mit einer Pfeiltaste legt ihn an diesen Rand; **Bild ab** und **Bild auf** gehen reihum (rechts, unten,
+    links, oben);
+  - **Pos1** und **Ende** bringen ihn an den Anfang oder das Ende des Randes (oben und unten: am linken oder rechten
+    Ende verankert);
+  - Enter öffnet ihn. **Alt+Umschalt+E** öffnet sie von überall und setzt den Fokus hinein; Escape schließt sie.
+  Im Bereich „Ich" gibt es dasselbe als Einstellung: **Position** links / rechts / oben / unten, und für oben und unten
+  **Ausgerichtet nach** links oder rechts.
+- **Größe:** die Breite des Bereichs links und rechts, die Höhe der Leiste oben und unten: den inneren Rand ziehen,
+  oder ihn fokussieren und die Pfeiltasten nutzen (Pos1 und Ende: am kleinsten und am größten).
+- **Neben oder über der Seite:** In einem breiten Fenster schiebt der geöffnete Bereich die Seite beiseite (links,
+  rechts), unter die Leiste nach unten (oben: der Kopf bleibt, wo er ist, was ihm folgt, rückt nach unten) oder gibt
+  ihr an ihrem Ende Platz (unten); auf einem Telefon (unter 768 px) liegt er über der Seite. Im Bereich „Ich" kann
+  jeder „über der Seite" auch für breite Fenster wählen.
+- **Gemerkt:** Rand, Ende der Leiste, Platz, Breite und Höhe, offen oder geschlossen, neben oder über und hell oder
+  dunkel werden für den Benutzer auf dem Server gehalten (sie folgen auf jedes Gerät) oder nur auf diesem Gerät
+  („Diese Einstellungen nur auf diesem Gerät behalten"). Ein nicht angemeldeter Besucher behält sie im Browser. Eine
+  Position, die gespeichert wurde, bevor es oben und unten gab (links oder rechts), gilt als dieser Rand.
 - **Hell oder dunkel:** die Wahl des Benutzers für die Seitenleiste, sonst seine Wahl für die Administration (hell
   oder dunkel: sie gilt auf jedem Design), sonst die der Seite: auf einem Website-Design mit eigenem Hell/Dunkel-
   Schalter (die Media-Designs: site, smarty, twig) der Modus dieses Schalters, dem sie beim Umschalten sofort folgt;
@@ -125,10 +138,14 @@ Stylesheet) bleibt unter 50 KB gzip; ein Test hält ihn dort.
 | `ShowToAnonymous` | enabled | der geschlossene Reiter für nicht angemeldete Besucher |
 | `DataLayer` | rest | rest oder graphql |
 | `InjectWithoutHook` | enabled | die Seitenleiste in Pagelayouts ohne Hook einsetzen |
-| `DefaultSide`, `DefaultWidth`, `MinWidth`, `MaxWidth` | right, 380, 300, 720 | Seite und Breite beim ersten Besuch, die Grenzen |
+| `DefaultEdge`, `DefaultAlign` | (leer), end | Rand beim ersten Besuch (left, right, top, bottom; leer: `DefaultSide`) und oben und unten das Ende der Leiste, an dem der Reiter sitzt (start: links, end: rechts) |
+| `DefaultSide` | right | der Rand, wenn `DefaultEdge` leer ist (left oder right; die Einstellung aus der Zeit vor oben und unten) |
+| `DefaultWidth`, `MinWidth`, `MaxWidth` | 380, 300, 720 | Breite des Bereichs links und rechts beim ersten Besuch, die Grenzen |
+| `DefaultHeight`, `MinHeight`, `MaxHeight` | 320, 160, 640 | Höhe der Leiste oben und unten beim ersten Besuch, die Grenzen |
 | `OverlayBelowWidth` | 768 | schmalere Fenster bekommen den Bereich über der Seite |
 | `ShortcutKey` | E | Alt+Umschalt+<Taste> |
-| `HeaderSelector` | header, [role=banner], #header, .header | der Kopf der Website, unter dem der Reiter sitzt |
+| `HeaderSelector` | header, [role=banner], #header, .header | der Kopf der Website, unter dem der Reiter und die obere Leiste sitzen |
+| `FooterSelector` | footer, [role=contentinfo], Cookie-Hinweise | was die Website unten im Fenster festhalten kann; die untere Leiste sitzt über dem, was davon dort gerade fest steht |
 | `[CreateSettings] HiddenClassList[]` | common_ini_settings | Klassen, die Anlegen nie anbietet |
 | `[LockSettings] LockSeconds` | 300 | wie lange eine weiche Sperre ohne Lebenszeichen hält |
 

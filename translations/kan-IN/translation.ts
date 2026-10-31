@@ -80,20 +80,12 @@
         <translation>ಇದು ಇಲ್ಲಿನ ಪುಟಗಳ ಪಟ್ಟಿ ಅಲ್ಲ.</translation>
     </message>
     <message>
-        <source>The input is not JSON.</source>
-        <translation>ಇನ್‌ಪುಟ್ JSON ಅಲ್ಲ.</translation>
-    </message>
-    <message>
         <source>This action changes something: send it with expwtWrite.</source>
         <translation>ಈ ಕ್ರಿಯೆ ಏನನ್ನಾದರೂ ಬದಲಾಯಿಸುತ್ತದೆ: ಇದನ್ನು expwtWrite ಮೂಲಕ ಕಳುಹಿಸಿ.</translation>
     </message>
     <message>
-        <source>Verify it's you</source>
-        <translation>ಇದು ನೀವೇ ಎಂದು ಖಚಿತಪಡಿಸಿ</translation>
-    </message>
-    <message>
-        <source>Thank you. You can go back to the page; this window closes by itself.</source>
-        <translation>ಧನ್ಯವಾದಗಳು. ನೀವು ಪುಟಕ್ಕೆ ಹಿಂತಿರುಗಬಹುದು; ಈ ವಿಂಡೋ ತಾನಾಗಿಯೇ ಮುಚ್ಚುತ್ತದೆ.</translation>
+        <source>The input is not JSON.</source>
+        <translation>ಇನ್‌ಪುಟ್ JSON ಅಲ್ಲ.</translation>
     </message>
     <message>
         <source>Something went wrong.</source>
@@ -448,16 +440,28 @@
         <translation>ಸೈಡ್‌ಬಾರ್</translation>
     </message>
     <message>
-        <source>Side</source>
-        <translation>ಬದಿ</translation>
+        <source>Anchored at</source>
+        <translation>ಆಧಾರ ಬದಿ</translation>
+    </message>
+    <message>
+        <source>Left</source>
+        <translation>ಎಡ</translation>
     </message>
     <message>
         <source>Right</source>
         <translation>ಬಲ</translation>
     </message>
     <message>
-        <source>Left</source>
-        <translation>ಎಡ</translation>
+        <source>Position</source>
+        <translation>ಸ್ಥಾನ</translation>
+    </message>
+    <message>
+        <source>Top</source>
+        <translation>ಮೇಲೆ</translation>
+    </message>
+    <message>
+        <source>Bottom</source>
+        <translation>ಕೆಳಗೆ</translation>
     </message>
     <message>
         <source>When open</source>
@@ -496,6 +500,10 @@
         <translation>ಬಾಣದ ಕೀಲಿಗಳು ಇದನ್ನು ಸರಿಸುತ್ತವೆ, Enter ಇದನ್ನು ತೆರೆಯುತ್ತದೆ.</translation>
     </message>
     <message>
+        <source>Ctrl and an arrow key put it on another edge.</source>
+        <translation>Ctrl ಮತ್ತು ಬಾಣದ ಕೀಲಿ ಇದನ್ನು ಇನ್ನೊಂದು ಅಂಚಿಗೆ ಸರಿಸುತ್ತವೆ.</translation>
+    </message>
+    <message>
         <source>Width of the sidebar</source>
         <translation>ಸೈಡ್‌ಬಾರ್‌ನ ಅಗಲ</translation>
     </message>
@@ -528,8 +536,8 @@
         <translation>ನಾನು</translation>
     </message>
     <message>
-        <source>The sidebar was moved.</source>
-        <translation>ಸೈಡ್‌ಬಾರ್ ಅನ್ನು ಸರಿಸಲಾಗಿದೆ.</translation>
+        <source>Height of the sidebar</source>
+        <translation>ಸೈಡ್‌ಬಾರ್‌ನ ಎತ್ತರ</translation>
     </message>
     <message>
         <source>The sidebar is on the left.</source>
@@ -538,6 +546,18 @@
     <message>
         <source>The sidebar is on the right.</source>
         <translation>ಸೈಡ್‌ಬಾರ್ ಬಲಭಾಗದಲ್ಲಿದೆ.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the top.</source>
+        <translation>ಸೈಡ್‌ಬಾರ್ ಮೇಲ್ಭಾಗದಲ್ಲಿದೆ.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the bottom.</source>
+        <translation>ಸೈಡ್‌ಬಾರ್ ಕೆಳಭಾಗದಲ್ಲಿದೆ.</translation>
+    </message>
+    <message>
+        <source>The sidebar was moved.</source>
+        <translation>ಸೈಡ್‌ಬಾರ್ ಅನ್ನು ಸರಿಸಲಾಗಿದೆ.</translation>
     </message>
     <message>
         <source>The sidebar could not reach the server.</source>
@@ -586,6 +606,14 @@
     <message>
         <source>Dark</source>
         <translation>ಗಾಢ</translation>
+    </message>
+    <message>
+        <source>Thank you. You can go back to the page; this window closes by itself.</source>
+        <translation>ಧನ್ಯವಾದಗಳು. ನೀವು ಪುಟಕ್ಕೆ ಹಿಂತಿರುಗಬಹುದು; ಈ ವಿಂಡೋ ತಾನಾಗಿಯೇ ಮುಚ್ಚುತ್ತದೆ.</translation>
+    </message>
+    <message>
+        <source>Verify it's you</source>
+        <translation>ಇದು ನೀವೇ ಎಂದು ಖಚಿತಪಡಿಸಿ</translation>
     </message>
 </context>
 </TS>

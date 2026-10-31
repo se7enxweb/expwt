@@ -80,20 +80,12 @@
         <translation>ᱱᱚᱣᱟ ᱫᱚ ᱱᱚᱸᱰᱮᱱᱟᱜ ᱥᱟᱦᱴᱟ ᱠᱚᱣᱟᱜ ᱞᱤᱥᱴᱤ ᱵᱟᱝ ᱠᱟᱱᱟ᱾</translation>
     </message>
     <message>
-        <source>The input is not JSON.</source>
-        <translation>ᱟᱫᱮᱨ ᱫᱚ JSON ᱵᱟᱝ ᱠᱟᱱᱟ᱾</translation>
-    </message>
-    <message>
         <source>This action changes something: send it with expwtWrite.</source>
         <translation>ᱱᱚᱣᱟ ᱠᱟᱹᱢᱤ ᱡᱟᱦᱟᱱᱟᱜ ᱵᱚᱫᱚᱞᱟᱭ: expwtWrite ᱛᱮ ᱠᱩᱞ ᱢᱮ᱾</translation>
     </message>
     <message>
-        <source>Verify it's you</source>
-        <translation>ᱟᱢ ᱜᱮ ᱢᱮᱱᱟᱢᱟ ᱥᱟᱹᱵᱤᱛ ᱢᱮ</translation>
-    </message>
-    <message>
-        <source>Thank you. You can go back to the page; this window closes by itself.</source>
-        <translation>ᱥᱟᱨᱦᱟᱣ᱾ ᱟᱢ ᱥᱟᱦᱴᱟ ᱛᱮ ᱨᱩᱣᱟᱹᱲ ᱫᱟᱲᱮᱭᱟᱜ ᱢᱮᱭᱟ; ᱱᱚᱣᱟ ᱡᱷᱚᱨᱠᱟ ᱟᱡ ᱛᱮ ᱜᱮ ᱵᱚᱸᱫᱚᱜᱼᱟ᱾</translation>
+        <source>The input is not JSON.</source>
+        <translation>ᱟᱫᱮᱨ ᱫᱚ JSON ᱵᱟᱝ ᱠᱟᱱᱟ᱾</translation>
     </message>
     <message>
         <source>Something went wrong.</source>
@@ -448,16 +440,28 @@
         <translation>ᱫᱷᱟᱨᱮ ᱵᱟᱨ</translation>
     </message>
     <message>
-        <source>Side</source>
-        <translation>ᱫᱷᱟᱨᱮ</translation>
+        <source>Anchored at</source>
+        <translation>ᱛᱚᱞ ᱠᱟᱱ ᱥᱮᱫ</translation>
+    </message>
+    <message>
+        <source>Left</source>
+        <translation>ᱞᱮᱸᱜᱟ</translation>
     </message>
     <message>
         <source>Right</source>
         <translation>ᱡᱚᱡᱚᱢ</translation>
     </message>
     <message>
-        <source>Left</source>
-        <translation>ᱞᱮᱸᱜᱟ</translation>
+        <source>Position</source>
+        <translation>ᱡᱟᱭᱜᱟ</translation>
+    </message>
+    <message>
+        <source>Top</source>
+        <translation>ᱪᱮᱛᱟᱱ</translation>
+    </message>
+    <message>
+        <source>Bottom</source>
+        <translation>ᱞᱟᱛᱟᱨ</translation>
     </message>
     <message>
         <source>When open</source>
@@ -496,6 +500,10 @@
         <translation>ᱛᱤᱨ ᱪᱟᱹᱵᱤ ᱠᱚ ᱪᱟᱞᱟᱣᱟ, Enter ᱠᱷᱩᱞᱟᱹᱭᱟ᱾</translation>
     </message>
     <message>
+        <source>Ctrl and an arrow key put it on another edge.</source>
+        <translation>Ctrl ᱟᱨ ᱛᱤᱨ ᱪᱟᱹᱵᱤ ᱮᱴᱟᱜ ᱢᱩᱲᱩᱵ ᱛᱮ ᱪᱟᱞᱟᱣᱟ᱾</translation>
+    </message>
+    <message>
         <source>Width of the sidebar</source>
         <translation>ᱫᱷᱟᱨᱮ ᱵᱟᱨ ᱨᱮᱭᱟᱜ ᱚᱥᱟᱨ</translation>
     </message>
@@ -528,8 +536,8 @@
         <translation>ᱤᱧ</translation>
     </message>
     <message>
-        <source>The sidebar was moved.</source>
-        <translation>ᱫᱷᱟᱨᱮ ᱵᱟᱨ ᱪᱟᱞᱟᱣ ᱮᱱᱟ᱾</translation>
+        <source>Height of the sidebar</source>
+        <translation>ᱫᱷᱟᱨᱮ ᱵᱟᱨ ᱨᱮᱭᱟᱜ ᱩᱥᱩᱞ</translation>
     </message>
     <message>
         <source>The sidebar is on the left.</source>
@@ -538,6 +546,18 @@
     <message>
         <source>The sidebar is on the right.</source>
         <translation>ᱫᱷᱟᱨᱮ ᱵᱟᱨ ᱡᱚᱡᱚᱢ ᱥᱮᱫ ᱨᱮ ᱢᱮᱱᱟᱜᱼᱟ᱾</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the top.</source>
+        <translation>ᱫᱷᱟᱨᱮ ᱵᱟᱨ ᱪᱮᱛᱟᱱ ᱥᱮᱫ ᱨᱮ ᱢᱮᱱᱟᱜᱼᱟ᱾</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the bottom.</source>
+        <translation>ᱫᱷᱟᱨᱮ ᱵᱟᱨ ᱞᱟᱛᱟᱨ ᱥᱮᱫ ᱨᱮ ᱢᱮᱱᱟᱜᱼᱟ᱾</translation>
+    </message>
+    <message>
+        <source>The sidebar was moved.</source>
+        <translation>ᱫᱷᱟᱨᱮ ᱵᱟᱨ ᱪᱟᱞᱟᱣ ᱮᱱᱟ᱾</translation>
     </message>
     <message>
         <source>The sidebar could not reach the server.</source>
@@ -586,6 +606,14 @@
     <message>
         <source>Dark</source>
         <translation>ᱧᱩᱛ</translation>
+    </message>
+    <message>
+        <source>Thank you. You can go back to the page; this window closes by itself.</source>
+        <translation>ᱥᱟᱨᱦᱟᱣ᱾ ᱟᱢ ᱥᱟᱦᱴᱟ ᱛᱮ ᱨᱩᱣᱟᱹᱲ ᱫᱟᱲᱮᱭᱟᱜ ᱢᱮᱭᱟ; ᱱᱚᱣᱟ ᱡᱷᱚᱨᱠᱟ ᱟᱡ ᱛᱮ ᱜᱮ ᱵᱚᱸᱫᱚᱜᱼᱟ᱾</translation>
+    </message>
+    <message>
+        <source>Verify it's you</source>
+        <translation>ᱟᱢ ᱜᱮ ᱢᱮᱱᱟᱢᱟ ᱥᱟᱹᱵᱤᱛ ᱢᱮ</translation>
     </message>
 </context>
 </TS>

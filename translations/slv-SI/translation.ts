@@ -80,20 +80,12 @@
         <translation>To ni seznam strani na tem mestu.</translation>
     </message>
     <message>
-        <source>The input is not JSON.</source>
-        <translation>Vnos ni JSON.</translation>
-    </message>
-    <message>
         <source>This action changes something: send it with expwtWrite.</source>
         <translation>To dejanje nekaj spremeni: pošljite ga z expwtWrite.</translation>
     </message>
     <message>
-        <source>Verify it's you</source>
-        <translation>Potrdite, da ste to vi</translation>
-    </message>
-    <message>
-        <source>Thank you. You can go back to the page; this window closes by itself.</source>
-        <translation>Hvala. Lahko se vrnete na stran; to okno se zapre samo.</translation>
+        <source>The input is not JSON.</source>
+        <translation>Vnos ni JSON.</translation>
     </message>
     <message>
         <source>Something went wrong.</source>
@@ -448,16 +440,28 @@
         <translation>Stranska vrstica</translation>
     </message>
     <message>
-        <source>Side</source>
-        <translation>Stran prikaza</translation>
+        <source>Anchored at</source>
+        <translation>Zasidrano ob</translation>
+    </message>
+    <message>
+        <source>Left</source>
+        <translation>Levo</translation>
     </message>
     <message>
         <source>Right</source>
         <translation>Desno</translation>
     </message>
     <message>
-        <source>Left</source>
-        <translation>Levo</translation>
+        <source>Position</source>
+        <translation>Položaj</translation>
+    </message>
+    <message>
+        <source>Top</source>
+        <translation>Zgoraj</translation>
+    </message>
+    <message>
+        <source>Bottom</source>
+        <translation>Spodaj</translation>
     </message>
     <message>
         <source>When open</source>
@@ -496,6 +500,10 @@
         <translation>Puščice jo premikajo, Enter jo odpre.</translation>
     </message>
     <message>
+        <source>Ctrl and an arrow key put it on another edge.</source>
+        <translation>Ctrl in puščica jo premakneta na drug rob.</translation>
+    </message>
+    <message>
         <source>Width of the sidebar</source>
         <translation>Širina stranske vrstice</translation>
     </message>
@@ -528,8 +536,8 @@
         <translation>Jaz</translation>
     </message>
     <message>
-        <source>The sidebar was moved.</source>
-        <translation>Stranska vrstica je premaknjena.</translation>
+        <source>Height of the sidebar</source>
+        <translation>Višina stranske vrstice</translation>
     </message>
     <message>
         <source>The sidebar is on the left.</source>
@@ -538,6 +546,18 @@
     <message>
         <source>The sidebar is on the right.</source>
         <translation>Stranska vrstica je desno.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the top.</source>
+        <translation>Stranska vrstica je zgoraj.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the bottom.</source>
+        <translation>Stranska vrstica je spodaj.</translation>
+    </message>
+    <message>
+        <source>The sidebar was moved.</source>
+        <translation>Stranska vrstica je premaknjena.</translation>
     </message>
     <message>
         <source>The sidebar could not reach the server.</source>
@@ -586,6 +606,14 @@
     <message>
         <source>Dark</source>
         <translation>Temno</translation>
+    </message>
+    <message>
+        <source>Thank you. You can go back to the page; this window closes by itself.</source>
+        <translation>Hvala. Lahko se vrnete na stran; to okno se zapre samo.</translation>
+    </message>
+    <message>
+        <source>Verify it's you</source>
+        <translation>Potrdite, da ste to vi</translation>
     </message>
 </context>
 </TS>

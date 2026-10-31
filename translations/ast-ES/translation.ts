@@ -80,20 +80,12 @@
         <translation>Esta nun ye la llista de páxines d'equí.</translation>
     </message>
     <message>
-        <source>The input is not JSON.</source>
-        <translation>La entrada nun ye JSON.</translation>
-    </message>
-    <message>
         <source>This action changes something: send it with expwtWrite.</source>
         <translation>Esta aición camuda daqué: unvíala con expwtWrite.</translation>
     </message>
     <message>
-        <source>Verify it's you</source>
-        <translation>Confirma que yes tu</translation>
-    </message>
-    <message>
-        <source>Thank you. You can go back to the page; this window closes by itself.</source>
-        <translation>Gracies. Pues volver a la páxina; esta ventana ciérrase sola.</translation>
+        <source>The input is not JSON.</source>
+        <translation>La entrada nun ye JSON.</translation>
     </message>
     <message>
         <source>Something went wrong.</source>
@@ -448,16 +440,28 @@
         <translation>La barra llateral</translation>
     </message>
     <message>
-        <source>Side</source>
-        <translation>Llau</translation>
+        <source>Anchored at</source>
+        <translation>Anclada a</translation>
+    </message>
+    <message>
+        <source>Left</source>
+        <translation>Esquierda</translation>
     </message>
     <message>
         <source>Right</source>
         <translation>Derecha</translation>
     </message>
     <message>
-        <source>Left</source>
-        <translation>Esquierda</translation>
+        <source>Position</source>
+        <translation>Posición</translation>
+    </message>
+    <message>
+        <source>Top</source>
+        <translation>Arriba</translation>
+    </message>
+    <message>
+        <source>Bottom</source>
+        <translation>Abaxo</translation>
     </message>
     <message>
         <source>When open</source>
@@ -496,6 +500,10 @@
         <translation>Les tecles de flecha muévenla, Intro ábrela.</translation>
     </message>
     <message>
+        <source>Ctrl and an arrow key put it on another edge.</source>
+        <translation>Ctrl y una tecla de flecha pónenla n'otru llau.</translation>
+    </message>
+    <message>
         <source>Width of the sidebar</source>
         <translation>Anchor de la barra llateral</translation>
     </message>
@@ -528,8 +536,8 @@
         <translation>Yo</translation>
     </message>
     <message>
-        <source>The sidebar was moved.</source>
-        <translation>Movióse la barra llateral.</translation>
+        <source>Height of the sidebar</source>
+        <translation>Altor de la barra llateral</translation>
     </message>
     <message>
         <source>The sidebar is on the left.</source>
@@ -538,6 +546,18 @@
     <message>
         <source>The sidebar is on the right.</source>
         <translation>La barra llateral ta a la derecha.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the top.</source>
+        <translation>La barra llateral ta arriba.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the bottom.</source>
+        <translation>La barra llateral ta abaxo.</translation>
+    </message>
+    <message>
+        <source>The sidebar was moved.</source>
+        <translation>Movióse la barra llateral.</translation>
     </message>
     <message>
         <source>The sidebar could not reach the server.</source>
@@ -586,6 +606,14 @@
     <message>
         <source>Dark</source>
         <translation>Escuru</translation>
+    </message>
+    <message>
+        <source>Thank you. You can go back to the page; this window closes by itself.</source>
+        <translation>Gracies. Pues volver a la páxina; esta ventana ciérrase sola.</translation>
+    </message>
+    <message>
+        <source>Verify it's you</source>
+        <translation>Confirma que yes tu</translation>
     </message>
 </context>
 </TS>

@@ -80,20 +80,12 @@
         <translation>Энэ бол энд байгаа хуудсуудын жагсаалт биш.</translation>
     </message>
     <message>
-        <source>The input is not JSON.</source>
-        <translation>Оролт JSON биш байна.</translation>
-    </message>
-    <message>
         <source>This action changes something: send it with expwtWrite.</source>
         <translation>Энэ үйлдэл ямар нэг зүйлийг өөрчилдөг: expwtWrite-аар илгээнэ үү.</translation>
     </message>
     <message>
-        <source>Verify it's you</source>
-        <translation>Энэ таныг мөн эсэхийг баталгаажуулна уу</translation>
-    </message>
-    <message>
-        <source>Thank you. You can go back to the page; this window closes by itself.</source>
-        <translation>Баярлалаа. Та хуудас руу буцаж болно; энэ цонх өөрөө хаагдана.</translation>
+        <source>The input is not JSON.</source>
+        <translation>Оролт JSON биш байна.</translation>
     </message>
     <message>
         <source>Something went wrong.</source>
@@ -448,16 +440,28 @@
         <translation>Хажуугийн самбар</translation>
     </message>
     <message>
-        <source>Side</source>
-        <translation>Тал</translation>
+        <source>Anchored at</source>
+        <translation>Бэхэлсэн тал</translation>
+    </message>
+    <message>
+        <source>Left</source>
+        <translation>Зүүн</translation>
     </message>
     <message>
         <source>Right</source>
         <translation>Баруун</translation>
     </message>
     <message>
-        <source>Left</source>
-        <translation>Зүүн</translation>
+        <source>Position</source>
+        <translation>Байрлал</translation>
+    </message>
+    <message>
+        <source>Top</source>
+        <translation>Дээд</translation>
+    </message>
+    <message>
+        <source>Bottom</source>
+        <translation>Доод</translation>
     </message>
     <message>
         <source>When open</source>
@@ -496,6 +500,10 @@
         <translation>Сумтай товчнууд зөөнө, Enter нээнэ.</translation>
     </message>
     <message>
+        <source>Ctrl and an arrow key put it on another edge.</source>
+        <translation>Ctrl болон сумтай товч нь түүнийг өөр ирмэг рүү зөөнө.</translation>
+    </message>
+    <message>
         <source>Width of the sidebar</source>
         <translation>Хажуугийн самбарын өргөн</translation>
     </message>
@@ -528,8 +536,8 @@
         <translation>Би</translation>
     </message>
     <message>
-        <source>The sidebar was moved.</source>
-        <translation>Хажуугийн самбар зөөгдлөө.</translation>
+        <source>Height of the sidebar</source>
+        <translation>Хажуугийн самбарын өндөр</translation>
     </message>
     <message>
         <source>The sidebar is on the left.</source>
@@ -538,6 +546,18 @@
     <message>
         <source>The sidebar is on the right.</source>
         <translation>Хажуугийн самбар баруун талд байна.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the top.</source>
+        <translation>Хажуугийн самбар дээд талд байна.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the bottom.</source>
+        <translation>Хажуугийн самбар доод талд байна.</translation>
+    </message>
+    <message>
+        <source>The sidebar was moved.</source>
+        <translation>Хажуугийн самбар зөөгдлөө.</translation>
     </message>
     <message>
         <source>The sidebar could not reach the server.</source>
@@ -586,6 +606,14 @@
     <message>
         <source>Dark</source>
         <translation>Бараан</translation>
+    </message>
+    <message>
+        <source>Thank you. You can go back to the page; this window closes by itself.</source>
+        <translation>Баярлалаа. Та хуудас руу буцаж болно; энэ цонх өөрөө хаагдана.</translation>
+    </message>
+    <message>
+        <source>Verify it's you</source>
+        <translation>Энэ таныг мөн эсэхийг баталгаажуулна уу</translation>
     </message>
 </context>
 </TS>

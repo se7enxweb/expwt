@@ -80,20 +80,12 @@
         <translation>Tai nėra čia esančių puslapių sąrašas.</translation>
     </message>
     <message>
-        <source>The input is not JSON.</source>
-        <translation>Įvestis nėra JSON.</translation>
-    </message>
-    <message>
         <source>This action changes something: send it with expwtWrite.</source>
         <translation>Šis veiksmas kai ką keičia: siųskite jį su expwtWrite.</translation>
     </message>
     <message>
-        <source>Verify it's you</source>
-        <translation>Patvirtinkite, kad tai jūs</translation>
-    </message>
-    <message>
-        <source>Thank you. You can go back to the page; this window closes by itself.</source>
-        <translation>Ačiū. Galite grįžti į puslapį; šis langas užsidarys pats.</translation>
+        <source>The input is not JSON.</source>
+        <translation>Įvestis nėra JSON.</translation>
     </message>
     <message>
         <source>Something went wrong.</source>
@@ -448,16 +440,28 @@
         <translation>Šoninė juosta</translation>
     </message>
     <message>
-        <source>Side</source>
-        <translation>Pusė</translation>
+        <source>Anchored at</source>
+        <translation>Pritvirtinta</translation>
+    </message>
+    <message>
+        <source>Left</source>
+        <translation>Kairėje</translation>
     </message>
     <message>
         <source>Right</source>
         <translation>Dešinėje</translation>
     </message>
     <message>
-        <source>Left</source>
-        <translation>Kairėje</translation>
+        <source>Position</source>
+        <translation>Padėtis</translation>
+    </message>
+    <message>
+        <source>Top</source>
+        <translation>Viršuje</translation>
+    </message>
+    <message>
+        <source>Bottom</source>
+        <translation>Apačioje</translation>
     </message>
     <message>
         <source>When open</source>
@@ -496,6 +500,10 @@
         <translation>Rodyklių klavišai ją perkelia, Enter atveria.</translation>
     </message>
     <message>
+        <source>Ctrl and an arrow key put it on another edge.</source>
+        <translation>Ctrl ir rodyklės klavišas ją perkelia prie kito krašto.</translation>
+    </message>
+    <message>
         <source>Width of the sidebar</source>
         <translation>Šoninės juostos plotis</translation>
     </message>
@@ -528,8 +536,8 @@
         <translation>Aš</translation>
     </message>
     <message>
-        <source>The sidebar was moved.</source>
-        <translation>Šoninė juosta perkelta.</translation>
+        <source>Height of the sidebar</source>
+        <translation>Šoninės juostos aukštis</translation>
     </message>
     <message>
         <source>The sidebar is on the left.</source>
@@ -538,6 +546,18 @@
     <message>
         <source>The sidebar is on the right.</source>
         <translation>Šoninė juosta yra dešinėje.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the top.</source>
+        <translation>Šoninė juosta yra viršuje.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the bottom.</source>
+        <translation>Šoninė juosta yra apačioje.</translation>
+    </message>
+    <message>
+        <source>The sidebar was moved.</source>
+        <translation>Šoninė juosta perkelta.</translation>
     </message>
     <message>
         <source>The sidebar could not reach the server.</source>
@@ -586,6 +606,14 @@
     <message>
         <source>Dark</source>
         <translation>Tamsus</translation>
+    </message>
+    <message>
+        <source>Thank you. You can go back to the page; this window closes by itself.</source>
+        <translation>Ačiū. Galite grįžti į puslapį; šis langas užsidarys pats.</translation>
+    </message>
+    <message>
+        <source>Verify it's you</source>
+        <translation>Patvirtinkite, kad tai jūs</translation>
     </message>
 </context>
 </TS>

@@ -80,20 +80,12 @@
         <translation>Tio ne estas la listo de la paĝoj ĉi tie.</translation>
     </message>
     <message>
-        <source>The input is not JSON.</source>
-        <translation>La enigo ne estas JSON.</translation>
-    </message>
-    <message>
         <source>This action changes something: send it with expwtWrite.</source>
         <translation>Ĉi tiu ago ŝanĝas ion: sendu ĝin per expwtWrite.</translation>
     </message>
     <message>
-        <source>Verify it's you</source>
-        <translation>Konfirmu, ke estas vi</translation>
-    </message>
-    <message>
-        <source>Thank you. You can go back to the page; this window closes by itself.</source>
-        <translation>Dankon. Vi povas reiri al la paĝo; ĉi tiu fenestro fermiĝas per si mem.</translation>
+        <source>The input is not JSON.</source>
+        <translation>La enigo ne estas JSON.</translation>
     </message>
     <message>
         <source>Something went wrong.</source>
@@ -448,16 +440,28 @@
         <translation>La flanka breto</translation>
     </message>
     <message>
-        <source>Side</source>
-        <translation>Flanko</translation>
+        <source>Anchored at</source>
+        <translation>Ankrita ĉe</translation>
+    </message>
+    <message>
+        <source>Left</source>
+        <translation>Maldekstre</translation>
     </message>
     <message>
         <source>Right</source>
         <translation>Dekstre</translation>
     </message>
     <message>
-        <source>Left</source>
-        <translation>Maldekstre</translation>
+        <source>Position</source>
+        <translation>Pozicio</translation>
+    </message>
+    <message>
+        <source>Top</source>
+        <translation>Supre</translation>
+    </message>
+    <message>
+        <source>Bottom</source>
+        <translation>Malsupre</translation>
     </message>
     <message>
         <source>When open</source>
@@ -496,6 +500,10 @@
         <translation>Sagoklavoj movas ĝin, Enen malfermas ĝin.</translation>
     </message>
     <message>
+        <source>Ctrl and an arrow key put it on another edge.</source>
+        <translation>Ctrl kaj sagoklavo metas ĝin al alia rando.</translation>
+    </message>
+    <message>
         <source>Width of the sidebar</source>
         <translation>Larĝo de la flanka breto</translation>
     </message>
@@ -528,8 +536,8 @@
         <translation>Mi</translation>
     </message>
     <message>
-        <source>The sidebar was moved.</source>
-        <translation>La flanka breto estis movita.</translation>
+        <source>Height of the sidebar</source>
+        <translation>Alto de la flanka breto</translation>
     </message>
     <message>
         <source>The sidebar is on the left.</source>
@@ -538,6 +546,18 @@
     <message>
         <source>The sidebar is on the right.</source>
         <translation>La flanka breto estas dekstre.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the top.</source>
+        <translation>La flanka breto estas supre.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the bottom.</source>
+        <translation>La flanka breto estas malsupre.</translation>
+    </message>
+    <message>
+        <source>The sidebar was moved.</source>
+        <translation>La flanka breto estis movita.</translation>
     </message>
     <message>
         <source>The sidebar could not reach the server.</source>
@@ -586,6 +606,14 @@
     <message>
         <source>Dark</source>
         <translation>Malhela</translation>
+    </message>
+    <message>
+        <source>Thank you. You can go back to the page; this window closes by itself.</source>
+        <translation>Dankon. Vi povas reiri al la paĝo; ĉi tiu fenestro fermiĝas per si mem.</translation>
+    </message>
+    <message>
+        <source>Verify it's you</source>
+        <translation>Konfirmu, ke estas vi</translation>
     </message>
 </context>
 </TS>

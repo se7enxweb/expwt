@@ -80,20 +80,12 @@
         <translation>Oyo ezali liste ya nkasa ya awa te.</translation>
     </message>
     <message>
-        <source>The input is not JSON.</source>
-        <translation>Makambo okotisi ezali JSON te.</translation>
-    </message>
-    <message>
         <source>This action changes something: send it with expwtWrite.</source>
         <translation>Likambo oyo ebongoli eloko: tindá yango na expwtWrite.</translation>
     </message>
     <message>
-        <source>Verify it's you</source>
-        <translation>Ndimisá ete ozali yo</translation>
-    </message>
-    <message>
-        <source>Thank you. You can go back to the page; this window closes by itself.</source>
-        <translation>Matɔ́nɔ. Okoki kozonga na lokasa; lininisa oyo ekomikanga yango moko.</translation>
+        <source>The input is not JSON.</source>
+        <translation>Makambo okotisi ezali JSON te.</translation>
     </message>
     <message>
         <source>Something went wrong.</source>
@@ -448,16 +440,28 @@
         <translation>Barre ya pembeni</translation>
     </message>
     <message>
-        <source>Side</source>
-        <translation>Ngámbo</translation>
+        <source>Anchored at</source>
+        <translation>Ekangami na</translation>
+    </message>
+    <message>
+        <source>Left</source>
+        <translation>Mwasi</translation>
     </message>
     <message>
         <source>Right</source>
         <translation>Mobali</translation>
     </message>
     <message>
-        <source>Left</source>
-        <translation>Mwasi</translation>
+        <source>Position</source>
+        <translation>Esika</translation>
+    </message>
+    <message>
+        <source>Top</source>
+        <translation>Likoló</translation>
+    </message>
+    <message>
+        <source>Bottom</source>
+        <translation>Na nse</translation>
     </message>
     <message>
         <source>When open</source>
@@ -496,6 +500,10 @@
         <translation>Bafiseli ya flèche ekotindaka yango, Enter ekofungolaka yango.</translation>
     </message>
     <message>
+        <source>Ctrl and an arrow key put it on another edge.</source>
+        <translation>Ctrl na fiseli ya flèche etiaka yango na ngámbo mosusu.</translation>
+    </message>
+    <message>
         <source>Width of the sidebar</source>
         <translation>Monene ya barre ya pembeni</translation>
     </message>
@@ -528,8 +536,8 @@
         <translation>Ngai</translation>
     </message>
     <message>
-        <source>The sidebar was moved.</source>
-        <translation>Barre ya pembeni ebongolami esika.</translation>
+        <source>Height of the sidebar</source>
+        <translation>Molai ya barre ya pembeni</translation>
     </message>
     <message>
         <source>The sidebar is on the left.</source>
@@ -538,6 +546,18 @@
     <message>
         <source>The sidebar is on the right.</source>
         <translation>Barre ya pembeni ezali na ngámbo ya mobali.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the top.</source>
+        <translation>Barre ya pembeni ezali likoló.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the bottom.</source>
+        <translation>Barre ya pembeni ezali na nse.</translation>
+    </message>
+    <message>
+        <source>The sidebar was moved.</source>
+        <translation>Barre ya pembeni ebongolami esika.</translation>
     </message>
     <message>
         <source>The sidebar could not reach the server.</source>
@@ -586,6 +606,14 @@
     <message>
         <source>Dark</source>
         <translation>Molili</translation>
+    </message>
+    <message>
+        <source>Thank you. You can go back to the page; this window closes by itself.</source>
+        <translation>Matɔ́nɔ. Okoki kozonga na lokasa; lininisa oyo ekomikanga yango moko.</translation>
+    </message>
+    <message>
+        <source>Verify it's you</source>
+        <translation>Ndimisá ete ozali yo</translation>
     </message>
 </context>
 </TS>

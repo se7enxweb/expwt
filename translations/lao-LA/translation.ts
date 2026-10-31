@@ -80,20 +80,12 @@
         <translation>ນີ້ບໍ່ແມ່ນລາຍການໜ້າຢູ່ທີ່ນີ້.</translation>
     </message>
     <message>
-        <source>The input is not JSON.</source>
-        <translation>ຂໍ້ມູນທີ່ປ້ອນບໍ່ແມ່ນ JSON.</translation>
-    </message>
-    <message>
         <source>This action changes something: send it with expwtWrite.</source>
         <translation>ການດຳເນີນການນີ້ປ່ຽນແປງບາງຢ່າງ: ສົ່ງມັນດ້ວຍ expwtWrite.</translation>
     </message>
     <message>
-        <source>Verify it's you</source>
-        <translation>ຢືນຢັນວ່າແມ່ນທ່ານ</translation>
-    </message>
-    <message>
-        <source>Thank you. You can go back to the page; this window closes by itself.</source>
-        <translation>ຂອບໃຈ. ທ່ານສາມາດກັບໄປທີ່ໜ້າໄດ້; ປ່ອງຢ້ຽມນີ້ຈະປິດເອງ.</translation>
+        <source>The input is not JSON.</source>
+        <translation>ຂໍ້ມູນທີ່ປ້ອນບໍ່ແມ່ນ JSON.</translation>
     </message>
     <message>
         <source>Something went wrong.</source>
@@ -448,16 +440,28 @@
         <translation>ແຖບຂ້າງ</translation>
     </message>
     <message>
-        <source>Side</source>
-        <translation>ດ້ານ</translation>
+        <source>Anchored at</source>
+        <translation>ຍຶດຢູ່ທີ່</translation>
+    </message>
+    <message>
+        <source>Left</source>
+        <translation>ຊ້າຍ</translation>
     </message>
     <message>
         <source>Right</source>
         <translation>ຂວາ</translation>
     </message>
     <message>
-        <source>Left</source>
-        <translation>ຊ້າຍ</translation>
+        <source>Position</source>
+        <translation>ຕຳແໜ່ງ</translation>
+    </message>
+    <message>
+        <source>Top</source>
+        <translation>ເທິງ</translation>
+    </message>
+    <message>
+        <source>Bottom</source>
+        <translation>ລຸ່ມ</translation>
     </message>
     <message>
         <source>When open</source>
@@ -496,6 +500,10 @@
         <translation>ປຸ່ມລູກສອນຍ້າຍມັນ, Enter ເປີດມັນ.</translation>
     </message>
     <message>
+        <source>Ctrl and an arrow key put it on another edge.</source>
+        <translation>Ctrl ແລະ ປຸ່ມລູກສອນຍ້າຍມັນໄປຂອບອື່ນ.</translation>
+    </message>
+    <message>
         <source>Width of the sidebar</source>
         <translation>ຄວາມກວ້າງຂອງແຖບຂ້າງ</translation>
     </message>
@@ -528,8 +536,8 @@
         <translation>ຂ້ອຍ</translation>
     </message>
     <message>
-        <source>The sidebar was moved.</source>
-        <translation>ແຖບຂ້າງຖືກຍ້າຍແລ້ວ.</translation>
+        <source>Height of the sidebar</source>
+        <translation>ຄວາມສູງຂອງແຖບຂ້າງ</translation>
     </message>
     <message>
         <source>The sidebar is on the left.</source>
@@ -538,6 +546,18 @@
     <message>
         <source>The sidebar is on the right.</source>
         <translation>ແຖບຂ້າງຢູ່ທາງຂວາ.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the top.</source>
+        <translation>ແຖບຂ້າງຢູ່ທາງເທິງ.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the bottom.</source>
+        <translation>ແຖບຂ້າງຢູ່ທາງລຸ່ມ.</translation>
+    </message>
+    <message>
+        <source>The sidebar was moved.</source>
+        <translation>ແຖບຂ້າງຖືກຍ້າຍແລ້ວ.</translation>
     </message>
     <message>
         <source>The sidebar could not reach the server.</source>
@@ -586,6 +606,14 @@
     <message>
         <source>Dark</source>
         <translation>ມືດ</translation>
+    </message>
+    <message>
+        <source>Thank you. You can go back to the page; this window closes by itself.</source>
+        <translation>ຂອບໃຈ. ທ່ານສາມາດກັບໄປທີ່ໜ້າໄດ້; ປ່ອງຢ້ຽມນີ້ຈະປິດເອງ.</translation>
+    </message>
+    <message>
+        <source>Verify it's you</source>
+        <translation>ຢືນຢັນວ່າແມ່ນທ່ານ</translation>
     </message>
 </context>
 </TS>

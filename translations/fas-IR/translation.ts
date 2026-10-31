@@ -80,20 +80,12 @@
         <translation>این فهرست صفحه‌های اینجا نیست.</translation>
     </message>
     <message>
-        <source>The input is not JSON.</source>
-        <translation>ورودی JSON نیست.</translation>
-    </message>
-    <message>
         <source>This action changes something: send it with expwtWrite.</source>
         <translation>این عملیات چیزی را تغییر می‌دهد: آن را با expwtWrite بفرستید.</translation>
     </message>
     <message>
-        <source>Verify it's you</source>
-        <translation>تأیید کنید که خودتان هستید</translation>
-    </message>
-    <message>
-        <source>Thank you. You can go back to the page; this window closes by itself.</source>
-        <translation>سپاسگزاریم. می‌توانید به صفحه برگردید؛ این پنجره خودبه‌خود بسته می‌شود.</translation>
+        <source>The input is not JSON.</source>
+        <translation>ورودی JSON نیست.</translation>
     </message>
     <message>
         <source>Something went wrong.</source>
@@ -448,16 +440,28 @@
         <translation>نوار کناری</translation>
     </message>
     <message>
-        <source>Side</source>
-        <translation>سمت</translation>
+        <source>Anchored at</source>
+        <translation>محل اتصال</translation>
+    </message>
+    <message>
+        <source>Left</source>
+        <translation>چپ</translation>
     </message>
     <message>
         <source>Right</source>
         <translation>راست</translation>
     </message>
     <message>
-        <source>Left</source>
-        <translation>چپ</translation>
+        <source>Position</source>
+        <translation>موقعیت</translation>
+    </message>
+    <message>
+        <source>Top</source>
+        <translation>بالا</translation>
+    </message>
+    <message>
+        <source>Bottom</source>
+        <translation>پایین</translation>
     </message>
     <message>
         <source>When open</source>
@@ -496,6 +500,10 @@
         <translation>کلیدهای جهت‌نما آن را جابه‌جا می‌کنند و Enter آن را باز می‌کند.</translation>
     </message>
     <message>
+        <source>Ctrl and an arrow key put it on another edge.</source>
+        <translation>Ctrl و یک کلید جهت‌نما آن را به لبهٔ دیگری می‌برند.</translation>
+    </message>
+    <message>
         <source>Width of the sidebar</source>
         <translation>پهنای نوار کناری</translation>
     </message>
@@ -528,8 +536,8 @@
         <translation>من</translation>
     </message>
     <message>
-        <source>The sidebar was moved.</source>
-        <translation>نوار کناری جابه‌جا شد.</translation>
+        <source>Height of the sidebar</source>
+        <translation>ارتفاع نوار کناری</translation>
     </message>
     <message>
         <source>The sidebar is on the left.</source>
@@ -538,6 +546,18 @@
     <message>
         <source>The sidebar is on the right.</source>
         <translation>نوار کناری در سمت راست است.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the top.</source>
+        <translation>نوار کناری در بالا است.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the bottom.</source>
+        <translation>نوار کناری در پایین است.</translation>
+    </message>
+    <message>
+        <source>The sidebar was moved.</source>
+        <translation>نوار کناری جابه‌جا شد.</translation>
     </message>
     <message>
         <source>The sidebar could not reach the server.</source>
@@ -586,6 +606,14 @@
     <message>
         <source>Dark</source>
         <translation>تیره</translation>
+    </message>
+    <message>
+        <source>Thank you. You can go back to the page; this window closes by itself.</source>
+        <translation>سپاسگزاریم. می‌توانید به صفحه برگردید؛ این پنجره خودبه‌خود بسته می‌شود.</translation>
+    </message>
+    <message>
+        <source>Verify it's you</source>
+        <translation>تأیید کنید که خودتان هستید</translation>
     </message>
 </context>
 </TS>

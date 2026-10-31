@@ -220,8 +220,9 @@
   color-scheme: light;
 }
 :host([data-theme="dark"]) { color-scheme: dark; }
-:host([data-side="right"]) { inset-inline-end: 0; }
-:host([data-side="left"]) { inset-inline-start: 0; }
+:host([data-edge="right"]) { right: 0; }
+:host([data-edge="left"]) { left: 0; }
+:host([data-edge="bottom"]) { inset-block-start: auto; bottom: var(--expwt-bottom, 0px); }
 :host([hidden]) { display: none; }
 
 *, *::before, *::after { box-sizing: border-box; }
@@ -245,10 +246,20 @@
   touch-action: none;
   user-select: none;
 }
-:host([data-side="right"]) .wt-tab { right: 0; border-inline-end: 0; border-radius: var(--a4-radius-s) 0 0 var(--a4-radius-s); }
-:host([data-side="left"]) .wt-tab { left: 0; border-inline-start: 0; border-radius: 0 var(--a4-radius-s) var(--a4-radius-s) 0; }
-:host([data-open="true"][data-side="right"]) .wt-tab { right: var(--expwt-width); }
-:host([data-open="true"][data-side="left"]) .wt-tab { left: var(--expwt-width); }
+/* The edges (F17). Physical sides throughout: the edge is a side of the window, also in a right-to-left language. */
+:host([data-edge="right"]) .wt-tab { right: 0; border-right: 0; border-radius: var(--a4-radius-s) 0 0 var(--a4-radius-s); }
+:host([data-edge="left"]) .wt-tab { left: 0; border-left: 0; border-radius: 0 var(--a4-radius-s) var(--a4-radius-s) 0; }
+:host([data-open="true"][data-edge="right"]) .wt-tab { right: var(--expwt-width); }
+:host([data-open="true"][data-edge="left"]) .wt-tab { left: var(--expwt-width); }
+/* top and bottom: a horizontal tab, anchored at the left (start) or the right (end) end of the bar */
+:host([data-orient="horizontal"]) .wt-tab { flex-direction: row; padding: var(--a4-space-2) var(--a4-space-3); min-inline-size: 0; }
+:host([data-orient="horizontal"]) .wt-tab-label { writing-mode: horizontal-tb; }
+:host([data-orient="horizontal"][data-align="start"]) .wt-tab { left: var(--expwt-offset, 0px); }
+:host([data-orient="horizontal"][data-align="end"]) .wt-tab { right: var(--expwt-offset, 0px); }
+:host([data-edge="top"]) .wt-tab { inset-block-start: var(--expwt-top, 0px); border-top: 0; border-radius: 0 0 var(--a4-radius-s) var(--a4-radius-s); }
+:host([data-edge="bottom"]) .wt-tab { inset-block-start: auto; bottom: var(--expwt-bottom, 0px); border-bottom: 0; border-radius: var(--a4-radius-s) var(--a4-radius-s) 0 0; }
+:host([data-open="true"][data-edge="top"]) .wt-tab { inset-block-start: calc(var(--expwt-top, 0px) + var(--expwt-height)); }
+:host([data-open="true"][data-edge="bottom"]) .wt-tab { bottom: calc(var(--expwt-bottom, 0px) + var(--expwt-height)); }
 .wt-tab:hover { background: var(--a4-soft); }
 .wt-tab:focus-visible, .wt-focus:focus-visible, button:focus-visible, a:focus-visible, input:focus-visible,
 select:focus-visible, textarea:focus-visible, [contenteditable]:focus-visible, [tabindex]:focus-visible {
@@ -272,10 +283,48 @@ select:focus-visible, textarea:focus-visible, [contenteditable]:focus-visible, [
   border-inline-start: 1px solid var(--a4-line);
   box-shadow: var(--a4-shadow-m);
 }
-:host([data-side="right"]) .wt-panel { right: 0; }
-:host([data-side="left"]) .wt-panel { left: 0; border-inline-start: 0; border-inline-end: 1px solid var(--a4-line); }
-.wt-panel[hidden] { display: none; }
-:host([data-overlay="true"]) .wt-panel { inline-size: min(100vw, var(--expwt-width)); }
+:host([data-edge="right"]) .wt-panel { right: 0; border-inline-start: 0; border-left: 1px solid var(--a4-line); }
+:host([data-edge="left"]) .wt-panel { left: 0; border-inline-start: 0; border-right: 1px solid var(--a4-line); }
+.wt-panel[hidden], :host([data-orient]) .wt-panel[hidden] { display: none; }
+:host([data-overlay="true"][data-orient="vertical"]) .wt-panel { inline-size: min(100vw, var(--expwt-width)); }
+
+/* The bar on top and bottom: the whole width of the window, its height the user's; the heading, the panels' tabs
+   and the close button in one row next to the edge, the panel's contents in columns across the bar. */
+:host([data-orient="horizontal"]) .wt-panel {
+  left: 0;
+  right: 0;
+  inline-size: auto;
+  max-inline-size: none;
+  block-size: var(--expwt-height);
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr) auto;
+  border-inline-start: 0;
+}
+:host([data-edge="top"]) .wt-panel {
+  inset-block-start: var(--expwt-top, 0px);
+  inset-block-end: auto;
+  grid-template-rows: auto minmax(0, 1fr) auto;
+  grid-template-areas: "title tabs close" "body body body" "status status status";
+  border-bottom: 1px solid var(--a4-line);
+}
+:host([data-edge="bottom"]) .wt-panel {
+  inset-block-start: auto;
+  inset-block-end: var(--expwt-bottom, 0px);
+  grid-template-rows: auto minmax(0, 1fr) auto;
+  grid-template-areas: "status status status" "body body body" "title tabs close";
+  border-top: 1px solid var(--a4-line);
+  box-shadow: var(--a4-shadow-up);
+}
+:host([data-orient="horizontal"]) .wt-head { display: contents; }
+:host([data-orient="horizontal"]) .wt-head h2 { grid-area: title; align-self: center; padding: var(--a4-space-2) var(--a4-space-4); }
+:host([data-orient="horizontal"]) .wt-head .wt-btn { grid-area: close; align-self: center; margin: var(--a4-space-1) var(--a4-space-4); }
+:host([data-orient="horizontal"]) .wt-tabs { grid-area: tabs; align-items: center; border-block-end: 0; padding-inline: var(--a4-space-2); }
+:host([data-orient="horizontal"]) .wt-body { grid-area: body; border-block: 1px solid var(--a4-line); }
+:host([data-orient="horizontal"]) .wt-status { grid-area: status; border-block-start: 0; }
+@media (min-width: 720px) {
+  :host([data-orient="horizontal"]) .wt-body { column-width: 320px; column-gap: var(--a4-space-6); column-fill: auto; }
+  :host([data-orient="horizontal"]) .wt-body :is(.wt-section, .wt-card, .wt-field, .wt-row, .wt-notice, fieldset, li, h3) { break-inside: avoid; }
+}
 
 .wt-resize {
   position: absolute;
@@ -285,8 +334,11 @@ select:focus-visible, textarea:focus-visible, [contenteditable]:focus-visible, [
   background: transparent;
   touch-action: none;
 }
-:host([data-side="right"]) .wt-resize { left: 0; }
-:host([data-side="left"]) .wt-resize { right: 0; }
+:host([data-edge="right"]) .wt-resize { left: 0; }
+:host([data-edge="left"]) .wt-resize { right: 0; }
+:host([data-orient="horizontal"]) .wt-resize { inset-block: auto; left: 0; right: 0; inline-size: auto; block-size: var(--a4-space-2); cursor: ns-resize; z-index: var(--a4-z-raised); }
+:host([data-edge="top"]) .wt-resize { bottom: 0; }
+:host([data-edge="bottom"]) .wt-resize { top: 0; }
 .wt-resize:hover, .wt-resize:focus-visible { background: var(--a4-accent-soft); }
 
 .wt-head {

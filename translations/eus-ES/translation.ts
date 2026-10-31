@@ -80,20 +80,12 @@
         <translation>Hau ez da hemengo orrien zerrenda.</translation>
     </message>
     <message>
-        <source>The input is not JSON.</source>
-        <translation>Sarrera ez da JSON.</translation>
-    </message>
-    <message>
         <source>This action changes something: send it with expwtWrite.</source>
         <translation>Ekintza honek zerbait aldatzen du: bidali expwtWrite bidez.</translation>
     </message>
     <message>
-        <source>Verify it's you</source>
-        <translation>Egiaztatu zu zarela</translation>
-    </message>
-    <message>
-        <source>Thank you. You can go back to the page; this window closes by itself.</source>
-        <translation>Eskerrik asko. Orrira itzul zaitezke; leiho hau bere kabuz itxiko da.</translation>
+        <source>The input is not JSON.</source>
+        <translation>Sarrera ez da JSON.</translation>
     </message>
     <message>
         <source>Something went wrong.</source>
@@ -448,16 +440,28 @@
         <translation>Alboko barra</translation>
     </message>
     <message>
-        <source>Side</source>
-        <translation>Aldea</translation>
+        <source>Anchored at</source>
+        <translation>Ainguratuta</translation>
+    </message>
+    <message>
+        <source>Left</source>
+        <translation>Ezkerrean</translation>
     </message>
     <message>
         <source>Right</source>
         <translation>Eskuinean</translation>
     </message>
     <message>
-        <source>Left</source>
-        <translation>Ezkerrean</translation>
+        <source>Position</source>
+        <translation>Kokapena</translation>
+    </message>
+    <message>
+        <source>Top</source>
+        <translation>Goian</translation>
+    </message>
+    <message>
+        <source>Bottom</source>
+        <translation>Behean</translation>
     </message>
     <message>
         <source>When open</source>
@@ -496,6 +500,10 @@
         <translation>Gezi-teklek mugitzen dute, Enter-ek irekitzen du.</translation>
     </message>
     <message>
+        <source>Ctrl and an arrow key put it on another edge.</source>
+        <translation>Ctrl eta gezi-tekla batek beste ertz batera eramaten dute.</translation>
+    </message>
+    <message>
         <source>Width of the sidebar</source>
         <translation>Alboko barraren zabalera</translation>
     </message>
@@ -528,8 +536,8 @@
         <translation>Ni</translation>
     </message>
     <message>
-        <source>The sidebar was moved.</source>
-        <translation>Alboko barra mugitu da.</translation>
+        <source>Height of the sidebar</source>
+        <translation>Alboko barraren altuera</translation>
     </message>
     <message>
         <source>The sidebar is on the left.</source>
@@ -538,6 +546,18 @@
     <message>
         <source>The sidebar is on the right.</source>
         <translation>Alboko barra eskuinean dago.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the top.</source>
+        <translation>Alboko barra goian dago.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the bottom.</source>
+        <translation>Alboko barra behean dago.</translation>
+    </message>
+    <message>
+        <source>The sidebar was moved.</source>
+        <translation>Alboko barra mugitu da.</translation>
     </message>
     <message>
         <source>The sidebar could not reach the server.</source>
@@ -586,6 +606,14 @@
     <message>
         <source>Dark</source>
         <translation>Iluna</translation>
+    </message>
+    <message>
+        <source>Thank you. You can go back to the page; this window closes by itself.</source>
+        <translation>Eskerrik asko. Orrira itzul zaitezke; leiho hau bere kabuz itxiko da.</translation>
+    </message>
+    <message>
+        <source>Verify it's you</source>
+        <translation>Egiaztatu zu zarela</translation>
     </message>
 </context>
 </TS>

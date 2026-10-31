@@ -80,20 +80,12 @@
         <translation>Hii si orodha ya kurasa za hapa.</translation>
     </message>
     <message>
-        <source>The input is not JSON.</source>
-        <translation>Ingizo si JSON.</translation>
-    </message>
-    <message>
         <source>This action changes something: send it with expwtWrite.</source>
         <translation>Kitendo hiki hubadilisha kitu: kitume kwa expwtWrite.</translation>
     </message>
     <message>
-        <source>Verify it's you</source>
-        <translation>Thibitisha kuwa ni wewe</translation>
-    </message>
-    <message>
-        <source>Thank you. You can go back to the page; this window closes by itself.</source>
-        <translation>Asante. Unaweza kurudi kwenye ukurasa; dirisha hili litajifunga lenyewe.</translation>
+        <source>The input is not JSON.</source>
+        <translation>Ingizo si JSON.</translation>
     </message>
     <message>
         <source>Something went wrong.</source>
@@ -448,16 +440,28 @@
         <translation>Upau wa pembeni</translation>
     </message>
     <message>
-        <source>Side</source>
-        <translation>Upande</translation>
+        <source>Anchored at</source>
+        <translation>Imeshikiliwa</translation>
+    </message>
+    <message>
+        <source>Left</source>
+        <translation>Kushoto</translation>
     </message>
     <message>
         <source>Right</source>
         <translation>Kulia</translation>
     </message>
     <message>
-        <source>Left</source>
-        <translation>Kushoto</translation>
+        <source>Position</source>
+        <translation>Mahali</translation>
+    </message>
+    <message>
+        <source>Top</source>
+        <translation>Juu</translation>
+    </message>
+    <message>
+        <source>Bottom</source>
+        <translation>Chini</translation>
     </message>
     <message>
         <source>When open</source>
@@ -496,6 +500,10 @@
         <translation>Vitufe vya mishale huisogeza, Enter huifungua.</translation>
     </message>
     <message>
+        <source>Ctrl and an arrow key put it on another edge.</source>
+        <translation>Ctrl na kitufe cha mshale huuhamishia ukingo mwingine.</translation>
+    </message>
+    <message>
         <source>Width of the sidebar</source>
         <translation>Upana wa upau wa pembeni</translation>
     </message>
@@ -528,8 +536,8 @@
         <translation>Mimi</translation>
     </message>
     <message>
-        <source>The sidebar was moved.</source>
-        <translation>Upau wa pembeni umehamishwa.</translation>
+        <source>Height of the sidebar</source>
+        <translation>Urefu wa upau wa pembeni</translation>
     </message>
     <message>
         <source>The sidebar is on the left.</source>
@@ -538,6 +546,18 @@
     <message>
         <source>The sidebar is on the right.</source>
         <translation>Upau wa pembeni uko kulia.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the top.</source>
+        <translation>Upau wa pembeni uko juu.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the bottom.</source>
+        <translation>Upau wa pembeni uko chini.</translation>
+    </message>
+    <message>
+        <source>The sidebar was moved.</source>
+        <translation>Upau wa pembeni umehamishwa.</translation>
     </message>
     <message>
         <source>The sidebar could not reach the server.</source>
@@ -586,6 +606,14 @@
     <message>
         <source>Dark</source>
         <translation>Giza</translation>
+    </message>
+    <message>
+        <source>Thank you. You can go back to the page; this window closes by itself.</source>
+        <translation>Asante. Unaweza kurudi kwenye ukurasa; dirisha hili litajifunga lenyewe.</translation>
+    </message>
+    <message>
+        <source>Verify it's you</source>
+        <translation>Thibitisha kuwa ni wewe</translation>
     </message>
 </context>
 </TS>

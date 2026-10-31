@@ -2,11 +2,17 @@
  * expwt: the website sidebar's shell, <exp-wt> (decisions 2-8, F9, F12). Vanilla JS and a Web Component with a Shadow
  * DOM; no framework, no build step; packed by ezjscore.
  *
- * - The closed tab, docked to the right or the left edge just below the site header, sticky once the header has
- *   scrolled away. Dragged along the edge and to the other edge (mouse, pen and touch), moved with the keyboard
- *   (arrows; Alt+Shift+E opens the sidebar from anywhere), opened with Enter.
- * - The open panel beside the page (push) on a wide window, over it (overlay) on a narrow one or by choice; its width
- *   dragged or set with the arrow keys on its edge.
+ * - The closed tab, docked to one of the four edges of the window (F17): left or right, just below the site header
+ *   and sticky once the header has scrolled away; top, as a horizontal bar under the header, sticky in the same way;
+ *   bottom, as a horizontal bar above whatever the site fixes to the bottom (a footer, a cookie bar). On top and
+ *   bottom the tab is anchored at the left (align start) or the right end (align end) of the bar.
+ *   Dragged along its edge and to any other edge (mouse, pen and touch); with the keyboard the arrow keys along the
+ *   edge move it, the arrow keys across it switch to the opposite edge, Ctrl with an arrow key (or Page Up and Page
+ *   Down) docks it to any edge, Home and End take it to the ends; Alt+Shift+E opens the sidebar from anywhere, Enter
+ *   opens it from the tab.
+ * - The open panel beside the page (push) on a wide window, over it (overlay) on a narrow one or by choice: on top
+ *   the page is pushed down below the bar, on bottom it gets room at its end. Its width (left, right) or height (top,
+ *   bottom) dragged or set with the arrow keys on its edge.
  * - Where it is, is kept per user on the server (expwt/api state.save) and can be kept per device instead (the Me
  *   panel); a visitor who is not signed in keeps it in the browser only.
  * - For a signed-in user one deferred request after the page has loaded (boot); the panels' script only when the
@@ -97,6 +103,14 @@
     return Math.max(min, Math.min(max, n));
   }
 
+  var EDGES = ['left', 'right', 'top', 'bottom'];
+  /* Page Down goes on clockwise, Page Up back */
+  var CLOCKWISE = ['right', 'bottom', 'left', 'top'];
+
+  function horizontalEdge(edge) {
+    return edge === 'top' || edge === 'bottom';
+  }
+
   /* The page's own stylesheet: the push of the page and the outlines of inline editing (never an attribute style). */
   var pageSheet = null;
   function pageCss(text) {
@@ -142,6 +156,11 @@
       }
       window.addEventListener('scroll', function () { self.place(); }, { passive: true });
       window.addEventListener('resize', function () { self.place(); });
+      /* a cookie bar or a fixed footer that comes or goes: the bottom bar moves above it */
+      if (window.MutationObserver && document.body) {
+        new MutationObserver(function () { if (self.state.edge === 'bottom') { self.place(); } })
+          .observe(document.body, { childList: true });
+      }
       document.addEventListener('keydown', function (e) { self.shortcut(e); });
       window.addEventListener('message', function (e) { self.message(e); });
       if (!this.anonymous && this.cfg.boot) {
@@ -159,13 +178,19 @@
       return all[text] || this.strings[text] || text;
     }
 
+    /* The state as expwtState::normalize() keeps it. A state from before the top and bottom edges has side (left or
+       right) instead of edge: it is read as that edge, and the next save writes edge. */
     normalize(s) {
       var c = this.cfg;
       s = s || {};
+      var edge = EDGES.indexOf(s.edge) >= 0 ? s.edge
+        : (s.side === 'left' || s.side === 'right' ? s.side : (EDGES.indexOf(c.edge) >= 0 ? c.edge : (c.side === 'left' ? 'left' : 'right')));
       return {
-        side: s.side === 'left' || s.side === 'right' ? s.side : (c.side || 'right'),
+        edge: edge,
+        align: s.align === 'start' || s.align === 'end' ? s.align : (c.align === 'start' ? 'start' : 'end'),
         offset: clamp(parseInt(s.offset, 10) || 0, 0, 4000),
         width: clamp(parseInt(s.width, 10) || c.width || 380, c.minWidth || 300, c.maxWidth || 720),
+        height: clamp(parseInt(s.height, 10) || c.height || 320, c.minHeight || 160, c.maxHeight || 640),
         open: s.open === true,
         mode: s.mode === 'overlay' ? 'overlay' : 'push',
         theme: ['light', 'dark'].indexOf(s.theme) >= 0 ? s.theme : 'auto',
@@ -209,7 +234,8 @@
       }, [
         icon(['M4 6h16', 'M4 12h16', 'M4 18h10']),
         h('span', { class: 'wt-tab-label', text: this.anonymous ? this.t('Menu') : this.t('Edit') }),
-        h('span', { class: 'wt-sr', text: this.t('Website sidebar') + '. ' + this.t('Arrow keys move it, Enter opens it.') })
+        h('span', { class: 'wt-sr', text: this.t('Website sidebar') + '. ' + this.t('Arrow keys move it, Enter opens it.') + ' '
+          + this.t('Ctrl and an arrow key put it on another edge.') })
       ]);
       this.resizer = h('div', {
         class: 'wt-resize', role: 'separator', tabindex: '0', 'aria-orientation': 'vertical',
@@ -313,13 +339,55 @@
       return !this.wide.matches || this.state.mode === 'overlay';
     }
 
-    headerBottom() {
-      var sel = this.cfg.header || 'header';
+    horizontal() {
+      return horizontalEdge(this.state.edge);
+    }
+
+    headerEl() {
       var el = null;
-      try { el = document.querySelector(sel); } catch (e) { el = null; }
-      if (!el) { return 0; }
-      var r = el.getBoundingClientRect();
-      return Math.max(0, Math.round(r.bottom));
+      try { el = document.querySelector(this.cfg.header || 'header'); } catch (e) { el = null; }
+      return el && el !== document.body && el !== document.documentElement ? el : null;
+    }
+
+    headerBottom() {
+      var el = this.headerEl();
+      return el ? Math.max(0, Math.round(el.getBoundingClientRect().bottom)) : 0;
+    }
+
+    /* How far from the bottom of the window the bottom bar has to stay: the top of whatever the site has fixed or
+       stuck to the bottom right now (expwt.ini FooterSelector: a footer, a cookie bar), at most half the window. */
+    footerHeight() {
+      var self = this;
+      var sel = this.cfg.footer || '';
+      var list = [];
+      if (sel) {
+        try { list = Array.prototype.slice.call(document.querySelectorAll(sel)); } catch (e) { list = []; }
+      }
+      var vh = window.innerHeight;
+      var vw = window.innerWidth;
+      /* and whatever else is fixed to the bottom edge (a debug bar, a chat button bar): what lies at three points just
+         above it, and their fixed or sticky ancestors */
+      if (document.elementsFromPoint) {
+        [8, vw / 2, vw - 8].forEach(function (x) {
+          document.elementsFromPoint(x, vh - 2).forEach(function (el) {
+            for (var n = el; n && n !== document.body && n !== document.documentElement; n = n.parentElement) {
+              if (n === self) { return; }
+              var p = getComputedStyle(n).position;
+              if ((p === 'fixed' || p === 'sticky') && list.indexOf(n) < 0) { list.push(n); }
+            }
+          });
+        });
+      }
+      var best = 0;
+      list.forEach(function (el) {
+        if (el === self || self.contains(el)) { return; }
+        var cs = getComputedStyle(el);
+        if ((cs.position !== 'fixed' && cs.position !== 'sticky') || cs.display === 'none' || cs.visibility === 'hidden') { return; }
+        var r = el.getBoundingClientRect();
+        if (r.height <= 0 || r.bottom < vh - 2 || r.top >= vh) { return; }
+        best = Math.max(best, Math.round(vh - r.top));
+      });
+      return Math.min(best, Math.round(vh / 2));
     }
 
     place() {
@@ -328,31 +396,83 @@
       this.placing = true;
       window.requestAnimationFrame(function () {
         self.placing = false;
+        var hz = self.horizontal();
         var top = self.headerBottom();
-        var room = Math.max(0, window.innerHeight - top - (self.tab.offsetHeight || 120));
+        var bottom = hz && self.state.edge === 'bottom' ? self.footerHeight() : 0;
+        var vh = window.innerHeight;
+        var tabLength = hz ? (self.tab.offsetWidth || 120) : (self.tab.offsetHeight || 120);
+        var room = Math.max(0, (hz ? window.innerWidth : vh - top) - tabLength);
         var offset = Math.min(self.state.offset, room);
-        var css = ':host{--expwt-top:' + top + 'px;--expwt-offset:' + offset + 'px;--expwt-width:' + self.state.width + 'px}';
+        /* the bar never takes more than the window has below the header, less the tab */
+        var height = Math.max(120, Math.min(self.state.height, vh - top - bottom - (self.tab.offsetHeight || 48)));
+        self.top = top;
+        self.bottom = bottom;
+        self.barHeight = height;
+        var vars = { '--expwt-top': top, '--expwt-bottom': bottom, '--expwt-offset': offset, '--expwt-width': self.state.width, '--expwt-height': height };
         if (self.vars) {
-          self.vars.replaceSync(css);
+          self.vars.replaceSync(':host{' + Object.keys(vars).map(function (k) { return k + ':' + vars[k] + 'px'; }).join(';') + '}');
         } else {
-          self.style.setProperty('--expwt-top', top + 'px');
-          self.style.setProperty('--expwt-offset', offset + 'px');
-          self.style.setProperty('--expwt-width', self.state.width + 'px');
+          Object.keys(vars).forEach(function (k) { self.style.setProperty(k, vars[k] + 'px'); });
         }
         self.push();
       });
     }
 
+    /* Push: the page beside the panel (left, right), below the bar (top) or with room at its end for it (bottom). On
+       top and bottom an empty block of the bar's height goes into the page: right after the header (so the header
+       stays where it is and what follows it moves down), at the start of the page when the header is fixed or there
+       is none, and at the end of the page for the bottom bar. Its size and the page's margins come from the page's
+       own stylesheet, never an attribute style. */
     push() {
       var on = this.state.open && !this.overlay();
-      document.documentElement.toggleAttribute('data-expwt-push', on);
+      var edge = this.state.edge;
+      var html = document.documentElement;
       if (on) {
-        document.documentElement.setAttribute('data-expwt-push', this.state.side);
+        html.setAttribute('data-expwt-push', edge);
+      } else {
+        html.removeAttribute('data-expwt-push');
       }
+      this.spacer('top', on && edge === 'top');
+      this.spacer('bottom', on && edge === 'bottom');
+      var h = this.barHeight || this.state.height;
       this.pageRules = 'html[data-expwt-push="right"] body{margin-right:' + this.state.width + 'px}'
         + 'html[data-expwt-push="left"] body{margin-left:' + this.state.width + 'px}'
+        + '[data-expwt-spacer]{display:block;block-size:' + h + 'px;margin:0;padding:0;border:0}'
+        + 'html[data-expwt-push="top"]{scroll-padding-block-start:' + ((this.top || 0) + h) + 'px}'
+        + 'html[data-expwt-push="bottom"]{scroll-padding-block-end:' + ((this.bottom || 0) + h) + 'px}'
         + (this.inlineRules || '');
       pageCss(this.pageRules);
+    }
+
+    spacer(where, on) {
+      var key = where === 'top' ? 'spacerTop' : 'spacerBottom';
+      var el = this[key];
+      var body = document.body;
+      if (!on || !body) {
+        if (el && el.parentNode) { el.parentNode.removeChild(el); }
+        return;
+      }
+      if (!el) {
+        el = this[key] = document.createElement('div');
+        el.setAttribute('data-expwt-spacer', where);
+        el.setAttribute('aria-hidden', 'true');
+      }
+      if (where === 'bottom') {
+        if (el.parentNode !== body || el.nextElementSibling && el.nextElementSibling !== this) {
+          body.insertBefore(el, this.parentNode === body ? this : null);
+        }
+        return;
+      }
+      var header = this.headerEl();
+      var fixed = false;
+      for (var n = header; n && n !== body; n = n.parentElement) {
+        if (getComputedStyle(n).position === 'fixed') { fixed = true; break; }
+      }
+      if (header && !fixed && header.parentNode) {
+        if (header.nextSibling !== el) { header.parentNode.insertBefore(el, header.nextSibling); }
+      } else if (body.firstChild !== el) {
+        body.insertBefore(el, body.firstChild);
+      }
     }
 
     /* Light or dark, decided before the first frame: the sidebar's own choice; else, for a signed-in user, the
@@ -390,14 +510,20 @@
     }
 
     applyState() {
-      this.setAttribute('data-side', this.state.side);
+      var hz = this.horizontal();
+      this.setAttribute('data-edge', this.state.edge);
+      this.setAttribute('data-align', this.state.align);
+      this.setAttribute('data-orient', hz ? 'horizontal' : 'vertical');
       this.setAttribute('data-open', this.state.open ? 'true' : 'false');
       this.setAttribute('data-overlay', this.overlay() ? 'true' : 'false');
       this.tab.setAttribute('aria-expanded', this.state.open ? 'true' : 'false');
       this.panel.hidden = !this.state.open;
-      this.resizer.setAttribute('aria-valuemin', this.cfg.minWidth || 300);
-      this.resizer.setAttribute('aria-valuemax', this.cfg.maxWidth || 720);
-      this.resizer.setAttribute('aria-valuenow', this.state.width);
+      /* the panel's edge: a vertical separator sizes the width, a horizontal one the height of the bar */
+      this.resizer.setAttribute('aria-orientation', hz ? 'horizontal' : 'vertical');
+      this.resizer.setAttribute('aria-label', hz ? this.t('Height of the sidebar') : this.t('Width of the sidebar'));
+      this.resizer.setAttribute('aria-valuemin', hz ? (this.cfg.minHeight || 160) : (this.cfg.minWidth || 300));
+      this.resizer.setAttribute('aria-valuemax', hz ? (this.cfg.maxHeight || 640) : (this.cfg.maxWidth || 720));
+      this.resizer.setAttribute('aria-valuenow', hz ? this.state.height : this.state.width);
       this.applyTheme();
       this.place();
     }
@@ -439,20 +565,52 @@
 
     /* ------------------------------------------------------------------ drag and keyboard */
 
+    /* Where a tab whose top-left corner is at (x, y) is docked: the edge (the nearest one; the current one is kept
+       until another is clearly nearer, so a drag along an edge never jumps), and the place along it. */
+    dropAt(x, y, w, h) {
+      var vw = window.innerWidth;
+      var vh = window.innerHeight;
+      var top = this.top || 0;
+      var cx = x + w / 2;
+      var cy = y + h / 2;
+      var dist = { left: cx, right: vw - cx, top: cy - top, bottom: vh - (this.bottom || 0) - cy };
+      var edge = this.state.edge;
+      EDGES.forEach(function (k) {
+        if (dist[k] < dist[edge] - 32) { edge = k; }
+      });
+      if (!horizontalEdge(edge)) {
+        return { edge: edge, offset: Math.max(0, Math.round(y - top)) };
+      }
+      var align = cx < vw / 2 ? 'start' : 'end';
+      return { edge: edge, align: align, offset: Math.max(0, Math.round(align === 'start' ? x : vw - x - w)) };
+    }
+
     dragStart(e) {
       if (e.button !== 0) { return; }
       var self = this;
-      var startY = e.clientY;
-      var startOffset = this.state.offset;
+      var r = this.tab.getBoundingClientRect();
+      var grabX = e.clientX - r.left;
+      var grabY = e.clientY - r.top;
       var moved = false;
       this.dragged = false;
       this.tab.setPointerCapture(e.pointerId);
       var move = function (ev) {
-        if (!moved && Math.abs(ev.clientY - startY) < 6 && Math.abs(ev.clientX - e.clientX) < 6) { return; }
+        if (!moved && Math.abs(ev.clientY - e.clientY) < 6 && Math.abs(ev.clientX - e.clientX) < 6) { return; }
         moved = true;
         self.tab.setAttribute('data-dragging', 'true');
-        var side = ev.clientX < window.innerWidth / 2 ? 'left' : 'right';
-        self.setState({ offset: startOffset + (ev.clientY - startY), side: side }, true);
+        var w = self.tab.offsetWidth;
+        var hgt = self.tab.offsetHeight;
+        var change = self.dropAt(ev.clientX - grabX, ev.clientY - grabY, w, hgt);
+        if (change.edge !== self.state.edge && horizontalEdge(change.edge) !== self.horizontal()) {
+          /* the tab turns (vertical <-> horizontal): hold it by its middle from now on */
+          self.setState({ edge: change.edge }, true);
+          w = self.tab.offsetWidth;
+          hgt = self.tab.offsetHeight;
+          grabX = w / 2;
+          grabY = hgt / 2;
+          change = self.dropAt(ev.clientX - grabX, ev.clientY - grabY, w, hgt);
+        }
+        self.setState(change, true);
       };
       var up = function () {
         self.tab.removeEventListener('pointermove', move);
@@ -462,7 +620,7 @@
         if (moved) {
           self.dragged = true;
           self.save();
-          self.say(self.t('The sidebar was moved.'));
+          self.say(self.where());
         }
       };
       this.tab.addEventListener('pointermove', move);
@@ -470,26 +628,72 @@
       this.tab.addEventListener('pointercancel', up);
     }
 
+    /* What a screen reader hears after a move */
+    where() {
+      return {
+        left: this.t('The sidebar is on the left.'), right: this.t('The sidebar is on the right.'),
+        top: this.t('The sidebar is at the top.'), bottom: this.t('The sidebar is at the bottom.')
+      }[this.state.edge];
+    }
+
+    dock(edge) {
+      if (edge !== this.state.edge) {
+        this.setState({ edge: edge, offset: 0 });
+      }
+      this.say(this.where());
+    }
+
+    /* The keys of the tab: along the edge they move it, across it they switch to the opposite edge; Ctrl with an
+       arrow key docks it to that edge, Page Down and Page Up to the next edge clockwise or back; Home and End take
+       it to the start or the end of the edge (on top and bottom: anchored at the left or the right end). */
     tabKey(e) {
       var step = e.shiftKey ? 64 : 16;
-      if (e.key === 'ArrowUp' || e.key === 'ArrowDown') {
+      var hz = this.horizontal();
+      var arrows = { ArrowLeft: 'left', ArrowRight: 'right', ArrowUp: 'top', ArrowDown: 'bottom' };
+      var dir = arrows[e.key];
+      if (dir && (e.ctrlKey || e.metaKey) && !e.altKey) {
         e.preventDefault();
-        this.setState({ offset: this.state.offset + (e.key === 'ArrowUp' ? -step : step) });
-      } else if (e.key === 'ArrowLeft' || e.key === 'ArrowRight') {
+        this.dock(dir);
+      } else if (e.key === 'PageDown' || e.key === 'PageUp') {
         e.preventDefault();
-        this.setState({ side: e.key === 'ArrowLeft' ? 'left' : 'right' });
-        this.say(e.key === 'ArrowLeft' ? this.t('The sidebar is on the left.') : this.t('The sidebar is on the right.'));
+        var i = CLOCKWISE.indexOf(this.state.edge);
+        this.dock(CLOCKWISE[(i + (e.key === 'PageDown' ? 1 : 3)) % 4]);
+      } else if (e.key === 'Home' || e.key === 'End') {
+        e.preventDefault();
+        if (hz) {
+          this.setState({ align: e.key === 'Home' ? 'start' : 'end', offset: 0 });
+        } else {
+          this.setState({ offset: e.key === 'Home' ? 0 : Math.max(0, window.innerHeight - (this.top || 0) - this.tab.offsetHeight) });
+        }
+        this.say(this.t('The sidebar was moved.'));
+      } else if (dir && horizontalEdge(dir) === !hz) {
+        /* along the edge */
+        e.preventDefault();
+        var forward = hz ? (dir === 'right') === (this.state.align === 'start') : dir === 'bottom';
+        this.setState({ offset: this.state.offset + (forward ? step : -step) });
+      } else if (dir) {
+        /* across the edge: the opposite one */
+        e.preventDefault();
+        this.dock(dir);
       }
     }
 
     resizeStart(e) {
       var self = this;
       var startX = e.clientX;
+      var startY = e.clientY;
       var startW = this.state.width;
+      var startH = this.barHeight || this.state.height;
       this.resizer.setPointerCapture(e.pointerId);
       var move = function (ev) {
-        var d = ev.clientX - startX;
-        self.setState({ width: startW + (self.state.side === 'right' ? -d : d) }, true);
+        var edge = self.state.edge;
+        if (horizontalEdge(edge)) {
+          var dy = ev.clientY - startY;
+          self.setState({ height: startH + (edge === 'top' ? dy : -dy) }, true);
+        } else {
+          var dx = ev.clientX - startX;
+          self.setState({ width: startW + (edge === 'right' ? -dx : dx) }, true);
+        }
       };
       var up = function () {
         self.resizer.removeEventListener('pointermove', move);
@@ -501,12 +705,19 @@
     }
 
     resizeKey(e) {
-      var grow = this.state.side === 'right' ? 'ArrowLeft' : 'ArrowRight';
-      var shrink = this.state.side === 'right' ? 'ArrowRight' : 'ArrowLeft';
-      var w = this.state.width;
-      if (e.key === grow) { w += 16; } else if (e.key === shrink) { w -= 16; } else if (e.key === 'Home') { w = this.cfg.minWidth; } else if (e.key === 'End') { w = this.cfg.maxWidth; } else { return; }
+      var edge = this.state.edge;
+      var hz = horizontalEdge(edge);
+      var grow = { right: 'ArrowLeft', left: 'ArrowRight', top: 'ArrowDown', bottom: 'ArrowUp' }[edge];
+      var shrink = { right: 'ArrowRight', left: 'ArrowLeft', top: 'ArrowUp', bottom: 'ArrowDown' }[edge];
+      var key = hz ? 'height' : 'width';
+      var v = hz ? (this.barHeight || this.state.height) : this.state.width;
+      var min = hz ? this.cfg.minHeight : this.cfg.minWidth;
+      var max = hz ? this.cfg.maxHeight : this.cfg.maxWidth;
+      if (e.key === grow) { v += 16; } else if (e.key === shrink) { v -= 16; } else if (e.key === 'Home') { v = min; } else if (e.key === 'End') { v = max; } else { return; }
       e.preventDefault();
-      this.setState({ width: w });
+      var change = {};
+      change[key] = v;
+      this.setState(change);
     }
 
     shortcut(e) {

@@ -16,12 +16,18 @@ class expwtSettings
         'data_layer' => 'rest',
         'inject_without_hook' => true,
         'default_side' => 'right',
+        'default_edge' => '',
+        'default_align' => 'end',
         'default_width' => 380,
         'min_width' => 300,
         'max_width' => 720,
+        'default_height' => 320,
+        'min_height' => 160,
+        'max_height' => 640,
         'overlay_below_width' => 768,
         'shortcut_key' => 'E',
         'header_selector' => 'header, [role=banner], #header, .header',
+        'footer_selector' => 'footer, [role=contentinfo], #cookie-bar, .cookie-bar, #cookie-banner, .cookie-banner, #cookie-consent, .cookie-consent, .cc-window, #CybotCookiebotDialog, #onetrust-banner-sdk',
         'hidden_classes' => array( 'common_ini_settings' ),
         'lock_seconds' => 300,
     );
@@ -40,17 +46,26 @@ class expwtSettings
             $s[$flag] = self::isOn( $s[$flag] );
         $s['data_layer'] = in_array( $s['data_layer'], self::DATA_LAYERS, true ) ? $s['data_layer'] : 'rest';
         $s['default_side'] = $s['default_side'] === 'left' ? 'left' : 'right';
-        foreach ( array( 'default_width', 'min_width', 'max_width', 'overlay_below_width', 'lock_seconds' ) as $number )
+        // DefaultEdge (F17) wins; an installation that only has DefaultSide keeps its side
+        $s['default_edge'] = in_array( $s['default_edge'], array( 'left', 'right', 'top', 'bottom' ), true ) ? $s['default_edge'] : $s['default_side'];
+        $s['default_align'] = $s['default_align'] === 'start' ? 'start' : 'end';
+        foreach ( array( 'default_width', 'min_width', 'max_width', 'default_height', 'min_height', 'max_height', 'overlay_below_width', 'lock_seconds' ) as $number )
             $s[$number] = max( 0, (int)$s[$number] );
         if ( $s['min_width'] < 200 )
             $s['min_width'] = 200;
         if ( $s['max_width'] < $s['min_width'] )
             $s['max_width'] = $s['min_width'];
         $s['default_width'] = min( $s['max_width'], max( $s['min_width'], $s['default_width'] ) );
+        if ( $s['min_height'] < 120 )
+            $s['min_height'] = 120;
+        if ( $s['max_height'] < $s['min_height'] )
+            $s['max_height'] = $s['min_height'];
+        $s['default_height'] = min( $s['max_height'], max( $s['min_height'], $s['default_height'] ) );
         $s['lock_seconds'] = max( 30, $s['lock_seconds'] );
         $key = strtoupper( substr( trim( (string)$s['shortcut_key'] ), 0, 1 ) );
         $s['shortcut_key'] = preg_match( '/^[A-Z0-9]$/', $key ) ? $key : 'E';
         $s['header_selector'] = trim( (string)$s['header_selector'] );
+        $s['footer_selector'] = trim( (string)$s['footer_selector'] );
         $s['hidden_classes'] = array_values( array_filter( array_map( 'strval', (array)$s['hidden_classes'] ), 'strlen' ) );
         return $s;
     }
@@ -72,12 +87,18 @@ class expwtSettings
         $read( 'ExpwtSettings', 'DataLayer', 'data_layer' );
         $read( 'ExpwtSettings', 'InjectWithoutHook', 'inject_without_hook' );
         $read( 'ExpwtSettings', 'DefaultSide', 'default_side' );
+        $read( 'ExpwtSettings', 'DefaultEdge', 'default_edge' );
+        $read( 'ExpwtSettings', 'DefaultAlign', 'default_align' );
         $read( 'ExpwtSettings', 'DefaultWidth', 'default_width' );
         $read( 'ExpwtSettings', 'MinWidth', 'min_width' );
         $read( 'ExpwtSettings', 'MaxWidth', 'max_width' );
+        $read( 'ExpwtSettings', 'DefaultHeight', 'default_height' );
+        $read( 'ExpwtSettings', 'MinHeight', 'min_height' );
+        $read( 'ExpwtSettings', 'MaxHeight', 'max_height' );
         $read( 'ExpwtSettings', 'OverlayBelowWidth', 'overlay_below_width' );
         $read( 'ExpwtSettings', 'ShortcutKey', 'shortcut_key' );
         $read( 'ExpwtSettings', 'HeaderSelector', 'header_selector' );
+        $read( 'ExpwtSettings', 'FooterSelector', 'footer_selector' );
         $read( 'CreateSettings', 'HiddenClassList', 'hidden_classes' );
         $read( 'LockSettings', 'LockSeconds', 'lock_seconds' );
         return self::fromArray( $values );

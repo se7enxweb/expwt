@@ -80,19 +80,11 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>The input is not JSON.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>This action changes something: send it with expwtWrite.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Verify it's you</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Thank you. You can go back to the page; this window closes by itself.</source>
+        <source>The input is not JSON.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -448,7 +440,11 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Side</source>
+        <source>Anchored at</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Left</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -456,7 +452,15 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Left</source>
+        <source>Position</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Top</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Bottom</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -496,6 +500,10 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <source>Ctrl and an arrow key put it on another edge.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>Width of the sidebar</source>
         <translation type="unfinished"></translation>
     </message>
@@ -528,7 +536,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>The sidebar was moved.</source>
+        <source>Height of the sidebar</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -537,6 +545,18 @@
     </message>
     <message>
         <source>The sidebar is on the right.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The sidebar is at the top.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The sidebar is at the bottom.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The sidebar was moved.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -585,6 +605,14 @@
     </message>
     <message>
         <source>Dark</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Thank you. You can go back to the page; this window closes by itself.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Verify it's you</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

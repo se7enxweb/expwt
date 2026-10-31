@@ -80,20 +80,12 @@
         <translation>Toto není seznam stránek zde.</translation>
     </message>
     <message>
-        <source>The input is not JSON.</source>
-        <translation>Vstup není JSON.</translation>
-    </message>
-    <message>
         <source>This action changes something: send it with expwtWrite.</source>
         <translation>Tato akce něco mění: odešlete ji pomocí expwtWrite.</translation>
     </message>
     <message>
-        <source>Verify it's you</source>
-        <translation>Ověřte, že jste to vy</translation>
-    </message>
-    <message>
-        <source>Thank you. You can go back to the page; this window closes by itself.</source>
-        <translation>Děkujeme. Můžete se vrátit na stránku; toto okno se zavře samo.</translation>
+        <source>The input is not JSON.</source>
+        <translation>Vstup není JSON.</translation>
     </message>
     <message>
         <source>Something went wrong.</source>
@@ -448,16 +440,28 @@
         <translation>Postranní panel</translation>
     </message>
     <message>
-        <source>Side</source>
-        <translation>Strana</translation>
+        <source>Anchored at</source>
+        <translation>Ukotveno</translation>
+    </message>
+    <message>
+        <source>Left</source>
+        <translation>Vlevo</translation>
     </message>
     <message>
         <source>Right</source>
         <translation>Vpravo</translation>
     </message>
     <message>
-        <source>Left</source>
-        <translation>Vlevo</translation>
+        <source>Position</source>
+        <translation>Umístění</translation>
+    </message>
+    <message>
+        <source>Top</source>
+        <translation>Nahoře</translation>
+    </message>
+    <message>
+        <source>Bottom</source>
+        <translation>Dole</translation>
     </message>
     <message>
         <source>When open</source>
@@ -496,6 +500,10 @@
         <translation>Šipky ho posouvají, Enter ho otevírá.</translation>
     </message>
     <message>
+        <source>Ctrl and an arrow key put it on another edge.</source>
+        <translation>Ctrl a šipka ho přesunou k jinému okraji.</translation>
+    </message>
+    <message>
         <source>Width of the sidebar</source>
         <translation>Šířka postranního panelu</translation>
     </message>
@@ -528,8 +536,8 @@
         <translation>Já</translation>
     </message>
     <message>
-        <source>The sidebar was moved.</source>
-        <translation>Postranní panel byl přesunut.</translation>
+        <source>Height of the sidebar</source>
+        <translation>Výška postranního panelu</translation>
     </message>
     <message>
         <source>The sidebar is on the left.</source>
@@ -538,6 +546,18 @@
     <message>
         <source>The sidebar is on the right.</source>
         <translation>Postranní panel je vpravo.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the top.</source>
+        <translation>Postranní panel je nahoře.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the bottom.</source>
+        <translation>Postranní panel je dole.</translation>
+    </message>
+    <message>
+        <source>The sidebar was moved.</source>
+        <translation>Postranní panel byl přesunut.</translation>
     </message>
     <message>
         <source>The sidebar could not reach the server.</source>
@@ -586,6 +606,14 @@
     <message>
         <source>Dark</source>
         <translation>Tmavý</translation>
+    </message>
+    <message>
+        <source>Thank you. You can go back to the page; this window closes by itself.</source>
+        <translation>Děkujeme. Můžete se vrátit na stránku; toto okno se zavře samo.</translation>
+    </message>
+    <message>
+        <source>Verify it's you</source>
+        <translation>Ověřte, že jste to vy</translation>
     </message>
 </context>
 </TS>

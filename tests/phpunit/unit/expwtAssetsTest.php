@@ -76,6 +76,24 @@ class expwtAssetsTest extends PHPUnit\Framework\TestCase
                                                "{$t[1]} as admin4 has it (regenerate the tokens of expwt.css)" );
     }
 
+    public function testEveryEdgeIsStyledAndTheOldSideIsReadAsAnEdge()
+    {
+        $css = self::css();
+        foreach ( expwtState::EDGES as $edge )
+        {
+            $this->assertStringContainsString( ':host([data-edge="' . $edge . '"]) .wt-tab', $css, "F17: the tab on the $edge edge" );
+            $this->assertStringContainsString( '[data-edge="' . $edge . '"]) .wt-panel', $css, "F17: the panel on the $edge edge" );
+            $this->assertStringContainsString( '[data-edge="' . $edge . '"]) .wt-resize', $css, "F17: the panel's $edge resize handle" );
+        }
+        foreach ( expwtState::ALIGNS as $align )
+            $this->assertStringContainsString( '[data-align="' . $align . '"]) .wt-tab', $css );
+        $this->assertStringNotContainsString( 'data-side', $css, 'the attribute is data-edge now' );
+        $js = file_get_contents( self::ext() . '/design/standard/javascript/expwt.js' );
+        $this->assertStringContainsString( "s.side === 'left' || s.side === 'right' ? s.side", $js, 'a state saved with side is read as its edge' );
+        foreach ( array( 'top', 'bottom' ) as $edge )
+            $this->assertStringContainsString( "spacer('$edge'", $js, "push on the $edge edge" );
+    }
+
     public function testClosedTabWithinItsBudget()
     {
         $bytes = strlen( gzencode( file_get_contents( self::ext() . '/design/standard/javascript/expwt.js' ), 9 ) )

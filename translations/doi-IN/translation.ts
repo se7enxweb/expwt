@@ -80,20 +80,12 @@
         <translation>एह् इत्थुआं दे पन्नें दी सूची नेईं ऐ।</translation>
     </message>
     <message>
-        <source>The input is not JSON.</source>
-        <translation>इनपुट JSON नेईं ऐ।</translation>
-    </message>
-    <message>
         <source>This action changes something: send it with expwtWrite.</source>
         <translation>एह् कम्म किश बदलदा ऐ: इसगी expwtWrite कन्नै भेजो।</translation>
     </message>
     <message>
-        <source>Verify it's you</source>
-        <translation>पक्का करो जे एह् तुस गै ओ</translation>
-    </message>
-    <message>
-        <source>Thank you. You can go back to the page; this window closes by itself.</source>
-        <translation>धन्नवाद। तुस पन्ने पर परतोई सकदे ओ; एह् खिड़की अपने आप बंद होई जाग।</translation>
+        <source>The input is not JSON.</source>
+        <translation>इनपुट JSON नेईं ऐ।</translation>
     </message>
     <message>
         <source>Something went wrong.</source>
@@ -448,16 +440,28 @@
         <translation>साइडबार</translation>
     </message>
     <message>
-        <source>Side</source>
-        <translation>पास्सा</translation>
+        <source>Anchored at</source>
+        <translation>जुड़े दा पास्सा</translation>
+    </message>
+    <message>
+        <source>Left</source>
+        <translation>खब्बा</translation>
     </message>
     <message>
         <source>Right</source>
         <translation>सज्जा</translation>
     </message>
     <message>
-        <source>Left</source>
-        <translation>खब्बा</translation>
+        <source>Position</source>
+        <translation>स्थिति</translation>
+    </message>
+    <message>
+        <source>Top</source>
+        <translation>उप्पर</translation>
+    </message>
+    <message>
+        <source>Bottom</source>
+        <translation>थल्ला</translation>
     </message>
     <message>
         <source>When open</source>
@@ -496,6 +500,10 @@
         <translation>तीर आह्ले बटन इसगी हटांदे न, Enter इसगी खोलदा ऐ।</translation>
     </message>
     <message>
+        <source>Ctrl and an arrow key put it on another edge.</source>
+        <translation>Ctrl ते तीर आह्ला बटन इसगी दूए कंढे पर लेई जंदे न।</translation>
+    </message>
+    <message>
         <source>Width of the sidebar</source>
         <translation>साइडबार दी चौड़ाई</translation>
     </message>
@@ -528,8 +536,8 @@
         <translation>मैं</translation>
     </message>
     <message>
-        <source>The sidebar was moved.</source>
-        <translation>साइडबार हटाई दित्ती गेई।</translation>
+        <source>Height of the sidebar</source>
+        <translation>साइडबार दी उचाई</translation>
     </message>
     <message>
         <source>The sidebar is on the left.</source>
@@ -538,6 +546,18 @@
     <message>
         <source>The sidebar is on the right.</source>
         <translation>साइडबार सज्जे पास्सै ऐ।</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the top.</source>
+        <translation>साइडबार उप्पर ऐ।</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the bottom.</source>
+        <translation>साइडबार थल्लै ऐ।</translation>
+    </message>
+    <message>
+        <source>The sidebar was moved.</source>
+        <translation>साइडबार हटाई दित्ती गेई।</translation>
     </message>
     <message>
         <source>The sidebar could not reach the server.</source>
@@ -586,6 +606,14 @@
     <message>
         <source>Dark</source>
         <translation>गूढ़ा</translation>
+    </message>
+    <message>
+        <source>Thank you. You can go back to the page; this window closes by itself.</source>
+        <translation>धन्नवाद। तुस पन्ने पर परतोई सकदे ओ; एह् खिड़की अपने आप बंद होई जाग।</translation>
+    </message>
+    <message>
+        <source>Verify it's you</source>
+        <translation>पक्का करो जे एह् तुस गै ओ</translation>
     </message>
 </context>
 </TS>

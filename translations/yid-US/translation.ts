@@ -80,20 +80,12 @@
         <translation>דאָס איז נישט די רשימה פֿון זײַטן דאָ.</translation>
     </message>
     <message>
-        <source>The input is not JSON.</source>
-        <translation>די אַרײַנגעגעבענע דאַטן זײַנען נישט קיין JSON.</translation>
-    </message>
-    <message>
         <source>This action changes something: send it with expwtWrite.</source>
         <translation>די אַקציע ענדערט עפּעס: שיקט זי מיט expwtWrite.</translation>
     </message>
     <message>
-        <source>Verify it's you</source>
-        <translation>באַשטעטיקט אַז דאָס זענט איר</translation>
-    </message>
-    <message>
-        <source>Thank you. You can go back to the page; this window closes by itself.</source>
-        <translation>אַ דאַנק. איר קענט זיך אומקערן צו דער זײַט; דער פֿענצטער פֿאַרמאַכט זיך אַליין.</translation>
+        <source>The input is not JSON.</source>
+        <translation>די אַרײַנגעגעבענע דאַטן זײַנען נישט קיין JSON.</translation>
     </message>
     <message>
         <source>Something went wrong.</source>
@@ -448,16 +440,28 @@
         <translation>די זײַטבאַר</translation>
     </message>
     <message>
-        <source>Side</source>
-        <translation>זײַט</translation>
+        <source>Anchored at</source>
+        <translation>צוגעבונדן צו</translation>
+    </message>
+    <message>
+        <source>Left</source>
+        <translation>לינקס</translation>
     </message>
     <message>
         <source>Right</source>
         <translation>רעכטס</translation>
     </message>
     <message>
-        <source>Left</source>
-        <translation>לינקס</translation>
+        <source>Position</source>
+        <translation>פּאָזיציע</translation>
+    </message>
+    <message>
+        <source>Top</source>
+        <translation>אויבן</translation>
+    </message>
+    <message>
+        <source>Bottom</source>
+        <translation>אונטן</translation>
     </message>
     <message>
         <source>When open</source>
@@ -496,6 +500,10 @@
         <translation>די פֿײַל־קלאַווישן רירן עס, Enter עפֿנט עס.</translation>
     </message>
     <message>
+        <source>Ctrl and an arrow key put it on another edge.</source>
+        <translation>Ctrl מיט אַ פֿײַל־קלאַוויש שטעלן זי אויף אַן אַנדער ראַנד.</translation>
+    </message>
+    <message>
         <source>Width of the sidebar</source>
         <translation>ברייט פֿון דער זײַטבאַר</translation>
     </message>
@@ -528,8 +536,8 @@
         <translation>איך</translation>
     </message>
     <message>
-        <source>The sidebar was moved.</source>
-        <translation>די זײַטבאַר איז אַריבערגעפֿירט געוואָרן.</translation>
+        <source>Height of the sidebar</source>
+        <translation>הייך פֿון דער זײַטבאַר</translation>
     </message>
     <message>
         <source>The sidebar is on the left.</source>
@@ -538,6 +546,18 @@
     <message>
         <source>The sidebar is on the right.</source>
         <translation>די זײַטבאַר איז רעכטס.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the top.</source>
+        <translation>די זײַטבאַר איז אויבן.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the bottom.</source>
+        <translation>די זײַטבאַר איז אונטן.</translation>
+    </message>
+    <message>
+        <source>The sidebar was moved.</source>
+        <translation>די זײַטבאַר איז אַריבערגעפֿירט געוואָרן.</translation>
     </message>
     <message>
         <source>The sidebar could not reach the server.</source>
@@ -586,6 +606,14 @@
     <message>
         <source>Dark</source>
         <translation>טונקל</translation>
+    </message>
+    <message>
+        <source>Thank you. You can go back to the page; this window closes by itself.</source>
+        <translation>אַ דאַנק. איר קענט זיך אומקערן צו דער זײַט; דער פֿענצטער פֿאַרמאַכט זיך אַליין.</translation>
+    </message>
+    <message>
+        <source>Verify it's you</source>
+        <translation>באַשטעטיקט אַז דאָס זענט איר</translation>
     </message>
 </context>
 </TS>

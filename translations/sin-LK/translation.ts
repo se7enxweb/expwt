@@ -80,20 +80,12 @@
         <translation>මෙය මෙහි ඇති පිටු ලැයිස්තුව නොවේ.</translation>
     </message>
     <message>
-        <source>The input is not JSON.</source>
-        <translation>ආදානය JSON නොවේ.</translation>
-    </message>
-    <message>
         <source>This action changes something: send it with expwtWrite.</source>
         <translation>මෙම ක්‍රියාව යමක් වෙනස් කරයි: එය expwtWrite සමඟ යවන්න.</translation>
     </message>
     <message>
-        <source>Verify it's you</source>
-        <translation>මෙය ඔබ බව තහවුරු කරන්න</translation>
-    </message>
-    <message>
-        <source>Thank you. You can go back to the page; this window closes by itself.</source>
-        <translation>ස්තූතියි. ඔබට පිටුවට ආපසු යා හැක; මෙම කවුළුව තනිවම වැසේ.</translation>
+        <source>The input is not JSON.</source>
+        <translation>ආදානය JSON නොවේ.</translation>
     </message>
     <message>
         <source>Something went wrong.</source>
@@ -448,16 +440,28 @@
         <translation>පැති තීරුව</translation>
     </message>
     <message>
-        <source>Side</source>
-        <translation>පැත්ත</translation>
+        <source>Anchored at</source>
+        <translation>සවි කළ පැත්ත</translation>
+    </message>
+    <message>
+        <source>Left</source>
+        <translation>වම</translation>
     </message>
     <message>
         <source>Right</source>
         <translation>දකුණ</translation>
     </message>
     <message>
-        <source>Left</source>
-        <translation>වම</translation>
+        <source>Position</source>
+        <translation>පිහිටීම</translation>
+    </message>
+    <message>
+        <source>Top</source>
+        <translation>ඉහළ</translation>
+    </message>
+    <message>
+        <source>Bottom</source>
+        <translation>පහළ</translation>
     </message>
     <message>
         <source>When open</source>
@@ -496,6 +500,10 @@
         <translation>ඊතල යතුරු එය ගෙන යයි, Enter එය විවෘත කරයි.</translation>
     </message>
     <message>
+        <source>Ctrl and an arrow key put it on another edge.</source>
+        <translation>Ctrl සහ ඊතල යතුරක් එය වෙනත් දාරයකට ගෙන යයි.</translation>
+    </message>
+    <message>
         <source>Width of the sidebar</source>
         <translation>පැති තීරුවේ පළල</translation>
     </message>
@@ -528,8 +536,8 @@
         <translation>මම</translation>
     </message>
     <message>
-        <source>The sidebar was moved.</source>
-        <translation>පැති තීරුව ගෙන යන ලදී.</translation>
+        <source>Height of the sidebar</source>
+        <translation>පැති තීරුවේ උස</translation>
     </message>
     <message>
         <source>The sidebar is on the left.</source>
@@ -538,6 +546,18 @@
     <message>
         <source>The sidebar is on the right.</source>
         <translation>පැති තීරුව දකුණු පසින් ඇත.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the top.</source>
+        <translation>පැති තීරුව ඉහළින් ඇත.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the bottom.</source>
+        <translation>පැති තීරුව පහළින් ඇත.</translation>
+    </message>
+    <message>
+        <source>The sidebar was moved.</source>
+        <translation>පැති තීරුව ගෙන යන ලදී.</translation>
     </message>
     <message>
         <source>The sidebar could not reach the server.</source>
@@ -586,6 +606,14 @@
     <message>
         <source>Dark</source>
         <translation>අඳුරු</translation>
+    </message>
+    <message>
+        <source>Thank you. You can go back to the page; this window closes by itself.</source>
+        <translation>ස්තූතියි. ඔබට පිටුවට ආපසු යා හැක; මෙම කවුළුව තනිවම වැසේ.</translation>
+    </message>
+    <message>
+        <source>Verify it's you</source>
+        <translation>මෙය ඔබ බව තහවුරු කරන්න</translation>
     </message>
 </context>
 </TS>

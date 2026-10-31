@@ -80,20 +80,12 @@
         <translation>Αυτή δεν είναι η λίστα των σελίδων εδώ.</translation>
     </message>
     <message>
-        <source>The input is not JSON.</source>
-        <translation>Η είσοδος δεν είναι JSON.</translation>
-    </message>
-    <message>
         <source>This action changes something: send it with expwtWrite.</source>
         <translation>Αυτή η ενέργεια αλλάζει κάτι: στείλτε την με expwtWrite.</translation>
     </message>
     <message>
-        <source>Verify it's you</source>
-        <translation>Επιβεβαιώστε ότι είστε εσείς</translation>
-    </message>
-    <message>
-        <source>Thank you. You can go back to the page; this window closes by itself.</source>
-        <translation>Ευχαριστούμε. Μπορείτε να επιστρέψετε στη σελίδα· αυτό το παράθυρο κλείνει μόνο του.</translation>
+        <source>The input is not JSON.</source>
+        <translation>Η είσοδος δεν είναι JSON.</translation>
     </message>
     <message>
         <source>Something went wrong.</source>
@@ -448,16 +440,28 @@
         <translation>Η πλαϊνή στήλη</translation>
     </message>
     <message>
-        <source>Side</source>
-        <translation>Πλευρά</translation>
+        <source>Anchored at</source>
+        <translation>Αγκύρωση</translation>
+    </message>
+    <message>
+        <source>Left</source>
+        <translation>Αριστερά</translation>
     </message>
     <message>
         <source>Right</source>
         <translation>Δεξιά</translation>
     </message>
     <message>
-        <source>Left</source>
-        <translation>Αριστερά</translation>
+        <source>Position</source>
+        <translation>Θέση</translation>
+    </message>
+    <message>
+        <source>Top</source>
+        <translation>Επάνω</translation>
+    </message>
+    <message>
+        <source>Bottom</source>
+        <translation>Κάτω</translation>
     </message>
     <message>
         <source>When open</source>
@@ -496,6 +500,10 @@
         <translation>Τα βέλη τη μετακινούν, το Enter την ανοίγει.</translation>
     </message>
     <message>
+        <source>Ctrl and an arrow key put it on another edge.</source>
+        <translation>Το Ctrl και ένα βέλος τη μετακινούν σε άλλη άκρη.</translation>
+    </message>
+    <message>
         <source>Width of the sidebar</source>
         <translation>Πλάτος της πλαϊνής στήλης</translation>
     </message>
@@ -528,8 +536,8 @@
         <translation>Εγώ</translation>
     </message>
     <message>
-        <source>The sidebar was moved.</source>
-        <translation>Η πλαϊνή στήλη μετακινήθηκε.</translation>
+        <source>Height of the sidebar</source>
+        <translation>Ύψος της πλαϊνής στήλης</translation>
     </message>
     <message>
         <source>The sidebar is on the left.</source>
@@ -538,6 +546,18 @@
     <message>
         <source>The sidebar is on the right.</source>
         <translation>Η πλαϊνή στήλη είναι δεξιά.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the top.</source>
+        <translation>Η πλαϊνή στήλη είναι επάνω.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the bottom.</source>
+        <translation>Η πλαϊνή στήλη είναι κάτω.</translation>
+    </message>
+    <message>
+        <source>The sidebar was moved.</source>
+        <translation>Η πλαϊνή στήλη μετακινήθηκε.</translation>
     </message>
     <message>
         <source>The sidebar could not reach the server.</source>
@@ -586,6 +606,14 @@
     <message>
         <source>Dark</source>
         <translation>Σκοτεινό</translation>
+    </message>
+    <message>
+        <source>Thank you. You can go back to the page; this window closes by itself.</source>
+        <translation>Ευχαριστούμε. Μπορείτε να επιστρέψετε στη σελίδα· αυτό το παράθυρο κλείνει μόνο του.</translation>
+    </message>
+    <message>
+        <source>Verify it's you</source>
+        <translation>Επιβεβαιώστε ότι είστε εσείς</translation>
     </message>
 </context>
 </TS>

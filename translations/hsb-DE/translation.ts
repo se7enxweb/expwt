@@ -80,20 +80,12 @@
         <translation>To njeje lisćina tudyšich stronow.</translation>
     </message>
     <message>
-        <source>The input is not JSON.</source>
-        <translation>Zapodaće njeje JSON.</translation>
-    </message>
-    <message>
         <source>This action changes something: send it with expwtWrite.</source>
         <translation>Tuta akcija něšto změni: pósćelće ju z expwtWrite.</translation>
     </message>
     <message>
-        <source>Verify it's you</source>
-        <translation>Wobkrućće, zo sće to Wy</translation>
-    </message>
-    <message>
-        <source>Thank you. You can go back to the page; this window closes by itself.</source>
-        <translation>Wulki dźak. Móžeće so na stronu wróćić; tute wokno so samo začini.</translation>
+        <source>The input is not JSON.</source>
+        <translation>Zapodaće njeje JSON.</translation>
     </message>
     <message>
         <source>Something went wrong.</source>
@@ -448,16 +440,28 @@
         <translation>Bóčna lajsta</translation>
     </message>
     <message>
-        <source>Side</source>
-        <translation>Strona</translation>
+        <source>Anchored at</source>
+        <translation>Zakótwjene na</translation>
+    </message>
+    <message>
+        <source>Left</source>
+        <translation>Nalěwo</translation>
     </message>
     <message>
         <source>Right</source>
         <translation>Naprawo</translation>
     </message>
     <message>
-        <source>Left</source>
-        <translation>Nalěwo</translation>
+        <source>Position</source>
+        <translation>Pozicija</translation>
+    </message>
+    <message>
+        <source>Top</source>
+        <translation>Horjeka</translation>
+    </message>
+    <message>
+        <source>Bottom</source>
+        <translation>Delka</translation>
     </message>
     <message>
         <source>When open</source>
@@ -496,6 +500,10 @@
         <translation>Šipki ju přesuwaja, Enter ju wočini.</translation>
     </message>
     <message>
+        <source>Ctrl and an arrow key put it on another edge.</source>
+        <translation>Strg a šipka ju na druhu kromu přesuwatej.</translation>
+    </message>
+    <message>
         <source>Width of the sidebar</source>
         <translation>Šěrokosć bóčneje lajsty</translation>
     </message>
@@ -528,8 +536,8 @@
         <translation>Ja</translation>
     </message>
     <message>
-        <source>The sidebar was moved.</source>
-        <translation>Bóčna lajsta je so přesunyła.</translation>
+        <source>Height of the sidebar</source>
+        <translation>Wysokosć bóčneje lajsty</translation>
     </message>
     <message>
         <source>The sidebar is on the left.</source>
@@ -538,6 +546,18 @@
     <message>
         <source>The sidebar is on the right.</source>
         <translation>Bóčna lajsta je naprawo.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the top.</source>
+        <translation>Bóčna lajsta je horjeka.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the bottom.</source>
+        <translation>Bóčna lajsta je delka.</translation>
+    </message>
+    <message>
+        <source>The sidebar was moved.</source>
+        <translation>Bóčna lajsta je so přesunyła.</translation>
     </message>
     <message>
         <source>The sidebar could not reach the server.</source>
@@ -586,6 +606,14 @@
     <message>
         <source>Dark</source>
         <translation>Ćmowy</translation>
+    </message>
+    <message>
+        <source>Thank you. You can go back to the page; this window closes by itself.</source>
+        <translation>Wulki dźak. Móžeće so na stronu wróćić; tute wokno so samo začini.</translation>
+    </message>
+    <message>
+        <source>Verify it's you</source>
+        <translation>Wobkrućće, zo sće to Wy</translation>
     </message>
 </context>
 </TS>

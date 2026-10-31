@@ -80,20 +80,12 @@
         <translation>Bu, buradaki sayfaların listesi değil.</translation>
     </message>
     <message>
-        <source>The input is not JSON.</source>
-        <translation>Girdi JSON değil.</translation>
-    </message>
-    <message>
         <source>This action changes something: send it with expwtWrite.</source>
         <translation>Bu işlem bir şeyi değiştirir: expwtWrite ile gönderin.</translation>
     </message>
     <message>
-        <source>Verify it's you</source>
-        <translation>Siz olduğunuzu doğrulayın</translation>
-    </message>
-    <message>
-        <source>Thank you. You can go back to the page; this window closes by itself.</source>
-        <translation>Teşekkürler. Sayfaya dönebilirsiniz; bu pencere kendiliğinden kapanır.</translation>
+        <source>The input is not JSON.</source>
+        <translation>Girdi JSON değil.</translation>
     </message>
     <message>
         <source>Something went wrong.</source>
@@ -448,16 +440,28 @@
         <translation>Kenar çubuğu</translation>
     </message>
     <message>
-        <source>Side</source>
-        <translation>Taraf</translation>
+        <source>Anchored at</source>
+        <translation>Sabitlendiği yer</translation>
+    </message>
+    <message>
+        <source>Left</source>
+        <translation>Sol</translation>
     </message>
     <message>
         <source>Right</source>
         <translation>Sağ</translation>
     </message>
     <message>
-        <source>Left</source>
-        <translation>Sol</translation>
+        <source>Position</source>
+        <translation>Konum</translation>
+    </message>
+    <message>
+        <source>Top</source>
+        <translation>Üst</translation>
+    </message>
+    <message>
+        <source>Bottom</source>
+        <translation>Alt</translation>
     </message>
     <message>
         <source>When open</source>
@@ -496,6 +500,10 @@
         <translation>Ok tuşları taşır, Enter açar.</translation>
     </message>
     <message>
+        <source>Ctrl and an arrow key put it on another edge.</source>
+        <translation>Ctrl ve bir ok tuşu onu başka bir kenara taşır.</translation>
+    </message>
+    <message>
         <source>Width of the sidebar</source>
         <translation>Kenar çubuğu genişliği</translation>
     </message>
@@ -528,8 +536,8 @@
         <translation>Ben</translation>
     </message>
     <message>
-        <source>The sidebar was moved.</source>
-        <translation>Kenar çubuğu taşındı.</translation>
+        <source>Height of the sidebar</source>
+        <translation>Kenar çubuğu yüksekliği</translation>
     </message>
     <message>
         <source>The sidebar is on the left.</source>
@@ -538,6 +546,18 @@
     <message>
         <source>The sidebar is on the right.</source>
         <translation>Kenar çubuğu sağda.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the top.</source>
+        <translation>Kenar çubuğu üstte.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the bottom.</source>
+        <translation>Kenar çubuğu altta.</translation>
+    </message>
+    <message>
+        <source>The sidebar was moved.</source>
+        <translation>Kenar çubuğu taşındı.</translation>
     </message>
     <message>
         <source>The sidebar could not reach the server.</source>
@@ -586,6 +606,14 @@
     <message>
         <source>Dark</source>
         <translation>Koyu</translation>
+    </message>
+    <message>
+        <source>Thank you. You can go back to the page; this window closes by itself.</source>
+        <translation>Teşekkürler. Sayfaya dönebilirsiniz; bu pencere kendiliğinden kapanır.</translation>
+    </message>
+    <message>
+        <source>Verify it's you</source>
+        <translation>Siz olduğunuzu doğrulayın</translation>
     </message>
 </context>
 </TS>

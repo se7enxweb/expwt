@@ -80,20 +80,12 @@
         <translation>ഇത് ഇവിടത്തെ പേജുകളുടെ പട്ടികയല്ല.</translation>
     </message>
     <message>
-        <source>The input is not JSON.</source>
-        <translation>ഇൻപുട്ട് JSON അല്ല.</translation>
-    </message>
-    <message>
         <source>This action changes something: send it with expwtWrite.</source>
         <translation>ഈ പ്രവർത്തനം എന്തെങ്കിലും മാറ്റുന്നു: അത് expwtWrite ഉപയോഗിച്ച് അയയ്ക്കുക.</translation>
     </message>
     <message>
-        <source>Verify it's you</source>
-        <translation>ഇത് നിങ്ങളാണെന്ന് സ്ഥിരീകരിക്കുക</translation>
-    </message>
-    <message>
-        <source>Thank you. You can go back to the page; this window closes by itself.</source>
-        <translation>നന്ദി. നിങ്ങൾക്ക് പേജിലേക്ക് മടങ്ങാം; ഈ വിൻഡോ സ്വയം അടയും.</translation>
+        <source>The input is not JSON.</source>
+        <translation>ഇൻപുട്ട് JSON അല്ല.</translation>
     </message>
     <message>
         <source>Something went wrong.</source>
@@ -448,16 +440,28 @@
         <translation>സൈഡ്‌ബാർ</translation>
     </message>
     <message>
-        <source>Side</source>
-        <translation>വശം</translation>
+        <source>Anchored at</source>
+        <translation>ഉറപ്പിച്ചിരിക്കുന്നത്</translation>
+    </message>
+    <message>
+        <source>Left</source>
+        <translation>ഇടത്</translation>
     </message>
     <message>
         <source>Right</source>
         <translation>വലത്</translation>
     </message>
     <message>
-        <source>Left</source>
-        <translation>ഇടത്</translation>
+        <source>Position</source>
+        <translation>സ്ഥാനം</translation>
+    </message>
+    <message>
+        <source>Top</source>
+        <translation>മുകളിൽ</translation>
+    </message>
+    <message>
+        <source>Bottom</source>
+        <translation>താഴെ</translation>
     </message>
     <message>
         <source>When open</source>
@@ -496,6 +500,10 @@
         <translation>അമ്പടയാള കീകൾ ഇത് നീക്കുന്നു, Enter ഇത് തുറക്കുന്നു.</translation>
     </message>
     <message>
+        <source>Ctrl and an arrow key put it on another edge.</source>
+        <translation>Ctrl-ഉം ഒരു അമ്പടയാള കീയും ഇതിനെ മറ്റൊരു അരികിലേക്ക് നീക്കുന്നു.</translation>
+    </message>
+    <message>
         <source>Width of the sidebar</source>
         <translation>സൈഡ്‌ബാറിന്റെ വീതി</translation>
     </message>
@@ -528,8 +536,8 @@
         <translation>ഞാൻ</translation>
     </message>
     <message>
-        <source>The sidebar was moved.</source>
-        <translation>സൈഡ്‌ബാർ നീക്കി.</translation>
+        <source>Height of the sidebar</source>
+        <translation>സൈഡ്‌ബാറിന്റെ ഉയരം</translation>
     </message>
     <message>
         <source>The sidebar is on the left.</source>
@@ -538,6 +546,18 @@
     <message>
         <source>The sidebar is on the right.</source>
         <translation>സൈഡ്‌ബാർ വലതുവശത്താണ്.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the top.</source>
+        <translation>സൈഡ്‌ബാർ മുകളിലാണ്.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the bottom.</source>
+        <translation>സൈഡ്‌ബാർ താഴെയാണ്.</translation>
+    </message>
+    <message>
+        <source>The sidebar was moved.</source>
+        <translation>സൈഡ്‌ബാർ നീക്കി.</translation>
     </message>
     <message>
         <source>The sidebar could not reach the server.</source>
@@ -586,6 +606,14 @@
     <message>
         <source>Dark</source>
         <translation>ഡാർക്ക്</translation>
+    </message>
+    <message>
+        <source>Thank you. You can go back to the page; this window closes by itself.</source>
+        <translation>നന്ദി. നിങ്ങൾക്ക് പേജിലേക്ക് മടങ്ങാം; ഈ വിൻഡോ സ്വയം അടയും.</translation>
+    </message>
+    <message>
+        <source>Verify it's you</source>
+        <translation>ഇത് നിങ്ങളാണെന്ന് സ്ഥിരീകരിക്കുക</translation>
     </message>
 </context>
 </TS>

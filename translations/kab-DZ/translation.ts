@@ -80,20 +80,12 @@
         <translation>Wagi mačči d tabdart n yisebtar dagi.</translation>
     </message>
     <message>
-        <source>The input is not JSON.</source>
-        <translation>Anekcam mačči d JSON.</translation>
-    </message>
-    <message>
         <source>This action changes something: send it with expwtWrite.</source>
         <translation>Tigawt-a tbeddel kra: azen-it s expwtWrite.</translation>
     </message>
     <message>
-        <source>Verify it's you</source>
-        <translation>Sentem d kečč</translation>
-    </message>
-    <message>
-        <source>Thank you. You can go back to the page; this window closes by itself.</source>
-        <translation>Tanemmirt. Tzemreḍ ad tuɣaleḍ ɣer usebter; asfaylu-a ad imdel iman-is.</translation>
+        <source>The input is not JSON.</source>
+        <translation>Anekcam mačči d JSON.</translation>
     </message>
     <message>
         <source>Something went wrong.</source>
@@ -448,16 +440,28 @@
         <translation>Afeggag n yidis</translation>
     </message>
     <message>
-        <source>Side</source>
-        <translation>Idis</translation>
+        <source>Anchored at</source>
+        <translation>Yettwaqqen ɣer</translation>
+    </message>
+    <message>
+        <source>Left</source>
+        <translation>Azelmaḍ</translation>
     </message>
     <message>
         <source>Right</source>
         <translation>Ayeffus</translation>
     </message>
     <message>
-        <source>Left</source>
-        <translation>Azelmaḍ</translation>
+        <source>Position</source>
+        <translation>Adeg</translation>
+    </message>
+    <message>
+        <source>Top</source>
+        <translation>Uksawen</translation>
+    </message>
+    <message>
+        <source>Bottom</source>
+        <translation>Ukessar</translation>
     </message>
     <message>
         <source>When open</source>
@@ -496,6 +500,10 @@
         <translation>Tisura n yineccaben smuttint-t, Enter ad t-yeldi.</translation>
     </message>
     <message>
+        <source>Ctrl and an arrow key put it on another edge.</source>
+        <translation>Ctrl d tsarut n yineccab smuttint-t ɣer yiri-nniḍen.</translation>
+    </message>
+    <message>
         <source>Width of the sidebar</source>
         <translation>Tehri n ufeggag n yidis</translation>
     </message>
@@ -528,8 +536,8 @@
         <translation>Nekk</translation>
     </message>
     <message>
-        <source>The sidebar was moved.</source>
-        <translation>Afeggag n yidis yettwasmutti.</translation>
+        <source>Height of the sidebar</source>
+        <translation>Teɣzi n ufeggag n yidis</translation>
     </message>
     <message>
         <source>The sidebar is on the left.</source>
@@ -538,6 +546,18 @@
     <message>
         <source>The sidebar is on the right.</source>
         <translation>Afeggag n yidis atan ɣer uyeffus.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the top.</source>
+        <translation>Afeggag n yidis atan ɣer usawen.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the bottom.</source>
+        <translation>Afeggag n yidis atan ɣer wadda.</translation>
+    </message>
+    <message>
+        <source>The sidebar was moved.</source>
+        <translation>Afeggag n yidis yettwasmutti.</translation>
     </message>
     <message>
         <source>The sidebar could not reach the server.</source>
@@ -586,6 +606,14 @@
     <message>
         <source>Dark</source>
         <translation>Aberkan</translation>
+    </message>
+    <message>
+        <source>Thank you. You can go back to the page; this window closes by itself.</source>
+        <translation>Tanemmirt. Tzemreḍ ad tuɣaleḍ ɣer usebter; asfaylu-a ad imdel iman-is.</translation>
+    </message>
+    <message>
+        <source>Verify it's you</source>
+        <translation>Sentem d kečč</translation>
     </message>
 </context>
 </TS>

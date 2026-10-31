@@ -80,20 +80,12 @@
         <translation>बेयो बेयाव थानाय बिलाइखानाफोरनि बिहुं नङा।</translation>
     </message>
     <message>
-        <source>The input is not JSON.</source>
-        <translation>हाबहोनायआ JSON नङा।</translation>
-    </message>
-    <message>
         <source>This action changes something: send it with expwtWrite.</source>
         <translation>बे हाबाया मोनो सोलायो: बेखौ expwtWrite जों दैथाय।</translation>
     </message>
     <message>
-        <source>Verify it's you</source>
-        <translation>नोंनो नोंथां बेखौ फोरमान</translation>
-    </message>
-    <message>
-        <source>Thank you. You can go back to the page; this window closes by itself.</source>
-        <translation>साबायखर। नोंथाङा बिलाइखानायाव फिननो हागौ; बे खिरकिया गावनोगाव बन्द जागोन।</translation>
+        <source>The input is not JSON.</source>
+        <translation>हाबहोनायआ JSON नङा।</translation>
     </message>
     <message>
         <source>Something went wrong.</source>
@@ -448,16 +440,28 @@
         <translation>साइडबार</translation>
     </message>
     <message>
-        <source>Side</source>
-        <translation>आगान</translation>
+        <source>Anchored at</source>
+        <translation>सोमखा जायगा</translation>
+    </message>
+    <message>
+        <source>Left</source>
+        <translation>आगसि</translation>
     </message>
     <message>
         <source>Right</source>
         <translation>आगदा</translation>
     </message>
     <message>
-        <source>Left</source>
-        <translation>आगसि</translation>
+        <source>Position</source>
+        <translation>जायगा</translation>
+    </message>
+    <message>
+        <source>Top</source>
+        <translation>गोजौ</translation>
+    </message>
+    <message>
+        <source>Bottom</source>
+        <translation>गाहाय</translation>
     </message>
     <message>
         <source>When open</source>
@@ -496,6 +500,10 @@
         <translation>थिरनि बुथामफोरा बेखौ लाबोयो, Enter आ खेवो।</translation>
     </message>
     <message>
+        <source>Ctrl and an arrow key put it on another edge.</source>
+        <translation>Ctrl आरो थिरनि बुथामआ बेखौ गुबुन सिमाङाव लाबोयो।</translation>
+    </message>
+    <message>
         <source>Width of the sidebar</source>
         <translation>साइडबारनि गुवारथि</translation>
     </message>
@@ -528,8 +536,8 @@
         <translation>आं</translation>
     </message>
     <message>
-        <source>The sidebar was moved.</source>
-        <translation>साइडबारखौ लाबोजादों।</translation>
+        <source>Height of the sidebar</source>
+        <translation>साइडबारनि गोजौथि</translation>
     </message>
     <message>
         <source>The sidebar is on the left.</source>
@@ -538,6 +546,18 @@
     <message>
         <source>The sidebar is on the right.</source>
         <translation>साइडबारआ आगदा आगानाव दं।</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the top.</source>
+        <translation>साइडबारआ गोजौआव दं।</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the bottom.</source>
+        <translation>साइडबारआ गाहायाव दं।</translation>
+    </message>
+    <message>
+        <source>The sidebar was moved.</source>
+        <translation>साइडबारखौ लाबोजादों।</translation>
     </message>
     <message>
         <source>The sidebar could not reach the server.</source>
@@ -586,6 +606,14 @@
     <message>
         <source>Dark</source>
         <translation>आन्धार</translation>
+    </message>
+    <message>
+        <source>Thank you. You can go back to the page; this window closes by itself.</source>
+        <translation>साबायखर। नोंथाङा बिलाइखानायाव फिननो हागौ; बे खिरकिया गावनोगाव बन्द जागोन।</translation>
+    </message>
+    <message>
+        <source>Verify it's you</source>
+        <translation>नोंनो नोंथां बेखौ फोरमान</translation>
     </message>
 </context>
 </TS>

@@ -80,20 +80,12 @@
         <translation>Aquò es pas la lista de las paginas d'aquí.</translation>
     </message>
     <message>
-        <source>The input is not JSON.</source>
-        <translation>L'entrada es pas en JSON.</translation>
-    </message>
-    <message>
         <source>This action changes something: send it with expwtWrite.</source>
         <translation>Aquesta accion càmbia quicòm: mandatz-la amb expwtWrite.</translation>
     </message>
     <message>
-        <source>Verify it's you</source>
-        <translation>Confirmatz qu'es vos</translation>
-    </message>
-    <message>
-        <source>Thank you. You can go back to the page; this window closes by itself.</source>
-        <translation>Mercés. Podètz tornar a la pagina; aquesta fenèstra se tanca soleta.</translation>
+        <source>The input is not JSON.</source>
+        <translation>L'entrada es pas en JSON.</translation>
     </message>
     <message>
         <source>Something went wrong.</source>
@@ -448,16 +440,28 @@
         <translation>La barra laterala</translation>
     </message>
     <message>
-        <source>Side</source>
-        <translation>Costat</translation>
+        <source>Anchored at</source>
+        <translation>Ancorada a</translation>
+    </message>
+    <message>
+        <source>Left</source>
+        <translation>Esquèrra</translation>
     </message>
     <message>
         <source>Right</source>
         <translation>Drecha</translation>
     </message>
     <message>
-        <source>Left</source>
-        <translation>Esquèrra</translation>
+        <source>Position</source>
+        <translation>Posicion</translation>
+    </message>
+    <message>
+        <source>Top</source>
+        <translation>Amont</translation>
+    </message>
+    <message>
+        <source>Bottom</source>
+        <translation>Aval</translation>
     </message>
     <message>
         <source>When open</source>
@@ -496,6 +500,10 @@
         <translation>Las sagetas la desplaçan, Entrada la dobrís.</translation>
     </message>
     <message>
+        <source>Ctrl and an arrow key put it on another edge.</source>
+        <translation>Ctrl e una sageta la plaçan sus un autre bòrd.</translation>
+    </message>
+    <message>
         <source>Width of the sidebar</source>
         <translation>Largor de la barra laterala</translation>
     </message>
@@ -528,8 +536,8 @@
         <translation>Ieu</translation>
     </message>
     <message>
-        <source>The sidebar was moved.</source>
-        <translation>La barra laterala es estada desplaçada.</translation>
+        <source>Height of the sidebar</source>
+        <translation>Nautor de la barra laterala</translation>
     </message>
     <message>
         <source>The sidebar is on the left.</source>
@@ -538,6 +546,18 @@
     <message>
         <source>The sidebar is on the right.</source>
         <translation>La barra laterala es a drecha.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the top.</source>
+        <translation>La barra laterala es amont.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the bottom.</source>
+        <translation>La barra laterala es aval.</translation>
+    </message>
+    <message>
+        <source>The sidebar was moved.</source>
+        <translation>La barra laterala es estada desplaçada.</translation>
     </message>
     <message>
         <source>The sidebar could not reach the server.</source>
@@ -586,6 +606,14 @@
     <message>
         <source>Dark</source>
         <translation>Escur</translation>
+    </message>
+    <message>
+        <source>Thank you. You can go back to the page; this window closes by itself.</source>
+        <translation>Mercés. Podètz tornar a la pagina; aquesta fenèstra se tanca soleta.</translation>
+    </message>
+    <message>
+        <source>Verify it's you</source>
+        <translation>Confirmatz qu'es vos</translation>
     </message>
 </context>
 </TS>

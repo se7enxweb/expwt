@@ -80,20 +80,12 @@
         <translation>Bu şu ýerdäki sahypalaryň sanawy däl.</translation>
     </message>
     <message>
-        <source>The input is not JSON.</source>
-        <translation>Giriş JSON däl.</translation>
-    </message>
-    <message>
         <source>This action changes something: send it with expwtWrite.</source>
         <translation>Bu hereket bir zady üýtgedýär: ony expwtWrite bilen iberiň.</translation>
     </message>
     <message>
-        <source>Verify it's you</source>
-        <translation>Siziň özüňizdigini tassyklaň</translation>
-    </message>
-    <message>
-        <source>Thank you. You can go back to the page; this window closes by itself.</source>
-        <translation>Sag boluň. Sahypa gaýdyp bilersiňiz; bu penjire özi ýapylar.</translation>
+        <source>The input is not JSON.</source>
+        <translation>Giriş JSON däl.</translation>
     </message>
     <message>
         <source>Something went wrong.</source>
@@ -448,16 +440,28 @@
         <translation>Gapdal panel</translation>
     </message>
     <message>
-        <source>Side</source>
-        <translation>Tarap</translation>
+        <source>Anchored at</source>
+        <translation>Berkidilen tarapy</translation>
+    </message>
+    <message>
+        <source>Left</source>
+        <translation>Çep</translation>
     </message>
     <message>
         <source>Right</source>
         <translation>Sag</translation>
     </message>
     <message>
-        <source>Left</source>
-        <translation>Çep</translation>
+        <source>Position</source>
+        <translation>Ýerleşişi</translation>
+    </message>
+    <message>
+        <source>Top</source>
+        <translation>Ýokarda</translation>
+    </message>
+    <message>
+        <source>Bottom</source>
+        <translation>Aşakda</translation>
     </message>
     <message>
         <source>When open</source>
@@ -496,6 +500,10 @@
         <translation>Ok düwmeleri ony süýşürýär, Enter ony açýar.</translation>
     </message>
     <message>
+        <source>Ctrl and an arrow key put it on another edge.</source>
+        <translation>Ctrl we ok düwmesi ony başga gyra geçirýär.</translation>
+    </message>
+    <message>
         <source>Width of the sidebar</source>
         <translation>Gapdal paneliň ini</translation>
     </message>
@@ -528,8 +536,8 @@
         <translation>Men</translation>
     </message>
     <message>
-        <source>The sidebar was moved.</source>
-        <translation>Gapdal panel göçürildi.</translation>
+        <source>Height of the sidebar</source>
+        <translation>Gapdal paneliň beýikligi</translation>
     </message>
     <message>
         <source>The sidebar is on the left.</source>
@@ -538,6 +546,18 @@
     <message>
         <source>The sidebar is on the right.</source>
         <translation>Gapdal panel sag tarapda.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the top.</source>
+        <translation>Gapdal panel ýokarda.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the bottom.</source>
+        <translation>Gapdal panel aşakda.</translation>
+    </message>
+    <message>
+        <source>The sidebar was moved.</source>
+        <translation>Gapdal panel göçürildi.</translation>
     </message>
     <message>
         <source>The sidebar could not reach the server.</source>
@@ -586,6 +606,14 @@
     <message>
         <source>Dark</source>
         <translation>Garaňky</translation>
+    </message>
+    <message>
+        <source>Thank you. You can go back to the page; this window closes by itself.</source>
+        <translation>Sag boluň. Sahypa gaýdyp bilersiňiz; bu penjire özi ýapylar.</translation>
+    </message>
+    <message>
+        <source>Verify it's you</source>
+        <translation>Siziň özüňizdigini tassyklaň</translation>
     </message>
 </context>
 </TS>

@@ -80,20 +80,12 @@
         <translation>Ĩno ti thoro ya ũrũ cia haha.</translation>
     </message>
     <message>
-        <source>The input is not JSON.</source>
-        <translation>Ũndũ ũrĩa watonyio ti JSON.</translation>
-    </message>
-    <message>
         <source>This action changes something: send it with expwtWrite.</source>
         <translation>Ũndũ ũyũ nĩ ũgarũraga kĩndũ: ũtũme na expwtWrite.</translation>
     </message>
     <message>
-        <source>Verify it's you</source>
-        <translation>Kĩrĩria atĩ nĩwe</translation>
-    </message>
-    <message>
-        <source>Thank you. You can go back to the page; this window closes by itself.</source>
-        <translation>Nĩ ngaatho. No ũcooke harĩ ũrũ; ndirica ĩno nĩĩkũhinga yo nyene.</translation>
+        <source>The input is not JSON.</source>
+        <translation>Ũndũ ũrĩa watonyio ti JSON.</translation>
     </message>
     <message>
         <source>Something went wrong.</source>
@@ -448,16 +440,28 @@
         <translation>Sidebar</translation>
     </message>
     <message>
-        <source>Side</source>
-        <translation>Mwena</translation>
+        <source>Anchored at</source>
+        <translation>Ĩnyitĩtwo</translation>
+    </message>
+    <message>
+        <source>Left</source>
+        <translation>Ũmotho</translation>
     </message>
     <message>
         <source>Right</source>
         <translation>Ũrĩo</translation>
     </message>
     <message>
-        <source>Left</source>
-        <translation>Ũmotho</translation>
+        <source>Position</source>
+        <translation>Handũ</translation>
+    </message>
+    <message>
+        <source>Top</source>
+        <translation>Igũrũ</translation>
+    </message>
+    <message>
+        <source>Bottom</source>
+        <translation>Thĩ</translation>
     </message>
     <message>
         <source>When open</source>
@@ -496,6 +500,10 @@
         <translation>Ndũrũmĩ cia mĩguĩ nĩithamagia, Enter nĩĩhingũraga.</translation>
     </message>
     <message>
+        <source>Ctrl and an arrow key put it on another edge.</source>
+        <translation>Ctrl na mũguĩ nĩithamagia sidebar mũhaka ũngĩ.</translation>
+    </message>
+    <message>
         <source>Width of the sidebar</source>
         <translation>Wariĩ wa sidebar</translation>
     </message>
@@ -528,8 +536,8 @@
         <translation>Niĩ</translation>
     </message>
     <message>
-        <source>The sidebar was moved.</source>
-        <translation>Sidebar nĩ yathamio.</translation>
+        <source>Height of the sidebar</source>
+        <translation>Ũraihu wa sidebar</translation>
     </message>
     <message>
         <source>The sidebar is on the left.</source>
@@ -538,6 +546,18 @@
     <message>
         <source>The sidebar is on the right.</source>
         <translation>Sidebar ĩrĩ mwena wa ũrĩo.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the top.</source>
+        <translation>Sidebar ĩrĩ igũrũ.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the bottom.</source>
+        <translation>Sidebar ĩrĩ thĩ.</translation>
+    </message>
+    <message>
+        <source>The sidebar was moved.</source>
+        <translation>Sidebar nĩ yathamio.</translation>
     </message>
     <message>
         <source>The sidebar could not reach the server.</source>
@@ -586,6 +606,14 @@
     <message>
         <source>Dark</source>
         <translation>Nduma</translation>
+    </message>
+    <message>
+        <source>Thank you. You can go back to the page; this window closes by itself.</source>
+        <translation>Nĩ ngaatho. No ũcooke harĩ ũrũ; ndirica ĩno nĩĩkũhinga yo nyene.</translation>
+    </message>
+    <message>
+        <source>Verify it's you</source>
+        <translation>Kĩrĩria atĩ nĩwe</translation>
     </message>
 </context>
 </TS>

@@ -80,20 +80,12 @@
         <translation>这不是这里的页面列表。</translation>
     </message>
     <message>
-        <source>The input is not JSON.</source>
-        <translation>输入的不是 JSON。</translation>
-    </message>
-    <message>
         <source>This action changes something: send it with expwtWrite.</source>
         <translation>此操作会更改内容：请用 expwtWrite 发送。</translation>
     </message>
     <message>
-        <source>Verify it's you</source>
-        <translation>验证你的身份</translation>
-    </message>
-    <message>
-        <source>Thank you. You can go back to the page; this window closes by itself.</source>
-        <translation>谢谢。你可以返回页面；此窗口会自动关闭。</translation>
+        <source>The input is not JSON.</source>
+        <translation>输入的不是 JSON。</translation>
     </message>
     <message>
         <source>Something went wrong.</source>
@@ -448,16 +440,28 @@
         <translation>侧边栏</translation>
     </message>
     <message>
-        <source>Side</source>
-        <translation>位置</translation>
+        <source>Anchored at</source>
+        <translation>锚定于</translation>
+    </message>
+    <message>
+        <source>Left</source>
+        <translation>左侧</translation>
     </message>
     <message>
         <source>Right</source>
         <translation>右侧</translation>
     </message>
     <message>
-        <source>Left</source>
-        <translation>左侧</translation>
+        <source>Position</source>
+        <translation>位置</translation>
+    </message>
+    <message>
+        <source>Top</source>
+        <translation>顶部</translation>
+    </message>
+    <message>
+        <source>Bottom</source>
+        <translation>底部</translation>
     </message>
     <message>
         <source>When open</source>
@@ -496,6 +500,10 @@
         <translation>方向键可移动，Enter 键可打开。</translation>
     </message>
     <message>
+        <source>Ctrl and an arrow key put it on another edge.</source>
+        <translation>Ctrl 加方向键可将其移到另一边缘。</translation>
+    </message>
+    <message>
         <source>Width of the sidebar</source>
         <translation>侧边栏宽度</translation>
     </message>
@@ -528,8 +536,8 @@
         <translation>我</translation>
     </message>
     <message>
-        <source>The sidebar was moved.</source>
-        <translation>侧边栏已移动。</translation>
+        <source>Height of the sidebar</source>
+        <translation>侧边栏高度</translation>
     </message>
     <message>
         <source>The sidebar is on the left.</source>
@@ -538,6 +546,18 @@
     <message>
         <source>The sidebar is on the right.</source>
         <translation>侧边栏在右侧。</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the top.</source>
+        <translation>侧边栏在顶部。</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the bottom.</source>
+        <translation>侧边栏在底部。</translation>
+    </message>
+    <message>
+        <source>The sidebar was moved.</source>
+        <translation>侧边栏已移动。</translation>
     </message>
     <message>
         <source>The sidebar could not reach the server.</source>
@@ -586,6 +606,14 @@
     <message>
         <source>Dark</source>
         <translation>深色</translation>
+    </message>
+    <message>
+        <source>Thank you. You can go back to the page; this window closes by itself.</source>
+        <translation>谢谢。你可以返回页面；此窗口会自动关闭。</translation>
+    </message>
+    <message>
+        <source>Verify it's you</source>
+        <translation>验证你的身份</translation>
     </message>
 </context>
 </TS>

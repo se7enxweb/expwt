@@ -80,20 +80,12 @@
         <translation>Ev ne lîsteya rûpelên li vir e.</translation>
     </message>
     <message>
-        <source>The input is not JSON.</source>
-        <translation>Têketin ne JSON e.</translation>
-    </message>
-    <message>
         <source>This action changes something: send it with expwtWrite.</source>
         <translation>Ev çalakî tiştekî diguherîne: wê bi expwtWrite bişîne.</translation>
     </message>
     <message>
-        <source>Verify it's you</source>
-        <translation>Piştrast bike ku tu yî</translation>
-    </message>
-    <message>
-        <source>Thank you. You can go back to the page; this window closes by itself.</source>
-        <translation>Spas. Tu dikarî vegerî rûpelê; ev pencere bi xwe tê girtin.</translation>
+        <source>The input is not JSON.</source>
+        <translation>Têketin ne JSON e.</translation>
     </message>
     <message>
         <source>Something went wrong.</source>
@@ -448,16 +440,28 @@
         <translation>Darika kêlekê</translation>
     </message>
     <message>
-        <source>Side</source>
-        <translation>Alî</translation>
+        <source>Anchored at</source>
+        <translation>Girêdayî bi</translation>
+    </message>
+    <message>
+        <source>Left</source>
+        <translation>Çep</translation>
     </message>
     <message>
         <source>Right</source>
         <translation>Rast</translation>
     </message>
     <message>
-        <source>Left</source>
-        <translation>Çep</translation>
+        <source>Position</source>
+        <translation>Cih</translation>
+    </message>
+    <message>
+        <source>Top</source>
+        <translation>Jor</translation>
+    </message>
+    <message>
+        <source>Bottom</source>
+        <translation>Jêr</translation>
     </message>
     <message>
         <source>When open</source>
@@ -496,6 +500,10 @@
         <translation>Tîrên klavyeyê wê dibin, Enter wê vedike.</translation>
     </message>
     <message>
+        <source>Ctrl and an arrow key put it on another edge.</source>
+        <translation>Ctrl û tîreke klavyeyê wê dibin keviyeke din.</translation>
+    </message>
+    <message>
         <source>Width of the sidebar</source>
         <translation>Firehiya darika kêlekê</translation>
     </message>
@@ -528,8 +536,8 @@
         <translation>Ez</translation>
     </message>
     <message>
-        <source>The sidebar was moved.</source>
-        <translation>Darika kêlekê hat birin.</translation>
+        <source>Height of the sidebar</source>
+        <translation>Bilindahiya darika kêlekê</translation>
     </message>
     <message>
         <source>The sidebar is on the left.</source>
@@ -538,6 +546,18 @@
     <message>
         <source>The sidebar is on the right.</source>
         <translation>Darika kêlekê li rastê ye.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the top.</source>
+        <translation>Darika kêlekê li jor e.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the bottom.</source>
+        <translation>Darika kêlekê li jêr e.</translation>
+    </message>
+    <message>
+        <source>The sidebar was moved.</source>
+        <translation>Darika kêlekê hat birin.</translation>
     </message>
     <message>
         <source>The sidebar could not reach the server.</source>
@@ -586,6 +606,14 @@
     <message>
         <source>Dark</source>
         <translation>Tarî</translation>
+    </message>
+    <message>
+        <source>Thank you. You can go back to the page; this window closes by itself.</source>
+        <translation>Spas. Tu dikarî vegerî rûpelê; ev pencere bi xwe tê girtin.</translation>
+    </message>
+    <message>
+        <source>Verify it's you</source>
+        <translation>Piştrast bike ku tu yî</translation>
     </message>
 </context>
 </TS>

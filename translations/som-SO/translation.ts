@@ -80,20 +80,12 @@
         <translation>Tani ma aha liiska bogagga halkan yaal.</translation>
     </message>
     <message>
-        <source>The input is not JSON.</source>
-        <translation>Gelintu ma aha JSON.</translation>
-    </message>
-    <message>
         <source>This action changes something: send it with expwtWrite.</source>
         <translation>Ficilkani wax buu beddelaa: ku dir expwtWrite.</translation>
     </message>
     <message>
-        <source>Verify it's you</source>
-        <translation>Xaqiiji inaad adigu tahay</translation>
-    </message>
-    <message>
-        <source>Thank you. You can go back to the page; this window closes by itself.</source>
-        <translation>Mahadsanid. Waad ku noqon kartaa bogga; daaqaddan iskeed ayay u xirmaysaa.</translation>
+        <source>The input is not JSON.</source>
+        <translation>Gelintu ma aha JSON.</translation>
     </message>
     <message>
         <source>Something went wrong.</source>
@@ -448,16 +440,28 @@
         <translation>Barta dhinaca</translation>
     </message>
     <message>
-        <source>Side</source>
-        <translation>Dhinac</translation>
+        <source>Anchored at</source>
+        <translation>Ku xidhan</translation>
+    </message>
+    <message>
+        <source>Left</source>
+        <translation>Bidix</translation>
     </message>
     <message>
         <source>Right</source>
         <translation>Midig</translation>
     </message>
     <message>
-        <source>Left</source>
-        <translation>Bidix</translation>
+        <source>Position</source>
+        <translation>Meesha</translation>
+    </message>
+    <message>
+        <source>Top</source>
+        <translation>Kor</translation>
+    </message>
+    <message>
+        <source>Bottom</source>
+        <translation>Hoos</translation>
     </message>
     <message>
         <source>When open</source>
@@ -496,6 +500,10 @@
         <translation>Furayaasha falaarta ayaa dhaqaajiya, Enter ayaa fura.</translation>
     </message>
     <message>
+        <source>Ctrl and an arrow key put it on another edge.</source>
+        <translation>Ctrl iyo fure falaar ah ayaa u wareejiya gees kale.</translation>
+    </message>
+    <message>
         <source>Width of the sidebar</source>
         <translation>Ballaca barta dhinaca</translation>
     </message>
@@ -528,8 +536,8 @@
         <translation>Aniga</translation>
     </message>
     <message>
-        <source>The sidebar was moved.</source>
-        <translation>Barta dhinaca waa la guuriyay.</translation>
+        <source>Height of the sidebar</source>
+        <translation>Dhererka barta dhinaca</translation>
     </message>
     <message>
         <source>The sidebar is on the left.</source>
@@ -538,6 +546,18 @@
     <message>
         <source>The sidebar is on the right.</source>
         <translation>Barta dhinaca waxay ku taal midigta.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the top.</source>
+        <translation>Barta dhinaca waxay ku taal korka.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the bottom.</source>
+        <translation>Barta dhinaca waxay ku taal hoosta.</translation>
+    </message>
+    <message>
+        <source>The sidebar was moved.</source>
+        <translation>Barta dhinaca waa la guuriyay.</translation>
     </message>
     <message>
         <source>The sidebar could not reach the server.</source>
@@ -586,6 +606,14 @@
     <message>
         <source>Dark</source>
         <translation>Mugdi</translation>
+    </message>
+    <message>
+        <source>Thank you. You can go back to the page; this window closes by itself.</source>
+        <translation>Mahadsanid. Waad ku noqon kartaa bogga; daaqaddan iskeed ayay u xirmaysaa.</translation>
+    </message>
+    <message>
+        <source>Verify it's you</source>
+        <translation>Xaqiiji inaad adigu tahay</translation>
     </message>
 </context>
 </TS>

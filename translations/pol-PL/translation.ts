@@ -80,20 +80,12 @@
         <translation>To nie jest lista stron w tym miejscu.</translation>
     </message>
     <message>
-        <source>The input is not JSON.</source>
-        <translation>Dane wejściowe nie są w formacie JSON.</translation>
-    </message>
-    <message>
         <source>This action changes something: send it with expwtWrite.</source>
         <translation>Ta akcja coś zmienia: wyślij ją przez expwtWrite.</translation>
     </message>
     <message>
-        <source>Verify it's you</source>
-        <translation>Potwierdź, że to ty</translation>
-    </message>
-    <message>
-        <source>Thank you. You can go back to the page; this window closes by itself.</source>
-        <translation>Dziękujemy. Możesz wrócić do strony; to okno zamknie się samo.</translation>
+        <source>The input is not JSON.</source>
+        <translation>Dane wejściowe nie są w formacie JSON.</translation>
     </message>
     <message>
         <source>Something went wrong.</source>
@@ -448,16 +440,28 @@
         <translation>Pasek boczny</translation>
     </message>
     <message>
-        <source>Side</source>
-        <translation>Położenie</translation>
+        <source>Anchored at</source>
+        <translation>Zakotwiczenie</translation>
+    </message>
+    <message>
+        <source>Left</source>
+        <translation>Lewa</translation>
     </message>
     <message>
         <source>Right</source>
         <translation>Prawa</translation>
     </message>
     <message>
-        <source>Left</source>
-        <translation>Lewa</translation>
+        <source>Position</source>
+        <translation>Położenie</translation>
+    </message>
+    <message>
+        <source>Top</source>
+        <translation>Góra</translation>
+    </message>
+    <message>
+        <source>Bottom</source>
+        <translation>Dół</translation>
     </message>
     <message>
         <source>When open</source>
@@ -496,6 +500,10 @@
         <translation>Strzałki go przesuwają, Enter go otwiera.</translation>
     </message>
     <message>
+        <source>Ctrl and an arrow key put it on another edge.</source>
+        <translation>Ctrl i strzałka przenoszą go do innej krawędzi.</translation>
+    </message>
+    <message>
         <source>Width of the sidebar</source>
         <translation>Szerokość paska bocznego</translation>
     </message>
@@ -528,8 +536,8 @@
         <translation>Ja</translation>
     </message>
     <message>
-        <source>The sidebar was moved.</source>
-        <translation>Pasek boczny został przeniesiony.</translation>
+        <source>Height of the sidebar</source>
+        <translation>Wysokość paska bocznego</translation>
     </message>
     <message>
         <source>The sidebar is on the left.</source>
@@ -538,6 +546,18 @@
     <message>
         <source>The sidebar is on the right.</source>
         <translation>Pasek boczny jest po prawej.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the top.</source>
+        <translation>Pasek boczny jest u góry.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the bottom.</source>
+        <translation>Pasek boczny jest na dole.</translation>
+    </message>
+    <message>
+        <source>The sidebar was moved.</source>
+        <translation>Pasek boczny został przeniesiony.</translation>
     </message>
     <message>
         <source>The sidebar could not reach the server.</source>
@@ -586,6 +606,14 @@
     <message>
         <source>Dark</source>
         <translation>Ciemny</translation>
+    </message>
+    <message>
+        <source>Thank you. You can go back to the page; this window closes by itself.</source>
+        <translation>Dziękujemy. Możesz wrócić do strony; to okno zamknie się samo.</translation>
+    </message>
+    <message>
+        <source>Verify it's you</source>
+        <translation>Potwierdź, że to ty</translation>
     </message>
 </context>
 </TS>

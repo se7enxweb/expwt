@@ -80,20 +80,12 @@
         <translation>هي هتي جي صفحن جي فهرست ناهي.</translation>
     </message>
     <message>
-        <source>The input is not JSON.</source>
-        <translation>داخل ڪيل مواد JSON ناهي.</translation>
-    </message>
-    <message>
         <source>This action changes something: send it with expwtWrite.</source>
         <translation>هي عمل ڪجهه تبديل ڪري ٿو: ان کي expwtWrite سان موڪليو.</translation>
     </message>
     <message>
-        <source>Verify it's you</source>
-        <translation>تصديق ڪريو ته اهو توهان آهيو</translation>
-    </message>
-    <message>
-        <source>Thank you. You can go back to the page; this window closes by itself.</source>
-        <translation>مهرباني. توهان صفحي ڏانهن واپس وڃي سگهو ٿا؛ هي ونڊو پاڻمرادو بند ٿي ويندي.</translation>
+        <source>The input is not JSON.</source>
+        <translation>داخل ڪيل مواد JSON ناهي.</translation>
     </message>
     <message>
         <source>Something went wrong.</source>
@@ -448,16 +440,28 @@
         <translation>سائيڊ بار</translation>
     </message>
     <message>
-        <source>Side</source>
-        <translation>پاسو</translation>
+        <source>Anchored at</source>
+        <translation>ڳنڍيل پاسو</translation>
+    </message>
+    <message>
+        <source>Left</source>
+        <translation>کاٻو</translation>
     </message>
     <message>
         <source>Right</source>
         <translation>ساڄو</translation>
     </message>
     <message>
-        <source>Left</source>
-        <translation>کاٻو</translation>
+        <source>Position</source>
+        <translation>جاءِ</translation>
+    </message>
+    <message>
+        <source>Top</source>
+        <translation>مٿي</translation>
+    </message>
+    <message>
+        <source>Bottom</source>
+        <translation>هيٺ</translation>
     </message>
     <message>
         <source>When open</source>
@@ -496,6 +500,10 @@
         <translation>تير وارا بٽڻ ان کي هلائين ٿا، Enter ان کي کولي ٿو.</translation>
     </message>
     <message>
+        <source>Ctrl and an arrow key put it on another edge.</source>
+        <translation>Ctrl ۽ تير وارو بٽڻ ان کي ٻئي ڪناري تي آڻين ٿا.</translation>
+    </message>
+    <message>
         <source>Width of the sidebar</source>
         <translation>سائيڊ بار جي ويڪر</translation>
     </message>
@@ -528,8 +536,8 @@
         <translation>مان</translation>
     </message>
     <message>
-        <source>The sidebar was moved.</source>
-        <translation>سائيڊ بار منتقل ٿي وئي.</translation>
+        <source>Height of the sidebar</source>
+        <translation>سائيڊ بار جي اوچائي</translation>
     </message>
     <message>
         <source>The sidebar is on the left.</source>
@@ -538,6 +546,18 @@
     <message>
         <source>The sidebar is on the right.</source>
         <translation>سائيڊ بار ساڄي پاسي آهي.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the top.</source>
+        <translation>سائيڊ بار مٿي آهي.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the bottom.</source>
+        <translation>سائيڊ بار هيٺ آهي.</translation>
+    </message>
+    <message>
+        <source>The sidebar was moved.</source>
+        <translation>سائيڊ بار منتقل ٿي وئي.</translation>
     </message>
     <message>
         <source>The sidebar could not reach the server.</source>
@@ -586,6 +606,14 @@
     <message>
         <source>Dark</source>
         <translation>اونداهو</translation>
+    </message>
+    <message>
+        <source>Thank you. You can go back to the page; this window closes by itself.</source>
+        <translation>مهرباني. توهان صفحي ڏانهن واپس وڃي سگهو ٿا؛ هي ونڊو پاڻمرادو بند ٿي ويندي.</translation>
+    </message>
+    <message>
+        <source>Verify it's you</source>
+        <translation>تصديق ڪريو ته اهو توهان آهيو</translation>
     </message>
 </context>
 </TS>

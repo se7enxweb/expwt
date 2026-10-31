@@ -80,20 +80,12 @@
         <translation>Þetta er ekki listinn yfir síðurnar hér.</translation>
     </message>
     <message>
-        <source>The input is not JSON.</source>
-        <translation>Inntakið er ekki JSON.</translation>
-    </message>
-    <message>
         <source>This action changes something: send it with expwtWrite.</source>
         <translation>Þessi aðgerð breytir einhverju: sendu hana með expwtWrite.</translation>
     </message>
     <message>
-        <source>Verify it's you</source>
-        <translation>Staðfestu að þetta sért þú</translation>
-    </message>
-    <message>
-        <source>Thank you. You can go back to the page; this window closes by itself.</source>
-        <translation>Takk. Þú getur farið aftur á síðuna; þessi gluggi lokast sjálfkrafa.</translation>
+        <source>The input is not JSON.</source>
+        <translation>Inntakið er ekki JSON.</translation>
     </message>
     <message>
         <source>Something went wrong.</source>
@@ -448,16 +440,28 @@
         <translation>Hliðarstikan</translation>
     </message>
     <message>
-        <source>Side</source>
-        <translation>Hlið</translation>
+        <source>Anchored at</source>
+        <translation>Fest við</translation>
+    </message>
+    <message>
+        <source>Left</source>
+        <translation>Vinstri</translation>
     </message>
     <message>
         <source>Right</source>
         <translation>Hægri</translation>
     </message>
     <message>
-        <source>Left</source>
-        <translation>Vinstri</translation>
+        <source>Position</source>
+        <translation>Staðsetning</translation>
+    </message>
+    <message>
+        <source>Top</source>
+        <translation>Efst</translation>
+    </message>
+    <message>
+        <source>Bottom</source>
+        <translation>Neðst</translation>
     </message>
     <message>
         <source>When open</source>
@@ -496,6 +500,10 @@
         <translation>Örvalyklar færa hana, Enter opnar hana.</translation>
     </message>
     <message>
+        <source>Ctrl and an arrow key put it on another edge.</source>
+        <translation>Ctrl og örvalykill færa hana á annan jaðar.</translation>
+    </message>
+    <message>
         <source>Width of the sidebar</source>
         <translation>Breidd hliðarstikunnar</translation>
     </message>
@@ -528,8 +536,8 @@
         <translation>Ég</translation>
     </message>
     <message>
-        <source>The sidebar was moved.</source>
-        <translation>Hliðarstikan var færð.</translation>
+        <source>Height of the sidebar</source>
+        <translation>Hæð hliðarstikunnar</translation>
     </message>
     <message>
         <source>The sidebar is on the left.</source>
@@ -538,6 +546,18 @@
     <message>
         <source>The sidebar is on the right.</source>
         <translation>Hliðarstikan er hægra megin.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the top.</source>
+        <translation>Hliðarstikan er efst.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the bottom.</source>
+        <translation>Hliðarstikan er neðst.</translation>
+    </message>
+    <message>
+        <source>The sidebar was moved.</source>
+        <translation>Hliðarstikan var færð.</translation>
     </message>
     <message>
         <source>The sidebar could not reach the server.</source>
@@ -586,6 +606,14 @@
     <message>
         <source>Dark</source>
         <translation>Dökkt</translation>
+    </message>
+    <message>
+        <source>Thank you. You can go back to the page; this window closes by itself.</source>
+        <translation>Takk. Þú getur farið aftur á síðuna; þessi gluggi lokast sjálfkrafa.</translation>
+    </message>
+    <message>
+        <source>Verify it's you</source>
+        <translation>Staðfestu að þetta sért þú</translation>
     </message>
 </context>
 </TS>

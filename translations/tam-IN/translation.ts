@@ -80,20 +80,12 @@
         <translation>இது இங்குள்ள பக்கங்களின் பட்டியல் அல்ல.</translation>
     </message>
     <message>
-        <source>The input is not JSON.</source>
-        <translation>உள்ளீடு JSON அல்ல.</translation>
-    </message>
-    <message>
         <source>This action changes something: send it with expwtWrite.</source>
         <translation>இந்தச் செயல் ஏதோ ஒன்றை மாற்றுகிறது: அதை expwtWrite மூலம் அனுப்புங்கள்.</translation>
     </message>
     <message>
-        <source>Verify it's you</source>
-        <translation>இது நீங்கள்தான் என உறுதிப்படுத்துங்கள்</translation>
-    </message>
-    <message>
-        <source>Thank you. You can go back to the page; this window closes by itself.</source>
-        <translation>நன்றி. நீங்கள் பக்கத்திற்குத் திரும்பலாம்; இந்தச் சாளரம் தானாகவே மூடிக்கொள்ளும்.</translation>
+        <source>The input is not JSON.</source>
+        <translation>உள்ளீடு JSON அல்ல.</translation>
     </message>
     <message>
         <source>Something went wrong.</source>
@@ -448,16 +440,28 @@
         <translation>பக்கப்பட்டி</translation>
     </message>
     <message>
-        <source>Side</source>
-        <translation>பக்கம்</translation>
+        <source>Anchored at</source>
+        <translation>இணைக்கப்பட்ட பக்கம்</translation>
+    </message>
+    <message>
+        <source>Left</source>
+        <translation>இடது</translation>
     </message>
     <message>
         <source>Right</source>
         <translation>வலது</translation>
     </message>
     <message>
-        <source>Left</source>
-        <translation>இடது</translation>
+        <source>Position</source>
+        <translation>நிலை</translation>
+    </message>
+    <message>
+        <source>Top</source>
+        <translation>மேலே</translation>
+    </message>
+    <message>
+        <source>Bottom</source>
+        <translation>கீழே</translation>
     </message>
     <message>
         <source>When open</source>
@@ -496,6 +500,10 @@
         <translation>அம்புக்குறி விசைகள் நகர்த்தும், Enter திறக்கும்.</translation>
     </message>
     <message>
+        <source>Ctrl and an arrow key put it on another edge.</source>
+        <translation>Ctrl மற்றும் ஓர் அம்புக்குறி விசை இதை வேறு விளிம்புக்கு நகர்த்தும்.</translation>
+    </message>
+    <message>
         <source>Width of the sidebar</source>
         <translation>பக்கப்பட்டியின் அகலம்</translation>
     </message>
@@ -528,8 +536,8 @@
         <translation>நான்</translation>
     </message>
     <message>
-        <source>The sidebar was moved.</source>
-        <translation>பக்கப்பட்டி நகர்த்தப்பட்டது.</translation>
+        <source>Height of the sidebar</source>
+        <translation>பக்கப்பட்டியின் உயரம்</translation>
     </message>
     <message>
         <source>The sidebar is on the left.</source>
@@ -538,6 +546,18 @@
     <message>
         <source>The sidebar is on the right.</source>
         <translation>பக்கப்பட்டி வலதுபுறம் உள்ளது.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the top.</source>
+        <translation>பக்கப்பட்டி மேலே உள்ளது.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the bottom.</source>
+        <translation>பக்கப்பட்டி கீழே உள்ளது.</translation>
+    </message>
+    <message>
+        <source>The sidebar was moved.</source>
+        <translation>பக்கப்பட்டி நகர்த்தப்பட்டது.</translation>
     </message>
     <message>
         <source>The sidebar could not reach the server.</source>
@@ -586,6 +606,14 @@
     <message>
         <source>Dark</source>
         <translation>இருள்</translation>
+    </message>
+    <message>
+        <source>Thank you. You can go back to the page; this window closes by itself.</source>
+        <translation>நன்றி. நீங்கள் பக்கத்திற்குத் திரும்பலாம்; இந்தச் சாளரம் தானாகவே மூடிக்கொள்ளும்.</translation>
+    </message>
+    <message>
+        <source>Verify it's you</source>
+        <translation>இது நீங்கள்தான் என உறுதிப்படுத்துங்கள்</translation>
     </message>
 </context>
 </TS>

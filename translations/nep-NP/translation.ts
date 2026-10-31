@@ -80,20 +80,12 @@
         <translation>यो यहाँका पृष्ठहरूको सूची होइन।</translation>
     </message>
     <message>
-        <source>The input is not JSON.</source>
-        <translation>इनपुट JSON होइन।</translation>
-    </message>
-    <message>
         <source>This action changes something: send it with expwtWrite.</source>
         <translation>यो कार्यले केही परिवर्तन गर्छ: यसलाई expwtWrite बाट पठाउनुहोस्।</translation>
     </message>
     <message>
-        <source>Verify it's you</source>
-        <translation>यो तपाईं नै हो भनी पुष्टि गर्नुहोस्</translation>
-    </message>
-    <message>
-        <source>Thank you. You can go back to the page; this window closes by itself.</source>
-        <translation>धन्यवाद। तपाईं पृष्ठमा फर्कन सक्नुहुन्छ; यो विन्डो आफैँ बन्द हुन्छ।</translation>
+        <source>The input is not JSON.</source>
+        <translation>इनपुट JSON होइन।</translation>
     </message>
     <message>
         <source>Something went wrong.</source>
@@ -448,16 +440,28 @@
         <translation>साइडबार</translation>
     </message>
     <message>
-        <source>Side</source>
-        <translation>पक्ष</translation>
+        <source>Anchored at</source>
+        <translation>जोडिएको छेउ</translation>
+    </message>
+    <message>
+        <source>Left</source>
+        <translation>बायाँ</translation>
     </message>
     <message>
         <source>Right</source>
         <translation>दायाँ</translation>
     </message>
     <message>
-        <source>Left</source>
-        <translation>बायाँ</translation>
+        <source>Position</source>
+        <translation>स्थान</translation>
+    </message>
+    <message>
+        <source>Top</source>
+        <translation>माथि</translation>
+    </message>
+    <message>
+        <source>Bottom</source>
+        <translation>तल</translation>
     </message>
     <message>
         <source>When open</source>
@@ -496,6 +500,10 @@
         <translation>तीर कुञ्जीले सार्छ, Enter ले खोल्छ।</translation>
     </message>
     <message>
+        <source>Ctrl and an arrow key put it on another edge.</source>
+        <translation>Ctrl र तीर कुञ्जीले यसलाई अर्को किनारामा सार्छ।</translation>
+    </message>
+    <message>
         <source>Width of the sidebar</source>
         <translation>साइडबारको चौडाइ</translation>
     </message>
@@ -528,8 +536,8 @@
         <translation>म</translation>
     </message>
     <message>
-        <source>The sidebar was moved.</source>
-        <translation>साइडबार सारियो।</translation>
+        <source>Height of the sidebar</source>
+        <translation>साइडबारको उचाइ</translation>
     </message>
     <message>
         <source>The sidebar is on the left.</source>
@@ -538,6 +546,18 @@
     <message>
         <source>The sidebar is on the right.</source>
         <translation>साइडबार दायाँ छ।</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the top.</source>
+        <translation>साइडबार माथि छ।</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the bottom.</source>
+        <translation>साइडबार तल छ।</translation>
+    </message>
+    <message>
+        <source>The sidebar was moved.</source>
+        <translation>साइडबार सारियो।</translation>
     </message>
     <message>
         <source>The sidebar could not reach the server.</source>
@@ -586,6 +606,14 @@
     <message>
         <source>Dark</source>
         <translation>अँध्यारो</translation>
+    </message>
+    <message>
+        <source>Thank you. You can go back to the page; this window closes by itself.</source>
+        <translation>धन्यवाद। तपाईं पृष्ठमा फर्कन सक्नुहुन्छ; यो विन्डो आफैँ बन्द हुन्छ।</translation>
+    </message>
+    <message>
+        <source>Verify it's you</source>
+        <translation>यो तपाईं नै हो भनी पुष्टि गर्नुहोस्</translation>
     </message>
 </context>
 </TS>

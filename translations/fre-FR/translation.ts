@@ -80,20 +80,12 @@
         <translation>Ce n’est pas la liste des pages d’ici.</translation>
     </message>
     <message>
-        <source>The input is not JSON.</source>
-        <translation>L’entrée n’est pas du JSON.</translation>
-    </message>
-    <message>
         <source>This action changes something: send it with expwtWrite.</source>
         <translation>Cette action modifie quelque chose : envoyez-la avec expwtWrite.</translation>
     </message>
     <message>
-        <source>Verify it's you</source>
-        <translation>Confirmez votre identité</translation>
-    </message>
-    <message>
-        <source>Thank you. You can go back to the page; this window closes by itself.</source>
-        <translation>Merci. Vous pouvez retourner à la page ; cette fenêtre se ferme d’elle-même.</translation>
+        <source>The input is not JSON.</source>
+        <translation>L’entrée n’est pas du JSON.</translation>
     </message>
     <message>
         <source>Something went wrong.</source>
@@ -448,16 +440,28 @@
         <translation>La barre latérale</translation>
     </message>
     <message>
-        <source>Side</source>
-        <translation>Côté</translation>
+        <source>Anchored at</source>
+        <translation>Ancrage</translation>
+    </message>
+    <message>
+        <source>Left</source>
+        <translation>Gauche</translation>
     </message>
     <message>
         <source>Right</source>
         <translation>Droite</translation>
     </message>
     <message>
-        <source>Left</source>
-        <translation>Gauche</translation>
+        <source>Position</source>
+        <translation>Position</translation>
+    </message>
+    <message>
+        <source>Top</source>
+        <translation>Haut</translation>
+    </message>
+    <message>
+        <source>Bottom</source>
+        <translation>Bas</translation>
     </message>
     <message>
         <source>When open</source>
@@ -496,6 +500,10 @@
         <translation>Les flèches la déplacent, Entrée l’ouvre.</translation>
     </message>
     <message>
+        <source>Ctrl and an arrow key put it on another edge.</source>
+        <translation>Ctrl et une flèche la placent sur un autre bord.</translation>
+    </message>
+    <message>
         <source>Width of the sidebar</source>
         <translation>Largeur de la barre latérale</translation>
     </message>
@@ -528,8 +536,8 @@
         <translation>Moi</translation>
     </message>
     <message>
-        <source>The sidebar was moved.</source>
-        <translation>La barre latérale a été déplacée.</translation>
+        <source>Height of the sidebar</source>
+        <translation>Hauteur de la barre latérale</translation>
     </message>
     <message>
         <source>The sidebar is on the left.</source>
@@ -538,6 +546,18 @@
     <message>
         <source>The sidebar is on the right.</source>
         <translation>La barre latérale est à droite.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the top.</source>
+        <translation>La barre latérale est en haut.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the bottom.</source>
+        <translation>La barre latérale est en bas.</translation>
+    </message>
+    <message>
+        <source>The sidebar was moved.</source>
+        <translation>La barre latérale a été déplacée.</translation>
     </message>
     <message>
         <source>The sidebar could not reach the server.</source>
@@ -586,6 +606,14 @@
     <message>
         <source>Dark</source>
         <translation>Sombre</translation>
+    </message>
+    <message>
+        <source>Thank you. You can go back to the page; this window closes by itself.</source>
+        <translation>Merci. Vous pouvez retourner à la page ; cette fenêtre se ferme d’elle-même.</translation>
+    </message>
+    <message>
+        <source>Verify it's you</source>
+        <translation>Confirmez votre identité</translation>
     </message>
 </context>
 </TS>

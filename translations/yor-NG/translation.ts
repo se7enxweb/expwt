@@ -80,20 +80,12 @@
         <translation>Èyí kì í ṣe àkójọ àwọn ojú ìwé ibí.</translation>
     </message>
     <message>
-        <source>The input is not JSON.</source>
-        <translation>Ohun tí a tẹ̀ sí i kì í ṣe JSON.</translation>
-    </message>
-    <message>
         <source>This action changes something: send it with expwtWrite.</source>
         <translation>Ìṣe yìí máa ń yí nǹkan padà: fi expwtWrite rán an.</translation>
     </message>
     <message>
-        <source>Verify it's you</source>
-        <translation>Jẹ́rìí pé ìwọ ni</translation>
-    </message>
-    <message>
-        <source>Thank you. You can go back to the page; this window closes by itself.</source>
-        <translation>O ṣé. O lè padà sí ojú ìwé náà; fèrèsé yìí yóò ti ara rẹ̀.</translation>
+        <source>The input is not JSON.</source>
+        <translation>Ohun tí a tẹ̀ sí i kì í ṣe JSON.</translation>
     </message>
     <message>
         <source>Something went wrong.</source>
@@ -448,16 +440,28 @@
         <translation>Pẹpẹ ẹ̀gbẹ́</translation>
     </message>
     <message>
-        <source>Side</source>
-        <translation>Ẹ̀gbẹ́</translation>
+        <source>Anchored at</source>
+        <translation>Ti so mọ́</translation>
+    </message>
+    <message>
+        <source>Left</source>
+        <translation>Òsì</translation>
     </message>
     <message>
         <source>Right</source>
         <translation>Ọ̀tún</translation>
     </message>
     <message>
-        <source>Left</source>
-        <translation>Òsì</translation>
+        <source>Position</source>
+        <translation>Ipò</translation>
+    </message>
+    <message>
+        <source>Top</source>
+        <translation>Òkè</translation>
+    </message>
+    <message>
+        <source>Bottom</source>
+        <translation>Ìsàlẹ̀</translation>
     </message>
     <message>
         <source>When open</source>
@@ -496,6 +500,10 @@
         <translation>Àwọn bọ́tìnnì ọfà ń gbé e, Enter ń ṣí i.</translation>
     </message>
     <message>
+        <source>Ctrl and an arrow key put it on another edge.</source>
+        <translation>Ctrl àti bọ́tìnnì ọfà ń gbé e lọ sí etí mìíràn.</translation>
+    </message>
+    <message>
         <source>Width of the sidebar</source>
         <translation>Fífẹ̀ pẹpẹ ẹ̀gbẹ́</translation>
     </message>
@@ -528,8 +536,8 @@
         <translation>Èmi</translation>
     </message>
     <message>
-        <source>The sidebar was moved.</source>
-        <translation>A ti gbé pẹpẹ ẹ̀gbẹ́ náà.</translation>
+        <source>Height of the sidebar</source>
+        <translation>Gíga pẹpẹ ẹ̀gbẹ́</translation>
     </message>
     <message>
         <source>The sidebar is on the left.</source>
@@ -538,6 +546,18 @@
     <message>
         <source>The sidebar is on the right.</source>
         <translation>Pẹpẹ ẹ̀gbẹ́ wà ní ọ̀tún.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the top.</source>
+        <translation>Pẹpẹ ẹ̀gbẹ́ wà ní òkè.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the bottom.</source>
+        <translation>Pẹpẹ ẹ̀gbẹ́ wà ní ìsàlẹ̀.</translation>
+    </message>
+    <message>
+        <source>The sidebar was moved.</source>
+        <translation>A ti gbé pẹpẹ ẹ̀gbẹ́ náà.</translation>
     </message>
     <message>
         <source>The sidebar could not reach the server.</source>
@@ -586,6 +606,14 @@
     <message>
         <source>Dark</source>
         <translation>Òkùnkùn</translation>
+    </message>
+    <message>
+        <source>Thank you. You can go back to the page; this window closes by itself.</source>
+        <translation>O ṣé. O lè padà sí ojú ìwé náà; fèrèsé yìí yóò ti ara rẹ̀.</translation>
+    </message>
+    <message>
+        <source>Verify it's you</source>
+        <translation>Jẹ́rìí pé ìwọ ni</translation>
     </message>
 </context>
 </TS>

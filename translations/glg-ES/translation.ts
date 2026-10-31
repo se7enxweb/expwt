@@ -80,20 +80,12 @@
         <translation>Esta non é a lista de páxinas de aquí.</translation>
     </message>
     <message>
-        <source>The input is not JSON.</source>
-        <translation>A entrada non é JSON.</translation>
-    </message>
-    <message>
         <source>This action changes something: send it with expwtWrite.</source>
         <translation>Esta acción cambia algo: envíea con expwtWrite.</translation>
     </message>
     <message>
-        <source>Verify it's you</source>
-        <translation>Confirme que é vostede</translation>
-    </message>
-    <message>
-        <source>Thank you. You can go back to the page; this window closes by itself.</source>
-        <translation>Grazas. Pode volver á páxina; esta xanela péchase soa.</translation>
+        <source>The input is not JSON.</source>
+        <translation>A entrada non é JSON.</translation>
     </message>
     <message>
         <source>Something went wrong.</source>
@@ -448,16 +440,28 @@
         <translation>A barra lateral</translation>
     </message>
     <message>
-        <source>Side</source>
-        <translation>Lado</translation>
+        <source>Anchored at</source>
+        <translation>Ancorada en</translation>
+    </message>
+    <message>
+        <source>Left</source>
+        <translation>Esquerda</translation>
     </message>
     <message>
         <source>Right</source>
         <translation>Dereita</translation>
     </message>
     <message>
-        <source>Left</source>
-        <translation>Esquerda</translation>
+        <source>Position</source>
+        <translation>Posición</translation>
+    </message>
+    <message>
+        <source>Top</source>
+        <translation>Arriba</translation>
+    </message>
+    <message>
+        <source>Bottom</source>
+        <translation>Abaixo</translation>
     </message>
     <message>
         <source>When open</source>
@@ -496,6 +500,10 @@
         <translation>As frechas móvena, Intro ábrea.</translation>
     </message>
     <message>
+        <source>Ctrl and an arrow key put it on another edge.</source>
+        <translation>Ctrl e unha frecha levana a outro bordo.</translation>
+    </message>
+    <message>
         <source>Width of the sidebar</source>
         <translation>Largura da barra lateral</translation>
     </message>
@@ -528,8 +536,8 @@
         <translation>Eu</translation>
     </message>
     <message>
-        <source>The sidebar was moved.</source>
-        <translation>A barra lateral moveuse.</translation>
+        <source>Height of the sidebar</source>
+        <translation>Altura da barra lateral</translation>
     </message>
     <message>
         <source>The sidebar is on the left.</source>
@@ -538,6 +546,18 @@
     <message>
         <source>The sidebar is on the right.</source>
         <translation>A barra lateral está á dereita.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the top.</source>
+        <translation>A barra lateral está arriba.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the bottom.</source>
+        <translation>A barra lateral está abaixo.</translation>
+    </message>
+    <message>
+        <source>The sidebar was moved.</source>
+        <translation>A barra lateral moveuse.</translation>
     </message>
     <message>
         <source>The sidebar could not reach the server.</source>
@@ -586,6 +606,14 @@
     <message>
         <source>Dark</source>
         <translation>Escuro</translation>
+    </message>
+    <message>
+        <source>Thank you. You can go back to the page; this window closes by itself.</source>
+        <translation>Grazas. Pode volver á páxina; esta xanela péchase soa.</translation>
+    </message>
+    <message>
+        <source>Verify it's you</source>
+        <translation>Confirme que é vostede</translation>
     </message>
 </context>
 </TS>

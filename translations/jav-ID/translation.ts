@@ -80,20 +80,12 @@
         <translation>Iki dudu dhaptar kaca ing kene.</translation>
     </message>
     <message>
-        <source>The input is not JSON.</source>
-        <translation>Input dudu JSON.</translation>
-    </message>
-    <message>
         <source>This action changes something: send it with expwtWrite.</source>
         <translation>Tindakan iki ngowahi samubarang: kirim nganggo expwtWrite.</translation>
     </message>
     <message>
-        <source>Verify it's you</source>
-        <translation>Pesthekake iki sampeyan</translation>
-    </message>
-    <message>
-        <source>Thank you. You can go back to the page; this window closes by itself.</source>
-        <translation>Matur nuwun. Sampeyan bisa bali menyang kaca; jendhela iki nutup dhewe.</translation>
+        <source>The input is not JSON.</source>
+        <translation>Input dudu JSON.</translation>
     </message>
     <message>
         <source>Something went wrong.</source>
@@ -448,16 +440,28 @@
         <translation>Bilah sisih</translation>
     </message>
     <message>
-        <source>Side</source>
-        <translation>Sisih</translation>
+        <source>Anchored at</source>
+        <translation>Dicanthelake ing</translation>
+    </message>
+    <message>
+        <source>Left</source>
+        <translation>Kiwa</translation>
     </message>
     <message>
         <source>Right</source>
         <translation>Tengen</translation>
     </message>
     <message>
-        <source>Left</source>
-        <translation>Kiwa</translation>
+        <source>Position</source>
+        <translation>Posisi</translation>
+    </message>
+    <message>
+        <source>Top</source>
+        <translation>Ndhuwur</translation>
+    </message>
+    <message>
+        <source>Bottom</source>
+        <translation>Ngisor</translation>
     </message>
     <message>
         <source>When open</source>
@@ -496,6 +500,10 @@
         <translation>Tombol panah mindhahake, Enter mbukak.</translation>
     </message>
     <message>
+        <source>Ctrl and an arrow key put it on another edge.</source>
+        <translation>Ctrl lan tombol panah mindhahake menyang pinggir liyane.</translation>
+    </message>
+    <message>
         <source>Width of the sidebar</source>
         <translation>Ambane bilah sisih</translation>
     </message>
@@ -528,8 +536,8 @@
         <translation>Aku</translation>
     </message>
     <message>
-        <source>The sidebar was moved.</source>
-        <translation>Bilah sisih wis dipindhah.</translation>
+        <source>Height of the sidebar</source>
+        <translation>Dhuwure bilah sisih</translation>
     </message>
     <message>
         <source>The sidebar is on the left.</source>
@@ -538,6 +546,18 @@
     <message>
         <source>The sidebar is on the right.</source>
         <translation>Bilah sisih ana ing tengen.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the top.</source>
+        <translation>Bilah sisih ana ing ndhuwur.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the bottom.</source>
+        <translation>Bilah sisih ana ing ngisor.</translation>
+    </message>
+    <message>
+        <source>The sidebar was moved.</source>
+        <translation>Bilah sisih wis dipindhah.</translation>
     </message>
     <message>
         <source>The sidebar could not reach the server.</source>
@@ -586,6 +606,14 @@
     <message>
         <source>Dark</source>
         <translation>Peteng</translation>
+    </message>
+    <message>
+        <source>Thank you. You can go back to the page; this window closes by itself.</source>
+        <translation>Matur nuwun. Sampeyan bisa bali menyang kaca; jendhela iki nutup dhewe.</translation>
+    </message>
+    <message>
+        <source>Verify it's you</source>
+        <translation>Pesthekake iki sampeyan</translation>
     </message>
 </context>
 </TS>

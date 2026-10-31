@@ -80,20 +80,12 @@
         <translation>הנא לא הוא רשימתא דפאתא דהרכא.</translation>
     </message>
     <message>
-        <source>The input is not JSON.</source>
-        <translation>מעלתא לא הוא JSON.</translation>
-    </message>
-    <message>
         <source>This action changes something: send it with expwtWrite.</source>
         <translation>עבדא הנא משחלף מנדי: שדרון בexpwtWrite.</translation>
     </message>
     <message>
-        <source>Verify it's you</source>
-        <translation>שררון דאחתון אניתון</translation>
-    </message>
-    <message>
-        <source>Thank you. You can go back to the page; this window closes by itself.</source>
-        <translation>תודי. מציתון דדערתון לפאתא; כוותא הדא בד סכרא בגנה.</translation>
+        <source>The input is not JSON.</source>
+        <translation>מעלתא לא הוא JSON.</translation>
     </message>
     <message>
         <source>Something went wrong.</source>
@@ -448,16 +440,28 @@
         <translation>סטרא דגבא</translation>
     </message>
     <message>
-        <source>Side</source>
-        <translation>גבא</translation>
+        <source>Anchored at</source>
+        <translation>קביע ב</translation>
+    </message>
+    <message>
+        <source>Left</source>
+        <translation>סמלא</translation>
     </message>
     <message>
         <source>Right</source>
         <translation>ימינא</translation>
     </message>
     <message>
-        <source>Left</source>
-        <translation>סמלא</translation>
+        <source>Position</source>
+        <translation>דוכתא</translation>
+    </message>
+    <message>
+        <source>Top</source>
+        <translation>לעילא</translation>
+    </message>
+    <message>
+        <source>Bottom</source>
+        <translation>לתתא</translation>
     </message>
     <message>
         <source>When open</source>
@@ -496,6 +500,10 @@
         <translation>קלידא דסימנא משנין לה, Enter פתחלה.</translation>
     </message>
     <message>
+        <source>Ctrl and an arrow key put it on another edge.</source>
+        <translation>Ctrl וקלידא דסימנא משנין לה לספרא אחרינא.</translation>
+    </message>
+    <message>
         <source>Width of the sidebar</source>
         <translation>פתיא דסטרא דגבא</translation>
     </message>
@@ -528,8 +536,8 @@
         <translation>אנא</translation>
     </message>
     <message>
-        <source>The sidebar was moved.</source>
-        <translation>סטרא דגבא שניא.</translation>
+        <source>Height of the sidebar</source>
+        <translation>רומא דסטרא דגבא</translation>
     </message>
     <message>
         <source>The sidebar is on the left.</source>
@@ -538,6 +546,18 @@
     <message>
         <source>The sidebar is on the right.</source>
         <translation>סטרא דגבא בימינא.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the top.</source>
+        <translation>סטרא דגבא לעילא.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the bottom.</source>
+        <translation>סטרא דגבא לתתא.</translation>
+    </message>
+    <message>
+        <source>The sidebar was moved.</source>
+        <translation>סטרא דגבא שניא.</translation>
     </message>
     <message>
         <source>The sidebar could not reach the server.</source>
@@ -586,6 +606,14 @@
     <message>
         <source>Dark</source>
         <translation>חשוכא</translation>
+    </message>
+    <message>
+        <source>Thank you. You can go back to the page; this window closes by itself.</source>
+        <translation>תודי. מציתון דדערתון לפאתא; כוותא הדא בד סכרא בגנה.</translation>
+    </message>
+    <message>
+        <source>Verify it's you</source>
+        <translation>שררון דאחתון אניתון</translation>
     </message>
 </context>
 </TS>

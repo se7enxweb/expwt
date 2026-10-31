@@ -80,20 +80,12 @@
         <translation>Iki si urutonde rw'impapuro ziri ngaha.</translation>
     </message>
     <message>
-        <source>The input is not JSON.</source>
-        <translation>Ivyinjijwe si JSON.</translation>
-    </message>
-    <message>
         <source>This action changes something: send it with expwtWrite.</source>
         <translation>Iki gikorwa gihindura ikintu: kirungike ukoresheje expwtWrite.</translation>
     </message>
     <message>
-        <source>Verify it's you</source>
-        <translation>Emeza ko ari wewe</translation>
-    </message>
-    <message>
-        <source>Thank you. You can go back to the page; this window closes by itself.</source>
-        <translation>Urakoze. Urashobora gusubira ku rupapuro; iri dirisha riraca ryugara ryonyene.</translation>
+        <source>The input is not JSON.</source>
+        <translation>Ivyinjijwe si JSON.</translation>
     </message>
     <message>
         <source>Something went wrong.</source>
@@ -448,16 +440,28 @@
         <translation>Akabari ko ku ruhande</translation>
     </message>
     <message>
-        <source>Side</source>
-        <translation>Uruhande</translation>
+        <source>Anchored at</source>
+        <translation>Bifatanijwe na</translation>
+    </message>
+    <message>
+        <source>Left</source>
+        <translation>Ibubamfu</translation>
     </message>
     <message>
         <source>Right</source>
         <translation>Iburyo</translation>
     </message>
     <message>
-        <source>Left</source>
-        <translation>Ibubamfu</translation>
+        <source>Position</source>
+        <translation>Ikibanza</translation>
+    </message>
+    <message>
+        <source>Top</source>
+        <translation>Hejuru</translation>
+    </message>
+    <message>
+        <source>Bottom</source>
+        <translation>Hasi</translation>
     </message>
     <message>
         <source>When open</source>
@@ -496,6 +500,10 @@
         <translation>Utubuto tw'imyampi turakimura, Enter irakigurura.</translation>
     </message>
     <message>
+        <source>Ctrl and an arrow key put it on another edge.</source>
+        <translation>Ctrl n'agabuto k'umwampi bigishira ku yindi mpera.</translation>
+    </message>
+    <message>
         <source>Width of the sidebar</source>
         <translation>Ubwaguke bw'akabari ko ku ruhande</translation>
     </message>
@@ -528,8 +536,8 @@
         <translation>Jewe</translation>
     </message>
     <message>
-        <source>The sidebar was moved.</source>
-        <translation>Akabari ko ku ruhande kimuwe.</translation>
+        <source>Height of the sidebar</source>
+        <translation>Uburebure bw'akabari ko ku ruhande</translation>
     </message>
     <message>
         <source>The sidebar is on the left.</source>
@@ -538,6 +546,18 @@
     <message>
         <source>The sidebar is on the right.</source>
         <translation>Akabari ko ku ruhande kari iburyo.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the top.</source>
+        <translation>Akabari ko ku ruhande kari hejuru.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the bottom.</source>
+        <translation>Akabari ko ku ruhande kari hasi.</translation>
+    </message>
+    <message>
+        <source>The sidebar was moved.</source>
+        <translation>Akabari ko ku ruhande kimuwe.</translation>
     </message>
     <message>
         <source>The sidebar could not reach the server.</source>
@@ -586,6 +606,14 @@
     <message>
         <source>Dark</source>
         <translation>Umwiza</translation>
+    </message>
+    <message>
+        <source>Thank you. You can go back to the page; this window closes by itself.</source>
+        <translation>Urakoze. Urashobora gusubira ku rupapuro; iri dirisha riraca ryugara ryonyene.</translation>
+    </message>
+    <message>
+        <source>Verify it's you</source>
+        <translation>Emeza ko ari wewe</translation>
     </message>
 </context>
 </TS>

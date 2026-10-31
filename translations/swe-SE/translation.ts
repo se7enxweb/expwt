@@ -80,20 +80,12 @@
         <translation>Det här är inte listan över sidorna här.</translation>
     </message>
     <message>
-        <source>The input is not JSON.</source>
-        <translation>Indata är inte JSON.</translation>
-    </message>
-    <message>
         <source>This action changes something: send it with expwtWrite.</source>
         <translation>Den här åtgärden ändrar något: skicka den med expwtWrite.</translation>
     </message>
     <message>
-        <source>Verify it's you</source>
-        <translation>Bekräfta att det är du</translation>
-    </message>
-    <message>
-        <source>Thank you. You can go back to the page; this window closes by itself.</source>
-        <translation>Tack. Du kan gå tillbaka till sidan; det här fönstret stängs av sig självt.</translation>
+        <source>The input is not JSON.</source>
+        <translation>Indata är inte JSON.</translation>
     </message>
     <message>
         <source>Something went wrong.</source>
@@ -448,16 +440,28 @@
         <translation>Sidofältet</translation>
     </message>
     <message>
-        <source>Side</source>
-        <translation>Sida</translation>
+        <source>Anchored at</source>
+        <translation>Förankrad vid</translation>
+    </message>
+    <message>
+        <source>Left</source>
+        <translation>Vänster</translation>
     </message>
     <message>
         <source>Right</source>
         <translation>Höger</translation>
     </message>
     <message>
-        <source>Left</source>
-        <translation>Vänster</translation>
+        <source>Position</source>
+        <translation>Placering</translation>
+    </message>
+    <message>
+        <source>Top</source>
+        <translation>Överst</translation>
+    </message>
+    <message>
+        <source>Bottom</source>
+        <translation>Nederst</translation>
     </message>
     <message>
         <source>When open</source>
@@ -496,6 +500,10 @@
         <translation>Piltangenterna flyttar det, Enter öppnar det.</translation>
     </message>
     <message>
+        <source>Ctrl and an arrow key put it on another edge.</source>
+        <translation>Ctrl och en piltangent flyttar det till en annan kant.</translation>
+    </message>
+    <message>
         <source>Width of the sidebar</source>
         <translation>Sidofältets bredd</translation>
     </message>
@@ -528,8 +536,8 @@
         <translation>Jag</translation>
     </message>
     <message>
-        <source>The sidebar was moved.</source>
-        <translation>Sidofältet har flyttats.</translation>
+        <source>Height of the sidebar</source>
+        <translation>Sidofältets höjd</translation>
     </message>
     <message>
         <source>The sidebar is on the left.</source>
@@ -538,6 +546,18 @@
     <message>
         <source>The sidebar is on the right.</source>
         <translation>Sidofältet är till höger.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the top.</source>
+        <translation>Sidofältet är överst.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the bottom.</source>
+        <translation>Sidofältet är nederst.</translation>
+    </message>
+    <message>
+        <source>The sidebar was moved.</source>
+        <translation>Sidofältet har flyttats.</translation>
     </message>
     <message>
         <source>The sidebar could not reach the server.</source>
@@ -586,6 +606,14 @@
     <message>
         <source>Dark</source>
         <translation>Mörkt</translation>
+    </message>
+    <message>
+        <source>Thank you. You can go back to the page; this window closes by itself.</source>
+        <translation>Tack. Du kan gå tillbaka till sidan; det här fönstret stängs av sig självt.</translation>
+    </message>
+    <message>
+        <source>Verify it's you</source>
+        <translation>Bekräfta att det är du</translation>
     </message>
 </context>
 </TS>

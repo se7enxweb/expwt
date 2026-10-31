@@ -80,20 +80,12 @@
         <translation>Гэта не спіс старонак тут.</translation>
     </message>
     <message>
-        <source>The input is not JSON.</source>
-        <translation>Уваходныя даныя не ў фармаце JSON.</translation>
-    </message>
-    <message>
         <source>This action changes something: send it with expwtWrite.</source>
         <translation>Гэта дзеянне нешта змяняе: адпраўце яго праз expwtWrite.</translation>
     </message>
     <message>
-        <source>Verify it's you</source>
-        <translation>Пацвердзіце, што гэта вы</translation>
-    </message>
-    <message>
-        <source>Thank you. You can go back to the page; this window closes by itself.</source>
-        <translation>Дзякуй. Вы можаце вярнуцца на старонку; гэта акно зачыніцца само.</translation>
+        <source>The input is not JSON.</source>
+        <translation>Уваходныя даныя не ў фармаце JSON.</translation>
     </message>
     <message>
         <source>Something went wrong.</source>
@@ -448,16 +440,28 @@
         <translation>Бакавая панэль</translation>
     </message>
     <message>
-        <source>Side</source>
-        <translation>Бок</translation>
+        <source>Anchored at</source>
+        <translation>Прывязка</translation>
+    </message>
+    <message>
+        <source>Left</source>
+        <translation>Злева</translation>
     </message>
     <message>
         <source>Right</source>
         <translation>Справа</translation>
     </message>
     <message>
-        <source>Left</source>
-        <translation>Злева</translation>
+        <source>Position</source>
+        <translation>Размяшчэнне</translation>
+    </message>
+    <message>
+        <source>Top</source>
+        <translation>Уверсе</translation>
+    </message>
+    <message>
+        <source>Bottom</source>
+        <translation>Унізе</translation>
     </message>
     <message>
         <source>When open</source>
@@ -496,6 +500,10 @@
         <translation>Клавішы са стрэлкамі перамяшчаюць, Enter адкрывае.</translation>
     </message>
     <message>
+        <source>Ctrl and an arrow key put it on another edge.</source>
+        <translation>Ctrl і клавіша са стрэлкай перамяшчаюць яе да іншага краю.</translation>
+    </message>
+    <message>
         <source>Width of the sidebar</source>
         <translation>Шырыня бакавой панэлі</translation>
     </message>
@@ -528,8 +536,8 @@
         <translation>Я</translation>
     </message>
     <message>
-        <source>The sidebar was moved.</source>
-        <translation>Бакавая панэль перамешчана.</translation>
+        <source>Height of the sidebar</source>
+        <translation>Вышыня бакавой панэлі</translation>
     </message>
     <message>
         <source>The sidebar is on the left.</source>
@@ -538,6 +546,18 @@
     <message>
         <source>The sidebar is on the right.</source>
         <translation>Бакавая панэль справа.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the top.</source>
+        <translation>Бакавая панэль уверсе.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the bottom.</source>
+        <translation>Бакавая панэль унізе.</translation>
+    </message>
+    <message>
+        <source>The sidebar was moved.</source>
+        <translation>Бакавая панэль перамешчана.</translation>
     </message>
     <message>
         <source>The sidebar could not reach the server.</source>
@@ -586,6 +606,14 @@
     <message>
         <source>Dark</source>
         <translation>Цёмная</translation>
+    </message>
+    <message>
+        <source>Thank you. You can go back to the page; this window closes by itself.</source>
+        <translation>Дзякуй. Вы можаце вярнуцца на старонку; гэта акно зачыніцца само.</translation>
+    </message>
+    <message>
+        <source>Verify it's you</source>
+        <translation>Пацвердзіце, што гэта вы</translation>
     </message>
 </context>
 </TS>

@@ -80,20 +80,12 @@
         <translation>Ini bukan daftar halaman di sini.</translation>
     </message>
     <message>
-        <source>The input is not JSON.</source>
-        <translation>Masukan bukan JSON.</translation>
-    </message>
-    <message>
         <source>This action changes something: send it with expwtWrite.</source>
         <translation>Tindakan ini mengubah sesuatu: kirim dengan expwtWrite.</translation>
     </message>
     <message>
-        <source>Verify it's you</source>
-        <translation>Pastikan ini Anda</translation>
-    </message>
-    <message>
-        <source>Thank you. You can go back to the page; this window closes by itself.</source>
-        <translation>Terima kasih. Anda dapat kembali ke halaman; jendela ini akan tertutup sendiri.</translation>
+        <source>The input is not JSON.</source>
+        <translation>Masukan bukan JSON.</translation>
     </message>
     <message>
         <source>Something went wrong.</source>
@@ -448,16 +440,28 @@
         <translation>Bilah samping</translation>
     </message>
     <message>
-        <source>Side</source>
-        <translation>Sisi</translation>
+        <source>Anchored at</source>
+        <translation>Ditambatkan di</translation>
+    </message>
+    <message>
+        <source>Left</source>
+        <translation>Kiri</translation>
     </message>
     <message>
         <source>Right</source>
         <translation>Kanan</translation>
     </message>
     <message>
-        <source>Left</source>
-        <translation>Kiri</translation>
+        <source>Position</source>
+        <translation>Posisi</translation>
+    </message>
+    <message>
+        <source>Top</source>
+        <translation>Atas</translation>
+    </message>
+    <message>
+        <source>Bottom</source>
+        <translation>Bawah</translation>
     </message>
     <message>
         <source>When open</source>
@@ -496,6 +500,10 @@
         <translation>Tombol panah memindahkannya, Enter membukanya.</translation>
     </message>
     <message>
+        <source>Ctrl and an arrow key put it on another edge.</source>
+        <translation>Ctrl dan tombol panah memindahkannya ke tepi lain.</translation>
+    </message>
+    <message>
         <source>Width of the sidebar</source>
         <translation>Lebar bilah samping</translation>
     </message>
@@ -528,8 +536,8 @@
         <translation>Saya</translation>
     </message>
     <message>
-        <source>The sidebar was moved.</source>
-        <translation>Bilah samping telah dipindahkan.</translation>
+        <source>Height of the sidebar</source>
+        <translation>Tinggi bilah samping</translation>
     </message>
     <message>
         <source>The sidebar is on the left.</source>
@@ -538,6 +546,18 @@
     <message>
         <source>The sidebar is on the right.</source>
         <translation>Bilah samping ada di kanan.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the top.</source>
+        <translation>Bilah samping ada di atas.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the bottom.</source>
+        <translation>Bilah samping ada di bawah.</translation>
+    </message>
+    <message>
+        <source>The sidebar was moved.</source>
+        <translation>Bilah samping telah dipindahkan.</translation>
     </message>
     <message>
         <source>The sidebar could not reach the server.</source>
@@ -586,6 +606,14 @@
     <message>
         <source>Dark</source>
         <translation>Gelap</translation>
+    </message>
+    <message>
+        <source>Thank you. You can go back to the page; this window closes by itself.</source>
+        <translation>Terima kasih. Anda dapat kembali ke halaman; jendela ini akan tertutup sendiri.</translation>
+    </message>
+    <message>
+        <source>Verify it's you</source>
+        <translation>Pastikan ini Anda</translation>
     </message>
 </context>
 </TS>

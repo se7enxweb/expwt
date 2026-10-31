@@ -80,20 +80,12 @@
         <translation>여기 있는 페이지 목록이 아닙니다.</translation>
     </message>
     <message>
-        <source>The input is not JSON.</source>
-        <translation>입력이 JSON이 아닙니다.</translation>
-    </message>
-    <message>
         <source>This action changes something: send it with expwtWrite.</source>
         <translation>이 작업은 내용을 변경합니다: expwtWrite로 보내십시오.</translation>
     </message>
     <message>
-        <source>Verify it's you</source>
-        <translation>본인 확인</translation>
-    </message>
-    <message>
-        <source>Thank you. You can go back to the page; this window closes by itself.</source>
-        <translation>감사합니다. 페이지로 돌아가도 됩니다. 이 창은 저절로 닫힙니다.</translation>
+        <source>The input is not JSON.</source>
+        <translation>입력이 JSON이 아닙니다.</translation>
     </message>
     <message>
         <source>Something went wrong.</source>
@@ -448,16 +440,28 @@
         <translation>사이드바</translation>
     </message>
     <message>
-        <source>Side</source>
-        <translation>위치</translation>
+        <source>Anchored at</source>
+        <translation>고정 위치</translation>
+    </message>
+    <message>
+        <source>Left</source>
+        <translation>왼쪽</translation>
     </message>
     <message>
         <source>Right</source>
         <translation>오른쪽</translation>
     </message>
     <message>
-        <source>Left</source>
-        <translation>왼쪽</translation>
+        <source>Position</source>
+        <translation>위치</translation>
+    </message>
+    <message>
+        <source>Top</source>
+        <translation>위쪽</translation>
+    </message>
+    <message>
+        <source>Bottom</source>
+        <translation>아래쪽</translation>
     </message>
     <message>
         <source>When open</source>
@@ -496,6 +500,10 @@
         <translation>화살표 키로 옮기고 Enter 키로 엽니다.</translation>
     </message>
     <message>
+        <source>Ctrl and an arrow key put it on another edge.</source>
+        <translation>Ctrl 키와 화살표 키로 다른 가장자리로 옮깁니다.</translation>
+    </message>
+    <message>
         <source>Width of the sidebar</source>
         <translation>사이드바 너비</translation>
     </message>
@@ -528,8 +536,8 @@
         <translation>나</translation>
     </message>
     <message>
-        <source>The sidebar was moved.</source>
-        <translation>사이드바를 옮겼습니다.</translation>
+        <source>Height of the sidebar</source>
+        <translation>사이드바 높이</translation>
     </message>
     <message>
         <source>The sidebar is on the left.</source>
@@ -538,6 +546,18 @@
     <message>
         <source>The sidebar is on the right.</source>
         <translation>사이드바가 오른쪽에 있습니다.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the top.</source>
+        <translation>사이드바가 위쪽에 있습니다.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the bottom.</source>
+        <translation>사이드바가 아래쪽에 있습니다.</translation>
+    </message>
+    <message>
+        <source>The sidebar was moved.</source>
+        <translation>사이드바를 옮겼습니다.</translation>
     </message>
     <message>
         <source>The sidebar could not reach the server.</source>
@@ -586,6 +606,14 @@
     <message>
         <source>Dark</source>
         <translation>어둡게</translation>
+    </message>
+    <message>
+        <source>Thank you. You can go back to the page; this window closes by itself.</source>
+        <translation>감사합니다. 페이지로 돌아가도 됩니다. 이 창은 저절로 닫힙니다.</translation>
+    </message>
+    <message>
+        <source>Verify it's you</source>
+        <translation>본인 확인</translation>
     </message>
 </context>
 </TS>

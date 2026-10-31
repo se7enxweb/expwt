@@ -80,20 +80,12 @@
         <translation>Lii du limu xët yi fii.</translation>
     </message>
     <message>
-        <source>The input is not JSON.</source>
-        <translation>Li ñu dugal du JSON.</translation>
-    </message>
-    <message>
         <source>This action changes something: send it with expwtWrite.</source>
         <translation>Jëf jii dafay soppi dara: yónnee ko ak expwtWrite.</translation>
     </message>
     <message>
-        <source>Verify it's you</source>
-        <translation>Wóorlul ne yaw la</translation>
-    </message>
-    <message>
-        <source>Thank you. You can go back to the page; this window closes by itself.</source>
-        <translation>Jërëjëf. Mën nga dellu ci xët wi; palanteer bii dina tëju boppam.</translation>
+        <source>The input is not JSON.</source>
+        <translation>Li ñu dugal du JSON.</translation>
     </message>
     <message>
         <source>Something went wrong.</source>
@@ -448,16 +440,28 @@
         <translation>Barru wet bi</translation>
     </message>
     <message>
-        <source>Side</source>
-        <translation>Wet</translation>
+        <source>Anchored at</source>
+        <translation>Takk ci</translation>
+    </message>
+    <message>
+        <source>Left</source>
+        <translation>Càmmoñ</translation>
     </message>
     <message>
         <source>Right</source>
         <translation>Ndijoor</translation>
     </message>
     <message>
-        <source>Left</source>
-        <translation>Càmmoñ</translation>
+        <source>Position</source>
+        <translation>Fi mu nekk</translation>
+    </message>
+    <message>
+        <source>Top</source>
+        <translation>Kaw</translation>
+    </message>
+    <message>
+        <source>Bottom</source>
+        <translation>Suuf</translation>
     </message>
     <message>
         <source>When open</source>
@@ -496,6 +500,10 @@
         <translation>Butoŋu fett yi dañu koy toxal, Enter dafay ubbi.</translation>
     </message>
     <message>
+        <source>Ctrl and an arrow key put it on another edge.</source>
+        <translation>Ctrl ak butoŋu fett dañu koy yóbbu ci beneen tóoñ.</translation>
+    </message>
+    <message>
         <source>Width of the sidebar</source>
         <translation>Yaatuwaayu barru wet bi</translation>
     </message>
@@ -528,8 +536,8 @@
         <translation>Man</translation>
     </message>
     <message>
-        <source>The sidebar was moved.</source>
-        <translation>Barru wet bi tox na.</translation>
+        <source>Height of the sidebar</source>
+        <translation>Kawewaayu barru wet bi</translation>
     </message>
     <message>
         <source>The sidebar is on the left.</source>
@@ -538,6 +546,18 @@
     <message>
         <source>The sidebar is on the right.</source>
         <translation>Barru wet bi mi ngi ci ndijoor.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the top.</source>
+        <translation>Barru wet bi mi ngi ci kaw.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the bottom.</source>
+        <translation>Barru wet bi mi ngi ci suuf.</translation>
+    </message>
+    <message>
+        <source>The sidebar was moved.</source>
+        <translation>Barru wet bi tox na.</translation>
     </message>
     <message>
         <source>The sidebar could not reach the server.</source>
@@ -586,6 +606,14 @@
     <message>
         <source>Dark</source>
         <translation>Lëndëm</translation>
+    </message>
+    <message>
+        <source>Thank you. You can go back to the page; this window closes by itself.</source>
+        <translation>Jërëjëf. Mën nga dellu ci xët wi; palanteer bii dina tëju boppam.</translation>
+    </message>
+    <message>
+        <source>Verify it's you</source>
+        <translation>Wóorlul ne yaw la</translation>
     </message>
 </context>
 </TS>

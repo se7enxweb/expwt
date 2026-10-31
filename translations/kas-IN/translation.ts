@@ -80,20 +80,12 @@
         <translation>یہِ چھِنہٕ یَتِکین صفحن ہٕنز فہرست۔</translation>
     </message>
     <message>
-        <source>The input is not JSON.</source>
-        <translation>اِن پُٹ چھُنہٕ JSON۔</translation>
-    </message>
-    <message>
         <source>This action changes something: send it with expwtWrite.</source>
         <translation>یہِ عمل چھُ کینٛہہ بدلاوان: امہِ سوزِو expwtWrite ذٔریعہٕ۔</translation>
     </message>
     <message>
-        <source>Verify it's you</source>
-        <translation>تصدیق کٔرِو زِ یہِ چھِو تۄہۍ</translation>
-    </message>
-    <message>
-        <source>Thank you. You can go back to the page; this window closes by itself.</source>
-        <translation>شُکریہ۔ تۄہۍ ہیٚکِو صفحس پیٹھ واپس گٔژھِتھ؛ یہِ وِنڈو گژھہِ پانَے بنٛد۔</translation>
+        <source>The input is not JSON.</source>
+        <translation>اِن پُٹ چھُنہٕ JSON۔</translation>
     </message>
     <message>
         <source>Something went wrong.</source>
@@ -448,16 +440,28 @@
         <translation>سائیڈ بار</translation>
     </message>
     <message>
-        <source>Side</source>
-        <translation>طرف</translation>
+        <source>Anchored at</source>
+        <translation>ٹِکِتھ</translation>
+    </message>
+    <message>
+        <source>Left</source>
+        <translation>کھوٚبُر</translation>
     </message>
     <message>
         <source>Right</source>
         <translation>دٔچھِن</translation>
     </message>
     <message>
-        <source>Left</source>
-        <translation>کھوٚبُر</translation>
+        <source>Position</source>
+        <translation>جاے</translation>
+    </message>
+    <message>
+        <source>Top</source>
+        <translation>پیٚٹھ</translation>
+    </message>
+    <message>
+        <source>Bottom</source>
+        <translation>بۄن</translation>
     </message>
     <message>
         <source>When open</source>
@@ -496,6 +500,10 @@
         <translation>تیرٕ بٹن چھِ امہِ منتقل کران، Enter چھُ امہِ کھولان۔</translation>
     </message>
     <message>
+        <source>Ctrl and an arrow key put it on another edge.</source>
+        <translation>Ctrl تہٕ تیرٕ بٹن چھِ امہِ بیٚیہِ کنارس پیٚٹھ تھاوان۔</translation>
+    </message>
+    <message>
         <source>Width of the sidebar</source>
         <translation>سائیڈ بارٕچ چوڑٲے</translation>
     </message>
@@ -528,8 +536,8 @@
         <translation>بہٕ</translation>
     </message>
     <message>
-        <source>The sidebar was moved.</source>
-        <translation>سائیڈ بار گۄو منتقل۔</translation>
+        <source>Height of the sidebar</source>
+        <translation>سائیڈ بارٕچ تھزر</translation>
     </message>
     <message>
         <source>The sidebar is on the left.</source>
@@ -538,6 +546,18 @@
     <message>
         <source>The sidebar is on the right.</source>
         <translation>سائیڈ بار چھُ دٔچھنِ طرف۔</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the top.</source>
+        <translation>سائیڈ بار چھُ پیٚٹھ کَنہِ۔</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the bottom.</source>
+        <translation>سائیڈ بار چھُ بۄن کَنہِ۔</translation>
+    </message>
+    <message>
+        <source>The sidebar was moved.</source>
+        <translation>سائیڈ بار گۄو منتقل۔</translation>
     </message>
     <message>
         <source>The sidebar could not reach the server.</source>
@@ -586,6 +606,14 @@
     <message>
         <source>Dark</source>
         <translation>اَنٛدھکار</translation>
+    </message>
+    <message>
+        <source>Thank you. You can go back to the page; this window closes by itself.</source>
+        <translation>شُکریہ۔ تۄہۍ ہیٚکِو صفحس پیٹھ واپس گٔژھِتھ؛ یہِ وِنڈو گژھہِ پانَے بنٛد۔</translation>
+    </message>
+    <message>
+        <source>Verify it's you</source>
+        <translation>تصدیق کٔرِو زِ یہِ چھِو تۄہۍ</translation>
     </message>
 </context>
 </TS>

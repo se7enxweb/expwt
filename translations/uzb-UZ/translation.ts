@@ -80,20 +80,12 @@
         <translation>Bu bu yerdagi sahifalar roʻyxati emas.</translation>
     </message>
     <message>
-        <source>The input is not JSON.</source>
-        <translation>Kiritilgan maʼlumot JSON emas.</translation>
-    </message>
-    <message>
         <source>This action changes something: send it with expwtWrite.</source>
         <translation>Bu amal nimanidir oʻzgartiradi: uni expwtWrite bilan yuboring.</translation>
     </message>
     <message>
-        <source>Verify it's you</source>
-        <translation>Bu siz ekanligingizni tasdiqlang</translation>
-    </message>
-    <message>
-        <source>Thank you. You can go back to the page; this window closes by itself.</source>
-        <translation>Rahmat. Sahifaga qaytishingiz mumkin; bu oyna oʻzi yopiladi.</translation>
+        <source>The input is not JSON.</source>
+        <translation>Kiritilgan maʼlumot JSON emas.</translation>
     </message>
     <message>
         <source>Something went wrong.</source>
@@ -448,16 +440,28 @@
         <translation>Yon panel</translation>
     </message>
     <message>
-        <source>Side</source>
-        <translation>Tomon</translation>
+        <source>Anchored at</source>
+        <translation>Biriktirilgan tomon</translation>
+    </message>
+    <message>
+        <source>Left</source>
+        <translation>Chap</translation>
     </message>
     <message>
         <source>Right</source>
         <translation>Oʻng</translation>
     </message>
     <message>
-        <source>Left</source>
-        <translation>Chap</translation>
+        <source>Position</source>
+        <translation>Joylashuv</translation>
+    </message>
+    <message>
+        <source>Top</source>
+        <translation>Yuqorida</translation>
+    </message>
+    <message>
+        <source>Bottom</source>
+        <translation>Pastda</translation>
     </message>
     <message>
         <source>When open</source>
@@ -496,6 +500,10 @@
         <translation>Strelka tugmalari siljitadi, Enter ochadi.</translation>
     </message>
     <message>
+        <source>Ctrl and an arrow key put it on another edge.</source>
+        <translation>Ctrl va strelka tugmasi uni boshqa chetga oʻtkazadi.</translation>
+    </message>
+    <message>
         <source>Width of the sidebar</source>
         <translation>Yon panel kengligi</translation>
     </message>
@@ -528,8 +536,8 @@
         <translation>Men</translation>
     </message>
     <message>
-        <source>The sidebar was moved.</source>
-        <translation>Yon panel koʻchirildi.</translation>
+        <source>Height of the sidebar</source>
+        <translation>Yon panel balandligi</translation>
     </message>
     <message>
         <source>The sidebar is on the left.</source>
@@ -538,6 +546,18 @@
     <message>
         <source>The sidebar is on the right.</source>
         <translation>Yon panel oʻng tomonda.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the top.</source>
+        <translation>Yon panel yuqorida.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the bottom.</source>
+        <translation>Yon panel pastda.</translation>
+    </message>
+    <message>
+        <source>The sidebar was moved.</source>
+        <translation>Yon panel koʻchirildi.</translation>
     </message>
     <message>
         <source>The sidebar could not reach the server.</source>
@@ -586,6 +606,14 @@
     <message>
         <source>Dark</source>
         <translation>Qorongʻi</translation>
+    </message>
+    <message>
+        <source>Thank you. You can go back to the page; this window closes by itself.</source>
+        <translation>Rahmat. Sahifaga qaytishingiz mumkin; bu oyna oʻzi yopiladi.</translation>
+    </message>
+    <message>
+        <source>Verify it's you</source>
+        <translation>Bu siz ekanligingizni tasdiqlang</translation>
     </message>
 </context>
 </TS>

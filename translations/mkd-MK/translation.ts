@@ -80,20 +80,12 @@
         <translation>Ова не е списокот на страниците тука.</translation>
     </message>
     <message>
-        <source>The input is not JSON.</source>
-        <translation>Влезот не е JSON.</translation>
-    </message>
-    <message>
         <source>This action changes something: send it with expwtWrite.</source>
         <translation>Оваа акција менува нешто: испратете ја со expwtWrite.</translation>
     </message>
     <message>
-        <source>Verify it's you</source>
-        <translation>Потврдете дека сте вие</translation>
-    </message>
-    <message>
-        <source>Thank you. You can go back to the page; this window closes by itself.</source>
-        <translation>Ви благодариме. Можете да се вратите на страницата; овој прозорец се затвора сам.</translation>
+        <source>The input is not JSON.</source>
+        <translation>Влезот не е JSON.</translation>
     </message>
     <message>
         <source>Something went wrong.</source>
@@ -448,16 +440,28 @@
         <translation>Страничната лента</translation>
     </message>
     <message>
-        <source>Side</source>
-        <translation>Страна</translation>
+        <source>Anchored at</source>
+        <translation>Закотвено кон</translation>
+    </message>
+    <message>
+        <source>Left</source>
+        <translation>Лево</translation>
     </message>
     <message>
         <source>Right</source>
         <translation>Десно</translation>
     </message>
     <message>
-        <source>Left</source>
-        <translation>Лево</translation>
+        <source>Position</source>
+        <translation>Положба</translation>
+    </message>
+    <message>
+        <source>Top</source>
+        <translation>Горе</translation>
+    </message>
+    <message>
+        <source>Bottom</source>
+        <translation>Долу</translation>
     </message>
     <message>
         <source>When open</source>
@@ -496,6 +500,10 @@
         <translation>Стрелките ја поместуваат, Enter ја отвора.</translation>
     </message>
     <message>
+        <source>Ctrl and an arrow key put it on another edge.</source>
+        <translation>Ctrl и стрелка ја преместуваат на друг раб.</translation>
+    </message>
+    <message>
         <source>Width of the sidebar</source>
         <translation>Ширина на страничната лента</translation>
     </message>
@@ -528,8 +536,8 @@
         <translation>Јас</translation>
     </message>
     <message>
-        <source>The sidebar was moved.</source>
-        <translation>Страничната лента е преместена.</translation>
+        <source>Height of the sidebar</source>
+        <translation>Висина на страничната лента</translation>
     </message>
     <message>
         <source>The sidebar is on the left.</source>
@@ -538,6 +546,18 @@
     <message>
         <source>The sidebar is on the right.</source>
         <translation>Страничната лента е десно.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the top.</source>
+        <translation>Страничната лента е горе.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the bottom.</source>
+        <translation>Страничната лента е долу.</translation>
+    </message>
+    <message>
+        <source>The sidebar was moved.</source>
+        <translation>Страничната лента е преместена.</translation>
     </message>
     <message>
         <source>The sidebar could not reach the server.</source>
@@ -586,6 +606,14 @@
     <message>
         <source>Dark</source>
         <translation>Темно</translation>
+    </message>
+    <message>
+        <source>Thank you. You can go back to the page; this window closes by itself.</source>
+        <translation>Ви благодариме. Можете да се вратите на страницата; овој прозорец се затвора сам.</translation>
+    </message>
+    <message>
+        <source>Verify it's you</source>
+        <translation>Потврдете дека сте вие</translation>
     </message>
 </context>
 </TS>

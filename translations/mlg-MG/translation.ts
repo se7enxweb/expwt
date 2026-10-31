@@ -80,20 +80,12 @@
         <translation>Tsy io ny lisitry ny pejy eto.</translation>
     </message>
     <message>
-        <source>The input is not JSON.</source>
-        <translation>Tsy JSON ilay nampidirina.</translation>
-    </message>
-    <message>
         <source>This action changes something: send it with expwtWrite.</source>
         <translation>Manova zavatra io hetsika io: alefaso amin'ny expwtWrite.</translation>
     </message>
     <message>
-        <source>Verify it's you</source>
-        <translation>Hamarino fa ianao io</translation>
-    </message>
-    <message>
-        <source>Thank you. You can go back to the page; this window closes by itself.</source>
-        <translation>Misaotra. Afaka miverina amin'ny pejy ianao; hikatona ho azy ity varavarankely ity.</translation>
+        <source>The input is not JSON.</source>
+        <translation>Tsy JSON ilay nampidirina.</translation>
     </message>
     <message>
         <source>Something went wrong.</source>
@@ -448,16 +440,28 @@
         <translation>Ny tsipika anilany</translation>
     </message>
     <message>
-        <source>Side</source>
-        <translation>Ilany</translation>
+        <source>Anchored at</source>
+        <translation>Miraikitra amin'ny</translation>
+    </message>
+    <message>
+        <source>Left</source>
+        <translation>Havia</translation>
     </message>
     <message>
         <source>Right</source>
         <translation>Havanana</translation>
     </message>
     <message>
-        <source>Left</source>
-        <translation>Havia</translation>
+        <source>Position</source>
+        <translation>Toerana</translation>
+    </message>
+    <message>
+        <source>Top</source>
+        <translation>Ambony</translation>
+    </message>
+    <message>
+        <source>Bottom</source>
+        <translation>Ambany</translation>
     </message>
     <message>
         <source>When open</source>
@@ -496,6 +500,10 @@
         <translation>Ny bokotra zana-tsipika no mamindra azy, Enter no manokatra azy.</translation>
     </message>
     <message>
+        <source>Ctrl and an arrow key put it on another edge.</source>
+        <translation>Ctrl sy bokotra zana-tsipika no mamindra azy any amin'ny sisiny hafa.</translation>
+    </message>
+    <message>
         <source>Width of the sidebar</source>
         <translation>Sakan'ny tsipika anilany</translation>
     </message>
@@ -528,8 +536,8 @@
         <translation>Izaho</translation>
     </message>
     <message>
-        <source>The sidebar was moved.</source>
-        <translation>Nafindra ny tsipika anilany.</translation>
+        <source>Height of the sidebar</source>
+        <translation>Haavon'ny tsipika anilany</translation>
     </message>
     <message>
         <source>The sidebar is on the left.</source>
@@ -538,6 +546,18 @@
     <message>
         <source>The sidebar is on the right.</source>
         <translation>Eo ankavanana ny tsipika anilany.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the top.</source>
+        <translation>Eo ambony ny tsipika anilany.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the bottom.</source>
+        <translation>Eo ambany ny tsipika anilany.</translation>
+    </message>
+    <message>
+        <source>The sidebar was moved.</source>
+        <translation>Nafindra ny tsipika anilany.</translation>
     </message>
     <message>
         <source>The sidebar could not reach the server.</source>
@@ -586,6 +606,14 @@
     <message>
         <source>Dark</source>
         <translation>Maizina</translation>
+    </message>
+    <message>
+        <source>Thank you. You can go back to the page; this window closes by itself.</source>
+        <translation>Misaotra. Afaka miverina amin'ny pejy ianao; hikatona ho azy ity varavarankely ity.</translation>
+    </message>
+    <message>
+        <source>Verify it's you</source>
+        <translation>Hamarino fa ianao io</translation>
     </message>
 </context>
 </TS>

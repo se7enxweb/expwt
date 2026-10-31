@@ -80,20 +80,12 @@
         <translation>ʻOku ʻikai ko e lisi ʻeni ʻo e ngaahi peesi ʻi heni.</translation>
     </message>
     <message>
-        <source>The input is not JSON.</source>
-        <translation>ʻOku ʻikai ko ha JSON ʻa e meʻa naʻe ʻomai.</translation>
-    </message>
-    <message>
         <source>This action changes something: send it with expwtWrite.</source>
         <translation>ʻOku liliu ʻe he ngāue ni ha meʻa: fekauʻi ia ʻaki ʻa e expwtWrite.</translation>
     </message>
     <message>
-        <source>Verify it's you</source>
-        <translation>Fakapapauʻi ko koe</translation>
-    </message>
-    <message>
-        <source>Thank you. You can go back to the page; this window closes by itself.</source>
-        <translation>Mālō. ʻE lava ke ke foki ki he peesi; ʻe tāpuni pē ʻe he matapā sioʻata ni ia.</translation>
+        <source>The input is not JSON.</source>
+        <translation>ʻOku ʻikai ko ha JSON ʻa e meʻa naʻe ʻomai.</translation>
     </message>
     <message>
         <source>Something went wrong.</source>
@@ -448,16 +440,28 @@
         <translation>Ko e kauʻi tafaʻaki</translation>
     </message>
     <message>
-        <source>Side</source>
-        <translation>Tafaʻaki</translation>
+        <source>Anchored at</source>
+        <translation>Haʻi ki</translation>
+    </message>
+    <message>
+        <source>Left</source>
+        <translation>Toʻohema</translation>
     </message>
     <message>
         <source>Right</source>
         <translation>Toʻomataʻu</translation>
     </message>
     <message>
-        <source>Left</source>
-        <translation>Toʻohema</translation>
+        <source>Position</source>
+        <translation>Tuʻunga</translation>
+    </message>
+    <message>
+        <source>Top</source>
+        <translation>ʻOlunga</translation>
+    </message>
+    <message>
+        <source>Bottom</source>
+        <translation>Lalo</translation>
     </message>
     <message>
         <source>When open</source>
@@ -496,6 +500,10 @@
         <translation>ʻOku hiki ia ʻe he ngaahi kī ngahau, ʻoku fakaava ia ʻe he Enter.</translation>
     </message>
     <message>
+        <source>Ctrl and an arrow key put it on another edge.</source>
+        <translation>ʻOku hiki ia ʻe he Ctrl mo ha kī ngahau ki ha ngataʻanga kehe.</translation>
+    </message>
+    <message>
         <source>Width of the sidebar</source>
         <translation>Fālahi ʻo e kauʻi tafaʻaki</translation>
     </message>
@@ -528,8 +536,8 @@
         <translation>Ko au</translation>
     </message>
     <message>
-        <source>The sidebar was moved.</source>
-        <translation>Kuo hiki ʻa e kauʻi tafaʻaki.</translation>
+        <source>Height of the sidebar</source>
+        <translation>Māʻolunga ʻo e kauʻi tafaʻaki</translation>
     </message>
     <message>
         <source>The sidebar is on the left.</source>
@@ -538,6 +546,18 @@
     <message>
         <source>The sidebar is on the right.</source>
         <translation>ʻOku ʻi he toʻomataʻu ʻa e kauʻi tafaʻaki.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the top.</source>
+        <translation>ʻOku ʻi ʻolunga ʻa e kauʻi tafaʻaki.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the bottom.</source>
+        <translation>ʻOku ʻi lalo ʻa e kauʻi tafaʻaki.</translation>
+    </message>
+    <message>
+        <source>The sidebar was moved.</source>
+        <translation>Kuo hiki ʻa e kauʻi tafaʻaki.</translation>
     </message>
     <message>
         <source>The sidebar could not reach the server.</source>
@@ -586,6 +606,14 @@
     <message>
         <source>Dark</source>
         <translation>Fakapoʻuli</translation>
+    </message>
+    <message>
+        <source>Thank you. You can go back to the page; this window closes by itself.</source>
+        <translation>Mālō. ʻE lava ke ke foki ki he peesi; ʻe tāpuni pē ʻe he matapā sioʻata ni ia.</translation>
+    </message>
+    <message>
+        <source>Verify it's you</source>
+        <translation>Fakapapauʻi ko koe</translation>
     </message>
 </context>
 </TS>

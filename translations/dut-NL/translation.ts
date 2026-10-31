@@ -80,20 +80,12 @@
         <translation>Dit is niet de lijst met pagina's hier.</translation>
     </message>
     <message>
-        <source>The input is not JSON.</source>
-        <translation>De invoer is geen JSON.</translation>
-    </message>
-    <message>
         <source>This action changes something: send it with expwtWrite.</source>
         <translation>Deze actie wijzigt iets: verstuur hem met expwtWrite.</translation>
     </message>
     <message>
-        <source>Verify it's you</source>
-        <translation>Bevestig dat jij het bent</translation>
-    </message>
-    <message>
-        <source>Thank you. You can go back to the page; this window closes by itself.</source>
-        <translation>Bedankt. Je kunt terug naar de pagina; dit venster sluit vanzelf.</translation>
+        <source>The input is not JSON.</source>
+        <translation>De invoer is geen JSON.</translation>
     </message>
     <message>
         <source>Something went wrong.</source>
@@ -448,16 +440,28 @@
         <translation>De zijbalk</translation>
     </message>
     <message>
-        <source>Side</source>
-        <translation>Kant</translation>
+        <source>Anchored at</source>
+        <translation>Verankerd aan</translation>
+    </message>
+    <message>
+        <source>Left</source>
+        <translation>Links</translation>
     </message>
     <message>
         <source>Right</source>
         <translation>Rechts</translation>
     </message>
     <message>
-        <source>Left</source>
-        <translation>Links</translation>
+        <source>Position</source>
+        <translation>Positie</translation>
+    </message>
+    <message>
+        <source>Top</source>
+        <translation>Boven</translation>
+    </message>
+    <message>
+        <source>Bottom</source>
+        <translation>Onder</translation>
     </message>
     <message>
         <source>When open</source>
@@ -496,6 +500,10 @@
         <translation>Pijltjestoetsen verplaatsen hem, Enter opent hem.</translation>
     </message>
     <message>
+        <source>Ctrl and an arrow key put it on another edge.</source>
+        <translation>Ctrl en een pijltjestoets zetten hem aan een andere rand.</translation>
+    </message>
+    <message>
         <source>Width of the sidebar</source>
         <translation>Breedte van de zijbalk</translation>
     </message>
@@ -528,8 +536,8 @@
         <translation>Ik</translation>
     </message>
     <message>
-        <source>The sidebar was moved.</source>
-        <translation>De zijbalk is verplaatst.</translation>
+        <source>Height of the sidebar</source>
+        <translation>Hoogte van de zijbalk</translation>
     </message>
     <message>
         <source>The sidebar is on the left.</source>
@@ -538,6 +546,18 @@
     <message>
         <source>The sidebar is on the right.</source>
         <translation>De zijbalk staat rechts.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the top.</source>
+        <translation>De zijbalk staat boven.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the bottom.</source>
+        <translation>De zijbalk staat onder.</translation>
+    </message>
+    <message>
+        <source>The sidebar was moved.</source>
+        <translation>De zijbalk is verplaatst.</translation>
     </message>
     <message>
         <source>The sidebar could not reach the server.</source>
@@ -586,6 +606,14 @@
     <message>
         <source>Dark</source>
         <translation>Donker</translation>
+    </message>
+    <message>
+        <source>Thank you. You can go back to the page; this window closes by itself.</source>
+        <translation>Bedankt. Je kunt terug naar de pagina; dit venster sluit vanzelf.</translation>
+    </message>
+    <message>
+        <source>Verify it's you</source>
+        <translation>Bevestig dat jij het bent</translation>
     </message>
 </context>
 </TS>

@@ -80,20 +80,12 @@
         <translation>To njejo lisćina bokow how.</translation>
     </message>
     <message>
-        <source>The input is not JSON.</source>
-        <translation>Zapódaśe njejo JSON.</translation>
-    </message>
-    <message>
         <source>This action changes something: send it with expwtWrite.</source>
         <translation>Toś ta akcija něco změnijo: pósćelśo ju z expwtWrite.</translation>
     </message>
     <message>
-        <source>Verify it's you</source>
-        <translation>Wobkšuśćo, až sćo to wy</translation>
-    </message>
-    <message>
-        <source>Thank you. You can go back to the page; this window closes by itself.</source>
-        <translation>Źěkujomy se. Móžośo se k bokoju wrośiś; toś to wokno se samo zacynijo.</translation>
+        <source>The input is not JSON.</source>
+        <translation>Zapódaśe njejo JSON.</translation>
     </message>
     <message>
         <source>Something went wrong.</source>
@@ -448,16 +440,28 @@
         <translation>Bocna lejstwa</translation>
     </message>
     <message>
-        <source>Side</source>
-        <translation>Bok</translation>
+        <source>Anchored at</source>
+        <translation>Zakotwjone na</translation>
+    </message>
+    <message>
+        <source>Left</source>
+        <translation>Nalěwo</translation>
     </message>
     <message>
         <source>Right</source>
         <translation>Napšawo</translation>
     </message>
     <message>
-        <source>Left</source>
-        <translation>Nalěwo</translation>
+        <source>Position</source>
+        <translation>Pozicija</translation>
+    </message>
+    <message>
+        <source>Top</source>
+        <translation>Górjejce</translation>
+    </message>
+    <message>
+        <source>Bottom</source>
+        <translation>Dołojce</translation>
     </message>
     <message>
         <source>When open</source>
@@ -496,6 +500,10 @@
         <translation>Šypkowe tasty ju pśesuwaju, Enter ju wócynijo.</translation>
     </message>
     <message>
+        <source>Ctrl and an arrow key put it on another edge.</source>
+        <translation>Strg a šypkowa tasta ju na drugu kšomu pśesuwatej.</translation>
+    </message>
+    <message>
         <source>Width of the sidebar</source>
         <translation>Šyrokosć bocneje lejstwy</translation>
     </message>
@@ -528,8 +536,8 @@
         <translation>Ja</translation>
     </message>
     <message>
-        <source>The sidebar was moved.</source>
-        <translation>Bocna lejstwa jo se pśesunuła.</translation>
+        <source>Height of the sidebar</source>
+        <translation>Wusokosć bocneje lejstwy</translation>
     </message>
     <message>
         <source>The sidebar is on the left.</source>
@@ -538,6 +546,18 @@
     <message>
         <source>The sidebar is on the right.</source>
         <translation>Bocna lejstwa jo napšawo.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the top.</source>
+        <translation>Bocna lejstwa jo górjejce.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the bottom.</source>
+        <translation>Bocna lejstwa jo dołojce.</translation>
+    </message>
+    <message>
+        <source>The sidebar was moved.</source>
+        <translation>Bocna lejstwa jo se pśesunuła.</translation>
     </message>
     <message>
         <source>The sidebar could not reach the server.</source>
@@ -586,6 +606,14 @@
     <message>
         <source>Dark</source>
         <translation>Śamny</translation>
+    </message>
+    <message>
+        <source>Thank you. You can go back to the page; this window closes by itself.</source>
+        <translation>Źěkujomy se. Móžośo se k bokoju wrośiś; toś to wokno se samo zacynijo.</translation>
+    </message>
+    <message>
+        <source>Verify it's you</source>
+        <translation>Wobkšuśćo, až sćo to wy</translation>
     </message>
 </context>
 </TS>

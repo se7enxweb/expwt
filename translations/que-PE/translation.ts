@@ -80,20 +80,12 @@
         <translation>Kayqa manam kaypi p'anqakunap sutisinchu.</translation>
     </message>
     <message>
-        <source>The input is not JSON.</source>
-        <translation>Yaykuchisqaqa manam JSON-chu.</translation>
-    </message>
-    <message>
         <source>This action changes something: send it with expwtWrite.</source>
         <translation>Kay ruraqa imatapas tikran: expwtWrite-wan apachiy.</translation>
     </message>
     <message>
-        <source>Verify it's you</source>
-        <translation>Qam kasqaykita takyachiy</translation>
-    </message>
-    <message>
-        <source>Thank you. You can go back to the page; this window closes by itself.</source>
-        <translation>Añay. P'anqaman kutiyta atinki; kay t'uquqa kikinmanta wichqakunqa.</translation>
+        <source>The input is not JSON.</source>
+        <translation>Yaykuchisqaqa manam JSON-chu.</translation>
     </message>
     <message>
         <source>Something went wrong.</source>
@@ -448,16 +440,28 @@
         <translation>Waqta barra</translation>
     </message>
     <message>
-        <source>Side</source>
-        <translation>Waqta</translation>
+        <source>Anchored at</source>
+        <translation>Watasqa</translation>
+    </message>
+    <message>
+        <source>Left</source>
+        <translation>Lluq'i</translation>
     </message>
     <message>
         <source>Right</source>
         <translation>Paña</translation>
     </message>
     <message>
-        <source>Left</source>
-        <translation>Lluq'i</translation>
+        <source>Position</source>
+        <translation>Maypi</translation>
+    </message>
+    <message>
+        <source>Top</source>
+        <translation>Hanaq</translation>
+    </message>
+    <message>
+        <source>Bottom</source>
+        <translation>Uray</translation>
     </message>
     <message>
         <source>When open</source>
@@ -496,6 +500,10 @@
         <translation>Wachi teclakuna kuyuchin, Enter kichan.</translation>
     </message>
     <message>
+        <source>Ctrl and an arrow key put it on another edge.</source>
+        <translation>Ctrl hinaspa wachi teclawan huk patanman kuyuchinki.</translation>
+    </message>
+    <message>
         <source>Width of the sidebar</source>
         <translation>Waqta barrap kinran</translation>
     </message>
@@ -528,8 +536,8 @@
         <translation>Ñuqa</translation>
     </message>
     <message>
-        <source>The sidebar was moved.</source>
-        <translation>Waqta barraqa kuyuchisqañam.</translation>
+        <source>Height of the sidebar</source>
+        <translation>Waqta barrap sayaynin</translation>
     </message>
     <message>
         <source>The sidebar is on the left.</source>
@@ -538,6 +546,18 @@
     <message>
         <source>The sidebar is on the right.</source>
         <translation>Waqta barraqa pañapim.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the top.</source>
+        <translation>Waqta barraqa hanaqpim.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the bottom.</source>
+        <translation>Waqta barraqa uraypim.</translation>
+    </message>
+    <message>
+        <source>The sidebar was moved.</source>
+        <translation>Waqta barraqa kuyuchisqañam.</translation>
     </message>
     <message>
         <source>The sidebar could not reach the server.</source>
@@ -586,6 +606,14 @@
     <message>
         <source>Dark</source>
         <translation>Tutayaq</translation>
+    </message>
+    <message>
+        <source>Thank you. You can go back to the page; this window closes by itself.</source>
+        <translation>Añay. P'anqaman kutiyta atinki; kay t'uquqa kikinmanta wichqakunqa.</translation>
+    </message>
+    <message>
+        <source>Verify it's you</source>
+        <translation>Qam kasqaykita takyachiy</translation>
     </message>
 </context>
 </TS>

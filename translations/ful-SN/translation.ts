@@ -80,20 +80,12 @@
         <translation>Ɗum wonaa doggol kelle ɗoo.</translation>
     </message>
     <message>
-        <source>The input is not JSON.</source>
-        <translation>Ko naatnaa wonaa JSON.</translation>
-    </message>
-    <message>
         <source>This action changes something: send it with expwtWrite.</source>
         <translation>Golle ngee no waylude huunde: neldu ɗum e expwtWrite.</translation>
     </message>
     <message>
-        <source>Verify it's you</source>
-        <translation>Teeŋtin wonde ko aan</translation>
-    </message>
-    <message>
-        <source>Thank you. You can go back to the page; this window closes by itself.</source>
-        <translation>A jaraama. A waawii rutto e hello ngo; ndee henorde ommboto e hoore mum.</translation>
+        <source>The input is not JSON.</source>
+        <translation>Ko naatnaa wonaa JSON.</translation>
     </message>
     <message>
         <source>Something went wrong.</source>
@@ -448,16 +440,28 @@
         <translation>Palal sera</translation>
     </message>
     <message>
-        <source>Side</source>
-        <translation>Sera</translation>
+        <source>Anchored at</source>
+        <translation>Tabitinaa e</translation>
+    </message>
+    <message>
+        <source>Left</source>
+        <translation>Nano</translation>
     </message>
     <message>
         <source>Right</source>
         <translation>Ñaamo</translation>
     </message>
     <message>
-        <source>Left</source>
-        <translation>Nano</translation>
+        <source>Position</source>
+        <translation>Nokku</translation>
+    </message>
+    <message>
+        <source>Top</source>
+        <translation>Dow</translation>
+    </message>
+    <message>
+        <source>Bottom</source>
+        <translation>Les</translation>
     </message>
     <message>
         <source>When open</source>
@@ -496,6 +500,10 @@
         <translation>Coktirɗe tuuɗe ina dirtina mo, Enter ina uddita mo.</translation>
     </message>
     <message>
+        <source>Ctrl and an arrow key put it on another edge.</source>
+        <translation>Ctrl e tuuɗe coktirgal ina dirtina mo e ceeral goɗngal.</translation>
+    </message>
+    <message>
         <source>Width of the sidebar</source>
         <translation>Yaajeende palal sera</translation>
     </message>
@@ -528,8 +536,8 @@
         <translation>Miin</translation>
     </message>
     <message>
-        <source>The sidebar was moved.</source>
-        <translation>Palal sera dirtinaama.</translation>
+        <source>Height of the sidebar</source>
+        <translation>Toowal palal sera</translation>
     </message>
     <message>
         <source>The sidebar is on the left.</source>
@@ -538,6 +546,18 @@
     <message>
         <source>The sidebar is on the right.</source>
         <translation>Palal sera ina e ñaamo.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the top.</source>
+        <translation>Palal sera ina dow.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the bottom.</source>
+        <translation>Palal sera ina les.</translation>
+    </message>
+    <message>
+        <source>The sidebar was moved.</source>
+        <translation>Palal sera dirtinaama.</translation>
     </message>
     <message>
         <source>The sidebar could not reach the server.</source>
@@ -586,6 +606,14 @@
     <message>
         <source>Dark</source>
         <translation>Niɓɓere</translation>
+    </message>
+    <message>
+        <source>Thank you. You can go back to the page; this window closes by itself.</source>
+        <translation>A jaraama. A waawii rutto e hello ngo; ndee henorde ommboto e hoore mum.</translation>
+    </message>
+    <message>
+        <source>Verify it's you</source>
+        <translation>Teeŋtin wonde ko aan</translation>
     </message>
 </context>
 </TS>

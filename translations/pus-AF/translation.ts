@@ -80,20 +80,12 @@
         <translation>دا د دې ځای د پاڼو لړلیک نه دی.</translation>
     </message>
     <message>
-        <source>The input is not JSON.</source>
-        <translation>ننوتنه JSON نه ده.</translation>
-    </message>
-    <message>
         <source>This action changes something: send it with expwtWrite.</source>
         <translation>دا کړنه یو څه بدلوي: د expwtWrite له لارې یې ولېږئ.</translation>
     </message>
     <message>
-        <source>Verify it's you</source>
-        <translation>تایید کړئ چې دا تاسو یاست</translation>
-    </message>
-    <message>
-        <source>Thank you. You can go back to the page; this window closes by itself.</source>
-        <translation>مننه. تاسو بېرته پاڼې ته تللای شئ؛ دا کړکۍ پخپله تړل کېږي.</translation>
+        <source>The input is not JSON.</source>
+        <translation>ننوتنه JSON نه ده.</translation>
     </message>
     <message>
         <source>Something went wrong.</source>
@@ -448,16 +440,28 @@
         <translation>اړخ پټه</translation>
     </message>
     <message>
-        <source>Side</source>
-        <translation>اړخ</translation>
+        <source>Anchored at</source>
+        <translation>نښتې لوری</translation>
+    </message>
+    <message>
+        <source>Left</source>
+        <translation>کیڼ</translation>
     </message>
     <message>
         <source>Right</source>
         <translation>ښي</translation>
     </message>
     <message>
-        <source>Left</source>
-        <translation>کیڼ</translation>
+        <source>Position</source>
+        <translation>ځای</translation>
+    </message>
+    <message>
+        <source>Top</source>
+        <translation>پورته</translation>
+    </message>
+    <message>
+        <source>Bottom</source>
+        <translation>ښکته</translation>
     </message>
     <message>
         <source>When open</source>
@@ -496,6 +500,10 @@
         <translation>د غشي تڼۍ یې خوځوي، Enter یې پرانیزي.</translation>
     </message>
     <message>
+        <source>Ctrl and an arrow key put it on another edge.</source>
+        <translation>Ctrl او د غشي تڼۍ یې بلې څنډې ته وړي.</translation>
+    </message>
+    <message>
         <source>Width of the sidebar</source>
         <translation>د اړخ پټې پلنوالی</translation>
     </message>
@@ -528,8 +536,8 @@
         <translation>زه</translation>
     </message>
     <message>
-        <source>The sidebar was moved.</source>
-        <translation>اړخ پټه ولېږدول شوه.</translation>
+        <source>Height of the sidebar</source>
+        <translation>د اړخ پټې لوړوالی</translation>
     </message>
     <message>
         <source>The sidebar is on the left.</source>
@@ -538,6 +546,18 @@
     <message>
         <source>The sidebar is on the right.</source>
         <translation>اړخ پټه ښي لوري ته ده.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the top.</source>
+        <translation>اړخ پټه پورته ده.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the bottom.</source>
+        <translation>اړخ پټه ښکته ده.</translation>
+    </message>
+    <message>
+        <source>The sidebar was moved.</source>
+        <translation>اړخ پټه ولېږدول شوه.</translation>
     </message>
     <message>
         <source>The sidebar could not reach the server.</source>
@@ -586,6 +606,14 @@
     <message>
         <source>Dark</source>
         <translation>تیاره</translation>
+    </message>
+    <message>
+        <source>Thank you. You can go back to the page; this window closes by itself.</source>
+        <translation>مننه. تاسو بېرته پاڼې ته تللای شئ؛ دا کړکۍ پخپله تړل کېږي.</translation>
+    </message>
+    <message>
+        <source>Verify it's you</source>
+        <translation>تایید کړئ چې دا تاسو یاست</translation>
     </message>
 </context>
 </TS>

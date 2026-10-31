@@ -624,7 +624,16 @@
         });
         return fs;
       };
-      prefs.appendChild(radios(t('Side'), 'wt-side', [['right', t('Right')], ['left', t('Left')]], ctx.state.side, function (v) { ctx.setState({ side: v }); }));
+      /* Position: the four edges (F17, F23); on top and bottom, which end of the bar the tab is anchored at */
+      var anchored = radios(t('Anchored at'), 'wt-align', [['start', t('Left')], ['end', t('Right')]], ctx.state.align,
+        function (v) { ctx.setState({ align: v, offset: 0 }); });
+      anchored.hidden = ctx.state.edge !== 'top' && ctx.state.edge !== 'bottom';
+      prefs.appendChild(radios(t('Position'), 'wt-edge', [['left', t('Left')], ['right', t('Right')], ['top', t('Top')], ['bottom', t('Bottom')]],
+        ctx.state.edge, function (v) {
+          ctx.setState({ edge: v, offset: 0 });
+          anchored.hidden = v !== 'top' && v !== 'bottom';
+        }));
+      prefs.appendChild(anchored);
       prefs.appendChild(radios(t('When open'), 'wt-mode', [['push', t('Beside the page')], ['overlay', t('Over the page')]], ctx.state.mode,
         function (v) { ctx.setState({ mode: v }); }));
       prefs.appendChild(ctx.host.themeChooser());

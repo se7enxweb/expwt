@@ -80,20 +80,12 @@
         <translation>Olu asiluluhlu lwamaphepha alapha.</translation>
     </message>
     <message>
-        <source>The input is not JSON.</source>
-        <translation>Okufakiweyo asiyo-JSON.</translation>
-    </message>
-    <message>
         <source>This action changes something: send it with expwtWrite.</source>
         <translation>Eli nyathelo litshintsha into: lithumele nge-expwtWrite.</translation>
     </message>
     <message>
-        <source>Verify it's you</source>
-        <translation>Qinisekisa ukuba nguwe</translation>
-    </message>
-    <message>
-        <source>Thank you. You can go back to the page; this window closes by itself.</source>
-        <translation>Enkosi. Ungabuyela ephepheni; le festile iyazivala ngokwayo.</translation>
+        <source>The input is not JSON.</source>
+        <translation>Okufakiweyo asiyo-JSON.</translation>
     </message>
     <message>
         <source>Something went wrong.</source>
@@ -448,16 +440,28 @@
         <translation>Ibha esecaleni</translation>
     </message>
     <message>
-        <source>Side</source>
-        <translation>Icala</translation>
+        <source>Anchored at</source>
+        <translation>Ibotshelelwe ku</translation>
+    </message>
+    <message>
+        <source>Left</source>
+        <translation>Ekhohlo</translation>
     </message>
     <message>
         <source>Right</source>
         <translation>Ekunene</translation>
     </message>
     <message>
-        <source>Left</source>
-        <translation>Ekhohlo</translation>
+        <source>Position</source>
+        <translation>Indawo</translation>
+    </message>
+    <message>
+        <source>Top</source>
+        <translation>Phezulu</translation>
+    </message>
+    <message>
+        <source>Bottom</source>
+        <translation>Ezantsi</translation>
     </message>
     <message>
         <source>When open</source>
@@ -496,6 +500,10 @@
         <translation>Amaqhosha otolo ayayihambisa, i-Enter iyayivula.</translation>
     </message>
     <message>
+        <source>Ctrl and an arrow key put it on another edge.</source>
+        <translation>I-Ctrl neqhosha lotolo ziyibeka kwelinye icala.</translation>
+    </message>
+    <message>
         <source>Width of the sidebar</source>
         <translation>Ububanzi bebha esecaleni</translation>
     </message>
@@ -528,8 +536,8 @@
         <translation>Mna</translation>
     </message>
     <message>
-        <source>The sidebar was moved.</source>
-        <translation>Ibha esecaleni ihanjisiwe.</translation>
+        <source>Height of the sidebar</source>
+        <translation>Ukuphakama kwebha esecaleni</translation>
     </message>
     <message>
         <source>The sidebar is on the left.</source>
@@ -538,6 +546,18 @@
     <message>
         <source>The sidebar is on the right.</source>
         <translation>Ibha esecaleni ikunene.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the top.</source>
+        <translation>Ibha esecaleni iphezulu.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the bottom.</source>
+        <translation>Ibha esecaleni isezantsi.</translation>
+    </message>
+    <message>
+        <source>The sidebar was moved.</source>
+        <translation>Ibha esecaleni ihanjisiwe.</translation>
     </message>
     <message>
         <source>The sidebar could not reach the server.</source>
@@ -586,6 +606,14 @@
     <message>
         <source>Dark</source>
         <translation>Ubumnyama</translation>
+    </message>
+    <message>
+        <source>Thank you. You can go back to the page; this window closes by itself.</source>
+        <translation>Enkosi. Ungabuyela ephepheni; le festile iyazivala ngokwayo.</translation>
+    </message>
+    <message>
+        <source>Verify it's you</source>
+        <translation>Qinisekisa ukuba nguwe</translation>
     </message>
 </context>
 </TS>

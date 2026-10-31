@@ -80,20 +80,12 @@
         <translation>Dat ass net d'Lëscht vun de Säiten hei.</translation>
     </message>
     <message>
-        <source>The input is not JSON.</source>
-        <translation>D'Agab ass keen JSON.</translation>
-    </message>
-    <message>
         <source>This action changes something: send it with expwtWrite.</source>
         <translation>Dës Aktioun ännert eppes: schéckt se mat expwtWrite.</translation>
     </message>
     <message>
-        <source>Verify it's you</source>
-        <translation>Bestätegt, datt Dir et sidd</translation>
-    </message>
-    <message>
-        <source>Thank you. You can go back to the page; this window closes by itself.</source>
-        <translation>Merci. Dir kënnt op d'Säit zréckgoen; dës Fënster mécht sech eleng zou.</translation>
+        <source>The input is not JSON.</source>
+        <translation>D'Agab ass keen JSON.</translation>
     </message>
     <message>
         <source>Something went wrong.</source>
@@ -448,16 +440,28 @@
         <translation>D'Säiteleescht</translation>
     </message>
     <message>
-        <source>Side</source>
-        <translation>Säit</translation>
+        <source>Anchored at</source>
+        <translation>Verankert un</translation>
+    </message>
+    <message>
+        <source>Left</source>
+        <translation>Lénks</translation>
     </message>
     <message>
         <source>Right</source>
         <translation>Riets</translation>
     </message>
     <message>
-        <source>Left</source>
-        <translation>Lénks</translation>
+        <source>Position</source>
+        <translation>Positioun</translation>
+    </message>
+    <message>
+        <source>Top</source>
+        <translation>Uewen</translation>
+    </message>
+    <message>
+        <source>Bottom</source>
+        <translation>Ënnen</translation>
     </message>
     <message>
         <source>When open</source>
@@ -496,6 +500,10 @@
         <translation>D'Feiltaste réckelen et, Enter mécht et op.</translation>
     </message>
     <message>
+        <source>Ctrl and an arrow key put it on another edge.</source>
+        <translation>Ctrl an eng Feiltast setzen se un en anere Rand.</translation>
+    </message>
+    <message>
         <source>Width of the sidebar</source>
         <translation>Breet vun der Säiteleescht</translation>
     </message>
@@ -528,8 +536,8 @@
         <translation>Ech</translation>
     </message>
     <message>
-        <source>The sidebar was moved.</source>
-        <translation>D'Säiteleescht gouf geréckelt.</translation>
+        <source>Height of the sidebar</source>
+        <translation>Héicht vun der Säiteleescht</translation>
     </message>
     <message>
         <source>The sidebar is on the left.</source>
@@ -538,6 +546,18 @@
     <message>
         <source>The sidebar is on the right.</source>
         <translation>D'Säiteleescht ass riets.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the top.</source>
+        <translation>D'Säiteleescht ass uewen.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the bottom.</source>
+        <translation>D'Säiteleescht ass ënnen.</translation>
+    </message>
+    <message>
+        <source>The sidebar was moved.</source>
+        <translation>D'Säiteleescht gouf geréckelt.</translation>
     </message>
     <message>
         <source>The sidebar could not reach the server.</source>
@@ -586,6 +606,14 @@
     <message>
         <source>Dark</source>
         <translation>Donkel</translation>
+    </message>
+    <message>
+        <source>Thank you. You can go back to the page; this window closes by itself.</source>
+        <translation>Merci. Dir kënnt op d'Säit zréckgoen; dës Fënster mécht sech eleng zou.</translation>
+    </message>
+    <message>
+        <source>Verify it's you</source>
+        <translation>Bestätegt, datt Dir et sidd</translation>
     </message>
 </context>
 </TS>

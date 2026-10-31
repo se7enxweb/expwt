@@ -134,6 +134,7 @@ class expwtApi
             'urls' => $g->urls(),
             'strings' => $g->strings(),
             'settings' => array( 'minWidth' => $this->settings['min_width'], 'maxWidth' => $this->settings['max_width'],
+                                 'minHeight' => $this->settings['min_height'], 'maxHeight' => $this->settings['max_height'],
                                  'overlayBelow' => $this->settings['overlay_below_width'] ),
         );
     }

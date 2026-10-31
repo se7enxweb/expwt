@@ -80,20 +80,12 @@
         <translation>Chan e seo liosta nan duilleagan an-seo.</translation>
     </message>
     <message>
-        <source>The input is not JSON.</source>
-        <translation>Chan e JSON a tha san ion-chur.</translation>
-    </message>
-    <message>
         <source>This action changes something: send it with expwtWrite.</source>
         <translation>Atharraichidh an gnìomh seo rudeigin: cuiribh e le expwtWrite.</translation>
     </message>
     <message>
-        <source>Verify it's you</source>
-        <translation>Dearbhaibh gur e sibh fhèin a th’ ann</translation>
-    </message>
-    <message>
-        <source>Thank you. You can go back to the page; this window closes by itself.</source>
-        <translation>Mòran taing. Faodaidh sibh tilleadh dhan duilleag; dùinidh an uinneag seo leatha fhèin.</translation>
+        <source>The input is not JSON.</source>
+        <translation>Chan e JSON a tha san ion-chur.</translation>
     </message>
     <message>
         <source>Something went wrong.</source>
@@ -448,16 +440,28 @@
         <translation>Am bàr-taoibh</translation>
     </message>
     <message>
-        <source>Side</source>
-        <translation>Taobh</translation>
+        <source>Anchored at</source>
+        <translation>Acraichte ri</translation>
+    </message>
+    <message>
+        <source>Left</source>
+        <translation>Clì</translation>
     </message>
     <message>
         <source>Right</source>
         <translation>Deas</translation>
     </message>
     <message>
-        <source>Left</source>
-        <translation>Clì</translation>
+        <source>Position</source>
+        <translation>Ionad</translation>
+    </message>
+    <message>
+        <source>Top</source>
+        <translation>Barr</translation>
+    </message>
+    <message>
+        <source>Bottom</source>
+        <translation>Bonn</translation>
     </message>
     <message>
         <source>When open</source>
@@ -496,6 +500,10 @@
         <translation>Gluaisidh na saighdean e, fosglaidh Enter e.</translation>
     </message>
     <message>
+        <source>Ctrl and an arrow key put it on another edge.</source>
+        <translation>Cuiridh Ctrl agus saighead e air oir eile.</translation>
+    </message>
+    <message>
         <source>Width of the sidebar</source>
         <translation>Leud a’ bhàir-taoibh</translation>
     </message>
@@ -528,8 +536,8 @@
         <translation>Mise</translation>
     </message>
     <message>
-        <source>The sidebar was moved.</source>
-        <translation>Chaidh am bàr-taoibh a ghluasad.</translation>
+        <source>Height of the sidebar</source>
+        <translation>Àirde a’ bhàir-taoibh</translation>
     </message>
     <message>
         <source>The sidebar is on the left.</source>
@@ -538,6 +546,18 @@
     <message>
         <source>The sidebar is on the right.</source>
         <translation>Tha am bàr-taoibh air an taobh deas.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the top.</source>
+        <translation>Tha am bàr-taoibh aig a’ bharr.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the bottom.</source>
+        <translation>Tha am bàr-taoibh aig a’ bhonn.</translation>
+    </message>
+    <message>
+        <source>The sidebar was moved.</source>
+        <translation>Chaidh am bàr-taoibh a ghluasad.</translation>
     </message>
     <message>
         <source>The sidebar could not reach the server.</source>
@@ -586,6 +606,14 @@
     <message>
         <source>Dark</source>
         <translation>Dorcha</translation>
+    </message>
+    <message>
+        <source>Thank you. You can go back to the page; this window closes by itself.</source>
+        <translation>Mòran taing. Faodaidh sibh tilleadh dhan duilleag; dùinidh an uinneag seo leatha fhèin.</translation>
+    </message>
+    <message>
+        <source>Verify it's you</source>
+        <translation>Dearbhaibh gur e sibh fhèin a th’ ann</translation>
     </message>
 </context>
 </TS>

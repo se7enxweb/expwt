@@ -80,20 +80,12 @@
         <translation>នេះមិនមែនជាបញ្ជីទំព័រនៅទីនេះទេ។</translation>
     </message>
     <message>
-        <source>The input is not JSON.</source>
-        <translation>ទិន្នន័យបញ្ចូលមិនមែនជា JSON ទេ។</translation>
-    </message>
-    <message>
         <source>This action changes something: send it with expwtWrite.</source>
         <translation>សកម្មភាពនេះផ្លាស់ប្តូរអ្វីមួយ៖ សូមផ្ញើវាជាមួយ expwtWrite។</translation>
     </message>
     <message>
-        <source>Verify it's you</source>
-        <translation>បញ្ជាក់ថាជាអ្នក</translation>
-    </message>
-    <message>
-        <source>Thank you. You can go back to the page; this window closes by itself.</source>
-        <translation>សូមអរគុណ។ អ្នកអាចត្រឡប់ទៅទំព័រវិញបាន; បង្អួចនេះនឹងបិទដោយខ្លួនឯង។</translation>
+        <source>The input is not JSON.</source>
+        <translation>ទិន្នន័យបញ្ចូលមិនមែនជា JSON ទេ។</translation>
     </message>
     <message>
         <source>Something went wrong.</source>
@@ -448,16 +440,28 @@
         <translation>របារចំហៀង</translation>
     </message>
     <message>
-        <source>Side</source>
-        <translation>ចំហៀង</translation>
+        <source>Anchored at</source>
+        <translation>ភ្ជាប់នៅ</translation>
+    </message>
+    <message>
+        <source>Left</source>
+        <translation>ឆ្វេង</translation>
     </message>
     <message>
         <source>Right</source>
         <translation>ស្តាំ</translation>
     </message>
     <message>
-        <source>Left</source>
-        <translation>ឆ្វេង</translation>
+        <source>Position</source>
+        <translation>ទីតាំង</translation>
+    </message>
+    <message>
+        <source>Top</source>
+        <translation>ខាងលើ</translation>
+    </message>
+    <message>
+        <source>Bottom</source>
+        <translation>ខាងក្រោម</translation>
     </message>
     <message>
         <source>When open</source>
@@ -496,6 +500,10 @@
         <translation>គ្រាប់ចុចព្រួញផ្លាស់ទីវា Enter បើកវា។</translation>
     </message>
     <message>
+        <source>Ctrl and an arrow key put it on another edge.</source>
+        <translation>Ctrl និងគ្រាប់ចុចព្រួញដាក់វានៅគែមផ្សេង។</translation>
+    </message>
+    <message>
         <source>Width of the sidebar</source>
         <translation>ទទឹងរបារចំហៀង</translation>
     </message>
@@ -528,8 +536,8 @@
         <translation>ខ្ញុំ</translation>
     </message>
     <message>
-        <source>The sidebar was moved.</source>
-        <translation>របារចំហៀងត្រូវបានផ្លាស់ទី។</translation>
+        <source>Height of the sidebar</source>
+        <translation>កម្ពស់របារចំហៀង</translation>
     </message>
     <message>
         <source>The sidebar is on the left.</source>
@@ -538,6 +546,18 @@
     <message>
         <source>The sidebar is on the right.</source>
         <translation>របារចំហៀងនៅខាងស្តាំ។</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the top.</source>
+        <translation>របារចំហៀងនៅខាងលើ។</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the bottom.</source>
+        <translation>របារចំហៀងនៅខាងក្រោម។</translation>
+    </message>
+    <message>
+        <source>The sidebar was moved.</source>
+        <translation>របារចំហៀងត្រូវបានផ្លាស់ទី។</translation>
     </message>
     <message>
         <source>The sidebar could not reach the server.</source>
@@ -586,6 +606,14 @@
     <message>
         <source>Dark</source>
         <translation>ងងឹត</translation>
+    </message>
+    <message>
+        <source>Thank you. You can go back to the page; this window closes by itself.</source>
+        <translation>សូមអរគុណ។ អ្នកអាចត្រឡប់ទៅទំព័រវិញបាន; បង្អួចនេះនឹងបិទដោយខ្លួនឯង។</translation>
+    </message>
+    <message>
+        <source>Verify it's you</source>
+        <translation>បញ្ជាក់ថាជាអ្នក</translation>
     </message>
 </context>
 </TS>

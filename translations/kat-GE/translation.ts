@@ -80,20 +80,12 @@
         <translation>ეს არ არის აქაური გვერდების სია.</translation>
     </message>
     <message>
-        <source>The input is not JSON.</source>
-        <translation>შეყვანილი მონაცემები არ არის JSON.</translation>
-    </message>
-    <message>
         <source>This action changes something: send it with expwtWrite.</source>
         <translation>ეს მოქმედება რაღაცას ცვლის: გაგზავნეთ expwtWrite-ით.</translation>
     </message>
     <message>
-        <source>Verify it's you</source>
-        <translation>დაადასტურეთ, რომ ეს თქვენ ხართ</translation>
-    </message>
-    <message>
-        <source>Thank you. You can go back to the page; this window closes by itself.</source>
-        <translation>გმადლობთ. შეგიძლიათ დაბრუნდეთ გვერდზე; ეს ფანჯარა თავისით დაიხურება.</translation>
+        <source>The input is not JSON.</source>
+        <translation>შეყვანილი მონაცემები არ არის JSON.</translation>
     </message>
     <message>
         <source>Something went wrong.</source>
@@ -448,16 +440,28 @@
         <translation>გვერდითი პანელი</translation>
     </message>
     <message>
-        <source>Side</source>
-        <translation>მხარე</translation>
+        <source>Anchored at</source>
+        <translation>მიმაგრებულია</translation>
+    </message>
+    <message>
+        <source>Left</source>
+        <translation>მარცხნივ</translation>
     </message>
     <message>
         <source>Right</source>
         <translation>მარჯვნივ</translation>
     </message>
     <message>
-        <source>Left</source>
-        <translation>მარცხნივ</translation>
+        <source>Position</source>
+        <translation>მდებარეობა</translation>
+    </message>
+    <message>
+        <source>Top</source>
+        <translation>ზემოთ</translation>
+    </message>
+    <message>
+        <source>Bottom</source>
+        <translation>ქვემოთ</translation>
     </message>
     <message>
         <source>When open</source>
@@ -496,6 +500,10 @@
         <translation>ისრებით გადაადგილდება, Enter ხსნის.</translation>
     </message>
     <message>
+        <source>Ctrl and an arrow key put it on another edge.</source>
+        <translation>Ctrl და ისარი მას სხვა კიდეზე გადაიტანს.</translation>
+    </message>
+    <message>
         <source>Width of the sidebar</source>
         <translation>გვერდითი პანელის სიგანე</translation>
     </message>
@@ -528,8 +536,8 @@
         <translation>მე</translation>
     </message>
     <message>
-        <source>The sidebar was moved.</source>
-        <translation>გვერდითი პანელი გადაიტანეს.</translation>
+        <source>Height of the sidebar</source>
+        <translation>გვერდითი პანელის სიმაღლე</translation>
     </message>
     <message>
         <source>The sidebar is on the left.</source>
@@ -538,6 +546,18 @@
     <message>
         <source>The sidebar is on the right.</source>
         <translation>გვერდითი პანელი მარჯვნივაა.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the top.</source>
+        <translation>გვერდითი პანელი ზემოთაა.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the bottom.</source>
+        <translation>გვერდითი პანელი ქვემოთაა.</translation>
+    </message>
+    <message>
+        <source>The sidebar was moved.</source>
+        <translation>გვერდითი პანელი გადაიტანეს.</translation>
     </message>
     <message>
         <source>The sidebar could not reach the server.</source>
@@ -586,6 +606,14 @@
     <message>
         <source>Dark</source>
         <translation>მუქი</translation>
+    </message>
+    <message>
+        <source>Thank you. You can go back to the page; this window closes by itself.</source>
+        <translation>გმადლობთ. შეგიძლიათ დაბრუნდეთ გვერდზე; ეს ფანჯარა თავისით დაიხურება.</translation>
+    </message>
+    <message>
+        <source>Verify it's you</source>
+        <translation>დაადასტურეთ, რომ ეს თქვენ ხართ</translation>
     </message>
 </context>
 </TS>

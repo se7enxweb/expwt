@@ -80,20 +80,12 @@
         <translation>ХӀара кхузара агӀонийн могӀам бац.</translation>
     </message>
     <message>
-        <source>The input is not JSON.</source>
-        <translation>Чудаьхнарг JSON дац.</translation>
-    </message>
-    <message>
         <source>This action changes something: send it with expwtWrite.</source>
         <translation>Хӏокху дийрига цхьаъ хуьйцу: иза expwtWrite-ца дахьийта.</translation>
     </message>
     <message>
-        <source>Verify it's you</source>
-        <translation>Иза шу ду тешалла де</translation>
-    </message>
-    <message>
-        <source>Thank you. You can go back to the page; this window closes by itself.</source>
-        <translation>Баркалла. Шу агӀоне юхадерзало; хӀара кор ша дӀакъовлур ду.</translation>
+        <source>The input is not JSON.</source>
+        <translation>Чудаьхнарг JSON дац.</translation>
     </message>
     <message>
         <source>Something went wrong.</source>
@@ -448,16 +440,28 @@
         <translation>АгӀонан панель</translation>
     </message>
     <message>
-        <source>Side</source>
-        <translation>АгӀо</translation>
+        <source>Anchored at</source>
+        <translation>ЧӀагӀйина агӀо</translation>
+    </message>
+    <message>
+        <source>Left</source>
+        <translation>Аьрру</translation>
     </message>
     <message>
         <source>Right</source>
         <translation>Аьтту</translation>
     </message>
     <message>
-        <source>Left</source>
-        <translation>Аьрру</translation>
+        <source>Position</source>
+        <translation>Меттиг</translation>
+    </message>
+    <message>
+        <source>Top</source>
+        <translation>Лакхахь</translation>
+    </message>
+    <message>
+        <source>Bottom</source>
+        <translation>Лахахь</translation>
     </message>
     <message>
         <source>When open</source>
@@ -496,6 +500,10 @@
         <translation>Цхьамзанийн догӀанаш иза меттахйоккху, Enter иза йоьллу.</translation>
     </message>
     <message>
+        <source>Ctrl and an arrow key put it on another edge.</source>
+        <translation>Ctrl а, цхьамзанийн догӀа а иза кхечу йистте йоккху.</translation>
+    </message>
+    <message>
         <source>Width of the sidebar</source>
         <translation>АгӀонан панелан шоралла</translation>
     </message>
@@ -528,8 +536,8 @@
         <translation>Со</translation>
     </message>
     <message>
-        <source>The sidebar was moved.</source>
-        <translation>АгӀонан панель меттахйаьккхина.</translation>
+        <source>Height of the sidebar</source>
+        <translation>АгӀонан панелан локхалла</translation>
     </message>
     <message>
         <source>The sidebar is on the left.</source>
@@ -538,6 +546,18 @@
     <message>
         <source>The sidebar is on the right.</source>
         <translation>АгӀонан панель аьтту агӀор ю.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the top.</source>
+        <translation>АгӀонан панель лакхахь ю.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the bottom.</source>
+        <translation>АгӀонан панель лахахь ю.</translation>
+    </message>
+    <message>
+        <source>The sidebar was moved.</source>
+        <translation>АгӀонан панель меттахйаьккхина.</translation>
     </message>
     <message>
         <source>The sidebar could not reach the server.</source>
@@ -586,6 +606,14 @@
     <message>
         <source>Dark</source>
         <translation>Бода</translation>
+    </message>
+    <message>
+        <source>Thank you. You can go back to the page; this window closes by itself.</source>
+        <translation>Баркалла. Шу агӀоне юхадерзало; хӀара кор ша дӀакъовлур ду.</translation>
+    </message>
+    <message>
+        <source>Verify it's you</source>
+        <translation>Иза шу ду тешалла де</translation>
     </message>
 </context>
 </TS>

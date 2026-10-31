@@ -80,20 +80,12 @@
         <translation>Ní hé seo liosta na leathanach anseo.</translation>
     </message>
     <message>
-        <source>The input is not JSON.</source>
-        <translation>Ní JSON é an t-ionchur.</translation>
-    </message>
-    <message>
         <source>This action changes something: send it with expwtWrite.</source>
         <translation>Athraíonn an gníomh seo rud éigin: seol é le expwtWrite.</translation>
     </message>
     <message>
-        <source>Verify it's you</source>
-        <translation>Deimhnigh gur tú atá ann</translation>
-    </message>
-    <message>
-        <source>Thank you. You can go back to the page; this window closes by itself.</source>
-        <translation>Go raibh maith agat. Is féidir leat filleadh ar an leathanach; dúnfaidh an fhuinneog seo uaithi féin.</translation>
+        <source>The input is not JSON.</source>
+        <translation>Ní JSON é an t-ionchur.</translation>
     </message>
     <message>
         <source>Something went wrong.</source>
@@ -448,16 +440,28 @@
         <translation>An barra taoibh</translation>
     </message>
     <message>
-        <source>Side</source>
-        <translation>Taobh</translation>
+        <source>Anchored at</source>
+        <translation>Ar ancaire ag</translation>
+    </message>
+    <message>
+        <source>Left</source>
+        <translation>Clé</translation>
     </message>
     <message>
         <source>Right</source>
         <translation>Deas</translation>
     </message>
     <message>
-        <source>Left</source>
-        <translation>Clé</translation>
+        <source>Position</source>
+        <translation>Suíomh</translation>
+    </message>
+    <message>
+        <source>Top</source>
+        <translation>Barr</translation>
+    </message>
+    <message>
+        <source>Bottom</source>
+        <translation>Bun</translation>
     </message>
     <message>
         <source>When open</source>
@@ -496,6 +500,10 @@
         <translation>Bogann na saigheadeochracha é, osclaíonn Enter é.</translation>
     </message>
     <message>
+        <source>Ctrl and an arrow key put it on another edge.</source>
+        <translation>Cuireann Ctrl agus saigheadeochair ar imeall eile é.</translation>
+    </message>
+    <message>
         <source>Width of the sidebar</source>
         <translation>Leithead an bharra taoibh</translation>
     </message>
@@ -528,8 +536,8 @@
         <translation>Mise</translation>
     </message>
     <message>
-        <source>The sidebar was moved.</source>
-        <translation>Bogadh an barra taoibh.</translation>
+        <source>Height of the sidebar</source>
+        <translation>Airde an bharra taoibh</translation>
     </message>
     <message>
         <source>The sidebar is on the left.</source>
@@ -538,6 +546,18 @@
     <message>
         <source>The sidebar is on the right.</source>
         <translation>Tá an barra taoibh ar dheis.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the top.</source>
+        <translation>Tá an barra taoibh ag an mbarr.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the bottom.</source>
+        <translation>Tá an barra taoibh ag an mbun.</translation>
+    </message>
+    <message>
+        <source>The sidebar was moved.</source>
+        <translation>Bogadh an barra taoibh.</translation>
     </message>
     <message>
         <source>The sidebar could not reach the server.</source>
@@ -586,6 +606,14 @@
     <message>
         <source>Dark</source>
         <translation>Dorcha</translation>
+    </message>
+    <message>
+        <source>Thank you. You can go back to the page; this window closes by itself.</source>
+        <translation>Go raibh maith agat. Is féidir leat filleadh ar an leathanach; dúnfaidh an fhuinneog seo uaithi féin.</translation>
+    </message>
+    <message>
+        <source>Verify it's you</source>
+        <translation>Deimhnigh gur tú atá ann</translation>
     </message>
 </context>
 </TS>

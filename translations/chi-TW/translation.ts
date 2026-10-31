@@ -80,20 +80,12 @@
         <translation>這不是這裡的頁面清單。</translation>
     </message>
     <message>
-        <source>The input is not JSON.</source>
-        <translation>輸入的不是 JSON。</translation>
-    </message>
-    <message>
         <source>This action changes something: send it with expwtWrite.</source>
         <translation>此操作會變更內容：請用 expwtWrite 傳送。</translation>
     </message>
     <message>
-        <source>Verify it's you</source>
-        <translation>驗證你的身分</translation>
-    </message>
-    <message>
-        <source>Thank you. You can go back to the page; this window closes by itself.</source>
-        <translation>謝謝。你可以返回頁面；此視窗會自動關閉。</translation>
+        <source>The input is not JSON.</source>
+        <translation>輸入的不是 JSON。</translation>
     </message>
     <message>
         <source>Something went wrong.</source>
@@ -448,16 +440,28 @@
         <translation>側邊欄</translation>
     </message>
     <message>
-        <source>Side</source>
-        <translation>位置</translation>
+        <source>Anchored at</source>
+        <translation>錨定於</translation>
+    </message>
+    <message>
+        <source>Left</source>
+        <translation>左側</translation>
     </message>
     <message>
         <source>Right</source>
         <translation>右側</translation>
     </message>
     <message>
-        <source>Left</source>
-        <translation>左側</translation>
+        <source>Position</source>
+        <translation>位置</translation>
+    </message>
+    <message>
+        <source>Top</source>
+        <translation>頂部</translation>
+    </message>
+    <message>
+        <source>Bottom</source>
+        <translation>底部</translation>
     </message>
     <message>
         <source>When open</source>
@@ -496,6 +500,10 @@
         <translation>方向鍵可移動，Enter 鍵可開啟。</translation>
     </message>
     <message>
+        <source>Ctrl and an arrow key put it on another edge.</source>
+        <translation>Ctrl 加方向鍵可將其移到另一邊緣。</translation>
+    </message>
+    <message>
         <source>Width of the sidebar</source>
         <translation>側邊欄寬度</translation>
     </message>
@@ -528,8 +536,8 @@
         <translation>我</translation>
     </message>
     <message>
-        <source>The sidebar was moved.</source>
-        <translation>側邊欄已移動。</translation>
+        <source>Height of the sidebar</source>
+        <translation>側邊欄高度</translation>
     </message>
     <message>
         <source>The sidebar is on the left.</source>
@@ -538,6 +546,18 @@
     <message>
         <source>The sidebar is on the right.</source>
         <translation>側邊欄在右側。</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the top.</source>
+        <translation>側邊欄在頂部。</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the bottom.</source>
+        <translation>側邊欄在底部。</translation>
+    </message>
+    <message>
+        <source>The sidebar was moved.</source>
+        <translation>側邊欄已移動。</translation>
     </message>
     <message>
         <source>The sidebar could not reach the server.</source>
@@ -586,6 +606,14 @@
     <message>
         <source>Dark</source>
         <translation>深色</translation>
+    </message>
+    <message>
+        <source>Thank you. You can go back to the page; this window closes by itself.</source>
+        <translation>謝謝。你可以返回頁面；此視窗會自動關閉。</translation>
+    </message>
+    <message>
+        <source>Verify it's you</source>
+        <translation>驗證你的身分</translation>
     </message>
 </context>
 </TS>

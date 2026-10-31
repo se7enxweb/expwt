@@ -80,20 +80,12 @@
         <translation>Ehara tēnei i te rārangi o ngā whārangi o konei.</translation>
     </message>
     <message>
-        <source>The input is not JSON.</source>
-        <translation>Ehara te tāuru i te JSON.</translation>
-    </message>
-    <message>
         <source>This action changes something: send it with expwtWrite.</source>
         <translation>Ka panoni tēnei mahi i tētahi mea: tukuna mā expwtWrite.</translation>
     </message>
     <message>
-        <source>Verify it's you</source>
-        <translation>Whakaūngia ko koe tēnei</translation>
-    </message>
-    <message>
-        <source>Thank you. You can go back to the page; this window closes by itself.</source>
-        <translation>Kia ora. Ka taea e koe te hoki ki te whārangi; ka kati takitahi tēnei matapihi.</translation>
+        <source>The input is not JSON.</source>
+        <translation>Ehara te tāuru i te JSON.</translation>
     </message>
     <message>
         <source>Something went wrong.</source>
@@ -448,16 +440,28 @@
         <translation>Te pae taha</translation>
     </message>
     <message>
-        <source>Side</source>
-        <translation>Taha</translation>
+        <source>Anchored at</source>
+        <translation>Punga ki</translation>
+    </message>
+    <message>
+        <source>Left</source>
+        <translation>Mauī</translation>
     </message>
     <message>
         <source>Right</source>
         <translation>Matau</translation>
     </message>
     <message>
-        <source>Left</source>
-        <translation>Mauī</translation>
+        <source>Position</source>
+        <translation>Tūnga</translation>
+    </message>
+    <message>
+        <source>Top</source>
+        <translation>Runga</translation>
+    </message>
+    <message>
+        <source>Bottom</source>
+        <translation>Raro</translation>
     </message>
     <message>
         <source>When open</source>
@@ -496,6 +500,10 @@
         <translation>Mā ngā pātuhi pere e nuku, mā Enter e huaki.</translation>
     </message>
     <message>
+        <source>Ctrl and an arrow key put it on another edge.</source>
+        <translation>Mā Ctrl me tētahi pātuhi pere e nuku ki tētahi atu tapa.</translation>
+    </message>
+    <message>
         <source>Width of the sidebar</source>
         <translation>Whānui o te pae taha</translation>
     </message>
@@ -528,8 +536,8 @@
         <translation>Ahau</translation>
     </message>
     <message>
-        <source>The sidebar was moved.</source>
-        <translation>Kua nukuhia te pae taha.</translation>
+        <source>Height of the sidebar</source>
+        <translation>Teitei o te pae taha</translation>
     </message>
     <message>
         <source>The sidebar is on the left.</source>
@@ -538,6 +546,18 @@
     <message>
         <source>The sidebar is on the right.</source>
         <translation>Kei te taha matau te pae taha.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the top.</source>
+        <translation>Kei runga te pae taha.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the bottom.</source>
+        <translation>Kei raro te pae taha.</translation>
+    </message>
+    <message>
+        <source>The sidebar was moved.</source>
+        <translation>Kua nukuhia te pae taha.</translation>
     </message>
     <message>
         <source>The sidebar could not reach the server.</source>
@@ -586,6 +606,14 @@
     <message>
         <source>Dark</source>
         <translation>Pōuri</translation>
+    </message>
+    <message>
+        <source>Thank you. You can go back to the page; this window closes by itself.</source>
+        <translation>Kia ora. Ka taea e koe te hoki ki te whārangi; ka kati takitahi tēnei matapihi.</translation>
+    </message>
+    <message>
+        <source>Verify it's you</source>
+        <translation>Whakaūngia ko koe tēnei</translation>
     </message>
 </context>
 </TS>

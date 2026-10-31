@@ -80,20 +80,12 @@
         <translation>এটি এখানকার পৃষ্ঠাগুলোর তালিকা নয়।</translation>
     </message>
     <message>
-        <source>The input is not JSON.</source>
-        <translation>ইনপুটটি JSON নয়।</translation>
-    </message>
-    <message>
         <source>This action changes something: send it with expwtWrite.</source>
         <translation>এই কাজটি কিছু পরিবর্তন করে: এটি expwtWrite দিয়ে পাঠান।</translation>
     </message>
     <message>
-        <source>Verify it's you</source>
-        <translation>আপনিই কিনা যাচাই করুন</translation>
-    </message>
-    <message>
-        <source>Thank you. You can go back to the page; this window closes by itself.</source>
-        <translation>ধন্যবাদ। আপনি পৃষ্ঠায় ফিরে যেতে পারেন; এই উইন্ডোটি নিজেই বন্ধ হয়ে যাবে।</translation>
+        <source>The input is not JSON.</source>
+        <translation>ইনপুটটি JSON নয়।</translation>
     </message>
     <message>
         <source>Something went wrong.</source>
@@ -448,16 +440,28 @@
         <translation>সাইডবার</translation>
     </message>
     <message>
-        <source>Side</source>
-        <translation>পাশ</translation>
+        <source>Anchored at</source>
+        <translation>যেদিকে আটকানো</translation>
+    </message>
+    <message>
+        <source>Left</source>
+        <translation>বাম</translation>
     </message>
     <message>
         <source>Right</source>
         <translation>ডান</translation>
     </message>
     <message>
-        <source>Left</source>
-        <translation>বাম</translation>
+        <source>Position</source>
+        <translation>অবস্থান</translation>
+    </message>
+    <message>
+        <source>Top</source>
+        <translation>উপর</translation>
+    </message>
+    <message>
+        <source>Bottom</source>
+        <translation>নিচ</translation>
     </message>
     <message>
         <source>When open</source>
@@ -496,6 +500,10 @@
         <translation>তীর কী দিয়ে সরানো যায়, Enter দিয়ে খোলে।</translation>
     </message>
     <message>
+        <source>Ctrl and an arrow key put it on another edge.</source>
+        <translation>Ctrl ও একটি তীর কী দিয়ে এটি অন্য প্রান্তে সরানো যায়।</translation>
+    </message>
+    <message>
         <source>Width of the sidebar</source>
         <translation>সাইডবারের প্রস্থ</translation>
     </message>
@@ -528,8 +536,8 @@
         <translation>আমি</translation>
     </message>
     <message>
-        <source>The sidebar was moved.</source>
-        <translation>সাইডবার সরানো হয়েছে।</translation>
+        <source>Height of the sidebar</source>
+        <translation>সাইডবারের উচ্চতা</translation>
     </message>
     <message>
         <source>The sidebar is on the left.</source>
@@ -538,6 +546,18 @@
     <message>
         <source>The sidebar is on the right.</source>
         <translation>সাইডবার ডান দিকে আছে।</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the top.</source>
+        <translation>সাইডবার উপরে আছে।</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the bottom.</source>
+        <translation>সাইডবার নিচে আছে।</translation>
+    </message>
+    <message>
+        <source>The sidebar was moved.</source>
+        <translation>সাইডবার সরানো হয়েছে।</translation>
     </message>
     <message>
         <source>The sidebar could not reach the server.</source>
@@ -586,6 +606,14 @@
     <message>
         <source>Dark</source>
         <translation>গাঢ়</translation>
+    </message>
+    <message>
+        <source>Thank you. You can go back to the page; this window closes by itself.</source>
+        <translation>ধন্যবাদ। আপনি পৃষ্ঠায় ফিরে যেতে পারেন; এই উইন্ডোটি নিজেই বন্ধ হয়ে যাবে।</translation>
+    </message>
+    <message>
+        <source>Verify it's you</source>
+        <translation>আপনিই কিনা যাচাই করুন</translation>
     </message>
 </context>
 </TS>

@@ -80,20 +80,12 @@
         <translation>Das ist nicht die Liste der Seiten hier.</translation>
     </message>
     <message>
-        <source>The input is not JSON.</source>
-        <translation>Die Eingabe ist kein JSON.</translation>
-    </message>
-    <message>
         <source>This action changes something: send it with expwtWrite.</source>
         <translation>Diese Aktion ändert etwas: Senden Sie sie mit expwtWrite.</translation>
     </message>
     <message>
-        <source>Verify it's you</source>
-        <translation>Bestätigen Sie, dass Sie es sind</translation>
-    </message>
-    <message>
-        <source>Thank you. You can go back to the page; this window closes by itself.</source>
-        <translation>Vielen Dank. Sie können zur Seite zurückkehren; dieses Fenster schließt sich von selbst.</translation>
+        <source>The input is not JSON.</source>
+        <translation>Die Eingabe ist kein JSON.</translation>
     </message>
     <message>
         <source>Something went wrong.</source>
@@ -448,16 +440,28 @@
         <translation>Die Seitenleiste</translation>
     </message>
     <message>
-        <source>Side</source>
-        <translation>Seite</translation>
+        <source>Anchored at</source>
+        <translation>Ausgerichtet nach</translation>
+    </message>
+    <message>
+        <source>Left</source>
+        <translation>Links</translation>
     </message>
     <message>
         <source>Right</source>
         <translation>Rechts</translation>
     </message>
     <message>
-        <source>Left</source>
-        <translation>Links</translation>
+        <source>Position</source>
+        <translation>Position</translation>
+    </message>
+    <message>
+        <source>Top</source>
+        <translation>Oben</translation>
+    </message>
+    <message>
+        <source>Bottom</source>
+        <translation>Unten</translation>
     </message>
     <message>
         <source>When open</source>
@@ -496,6 +500,10 @@
         <translation>Pfeiltasten verschieben sie, Enter öffnet sie.</translation>
     </message>
     <message>
+        <source>Ctrl and an arrow key put it on another edge.</source>
+        <translation>Strg und eine Pfeiltaste setzen sie an einen anderen Rand.</translation>
+    </message>
+    <message>
         <source>Width of the sidebar</source>
         <translation>Breite der Seitenleiste</translation>
     </message>
@@ -528,8 +536,8 @@
         <translation>Ich</translation>
     </message>
     <message>
-        <source>The sidebar was moved.</source>
-        <translation>Die Seitenleiste wurde verschoben.</translation>
+        <source>Height of the sidebar</source>
+        <translation>Höhe der Seitenleiste</translation>
     </message>
     <message>
         <source>The sidebar is on the left.</source>
@@ -538,6 +546,18 @@
     <message>
         <source>The sidebar is on the right.</source>
         <translation>Die Seitenleiste ist rechts.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the top.</source>
+        <translation>Die Seitenleiste ist oben.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the bottom.</source>
+        <translation>Die Seitenleiste ist unten.</translation>
+    </message>
+    <message>
+        <source>The sidebar was moved.</source>
+        <translation>Die Seitenleiste wurde verschoben.</translation>
     </message>
     <message>
         <source>The sidebar could not reach the server.</source>
@@ -586,6 +606,14 @@
     <message>
         <source>Dark</source>
         <translation>Dunkel</translation>
+    </message>
+    <message>
+        <source>Thank you. You can go back to the page; this window closes by itself.</source>
+        <translation>Vielen Dank. Sie können zur Seite zurückkehren; dieses Fenster schließt sich von selbst.</translation>
+    </message>
+    <message>
+        <source>Verify it's you</source>
+        <translation>Bestätigen Sie, dass Sie es sind</translation>
     </message>
 </context>
 </TS>

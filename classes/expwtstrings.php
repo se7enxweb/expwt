@@ -20,7 +20,9 @@ class expwtStrings
     const TAB = array( 'Website sidebar', 'Edit', 'Menu', 'Arrow keys move it, Enter opens it.', 'Width of the sidebar', 'Panels',
                        'Close the sidebar', 'Welcome', 'Sign in to edit this website.', 'Sign in', 'Register', 'Search',
                        'Light or dark', 'Like the site', 'Like the system', 'Light', 'Dark', 'The sidebar was moved.', 'The sidebar is on the left.',
-                       'The sidebar is on the right.', 'Loading ...', 'The sidebar could not reach the server.' );
+                       'The sidebar is on the right.', 'The sidebar is at the top.', 'The sidebar is at the bottom.',
+                       'Ctrl and an arrow key put it on another edge.', 'Height of the sidebar', 'Loading ...',
+                       'The sidebar could not reach the server.' );
 
     /* sources:start (generated: every string of the panels, the views and the refusals) */
     const SOURCES = array(
@@ -43,10 +45,8 @@ class expwtStrings
         'Where to?',
         'The pages here are not sorted by priority.',
         'This is not the list of pages here.',
-        'The input is not JSON.',
         'This action changes something: send it with expwtWrite.',
-        'Verify it\'s you',
-        'Thank you. You can go back to the page; this window closes by itself.',
+        'The input is not JSON.',
         'Something went wrong.',
         'This page is not content of the site. Open a page of the site to edit it.',
         'Loading ...',
@@ -135,9 +135,12 @@ class expwtStrings
         'My drafts',
         'Bookmarks',
         'The sidebar',
-        'Side',
-        'Right',
+        'Anchored at',
         'Left',
+        'Right',
+        'Position',
+        'Top',
+        'Bottom',
         'When open',
         'Beside the page',
         'Over the page',
@@ -147,6 +150,7 @@ class expwtStrings
         'Menu',
         'Edit',
         'Arrow keys move it, Enter opens it.',
+        'Ctrl and an arrow key put it on another edge.',
         'Width of the sidebar',
         'Panels',
         'Close the sidebar',
@@ -155,9 +159,12 @@ class expwtStrings
         'Create',
         'Structure',
         'Me',
-        'The sidebar was moved.',
+        'Height of the sidebar',
         'The sidebar is on the left.',
         'The sidebar is on the right.',
+        'The sidebar is at the top.',
+        'The sidebar is at the bottom.',
+        'The sidebar was moved.',
         'The sidebar could not reach the server.',
         'Please confirm it is you in the new window.',
         'Allow this site to open a window to confirm it is you.',
@@ -170,6 +177,8 @@ class expwtStrings
         'Like the system',
         'Light',
         'Dark',
+        'Thank you. You can go back to the page; this window closes by itself.',
+        'Verify it\'s you',
     );
     /* sources:end */
 

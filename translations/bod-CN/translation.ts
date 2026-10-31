@@ -80,20 +80,12 @@
         <translation>འདི་འདིའི་ཤོག་ངོས་ཀྱི་ཐོ་མིན།</translation>
     </message>
     <message>
-        <source>The input is not JSON.</source>
-        <translation>ནང་འཇུག་དེ་JSONམིན།</translation>
-    </message>
-    <message>
         <source>This action changes something: send it with expwtWrite.</source>
         <translation>བྱ་འགུལ་འདིས་ཅི་ཞིག་བསྒྱུར་གྱི་ཡོད། expwtWriteཐོག་ནས་གཏོང་།</translation>
     </message>
     <message>
-        <source>Verify it's you</source>
-        <translation>ཁྱེད་རང་ཡིན་པ་ར་སྤྲོད།</translation>
-    </message>
-    <message>
-        <source>Thank you. You can go back to the page; this window closes by itself.</source>
-        <translation>ཐུགས་རྗེ་ཆེ། ཤོག་ངོས་ལ་ཕྱིར་ལོག་ཆོག སྒེའུ་ཁུང་འདི་རང་བཞིན་གྱིས་ཁ་རྒྱག</translation>
+        <source>The input is not JSON.</source>
+        <translation>ནང་འཇུག་དེ་JSONམིན།</translation>
     </message>
     <message>
         <source>Something went wrong.</source>
@@ -448,16 +440,28 @@
         <translation>ཟུར་ཕྱོགས་ཀྱི་སྡེ་ཚན།</translation>
     </message>
     <message>
-        <source>Side</source>
-        <translation>ཕྱོགས།</translation>
+        <source>Anchored at</source>
+        <translation>བརྟེན་ས།</translation>
+    </message>
+    <message>
+        <source>Left</source>
+        <translation>གཡོན།</translation>
     </message>
     <message>
         <source>Right</source>
         <translation>གཡས།</translation>
     </message>
     <message>
-        <source>Left</source>
-        <translation>གཡོན།</translation>
+        <source>Position</source>
+        <translation>གནས་ས།</translation>
+    </message>
+    <message>
+        <source>Top</source>
+        <translation>སྟེང་།</translation>
+    </message>
+    <message>
+        <source>Bottom</source>
+        <translation>འོག</translation>
     </message>
     <message>
         <source>When open</source>
@@ -496,6 +500,10 @@
         <translation>མདའ་རྟགས་མཐེབ་ཀྱིས་སྤོ་བ་དང་Enterགྱིས་ཁ་ཕྱེ།</translation>
     </message>
     <message>
+        <source>Ctrl and an arrow key put it on another edge.</source>
+        <translation>Ctrl དང་མདའ་རྟགས་མཐེབ་ཀྱིས་མཐའ་གཞན་དུ་སྤོ།</translation>
+    </message>
+    <message>
         <source>Width of the sidebar</source>
         <translation>ཟུར་ཕྱོགས་སྡེ་ཚན་གྱི་ཞེང་ཚད།</translation>
     </message>
@@ -528,8 +536,8 @@
         <translation>ང་།</translation>
     </message>
     <message>
-        <source>The sidebar was moved.</source>
-        <translation>ཟུར་ཕྱོགས་སྡེ་ཚན་སྤོས་ཟིན།</translation>
+        <source>Height of the sidebar</source>
+        <translation>ཟུར་ཕྱོགས་སྡེ་ཚན་གྱི་མཐོ་ཚད།</translation>
     </message>
     <message>
         <source>The sidebar is on the left.</source>
@@ -538,6 +546,18 @@
     <message>
         <source>The sidebar is on the right.</source>
         <translation>ཟུར་ཕྱོགས་སྡེ་ཚན་གཡས་ཕྱོགས་སུ་ཡོད།</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the top.</source>
+        <translation>ཟུར་ཕྱོགས་སྡེ་ཚན་སྟེང་ཕྱོགས་སུ་ཡོད།</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the bottom.</source>
+        <translation>ཟུར་ཕྱོགས་སྡེ་ཚན་འོག་ཕྱོགས་སུ་ཡོད།</translation>
+    </message>
+    <message>
+        <source>The sidebar was moved.</source>
+        <translation>ཟུར་ཕྱོགས་སྡེ་ཚན་སྤོས་ཟིན།</translation>
     </message>
     <message>
         <source>The sidebar could not reach the server.</source>
@@ -586,6 +606,14 @@
     <message>
         <source>Dark</source>
         <translation>ནག་པོ།</translation>
+    </message>
+    <message>
+        <source>Thank you. You can go back to the page; this window closes by itself.</source>
+        <translation>ཐུགས་རྗེ་ཆེ། ཤོག་ངོས་ལ་ཕྱིར་ལོག་ཆོག སྒེའུ་ཁུང་འདི་རང་བཞིན་གྱིས་ཁ་རྒྱག</translation>
+    </message>
+    <message>
+        <source>Verify it's you</source>
+        <translation>ཁྱེད་རང་ཡིན་པ་ར་སྤྲོད།</translation>
     </message>
 </context>
 </TS>

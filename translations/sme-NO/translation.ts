@@ -80,20 +80,12 @@
         <translation>Dát ii leat dáid siidduid listu.</translation>
     </message>
     <message>
-        <source>The input is not JSON.</source>
-        <translation>Sisdoallu ii leat JSON.</translation>
-    </message>
-    <message>
         <source>This action changes something: send it with expwtWrite.</source>
         <translation>Dát doaibma rievdada juoidá: sádde dan expwtWrite bokte.</translation>
     </message>
     <message>
-        <source>Verify it's you</source>
-        <translation>Duođaš ahte leat don</translation>
-    </message>
-    <message>
-        <source>Thank you. You can go back to the page; this window closes by itself.</source>
-        <translation>Giitu. Don sáhtát máhccat siidui; dát láse giddejuvvo ieš.</translation>
+        <source>The input is not JSON.</source>
+        <translation>Sisdoallu ii leat JSON.</translation>
     </message>
     <message>
         <source>Something went wrong.</source>
@@ -448,16 +440,28 @@
         <translation>Bálddasstoalpu</translation>
     </message>
     <message>
-        <source>Side</source>
-        <translation>Bealli</translation>
+        <source>Anchored at</source>
+        <translation>Giddejuvvon</translation>
+    </message>
+    <message>
+        <source>Left</source>
+        <translation>Gurut</translation>
     </message>
     <message>
         <source>Right</source>
         <translation>Olgeš</translation>
     </message>
     <message>
-        <source>Left</source>
-        <translation>Gurut</translation>
+        <source>Position</source>
+        <translation>Sajádat</translation>
+    </message>
+    <message>
+        <source>Top</source>
+        <translation>Bajábealde</translation>
+    </message>
+    <message>
+        <source>Bottom</source>
+        <translation>Vuolábealde</translation>
     </message>
     <message>
         <source>When open</source>
@@ -496,6 +500,10 @@
         <translation>Njuolladoallut sirdet dan, Enter raba dan.</translation>
     </message>
     <message>
+        <source>Ctrl and an arrow key put it on another edge.</source>
+        <translation>Ctrl ja njuolladoallu sirdiba dan eará ravdii.</translation>
+    </message>
+    <message>
         <source>Width of the sidebar</source>
         <translation>Bálddasstoalpu govdodat</translation>
     </message>
@@ -528,8 +536,8 @@
         <translation>Mun</translation>
     </message>
     <message>
-        <source>The sidebar was moved.</source>
-        <translation>Bálddasstoalpu sirdojuvvui.</translation>
+        <source>Height of the sidebar</source>
+        <translation>Bálddasstoalpu allodat</translation>
     </message>
     <message>
         <source>The sidebar is on the left.</source>
@@ -538,6 +546,18 @@
     <message>
         <source>The sidebar is on the right.</source>
         <translation>Bálddasstoalpu lea olgeš bealde.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the top.</source>
+        <translation>Bálddasstoalpu lea bajábealde.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the bottom.</source>
+        <translation>Bálddasstoalpu lea vuolábealde.</translation>
+    </message>
+    <message>
+        <source>The sidebar was moved.</source>
+        <translation>Bálddasstoalpu sirdojuvvui.</translation>
     </message>
     <message>
         <source>The sidebar could not reach the server.</source>
@@ -586,6 +606,14 @@
     <message>
         <source>Dark</source>
         <translation>Sevdnjes</translation>
+    </message>
+    <message>
+        <source>Thank you. You can go back to the page; this window closes by itself.</source>
+        <translation>Giitu. Don sáhtát máhccat siidui; dát láse giddejuvvo ieš.</translation>
+    </message>
+    <message>
+        <source>Verify it's you</source>
+        <translation>Duođaš ahte leat don</translation>
     </message>
 </context>
 </TS>

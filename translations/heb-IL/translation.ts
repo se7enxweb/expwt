@@ -80,20 +80,12 @@
         <translation>זו אינה רשימת הדפים שכאן.</translation>
     </message>
     <message>
-        <source>The input is not JSON.</source>
-        <translation>הקלט אינו JSON.</translation>
-    </message>
-    <message>
         <source>This action changes something: send it with expwtWrite.</source>
         <translation>פעולה זו משנה דבר מה: יש לשלוח אותה עם expwtWrite.</translation>
     </message>
     <message>
-        <source>Verify it's you</source>
-        <translation>אימות זהות</translation>
-    </message>
-    <message>
-        <source>Thank you. You can go back to the page; this window closes by itself.</source>
-        <translation>תודה. ניתן לחזור לדף; חלון זה ייסגר מעצמו.</translation>
+        <source>The input is not JSON.</source>
+        <translation>הקלט אינו JSON.</translation>
     </message>
     <message>
         <source>Something went wrong.</source>
@@ -448,16 +440,28 @@
         <translation>הסרגל הצדדי</translation>
     </message>
     <message>
-        <source>Side</source>
-        <translation>צד</translation>
+        <source>Anchored at</source>
+        <translation>עיגון</translation>
+    </message>
+    <message>
+        <source>Left</source>
+        <translation>שמאל</translation>
     </message>
     <message>
         <source>Right</source>
         <translation>ימין</translation>
     </message>
     <message>
-        <source>Left</source>
-        <translation>שמאל</translation>
+        <source>Position</source>
+        <translation>מיקום</translation>
+    </message>
+    <message>
+        <source>Top</source>
+        <translation>למעלה</translation>
+    </message>
+    <message>
+        <source>Bottom</source>
+        <translation>למטה</translation>
     </message>
     <message>
         <source>When open</source>
@@ -496,6 +500,10 @@
         <translation>מקשי החיצים מזיזים אותו, Enter פותח אותו.</translation>
     </message>
     <message>
+        <source>Ctrl and an arrow key put it on another edge.</source>
+        <translation>Ctrl ומקש חץ מעבירים אותו לקצה אחר.</translation>
+    </message>
+    <message>
         <source>Width of the sidebar</source>
         <translation>רוחב הסרגל הצדדי</translation>
     </message>
@@ -528,8 +536,8 @@
         <translation>אני</translation>
     </message>
     <message>
-        <source>The sidebar was moved.</source>
-        <translation>הסרגל הצדדי הוזז.</translation>
+        <source>Height of the sidebar</source>
+        <translation>גובה הסרגל הצדדי</translation>
     </message>
     <message>
         <source>The sidebar is on the left.</source>
@@ -538,6 +546,18 @@
     <message>
         <source>The sidebar is on the right.</source>
         <translation>הסרגל הצדדי בצד ימין.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the top.</source>
+        <translation>הסרגל הצדדי למעלה.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the bottom.</source>
+        <translation>הסרגל הצדדי למטה.</translation>
+    </message>
+    <message>
+        <source>The sidebar was moved.</source>
+        <translation>הסרגל הצדדי הוזז.</translation>
     </message>
     <message>
         <source>The sidebar could not reach the server.</source>
@@ -586,6 +606,14 @@
     <message>
         <source>Dark</source>
         <translation>כהה</translation>
+    </message>
+    <message>
+        <source>Thank you. You can go back to the page; this window closes by itself.</source>
+        <translation>תודה. ניתן לחזור לדף; חלון זה ייסגר מעצמו.</translation>
+    </message>
+    <message>
+        <source>Verify it's you</source>
+        <translation>אימות זהות</translation>
     </message>
 </context>
 </TS>

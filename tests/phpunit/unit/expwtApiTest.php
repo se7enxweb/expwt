@@ -137,7 +137,10 @@ class expwtApiTest extends PHPUnit\Framework\TestCase
     public function testStateIsNormalizedAndSaved()
     {
         $r = $this->api()->call( 'state.save', array( 'state' => array( 'side' => 'left', 'width' => 5, 'panel' => 'secret' ) ) );
-        $this->assertSame( 'left', $this->gateway->saved['side'] );
+        $this->assertSame( 'left', $this->gateway->saved['edge'], 'an old client sending side' );
+        $this->api()->call( 'state.save', array( 'state' => array( 'edge' => 'bottom', 'align' => 'start', 'height' => 333 ) ) );
+        $this->assertSame( array( 'bottom', 'start', 333 ), array( $this->gateway->saved['edge'], $this->gateway->saved['align'], $this->gateway->saved['height'] ) );
+        $r = $this->api()->call( 'state.save', array( 'state' => array( 'side' => 'left', 'width' => 5, 'panel' => 'secret' ) ) );
         $this->assertSame( 300, $this->gateway->saved['width'] );
         $this->assertSame( 'page', $this->gateway->saved['panel'] );
         $this->assertSame( $this->gateway->saved, $r['body']['data']['state'] );

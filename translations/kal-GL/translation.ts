@@ -80,20 +80,12 @@
         <translation>Una quppernerit maaniittut allattorsimaffiginngilaat.</translation>
     </message>
     <message>
-        <source>The input is not JSON.</source>
-        <translation>Ikkussineq JSON-iunngilaq.</translation>
-    </message>
-    <message>
         <source>This action changes something: send it with expwtWrite.</source>
         <translation>Iliuuseq una allanngortitsivoq: expwtWrite atorlugu nassiuguk.</translation>
     </message>
     <message>
-        <source>Verify it's you</source>
-        <translation>Illuunerit uppernarsaruk</translation>
-    </message>
-    <message>
-        <source>Thank you. You can go back to the page; this window closes by itself.</source>
-        <translation>Qujanaq. Quppernermut utersinnaavutit; igalaaq una nammineerluni matusissaaq.</translation>
+        <source>The input is not JSON.</source>
+        <translation>Ikkussineq JSON-iunngilaq.</translation>
     </message>
     <message>
         <source>Something went wrong.</source>
@@ -448,16 +440,28 @@
         <translation>Saniatigut sanerussaq</translation>
     </message>
     <message>
-        <source>Side</source>
-        <translation>Sani</translation>
+        <source>Anchored at</source>
+        <translation>Aalajangersimaffia</translation>
+    </message>
+    <message>
+        <source>Left</source>
+        <translation>Saamerleq</translation>
     </message>
     <message>
         <source>Right</source>
         <translation>Talerpik</translation>
     </message>
     <message>
-        <source>Left</source>
-        <translation>Saamerleq</translation>
+        <source>Position</source>
+        <translation>Inissisimaa</translation>
+    </message>
+    <message>
+        <source>Top</source>
+        <translation>Qulleq</translation>
+    </message>
+    <message>
+        <source>Bottom</source>
+        <translation>Allerleq</translation>
     </message>
     <message>
         <source>When open</source>
@@ -496,6 +500,10 @@
         <translation>Pilerisaarutit tasterii nuutissavaat, Enter-ip ammassavaa.</translation>
     </message>
     <message>
+        <source>Ctrl and an arrow key put it on another edge.</source>
+        <translation>Ctrl aamma pilerisaarut sinaanut allamut nuutissavaat.</translation>
+    </message>
+    <message>
         <source>Width of the sidebar</source>
         <translation>Saniatigut sanerussap silissusaa</translation>
     </message>
@@ -528,8 +536,8 @@
         <translation>Uanga</translation>
     </message>
     <message>
-        <source>The sidebar was moved.</source>
-        <translation>Saniatigut sanerussaq nuunneqarpoq.</translation>
+        <source>Height of the sidebar</source>
+        <translation>Saniatigut sanerussap portussusaa</translation>
     </message>
     <message>
         <source>The sidebar is on the left.</source>
@@ -538,6 +546,18 @@
     <message>
         <source>The sidebar is on the right.</source>
         <translation>Saniatigut sanerussaq talerpimmiippoq.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the top.</source>
+        <translation>Saniatigut sanerussaq qulliuvoq.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the bottom.</source>
+        <translation>Saniatigut sanerussaq allerliuvoq.</translation>
+    </message>
+    <message>
+        <source>The sidebar was moved.</source>
+        <translation>Saniatigut sanerussaq nuunneqarpoq.</translation>
     </message>
     <message>
         <source>The sidebar could not reach the server.</source>
@@ -586,6 +606,14 @@
     <message>
         <source>Dark</source>
         <translation>Taartoq</translation>
+    </message>
+    <message>
+        <source>Thank you. You can go back to the page; this window closes by itself.</source>
+        <translation>Qujanaq. Quppernermut utersinnaavutit; igalaaq una nammineerluni matusissaaq.</translation>
+    </message>
+    <message>
+        <source>Verify it's you</source>
+        <translation>Illuunerit uppernarsaruk</translation>
     </message>
 </context>
 </TS>

@@ -80,20 +80,12 @@
         <translation>Tämä ei ole täällä olevien sivujen luettelo.</translation>
     </message>
     <message>
-        <source>The input is not JSON.</source>
-        <translation>Syöte ei ole JSONia.</translation>
-    </message>
-    <message>
         <source>This action changes something: send it with expwtWrite.</source>
         <translation>Tämä toiminto muuttaa jotakin: lähetä se expwtWrite-kutsulla.</translation>
     </message>
     <message>
-        <source>Verify it's you</source>
-        <translation>Vahvista henkilöllisyytesi</translation>
-    </message>
-    <message>
-        <source>Thank you. You can go back to the page; this window closes by itself.</source>
-        <translation>Kiitos. Voit palata sivulle; tämä ikkuna sulkeutuu itsestään.</translation>
+        <source>The input is not JSON.</source>
+        <translation>Syöte ei ole JSONia.</translation>
     </message>
     <message>
         <source>Something went wrong.</source>
@@ -448,16 +440,28 @@
         <translation>Sivupalkki</translation>
     </message>
     <message>
-        <source>Side</source>
-        <translation>Puoli</translation>
+        <source>Anchored at</source>
+        <translation>Ankkuroitu</translation>
+    </message>
+    <message>
+        <source>Left</source>
+        <translation>Vasen</translation>
     </message>
     <message>
         <source>Right</source>
         <translation>Oikea</translation>
     </message>
     <message>
-        <source>Left</source>
-        <translation>Vasen</translation>
+        <source>Position</source>
+        <translation>Sijainti</translation>
+    </message>
+    <message>
+        <source>Top</source>
+        <translation>Ylhäällä</translation>
+    </message>
+    <message>
+        <source>Bottom</source>
+        <translation>Alhaalla</translation>
     </message>
     <message>
         <source>When open</source>
@@ -496,6 +500,10 @@
         <translation>Nuolinäppäimet siirtävät, Enter avaa.</translation>
     </message>
     <message>
+        <source>Ctrl and an arrow key put it on another edge.</source>
+        <translation>Ctrl ja nuolinäppäin siirtävät sen toiseen reunaan.</translation>
+    </message>
+    <message>
         <source>Width of the sidebar</source>
         <translation>Sivupalkin leveys</translation>
     </message>
@@ -528,8 +536,8 @@
         <translation>Minä</translation>
     </message>
     <message>
-        <source>The sidebar was moved.</source>
-        <translation>Sivupalkki siirrettiin.</translation>
+        <source>Height of the sidebar</source>
+        <translation>Sivupalkin korkeus</translation>
     </message>
     <message>
         <source>The sidebar is on the left.</source>
@@ -538,6 +546,18 @@
     <message>
         <source>The sidebar is on the right.</source>
         <translation>Sivupalkki on oikealla.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the top.</source>
+        <translation>Sivupalkki on ylhäällä.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the bottom.</source>
+        <translation>Sivupalkki on alhaalla.</translation>
+    </message>
+    <message>
+        <source>The sidebar was moved.</source>
+        <translation>Sivupalkki siirrettiin.</translation>
     </message>
     <message>
         <source>The sidebar could not reach the server.</source>
@@ -586,6 +606,14 @@
     <message>
         <source>Dark</source>
         <translation>Tumma</translation>
+    </message>
+    <message>
+        <source>Thank you. You can go back to the page; this window closes by itself.</source>
+        <translation>Kiitos. Voit palata sivulle; tämä ikkuna sulkeutuu itsestään.</translation>
+    </message>
+    <message>
+        <source>Verify it's you</source>
+        <translation>Vahvista henkilöllisyytesi</translation>
     </message>
 </context>
 </TS>

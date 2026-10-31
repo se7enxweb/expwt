@@ -80,20 +80,12 @@
         <translation>እዚ ዝርዝር ገጻት ናይዚ ቦታ ኣይኮነን።</translation>
     </message>
     <message>
-        <source>The input is not JSON.</source>
-        <translation>እቲ እታወ JSON ኣይኮነን።</translation>
-    </message>
-    <message>
         <source>This action changes something: send it with expwtWrite.</source>
         <translation>እዚ ተግባር ገለ ይቕይር፡ ብexpwtWrite ስደዶ።</translation>
     </message>
     <message>
-        <source>Verify it's you</source>
-        <translation>ንስኻ ምዃንካ ኣረጋግጽ</translation>
-    </message>
-    <message>
-        <source>Thank you. You can go back to the page; this window closes by itself.</source>
-        <translation>የቐንየለይ። ናብቲ ገጽ ክትምለስ ትኽእል ኢኻ፤ እዚ መስኮት ባዕሉ ይዕጾ።</translation>
+        <source>The input is not JSON.</source>
+        <translation>እቲ እታወ JSON ኣይኮነን።</translation>
     </message>
     <message>
         <source>Something went wrong.</source>
@@ -448,16 +440,28 @@
         <translation>እቲ ናይ ጎኒ መቓን</translation>
     </message>
     <message>
-        <source>Side</source>
-        <translation>ጎኒ</translation>
+        <source>Anchored at</source>
+        <translation>ዝተሰከለሉ</translation>
+    </message>
+    <message>
+        <source>Left</source>
+        <translation>ጸጋም</translation>
     </message>
     <message>
         <source>Right</source>
         <translation>የማን</translation>
     </message>
     <message>
-        <source>Left</source>
-        <translation>ጸጋም</translation>
+        <source>Position</source>
+        <translation>ቦታ</translation>
+    </message>
+    <message>
+        <source>Top</source>
+        <translation>ላዕሊ</translation>
+    </message>
+    <message>
+        <source>Bottom</source>
+        <translation>ታሕቲ</translation>
     </message>
     <message>
         <source>When open</source>
@@ -496,6 +500,10 @@
         <translation>መፍትሕ ምልክት ኣንፈት የግዕዞ፡ Enter ይኸፍቶ።</translation>
     </message>
     <message>
+        <source>Ctrl and an arrow key put it on another edge.</source>
+        <translation>Ctrl ን መፍትሕ ምልክት ኣንፈትን ናብ ካልእ ደረት የግዕዝዎ።</translation>
+    </message>
+    <message>
         <source>Width of the sidebar</source>
         <translation>ስፍሓት ናይ ጎኒ መቓን</translation>
     </message>
@@ -528,8 +536,8 @@
         <translation>ኣነ</translation>
     </message>
     <message>
-        <source>The sidebar was moved.</source>
-        <translation>ናይ ጎኒ መቓን ተገዒዙ።</translation>
+        <source>Height of the sidebar</source>
+        <translation>ቁመት ናይ ጎኒ መቓን</translation>
     </message>
     <message>
         <source>The sidebar is on the left.</source>
@@ -538,6 +546,18 @@
     <message>
         <source>The sidebar is on the right.</source>
         <translation>ናይ ጎኒ መቓን ኣብ የማን እዩ።</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the top.</source>
+        <translation>ናይ ጎኒ መቓን ኣብ ላዕሊ እዩ።</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the bottom.</source>
+        <translation>ናይ ጎኒ መቓን ኣብ ታሕቲ እዩ።</translation>
+    </message>
+    <message>
+        <source>The sidebar was moved.</source>
+        <translation>ናይ ጎኒ መቓን ተገዒዙ።</translation>
     </message>
     <message>
         <source>The sidebar could not reach the server.</source>
@@ -586,6 +606,14 @@
     <message>
         <source>Dark</source>
         <translation>ጸልማት</translation>
+    </message>
+    <message>
+        <source>Thank you. You can go back to the page; this window closes by itself.</source>
+        <translation>የቐንየለይ። ናብቲ ገጽ ክትምለስ ትኽእል ኢኻ፤ እዚ መስኮት ባዕሉ ይዕጾ።</translation>
+    </message>
+    <message>
+        <source>Verify it's you</source>
+        <translation>ንስኻ ምዃንካ ኣረጋግጽ</translation>
     </message>
 </context>
 </TS>

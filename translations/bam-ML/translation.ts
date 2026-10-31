@@ -80,20 +80,12 @@
         <translation>Nin tɛ yan ɲɛw ka lisi ye.</translation>
     </message>
     <message>
-        <source>The input is not JSON.</source>
-        <translation>Donnen tɛ JSON ye.</translation>
-    </message>
-    <message>
         <source>This action changes something: send it with expwtWrite.</source>
         <translation>Nin baara bɛ fɛn dɔ yɛlɛma: a ci ni expwtWrite ye.</translation>
     </message>
     <message>
-        <source>Verify it's you</source>
-        <translation>A sinsin ko e don</translation>
-    </message>
-    <message>
-        <source>Thank you. You can go back to the page; this window closes by itself.</source>
-        <translation>I ni ce. I bɛ se ka segin ɲɛ kan; nin finɛtiri bɛ datugu a yɛrɛ ma.</translation>
+        <source>The input is not JSON.</source>
+        <translation>Donnen tɛ JSON ye.</translation>
     </message>
     <message>
         <source>Something went wrong.</source>
@@ -448,16 +440,28 @@
         <translation>Kɛrɛfɛ barakɛlan</translation>
     </message>
     <message>
-        <source>Side</source>
-        <translation>Kɛrɛ</translation>
+        <source>Anchored at</source>
+        <translation>A sirilen bɛ</translation>
+    </message>
+    <message>
+        <source>Left</source>
+        <translation>Numanbolo</translation>
     </message>
     <message>
         <source>Right</source>
         <translation>Kininbolo</translation>
     </message>
     <message>
-        <source>Left</source>
-        <translation>Numanbolo</translation>
+        <source>Position</source>
+        <translation>Sigiyɔrɔ</translation>
+    </message>
+    <message>
+        <source>Top</source>
+        <translation>Sanfɛ</translation>
+    </message>
+    <message>
+        <source>Bottom</source>
+        <translation>Duguma</translation>
     </message>
     <message>
         <source>When open</source>
@@ -496,6 +500,10 @@
         <translation>Bisiri butɔnw b'a lamaga, Enter b'a da wuli.</translation>
     </message>
     <message>
+        <source>Ctrl and an arrow key put it on another edge.</source>
+        <translation>Ctrl ni bisiri butɔn b'a bila dan wɛrɛ la.</translation>
+    </message>
+    <message>
         <source>Width of the sidebar</source>
         <translation>Kɛrɛfɛ barakɛlan bonya</translation>
     </message>
@@ -528,8 +536,8 @@
         <translation>Ne</translation>
     </message>
     <message>
-        <source>The sidebar was moved.</source>
-        <translation>Kɛrɛfɛ barakɛlan yɔrɔ yɛlɛmana.</translation>
+        <source>Height of the sidebar</source>
+        <translation>Kɛrɛfɛ barakɛlan janya</translation>
     </message>
     <message>
         <source>The sidebar is on the left.</source>
@@ -538,6 +546,18 @@
     <message>
         <source>The sidebar is on the right.</source>
         <translation>Kɛrɛfɛ barakɛlan bɛ kininbolo fɛ.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the top.</source>
+        <translation>Kɛrɛfɛ barakɛlan bɛ sanfɛ.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the bottom.</source>
+        <translation>Kɛrɛfɛ barakɛlan bɛ duguma.</translation>
+    </message>
+    <message>
+        <source>The sidebar was moved.</source>
+        <translation>Kɛrɛfɛ barakɛlan yɔrɔ yɛlɛmana.</translation>
     </message>
     <message>
         <source>The sidebar could not reach the server.</source>
@@ -586,6 +606,14 @@
     <message>
         <source>Dark</source>
         <translation>Dibi</translation>
+    </message>
+    <message>
+        <source>Thank you. You can go back to the page; this window closes by itself.</source>
+        <translation>I ni ce. I bɛ se ka segin ɲɛ kan; nin finɛtiri bɛ datugu a yɛrɛ ma.</translation>
+    </message>
+    <message>
+        <source>Verify it's you</source>
+        <translation>A sinsin ko e don</translation>
     </message>
 </context>
 </TS>

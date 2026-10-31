@@ -80,20 +80,12 @@
         <translation>Hindi ito ang listahan ng mga pahina rito.</translation>
     </message>
     <message>
-        <source>The input is not JSON.</source>
-        <translation>Hindi JSON ang input.</translation>
-    </message>
-    <message>
         <source>This action changes something: send it with expwtWrite.</source>
         <translation>May binabago ang aksyong ito: ipadala ito gamit ang expwtWrite.</translation>
     </message>
     <message>
-        <source>Verify it's you</source>
-        <translation>Patunayang ikaw ito</translation>
-    </message>
-    <message>
-        <source>Thank you. You can go back to the page; this window closes by itself.</source>
-        <translation>Salamat. Puwede ka nang bumalik sa pahina; kusang magsasara ang window na ito.</translation>
+        <source>The input is not JSON.</source>
+        <translation>Hindi JSON ang input.</translation>
     </message>
     <message>
         <source>Something went wrong.</source>
@@ -448,16 +440,28 @@
         <translation>Ang sidebar</translation>
     </message>
     <message>
-        <source>Side</source>
-        <translation>Gilid</translation>
+        <source>Anchored at</source>
+        <translation>Nakaangkla sa</translation>
+    </message>
+    <message>
+        <source>Left</source>
+        <translation>Kaliwa</translation>
     </message>
     <message>
         <source>Right</source>
         <translation>Kanan</translation>
     </message>
     <message>
-        <source>Left</source>
-        <translation>Kaliwa</translation>
+        <source>Position</source>
+        <translation>Posisyon</translation>
+    </message>
+    <message>
+        <source>Top</source>
+        <translation>Itaas</translation>
+    </message>
+    <message>
+        <source>Bottom</source>
+        <translation>Ibaba</translation>
     </message>
     <message>
         <source>When open</source>
@@ -496,6 +500,10 @@
         <translation>Inililipat ito ng mga arrow key, binubuksan ito ng Enter.</translation>
     </message>
     <message>
+        <source>Ctrl and an arrow key put it on another edge.</source>
+        <translation>Inililipat ito ng Ctrl at isang arrow key sa ibang gilid.</translation>
+    </message>
+    <message>
         <source>Width of the sidebar</source>
         <translation>Lapad ng sidebar</translation>
     </message>
@@ -528,8 +536,8 @@
         <translation>Ako</translation>
     </message>
     <message>
-        <source>The sidebar was moved.</source>
-        <translation>Nailipat ang sidebar.</translation>
+        <source>Height of the sidebar</source>
+        <translation>Taas ng sidebar</translation>
     </message>
     <message>
         <source>The sidebar is on the left.</source>
@@ -538,6 +546,18 @@
     <message>
         <source>The sidebar is on the right.</source>
         <translation>Nasa kanan ang sidebar.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the top.</source>
+        <translation>Nasa itaas ang sidebar.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the bottom.</source>
+        <translation>Nasa ibaba ang sidebar.</translation>
+    </message>
+    <message>
+        <source>The sidebar was moved.</source>
+        <translation>Nailipat ang sidebar.</translation>
     </message>
     <message>
         <source>The sidebar could not reach the server.</source>
@@ -586,6 +606,14 @@
     <message>
         <source>Dark</source>
         <translation>Madilim</translation>
+    </message>
+    <message>
+        <source>Thank you. You can go back to the page; this window closes by itself.</source>
+        <translation>Salamat. Puwede ka nang bumalik sa pahina; kusang magsasara ang window na ito.</translation>
+    </message>
+    <message>
+        <source>Verify it's you</source>
+        <translation>Patunayang ikaw ito</translation>
     </message>
 </context>
 </TS>

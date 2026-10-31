@@ -80,20 +80,12 @@
         <translation>これはここのページの一覧ではありません。</translation>
     </message>
     <message>
-        <source>The input is not JSON.</source>
-        <translation>入力が JSON ではありません。</translation>
-    </message>
-    <message>
         <source>This action changes something: send it with expwtWrite.</source>
         <translation>この操作は変更を加えます: expwtWrite で送信してください。</translation>
     </message>
     <message>
-        <source>Verify it's you</source>
-        <translation>本人確認</translation>
-    </message>
-    <message>
-        <source>Thank you. You can go back to the page; this window closes by itself.</source>
-        <translation>ありがとうございます。ページに戻ってください。このウィンドウは自動的に閉じます。</translation>
+        <source>The input is not JSON.</source>
+        <translation>入力が JSON ではありません。</translation>
     </message>
     <message>
         <source>Something went wrong.</source>
@@ -448,16 +440,28 @@
         <translation>サイドバー</translation>
     </message>
     <message>
-        <source>Side</source>
-        <translation>位置</translation>
+        <source>Anchored at</source>
+        <translation>固定位置</translation>
+    </message>
+    <message>
+        <source>Left</source>
+        <translation>左</translation>
     </message>
     <message>
         <source>Right</source>
         <translation>右</translation>
     </message>
     <message>
-        <source>Left</source>
-        <translation>左</translation>
+        <source>Position</source>
+        <translation>位置</translation>
+    </message>
+    <message>
+        <source>Top</source>
+        <translation>上</translation>
+    </message>
+    <message>
+        <source>Bottom</source>
+        <translation>下</translation>
     </message>
     <message>
         <source>When open</source>
@@ -496,6 +500,10 @@
         <translation>矢印キーで移動、Enter で開きます。</translation>
     </message>
     <message>
+        <source>Ctrl and an arrow key put it on another edge.</source>
+        <translation>Ctrl と矢印キーで別の端に移動します。</translation>
+    </message>
+    <message>
         <source>Width of the sidebar</source>
         <translation>サイドバーの幅</translation>
     </message>
@@ -528,8 +536,8 @@
         <translation>自分</translation>
     </message>
     <message>
-        <source>The sidebar was moved.</source>
-        <translation>サイドバーを移動しました。</translation>
+        <source>Height of the sidebar</source>
+        <translation>サイドバーの高さ</translation>
     </message>
     <message>
         <source>The sidebar is on the left.</source>
@@ -538,6 +546,18 @@
     <message>
         <source>The sidebar is on the right.</source>
         <translation>サイドバーは右側にあります。</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the top.</source>
+        <translation>サイドバーは上部にあります。</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the bottom.</source>
+        <translation>サイドバーは下部にあります。</translation>
+    </message>
+    <message>
+        <source>The sidebar was moved.</source>
+        <translation>サイドバーを移動しました。</translation>
     </message>
     <message>
         <source>The sidebar could not reach the server.</source>
@@ -586,6 +606,14 @@
     <message>
         <source>Dark</source>
         <translation>ダーク</translation>
+    </message>
+    <message>
+        <source>Thank you. You can go back to the page; this window closes by itself.</source>
+        <translation>ありがとうございます。ページに戻ってください。このウィンドウは自動的に閉じます。</translation>
+    </message>
+    <message>
+        <source>Verify it's you</source>
+        <translation>本人確認</translation>
     </message>
 </context>
 </TS>

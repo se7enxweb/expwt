@@ -80,20 +80,12 @@
         <translation>ʻAʻole kēia ka papa inoa o nā ʻaoʻao ma ʻaneʻi.</translation>
     </message>
     <message>
-        <source>The input is not JSON.</source>
-        <translation>ʻAʻole JSON ka mea i hoʻokomo ʻia.</translation>
-    </message>
-    <message>
         <source>This action changes something: send it with expwtWrite.</source>
         <translation>Hoʻololi kēia hana i kekahi mea: e hoʻouna me expwtWrite.</translation>
     </message>
     <message>
-        <source>Verify it's you</source>
-        <translation>E hōʻoia ʻo ʻoe nō kēia</translation>
-    </message>
-    <message>
-        <source>Thank you. You can go back to the page; this window closes by itself.</source>
-        <translation>Mahalo. Hiki iā ʻoe ke hoʻi i ka ʻaoʻao; e pani kēia puka aniani iā ia iho.</translation>
+        <source>The input is not JSON.</source>
+        <translation>ʻAʻole JSON ka mea i hoʻokomo ʻia.</translation>
     </message>
     <message>
         <source>Something went wrong.</source>
@@ -448,16 +440,28 @@
         <translation>Ka pā ʻaoʻao</translation>
     </message>
     <message>
-        <source>Side</source>
-        <translation>ʻAoʻao</translation>
+        <source>Anchored at</source>
+        <translation>Hoʻopaʻa ʻia ma</translation>
+    </message>
+    <message>
+        <source>Left</source>
+        <translation>Hema</translation>
     </message>
     <message>
         <source>Right</source>
         <translation>ʻĀkau</translation>
     </message>
     <message>
-        <source>Left</source>
-        <translation>Hema</translation>
+        <source>Position</source>
+        <translation>Kūlana</translation>
+    </message>
+    <message>
+        <source>Top</source>
+        <translation>Luna</translation>
+    </message>
+    <message>
+        <source>Bottom</source>
+        <translation>Lalo</translation>
     </message>
     <message>
         <source>When open</source>
@@ -496,6 +500,10 @@
         <translation>Hoʻoneʻe nā pihi pua iā ia, wehe ʻo Enter iā ia.</translation>
     </message>
     <message>
+        <source>Ctrl and an arrow key put it on another edge.</source>
+        <translation>Hoʻoneʻe ʻo Ctrl a me kekahi pihi pua iā ia i kekahi lihi ʻē aʻe.</translation>
+    </message>
+    <message>
         <source>Width of the sidebar</source>
         <translation>Laulā o ka pā ʻaoʻao</translation>
     </message>
@@ -528,8 +536,8 @@
         <translation>Owau</translation>
     </message>
     <message>
-        <source>The sidebar was moved.</source>
-        <translation>Ua hoʻoneʻe ʻia ka pā ʻaoʻao.</translation>
+        <source>Height of the sidebar</source>
+        <translation>Kiʻekiʻe o ka pā ʻaoʻao</translation>
     </message>
     <message>
         <source>The sidebar is on the left.</source>
@@ -538,6 +546,18 @@
     <message>
         <source>The sidebar is on the right.</source>
         <translation>Aia ka pā ʻaoʻao ma ka ʻākau.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the top.</source>
+        <translation>Aia ka pā ʻaoʻao ma luna.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the bottom.</source>
+        <translation>Aia ka pā ʻaoʻao ma lalo.</translation>
+    </message>
+    <message>
+        <source>The sidebar was moved.</source>
+        <translation>Ua hoʻoneʻe ʻia ka pā ʻaoʻao.</translation>
     </message>
     <message>
         <source>The sidebar could not reach the server.</source>
@@ -586,6 +606,14 @@
     <message>
         <source>Dark</source>
         <translation>Pōʻeleʻele</translation>
+    </message>
+    <message>
+        <source>Thank you. You can go back to the page; this window closes by itself.</source>
+        <translation>Mahalo. Hiki iā ʻoe ke hoʻi i ka ʻaoʻao; e pani kēia puka aniani iā ia iho.</translation>
+    </message>
+    <message>
+        <source>Verify it's you</source>
+        <translation>E hōʻoia ʻo ʻoe nō kēia</translation>
     </message>
 </context>
 </TS>

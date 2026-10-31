@@ -80,20 +80,12 @@
         <translation>Dit is net de list mei siden hjir.</translation>
     </message>
     <message>
-        <source>The input is not JSON.</source>
-        <translation>De ynfier is gjin JSON.</translation>
-    </message>
-    <message>
         <source>This action changes something: send it with expwtWrite.</source>
         <translation>Dizze aksje feroaret wat: ferstjoer him mei expwtWrite.</translation>
     </message>
     <message>
-        <source>Verify it's you</source>
-        <translation>Befêstigje dat jo it binne</translation>
-    </message>
-    <message>
-        <source>Thank you. You can go back to the page; this window closes by itself.</source>
-        <translation>Tank. Jo kinne werom nei de side; dit finster slút fansels.</translation>
+        <source>The input is not JSON.</source>
+        <translation>De ynfier is gjin JSON.</translation>
     </message>
     <message>
         <source>Something went wrong.</source>
@@ -448,16 +440,28 @@
         <translation>De sidebalke</translation>
     </message>
     <message>
-        <source>Side</source>
-        <translation>Kant</translation>
+        <source>Anchored at</source>
+        <translation>Ferankere oan</translation>
+    </message>
+    <message>
+        <source>Left</source>
+        <translation>Lofts</translation>
     </message>
     <message>
         <source>Right</source>
         <translation>Rjochts</translation>
     </message>
     <message>
-        <source>Left</source>
-        <translation>Lofts</translation>
+        <source>Position</source>
+        <translation>Posysje</translation>
+    </message>
+    <message>
+        <source>Top</source>
+        <translation>Boppe</translation>
+    </message>
+    <message>
+        <source>Bottom</source>
+        <translation>Ûnder</translation>
     </message>
     <message>
         <source>When open</source>
@@ -496,6 +500,10 @@
         <translation>Pylktoetsen ferpleatse him, Enter iepenet him.</translation>
     </message>
     <message>
+        <source>Ctrl and an arrow key put it on another edge.</source>
+        <translation>Ctrl en in pylktoets sette him oan in oare râne.</translation>
+    </message>
+    <message>
         <source>Width of the sidebar</source>
         <translation>Breedte fan de sidebalke</translation>
     </message>
@@ -528,8 +536,8 @@
         <translation>Ik</translation>
     </message>
     <message>
-        <source>The sidebar was moved.</source>
-        <translation>De sidebalke is ferpleatst.</translation>
+        <source>Height of the sidebar</source>
+        <translation>Hichte fan de sidebalke</translation>
     </message>
     <message>
         <source>The sidebar is on the left.</source>
@@ -538,6 +546,18 @@
     <message>
         <source>The sidebar is on the right.</source>
         <translation>De sidebalke stiet rjochts.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the top.</source>
+        <translation>De sidebalke stiet boppe.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the bottom.</source>
+        <translation>De sidebalke stiet ûnder.</translation>
+    </message>
+    <message>
+        <source>The sidebar was moved.</source>
+        <translation>De sidebalke is ferpleatst.</translation>
     </message>
     <message>
         <source>The sidebar could not reach the server.</source>
@@ -586,6 +606,14 @@
     <message>
         <source>Dark</source>
         <translation>Tsjuster</translation>
+    </message>
+    <message>
+        <source>Thank you. You can go back to the page; this window closes by itself.</source>
+        <translation>Tank. Jo kinne werom nei de side; dit finster slút fansels.</translation>
+    </message>
+    <message>
+        <source>Verify it's you</source>
+        <translation>Befêstigje dat jo it binne</translation>
     </message>
 </context>
 </TS>

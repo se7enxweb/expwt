@@ -80,20 +80,12 @@
         <translation>Бу мондагы битләр исемлеге түгел.</translation>
     </message>
     <message>
-        <source>The input is not JSON.</source>
-        <translation>Кертелгән мәгълүмат JSON түгел.</translation>
-    </message>
-    <message>
         <source>This action changes something: send it with expwtWrite.</source>
         <translation>Бу гамәл нәрсәдер үзгәртә: аны expwtWrite белән җибәрегез.</translation>
     </message>
     <message>
-        <source>Verify it's you</source>
-        <translation>Бу сез икәнен раслагыз</translation>
-    </message>
-    <message>
-        <source>Thank you. You can go back to the page; this window closes by itself.</source>
-        <translation>Рәхмәт. Биткә кайта аласыз; бу тәрәзә үзе ябыла.</translation>
+        <source>The input is not JSON.</source>
+        <translation>Кертелгән мәгълүмат JSON түгел.</translation>
     </message>
     <message>
         <source>Something went wrong.</source>
@@ -448,16 +440,28 @@
         <translation>Ян панель</translation>
     </message>
     <message>
-        <source>Side</source>
-        <translation>Як</translation>
+        <source>Anchored at</source>
+        <translation>Беркетелгән</translation>
+    </message>
+    <message>
+        <source>Left</source>
+        <translation>Сулда</translation>
     </message>
     <message>
         <source>Right</source>
         <translation>Уңда</translation>
     </message>
     <message>
-        <source>Left</source>
-        <translation>Сулда</translation>
+        <source>Position</source>
+        <translation>Урын</translation>
+    </message>
+    <message>
+        <source>Top</source>
+        <translation>Өстә</translation>
+    </message>
+    <message>
+        <source>Bottom</source>
+        <translation>Аста</translation>
     </message>
     <message>
         <source>When open</source>
@@ -496,6 +500,10 @@
         <translation>Ук төймәләре аны күчерә, Enter ача.</translation>
     </message>
     <message>
+        <source>Ctrl and an arrow key put it on another edge.</source>
+        <translation>Ctrl һәм ук төймәсе аны башка читкә күчерә.</translation>
+    </message>
+    <message>
         <source>Width of the sidebar</source>
         <translation>Ян панель киңлеге</translation>
     </message>
@@ -528,8 +536,8 @@
         <translation>Мин</translation>
     </message>
     <message>
-        <source>The sidebar was moved.</source>
-        <translation>Ян панель күчерелде.</translation>
+        <source>Height of the sidebar</source>
+        <translation>Ян панель биеклеге</translation>
     </message>
     <message>
         <source>The sidebar is on the left.</source>
@@ -538,6 +546,18 @@
     <message>
         <source>The sidebar is on the right.</source>
         <translation>Ян панель уңда.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the top.</source>
+        <translation>Ян панель өстә.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the bottom.</source>
+        <translation>Ян панель аста.</translation>
+    </message>
+    <message>
+        <source>The sidebar was moved.</source>
+        <translation>Ян панель күчерелде.</translation>
     </message>
     <message>
         <source>The sidebar could not reach the server.</source>
@@ -586,6 +606,14 @@
     <message>
         <source>Dark</source>
         <translation>Караңгы</translation>
+    </message>
+    <message>
+        <source>Thank you. You can go back to the page; this window closes by itself.</source>
+        <translation>Рәхмәт. Биткә кайта аласыз; бу тәрәзә үзе ябыла.</translation>
+    </message>
+    <message>
+        <source>Verify it's you</source>
+        <translation>Бу сез икәнен раслагыз</translation>
     </message>
 </context>
 </TS>

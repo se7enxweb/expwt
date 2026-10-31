@@ -110,13 +110,37 @@ class expwtPureTest extends PHPUnit\Framework\TestCase
     public function testStateKeepsOnlyValidValues()
     {
         $s = self::settings();
-        $state = expwtState::normalize( array( 'side' => 'left', 'offset' => '120', 'width' => 99999, 'open' => 'true', 'mode' => 'overlay',
-                                               'theme' => 'dark', 'panel' => 'me', 'evil' => '<script>' ), $s );
-        $this->assertSame( array( 'side' => 'left', 'offset' => 120, 'width' => 720, 'open' => true, 'mode' => 'overlay',
-                                  'theme' => 'dark', 'panel' => 'me' ), $state );
+        $state = expwtState::normalize( array( 'edge' => 'top', 'align' => 'start', 'offset' => '120', 'width' => 99999, 'height' => 5,
+                                               'open' => 'true', 'mode' => 'overlay', 'theme' => 'dark', 'panel' => 'me', 'evil' => '<script>' ), $s );
+        $this->assertSame( array( 'edge' => 'top', 'align' => 'start', 'offset' => 120, 'width' => 720, 'height' => 160, 'open' => true,
+                                  'mode' => 'overlay', 'theme' => 'dark', 'panel' => 'me' ), $state );
+        $bad = expwtState::normalize( array( 'edge' => 'middle', 'align' => 'center', 'height' => 99999 ), $s );
+        $this->assertSame( array( 'right', 'end', 640 ), array( $bad['edge'], $bad['align'], $bad['height'] ) );
         $this->assertSame( expwtState::defaults( $s ), expwtState::normalize( 'nonsense', $s ) );
         $this->assertSame( expwtState::defaults( $s ), expwtState::decode( '{broken', $s ) );
         $this->assertFalse( expwtState::defaults( $s )['open'], 'decision 4: closed on the first visit' );
+    }
+
+    public function testStateFromBeforeTheTopAndBottomEdgesIsMigratedOnRead()
+    {
+        $s = self::settings();
+        $old = expwtState::decode( '{"side":"left","offset":40,"width":400,"open":true}', $s );
+        $this->assertSame( 'left', $old['edge'], 'F17: side becomes edge' );
+        $this->assertArrayNotHasKey( 'side', $old, 'the next save writes edge only' );
+        $this->assertSame( array( 40, 400, true ), array( $old['offset'], $old['width'], $old['open'] ) );
+        $this->assertSame( 'bottom', expwtState::normalize( array( 'edge' => 'bottom', 'side' => 'left' ), $s )['edge'], 'edge wins over side' );
+    }
+
+    public function testDefaultEdgeFallsBackToTheOldDefaultSide()
+    {
+        $this->assertSame( 'right', self::settings()['default_edge'] );
+        $this->assertSame( 'left', self::settings( array( 'default_side' => 'left' ) )['default_edge'], 'an override with DefaultSide only' );
+        $this->assertSame( 'top', self::settings( array( 'default_side' => 'left', 'default_edge' => 'top' ) )['default_edge'] );
+        $this->assertSame( 'left', self::settings( array( 'default_side' => 'left', 'default_edge' => 'diagonal' ) )['default_edge'] );
+        $s = self::settings( array( 'default_edge' => 'bottom', 'default_align' => 'start', 'min_height' => 10, 'max_height' => 5, 'default_height' => 900 ) );
+        $first = expwtState::defaults( $s );
+        $this->assertSame( array( 'bottom', 'start', 120, 120 ), array( $first['edge'], $first['align'], $s['min_height'], $first['height'] ) );
+        $this->assertSame( 'end', self::settings( array( 'default_align' => 'middle' ) )['default_align'] );
     }
 
     public function testThemeFollowsTheSidebarThenTheAdministration()

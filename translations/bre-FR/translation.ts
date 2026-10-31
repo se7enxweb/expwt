@@ -80,20 +80,12 @@
         <translation>N'eo ket se roll ar pajennoù amañ.</translation>
     </message>
     <message>
-        <source>The input is not JSON.</source>
-        <translation>N'eo ket JSON ar roadennoù.</translation>
-    </message>
-    <message>
         <source>This action changes something: send it with expwtWrite.</source>
         <translation>An ober-mañ a gemm un dra bennak: kasit anezhañ gant expwtWrite.</translation>
     </message>
     <message>
-        <source>Verify it's you</source>
-        <translation>Gwiriit ez eo c'hwi</translation>
-    </message>
-    <message>
-        <source>Thank you. You can go back to the page; this window closes by itself.</source>
-        <translation>Trugarez. Gallout a rit distreiñ d'ar bajenn; en em serriñ a ray ar prenestr-mañ e-unan.</translation>
+        <source>The input is not JSON.</source>
+        <translation>N'eo ket JSON ar roadennoù.</translation>
     </message>
     <message>
         <source>Something went wrong.</source>
@@ -448,16 +440,28 @@
         <translation>Ar varrenn-gostez</translation>
     </message>
     <message>
-        <source>Side</source>
-        <translation>Tu</translation>
+        <source>Anchored at</source>
+        <translation>Ereet ouzh</translation>
+    </message>
+    <message>
+        <source>Left</source>
+        <translation>Kleiz</translation>
     </message>
     <message>
         <source>Right</source>
         <translation>Dehou</translation>
     </message>
     <message>
-        <source>Left</source>
-        <translation>Kleiz</translation>
+        <source>Position</source>
+        <translation>Lec'hiadur</translation>
+    </message>
+    <message>
+        <source>Top</source>
+        <translation>Krec'h</translation>
+    </message>
+    <message>
+        <source>Bottom</source>
+        <translation>Traoñ</translation>
     </message>
     <message>
         <source>When open</source>
@@ -496,6 +500,10 @@
         <translation>Ar biñsoù bir a zilec'h anezhi, Enter a zigor anezhi.</translation>
     </message>
     <message>
+        <source>Ctrl and an arrow key put it on another edge.</source>
+        <translation>Ctrl hag ur bir a zilec'h anezhi d'ur bord all.</translation>
+    </message>
+    <message>
         <source>Width of the sidebar</source>
         <translation>Ledander ar varrenn-gostez</translation>
     </message>
@@ -528,8 +536,8 @@
         <translation>Me</translation>
     </message>
     <message>
-        <source>The sidebar was moved.</source>
-        <translation>Dilec'hiet eo bet ar varrenn-gostez.</translation>
+        <source>Height of the sidebar</source>
+        <translation>Uhelder ar varrenn-gostez</translation>
     </message>
     <message>
         <source>The sidebar is on the left.</source>
@@ -538,6 +546,18 @@
     <message>
         <source>The sidebar is on the right.</source>
         <translation>Emañ ar varrenn-gostez a-zehou.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the top.</source>
+        <translation>Emañ ar varrenn-gostez e krec'h.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the bottom.</source>
+        <translation>Emañ ar varrenn-gostez e traoñ.</translation>
+    </message>
+    <message>
+        <source>The sidebar was moved.</source>
+        <translation>Dilec'hiet eo bet ar varrenn-gostez.</translation>
     </message>
     <message>
         <source>The sidebar could not reach the server.</source>
@@ -586,6 +606,14 @@
     <message>
         <source>Dark</source>
         <translation>Teñval</translation>
+    </message>
+    <message>
+        <source>Thank you. You can go back to the page; this window closes by itself.</source>
+        <translation>Trugarez. Gallout a rit distreiñ d'ar bajenn; en em serriñ a ray ar prenestr-mañ e-unan.</translation>
+    </message>
+    <message>
+        <source>Verify it's you</source>
+        <translation>Gwiriit ez eo c'hwi</translation>
     </message>
 </context>
 </TS>

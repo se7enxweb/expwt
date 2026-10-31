@@ -80,20 +80,12 @@
         <translation>Tas nav šeit esošo lapu saraksts.</translation>
     </message>
     <message>
-        <source>The input is not JSON.</source>
-        <translation>Ievade nav JSON.</translation>
-    </message>
-    <message>
         <source>This action changes something: send it with expwtWrite.</source>
         <translation>Šī darbība kaut ko maina: sūtiet to ar expwtWrite.</translation>
     </message>
     <message>
-        <source>Verify it's you</source>
-        <translation>Apstipriniet, ka tas esat jūs</translation>
-    </message>
-    <message>
-        <source>Thank you. You can go back to the page; this window closes by itself.</source>
-        <translation>Paldies. Varat atgriezties lapā; šis logs aizvērsies pats.</translation>
+        <source>The input is not JSON.</source>
+        <translation>Ievade nav JSON.</translation>
     </message>
     <message>
         <source>Something went wrong.</source>
@@ -448,16 +440,28 @@
         <translation>Sānjosla</translation>
     </message>
     <message>
-        <source>Side</source>
-        <translation>Puse</translation>
+        <source>Anchored at</source>
+        <translation>Piesaistīts</translation>
+    </message>
+    <message>
+        <source>Left</source>
+        <translation>Pa kreisi</translation>
     </message>
     <message>
         <source>Right</source>
         <translation>Pa labi</translation>
     </message>
     <message>
-        <source>Left</source>
-        <translation>Pa kreisi</translation>
+        <source>Position</source>
+        <translation>Novietojums</translation>
+    </message>
+    <message>
+        <source>Top</source>
+        <translation>Augšā</translation>
+    </message>
+    <message>
+        <source>Bottom</source>
+        <translation>Apakšā</translation>
     </message>
     <message>
         <source>When open</source>
@@ -496,6 +500,10 @@
         <translation>Bulttaustiņi to pārvieto, Enter to atver.</translation>
     </message>
     <message>
+        <source>Ctrl and an arrow key put it on another edge.</source>
+        <translation>Ctrl un bulttaustiņš to pārvieto uz citu malu.</translation>
+    </message>
+    <message>
         <source>Width of the sidebar</source>
         <translation>Sānjoslas platums</translation>
     </message>
@@ -528,8 +536,8 @@
         <translation>Es</translation>
     </message>
     <message>
-        <source>The sidebar was moved.</source>
-        <translation>Sānjosla tika pārvietota.</translation>
+        <source>Height of the sidebar</source>
+        <translation>Sānjoslas augstums</translation>
     </message>
     <message>
         <source>The sidebar is on the left.</source>
@@ -538,6 +546,18 @@
     <message>
         <source>The sidebar is on the right.</source>
         <translation>Sānjosla ir labajā pusē.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the top.</source>
+        <translation>Sānjosla ir augšā.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the bottom.</source>
+        <translation>Sānjosla ir apakšā.</translation>
+    </message>
+    <message>
+        <source>The sidebar was moved.</source>
+        <translation>Sānjosla tika pārvietota.</translation>
     </message>
     <message>
         <source>The sidebar could not reach the server.</source>
@@ -586,6 +606,14 @@
     <message>
         <source>Dark</source>
         <translation>Tumšs</translation>
+    </message>
+    <message>
+        <source>Thank you. You can go back to the page; this window closes by itself.</source>
+        <translation>Paldies. Varat atgriezties lapā; šis logs aizvērsies pats.</translation>
+    </message>
+    <message>
+        <source>Verify it's you</source>
+        <translation>Apstipriniet, ka tas esat jūs</translation>
     </message>
 </context>
 </TS>

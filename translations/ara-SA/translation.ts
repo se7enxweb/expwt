@@ -80,20 +80,12 @@
         <translation>هذه ليست قائمة الصفحات هنا.</translation>
     </message>
     <message>
-        <source>The input is not JSON.</source>
-        <translation>المدخلات ليست JSON.</translation>
-    </message>
-    <message>
         <source>This action changes something: send it with expwtWrite.</source>
         <translation>هذا الإجراء يغيّر شيئًا: أرسله باستخدام expwtWrite.</translation>
     </message>
     <message>
-        <source>Verify it's you</source>
-        <translation>تحقق من هويتك</translation>
-    </message>
-    <message>
-        <source>Thank you. You can go back to the page; this window closes by itself.</source>
-        <translation>شكرًا لك. يمكنك العودة إلى الصفحة؛ ستُغلق هذه النافذة تلقائيًا.</translation>
+        <source>The input is not JSON.</source>
+        <translation>المدخلات ليست JSON.</translation>
     </message>
     <message>
         <source>Something went wrong.</source>
@@ -448,16 +440,28 @@
         <translation>الشريط الجانبي</translation>
     </message>
     <message>
-        <source>Side</source>
-        <translation>الجانب</translation>
+        <source>Anchored at</source>
+        <translation>مثبّت عند</translation>
+    </message>
+    <message>
+        <source>Left</source>
+        <translation>يسار</translation>
     </message>
     <message>
         <source>Right</source>
         <translation>يمين</translation>
     </message>
     <message>
-        <source>Left</source>
-        <translation>يسار</translation>
+        <source>Position</source>
+        <translation>الموضع</translation>
+    </message>
+    <message>
+        <source>Top</source>
+        <translation>أعلى</translation>
+    </message>
+    <message>
+        <source>Bottom</source>
+        <translation>أسفل</translation>
     </message>
     <message>
         <source>When open</source>
@@ -496,6 +500,10 @@
         <translation>مفاتيح الأسهم تحركه، وEnter يفتحه.</translation>
     </message>
     <message>
+        <source>Ctrl and an arrow key put it on another edge.</source>
+        <translation>Ctrl مع مفتاح سهم ينقله إلى حافة أخرى.</translation>
+    </message>
+    <message>
         <source>Width of the sidebar</source>
         <translation>عرض الشريط الجانبي</translation>
     </message>
@@ -528,8 +536,8 @@
         <translation>أنا</translation>
     </message>
     <message>
-        <source>The sidebar was moved.</source>
-        <translation>تم نقل الشريط الجانبي.</translation>
+        <source>Height of the sidebar</source>
+        <translation>ارتفاع الشريط الجانبي</translation>
     </message>
     <message>
         <source>The sidebar is on the left.</source>
@@ -538,6 +546,18 @@
     <message>
         <source>The sidebar is on the right.</source>
         <translation>الشريط الجانبي على اليمين.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the top.</source>
+        <translation>الشريط الجانبي في الأعلى.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the bottom.</source>
+        <translation>الشريط الجانبي في الأسفل.</translation>
+    </message>
+    <message>
+        <source>The sidebar was moved.</source>
+        <translation>تم نقل الشريط الجانبي.</translation>
     </message>
     <message>
         <source>The sidebar could not reach the server.</source>
@@ -586,6 +606,14 @@
     <message>
         <source>Dark</source>
         <translation>داكن</translation>
+    </message>
+    <message>
+        <source>Thank you. You can go back to the page; this window closes by itself.</source>
+        <translation>شكرًا لك. يمكنك العودة إلى الصفحة؛ ستُغلق هذه النافذة تلقائيًا.</translation>
+    </message>
+    <message>
+        <source>Verify it's you</source>
+        <translation>تحقق من هويتك</translation>
     </message>
 </context>
 </TS>

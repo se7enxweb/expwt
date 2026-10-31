@@ -80,20 +80,12 @@
         <translation>Aquesta no és la llista de pàgines d'aquí.</translation>
     </message>
     <message>
-        <source>The input is not JSON.</source>
-        <translation>L'entrada no és JSON.</translation>
-    </message>
-    <message>
         <source>This action changes something: send it with expwtWrite.</source>
         <translation>Aquesta acció canvia alguna cosa: envia-la amb expwtWrite.</translation>
     </message>
     <message>
-        <source>Verify it's you</source>
-        <translation>Verifica que ets tu</translation>
-    </message>
-    <message>
-        <source>Thank you. You can go back to the page; this window closes by itself.</source>
-        <translation>Gràcies. Pots tornar a la pàgina; aquesta finestra es tanca sola.</translation>
+        <source>The input is not JSON.</source>
+        <translation>L'entrada no és JSON.</translation>
     </message>
     <message>
         <source>Something went wrong.</source>
@@ -448,16 +440,28 @@
         <translation>La barra lateral</translation>
     </message>
     <message>
-        <source>Side</source>
-        <translation>Costat</translation>
+        <source>Anchored at</source>
+        <translation>Ancorada a</translation>
+    </message>
+    <message>
+        <source>Left</source>
+        <translation>Esquerra</translation>
     </message>
     <message>
         <source>Right</source>
         <translation>Dreta</translation>
     </message>
     <message>
-        <source>Left</source>
-        <translation>Esquerra</translation>
+        <source>Position</source>
+        <translation>Posició</translation>
+    </message>
+    <message>
+        <source>Top</source>
+        <translation>Dalt</translation>
+    </message>
+    <message>
+        <source>Bottom</source>
+        <translation>Baix</translation>
     </message>
     <message>
         <source>When open</source>
@@ -496,6 +500,10 @@
         <translation>Les tecles de fletxa la mouen, Retorn l'obre.</translation>
     </message>
     <message>
+        <source>Ctrl and an arrow key put it on another edge.</source>
+        <translation>Ctrl i una tecla de fletxa la porten a una altra vora.</translation>
+    </message>
+    <message>
         <source>Width of the sidebar</source>
         <translation>Amplada de la barra lateral</translation>
     </message>
@@ -528,8 +536,8 @@
         <translation>Jo</translation>
     </message>
     <message>
-        <source>The sidebar was moved.</source>
-        <translation>S'ha mogut la barra lateral.</translation>
+        <source>Height of the sidebar</source>
+        <translation>Alçada de la barra lateral</translation>
     </message>
     <message>
         <source>The sidebar is on the left.</source>
@@ -538,6 +546,18 @@
     <message>
         <source>The sidebar is on the right.</source>
         <translation>La barra lateral és a la dreta.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the top.</source>
+        <translation>La barra lateral és a dalt.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the bottom.</source>
+        <translation>La barra lateral és a baix.</translation>
+    </message>
+    <message>
+        <source>The sidebar was moved.</source>
+        <translation>S'ha mogut la barra lateral.</translation>
     </message>
     <message>
         <source>The sidebar could not reach the server.</source>
@@ -586,6 +606,14 @@
     <message>
         <source>Dark</source>
         <translation>Fosc</translation>
+    </message>
+    <message>
+        <source>Thank you. You can go back to the page; this window closes by itself.</source>
+        <translation>Gràcies. Pots tornar a la pàgina; aquesta finestra es tanca sola.</translation>
+    </message>
+    <message>
+        <source>Verify it's you</source>
+        <translation>Verifica que ets tu</translation>
     </message>
 </context>
 </TS>

@@ -80,20 +80,12 @@
         <translation>Eyi nyɛ krataafa a ɛwɔ ha no din krataa.</translation>
     </message>
     <message>
-        <source>The input is not JSON.</source>
-        <translation>Nea wode bae no nyɛ JSON.</translation>
-    </message>
-    <message>
         <source>This action changes something: send it with expwtWrite.</source>
         <translation>Adeyɛ yi sesa biribi: fa expwtWrite to so.</translation>
     </message>
     <message>
-        <source>Verify it's you</source>
-        <translation>Si so dua sɛ wo ne no</translation>
-    </message>
-    <message>
-        <source>Thank you. You can go back to the page; this window closes by itself.</source>
-        <translation>Meda wo ase. Wobɛtumi asan akɔ krataafa no so; mfɛnsere yi bɛto ne ho.</translation>
+        <source>The input is not JSON.</source>
+        <translation>Nea wode bae no nyɛ JSON.</translation>
     </message>
     <message>
         <source>Something went wrong.</source>
@@ -448,16 +440,28 @@
         <translation>Sidebar no</translation>
     </message>
     <message>
-        <source>Side</source>
-        <translation>Afa</translation>
+        <source>Anchored at</source>
+        <translation>Atim wɔ</translation>
+    </message>
+    <message>
+        <source>Left</source>
+        <translation>Benkum</translation>
     </message>
     <message>
         <source>Right</source>
         <translation>Nifa</translation>
     </message>
     <message>
-        <source>Left</source>
-        <translation>Benkum</translation>
+        <source>Position</source>
+        <translation>Baabi</translation>
+    </message>
+    <message>
+        <source>Top</source>
+        <translation>Soro</translation>
+    </message>
+    <message>
+        <source>Bottom</source>
+        <translation>Ase</translation>
     </message>
     <message>
         <source>When open</source>
@@ -496,6 +500,10 @@
         <translation>Arrow keys tu no, Enter bue no.</translation>
     </message>
     <message>
+        <source>Ctrl and an arrow key put it on another edge.</source>
+        <translation>Ctrl ne arrow key de no kɔ ano foforo so.</translation>
+    </message>
+    <message>
         <source>Width of the sidebar</source>
         <translation>Sidebar no tɛtrɛtɛ</translation>
     </message>
@@ -528,8 +536,8 @@
         <translation>Me</translation>
     </message>
     <message>
-        <source>The sidebar was moved.</source>
-        <translation>Wɔatu sidebar no.</translation>
+        <source>Height of the sidebar</source>
+        <translation>Sidebar no tenten</translation>
     </message>
     <message>
         <source>The sidebar is on the left.</source>
@@ -538,6 +546,18 @@
     <message>
         <source>The sidebar is on the right.</source>
         <translation>Sidebar no wɔ nifa.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the top.</source>
+        <translation>Sidebar no wɔ soro.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the bottom.</source>
+        <translation>Sidebar no wɔ ase.</translation>
+    </message>
+    <message>
+        <source>The sidebar was moved.</source>
+        <translation>Wɔatu sidebar no.</translation>
     </message>
     <message>
         <source>The sidebar could not reach the server.</source>
@@ -586,6 +606,14 @@
     <message>
         <source>Dark</source>
         <translation>Sum</translation>
+    </message>
+    <message>
+        <source>Thank you. You can go back to the page; this window closes by itself.</source>
+        <translation>Meda wo ase. Wobɛtumi asan akɔ krataafa no so; mfɛnsere yi bɛto ne ho.</translation>
+    </message>
+    <message>
+        <source>Verify it's you</source>
+        <translation>Si so dua sɛ wo ne no</translation>
     </message>
 </context>
 </TS>

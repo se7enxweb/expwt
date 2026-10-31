@@ -80,20 +80,12 @@
         <translation>Это не список страниц этого раздела.</translation>
     </message>
     <message>
-        <source>The input is not JSON.</source>
-        <translation>Входные данные не в формате JSON.</translation>
-    </message>
-    <message>
         <source>This action changes something: send it with expwtWrite.</source>
         <translation>Это действие что-то изменяет: отправьте его через expwtWrite.</translation>
     </message>
     <message>
-        <source>Verify it's you</source>
-        <translation>Подтвердите, что это вы</translation>
-    </message>
-    <message>
-        <source>Thank you. You can go back to the page; this window closes by itself.</source>
-        <translation>Спасибо. Можно вернуться на страницу; это окно закроется само.</translation>
+        <source>The input is not JSON.</source>
+        <translation>Входные данные не в формате JSON.</translation>
     </message>
     <message>
         <source>Something went wrong.</source>
@@ -448,16 +440,28 @@
         <translation>Боковая панель</translation>
     </message>
     <message>
-        <source>Side</source>
-        <translation>Сторона</translation>
+        <source>Anchored at</source>
+        <translation>Привязка</translation>
+    </message>
+    <message>
+        <source>Left</source>
+        <translation>Слева</translation>
     </message>
     <message>
         <source>Right</source>
         <translation>Справа</translation>
     </message>
     <message>
-        <source>Left</source>
-        <translation>Слева</translation>
+        <source>Position</source>
+        <translation>Расположение</translation>
+    </message>
+    <message>
+        <source>Top</source>
+        <translation>Сверху</translation>
+    </message>
+    <message>
+        <source>Bottom</source>
+        <translation>Снизу</translation>
     </message>
     <message>
         <source>When open</source>
@@ -496,6 +500,10 @@
         <translation>Стрелки перемещают, Enter открывает.</translation>
     </message>
     <message>
+        <source>Ctrl and an arrow key put it on another edge.</source>
+        <translation>Ctrl и стрелка переносят её к другому краю.</translation>
+    </message>
+    <message>
         <source>Width of the sidebar</source>
         <translation>Ширина боковой панели</translation>
     </message>
@@ -528,8 +536,8 @@
         <translation>Я</translation>
     </message>
     <message>
-        <source>The sidebar was moved.</source>
-        <translation>Боковая панель перемещена.</translation>
+        <source>Height of the sidebar</source>
+        <translation>Высота боковой панели</translation>
     </message>
     <message>
         <source>The sidebar is on the left.</source>
@@ -538,6 +546,18 @@
     <message>
         <source>The sidebar is on the right.</source>
         <translation>Боковая панель справа.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the top.</source>
+        <translation>Боковая панель сверху.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the bottom.</source>
+        <translation>Боковая панель снизу.</translation>
+    </message>
+    <message>
+        <source>The sidebar was moved.</source>
+        <translation>Боковая панель перемещена.</translation>
     </message>
     <message>
         <source>The sidebar could not reach the server.</source>
@@ -586,6 +606,14 @@
     <message>
         <source>Dark</source>
         <translation>Тёмная</translation>
+    </message>
+    <message>
+        <source>Thank you. You can go back to the page; this window closes by itself.</source>
+        <translation>Спасибо. Можно вернуться на страницу; это окно закроется само.</translation>
+    </message>
+    <message>
+        <source>Verify it's you</source>
+        <translation>Подтвердите, что это вы</translation>
     </message>
 </context>
 </TS>

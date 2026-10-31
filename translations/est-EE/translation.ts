@@ -80,20 +80,12 @@
         <translation>See ei ole siinsete lehtede loend.</translation>
     </message>
     <message>
-        <source>The input is not JSON.</source>
-        <translation>Sisend ei ole JSON.</translation>
-    </message>
-    <message>
         <source>This action changes something: send it with expwtWrite.</source>
         <translation>See toiming muudab midagi: saatke see expwtWrite abil.</translation>
     </message>
     <message>
-        <source>Verify it's you</source>
-        <translation>Kinnitage, et see olete teie</translation>
-    </message>
-    <message>
-        <source>Thank you. You can go back to the page; this window closes by itself.</source>
-        <translation>Aitäh. Võite lehele tagasi minna; see aken sulgub ise.</translation>
+        <source>The input is not JSON.</source>
+        <translation>Sisend ei ole JSON.</translation>
     </message>
     <message>
         <source>Something went wrong.</source>
@@ -448,16 +440,28 @@
         <translation>Külgriba</translation>
     </message>
     <message>
-        <source>Side</source>
-        <translation>Pool</translation>
+        <source>Anchored at</source>
+        <translation>Ankurdatud</translation>
+    </message>
+    <message>
+        <source>Left</source>
+        <translation>Vasakul</translation>
     </message>
     <message>
         <source>Right</source>
         <translation>Paremal</translation>
     </message>
     <message>
-        <source>Left</source>
-        <translation>Vasakul</translation>
+        <source>Position</source>
+        <translation>Asukoht</translation>
+    </message>
+    <message>
+        <source>Top</source>
+        <translation>Üleval</translation>
+    </message>
+    <message>
+        <source>Bottom</source>
+        <translation>All</translation>
     </message>
     <message>
         <source>When open</source>
@@ -496,6 +500,10 @@
         <translation>Nooleklahvid liigutavad, Enter avab.</translation>
     </message>
     <message>
+        <source>Ctrl and an arrow key put it on another edge.</source>
+        <translation>Ctrl ja nooleklahv viivad selle teise serva.</translation>
+    </message>
+    <message>
         <source>Width of the sidebar</source>
         <translation>Külgriba laius</translation>
     </message>
@@ -528,8 +536,8 @@
         <translation>Mina</translation>
     </message>
     <message>
-        <source>The sidebar was moved.</source>
-        <translation>Külgriba teisaldati.</translation>
+        <source>Height of the sidebar</source>
+        <translation>Külgriba kõrgus</translation>
     </message>
     <message>
         <source>The sidebar is on the left.</source>
@@ -538,6 +546,18 @@
     <message>
         <source>The sidebar is on the right.</source>
         <translation>Külgriba on paremal.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the top.</source>
+        <translation>Külgriba on üleval.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the bottom.</source>
+        <translation>Külgriba on all.</translation>
+    </message>
+    <message>
+        <source>The sidebar was moved.</source>
+        <translation>Külgriba teisaldati.</translation>
     </message>
     <message>
         <source>The sidebar could not reach the server.</source>
@@ -586,6 +606,14 @@
     <message>
         <source>Dark</source>
         <translation>Tume</translation>
+    </message>
+    <message>
+        <source>Thank you. You can go back to the page; this window closes by itself.</source>
+        <translation>Aitäh. Võite lehele tagasi minna; see aken sulgub ise.</translation>
+    </message>
+    <message>
+        <source>Verify it's you</source>
+        <translation>Kinnitage, et see olete teie</translation>
     </message>
 </context>
 </TS>

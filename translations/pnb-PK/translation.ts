@@ -80,20 +80,12 @@
         <translation>ایہہ ایتھوں دے صفحیاں دی لسٹ نہیں۔</translation>
     </message>
     <message>
-        <source>The input is not JSON.</source>
-        <translation>ان پٹ JSON نہیں اے۔</translation>
-    </message>
-    <message>
         <source>This action changes something: send it with expwtWrite.</source>
         <translation>ایہہ کارروائی کجھ بدلدی اے: ایہنوں expwtWrite نال گھلو۔</translation>
     </message>
     <message>
-        <source>Verify it's you</source>
-        <translation>تصدیق کرو کہ ایہہ تسی او</translation>
-    </message>
-    <message>
-        <source>Thank you. You can go back to the page; this window closes by itself.</source>
-        <translation>شکریہ۔ تسی صفحے تے واپس جا سکدے او؛ ایہہ ونڈو آپے بند ہو جاوے گی۔</translation>
+        <source>The input is not JSON.</source>
+        <translation>ان پٹ JSON نہیں اے۔</translation>
     </message>
     <message>
         <source>Something went wrong.</source>
@@ -448,16 +440,28 @@
         <translation>سائیڈ بار</translation>
     </message>
     <message>
-        <source>Side</source>
-        <translation>پاسا</translation>
+        <source>Anchored at</source>
+        <translation>جُڑیا پاسا</translation>
+    </message>
+    <message>
+        <source>Left</source>
+        <translation>کھبے</translation>
     </message>
     <message>
         <source>Right</source>
         <translation>سجے</translation>
     </message>
     <message>
-        <source>Left</source>
-        <translation>کھبے</translation>
+        <source>Position</source>
+        <translation>تھاں</translation>
+    </message>
+    <message>
+        <source>Top</source>
+        <translation>اُتے</translation>
+    </message>
+    <message>
+        <source>Bottom</source>
+        <translation>تھلے</translation>
     </message>
     <message>
         <source>When open</source>
@@ -496,6 +500,10 @@
         <translation>تیر کنجیاں ایہنوں ہلاندیاں نیں، Enter ایہنوں کھولدا اے۔</translation>
     </message>
     <message>
+        <source>Ctrl and an arrow key put it on another edge.</source>
+        <translation>Ctrl تے تیر کنجی ایہنوں دوجے کنارے تے لے جاندیاں نیں۔</translation>
+    </message>
+    <message>
         <source>Width of the sidebar</source>
         <translation>سائیڈ بار دی چوڑائی</translation>
     </message>
@@ -528,8 +536,8 @@
         <translation>میں</translation>
     </message>
     <message>
-        <source>The sidebar was moved.</source>
-        <translation>سائیڈ بار ہلا دتی گئی۔</translation>
+        <source>Height of the sidebar</source>
+        <translation>سائیڈ بار دی اُچائی</translation>
     </message>
     <message>
         <source>The sidebar is on the left.</source>
@@ -538,6 +546,18 @@
     <message>
         <source>The sidebar is on the right.</source>
         <translation>سائیڈ بار سجے پاسے اے۔</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the top.</source>
+        <translation>سائیڈ بار اُتے اے۔</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the bottom.</source>
+        <translation>سائیڈ بار تھلے اے۔</translation>
+    </message>
+    <message>
+        <source>The sidebar was moved.</source>
+        <translation>سائیڈ بار ہلا دتی گئی۔</translation>
     </message>
     <message>
         <source>The sidebar could not reach the server.</source>
@@ -586,6 +606,14 @@
     <message>
         <source>Dark</source>
         <translation>ہنیرا</translation>
+    </message>
+    <message>
+        <source>Thank you. You can go back to the page; this window closes by itself.</source>
+        <translation>شکریہ۔ تسی صفحے تے واپس جا سکدے او؛ ایہہ ونڈو آپے بند ہو جاوے گی۔</translation>
+    </message>
+    <message>
+        <source>Verify it's you</source>
+        <translation>تصدیق کرو کہ ایہہ تسی او</translation>
     </message>
 </context>
 </TS>

@@ -80,20 +80,12 @@
         <translation>ही येथील पानांची यादी नाही.</translation>
     </message>
     <message>
-        <source>The input is not JSON.</source>
-        <translation>इनपुट JSON नाही.</translation>
-    </message>
-    <message>
         <source>This action changes something: send it with expwtWrite.</source>
         <translation>ही क्रिया काहीतरी बदलते: ती expwtWrite सह पाठवा.</translation>
     </message>
     <message>
-        <source>Verify it's you</source>
-        <translation>हे तुम्हीच आहात याची पडताळणी करा</translation>
-    </message>
-    <message>
-        <source>Thank you. You can go back to the page; this window closes by itself.</source>
-        <translation>धन्यवाद. तुम्ही पानावर परत जाऊ शकता; ही विंडो आपोआप बंद होईल.</translation>
+        <source>The input is not JSON.</source>
+        <translation>इनपुट JSON नाही.</translation>
     </message>
     <message>
         <source>Something went wrong.</source>
@@ -448,16 +440,28 @@
         <translation>साइडबार</translation>
     </message>
     <message>
-        <source>Side</source>
-        <translation>बाजू</translation>
+        <source>Anchored at</source>
+        <translation>जोडलेली बाजू</translation>
+    </message>
+    <message>
+        <source>Left</source>
+        <translation>डावी</translation>
     </message>
     <message>
         <source>Right</source>
         <translation>उजवी</translation>
     </message>
     <message>
-        <source>Left</source>
-        <translation>डावी</translation>
+        <source>Position</source>
+        <translation>स्थान</translation>
+    </message>
+    <message>
+        <source>Top</source>
+        <translation>वर</translation>
+    </message>
+    <message>
+        <source>Bottom</source>
+        <translation>खाली</translation>
     </message>
     <message>
         <source>When open</source>
@@ -496,6 +500,10 @@
         <translation>बाण की ते हलवतात, Enter ते उघडते.</translation>
     </message>
     <message>
+        <source>Ctrl and an arrow key put it on another edge.</source>
+        <translation>Ctrl आणि बाण की ते दुसऱ्या कडेला हलवतात.</translation>
+    </message>
+    <message>
         <source>Width of the sidebar</source>
         <translation>साइडबारची रुंदी</translation>
     </message>
@@ -528,8 +536,8 @@
         <translation>मी</translation>
     </message>
     <message>
-        <source>The sidebar was moved.</source>
-        <translation>साइडबार हलवला.</translation>
+        <source>Height of the sidebar</source>
+        <translation>साइडबारची उंची</translation>
     </message>
     <message>
         <source>The sidebar is on the left.</source>
@@ -538,6 +546,18 @@
     <message>
         <source>The sidebar is on the right.</source>
         <translation>साइडबार उजवीकडे आहे.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the top.</source>
+        <translation>साइडबार वर आहे.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the bottom.</source>
+        <translation>साइडबार खाली आहे.</translation>
+    </message>
+    <message>
+        <source>The sidebar was moved.</source>
+        <translation>साइडबार हलवला.</translation>
     </message>
     <message>
         <source>The sidebar could not reach the server.</source>
@@ -586,6 +606,14 @@
     <message>
         <source>Dark</source>
         <translation>गडद</translation>
+    </message>
+    <message>
+        <source>Thank you. You can go back to the page; this window closes by itself.</source>
+        <translation>धन्यवाद. तुम्ही पानावर परत जाऊ शकता; ही विंडो आपोआप बंद होईल.</translation>
+    </message>
+    <message>
+        <source>Verify it's you</source>
+        <translation>हे तुम्हीच आहात याची पडताळणी करा</translation>
     </message>
 </context>
 </TS>

@@ -80,20 +80,12 @@
         <translation>ही हांगाच्या पानांची वळेरी न्हय.</translation>
     </message>
     <message>
-        <source>The input is not JSON.</source>
-        <translation>इनपुट JSON न्हय.</translation>
-    </message>
-    <message>
         <source>This action changes something: send it with expwtWrite.</source>
         <translation>हें कार्य कितें तरी बदलता: तें expwtWrite वरवीं धाडात.</translation>
     </message>
     <message>
-        <source>Verify it's you</source>
-        <translation>तुमीच आसात हें पडताळात</translation>
-    </message>
-    <message>
-        <source>Thank you. You can go back to the page; this window closes by itself.</source>
-        <translation>देव बरें करूं. तुमी पानार परत वचूंक शकतात; हें जनेल आपसूक बंद जातलें.</translation>
+        <source>The input is not JSON.</source>
+        <translation>इनपुट JSON न्हय.</translation>
     </message>
     <message>
         <source>Something went wrong.</source>
@@ -448,16 +440,28 @@
         <translation>साइडबार</translation>
     </message>
     <message>
-        <source>Side</source>
-        <translation>कूस</translation>
+        <source>Anchored at</source>
+        <translation>जोडिल्ली वट</translation>
+    </message>
+    <message>
+        <source>Left</source>
+        <translation>दावी</translation>
     </message>
     <message>
         <source>Right</source>
         <translation>उजवी</translation>
     </message>
     <message>
-        <source>Left</source>
-        <translation>दावी</translation>
+        <source>Position</source>
+        <translation>सुवात</translation>
+    </message>
+    <message>
+        <source>Top</source>
+        <translation>वयर</translation>
+    </message>
+    <message>
+        <source>Bottom</source>
+        <translation>सकयल</translation>
     </message>
     <message>
         <source>When open</source>
@@ -496,6 +500,10 @@
         <translation>बाणाचीं बटणां तें हालयतात, Enter तें उगडटा.</translation>
     </message>
     <message>
+        <source>Ctrl and an arrow key put it on another edge.</source>
+        <translation>Ctrl आनी बाणाचें बटण तें दुसऱ्या देगेर व्हरतात.</translation>
+    </message>
+    <message>
         <source>Width of the sidebar</source>
         <translation>साइडबाराची रुंदाय</translation>
     </message>
@@ -528,8 +536,8 @@
         <translation>हांव</translation>
     </message>
     <message>
-        <source>The sidebar was moved.</source>
-        <translation>साइडबार हालयलो.</translation>
+        <source>Height of the sidebar</source>
+        <translation>साइडबाराची उंचाय</translation>
     </message>
     <message>
         <source>The sidebar is on the left.</source>
@@ -538,6 +546,18 @@
     <message>
         <source>The sidebar is on the right.</source>
         <translation>साइडबार उजव्या वटेन आसा.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the top.</source>
+        <translation>साइडबार वयर आसा.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the bottom.</source>
+        <translation>साइडबार सकयल आसा.</translation>
+    </message>
+    <message>
+        <source>The sidebar was moved.</source>
+        <translation>साइडबार हालयलो.</translation>
     </message>
     <message>
         <source>The sidebar could not reach the server.</source>
@@ -586,6 +606,14 @@
     <message>
         <source>Dark</source>
         <translation>काळोख</translation>
+    </message>
+    <message>
+        <source>Thank you. You can go back to the page; this window closes by itself.</source>
+        <translation>देव बरें करूं. तुमी पानार परत वचूंक शकतात; हें जनेल आपसूक बंद जातलें.</translation>
+    </message>
+    <message>
+        <source>Verify it's you</source>
+        <translation>तुमीच आसात हें पडताळात</translation>
     </message>
 </context>
 </TS>

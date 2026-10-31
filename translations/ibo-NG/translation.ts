@@ -80,20 +80,12 @@
         <translation>Nke a abụghị ndepụta ibe ndị dị ebe a.</translation>
     </message>
     <message>
-        <source>The input is not JSON.</source>
-        <translation>Ntinye ahụ abụghị JSON.</translation>
-    </message>
-    <message>
         <source>This action changes something: send it with expwtWrite.</source>
         <translation>Omume a na-agbanwe ihe: ziga ya site na expwtWrite.</translation>
     </message>
     <message>
-        <source>Verify it's you</source>
-        <translation>Gosi na ọ bụ gị</translation>
-    </message>
-    <message>
-        <source>Thank you. You can go back to the page; this window closes by itself.</source>
-        <translation>Daalụ. Ị nwere ike ịlaghachi na ibe ahụ; windo a ga-emechi onwe ya.</translation>
+        <source>The input is not JSON.</source>
+        <translation>Ntinye ahụ abụghị JSON.</translation>
     </message>
     <message>
         <source>Something went wrong.</source>
@@ -448,16 +440,28 @@
         <translation>Ogwe akụkụ</translation>
     </message>
     <message>
-        <source>Side</source>
-        <translation>Akụkụ</translation>
+        <source>Anchored at</source>
+        <translation>Ejikọtara na</translation>
+    </message>
+    <message>
+        <source>Left</source>
+        <translation>Aka ekpe</translation>
     </message>
     <message>
         <source>Right</source>
         <translation>Aka nri</translation>
     </message>
     <message>
-        <source>Left</source>
-        <translation>Aka ekpe</translation>
+        <source>Position</source>
+        <translation>Ọnọdụ</translation>
+    </message>
+    <message>
+        <source>Top</source>
+        <translation>Elu</translation>
+    </message>
+    <message>
+        <source>Bottom</source>
+        <translation>Ala</translation>
     </message>
     <message>
         <source>When open</source>
@@ -496,6 +500,10 @@
         <translation>Igodo akụ na-akpali ya, Enter na-emepe ya.</translation>
     </message>
     <message>
+        <source>Ctrl and an arrow key put it on another edge.</source>
+        <translation>Ctrl na igodo akụ na-ebuga ya na nsọtụ ọzọ.</translation>
+    </message>
+    <message>
         <source>Width of the sidebar</source>
         <translation>Obosara ogwe akụkụ</translation>
     </message>
@@ -528,8 +536,8 @@
         <translation>Mụ</translation>
     </message>
     <message>
-        <source>The sidebar was moved.</source>
-        <translation>Ebugharịala ogwe akụkụ.</translation>
+        <source>Height of the sidebar</source>
+        <translation>Ịdị elu ogwe akụkụ</translation>
     </message>
     <message>
         <source>The sidebar is on the left.</source>
@@ -538,6 +546,18 @@
     <message>
         <source>The sidebar is on the right.</source>
         <translation>Ogwe akụkụ dị n'aka nri.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the top.</source>
+        <translation>Ogwe akụkụ dị n'elu.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the bottom.</source>
+        <translation>Ogwe akụkụ dị n'ala.</translation>
+    </message>
+    <message>
+        <source>The sidebar was moved.</source>
+        <translation>Ebugharịala ogwe akụkụ.</translation>
     </message>
     <message>
         <source>The sidebar could not reach the server.</source>
@@ -586,6 +606,14 @@
     <message>
         <source>Dark</source>
         <translation>Ọchịchịrị</translation>
+    </message>
+    <message>
+        <source>Thank you. You can go back to the page; this window closes by itself.</source>
+        <translation>Daalụ. Ị nwere ike ịlaghachi na ibe ahụ; windo a ga-emechi onwe ya.</translation>
+    </message>
+    <message>
+        <source>Verify it's you</source>
+        <translation>Gosi na ọ bụ gị</translation>
     </message>
 </context>
 </TS>

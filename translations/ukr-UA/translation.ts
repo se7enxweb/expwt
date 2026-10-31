@@ -80,20 +80,12 @@
         <translation>Це не список сторінок тут.</translation>
     </message>
     <message>
-        <source>The input is not JSON.</source>
-        <translation>Вхідні дані не є JSON.</translation>
-    </message>
-    <message>
         <source>This action changes something: send it with expwtWrite.</source>
         <translation>Ця дія щось змінює: надішліть її через expwtWrite.</translation>
     </message>
     <message>
-        <source>Verify it's you</source>
-        <translation>Підтвердьте, що це ви</translation>
-    </message>
-    <message>
-        <source>Thank you. You can go back to the page; this window closes by itself.</source>
-        <translation>Дякуємо. Можете повернутися на сторінку; це вікно закриється само.</translation>
+        <source>The input is not JSON.</source>
+        <translation>Вхідні дані не є JSON.</translation>
     </message>
     <message>
         <source>Something went wrong.</source>
@@ -448,16 +440,28 @@
         <translation>Бічна панель</translation>
     </message>
     <message>
-        <source>Side</source>
-        <translation>Бік</translation>
+        <source>Anchored at</source>
+        <translation>Прив’язка</translation>
+    </message>
+    <message>
+        <source>Left</source>
+        <translation>Ліворуч</translation>
     </message>
     <message>
         <source>Right</source>
         <translation>Праворуч</translation>
     </message>
     <message>
-        <source>Left</source>
-        <translation>Ліворуч</translation>
+        <source>Position</source>
+        <translation>Розташування</translation>
+    </message>
+    <message>
+        <source>Top</source>
+        <translation>Угорі</translation>
+    </message>
+    <message>
+        <source>Bottom</source>
+        <translation>Унизу</translation>
     </message>
     <message>
         <source>When open</source>
@@ -496,6 +500,10 @@
         <translation>Клавіші зі стрілками переміщують, Enter відкриває.</translation>
     </message>
     <message>
+        <source>Ctrl and an arrow key put it on another edge.</source>
+        <translation>Ctrl і стрілка переносять її до іншого краю.</translation>
+    </message>
+    <message>
         <source>Width of the sidebar</source>
         <translation>Ширина бічної панелі</translation>
     </message>
@@ -528,8 +536,8 @@
         <translation>Я</translation>
     </message>
     <message>
-        <source>The sidebar was moved.</source>
-        <translation>Бічну панель переміщено.</translation>
+        <source>Height of the sidebar</source>
+        <translation>Висота бічної панелі</translation>
     </message>
     <message>
         <source>The sidebar is on the left.</source>
@@ -538,6 +546,18 @@
     <message>
         <source>The sidebar is on the right.</source>
         <translation>Бічна панель праворуч.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the top.</source>
+        <translation>Бічна панель угорі.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the bottom.</source>
+        <translation>Бічна панель унизу.</translation>
+    </message>
+    <message>
+        <source>The sidebar was moved.</source>
+        <translation>Бічну панель переміщено.</translation>
     </message>
     <message>
         <source>The sidebar could not reach the server.</source>
@@ -586,6 +606,14 @@
     <message>
         <source>Dark</source>
         <translation>Темна</translation>
+    </message>
+    <message>
+        <source>Thank you. You can go back to the page; this window closes by itself.</source>
+        <translation>Дякуємо. Можете повернутися на сторінку; це вікно закриється само.</translation>
+    </message>
+    <message>
+        <source>Verify it's you</source>
+        <translation>Підтвердьте, що це ви</translation>
     </message>
 </context>
 </TS>

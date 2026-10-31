@@ -80,20 +80,12 @@
         <translation>Din mhix il-lista tal-paġni ta' hawn.</translation>
     </message>
     <message>
-        <source>The input is not JSON.</source>
-        <translation>L-input mhux JSON.</translation>
-    </message>
-    <message>
         <source>This action changes something: send it with expwtWrite.</source>
         <translation>Din l-azzjoni tbiddel xi ħaġa: ibgħatha b'expwtWrite.</translation>
     </message>
     <message>
-        <source>Verify it's you</source>
-        <translation>Ikkonferma li int</translation>
-    </message>
-    <message>
-        <source>Thank you. You can go back to the page; this window closes by itself.</source>
-        <translation>Grazzi. Tista' terġa' lura għall-paġna; din it-tieqa tingħalaq waħedha.</translation>
+        <source>The input is not JSON.</source>
+        <translation>L-input mhux JSON.</translation>
     </message>
     <message>
         <source>Something went wrong.</source>
@@ -448,16 +440,28 @@
         <translation>Il-faxxa tal-ġenb</translation>
     </message>
     <message>
-        <source>Side</source>
-        <translation>Naħa</translation>
+        <source>Anchored at</source>
+        <translation>Ankrata ma'</translation>
+    </message>
+    <message>
+        <source>Left</source>
+        <translation>Xellug</translation>
     </message>
     <message>
         <source>Right</source>
         <translation>Lemin</translation>
     </message>
     <message>
-        <source>Left</source>
-        <translation>Xellug</translation>
+        <source>Position</source>
+        <translation>Pożizzjoni</translation>
+    </message>
+    <message>
+        <source>Top</source>
+        <translation>Fuq</translation>
+    </message>
+    <message>
+        <source>Bottom</source>
+        <translation>Isfel</translation>
     </message>
     <message>
         <source>When open</source>
@@ -496,6 +500,10 @@
         <translation>Il-vleġeġ iċċaqilquha, Enter jiftaħha.</translation>
     </message>
     <message>
+        <source>Ctrl and an arrow key put it on another edge.</source>
+        <translation>Ctrl u vleġġa jpoġġuha fuq tarf ieħor.</translation>
+    </message>
+    <message>
         <source>Width of the sidebar</source>
         <translation>Wisa' tal-faxxa tal-ġenb</translation>
     </message>
@@ -528,8 +536,8 @@
         <translation>Jien</translation>
     </message>
     <message>
-        <source>The sidebar was moved.</source>
-        <translation>Il-faxxa tal-ġenb tmexxiet.</translation>
+        <source>Height of the sidebar</source>
+        <translation>Għoli tal-faxxa tal-ġenb</translation>
     </message>
     <message>
         <source>The sidebar is on the left.</source>
@@ -538,6 +546,18 @@
     <message>
         <source>The sidebar is on the right.</source>
         <translation>Il-faxxa tal-ġenb tinsab fuq il-lemin.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the top.</source>
+        <translation>Il-faxxa tal-ġenb tinsab fuq.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the bottom.</source>
+        <translation>Il-faxxa tal-ġenb tinsab isfel.</translation>
+    </message>
+    <message>
+        <source>The sidebar was moved.</source>
+        <translation>Il-faxxa tal-ġenb tmexxiet.</translation>
     </message>
     <message>
         <source>The sidebar could not reach the server.</source>
@@ -586,6 +606,14 @@
     <message>
         <source>Dark</source>
         <translation>Skur</translation>
+    </message>
+    <message>
+        <source>Thank you. You can go back to the page; this window closes by itself.</source>
+        <translation>Grazzi. Tista' terġa' lura għall-paġna; din it-tieqa tingħalaq waħedha.</translation>
+    </message>
+    <message>
+        <source>Verify it's you</source>
+        <translation>Ikkonferma li int</translation>
     </message>
 </context>
 </TS>

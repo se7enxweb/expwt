@@ -80,20 +80,12 @@
         <translation>Ин рӯйхати саҳифаҳои ин ҷо нест.</translation>
     </message>
     <message>
-        <source>The input is not JSON.</source>
-        <translation>Вуруд JSON нест.</translation>
-    </message>
-    <message>
         <source>This action changes something: send it with expwtWrite.</source>
         <translation>Ин амал чизеро тағйир медиҳад: онро бо expwtWrite фиристед.</translation>
     </message>
     <message>
-        <source>Verify it's you</source>
-        <translation>Тасдиқ кунед, ки ин шумо ҳастед</translation>
-    </message>
-    <message>
-        <source>Thank you. You can go back to the page; this window closes by itself.</source>
-        <translation>Ташаккур. Шумо метавонед ба саҳифа баргардед; ин равзана худ ба худ пӯшида мешавад.</translation>
+        <source>The input is not JSON.</source>
+        <translation>Вуруд JSON нест.</translation>
     </message>
     <message>
         <source>Something went wrong.</source>
@@ -448,16 +440,28 @@
         <translation>Панели паҳлӯӣ</translation>
     </message>
     <message>
-        <source>Side</source>
-        <translation>Тараф</translation>
+        <source>Anchored at</source>
+        <translation>Мустаҳкам дар</translation>
+    </message>
+    <message>
+        <source>Left</source>
+        <translation>Чап</translation>
     </message>
     <message>
         <source>Right</source>
         <translation>Рост</translation>
     </message>
     <message>
-        <source>Left</source>
-        <translation>Чап</translation>
+        <source>Position</source>
+        <translation>Ҷойгиршавӣ</translation>
+    </message>
+    <message>
+        <source>Top</source>
+        <translation>Боло</translation>
+    </message>
+    <message>
+        <source>Bottom</source>
+        <translation>Поён</translation>
     </message>
     <message>
         <source>When open</source>
@@ -496,6 +500,10 @@
         <translation>Тугмаҳои тирча онро мекӯчонанд, Enter онро мекушояд.</translation>
     </message>
     <message>
+        <source>Ctrl and an arrow key put it on another edge.</source>
+        <translation>Ctrl ва тугмаи тирча онро ба канори дигар мекӯчонанд.</translation>
+    </message>
+    <message>
         <source>Width of the sidebar</source>
         <translation>Паҳнои панели паҳлӯӣ</translation>
     </message>
@@ -528,8 +536,8 @@
         <translation>Ман</translation>
     </message>
     <message>
-        <source>The sidebar was moved.</source>
-        <translation>Панели паҳлӯӣ кӯчонда шуд.</translation>
+        <source>Height of the sidebar</source>
+        <translation>Баландии панели паҳлӯӣ</translation>
     </message>
     <message>
         <source>The sidebar is on the left.</source>
@@ -538,6 +546,18 @@
     <message>
         <source>The sidebar is on the right.</source>
         <translation>Панели паҳлӯӣ дар тарафи рост аст.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the top.</source>
+        <translation>Панели паҳлӯӣ дар боло аст.</translation>
+    </message>
+    <message>
+        <source>The sidebar is at the bottom.</source>
+        <translation>Панели паҳлӯӣ дар поён аст.</translation>
+    </message>
+    <message>
+        <source>The sidebar was moved.</source>
+        <translation>Панели паҳлӯӣ кӯчонда шуд.</translation>
     </message>
     <message>
         <source>The sidebar could not reach the server.</source>
@@ -586,6 +606,14 @@
     <message>
         <source>Dark</source>
         <translation>Торик</translation>
+    </message>
+    <message>
+        <source>Thank you. You can go back to the page; this window closes by itself.</source>
+        <translation>Ташаккур. Шумо метавонед ба саҳифа баргардед; ин равзана худ ба худ пӯшида мешавад.</translation>
+    </message>
+    <message>
+        <source>Verify it's you</source>
+        <translation>Тасдиқ кунед, ки ин шумо ҳастед</translation>
     </message>
 </context>
 </TS>
