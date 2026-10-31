@@ -381,9 +381,12 @@
       this.placePill();
       /* a bar that comes later (the debug bar, a cookie dialog shown after a delay): measured again while shown */
       var self = this;
-      var shown = !this.pill.hidden;
+      var shown = !this.pill.hidden || (this.state.open && this.overlay());
       if (shown && !this.pillTimer) {
-        this.pillTimer = setInterval(function () { self.placePill(); }, 1000);
+        this.pillTimer = setInterval(function () {
+          self.placePill();
+          if (self.state.open && self.overlay()) { self.place(); }
+        }, 1000);
       } else if (!shown && this.pillTimer) {
         clearInterval(this.pillTimer);
         this.pillTimer = null;
@@ -624,7 +627,9 @@
       {
         var hz = self.horizontal();
         var top = self.headerBottom();
-        var bottom = hz && self.state.edge === 'bottom' ? self.footerHeight() : 0;
+        /* the bottom bar, and the open panel over the page (a phone), end above what is fixed at the window's bottom
+           (a debug bar, a cookie bar), so their last row (Save draft, Discard draft) is never under it */
+        var bottom = (hz && self.state.edge === 'bottom') || (self.state.open && self.overlay()) ? self.footerHeight() : 0;
         var vh = window.innerHeight;
         var tabLength = hz ? (self.tab.offsetWidth || 120) : (self.tab.offsetHeight || 120);
         var room = Math.max(0, (hz ? window.innerWidth : vh - top) - tabLength);

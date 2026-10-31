@@ -286,7 +286,7 @@ select:focus-visible, textarea:focus-visible, [contenteditable]:focus-visible, [
 :host([data-edge="right"]) .wt-panel { right: 0; border-inline-start: 0; border-left: 1px solid var(--a4-line); }
 :host([data-edge="left"]) .wt-panel { left: 0; border-inline-start: 0; border-right: 1px solid var(--a4-line); }
 .wt-panel[hidden], :host([data-orient]) .wt-panel[hidden] { display: none; }
-:host([data-overlay="true"][data-orient="vertical"]) .wt-panel { inline-size: min(100vw, var(--expwt-width)); }
+:host([data-overlay="true"][data-orient="vertical"]) .wt-panel { inline-size: min(100vw, var(--expwt-width)); inset-block-end: var(--expwt-bottom, 0px); }
 
 /* The open panel's main actions: in the panel on left and right (they are moved there), in the bar's row on top and
    bottom. */
