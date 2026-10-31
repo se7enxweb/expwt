@@ -144,16 +144,16 @@
         <translation>міндетті</translation>
     </message>
     <message>
-        <source>Publish later or take down at a date</source>
-        <translation>Кейінірек жариялау немесе белгілі күні алып тастау</translation>
-    </message>
-    <message>
         <source>Publish at</source>
         <translation>Жариялау уақыты</translation>
     </message>
     <message>
         <source>Take down at</source>
         <translation>Алып тастау уақыты</translation>
+    </message>
+    <message>
+        <source>Publish later or take down at a date</source>
+        <translation>Кейінірек жариялау немесе белгілі күні алып тастау</translation>
     </message>
     <message>
         <source>In the full editor: %fields</source>
@@ -406,6 +406,30 @@
     <message>
         <source>Done.</source>
         <translation>Дайын.</translation>
+    </message>
+    <message>
+        <source>Copy ...</source>
+        <translation>Көшіру ...</translation>
+    </message>
+    <message>
+        <source>Copy "%name" to ...</source>
+        <translation>"%name" бетін көшіру ...</translation>
+    </message>
+    <message>
+        <source>Copy the page below "%name"?</source>
+        <translation>Бетті "%name" астына көшіресіз бе?</translation>
+    </message>
+    <message>
+        <source>Copying ...</source>
+        <translation>Көшірілуде ...</translation>
+    </message>
+    <message>
+        <source>The copy is made. It opens now.</source>
+        <translation>Көшірме жасалды. Қазір ашылады.</translation>
+    </message>
+    <message>
+        <source>The copy waits for a workflow (an approval).</source>
+        <translation>Көшірме жұмыс процесін (бекітуді) күтуде.</translation>
     </message>
     <message>
         <source>Last visit: %time</source>

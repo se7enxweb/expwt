@@ -144,16 +144,16 @@
         <translation>pakollinen</translation>
     </message>
     <message>
-        <source>Publish later or take down at a date</source>
-        <translation>Julkaise myöhemmin tai poista näkyvistä tiettynä päivänä</translation>
-    </message>
-    <message>
         <source>Publish at</source>
         <translation>Julkaise</translation>
     </message>
     <message>
         <source>Take down at</source>
         <translation>Poista näkyvistä</translation>
+    </message>
+    <message>
+        <source>Publish later or take down at a date</source>
+        <translation>Julkaise myöhemmin tai poista näkyvistä tiettynä päivänä</translation>
     </message>
     <message>
         <source>In the full editor: %fields</source>
@@ -406,6 +406,30 @@
     <message>
         <source>Done.</source>
         <translation>Valmis.</translation>
+    </message>
+    <message>
+        <source>Copy ...</source>
+        <translation>Kopioi ...</translation>
+    </message>
+    <message>
+        <source>Copy "%name" to ...</source>
+        <translation>Kopioi ”%name” kohteeseen ...</translation>
+    </message>
+    <message>
+        <source>Copy the page below "%name"?</source>
+        <translation>Kopioidaanko sivu kohteen ”%name” alle?</translation>
+    </message>
+    <message>
+        <source>Copying ...</source>
+        <translation>Kopioidaan ...</translation>
+    </message>
+    <message>
+        <source>The copy is made. It opens now.</source>
+        <translation>Kopio on tehty. Se avautuu nyt.</translation>
+    </message>
+    <message>
+        <source>The copy waits for a workflow (an approval).</source>
+        <translation>Kopio odottaa työnkulkua (hyväksyntää).</translation>
     </message>
     <message>
         <source>Last visit: %time</source>

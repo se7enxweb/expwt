@@ -144,16 +144,16 @@
         <translation>esengeli</translation>
     </message>
     <message>
-        <source>Publish later or take down at a date</source>
-        <translation>Bimisá na nsima to longolá na mokolo moko</translation>
-    </message>
-    <message>
         <source>Publish at</source>
         <translation>Kobimisa na</translation>
     </message>
     <message>
         <source>Take down at</source>
         <translation>Kolongola na</translation>
+    </message>
+    <message>
+        <source>Publish later or take down at a date</source>
+        <translation>Bimisá na nsima to longolá na mokolo moko</translation>
     </message>
     <message>
         <source>In the full editor: %fields</source>
@@ -406,6 +406,30 @@
     <message>
         <source>Done.</source>
         <translation>Esili.</translation>
+    </message>
+    <message>
+        <source>Copy ...</source>
+        <translation>Kopi...</translation>
+    </message>
+    <message>
+        <source>Copy "%name" to ...</source>
+        <translation>Kopi "%name" na...</translation>
+    </message>
+    <message>
+        <source>Copy the page below "%name"?</source>
+        <translation>Kokopi lokasa na nse ya "%name"?</translation>
+    </message>
+    <message>
+        <source>Copying ...</source>
+        <translation>Ezali kokopi...</translation>
+    </message>
+    <message>
+        <source>The copy is made. It opens now.</source>
+        <translation>Kopi esalemi. Ezali kofungwama sikoyo.</translation>
+    </message>
+    <message>
+        <source>The copy waits for a workflow (an approval).</source>
+        <translation>Kopi ezali kozela workflow (kondimama).</translation>
     </message>
     <message>
         <source>Last visit: %time</source>

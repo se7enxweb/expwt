@@ -193,6 +193,8 @@ class expwtGateway
                 'hide' => $node ? (bool)$node->canHide() : false,
                 'remove' => $node ? (bool)$node->canRemove() : false,
                 'move' => $node ? (bool)$node->canMoveFrom() : false,
+                // a copy: the page is read; where it may go (create of its class) is checked on the place chosen
+                'copy' => $node ? (bool)$object->canRead() : false,
             ),
             'lock' => $lock ? array( 'name' => (string)$lock['name'], 'since' => (int)$lock['since'] ) : null,
             'urls' => array(
@@ -488,6 +490,17 @@ class expwtGateway
             throw new expwtApiError( 400, 'bad_input', 'Where to?' );
         $r = $this->writer()->move( $in['nodeId'], $in['parentId'] );
         return array( 'status' => (string)$r['status'], 'nodeId' => $r['nodeId'] );
+    }
+
+    /** A copy of the page below a parent (its own: beside it); the copy's address to go to. */
+    public function copy( array $in )
+    {
+        if ( !isset( $in['nodeId'], $in['parentId'] ) )
+            throw new expwtApiError( 400, 'bad_input', 'Where to?' );
+        $r = $this->writer()->copy( $in['nodeId'], $in['parentId'] );
+        $node = !empty( $r['nodeId'] ) ? eZContentObjectTreeNode::fetch( (int)$r['nodeId'] ) : null;
+        return array( 'status' => (string)$r['status'], 'nodeId' => $r['nodeId'],
+                      'url' => $node instanceof eZContentObjectTreeNode ? self::url( '/' . ltrim( (string)$node->attribute( 'url_alias' ), '/' ) ) : null );
     }
 
     public function addLocation( array $in )

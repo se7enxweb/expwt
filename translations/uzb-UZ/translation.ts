@@ -144,16 +144,16 @@
         <translation>majburiy</translation>
     </message>
     <message>
-        <source>Publish later or take down at a date</source>
-        <translation>Keyinroq nashr qilish yoki belgilangan sanada olib tashlash</translation>
-    </message>
-    <message>
         <source>Publish at</source>
         <translation>Nashr vaqti</translation>
     </message>
     <message>
         <source>Take down at</source>
         <translation>Olib tashlash vaqti</translation>
+    </message>
+    <message>
+        <source>Publish later or take down at a date</source>
+        <translation>Keyinroq nashr qilish yoki belgilangan sanada olib tashlash</translation>
     </message>
     <message>
         <source>In the full editor: %fields</source>
@@ -406,6 +406,30 @@
     <message>
         <source>Done.</source>
         <translation>Tayyor.</translation>
+    </message>
+    <message>
+        <source>Copy ...</source>
+        <translation>Nusxalash ...</translation>
+    </message>
+    <message>
+        <source>Copy "%name" to ...</source>
+        <translation>"%name" ni nusxalash ...</translation>
+    </message>
+    <message>
+        <source>Copy the page below "%name"?</source>
+        <translation>Sahifa "%name" ostiga nusxalansinmi?</translation>
+    </message>
+    <message>
+        <source>Copying ...</source>
+        <translation>Nusxalanmoqda ...</translation>
+    </message>
+    <message>
+        <source>The copy is made. It opens now.</source>
+        <translation>Nusxa yaratildi. Hozir ochiladi.</translation>
+    </message>
+    <message>
+        <source>The copy waits for a workflow (an approval).</source>
+        <translation>Nusxa ish jarayonini (tasdiqni) kutmoqda.</translation>
     </message>
     <message>
         <source>Last visit: %time</source>

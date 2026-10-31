@@ -144,16 +144,16 @@
         <translation>आवश्यक</translation>
     </message>
     <message>
-        <source>Publish later or take down at a date</source>
-        <translation>बाद मे प्रकाशित करू वा कोनो तिथि केँ हटाउ</translation>
-    </message>
-    <message>
         <source>Publish at</source>
         <translation>प्रकाशित करबाक समय</translation>
     </message>
     <message>
         <source>Take down at</source>
         <translation>हटेबाक समय</translation>
+    </message>
+    <message>
+        <source>Publish later or take down at a date</source>
+        <translation>बाद मे प्रकाशित करू वा कोनो तिथि केँ हटाउ</translation>
     </message>
     <message>
         <source>In the full editor: %fields</source>
@@ -406,6 +406,30 @@
     <message>
         <source>Done.</source>
         <translation>भऽ गेल।</translation>
+    </message>
+    <message>
+        <source>Copy ...</source>
+        <translation>प्रतिलिपि बनाउ ...</translation>
+    </message>
+    <message>
+        <source>Copy "%name" to ...</source>
+        <translation>"%name" केँ एतए प्रतिलिपि बनाउ ...</translation>
+    </message>
+    <message>
+        <source>Copy the page below "%name"?</source>
+        <translation>पृष्ठ केँ "%name" क नीचाँ प्रतिलिपि बनाबी?</translation>
+    </message>
+    <message>
+        <source>Copying ...</source>
+        <translation>प्रतिलिपि बनि रहल अछि ...</translation>
+    </message>
+    <message>
+        <source>The copy is made. It opens now.</source>
+        <translation>प्रतिलिपि बनि गेल। आब खुजि रहल अछि।</translation>
+    </message>
+    <message>
+        <source>The copy waits for a workflow (an approval).</source>
+        <translation>प्रतिलिपि एकटा वर्कफ़्लो (स्वीकृति) क प्रतीक्षामे अछि।</translation>
     </message>
     <message>
         <source>Last visit: %time</source>

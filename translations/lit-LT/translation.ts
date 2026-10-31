@@ -144,16 +144,16 @@
         <translation>privaloma</translation>
     </message>
     <message>
-        <source>Publish later or take down at a date</source>
-        <translation>Paskelbti vėliau arba pašalinti nurodytą dieną</translation>
-    </message>
-    <message>
         <source>Publish at</source>
         <translation>Paskelbimo laikas</translation>
     </message>
     <message>
         <source>Take down at</source>
         <translation>Pašalinimo laikas</translation>
+    </message>
+    <message>
+        <source>Publish later or take down at a date</source>
+        <translation>Paskelbti vėliau arba pašalinti nurodytą dieną</translation>
     </message>
     <message>
         <source>In the full editor: %fields</source>
@@ -406,6 +406,30 @@
     <message>
         <source>Done.</source>
         <translation>Atlikta.</translation>
+    </message>
+    <message>
+        <source>Copy ...</source>
+        <translation>Kopijuoti...</translation>
+    </message>
+    <message>
+        <source>Copy "%name" to ...</source>
+        <translation>Kopijuoti „%name“ į...</translation>
+    </message>
+    <message>
+        <source>Copy the page below "%name"?</source>
+        <translation>Kopijuoti puslapį po „%name“?</translation>
+    </message>
+    <message>
+        <source>Copying ...</source>
+        <translation>Kopijuojama...</translation>
+    </message>
+    <message>
+        <source>The copy is made. It opens now.</source>
+        <translation>Kopija sukurta. Ji dabar atsidaro.</translation>
+    </message>
+    <message>
+        <source>The copy waits for a workflow (an approval).</source>
+        <translation>Kopija laukia darbo eigos (patvirtinimo).</translation>
     </message>
     <message>
         <source>Last visit: %time</source>

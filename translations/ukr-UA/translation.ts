@@ -144,16 +144,16 @@
         <translation>обов'язково</translation>
     </message>
     <message>
-        <source>Publish later or take down at a date</source>
-        <translation>Опублікувати пізніше або зняти в певну дату</translation>
-    </message>
-    <message>
         <source>Publish at</source>
         <translation>Опублікувати о</translation>
     </message>
     <message>
         <source>Take down at</source>
         <translation>Зняти о</translation>
+    </message>
+    <message>
+        <source>Publish later or take down at a date</source>
+        <translation>Опублікувати пізніше або зняти в певну дату</translation>
     </message>
     <message>
         <source>In the full editor: %fields</source>
@@ -406,6 +406,30 @@
     <message>
         <source>Done.</source>
         <translation>Готово.</translation>
+    </message>
+    <message>
+        <source>Copy ...</source>
+        <translation>Копіювати ...</translation>
+    </message>
+    <message>
+        <source>Copy "%name" to ...</source>
+        <translation>Копіювати «%name» до ...</translation>
+    </message>
+    <message>
+        <source>Copy the page below "%name"?</source>
+        <translation>Копіювати сторінку під «%name»?</translation>
+    </message>
+    <message>
+        <source>Copying ...</source>
+        <translation>Копіювання ...</translation>
+    </message>
+    <message>
+        <source>The copy is made. It opens now.</source>
+        <translation>Копію створено. Зараз вона відкриється.</translation>
+    </message>
+    <message>
+        <source>The copy waits for a workflow (an approval).</source>
+        <translation>Копія чекає на робочий процес (затвердження).</translation>
     </message>
     <message>
         <source>Last visit: %time</source>

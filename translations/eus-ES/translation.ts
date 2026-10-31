@@ -144,16 +144,16 @@
         <translation>derrigorrezkoa</translation>
     </message>
     <message>
-        <source>Publish later or take down at a date</source>
-        <translation>Argitaratu geroago edo kendu data batean</translation>
-    </message>
-    <message>
         <source>Publish at</source>
         <translation>Argitaratze-data</translation>
     </message>
     <message>
         <source>Take down at</source>
         <translation>Kentze-data</translation>
+    </message>
+    <message>
+        <source>Publish later or take down at a date</source>
+        <translation>Argitaratu geroago edo kendu data batean</translation>
     </message>
     <message>
         <source>In the full editor: %fields</source>
@@ -406,6 +406,30 @@
     <message>
         <source>Done.</source>
         <translation>Eginda.</translation>
+    </message>
+    <message>
+        <source>Copy ...</source>
+        <translation>Kopiatu ...</translation>
+    </message>
+    <message>
+        <source>Copy "%name" to ...</source>
+        <translation>Kopiatu «%name» hona ...</translation>
+    </message>
+    <message>
+        <source>Copy the page below "%name"?</source>
+        <translation>Orria «%name»(r)en azpira kopiatu?</translation>
+    </message>
+    <message>
+        <source>Copying ...</source>
+        <translation>Kopiatzen ...</translation>
+    </message>
+    <message>
+        <source>The copy is made. It opens now.</source>
+        <translation>Kopia egin da. Orain irekiko da.</translation>
+    </message>
+    <message>
+        <source>The copy waits for a workflow (an approval).</source>
+        <translation>Kopiak lan-fluxu baten zain dago (onarpen baten zain).</translation>
     </message>
     <message>
         <source>Last visit: %time</source>

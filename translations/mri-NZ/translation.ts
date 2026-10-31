@@ -144,16 +144,16 @@
         <translation>herenga</translation>
     </message>
     <message>
-        <source>Publish later or take down at a date</source>
-        <translation>Whakaputa ā muri ake, tango rānei hei tētahi rā</translation>
-    </message>
-    <message>
         <source>Publish at</source>
         <translation>Whakaputa hei</translation>
     </message>
     <message>
         <source>Take down at</source>
         <translation>Tango hei</translation>
+    </message>
+    <message>
+        <source>Publish later or take down at a date</source>
+        <translation>Whakaputa ā muri ake, tango rānei hei tētahi rā</translation>
     </message>
     <message>
         <source>In the full editor: %fields</source>
@@ -406,6 +406,30 @@
     <message>
         <source>Done.</source>
         <translation>Kua oti.</translation>
+    </message>
+    <message>
+        <source>Copy ...</source>
+        <translation>Tārua ...</translation>
+    </message>
+    <message>
+        <source>Copy "%name" to ...</source>
+        <translation>Tārua "%name" ki ...</translation>
+    </message>
+    <message>
+        <source>Copy the page below "%name"?</source>
+        <translation>Tārua i te whārangi ki raro i "%name"?</translation>
+    </message>
+    <message>
+        <source>Copying ...</source>
+        <translation>E tārua ana ...</translation>
+    </message>
+    <message>
+        <source>The copy is made. It opens now.</source>
+        <translation>Kua oti te tārua. Ka huaki ināianei.</translation>
+    </message>
+    <message>
+        <source>The copy waits for a workflow (an approval).</source>
+        <translation>E tatari ana te tārua ki tētahi rerenga mahi (whakaaetanga).</translation>
     </message>
     <message>
         <source>Last visit: %time</source>

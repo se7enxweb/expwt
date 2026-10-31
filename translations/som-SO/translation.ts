@@ -144,16 +144,16 @@
         <translation>khasab</translation>
     </message>
     <message>
-        <source>Publish later or take down at a date</source>
-        <translation>Daabac goor dambe ama deji taariikh go'an</translation>
-    </message>
-    <message>
         <source>Publish at</source>
         <translation>Daabac waqtiga</translation>
     </message>
     <message>
         <source>Take down at</source>
         <translation>Deji waqtiga</translation>
+    </message>
+    <message>
+        <source>Publish later or take down at a date</source>
+        <translation>Daabac goor dambe ama deji taariikh go'an</translation>
     </message>
     <message>
         <source>In the full editor: %fields</source>
@@ -406,6 +406,30 @@
     <message>
         <source>Done.</source>
         <translation>Waa la dhammeeyay.</translation>
+    </message>
+    <message>
+        <source>Copy ...</source>
+        <translation>Koobi ...</translation>
+    </message>
+    <message>
+        <source>Copy "%name" to ...</source>
+        <translation>Koobi "%name" ...</translation>
+    </message>
+    <message>
+        <source>Copy the page below "%name"?</source>
+        <translation>Ma koobisaa bogga "%name" hoostiisa?</translation>
+    </message>
+    <message>
+        <source>Copying ...</source>
+        <translation>Waa la koobiyeynayaa ...</translation>
+    </message>
+    <message>
+        <source>The copy is made. It opens now.</source>
+        <translation>Koobiga waa la sameeyay. Hadda ayuu furmayaa.</translation>
+    </message>
+    <message>
+        <source>The copy waits for a workflow (an approval).</source>
+        <translation>Koobigu wuxuu sugayaa socod-shaqo (oggolaansho).</translation>
     </message>
     <message>
         <source>Last visit: %time</source>

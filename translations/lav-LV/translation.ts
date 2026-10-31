@@ -144,16 +144,16 @@
         <translation>obligāts</translation>
     </message>
     <message>
-        <source>Publish later or take down at a date</source>
-        <translation>Publicēt vēlāk vai noņemt noteiktā datumā</translation>
-    </message>
-    <message>
         <source>Publish at</source>
         <translation>Publicēšanas laiks</translation>
     </message>
     <message>
         <source>Take down at</source>
         <translation>Noņemšanas laiks</translation>
+    </message>
+    <message>
+        <source>Publish later or take down at a date</source>
+        <translation>Publicēt vēlāk vai noņemt noteiktā datumā</translation>
     </message>
     <message>
         <source>In the full editor: %fields</source>
@@ -406,6 +406,30 @@
     <message>
         <source>Done.</source>
         <translation>Gatavs.</translation>
+    </message>
+    <message>
+        <source>Copy ...</source>
+        <translation>Kopēt...</translation>
+    </message>
+    <message>
+        <source>Copy "%name" to ...</source>
+        <translation>Kopēt "%name" uz...</translation>
+    </message>
+    <message>
+        <source>Copy the page below "%name"?</source>
+        <translation>Kopēt lapu zem "%name"?</translation>
+    </message>
+    <message>
+        <source>Copying ...</source>
+        <translation>Kopē...</translation>
+    </message>
+    <message>
+        <source>The copy is made. It opens now.</source>
+        <translation>Kopija ir izveidota. Tā tagad atveras.</translation>
+    </message>
+    <message>
+        <source>The copy waits for a workflow (an approval).</source>
+        <translation>Kopija gaida darbplūsmu (apstiprinājumu).</translation>
     </message>
     <message>
         <source>Last visit: %time</source>

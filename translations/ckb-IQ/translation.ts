@@ -144,16 +144,16 @@
         <translation>پێویستە</translation>
     </message>
     <message>
-        <source>Publish later or take down at a date</source>
-        <translation>دواتر بڵاوی بکەرەوە یان لە بەروارێکدا لای ببە</translation>
-    </message>
-    <message>
         <source>Publish at</source>
         <translation>بڵاوکردنەوە لە</translation>
     </message>
     <message>
         <source>Take down at</source>
         <translation>لابردن لە</translation>
+    </message>
+    <message>
+        <source>Publish later or take down at a date</source>
+        <translation>دواتر بڵاوی بکەرەوە یان لە بەروارێکدا لای ببە</translation>
     </message>
     <message>
         <source>In the full editor: %fields</source>
@@ -406,6 +406,30 @@
     <message>
         <source>Done.</source>
         <translation>تەواو.</translation>
+    </message>
+    <message>
+        <source>Copy ...</source>
+        <translation>لەبەرگرتنەوە ...</translation>
+    </message>
+    <message>
+        <source>Copy "%name" to ...</source>
+        <translation>لەبەرگرتنەوەی «%name» بۆ ...</translation>
+    </message>
+    <message>
+        <source>Copy the page below "%name"?</source>
+        <translation>پەڕەکە لەبەر بگیرێتەوە بۆ ژێر «%name»؟</translation>
+    </message>
+    <message>
+        <source>Copying ...</source>
+        <translation>خەریکی لەبەرگرتنەوەیە ...</translation>
+    </message>
+    <message>
+        <source>The copy is made. It opens now.</source>
+        <translation>لەبەرگیراوەکە دروست کرا. ئێستا دەکرێتەوە.</translation>
+    </message>
+    <message>
+        <source>The copy waits for a workflow (an approval).</source>
+        <translation>لەبەرگیراوەکە چاوەڕێی ڕەوتی کارێکە (پەسەندکردن).</translation>
     </message>
     <message>
         <source>Last visit: %time</source>

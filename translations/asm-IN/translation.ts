@@ -144,16 +144,16 @@
         <translation>প্ৰয়োজনীয়</translation>
     </message>
     <message>
-        <source>Publish later or take down at a date</source>
-        <translation>পিছত প্ৰকাশ কৰক বা কোনো তাৰিখত আঁতৰাওক</translation>
-    </message>
-    <message>
         <source>Publish at</source>
         <translation>প্ৰকাশৰ সময়</translation>
     </message>
     <message>
         <source>Take down at</source>
         <translation>আঁতৰোৱাৰ সময়</translation>
+    </message>
+    <message>
+        <source>Publish later or take down at a date</source>
+        <translation>পিছত প্ৰকাশ কৰক বা কোনো তাৰিখত আঁতৰাওক</translation>
     </message>
     <message>
         <source>In the full editor: %fields</source>
@@ -406,6 +406,30 @@
     <message>
         <source>Done.</source>
         <translation>হ'ল।</translation>
+    </message>
+    <message>
+        <source>Copy ...</source>
+        <translation>প্ৰতিলিপি কৰক ...</translation>
+    </message>
+    <message>
+        <source>Copy "%name" to ...</source>
+        <translation>"%name" ...-লৈ প্ৰতিলিপি কৰক</translation>
+    </message>
+    <message>
+        <source>Copy the page below "%name"?</source>
+        <translation>পৃষ্ঠাটো "%name"-ৰ তললৈ প্ৰতিলিপি কৰিব নেকি?</translation>
+    </message>
+    <message>
+        <source>Copying ...</source>
+        <translation>প্ৰতিলিপি কৰি আছে ...</translation>
+    </message>
+    <message>
+        <source>The copy is made. It opens now.</source>
+        <translation>প্ৰতিলিপি তৈয়াৰ হ'ল। এতিয়া খোল খাব।</translation>
+    </message>
+    <message>
+        <source>The copy waits for a workflow (an approval).</source>
+        <translation>প্ৰতিলিপিটোৱে এটা ৱৰ্কফ্ল'ৰ (অনুমোদনৰ) বাবে অপেক্ষা কৰিছে।</translation>
     </message>
     <message>
         <source>Last visit: %time</source>

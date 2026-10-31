@@ -144,16 +144,16 @@
         <translation>riachtanach</translation>
     </message>
     <message>
-        <source>Publish later or take down at a date</source>
-        <translation>Foilsigh níos déanaí nó bain anuas ar dháta</translation>
-    </message>
-    <message>
         <source>Publish at</source>
         <translation>Foilsigh ar</translation>
     </message>
     <message>
         <source>Take down at</source>
         <translation>Bain anuas ar</translation>
+    </message>
+    <message>
+        <source>Publish later or take down at a date</source>
+        <translation>Foilsigh níos déanaí nó bain anuas ar dháta</translation>
     </message>
     <message>
         <source>In the full editor: %fields</source>
@@ -406,6 +406,30 @@
     <message>
         <source>Done.</source>
         <translation>Déanta.</translation>
+    </message>
+    <message>
+        <source>Copy ...</source>
+        <translation>Cóipeáil ...</translation>
+    </message>
+    <message>
+        <source>Copy "%name" to ...</source>
+        <translation>Cóipeáil “%name” go ...</translation>
+    </message>
+    <message>
+        <source>Copy the page below "%name"?</source>
+        <translation>An gcóipeálfar an leathanach faoi “%name”?</translation>
+    </message>
+    <message>
+        <source>Copying ...</source>
+        <translation>Ag cóipeáil ...</translation>
+    </message>
+    <message>
+        <source>The copy is made. It opens now.</source>
+        <translation>Tá an chóip déanta. Osclóidh sí anois.</translation>
+    </message>
+    <message>
+        <source>The copy waits for a workflow (an approval).</source>
+        <translation>Tá an chóip ag fanacht ar shreabhadh oibre (ceadú).</translation>
     </message>
     <message>
         <source>Last visit: %time</source>

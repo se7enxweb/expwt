@@ -144,16 +144,16 @@
         <translation>ግዴታ</translation>
     </message>
     <message>
-        <source>Publish later or take down at a date</source>
-        <translation>ደሓር ኣሕትም ወይ ኣብ ዝተወሰነ ዕለት ኣልዕል</translation>
-    </message>
-    <message>
         <source>Publish at</source>
         <translation>ዝሕተመሉ</translation>
     </message>
     <message>
         <source>Take down at</source>
         <translation>ዝለዓለሉ</translation>
+    </message>
+    <message>
+        <source>Publish later or take down at a date</source>
+        <translation>ደሓር ኣሕትም ወይ ኣብ ዝተወሰነ ዕለት ኣልዕል</translation>
     </message>
     <message>
         <source>In the full editor: %fields</source>
@@ -406,6 +406,30 @@
     <message>
         <source>Done.</source>
         <translation>ተወዲኡ።</translation>
+    </message>
+    <message>
+        <source>Copy ...</source>
+        <translation>ቅዳሕ ...</translation>
+    </message>
+    <message>
+        <source>Copy "%name" to ...</source>
+        <translation>"%name" ናብ ... ቅዳሕ</translation>
+    </message>
+    <message>
+        <source>Copy the page below "%name"?</source>
+        <translation>እቲ ገጽ ትሕቲ "%name" ይቕዳሕ?</translation>
+    </message>
+    <message>
+        <source>Copying ...</source>
+        <translation>ይቕዳሕ ኣሎ ...</translation>
+    </message>
+    <message>
+        <source>The copy is made. It opens now.</source>
+        <translation>እቲ ቅዳሕ ተዳልዩ። ሕጂ ይኽፈት ኣሎ።</translation>
+    </message>
+    <message>
+        <source>The copy waits for a workflow (an approval).</source>
+        <translation>እቲ ቅዳሕ መስርሕ ስራሕ (ምጽዳቕ) ይጽበ ኣሎ።</translation>
     </message>
     <message>
         <source>Last visit: %time</source>

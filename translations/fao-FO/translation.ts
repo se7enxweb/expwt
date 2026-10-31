@@ -144,16 +144,16 @@
         <translation>kravt</translation>
     </message>
     <message>
-        <source>Publish later or take down at a date</source>
-        <translation>Útgev seinni ella tak niður ein ávísan dag</translation>
-    </message>
-    <message>
         <source>Publish at</source>
         <translation>Útgev</translation>
     </message>
     <message>
         <source>Take down at</source>
         <translation>Tak niður</translation>
+    </message>
+    <message>
+        <source>Publish later or take down at a date</source>
+        <translation>Útgev seinni ella tak niður ein ávísan dag</translation>
     </message>
     <message>
         <source>In the full editor: %fields</source>
@@ -406,6 +406,30 @@
     <message>
         <source>Done.</source>
         <translation>Liðugt.</translation>
+    </message>
+    <message>
+        <source>Copy ...</source>
+        <translation>Avrita ...</translation>
+    </message>
+    <message>
+        <source>Copy "%name" to ...</source>
+        <translation>Avrita „%name“ til ...</translation>
+    </message>
+    <message>
+        <source>Copy the page below "%name"?</source>
+        <translation>Avrita síðuna undir „%name“?</translation>
+    </message>
+    <message>
+        <source>Copying ...</source>
+        <translation>Avritar ...</translation>
+    </message>
+    <message>
+        <source>The copy is made. It opens now.</source>
+        <translation>Avritið er gjørt. Tað letur upp nú.</translation>
+    </message>
+    <message>
+        <source>The copy waits for a workflow (an approval).</source>
+        <translation>Avritið bíðar eftir einum arbeiðsgongd (eini góðkenning).</translation>
     </message>
     <message>
         <source>Last visit: %time</source>

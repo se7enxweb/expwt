@@ -144,16 +144,16 @@
         <translation>মথৌ তাই</translation>
     </message>
     <message>
-        <source>Publish later or take down at a date</source>
-        <translation>মতুংদা প্রকাশ তৌবা নত্রগা তারিখ অমদা থোক্কনবা</translation>
-    </message>
-    <message>
         <source>Publish at</source>
         <translation>প্রকাশ তৌবগী মতম</translation>
     </message>
     <message>
         <source>Take down at</source>
         <translation>থোক্কনবগী মতম</translation>
+    </message>
+    <message>
+        <source>Publish later or take down at a date</source>
+        <translation>মতুংদা প্রকাশ তৌবা নত্রগা তারিখ অমদা থোক্কনবা</translation>
     </message>
     <message>
         <source>In the full editor: %fields</source>
@@ -406,6 +406,30 @@
     <message>
         <source>Done.</source>
         <translation>লোইরে।</translation>
+    </message>
+    <message>
+        <source>Copy ...</source>
+        <translation>কোপি তৌবা ...</translation>
+    </message>
+    <message>
+        <source>Copy "%name" to ...</source>
+        <translation>"%name" কোপি তৌবা ...</translation>
+    </message>
+    <message>
+        <source>Copy the page below "%name"?</source>
+        <translation>পেজ অসি "%name" গী মখাদা কোপি তৌগদ্রা?</translation>
+    </message>
+    <message>
+        <source>Copying ...</source>
+        <translation>কোপি তৌরি ...</translation>
+    </message>
+    <message>
+        <source>The copy is made. It opens now.</source>
+        <translation>কোপি শেম্লে। হৌজিক ফোংলি।</translation>
+    </message>
+    <message>
+        <source>The copy waits for a workflow (an approval).</source>
+        <translation>কোপি অসিনা ৱর্কফ্লো অমা (য়াথিং) ঙাইরি।</translation>
     </message>
     <message>
         <source>Last visit: %time</source>

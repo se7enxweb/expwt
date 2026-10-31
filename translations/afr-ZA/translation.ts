@@ -144,16 +144,16 @@
         <translation>verpligtend</translation>
     </message>
     <message>
-        <source>Publish later or take down at a date</source>
-        <translation>Publiseer later of haal af op 'n datum</translation>
-    </message>
-    <message>
         <source>Publish at</source>
         <translation>Publiseer op</translation>
     </message>
     <message>
         <source>Take down at</source>
         <translation>Haal af op</translation>
+    </message>
+    <message>
+        <source>Publish later or take down at a date</source>
+        <translation>Publiseer later of haal af op 'n datum</translation>
     </message>
     <message>
         <source>In the full editor: %fields</source>
@@ -406,6 +406,30 @@
     <message>
         <source>Done.</source>
         <translation>Klaar.</translation>
+    </message>
+    <message>
+        <source>Copy ...</source>
+        <translation>Kopieer ...</translation>
+    </message>
+    <message>
+        <source>Copy "%name" to ...</source>
+        <translation>Kopieer "%name" na ...</translation>
+    </message>
+    <message>
+        <source>Copy the page below "%name"?</source>
+        <translation>Kopieer die bladsy onder "%name"?</translation>
+    </message>
+    <message>
+        <source>Copying ...</source>
+        <translation>Kopieer tans ...</translation>
+    </message>
+    <message>
+        <source>The copy is made. It opens now.</source>
+        <translation>Die kopie is gemaak. Dit maak nou oop.</translation>
+    </message>
+    <message>
+        <source>The copy waits for a workflow (an approval).</source>
+        <translation>Die kopie wag vir 'n werkvloei ('n goedkeuring).</translation>
     </message>
     <message>
         <source>Last visit: %time</source>

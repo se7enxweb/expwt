@@ -144,16 +144,16 @@
         <translation>tələb olunur</translation>
     </message>
     <message>
-        <source>Publish later or take down at a date</source>
-        <translation>Sonra dərc et və ya bir tarixdə yayımdan çıxar</translation>
-    </message>
-    <message>
         <source>Publish at</source>
         <translation>Dərc vaxtı</translation>
     </message>
     <message>
         <source>Take down at</source>
         <translation>Yayımdan çıxarma vaxtı</translation>
+    </message>
+    <message>
+        <source>Publish later or take down at a date</source>
+        <translation>Sonra dərc et və ya bir tarixdə yayımdan çıxar</translation>
     </message>
     <message>
         <source>In the full editor: %fields</source>
@@ -406,6 +406,30 @@
     <message>
         <source>Done.</source>
         <translation>Hazırdır.</translation>
+    </message>
+    <message>
+        <source>Copy ...</source>
+        <translation>Kopyala ...</translation>
+    </message>
+    <message>
+        <source>Copy "%name" to ...</source>
+        <translation>"%name" kopyala: ...</translation>
+    </message>
+    <message>
+        <source>Copy the page below "%name"?</source>
+        <translation>Səhifə "%name" altına kopyalansın?</translation>
+    </message>
+    <message>
+        <source>Copying ...</source>
+        <translation>Kopyalanır ...</translation>
+    </message>
+    <message>
+        <source>The copy is made. It opens now.</source>
+        <translation>Surət yaradıldı. İndi açılır.</translation>
+    </message>
+    <message>
+        <source>The copy waits for a workflow (an approval).</source>
+        <translation>Surət iş axınını (təsdiqi) gözləyir.</translation>
     </message>
     <message>
         <source>Last visit: %time</source>

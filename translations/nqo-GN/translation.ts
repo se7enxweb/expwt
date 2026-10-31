@@ -144,16 +144,16 @@
         <translation>ߥߊߖߌߓߌ</translation>
     </message>
     <message>
-        <source>Publish later or take down at a date</source>
-        <translation>ߓߌߟߊ߫ ߞߍߣߍ ߞߊ߲߫ ߞߐ߫ ߟߐ߬ ߥߟߊ߫ ߊ߬ ߓߐ߫ ߕߊߙߌߞߌ ߘߏ߫ ߟߊ߫</translation>
-    </message>
-    <message>
         <source>Publish at</source>
         <translation>ߓߌߟߊߟߌ ߥߊߕߌ</translation>
     </message>
     <message>
         <source>Take down at</source>
         <translation>ߓߐߟߌ ߥߊߕߌ</translation>
+    </message>
+    <message>
+        <source>Publish later or take down at a date</source>
+        <translation>ߓߌߟߊ߫ ߞߍߣߍ ߞߊ߲߫ ߞߐ߫ ߟߐ߬ ߥߟߊ߫ ߊ߬ ߓߐ߫ ߕߊߙߌߞߌ ߘߏ߫ ߟߊ߫</translation>
     </message>
     <message>
         <source>In the full editor: %fields</source>
@@ -406,6 +406,30 @@
     <message>
         <source>Done.</source>
         <translation>ߊ ߓߊ߲ߣߊ.</translation>
+    </message>
+    <message>
+        <source>Copy ...</source>
+        <translation>ߓߊߓߌߟߊ߫ ...</translation>
+    </message>
+    <message>
+        <source>Copy "%name" to ...</source>
+        <translation>"%name" ߓߊߓߌߟߊ߫ ...</translation>
+    </message>
+    <message>
+        <source>Copy the page below "%name"?</source>
+        <translation>ߞߐߜ߳ߍ ߓߊߓߌߟߊ߫ "%name" ߘߎ߰ߞߊ߲߬؟</translation>
+    </message>
+    <message>
+        <source>Copying ...</source>
+        <translation>ߓߊߓߌߟߊߟߌ ߦߋ߫ ߞߍ߫ ߟߊ߫ ...</translation>
+    </message>
+    <message>
+        <source>The copy is made. It opens now.</source>
+        <translation>ߓߊߓߌߟߊߟߌ ߓߊ߲߫ ߘߊ߫. ߊ߬ ߦߋ߫ ߦߍߟߍ߫ ߟߊ߫ ߓߊ߯ߣߌ߲߬.</translation>
+    </message>
+    <message>
+        <source>The copy waits for a workflow (an approval).</source>
+        <translation>ߓߊߓߌߟߊߟߌ ߦߋ߫ ߓߊߙߊ ߛߌߟߊ (ߟߊߘߌ߬ߦߊ߬ߟߌ) ߡߊߞߐ߲ߠߐ߲߫ ߠߊ߫.</translation>
     </message>
     <message>
         <source>Last visit: %time</source>

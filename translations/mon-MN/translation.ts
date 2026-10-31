@@ -144,16 +144,16 @@
         <translation>заавал</translation>
     </message>
     <message>
-        <source>Publish later or take down at a date</source>
-        <translation>Дараа нийтлэх эсвэл тодорхой өдөр буулгах</translation>
-    </message>
-    <message>
         <source>Publish at</source>
         <translation>Нийтлэх цаг</translation>
     </message>
     <message>
         <source>Take down at</source>
         <translation>Буулгах цаг</translation>
+    </message>
+    <message>
+        <source>Publish later or take down at a date</source>
+        <translation>Дараа нийтлэх эсвэл тодорхой өдөр буулгах</translation>
     </message>
     <message>
         <source>In the full editor: %fields</source>
@@ -406,6 +406,30 @@
     <message>
         <source>Done.</source>
         <translation>Боллоо.</translation>
+    </message>
+    <message>
+        <source>Copy ...</source>
+        <translation>Хуулах ...</translation>
+    </message>
+    <message>
+        <source>Copy "%name" to ...</source>
+        <translation>"%name"-г хуулах ...</translation>
+    </message>
+    <message>
+        <source>Copy the page below "%name"?</source>
+        <translation>Хуудсыг "%name"-ийн доор хуулах уу?</translation>
+    </message>
+    <message>
+        <source>Copying ...</source>
+        <translation>Хуулж байна ...</translation>
+    </message>
+    <message>
+        <source>The copy is made. It opens now.</source>
+        <translation>Хуулбар үүслээ. Одоо нээгдэж байна.</translation>
+    </message>
+    <message>
+        <source>The copy waits for a workflow (an approval).</source>
+        <translation>Хуулбар ажлын урсгалыг (зөвшөөрлийг) хүлээж байна.</translation>
     </message>
     <message>
         <source>Last visit: %time</source>

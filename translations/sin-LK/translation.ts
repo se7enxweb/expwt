@@ -144,16 +144,16 @@
         <translation>අවශ්‍යයි</translation>
     </message>
     <message>
-        <source>Publish later or take down at a date</source>
-        <translation>පසුව ප්‍රකාශ කරන්න හෝ දිනයකදී ඉවත් කරන්න</translation>
-    </message>
-    <message>
         <source>Publish at</source>
         <translation>ප්‍රකාශ කරන වේලාව</translation>
     </message>
     <message>
         <source>Take down at</source>
         <translation>ඉවත් කරන වේලාව</translation>
+    </message>
+    <message>
+        <source>Publish later or take down at a date</source>
+        <translation>පසුව ප්‍රකාශ කරන්න හෝ දිනයකදී ඉවත් කරන්න</translation>
     </message>
     <message>
         <source>In the full editor: %fields</source>
@@ -406,6 +406,30 @@
     <message>
         <source>Done.</source>
         <translation>නිමයි.</translation>
+    </message>
+    <message>
+        <source>Copy ...</source>
+        <translation>පිටපත් කරන්න ...</translation>
+    </message>
+    <message>
+        <source>Copy "%name" to ...</source>
+        <translation>"%name" පිටපත් කරන්න ...</translation>
+    </message>
+    <message>
+        <source>Copy the page below "%name"?</source>
+        <translation>පිටුව "%name" ට පහළින් පිටපත් කරන්නද?</translation>
+    </message>
+    <message>
+        <source>Copying ...</source>
+        <translation>පිටපත් වෙමින් ...</translation>
+    </message>
+    <message>
+        <source>The copy is made. It opens now.</source>
+        <translation>පිටපත සාදා ඇත. දැන් විවෘත වේ.</translation>
+    </message>
+    <message>
+        <source>The copy waits for a workflow (an approval).</source>
+        <translation>පිටපත කාර්ය ප්‍රවාහයක් (අනුමැතියක්) බලාපොරොත්තුවෙන් සිටී.</translation>
     </message>
     <message>
         <source>Last visit: %time</source>

@@ -105,6 +105,61 @@ class expwtWriter extends expGraphQLWriter
     }
 
     /**
+     * A copy of the page (its published version) below a parent: the steps of the administration's content/copy
+     * (kernel/private/classes/views/content/copy.php), with its checks: the user reads the page and may create its
+     * class below the parent. The parent may be the page's own (a copy beside it). The copy is published through the
+     * content/publish operation (workflows included), its visibility follows the parent, and the copy is audited as
+     * content.node.copy.
+     *
+     * @param int $nodeId the page
+     * @param int $newParentId where the copy goes
+     * @return array status, nodeId, contentId (of the copy)
+     */
+    public function copy( $nodeId, $newParentId )
+    {
+        $node = $this->readableNode( $nodeId );
+        $this->exposedClass( (string)$node->attribute( 'class_identifier' ) );
+        $parent = $this->readableNode( $newParentId );
+        $object = $node->object();
+        if ( !$object instanceof eZContentObject || !$object->canRead()
+             || $parent->checkAccess( 'create', (int)$object->attribute( 'contentclass_id' ), (int)$parent->attribute( 'contentclass_id' ), false, false, $this->userId() ) != 1 )
+            throw self::forbidden();
+
+        $db = eZDB::instance();
+        $db->begin();
+        try
+        {
+            $copy = $object->copy( false );
+            // the section follows the new place (updateSectionID() on publish)
+            $copy->setAttribute( 'section_id', 0 );
+            $copy->store();
+            $version = (int)$copy->attribute( 'current_version' );
+            foreach ( (array)$copy->attribute( 'current' )->attribute( 'node_assignments' ) as $assignment )
+                $assignment->purge();
+            eZNodeAssignment::create( array( 'contentobject_id' => (int)$copy->attribute( 'id' ), 'contentobject_version' => $version,
+                                             'parent_node' => (int)$parent->attribute( 'node_id' ), 'is_main' => 1 ) )->store();
+            $result = eZOperationHandler::execute( 'content', 'publish', array( 'object_id' => (int)$copy->attribute( 'id' ), 'version' => $version ) );
+            $newNode = $copy->attribute( 'main_node' );
+            if ( $newNode instanceof eZContentObjectTreeNode )
+                eZContentObjectTreeNode::updateNodeVisibility( $newNode, $parent );
+            $db->commit();
+        }
+        catch ( Exception $e )
+        {
+            $db->rollback();
+            throw $e;
+        }
+        if ( class_exists( 'expAuditHook' ) )
+            expAuditHook::emit( 'content.node.copy', function () use ( $node, $copy, $newNode, $parent ) {
+                return array( 'object' => expAuditHook::node( $node ), 'target' => expAuditHook::node( $parent ),
+                              'after' => array( 'node' => $newNode ? (int)$newNode->attribute( 'node_id' ) : null, 'object_id' => (int)$copy->attribute( 'id' ) ) );
+            } );
+        $status = $newNode instanceof eZContentObjectTreeNode ? self::DONE : self::workflowStatus( $result, self::DONE );
+        return array( 'status' => $status, 'contentId' => (int)$copy->attribute( 'id' ),
+                      'nodeId' => $newNode instanceof eZContentObjectTreeNode ? (int)$newNode->attribute( 'node_id' ) : null );
+    }
+
+    /**
      * @param eZContentObjectVersion $version
      * @param string $language
      * @return string[] identifiers of required fields without content

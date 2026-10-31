@@ -144,16 +144,16 @@
         <translation>गरजेचें</translation>
     </message>
     <message>
-        <source>Publish later or take down at a date</source>
-        <translation>उपरांत प्रकाशीत करात वा एका तारखेक काडून उडयात</translation>
-    </message>
-    <message>
         <source>Publish at</source>
         <translation>प्रकाशीत करपाचो वेळ</translation>
     </message>
     <message>
         <source>Take down at</source>
         <translation>काडून उडोवपाचो वेळ</translation>
+    </message>
+    <message>
+        <source>Publish later or take down at a date</source>
+        <translation>उपरांत प्रकाशीत करात वा एका तारखेक काडून उडयात</translation>
     </message>
     <message>
         <source>In the full editor: %fields</source>
@@ -406,6 +406,30 @@
     <message>
         <source>Done.</source>
         <translation>जालें.</translation>
+    </message>
+    <message>
+        <source>Copy ...</source>
+        <translation>प्रत करात ...</translation>
+    </message>
+    <message>
+        <source>Copy "%name" to ...</source>
+        <translation>"%name" प्रत करात ...</translation>
+    </message>
+    <message>
+        <source>Copy the page below "%name"?</source>
+        <translation>पान "%name" सकयल प्रत करचें?</translation>
+    </message>
+    <message>
+        <source>Copying ...</source>
+        <translation>प्रत करता ...</translation>
+    </message>
+    <message>
+        <source>The copy is made. It opens now.</source>
+        <translation>प्रत तयार जाली. आतां उगडटा.</translation>
+    </message>
+    <message>
+        <source>The copy waits for a workflow (an approval).</source>
+        <translation>प्रत एका वर्कफ्लोची (मान्यतेची) वाट पळयता.</translation>
     </message>
     <message>
         <source>Last visit: %time</source>

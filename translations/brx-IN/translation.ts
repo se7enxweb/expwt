@@ -144,16 +144,16 @@
         <translation>गोनांथार</translation>
     </message>
     <message>
-        <source>Publish later or take down at a date</source>
-        <translation>उनाव फोसाव नङा मोनसे अक्ट'आव ओखार</translation>
-    </message>
-    <message>
         <source>Publish at</source>
         <translation>फोसावनाय सम</translation>
     </message>
     <message>
         <source>Take down at</source>
         <translation>ओखारनाय सम</translation>
+    </message>
+    <message>
+        <source>Publish later or take down at a date</source>
+        <translation>उनाव फोसाव नङा मोनसे अक्ट'आव ओखार</translation>
     </message>
     <message>
         <source>In the full editor: %fields</source>
@@ -406,6 +406,30 @@
     <message>
         <source>Done.</source>
         <translation>जानांबाय।</translation>
+    </message>
+    <message>
+        <source>Copy ...</source>
+        <translation>कपि खालाम ...</translation>
+    </message>
+    <message>
+        <source>Copy "%name" to ...</source>
+        <translation>"%name" खौ ... आव कपि खालाम</translation>
+    </message>
+    <message>
+        <source>Copy the page below "%name"?</source>
+        <translation>बिलाइखानाखौ "%name" नि सिङाव कपि खालामनो?</translation>
+    </message>
+    <message>
+        <source>Copying ...</source>
+        <translation>कपि खालामगासिनो दं ...</translation>
+    </message>
+    <message>
+        <source>The copy is made. It opens now.</source>
+        <translation>कपिआ जाखांबाय। दानो खेवगासिनो दं।</translation>
+    </message>
+    <message>
+        <source>The copy waits for a workflow (an approval).</source>
+        <translation>कपिआ मोनसे खामानि लामा (गनायथि) नि थाखाय नेथागासिनो दं।</translation>
     </message>
     <message>
         <source>Last visit: %time</source>

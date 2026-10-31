@@ -144,16 +144,16 @@
         <translation>riatanach</translation>
     </message>
     <message>
-        <source>Publish later or take down at a date</source>
-        <translation>Foillsich nas fhaide air adhart no thoir sìos air ceann-latha</translation>
-    </message>
-    <message>
         <source>Publish at</source>
         <translation>Foillsich air</translation>
     </message>
     <message>
         <source>Take down at</source>
         <translation>Thoir sìos air</translation>
+    </message>
+    <message>
+        <source>Publish later or take down at a date</source>
+        <translation>Foillsich nas fhaide air adhart no thoir sìos air ceann-latha</translation>
     </message>
     <message>
         <source>In the full editor: %fields</source>
@@ -406,6 +406,30 @@
     <message>
         <source>Done.</source>
         <translation>Deiseil.</translation>
+    </message>
+    <message>
+        <source>Copy ...</source>
+        <translation>Dèan lethbhreac ...</translation>
+    </message>
+    <message>
+        <source>Copy "%name" to ...</source>
+        <translation>Dèan lethbhreac de “%name” gu ...</translation>
+    </message>
+    <message>
+        <source>Copy the page below "%name"?</source>
+        <translation>A bheil sibh airson lethbhreac dhen duilleag a dhèanamh fo “%name”?</translation>
+    </message>
+    <message>
+        <source>Copying ...</source>
+        <translation>A’ dèanamh lethbhreac ...</translation>
+    </message>
+    <message>
+        <source>The copy is made. It opens now.</source>
+        <translation>Chaidh an lethbhreac a dhèanamh. Tha e a’ fosgladh a-nis.</translation>
+    </message>
+    <message>
+        <source>The copy waits for a workflow (an approval).</source>
+        <translation>Tha an lethbhreac a’ feitheamh air sruth-obrach (aonta).</translation>
     </message>
     <message>
         <source>Last visit: %time</source>

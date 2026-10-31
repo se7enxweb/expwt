@@ -144,16 +144,16 @@
         <translation>hökmany</translation>
     </message>
     <message>
-        <source>Publish later or take down at a date</source>
-        <translation>Soňra neşir et ýa-da belli bir senede aýyr</translation>
-    </message>
-    <message>
         <source>Publish at</source>
         <translation>Neşir senesi</translation>
     </message>
     <message>
         <source>Take down at</source>
         <translation>Aýyrmak senesi</translation>
+    </message>
+    <message>
+        <source>Publish later or take down at a date</source>
+        <translation>Soňra neşir et ýa-da belli bir senede aýyr</translation>
     </message>
     <message>
         <source>In the full editor: %fields</source>
@@ -406,6 +406,30 @@
     <message>
         <source>Done.</source>
         <translation>Taýýar.</translation>
+    </message>
+    <message>
+        <source>Copy ...</source>
+        <translation>Göçürip al ...</translation>
+    </message>
+    <message>
+        <source>Copy "%name" to ...</source>
+        <translation>"%name" sahypasyny göçürip al ...</translation>
+    </message>
+    <message>
+        <source>Copy the page below "%name"?</source>
+        <translation>Sahypany "%name" aşagyna göçürip almalymy?</translation>
+    </message>
+    <message>
+        <source>Copying ...</source>
+        <translation>Göçürilýär ...</translation>
+    </message>
+    <message>
+        <source>The copy is made. It opens now.</source>
+        <translation>Nusga döredildi. Häzir açylýar.</translation>
+    </message>
+    <message>
+        <source>The copy waits for a workflow (an approval).</source>
+        <translation>Nusga iş akymyna (tassyklama) garaşýar.</translation>
     </message>
     <message>
         <source>Last visit: %time</source>

@@ -144,16 +144,16 @@
         <translation>ehiã</translation>
     </message>
     <message>
-        <source>Publish later or take down at a date</source>
-        <translation>Ɖe ɖe dutoƒo emegbe alo ɖe ɖa le ŋkeke aɖe dzi</translation>
-    </message>
-    <message>
         <source>Publish at</source>
         <translation>Ɖe ɖe dutoƒo le</translation>
     </message>
     <message>
         <source>Take down at</source>
         <translation>Ɖe ɖa le</translation>
+    </message>
+    <message>
+        <source>Publish later or take down at a date</source>
+        <translation>Ɖe ɖe dutoƒo emegbe alo ɖe ɖa le ŋkeke aɖe dzi</translation>
     </message>
     <message>
         <source>In the full editor: %fields</source>
@@ -406,6 +406,30 @@
     <message>
         <source>Done.</source>
         <translation>Ewu enu.</translation>
+    </message>
+    <message>
+        <source>Copy ...</source>
+        <translation>Kɔpi ...</translation>
+    </message>
+    <message>
+        <source>Copy "%name" to ...</source>
+        <translation>Kɔpi “%name” yi ...</translation>
+    </message>
+    <message>
+        <source>Copy the page below "%name"?</source>
+        <translation>Èdi be yeakɔpi axa la ayi “%name” te a?</translation>
+    </message>
+    <message>
+        <source>Copying ...</source>
+        <translation>Le kɔpi wɔm ...</translation>
+    </message>
+    <message>
+        <source>The copy is made. It opens now.</source>
+        <translation>Wowɔ kɔpi la vɔ. Ele eʋum fifia.</translation>
+    </message>
+    <message>
+        <source>The copy waits for a workflow (an approval).</source>
+        <translation>Kɔpi la le dɔwɔɖoɖo aɖe (ɖeɖe ɖe edzi) lalam.</translation>
     </message>
     <message>
         <source>Last visit: %time</source>

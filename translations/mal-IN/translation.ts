@@ -144,16 +144,16 @@
         <translation>ആവശ്യമാണ്</translation>
     </message>
     <message>
-        <source>Publish later or take down at a date</source>
-        <translation>പിന്നീട് പ്രസിദ്ധീകരിക്കുക അല്ലെങ്കിൽ ഒരു തീയതിയിൽ നീക്കം ചെയ്യുക</translation>
-    </message>
-    <message>
         <source>Publish at</source>
         <translation>പ്രസിദ്ധീകരിക്കുന്ന സമയം</translation>
     </message>
     <message>
         <source>Take down at</source>
         <translation>നീക്കം ചെയ്യുന്ന സമയം</translation>
+    </message>
+    <message>
+        <source>Publish later or take down at a date</source>
+        <translation>പിന്നീട് പ്രസിദ്ധീകരിക്കുക അല്ലെങ്കിൽ ഒരു തീയതിയിൽ നീക്കം ചെയ്യുക</translation>
     </message>
     <message>
         <source>In the full editor: %fields</source>
@@ -406,6 +406,30 @@
     <message>
         <source>Done.</source>
         <translation>പൂർത്തിയായി.</translation>
+    </message>
+    <message>
+        <source>Copy ...</source>
+        <translation>പകർത്തുക ...</translation>
+    </message>
+    <message>
+        <source>Copy "%name" to ...</source>
+        <translation>"%name" ഇവിടേക്ക് പകർത്തുക ...</translation>
+    </message>
+    <message>
+        <source>Copy the page below "%name"?</source>
+        <translation>പേജ് "%name" ന് താഴേക്ക് പകർത്തണോ?</translation>
+    </message>
+    <message>
+        <source>Copying ...</source>
+        <translation>പകർത്തുന്നു ...</translation>
+    </message>
+    <message>
+        <source>The copy is made. It opens now.</source>
+        <translation>പകർപ്പ് തയ്യാറായി. ഇപ്പോൾ തുറക്കുന്നു.</translation>
+    </message>
+    <message>
+        <source>The copy waits for a workflow (an approval).</source>
+        <translation>പകർപ്പ് ഒരു വർക്ക്ഫ്ലോയ്ക്കായി (അംഗീകാരത്തിനായി) കാത്തിരിക്കുന്നു.</translation>
     </message>
     <message>
         <source>Last visit: %time</source>

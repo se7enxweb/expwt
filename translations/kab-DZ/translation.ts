@@ -144,16 +144,16 @@
         <translation>yettwasra</translation>
     </message>
     <message>
-        <source>Publish later or take down at a date</source>
-        <translation>Siẓreg ticki neɣ kkes deg yiwen n wazemz</translation>
-    </message>
-    <message>
         <source>Publish at</source>
         <translation>Siẓreg deg</translation>
     </message>
     <message>
         <source>Take down at</source>
         <translation>Kkes deg</translation>
+    </message>
+    <message>
+        <source>Publish later or take down at a date</source>
+        <translation>Siẓreg ticki neɣ kkes deg yiwen n wazemz</translation>
     </message>
     <message>
         <source>In the full editor: %fields</source>
@@ -406,6 +406,30 @@
     <message>
         <source>Done.</source>
         <translation>Yekfa.</translation>
+    </message>
+    <message>
+        <source>Copy ...</source>
+        <translation>Nɣel ...</translation>
+    </message>
+    <message>
+        <source>Copy "%name" to ...</source>
+        <translation>Nɣel "%name" ɣer ...</translation>
+    </message>
+    <message>
+        <source>Copy the page below "%name"?</source>
+        <translation>Ad tneɣleḍ asebter ddaw "%name"?</translation>
+    </message>
+    <message>
+        <source>Copying ...</source>
+        <translation>Anɣal ...</translation>
+    </message>
+    <message>
+        <source>The copy is made. It opens now.</source>
+        <translation>Anɣal yemmed. Ad yeldi tura.</translation>
+    </message>
+    <message>
+        <source>The copy waits for a workflow (an approval).</source>
+        <translation>Anɣal yettraǧu akala n umahil (asentem).</translation>
     </message>
     <message>
         <source>Last visit: %time</source>

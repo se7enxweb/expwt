@@ -144,16 +144,16 @@
         <translation>kyetaagisa</translation>
     </message>
     <message>
-        <source>Publish later or take down at a date</source>
-        <translation>Fulumya oluvannyuma oba ggyawo ku nnaku</translation>
-    </message>
-    <message>
         <source>Publish at</source>
         <translation>Fulumya ku</translation>
     </message>
     <message>
         <source>Take down at</source>
         <translation>Ggyawo ku</translation>
+    </message>
+    <message>
+        <source>Publish later or take down at a date</source>
+        <translation>Fulumya oluvannyuma oba ggyawo ku nnaku</translation>
     </message>
     <message>
         <source>In the full editor: %fields</source>
@@ -406,6 +406,30 @@
     <message>
         <source>Done.</source>
         <translation>Kiwedde.</translation>
+    </message>
+    <message>
+        <source>Copy ...</source>
+        <translation>Koppa ...</translation>
+    </message>
+    <message>
+        <source>Copy "%name" to ...</source>
+        <translation>Koppa "%name" okudda ...</translation>
+    </message>
+    <message>
+        <source>Copy the page below "%name"?</source>
+        <translation>Olupapula lukoppibwe wansi wa "%name"?</translation>
+    </message>
+    <message>
+        <source>Copying ...</source>
+        <translation>Kikoppebwa ...</translation>
+    </message>
+    <message>
+        <source>The copy is made. It opens now.</source>
+        <translation>Kkopi ekoleddwa. Eggulwawo kaakano.</translation>
+    </message>
+    <message>
+        <source>The copy waits for a workflow (an approval).</source>
+        <translation>Kkopi erindiridde enkola y'emirimu (okukkirizibwa).</translation>
     </message>
     <message>
         <source>Last visit: %time</source>

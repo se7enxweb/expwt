@@ -144,16 +144,16 @@
         <translation>လိုအပ်သည်</translation>
     </message>
     <message>
-        <source>Publish later or take down at a date</source>
-        <translation>နောက်မှ ထုတ်ဝေရန် သို့မဟုတ် ရက်စွဲတစ်ခုတွင် ဖြုတ်ချရန်</translation>
-    </message>
-    <message>
         <source>Publish at</source>
         <translation>ထုတ်ဝေမည့်အချိန်</translation>
     </message>
     <message>
         <source>Take down at</source>
         <translation>ဖြုတ်ချမည့်အချိန်</translation>
+    </message>
+    <message>
+        <source>Publish later or take down at a date</source>
+        <translation>နောက်မှ ထုတ်ဝေရန် သို့မဟုတ် ရက်စွဲတစ်ခုတွင် ဖြုတ်ချရန်</translation>
     </message>
     <message>
         <source>In the full editor: %fields</source>
@@ -406,6 +406,30 @@
     <message>
         <source>Done.</source>
         <translation>ပြီးပါပြီ။</translation>
+    </message>
+    <message>
+        <source>Copy ...</source>
+        <translation>ကူးယူရန် ...</translation>
+    </message>
+    <message>
+        <source>Copy "%name" to ...</source>
+        <translation>"%name" ကို ကူးယူရန် ...</translation>
+    </message>
+    <message>
+        <source>Copy the page below "%name"?</source>
+        <translation>စာမျက်နှာကို "%name" အောက်သို့ ကူးယူမလား။</translation>
+    </message>
+    <message>
+        <source>Copying ...</source>
+        <translation>ကူးယူနေသည် ...</translation>
+    </message>
+    <message>
+        <source>The copy is made. It opens now.</source>
+        <translation>မိတ္တူ ပြုလုပ်ပြီးပါပြီ။ ယခု ဖွင့်နေသည်။</translation>
+    </message>
+    <message>
+        <source>The copy waits for a workflow (an approval).</source>
+        <translation>မိတ္တူသည် လုပ်ငန်းစဉ်တစ်ခု (အတည်ပြုချက်) ကို စောင့်နေသည်။</translation>
     </message>
     <message>
         <source>Last visit: %time</source>

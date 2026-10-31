@@ -144,16 +144,16 @@
         <translation>አስፈላጊ</translation>
     </message>
     <message>
-        <source>Publish later or take down at a date</source>
-        <translation>በኋላ አትም ወይም በተወሰነ ቀን አውርድ</translation>
-    </message>
-    <message>
         <source>Publish at</source>
         <translation>የሚታተምበት</translation>
     </message>
     <message>
         <source>Take down at</source>
         <translation>የሚወርድበት</translation>
+    </message>
+    <message>
+        <source>Publish later or take down at a date</source>
+        <translation>በኋላ አትም ወይም በተወሰነ ቀን አውርድ</translation>
     </message>
     <message>
         <source>In the full editor: %fields</source>
@@ -406,6 +406,30 @@
     <message>
         <source>Done.</source>
         <translation>ተጠናቋል።</translation>
+    </message>
+    <message>
+        <source>Copy ...</source>
+        <translation>ቅዳ ...</translation>
+    </message>
+    <message>
+        <source>Copy "%name" to ...</source>
+        <translation>"%name"ን ወደ ... ቅዳ</translation>
+    </message>
+    <message>
+        <source>Copy the page below "%name"?</source>
+        <translation>ገጹ ከ"%name" በታች ይቀዳ?</translation>
+    </message>
+    <message>
+        <source>Copying ...</source>
+        <translation>በመቅዳት ላይ ...</translation>
+    </message>
+    <message>
+        <source>The copy is made. It opens now.</source>
+        <translation>ቅጂው ተሰርቷል። አሁን ይከፈታል።</translation>
+    </message>
+    <message>
+        <source>The copy waits for a workflow (an approval).</source>
+        <translation>ቅጂው የስራ ፍሰትን (ማጽደቅን) እየጠበቀ ነው።</translation>
     </message>
     <message>
         <source>Last visit: %time</source>

@@ -908,6 +908,9 @@
       if (p.can.move) {
         acts.appendChild(h('button', { type: 'button', class: 'wt-btn', text: t('Move ...'), onclick: function () { picker(ctx, root, 'tree.move', p); } }));
       }
+      if (p.can.copy) {
+        acts.appendChild(h('button', { type: 'button', class: 'wt-btn', text: t('Copy ...'), onclick: function () { picker(ctx, root, 'tree.copy', p); } }));
+      }
       acts.appendChild(h('button', { type: 'button', class: 'wt-btn', text: t('Add location ...'), onclick: function () { picker(ctx, root, 'tree.addlocation', p); } }));
       if (p.can.remove) {
         acts.appendChild(h('button', { type: 'button', class: 'wt-btn is-danger', text: t('Move to trash'), onclick: function () {
@@ -989,7 +992,8 @@
     var h = ctx.h;
     var t = ctx.t;
     root.textContent = '';
-    var title = action === 'tree.move' ? t('Move "%name" to ...') : t('Add "%name" also below ...');
+    /* a copy: the picker opens at the page's parent, whose own Choose puts the copy beside the page */
+    var title = action === 'tree.move' ? t('Move "%name" to ...') : action === 'tree.copy' ? t('Copy "%name" to ...') : t('Add "%name" also below ...');
     var heading = h('h3', { text: title.replace('%name', p.name) });
     var list = h('ul', { class: 'wt-list wt-strip', tabindex: '0', 'aria-label': title.replace('%name', p.name) });
     var where = h('p', { class: 'wt-muted' });
@@ -1016,8 +1020,19 @@
       }, function (e) { failure(ctx, e); });
     }
     function choose(parentId, name) {
-      if (!window.confirm((action === 'tree.move' ? t('Move the page below "%name"?') : t('Add the page also below "%name"?')).replace('%name', name))) { return; }
-      ctx.call(action, { nodeId: ctx.node, parentId: parentId }).then(function () {
+      var ask = action === 'tree.move' ? t('Move the page below "%name"?') : action === 'tree.copy' ? t('Copy the page below "%name"?') : t('Add the page also below "%name"?');
+      if (!window.confirm(ask.replace('%name', name))) { return; }
+      if (action === 'tree.copy') { ctx.say(t('Copying ...')); }
+      ctx.call(action, { nodeId: ctx.node, parentId: parentId }).then(function (r) {
+        if (action === 'tree.copy') {
+          if (r && r.url) {
+            ctx.say(t('The copy is made. It opens now.'), 'ok');
+            setTimeout(function () { window.location.href = r.url; }, 400);
+          } else {
+            ctx.say(t('The copy waits for a workflow (an approval).'), 'ok');
+          }
+          return;
+        }
         ctx.say(t('Done.'), 'ok');
         setTimeout(function () { window.location.reload(); }, 400);
       }, function (e) { failure(ctx, e); });

@@ -144,16 +144,16 @@
         <translation>gofynnol</translation>
     </message>
     <message>
-        <source>Publish later or take down at a date</source>
-        <translation>Cyhoeddi'n hwyrach neu dynnu i lawr ar ddyddiad</translation>
-    </message>
-    <message>
         <source>Publish at</source>
         <translation>Cyhoeddi am</translation>
     </message>
     <message>
         <source>Take down at</source>
         <translation>Tynnu i lawr am</translation>
+    </message>
+    <message>
+        <source>Publish later or take down at a date</source>
+        <translation>Cyhoeddi'n hwyrach neu dynnu i lawr ar ddyddiad</translation>
     </message>
     <message>
         <source>In the full editor: %fields</source>
@@ -406,6 +406,30 @@
     <message>
         <source>Done.</source>
         <translation>Wedi'i wneud.</translation>
+    </message>
+    <message>
+        <source>Copy ...</source>
+        <translation>Copïo ...</translation>
+    </message>
+    <message>
+        <source>Copy "%name" to ...</source>
+        <translation>Copïo "%name" i ...</translation>
+    </message>
+    <message>
+        <source>Copy the page below "%name"?</source>
+        <translation>Copïo'r dudalen o dan "%name"?</translation>
+    </message>
+    <message>
+        <source>Copying ...</source>
+        <translation>Wrthi'n copïo ...</translation>
+    </message>
+    <message>
+        <source>The copy is made. It opens now.</source>
+        <translation>Mae'r copi wedi'i wneud. Mae'n agor nawr.</translation>
+    </message>
+    <message>
+        <source>The copy waits for a workflow (an approval).</source>
+        <translation>Mae'r copi'n aros am lif gwaith (cymeradwyaeth).</translation>
     </message>
     <message>
         <source>Last visit: %time</source>

@@ -144,16 +144,16 @@
         <translation>தேவை</translation>
     </message>
     <message>
-        <source>Publish later or take down at a date</source>
-        <translation>பின்னர் வெளியிடு அல்லது ஒரு தேதியில் அகற்று</translation>
-    </message>
-    <message>
         <source>Publish at</source>
         <translation>வெளியிடும் நேரம்</translation>
     </message>
     <message>
         <source>Take down at</source>
         <translation>அகற்றும் நேரம்</translation>
+    </message>
+    <message>
+        <source>Publish later or take down at a date</source>
+        <translation>பின்னர் வெளியிடு அல்லது ஒரு தேதியில் அகற்று</translation>
     </message>
     <message>
         <source>In the full editor: %fields</source>
@@ -406,6 +406,30 @@
     <message>
         <source>Done.</source>
         <translation>முடிந்தது.</translation>
+    </message>
+    <message>
+        <source>Copy ...</source>
+        <translation>நகலெடு ...</translation>
+    </message>
+    <message>
+        <source>Copy "%name" to ...</source>
+        <translation>"%name" ஐ நகலெடு ...</translation>
+    </message>
+    <message>
+        <source>Copy the page below "%name"?</source>
+        <translation>பக்கத்தை "%name" இன் கீழ் நகலெடுக்கவா?</translation>
+    </message>
+    <message>
+        <source>Copying ...</source>
+        <translation>நகலெடுக்கப்படுகிறது ...</translation>
+    </message>
+    <message>
+        <source>The copy is made. It opens now.</source>
+        <translation>நகல் உருவாக்கப்பட்டது. இப்போது திறக்கிறது.</translation>
+    </message>
+    <message>
+        <source>The copy waits for a workflow (an approval).</source>
+        <translation>நகல் ஒரு பணிப்பாய்வுக்காக (ஒப்புதலுக்காக) காத்திருக்கிறது.</translation>
     </message>
     <message>
         <source>Last visit: %time</source>

@@ -144,16 +144,16 @@
         <translation>required</translation>
     </message>
     <message>
-        <source>Publish later or take down at a date</source>
-        <translation>Publish later or take down on a date</translation>
-    </message>
-    <message>
         <source>Publish at</source>
         <translation>Publish on</translation>
     </message>
     <message>
         <source>Take down at</source>
         <translation>Take down on</translation>
+    </message>
+    <message>
+        <source>Publish later or take down at a date</source>
+        <translation>Publish later or take down on a date</translation>
     </message>
     <message>
         <source>In the full editor: %fields</source>
@@ -406,6 +406,30 @@
     <message>
         <source>Done.</source>
         <translation>Done.</translation>
+    </message>
+    <message>
+        <source>Copy ...</source>
+        <translation>Copy ...</translation>
+    </message>
+    <message>
+        <source>Copy "%name" to ...</source>
+        <translation>Copy “%name” to ...</translation>
+    </message>
+    <message>
+        <source>Copy the page below "%name"?</source>
+        <translation>Copy the page below “%name”?</translation>
+    </message>
+    <message>
+        <source>Copying ...</source>
+        <translation>Copying ...</translation>
+    </message>
+    <message>
+        <source>The copy is made. It opens now.</source>
+        <translation>The copy is made. It opens now.</translation>
+    </message>
+    <message>
+        <source>The copy waits for a workflow (an approval).</source>
+        <translation>The copy waits for a workflow (an approval).</translation>
     </message>
     <message>
         <source>Last visit: %time</source>

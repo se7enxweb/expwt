@@ -144,16 +144,16 @@
         <translation>obvezno</translation>
     </message>
     <message>
-        <source>Publish later or take down at a date</source>
-        <translation>Objavi pozneje ali umakni na določen datum</translation>
-    </message>
-    <message>
         <source>Publish at</source>
         <translation>Objavi ob</translation>
     </message>
     <message>
         <source>Take down at</source>
         <translation>Umakni ob</translation>
+    </message>
+    <message>
+        <source>Publish later or take down at a date</source>
+        <translation>Objavi pozneje ali umakni na določen datum</translation>
     </message>
     <message>
         <source>In the full editor: %fields</source>
@@ -406,6 +406,30 @@
     <message>
         <source>Done.</source>
         <translation>Končano.</translation>
+    </message>
+    <message>
+        <source>Copy ...</source>
+        <translation>Kopiraj ...</translation>
+    </message>
+    <message>
+        <source>Copy "%name" to ...</source>
+        <translation>Kopiraj »%name« v ...</translation>
+    </message>
+    <message>
+        <source>Copy the page below "%name"?</source>
+        <translation>Kopiram stran pod »%name«?</translation>
+    </message>
+    <message>
+        <source>Copying ...</source>
+        <translation>Kopiranje ...</translation>
+    </message>
+    <message>
+        <source>The copy is made. It opens now.</source>
+        <translation>Kopija je narejena. Zdaj se odpre.</translation>
+    </message>
+    <message>
+        <source>The copy waits for a workflow (an approval).</source>
+        <translation>Kopija čaka na potek dela (odobritev).</translation>
     </message>
     <message>
         <source>Last visit: %time</source>

@@ -144,16 +144,16 @@
         <translation>pêwîst</translation>
     </message>
     <message>
-        <source>Publish later or take down at a date</source>
-        <translation>Paşê biweşîne an di dîrokekê de rake</translation>
-    </message>
-    <message>
         <source>Publish at</source>
         <translation>Weşandin li</translation>
     </message>
     <message>
         <source>Take down at</source>
         <translation>Rakirin li</translation>
+    </message>
+    <message>
+        <source>Publish later or take down at a date</source>
+        <translation>Paşê biweşîne an di dîrokekê de rake</translation>
     </message>
     <message>
         <source>In the full editor: %fields</source>
@@ -406,6 +406,30 @@
     <message>
         <source>Done.</source>
         <translation>Qediya.</translation>
+    </message>
+    <message>
+        <source>Copy ...</source>
+        <translation>Kopî bike...</translation>
+    </message>
+    <message>
+        <source>Copy "%name" to ...</source>
+        <translation>"%name" kopî bike...</translation>
+    </message>
+    <message>
+        <source>Copy the page below "%name"?</source>
+        <translation>Rûpelê li bin "%name" kopî bikî?</translation>
+    </message>
+    <message>
+        <source>Copying ...</source>
+        <translation>Tê kopîkirin...</translation>
+    </message>
+    <message>
+        <source>The copy is made. It opens now.</source>
+        <translation>Kopî hat çêkirin. Niha vedibe.</translation>
+    </message>
+    <message>
+        <source>The copy waits for a workflow (an approval).</source>
+        <translation>Kopî li benda herikîna karekî (pejirandinekê) ye.</translation>
     </message>
     <message>
         <source>Last visit: %time</source>

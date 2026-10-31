@@ -144,16 +144,16 @@
         <translation>wajib</translation>
     </message>
     <message>
-        <source>Publish later or take down at a date</source>
-        <translation>Terbitkan kemudian atau turunkan pada tarikh tertentu</translation>
-    </message>
-    <message>
         <source>Publish at</source>
         <translation>Terbitkan pada</translation>
     </message>
     <message>
         <source>Take down at</source>
         <translation>Turunkan pada</translation>
+    </message>
+    <message>
+        <source>Publish later or take down at a date</source>
+        <translation>Terbitkan kemudian atau turunkan pada tarikh tertentu</translation>
     </message>
     <message>
         <source>In the full editor: %fields</source>
@@ -406,6 +406,30 @@
     <message>
         <source>Done.</source>
         <translation>Selesai.</translation>
+    </message>
+    <message>
+        <source>Copy ...</source>
+        <translation>Salin ...</translation>
+    </message>
+    <message>
+        <source>Copy "%name" to ...</source>
+        <translation>Salin "%name" ke ...</translation>
+    </message>
+    <message>
+        <source>Copy the page below "%name"?</source>
+        <translation>Salin halaman ke bawah "%name"?</translation>
+    </message>
+    <message>
+        <source>Copying ...</source>
+        <translation>Menyalin ...</translation>
+    </message>
+    <message>
+        <source>The copy is made. It opens now.</source>
+        <translation>Salinan telah dibuat. Ia dibuka sekarang.</translation>
+    </message>
+    <message>
+        <source>The copy waits for a workflow (an approval).</source>
+        <translation>Salinan menunggu aliran kerja (kelulusan).</translation>
     </message>
     <message>
         <source>Last visit: %time</source>

@@ -144,16 +144,16 @@
         <translation>ضروٗری</translation>
     </message>
     <message>
-        <source>Publish later or take down at a date</source>
-        <translation>پَتہٕ شایع کٔرِو یا کُنہِ تٲریخِ ہٹٲوِو</translation>
-    </message>
-    <message>
         <source>Publish at</source>
         <translation>شایع کرنُک وَقت</translation>
     </message>
     <message>
         <source>Take down at</source>
         <translation>ہٹاونُک وَقت</translation>
+    </message>
+    <message>
+        <source>Publish later or take down at a date</source>
+        <translation>پَتہٕ شایع کٔرِو یا کُنہِ تٲریخِ ہٹٲوِو</translation>
     </message>
     <message>
         <source>In the full editor: %fields</source>
@@ -406,6 +406,30 @@
     <message>
         <source>Done.</source>
         <translation>مُکمل۔</translation>
+    </message>
+    <message>
+        <source>Copy ...</source>
+        <translation>نقل کٔرِو ...</translation>
+    </message>
+    <message>
+        <source>Copy "%name" to ...</source>
+        <translation>"%name" نقل کٔرِو ...</translation>
+    </message>
+    <message>
+        <source>Copy the page below "%name"?</source>
+        <translation>صفحہٕ "%name" تَل نقل کرُن؟</translation>
+    </message>
+    <message>
+        <source>Copying ...</source>
+        <translation>نقل گژھان ...</translation>
+    </message>
+    <message>
+        <source>The copy is made. It opens now.</source>
+        <translation>نقل آو بناونہٕ۔ وۅنۍ چھُ کھُلان۔</translation>
+    </message>
+    <message>
+        <source>The copy waits for a workflow (an approval).</source>
+        <translation>نقل چھُ ورک فلو (منظوٗری) ہُند انتظار کران۔</translation>
     </message>
     <message>
         <source>Last visit: %time</source>

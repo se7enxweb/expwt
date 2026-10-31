@@ -144,16 +144,16 @@
         <translation>birakenewe</translation>
     </message>
     <message>
-        <source>Publish later or take down at a date</source>
-        <translation>Tangaza nyuma cyangwa ukureho ku itariki</translation>
-    </message>
-    <message>
         <source>Publish at</source>
         <translation>Tangaza ku wa</translation>
     </message>
     <message>
         <source>Take down at</source>
         <translation>Kuraho ku wa</translation>
+    </message>
+    <message>
+        <source>Publish later or take down at a date</source>
+        <translation>Tangaza nyuma cyangwa ukureho ku itariki</translation>
     </message>
     <message>
         <source>In the full editor: %fields</source>
@@ -406,6 +406,30 @@
     <message>
         <source>Done.</source>
         <translation>Byarangiye.</translation>
+    </message>
+    <message>
+        <source>Copy ...</source>
+        <translation>Koporora ...</translation>
+    </message>
+    <message>
+        <source>Copy "%name" to ...</source>
+        <translation>Koporora "%name" ujyane ...</translation>
+    </message>
+    <message>
+        <source>Copy the page below "%name"?</source>
+        <translation>Gukoporora urupapuro munsi ya "%name"?</translation>
+    </message>
+    <message>
+        <source>Copying ...</source>
+        <translation>Birakoporora ...</translation>
+    </message>
+    <message>
+        <source>The copy is made. It opens now.</source>
+        <translation>Kopi yakozwe. Irafunguka ubu.</translation>
+    </message>
+    <message>
+        <source>The copy waits for a workflow (an approval).</source>
+        <translation>Kopi itegereje urutonde rw'imirimo (kwemezwa).</translation>
     </message>
     <message>
         <source>Last visit: %time</source>

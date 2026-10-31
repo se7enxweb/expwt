@@ -144,16 +144,16 @@
         <translation>اړین</translation>
     </message>
     <message>
-        <source>Publish later or take down at a date</source>
-        <translation>وروسته خپرول یا په یوه نېټه لرې کول</translation>
-    </message>
-    <message>
         <source>Publish at</source>
         <translation>د خپرولو وخت</translation>
     </message>
     <message>
         <source>Take down at</source>
         <translation>د لرې کولو وخت</translation>
+    </message>
+    <message>
+        <source>Publish later or take down at a date</source>
+        <translation>وروسته خپرول یا په یوه نېټه لرې کول</translation>
     </message>
     <message>
         <source>In the full editor: %fields</source>
@@ -406,6 +406,30 @@
     <message>
         <source>Done.</source>
         <translation>بشپړ شو.</translation>
+    </message>
+    <message>
+        <source>Copy ...</source>
+        <translation>کاپي کول ...</translation>
+    </message>
+    <message>
+        <source>Copy "%name" to ...</source>
+        <translation>"%name" کاپي کړئ ...</translation>
+    </message>
+    <message>
+        <source>Copy the page below "%name"?</source>
+        <translation>پاڼه د "%name" لاندې کاپي کړو؟</translation>
+    </message>
+    <message>
+        <source>Copying ...</source>
+        <translation>کاپي کېږي ...</translation>
+    </message>
+    <message>
+        <source>The copy is made. It opens now.</source>
+        <translation>کاپي جوړه شوه. اوس پرانیستل کېږي.</translation>
+    </message>
+    <message>
+        <source>The copy waits for a workflow (an approval).</source>
+        <translation>کاپي د یوه کاري بهیر (تایید) په تمه ده.</translation>
     </message>
     <message>
         <source>Last visit: %time</source>

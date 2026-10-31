@@ -144,16 +144,16 @@
         <translation>আবশ্যক</translation>
     </message>
     <message>
-        <source>Publish later or take down at a date</source>
-        <translation>পরে প্রকাশ করুন বা কোনো তারিখে সরিয়ে নিন</translation>
-    </message>
-    <message>
         <source>Publish at</source>
         <translation>প্রকাশের সময়</translation>
     </message>
     <message>
         <source>Take down at</source>
         <translation>সরানোর সময়</translation>
+    </message>
+    <message>
+        <source>Publish later or take down at a date</source>
+        <translation>পরে প্রকাশ করুন বা কোনো তারিখে সরিয়ে নিন</translation>
     </message>
     <message>
         <source>In the full editor: %fields</source>
@@ -406,6 +406,30 @@
     <message>
         <source>Done.</source>
         <translation>সম্পন্ন।</translation>
+    </message>
+    <message>
+        <source>Copy ...</source>
+        <translation>কপি করুন ...</translation>
+    </message>
+    <message>
+        <source>Copy "%name" to ...</source>
+        <translation>"%name" কপি করুন ...-এ</translation>
+    </message>
+    <message>
+        <source>Copy the page below "%name"?</source>
+        <translation>পৃষ্ঠাটি "%name"-এর নিচে কপি করবেন?</translation>
+    </message>
+    <message>
+        <source>Copying ...</source>
+        <translation>কপি করা হচ্ছে ...</translation>
+    </message>
+    <message>
+        <source>The copy is made. It opens now.</source>
+        <translation>কপি তৈরি হয়েছে। এখন খুলছে।</translation>
+    </message>
+    <message>
+        <source>The copy waits for a workflow (an approval).</source>
+        <translation>কপিটি একটি ওয়ার্কফ্লোর (অনুমোদনের) অপেক্ষায় আছে।</translation>
     </message>
     <message>
         <source>Last visit: %time</source>

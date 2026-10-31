@@ -144,16 +144,16 @@
         <translation>obligatoriu</translation>
     </message>
     <message>
-        <source>Publish later or take down at a date</source>
-        <translation>Publicați mai târziu sau retrageți la o dată</translation>
-    </message>
-    <message>
         <source>Publish at</source>
         <translation>Publicare la</translation>
     </message>
     <message>
         <source>Take down at</source>
         <translation>Retragere la</translation>
+    </message>
+    <message>
+        <source>Publish later or take down at a date</source>
+        <translation>Publicați mai târziu sau retrageți la o dată</translation>
     </message>
     <message>
         <source>In the full editor: %fields</source>
@@ -406,6 +406,30 @@
     <message>
         <source>Done.</source>
         <translation>Gata.</translation>
+    </message>
+    <message>
+        <source>Copy ...</source>
+        <translation>Copiați ...</translation>
+    </message>
+    <message>
+        <source>Copy "%name" to ...</source>
+        <translation>Copiați „%name” în ...</translation>
+    </message>
+    <message>
+        <source>Copy the page below "%name"?</source>
+        <translation>Copiați pagina sub „%name”?</translation>
+    </message>
+    <message>
+        <source>Copying ...</source>
+        <translation>Se copiază ...</translation>
+    </message>
+    <message>
+        <source>The copy is made. It opens now.</source>
+        <translation>Copia este făcută. Se deschide acum.</translation>
+    </message>
+    <message>
+        <source>The copy waits for a workflow (an approval).</source>
+        <translation>Copia așteaptă un flux de lucru (o aprobare).</translation>
     </message>
     <message>
         <source>Last visit: %time</source>

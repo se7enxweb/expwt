@@ -144,16 +144,16 @@
         <translation>مطلوب</translation>
     </message>
     <message>
-        <source>Publish later or take down at a date</source>
-        <translation>النشر لاحقًا أو الإزالة في تاريخ محدد</translation>
-    </message>
-    <message>
         <source>Publish at</source>
         <translation>النشر في</translation>
     </message>
     <message>
         <source>Take down at</source>
         <translation>الإزالة في</translation>
+    </message>
+    <message>
+        <source>Publish later or take down at a date</source>
+        <translation>النشر لاحقًا أو الإزالة في تاريخ محدد</translation>
     </message>
     <message>
         <source>In the full editor: %fields</source>
@@ -406,6 +406,30 @@
     <message>
         <source>Done.</source>
         <translation>تم.</translation>
+    </message>
+    <message>
+        <source>Copy ...</source>
+        <translation>نسخ ...</translation>
+    </message>
+    <message>
+        <source>Copy "%name" to ...</source>
+        <translation>نسخ "%name" إلى ...</translation>
+    </message>
+    <message>
+        <source>Copy the page below "%name"?</source>
+        <translation>نسخ الصفحة أسفل "%name"؟</translation>
+    </message>
+    <message>
+        <source>Copying ...</source>
+        <translation>جارٍ النسخ ...</translation>
+    </message>
+    <message>
+        <source>The copy is made. It opens now.</source>
+        <translation>تم إنشاء النسخة. ستُفتح الآن.</translation>
+    </message>
+    <message>
+        <source>The copy waits for a workflow (an approval).</source>
+        <translation>النسخة بانتظار سير عمل (موافقة).</translation>
     </message>
     <message>
         <source>Last visit: %time</source>

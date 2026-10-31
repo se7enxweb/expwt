@@ -144,16 +144,16 @@
         <translation>आवश्यक</translation>
     </message>
     <message>
-        <source>Publish later or take down at a date</source>
-        <translation>नंतर प्रकाशित करा किंवा एखाद्या तारखेला काढा</translation>
-    </message>
-    <message>
         <source>Publish at</source>
         <translation>प्रकाशित करण्याची वेळ</translation>
     </message>
     <message>
         <source>Take down at</source>
         <translation>काढण्याची वेळ</translation>
+    </message>
+    <message>
+        <source>Publish later or take down at a date</source>
+        <translation>नंतर प्रकाशित करा किंवा एखाद्या तारखेला काढा</translation>
     </message>
     <message>
         <source>In the full editor: %fields</source>
@@ -406,6 +406,30 @@
     <message>
         <source>Done.</source>
         <translation>झाले.</translation>
+    </message>
+    <message>
+        <source>Copy ...</source>
+        <translation>कॉपी करा ...</translation>
+    </message>
+    <message>
+        <source>Copy "%name" to ...</source>
+        <translation>"%name" येथे कॉपी करा ...</translation>
+    </message>
+    <message>
+        <source>Copy the page below "%name"?</source>
+        <translation>पान "%name" खाली कॉपी करायचे?</translation>
+    </message>
+    <message>
+        <source>Copying ...</source>
+        <translation>कॉपी होत आहे ...</translation>
+    </message>
+    <message>
+        <source>The copy is made. It opens now.</source>
+        <translation>प्रत तयार झाली. आता उघडत आहे.</translation>
+    </message>
+    <message>
+        <source>The copy waits for a workflow (an approval).</source>
+        <translation>प्रत एका वर्कफ्लोची (मंजुरीची) वाट पाहत आहे.</translation>
     </message>
     <message>
         <source>Last visit: %time</source>

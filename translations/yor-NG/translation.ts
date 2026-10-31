@@ -144,16 +144,16 @@
         <translation>pọndandan</translation>
     </message>
     <message>
-        <source>Publish later or take down at a date</source>
-        <translation>Tẹ̀jáde lẹ́yìn náà tàbí yọ kúrò ní ọjọ́ kan</translation>
-    </message>
-    <message>
         <source>Publish at</source>
         <translation>Tẹ̀jáde ní</translation>
     </message>
     <message>
         <source>Take down at</source>
         <translation>Yọ kúrò ní</translation>
+    </message>
+    <message>
+        <source>Publish later or take down at a date</source>
+        <translation>Tẹ̀jáde lẹ́yìn náà tàbí yọ kúrò ní ọjọ́ kan</translation>
     </message>
     <message>
         <source>In the full editor: %fields</source>
@@ -406,6 +406,30 @@
     <message>
         <source>Done.</source>
         <translation>Ó ti parí.</translation>
+    </message>
+    <message>
+        <source>Copy ...</source>
+        <translation>Ṣe ẹ̀dà ...</translation>
+    </message>
+    <message>
+        <source>Copy "%name" to ...</source>
+        <translation>Ṣe ẹ̀dà "%name" sí ...</translation>
+    </message>
+    <message>
+        <source>Copy the page below "%name"?</source>
+        <translation>Ṣé kí o ṣe ẹ̀dà ojú ìwé náà sí abẹ́ "%name"?</translation>
+    </message>
+    <message>
+        <source>Copying ...</source>
+        <translation>Ń ṣe ẹ̀dà ...</translation>
+    </message>
+    <message>
+        <source>The copy is made. It opens now.</source>
+        <translation>A ti ṣe ẹ̀dà náà. Ó ń ṣí báyìí.</translation>
+    </message>
+    <message>
+        <source>The copy waits for a workflow (an approval).</source>
+        <translation>Ẹ̀dà náà ń dúró de ìlànà iṣẹ́ kan (ìfọwọ́sí).</translation>
     </message>
     <message>
         <source>Last visit: %time</source>

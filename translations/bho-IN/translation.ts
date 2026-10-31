@@ -144,16 +144,16 @@
         <translation>जरूरी</translation>
     </message>
     <message>
-        <source>Publish later or take down at a date</source>
-        <translation>बाद में छापीं भा कवनो तारीख के हटाईं</translation>
-    </message>
-    <message>
         <source>Publish at</source>
         <translation>छापे के समय</translation>
     </message>
     <message>
         <source>Take down at</source>
         <translation>हटावे के समय</translation>
+    </message>
+    <message>
+        <source>Publish later or take down at a date</source>
+        <translation>बाद में छापीं भा कवनो तारीख के हटाईं</translation>
     </message>
     <message>
         <source>In the full editor: %fields</source>
@@ -406,6 +406,30 @@
     <message>
         <source>Done.</source>
         <translation>हो गइल।</translation>
+    </message>
+    <message>
+        <source>Copy ...</source>
+        <translation>कॉपी करीं ...</translation>
+    </message>
+    <message>
+        <source>Copy "%name" to ...</source>
+        <translation>"%name" के ... में कॉपी करीं</translation>
+    </message>
+    <message>
+        <source>Copy the page below "%name"?</source>
+        <translation>पन्ना के "%name" के नीचे कॉपी करीं?</translation>
+    </message>
+    <message>
+        <source>Copying ...</source>
+        <translation>कॉपी हो रहल बा ...</translation>
+    </message>
+    <message>
+        <source>The copy is made. It opens now.</source>
+        <translation>कॉपी बन गइल। अब खुल रहल बा।</translation>
+    </message>
+    <message>
+        <source>The copy waits for a workflow (an approval).</source>
+        <translation>कॉपी एगो वर्कफ़्लो (मंजूरी) के इंतजार में बा।</translation>
     </message>
     <message>
         <source>Last visit: %time</source>

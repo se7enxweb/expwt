@@ -144,16 +144,16 @@
         <translation>ܣܢܝܩܐ</translation>
     </message>
     <message>
-        <source>Publish later or take down at a date</source>
-        <translation>ܦܪܘܣ ܒܬܪܟܢ ܐܘ ܫܩܘܠ ܒܣܝܩܘܡܐ</translation>
-    </message>
-    <message>
         <source>Publish at</source>
         <translation>ܦܪܘܣ ܒ</translation>
     </message>
     <message>
         <source>Take down at</source>
         <translation>ܫܩܘܠ ܒ</translation>
+    </message>
+    <message>
+        <source>Publish later or take down at a date</source>
+        <translation>ܦܪܘܣ ܒܬܪܟܢ ܐܘ ܫܩܘܠ ܒܣܝܩܘܡܐ</translation>
     </message>
     <message>
         <source>In the full editor: %fields</source>
@@ -406,6 +406,30 @@
     <message>
         <source>Done.</source>
         <translation>ܫܠܡ.</translation>
+    </message>
+    <message>
+        <source>Copy ...</source>
+        <translation>ܐܥܬܩ ...</translation>
+    </message>
+    <message>
+        <source>Copy "%name" to ...</source>
+        <translation>ܐܥܬܩ "%name" ܠ ...</translation>
+    </message>
+    <message>
+        <source>Copy the page below "%name"?</source>
+        <translation>ܠܡܥܬܩܘ ܦܐܬܐ ܬܚܝܬ "%name"؟</translation>
+    </message>
+    <message>
+        <source>Copying ...</source>
+        <translation>ܡܥܬܩܝܢ ...</translation>
+    </message>
+    <message>
+        <source>The copy is made. It opens now.</source>
+        <translation>ܥܘܬܩܐ ܐܬܥܒܕ. ܗܫܐ ܡܬܦܬܚ.</translation>
+    </message>
+    <message>
+        <source>The copy waits for a workflow (an approval).</source>
+        <translation>ܥܘܬܩܐ ܡܣܟܐ ܠܪܕܝܐ ܕܥܒܕܐ (ܠܫܘܪܪܐ).</translation>
     </message>
     <message>
         <source>Last visit: %time</source>

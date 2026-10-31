@@ -144,16 +144,16 @@
         <translation>obligatoric</translation>
     </message>
     <message>
-        <source>Publish later or take down at a date</source>
-        <translation>Publitgar pli tard u retrair a ina data</translation>
-    </message>
-    <message>
         <source>Publish at</source>
         <translation>Publitgar ils</translation>
     </message>
     <message>
         <source>Take down at</source>
         <translation>Retrair ils</translation>
+    </message>
+    <message>
+        <source>Publish later or take down at a date</source>
+        <translation>Publitgar pli tard u retrair a ina data</translation>
     </message>
     <message>
         <source>In the full editor: %fields</source>
@@ -406,6 +406,30 @@
     <message>
         <source>Done.</source>
         <translation>Fatg.</translation>
+    </message>
+    <message>
+        <source>Copy ...</source>
+        <translation>Copiar ...</translation>
+    </message>
+    <message>
+        <source>Copy "%name" to ...</source>
+        <translation>Copiar «%name» en ...</translation>
+    </message>
+    <message>
+        <source>Copy the page below "%name"?</source>
+        <translation>Copiar la pagina sut «%name»?</translation>
+    </message>
+    <message>
+        <source>Copying ...</source>
+        <translation>La copia vegn fatga ...</translation>
+    </message>
+    <message>
+        <source>The copy is made. It opens now.</source>
+        <translation>La copia è fatga. Ella s'avra ussa.</translation>
+    </message>
+    <message>
+        <source>The copy waits for a workflow (an approval).</source>
+        <translation>La copia spetga in andament da lavur (ina approvaziun).</translation>
     </message>
     <message>
         <source>Last visit: %time</source>

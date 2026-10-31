@@ -144,16 +144,16 @@
         <translation>ਲੋੜੀਂਦਾ</translation>
     </message>
     <message>
-        <source>Publish later or take down at a date</source>
-        <translation>ਬਾਅਦ ਵਿੱਚ ਪ੍ਰਕਾਸ਼ਿਤ ਕਰੋ ਜਾਂ ਕਿਸੇ ਮਿਤੀ 'ਤੇ ਹਟਾਓ</translation>
-    </message>
-    <message>
         <source>Publish at</source>
         <translation>ਪ੍ਰਕਾਸ਼ਨ ਦਾ ਸਮਾਂ</translation>
     </message>
     <message>
         <source>Take down at</source>
         <translation>ਹਟਾਉਣ ਦਾ ਸਮਾਂ</translation>
+    </message>
+    <message>
+        <source>Publish later or take down at a date</source>
+        <translation>ਬਾਅਦ ਵਿੱਚ ਪ੍ਰਕਾਸ਼ਿਤ ਕਰੋ ਜਾਂ ਕਿਸੇ ਮਿਤੀ 'ਤੇ ਹਟਾਓ</translation>
     </message>
     <message>
         <source>In the full editor: %fields</source>
@@ -406,6 +406,30 @@
     <message>
         <source>Done.</source>
         <translation>ਹੋ ਗਿਆ।</translation>
+    </message>
+    <message>
+        <source>Copy ...</source>
+        <translation>ਕਾਪੀ ਕਰੋ ...</translation>
+    </message>
+    <message>
+        <source>Copy "%name" to ...</source>
+        <translation>"%name" ਨੂੰ ਕਾਪੀ ਕਰੋ ...</translation>
+    </message>
+    <message>
+        <source>Copy the page below "%name"?</source>
+        <translation>ਪੰਨੇ ਨੂੰ "%name" ਦੇ ਹੇਠਾਂ ਕਾਪੀ ਕਰੀਏ?</translation>
+    </message>
+    <message>
+        <source>Copying ...</source>
+        <translation>ਕਾਪੀ ਹੋ ਰਿਹਾ ਹੈ ...</translation>
+    </message>
+    <message>
+        <source>The copy is made. It opens now.</source>
+        <translation>ਕਾਪੀ ਬਣ ਗਈ। ਹੁਣ ਖੁੱਲ੍ਹ ਰਹੀ ਹੈ।</translation>
+    </message>
+    <message>
+        <source>The copy waits for a workflow (an approval).</source>
+        <translation>ਕਾਪੀ ਇੱਕ ਵਰਕਫ਼ਲੋ (ਮਨਜ਼ੂਰੀ) ਦੀ ਉਡੀਕ ਵਿੱਚ ਹੈ।</translation>
     </message>
     <message>
         <source>Last visit: %time</source>

@@ -144,16 +144,16 @@
         <translation>nĩbataranĩtio</translation>
     </message>
     <message>
-        <source>Publish later or take down at a date</source>
-        <translation>Cabithia thutha kana ũrute mũthenya ũmwe</translation>
-    </message>
-    <message>
         <source>Publish at</source>
         <translation>Cabithia hĩndĩ ya</translation>
     </message>
     <message>
         <source>Take down at</source>
         <translation>Ruta hĩndĩ ya</translation>
+    </message>
+    <message>
+        <source>Publish later or take down at a date</source>
+        <translation>Cabithia thutha kana ũrute mũthenya ũmwe</translation>
     </message>
     <message>
         <source>In the full editor: %fields</source>
@@ -406,6 +406,30 @@
     <message>
         <source>Done.</source>
         <translation>Nĩ gwathira.</translation>
+    </message>
+    <message>
+        <source>Copy ...</source>
+        <translation>Kobĩa ...</translation>
+    </message>
+    <message>
+        <source>Copy "%name" to ...</source>
+        <translation>Kobĩa "%name" nginya ...</translation>
+    </message>
+    <message>
+        <source>Copy the page below "%name"?</source>
+        <translation>Kobĩa ũrũ rungu rwa "%name"?</translation>
+    </message>
+    <message>
+        <source>Copying ...</source>
+        <translation>Nĩ gũkobĩa ...</translation>
+    </message>
+    <message>
+        <source>The copy is made. It opens now.</source>
+        <translation>Kobĩ nĩ yathondekwo. Nĩĩrahingũka rĩu.</translation>
+    </message>
+    <message>
+        <source>The copy waits for a workflow (an approval).</source>
+        <translation>Kobĩ nĩĩretereire workflow (gwĩtĩkĩrwo).</translation>
     </message>
     <message>
         <source>Last visit: %time</source>

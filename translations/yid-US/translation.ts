@@ -144,16 +144,16 @@
         <translation>נייטיק</translation>
     </message>
     <message>
-        <source>Publish later or take down at a date</source>
-        <translation>פֿאַרעפֿנטלעכן שפּעטער אָדער אַראָפּנעמען אויף אַ דאַטע</translation>
-    </message>
-    <message>
         <source>Publish at</source>
         <translation>פֿאַרעפֿנטלעכן אום</translation>
     </message>
     <message>
         <source>Take down at</source>
         <translation>אַראָפּנעמען אום</translation>
+    </message>
+    <message>
+        <source>Publish later or take down at a date</source>
+        <translation>פֿאַרעפֿנטלעכן שפּעטער אָדער אַראָפּנעמען אויף אַ דאַטע</translation>
     </message>
     <message>
         <source>In the full editor: %fields</source>
@@ -406,6 +406,30 @@
     <message>
         <source>Done.</source>
         <translation>פֿאַרטיק.</translation>
+    </message>
+    <message>
+        <source>Copy ...</source>
+        <translation>קאָפּירן ...</translation>
+    </message>
+    <message>
+        <source>Copy "%name" to ...</source>
+        <translation>קאָפּירן "%name" צו ...</translation>
+    </message>
+    <message>
+        <source>Copy the page below "%name"?</source>
+        <translation>קאָפּירן די זײַט אונטער "%name"?</translation>
+    </message>
+    <message>
+        <source>Copying ...</source>
+        <translation>קאָפּירט ...</translation>
+    </message>
+    <message>
+        <source>The copy is made. It opens now.</source>
+        <translation>די קאָפּיע איז געמאַכט. זי עפֿנט זיך איצט.</translation>
+    </message>
+    <message>
+        <source>The copy waits for a workflow (an approval).</source>
+        <translation>די קאָפּיע וואַרט אויף אַן אַרבעטס־גאַנג (אַ באַשטעטיקונג).</translation>
     </message>
     <message>
         <source>Last visit: %time</source>

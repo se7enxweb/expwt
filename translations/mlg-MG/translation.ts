@@ -144,16 +144,16 @@
         <translation>tsy maintsy</translation>
     </message>
     <message>
-        <source>Publish later or take down at a date</source>
-        <translation>Avoaka any aoriana na esorina amin'ny daty iray</translation>
-    </message>
-    <message>
         <source>Publish at</source>
         <translation>Avoaka amin'ny</translation>
     </message>
     <message>
         <source>Take down at</source>
         <translation>Esorina amin'ny</translation>
+    </message>
+    <message>
+        <source>Publish later or take down at a date</source>
+        <translation>Avoaka any aoriana na esorina amin'ny daty iray</translation>
     </message>
     <message>
         <source>In the full editor: %fields</source>
@@ -406,6 +406,30 @@
     <message>
         <source>Done.</source>
         <translation>Vita.</translation>
+    </message>
+    <message>
+        <source>Copy ...</source>
+        <translation>Adikao ...</translation>
+    </message>
+    <message>
+        <source>Copy "%name" to ...</source>
+        <translation>Adikao "%name" any amin'ny ...</translation>
+    </message>
+    <message>
+        <source>Copy the page below "%name"?</source>
+        <translation>Hadika ambanin'i "%name" ve ny pejy?</translation>
+    </message>
+    <message>
+        <source>Copying ...</source>
+        <translation>Eo am-pandikana ...</translation>
+    </message>
+    <message>
+        <source>The copy is made. It opens now.</source>
+        <translation>Vita ny dika. Misokatra izao.</translation>
+    </message>
+    <message>
+        <source>The copy waits for a workflow (an approval).</source>
+        <translation>Miandry fizotran'asa (fankatoavana) ny dika.</translation>
     </message>
     <message>
         <source>Last visit: %time</source>

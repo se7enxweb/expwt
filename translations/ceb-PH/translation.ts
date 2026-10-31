@@ -144,16 +144,16 @@
         <translation>gikinahanglan</translation>
     </message>
     <message>
-        <source>Publish later or take down at a date</source>
-        <translation>Ipatik unya o kuhaa sa usa ka petsa</translation>
-    </message>
-    <message>
         <source>Publish at</source>
         <translation>Ipatik sa</translation>
     </message>
     <message>
         <source>Take down at</source>
         <translation>Kuhaa sa</translation>
+    </message>
+    <message>
+        <source>Publish later or take down at a date</source>
+        <translation>Ipatik unya o kuhaa sa usa ka petsa</translation>
     </message>
     <message>
         <source>In the full editor: %fields</source>
@@ -406,6 +406,30 @@
     <message>
         <source>Done.</source>
         <translation>Nahuman.</translation>
+    </message>
+    <message>
+        <source>Copy ...</source>
+        <translation>Kopyaha ...</translation>
+    </message>
+    <message>
+        <source>Copy "%name" to ...</source>
+        <translation>Kopyaha ang "%name" sa ...</translation>
+    </message>
+    <message>
+        <source>Copy the page below "%name"?</source>
+        <translation>Kopyaha ang panid ubos sa "%name"?</translation>
+    </message>
+    <message>
+        <source>Copying ...</source>
+        <translation>Nagkopya ...</translation>
+    </message>
+    <message>
+        <source>The copy is made. It opens now.</source>
+        <translation>Nahimo na ang kopya. Moabli na kini karon.</translation>
+    </message>
+    <message>
+        <source>The copy waits for a workflow (an approval).</source>
+        <translation>Ang kopya naghulat sa usa ka workflow (pag-aprubar).</translation>
     </message>
     <message>
         <source>Last visit: %time</source>

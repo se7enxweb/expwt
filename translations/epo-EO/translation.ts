@@ -144,16 +144,16 @@
         <translation>deviga</translation>
     </message>
     <message>
-        <source>Publish later or take down at a date</source>
-        <translation>Publikigi poste aŭ malpublikigi je dato</translation>
-    </message>
-    <message>
         <source>Publish at</source>
         <translation>Publikigi je</translation>
     </message>
     <message>
         <source>Take down at</source>
         <translation>Malpublikigi je</translation>
+    </message>
+    <message>
+        <source>Publish later or take down at a date</source>
+        <translation>Publikigi poste aŭ malpublikigi je dato</translation>
     </message>
     <message>
         <source>In the full editor: %fields</source>
@@ -406,6 +406,30 @@
     <message>
         <source>Done.</source>
         <translation>Farite.</translation>
+    </message>
+    <message>
+        <source>Copy ...</source>
+        <translation>Kopii ...</translation>
+    </message>
+    <message>
+        <source>Copy "%name" to ...</source>
+        <translation>Kopii „%name“ al ...</translation>
+    </message>
+    <message>
+        <source>Copy the page below "%name"?</source>
+        <translation>Ĉu kopii la paĝon sub „%name“?</translation>
+    </message>
+    <message>
+        <source>Copying ...</source>
+        <translation>Kopiado ...</translation>
+    </message>
+    <message>
+        <source>The copy is made. It opens now.</source>
+        <translation>La kopio estas farita. Ĝi nun malfermiĝas.</translation>
+    </message>
+    <message>
+        <source>The copy waits for a workflow (an approval).</source>
+        <translation>La kopio atendas laborfluon (aprobon).</translation>
     </message>
     <message>
         <source>Last visit: %time</source>

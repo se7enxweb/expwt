@@ -144,16 +144,16 @@
         <translation>obligatòri</translation>
     </message>
     <message>
-        <source>Publish later or take down at a date</source>
-        <translation>Publicar mai tard o retirar a una data</translation>
-    </message>
-    <message>
         <source>Publish at</source>
         <translation>Publicar a</translation>
     </message>
     <message>
         <source>Take down at</source>
         <translation>Retirar a</translation>
+    </message>
+    <message>
+        <source>Publish later or take down at a date</source>
+        <translation>Publicar mai tard o retirar a una data</translation>
     </message>
     <message>
         <source>In the full editor: %fields</source>
@@ -406,6 +406,30 @@
     <message>
         <source>Done.</source>
         <translation>Fach.</translation>
+    </message>
+    <message>
+        <source>Copy ...</source>
+        <translation>Copiar ...</translation>
+    </message>
+    <message>
+        <source>Copy "%name" to ...</source>
+        <translation>Copiar « %name » cap a ...</translation>
+    </message>
+    <message>
+        <source>Copy the page below "%name"?</source>
+        <translation>Copiar la pagina jos « %name »?</translation>
+    </message>
+    <message>
+        <source>Copying ...</source>
+        <translation>Còpia en cors ...</translation>
+    </message>
+    <message>
+        <source>The copy is made. It opens now.</source>
+        <translation>La còpia es facha. S'obrís ara.</translation>
+    </message>
+    <message>
+        <source>The copy waits for a workflow (an approval).</source>
+        <translation>La còpia espèra un flux de trabalh (una validacion).</translation>
     </message>
     <message>
         <source>Last visit: %time</source>

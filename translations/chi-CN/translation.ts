@@ -144,16 +144,16 @@
         <translation>必填</translation>
     </message>
     <message>
-        <source>Publish later or take down at a date</source>
-        <translation>稍后发布或在指定日期下线</translation>
-    </message>
-    <message>
         <source>Publish at</source>
         <translation>发布时间</translation>
     </message>
     <message>
         <source>Take down at</source>
         <translation>下线时间</translation>
+    </message>
+    <message>
+        <source>Publish later or take down at a date</source>
+        <translation>稍后发布或在指定日期下线</translation>
     </message>
     <message>
         <source>In the full editor: %fields</source>
@@ -406,6 +406,30 @@
     <message>
         <source>Done.</source>
         <translation>完成。</translation>
+    </message>
+    <message>
+        <source>Copy ...</source>
+        <translation>复制 ...</translation>
+    </message>
+    <message>
+        <source>Copy "%name" to ...</source>
+        <translation>将“%name”复制到 ...</translation>
+    </message>
+    <message>
+        <source>Copy the page below "%name"?</source>
+        <translation>将页面复制到“%name”下？</translation>
+    </message>
+    <message>
+        <source>Copying ...</source>
+        <translation>正在复制 ...</translation>
+    </message>
+    <message>
+        <source>The copy is made. It opens now.</source>
+        <translation>副本已创建，现在打开。</translation>
+    </message>
+    <message>
+        <source>The copy waits for a workflow (an approval).</source>
+        <translation>副本正在等待工作流（审批）。</translation>
     </message>
     <message>
         <source>Last visit: %time</source>

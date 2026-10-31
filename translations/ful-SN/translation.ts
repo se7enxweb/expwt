@@ -144,16 +144,16 @@
         <translation>ɗaminaa</translation>
     </message>
     <message>
-        <source>Publish later or take down at a date</source>
-        <translation>Yaltin caggal walla itt e ñalnde</translation>
-    </message>
-    <message>
         <source>Publish at</source>
         <translation>Yaltin e</translation>
     </message>
     <message>
         <source>Take down at</source>
         <translation>Itt e</translation>
+    </message>
+    <message>
+        <source>Publish later or take down at a date</source>
+        <translation>Yaltin caggal walla itt e ñalnde</translation>
     </message>
     <message>
         <source>In the full editor: %fields</source>
@@ -406,6 +406,30 @@
     <message>
         <source>Done.</source>
         <translation>Gasii.</translation>
+    </message>
+    <message>
+        <source>Copy ...</source>
+        <translation>Natto ...</translation>
+    </message>
+    <message>
+        <source>Copy "%name" to ...</source>
+        <translation>Natto “%name” e ...</translation>
+    </message>
+    <message>
+        <source>Copy the page below "%name"?</source>
+        <translation>Natto hello ngo les “%name”?</translation>
+    </message>
+    <message>
+        <source>Copying ...</source>
+        <translation>Ina natta ...</translation>
+    </message>
+    <message>
+        <source>The copy is made. It opens now.</source>
+        <translation>Natte ngal gasii. Ina uddita jooni.</translation>
+    </message>
+    <message>
+        <source>The copy waits for a workflow (an approval).</source>
+        <translation>Natte ngal ina fadi laawol golle (jaɓgol).</translation>
     </message>
     <message>
         <source>Last visit: %time</source>

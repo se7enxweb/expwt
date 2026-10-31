@@ -144,16 +144,16 @@
         <translation>necesitasqa</translation>
     </message>
     <message>
-        <source>Publish later or take down at a date</source>
-        <translation>Qhipaman rakiy, huk p'unchawpi qichuy</translation>
-    </message>
-    <message>
         <source>Publish at</source>
         <translation>Rakiy</translation>
     </message>
     <message>
         <source>Take down at</source>
         <translation>Qichuy</translation>
+    </message>
+    <message>
+        <source>Publish later or take down at a date</source>
+        <translation>Qhipaman rakiy, huk p'unchawpi qichuy</translation>
     </message>
     <message>
         <source>In the full editor: %fields</source>
@@ -406,6 +406,30 @@
     <message>
         <source>Done.</source>
         <translation>Tukusqa.</translation>
+    </message>
+    <message>
+        <source>Copy ...</source>
+        <translation>Iskaychay ...</translation>
+    </message>
+    <message>
+        <source>Copy "%name" to ...</source>
+        <translation>"%name"-ta iskaychay ...</translation>
+    </message>
+    <message>
+        <source>Copy the page below "%name"?</source>
+        <translation>¿P'anqata "%name" ukhuman iskaychanki?</translation>
+    </message>
+    <message>
+        <source>Copying ...</source>
+        <translation>Iskaychachkan ...</translation>
+    </message>
+    <message>
+        <source>The copy is made. It opens now.</source>
+        <translation>Iskaychasqaqa ruwasqañam. Kunan kichakun.</translation>
+    </message>
+    <message>
+        <source>The copy waits for a workflow (an approval).</source>
+        <translation>Iskaychasqaqa huk llamk'ay puriyta (allinchayta) suyachkan.</translation>
     </message>
     <message>
         <source>Last visit: %time</source>

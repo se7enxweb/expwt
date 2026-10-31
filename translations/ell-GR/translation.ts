@@ -144,16 +144,16 @@
         <translation>υποχρεωτικό</translation>
     </message>
     <message>
-        <source>Publish later or take down at a date</source>
-        <translation>Δημοσίευση αργότερα ή απόσυρση σε ημερομηνία</translation>
-    </message>
-    <message>
         <source>Publish at</source>
         <translation>Δημοσίευση στις</translation>
     </message>
     <message>
         <source>Take down at</source>
         <translation>Απόσυρση στις</translation>
+    </message>
+    <message>
+        <source>Publish later or take down at a date</source>
+        <translation>Δημοσίευση αργότερα ή απόσυρση σε ημερομηνία</translation>
     </message>
     <message>
         <source>In the full editor: %fields</source>
@@ -406,6 +406,30 @@
     <message>
         <source>Done.</source>
         <translation>Ολοκληρώθηκε.</translation>
+    </message>
+    <message>
+        <source>Copy ...</source>
+        <translation>Αντιγραφή ...</translation>
+    </message>
+    <message>
+        <source>Copy "%name" to ...</source>
+        <translation>Αντιγραφή του «%name» σε ...</translation>
+    </message>
+    <message>
+        <source>Copy the page below "%name"?</source>
+        <translation>Αντιγραφή της σελίδας κάτω από το «%name»;</translation>
+    </message>
+    <message>
+        <source>Copying ...</source>
+        <translation>Αντιγραφή σε εξέλιξη ...</translation>
+    </message>
+    <message>
+        <source>The copy is made. It opens now.</source>
+        <translation>Το αντίγραφο δημιουργήθηκε. Ανοίγει τώρα.</translation>
+    </message>
+    <message>
+        <source>The copy waits for a workflow (an approval).</source>
+        <translation>Το αντίγραφο περιμένει μια ροή εργασιών (μια έγκριση).</translation>
     </message>
     <message>
         <source>Last visit: %time</source>

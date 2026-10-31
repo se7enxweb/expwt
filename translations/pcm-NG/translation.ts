@@ -144,16 +144,16 @@
         <translation>must fill</translation>
     </message>
     <message>
-        <source>Publish later or take down at a date</source>
-        <translation>Publish later or comot am for one date</translation>
-    </message>
-    <message>
         <source>Publish at</source>
         <translation>Publish for</translation>
     </message>
     <message>
         <source>Take down at</source>
         <translation>Comot am for</translation>
+    </message>
+    <message>
+        <source>Publish later or take down at a date</source>
+        <translation>Publish later or comot am for one date</translation>
     </message>
     <message>
         <source>In the full editor: %fields</source>
@@ -406,6 +406,30 @@
     <message>
         <source>Done.</source>
         <translation>E don finish.</translation>
+    </message>
+    <message>
+        <source>Copy ...</source>
+        <translation>Copy ...</translation>
+    </message>
+    <message>
+        <source>Copy "%name" to ...</source>
+        <translation>Copy "%name" go ...</translation>
+    </message>
+    <message>
+        <source>Copy the page below "%name"?</source>
+        <translation>Copy di page go under "%name"?</translation>
+    </message>
+    <message>
+        <source>Copying ...</source>
+        <translation>E dey copy ...</translation>
+    </message>
+    <message>
+        <source>The copy is made. It opens now.</source>
+        <translation>Di copy don ready. E dey open now.</translation>
+    </message>
+    <message>
+        <source>The copy waits for a workflow (an approval).</source>
+        <translation>Di copy dey wait for workflow (approval).</translation>
     </message>
     <message>
         <source>Last visit: %time</source>

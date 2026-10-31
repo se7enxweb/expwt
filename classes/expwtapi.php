@@ -103,6 +103,8 @@ class expwtApi
                 return $g->children( self::ids( $input, array( 'nodeId', 'offset' ) ) );
             case 'tree.move':
                 return $g->move( self::ids( $input, array( 'nodeId', 'parentId' ) ) );
+            case 'tree.copy':
+                return $g->copy( self::ids( $input, array( 'nodeId', 'parentId' ) ) );
             case 'tree.addlocation':
                 return $g->addLocation( self::ids( $input, array( 'nodeId', 'parentId' ) ) );
             case 'tree.hide':

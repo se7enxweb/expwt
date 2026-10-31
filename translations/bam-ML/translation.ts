@@ -144,16 +144,16 @@
         <translation>wajibi</translation>
     </message>
     <message>
-        <source>Publish later or take down at a date</source>
-        <translation>A bila kɛnɛ kan kɔfɛ walima a bɔ don dɔ la</translation>
-    </message>
-    <message>
         <source>Publish at</source>
         <translation>A bila kɛnɛ kan</translation>
     </message>
     <message>
         <source>Take down at</source>
         <translation>A bɔ</translation>
+    </message>
+    <message>
+        <source>Publish later or take down at a date</source>
+        <translation>A bila kɛnɛ kan kɔfɛ walima a bɔ don dɔ la</translation>
     </message>
     <message>
         <source>In the full editor: %fields</source>
@@ -406,6 +406,30 @@
     <message>
         <source>Done.</source>
         <translation>A banna.</translation>
+    </message>
+    <message>
+        <source>Copy ...</source>
+        <translation>A kopi ...</translation>
+    </message>
+    <message>
+        <source>Copy "%name" to ...</source>
+        <translation>"%name" kopi ...</translation>
+    </message>
+    <message>
+        <source>Copy the page below "%name"?</source>
+        <translation>Ɲɛ kopi "%name" jukɔrɔ wa?</translation>
+    </message>
+    <message>
+        <source>Copying ...</source>
+        <translation>A bɛ kopi ...</translation>
+    </message>
+    <message>
+        <source>The copy is made. It opens now.</source>
+        <translation>Kopi dilannen don. A bɛ da wuli sisan.</translation>
+    </message>
+    <message>
+        <source>The copy waits for a workflow (an approval).</source>
+        <translation>Kopi bɛ baarasira (sɔnni) makɔnɔ.</translation>
     </message>
     <message>
         <source>Last visit: %time</source>

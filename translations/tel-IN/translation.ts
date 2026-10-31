@@ -144,16 +144,16 @@
         <translation>అవసరం</translation>
     </message>
     <message>
-        <source>Publish later or take down at a date</source>
-        <translation>తర్వాత ప్రచురించండి లేదా ఒక తేదీన తొలగించండి</translation>
-    </message>
-    <message>
         <source>Publish at</source>
         <translation>ప్రచురించే సమయం</translation>
     </message>
     <message>
         <source>Take down at</source>
         <translation>తొలగించే సమయం</translation>
+    </message>
+    <message>
+        <source>Publish later or take down at a date</source>
+        <translation>తర్వాత ప్రచురించండి లేదా ఒక తేదీన తొలగించండి</translation>
     </message>
     <message>
         <source>In the full editor: %fields</source>
@@ -406,6 +406,30 @@
     <message>
         <source>Done.</source>
         <translation>పూర్తయింది.</translation>
+    </message>
+    <message>
+        <source>Copy ...</source>
+        <translation>కాపీ చేయండి ...</translation>
+    </message>
+    <message>
+        <source>Copy "%name" to ...</source>
+        <translation>"%name" ను కాపీ చేయండి ...</translation>
+    </message>
+    <message>
+        <source>Copy the page below "%name"?</source>
+        <translation>పేజీని "%name" కిందికి కాపీ చేయాలా?</translation>
+    </message>
+    <message>
+        <source>Copying ...</source>
+        <translation>కాపీ అవుతోంది ...</translation>
+    </message>
+    <message>
+        <source>The copy is made. It opens now.</source>
+        <translation>కాపీ తయారైంది. ఇప్పుడు తెరుచుకుంటోంది.</translation>
+    </message>
+    <message>
+        <source>The copy waits for a workflow (an approval).</source>
+        <translation>కాపీ ఒక వర్క్‌ఫ్లో (ఆమోదం) కోసం వేచి ఉంది.</translation>
     </message>
     <message>
         <source>Last visit: %time</source>

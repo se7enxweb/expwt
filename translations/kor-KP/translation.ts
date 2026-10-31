@@ -144,16 +144,16 @@
         <translation>필수</translation>
     </message>
     <message>
-        <source>Publish later or take down at a date</source>
-        <translation>나중에 게시하거나 지정한 날짜에 내리기</translation>
-    </message>
-    <message>
         <source>Publish at</source>
         <translation>게시 시각</translation>
     </message>
     <message>
         <source>Take down at</source>
         <translation>내리는 시각</translation>
+    </message>
+    <message>
+        <source>Publish later or take down at a date</source>
+        <translation>나중에 게시하거나 지정한 날짜에 내리기</translation>
     </message>
     <message>
         <source>In the full editor: %fields</source>
@@ -406,6 +406,30 @@
     <message>
         <source>Done.</source>
         <translation>완료.</translation>
+    </message>
+    <message>
+        <source>Copy ...</source>
+        <translation>복사...</translation>
+    </message>
+    <message>
+        <source>Copy "%name" to ...</source>
+        <translation>"%name" 복사 위치...</translation>
+    </message>
+    <message>
+        <source>Copy the page below "%name"?</source>
+        <translation>페이지를 "%name" 아래로 복사하시겠습니까?</translation>
+    </message>
+    <message>
+        <source>Copying ...</source>
+        <translation>복사 중...</translation>
+    </message>
+    <message>
+        <source>The copy is made. It opens now.</source>
+        <translation>사본이 만들어졌습니다. 지금 엽니다.</translation>
+    </message>
+    <message>
+        <source>The copy waits for a workflow (an approval).</source>
+        <translation>사본이 작업흐름(승인)을 기다리고 있습니다.</translation>
     </message>
     <message>
         <source>Last visit: %time</source>

@@ -144,16 +144,16 @@
         <translation>ಅಗತ್ಯ</translation>
     </message>
     <message>
-        <source>Publish later or take down at a date</source>
-        <translation>ನಂತರ ಪ್ರಕಟಿಸು ಅಥವಾ ಒಂದು ದಿನಾಂಕದಂದು ತೆಗೆದುಹಾಕು</translation>
-    </message>
-    <message>
         <source>Publish at</source>
         <translation>ಪ್ರಕಟಿಸುವ ಸಮಯ</translation>
     </message>
     <message>
         <source>Take down at</source>
         <translation>ತೆಗೆದುಹಾಕುವ ಸಮಯ</translation>
+    </message>
+    <message>
+        <source>Publish later or take down at a date</source>
+        <translation>ನಂತರ ಪ್ರಕಟಿಸು ಅಥವಾ ಒಂದು ದಿನಾಂಕದಂದು ತೆಗೆದುಹಾಕು</translation>
     </message>
     <message>
         <source>In the full editor: %fields</source>
@@ -406,6 +406,30 @@
     <message>
         <source>Done.</source>
         <translation>ಮುಗಿದಿದೆ.</translation>
+    </message>
+    <message>
+        <source>Copy ...</source>
+        <translation>ನಕಲಿಸು ...</translation>
+    </message>
+    <message>
+        <source>Copy "%name" to ...</source>
+        <translation>"%name" ಅನ್ನು ಇಲ್ಲಿಗೆ ನಕಲಿಸು ...</translation>
+    </message>
+    <message>
+        <source>Copy the page below "%name"?</source>
+        <translation>ಪುಟವನ್ನು "%name" ಕೆಳಗೆ ನಕಲಿಸಬೇಕೇ?</translation>
+    </message>
+    <message>
+        <source>Copying ...</source>
+        <translation>ನಕಲಿಸಲಾಗುತ್ತಿದೆ ...</translation>
+    </message>
+    <message>
+        <source>The copy is made. It opens now.</source>
+        <translation>ನಕಲು ಸಿದ್ಧವಾಗಿದೆ. ಈಗ ತೆರೆಯುತ್ತದೆ.</translation>
+    </message>
+    <message>
+        <source>The copy waits for a workflow (an approval).</source>
+        <translation>ನಕಲು ಒಂದು ವರ್ಕ್‌ಫ್ಲೋಗಾಗಿ (ಅನುಮೋದನೆಗಾಗಿ) ಕಾಯುತ್ತಿದೆ.</translation>
     </message>
     <message>
         <source>Last visit: %time</source>

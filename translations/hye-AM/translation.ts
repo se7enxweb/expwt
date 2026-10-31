@@ -144,16 +144,16 @@
         <translation>պարտադիր</translation>
     </message>
     <message>
-        <source>Publish later or take down at a date</source>
-        <translation>Հրապարակել ավելի ուշ կամ հանել որոշակի ամսաթվին</translation>
-    </message>
-    <message>
         <source>Publish at</source>
         <translation>Հրապարակել</translation>
     </message>
     <message>
         <source>Take down at</source>
         <translation>Հանել</translation>
+    </message>
+    <message>
+        <source>Publish later or take down at a date</source>
+        <translation>Հրապարակել ավելի ուշ կամ հանել որոշակի ամսաթվին</translation>
     </message>
     <message>
         <source>In the full editor: %fields</source>
@@ -406,6 +406,30 @@
     <message>
         <source>Done.</source>
         <translation>Պատրաստ է։</translation>
+    </message>
+    <message>
+        <source>Copy ...</source>
+        <translation>Պատճենել ...</translation>
+    </message>
+    <message>
+        <source>Copy "%name" to ...</source>
+        <translation>Պատճենել «%name»-ը ...</translation>
+    </message>
+    <message>
+        <source>Copy the page below "%name"?</source>
+        <translation>Պատճենե՞լ էջը «%name»-ի տակ</translation>
+    </message>
+    <message>
+        <source>Copying ...</source>
+        <translation>Պատճենվում է ...</translation>
+    </message>
+    <message>
+        <source>The copy is made. It opens now.</source>
+        <translation>Պատճենը ստեղծված է։ Այն հիմա բացվում է։</translation>
+    </message>
+    <message>
+        <source>The copy waits for a workflow (an approval).</source>
+        <translation>Պատճենը սպասում է աշխատահոսքի (հաստատման)։</translation>
     </message>
     <message>
         <source>Last visit: %time</source>

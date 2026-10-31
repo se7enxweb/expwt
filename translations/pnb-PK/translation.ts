@@ -144,16 +144,16 @@
         <translation>لازمی</translation>
     </message>
     <message>
-        <source>Publish later or take down at a date</source>
-        <translation>بعد وچ چھاپو یا کسے تاریخ نوں ہٹاؤ</translation>
-    </message>
-    <message>
         <source>Publish at</source>
         <translation>چھاپن دا ویلا</translation>
     </message>
     <message>
         <source>Take down at</source>
         <translation>ہٹان دا ویلا</translation>
+    </message>
+    <message>
+        <source>Publish later or take down at a date</source>
+        <translation>بعد وچ چھاپو یا کسے تاریخ نوں ہٹاؤ</translation>
     </message>
     <message>
         <source>In the full editor: %fields</source>
@@ -406,6 +406,30 @@
     <message>
         <source>Done.</source>
         <translation>ہو گیا۔</translation>
+    </message>
+    <message>
+        <source>Copy ...</source>
+        <translation>کاپی کرو ...</translation>
+    </message>
+    <message>
+        <source>Copy "%name" to ...</source>
+        <translation>"%name" نوں کاپی کرو ...</translation>
+    </message>
+    <message>
+        <source>Copy the page below "%name"?</source>
+        <translation>صفحے نوں "%name" دے تھلے کاپی کریئے؟</translation>
+    </message>
+    <message>
+        <source>Copying ...</source>
+        <translation>کاپی ہو رہی اے ...</translation>
+    </message>
+    <message>
+        <source>The copy is made. It opens now.</source>
+        <translation>کاپی بن گئی۔ ہُن کھل رہی اے۔</translation>
+    </message>
+    <message>
+        <source>The copy waits for a workflow (an approval).</source>
+        <translation>کاپی اک ورک فلو (منظوری) دی اُڈیک وچ اے۔</translation>
     </message>
     <message>
         <source>Last visit: %time</source>

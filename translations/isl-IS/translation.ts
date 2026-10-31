@@ -144,16 +144,16 @@
         <translation>nauðsynlegt</translation>
     </message>
     <message>
-        <source>Publish later or take down at a date</source>
-        <translation>Birta síðar eða taka niður á tiltekinni dagsetningu</translation>
-    </message>
-    <message>
         <source>Publish at</source>
         <translation>Birta þann</translation>
     </message>
     <message>
         <source>Take down at</source>
         <translation>Taka niður þann</translation>
+    </message>
+    <message>
+        <source>Publish later or take down at a date</source>
+        <translation>Birta síðar eða taka niður á tiltekinni dagsetningu</translation>
     </message>
     <message>
         <source>In the full editor: %fields</source>
@@ -406,6 +406,30 @@
     <message>
         <source>Done.</source>
         <translation>Lokið.</translation>
+    </message>
+    <message>
+        <source>Copy ...</source>
+        <translation>Afrita ...</translation>
+    </message>
+    <message>
+        <source>Copy "%name" to ...</source>
+        <translation>Afrita "%name" í ...</translation>
+    </message>
+    <message>
+        <source>Copy the page below "%name"?</source>
+        <translation>Afrita síðuna undir "%name"?</translation>
+    </message>
+    <message>
+        <source>Copying ...</source>
+        <translation>Afritar ...</translation>
+    </message>
+    <message>
+        <source>The copy is made. It opens now.</source>
+        <translation>Afritið er tilbúið. Það opnast núna.</translation>
+    </message>
+    <message>
+        <source>The copy waits for a workflow (an approval).</source>
+        <translation>Afritið bíður eftir vinnuflæði (samþykki).</translation>
     </message>
     <message>
         <source>Last visit: %time</source>

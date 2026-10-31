@@ -144,16 +144,16 @@
         <translation>סניק</translation>
     </message>
     <message>
-        <source>Publish later or take down at a date</source>
-        <translation>פרסא בתר כן או נחת ביומא</translation>
-    </message>
-    <message>
         <source>Publish at</source>
         <translation>פרסא ב</translation>
     </message>
     <message>
         <source>Take down at</source>
         <translation>נחת ב</translation>
+    </message>
+    <message>
+        <source>Publish later or take down at a date</source>
+        <translation>פרסא בתר כן או נחת ביומא</translation>
     </message>
     <message>
         <source>In the full editor: %fields</source>
@@ -406,6 +406,30 @@
     <message>
         <source>Done.</source>
         <translation>שלם.</translation>
+    </message>
+    <message>
+        <source>Copy ...</source>
+        <translation>העתק ...</translation>
+    </message>
+    <message>
+        <source>Copy "%name" to ...</source>
+        <translation>העתק "%name" ל ...</translation>
+    </message>
+    <message>
+        <source>Copy the page below "%name"?</source>
+        <translation>נעתק דפא תחות "%name"?</translation>
+    </message>
+    <message>
+        <source>Copying ...</source>
+        <translation>מעתקין ...</translation>
+    </message>
+    <message>
+        <source>The copy is made. It opens now.</source>
+        <translation>נוסחא אתעבדת. מתפתחא השתא.</translation>
+    </message>
+    <message>
+        <source>The copy waits for a workflow (an approval).</source>
+        <translation>נוסחא מסכיא לעבדא דפלחנא (לשורנא).</translation>
     </message>
     <message>
         <source>Last visit: %time</source>

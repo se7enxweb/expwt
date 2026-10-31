@@ -144,16 +144,16 @@
         <translation>абавязкова</translation>
     </message>
     <message>
-        <source>Publish later or take down at a date</source>
-        <translation>Апублікаваць пазней або зняць у пэўную дату</translation>
-    </message>
-    <message>
         <source>Publish at</source>
         <translation>Апублікаваць</translation>
     </message>
     <message>
         <source>Take down at</source>
         <translation>Зняць</translation>
+    </message>
+    <message>
+        <source>Publish later or take down at a date</source>
+        <translation>Апублікаваць пазней або зняць у пэўную дату</translation>
     </message>
     <message>
         <source>In the full editor: %fields</source>
@@ -406,6 +406,30 @@
     <message>
         <source>Done.</source>
         <translation>Гатова.</translation>
+    </message>
+    <message>
+        <source>Copy ...</source>
+        <translation>Скапіяваць ...</translation>
+    </message>
+    <message>
+        <source>Copy "%name" to ...</source>
+        <translation>Скапіяваць «%name» у ...</translation>
+    </message>
+    <message>
+        <source>Copy the page below "%name"?</source>
+        <translation>Скапіяваць старонку пад «%name»?</translation>
+    </message>
+    <message>
+        <source>Copying ...</source>
+        <translation>Капіяванне ...</translation>
+    </message>
+    <message>
+        <source>The copy is made. It opens now.</source>
+        <translation>Копія створана. Зараз яна адкрыецца.</translation>
+    </message>
+    <message>
+        <source>The copy waits for a workflow (an approval).</source>
+        <translation>Копія чакае працоўнага працэсу (зацвярджэння).</translation>
     </message>
     <message>
         <source>Last visit: %time</source>

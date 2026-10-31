@@ -144,16 +144,16 @@
         <translation>आवश्यकम्</translation>
     </message>
     <message>
-        <source>Publish later or take down at a date</source>
-        <translation>पश्चात् प्रकाशनम् अथवा निश्चितदिनाङ्के अपनयनम्</translation>
-    </message>
-    <message>
         <source>Publish at</source>
         <translation>प्रकाशनसमयः</translation>
     </message>
     <message>
         <source>Take down at</source>
         <translation>अपनयनसमयः</translation>
+    </message>
+    <message>
+        <source>Publish later or take down at a date</source>
+        <translation>पश्चात् प्रकाशनम् अथवा निश्चितदिनाङ्के अपनयनम्</translation>
     </message>
     <message>
         <source>In the full editor: %fields</source>
@@ -406,6 +406,30 @@
     <message>
         <source>Done.</source>
         <translation>सम्पन्नम्।</translation>
+    </message>
+    <message>
+        <source>Copy ...</source>
+        <translation>प्रतिलिपिं करोतु ...</translation>
+    </message>
+    <message>
+        <source>Copy "%name" to ...</source>
+        <translation>"%name" प्रतिलिपिं करोतु ...</translation>
+    </message>
+    <message>
+        <source>Copy the page below "%name"?</source>
+        <translation>पृष्ठं "%name" इत्यस्य अधः प्रतिलिपिं करोतु किम्?</translation>
+    </message>
+    <message>
+        <source>Copying ...</source>
+        <translation>प्रतिलिपिः क्रियते ...</translation>
+    </message>
+    <message>
+        <source>The copy is made. It opens now.</source>
+        <translation>प्रतिलिपिः कृता। इदानीम् उद्घाट्यते।</translation>
+    </message>
+    <message>
+        <source>The copy waits for a workflow (an approval).</source>
+        <translation>प्रतिलिपिः कार्यप्रवाहं (अनुमोदनम्) प्रतीक्षते।</translation>
     </message>
     <message>
         <source>Last visit: %time</source>

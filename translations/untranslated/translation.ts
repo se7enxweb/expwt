@@ -144,15 +144,15 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Publish later or take down at a date</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Publish at</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Take down at</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Publish later or take down at a date</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -405,6 +405,30 @@
     </message>
     <message>
         <source>Done.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Copy ...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Copy "%name" to ...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Copy the page below "%name"?</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Copying ...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The copy is made. It opens now.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The copy waits for a workflow (an approval).</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

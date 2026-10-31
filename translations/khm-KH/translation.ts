@@ -144,16 +144,16 @@
         <translation>ត្រូវការ</translation>
     </message>
     <message>
-        <source>Publish later or take down at a date</source>
-        <translation>បោះពុម្ពផ្សាយពេលក្រោយ ឬដកចេញនៅកាលបរិច្ឆេទមួយ</translation>
-    </message>
-    <message>
         <source>Publish at</source>
         <translation>បោះពុម្ពផ្សាយនៅ</translation>
     </message>
     <message>
         <source>Take down at</source>
         <translation>ដកចេញនៅ</translation>
+    </message>
+    <message>
+        <source>Publish later or take down at a date</source>
+        <translation>បោះពុម្ពផ្សាយពេលក្រោយ ឬដកចេញនៅកាលបរិច្ឆេទមួយ</translation>
     </message>
     <message>
         <source>In the full editor: %fields</source>
@@ -406,6 +406,30 @@
     <message>
         <source>Done.</source>
         <translation>រួចរាល់។</translation>
+    </message>
+    <message>
+        <source>Copy ...</source>
+        <translation>ចម្លង ...</translation>
+    </message>
+    <message>
+        <source>Copy "%name" to ...</source>
+        <translation>ចម្លង "%name" ទៅ ...</translation>
+    </message>
+    <message>
+        <source>Copy the page below "%name"?</source>
+        <translation>ចម្លងទំព័រទៅក្រោម "%name"?</translation>
+    </message>
+    <message>
+        <source>Copying ...</source>
+        <translation>កំពុងចម្លង ...</translation>
+    </message>
+    <message>
+        <source>The copy is made. It opens now.</source>
+        <translation>ច្បាប់ចម្លងត្រូវបានបង្កើត។ វាកំពុងបើកឥឡូវនេះ។</translation>
+    </message>
+    <message>
+        <source>The copy waits for a workflow (an approval).</source>
+        <translation>ច្បាប់ចម្លងកំពុងរង់ចាំលំហូរការងារ (ការអនុម័ត)។</translation>
     </message>
     <message>
         <source>Last visit: %time</source>

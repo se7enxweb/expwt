@@ -144,16 +144,16 @@
         <translation>زۆرۈر</translation>
     </message>
     <message>
-        <source>Publish later or take down at a date</source>
-        <translation>كېيىن ئېلان قىلىش ياكى مەلۇم چېسلادا چۈشۈرۈش</translation>
-    </message>
-    <message>
         <source>Publish at</source>
         <translation>ئېلان قىلىش ۋاقتى</translation>
     </message>
     <message>
         <source>Take down at</source>
         <translation>چۈشۈرۈش ۋاقتى</translation>
+    </message>
+    <message>
+        <source>Publish later or take down at a date</source>
+        <translation>كېيىن ئېلان قىلىش ياكى مەلۇم چېسلادا چۈشۈرۈش</translation>
     </message>
     <message>
         <source>In the full editor: %fields</source>
@@ -406,6 +406,30 @@
     <message>
         <source>Done.</source>
         <translation>تامام.</translation>
+    </message>
+    <message>
+        <source>Copy ...</source>
+        <translation>كۆچۈر ...</translation>
+    </message>
+    <message>
+        <source>Copy "%name" to ...</source>
+        <translation>"%name" نى كۆچۈرۈش ...</translation>
+    </message>
+    <message>
+        <source>Copy the page below "%name"?</source>
+        <translation>بەت "%name" نىڭ ئاستىغا كۆچۈرۈلسۇنمۇ؟</translation>
+    </message>
+    <message>
+        <source>Copying ...</source>
+        <translation>كۆچۈرۈلۈۋاتىدۇ ...</translation>
+    </message>
+    <message>
+        <source>The copy is made. It opens now.</source>
+        <translation>كۆچۈرمە ياسالدى. ھازىر ئېچىلىدۇ.</translation>
+    </message>
+    <message>
+        <source>The copy waits for a workflow (an approval).</source>
+        <translation>كۆچۈرمە بىر خىزمەت ئېقىمىنى (تەستىقنى) كۈتۈۋاتىدۇ.</translation>
     </message>
     <message>
         <source>Last visit: %time</source>

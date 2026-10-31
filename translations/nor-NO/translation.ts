@@ -144,16 +144,16 @@
         <translation>påkrevd</translation>
     </message>
     <message>
-        <source>Publish later or take down at a date</source>
-        <translation>Publiser senere eller ta ned på en dato</translation>
-    </message>
-    <message>
         <source>Publish at</source>
         <translation>Publiser</translation>
     </message>
     <message>
         <source>Take down at</source>
         <translation>Ta ned</translation>
+    </message>
+    <message>
+        <source>Publish later or take down at a date</source>
+        <translation>Publiser senere eller ta ned på en dato</translation>
     </message>
     <message>
         <source>In the full editor: %fields</source>
@@ -406,6 +406,30 @@
     <message>
         <source>Done.</source>
         <translation>Ferdig.</translation>
+    </message>
+    <message>
+        <source>Copy ...</source>
+        <translation>Kopier ...</translation>
+    </message>
+    <message>
+        <source>Copy "%name" to ...</source>
+        <translation>Kopier «%name» til ...</translation>
+    </message>
+    <message>
+        <source>Copy the page below "%name"?</source>
+        <translation>Kopiere siden under «%name»?</translation>
+    </message>
+    <message>
+        <source>Copying ...</source>
+        <translation>Kopierer ...</translation>
+    </message>
+    <message>
+        <source>The copy is made. It opens now.</source>
+        <translation>Kopien er laget. Den åpnes nå.</translation>
+    </message>
+    <message>
+        <source>The copy waits for a workflow (an approval).</source>
+        <translation>Kopien venter på en arbeidsflyt (en godkjenning).</translation>
     </message>
     <message>
         <source>Last visit: %time</source>

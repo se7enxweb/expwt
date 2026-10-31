@@ -144,16 +144,16 @@
         <translation>zvinodiwa</translation>
     </message>
     <message>
-        <source>Publish later or take down at a date</source>
-        <translation>Buritsa gare gare kana bvisa pazuva</translation>
-    </message>
-    <message>
         <source>Publish at</source>
         <translation>Buritsa pa</translation>
     </message>
     <message>
         <source>Take down at</source>
         <translation>Bvisa pa</translation>
+    </message>
+    <message>
+        <source>Publish later or take down at a date</source>
+        <translation>Buritsa gare gare kana bvisa pazuva</translation>
     </message>
     <message>
         <source>In the full editor: %fields</source>
@@ -406,6 +406,30 @@
     <message>
         <source>Done.</source>
         <translation>Zvaitwa.</translation>
+    </message>
+    <message>
+        <source>Copy ...</source>
+        <translation>Kopa ...</translation>
+    </message>
+    <message>
+        <source>Copy "%name" to ...</source>
+        <translation>Kopa "%name" ku ...</translation>
+    </message>
+    <message>
+        <source>Copy the page below "%name"?</source>
+        <translation>Kopa peji pazasi pe "%name" here?</translation>
+    </message>
+    <message>
+        <source>Copying ...</source>
+        <translation>Kuri kukopa ...</translation>
+    </message>
+    <message>
+        <source>The copy is made. It opens now.</source>
+        <translation>Kopi yagadzirwa. Iri kuvhurwa izvozvi.</translation>
+    </message>
+    <message>
+        <source>The copy waits for a workflow (an approval).</source>
+        <translation>Kopi iri kumirira hurongwa hwebasa (kubvumidzwa).</translation>
     </message>
     <message>
         <source>Last visit: %time</source>

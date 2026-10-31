@@ -44,6 +44,7 @@ class expwtAccess
         'tree.children'   => array( 'structure', false, '', '', '' ),
         'tree.move'       => array( 'structure', true, 'content', 'action', 'MoveNodeButton' ),
         'tree.addlocation' => array( 'structure', true, 'content', 'action', 'AddAssignmentButton' ),
+        'tree.copy'       => array( 'structure', true, 'content', 'copy', '' ),
         'tree.hide'       => array( 'structure', true, 'content', 'hide', '' ),
         'tree.reveal'     => array( 'structure', true, 'content', 'hide', '' ),
         'tree.trash'      => array( 'structure', true, 'content', 'removeobject', 'ConfirmButton' ),

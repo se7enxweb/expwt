@@ -144,16 +144,16 @@
         <translation>necessarium</translation>
     </message>
     <message>
-        <source>Publish later or take down at a date</source>
-        <translation>Postea publicare vel certo die removere</translation>
-    </message>
-    <message>
         <source>Publish at</source>
         <translation>Publicare die</translation>
     </message>
     <message>
         <source>Take down at</source>
         <translation>Removere die</translation>
+    </message>
+    <message>
+        <source>Publish later or take down at a date</source>
+        <translation>Postea publicare vel certo die removere</translation>
     </message>
     <message>
         <source>In the full editor: %fields</source>
@@ -406,6 +406,30 @@
     <message>
         <source>Done.</source>
         <translation>Factum.</translation>
+    </message>
+    <message>
+        <source>Copy ...</source>
+        <translation>Exscribere...</translation>
+    </message>
+    <message>
+        <source>Copy "%name" to ...</source>
+        <translation>"%name" exscribere ad...</translation>
+    </message>
+    <message>
+        <source>Copy the page below "%name"?</source>
+        <translation>Paginam sub "%name" exscribere?</translation>
+    </message>
+    <message>
+        <source>Copying ...</source>
+        <translation>Exscribitur...</translation>
+    </message>
+    <message>
+        <source>The copy is made. It opens now.</source>
+        <translation>Exemplar factum est. Nunc aperitur.</translation>
+    </message>
+    <message>
+        <source>The copy waits for a workflow (an approval).</source>
+        <translation>Exemplar cursum operis (approbationem) exspectat.</translation>
     </message>
     <message>
         <source>Last visit: %time</source>

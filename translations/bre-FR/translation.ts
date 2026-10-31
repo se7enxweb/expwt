@@ -144,16 +144,16 @@
         <translation>rediet</translation>
     </message>
     <message>
-        <source>Publish later or take down at a date</source>
-        <translation>Embann diwezhatoc'h pe lemel d'un deiziad</translation>
-    </message>
-    <message>
         <source>Publish at</source>
         <translation>Embann d'an</translation>
     </message>
     <message>
         <source>Take down at</source>
         <translation>Lemel d'an</translation>
+    </message>
+    <message>
+        <source>Publish later or take down at a date</source>
+        <translation>Embann diwezhatoc'h pe lemel d'un deiziad</translation>
     </message>
     <message>
         <source>In the full editor: %fields</source>
@@ -406,6 +406,30 @@
     <message>
         <source>Done.</source>
         <translation>Graet.</translation>
+    </message>
+    <message>
+        <source>Copy ...</source>
+        <translation>Eilskrivañ ...</translation>
+    </message>
+    <message>
+        <source>Copy "%name" to ...</source>
+        <translation>Eilskrivañ «%name» da ...</translation>
+    </message>
+    <message>
+        <source>Copy the page below "%name"?</source>
+        <translation>Eilskrivañ ar bajenn dindan «%name»?</translation>
+    </message>
+    <message>
+        <source>Copying ...</source>
+        <translation>O eilskrivañ ...</translation>
+    </message>
+    <message>
+        <source>The copy is made. It opens now.</source>
+        <translation>Graet eo an eilskrid. Digoret e vo bremañ.</translation>
+    </message>
+    <message>
+        <source>The copy waits for a workflow (an approval).</source>
+        <translation>Gortoz a ra an eilskrid un dro-labour (un aprouadur).</translation>
     </message>
     <message>
         <source>Last visit: %time</source>

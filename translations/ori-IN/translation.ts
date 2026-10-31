@@ -144,16 +144,16 @@
         <translation>ଆବଶ୍ୟକ</translation>
     </message>
     <message>
-        <source>Publish later or take down at a date</source>
-        <translation>ପରେ ପ୍ରକାଶ କରନ୍ତୁ କିମ୍ବା ଏକ ତାରିଖରେ ହଟାନ୍ତୁ</translation>
-    </message>
-    <message>
         <source>Publish at</source>
         <translation>ପ୍ରକାଶ ସମୟ</translation>
     </message>
     <message>
         <source>Take down at</source>
         <translation>ହଟାଇବା ସମୟ</translation>
+    </message>
+    <message>
+        <source>Publish later or take down at a date</source>
+        <translation>ପରେ ପ୍ରକାଶ କରନ୍ତୁ କିମ୍ବା ଏକ ତାରିଖରେ ହଟାନ୍ତୁ</translation>
     </message>
     <message>
         <source>In the full editor: %fields</source>
@@ -406,6 +406,30 @@
     <message>
         <source>Done.</source>
         <translation>ହୋଇଗଲା।</translation>
+    </message>
+    <message>
+        <source>Copy ...</source>
+        <translation>କପି କରନ୍ତୁ ...</translation>
+    </message>
+    <message>
+        <source>Copy "%name" to ...</source>
+        <translation>"%name" କୁ କପି କରନ୍ତୁ ...</translation>
+    </message>
+    <message>
+        <source>Copy the page below "%name"?</source>
+        <translation>ପୃଷ୍ଠାକୁ "%name" ତଳକୁ କପି କରିବେ?</translation>
+    </message>
+    <message>
+        <source>Copying ...</source>
+        <translation>କପି ହେଉଛି ...</translation>
+    </message>
+    <message>
+        <source>The copy is made. It opens now.</source>
+        <translation>କପି ତିଆରି ହେଲା। ଏବେ ଖୋଲୁଛି।</translation>
+    </message>
+    <message>
+        <source>The copy waits for a workflow (an approval).</source>
+        <translation>କପି ଏକ କାର୍ଯ୍ୟପ୍ରବାହ (ଅନୁମୋଦନ) ପାଇଁ ଅପେକ୍ଷା କରୁଛି।</translation>
     </message>
     <message>
         <source>Last visit: %time</source>

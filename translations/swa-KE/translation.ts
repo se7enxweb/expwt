@@ -144,16 +144,16 @@
         <translation>inahitajika</translation>
     </message>
     <message>
-        <source>Publish later or take down at a date</source>
-        <translation>Chapisha baadaye au ondoa kwa tarehe</translation>
-    </message>
-    <message>
         <source>Publish at</source>
         <translation>Chapisha tarehe</translation>
     </message>
     <message>
         <source>Take down at</source>
         <translation>Ondoa tarehe</translation>
+    </message>
+    <message>
+        <source>Publish later or take down at a date</source>
+        <translation>Chapisha baadaye au ondoa kwa tarehe</translation>
     </message>
     <message>
         <source>In the full editor: %fields</source>
@@ -406,6 +406,30 @@
     <message>
         <source>Done.</source>
         <translation>Imekamilika.</translation>
+    </message>
+    <message>
+        <source>Copy ...</source>
+        <translation>Nakili ...</translation>
+    </message>
+    <message>
+        <source>Copy "%name" to ...</source>
+        <translation>Nakili "%name" hadi ...</translation>
+    </message>
+    <message>
+        <source>Copy the page below "%name"?</source>
+        <translation>Nakili ukurasa chini ya "%name"?</translation>
+    </message>
+    <message>
+        <source>Copying ...</source>
+        <translation>Inanakili ...</translation>
+    </message>
+    <message>
+        <source>The copy is made. It opens now.</source>
+        <translation>Nakala imetengenezwa. Inafunguka sasa.</translation>
+    </message>
+    <message>
+        <source>The copy waits for a workflow (an approval).</source>
+        <translation>Nakala inasubiri mtiririko wa kazi (idhini).</translation>
     </message>
     <message>
         <source>Last visit: %time</source>

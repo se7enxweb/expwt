@@ -144,16 +144,16 @@
         <translation>povinné</translation>
     </message>
     <message>
-        <source>Publish later or take down at a date</source>
-        <translation>Zveřejnit později nebo stáhnout k datu</translation>
-    </message>
-    <message>
         <source>Publish at</source>
         <translation>Zveřejnit</translation>
     </message>
     <message>
         <source>Take down at</source>
         <translation>Stáhnout</translation>
+    </message>
+    <message>
+        <source>Publish later or take down at a date</source>
+        <translation>Zveřejnit později nebo stáhnout k datu</translation>
     </message>
     <message>
         <source>In the full editor: %fields</source>
@@ -406,6 +406,30 @@
     <message>
         <source>Done.</source>
         <translation>Hotovo.</translation>
+    </message>
+    <message>
+        <source>Copy ...</source>
+        <translation>Kopírovat ...</translation>
+    </message>
+    <message>
+        <source>Copy "%name" to ...</source>
+        <translation>Kopírovat „%name“ do ...</translation>
+    </message>
+    <message>
+        <source>Copy the page below "%name"?</source>
+        <translation>Zkopírovat stránku pod „%name“?</translation>
+    </message>
+    <message>
+        <source>Copying ...</source>
+        <translation>Kopírování ...</translation>
+    </message>
+    <message>
+        <source>The copy is made. It opens now.</source>
+        <translation>Kopie je vytvořena. Nyní se otevře.</translation>
+    </message>
+    <message>
+        <source>The copy waits for a workflow (an approval).</source>
+        <translation>Kopie čeká na pracovní postup (schválení).</translation>
     </message>
     <message>
         <source>Last visit: %time</source>

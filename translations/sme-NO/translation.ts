@@ -144,16 +144,16 @@
         <translation>dárbbašlaš</translation>
     </message>
     <message>
-        <source>Publish later or take down at a date</source>
-        <translation>Almmut maŋŋelaš dahje váldde eret dihto beaivvi</translation>
-    </message>
-    <message>
         <source>Publish at</source>
         <translation>Almmut</translation>
     </message>
     <message>
         <source>Take down at</source>
         <translation>Váldde eret</translation>
+    </message>
+    <message>
+        <source>Publish later or take down at a date</source>
+        <translation>Almmut maŋŋelaš dahje váldde eret dihto beaivvi</translation>
     </message>
     <message>
         <source>In the full editor: %fields</source>
@@ -406,6 +406,30 @@
     <message>
         <source>Done.</source>
         <translation>Dahkkon.</translation>
+    </message>
+    <message>
+        <source>Copy ...</source>
+        <translation>Máŋge ...</translation>
+    </message>
+    <message>
+        <source>Copy "%name" to ...</source>
+        <translation>Máŋge "%name" ...</translation>
+    </message>
+    <message>
+        <source>Copy the page below "%name"?</source>
+        <translation>Máŋget siiddu "%name" vuollái?</translation>
+    </message>
+    <message>
+        <source>Copying ...</source>
+        <translation>Máŋgejuvvo ...</translation>
+    </message>
+    <message>
+        <source>The copy is made. It opens now.</source>
+        <translation>Máŋgosa lea dahkkon. Dat rahpasa dál.</translation>
+    </message>
+    <message>
+        <source>The copy waits for a workflow (an approval).</source>
+        <translation>Máŋgosa vuordá bargogoavvi (dohkkeheami).</translation>
     </message>
     <message>
         <source>Last visit: %time</source>

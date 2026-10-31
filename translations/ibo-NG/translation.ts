@@ -144,16 +144,16 @@
         <translation>a chọrọ</translation>
     </message>
     <message>
-        <source>Publish later or take down at a date</source>
-        <translation>Bipụta ma emechaa ma ọ bụ wepụ n'otu ụbọchị</translation>
-    </message>
-    <message>
         <source>Publish at</source>
         <translation>Bipụta na</translation>
     </message>
     <message>
         <source>Take down at</source>
         <translation>Wepụ na</translation>
+    </message>
+    <message>
+        <source>Publish later or take down at a date</source>
+        <translation>Bipụta ma emechaa ma ọ bụ wepụ n'otu ụbọchị</translation>
     </message>
     <message>
         <source>In the full editor: %fields</source>
@@ -406,6 +406,30 @@
     <message>
         <source>Done.</source>
         <translation>Emechara.</translation>
+    </message>
+    <message>
+        <source>Copy ...</source>
+        <translation>Detuo ...</translation>
+    </message>
+    <message>
+        <source>Copy "%name" to ...</source>
+        <translation>Detuo “%name” gaa ...</translation>
+    </message>
+    <message>
+        <source>Copy the page below "%name"?</source>
+        <translation>Detuo ibe ahụ n'okpuru “%name”?</translation>
+    </message>
+    <message>
+        <source>Copying ...</source>
+        <translation>Na-edetuo ...</translation>
+    </message>
+    <message>
+        <source>The copy is made. It opens now.</source>
+        <translation>E mere nnomi ahụ. Ọ na-emepe ugbu a.</translation>
+    </message>
+    <message>
+        <source>The copy waits for a workflow (an approval).</source>
+        <translation>Nnomi ahụ na-eche usoro ọrụ (nnabata).</translation>
     </message>
     <message>
         <source>Last visit: %time</source>

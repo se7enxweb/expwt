@@ -144,16 +144,16 @@
         <translation>bắt buộc</translation>
     </message>
     <message>
-        <source>Publish later or take down at a date</source>
-        <translation>Xuất bản sau hoặc gỡ xuống vào một ngày</translation>
-    </message>
-    <message>
         <source>Publish at</source>
         <translation>Xuất bản lúc</translation>
     </message>
     <message>
         <source>Take down at</source>
         <translation>Gỡ xuống lúc</translation>
+    </message>
+    <message>
+        <source>Publish later or take down at a date</source>
+        <translation>Xuất bản sau hoặc gỡ xuống vào một ngày</translation>
     </message>
     <message>
         <source>In the full editor: %fields</source>
@@ -406,6 +406,30 @@
     <message>
         <source>Done.</source>
         <translation>Xong.</translation>
+    </message>
+    <message>
+        <source>Copy ...</source>
+        <translation>Sao chép ...</translation>
+    </message>
+    <message>
+        <source>Copy "%name" to ...</source>
+        <translation>Sao chép "%name" đến ...</translation>
+    </message>
+    <message>
+        <source>Copy the page below "%name"?</source>
+        <translation>Sao chép trang vào bên dưới "%name"?</translation>
+    </message>
+    <message>
+        <source>Copying ...</source>
+        <translation>Đang sao chép ...</translation>
+    </message>
+    <message>
+        <source>The copy is made. It opens now.</source>
+        <translation>Đã tạo bản sao. Bản sao sẽ mở ngay.</translation>
+    </message>
+    <message>
+        <source>The copy waits for a workflow (an approval).</source>
+        <translation>Bản sao đang chờ một quy trình làm việc (phê duyệt).</translation>
     </message>
     <message>
         <source>Last visit: %time</source>

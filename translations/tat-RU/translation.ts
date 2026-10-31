@@ -144,16 +144,16 @@
         <translation>мәҗбүри</translation>
     </message>
     <message>
-        <source>Publish later or take down at a date</source>
-        <translation>Соңрак бастыру яки билгеле көнне алып ташлау</translation>
-    </message>
-    <message>
         <source>Publish at</source>
         <translation>Бастыру вакыты</translation>
     </message>
     <message>
         <source>Take down at</source>
         <translation>Алып ташлау вакыты</translation>
+    </message>
+    <message>
+        <source>Publish later or take down at a date</source>
+        <translation>Соңрак бастыру яки билгеле көнне алып ташлау</translation>
     </message>
     <message>
         <source>In the full editor: %fields</source>
@@ -406,6 +406,30 @@
     <message>
         <source>Done.</source>
         <translation>Әзер.</translation>
+    </message>
+    <message>
+        <source>Copy ...</source>
+        <translation>Копияләү ...</translation>
+    </message>
+    <message>
+        <source>Copy "%name" to ...</source>
+        <translation>"%name" копияләү ...</translation>
+    </message>
+    <message>
+        <source>Copy the page below "%name"?</source>
+        <translation>Битне "%name" астына копияләргәме?</translation>
+    </message>
+    <message>
+        <source>Copying ...</source>
+        <translation>Копияләнә ...</translation>
+    </message>
+    <message>
+        <source>The copy is made. It opens now.</source>
+        <translation>Күчермә ясалды. Хәзер ачыла.</translation>
+    </message>
+    <message>
+        <source>The copy waits for a workflow (an approval).</source>
+        <translation>Күчермә эш процессын (раслауны) көтә.</translation>
     </message>
     <message>
         <source>Last visit: %time</source>

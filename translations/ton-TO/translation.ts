@@ -144,16 +144,16 @@
         <translation>fiemaʻu</translation>
     </message>
     <message>
-        <source>Publish later or take down at a date</source>
-        <translation>Pulusi ʻamui pe toʻo ʻi ha ʻaho</translation>
-    </message>
-    <message>
         <source>Publish at</source>
         <translation>Pulusi ʻi he</translation>
     </message>
     <message>
         <source>Take down at</source>
         <translation>Toʻo ʻi he</translation>
+    </message>
+    <message>
+        <source>Publish later or take down at a date</source>
+        <translation>Pulusi ʻamui pe toʻo ʻi ha ʻaho</translation>
     </message>
     <message>
         <source>In the full editor: %fields</source>
@@ -406,6 +406,30 @@
     <message>
         <source>Done.</source>
         <translation>Kuo ʻosi.</translation>
+    </message>
+    <message>
+        <source>Copy ...</source>
+        <translation>Kopi ...</translation>
+    </message>
+    <message>
+        <source>Copy "%name" to ...</source>
+        <translation>Kopi ʻa "%name" ki ...</translation>
+    </message>
+    <message>
+        <source>Copy the page below "%name"?</source>
+        <translation>Kopi ʻa e peesi ki lalo ʻi "%name"?</translation>
+    </message>
+    <message>
+        <source>Copying ...</source>
+        <translation>ʻOku kopi ...</translation>
+    </message>
+    <message>
+        <source>The copy is made. It opens now.</source>
+        <translation>Kuo fakahoko ʻa e kopi. ʻOku fakaava ia he taimí ni.</translation>
+    </message>
+    <message>
+        <source>The copy waits for a workflow (an approval).</source>
+        <translation>ʻOku tatali ʻa e kopi ki ha founga ngāue (fakangofua).</translation>
     </message>
     <message>
         <source>Last visit: %time</source>

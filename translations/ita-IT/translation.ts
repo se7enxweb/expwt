@@ -144,16 +144,16 @@
         <translation>obbligatorio</translation>
     </message>
     <message>
-        <source>Publish later or take down at a date</source>
-        <translation>Pubblica più tardi o ritira a una data</translation>
-    </message>
-    <message>
         <source>Publish at</source>
         <translation>Pubblica il</translation>
     </message>
     <message>
         <source>Take down at</source>
         <translation>Ritira il</translation>
+    </message>
+    <message>
+        <source>Publish later or take down at a date</source>
+        <translation>Pubblica più tardi o ritira a una data</translation>
     </message>
     <message>
         <source>In the full editor: %fields</source>
@@ -406,6 +406,30 @@
     <message>
         <source>Done.</source>
         <translation>Fatto.</translation>
+    </message>
+    <message>
+        <source>Copy ...</source>
+        <translation>Copia ...</translation>
+    </message>
+    <message>
+        <source>Copy "%name" to ...</source>
+        <translation>Copia "%name" in ...</translation>
+    </message>
+    <message>
+        <source>Copy the page below "%name"?</source>
+        <translation>Copiare la pagina sotto "%name"?</translation>
+    </message>
+    <message>
+        <source>Copying ...</source>
+        <translation>Copia in corso ...</translation>
+    </message>
+    <message>
+        <source>The copy is made. It opens now.</source>
+        <translation>La copia è pronta. Ora si apre.</translation>
+    </message>
+    <message>
+        <source>The copy waits for a workflow (an approval).</source>
+        <translation>La copia attende un flusso di lavoro (un'approvazione).</translation>
     </message>
     <message>
         <source>Last visit: %time</source>

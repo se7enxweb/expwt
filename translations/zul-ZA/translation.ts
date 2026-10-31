@@ -144,16 +144,16 @@
         <translation>kuyadingeka</translation>
     </message>
     <message>
-        <source>Publish later or take down at a date</source>
-        <translation>Shicilela kamuva noma susa ngosuku oluthile</translation>
-    </message>
-    <message>
         <source>Publish at</source>
         <translation>Shicilela ngo</translation>
     </message>
     <message>
         <source>Take down at</source>
         <translation>Susa ngo</translation>
+    </message>
+    <message>
+        <source>Publish later or take down at a date</source>
+        <translation>Shicilela kamuva noma susa ngosuku oluthile</translation>
     </message>
     <message>
         <source>In the full editor: %fields</source>
@@ -406,6 +406,30 @@
     <message>
         <source>Done.</source>
         <translation>Kwenziwe.</translation>
+    </message>
+    <message>
+        <source>Copy ...</source>
+        <translation>Kopisha ...</translation>
+    </message>
+    <message>
+        <source>Copy "%name" to ...</source>
+        <translation>Kopisha "%name" ku ...</translation>
+    </message>
+    <message>
+        <source>Copy the page below "%name"?</source>
+        <translation>Ukopisha ikhasi ngaphansi kuka "%name"?</translation>
+    </message>
+    <message>
+        <source>Copying ...</source>
+        <translation>Iyakopisha ...</translation>
+    </message>
+    <message>
+        <source>The copy is made. It opens now.</source>
+        <translation>Ikhophi yenziwe. Iyavuleka manje.</translation>
+    </message>
+    <message>
+        <source>The copy waits for a workflow (an approval).</source>
+        <translation>Ikhophi ilinde ukuhamba komsebenzi (ukugunyazwa).</translation>
     </message>
     <message>
         <source>Last visit: %time</source>

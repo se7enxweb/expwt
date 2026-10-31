@@ -144,16 +144,16 @@
         <translation>meħtieġ</translation>
     </message>
     <message>
-        <source>Publish later or take down at a date</source>
-        <translation>Ippubblika aktar tard jew neħħi f'data</translation>
-    </message>
-    <message>
         <source>Publish at</source>
         <translation>Ippubblika fi</translation>
     </message>
     <message>
         <source>Take down at</source>
         <translation>Neħħi fi</translation>
+    </message>
+    <message>
+        <source>Publish later or take down at a date</source>
+        <translation>Ippubblika aktar tard jew neħħi f'data</translation>
     </message>
     <message>
         <source>In the full editor: %fields</source>
@@ -406,6 +406,30 @@
     <message>
         <source>Done.</source>
         <translation>Lest.</translation>
+    </message>
+    <message>
+        <source>Copy ...</source>
+        <translation>Ikkopja ...</translation>
+    </message>
+    <message>
+        <source>Copy "%name" to ...</source>
+        <translation>Ikkopja "%name" lejn ...</translation>
+    </message>
+    <message>
+        <source>Copy the page below "%name"?</source>
+        <translation>Tikkopja l-paġna taħt "%name"?</translation>
+    </message>
+    <message>
+        <source>Copying ...</source>
+        <translation>Qed jikkopja ...</translation>
+    </message>
+    <message>
+        <source>The copy is made. It opens now.</source>
+        <translation>Il-kopja saret. Qed tiftaħ issa.</translation>
+    </message>
+    <message>
+        <source>The copy waits for a workflow (an approval).</source>
+        <translation>Il-kopja qed tistenna proċess tax-xogħol (approvazzjoni).</translation>
     </message>
     <message>
         <source>Last visit: %time</source>

@@ -144,16 +144,16 @@
         <translation>དགོས་ངེས།</translation>
     </message>
     <message>
-        <source>Publish later or take down at a date</source>
-        <translation>རྗེས་སུ་འགྲེམས་སྤེལ་ཡང་ན་ཚེས་གྲངས་ཤིག་ལ་ཕབ།</translation>
-    </message>
-    <message>
         <source>Publish at</source>
         <translation>འགྲེམས་སྤེལ་དུས།</translation>
     </message>
     <message>
         <source>Take down at</source>
         <translation>ཕབ་དུས།</translation>
+    </message>
+    <message>
+        <source>Publish later or take down at a date</source>
+        <translation>རྗེས་སུ་འགྲེམས་སྤེལ་ཡང་ན་ཚེས་གྲངས་ཤིག་ལ་ཕབ།</translation>
     </message>
     <message>
         <source>In the full editor: %fields</source>
@@ -406,6 +406,30 @@
     <message>
         <source>Done.</source>
         <translation>ཚར་སོང་།</translation>
+    </message>
+    <message>
+        <source>Copy ...</source>
+        <translation>འདྲ་བཤུས ...</translation>
+    </message>
+    <message>
+        <source>Copy "%name" to ...</source>
+        <translation>"%name" ...ལ་འདྲ་བཤུས།</translation>
+    </message>
+    <message>
+        <source>Copy the page below "%name"?</source>
+        <translation>ཤོག་ངོས་"%name"འོག་ཏུ་འདྲ་བཤུས་སམ།</translation>
+    </message>
+    <message>
+        <source>Copying ...</source>
+        <translation>འདྲ་བཤུས་བྱེད་བཞིན་པ ...</translation>
+    </message>
+    <message>
+        <source>The copy is made. It opens now.</source>
+        <translation>འདྲ་བཤུས་གྲུབ་སོང་། ད་ལྟ་ཁ་ཕྱེ་གི་ཡོད།</translation>
+    </message>
+    <message>
+        <source>The copy waits for a workflow (an approval).</source>
+        <translation>འདྲ་བཤུས་དེ་ལས་རིམ་(ཆོག་མཆན་)ལ་སྒུག་བཞིན་ཡོད།</translation>
     </message>
     <message>
         <source>Last visit: %time</source>

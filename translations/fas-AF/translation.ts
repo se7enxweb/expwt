@@ -144,16 +144,16 @@
         <translation>الزامی</translation>
     </message>
     <message>
-        <source>Publish later or take down at a date</source>
-        <translation>نشر در وقت دیگر یا برداشتن در یک تاریخ</translation>
-    </message>
-    <message>
         <source>Publish at</source>
         <translation>نشر در</translation>
     </message>
     <message>
         <source>Take down at</source>
         <translation>برداشتن در</translation>
+    </message>
+    <message>
+        <source>Publish later or take down at a date</source>
+        <translation>نشر در وقت دیگر یا برداشتن در یک تاریخ</translation>
     </message>
     <message>
         <source>In the full editor: %fields</source>
@@ -406,6 +406,30 @@
     <message>
         <source>Done.</source>
         <translation>انجام شد.</translation>
+    </message>
+    <message>
+        <source>Copy ...</source>
+        <translation>کاپی ...</translation>
+    </message>
+    <message>
+        <source>Copy "%name" to ...</source>
+        <translation>کاپی «%name» به ...</translation>
+    </message>
+    <message>
+        <source>Copy the page below "%name"?</source>
+        <translation>صفحه به زیر «%name» کاپی شود؟</translation>
+    </message>
+    <message>
+        <source>Copying ...</source>
+        <translation>در حال کاپی ...</translation>
+    </message>
+    <message>
+        <source>The copy is made. It opens now.</source>
+        <translation>کاپی ساخته شد. اکنون باز می‌شود.</translation>
+    </message>
+    <message>
+        <source>The copy waits for a workflow (an approval).</source>
+        <translation>کاپی منتظر یک جریان کار (منظوری) است.</translation>
     </message>
     <message>
         <source>Last visit: %time</source>

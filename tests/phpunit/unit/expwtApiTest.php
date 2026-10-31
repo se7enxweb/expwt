@@ -57,6 +57,7 @@ class expwtApiTestGateway extends expwtGateway
     public function children( array $in ) { return $this->record( 'children', $in ); }
     public function move( array $in ) { return $this->record( 'move', $in ); }
     public function addLocation( array $in ) { return $this->record( 'addLocation', $in ); }
+    public function copy( array $in ) { return $this->record( 'copy', $in ); }
     public function visibility( array $in, $hide ) { return $this->record( $hide ? 'hide' : 'reveal', $in ); }
     public function trash( array $in ) { return $this->record( 'trash', $in ); }
     public function sort( array $in ) { return $this->record( 'sort', $in ); }

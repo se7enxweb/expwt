@@ -144,16 +144,16 @@
         <translation>必須</translation>
     </message>
     <message>
-        <source>Publish later or take down at a date</source>
-        <translation>後で公開、または指定日に公開終了</translation>
-    </message>
-    <message>
         <source>Publish at</source>
         <translation>公開日時</translation>
     </message>
     <message>
         <source>Take down at</source>
         <translation>公開終了日時</translation>
+    </message>
+    <message>
+        <source>Publish later or take down at a date</source>
+        <translation>後で公開、または指定日に公開終了</translation>
     </message>
     <message>
         <source>In the full editor: %fields</source>
@@ -406,6 +406,30 @@
     <message>
         <source>Done.</source>
         <translation>完了しました。</translation>
+    </message>
+    <message>
+        <source>Copy ...</source>
+        <translation>コピー ...</translation>
+    </message>
+    <message>
+        <source>Copy "%name" to ...</source>
+        <translation>「%name」のコピー先 ...</translation>
+    </message>
+    <message>
+        <source>Copy the page below "%name"?</source>
+        <translation>ページを「%name」の下にコピーしますか？</translation>
+    </message>
+    <message>
+        <source>Copying ...</source>
+        <translation>コピー中 ...</translation>
+    </message>
+    <message>
+        <source>The copy is made. It opens now.</source>
+        <translation>コピーを作成しました。今から開きます。</translation>
+    </message>
+    <message>
+        <source>The copy waits for a workflow (an approval).</source>
+        <translation>コピーはワークフロー（承認）を待っています。</translation>
     </message>
     <message>
         <source>Last visit: %time</source>

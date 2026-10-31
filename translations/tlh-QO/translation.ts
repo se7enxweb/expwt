@@ -144,16 +144,16 @@
         <translation>poQlu'</translation>
     </message>
     <message>
-        <source>Publish later or take down at a date</source>
-        <translation>tagha' yI'ang pagh jajDaq yIteq</translation>
-    </message>
-    <message>
         <source>Publish at</source>
         <translation>'angmeH poH</translation>
     </message>
     <message>
         <source>Take down at</source>
         <translation>teqmeH poH</translation>
+    </message>
+    <message>
+        <source>Publish later or take down at a date</source>
+        <translation>tagha' yI'ang pagh jajDaq yIteq</translation>
     </message>
     <message>
         <source>In the full editor: %fields</source>
@@ -406,6 +406,30 @@
     <message>
         <source>Done.</source>
         <translation>rIn.</translation>
+    </message>
+    <message>
+        <source>Copy ...</source>
+        <translation>velqa' yIchenmoH ...</translation>
+    </message>
+    <message>
+        <source>Copy "%name" to ...</source>
+        <translation>"%name" velqa' yIchenmoH ...</translation>
+    </message>
+    <message>
+        <source>Copy the page below "%name"?</source>
+        <translation>"%name" bIng velqa' DachenmoHneS'a'?</translation>
+    </message>
+    <message>
+        <source>Copying ...</source>
+        <translation>velqa' chenmoHlI' ...</translation>
+    </message>
+    <message>
+        <source>The copy is made. It opens now.</source>
+        <translation>velqa' chenta'. DaH poSchoH.</translation>
+    </message>
+    <message>
+        <source>The copy waits for a workflow (an approval).</source>
+        <translation>mIw (chaw') loS velqa'.</translation>
     </message>
     <message>
         <source>Last visit: %time</source>

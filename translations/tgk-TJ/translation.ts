@@ -144,16 +144,16 @@
         <translation>ҳатмӣ</translation>
     </message>
     <message>
-        <source>Publish later or take down at a date</source>
-        <translation>Баъдтар нашр кардан ё дар санаи муайян бардоштан</translation>
-    </message>
-    <message>
         <source>Publish at</source>
         <translation>Нашр дар</translation>
     </message>
     <message>
         <source>Take down at</source>
         <translation>Бардоштан дар</translation>
+    </message>
+    <message>
+        <source>Publish later or take down at a date</source>
+        <translation>Баъдтар нашр кардан ё дар санаи муайян бардоштан</translation>
     </message>
     <message>
         <source>In the full editor: %fields</source>
@@ -406,6 +406,30 @@
     <message>
         <source>Done.</source>
         <translation>Тайёр.</translation>
+    </message>
+    <message>
+        <source>Copy ...</source>
+        <translation>Нусхабардорӣ ...</translation>
+    </message>
+    <message>
+        <source>Copy "%name" to ...</source>
+        <translation>Нусхабардории "%name" ба ...</translation>
+    </message>
+    <message>
+        <source>Copy the page below "%name"?</source>
+        <translation>Саҳифаро ба зери "%name" нусха кунед?</translation>
+    </message>
+    <message>
+        <source>Copying ...</source>
+        <translation>Нусхабардорӣ шуда истодааст ...</translation>
+    </message>
+    <message>
+        <source>The copy is made. It opens now.</source>
+        <translation>Нусха сохта шуд. Ҳозир кушода мешавад.</translation>
+    </message>
+    <message>
+        <source>The copy waits for a workflow (an approval).</source>
+        <translation>Нусха ҷараёни кориро (тасдиқро) интизор аст.</translation>
     </message>
     <message>
         <source>Last visit: %time</source>

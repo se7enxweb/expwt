@@ -144,16 +144,16 @@
         <translation>задолжително</translation>
     </message>
     <message>
-        <source>Publish later or take down at a date</source>
-        <translation>Објави подоцна или симни на датум</translation>
-    </message>
-    <message>
         <source>Publish at</source>
         <translation>Објави на</translation>
     </message>
     <message>
         <source>Take down at</source>
         <translation>Симни на</translation>
+    </message>
+    <message>
+        <source>Publish later or take down at a date</source>
+        <translation>Објави подоцна или симни на датум</translation>
     </message>
     <message>
         <source>In the full editor: %fields</source>
@@ -406,6 +406,30 @@
     <message>
         <source>Done.</source>
         <translation>Готово.</translation>
+    </message>
+    <message>
+        <source>Copy ...</source>
+        <translation>Копирај ...</translation>
+    </message>
+    <message>
+        <source>Copy "%name" to ...</source>
+        <translation>Копирај „%name“ во ...</translation>
+    </message>
+    <message>
+        <source>Copy the page below "%name"?</source>
+        <translation>Да се копира страницата под „%name“?</translation>
+    </message>
+    <message>
+        <source>Copying ...</source>
+        <translation>Копирање ...</translation>
+    </message>
+    <message>
+        <source>The copy is made. It opens now.</source>
+        <translation>Копијата е направена. Сега се отвора.</translation>
+    </message>
+    <message>
+        <source>The copy waits for a workflow (an approval).</source>
+        <translation>Копијата чека работен тек (одобрување).</translation>
     </message>
     <message>
         <source>Last visit: %time</source>

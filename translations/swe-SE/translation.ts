@@ -144,16 +144,16 @@
         <translation>obligatoriskt</translation>
     </message>
     <message>
-        <source>Publish later or take down at a date</source>
-        <translation>Publicera senare eller ta ned vid ett datum</translation>
-    </message>
-    <message>
         <source>Publish at</source>
         <translation>Publicera den</translation>
     </message>
     <message>
         <source>Take down at</source>
         <translation>Ta ned den</translation>
+    </message>
+    <message>
+        <source>Publish later or take down at a date</source>
+        <translation>Publicera senare eller ta ned vid ett datum</translation>
     </message>
     <message>
         <source>In the full editor: %fields</source>
@@ -406,6 +406,30 @@
     <message>
         <source>Done.</source>
         <translation>Klart.</translation>
+    </message>
+    <message>
+        <source>Copy ...</source>
+        <translation>Kopiera ...</translation>
+    </message>
+    <message>
+        <source>Copy "%name" to ...</source>
+        <translation>Kopiera "%name" till ...</translation>
+    </message>
+    <message>
+        <source>Copy the page below "%name"?</source>
+        <translation>Kopiera sidan under "%name"?</translation>
+    </message>
+    <message>
+        <source>Copying ...</source>
+        <translation>Kopierar ...</translation>
+    </message>
+    <message>
+        <source>The copy is made. It opens now.</source>
+        <translation>Kopian är gjord. Den öppnas nu.</translation>
+    </message>
+    <message>
+        <source>The copy waits for a workflow (an approval).</source>
+        <translation>Kopian väntar på ett arbetsflöde (ett godkännande).</translation>
     </message>
     <message>
         <source>Last visit: %time</source>

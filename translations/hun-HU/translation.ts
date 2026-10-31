@@ -144,16 +144,16 @@
         <translation>kötelező</translation>
     </message>
     <message>
-        <source>Publish later or take down at a date</source>
-        <translation>Későbbi közzététel vagy levétel adott időpontban</translation>
-    </message>
-    <message>
         <source>Publish at</source>
         <translation>Közzététel ekkor</translation>
     </message>
     <message>
         <source>Take down at</source>
         <translation>Levétel ekkor</translation>
+    </message>
+    <message>
+        <source>Publish later or take down at a date</source>
+        <translation>Későbbi közzététel vagy levétel adott időpontban</translation>
     </message>
     <message>
         <source>In the full editor: %fields</source>
@@ -406,6 +406,30 @@
     <message>
         <source>Done.</source>
         <translation>Kész.</translation>
+    </message>
+    <message>
+        <source>Copy ...</source>
+        <translation>Másolás ...</translation>
+    </message>
+    <message>
+        <source>Copy "%name" to ...</source>
+        <translation>„%name” másolása ide ...</translation>
+    </message>
+    <message>
+        <source>Copy the page below "%name"?</source>
+        <translation>Átmásolja az oldalt „%name” alá?</translation>
+    </message>
+    <message>
+        <source>Copying ...</source>
+        <translation>Másolás folyamatban ...</translation>
+    </message>
+    <message>
+        <source>The copy is made. It opens now.</source>
+        <translation>A másolat elkészült. Most megnyílik.</translation>
+    </message>
+    <message>
+        <source>The copy waits for a workflow (an approval).</source>
+        <translation>A másolat egy munkafolyamatra (jóváhagyásra) vár.</translation>
     </message>
     <message>
         <source>Last visit: %time</source>
