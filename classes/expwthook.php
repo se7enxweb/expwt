@@ -65,7 +65,7 @@ class expwtHook
     {
         $settings = expwtSettings::fromIni();
         // not on this siteaccess (an administration without ShowInAdmin=enabled, SiteAccessList[], SiteAccessExcludeList[]): off
-        $settings['enabled'] = expwtSettings::onHere( $settings );
+        $settings['enabled'] = expwtSettings::onHere( $settings ) && !self::inFrame();
         $user = eZUser::currentUser();
         $anonymous = !$user->isRegistered();
         $mayUse = false;
@@ -101,6 +101,12 @@ class expwtHook
         );
     }
 
+    /** @return bool the page is shown in the sidebar's frame (?in=sidebar: a field's editor, its browse): no sidebar in it */
+    public static function inFrame()
+    {
+        return isset( $_GET['in'] ) && $_GET['in'] === 'sidebar';
+    }
+
     /** @return string the first URL of the packed files ('' when the packer has none) */
     protected static function packed( $type, array $files )
     {
@@ -132,7 +138,7 @@ class expwtHook
                 return $html;
             $settings = expwtSettings::fromIni();
             // not on this siteaccess (an administration without ShowInAdmin=enabled, SiteAccessList[], SiteAccessExcludeList[]): off
-            $settings['enabled'] = expwtSettings::onHere( $settings );
+            $settings['enabled'] = expwtSettings::onHere( $settings ) && !self::inFrame();
             if ( !$settings['enabled'] || !$settings['inject_without_hook'] )
                 return $html;
             return self::inject( $html, self::markup( self::context( self::currentNodeId() ) ) );

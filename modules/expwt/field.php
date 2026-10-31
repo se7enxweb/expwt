@@ -119,9 +119,19 @@ if ( $http->hasPostVariable( 'StoreButton' ) || $http->hasPostVariable( 'CustomA
         $db->commit();
         ezpEvent::getInstance()->notify( 'content/cache/version', array( $object->attribute( 'id' ), $versionNumber ) );
     }
-    // a custom action ran inside fetchInput() as in content/edit; one that browses for an object redirects
+    // a custom action ran inside fetchInput() as in content/edit; one that browses for an object redirects, in the
+    // sidebar's frame to the browse in the frame's own page layout (layout.ini [expwtframe]), back here after
     if ( $Module->exitStatus() == eZModule::STATUS_REDIRECT )
+    {
+        $to = (string)$Module->redirectURI();
+        if ( $embedded && preg_match( '#^/?content/browse\b#', $to ) )
+        {
+            $to = '/layout/set/expwtframe/' . ltrim( $to, '/' );
+            $missing = array_filter( $query, function ( $pair ) use ( $to ) { return strpos( $to, $pair ) === false; } );
+            $Module->redirectTo( $to . ( $missing ? ( strpos( $to, '?' ) === false ? '?' : '&' ) . implode( '&', $missing ) : '' ) );
+        }
         return;
+    }
     $db = eZDB::instance();
     $db->begin();
     $object->setName( $class->contentObjectName( $object, $versionNumber, $language ), $versionNumber, $language );

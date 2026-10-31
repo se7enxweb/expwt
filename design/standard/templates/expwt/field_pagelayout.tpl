@@ -15,5 +15,6 @@
 </head>
 <body class="expwt-field-body">
 {$module_result.content}
+{ezscript( array( 'expwt-field.js' ) )}
 </body>
 </html>

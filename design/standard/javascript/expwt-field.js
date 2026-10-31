@@ -8,6 +8,11 @@
  */
 (function () {
   'use strict';
+  /* a page in the frame that is not the field's editor itself (its browse): the mode from the address */
+  var html = document.documentElement;
+  var mode = /[?&]theme=(light|dark)\b/.exec(window.location.search);
+  if (mode && !html.classList.contains('is-light') && !html.classList.contains('is-dark')) { html.classList.add('is-' + mode[1]); }
+  if (/[?&]in=sidebar\b/.test(window.location.search)) { html.classList.add('is-embedded'); }
   var el = document.getElementById('expwt-field-message');
   var message = null;
   try { message = el ? JSON.parse(el.textContent) : null; } catch (e) { message = null; }

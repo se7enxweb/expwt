@@ -22,4 +22,3 @@
     <input type="hidden" name="HasObjectInput" value="1" />
 </form>
 <script type="application/json" id="expwt-field-message">{$message}</script>
-{ezscript( array( 'expwt-field.js' ) )}

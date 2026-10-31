@@ -118,6 +118,18 @@ class expwtAssetsTest extends PHPUnit\Framework\TestCase
         $this->assertStringContainsString( 'openEditor(f, rows[f.identifier], btn)', $panels, 'a marked rich text opens its own editor' );
     }
 
+    public function testTheFrameAndItsBrowseHaveNoSiteAroundThem()
+    {
+        $layout = file_get_contents( self::ext() . '/settings/layout.ini.append.php' );
+        $this->assertStringContainsString( "[expwtframe]\nPageLayout=expwt/field_pagelayout.tpl", $layout );
+        $field = file_get_contents( self::ext() . '/modules/expwt/field.php' );
+        $this->assertStringContainsString( "'/layout/set/expwtframe/'", $field, 'a browse from the frame keeps the frame\'s page layout' );
+        $page = '<html><head><meta name="expwt" content="field" /></head><body></body></html>';
+        $this->assertSame( $page, expwtHook::inject( $page, '<exp-wt></exp-wt>' ), 'never a sidebar inside the frame' );
+        $css = file_get_contents( self::ext() . '/design/standard/stylesheets/expwt-field.css' );
+        $this->assertStringContainsString( 'html.is-embedded .expwt-field-actions { display: none; }', $css, 'the sidebar\'s row saves' );
+    }
+
     public function testClosedTabWithinItsBudget()
     {
         $bytes = strlen( gzencode( file_get_contents( self::ext() . '/design/standard/javascript/expwt.js' ), 9 ) )
