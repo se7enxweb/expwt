@@ -27,7 +27,7 @@ class expwtPureTest extends PHPUnit\Framework\TestCase
     {
         $s = self::settings();
         $this->assertFalse( $s['enabled'], 'rollout behind a setting: off by default (F14)' );
-        $this->assertTrue( $s['show_to_anonymous'], 'decision 8' );
+        $this->assertSame( 'disabled', $s['show_to_anonymous'], 'decision 8 (owner 2026-10-31): visitors get nothing by default' );
         $this->assertSame( 'rest', $s['data_layer'] );
         $this->assertSame( 'right', $s['default_side'] );
     }
@@ -119,6 +119,25 @@ class expwtPureTest extends PHPUnit\Framework\TestCase
         $this->assertSame( expwtState::defaults( $s ), expwtState::normalize( 'nonsense', $s ) );
         $this->assertSame( expwtState::defaults( $s ), expwtState::decode( '{broken', $s ) );
         $this->assertFalse( expwtState::defaults( $s )['open'], 'decision 4: closed on the first visit' );
+    }
+
+    public function testVisitorsOnlyByShowToAnonymousOrTheAnonymousRole()
+    {
+        $this->assertSame( 'disabled', expwtSettings::anonymousMode( null ) );
+        $this->assertSame( 'enabled', expwtSettings::anonymousMode( 'enabled' ) );
+        $this->assertSame( 'policy', expwtSettings::anonymousMode( ' Policy ' ) );
+        $this->assertSame( 'disabled', expwtSettings::anonymousMode( 'sometimes' ), 'unknown: disabled' );
+        $this->assertTrue( expwtSettings::anonymousMayUse( 'enabled', 'no' ) );
+        $this->assertTrue( expwtSettings::anonymousMayUse( 'policy', 'yes' ) );
+        $this->assertTrue( expwtSettings::anonymousMayUse( 'policy', 'limited' ) );
+        $this->assertFalse( expwtSettings::anonymousMayUse( 'policy', 'no' ), 'policy without expwt/use for Anonymous' );
+        $this->assertFalse( expwtSettings::anonymousMayUse( 'disabled', 'yes' ) );
+        $visitor = array( 'enabled' => true, 'anonymous' => true, 'script' => '/x.js', 'config' => array() );
+        $this->assertSame( '', expwtHook::markup( $visitor + array( 'show_to_anonymous' => 'disabled', 'may_use' => false ) ), 'F12: zero bytes' );
+        $this->assertSame( '', expwtHook::markup( $visitor + array( 'show_to_anonymous' => 'policy', 'may_use' => false ) ), 'policy without access: zero bytes' );
+        $this->assertStringContainsString( '<exp-wt', expwtHook::markup( $visitor + array( 'show_to_anonymous' => 'policy', 'may_use' => true ) ) );
+        $this->assertStringContainsString( '<exp-wt', expwtHook::markup( $visitor + array( 'show_to_anonymous' => 'enabled', 'may_use' => true ) ) );
+        $this->assertSame( 'policy', self::settings( array( 'show_to_anonymous' => 'policy' ) )['show_to_anonymous'] );
     }
 
     public function testNotInTheAdministrationUnlessShowInAdmin()
@@ -295,7 +314,7 @@ class expwtPureTest extends PHPUnit\Framework\TestCase
 
     private static function hookContext( array $change = array() )
     {
-        return $change + array( 'enabled' => true, 'anonymous' => false, 'show_to_anonymous' => true, 'may_use' => true,
+        return $change + array( 'enabled' => true, 'anonymous' => false, 'show_to_anonymous' => 'enabled', 'may_use' => true,
                                 'script' => '/var/cache/public/javascript/expwt.js', 'config' => array( 'node' => 2, 'label' => 'a "quoted" <b>' ) );
     }
 
@@ -319,7 +338,7 @@ class expwtPureTest extends PHPUnit\Framework\TestCase
         $this->assertStringNotContainsString( '<b>', $html );
         preg_match( '/data-config="([^"]*)"/', $html, $m );
         $this->assertSame( array( 'node' => 2, 'label' => 'a "quoted" <b>' ), json_decode( html_entity_decode( $m[1], ENT_QUOTES ), true ) );
-        $this->assertNotSame( '', expwtHook::markup( self::hookContext( array( 'anonymous' => true, 'may_use' => false ) ) ), 'decision 8' );
+        $this->assertNotSame( '', expwtHook::markup( self::hookContext( array( 'anonymous' => true, 'may_use' => true ) ) ), 'decision 8: ShowToAnonymous=enabled (or policy with expwt/use)' );
     }
 
     public function testInjectBeforeTheLastBodyEndOnce()

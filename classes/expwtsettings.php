@@ -12,7 +12,7 @@ class expwtSettings
     /** The values when expwt.ini has none (the shipped expwt.ini has the same) */
     const DEFAULTS = array(
         'enabled' => false,
-        'show_to_anonymous' => true,
+        'show_to_anonymous' => 'disabled',
         'data_layer' => 'rest',
         'inject_without_hook' => true,
         'default_side' => 'right',
@@ -47,7 +47,8 @@ class expwtSettings
         $s = array_intersect_key( $values, self::DEFAULTS ) + self::DEFAULTS;
         foreach ( array( 'siteaccess_list', 'siteaccess_exclude' ) as $list )
             $s[$list] = array_values( array_filter( array_map( 'trim', array_map( 'strval', (array)$s[$list] ) ), 'strlen' ) );
-        foreach ( array( 'enabled', 'show_to_anonymous', 'inject_without_hook', 'show_in_admin' ) as $flag )
+        $s['show_to_anonymous'] = self::anonymousMode( $s['show_to_anonymous'] );
+        foreach ( array( 'enabled', 'inject_without_hook', 'show_in_admin' ) as $flag )
             $s[$flag] = self::isOn( $s[$flag] );
         $s['data_layer'] = in_array( $s['data_layer'], self::DATA_LAYERS, true ) ? $s['data_layer'] : 'rest';
         $s['default_side'] = $s['default_side'] === 'left' ? 'left' : 'right';
@@ -110,6 +111,32 @@ class expwtSettings
         $read( 'CreateSettings', 'HiddenClassList', 'hidden_classes' );
         $read( 'LockSettings', 'LockSeconds', 'lock_seconds' );
         return self::fromArray( $values );
+    }
+
+    /**
+     * ShowToAnonymous (decision 8, owner 2026-10-31): disabled (the default, also for any value it does not know),
+     * enabled, or policy (only when the Anonymous user's roles grant expwt/use). Pure.
+     *
+     * @param mixed $value
+     * @return string enabled, disabled or policy
+     */
+    public static function anonymousMode( $value )
+    {
+        if ( is_string( $value ) && strtolower( trim( $value ) ) === 'policy' )
+            return 'policy';
+        return self::isOn( $value ) ? 'enabled' : 'disabled';
+    }
+
+    /**
+     * Whether a visitor who is not signed in gets the sidebar. Pure.
+     *
+     * @param string $mode anonymousMode()
+     * @param string $accessWord the Anonymous user's access word for expwt/use (yes, limited, no)
+     * @return bool
+     */
+    public static function anonymousMayUse( $mode, $accessWord )
+    {
+        return $mode === 'enabled' || ( $mode === 'policy' && in_array( $accessWord, array( 'yes', 'limited' ), true ) );
     }
 
     /**

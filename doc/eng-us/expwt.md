@@ -182,7 +182,7 @@ sidebar is first opened. The closed tab (script and stylesheet) stays below 50 K
 | Setting | Default | |
 |---|---|---|
 | `[ExpwtSettings] Enabled` | disabled | the sidebar on this siteaccess |
-| `ShowToAnonymous` | enabled | the closed tab for visitors not signed in |
+| `ShowToAnonymous` | disabled | visitors not signed in: disabled (nothing at all), enabled (the closed tab for every visitor), policy (only when the Anonymous role grants expwt/use; the setup never grants it); any other value: disabled |
 | `ShowInAdmin` | disabled | the sidebar in the administration's siteaccesses (those of `[AdminSiteAccessMenu] AdminSiteAccessList[]`, else an administration design); disabled: nothing at all there |
 | `SiteAccessList[]`, `SiteAccessExcludeList[]` | (empty) | only these siteaccesses (empty: all), never these |
 | `DataLayer` | rest | rest or graphql |

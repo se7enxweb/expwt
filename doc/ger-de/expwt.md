@@ -192,7 +192,7 @@ Stylesheet) bleibt unter 50 KB gzip; ein Test hält ihn dort.
 | Einstellung | Standard | |
 |---|---|---|
 | `[ExpwtSettings] Enabled` | disabled | die Seitenleiste in diesem Siteaccess |
-| `ShowToAnonymous` | enabled | der geschlossene Reiter für nicht angemeldete Besucher |
+| `ShowToAnonymous` | disabled | nicht angemeldete Besucher: disabled (gar nichts), enabled (der geschlossene Reiter für jeden Besucher), policy (nur wenn die Rolle Anonymous expwt/use gewährt; die Einrichtung gewährt sie nie); jeder andere Wert: disabled |
 | `ShowInAdmin` | disabled | die Seitenleiste in den Siteaccesses der Administration (die von `[AdminSiteAccessMenu] AdminSiteAccessList[]`, sonst ein Administrationsdesign); disabled: dort gar nichts |
 | `SiteAccessList[]`, `SiteAccessExcludeList[]` | (leer) | nur diese Siteaccesses (leer: alle), nie diese |
 | `DataLayer` | rest | rest oder graphql |

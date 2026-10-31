@@ -33,7 +33,8 @@ class expwtHook
     {
         if ( empty( $c['enabled'] ) || empty( $c['script'] ) )
             return '';
-        if ( !empty( $c['anonymous'] ) ? empty( $c['show_to_anonymous'] ) : empty( $c['may_use'] ) )
+        // a visitor who is not signed in: only by ShowToAnonymous (enabled, or policy with expwt/use for Anonymous)
+        if ( !empty( $c['anonymous'] ) ? ( empty( $c['show_to_anonymous'] ) || $c['show_to_anonymous'] === 'disabled' || empty( $c['may_use'] ) ) : empty( $c['may_use'] ) )
             return '';
         $config = htmlspecialchars( json_encode( $c['config'], JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE ), ENT_QUOTES, 'UTF-8' );
         return '<' . self::TAG . ' data-config="' . $config . '"></' . self::TAG . '>'
@@ -74,10 +75,16 @@ class expwtHook
             $access = $user->hasAccessTo( 'expwt', 'use' );
             $mayUse = isset( $access['accessWord'] ) && $access['accessWord'] !== 'no';
         }
+        else if ( $settings['show_to_anonymous'] !== 'disabled' )
+        {
+            // policy: the Anonymous user's roles decide, as for anyone else (expwt/use); enabled: every visitor
+            $access = $settings['show_to_anonymous'] === 'policy' ? $user->hasAccessTo( 'expwt', 'use' ) : array();
+            $mayUse = expwtSettings::anonymousMayUse( $settings['show_to_anonymous'], isset( $access['accessWord'] ) ? $access['accessWord'] : 'no' );
+        }
         $script = '';
         $css = '';
         $panels = '';
-        if ( $settings['enabled'] && ( $anonymous ? $settings['show_to_anonymous'] : $mayUse ) && class_exists( 'ezjscPacker' ) )
+        if ( $settings['enabled'] && $mayUse && class_exists( 'ezjscPacker' ) )
         {
             $script = self::packed( 'js', array( 'expwt.js' ) );
             $css = self::packed( 'css', array( 'expwt.css' ) );
