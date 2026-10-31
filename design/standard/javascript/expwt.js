@@ -184,6 +184,13 @@
     return edge === 'top' || edge === 'bottom';
   }
 
+  /* Other extensions register their panels here (decision 32), from the script their registration names:
+     expwtRegister('panel', '<id>', function (ctx, root) { ... }) -- the same ctx and root as the sidebar's own panels. */
+  window.ExpwtExtensions = window.ExpwtExtensions || { panels: {} };
+  window.expwtRegister = window.expwtRegister || function (kind, id, fn) {
+    if (kind === 'panel' && typeof fn === 'function' && /^[a-z][a-z0-9_]{0,39}$/.test(String(id))) { window.ExpwtExtensions.panels[id] = fn; }
+  };
+
   /* The page's own stylesheet: the push of the page and the outlines of inline editing (never an attribute style). */
   var pageSheet = null;
   function pageCss(text) {
@@ -272,7 +279,7 @@
         open: s.open === true,
         mode: s.mode === 'overlay' ? 'overlay' : 'push',
         theme: ['light', 'dark'].indexOf(s.theme) >= 0 ? s.theme : 'auto',
-        panel: ['page', 'create', 'structure', 'inbox', 'me'].indexOf(s.panel) >= 0 ? s.panel : 'page'
+        panel: /^[a-z][a-z0-9_]{0,39}$/.test(String(s.panel || '')) ? s.panel : 'page'
       };
     }
 
@@ -542,6 +549,11 @@
       /* the approvals waiting for the user (F29), for a user of the kernel's collaboration */
       if (this.boot && this.boot.inbox) { list.push({ id: 'inbox', label: this.t('Inbox') }); }
       list.push({ id: 'me', label: this.t('Me') });
+      /* the panels of other extensions (decision 32), each before the panel its registration names */
+      this.registry().panels.forEach(function (p) {
+        var at = list.map(function (x) { return x.id; }).indexOf(p.before);
+        list.splice(at < 0 ? list.length : at, 0, { id: p.id, label: p.label });
+      });
       return list;
     }
 
@@ -732,7 +744,7 @@
         + '[data-expwt-spacer]{display:block;block-size:' + h + 'px;margin:0;padding:0;border:0}'
         + 'html[data-expwt-push="top"]{--expwt-push-top:' + h + 'px;scroll-padding-block-start:' + ((this.top || 0) + h) + 'px}'
         + 'html[data-expwt-push="bottom"]{--expwt-push-bottom:' + h + 'px;scroll-padding-block-end:' + ((this.bottom || 0) + h) + 'px}'
-        + (this.inlineRules || '');
+        + (this.inlineRules || '') + (this.registryRules || '');
       pageCss(this.pageRules);
     }
 
@@ -878,6 +890,7 @@
     toggle(open, focusTab) {
       open = open === undefined ? !this.state.open : !!open;
       this.setState({ open: open });
+      if (!open) { this.regions(null); }
       if (open) {
         this.show(this.state.panel);
         this.heading.focus();
@@ -1136,7 +1149,9 @@
     call(action, input, retried) {
       var self = this;
       var t = this.boot.transport;
-      var write = ['me', 'page.load', 'create.classes', 'tree.children', 'inbox.load', 'boot'].indexOf(action) < 0;
+      var registered = this.registry().actions || {};
+      var write = Object.prototype.hasOwnProperty.call(registered, action) ? !!registered[action].writes
+        : ['me', 'page.load', 'create.classes', 'tree.children', 'inbox.load', 'boot'].indexOf(action) < 0;
       var json = JSON.stringify(input || {});
       var headers = { 'X-CSRF-Token': this.boot.token || '' };
       var p;
@@ -1244,7 +1259,9 @@
         this.body.appendChild(h('p', { class: 'wt-muted', text: this.t('Loading ...') }));
         return;
       }
-      this.loadPanels().then(function (registry) {
+      var ext = this.extensionPanel(id);
+      Promise.all([this.loadPanels(), ext ? this.loadExtension(ext) : null]).then(function (loaded) {
+        var registry = loaded[0];
         /* the panel drawn before takes back what it put on the page (the outlines of editing on the page); for the
            Page panel again only once it puts its own there (ctx.onLeave), so the outlines never go away meanwhile */
         if (self.pageCleanup && id !== 'page') {
@@ -1254,13 +1271,95 @@
         }
         self.closeSheet();
         self.body.textContent = '';
-        if (registry[id]) {
-          registry[id](self.context(), self.body);
+        self.regions(id);
+        var draw = registry[id] || (ext ? window.ExpwtExtensions.panels[id] : null);
+        if (draw) {
+          draw(self.context(), self.body);
         }
       }).catch(function (err) {
         if (window.console) { window.console.error('expwt panel ' + id, err); }
         self.unreachable(function () { self.show(id); });
       });
+    }
+
+    /* ------------------------------------------------------------------ what extensions add (decision 32) */
+
+    registry() {
+      return (this.boot && this.boot.registry) || { panels: [], actions: {}, highlights: [], search: [] };
+    }
+
+    extensionPanel(id) {
+      return this.registry().panels.filter(function (p) { return p.id === id; })[0] || null;
+    }
+
+    /* An extension's panel: its stylesheet into the sidebar's Shadow DOM and its script into the page, each once;
+       the script registers the panel (expwtRegister('panel', id, fn)). Tried again as the sidebar's own script is. */
+    loadExtension(p) {
+      var self = this;
+      this.extensions = this.extensions || {};
+      if (p.stylesheet && !this.shadowRoot.querySelector('link[data-expwt-ext="' + p.id + '"]')) {
+        this.shadowRoot.appendChild(h('link', { rel: 'stylesheet', href: p.stylesheet, 'data-expwt-ext': p.id }));
+      }
+      if (window.ExpwtExtensions.panels[p.id]) { return Promise.resolve(); }
+      if (!this.extensions[p.id]) {
+        this.extensions[p.id] = new Promise(function (resolve, reject) {
+          var attempt = 0;
+          (function load() {
+            var s = document.createElement('script');
+            s.src = p.script;
+            s.async = true;
+            s.onload = function () { resolve(); };
+            s.onerror = function (e) {
+              s.remove();
+              if (attempt < RETRY_AFTER.length) { setTimeout(load, RETRY_AFTER[attempt++]); } else { reject(e); }
+            };
+            document.head.appendChild(s);
+          })();
+        });
+        this.extensions[p.id].catch(function () { self.extensions[p.id] = null; });
+      }
+      return this.extensions[p.id];
+    }
+
+    /* The regions of the page an extension's panel works on (its highlights): outlined while that panel is shown and
+       the sidebar open, focusable; a click or Enter on one tells the panel which was picked (event expwt-pick on the
+       panel's body: detail.highlight, detail.element). null takes every outline away. */
+    regions(id) {
+      var self = this;
+      (this.regionEls || []).forEach(function (el) {
+        el.removeAttribute('data-expwt-region');
+        el.removeEventListener('click', el.expwtRegion, true);
+        el.removeEventListener('keydown', el.expwtRegion, true);
+        (el.expwtRegionAdded || []).forEach(function (name) { el.removeAttribute(name); });
+        el.expwtRegion = el.expwtRegionAdded = null;
+      });
+      this.regionEls = [];
+      if (id && this.state.open) {
+        this.registry().highlights.filter(function (hl) { return hl.panel === id; }).forEach(function (hl) {
+          var found;
+          try { found = document.querySelectorAll(hl.selector); } catch (e) { return; }
+          Array.prototype.forEach.call(found, function (el) {
+            if (el.closest('exp-wt') || el.hasAttribute('data-expwt-region')) { return; }
+            el.setAttribute('data-expwt-region', hl.id);
+            el.expwtRegionAdded = ['tabindex', 'aria-label'].filter(function (name) { return !el.hasAttribute(name); });
+            if (el.expwtRegionAdded.indexOf('tabindex') >= 0) { el.setAttribute('tabindex', '0'); }
+            if (hl.label && el.expwtRegionAdded.indexOf('aria-label') >= 0) { el.setAttribute('aria-label', hl.label); } else {
+              el.expwtRegionAdded = el.expwtRegionAdded.filter(function (name) { return name !== 'aria-label'; });
+            }
+            el.expwtRegion = function (e) {
+              if (e.type === 'keydown' && e.key !== 'Enter') { return; }
+              e.preventDefault();
+              e.stopPropagation();
+              self.body.dispatchEvent(new CustomEvent('expwt-pick', { detail: { highlight: hl.id, element: el } }));
+            };
+            el.addEventListener('click', el.expwtRegion, true);
+            el.addEventListener('keydown', el.expwtRegion, true);
+            self.regionEls.push(el);
+          });
+        });
+      }
+      this.registryRules = this.regionEls.length ? '[data-expwt-region]{outline:2px dashed Highlight;outline-offset:2px;cursor:pointer}' : '';
+      this.push();
     }
 
     loadPanels() {
@@ -1303,6 +1402,7 @@
         state: this.state,
         setState: function (change) { self.setState(change); },
         waiting: function (n) { self.setWaiting(n); },
+        registry: function () { return self.registry(); },
         deviceOnly: function (on) {
           if (on === undefined) { return self.deviceOnly; }
           self.deviceOnly = !!on;

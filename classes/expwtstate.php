@@ -68,7 +68,8 @@ class expwtState
             $s['mode'] = $state['mode'];
         if ( isset( $state['theme'] ) && in_array( $state['theme'], self::THEMES, true ) )
             $s['theme'] = $state['theme'];
-        if ( isset( $state['panel'] ) && in_array( $state['panel'], self::PANELS, true ) )
+        // a panel of the sidebar, or of an extension (decision 32: its id; the sidebar opens Page when it is not there)
+        if ( isset( $state['panel'] ) && is_string( $state['panel'] ) && ( in_array( $state['panel'], self::PANELS, true ) || preg_match( '/^[a-z][a-z0-9_]{0,39}$/', $state['panel'] ) ) )
             $s['panel'] = $state['panel'];
         return $s;
     }

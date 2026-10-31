@@ -66,6 +66,15 @@ class expwtApiTestGateway extends expwtGateway
     public function waitingCount( $fresh = false ) { return 3; }
     public function inbox( array $in ) { return $this->record( 'inbox', $in ); }
     public function decide( array $in ) { return $this->record( 'decide', $in ); }
+    public $registered = array( 'panels' => array(), 'actions' => array(), 'highlights' => array(), 'search' => array() );
+    public $policies = array();
+    public function registeredActions() { return $this->registered['actions']; }
+    public function registry()
+    {
+        $policies = $this->policies;
+        return expwtRegistry::forUser( $this->registered, $this->caps, function ( $m, $f ) use ( $policies ) { return in_array( "$m/$f", $policies, true ); } );
+    }
+    public function registryForBoot() { return expwtRegistry::forBoot( $this->registry(), function ( $c, $s ) { return $s; }, function ( $t, $f ) { return "/packed/$f"; } ); }
 }
 
 class expwtApiTest extends PHPUnit\Framework\TestCase
@@ -164,11 +173,11 @@ class expwtApiTest extends PHPUnit\Framework\TestCase
 
     public function testStateIsNormalizedAndSaved()
     {
-        $r = $this->api()->call( 'state.save', array( 'state' => array( 'side' => 'left', 'width' => 5, 'panel' => 'secret' ) ) );
+        $r = $this->api()->call( 'state.save', array( 'state' => array( 'side' => 'left', 'width' => 5, 'panel' => 'Secret!' ) ) );
         $this->assertSame( 'left', $this->gateway->saved['edge'], 'an old client sending side' );
         $this->api()->call( 'state.save', array( 'state' => array( 'edge' => 'bottom', 'align' => 'start', 'height' => 333 ) ) );
         $this->assertSame( array( 'bottom', 'start', 333 ), array( $this->gateway->saved['edge'], $this->gateway->saved['align'], $this->gateway->saved['height'] ) );
-        $r = $this->api()->call( 'state.save', array( 'state' => array( 'side' => 'left', 'width' => 5, 'panel' => 'secret' ) ) );
+        $r = $this->api()->call( 'state.save', array( 'state' => array( 'side' => 'left', 'width' => 5, 'panel' => 'Secret!' ) ) );
         $this->assertSame( 300, $this->gateway->saved['width'] );
         $this->assertSame( 'page', $this->gateway->saved['panel'] );
         $this->assertSame( $this->gateway->saved, $r['body']['data']['state'] );
@@ -178,7 +187,7 @@ class expwtApiTest extends PHPUnit\Framework\TestCase
     {
         $r = $this->api()->call( 'boot', array(), 'GET' );
         $d = $r['body']['data'];
-        $this->assertSame( array( 'user', 'capabilities', 'state', 'theme', 'token', 'transport', 'urls', 'strings', 'inbox', 'settings' ), array_keys( $d ) );
+        $this->assertSame( array( 'user', 'capabilities', 'state', 'theme', 'token', 'transport', 'urls', 'strings', 'inbox', 'registry', 'settings' ), array_keys( $d ) );
         $this->assertSame( 'dark', $d['theme'], 'follows the administration (F10)' );
         $this->assertSame( 'tok', $d['token'] );
         $this->assertSame( 'Bearbeiten', $d['strings']['Edit'] );

@@ -33,6 +33,12 @@ class expwtReauthTriggerHandler implements expReauthTriggerHandler
     public static function groupOf( $action, array $settings )
     {
         $kernel = expwtAccess::kernelView( $action );
+        // an action an extension registered (decision 32): the administration view its registration names
+        if ( $kernel === null && expwtRegistry::isActionName( $action ) )
+        {
+            $registry = expwtRegistry::fromIni();
+            $kernel = isset( $registry['actions'][$action] ) ? $registry['actions'][$action]['kernelView'] : null;
+        }
         if ( $kernel === null )
             return null;
         $match = expReauth::matchGroup( $settings, $kernel['module'], $kernel['view'], 'POST', $kernel['post'] );

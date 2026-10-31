@@ -249,6 +249,49 @@ class expwtGateway
     }
 
 
+    // ------------------------------------------------------------------------------- what extensions add (32)
+
+    /** @var array|null */
+    protected $registryAll = null;
+
+    /** @var array|null */
+    protected $registryMine = null;
+
+    /** @return array every action the extensions registered (expwtRegistry), whoever may call it */
+    public function registeredActions()
+    {
+        if ( $this->registryAll === null )
+            $this->registryAll = expwtRegistry::fromIni();
+        return $this->registryAll['actions'];
+    }
+
+    /** @return array the registry's entries the user gets (their expwt function and kernel policies) */
+    public function registry()
+    {
+        if ( $this->registryMine === null )
+        {
+            $this->registeredActions();
+            $self = $this;
+            $this->registryMine = expwtRegistry::forUser( $this->registryAll, $this->capabilities(),
+                                                          function ( $module, $function ) use ( $self ) { return $self->mayDo( $module, $function ); } );
+        }
+        return $this->registryMine;
+    }
+
+    /** @return array the registry as the boot answer has it: labels translated, scripts and stylesheets as addresses */
+    public function registryForBoot()
+    {
+        return expwtRegistry::forBoot( $this->registry(),
+            function ( $context, $source ) { return ezpI18n::tr( $context, $source ); },
+            function ( $type, $file ) { return class_exists( 'ezjscPacker' ) ? expwtHook::packed( $type, array( $file ) ) : ''; } );
+    }
+
+    /** @return bool the current user has the kernel policy module/function (for the registry and extensions) */
+    public function mayDo( $module, $function )
+    {
+        return $this->may( $module, $function );
+    }
+
     // ------------------------------------------------------------------------------------------------ the inbox
 
     /** @return bool the user may use the kernel's collaboration (the module's policy), where the approvals are */

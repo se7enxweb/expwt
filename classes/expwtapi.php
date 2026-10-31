@@ -39,7 +39,7 @@ class expwtApi
     public function call( $action, array $input, $method = 'POST' )
     {
         if ( !expwtAccess::exists( $action ) )
-            return self::error( 404, 'unknown_action', 'There is no such action.' );
+            return $this->callRegistered( $action, $input, $method );
         if ( expwtAccess::writes( $action ) && strtoupper( (string)$method ) !== 'POST' )
             return self::error( 405, 'method', 'This action changes something and is only sent by POST.' );
         try
@@ -60,6 +60,57 @@ class expwtApi
                 eZDebug::writeError( get_class( $e ) . ': ' . $e->getMessage(), __METHOD__ );
             return self::error( 500, 'internal', 'Something went wrong on the server.' );
         }
+    }
+
+    /**
+     * An action an extension registered (expwtRegistry, decision 32), with the same checks in the same order: it is
+     * registered (404), a writing one only by POST (405), the expwt function and the kernel policies of its
+     * registration (403); then its class (expwtActionHandler), which checks the kernel's policy of what it changes.
+     */
+    protected function callRegistered( $action, array $input, $method )
+    {
+        $all = expwtRegistry::isActionName( $action ) ? $this->gateway->registeredActions() : array();
+        if ( !isset( $all[$action] ) )
+            return self::error( 404, 'unknown_action', 'There is no such action.' );
+        if ( $all[$action]['writes'] && strtoupper( (string)$method ) !== 'POST' )
+            return self::error( 405, 'method', 'This action changes something and is only sent by POST.' );
+        try
+        {
+            $mine = $this->gateway->registry();
+            if ( !isset( $mine['actions'][$action] ) )
+                return self::error( 403, 'forbidden', 'You may not do this.' );
+            $class = $all[$action]['class'];
+            if ( !class_exists( $class ) || !in_array( 'expwtActionHandler', (array)class_implements( $class ), true ) )
+            {
+                if ( class_exists( 'eZDebug' ) )
+                    eZDebug::writeError( "The class $class of the action $action is not an expwtActionHandler", __METHOD__ );
+                return self::error( 500, 'internal', 'Something went wrong on the server.' );
+            }
+            $handler = new $class();
+            $data = $handler->run( $action, $input, $this->gateway );
+            return array( 'status' => 200, 'body' => array( 'ok' => true, 'data' => $data ) );
+        }
+        catch ( expwtApiError $e )
+        {
+            return self::error( $e->status, $e->errorCode, $e->getMessage(), $e->details );
+        }
+        catch ( Exception $e )
+        {
+            if ( class_exists( 'eZDebug' ) )
+                eZDebug::writeError( get_class( $e ) . ': ' . $e->getMessage(), __METHOD__ );
+            return self::error( 500, 'internal', 'Something went wrong on the server.' );
+        }
+    }
+
+    /** @return bool the action changes something: one of the sidebar's or one an extension registered */
+    public static function writes( $action )
+    {
+        if ( expwtAccess::exists( $action ) )
+            return expwtAccess::writes( $action );
+        if ( !expwtRegistry::isActionName( $action ) )
+            return false;
+        $registry = expwtRegistry::fromIni();
+        return isset( $registry['actions'][$action] ) && $registry['actions'][$action]['writes'];
     }
 
     protected function run( $action, array $input )
@@ -145,6 +196,9 @@ class expwtApi
             'strings' => $g->strings(),
             // the Inbox panel and the count on the closed tab (F29): only for a user of the kernel's collaboration
             'inbox' => $g->collaborates() ? array( 'waiting' => $g->waitingCount() ) : null,
+            // what other extensions add and this user gets (decision 32): panels, highlights, search providers, and
+            // which of their actions write
+            'registry' => $g->registryForBoot(),
             'settings' => array( 'minWidth' => $this->settings['min_width'], 'maxWidth' => $this->settings['max_width'],
                                  'minHeight' => $this->settings['min_height'], 'maxHeight' => $this->settings['max_height'],
                                  'overlayBelow' => $this->settings['overlay_below_width'] ),

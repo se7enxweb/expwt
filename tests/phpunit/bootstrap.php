@@ -17,12 +17,15 @@ $expwtClasses = array(
     'expwtApiError' => 'expwtapierror.php', 'expwtApi' => 'expwtapi.php', 'expwtStrings' => 'expwtstrings.php',
     'expwtSchedule' => 'expwtschedule.php', 'expwtHook' => 'expwthook.php', 'expwtGateway' => 'expwtgateway.php',
     'expwtFieldMarkerHandler' => 'expwtfieldmarkerhandler.php',
+    'expwtRegistry' => 'expwtregistry.php',
 );
 foreach ( $expwtClasses as $expwtClass => $expwtFile )
 {
     if ( !class_exists( $expwtClass ) )
         require_once dirname( __DIR__, 2 ) . '/classes/' . $expwtFile;
 }
+if ( !interface_exists( 'expwtActionHandler' ) )
+    require_once dirname( __DIR__, 2 ) . '/classes/expwtactionhandler.php';
 if ( interface_exists( 'expReauthTriggerHandler' ) && !class_exists( 'expwtReauthTriggerHandler' ) )
     require_once dirname( __DIR__, 2 ) . '/classes/expwtreauthtriggerhandler.php';
 unset( $expwtClasses, $expwtClass, $expwtFile );

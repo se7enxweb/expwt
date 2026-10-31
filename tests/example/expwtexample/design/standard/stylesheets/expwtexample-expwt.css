@@ -1,0 +1,7 @@
+/*
+ * expwtexample: the look of the panel "Page cache", loaded into the website sidebar's Shadow DOM when the panel is
+ * first shown. Only the sidebar's tokens (--a4-*, they have their dark values there); class names of the extension.
+ */
+.expwtexample-facts { display: grid; grid-template-columns: auto minmax(0, 1fr); gap: var(--a4-space-1) var(--a4-space-3); margin: 0 0 var(--a4-space-3); }
+.expwtexample-facts dt { color: var(--a4-muted); font-size: var(--a4-text-s); }
+.expwtexample-facts dd { margin: 0; overflow-wrap: break-word; }

@@ -71,7 +71,7 @@ class expwtGraphQLExtension implements expGraphQLSchemaExtension, expGraphQLMuta
                     if ( $refusal !== null )
                         throw new expGraphQLError( $refusal[0], $refusal[1] );
                 }
-                else if ( expwtAccess::writes( (string)$args['action'] ) )
+                else if ( expwtApi::writes( (string)$args['action'] ) )
                     return self::answer( expwtApi::error( 400, 'bad_input', 'This action changes something: send it with expwtWrite.' ) );
                 $input = isset( $args['input'] ) && $args['input'] !== '' ? json_decode( (string)$args['input'], true ) : array();
                 if ( !is_array( $input ) )

@@ -229,6 +229,77 @@ sidebar is first opened. The closed tab (script and stylesheet) stays below 50 K
 | `[CreateSettings] HiddenClassList[]` | common_ini_settings | classes Create never offers |
 | `[LockSettings] LockSeconds` | 300 | how long a soft lock lasts without a heartbeat |
 
+## Adding to the sidebar from another extension
+
+Another extension adds panels, server actions, page highlights and search providers to the sidebar in its own
+`settings/expwt.ini.append.php` (decision 32), with no change to expwt. A worked example, an extension that adds a
+"Page cache" panel, is in `tests/example/expwtexample` (its registration is checked by the tests); copy it, rename
+`expwtexample` everywhere, activate it and regenerate the autoloads.
+
+```ini
+[RegistrySettings]
+PanelList[]=pagecache
+ActionList[]=expwtexample.info
+ActionList[]=expwtexample.clearcache
+HighlightList[]=pagecache_headings
+SearchProviderList[]=expwtexample
+
+[Panel_pagecache]
+Label=Page cache
+Context=extension/expwtexample
+Script=expwtexample-expwt.js
+Stylesheet=expwtexample-expwt.css
+Before=me
+Function=use
+Policy[]=setup/managecache
+
+[Action_expwtexample.clearcache]
+Class=expwtexampleExpwtActions
+Writes=true
+Policy[]=setup/managecache
+KernelView=setup/cache
+
+[Highlight_pagecache_headings]
+Panel=pagecache
+Selector=main h1, article h1
+Label=A heading of this page
+
+[SearchProvider_expwtexample]
+Label=Pages by name
+Action=expwtexample.search
+```
+
+| Setting | |
+|---|---|
+| `Label`, `Context` | the English source of the tab's or entry's name, and the translation context it is translated in |
+| `Script`, `Stylesheet` | file names in the extension's design (`javascript/`, `stylesheets/`; the design needs `DesignExtensions[]`) |
+| `Before` | the panel of the sidebar whose tab this panel's tab stands before (default `me`) |
+| `Function` | the expwt function needed (`use`, `edit`, `create`, `structure`, `layouts`, `templates`, `shop`, `admin`; default `use`) |
+| `Policy[]` | kernel policies needed, all of them (`module/function`) |
+| `Class`, `Writes` | the action's class (`expwtActionHandler`); `true` for an action that changes something |
+| `KernelView` | the administration view (`module/view`) an action stands for: "Verify it's you" asks where it asks |
+| `Panel`, `Selector` | the panel a highlight belongs to, and the page's elements it outlines (a CSS selector) |
+| `Action` | the action a search provider answers through |
+
+- **Who sees what.** An entry needs its expwt function and every kernel policy of its `Policy[]`; a user without them
+  gets neither the tab nor the action (403), and a highlight or search provider goes with its panel or action. The
+  sidebar grants nothing: the action's class checks the kernel's policy of what it reads or changes, as the sidebar's
+  own actions do. An entry with a wrong name, without what it needs, or taking a name of the sidebar is left out.
+- **Panels.** The sidebar loads the panel's script (through the ezjscore packer) the first time the panel is shown;
+  the script registers it with `expwtRegister('panel', '<id>', function (ctx, root) { ... })`. `ctx` is what the
+  sidebar's own panels get (`h`, `t`, `call`, `say`, `node`, `registry()` ...) and `root` is the panel's body inside the
+  sidebar's Shadow DOM, where the sidebar's classes (`wt-btn`, `wt-field`, `wt-section`, `wt-muted` ...) and tokens
+  (`--a4-*`, with their dark values) apply; a stylesheet uses only those tokens.
+- **Actions** are named `<extension>.<name>` and answered by `run($action, $input, $gateway)` of their class
+  (`expwtActionHandler`) through the installation's data layer (`expwt/api`, `/api/expwt/v1`, GraphQL): checked in the
+  order of the sidebar's own (registered 404, POST for a writing one 405, policies 403), and an `expwtApiError` of the
+  class reaches the panel with its status and message. `ctx.call('<extension>.<name>', input)` sends a writing action
+  by POST with the CSRF token and a reading one by GET.
+- **Highlights** are outlined while their panel is shown and the sidebar is open, and can be reached with the
+  keyboard; a click or Enter on one sends the event `expwt-pick` to the panel's body (`detail.highlight`,
+  `detail.element`).
+- **Search providers** are listed in the boot answer for the sidebar's search (decision 29).
+
 ## For developers
 
 - Tests (no database): `php vendor/bin/phpunit extension/expwt/tests/phpunit/unit` from the installation's root.

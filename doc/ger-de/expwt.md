@@ -243,6 +243,36 @@ Stylesheet) bleibt unter 50 KB gzip; ein Test hält ihn dort.
 | `[CreateSettings] HiddenClassList[]` | common_ini_settings | Klassen, die Anlegen nie anbietet |
 | `[LockSettings] LockSeconds` | 300 | wie lange eine weiche Sperre ohne Lebenszeichen hält |
 
+## Erweiterungen fügen der Seitenleiste etwas hinzu
+
+Eine andere Erweiterung fügt der Seitenleiste Bereiche, Server-Aktionen, Markierungen auf der Seite und Suchquellen
+in ihrer eigenen `settings/expwt.ini.append.php` hinzu (Entscheidung 32), ohne Änderung an expwt. Ein durchgearbeitetes
+Beispiel, eine Erweiterung mit dem Bereich „Page cache", liegt in `tests/example/expwtexample` (die Tests prüfen ihre
+Registrierung); kopieren, `expwtexample` überall umbenennen, aktivieren und die Autoloads neu erzeugen. Die
+Einstellungen sind die des englischen Leitfadens (Abschnitt „Adding to the sidebar from another extension"):
+`[RegistrySettings]` mit `PanelList[]`, `ActionList[]`, `HighlightList[]`, `SearchProviderList[]` und je Eintrag eine
+Gruppe `[Panel_<id>]`, `[Action_<erweiterung>.<name>]`, `[Highlight_<id>]`, `[SearchProvider_<id>]`.
+
+- **Wer was sieht.** Ein Eintrag braucht seine expwt-Funktion und jede Kernel-Richtlinie aus `Policy[]`; ohne sie gibt
+  es weder den Reiter noch die Aktion (403), und eine Markierung oder Suchquelle fällt mit ihrem Bereich oder ihrer
+  Aktion weg. Die Seitenleiste gewährt nichts: die Klasse der Aktion prüft die Kernel-Richtlinie dessen, was sie liest
+  oder ändert, wie die eigenen Aktionen der Seitenleiste. Ein Eintrag mit falschem Namen, ohne das Nötige oder mit
+  einem Namen der Seitenleiste wird ausgelassen.
+- **Bereiche.** Die Seitenleiste lädt das Skript des Bereichs (über den ezjscore-Packer), wenn der Bereich zum ersten
+  Mal gezeigt wird; das Skript meldet ihn mit `expwtRegister('panel', '<id>', function (ctx, root) { ... })` an. `ctx`
+  ist, was die eigenen Bereiche bekommen (`h`, `t`, `call`, `say`, `node`, `registry()` ...), `root` der Inhalt des
+  Bereichs im Shadow DOM der Seitenleiste, wo ihre Klassen und Tokens (`--a4-*`, mit dunklen Werten) gelten; ein
+  Stylesheet nutzt nur diese Tokens.
+- **Aktionen** heißen `<erweiterung>.<name>` und werden von `run($action, $input, $gateway)` ihrer Klasse
+  (`expwtActionHandler`) über die Datenschicht der Installation beantwortet (`expwt/api`, `/api/expwt/v1`, GraphQL),
+  geprüft wie die eigenen (registriert 404, POST für ändernde 405, Richtlinien 403); ein `expwtApiError` der Klasse
+  erreicht den Bereich mit Status und Meldung. `KernelView=<modul>/<ansicht>` lässt „Bestätigen Sie, dass Sie es sind"
+  fragen, wo die Administration für diese Ansicht fragt.
+- **Markierungen** sind umrandet, solange ihr Bereich gezeigt wird und die Seitenleiste offen ist, und per Tastatur
+  erreichbar; ein Klick oder Enter schickt das Ereignis `expwt-pick` an den Inhalt des Bereichs (`detail.highlight`,
+  `detail.element`).
+- **Suchquellen** stehen in der Boot-Antwort für die Suche der Seitenleiste (Entscheidung 29).
+
 ## Für Entwickler
 
 - Tests (ohne Datenbank): `php vendor/bin/phpunit extension/expwt/tests/phpunit/unit` im Wurzelverzeichnis der

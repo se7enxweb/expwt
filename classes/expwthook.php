@@ -153,7 +153,7 @@ class expwtHook
     }
 
     /** @return string the first URL of the packed files ('' when the packer has none) */
-    protected static function packed( $type, array $files )
+    public static function packed( $type, array $files )
     {
         $urls = $type === 'css' ? ezjscPacker::buildStylesheetFiles( $files, 3 ) : ezjscPacker::buildJavascriptFiles( $files, 2 );
         return is_array( $urls ) && $urls ? (string)reset( $urls ) : '';
