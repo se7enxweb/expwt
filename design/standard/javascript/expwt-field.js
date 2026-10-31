@@ -233,12 +233,16 @@
   }
   relations();
 
-  /* a table of inputs (authors, a matrix, options ...) wider than the frame: one card per row, each cell with its
-     column's name (also the input's name for screen readers); a table again once the frame is wide enough */
+  /* a table of inputs (authors, a matrix, options ...) or with a row of column names (the current image: preview,
+     file name, MIME type, size) wider than the frame: one card per row, each cell with its column's name (also the
+     input's name for screen readers); a table again once the frame is wide enough. A table in the text being
+     edited (a rich text editor's own content) stays a table. */
   function rows() {
     Array.prototype.forEach.call(document.querySelectorAll('.expwt-field-body table'), function (table) {
-      if (!table.querySelector('tbody input:not([type=hidden]):not([type=checkbox]), tbody select, tbody textarea')) { return; }
+      if (table.closest('[contenteditable], .ProseMirror')) { return; }
       var head = table.tHead ? table.tHead.rows[0] : (table.rows[0] && table.rows[0].querySelector('th') ? table.rows[0] : null);
+      var inputs = table.querySelector('tbody input:not([type=hidden]):not([type=checkbox]), tbody select, tbody textarea');
+      if (!inputs && !(head && head.cells.length > 1 && table.rows.length > 1)) { return; }
       if (head && !table.hasAttribute('data-a4-labelled')) {
         table.setAttribute('data-a4-labelled', '');
         Array.prototype.forEach.call(table.rows, function (tr) {
@@ -254,7 +258,10 @@
         });
       }
       table.classList.remove('a4-rows');
-      if (table.scrollWidth > table.clientWidth + 1) { table.classList.add('a4-rows'); }
+      /* in the sidebar's frame a table without inputs (the current image) is always the card: its columns would
+         only just fit the panel's width, and not after a longer file name */
+      var card = !inputs && document.documentElement.classList.contains('is-embedded');
+      if (card || table.scrollWidth > table.clientWidth + 1) { table.classList.add('a4-rows'); }
     });
   }
   rows();
