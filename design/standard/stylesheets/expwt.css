@@ -682,18 +682,23 @@ a { color: var(--a4-accent-text); }
 .wt-pill[hidden] { display: none; }
 .wt-pill-dot { color: var(--a4-muted); }
 .wt-pill .wt-btn { min-block-size: 44px; min-inline-size: 44px; }
-.wt-scrim { position: fixed; inset: 0; z-index: var(--a4-z-overlay); background: var(--a4-overlay); }
-.wt-scrim[hidden], .wt-sheet[hidden] { display: none; }
+/* the sheet is a modal <dialog> in the browser's top layer: above everything on the page */
 .wt-sheet {
   position: fixed;
-  inset-inline: 0;
-  bottom: var(--wt-bar-room, 0px);
-  z-index: var(--a4-z-overlay);
-  display: flex;
+  inset: auto 0 0 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  inline-size: 100%;
+  max-inline-size: none;
+  max-block-size: none;
   flex-direction: column;
-  block-size: min(85vh, calc(100vh - var(--wt-bar-room, 0px) - var(--a4-space-6)));
-  block-size: min(85dvh, calc(100dvh - var(--wt-bar-room, 0px) - var(--a4-space-6)));
+  block-size: 85vh;
+  block-size: 85dvh;
   padding-block-end: env(safe-area-inset-bottom, 0px);
+  font-family: var(--a4-font);
+  font-size: var(--a4-text-m);
+  line-height: var(--a4-leading);
   border-start-start-radius: var(--a4-radius);
   border-start-end-radius: var(--a4-radius);
   background: var(--a4-card);
@@ -701,6 +706,9 @@ a { color: var(--a4-accent-text); }
   box-shadow: var(--a4-shadow-up);
   outline: none;
 }
+.wt-sheet[open] { display: flex; }
+.wt-sheet:not([open]) { display: none; }
+.wt-sheet::backdrop { background: var(--a4-overlay); }
 .wt-sheet[data-dragging] { opacity: 0.85; }
 .wt-sheet-handle { flex: none; align-self: center; inline-size: 44px; block-size: 24px; margin-block-start: var(--a4-space-1); cursor: grab; touch-action: none; }
 .wt-sheet-handle::before { content: ""; display: block; inline-size: 40px; block-size: 4px; margin: 10px auto 0; border-radius: var(--a4-radius-s); background: var(--a4-line-strong); }

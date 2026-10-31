@@ -329,8 +329,15 @@
       this.sheetBody = h('div', { class: 'wt-sheet-body' });
       this.sheetActions = h('div', { class: 'wt-row wt-sheet-actions' });
       var handle = h('div', { class: 'wt-sheet-handle', 'aria-hidden': 'true', onpointerdown: function (e) { self.sheetDrag(e); } });
-      this.sheet = h('div', { class: 'wt-sheet', role: 'dialog', 'aria-modal': 'true', 'aria-labelledby': 'wt-sheet-title', tabindex: '-1', hidden: true,
-        onkeydown: function (e) { if (e.key === 'Escape') { e.stopPropagation(); self.closeSheet(); } } }, [
+      /* a modal <dialog> (showModal): in the browser's top layer, above all of the page (a debug bar, a cookie
+         dialog, whatever their z-index), the page behind it inert; its backdrop closes it, as Escape and Close do */
+      this.sheet = h('dialog', { class: 'wt-sheet', 'aria-labelledby': 'wt-sheet-title',
+        oncancel: function (e) { e.preventDefault(); self.closeSheet(); },
+        onclick: function (e) {
+          if (e.target !== self.sheet) { return; }
+          var r = self.sheet.getBoundingClientRect();
+          if (e.clientY < r.top || e.clientY > r.bottom || e.clientX < r.left || e.clientX > r.right) { self.closeSheet(); }
+        } }, [
         handle,
         h('div', { class: 'wt-sheet-head', onpointerdown: function (e) { if (e.target === e.currentTarget || e.target === self.sheetTitle) { self.sheetDrag(e); } } }, [
           this.sheetTitle,
@@ -340,11 +347,9 @@
         this.sheetBody,
         this.sheetActions
       ]);
-      this.scrim = h('div', { class: 'wt-scrim', hidden: true, onclick: function () { self.closeSheet(); } });
       root.appendChild(this.tab);
       root.appendChild(this.panel);
       root.appendChild(this.pill);
-      root.appendChild(this.scrim);
       root.appendChild(this.sheet);
       this.buildTabs();
     }
@@ -372,11 +377,11 @@
     drawPill() {
       if (!this.pill) { return; }
       this.setAttribute('data-editing', this.editOn ? 'true' : 'false');
-      this.pill.hidden = !EditState.pillShown(this.editOn, this.state.open, this.overlay()) || !this.sheet.hidden;
+      this.pill.hidden = !EditState.pillShown(this.editOn, this.state.open, this.overlay()) || this.sheet.open;
       this.placePill();
       /* a bar that comes later (the debug bar, a cookie dialog shown after a delay): measured again while shown */
       var self = this;
-      var shown = !this.pill.hidden || !this.sheet.hidden;
+      var shown = !this.pill.hidden;
       if (shown && !this.pillTimer) {
         this.pillTimer = setInterval(function () { self.placePill(); }, 1000);
       } else if (!shown && this.pillTimer) {
@@ -388,7 +393,7 @@
     /* The pill stays clear of what is fixed at the window's bottom (a cookie bar, the debug bar, the bottom tab):
        their room as a custom property of the pill, from the sidebar's own stylesheet (never an attribute style). */
     placePill() {
-      if (!this.pill || (this.pill.hidden && this.sheet.hidden) || !canAdopt) { return; }
+      if (!this.pill || this.pill.hidden || !canAdopt) { return; }
       var self = this;
       var vh = window.innerHeight;
       var tops = [];
@@ -411,13 +416,11 @@
       });
       var room = EditState.bottomRoom(vh, tops);
       if (this.state.edge === 'bottom' && this.tab) { room += this.tab.offsetHeight; }
-      /* the sheet steps above a bar at the bottom (the debug bar), not above a tall dialog (it would have no room) */
-      var bars = EditState.bottomRoom(vh, tops, 0.7);
       if (!this.pillSheet) {
         this.pillSheet = new CSSStyleSheet();
         this.shadowRoot.adoptedStyleSheets = this.shadowRoot.adoptedStyleSheets.concat([this.pillSheet]);
       }
-      this.pillSheet.replaceSync(':host{--wt-pill-room:' + room + 'px;--wt-bar-room:' + bars + 'px}');
+      this.pillSheet.replaceSync(':host{--wt-pill-room:' + room + 'px}');
     }
 
     /* openSheet(title, node, actions, onClose): the node (a field's editor frame, moved without a reload where the
@@ -431,23 +434,27 @@
       (actions || []).forEach(function (a) { self.sheetActions.appendChild(a); });
       this.sheetOnClose = onClose || null;
       move(this.sheetBody, node);
-      this.sheet.hidden = false;
-      this.scrim.hidden = false;
+      if (typeof this.sheet.showModal === 'function') {
+        this.sheet.showModal();
+      } else {
+        this.sheet.setAttribute('open', '');
+      }
       this.setAttribute('data-sheet', 'open');
       this.drawPill();
-      this.placePill();
-      this.sheet.focus();
       var close = this.sheet.querySelector('.wt-sheet-head .wt-btn');
       if (close) { close.focus(); }
     }
 
     closeSheet() {
-      if (!this.sheet || this.sheet.hidden) { return; }
+      if (!this.sheet || !this.sheet.open) { return; }
       var self = this;
       var y = this.sheetScroll;
       var finish = function () {
-        self.sheet.hidden = true;
-        self.scrim.hidden = true;
+        if (typeof self.sheet.close === 'function') {
+          self.sheet.close();
+        } else {
+          self.sheet.removeAttribute('open');
+        }
         self.removeAttribute('data-sheet');
         self.sheetBody.textContent = '';
         self.drawPill();
@@ -1171,8 +1178,9 @@
         return;
       }
       this.loadPanels().then(function (registry) {
-        /* the panel drawn before takes back what it put on the page (the outlines of editing on the page) */
-        if (self.pageCleanup) {
+        /* the panel drawn before takes back what it put on the page (the outlines of editing on the page); for the
+           Page panel again only once it puts its own there (ctx.onLeave), so the outlines never go away meanwhile */
+        if (self.pageCleanup && id !== 'page') {
           var undo = self.pageCleanup;
           self.pageCleanup = null;
           undo();
@@ -1237,7 +1245,11 @@
         openSheet: function (title, node, actions, onClose) { self.openSheet(title, node, actions, onClose); },
         closeSheet: function () { self.closeSheet(); },
         move: move,
-        onLeave: function (fn) { self.pageCleanup = fn; }
+        onLeave: function (fn) {
+          var before = self.pageCleanup;
+          self.pageCleanup = fn;
+          if (before && before !== fn) { before(); }
+        }
       };
     }
 
