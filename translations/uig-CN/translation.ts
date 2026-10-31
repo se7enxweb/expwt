@@ -708,6 +708,58 @@
         <translation>SEO</translation>
     </message>
     <message>
+        <source>Back to this site's language</source>
+        <translation>بۇ تور بېكەتنىڭ تىلىغا قايتىش</translation>
+    </message>
+    <message>
+        <source>This site</source>
+        <translation>بۇ تور بېكەت</translation>
+    </message>
+    <message>
+        <source>Not in the language of this site</source>
+        <translation>بۇ تور بېكەتنىڭ تىلىدا ئەمەس</translation>
+    </message>
+    <message>
+        <source>Side by side</source>
+        <translation>يانمۇيان</translation>
+    </message>
+    <message>
+        <source>This page on other sites</source>
+        <translation>بۇ بەت باشقا تور بېكەتلەردە</translation>
+    </message>
+    <message>
+        <source>There is no other site to show it on.</source>
+        <translation>ئۇنى كۆرسىتىدىغان باشقا تور بېكەت يوق.</translation>
+    </message>
+    <message>
+        <source>Main language</source>
+        <translation>ئاساسىي تىل</translation>
+    </message>
+    <message>
+        <source>Not translated yet</source>
+        <translation>تېخى تەرجىمە قىلىنمىدى</translation>
+    </message>
+    <message>
+        <source>Edit here</source>
+        <translation>بۇ يەردە تەھرىرلەش</translation>
+    </message>
+    <message>
+        <source>Translate</source>
+        <translation>تەرجىمە قىلىش</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>تەرجىمىلەر</translation>
+    </message>
+    <message>
+        <source>Sites</source>
+        <translation>تور بېكەتلەر</translation>
+    </message>
+    <message>
+        <source>This page</source>
+        <translation>بۇ بەت</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>كىرگەنلەر</translation>
     </message>

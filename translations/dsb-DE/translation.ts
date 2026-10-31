@@ -708,6 +708,58 @@
         <translation>SEO</translation>
     </message>
     <message>
+        <source>Back to this site's language</source>
+        <translation>Slědk k rěcy toś togo sedła</translation>
+    </message>
+    <message>
+        <source>This site</source>
+        <translation>Toś to sedło</translation>
+    </message>
+    <message>
+        <source>Not in the language of this site</source>
+        <translation>Njejo w rěcy toś togo sedła</translation>
+    </message>
+    <message>
+        <source>Side by side</source>
+        <translation>Pódla sebje</translation>
+    </message>
+    <message>
+        <source>This page on other sites</source>
+        <translation>Toś ten bok na drugich sedłach</translation>
+    </message>
+    <message>
+        <source>There is no other site to show it on.</source>
+        <translation>Njejo žedno druge sedło, na kótaremž by se pokazał.</translation>
+    </message>
+    <message>
+        <source>Main language</source>
+        <translation>Głowna rěc</translation>
+    </message>
+    <message>
+        <source>Not translated yet</source>
+        <translation>Hyšći njepśełožony</translation>
+    </message>
+    <message>
+        <source>Edit here</source>
+        <translation>How wobźěłaś</translation>
+    </message>
+    <message>
+        <source>Translate</source>
+        <translation>Pśełožyś</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>Pśełožki</translation>
+    </message>
+    <message>
+        <source>Sites</source>
+        <translation>Sedła</translation>
+    </message>
+    <message>
+        <source>This page</source>
+        <translation>Toś ten bok</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Dostaśe</translation>
     </message>

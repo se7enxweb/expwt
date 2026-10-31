@@ -708,6 +708,58 @@
         <translation>SEO</translation>
     </message>
     <message>
+        <source>Back to this site's language</source>
+        <translation>ᱱᱚᱶᱟ ᱥᱟᱭᱤᱴ ᱨᱮᱱᱟᱜ ᱯᱟᱹᱨᱥᱤ ᱛᱮ ᱨᱩᱣᱟᱹᱲ ᱢᱮ</translation>
+    </message>
+    <message>
+        <source>This site</source>
+        <translation>ᱱᱚᱶᱟ ᱥᱟᱭᱤᱴ</translation>
+    </message>
+    <message>
+        <source>Not in the language of this site</source>
+        <translation>ᱱᱚᱶᱟ ᱥᱟᱭᱤᱴ ᱨᱮᱱᱟᱜ ᱯᱟᱹᱨᱥᱤ ᱨᱮ ᱵᱟᱹᱱᱩᱜᱼᱟ</translation>
+    </message>
+    <message>
+        <source>Side by side</source>
+        <translation>ᱥᱮᱫ ᱥᱮᱫ</translation>
+    </message>
+    <message>
+        <source>This page on other sites</source>
+        <translation>ᱮᱴᱟᱜ ᱥᱟᱭᱤᱴ ᱨᱮ ᱱᱚᱶᱟ ᱥᱟᱦᱴᱟ</translation>
+    </message>
+    <message>
+        <source>There is no other site to show it on.</source>
+        <translation>ᱩᱫᱩᱜ ᱞᱟᱹᱜᱤᱫ ᱮᱴᱟᱜ ᱥᱟᱭᱤᱴ ᱵᱟᱹᱱᱩᱜᱼᱟ᱾</translation>
+    </message>
+    <message>
+        <source>Main language</source>
+        <translation>ᱢᱩᱬᱩᱛ ᱯᱟᱹᱨᱥᱤ</translation>
+    </message>
+    <message>
+        <source>Not translated yet</source>
+        <translation>ᱱᱤᱛ ᱦᱟᱹᱵᱤᱡ ᱛᱚᱨᱡᱚᱢᱟ ᱵᱟᱝ ᱦᱩᱭᱩᱜ ᱠᱟᱱᱟ</translation>
+    </message>
+    <message>
+        <source>Edit here</source>
+        <translation>ᱱᱚᱸᱰᱮ ᱥᱟᱯᱲᱟᱣ ᱢᱮ</translation>
+    </message>
+    <message>
+        <source>Translate</source>
+        <translation>ᱛᱚᱨᱡᱚᱢᱟ ᱢᱮ</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>ᱛᱚᱨᱡᱚᱢᱟ ᱠᱚ</translation>
+    </message>
+    <message>
+        <source>Sites</source>
+        <translation>ᱥᱟᱭᱤᱴ ᱠᱚ</translation>
+    </message>
+    <message>
+        <source>This page</source>
+        <translation>ᱱᱚᱶᱟ ᱥᱟᱦᱴᱟ</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>ᱤᱱᱵᱚᱠᱥ</translation>
     </message>

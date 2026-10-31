@@ -708,6 +708,58 @@
         <translation>SEO</translation>
     </message>
     <message>
+        <source>Back to this site's language</source>
+        <translation>Distreiñ da yezh al lec'hienn-mañ</translation>
+    </message>
+    <message>
+        <source>This site</source>
+        <translation>Al lec'hienn-mañ</translation>
+    </message>
+    <message>
+        <source>Not in the language of this site</source>
+        <translation>N'emañ ket e yezh al lec'hienn-mañ</translation>
+    </message>
+    <message>
+        <source>Side by side</source>
+        <translation>An eil e-kichen egile</translation>
+    </message>
+    <message>
+        <source>This page on other sites</source>
+        <translation>Ar bajenn-mañ war lec'hiennoù all</translation>
+    </message>
+    <message>
+        <source>There is no other site to show it on.</source>
+        <translation>N'eus lec'hienn all ebet d'he diskouez.</translation>
+    </message>
+    <message>
+        <source>Main language</source>
+        <translation>Yezh pennañ</translation>
+    </message>
+    <message>
+        <source>Not translated yet</source>
+        <translation>N'eo ket troet c'hoazh</translation>
+    </message>
+    <message>
+        <source>Edit here</source>
+        <translation>Kemmañ amañ</translation>
+    </message>
+    <message>
+        <source>Translate</source>
+        <translation>Treiñ</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>Troidigezhioù</translation>
+    </message>
+    <message>
+        <source>Sites</source>
+        <translation>Lec'hiennoù</translation>
+    </message>
+    <message>
+        <source>This page</source>
+        <translation>Ar bajenn-mañ</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Boest-degemer</translation>
     </message>

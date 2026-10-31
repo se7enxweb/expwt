@@ -708,6 +708,58 @@
         <translation>SEO</translation>
     </message>
     <message>
+        <source>Back to this site's language</source>
+        <translation>Tilbage til dette websteds sprog</translation>
+    </message>
+    <message>
+        <source>This site</source>
+        <translation>Dette websted</translation>
+    </message>
+    <message>
+        <source>Not in the language of this site</source>
+        <translation>Ikke på dette websteds sprog</translation>
+    </message>
+    <message>
+        <source>Side by side</source>
+        <translation>Side om side</translation>
+    </message>
+    <message>
+        <source>This page on other sites</source>
+        <translation>Denne side på andre websteder</translation>
+    </message>
+    <message>
+        <source>There is no other site to show it on.</source>
+        <translation>Der er intet andet websted at vise den på.</translation>
+    </message>
+    <message>
+        <source>Main language</source>
+        <translation>Hovedsprog</translation>
+    </message>
+    <message>
+        <source>Not translated yet</source>
+        <translation>Ikke oversat endnu</translation>
+    </message>
+    <message>
+        <source>Edit here</source>
+        <translation>Rediger her</translation>
+    </message>
+    <message>
+        <source>Translate</source>
+        <translation>Oversæt</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>Oversættelser</translation>
+    </message>
+    <message>
+        <source>Sites</source>
+        <translation>Websteder</translation>
+    </message>
+    <message>
+        <source>This page</source>
+        <translation>Denne side</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Indbakke</translation>
     </message>

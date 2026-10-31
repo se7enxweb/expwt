@@ -708,6 +708,58 @@
         <translation>SEO</translation>
     </message>
     <message>
+        <source>Back to this site's language</source>
+        <translation>このサイトの言語に戻る</translation>
+    </message>
+    <message>
+        <source>This site</source>
+        <translation>このサイト</translation>
+    </message>
+    <message>
+        <source>Not in the language of this site</source>
+        <translation>このサイトの言語ではありません</translation>
+    </message>
+    <message>
+        <source>Side by side</source>
+        <translation>並べて表示</translation>
+    </message>
+    <message>
+        <source>This page on other sites</source>
+        <translation>他のサイトでのこのページ</translation>
+    </message>
+    <message>
+        <source>There is no other site to show it on.</source>
+        <translation>表示できる他のサイトはありません。</translation>
+    </message>
+    <message>
+        <source>Main language</source>
+        <translation>メイン言語</translation>
+    </message>
+    <message>
+        <source>Not translated yet</source>
+        <translation>まだ翻訳されていません</translation>
+    </message>
+    <message>
+        <source>Edit here</source>
+        <translation>ここで編集</translation>
+    </message>
+    <message>
+        <source>Translate</source>
+        <translation>翻訳</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>翻訳</translation>
+    </message>
+    <message>
+        <source>Sites</source>
+        <translation>サイト</translation>
+    </message>
+    <message>
+        <source>This page</source>
+        <translation>このページ</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>受信箱</translation>
     </message>

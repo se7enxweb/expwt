@@ -708,6 +708,58 @@
         <translation>SEO</translation>
     </message>
     <message>
+        <source>Back to this site's language</source>
+        <translation>Späť na jazyk tejto stránky</translation>
+    </message>
+    <message>
+        <source>This site</source>
+        <translation>Táto stránka</translation>
+    </message>
+    <message>
+        <source>Not in the language of this site</source>
+        <translation>Nie je v jazyku tejto stránky</translation>
+    </message>
+    <message>
+        <source>Side by side</source>
+        <translation>Vedľa seba</translation>
+    </message>
+    <message>
+        <source>This page on other sites</source>
+        <translation>Táto stránka na iných weboch</translation>
+    </message>
+    <message>
+        <source>There is no other site to show it on.</source>
+        <translation>Nie je žiadny iný web, kde ju zobraziť.</translation>
+    </message>
+    <message>
+        <source>Main language</source>
+        <translation>Hlavný jazyk</translation>
+    </message>
+    <message>
+        <source>Not translated yet</source>
+        <translation>Zatiaľ nepreložené</translation>
+    </message>
+    <message>
+        <source>Edit here</source>
+        <translation>Upraviť tu</translation>
+    </message>
+    <message>
+        <source>Translate</source>
+        <translation>Preložiť</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>Preklady</translation>
+    </message>
+    <message>
+        <source>Sites</source>
+        <translation>Weby</translation>
+    </message>
+    <message>
+        <source>This page</source>
+        <translation>Táto stránka</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Doručené</translation>
     </message>

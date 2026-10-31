@@ -708,6 +708,58 @@
         <translation>SEO</translation>
     </message>
     <message>
+        <source>Back to this site's language</source>
+        <translation>Laghachi n'asụsụ saịtị a</translation>
+    </message>
+    <message>
+        <source>This site</source>
+        <translation>Saịtị a</translation>
+    </message>
+    <message>
+        <source>Not in the language of this site</source>
+        <translation>Ọ bụghị n'asụsụ saịtị a</translation>
+    </message>
+    <message>
+        <source>Side by side</source>
+        <translation>N'akụkụ ibe ya</translation>
+    </message>
+    <message>
+        <source>This page on other sites</source>
+        <translation>Ibe a na saịtị ndị ọzọ</translation>
+    </message>
+    <message>
+        <source>There is no other site to show it on.</source>
+        <translation>Enweghị saịtị ọzọ a ga-egosi ya na ya.</translation>
+    </message>
+    <message>
+        <source>Main language</source>
+        <translation>Asụsụ isi</translation>
+    </message>
+    <message>
+        <source>Not translated yet</source>
+        <translation>Asụgharịbeghị ya</translation>
+    </message>
+    <message>
+        <source>Edit here</source>
+        <translation>Dezie ebe a</translation>
+    </message>
+    <message>
+        <source>Translate</source>
+        <translation>Sụgharịa</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>Ntụgharị</translation>
+    </message>
+    <message>
+        <source>Sites</source>
+        <translation>Saịtị</translation>
+    </message>
+    <message>
+        <source>This page</source>
+        <translation>Ibe a</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Igbe ozi</translation>
     </message>

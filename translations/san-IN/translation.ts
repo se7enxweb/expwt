@@ -708,6 +708,58 @@
         <translation>SEO</translation>
     </message>
     <message>
+        <source>Back to this site's language</source>
+        <translation>अस्य जालस्थानस्य भाषां प्रति प्रत्यागच्छतु</translation>
+    </message>
+    <message>
+        <source>This site</source>
+        <translation>इदं जालस्थानम्</translation>
+    </message>
+    <message>
+        <source>Not in the language of this site</source>
+        <translation>अस्य जालस्थानस्य भाषायां नास्ति</translation>
+    </message>
+    <message>
+        <source>Side by side</source>
+        <translation>पार्श्वे पार्श्वे</translation>
+    </message>
+    <message>
+        <source>This page on other sites</source>
+        <translation>अन्येषु जालस्थानेषु इदं पृष्ठम्</translation>
+    </message>
+    <message>
+        <source>There is no other site to show it on.</source>
+        <translation>एतत् दर्शयितुम् अन्यत् जालस्थानं नास्ति।</translation>
+    </message>
+    <message>
+        <source>Main language</source>
+        <translation>मुख्यभाषा</translation>
+    </message>
+    <message>
+        <source>Not translated yet</source>
+        <translation>अद्यापि न अनूदितम्</translation>
+    </message>
+    <message>
+        <source>Edit here</source>
+        <translation>अत्र सम्पादयतु</translation>
+    </message>
+    <message>
+        <source>Translate</source>
+        <translation>अनुवदतु</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>अनुवादाः</translation>
+    </message>
+    <message>
+        <source>Sites</source>
+        <translation>जालस्थानानि</translation>
+    </message>
+    <message>
+        <source>This page</source>
+        <translation>इदं पृष्ठम्</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>आगतपेटिका</translation>
     </message>

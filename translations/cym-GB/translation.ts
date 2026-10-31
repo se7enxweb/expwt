@@ -708,6 +708,58 @@
         <translation>SEO</translation>
     </message>
     <message>
+        <source>Back to this site's language</source>
+        <translation>Yn ôl i iaith y wefan hon</translation>
+    </message>
+    <message>
+        <source>This site</source>
+        <translation>Y wefan hon</translation>
+    </message>
+    <message>
+        <source>Not in the language of this site</source>
+        <translation>Nid yn iaith y wefan hon</translation>
+    </message>
+    <message>
+        <source>Side by side</source>
+        <translation>Ochr yn ochr</translation>
+    </message>
+    <message>
+        <source>This page on other sites</source>
+        <translation>Y dudalen hon ar wefannau eraill</translation>
+    </message>
+    <message>
+        <source>There is no other site to show it on.</source>
+        <translation>Does dim gwefan arall i'w dangos arni.</translation>
+    </message>
+    <message>
+        <source>Main language</source>
+        <translation>Prif iaith</translation>
+    </message>
+    <message>
+        <source>Not translated yet</source>
+        <translation>Heb ei chyfieithu eto</translation>
+    </message>
+    <message>
+        <source>Edit here</source>
+        <translation>Golygu yma</translation>
+    </message>
+    <message>
+        <source>Translate</source>
+        <translation>Cyfieithu</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>Cyfieithiadau</translation>
+    </message>
+    <message>
+        <source>Sites</source>
+        <translation>Gwefannau</translation>
+    </message>
+    <message>
+        <source>This page</source>
+        <translation>Y dudalen hon</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Mewnflwch</translation>
     </message>

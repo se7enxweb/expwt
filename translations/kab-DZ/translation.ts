@@ -708,6 +708,58 @@
         <translation>SEO</translation>
     </message>
     <message>
+        <source>Back to this site's language</source>
+        <translation>Uɣal ɣer tutlayt n usmel-a</translation>
+    </message>
+    <message>
+        <source>This site</source>
+        <translation>Asmel-a</translation>
+    </message>
+    <message>
+        <source>Not in the language of this site</source>
+        <translation>Ulac-it s tutlayt n usmel-a</translation>
+    </message>
+    <message>
+        <source>Side by side</source>
+        <translation>Yiwen ɣer tama n wayeḍ</translation>
+    </message>
+    <message>
+        <source>This page on other sites</source>
+        <translation>Asebter-a deg yesmal niḍen</translation>
+    </message>
+    <message>
+        <source>There is no other site to show it on.</source>
+        <translation>Ulac asmel niḍen ara t-id-yeskanen.</translation>
+    </message>
+    <message>
+        <source>Main language</source>
+        <translation>Tutlayt tagejdant</translation>
+    </message>
+    <message>
+        <source>Not translated yet</source>
+        <translation>Mazal ur yettwasuqqel ara</translation>
+    </message>
+    <message>
+        <source>Edit here</source>
+        <translation>Ẓreg da</translation>
+    </message>
+    <message>
+        <source>Translate</source>
+        <translation>Suqqel</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>Tisuqilin</translation>
+    </message>
+    <message>
+        <source>Sites</source>
+        <translation>Ismal</translation>
+    </message>
+    <message>
+        <source>This page</source>
+        <translation>Asebter-a</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Tanaka n ukcam</translation>
     </message>

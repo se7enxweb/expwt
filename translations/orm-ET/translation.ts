@@ -708,6 +708,58 @@
         <translation>SEO</translation>
     </message>
     <message>
+        <source>Back to this site's language</source>
+        <translation>Gara afaan marsariitii kanaatti deebi'i</translation>
+    </message>
+    <message>
+        <source>This site</source>
+        <translation>Marsariitii kana</translation>
+    </message>
+    <message>
+        <source>Not in the language of this site</source>
+        <translation>Afaan marsariitii kanaatiin miti</translation>
+    </message>
+    <message>
+        <source>Side by side</source>
+        <translation>Cinaa cinaatti</translation>
+    </message>
+    <message>
+        <source>This page on other sites</source>
+        <translation>Fuula kana marsariitiiwwan biroo irratti</translation>
+    </message>
+    <message>
+        <source>There is no other site to show it on.</source>
+        <translation>Marsariitiin biroon itti agarsiisan hin jiru.</translation>
+    </message>
+    <message>
+        <source>Main language</source>
+        <translation>Afaan ijoo</translation>
+    </message>
+    <message>
+        <source>Not translated yet</source>
+        <translation>Ammallee hin hiikamne</translation>
+    </message>
+    <message>
+        <source>Edit here</source>
+        <translation>Asitti gulaali</translation>
+    </message>
+    <message>
+        <source>Translate</source>
+        <translation>Hiiki</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>Hiikkaawwan</translation>
+    </message>
+    <message>
+        <source>Sites</source>
+        <translation>Marsariitiiwwan</translation>
+    </message>
+    <message>
+        <source>This page</source>
+        <translation>Fuula kana</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Saanduqa galtee</translation>
     </message>

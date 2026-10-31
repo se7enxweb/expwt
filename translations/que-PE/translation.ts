@@ -708,6 +708,58 @@
         <translation>SEO</translation>
     </message>
     <message>
+        <source>Back to this site's language</source>
+        <translation>Kay sitiopa siminman kutiy</translation>
+    </message>
+    <message>
+        <source>This site</source>
+        <translation>Kay sitio</translation>
+    </message>
+    <message>
+        <source>Not in the language of this site</source>
+        <translation>Manam kay sitiopa siminpichu</translation>
+    </message>
+    <message>
+        <source>Side by side</source>
+        <translation>Kuskalla</translation>
+    </message>
+    <message>
+        <source>This page on other sites</source>
+        <translation>Kay p'anqa huk sitiokunapi</translation>
+    </message>
+    <message>
+        <source>There is no other site to show it on.</source>
+        <translation>Manam kanchu huk sitio rikuchinapaq.</translation>
+    </message>
+    <message>
+        <source>Main language</source>
+        <translation>Hatun simi</translation>
+    </message>
+    <message>
+        <source>Not translated yet</source>
+        <translation>Manaraq t'ikrasqachu</translation>
+    </message>
+    <message>
+        <source>Edit here</source>
+        <translation>Kaypi allichay</translation>
+    </message>
+    <message>
+        <source>Translate</source>
+        <translation>T'ikray</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>T'ikrasqakuna</translation>
+    </message>
+    <message>
+        <source>Sites</source>
+        <translation>Sitiokuna</translation>
+    </message>
+    <message>
+        <source>This page</source>
+        <translation>Kay p'anqa</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Chaskina</translation>
     </message>

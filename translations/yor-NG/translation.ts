@@ -708,6 +708,58 @@
         <translation>SEO</translation>
     </message>
     <message>
+        <source>Back to this site's language</source>
+        <translation>Padà sí èdè ojúlé yìí</translation>
+    </message>
+    <message>
+        <source>This site</source>
+        <translation>Ojúlé yìí</translation>
+    </message>
+    <message>
+        <source>Not in the language of this site</source>
+        <translation>Kò sí ní èdè ojúlé yìí</translation>
+    </message>
+    <message>
+        <source>Side by side</source>
+        <translation>Ẹ̀gbẹ́ sí ẹ̀gbẹ́</translation>
+    </message>
+    <message>
+        <source>This page on other sites</source>
+        <translation>Ojú-ìwé yìí lórí àwọn ojúlé míràn</translation>
+    </message>
+    <message>
+        <source>There is no other site to show it on.</source>
+        <translation>Kò sí ojúlé míràn láti fi hàn lórí rẹ̀.</translation>
+    </message>
+    <message>
+        <source>Main language</source>
+        <translation>Èdè àkọ́kọ́</translation>
+    </message>
+    <message>
+        <source>Not translated yet</source>
+        <translation>A kò tíì túmọ̀ rẹ̀</translation>
+    </message>
+    <message>
+        <source>Edit here</source>
+        <translation>Ṣàtúnṣe níbí</translation>
+    </message>
+    <message>
+        <source>Translate</source>
+        <translation>Túmọ̀</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>Àwọn ìtúmọ̀</translation>
+    </message>
+    <message>
+        <source>Sites</source>
+        <translation>Àwọn ojúlé</translation>
+    </message>
+    <message>
+        <source>This page</source>
+        <translation>Ojú-ìwé yìí</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Àpótí ìwọlé</translation>
     </message>

@@ -708,6 +708,58 @@
         <translation>SEO</translation>
     </message>
     <message>
+        <source>Back to this site's language</source>
+        <translation>Tagasi selle saidi keelde</translation>
+    </message>
+    <message>
+        <source>This site</source>
+        <translation>See sait</translation>
+    </message>
+    <message>
+        <source>Not in the language of this site</source>
+        <translation>Pole selle saidi keeles</translation>
+    </message>
+    <message>
+        <source>Side by side</source>
+        <translation>Kõrvuti</translation>
+    </message>
+    <message>
+        <source>This page on other sites</source>
+        <translation>See leht teistel saitidel</translation>
+    </message>
+    <message>
+        <source>There is no other site to show it on.</source>
+        <translation>Pole ühtegi teist saiti, kus seda näidata.</translation>
+    </message>
+    <message>
+        <source>Main language</source>
+        <translation>Põhikeel</translation>
+    </message>
+    <message>
+        <source>Not translated yet</source>
+        <translation>Veel tõlkimata</translation>
+    </message>
+    <message>
+        <source>Edit here</source>
+        <translation>Muuda siin</translation>
+    </message>
+    <message>
+        <source>Translate</source>
+        <translation>Tõlgi</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>Tõlked</translation>
+    </message>
+    <message>
+        <source>Sites</source>
+        <translation>Saidid</translation>
+    </message>
+    <message>
+        <source>This page</source>
+        <translation>See leht</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Postkast</translation>
     </message>

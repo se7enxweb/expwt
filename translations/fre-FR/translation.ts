@@ -708,6 +708,58 @@
         <translation>SEO</translation>
     </message>
     <message>
+        <source>Back to this site's language</source>
+        <translation>Revenir à la langue de ce site</translation>
+    </message>
+    <message>
+        <source>This site</source>
+        <translation>Ce site</translation>
+    </message>
+    <message>
+        <source>Not in the language of this site</source>
+        <translation>Pas dans la langue de ce site</translation>
+    </message>
+    <message>
+        <source>Side by side</source>
+        <translation>Côte à côte</translation>
+    </message>
+    <message>
+        <source>This page on other sites</source>
+        <translation>Cette page sur d'autres sites</translation>
+    </message>
+    <message>
+        <source>There is no other site to show it on.</source>
+        <translation>Il n'y a aucun autre site où l'afficher.</translation>
+    </message>
+    <message>
+        <source>Main language</source>
+        <translation>Langue principale</translation>
+    </message>
+    <message>
+        <source>Not translated yet</source>
+        <translation>Pas encore traduite</translation>
+    </message>
+    <message>
+        <source>Edit here</source>
+        <translation>Modifier ici</translation>
+    </message>
+    <message>
+        <source>Translate</source>
+        <translation>Traduire</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>Traductions</translation>
+    </message>
+    <message>
+        <source>Sites</source>
+        <translation>Sites</translation>
+    </message>
+    <message>
+        <source>This page</source>
+        <translation>Cette page</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Boîte de réception</translation>
     </message>

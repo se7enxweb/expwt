@@ -708,6 +708,58 @@
         <translation>SEO</translation>
     </message>
     <message>
+        <source>Back to this site's language</source>
+        <translation>返回本站語言</translation>
+    </message>
+    <message>
+        <source>This site</source>
+        <translation>本站</translation>
+    </message>
+    <message>
+        <source>Not in the language of this site</source>
+        <translation>沒有本站語言的版本</translation>
+    </message>
+    <message>
+        <source>Side by side</source>
+        <translation>並排顯示</translation>
+    </message>
+    <message>
+        <source>This page on other sites</source>
+        <translation>此頁面在其他網站上</translation>
+    </message>
+    <message>
+        <source>There is no other site to show it on.</source>
+        <translation>沒有其他可顯示的網站。</translation>
+    </message>
+    <message>
+        <source>Main language</source>
+        <translation>主要語言</translation>
+    </message>
+    <message>
+        <source>Not translated yet</source>
+        <translation>尚未翻譯</translation>
+    </message>
+    <message>
+        <source>Edit here</source>
+        <translation>在此編輯</translation>
+    </message>
+    <message>
+        <source>Translate</source>
+        <translation>翻譯</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>翻譯</translation>
+    </message>
+    <message>
+        <source>Sites</source>
+        <translation>網站</translation>
+    </message>
+    <message>
+        <source>This page</source>
+        <translation>此頁面</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>收件匣</translation>
     </message>

@@ -708,6 +708,58 @@
         <translation>SEO</translation>
     </message>
     <message>
+        <source>Back to this site's language</source>
+        <translation>དྲ་ཚིགས་འདིའི་སྐད་ཡིག་ལ་ཕྱིར་ལོག</translation>
+    </message>
+    <message>
+        <source>This site</source>
+        <translation>དྲ་ཚིགས་འདི།</translation>
+    </message>
+    <message>
+        <source>Not in the language of this site</source>
+        <translation>དྲ་ཚིགས་འདིའི་སྐད་ཡིག་ནང་མེད།</translation>
+    </message>
+    <message>
+        <source>Side by side</source>
+        <translation>ཟུར་སྒྲིག</translation>
+    </message>
+    <message>
+        <source>This page on other sites</source>
+        <translation>དྲ་ཚིགས་གཞན་ཐོག་གི་ཤོག་ངོས་འདི།</translation>
+    </message>
+    <message>
+        <source>There is no other site to show it on.</source>
+        <translation>སྟོན་རྒྱུའི་དྲ་ཚིགས་གཞན་མེད།</translation>
+    </message>
+    <message>
+        <source>Main language</source>
+        <translation>སྐད་ཡིག་གཙོ་བོ།</translation>
+    </message>
+    <message>
+        <source>Not translated yet</source>
+        <translation>ད་དུང་ཡིག་སྒྱུར་བྱས་མེད།</translation>
+    </message>
+    <message>
+        <source>Edit here</source>
+        <translation>འདིར་རྩོམ་སྒྲིག</translation>
+    </message>
+    <message>
+        <source>Translate</source>
+        <translation>ཡིག་སྒྱུར།</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>ཡིག་སྒྱུར་དག</translation>
+    </message>
+    <message>
+        <source>Sites</source>
+        <translation>དྲ་ཚིགས་དག</translation>
+    </message>
+    <message>
+        <source>This page</source>
+        <translation>ཤོག་ངོས་འདི།</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>ནང་འབྱོར།</translation>
     </message>

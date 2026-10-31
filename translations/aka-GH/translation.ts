@@ -708,6 +708,58 @@
         <translation>SEO</translation>
     </message>
     <message>
+        <source>Back to this site's language</source>
+        <translation>San kɔ wɛbsaet yi kasa so</translation>
+    </message>
+    <message>
+        <source>This site</source>
+        <translation>Wɛbsaet yi</translation>
+    </message>
+    <message>
+        <source>Not in the language of this site</source>
+        <translation>Ɛnyɛ wɛbsaet yi kasa mu</translation>
+    </message>
+    <message>
+        <source>Side by side</source>
+        <translation>Ɛkyɛn ɛkyɛn</translation>
+    </message>
+    <message>
+        <source>This page on other sites</source>
+        <translation>Krataafa yi wɔ wɛbsaet foforo so</translation>
+    </message>
+    <message>
+        <source>There is no other site to show it on.</source>
+        <translation>Wɛbsaet foforo biara nni hɔ a wobɛkyerɛ so.</translation>
+    </message>
+    <message>
+        <source>Main language</source>
+        <translation>Kasa titiriw</translation>
+    </message>
+    <message>
+        <source>Not translated yet</source>
+        <translation>Wɔnkyerɛɛ ase ɛ</translation>
+    </message>
+    <message>
+        <source>Edit here</source>
+        <translation>Sesa ha</translation>
+    </message>
+    <message>
+        <source>Translate</source>
+        <translation>Kyerɛ ase</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>Nkyerɛaseɛ</translation>
+    </message>
+    <message>
+        <source>Sites</source>
+        <translation>Wɛbsaet ahorow</translation>
+    </message>
+    <message>
+        <source>This page</source>
+        <translation>Krataafa yi</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Nkrataa a aba</translation>
     </message>

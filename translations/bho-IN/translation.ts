@@ -708,6 +708,58 @@
         <translation>SEO</translation>
     </message>
     <message>
+        <source>Back to this site's language</source>
+        <translation>एह साइट के भाषा पर वापस जाईं</translation>
+    </message>
+    <message>
+        <source>This site</source>
+        <translation>ई साइट</translation>
+    </message>
+    <message>
+        <source>Not in the language of this site</source>
+        <translation>एह साइट के भाषा में नइखे</translation>
+    </message>
+    <message>
+        <source>Side by side</source>
+        <translation>अगल-बगल</translation>
+    </message>
+    <message>
+        <source>This page on other sites</source>
+        <translation>दोसर साइटन पर ई पन्ना</translation>
+    </message>
+    <message>
+        <source>There is no other site to show it on.</source>
+        <translation>देखावे खातिर कवनो दोसर साइट नइखे।</translation>
+    </message>
+    <message>
+        <source>Main language</source>
+        <translation>मुख्य भाषा</translation>
+    </message>
+    <message>
+        <source>Not translated yet</source>
+        <translation>अबहीं ले अनुवाद नइखे भइल</translation>
+    </message>
+    <message>
+        <source>Edit here</source>
+        <translation>इहाँ संपादित करीं</translation>
+    </message>
+    <message>
+        <source>Translate</source>
+        <translation>अनुवाद करीं</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>अनुवाद</translation>
+    </message>
+    <message>
+        <source>Sites</source>
+        <translation>साइट</translation>
+    </message>
+    <message>
+        <source>This page</source>
+        <translation>ई पन्ना</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>इनबॉक्स</translation>
     </message>

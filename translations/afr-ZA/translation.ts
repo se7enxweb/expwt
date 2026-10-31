@@ -708,6 +708,58 @@
         <translation>SEO</translation>
     </message>
     <message>
+        <source>Back to this site's language</source>
+        <translation>Terug na hierdie webwerf se taal</translation>
+    </message>
+    <message>
+        <source>This site</source>
+        <translation>Hierdie webwerf</translation>
+    </message>
+    <message>
+        <source>Not in the language of this site</source>
+        <translation>Nie in die taal van hierdie webwerf nie</translation>
+    </message>
+    <message>
+        <source>Side by side</source>
+        <translation>Langs mekaar</translation>
+    </message>
+    <message>
+        <source>This page on other sites</source>
+        <translation>Hierdie bladsy op ander webwerwe</translation>
+    </message>
+    <message>
+        <source>There is no other site to show it on.</source>
+        <translation>Daar is geen ander webwerf om dit op te wys nie.</translation>
+    </message>
+    <message>
+        <source>Main language</source>
+        <translation>Hooftaal</translation>
+    </message>
+    <message>
+        <source>Not translated yet</source>
+        <translation>Nog nie vertaal nie</translation>
+    </message>
+    <message>
+        <source>Edit here</source>
+        <translation>Wysig hier</translation>
+    </message>
+    <message>
+        <source>Translate</source>
+        <translation>Vertaal</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>Vertalings</translation>
+    </message>
+    <message>
+        <source>Sites</source>
+        <translation>Webwerwe</translation>
+    </message>
+    <message>
+        <source>This page</source>
+        <translation>Hierdie bladsy</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Inkassie</translation>
     </message>

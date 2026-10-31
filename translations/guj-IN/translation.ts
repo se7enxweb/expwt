@@ -708,6 +708,58 @@
         <translation>SEO</translation>
     </message>
     <message>
+        <source>Back to this site's language</source>
+        <translation>આ સાઇટની ભાષા પર પાછા જાઓ</translation>
+    </message>
+    <message>
+        <source>This site</source>
+        <translation>આ સાઇટ</translation>
+    </message>
+    <message>
+        <source>Not in the language of this site</source>
+        <translation>આ સાઇટની ભાષામાં નથી</translation>
+    </message>
+    <message>
+        <source>Side by side</source>
+        <translation>બાજુ બાજુમાં</translation>
+    </message>
+    <message>
+        <source>This page on other sites</source>
+        <translation>અન્ય સાઇટ્સ પર આ પૃષ્ઠ</translation>
+    </message>
+    <message>
+        <source>There is no other site to show it on.</source>
+        <translation>તેને બતાવવા માટે બીજી કોઈ સાઇટ નથી.</translation>
+    </message>
+    <message>
+        <source>Main language</source>
+        <translation>મુખ્ય ભાષા</translation>
+    </message>
+    <message>
+        <source>Not translated yet</source>
+        <translation>હજી અનુવાદિત નથી</translation>
+    </message>
+    <message>
+        <source>Edit here</source>
+        <translation>અહીં સંપાદિત કરો</translation>
+    </message>
+    <message>
+        <source>Translate</source>
+        <translation>અનુવાદ કરો</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>અનુવાદો</translation>
+    </message>
+    <message>
+        <source>Sites</source>
+        <translation>સાઇટ્સ</translation>
+    </message>
+    <message>
+        <source>This page</source>
+        <translation>આ પૃષ્ઠ</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>ઇનબોક્સ</translation>
     </message>

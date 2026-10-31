@@ -708,6 +708,58 @@
         <translation>SEO</translation>
     </message>
     <message>
+        <source>Back to this site's language</source>
+        <translation>Назад на јазикот на овој сајт</translation>
+    </message>
+    <message>
+        <source>This site</source>
+        <translation>Овој сајт</translation>
+    </message>
+    <message>
+        <source>Not in the language of this site</source>
+        <translation>Не е на јазикот на овој сајт</translation>
+    </message>
+    <message>
+        <source>Side by side</source>
+        <translation>Една до друга</translation>
+    </message>
+    <message>
+        <source>This page on other sites</source>
+        <translation>Оваа страница на други сајтови</translation>
+    </message>
+    <message>
+        <source>There is no other site to show it on.</source>
+        <translation>Нема друг сајт на кој да се прикаже.</translation>
+    </message>
+    <message>
+        <source>Main language</source>
+        <translation>Главен јазик</translation>
+    </message>
+    <message>
+        <source>Not translated yet</source>
+        <translation>Сè уште не е преведено</translation>
+    </message>
+    <message>
+        <source>Edit here</source>
+        <translation>Уреди тука</translation>
+    </message>
+    <message>
+        <source>Translate</source>
+        <translation>Преведи</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>Преводи</translation>
+    </message>
+    <message>
+        <source>Sites</source>
+        <translation>Сајтови</translation>
+    </message>
+    <message>
+        <source>This page</source>
+        <translation>Оваа страница</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Примени</translation>
     </message>

@@ -708,6 +708,58 @@
         <translation>SEO</translation>
     </message>
     <message>
+        <source>Back to this site's language</source>
+        <translation>Balik deui ka basa situs ieu</translation>
+    </message>
+    <message>
+        <source>This site</source>
+        <translation>Situs ieu</translation>
+    </message>
+    <message>
+        <source>Not in the language of this site</source>
+        <translation>Henteu dina basa situs ieu</translation>
+    </message>
+    <message>
+        <source>Side by side</source>
+        <translation>Patempatan</translation>
+    </message>
+    <message>
+        <source>This page on other sites</source>
+        <translation>Kaca ieu di situs séjén</translation>
+    </message>
+    <message>
+        <source>There is no other site to show it on.</source>
+        <translation>Euweuh situs séjén pikeun némbongkeunana.</translation>
+    </message>
+    <message>
+        <source>Main language</source>
+        <translation>Basa utama</translation>
+    </message>
+    <message>
+        <source>Not translated yet</source>
+        <translation>Can ditarjamahkeun</translation>
+    </message>
+    <message>
+        <source>Edit here</source>
+        <translation>Édit di dieu</translation>
+    </message>
+    <message>
+        <source>Translate</source>
+        <translation>Tarjamahkeun</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>Tarjamahan</translation>
+    </message>
+    <message>
+        <source>Sites</source>
+        <translation>Situs</translation>
+    </message>
+    <message>
+        <source>This page</source>
+        <translation>Kaca ieu</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Kotak asup</translation>
     </message>

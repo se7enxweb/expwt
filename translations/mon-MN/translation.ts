@@ -708,6 +708,58 @@
         <translation>SEO</translation>
     </message>
     <message>
+        <source>Back to this site's language</source>
+        <translation>Энэ сайтын хэл рүү буцах</translation>
+    </message>
+    <message>
+        <source>This site</source>
+        <translation>Энэ сайт</translation>
+    </message>
+    <message>
+        <source>Not in the language of this site</source>
+        <translation>Энэ сайтын хэл дээр биш</translation>
+    </message>
+    <message>
+        <source>Side by side</source>
+        <translation>Зэрэгцүүлэн</translation>
+    </message>
+    <message>
+        <source>This page on other sites</source>
+        <translation>Энэ хуудас бусад сайтад</translation>
+    </message>
+    <message>
+        <source>There is no other site to show it on.</source>
+        <translation>Үүнийг харуулах өөр сайт алга.</translation>
+    </message>
+    <message>
+        <source>Main language</source>
+        <translation>Үндсэн хэл</translation>
+    </message>
+    <message>
+        <source>Not translated yet</source>
+        <translation>Хараахан орчуулаагүй</translation>
+    </message>
+    <message>
+        <source>Edit here</source>
+        <translation>Энд засах</translation>
+    </message>
+    <message>
+        <source>Translate</source>
+        <translation>Орчуулах</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>Орчуулгууд</translation>
+    </message>
+    <message>
+        <source>Sites</source>
+        <translation>Сайтууд</translation>
+    </message>
+    <message>
+        <source>This page</source>
+        <translation>Энэ хуудас</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Ирсэн</translation>
     </message>

@@ -708,6 +708,58 @@
         <translation>SEO</translation>
     </message>
     <message>
+        <source>Back to this site's language</source>
+        <translation>E hoʻi i ka ʻōlelo o kēia pūnaewele</translation>
+    </message>
+    <message>
+        <source>This site</source>
+        <translation>Kēia pūnaewele</translation>
+    </message>
+    <message>
+        <source>Not in the language of this site</source>
+        <translation>ʻAʻole ma ka ʻōlelo o kēia pūnaewele</translation>
+    </message>
+    <message>
+        <source>Side by side</source>
+        <translation>Ma ka ʻaoʻao kekahi i kekahi</translation>
+    </message>
+    <message>
+        <source>This page on other sites</source>
+        <translation>Kēia ʻaoʻao ma nā pūnaewele ʻē aʻe</translation>
+    </message>
+    <message>
+        <source>There is no other site to show it on.</source>
+        <translation>ʻAʻohe pūnaewele ʻē aʻe e hōʻike ai.</translation>
+    </message>
+    <message>
+        <source>Main language</source>
+        <translation>ʻŌlelo nui</translation>
+    </message>
+    <message>
+        <source>Not translated yet</source>
+        <translation>ʻAʻole i unuhi ʻia</translation>
+    </message>
+    <message>
+        <source>Edit here</source>
+        <translation>E hoʻoponopono ma ʻaneʻi</translation>
+    </message>
+    <message>
+        <source>Translate</source>
+        <translation>Unuhi</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>Nā unuhi</translation>
+    </message>
+    <message>
+        <source>Sites</source>
+        <translation>Nā pūnaewele</translation>
+    </message>
+    <message>
+        <source>This page</source>
+        <translation>Kēia ʻaoʻao</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Pahu leka komo</translation>
     </message>

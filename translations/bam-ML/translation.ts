@@ -708,6 +708,58 @@
         <translation>SEO</translation>
     </message>
     <message>
+        <source>Back to this site's language</source>
+        <translation>Segin siti in kan ma</translation>
+    </message>
+    <message>
+        <source>This site</source>
+        <translation>Siti in</translation>
+    </message>
+    <message>
+        <source>Not in the language of this site</source>
+        <translation>A tɛ siti in kan na</translation>
+    </message>
+    <message>
+        <source>Side by side</source>
+        <translation>Ɲɔgɔn kɛrɛ fɛ</translation>
+    </message>
+    <message>
+        <source>This page on other sites</source>
+        <translation>Ɲɛ nin siti wɛrɛw kan</translation>
+    </message>
+    <message>
+        <source>There is no other site to show it on.</source>
+        <translation>Siti wɛrɛ tɛ yen k'a jira a kan.</translation>
+    </message>
+    <message>
+        <source>Main language</source>
+        <translation>Kan kunba</translation>
+    </message>
+    <message>
+        <source>Not translated yet</source>
+        <translation>A ma bayɛlɛma fɔlɔ</translation>
+    </message>
+    <message>
+        <source>Edit here</source>
+        <translation>A latigɛ yan</translation>
+    </message>
+    <message>
+        <source>Translate</source>
+        <translation>A bayɛlɛma</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>Bayɛlɛmaw</translation>
+    </message>
+    <message>
+        <source>Sites</source>
+        <translation>Sitiw</translation>
+    </message>
+    <message>
+        <source>This page</source>
+        <translation>Ɲɛ nin</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Bataki donnenw</translation>
     </message>

@@ -708,6 +708,58 @@
         <translation>SEO</translation>
     </message>
     <message>
+        <source>Back to this site's language</source>
+        <translation>Бозгашт ба забони ин сайт</translation>
+    </message>
+    <message>
+        <source>This site</source>
+        <translation>Ин сайт</translation>
+    </message>
+    <message>
+        <source>Not in the language of this site</source>
+        <translation>Бо забони ин сайт нест</translation>
+    </message>
+    <message>
+        <source>Side by side</source>
+        <translation>Паҳлӯ ба паҳлӯ</translation>
+    </message>
+    <message>
+        <source>This page on other sites</source>
+        <translation>Ин саҳифа дар сайтҳои дигар</translation>
+    </message>
+    <message>
+        <source>There is no other site to show it on.</source>
+        <translation>Сайти дигаре барои нишон додани он нест.</translation>
+    </message>
+    <message>
+        <source>Main language</source>
+        <translation>Забони асосӣ</translation>
+    </message>
+    <message>
+        <source>Not translated yet</source>
+        <translation>Ҳанӯз тарҷума нашудааст</translation>
+    </message>
+    <message>
+        <source>Edit here</source>
+        <translation>Дар ин ҷо таҳрир кунед</translation>
+    </message>
+    <message>
+        <source>Translate</source>
+        <translation>Тарҷума кардан</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>Тарҷумаҳо</translation>
+    </message>
+    <message>
+        <source>Sites</source>
+        <translation>Сайтҳо</translation>
+    </message>
+    <message>
+        <source>This page</source>
+        <translation>Ин саҳифа</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Воридшуда</translation>
     </message>

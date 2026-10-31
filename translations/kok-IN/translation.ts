@@ -708,6 +708,58 @@
         <translation>SEO</translation>
     </message>
     <message>
+        <source>Back to this site's language</source>
+        <translation>ह्या सायटीच्या भाशेन परत वचात</translation>
+    </message>
+    <message>
+        <source>This site</source>
+        <translation>ही सायट</translation>
+    </message>
+    <message>
+        <source>Not in the language of this site</source>
+        <translation>ह्या सायटीच्या भाशेन ना</translation>
+    </message>
+    <message>
+        <source>Side by side</source>
+        <translation>कुशीक कुशीक</translation>
+    </message>
+    <message>
+        <source>This page on other sites</source>
+        <translation>हेर सायटींचेर हें पान</translation>
+    </message>
+    <message>
+        <source>There is no other site to show it on.</source>
+        <translation>तें दाखोवपाक हेर सायट ना.</translation>
+    </message>
+    <message>
+        <source>Main language</source>
+        <translation>मुखेल भास</translation>
+    </message>
+    <message>
+        <source>Not translated yet</source>
+        <translation>अजून अणकार जावंक ना</translation>
+    </message>
+    <message>
+        <source>Edit here</source>
+        <translation>हांगा संपादन करात</translation>
+    </message>
+    <message>
+        <source>Translate</source>
+        <translation>अणकार करात</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>अणकार</translation>
+    </message>
+    <message>
+        <source>Sites</source>
+        <translation>सायटी</translation>
+    </message>
+    <message>
+        <source>This page</source>
+        <translation>हें पान</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>इनबॉक्स</translation>
     </message>

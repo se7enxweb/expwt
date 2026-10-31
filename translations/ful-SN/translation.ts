@@ -708,6 +708,58 @@
         <translation>SEO</translation>
     </message>
     <message>
+        <source>Back to this site's language</source>
+        <translation>Rutto e ɗemngal lowre ndee</translation>
+    </message>
+    <message>
+        <source>This site</source>
+        <translation>Lowre ndee</translation>
+    </message>
+    <message>
+        <source>Not in the language of this site</source>
+        <translation>Wonaa e ɗemngal lowre ndee</translation>
+    </message>
+    <message>
+        <source>Side by side</source>
+        <translation>Sara sara</translation>
+    </message>
+    <message>
+        <source>This page on other sites</source>
+        <translation>Hello ngoo e lowe goɗɗe</translation>
+    </message>
+    <message>
+        <source>There is no other site to show it on.</source>
+        <translation>Alaa lowre goɗndere ngam hollirde ɗum.</translation>
+    </message>
+    <message>
+        <source>Main language</source>
+        <translation>Ɗemngal mawngal</translation>
+    </message>
+    <message>
+        <source>Not translated yet</source>
+        <translation>Firaaka tawo</translation>
+    </message>
+    <message>
+        <source>Edit here</source>
+        <translation>Taƴto ɗoo</translation>
+    </message>
+    <message>
+        <source>Translate</source>
+        <translation>Fir</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>Firooji</translation>
+    </message>
+    <message>
+        <source>Sites</source>
+        <translation>Lowe</translation>
+    </message>
+    <message>
+        <source>This page</source>
+        <translation>Hello ngoo</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Naatirde</translation>
     </message>

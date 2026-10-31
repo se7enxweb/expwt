@@ -708,6 +708,58 @@
         <translation>SEO</translation>
     </message>
     <message>
+        <source>Back to this site's language</source>
+        <translation>Atpakaļ uz šīs vietnes valodu</translation>
+    </message>
+    <message>
+        <source>This site</source>
+        <translation>Šī vietne</translation>
+    </message>
+    <message>
+        <source>Not in the language of this site</source>
+        <translation>Nav šīs vietnes valodā</translation>
+    </message>
+    <message>
+        <source>Side by side</source>
+        <translation>Blakus</translation>
+    </message>
+    <message>
+        <source>This page on other sites</source>
+        <translation>Šī lapa citās vietnēs</translation>
+    </message>
+    <message>
+        <source>There is no other site to show it on.</source>
+        <translation>Nav citas vietnes, kur to parādīt.</translation>
+    </message>
+    <message>
+        <source>Main language</source>
+        <translation>Galvenā valoda</translation>
+    </message>
+    <message>
+        <source>Not translated yet</source>
+        <translation>Vēl nav tulkota</translation>
+    </message>
+    <message>
+        <source>Edit here</source>
+        <translation>Rediģēt šeit</translation>
+    </message>
+    <message>
+        <source>Translate</source>
+        <translation>Tulkot</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>Tulkojumi</translation>
+    </message>
+    <message>
+        <source>Sites</source>
+        <translation>Vietnes</translation>
+    </message>
+    <message>
+        <source>This page</source>
+        <translation>Šī lapa</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Iesūtne</translation>
     </message>

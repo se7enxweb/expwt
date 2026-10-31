@@ -783,3 +783,41 @@ button.wt-seo-item:hover { border-color: var(--a4-accent); }
 .wt-seo-item > .wt-chip { flex: none; }
 .wt-seo-text { min-inline-size: 0; overflow-wrap: break-word; }
 .wt-field[data-wanted="true"] { outline: 2px solid var(--a4-accent); outline-offset: 2px; border-radius: var(--a4-radius-s); }
+
+/* the Sites panel (F27): each site or language one row, its name and language, its buttons below */
+.wt-place-list { display: grid; gap: var(--a4-space-2); margin: 0; padding: 0; list-style: none; }
+.wt-place-list > li { display: grid; gap: var(--a4-space-1); min-inline-size: 0; padding-block: var(--a4-space-2); border-block-end: 1px solid var(--a4-line); }
+.wt-place-info { display: flex; flex-wrap: wrap; align-items: baseline; gap: 0 var(--a4-space-2); min-inline-size: 0; }
+.wt-place-name { min-inline-size: 0; overflow-wrap: break-word; font-weight: var(--a4-weight-medium); }
+.wt-chip-btn { min-block-size: 0; padding: 0 var(--a4-space-2); font-size: var(--a4-text-xs); }
+
+/* this page and another one side by side (F27): over the whole window, two frames that scroll on their own */
+.wt-split {
+  position: fixed;
+  inset: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  inline-size: 100%;
+  block-size: 100%;
+  max-inline-size: none;
+  max-block-size: none;
+  flex-direction: column;
+  font-family: var(--a4-font);
+  font-size: var(--a4-text-m);
+  line-height: var(--a4-leading);
+  background: var(--a4-card);
+  color: var(--a4-ink);
+}
+.wt-split[open] { display: flex; }
+.wt-split:not([open]) { display: none; }
+.wt-split::backdrop { background: var(--a4-overlay); }
+.wt-split-head { flex: none; display: flex; align-items: center; justify-content: space-between; gap: var(--a4-space-2); padding: var(--a4-space-2) var(--a4-space-4); border-block-end: 1px solid var(--a4-line); }
+.wt-split-title { margin: 0; font-size: var(--a4-text-l); }
+.wt-split-body { flex: 1; display: grid; grid-template-columns: 1fr 1fr; gap: var(--a4-space-2); min-block-size: 0; padding: var(--a4-space-2); }
+.wt-split-pane { display: flex; flex-direction: column; min-inline-size: 0; min-block-size: 0; margin: 0; }
+.wt-split-caption { flex: none; padding-block-end: var(--a4-space-1); overflow-wrap: break-word; font-weight: var(--a4-weight-medium); }
+.wt-split-frame { flex: 1; inline-size: 100%; min-block-size: 0; border: 1px solid var(--a4-line); border-radius: var(--a4-radius-s); background: var(--a4-surface); }
+@media (max-width: 767px) {
+  .wt-split-body { grid-template-columns: 1fr; grid-template-rows: 1fr 1fr; }
+}

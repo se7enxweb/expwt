@@ -454,6 +454,92 @@ class expwtGateway
         return 'broken';
     }
 
+    // --------------------------------------------------------------------- other siteaccesses and languages (F27)
+
+    /**
+     * The page on the other sites and in its other languages: the sites are those of the kernel's own site menu
+     * (ezpSiteAccessMenu, the admin4 globe: RelatedSiteAccessList or AvailableSiteAccessList, no administration, only
+     * where the user may log in), each with the kernel's language switcher address of this page there
+     * (switchlanguage/to, which finds the page's address in that site's languages); the translations are the page's
+     * languages with the kernel's preview of each, and the installation's other languages the user may translate the
+     * page into, with the full editor's address for it.
+     */
+    public function elsewhere( array $in )
+    {
+        $node = isset( $in['nodeId'] ) ? eZContentObjectTreeNode::fetch( (int)$in['nodeId'] ) : null;
+        if ( !$node instanceof eZContentObjectTreeNode || !$node->canRead() )
+            throw new expwtApiError( 404, 'not_found', 'This page is not there, or you may not read it.' );
+        $object = $node->object();
+        $have = (array)$object->availableLanguages();
+        $always = (bool)$object->attribute( 'always_available' );
+        $alias = ltrim( (string)$node->attribute( 'url_alias' ), '/' );
+        $languages = array();
+        foreach ( (array)eZContentLanguage::fetchList() as $language )
+            $languages[(string)$language->attribute( 'locale' )] = (string)$language->attribute( 'name' );
+        $sites = array();
+        $menu = class_exists( 'ezpSiteAccessMenu' ) ? self::siteMenu( $this->currentUser() ) : array();
+        foreach ( $menu as $item )
+        {
+            $sites[] = array(
+                'identifier' => $item['identifier'],
+                'name' => $item['name'],
+                'locale' => $item['locale'],
+                'language' => isset( $languages[$item['locale']] ) ? $languages[$item['locale']] : $item['locale'],
+                'current' => (bool)$item['current'],
+                // the page is shown there: translated into the site's language, or always available
+                'shown' => $always || in_array( $item['locale'], $have, true ),
+                'url' => $item['current'] ? self::url( '/' . $alias ) : self::url( '/switchlanguage/to/' . $item['identifier'] . '/' . $alias ),
+            );
+        }
+        $published = (int)$object->attribute( 'current_version' );
+        $id = (int)$object->attribute( 'id' );
+        $main = (string)$object->attribute( 'initial_language_code' );
+        $translations = array();
+        foreach ( $languages as $locale => $name )
+        {
+            $exists = in_array( $locale, $have, true );
+            if ( !$exists && !$object->canEdit( false, false, false, $locale ) )
+                continue;
+            $translations[] = array(
+                'locale' => $locale,
+                'name' => $name,
+                'exists' => $exists,
+                'main' => $locale === $main,
+                'preview' => $exists ? self::url( '/content/versionview/' . $id . '/' . $published . '/' . $locale ) : null,
+                'translate' => !$exists ? self::url( '/content/edit/' . $id . '/f/' . $locale . '/' . $main ) : null,
+                'editable' => $exists && (bool)$object->canEdit( false, false, false, $locale ),
+            );
+        }
+        return array( 'nodeId' => (int)$node->attribute( 'node_id' ), 'sites' => $sites, 'translations' => $translations );
+    }
+
+    /** @return array the items of the kernel's site menu for the user, the current site first, administrations left out */
+    protected static function siteMenu( eZUser $user )
+    {
+        $menu = ezpSiteAccessMenu::current( $user );
+        $items = array();
+        if ( !empty( $menu['front'] ) )
+            $items[] = $menu['front'];
+        foreach ( (array)$menu['groups'] as $group )
+            if ( $group['identifier'] === 'site' )
+                $items = array_merge( $items, (array)$group['items'] );
+        $current = eZSiteAccess::current();
+        $here = is_array( $current ) && isset( $current['name'] ) ? (string)$current['name'] : '';
+        $out = array();
+        foreach ( $items as $item )
+            if ( empty( $item['admin'] ) )
+                $out[$item['identifier']] = array( 'current' => $item['identifier'] === $here ) + $item;
+        // the current site is listed though the menu has it only as its front (or not at all)
+        if ( $here !== '' && !isset( $out[$here] ) && class_exists( 'ezpSiteAccessMenu' ) )
+        {
+            $info = ezpSiteAccessMenu::siteAccessInfo( $here );
+            $out = array( $here => array( 'identifier' => $here, 'name' => $info['site_name'] !== '' ? $info['site_name'] : $here,
+                                          'locale' => $info['locale'], 'current' => true, 'admin' => false ) ) + $out;
+        }
+        uasort( $out, function ( $a, $b ) { return (int)$b['current'] - (int)$a['current']; } );
+        return array_values( $out );
+    }
+
     // ------------------------------------------------------------------------------------------------ the inbox
 
     /** @return bool the user may use the kernel's collaboration (the module's policy), where the approvals are */

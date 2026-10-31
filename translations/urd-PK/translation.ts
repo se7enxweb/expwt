@@ -708,6 +708,58 @@
         <translation>SEO</translation>
     </message>
     <message>
+        <source>Back to this site's language</source>
+        <translation>اس سائٹ کی زبان پر واپس جائیں</translation>
+    </message>
+    <message>
+        <source>This site</source>
+        <translation>یہ سائٹ</translation>
+    </message>
+    <message>
+        <source>Not in the language of this site</source>
+        <translation>اس سائٹ کی زبان میں نہیں</translation>
+    </message>
+    <message>
+        <source>Side by side</source>
+        <translation>ساتھ ساتھ</translation>
+    </message>
+    <message>
+        <source>This page on other sites</source>
+        <translation>دوسری سائٹوں پر یہ صفحہ</translation>
+    </message>
+    <message>
+        <source>There is no other site to show it on.</source>
+        <translation>اسے دکھانے کے لیے کوئی اور سائٹ نہیں ہے۔</translation>
+    </message>
+    <message>
+        <source>Main language</source>
+        <translation>مرکزی زبان</translation>
+    </message>
+    <message>
+        <source>Not translated yet</source>
+        <translation>ابھی ترجمہ نہیں ہوا</translation>
+    </message>
+    <message>
+        <source>Edit here</source>
+        <translation>یہاں ترمیم کریں</translation>
+    </message>
+    <message>
+        <source>Translate</source>
+        <translation>ترجمہ کریں</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>تراجم</translation>
+    </message>
+    <message>
+        <source>Sites</source>
+        <translation>سائٹیں</translation>
+    </message>
+    <message>
+        <source>This page</source>
+        <translation>یہ صفحہ</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>ان باکس</translation>
     </message>

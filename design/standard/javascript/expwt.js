@@ -209,6 +209,10 @@
       if (this.shadowRoot) {
         return;
       }
+      /* a page shown side by side in the sidebar's split view (F27): no sidebar of its own there */
+      try {
+        if (window.frameElement && window.frameElement.hasAttribute('data-expwt-split')) { return; }
+      } catch (e) { /* a frame of another origin */ }
       var self = this;
       try {
         this.cfg = JSON.parse(this.getAttribute('data-config') || '{}');
@@ -548,6 +552,8 @@
       if (c.structure) { list.push({ id: 'structure', label: this.t('Structure') }); }
       /* the SEO check of the rendered page (F26), for those who edit with the sidebar */
       if (c.edit) { list.push({ id: 'seo', label: this.t('SEO') }); }
+      /* the page on the other sites and in its other languages (F27) */
+      list.push({ id: 'sites', label: this.t('Sites') });
       if (c.insights) { list.push({ id: 'insights', label: this.t('Insights') }); }
       /* the approvals waiting for the user (F29), for a user of the kernel's collaboration */
       if (this.boot && this.boot.inbox) { list.push({ id: 'inbox', label: this.t('Inbox') }); }
@@ -1290,6 +1296,40 @@
     openField(identifier) {
       this.pendingField = identifier;
       this.show('page');
+    }
+
+    /* This page and another one side by side (F27: the page on another site or in another language): a modal view
+       over the whole window, two frames that scroll each on their own (one below the other on a narrow window);
+       Escape, Close or the backdrop end it. The pages in its frames show no sidebar of their own. */
+    split(url, label) {
+      var self = this;
+      if (!this.splitView) {
+        var close = function () { self.splitView.close(); };
+        this.splitFrames = [0, 1].map(function () {
+          return h('iframe', { class: 'wt-split-frame', 'data-expwt-split': '' });
+        });
+        this.splitCaptions = [0, 1].map(function () { return h('figcaption', { class: 'wt-split-caption' }); });
+        this.splitView = h('dialog', { class: 'wt-split', 'aria-labelledby': 'wt-split-title',
+          onclose: function () { self.splitFrames.forEach(function (f) { f.removeAttribute('src'); }); } }, [
+          h('div', { class: 'wt-split-head' }, [
+            h('h2', { id: 'wt-split-title', class: 'wt-split-title', text: this.t('Side by side') }),
+            h('button', { type: 'button', class: 'wt-btn is-icon', 'aria-label': this.t('Close'), title: this.t('Close'), onclick: close }, ['×'])
+          ]),
+          h('div', { class: 'wt-split-body' }, [0, 1].map(function (i) {
+            return h('figure', { class: 'wt-split-pane' }, [self.splitCaptions[i], self.splitFrames[i]]);
+          }))
+        ]);
+        this.shadowRoot.appendChild(this.splitView);
+      }
+      this.splitCaptions[0].textContent = this.t('This page');
+      this.splitCaptions[1].textContent = label;
+      this.splitFrames[0].setAttribute('title', this.t('This page'));
+      this.splitFrames[1].setAttribute('title', label);
+      this.splitFrames[0].src = window.location.href;
+      this.splitFrames[1].src = url;
+      if (!this.splitView.open) { this.splitView.showModal(); }
+      /* the focus on Close: Escape ends the view from there (a key typed into one of the pages stays in it) */
+      this.splitView.querySelector('.wt-split-head .wt-btn').focus();
     }
 
     /* An element of the page shown for a moment: scrolled into view and outlined (the SEO check's findings); where

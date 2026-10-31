@@ -708,6 +708,58 @@
         <translation>SEO</translation>
     </message>
     <message>
+        <source>Back to this site's language</source>
+        <translation>Bu sitenin diline dön</translation>
+    </message>
+    <message>
+        <source>This site</source>
+        <translation>Bu site</translation>
+    </message>
+    <message>
+        <source>Not in the language of this site</source>
+        <translation>Bu sitenin dilinde değil</translation>
+    </message>
+    <message>
+        <source>Side by side</source>
+        <translation>Yan yana</translation>
+    </message>
+    <message>
+        <source>This page on other sites</source>
+        <translation>Bu sayfa diğer sitelerde</translation>
+    </message>
+    <message>
+        <source>There is no other site to show it on.</source>
+        <translation>Gösterilebileceği başka bir site yok.</translation>
+    </message>
+    <message>
+        <source>Main language</source>
+        <translation>Ana dil</translation>
+    </message>
+    <message>
+        <source>Not translated yet</source>
+        <translation>Henüz çevrilmedi</translation>
+    </message>
+    <message>
+        <source>Edit here</source>
+        <translation>Burada düzenle</translation>
+    </message>
+    <message>
+        <source>Translate</source>
+        <translation>Çevir</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>Çeviriler</translation>
+    </message>
+    <message>
+        <source>Sites</source>
+        <translation>Siteler</translation>
+    </message>
+    <message>
+        <source>This page</source>
+        <translation>Bu sayfa</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Gelen kutusu</translation>
     </message>

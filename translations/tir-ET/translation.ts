@@ -708,6 +708,58 @@
         <translation>SEO</translation>
     </message>
     <message>
+        <source>Back to this site's language</source>
+        <translation>ናብ ቋንቋ እዚ መርበብ ተመለስ</translation>
+    </message>
+    <message>
+        <source>This site</source>
+        <translation>እዚ መርበብ</translation>
+    </message>
+    <message>
+        <source>Not in the language of this site</source>
+        <translation>ብቋንቋ እዚ መርበብ ኣይኮነን</translation>
+    </message>
+    <message>
+        <source>Side by side</source>
+        <translation>ጎኒ ንጎኒ</translation>
+    </message>
+    <message>
+        <source>This page on other sites</source>
+        <translation>እዚ ገጽ ኣብ ካልኦት መርበባት</translation>
+    </message>
+    <message>
+        <source>There is no other site to show it on.</source>
+        <translation>ዘርእየሉ ካልእ መርበብ የለን።</translation>
+    </message>
+    <message>
+        <source>Main language</source>
+        <translation>ቀንዲ ቋንቋ</translation>
+    </message>
+    <message>
+        <source>Not translated yet</source>
+        <translation>ገና ኣይተተርጎመን</translation>
+    </message>
+    <message>
+        <source>Edit here</source>
+        <translation>ኣብዚ ኣርትዕ</translation>
+    </message>
+    <message>
+        <source>Translate</source>
+        <translation>ተርጉም</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>ትርጉማት</translation>
+    </message>
+    <message>
+        <source>Sites</source>
+        <translation>መርበባት</translation>
+    </message>
+    <message>
+        <source>This page</source>
+        <translation>እዚ ገጽ</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>ዝኣተዉ</translation>
     </message>

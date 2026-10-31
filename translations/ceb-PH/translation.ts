@@ -708,6 +708,58 @@
         <translation>SEO</translation>
     </message>
     <message>
+        <source>Back to this site's language</source>
+        <translation>Balik sa pinulongan niini nga site</translation>
+    </message>
+    <message>
+        <source>This site</source>
+        <translation>Kini nga site</translation>
+    </message>
+    <message>
+        <source>Not in the language of this site</source>
+        <translation>Wala sa pinulongan niini nga site</translation>
+    </message>
+    <message>
+        <source>Side by side</source>
+        <translation>Magkatapad</translation>
+    </message>
+    <message>
+        <source>This page on other sites</source>
+        <translation>Kini nga panid sa ubang mga site</translation>
+    </message>
+    <message>
+        <source>There is no other site to show it on.</source>
+        <translation>Walay laing site nga mapakitaan niini.</translation>
+    </message>
+    <message>
+        <source>Main language</source>
+        <translation>Panguna nga pinulongan</translation>
+    </message>
+    <message>
+        <source>Not translated yet</source>
+        <translation>Wala pa mahubad</translation>
+    </message>
+    <message>
+        <source>Edit here</source>
+        <translation>I-edit dinhi</translation>
+    </message>
+    <message>
+        <source>Translate</source>
+        <translation>Hubara</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>Mga hubad</translation>
+    </message>
+    <message>
+        <source>Sites</source>
+        <translation>Mga site</translation>
+    </message>
+    <message>
+        <source>This page</source>
+        <translation>Kini nga panid</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Inbox</translation>
     </message>

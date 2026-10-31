@@ -708,6 +708,58 @@
         <translation>SEO</translation>
     </message>
     <message>
+        <source>Back to this site's language</source>
+        <translation>חזרה לשפת האתר הזה</translation>
+    </message>
+    <message>
+        <source>This site</source>
+        <translation>האתר הזה</translation>
+    </message>
+    <message>
+        <source>Not in the language of this site</source>
+        <translation>לא בשפת האתר הזה</translation>
+    </message>
+    <message>
+        <source>Side by side</source>
+        <translation>זה לצד זה</translation>
+    </message>
+    <message>
+        <source>This page on other sites</source>
+        <translation>הדף הזה באתרים אחרים</translation>
+    </message>
+    <message>
+        <source>There is no other site to show it on.</source>
+        <translation>אין אתר אחר להציג אותו בו.</translation>
+    </message>
+    <message>
+        <source>Main language</source>
+        <translation>שפה ראשית</translation>
+    </message>
+    <message>
+        <source>Not translated yet</source>
+        <translation>טרם תורגם</translation>
+    </message>
+    <message>
+        <source>Edit here</source>
+        <translation>עריכה כאן</translation>
+    </message>
+    <message>
+        <source>Translate</source>
+        <translation>תרגום</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>תרגומים</translation>
+    </message>
+    <message>
+        <source>Sites</source>
+        <translation>אתרים</translation>
+    </message>
+    <message>
+        <source>This page</source>
+        <translation>הדף הזה</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>תיבת דואר נכנס</translation>
     </message>

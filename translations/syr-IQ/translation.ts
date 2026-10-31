@@ -708,6 +708,58 @@
         <translation>SEO</translation>
     </message>
     <message>
+        <source>Back to this site's language</source>
+        <translation>ܗܦܘܟ ܠܠܫܢܐ ܕܗܢܐ ܐܬܪܐ</translation>
+    </message>
+    <message>
+        <source>This site</source>
+        <translation>ܗܢܐ ܐܬܪܐ</translation>
+    </message>
+    <message>
+        <source>Not in the language of this site</source>
+        <translation>ܠܐ ܒܠܫܢܐ ܕܗܢܐ ܐܬܪܐ</translation>
+    </message>
+    <message>
+        <source>Side by side</source>
+        <translation>ܓܢܒ ܓܢܒ</translation>
+    </message>
+    <message>
+        <source>This page on other sites</source>
+        <translation>ܗܢܐ ܦܐܬܐ ܒܐܬܪ̈ܘܬܐ ܐܚܪ̈ܢܐ</translation>
+    </message>
+    <message>
+        <source>There is no other site to show it on.</source>
+        <translation>ܠܝܬ ܐܬܪܐ ܐܚܪܢܐ ܠܡܚܘܝܘܬܗ ܥܠܘܗܝ.</translation>
+    </message>
+    <message>
+        <source>Main language</source>
+        <translation>ܠܫܢܐ ܪܫܝܐ</translation>
+    </message>
+    <message>
+        <source>Not translated yet</source>
+        <translation>ܠܐ ܐܬܦܫܩ ܥܕܡܐ ܠܗܫܐ</translation>
+    </message>
+    <message>
+        <source>Edit here</source>
+        <translation>ܫܚܠܦ ܗܪܟܐ</translation>
+    </message>
+    <message>
+        <source>Translate</source>
+        <translation>ܦܫܘܩ</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>ܦܘܫܩ̈ܐ</translation>
+    </message>
+    <message>
+        <source>Sites</source>
+        <translation>ܐܬܪ̈ܘܬܐ</translation>
+    </message>
+    <message>
+        <source>This page</source>
+        <translation>ܗܢܐ ܦܐܬܐ</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>ܐܓܪ̈ܬܐ ܕܥܐܠ̈ܢ</translation>
     </message>

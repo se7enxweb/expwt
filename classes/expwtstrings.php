@@ -232,6 +232,19 @@ class expwtStrings
         'Open the field',
         'Show it on the page',
         'SEO',
+        'Back to this site\'s language',
+        'This site',
+        'Not in the language of this site',
+        'Side by side',
+        'This page on other sites',
+        'There is no other site to show it on.',
+        'Main language',
+        'Not translated yet',
+        'Edit here',
+        'Translate',
+        'Translations',
+        'Sites',
+        'This page',
     );
     /* sources:end */
 

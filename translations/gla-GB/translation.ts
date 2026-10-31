@@ -708,6 +708,58 @@
         <translation>SEO</translation>
     </message>
     <message>
+        <source>Back to this site's language</source>
+        <translation>Air ais gu cànan na làraich seo</translation>
+    </message>
+    <message>
+        <source>This site</source>
+        <translation>An làrach seo</translation>
+    </message>
+    <message>
+        <source>Not in the language of this site</source>
+        <translation>Chan ann an cànan na làraich seo</translation>
+    </message>
+    <message>
+        <source>Side by side</source>
+        <translation>Taobh ri taobh</translation>
+    </message>
+    <message>
+        <source>This page on other sites</source>
+        <translation>An duilleag seo air làraichean eile</translation>
+    </message>
+    <message>
+        <source>There is no other site to show it on.</source>
+        <translation>Chan eil làrach eile ann airson a sealltainn.</translation>
+    </message>
+    <message>
+        <source>Main language</source>
+        <translation>Prìomh chànan</translation>
+    </message>
+    <message>
+        <source>Not translated yet</source>
+        <translation>Gun eadar-theangachadh fhathast</translation>
+    </message>
+    <message>
+        <source>Edit here</source>
+        <translation>Deasaich an seo</translation>
+    </message>
+    <message>
+        <source>Translate</source>
+        <translation>Eadar-theangaich</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>Eadar-theangachaidhean</translation>
+    </message>
+    <message>
+        <source>Sites</source>
+        <translation>Làraichean</translation>
+    </message>
+    <message>
+        <source>This page</source>
+        <translation>An duilleag seo</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Bogsa a-steach</translation>
     </message>

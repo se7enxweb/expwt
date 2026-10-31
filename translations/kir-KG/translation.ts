@@ -708,6 +708,58 @@
         <translation>SEO</translation>
     </message>
     <message>
+        <source>Back to this site's language</source>
+        <translation>Бул сайттын тилине кайтуу</translation>
+    </message>
+    <message>
+        <source>This site</source>
+        <translation>Бул сайт</translation>
+    </message>
+    <message>
+        <source>Not in the language of this site</source>
+        <translation>Бул сайттын тилинде эмес</translation>
+    </message>
+    <message>
+        <source>Side by side</source>
+        <translation>Катар</translation>
+    </message>
+    <message>
+        <source>This page on other sites</source>
+        <translation>Бул барак башка сайттарда</translation>
+    </message>
+    <message>
+        <source>There is no other site to show it on.</source>
+        <translation>Аны көрсөтө турган башка сайт жок.</translation>
+    </message>
+    <message>
+        <source>Main language</source>
+        <translation>Негизги тил</translation>
+    </message>
+    <message>
+        <source>Not translated yet</source>
+        <translation>Азырынча которула элек</translation>
+    </message>
+    <message>
+        <source>Edit here</source>
+        <translation>Бул жерде түзөтүү</translation>
+    </message>
+    <message>
+        <source>Translate</source>
+        <translation>Которуу</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>Котормолор</translation>
+    </message>
+    <message>
+        <source>Sites</source>
+        <translation>Сайттар</translation>
+    </message>
+    <message>
+        <source>This page</source>
+        <translation>Бул барак</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Кирүүчүлөр</translation>
     </message>

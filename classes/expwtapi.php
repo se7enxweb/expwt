@@ -167,6 +167,8 @@ class expwtApi
             case 'tree.sort':
                 $order = isset( $input['order'] ) && is_array( $input['order'] ) ? array_values( array_map( 'intval', $input['order'] ) ) : array();
                 return $g->sort( self::ids( $input, array( 'nodeId' ) ) + array( 'order' => $order ) );
+            case 'page.elsewhere':
+                return $g->elsewhere( self::ids( $input, array( 'nodeId' ) ) );
             case 'seo.check':
                 $paths = isset( $input['paths'] ) && is_array( $input['paths'] ) ? array_values( array_filter( $input['paths'], 'is_string' ) ) : array();
                 return $g->seoCheck( self::ids( $input, array( 'nodeId' ) ) + array( 'paths' => $paths ) );

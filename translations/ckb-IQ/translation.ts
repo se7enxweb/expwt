@@ -708,6 +708,58 @@
         <translation>SEO</translation>
     </message>
     <message>
+        <source>Back to this site's language</source>
+        <translation>گەڕانەوە بۆ زمانی ئەم ماڵپەڕە</translation>
+    </message>
+    <message>
+        <source>This site</source>
+        <translation>ئەم ماڵپەڕە</translation>
+    </message>
+    <message>
+        <source>Not in the language of this site</source>
+        <translation>بە زمانی ئەم ماڵپەڕە نییە</translation>
+    </message>
+    <message>
+        <source>Side by side</source>
+        <translation>تەنیشت یەک</translation>
+    </message>
+    <message>
+        <source>This page on other sites</source>
+        <translation>ئەم پەڕەیە لە ماڵپەڕەکانی تر</translation>
+    </message>
+    <message>
+        <source>There is no other site to show it on.</source>
+        <translation>هیچ ماڵپەڕێکی تر نییە بۆ پیشاندانی.</translation>
+    </message>
+    <message>
+        <source>Main language</source>
+        <translation>زمانی سەرەکی</translation>
+    </message>
+    <message>
+        <source>Not translated yet</source>
+        <translation>هێشتا وەرنەگێڕدراوە</translation>
+    </message>
+    <message>
+        <source>Edit here</source>
+        <translation>لێرە دەستکاری بکە</translation>
+    </message>
+    <message>
+        <source>Translate</source>
+        <translation>وەرگێڕان</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>وەرگێڕانەکان</translation>
+    </message>
+    <message>
+        <source>Sites</source>
+        <translation>ماڵپەڕەکان</translation>
+    </message>
+    <message>
+        <source>This page</source>
+        <translation>ئەم پەڕەیە</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>هاتووەکان</translation>
     </message>

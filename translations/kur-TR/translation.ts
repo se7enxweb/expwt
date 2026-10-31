@@ -708,6 +708,58 @@
         <translation>SEO</translation>
     </message>
     <message>
+        <source>Back to this site's language</source>
+        <translation>Vegere zimanê vê malperê</translation>
+    </message>
+    <message>
+        <source>This site</source>
+        <translation>Ev malper</translation>
+    </message>
+    <message>
+        <source>Not in the language of this site</source>
+        <translation>Ne bi zimanê vê malperê ye</translation>
+    </message>
+    <message>
+        <source>Side by side</source>
+        <translation>Li kêleka hev</translation>
+    </message>
+    <message>
+        <source>This page on other sites</source>
+        <translation>Ev rûpel li malperên din</translation>
+    </message>
+    <message>
+        <source>There is no other site to show it on.</source>
+        <translation>Malpereke din tune ye ku li ser were nîşandan.</translation>
+    </message>
+    <message>
+        <source>Main language</source>
+        <translation>Zimanê sereke</translation>
+    </message>
+    <message>
+        <source>Not translated yet</source>
+        <translation>Hêj nehatiye wergerandin</translation>
+    </message>
+    <message>
+        <source>Edit here</source>
+        <translation>Li vir biguherîne</translation>
+    </message>
+    <message>
+        <source>Translate</source>
+        <translation>Wergerîne</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>Werger</translation>
+    </message>
+    <message>
+        <source>Sites</source>
+        <translation>Malper</translation>
+    </message>
+    <message>
+        <source>This page</source>
+        <translation>Ev rûpel</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Qutiya hatî</translation>
     </message>

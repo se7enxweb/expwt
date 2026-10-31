@@ -708,6 +708,58 @@
         <translation>SEO</translation>
     </message>
     <message>
+        <source>Back to this site's language</source>
+        <translation>Buyela kulwimi lwale sayithi</translation>
+    </message>
+    <message>
+        <source>This site</source>
+        <translation>Le sayithi</translation>
+    </message>
+    <message>
+        <source>Not in the language of this site</source>
+        <translation>Ayikho ngolwimi lwale sayithi</translation>
+    </message>
+    <message>
+        <source>Side by side</source>
+        <translation>Ecaleni</translation>
+    </message>
+    <message>
+        <source>This page on other sites</source>
+        <translation>Eli phepha kwezinye iisayithi</translation>
+    </message>
+    <message>
+        <source>There is no other site to show it on.</source>
+        <translation>Akukho enye isayithi yokulibonisa kuyo.</translation>
+    </message>
+    <message>
+        <source>Main language</source>
+        <translation>Ulwimi oluphambili</translation>
+    </message>
+    <message>
+        <source>Not translated yet</source>
+        <translation>Alikaguqulelwa</translation>
+    </message>
+    <message>
+        <source>Edit here</source>
+        <translation>Hlela apha</translation>
+    </message>
+    <message>
+        <source>Translate</source>
+        <translation>Guqulela</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>Iinguqulelo</translation>
+    </message>
+    <message>
+        <source>Sites</source>
+        <translation>Iisayithi</translation>
+    </message>
+    <message>
+        <source>This page</source>
+        <translation>Eli phepha</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Ibhokisi engenayo</translation>
     </message>

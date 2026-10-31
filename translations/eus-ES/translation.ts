@@ -708,6 +708,58 @@
         <translation>SEO</translation>
     </message>
     <message>
+        <source>Back to this site's language</source>
+        <translation>Itzuli gune honen hizkuntzara</translation>
+    </message>
+    <message>
+        <source>This site</source>
+        <translation>Gune hau</translation>
+    </message>
+    <message>
+        <source>Not in the language of this site</source>
+        <translation>Ez dago gune honen hizkuntzan</translation>
+    </message>
+    <message>
+        <source>Side by side</source>
+        <translation>Elkarren ondoan</translation>
+    </message>
+    <message>
+        <source>This page on other sites</source>
+        <translation>Orri hau beste guneetan</translation>
+    </message>
+    <message>
+        <source>There is no other site to show it on.</source>
+        <translation>Ez dago erakusteko beste gunerik.</translation>
+    </message>
+    <message>
+        <source>Main language</source>
+        <translation>Hizkuntza nagusia</translation>
+    </message>
+    <message>
+        <source>Not translated yet</source>
+        <translation>Oraindik itzuli gabe</translation>
+    </message>
+    <message>
+        <source>Edit here</source>
+        <translation>Editatu hemen</translation>
+    </message>
+    <message>
+        <source>Translate</source>
+        <translation>Itzuli</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>Itzulpenak</translation>
+    </message>
+    <message>
+        <source>Sites</source>
+        <translation>Guneak</translation>
+    </message>
+    <message>
+        <source>This page</source>
+        <translation>Orri hau</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Sarrera-ontzia</translation>
     </message>

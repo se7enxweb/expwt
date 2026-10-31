@@ -404,6 +404,11 @@ class expwtPureTest extends PHPUnit\Framework\TestCase
         $this->assertNull( expwtGateway::linkPath( '/var/../settings/site.ini', '', $others ), 'never outside the root' );
         $this->assertSame( 'edit', expwtAccess::functionFor( 'seo.check' ) );
         $this->assertFalse( expwtAccess::writes( 'seo.check' ) );
+        // the page on the other sites and in its languages (F27): read with expwt/use
+        $this->assertSame( 'use', expwtAccess::functionFor( 'page.elsewhere' ) );
+        $this->assertFalse( expwtAccess::writes( 'page.elsewhere' ) );
+        $this->assertContains( 'sites', expwtState::PANELS );
+        $this->assertContains( 'sites', expwtRegistry::CORE_PANELS );
     }
 
     /** The debug report stays out of the pages of the sidebar's frame (expwtHook::preOutput()); the outer page keeps it. */

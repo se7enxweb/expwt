@@ -708,6 +708,58 @@
         <translation>SEO</translation>
     </message>
     <message>
+        <source>Back to this site's language</source>
+        <translation>Nazad na jezik ovog sajta</translation>
+    </message>
+    <message>
+        <source>This site</source>
+        <translation>Ovaj sajt</translation>
+    </message>
+    <message>
+        <source>Not in the language of this site</source>
+        <translation>Nije na jeziku ovog sajta</translation>
+    </message>
+    <message>
+        <source>Side by side</source>
+        <translation>Jedno pored drugog</translation>
+    </message>
+    <message>
+        <source>This page on other sites</source>
+        <translation>Ova stranica na drugim sajtovima</translation>
+    </message>
+    <message>
+        <source>There is no other site to show it on.</source>
+        <translation>Nema drugog sajta na kome bi se prikazala.</translation>
+    </message>
+    <message>
+        <source>Main language</source>
+        <translation>Glavni jezik</translation>
+    </message>
+    <message>
+        <source>Not translated yet</source>
+        <translation>Još nije prevedeno</translation>
+    </message>
+    <message>
+        <source>Edit here</source>
+        <translation>Uredi ovde</translation>
+    </message>
+    <message>
+        <source>Translate</source>
+        <translation>Prevedi</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>Prevodi</translation>
+    </message>
+    <message>
+        <source>Sites</source>
+        <translation>Sajtovi</translation>
+    </message>
+    <message>
+        <source>This page</source>
+        <translation>Ova stranica</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Prijemno sanduče</translation>
     </message>

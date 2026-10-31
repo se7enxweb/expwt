@@ -708,6 +708,58 @@
         <translation>SEO</translation>
     </message>
     <message>
+        <source>Back to this site's language</source>
+        <translation>সাইত অসিগী লোন্দা হল্লো</translation>
+    </message>
+    <message>
+        <source>This site</source>
+        <translation>সাইত অসি</translation>
+    </message>
+    <message>
+        <source>Not in the language of this site</source>
+        <translation>সাইত অসিগী লোন্দা নত্তে</translation>
+    </message>
+    <message>
+        <source>Side by side</source>
+        <translation>মনাক মনাক্তা</translation>
+    </message>
+    <message>
+        <source>This page on other sites</source>
+        <translation>অতোপ্পা সাইতশিংদা লামায় অসি</translation>
+    </message>
+    <message>
+        <source>There is no other site to show it on.</source>
+        <translation>উৎনবা অতোপ্পা সাইত অমত্তা লৈতে।</translation>
+    </message>
+    <message>
+        <source>Main language</source>
+        <translation>মরুওইবা লোন</translation>
+    </message>
+    <message>
+        <source>Not translated yet</source>
+        <translation>হৌজিক ফাওবা হন্দোকপা নাইদ্রি</translation>
+    </message>
+    <message>
+        <source>Edit here</source>
+        <translation>মফম অসিদা শেম্দোকউ</translation>
+    </message>
+    <message>
+        <source>Translate</source>
+        <translation>হন্দোকউ</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>হন্দোকপশিং</translation>
+    </message>
+    <message>
+        <source>Sites</source>
+        <translation>সাইতশিং</translation>
+    </message>
+    <message>
+        <source>This page</source>
+        <translation>লামায় অসি</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>ইনবক্স</translation>
     </message>

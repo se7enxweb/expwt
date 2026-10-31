@@ -708,6 +708,58 @@
         <translation>SEO</translation>
     </message>
     <message>
+        <source>Back to this site's language</source>
+        <translation>ამ საიტის ენაზე დაბრუნება</translation>
+    </message>
+    <message>
+        <source>This site</source>
+        <translation>ეს საიტი</translation>
+    </message>
+    <message>
+        <source>Not in the language of this site</source>
+        <translation>არ არის ამ საიტის ენაზე</translation>
+    </message>
+    <message>
+        <source>Side by side</source>
+        <translation>გვერდიგვერდ</translation>
+    </message>
+    <message>
+        <source>This page on other sites</source>
+        <translation>ეს გვერდი სხვა საიტებზე</translation>
+    </message>
+    <message>
+        <source>There is no other site to show it on.</source>
+        <translation>მის საჩვენებლად სხვა საიტი არ არის.</translation>
+    </message>
+    <message>
+        <source>Main language</source>
+        <translation>მთავარი ენა</translation>
+    </message>
+    <message>
+        <source>Not translated yet</source>
+        <translation>ჯერ არ არის თარგმნილი</translation>
+    </message>
+    <message>
+        <source>Edit here</source>
+        <translation>აქ რედაქტირება</translation>
+    </message>
+    <message>
+        <source>Translate</source>
+        <translation>თარგმნა</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>თარგმანები</translation>
+    </message>
+    <message>
+        <source>Sites</source>
+        <translation>საიტები</translation>
+    </message>
+    <message>
+        <source>This page</source>
+        <translation>ეს გვერდი</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>შემოსულები</translation>
     </message>

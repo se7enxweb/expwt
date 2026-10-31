@@ -708,6 +708,58 @@
         <translation>SEO</translation>
     </message>
     <message>
+        <source>Back to this site's language</source>
+        <translation>Nittartakkap uuma oqaasianut uterit</translation>
+    </message>
+    <message>
+        <source>This site</source>
+        <translation>Nittartagaq una</translation>
+    </message>
+    <message>
+        <source>Not in the language of this site</source>
+        <translation>Nittartakkap uuma oqaasiani pinngilaq</translation>
+    </message>
+    <message>
+        <source>Side by side</source>
+        <translation>Sanilliullugit</translation>
+    </message>
+    <message>
+        <source>This page on other sites</source>
+        <translation>Quppernera una nittartakkani allani</translation>
+    </message>
+    <message>
+        <source>There is no other site to show it on.</source>
+        <translation>Nittartagaqanngilaq allamik takutitsiffissamik.</translation>
+    </message>
+    <message>
+        <source>Main language</source>
+        <translation>Oqaatsit pingaarnerit</translation>
+    </message>
+    <message>
+        <source>Not translated yet</source>
+        <translation>Suli nutserneqanngilaq</translation>
+    </message>
+    <message>
+        <source>Edit here</source>
+        <translation>Maani aaqqissuuguk</translation>
+    </message>
+    <message>
+        <source>Translate</source>
+        <translation>Nutsiguk</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>Nutsernerit</translation>
+    </message>
+    <message>
+        <source>Sites</source>
+        <translation>Nittartakkat</translation>
+    </message>
+    <message>
+        <source>This page</source>
+        <translation>Quppernera una</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Tiguniakkat</translation>
     </message>

@@ -708,6 +708,58 @@
         <translation>SEO</translation>
     </message>
     <message>
+        <source>Back to this site's language</source>
+        <translation>Бу сайтның теленә кайту</translation>
+    </message>
+    <message>
+        <source>This site</source>
+        <translation>Бу сайт</translation>
+    </message>
+    <message>
+        <source>Not in the language of this site</source>
+        <translation>Бу сайтның телендә түгел</translation>
+    </message>
+    <message>
+        <source>Side by side</source>
+        <translation>Янәшә</translation>
+    </message>
+    <message>
+        <source>This page on other sites</source>
+        <translation>Бу бит башка сайтларда</translation>
+    </message>
+    <message>
+        <source>There is no other site to show it on.</source>
+        <translation>Аны күрсәтергә башка сайт юк.</translation>
+    </message>
+    <message>
+        <source>Main language</source>
+        <translation>Төп тел</translation>
+    </message>
+    <message>
+        <source>Not translated yet</source>
+        <translation>Әле тәрҗемә ителмәгән</translation>
+    </message>
+    <message>
+        <source>Edit here</source>
+        <translation>Монда үзгәртү</translation>
+    </message>
+    <message>
+        <source>Translate</source>
+        <translation>Тәрҗемә итү</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>Тәрҗемәләр</translation>
+    </message>
+    <message>
+        <source>Sites</source>
+        <translation>Сайтлар</translation>
+    </message>
+    <message>
+        <source>This page</source>
+        <translation>Бу бит</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Керүчеләр</translation>
     </message>

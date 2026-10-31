@@ -708,6 +708,58 @@
         <translation>SEO</translation>
     </message>
     <message>
+        <source>Back to this site's language</source>
+        <translation>Wróć do języka tej witryny</translation>
+    </message>
+    <message>
+        <source>This site</source>
+        <translation>Ta witryna</translation>
+    </message>
+    <message>
+        <source>Not in the language of this site</source>
+        <translation>Nie w języku tej witryny</translation>
+    </message>
+    <message>
+        <source>Side by side</source>
+        <translation>Obok siebie</translation>
+    </message>
+    <message>
+        <source>This page on other sites</source>
+        <translation>Ta strona w innych witrynach</translation>
+    </message>
+    <message>
+        <source>There is no other site to show it on.</source>
+        <translation>Nie ma innej witryny, w której można ją pokazać.</translation>
+    </message>
+    <message>
+        <source>Main language</source>
+        <translation>Język główny</translation>
+    </message>
+    <message>
+        <source>Not translated yet</source>
+        <translation>Jeszcze nie przetłumaczona</translation>
+    </message>
+    <message>
+        <source>Edit here</source>
+        <translation>Edytuj tutaj</translation>
+    </message>
+    <message>
+        <source>Translate</source>
+        <translation>Przetłumacz</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>Tłumaczenia</translation>
+    </message>
+    <message>
+        <source>Sites</source>
+        <translation>Witryny</translation>
+    </message>
+    <message>
+        <source>This page</source>
+        <translation>Ta strona</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Skrzynka odbiorcza</translation>
     </message>

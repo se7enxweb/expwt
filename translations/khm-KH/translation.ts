@@ -708,6 +708,58 @@
         <translation>SEO</translation>
     </message>
     <message>
+        <source>Back to this site's language</source>
+        <translation>ត្រឡប់ទៅភាសារបស់គេហទំព័រនេះ</translation>
+    </message>
+    <message>
+        <source>This site</source>
+        <translation>គេហទំព័រនេះ</translation>
+    </message>
+    <message>
+        <source>Not in the language of this site</source>
+        <translation>មិនមែនជាភាសារបស់គេហទំព័រនេះ</translation>
+    </message>
+    <message>
+        <source>Side by side</source>
+        <translation>ក្បែរគ្នា</translation>
+    </message>
+    <message>
+        <source>This page on other sites</source>
+        <translation>ទំព័រនេះនៅលើគេហទំព័រផ្សេងទៀត</translation>
+    </message>
+    <message>
+        <source>There is no other site to show it on.</source>
+        <translation>គ្មានគេហទំព័រផ្សេងទៀតដើម្បីបង្ហាញវាទេ។</translation>
+    </message>
+    <message>
+        <source>Main language</source>
+        <translation>ភាសាចម្បង</translation>
+    </message>
+    <message>
+        <source>Not translated yet</source>
+        <translation>មិនទាន់បានបកប្រែ</translation>
+    </message>
+    <message>
+        <source>Edit here</source>
+        <translation>កែសម្រួលនៅទីនេះ</translation>
+    </message>
+    <message>
+        <source>Translate</source>
+        <translation>បកប្រែ</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>ការបកប្រែ</translation>
+    </message>
+    <message>
+        <source>Sites</source>
+        <translation>គេហទំព័រ</translation>
+    </message>
+    <message>
+        <source>This page</source>
+        <translation>ទំព័រនេះ</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>ប្រអប់ទទួល</translation>
     </message>

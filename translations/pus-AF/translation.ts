@@ -708,6 +708,58 @@
         <translation>SEO</translation>
     </message>
     <message>
+        <source>Back to this site's language</source>
+        <translation>د دې سایټ ژبې ته بېرته ورشئ</translation>
+    </message>
+    <message>
+        <source>This site</source>
+        <translation>دا سایټ</translation>
+    </message>
+    <message>
+        <source>Not in the language of this site</source>
+        <translation>د دې سایټ په ژبه نه ده</translation>
+    </message>
+    <message>
+        <source>Side by side</source>
+        <translation>څنګ په څنګ</translation>
+    </message>
+    <message>
+        <source>This page on other sites</source>
+        <translation>دا پاڼه په نورو سایټونو کې</translation>
+    </message>
+    <message>
+        <source>There is no other site to show it on.</source>
+        <translation>بل سایټ نشته چې پرې وښودل شي.</translation>
+    </message>
+    <message>
+        <source>Main language</source>
+        <translation>اصلي ژبه</translation>
+    </message>
+    <message>
+        <source>Not translated yet</source>
+        <translation>لا نه ده ژباړل شوې</translation>
+    </message>
+    <message>
+        <source>Edit here</source>
+        <translation>دلته سمون وکړئ</translation>
+    </message>
+    <message>
+        <source>Translate</source>
+        <translation>ژباړه</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>ژباړې</translation>
+    </message>
+    <message>
+        <source>Sites</source>
+        <translation>سایټونه</translation>
+    </message>
+    <message>
+        <source>This page</source>
+        <translation>دا پاڼه</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>راغلي لیکونه</translation>
     </message>

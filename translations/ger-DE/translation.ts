@@ -708,6 +708,58 @@
         <translation>SEO</translation>
     </message>
     <message>
+        <source>Back to this site's language</source>
+        <translation>Zurück zur Sprache dieser Website</translation>
+    </message>
+    <message>
+        <source>This site</source>
+        <translation>Diese Website</translation>
+    </message>
+    <message>
+        <source>Not in the language of this site</source>
+        <translation>Nicht in der Sprache dieser Website</translation>
+    </message>
+    <message>
+        <source>Side by side</source>
+        <translation>Nebeneinander</translation>
+    </message>
+    <message>
+        <source>This page on other sites</source>
+        <translation>Diese Seite auf anderen Websites</translation>
+    </message>
+    <message>
+        <source>There is no other site to show it on.</source>
+        <translation>Es gibt keine andere Website, auf der sie gezeigt werden kann.</translation>
+    </message>
+    <message>
+        <source>Main language</source>
+        <translation>Hauptsprache</translation>
+    </message>
+    <message>
+        <source>Not translated yet</source>
+        <translation>Noch nicht übersetzt</translation>
+    </message>
+    <message>
+        <source>Edit here</source>
+        <translation>Hier bearbeiten</translation>
+    </message>
+    <message>
+        <source>Translate</source>
+        <translation>Übersetzen</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>Übersetzungen</translation>
+    </message>
+    <message>
+        <source>Sites</source>
+        <translation>Websites</translation>
+    </message>
+    <message>
+        <source>This page</source>
+        <translation>Diese Seite</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Posteingang</translation>
     </message>

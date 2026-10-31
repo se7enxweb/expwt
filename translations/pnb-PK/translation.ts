@@ -708,6 +708,58 @@
         <translation>SEO</translation>
     </message>
     <message>
+        <source>Back to this site's language</source>
+        <translation>ایس سائٹ دی بولی ول واپس جاؤ</translation>
+    </message>
+    <message>
+        <source>This site</source>
+        <translation>ایہہ سائٹ</translation>
+    </message>
+    <message>
+        <source>Not in the language of this site</source>
+        <translation>ایس سائٹ دی بولی وچ نئیں</translation>
+    </message>
+    <message>
+        <source>Side by side</source>
+        <translation>نال نال</translation>
+    </message>
+    <message>
+        <source>This page on other sites</source>
+        <translation>دوجیاں سائٹاں تے ایہہ صفحہ</translation>
+    </message>
+    <message>
+        <source>There is no other site to show it on.</source>
+        <translation>ایہنوں وکھاؤن لئی کوئی ہور سائٹ نئیں۔</translation>
+    </message>
+    <message>
+        <source>Main language</source>
+        <translation>مکھ بولی</translation>
+    </message>
+    <message>
+        <source>Not translated yet</source>
+        <translation>ہلے ترجمہ نئیں ہویا</translation>
+    </message>
+    <message>
+        <source>Edit here</source>
+        <translation>ایتھے سودھو</translation>
+    </message>
+    <message>
+        <source>Translate</source>
+        <translation>ترجمہ کرو</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>ترجمے</translation>
+    </message>
+    <message>
+        <source>Sites</source>
+        <translation>سائٹاں</translation>
+    </message>
+    <message>
+        <source>This page</source>
+        <translation>ایہہ صفحہ</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>اِن باکس</translation>
     </message>

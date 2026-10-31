@@ -708,6 +708,58 @@
         <translation>SEO</translation>
     </message>
     <message>
+        <source>Back to this site's language</source>
+        <translation>ወደዚህ ጣቢያ ቋንቋ ተመለስ</translation>
+    </message>
+    <message>
+        <source>This site</source>
+        <translation>ይህ ጣቢያ</translation>
+    </message>
+    <message>
+        <source>Not in the language of this site</source>
+        <translation>በዚህ ጣቢያ ቋንቋ አይደለም</translation>
+    </message>
+    <message>
+        <source>Side by side</source>
+        <translation>ጎን ለጎን</translation>
+    </message>
+    <message>
+        <source>This page on other sites</source>
+        <translation>ይህ ገጽ በሌሎች ጣቢያዎች</translation>
+    </message>
+    <message>
+        <source>There is no other site to show it on.</source>
+        <translation>ለማሳየት ሌላ ጣቢያ የለም።</translation>
+    </message>
+    <message>
+        <source>Main language</source>
+        <translation>ዋና ቋንቋ</translation>
+    </message>
+    <message>
+        <source>Not translated yet</source>
+        <translation>ገና አልተተረጎመም</translation>
+    </message>
+    <message>
+        <source>Edit here</source>
+        <translation>እዚህ አርትዕ</translation>
+    </message>
+    <message>
+        <source>Translate</source>
+        <translation>ተርጉም</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>ትርጉሞች</translation>
+    </message>
+    <message>
+        <source>Sites</source>
+        <translation>ጣቢያዎች</translation>
+    </message>
+    <message>
+        <source>This page</source>
+        <translation>ይህ ገጽ</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>የገቢ ሳጥን</translation>
     </message>

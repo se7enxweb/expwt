@@ -708,6 +708,58 @@
         <translation>SEO</translation>
     </message>
     <message>
+        <source>Back to this site's language</source>
+        <translation>මෙම අඩවියේ භාෂාවට ආපසු</translation>
+    </message>
+    <message>
+        <source>This site</source>
+        <translation>මෙම අඩවිය</translation>
+    </message>
+    <message>
+        <source>Not in the language of this site</source>
+        <translation>මෙම අඩවියේ භාෂාවෙන් නැත</translation>
+    </message>
+    <message>
+        <source>Side by side</source>
+        <translation>පැත්තෙන් පැත්තට</translation>
+    </message>
+    <message>
+        <source>This page on other sites</source>
+        <translation>වෙනත් අඩවිවල මෙම පිටුව</translation>
+    </message>
+    <message>
+        <source>There is no other site to show it on.</source>
+        <translation>එය පෙන්වීමට වෙනත් අඩවියක් නැත.</translation>
+    </message>
+    <message>
+        <source>Main language</source>
+        <translation>ප්‍රධාන භාෂාව</translation>
+    </message>
+    <message>
+        <source>Not translated yet</source>
+        <translation>තවම පරිවර්තනය කර නැත</translation>
+    </message>
+    <message>
+        <source>Edit here</source>
+        <translation>මෙහි සංස්කරණය කරන්න</translation>
+    </message>
+    <message>
+        <source>Translate</source>
+        <translation>පරිවර්තනය කරන්න</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>පරිවර්තන</translation>
+    </message>
+    <message>
+        <source>Sites</source>
+        <translation>අඩවි</translation>
+    </message>
+    <message>
+        <source>This page</source>
+        <translation>මෙම පිටුව</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>එන ලිපි</translation>
     </message>

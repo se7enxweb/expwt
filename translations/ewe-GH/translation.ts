@@ -708,6 +708,58 @@
         <translation>SEO</translation>
     </message>
     <message>
+        <source>Back to this site's language</source>
+        <translation>Trɔ yi nyatakakadzraɖoƒe sia ƒe gbe me</translation>
+    </message>
+    <message>
+        <source>This site</source>
+        <translation>Nyatakakadzraɖoƒe sia</translation>
+    </message>
+    <message>
+        <source>Not in the language of this site</source>
+        <translation>Mele nyatakakadzraɖoƒe sia ƒe gbe me o</translation>
+    </message>
+    <message>
+        <source>Side by side</source>
+        <translation>Le wo nɔewo xa</translation>
+    </message>
+    <message>
+        <source>This page on other sites</source>
+        <translation>Axa sia le nyatakakadzraɖoƒe bubuwo dzi</translation>
+    </message>
+    <message>
+        <source>There is no other site to show it on.</source>
+        <translation>Nyatakakadzraɖoƒe bubu aɖeke meli si dzi woaɖee fia o.</translation>
+    </message>
+    <message>
+        <source>Main language</source>
+        <translation>Gbe vevitɔ</translation>
+    </message>
+    <message>
+        <source>Not translated yet</source>
+        <translation>Womegaɖe egɔme haɖe o</translation>
+    </message>
+    <message>
+        <source>Edit here</source>
+        <translation>Trɔ asi le eŋu le afii</translation>
+    </message>
+    <message>
+        <source>Translate</source>
+        <translation>Ɖe egɔme</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>Gɔmeɖeɖewo</translation>
+    </message>
+    <message>
+        <source>Sites</source>
+        <translation>Nyatakakadzraɖoƒewo</translation>
+    </message>
+    <message>
+        <source>This page</source>
+        <translation>Axa sia</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Agbalẽ siwo va</translation>
     </message>

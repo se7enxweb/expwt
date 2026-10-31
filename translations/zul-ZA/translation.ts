@@ -708,6 +708,58 @@
         <translation>SEO</translation>
     </message>
     <message>
+        <source>Back to this site's language</source>
+        <translation>Buyela olimini lwale sayithi</translation>
+    </message>
+    <message>
+        <source>This site</source>
+        <translation>Le sayithi</translation>
+    </message>
+    <message>
+        <source>Not in the language of this site</source>
+        <translation>Akukho ngolimi lwale sayithi</translation>
+    </message>
+    <message>
+        <source>Side by side</source>
+        <translation>Eceleni</translation>
+    </message>
+    <message>
+        <source>This page on other sites</source>
+        <translation>Leli khasi kwamanye amasayithi</translation>
+    </message>
+    <message>
+        <source>There is no other site to show it on.</source>
+        <translation>Ayikho enye isayithi okungaboniswa kuyo.</translation>
+    </message>
+    <message>
+        <source>Main language</source>
+        <translation>Ulimi oluyinhloko</translation>
+    </message>
+    <message>
+        <source>Not translated yet</source>
+        <translation>Akukahunyushwa</translation>
+    </message>
+    <message>
+        <source>Edit here</source>
+        <translation>Hlela lapha</translation>
+    </message>
+    <message>
+        <source>Translate</source>
+        <translation>Humusha</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>Ukuhumusha</translation>
+    </message>
+    <message>
+        <source>Sites</source>
+        <translation>Amasayithi</translation>
+    </message>
+    <message>
+        <source>This page</source>
+        <translation>Leli khasi</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Ibhokisi lokungenayo</translation>
     </message>

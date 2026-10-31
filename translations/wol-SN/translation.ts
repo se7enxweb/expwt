@@ -708,6 +708,58 @@
         <translation>SEO</translation>
     </message>
     <message>
+        <source>Back to this site's language</source>
+        <translation>Dellu ci làkku dalu bii</translation>
+    </message>
+    <message>
+        <source>This site</source>
+        <translation>Dalu bii</translation>
+    </message>
+    <message>
+        <source>Not in the language of this site</source>
+        <translation>Nekkul ci làkku dalu bii</translation>
+    </message>
+    <message>
+        <source>Side by side</source>
+        <translation>Wet ak wet</translation>
+    </message>
+    <message>
+        <source>This page on other sites</source>
+        <translation>Xët wii ci yeneen dal</translation>
+    </message>
+    <message>
+        <source>There is no other site to show it on.</source>
+        <translation>Amul beneen dal bu ñu ko mana wone.</translation>
+    </message>
+    <message>
+        <source>Main language</source>
+        <translation>Làkk wu mag</translation>
+    </message>
+    <message>
+        <source>Not translated yet</source>
+        <translation>Tekkiguñu ko ba leegi</translation>
+    </message>
+    <message>
+        <source>Edit here</source>
+        <translation>Soppi fii</translation>
+    </message>
+    <message>
+        <source>Translate</source>
+        <translation>Tekki</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>Tekki yi</translation>
+    </message>
+    <message>
+        <source>Sites</source>
+        <translation>Dal yi</translation>
+    </message>
+    <message>
+        <source>This page</source>
+        <translation>Xët wii</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Bataaxal yu dikk</translation>
     </message>

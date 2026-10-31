@@ -56,6 +56,8 @@ class expwtAccess
         'insights.load'   => array( 'insights', false, '', '', '' ),
         // the SEO check of the page (F26): read-only, for those who edit with the sidebar
         'seo.check'       => array( 'edit', false, '', '', '' ),
+        // the page on the other sites and in its other languages (F27)
+        'page.elsewhere'  => array( 'use', false, '', '', '' ),
     );
 
     /** @return bool */

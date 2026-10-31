@@ -708,6 +708,58 @@
         <translation>SEO</translation>
     </message>
     <message>
+        <source>Back to this site's language</source>
+        <translation>এই সাইটের ভাষায় ফিরে যান</translation>
+    </message>
+    <message>
+        <source>This site</source>
+        <translation>এই সাইট</translation>
+    </message>
+    <message>
+        <source>Not in the language of this site</source>
+        <translation>এই সাইটের ভাষায় নেই</translation>
+    </message>
+    <message>
+        <source>Side by side</source>
+        <translation>পাশাপাশি</translation>
+    </message>
+    <message>
+        <source>This page on other sites</source>
+        <translation>অন্য সাইটে এই পৃষ্ঠা</translation>
+    </message>
+    <message>
+        <source>There is no other site to show it on.</source>
+        <translation>দেখানোর জন্য আর কোনো সাইট নেই।</translation>
+    </message>
+    <message>
+        <source>Main language</source>
+        <translation>মূল ভাষা</translation>
+    </message>
+    <message>
+        <source>Not translated yet</source>
+        <translation>এখনও অনুবাদ করা হয়নি</translation>
+    </message>
+    <message>
+        <source>Edit here</source>
+        <translation>এখানে সম্পাদনা করুন</translation>
+    </message>
+    <message>
+        <source>Translate</source>
+        <translation>অনুবাদ করুন</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>অনুবাদসমূহ</translation>
+    </message>
+    <message>
+        <source>Sites</source>
+        <translation>সাইটসমূহ</translation>
+    </message>
+    <message>
+        <source>This page</source>
+        <translation>এই পৃষ্ঠা</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>ইনবক্স</translation>
     </message>

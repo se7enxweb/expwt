@@ -708,6 +708,58 @@
         <translation>SEO</translation>
     </message>
     <message>
+        <source>Back to this site's language</source>
+        <translation>Go back to dis site language</translation>
+    </message>
+    <message>
+        <source>This site</source>
+        <translation>Dis site</translation>
+    </message>
+    <message>
+        <source>Not in the language of this site</source>
+        <translation>E no dey for dis site language</translation>
+    </message>
+    <message>
+        <source>Side by side</source>
+        <translation>Side by side</translation>
+    </message>
+    <message>
+        <source>This page on other sites</source>
+        <translation>Dis page for oda sites</translation>
+    </message>
+    <message>
+        <source>There is no other site to show it on.</source>
+        <translation>No oda site dey wey we fit show am.</translation>
+    </message>
+    <message>
+        <source>Main language</source>
+        <translation>Main language</translation>
+    </message>
+    <message>
+        <source>Not translated yet</source>
+        <translation>Dem never translate am</translation>
+    </message>
+    <message>
+        <source>Edit here</source>
+        <translation>Edit am here</translation>
+    </message>
+    <message>
+        <source>Translate</source>
+        <translation>Translate</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>Translations</translation>
+    </message>
+    <message>
+        <source>Sites</source>
+        <translation>Sites</translation>
+    </message>
+    <message>
+        <source>This page</source>
+        <translation>Dis page</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Inbox</translation>
     </message>

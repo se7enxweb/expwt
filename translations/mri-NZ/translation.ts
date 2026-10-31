@@ -708,6 +708,58 @@
         <translation>SEO</translation>
     </message>
     <message>
+        <source>Back to this site's language</source>
+        <translation>Hoki ki te reo o tēnei pae</translation>
+    </message>
+    <message>
+        <source>This site</source>
+        <translation>Tēnei pae</translation>
+    </message>
+    <message>
+        <source>Not in the language of this site</source>
+        <translation>Kāore i te reo o tēnei pae</translation>
+    </message>
+    <message>
+        <source>Side by side</source>
+        <translation>Taha ki te taha</translation>
+    </message>
+    <message>
+        <source>This page on other sites</source>
+        <translation>Tēnei whārangi i ētahi atu pae</translation>
+    </message>
+    <message>
+        <source>There is no other site to show it on.</source>
+        <translation>Kāore he pae kē hei whakaatu i a ia.</translation>
+    </message>
+    <message>
+        <source>Main language</source>
+        <translation>Reo matua</translation>
+    </message>
+    <message>
+        <source>Not translated yet</source>
+        <translation>Kāore anō kia whakamāoritia</translation>
+    </message>
+    <message>
+        <source>Edit here</source>
+        <translation>Whakatika ki konei</translation>
+    </message>
+    <message>
+        <source>Translate</source>
+        <translation>Whakamāori</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>Ngā whakamāoritanga</translation>
+    </message>
+    <message>
+        <source>Sites</source>
+        <translation>Ngā pae</translation>
+    </message>
+    <message>
+        <source>This page</source>
+        <translation>Tēnei whārangi</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Pouaka whakauru</translation>
     </message>

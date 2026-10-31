@@ -708,6 +708,58 @@
         <translation>SEO</translation>
     </message>
     <message>
+        <source>Back to this site's language</source>
+        <translation>Lura għal-lingwa ta' dan is-sit</translation>
+    </message>
+    <message>
+        <source>This site</source>
+        <translation>Dan is-sit</translation>
+    </message>
+    <message>
+        <source>Not in the language of this site</source>
+        <translation>Mhux bil-lingwa ta' dan is-sit</translation>
+    </message>
+    <message>
+        <source>Side by side</source>
+        <translation>Ħdejn xulxin</translation>
+    </message>
+    <message>
+        <source>This page on other sites</source>
+        <translation>Din il-paġna fuq siti oħra</translation>
+    </message>
+    <message>
+        <source>There is no other site to show it on.</source>
+        <translation>M'hemmx sit ieħor fejn tintwera.</translation>
+    </message>
+    <message>
+        <source>Main language</source>
+        <translation>Lingwa ewlenija</translation>
+    </message>
+    <message>
+        <source>Not translated yet</source>
+        <translation>Għadha mhix tradotta</translation>
+    </message>
+    <message>
+        <source>Edit here</source>
+        <translation>Editja hawn</translation>
+    </message>
+    <message>
+        <source>Translate</source>
+        <translation>Ittraduċi</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>Traduzzjonijiet</translation>
+    </message>
+    <message>
+        <source>Sites</source>
+        <translation>Siti</translation>
+    </message>
+    <message>
+        <source>This page</source>
+        <translation>Din il-paġna</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Inbox</translation>
     </message>

@@ -708,6 +708,58 @@
         <translation>SEO</translation>
     </message>
     <message>
+        <source>Back to this site's language</source>
+        <translation>ఈ సైట్ భాషకు తిరిగి వెళ్ళు</translation>
+    </message>
+    <message>
+        <source>This site</source>
+        <translation>ఈ సైట్</translation>
+    </message>
+    <message>
+        <source>Not in the language of this site</source>
+        <translation>ఈ సైట్ భాషలో లేదు</translation>
+    </message>
+    <message>
+        <source>Side by side</source>
+        <translation>పక్కపక్కనే</translation>
+    </message>
+    <message>
+        <source>This page on other sites</source>
+        <translation>ఇతర సైట్‌లలో ఈ పేజీ</translation>
+    </message>
+    <message>
+        <source>There is no other site to show it on.</source>
+        <translation>దీన్ని చూపడానికి వేరే సైట్ లేదు.</translation>
+    </message>
+    <message>
+        <source>Main language</source>
+        <translation>ప్రధాన భాష</translation>
+    </message>
+    <message>
+        <source>Not translated yet</source>
+        <translation>ఇంకా అనువదించలేదు</translation>
+    </message>
+    <message>
+        <source>Edit here</source>
+        <translation>ఇక్కడ సవరించు</translation>
+    </message>
+    <message>
+        <source>Translate</source>
+        <translation>అనువదించు</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>అనువాదాలు</translation>
+    </message>
+    <message>
+        <source>Sites</source>
+        <translation>సైట్‌లు</translation>
+    </message>
+    <message>
+        <source>This page</source>
+        <translation>ఈ పేజీ</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>ఇన్‌బాక్స్</translation>
     </message>

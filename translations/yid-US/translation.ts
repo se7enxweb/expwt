@@ -708,6 +708,58 @@
         <translation>SEO</translation>
     </message>
     <message>
+        <source>Back to this site's language</source>
+        <translation>צוריק צו דער שפּראַך פֿון דעם וועבזייטל</translation>
+    </message>
+    <message>
+        <source>This site</source>
+        <translation>דעם וועבזייטל</translation>
+    </message>
+    <message>
+        <source>Not in the language of this site</source>
+        <translation>נישט אין דער שפּראַך פֿון דעם וועבזייטל</translation>
+    </message>
+    <message>
+        <source>Side by side</source>
+        <translation>זײַט בײַ זײַט</translation>
+    </message>
+    <message>
+        <source>This page on other sites</source>
+        <translation>דער בלאַט אויף אַנדערע וועבזייטלעך</translation>
+    </message>
+    <message>
+        <source>There is no other site to show it on.</source>
+        <translation>עס איז נישטאָ קיין אַנדער וועבזייטל עס צו ווײַזן.</translation>
+    </message>
+    <message>
+        <source>Main language</source>
+        <translation>הויפּט־שפּראַך</translation>
+    </message>
+    <message>
+        <source>Not translated yet</source>
+        <translation>נאָך נישט איבערגעזעצט</translation>
+    </message>
+    <message>
+        <source>Edit here</source>
+        <translation>רעדאַקטירן דאָ</translation>
+    </message>
+    <message>
+        <source>Translate</source>
+        <translation>איבערזעצן</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>איבערזעצונגען</translation>
+    </message>
+    <message>
+        <source>Sites</source>
+        <translation>וועבזייטלעך</translation>
+    </message>
+    <message>
+        <source>This page</source>
+        <translation>דער בלאַט</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>אַרײַנגעקומענע</translation>
     </message>

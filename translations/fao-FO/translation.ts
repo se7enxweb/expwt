@@ -708,6 +708,58 @@
         <translation>SEO</translation>
     </message>
     <message>
+        <source>Back to this site's language</source>
+        <translation>Aftur til mál hesar heimasíðu</translation>
+    </message>
+    <message>
+        <source>This site</source>
+        <translation>Henda heimasíðan</translation>
+    </message>
+    <message>
+        <source>Not in the language of this site</source>
+        <translation>Ikki á máli hesar heimasíðu</translation>
+    </message>
+    <message>
+        <source>Side by side</source>
+        <translation>Lið um lið</translation>
+    </message>
+    <message>
+        <source>This page on other sites</source>
+        <translation>Henda síðan á øðrum heimasíðum</translation>
+    </message>
+    <message>
+        <source>There is no other site to show it on.</source>
+        <translation>Eingin onnur heimasíða er at vísa hana á.</translation>
+    </message>
+    <message>
+        <source>Main language</source>
+        <translation>Høvuðsmál</translation>
+    </message>
+    <message>
+        <source>Not translated yet</source>
+        <translation>Enn ikki týtt</translation>
+    </message>
+    <message>
+        <source>Edit here</source>
+        <translation>Rætta her</translation>
+    </message>
+    <message>
+        <source>Translate</source>
+        <translation>Týð</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>Týðingar</translation>
+    </message>
+    <message>
+        <source>Sites</source>
+        <translation>Heimasíður</translation>
+    </message>
+    <message>
+        <source>This page</source>
+        <translation>Henda síðan</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Innbakki</translation>
     </message>

@@ -708,6 +708,58 @@
         <translation>SEO</translation>
     </message>
     <message>
+        <source>Back to this site's language</source>
+        <translation>Ar ais go teanga an tsuímh seo</translation>
+    </message>
+    <message>
+        <source>This site</source>
+        <translation>An suíomh seo</translation>
+    </message>
+    <message>
+        <source>Not in the language of this site</source>
+        <translation>Ní i dteanga an tsuímh seo</translation>
+    </message>
+    <message>
+        <source>Side by side</source>
+        <translation>Taobh le taobh</translation>
+    </message>
+    <message>
+        <source>This page on other sites</source>
+        <translation>An leathanach seo ar shuíomhanna eile</translation>
+    </message>
+    <message>
+        <source>There is no other site to show it on.</source>
+        <translation>Níl aon suíomh eile ann lena thaispeáint air.</translation>
+    </message>
+    <message>
+        <source>Main language</source>
+        <translation>Príomhtheanga</translation>
+    </message>
+    <message>
+        <source>Not translated yet</source>
+        <translation>Gan aistriú fós</translation>
+    </message>
+    <message>
+        <source>Edit here</source>
+        <translation>Cuir in eagar anseo</translation>
+    </message>
+    <message>
+        <source>Translate</source>
+        <translation>Aistrigh</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>Aistriúcháin</translation>
+    </message>
+    <message>
+        <source>Sites</source>
+        <translation>Suíomhanna</translation>
+    </message>
+    <message>
+        <source>This page</source>
+        <translation>An leathanach seo</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Bosca isteach</translation>
     </message>

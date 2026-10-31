@@ -708,6 +708,58 @@
         <translation>SEO</translation>
     </message>
     <message>
+        <source>Back to this site's language</source>
+        <translation>Kthehu te gjuha e këtij sajti</translation>
+    </message>
+    <message>
+        <source>This site</source>
+        <translation>Ky sajt</translation>
+    </message>
+    <message>
+        <source>Not in the language of this site</source>
+        <translation>Jo në gjuhën e këtij sajti</translation>
+    </message>
+    <message>
+        <source>Side by side</source>
+        <translation>Krah për krah</translation>
+    </message>
+    <message>
+        <source>This page on other sites</source>
+        <translation>Kjo faqe në sajte të tjera</translation>
+    </message>
+    <message>
+        <source>There is no other site to show it on.</source>
+        <translation>Nuk ka sajt tjetër ku të shfaqet.</translation>
+    </message>
+    <message>
+        <source>Main language</source>
+        <translation>Gjuha kryesore</translation>
+    </message>
+    <message>
+        <source>Not translated yet</source>
+        <translation>Ende e papërkthyer</translation>
+    </message>
+    <message>
+        <source>Edit here</source>
+        <translation>Redakto këtu</translation>
+    </message>
+    <message>
+        <source>Translate</source>
+        <translation>Përkthe</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>Përkthime</translation>
+    </message>
+    <message>
+        <source>Sites</source>
+        <translation>Sajte</translation>
+    </message>
+    <message>
+        <source>This page</source>
+        <translation>Kjo faqe</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Të ardhurat</translation>
     </message>

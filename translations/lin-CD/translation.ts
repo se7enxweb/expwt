@@ -708,6 +708,58 @@
         <translation>SEO</translation>
     </message>
     <message>
+        <source>Back to this site's language</source>
+        <translation>Zonga na monoko ya site oyo</translation>
+    </message>
+    <message>
+        <source>This site</source>
+        <translation>Site oyo</translation>
+    </message>
+    <message>
+        <source>Not in the language of this site</source>
+        <translation>Ezali na monoko ya site oyo te</translation>
+    </message>
+    <message>
+        <source>Side by side</source>
+        <translation>Pembeni na pembeni</translation>
+    </message>
+    <message>
+        <source>This page on other sites</source>
+        <translation>Lokasa oyo na ba site mosusu</translation>
+    </message>
+    <message>
+        <source>There is no other site to show it on.</source>
+        <translation>Site mosusu ezali te mpo na kolakisa yango.</translation>
+    </message>
+    <message>
+        <source>Main language</source>
+        <translation>Monoko ya liboso</translation>
+    </message>
+    <message>
+        <source>Not translated yet</source>
+        <translation>Ebongolami naino te</translation>
+    </message>
+    <message>
+        <source>Edit here</source>
+        <translation>Bongisa awa</translation>
+    </message>
+    <message>
+        <source>Translate</source>
+        <translation>Bongola</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>Mabongoli</translation>
+    </message>
+    <message>
+        <source>Sites</source>
+        <translation>Ba site</translation>
+    </message>
+    <message>
+        <source>This page</source>
+        <translation>Lokasa oyo</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Bokóti ya mikanda</translation>
     </message>

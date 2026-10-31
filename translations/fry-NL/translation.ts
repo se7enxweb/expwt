@@ -708,6 +708,58 @@
         <translation>SEO</translation>
     </message>
     <message>
+        <source>Back to this site's language</source>
+        <translation>Werom nei de taal fan dizze side</translation>
+    </message>
+    <message>
+        <source>This site</source>
+        <translation>Dizze side</translation>
+    </message>
+    <message>
+        <source>Not in the language of this site</source>
+        <translation>Net yn de taal fan dizze side</translation>
+    </message>
+    <message>
+        <source>Side by side</source>
+        <translation>Neist elkoar</translation>
+    </message>
+    <message>
+        <source>This page on other sites</source>
+        <translation>Dizze side op oare siden</translation>
+    </message>
+    <message>
+        <source>There is no other site to show it on.</source>
+        <translation>Der is gjin oare side om him op te toanen.</translation>
+    </message>
+    <message>
+        <source>Main language</source>
+        <translation>Haadtaal</translation>
+    </message>
+    <message>
+        <source>Not translated yet</source>
+        <translation>Noch net oerset</translation>
+    </message>
+    <message>
+        <source>Edit here</source>
+        <translation>Hjir bewurkje</translation>
+    </message>
+    <message>
+        <source>Translate</source>
+        <translation>Oersette</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>Oersettingen</translation>
+    </message>
+    <message>
+        <source>Sites</source>
+        <translation>Siden</translation>
+    </message>
+    <message>
+        <source>This page</source>
+        <translation>Dizze side</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Postfak</translation>
     </message>

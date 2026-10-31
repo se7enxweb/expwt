@@ -708,6 +708,58 @@
         <translation>SEO</translation>
     </message>
     <message>
+        <source>Back to this site's language</source>
+        <translation>Quay lại ngôn ngữ của trang web này</translation>
+    </message>
+    <message>
+        <source>This site</source>
+        <translation>Trang web này</translation>
+    </message>
+    <message>
+        <source>Not in the language of this site</source>
+        <translation>Không có bằng ngôn ngữ của trang web này</translation>
+    </message>
+    <message>
+        <source>Side by side</source>
+        <translation>Song song</translation>
+    </message>
+    <message>
+        <source>This page on other sites</source>
+        <translation>Trang này trên các trang web khác</translation>
+    </message>
+    <message>
+        <source>There is no other site to show it on.</source>
+        <translation>Không có trang web nào khác để hiển thị.</translation>
+    </message>
+    <message>
+        <source>Main language</source>
+        <translation>Ngôn ngữ chính</translation>
+    </message>
+    <message>
+        <source>Not translated yet</source>
+        <translation>Chưa được dịch</translation>
+    </message>
+    <message>
+        <source>Edit here</source>
+        <translation>Sửa tại đây</translation>
+    </message>
+    <message>
+        <source>Translate</source>
+        <translation>Dịch</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>Bản dịch</translation>
+    </message>
+    <message>
+        <source>Sites</source>
+        <translation>Trang web</translation>
+    </message>
+    <message>
+        <source>This page</source>
+        <translation>Trang này</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Hộp thư đến</translation>
     </message>

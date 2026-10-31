@@ -708,6 +708,58 @@
         <translation>SEO</translation>
     </message>
     <message>
+        <source>Back to this site's language</source>
+        <translation>Wróćo k rěči tutoho sydła</translation>
+    </message>
+    <message>
+        <source>This site</source>
+        <translation>Tute sydło</translation>
+    </message>
+    <message>
+        <source>Not in the language of this site</source>
+        <translation>Njeje w rěči tutoho sydła</translation>
+    </message>
+    <message>
+        <source>Side by side</source>
+        <translation>Pódla so</translation>
+    </message>
+    <message>
+        <source>This page on other sites</source>
+        <translation>Tuta strona na druhich sydłach</translation>
+    </message>
+    <message>
+        <source>There is no other site to show it on.</source>
+        <translation>Njeje žane druhe sydło, na kotrymž by so pokazała.</translation>
+    </message>
+    <message>
+        <source>Main language</source>
+        <translation>Hłowna rěč</translation>
+    </message>
+    <message>
+        <source>Not translated yet</source>
+        <translation>Hišće njepřełožena</translation>
+    </message>
+    <message>
+        <source>Edit here</source>
+        <translation>Tu wobdźěłać</translation>
+    </message>
+    <message>
+        <source>Translate</source>
+        <translation>Přełožić</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>Přełožki</translation>
+    </message>
+    <message>
+        <source>Sites</source>
+        <translation>Sydła</translation>
+    </message>
+    <message>
+        <source>This page</source>
+        <translation>Tuta strona</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Dóstate</translation>
     </message>

@@ -708,6 +708,58 @@
         <translation>SEO</translation>
     </message>
     <message>
+        <source>Back to this site's language</source>
+        <translation>Ku noqo luqadda goobtan</translation>
+    </message>
+    <message>
+        <source>This site</source>
+        <translation>Goobtan</translation>
+    </message>
+    <message>
+        <source>Not in the language of this site</source>
+        <translation>Kuma jiro luqadda goobtan</translation>
+    </message>
+    <message>
+        <source>Side by side</source>
+        <translation>Dhinac dhinac</translation>
+    </message>
+    <message>
+        <source>This page on other sites</source>
+        <translation>Boggan goobaha kale</translation>
+    </message>
+    <message>
+        <source>There is no other site to show it on.</source>
+        <translation>Ma jirto goob kale oo lagu muujiyo.</translation>
+    </message>
+    <message>
+        <source>Main language</source>
+        <translation>Luqadda ugu weyn</translation>
+    </message>
+    <message>
+        <source>Not translated yet</source>
+        <translation>Weli lama turjumin</translation>
+    </message>
+    <message>
+        <source>Edit here</source>
+        <translation>Halkan ka beddel</translation>
+    </message>
+    <message>
+        <source>Translate</source>
+        <translation>Turjun</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>Turjumaadyo</translation>
+    </message>
+    <message>
+        <source>Sites</source>
+        <translation>Goobo</translation>
+    </message>
+    <message>
+        <source>This page</source>
+        <translation>Boggan</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Sanduuqa fariimaha</translation>
     </message>

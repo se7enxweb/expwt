@@ -708,6 +708,58 @@
         <translation>SEO</translation>
     </message>
     <message>
+        <source>Back to this site's language</source>
+        <translation>ХӀокху сайтан меттан тӀе юхаверза</translation>
+    </message>
+    <message>
+        <source>This site</source>
+        <translation>ХӀара сайт</translation>
+    </message>
+    <message>
+        <source>Not in the language of this site</source>
+        <translation>ХӀокху сайтан маттахь яц</translation>
+    </message>
+    <message>
+        <source>Side by side</source>
+        <translation>Цхьаьна юххе</translation>
+    </message>
+    <message>
+        <source>This page on other sites</source>
+        <translation>ХӀара агӀо кхечу сайташкахь</translation>
+    </message>
+    <message>
+        <source>There is no other site to show it on.</source>
+        <translation>Иза гайта кхин сайт яц.</translation>
+    </message>
+    <message>
+        <source>Main language</source>
+        <translation>Коьрта мотт</translation>
+    </message>
+    <message>
+        <source>Not translated yet</source>
+        <translation>ХӀинца а гочйина яц</translation>
+    </message>
+    <message>
+        <source>Edit here</source>
+        <translation>Кхузахь нисъе</translation>
+    </message>
+    <message>
+        <source>Translate</source>
+        <translation>Гочде</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>Гочдарш</translation>
+    </message>
+    <message>
+        <source>Sites</source>
+        <translation>Сайташ</translation>
+    </message>
+    <message>
+        <source>This page</source>
+        <translation>ХӀара агӀо</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Чуйогӏу</translation>
     </message>

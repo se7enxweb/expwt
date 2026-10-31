@@ -7,6 +7,7 @@
  *              field by field merge (F11)
  *   create     new content below or beside the page with a quick title (decision 16)
  *   structure  hide and reveal, move, add a location (a picker on the site), the trash, sort by drag (decision 14)
+ *   sites      the page on the other sites and in its other languages, side by side with this one (F27)
  *   seo        the SEO check of the rendered page and of its internal links; a finding opens its field (F26)
  *   me         the account and the kernel's own pages for it, the sidebar's preferences (decision 9)
  */
@@ -53,6 +54,8 @@
       root.appendChild(h('p', { text: t('This page is not content of the site. Open a page of the site to edit it.') }));
       return;
     }
+    /* another translation of the page, chosen in the Sites panel (F27) */
+    if (ctx.host.pageLanguage && !ctx.host.draftTarget) { target = Object.assign({ language: ctx.host.pageLanguage }, target); }
     root.appendChild(h('p', { class: 'wt-muted', text: t('Loading ...') }));
     ctx.call('page.load', target).then(function (p) {
       root.textContent = '';
@@ -91,6 +94,16 @@
       if (p.hidden) {
         chips.appendChild(document.createTextNode(' '));
         chips.appendChild(h('span', { class: 'wt-chip', text: t('Hidden') }));
+      }
+      /* a translation chosen in the Sites panel: its language, and the way back to the page's own */
+      if (ctx.host.pageLanguage) {
+        chips.appendChild(document.createTextNode(' '));
+        chips.appendChild(h('span', { class: 'wt-chip is-draft', text: p.language }));
+        chips.appendChild(document.createTextNode(' '));
+        chips.appendChild(h('button', { type: 'button', class: 'wt-btn wt-chip-btn', text: t('Back to this site\'s language'), onclick: function () {
+          ctx.host.pageLanguage = null;
+          ctx.show('page');
+        } }));
       }
     }
     drawChips();
@@ -1464,6 +1477,67 @@
     if (target.field) { ctx.host.openField(target.field); }
   }
 
+  /* ---------------------------------------------------------------------------------------------- sites */
+
+  /* The page on the other sites and in its other languages (F27): open it there (the sidebar's state is saved first,
+     so it opens there as it is here), or see it side by side with this page; a translation in the Page panel, or
+     a new one in the full editor. */
+  function sites(ctx, root) {
+    var h = ctx.h;
+    var t = ctx.t;
+    if (!ctx.node) {
+      root.appendChild(h('p', { text: t('This page is not content of the site. Open a page of the site to edit it.') }));
+      return;
+    }
+    root.appendChild(h('p', { class: 'wt-muted', text: t('Loading ...') }));
+    ctx.call('page.elsewhere', { nodeId: ctx.node }).then(function (r) {
+      root.textContent = '';
+      var open = function (url) {
+        return function (e) {
+          e.preventDefault();
+          var go = function () { window.location.href = url; };
+          ctx.call('state.save', { state: ctx.state }).then(go, go);
+        };
+      };
+      var list = h('ul', { class: 'wt-place-list' });
+      r.sites.forEach(function (s) {
+        var info = [h('span', { class: 'wt-place-name', text: s.name }), h('span', { class: 'wt-muted', text: s.language + ' · ' + s.identifier })];
+        var acts = h('div', { class: 'wt-row' });
+        if (s.current) {
+          info.push(h('span', { class: 'wt-chip is-ok', text: t('This site') }));
+        } else {
+          if (!s.shown) { info.push(h('span', { class: 'wt-muted', text: t('Not in the language of this site') })); }
+          acts.appendChild(h('a', { class: 'wt-btn', href: s.url, text: t('Open'), onclick: open(s.url) }));
+          acts.appendChild(h('button', { type: 'button', class: 'wt-btn', text: t('Side by side'), onclick: function () { ctx.host.split(s.url, s.name + ' · ' + s.language); } }));
+        }
+        list.appendChild(h('li', {}, [h('div', { class: 'wt-place-info' }, info), acts]));
+      });
+      root.appendChild(h('div', { class: 'wt-section' }, [h('h3', { text: t('This page on other sites') }),
+        r.sites.length > 1 ? list : h('p', { class: 'wt-muted', text: t('There is no other site to show it on.') })]));
+
+      var langs = h('ul', { class: 'wt-place-list' });
+      r.translations.forEach(function (l) {
+        var info = [h('span', { class: 'wt-place-name', text: l.name }), h('span', { class: 'wt-muted', text: l.locale })];
+        if (l.main) { info.push(h('span', { class: 'wt-chip', text: t('Main language') })); }
+        if (!l.exists) { info.push(h('span', { class: 'wt-muted', text: t('Not translated yet') })); }
+        var acts = h('div', { class: 'wt-row' });
+        if (l.exists) {
+          if (l.editable) {
+            acts.appendChild(h('button', { type: 'button', class: 'wt-btn', text: t('Edit here'), onclick: function () {
+              ctx.host.pageLanguage = l.locale;
+              ctx.show('page');
+            } }));
+          }
+          acts.appendChild(h('button', { type: 'button', class: 'wt-btn', text: t('Side by side'), onclick: function () { ctx.host.split(l.preview, l.name); } }));
+        } else if (l.translate) {
+          acts.appendChild(h('a', { class: 'wt-btn', href: l.translate, text: t('Translate') }));
+        }
+        langs.appendChild(h('li', {}, [h('div', { class: 'wt-place-info' }, info), acts]));
+      });
+      root.appendChild(h('div', { class: 'wt-section' }, [h('h3', { text: t('Translations') }), langs]));
+    }, function (err) { root.textContent = ''; failure(ctx, err); });
+  }
+
   window.ExpwtSeo = SEO;
-  window.ExpwtPanels = { page: page, create: create, structure: structure, seo: seo, insights: insights, inbox: inbox, me: me };
+  window.ExpwtPanels = { page: page, create: create, structure: structure, seo: seo, sites: sites, insights: insights, inbox: inbox, me: me };
 }());

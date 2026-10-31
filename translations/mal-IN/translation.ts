@@ -708,6 +708,58 @@
         <translation>SEO</translation>
     </message>
     <message>
+        <source>Back to this site's language</source>
+        <translation>ഈ സൈറ്റിന്റെ ഭാഷയിലേക്ക് മടങ്ങുക</translation>
+    </message>
+    <message>
+        <source>This site</source>
+        <translation>ഈ സൈറ്റ്</translation>
+    </message>
+    <message>
+        <source>Not in the language of this site</source>
+        <translation>ഈ സൈറ്റിന്റെ ഭാഷയിലല്ല</translation>
+    </message>
+    <message>
+        <source>Side by side</source>
+        <translation>അടുത്തടുത്ത്</translation>
+    </message>
+    <message>
+        <source>This page on other sites</source>
+        <translation>മറ്റ് സൈറ്റുകളിൽ ഈ പേജ്</translation>
+    </message>
+    <message>
+        <source>There is no other site to show it on.</source>
+        <translation>ഇത് കാണിക്കാൻ മറ്റൊരു സൈറ്റും ഇല്ല.</translation>
+    </message>
+    <message>
+        <source>Main language</source>
+        <translation>പ്രധാന ഭാഷ</translation>
+    </message>
+    <message>
+        <source>Not translated yet</source>
+        <translation>ഇതുവരെ വിവർത്തനം ചെയ്തിട്ടില്ല</translation>
+    </message>
+    <message>
+        <source>Edit here</source>
+        <translation>ഇവിടെ എഡിറ്റ് ചെയ്യുക</translation>
+    </message>
+    <message>
+        <source>Translate</source>
+        <translation>വിവർത്തനം ചെയ്യുക</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>വിവർത്തനങ്ങൾ</translation>
+    </message>
+    <message>
+        <source>Sites</source>
+        <translation>സൈറ്റുകൾ</translation>
+    </message>
+    <message>
+        <source>This page</source>
+        <translation>ഈ പേജ്</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>ഇൻബോക്സ്</translation>
     </message>

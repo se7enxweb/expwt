@@ -708,6 +708,58 @@
         <translation>SEO</translation>
     </message>
     <message>
+        <source>Back to this site's language</source>
+        <translation>Redi ad linguam huius situs</translation>
+    </message>
+    <message>
+        <source>This site</source>
+        <translation>Hic situs</translation>
+    </message>
+    <message>
+        <source>Not in the language of this site</source>
+        <translation>Non in lingua huius situs</translation>
+    </message>
+    <message>
+        <source>Side by side</source>
+        <translation>Iuxta</translation>
+    </message>
+    <message>
+        <source>This page on other sites</source>
+        <translation>Haec pagina in aliis sitibus</translation>
+    </message>
+    <message>
+        <source>There is no other site to show it on.</source>
+        <translation>Nullus alius situs est in quo ostendatur.</translation>
+    </message>
+    <message>
+        <source>Main language</source>
+        <translation>Lingua principalis</translation>
+    </message>
+    <message>
+        <source>Not translated yet</source>
+        <translation>Nondum translata</translation>
+    </message>
+    <message>
+        <source>Edit here</source>
+        <translation>Hic recense</translation>
+    </message>
+    <message>
+        <source>Translate</source>
+        <translation>Converte</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>Conversiones</translation>
+    </message>
+    <message>
+        <source>Sites</source>
+        <translation>Situs</translation>
+    </message>
+    <message>
+        <source>This page</source>
+        <translation>Haec pagina</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Arca accepta</translation>
     </message>

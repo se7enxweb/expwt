@@ -708,6 +708,58 @@
         <translation>SEO</translation>
     </message>
     <message>
+        <source>Back to this site's language</source>
+        <translation>Torna a la llengua d'aquest lloc</translation>
+    </message>
+    <message>
+        <source>This site</source>
+        <translation>Aquest lloc</translation>
+    </message>
+    <message>
+        <source>Not in the language of this site</source>
+        <translation>No és en la llengua d'aquest lloc</translation>
+    </message>
+    <message>
+        <source>Side by side</source>
+        <translation>Una al costat de l'altra</translation>
+    </message>
+    <message>
+        <source>This page on other sites</source>
+        <translation>Aquesta pàgina en altres llocs</translation>
+    </message>
+    <message>
+        <source>There is no other site to show it on.</source>
+        <translation>No hi ha cap altre lloc on mostrar-la.</translation>
+    </message>
+    <message>
+        <source>Main language</source>
+        <translation>Llengua principal</translation>
+    </message>
+    <message>
+        <source>Not translated yet</source>
+        <translation>Encara no traduïda</translation>
+    </message>
+    <message>
+        <source>Edit here</source>
+        <translation>Edita aquí</translation>
+    </message>
+    <message>
+        <source>Translate</source>
+        <translation>Tradueix</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>Traduccions</translation>
+    </message>
+    <message>
+        <source>Sites</source>
+        <translation>Llocs</translation>
+    </message>
+    <message>
+        <source>This page</source>
+        <translation>Aquesta pàgina</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Safata d'entrada</translation>
     </message>

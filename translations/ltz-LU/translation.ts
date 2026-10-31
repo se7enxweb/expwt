@@ -708,6 +708,58 @@
         <translation>SEO</translation>
     </message>
     <message>
+        <source>Back to this site's language</source>
+        <translation>Zréck op d'Sprooch vun dësem Site</translation>
+    </message>
+    <message>
+        <source>This site</source>
+        <translation>Dëse Site</translation>
+    </message>
+    <message>
+        <source>Not in the language of this site</source>
+        <translation>Net an der Sprooch vun dësem Site</translation>
+    </message>
+    <message>
+        <source>Side by side</source>
+        <translation>Niewentenee</translation>
+    </message>
+    <message>
+        <source>This page on other sites</source>
+        <translation>Dës Säit op anere Siten</translation>
+    </message>
+    <message>
+        <source>There is no other site to show it on.</source>
+        <translation>Et gëtt keen anere Site, fir se ze weisen.</translation>
+    </message>
+    <message>
+        <source>Main language</source>
+        <translation>Haaptsprooch</translation>
+    </message>
+    <message>
+        <source>Not translated yet</source>
+        <translation>Nach net iwwersat</translation>
+    </message>
+    <message>
+        <source>Edit here</source>
+        <translation>Hei änneren</translation>
+    </message>
+    <message>
+        <source>Translate</source>
+        <translation>Iwwersetzen</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>Iwwersetzungen</translation>
+    </message>
+    <message>
+        <source>Sites</source>
+        <translation>Siten</translation>
+    </message>
+    <message>
+        <source>This page</source>
+        <translation>Dës Säit</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Postkëscht</translation>
     </message>

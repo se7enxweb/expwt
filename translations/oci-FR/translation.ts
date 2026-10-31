@@ -708,6 +708,58 @@
         <translation>SEO</translation>
     </message>
     <message>
+        <source>Back to this site's language</source>
+        <translation>Tornar a la lenga d'aqueste site</translation>
+    </message>
+    <message>
+        <source>This site</source>
+        <translation>Aqueste site</translation>
+    </message>
+    <message>
+        <source>Not in the language of this site</source>
+        <translation>Pas dins la lenga d'aqueste site</translation>
+    </message>
+    <message>
+        <source>Side by side</source>
+        <translation>Costat a costat</translation>
+    </message>
+    <message>
+        <source>This page on other sites</source>
+        <translation>Aquesta pagina sus d'autres sites</translation>
+    </message>
+    <message>
+        <source>There is no other site to show it on.</source>
+        <translation>I a pas cap d'autre site per l'afichar.</translation>
+    </message>
+    <message>
+        <source>Main language</source>
+        <translation>Lenga principala</translation>
+    </message>
+    <message>
+        <source>Not translated yet</source>
+        <translation>Pas encara traducha</translation>
+    </message>
+    <message>
+        <source>Edit here</source>
+        <translation>Modificar aicí</translation>
+    </message>
+    <message>
+        <source>Translate</source>
+        <translation>Traduire</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>Traduccions</translation>
+    </message>
+    <message>
+        <source>Sites</source>
+        <translation>Sites</translation>
+    </message>
+    <message>
+        <source>This page</source>
+        <translation>Aquesta pagina</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Bóstia de recepcion</translation>
     </message>

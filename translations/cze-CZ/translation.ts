@@ -708,6 +708,58 @@
         <translation>SEO</translation>
     </message>
     <message>
+        <source>Back to this site's language</source>
+        <translation>Zpět na jazyk tohoto webu</translation>
+    </message>
+    <message>
+        <source>This site</source>
+        <translation>Tento web</translation>
+    </message>
+    <message>
+        <source>Not in the language of this site</source>
+        <translation>Není v jazyce tohoto webu</translation>
+    </message>
+    <message>
+        <source>Side by side</source>
+        <translation>Vedle sebe</translation>
+    </message>
+    <message>
+        <source>This page on other sites</source>
+        <translation>Tato stránka na jiných webech</translation>
+    </message>
+    <message>
+        <source>There is no other site to show it on.</source>
+        <translation>Není žádný jiný web, kde ji zobrazit.</translation>
+    </message>
+    <message>
+        <source>Main language</source>
+        <translation>Hlavní jazyk</translation>
+    </message>
+    <message>
+        <source>Not translated yet</source>
+        <translation>Zatím nepřeloženo</translation>
+    </message>
+    <message>
+        <source>Edit here</source>
+        <translation>Upravit zde</translation>
+    </message>
+    <message>
+        <source>Translate</source>
+        <translation>Přeložit</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>Překlady</translation>
+    </message>
+    <message>
+        <source>Sites</source>
+        <translation>Weby</translation>
+    </message>
+    <message>
+        <source>This page</source>
+        <translation>Tato stránka</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Doručené</translation>
     </message>

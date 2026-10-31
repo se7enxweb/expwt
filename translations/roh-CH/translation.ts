@@ -708,6 +708,58 @@
         <translation>SEO</translation>
     </message>
     <message>
+        <source>Back to this site's language</source>
+        <translation>Enavos a la lingua da questa website</translation>
+    </message>
+    <message>
+        <source>This site</source>
+        <translation>Questa website</translation>
+    </message>
+    <message>
+        <source>Not in the language of this site</source>
+        <translation>Betg en la lingua da questa website</translation>
+    </message>
+    <message>
+        <source>Side by side</source>
+        <translation>Ina sper l'autra</translation>
+    </message>
+    <message>
+        <source>This page on other sites</source>
+        <translation>Questa pagina sin autras websites</translation>
+    </message>
+    <message>
+        <source>There is no other site to show it on.</source>
+        <translation>I na dat nagina autra website per la mussar.</translation>
+    </message>
+    <message>
+        <source>Main language</source>
+        <translation>Lingua principala</translation>
+    </message>
+    <message>
+        <source>Not translated yet</source>
+        <translation>Anc betg translatà</translation>
+    </message>
+    <message>
+        <source>Edit here</source>
+        <translation>Modifitgar qua</translation>
+    </message>
+    <message>
+        <source>Translate</source>
+        <translation>Translatar</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>Translaziuns</translation>
+    </message>
+    <message>
+        <source>Sites</source>
+        <translation>Websites</translation>
+    </message>
+    <message>
+        <source>This page</source>
+        <translation>Questa pagina</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Chascha d'entrada</translation>
     </message>

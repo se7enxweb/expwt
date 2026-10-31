@@ -708,6 +708,58 @@
         <translation>SEO</translation>
     </message>
     <message>
+        <source>Back to this site's language</source>
+        <translation>Ruovttoluotta dán neahttabáikki gillii</translation>
+    </message>
+    <message>
+        <source>This site</source>
+        <translation>Dát neahttabáiki</translation>
+    </message>
+    <message>
+        <source>Not in the language of this site</source>
+        <translation>Ii dán neahttabáikki gillii</translation>
+    </message>
+    <message>
+        <source>Side by side</source>
+        <translation>Bálddalagaid</translation>
+    </message>
+    <message>
+        <source>This page on other sites</source>
+        <translation>Dát siidu eará neahttabáikkiin</translation>
+    </message>
+    <message>
+        <source>There is no other site to show it on.</source>
+        <translation>Ii leat eará neahttabáiki gos dan čájehit.</translation>
+    </message>
+    <message>
+        <source>Main language</source>
+        <translation>Váldogiella</translation>
+    </message>
+    <message>
+        <source>Not translated yet</source>
+        <translation>Ii vel jorgaluvvon</translation>
+    </message>
+    <message>
+        <source>Edit here</source>
+        <translation>Rievdat dás</translation>
+    </message>
+    <message>
+        <source>Translate</source>
+        <translation>Jorgal</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>Jorgalusat</translation>
+    </message>
+    <message>
+        <source>Sites</source>
+        <translation>Neahttabáikkit</translation>
+    </message>
+    <message>
+        <source>This page</source>
+        <translation>Dát siidu</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Sisaboarta</translation>
     </message>

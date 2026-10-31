@@ -708,6 +708,58 @@
         <translation>SEO</translation>
     </message>
     <message>
+        <source>Back to this site's language</source>
+        <translation>ဤဆိုက်၏ ဘာသာစကားသို့ ပြန်သွားရန်</translation>
+    </message>
+    <message>
+        <source>This site</source>
+        <translation>ဤဆိုက်</translation>
+    </message>
+    <message>
+        <source>Not in the language of this site</source>
+        <translation>ဤဆိုက်၏ ဘာသာစကားဖြင့် မရှိပါ</translation>
+    </message>
+    <message>
+        <source>Side by side</source>
+        <translation>ဘေးချင်းယှဉ်</translation>
+    </message>
+    <message>
+        <source>This page on other sites</source>
+        <translation>အခြားဆိုက်များပေါ်ရှိ ဤစာမျက်နှာ</translation>
+    </message>
+    <message>
+        <source>There is no other site to show it on.</source>
+        <translation>၎င်းကို ပြသရန် အခြားဆိုက် မရှိပါ။</translation>
+    </message>
+    <message>
+        <source>Main language</source>
+        <translation>အဓိက ဘာသာစကား</translation>
+    </message>
+    <message>
+        <source>Not translated yet</source>
+        <translation>ဘာသာမပြန်ရသေးပါ</translation>
+    </message>
+    <message>
+        <source>Edit here</source>
+        <translation>ဤနေရာတွင် တည်းဖြတ်ရန်</translation>
+    </message>
+    <message>
+        <source>Translate</source>
+        <translation>ဘာသာပြန်ရန်</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>ဘာသာပြန်ချက်များ</translation>
+    </message>
+    <message>
+        <source>Sites</source>
+        <translation>ဆိုက်များ</translation>
+    </message>
+    <message>
+        <source>This page</source>
+        <translation>ဤစာမျက်နှာ</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>ဝင်စာ</translation>
     </message>

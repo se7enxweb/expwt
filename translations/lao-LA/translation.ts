@@ -708,6 +708,58 @@
         <translation>SEO</translation>
     </message>
     <message>
+        <source>Back to this site's language</source>
+        <translation>ກັບໄປພາສາຂອງເວັບໄຊນີ້</translation>
+    </message>
+    <message>
+        <source>This site</source>
+        <translation>ເວັບໄຊນີ້</translation>
+    </message>
+    <message>
+        <source>Not in the language of this site</source>
+        <translation>ບໍ່ແມ່ນພາສາຂອງເວັບໄຊນີ້</translation>
+    </message>
+    <message>
+        <source>Side by side</source>
+        <translation>ຄຽງຂ້າງກັນ</translation>
+    </message>
+    <message>
+        <source>This page on other sites</source>
+        <translation>ໜ້ານີ້ໃນເວັບໄຊອື່ນ</translation>
+    </message>
+    <message>
+        <source>There is no other site to show it on.</source>
+        <translation>ບໍ່ມີເວັບໄຊອື່ນທີ່ຈະສະແດງມັນ.</translation>
+    </message>
+    <message>
+        <source>Main language</source>
+        <translation>ພາສາຫຼັກ</translation>
+    </message>
+    <message>
+        <source>Not translated yet</source>
+        <translation>ຍັງບໍ່ໄດ້ແປ</translation>
+    </message>
+    <message>
+        <source>Edit here</source>
+        <translation>ແກ້ໄຂທີ່ນີ້</translation>
+    </message>
+    <message>
+        <source>Translate</source>
+        <translation>ແປ</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>ການແປ</translation>
+    </message>
+    <message>
+        <source>Sites</source>
+        <translation>ເວັບໄຊ</translation>
+    </message>
+    <message>
+        <source>This page</source>
+        <translation>ໜ້ານີ້</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>ກ່ອງຂາເຂົ້າ</translation>
     </message>

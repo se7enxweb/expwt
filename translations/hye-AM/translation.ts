@@ -708,6 +708,58 @@
         <translation>SEO</translation>
     </message>
     <message>
+        <source>Back to this site's language</source>
+        <translation>Վերադառնալ այս կայքի լեզվին</translation>
+    </message>
+    <message>
+        <source>This site</source>
+        <translation>Այս կայքը</translation>
+    </message>
+    <message>
+        <source>Not in the language of this site</source>
+        <translation>Այս կայքի լեզվով չէ</translation>
+    </message>
+    <message>
+        <source>Side by side</source>
+        <translation>Կողք կողքի</translation>
+    </message>
+    <message>
+        <source>This page on other sites</source>
+        <translation>Այս էջը այլ կայքերում</translation>
+    </message>
+    <message>
+        <source>There is no other site to show it on.</source>
+        <translation>Այն ցույց տալու այլ կայք չկա։</translation>
+    </message>
+    <message>
+        <source>Main language</source>
+        <translation>Հիմնական լեզու</translation>
+    </message>
+    <message>
+        <source>Not translated yet</source>
+        <translation>Դեռ թարգմանված չէ</translation>
+    </message>
+    <message>
+        <source>Edit here</source>
+        <translation>Խմբագրել այստեղ</translation>
+    </message>
+    <message>
+        <source>Translate</source>
+        <translation>Թարգմանել</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>Թարգմանություններ</translation>
+    </message>
+    <message>
+        <source>Sites</source>
+        <translation>Կայքեր</translation>
+    </message>
+    <message>
+        <source>This page</source>
+        <translation>Այս էջը</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Մուտքային</translation>
     </message>

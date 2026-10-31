@@ -708,6 +708,58 @@
         <translation>SEO</translation>
     </message>
     <message>
+        <source>Back to this site's language</source>
+        <translation>Bu saýtyň diline gaýt</translation>
+    </message>
+    <message>
+        <source>This site</source>
+        <translation>Bu saýt</translation>
+    </message>
+    <message>
+        <source>Not in the language of this site</source>
+        <translation>Bu saýtyň dilinde däl</translation>
+    </message>
+    <message>
+        <source>Side by side</source>
+        <translation>Ýanaşyk</translation>
+    </message>
+    <message>
+        <source>This page on other sites</source>
+        <translation>Bu sahypa beýleki saýtlarda</translation>
+    </message>
+    <message>
+        <source>There is no other site to show it on.</source>
+        <translation>Ony görkezmek üçin başga saýt ýok.</translation>
+    </message>
+    <message>
+        <source>Main language</source>
+        <translation>Esasy dil</translation>
+    </message>
+    <message>
+        <source>Not translated yet</source>
+        <translation>Entek terjime edilmedi</translation>
+    </message>
+    <message>
+        <source>Edit here</source>
+        <translation>Şu ýerde redaktirle</translation>
+    </message>
+    <message>
+        <source>Translate</source>
+        <translation>Terjime et</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>Terjimeler</translation>
+    </message>
+    <message>
+        <source>Sites</source>
+        <translation>Saýtlar</translation>
+    </message>
+    <message>
+        <source>This page</source>
+        <translation>Bu sahypa</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Gelenler</translation>
     </message>

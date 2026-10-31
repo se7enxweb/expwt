@@ -708,6 +708,58 @@
         <translation>SEO</translation>
     </message>
     <message>
+        <source>Back to this site's language</source>
+        <translation>Vissza a webhely nyelvére</translation>
+    </message>
+    <message>
+        <source>This site</source>
+        <translation>Ez a webhely</translation>
+    </message>
+    <message>
+        <source>Not in the language of this site</source>
+        <translation>Nem a webhely nyelvén</translation>
+    </message>
+    <message>
+        <source>Side by side</source>
+        <translation>Egymás mellett</translation>
+    </message>
+    <message>
+        <source>This page on other sites</source>
+        <translation>Ez az oldal más webhelyeken</translation>
+    </message>
+    <message>
+        <source>There is no other site to show it on.</source>
+        <translation>Nincs más webhely, ahol megjeleníthető.</translation>
+    </message>
+    <message>
+        <source>Main language</source>
+        <translation>Fő nyelv</translation>
+    </message>
+    <message>
+        <source>Not translated yet</source>
+        <translation>Még nincs lefordítva</translation>
+    </message>
+    <message>
+        <source>Edit here</source>
+        <translation>Szerkesztés itt</translation>
+    </message>
+    <message>
+        <source>Translate</source>
+        <translation>Fordítás</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>Fordítások</translation>
+    </message>
+    <message>
+        <source>Sites</source>
+        <translation>Webhelyek</translation>
+    </message>
+    <message>
+        <source>This page</source>
+        <translation>Ez az oldal</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Beérkezett</translation>
     </message>

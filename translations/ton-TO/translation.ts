@@ -708,6 +708,58 @@
         <translation>SEO</translation>
     </message>
     <message>
+        <source>Back to this site's language</source>
+        <translation>Foki ki he lea ʻo e uepisaiti ko ʻeni</translation>
+    </message>
+    <message>
+        <source>This site</source>
+        <translation>Uepisaiti ko ʻeni</translation>
+    </message>
+    <message>
+        <source>Not in the language of this site</source>
+        <translation>ʻIkai ʻi he lea ʻo e uepisaiti ko ʻeni</translation>
+    </message>
+    <message>
+        <source>Side by side</source>
+        <translation>Fehokotaki</translation>
+    </message>
+    <message>
+        <source>This page on other sites</source>
+        <translation>Peesi ko ʻeni ʻi he ngaahi uepisaiti kehe</translation>
+    </message>
+    <message>
+        <source>There is no other site to show it on.</source>
+        <translation>ʻOku ʻikai ha uepisaiti kehe ke fakahaaʻi ai.</translation>
+    </message>
+    <message>
+        <source>Main language</source>
+        <translation>Lea tefito</translation>
+    </message>
+    <message>
+        <source>Not translated yet</source>
+        <translation>ʻOku teʻeki liliu</translation>
+    </message>
+    <message>
+        <source>Edit here</source>
+        <translation>Fakatonutonu heni</translation>
+    </message>
+    <message>
+        <source>Translate</source>
+        <translation>Liliu</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>Ngaahi liliu</translation>
+    </message>
+    <message>
+        <source>Sites</source>
+        <translation>Ngaahi uepisaiti</translation>
+    </message>
+    <message>
+        <source>This page</source>
+        <translation>Peesi ko ʻeni</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Puha tohi hū mai</translation>
     </message>

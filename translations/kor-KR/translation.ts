@@ -708,6 +708,58 @@
         <translation>SEO</translation>
     </message>
     <message>
+        <source>Back to this site's language</source>
+        <translation>이 사이트의 언어로 돌아가기</translation>
+    </message>
+    <message>
+        <source>This site</source>
+        <translation>이 사이트</translation>
+    </message>
+    <message>
+        <source>Not in the language of this site</source>
+        <translation>이 사이트의 언어로 되어 있지 않음</translation>
+    </message>
+    <message>
+        <source>Side by side</source>
+        <translation>나란히 보기</translation>
+    </message>
+    <message>
+        <source>This page on other sites</source>
+        <translation>다른 사이트의 이 페이지</translation>
+    </message>
+    <message>
+        <source>There is no other site to show it on.</source>
+        <translation>표시할 다른 사이트가 없습니다.</translation>
+    </message>
+    <message>
+        <source>Main language</source>
+        <translation>기본 언어</translation>
+    </message>
+    <message>
+        <source>Not translated yet</source>
+        <translation>아직 번역되지 않음</translation>
+    </message>
+    <message>
+        <source>Edit here</source>
+        <translation>여기서 편집</translation>
+    </message>
+    <message>
+        <source>Translate</source>
+        <translation>번역</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>번역</translation>
+    </message>
+    <message>
+        <source>Sites</source>
+        <translation>사이트</translation>
+    </message>
+    <message>
+        <source>This page</source>
+        <translation>이 페이지</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>받은 편지함</translation>
     </message>

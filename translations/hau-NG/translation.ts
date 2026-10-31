@@ -708,6 +708,58 @@
         <translation>SEO</translation>
     </message>
     <message>
+        <source>Back to this site's language</source>
+        <translation>Koma zuwa harshen wannan shafin</translation>
+    </message>
+    <message>
+        <source>This site</source>
+        <translation>Wannan shafin</translation>
+    </message>
+    <message>
+        <source>Not in the language of this site</source>
+        <translation>Ba a harshen wannan shafin ba</translation>
+    </message>
+    <message>
+        <source>Side by side</source>
+        <translation>Gefe da gefe</translation>
+    </message>
+    <message>
+        <source>This page on other sites</source>
+        <translation>Wannan shafi a wasu shafuka</translation>
+    </message>
+    <message>
+        <source>There is no other site to show it on.</source>
+        <translation>Babu wani shafi da za a nuna shi a kai.</translation>
+    </message>
+    <message>
+        <source>Main language</source>
+        <translation>Babban harshe</translation>
+    </message>
+    <message>
+        <source>Not translated yet</source>
+        <translation>Ba a fassara ba tukuna</translation>
+    </message>
+    <message>
+        <source>Edit here</source>
+        <translation>Gyara a nan</translation>
+    </message>
+    <message>
+        <source>Translate</source>
+        <translation>Fassara</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>Fassarori</translation>
+    </message>
+    <message>
+        <source>Sites</source>
+        <translation>Shafuka</translation>
+    </message>
+    <message>
+        <source>This page</source>
+        <translation>Wannan shafi</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Akwatin saƙo</translation>
     </message>

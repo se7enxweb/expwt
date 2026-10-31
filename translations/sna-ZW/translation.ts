@@ -708,6 +708,58 @@
         <translation>SEO</translation>
     </message>
     <message>
+        <source>Back to this site's language</source>
+        <translation>Dzokera kumutauro wesaiti iyi</translation>
+    </message>
+    <message>
+        <source>This site</source>
+        <translation>Saiti iyi</translation>
+    </message>
+    <message>
+        <source>Not in the language of this site</source>
+        <translation>Haisi mumutauro wesaiti iyi</translation>
+    </message>
+    <message>
+        <source>Side by side</source>
+        <translation>Padivi nepadivi</translation>
+    </message>
+    <message>
+        <source>This page on other sites</source>
+        <translation>Peji iri pamamwe masaiti</translation>
+    </message>
+    <message>
+        <source>There is no other site to show it on.</source>
+        <translation>Hapana imwe saiti yekuiratidza pairi.</translation>
+    </message>
+    <message>
+        <source>Main language</source>
+        <translation>Mutauro mukuru</translation>
+    </message>
+    <message>
+        <source>Not translated yet</source>
+        <translation>Haisati yashandurwa</translation>
+    </message>
+    <message>
+        <source>Edit here</source>
+        <translation>Gadzirisa pano</translation>
+    </message>
+    <message>
+        <source>Translate</source>
+        <translation>Shandura</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>Shanduro</translation>
+    </message>
+    <message>
+        <source>Sites</source>
+        <translation>Masaiti</translation>
+    </message>
+    <message>
+        <source>This page</source>
+        <translation>Peji iri</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Bhokisi rinopinda</translation>
     </message>

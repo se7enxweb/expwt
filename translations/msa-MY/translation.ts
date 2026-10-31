@@ -708,6 +708,58 @@
         <translation>SEO</translation>
     </message>
     <message>
+        <source>Back to this site's language</source>
+        <translation>Kembali ke bahasa laman ini</translation>
+    </message>
+    <message>
+        <source>This site</source>
+        <translation>Laman ini</translation>
+    </message>
+    <message>
+        <source>Not in the language of this site</source>
+        <translation>Bukan dalam bahasa laman ini</translation>
+    </message>
+    <message>
+        <source>Side by side</source>
+        <translation>Bersebelahan</translation>
+    </message>
+    <message>
+        <source>This page on other sites</source>
+        <translation>Halaman ini di laman lain</translation>
+    </message>
+    <message>
+        <source>There is no other site to show it on.</source>
+        <translation>Tiada laman lain untuk memaparkannya.</translation>
+    </message>
+    <message>
+        <source>Main language</source>
+        <translation>Bahasa utama</translation>
+    </message>
+    <message>
+        <source>Not translated yet</source>
+        <translation>Belum diterjemahkan</translation>
+    </message>
+    <message>
+        <source>Edit here</source>
+        <translation>Sunting di sini</translation>
+    </message>
+    <message>
+        <source>Translate</source>
+        <translation>Terjemah</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>Terjemahan</translation>
+    </message>
+    <message>
+        <source>Sites</source>
+        <translation>Laman</translation>
+    </message>
+    <message>
+        <source>This page</source>
+        <translation>Halaman ini</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Peti masuk</translation>
     </message>

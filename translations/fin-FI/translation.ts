@@ -708,6 +708,58 @@
         <translation>SEO</translation>
     </message>
     <message>
+        <source>Back to this site's language</source>
+        <translation>Takaisin tämän sivuston kieleen</translation>
+    </message>
+    <message>
+        <source>This site</source>
+        <translation>Tämä sivusto</translation>
+    </message>
+    <message>
+        <source>Not in the language of this site</source>
+        <translation>Ei tämän sivuston kielellä</translation>
+    </message>
+    <message>
+        <source>Side by side</source>
+        <translation>Rinnakkain</translation>
+    </message>
+    <message>
+        <source>This page on other sites</source>
+        <translation>Tämä sivu muilla sivustoilla</translation>
+    </message>
+    <message>
+        <source>There is no other site to show it on.</source>
+        <translation>Muuta sivustoa, jolla sen voisi näyttää, ei ole.</translation>
+    </message>
+    <message>
+        <source>Main language</source>
+        <translation>Pääkieli</translation>
+    </message>
+    <message>
+        <source>Not translated yet</source>
+        <translation>Ei vielä käännetty</translation>
+    </message>
+    <message>
+        <source>Edit here</source>
+        <translation>Muokkaa tässä</translation>
+    </message>
+    <message>
+        <source>Translate</source>
+        <translation>Käännä</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>Käännökset</translation>
+    </message>
+    <message>
+        <source>Sites</source>
+        <translation>Sivustot</translation>
+    </message>
+    <message>
+        <source>This page</source>
+        <translation>Tämä sivu</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Saapuneet</translation>
     </message>

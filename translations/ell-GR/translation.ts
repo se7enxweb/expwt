@@ -708,6 +708,58 @@
         <translation>SEO</translation>
     </message>
     <message>
+        <source>Back to this site's language</source>
+        <translation>Επιστροφή στη γλώσσα αυτού του ιστότοπου</translation>
+    </message>
+    <message>
+        <source>This site</source>
+        <translation>Αυτός ο ιστότοπος</translation>
+    </message>
+    <message>
+        <source>Not in the language of this site</source>
+        <translation>Όχι στη γλώσσα αυτού του ιστότοπου</translation>
+    </message>
+    <message>
+        <source>Side by side</source>
+        <translation>Δίπλα-δίπλα</translation>
+    </message>
+    <message>
+        <source>This page on other sites</source>
+        <translation>Αυτή η σελίδα σε άλλους ιστότοπους</translation>
+    </message>
+    <message>
+        <source>There is no other site to show it on.</source>
+        <translation>Δεν υπάρχει άλλος ιστότοπος για να εμφανιστεί.</translation>
+    </message>
+    <message>
+        <source>Main language</source>
+        <translation>Κύρια γλώσσα</translation>
+    </message>
+    <message>
+        <source>Not translated yet</source>
+        <translation>Δεν έχει μεταφραστεί ακόμα</translation>
+    </message>
+    <message>
+        <source>Edit here</source>
+        <translation>Επεξεργασία εδώ</translation>
+    </message>
+    <message>
+        <source>Translate</source>
+        <translation>Μετάφραση</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>Μεταφράσεις</translation>
+    </message>
+    <message>
+        <source>Sites</source>
+        <translation>Ιστότοποι</translation>
+    </message>
+    <message>
+        <source>This page</source>
+        <translation>Αυτή η σελίδα</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Εισερχόμενα</translation>
     </message>

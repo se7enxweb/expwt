@@ -708,6 +708,58 @@
         <translation>SEO</translation>
     </message>
     <message>
+        <source>Back to this site's language</source>
+        <translation>Daq Hol vIchegh</translation>
+    </message>
+    <message>
+        <source>This site</source>
+        <translation>Daq vam</translation>
+    </message>
+    <message>
+        <source>Not in the language of this site</source>
+        <translation>Daq vam Hol Daq ghItlhbe'</translation>
+    </message>
+    <message>
+        <source>Side by side</source>
+        <translation>retlh</translation>
+    </message>
+    <message>
+        <source>This page on other sites</source>
+        <translation>latlh Daqmey Daq nav vam</translation>
+    </message>
+    <message>
+        <source>There is no other site to show it on.</source>
+        <translation>'ar Daq latlh 'oSmeH tu'lu'be'.</translation>
+    </message>
+    <message>
+        <source>Main language</source>
+        <translation>Hol wa'DIch</translation>
+    </message>
+    <message>
+        <source>Not translated yet</source>
+        <translation>mughta'be' wej</translation>
+    </message>
+    <message>
+        <source>Edit here</source>
+        <translation>naDev choH</translation>
+    </message>
+    <message>
+        <source>Translate</source>
+        <translation>mugh</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>mughmey</translation>
+    </message>
+    <message>
+        <source>Sites</source>
+        <translation>Daqmey</translation>
+    </message>
+    <message>
+        <source>This page</source>
+        <translation>nav vam</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>QIn chu'</translation>
     </message>

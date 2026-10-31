@@ -708,6 +708,58 @@
         <translation>SEO</translation>
     </message>
     <message>
+        <source>Back to this site's language</source>
+        <translation>Rudi kwenye lugha ya tovuti hii</translation>
+    </message>
+    <message>
+        <source>This site</source>
+        <translation>Tovuti hii</translation>
+    </message>
+    <message>
+        <source>Not in the language of this site</source>
+        <translation>Si kwa lugha ya tovuti hii</translation>
+    </message>
+    <message>
+        <source>Side by side</source>
+        <translation>Ubavu kwa ubavu</translation>
+    </message>
+    <message>
+        <source>This page on other sites</source>
+        <translation>Ukurasa huu kwenye tovuti nyingine</translation>
+    </message>
+    <message>
+        <source>There is no other site to show it on.</source>
+        <translation>Hakuna tovuti nyingine ya kuuonyesha.</translation>
+    </message>
+    <message>
+        <source>Main language</source>
+        <translation>Lugha kuu</translation>
+    </message>
+    <message>
+        <source>Not translated yet</source>
+        <translation>Bado haujatafsiriwa</translation>
+    </message>
+    <message>
+        <source>Edit here</source>
+        <translation>Hariri hapa</translation>
+    </message>
+    <message>
+        <source>Translate</source>
+        <translation>Tafsiri</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>Tafsiri</translation>
+    </message>
+    <message>
+        <source>Sites</source>
+        <translation>Tovuti</translation>
+    </message>
+    <message>
+        <source>This page</source>
+        <translation>Ukurasa huu</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Kikasha</translation>
     </message>

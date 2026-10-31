@@ -708,6 +708,58 @@
         <translation>SEO</translation>
     </message>
     <message>
+        <source>Back to this site's language</source>
+        <translation>Volver a la llingua d'esti sitiu</translation>
+    </message>
+    <message>
+        <source>This site</source>
+        <translation>Esti sitiu</translation>
+    </message>
+    <message>
+        <source>Not in the language of this site</source>
+        <translation>Nun ta na llingua d'esti sitiu</translation>
+    </message>
+    <message>
+        <source>Side by side</source>
+        <translation>Llau a llau</translation>
+    </message>
+    <message>
+        <source>This page on other sites</source>
+        <translation>Esta páxina n'otros sitios</translation>
+    </message>
+    <message>
+        <source>There is no other site to show it on.</source>
+        <translation>Nun hai otru sitiu onde amosala.</translation>
+    </message>
+    <message>
+        <source>Main language</source>
+        <translation>Llingua principal</translation>
+    </message>
+    <message>
+        <source>Not translated yet</source>
+        <translation>Ensin traducir entá</translation>
+    </message>
+    <message>
+        <source>Edit here</source>
+        <translation>Editar equí</translation>
+    </message>
+    <message>
+        <source>Translate</source>
+        <translation>Traducir</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>Traducciones</translation>
+    </message>
+    <message>
+        <source>Sites</source>
+        <translation>Sitios</translation>
+    </message>
+    <message>
+        <source>This page</source>
+        <translation>Esta páxina</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Bandexa d'entrada</translation>
     </message>

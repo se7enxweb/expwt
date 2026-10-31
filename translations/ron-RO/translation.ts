@@ -708,6 +708,58 @@
         <translation>SEO</translation>
     </message>
     <message>
+        <source>Back to this site's language</source>
+        <translation>Înapoi la limba acestui site</translation>
+    </message>
+    <message>
+        <source>This site</source>
+        <translation>Acest site</translation>
+    </message>
+    <message>
+        <source>Not in the language of this site</source>
+        <translation>Nu este în limba acestui site</translation>
+    </message>
+    <message>
+        <source>Side by side</source>
+        <translation>Alăturat</translation>
+    </message>
+    <message>
+        <source>This page on other sites</source>
+        <translation>Această pagină pe alte site-uri</translation>
+    </message>
+    <message>
+        <source>There is no other site to show it on.</source>
+        <translation>Nu există alt site pe care să fie afișată.</translation>
+    </message>
+    <message>
+        <source>Main language</source>
+        <translation>Limba principală</translation>
+    </message>
+    <message>
+        <source>Not translated yet</source>
+        <translation>Încă netradusă</translation>
+    </message>
+    <message>
+        <source>Edit here</source>
+        <translation>Editează aici</translation>
+    </message>
+    <message>
+        <source>Translate</source>
+        <translation>Traduce</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>Traduceri</translation>
+    </message>
+    <message>
+        <source>Sites</source>
+        <translation>Site-uri</translation>
+    </message>
+    <message>
+        <source>This page</source>
+        <translation>Această pagină</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Mesaje primite</translation>
     </message>

@@ -708,6 +708,58 @@
         <translation>SEO</translation>
     </message>
     <message>
+        <source>Back to this site's language</source>
+        <translation>یتھ سائٹس ہنٛز زبانہِ پؠٹھ واپس گژھیو</translation>
+    </message>
+    <message>
+        <source>This site</source>
+        <translation>یہ سائٹ</translation>
+    </message>
+    <message>
+        <source>Not in the language of this site</source>
+        <translation>یتھ سائٹس ہنٛزِ زبانہِ منٛز نہٕ</translation>
+    </message>
+    <message>
+        <source>Side by side</source>
+        <translation>اکھ اَکِس نِش</translation>
+    </message>
+    <message>
+        <source>This page on other sites</source>
+        <translation>بیٛیَن سائٹن پیٹھ یہ صفحہ</translation>
+    </message>
+    <message>
+        <source>There is no other site to show it on.</source>
+        <translation>ہاونہٕ خٲطرٕ چھنہٕ کانٛہہ بیٛیہِ سائٹ۔</translation>
+    </message>
+    <message>
+        <source>Main language</source>
+        <translation>اصل زبان</translation>
+    </message>
+    <message>
+        <source>Not translated yet</source>
+        <translation>وُنہِ چھُنہٕ ترجمہ کوٚرمُت</translation>
+    </message>
+    <message>
+        <source>Edit here</source>
+        <translation>یتِ کٔرِو ترمیم</translation>
+    </message>
+    <message>
+        <source>Translate</source>
+        <translation>ترجمہ کٔرِو</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>ترجمٕے</translation>
+    </message>
+    <message>
+        <source>Sites</source>
+        <translation>سائٹہٕ</translation>
+    </message>
+    <message>
+        <source>This page</source>
+        <translation>یہ صفحہ</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>اِنباکس</translation>
     </message>

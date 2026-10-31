@@ -708,6 +708,58 @@
         <translation>SEO</translation>
     </message>
     <message>
+        <source>Back to this site's language</source>
+        <translation>Hiverina amin'ny fitenin'ity tranonkala ity</translation>
+    </message>
+    <message>
+        <source>This site</source>
+        <translation>Ity tranonkala ity</translation>
+    </message>
+    <message>
+        <source>Not in the language of this site</source>
+        <translation>Tsy amin'ny fitenin'ity tranonkala ity</translation>
+    </message>
+    <message>
+        <source>Side by side</source>
+        <translation>Mifanila</translation>
+    </message>
+    <message>
+        <source>This page on other sites</source>
+        <translation>Ity pejy ity amin'ny tranonkala hafa</translation>
+    </message>
+    <message>
+        <source>There is no other site to show it on.</source>
+        <translation>Tsy misy tranonkala hafa hanehoana azy.</translation>
+    </message>
+    <message>
+        <source>Main language</source>
+        <translation>Fiteny fototra</translation>
+    </message>
+    <message>
+        <source>Not translated yet</source>
+        <translation>Mbola tsy voadika</translation>
+    </message>
+    <message>
+        <source>Edit here</source>
+        <translation>Ovay eto</translation>
+    </message>
+    <message>
+        <source>Translate</source>
+        <translation>Adikao</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>Dika</translation>
+    </message>
+    <message>
+        <source>Sites</source>
+        <translation>Tranonkala</translation>
+    </message>
+    <message>
+        <source>This page</source>
+        <translation>Ity pejy ity</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Boaty fandraisana</translation>
     </message>

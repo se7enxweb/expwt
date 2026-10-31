@@ -708,6 +708,58 @@
         <translation>SEO</translation>
     </message>
     <message>
+        <source>Back to this site's language</source>
+        <translation>Ddayo ku lulimi lw'omukutu guno</translation>
+    </message>
+    <message>
+        <source>This site</source>
+        <translation>Omukutu guno</translation>
+    </message>
+    <message>
+        <source>Not in the language of this site</source>
+        <translation>Si mu lulimi lw'omukutu guno</translation>
+    </message>
+    <message>
+        <source>Side by side</source>
+        <translation>Ludda ku ludda</translation>
+    </message>
+    <message>
+        <source>This page on other sites</source>
+        <translation>Olupapula luno ku mikutu emirala</translation>
+    </message>
+    <message>
+        <source>There is no other site to show it on.</source>
+        <translation>Tewali mukutu mulala kwe gulagibwa.</translation>
+    </message>
+    <message>
+        <source>Main language</source>
+        <translation>Olulimi olukulu</translation>
+    </message>
+    <message>
+        <source>Not translated yet</source>
+        <translation>Tekinnavvuunulwa</translation>
+    </message>
+    <message>
+        <source>Edit here</source>
+        <translation>Kyusa wano</translation>
+    </message>
+    <message>
+        <source>Translate</source>
+        <translation>Vvuunula</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>Enzivvuunula</translation>
+    </message>
+    <message>
+        <source>Sites</source>
+        <translation>Emikutu</translation>
+    </message>
+    <message>
+        <source>This page</source>
+        <translation>Olupapula luno</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Ebibaluwa ebiyingira</translation>
     </message>

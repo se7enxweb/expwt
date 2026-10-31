@@ -708,6 +708,58 @@
         <translation>SEO</translation>
     </message>
     <message>
+        <source>Back to this site's language</source>
+        <translation>Bumalik sa wika ng site na ito</translation>
+    </message>
+    <message>
+        <source>This site</source>
+        <translation>Ang site na ito</translation>
+    </message>
+    <message>
+        <source>Not in the language of this site</source>
+        <translation>Wala sa wika ng site na ito</translation>
+    </message>
+    <message>
+        <source>Side by side</source>
+        <translation>Magkatabi</translation>
+    </message>
+    <message>
+        <source>This page on other sites</source>
+        <translation>Ang pahinang ito sa ibang mga site</translation>
+    </message>
+    <message>
+        <source>There is no other site to show it on.</source>
+        <translation>Walang ibang site na mapagpapakitaan nito.</translation>
+    </message>
+    <message>
+        <source>Main language</source>
+        <translation>Pangunahing wika</translation>
+    </message>
+    <message>
+        <source>Not translated yet</source>
+        <translation>Hindi pa naisasalin</translation>
+    </message>
+    <message>
+        <source>Edit here</source>
+        <translation>I-edit dito</translation>
+    </message>
+    <message>
+        <source>Translate</source>
+        <translation>Isalin</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>Mga salin</translation>
+    </message>
+    <message>
+        <source>Sites</source>
+        <translation>Mga site</translation>
+    </message>
+    <message>
+        <source>This page</source>
+        <translation>Ang pahinang ito</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Inbox</translation>
     </message>

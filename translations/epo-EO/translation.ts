@@ -708,6 +708,58 @@
         <translation>SEO</translation>
     </message>
     <message>
+        <source>Back to this site's language</source>
+        <translation>Reen al la lingvo de ĉi tiu retejo</translation>
+    </message>
+    <message>
+        <source>This site</source>
+        <translation>Ĉi tiu retejo</translation>
+    </message>
+    <message>
+        <source>Not in the language of this site</source>
+        <translation>Ne en la lingvo de ĉi tiu retejo</translation>
+    </message>
+    <message>
+        <source>Side by side</source>
+        <translation>Flank-al-flanke</translation>
+    </message>
+    <message>
+        <source>This page on other sites</source>
+        <translation>Ĉi tiu paĝo en aliaj retejoj</translation>
+    </message>
+    <message>
+        <source>There is no other site to show it on.</source>
+        <translation>Ne estas alia retejo por montri ĝin.</translation>
+    </message>
+    <message>
+        <source>Main language</source>
+        <translation>Ĉefa lingvo</translation>
+    </message>
+    <message>
+        <source>Not translated yet</source>
+        <translation>Ankoraŭ ne tradukita</translation>
+    </message>
+    <message>
+        <source>Edit here</source>
+        <translation>Redakti ĉi tie</translation>
+    </message>
+    <message>
+        <source>Translate</source>
+        <translation>Traduki</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>Tradukoj</translation>
+    </message>
+    <message>
+        <source>Sites</source>
+        <translation>Retejoj</translation>
+    </message>
+    <message>
+        <source>This page</source>
+        <translation>Ĉi tiu paĝo</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Enirkesto</translation>
     </message>

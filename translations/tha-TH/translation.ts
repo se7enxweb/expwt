@@ -708,6 +708,58 @@
         <translation>SEO</translation>
     </message>
     <message>
+        <source>Back to this site's language</source>
+        <translation>กลับไปยังภาษาของเว็บไซต์นี้</translation>
+    </message>
+    <message>
+        <source>This site</source>
+        <translation>เว็บไซต์นี้</translation>
+    </message>
+    <message>
+        <source>Not in the language of this site</source>
+        <translation>ไม่ได้อยู่ในภาษาของเว็บไซต์นี้</translation>
+    </message>
+    <message>
+        <source>Side by side</source>
+        <translation>เคียงข้างกัน</translation>
+    </message>
+    <message>
+        <source>This page on other sites</source>
+        <translation>หน้านี้บนเว็บไซต์อื่น</translation>
+    </message>
+    <message>
+        <source>There is no other site to show it on.</source>
+        <translation>ไม่มีเว็บไซต์อื่นที่จะแสดงหน้านี้</translation>
+    </message>
+    <message>
+        <source>Main language</source>
+        <translation>ภาษาหลัก</translation>
+    </message>
+    <message>
+        <source>Not translated yet</source>
+        <translation>ยังไม่ได้แปล</translation>
+    </message>
+    <message>
+        <source>Edit here</source>
+        <translation>แก้ไขที่นี่</translation>
+    </message>
+    <message>
+        <source>Translate</source>
+        <translation>แปล</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>คำแปล</translation>
+    </message>
+    <message>
+        <source>Sites</source>
+        <translation>เว็บไซต์</translation>
+    </message>
+    <message>
+        <source>This page</source>
+        <translation>หน้านี้</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>กล่องขาเข้า</translation>
     </message>

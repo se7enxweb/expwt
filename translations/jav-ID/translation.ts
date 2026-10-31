@@ -708,6 +708,58 @@
         <translation>SEO</translation>
     </message>
     <message>
+        <source>Back to this site's language</source>
+        <translation>Bali menyang basa situs iki</translation>
+    </message>
+    <message>
+        <source>This site</source>
+        <translation>Situs iki</translation>
+    </message>
+    <message>
+        <source>Not in the language of this site</source>
+        <translation>Ora nganggo basa situs iki</translation>
+    </message>
+    <message>
+        <source>Side by side</source>
+        <translation>Jèjèr</translation>
+    </message>
+    <message>
+        <source>This page on other sites</source>
+        <translation>Kaca iki ing situs liya</translation>
+    </message>
+    <message>
+        <source>There is no other site to show it on.</source>
+        <translation>Ora ana situs liya kanggo nuduhaké.</translation>
+    </message>
+    <message>
+        <source>Main language</source>
+        <translation>Basa utama</translation>
+    </message>
+    <message>
+        <source>Not translated yet</source>
+        <translation>Durung diterjemahaké</translation>
+    </message>
+    <message>
+        <source>Edit here</source>
+        <translation>Sunting ing kéné</translation>
+    </message>
+    <message>
+        <source>Translate</source>
+        <translation>Terjemahaké</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>Terjemahan</translation>
+    </message>
+    <message>
+        <source>Sites</source>
+        <translation>Situs</translation>
+    </message>
+    <message>
+        <source>This page</source>
+        <translation>Kaca iki</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Kothak mlebu</translation>
     </message>

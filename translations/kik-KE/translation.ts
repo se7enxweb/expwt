@@ -708,6 +708,58 @@
         <translation>SEO</translation>
     </message>
     <message>
+        <source>Back to this site's language</source>
+        <translation>Cooka rũthiomi-inĩ rwa thaiti ĩno</translation>
+    </message>
+    <message>
+        <source>This site</source>
+        <translation>Thaiti ĩno</translation>
+    </message>
+    <message>
+        <source>Not in the language of this site</source>
+        <translation>Ti rũthiomi-inĩ rwa thaiti ĩno</translation>
+    </message>
+    <message>
+        <source>Side by side</source>
+        <translation>Mbaru na mbaru</translation>
+    </message>
+    <message>
+        <source>This page on other sites</source>
+        <translation>Ũrũa rũrũ kũrĩ thaiti ingĩ</translation>
+    </message>
+    <message>
+        <source>There is no other site to show it on.</source>
+        <translation>Gũtirĩ thaiti ĩngĩ ya kũruonania.</translation>
+    </message>
+    <message>
+        <source>Main language</source>
+        <translation>Rũthiomi rũnene</translation>
+    </message>
+    <message>
+        <source>Not translated yet</source>
+        <translation>Rũtirĩ rwatauruo</translation>
+    </message>
+    <message>
+        <source>Edit here</source>
+        <translation>Cenjia haha</translation>
+    </message>
+    <message>
+        <source>Translate</source>
+        <translation>Taũra</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>Matauri</translation>
+    </message>
+    <message>
+        <source>Sites</source>
+        <translation>Thaiti</translation>
+    </message>
+    <message>
+        <source>This page</source>
+        <translation>Ũrũa rũrũ</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Ithandũkũ rĩa marũa</translation>
     </message>

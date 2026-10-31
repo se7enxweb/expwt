@@ -708,6 +708,58 @@
         <translation>SEO</translation>
     </message>
     <message>
+        <source>Back to this site's language</source>
+        <translation>Aftur í tungumál þessa vefs</translation>
+    </message>
+    <message>
+        <source>This site</source>
+        <translation>Þessi vefur</translation>
+    </message>
+    <message>
+        <source>Not in the language of this site</source>
+        <translation>Ekki á tungumáli þessa vefs</translation>
+    </message>
+    <message>
+        <source>Side by side</source>
+        <translation>Hlið við hlið</translation>
+    </message>
+    <message>
+        <source>This page on other sites</source>
+        <translation>Þessi síða á öðrum vefjum</translation>
+    </message>
+    <message>
+        <source>There is no other site to show it on.</source>
+        <translation>Það er enginn annar vefur til að sýna hana á.</translation>
+    </message>
+    <message>
+        <source>Main language</source>
+        <translation>Aðaltungumál</translation>
+    </message>
+    <message>
+        <source>Not translated yet</source>
+        <translation>Ekki þýtt enn</translation>
+    </message>
+    <message>
+        <source>Edit here</source>
+        <translation>Breyta hér</translation>
+    </message>
+    <message>
+        <source>Translate</source>
+        <translation>Þýða</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>Þýðingar</translation>
+    </message>
+    <message>
+        <source>Sites</source>
+        <translation>Vefir</translation>
+    </message>
+    <message>
+        <source>This page</source>
+        <translation>Þessi síða</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Innhólf</translation>
     </message>

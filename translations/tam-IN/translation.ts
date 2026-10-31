@@ -708,6 +708,58 @@
         <translation>SEO</translation>
     </message>
     <message>
+        <source>Back to this site's language</source>
+        <translation>இந்தத் தளத்தின் மொழிக்குத் திரும்பு</translation>
+    </message>
+    <message>
+        <source>This site</source>
+        <translation>இந்தத் தளம்</translation>
+    </message>
+    <message>
+        <source>Not in the language of this site</source>
+        <translation>இந்தத் தளத்தின் மொழியில் இல்லை</translation>
+    </message>
+    <message>
+        <source>Side by side</source>
+        <translation>அருகருகே</translation>
+    </message>
+    <message>
+        <source>This page on other sites</source>
+        <translation>பிற தளங்களில் இந்தப் பக்கம்</translation>
+    </message>
+    <message>
+        <source>There is no other site to show it on.</source>
+        <translation>இதைக் காட்ட வேறு தளம் இல்லை.</translation>
+    </message>
+    <message>
+        <source>Main language</source>
+        <translation>முதன்மை மொழி</translation>
+    </message>
+    <message>
+        <source>Not translated yet</source>
+        <translation>இன்னும் மொழிபெயர்க்கப்படவில்லை</translation>
+    </message>
+    <message>
+        <source>Edit here</source>
+        <translation>இங்கே திருத்து</translation>
+    </message>
+    <message>
+        <source>Translate</source>
+        <translation>மொழிபெயர்</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>மொழிபெயர்ப்புகள்</translation>
+    </message>
+    <message>
+        <source>Sites</source>
+        <translation>தளங்கள்</translation>
+    </message>
+    <message>
+        <source>This page</source>
+        <translation>இந்தப் பக்கம்</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>உள்பெட்டி</translation>
     </message>

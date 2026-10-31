@@ -708,6 +708,58 @@
         <translation>SEO</translation>
     </message>
     <message>
+        <source>Back to this site's language</source>
+        <translation>هن سائيٽ جي ٻوليءَ ڏانهن موٽو</translation>
+    </message>
+    <message>
+        <source>This site</source>
+        <translation>هي سائيٽ</translation>
+    </message>
+    <message>
+        <source>Not in the language of this site</source>
+        <translation>هن سائيٽ جي ٻوليءَ ۾ ناهي</translation>
+    </message>
+    <message>
+        <source>Side by side</source>
+        <translation>پاسي پاسي</translation>
+    </message>
+    <message>
+        <source>This page on other sites</source>
+        <translation>ٻين سائيٽن تي هي صفحو</translation>
+    </message>
+    <message>
+        <source>There is no other site to show it on.</source>
+        <translation>ان کي ڏيکارڻ لاءِ ٻي ڪا سائيٽ ناهي.</translation>
+    </message>
+    <message>
+        <source>Main language</source>
+        <translation>مکيه ٻولي</translation>
+    </message>
+    <message>
+        <source>Not translated yet</source>
+        <translation>اڃا ترجمو نه ٿيو آهي</translation>
+    </message>
+    <message>
+        <source>Edit here</source>
+        <translation>هتي سنواريو</translation>
+    </message>
+    <message>
+        <source>Translate</source>
+        <translation>ترجمو ڪريو</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>ترجما</translation>
+    </message>
+    <message>
+        <source>Sites</source>
+        <translation>سائيٽون</translation>
+    </message>
+    <message>
+        <source>This page</source>
+        <translation>هي صفحو</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>آيل خط</translation>
     </message>

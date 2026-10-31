@@ -708,6 +708,58 @@
         <translation>SEO</translation>
     </message>
     <message>
+        <source>Back to this site's language</source>
+        <translation>Subira ku rurimi rw'uru rubuga</translation>
+    </message>
+    <message>
+        <source>This site</source>
+        <translation>Uru rubuga</translation>
+    </message>
+    <message>
+        <source>Not in the language of this site</source>
+        <translation>Ntiri mu rurimi rw'uru rubuga</translation>
+    </message>
+    <message>
+        <source>Side by side</source>
+        <translation>Bibangikanye</translation>
+    </message>
+    <message>
+        <source>This page on other sites</source>
+        <translation>Uru rupapuro ku zindi mbuga</translation>
+    </message>
+    <message>
+        <source>There is no other site to show it on.</source>
+        <translation>Nta rundi rubuga rwo kurwerekanirako.</translation>
+    </message>
+    <message>
+        <source>Main language</source>
+        <translation>Ururimi nyamukuru</translation>
+    </message>
+    <message>
+        <source>Not translated yet</source>
+        <translation>Ntirurahindurwa</translation>
+    </message>
+    <message>
+        <source>Edit here</source>
+        <translation>Hindura ng'aha</translation>
+    </message>
+    <message>
+        <source>Translate</source>
+        <translation>Hindura mu rundi rurimi</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>Ihindurwa</translation>
+    </message>
+    <message>
+        <source>Sites</source>
+        <translation>Imbuga</translation>
+    </message>
+    <message>
+        <source>This page</source>
+        <translation>Uru rupapuro</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Ubutumwa bwinjira</translation>
     </message>

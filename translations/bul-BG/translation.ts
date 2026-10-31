@@ -708,6 +708,58 @@
         <translation>SEO</translation>
     </message>
     <message>
+        <source>Back to this site's language</source>
+        <translation>Обратно към езика на този сайт</translation>
+    </message>
+    <message>
+        <source>This site</source>
+        <translation>Този сайт</translation>
+    </message>
+    <message>
+        <source>Not in the language of this site</source>
+        <translation>Не е на езика на този сайт</translation>
+    </message>
+    <message>
+        <source>Side by side</source>
+        <translation>Една до друга</translation>
+    </message>
+    <message>
+        <source>This page on other sites</source>
+        <translation>Тази страница в други сайтове</translation>
+    </message>
+    <message>
+        <source>There is no other site to show it on.</source>
+        <translation>Няма друг сайт, на който да се покаже.</translation>
+    </message>
+    <message>
+        <source>Main language</source>
+        <translation>Основен език</translation>
+    </message>
+    <message>
+        <source>Not translated yet</source>
+        <translation>Все още не е преведено</translation>
+    </message>
+    <message>
+        <source>Edit here</source>
+        <translation>Редактиране тук</translation>
+    </message>
+    <message>
+        <source>Translate</source>
+        <translation>Превод</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>Преводи</translation>
+    </message>
+    <message>
+        <source>Sites</source>
+        <translation>Сайтове</translation>
+    </message>
+    <message>
+        <source>This page</source>
+        <translation>Тази страница</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Входящи</translation>
     </message>
