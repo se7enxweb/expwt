@@ -844,6 +844,94 @@
         <translation>మీ ఇన్‌బాక్స్‌లో %n కొత్తవి</translation>
     </message>
     <message>
+        <source>Open the sidebar or go into it</source>
+        <translation>సైడ్‌బార్ తెరవండి లేదా దానిలోకి వెళ్లండి</translation>
+    </message>
+    <message>
+        <source>Save the draft</source>
+        <translation>డ్రాఫ్ట్ సేవ్ చేయండి</translation>
+    </message>
+    <message>
+        <source>Keyboard shortcuts</source>
+        <translation>కీబోర్డ్ షార్ట్‌కట్‌లు</translation>
+    </message>
+    <message>
+        <source>Use one letter, A to Z.</source>
+        <translation>ఒక అక్షరం ఉపయోగించండి, A నుండి Z.</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key belongs to the browser or the system.</source>
+        <translation>Alt+Shift+%key బ్రౌజర్‌కు లేదా సిస్టమ్‌కు చెందినది.</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key is taken: %action.</source>
+        <translation>Alt+Shift+%key ఇప్పటికే వాడుకలో ఉంది: %action.</translation>
+    </message>
+    <message>
+        <source>This page gives Alt+Shift+%key to one of its links: here the page wins.</source>
+        <translation>ఈ పేజీ Alt+Shift+%key ని తన ఒక లింక్‌కు ఇస్తుంది: ఇక్కడ పేజీయే గెలుస్తుంది.</translation>
+    </message>
+    <message>
+        <source>Saved.</source>
+        <translation>సేవ్ చేయబడింది.</translation>
+    </message>
+    <message>
+        <source>Back to the defaults</source>
+        <translation>డిఫాల్ట్‌లకు తిరిగి వెళ్లండి</translation>
+    </message>
+    <message>
+        <source>All shortcuts</source>
+        <translation>అన్ని షార్ట్‌కట్‌లు</translation>
+    </message>
+    <message>
+        <source>This page uses this key for one of its links: here the page wins.</source>
+        <translation>ఈ పేజీ ఈ కీని తన ఒక లింక్ కోసం ఉపయోగిస్తుంది: ఇక్కడ పేజీయే గెలుస్తుంది.</translation>
+    </message>
+    <message>
+        <source>Panel: %name</source>
+        <translation>ప్యానెల్: %name</translation>
+    </message>
+    <message>
+        <source>Open the sidebar</source>
+        <translation>సైడ్‌బార్ తెరవండి</translation>
+    </message>
+    <message>
+        <source>Move the tab along its edge, or to the opposite edge</source>
+        <translation>ట్యాబ్‌ను దాని అంచు వెంట లేదా ఎదురు అంచుకు కదిలించండి</translation>
+    </message>
+    <message>
+        <source>Bigger steps</source>
+        <translation>పెద్ద అడుగులు</translation>
+    </message>
+    <message>
+        <source>Dock to that edge</source>
+        <translation>ఆ అంచుకు జోడించండి</translation>
+    </message>
+    <message>
+        <source>Go round the edges</source>
+        <translation>అంచుల చుట్టూ వెళ్లండి</translation>
+    </message>
+    <message>
+        <source>To the start or the end of the edge</source>
+        <translation>అంచు ప్రారంభానికి లేదా ముగింపుకు</translation>
+    </message>
+    <message>
+        <source>On the tab</source>
+        <translation>ట్యాబ్‌పై</translation>
+    </message>
+    <message>
+        <source>On a Mac, Option+Shift with a letter types a character in a text field: there the field gets it.</source>
+        <translation>Mac లో, అక్షరంతో Option+Shift టెక్స్ట్ ఫీల్డ్‌లో ఒక అక్షరచిహ్నాన్ని టైప్ చేస్తుంది: అక్కడ ఫీల్డ్‌కు అది అందుతుంది.</translation>
+    </message>
+    <message>
+        <source>Change them in the Me panel</source>
+        <translation>వాటిని «నేను» ప్యానెల్‌లో మార్చండి</translation>
+    </message>
+    <message>
+        <source>Open the Page panel to save its draft.</source>
+        <translation>దాని డ్రాఫ్ట్ సేవ్ చేయడానికి «పేజీ» ప్యానెల్ తెరవండి.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>ఇన్‌బాక్స్</translation>
     </message>

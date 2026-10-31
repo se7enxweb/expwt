@@ -844,6 +844,94 @@
         <translation>%n ߞߎߘߊ ߌ ߟߊ߫ ߓߊ߬ߕߊ߫ ߘߏ߲߬ߠߌ ߘߐ߫</translation>
     </message>
     <message>
+        <source>Open the sidebar or go into it</source>
+        <translation>ߞߙߊߓߊ߯ߙߊ ߟߊߞߊ߬ ߥߟߊ߫ ߘߏ߲߬ ߊ߬ ߞߣߐ߫</translation>
+    </message>
+    <message>
+        <source>Save the draft</source>
+        <translation>ߓߙߎߦߐ߲ ߡߊߙߊ߫</translation>
+    </message>
+    <message>
+        <source>Keyboard shortcuts</source>
+        <translation>ߞߟߊߒ ߛߌߟߊ߫ ߘߎ߲ߞߎߙߎ߲ߣߍ߲ ߠߎ߬</translation>
+    </message>
+    <message>
+        <source>Use one letter, A to Z.</source>
+        <translation>ߛߓߍߘߋ߲߫ ߞߋߟߋ߲߫ ߠߊߓߊ߯ߙߊ߫߸ A ߝߊ߯ Z.</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key belongs to the browser or the system.</source>
+        <translation>Alt+Shift+%key ߦߋ߫ ߓߙߎߛߍߙ ߥߟߊ߫ ߛߌߛߕߍߡߎ ߕߊ ߟߋ߬ ߘߌ߫.</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key is taken: %action.</source>
+        <translation>Alt+Shift+%key ߓߘߊ߫ ߡߊߛߐ߬ߘߐ߲߬: %action.</translation>
+    </message>
+    <message>
+        <source>This page gives Alt+Shift+%key to one of its links: here the page wins.</source>
+        <translation>ߞߐߜ߳ߍ ߣߌ߲߬ ߦߋ߫ Alt+Shift+%key ߘߌ߫ ߊ߬ ߟߊ߫ ߛߘߌ߬ߜߋ߲ ߞߋߟߋ߲߫ ߡߊ߬: ߦߊ߲߬ ߞߐߜ߳ߍ ߟߋ߬ ߦߋ߫ ߛߐ߲߬.</translation>
+    </message>
+    <message>
+        <source>Saved.</source>
+        <translation>ߊ߬ ߡߊߙߊߣߍ߲߫.</translation>
+    </message>
+    <message>
+        <source>Back to the defaults</source>
+        <translation>ߛߋ߬ߦߌ߲߬ ߝߐߟߊ߫ ߟߎ߬ ߡߊ߬</translation>
+    </message>
+    <message>
+        <source>All shortcuts</source>
+        <translation>ߛߌߟߊ߫ ߘߎ߲ߞߎߙߎ߲ߣߍ߲ ߠߎ߬ ߓߍ߯</translation>
+    </message>
+    <message>
+        <source>This page uses this key for one of its links: here the page wins.</source>
+        <translation>ߞߐߜ߳ߍ ߣߌ߲߬ ߦߋ߫ ߞߟߊߒ ߣߌ߲߬ ߠߊߓߊ߯ߙߊ߫ ߊ߬ ߟߊ߫ ߛߘߌ߬ߜߋ߲ ߞߋߟߋ߲߫ ߘߐ߫: ߦߊ߲߬ ߞߐߜ߳ߍ ߟߋ߬ ߦߋ߫ ߛߐ߲߬.</translation>
+    </message>
+    <message>
+        <source>Panel: %name</source>
+        <translation>ߥߊ߲ߞߊ߲: %name</translation>
+    </message>
+    <message>
+        <source>Open the sidebar</source>
+        <translation>ߞߙߊߓߊ߯ߙߊ ߟߊߞߊ߬</translation>
+    </message>
+    <message>
+        <source>Move the tab along its edge, or to the opposite edge</source>
+        <translation>ߕߊߓ ߟߊߥߎߟߌ߫ ߊ߬ ߘߊ߲߫ ߞߊ߲߬߸ ߥߟߊ߫ ߘߊ߲߫ ߢߍߛߊ߬ߓߊ߬ߟߌ߲ ߡߊ߬</translation>
+    </message>
+    <message>
+        <source>Bigger steps</source>
+        <translation>ߛߋ߲߬ߠߊ߬ߘߐ߬ߓߐ߬ ߓߟߏߓߊ ߟߎ߬</translation>
+    </message>
+    <message>
+        <source>Dock to that edge</source>
+        <translation>ߊ߬ ߘߐߓߍ߲߬ ߘߊ߲߫ ߏ߬ ߟߊ߫</translation>
+    </message>
+    <message>
+        <source>Go round the edges</source>
+        <translation>ߘߊ߲ ߠߎ߬ ߟߊߡߌ߲߬</translation>
+    </message>
+    <message>
+        <source>To the start or the end of the edge</source>
+        <translation>ߘߊ߲ ߘߊߝߟߍ߬ ߥߟߊ߫ ߊ߬ ߟߊߓߊ߲ ߡߊ߬</translation>
+    </message>
+    <message>
+        <source>On the tab</source>
+        <translation>ߕߊߓ ߞߊ߲߬</translation>
+    </message>
+    <message>
+        <source>On a Mac, Option+Shift with a letter types a character in a text field: there the field gets it.</source>
+        <translation>Mac ߞߊ߲߬߸ Option+Shift ߣߌ߫ ߛߓߍߘߋ߲߫ ߦߋ߫ ߕߊ߯ߡߊ߲߫ ߛߓߍ߫ ߛߓߍߦߌߟߊ ߘߐ߫: ߏ߬ ߘߐ߫ ߛߓߍߦߌߟߊ ߟߋ߬ ߦߋ߫ ߊ߬ ߛߐ߬ߘߐ߲߬.</translation>
+    </message>
+    <message>
+        <source>Change them in the Me panel</source>
+        <translation>ߊ߬ ߟߎ߬ ߡߊߝߊߟߋ߲߫ «ߒ» ߥߊ߲ߞߊ߲ ߘߐ߫</translation>
+    </message>
+    <message>
+        <source>Open the Page panel to save its draft.</source>
+        <translation>«ߞߐߜ߳ߍ» ߥߊ߲ߞߊ߲ ߟߊߞߊ߬ ߞߊ߬ ߊ߬ ߟߊ߫ ߓߙߎߦߐ߲ ߡߊߙߊ߫.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>ߓߊ߬ߕߊ߫ ߘߏ߲߬ߠߌ</translation>
     </message>

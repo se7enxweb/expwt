@@ -844,6 +844,94 @@
         <translation>كىرگەنلىرىڭىزدە %n يېڭى</translation>
     </message>
     <message>
+        <source>Open the sidebar or go into it</source>
+        <translation>يان ستوننى ئېچىش ياكى ئۇنىڭغا كىرىش</translation>
+    </message>
+    <message>
+        <source>Save the draft</source>
+        <translation>ئارگىنالنى ساقلاش</translation>
+    </message>
+    <message>
+        <source>Keyboard shortcuts</source>
+        <translation>كۇنۇپكا تاختىسى تېزلەتمىلىرى</translation>
+    </message>
+    <message>
+        <source>Use one letter, A to Z.</source>
+        <translation>بىر ھەرپ ئىشلىتىڭ، A دىن Z غىچە.</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key belongs to the browser or the system.</source>
+        <translation>Alt+Shift+%key توركۆرگۈچ ياكى سىستېمىغا تەۋە.</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key is taken: %action.</source>
+        <translation>Alt+Shift+%key ئاللىقاچان ئىگىلەنگەن: %action.</translation>
+    </message>
+    <message>
+        <source>This page gives Alt+Shift+%key to one of its links: here the page wins.</source>
+        <translation>بۇ بەت Alt+Shift+%key نى ئۇلانمىلىرىنىڭ بىرىگە بېرىدۇ: بۇ يەردە بەت ئۇتىدۇ.</translation>
+    </message>
+    <message>
+        <source>Saved.</source>
+        <translation>ساقلاندى.</translation>
+    </message>
+    <message>
+        <source>Back to the defaults</source>
+        <translation>كۆڭۈلدىكىگە قايتىش</translation>
+    </message>
+    <message>
+        <source>All shortcuts</source>
+        <translation>بارلىق تېزلەتمىلەر</translation>
+    </message>
+    <message>
+        <source>This page uses this key for one of its links: here the page wins.</source>
+        <translation>بۇ بەت بۇ كۇنۇپكىنى ئۇلانمىلىرىنىڭ بىرى ئۈچۈن ئىشلىتىدۇ: بۇ يەردە بەت ئۇتىدۇ.</translation>
+    </message>
+    <message>
+        <source>Panel: %name</source>
+        <translation>تاختا: %name</translation>
+    </message>
+    <message>
+        <source>Open the sidebar</source>
+        <translation>يان ستوننى ئېچىش</translation>
+    </message>
+    <message>
+        <source>Move the tab along its edge, or to the opposite edge</source>
+        <translation>بەتكۈچنى گىرۋىكى بويلاپ ياكى قارشى گىرۋەككە يۆتكەش</translation>
+    </message>
+    <message>
+        <source>Bigger steps</source>
+        <translation>چوڭراق قەدەملەر</translation>
+    </message>
+    <message>
+        <source>Dock to that edge</source>
+        <translation>شۇ گىرۋەككە مۇقىملاش</translation>
+    </message>
+    <message>
+        <source>Go round the edges</source>
+        <translation>گىرۋەكلەرنى ئايلىنىش</translation>
+    </message>
+    <message>
+        <source>To the start or the end of the edge</source>
+        <translation>گىرۋەكنىڭ بېشى ياكى ئاخىرىغا</translation>
+    </message>
+    <message>
+        <source>On the tab</source>
+        <translation>بەتكۈچتە</translation>
+    </message>
+    <message>
+        <source>On a Mac, Option+Shift with a letter types a character in a text field: there the field gets it.</source>
+        <translation>Mac دا Option+Shift ھەرپ بىلەن تېكىست بۆلىكىگە بىر ھەرپ يازىدۇ: ئۇ يەردە ئۇنى بۆلەك ئالىدۇ.</translation>
+    </message>
+    <message>
+        <source>Change them in the Me panel</source>
+        <translation>ئۇلارنى «مەن» تاختىسىدا ئۆزگەرتىڭ</translation>
+    </message>
+    <message>
+        <source>Open the Page panel to save its draft.</source>
+        <translation>ئارگىنالىنى ساقلاش ئۈچۈن «بەت» تاختىسىنى ئېچىڭ.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>كىرگەنلەر</translation>
     </message>

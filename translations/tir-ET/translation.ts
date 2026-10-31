@@ -844,6 +844,94 @@
         <translation>ኣብ ዝኣተዉ ናትካ %n ሓድሽ</translation>
     </message>
     <message>
+        <source>Open the sidebar or go into it</source>
+        <translation>ናይ ጎኒ መቓን ክፈት ወይ ናብኡ እቶ</translation>
+    </message>
+    <message>
+        <source>Save the draft</source>
+        <translation>ንድፊ ዓቅብ</translation>
+    </message>
+    <message>
+        <source>Keyboard shortcuts</source>
+        <translation>ናይ መፍትሕ ሰሌዳ ሓጸርቲ መገዲ</translation>
+    </message>
+    <message>
+        <source>Use one letter, A to Z.</source>
+        <translation>ሓንቲ ፊደል ተጠቐም፣ ካብ A ክሳብ Z።</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key belongs to the browser or the system.</source>
+        <translation>Alt+Shift+%key ናይ መርበብ መቃኒ ወይ ናይ ስርዓት እዩ።</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key is taken: %action.</source>
+        <translation>Alt+Shift+%key ድሮ ተታሒዙ፦ %action።</translation>
+    </message>
+    <message>
+        <source>This page gives Alt+Shift+%key to one of its links: here the page wins.</source>
+        <translation>እዚ ገጽ Alt+Shift+%key ንሓደ ካብ መላግቦታቱ ይህብ፦ ኣብዚ ገጽ ይዕወት።</translation>
+    </message>
+    <message>
+        <source>Saved.</source>
+        <translation>ተቐሚጡ።</translation>
+    </message>
+    <message>
+        <source>Back to the defaults</source>
+        <translation>ናብ ንቡራት ተመለስ</translation>
+    </message>
+    <message>
+        <source>All shortcuts</source>
+        <translation>ኩሎም ሓጸርቲ መገዲ</translation>
+    </message>
+    <message>
+        <source>This page uses this key for one of its links: here the page wins.</source>
+        <translation>እዚ ገጽ ነዚ መፍትሕ ንሓደ ካብ መላግቦታቱ ይጥቀመሉ፦ ኣብዚ ገጽ ይዕወት።</translation>
+    </message>
+    <message>
+        <source>Panel: %name</source>
+        <translation>መቓን፦ %name</translation>
+    </message>
+    <message>
+        <source>Open the sidebar</source>
+        <translation>ናይ ጎኒ መቓን ክፈት</translation>
+    </message>
+    <message>
+        <source>Move the tab along its edge, or to the opposite edge</source>
+        <translation>ነቲ ታብ ኣብ ደረቱ ወይ ናብ ተጻራሪ ደረት ኣግዕዝ</translation>
+    </message>
+    <message>
+        <source>Bigger steps</source>
+        <translation>ዝዓበዩ ስጉምትታት</translation>
+    </message>
+    <message>
+        <source>Dock to that edge</source>
+        <translation>ኣብቲ ደረት ኣጣብቕ</translation>
+    </message>
+    <message>
+        <source>Go round the edges</source>
+        <translation>ደረታት ዙር</translation>
+    </message>
+    <message>
+        <source>To the start or the end of the edge</source>
+        <translation>ናብ መጀመርታ ወይ መወዳእታ ደረት</translation>
+    </message>
+    <message>
+        <source>On the tab</source>
+        <translation>ኣብ ታብ</translation>
+    </message>
+    <message>
+        <source>On a Mac, Option+Shift with a letter types a character in a text field: there the field gets it.</source>
+        <translation>ኣብ Mac፣ Option+Shift ምስ ፊደል ኣብ ናይ ጽሑፍ ቦታ ምልክት ይጽሕፍ፦ ኣብኡ እቲ ቦታ ይወስዶ።</translation>
+    </message>
+    <message>
+        <source>Change them in the Me panel</source>
+        <translation>ኣብ «ኣነ» መቓን ቀይሮም</translation>
+    </message>
+    <message>
+        <source>Open the Page panel to save its draft.</source>
+        <translation>ንድፊኡ ንምዕቃብ «ገጽ» መቓን ክፈት።</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>ዝኣተዉ</translation>
     </message>

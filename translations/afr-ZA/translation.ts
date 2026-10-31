@@ -844,6 +844,94 @@
         <translation>%n nuut in jou inkassie</translation>
     </message>
     <message>
+        <source>Open the sidebar or go into it</source>
+        <translation>Maak die kantbalk oop of gaan daarin</translation>
+    </message>
+    <message>
+        <source>Save the draft</source>
+        <translation>Stoor die konsep</translation>
+    </message>
+    <message>
+        <source>Keyboard shortcuts</source>
+        <translation>Sneltoetse</translation>
+    </message>
+    <message>
+        <source>Use one letter, A to Z.</source>
+        <translation>Gebruik een letter, A tot Z.</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key belongs to the browser or the system.</source>
+        <translation>Alt+Shift+%key behoort aan die blaaier of die stelsel.</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key is taken: %action.</source>
+        <translation>Alt+Shift+%key is reeds gebruik: %action.</translation>
+    </message>
+    <message>
+        <source>This page gives Alt+Shift+%key to one of its links: here the page wins.</source>
+        <translation>Hierdie bladsy gee Alt+Shift+%key aan een van sy skakels: hier wen die bladsy.</translation>
+    </message>
+    <message>
+        <source>Saved.</source>
+        <translation>Gestoor.</translation>
+    </message>
+    <message>
+        <source>Back to the defaults</source>
+        <translation>Terug na die verstekwaardes</translation>
+    </message>
+    <message>
+        <source>All shortcuts</source>
+        <translation>Alle sneltoetse</translation>
+    </message>
+    <message>
+        <source>This page uses this key for one of its links: here the page wins.</source>
+        <translation>Hierdie bladsy gebruik hierdie sleutel vir een van sy skakels: hier wen die bladsy.</translation>
+    </message>
+    <message>
+        <source>Panel: %name</source>
+        <translation>Paneel: %name</translation>
+    </message>
+    <message>
+        <source>Open the sidebar</source>
+        <translation>Maak die kantbalk oop</translation>
+    </message>
+    <message>
+        <source>Move the tab along its edge, or to the opposite edge</source>
+        <translation>Skuif die oortjie langs sy rand, of na die teenoorgestelde rand</translation>
+    </message>
+    <message>
+        <source>Bigger steps</source>
+        <translation>Groter treë</translation>
+    </message>
+    <message>
+        <source>Dock to that edge</source>
+        <translation>Dok aan daardie rand</translation>
+    </message>
+    <message>
+        <source>Go round the edges</source>
+        <translation>Gaan rondom die rande</translation>
+    </message>
+    <message>
+        <source>To the start or the end of the edge</source>
+        <translation>Na die begin of die einde van die rand</translation>
+    </message>
+    <message>
+        <source>On the tab</source>
+        <translation>Op die oortjie</translation>
+    </message>
+    <message>
+        <source>On a Mac, Option+Shift with a letter types a character in a text field: there the field gets it.</source>
+        <translation>Op 'n Mac tik Option+Shift met 'n letter 'n karakter in 'n teksveld: daar kry die veld dit.</translation>
+    </message>
+    <message>
+        <source>Change them in the Me panel</source>
+        <translation>Verander hulle in die Ek-paneel</translation>
+    </message>
+    <message>
+        <source>Open the Page panel to save its draft.</source>
+        <translation>Maak die Bladsy-paneel oop om sy konsep te stoor.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Inkassie</translation>
     </message>

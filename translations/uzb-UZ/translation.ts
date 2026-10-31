@@ -844,6 +844,94 @@
         <translation>Kiruvchilaringizda %n yangi</translation>
     </message>
     <message>
+        <source>Open the sidebar or go into it</source>
+        <translation>Yon panelni ochish yoki unga oʻtish</translation>
+    </message>
+    <message>
+        <source>Save the draft</source>
+        <translation>Qoralamani saqlash</translation>
+    </message>
+    <message>
+        <source>Keyboard shortcuts</source>
+        <translation>Klaviatura yorliqlari</translation>
+    </message>
+    <message>
+        <source>Use one letter, A to Z.</source>
+        <translation>Bitta harf ishlating, A dan Z gacha.</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key belongs to the browser or the system.</source>
+        <translation>Alt+Shift+%key brauzer yoki tizimga tegishli.</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key is taken: %action.</source>
+        <translation>Alt+Shift+%key band: %action.</translation>
+    </message>
+    <message>
+        <source>This page gives Alt+Shift+%key to one of its links: here the page wins.</source>
+        <translation>Bu sahifa Alt+Shift+%key ni havolalaridan biriga beradi: bu yerda sahifa yutadi.</translation>
+    </message>
+    <message>
+        <source>Saved.</source>
+        <translation>Saqlandi.</translation>
+    </message>
+    <message>
+        <source>Back to the defaults</source>
+        <translation>Standart holatga qaytish</translation>
+    </message>
+    <message>
+        <source>All shortcuts</source>
+        <translation>Barcha yorliqlar</translation>
+    </message>
+    <message>
+        <source>This page uses this key for one of its links: here the page wins.</source>
+        <translation>Bu sahifa bu tugmani havolalaridan biri uchun ishlatadi: bu yerda sahifa yutadi.</translation>
+    </message>
+    <message>
+        <source>Panel: %name</source>
+        <translation>Panel: %name</translation>
+    </message>
+    <message>
+        <source>Open the sidebar</source>
+        <translation>Yon panelni ochish</translation>
+    </message>
+    <message>
+        <source>Move the tab along its edge, or to the opposite edge</source>
+        <translation>Varaqchani cheti boʻylab yoki qarama-qarshi chetga surish</translation>
+    </message>
+    <message>
+        <source>Bigger steps</source>
+        <translation>Kattaroq qadamlar</translation>
+    </message>
+    <message>
+        <source>Dock to that edge</source>
+        <translation>Oʻsha chetga mahkamlash</translation>
+    </message>
+    <message>
+        <source>Go round the edges</source>
+        <translation>Chetlarni aylanib chiqish</translation>
+    </message>
+    <message>
+        <source>To the start or the end of the edge</source>
+        <translation>Chetning boshiga yoki oxiriga</translation>
+    </message>
+    <message>
+        <source>On the tab</source>
+        <translation>Varaqchada</translation>
+    </message>
+    <message>
+        <source>On a Mac, Option+Shift with a letter types a character in a text field: there the field gets it.</source>
+        <translation>Mac’da Option+Shift harf bilan matn maydoniga belgi yozadi: u yerda uni maydon oladi.</translation>
+    </message>
+    <message>
+        <source>Change them in the Me panel</source>
+        <translation>Ularni «Men» panelida oʻzgartiring</translation>
+    </message>
+    <message>
+        <source>Open the Page panel to save its draft.</source>
+        <translation>Qoralamasini saqlash uchun «Sahifa» panelini oching.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Kiruvchilar</translation>
     </message>

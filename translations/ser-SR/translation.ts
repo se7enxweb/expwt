@@ -844,6 +844,94 @@
         <translation>%n novih u prijemnom sandučetu</translation>
     </message>
     <message>
+        <source>Open the sidebar or go into it</source>
+        <translation>Otvori bočnu traku ili uđi u nju</translation>
+    </message>
+    <message>
+        <source>Save the draft</source>
+        <translation>Sačuvaj radnu verziju</translation>
+    </message>
+    <message>
+        <source>Keyboard shortcuts</source>
+        <translation>Prečice na tastaturi</translation>
+    </message>
+    <message>
+        <source>Use one letter, A to Z.</source>
+        <translation>Koristite jedno slovo, od A do Z.</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key belongs to the browser or the system.</source>
+        <translation>Alt+Shift+%key pripada pregledaču ili sistemu.</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key is taken: %action.</source>
+        <translation>Alt+Shift+%key je zauzeto: %action.</translation>
+    </message>
+    <message>
+        <source>This page gives Alt+Shift+%key to one of its links: here the page wins.</source>
+        <translation>Ova stranica daje Alt+Shift+%key jednoj od svojih veza: ovde stranica pobeđuje.</translation>
+    </message>
+    <message>
+        <source>Saved.</source>
+        <translation>Sačuvano.</translation>
+    </message>
+    <message>
+        <source>Back to the defaults</source>
+        <translation>Nazad na podrazumevano</translation>
+    </message>
+    <message>
+        <source>All shortcuts</source>
+        <translation>Sve prečice</translation>
+    </message>
+    <message>
+        <source>This page uses this key for one of its links: here the page wins.</source>
+        <translation>Ova stranica koristi ovaj taster za jednu od svojih veza: ovde stranica pobeđuje.</translation>
+    </message>
+    <message>
+        <source>Panel: %name</source>
+        <translation>Panel: %name</translation>
+    </message>
+    <message>
+        <source>Open the sidebar</source>
+        <translation>Otvori bočnu traku</translation>
+    </message>
+    <message>
+        <source>Move the tab along its edge, or to the opposite edge</source>
+        <translation>Pomeri jezičak duž njegove ivice ili na suprotnu ivicu</translation>
+    </message>
+    <message>
+        <source>Bigger steps</source>
+        <translation>Veći koraci</translation>
+    </message>
+    <message>
+        <source>Dock to that edge</source>
+        <translation>Pričvrsti uz tu ivicu</translation>
+    </message>
+    <message>
+        <source>Go round the edges</source>
+        <translation>Idi oko ivica</translation>
+    </message>
+    <message>
+        <source>To the start or the end of the edge</source>
+        <translation>Na početak ili kraj ivice</translation>
+    </message>
+    <message>
+        <source>On the tab</source>
+        <translation>Na jezičku</translation>
+    </message>
+    <message>
+        <source>On a Mac, Option+Shift with a letter types a character in a text field: there the field gets it.</source>
+        <translation>Na Mac-u Option+Shift sa slovom upisuje znak u tekstualno polje: tamo ga dobija polje.</translation>
+    </message>
+    <message>
+        <source>Change them in the Me panel</source>
+        <translation>Promenite ih u panelu „Ja“</translation>
+    </message>
+    <message>
+        <source>Open the Page panel to save its draft.</source>
+        <translation>Otvorite panel „Stranica“ da sačuvate njenu radnu verziju.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Prijemno sanduče</translation>
     </message>

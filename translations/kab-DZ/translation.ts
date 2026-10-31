@@ -844,6 +844,94 @@
         <translation>%n imaynuten deg tanaka-ik n ukcam</translation>
     </message>
     <message>
+        <source>Open the sidebar or go into it</source>
+        <translation>Ldi afeggag n yidis neɣ kcem ɣur-s</translation>
+    </message>
+    <message>
+        <source>Save the draft</source>
+        <translation>Sekles arewway</translation>
+    </message>
+    <message>
+        <source>Keyboard shortcuts</source>
+        <translation>Inegzumen n unasiw</translation>
+    </message>
+    <message>
+        <source>Use one letter, A to Z.</source>
+        <translation>Seqdec yiwen n usekkil, seg A ar Z.</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key belongs to the browser or the system.</source>
+        <translation>Alt+Shift+%key n yiminig neɣ n unagraw.</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key is taken: %action.</source>
+        <translation>Alt+Shift+%key yettwaṭṭef yakan: %action.</translation>
+    </message>
+    <message>
+        <source>This page gives Alt+Shift+%key to one of its links: here the page wins.</source>
+        <translation>Asebter-a yefka Alt+Shift+%key i yiwen seg yiseɣwan-is: da d asebter i yettrebḥen.</translation>
+    </message>
+    <message>
+        <source>Saved.</source>
+        <translation>Yettwasekles.</translation>
+    </message>
+    <message>
+        <source>Back to the defaults</source>
+        <translation>Uɣal ɣer wazalen imezwer</translation>
+    </message>
+    <message>
+        <source>All shortcuts</source>
+        <translation>Akk inegzumen</translation>
+    </message>
+    <message>
+        <source>This page uses this key for one of its links: here the page wins.</source>
+        <translation>Asebter-a yesseqdac tasarut-a i yiwen seg yiseɣwan-is: da d asebter i yettrebḥen.</translation>
+    </message>
+    <message>
+        <source>Panel: %name</source>
+        <translation>Agalis: %name</translation>
+    </message>
+    <message>
+        <source>Open the sidebar</source>
+        <translation>Ldi afeggag n yidis</translation>
+    </message>
+    <message>
+        <source>Move the tab along its edge, or to the opposite edge</source>
+        <translation>Smutti accaren ɣef yiri-ines, neɣ ɣer yiri i s-yemgarraden</translation>
+    </message>
+    <message>
+        <source>Bigger steps</source>
+        <translation>Isurifen imeqqranen</translation>
+    </message>
+    <message>
+        <source>Dock to that edge</source>
+        <translation>Ṛz ɣer yiri-nni</translation>
+    </message>
+    <message>
+        <source>Go round the edges</source>
+        <translation>Zzi i yiran</translation>
+    </message>
+    <message>
+        <source>To the start or the end of the edge</source>
+        <translation>Ɣer tazwara neɣ taggara n yiri</translation>
+    </message>
+    <message>
+        <source>On the tab</source>
+        <translation>Ɣef waccaren</translation>
+    </message>
+    <message>
+        <source>On a Mac, Option+Shift with a letter types a character in a text field: there the field gets it.</source>
+        <translation>Deg Mac, Option+Shift d usekkil yettaru asekkil deg wurti n uḍris: dinna d urti i t-yettawin.</translation>
+    </message>
+    <message>
+        <source>Change them in the Me panel</source>
+        <translation>Beddel-iten deg ugalis «Nekk»</translation>
+    </message>
+    <message>
+        <source>Open the Page panel to save its draft.</source>
+        <translation>Ldi agalis «Asebter» akken ad teslekseḍ arewway-is.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Tanaka n ukcam</translation>
     </message>

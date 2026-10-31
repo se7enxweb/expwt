@@ -844,6 +844,94 @@
         <translation>%n kura i ka bataki donnenw na</translation>
     </message>
     <message>
+        <source>Open the sidebar or go into it</source>
+        <translation>Kɛrɛfɛ barakɛlan da walima i don a kɔnɔ</translation>
+    </message>
+    <message>
+        <source>Save the draft</source>
+        <translation>Bruyɔn mara</translation>
+    </message>
+    <message>
+        <source>Keyboard shortcuts</source>
+        <translation>Kilaviye sira surunw</translation>
+    </message>
+    <message>
+        <source>Use one letter, A to Z.</source>
+        <translation>Sɛbɛnni kelen kɛ, A ka se Z ma.</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key belongs to the browser or the system.</source>
+        <translation>Alt+Shift+%key ye navigatɛri walima sisitɛmu ta ye.</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key is taken: %action.</source>
+        <translation>Alt+Shift+%key tara ka ban: %action.</translation>
+    </message>
+    <message>
+        <source>This page gives Alt+Shift+%key to one of its links: here the page wins.</source>
+        <translation>Ɲɛ in bɛ Alt+Shift+%key di a ka jɛɲɔgɔnya dɔ ma: yan ɲɛ de bɛ se.</translation>
+    </message>
+    <message>
+        <source>Saved.</source>
+        <translation>A marala.</translation>
+    </message>
+    <message>
+        <source>Back to the defaults</source>
+        <translation>Segin fɔlɔ cogoyaw ma</translation>
+    </message>
+    <message>
+        <source>All shortcuts</source>
+        <translation>Sira surunw bɛɛ</translation>
+    </message>
+    <message>
+        <source>This page uses this key for one of its links: here the page wins.</source>
+        <translation>Ɲɛ in bɛ butɔn in kɛ a ka jɛɲɔgɔnya dɔ ye: yan ɲɛ de bɛ se.</translation>
+    </message>
+    <message>
+        <source>Panel: %name</source>
+        <translation>Panel: %name</translation>
+    </message>
+    <message>
+        <source>Open the sidebar</source>
+        <translation>Kɛrɛfɛ barakɛlan da</translation>
+    </message>
+    <message>
+        <source>Move the tab along its edge, or to the opposite edge</source>
+        <translation>Tab taa a dan kan, walima ka taa dan kunbɛnnen kan</translation>
+    </message>
+    <message>
+        <source>Bigger steps</source>
+        <translation>Senkɔrɔ belebelew</translation>
+    </message>
+    <message>
+        <source>Dock to that edge</source>
+        <translation>A sigi o dan na</translation>
+    </message>
+    <message>
+        <source>Go round the edges</source>
+        <translation>Danw bɛɛ lamini</translation>
+    </message>
+    <message>
+        <source>To the start or the end of the edge</source>
+        <translation>Ka taa dan daminɛ walima a laban na</translation>
+    </message>
+    <message>
+        <source>On the tab</source>
+        <translation>Tab kan</translation>
+    </message>
+    <message>
+        <source>On a Mac, Option+Shift with a letter types a character in a text field: there the field gets it.</source>
+        <translation>Mac kan, Option+Shift ni sɛbɛnni dɔ bɛ taamasyɛn dɔ sɛbɛn sɛbɛnnikɛyɔrɔ la: yen, sɛbɛnnikɛyɔrɔ de b'a sɔrɔ.</translation>
+    </message>
+    <message>
+        <source>Change them in the Me panel</source>
+        <translation>U yɛlɛma «Ne» panel kɔnɔ</translation>
+    </message>
+    <message>
+        <source>Open the Page panel to save its draft.</source>
+        <translation>«Ɲɛ» panel da walasa ka a ka bruyɔn mara.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Bataki donnenw</translation>
     </message>

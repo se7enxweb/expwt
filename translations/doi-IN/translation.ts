@@ -844,6 +844,94 @@
         <translation>तुंदे इनबॉक्स च %n नमें</translation>
     </message>
     <message>
+        <source>Open the sidebar or go into it</source>
+        <translation>साइडबार खोल्लो जां उसदे अंदर जाओ</translation>
+    </message>
+    <message>
+        <source>Save the draft</source>
+        <translation>मसौदा सेव करो</translation>
+    </message>
+    <message>
+        <source>Keyboard shortcuts</source>
+        <translation>कीबोर्ड शॉर्टकट</translation>
+    </message>
+    <message>
+        <source>Use one letter, A to Z.</source>
+        <translation>इक अक्खर बरतो, A थमां Z तगर।</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key belongs to the browser or the system.</source>
+        <translation>Alt+Shift+%key ब्राउज़र जां सिस्टम दा ऐ।</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key is taken: %action.</source>
+        <translation>Alt+Shift+%key पैह्लें गै लग्गे दा ऐ: %action।</translation>
+    </message>
+    <message>
+        <source>This page gives Alt+Shift+%key to one of its links: here the page wins.</source>
+        <translation>एह् पन्ना Alt+Shift+%key अपने इक लिंक गी दिंदा ऐ: इत्थें पन्ना जित्तदा ऐ।</translation>
+    </message>
+    <message>
+        <source>Saved.</source>
+        <translation>सेव होई गेआ।</translation>
+    </message>
+    <message>
+        <source>Back to the defaults</source>
+        <translation>डिफ़ॉल्ट पर वापस</translation>
+    </message>
+    <message>
+        <source>All shortcuts</source>
+        <translation>सारे शॉर्टकट</translation>
+    </message>
+    <message>
+        <source>This page uses this key for one of its links: here the page wins.</source>
+        <translation>एह् पन्ना एह् बटन अपने इक लिंक आस्तै बरतदा ऐ: इत्थें पन्ना जित्तदा ऐ।</translation>
+    </message>
+    <message>
+        <source>Panel: %name</source>
+        <translation>पैनल: %name</translation>
+    </message>
+    <message>
+        <source>Open the sidebar</source>
+        <translation>साइडबार खोल्लो</translation>
+    </message>
+    <message>
+        <source>Move the tab along its edge, or to the opposite edge</source>
+        <translation>टैब गी उसदे कंढे पर जां उल्टे कंढे पर लेई जाओ</translation>
+    </message>
+    <message>
+        <source>Bigger steps</source>
+        <translation>बड्डे कदम</translation>
+    </message>
+    <message>
+        <source>Dock to that edge</source>
+        <translation>उस कंढे कन्नै जोड़ो</translation>
+    </message>
+    <message>
+        <source>Go round the edges</source>
+        <translation>कंढें दे चौंह् पासें घुम्मो</translation>
+    </message>
+    <message>
+        <source>To the start or the end of the edge</source>
+        <translation>कंढे दे शुरू जां अंत पर</translation>
+    </message>
+    <message>
+        <source>On the tab</source>
+        <translation>टैब पर</translation>
+    </message>
+    <message>
+        <source>On a Mac, Option+Shift with a letter types a character in a text field: there the field gets it.</source>
+        <translation>Mac पर, अक्खर कन्नै Option+Shift टेक्स्ट फ़ील्ड च इक चिन्न टाइप करदा ऐ: उत्थें फ़ील्ड उसी पांदा ऐ।</translation>
+    </message>
+    <message>
+        <source>Change them in the Me panel</source>
+        <translation>इनेंगी «मैं» पैनल च बदलो</translation>
+    </message>
+    <message>
+        <source>Open the Page panel to save its draft.</source>
+        <translation>उसदा मसौदा सेव करने आस्तै «पन्ना» पैनल खोल्लो।</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>इनबॉक्स</translation>
     </message>

@@ -844,6 +844,94 @@
         <translation>%n ܚ̈ܕܬܬܐ ܒܐܓܪ̈ܬܐ ܕܥܐܠ̈ܢ ܕܝܠܟ</translation>
     </message>
     <message>
+        <source>Open the sidebar or go into it</source>
+        <translation>ܦܬܚ ܣܪܓܐ ܕܓܢܒܐ ܐܘ ܥܘܠ ܠܗ</translation>
+    </message>
+    <message>
+        <source>Save the draft</source>
+        <translation>ܢܛܘܪ ܣܘܪܛܐ</translation>
+    </message>
+    <message>
+        <source>Keyboard shortcuts</source>
+        <translation>ܩܠܝ̈ܕܐ ܕܦܣܝܥܘܬܐ</translation>
+    </message>
+    <message>
+        <source>Use one letter, A to Z.</source>
+        <translation>ܡܦܠܚ ܐܬܐ ܚܕܐ، ܡܢ A ܥܕܡܐ ܠ Z.</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key belongs to the browser or the system.</source>
+        <translation>Alt+Shift+%key ܕܝܠܗ ܕܡܨܦܚܢܐ ܐܘ ܕܛܟܣܐ.</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key is taken: %action.</source>
+        <translation>Alt+Shift+%key ܐܚܝܕܐ: %action.</translation>
+    </message>
+    <message>
+        <source>This page gives Alt+Shift+%key to one of its links: here the page wins.</source>
+        <translation>ܦܐܬܐ ܗܕܐ ܝܗܒܐ Alt+Shift+%key ܠܚܕ ܡܢ ܐܣܘܪ̈ܝܗ: ܗܪܟܐ ܦܐܬܐ ܙܟܝܐ.</translation>
+    </message>
+    <message>
+        <source>Saved.</source>
+        <translation>ܐܬܢܛܪ.</translation>
+    </message>
+    <message>
+        <source>Back to the defaults</source>
+        <translation>ܗܦܘܟ ܠܓܒܝ̈ܬܐ</translation>
+    </message>
+    <message>
+        <source>All shortcuts</source>
+        <translation>ܟܠܗܘܢ ܩܠܝ̈ܕܐ ܕܦܣܝܥܘܬܐ</translation>
+    </message>
+    <message>
+        <source>This page uses this key for one of its links: here the page wins.</source>
+        <translation>ܦܐܬܐ ܗܕܐ ܡܦܠܚܐ ܩܠܝܕܐ ܗܢܐ ܠܚܕ ܡܢ ܐܣܘܪ̈ܝܗ: ܗܪܟܐ ܦܐܬܐ ܙܟܝܐ.</translation>
+    </message>
+    <message>
+        <source>Panel: %name</source>
+        <translation>ܦܢܝܬܐ: %name</translation>
+    </message>
+    <message>
+        <source>Open the sidebar</source>
+        <translation>ܦܬܚ ܣܪܓܐ ܕܓܢܒܐ</translation>
+    </message>
+    <message>
+        <source>Move the tab along its edge, or to the opposite edge</source>
+        <translation>ܫܢܝ ܠܫܢܐ ܥܠ ܣܦܬܗ ܐܘ ܠܣܦܬܐ ܕܠܘܩܒܠ</translation>
+    </message>
+    <message>
+        <source>Bigger steps</source>
+        <translation>ܦܣܥ̈ܬܐ ܪܘܪ̈ܒܬܐ</translation>
+    </message>
+    <message>
+        <source>Dock to that edge</source>
+        <translation>ܩܒܘܥ ܒܣܦܬܐ ܗܝ</translation>
+    </message>
+    <message>
+        <source>Go round the edges</source>
+        <translation>ܚܕܪ ܥܠ ܣܦ̈ܘܬܐ</translation>
+    </message>
+    <message>
+        <source>To the start or the end of the edge</source>
+        <translation>ܠܫܘܪܝܐ ܐܘ ܠܚܪܬܐ ܕܣܦܬܐ</translation>
+    </message>
+    <message>
+        <source>On the tab</source>
+        <translation>ܥܠ ܠܫܢܐ</translation>
+    </message>
+    <message>
+        <source>On a Mac, Option+Shift with a letter types a character in a text field: there the field gets it.</source>
+        <translation>ܥܠ Mac، Option+Shift ܥܡ ܐܬܐ ܟܬܒ ܐܬܘܬܐ ܒܚܩܠܐ ܕܟܬܒܐ: ܬܡܢ ܚܩܠܐ ܢܣܒ ܠܗ.</translation>
+    </message>
+    <message>
+        <source>Change them in the Me panel</source>
+        <translation>ܫܢܝ ܐܢܝܢ ܒܦܢܝܬܐ «ܐܢܐ»</translation>
+    </message>
+    <message>
+        <source>Open the Page panel to save its draft.</source>
+        <translation>ܦܬܚ ܦܢܝܬܐ «ܦܐܬܐ» ܕܬܢܛܪ ܣܘܪܛܗ.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>ܐܓܪ̈ܬܐ ܕܥܐܠ̈ܢ</translation>
     </message>

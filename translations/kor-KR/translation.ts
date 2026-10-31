@@ -844,6 +844,94 @@
         <translation>받은 편지함에 새 항목 %n개</translation>
     </message>
     <message>
+        <source>Open the sidebar or go into it</source>
+        <translation>사이드바 열기 또는 사이드바로 이동</translation>
+    </message>
+    <message>
+        <source>Save the draft</source>
+        <translation>초안 저장</translation>
+    </message>
+    <message>
+        <source>Keyboard shortcuts</source>
+        <translation>키보드 단축키</translation>
+    </message>
+    <message>
+        <source>Use one letter, A to Z.</source>
+        <translation>문자 하나를 사용하세요(A~Z).</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key belongs to the browser or the system.</source>
+        <translation>Alt+Shift+%key는 브라우저나 시스템이 사용합니다.</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key is taken: %action.</source>
+        <translation>Alt+Shift+%key는 이미 사용 중입니다: %action.</translation>
+    </message>
+    <message>
+        <source>This page gives Alt+Shift+%key to one of its links: here the page wins.</source>
+        <translation>이 페이지는 Alt+Shift+%key를 링크 중 하나에 할당합니다: 여기서는 페이지가 우선합니다.</translation>
+    </message>
+    <message>
+        <source>Saved.</source>
+        <translation>저장되었습니다.</translation>
+    </message>
+    <message>
+        <source>Back to the defaults</source>
+        <translation>기본값으로 되돌리기</translation>
+    </message>
+    <message>
+        <source>All shortcuts</source>
+        <translation>모든 단축키</translation>
+    </message>
+    <message>
+        <source>This page uses this key for one of its links: here the page wins.</source>
+        <translation>이 페이지는 이 키를 링크 중 하나에 사용합니다: 여기서는 페이지가 우선합니다.</translation>
+    </message>
+    <message>
+        <source>Panel: %name</source>
+        <translation>패널: %name</translation>
+    </message>
+    <message>
+        <source>Open the sidebar</source>
+        <translation>사이드바 열기</translation>
+    </message>
+    <message>
+        <source>Move the tab along its edge, or to the opposite edge</source>
+        <translation>탭을 가장자리를 따라 또는 반대쪽 가장자리로 이동</translation>
+    </message>
+    <message>
+        <source>Bigger steps</source>
+        <translation>더 큰 단계</translation>
+    </message>
+    <message>
+        <source>Dock to that edge</source>
+        <translation>그 가장자리에 고정</translation>
+    </message>
+    <message>
+        <source>Go round the edges</source>
+        <translation>가장자리를 따라 돌기</translation>
+    </message>
+    <message>
+        <source>To the start or the end of the edge</source>
+        <translation>가장자리의 시작이나 끝으로</translation>
+    </message>
+    <message>
+        <source>On the tab</source>
+        <translation>탭에서</translation>
+    </message>
+    <message>
+        <source>On a Mac, Option+Shift with a letter types a character in a text field: there the field gets it.</source>
+        <translation>Mac에서는 Option+Shift와 문자로 텍스트 필드에 문자가 입력됩니다: 거기서는 필드가 받습니다.</translation>
+    </message>
+    <message>
+        <source>Change them in the Me panel</source>
+        <translation>«나» 패널에서 변경하세요</translation>
+    </message>
+    <message>
+        <source>Open the Page panel to save its draft.</source>
+        <translation>초안을 저장하려면 «페이지» 패널을 여세요.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>받은 편지함</translation>
     </message>

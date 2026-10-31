@@ -844,6 +844,94 @@
         <translation>%n נײַע אין דײַנע אַרײַנגעקומענע</translation>
     </message>
     <message>
+        <source>Open the sidebar or go into it</source>
+        <translation>עפֿענען די זײַטבאַר אָדער גיין אַרײַן אין איר</translation>
+    </message>
+    <message>
+        <source>Save the draft</source>
+        <translation>אָפּהיטן דעם שׂרטוט</translation>
+    </message>
+    <message>
+        <source>Keyboard shortcuts</source>
+        <translation>קלאַוויאַטור־קיצורים</translation>
+    </message>
+    <message>
+        <source>Use one letter, A to Z.</source>
+        <translation>ניצט איין אות, פֿון A ביז Z.</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key belongs to the browser or the system.</source>
+        <translation>Alt+Shift+%key געהערט צום בלעטערער אָדער צום סיסטעם.</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key is taken: %action.</source>
+        <translation>Alt+Shift+%key איז שוין פֿאַרנומען: %action.</translation>
+    </message>
+    <message>
+        <source>This page gives Alt+Shift+%key to one of its links: here the page wins.</source>
+        <translation>די זײַט גיט Alt+Shift+%key איינעם פֿון אירע לינקען: דאָ געווינט די זײַט.</translation>
+    </message>
+    <message>
+        <source>Saved.</source>
+        <translation>אָפּגעהיט.</translation>
+    </message>
+    <message>
+        <source>Back to the defaults</source>
+        <translation>צוריק צו די גרונטווערטן</translation>
+    </message>
+    <message>
+        <source>All shortcuts</source>
+        <translation>אַלע קיצורים</translation>
+    </message>
+    <message>
+        <source>This page uses this key for one of its links: here the page wins.</source>
+        <translation>די זײַט ניצט דעם קלאַוויש פֿאַר איינעם פֿון אירע לינקען: דאָ געווינט די זײַט.</translation>
+    </message>
+    <message>
+        <source>Panel: %name</source>
+        <translation>פּאַנעל: %name</translation>
+    </message>
+    <message>
+        <source>Open the sidebar</source>
+        <translation>עפֿענען די זײַטבאַר</translation>
+    </message>
+    <message>
+        <source>Move the tab along its edge, or to the opposite edge</source>
+        <translation>רירן דעם טאַב לענגאויס זײַן ראַנד, אָדער צום אַנטקעגנדיקן ראַנד</translation>
+    </message>
+    <message>
+        <source>Bigger steps</source>
+        <translation>גרעסערע טריט</translation>
+    </message>
+    <message>
+        <source>Dock to that edge</source>
+        <translation>צופֿעסטיקן צו יענעם ראַנד</translation>
+    </message>
+    <message>
+        <source>Go round the edges</source>
+        <translation>גיין אַרום די ראַנדן</translation>
+    </message>
+    <message>
+        <source>To the start or the end of the edge</source>
+        <translation>צום אָנהייב אָדער צום סוף פֿונעם ראַנד</translation>
+    </message>
+    <message>
+        <source>On the tab</source>
+        <translation>אויפֿן טאַב</translation>
+    </message>
+    <message>
+        <source>On a Mac, Option+Shift with a letter types a character in a text field: there the field gets it.</source>
+        <translation>אויף אַ Mac, Option+Shift מיט אַן אות שרײַבט אַ צייכן אין אַ טעקסט־פֿעלד: דאָרט באַקומט עס דאָס פֿעלד.</translation>
+    </message>
+    <message>
+        <source>Change them in the Me panel</source>
+        <translation>ענדערט זיי אינעם „איך“־פּאַנעל</translation>
+    </message>
+    <message>
+        <source>Open the Page panel to save its draft.</source>
+        <translation>עפֿנט דעם „זײַט“־פּאַנעל כּדי אָפּצוהיטן זײַן שׂרטוט.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>אַרײַנגעקומענע</translation>
     </message>

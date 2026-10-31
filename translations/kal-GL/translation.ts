@@ -844,6 +844,94 @@
         <translation>%n nutaat tiguniakkanni</translation>
     </message>
     <message>
+        <source>Open the sidebar or go into it</source>
+        <translation>Saniatigut sanerussaq ammaruk imaluunniit iserfigiuk</translation>
+    </message>
+    <message>
+        <source>Save the draft</source>
+        <translation>Missingiut toqqoruk</translation>
+    </message>
+    <message>
+        <source>Keyboard shortcuts</source>
+        <translation>Naqitassat sukkaannerusut</translation>
+    </message>
+    <message>
+        <source>Use one letter, A to Z.</source>
+        <translation>Ataasimik naqinnermik atuigit, A-mit Z-mut.</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key belongs to the browser or the system.</source>
+        <translation>Alt+Shift+%key browserimut imaluunniit systemimut tunngavoq.</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key is taken: %action.</source>
+        <translation>Alt+Shift+%key atorneqareerpoq: %action.</translation>
+    </message>
+    <message>
+        <source>This page gives Alt+Shift+%key to one of its links: here the page wins.</source>
+        <translation>Qupperneq una Alt+Shift+%key-mik attaveqaatiminut ataatsimut tunniussivoq: maani qupperneq ajugaasarpoq.</translation>
+    </message>
+    <message>
+        <source>Saved.</source>
+        <translation>Toqqorneqarpoq.</translation>
+    </message>
+    <message>
+        <source>Back to the defaults</source>
+        <translation>Aallaqqaasiutinut uterit</translation>
+    </message>
+    <message>
+        <source>All shortcuts</source>
+        <translation>Naqitassat sukkaannerusut tamarmik</translation>
+    </message>
+    <message>
+        <source>This page uses this key for one of its links: here the page wins.</source>
+        <translation>Qupperneq una naqitassaq una attaveqaatiminut ataatsimut atorpaa: maani qupperneq ajugaasarpoq.</translation>
+    </message>
+    <message>
+        <source>Panel: %name</source>
+        <translation>Paneli: %name</translation>
+    </message>
+    <message>
+        <source>Open the sidebar</source>
+        <translation>Saniatigut sanerussaq ammaruk</translation>
+    </message>
+    <message>
+        <source>Move the tab along its edge, or to the opposite edge</source>
+        <translation>Taaqqut sinaa atuarlugu imaluunniit sinaanut akianiittumut nuussiguk</translation>
+    </message>
+    <message>
+        <source>Bigger steps</source>
+        <translation>Alloriarnerit annerusut</translation>
+    </message>
+    <message>
+        <source>Dock to that edge</source>
+        <translation>Sinaanut taassumunnga ikkuguk</translation>
+    </message>
+    <message>
+        <source>Go round the edges</source>
+        <translation>Sinaasigut kaaviigit</translation>
+    </message>
+    <message>
+        <source>To the start or the end of the edge</source>
+        <translation>Sinaata aallarniiffianut imaluunniit naggataanut</translation>
+    </message>
+    <message>
+        <source>On the tab</source>
+        <translation>Taaqqummi</translation>
+    </message>
+    <message>
+        <source>On a Mac, Option+Shift with a letter types a character in a text field: there the field gets it.</source>
+        <translation>Mac-imi Option+Shift naqinnermik ilaqarluni allaffimmi naqinnermik allappoq: tassani allaffik pisarpoq.</translation>
+    </message>
+    <message>
+        <source>Change them in the Me panel</source>
+        <translation>«Uanga»-mi panelimi allanngortikkit</translation>
+    </message>
+    <message>
+        <source>Open the Page panel to save its draft.</source>
+        <translation>«Qupperneq»-mi paneli ammaruk missingiutaa toqqorniarlugu.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Tiguniakkat</translation>
     </message>

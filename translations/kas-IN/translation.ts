@@ -844,6 +844,94 @@
         <translation>توٚہنٛدِس اِنباکسس منٛز %n نوٚو</translation>
     </message>
     <message>
+        <source>Open the sidebar or go into it</source>
+        <translation>سائیڈ بار کھولِو یا امہِ اندر گٔژھِو</translation>
+    </message>
+    <message>
+        <source>Save the draft</source>
+        <translation>مَسوٗدہٕ محفوظ کٔرِو</translation>
+    </message>
+    <message>
+        <source>Keyboard shortcuts</source>
+        <translation>کیبورڈ شارٹ کٹ</translation>
+    </message>
+    <message>
+        <source>Use one letter, A to Z.</source>
+        <translation>اکھ حرف ورتٲوِو، A پیٹھٕ Z تام۔</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key belongs to the browser or the system.</source>
+        <translation>Alt+Shift+%key چھُ براؤزرُک یا سسٹمُک۔</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key is taken: %action.</source>
+        <translation>Alt+Shift+%key چھُ گۄڈے ورتاونہٕ آمُت: %action۔</translation>
+    </message>
+    <message>
+        <source>This page gives Alt+Shift+%key to one of its links: here the page wins.</source>
+        <translation>یہ صفحہٕ چھُ Alt+Shift+%key پننِس اکِس لنکس دِوان: یتہِ چھُ صفحہٕ زینان۔</translation>
+    </message>
+    <message>
+        <source>Saved.</source>
+        <translation>محفوظ گۄو۔</translation>
+    </message>
+    <message>
+        <source>Back to the defaults</source>
+        <translation>ڈیفالٹن پیٹھ واپس</translation>
+    </message>
+    <message>
+        <source>All shortcuts</source>
+        <translation>سٲری شارٹ کٹ</translation>
+    </message>
+    <message>
+        <source>This page uses this key for one of its links: here the page wins.</source>
+        <translation>یہ صفحہٕ چھُ یہ بٹن پننِس اکِس لنکس خٲطرٕ ورتاوان: یتہِ چھُ صفحہٕ زینان۔</translation>
+    </message>
+    <message>
+        <source>Panel: %name</source>
+        <translation>پینل: %name</translation>
+    </message>
+    <message>
+        <source>Open the sidebar</source>
+        <translation>سائیڈ بار کھولِو</translation>
+    </message>
+    <message>
+        <source>Move the tab along its edge, or to the opposite edge</source>
+        <translation>ٹیبس اَمہِ کنارس پیٹھ یا مخالف کنارس پیٹھ پَکنٲوِو</translation>
+    </message>
+    <message>
+        <source>Bigger steps</source>
+        <translation>بٔڈۍ قدم</translation>
+    </message>
+    <message>
+        <source>Dock to that edge</source>
+        <translation>تتھ کنارس سٟتؠ جوڑِو</translation>
+    </message>
+    <message>
+        <source>Go round the edges</source>
+        <translation>کنارن ہُند چکر کٔرِو</translation>
+    </message>
+    <message>
+        <source>To the start or the end of the edge</source>
+        <translation>کنارُک شروٗع یا آخر</translation>
+    </message>
+    <message>
+        <source>On the tab</source>
+        <translation>ٹیبس پیٹھ</translation>
+    </message>
+    <message>
+        <source>On a Mac, Option+Shift with a letter types a character in a text field: there the field gets it.</source>
+        <translation>Mac پیٹھ، حرفس سٟتؠ Option+Shift چھُ ٹیکسٹ فیلڈس منٛز اکھ نشان ٹائپ کران: تتہِ چھُ فیلڈ یہ ہیوان۔</translation>
+    </message>
+    <message>
+        <source>Change them in the Me panel</source>
+        <translation>یِم بدلٲوِو «بہٕ» پینلس منٛز</translation>
+    </message>
+    <message>
+        <source>Open the Page panel to save its draft.</source>
+        <translation>امیُک مَسوٗدہٕ محفوظ کرنہٕ خٲطرٕ «صفحہٕ» پینل کھولِو۔</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>اِنباکس</translation>
     </message>

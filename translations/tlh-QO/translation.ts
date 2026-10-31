@@ -844,6 +844,94 @@
         <translation>%n chu' QIn chu'lIjDaq</translation>
     </message>
     <message>
+        <source>Open the sidebar or go into it</source>
+        <translation>retlh beQ yIpoSmoH pagh yIjaH</translation>
+    </message>
+    <message>
+        <source>Save the draft</source>
+        <translation>nab yIpol</translation>
+    </message>
+    <message>
+        <source>Keyboard shortcuts</source>
+        <translation>SeHlaw Qo'noS mIw</translation>
+    </message>
+    <message>
+        <source>Use one letter, A to Z.</source>
+        <translation>wa' ngutlh yIlo', A Z je.</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key belongs to the browser or the system.</source>
+        <translation>Alt+Shift+%key DaHjaj De'wI' pagh pat ghaj.</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key is taken: %action.</source>
+        <translation>Alt+Shift+%key lo'lu'taH: %action.</translation>
+    </message>
+    <message>
+        <source>This page gives Alt+Shift+%key to one of its links: here the page wins.</source>
+        <translation>Alt+Shift+%key nobmeH nav wa' rarwI' Hev: naDev Qap nav.</translation>
+    </message>
+    <message>
+        <source>Saved.</source>
+        <translation>pollu'pu'.</translation>
+    </message>
+    <message>
+        <source>Back to the defaults</source>
+        <translation>motlh DIchegh</translation>
+    </message>
+    <message>
+        <source>All shortcuts</source>
+        <translation>Hoch SeHlaw Qo'noS mIw</translation>
+    </message>
+    <message>
+        <source>This page uses this key for one of its links: here the page wins.</source>
+        <translation>wa' rarwI'vaD leQvam lo' navvam: naDev Qap nav.</translation>
+    </message>
+    <message>
+        <source>Panel: %name</source>
+        <translation>beQ: %name</translation>
+    </message>
+    <message>
+        <source>Open the sidebar</source>
+        <translation>retlh beQ yIpoSmoH</translation>
+    </message>
+    <message>
+        <source>Move the tab along its edge, or to the opposite edge</source>
+        <translation>HeHDaq tab yIvIHmoH, pagh HeH Dop'e'Daq</translation>
+    </message>
+    <message>
+        <source>Bigger steps</source>
+        <translation>gho'mey tIn</translation>
+    </message>
+    <message>
+        <source>Dock to that edge</source>
+        <translation>HeHvetlhDaq yIrar</translation>
+    </message>
+    <message>
+        <source>Go round the edges</source>
+        <translation>HeHmey yIjIr</translation>
+    </message>
+    <message>
+        <source>To the start or the end of the edge</source>
+        <translation>HeH bI'reS pagh HeH Dor</translation>
+    </message>
+    <message>
+        <source>On the tab</source>
+        <translation>tabDaq</translation>
+    </message>
+    <message>
+        <source>On a Mac, Option+Shift with a letter types a character in a text field: there the field gets it.</source>
+        <translation>Mac Daq, ngutlh Option+Shift je ngutlh ghItlh ghItlhmeH yoSDaq: pa' yoS Hev.</translation>
+    </message>
+    <message>
+        <source>Change them in the Me panel</source>
+        <translation>«jIH» beQDaq tIchoH</translation>
+    </message>
+    <message>
+        <source>Open the Page panel to save its draft.</source>
+        <translation>nab polmeH «nav» beQ yIpoSmoH.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>QIn chu'</translation>
     </message>

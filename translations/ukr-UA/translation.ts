@@ -844,6 +844,94 @@
         <translation>%n нових у вхідних</translation>
     </message>
     <message>
+        <source>Open the sidebar or go into it</source>
+        <translation>Відкрити бічну панель або перейти в неї</translation>
+    </message>
+    <message>
+        <source>Save the draft</source>
+        <translation>Зберегти чернетку</translation>
+    </message>
+    <message>
+        <source>Keyboard shortcuts</source>
+        <translation>Комбінації клавіш</translation>
+    </message>
+    <message>
+        <source>Use one letter, A to Z.</source>
+        <translation>Використовуйте одну літеру, від A до Z.</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key belongs to the browser or the system.</source>
+        <translation>Alt+Shift+%key належить браузеру або системі.</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key is taken: %action.</source>
+        <translation>Alt+Shift+%key уже зайнято: %action.</translation>
+    </message>
+    <message>
+        <source>This page gives Alt+Shift+%key to one of its links: here the page wins.</source>
+        <translation>Ця сторінка віддає Alt+Shift+%key одному зі своїх посилань: тут перемагає сторінка.</translation>
+    </message>
+    <message>
+        <source>Saved.</source>
+        <translation>Збережено.</translation>
+    </message>
+    <message>
+        <source>Back to the defaults</source>
+        <translation>Повернути типові</translation>
+    </message>
+    <message>
+        <source>All shortcuts</source>
+        <translation>Усі комбінації клавіш</translation>
+    </message>
+    <message>
+        <source>This page uses this key for one of its links: here the page wins.</source>
+        <translation>Ця сторінка використовує цю клавішу для одного зі своїх посилань: тут перемагає сторінка.</translation>
+    </message>
+    <message>
+        <source>Panel: %name</source>
+        <translation>Панель: %name</translation>
+    </message>
+    <message>
+        <source>Open the sidebar</source>
+        <translation>Відкрити бічну панель</translation>
+    </message>
+    <message>
+        <source>Move the tab along its edge, or to the opposite edge</source>
+        <translation>Перемістити вкладку вздовж її краю або до протилежного краю</translation>
+    </message>
+    <message>
+        <source>Bigger steps</source>
+        <translation>Більші кроки</translation>
+    </message>
+    <message>
+        <source>Dock to that edge</source>
+        <translation>Закріпити біля цього краю</translation>
+    </message>
+    <message>
+        <source>Go round the edges</source>
+        <translation>Пройти по краях</translation>
+    </message>
+    <message>
+        <source>To the start or the end of the edge</source>
+        <translation>На початок або в кінець краю</translation>
+    </message>
+    <message>
+        <source>On the tab</source>
+        <translation>На вкладці</translation>
+    </message>
+    <message>
+        <source>On a Mac, Option+Shift with a letter types a character in a text field: there the field gets it.</source>
+        <translation>На Mac Option+Shift з літерою вводить символ у текстове поле: там його отримує поле.</translation>
+    </message>
+    <message>
+        <source>Change them in the Me panel</source>
+        <translation>Змініть їх на панелі «Я»</translation>
+    </message>
+    <message>
+        <source>Open the Page panel to save its draft.</source>
+        <translation>Відкрийте панель «Сторінка», щоб зберегти її чернетку.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Вхідні</translation>
     </message>

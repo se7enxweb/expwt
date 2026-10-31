@@ -844,6 +844,94 @@
         <translation>%n noi în mesajele primite</translation>
     </message>
     <message>
+        <source>Open the sidebar or go into it</source>
+        <translation>Deschideți bara laterală sau mergeți în ea</translation>
+    </message>
+    <message>
+        <source>Save the draft</source>
+        <translation>Salvați ciorna</translation>
+    </message>
+    <message>
+        <source>Keyboard shortcuts</source>
+        <translation>Comenzi rapide de la tastatură</translation>
+    </message>
+    <message>
+        <source>Use one letter, A to Z.</source>
+        <translation>Folosiți o literă, de la A la Z.</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key belongs to the browser or the system.</source>
+        <translation>Alt+Shift+%key aparține browserului sau sistemului.</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key is taken: %action.</source>
+        <translation>Alt+Shift+%key este deja ocupat: %action.</translation>
+    </message>
+    <message>
+        <source>This page gives Alt+Shift+%key to one of its links: here the page wins.</source>
+        <translation>Această pagină dă Alt+Shift+%key unuia dintre linkurile sale: aici câștigă pagina.</translation>
+    </message>
+    <message>
+        <source>Saved.</source>
+        <translation>Salvat.</translation>
+    </message>
+    <message>
+        <source>Back to the defaults</source>
+        <translation>Înapoi la valorile implicite</translation>
+    </message>
+    <message>
+        <source>All shortcuts</source>
+        <translation>Toate comenzile rapide</translation>
+    </message>
+    <message>
+        <source>This page uses this key for one of its links: here the page wins.</source>
+        <translation>Această pagină folosește această tastă pentru unul dintre linkurile sale: aici câștigă pagina.</translation>
+    </message>
+    <message>
+        <source>Panel: %name</source>
+        <translation>Panou: %name</translation>
+    </message>
+    <message>
+        <source>Open the sidebar</source>
+        <translation>Deschideți bara laterală</translation>
+    </message>
+    <message>
+        <source>Move the tab along its edge, or to the opposite edge</source>
+        <translation>Mutați fila de-a lungul marginii sale sau pe marginea opusă</translation>
+    </message>
+    <message>
+        <source>Bigger steps</source>
+        <translation>Pași mai mari</translation>
+    </message>
+    <message>
+        <source>Dock to that edge</source>
+        <translation>Andocați la acea margine</translation>
+    </message>
+    <message>
+        <source>Go round the edges</source>
+        <translation>Ocoliți marginile</translation>
+    </message>
+    <message>
+        <source>To the start or the end of the edge</source>
+        <translation>La începutul sau la sfârșitul marginii</translation>
+    </message>
+    <message>
+        <source>On the tab</source>
+        <translation>Pe filă</translation>
+    </message>
+    <message>
+        <source>On a Mac, Option+Shift with a letter types a character in a text field: there the field gets it.</source>
+        <translation>Pe un Mac, Option+Shift cu o literă tastează un caracter într-un câmp de text: acolo îl primește câmpul.</translation>
+    </message>
+    <message>
+        <source>Change them in the Me panel</source>
+        <translation>Schimbați-le în panoul „Eu”</translation>
+    </message>
+    <message>
+        <source>Open the Page panel to save its draft.</source>
+        <translation>Deschideți panoul „Pagină” pentru a-i salva ciorna.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Mesaje primite</translation>
     </message>

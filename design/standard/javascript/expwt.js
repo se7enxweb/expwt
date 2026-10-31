@@ -80,6 +80,53 @@
   };
   window.ExpwtEditState = EditState;
 
+  /* The sidebar's shortcuts (F30): Alt+Shift with a letter or a digit, the only combination the browsers and the
+     systems leave free (Ctrl or Cmd with a letter: the browser; Alt with a letter: its menus; Ctrl+Alt: AltGr).
+     RESERVED: what Chrome, Edge and ChromeOS take with Alt+Shift (expwtState::RESERVED_KEYS, the same letters).
+     A key the page gives one of its own links (accesskey, which Firefox reaches with Alt+Shift) stays the page's.
+     On a Mac, Option+Shift with a letter types a character: there it is left to a text field that has the focus.
+     Pure, for the tests (tests/js/shortcuts.test.js). */
+  var Keys = {
+    ACTIONS: ['open', 'save', 'inline', 'help'],
+    DEFAULTS: { open: 'E', save: 'D', inline: 'K', help: 'H' },
+    RESERVED: 'ABILMNST',
+    /* the user's keys over the defaults (open: expwt.ini ShortcutKey) */
+    map: function (openDefault, mine) {
+      var out = Object.assign({}, Keys.DEFAULTS, { open: openDefault || 'E' });
+      Object.keys(mine || {}).forEach(function (a) {
+        if (out[a] && Keys.check(a, mine[a], out) === '') { out[a] = String(mine[a]).toUpperCase(); }
+      });
+      return out;
+    },
+    /* why a key cannot be the action's: format, reserved, or the action that has it; '' when it can */
+    check: function (action, key, map) {
+      var k = String(key || '').toUpperCase();
+      if (!/^[A-Z]$/.test(k)) { return 'format'; }
+      if (Keys.RESERVED.indexOf(k) >= 0) { return 'reserved'; }
+      var other = Object.keys(map || {}).filter(function (a) { return a !== action && map[a] === k; })[0];
+      return other || '';
+    },
+    /* the keys the page's own links have (accesskey), outside the sidebar */
+    pageKeys: function (doc) {
+      var out = [];
+      Array.prototype.forEach.call(doc.querySelectorAll ? doc.querySelectorAll('[accesskey]') : [], function (el) {
+        if (el.closest && el.closest('exp-wt')) { return; }
+        String(el.getAttribute('accesskey') || '').toUpperCase().split(/\s+/).forEach(function (k) { if (k.length === 1) { out.push(k); } });
+      });
+      return out;
+    },
+    /* the action of a key press: an action of map, 'panel:<n>' for Alt+Shift+1 to 9, or null */
+    match: function (e, map, page, mac) {
+      if (!e.altKey || !e.shiftKey || e.ctrlKey || e.metaKey) { return null; }
+      var m = /^(Key|Digit)([A-Z0-9])$/.exec(e.code || '');
+      if (!m || (page || []).indexOf(m[2]) >= 0) { return null; }
+      if (mac && e.target && e.target.matches && e.target.matches('input, textarea, select, [contenteditable], [contenteditable] *')) { return null; }
+      if (m[1] === 'Digit') { return m[2] === '0' ? null : 'panel:' + m[2]; }
+      return Object.keys(map).filter(function (a) { return map[a] === m[2]; })[0] || null;
+    }
+  };
+  window.ExpwtKeys = Keys;
+
   /* a node into a parent: moveBefore() keeps a frame's page as it is (no reload) where the browser has it */
   function move(parent, node, before) {
     if (typeof parent.moveBefore === 'function' && node.isConnected && parent.isConnected && node.getRootNode() === parent.getRootNode()) {
@@ -298,7 +345,9 @@
         open: s.open === true,
         mode: s.mode === 'overlay' ? 'overlay' : 'push',
         theme: ['light', 'dark'].indexOf(s.theme) >= 0 ? s.theme : 'auto',
-        panel: /^[a-z][a-z0-9_]{0,39}$/.test(String(s.panel || '')) ? s.panel : 'page'
+        panel: /^[a-z][a-z0-9_]{0,39}$/.test(String(s.panel || '')) ? s.panel : 'page',
+        /* the user's own shortcuts (F30), only those that differ from the defaults */
+        keys: s.keys && typeof s.keys === 'object' && !Array.isArray(s.keys) ? s.keys : {}
       };
     }
 
@@ -1087,15 +1136,41 @@
       this.setState(change);
     }
 
+    /* the shortcuts in effect: the defaults, expwt.ini ShortcutKey, the user's own */
+    keys() {
+      return Keys.map(this.cfg.key, this.state.keys);
+    }
+
+    /* the tab tells its shortcut (screen readers, the tooltip) */
+    labelKeys() {
+      var k = 'Alt+Shift+' + this.keys().open;
+      this.tab.setAttribute('aria-keyshortcuts', k);
+      this.tab.title = this.t('Website sidebar') + ' (' + k + ')';
+    }
+
     shortcut(e) {
-      var key = String(this.cfg.key || 'E');
-      if (!e.altKey || !e.shiftKey || e.ctrlKey || e.metaKey) { return; }
-      if (e.code !== 'Key' + key && e.code !== 'Digit' + key) { return; }
+      var self = this;
+      var mac = /Mac|iPhone|iPad/.test(navigator.platform || '');
+      /* a page may give a key to one of its links; looked at only when one of the sidebar's keys is pressed */
+      var page = e.altKey && e.shiftKey ? Keys.pageKeys(document) : [];
+      var action = Keys.match(e.composedPath ? Object.assign({ target: e.composedPath()[0], altKey: e.altKey, shiftKey: e.shiftKey,
+        ctrlKey: e.ctrlKey, metaKey: e.metaKey, code: e.code }) : e, this.keys(), page, mac);
+      if (!action || (action !== 'open' && (!this.boot || this.anonymous))) { return; }
       e.preventDefault();
-      if (this.state.open) {
-        this.heading.focus();
-      } else {
-        this.toggle(true);
+      if (action === 'open') {
+        if (this.state.open) { this.heading.focus(); } else { this.toggle(true); }
+      } else if (action.indexOf('panel:') === 0) {
+        var p = this.available()[parseInt(action.slice(6), 10) - 1];
+        if (!p) { return; }
+        if (!this.state.open) { this.toggle(true); }
+        this.show(p.id);
+      } else if (action === 'inline') {
+        if (this.boot.capabilities.edit) { this.editing(!this.editing()); }
+      } else if (action === 'save') {
+        var save = this.body.getAttribute('data-panel') === 'page' ? this.shadowRoot.querySelector('[data-action="save"]') : null;
+        if (save) { save.click(); } else { this.say(this.t('Open the Page panel to save its draft.')); }
+      } else if (action === 'help') {
+        this.loadPanels().then(function (panels) { if (panels.shortcuts) { panels.shortcuts(self.context()); } });
       }
     }
 
@@ -1136,6 +1211,7 @@
           store(CACHE, self.state);
         }
         self.buildTabs();
+        self.labelKeys();
         self.setWaiting(self.boot.inbox ? self.boot.inbox.count : 0);
         /* changes of this page kept on this device only (F28): a mark on the tab; opened, the Page panel offers them */
         var local = null;

@@ -844,6 +844,94 @@
         <translation>%n të reja në të ardhurat tuaja</translation>
     </message>
     <message>
+        <source>Open the sidebar or go into it</source>
+        <translation>Hap shiritin anësor ose shko te ai</translation>
+    </message>
+    <message>
+        <source>Save the draft</source>
+        <translation>Ruaj skicën</translation>
+    </message>
+    <message>
+        <source>Keyboard shortcuts</source>
+        <translation>Shkurtore të tastierës</translation>
+    </message>
+    <message>
+        <source>Use one letter, A to Z.</source>
+        <translation>Përdorni një shkronjë, nga A në Z.</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key belongs to the browser or the system.</source>
+        <translation>Alt+Shift+%key i përket shfletuesit ose sistemit.</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key is taken: %action.</source>
+        <translation>Alt+Shift+%key është i zënë: %action.</translation>
+    </message>
+    <message>
+        <source>This page gives Alt+Shift+%key to one of its links: here the page wins.</source>
+        <translation>Kjo faqe ia jep Alt+Shift+%key një prej lidhjeve të saj: këtu fiton faqja.</translation>
+    </message>
+    <message>
+        <source>Saved.</source>
+        <translation>U ruajt.</translation>
+    </message>
+    <message>
+        <source>Back to the defaults</source>
+        <translation>Kthehu te parazgjedhjet</translation>
+    </message>
+    <message>
+        <source>All shortcuts</source>
+        <translation>Të gjitha shkurtoret</translation>
+    </message>
+    <message>
+        <source>This page uses this key for one of its links: here the page wins.</source>
+        <translation>Kjo faqe e përdor këtë tast për një prej lidhjeve të saj: këtu fiton faqja.</translation>
+    </message>
+    <message>
+        <source>Panel: %name</source>
+        <translation>Paneli: %name</translation>
+    </message>
+    <message>
+        <source>Open the sidebar</source>
+        <translation>Hap shiritin anësor</translation>
+    </message>
+    <message>
+        <source>Move the tab along its edge, or to the opposite edge</source>
+        <translation>Lëviz skedën përgjatë skajit të saj ose te skaji i kundërt</translation>
+    </message>
+    <message>
+        <source>Bigger steps</source>
+        <translation>Hapa më të mëdhenj</translation>
+    </message>
+    <message>
+        <source>Dock to that edge</source>
+        <translation>Ngjite te ai skaj</translation>
+    </message>
+    <message>
+        <source>Go round the edges</source>
+        <translation>Shko rreth skajeve</translation>
+    </message>
+    <message>
+        <source>To the start or the end of the edge</source>
+        <translation>Në fillim ose në fund të skajit</translation>
+    </message>
+    <message>
+        <source>On the tab</source>
+        <translation>Te skeda</translation>
+    </message>
+    <message>
+        <source>On a Mac, Option+Shift with a letter types a character in a text field: there the field gets it.</source>
+        <translation>Në Mac, Option+Shift me një shkronjë shkruan një karakter në një fushë teksti: atje e merr fusha.</translation>
+    </message>
+    <message>
+        <source>Change them in the Me panel</source>
+        <translation>Ndryshojini te paneli «Unë»</translation>
+    </message>
+    <message>
+        <source>Open the Page panel to save its draft.</source>
+        <translation>Hapni panelin «Faqja» për të ruajtur skicën e saj.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Të ardhurat</translation>
     </message>

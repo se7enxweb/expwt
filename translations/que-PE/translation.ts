@@ -844,6 +844,94 @@
         <translation>%n musuq chaskinaykipi</translation>
     </message>
     <message>
+        <source>Open the sidebar or go into it</source>
+        <translation>Waqta barrata kichay utaq ukhunman riy</translation>
+    </message>
+    <message>
+        <source>Save the draft</source>
+        <translation>Qillqa kaqta waqaychay</translation>
+    </message>
+    <message>
+        <source>Keyboard shortcuts</source>
+        <translation>Teclado utqay ñankuna</translation>
+    </message>
+    <message>
+        <source>Use one letter, A to Z.</source>
+        <translation>Huk qillqata llamk'achiy, A-manta Z-kama.</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key belongs to the browser or the system.</source>
+        <translation>Alt+Shift+%key navegadorpam utaq sistemapam.</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key is taken: %action.</source>
+        <translation>Alt+Shift+%key ñam llamk'achisqa: %action.</translation>
+    </message>
+    <message>
+        <source>This page gives Alt+Shift+%key to one of its links: here the page wins.</source>
+        <translation>Kay p'anqaqa Alt+Shift+%key-ta huk t'inkinman qun: kaypi p'anqam atipan.</translation>
+    </message>
+    <message>
+        <source>Saved.</source>
+        <translation>Waqaychasqa.</translation>
+    </message>
+    <message>
+        <source>Back to the defaults</source>
+        <translation>Ñawpaq kaqman kutiy</translation>
+    </message>
+    <message>
+        <source>All shortcuts</source>
+        <translation>Llapan utqay ñankuna</translation>
+    </message>
+    <message>
+        <source>This page uses this key for one of its links: here the page wins.</source>
+        <translation>Kay p'anqaqa kay teclata huk t'inkinpaq llamk'achin: kaypi p'anqam atipan.</translation>
+    </message>
+    <message>
+        <source>Panel: %name</source>
+        <translation>Panel: %name</translation>
+    </message>
+    <message>
+        <source>Open the sidebar</source>
+        <translation>Waqta barrata kichay</translation>
+    </message>
+    <message>
+        <source>Move the tab along its edge, or to the opposite edge</source>
+        <translation>Tab-ta patanta kuyuchiy, utaq chimpa pataman</translation>
+    </message>
+    <message>
+        <source>Bigger steps</source>
+        <translation>Aswan hatun puriykuna</translation>
+    </message>
+    <message>
+        <source>Dock to that edge</source>
+        <translation>Chay pataman k'askachiy</translation>
+    </message>
+    <message>
+        <source>Go round the edges</source>
+        <translation>Patakunata muyuy</translation>
+    </message>
+    <message>
+        <source>To the start or the end of the edge</source>
+        <translation>Patap qallariyninman utaq tukukuyninman</translation>
+    </message>
+    <message>
+        <source>On the tab</source>
+        <translation>Tab-pi</translation>
+    </message>
+    <message>
+        <source>On a Mac, Option+Shift with a letter types a character in a text field: there the field gets it.</source>
+        <translation>Mac-pi, Option+Shift huk qillqawan qillqana kitipi huk sananchata qillqan: chaypi kitim chaskin.</translation>
+    </message>
+    <message>
+        <source>Change them in the Me panel</source>
+        <translation>Chaykunata «Ñuqa» panelpi tikray</translation>
+    </message>
+    <message>
+        <source>Open the Page panel to save its draft.</source>
+        <translation>«P'anqa» panelta kichay qillqa kaqninta waqaychanapaq.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Chaskina</translation>
     </message>

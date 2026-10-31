@@ -844,6 +844,94 @@
         <translation>Кирүүчүлөрүңүздө %n жаңы</translation>
     </message>
     <message>
+        <source>Open the sidebar or go into it</source>
+        <translation>Каптал панелди ачуу же ага өтүү</translation>
+    </message>
+    <message>
+        <source>Save the draft</source>
+        <translation>Долбоорду сактоо</translation>
+    </message>
+    <message>
+        <source>Keyboard shortcuts</source>
+        <translation>Баскычтоптун ыкчам баскычтары</translation>
+    </message>
+    <message>
+        <source>Use one letter, A to Z.</source>
+        <translation>Бир тамга колдонуңуз, A дан Z га чейин.</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key belongs to the browser or the system.</source>
+        <translation>Alt+Shift+%key браузерге же системага таандык.</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key is taken: %action.</source>
+        <translation>Alt+Shift+%key ээленген: %action.</translation>
+    </message>
+    <message>
+        <source>This page gives Alt+Shift+%key to one of its links: here the page wins.</source>
+        <translation>Бул барак Alt+Shift+%key баскычын шилтемелеринин бирине берет: бул жерде барак жеңет.</translation>
+    </message>
+    <message>
+        <source>Saved.</source>
+        <translation>Сакталды.</translation>
+    </message>
+    <message>
+        <source>Back to the defaults</source>
+        <translation>Демейкиге кайтуу</translation>
+    </message>
+    <message>
+        <source>All shortcuts</source>
+        <translation>Бардык ыкчам баскычтар</translation>
+    </message>
+    <message>
+        <source>This page uses this key for one of its links: here the page wins.</source>
+        <translation>Бул барак бул баскычты шилтемелеринин бири үчүн колдонот: бул жерде барак жеңет.</translation>
+    </message>
+    <message>
+        <source>Panel: %name</source>
+        <translation>Панел: %name</translation>
+    </message>
+    <message>
+        <source>Open the sidebar</source>
+        <translation>Каптал панелди ачуу</translation>
+    </message>
+    <message>
+        <source>Move the tab along its edge, or to the opposite edge</source>
+        <translation>Өтмөктү өз чети боюнча же карама-каршы четке жылдыруу</translation>
+    </message>
+    <message>
+        <source>Bigger steps</source>
+        <translation>Чоңураак кадамдар</translation>
+    </message>
+    <message>
+        <source>Dock to that edge</source>
+        <translation>Ошол четке бекитүү</translation>
+    </message>
+    <message>
+        <source>Go round the edges</source>
+        <translation>Четтерди айлануу</translation>
+    </message>
+    <message>
+        <source>To the start or the end of the edge</source>
+        <translation>Четтин башына же аягына</translation>
+    </message>
+    <message>
+        <source>On the tab</source>
+        <translation>Өтмөктө</translation>
+    </message>
+    <message>
+        <source>On a Mac, Option+Shift with a letter types a character in a text field: there the field gets it.</source>
+        <translation>Mac’та Option+Shift тамга менен текст талаасына белги терет: ал жерде аны талаа алат.</translation>
+    </message>
+    <message>
+        <source>Change them in the Me panel</source>
+        <translation>Аларды «Мен» панелинде өзгөртүңүз</translation>
+    </message>
+    <message>
+        <source>Open the Page panel to save its draft.</source>
+        <translation>Долбоорун сактоо үчүн «Барак» панелин ачыңыз.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Кирүүчүлөр</translation>
     </message>

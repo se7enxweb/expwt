@@ -844,6 +844,94 @@
         <translation>%n ໃໝ່ໃນກ່ອງຂາເຂົ້າຂອງທ່ານ</translation>
     </message>
     <message>
+        <source>Open the sidebar or go into it</source>
+        <translation>ເປີດແຖບຂ້າງ ຫຼື ເຂົ້າໄປໃນມັນ</translation>
+    </message>
+    <message>
+        <source>Save the draft</source>
+        <translation>ບັນທຶກສະບັບຮ່າງ</translation>
+    </message>
+    <message>
+        <source>Keyboard shortcuts</source>
+        <translation>ປຸ່ມລັດແປ້ນພິມ</translation>
+    </message>
+    <message>
+        <source>Use one letter, A to Z.</source>
+        <translation>ໃຊ້ຕົວອັກສອນດຽວ, A ຫາ Z.</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key belongs to the browser or the system.</source>
+        <translation>Alt+Shift+%key ເປັນຂອງບຣາວເຊີ ຫຼື ລະບົບ.</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key is taken: %action.</source>
+        <translation>Alt+Shift+%key ຖືກໃຊ້ແລ້ວ: %action.</translation>
+    </message>
+    <message>
+        <source>This page gives Alt+Shift+%key to one of its links: here the page wins.</source>
+        <translation>ໜ້ານີ້ໃຫ້ Alt+Shift+%key ແກ່ລິ້ງໜຶ່ງຂອງມັນ: ຢູ່ນີ້ໜ້າຊະນະ.</translation>
+    </message>
+    <message>
+        <source>Saved.</source>
+        <translation>ບັນທຶກແລ້ວ.</translation>
+    </message>
+    <message>
+        <source>Back to the defaults</source>
+        <translation>ກັບຄືນຄ່າເລີ່ມຕົ້ນ</translation>
+    </message>
+    <message>
+        <source>All shortcuts</source>
+        <translation>ປຸ່ມລັດທັງໝົດ</translation>
+    </message>
+    <message>
+        <source>This page uses this key for one of its links: here the page wins.</source>
+        <translation>ໜ້ານີ້ໃຊ້ປຸ່ມນີ້ສຳລັບລິ້ງໜຶ່ງຂອງມັນ: ຢູ່ນີ້ໜ້າຊະນະ.</translation>
+    </message>
+    <message>
+        <source>Panel: %name</source>
+        <translation>ແຜງ: %name</translation>
+    </message>
+    <message>
+        <source>Open the sidebar</source>
+        <translation>ເປີດແຖບຂ້າງ</translation>
+    </message>
+    <message>
+        <source>Move the tab along its edge, or to the opposite edge</source>
+        <translation>ຍ້າຍແທັບໄປຕາມຂອບຂອງມັນ ຫຼື ໄປຂອບກົງກັນຂ້າມ</translation>
+    </message>
+    <message>
+        <source>Bigger steps</source>
+        <translation>ກ້າວໃຫຍ່ຂຶ້ນ</translation>
+    </message>
+    <message>
+        <source>Dock to that edge</source>
+        <translation>ຕິດກັບຂອບນັ້ນ</translation>
+    </message>
+    <message>
+        <source>Go round the edges</source>
+        <translation>ໄປຮອບຂອບ</translation>
+    </message>
+    <message>
+        <source>To the start or the end of the edge</source>
+        <translation>ໄປຫາຕົ້ນ ຫຼື ທ້າຍຂອງຂອບ</translation>
+    </message>
+    <message>
+        <source>On the tab</source>
+        <translation>ຢູ່ເທິງແທັບ</translation>
+    </message>
+    <message>
+        <source>On a Mac, Option+Shift with a letter types a character in a text field: there the field gets it.</source>
+        <translation>ໃນ Mac, Option+Shift ກັບຕົວອັກສອນຈະພິມອັກຂະລະໃນຊ່ອງຂໍ້ຄວາມ: ຢູ່ນັ້ນຊ່ອງຈະໄດ້ຮັບມັນ.</translation>
+    </message>
+    <message>
+        <source>Change them in the Me panel</source>
+        <translation>ປ່ຽນພວກມັນໃນແຜງ «ຂ້ອຍ»</translation>
+    </message>
+    <message>
+        <source>Open the Page panel to save its draft.</source>
+        <translation>ເປີດແຜງ «ໜ້າ» ເພື່ອບັນທຶກສະບັບຮ່າງຂອງມັນ.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>ກ່ອງຂາເຂົ້າ</translation>
     </message>

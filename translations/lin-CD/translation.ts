@@ -844,6 +844,94 @@
         <translation>%n ya sika na bokóti ya mikanda na yo</translation>
     </message>
     <message>
+        <source>Open the sidebar or go into it</source>
+        <translation>Fungolá barre ya pembeni to kɔtá na kati na yango</translation>
+    </message>
+    <message>
+        <source>Save the draft</source>
+        <translation>Bómbá brouillon</translation>
+    </message>
+    <message>
+        <source>Keyboard shortcuts</source>
+        <translation>Banzela ya mokuse ya clavier</translation>
+    </message>
+    <message>
+        <source>Use one letter, A to Z.</source>
+        <translation>Salelá lilembo moko, A tii Z.</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key belongs to the browser or the system.</source>
+        <translation>Alt+Shift+%key ezali ya navigateur to ya système.</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key is taken: %action.</source>
+        <translation>Alt+Shift+%key ezali kosalelama: %action.</translation>
+    </message>
+    <message>
+        <source>This page gives Alt+Shift+%key to one of its links: here the page wins.</source>
+        <translation>Lokasa oyo epesaka Alt+Shift+%key na moko ya ba lien na yango: awa lokasa nde elongi.</translation>
+    </message>
+    <message>
+        <source>Saved.</source>
+        <translation>Ebómbami.</translation>
+    </message>
+    <message>
+        <source>Back to the defaults</source>
+        <translation>Kozonga na ndenge ya liboso</translation>
+    </message>
+    <message>
+        <source>All shortcuts</source>
+        <translation>Banzela nyonso ya mokuse</translation>
+    </message>
+    <message>
+        <source>This page uses this key for one of its links: here the page wins.</source>
+        <translation>Lokasa oyo esalelaka fiseli oyo mpo na moko ya ba lien na yango: awa lokasa nde elongi.</translation>
+    </message>
+    <message>
+        <source>Panel: %name</source>
+        <translation>Etando: %name</translation>
+    </message>
+    <message>
+        <source>Open the sidebar</source>
+        <translation>Fungolá barre ya pembeni</translation>
+    </message>
+    <message>
+        <source>Move the tab along its edge, or to the opposite edge</source>
+        <translation>Tambwisá tab na ngámbo na yango, to na ngámbo oyo etaleli yango</translation>
+    </message>
+    <message>
+        <source>Bigger steps</source>
+        <translation>Matambe ya minene</translation>
+    </message>
+    <message>
+        <source>Dock to that edge</source>
+        <translation>Kangisá na ngámbo wana</translation>
+    </message>
+    <message>
+        <source>Go round the edges</source>
+        <translation>Zinga ngámbo nyonso</translation>
+    </message>
+    <message>
+        <source>To the start or the end of the edge</source>
+        <translation>Na ebandeli to na nsuka ya ngámbo</translation>
+    </message>
+    <message>
+        <source>On the tab</source>
+        <translation>Na tab</translation>
+    </message>
+    <message>
+        <source>On a Mac, Option+Shift with a letter types a character in a text field: there the field gets it.</source>
+        <translation>Na Mac, Option+Shift na lilembo ekomaka elembo na esika ya kokoma: kuna esika yango nde ezwaka yango.</translation>
+    </message>
+    <message>
+        <source>Change them in the Me panel</source>
+        <translation>Bóbongola yango na etando «Ngai»</translation>
+    </message>
+    <message>
+        <source>Open the Page panel to save its draft.</source>
+        <translation>Fungolá etando «Lokasa» mpo na kobómba brouillon na yango.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Bokóti ya mikanda</translation>
     </message>

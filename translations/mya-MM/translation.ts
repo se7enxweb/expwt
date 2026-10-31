@@ -844,6 +844,94 @@
         <translation>သင့်ဝင်စာတွင် အသစ် %n</translation>
     </message>
     <message>
+        <source>Open the sidebar or go into it</source>
+        <translation>ဘေးဘားကို ဖွင့်ရန် သို့မဟုတ် ၎င်းထဲသို့ သွားရန်</translation>
+    </message>
+    <message>
+        <source>Save the draft</source>
+        <translation>မူကြမ်းကို သိမ်းရန်</translation>
+    </message>
+    <message>
+        <source>Keyboard shortcuts</source>
+        <translation>ကီးဘုတ် ဖြတ်လမ်းများ</translation>
+    </message>
+    <message>
+        <source>Use one letter, A to Z.</source>
+        <translation>စာလုံးတစ်လုံး သုံးပါ၊ A မှ Z။</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key belongs to the browser or the system.</source>
+        <translation>Alt+Shift+%key သည် ဘရောက်ဇာ သို့မဟုတ် စနစ်၏ ပိုင်ဆိုင်မှုဖြစ်သည်။</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key is taken: %action.</source>
+        <translation>Alt+Shift+%key ကို သုံးထားပြီးဖြစ်သည်- %action။</translation>
+    </message>
+    <message>
+        <source>This page gives Alt+Shift+%key to one of its links: here the page wins.</source>
+        <translation>ဤစာမျက်နှာသည် Alt+Shift+%key ကို ၎င်း၏ လင့်ခ်တစ်ခုအား ပေးထားသည်- ဤနေရာတွင် စာမျက်နှာက အနိုင်ရသည်။</translation>
+    </message>
+    <message>
+        <source>Saved.</source>
+        <translation>သိမ်းပြီး။</translation>
+    </message>
+    <message>
+        <source>Back to the defaults</source>
+        <translation>မူလသို့ ပြန်သွားရန်</translation>
+    </message>
+    <message>
+        <source>All shortcuts</source>
+        <translation>ဖြတ်လမ်းအားလုံး</translation>
+    </message>
+    <message>
+        <source>This page uses this key for one of its links: here the page wins.</source>
+        <translation>ဤစာမျက်နှာသည် ဤကီးကို ၎င်း၏ လင့်ခ်တစ်ခုအတွက် သုံးသည်- ဤနေရာတွင် စာမျက်နှာက အနိုင်ရသည်။</translation>
+    </message>
+    <message>
+        <source>Panel: %name</source>
+        <translation>ဘောင်- %name</translation>
+    </message>
+    <message>
+        <source>Open the sidebar</source>
+        <translation>ဘေးဘားကို ဖွင့်ရန်</translation>
+    </message>
+    <message>
+        <source>Move the tab along its edge, or to the opposite edge</source>
+        <translation>တဘ်ကို ၎င်း၏ အစွန်းတစ်လျှောက် သို့မဟုတ် ဆန့်ကျင်ဘက် အစွန်းသို့ ရွှေ့ရန်</translation>
+    </message>
+    <message>
+        <source>Bigger steps</source>
+        <translation>ပိုကြီးသော အဆင့်များ</translation>
+    </message>
+    <message>
+        <source>Dock to that edge</source>
+        <translation>ထိုအစွန်းသို့ ချိတ်ရန်</translation>
+    </message>
+    <message>
+        <source>Go round the edges</source>
+        <translation>အစွန်းများ ပတ်ပတ်လည် သွားရန်</translation>
+    </message>
+    <message>
+        <source>To the start or the end of the edge</source>
+        <translation>အစွန်း၏ အစ သို့မဟုတ် အဆုံးသို့</translation>
+    </message>
+    <message>
+        <source>On the tab</source>
+        <translation>တဘ်ပေါ်တွင်</translation>
+    </message>
+    <message>
+        <source>On a Mac, Option+Shift with a letter types a character in a text field: there the field gets it.</source>
+        <translation>Mac တွင် စာလုံးနှင့်အတူ Option+Shift က စာသားအကွက်ထဲ အက္ခရာတစ်ခု ရိုက်ထည့်သည်- ထိုနေရာတွင် အကွက်က ရရှိသည်။</translation>
+    </message>
+    <message>
+        <source>Change them in the Me panel</source>
+        <translation>၎င်းတို့ကို «ကျွန်ုပ်» ဘောင်တွင် ပြောင်းပါ</translation>
+    </message>
+    <message>
+        <source>Open the Page panel to save its draft.</source>
+        <translation>၎င်း၏ မူကြမ်းကို သိမ်းရန် «စာမျက်နှာ» ဘောင်ကို ဖွင့်ပါ။</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>ဝင်စာ</translation>
     </message>

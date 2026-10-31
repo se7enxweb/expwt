@@ -844,6 +844,94 @@
         <translation>%n nei an Ärer Postkëscht</translation>
     </message>
     <message>
+        <source>Open the sidebar or go into it</source>
+        <translation>Säiteleescht opmaachen oder dohinner wiesselen</translation>
+    </message>
+    <message>
+        <source>Save the draft</source>
+        <translation>Entworf späicheren</translation>
+    </message>
+    <message>
+        <source>Keyboard shortcuts</source>
+        <translation>Tastekierzelen</translation>
+    </message>
+    <message>
+        <source>Use one letter, A to Z.</source>
+        <translation>Benotzt ee Buschtaf, A bis Z.</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key belongs to the browser or the system.</source>
+        <translation>Alt+Shift+%key gehéiert dem Browser oder dem System.</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key is taken: %action.</source>
+        <translation>Alt+Shift+%key ass scho beluecht: %action.</translation>
+    </message>
+    <message>
+        <source>This page gives Alt+Shift+%key to one of its links: here the page wins.</source>
+        <translation>Dës Säit gëtt Alt+Shift+%key engem vun hire Linken: hei gewënnt d'Säit.</translation>
+    </message>
+    <message>
+        <source>Saved.</source>
+        <translation>Gespäichert.</translation>
+    </message>
+    <message>
+        <source>Back to the defaults</source>
+        <translation>Zréck op d'Standardwäerter</translation>
+    </message>
+    <message>
+        <source>All shortcuts</source>
+        <translation>All Tastekierzelen</translation>
+    </message>
+    <message>
+        <source>This page uses this key for one of its links: here the page wins.</source>
+        <translation>Dës Säit benotzt dës Tast fir ee vun hire Linken: hei gewënnt d'Säit.</translation>
+    </message>
+    <message>
+        <source>Panel: %name</source>
+        <translation>Beräich: %name</translation>
+    </message>
+    <message>
+        <source>Open the sidebar</source>
+        <translation>Säiteleescht opmaachen</translation>
+    </message>
+    <message>
+        <source>Move the tab along its edge, or to the opposite edge</source>
+        <translation>De Reider laanscht säi Rand oder un de vis-à-vis Rand réckelen</translation>
+    </message>
+    <message>
+        <source>Bigger steps</source>
+        <translation>Méi grouss Schrëtt</translation>
+    </message>
+    <message>
+        <source>Dock to that edge</source>
+        <translation>Un dee Rand andocken</translation>
+    </message>
+    <message>
+        <source>Go round the edges</source>
+        <translation>Ronderëm d'Ränner</translation>
+    </message>
+    <message>
+        <source>To the start or the end of the edge</source>
+        <translation>Un den Ufank oder d'Enn vum Rand</translation>
+    </message>
+    <message>
+        <source>On the tab</source>
+        <translation>Um Reider</translation>
+    </message>
+    <message>
+        <source>On a Mac, Option+Shift with a letter types a character in a text field: there the field gets it.</source>
+        <translation>Op engem Mac tippt Option+Shift mat engem Buschtaf en Zeechen an en Textfeld: do kritt d'Feld et.</translation>
+    </message>
+    <message>
+        <source>Change them in the Me panel</source>
+        <translation>Ännert se am Beräich „Ech“</translation>
+    </message>
+    <message>
+        <source>Open the Page panel to save its draft.</source>
+        <translation>Maacht de Beräich „Säit“ op, fir säin Entworf ze späicheren.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Postkëscht</translation>
     </message>

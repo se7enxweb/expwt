@@ -844,6 +844,94 @@
         <translation>%n newydd yn eich mewnflwch</translation>
     </message>
     <message>
+        <source>Open the sidebar or go into it</source>
+        <translation>Agor y bar ochr neu fynd iddo</translation>
+    </message>
+    <message>
+        <source>Save the draft</source>
+        <translation>Cadw'r drafft</translation>
+    </message>
+    <message>
+        <source>Keyboard shortcuts</source>
+        <translation>Llwybrau byr bysellfwrdd</translation>
+    </message>
+    <message>
+        <source>Use one letter, A to Z.</source>
+        <translation>Defnyddiwch un llythyren, A i Z.</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key belongs to the browser or the system.</source>
+        <translation>Mae Alt+Shift+%key yn perthyn i'r porwr neu'r system.</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key is taken: %action.</source>
+        <translation>Mae Alt+Shift+%key wedi'i gymryd: %action.</translation>
+    </message>
+    <message>
+        <source>This page gives Alt+Shift+%key to one of its links: here the page wins.</source>
+        <translation>Mae'r dudalen hon yn rhoi Alt+Shift+%key i un o'i dolenni: yma mae'r dudalen yn ennill.</translation>
+    </message>
+    <message>
+        <source>Saved.</source>
+        <translation>Wedi'i gadw.</translation>
+    </message>
+    <message>
+        <source>Back to the defaults</source>
+        <translation>Yn ôl i'r rhagosodiadau</translation>
+    </message>
+    <message>
+        <source>All shortcuts</source>
+        <translation>Pob llwybr byr</translation>
+    </message>
+    <message>
+        <source>This page uses this key for one of its links: here the page wins.</source>
+        <translation>Mae'r dudalen hon yn defnyddio'r fysell hon ar gyfer un o'i dolenni: yma mae'r dudalen yn ennill.</translation>
+    </message>
+    <message>
+        <source>Panel: %name</source>
+        <translation>Panel: %name</translation>
+    </message>
+    <message>
+        <source>Open the sidebar</source>
+        <translation>Agor y bar ochr</translation>
+    </message>
+    <message>
+        <source>Move the tab along its edge, or to the opposite edge</source>
+        <translation>Symud y tab ar hyd ei ymyl, neu i'r ymyl gyferbyn</translation>
+    </message>
+    <message>
+        <source>Bigger steps</source>
+        <translation>Camau mwy</translation>
+    </message>
+    <message>
+        <source>Dock to that edge</source>
+        <translation>Docio wrth yr ymyl honno</translation>
+    </message>
+    <message>
+        <source>Go round the edges</source>
+        <translation>Mynd o amgylch yr ymylon</translation>
+    </message>
+    <message>
+        <source>To the start or the end of the edge</source>
+        <translation>I ddechrau neu ddiwedd yr ymyl</translation>
+    </message>
+    <message>
+        <source>On the tab</source>
+        <translation>Ar y tab</translation>
+    </message>
+    <message>
+        <source>On a Mac, Option+Shift with a letter types a character in a text field: there the field gets it.</source>
+        <translation>Ar Mac, mae Option+Shift gyda llythyren yn teipio nod mewn maes testun: yno mae'r maes yn ei gael.</translation>
+    </message>
+    <message>
+        <source>Change them in the Me panel</source>
+        <translation>Newidiwch nhw yn y panel «Fi»</translation>
+    </message>
+    <message>
+        <source>Open the Page panel to save its draft.</source>
+        <translation>Agorwch y panel «Tudalen» i gadw ei ddrafft.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Mewnflwch</translation>
     </message>

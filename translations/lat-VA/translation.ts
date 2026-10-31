@@ -844,6 +844,94 @@
         <translation>%n nova in arca tua accepta</translation>
     </message>
     <message>
+        <source>Open the sidebar or go into it</source>
+        <translation>Tabulam lateralem aperire vel in eam ire</translation>
+    </message>
+    <message>
+        <source>Save the draft</source>
+        <translation>Adumbrationem servare</translation>
+    </message>
+    <message>
+        <source>Keyboard shortcuts</source>
+        <translation>Compendia claviaturae</translation>
+    </message>
+    <message>
+        <source>Use one letter, A to Z.</source>
+        <translation>Una littera utere, ab A ad Z.</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key belongs to the browser or the system.</source>
+        <translation>Alt+Shift+%key ad navigatrum vel systema pertinet.</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key is taken: %action.</source>
+        <translation>Alt+Shift+%key iam occupatum est: %action.</translation>
+    </message>
+    <message>
+        <source>This page gives Alt+Shift+%key to one of its links: here the page wins.</source>
+        <translation>Haec pagina Alt+Shift+%key uni ex nexibus suis dat: hic pagina vincit.</translation>
+    </message>
+    <message>
+        <source>Saved.</source>
+        <translation>Servatum.</translation>
+    </message>
+    <message>
+        <source>Back to the defaults</source>
+        <translation>Ad praedefinita redire</translation>
+    </message>
+    <message>
+        <source>All shortcuts</source>
+        <translation>Omnia compendia</translation>
+    </message>
+    <message>
+        <source>This page uses this key for one of its links: here the page wins.</source>
+        <translation>Haec pagina hanc clavem pro uno ex nexibus suis adhibet: hic pagina vincit.</translation>
+    </message>
+    <message>
+        <source>Panel: %name</source>
+        <translation>Tabula: %name</translation>
+    </message>
+    <message>
+        <source>Open the sidebar</source>
+        <translation>Tabulam lateralem aperire</translation>
+    </message>
+    <message>
+        <source>Move the tab along its edge, or to the opposite edge</source>
+        <translation>Linguam secundum oram suam vel ad oram oppositam movere</translation>
+    </message>
+    <message>
+        <source>Bigger steps</source>
+        <translation>Gradus maiores</translation>
+    </message>
+    <message>
+        <source>Dock to that edge</source>
+        <translation>Ad illam oram affigere</translation>
+    </message>
+    <message>
+        <source>Go round the edges</source>
+        <translation>Oras circumire</translation>
+    </message>
+    <message>
+        <source>To the start or the end of the edge</source>
+        <translation>Ad initium vel finem orae</translation>
+    </message>
+    <message>
+        <source>On the tab</source>
+        <translation>In lingua</translation>
+    </message>
+    <message>
+        <source>On a Mac, Option+Shift with a letter types a character in a text field: there the field gets it.</source>
+        <translation>In Mac, Option+Shift cum littera signum in campo textus scribit: ibi campus id accipit.</translation>
+    </message>
+    <message>
+        <source>Change them in the Me panel</source>
+        <translation>Muta ea in tabula «Ego»</translation>
+    </message>
+    <message>
+        <source>Open the Page panel to save its draft.</source>
+        <translation>Aperi tabulam «Pagina» ut adumbrationem eius serves.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Arca accepta</translation>
     </message>

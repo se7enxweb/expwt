@@ -844,6 +844,94 @@
         <translation>ཁྱེད་ཀྱི་ནང་འབྱོར་དུ་གསར་པ་ %n</translation>
     </message>
     <message>
+        <source>Open the sidebar or go into it</source>
+        <translation>ཟུར་ཕྱོགས་སྡེ་ཚན་ཁ་ཕྱེ་བའམ་ནང་དུ་འགྲོ།</translation>
+    </message>
+    <message>
+        <source>Save the draft</source>
+        <translation>ཟིན་བྲིས་ཉར།</translation>
+    </message>
+    <message>
+        <source>Keyboard shortcuts</source>
+        <translation>མཐེབ་གཞོང་མྱུར་ལམ།</translation>
+    </message>
+    <message>
+        <source>Use one letter, A to Z.</source>
+        <translation>ཡི་གེ་གཅིག་བེད་སྤྱོད་གྱིས། A ནས་ Z བར།</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key belongs to the browser or the system.</source>
+        <translation>Alt+Shift+%key ནི་བཤར་ཆས་སམ་མ་ལག་གི་ཡིན།</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key is taken: %action.</source>
+        <translation>Alt+Shift+%key བེད་སྤྱོད་བྱས་ཟིན། %action</translation>
+    </message>
+    <message>
+        <source>This page gives Alt+Shift+%key to one of its links: here the page wins.</source>
+        <translation>ཤོག་ངོས་འདིས་ Alt+Shift+%key དེ་རང་གི་སྦྲེལ་ཐག་ཅིག་ལ་སྤྲོད། འདིར་ཤོག་ངོས་རྒྱལ།</translation>
+    </message>
+    <message>
+        <source>Saved.</source>
+        <translation>ཉར་ཟིན།</translation>
+    </message>
+    <message>
+        <source>Back to the defaults</source>
+        <translation>སྔོན་སྒྲིག་ལ་ཕྱིར་ལོག</translation>
+    </message>
+    <message>
+        <source>All shortcuts</source>
+        <translation>མྱུར་ལམ་ཚང་མ།</translation>
+    </message>
+    <message>
+        <source>This page uses this key for one of its links: here the page wins.</source>
+        <translation>ཤོག་ངོས་འདིས་མཐེབ་འདི་རང་གི་སྦྲེལ་ཐག་ཅིག་ལ་བེད་སྤྱོད་བྱེད། འདིར་ཤོག་ངོས་རྒྱལ།</translation>
+    </message>
+    <message>
+        <source>Panel: %name</source>
+        <translation>ལེབ་ངོས། %name</translation>
+    </message>
+    <message>
+        <source>Open the sidebar</source>
+        <translation>ཟུར་ཕྱོགས་སྡེ་ཚན་ཁ་ཕྱེ།</translation>
+    </message>
+    <message>
+        <source>Move the tab along its edge, or to the opposite edge</source>
+        <translation>ཤོག་བྱང་དེ་རང་གི་མཐའ་བརྒྱུད་དམ་ཕ་རོལ་གྱི་མཐར་སྤོ།</translation>
+    </message>
+    <message>
+        <source>Bigger steps</source>
+        <translation>གོམ་པ་ཆེ་བ།</translation>
+    </message>
+    <message>
+        <source>Dock to that edge</source>
+        <translation>མཐའ་དེར་སྦྱོར།</translation>
+    </message>
+    <message>
+        <source>Go round the edges</source>
+        <translation>མཐའ་ཡོངས་ལ་བསྐོར།</translation>
+    </message>
+    <message>
+        <source>To the start or the end of the edge</source>
+        <translation>མཐའི་འགོ་འམ་མཇུག་ཏུ།</translation>
+    </message>
+    <message>
+        <source>On the tab</source>
+        <translation>ཤོག་བྱང་ཐོག</translation>
+    </message>
+    <message>
+        <source>On a Mac, Option+Shift with a letter types a character in a text field: there the field gets it.</source>
+        <translation>Mac ཐོག Option+Shift དང་ཡི་གེ་གཅིག་གིས་ཡི་གེའི་ཁོངས་སུ་རྟགས་ཤིག་འབྲི། དེར་ཁོངས་ཀྱིས་ལེན།</translation>
+    </message>
+    <message>
+        <source>Change them in the Me panel</source>
+        <translation>དེ་དག་ «ང་» ལེབ་ངོས་ནང་བསྒྱུར།</translation>
+    </message>
+    <message>
+        <source>Open the Page panel to save its draft.</source>
+        <translation>ཟིན་བྲིས་ཉར་བར་ «ཤོག་ངོས་» ལེབ་ངོས་ཁ་ཕྱེ།</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>ནང་འབྱོར།</translation>
     </message>

@@ -844,6 +844,94 @@
         <translation>ਤੁਹਾਡੇ ਇਨਬਾਕਸ ਵਿੱਚ %n ਨਵੇਂ</translation>
     </message>
     <message>
+        <source>Open the sidebar or go into it</source>
+        <translation>ਸਾਈਡਬਾਰ ਖੋਲ੍ਹੋ ਜਾਂ ਉਸ ਵਿੱਚ ਜਾਓ</translation>
+    </message>
+    <message>
+        <source>Save the draft</source>
+        <translation>ਖਰੜਾ ਸੰਭਾਲੋ</translation>
+    </message>
+    <message>
+        <source>Keyboard shortcuts</source>
+        <translation>ਕੀਬੋਰਡ ਸ਼ਾਰਟਕੱਟ</translation>
+    </message>
+    <message>
+        <source>Use one letter, A to Z.</source>
+        <translation>ਇੱਕ ਅੱਖਰ ਵਰਤੋ, A ਤੋਂ Z ਤੱਕ।</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key belongs to the browser or the system.</source>
+        <translation>Alt+Shift+%key ਬ੍ਰਾਊਜ਼ਰ ਜਾਂ ਸਿਸਟਮ ਦਾ ਹੈ।</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key is taken: %action.</source>
+        <translation>Alt+Shift+%key ਪਹਿਲਾਂ ਹੀ ਵਰਤੋਂ ਵਿੱਚ ਹੈ: %action।</translation>
+    </message>
+    <message>
+        <source>This page gives Alt+Shift+%key to one of its links: here the page wins.</source>
+        <translation>ਇਹ ਪੰਨਾ Alt+Shift+%key ਆਪਣੇ ਇੱਕ ਲਿੰਕ ਨੂੰ ਦਿੰਦਾ ਹੈ: ਇੱਥੇ ਪੰਨਾ ਜਿੱਤਦਾ ਹੈ।</translation>
+    </message>
+    <message>
+        <source>Saved.</source>
+        <translation>ਸੰਭਾਲਿਆ ਗਿਆ।</translation>
+    </message>
+    <message>
+        <source>Back to the defaults</source>
+        <translation>ਡਿਫ਼ਾਲਟ 'ਤੇ ਵਾਪਸ</translation>
+    </message>
+    <message>
+        <source>All shortcuts</source>
+        <translation>ਸਾਰੇ ਸ਼ਾਰਟਕੱਟ</translation>
+    </message>
+    <message>
+        <source>This page uses this key for one of its links: here the page wins.</source>
+        <translation>ਇਹ ਪੰਨਾ ਇਹ ਕੁੰਜੀ ਆਪਣੇ ਇੱਕ ਲਿੰਕ ਲਈ ਵਰਤਦਾ ਹੈ: ਇੱਥੇ ਪੰਨਾ ਜਿੱਤਦਾ ਹੈ।</translation>
+    </message>
+    <message>
+        <source>Panel: %name</source>
+        <translation>ਪੈਨਲ: %name</translation>
+    </message>
+    <message>
+        <source>Open the sidebar</source>
+        <translation>ਸਾਈਡਬਾਰ ਖੋਲ੍ਹੋ</translation>
+    </message>
+    <message>
+        <source>Move the tab along its edge, or to the opposite edge</source>
+        <translation>ਟੈਬ ਨੂੰ ਉਸਦੇ ਕਿਨਾਰੇ ਦੇ ਨਾਲ ਜਾਂ ਉਲਟ ਕਿਨਾਰੇ 'ਤੇ ਲੈ ਜਾਓ</translation>
+    </message>
+    <message>
+        <source>Bigger steps</source>
+        <translation>ਵੱਡੇ ਕਦਮ</translation>
+    </message>
+    <message>
+        <source>Dock to that edge</source>
+        <translation>ਉਸ ਕਿਨਾਰੇ ਨਾਲ ਜੋੜੋ</translation>
+    </message>
+    <message>
+        <source>Go round the edges</source>
+        <translation>ਕਿਨਾਰਿਆਂ ਦੇ ਦੁਆਲੇ ਜਾਓ</translation>
+    </message>
+    <message>
+        <source>To the start or the end of the edge</source>
+        <translation>ਕਿਨਾਰੇ ਦੀ ਸ਼ੁਰੂਆਤ ਜਾਂ ਅੰਤ 'ਤੇ</translation>
+    </message>
+    <message>
+        <source>On the tab</source>
+        <translation>ਟੈਬ 'ਤੇ</translation>
+    </message>
+    <message>
+        <source>On a Mac, Option+Shift with a letter types a character in a text field: there the field gets it.</source>
+        <translation>Mac 'ਤੇ, ਅੱਖਰ ਨਾਲ Option+Shift ਟੈਕਸਟ ਖੇਤਰ ਵਿੱਚ ਇੱਕ ਚਿੰਨ੍ਹ ਟਾਈਪ ਕਰਦਾ ਹੈ: ਉੱਥੇ ਖੇਤਰ ਨੂੰ ਉਹ ਮਿਲਦਾ ਹੈ।</translation>
+    </message>
+    <message>
+        <source>Change them in the Me panel</source>
+        <translation>ਇਨ੍ਹਾਂ ਨੂੰ «ਮੈਂ» ਪੈਨਲ ਵਿੱਚ ਬਦਲੋ</translation>
+    </message>
+    <message>
+        <source>Open the Page panel to save its draft.</source>
+        <translation>ਉਸਦਾ ਖਰੜਾ ਸੰਭਾਲਣ ਲਈ «ਪੰਨਾ» ਪੈਨਲ ਖੋਲ੍ਹੋ।</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>ਇਨਬਾਕਸ</translation>
     </message>

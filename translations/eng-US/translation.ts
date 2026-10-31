@@ -844,6 +844,94 @@
         <translation>%n new in your inbox</translation>
     </message>
     <message>
+        <source>Open the sidebar or go into it</source>
+        <translation>Open the sidebar or go into it</translation>
+    </message>
+    <message>
+        <source>Save the draft</source>
+        <translation>Save the draft</translation>
+    </message>
+    <message>
+        <source>Keyboard shortcuts</source>
+        <translation>Keyboard shortcuts</translation>
+    </message>
+    <message>
+        <source>Use one letter, A to Z.</source>
+        <translation>Use one letter, A to Z.</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key belongs to the browser or the system.</source>
+        <translation>Alt+Shift+%key belongs to the browser or the system.</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key is taken: %action.</source>
+        <translation>Alt+Shift+%key is taken: %action.</translation>
+    </message>
+    <message>
+        <source>This page gives Alt+Shift+%key to one of its links: here the page wins.</source>
+        <translation>This page gives Alt+Shift+%key to one of its links: here the page wins.</translation>
+    </message>
+    <message>
+        <source>Saved.</source>
+        <translation>Saved.</translation>
+    </message>
+    <message>
+        <source>Back to the defaults</source>
+        <translation>Back to the defaults</translation>
+    </message>
+    <message>
+        <source>All shortcuts</source>
+        <translation>All shortcuts</translation>
+    </message>
+    <message>
+        <source>This page uses this key for one of its links: here the page wins.</source>
+        <translation>This page uses this key for one of its links: here the page wins.</translation>
+    </message>
+    <message>
+        <source>Panel: %name</source>
+        <translation>Panel: %name</translation>
+    </message>
+    <message>
+        <source>Open the sidebar</source>
+        <translation>Open the sidebar</translation>
+    </message>
+    <message>
+        <source>Move the tab along its edge, or to the opposite edge</source>
+        <translation>Move the tab along its edge, or to the opposite edge</translation>
+    </message>
+    <message>
+        <source>Bigger steps</source>
+        <translation>Bigger steps</translation>
+    </message>
+    <message>
+        <source>Dock to that edge</source>
+        <translation>Dock to that edge</translation>
+    </message>
+    <message>
+        <source>Go round the edges</source>
+        <translation>Go round the edges</translation>
+    </message>
+    <message>
+        <source>To the start or the end of the edge</source>
+        <translation>To the start or the end of the edge</translation>
+    </message>
+    <message>
+        <source>On the tab</source>
+        <translation>On the tab</translation>
+    </message>
+    <message>
+        <source>On a Mac, Option+Shift with a letter types a character in a text field: there the field gets it.</source>
+        <translation>On a Mac, Option+Shift with a letter types a character in a text field: there the field gets it.</translation>
+    </message>
+    <message>
+        <source>Change them in the Me panel</source>
+        <translation>Change them in the Me panel</translation>
+    </message>
+    <message>
+        <source>Open the Page panel to save its draft.</source>
+        <translation>Open the Page panel to save its draft.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Inbox</translation>
     </message>

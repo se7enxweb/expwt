@@ -130,7 +130,7 @@ class expwtPureTest extends PHPUnit\Framework\TestCase
         $state = expwtState::normalize( array( 'edge' => 'top', 'align' => 'start', 'offset' => '120', 'width' => 99999, 'height' => 5,
                                                'open' => 'true', 'mode' => 'overlay', 'theme' => 'dark', 'panel' => 'me', 'evil' => '<script>' ), $s );
         $this->assertSame( array( 'edge' => 'top', 'align' => 'start', 'offset' => 120, 'width' => 720, 'height' => 160, 'open' => true,
-                                  'mode' => 'overlay', 'theme' => 'dark', 'panel' => 'me' ), $state );
+                                  'mode' => 'overlay', 'theme' => 'dark', 'panel' => 'me', 'keys' => array() ), $state );
         $bad = expwtState::normalize( array( 'edge' => 'middle', 'align' => 'center', 'height' => 99999 ), $s );
         $this->assertSame( array( 'right', 'end', 640 ), array( $bad['edge'], $bad['align'], $bad['height'] ) );
         $this->assertSame( expwtState::defaults( $s ), expwtState::normalize( 'nonsense', $s ) );
@@ -383,6 +383,40 @@ class expwtPureTest extends PHPUnit\Framework\TestCase
         if ( $node === '' || !is_executable( $node ) )
             $this->markTestSkipped( 'Node is not installed' );
         exec( escapeshellarg( $node ) . ' ' . escapeshellarg( dirname( __DIR__, 2 ) . '/js/seo.test.js' ) . ' 2>&1', $out, $status );
+        $this->assertSame( 0, $status, implode( "\n", $out ) );
+        $this->assertStringStartsWith( 'PASS', (string)end( $out ) );
+    }
+
+    /** F30: the user's own shortcuts are checked on the server as in the browser, and only those that differ are kept */
+    public function testTheUsersShortcutsAreCheckedAndKeptOnlyWhenTheyDiffer()
+    {
+        $this->assertSame( array(), expwtState::keys( null ) );
+        $this->assertSame( array( 'save' => 'Q' ), expwtState::keys( array( 'save' => 'q' ) ) );
+        $this->assertSame( array(), expwtState::keys( array( 'save' => 'D' ) ), 'the default is not kept' );
+        $this->assertSame( array(), expwtState::keys( array( 'save' => 'S', 'help' => 'I' ) ), 'reserved: the browser\'s or the system\'s' );
+        $this->assertSame( array(), expwtState::keys( array( 'save' => '7', 'inline' => 'KK', 'help' => array() ) ), 'one letter only' );
+        $this->assertSame( array(), expwtState::keys( array( 'save' => 'E' ) ), 'taken by open' );
+        $this->assertSame( array( 'save' => 'Q' ), expwtState::keys( array( 'save' => 'Q', 'help' => 'Q' ) ), 'each key once' );
+        $this->assertSame( array( 'open' => 'E' ), expwtState::keys( array( 'open' => 'E' ), 'W' ), 'against the setting ShortcutKey' );
+        $this->assertSame( array(), expwtState::keys( array( 'publish' => 'P' ) ), 'unknown actions are dropped' );
+        $s = self::settings();
+        $this->assertSame( array( 'inline' => 'J' ), expwtState::normalize( array( 'keys' => array( 'inline' => 'j', 'save' => 'B' ) ), $s )['keys'] );
+        $this->assertSame( array(), expwtState::defaults( $s )['keys'] );
+        // the browser's list is the same (expwt.js ExpwtKeys)
+        $js = file_get_contents( dirname( __DIR__, 3 ) . '/design/standard/javascript/expwt.js' );
+        $this->assertSame( 1, preg_match( "/RESERVED: '([A-Z]+)'/", $js, $m ) );
+        $this->assertSame( expwtState::RESERVED_KEYS, $m[1] );
+        $this->assertSame( 1, preg_match( "/DEFAULTS: \{ open: '(\w)', save: '(\w)', inline: '(\w)', help: '(\w)' \}/", $js, $d ) );
+        $this->assertSame( array_values( expwtState::KEYS ), array_slice( $d, 1 ) );
+    }
+
+    /** F30: the rules of the shortcuts in the browser (tests/js/shortcuts.test.js, Node) */
+    public function testTheRulesOfTheShortcuts()
+    {
+        $node = trim( (string)shell_exec( 'command -v node 2>&1' ) );
+        if ( $node === '' || !is_executable( $node ) )
+            $this->markTestSkipped( 'Node is not installed' );
+        exec( escapeshellarg( $node ) . ' ' . escapeshellarg( dirname( __DIR__, 2 ) . '/js/shortcuts.test.js' ) . ' 2>&1', $out, $status );
         $this->assertSame( 0, $status, implode( "\n", $out ) );
         $this->assertStringStartsWith( 'PASS', (string)end( $out ) );
     }

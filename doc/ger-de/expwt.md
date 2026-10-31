@@ -48,6 +48,28 @@ der Stelle von ezwt in den aktiven Erweiterungen. Ein Probelauf listet die Ände
   - **Pos1** und **Ende** bringen ihn an den Anfang oder das Ende des Randes (oben und unten: am linken oder rechten
     Ende verankert);
   - Enter öffnet ihn. **Alt+Umschalt+E** öffnet sie von überall und setzt den Fokus hinein; Escape schließt sie.
+- **Tastenkürzel:** alle sind Alt+Umschalt mit einem Buchstaben oder einer Ziffer, die eine Kombination, die Browser und
+  Systeme frei lassen (Strg oder Cmd mit einem Buchstaben gehört dem Browser, Alt mit einem Buchstaben öffnet seine
+  Menüs, Strg+Alt ist AltGr):
+
+  | Tasten | |
+  |---|---|
+  | Alt+Umschalt+E | die Seitenleiste öffnen oder den Fokus hineinsetzen (`ShortcutKey`) |
+  | Alt+Umschalt+D | den Entwurf des Bereichs Seite speichern |
+  | Alt+Umschalt+K | auf der Seite bearbeiten, ein oder aus |
+  | Alt+Umschalt+H | die Übersicht: jedes Tastenkürzel, das auf dieser Seite für Sie gilt, und die Tasten des Reiters |
+  | Alt+Umschalt+1 bis 9 | die Bereiche in ihrer Reihenfolge (1 Seite, 2 Erstellen ...) |
+
+  Die Buchstaben werden im Bereich Ich unter **Tastenkürzel** geändert und mit den anderen Einstellungen der
+  Seitenleiste gespeichert (für den Benutzer auf dem Server oder nur auf diesem Gerät). Ein Buchstabe wird mit Grund
+  abgelehnt, wenn er nicht ein Buchstabe von A bis Z ist, wenn ihn ein anderes Kürzel hat oder wenn Browser oder System
+  ihn mit Alt+Umschalt belegen (A, B, I, L, M, N, S, T: Feedback-Formular, Symbolleiste, Dialoge und Lesezeichenleiste
+  von Chrome und Edge, Launcher, Dateien, Benachrichtigungen und Statusbereich von ChromeOS); **Zurück zu den
+  Standardwerten** stellt sie wieder her. Screenreader belegen Alt+Umschalt mit einem Buchstaben nicht (NVDA, JAWS,
+  Sprachausgabe und Orca nutzen Einfg oder Feststelltaste, VoiceOver Control+Option) und reichen es im Lesemodus
+  weiter. Eine Taste, die die Seite einem ihrer eigenen Links gibt (`accesskey`, die Firefox mit Alt+Umschalt
+  erreicht), bleibt der Seite: Die Seitenleiste lässt sie dort in Ruhe, und die Übersicht sagt es. Auf einem Mac tippt
+  Option+Umschalt mit einem Buchstaben ein Zeichen: In einem Textfeld mit dem Fokus bekommt es das Feld.
   Im Bereich „Ich" gibt es dasselbe als Einstellung: **Position** links / rechts / oben / unten, und für oben und unten
   **Ausgerichtet nach** links oder rechts.
 - **Die Leiste oben und unten** ist in die Breite angelegt, damit ihre wichtigsten Bedienelemente nie eine Bildlaufleiste
@@ -254,7 +276,7 @@ Stylesheet) bleibt unter 50 KB gzip; ein Test hält ihn dort.
 | `DefaultWidth`, `MinWidth`, `MaxWidth` | 380, 300, 720 | Breite des Bereichs links und rechts beim ersten Besuch, die Grenzen |
 | `DefaultHeight`, `MinHeight`, `MaxHeight` | 280, 160, 640 | Höhe der Leiste oben und unten beim ersten Besuch, die Grenzen |
 | `OverlayBelowWidth` | 768 | schmalere Fenster bekommen den Bereich über der Seite |
-| `ShortcutKey` | E | Alt+Umschalt+<Taste> |
+| `ShortcutKey` | E | der Buchstabe von Alt+Umschalt+<Taste>, der die Seitenleiste öffnet, für Benutzer ohne eigene Wahl (Bereich Ich) |
 | `HeaderSelector` | header, [role=banner], #header, .header | der Kopf der Website, unter dem der Reiter und die obere Leiste sitzen |
 | `FooterSelector` | footer, [role=contentinfo], Cookie-Hinweise | was die Website unten im Fenster festhalten kann; die untere Leiste sitzt über dem, was davon dort gerade fest steht |
 | `[CreateSettings] HiddenClassList[]` | common_ini_settings | Klassen, die Anlegen nie anbietet |

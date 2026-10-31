@@ -844,6 +844,94 @@
         <translation>%n yu bees ci sa bataaxal yu dikk</translation>
     </message>
     <message>
+        <source>Open the sidebar or go into it</source>
+        <translation>Ubbi barru wet bi walla dugg ci</translation>
+    </message>
+    <message>
+        <source>Save the draft</source>
+        <translation>Denc brouyoŋ bi</translation>
+    </message>
+    <message>
+        <source>Keyboard shortcuts</source>
+        <translation>Yoon yu gàtt yu klawie bi</translation>
+    </message>
+    <message>
+        <source>Use one letter, A to Z.</source>
+        <translation>Jëfandikool benn araf, A ba Z.</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key belongs to the browser or the system.</source>
+        <translation>Alt+Shift+%key moom navigateur bi walla sistem bi la.</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key is taken: %action.</source>
+        <translation>Alt+Shift+%key jël nañu ko ba noppi: %action.</translation>
+    </message>
+    <message>
+        <source>This page gives Alt+Shift+%key to one of its links: here the page wins.</source>
+        <translation>Xët wii dafay jox Alt+Shift+%key benn ci lëkkalekaay yi mu am: fii xët wi moo ëpp doole.</translation>
+    </message>
+    <message>
+        <source>Saved.</source>
+        <translation>Denc na.</translation>
+    </message>
+    <message>
+        <source>Back to the defaults</source>
+        <translation>Dellu ci li ñu tàmm</translation>
+    </message>
+    <message>
+        <source>All shortcuts</source>
+        <translation>Yoon yu gàtt yépp</translation>
+    </message>
+    <message>
+        <source>This page uses this key for one of its links: here the page wins.</source>
+        <translation>Xët wii dafay jëfandikoo butoŋ bii ngir benn ci lëkkalekaay yi mu am: fii xët wi moo ëpp doole.</translation>
+    </message>
+    <message>
+        <source>Panel: %name</source>
+        <translation>Panel: %name</translation>
+    </message>
+    <message>
+        <source>Open the sidebar</source>
+        <translation>Ubbi barru wet bi</translation>
+    </message>
+    <message>
+        <source>Move the tab along its edge, or to the opposite edge</source>
+        <translation>Yóbbu tab bi ci tóoñam, walla ci tóoñ bi ko janoo</translation>
+    </message>
+    <message>
+        <source>Bigger steps</source>
+        <translation>Tànk yu gën a mag</translation>
+    </message>
+    <message>
+        <source>Dock to that edge</source>
+        <translation>Takk ko ci tóoñ boobu</translation>
+    </message>
+    <message>
+        <source>Go round the edges</source>
+        <translation>Wër tóoñ yi</translation>
+    </message>
+    <message>
+        <source>To the start or the end of the edge</source>
+        <translation>Ci ndoorteelu walla ci mujjantal tóoñ bi</translation>
+    </message>
+    <message>
+        <source>On the tab</source>
+        <translation>Ci tab bi</translation>
+    </message>
+    <message>
+        <source>On a Mac, Option+Shift with a letter types a character in a text field: there the field gets it.</source>
+        <translation>Ci Mac, Option+Shift ak benn araf dafay bind benn màndarga ci barab bindin: fa barab bi moo koy jot.</translation>
+    </message>
+    <message>
+        <source>Change them in the Me panel</source>
+        <translation>Soppi leen ci panel «Man»</translation>
+    </message>
+    <message>
+        <source>Open the Page panel to save its draft.</source>
+        <translation>Ubbil panel «Xët» ngir denc brouyoŋam.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Bataaxal yu dikk</translation>
     </message>

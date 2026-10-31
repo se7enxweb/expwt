@@ -844,6 +844,94 @@
         <translation>%n hou i kou pahu leka komo</translation>
     </message>
     <message>
+        <source>Open the sidebar or go into it</source>
+        <translation>Wehe i ka pā ʻaoʻao a i ʻole e komo i loko</translation>
+    </message>
+    <message>
+        <source>Save the draft</source>
+        <translation>Mālama i ke kāmua</translation>
+    </message>
+    <message>
+        <source>Keyboard shortcuts</source>
+        <translation>Nā ala pōkole papa pihi</translation>
+    </message>
+    <message>
+        <source>Use one letter, A to Z.</source>
+        <translation>E hoʻohana i hoʻokahi hua palapala, A a hiki i Z.</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key belongs to the browser or the system.</source>
+        <translation>No ka polokalamu kele pūnaewele a i ʻole ka ʻōnaehana ʻo Alt+Shift+%key.</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key is taken: %action.</source>
+        <translation>Ua lawe ʻia ʻo Alt+Shift+%key: %action.</translation>
+    </message>
+    <message>
+        <source>This page gives Alt+Shift+%key to one of its links: here the page wins.</source>
+        <translation>Hāʻawi kēia ʻaoʻao iā Alt+Shift+%key i kekahi o kona mau loulou: ma ʻaneʻi lanakila ka ʻaoʻao.</translation>
+    </message>
+    <message>
+        <source>Saved.</source>
+        <translation>Ua mālama ʻia.</translation>
+    </message>
+    <message>
+        <source>Back to the defaults</source>
+        <translation>E hoʻi i nā paʻamau</translation>
+    </message>
+    <message>
+        <source>All shortcuts</source>
+        <translation>Nā ala pōkole a pau</translation>
+    </message>
+    <message>
+        <source>This page uses this key for one of its links: here the page wins.</source>
+        <translation>Hoʻohana kēia ʻaoʻao i kēia pihi no kekahi o kona mau loulou: ma ʻaneʻi lanakila ka ʻaoʻao.</translation>
+    </message>
+    <message>
+        <source>Panel: %name</source>
+        <translation>Papa: %name</translation>
+    </message>
+    <message>
+        <source>Open the sidebar</source>
+        <translation>Wehe i ka pā ʻaoʻao</translation>
+    </message>
+    <message>
+        <source>Move the tab along its edge, or to the opposite edge</source>
+        <translation>E hoʻoneʻe i ka lepe ma kona lihi, a i ʻole i ka lihi ʻē</translation>
+    </message>
+    <message>
+        <source>Bigger steps</source>
+        <translation>Nā kapuaʻi nui aʻe</translation>
+    </message>
+    <message>
+        <source>Dock to that edge</source>
+        <translation>E hoʻopili i kēlā lihi</translation>
+    </message>
+    <message>
+        <source>Go round the edges</source>
+        <translation>E kaʻapuni i nā lihi</translation>
+    </message>
+    <message>
+        <source>To the start or the end of the edge</source>
+        <translation>I ka hoʻomaka a i ʻole ka hopena o ka lihi</translation>
+    </message>
+    <message>
+        <source>On the tab</source>
+        <translation>Ma ka lepe</translation>
+    </message>
+    <message>
+        <source>On a Mac, Option+Shift with a letter types a character in a text field: there the field gets it.</source>
+        <translation>Ma ka Mac, kikokiko ʻo Option+Shift me kekahi hua palapala i kekahi hōʻailona i loko o kahi kahua kikokikona: ma laila loaʻa ia i ke kahua.</translation>
+    </message>
+    <message>
+        <source>Change them in the Me panel</source>
+        <translation>E hoʻololi iā lākou ma ka papa «Owau»</translation>
+    </message>
+    <message>
+        <source>Open the Page panel to save its draft.</source>
+        <translation>E wehe i ka papa «ʻAoʻao» no ka mālama ʻana i kona kāmua.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Pahu leka komo</translation>
     </message>

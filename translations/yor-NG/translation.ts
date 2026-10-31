@@ -844,6 +844,94 @@
         <translation>%n tuntun nínú àpótí ìwọlé rẹ</translation>
     </message>
     <message>
+        <source>Open the sidebar or go into it</source>
+        <translation>Ṣí pẹpẹ ẹ̀gbẹ́ tàbí wọ inú rẹ̀</translation>
+    </message>
+    <message>
+        <source>Save the draft</source>
+        <translation>Fi àkọsílẹ̀ àkọ́kọ́ pamọ́</translation>
+    </message>
+    <message>
+        <source>Keyboard shortcuts</source>
+        <translation>Àwọn ọ̀nà àbùjá bọ́tìnnì</translation>
+    </message>
+    <message>
+        <source>Use one letter, A to Z.</source>
+        <translation>Lo lẹ́tà kan, A sí Z.</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key belongs to the browser or the system.</source>
+        <translation>Alt+Shift+%key jẹ́ ti aṣàwákiri tàbí ti ètò.</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key is taken: %action.</source>
+        <translation>A ti lo Alt+Shift+%key tẹ́lẹ̀: %action.</translation>
+    </message>
+    <message>
+        <source>This page gives Alt+Shift+%key to one of its links: here the page wins.</source>
+        <translation>Ojú ìwé yìí fún Alt+Shift+%key ní ọ̀kan nínú àwọn ìjápọ̀ rẹ̀: níbí ojú ìwé ló borí.</translation>
+    </message>
+    <message>
+        <source>Saved.</source>
+        <translation>A ti fi pamọ́.</translation>
+    </message>
+    <message>
+        <source>Back to the defaults</source>
+        <translation>Padà sí àwọn àtilẹ̀wá</translation>
+    </message>
+    <message>
+        <source>All shortcuts</source>
+        <translation>Gbogbo ọ̀nà àbùjá</translation>
+    </message>
+    <message>
+        <source>This page uses this key for one of its links: here the page wins.</source>
+        <translation>Ojú ìwé yìí ń lo bọ́tìnnì yìí fún ọ̀kan nínú àwọn ìjápọ̀ rẹ̀: níbí ojú ìwé ló borí.</translation>
+    </message>
+    <message>
+        <source>Panel: %name</source>
+        <translation>Pánẹ́lì: %name</translation>
+    </message>
+    <message>
+        <source>Open the sidebar</source>
+        <translation>Ṣí pẹpẹ ẹ̀gbẹ́</translation>
+    </message>
+    <message>
+        <source>Move the tab along its edge, or to the opposite edge</source>
+        <translation>Gbé táàbù náà lọ ní etí rẹ̀, tàbí sí etí òdìkejì</translation>
+    </message>
+    <message>
+        <source>Bigger steps</source>
+        <translation>Àwọn ìgbésẹ̀ tó tóbi jù</translation>
+    </message>
+    <message>
+        <source>Dock to that edge</source>
+        <translation>Lẹ̀ mọ́ etí yẹn</translation>
+    </message>
+    <message>
+        <source>Go round the edges</source>
+        <translation>Yí àwọn etí ká</translation>
+    </message>
+    <message>
+        <source>To the start or the end of the edge</source>
+        <translation>Sí ìbẹ̀rẹ̀ tàbí òpin etí náà</translation>
+    </message>
+    <message>
+        <source>On the tab</source>
+        <translation>Lórí táàbù</translation>
+    </message>
+    <message>
+        <source>On a Mac, Option+Shift with a letter types a character in a text field: there the field gets it.</source>
+        <translation>Lórí Mac, Option+Shift pẹ̀lú lẹ́tà kan máa ń tẹ àmì kan sínú àyè ọ̀rọ̀: níbẹ̀ àyè náà ló ń gbà á.</translation>
+    </message>
+    <message>
+        <source>Change them in the Me panel</source>
+        <translation>Yí wọn padà nínú pánẹ́lì «Èmi»</translation>
+    </message>
+    <message>
+        <source>Open the Page panel to save its draft.</source>
+        <translation>Ṣí pánẹ́lì «Ojú ìwé» láti fi àkọsílẹ̀ àkọ́kọ́ rẹ̀ pamọ́.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Àpótí ìwọlé</translation>
     </message>

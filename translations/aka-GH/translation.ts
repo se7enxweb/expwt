@@ -844,6 +844,94 @@
         <translation>%n foforɔ wɔ wo nkrataa a aba mu</translation>
     </message>
     <message>
+        <source>Open the sidebar or go into it</source>
+        <translation>Bue sidebar no anaa kɔ mu</translation>
+    </message>
+    <message>
+        <source>Save the draft</source>
+        <translation>Kora draft no</translation>
+    </message>
+    <message>
+        <source>Keyboard shortcuts</source>
+        <translation>Keyboard akwan tiawa</translation>
+    </message>
+    <message>
+        <source>Use one letter, A to Z.</source>
+        <translation>Fa nkyerɛwde baako, A kosi Z.</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key belongs to the browser or the system.</source>
+        <translation>Alt+Shift+%key yɛ browser no anaa system no dea.</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key is taken: %action.</source>
+        <translation>Wɔde Alt+Shift+%key ayɛ adwuma dedaw: %action.</translation>
+    </message>
+    <message>
+        <source>This page gives Alt+Shift+%key to one of its links: here the page wins.</source>
+        <translation>Krataafa yi de Alt+Shift+%key ama ne link baako: ha deɛ krataafa no di nkunim.</translation>
+    </message>
+    <message>
+        <source>Saved.</source>
+        <translation>Wɔakora.</translation>
+    </message>
+    <message>
+        <source>Back to the defaults</source>
+        <translation>San kɔ deɛ ɛwɔ hɔ mfitiaseɛ no so</translation>
+    </message>
+    <message>
+        <source>All shortcuts</source>
+        <translation>Akwan tiawa nyinaa</translation>
+    </message>
+    <message>
+        <source>This page uses this key for one of its links: here the page wins.</source>
+        <translation>Krataafa yi de saa key yi di dwuma ma ne link baako: ha deɛ krataafa no di nkunim.</translation>
+    </message>
+    <message>
+        <source>Panel: %name</source>
+        <translation>Panel: %name</translation>
+    </message>
+    <message>
+        <source>Open the sidebar</source>
+        <translation>Bue sidebar no</translation>
+    </message>
+    <message>
+        <source>Move the tab along its edge, or to the opposite edge</source>
+        <translation>Twe tab no fa n'ano, anaa kɔ ano a ɛdi n'anim no so</translation>
+    </message>
+    <message>
+        <source>Bigger steps</source>
+        <translation>Anammɔn akɛseɛ</translation>
+    </message>
+    <message>
+        <source>Dock to that edge</source>
+        <translation>Fa bɔ saa ano no ho</translation>
+    </message>
+    <message>
+        <source>Go round the edges</source>
+        <translation>Kyinkyin ano no nyinaa</translation>
+    </message>
+    <message>
+        <source>To the start or the end of the edge</source>
+        <translation>Kɔ ano no mfitiaseɛ anaa n'awieeɛ</translation>
+    </message>
+    <message>
+        <source>On the tab</source>
+        <translation>Wɔ tab no so</translation>
+    </message>
+    <message>
+        <source>On a Mac, Option+Shift with a letter types a character in a text field: there the field gets it.</source>
+        <translation>Wɔ Mac so no, Option+Shift ne nkyerɛwde bi kyerɛw nsɛnkyerɛnne wɔ text field mu: ɛhɔ deɛ field no na ɛnya.</translation>
+    </message>
+    <message>
+        <source>Change them in the Me panel</source>
+        <translation>Sesa wɔn wɔ Me panel no mu</translation>
+    </message>
+    <message>
+        <source>Open the Page panel to save its draft.</source>
+        <translation>Bue Krataafa panel no na kora ne draft.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Nkrataa a aba</translation>
     </message>

@@ -28,6 +28,19 @@ class expwtState
     const EDGES = array( 'left', 'right', 'top', 'bottom' );
     /** Where the tab of a top or bottom bar is anchored: start (the left end), end (the right end) */
     const ALIGNS = array( 'start', 'end' );
+    /**
+     * The sidebar's shortcuts (F30), each Alt+Shift+<letter> (Ctrl or Cmd with a letter belong to the browser, Alt with a
+     * letter opens its menus, Ctrl+Alt is AltGr); Alt+Shift+1 to 9 open the panels in their order and are not remapped.
+     * KEYS: what a user may remap, with its default (open: expwt.ini ShortcutKey).
+     */
+    const KEYS = array( 'open' => 'E', 'save' => 'D', 'inline' => 'K', 'help' => 'H' );
+    /**
+     * Alt+Shift+<letter> the browser or the system uses already (Chrome and Edge: I the feedback form, T the toolbar,
+     * A inactive dialogs, B the bookmarks bar; ChromeOS: L the launcher, M the files, N the notifications, S the status
+     * area): never a shortcut of the sidebar. Screen readers use Insert or Caps Lock (NVDA, JAWS, Narrator, Orca) and
+     * Control+Option (VoiceOver), not Alt+Shift with a letter.
+     */
+    const RESERVED_KEYS = 'ABILMNST';
 
     /**
      * @param array $settings expwtSettings
@@ -37,7 +50,41 @@ class expwtState
     {
         return array( 'edge' => $settings['default_edge'], 'align' => $settings['default_align'], 'offset' => 0,
                       'width' => $settings['default_width'], 'height' => $settings['default_height'],
-                      'open' => false, 'mode' => 'push', 'theme' => 'auto', 'panel' => 'page' );
+                      'open' => false, 'mode' => 'push', 'theme' => 'auto', 'panel' => 'page', 'keys' => array() );
+    }
+
+    /**
+     * The user's own shortcuts (F30): only those that differ from the defaults are kept; a key that is no letter, is
+     * reserved, or another shortcut has already is dropped (the default stays).
+     *
+     * @param mixed $keys action => letter
+     * @param string $openDefault expwt.ini ShortcutKey
+     * @return array action => letter
+     */
+    public static function keys( $keys, $openDefault = 'E' )
+    {
+        $defaults = array( 'open' => $openDefault ) + self::KEYS;
+        if ( !is_array( $keys ) )
+            return array();
+        // in their order, each against the keys in effect so far (the defaults, the own keys kept before it), as the
+        // browser does (expwt.js ExpwtKeys.map): each key once
+        $out = array();
+        $effective = $defaults;
+        foreach ( array_keys( self::KEYS ) as $action )
+        {
+            if ( !isset( $keys[$action] ) || !is_string( $keys[$action] ) )
+                continue;
+            $key = strtoupper( trim( $keys[$action] ) );
+            if ( !preg_match( '/^[A-Z]$/', $key ) || strpos( self::RESERVED_KEYS, $key ) !== false || $key === $defaults[$action] )
+                continue;
+            $others = $effective;
+            unset( $others[$action] );
+            if ( in_array( $key, $others, true ) )
+                continue;
+            $out[$action] = $key;
+            $effective[$action] = $key;
+        }
+        return $out;
     }
 
     /**
@@ -71,6 +118,8 @@ class expwtState
         // a panel of the sidebar, or of an extension (decision 32: its id; the sidebar opens Page when it is not there)
         if ( isset( $state['panel'] ) && is_string( $state['panel'] ) && ( in_array( $state['panel'], self::PANELS, true ) || preg_match( '/^[a-z][a-z0-9_]{0,39}$/', $state['panel'] ) ) )
             $s['panel'] = $state['panel'];
+        if ( isset( $state['keys'] ) )
+            $s['keys'] = self::keys( $state['keys'], isset( $settings['shortcut_key'] ) ? $settings['shortcut_key'] : 'E' );
         return $s;
     }
 

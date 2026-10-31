@@ -844,6 +844,94 @@
         <translation>%n nye i innboksen din</translation>
     </message>
     <message>
+        <source>Open the sidebar or go into it</source>
+        <translation>Åpne sidepanelet eller gå inn i det</translation>
+    </message>
+    <message>
+        <source>Save the draft</source>
+        <translation>Lagre utkastet</translation>
+    </message>
+    <message>
+        <source>Keyboard shortcuts</source>
+        <translation>Tastatursnarveier</translation>
+    </message>
+    <message>
+        <source>Use one letter, A to Z.</source>
+        <translation>Bruk én bokstav, A til Z.</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key belongs to the browser or the system.</source>
+        <translation>Alt+Shift+%key tilhører nettleseren eller systemet.</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key is taken: %action.</source>
+        <translation>Alt+Shift+%key er opptatt: %action.</translation>
+    </message>
+    <message>
+        <source>This page gives Alt+Shift+%key to one of its links: here the page wins.</source>
+        <translation>Denne siden gir Alt+Shift+%key til en av lenkene sine: her vinner siden.</translation>
+    </message>
+    <message>
+        <source>Saved.</source>
+        <translation>Lagret.</translation>
+    </message>
+    <message>
+        <source>Back to the defaults</source>
+        <translation>Tilbake til standard</translation>
+    </message>
+    <message>
+        <source>All shortcuts</source>
+        <translation>Alle snarveier</translation>
+    </message>
+    <message>
+        <source>This page uses this key for one of its links: here the page wins.</source>
+        <translation>Denne siden bruker denne tasten til en av lenkene sine: her vinner siden.</translation>
+    </message>
+    <message>
+        <source>Panel: %name</source>
+        <translation>Panel: %name</translation>
+    </message>
+    <message>
+        <source>Open the sidebar</source>
+        <translation>Åpne sidepanelet</translation>
+    </message>
+    <message>
+        <source>Move the tab along its edge, or to the opposite edge</source>
+        <translation>Flytt fanen langs kanten sin eller til motsatt kant</translation>
+    </message>
+    <message>
+        <source>Bigger steps</source>
+        <translation>Større steg</translation>
+    </message>
+    <message>
+        <source>Dock to that edge</source>
+        <translation>Fest til den kanten</translation>
+    </message>
+    <message>
+        <source>Go round the edges</source>
+        <translation>Gå rundt kantene</translation>
+    </message>
+    <message>
+        <source>To the start or the end of the edge</source>
+        <translation>Til starten eller slutten av kanten</translation>
+    </message>
+    <message>
+        <source>On the tab</source>
+        <translation>På fanen</translation>
+    </message>
+    <message>
+        <source>On a Mac, Option+Shift with a letter types a character in a text field: there the field gets it.</source>
+        <translation>På en Mac skriver Option+Shift med en bokstav et tegn i et tekstfelt: der får feltet det.</translation>
+    </message>
+    <message>
+        <source>Change them in the Me panel</source>
+        <translation>Endre dem i «Meg»-panelet</translation>
+    </message>
+    <message>
+        <source>Open the Page panel to save its draft.</source>
+        <translation>Åpne «Side»-panelet for å lagre utkastet.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Innboks</translation>
     </message>

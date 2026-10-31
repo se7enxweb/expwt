@@ -844,6 +844,94 @@
         <translation>%n ġodda fl-inbox tiegħek</translation>
     </message>
     <message>
+        <source>Open the sidebar or go into it</source>
+        <translation>Iftaħ il-faxxa tal-ġenb jew mur fiha</translation>
+    </message>
+    <message>
+        <source>Save the draft</source>
+        <translation>Issejvja l-abbozz</translation>
+    </message>
+    <message>
+        <source>Keyboard shortcuts</source>
+        <translation>Shortcuts tat-tastiera</translation>
+    </message>
+    <message>
+        <source>Use one letter, A to Z.</source>
+        <translation>Uża ittra waħda, minn A sa Z.</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key belongs to the browser or the system.</source>
+        <translation>Alt+Shift+%key huwa tal-browser jew tas-sistema.</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key is taken: %action.</source>
+        <translation>Alt+Shift+%key diġà meħud: %action.</translation>
+    </message>
+    <message>
+        <source>This page gives Alt+Shift+%key to one of its links: here the page wins.</source>
+        <translation>Din il-paġna tagħti Alt+Shift+%key lil waħda mil-links tagħha: hawn tirbaħ il-paġna.</translation>
+    </message>
+    <message>
+        <source>Saved.</source>
+        <translation>Issejvjat.</translation>
+    </message>
+    <message>
+        <source>Back to the defaults</source>
+        <translation>Lura għall-impostazzjonijiet predefiniti</translation>
+    </message>
+    <message>
+        <source>All shortcuts</source>
+        <translation>Is-shortcuts kollha</translation>
+    </message>
+    <message>
+        <source>This page uses this key for one of its links: here the page wins.</source>
+        <translation>Din il-paġna tuża din it-tasta għal waħda mil-links tagħha: hawn tirbaħ il-paġna.</translation>
+    </message>
+    <message>
+        <source>Panel: %name</source>
+        <translation>Pannell: %name</translation>
+    </message>
+    <message>
+        <source>Open the sidebar</source>
+        <translation>Iftaħ il-faxxa tal-ġenb</translation>
+    </message>
+    <message>
+        <source>Move the tab along its edge, or to the opposite edge</source>
+        <translation>Ċaqlaq it-tab tul it-tarf tagħha, jew lejn it-tarf oppost</translation>
+    </message>
+    <message>
+        <source>Bigger steps</source>
+        <translation>Passi akbar</translation>
+    </message>
+    <message>
+        <source>Dock to that edge</source>
+        <translation>Waħħal ma' dak it-tarf</translation>
+    </message>
+    <message>
+        <source>Go round the edges</source>
+        <translation>Dur mat-truf</translation>
+    </message>
+    <message>
+        <source>To the start or the end of the edge</source>
+        <translation>Għall-bidu jew għall-aħħar tat-tarf</translation>
+    </message>
+    <message>
+        <source>On the tab</source>
+        <translation>Fuq it-tab</translation>
+    </message>
+    <message>
+        <source>On a Mac, Option+Shift with a letter types a character in a text field: there the field gets it.</source>
+        <translation>Fuq Mac, Option+Shift ma' ittra jittajpja karattru f'qasam tat-test: hemm il-qasam jieħdu.</translation>
+    </message>
+    <message>
+        <source>Change them in the Me panel</source>
+        <translation>Biddilhom fil-pannell «Jien»</translation>
+    </message>
+    <message>
+        <source>Open the Page panel to save its draft.</source>
+        <translation>Iftaħ il-pannell «Paġna» biex tissejvja l-abbozz tagħha.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Inbox</translation>
     </message>

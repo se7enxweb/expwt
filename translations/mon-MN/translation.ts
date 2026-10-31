@@ -844,6 +844,94 @@
         <translation>Таны ирсэнд %n шинэ</translation>
     </message>
     <message>
+        <source>Open the sidebar or go into it</source>
+        <translation>Хажуугийн самбарыг нээх эсвэл түүн рүү орох</translation>
+    </message>
+    <message>
+        <source>Save the draft</source>
+        <translation>Ноорог хадгалах</translation>
+    </message>
+    <message>
+        <source>Keyboard shortcuts</source>
+        <translation>Гарын товчлол</translation>
+    </message>
+    <message>
+        <source>Use one letter, A to Z.</source>
+        <translation>Нэг үсэг ашиглана уу, A-аас Z хүртэл.</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key belongs to the browser or the system.</source>
+        <translation>Alt+Shift+%key нь хөтөч эсвэл системийнх.</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key is taken: %action.</source>
+        <translation>Alt+Shift+%key аль хэдийн ашиглагдсан: %action.</translation>
+    </message>
+    <message>
+        <source>This page gives Alt+Shift+%key to one of its links: here the page wins.</source>
+        <translation>Энэ хуудас Alt+Shift+%key-г холбоосуудынхаа нэгэнд өгдөг: энд хуудас ялна.</translation>
+    </message>
+    <message>
+        <source>Saved.</source>
+        <translation>Хадгалагдлаа.</translation>
+    </message>
+    <message>
+        <source>Back to the defaults</source>
+        <translation>Анхдагч руу буцах</translation>
+    </message>
+    <message>
+        <source>All shortcuts</source>
+        <translation>Бүх товчлол</translation>
+    </message>
+    <message>
+        <source>This page uses this key for one of its links: here the page wins.</source>
+        <translation>Энэ хуудас энэ товчийг холбоосуудынхаа нэгэнд ашигладаг: энд хуудас ялна.</translation>
+    </message>
+    <message>
+        <source>Panel: %name</source>
+        <translation>Самбар: %name</translation>
+    </message>
+    <message>
+        <source>Open the sidebar</source>
+        <translation>Хажуугийн самбарыг нээх</translation>
+    </message>
+    <message>
+        <source>Move the tab along its edge, or to the opposite edge</source>
+        <translation>Табыг ирмэгийн дагуу эсвэл эсрэг ирмэг рүү зөөх</translation>
+    </message>
+    <message>
+        <source>Bigger steps</source>
+        <translation>Том алхам</translation>
+    </message>
+    <message>
+        <source>Dock to that edge</source>
+        <translation>Тэр ирмэгт бэхлэх</translation>
+    </message>
+    <message>
+        <source>Go round the edges</source>
+        <translation>Ирмэгүүдийг тойрох</translation>
+    </message>
+    <message>
+        <source>To the start or the end of the edge</source>
+        <translation>Ирмэгийн эхлэл эсвэл төгсгөл рүү</translation>
+    </message>
+    <message>
+        <source>On the tab</source>
+        <translation>Таб дээр</translation>
+    </message>
+    <message>
+        <source>On a Mac, Option+Shift with a letter types a character in a text field: there the field gets it.</source>
+        <translation>Mac дээр Option+Shift үсэгтэй хамт текстийн талбарт тэмдэгт бичдэг: тэнд үүнийг талбар авна.</translation>
+    </message>
+    <message>
+        <source>Change them in the Me panel</source>
+        <translation>Тэдгээрийг «Би» самбарт өөрчилнө үү</translation>
+    </message>
+    <message>
+        <source>Open the Page panel to save its draft.</source>
+        <translation>Ноорогоо хадгалахын тулд «Хуудас» самбарыг нээнэ үү.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Ирсэн</translation>
     </message>

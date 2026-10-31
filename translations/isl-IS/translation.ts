@@ -844,6 +844,94 @@
         <translation>%n ný í innhólfinu þínu</translation>
     </message>
     <message>
+        <source>Open the sidebar or go into it</source>
+        <translation>Opna hliðarstikuna eða fara inn í hana</translation>
+    </message>
+    <message>
+        <source>Save the draft</source>
+        <translation>Vista drögin</translation>
+    </message>
+    <message>
+        <source>Keyboard shortcuts</source>
+        <translation>Flýtilyklar</translation>
+    </message>
+    <message>
+        <source>Use one letter, A to Z.</source>
+        <translation>Notaðu einn staf, A til Z.</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key belongs to the browser or the system.</source>
+        <translation>Alt+Shift+%key tilheyrir vafranum eða kerfinu.</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key is taken: %action.</source>
+        <translation>Alt+Shift+%key er þegar í notkun: %action.</translation>
+    </message>
+    <message>
+        <source>This page gives Alt+Shift+%key to one of its links: here the page wins.</source>
+        <translation>Þessi síða gefur einum af tenglum sínum Alt+Shift+%key: hér vinnur síðan.</translation>
+    </message>
+    <message>
+        <source>Saved.</source>
+        <translation>Vistað.</translation>
+    </message>
+    <message>
+        <source>Back to the defaults</source>
+        <translation>Aftur í sjálfgefið</translation>
+    </message>
+    <message>
+        <source>All shortcuts</source>
+        <translation>Allir flýtilyklar</translation>
+    </message>
+    <message>
+        <source>This page uses this key for one of its links: here the page wins.</source>
+        <translation>Þessi síða notar þennan lykil fyrir einn af tenglum sínum: hér vinnur síðan.</translation>
+    </message>
+    <message>
+        <source>Panel: %name</source>
+        <translation>Spjald: %name</translation>
+    </message>
+    <message>
+        <source>Open the sidebar</source>
+        <translation>Opna hliðarstikuna</translation>
+    </message>
+    <message>
+        <source>Move the tab along its edge, or to the opposite edge</source>
+        <translation>Færa flipann eftir jaðrinum eða á gagnstæðan jaðar</translation>
+    </message>
+    <message>
+        <source>Bigger steps</source>
+        <translation>Stærri skref</translation>
+    </message>
+    <message>
+        <source>Dock to that edge</source>
+        <translation>Festa við þann jaðar</translation>
+    </message>
+    <message>
+        <source>Go round the edges</source>
+        <translation>Fara hringinn um jaðrana</translation>
+    </message>
+    <message>
+        <source>To the start or the end of the edge</source>
+        <translation>Á upphaf eða enda jaðarsins</translation>
+    </message>
+    <message>
+        <source>On the tab</source>
+        <translation>Á flipanum</translation>
+    </message>
+    <message>
+        <source>On a Mac, Option+Shift with a letter types a character in a text field: there the field gets it.</source>
+        <translation>Á Mac slær Option+Shift með staf inn tákn í textareit: þar fær reiturinn það.</translation>
+    </message>
+    <message>
+        <source>Change them in the Me panel</source>
+        <translation>Breyttu þeim á „Ég“-spjaldinu</translation>
+    </message>
+    <message>
+        <source>Open the Page panel to save its draft.</source>
+        <translation>Opnaðu „Síða“-spjaldið til að vista drög þess.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Innhólf</translation>
     </message>

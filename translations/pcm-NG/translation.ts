@@ -844,6 +844,94 @@
         <translation>%n new for your inbox</translation>
     </message>
     <message>
+        <source>Open the sidebar or go into it</source>
+        <translation>Open di sidebar or enter am</translation>
+    </message>
+    <message>
+        <source>Save the draft</source>
+        <translation>Save di draft</translation>
+    </message>
+    <message>
+        <source>Keyboard shortcuts</source>
+        <translation>Keyboard shortcuts</translation>
+    </message>
+    <message>
+        <source>Use one letter, A to Z.</source>
+        <translation>Use one letter, A reach Z.</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key belongs to the browser or the system.</source>
+        <translation>Alt+Shift+%key na di browser or di system own.</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key is taken: %action.</source>
+        <translation>Alt+Shift+%key don dey use already: %action.</translation>
+    </message>
+    <message>
+        <source>This page gives Alt+Shift+%key to one of its links: here the page wins.</source>
+        <translation>Dis page dey give Alt+Shift+%key to one of im links: for here di page dey win.</translation>
+    </message>
+    <message>
+        <source>Saved.</source>
+        <translation>E don save.</translation>
+    </message>
+    <message>
+        <source>Back to the defaults</source>
+        <translation>Go back to di defaults</translation>
+    </message>
+    <message>
+        <source>All shortcuts</source>
+        <translation>All shortcuts</translation>
+    </message>
+    <message>
+        <source>This page uses this key for one of its links: here the page wins.</source>
+        <translation>Dis page dey use dis key for one of im links: for here di page dey win.</translation>
+    </message>
+    <message>
+        <source>Panel: %name</source>
+        <translation>Panel: %name</translation>
+    </message>
+    <message>
+        <source>Open the sidebar</source>
+        <translation>Open di sidebar</translation>
+    </message>
+    <message>
+        <source>Move the tab along its edge, or to the opposite edge</source>
+        <translation>Move di tab along im edge, or go di opposite edge</translation>
+    </message>
+    <message>
+        <source>Bigger steps</source>
+        <translation>Bigger steps</translation>
+    </message>
+    <message>
+        <source>Dock to that edge</source>
+        <translation>Dock am for dat edge</translation>
+    </message>
+    <message>
+        <source>Go round the edges</source>
+        <translation>Go round di edges</translation>
+    </message>
+    <message>
+        <source>To the start or the end of the edge</source>
+        <translation>Go di start or di end of di edge</translation>
+    </message>
+    <message>
+        <source>On the tab</source>
+        <translation>For di tab</translation>
+    </message>
+    <message>
+        <source>On a Mac, Option+Shift with a letter types a character in a text field: there the field gets it.</source>
+        <translation>For Mac, Option+Shift plus one letter dey type character for text field: for there na di field go collect am.</translation>
+    </message>
+    <message>
+        <source>Change them in the Me panel</source>
+        <translation>Change dem for di Me panel</translation>
+    </message>
+    <message>
+        <source>Open the Page panel to save its draft.</source>
+        <translation>Open di Page panel make you save im draft.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Inbox</translation>
     </message>

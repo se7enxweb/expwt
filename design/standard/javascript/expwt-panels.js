@@ -194,7 +194,7 @@
 
     /* Edit on the page: on or off for this browser tab (the host keeps it); where the panel lies over the page (a
        phone) it gets out of the way at once, the page shows its outlines and the pill "Editing · Done" */
-    var inlineBtn = h('button', { type: 'button', class: 'wt-btn', 'aria-pressed': inline ? 'true' : 'false', id: 'wt-inline', text: t('Edit on the page'), onclick: function () {
+    var inlineBtn = h('button', { type: 'button', class: 'wt-btn', 'aria-pressed': inline ? 'true' : 'false', id: 'wt-inline', 'aria-keyshortcuts': 'Alt+Shift+' + ctx.host.keys().inline, text: t('Edit on the page'), onclick: function () {
       var on = ctx.editing(!inline);
       if (on && ctx.overlay()) { ctx.host.toggle(false); }
     } });
@@ -380,7 +380,7 @@
       queue = run.catch(function () {});
       return run;
     }
-    var saveBtn = h('button', { type: 'button', class: 'wt-btn', text: t('Save draft'), onclick: function () {
+    var saveBtn = h('button', { type: 'button', class: 'wt-btn', 'data-action': 'save', 'aria-keyshortcuts': 'Alt+Shift+' + ctx.host.keys().save, text: t('Save draft'), onclick: function () {
       serial(function () {
         return saveFrames().then(function (savedSome) {
           if (Object.keys(dirtyFields()).length) { return save(); }
@@ -1363,10 +1363,118 @@
       var only = h('input', { type: 'checkbox', id: 'wt-device', checked: ctx.deviceOnly(), onchange: function () { ctx.deviceOnly(only.checked); } });
       prefs.appendChild(h('label', { class: 'wt-check', for: 'wt-device' }, [only, t('Keep these settings only on this device')]));
       root.appendChild(prefs);
+      root.appendChild(remap(ctx));
       var signOut = h('div', { class: 'wt-row wt-primary' }, [h('a', { class: 'wt-btn', href: m.logout, text: t('Sign out') })]);
       root.appendChild(signOut);
       if (root.getAttribute('data-panel') === 'me') { ctx.primary(signOut); }
     }, function (err) { failure(ctx, err); });
+  }
+
+  /* ---------------------------------------------------------------------------------------------- shortcuts */
+
+  /* The names of the shortcuts a user may change (F30) */
+  function keyNames(t) {
+    return { open: t('Open the sidebar or go into it'), save: t('Save the draft'), inline: t('Edit on the page'), help: t('Keyboard shortcuts') };
+  }
+
+  /* The Me panel's shortcuts (F30): each one's letter, checked before it is kept (one letter, not one of the browser's
+     or the system's, not one another shortcut has); a letter the page gives one of its links is kept, with a word that
+     the page wins here. Kept with the sidebar's settings (on the server, or on this device). */
+  function remap(ctx) {
+    var h = ctx.h;
+    var t = ctx.t;
+    var K = window.ExpwtKeys;
+    var names = keyNames(t);
+    var box = h('fieldset', { class: 'wt-section wt-remap' }, [h('legend', { text: t('Keyboard shortcuts') })]);
+    var inputs = {};
+    function why(action, key, map) {
+      var r = K.check(action, key, map);
+      if (r === 'format') { return t('Use one letter, A to Z.'); }
+      if (r === 'reserved') { return t('Alt+Shift+%key belongs to the browser or the system.').replace('%key', key.toUpperCase()); }
+      if (r) { return t('Alt+Shift+%key is taken: %action.').replace('%key', key.toUpperCase()).replace('%action', names[r]); }
+      return '';
+    }
+    K.ACTIONS.forEach(function (action) {
+      var id = 'wt-key-' + action;
+      var note = h('p', { class: 'wt-muted wt-key-note', id: id + '-note', role: 'status', 'aria-live': 'polite' });
+      var input = h('input', { type: 'text', id: id, maxlength: '1', size: '2', autocomplete: 'off', autocapitalize: 'characters', spellcheck: 'false',
+        'aria-describedby': id + '-note', value: ctx.host.keys()[action], onchange: function () {
+          var key = input.value.trim().toUpperCase();
+          var map = ctx.host.keys();
+          var problem = why(action, key, map);
+          input.setAttribute('aria-invalid', problem ? 'true' : 'false');
+          if (problem) { note.textContent = problem; return; }
+          input.value = key;
+          var mine = Object.assign({}, ctx.state.keys || {});
+          mine[action] = key;
+          var plain = K.map(ctx.host.cfg.key, {});
+          if (plain[action] === key) { delete mine[action]; }
+          ctx.setState({ keys: mine });
+          ctx.host.labelKeys();
+          note.textContent = K.pageKeys(document).indexOf(key) >= 0
+            ? t('This page gives Alt+Shift+%key to one of its links: here the page wins.').replace('%key', key) : t('Saved.');
+        } });
+      inputs[action] = input;
+      box.appendChild(h('div', { class: 'wt-field wt-key' }, [
+        h('label', { for: id, text: names[action] }),
+        h('span', { class: 'wt-key-input' }, [h('kbd', { text: 'Alt+Shift+' }), input]),
+        note]));
+    });
+    box.appendChild(h('div', { class: 'wt-row' }, [
+      h('button', { type: 'button', class: 'wt-btn', text: t('Back to the defaults'), onclick: function () {
+        ctx.setState({ keys: {} });
+        ctx.host.labelKeys();
+        K.ACTIONS.forEach(function (a) { inputs[a].value = ctx.host.keys()[a]; inputs[a].removeAttribute('aria-invalid'); });
+      } }),
+      h('button', { type: 'button', class: 'wt-btn', text: t('All shortcuts'), onclick: function () { shortcuts(ctx); } })
+    ]));
+    return box;
+  }
+
+  /* The cheat sheet (decision 38, F30): every shortcut of the sidebar in effect for this user on this page, a key the
+     page has taken marked, and the keys of the tab. Alt+Shift+H, or All shortcuts in the Me panel. */
+  function shortcuts(ctx) {
+    var h = ctx.h;
+    var t = ctx.t;
+    var host = ctx.host;
+    var keys = host.keys();
+    var page = window.ExpwtKeys.pageKeys(document);
+    var names = keyNames(t);
+    var list = h('dl', { class: 'wt-keys' });
+    function row(combo, what, taken) {
+      list.appendChild(h('dt', {}, [h('kbd', { text: combo })]));
+      list.appendChild(h('dd', {}, [document.createTextNode(what), taken ? h('span', { class: 'wt-muted wt-key-taken', text: ' ' + t('This page uses this key for one of its links: here the page wins.') }) : null]));
+    }
+    window.ExpwtKeys.ACTIONS.forEach(function (a) { row('Alt+Shift+' + keys[a], names[a], page.indexOf(keys[a]) >= 0); });
+    host.available().slice(0, 9).forEach(function (p, i) { row('Alt+Shift+' + (i + 1), t('Panel: %name').replace('%name', p.label), page.indexOf(String(i + 1)) >= 0); });
+    row('Escape', t('Close the sidebar'));
+    var tab = h('dl', { class: 'wt-keys' });
+    [['Enter', t('Open the sidebar')], ['←  →  ↑  ↓', t('Move the tab along its edge, or to the opposite edge')],
+     ['Shift+←  →  ↑  ↓', t('Bigger steps')], ['Ctrl+←  →  ↑  ↓', t('Dock to that edge')],
+     ['Page Up, Page Down', t('Go round the edges')], ['Home, End', t('To the start or the end of the edge')]].forEach(function (r) {
+      tab.appendChild(h('dt', {}, [h('kbd', { text: r[0] })]));
+      tab.appendChild(h('dd', { text: r[1] }));
+    });
+    var close = function () { dialog.close(); };
+    var dialog = h('dialog', { class: 'wt-dialog', 'aria-labelledby': 'wt-keys-title', onclose: function () { dialog.remove(); } }, [
+      h('div', { class: 'wt-dialog-head' }, [
+        h('h2', { id: 'wt-keys-title', text: t('Keyboard shortcuts') }),
+        h('button', { type: 'button', class: 'wt-btn wt-close', 'aria-label': t('Close'), onclick: close }, ['×'])]),
+      h('div', { class: 'wt-dialog-body' }, [
+        list,
+        h('h3', { text: t('On the tab') }), tab,
+        h('p', { class: 'wt-muted', text: t('On a Mac, Option+Shift with a letter types a character in a text field: there the field gets it.') }),
+        h('div', { class: 'wt-row' }, [h('button', { type: 'button', class: 'wt-btn', text: t('Change them in the Me panel'), onclick: function () {
+          close();
+          if (!host.state.open) { host.toggle(true); }
+          host.show('me');
+        } })])
+      ])
+    ]);
+    var old = host.shadowRoot.querySelector('dialog.wt-dialog');
+    if (old) { old.remove(); }
+    host.shadowRoot.appendChild(dialog);
+    dialog.showModal();
   }
 
   /* ---------------------------------------------------------------------------------------------- inbox */
@@ -1800,5 +1908,5 @@
   }
 
   window.ExpwtSeo = SEO;
-  window.ExpwtPanels = { page: page, create: create, structure: structure, seo: seo, sites: sites, insights: insights, inbox: inbox, me: me };
+  window.ExpwtPanels = { page: page, create: create, structure: structure, seo: seo, sites: sites, insights: insights, inbox: inbox, me: me, shortcuts: shortcuts };
 }());

@@ -844,6 +844,94 @@
         <translation>Кірісіңізде %n жаңа</translation>
     </message>
     <message>
+        <source>Open the sidebar or go into it</source>
+        <translation>Бүйірлік панельді ашу немесе оған өту</translation>
+    </message>
+    <message>
+        <source>Save the draft</source>
+        <translation>Жобаны сақтау</translation>
+    </message>
+    <message>
+        <source>Keyboard shortcuts</source>
+        <translation>Пернетақта төте жолдары</translation>
+    </message>
+    <message>
+        <source>Use one letter, A to Z.</source>
+        <translation>Бір әріп қолданыңыз, A-дан Z-ге дейін.</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key belongs to the browser or the system.</source>
+        <translation>Alt+Shift+%key браузерге немесе жүйеге тиесілі.</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key is taken: %action.</source>
+        <translation>Alt+Shift+%key бос емес: %action.</translation>
+    </message>
+    <message>
+        <source>This page gives Alt+Shift+%key to one of its links: here the page wins.</source>
+        <translation>Бұл бет Alt+Shift+%key пернесін өз сілтемелерінің біріне береді: мұнда бет жеңеді.</translation>
+    </message>
+    <message>
+        <source>Saved.</source>
+        <translation>Сақталды.</translation>
+    </message>
+    <message>
+        <source>Back to the defaults</source>
+        <translation>Әдепкі мәндерге оралу</translation>
+    </message>
+    <message>
+        <source>All shortcuts</source>
+        <translation>Барлық төте жолдар</translation>
+    </message>
+    <message>
+        <source>This page uses this key for one of its links: here the page wins.</source>
+        <translation>Бұл бет бұл пернені өз сілтемелерінің бірі үшін қолданады: мұнда бет жеңеді.</translation>
+    </message>
+    <message>
+        <source>Panel: %name</source>
+        <translation>Панель: %name</translation>
+    </message>
+    <message>
+        <source>Open the sidebar</source>
+        <translation>Бүйірлік панельді ашу</translation>
+    </message>
+    <message>
+        <source>Move the tab along its edge, or to the opposite edge</source>
+        <translation>Қойындыны өз шеті бойымен немесе қарама-қарсы шетке жылжыту</translation>
+    </message>
+    <message>
+        <source>Bigger steps</source>
+        <translation>Үлкенірек қадамдар</translation>
+    </message>
+    <message>
+        <source>Dock to that edge</source>
+        <translation>Сол шетке бекіту</translation>
+    </message>
+    <message>
+        <source>Go round the edges</source>
+        <translation>Шеттерді айналу</translation>
+    </message>
+    <message>
+        <source>To the start or the end of the edge</source>
+        <translation>Шеттің басына немесе соңына</translation>
+    </message>
+    <message>
+        <source>On the tab</source>
+        <translation>Қойындыда</translation>
+    </message>
+    <message>
+        <source>On a Mac, Option+Shift with a letter types a character in a text field: there the field gets it.</source>
+        <translation>Mac-та Option+Shift әріппен бірге мәтін өрісіне таңба теріп жібереді: онда оны өріс алады.</translation>
+    </message>
+    <message>
+        <source>Change them in the Me panel</source>
+        <translation>Оларды «Мен» панелінде өзгертіңіз</translation>
+    </message>
+    <message>
+        <source>Open the Page panel to save its draft.</source>
+        <translation>Жобасын сақтау үшін «Бет» панелін ашыңыз.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Кіріс</translation>
     </message>

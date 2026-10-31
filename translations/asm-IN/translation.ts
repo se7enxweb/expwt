@@ -844,6 +844,94 @@
         <translation>আপোনাৰ ইনবক্সত %n নতুন</translation>
     </message>
     <message>
+        <source>Open the sidebar or go into it</source>
+        <translation>চাইডবাৰ খোলক বা তাৰ ভিতৰলৈ যাওক</translation>
+    </message>
+    <message>
+        <source>Save the draft</source>
+        <translation>খচৰা ছেভ কৰক</translation>
+    </message>
+    <message>
+        <source>Keyboard shortcuts</source>
+        <translation>কীবৰ্ড চৰ্টকাট</translation>
+    </message>
+    <message>
+        <source>Use one letter, A to Z.</source>
+        <translation>এটা আখৰ ব্যৱহাৰ কৰক, A ৰ পৰা Z লৈ।</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key belongs to the browser or the system.</source>
+        <translation>Alt+Shift+%key ব্ৰাউজাৰ বা চিষ্টেমৰ।</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key is taken: %action.</source>
+        <translation>Alt+Shift+%key ব্যৱহৃত হৈ আছে: %action।</translation>
+    </message>
+    <message>
+        <source>This page gives Alt+Shift+%key to one of its links: here the page wins.</source>
+        <translation>এই পৃষ্ঠাই Alt+Shift+%key ইয়াৰ এটা লিংকক দিয়ে: ইয়াত পৃষ্ঠাটোৱেই জিকে।</translation>
+    </message>
+    <message>
+        <source>Saved.</source>
+        <translation>ছেভ হ'ল।</translation>
+    </message>
+    <message>
+        <source>Back to the defaults</source>
+        <translation>ডিফল্টলৈ উভতি যাওক</translation>
+    </message>
+    <message>
+        <source>All shortcuts</source>
+        <translation>সকলো চৰ্টকাট</translation>
+    </message>
+    <message>
+        <source>This page uses this key for one of its links: here the page wins.</source>
+        <translation>এই পৃষ্ঠাই এই চাবিটো ইয়াৰ এটা লিংকৰ বাবে ব্যৱহাৰ কৰে: ইয়াত পৃষ্ঠাটোৱেই জিকে।</translation>
+    </message>
+    <message>
+        <source>Panel: %name</source>
+        <translation>পেনেল: %name</translation>
+    </message>
+    <message>
+        <source>Open the sidebar</source>
+        <translation>চাইডবাৰ খোলক</translation>
+    </message>
+    <message>
+        <source>Move the tab along its edge, or to the opposite edge</source>
+        <translation>টেবটো ইয়াৰ কাষেৰে বা বিপৰীত কাষলৈ নিয়ক</translation>
+    </message>
+    <message>
+        <source>Bigger steps</source>
+        <translation>ডাঙৰ খোজ</translation>
+    </message>
+    <message>
+        <source>Dock to that edge</source>
+        <translation>সেই কাষত লগাওক</translation>
+    </message>
+    <message>
+        <source>Go round the edges</source>
+        <translation>কাষবোৰৰ চাৰিওফালে যাওক</translation>
+    </message>
+    <message>
+        <source>To the start or the end of the edge</source>
+        <translation>কাষৰ আৰম্ভণি বা শেষলৈ</translation>
+    </message>
+    <message>
+        <source>On the tab</source>
+        <translation>টেবত</translation>
+    </message>
+    <message>
+        <source>On a Mac, Option+Shift with a letter types a character in a text field: there the field gets it.</source>
+        <translation>Mac ত, আখৰৰ সৈতে Option+Shift এ টেক্সট ফিল্ডত এটা চিন টাইপ কৰে: তাত ফিল্ডটোৱে পায়।</translation>
+    </message>
+    <message>
+        <source>Change them in the Me panel</source>
+        <translation>«মই» পেনেলত সেইবোৰ সলনি কৰক</translation>
+    </message>
+    <message>
+        <source>Open the Page panel to save its draft.</source>
+        <translation>ইয়াৰ খচৰা ছেভ কৰিবলৈ «পৃষ্ঠা» পেনেল খোলক।</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>ইনবক্স</translation>
     </message>

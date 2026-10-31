@@ -844,6 +844,94 @@
         <translation>%n նոր ձեր մուտքայինում</translation>
     </message>
     <message>
+        <source>Open the sidebar or go into it</source>
+        <translation>Բացել կողագոտին կամ անցնել դրան</translation>
+    </message>
+    <message>
+        <source>Save the draft</source>
+        <translation>Պահպանել սևագիրը</translation>
+    </message>
+    <message>
+        <source>Keyboard shortcuts</source>
+        <translation>Ստեղնաշարի դյուրանցումներ</translation>
+    </message>
+    <message>
+        <source>Use one letter, A to Z.</source>
+        <translation>Օգտագործեք մեկ տառ՝ A-ից Z։</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key belongs to the browser or the system.</source>
+        <translation>Alt+Shift+%key-ը պատկանում է դիտարկիչին կամ համակարգին։</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key is taken: %action.</source>
+        <translation>Alt+Shift+%key-ը զբաղված է՝ %action։</translation>
+    </message>
+    <message>
+        <source>This page gives Alt+Shift+%key to one of its links: here the page wins.</source>
+        <translation>Այս էջը Alt+Shift+%key-ը տալիս է իր հղումներից մեկին․ այստեղ էջն է հաղթում։</translation>
+    </message>
+    <message>
+        <source>Saved.</source>
+        <translation>Պահպանված է։</translation>
+    </message>
+    <message>
+        <source>Back to the defaults</source>
+        <translation>Վերադառնալ լռելյայններին</translation>
+    </message>
+    <message>
+        <source>All shortcuts</source>
+        <translation>Բոլոր դյուրանցումները</translation>
+    </message>
+    <message>
+        <source>This page uses this key for one of its links: here the page wins.</source>
+        <translation>Այս էջն այս ստեղնն օգտագործում է իր հղումներից մեկի համար․ այստեղ էջն է հաղթում։</translation>
+    </message>
+    <message>
+        <source>Panel: %name</source>
+        <translation>Վահանակ՝ %name</translation>
+    </message>
+    <message>
+        <source>Open the sidebar</source>
+        <translation>Բացել կողագոտին</translation>
+    </message>
+    <message>
+        <source>Move the tab along its edge, or to the opposite edge</source>
+        <translation>Տեղափոխել ներդիրն իր եզրի երկայնքով կամ հակառակ եզր</translation>
+    </message>
+    <message>
+        <source>Bigger steps</source>
+        <translation>Ավելի մեծ քայլեր</translation>
+    </message>
+    <message>
+        <source>Dock to that edge</source>
+        <translation>Կցել այդ եզրին</translation>
+    </message>
+    <message>
+        <source>Go round the edges</source>
+        <translation>Շրջել եզրերով</translation>
+    </message>
+    <message>
+        <source>To the start or the end of the edge</source>
+        <translation>Եզրի սկիզբ կամ վերջ</translation>
+    </message>
+    <message>
+        <source>On the tab</source>
+        <translation>Ներդիրի վրա</translation>
+    </message>
+    <message>
+        <source>On a Mac, Option+Shift with a letter types a character in a text field: there the field gets it.</source>
+        <translation>Mac-ում Option+Shift-ը տառի հետ նշան է մուտքագրում տեքստային դաշտում․ այնտեղ այն ստանում է դաշտը։</translation>
+    </message>
+    <message>
+        <source>Change them in the Me panel</source>
+        <translation>Փոխեք դրանք «Ես» վահանակում</translation>
+    </message>
+    <message>
+        <source>Open the Page panel to save its draft.</source>
+        <translation>Բացեք «Էջ» վահանակը՝ դրա սևագիրը պահպանելու համար։</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Մուտքային</translation>
     </message>

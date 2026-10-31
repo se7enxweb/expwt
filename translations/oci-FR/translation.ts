@@ -844,6 +844,94 @@
         <translation>%n novèls dins vòstra bóstia de recepcion</translation>
     </message>
     <message>
+        <source>Open the sidebar or go into it</source>
+        <translation>Dobrir la barra laterala o i anar</translation>
+    </message>
+    <message>
+        <source>Save the draft</source>
+        <translation>Enregistrar lo borrolhon</translation>
+    </message>
+    <message>
+        <source>Keyboard shortcuts</source>
+        <translation>Acorchis de clavièr</translation>
+    </message>
+    <message>
+        <source>Use one letter, A to Z.</source>
+        <translation>Utilizatz una letra, de A a Z.</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key belongs to the browser or the system.</source>
+        <translation>Alt+Shift+%key aparten al navegador o al sistèma.</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key is taken: %action.</source>
+        <translation>Alt+Shift+%key es ja pres : %action.</translation>
+    </message>
+    <message>
+        <source>This page gives Alt+Shift+%key to one of its links: here the page wins.</source>
+        <translation>Aquesta pagina dona Alt+Shift+%key a un de sos ligams : aquí, la pagina ganha.</translation>
+    </message>
+    <message>
+        <source>Saved.</source>
+        <translation>Enregistrat.</translation>
+    </message>
+    <message>
+        <source>Back to the defaults</source>
+        <translation>Tornar a las valors per defaut</translation>
+    </message>
+    <message>
+        <source>All shortcuts</source>
+        <translation>Totes los acorchis</translation>
+    </message>
+    <message>
+        <source>This page uses this key for one of its links: here the page wins.</source>
+        <translation>Aquesta pagina utiliza aquesta tòca per un de sos ligams : aquí, la pagina ganha.</translation>
+    </message>
+    <message>
+        <source>Panel: %name</source>
+        <translation>Panèl : %name</translation>
+    </message>
+    <message>
+        <source>Open the sidebar</source>
+        <translation>Dobrir la barra laterala</translation>
+    </message>
+    <message>
+        <source>Move the tab along its edge, or to the opposite edge</source>
+        <translation>Desplaçar l'onglet al long de son bòrd, o cap al bòrd opausat</translation>
+    </message>
+    <message>
+        <source>Bigger steps</source>
+        <translation>Passes mai grandas</translation>
+    </message>
+    <message>
+        <source>Dock to that edge</source>
+        <translation>Amarrar a aquel bòrd</translation>
+    </message>
+    <message>
+        <source>Go round the edges</source>
+        <translation>Far lo torn dels bòrds</translation>
+    </message>
+    <message>
+        <source>To the start or the end of the edge</source>
+        <translation>Al començament o a la fin del bòrd</translation>
+    </message>
+    <message>
+        <source>On the tab</source>
+        <translation>Sus l'onglet</translation>
+    </message>
+    <message>
+        <source>On a Mac, Option+Shift with a letter types a character in a text field: there the field gets it.</source>
+        <translation>Sus un Mac, Option+Shift amb una letra pica un caractèr dins un camp de tèxte : aquí, es lo camp que lo recep.</translation>
+    </message>
+    <message>
+        <source>Change them in the Me panel</source>
+        <translation>Modificatz-los dins lo panèl « Ieu »</translation>
+    </message>
+    <message>
+        <source>Open the Page panel to save its draft.</source>
+        <translation>Dobrissètz lo panèl « Pagina » per enregistrar son borrolhon.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Bóstia de recepcion</translation>
     </message>

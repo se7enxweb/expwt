@@ -844,6 +844,94 @@
         <translation>Gələnlərdə %n yeni</translation>
     </message>
     <message>
+        <source>Open the sidebar or go into it</source>
+        <translation>Yan paneli aç və ya ona keç</translation>
+    </message>
+    <message>
+        <source>Save the draft</source>
+        <translation>Qaralamanı saxla</translation>
+    </message>
+    <message>
+        <source>Keyboard shortcuts</source>
+        <translation>Klaviatura qısayolları</translation>
+    </message>
+    <message>
+        <source>Use one letter, A to Z.</source>
+        <translation>Bir hərf istifadə edin, A-dan Z-yə qədər.</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key belongs to the browser or the system.</source>
+        <translation>Alt+Shift+%key brauzerə və ya sistemə aiddir.</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key is taken: %action.</source>
+        <translation>Alt+Shift+%key artıq tutulub: %action.</translation>
+    </message>
+    <message>
+        <source>This page gives Alt+Shift+%key to one of its links: here the page wins.</source>
+        <translation>Bu səhifə Alt+Shift+%key-i keçidlərindən birinə verir: burada səhifə qalib gəlir.</translation>
+    </message>
+    <message>
+        <source>Saved.</source>
+        <translation>Saxlanıldı.</translation>
+    </message>
+    <message>
+        <source>Back to the defaults</source>
+        <translation>Defolt dəyərlərə qayıt</translation>
+    </message>
+    <message>
+        <source>All shortcuts</source>
+        <translation>Bütün qısayollar</translation>
+    </message>
+    <message>
+        <source>This page uses this key for one of its links: here the page wins.</source>
+        <translation>Bu səhifə bu düyməni keçidlərindən biri üçün istifadə edir: burada səhifə qalib gəlir.</translation>
+    </message>
+    <message>
+        <source>Panel: %name</source>
+        <translation>Panel: %name</translation>
+    </message>
+    <message>
+        <source>Open the sidebar</source>
+        <translation>Yan paneli aç</translation>
+    </message>
+    <message>
+        <source>Move the tab along its edge, or to the opposite edge</source>
+        <translation>Nişanı öz kənarı boyunca və ya əks kənara apar</translation>
+    </message>
+    <message>
+        <source>Bigger steps</source>
+        <translation>Daha böyük addımlar</translation>
+    </message>
+    <message>
+        <source>Dock to that edge</source>
+        <translation>O kənara bərkid</translation>
+    </message>
+    <message>
+        <source>Go round the edges</source>
+        <translation>Kənarlar boyunca dolaş</translation>
+    </message>
+    <message>
+        <source>To the start or the end of the edge</source>
+        <translation>Kənarın əvvəlinə və ya sonuna</translation>
+    </message>
+    <message>
+        <source>On the tab</source>
+        <translation>Nişanda</translation>
+    </message>
+    <message>
+        <source>On a Mac, Option+Shift with a letter types a character in a text field: there the field gets it.</source>
+        <translation>Mac-da Option+Shift hərflə birlikdə mətn sahəsində simvol yazır: orada onu sahə alır.</translation>
+    </message>
+    <message>
+        <source>Change them in the Me panel</source>
+        <translation>Onları «Mən» panelində dəyişin</translation>
+    </message>
+    <message>
+        <source>Open the Page panel to save its draft.</source>
+        <translation>Qaralamasını saxlamaq üçün «Səhifə» panelini açın.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Gələnlər</translation>
     </message>

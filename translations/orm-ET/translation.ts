@@ -844,6 +844,94 @@
         <translation>%n haaraa saanduqa galtee kee keessa</translation>
     </message>
     <message>
+        <source>Open the sidebar or go into it</source>
+        <translation>Barreessaa cinaa bani ykn itti seeni</translation>
+    </message>
+    <message>
+        <source>Save the draft</source>
+        <translation>Wixinee olkaa'i</translation>
+    </message>
+    <message>
+        <source>Keyboard shortcuts</source>
+        <translation>Karaa gabaabaa kiiboordii</translation>
+    </message>
+    <message>
+        <source>Use one letter, A to Z.</source>
+        <translation>Qubee tokko fayyadami, A hanga Z.</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key belongs to the browser or the system.</source>
+        <translation>Alt+Shift+%key kan barbaadduu ykn sirnaati.</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key is taken: %action.</source>
+        <translation>Alt+Shift+%key duraan fudhatameera: %action.</translation>
+    </message>
+    <message>
+        <source>This page gives Alt+Shift+%key to one of its links: here the page wins.</source>
+        <translation>Fuulli kun Alt+Shift+%key hidhata isaa tokkoof kenna: as fuulli mo'a.</translation>
+    </message>
+    <message>
+        <source>Saved.</source>
+        <translation>Olkaa'ameera.</translation>
+    </message>
+    <message>
+        <source>Back to the defaults</source>
+        <translation>Gara durtiiwwaniitti deebi'i</translation>
+    </message>
+    <message>
+        <source>All shortcuts</source>
+        <translation>Karaa gabaabaa hunda</translation>
+    </message>
+    <message>
+        <source>This page uses this key for one of its links: here the page wins.</source>
+        <translation>Fuulli kun furtuu kana hidhata isaa tokkoof fayyadama: as fuulli mo'a.</translation>
+    </message>
+    <message>
+        <source>Panel: %name</source>
+        <translation>Paanela: %name</translation>
+    </message>
+    <message>
+        <source>Open the sidebar</source>
+        <translation>Barreessaa cinaa bani</translation>
+    </message>
+    <message>
+        <source>Move the tab along its edge, or to the opposite edge</source>
+        <translation>Tabicha qarree isaa irra ykn gara qarree faallaatti socho'i</translation>
+    </message>
+    <message>
+        <source>Bigger steps</source>
+        <translation>Tarkaanfiiwwan gurguddoo</translation>
+    </message>
+    <message>
+        <source>Dock to that edge</source>
+        <translation>Qarree sanatti maxxansi</translation>
+    </message>
+    <message>
+        <source>Go round the edges</source>
+        <translation>Qarreewwan naanna'i</translation>
+    </message>
+    <message>
+        <source>To the start or the end of the edge</source>
+        <translation>Gara jalqabaa ykn dhuma qarreetti</translation>
+    </message>
+    <message>
+        <source>On the tab</source>
+        <translation>Tabicha irratti</translation>
+    </message>
+    <message>
+        <source>On a Mac, Option+Shift with a letter types a character in a text field: there the field gets it.</source>
+        <translation>Mac irratti, Option+Shift qubee waliin mallattoo bakka barreeffamaa keessatti barreessa: achitti bakki sun argata.</translation>
+    </message>
+    <message>
+        <source>Change them in the Me panel</source>
+        <translation>Isaan paanela «Ana» keessatti jijjiiri</translation>
+    </message>
+    <message>
+        <source>Open the Page panel to save its draft.</source>
+        <translation>Wixinee isaa olkaa'uuf paanela «Fuula» bani.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Saanduqa galtee</translation>
     </message>

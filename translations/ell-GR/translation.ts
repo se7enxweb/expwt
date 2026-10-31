@@ -844,6 +844,94 @@
         <translation>%n νέα στα εισερχόμενά σας</translation>
     </message>
     <message>
+        <source>Open the sidebar or go into it</source>
+        <translation>Άνοιγμα της πλαϊνής στήλης ή μετάβαση σε αυτήν</translation>
+    </message>
+    <message>
+        <source>Save the draft</source>
+        <translation>Αποθήκευση του προσχεδίου</translation>
+    </message>
+    <message>
+        <source>Keyboard shortcuts</source>
+        <translation>Συντομεύσεις πληκτρολογίου</translation>
+    </message>
+    <message>
+        <source>Use one letter, A to Z.</source>
+        <translation>Χρησιμοποιήστε ένα γράμμα, A έως Z.</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key belongs to the browser or the system.</source>
+        <translation>Το Alt+Shift+%key ανήκει στο πρόγραμμα περιήγησης ή στο σύστημα.</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key is taken: %action.</source>
+        <translation>Το Alt+Shift+%key είναι κατειλημμένο: %action.</translation>
+    </message>
+    <message>
+        <source>This page gives Alt+Shift+%key to one of its links: here the page wins.</source>
+        <translation>Αυτή η σελίδα δίνει το Alt+Shift+%key σε έναν από τους συνδέσμους της: εδώ υπερισχύει η σελίδα.</translation>
+    </message>
+    <message>
+        <source>Saved.</source>
+        <translation>Αποθηκεύτηκε.</translation>
+    </message>
+    <message>
+        <source>Back to the defaults</source>
+        <translation>Επαναφορά προεπιλογών</translation>
+    </message>
+    <message>
+        <source>All shortcuts</source>
+        <translation>Όλες οι συντομεύσεις</translation>
+    </message>
+    <message>
+        <source>This page uses this key for one of its links: here the page wins.</source>
+        <translation>Αυτή η σελίδα χρησιμοποιεί αυτό το πλήκτρο για έναν από τους συνδέσμους της: εδώ υπερισχύει η σελίδα.</translation>
+    </message>
+    <message>
+        <source>Panel: %name</source>
+        <translation>Πίνακας: %name</translation>
+    </message>
+    <message>
+        <source>Open the sidebar</source>
+        <translation>Άνοιγμα της πλαϊνής στήλης</translation>
+    </message>
+    <message>
+        <source>Move the tab along its edge, or to the opposite edge</source>
+        <translation>Μετακίνηση της καρτέλας κατά μήκος της άκρης της ή στην απέναντι άκρη</translation>
+    </message>
+    <message>
+        <source>Bigger steps</source>
+        <translation>Μεγαλύτερα βήματα</translation>
+    </message>
+    <message>
+        <source>Dock to that edge</source>
+        <translation>Πρόσδεση σε εκείνη την άκρη</translation>
+    </message>
+    <message>
+        <source>Go round the edges</source>
+        <translation>Γύρος στις άκρες</translation>
+    </message>
+    <message>
+        <source>To the start or the end of the edge</source>
+        <translation>Στην αρχή ή στο τέλος της άκρης</translation>
+    </message>
+    <message>
+        <source>On the tab</source>
+        <translation>Στην καρτέλα</translation>
+    </message>
+    <message>
+        <source>On a Mac, Option+Shift with a letter types a character in a text field: there the field gets it.</source>
+        <translation>Σε Mac, το Option+Shift με ένα γράμμα πληκτρολογεί έναν χαρακτήρα σε πεδίο κειμένου: εκεί τον παίρνει το πεδίο.</translation>
+    </message>
+    <message>
+        <source>Change them in the Me panel</source>
+        <translation>Αλλάξτε τες στον πίνακα «Εγώ»</translation>
+    </message>
+    <message>
+        <source>Open the Page panel to save its draft.</source>
+        <translation>Ανοίξτε τον πίνακα «Σελίδα» για να αποθηκεύσετε το προσχέδιό της.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Εισερχόμενα</translation>
     </message>

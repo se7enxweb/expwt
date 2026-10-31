@@ -844,6 +844,94 @@
         <translation>%n cusub sanduuqa fariimahaaga</translation>
     </message>
     <message>
+        <source>Open the sidebar or go into it</source>
+        <translation>Fur barta dhinaca ama gal</translation>
+    </message>
+    <message>
+        <source>Save the draft</source>
+        <translation>Keydi qabyada</translation>
+    </message>
+    <message>
+        <source>Keyboard shortcuts</source>
+        <translation>Furayaasha gaaban ee kiiboodhka</translation>
+    </message>
+    <message>
+        <source>Use one letter, A to Z.</source>
+        <translation>Isticmaal hal xaraf, A ilaa Z.</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key belongs to the browser or the system.</source>
+        <translation>Alt+Shift+%key waa ka biraawsarka ama nidaamka.</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key is taken: %action.</source>
+        <translation>Alt+Shift+%key horay ayaa loo qaatay: %action.</translation>
+    </message>
+    <message>
+        <source>This page gives Alt+Shift+%key to one of its links: here the page wins.</source>
+        <translation>Boggani wuxuu Alt+Shift+%key siiyaa mid ka mid ah xiriiriyayaashiisa: halkan boggaa guuleysta.</translation>
+    </message>
+    <message>
+        <source>Saved.</source>
+        <translation>Waa la keydiyay.</translation>
+    </message>
+    <message>
+        <source>Back to the defaults</source>
+        <translation>Ku noqo kuwa caadiga ah</translation>
+    </message>
+    <message>
+        <source>All shortcuts</source>
+        <translation>Dhammaan furayaasha gaaban</translation>
+    </message>
+    <message>
+        <source>This page uses this key for one of its links: here the page wins.</source>
+        <translation>Boggani wuxuu furahan u isticmaalaa mid ka mid ah xiriiriyayaashiisa: halkan boggaa guuleysta.</translation>
+    </message>
+    <message>
+        <source>Panel: %name</source>
+        <translation>Guddi: %name</translation>
+    </message>
+    <message>
+        <source>Open the sidebar</source>
+        <translation>Fur barta dhinaca</translation>
+    </message>
+    <message>
+        <source>Move the tab along its edge, or to the opposite edge</source>
+        <translation>U dhaqaaji tab-ka geeskiisa, ama geeska ka soo horjeeda</translation>
+    </message>
+    <message>
+        <source>Bigger steps</source>
+        <translation>Tallaabooyin waaweyn</translation>
+    </message>
+    <message>
+        <source>Dock to that edge</source>
+        <translation>Ku xir geeskaas</translation>
+    </message>
+    <message>
+        <source>Go round the edges</source>
+        <translation>Wareeg geesaha</translation>
+    </message>
+    <message>
+        <source>To the start or the end of the edge</source>
+        <translation>Bilowga ama dhammaadka geeska</translation>
+    </message>
+    <message>
+        <source>On the tab</source>
+        <translation>Tab-ka dushiisa</translation>
+    </message>
+    <message>
+        <source>On a Mac, Option+Shift with a letter types a character in a text field: there the field gets it.</source>
+        <translation>Mac, Option+Shift oo xaraf la socdo wuxuu qoraa calaamad goob qoraal ah: halkaas goobta ayaa hesha.</translation>
+    </message>
+    <message>
+        <source>Change them in the Me panel</source>
+        <translation>Ku beddel guddiga «Aniga»</translation>
+    </message>
+    <message>
+        <source>Open the Page panel to save its draft.</source>
+        <translation>Fur guddiga «Bog» si aad u keydiso qabyadiisa.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Sanduuqa fariimaha</translation>
     </message>

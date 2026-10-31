@@ -844,6 +844,94 @@
         <translation>%n kesi e naatirde maa</translation>
     </message>
     <message>
+        <source>Open the sidebar or go into it</source>
+        <translation>Uddit palal sera walla naat e mayre</translation>
+    </message>
+    <message>
+        <source>Save the draft</source>
+        <translation>Mooftu daartol ngol</translation>
+    </message>
+    <message>
+        <source>Keyboard shortcuts</source>
+        <translation>Laabi ɓadaaɗi tappirde</translation>
+    </message>
+    <message>
+        <source>Use one letter, A to Z.</source>
+        <translation>Huutoro alkulal gootal, A haa Z.</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key belongs to the browser or the system.</source>
+        <translation>Alt+Shift+%key ko jeyaaɗo wanngorde ndee walla yuɓɓo ngoo.</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key is taken: %action.</source>
+        <translation>Alt+Shift+%key ina huutoraa: %action.</translation>
+    </message>
+    <message>
+        <source>This page gives Alt+Shift+%key to one of its links: here the page wins.</source>
+        <translation>Hello ngo ina rokka Alt+Shift+%key jokkol mum gootol: ɗoo hello ngoo foolat.</translation>
+    </message>
+    <message>
+        <source>Saved.</source>
+        <translation>Mooftaama.</translation>
+    </message>
+    <message>
+        <source>Back to the defaults</source>
+        <translation>Rutto e goowaaɗi ɗii</translation>
+    </message>
+    <message>
+        <source>All shortcuts</source>
+        <translation>Laabi ɓadaaɗi fof</translation>
+    </message>
+    <message>
+        <source>This page uses this key for one of its links: here the page wins.</source>
+        <translation>Hello ngo ina huutoroo ndee tappirde e jokkol mum gootol: ɗoo hello ngoo foolat.</translation>
+    </message>
+    <message>
+        <source>Panel: %name</source>
+        <translation>Panel: %name</translation>
+    </message>
+    <message>
+        <source>Open the sidebar</source>
+        <translation>Uddit palal sera</translation>
+    </message>
+    <message>
+        <source>Move the tab along its edge, or to the opposite edge</source>
+        <translation>Dirtin tab ngal e ceeral mum, walla e ceeral ngal fuunti</translation>
+    </message>
+    <message>
+        <source>Bigger steps</source>
+        <translation>Pelle mawɗe</translation>
+    </message>
+    <message>
+        <source>Dock to that edge</source>
+        <translation>Takkin e ceeral ngal</translation>
+    </message>
+    <message>
+        <source>Go round the edges</source>
+        <translation>Yiiloo ceeraaje ɗee</translation>
+    </message>
+    <message>
+        <source>To the start or the end of the edge</source>
+        <translation>Fuɗɗorde walla gasirde ceeral ngal</translation>
+    </message>
+    <message>
+        <source>On the tab</source>
+        <translation>E tab ngal</translation>
+    </message>
+    <message>
+        <source>On a Mac, Option+Shift with a letter types a character in a text field: there the field gets it.</source>
+        <translation>E Mac, Option+Shift e alkulal ina winnda maande e nokku binndi: ton nokku oo heɓata ɗum.</translation>
+    </message>
+    <message>
+        <source>Change them in the Me panel</source>
+        <translation>Waylu ɗum en e panel «Miin»</translation>
+    </message>
+    <message>
+        <source>Open the Page panel to save its draft.</source>
+        <translation>Uddit panel «Hello» ngam mooftude daartol mum.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Naatirde</translation>
     </message>

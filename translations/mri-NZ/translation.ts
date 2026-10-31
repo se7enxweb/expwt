@@ -844,6 +844,94 @@
         <translation>%n hou i tō pouaka whakauru</translation>
     </message>
     <message>
+        <source>Open the sidebar or go into it</source>
+        <translation>Whakatuwherahia te pae taha, haere rānei ki roto</translation>
+    </message>
+    <message>
+        <source>Save the draft</source>
+        <translation>Tiakina te tauira</translation>
+    </message>
+    <message>
+        <source>Keyboard shortcuts</source>
+        <translation>Pokatata papapātuhi</translation>
+    </message>
+    <message>
+        <source>Use one letter, A to Z.</source>
+        <translation>Whakamahia kotahi te pū, A ki Z.</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key belongs to the browser or the system.</source>
+        <translation>Nō te pūtirotiro, nō te pūnaha rānei a Alt+Shift+%key.</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key is taken: %action.</source>
+        <translation>Kua whakamahia kētia a Alt+Shift+%key: %action.</translation>
+    </message>
+    <message>
+        <source>This page gives Alt+Shift+%key to one of its links: here the page wins.</source>
+        <translation>Ka hoatu e tēnei whārangi a Alt+Shift+%key ki tētahi o ōna hononga: i konei ka toa te whārangi.</translation>
+    </message>
+    <message>
+        <source>Saved.</source>
+        <translation>Kua tiakina.</translation>
+    </message>
+    <message>
+        <source>Back to the defaults</source>
+        <translation>Hoki ki ngā taunoa</translation>
+    </message>
+    <message>
+        <source>All shortcuts</source>
+        <translation>Ngā pokatata katoa</translation>
+    </message>
+    <message>
+        <source>This page uses this key for one of its links: here the page wins.</source>
+        <translation>Ka whakamahia e tēnei whārangi tēnei pātuhi mō tētahi o ōna hononga: i konei ka toa te whārangi.</translation>
+    </message>
+    <message>
+        <source>Panel: %name</source>
+        <translation>Pae: %name</translation>
+    </message>
+    <message>
+        <source>Open the sidebar</source>
+        <translation>Whakatuwherahia te pae taha</translation>
+    </message>
+    <message>
+        <source>Move the tab along its edge, or to the opposite edge</source>
+        <translation>Nekehia te ripa i te taha o tōna tapa, ki te tapa ki tua rānei</translation>
+    </message>
+    <message>
+        <source>Bigger steps</source>
+        <translation>Ngā hīkoi nui ake</translation>
+    </message>
+    <message>
+        <source>Dock to that edge</source>
+        <translation>Tūmau ki taua tapa</translation>
+    </message>
+    <message>
+        <source>Go round the edges</source>
+        <translation>Haere huri noa i ngā tapa</translation>
+    </message>
+    <message>
+        <source>To the start or the end of the edge</source>
+        <translation>Ki te tīmatanga, ki te mutunga rānei o te tapa</translation>
+    </message>
+    <message>
+        <source>On the tab</source>
+        <translation>I te ripa</translation>
+    </message>
+    <message>
+        <source>On a Mac, Option+Shift with a letter types a character in a text field: there the field gets it.</source>
+        <translation>I tētahi Mac, ka patopato a Option+Shift me tētahi pū i tētahi pūāhua ki tētahi āpure kuputuhi: i reira ka riro mā te āpure.</translation>
+    </message>
+    <message>
+        <source>Change them in the Me panel</source>
+        <translation>Panonihia ki te pae «Ahau»</translation>
+    </message>
+    <message>
+        <source>Open the Page panel to save its draft.</source>
+        <translation>Whakatuwherahia te pae «Whārangi» hei tiaki i tōna tauira.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Pouaka whakauru</translation>
     </message>

@@ -844,6 +844,94 @@
         <translation>भवतः आगतपेटिकायां %n नूतनानि</translation>
     </message>
     <message>
+        <source>Open the sidebar or go into it</source>
+        <translation>पार्श्वपट्टिकाम् उद्घाटयतु तत्र गच्छतु वा</translation>
+    </message>
+    <message>
+        <source>Save the draft</source>
+        <translation>प्रारूपं संरक्षतु</translation>
+    </message>
+    <message>
+        <source>Keyboard shortcuts</source>
+        <translation>कुञ्जीपटल-लघुमार्गाः</translation>
+    </message>
+    <message>
+        <source>Use one letter, A to Z.</source>
+        <translation>एकम् अक्षरम् उपयुङ्क्ताम्, A तः Z पर्यन्तम्।</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key belongs to the browser or the system.</source>
+        <translation>Alt+Shift+%key विचरकस्य तन्त्रस्य वा अस्ति।</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key is taken: %action.</source>
+        <translation>Alt+Shift+%key पूर्वमेव उपयुक्तम्: %action।</translation>
+    </message>
+    <message>
+        <source>This page gives Alt+Shift+%key to one of its links: here the page wins.</source>
+        <translation>इदं पृष्ठम् Alt+Shift+%key स्वस्य एकस्मै सम्बन्धाय ददाति: अत्र पृष्ठं जयति।</translation>
+    </message>
+    <message>
+        <source>Saved.</source>
+        <translation>संरक्षितम्।</translation>
+    </message>
+    <message>
+        <source>Back to the defaults</source>
+        <translation>पूर्वनिर्धारितं प्रति प्रत्यागच्छतु</translation>
+    </message>
+    <message>
+        <source>All shortcuts</source>
+        <translation>सर्वे लघुमार्गाः</translation>
+    </message>
+    <message>
+        <source>This page uses this key for one of its links: here the page wins.</source>
+        <translation>इदं पृष्ठम् इमां कुञ्चिकां स्वस्य एकस्मै सम्बन्धाय उपयुङ्क्ते: अत्र पृष्ठं जयति।</translation>
+    </message>
+    <message>
+        <source>Panel: %name</source>
+        <translation>फलकम्: %name</translation>
+    </message>
+    <message>
+        <source>Open the sidebar</source>
+        <translation>पार्श्वपट्टिकाम् उद्घाटयतु</translation>
+    </message>
+    <message>
+        <source>Move the tab along its edge, or to the opposite edge</source>
+        <translation>पत्रकं तस्य अन्तेन विपरीतम् अन्तं वा चालयतु</translation>
+    </message>
+    <message>
+        <source>Bigger steps</source>
+        <translation>बृहत्तराणि पदानि</translation>
+    </message>
+    <message>
+        <source>Dock to that edge</source>
+        <translation>तस्मिन् अन्ते स्थापयतु</translation>
+    </message>
+    <message>
+        <source>Go round the edges</source>
+        <translation>अन्तान् परितः गच्छतु</translation>
+    </message>
+    <message>
+        <source>To the start or the end of the edge</source>
+        <translation>अन्तस्य आरम्भं समाप्तिं वा</translation>
+    </message>
+    <message>
+        <source>On the tab</source>
+        <translation>पत्रके</translation>
+    </message>
+    <message>
+        <source>On a Mac, Option+Shift with a letter types a character in a text field: there the field gets it.</source>
+        <translation>Mac मध्ये अक्षरेण सह Option+Shift पाठक्षेत्रे एकं वर्णं टङ्कयति: तत्र क्षेत्रं तत् प्राप्नोति।</translation>
+    </message>
+    <message>
+        <source>Change them in the Me panel</source>
+        <translation>तानि «अहम्» फलके परिवर्तयतु</translation>
+    </message>
+    <message>
+        <source>Open the Page panel to save its draft.</source>
+        <translation>तस्य प्रारूपं संरक्षितुं «पृष्ठम्» फलकम् उद्घाटयतु।</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>आगतपेटिका</translation>
     </message>

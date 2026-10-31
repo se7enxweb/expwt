@@ -844,6 +844,94 @@
         <translation>%n nových v doručené poště</translation>
     </message>
     <message>
+        <source>Open the sidebar or go into it</source>
+        <translation>Otevřít postranní panel nebo do něj přejít</translation>
+    </message>
+    <message>
+        <source>Save the draft</source>
+        <translation>Uložit koncept</translation>
+    </message>
+    <message>
+        <source>Keyboard shortcuts</source>
+        <translation>Klávesové zkratky</translation>
+    </message>
+    <message>
+        <source>Use one letter, A to Z.</source>
+        <translation>Použijte jedno písmeno, A až Z.</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key belongs to the browser or the system.</source>
+        <translation>Alt+Shift+%key patří prohlížeči nebo systému.</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key is taken: %action.</source>
+        <translation>Alt+Shift+%key je obsazeno: %action.</translation>
+    </message>
+    <message>
+        <source>This page gives Alt+Shift+%key to one of its links: here the page wins.</source>
+        <translation>Tato stránka dává Alt+Shift+%key jednomu ze svých odkazů: zde vyhrává stránka.</translation>
+    </message>
+    <message>
+        <source>Saved.</source>
+        <translation>Uloženo.</translation>
+    </message>
+    <message>
+        <source>Back to the defaults</source>
+        <translation>Zpět na výchozí</translation>
+    </message>
+    <message>
+        <source>All shortcuts</source>
+        <translation>Všechny zkratky</translation>
+    </message>
+    <message>
+        <source>This page uses this key for one of its links: here the page wins.</source>
+        <translation>Tato stránka používá tuto klávesu pro jeden ze svých odkazů: zde vyhrává stránka.</translation>
+    </message>
+    <message>
+        <source>Panel: %name</source>
+        <translation>Panel: %name</translation>
+    </message>
+    <message>
+        <source>Open the sidebar</source>
+        <translation>Otevřít postranní panel</translation>
+    </message>
+    <message>
+        <source>Move the tab along its edge, or to the opposite edge</source>
+        <translation>Posunout záložku podél jejího okraje nebo k protějšímu okraji</translation>
+    </message>
+    <message>
+        <source>Bigger steps</source>
+        <translation>Větší kroky</translation>
+    </message>
+    <message>
+        <source>Dock to that edge</source>
+        <translation>Ukotvit k tomuto okraji</translation>
+    </message>
+    <message>
+        <source>Go round the edges</source>
+        <translation>Obejít okraje</translation>
+    </message>
+    <message>
+        <source>To the start or the end of the edge</source>
+        <translation>Na začátek nebo konec okraje</translation>
+    </message>
+    <message>
+        <source>On the tab</source>
+        <translation>Na záložce</translation>
+    </message>
+    <message>
+        <source>On a Mac, Option+Shift with a letter types a character in a text field: there the field gets it.</source>
+        <translation>Na Macu Option+Shift s písmenem napíše znak do textového pole: tam ho dostane pole.</translation>
+    </message>
+    <message>
+        <source>Change them in the Me panel</source>
+        <translation>Změňte je v panelu „Já“</translation>
+    </message>
+    <message>
+        <source>Open the Page panel to save its draft.</source>
+        <translation>Otevřete panel „Stránka“, abyste uložili její koncept.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Doručené</translation>
     </message>

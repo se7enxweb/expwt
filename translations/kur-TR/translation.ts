@@ -844,6 +844,94 @@
         <translation>%n nû di qutiya te ya hatî de</translation>
     </message>
     <message>
+        <source>Open the sidebar or go into it</source>
+        <translation>Darika kêlekê veke an têkeve nav wê</translation>
+    </message>
+    <message>
+        <source>Save the draft</source>
+        <translation>Reşnivîsê tomar bike</translation>
+    </message>
+    <message>
+        <source>Keyboard shortcuts</source>
+        <translation>Kurteriyên klavyeyê</translation>
+    </message>
+    <message>
+        <source>Use one letter, A to Z.</source>
+        <translation>Yek tîpê bi kar bîne, ji A heta Z.</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key belongs to the browser or the system.</source>
+        <translation>Alt+Shift+%key ya gerok an pergalê ye.</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key is taken: %action.</source>
+        <translation>Alt+Shift+%key jixwe tê bikaranîn: %action.</translation>
+    </message>
+    <message>
+        <source>This page gives Alt+Shift+%key to one of its links: here the page wins.</source>
+        <translation>Ev rûpel Alt+Shift+%key dide yek ji girêdanên xwe: li vir rûpel bi ser dikeve.</translation>
+    </message>
+    <message>
+        <source>Saved.</source>
+        <translation>Hat tomarkirin.</translation>
+    </message>
+    <message>
+        <source>Back to the defaults</source>
+        <translation>Vegere ser standardan</translation>
+    </message>
+    <message>
+        <source>All shortcuts</source>
+        <translation>Hemû kurterê</translation>
+    </message>
+    <message>
+        <source>This page uses this key for one of its links: here the page wins.</source>
+        <translation>Ev rûpel vê bişkojkê ji bo yek ji girêdanên xwe bi kar tîne: li vir rûpel bi ser dikeve.</translation>
+    </message>
+    <message>
+        <source>Panel: %name</source>
+        <translation>Panel: %name</translation>
+    </message>
+    <message>
+        <source>Open the sidebar</source>
+        <translation>Darika kêlekê veke</translation>
+    </message>
+    <message>
+        <source>Move the tab along its edge, or to the opposite edge</source>
+        <translation>Tabê li ser keviya wê an ber bi keviya dijber ve bibe</translation>
+    </message>
+    <message>
+        <source>Bigger steps</source>
+        <translation>Gavên mezintir</translation>
+    </message>
+    <message>
+        <source>Dock to that edge</source>
+        <translation>Bi wê keviyê ve girê bide</translation>
+    </message>
+    <message>
+        <source>Go round the edges</source>
+        <translation>Li dora keviyan bigere</translation>
+    </message>
+    <message>
+        <source>To the start or the end of the edge</source>
+        <translation>Ber bi destpêk an dawiya keviyê</translation>
+    </message>
+    <message>
+        <source>On the tab</source>
+        <translation>Li ser tabê</translation>
+    </message>
+    <message>
+        <source>On a Mac, Option+Shift with a letter types a character in a text field: there the field gets it.</source>
+        <translation>Li ser Mac, Option+Shift bi tîpekê re di qada nivîsê de nîşanekê dinivîse: li wir qad wê distîne.</translation>
+    </message>
+    <message>
+        <source>Change them in the Me panel</source>
+        <translation>Wan di panela «Ez» de biguherîne</translation>
+    </message>
+    <message>
+        <source>Open the Page panel to save its draft.</source>
+        <translation>Panela «Rûpel» veke da ku reşnivîsa wê tomar bikî.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Qutiya hatî</translation>
     </message>

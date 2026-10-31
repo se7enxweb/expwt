@@ -844,6 +844,94 @@
         <translation>%n novaj en via enirkesto</translation>
     </message>
     <message>
+        <source>Open the sidebar or go into it</source>
+        <translation>Malfermi la flankan breton aŭ iri en ĝin</translation>
+    </message>
+    <message>
+        <source>Save the draft</source>
+        <translation>Konservi la malneton</translation>
+    </message>
+    <message>
+        <source>Keyboard shortcuts</source>
+        <translation>Klavaraj ŝparvojoj</translation>
+    </message>
+    <message>
+        <source>Use one letter, A to Z.</source>
+        <translation>Uzu unu literon, A ĝis Z.</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key belongs to the browser or the system.</source>
+        <translation>Alt+Shift+%key apartenas al la retumilo aŭ al la sistemo.</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key is taken: %action.</source>
+        <translation>Alt+Shift+%key jam estas okupita: %action.</translation>
+    </message>
+    <message>
+        <source>This page gives Alt+Shift+%key to one of its links: here the page wins.</source>
+        <translation>Ĉi tiu paĝo donas Alt+Shift+%key al unu el siaj ligiloj: ĉi tie la paĝo venkas.</translation>
+    </message>
+    <message>
+        <source>Saved.</source>
+        <translation>Konservita.</translation>
+    </message>
+    <message>
+        <source>Back to the defaults</source>
+        <translation>Reen al la defaŭltoj</translation>
+    </message>
+    <message>
+        <source>All shortcuts</source>
+        <translation>Ĉiuj ŝparvojoj</translation>
+    </message>
+    <message>
+        <source>This page uses this key for one of its links: here the page wins.</source>
+        <translation>Ĉi tiu paĝo uzas ĉi tiun klavon por unu el siaj ligiloj: ĉi tie la paĝo venkas.</translation>
+    </message>
+    <message>
+        <source>Panel: %name</source>
+        <translation>Panelo: %name</translation>
+    </message>
+    <message>
+        <source>Open the sidebar</source>
+        <translation>Malfermi la flankan breton</translation>
+    </message>
+    <message>
+        <source>Move the tab along its edge, or to the opposite edge</source>
+        <translation>Movi la langeton laŭ ĝia rando, aŭ al la kontraŭa rando</translation>
+    </message>
+    <message>
+        <source>Bigger steps</source>
+        <translation>Pli grandaj paŝoj</translation>
+    </message>
+    <message>
+        <source>Dock to that edge</source>
+        <translation>Albordigi al tiu rando</translation>
+    </message>
+    <message>
+        <source>Go round the edges</source>
+        <translation>Iri ĉirkaŭ la randoj</translation>
+    </message>
+    <message>
+        <source>To the start or the end of the edge</source>
+        <translation>Al la komenco aŭ la fino de la rando</translation>
+    </message>
+    <message>
+        <source>On the tab</source>
+        <translation>Sur la langeto</translation>
+    </message>
+    <message>
+        <source>On a Mac, Option+Shift with a letter types a character in a text field: there the field gets it.</source>
+        <translation>Ĉe Mac, Option+Shift kun litero tajpas signon en teksta kampo: tie la kampo ricevas ĝin.</translation>
+    </message>
+    <message>
+        <source>Change them in the Me panel</source>
+        <translation>Ŝanĝu ilin en la panelo «Mi»</translation>
+    </message>
+    <message>
+        <source>Open the Page panel to save its draft.</source>
+        <translation>Malfermu la panelon «Paĝo» por konservi ĝian malneton.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Enirkesto</translation>
     </message>

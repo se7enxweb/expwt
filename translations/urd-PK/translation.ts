@@ -844,6 +844,94 @@
         <translation>آپ کے ان باکس میں %n نئے</translation>
     </message>
     <message>
+        <source>Open the sidebar or go into it</source>
+        <translation>سائیڈ بار کھولیں یا اس میں جائیں</translation>
+    </message>
+    <message>
+        <source>Save the draft</source>
+        <translation>مسودہ محفوظ کریں</translation>
+    </message>
+    <message>
+        <source>Keyboard shortcuts</source>
+        <translation>کی بورڈ شارٹ کٹ</translation>
+    </message>
+    <message>
+        <source>Use one letter, A to Z.</source>
+        <translation>ایک حرف استعمال کریں، A سے Z تک۔</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key belongs to the browser or the system.</source>
+        <translation>Alt+Shift+%key براؤزر یا سسٹم کا ہے۔</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key is taken: %action.</source>
+        <translation>Alt+Shift+%key پہلے سے استعمال میں ہے: %action۔</translation>
+    </message>
+    <message>
+        <source>This page gives Alt+Shift+%key to one of its links: here the page wins.</source>
+        <translation>یہ صفحہ Alt+Shift+%key اپنے ایک لنک کو دیتا ہے: یہاں صفحہ جیتتا ہے۔</translation>
+    </message>
+    <message>
+        <source>Saved.</source>
+        <translation>محفوظ ہو گیا۔</translation>
+    </message>
+    <message>
+        <source>Back to the defaults</source>
+        <translation>ڈیفالٹ پر واپس</translation>
+    </message>
+    <message>
+        <source>All shortcuts</source>
+        <translation>تمام شارٹ کٹ</translation>
+    </message>
+    <message>
+        <source>This page uses this key for one of its links: here the page wins.</source>
+        <translation>یہ صفحہ یہ کلید اپنے ایک لنک کے لیے استعمال کرتا ہے: یہاں صفحہ جیتتا ہے۔</translation>
+    </message>
+    <message>
+        <source>Panel: %name</source>
+        <translation>پینل: %name</translation>
+    </message>
+    <message>
+        <source>Open the sidebar</source>
+        <translation>سائیڈ بار کھولیں</translation>
+    </message>
+    <message>
+        <source>Move the tab along its edge, or to the opposite edge</source>
+        <translation>ٹیب کو اس کے کنارے کے ساتھ یا مخالف کنارے پر لے جائیں</translation>
+    </message>
+    <message>
+        <source>Bigger steps</source>
+        <translation>بڑے قدم</translation>
+    </message>
+    <message>
+        <source>Dock to that edge</source>
+        <translation>اس کنارے سے جوڑیں</translation>
+    </message>
+    <message>
+        <source>Go round the edges</source>
+        <translation>کناروں کے گرد گھومیں</translation>
+    </message>
+    <message>
+        <source>To the start or the end of the edge</source>
+        <translation>کنارے کے شروع یا آخر پر</translation>
+    </message>
+    <message>
+        <source>On the tab</source>
+        <translation>ٹیب پر</translation>
+    </message>
+    <message>
+        <source>On a Mac, Option+Shift with a letter types a character in a text field: there the field gets it.</source>
+        <translation>Mac پر، حرف کے ساتھ Option+Shift ٹیکسٹ فیلڈ میں ایک علامت ٹائپ کرتا ہے: وہاں فیلڈ کو وہ ملتا ہے۔</translation>
+    </message>
+    <message>
+        <source>Change them in the Me panel</source>
+        <translation>انہیں «میں» پینل میں تبدیل کریں</translation>
+    </message>
+    <message>
+        <source>Open the Page panel to save its draft.</source>
+        <translation>اس کا مسودہ محفوظ کرنے کے لیے «صفحہ» پینل کھولیں۔</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>ان باکس</translation>
     </message>

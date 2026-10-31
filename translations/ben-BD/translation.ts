@@ -844,6 +844,94 @@
         <translation>আপনার ইনবক্সে %n নতুন</translation>
     </message>
     <message>
+        <source>Open the sidebar or go into it</source>
+        <translation>সাইডবার খুলুন বা তার ভেতরে যান</translation>
+    </message>
+    <message>
+        <source>Save the draft</source>
+        <translation>খসড়া সংরক্ষণ করুন</translation>
+    </message>
+    <message>
+        <source>Keyboard shortcuts</source>
+        <translation>কীবোর্ড শর্টকাট</translation>
+    </message>
+    <message>
+        <source>Use one letter, A to Z.</source>
+        <translation>একটি অক্ষর ব্যবহার করুন, A থেকে Z।</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key belongs to the browser or the system.</source>
+        <translation>Alt+Shift+%key ব্রাউজার বা সিস্টেমের।</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key is taken: %action.</source>
+        <translation>Alt+Shift+%key ইতিমধ্যে ব্যবহৃত: %action।</translation>
+    </message>
+    <message>
+        <source>This page gives Alt+Shift+%key to one of its links: here the page wins.</source>
+        <translation>এই পৃষ্ঠা Alt+Shift+%key তার একটি লিঙ্ককে দেয়: এখানে পৃষ্ঠাই জেতে।</translation>
+    </message>
+    <message>
+        <source>Saved.</source>
+        <translation>সংরক্ষিত।</translation>
+    </message>
+    <message>
+        <source>Back to the defaults</source>
+        <translation>ডিফল্টে ফিরে যান</translation>
+    </message>
+    <message>
+        <source>All shortcuts</source>
+        <translation>সব শর্টকাট</translation>
+    </message>
+    <message>
+        <source>This page uses this key for one of its links: here the page wins.</source>
+        <translation>এই পৃষ্ঠা এই কী তার একটি লিঙ্কের জন্য ব্যবহার করে: এখানে পৃষ্ঠাই জেতে।</translation>
+    </message>
+    <message>
+        <source>Panel: %name</source>
+        <translation>প্যানেল: %name</translation>
+    </message>
+    <message>
+        <source>Open the sidebar</source>
+        <translation>সাইডবার খুলুন</translation>
+    </message>
+    <message>
+        <source>Move the tab along its edge, or to the opposite edge</source>
+        <translation>ট্যাবটি তার প্রান্ত বরাবর বা বিপরীত প্রান্তে সরান</translation>
+    </message>
+    <message>
+        <source>Bigger steps</source>
+        <translation>বড় ধাপ</translation>
+    </message>
+    <message>
+        <source>Dock to that edge</source>
+        <translation>ওই প্রান্তে লাগান</translation>
+    </message>
+    <message>
+        <source>Go round the edges</source>
+        <translation>প্রান্তগুলোর চারপাশে যান</translation>
+    </message>
+    <message>
+        <source>To the start or the end of the edge</source>
+        <translation>প্রান্তের শুরুতে বা শেষে</translation>
+    </message>
+    <message>
+        <source>On the tab</source>
+        <translation>ট্যাবে</translation>
+    </message>
+    <message>
+        <source>On a Mac, Option+Shift with a letter types a character in a text field: there the field gets it.</source>
+        <translation>Mac-এ, একটি অক্ষরের সাথে Option+Shift টেক্সট ফিল্ডে একটি চিহ্ন টাইপ করে: সেখানে ফিল্ডটি তা পায়।</translation>
+    </message>
+    <message>
+        <source>Change them in the Me panel</source>
+        <translation>«আমি» প্যানেলে এগুলো বদলান</translation>
+    </message>
+    <message>
+        <source>Open the Page panel to save its draft.</source>
+        <translation>খসড়া সংরক্ষণ করতে «পৃষ্ঠা» প্যানেল খুলুন।</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>ইনবক্স</translation>
     </message>

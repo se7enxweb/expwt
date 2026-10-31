@@ -844,6 +844,94 @@
         <translation>Gelenleriňizde %n täze</translation>
     </message>
     <message>
+        <source>Open the sidebar or go into it</source>
+        <translation>Gapdal paneli aç ýa-da oňa geç</translation>
+    </message>
+    <message>
+        <source>Save the draft</source>
+        <translation>Garalamany ýatda sakla</translation>
+    </message>
+    <message>
+        <source>Keyboard shortcuts</source>
+        <translation>Klawiatura gysga ýollary</translation>
+    </message>
+    <message>
+        <source>Use one letter, A to Z.</source>
+        <translation>Bir harp ulanyň, A-dan Z-e çenli.</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key belongs to the browser or the system.</source>
+        <translation>Alt+Shift+%key brauzere ýa-da ulgama degişli.</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key is taken: %action.</source>
+        <translation>Alt+Shift+%key eýýäm eýelenen: %action.</translation>
+    </message>
+    <message>
+        <source>This page gives Alt+Shift+%key to one of its links: here the page wins.</source>
+        <translation>Bu sahypa Alt+Shift+%key-i baglanyşyklarynyň birine berýär: bu ýerde sahypa ýeňýär.</translation>
+    </message>
+    <message>
+        <source>Saved.</source>
+        <translation>Ýatda saklandy.</translation>
+    </message>
+    <message>
+        <source>Back to the defaults</source>
+        <translation>Gaýybana bahalara gaýt</translation>
+    </message>
+    <message>
+        <source>All shortcuts</source>
+        <translation>Ähli gysga ýollar</translation>
+    </message>
+    <message>
+        <source>This page uses this key for one of its links: here the page wins.</source>
+        <translation>Bu sahypa bu düwmäni baglanyşyklarynyň biri üçin ulanýar: bu ýerde sahypa ýeňýär.</translation>
+    </message>
+    <message>
+        <source>Panel: %name</source>
+        <translation>Panel: %name</translation>
+    </message>
+    <message>
+        <source>Open the sidebar</source>
+        <translation>Gapdal paneli aç</translation>
+    </message>
+    <message>
+        <source>Move the tab along its edge, or to the opposite edge</source>
+        <translation>Bellikçäni öz gyrasy boýunça ýa-da garşy gyra süýşür</translation>
+    </message>
+    <message>
+        <source>Bigger steps</source>
+        <translation>Has uly ädimler</translation>
+    </message>
+    <message>
+        <source>Dock to that edge</source>
+        <translation>Şol gyra berkit</translation>
+    </message>
+    <message>
+        <source>Go round the edges</source>
+        <translation>Gyralaryň daşyndan aýlan</translation>
+    </message>
+    <message>
+        <source>To the start or the end of the edge</source>
+        <translation>Gyranyň başyna ýa-da soňuna</translation>
+    </message>
+    <message>
+        <source>On the tab</source>
+        <translation>Bellikçede</translation>
+    </message>
+    <message>
+        <source>On a Mac, Option+Shift with a letter types a character in a text field: there the field gets it.</source>
+        <translation>Mac-da Option+Shift harp bilen tekst meýdançasyna nyşan ýazýar: ol ýerde ony meýdança alýar.</translation>
+    </message>
+    <message>
+        <source>Change them in the Me panel</source>
+        <translation>Olary «Men» panelinde üýtgediň</translation>
+    </message>
+    <message>
+        <source>Open the Page panel to save its draft.</source>
+        <translation>Garalamasyny ýatda saklamak üçin «Sahypa» panelini açyň.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Gelenler</translation>
     </message>

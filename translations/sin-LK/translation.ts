@@ -844,6 +844,94 @@
         <translation>ඔබේ එන ලිපිවල නව %n</translation>
     </message>
     <message>
+        <source>Open the sidebar or go into it</source>
+        <translation>පැති තීරුව විවෘත කරන්න හෝ එයට යන්න</translation>
+    </message>
+    <message>
+        <source>Save the draft</source>
+        <translation>කෙටුම්පත සුරකින්න</translation>
+    </message>
+    <message>
+        <source>Keyboard shortcuts</source>
+        <translation>යතුරුපුවරු කෙටිමං</translation>
+    </message>
+    <message>
+        <source>Use one letter, A to Z.</source>
+        <translation>එක් අකුරක් භාවිත කරන්න, A සිට Z දක්වා.</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key belongs to the browser or the system.</source>
+        <translation>Alt+Shift+%key බ්‍රවුසරයට හෝ පද්ධතියට අයත් ය.</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key is taken: %action.</source>
+        <translation>Alt+Shift+%key දැනටමත් භාවිතයේ ඇත: %action.</translation>
+    </message>
+    <message>
+        <source>This page gives Alt+Shift+%key to one of its links: here the page wins.</source>
+        <translation>මෙම පිටුව Alt+Shift+%key එහි එක් සබැඳියකට දෙයි: මෙහි පිටුව ජය ගනී.</translation>
+    </message>
+    <message>
+        <source>Saved.</source>
+        <translation>සුරැකිණි.</translation>
+    </message>
+    <message>
+        <source>Back to the defaults</source>
+        <translation>පෙරනිමි වෙත ආපසු</translation>
+    </message>
+    <message>
+        <source>All shortcuts</source>
+        <translation>සියලු කෙටිමං</translation>
+    </message>
+    <message>
+        <source>This page uses this key for one of its links: here the page wins.</source>
+        <translation>මෙම පිටුව මෙම යතුර එහි එක් සබැඳියක් සඳහා භාවිත කරයි: මෙහි පිටුව ජය ගනී.</translation>
+    </message>
+    <message>
+        <source>Panel: %name</source>
+        <translation>පුවරුව: %name</translation>
+    </message>
+    <message>
+        <source>Open the sidebar</source>
+        <translation>පැති තීරුව විවෘත කරන්න</translation>
+    </message>
+    <message>
+        <source>Move the tab along its edge, or to the opposite edge</source>
+        <translation>ටැබය එහි දාරය දිගේ හෝ ප්‍රතිවිරුද්ධ දාරයට ගෙන යන්න</translation>
+    </message>
+    <message>
+        <source>Bigger steps</source>
+        <translation>විශාල පියවර</translation>
+    </message>
+    <message>
+        <source>Dock to that edge</source>
+        <translation>එම දාරයට සවි කරන්න</translation>
+    </message>
+    <message>
+        <source>Go round the edges</source>
+        <translation>දාර වටා යන්න</translation>
+    </message>
+    <message>
+        <source>To the start or the end of the edge</source>
+        <translation>දාරයේ ආරම්භයට හෝ අවසානයට</translation>
+    </message>
+    <message>
+        <source>On the tab</source>
+        <translation>ටැබය මත</translation>
+    </message>
+    <message>
+        <source>On a Mac, Option+Shift with a letter types a character in a text field: there the field gets it.</source>
+        <translation>Mac හි, අකුරක් සමඟ Option+Shift පෙළ ක්ෂේත්‍රයක අක්ෂරයක් ටයිප් කරයි: එහි ක්ෂේත්‍රයට එය ලැබේ.</translation>
+    </message>
+    <message>
+        <source>Change them in the Me panel</source>
+        <translation>ඒවා «මම» පුවරුවේ වෙනස් කරන්න</translation>
+    </message>
+    <message>
+        <source>Open the Page panel to save its draft.</source>
+        <translation>එහි කෙටුම්පත සුරැකීමට «පිටුව» පුවරුව විවෘත කරන්න.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>එන ලිපි</translation>
     </message>

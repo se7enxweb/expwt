@@ -844,6 +844,94 @@
         <translation>收件箱中有 %n 条新消息</translation>
     </message>
     <message>
+        <source>Open the sidebar or go into it</source>
+        <translation>打开侧边栏或进入侧边栏</translation>
+    </message>
+    <message>
+        <source>Save the draft</source>
+        <translation>保存草稿</translation>
+    </message>
+    <message>
+        <source>Keyboard shortcuts</source>
+        <translation>键盘快捷键</translation>
+    </message>
+    <message>
+        <source>Use one letter, A to Z.</source>
+        <translation>使用一个字母，A 到 Z。</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key belongs to the browser or the system.</source>
+        <translation>Alt+Shift+%key 属于浏览器或系统。</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key is taken: %action.</source>
+        <translation>Alt+Shift+%key 已被占用：%action。</translation>
+    </message>
+    <message>
+        <source>This page gives Alt+Shift+%key to one of its links: here the page wins.</source>
+        <translation>此页面把 Alt+Shift+%key 给了它的一个链接：在这里以页面为准。</translation>
+    </message>
+    <message>
+        <source>Saved.</source>
+        <translation>已保存。</translation>
+    </message>
+    <message>
+        <source>Back to the defaults</source>
+        <translation>恢复默认设置</translation>
+    </message>
+    <message>
+        <source>All shortcuts</source>
+        <translation>所有快捷键</translation>
+    </message>
+    <message>
+        <source>This page uses this key for one of its links: here the page wins.</source>
+        <translation>此页面把这个键用于它的一个链接：在这里以页面为准。</translation>
+    </message>
+    <message>
+        <source>Panel: %name</source>
+        <translation>面板：%name</translation>
+    </message>
+    <message>
+        <source>Open the sidebar</source>
+        <translation>打开侧边栏</translation>
+    </message>
+    <message>
+        <source>Move the tab along its edge, or to the opposite edge</source>
+        <translation>沿边缘移动标签，或移到对面的边缘</translation>
+    </message>
+    <message>
+        <source>Bigger steps</source>
+        <translation>更大的步长</translation>
+    </message>
+    <message>
+        <source>Dock to that edge</source>
+        <translation>停靠到该边缘</translation>
+    </message>
+    <message>
+        <source>Go round the edges</source>
+        <translation>沿各边缘绕行</translation>
+    </message>
+    <message>
+        <source>To the start or the end of the edge</source>
+        <translation>到边缘的开头或末尾</translation>
+    </message>
+    <message>
+        <source>On the tab</source>
+        <translation>在标签上</translation>
+    </message>
+    <message>
+        <source>On a Mac, Option+Shift with a letter types a character in a text field: there the field gets it.</source>
+        <translation>在 Mac 上，Option+Shift 加字母会在文本框中输入字符：在那里由文本框接收。</translation>
+    </message>
+    <message>
+        <source>Change them in the Me panel</source>
+        <translation>在「我」面板中更改</translation>
+    </message>
+    <message>
+        <source>Open the Page panel to save its draft.</source>
+        <translation>打开「页面」面板以保存其草稿。</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>收件箱</translation>
     </message>

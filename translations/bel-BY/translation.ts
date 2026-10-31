@@ -844,6 +844,94 @@
         <translation>%n новых ва ўваходных</translation>
     </message>
     <message>
+        <source>Open the sidebar or go into it</source>
+        <translation>Адкрыць бакавую панэль або перайсці ў яе</translation>
+    </message>
+    <message>
+        <source>Save the draft</source>
+        <translation>Захаваць чарнавік</translation>
+    </message>
+    <message>
+        <source>Keyboard shortcuts</source>
+        <translation>Спалучэнні клавіш</translation>
+    </message>
+    <message>
+        <source>Use one letter, A to Z.</source>
+        <translation>Выкарыстоўвайце адну літару, ад A да Z.</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key belongs to the browser or the system.</source>
+        <translation>Alt+Shift+%key належыць браўзеру або сістэме.</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key is taken: %action.</source>
+        <translation>Alt+Shift+%key ужо заняты: %action.</translation>
+    </message>
+    <message>
+        <source>This page gives Alt+Shift+%key to one of its links: here the page wins.</source>
+        <translation>Гэтая старонка аддае Alt+Shift+%key адной са сваіх спасылак: тут перамагае старонка.</translation>
+    </message>
+    <message>
+        <source>Saved.</source>
+        <translation>Захавана.</translation>
+    </message>
+    <message>
+        <source>Back to the defaults</source>
+        <translation>Вярнуць прадвызначаныя</translation>
+    </message>
+    <message>
+        <source>All shortcuts</source>
+        <translation>Усе спалучэнні клавіш</translation>
+    </message>
+    <message>
+        <source>This page uses this key for one of its links: here the page wins.</source>
+        <translation>Гэтая старонка выкарыстоўвае гэтую клавішу для адной са сваіх спасылак: тут перамагае старонка.</translation>
+    </message>
+    <message>
+        <source>Panel: %name</source>
+        <translation>Панэль: %name</translation>
+    </message>
+    <message>
+        <source>Open the sidebar</source>
+        <translation>Адкрыць бакавую панэль</translation>
+    </message>
+    <message>
+        <source>Move the tab along its edge, or to the opposite edge</source>
+        <translation>Перамясціць укладку ўздоўж яе краю або да процілеглага краю</translation>
+    </message>
+    <message>
+        <source>Bigger steps</source>
+        <translation>Большыя крокі</translation>
+    </message>
+    <message>
+        <source>Dock to that edge</source>
+        <translation>Прымацаваць да гэтага краю</translation>
+    </message>
+    <message>
+        <source>Go round the edges</source>
+        <translation>Перамяшчацца вакол краёў</translation>
+    </message>
+    <message>
+        <source>To the start or the end of the edge</source>
+        <translation>Да пачатку або канца краю</translation>
+    </message>
+    <message>
+        <source>On the tab</source>
+        <translation>На ўкладцы</translation>
+    </message>
+    <message>
+        <source>On a Mac, Option+Shift with a letter types a character in a text field: there the field gets it.</source>
+        <translation>На Mac Option+Shift з літарай уводзіць сімвал у тэкставае поле: там яго атрымлівае поле.</translation>
+    </message>
+    <message>
+        <source>Change them in the Me panel</source>
+        <translation>Змяніце іх у панэлі «Я»</translation>
+    </message>
+    <message>
+        <source>Open the Page panel to save its draft.</source>
+        <translation>Адкрыйце панэль «Старонка», каб захаваць яе чарнавік.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Уваходныя</translation>
     </message>

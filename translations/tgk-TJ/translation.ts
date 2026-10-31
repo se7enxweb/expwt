@@ -844,6 +844,94 @@
         <translation>%n нав дар воридшудаҳои шумо</translation>
     </message>
     <message>
+        <source>Open the sidebar or go into it</source>
+        <translation>Панели паҳлӯиро кушодан ё ба он гузаштан</translation>
+    </message>
+    <message>
+        <source>Save the draft</source>
+        <translation>Сиёҳнависро захира кардан</translation>
+    </message>
+    <message>
+        <source>Keyboard shortcuts</source>
+        <translation>Миёнбурҳои клавиатура</translation>
+    </message>
+    <message>
+        <source>Use one letter, A to Z.</source>
+        <translation>Як ҳарфро истифода баред, аз A то Z.</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key belongs to the browser or the system.</source>
+        <translation>Alt+Shift+%key ба браузер ё система тааллуқ дорад.</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key is taken: %action.</source>
+        <translation>Alt+Shift+%key аллакай банд аст: %action.</translation>
+    </message>
+    <message>
+        <source>This page gives Alt+Shift+%key to one of its links: here the page wins.</source>
+        <translation>Ин саҳифа Alt+Shift+%key-ро ба яке аз пайвандҳояш медиҳад: дар ин ҷо саҳифа ғолиб аст.</translation>
+    </message>
+    <message>
+        <source>Saved.</source>
+        <translation>Захира шуд.</translation>
+    </message>
+    <message>
+        <source>Back to the defaults</source>
+        <translation>Бозгашт ба пешфарзҳо</translation>
+    </message>
+    <message>
+        <source>All shortcuts</source>
+        <translation>Ҳамаи миёнбурҳо</translation>
+    </message>
+    <message>
+        <source>This page uses this key for one of its links: here the page wins.</source>
+        <translation>Ин саҳифа ин тугмаро барои яке аз пайвандҳояш истифода мебарад: дар ин ҷо саҳифа ғолиб аст.</translation>
+    </message>
+    <message>
+        <source>Panel: %name</source>
+        <translation>Панел: %name</translation>
+    </message>
+    <message>
+        <source>Open the sidebar</source>
+        <translation>Панели паҳлӯиро кушодан</translation>
+    </message>
+    <message>
+        <source>Move the tab along its edge, or to the opposite edge</source>
+        <translation>Ҷадвалакро дар тӯли канораш ё ба канори муқобил кӯчондан</translation>
+    </message>
+    <message>
+        <source>Bigger steps</source>
+        <translation>Қадамҳои калонтар</translation>
+    </message>
+    <message>
+        <source>Dock to that edge</source>
+        <translation>Ба он канор часпондан</translation>
+    </message>
+    <message>
+        <source>Go round the edges</source>
+        <translation>Канораҳоро давр задан</translation>
+    </message>
+    <message>
+        <source>To the start or the end of the edge</source>
+        <translation>Ба оғоз ё охири канор</translation>
+    </message>
+    <message>
+        <source>On the tab</source>
+        <translation>Дар ҷадвалак</translation>
+    </message>
+    <message>
+        <source>On a Mac, Option+Shift with a letter types a character in a text field: there the field gets it.</source>
+        <translation>Дар Mac Option+Shift бо ҳарф дар майдони матн аломат менависад: дар он ҷо онро майдон мегирад.</translation>
+    </message>
+    <message>
+        <source>Change them in the Me panel</source>
+        <translation>Онҳоро дар панели «Ман» иваз кунед</translation>
+    </message>
+    <message>
+        <source>Open the Page panel to save its draft.</source>
+        <translation>Барои захира кардани сиёҳнависаш панели «Саҳифа»-ро кушоед.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Воридшуда</translation>
     </message>

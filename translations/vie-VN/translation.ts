@@ -844,6 +844,94 @@
         <translation>%n mới trong hộp thư đến của bạn</translation>
     </message>
     <message>
+        <source>Open the sidebar or go into it</source>
+        <translation>Mở thanh bên hoặc đi vào đó</translation>
+    </message>
+    <message>
+        <source>Save the draft</source>
+        <translation>Lưu bản nháp</translation>
+    </message>
+    <message>
+        <source>Keyboard shortcuts</source>
+        <translation>Phím tắt</translation>
+    </message>
+    <message>
+        <source>Use one letter, A to Z.</source>
+        <translation>Dùng một chữ cái, từ A đến Z.</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key belongs to the browser or the system.</source>
+        <translation>Alt+Shift+%key thuộc về trình duyệt hoặc hệ thống.</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key is taken: %action.</source>
+        <translation>Alt+Shift+%key đã được dùng: %action.</translation>
+    </message>
+    <message>
+        <source>This page gives Alt+Shift+%key to one of its links: here the page wins.</source>
+        <translation>Trang này gán Alt+Shift+%key cho một liên kết của nó: ở đây trang được ưu tiên.</translation>
+    </message>
+    <message>
+        <source>Saved.</source>
+        <translation>Đã lưu.</translation>
+    </message>
+    <message>
+        <source>Back to the defaults</source>
+        <translation>Quay về mặc định</translation>
+    </message>
+    <message>
+        <source>All shortcuts</source>
+        <translation>Tất cả phím tắt</translation>
+    </message>
+    <message>
+        <source>This page uses this key for one of its links: here the page wins.</source>
+        <translation>Trang này dùng phím này cho một liên kết của nó: ở đây trang được ưu tiên.</translation>
+    </message>
+    <message>
+        <source>Panel: %name</source>
+        <translation>Bảng: %name</translation>
+    </message>
+    <message>
+        <source>Open the sidebar</source>
+        <translation>Mở thanh bên</translation>
+    </message>
+    <message>
+        <source>Move the tab along its edge, or to the opposite edge</source>
+        <translation>Di chuyển thẻ dọc theo cạnh của nó, hoặc sang cạnh đối diện</translation>
+    </message>
+    <message>
+        <source>Bigger steps</source>
+        <translation>Bước lớn hơn</translation>
+    </message>
+    <message>
+        <source>Dock to that edge</source>
+        <translation>Gắn vào cạnh đó</translation>
+    </message>
+    <message>
+        <source>Go round the edges</source>
+        <translation>Đi vòng quanh các cạnh</translation>
+    </message>
+    <message>
+        <source>To the start or the end of the edge</source>
+        <translation>Đến đầu hoặc cuối cạnh</translation>
+    </message>
+    <message>
+        <source>On the tab</source>
+        <translation>Trên thẻ</translation>
+    </message>
+    <message>
+        <source>On a Mac, Option+Shift with a letter types a character in a text field: there the field gets it.</source>
+        <translation>Trên Mac, Option+Shift cùng một chữ cái sẽ gõ một ký tự vào ô văn bản: ở đó ô nhận ký tự.</translation>
+    </message>
+    <message>
+        <source>Change them in the Me panel</source>
+        <translation>Thay đổi chúng trong bảng «Tôi»</translation>
+    </message>
+    <message>
+        <source>Open the Page panel to save its draft.</source>
+        <translation>Mở bảng «Trang» để lưu bản nháp của nó.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Hộp thư đến</translation>
     </message>

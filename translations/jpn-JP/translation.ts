@@ -844,6 +844,94 @@
         <translation>受信箱に %n 件の新着</translation>
     </message>
     <message>
+        <source>Open the sidebar or go into it</source>
+        <translation>サイドバーを開くか、サイドバーに移動</translation>
+    </message>
+    <message>
+        <source>Save the draft</source>
+        <translation>下書きを保存</translation>
+    </message>
+    <message>
+        <source>Keyboard shortcuts</source>
+        <translation>キーボードショートカット</translation>
+    </message>
+    <message>
+        <source>Use one letter, A to Z.</source>
+        <translation>1 文字を使ってください（A〜Z）。</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key belongs to the browser or the system.</source>
+        <translation>Alt+Shift+%key はブラウザーまたはシステムが使います。</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key is taken: %action.</source>
+        <translation>Alt+Shift+%key は使用中です：%action。</translation>
+    </message>
+    <message>
+        <source>This page gives Alt+Shift+%key to one of its links: here the page wins.</source>
+        <translation>このページは Alt+Shift+%key をリンクの一つに割り当てています：ここではページが優先されます。</translation>
+    </message>
+    <message>
+        <source>Saved.</source>
+        <translation>保存しました。</translation>
+    </message>
+    <message>
+        <source>Back to the defaults</source>
+        <translation>既定に戻す</translation>
+    </message>
+    <message>
+        <source>All shortcuts</source>
+        <translation>すべてのショートカット</translation>
+    </message>
+    <message>
+        <source>This page uses this key for one of its links: here the page wins.</source>
+        <translation>このページはこのキーをリンクの一つに使っています：ここではページが優先されます。</translation>
+    </message>
+    <message>
+        <source>Panel: %name</source>
+        <translation>パネル：%name</translation>
+    </message>
+    <message>
+        <source>Open the sidebar</source>
+        <translation>サイドバーを開く</translation>
+    </message>
+    <message>
+        <source>Move the tab along its edge, or to the opposite edge</source>
+        <translation>タブを端に沿って、または反対側の端へ移動</translation>
+    </message>
+    <message>
+        <source>Bigger steps</source>
+        <translation>大きく移動</translation>
+    </message>
+    <message>
+        <source>Dock to that edge</source>
+        <translation>その端にドッキング</translation>
+    </message>
+    <message>
+        <source>Go round the edges</source>
+        <translation>端を一周する</translation>
+    </message>
+    <message>
+        <source>To the start or the end of the edge</source>
+        <translation>端の先頭または末尾へ</translation>
+    </message>
+    <message>
+        <source>On the tab</source>
+        <translation>タブ上で</translation>
+    </message>
+    <message>
+        <source>On a Mac, Option+Shift with a letter types a character in a text field: there the field gets it.</source>
+        <translation>Mac では、Option+Shift と文字でテキストフィールドに文字が入力されます：そこではフィールドが受け取ります。</translation>
+    </message>
+    <message>
+        <source>Change them in the Me panel</source>
+        <translation>「自分」パネルで変更</translation>
+    </message>
+    <message>
+        <source>Open the Page panel to save its draft.</source>
+        <translation>下書きを保存するには「ページ」パネルを開いてください。</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>受信箱</translation>
     </message>

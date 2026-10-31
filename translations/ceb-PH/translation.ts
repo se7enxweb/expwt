@@ -844,6 +844,94 @@
         <translation>%n bag-o sa imong inbox</translation>
     </message>
     <message>
+        <source>Open the sidebar or go into it</source>
+        <translation>Ablihi ang sidebar o adto niini</translation>
+    </message>
+    <message>
+        <source>Save the draft</source>
+        <translation>I-save ang draft</translation>
+    </message>
+    <message>
+        <source>Keyboard shortcuts</source>
+        <translation>Mga shortcut sa keyboard</translation>
+    </message>
+    <message>
+        <source>Use one letter, A to Z.</source>
+        <translation>Gamita ang usa ka letra, A hangtod Z.</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key belongs to the browser or the system.</source>
+        <translation>Ang Alt+Shift+%key iya sa browser o sa sistema.</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key is taken: %action.</source>
+        <translation>Gigamit na ang Alt+Shift+%key: %action.</translation>
+    </message>
+    <message>
+        <source>This page gives Alt+Shift+%key to one of its links: here the page wins.</source>
+        <translation>Kini nga panid naghatag sa Alt+Shift+%key sa usa sa mga link niini: dinhi ang panid ang modaog.</translation>
+    </message>
+    <message>
+        <source>Saved.</source>
+        <translation>Na-save.</translation>
+    </message>
+    <message>
+        <source>Back to the defaults</source>
+        <translation>Balik sa mga default</translation>
+    </message>
+    <message>
+        <source>All shortcuts</source>
+        <translation>Tanang shortcut</translation>
+    </message>
+    <message>
+        <source>This page uses this key for one of its links: here the page wins.</source>
+        <translation>Kini nga panid naggamit niini nga key alang sa usa sa mga link niini: dinhi ang panid ang modaog.</translation>
+    </message>
+    <message>
+        <source>Panel: %name</source>
+        <translation>Panel: %name</translation>
+    </message>
+    <message>
+        <source>Open the sidebar</source>
+        <translation>Ablihi ang sidebar</translation>
+    </message>
+    <message>
+        <source>Move the tab along its edge, or to the opposite edge</source>
+        <translation>Ibalhin ang tab subay sa kilid niini, o sa atbang nga kilid</translation>
+    </message>
+    <message>
+        <source>Bigger steps</source>
+        <translation>Mas dagkong lakang</translation>
+    </message>
+    <message>
+        <source>Dock to that edge</source>
+        <translation>Idikit sa maong kilid</translation>
+    </message>
+    <message>
+        <source>Go round the edges</source>
+        <translation>Libota ang mga kilid</translation>
+    </message>
+    <message>
+        <source>To the start or the end of the edge</source>
+        <translation>Sa sinugdanan o katapusan sa kilid</translation>
+    </message>
+    <message>
+        <source>On the tab</source>
+        <translation>Sa tab</translation>
+    </message>
+    <message>
+        <source>On a Mac, Option+Shift with a letter types a character in a text field: there the field gets it.</source>
+        <translation>Sa Mac, ang Option+Shift uban ang letra mo-type ug karakter sa text field: didto ang field ang makadawat niini.</translation>
+    </message>
+    <message>
+        <source>Change them in the Me panel</source>
+        <translation>Usba sila sa panel nga «Ako»</translation>
+    </message>
+    <message>
+        <source>Open the Page panel to save its draft.</source>
+        <translation>Ablihi ang panel nga «Panid» aron i-save ang draft niini.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Inbox</translation>
     </message>

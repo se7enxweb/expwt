@@ -844,6 +844,94 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <source>Open the sidebar or go into it</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Save the draft</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Keyboard shortcuts</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Use one letter, A to Z.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key belongs to the browser or the system.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key is taken: %action.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>This page gives Alt+Shift+%key to one of its links: here the page wins.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Saved.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Back to the defaults</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>All shortcuts</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>This page uses this key for one of its links: here the page wins.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Panel: %name</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Open the sidebar</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Move the tab along its edge, or to the opposite edge</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Bigger steps</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Dock to that edge</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Go round the edges</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>To the start or the end of the edge</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>On the tab</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>On a Mac, Option+Shift with a letter types a character in a text field: there the field gets it.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Change them in the Me panel</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Open the Page panel to save its draft.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation type="unfinished"></translation>
     </message>

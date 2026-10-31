@@ -844,6 +844,94 @@
         <translation>നിങ്ങളുടെ ഇൻബോക്സിൽ %n പുതിയത്</translation>
     </message>
     <message>
+        <source>Open the sidebar or go into it</source>
+        <translation>സൈഡ്‌ബാർ തുറക്കുക അല്ലെങ്കിൽ അതിലേക്ക് പോകുക</translation>
+    </message>
+    <message>
+        <source>Save the draft</source>
+        <translation>ഡ്രാഫ്റ്റ് സംരക്ഷിക്കുക</translation>
+    </message>
+    <message>
+        <source>Keyboard shortcuts</source>
+        <translation>കീബോർഡ് കുറുക്കുവഴികൾ</translation>
+    </message>
+    <message>
+        <source>Use one letter, A to Z.</source>
+        <translation>ഒരു അക്ഷരം ഉപയോഗിക്കുക, A മുതൽ Z വരെ.</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key belongs to the browser or the system.</source>
+        <translation>Alt+Shift+%key ബ്രൗസറിന്റേതോ സിസ്റ്റത്തിന്റേതോ ആണ്.</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key is taken: %action.</source>
+        <translation>Alt+Shift+%key ഇതിനകം ഉപയോഗത്തിലാണ്: %action.</translation>
+    </message>
+    <message>
+        <source>This page gives Alt+Shift+%key to one of its links: here the page wins.</source>
+        <translation>ഈ പേജ് Alt+Shift+%key അതിന്റെ ഒരു ലിങ്കിന് നൽകുന്നു: ഇവിടെ പേജ് ജയിക്കുന്നു.</translation>
+    </message>
+    <message>
+        <source>Saved.</source>
+        <translation>സംരക്ഷിച്ചു.</translation>
+    </message>
+    <message>
+        <source>Back to the defaults</source>
+        <translation>സ്ഥിരസ്ഥിതികളിലേക്ക് മടങ്ങുക</translation>
+    </message>
+    <message>
+        <source>All shortcuts</source>
+        <translation>എല്ലാ കുറുക്കുവഴികളും</translation>
+    </message>
+    <message>
+        <source>This page uses this key for one of its links: here the page wins.</source>
+        <translation>ഈ പേജ് ഈ കീ അതിന്റെ ഒരു ലിങ്കിനായി ഉപയോഗിക്കുന്നു: ഇവിടെ പേജ് ജയിക്കുന്നു.</translation>
+    </message>
+    <message>
+        <source>Panel: %name</source>
+        <translation>പാനൽ: %name</translation>
+    </message>
+    <message>
+        <source>Open the sidebar</source>
+        <translation>സൈഡ്‌ബാർ തുറക്കുക</translation>
+    </message>
+    <message>
+        <source>Move the tab along its edge, or to the opposite edge</source>
+        <translation>ടാബ് അതിന്റെ അരികിലൂടെയോ എതിർ അരികിലേക്കോ നീക്കുക</translation>
+    </message>
+    <message>
+        <source>Bigger steps</source>
+        <translation>വലിയ ചുവടുകൾ</translation>
+    </message>
+    <message>
+        <source>Dock to that edge</source>
+        <translation>ആ അരികിൽ ഉറപ്പിക്കുക</translation>
+    </message>
+    <message>
+        <source>Go round the edges</source>
+        <translation>അരികുകൾ ചുറ്റി പോകുക</translation>
+    </message>
+    <message>
+        <source>To the start or the end of the edge</source>
+        <translation>അരികിന്റെ തുടക്കത്തിലേക്കോ അവസാനത്തിലേക്കോ</translation>
+    </message>
+    <message>
+        <source>On the tab</source>
+        <translation>ടാബിൽ</translation>
+    </message>
+    <message>
+        <source>On a Mac, Option+Shift with a letter types a character in a text field: there the field gets it.</source>
+        <translation>Mac-ൽ, ഒരു അക്ഷരത്തോടൊപ്പം Option+Shift ടെക്സ്റ്റ് ഫീൽഡിൽ ഒരു പ്രതീകം ടൈപ്പ് ചെയ്യുന്നു: അവിടെ ഫീൽഡിന് അത് ലഭിക്കുന്നു.</translation>
+    </message>
+    <message>
+        <source>Change them in the Me panel</source>
+        <translation>അവ «ഞാൻ» പാനലിൽ മാറ്റുക</translation>
+    </message>
+    <message>
+        <source>Open the Page panel to save its draft.</source>
+        <translation>അതിന്റെ ഡ്രാഫ്റ്റ് സംരക്ഷിക്കാൻ «പേജ്» പാനൽ തുറക്കുക.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>ഇൻബോക്സ്</translation>
     </message>

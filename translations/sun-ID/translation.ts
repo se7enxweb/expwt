@@ -844,6 +844,94 @@
         <translation>%n anyar dina kotak asup anjeun</translation>
     </message>
     <message>
+        <source>Open the sidebar or go into it</source>
+        <translation>Buka bar sisi atawa asup ka jerona</translation>
+    </message>
+    <message>
+        <source>Save the draft</source>
+        <translation>Simpen draf</translation>
+    </message>
+    <message>
+        <source>Keyboard shortcuts</source>
+        <translation>Potong kompas kibor</translation>
+    </message>
+    <message>
+        <source>Use one letter, A to Z.</source>
+        <translation>Paké hiji hurup, A nepi ka Z.</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key belongs to the browser or the system.</source>
+        <translation>Alt+Shift+%key kagungan panyungsi atawa sistem.</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key is taken: %action.</source>
+        <translation>Alt+Shift+%key geus dipaké: %action.</translation>
+    </message>
+    <message>
+        <source>This page gives Alt+Shift+%key to one of its links: here the page wins.</source>
+        <translation>Kaca ieu méré Alt+Shift+%key ka salah sahiji tumbuna: di dieu kaca nu meunang.</translation>
+    </message>
+    <message>
+        <source>Saved.</source>
+        <translation>Geus disimpen.</translation>
+    </message>
+    <message>
+        <source>Back to the defaults</source>
+        <translation>Balik deui ka standar</translation>
+    </message>
+    <message>
+        <source>All shortcuts</source>
+        <translation>Sadaya potong kompas</translation>
+    </message>
+    <message>
+        <source>This page uses this key for one of its links: here the page wins.</source>
+        <translation>Kaca ieu maké kenop ieu pikeun salah sahiji tumbuna: di dieu kaca nu meunang.</translation>
+    </message>
+    <message>
+        <source>Panel: %name</source>
+        <translation>Panél: %name</translation>
+    </message>
+    <message>
+        <source>Open the sidebar</source>
+        <translation>Buka bar sisi</translation>
+    </message>
+    <message>
+        <source>Move the tab along its edge, or to the opposite edge</source>
+        <translation>Pindahkeun tab sapanjang sisina, atawa ka sisi sabalikna</translation>
+    </message>
+    <message>
+        <source>Bigger steps</source>
+        <translation>Léngkah leuwih gedé</translation>
+    </message>
+    <message>
+        <source>Dock to that edge</source>
+        <translation>Témpélkeun ka sisi éta</translation>
+    </message>
+    <message>
+        <source>Go round the edges</source>
+        <translation>Ngurilingan sisi</translation>
+    </message>
+    <message>
+        <source>To the start or the end of the edge</source>
+        <translation>Ka awal atawa tungtung sisi</translation>
+    </message>
+    <message>
+        <source>On the tab</source>
+        <translation>Dina tab</translation>
+    </message>
+    <message>
+        <source>On a Mac, Option+Shift with a letter types a character in a text field: there the field gets it.</source>
+        <translation>Dina Mac, Option+Shift jeung hurup ngetik karakter dina widang téks: di dinya widang nu narima.</translation>
+    </message>
+    <message>
+        <source>Change them in the Me panel</source>
+        <translation>Robah dina panél «Kuring»</translation>
+    </message>
+    <message>
+        <source>Open the Page panel to save its draft.</source>
+        <translation>Buka panél «Kaca» pikeun nyimpen drafna.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Kotak asup</translation>
     </message>

@@ -844,6 +844,94 @@
         <translation>%n zvitsva mubhokisi rako rinopinda</translation>
     </message>
     <message>
+        <source>Open the sidebar or go into it</source>
+        <translation>Vhura bhaa yeparutivi kana kupinda mairi</translation>
+    </message>
+    <message>
+        <source>Save the draft</source>
+        <translation>Chengetedza dhirafiti</translation>
+    </message>
+    <message>
+        <source>Keyboard shortcuts</source>
+        <translation>Nzira pfupi dzekhibhodhi</translation>
+    </message>
+    <message>
+        <source>Use one letter, A to Z.</source>
+        <translation>Shandisa tsamba imwe, A kusvika Z.</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key belongs to the browser or the system.</source>
+        <translation>Alt+Shift+%key ndeye browser kana sisitimu.</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key is taken: %action.</source>
+        <translation>Alt+Shift+%key yatoshandiswa: %action.</translation>
+    </message>
+    <message>
+        <source>This page gives Alt+Shift+%key to one of its links: here the page wins.</source>
+        <translation>Peji iri rinopa Alt+Shift+%key kune imwe yezvinongedzo zvaro: pano peji ndiro rinokunda.</translation>
+    </message>
+    <message>
+        <source>Saved.</source>
+        <translation>Zvachengetedzwa.</translation>
+    </message>
+    <message>
+        <source>Back to the defaults</source>
+        <translation>Dzokera kune zvakajairwa</translation>
+    </message>
+    <message>
+        <source>All shortcuts</source>
+        <translation>Nzira pfupi dzese</translation>
+    </message>
+    <message>
+        <source>This page uses this key for one of its links: here the page wins.</source>
+        <translation>Peji iri rinoshandisa kiyi iyi kune chimwe chezvinongedzo zvaro: pano peji ndiro rinokunda.</translation>
+    </message>
+    <message>
+        <source>Panel: %name</source>
+        <translation>Pani: %name</translation>
+    </message>
+    <message>
+        <source>Open the sidebar</source>
+        <translation>Vhura bhaa yeparutivi</translation>
+    </message>
+    <message>
+        <source>Move the tab along its edge, or to the opposite edge</source>
+        <translation>Fambisa tab pamucheto wayo, kana kumucheto wakatarisana nawo</translation>
+    </message>
+    <message>
+        <source>Bigger steps</source>
+        <translation>Matanho makuru</translation>
+    </message>
+    <message>
+        <source>Dock to that edge</source>
+        <translation>Batanidza kumucheto iwoyo</translation>
+    </message>
+    <message>
+        <source>Go round the edges</source>
+        <translation>Famba wakatenderera micheto</translation>
+    </message>
+    <message>
+        <source>To the start or the end of the edge</source>
+        <translation>Kumavambo kana kumagumo emucheto</translation>
+    </message>
+    <message>
+        <source>On the tab</source>
+        <translation>Pa tab</translation>
+    </message>
+    <message>
+        <source>On a Mac, Option+Shift with a letter types a character in a text field: there the field gets it.</source>
+        <translation>PaMac, Option+Shift netsamba inonyora chiratidzo munzvimbo yekunyora: ipapo nzvimbo ndiyo inochiwana.</translation>
+    </message>
+    <message>
+        <source>Change them in the Me panel</source>
+        <translation>Zvichinje mupani ye«Ini»</translation>
+    </message>
+    <message>
+        <source>Open the Page panel to save its draft.</source>
+        <translation>Vhura pani ye«Peji» kuti uchengetedze dhirafiti rayo.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Bhokisi rinopinda</translation>
     </message>

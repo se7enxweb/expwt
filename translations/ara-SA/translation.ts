@@ -844,6 +844,94 @@
         <translation>%n جديد في الوارد</translation>
     </message>
     <message>
+        <source>Open the sidebar or go into it</source>
+        <translation>فتح الشريط الجانبي أو الانتقال إليه</translation>
+    </message>
+    <message>
+        <source>Save the draft</source>
+        <translation>حفظ المسودة</translation>
+    </message>
+    <message>
+        <source>Keyboard shortcuts</source>
+        <translation>اختصارات لوحة المفاتيح</translation>
+    </message>
+    <message>
+        <source>Use one letter, A to Z.</source>
+        <translation>استخدم حرفًا واحدًا، من A إلى Z.</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key belongs to the browser or the system.</source>
+        <translation>Alt+Shift+%key مخصص للمتصفح أو النظام.</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key is taken: %action.</source>
+        <translation>Alt+Shift+%key مستخدم: %action.</translation>
+    </message>
+    <message>
+        <source>This page gives Alt+Shift+%key to one of its links: here the page wins.</source>
+        <translation>هذه الصفحة تعطي Alt+Shift+%key لأحد روابطها: هنا تفوز الصفحة.</translation>
+    </message>
+    <message>
+        <source>Saved.</source>
+        <translation>تم الحفظ.</translation>
+    </message>
+    <message>
+        <source>Back to the defaults</source>
+        <translation>العودة إلى الإعدادات الافتراضية</translation>
+    </message>
+    <message>
+        <source>All shortcuts</source>
+        <translation>كل الاختصارات</translation>
+    </message>
+    <message>
+        <source>This page uses this key for one of its links: here the page wins.</source>
+        <translation>هذه الصفحة تستخدم هذا المفتاح لأحد روابطها: هنا تفوز الصفحة.</translation>
+    </message>
+    <message>
+        <source>Panel: %name</source>
+        <translation>اللوحة: %name</translation>
+    </message>
+    <message>
+        <source>Open the sidebar</source>
+        <translation>فتح الشريط الجانبي</translation>
+    </message>
+    <message>
+        <source>Move the tab along its edge, or to the opposite edge</source>
+        <translation>تحريك اللسان على حافته أو إلى الحافة المقابلة</translation>
+    </message>
+    <message>
+        <source>Bigger steps</source>
+        <translation>خطوات أكبر</translation>
+    </message>
+    <message>
+        <source>Dock to that edge</source>
+        <translation>الإرساء على تلك الحافة</translation>
+    </message>
+    <message>
+        <source>Go round the edges</source>
+        <translation>التنقل حول الحواف</translation>
+    </message>
+    <message>
+        <source>To the start or the end of the edge</source>
+        <translation>إلى بداية الحافة أو نهايتها</translation>
+    </message>
+    <message>
+        <source>On the tab</source>
+        <translation>على اللسان</translation>
+    </message>
+    <message>
+        <source>On a Mac, Option+Shift with a letter types a character in a text field: there the field gets it.</source>
+        <translation>على Mac، يكتب Option+Shift مع حرف رمزًا في حقل النص: هناك يأخذه الحقل.</translation>
+    </message>
+    <message>
+        <source>Change them in the Me panel</source>
+        <translation>غيّرها في لوحة «أنا»</translation>
+    </message>
+    <message>
+        <source>Open the Page panel to save its draft.</source>
+        <translation>افتح لوحة «الصفحة» لحفظ مسودتها.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>الوارد</translation>
     </message>

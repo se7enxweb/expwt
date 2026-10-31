@@ -844,6 +844,94 @@
         <translation>%n ođđa du sisaboarttas</translation>
     </message>
     <message>
+        <source>Open the sidebar or go into it</source>
+        <translation>Raba bálddasstoalpu dahje mana dasa</translation>
+    </message>
+    <message>
+        <source>Save the draft</source>
+        <translation>Vurke luonosa</translation>
+    </message>
+    <message>
+        <source>Keyboard shortcuts</source>
+        <translation>Boallobeavdeoanehusat</translation>
+    </message>
+    <message>
+        <source>Use one letter, A to Z.</source>
+        <translation>Geavat ovtta bustáva, A rájes Z rádjái.</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key belongs to the browser or the system.</source>
+        <translation>Alt+Shift+%key gullá neahttalohkkii dahje vuogádahkii.</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key is taken: %action.</source>
+        <translation>Alt+Shift+%key lea juo atnui váldon: %action.</translation>
+    </message>
+    <message>
+        <source>This page gives Alt+Shift+%key to one of its links: here the page wins.</source>
+        <translation>Dát siidu addá Alt+Shift+%key ovtta iežas liŋkii: dás siidu vuoitá.</translation>
+    </message>
+    <message>
+        <source>Saved.</source>
+        <translation>Vurkejuvvon.</translation>
+    </message>
+    <message>
+        <source>Back to the defaults</source>
+        <translation>Ruovttoluotta standárdii</translation>
+    </message>
+    <message>
+        <source>All shortcuts</source>
+        <translation>Buot oanehusat</translation>
+    </message>
+    <message>
+        <source>This page uses this key for one of its links: here the page wins.</source>
+        <translation>Dát siidu geavaha dán boalu ovtta iežas liŋkii: dás siidu vuoitá.</translation>
+    </message>
+    <message>
+        <source>Panel: %name</source>
+        <translation>Panela: %name</translation>
+    </message>
+    <message>
+        <source>Open the sidebar</source>
+        <translation>Raba bálddasstoalpu</translation>
+    </message>
+    <message>
+        <source>Move the tab along its edge, or to the opposite edge</source>
+        <translation>Sirdde gilkora ravdda mielde dahje vuostebeale ravdii</translation>
+    </message>
+    <message>
+        <source>Bigger steps</source>
+        <translation>Stuorát lávkkit</translation>
+    </message>
+    <message>
+        <source>Dock to that edge</source>
+        <translation>Giddes dan ravdii</translation>
+    </message>
+    <message>
+        <source>Go round the edges</source>
+        <translation>Mana ravddaid birra</translation>
+    </message>
+    <message>
+        <source>To the start or the end of the edge</source>
+        <translation>Ravdda álgui dahje loahppii</translation>
+    </message>
+    <message>
+        <source>On the tab</source>
+        <translation>Gilkoris</translation>
+    </message>
+    <message>
+        <source>On a Mac, Option+Shift with a letter types a character in a text field: there the field gets it.</source>
+        <translation>Mac:as Option+Shift bustávain čállá mearkka teakstagieddái: doppe gieddi oažžu dan.</translation>
+    </message>
+    <message>
+        <source>Change them in the Me panel</source>
+        <translation>Rievdat daid «Mun»-panelas</translation>
+    </message>
+    <message>
+        <source>Open the Page panel to save its draft.</source>
+        <translation>Raba «Siidu»-panela vai vurket dan luonosa.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Sisaboarta</translation>
     </message>

@@ -844,6 +844,94 @@
         <translation>%n novs en Vossa chascha d'entrada</translation>
     </message>
     <message>
+        <source>Open the sidebar or go into it</source>
+        <translation>Avrir la trav laterala u ir en ella</translation>
+    </message>
+    <message>
+        <source>Save the draft</source>
+        <translation>Memorisar il sboz</translation>
+    </message>
+    <message>
+        <source>Keyboard shortcuts</source>
+        <translation>Scursanidas da tastatura</translation>
+    </message>
+    <message>
+        <source>Use one letter, A to Z.</source>
+        <translation>Utilisai ina letra, da A fin Z.</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key belongs to the browser or the system.</source>
+        <translation>Alt+Shift+%key appartegna al navigatur u al sistem.</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key is taken: %action.</source>
+        <translation>Alt+Shift+%key è gia occupà: %action.</translation>
+    </message>
+    <message>
+        <source>This page gives Alt+Shift+%key to one of its links: here the page wins.</source>
+        <translation>Questa pagina dat Alt+Shift+%key ad ina da sias colliaziuns: qua gudogna la pagina.</translation>
+    </message>
+    <message>
+        <source>Saved.</source>
+        <translation>Memorisà.</translation>
+    </message>
+    <message>
+        <source>Back to the defaults</source>
+        <translation>Enavos a las valurs da standard</translation>
+    </message>
+    <message>
+        <source>All shortcuts</source>
+        <translation>Tut las scursanidas</translation>
+    </message>
+    <message>
+        <source>This page uses this key for one of its links: here the page wins.</source>
+        <translation>Questa pagina utilisescha questa tasta per ina da sias colliaziuns: qua gudogna la pagina.</translation>
+    </message>
+    <message>
+        <source>Panel: %name</source>
+        <translation>Panel: %name</translation>
+    </message>
+    <message>
+        <source>Open the sidebar</source>
+        <translation>Avrir la trav laterala</translation>
+    </message>
+    <message>
+        <source>Move the tab along its edge, or to the opposite edge</source>
+        <translation>Spustar il register lung ses ur u a l'ur opponì</translation>
+    </message>
+    <message>
+        <source>Bigger steps</source>
+        <translation>Pass pli gronds</translation>
+    </message>
+    <message>
+        <source>Dock to that edge</source>
+        <translation>Fixar a quel ur</translation>
+    </message>
+    <message>
+        <source>Go round the edges</source>
+        <translation>Ir enturn ils urs</translation>
+    </message>
+    <message>
+        <source>To the start or the end of the edge</source>
+        <translation>A l'entschatta u a la fin da l'ur</translation>
+    </message>
+    <message>
+        <source>On the tab</source>
+        <translation>Sin il register</translation>
+    </message>
+    <message>
+        <source>On a Mac, Option+Shift with a letter types a character in a text field: there the field gets it.</source>
+        <translation>Sin in Mac scriva Option+Shift cun ina letra in caracter en in champ da text: là survegn il champ quel.</translation>
+    </message>
+    <message>
+        <source>Change them in the Me panel</source>
+        <translation>Midai els en il panel «Jau»</translation>
+    </message>
+    <message>
+        <source>Open the Page panel to save its draft.</source>
+        <translation>Avri il panel «Pagina» per memorisar ses sboz.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Chascha d'entrada</translation>
     </message>

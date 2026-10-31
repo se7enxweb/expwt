@@ -844,6 +844,94 @@
         <translation>%n nevez en ho poest-degemer</translation>
     </message>
     <message>
+        <source>Open the sidebar or go into it</source>
+        <translation>Digeriñ ar varrenn-gostez pe mont enni</translation>
+    </message>
+    <message>
+        <source>Save the draft</source>
+        <translation>Enrollañ ar brouilhed</translation>
+    </message>
+    <message>
+        <source>Keyboard shortcuts</source>
+        <translation>Berradennoù klavier</translation>
+    </message>
+    <message>
+        <source>Use one letter, A to Z.</source>
+        <translation>Implijit ul lizherenn, eus A da Z.</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key belongs to the browser or the system.</source>
+        <translation>Alt+Shift+%key a zo d'ar merdeer pe d'ar reizhiad.</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key is taken: %action.</source>
+        <translation>Alt+Shift+%key a zo implijet dija: %action.</translation>
+    </message>
+    <message>
+        <source>This page gives Alt+Shift+%key to one of its links: here the page wins.</source>
+        <translation>Ar bajenn-mañ a ro Alt+Shift+%key d'unan eus he ereoù: amañ e c'hounez ar bajenn.</translation>
+    </message>
+    <message>
+        <source>Saved.</source>
+        <translation>Enrollet.</translation>
+    </message>
+    <message>
+        <source>Back to the defaults</source>
+        <translation>Distreiñ d'an talvoudoù dre ziouer</translation>
+    </message>
+    <message>
+        <source>All shortcuts</source>
+        <translation>An holl verradennoù</translation>
+    </message>
+    <message>
+        <source>This page uses this key for one of its links: here the page wins.</source>
+        <translation>Ar bajenn-mañ a implij an alc'hwez-mañ evit unan eus he ereoù: amañ e c'hounez ar bajenn.</translation>
+    </message>
+    <message>
+        <source>Panel: %name</source>
+        <translation>Panell: %name</translation>
+    </message>
+    <message>
+        <source>Open the sidebar</source>
+        <translation>Digeriñ ar varrenn-gostez</translation>
+    </message>
+    <message>
+        <source>Move the tab along its edge, or to the opposite edge</source>
+        <translation>Fiñval an ivinell a-hed he bord, pe d'ar bord a-enep</translation>
+    </message>
+    <message>
+        <source>Bigger steps</source>
+        <translation>Paz brasoc'h</translation>
+    </message>
+    <message>
+        <source>Dock to that edge</source>
+        <translation>Stagañ ouzh ar bord-se</translation>
+    </message>
+    <message>
+        <source>Go round the edges</source>
+        <translation>Mont en-dro d'ar bordoù</translation>
+    </message>
+    <message>
+        <source>To the start or the end of the edge</source>
+        <translation>Da zeroù pe da fin ar bord</translation>
+    </message>
+    <message>
+        <source>On the tab</source>
+        <translation>War an ivinell</translation>
+    </message>
+    <message>
+        <source>On a Mac, Option+Shift with a letter types a character in a text field: there the field gets it.</source>
+        <translation>War ur Mac, Option+Shift gant ul lizherenn a skriv un arouezenn en ur vaezienn destenn: eno ar vaezienn he resev.</translation>
+    </message>
+    <message>
+        <source>Change them in the Me panel</source>
+        <translation>Kemmit anezho er banell «Me»</translation>
+    </message>
+    <message>
+        <source>Open the Page panel to save its draft.</source>
+        <translation>Digorit ar banell «Pajenn» evit enrollañ he brouilhed.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Boest-degemer</translation>
     </message>

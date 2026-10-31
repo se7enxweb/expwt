@@ -844,6 +844,94 @@
         <translation>रउरा इनबॉक्स में %n नया</translation>
     </message>
     <message>
+        <source>Open the sidebar or go into it</source>
+        <translation>साइडबार खोलीं भा ओकरा में जाईं</translation>
+    </message>
+    <message>
+        <source>Save the draft</source>
+        <translation>ड्राफ़्ट सहेजीं</translation>
+    </message>
+    <message>
+        <source>Keyboard shortcuts</source>
+        <translation>कीबोर्ड शॉर्टकट</translation>
+    </message>
+    <message>
+        <source>Use one letter, A to Z.</source>
+        <translation>एगो अक्षर लीं, A से Z तक।</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key belongs to the browser or the system.</source>
+        <translation>Alt+Shift+%key ब्राउज़र भा सिस्टम के ह।</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key is taken: %action.</source>
+        <translation>Alt+Shift+%key पहिले से लागल बा: %action।</translation>
+    </message>
+    <message>
+        <source>This page gives Alt+Shift+%key to one of its links: here the page wins.</source>
+        <translation>ई पन्ना Alt+Shift+%key अपना एगो लिंक के देला: इहाँ पन्ना जीतेला।</translation>
+    </message>
+    <message>
+        <source>Saved.</source>
+        <translation>सहेजा गइल।</translation>
+    </message>
+    <message>
+        <source>Back to the defaults</source>
+        <translation>डिफ़ॉल्ट पर वापस</translation>
+    </message>
+    <message>
+        <source>All shortcuts</source>
+        <translation>सगरी शॉर्टकट</translation>
+    </message>
+    <message>
+        <source>This page uses this key for one of its links: here the page wins.</source>
+        <translation>ई पन्ना ई बटन अपना एगो लिंक खातिर लगावेला: इहाँ पन्ना जीतेला।</translation>
+    </message>
+    <message>
+        <source>Panel: %name</source>
+        <translation>पैनल: %name</translation>
+    </message>
+    <message>
+        <source>Open the sidebar</source>
+        <translation>साइडबार खोलीं</translation>
+    </message>
+    <message>
+        <source>Move the tab along its edge, or to the opposite edge</source>
+        <translation>टैब के ओकरा किनारा पर भा उलटा किनारा पर ले जाईं</translation>
+    </message>
+    <message>
+        <source>Bigger steps</source>
+        <translation>बड़ कदम</translation>
+    </message>
+    <message>
+        <source>Dock to that edge</source>
+        <translation>ओह किनारा से सटाईं</translation>
+    </message>
+    <message>
+        <source>Go round the edges</source>
+        <translation>किनारा सब के चारो ओर घूमीं</translation>
+    </message>
+    <message>
+        <source>To the start or the end of the edge</source>
+        <translation>किनारा के शुरू भा अंत पर</translation>
+    </message>
+    <message>
+        <source>On the tab</source>
+        <translation>टैब पर</translation>
+    </message>
+    <message>
+        <source>On a Mac, Option+Shift with a letter types a character in a text field: there the field gets it.</source>
+        <translation>Mac पर, अक्षर के साथे Option+Shift टेक्स्ट फ़ील्ड में एगो चिन्ह टाइप करेला: उहाँ फ़ील्ड ओकरा के पावेला।</translation>
+    </message>
+    <message>
+        <source>Change them in the Me panel</source>
+        <translation>एह के «हम» पैनल में बदलीं</translation>
+    </message>
+    <message>
+        <source>Open the Page panel to save its draft.</source>
+        <translation>ओकर ड्राफ़्ट सहेजे खातिर «पन्ना» पैनल खोलीं।</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>इनबॉक्स</translation>
     </message>

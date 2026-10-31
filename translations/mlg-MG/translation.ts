@@ -844,6 +844,94 @@
         <translation>%n vaovao ao amin'ny boaty fandraisanao</translation>
     </message>
     <message>
+        <source>Open the sidebar or go into it</source>
+        <translation>Sokafy ny tsipika anilany na midira ao</translation>
+    </message>
+    <message>
+        <source>Save the draft</source>
+        <translation>Tahirizo ny drafitra</translation>
+    </message>
+    <message>
+        <source>Keyboard shortcuts</source>
+        <translation>Hitsin-dàlana amin'ny fafana</translation>
+    </message>
+    <message>
+        <source>Use one letter, A to Z.</source>
+        <translation>Mampiasà litera iray, A ka hatramin'ny Z.</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key belongs to the browser or the system.</source>
+        <translation>An'ny mpitety tranonkala na ny rafitra ny Alt+Shift+%key.</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key is taken: %action.</source>
+        <translation>Efa ampiasaina ny Alt+Shift+%key: %action.</translation>
+    </message>
+    <message>
+        <source>This page gives Alt+Shift+%key to one of its links: here the page wins.</source>
+        <translation>Omen'ity pejy ity ny Alt+Shift+%key ny iray amin'ireo rohiny: eto ny pejy no mandresy.</translation>
+    </message>
+    <message>
+        <source>Saved.</source>
+        <translation>Voatahiry.</translation>
+    </message>
+    <message>
+        <source>Back to the defaults</source>
+        <translation>Miverina amin'ny mahazatra</translation>
+    </message>
+    <message>
+        <source>All shortcuts</source>
+        <translation>Hitsin-dàlana rehetra</translation>
+    </message>
+    <message>
+        <source>This page uses this key for one of its links: here the page wins.</source>
+        <translation>Ampiasain'ity pejy ity ity bokotra ity ho an'ny iray amin'ireo rohiny: eto ny pejy no mandresy.</translation>
+    </message>
+    <message>
+        <source>Panel: %name</source>
+        <translation>Tontonana: %name</translation>
+    </message>
+    <message>
+        <source>Open the sidebar</source>
+        <translation>Sokafy ny tsipika anilany</translation>
+    </message>
+    <message>
+        <source>Move the tab along its edge, or to the opposite edge</source>
+        <translation>Afindrao manaraka ny sisiny ny takelaka, na any amin'ny sisiny mifanohitra</translation>
+    </message>
+    <message>
+        <source>Bigger steps</source>
+        <translation>Dingana lehibe kokoa</translation>
+    </message>
+    <message>
+        <source>Dock to that edge</source>
+        <translation>Apetaho amin'izany sisiny izany</translation>
+    </message>
+    <message>
+        <source>Go round the edges</source>
+        <translation>Mihodina manodidina ny sisiny</translation>
+    </message>
+    <message>
+        <source>To the start or the end of the edge</source>
+        <translation>Any amin'ny fiandohana na fiafaran'ny sisiny</translation>
+    </message>
+    <message>
+        <source>On the tab</source>
+        <translation>Eo amin'ny takelaka</translation>
+    </message>
+    <message>
+        <source>On a Mac, Option+Shift with a letter types a character in a text field: there the field gets it.</source>
+        <translation>Amin'ny Mac, ny Option+Shift miaraka amin'ny litera dia manoratra marika ao anaty saha soratra: any ny saha no mahazo azy.</translation>
+    </message>
+    <message>
+        <source>Change them in the Me panel</source>
+        <translation>Ovay ao amin'ny tontonana «Izaho» izy ireo</translation>
+    </message>
+    <message>
+        <source>Open the Page panel to save its draft.</source>
+        <translation>Sokafy ny tontonana «Pejy» hitahirizana ny drafiny.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Boaty fandraisana</translation>
     </message>

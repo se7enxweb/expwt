@@ -844,6 +844,94 @@
         <translation>%n naujų gautuose</translation>
     </message>
     <message>
+        <source>Open the sidebar or go into it</source>
+        <translation>Atidaryti šoninę juostą arba pereiti į ją</translation>
+    </message>
+    <message>
+        <source>Save the draft</source>
+        <translation>Išsaugoti juodraštį</translation>
+    </message>
+    <message>
+        <source>Keyboard shortcuts</source>
+        <translation>Spartieji klavišai</translation>
+    </message>
+    <message>
+        <source>Use one letter, A to Z.</source>
+        <translation>Naudokite vieną raidę, nuo A iki Z.</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key belongs to the browser or the system.</source>
+        <translation>Alt+Shift+%key priklauso naršyklei arba sistemai.</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key is taken: %action.</source>
+        <translation>Alt+Shift+%key jau užimtas: %action.</translation>
+    </message>
+    <message>
+        <source>This page gives Alt+Shift+%key to one of its links: here the page wins.</source>
+        <translation>Šis puslapis Alt+Shift+%key skiria vienai savo nuorodai: čia laimi puslapis.</translation>
+    </message>
+    <message>
+        <source>Saved.</source>
+        <translation>Išsaugota.</translation>
+    </message>
+    <message>
+        <source>Back to the defaults</source>
+        <translation>Grąžinti numatytuosius</translation>
+    </message>
+    <message>
+        <source>All shortcuts</source>
+        <translation>Visi spartieji klavišai</translation>
+    </message>
+    <message>
+        <source>This page uses this key for one of its links: here the page wins.</source>
+        <translation>Šis puslapis šį klavišą naudoja vienai savo nuorodai: čia laimi puslapis.</translation>
+    </message>
+    <message>
+        <source>Panel: %name</source>
+        <translation>Skydelis: %name</translation>
+    </message>
+    <message>
+        <source>Open the sidebar</source>
+        <translation>Atidaryti šoninę juostą</translation>
+    </message>
+    <message>
+        <source>Move the tab along its edge, or to the opposite edge</source>
+        <translation>Perkelti ąselę palei jos kraštą arba prie priešingo krašto</translation>
+    </message>
+    <message>
+        <source>Bigger steps</source>
+        <translation>Didesni žingsniai</translation>
+    </message>
+    <message>
+        <source>Dock to that edge</source>
+        <translation>Prisegti prie to krašto</translation>
+    </message>
+    <message>
+        <source>Go round the edges</source>
+        <translation>Eiti aplink kraštus</translation>
+    </message>
+    <message>
+        <source>To the start or the end of the edge</source>
+        <translation>Į krašto pradžią arba pabaigą</translation>
+    </message>
+    <message>
+        <source>On the tab</source>
+        <translation>Ant ąselės</translation>
+    </message>
+    <message>
+        <source>On a Mac, Option+Shift with a letter types a character in a text field: there the field gets it.</source>
+        <translation>Mac kompiuteryje Option+Shift su raide įveda simbolį teksto lauke: ten jį gauna laukas.</translation>
+    </message>
+    <message>
+        <source>Change them in the Me panel</source>
+        <translation>Keiskite juos skydelyje „Aš“</translation>
+    </message>
+    <message>
+        <source>Open the Page panel to save its draft.</source>
+        <translation>Atidarykite skydelį „Puslapis“, kad išsaugotumėte jo juodraštį.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Gauta</translation>
     </message>

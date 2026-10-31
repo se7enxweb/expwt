@@ -844,6 +844,94 @@
         <translation>%n nowych w skrzynce odbiorczej</translation>
     </message>
     <message>
+        <source>Open the sidebar or go into it</source>
+        <translation>Otwórz pasek boczny lub przejdź do niego</translation>
+    </message>
+    <message>
+        <source>Save the draft</source>
+        <translation>Zapisz wersję roboczą</translation>
+    </message>
+    <message>
+        <source>Keyboard shortcuts</source>
+        <translation>Skróty klawiszowe</translation>
+    </message>
+    <message>
+        <source>Use one letter, A to Z.</source>
+        <translation>Użyj jednej litery, od A do Z.</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key belongs to the browser or the system.</source>
+        <translation>Alt+Shift+%key należy do przeglądarki lub systemu.</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key is taken: %action.</source>
+        <translation>Alt+Shift+%key jest już zajęty: %action.</translation>
+    </message>
+    <message>
+        <source>This page gives Alt+Shift+%key to one of its links: here the page wins.</source>
+        <translation>Ta strona przypisuje Alt+Shift+%key jednemu ze swoich linków: tutaj wygrywa strona.</translation>
+    </message>
+    <message>
+        <source>Saved.</source>
+        <translation>Zapisano.</translation>
+    </message>
+    <message>
+        <source>Back to the defaults</source>
+        <translation>Przywróć domyślne</translation>
+    </message>
+    <message>
+        <source>All shortcuts</source>
+        <translation>Wszystkie skróty</translation>
+    </message>
+    <message>
+        <source>This page uses this key for one of its links: here the page wins.</source>
+        <translation>Ta strona używa tego klawisza dla jednego ze swoich linków: tutaj wygrywa strona.</translation>
+    </message>
+    <message>
+        <source>Panel: %name</source>
+        <translation>Panel: %name</translation>
+    </message>
+    <message>
+        <source>Open the sidebar</source>
+        <translation>Otwórz pasek boczny</translation>
+    </message>
+    <message>
+        <source>Move the tab along its edge, or to the opposite edge</source>
+        <translation>Przesuń kartę wzdłuż jej krawędzi lub na przeciwną krawędź</translation>
+    </message>
+    <message>
+        <source>Bigger steps</source>
+        <translation>Większe kroki</translation>
+    </message>
+    <message>
+        <source>Dock to that edge</source>
+        <translation>Zadokuj przy tej krawędzi</translation>
+    </message>
+    <message>
+        <source>Go round the edges</source>
+        <translation>Obejdź krawędzie</translation>
+    </message>
+    <message>
+        <source>To the start or the end of the edge</source>
+        <translation>Na początek lub koniec krawędzi</translation>
+    </message>
+    <message>
+        <source>On the tab</source>
+        <translation>Na karcie</translation>
+    </message>
+    <message>
+        <source>On a Mac, Option+Shift with a letter types a character in a text field: there the field gets it.</source>
+        <translation>Na Macu Option+Shift z literą wpisuje znak w polu tekstowym: tam otrzymuje go pole.</translation>
+    </message>
+    <message>
+        <source>Change them in the Me panel</source>
+        <translation>Zmień je w panelu „Ja”</translation>
+    </message>
+    <message>
+        <source>Open the Page panel to save its draft.</source>
+        <translation>Otwórz panel „Strona”, aby zapisać jej wersję roboczą.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Skrzynka odbiorcza</translation>
     </message>

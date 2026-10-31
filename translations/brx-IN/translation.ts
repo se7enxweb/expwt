@@ -844,6 +844,94 @@
         <translation>नोंथांनि इनबक्साव %n गोदान</translation>
     </message>
     <message>
+        <source>Open the sidebar or go into it</source>
+        <translation>साइडबार खेव एबा बेनि सिङाव थां</translation>
+    </message>
+    <message>
+        <source>Save the draft</source>
+        <translation>खस्रा दोन</translation>
+    </message>
+    <message>
+        <source>Keyboard shortcuts</source>
+        <translation>कीबर्ड शर्टकाट</translation>
+    </message>
+    <message>
+        <source>Use one letter, A to Z.</source>
+        <translation>मोनसे हांखो बाहाय, A निफ्राय Z सिम।</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key belongs to the browser or the system.</source>
+        <translation>Alt+Shift+%key आ ब्राउजार एबा सिस्टेमनि।</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key is taken: %action.</source>
+        <translation>Alt+Shift+%key आ बाहायनाय जाखांदों: %action।</translation>
+    </message>
+    <message>
+        <source>This page gives Alt+Shift+%key to one of its links: here the page wins.</source>
+        <translation>बे बिलाइखानाया Alt+Shift+%key खौ बेनि मोनसे लिंकआव होयो: बेयाव बिलाइखानाया जययो।</translation>
+    </message>
+    <message>
+        <source>Saved.</source>
+        <translation>दोनजादों।</translation>
+    </message>
+    <message>
+        <source>Back to the defaults</source>
+        <translation>गुबै महराव फिन थां</translation>
+    </message>
+    <message>
+        <source>All shortcuts</source>
+        <translation>गासै शर्टकाट</translation>
+    </message>
+    <message>
+        <source>This page uses this key for one of its links: here the page wins.</source>
+        <translation>बे बिलाइखानाया बे कीखौ बेनि मोनसे लिंकनि थाखाय बाहायो: बेयाव बिलाइखानाया जययो।</translation>
+    </message>
+    <message>
+        <source>Panel: %name</source>
+        <translation>पेनेल: %name</translation>
+    </message>
+    <message>
+        <source>Open the sidebar</source>
+        <translation>साइडबार खेव</translation>
+    </message>
+    <message>
+        <source>Move the tab along its edge, or to the opposite edge</source>
+        <translation>टेबखौ बेनि सिमाङाव एबा उल्था सिमाङाव लाबो</translation>
+    </message>
+    <message>
+        <source>Bigger steps</source>
+        <translation>गेदेर खामि</translation>
+    </message>
+    <message>
+        <source>Dock to that edge</source>
+        <translation>बै सिमाङाव गाव</translation>
+    </message>
+    <message>
+        <source>Go round the edges</source>
+        <translation>सिमाङाफोरनि गेजेरजों थां</translation>
+    </message>
+    <message>
+        <source>To the start or the end of the edge</source>
+        <translation>सिमाङानि जागायनायाव एबा जोबनायाव</translation>
+    </message>
+    <message>
+        <source>On the tab</source>
+        <translation>टेबआव</translation>
+    </message>
+    <message>
+        <source>On a Mac, Option+Shift with a letter types a character in a text field: there the field gets it.</source>
+        <translation>Mac आव, हांखोजों Option+Shift आ टेक्स्ट फिल्डआव मोनसे चिन लिरो: बेयाव फिल्डआ मोनो।</translation>
+    </message>
+    <message>
+        <source>Change them in the Me panel</source>
+        <translation>बेफोरखौ «आं» पेनेलआव सोलाय</translation>
+    </message>
+    <message>
+        <source>Open the Page panel to save its draft.</source>
+        <translation>बेनि खस्रा दोननो «बिलाइखाना» पेनेल खेव।</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>इनबक्स</translation>
     </message>

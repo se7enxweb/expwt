@@ -844,6 +844,94 @@
         <translation>%n jauni jūsu iesūtnē</translation>
     </message>
     <message>
+        <source>Open the sidebar or go into it</source>
+        <translation>Atvērt sānjoslu vai pāriet uz to</translation>
+    </message>
+    <message>
+        <source>Save the draft</source>
+        <translation>Saglabāt melnrakstu</translation>
+    </message>
+    <message>
+        <source>Keyboard shortcuts</source>
+        <translation>Īsinājumtaustiņi</translation>
+    </message>
+    <message>
+        <source>Use one letter, A to Z.</source>
+        <translation>Izmantojiet vienu burtu, no A līdz Z.</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key belongs to the browser or the system.</source>
+        <translation>Alt+Shift+%key pieder pārlūkam vai sistēmai.</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key is taken: %action.</source>
+        <translation>Alt+Shift+%key jau ir aizņemts: %action.</translation>
+    </message>
+    <message>
+        <source>This page gives Alt+Shift+%key to one of its links: here the page wins.</source>
+        <translation>Šī lapa piešķir Alt+Shift+%key vienai no savām saitēm: šeit uzvar lapa.</translation>
+    </message>
+    <message>
+        <source>Saved.</source>
+        <translation>Saglabāts.</translation>
+    </message>
+    <message>
+        <source>Back to the defaults</source>
+        <translation>Atpakaļ uz noklusējumu</translation>
+    </message>
+    <message>
+        <source>All shortcuts</source>
+        <translation>Visi īsinājumtaustiņi</translation>
+    </message>
+    <message>
+        <source>This page uses this key for one of its links: here the page wins.</source>
+        <translation>Šī lapa izmanto šo taustiņu vienai no savām saitēm: šeit uzvar lapa.</translation>
+    </message>
+    <message>
+        <source>Panel: %name</source>
+        <translation>Panelis: %name</translation>
+    </message>
+    <message>
+        <source>Open the sidebar</source>
+        <translation>Atvērt sānjoslu</translation>
+    </message>
+    <message>
+        <source>Move the tab along its edge, or to the opposite edge</source>
+        <translation>Pārvietot cilni gar tās malu vai uz pretējo malu</translation>
+    </message>
+    <message>
+        <source>Bigger steps</source>
+        <translation>Lielāki soļi</translation>
+    </message>
+    <message>
+        <source>Dock to that edge</source>
+        <translation>Piestiprināt pie tās malas</translation>
+    </message>
+    <message>
+        <source>Go round the edges</source>
+        <translation>Iet apkārt malām</translation>
+    </message>
+    <message>
+        <source>To the start or the end of the edge</source>
+        <translation>Uz malas sākumu vai beigām</translation>
+    </message>
+    <message>
+        <source>On the tab</source>
+        <translation>Uz cilnes</translation>
+    </message>
+    <message>
+        <source>On a Mac, Option+Shift with a letter types a character in a text field: there the field gets it.</source>
+        <translation>Mac datorā Option+Shift ar burtu ievada rakstzīmi teksta laukā: tur to saņem lauks.</translation>
+    </message>
+    <message>
+        <source>Change them in the Me panel</source>
+        <translation>Mainiet tos panelī “Es”</translation>
+    </message>
+    <message>
+        <source>Open the Page panel to save its draft.</source>
+        <translation>Atveriet paneli “Lapa”, lai saglabātu tās melnrakstu.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Iesūtne</translation>
     </message>

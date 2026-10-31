@@ -844,6 +844,94 @@
         <translation>%n ახალი თქვენს შემოსულებში</translation>
     </message>
     <message>
+        <source>Open the sidebar or go into it</source>
+        <translation>გვერდითი პანელის გახსნა ან მასში გადასვლა</translation>
+    </message>
+    <message>
+        <source>Save the draft</source>
+        <translation>მონახაზის შენახვა</translation>
+    </message>
+    <message>
+        <source>Keyboard shortcuts</source>
+        <translation>კლავიატურის მალსახმობები</translation>
+    </message>
+    <message>
+        <source>Use one letter, A to Z.</source>
+        <translation>გამოიყენეთ ერთი ასო, A-დან Z-მდე.</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key belongs to the browser or the system.</source>
+        <translation>Alt+Shift+%key ბრაუზერს ან სისტემას ეკუთვნის.</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key is taken: %action.</source>
+        <translation>Alt+Shift+%key უკვე დაკავებულია: %action.</translation>
+    </message>
+    <message>
+        <source>This page gives Alt+Shift+%key to one of its links: here the page wins.</source>
+        <translation>ეს გვერდი Alt+Shift+%key-ს აძლევს თავის ერთ-ერთ ბმულს: აქ გვერდი იმარჯვებს.</translation>
+    </message>
+    <message>
+        <source>Saved.</source>
+        <translation>შენახულია.</translation>
+    </message>
+    <message>
+        <source>Back to the defaults</source>
+        <translation>ნაგულისხმევზე დაბრუნება</translation>
+    </message>
+    <message>
+        <source>All shortcuts</source>
+        <translation>ყველა მალსახმობი</translation>
+    </message>
+    <message>
+        <source>This page uses this key for one of its links: here the page wins.</source>
+        <translation>ეს გვერდი ამ კლავიშს იყენებს თავისი ერთ-ერთი ბმულისთვის: აქ გვერდი იმარჯვებს.</translation>
+    </message>
+    <message>
+        <source>Panel: %name</source>
+        <translation>პანელი: %name</translation>
+    </message>
+    <message>
+        <source>Open the sidebar</source>
+        <translation>გვერდითი პანელის გახსნა</translation>
+    </message>
+    <message>
+        <source>Move the tab along its edge, or to the opposite edge</source>
+        <translation>ჩანართის გადატანა მისი კიდის გასწვრივ ან მოპირდაპირე კიდეზე</translation>
+    </message>
+    <message>
+        <source>Bigger steps</source>
+        <translation>უფრო დიდი ნაბიჯები</translation>
+    </message>
+    <message>
+        <source>Dock to that edge</source>
+        <translation>იმ კიდეზე მიმაგრება</translation>
+    </message>
+    <message>
+        <source>Go round the edges</source>
+        <translation>კიდეების შემოვლა</translation>
+    </message>
+    <message>
+        <source>To the start or the end of the edge</source>
+        <translation>კიდის დასაწყისში ან ბოლოში</translation>
+    </message>
+    <message>
+        <source>On the tab</source>
+        <translation>ჩანართზე</translation>
+    </message>
+    <message>
+        <source>On a Mac, Option+Shift with a letter types a character in a text field: there the field gets it.</source>
+        <translation>Mac-ზე Option+Shift ასოსთან ერთად ტექსტურ ველში სიმბოლოს წერს: იქ მას ველი იღებს.</translation>
+    </message>
+    <message>
+        <source>Change them in the Me panel</source>
+        <translation>შეცვალეთ ისინი პანელში „მე“</translation>
+    </message>
+    <message>
+        <source>Open the Page panel to save its draft.</source>
+        <translation>გახსენით პანელი „გვერდი“, რომ მისი მონახაზი შეინახოთ.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>შემოსულები</translation>
     </message>

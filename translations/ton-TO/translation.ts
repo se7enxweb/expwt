@@ -844,6 +844,94 @@
         <translation>%n foʻou ʻi hoʻo puha tohi hū mai</translation>
     </message>
     <message>
+        <source>Open the sidebar or go into it</source>
+        <translation>Fakaava ʻa e kauʻi tafaʻaki pe hū ki ai</translation>
+    </message>
+    <message>
+        <source>Save the draft</source>
+        <translation>Tauhi ʻa e tohi fakataimi</translation>
+    </message>
+    <message>
+        <source>Keyboard shortcuts</source>
+        <translation>Ngaahi founga nounou ʻo e kīpoti</translation>
+    </message>
+    <message>
+        <source>Use one letter, A to Z.</source>
+        <translation>Fakaʻaongaʻi ha mataʻitohi ʻe taha, A ki he Z.</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key belongs to the browser or the system.</source>
+        <translation>Ko e Alt+Shift+%key ʻa e palausa pe ʻa e sisitemi.</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key is taken: %action.</source>
+        <translation>Kuo ʻosi fakaʻaongaʻi ʻa e Alt+Shift+%key: %action.</translation>
+    </message>
+    <message>
+        <source>This page gives Alt+Shift+%key to one of its links: here the page wins.</source>
+        <translation>ʻOku foaki ʻe he peesi ni ʻa e Alt+Shift+%key ki hono taha ʻo hono ngaahi fehokotakiʻanga: heni ʻoku ikuna ʻa e peesi.</translation>
+    </message>
+    <message>
+        <source>Saved.</source>
+        <translation>Kuo tauhi.</translation>
+    </message>
+    <message>
+        <source>Back to the defaults</source>
+        <translation>Foki ki he ngaahi meʻa angamaheni</translation>
+    </message>
+    <message>
+        <source>All shortcuts</source>
+        <translation>Ngaahi founga nounou kotoa</translation>
+    </message>
+    <message>
+        <source>This page uses this key for one of its links: here the page wins.</source>
+        <translation>ʻOku fakaʻaongaʻi ʻe he peesi ni ʻa e kī ni ki hono taha ʻo hono ngaahi fehokotakiʻanga: heni ʻoku ikuna ʻa e peesi.</translation>
+    </message>
+    <message>
+        <source>Panel: %name</source>
+        <translation>Paneli: %name</translation>
+    </message>
+    <message>
+        <source>Open the sidebar</source>
+        <translation>Fakaava ʻa e kauʻi tafaʻaki</translation>
+    </message>
+    <message>
+        <source>Move the tab along its edge, or to the opposite edge</source>
+        <translation>Hiki ʻa e tepi ʻi hono ngataʻanga, pe ki he ngataʻanga ʻi he tafaʻaki ʻe taha</translation>
+    </message>
+    <message>
+        <source>Bigger steps</source>
+        <translation>Ngaahi laka lalahi ange</translation>
+    </message>
+    <message>
+        <source>Dock to that edge</source>
+        <translation>Pipiki ki he ngataʻanga ko ia</translation>
+    </message>
+    <message>
+        <source>Go round the edges</source>
+        <translation>Takai holo ʻi he ngaahi ngataʻanga</translation>
+    </message>
+    <message>
+        <source>To the start or the end of the edge</source>
+        <translation>Ki he kamataʻanga pe ngataʻanga ʻo e ngataʻanga</translation>
+    </message>
+    <message>
+        <source>On the tab</source>
+        <translation>ʻI he tepi</translation>
+    </message>
+    <message>
+        <source>On a Mac, Option+Shift with a letter types a character in a text field: there the field gets it.</source>
+        <translation>ʻI ha Mac, ʻoku tohiʻi ʻe he Option+Shift mo ha mataʻitohi ha fakaʻilonga ʻi ha feituʻu tohi: ʻi ai ʻoku maʻu ia ʻe he feituʻu.</translation>
+    </message>
+    <message>
+        <source>Change them in the Me panel</source>
+        <translation>Liliu kinautolu ʻi he paneli «Ko au»</translation>
+    </message>
+    <message>
+        <source>Open the Page panel to save its draft.</source>
+        <translation>Fakaava ʻa e paneli «Peesi» ke tauhi hono tohi fakataimi.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Puha tohi hū mai</translation>
     </message>

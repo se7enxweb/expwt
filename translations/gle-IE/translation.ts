@@ -844,6 +844,94 @@
         <translation>%n nua i do bhosca isteach</translation>
     </message>
     <message>
+        <source>Open the sidebar or go into it</source>
+        <translation>Oscail an barra taoibh nó téigh isteach ann</translation>
+    </message>
+    <message>
+        <source>Save the draft</source>
+        <translation>Sábháil an dréacht</translation>
+    </message>
+    <message>
+        <source>Keyboard shortcuts</source>
+        <translation>Aicearraí méarchláir</translation>
+    </message>
+    <message>
+        <source>Use one letter, A to Z.</source>
+        <translation>Úsáid litir amháin, A go Z.</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key belongs to the browser or the system.</source>
+        <translation>Is leis an mbrabhsálaí nó leis an gcóras Alt+Shift+%key.</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key is taken: %action.</source>
+        <translation>Tá Alt+Shift+%key in úsáid cheana: %action.</translation>
+    </message>
+    <message>
+        <source>This page gives Alt+Shift+%key to one of its links: here the page wins.</source>
+        <translation>Tugann an leathanach seo Alt+Shift+%key do cheann dá naisc: anseo is é an leathanach a bhuann.</translation>
+    </message>
+    <message>
+        <source>Saved.</source>
+        <translation>Sábháilte.</translation>
+    </message>
+    <message>
+        <source>Back to the defaults</source>
+        <translation>Ar ais chuig na réamhshocruithe</translation>
+    </message>
+    <message>
+        <source>All shortcuts</source>
+        <translation>Gach aicearra</translation>
+    </message>
+    <message>
+        <source>This page uses this key for one of its links: here the page wins.</source>
+        <translation>Úsáideann an leathanach seo an eochair seo do cheann dá naisc: anseo is é an leathanach a bhuann.</translation>
+    </message>
+    <message>
+        <source>Panel: %name</source>
+        <translation>Painéal: %name</translation>
+    </message>
+    <message>
+        <source>Open the sidebar</source>
+        <translation>Oscail an barra taoibh</translation>
+    </message>
+    <message>
+        <source>Move the tab along its edge, or to the opposite edge</source>
+        <translation>Bog an cluaisín feadh a imill, nó chuig an imeall os a choinne</translation>
+    </message>
+    <message>
+        <source>Bigger steps</source>
+        <translation>Céimeanna níos mó</translation>
+    </message>
+    <message>
+        <source>Dock to that edge</source>
+        <translation>Duga leis an imeall sin</translation>
+    </message>
+    <message>
+        <source>Go round the edges</source>
+        <translation>Téigh timpeall na n-imeall</translation>
+    </message>
+    <message>
+        <source>To the start or the end of the edge</source>
+        <translation>Go tús nó deireadh an imill</translation>
+    </message>
+    <message>
+        <source>On the tab</source>
+        <translation>Ar an gcluaisín</translation>
+    </message>
+    <message>
+        <source>On a Mac, Option+Shift with a letter types a character in a text field: there the field gets it.</source>
+        <translation>Ar Mac, clóscríobhann Option+Shift le litir carachtar i réimse téacs: ansin is é an réimse a fhaigheann é.</translation>
+    </message>
+    <message>
+        <source>Change them in the Me panel</source>
+        <translation>Athraigh iad sa phainéal «Mise»</translation>
+    </message>
+    <message>
+        <source>Open the Page panel to save its draft.</source>
+        <translation>Oscail an painéal «Leathanach» chun a dhréacht a shábháil.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Bosca isteach</translation>
     </message>

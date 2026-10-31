@@ -844,6 +844,94 @@
         <translation>%n نوێ لە هاتووەکانتدا</translation>
     </message>
     <message>
+        <source>Open the sidebar or go into it</source>
+        <translation>لاتەنیشت بکەرەوە یان بچۆ ناوی</translation>
+    </message>
+    <message>
+        <source>Save the draft</source>
+        <translation>ڕەشنووسەکە پاشەکەوت بکە</translation>
+    </message>
+    <message>
+        <source>Keyboard shortcuts</source>
+        <translation>کورتەڕێکانی تەختەکلیل</translation>
+    </message>
+    <message>
+        <source>Use one letter, A to Z.</source>
+        <translation>یەک پیت بەکاربهێنە، لە A تا Z.</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key belongs to the browser or the system.</source>
+        <translation>Alt+Shift+%key هی وێبگەڕ یان سیستەمە.</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key is taken: %action.</source>
+        <translation>Alt+Shift+%key گیراوە: %action.</translation>
+    </message>
+    <message>
+        <source>This page gives Alt+Shift+%key to one of its links: here the page wins.</source>
+        <translation>ئەم پەڕەیە Alt+Shift+%key دەداتە یەکێک لە بەستەرەکانی: لێرە پەڕەکە دەباتەوە.</translation>
+    </message>
+    <message>
+        <source>Saved.</source>
+        <translation>پاشەکەوت کرا.</translation>
+    </message>
+    <message>
+        <source>Back to the defaults</source>
+        <translation>گەڕانەوە بۆ بنەڕەتییەکان</translation>
+    </message>
+    <message>
+        <source>All shortcuts</source>
+        <translation>هەموو کورتەڕێکان</translation>
+    </message>
+    <message>
+        <source>This page uses this key for one of its links: here the page wins.</source>
+        <translation>ئەم پەڕەیە ئەم کلیلە بۆ یەکێک لە بەستەرەکانی بەکاردەهێنێت: لێرە پەڕەکە دەباتەوە.</translation>
+    </message>
+    <message>
+        <source>Panel: %name</source>
+        <translation>پانێڵ: %name</translation>
+    </message>
+    <message>
+        <source>Open the sidebar</source>
+        <translation>لاتەنیشت بکەرەوە</translation>
+    </message>
+    <message>
+        <source>Move the tab along its edge, or to the opposite edge</source>
+        <translation>تابەکە بە درێژایی لێوارەکەی یان بۆ لێواری بەرامبەر بجوڵێنە</translation>
+    </message>
+    <message>
+        <source>Bigger steps</source>
+        <translation>هەنگاوی گەورەتر</translation>
+    </message>
+    <message>
+        <source>Dock to that edge</source>
+        <translation>بە ئەو لێوارەوە بیلکێنە</translation>
+    </message>
+    <message>
+        <source>Go round the edges</source>
+        <translation>بە دەوری لێوارەکاندا بڕۆ</translation>
+    </message>
+    <message>
+        <source>To the start or the end of the edge</source>
+        <translation>بۆ سەرەتا یان کۆتایی لێوارەکە</translation>
+    </message>
+    <message>
+        <source>On the tab</source>
+        <translation>لەسەر تابەکە</translation>
+    </message>
+    <message>
+        <source>On a Mac, Option+Shift with a letter types a character in a text field: there the field gets it.</source>
+        <translation>لە Mac، Option+Shift لەگەڵ پیتێک نیشانەیەک لە خانەی دەقدا دەنووسێت: لەوێ خانەکە وەریدەگرێت.</translation>
+    </message>
+    <message>
+        <source>Change them in the Me panel</source>
+        <translation>لە پانێڵی «من» بیانگۆڕە</translation>
+    </message>
+    <message>
+        <source>Open the Page panel to save its draft.</source>
+        <translation>پانێڵی «پەڕە» بکەرەوە بۆ پاشەکەوتکردنی ڕەشنووسەکەی.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>هاتووەکان</translation>
     </message>

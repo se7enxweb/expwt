@@ -844,6 +844,94 @@
         <translation>%n nowych w dostaśu</translation>
     </message>
     <message>
+        <source>Open the sidebar or go into it</source>
+        <translation>Bocnu lejstwu wócyniś abo do njeje hyś</translation>
+    </message>
+    <message>
+        <source>Save the draft</source>
+        <translation>Nacerjenje składowaś</translation>
+    </message>
+    <message>
+        <source>Keyboard shortcuts</source>
+        <translation>Tastowe skrotconki</translation>
+    </message>
+    <message>
+        <source>Use one letter, A to Z.</source>
+        <translation>Wužywajśo jaden pismik, A až Z.</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key belongs to the browser or the system.</source>
+        <translation>Alt+Shift+%key słuša wobglědowakoju abo systemoju.</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key is taken: %action.</source>
+        <translation>Alt+Shift+%key jo južo zawzety: %action.</translation>
+    </message>
+    <message>
+        <source>This page gives Alt+Shift+%key to one of its links: here the page wins.</source>
+        <translation>Toś ten bok dawa Alt+Shift+%key jadnomu ze swójich wótkazow: how dobydnjo bok.</translation>
+    </message>
+    <message>
+        <source>Saved.</source>
+        <translation>Składowane.</translation>
+    </message>
+    <message>
+        <source>Back to the defaults</source>
+        <translation>Slědk k standardam</translation>
+    </message>
+    <message>
+        <source>All shortcuts</source>
+        <translation>Wšykne skrotconki</translation>
+    </message>
+    <message>
+        <source>This page uses this key for one of its links: here the page wins.</source>
+        <translation>Toś ten bok wužywa toś tu tastu za jaden ze swójich wótkazow: how dobydnjo bok.</translation>
+    </message>
+    <message>
+        <source>Panel: %name</source>
+        <translation>Panel: %name</translation>
+    </message>
+    <message>
+        <source>Open the sidebar</source>
+        <translation>Bocnu lejstwu wócyniś</translation>
+    </message>
+    <message>
+        <source>Move the tab along its edge, or to the opposite edge</source>
+        <translation>Rejtarik pódla jogo kšomy abo k napśeśiwnej kšomje pśesunuś</translation>
+    </message>
+    <message>
+        <source>Bigger steps</source>
+        <translation>Wětše kšace</translation>
+    </message>
+    <message>
+        <source>Dock to that edge</source>
+        <translation>Na tu kšomu pśipiś</translation>
+    </message>
+    <message>
+        <source>Go round the edges</source>
+        <translation>Wokoło kšomow hyś</translation>
+    </message>
+    <message>
+        <source>To the start or the end of the edge</source>
+        <translation>K zachopjeńkoju abo kóńcoju kšomy</translation>
+    </message>
+    <message>
+        <source>On the tab</source>
+        <translation>Na rejtariku</translation>
+    </message>
+    <message>
+        <source>On a Mac, Option+Shift with a letter types a character in a text field: there the field gets it.</source>
+        <translation>Na Macu Option+Shift z pismikom pišo znamuško do tekstowego póla: tam jo pólo dostanjo.</translation>
+    </message>
+    <message>
+        <source>Change them in the Me panel</source>
+        <translation>Změńśo je w panelu „Ja“</translation>
+    </message>
+    <message>
+        <source>Open the Page panel to save its draft.</source>
+        <translation>Wócyńśo panel „Bok“, aby jogo nacerjenje składował.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Dostaśe</translation>
     </message>

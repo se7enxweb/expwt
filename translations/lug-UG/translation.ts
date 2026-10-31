@@ -844,6 +844,94 @@
         <translation>%n empya mu bibaluwa byo ebiyingira</translation>
     </message>
     <message>
+        <source>Open the sidebar or go into it</source>
+        <translation>Ggulawo ekiwayi ky'ebbali oba yingira omwo</translation>
+    </message>
+    <message>
+        <source>Save the draft</source>
+        <translation>Tereka ddulaafuti</translation>
+    </message>
+    <message>
+        <source>Keyboard shortcuts</source>
+        <translation>Amakubo amampi ag'ekibboodi</translation>
+    </message>
+    <message>
+        <source>Use one letter, A to Z.</source>
+        <translation>Kozesa ennukuta emu, A okutuuka ku Z.</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key belongs to the browser or the system.</source>
+        <translation>Alt+Shift+%key ya browser oba ya sisitimu.</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key is taken: %action.</source>
+        <translation>Alt+Shift+%key ekozesebwa dda: %action.</translation>
+    </message>
+    <message>
+        <source>This page gives Alt+Shift+%key to one of its links: here the page wins.</source>
+        <translation>Olupapula luno luwa Alt+Shift+%key emu ku nkolagana zaalwo: wano olupapula lwe luwangula.</translation>
+    </message>
+    <message>
+        <source>Saved.</source>
+        <translation>Kiterekeddwa.</translation>
+    </message>
+    <message>
+        <source>Back to the defaults</source>
+        <translation>Ddayo ku bya bulijjo</translation>
+    </message>
+    <message>
+        <source>All shortcuts</source>
+        <translation>Amakubo amampi gonna</translation>
+    </message>
+    <message>
+        <source>This page uses this key for one of its links: here the page wins.</source>
+        <translation>Olupapula luno lukozesa ekisumuluzo kino ku emu ku nkolagana zaalwo: wano olupapula lwe luwangula.</translation>
+    </message>
+    <message>
+        <source>Panel: %name</source>
+        <translation>Paneli: %name</translation>
+    </message>
+    <message>
+        <source>Open the sidebar</source>
+        <translation>Ggulawo ekiwayi ky'ebbali</translation>
+    </message>
+    <message>
+        <source>Move the tab along its edge, or to the opposite edge</source>
+        <translation>Seetula tab ku ludda lwayo, oba ku ludda olulala</translation>
+    </message>
+    <message>
+        <source>Bigger steps</source>
+        <translation>Emitendera eminene</translation>
+    </message>
+    <message>
+        <source>Dock to that edge</source>
+        <translation>Gatta ku ludda olwo</translation>
+    </message>
+    <message>
+        <source>Go round the edges</source>
+        <translation>Kyetooloola enjuyi</translation>
+    </message>
+    <message>
+        <source>To the start or the end of the edge</source>
+        <translation>Ku ntandikwa oba enkomerero y'oludda</translation>
+    </message>
+    <message>
+        <source>On the tab</source>
+        <translation>Ku tab</translation>
+    </message>
+    <message>
+        <source>On a Mac, Option+Shift with a letter types a character in a text field: there the field gets it.</source>
+        <translation>Ku Mac, Option+Shift n'ennukuta biwandiika akabonero mu kifo eky'okuwandiikamu: eyo ekifo kye kikifuna.</translation>
+    </message>
+    <message>
+        <source>Change them in the Me panel</source>
+        <translation>Bikyuse mu paneli «Nze»</translation>
+    </message>
+    <message>
+        <source>Open the Page panel to save its draft.</source>
+        <translation>Ggulawo paneli «Olupapula» okutereka ddulaafuti yaayo.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Ebibaluwa ebiyingira</translation>
     </message>

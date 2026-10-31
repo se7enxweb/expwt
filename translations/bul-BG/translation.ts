@@ -844,6 +844,94 @@
         <translation>%n нови във входящите</translation>
     </message>
     <message>
+        <source>Open the sidebar or go into it</source>
+        <translation>Отвори страничната лента или влез в нея</translation>
+    </message>
+    <message>
+        <source>Save the draft</source>
+        <translation>Запази черновата</translation>
+    </message>
+    <message>
+        <source>Keyboard shortcuts</source>
+        <translation>Клавишни комбинации</translation>
+    </message>
+    <message>
+        <source>Use one letter, A to Z.</source>
+        <translation>Използвайте една буква, от A до Z.</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key belongs to the browser or the system.</source>
+        <translation>Alt+Shift+%key принадлежи на браузъра или на системата.</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key is taken: %action.</source>
+        <translation>Alt+Shift+%key е заето: %action.</translation>
+    </message>
+    <message>
+        <source>This page gives Alt+Shift+%key to one of its links: here the page wins.</source>
+        <translation>Тази страница дава Alt+Shift+%key на една от връзките си: тук страницата печели.</translation>
+    </message>
+    <message>
+        <source>Saved.</source>
+        <translation>Запазено.</translation>
+    </message>
+    <message>
+        <source>Back to the defaults</source>
+        <translation>Обратно към стандартните</translation>
+    </message>
+    <message>
+        <source>All shortcuts</source>
+        <translation>Всички клавишни комбинации</translation>
+    </message>
+    <message>
+        <source>This page uses this key for one of its links: here the page wins.</source>
+        <translation>Тази страница използва този клавиш за една от връзките си: тук страницата печели.</translation>
+    </message>
+    <message>
+        <source>Panel: %name</source>
+        <translation>Панел: %name</translation>
+    </message>
+    <message>
+        <source>Open the sidebar</source>
+        <translation>Отвори страничната лента</translation>
+    </message>
+    <message>
+        <source>Move the tab along its edge, or to the opposite edge</source>
+        <translation>Премести раздела по ръба му или към срещуположния ръб</translation>
+    </message>
+    <message>
+        <source>Bigger steps</source>
+        <translation>По-големи стъпки</translation>
+    </message>
+    <message>
+        <source>Dock to that edge</source>
+        <translation>Закачи към този ръб</translation>
+    </message>
+    <message>
+        <source>Go round the edges</source>
+        <translation>Обиколи ръбовете</translation>
+    </message>
+    <message>
+        <source>To the start or the end of the edge</source>
+        <translation>В началото или в края на ръба</translation>
+    </message>
+    <message>
+        <source>On the tab</source>
+        <translation>На раздела</translation>
+    </message>
+    <message>
+        <source>On a Mac, Option+Shift with a letter types a character in a text field: there the field gets it.</source>
+        <translation>На Mac Option+Shift с буква въвежда знак в текстово поле: там го получава полето.</translation>
+    </message>
+    <message>
+        <source>Change them in the Me panel</source>
+        <translation>Променете ги в панела „Аз“</translation>
+    </message>
+    <message>
+        <source>Open the Page panel to save its draft.</source>
+        <translation>Отворете панела „Страница“, за да запазите черновата ѝ.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Входящи</translation>
     </message>

@@ -844,6 +844,94 @@
         <translation>%n חדתא בדילך</translation>
     </message>
     <message>
+        <source>Open the sidebar or go into it</source>
+        <translation>פתח סטרא דגנבא או עול לה</translation>
+    </message>
+    <message>
+        <source>Save the draft</source>
+        <translation>נטר סורטא</translation>
+    </message>
+    <message>
+        <source>Keyboard shortcuts</source>
+        <translation>קלידי קפיצא</translation>
+    </message>
+    <message>
+        <source>Use one letter, A to Z.</source>
+        <translation>אשתמש באתא חדא, מן A עדמא ל Z.</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key belongs to the browser or the system.</source>
+        <translation>Alt+Shift+%key דילה דדפדפנא או דמערכתא.</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key is taken: %action.</source>
+        <translation>Alt+Shift+%key אחידא: %action.</translation>
+    </message>
+    <message>
+        <source>This page gives Alt+Shift+%key to one of its links: here the page wins.</source>
+        <translation>דפא הנא יהב Alt+Shift+%key לחד מן אסורוהי: הרכא דפא זכא.</translation>
+    </message>
+    <message>
+        <source>Saved.</source>
+        <translation>אתנטר.</translation>
+    </message>
+    <message>
+        <source>Back to the defaults</source>
+        <translation>הפוך לבררתא</translation>
+    </message>
+    <message>
+        <source>All shortcuts</source>
+        <translation>כלהון קלידי קפיצא</translation>
+    </message>
+    <message>
+        <source>This page uses this key for one of its links: here the page wins.</source>
+        <translation>דפא הנא משתמש בקלידא הנא לחד מן אסורוהי: הרכא דפא זכא.</translation>
+    </message>
+    <message>
+        <source>Panel: %name</source>
+        <translation>פאנל: %name</translation>
+    </message>
+    <message>
+        <source>Open the sidebar</source>
+        <translation>פתח סטרא דגנבא</translation>
+    </message>
+    <message>
+        <source>Move the tab along its edge, or to the opposite edge</source>
+        <translation>שני לשנא על ספתה או לספתא דלקבל</translation>
+    </message>
+    <message>
+        <source>Bigger steps</source>
+        <translation>פסיעתא רורבתא</translation>
+    </message>
+    <message>
+        <source>Dock to that edge</source>
+        <translation>אקבע בספתא הי</translation>
+    </message>
+    <message>
+        <source>Go round the edges</source>
+        <translation>חדר על ספתא</translation>
+    </message>
+    <message>
+        <source>To the start or the end of the edge</source>
+        <translation>לשורי או לחרתא דספתא</translation>
+    </message>
+    <message>
+        <source>On the tab</source>
+        <translation>על לשנא</translation>
+    </message>
+    <message>
+        <source>On a Mac, Option+Shift with a letter types a character in a text field: there the field gets it.</source>
+        <translation>על Mac, Option+Shift עם אתא כתב אתותא בשדה כתבא: תמן שדה נסב לה.</translation>
+    </message>
+    <message>
+        <source>Change them in the Me panel</source>
+        <translation>שני אנון בפאנל «אנא»</translation>
+    </message>
+    <message>
+        <source>Open the Page panel to save its draft.</source>
+        <translation>פתח פאנל «דפא» דתנטר סורטה.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>ܐܓܪ̈ܬܐ ܕܥܐܠ̈ܢ</translation>
     </message>

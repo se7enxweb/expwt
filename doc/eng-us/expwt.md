@@ -46,6 +46,26 @@ extensions. A dry run lists the changes first.
   - **Home** and **End** take it to the start or the end of the edge (on top and bottom: anchored at the left or the
     right end);
   - Enter opens it. **Alt+Shift+E** opens it from anywhere and puts the focus in it; Escape closes it.
+- **Shortcuts:** all of them are Alt+Shift with a letter or a digit, the one combination the browsers and the systems
+  leave free (Ctrl or Cmd with a letter belongs to the browser, Alt with a letter opens its menus, Ctrl+Alt is AltGr):
+
+  | Keys | |
+  |---|---|
+  | Alt+Shift+E | open the sidebar, or put the focus in it (`ShortcutKey`) |
+  | Alt+Shift+D | save the draft of the Page panel |
+  | Alt+Shift+K | edit on the page, on or off |
+  | Alt+Shift+H | the cheat sheet: every shortcut in effect for you on this page, and the keys of the tab |
+  | Alt+Shift+1 to 9 | the panels in their order (1 Page, 2 Create ...) |
+
+  The letters are changed in the Me panel, **Keyboard shortcuts**, kept with the sidebar's other settings (for the
+  user on the server, or only on this device). A letter is refused with its reason when it is not one letter A to Z,
+  when another shortcut has it, or when the browser or the system uses it with Alt+Shift (A, B, I, L, M, N, S, T:
+  Chrome's and Edge's feedback form, toolbar, dialogs and bookmarks bar, ChromeOS's launcher, files, notifications and
+  status area); **Back to the defaults** puts them back. Screen readers do not use Alt+Shift with a letter (NVDA, JAWS,
+  Narrator and Orca use Insert or Caps Lock, VoiceOver Control+Option), and in their browse mode they pass it on. A key
+  the page gives one of its own links (`accesskey`, which Firefox reaches with Alt+Shift) stays the page's: the
+  sidebar leaves it alone there and the cheat sheet says so. On a Mac, Option+Shift with a letter types a character:
+  in a text field that has the focus the field gets it.
   The Me panel has the same as a setting: **Position** left, right, top or bottom, and for top and bottom
   **Anchored at** left or right.
 - **The bar on top and bottom** is laid out across the width, so its main controls never need a scroll bar: one row
@@ -237,7 +257,7 @@ sidebar is first opened. The closed tab (script and stylesheet) stays below 50 K
 | `DefaultWidth`, `MinWidth`, `MaxWidth` | 380, 300, 720 | a first visit's width of the panel on the left and right, the limits |
 | `DefaultHeight`, `MinHeight`, `MaxHeight` | 280, 160, 640 | a first visit's height of the bar on top and bottom, the limits |
 | `OverlayBelowWidth` | 768 | narrower windows get the panel over the page |
-| `ShortcutKey` | E | Alt+Shift+<key> |
+| `ShortcutKey` | E | the letter of Alt+Shift+<key> that opens the sidebar for a user who has not chosen another (Me panel) |
 | `HeaderSelector` | header, [role=banner], #header, .header | the site header the tab and the top bar sit below |
 | `FooterSelector` | footer, [role=contentinfo], cookie bars | what the site may fix to the bottom of the window; the bottom bar sits above whichever of them is fixed or sticky there |
 | `[CreateSettings] HiddenClassList[]` | common_ini_settings | classes Create never offers |

@@ -844,6 +844,94 @@
         <translation>%n bago sa iyong inbox</translation>
     </message>
     <message>
+        <source>Open the sidebar or go into it</source>
+        <translation>Buksan ang sidebar o pumunta rito</translation>
+    </message>
+    <message>
+        <source>Save the draft</source>
+        <translation>I-save ang draft</translation>
+    </message>
+    <message>
+        <source>Keyboard shortcuts</source>
+        <translation>Mga shortcut sa keyboard</translation>
+    </message>
+    <message>
+        <source>Use one letter, A to Z.</source>
+        <translation>Gumamit ng isang titik, A hanggang Z.</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key belongs to the browser or the system.</source>
+        <translation>Ang Alt+Shift+%key ay sa browser o sa system.</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key is taken: %action.</source>
+        <translation>Gamit na ang Alt+Shift+%key: %action.</translation>
+    </message>
+    <message>
+        <source>This page gives Alt+Shift+%key to one of its links: here the page wins.</source>
+        <translation>Ibinibigay ng pahinang ito ang Alt+Shift+%key sa isa sa mga link nito: dito, ang pahina ang nananaig.</translation>
+    </message>
+    <message>
+        <source>Saved.</source>
+        <translation>Na-save.</translation>
+    </message>
+    <message>
+        <source>Back to the defaults</source>
+        <translation>Ibalik sa mga default</translation>
+    </message>
+    <message>
+        <source>All shortcuts</source>
+        <translation>Lahat ng shortcut</translation>
+    </message>
+    <message>
+        <source>This page uses this key for one of its links: here the page wins.</source>
+        <translation>Ginagamit ng pahinang ito ang key na ito para sa isa sa mga link nito: dito, ang pahina ang nananaig.</translation>
+    </message>
+    <message>
+        <source>Panel: %name</source>
+        <translation>Panel: %name</translation>
+    </message>
+    <message>
+        <source>Open the sidebar</source>
+        <translation>Buksan ang sidebar</translation>
+    </message>
+    <message>
+        <source>Move the tab along its edge, or to the opposite edge</source>
+        <translation>Ilipat ang tab sa kahabaan ng gilid nito, o sa kabilang gilid</translation>
+    </message>
+    <message>
+        <source>Bigger steps</source>
+        <translation>Mas malalaking hakbang</translation>
+    </message>
+    <message>
+        <source>Dock to that edge</source>
+        <translation>Idikit sa gilid na iyon</translation>
+    </message>
+    <message>
+        <source>Go round the edges</source>
+        <translation>Umikot sa mga gilid</translation>
+    </message>
+    <message>
+        <source>To the start or the end of the edge</source>
+        <translation>Sa simula o dulo ng gilid</translation>
+    </message>
+    <message>
+        <source>On the tab</source>
+        <translation>Sa tab</translation>
+    </message>
+    <message>
+        <source>On a Mac, Option+Shift with a letter types a character in a text field: there the field gets it.</source>
+        <translation>Sa Mac, nagta-type ang Option+Shift kasama ang isang titik ng karakter sa text field: doon, ang field ang nakakakuha nito.</translation>
+    </message>
+    <message>
+        <source>Change them in the Me panel</source>
+        <translation>Baguhin ang mga ito sa panel na «Ako»</translation>
+    </message>
+    <message>
+        <source>Open the Page panel to save its draft.</source>
+        <translation>Buksan ang panel na «Pahina» para i-save ang draft nito.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Inbox</translation>
     </message>

@@ -844,6 +844,94 @@
         <translation>በገቢ ሳጥንዎ ውስጥ %n አዲስ</translation>
     </message>
     <message>
+        <source>Open the sidebar or go into it</source>
+        <translation>የጎን አሞሌውን ክፈት ወይም ወደ ውስጡ ግባ</translation>
+    </message>
+    <message>
+        <source>Save the draft</source>
+        <translation>ረቂቁን አስቀምጥ</translation>
+    </message>
+    <message>
+        <source>Keyboard shortcuts</source>
+        <translation>የቁልፍ ሰሌዳ አቋራጮች</translation>
+    </message>
+    <message>
+        <source>Use one letter, A to Z.</source>
+        <translation>አንድ ፊደል ይጠቀሙ፣ ከA እስከ Z።</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key belongs to the browser or the system.</source>
+        <translation>Alt+Shift+%key የአሳሹ ወይም የስርዓቱ ነው።</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key is taken: %action.</source>
+        <translation>Alt+Shift+%key ተይዟል፦ %action።</translation>
+    </message>
+    <message>
+        <source>This page gives Alt+Shift+%key to one of its links: here the page wins.</source>
+        <translation>ይህ ገጽ Alt+Shift+%key ን ለአንዱ አገናኙ ይሰጣል፦ እዚህ ገጹ ያሸንፋል።</translation>
+    </message>
+    <message>
+        <source>Saved.</source>
+        <translation>ተቀምጧል።</translation>
+    </message>
+    <message>
+        <source>Back to the defaults</source>
+        <translation>ወደ ነባሪዎቹ ተመለስ</translation>
+    </message>
+    <message>
+        <source>All shortcuts</source>
+        <translation>ሁሉም አቋራጮች</translation>
+    </message>
+    <message>
+        <source>This page uses this key for one of its links: here the page wins.</source>
+        <translation>ይህ ገጽ ይህን ቁልፍ ለአንዱ አገናኙ ይጠቀማል፦ እዚህ ገጹ ያሸንፋል።</translation>
+    </message>
+    <message>
+        <source>Panel: %name</source>
+        <translation>ፓነል፦ %name</translation>
+    </message>
+    <message>
+        <source>Open the sidebar</source>
+        <translation>የጎን አሞሌውን ክፈት</translation>
+    </message>
+    <message>
+        <source>Move the tab along its edge, or to the opposite edge</source>
+        <translation>ትሩን በጠርዙ ላይ ወይም ወደ ተቃራኒው ጠርዝ አንቀሳቅስ</translation>
+    </message>
+    <message>
+        <source>Bigger steps</source>
+        <translation>ትላልቅ እርምጃዎች</translation>
+    </message>
+    <message>
+        <source>Dock to that edge</source>
+        <translation>ወደዚያ ጠርዝ አስጠጋ</translation>
+    </message>
+    <message>
+        <source>Go round the edges</source>
+        <translation>በጠርዞቹ ዙሪያ ሂድ</translation>
+    </message>
+    <message>
+        <source>To the start or the end of the edge</source>
+        <translation>ወደ ጠርዙ መጀመሪያ ወይም መጨረሻ</translation>
+    </message>
+    <message>
+        <source>On the tab</source>
+        <translation>በትሩ ላይ</translation>
+    </message>
+    <message>
+        <source>On a Mac, Option+Shift with a letter types a character in a text field: there the field gets it.</source>
+        <translation>በMac ላይ Option+Shift ከፊደል ጋር በጽሑፍ መስክ ውስጥ ቁምፊ ይተይባል፦ እዚያ መስኩ ይወስደዋል።</translation>
+    </message>
+    <message>
+        <source>Change them in the Me panel</source>
+        <translation>በ«እኔ» ፓነል ውስጥ ይቀይሯቸው</translation>
+    </message>
+    <message>
+        <source>Open the Page panel to save its draft.</source>
+        <translation>ረቂቁን ለማስቀመጥ የ«ገጽ» ፓነልን ይክፈቱ።</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>የገቢ ሳጥን</translation>
     </message>

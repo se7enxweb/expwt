@@ -844,6 +844,94 @@
         <translation>%n nýggj í tínum innbakka</translation>
     </message>
     <message>
+        <source>Open the sidebar or go into it</source>
+        <translation>Lat síðubjálkan upp ella far inn í hann</translation>
+    </message>
+    <message>
+        <source>Save the draft</source>
+        <translation>Goym kladduna</translation>
+    </message>
+    <message>
+        <source>Keyboard shortcuts</source>
+        <translation>Knappasnarvegir</translation>
+    </message>
+    <message>
+        <source>Use one letter, A to Z.</source>
+        <translation>Brúka ein bókstav, A til Z.</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key belongs to the browser or the system.</source>
+        <translation>Alt+Shift+%key hoyrir til kagaran ella skipanina.</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key is taken: %action.</source>
+        <translation>Alt+Shift+%key er longu tikið: %action.</translation>
+    </message>
+    <message>
+        <source>This page gives Alt+Shift+%key to one of its links: here the page wins.</source>
+        <translation>Henda síðan gevur Alt+Shift+%key til eitt av sínum leinkjum: her vinnur síðan.</translation>
+    </message>
+    <message>
+        <source>Saved.</source>
+        <translation>Goymt.</translation>
+    </message>
+    <message>
+        <source>Back to the defaults</source>
+        <translation>Aftur til forsettu virðini</translation>
+    </message>
+    <message>
+        <source>All shortcuts</source>
+        <translation>Allir snarvegir</translation>
+    </message>
+    <message>
+        <source>This page uses this key for one of its links: here the page wins.</source>
+        <translation>Henda síðan brúkar hendan knøttin til eitt av sínum leinkjum: her vinnur síðan.</translation>
+    </message>
+    <message>
+        <source>Panel: %name</source>
+        <translation>Panel: %name</translation>
+    </message>
+    <message>
+        <source>Open the sidebar</source>
+        <translation>Lat síðubjálkan upp</translation>
+    </message>
+    <message>
+        <source>Move the tab along its edge, or to the opposite edge</source>
+        <translation>Flyt teigin eftir kanti sínum, ella til mótsetta kantin</translation>
+    </message>
+    <message>
+        <source>Bigger steps</source>
+        <translation>Størri stig</translation>
+    </message>
+    <message>
+        <source>Dock to that edge</source>
+        <translation>Fest við tann kantin</translation>
+    </message>
+    <message>
+        <source>Go round the edges</source>
+        <translation>Far rundan um kantarnar</translation>
+    </message>
+    <message>
+        <source>To the start or the end of the edge</source>
+        <translation>Til byrjanina ella endan á kantinum</translation>
+    </message>
+    <message>
+        <source>On the tab</source>
+        <translation>Á teiginum</translation>
+    </message>
+    <message>
+        <source>On a Mac, Option+Shift with a letter types a character in a text field: there the field gets it.</source>
+        <translation>Á einum Mac skrivar Option+Shift við einum bókstavi eitt tekn í eitt tekstfelt: har fær feltið tað.</translation>
+    </message>
+    <message>
+        <source>Change them in the Me panel</source>
+        <translation>Broyt teir í «Eg»-panelinum</translation>
+    </message>
+    <message>
+        <source>Open the Page panel to save its draft.</source>
+        <translation>Lat «Síða»-panelið upp fyri at goyma kladdu tess.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Innbakki</translation>
     </message>

@@ -827,3 +827,49 @@ button.wt-seo-item:hover { border-color: var(--a4-accent); }
 @media (max-width: 767px) {
   .wt-split-body { grid-template-columns: 1fr; grid-template-rows: 1fr 1fr; }
 }
+/* the shortcuts (F30): the cheat sheet, a dialog above the page, and the Me panel's letters */
+.wt-dialog {
+  inline-size: min(40rem, calc(100vw - 2 * var(--a4-space-4)));
+  max-block-size: calc(100vh - 2 * var(--a4-space-4));
+  padding: 0;
+  border: 1px solid var(--a4-line);
+  border-radius: var(--a4-radius);
+  box-shadow: var(--a4-shadow-m);
+  font-family: var(--a4-font);
+  font-size: var(--a4-text-m);
+  line-height: var(--a4-leading);
+  background: var(--a4-card);
+  color: var(--a4-ink);
+}
+.wt-dialog[open] { display: flex; flex-direction: column; }
+.wt-dialog::backdrop { background: var(--a4-overlay); }
+.wt-dialog-head { display: flex; align-items: center; justify-content: space-between; gap: var(--a4-space-2); padding: var(--a4-space-2) var(--a4-space-4); border-block-end: 1px solid var(--a4-line); }
+.wt-dialog-head h2 { margin: 0; font-size: var(--a4-text-l); }
+.wt-dialog-body { min-block-size: 0; overflow-y: auto; padding: var(--a4-space-3) var(--a4-space-4); }
+.wt-dialog-body h3 { margin: var(--a4-space-4) 0 var(--a4-space-2); font-size: var(--a4-text-m); }
+.wt-keys { display: grid; grid-template-columns: minmax(0, max-content) minmax(0, 1fr); gap: var(--a4-space-2) var(--a4-space-3); margin: 0; }
+.wt-keys dt, .wt-keys dd { margin: 0; min-inline-size: 0; overflow-wrap: break-word; }
+.wt-keys kbd, .wt-key kbd {
+  display: inline-block;
+  padding: 0 var(--a4-space-1);
+  border: 1px solid var(--a4-line);
+  border-radius: var(--a4-radius-s);
+  background: var(--a4-surface);
+  font-family: var(--a4-font);
+  font-size: var(--a4-text-s);
+  white-space: nowrap;
+  overflow-wrap: normal;
+}
+.wt-key-taken { display: block; font-size: var(--a4-text-s); }
+.wt-key { display: grid; gap: var(--a4-space-1); }
+.wt-key-input { display: inline-flex; align-items: center; gap: var(--a4-space-1); }
+.wt-key-input { justify-self: start; }
+.wt-field.wt-key .wt-key-input input { flex: none; inline-size: calc(var(--a4-space-7) + var(--a4-space-2)); min-inline-size: 0; text-align: center; text-transform: uppercase; }
+.wt-field.wt-key .wt-key-input input[aria-invalid="true"] { border-color: var(--a4-bad); }
+.wt-dialog-body > p { margin: var(--a4-space-3) 0; }
+.wt-key-note { margin: 0; font-size: var(--a4-text-xs); }
+.wt-key-note:empty { display: none; }
+@media (max-width: 479px) {
+  .wt-keys { grid-template-columns: minmax(0, 1fr); gap: 0 var(--a4-space-3); }
+  .wt-keys dd { margin-block-end: var(--a4-space-2); }
+}

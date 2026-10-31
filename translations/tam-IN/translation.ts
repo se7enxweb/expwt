@@ -844,6 +844,94 @@
         <translation>உங்கள் உள்பெட்டியில் %n புதியவை</translation>
     </message>
     <message>
+        <source>Open the sidebar or go into it</source>
+        <translation>பக்கப்பட்டியைத் திற அல்லது அதற்குள் செல்</translation>
+    </message>
+    <message>
+        <source>Save the draft</source>
+        <translation>வரைவைச் சேமி</translation>
+    </message>
+    <message>
+        <source>Keyboard shortcuts</source>
+        <translation>விசைப்பலகை குறுக்குவழிகள்</translation>
+    </message>
+    <message>
+        <source>Use one letter, A to Z.</source>
+        <translation>ஓர் எழுத்தைப் பயன்படுத்தவும், A முதல் Z வரை.</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key belongs to the browser or the system.</source>
+        <translation>Alt+Shift+%key உலாவிக்கோ அமைப்புக்கோ உரியது.</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key is taken: %action.</source>
+        <translation>Alt+Shift+%key ஏற்கெனவே பயன்பாட்டில் உள்ளது: %action.</translation>
+    </message>
+    <message>
+        <source>This page gives Alt+Shift+%key to one of its links: here the page wins.</source>
+        <translation>இந்தப் பக்கம் Alt+Shift+%key-ஐ அதன் ஓர் இணைப்புக்குத் தருகிறது: இங்கே பக்கமே வெல்லும்.</translation>
+    </message>
+    <message>
+        <source>Saved.</source>
+        <translation>சேமிக்கப்பட்டது.</translation>
+    </message>
+    <message>
+        <source>Back to the defaults</source>
+        <translation>இயல்புநிலைக்குத் திரும்பு</translation>
+    </message>
+    <message>
+        <source>All shortcuts</source>
+        <translation>அனைத்துக் குறுக்குவழிகளும்</translation>
+    </message>
+    <message>
+        <source>This page uses this key for one of its links: here the page wins.</source>
+        <translation>இந்தப் பக்கம் இந்த விசையை அதன் ஓர் இணைப்புக்குப் பயன்படுத்துகிறது: இங்கே பக்கமே வெல்லும்.</translation>
+    </message>
+    <message>
+        <source>Panel: %name</source>
+        <translation>பலகம்: %name</translation>
+    </message>
+    <message>
+        <source>Open the sidebar</source>
+        <translation>பக்கப்பட்டியைத் திற</translation>
+    </message>
+    <message>
+        <source>Move the tab along its edge, or to the opposite edge</source>
+        <translation>தாவலை அதன் விளிம்பு வழியாக அல்லது எதிர் விளிம்புக்கு நகர்த்து</translation>
+    </message>
+    <message>
+        <source>Bigger steps</source>
+        <translation>பெரிய படிகள்</translation>
+    </message>
+    <message>
+        <source>Dock to that edge</source>
+        <translation>அந்த விளிம்பில் இணை</translation>
+    </message>
+    <message>
+        <source>Go round the edges</source>
+        <translation>விளிம்புகளைச் சுற்றிச் செல்</translation>
+    </message>
+    <message>
+        <source>To the start or the end of the edge</source>
+        <translation>விளிம்பின் தொடக்கம் அல்லது முடிவுக்கு</translation>
+    </message>
+    <message>
+        <source>On the tab</source>
+        <translation>தாவலில்</translation>
+    </message>
+    <message>
+        <source>On a Mac, Option+Shift with a letter types a character in a text field: there the field gets it.</source>
+        <translation>Mac-இல், எழுத்துடன் Option+Shift உரைப் புலத்தில் ஒரு குறியைத் தட்டச்சிடும்: அங்கே புலமே அதைப் பெறும்.</translation>
+    </message>
+    <message>
+        <source>Change them in the Me panel</source>
+        <translation>அவற்றை «நான்» பலகத்தில் மாற்றவும்</translation>
+    </message>
+    <message>
+        <source>Open the Page panel to save its draft.</source>
+        <translation>அதன் வரைவைச் சேமிக்க «பக்கம்» பலகத்தைத் திறக்கவும்.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>உள்பெட்டி</translation>
     </message>

@@ -844,6 +844,94 @@
         <translation>ستاسو په راغلو لیکونو کې %n نوي</translation>
     </message>
     <message>
+        <source>Open the sidebar or go into it</source>
+        <translation>اړخ پټه پرانیزئ یا ورته لاړ شئ</translation>
+    </message>
+    <message>
+        <source>Save the draft</source>
+        <translation>مسوده خوندي کړئ</translation>
+    </message>
+    <message>
+        <source>Keyboard shortcuts</source>
+        <translation>د کیبورډ لنډلارې</translation>
+    </message>
+    <message>
+        <source>Use one letter, A to Z.</source>
+        <translation>یو توری وکاروئ، له A تر Z.</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key belongs to the browser or the system.</source>
+        <translation>Alt+Shift+%key د براوزر یا سیسټم دی.</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key is taken: %action.</source>
+        <translation>Alt+Shift+%key دمخه نیول شوی: %action.</translation>
+    </message>
+    <message>
+        <source>This page gives Alt+Shift+%key to one of its links: here the page wins.</source>
+        <translation>دا پاڼه Alt+Shift+%key خپلې یوې لینک ته ورکوي: دلته پاڼه ګټي.</translation>
+    </message>
+    <message>
+        <source>Saved.</source>
+        <translation>خوندي شو.</translation>
+    </message>
+    <message>
+        <source>Back to the defaults</source>
+        <translation>بېرته اصلي ته</translation>
+    </message>
+    <message>
+        <source>All shortcuts</source>
+        <translation>ټولې لنډلارې</translation>
+    </message>
+    <message>
+        <source>This page uses this key for one of its links: here the page wins.</source>
+        <translation>دا پاڼه دا تڼۍ د خپلې یوې لینک لپاره کاروي: دلته پاڼه ګټي.</translation>
+    </message>
+    <message>
+        <source>Panel: %name</source>
+        <translation>تخته: %name</translation>
+    </message>
+    <message>
+        <source>Open the sidebar</source>
+        <translation>اړخ پټه پرانیزئ</translation>
+    </message>
+    <message>
+        <source>Move the tab along its edge, or to the opposite edge</source>
+        <translation>ټب د هغې د څنډې په اوږدو یا مقابلې څنډې ته وخوځوئ</translation>
+    </message>
+    <message>
+        <source>Bigger steps</source>
+        <translation>لوی ګامونه</translation>
+    </message>
+    <message>
+        <source>Dock to that edge</source>
+        <translation>هغې څنډې ته یې ونښلوئ</translation>
+    </message>
+    <message>
+        <source>Go round the edges</source>
+        <translation>د څنډو شاوخوا وګرځئ</translation>
+    </message>
+    <message>
+        <source>To the start or the end of the edge</source>
+        <translation>د څنډې پیل یا پای ته</translation>
+    </message>
+    <message>
+        <source>On the tab</source>
+        <translation>په ټب</translation>
+    </message>
+    <message>
+        <source>On a Mac, Option+Shift with a letter types a character in a text field: there the field gets it.</source>
+        <translation>په Mac کې، Option+Shift له یوه توري سره د متن په ډګر کې یو نښه لیکي: هلته ډګر یې ترلاسه کوي.</translation>
+    </message>
+    <message>
+        <source>Change them in the Me panel</source>
+        <translation>دا د «زه» په تخته کې بدل کړئ</translation>
+    </message>
+    <message>
+        <source>Open the Page panel to save its draft.</source>
+        <translation>د هغې مسوده خوندي کولو لپاره د «پاڼه» تخته پرانیزئ.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>راغلي لیکونه</translation>
     </message>

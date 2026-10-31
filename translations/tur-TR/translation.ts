@@ -844,6 +844,94 @@
         <translation>Gelen kutunuzda %n yeni</translation>
     </message>
     <message>
+        <source>Open the sidebar or go into it</source>
+        <translation>Kenar çubuğunu aç veya içine geç</translation>
+    </message>
+    <message>
+        <source>Save the draft</source>
+        <translation>Taslağı kaydet</translation>
+    </message>
+    <message>
+        <source>Keyboard shortcuts</source>
+        <translation>Klavye kısayolları</translation>
+    </message>
+    <message>
+        <source>Use one letter, A to Z.</source>
+        <translation>Bir harf kullanın, A'dan Z'ye.</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key belongs to the browser or the system.</source>
+        <translation>Alt+Shift+%key tarayıcıya veya sisteme aittir.</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key is taken: %action.</source>
+        <translation>Alt+Shift+%key zaten kullanılıyor: %action.</translation>
+    </message>
+    <message>
+        <source>This page gives Alt+Shift+%key to one of its links: here the page wins.</source>
+        <translation>Bu sayfa Alt+Shift+%key'i bağlantılarından birine veriyor: burada sayfa kazanır.</translation>
+    </message>
+    <message>
+        <source>Saved.</source>
+        <translation>Kaydedildi.</translation>
+    </message>
+    <message>
+        <source>Back to the defaults</source>
+        <translation>Varsayılanlara dön</translation>
+    </message>
+    <message>
+        <source>All shortcuts</source>
+        <translation>Tüm kısayollar</translation>
+    </message>
+    <message>
+        <source>This page uses this key for one of its links: here the page wins.</source>
+        <translation>Bu sayfa bu tuşu bağlantılarından biri için kullanıyor: burada sayfa kazanır.</translation>
+    </message>
+    <message>
+        <source>Panel: %name</source>
+        <translation>Panel: %name</translation>
+    </message>
+    <message>
+        <source>Open the sidebar</source>
+        <translation>Kenar çubuğunu aç</translation>
+    </message>
+    <message>
+        <source>Move the tab along its edge, or to the opposite edge</source>
+        <translation>Sekmeyi kenarı boyunca veya karşı kenara taşı</translation>
+    </message>
+    <message>
+        <source>Bigger steps</source>
+        <translation>Daha büyük adımlar</translation>
+    </message>
+    <message>
+        <source>Dock to that edge</source>
+        <translation>O kenara yerleştir</translation>
+    </message>
+    <message>
+        <source>Go round the edges</source>
+        <translation>Kenarların etrafında dolaş</translation>
+    </message>
+    <message>
+        <source>To the start or the end of the edge</source>
+        <translation>Kenarın başına veya sonuna</translation>
+    </message>
+    <message>
+        <source>On the tab</source>
+        <translation>Sekmede</translation>
+    </message>
+    <message>
+        <source>On a Mac, Option+Shift with a letter types a character in a text field: there the field gets it.</source>
+        <translation>Mac'te Option+Shift bir harfle birlikte metin alanına bir karakter yazar: orada onu alan alır.</translation>
+    </message>
+    <message>
+        <source>Change them in the Me panel</source>
+        <translation>Bunları «Ben» panelinde değiştirin</translation>
+    </message>
+    <message>
+        <source>Open the Page panel to save its draft.</source>
+        <translation>Taslağını kaydetmek için «Sayfa» panelini açın.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Gelen kutusu</translation>
     </message>

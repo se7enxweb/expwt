@@ -844,6 +844,94 @@
         <translation>%n njerũ ithandũkũ-inĩ rĩaku</translation>
     </message>
     <message>
+        <source>Open the sidebar or go into it</source>
+        <translation>Hingũra sidebar kana ũtoonye thĩinĩ</translation>
+    </message>
+    <message>
+        <source>Save the draft</source>
+        <translation>Ĩga ndrafti</translation>
+    </message>
+    <message>
+        <source>Keyboard shortcuts</source>
+        <translation>Njĩra ngufu cia kibodi</translation>
+    </message>
+    <message>
+        <source>Use one letter, A to Z.</source>
+        <translation>Hũthĩra ndemwa ĩmwe, A nginya Z.</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key belongs to the browser or the system.</source>
+        <translation>Alt+Shift+%key nĩ ya browser kana ya sisitemu.</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key is taken: %action.</source>
+        <translation>Alt+Shift+%key nĩ ĩrahũthĩrwo: %action.</translation>
+    </message>
+    <message>
+        <source>This page gives Alt+Shift+%key to one of its links: here the page wins.</source>
+        <translation>Ũrũ rũrũ nĩ rũraheana Alt+Shift+%key kũrĩ kĩhoti kĩmwe gĩakĩo: haha ũrũ nĩrũo rũhotanaga.</translation>
+    </message>
+    <message>
+        <source>Saved.</source>
+        <translation>Nĩ yaigwo.</translation>
+    </message>
+    <message>
+        <source>Back to the defaults</source>
+        <translation>Cooka kũrĩ maũndũ ma mbere</translation>
+    </message>
+    <message>
+        <source>All shortcuts</source>
+        <translation>Njĩra ngufu ciothe</translation>
+    </message>
+    <message>
+        <source>This page uses this key for one of its links: here the page wins.</source>
+        <translation>Ũrũ rũrũ nĩ rũrahũthĩra kĩhumo gĩkĩ kũrĩ kĩhoti kĩmwe gĩakĩo: haha ũrũ nĩrũo rũhotanaga.</translation>
+    </message>
+    <message>
+        <source>Panel: %name</source>
+        <translation>Panel: %name</translation>
+    </message>
+    <message>
+        <source>Open the sidebar</source>
+        <translation>Hingũra sidebar</translation>
+    </message>
+    <message>
+        <source>Move the tab along its edge, or to the opposite edge</source>
+        <translation>Thamia tab mũhaka-inĩ wayo, kana mũhaka ũrĩa ũngĩ</translation>
+    </message>
+    <message>
+        <source>Bigger steps</source>
+        <translation>Makinya manene</translation>
+    </message>
+    <message>
+        <source>Dock to that edge</source>
+        <translation>Ĩkĩra mũhaka-inĩ ũcio</translation>
+    </message>
+    <message>
+        <source>Go round the edges</source>
+        <translation>Thiĩ ũrigiicĩrie mĩhaka</translation>
+    </message>
+    <message>
+        <source>To the start or the end of the edge</source>
+        <translation>Kĩambĩrĩria kana mũthia wa mũhaka</translation>
+    </message>
+    <message>
+        <source>On the tab</source>
+        <translation>Igũrũ rĩa tab</translation>
+    </message>
+    <message>
+        <source>On a Mac, Option+Shift with a letter types a character in a text field: there the field gets it.</source>
+        <translation>Mac-inĩ, Option+Shift na ndemwa nĩ yandĩkaga kĩmenyithia gĩthĩinĩ kĩa text field: kũu field nĩyo ĩkĩgĩaga.</translation>
+    </message>
+    <message>
+        <source>Change them in the Me panel</source>
+        <translation>Ĩgarũra kũu panel-inĩ ya «Niĩ»</translation>
+    </message>
+    <message>
+        <source>Open the Page panel to save its draft.</source>
+        <translation>Hingũra panel ya «Ũrũ» nĩguo wĩge ndrafti yayo.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Ithandũkũ rĩa marũa</translation>
     </message>

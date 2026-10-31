@@ -844,6 +844,94 @@
         <translation>%n bishya mu butumwa bwawe bwinjira</translation>
     </message>
     <message>
+        <source>Open the sidebar or go into it</source>
+        <translation>Fungura uruhande rw'ibikoresho cyangwa winjiremo</translation>
+    </message>
+    <message>
+        <source>Save the draft</source>
+        <translation>Bika umushinga</translation>
+    </message>
+    <message>
+        <source>Keyboard shortcuts</source>
+        <translation>Inzira ngufi za mwandikisho</translation>
+    </message>
+    <message>
+        <source>Use one letter, A to Z.</source>
+        <translation>Koresha inyuguti imwe, A kugeza Z.</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key belongs to the browser or the system.</source>
+        <translation>Alt+Shift+%key ni iya mushakisha cyangwa sisitemu.</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key is taken: %action.</source>
+        <translation>Alt+Shift+%key irakoreshwa: %action.</translation>
+    </message>
+    <message>
+        <source>This page gives Alt+Shift+%key to one of its links: here the page wins.</source>
+        <translation>Uru rupapuro ruha Alt+Shift+%key umwe mu mihuza yarwo: hano urupapuro ni rwo rutsinda.</translation>
+    </message>
+    <message>
+        <source>Saved.</source>
+        <translation>Byabitswe.</translation>
+    </message>
+    <message>
+        <source>Back to the defaults</source>
+        <translation>Garura ibisanzwe</translation>
+    </message>
+    <message>
+        <source>All shortcuts</source>
+        <translation>Inzira ngufi zose</translation>
+    </message>
+    <message>
+        <source>This page uses this key for one of its links: here the page wins.</source>
+        <translation>Uru rupapuro rukoresha iyi buto ku muhuza wayo umwe: hano urupapuro ni rwo rutsinda.</translation>
+    </message>
+    <message>
+        <source>Panel: %name</source>
+        <translation>Akanama: %name</translation>
+    </message>
+    <message>
+        <source>Open the sidebar</source>
+        <translation>Fungura uruhande rw'ibikoresho</translation>
+    </message>
+    <message>
+        <source>Move the tab along its edge, or to the opposite edge</source>
+        <translation>Imura tab ku mpera yayo, cyangwa ku mpera iteganye</translation>
+    </message>
+    <message>
+        <source>Bigger steps</source>
+        <translation>Intambwe nini</translation>
+    </message>
+    <message>
+        <source>Dock to that edge</source>
+        <translation>Fatisha kuri iyo mpera</translation>
+    </message>
+    <message>
+        <source>Go round the edges</source>
+        <translation>Zenguruka impera</translation>
+    </message>
+    <message>
+        <source>To the start or the end of the edge</source>
+        <translation>Ku ntangiriro cyangwa ku iherezo ry'impera</translation>
+    </message>
+    <message>
+        <source>On the tab</source>
+        <translation>Kuri tab</translation>
+    </message>
+    <message>
+        <source>On a Mac, Option+Shift with a letter types a character in a text field: there the field gets it.</source>
+        <translation>Kuri Mac, Option+Shift n'inyuguti byandika ikimenyetso mu mwanya w'inyandiko: aho ni umwanya ukibona.</translation>
+    </message>
+    <message>
+        <source>Change them in the Me panel</source>
+        <translation>Bihindure mu kanama «Njye»</translation>
+    </message>
+    <message>
+        <source>Open the Page panel to save its draft.</source>
+        <translation>Fungura akanama «Urupapuro» kugira ngo ubike umushinga wako.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Ubutumwa bwinjira</translation>
     </message>

@@ -844,6 +844,94 @@
         <translation>%n nya i din inkorg</translation>
     </message>
     <message>
+        <source>Open the sidebar or go into it</source>
+        <translation>Öppna sidofältet eller gå in i det</translation>
+    </message>
+    <message>
+        <source>Save the draft</source>
+        <translation>Spara utkastet</translation>
+    </message>
+    <message>
+        <source>Keyboard shortcuts</source>
+        <translation>Kortkommandon</translation>
+    </message>
+    <message>
+        <source>Use one letter, A to Z.</source>
+        <translation>Använd en bokstav, A till Z.</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key belongs to the browser or the system.</source>
+        <translation>Alt+Shift+%key tillhör webbläsaren eller systemet.</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key is taken: %action.</source>
+        <translation>Alt+Shift+%key är upptaget: %action.</translation>
+    </message>
+    <message>
+        <source>This page gives Alt+Shift+%key to one of its links: here the page wins.</source>
+        <translation>Den här sidan ger Alt+Shift+%key till en av sina länkar: här vinner sidan.</translation>
+    </message>
+    <message>
+        <source>Saved.</source>
+        <translation>Sparat.</translation>
+    </message>
+    <message>
+        <source>Back to the defaults</source>
+        <translation>Tillbaka till standard</translation>
+    </message>
+    <message>
+        <source>All shortcuts</source>
+        <translation>Alla kortkommandon</translation>
+    </message>
+    <message>
+        <source>This page uses this key for one of its links: here the page wins.</source>
+        <translation>Den här sidan använder den här tangenten för en av sina länkar: här vinner sidan.</translation>
+    </message>
+    <message>
+        <source>Panel: %name</source>
+        <translation>Panel: %name</translation>
+    </message>
+    <message>
+        <source>Open the sidebar</source>
+        <translation>Öppna sidofältet</translation>
+    </message>
+    <message>
+        <source>Move the tab along its edge, or to the opposite edge</source>
+        <translation>Flytta fliken längs dess kant eller till motsatt kant</translation>
+    </message>
+    <message>
+        <source>Bigger steps</source>
+        <translation>Större steg</translation>
+    </message>
+    <message>
+        <source>Dock to that edge</source>
+        <translation>Docka vid den kanten</translation>
+    </message>
+    <message>
+        <source>Go round the edges</source>
+        <translation>Gå runt kanterna</translation>
+    </message>
+    <message>
+        <source>To the start or the end of the edge</source>
+        <translation>Till början eller slutet av kanten</translation>
+    </message>
+    <message>
+        <source>On the tab</source>
+        <translation>På fliken</translation>
+    </message>
+    <message>
+        <source>On a Mac, Option+Shift with a letter types a character in a text field: there the field gets it.</source>
+        <translation>På en Mac skriver Option+Shift med en bokstav ett tecken i ett textfält: där får fältet det.</translation>
+    </message>
+    <message>
+        <source>Change them in the Me panel</source>
+        <translation>Ändra dem i panelen ”Jag”</translation>
+    </message>
+    <message>
+        <source>Open the Page panel to save its draft.</source>
+        <translation>Öppna panelen ”Sida” för att spara dess utkast.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Inkorg</translation>
     </message>

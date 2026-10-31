@@ -844,6 +844,94 @@
         <translation>%n новых во входящих</translation>
     </message>
     <message>
+        <source>Open the sidebar or go into it</source>
+        <translation>Открыть боковую панель или перейти в неё</translation>
+    </message>
+    <message>
+        <source>Save the draft</source>
+        <translation>Сохранить черновик</translation>
+    </message>
+    <message>
+        <source>Keyboard shortcuts</source>
+        <translation>Сочетания клавиш</translation>
+    </message>
+    <message>
+        <source>Use one letter, A to Z.</source>
+        <translation>Используйте одну букву, от A до Z.</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key belongs to the browser or the system.</source>
+        <translation>Alt+Shift+%key принадлежит браузеру или системе.</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key is taken: %action.</source>
+        <translation>Alt+Shift+%key уже занято: %action.</translation>
+    </message>
+    <message>
+        <source>This page gives Alt+Shift+%key to one of its links: here the page wins.</source>
+        <translation>Эта страница отдаёт Alt+Shift+%key одной из своих ссылок: здесь побеждает страница.</translation>
+    </message>
+    <message>
+        <source>Saved.</source>
+        <translation>Сохранено.</translation>
+    </message>
+    <message>
+        <source>Back to the defaults</source>
+        <translation>Вернуть значения по умолчанию</translation>
+    </message>
+    <message>
+        <source>All shortcuts</source>
+        <translation>Все сочетания клавиш</translation>
+    </message>
+    <message>
+        <source>This page uses this key for one of its links: here the page wins.</source>
+        <translation>Эта страница использует эту клавишу для одной из своих ссылок: здесь побеждает страница.</translation>
+    </message>
+    <message>
+        <source>Panel: %name</source>
+        <translation>Панель: %name</translation>
+    </message>
+    <message>
+        <source>Open the sidebar</source>
+        <translation>Открыть боковую панель</translation>
+    </message>
+    <message>
+        <source>Move the tab along its edge, or to the opposite edge</source>
+        <translation>Переместить вкладку вдоль её края или к противоположному краю</translation>
+    </message>
+    <message>
+        <source>Bigger steps</source>
+        <translation>Более крупные шаги</translation>
+    </message>
+    <message>
+        <source>Dock to that edge</source>
+        <translation>Закрепить у этого края</translation>
+    </message>
+    <message>
+        <source>Go round the edges</source>
+        <translation>Пройти по краям</translation>
+    </message>
+    <message>
+        <source>To the start or the end of the edge</source>
+        <translation>В начало или в конец края</translation>
+    </message>
+    <message>
+        <source>On the tab</source>
+        <translation>На вкладке</translation>
+    </message>
+    <message>
+        <source>On a Mac, Option+Shift with a letter types a character in a text field: there the field gets it.</source>
+        <translation>На Mac Option+Shift с буквой вводит символ в текстовое поле: там его получает поле.</translation>
+    </message>
+    <message>
+        <source>Change them in the Me panel</source>
+        <translation>Измените их в панели «Я»</translation>
+    </message>
+    <message>
+        <source>Open the Page panel to save its draft.</source>
+        <translation>Откройте панель «Страница», чтобы сохранить её черновик.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Входящие</translation>
     </message>

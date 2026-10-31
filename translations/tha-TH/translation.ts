@@ -844,6 +844,94 @@
         <translation>ใหม่ %n รายการในกล่องขาเข้าของคุณ</translation>
     </message>
     <message>
+        <source>Open the sidebar or go into it</source>
+        <translation>เปิดแถบด้านข้างหรือเข้าไปในแถบ</translation>
+    </message>
+    <message>
+        <source>Save the draft</source>
+        <translation>บันทึกฉบับร่าง</translation>
+    </message>
+    <message>
+        <source>Keyboard shortcuts</source>
+        <translation>แป้นพิมพ์ลัด</translation>
+    </message>
+    <message>
+        <source>Use one letter, A to Z.</source>
+        <translation>ใช้ตัวอักษรเดียว A ถึง Z</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key belongs to the browser or the system.</source>
+        <translation>Alt+Shift+%key เป็นของเบราว์เซอร์หรือระบบ</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key is taken: %action.</source>
+        <translation>Alt+Shift+%key ถูกใช้แล้ว: %action</translation>
+    </message>
+    <message>
+        <source>This page gives Alt+Shift+%key to one of its links: here the page wins.</source>
+        <translation>หน้านี้ให้ Alt+Shift+%key แก่ลิงก์หนึ่งของหน้า: ที่นี่หน้าเป็นฝ่ายชนะ</translation>
+    </message>
+    <message>
+        <source>Saved.</source>
+        <translation>บันทึกแล้ว</translation>
+    </message>
+    <message>
+        <source>Back to the defaults</source>
+        <translation>กลับไปใช้ค่าเริ่มต้น</translation>
+    </message>
+    <message>
+        <source>All shortcuts</source>
+        <translation>แป้นพิมพ์ลัดทั้งหมด</translation>
+    </message>
+    <message>
+        <source>This page uses this key for one of its links: here the page wins.</source>
+        <translation>หน้านี้ใช้แป้นนี้สำหรับลิงก์หนึ่งของหน้า: ที่นี่หน้าเป็นฝ่ายชนะ</translation>
+    </message>
+    <message>
+        <source>Panel: %name</source>
+        <translation>แผง: %name</translation>
+    </message>
+    <message>
+        <source>Open the sidebar</source>
+        <translation>เปิดแถบด้านข้าง</translation>
+    </message>
+    <message>
+        <source>Move the tab along its edge, or to the opposite edge</source>
+        <translation>ย้ายแท็บไปตามขอบ หรือไปยังขอบฝั่งตรงข้าม</translation>
+    </message>
+    <message>
+        <source>Bigger steps</source>
+        <translation>ก้าวที่ใหญ่ขึ้น</translation>
+    </message>
+    <message>
+        <source>Dock to that edge</source>
+        <translation>ยึดกับขอบนั้น</translation>
+    </message>
+    <message>
+        <source>Go round the edges</source>
+        <translation>เดินรอบขอบ</translation>
+    </message>
+    <message>
+        <source>To the start or the end of the edge</source>
+        <translation>ไปยังจุดเริ่มต้นหรือจุดสิ้นสุดของขอบ</translation>
+    </message>
+    <message>
+        <source>On the tab</source>
+        <translation>บนแท็บ</translation>
+    </message>
+    <message>
+        <source>On a Mac, Option+Shift with a letter types a character in a text field: there the field gets it.</source>
+        <translation>บน Mac, Option+Shift กับตัวอักษรจะพิมพ์อักขระในช่องข้อความ: ที่นั่นช่องจะได้รับ</translation>
+    </message>
+    <message>
+        <source>Change them in the Me panel</source>
+        <translation>เปลี่ยนได้ในแผง «ฉัน»</translation>
+    </message>
+    <message>
+        <source>Open the Page panel to save its draft.</source>
+        <translation>เปิดแผง «หน้า» เพื่อบันทึกฉบับร่าง</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>กล่องขาเข้า</translation>
     </message>

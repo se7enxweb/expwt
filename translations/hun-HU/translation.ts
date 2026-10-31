@@ -844,6 +844,94 @@
         <translation>%n új a beérkezettek között</translation>
     </message>
     <message>
+        <source>Open the sidebar or go into it</source>
+        <translation>Az oldalsáv megnyitása vagy belépés abba</translation>
+    </message>
+    <message>
+        <source>Save the draft</source>
+        <translation>A piszkozat mentése</translation>
+    </message>
+    <message>
+        <source>Keyboard shortcuts</source>
+        <translation>Billentyűparancsok</translation>
+    </message>
+    <message>
+        <source>Use one letter, A to Z.</source>
+        <translation>Használjon egy betűt, A-tól Z-ig.</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key belongs to the browser or the system.</source>
+        <translation>Az Alt+Shift+%key a böngészőé vagy a rendszeré.</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key is taken: %action.</source>
+        <translation>Az Alt+Shift+%key már foglalt: %action.</translation>
+    </message>
+    <message>
+        <source>This page gives Alt+Shift+%key to one of its links: here the page wins.</source>
+        <translation>Ez az oldal az Alt+Shift+%key billentyűt az egyik hivatkozásának adja: itt az oldal nyer.</translation>
+    </message>
+    <message>
+        <source>Saved.</source>
+        <translation>Mentve.</translation>
+    </message>
+    <message>
+        <source>Back to the defaults</source>
+        <translation>Vissza az alapértékekhez</translation>
+    </message>
+    <message>
+        <source>All shortcuts</source>
+        <translation>Minden billentyűparancs</translation>
+    </message>
+    <message>
+        <source>This page uses this key for one of its links: here the page wins.</source>
+        <translation>Ez az oldal ezt a billentyűt az egyik hivatkozásához használja: itt az oldal nyer.</translation>
+    </message>
+    <message>
+        <source>Panel: %name</source>
+        <translation>Panel: %name</translation>
+    </message>
+    <message>
+        <source>Open the sidebar</source>
+        <translation>Az oldalsáv megnyitása</translation>
+    </message>
+    <message>
+        <source>Move the tab along its edge, or to the opposite edge</source>
+        <translation>A fül mozgatása a széle mentén vagy a szemközti szélre</translation>
+    </message>
+    <message>
+        <source>Bigger steps</source>
+        <translation>Nagyobb lépések</translation>
+    </message>
+    <message>
+        <source>Dock to that edge</source>
+        <translation>Rögzítés ahhoz a szélhez</translation>
+    </message>
+    <message>
+        <source>Go round the edges</source>
+        <translation>Körbe a széleken</translation>
+    </message>
+    <message>
+        <source>To the start or the end of the edge</source>
+        <translation>A szél elejére vagy végére</translation>
+    </message>
+    <message>
+        <source>On the tab</source>
+        <translation>A fülön</translation>
+    </message>
+    <message>
+        <source>On a Mac, Option+Shift with a letter types a character in a text field: there the field gets it.</source>
+        <translation>Macen az Option+Shift egy betűvel karaktert ír be egy szövegmezőbe: ott a mező kapja meg.</translation>
+    </message>
+    <message>
+        <source>Change them in the Me panel</source>
+        <translation>Módosítsa őket az „Én” panelen</translation>
+    </message>
+    <message>
+        <source>Open the Page panel to save its draft.</source>
+        <translation>Nyissa meg az „Oldal” panelt a piszkozata mentéséhez.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Beérkezett</translation>
     </message>

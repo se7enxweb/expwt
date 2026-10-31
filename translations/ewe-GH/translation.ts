@@ -844,6 +844,94 @@
         <translation>%n yeye le wò agbalẽ siwo va me</translation>
     </message>
     <message>
+        <source>Open the sidebar or go into it</source>
+        <translation>Ʋu axadzimɔ la alo yi eme</translation>
+    </message>
+    <message>
+        <source>Save the draft</source>
+        <translation>Dzra ŋɔŋlɔ gbãtɔ la ɖo</translation>
+    </message>
+    <message>
+        <source>Keyboard shortcuts</source>
+        <translation>Keyboard ƒe mɔ kpuiwo</translation>
+    </message>
+    <message>
+        <source>Use one letter, A to Z.</source>
+        <translation>Zã nuŋɔŋlɔ ɖeka, A va ɖo Z.</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key belongs to the browser or the system.</source>
+        <translation>Alt+Shift+%key nye browser la alo ɖoɖo la tɔ.</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key is taken: %action.</source>
+        <translation>Wozã Alt+Shift+%key xoxo: %action.</translation>
+    </message>
+    <message>
+        <source>This page gives Alt+Shift+%key to one of its links: here the page wins.</source>
+        <translation>Axa sia na Alt+Shift+%key eƒe kadodo ɖeka: afisia axa la ɖua dzi.</translation>
+    </message>
+    <message>
+        <source>Saved.</source>
+        <translation>Wodzrae ɖo.</translation>
+    </message>
+    <message>
+        <source>Back to the defaults</source>
+        <translation>Trɔ yi gɔmeɖoɖowo dzi</translation>
+    </message>
+    <message>
+        <source>All shortcuts</source>
+        <translation>Mɔ kpuiwo katã</translation>
+    </message>
+    <message>
+        <source>This page uses this key for one of its links: here the page wins.</source>
+        <translation>Axa sia zãa safui sia na eƒe kadodo ɖeka: afisia axa la ɖua dzi.</translation>
+    </message>
+    <message>
+        <source>Panel: %name</source>
+        <translation>Panel: %name</translation>
+    </message>
+    <message>
+        <source>Open the sidebar</source>
+        <translation>Ʋu axadzimɔ la</translation>
+    </message>
+    <message>
+        <source>Move the tab along its edge, or to the opposite edge</source>
+        <translation>Ʋã tab la le eƒe go dzi, alo yi go si tsi tre ɖe eŋu</translation>
+    </message>
+    <message>
+        <source>Bigger steps</source>
+        <translation>Afɔɖeɖe gãwo</translation>
+    </message>
+    <message>
+        <source>Dock to that edge</source>
+        <translation>Tsɔe ku ɖe go ma ŋu</translation>
+    </message>
+    <message>
+        <source>Go round the edges</source>
+        <translation>Tsa le gowo ŋu</translation>
+    </message>
+    <message>
+        <source>To the start or the end of the edge</source>
+        <translation>Yi go la ƒe gɔmedzedze alo nuwuwu</translation>
+    </message>
+    <message>
+        <source>On the tab</source>
+        <translation>Le tab la dzi</translation>
+    </message>
+    <message>
+        <source>On a Mac, Option+Shift with a letter types a character in a text field: there the field gets it.</source>
+        <translation>Le Mac dzi la, Option+Shift kple nuŋɔŋlɔ aɖe ŋlɔa dzesi aɖe ɖe nuŋɔŋlɔteƒe: afima nuŋɔŋlɔteƒe la xɔnɛ.</translation>
+    </message>
+    <message>
+        <source>Change them in the Me panel</source>
+        <translation>Trɔ wo le «Nye» panel la me</translation>
+    </message>
+    <message>
+        <source>Open the Page panel to save its draft.</source>
+        <translation>Ʋu «Axa» panel la be nàdzra eƒe ŋɔŋlɔ gbãtɔ ɖo.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Agbalẽ siwo va</translation>
     </message>

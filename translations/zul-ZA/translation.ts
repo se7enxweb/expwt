@@ -844,6 +844,94 @@
         <translation>%n ezintsha ebhokisini lakho lokungenayo</translation>
     </message>
     <message>
+        <source>Open the sidebar or go into it</source>
+        <translation>Vula ibha eseceleni noma ungene kuyo</translation>
+    </message>
+    <message>
+        <source>Save the draft</source>
+        <translation>Londoloza isiqeshana</translation>
+    </message>
+    <message>
+        <source>Keyboard shortcuts</source>
+        <translation>Izinqamuleli zekhibhodi</translation>
+    </message>
+    <message>
+        <source>Use one letter, A to Z.</source>
+        <translation>Sebenzisa uhlamvu olulodwa, A kuya ku-Z.</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key belongs to the browser or the system.</source>
+        <translation>I-Alt+Shift+%key ingeyesiphequluli noma yesistimu.</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key is taken: %action.</source>
+        <translation>I-Alt+Shift+%key isivele isetshenziswa: %action.</translation>
+    </message>
+    <message>
+        <source>This page gives Alt+Shift+%key to one of its links: here the page wins.</source>
+        <translation>Leli khasi linika i-Alt+Shift+%key esinye sezixhumanisi zalo: lapha yikhasi elinqobayo.</translation>
+    </message>
+    <message>
+        <source>Saved.</source>
+        <translation>Kulondoloziwe.</translation>
+    </message>
+    <message>
+        <source>Back to the defaults</source>
+        <translation>Buyela kokuzenzakalelayo</translation>
+    </message>
+    <message>
+        <source>All shortcuts</source>
+        <translation>Zonke izinqamuleli</translation>
+    </message>
+    <message>
+        <source>This page uses this key for one of its links: here the page wins.</source>
+        <translation>Leli khasi lisebenzisa lo khiye kwesinye sezixhumanisi zalo: lapha yikhasi elinqobayo.</translation>
+    </message>
+    <message>
+        <source>Panel: %name</source>
+        <translation>Iphaneli: %name</translation>
+    </message>
+    <message>
+        <source>Open the sidebar</source>
+        <translation>Vula ibha eseceleni</translation>
+    </message>
+    <message>
+        <source>Move the tab along its edge, or to the opposite edge</source>
+        <translation>Hambisa ithebhu eduze komphetho wayo, noma uye emphethweni ophambene</translation>
+    </message>
+    <message>
+        <source>Bigger steps</source>
+        <translation>Izinyathelo ezinkulu</translation>
+    </message>
+    <message>
+        <source>Dock to that edge</source>
+        <translation>Namathisela kulowo mphetho</translation>
+    </message>
+    <message>
+        <source>Go round the edges</source>
+        <translation>Zungeza imiphetho</translation>
+    </message>
+    <message>
+        <source>To the start or the end of the edge</source>
+        <translation>Ekuqaleni noma ekugcineni komphetho</translation>
+    </message>
+    <message>
+        <source>On the tab</source>
+        <translation>Kuthebhu</translation>
+    </message>
+    <message>
+        <source>On a Mac, Option+Shift with a letter types a character in a text field: there the field gets it.</source>
+        <translation>Ku-Mac, i-Option+Shift nohlamvu ithayipha uhlamvu endaweni yombhalo: lapho yindawo eyithola.</translation>
+    </message>
+    <message>
+        <source>Change them in the Me panel</source>
+        <translation>Zishintshe kuphaneli ethi «Mina»</translation>
+    </message>
+    <message>
+        <source>Open the Page panel to save its draft.</source>
+        <translation>Vula iphaneli ethi «Ikhasi» ukuze ulondoloze isiqeshana sayo.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Ibhokisi lokungenayo</translation>
     </message>

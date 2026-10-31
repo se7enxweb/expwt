@@ -844,6 +844,94 @@
         <translation>%n sababbi a akwatin saƙonka</translation>
     </message>
     <message>
+        <source>Open the sidebar or go into it</source>
+        <translation>Buɗe labarun gefe ko shiga cikinsa</translation>
+    </message>
+    <message>
+        <source>Save the draft</source>
+        <translation>Ajiye daftarin</translation>
+    </message>
+    <message>
+        <source>Keyboard shortcuts</source>
+        <translation>Gajerun hanyoyin madannai</translation>
+    </message>
+    <message>
+        <source>Use one letter, A to Z.</source>
+        <translation>Yi amfani da harafi ɗaya, A zuwa Z.</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key belongs to the browser or the system.</source>
+        <translation>Alt+Shift+%key na burauza ne ko na tsarin.</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key is taken: %action.</source>
+        <translation>An riga an yi amfani da Alt+Shift+%key: %action.</translation>
+    </message>
+    <message>
+        <source>This page gives Alt+Shift+%key to one of its links: here the page wins.</source>
+        <translation>Wannan shafi yana ba da Alt+Shift+%key ga ɗaya daga cikin hanyoyinsa: a nan shafin ne ke yin nasara.</translation>
+    </message>
+    <message>
+        <source>Saved.</source>
+        <translation>An ajiye.</translation>
+    </message>
+    <message>
+        <source>Back to the defaults</source>
+        <translation>Koma zuwa na asali</translation>
+    </message>
+    <message>
+        <source>All shortcuts</source>
+        <translation>Duk gajerun hanyoyi</translation>
+    </message>
+    <message>
+        <source>This page uses this key for one of its links: here the page wins.</source>
+        <translation>Wannan shafi yana amfani da wannan maɓalli don ɗaya daga cikin hanyoyinsa: a nan shafin ne ke yin nasara.</translation>
+    </message>
+    <message>
+        <source>Panel: %name</source>
+        <translation>Fanel: %name</translation>
+    </message>
+    <message>
+        <source>Open the sidebar</source>
+        <translation>Buɗe labarun gefe</translation>
+    </message>
+    <message>
+        <source>Move the tab along its edge, or to the opposite edge</source>
+        <translation>Matsar da shafin a gefensa, ko zuwa gefen da ke gaba da shi</translation>
+    </message>
+    <message>
+        <source>Bigger steps</source>
+        <translation>Manyan matakai</translation>
+    </message>
+    <message>
+        <source>Dock to that edge</source>
+        <translation>Manna a wannan gefen</translation>
+    </message>
+    <message>
+        <source>Go round the edges</source>
+        <translation>Zagaya gefuna</translation>
+    </message>
+    <message>
+        <source>To the start or the end of the edge</source>
+        <translation>Zuwa farko ko ƙarshen gefen</translation>
+    </message>
+    <message>
+        <source>On the tab</source>
+        <translation>A kan shafin</translation>
+    </message>
+    <message>
+        <source>On a Mac, Option+Shift with a letter types a character in a text field: there the field gets it.</source>
+        <translation>A kan Mac, Option+Shift tare da harafi yana rubuta alama a filin rubutu: a can filin ne ke samun sa.</translation>
+    </message>
+    <message>
+        <source>Change them in the Me panel</source>
+        <translation>Canza su a fanel ɗin «Ni»</translation>
+    </message>
+    <message>
+        <source>Open the Page panel to save its draft.</source>
+        <translation>Buɗe fanel ɗin «Shafi» don ajiye daftarinsa.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Akwatin saƙo</translation>
     </message>

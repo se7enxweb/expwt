@@ -844,6 +844,94 @@
         <translation>%n mpya kwenye kikasha chako</translation>
     </message>
     <message>
+        <source>Open the sidebar or go into it</source>
+        <translation>Fungua upau wa pembeni au ingia ndani yake</translation>
+    </message>
+    <message>
+        <source>Save the draft</source>
+        <translation>Hifadhi rasimu</translation>
+    </message>
+    <message>
+        <source>Keyboard shortcuts</source>
+        <translation>Njia za mkato za kibodi</translation>
+    </message>
+    <message>
+        <source>Use one letter, A to Z.</source>
+        <translation>Tumia herufi moja, A hadi Z.</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key belongs to the browser or the system.</source>
+        <translation>Alt+Shift+%key ni ya kivinjari au ya mfumo.</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key is taken: %action.</source>
+        <translation>Alt+Shift+%key tayari inatumika: %action.</translation>
+    </message>
+    <message>
+        <source>This page gives Alt+Shift+%key to one of its links: here the page wins.</source>
+        <translation>Ukurasa huu unampa Alt+Shift+%key kiungo chake kimoja: hapa ukurasa unashinda.</translation>
+    </message>
+    <message>
+        <source>Saved.</source>
+        <translation>Imehifadhiwa.</translation>
+    </message>
+    <message>
+        <source>Back to the defaults</source>
+        <translation>Rudi kwa chaguomsingi</translation>
+    </message>
+    <message>
+        <source>All shortcuts</source>
+        <translation>Njia zote za mkato</translation>
+    </message>
+    <message>
+        <source>This page uses this key for one of its links: here the page wins.</source>
+        <translation>Ukurasa huu unatumia kitufe hiki kwa kiungo chake kimoja: hapa ukurasa unashinda.</translation>
+    </message>
+    <message>
+        <source>Panel: %name</source>
+        <translation>Kidirisha: %name</translation>
+    </message>
+    <message>
+        <source>Open the sidebar</source>
+        <translation>Fungua upau wa pembeni</translation>
+    </message>
+    <message>
+        <source>Move the tab along its edge, or to the opposite edge</source>
+        <translation>Sogeza kichupo kando ya ukingo wake, au kwenye ukingo wa upande wa pili</translation>
+    </message>
+    <message>
+        <source>Bigger steps</source>
+        <translation>Hatua kubwa zaidi</translation>
+    </message>
+    <message>
+        <source>Dock to that edge</source>
+        <translation>Bandika kwenye ukingo huo</translation>
+    </message>
+    <message>
+        <source>Go round the edges</source>
+        <translation>Zunguka kingo</translation>
+    </message>
+    <message>
+        <source>To the start or the end of the edge</source>
+        <translation>Mwanzo au mwisho wa ukingo</translation>
+    </message>
+    <message>
+        <source>On the tab</source>
+        <translation>Kwenye kichupo</translation>
+    </message>
+    <message>
+        <source>On a Mac, Option+Shift with a letter types a character in a text field: there the field gets it.</source>
+        <translation>Kwenye Mac, Option+Shift pamoja na herufi huandika herufi maalum kwenye sehemu ya maandishi: hapo sehemu ndiyo huipata.</translation>
+    </message>
+    <message>
+        <source>Change them in the Me panel</source>
+        <translation>Zibadilishe kwenye kidirisha cha «Mimi»</translation>
+    </message>
+    <message>
+        <source>Open the Page panel to save its draft.</source>
+        <translation>Fungua kidirisha cha «Ukurasa» ili kuhifadhi rasimu yake.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Kikasha</translation>
     </message>

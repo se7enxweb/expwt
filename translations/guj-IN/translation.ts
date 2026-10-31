@@ -844,6 +844,94 @@
         <translation>તમારા ઇનબોક્સમાં %n નવા</translation>
     </message>
     <message>
+        <source>Open the sidebar or go into it</source>
+        <translation>સાઇડબાર ખોલો અથવા તેમાં જાઓ</translation>
+    </message>
+    <message>
+        <source>Save the draft</source>
+        <translation>ડ્રાફ્ટ સાચવો</translation>
+    </message>
+    <message>
+        <source>Keyboard shortcuts</source>
+        <translation>કીબોર્ડ શૉર્ટકટ</translation>
+    </message>
+    <message>
+        <source>Use one letter, A to Z.</source>
+        <translation>એક અક્ષર વાપરો, A થી Z.</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key belongs to the browser or the system.</source>
+        <translation>Alt+Shift+%key બ્રાઉઝર અથવા સિસ્ટમનું છે.</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key is taken: %action.</source>
+        <translation>Alt+Shift+%key પહેલેથી વપરાય છે: %action.</translation>
+    </message>
+    <message>
+        <source>This page gives Alt+Shift+%key to one of its links: here the page wins.</source>
+        <translation>આ પેજ Alt+Shift+%key તેની એક લિંકને આપે છે: અહીં પેજ જીતે છે.</translation>
+    </message>
+    <message>
+        <source>Saved.</source>
+        <translation>સાચવ્યું.</translation>
+    </message>
+    <message>
+        <source>Back to the defaults</source>
+        <translation>ડિફૉલ્ટ પર પાછા જાઓ</translation>
+    </message>
+    <message>
+        <source>All shortcuts</source>
+        <translation>બધા શૉર્ટકટ</translation>
+    </message>
+    <message>
+        <source>This page uses this key for one of its links: here the page wins.</source>
+        <translation>આ પેજ આ કી તેની એક લિંક માટે વાપરે છે: અહીં પેજ જીતે છે.</translation>
+    </message>
+    <message>
+        <source>Panel: %name</source>
+        <translation>પેનલ: %name</translation>
+    </message>
+    <message>
+        <source>Open the sidebar</source>
+        <translation>સાઇડબાર ખોલો</translation>
+    </message>
+    <message>
+        <source>Move the tab along its edge, or to the opposite edge</source>
+        <translation>ટૅબને તેની કિનારી પર અથવા સામેની કિનારી પર ખસેડો</translation>
+    </message>
+    <message>
+        <source>Bigger steps</source>
+        <translation>મોટાં પગલાં</translation>
+    </message>
+    <message>
+        <source>Dock to that edge</source>
+        <translation>તે કિનારી પર જોડો</translation>
+    </message>
+    <message>
+        <source>Go round the edges</source>
+        <translation>કિનારીઓની આસપાસ ફરો</translation>
+    </message>
+    <message>
+        <source>To the start or the end of the edge</source>
+        <translation>કિનારીની શરૂઆત અથવા અંત પર</translation>
+    </message>
+    <message>
+        <source>On the tab</source>
+        <translation>ટૅબ પર</translation>
+    </message>
+    <message>
+        <source>On a Mac, Option+Shift with a letter types a character in a text field: there the field gets it.</source>
+        <translation>Mac પર, અક્ષર સાથે Option+Shift ટેક્સ્ટ ફીલ્ડમાં એક અક્ષરચિહ્ન લખે છે: ત્યાં ફીલ્ડને તે મળે છે.</translation>
+    </message>
+    <message>
+        <source>Change them in the Me panel</source>
+        <translation>તેમને «હું» પેનલમાં બદલો</translation>
+    </message>
+    <message>
+        <source>Open the Page panel to save its draft.</source>
+        <translation>તેનો ડ્રાફ્ટ સાચવવા «પેજ» પેનલ ખોલો.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>ઇનબોક્સ</translation>
     </message>

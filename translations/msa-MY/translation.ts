@@ -844,6 +844,94 @@
         <translation>%n baharu dalam peti masuk anda</translation>
     </message>
     <message>
+        <source>Open the sidebar or go into it</source>
+        <translation>Buka bar sisi atau masuk ke dalamnya</translation>
+    </message>
+    <message>
+        <source>Save the draft</source>
+        <translation>Simpan draf</translation>
+    </message>
+    <message>
+        <source>Keyboard shortcuts</source>
+        <translation>Pintasan papan kekunci</translation>
+    </message>
+    <message>
+        <source>Use one letter, A to Z.</source>
+        <translation>Gunakan satu huruf, A hingga Z.</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key belongs to the browser or the system.</source>
+        <translation>Alt+Shift+%key milik pelayar atau sistem.</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key is taken: %action.</source>
+        <translation>Alt+Shift+%key sudah digunakan: %action.</translation>
+    </message>
+    <message>
+        <source>This page gives Alt+Shift+%key to one of its links: here the page wins.</source>
+        <translation>Halaman ini memberikan Alt+Shift+%key kepada salah satu pautannya: di sini halaman yang menang.</translation>
+    </message>
+    <message>
+        <source>Saved.</source>
+        <translation>Disimpan.</translation>
+    </message>
+    <message>
+        <source>Back to the defaults</source>
+        <translation>Kembali ke lalai</translation>
+    </message>
+    <message>
+        <source>All shortcuts</source>
+        <translation>Semua pintasan</translation>
+    </message>
+    <message>
+        <source>This page uses this key for one of its links: here the page wins.</source>
+        <translation>Halaman ini menggunakan kekunci ini untuk salah satu pautannya: di sini halaman yang menang.</translation>
+    </message>
+    <message>
+        <source>Panel: %name</source>
+        <translation>Panel: %name</translation>
+    </message>
+    <message>
+        <source>Open the sidebar</source>
+        <translation>Buka bar sisi</translation>
+    </message>
+    <message>
+        <source>Move the tab along its edge, or to the opposite edge</source>
+        <translation>Alihkan tab di sepanjang tepinya, atau ke tepi bertentangan</translation>
+    </message>
+    <message>
+        <source>Bigger steps</source>
+        <translation>Langkah lebih besar</translation>
+    </message>
+    <message>
+        <source>Dock to that edge</source>
+        <translation>Labuhkan ke tepi itu</translation>
+    </message>
+    <message>
+        <source>Go round the edges</source>
+        <translation>Pusing mengelilingi tepi</translation>
+    </message>
+    <message>
+        <source>To the start or the end of the edge</source>
+        <translation>Ke permulaan atau penghujung tepi</translation>
+    </message>
+    <message>
+        <source>On the tab</source>
+        <translation>Pada tab</translation>
+    </message>
+    <message>
+        <source>On a Mac, Option+Shift with a letter types a character in a text field: there the field gets it.</source>
+        <translation>Pada Mac, Option+Shift dengan huruf menaip aksara dalam medan teks: di sana medan yang menerimanya.</translation>
+    </message>
+    <message>
+        <source>Change them in the Me panel</source>
+        <translation>Tukarnya dalam panel «Saya»</translation>
+    </message>
+    <message>
+        <source>Open the Page panel to save its draft.</source>
+        <translation>Buka panel «Halaman» untuk menyimpan drafnya.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Peti masuk</translation>
     </message>

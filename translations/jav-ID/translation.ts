@@ -844,6 +844,94 @@
         <translation>%n anyar ing kothak mlebu sampeyan</translation>
     </message>
     <message>
+        <source>Open the sidebar or go into it</source>
+        <translation>Bukak bilah sisih utawa mlebu</translation>
+    </message>
+    <message>
+        <source>Save the draft</source>
+        <translation>Simpen draf</translation>
+    </message>
+    <message>
+        <source>Keyboard shortcuts</source>
+        <translation>Trabasan keyboard</translation>
+    </message>
+    <message>
+        <source>Use one letter, A to Z.</source>
+        <translation>Gunakake siji aksara, A nganti Z.</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key belongs to the browser or the system.</source>
+        <translation>Alt+Shift+%key duweke browser utawa sistem.</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key is taken: %action.</source>
+        <translation>Alt+Shift+%key wis dienggo: %action.</translation>
+    </message>
+    <message>
+        <source>This page gives Alt+Shift+%key to one of its links: here the page wins.</source>
+        <translation>Kaca iki menehi Alt+Shift+%key marang salah siji pranalane: ing kene kaca sing menang.</translation>
+    </message>
+    <message>
+        <source>Saved.</source>
+        <translation>Wis disimpen.</translation>
+    </message>
+    <message>
+        <source>Back to the defaults</source>
+        <translation>Bali menyang gawan</translation>
+    </message>
+    <message>
+        <source>All shortcuts</source>
+        <translation>Kabeh trabasan</translation>
+    </message>
+    <message>
+        <source>This page uses this key for one of its links: here the page wins.</source>
+        <translation>Kaca iki nggunakake tombol iki kanggo salah siji pranalane: ing kene kaca sing menang.</translation>
+    </message>
+    <message>
+        <source>Panel: %name</source>
+        <translation>Panel: %name</translation>
+    </message>
+    <message>
+        <source>Open the sidebar</source>
+        <translation>Bukak bilah sisih</translation>
+    </message>
+    <message>
+        <source>Move the tab along its edge, or to the opposite edge</source>
+        <translation>Pindhahake tab ing sadawane pinggire, utawa menyang pinggir sabrang</translation>
+    </message>
+    <message>
+        <source>Bigger steps</source>
+        <translation>Langkah luwih gedhe</translation>
+    </message>
+    <message>
+        <source>Dock to that edge</source>
+        <translation>Tempelake ing pinggir kuwi</translation>
+    </message>
+    <message>
+        <source>Go round the edges</source>
+        <translation>Ubengi pinggir-pinggir</translation>
+    </message>
+    <message>
+        <source>To the start or the end of the edge</source>
+        <translation>Menyang wiwitan utawa pungkasan pinggir</translation>
+    </message>
+    <message>
+        <source>On the tab</source>
+        <translation>Ing tab</translation>
+    </message>
+    <message>
+        <source>On a Mac, Option+Shift with a letter types a character in a text field: there the field gets it.</source>
+        <translation>Ing Mac, Option+Shift karo aksara ngetik karakter ing kolom teks: ing kana kolom sing nampa.</translation>
+    </message>
+    <message>
+        <source>Change them in the Me panel</source>
+        <translation>Ganti ing panel «Aku»</translation>
+    </message>
+    <message>
+        <source>Open the Page panel to save its draft.</source>
+        <translation>Bukak panel «Kaca» kanggo nyimpen drafe.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Kothak mlebu</translation>
     </message>

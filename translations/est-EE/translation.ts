@@ -844,6 +844,94 @@
         <translation>%n uut sinu postkastis</translation>
     </message>
     <message>
+        <source>Open the sidebar or go into it</source>
+        <translation>Ava külgriba või mine sinna</translation>
+    </message>
+    <message>
+        <source>Save the draft</source>
+        <translation>Salvesta mustand</translation>
+    </message>
+    <message>
+        <source>Keyboard shortcuts</source>
+        <translation>Kiirklahvid</translation>
+    </message>
+    <message>
+        <source>Use one letter, A to Z.</source>
+        <translation>Kasuta üht tähte, A kuni Z.</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key belongs to the browser or the system.</source>
+        <translation>Alt+Shift+%key kuulub brauserile või süsteemile.</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key is taken: %action.</source>
+        <translation>Alt+Shift+%key on juba kasutusel: %action.</translation>
+    </message>
+    <message>
+        <source>This page gives Alt+Shift+%key to one of its links: here the page wins.</source>
+        <translation>See leht annab Alt+Shift+%key ühele oma lingile: siin võidab leht.</translation>
+    </message>
+    <message>
+        <source>Saved.</source>
+        <translation>Salvestatud.</translation>
+    </message>
+    <message>
+        <source>Back to the defaults</source>
+        <translation>Tagasi vaikeväärtustele</translation>
+    </message>
+    <message>
+        <source>All shortcuts</source>
+        <translation>Kõik kiirklahvid</translation>
+    </message>
+    <message>
+        <source>This page uses this key for one of its links: here the page wins.</source>
+        <translation>See leht kasutab seda klahvi ühe oma lingi jaoks: siin võidab leht.</translation>
+    </message>
+    <message>
+        <source>Panel: %name</source>
+        <translation>Paneel: %name</translation>
+    </message>
+    <message>
+        <source>Open the sidebar</source>
+        <translation>Ava külgriba</translation>
+    </message>
+    <message>
+        <source>Move the tab along its edge, or to the opposite edge</source>
+        <translation>Liiguta sakki mööda selle serva või vastasservale</translation>
+    </message>
+    <message>
+        <source>Bigger steps</source>
+        <translation>Suuremad sammud</translation>
+    </message>
+    <message>
+        <source>Dock to that edge</source>
+        <translation>Kinnita sellele servale</translation>
+    </message>
+    <message>
+        <source>Go round the edges</source>
+        <translation>Liigu ümber servade</translation>
+    </message>
+    <message>
+        <source>To the start or the end of the edge</source>
+        <translation>Serva algusesse või lõppu</translation>
+    </message>
+    <message>
+        <source>On the tab</source>
+        <translation>Sakil</translation>
+    </message>
+    <message>
+        <source>On a Mac, Option+Shift with a letter types a character in a text field: there the field gets it.</source>
+        <translation>Macis kirjutab Option+Shift koos tähega tekstivälja märgi: seal saab selle väli.</translation>
+    </message>
+    <message>
+        <source>Change them in the Me panel</source>
+        <translation>Muuda neid paneelis „Mina“</translation>
+    </message>
+    <message>
+        <source>Open the Page panel to save its draft.</source>
+        <translation>Ava paneel „Leht“, et selle mustand salvestada.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Postkast</translation>
     </message>

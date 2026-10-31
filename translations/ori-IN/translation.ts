@@ -844,6 +844,94 @@
         <translation>ଆପଣଙ୍କ ଇନବକ୍ସରେ %n ନୂଆ</translation>
     </message>
     <message>
+        <source>Open the sidebar or go into it</source>
+        <translation>ସାଇଡବାର୍ ଖୋଲନ୍ତୁ କିମ୍ବା ତା ଭିତରକୁ ଯାଆନ୍ତୁ</translation>
+    </message>
+    <message>
+        <source>Save the draft</source>
+        <translation>ଖସଡ଼ା ସଞ୍ଚୟ କରନ୍ତୁ</translation>
+    </message>
+    <message>
+        <source>Keyboard shortcuts</source>
+        <translation>କିବୋର୍ଡ ସର୍ଟକଟ୍</translation>
+    </message>
+    <message>
+        <source>Use one letter, A to Z.</source>
+        <translation>ଗୋଟିଏ ଅକ୍ଷର ବ୍ୟବହାର କରନ୍ତୁ, A ରୁ Z।</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key belongs to the browser or the system.</source>
+        <translation>Alt+Shift+%key ବ୍ରାଉଜର କିମ୍ବା ସିଷ୍ଟମର।</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key is taken: %action.</source>
+        <translation>Alt+Shift+%key ପୂର୍ବରୁ ବ୍ୟବହୃତ: %action।</translation>
+    </message>
+    <message>
+        <source>This page gives Alt+Shift+%key to one of its links: here the page wins.</source>
+        <translation>ଏହି ପୃଷ୍ଠା Alt+Shift+%key ତା'ର ଗୋଟିଏ ଲିଙ୍କକୁ ଦିଏ: ଏଠାରେ ପୃଷ୍ଠା ଜିତେ।</translation>
+    </message>
+    <message>
+        <source>Saved.</source>
+        <translation>ସଞ୍ଚୟ ହେଲା।</translation>
+    </message>
+    <message>
+        <source>Back to the defaults</source>
+        <translation>ଡିଫଲ୍ଟକୁ ଫେରନ୍ତୁ</translation>
+    </message>
+    <message>
+        <source>All shortcuts</source>
+        <translation>ସମସ୍ତ ସର୍ଟକଟ୍</translation>
+    </message>
+    <message>
+        <source>This page uses this key for one of its links: here the page wins.</source>
+        <translation>ଏହି ପୃଷ୍ଠା ଏହି ଚାବି ତା'ର ଗୋଟିଏ ଲିଙ୍କ ପାଇଁ ବ୍ୟବହାର କରେ: ଏଠାରେ ପୃଷ୍ଠା ଜିତେ।</translation>
+    </message>
+    <message>
+        <source>Panel: %name</source>
+        <translation>ପ୍ୟାନେଲ୍: %name</translation>
+    </message>
+    <message>
+        <source>Open the sidebar</source>
+        <translation>ସାଇଡବାର୍ ଖୋଲନ୍ତୁ</translation>
+    </message>
+    <message>
+        <source>Move the tab along its edge, or to the opposite edge</source>
+        <translation>ଟ୍ୟାବକୁ ତା'ର ଧାର ଦେଇ କିମ୍ବା ବିପରୀତ ଧାରକୁ ଘୁଞ୍ଚାନ୍ତୁ</translation>
+    </message>
+    <message>
+        <source>Bigger steps</source>
+        <translation>ବଡ଼ ପାଦ</translation>
+    </message>
+    <message>
+        <source>Dock to that edge</source>
+        <translation>ସେହି ଧାରରେ ଲଗାନ୍ତୁ</translation>
+    </message>
+    <message>
+        <source>Go round the edges</source>
+        <translation>ଧାରଗୁଡ଼ିକ ଚାରିପଟେ ଯାଆନ୍ତୁ</translation>
+    </message>
+    <message>
+        <source>To the start or the end of the edge</source>
+        <translation>ଧାରର ଆରମ୍ଭ କିମ୍ବା ଶେଷକୁ</translation>
+    </message>
+    <message>
+        <source>On the tab</source>
+        <translation>ଟ୍ୟାବ ଉପରେ</translation>
+    </message>
+    <message>
+        <source>On a Mac, Option+Shift with a letter types a character in a text field: there the field gets it.</source>
+        <translation>Mac ରେ, ଅକ୍ଷର ସହ Option+Shift ଟେକ୍ସଟ ଫିଲ୍ଡରେ ଏକ ଚିହ୍ନ ଟାଇପ କରେ: ସେଠାରେ ଫିଲ୍ଡ ତାହା ପାଏ।</translation>
+    </message>
+    <message>
+        <source>Change them in the Me panel</source>
+        <translation>ସେଗୁଡ଼ିକୁ «ମୁଁ» ପ୍ୟାନେଲରେ ବଦଳାନ୍ତୁ</translation>
+    </message>
+    <message>
+        <source>Open the Page panel to save its draft.</source>
+        <translation>ତା'ର ଖସଡ଼ା ସଞ୍ଚୟ କରିବାକୁ «ପୃଷ୍ଠା» ପ୍ୟାନେଲ ଖୋଲନ୍ତୁ।</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>ଇନବକ୍ସ</translation>
     </message>

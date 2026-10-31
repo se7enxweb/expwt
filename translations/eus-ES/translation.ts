@@ -844,6 +844,94 @@
         <translation>%n berri zure sarrera-ontzian</translation>
     </message>
     <message>
+        <source>Open the sidebar or go into it</source>
+        <translation>Ireki alboko barra edo joan bertara</translation>
+    </message>
+    <message>
+        <source>Save the draft</source>
+        <translation>Gorde zirriborroa</translation>
+    </message>
+    <message>
+        <source>Keyboard shortcuts</source>
+        <translation>Teklatuko lasterbideak</translation>
+    </message>
+    <message>
+        <source>Use one letter, A to Z.</source>
+        <translation>Erabili letra bat, A-tik Z-ra.</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key belongs to the browser or the system.</source>
+        <translation>Alt+Shift+%key nabigatzailearena edo sistemarena da.</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key is taken: %action.</source>
+        <translation>Alt+Shift+%key hartuta dago: %action.</translation>
+    </message>
+    <message>
+        <source>This page gives Alt+Shift+%key to one of its links: here the page wins.</source>
+        <translation>Orri honek Alt+Shift+%key bere esteketako bati ematen dio: hemen orriak irabazten du.</translation>
+    </message>
+    <message>
+        <source>Saved.</source>
+        <translation>Gordeta.</translation>
+    </message>
+    <message>
+        <source>Back to the defaults</source>
+        <translation>Itzuli lehenetsietara</translation>
+    </message>
+    <message>
+        <source>All shortcuts</source>
+        <translation>Lasterbide guztiak</translation>
+    </message>
+    <message>
+        <source>This page uses this key for one of its links: here the page wins.</source>
+        <translation>Orri honek tekla hau bere esteketako baterako erabiltzen du: hemen orriak irabazten du.</translation>
+    </message>
+    <message>
+        <source>Panel: %name</source>
+        <translation>Panela: %name</translation>
+    </message>
+    <message>
+        <source>Open the sidebar</source>
+        <translation>Ireki alboko barra</translation>
+    </message>
+    <message>
+        <source>Move the tab along its edge, or to the opposite edge</source>
+        <translation>Mugitu fitxa bere ertzean zehar, edo aurkako ertzera</translation>
+    </message>
+    <message>
+        <source>Bigger steps</source>
+        <translation>Urrats handiagoak</translation>
+    </message>
+    <message>
+        <source>Dock to that edge</source>
+        <translation>Atxiki ertz horretara</translation>
+    </message>
+    <message>
+        <source>Go round the edges</source>
+        <translation>Ertzen inguruan ibili</translation>
+    </message>
+    <message>
+        <source>To the start or the end of the edge</source>
+        <translation>Ertzaren hasierara edo amaierara</translation>
+    </message>
+    <message>
+        <source>On the tab</source>
+        <translation>Fitxan</translation>
+    </message>
+    <message>
+        <source>On a Mac, Option+Shift with a letter types a character in a text field: there the field gets it.</source>
+        <translation>Mac batean, Option+Shift letra batekin karaktere bat idazten du testu-eremu batean: han eremuak jasotzen du.</translation>
+    </message>
+    <message>
+        <source>Change them in the Me panel</source>
+        <translation>Aldatu itzazu «Ni» panelean</translation>
+    </message>
+    <message>
+        <source>Open the Page panel to save its draft.</source>
+        <translation>Ireki «Orria» panela haren zirriborroa gordetzeko.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Sarrera-ontzia</translation>
     </message>

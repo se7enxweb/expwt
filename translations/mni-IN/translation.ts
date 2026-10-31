@@ -844,6 +844,94 @@
         <translation>নহাক্কী ইনবক্সতা অনৌবা %n</translation>
     </message>
     <message>
+        <source>Open the sidebar or go into it</source>
+        <translation>সাইদবার হাংদোকউ নত্রগা মগী মনুংদা চংউ</translation>
+    </message>
+    <message>
+        <source>Save the draft</source>
+        <translation>ড্রাফ্ট থম্মু</translation>
+    </message>
+    <message>
+        <source>Keyboard shortcuts</source>
+        <translation>কীবোর্দ শোর্টকত</translation>
+    </message>
+    <message>
+        <source>Use one letter, A to Z.</source>
+        <translation>মমৈ অমা শিজিন্নবিয়ু, A দগী Z ফাওবা।</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key belongs to the browser or the system.</source>
+        <translation>Alt+Shift+%key অসি ব্রাউজর নত্রগা সিস্তেমগীনি।</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key is taken: %action.</source>
+        <translation>Alt+Shift+%key শিজিন্নরে: %action।</translation>
+    </message>
+    <message>
+        <source>This page gives Alt+Shift+%key to one of its links: here the page wins.</source>
+        <translation>পেজ অসিনা Alt+Shift+%key মসীগী লিংক অমদা পীরি: মফম অসিদা পেজনা মাইপাক্নি।</translation>
+    </message>
+    <message>
+        <source>Saved.</source>
+        <translation>থম্লে।</translation>
+    </message>
+    <message>
+        <source>Back to the defaults</source>
+        <translation>দিফোল্তশিংদা হল্লকউ</translation>
+    </message>
+    <message>
+        <source>All shortcuts</source>
+        <translation>শোর্টকত পুম্নমক</translation>
+    </message>
+    <message>
+        <source>This page uses this key for one of its links: here the page wins.</source>
+        <translation>পেজ অসিনা কী অসি মসীগী লিংক অমগীদমক শিজিন্নরি: মফম অসিদা পেজনা মাইপাক্নি।</translation>
+    </message>
+    <message>
+        <source>Panel: %name</source>
+        <translation>পেনেল: %name</translation>
+    </message>
+    <message>
+        <source>Open the sidebar</source>
+        <translation>সাইদবার হাংদোকউ</translation>
+    </message>
+    <message>
+        <source>Move the tab along its edge, or to the opposite edge</source>
+        <translation>তেব অদু মগী অরোইবগী মনাক্তা নত্রগা মায়োক্নবা অরোইবদা লেংহনবিয়ু</translation>
+    </message>
+    <message>
+        <source>Bigger steps</source>
+        <translation>চাউবা খোংথাংশিং</translation>
+    </message>
+    <message>
+        <source>Dock to that edge</source>
+        <translation>অরোইবা অদুদা শম্নহনবিয়ু</translation>
+    </message>
+    <message>
+        <source>Go round the edges</source>
+        <translation>অরোইবশিংগী অকোয়বদা চৎলু</translation>
+    </message>
+    <message>
+        <source>To the start or the end of the edge</source>
+        <translation>অরোইবগী অহৌবা নত্রগা অরোইবদা</translation>
+    </message>
+    <message>
+        <source>On the tab</source>
+        <translation>তেবতা</translation>
+    </message>
+    <message>
+        <source>On a Mac, Option+Shift with a letter types a character in a text field: there the field gets it.</source>
+        <translation>Mac তা, মমৈ অমগা লোইননা Option+Shift না তেক্সত ফিল্দ অমদা চিন্নবা অমা তাইপ তৌই: মফম অদুদা ফিল্দনা ফংই।</translation>
+    </message>
+    <message>
+        <source>Change them in the Me panel</source>
+        <translation>মখোয় «ঐ» পেনেলদা হোংদোকউ</translation>
+    </message>
+    <message>
+        <source>Open the Page panel to save its draft.</source>
+        <translation>মসীগী ড্রাফ্ট থম্নবা «পেজ» পেনেল হাংদোকউ।</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>ইনবক্স</translation>
     </message>

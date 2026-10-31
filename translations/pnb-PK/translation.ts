@@ -844,6 +844,94 @@
         <translation>تہاڈے اِن باکس وچ %n نویں</translation>
     </message>
     <message>
+        <source>Open the sidebar or go into it</source>
+        <translation>سائیڈ بار کھولو یا اوہدے وچ جاؤ</translation>
+    </message>
+    <message>
+        <source>Save the draft</source>
+        <translation>مسودہ محفوظ کرو</translation>
+    </message>
+    <message>
+        <source>Keyboard shortcuts</source>
+        <translation>کی بورڈ شارٹ کٹ</translation>
+    </message>
+    <message>
+        <source>Use one letter, A to Z.</source>
+        <translation>اک حرف ورتو، A توں Z تیک۔</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key belongs to the browser or the system.</source>
+        <translation>Alt+Shift+%key براؤزر یا سسٹم دا اے۔</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key is taken: %action.</source>
+        <translation>Alt+Shift+%key پہلاں ای ورتیا جا رہیا اے: %action۔</translation>
+    </message>
+    <message>
+        <source>This page gives Alt+Shift+%key to one of its links: here the page wins.</source>
+        <translation>ایہ صفحہ Alt+Shift+%key اپنے اک لنک نوں دیندا اے: ایتھے صفحہ جتدا اے۔</translation>
+    </message>
+    <message>
+        <source>Saved.</source>
+        <translation>محفوظ ہو گیا۔</translation>
+    </message>
+    <message>
+        <source>Back to the defaults</source>
+        <translation>ڈیفالٹ تے واپس</translation>
+    </message>
+    <message>
+        <source>All shortcuts</source>
+        <translation>سارے شارٹ کٹ</translation>
+    </message>
+    <message>
+        <source>This page uses this key for one of its links: here the page wins.</source>
+        <translation>ایہ صفحہ ایہ کنجی اپنے اک لنک لئی ورتدا اے: ایتھے صفحہ جتدا اے۔</translation>
+    </message>
+    <message>
+        <source>Panel: %name</source>
+        <translation>پینل: %name</translation>
+    </message>
+    <message>
+        <source>Open the sidebar</source>
+        <translation>سائیڈ بار کھولو</translation>
+    </message>
+    <message>
+        <source>Move the tab along its edge, or to the opposite edge</source>
+        <translation>ٹیب نوں اوہدے کنارے نال یا الٹ کنارے تے لے جاؤ</translation>
+    </message>
+    <message>
+        <source>Bigger steps</source>
+        <translation>وڈے قدم</translation>
+    </message>
+    <message>
+        <source>Dock to that edge</source>
+        <translation>اوس کنارے نال جوڑو</translation>
+    </message>
+    <message>
+        <source>Go round the edges</source>
+        <translation>کناریاں دے دوالے جاؤ</translation>
+    </message>
+    <message>
+        <source>To the start or the end of the edge</source>
+        <translation>کنارے دے شروع یا اخیر تے</translation>
+    </message>
+    <message>
+        <source>On the tab</source>
+        <translation>ٹیب تے</translation>
+    </message>
+    <message>
+        <source>On a Mac, Option+Shift with a letter types a character in a text field: there the field gets it.</source>
+        <translation>Mac تے، حرف نال Option+Shift ٹیکسٹ فیلڈ وچ اک نشان ٹائپ کردا اے: اوتھے فیلڈ نوں ملدا اے۔</translation>
+    </message>
+    <message>
+        <source>Change them in the Me panel</source>
+        <translation>اوہناں نوں «میں» پینل وچ بدلو</translation>
+    </message>
+    <message>
+        <source>Open the Page panel to save its draft.</source>
+        <translation>اوہدا مسودہ محفوظ کرن لئی «صفحہ» پینل کھولو۔</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>اِن باکس</translation>
     </message>

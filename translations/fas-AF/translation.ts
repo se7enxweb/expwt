@@ -844,6 +844,94 @@
         <translation>%n جدید در صندوق ورودی شما</translation>
     </message>
     <message>
+        <source>Open the sidebar or go into it</source>
+        <translation>باز کردن نوار کناری یا رفتن به آن</translation>
+    </message>
+    <message>
+        <source>Save the draft</source>
+        <translation>ذخیرهٔ پیش‌نویس</translation>
+    </message>
+    <message>
+        <source>Keyboard shortcuts</source>
+        <translation>میان‌برهای صفحه‌کلید</translation>
+    </message>
+    <message>
+        <source>Use one letter, A to Z.</source>
+        <translation>یک حرف به کار ببرید، از A تا Z.</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key belongs to the browser or the system.</source>
+        <translation>Alt+Shift+%key متعلق به مرورگر یا سیستم است.</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key is taken: %action.</source>
+        <translation>Alt+Shift+%key گرفته شده است: %action.</translation>
+    </message>
+    <message>
+        <source>This page gives Alt+Shift+%key to one of its links: here the page wins.</source>
+        <translation>این صفحه Alt+Shift+%key را به یکی از پیوندهایش می‌دهد: اینجا صفحه برنده است.</translation>
+    </message>
+    <message>
+        <source>Saved.</source>
+        <translation>ذخیره شد.</translation>
+    </message>
+    <message>
+        <source>Back to the defaults</source>
+        <translation>بازگشت به پیش‌فرض‌ها</translation>
+    </message>
+    <message>
+        <source>All shortcuts</source>
+        <translation>همهٔ میان‌برها</translation>
+    </message>
+    <message>
+        <source>This page uses this key for one of its links: here the page wins.</source>
+        <translation>این صفحه این کلید را برای یکی از پیوندهایش به کار می‌برد: اینجا صفحه برنده است.</translation>
+    </message>
+    <message>
+        <source>Panel: %name</source>
+        <translation>پنل: %name</translation>
+    </message>
+    <message>
+        <source>Open the sidebar</source>
+        <translation>باز کردن نوار کناری</translation>
+    </message>
+    <message>
+        <source>Move the tab along its edge, or to the opposite edge</source>
+        <translation>جابه‌جا کردن زبانه در امتداد لبه‌اش یا به لبهٔ مقابل</translation>
+    </message>
+    <message>
+        <source>Bigger steps</source>
+        <translation>گام‌های بزرگ‌تر</translation>
+    </message>
+    <message>
+        <source>Dock to that edge</source>
+        <translation>چسباندن به آن لبه</translation>
+    </message>
+    <message>
+        <source>Go round the edges</source>
+        <translation>چرخیدن دور لبه‌ها</translation>
+    </message>
+    <message>
+        <source>To the start or the end of the edge</source>
+        <translation>به آغاز یا پایان لبه</translation>
+    </message>
+    <message>
+        <source>On the tab</source>
+        <translation>روی زبانه</translation>
+    </message>
+    <message>
+        <source>On a Mac, Option+Shift with a letter types a character in a text field: there the field gets it.</source>
+        <translation>در Mac، Option+Shift با یک حرف یک نویسه در فیلد متن تایپ می‌کند: آنجا فیلد آن را می‌گیرد.</translation>
+    </message>
+    <message>
+        <source>Change them in the Me panel</source>
+        <translation>آن‌ها را در پنل «من» تغییر دهید</translation>
+    </message>
+    <message>
+        <source>Open the Page panel to save its draft.</source>
+        <translation>پنل «صفحه» را باز کنید تا پیش‌نویس آن ذخیره شود.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>صندوق ورودی</translation>
     </message>

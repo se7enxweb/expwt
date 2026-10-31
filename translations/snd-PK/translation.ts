@@ -844,6 +844,94 @@
         <translation>توهان جي آيل خطن ۾ %n نوان</translation>
     </message>
     <message>
+        <source>Open the sidebar or go into it</source>
+        <translation>سائيڊ بار کوليو يا ان ۾ وڃو</translation>
+    </message>
+    <message>
+        <source>Save the draft</source>
+        <translation>مسودو محفوظ ڪريو</translation>
+    </message>
+    <message>
+        <source>Keyboard shortcuts</source>
+        <translation>ڪيبورڊ شارٽ ڪٽ</translation>
+    </message>
+    <message>
+        <source>Use one letter, A to Z.</source>
+        <translation>هڪ اکر استعمال ڪريو، A کان Z تائين.</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key belongs to the browser or the system.</source>
+        <translation>Alt+Shift+%key برائوزر يا سسٽم جو آهي.</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key is taken: %action.</source>
+        <translation>Alt+Shift+%key اڳ ۾ ئي استعمال ۾ آهي: %action.</translation>
+    </message>
+    <message>
+        <source>This page gives Alt+Shift+%key to one of its links: here the page wins.</source>
+        <translation>هي صفحو Alt+Shift+%key پنهنجي هڪ لنڪ کي ڏئي ٿو: هتي صفحو کٽي ٿو.</translation>
+    </message>
+    <message>
+        <source>Saved.</source>
+        <translation>محفوظ ٿيو.</translation>
+    </message>
+    <message>
+        <source>Back to the defaults</source>
+        <translation>ڊيفالٽ ڏانهن واپس</translation>
+    </message>
+    <message>
+        <source>All shortcuts</source>
+        <translation>سڀ شارٽ ڪٽ</translation>
+    </message>
+    <message>
+        <source>This page uses this key for one of its links: here the page wins.</source>
+        <translation>هي صفحو هي ڪنجي پنهنجي هڪ لنڪ لاءِ استعمال ڪري ٿو: هتي صفحو کٽي ٿو.</translation>
+    </message>
+    <message>
+        <source>Panel: %name</source>
+        <translation>پينل: %name</translation>
+    </message>
+    <message>
+        <source>Open the sidebar</source>
+        <translation>سائيڊ بار کوليو</translation>
+    </message>
+    <message>
+        <source>Move the tab along its edge, or to the opposite edge</source>
+        <translation>ٽيب کي ان جي ڪناري سان يا سامهون ڪناري ڏانهن سوريو</translation>
+    </message>
+    <message>
+        <source>Bigger steps</source>
+        <translation>وڏا قدم</translation>
+    </message>
+    <message>
+        <source>Dock to that edge</source>
+        <translation>ان ڪناري سان ڳنڍيو</translation>
+    </message>
+    <message>
+        <source>Go round the edges</source>
+        <translation>ڪنارن جي چوڌاري وڃو</translation>
+    </message>
+    <message>
+        <source>To the start or the end of the edge</source>
+        <translation>ڪناري جي شروعات يا آخر ڏانهن</translation>
+    </message>
+    <message>
+        <source>On the tab</source>
+        <translation>ٽيب تي</translation>
+    </message>
+    <message>
+        <source>On a Mac, Option+Shift with a letter types a character in a text field: there the field gets it.</source>
+        <translation>Mac تي، اکر سان Option+Shift ٽيڪسٽ فيلڊ ۾ هڪ نشان ٽائپ ڪري ٿو: اتي فيلڊ کي اهو ملي ٿو.</translation>
+    </message>
+    <message>
+        <source>Change them in the Me panel</source>
+        <translation>انهن کي «مان» پينل ۾ بدلايو</translation>
+    </message>
+    <message>
+        <source>Open the Page panel to save its draft.</source>
+        <translation>ان جو مسودو محفوظ ڪرڻ لاءِ «صفحو» پينل کوليو.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>آيل خط</translation>
     </message>

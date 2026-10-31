@@ -844,6 +844,94 @@
         <translation>%n ọhụrụ n'igbe ozi gị</translation>
     </message>
     <message>
+        <source>Open the sidebar or go into it</source>
+        <translation>Mepee ogwe akụkụ ma ọ bụ banye n'ime ya</translation>
+    </message>
+    <message>
+        <source>Save the draft</source>
+        <translation>Chekwaa ndepụta mbụ ahụ</translation>
+    </message>
+    <message>
+        <source>Keyboard shortcuts</source>
+        <translation>Ụzọ mkpirisi kiibọọdụ</translation>
+    </message>
+    <message>
+        <source>Use one letter, A to Z.</source>
+        <translation>Jiri otu mkpụrụedemede, A ruo Z.</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key belongs to the browser or the system.</source>
+        <translation>Alt+Shift+%key bụ nke ihe nchọgharị ma ọ bụ sistemụ.</translation>
+    </message>
+    <message>
+        <source>Alt+Shift+%key is taken: %action.</source>
+        <translation>E werelarị Alt+Shift+%key: %action.</translation>
+    </message>
+    <message>
+        <source>This page gives Alt+Shift+%key to one of its links: here the page wins.</source>
+        <translation>Ibe a na-enye Alt+Shift+%key otu n'ime njikọ ya: ebe a ibe ahụ na-emeri.</translation>
+    </message>
+    <message>
+        <source>Saved.</source>
+        <translation>Echekwala.</translation>
+    </message>
+    <message>
+        <source>Back to the defaults</source>
+        <translation>Laghachi na ndabara</translation>
+    </message>
+    <message>
+        <source>All shortcuts</source>
+        <translation>Ụzọ mkpirisi niile</translation>
+    </message>
+    <message>
+        <source>This page uses this key for one of its links: here the page wins.</source>
+        <translation>Ibe a na-eji igodo a maka otu n'ime njikọ ya: ebe a ibe ahụ na-emeri.</translation>
+    </message>
+    <message>
+        <source>Panel: %name</source>
+        <translation>Panel: %name</translation>
+    </message>
+    <message>
+        <source>Open the sidebar</source>
+        <translation>Mepee ogwe akụkụ</translation>
+    </message>
+    <message>
+        <source>Move the tab along its edge, or to the opposite edge</source>
+        <translation>Bugharịa taabụ ahụ n'akụkụ nsọtụ ya, ma ọ bụ gaa na nsọtụ nke ọzọ</translation>
+    </message>
+    <message>
+        <source>Bigger steps</source>
+        <translation>Nzọụkwụ ka ukwuu</translation>
+    </message>
+    <message>
+        <source>Dock to that edge</source>
+        <translation>Jikọọ na nsọtụ ahụ</translation>
+    </message>
+    <message>
+        <source>Go round the edges</source>
+        <translation>Gaa gburugburu nsọtụ</translation>
+    </message>
+    <message>
+        <source>To the start or the end of the edge</source>
+        <translation>Gaa na mmalite ma ọ bụ njedebe nke nsọtụ</translation>
+    </message>
+    <message>
+        <source>On the tab</source>
+        <translation>Na taabụ</translation>
+    </message>
+    <message>
+        <source>On a Mac, Option+Shift with a letter types a character in a text field: there the field gets it.</source>
+        <translation>Na Mac, Option+Shift na mkpụrụedemede na-ede akara n'ime ogige ederede: n'ebe ahụ ogige ahụ na-enweta ya.</translation>
+    </message>
+    <message>
+        <source>Change them in the Me panel</source>
+        <translation>Gbanwee ha na panel «Mụ»</translation>
+    </message>
+    <message>
+        <source>Open the Page panel to save its draft.</source>
+        <translation>Mepee panel «Ibe» iji chekwaa ndepụta mbụ ya.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Igbe ozi</translation>
     </message>
