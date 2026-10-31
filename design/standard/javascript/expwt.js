@@ -135,6 +135,11 @@
       this.applyState();
       this.wide.addEventListener('change', function () { self.applyState(); });
       this.dark.addEventListener('change', function () { self.applyTheme(); });
+      /* the site's switch: follow it in the same frame (a mutation observer runs before the next paint) */
+      if (window.MutationObserver) {
+        new MutationObserver(function () { self.applyTheme(); })
+          .observe(document.documentElement, { attributes: true, attributeFilter: ['data-exp-theme'] });
+      }
       window.addEventListener('scroll', function () { self.place(); }, { passive: true });
       window.addEventListener('resize', function () { self.place(); });
       document.addEventListener('keydown', function (e) { self.shortcut(e); });
@@ -351,17 +356,28 @@
     }
 
     /* Light or dark, decided before the first frame: the sidebar's own choice; else, for a signed-in user, the
-       server's answer (boot.theme: the administration's color mode), and until it has come firstTheme(); else the
-       system's. The boot answer then only confirms it. */
+       server's answer (boot.theme: the administration's color mode), and until it has come firstTheme(); else (no
+       choice, or the administration's "system") the page's: the site's own light or dark mode where its design has
+       one (siteMode()), the system's elsewhere. The boot answer then only confirms it. */
     applyTheme() {
       var theme = this.state.theme;
       if (theme === 'auto') {
         theme = this.anonymous ? 'system' : (this.boot ? this.boot.theme : this.firstTheme());
       }
       if (theme !== 'light' && theme !== 'dark') {
-        theme = this.dark.matches ? 'dark' : 'light';
+        theme = this.siteMode() || (this.dark.matches ? 'dark' : 'light');
       }
-      this.setAttribute('data-theme', theme);
+      if (this.getAttribute('data-theme') !== theme) {
+        this.setAttribute('data-theme', theme);
+      }
+    }
+
+    /* The site design's own light or dark mode, set on <html> before the body is drawn by its head script and
+       changed by its switch: html[data-exp-theme] light, dark or darker (the media designs' exp-color-mode.js).
+       null where the design has none. */
+    siteMode() {
+      var mode = document.documentElement.getAttribute('data-exp-theme') || '';
+      return mode === 'light' ? 'light' : (mode.indexOf('dark') === 0 ? 'dark' : null);
     }
 
     /* The signed-in user's mode before boot has answered, the way expwtState::theme() decides it: an admin4 page

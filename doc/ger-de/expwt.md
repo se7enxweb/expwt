@@ -36,8 +36,11 @@ der Stelle von ezwt in den aktiven Erweiterungen. Ein Probelauf listet die Ände
 - **Gemerkt:** Seite, Platz, Breite, offen oder geschlossen, neben oder über und hell oder dunkel werden für den
   Benutzer auf dem Server gehalten (sie folgen auf jedes Gerät) oder nur auf diesem Gerät („Diese Einstellungen nur auf
   diesem Gerät behalten"). Ein nicht angemeldeter Besucher behält sie im Browser.
-- **Hell oder dunkel:** die Wahl des Benutzers für die Seitenleiste, sonst seine Wahl für die Administration, sonst
-  die des Systems. Die Seitenleiste sieht auf jedem Design aus wie die Administration (admin4): Sie lebt in einem
+- **Hell oder dunkel:** die Wahl des Benutzers für die Seitenleiste, sonst seine Wahl für die Administration (hell
+  oder dunkel: sie gilt auf jedem Design), sonst die der Seite: auf einem Website-Design mit eigenem Hell/Dunkel-
+  Schalter (die Media-Designs: site, smarty, twig) der Modus dieses Schalters, dem sie beim Umschalten sofort folgt;
+  sonst der des Systems. Nicht angemeldete Besucher und Benutzer mit dem Administrationsmodus "System" bekommen den
+  Modus der Website. Die Seitenleiste sieht auf jedem Design aus wie die Administration (admin4): Sie lebt in einem
   Shadow DOM, die Stile der Website erreichen sie nicht und ihre Stile nicht die Website.
   Die Seitenleiste erscheint vom ersten Bild einer Seite an in ihren endgültigen Farben: erst wenn ihr Stylesheet
   greift, und der Modus eines angemeldeten Benutzers steht fest, bevor die Antwort des Servers da ist (eine

@@ -32,7 +32,10 @@ extensions. A dry run lists the changes first.
 - **Remembered:** side, place, width, open or closed, beside or over, and light or dark are kept for the user on the
   server (they follow to every device), or only on this device ("Keep these settings only on this device"). A visitor
   who is not signed in keeps them in the browser.
-- **Light or dark:** the user's choice for the sidebar, else their choice for the administration, else the system's.
+- **Light or dark:** the user's choice for the sidebar, else their choice for the administration (light or dark: it
+  wins on every design), else the page's: on a site design with its own light/dark switch (the media designs:
+  site, smarty, twig) the mode that switch shows, followed at once when it is flipped; elsewhere the system's.
+  A visitor who is not signed in, and a user whose administration mode is "system", get the site's mode.
   The sidebar looks like the administration (admin4) on every site design: it lives in a Shadow DOM, so the site's
   styles never reach it and its styles never reach the site.
   The sidebar is drawn in its final colors from the first frame of a page: it appears only once its stylesheet
