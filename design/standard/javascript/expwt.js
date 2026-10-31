@@ -388,7 +388,15 @@
           for (var n = el; n && n !== document.body && n !== document.documentElement; n = n.parentElement) {
             if (n === self) { return; }
             var pos = getComputedStyle(n).position;
-            if (pos === 'fixed' || pos === 'sticky') { tops.push(n.getBoundingClientRect().top); return; }
+            if (pos === 'fixed' || pos === 'sticky') {
+              tops.push(n.getBoundingClientRect().top);
+              /* a bar that grows or shrinks later (the debug bar fills in after the first paint): measured again */
+              if (window.ResizeObserver) {
+                self.barWatch = self.barWatch || new ResizeObserver(function () { self.placePill(); });
+                self.barWatch.observe(n);
+              }
+              return;
+            }
           }
         });
       });
