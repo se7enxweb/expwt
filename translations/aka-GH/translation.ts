@@ -564,6 +564,42 @@
         <translation>Nhyehyɛe</translation>
     </message>
     <message>
+        <source>Inbox</source>
+        <translation>Nkrataa a aba</translation>
+    </message>
+    <message>
+        <source>%n waiting for your approval</source>
+        <translation>%n retwɛn wo pene</translation>
+    </message>
+    <message>
+        <source>Nothing is waiting for your approval.</source>
+        <translation>Biribiara ntwɛn wo pene.</translation>
+    </message>
+    <message>
+        <source>From %name, %time</source>
+        <translation>Efi %name, %time</translation>
+    </message>
+    <message>
+        <source>Open the draft</source>
+        <translation>Bue nhyehyɛe no</translation>
+    </message>
+    <message>
+        <source>Comment for the author</source>
+        <translation>Adwene ma ɔkyerɛwfo no</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>Pene so</translation>
+    </message>
+    <message>
+        <source>Deny</source>
+        <translation>Po</translation>
+    </message>
+    <message>
+        <source>The approval could not be decided.</source>
+        <translation>Wɔantumi ansi pene no ho gyinae.</translation>
+    </message>
+    <message>
         <source>Me</source>
         <translation>Me</translation>
     </message>

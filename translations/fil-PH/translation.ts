@@ -564,6 +564,42 @@
         <translation>Istruktura</translation>
     </message>
     <message>
+        <source>Inbox</source>
+        <translation>Inbox</translation>
+    </message>
+    <message>
+        <source>%n waiting for your approval</source>
+        <translation>%n naghihintay ng iyong pag-apruba</translation>
+    </message>
+    <message>
+        <source>Nothing is waiting for your approval.</source>
+        <translation>Walang naghihintay ng iyong pag-apruba.</translation>
+    </message>
+    <message>
+        <source>From %name, %time</source>
+        <translation>Mula kay %name, %time</translation>
+    </message>
+    <message>
+        <source>Open the draft</source>
+        <translation>Buksan ang draft</translation>
+    </message>
+    <message>
+        <source>Comment for the author</source>
+        <translation>Komento para sa may-akda</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>Aprubahan</translation>
+    </message>
+    <message>
+        <source>Deny</source>
+        <translation>Tanggihan</translation>
+    </message>
+    <message>
+        <source>The approval could not be decided.</source>
+        <translation>Hindi mapagpasyahan ang pag-apruba.</translation>
+    </message>
+    <message>
         <source>Me</source>
         <translation>Ako</translation>
     </message>

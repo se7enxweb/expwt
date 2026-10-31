@@ -564,6 +564,42 @@
         <translation>Szerkezet</translation>
     </message>
     <message>
+        <source>Inbox</source>
+        <translation>Beérkezett</translation>
+    </message>
+    <message>
+        <source>%n waiting for your approval</source>
+        <translation>%n vár a jóváhagyásodra</translation>
+    </message>
+    <message>
+        <source>Nothing is waiting for your approval.</source>
+        <translation>Semmi sem vár a jóváhagyásodra.</translation>
+    </message>
+    <message>
+        <source>From %name, %time</source>
+        <translation>Feladó: %name, %time</translation>
+    </message>
+    <message>
+        <source>Open the draft</source>
+        <translation>Piszkozat megnyitása</translation>
+    </message>
+    <message>
+        <source>Comment for the author</source>
+        <translation>Megjegyzés a szerzőnek</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>Jóváhagyás</translation>
+    </message>
+    <message>
+        <source>Deny</source>
+        <translation>Elutasítás</translation>
+    </message>
+    <message>
+        <source>The approval could not be decided.</source>
+        <translation>A jóváhagyásról nem sikerült dönteni.</translation>
+    </message>
+    <message>
         <source>Me</source>
         <translation>Én</translation>
     </message>

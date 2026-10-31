@@ -564,6 +564,42 @@
         <translation>रचना</translation>
     </message>
     <message>
+        <source>Inbox</source>
+        <translation>इनबॉक्स</translation>
+    </message>
+    <message>
+        <source>%n waiting for your approval</source>
+        <translation>%n तुमच्या मान्यतायेची वाट पळयतात</translation>
+    </message>
+    <message>
+        <source>Nothing is waiting for your approval.</source>
+        <translation>तुमच्या मान्यतायेची वाट कांयच पळयना.</translation>
+    </message>
+    <message>
+        <source>From %name, %time</source>
+        <translation>%name कडल्यान, %time</translation>
+    </message>
+    <message>
+        <source>Open the draft</source>
+        <translation>मसुदो उगडात</translation>
+    </message>
+    <message>
+        <source>Comment for the author</source>
+        <translation>बरोवप्याखातीर टिप्पणी</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>मान्य करात</translation>
+    </message>
+    <message>
+        <source>Deny</source>
+        <translation>न्हयकारात</translation>
+    </message>
+    <message>
+        <source>The approval could not be decided.</source>
+        <translation>मान्यतायेचेर निर्णय घेवंक जालो ना.</translation>
+    </message>
+    <message>
         <source>Me</source>
         <translation>हांव</translation>
     </message>

@@ -564,6 +564,42 @@
         <translation>Tëralin</translation>
     </message>
     <message>
+        <source>Inbox</source>
+        <translation>Bataaxal yu dikk</translation>
+    </message>
+    <message>
+        <source>%n waiting for your approval</source>
+        <translation>%n dañuy xaar sa nangu</translation>
+    </message>
+    <message>
+        <source>Nothing is waiting for your approval.</source>
+        <translation>Dara du xaar sa nangu.</translation>
+    </message>
+    <message>
+        <source>From %name, %time</source>
+        <translation>Ci %name, %time</translation>
+    </message>
+    <message>
+        <source>Open the draft</source>
+        <translation>Ubbi sémb bi</translation>
+    </message>
+    <message>
+        <source>Comment for the author</source>
+        <translation>Xalaat ngir bindkat bi</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>Nangu</translation>
+    </message>
+    <message>
+        <source>Deny</source>
+        <translation>Bañ</translation>
+    </message>
+    <message>
+        <source>The approval could not be decided.</source>
+        <translation>Mënuñu woon a jël dogal ci nangu gi.</translation>
+    </message>
+    <message>
         <source>Me</source>
         <translation>Man</translation>
     </message>

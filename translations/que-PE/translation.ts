@@ -564,6 +564,42 @@
         <translation>Estructura</translation>
     </message>
     <message>
+        <source>Inbox</source>
+        <translation>Chaskina</translation>
+    </message>
+    <message>
+        <source>%n waiting for your approval</source>
+        <translation>%n chaskikuyniykita suyachkanku</translation>
+    </message>
+    <message>
+        <source>Nothing is waiting for your approval.</source>
+        <translation>Manam imapas chaskikuyniykita suyachkanchu.</translation>
+    </message>
+    <message>
+        <source>From %name, %time</source>
+        <translation>%name-manta, %time</translation>
+    </message>
+    <message>
+        <source>Open the draft</source>
+        <translation>Qillqa ñawpaqta kichay</translation>
+    </message>
+    <message>
+        <source>Comment for the author</source>
+        <translation>Qillqaqpaq rimay</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>Chaskiy</translation>
+    </message>
+    <message>
+        <source>Deny</source>
+        <translation>Mana chaskiy</translation>
+    </message>
+    <message>
+        <source>The approval could not be decided.</source>
+        <translation>Manam chaskikuymanta yuyaykuyta atikurqanchu.</translation>
+    </message>
+    <message>
         <source>Me</source>
         <translation>Ñuqa</translation>
     </message>

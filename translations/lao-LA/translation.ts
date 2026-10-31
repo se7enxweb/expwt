@@ -564,6 +564,42 @@
         <translation>ໂຄງສ້າງ</translation>
     </message>
     <message>
+        <source>Inbox</source>
+        <translation>ກ່ອງຂາເຂົ້າ</translation>
+    </message>
+    <message>
+        <source>%n waiting for your approval</source>
+        <translation>%n ລໍຖ້າການອະນຸມັດຂອງທ່ານ</translation>
+    </message>
+    <message>
+        <source>Nothing is waiting for your approval.</source>
+        <translation>ບໍ່ມີຫຍັງລໍຖ້າການອະນຸມັດຂອງທ່ານ.</translation>
+    </message>
+    <message>
+        <source>From %name, %time</source>
+        <translation>ຈາກ %name, %time</translation>
+    </message>
+    <message>
+        <source>Open the draft</source>
+        <translation>ເປີດຮ່າງ</translation>
+    </message>
+    <message>
+        <source>Comment for the author</source>
+        <translation>ຄຳເຫັນສຳລັບຜູ້ຂຽນ</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>ອະນຸມັດ</translation>
+    </message>
+    <message>
+        <source>Deny</source>
+        <translation>ປະຕິເສດ</translation>
+    </message>
+    <message>
+        <source>The approval could not be decided.</source>
+        <translation>ບໍ່ສາມາດຕັດສິນການອະນຸມັດໄດ້.</translation>
+    </message>
+    <message>
         <source>Me</source>
         <translation>ຂ້ອຍ</translation>
     </message>

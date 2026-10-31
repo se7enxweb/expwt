@@ -564,6 +564,42 @@
         <translation>מבנה</translation>
     </message>
     <message>
+        <source>Inbox</source>
+        <translation>תיבת דואר נכנס</translation>
+    </message>
+    <message>
+        <source>%n waiting for your approval</source>
+        <translation>%n ממתינים לאישורך</translation>
+    </message>
+    <message>
+        <source>Nothing is waiting for your approval.</source>
+        <translation>שום דבר אינו ממתין לאישורך.</translation>
+    </message>
+    <message>
+        <source>From %name, %time</source>
+        <translation>מאת %name, %time</translation>
+    </message>
+    <message>
+        <source>Open the draft</source>
+        <translation>פתיחת הטיוטה</translation>
+    </message>
+    <message>
+        <source>Comment for the author</source>
+        <translation>הערה לכותב</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>אישור</translation>
+    </message>
+    <message>
+        <source>Deny</source>
+        <translation>דחייה</translation>
+    </message>
+    <message>
+        <source>The approval could not be decided.</source>
+        <translation>לא ניתן היה להכריע באישור.</translation>
+    </message>
+    <message>
         <source>Me</source>
         <translation>אני</translation>
     </message>

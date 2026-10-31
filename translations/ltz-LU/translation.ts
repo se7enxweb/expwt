@@ -564,6 +564,42 @@
         <translation>Struktur</translation>
     </message>
     <message>
+        <source>Inbox</source>
+        <translation>Postkëscht</translation>
+    </message>
+    <message>
+        <source>%n waiting for your approval</source>
+        <translation>%n waarden op Är Fräigab</translation>
+    </message>
+    <message>
+        <source>Nothing is waiting for your approval.</source>
+        <translation>Näischt waart op Är Fräigab.</translation>
+    </message>
+    <message>
+        <source>From %name, %time</source>
+        <translation>Vun %name, %time</translation>
+    </message>
+    <message>
+        <source>Open the draft</source>
+        <translation>Entworf opmaachen</translation>
+    </message>
+    <message>
+        <source>Comment for the author</source>
+        <translation>Kommentar fir den Auteur</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>Fräiginn</translation>
+    </message>
+    <message>
+        <source>Deny</source>
+        <translation>Refuséieren</translation>
+    </message>
+    <message>
+        <source>The approval could not be decided.</source>
+        <translation>Iwwer d'Fräigab konnt net decidéiert ginn.</translation>
+    </message>
+    <message>
         <source>Me</source>
         <translation>Ech</translation>
     </message>

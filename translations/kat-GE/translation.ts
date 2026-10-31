@@ -564,6 +564,42 @@
         <translation>სტრუქტურა</translation>
     </message>
     <message>
+        <source>Inbox</source>
+        <translation>შემოსულები</translation>
+    </message>
+    <message>
+        <source>%n waiting for your approval</source>
+        <translation>%n ელოდება თქვენს დამტკიცებას</translation>
+    </message>
+    <message>
+        <source>Nothing is waiting for your approval.</source>
+        <translation>არაფერი ელოდება თქვენს დამტკიცებას.</translation>
+    </message>
+    <message>
+        <source>From %name, %time</source>
+        <translation>%name-სგან, %time</translation>
+    </message>
+    <message>
+        <source>Open the draft</source>
+        <translation>მონახაზის გახსნა</translation>
+    </message>
+    <message>
+        <source>Comment for the author</source>
+        <translation>კომენტარი ავტორისთვის</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>დამტკიცება</translation>
+    </message>
+    <message>
+        <source>Deny</source>
+        <translation>უარყოფა</translation>
+    </message>
+    <message>
+        <source>The approval could not be decided.</source>
+        <translation>დამტკიცების შესახებ გადაწყვეტილების მიღება ვერ მოხერხდა.</translation>
+    </message>
+    <message>
         <source>Me</source>
         <translation>მე</translation>
     </message>

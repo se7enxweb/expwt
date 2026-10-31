@@ -564,6 +564,42 @@
         <translation>માળખું</translation>
     </message>
     <message>
+        <source>Inbox</source>
+        <translation>ઇનબોક્સ</translation>
+    </message>
+    <message>
+        <source>%n waiting for your approval</source>
+        <translation>%n તમારી મંજૂરીની રાહ જુએ છે</translation>
+    </message>
+    <message>
+        <source>Nothing is waiting for your approval.</source>
+        <translation>તમારી મંજૂરીની રાહ જોતું કંઈ નથી.</translation>
+    </message>
+    <message>
+        <source>From %name, %time</source>
+        <translation>%name તરફથી, %time</translation>
+    </message>
+    <message>
+        <source>Open the draft</source>
+        <translation>ડ્રાફ્ટ ખોલો</translation>
+    </message>
+    <message>
+        <source>Comment for the author</source>
+        <translation>લેખક માટે ટિપ્પણી</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>મંજૂર કરો</translation>
+    </message>
+    <message>
+        <source>Deny</source>
+        <translation>નામંજૂર કરો</translation>
+    </message>
+    <message>
+        <source>The approval could not be decided.</source>
+        <translation>મંજૂરી અંગે નિર્ણય લઈ શકાયો નહીં.</translation>
+    </message>
+    <message>
         <source>Me</source>
         <translation>હું</translation>
     </message>

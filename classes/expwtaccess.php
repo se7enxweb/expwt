@@ -49,6 +49,9 @@ class expwtAccess
         'tree.reveal'     => array( 'structure', true, 'content', 'hide', '' ),
         'tree.trash'      => array( 'structure', true, 'content', 'removeobject', 'ConfirmButton' ),
         'tree.sort'       => array( 'structure', true, 'content', 'action', 'UpdatePriorityButton' ),
+        // the approvals of the kernel's approve workflow (F29): the kernel's collaboration policy decides who has them
+        'inbox.load'      => array( 'use', false, '', '', '' ),
+        'inbox.decide'    => array( 'use', true, 'collaboration', 'action', 'CollaborationActionCustom' ),
     );
 
     /** @return bool */

@@ -564,6 +564,42 @@
         <translation>Structuur</translation>
     </message>
     <message>
+        <source>Inbox</source>
+        <translation>Inbox</translation>
+    </message>
+    <message>
+        <source>%n waiting for your approval</source>
+        <translation>%n wachten op je goedkeuring</translation>
+    </message>
+    <message>
+        <source>Nothing is waiting for your approval.</source>
+        <translation>Niets wacht op je goedkeuring.</translation>
+    </message>
+    <message>
+        <source>From %name, %time</source>
+        <translation>Van %name, %time</translation>
+    </message>
+    <message>
+        <source>Open the draft</source>
+        <translation>Concept openen</translation>
+    </message>
+    <message>
+        <source>Comment for the author</source>
+        <translation>Opmerking voor de auteur</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>Goedkeuren</translation>
+    </message>
+    <message>
+        <source>Deny</source>
+        <translation>Afwijzen</translation>
+    </message>
+    <message>
+        <source>The approval could not be decided.</source>
+        <translation>Over de goedkeuring kon niet worden beslist.</translation>
+    </message>
+    <message>
         <source>Me</source>
         <translation>Ik</translation>
     </message>

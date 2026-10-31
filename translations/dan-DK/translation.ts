@@ -564,6 +564,42 @@
         <translation>Struktur</translation>
     </message>
     <message>
+        <source>Inbox</source>
+        <translation>Indbakke</translation>
+    </message>
+    <message>
+        <source>%n waiting for your approval</source>
+        <translation>%n venter på din godkendelse</translation>
+    </message>
+    <message>
+        <source>Nothing is waiting for your approval.</source>
+        <translation>Intet venter på din godkendelse.</translation>
+    </message>
+    <message>
+        <source>From %name, %time</source>
+        <translation>Fra %name, %time</translation>
+    </message>
+    <message>
+        <source>Open the draft</source>
+        <translation>Åbn kladden</translation>
+    </message>
+    <message>
+        <source>Comment for the author</source>
+        <translation>Kommentar til forfatteren</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>Godkend</translation>
+    </message>
+    <message>
+        <source>Deny</source>
+        <translation>Afvis</translation>
+    </message>
+    <message>
+        <source>The approval could not be decided.</source>
+        <translation>Godkendelsen kunne ikke afgøres.</translation>
+    </message>
+    <message>
         <source>Me</source>
         <translation>Mig</translation>
     </message>

@@ -564,6 +564,42 @@
         <translation>Strukturo</translation>
     </message>
     <message>
+        <source>Inbox</source>
+        <translation>Enirkesto</translation>
+    </message>
+    <message>
+        <source>%n waiting for your approval</source>
+        <translation>%n atendas vian aprobon</translation>
+    </message>
+    <message>
+        <source>Nothing is waiting for your approval.</source>
+        <translation>Nenio atendas vian aprobon.</translation>
+    </message>
+    <message>
+        <source>From %name, %time</source>
+        <translation>De %name, %time</translation>
+    </message>
+    <message>
+        <source>Open the draft</source>
+        <translation>Malfermi la malneton</translation>
+    </message>
+    <message>
+        <source>Comment for the author</source>
+        <translation>Komento por la aŭtoro</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>Aprobi</translation>
+    </message>
+    <message>
+        <source>Deny</source>
+        <translation>Rifuzi</translation>
+    </message>
+    <message>
+        <source>The approval could not be decided.</source>
+        <translation>Ne eblis decidi pri la aprobo.</translation>
+    </message>
+    <message>
         <source>Me</source>
         <translation>Mi</translation>
     </message>

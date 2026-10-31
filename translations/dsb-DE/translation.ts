@@ -564,6 +564,42 @@
         <translation>Struktura</translation>
     </message>
     <message>
+        <source>Inbox</source>
+        <translation>Dostaśe</translation>
+    </message>
+    <message>
+        <source>%n waiting for your approval</source>
+        <translation>%n caka na wašo pśizwólenje</translation>
+    </message>
+    <message>
+        <source>Nothing is waiting for your approval.</source>
+        <translation>Nic na wašo pśizwólenje njecaka.</translation>
+    </message>
+    <message>
+        <source>From %name, %time</source>
+        <translation>Wót %name, %time</translation>
+    </message>
+    <message>
+        <source>Open the draft</source>
+        <translation>Nacerjenje wócyniś</translation>
+    </message>
+    <message>
+        <source>Comment for the author</source>
+        <translation>Komentar za awtora</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>Pśizwóliś</translation>
+    </message>
+    <message>
+        <source>Deny</source>
+        <translation>Wótpokazaś</translation>
+    </message>
+    <message>
+        <source>The approval could not be decided.</source>
+        <translation>Wó pśizwólenju njejo se dało rozsuźiś.</translation>
+    </message>
+    <message>
         <source>Me</source>
         <translation>Ja</translation>
     </message>

@@ -564,6 +564,42 @@
         <translation>Chimiro</translation>
     </message>
     <message>
+        <source>Inbox</source>
+        <translation>Bhokisi rinopinda</translation>
+    </message>
+    <message>
+        <source>%n waiting for your approval</source>
+        <translation>%n zvakamirira kubvuma kwako</translation>
+    </message>
+    <message>
+        <source>Nothing is waiting for your approval.</source>
+        <translation>Hapana chakamirira kubvuma kwako.</translation>
+    </message>
+    <message>
+        <source>From %name, %time</source>
+        <translation>Kubva kuna %name, %time</translation>
+    </message>
+    <message>
+        <source>Open the draft</source>
+        <translation>Vhura chinyorwa chekutanga</translation>
+    </message>
+    <message>
+        <source>Comment for the author</source>
+        <translation>Mhinduro kumunyori</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>Bvuma</translation>
+    </message>
+    <message>
+        <source>Deny</source>
+        <translation>Ramba</translation>
+    </message>
+    <message>
+        <source>The approval could not be decided.</source>
+        <translation>Kubvuma hakuna kugona kusarudzwa.</translation>
+    </message>
+    <message>
         <source>Me</source>
         <translation>Ini</translation>
     </message>

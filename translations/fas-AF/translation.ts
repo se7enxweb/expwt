@@ -564,6 +564,42 @@
         <translation>ساختار</translation>
     </message>
     <message>
+        <source>Inbox</source>
+        <translation>صندوق ورودی</translation>
+    </message>
+    <message>
+        <source>%n waiting for your approval</source>
+        <translation>%n در انتظار تأیید شما</translation>
+    </message>
+    <message>
+        <source>Nothing is waiting for your approval.</source>
+        <translation>چیزی در انتظار تأیید شما نیست.</translation>
+    </message>
+    <message>
+        <source>From %name, %time</source>
+        <translation>از %name، %time</translation>
+    </message>
+    <message>
+        <source>Open the draft</source>
+        <translation>باز کردن پیش‌نویس</translation>
+    </message>
+    <message>
+        <source>Comment for the author</source>
+        <translation>نظر برای نویسنده</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>تأیید</translation>
+    </message>
+    <message>
+        <source>Deny</source>
+        <translation>رد</translation>
+    </message>
+    <message>
+        <source>The approval could not be decided.</source>
+        <translation>تصمیم‌گیری درباره تأیید ممکن نشد.</translation>
+    </message>
+    <message>
         <source>Me</source>
         <translation>من</translation>
     </message>

@@ -576,6 +576,34 @@ a { color: var(--a4-accent-text); }
 .wt-rich { min-block-size: calc(var(--a4-space-7) * 3); overflow: auto; }
 .wt-field[data-dirty="true"] > span::after { content: " *"; color: var(--a4-accent-text); }
 .wt-field[data-highlight="true"] { outline: 2px dashed var(--a4-accent); outline-offset: var(--a4-space-1); }
+/* the count of approvals waiting for the user (F29): on the closed tab and on the Inbox panel's tab */
+.wt-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-inline-size: var(--a4-space-5);
+  min-block-size: var(--a4-space-5);
+  padding: 0 var(--a4-space-1);
+  border-radius: var(--a4-radius);
+  background: var(--a4-accent-strong);
+  color: var(--a4-on-accent);
+  font-size: var(--a4-text-xs);
+  font-weight: var(--a4-weight-strong);
+  line-height: var(--a4-leading-none);
+  writing-mode: horizontal-tb;
+}
+:host([data-theme="dark"]) .wt-badge { background: var(--a4-accent); color: var(--a4-on-accent-hover); }
+.wt-tabs [role="tab"] .wt-badge { margin-inline-start: var(--a4-space-1); }
+/* on the selected tab (the accent fill) the badge turns around, so it stays visible */
+.wt-tabs [role="tab"][aria-selected="true"] .wt-badge { background: var(--a4-surface); color: var(--a4-accent-text); }
+/* the Inbox panel: one card per approval */
+.wt-inbox { display: grid; gap: var(--a4-space-3); margin: var(--a4-space-2) 0 0; padding: 0; list-style: none; }
+.wt-inbox-item { min-inline-size: 0; padding: var(--a4-space-3); border: 1px solid var(--a4-line); border-radius: var(--a4-radius-s); background: var(--a4-card); overflow-wrap: break-word; }
+.wt-inbox-item > h4 { margin: 0 0 var(--a4-space-1); font-size: var(--a4-text-m); }
+.wt-inbox-item > p { margin: 0 0 var(--a4-space-2); }
+.wt-inbox-item > .wt-field { margin-block: var(--a4-space-2); }
+.wt-quote { margin: 0 0 var(--a4-space-2); padding: var(--a4-space-1) var(--a4-space-3); border-inline-start: 3px solid var(--a4-line-strong); }
+.wt-quote > p { margin: 0; white-space: pre-line; }
 /* a group of fields of one category (Meta) at the end of the Page panel: closed until opened, as content/edit has it */
 .wt-group { padding-block-start: var(--a4-space-2); border-block-start: 1px solid var(--a4-line); }
 .wt-group > summary {

@@ -564,6 +564,42 @@
         <translation>Imiterere</translation>
     </message>
     <message>
+        <source>Inbox</source>
+        <translation>Ubutumwa bwinjira</translation>
+    </message>
+    <message>
+        <source>%n waiting for your approval</source>
+        <translation>%n bitegereje ko ubyemeza</translation>
+    </message>
+    <message>
+        <source>Nothing is waiting for your approval.</source>
+        <translation>Nta kintu gitegereje ko ucyemeza.</translation>
+    </message>
+    <message>
+        <source>From %name, %time</source>
+        <translation>Bivuye kuri %name, %time</translation>
+    </message>
+    <message>
+        <source>Open the draft</source>
+        <translation>Fungura umushinga</translation>
+    </message>
+    <message>
+        <source>Comment for the author</source>
+        <translation>Igitekerezo ku mwanditsi</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>Emeza</translation>
+    </message>
+    <message>
+        <source>Deny</source>
+        <translation>Anga</translation>
+    </message>
+    <message>
+        <source>The approval could not be decided.</source>
+        <translation>Ntibyashobotse gufata icyemezo ku kwemeza.</translation>
+    </message>
+    <message>
         <source>Me</source>
         <translation>Njye</translation>
     </message>

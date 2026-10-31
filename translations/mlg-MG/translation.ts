@@ -564,6 +564,42 @@
         <translation>Rafitra</translation>
     </message>
     <message>
+        <source>Inbox</source>
+        <translation>Boaty fandraisana</translation>
+    </message>
+    <message>
+        <source>%n waiting for your approval</source>
+        <translation>%n miandry ny fankatoavanao</translation>
+    </message>
+    <message>
+        <source>Nothing is waiting for your approval.</source>
+        <translation>Tsy misy miandry ny fankatoavanao.</translation>
+    </message>
+    <message>
+        <source>From %name, %time</source>
+        <translation>Avy amin'i %name, %time</translation>
+    </message>
+    <message>
+        <source>Open the draft</source>
+        <translation>Sokafy ny drafitra</translation>
+    </message>
+    <message>
+        <source>Comment for the author</source>
+        <translation>Hevitra ho an'ny mpanoratra</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>Ankatoavy</translation>
+    </message>
+    <message>
+        <source>Deny</source>
+        <translation>Laviny</translation>
+    </message>
+    <message>
+        <source>The approval could not be decided.</source>
+        <translation>Tsy azo natao ny fanapahan-kevitra momba ny fankatoavana.</translation>
+    </message>
+    <message>
         <source>Me</source>
         <translation>Izaho</translation>
     </message>

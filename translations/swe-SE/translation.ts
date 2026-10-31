@@ -564,6 +564,42 @@
         <translation>Struktur</translation>
     </message>
     <message>
+        <source>Inbox</source>
+        <translation>Inkorg</translation>
+    </message>
+    <message>
+        <source>%n waiting for your approval</source>
+        <translation>%n väntar på ditt godkännande</translation>
+    </message>
+    <message>
+        <source>Nothing is waiting for your approval.</source>
+        <translation>Inget väntar på ditt godkännande.</translation>
+    </message>
+    <message>
+        <source>From %name, %time</source>
+        <translation>Från %name, %time</translation>
+    </message>
+    <message>
+        <source>Open the draft</source>
+        <translation>Öppna utkastet</translation>
+    </message>
+    <message>
+        <source>Comment for the author</source>
+        <translation>Kommentar till författaren</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>Godkänn</translation>
+    </message>
+    <message>
+        <source>Deny</source>
+        <translation>Avslå</translation>
+    </message>
+    <message>
+        <source>The approval could not be decided.</source>
+        <translation>Godkännandet kunde inte avgöras.</translation>
+    </message>
+    <message>
         <source>Me</source>
         <translation>Jag</translation>
     </message>

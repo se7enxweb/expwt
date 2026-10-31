@@ -564,6 +564,42 @@
         <translation>गाहाय गुदि</translation>
     </message>
     <message>
+        <source>Inbox</source>
+        <translation>इनबक्स</translation>
+    </message>
+    <message>
+        <source>%n waiting for your approval</source>
+        <translation>%n नोंथांनि गनायथि नायलांनाय</translation>
+    </message>
+    <message>
+        <source>Nothing is waiting for your approval.</source>
+        <translation>नोंथांनि गनायथि नायलांनाय जेबो गैया।</translation>
+    </message>
+    <message>
+        <source>From %name, %time</source>
+        <translation>%name निफ्राय, %time</translation>
+    </message>
+    <message>
+        <source>Open the draft</source>
+        <translation>ड्राफ्टखौ खेव</translation>
+    </message>
+    <message>
+        <source>Comment for the author</source>
+        <translation>लिरगिरनि थाखाय मन्थव</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>गनायथि हो</translation>
+    </message>
+    <message>
+        <source>Deny</source>
+        <translation>नेवसि</translation>
+    </message>
+    <message>
+        <source>The approval could not be decided.</source>
+        <translation>गनायथि सिमांखौ लानो हायाखिसै।</translation>
+    </message>
+    <message>
         <source>Me</source>
         <translation>आं</translation>
     </message>

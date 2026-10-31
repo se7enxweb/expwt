@@ -564,6 +564,42 @@
         <translation>Структура</translation>
     </message>
     <message>
+        <source>Inbox</source>
+        <translation>Чуйогӏу</translation>
+    </message>
+    <message>
+        <source>%n waiting for your approval</source>
+        <translation>%n шун тӀечӀагӀдаре хьоьжу</translation>
+    </message>
+    <message>
+        <source>Nothing is waiting for your approval.</source>
+        <translation>Шун тӀечӀагӀдаре хьоьжуш хӀумма а дац.</translation>
+    </message>
+    <message>
+        <source>From %name, %time</source>
+        <translation>%name, %time</translation>
+    </message>
+    <message>
+        <source>Open the draft</source>
+        <translation>Хьалха язбинарг схьаелла</translation>
+    </message>
+    <message>
+        <source>Comment for the author</source>
+        <translation>Авторна комментари</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>ТӀечӀагӀде</translation>
+    </message>
+    <message>
+        <source>Deny</source>
+        <translation>Дӏатоха</translation>
+    </message>
+    <message>
+        <source>The approval could not be decided.</source>
+        <translation>ТӀечӀагӀдарх лаьцна сацам бан ца делира.</translation>
+    </message>
+    <message>
         <source>Me</source>
         <translation>Со</translation>
     </message>

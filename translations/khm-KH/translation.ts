@@ -564,6 +564,42 @@
         <translation>រចនាសម្ព័ន្ធ</translation>
     </message>
     <message>
+        <source>Inbox</source>
+        <translation>ប្រអប់ទទួល</translation>
+    </message>
+    <message>
+        <source>%n waiting for your approval</source>
+        <translation>%n កំពុងរង់ចាំការអនុម័តរបស់អ្នក</translation>
+    </message>
+    <message>
+        <source>Nothing is waiting for your approval.</source>
+        <translation>គ្មានអ្វីកំពុងរង់ចាំការអនុម័តរបស់អ្នកទេ។</translation>
+    </message>
+    <message>
+        <source>From %name, %time</source>
+        <translation>ពី %name, %time</translation>
+    </message>
+    <message>
+        <source>Open the draft</source>
+        <translation>បើកសេចក្ដីព្រាង</translation>
+    </message>
+    <message>
+        <source>Comment for the author</source>
+        <translation>មតិសម្រាប់អ្នកនិពន្ធ</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>អនុម័ត</translation>
+    </message>
+    <message>
+        <source>Deny</source>
+        <translation>បដិសេធ</translation>
+    </message>
+    <message>
+        <source>The approval could not be decided.</source>
+        <translation>មិនអាចសម្រេចលើការអនុម័តបានទេ។</translation>
+    </message>
+    <message>
         <source>Me</source>
         <translation>ខ្ញុំ</translation>
     </message>

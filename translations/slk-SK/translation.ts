@@ -564,6 +564,42 @@
         <translation>Štruktúra</translation>
     </message>
     <message>
+        <source>Inbox</source>
+        <translation>Doručené</translation>
+    </message>
+    <message>
+        <source>%n waiting for your approval</source>
+        <translation>%n čaká na vaše schválenie</translation>
+    </message>
+    <message>
+        <source>Nothing is waiting for your approval.</source>
+        <translation>Nič nečaká na vaše schválenie.</translation>
+    </message>
+    <message>
+        <source>From %name, %time</source>
+        <translation>Od %name, %time</translation>
+    </message>
+    <message>
+        <source>Open the draft</source>
+        <translation>Otvoriť koncept</translation>
+    </message>
+    <message>
+        <source>Comment for the author</source>
+        <translation>Komentár pre autora</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>Schváliť</translation>
+    </message>
+    <message>
+        <source>Deny</source>
+        <translation>Zamietnuť</translation>
+    </message>
+    <message>
+        <source>The approval could not be decided.</source>
+        <translation>O schválení sa nepodarilo rozhodnúť.</translation>
+    </message>
+    <message>
         <source>Me</source>
         <translation>Ja</translation>
     </message>

@@ -564,6 +564,42 @@
         <translation>Struktur</translation>
     </message>
     <message>
+        <source>Inbox</source>
+        <translation>Kotak asup</translation>
+    </message>
+    <message>
+        <source>%n waiting for your approval</source>
+        <translation>%n ngantosan persetujuan anjeun</translation>
+    </message>
+    <message>
+        <source>Nothing is waiting for your approval.</source>
+        <translation>Teu aya anu ngantosan persetujuan anjeun.</translation>
+    </message>
+    <message>
+        <source>From %name, %time</source>
+        <translation>Ti %name, %time</translation>
+    </message>
+    <message>
+        <source>Open the draft</source>
+        <translation>Buka draf</translation>
+    </message>
+    <message>
+        <source>Comment for the author</source>
+        <translation>Koméntar pikeun panulis</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>Satujuan</translation>
+    </message>
+    <message>
+        <source>Deny</source>
+        <translation>Tolak</translation>
+    </message>
+    <message>
+        <source>The approval could not be decided.</source>
+        <translation>Persetujuan teu tiasa diputuskeun.</translation>
+    </message>
+    <message>
         <source>Me</source>
         <translation>Kuring</translation>
     </message>

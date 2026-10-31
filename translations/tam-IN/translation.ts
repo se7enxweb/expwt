@@ -564,6 +564,42 @@
         <translation>கட்டமைப்பு</translation>
     </message>
     <message>
+        <source>Inbox</source>
+        <translation>உள்பெட்டி</translation>
+    </message>
+    <message>
+        <source>%n waiting for your approval</source>
+        <translation>%n உங்கள் ஒப்புதலுக்காகக் காத்திருக்கின்றன</translation>
+    </message>
+    <message>
+        <source>Nothing is waiting for your approval.</source>
+        <translation>உங்கள் ஒப்புதலுக்காக எதுவும் காத்திருக்கவில்லை.</translation>
+    </message>
+    <message>
+        <source>From %name, %time</source>
+        <translation>%name இடமிருந்து, %time</translation>
+    </message>
+    <message>
+        <source>Open the draft</source>
+        <translation>வரைவைத் திற</translation>
+    </message>
+    <message>
+        <source>Comment for the author</source>
+        <translation>ஆசிரியருக்கான கருத்து</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>ஒப்புதல் அளி</translation>
+    </message>
+    <message>
+        <source>Deny</source>
+        <translation>நிராகரி</translation>
+    </message>
+    <message>
+        <source>The approval could not be decided.</source>
+        <translation>ஒப்புதல் குறித்து முடிவெடுக்க இயலவில்லை.</translation>
+    </message>
+    <message>
         <source>Me</source>
         <translation>நான்</translation>
     </message>

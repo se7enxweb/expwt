@@ -564,6 +564,42 @@
         <translation>โครงสร้าง</translation>
     </message>
     <message>
+        <source>Inbox</source>
+        <translation>กล่องขาเข้า</translation>
+    </message>
+    <message>
+        <source>%n waiting for your approval</source>
+        <translation>%n รายการรอการอนุมัติของคุณ</translation>
+    </message>
+    <message>
+        <source>Nothing is waiting for your approval.</source>
+        <translation>ไม่มีรายการรอการอนุมัติของคุณ</translation>
+    </message>
+    <message>
+        <source>From %name, %time</source>
+        <translation>จาก %name, %time</translation>
+    </message>
+    <message>
+        <source>Open the draft</source>
+        <translation>เปิดฉบับร่าง</translation>
+    </message>
+    <message>
+        <source>Comment for the author</source>
+        <translation>ความคิดเห็นถึงผู้เขียน</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>อนุมัติ</translation>
+    </message>
+    <message>
+        <source>Deny</source>
+        <translation>ปฏิเสธ</translation>
+    </message>
+    <message>
+        <source>The approval could not be decided.</source>
+        <translation>ไม่สามารถตัดสินการอนุมัติได้</translation>
+    </message>
+    <message>
         <source>Me</source>
         <translation>ฉัน</translation>
     </message>

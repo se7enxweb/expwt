@@ -564,6 +564,42 @@
         <translation>Ɖoɖowɔwɔ</translation>
     </message>
     <message>
+        <source>Inbox</source>
+        <translation>Agbalẽ siwo va</translation>
+    </message>
+    <message>
+        <source>%n waiting for your approval</source>
+        <translation>%n le lalam na wò ɖeɖe ɖe edzi</translation>
+    </message>
+    <message>
+        <source>Nothing is waiting for your approval.</source>
+        <translation>Naneke mele lalam na wò ɖeɖe ɖe edzi o.</translation>
+    </message>
+    <message>
+        <source>From %name, %time</source>
+        <translation>Tso %name gbɔ, %time</translation>
+    </message>
+    <message>
+        <source>Open the draft</source>
+        <translation>Ʋu ŋɔŋlɔ gbãtɔ</translation>
+    </message>
+    <message>
+        <source>Comment for the author</source>
+        <translation>Nya na ŋlɔla</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>Ɖe asi ɖe edzi</translation>
+    </message>
+    <message>
+        <source>Deny</source>
+        <translation>Gbe</translation>
+    </message>
+    <message>
+        <source>The approval could not be decided.</source>
+        <translation>Womete ŋu tso nya me le ɖeɖe ɖe edzi ŋu o.</translation>
+    </message>
+    <message>
         <source>Me</source>
         <translation>Nye</translation>
     </message>

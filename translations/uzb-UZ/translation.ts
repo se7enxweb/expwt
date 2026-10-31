@@ -564,6 +564,42 @@
         <translation>Tuzilma</translation>
     </message>
     <message>
+        <source>Inbox</source>
+        <translation>Kiruvchilar</translation>
+    </message>
+    <message>
+        <source>%n waiting for your approval</source>
+        <translation>%n sizning tasdiqlashingizni kutmoqda</translation>
+    </message>
+    <message>
+        <source>Nothing is waiting for your approval.</source>
+        <translation>Hech narsa tasdiqlashingizni kutmayapti.</translation>
+    </message>
+    <message>
+        <source>From %name, %time</source>
+        <translation>%name, %time</translation>
+    </message>
+    <message>
+        <source>Open the draft</source>
+        <translation>Qoralamani ochish</translation>
+    </message>
+    <message>
+        <source>Comment for the author</source>
+        <translation>Muallif uchun izoh</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>Tasdiqlash</translation>
+    </message>
+    <message>
+        <source>Deny</source>
+        <translation>Rad etish</translation>
+    </message>
+    <message>
+        <source>The approval could not be decided.</source>
+        <translation>Tasdiqlash bo'yicha qaror qabul qilib bo'lmadi.</translation>
+    </message>
+    <message>
         <source>Me</source>
         <translation>Men</translation>
     </message>

@@ -564,6 +564,42 @@
         <translation>Aaqqissuussaaneq</translation>
     </message>
     <message>
+        <source>Inbox</source>
+        <translation>Tiguniakkat</translation>
+    </message>
+    <message>
+        <source>%n waiting for your approval</source>
+        <translation>%n akuerinninnissannik utaqqipput</translation>
+    </message>
+    <message>
+        <source>Nothing is waiting for your approval.</source>
+        <translation>Akuerinninnissannik utaqqisoqanngilaq.</translation>
+    </message>
+    <message>
+        <source>From %name, %time</source>
+        <translation>%name-mit, %time</translation>
+    </message>
+    <message>
+        <source>Open the draft</source>
+        <translation>Missingiut ammaruk</translation>
+    </message>
+    <message>
+        <source>Comment for the author</source>
+        <translation>Allattumut oqaaseqaat</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>Akuersissutigiuk</translation>
+    </message>
+    <message>
+        <source>Deny</source>
+        <translation>Itigartiguk</translation>
+    </message>
+    <message>
+        <source>The approval could not be decided.</source>
+        <translation>Akuerinninnissaq aalajangerneqarsinnaanngilaq.</translation>
+    </message>
+    <message>
         <source>Me</source>
         <translation>Uanga</translation>
     </message>

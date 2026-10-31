@@ -564,6 +564,42 @@
         <translation>الهيكل</translation>
     </message>
     <message>
+        <source>Inbox</source>
+        <translation>الوارد</translation>
+    </message>
+    <message>
+        <source>%n waiting for your approval</source>
+        <translation>%n بانتظار موافقتك</translation>
+    </message>
+    <message>
+        <source>Nothing is waiting for your approval.</source>
+        <translation>لا شيء بانتظار موافقتك.</translation>
+    </message>
+    <message>
+        <source>From %name, %time</source>
+        <translation>من %name، %time</translation>
+    </message>
+    <message>
+        <source>Open the draft</source>
+        <translation>افتح المسودة</translation>
+    </message>
+    <message>
+        <source>Comment for the author</source>
+        <translation>تعليق للكاتب</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>موافقة</translation>
+    </message>
+    <message>
+        <source>Deny</source>
+        <translation>رفض</translation>
+    </message>
+    <message>
+        <source>The approval could not be decided.</source>
+        <translation>تعذر البت في الموافقة.</translation>
+    </message>
+    <message>
         <source>Me</source>
         <translation>أنا</translation>
     </message>

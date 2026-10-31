@@ -564,6 +564,42 @@
         <translation>Structura</translation>
     </message>
     <message>
+        <source>Inbox</source>
+        <translation>Arca accepta</translation>
+    </message>
+    <message>
+        <source>%n waiting for your approval</source>
+        <translation>%n approbationem tuam exspectant</translation>
+    </message>
+    <message>
+        <source>Nothing is waiting for your approval.</source>
+        <translation>Nihil approbationem tuam exspectat.</translation>
+    </message>
+    <message>
+        <source>From %name, %time</source>
+        <translation>Ab %name, %time</translation>
+    </message>
+    <message>
+        <source>Open the draft</source>
+        <translation>Exemplar aperire</translation>
+    </message>
+    <message>
+        <source>Comment for the author</source>
+        <translation>Nota ad auctorem</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>Probare</translation>
+    </message>
+    <message>
+        <source>Deny</source>
+        <translation>Recusare</translation>
+    </message>
+    <message>
+        <source>The approval could not be decided.</source>
+        <translation>De approbatione decerni non potuit.</translation>
+    </message>
+    <message>
         <source>Me</source>
         <translation>Ego</translation>
     </message>

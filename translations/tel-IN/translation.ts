@@ -564,6 +564,42 @@
         <translation>నిర్మాణం</translation>
     </message>
     <message>
+        <source>Inbox</source>
+        <translation>ఇన్‌బాక్స్</translation>
+    </message>
+    <message>
+        <source>%n waiting for your approval</source>
+        <translation>%n మీ ఆమోదం కోసం వేచి ఉన్నాయి</translation>
+    </message>
+    <message>
+        <source>Nothing is waiting for your approval.</source>
+        <translation>మీ ఆమోదం కోసం ఏదీ వేచి లేదు.</translation>
+    </message>
+    <message>
+        <source>From %name, %time</source>
+        <translation>%name నుండి, %time</translation>
+    </message>
+    <message>
+        <source>Open the draft</source>
+        <translation>డ్రాఫ్ట్ తెరవండి</translation>
+    </message>
+    <message>
+        <source>Comment for the author</source>
+        <translation>రచయితకు వ్యాఖ్య</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>ఆమోదించు</translation>
+    </message>
+    <message>
+        <source>Deny</source>
+        <translation>తిరస్కరించు</translation>
+    </message>
+    <message>
+        <source>The approval could not be decided.</source>
+        <translation>ఆమోదంపై నిర్ణయం తీసుకోలేకపోయాం.</translation>
+    </message>
+    <message>
         <source>Me</source>
         <translation>నేను</translation>
     </message>

@@ -564,6 +564,42 @@
         <translation>ଗଠନ</translation>
     </message>
     <message>
+        <source>Inbox</source>
+        <translation>ଇନବକ୍ସ</translation>
+    </message>
+    <message>
+        <source>%n waiting for your approval</source>
+        <translation>%n ଆପଣଙ୍କ ଅନୁମୋଦନ ଅପେକ୍ଷାରେ</translation>
+    </message>
+    <message>
+        <source>Nothing is waiting for your approval.</source>
+        <translation>ଆପଣଙ୍କ ଅନୁମୋଦନ ଅପେକ୍ଷାରେ କିଛି ନାହିଁ।</translation>
+    </message>
+    <message>
+        <source>From %name, %time</source>
+        <translation>%name ଙ୍କଠାରୁ, %time</translation>
+    </message>
+    <message>
+        <source>Open the draft</source>
+        <translation>ଡ୍ରାଫ୍ଟ ଖୋଲନ୍ତୁ</translation>
+    </message>
+    <message>
+        <source>Comment for the author</source>
+        <translation>ଲେଖକଙ୍କ ପାଇଁ ମନ୍ତବ୍ୟ</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>ଅନୁମୋଦନ କରନ୍ତୁ</translation>
+    </message>
+    <message>
+        <source>Deny</source>
+        <translation>ପ୍ରତ୍ୟାଖ୍ୟାନ କରନ୍ତୁ</translation>
+    </message>
+    <message>
+        <source>The approval could not be decided.</source>
+        <translation>ଅନୁମୋଦନ ବିଷୟରେ ନିଷ୍ପତ୍ତି ନିଆଯାଇପାରିଲା ନାହିଁ।</translation>
+    </message>
+    <message>
         <source>Me</source>
         <translation>ମୁଁ</translation>
     </message>

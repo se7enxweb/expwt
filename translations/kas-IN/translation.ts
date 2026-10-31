@@ -564,6 +564,42 @@
         <translation>ڈھانٛچہٕ</translation>
     </message>
     <message>
+        <source>Inbox</source>
+        <translation>اِنباکس</translation>
+    </message>
+    <message>
+        <source>%n waiting for your approval</source>
+        <translation>%n چھِ تُہٕنٛدِس منظوری ہِنٛدِس انتظارس منٛز</translation>
+    </message>
+    <message>
+        <source>Nothing is waiting for your approval.</source>
+        <translation>تُہٕنٛدِس منظوری ہِنٛدِس انتظارس منٛز چھُنہٕ کینٛہہ۔</translation>
+    </message>
+    <message>
+        <source>From %name, %time</source>
+        <translation>%name نِشہِ، %time</translation>
+    </message>
+    <message>
+        <source>Open the draft</source>
+        <translation>مسوٗدٕ کھولِو</translation>
+    </message>
+    <message>
+        <source>Comment for the author</source>
+        <translation>مصنفس خٲطرٕ تبصرٕ</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>منظور کٔرِو</translation>
+    </message>
+    <message>
+        <source>Deny</source>
+        <translation>نامنظور کٔرِو</translation>
+    </message>
+    <message>
+        <source>The approval could not be decided.</source>
+        <translation>منظوری پیٹھ ہیوٚک نہٕ فیصلہٕ گٔژھِتھ۔</translation>
+    </message>
+    <message>
         <source>Me</source>
         <translation>بہٕ</translation>
     </message>

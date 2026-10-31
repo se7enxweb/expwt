@@ -564,6 +564,42 @@
         <translation>ढाँचा</translation>
     </message>
     <message>
+        <source>Inbox</source>
+        <translation>इनबॉक्स</translation>
+    </message>
+    <message>
+        <source>%n waiting for your approval</source>
+        <translation>%n रउआ मंजूरी के इंतजार में</translation>
+    </message>
+    <message>
+        <source>Nothing is waiting for your approval.</source>
+        <translation>रउआ मंजूरी के इंतजार में कुछो नइखे।</translation>
+    </message>
+    <message>
+        <source>From %name, %time</source>
+        <translation>%name से, %time</translation>
+    </message>
+    <message>
+        <source>Open the draft</source>
+        <translation>मसौदा खोलीं</translation>
+    </message>
+    <message>
+        <source>Comment for the author</source>
+        <translation>लेखक खातिर टिप्पणी</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>मंजूर करीं</translation>
+    </message>
+    <message>
+        <source>Deny</source>
+        <translation>नामंजूर करीं</translation>
+    </message>
+    <message>
+        <source>The approval could not be decided.</source>
+        <translation>मंजूरी पर फैसला ना हो सकल।</translation>
+    </message>
+    <message>
         <source>Me</source>
         <translation>हम</translation>
     </message>

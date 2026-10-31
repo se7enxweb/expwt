@@ -564,6 +564,42 @@
         <translation>Yapı</translation>
     </message>
     <message>
+        <source>Inbox</source>
+        <translation>Gelen kutusu</translation>
+    </message>
+    <message>
+        <source>%n waiting for your approval</source>
+        <translation>%n onayınızı bekliyor</translation>
+    </message>
+    <message>
+        <source>Nothing is waiting for your approval.</source>
+        <translation>Onayınızı bekleyen bir şey yok.</translation>
+    </message>
+    <message>
+        <source>From %name, %time</source>
+        <translation>%name, %time</translation>
+    </message>
+    <message>
+        <source>Open the draft</source>
+        <translation>Taslağı aç</translation>
+    </message>
+    <message>
+        <source>Comment for the author</source>
+        <translation>Yazar için yorum</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>Onayla</translation>
+    </message>
+    <message>
+        <source>Deny</source>
+        <translation>Reddet</translation>
+    </message>
+    <message>
+        <source>The approval could not be decided.</source>
+        <translation>Onay hakkında karar verilemedi.</translation>
+    </message>
+    <message>
         <source>Me</source>
         <translation>Ben</translation>
     </message>

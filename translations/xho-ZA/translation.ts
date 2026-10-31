@@ -564,6 +564,42 @@
         <translation>Ubume</translation>
     </message>
     <message>
+        <source>Inbox</source>
+        <translation>Ibhokisi engenayo</translation>
+    </message>
+    <message>
+        <source>%n waiting for your approval</source>
+        <translation>%n zilinde imvume yakho</translation>
+    </message>
+    <message>
+        <source>Nothing is waiting for your approval.</source>
+        <translation>Akukho nto ilinde imvume yakho.</translation>
+    </message>
+    <message>
+        <source>From %name, %time</source>
+        <translation>Ukusuka ku-%name, %time</translation>
+    </message>
+    <message>
+        <source>Open the draft</source>
+        <translation>Vula idrafti</translation>
+    </message>
+    <message>
+        <source>Comment for the author</source>
+        <translation>Uluvo lombhali</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>Vuma</translation>
+    </message>
+    <message>
+        <source>Deny</source>
+        <translation>Yala</translation>
+    </message>
+    <message>
+        <source>The approval could not be decided.</source>
+        <translation>Imvume ayikwazanga ukugqitywa.</translation>
+    </message>
+    <message>
         <source>Me</source>
         <translation>Mna</translation>
     </message>

@@ -564,6 +564,42 @@
         <translation>संरचना</translation>
     </message>
     <message>
+        <source>Inbox</source>
+        <translation>इनबक्स</translation>
+    </message>
+    <message>
+        <source>%n waiting for your approval</source>
+        <translation>%n तपाईंको स्वीकृतिको पर्खाइमा</translation>
+    </message>
+    <message>
+        <source>Nothing is waiting for your approval.</source>
+        <translation>तपाईंको स्वीकृतिको पर्खाइमा केही छैन।</translation>
+    </message>
+    <message>
+        <source>From %name, %time</source>
+        <translation>%name बाट, %time</translation>
+    </message>
+    <message>
+        <source>Open the draft</source>
+        <translation>मस्यौदा खोल्नुहोस्</translation>
+    </message>
+    <message>
+        <source>Comment for the author</source>
+        <translation>लेखकका लागि टिप्पणी</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>स्वीकृत गर्नुहोस्</translation>
+    </message>
+    <message>
+        <source>Deny</source>
+        <translation>अस्वीकार गर्नुहोस्</translation>
+    </message>
+    <message>
+        <source>The approval could not be decided.</source>
+        <translation>स्वीकृतिबारे निर्णय गर्न सकिएन।</translation>
+    </message>
+    <message>
         <source>Me</source>
         <translation>म</translation>
     </message>

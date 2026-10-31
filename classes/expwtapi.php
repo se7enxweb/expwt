@@ -116,6 +116,12 @@ class expwtApi
             case 'tree.sort':
                 $order = isset( $input['order'] ) && is_array( $input['order'] ) ? array_values( array_map( 'intval', $input['order'] ) ) : array();
                 return $g->sort( self::ids( $input, array( 'nodeId' ) ) + array( 'order' => $order ) );
+            case 'inbox.load':
+                return $g->inbox( self::ids( $input, array( 'offset' ) ) );
+            case 'inbox.decide':
+                // the comment as typed (several lines), at most 10000 characters
+                $comment = isset( $input['comment'] ) && is_scalar( $input['comment'] ) ? substr( trim( (string)$input['comment'] ), 0, 10000 ) : '';
+                return $g->decide( self::ids( $input, array( 'itemId' ) ) + self::strings( $input, array( 'decision' ) ) + array( 'comment' => $comment ) );
         }
         throw new expwtApiError( 404, 'unknown_action', 'There is no such action.' );
     }
@@ -137,6 +143,8 @@ class expwtApi
             'transport' => $g->transport(),
             'urls' => $g->urls(),
             'strings' => $g->strings(),
+            // the Inbox panel and the count on the closed tab (F29): only for a user of the kernel's collaboration
+            'inbox' => $g->collaborates() ? array( 'waiting' => $g->waitingCount() ) : null,
             'settings' => array( 'minWidth' => $this->settings['min_width'], 'maxWidth' => $this->settings['max_width'],
                                  'minHeight' => $this->settings['min_height'], 'maxHeight' => $this->settings['max_height'],
                                  'overlayBelow' => $this->settings['overlay_below_width'] ),

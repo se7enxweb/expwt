@@ -249,6 +249,127 @@ class expwtGateway
     }
 
 
+    // ------------------------------------------------------------------------------------------------ the inbox
+
+    /** @return bool the user may use the kernel's collaboration (the module's policy), where the approvals are */
+    public function collaborates()
+    {
+        if ( !$this->currentUser()->isRegistered() || !class_exists( 'expCollaborationInbox' ) )
+            return false;
+        $access = $this->currentUser()->hasAccessTo( 'collaboration' );
+        return isset( $access['accessWord'] ) && $access['accessWord'] !== 'no';
+    }
+
+    /** @return int how many approvals wait for the user (the count on the closed tab, F29); 0 without collaboration */
+    public function waitingCount()
+    {
+        if ( !$this->collaborates() )
+            return 0;
+        $inbox = expCollaborationInbox::fetch( array( 'status' => 'waiting', 'role' => 'approver', 'type' => 'ezapprove', 'limit' => 1 ) );
+        return (int)$inbox['total'];
+    }
+
+    /**
+     * The inbox (F29): the approvals of the kernel's approve workflow (collaboration items of ezapprove) that wait for
+     * the user, read through the kernel's collaboration inbox (expCollaborationInbox), newest first. Each with the
+     * page it is about, its author, the last comment, whether the user is one of its approvers (only they decide it),
+     * and the draft's preview (content/versionview, which checks the user may read that version).
+     */
+    public function inbox( array $in )
+    {
+        if ( !$this->collaborates() )
+            throw new expwtApiError( 403, 'forbidden', 'You may not do this.' );
+        $userId = $this->userId();
+        $inbox = expCollaborationInbox::fetch( array( 'status' => 'waiting', 'role' => 'approver', 'type' => 'ezapprove',
+                                                      'offset' => isset( $in['offset'] ) ? (int)$in['offset'] : 0, 'limit' => 25 ) );
+        $items = array();
+        foreach ( $inbox['items'] as $row )
+        {
+            $language = '';
+            $object = eZContentObject::fetch( (int)$row['object_id'] );
+            $version = $object instanceof eZContentObject ? $object->version( (int)$row['version'] ) : null;
+            if ( $version instanceof eZContentObjectVersion )
+                $language = (string)$version->initialLanguageCode();
+            $items[] = array(
+                'id' => (int)$row['id'],
+                'title' => (string)$row['title'],
+                'author' => (string)$row['author_name'],
+                'created' => (int)$row['created'],
+                'modified' => (int)$row['modified'],
+                'objectId' => (int)$row['object_id'],
+                'version' => (int)$row['version'],
+                'unread' => (int)$row['unread_messages'],
+                'lastMessage' => $row['last_message'] ? array( 'text' => (string)$row['last_message']['text'],
+                                                               'author' => (string)$row['last_message']['author'],
+                                                               'created' => (int)$row['last_message']['created'] ) : null,
+                'approver' => self::isApprover( (int)$row['id'], $userId ),
+                'preview' => $version && $language !== '' ? self::url( '/content/versionview/' . (int)$row['object_id'] . '/' . (int)$row['version'] . '/' . $language ) : null,
+            );
+        }
+        return array( 'total' => (int)$inbox['total'], 'offset' => (int)$inbox['offset'], 'items' => $items );
+    }
+
+    /** @return bool the user is an approver of the collaboration item (the role the kernel's handler asks for) */
+    protected static function isApprover( $itemId, $userId )
+    {
+        foreach ( (array)eZCollaborationItemParticipantLink::fetchParticipantList( array( 'item_id' => (int)$itemId ) ) as $participant )
+        {
+            if ( (int)$participant->attribute( 'participant_id' ) === (int)$userId
+                 && (int)$participant->attribute( 'participant_role' ) === eZCollaborationItemParticipantLink::ROLE_APPROVER )
+                return true;
+        }
+        return false;
+    }
+
+    /**
+     * Approves or denies an approval, with a comment: through the kernel's own view collaboration/action, run here
+     * with the fields its form posts (CollaborationActionCustom, CollaborationTypeIdentifier, CollaborationItemID,
+     * CollaborationAction_Accept or _Deny, Collaboration_ApproveComment). The view checks the user may open the item,
+     * its approve handler that the user is one of the approvers and that it still waits, records the comment and the
+     * decision, and the publishing workflow goes on as after a decision in the administration. Nothing of it is done
+     * here a second time.
+     */
+    public function decide( array $in )
+    {
+        $decision = isset( $in['decision'] ) ? (string)$in['decision'] : '';
+        $actions = array( 'approve' => 'Accept', 'deny' => 'Deny' );
+        $item = isset( $in['itemId'] ) ? eZCollaborationItem::fetch( (int)$in['itemId'] ) : null;
+        if ( !isset( $actions[$decision] ) )
+            throw new expwtApiError( 400, 'bad_input', 'This value does not fit the field.' );
+        if ( !$item instanceof eZCollaborationItem || (string)$item->attribute( 'type_identifier' ) !== 'ezapprove' )
+            throw new expwtApiError( 404, 'not_found', 'This page is not there, or you may not read it.' );
+        $module = $this->collaborates() ? eZModule::exists( 'collaboration' ) : null;
+        $params = array();
+        if ( !$module instanceof eZModule || !$this->currentUser()->hasAccessToView( $module, 'action', $params ) )
+            throw new expwtApiError( 403, 'forbidden', 'You may not do this.' );
+
+        $post = array( 'CollaborationActionCustom' => '1', 'CollaborationTypeIdentifier' => 'ezapprove',
+                       'CollaborationItemID' => (string)(int)$item->attribute( 'id' ),
+                       'CollaborationAction_' . $actions[$decision] => '1',
+                       'Collaboration_ApproveComment' => isset( $in['comment'] ) ? (string)$in['comment'] : '' );
+        $before = $_POST;
+        expCollaborationGroupManager::takeNotice();
+        try
+        {
+            $_POST = $post + $_POST;
+            $module->run( 'action', array() );
+        }
+        finally
+        {
+            $_POST = $before;
+        }
+        $notice = expCollaborationGroupManager::takeNotice();
+        $item = eZCollaborationItem::fetch( (int)$item->attribute( 'id' ) );
+        $state = $item ? expCollaborationInbox::stateOf( $item ) : '';
+        $wanted = $decision === 'approve' ? expCollaborationInbox::STATE_APPROVED : expCollaborationInbox::STATE_DENIED;
+        if ( $state !== $wanted )
+        {
+            // the kernel's own reason (not an approver, decided already ...), in the user's language
+            throw new expwtApiError( 409, 'not_decided', $notice && $notice['text'] !== '' ? (string)$notice['text'] : 'The approval could not be decided.' );
+        }
+        return array( 'state' => $state, 'message' => $notice ? (string)$notice['text'] : '', 'waiting' => $this->waitingCount() );
+    }
+
     /**
      * @return string a field's label: the class attribute's name; for one without a name in any language (a field
      *                added by a script) the name of its datatype, so no field of the sidebar is without a label

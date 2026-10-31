@@ -564,6 +564,42 @@
         <translation>ව්‍යුහය</translation>
     </message>
     <message>
+        <source>Inbox</source>
+        <translation>එන ලිපි</translation>
+    </message>
+    <message>
+        <source>%n waiting for your approval</source>
+        <translation>%n ඔබේ අනුමැතිය බලාපොරොත්තුවෙන්</translation>
+    </message>
+    <message>
+        <source>Nothing is waiting for your approval.</source>
+        <translation>ඔබේ අනුමැතිය බලාපොරොත්තුවෙන් කිසිවක් නැත.</translation>
+    </message>
+    <message>
+        <source>From %name, %time</source>
+        <translation>%name වෙතින්, %time</translation>
+    </message>
+    <message>
+        <source>Open the draft</source>
+        <translation>කෙටුම්පත විවෘත කරන්න</translation>
+    </message>
+    <message>
+        <source>Comment for the author</source>
+        <translation>කතුවරයාට අදහස</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>අනුමත කරන්න</translation>
+    </message>
+    <message>
+        <source>Deny</source>
+        <translation>ප්‍රතික්ෂේප කරන්න</translation>
+    </message>
+    <message>
+        <source>The approval could not be decided.</source>
+        <translation>අනුමැතිය ගැන තීරණය කළ නොහැකි විය.</translation>
+    </message>
+    <message>
         <source>Me</source>
         <translation>මම</translation>
     </message>

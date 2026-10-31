@@ -564,6 +564,42 @@
         <translation>Enzimba</translation>
     </message>
     <message>
+        <source>Inbox</source>
+        <translation>Ebibaluwa ebiyingira</translation>
+    </message>
+    <message>
+        <source>%n waiting for your approval</source>
+        <translation>%n birindiridde okukkiriza kwo</translation>
+    </message>
+    <message>
+        <source>Nothing is waiting for your approval.</source>
+        <translation>Tewali kirindiridde kukkiriza kwo.</translation>
+    </message>
+    <message>
+        <source>From %name, %time</source>
+        <translation>Okuva ewa %name, %time</translation>
+    </message>
+    <message>
+        <source>Open the draft</source>
+        <translation>Ggulawo ekiwandiiko ekisooka</translation>
+    </message>
+    <message>
+        <source>Comment for the author</source>
+        <translation>Endowooza eri omuwandiisi</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>Kkiriza</translation>
+    </message>
+    <message>
+        <source>Deny</source>
+        <translation>Gaana</translation>
+    </message>
+    <message>
+        <source>The approval could not be decided.</source>
+        <translation>Okukkiriza tekwasaliddwawo.</translation>
+    </message>
+    <message>
         <source>Me</source>
         <translation>Nze</translation>
     </message>

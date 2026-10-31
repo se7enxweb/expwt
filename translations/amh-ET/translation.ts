@@ -564,6 +564,42 @@
         <translation>መዋቅር</translation>
     </message>
     <message>
+        <source>Inbox</source>
+        <translation>የገቢ ሳጥን</translation>
+    </message>
+    <message>
+        <source>%n waiting for your approval</source>
+        <translation>%n የእርስዎን ማጽደቅ ይጠብቃሉ</translation>
+    </message>
+    <message>
+        <source>Nothing is waiting for your approval.</source>
+        <translation>የእርስዎን ማጽደቅ የሚጠብቅ ምንም የለም።</translation>
+    </message>
+    <message>
+        <source>From %name, %time</source>
+        <translation>ከ%name፣ %time</translation>
+    </message>
+    <message>
+        <source>Open the draft</source>
+        <translation>ረቂቁን ክፈት</translation>
+    </message>
+    <message>
+        <source>Comment for the author</source>
+        <translation>ለደራሲው አስተያየት</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>አጽድቅ</translation>
+    </message>
+    <message>
+        <source>Deny</source>
+        <translation>ከልክል</translation>
+    </message>
+    <message>
+        <source>The approval could not be decided.</source>
+        <translation>ስለ ማጽደቁ መወሰን አልተቻለም።</translation>
+    </message>
+    <message>
         <source>Me</source>
         <translation>እኔ</translation>
     </message>

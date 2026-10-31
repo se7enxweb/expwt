@@ -564,6 +564,42 @@
         <translation>قۇرۇلما</translation>
     </message>
     <message>
+        <source>Inbox</source>
+        <translation>كىرگەنلەر</translation>
+    </message>
+    <message>
+        <source>%n waiting for your approval</source>
+        <translation>%n تەستىقىڭىزنى كۈتۈۋاتىدۇ</translation>
+    </message>
+    <message>
+        <source>Nothing is waiting for your approval.</source>
+        <translation>تەستىقىڭىزنى كۈتۈۋاتقان ھېچنېمە يوق.</translation>
+    </message>
+    <message>
+        <source>From %name, %time</source>
+        <translation>%name دىن، %time</translation>
+    </message>
+    <message>
+        <source>Open the draft</source>
+        <translation>ئارگىنالنى ئېچىش</translation>
+    </message>
+    <message>
+        <source>Comment for the author</source>
+        <translation>ئاپتورغا باھا</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>تەستىقلاش</translation>
+    </message>
+    <message>
+        <source>Deny</source>
+        <translation>رەت قىلىش</translation>
+    </message>
+    <message>
+        <source>The approval could not be decided.</source>
+        <translation>تەستىق توغرىسىدا قارار چىقىرالمىدى.</translation>
+    </message>
+    <message>
         <source>Me</source>
         <translation>مەن</translation>
     </message>

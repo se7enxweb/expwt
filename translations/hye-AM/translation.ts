@@ -564,6 +564,42 @@
         <translation>Կառուցվածք</translation>
     </message>
     <message>
+        <source>Inbox</source>
+        <translation>Մուտքային</translation>
+    </message>
+    <message>
+        <source>%n waiting for your approval</source>
+        <translation>%n սպասում են ձեր հաստատմանը</translation>
+    </message>
+    <message>
+        <source>Nothing is waiting for your approval.</source>
+        <translation>Ոչինչ չի սպասում ձեր հաստատմանը։</translation>
+    </message>
+    <message>
+        <source>From %name, %time</source>
+        <translation>%name-ից, %time</translation>
+    </message>
+    <message>
+        <source>Open the draft</source>
+        <translation>Բացել սևագիրը</translation>
+    </message>
+    <message>
+        <source>Comment for the author</source>
+        <translation>Մեկնաբանություն հեղինակի համար</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>Հաստատել</translation>
+    </message>
+    <message>
+        <source>Deny</source>
+        <translation>Մերժել</translation>
+    </message>
+    <message>
+        <source>The approval could not be decided.</source>
+        <translation>Հաստատման վերաբերյալ որոշում կայացնել չհաջողվեց։</translation>
+    </message>
+    <message>
         <source>Me</source>
         <translation>Ես</translation>
     </message>

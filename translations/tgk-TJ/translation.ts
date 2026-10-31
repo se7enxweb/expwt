@@ -564,6 +564,42 @@
         <translation>Сохтор</translation>
     </message>
     <message>
+        <source>Inbox</source>
+        <translation>Воридшуда</translation>
+    </message>
+    <message>
+        <source>%n waiting for your approval</source>
+        <translation>%n тасдиқи шуморо интизоранд</translation>
+    </message>
+    <message>
+        <source>Nothing is waiting for your approval.</source>
+        <translation>Ҳеҷ чиз тасдиқи шуморо интизор нест.</translation>
+    </message>
+    <message>
+        <source>From %name, %time</source>
+        <translation>Аз %name, %time</translation>
+    </message>
+    <message>
+        <source>Open the draft</source>
+        <translation>Кушодани сиёҳнавис</translation>
+    </message>
+    <message>
+        <source>Comment for the author</source>
+        <translation>Шарҳ барои муаллиф</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>Тасдиқ кардан</translation>
+    </message>
+    <message>
+        <source>Deny</source>
+        <translation>Рад кардан</translation>
+    </message>
+    <message>
+        <source>The approval could not be decided.</source>
+        <translation>Дар бораи тасдиқ қарор қабул кардан нашуд.</translation>
+    </message>
+    <message>
         <source>Me</source>
         <translation>Ман</translation>
     </message>

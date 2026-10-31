@@ -564,6 +564,42 @@
         <translation>Struktuur</translation>
     </message>
     <message>
+        <source>Inbox</source>
+        <translation>Postkast</translation>
+    </message>
+    <message>
+        <source>%n waiting for your approval</source>
+        <translation>%n ootab teie kinnitust</translation>
+    </message>
+    <message>
+        <source>Nothing is waiting for your approval.</source>
+        <translation>Miski ei oota teie kinnitust.</translation>
+    </message>
+    <message>
+        <source>From %name, %time</source>
+        <translation>Saatja %name, %time</translation>
+    </message>
+    <message>
+        <source>Open the draft</source>
+        <translation>Ava mustand</translation>
+    </message>
+    <message>
+        <source>Comment for the author</source>
+        <translation>Kommentaar autorile</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>Kinnita</translation>
+    </message>
+    <message>
+        <source>Deny</source>
+        <translation>Keeldu</translation>
+    </message>
+    <message>
+        <source>The approval could not be decided.</source>
+        <translation>Kinnituse üle ei õnnestunud otsustada.</translation>
+    </message>
+    <message>
         <source>Me</source>
         <translation>Mina</translation>
     </message>

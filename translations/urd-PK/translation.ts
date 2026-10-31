@@ -564,6 +564,42 @@
         <translation>ڈھانچہ</translation>
     </message>
     <message>
+        <source>Inbox</source>
+        <translation>ان باکس</translation>
+    </message>
+    <message>
+        <source>%n waiting for your approval</source>
+        <translation>%n آپ کی منظوری کے منتظر</translation>
+    </message>
+    <message>
+        <source>Nothing is waiting for your approval.</source>
+        <translation>آپ کی منظوری کا کچھ بھی منتظر نہیں۔</translation>
+    </message>
+    <message>
+        <source>From %name, %time</source>
+        <translation>%name کی جانب سے، %time</translation>
+    </message>
+    <message>
+        <source>Open the draft</source>
+        <translation>مسودہ کھولیں</translation>
+    </message>
+    <message>
+        <source>Comment for the author</source>
+        <translation>مصنف کے لیے تبصرہ</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>منظور کریں</translation>
+    </message>
+    <message>
+        <source>Deny</source>
+        <translation>مسترد کریں</translation>
+    </message>
+    <message>
+        <source>The approval could not be decided.</source>
+        <translation>منظوری کے بارے میں فیصلہ نہیں ہو سکا۔</translation>
+    </message>
+    <message>
         <source>Me</source>
         <translation>میں</translation>
     </message>

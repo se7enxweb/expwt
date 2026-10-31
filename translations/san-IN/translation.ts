@@ -564,6 +564,42 @@
         <translation>संरचना</translation>
     </message>
     <message>
+        <source>Inbox</source>
+        <translation>आगतपेटिका</translation>
+    </message>
+    <message>
+        <source>%n waiting for your approval</source>
+        <translation>%n भवतः अनुमोदनं प्रतीक्षन्ते</translation>
+    </message>
+    <message>
+        <source>Nothing is waiting for your approval.</source>
+        <translation>भवतः अनुमोदनं किमपि न प्रतीक्षते।</translation>
+    </message>
+    <message>
+        <source>From %name, %time</source>
+        <translation>%name इत्यस्मात्, %time</translation>
+    </message>
+    <message>
+        <source>Open the draft</source>
+        <translation>प्रारूपम् उद्घाटयतु</translation>
+    </message>
+    <message>
+        <source>Comment for the author</source>
+        <translation>लेखकाय टिप्पणी</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>अनुमोदयतु</translation>
+    </message>
+    <message>
+        <source>Deny</source>
+        <translation>निराकरोतु</translation>
+    </message>
+    <message>
+        <source>The approval could not be decided.</source>
+        <translation>अनुमोदनविषये निर्णयः कर्तुं न शक्तः।</translation>
+    </message>
+    <message>
         <source>Me</source>
         <translation>अहम्</translation>
     </message>

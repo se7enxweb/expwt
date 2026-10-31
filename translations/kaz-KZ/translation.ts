@@ -564,6 +564,42 @@
         <translation>Құрылым</translation>
     </message>
     <message>
+        <source>Inbox</source>
+        <translation>Кіріс</translation>
+    </message>
+    <message>
+        <source>%n waiting for your approval</source>
+        <translation>%n сіздің мақұлдауыңызды күтуде</translation>
+    </message>
+    <message>
+        <source>Nothing is waiting for your approval.</source>
+        <translation>Сіздің мақұлдауыңызды ештеңе күтпейді.</translation>
+    </message>
+    <message>
+        <source>From %name, %time</source>
+        <translation>%name, %time</translation>
+    </message>
+    <message>
+        <source>Open the draft</source>
+        <translation>Жобаны ашу</translation>
+    </message>
+    <message>
+        <source>Comment for the author</source>
+        <translation>Авторға пікір</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>Мақұлдау</translation>
+    </message>
+    <message>
+        <source>Deny</source>
+        <translation>Қабылдамау</translation>
+    </message>
+    <message>
+        <source>The approval could not be decided.</source>
+        <translation>Мақұлдау туралы шешім қабылдау мүмкін болмады.</translation>
+    </message>
+    <message>
         <source>Me</source>
         <translation>Мен</translation>
     </message>

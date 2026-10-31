@@ -564,6 +564,42 @@
         <translation>ቅርጺ</translation>
     </message>
     <message>
+        <source>Inbox</source>
+        <translation>ዝኣተዉ</translation>
+    </message>
+    <message>
+        <source>%n waiting for your approval</source>
+        <translation>%n ንምጽዳቕኩም ይጽበዩ ኣለዉ</translation>
+    </message>
+    <message>
+        <source>Nothing is waiting for your approval.</source>
+        <translation>ንምጽዳቕኩም ዝጽበ ዋላ ሓንቲ የለን።</translation>
+    </message>
+    <message>
+        <source>From %name, %time</source>
+        <translation>ካብ %name፣ %time</translation>
+    </message>
+    <message>
+        <source>Open the draft</source>
+        <translation>ንዝተዳለወ ክፈት</translation>
+    </message>
+    <message>
+        <source>Comment for the author</source>
+        <translation>ርእይቶ ንደራሲ</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>ኣጽድቕ</translation>
+    </message>
+    <message>
+        <source>Deny</source>
+        <translation>ኣይትቕበል</translation>
+    </message>
+    <message>
+        <source>The approval could not be decided.</source>
+        <translation>ብዛዕባ ምጽዳቕ ክውሰን ኣይተኻእለን።</translation>
+    </message>
+    <message>
         <source>Me</source>
         <translation>ኣነ</translation>
     </message>

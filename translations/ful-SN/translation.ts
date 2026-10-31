@@ -564,6 +564,42 @@
         <translation>Mbaadi</translation>
     </message>
     <message>
+        <source>Inbox</source>
+        <translation>Naatirde</translation>
+    </message>
+    <message>
+        <source>%n waiting for your approval</source>
+        <translation>%n ina sakkitii jaɓɓol maa</translation>
+    </message>
+    <message>
+        <source>Nothing is waiting for your approval.</source>
+        <translation>Alaa ko sakkitii jaɓɓol maa.</translation>
+    </message>
+    <message>
+        <source>From %name, %time</source>
+        <translation>Iwde e %name, %time</translation>
+    </message>
+    <message>
+        <source>Open the draft</source>
+        <translation>Uddit daartol ngol</translation>
+    </message>
+    <message>
+        <source>Comment for the author</source>
+        <translation>Miijo ngam winndiyanke</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>Jaɓ</translation>
+    </message>
+    <message>
+        <source>Deny</source>
+        <translation>Salo</translation>
+    </message>
+    <message>
+        <source>The approval could not be decided.</source>
+        <translation>Jaɓɓol ngol waawaa feewneede.</translation>
+    </message>
+    <message>
         <source>Me</source>
         <translation>Miin</translation>
     </message>

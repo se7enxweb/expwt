@@ -564,6 +564,42 @@
         <translation>Δομή</translation>
     </message>
     <message>
+        <source>Inbox</source>
+        <translation>Εισερχόμενα</translation>
+    </message>
+    <message>
+        <source>%n waiting for your approval</source>
+        <translation>%n περιμένουν την έγκρισή σας</translation>
+    </message>
+    <message>
+        <source>Nothing is waiting for your approval.</source>
+        <translation>Τίποτα δεν περιμένει την έγκρισή σας.</translation>
+    </message>
+    <message>
+        <source>From %name, %time</source>
+        <translation>Από %name, %time</translation>
+    </message>
+    <message>
+        <source>Open the draft</source>
+        <translation>Άνοιγμα του προσχεδίου</translation>
+    </message>
+    <message>
+        <source>Comment for the author</source>
+        <translation>Σχόλιο για τον συντάκτη</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>Έγκριση</translation>
+    </message>
+    <message>
+        <source>Deny</source>
+        <translation>Απόρριψη</translation>
+    </message>
+    <message>
+        <source>The approval could not be decided.</source>
+        <translation>Δεν ήταν δυνατή η απόφαση για την έγκριση.</translation>
+    </message>
+    <message>
         <source>Me</source>
         <translation>Εγώ</translation>
     </message>

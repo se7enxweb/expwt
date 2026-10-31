@@ -564,6 +564,42 @@
         <translation>Структура</translation>
     </message>
     <message>
+        <source>Inbox</source>
+        <translation>Керүчеләр</translation>
+    </message>
+    <message>
+        <source>%n waiting for your approval</source>
+        <translation>%n сезнең раслауны көтә</translation>
+    </message>
+    <message>
+        <source>Nothing is waiting for your approval.</source>
+        <translation>Сезнең раслауны бернәрсә дә көтми.</translation>
+    </message>
+    <message>
+        <source>From %name, %time</source>
+        <translation>%name, %time</translation>
+    </message>
+    <message>
+        <source>Open the draft</source>
+        <translation>Каралама ачу</translation>
+    </message>
+    <message>
+        <source>Comment for the author</source>
+        <translation>Авторга аңлатма</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>Раслау</translation>
+    </message>
+    <message>
+        <source>Deny</source>
+        <translation>Кире кагу</translation>
+    </message>
+    <message>
+        <source>The approval could not be decided.</source>
+        <translation>Раслау турында карар кабул итеп булмады.</translation>
+    </message>
+    <message>
         <source>Me</source>
         <translation>Мин</translation>
     </message>

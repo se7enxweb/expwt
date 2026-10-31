@@ -564,6 +564,42 @@
         <translation>Hoʻolālā</translation>
     </message>
     <message>
+        <source>Inbox</source>
+        <translation>Pahu leka komo</translation>
+    </message>
+    <message>
+        <source>%n waiting for your approval</source>
+        <translation>%n e kali ana i kou ʻae</translation>
+    </message>
+    <message>
+        <source>Nothing is waiting for your approval.</source>
+        <translation>ʻAʻohe mea e kali ana i kou ʻae.</translation>
+    </message>
+    <message>
+        <source>From %name, %time</source>
+        <translation>Mai %name, %time</translation>
+    </message>
+    <message>
+        <source>Open the draft</source>
+        <translation>Wehe i ke kāwaha</translation>
+    </message>
+    <message>
+        <source>Comment for the author</source>
+        <translation>Manaʻo no ka mea kākau</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>ʻAe</translation>
+    </message>
+    <message>
+        <source>Deny</source>
+        <translation>Hōʻole</translation>
+    </message>
+    <message>
+        <source>The approval could not be decided.</source>
+        <translation>ʻAʻole hiki ke hoʻoholo i ka ʻae.</translation>
+    </message>
+    <message>
         <source>Me</source>
         <translation>Owau</translation>
     </message>

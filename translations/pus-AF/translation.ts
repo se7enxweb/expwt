@@ -564,6 +564,42 @@
         <translation>جوړښت</translation>
     </message>
     <message>
+        <source>Inbox</source>
+        <translation>راغلي لیکونه</translation>
+    </message>
+    <message>
+        <source>%n waiting for your approval</source>
+        <translation>%n ستاسو تایید ته انتظار باسي</translation>
+    </message>
+    <message>
+        <source>Nothing is waiting for your approval.</source>
+        <translation>هیڅ شی ستاسو تایید ته انتظار نه باسي.</translation>
+    </message>
+    <message>
+        <source>From %name, %time</source>
+        <translation>له %name، %time</translation>
+    </message>
+    <message>
+        <source>Open the draft</source>
+        <translation>مسوده پرانیزئ</translation>
+    </message>
+    <message>
+        <source>Comment for the author</source>
+        <translation>لیکوال ته تبصره</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>تایید</translation>
+    </message>
+    <message>
+        <source>Deny</source>
+        <translation>رد</translation>
+    </message>
+    <message>
+        <source>The approval could not be decided.</source>
+        <translation>د تایید په اړه پرېکړه ونه شوه.</translation>
+    </message>
+    <message>
         <source>Me</source>
         <translation>زه</translation>
     </message>

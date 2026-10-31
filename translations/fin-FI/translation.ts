@@ -564,6 +564,42 @@
         <translation>Rakenne</translation>
     </message>
     <message>
+        <source>Inbox</source>
+        <translation>Saapuneet</translation>
+    </message>
+    <message>
+        <source>%n waiting for your approval</source>
+        <translation>%n odottaa hyväksyntääsi</translation>
+    </message>
+    <message>
+        <source>Nothing is waiting for your approval.</source>
+        <translation>Mikään ei odota hyväksyntääsi.</translation>
+    </message>
+    <message>
+        <source>From %name, %time</source>
+        <translation>Lähettäjä %name, %time</translation>
+    </message>
+    <message>
+        <source>Open the draft</source>
+        <translation>Avaa luonnos</translation>
+    </message>
+    <message>
+        <source>Comment for the author</source>
+        <translation>Kommentti kirjoittajalle</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>Hyväksy</translation>
+    </message>
+    <message>
+        <source>Deny</source>
+        <translation>Hylkää</translation>
+    </message>
+    <message>
+        <source>The approval could not be decided.</source>
+        <translation>Hyväksynnästä ei voitu päättää.</translation>
+    </message>
+    <message>
         <source>Me</source>
         <translation>Minä</translation>
     </message>

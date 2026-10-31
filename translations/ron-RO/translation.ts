@@ -564,6 +564,42 @@
         <translation>Structură</translation>
     </message>
     <message>
+        <source>Inbox</source>
+        <translation>Mesaje primite</translation>
+    </message>
+    <message>
+        <source>%n waiting for your approval</source>
+        <translation>%n așteaptă aprobarea ta</translation>
+    </message>
+    <message>
+        <source>Nothing is waiting for your approval.</source>
+        <translation>Nimic nu așteaptă aprobarea ta.</translation>
+    </message>
+    <message>
+        <source>From %name, %time</source>
+        <translation>De la %name, %time</translation>
+    </message>
+    <message>
+        <source>Open the draft</source>
+        <translation>Deschide ciorna</translation>
+    </message>
+    <message>
+        <source>Comment for the author</source>
+        <translation>Comentariu pentru autor</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>Aprobă</translation>
+    </message>
+    <message>
+        <source>Deny</source>
+        <translation>Respinge</translation>
+    </message>
+    <message>
+        <source>The approval could not be decided.</source>
+        <translation>Nu s-a putut decide asupra aprobării.</translation>
+    </message>
+    <message>
         <source>Me</source>
         <translation>Eu</translation>
     </message>

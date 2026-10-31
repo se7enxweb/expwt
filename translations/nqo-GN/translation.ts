@@ -564,6 +564,42 @@
         <translation>ߓߊߕߏ߲ߓߊߟߌ</translation>
     </message>
     <message>
+        <source>Inbox</source>
+        <translation>ߓߊ߬ߕߊ߫ ߘߏ߲߬ߠߌ</translation>
+    </message>
+    <message>
+        <source>%n waiting for your approval</source>
+        <translation>%n ߦߋ߫ ߌ ߟߊ߫ ߟߊ߬ߓߊ߲߬ߠߌ ߡߊ߬ߞߏ߲ߠߊ߫</translation>
+    </message>
+    <message>
+        <source>Nothing is waiting for your approval.</source>
+        <translation>ߝߏߦߌ߬ ߕߍ߫ ߌ ߟߊ߫ ߟߊ߬ߓߊ߲߬ߠߌ ߡߊ߬ߞߏ߲ߠߊ߫.</translation>
+    </message>
+    <message>
+        <source>From %name, %time</source>
+        <translation>ߞߊ߬ ߓߐ߫ %name ߡߊ߬, %time</translation>
+    </message>
+    <message>
+        <source>Open the draft</source>
+        <translation>ߛߓߍߟߌ ߝߟߐ ߟߊߞߊ߬</translation>
+    </message>
+    <message>
+        <source>Comment for the author</source>
+        <translation>ߡߙߌߦߊ ߛߓߍߦߟߊ ߦߋ߫</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>ߟߊ߬ߓߊ߲߬</translation>
+    </message>
+    <message>
+        <source>Deny</source>
+        <translation>ߓߊ߲߫</translation>
+    </message>
+    <message>
+        <source>The approval could not be decided.</source>
+        <translation>ߟߊ߬ߓߊ߲߬ߠߌ ߕߍ߫ ߛߋ߫ ߞߊ߬ ߘߊ߲߬ߠߊ߬ߞߊ߬.</translation>
+    </message>
+    <message>
         <source>Me</source>
         <translation>ߒ</translation>
     </message>

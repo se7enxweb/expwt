@@ -564,6 +564,42 @@
         <translation>Egitura</translation>
     </message>
     <message>
+        <source>Inbox</source>
+        <translation>Sarrera-ontzia</translation>
+    </message>
+    <message>
+        <source>%n waiting for your approval</source>
+        <translation>%n zure onarpenaren zain</translation>
+    </message>
+    <message>
+        <source>Nothing is waiting for your approval.</source>
+        <translation>Ezer ez dago zure onarpenaren zain.</translation>
+    </message>
+    <message>
+        <source>From %name, %time</source>
+        <translation>%name(e)k, %time</translation>
+    </message>
+    <message>
+        <source>Open the draft</source>
+        <translation>Ireki zirriborroa</translation>
+    </message>
+    <message>
+        <source>Comment for the author</source>
+        <translation>Iruzkina egilearentzat</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>Onartu</translation>
+    </message>
+    <message>
+        <source>Deny</source>
+        <translation>Ukatu</translation>
+    </message>
+    <message>
+        <source>The approval could not be decided.</source>
+        <translation>Ezin izan da onarpenari buruz erabaki.</translation>
+    </message>
+    <message>
         <source>Me</source>
         <translation>Ni</translation>
     </message>

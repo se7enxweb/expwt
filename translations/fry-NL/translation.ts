@@ -564,6 +564,42 @@
         <translation>Struktuer</translation>
     </message>
     <message>
+        <source>Inbox</source>
+        <translation>Postfak</translation>
+    </message>
+    <message>
+        <source>%n waiting for your approval</source>
+        <translation>%n wachtsje op dyn goedkarring</translation>
+    </message>
+    <message>
+        <source>Nothing is waiting for your approval.</source>
+        <translation>Neat wachtet op dyn goedkarring.</translation>
+    </message>
+    <message>
+        <source>From %name, %time</source>
+        <translation>Fan %name, %time</translation>
+    </message>
+    <message>
+        <source>Open the draft</source>
+        <translation>Konsept iepenje</translation>
+    </message>
+    <message>
+        <source>Comment for the author</source>
+        <translation>Opmerking foar de auteur</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>Goedkarre</translation>
+    </message>
+    <message>
+        <source>Deny</source>
+        <translation>Ofwize</translation>
+    </message>
+    <message>
+        <source>The approval could not be decided.</source>
+        <translation>Oer de goedkarring koe net besletten wurde.</translation>
+    </message>
+    <message>
         <source>Me</source>
         <translation>Ik</translation>
     </message>

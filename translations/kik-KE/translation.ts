@@ -564,6 +564,42 @@
         <translation>Mũbangĩre</translation>
     </message>
     <message>
+        <source>Inbox</source>
+        <translation>Ithandũkũ rĩa marũa</translation>
+    </message>
+    <message>
+        <source>%n waiting for your approval</source>
+        <translation>%n irĩetereire wĩtĩkĩrio waku</translation>
+    </message>
+    <message>
+        <source>Nothing is waiting for your approval.</source>
+        <translation>Gũtirĩ kĩndũ kĩetereire wĩtĩkĩrio waku.</translation>
+    </message>
+    <message>
+        <source>From %name, %time</source>
+        <translation>Kuuma kũrĩ %name, %time</translation>
+    </message>
+    <message>
+        <source>Open the draft</source>
+        <translation>Hingũra mũhiano</translation>
+    </message>
+    <message>
+        <source>Comment for the author</source>
+        <translation>Ũhoro harĩ mwandĩki</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>Ĩtĩkĩra</translation>
+    </message>
+    <message>
+        <source>Deny</source>
+        <translation>Rega</translation>
+    </message>
+    <message>
+        <source>The approval could not be decided.</source>
+        <translation>Wĩtĩkĩrio ndũngĩatuĩtwo.</translation>
+    </message>
+    <message>
         <source>Me</source>
         <translation>Niĩ</translation>
     </message>

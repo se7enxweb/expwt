@@ -564,6 +564,42 @@
         <translation>mIwmey</translation>
     </message>
     <message>
+        <source>Inbox</source>
+        <translation>QIn chu'</translation>
+    </message>
+    <message>
+        <source>%n waiting for your approval</source>
+        <translation>%n Qochbe'ghach loS</translation>
+    </message>
+    <message>
+        <source>Nothing is waiting for your approval.</source>
+        <translation>pagh Qochbe'ghach loS.</translation>
+    </message>
+    <message>
+        <source>From %name, %time</source>
+        <translation>%name vo', %time</translation>
+    </message>
+    <message>
+        <source>Open the draft</source>
+        <translation>nab poSmoH</translation>
+    </message>
+    <message>
+        <source>Comment for the author</source>
+        <translation>ghItlhwI'vaD QIn</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>QochQo'</translation>
+    </message>
+    <message>
+        <source>Deny</source>
+        <translation>Qoch</translation>
+    </message>
+    <message>
+        <source>The approval could not be decided.</source>
+        <translation>Qochbe'ghach wIwuqlaHbe'.</translation>
+    </message>
+    <message>
         <source>Me</source>
         <translation>jIH</translation>
     </message>

@@ -564,6 +564,42 @@
         <translation>Struktuvra</translation>
     </message>
     <message>
+        <source>Inbox</source>
+        <translation>Sisaboarta</translation>
+    </message>
+    <message>
+        <source>%n waiting for your approval</source>
+        <translation>%n vurdet du dohkkeheami</translation>
+    </message>
+    <message>
+        <source>Nothing is waiting for your approval.</source>
+        <translation>Mihkkege ii vurde du dohkkeheami.</translation>
+    </message>
+    <message>
+        <source>From %name, %time</source>
+        <translation>%name, %time</translation>
+    </message>
+    <message>
+        <source>Open the draft</source>
+        <translation>Raba konseavtta</translation>
+    </message>
+    <message>
+        <source>Comment for the author</source>
+        <translation>Kommeanta čállái</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>Dohkket</translation>
+    </message>
+    <message>
+        <source>Deny</source>
+        <translation>Hilgo</translation>
+    </message>
+    <message>
+        <source>The approval could not be decided.</source>
+        <translation>Dohkkeheami birra ii sáhttán mearridit.</translation>
+    </message>
+    <message>
         <source>Me</source>
         <translation>Mun</translation>
     </message>

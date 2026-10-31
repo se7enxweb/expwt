@@ -1137,5 +1137,75 @@
     }, function (err) { failure(ctx, err); });
   }
 
-  window.ExpwtPanels = { page: page, create: create, structure: structure, me: me };
+  /* ---------------------------------------------------------------------------------------------- inbox */
+
+  /* The approvals waiting for the user (F29): the kernel's approve workflow (collaboration items of ezapprove), each
+     with its page, author and last comment, the draft to open, and for an approver a comment and Approve or Deny,
+     decided through the kernel's own collaboration view (inbox.decide). */
+  function inbox(ctx, root) {
+    var t = ctx.t;
+    root.appendChild(ctx.h('p', { class: 'wt-muted', text: t('Loading ...') }));
+    ctx.call('inbox.load', {}).then(function (r) {
+      root.textContent = '';
+      drawInbox(ctx, root, r);
+    }, function (err) { root.textContent = ''; failure(ctx, err); });
+  }
+
+  function drawInbox(ctx, root, r) {
+    var h = ctx.h;
+    var t = ctx.t;
+    var total = r.total;
+    ctx.waiting(total);
+    var heading = h('h3', {});
+    var empty = h('p', { class: 'wt-muted', text: t('Nothing is waiting for your approval.') });
+    var list = h('ul', { class: 'wt-inbox' });
+    function count() {
+      heading.textContent = t('%n waiting for your approval').replace('%n', total);
+      heading.hidden = total === 0;
+      empty.hidden = total > 0;
+    }
+    root.appendChild(h('div', { class: 'wt-section' }, [heading, empty, list]));
+    count();
+    r.items.forEach(function (it) {
+      var id = 'wt-inbox-' + it.id;
+      var comment = h('textarea', { id: id, rows: '3' });
+      var note = h('p', { class: 'wt-muted', role: 'status', 'aria-live': 'polite' });
+      var buttons = [];
+      var item;
+      function decide(decision) {
+        buttons.forEach(function (b) { b.disabled = true; });
+        ctx.call('inbox.decide', { itemId: it.id, decision: decision, comment: comment.value }).then(function (a) {
+          ctx.say(a.message || '', 'ok');
+          total = Math.max(0, total - 1);
+          ctx.waiting(a.waiting);
+          item.remove();
+          count();
+        }, function (err) {
+          buttons.forEach(function (b) { b.disabled = false; });
+          note.textContent = err && err.message ? err.message : t('The approval could not be decided.');
+        });
+      }
+      if (it.approver) {
+        buttons = [
+          h('button', { type: 'button', class: 'wt-btn is-primary', text: t('Approve'), onclick: function () { decide('approve'); } }),
+          h('button', { type: 'button', class: 'wt-btn is-danger', text: t('Deny'), onclick: function () { decide('deny'); } })
+        ];
+      }
+      item = h('li', { class: 'wt-inbox-item', 'data-item': String(it.id) }, [
+        h('h4', { text: it.title }),
+        h('p', { class: 'wt-muted', text: t('From %name, %time').replace('%name', it.author).replace('%time', when(it.created)) }),
+        it.lastMessage ? h('blockquote', { class: 'wt-quote' }, [
+          h('p', { text: it.lastMessage.text }),
+          h('p', { class: 'wt-muted', text: it.lastMessage.author + ', ' + when(it.lastMessage.created) })]) : null,
+        it.preview ? h('div', { class: 'wt-row' }, [
+          h('a', { class: 'wt-btn', href: it.preview, target: '_blank', rel: 'noopener', text: t('Open the draft') })]) : null,
+        it.approver ? h('label', { class: 'wt-field', for: id }, [h('span', { text: t('Comment for the author') }), comment]) : null,
+        buttons.length ? h('div', { class: 'wt-row' }, buttons) : null,
+        note
+      ]);
+      list.appendChild(item);
+    });
+  }
+
+  window.ExpwtPanels = { page: page, create: create, structure: structure, inbox: inbox, me: me };
 }());

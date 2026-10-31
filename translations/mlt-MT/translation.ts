@@ -564,6 +564,42 @@
         <translation>Struttura</translation>
     </message>
     <message>
+        <source>Inbox</source>
+        <translation>Inbox</translation>
+    </message>
+    <message>
+        <source>%n waiting for your approval</source>
+        <translation>%n qed jistennew l-approvazzjoni tiegħek</translation>
+    </message>
+    <message>
+        <source>Nothing is waiting for your approval.</source>
+        <translation>Xejn ma qed jistenna l-approvazzjoni tiegħek.</translation>
+    </message>
+    <message>
+        <source>From %name, %time</source>
+        <translation>Minn %name, %time</translation>
+    </message>
+    <message>
+        <source>Open the draft</source>
+        <translation>Iftaħ l-abbozz</translation>
+    </message>
+    <message>
+        <source>Comment for the author</source>
+        <translation>Kumment għall-awtur</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>Approva</translation>
+    </message>
+    <message>
+        <source>Deny</source>
+        <translation>Ičħad</translation>
+    </message>
+    <message>
+        <source>The approval could not be decided.</source>
+        <translation>Ma setgħetx tiġi deċiża l-approvazzjoni.</translation>
+    </message>
+    <message>
         <source>Me</source>
         <translation>Jien</translation>
     </message>

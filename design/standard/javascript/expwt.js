@@ -272,7 +272,7 @@
         open: s.open === true,
         mode: s.mode === 'overlay' ? 'overlay' : 'push',
         theme: ['light', 'dark'].indexOf(s.theme) >= 0 ? s.theme : 'auto',
-        panel: ['page', 'create', 'structure', 'me'].indexOf(s.panel) >= 0 ? s.panel : 'page'
+        panel: ['page', 'create', 'structure', 'inbox', 'me'].indexOf(s.panel) >= 0 ? s.panel : 'page'
       };
     }
 
@@ -539,8 +539,27 @@
       var list = [{ id: 'page', label: this.t('Page') }];
       if (c.create) { list.push({ id: 'create', label: this.t('Create') }); }
       if (c.structure) { list.push({ id: 'structure', label: this.t('Structure') }); }
+      /* the approvals waiting for the user (F29), for a user of the kernel's collaboration */
+      if (this.boot && this.boot.inbox) { list.push({ id: 'inbox', label: this.t('Inbox') }); }
       list.push({ id: 'me', label: this.t('Me') });
       return list;
+    }
+
+    /* The number of approvals waiting for the user: a badge on the closed tab and on the Inbox panel's tab (F29),
+       none at 0; screen readers hear "%n waiting for your approval". */
+    setWaiting(n) {
+      var self = this;
+      this.waiting = Math.max(0, parseInt(n, 10) || 0);
+      var badge = function () {
+        var text = self.t('%n waiting for your approval').replace('%n', self.waiting);
+        return h('span', { class: 'wt-badge', 'data-badge': 'waiting' }, [
+          h('span', { 'aria-hidden': 'true', text: String(self.waiting) }), h('span', { class: 'wt-sr', text: ' ' + text })]);
+      };
+      [this.tab].concat((this.tabButtons || []).filter(function (b) { return b.getAttribute('data-panel') === 'inbox'; })).forEach(function (el) {
+        var old = el.querySelector('[data-badge="waiting"]');
+        if (old) { old.remove(); }
+        if (self.waiting > 0) { el.appendChild(badge()); }
+      });
     }
 
     buildTabs() {
@@ -561,6 +580,7 @@
         return b;
       });
       this.tablist.hidden = list.length < 2;
+      if (this.waiting) { this.setWaiting(this.waiting); }
     }
 
     tabsKey(e) {
@@ -1078,6 +1098,7 @@
           store(CACHE, self.state);
         }
         self.buildTabs();
+        self.setWaiting(self.boot.inbox ? self.boot.inbox.waiting : 0);
         self.applyState();
         /* editing on the page (this tab, sessionStorage): the Page panel draws the outlines, open or not */
         if (self.state.open || self.editOn) {
@@ -1115,7 +1136,7 @@
     call(action, input, retried) {
       var self = this;
       var t = this.boot.transport;
-      var write = ['me', 'page.load', 'create.classes', 'tree.children', 'boot'].indexOf(action) < 0;
+      var write = ['me', 'page.load', 'create.classes', 'tree.children', 'inbox.load', 'boot'].indexOf(action) < 0;
       var json = JSON.stringify(input || {});
       var headers = { 'X-CSRF-Token': this.boot.token || '' };
       var p;
@@ -1281,6 +1302,7 @@
         node: this.cfg.node || 0,
         state: this.state,
         setState: function (change) { self.setState(change); },
+        waiting: function (n) { self.setWaiting(n); },
         deviceOnly: function (on) {
           if (on === undefined) { return self.deviceOnly; }
           self.deviceOnly = !!on;

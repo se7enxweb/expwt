@@ -564,6 +564,42 @@
         <translation>پێکهاتە</translation>
     </message>
     <message>
+        <source>Inbox</source>
+        <translation>هاتووەکان</translation>
+    </message>
+    <message>
+        <source>%n waiting for your approval</source>
+        <translation>%n چاوەڕێی پەسەندکردنی تۆن</translation>
+    </message>
+    <message>
+        <source>Nothing is waiting for your approval.</source>
+        <translation>هیچ شتێک چاوەڕێی پەسەندکردنی تۆ نییە.</translation>
+    </message>
+    <message>
+        <source>From %name, %time</source>
+        <translation>لە %name، %time</translation>
+    </message>
+    <message>
+        <source>Open the draft</source>
+        <translation>ڕەشنووسەکە بکەرەوە</translation>
+    </message>
+    <message>
+        <source>Comment for the author</source>
+        <translation>لێدوان بۆ نووسەر</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>پەسەندکردن</translation>
+    </message>
+    <message>
+        <source>Deny</source>
+        <translation>ڕەتکردنەوە</translation>
+    </message>
+    <message>
+        <source>The approval could not be decided.</source>
+        <translation>نەتوانرا بڕیار لەسەر پەسەندکردنەکە بدرێت.</translation>
+    </message>
+    <message>
         <source>Me</source>
         <translation>من</translation>
     </message>

@@ -564,6 +564,42 @@
         <translation>Uppbygging</translation>
     </message>
     <message>
+        <source>Inbox</source>
+        <translation>Innhólf</translation>
+    </message>
+    <message>
+        <source>%n waiting for your approval</source>
+        <translation>%n bíða samþykkis þíns</translation>
+    </message>
+    <message>
+        <source>Nothing is waiting for your approval.</source>
+        <translation>Ekkert bíður samþykkis þíns.</translation>
+    </message>
+    <message>
+        <source>From %name, %time</source>
+        <translation>Frá %name, %time</translation>
+    </message>
+    <message>
+        <source>Open the draft</source>
+        <translation>Opna drögin</translation>
+    </message>
+    <message>
+        <source>Comment for the author</source>
+        <translation>Athugasemd til höfundar</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>Samþykkja</translation>
+    </message>
+    <message>
+        <source>Deny</source>
+        <translation>Hafna</translation>
+    </message>
+    <message>
+        <source>The approval could not be decided.</source>
+        <translation>Ekki tókst að ákveða samþykkið.</translation>
+    </message>
+    <message>
         <source>Me</source>
         <translation>Ég</translation>
     </message>

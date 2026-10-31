@@ -564,6 +564,42 @@
         <translation>Struktura</translation>
     </message>
     <message>
+        <source>Inbox</source>
+        <translation>Prijemno sanduče</translation>
+    </message>
+    <message>
+        <source>%n waiting for your approval</source>
+        <translation>%n čeka vaše odobrenje</translation>
+    </message>
+    <message>
+        <source>Nothing is waiting for your approval.</source>
+        <translation>Ništa ne čeka vaše odobrenje.</translation>
+    </message>
+    <message>
+        <source>From %name, %time</source>
+        <translation>Od %name, %time</translation>
+    </message>
+    <message>
+        <source>Open the draft</source>
+        <translation>Otvori nacrt</translation>
+    </message>
+    <message>
+        <source>Comment for the author</source>
+        <translation>Komentar za autora</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>Odobri</translation>
+    </message>
+    <message>
+        <source>Deny</source>
+        <translation>Odbij</translation>
+    </message>
+    <message>
+        <source>The approval could not be decided.</source>
+        <translation>O odobrenju nije bilo moguće odlučiti.</translation>
+    </message>
+    <message>
         <source>Me</source>
         <translation>Ja</translation>
     </message>

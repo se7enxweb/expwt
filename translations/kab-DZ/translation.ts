@@ -564,6 +564,42 @@
         <translation>Taɣessa</translation>
     </message>
     <message>
+        <source>Inbox</source>
+        <translation>Tanaka n ukcam</translation>
+    </message>
+    <message>
+        <source>%n waiting for your approval</source>
+        <translation>%n ttrajun tasirägt-ik</translation>
+    </message>
+    <message>
+        <source>Nothing is waiting for your approval.</source>
+        <translation>Ulac ayen yettrajun tasirägt-ik.</translation>
+    </message>
+    <message>
+        <source>From %name, %time</source>
+        <translation>Seg %name, %time</translation>
+    </message>
+    <message>
+        <source>Open the draft</source>
+        <translation>Ldi arewway</translation>
+    </message>
+    <message>
+        <source>Comment for the author</source>
+        <translation>Awennit i umeskar</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>Qbel</translation>
+    </message>
+    <message>
+        <source>Deny</source>
+        <translation>Agi</translation>
+    </message>
+    <message>
+        <source>The approval could not be decided.</source>
+        <translation>Ur yezmir ara ad yettwagzem deg tsirägt.</translation>
+    </message>
+    <message>
         <source>Me</source>
         <translation>Nekk</translation>
     </message>

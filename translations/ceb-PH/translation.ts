@@ -564,6 +564,42 @@
         <translation>Istruktura</translation>
     </message>
     <message>
+        <source>Inbox</source>
+        <translation>Inbox</translation>
+    </message>
+    <message>
+        <source>%n waiting for your approval</source>
+        <translation>%n naghulat sa imong pag-uyon</translation>
+    </message>
+    <message>
+        <source>Nothing is waiting for your approval.</source>
+        <translation>Walay naghulat sa imong pag-uyon.</translation>
+    </message>
+    <message>
+        <source>From %name, %time</source>
+        <translation>Gikan kang %name, %time</translation>
+    </message>
+    <message>
+        <source>Open the draft</source>
+        <translation>Ablihi ang draft</translation>
+    </message>
+    <message>
+        <source>Comment for the author</source>
+        <translation>Komento alang sa tagsulat</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>Uyonan</translation>
+    </message>
+    <message>
+        <source>Deny</source>
+        <translation>Isalikway</translation>
+    </message>
+    <message>
+        <source>The approval could not be decided.</source>
+        <translation>Dili mahukman ang pag-uyon.</translation>
+    </message>
+    <message>
         <source>Me</source>
         <translation>Ako</translation>
     </message>

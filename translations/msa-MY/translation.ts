@@ -564,6 +564,42 @@
         <translation>Struktur</translation>
     </message>
     <message>
+        <source>Inbox</source>
+        <translation>Peti masuk</translation>
+    </message>
+    <message>
+        <source>%n waiting for your approval</source>
+        <translation>%n menunggu kelulusan anda</translation>
+    </message>
+    <message>
+        <source>Nothing is waiting for your approval.</source>
+        <translation>Tiada apa-apa yang menunggu kelulusan anda.</translation>
+    </message>
+    <message>
+        <source>From %name, %time</source>
+        <translation>Daripada %name, %time</translation>
+    </message>
+    <message>
+        <source>Open the draft</source>
+        <translation>Buka draf</translation>
+    </message>
+    <message>
+        <source>Comment for the author</source>
+        <translation>Ulasan untuk pengarang</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>Luluskan</translation>
+    </message>
+    <message>
+        <source>Deny</source>
+        <translation>Tolak</translation>
+    </message>
+    <message>
+        <source>The approval could not be decided.</source>
+        <translation>Kelulusan tidak dapat diputuskan.</translation>
+    </message>
+    <message>
         <source>Me</source>
         <translation>Saya</translation>
     </message>

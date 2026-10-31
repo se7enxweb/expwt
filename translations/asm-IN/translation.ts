@@ -564,6 +564,42 @@
         <translation>গাঁথনি</translation>
     </message>
     <message>
+        <source>Inbox</source>
+        <translation>ইনবক্স</translation>
+    </message>
+    <message>
+        <source>%n waiting for your approval</source>
+        <translation>%n টা আপোনাৰ অনুমোদনৰ অপেক্ষাত</translation>
+    </message>
+    <message>
+        <source>Nothing is waiting for your approval.</source>
+        <translation>আপোনাৰ অনুমোদনৰ অপেক্ষাত একো নাই।</translation>
+    </message>
+    <message>
+        <source>From %name, %time</source>
+        <translation>%name, %time-ৰ পৰা</translation>
+    </message>
+    <message>
+        <source>Open the draft</source>
+        <translation>খচৰাটো খোলক</translation>
+    </message>
+    <message>
+        <source>Comment for the author</source>
+        <translation>লেখকৰ বাবে মন্তব্য</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>অনুমোদন কৰক</translation>
+    </message>
+    <message>
+        <source>Deny</source>
+        <translation>নাকচ কৰক</translation>
+    </message>
+    <message>
+        <source>The approval could not be decided.</source>
+        <translation>অনুমোদনৰ সিদ্ধান্ত লোৱা নগ'ল।</translation>
+    </message>
+    <message>
         <source>Me</source>
         <translation>মই</translation>
     </message>

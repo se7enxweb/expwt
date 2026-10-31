@@ -564,6 +564,42 @@
         <translation>Avahî</translation>
     </message>
     <message>
+        <source>Inbox</source>
+        <translation>Qutiya hatî</translation>
+    </message>
+    <message>
+        <source>%n waiting for your approval</source>
+        <translation>%n li benda erêkirina te ne</translation>
+    </message>
+    <message>
+        <source>Nothing is waiting for your approval.</source>
+        <translation>Tiştek li benda erêkirina te nîne.</translation>
+    </message>
+    <message>
+        <source>From %name, %time</source>
+        <translation>Ji %name, %time</translation>
+    </message>
+    <message>
+        <source>Open the draft</source>
+        <translation>Pêşnûmeyê veke</translation>
+    </message>
+    <message>
+        <source>Comment for the author</source>
+        <translation>Şîrove ji bo nivîskar</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>Erê bike</translation>
+    </message>
+    <message>
+        <source>Deny</source>
+        <translation>Red bike</translation>
+    </message>
+    <message>
+        <source>The approval could not be decided.</source>
+        <translation>Li ser erêkirinê biryar nehat dayîn.</translation>
+    </message>
+    <message>
         <source>Me</source>
         <translation>Ez</translation>
     </message>

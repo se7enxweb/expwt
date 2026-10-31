@@ -564,6 +564,42 @@
         <translation>Caasaa</translation>
     </message>
     <message>
+        <source>Inbox</source>
+        <translation>Saanduqa galtee</translation>
+    </message>
+    <message>
+        <source>%n waiting for your approval</source>
+        <translation>%n mirkaneessa kee eegaa jiru</translation>
+    </message>
+    <message>
+        <source>Nothing is waiting for your approval.</source>
+        <translation>Wanti mirkaneessa kee eegu hin jiru.</translation>
+    </message>
+    <message>
+        <source>From %name, %time</source>
+        <translation>%name irraa, %time</translation>
+    </message>
+    <message>
+        <source>Open the draft</source>
+        <translation>Wixinee bani</translation>
+    </message>
+    <message>
+        <source>Comment for the author</source>
+        <translation>Yaada barreessaaf</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>Mirkaneessi</translation>
+    </message>
+    <message>
+        <source>Deny</source>
+        <translation>Didi</translation>
+    </message>
+    <message>
+        <source>The approval could not be decided.</source>
+        <translation>Waa'ee mirkaneessaa murteessuun hin danda'amne.</translation>
+    </message>
+    <message>
         <source>Me</source>
         <translation>Ana</translation>
     </message>

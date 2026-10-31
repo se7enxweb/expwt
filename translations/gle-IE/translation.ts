@@ -564,6 +564,42 @@
         <translation>Struchtúr</translation>
     </message>
     <message>
+        <source>Inbox</source>
+        <translation>Bosca isteach</translation>
+    </message>
+    <message>
+        <source>%n waiting for your approval</source>
+        <translation>%n ag fanacht le do cheadú</translation>
+    </message>
+    <message>
+        <source>Nothing is waiting for your approval.</source>
+        <translation>Níl aon rud ag fanacht le do cheadú.</translation>
+    </message>
+    <message>
+        <source>From %name, %time</source>
+        <translation>Ó %name, %time</translation>
+    </message>
+    <message>
+        <source>Open the draft</source>
+        <translation>Oscail an dréacht</translation>
+    </message>
+    <message>
+        <source>Comment for the author</source>
+        <translation>Trácht don údar</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>Ceadaigh</translation>
+    </message>
+    <message>
+        <source>Deny</source>
+        <translation>Diúltaigh</translation>
+    </message>
+    <message>
+        <source>The approval could not be decided.</source>
+        <translation>Níorbh fhéidir cinneadh a dhéanamh faoin gceadú.</translation>
+    </message>
+    <message>
         <source>Me</source>
         <translation>Mise</translation>
     </message>

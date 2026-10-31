@@ -564,6 +564,42 @@
         <translation>Estructura</translation>
     </message>
     <message>
+        <source>Inbox</source>
+        <translation>Bandexa d'entrada</translation>
+    </message>
+    <message>
+        <source>%n waiting for your approval</source>
+        <translation>%n esperando la to aprobación</translation>
+    </message>
+    <message>
+        <source>Nothing is waiting for your approval.</source>
+        <translation>Nada espera la to aprobación.</translation>
+    </message>
+    <message>
+        <source>From %name, %time</source>
+        <translation>De %name, %time</translation>
+    </message>
+    <message>
+        <source>Open the draft</source>
+        <translation>Abrir el borrador</translation>
+    </message>
+    <message>
+        <source>Comment for the author</source>
+        <translation>Comentariu pal autor</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>Aprobar</translation>
+    </message>
+    <message>
+        <source>Deny</source>
+        <translation>Refugar</translation>
+    </message>
+    <message>
+        <source>The approval could not be decided.</source>
+        <translation>Nun se pudo decidir l'aprobación.</translation>
+    </message>
+    <message>
         <source>Me</source>
         <translation>Yo</translation>
     </message>

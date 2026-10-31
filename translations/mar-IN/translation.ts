@@ -564,6 +564,42 @@
         <translation>रचना</translation>
     </message>
     <message>
+        <source>Inbox</source>
+        <translation>इनबॉक्स</translation>
+    </message>
+    <message>
+        <source>%n waiting for your approval</source>
+        <translation>%n तुमच्या मंजुरीच्या प्रतीक्षेत</translation>
+    </message>
+    <message>
+        <source>Nothing is waiting for your approval.</source>
+        <translation>तुमच्या मंजुरीच्या प्रतीक्षेत काहीही नाही.</translation>
+    </message>
+    <message>
+        <source>From %name, %time</source>
+        <translation>%name कडून, %time</translation>
+    </message>
+    <message>
+        <source>Open the draft</source>
+        <translation>मसुदा उघडा</translation>
+    </message>
+    <message>
+        <source>Comment for the author</source>
+        <translation>लेखकासाठी टिप्पणी</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>मंजूर करा</translation>
+    </message>
+    <message>
+        <source>Deny</source>
+        <translation>नाकारा</translation>
+    </message>
+    <message>
+        <source>The approval could not be decided.</source>
+        <translation>मंजुरीवर निर्णय घेता आला नाही.</translation>
+    </message>
+    <message>
         <source>Me</source>
         <translation>मी</translation>
     </message>

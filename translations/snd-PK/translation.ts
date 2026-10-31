@@ -564,6 +564,42 @@
         <translation>بناوت</translation>
     </message>
     <message>
+        <source>Inbox</source>
+        <translation>آيل خط</translation>
+    </message>
+    <message>
+        <source>%n waiting for your approval</source>
+        <translation>%n توهان جي منظوري جو انتظار ڪري رهيا آهن</translation>
+    </message>
+    <message>
+        <source>Nothing is waiting for your approval.</source>
+        <translation>ڪجهه به توهان جي منظوري جو انتظار نٿو ڪري.</translation>
+    </message>
+    <message>
+        <source>From %name, %time</source>
+        <translation>%name کان، %time</translation>
+    </message>
+    <message>
+        <source>Open the draft</source>
+        <translation>مسودو کوليو</translation>
+    </message>
+    <message>
+        <source>Comment for the author</source>
+        <translation>ليکڪ لاءِ تبصرو</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>منظور ڪريو</translation>
+    </message>
+    <message>
+        <source>Deny</source>
+        <translation>رد ڪريو</translation>
+    </message>
+    <message>
+        <source>The approval could not be decided.</source>
+        <translation>منظوري بابت فيصلو نه ٿي سگهيو.</translation>
+    </message>
+    <message>
         <source>Me</source>
         <translation>مان</translation>
     </message>

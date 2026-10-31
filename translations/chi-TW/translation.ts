@@ -564,6 +564,42 @@
         <translation>結構</translation>
     </message>
     <message>
+        <source>Inbox</source>
+        <translation>收件匣</translation>
+    </message>
+    <message>
+        <source>%n waiting for your approval</source>
+        <translation>%n 項等待您核准</translation>
+    </message>
+    <message>
+        <source>Nothing is waiting for your approval.</source>
+        <translation>沒有等待您核准的內容。</translation>
+    </message>
+    <message>
+        <source>From %name, %time</source>
+        <translation>來自 %name，%time</translation>
+    </message>
+    <message>
+        <source>Open the draft</source>
+        <translation>開啟草稿</translation>
+    </message>
+    <message>
+        <source>Comment for the author</source>
+        <translation>給作者的意見</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>核准</translation>
+    </message>
+    <message>
+        <source>Deny</source>
+        <translation>拒絕</translation>
+    </message>
+    <message>
+        <source>The approval could not be decided.</source>
+        <translation>無法完成核准決定。</translation>
+    </message>
+    <message>
         <source>Me</source>
         <translation>我</translation>
     </message>

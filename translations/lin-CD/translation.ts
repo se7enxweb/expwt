@@ -564,6 +564,42 @@
         <translation>Ebongiseli</translation>
     </message>
     <message>
+        <source>Inbox</source>
+        <translation>Bokóti ya mikanda</translation>
+    </message>
+    <message>
+        <source>%n waiting for your approval</source>
+        <translation>%n ezali kozela ndingisa na yo</translation>
+    </message>
+    <message>
+        <source>Nothing is waiting for your approval.</source>
+        <translation>Eloko moko te ezali kozela ndingisa na yo.</translation>
+    </message>
+    <message>
+        <source>From %name, %time</source>
+        <translation>Uta na %name, %time</translation>
+    </message>
+    <message>
+        <source>Open the draft</source>
+        <translation>Fungola ebandeli</translation>
+    </message>
+    <message>
+        <source>Comment for the author</source>
+        <translation>Likanisi mpo na mokomi</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>Ndima</translation>
+    </message>
+    <message>
+        <source>Deny</source>
+        <translation>Boya</translation>
+    </message>
+    <message>
+        <source>The approval could not be decided.</source>
+        <translation>Bakokaki te kozwa mokano na ntina ya ndingisa.</translation>
+    </message>
+    <message>
         <source>Me</source>
         <translation>Ngai</translation>
     </message>

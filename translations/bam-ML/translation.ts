@@ -564,6 +564,42 @@
         <translation>Sigicogo</translation>
     </message>
     <message>
+        <source>Inbox</source>
+        <translation>Bataki donnenw</translation>
+    </message>
+    <message>
+        <source>%n waiting for your approval</source>
+        <translation>%n bɛ i ka sɔn makɔnɔ</translation>
+    </message>
+    <message>
+        <source>Nothing is waiting for your approval.</source>
+        <translation>Foyi tɛ i ka sɔn makɔnɔ.</translation>
+    </message>
+    <message>
+        <source>From %name, %time</source>
+        <translation>Ka bɔ %name fɛ, %time</translation>
+    </message>
+    <message>
+        <source>Open the draft</source>
+        <translation>Sɛbɛn fɔlɔ dayɛlɛ</translation>
+    </message>
+    <message>
+        <source>Comment for the author</source>
+        <translation>Hakilina sɛbɛnbaga ye</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>Sɔn a ma</translation>
+    </message>
+    <message>
+        <source>Deny</source>
+        <translation>Ban a ma</translation>
+    </message>
+    <message>
+        <source>The approval could not be decided.</source>
+        <translation>Sɔn in ma se ka latigɛ.</translation>
+    </message>
+    <message>
         <source>Me</source>
         <translation>Ne</translation>
     </message>

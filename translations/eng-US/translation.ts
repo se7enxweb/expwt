@@ -564,6 +564,42 @@
         <translation>Structure</translation>
     </message>
     <message>
+        <source>Inbox</source>
+        <translation>Inbox</translation>
+    </message>
+    <message>
+        <source>%n waiting for your approval</source>
+        <translation>%n waiting for your approval</translation>
+    </message>
+    <message>
+        <source>Nothing is waiting for your approval.</source>
+        <translation>Nothing is waiting for your approval.</translation>
+    </message>
+    <message>
+        <source>From %name, %time</source>
+        <translation>From %name, %time</translation>
+    </message>
+    <message>
+        <source>Open the draft</source>
+        <translation>Open the draft</translation>
+    </message>
+    <message>
+        <source>Comment for the author</source>
+        <translation>Comment for the author</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>Approve</translation>
+    </message>
+    <message>
+        <source>Deny</source>
+        <translation>Deny</translation>
+    </message>
+    <message>
+        <source>The approval could not be decided.</source>
+        <translation>The approval could not be decided.</translation>
+    </message>
+    <message>
         <source>Me</source>
         <translation>Me</translation>
     </message>

@@ -3,7 +3,7 @@
  * The REST routes of the sidebar (rest.ini [ApiProvider] ProviderClass[expwt]), for a client with a token (an OAuth
  * token or a personal API key):
  *
- *   GET  /api/expwt/v1/<action>?input={...}     a reading action (boot, me, page.load, create.classes, tree.children)
+ *   GET  /api/expwt/v1/<action>?input={...}     a reading action (boot, me, page.load, create.classes, tree.children, inbox.load)
  *   POST /api/expwt/v1/<action>                  any action, the input as the JSON body
  *
  * The same actions, checks and answers as the browser's expwt/api (expwtApi). "Verify it's you" belongs to the web

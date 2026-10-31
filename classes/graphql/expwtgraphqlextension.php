@@ -49,7 +49,7 @@ class expwtGraphQLExtension implements expGraphQLSchemaExtension, expGraphQLMuta
 
     public function queryFields( expGraphQLTypes $types )
     {
-        return array( 'expwtRead' => $this->field( $types, 'A reading action of the website sidebar (expwt): boot, me, page.load, create.classes, tree.children.', false ) );
+        return array( 'expwtRead' => $this->field( $types, 'A reading action of the website sidebar (expwt): boot, me, page.load, create.classes, tree.children, inbox.load.', false ) );
     }
 
     public function mutationFields( expGraphQLTypes $types )

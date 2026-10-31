@@ -564,6 +564,42 @@
         <translation>Ìgbékalẹ̀</translation>
     </message>
     <message>
+        <source>Inbox</source>
+        <translation>Àpótí ìwọlé</translation>
+    </message>
+    <message>
+        <source>%n waiting for your approval</source>
+        <translation>%n ń dúró de ìfọwọ́sí rẹ</translation>
+    </message>
+    <message>
+        <source>Nothing is waiting for your approval.</source>
+        <translation>Kò sí ohun tó ń dúró de ìfọwọ́sí rẹ.</translation>
+    </message>
+    <message>
+        <source>From %name, %time</source>
+        <translation>Láti ọ̀dọ̀ %name, %time</translation>
+    </message>
+    <message>
+        <source>Open the draft</source>
+        <translation>Ṣí àkọ́pamọ́ náà</translation>
+    </message>
+    <message>
+        <source>Comment for the author</source>
+        <translation>Àsọyé fún òǹkọ̀wé</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>Fọwọ́ sí</translation>
+    </message>
+    <message>
+        <source>Deny</source>
+        <translation>Kọ̀</translation>
+    </message>
+    <message>
+        <source>The approval could not be decided.</source>
+        <translation>A kò lè pinnu lórí ìfọwọ́sí náà.</translation>
+    </message>
+    <message>
         <source>Me</source>
         <translation>Èmi</translation>
     </message>

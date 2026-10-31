@@ -564,6 +564,42 @@
         <translation>Strwythur</translation>
     </message>
     <message>
+        <source>Inbox</source>
+        <translation>Mewnflwch</translation>
+    </message>
+    <message>
+        <source>%n waiting for your approval</source>
+        <translation>%n yn aros am eich cymeradwyaeth</translation>
+    </message>
+    <message>
+        <source>Nothing is waiting for your approval.</source>
+        <translation>Does dim yn aros am eich cymeradwyaeth.</translation>
+    </message>
+    <message>
+        <source>From %name, %time</source>
+        <translation>Gan %name, %time</translation>
+    </message>
+    <message>
+        <source>Open the draft</source>
+        <translation>Agor y drafft</translation>
+    </message>
+    <message>
+        <source>Comment for the author</source>
+        <translation>Sylw i'r awdur</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>Cymeradwyo</translation>
+    </message>
+    <message>
+        <source>Deny</source>
+        <translation>Gwrthod</translation>
+    </message>
+    <message>
+        <source>The approval could not be decided.</source>
+        <translation>Nid oedd modd penderfynu ar y gymeradwyaeth.</translation>
+    </message>
+    <message>
         <source>Me</source>
         <translation>Fi</translation>
     </message>

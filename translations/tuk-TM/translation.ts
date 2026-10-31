@@ -564,6 +564,42 @@
         <translation>Gurluş</translation>
     </message>
     <message>
+        <source>Inbox</source>
+        <translation>Gelenler</translation>
+    </message>
+    <message>
+        <source>%n waiting for your approval</source>
+        <translation>%n siziň tassyklamagyňyza garaşýar</translation>
+    </message>
+    <message>
+        <source>Nothing is waiting for your approval.</source>
+        <translation>Siziň tassyklamagyňyza hiç zat garaşmaýar.</translation>
+    </message>
+    <message>
+        <source>From %name, %time</source>
+        <translation>%name, %time</translation>
+    </message>
+    <message>
+        <source>Open the draft</source>
+        <translation>Garalamany aç</translation>
+    </message>
+    <message>
+        <source>Comment for the author</source>
+        <translation>Awtor üçin teswir</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>Tassykla</translation>
+    </message>
+    <message>
+        <source>Deny</source>
+        <translation>Ret et</translation>
+    </message>
+    <message>
+        <source>The approval could not be decided.</source>
+        <translation>Tassyklama barada karar berip bolmady.</translation>
+    </message>
+    <message>
         <source>Me</source>
         <translation>Men</translation>
     </message>

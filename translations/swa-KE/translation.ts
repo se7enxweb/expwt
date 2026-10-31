@@ -564,6 +564,42 @@
         <translation>Muundo</translation>
     </message>
     <message>
+        <source>Inbox</source>
+        <translation>Kikasha</translation>
+    </message>
+    <message>
+        <source>%n waiting for your approval</source>
+        <translation>%n vinasubiri idhini yako</translation>
+    </message>
+    <message>
+        <source>Nothing is waiting for your approval.</source>
+        <translation>Hakuna kinachosubiri idhini yako.</translation>
+    </message>
+    <message>
+        <source>From %name, %time</source>
+        <translation>Kutoka kwa %name, %time</translation>
+    </message>
+    <message>
+        <source>Open the draft</source>
+        <translation>Fungua rasimu</translation>
+    </message>
+    <message>
+        <source>Comment for the author</source>
+        <translation>Maoni kwa mwandishi</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>Idhinisha</translation>
+    </message>
+    <message>
+        <source>Deny</source>
+        <translation>Kataa</translation>
+    </message>
+    <message>
+        <source>The approval could not be decided.</source>
+        <translation>Idhini haikuweza kuamuliwa.</translation>
+    </message>
+    <message>
         <source>Me</source>
         <translation>Mimi</translation>
     </message>

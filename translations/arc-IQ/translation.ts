@@ -564,6 +564,42 @@
         <translation>בניינא</translation>
     </message>
     <message>
+        <source>Inbox</source>
+        <translation>ܐܓܪ̈ܬܐ ܕܥܐܠ̈ܢ</translation>
+    </message>
+    <message>
+        <source>%n waiting for your approval</source>
+        <translation>%n ܡܣܟܝܢ ܠܫܘܪܪܟ</translation>
+    </message>
+    <message>
+        <source>Nothing is waiting for your approval.</source>
+        <translation>ܠܝܬ ܡܕܡ ܕܡܣܟܐ ܠܫܘܪܪܟ.</translation>
+    </message>
+    <message>
+        <source>From %name, %time</source>
+        <translation>ܡܢ %name، %time</translation>
+    </message>
+    <message>
+        <source>Open the draft</source>
+        <translation>ܦܬܚ ܠܛܘܦܣܐ</translation>
+    </message>
+    <message>
+        <source>Comment for the author</source>
+        <translation>ܡܠܬܐ ܠܟܬܘܒܐ</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>ܫܪܪ</translation>
+    </message>
+    <message>
+        <source>Deny</source>
+        <translation>ܣܪܘܒ</translation>
+    </message>
+    <message>
+        <source>The approval could not be decided.</source>
+        <translation>ܠܐ ܐܫܬܟܚ ܕܢܬܦܣܩ ܫܘܪܪܐ.</translation>
+    </message>
+    <message>
         <source>Me</source>
         <translation>אנא</translation>
     </message>

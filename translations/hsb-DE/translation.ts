@@ -564,6 +564,42 @@
         <translation>Struktura</translation>
     </message>
     <message>
+        <source>Inbox</source>
+        <translation>Dóstate</translation>
+    </message>
+    <message>
+        <source>%n waiting for your approval</source>
+        <translation>%n čaka na waše přizwolenje</translation>
+    </message>
+    <message>
+        <source>Nothing is waiting for your approval.</source>
+        <translation>Ničo na waše přizwolenje nječaka.</translation>
+    </message>
+    <message>
+        <source>From %name, %time</source>
+        <translation>Wot %name, %time</translation>
+    </message>
+    <message>
+        <source>Open the draft</source>
+        <translation>Naćisk wočinić</translation>
+    </message>
+    <message>
+        <source>Comment for the author</source>
+        <translation>Komentar za awtora</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>Přizwolić</translation>
+    </message>
+    <message>
+        <source>Deny</source>
+        <translation>Wotpokazać</translation>
+    </message>
+    <message>
+        <source>The approval could not be decided.</source>
+        <translation>Wo přizwolenju njeda so rozsudźić.</translation>
+    </message>
+    <message>
         <source>Me</source>
         <translation>Ja</translation>
     </message>

@@ -564,6 +564,42 @@
         <translation>মওং মতৌ</translation>
     </message>
     <message>
+        <source>Inbox</source>
+        <translation>ইনবক্স</translation>
+    </message>
+    <message>
+        <source>%n waiting for your approval</source>
+        <translation>%n নহাক্কী অয়াবা ঙাইরি</translation>
+    </message>
+    <message>
+        <source>Nothing is waiting for your approval.</source>
+        <translation>নহাক্কী অয়াবা ঙাইরিবা করিসু লৈতে।</translation>
+    </message>
+    <message>
+        <source>From %name, %time</source>
+        <translation>%name দগী, %time</translation>
+    </message>
+    <message>
+        <source>Open the draft</source>
+        <translation>ড্রাফ্ট হাংদোকউ</translation>
+    </message>
+    <message>
+        <source>Comment for the author</source>
+        <translation>ইবুংগীদমক ৱাখল্লোন</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>অয়াবা পীবিয়ু</translation>
+    </message>
+    <message>
+        <source>Deny</source>
+        <translation>য়াদবা</translation>
+    </message>
+    <message>
+        <source>The approval could not be decided.</source>
+        <translation>অয়াবগী ৱারেপ লৌবা ঙমদ্রে।</translation>
+    </message>
+    <message>
         <source>Me</source>
         <translation>ঐ</translation>
     </message>

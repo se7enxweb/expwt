@@ -564,6 +564,42 @@
         <translation>Tsari</translation>
     </message>
     <message>
+        <source>Inbox</source>
+        <translation>Akwatin saƙo</translation>
+    </message>
+    <message>
+        <source>%n waiting for your approval</source>
+        <translation>%n suna jiran amincewarka</translation>
+    </message>
+    <message>
+        <source>Nothing is waiting for your approval.</source>
+        <translation>Babu abin da ke jiran amincewarka.</translation>
+    </message>
+    <message>
+        <source>From %name, %time</source>
+        <translation>Daga %name, %time</translation>
+    </message>
+    <message>
+        <source>Open the draft</source>
+        <translation>Buɗe daftarin</translation>
+    </message>
+    <message>
+        <source>Comment for the author</source>
+        <translation>Sharhi ga marubuci</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>Amince</translation>
+    </message>
+    <message>
+        <source>Deny</source>
+        <translation>Ƙi</translation>
+    </message>
+    <message>
+        <source>The approval could not be decided.</source>
+        <translation>Ba a iya yanke shawara kan amincewar ba.</translation>
+    </message>
+    <message>
         <source>Me</source>
         <translation>Ni</translation>
     </message>

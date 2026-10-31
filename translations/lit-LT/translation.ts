@@ -564,6 +564,42 @@
         <translation>Struktūra</translation>
     </message>
     <message>
+        <source>Inbox</source>
+        <translation>Gauta</translation>
+    </message>
+    <message>
+        <source>%n waiting for your approval</source>
+        <translation>%n laukia jūsų patvirtinimo</translation>
+    </message>
+    <message>
+        <source>Nothing is waiting for your approval.</source>
+        <translation>Niekas nelaukia jūsų patvirtinimo.</translation>
+    </message>
+    <message>
+        <source>From %name, %time</source>
+        <translation>Nuo %name, %time</translation>
+    </message>
+    <message>
+        <source>Open the draft</source>
+        <translation>Atverti juodraštį</translation>
+    </message>
+    <message>
+        <source>Comment for the author</source>
+        <translation>Komentaras autoriui</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>Patvirtinti</translation>
+    </message>
+    <message>
+        <source>Deny</source>
+        <translation>Atmesti</translation>
+    </message>
+    <message>
+        <source>The approval could not be decided.</source>
+        <translation>Dėl patvirtinimo nepavyko nuspręsti.</translation>
+    </message>
+    <message>
         <source>Me</source>
         <translation>Aš</translation>
     </message>

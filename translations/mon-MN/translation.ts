@@ -564,6 +564,42 @@
         <translation>Бүтэц</translation>
     </message>
     <message>
+        <source>Inbox</source>
+        <translation>Ирсэн</translation>
+    </message>
+    <message>
+        <source>%n waiting for your approval</source>
+        <translation>%n таны зөвшөөрлийг хүлээж байна</translation>
+    </message>
+    <message>
+        <source>Nothing is waiting for your approval.</source>
+        <translation>Таны зөвшөөрлийг юу ч хүлээгээгүй байна.</translation>
+    </message>
+    <message>
+        <source>From %name, %time</source>
+        <translation>%name, %time</translation>
+    </message>
+    <message>
+        <source>Open the draft</source>
+        <translation>Ноорог нээх</translation>
+    </message>
+    <message>
+        <source>Comment for the author</source>
+        <translation>Зохиогчид өгөх тайлбар</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>Зөвшөөрөх</translation>
+    </message>
+    <message>
+        <source>Deny</source>
+        <translation>Татгалзах</translation>
+    </message>
+    <message>
+        <source>The approval could not be decided.</source>
+        <translation>Зөвшөөрлийн талаар шийдвэр гаргаж чадсангүй.</translation>
+    </message>
+    <message>
         <source>Me</source>
         <translation>Би</translation>
     </message>

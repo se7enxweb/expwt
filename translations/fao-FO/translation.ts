@@ -564,6 +564,42 @@
         <translation>Bygnaður</translation>
     </message>
     <message>
+        <source>Inbox</source>
+        <translation>Innbakki</translation>
+    </message>
+    <message>
+        <source>%n waiting for your approval</source>
+        <translation>%n bíða eftir tínari góðkenning</translation>
+    </message>
+    <message>
+        <source>Nothing is waiting for your approval.</source>
+        <translation>Einki bíðar eftir tínari góðkenning.</translation>
+    </message>
+    <message>
+        <source>From %name, %time</source>
+        <translation>Frá %name, %time</translation>
+    </message>
+    <message>
+        <source>Open the draft</source>
+        <translation>Lat uppkastið upp</translation>
+    </message>
+    <message>
+        <source>Comment for the author</source>
+        <translation>Viðmerking til høvundin</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>Góðkenn</translation>
+    </message>
+    <message>
+        <source>Deny</source>
+        <translation>Vraka</translation>
+    </message>
+    <message>
+        <source>The approval could not be decided.</source>
+        <translation>Ikki bar til at gera av um góðkenningina.</translation>
+    </message>
+    <message>
         <source>Me</source>
         <translation>Eg</translation>
     </message>

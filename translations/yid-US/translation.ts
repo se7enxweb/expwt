@@ -564,6 +564,42 @@
         <translation>סטרוקטור</translation>
     </message>
     <message>
+        <source>Inbox</source>
+        <translation>אַרײַנגעקומענע</translation>
+    </message>
+    <message>
+        <source>%n waiting for your approval</source>
+        <translation>%n וואַרטן אויף דײַן הסכמה</translation>
+    </message>
+    <message>
+        <source>Nothing is waiting for your approval.</source>
+        <translation>גאָרנישט וואַרט אויף דײַן הסכמה.</translation>
+    </message>
+    <message>
+        <source>From %name, %time</source>
+        <translation>פֿון %name, %time</translation>
+    </message>
+    <message>
+        <source>Open the draft</source>
+        <translation>עפֿענען דעם פּלאַן</translation>
+    </message>
+    <message>
+        <source>Comment for the author</source>
+        <translation>באַמערקונג פֿאַרן מחבר</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>באַשטעטיקן</translation>
+    </message>
+    <message>
+        <source>Deny</source>
+        <translation>אָפּזאָגן</translation>
+    </message>
+    <message>
+        <source>The approval could not be decided.</source>
+        <translation>מען האָט נישט געקענט באַשליסן וועגן דער הסכמה.</translation>
+    </message>
+    <message>
         <source>Me</source>
         <translation>איך</translation>
     </message>

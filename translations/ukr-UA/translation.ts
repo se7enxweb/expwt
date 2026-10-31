@@ -564,6 +564,42 @@
         <translation>Структура</translation>
     </message>
     <message>
+        <source>Inbox</source>
+        <translation>Вхідні</translation>
+    </message>
+    <message>
+        <source>%n waiting for your approval</source>
+        <translation>%n чекають на ваше схвалення</translation>
+    </message>
+    <message>
+        <source>Nothing is waiting for your approval.</source>
+        <translation>Ніщо не чекає на ваше схвалення.</translation>
+    </message>
+    <message>
+        <source>From %name, %time</source>
+        <translation>Від %name, %time</translation>
+    </message>
+    <message>
+        <source>Open the draft</source>
+        <translation>Відкрити чернетку</translation>
+    </message>
+    <message>
+        <source>Comment for the author</source>
+        <translation>Коментар для автора</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>Схвалити</translation>
+    </message>
+    <message>
+        <source>Deny</source>
+        <translation>Відхилити</translation>
+    </message>
+    <message>
+        <source>The approval could not be decided.</source>
+        <translation>Не вдалося ухвалити рішення щодо схвалення.</translation>
+    </message>
+    <message>
         <source>Me</source>
         <translation>Я</translation>
     </message>

@@ -564,6 +564,42 @@
         <translation>Struktūra</translation>
     </message>
     <message>
+        <source>Inbox</source>
+        <translation>Iesūtne</translation>
+    </message>
+    <message>
+        <source>%n waiting for your approval</source>
+        <translation>%n gaida jūsu apstiprinājumu</translation>
+    </message>
+    <message>
+        <source>Nothing is waiting for your approval.</source>
+        <translation>Nekas negaida jūsu apstiprinājumu.</translation>
+    </message>
+    <message>
+        <source>From %name, %time</source>
+        <translation>No %name, %time</translation>
+    </message>
+    <message>
+        <source>Open the draft</source>
+        <translation>Atvērt melnrakstu</translation>
+    </message>
+    <message>
+        <source>Comment for the author</source>
+        <translation>Komentārs autoram</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>Apstiprināt</translation>
+    </message>
+    <message>
+        <source>Deny</source>
+        <translation>Noraidīt</translation>
+    </message>
+    <message>
+        <source>The approval could not be decided.</source>
+        <translation>Par apstiprinājumu neizdevās izlemt.</translation>
+    </message>
+    <message>
         <source>Me</source>
         <translation>Es</translation>
     </message>

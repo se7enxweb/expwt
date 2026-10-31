@@ -564,6 +564,42 @@
         <translation>Struktur</translation>
     </message>
     <message>
+        <source>Inbox</source>
+        <translation>Gələnlər</translation>
+    </message>
+    <message>
+        <source>%n waiting for your approval</source>
+        <translation>%n sizin təsdiqinizi gözləyir</translation>
+    </message>
+    <message>
+        <source>Nothing is waiting for your approval.</source>
+        <translation>Təsdiqinizi gözləyən heç nə yoxdur.</translation>
+    </message>
+    <message>
+        <source>From %name, %time</source>
+        <translation>%name, %time</translation>
+    </message>
+    <message>
+        <source>Open the draft</source>
+        <translation>Qaralamanı aç</translation>
+    </message>
+    <message>
+        <source>Comment for the author</source>
+        <translation>Müəllif üçün şərh</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>Təsdiqlə</translation>
+    </message>
+    <message>
+        <source>Deny</source>
+        <translation>Rədd et</translation>
+    </message>
+    <message>
+        <source>The approval could not be decided.</source>
+        <translation>Təsdiq barədə qərar verilə bilmədi.</translation>
+    </message>
+    <message>
         <source>Me</source>
         <translation>Mən</translation>
     </message>

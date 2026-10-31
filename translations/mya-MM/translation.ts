@@ -564,6 +564,42 @@
         <translation>ဖွဲ့စည်းပုံ</translation>
     </message>
     <message>
+        <source>Inbox</source>
+        <translation>ဝင်စာ</translation>
+    </message>
+    <message>
+        <source>%n waiting for your approval</source>
+        <translation>%n ခု သင့်အတည်ပြုချက်ကို စောင့်နေသည်</translation>
+    </message>
+    <message>
+        <source>Nothing is waiting for your approval.</source>
+        <translation>သင့်အတည်ပြုချက်ကို စောင့်နေသည့်အရာ မရှိပါ။</translation>
+    </message>
+    <message>
+        <source>From %name, %time</source>
+        <translation>%name ထံမှ၊ %time</translation>
+    </message>
+    <message>
+        <source>Open the draft</source>
+        <translation>မူကြမ်းကို ဖွင့်ရန်</translation>
+    </message>
+    <message>
+        <source>Comment for the author</source>
+        <translation>စာရေးသူအတွက် မှတ်ချက်</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>အတည်ပြုရန်</translation>
+    </message>
+    <message>
+        <source>Deny</source>
+        <translation>ငြင်းပယ်ရန်</translation>
+    </message>
+    <message>
+        <source>The approval could not be decided.</source>
+        <translation>အတည်ပြုချက်ကို ဆုံးဖြတ်၍ မရပါ။</translation>
+    </message>
+    <message>
         <source>Me</source>
         <translation>ကျွန်ုပ်</translation>
     </message>

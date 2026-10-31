@@ -564,6 +564,42 @@
         <translation>Структура</translation>
     </message>
     <message>
+        <source>Inbox</source>
+        <translation>Примени</translation>
+    </message>
+    <message>
+        <source>%n waiting for your approval</source>
+        <translation>%n чекаат ваше одобрување</translation>
+    </message>
+    <message>
+        <source>Nothing is waiting for your approval.</source>
+        <translation>Ништо не чека ваше одобрување.</translation>
+    </message>
+    <message>
+        <source>From %name, %time</source>
+        <translation>Од %name, %time</translation>
+    </message>
+    <message>
+        <source>Open the draft</source>
+        <translation>Отвори го нацртот</translation>
+    </message>
+    <message>
+        <source>Comment for the author</source>
+        <translation>Коментар за авторот</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>Одобри</translation>
+    </message>
+    <message>
+        <source>Deny</source>
+        <translation>Одбиј</translation>
+    </message>
+    <message>
+        <source>The approval could not be decided.</source>
+        <translation>Не можеше да се одлучи за одобрувањето.</translation>
+    </message>
+    <message>
         <source>Me</source>
         <translation>Јас</translation>
     </message>

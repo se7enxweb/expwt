@@ -61,6 +61,11 @@ class expwtApiTestGateway extends expwtGateway
     public function visibility( array $in, $hide ) { return $this->record( $hide ? 'hide' : 'reveal', $in ); }
     public function trash( array $in ) { return $this->record( 'trash', $in ); }
     public function sort( array $in ) { return $this->record( 'sort', $in ); }
+    public $collaborates = true;
+    public function collaborates() { return $this->collaborates; }
+    public function waitingCount() { return 3; }
+    public function inbox( array $in ) { return $this->record( 'inbox', $in ); }
+    public function decide( array $in ) { return $this->record( 'decide', $in ); }
 }
 
 class expwtApiTest extends PHPUnit\Framework\TestCase
@@ -128,6 +133,28 @@ class expwtApiTest extends PHPUnit\Framework\TestCase
                            $this->gateway->calls[3][1] );
     }
 
+    public function testTheInboxGoesToTheGatewayCleaned()
+    {
+        $api = $this->api();
+        $this->assertFalse( expwtAccess::writes( 'inbox.load' ) );
+        $this->assertTrue( expwtAccess::writes( 'inbox.decide' ) );
+        $this->assertSame( array( 'module' => 'collaboration', 'view' => 'action', 'post' => array( 'CollaborationActionCustom' => '1' ) ),
+                           expwtAccess::kernelView( 'inbox.decide' ), '"Verify it\'s you" asks as for the administration\'s decision' );
+        $this->assertSame( 405, $api->call( 'inbox.decide', array( 'itemId' => 3, 'decision' => 'approve' ), 'GET' )['status'] );
+        $api->call( 'inbox.decide', array( 'itemId' => '7', 'decision' => ' deny ', 'comment' => "  Please fix\nthe intro.  ", 'extra' => 1 ) );
+        $this->assertSame( array( 'decide', array( 'itemId' => 7, 'decision' => 'deny', 'comment' => "Please fix\nthe intro." ) ), $this->gateway->calls[0] );
+        $api->call( 'inbox.load', array( 'offset' => 'x' ), 'GET' );
+        $this->assertSame( array( 'inbox', array() ), $this->gateway->calls[1] );
+    }
+
+    public function testBootHasTheInboxOnlyForAUserOfTheCollaboration()
+    {
+        $api = $this->api();
+        $this->assertSame( array( 'waiting' => 3 ), $api->call( 'boot', array(), 'GET' )['body']['data']['inbox'] );
+        $this->gateway->collaborates = false;
+        $this->assertNull( $api->call( 'boot', array(), 'GET' )['body']['data']['inbox'] );
+    }
+
     public function testDraftSaveNeedsFields()
     {
         $r = $this->api()->call( 'draft.save', array( 'objectId' => 5 ) );
@@ -151,7 +178,7 @@ class expwtApiTest extends PHPUnit\Framework\TestCase
     {
         $r = $this->api()->call( 'boot', array(), 'GET' );
         $d = $r['body']['data'];
-        $this->assertSame( array( 'user', 'capabilities', 'state', 'theme', 'token', 'transport', 'urls', 'strings', 'settings' ), array_keys( $d ) );
+        $this->assertSame( array( 'user', 'capabilities', 'state', 'theme', 'token', 'transport', 'urls', 'strings', 'inbox', 'settings' ), array_keys( $d ) );
         $this->assertSame( 'dark', $d['theme'], 'follows the administration (F10)' );
         $this->assertSame( 'tok', $d['token'] );
         $this->assertSame( 'Bearbeiten', $d['strings']['Edit'] );

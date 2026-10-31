@@ -564,6 +564,42 @@
         <translation>Hanganga</translation>
     </message>
     <message>
+        <source>Inbox</source>
+        <translation>Pouaka whakauru</translation>
+    </message>
+    <message>
+        <source>%n waiting for your approval</source>
+        <translation>%n e tatari ana ki tō whakaaetanga</translation>
+    </message>
+    <message>
+        <source>Nothing is waiting for your approval.</source>
+        <translation>Kāore he mea e tatari ana ki tō whakaaetanga.</translation>
+    </message>
+    <message>
+        <source>From %name, %time</source>
+        <translation>Nā %name, %time</translation>
+    </message>
+    <message>
+        <source>Open the draft</source>
+        <translation>Huakina te tauira</translation>
+    </message>
+    <message>
+        <source>Comment for the author</source>
+        <translation>Kōrero mō te kaituhi</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>Whakaae</translation>
+    </message>
+    <message>
+        <source>Deny</source>
+        <translation>Whakakāhore</translation>
+    </message>
+    <message>
+        <source>The approval could not be decided.</source>
+        <translation>Kāore i taea te whakatau i te whakaaetanga.</translation>
+    </message>
+    <message>
         <source>Me</source>
         <translation>Ahau</translation>
     </message>

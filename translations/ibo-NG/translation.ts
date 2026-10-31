@@ -564,6 +564,42 @@
         <translation>Nhazi</translation>
     </message>
     <message>
+        <source>Inbox</source>
+        <translation>Igbe ozi</translation>
+    </message>
+    <message>
+        <source>%n waiting for your approval</source>
+        <translation>%n na-eche nkwado gị</translation>
+    </message>
+    <message>
+        <source>Nothing is waiting for your approval.</source>
+        <translation>Ọ dịghị ihe na-eche nkwado gị.</translation>
+    </message>
+    <message>
+        <source>From %name, %time</source>
+        <translation>Site n'aka %name, %time</translation>
+    </message>
+    <message>
+        <source>Open the draft</source>
+        <translation>Mepee akwụkwọ nseta</translation>
+    </message>
+    <message>
+        <source>Comment for the author</source>
+        <translation>Nkọwa maka onye dere ya</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>Kwado</translation>
+    </message>
+    <message>
+        <source>Deny</source>
+        <translation>Jụ</translation>
+    </message>
+    <message>
+        <source>The approval could not be decided.</source>
+        <translation>Enweghị ike ikpebi maka nkwado ahụ.</translation>
+    </message>
+    <message>
         <source>Me</source>
         <translation>Mụ</translation>
     </message>

@@ -564,6 +564,42 @@
         <translation>ഘടന</translation>
     </message>
     <message>
+        <source>Inbox</source>
+        <translation>ഇൻബോക്സ്</translation>
+    </message>
+    <message>
+        <source>%n waiting for your approval</source>
+        <translation>%n നിങ്ങളുടെ അംഗീകാരത്തിനായി കാത്തിരിക്കുന്നു</translation>
+    </message>
+    <message>
+        <source>Nothing is waiting for your approval.</source>
+        <translation>നിങ്ങളുടെ അംഗീകാരത്തിനായി ഒന്നും കാത്തിരിക്കുന്നില്ല.</translation>
+    </message>
+    <message>
+        <source>From %name, %time</source>
+        <translation>%name-ൽ നിന്ന്, %time</translation>
+    </message>
+    <message>
+        <source>Open the draft</source>
+        <translation>ഡ്രാഫ്റ്റ് തുറക്കുക</translation>
+    </message>
+    <message>
+        <source>Comment for the author</source>
+        <translation>രചയിതാവിനുള്ള അഭിപ്രായം</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>അംഗീകരിക്കുക</translation>
+    </message>
+    <message>
+        <source>Deny</source>
+        <translation>നിരസിക്കുക</translation>
+    </message>
+    <message>
+        <source>The approval could not be decided.</source>
+        <translation>അംഗീകാരത്തെക്കുറിച്ച് തീരുമാനിക്കാനായില്ല.</translation>
+    </message>
+    <message>
         <source>Me</source>
         <translation>ഞാൻ</translation>
     </message>

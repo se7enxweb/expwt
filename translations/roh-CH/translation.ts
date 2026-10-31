@@ -564,6 +564,42 @@
         <translation>Structura</translation>
     </message>
     <message>
+        <source>Inbox</source>
+        <translation>Chascha d'entrada</translation>
+    </message>
+    <message>
+        <source>%n waiting for your approval</source>
+        <translation>%n spetgan sin Vossa approvaziun</translation>
+    </message>
+    <message>
+        <source>Nothing is waiting for your approval.</source>
+        <translation>Nagut na spetga sin Vossa approvaziun.</translation>
+    </message>
+    <message>
+        <source>From %name, %time</source>
+        <translation>Da %name, %time</translation>
+    </message>
+    <message>
+        <source>Open the draft</source>
+        <translation>Avrir il sboz</translation>
+    </message>
+    <message>
+        <source>Comment for the author</source>
+        <translation>Commentari per l'autur</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>Approvar</translation>
+    </message>
+    <message>
+        <source>Deny</source>
+        <translation>Refusar</translation>
+    </message>
+    <message>
+        <source>The approval could not be decided.</source>
+        <translation>Davart l'approvaziun n'hai betg pudì vegnir decidì.</translation>
+    </message>
+    <message>
         <source>Me</source>
         <translation>Jau</translation>
     </message>

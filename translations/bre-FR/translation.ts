@@ -564,6 +564,42 @@
         <translation>Framm</translation>
     </message>
     <message>
+        <source>Inbox</source>
+        <translation>Boest-degemer</translation>
+    </message>
+    <message>
+        <source>%n waiting for your approval</source>
+        <translation>%n o c'hortoz ho aotre</translation>
+    </message>
+    <message>
+        <source>Nothing is waiting for your approval.</source>
+        <translation>Netra n'emañ o c'hortoz ho aotre.</translation>
+    </message>
+    <message>
+        <source>From %name, %time</source>
+        <translation>Digant %name, %time</translation>
+    </message>
+    <message>
+        <source>Open the draft</source>
+        <translation>Digeriñ ar brouilhed</translation>
+    </message>
+    <message>
+        <source>Comment for the author</source>
+        <translation>Evezhiadenn evit an aozer</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>Aprouiñ</translation>
+    </message>
+    <message>
+        <source>Deny</source>
+        <translation>Nac'hañ</translation>
+    </message>
+    <message>
+        <source>The approval could not be decided.</source>
+        <translation>N'eus ket bet gallet divizout war an aotre.</translation>
+    </message>
+    <message>
         <source>Me</source>
         <translation>Me</translation>
     </message>

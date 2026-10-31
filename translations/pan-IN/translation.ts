@@ -564,6 +564,42 @@
         <translation>ਢਾਂਚਾ</translation>
     </message>
     <message>
+        <source>Inbox</source>
+        <translation>ਇਨਬਾਕਸ</translation>
+    </message>
+    <message>
+        <source>%n waiting for your approval</source>
+        <translation>%n ਤੁਹਾਡੀ ਮਨਜ਼ੂਰੀ ਦੀ ਉਡੀਕ ਵਿੱਚ</translation>
+    </message>
+    <message>
+        <source>Nothing is waiting for your approval.</source>
+        <translation>ਤੁਹਾਡੀ ਮਨਜ਼ੂਰੀ ਦੀ ਉਡੀਕ ਵਿੱਚ ਕੁਝ ਨਹੀਂ ਹੈ।</translation>
+    </message>
+    <message>
+        <source>From %name, %time</source>
+        <translation>%name ਤੋਂ, %time</translation>
+    </message>
+    <message>
+        <source>Open the draft</source>
+        <translation>ਖਰੜਾ ਖੋਲ੍ਹੋ</translation>
+    </message>
+    <message>
+        <source>Comment for the author</source>
+        <translation>ਲੇਖਕ ਲਈ ਟਿੱਪਣੀ</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>ਮਨਜ਼ੂਰ ਕਰੋ</translation>
+    </message>
+    <message>
+        <source>Deny</source>
+        <translation>ਨਾਮਨਜ਼ੂਰ ਕਰੋ</translation>
+    </message>
+    <message>
+        <source>The approval could not be decided.</source>
+        <translation>ਮਨਜ਼ੂਰੀ ਬਾਰੇ ਫੈਸਲਾ ਨਹੀਂ ਹੋ ਸਕਿਆ।</translation>
+    </message>
+    <message>
         <source>Me</source>
         <translation>ਮੈਂ</translation>
     </message>

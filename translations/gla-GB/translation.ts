@@ -564,6 +564,42 @@
         <translation>Structar</translation>
     </message>
     <message>
+        <source>Inbox</source>
+        <translation>Bogsa a-steach</translation>
+    </message>
+    <message>
+        <source>%n waiting for your approval</source>
+        <translation>%n a' feitheamh air d' aonta</translation>
+    </message>
+    <message>
+        <source>Nothing is waiting for your approval.</source>
+        <translation>Chan eil dad a' feitheamh air d' aonta.</translation>
+    </message>
+    <message>
+        <source>From %name, %time</source>
+        <translation>Bho %name, %time</translation>
+    </message>
+    <message>
+        <source>Open the draft</source>
+        <translation>Fosgail an dreachd</translation>
+    </message>
+    <message>
+        <source>Comment for the author</source>
+        <translation>Beachd airson an ùghdair</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>Aontaich</translation>
+    </message>
+    <message>
+        <source>Deny</source>
+        <translation>Diùlt</translation>
+    </message>
+    <message>
+        <source>The approval could not be decided.</source>
+        <translation>Cha b' urrainn co-dhùnadh a dhèanamh mun aonta.</translation>
+    </message>
+    <message>
         <source>Me</source>
         <translation>Mise</translation>
     </message>

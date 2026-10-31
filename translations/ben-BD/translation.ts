@@ -564,6 +564,42 @@
         <translation>কাঠামো</translation>
     </message>
     <message>
+        <source>Inbox</source>
+        <translation>ইনবক্স</translation>
+    </message>
+    <message>
+        <source>%n waiting for your approval</source>
+        <translation>%nটি আপনার অনুমোদনের অপেক্ষায়</translation>
+    </message>
+    <message>
+        <source>Nothing is waiting for your approval.</source>
+        <translation>আপনার অনুমোদনের অপেক্ষায় কিছু নেই।</translation>
+    </message>
+    <message>
+        <source>From %name, %time</source>
+        <translation>%name থেকে, %time</translation>
+    </message>
+    <message>
+        <source>Open the draft</source>
+        <translation>খসড়াটি খুলুন</translation>
+    </message>
+    <message>
+        <source>Comment for the author</source>
+        <translation>লেখকের জন্য মন্তব্য</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>অনুমোদন করুন</translation>
+    </message>
+    <message>
+        <source>Deny</source>
+        <translation>প্রত্যাখ্যান করুন</translation>
+    </message>
+    <message>
+        <source>The approval could not be decided.</source>
+        <translation>অনুমোদনের সিদ্ধান্ত নেওয়া যায়নি।</translation>
+    </message>
+    <message>
         <source>Me</source>
         <translation>আমি</translation>
     </message>

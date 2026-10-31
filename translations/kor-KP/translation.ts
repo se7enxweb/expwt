@@ -564,6 +564,42 @@
         <translation>구조</translation>
     </message>
     <message>
+        <source>Inbox</source>
+        <translation>받은편지함</translation>
+    </message>
+    <message>
+        <source>%n waiting for your approval</source>
+        <translation>%n건이 승인을 기다립니다</translation>
+    </message>
+    <message>
+        <source>Nothing is waiting for your approval.</source>
+        <translation>승인을 기다리는것이 없습니다.</translation>
+    </message>
+    <message>
+        <source>From %name, %time</source>
+        <translation>%name, %time</translation>
+    </message>
+    <message>
+        <source>Open the draft</source>
+        <translation>초안 열기</translation>
+    </message>
+    <message>
+        <source>Comment for the author</source>
+        <translation>작성자에게 주는 의견</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>승인</translation>
+    </message>
+    <message>
+        <source>Deny</source>
+        <translation>거부</translation>
+    </message>
+    <message>
+        <source>The approval could not be decided.</source>
+        <translation>승인을 결정할수 없었습니다.</translation>
+    </message>
+    <message>
         <source>Me</source>
         <translation>나</translation>
     </message>

@@ -564,6 +564,42 @@
         <translation>Structure</translation>
     </message>
     <message>
+        <source>Inbox</source>
+        <translation>Inbox</translation>
+    </message>
+    <message>
+        <source>%n waiting for your approval</source>
+        <translation>%n dey wait for your approval</translation>
+    </message>
+    <message>
+        <source>Nothing is waiting for your approval.</source>
+        <translation>Nothing dey wait for your approval.</translation>
+    </message>
+    <message>
+        <source>From %name, %time</source>
+        <translation>From %name, %time</translation>
+    </message>
+    <message>
+        <source>Open the draft</source>
+        <translation>Open di draft</translation>
+    </message>
+    <message>
+        <source>Comment for the author</source>
+        <translation>Comment for di writer</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>Approve am</translation>
+    </message>
+    <message>
+        <source>Deny</source>
+        <translation>Reject am</translation>
+    </message>
+    <message>
+        <source>The approval could not be decided.</source>
+        <translation>Dem no fit decide di approval.</translation>
+    </message>
+    <message>
         <source>Me</source>
         <translation>Me</translation>
     </message>

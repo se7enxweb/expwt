@@ -564,6 +564,42 @@
         <translation>Cấu trúc</translation>
     </message>
     <message>
+        <source>Inbox</source>
+        <translation>Hộp thư đến</translation>
+    </message>
+    <message>
+        <source>%n waiting for your approval</source>
+        <translation>%n mục chờ bạn phê duyệt</translation>
+    </message>
+    <message>
+        <source>Nothing is waiting for your approval.</source>
+        <translation>Không có gì chờ bạn phê duyệt.</translation>
+    </message>
+    <message>
+        <source>From %name, %time</source>
+        <translation>Từ %name, %time</translation>
+    </message>
+    <message>
+        <source>Open the draft</source>
+        <translation>Mở bản nháp</translation>
+    </message>
+    <message>
+        <source>Comment for the author</source>
+        <translation>Nhận xét cho tác giả</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>Phê duyệt</translation>
+    </message>
+    <message>
+        <source>Deny</source>
+        <translation>Từ chối</translation>
+    </message>
+    <message>
+        <source>The approval could not be decided.</source>
+        <translation>Không thể quyết định việc phê duyệt.</translation>
+    </message>
+    <message>
         <source>Me</source>
         <translation>Tôi</translation>
     </message>

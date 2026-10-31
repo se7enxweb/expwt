@@ -564,6 +564,42 @@
         <translation>Struktura</translation>
     </message>
     <message>
+        <source>Inbox</source>
+        <translation>Të ardhurat</translation>
+    </message>
+    <message>
+        <source>%n waiting for your approval</source>
+        <translation>%n presin miratimin tuaj</translation>
+    </message>
+    <message>
+        <source>Nothing is waiting for your approval.</source>
+        <translation>Asgjë nuk pret miratimin tuaj.</translation>
+    </message>
+    <message>
+        <source>From %name, %time</source>
+        <translation>Nga %name, %time</translation>
+    </message>
+    <message>
+        <source>Open the draft</source>
+        <translation>Hap draftin</translation>
+    </message>
+    <message>
+        <source>Comment for the author</source>
+        <translation>Koment për autorin</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>Mirato</translation>
+    </message>
+    <message>
+        <source>Deny</source>
+        <translation>Refuzo</translation>
+    </message>
+    <message>
+        <source>The approval could not be decided.</source>
+        <translation>Nuk u vendos dot për miratimin.</translation>
+    </message>
+    <message>
         <source>Me</source>
         <translation>Unë</translation>
     </message>

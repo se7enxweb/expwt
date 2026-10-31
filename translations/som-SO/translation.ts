@@ -564,6 +564,42 @@
         <translation>Qaab-dhismeed</translation>
     </message>
     <message>
+        <source>Inbox</source>
+        <translation>Sanduuqa fariimaha</translation>
+    </message>
+    <message>
+        <source>%n waiting for your approval</source>
+        <translation>%n waxay sugayaan ansixintaada</translation>
+    </message>
+    <message>
+        <source>Nothing is waiting for your approval.</source>
+        <translation>Waxba ma sugayaan ansixintaada.</translation>
+    </message>
+    <message>
+        <source>From %name, %time</source>
+        <translation>Ka yimid %name, %time</translation>
+    </message>
+    <message>
+        <source>Open the draft</source>
+        <translation>Fur qabyada</translation>
+    </message>
+    <message>
+        <source>Comment for the author</source>
+        <translation>Faallo loogu talagalay qoraaga</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>Ansixi</translation>
+    </message>
+    <message>
+        <source>Deny</source>
+        <translation>Diid</translation>
+    </message>
+    <message>
+        <source>The approval could not be decided.</source>
+        <translation>Ansixinta lagama go'aamin karin.</translation>
+    </message>
+    <message>
         <source>Me</source>
         <translation>Aniga</translation>
     </message>

@@ -564,6 +564,42 @@
         <translation>Түзүлүш</translation>
     </message>
     <message>
+        <source>Inbox</source>
+        <translation>Кирүүчүлөр</translation>
+    </message>
+    <message>
+        <source>%n waiting for your approval</source>
+        <translation>%n сиздин бекитүүңүздү күтүүдө</translation>
+    </message>
+    <message>
+        <source>Nothing is waiting for your approval.</source>
+        <translation>Сиздин бекитүүңүздү эч нерсе күткөн жок.</translation>
+    </message>
+    <message>
+        <source>From %name, %time</source>
+        <translation>%name, %time</translation>
+    </message>
+    <message>
+        <source>Open the draft</source>
+        <translation>Долбоорду ачуу</translation>
+    </message>
+    <message>
+        <source>Comment for the author</source>
+        <translation>Авторго пикир</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>Бекитүү</translation>
+    </message>
+    <message>
+        <source>Deny</source>
+        <translation>Четке кагуу</translation>
+    </message>
+    <message>
+        <source>The approval could not be decided.</source>
+        <translation>Бекитүү боюнча чечим кабыл алынган жок.</translation>
+    </message>
+    <message>
         <source>Me</source>
         <translation>Мен</translation>
     </message>

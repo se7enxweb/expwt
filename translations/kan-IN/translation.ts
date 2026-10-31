@@ -564,6 +564,42 @@
         <translation>ರಚನೆ</translation>
     </message>
     <message>
+        <source>Inbox</source>
+        <translation>ಇನ್‌ಬಾಕ್ಸ್</translation>
+    </message>
+    <message>
+        <source>%n waiting for your approval</source>
+        <translation>%n ನಿಮ್ಮ ಅನುಮೋದನೆಗಾಗಿ ಕಾಯುತ್ತಿವೆ</translation>
+    </message>
+    <message>
+        <source>Nothing is waiting for your approval.</source>
+        <translation>ನಿಮ್ಮ ಅನುಮೋದನೆಗಾಗಿ ಏನೂ ಕಾಯುತ್ತಿಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>From %name, %time</source>
+        <translation>%name ಅವರಿಂದ, %time</translation>
+    </message>
+    <message>
+        <source>Open the draft</source>
+        <translation>ಕರಡು ತೆರೆಯಿರಿ</translation>
+    </message>
+    <message>
+        <source>Comment for the author</source>
+        <translation>ಲೇಖಕರಿಗೆ ಟಿಪ್ಪಣಿ</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>ಅನುಮೋದಿಸಿ</translation>
+    </message>
+    <message>
+        <source>Deny</source>
+        <translation>ನಿರಾಕರಿಸಿ</translation>
+    </message>
+    <message>
+        <source>The approval could not be decided.</source>
+        <translation>ಅನುಮೋದನೆಯ ಬಗ್ಗೆ ನಿರ್ಧರಿಸಲಾಗಲಿಲ್ಲ.</translation>
+    </message>
+    <message>
         <source>Me</source>
         <translation>ನಾನು</translation>
     </message>

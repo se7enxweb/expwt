@@ -564,6 +564,42 @@
         <translation>構造</translation>
     </message>
     <message>
+        <source>Inbox</source>
+        <translation>受信箱</translation>
+    </message>
+    <message>
+        <source>%n waiting for your approval</source>
+        <translation>%n 件があなたの承認待ちです</translation>
+    </message>
+    <message>
+        <source>Nothing is waiting for your approval.</source>
+        <translation>あなたの承認待ちのものはありません。</translation>
+    </message>
+    <message>
+        <source>From %name, %time</source>
+        <translation>%name より、%time</translation>
+    </message>
+    <message>
+        <source>Open the draft</source>
+        <translation>下書きを開く</translation>
+    </message>
+    <message>
+        <source>Comment for the author</source>
+        <translation>作成者へのコメント</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>承認</translation>
+    </message>
+    <message>
+        <source>Deny</source>
+        <translation>却下</translation>
+    </message>
+    <message>
+        <source>The approval could not be decided.</source>
+        <translation>承認について決定できませんでした。</translation>
+    </message>
+    <message>
         <source>Me</source>
         <translation>自分</translation>
     </message>

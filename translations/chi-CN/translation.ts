@@ -564,6 +564,42 @@
         <translation>结构</translation>
     </message>
     <message>
+        <source>Inbox</source>
+        <translation>收件箱</translation>
+    </message>
+    <message>
+        <source>%n waiting for your approval</source>
+        <translation>%n 项等待您审批</translation>
+    </message>
+    <message>
+        <source>Nothing is waiting for your approval.</source>
+        <translation>没有等待您审批的内容。</translation>
+    </message>
+    <message>
+        <source>From %name, %time</source>
+        <translation>来自 %name，%time</translation>
+    </message>
+    <message>
+        <source>Open the draft</source>
+        <translation>打开草稿</translation>
+    </message>
+    <message>
+        <source>Comment for the author</source>
+        <translation>给作者的评论</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>批准</translation>
+    </message>
+    <message>
+        <source>Deny</source>
+        <translation>拒绝</translation>
+    </message>
+    <message>
+        <source>The approval could not be decided.</source>
+        <translation>无法完成审批决定。</translation>
+    </message>
+    <message>
         <source>Me</source>
         <translation>我</translation>
     </message>

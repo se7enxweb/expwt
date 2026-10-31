@@ -564,6 +564,42 @@
         <translation>Struktur</translation>
     </message>
     <message>
+        <source>Inbox</source>
+        <translation>Innboks</translation>
+    </message>
+    <message>
+        <source>%n waiting for your approval</source>
+        <translation>%n venter på godkjenningen din</translation>
+    </message>
+    <message>
+        <source>Nothing is waiting for your approval.</source>
+        <translation>Ingenting venter på godkjenningen din.</translation>
+    </message>
+    <message>
+        <source>From %name, %time</source>
+        <translation>Fra %name, %time</translation>
+    </message>
+    <message>
+        <source>Open the draft</source>
+        <translation>Åpne utkastet</translation>
+    </message>
+    <message>
+        <source>Comment for the author</source>
+        <translation>Kommentar til forfatteren</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>Godkjenn</translation>
+    </message>
+    <message>
+        <source>Deny</source>
+        <translation>Avslå</translation>
+    </message>
+    <message>
+        <source>The approval could not be decided.</source>
+        <translation>Godkjenningen kunne ikke avgjøres.</translation>
+    </message>
+    <message>
         <source>Me</source>
         <translation>Meg</translation>
     </message>

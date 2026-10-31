@@ -564,6 +564,42 @@
         <translation>Fokotuʻutuʻu</translation>
     </message>
     <message>
+        <source>Inbox</source>
+        <translation>Puha tohi hū mai</translation>
+    </message>
+    <message>
+        <source>%n waiting for your approval</source>
+        <translation>%n ʻoku tatali ki hoʻo fakangofua</translation>
+    </message>
+    <message>
+        <source>Nothing is waiting for your approval.</source>
+        <translation>ʻOku ʻikai ha meʻa ʻoku tatali ki hoʻo fakangofua.</translation>
+    </message>
+    <message>
+        <source>From %name, %time</source>
+        <translation>Mei he %name, %time</translation>
+    </message>
+    <message>
+        <source>Open the draft</source>
+        <translation>Fakaava ʻa e tohi kamata</translation>
+    </message>
+    <message>
+        <source>Comment for the author</source>
+        <translation>Fakamatala ki he tokotaha faʻu</translation>
+    </message>
+    <message>
+        <source>Approve</source>
+        <translation>Fakangofua</translation>
+    </message>
+    <message>
+        <source>Deny</source>
+        <translation>Taʻofi</translation>
+    </message>
+    <message>
+        <source>The approval could not be decided.</source>
+        <translation>Naʻe ʻikai lava ke fakapapauʻi ʻa e fakangofua.</translation>
+    </message>
+    <message>
         <source>Me</source>
         <translation>Ko au</translation>
     </message>
