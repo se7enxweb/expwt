@@ -22,6 +22,9 @@
 
   var DEVICE = 'expwt.device';
   var CACHE = 'expwt.cache';
+  /* The light or dark mode the server last gave this device for the signed-in user (boot.theme), so a reload is
+     drawn in it from the first frame instead of in the system's mode until the deferred boot request answers. */
+  var THEME = 'expwt.theme';
   var SVG = 'http://www.w3.org/2000/svg';
   var canAdopt = 'adoptedStyleSheets' in Document.prototype && 'replaceSync' in CSSStyleSheet.prototype;
 
@@ -168,12 +171,28 @@
     render() {
       var self = this;
       var root = this.attachShadow({ mode: 'open' });
-      if (this.cfg.css) {
-        root.appendChild(h('link', { rel: 'stylesheet', href: this.cfg.css }));
-      }
       if (canAdopt) {
         this.vars = new CSSStyleSheet();
         root.adoptedStyleSheets = [this.vars];
+      }
+      if (this.cfg.css) {
+        /* The stylesheet arrives after the first frames: until it has, the tab would be drawn as a bare browser
+           button (grey or black) and then turn into the sidebar's colors. Nothing of the sidebar is drawn before
+           its stylesheet applies; it appears once, in its final look. */
+        this.veil(true);
+        var link = h('link', { rel: 'stylesheet', href: this.cfg.css });
+        var shown = false;
+        var show = function () {
+          if (shown) { return; }
+          shown = true;
+          clearTimeout(self.veilTimer);
+          self.veil(false);
+          self.place();
+        };
+        link.addEventListener('load', show);
+        link.addEventListener('error', show);
+        this.veilTimer = setTimeout(show, 4000);
+        root.appendChild(link);
       }
       this.tab = h('button', {
         type: 'button', class: 'wt-tab', 'aria-expanded': 'false', 'aria-controls': 'wt-panel',
@@ -214,6 +233,25 @@
       root.appendChild(this.tab);
       root.appendChild(this.panel);
       this.buildTabs();
+    }
+
+    /* Hide the whole sidebar (on) or show it again (off), without an attribute style: a constructed stylesheet of
+       its own in the shadow root, or the hidden attribute where a browser cannot adopt one. */
+    veil(on) {
+      var root = this.shadowRoot;
+      if (canAdopt) {
+        if (on && !this.veilSheet) {
+          this.veilSheet = new CSSStyleSheet();
+          this.veilSheet.replaceSync(':host{visibility:hidden!important}');
+          root.adoptedStyleSheets = root.adoptedStyleSheets.concat([this.veilSheet]);
+        } else if (!on && this.veilSheet) {
+          var sheet = this.veilSheet;
+          this.veilSheet = null;
+          root.adoptedStyleSheets = root.adoptedStyleSheets.filter(function (s) { return s !== sheet; });
+        }
+      } else {
+        this.toggleAttribute('hidden', !!on);
+      }
     }
 
     available() {
@@ -312,12 +350,27 @@
       pageCss(this.pageRules);
     }
 
+    /* Light or dark, decided before the first frame: the sidebar's own choice; else, for a signed-in user, the
+       server's answer (boot.theme: the administration's color mode), and until it has come firstTheme(); else the
+       system's. The boot answer then only confirms it. */
     applyTheme() {
-      var theme = this.state.theme !== 'auto' ? this.state.theme : (this.boot ? this.boot.theme : 'system');
+      var theme = this.state.theme;
+      if (theme === 'auto') {
+        theme = this.anonymous ? 'system' : (this.boot ? this.boot.theme : this.firstTheme());
+      }
       if (theme !== 'light' && theme !== 'dark') {
         theme = this.dark.matches ? 'dark' : 'light';
       }
       this.setAttribute('data-theme', theme);
+    }
+
+    /* The signed-in user's mode before boot has answered, the way expwtState::theme() decides it: an admin4 page
+       carries the preference admin_color_mode itself (html[data-a4-pref-admin-color-mode], written by the server
+       for this user); elsewhere the answer the server gave this device last time. light, dark or system. */
+    firstTheme() {
+      var html = document.documentElement;
+      var mode = html.hasAttribute('data-a4-pref-admin-color-mode') ? html.getAttribute('data-a4-pref-admin-color-mode') : store(THEME);
+      return mode === 'light' || mode === 'dark' ? mode : 'system';
     }
 
     applyState() {
@@ -467,6 +520,7 @@
       var self = this;
       return this.request('GET', this.cfg.boot + '?action=boot&input=' + encodeURIComponent('{}'), null).then(function (body) {
         self.boot = body.data;
+        store(THEME, self.boot.theme || null);
         var device = store(DEVICE);
         if (!(device && device.only)) {
           self.state = self.normalize(Object.assign({}, self.boot.state, { open: self.state.open }));

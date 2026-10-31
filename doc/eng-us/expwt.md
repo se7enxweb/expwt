@@ -35,6 +35,9 @@ extensions. A dry run lists the changes first.
 - **Light or dark:** the user's choice for the sidebar, else their choice for the administration, else the system's.
   The sidebar looks like the administration (admin4) on every site design: it lives in a Shadow DOM, so the site's
   styles never reach it and its styles never reach the site.
+  The sidebar is drawn in its final colors from the first frame of a page: it appears only once its stylesheet
+  applies, and a signed-in user's mode is known before the server's answer arrives (an admin4 page carries the
+  preference; elsewhere this device remembers the last answer), so a reload never flashes light and then dark.
 
 ## Panels
 

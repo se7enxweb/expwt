@@ -39,6 +39,10 @@ der Stelle von ezwt in den aktiven Erweiterungen. Ein Probelauf listet die Ände
 - **Hell oder dunkel:** die Wahl des Benutzers für die Seitenleiste, sonst seine Wahl für die Administration, sonst
   die des Systems. Die Seitenleiste sieht auf jedem Design aus wie die Administration (admin4): Sie lebt in einem
   Shadow DOM, die Stile der Website erreichen sie nicht und ihre Stile nicht die Website.
+  Die Seitenleiste erscheint vom ersten Bild einer Seite an in ihren endgültigen Farben: erst wenn ihr Stylesheet
+  greift, und der Modus eines angemeldeten Benutzers steht fest, bevor die Antwort des Servers da ist (eine
+  admin4-Seite trägt die Einstellung, sonst merkt sich das Gerät die letzte Antwort); ein Neuladen blitzt nie hell
+  und dann dunkel auf.
 
 ## Bereiche
 
