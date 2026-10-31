@@ -31,6 +31,8 @@ $ViewList['api'] = array(
 $ViewList['reauth'] = array(
     'functions' => array( 'use' ),
     'script' => 'reauth.php',
+    // the small "Verify it's you" window is no page a later redirect returns to
+    'ui_context' => 'authentication',
     'params' => array( 'Action' ) );
 
 // One field of a draft in the editor the installation has for its datatype (decision 12, F1): the sidebar shows it
@@ -38,6 +40,9 @@ $ViewList['reauth'] = array(
 $ViewList['field'] = array(
     'functions' => array( 'edit' ),
     'script' => 'field.php',
+    // a page inside the sidebar's frame: never the session's last page (LastAccessesURI, LastAccessedModifyingURI),
+    // which content/edit's discard and publish return to
+    'ui_context' => 'ajax',
     'params' => array( 'ObjectID', 'Version', 'Language', 'Identifier' ) );
 
 $FunctionList = array();

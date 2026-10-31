@@ -32,6 +32,18 @@ if ( !$object->canEdit( false, false, false, $language ) )
     return $Module->handleError( eZError::KERNEL_ACCESS_DENIED, 'kernel' );
 $userId = (int)eZUser::currentUserID();
 
+// A page of the sidebar's frame is never the page a later redirect returns to (module.php: ui_context ajax): a browse
+// the frame went to gives back the session's last modifying page it took.
+if ( $http->hasSessionVariable( 'expwtFrameModifyingURI' ) )
+{
+    $before = (string)$http->sessionVariable( 'expwtFrameModifyingURI' );
+    if ( $before !== '' )
+        $http->setSessionVariable( 'LastAccessedModifyingURI', $before );
+    else
+        $http->removeSessionVariable( 'LastAccessedModifyingURI' );
+    $http->removeSessionVariable( 'expwtFrameModifyingURI' );
+}
+
 // the draft: the one asked for when it is the user's, else the user's newest in the language, else a new one
 $version = null;
 $asked = (int)$Params['Version'];
@@ -135,6 +147,8 @@ if ( $http->hasPostVariable( 'StoreButton' ) || $http->hasPostVariable( 'CustomA
         $to = (string)$Module->redirectURI();
         if ( $embedded && preg_match( '#^/?content/browse\b#', $to ) )
         {
+            // the browse records itself as the session's last modifying page; kept here, put back when it returns
+            $http->setSessionVariable( 'expwtFrameModifyingURI', (string)$http->sessionVariable( 'LastAccessedModifyingURI', '' ) );
             $to = '/layout/set/expwtframe/' . ltrim( $to, '/' );
             $missing = array_filter( $query, function ( $pair ) use ( $to ) { return strpos( $to, $pair ) === false; } );
             $Module->redirectTo( $to . ( $missing ? ( strpos( $to, '?' ) === false ? '?' : '&' ) . implode( '&', $missing ) : '' ) );

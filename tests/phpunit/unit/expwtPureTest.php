@@ -62,6 +62,23 @@ class expwtPureTest extends PHPUnit\Framework\TestCase
         }
     }
 
+    /**
+     * No page of the sidebar is the session's last page (LastAccessesURI, LastAccessedModifyingURI): content/edit's
+     * Discard and Publish return there, and must land on the website's page, not on a field editor of the frame.
+     */
+    public function testViewsOfTheSidebarAreNeverTheLastPageOfTheSession()
+    {
+        $ViewList = array();
+        include dirname( __DIR__, 3 ) . '/modules/expwt/module.php';
+        $this->assertSame( 'ajax', $ViewList['api']['ui_context'] ?? null, 'api' );
+        $this->assertSame( 'ajax', $ViewList['field']['ui_context'] ?? null, 'field' );
+        $this->assertSame( 'authentication', $ViewList['reauth']['ui_context'] ?? null, 'reauth' );
+        // a browse the frame goes to records itself as the last modifying page; field.php keeps it and puts it back
+        $field = (string)file_get_contents( dirname( __DIR__, 3 ) . '/modules/expwt/field.php' );
+        $this->assertStringContainsString( "setSessionVariable( 'expwtFrameModifyingURI'", $field );
+        $this->assertStringContainsString( "setSessionVariable( 'LastAccessedModifyingURI', \$before )", $field );
+    }
+
     public function testReadingActionsDoNotWrite()
     {
         foreach ( array( 'boot', 'me', 'page.load', 'create.classes', 'tree.children' ) as $action )
