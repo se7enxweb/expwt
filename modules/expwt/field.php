@@ -52,6 +52,12 @@ if ( !$version )
             $version = $candidate;
     }
 }
+// No draft of the user yet: shown from the published version (the Page panel shows every field open in its editor,
+// F32, and only a save makes the draft, as content/edit's Edit would); a save or a datatype's action makes it here.
+$writing = $http->hasPostVariable( 'StoreButton' ) || $http->hasPostVariable( 'CustomActionButton' );
+if ( !$version && !$writing && (int)$object->attribute( 'status' ) === eZContentObject::STATUS_PUBLISHED
+     && in_array( $language, $object->availableLanguages(), true ) )
+    $version = $object->currentVersion();
 if ( !$version )
 {
     $db = eZDB::instance();
@@ -62,7 +68,10 @@ if ( !$version )
     $version->store();
     $db->commit();
 }
+$isDraft = in_array( (int)$version->attribute( 'status' ), array( eZContentObjectVersion::STATUS_DRAFT, eZContentObjectVersion::STATUS_INTERNAL_DRAFT ), true );
+// the address the form posts to: the draft's, or 0 (the user's newest draft, or a new one) while there is none
 $versionNumber = (int)$version->attribute( 'version' );
+$postVersion = $isDraft ? $versionNumber : 0;
 
 $attribute = null;
 foreach ( (array)$version->contentObjectAttributes( $language ) as $candidate )
@@ -73,7 +82,7 @@ foreach ( (array)$version->contentObjectAttributes( $language ) as $candidate )
 if ( !$attribute )
     return $Module->handleError( eZError::KERNEL_NOT_AVAILABLE, 'kernel' );
 $attributes = array( $attribute );
-$selfUri = 'expwt/field/' . (int)$object->attribute( 'id' ) . '/' . $versionNumber . '/' . $language . '/' . $identifier;
+$selfUri = 'expwt/field/' . (int)$object->attribute( 'id' ) . '/' . $postVersion . '/' . $language . '/' . $identifier;
 $theme = $http->hasGetVariable( 'theme' ) && in_array( $http->getVariable( 'theme' ), array( 'light', 'dark' ), true ) ? $http->getVariable( 'theme' ) : '';
 // in the sidebar's frame (?in=sidebar): the sidebar's own row has Save draft and Cancel; the page drawn in the
 // sidebar's light or dark mode from its first frame. Kept on every address of the frame (a browse returns here).
@@ -157,11 +166,13 @@ $tpl->setVariable( 'embedded', $embedded );
 $tpl->setVariable( 'theme', $theme );
 $tpl->setVariable( 'message', json_encode( array(
     'expwt' => $saved ? 'field-saved' : 'field-ready', 'identifier' => $identifier, 'objectId' => (int)$object->attribute( 'id' ),
-    'version' => $versionNumber, 'language' => $language, 'value' => $saved ? expwtFieldValue::of( $attribute ) : null,
+    'version' => $isDraft ? $versionNumber : null, 'language' => $language, 'value' => $saved ? expwtFieldValue::of( $attribute ) : null,
     'invalid' => $validation['processed'] && !$saved && count( $validation['attributes'] ) > 0,
     'strings' => array( 'More' => ezpI18n::tr( 'extension/expwt', 'More' ) ),
 ), JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE | JSON_HEX_TAG | JSON_HEX_AMP ) );
 
+// the frame's own templates where a datatype has one (override.ini: eztags' plain JavaScript editor)
+eZTemplateDesignResource::instance()->setKeys( array( array( 'expwt_frame', 1 ) ) );
 return array( 'content' => $tpl->fetch( 'design:expwt/field.tpl' ),
               'pagelayout' => 'design:expwt/field_pagelayout.tpl',
               'expwt_theme' => $theme, 'expwt_embedded' => $embedded,
