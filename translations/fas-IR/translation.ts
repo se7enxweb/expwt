@@ -164,6 +164,10 @@
         <translation>ذخیرهٔ پیش‌نویس</translation>
     </message>
     <message>
+        <source>Browse tags</source>
+        <translation>مرور برچسب‌ها</translation>
+    </message>
+    <message>
         <source>Publish</source>
         <translation>انتشار</translation>
     </message>

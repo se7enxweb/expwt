@@ -164,6 +164,10 @@
         <translation>Stoor konsep</translation>
     </message>
     <message>
+        <source>Browse tags</source>
+        <translation>Blaai deur etikette</translation>
+    </message>
+    <message>
         <source>Publish</source>
         <translation>Publiseer</translation>
     </message>

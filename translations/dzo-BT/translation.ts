@@ -164,6 +164,10 @@
         <translation>ཟིན་བྲིས་སྲུང་བཞག</translation>
     </message>
     <message>
+        <source>Browse tags</source>
+        <translation>ངོ་རྟགས་ཚུ་ལྟ།</translation>
+    </message>
+    <message>
         <source>Publish</source>
         <translation>དཔེ་སྐྲུན།</translation>
     </message>

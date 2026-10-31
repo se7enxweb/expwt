@@ -164,6 +164,10 @@
         <translation>Черновик дӀаӀалашде</translation>
     </message>
     <message>
+        <source>Browse tags</source>
+        <translation>Тегаш хьажа</translation>
+    </message>
+    <message>
         <source>Publish</source>
         <translation>Арахеца</translation>
     </message>

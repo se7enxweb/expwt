@@ -164,6 +164,10 @@
         <translation>Sàbhail an dreachd</translation>
     </message>
     <message>
+        <source>Browse tags</source>
+        <translation>Brabhsaich tagaichean</translation>
+    </message>
+    <message>
         <source>Publish</source>
         <translation>Foillsich</translation>
     </message>

@@ -164,6 +164,10 @@
         <translation>مسودو محفوظ ڪريو</translation>
     </message>
     <message>
+        <source>Browse tags</source>
+        <translation>ٽيگ ڏسو</translation>
+    </message>
+    <message>
         <source>Publish</source>
         <translation>شايع ڪريو</translation>
     </message>

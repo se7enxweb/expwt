@@ -164,6 +164,10 @@
         <translation>Караламаны саклау</translation>
     </message>
     <message>
+        <source>Browse tags</source>
+        <translation>Тегларны карау</translation>
+    </message>
+    <message>
         <source>Publish</source>
         <translation>Бастыру</translation>
     </message>

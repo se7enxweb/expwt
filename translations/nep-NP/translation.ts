@@ -164,6 +164,10 @@
         <translation>मस्यौदा सुरक्षित गर्नुहोस्</translation>
     </message>
     <message>
+        <source>Browse tags</source>
+        <translation>ट्यागहरू हेर्नुहोस्</translation>
+    </message>
+    <message>
         <source>Publish</source>
         <translation>प्रकाशित गर्नुहोस्</translation>
     </message>

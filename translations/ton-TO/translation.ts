@@ -164,6 +164,10 @@
         <translation>Tauhi ʻa e tohi fakataimi</translation>
     </message>
     <message>
+        <source>Browse tags</source>
+        <translation>Vakai ki he ngaahi tag</translation>
+    </message>
+    <message>
         <source>Publish</source>
         <translation>Pulusi</translation>
     </message>

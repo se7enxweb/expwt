@@ -164,6 +164,10 @@
         <translation>Entworf späicheren</translation>
     </message>
     <message>
+        <source>Browse tags</source>
+        <translation>Tags duerchsichen</translation>
+    </message>
+    <message>
         <source>Publish</source>
         <translation>Publizéieren</translation>
     </message>

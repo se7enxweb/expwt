@@ -164,6 +164,10 @@
         <translation>Spremi nacrt</translation>
     </message>
     <message>
+        <source>Browse tags</source>
+        <translation>Pregledaj oznake</translation>
+    </message>
+    <message>
         <source>Publish</source>
         <translation>Objavi</translation>
     </message>

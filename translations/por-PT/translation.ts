@@ -164,6 +164,10 @@
         <translation>Guardar rascunho</translation>
     </message>
     <message>
+        <source>Browse tags</source>
+        <translation>Navegar nas etiquetas</translation>
+    </message>
+    <message>
         <source>Publish</source>
         <translation>Publicar</translation>
     </message>

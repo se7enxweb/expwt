@@ -164,6 +164,10 @@
         <translation>खस्रा दोन</translation>
     </message>
     <message>
+        <source>Browse tags</source>
+        <translation>टेगफोर नाय</translation>
+    </message>
+    <message>
         <source>Publish</source>
         <translation>फोसाव</translation>
     </message>

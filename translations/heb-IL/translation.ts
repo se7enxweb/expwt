@@ -164,6 +164,10 @@
         <translation>שמירת טיוטה</translation>
     </message>
     <message>
+        <source>Browse tags</source>
+        <translation>עיון בתגיות</translation>
+    </message>
+    <message>
         <source>Publish</source>
         <translation>פרסום</translation>
     </message>

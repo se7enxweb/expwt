@@ -164,6 +164,10 @@
         <translation>Naćisk składować</translation>
     </message>
     <message>
+        <source>Browse tags</source>
+        <translation>Wobłuki přepytać</translation>
+    </message>
+    <message>
         <source>Publish</source>
         <translation>Wozjewić</translation>
     </message>

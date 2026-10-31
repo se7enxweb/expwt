@@ -164,6 +164,10 @@
         <translation>Chengetedza dhirafiti</translation>
     </message>
     <message>
+        <source>Browse tags</source>
+        <translation>Tarisa ma tag</translation>
+    </message>
+    <message>
         <source>Publish</source>
         <translation>Buritsa</translation>
     </message>

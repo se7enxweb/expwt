@@ -164,6 +164,10 @@
         <translation>Mālama i ke kāmua</translation>
     </message>
     <message>
+        <source>Browse tags</source>
+        <translation>Mākaʻikaʻi i nā lepili</translation>
+    </message>
+    <message>
         <source>Publish</source>
         <translation>Hoʻopuka</translation>
     </message>

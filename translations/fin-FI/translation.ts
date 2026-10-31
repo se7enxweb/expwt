@@ -164,6 +164,10 @@
         <translation>Tallenna luonnos</translation>
     </message>
     <message>
+        <source>Browse tags</source>
+        <translation>Selaa tunnisteita</translation>
+    </message>
+    <message>
         <source>Publish</source>
         <translation>Julkaise</translation>
     </message>

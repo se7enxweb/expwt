@@ -164,6 +164,10 @@
         <translation>Gcina uyilo</translation>
     </message>
     <message>
+        <source>Browse tags</source>
+        <translation>Khangela iithegi</translation>
+    </message>
+    <message>
         <source>Publish</source>
         <translation>Shicilela</translation>
     </message>

@@ -164,6 +164,10 @@
         <translation>ડ્રાફ્ટ સાચવો</translation>
     </message>
     <message>
+        <source>Browse tags</source>
+        <translation>ટૅગ્સ બ્રાઉઝ કરો</translation>
+    </message>
+    <message>
         <source>Publish</source>
         <translation>પ્રકાશિત કરો</translation>
     </message>

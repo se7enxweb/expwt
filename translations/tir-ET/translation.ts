@@ -164,6 +164,10 @@
         <translation>ንድፊ ኣቐምጥ</translation>
     </message>
     <message>
+        <source>Browse tags</source>
+        <translation>መለለዪታት ርአ</translation>
+    </message>
+    <message>
         <source>Publish</source>
         <translation>ኣሕትም</translation>
     </message>

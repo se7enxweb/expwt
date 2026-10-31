@@ -164,6 +164,10 @@
         <translation>Сохранить черновик</translation>
     </message>
     <message>
+        <source>Browse tags</source>
+        <translation>Просмотреть теги</translation>
+    </message>
+    <message>
         <source>Publish</source>
         <translation>Опубликовать</translation>
     </message>

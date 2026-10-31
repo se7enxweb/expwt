@@ -164,6 +164,10 @@
         <translation>Konservi malneton</translation>
     </message>
     <message>
+        <source>Browse tags</source>
+        <translation>Foliumi etikedojn</translation>
+    </message>
+    <message>
         <source>Publish</source>
         <translation>Publikigi</translation>
     </message>

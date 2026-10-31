@@ -164,6 +164,10 @@
         <translation>मसुदो सांबाळात</translation>
     </message>
     <message>
+        <source>Browse tags</source>
+        <translation>टॅग पळयात</translation>
+    </message>
+    <message>
         <source>Publish</source>
         <translation>प्रकाशीत करात</translation>
     </message>

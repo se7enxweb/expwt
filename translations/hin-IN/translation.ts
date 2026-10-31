@@ -164,6 +164,10 @@
         <translation>ड्राफ़्ट सहेजें</translation>
     </message>
     <message>
+        <source>Browse tags</source>
+        <translation>टैग ब्राउज़ करें</translation>
+    </message>
+    <message>
         <source>Publish</source>
         <translation>प्रकाशित करें</translation>
     </message>

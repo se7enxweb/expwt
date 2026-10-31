@@ -164,6 +164,10 @@
         <translation>Bruyɔn mara</translation>
     </message>
     <message>
+        <source>Browse tags</source>
+        <translation>Taamasiyɛnw lajɛ</translation>
+    </message>
+    <message>
         <source>Publish</source>
         <translation>Bila kɛnɛ kan</translation>
     </message>

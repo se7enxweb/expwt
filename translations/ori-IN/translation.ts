@@ -164,6 +164,10 @@
         <translation>ଖସଡ଼ା ସଞ୍ଚୟ କରନ୍ତୁ</translation>
     </message>
     <message>
+        <source>Browse tags</source>
+        <translation>ଟ୍ୟାଗ୍ ବ୍ରାଉଜ୍ କରନ୍ତୁ</translation>
+    </message>
+    <message>
         <source>Publish</source>
         <translation>ପ୍ରକାଶ କରନ୍ତୁ</translation>
     </message>

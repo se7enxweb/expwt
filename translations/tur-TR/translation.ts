@@ -164,6 +164,10 @@
         <translation>Taslağı kaydet</translation>
     </message>
     <message>
+        <source>Browse tags</source>
+        <translation>Etiketlere göz at</translation>
+    </message>
+    <message>
         <source>Publish</source>
         <translation>Yayımla</translation>
     </message>

@@ -164,6 +164,10 @@
         <translation>ບັນທຶກສະບັບຮ່າງ</translation>
     </message>
     <message>
+        <source>Browse tags</source>
+        <translation>ທ່ອງເບິ່ງແທັກ</translation>
+    </message>
+    <message>
         <source>Publish</source>
         <translation>ເຜີຍແຜ່</translation>
     </message>

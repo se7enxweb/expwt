@@ -164,6 +164,10 @@
         <translation>ഡ്രാഫ്റ്റ് സംരക്ഷിക്കുക</translation>
     </message>
     <message>
+        <source>Browse tags</source>
+        <translation>ടാഗുകൾ ബ്രൗസ് ചെയ്യുക</translation>
+    </message>
+    <message>
         <source>Publish</source>
         <translation>പ്രസിദ്ധീകരിക്കുക</translation>
     </message>

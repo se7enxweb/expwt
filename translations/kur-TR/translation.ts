@@ -164,6 +164,10 @@
         <translation>Reşnivîsê tomar bike</translation>
     </message>
     <message>
+        <source>Browse tags</source>
+        <translation>Li etîketan bigere</translation>
+    </message>
+    <message>
         <source>Publish</source>
         <translation>Biweşîne</translation>
     </message>

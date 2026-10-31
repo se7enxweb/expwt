@@ -164,6 +164,10 @@
         <translation>Αποθήκευση προσχεδίου</translation>
     </message>
     <message>
+        <source>Browse tags</source>
+        <translation>Περιήγηση στις ετικέτες</translation>
+    </message>
+    <message>
         <source>Publish</source>
         <translation>Δημοσίευση</translation>
     </message>

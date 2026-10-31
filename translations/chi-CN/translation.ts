@@ -164,6 +164,10 @@
         <translation>保存草稿</translation>
     </message>
     <message>
+        <source>Browse tags</source>
+        <translation>浏览标签</translation>
+    </message>
+    <message>
         <source>Publish</source>
         <translation>发布</translation>
     </message>

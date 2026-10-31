@@ -164,6 +164,10 @@
         <translation>Vista drög</translation>
     </message>
     <message>
+        <source>Browse tags</source>
+        <translation>Skoða merki</translation>
+    </message>
+    <message>
         <source>Publish</source>
         <translation>Birta</translation>
     </message>

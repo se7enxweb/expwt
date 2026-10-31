@@ -164,6 +164,10 @@
         <translation>Qaralamanı saxla</translation>
     </message>
     <message>
+        <source>Browse tags</source>
+        <translation>Etiketlərə bax</translation>
+    </message>
+    <message>
         <source>Publish</source>
         <translation>Dərc et</translation>
     </message>

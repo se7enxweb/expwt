@@ -164,6 +164,10 @@
         <translation>초안 저장</translation>
     </message>
     <message>
+        <source>Browse tags</source>
+        <translation>태그 열람</translation>
+    </message>
+    <message>
         <source>Publish</source>
         <translation>게시</translation>
     </message>

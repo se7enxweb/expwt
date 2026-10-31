@@ -164,6 +164,10 @@
         <translation>Պահպանել սևագիրը</translation>
     </message>
     <message>
+        <source>Browse tags</source>
+        <translation>Դիտել պիտակները</translation>
+    </message>
+    <message>
         <source>Publish</source>
         <translation>Հրապարակել</translation>
     </message>

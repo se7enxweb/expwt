@@ -164,6 +164,10 @@
         <translation>வரைவைச் சேமி</translation>
     </message>
     <message>
+        <source>Browse tags</source>
+        <translation>குறிச்சொற்களை உலாவு</translation>
+    </message>
+    <message>
         <source>Publish</source>
         <translation>வெளியிடு</translation>
     </message>

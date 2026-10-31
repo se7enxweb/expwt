@@ -164,6 +164,10 @@
         <translation>Piszkozat mentése</translation>
     </message>
     <message>
+        <source>Browse tags</source>
+        <translation>Címkék böngészése</translation>
+    </message>
+    <message>
         <source>Publish</source>
         <translation>Közzététel</translation>
     </message>

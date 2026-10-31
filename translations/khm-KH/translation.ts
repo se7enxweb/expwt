@@ -164,6 +164,10 @@
         <translation>រក្សាទុកសេចក្តីព្រាង</translation>
     </message>
     <message>
+        <source>Browse tags</source>
+        <translation>រុករកស្លាក</translation>
+    </message>
+    <message>
         <source>Publish</source>
         <translation>បោះពុម្ពផ្សាយ</translation>
     </message>

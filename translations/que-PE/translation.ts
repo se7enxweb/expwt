@@ -164,6 +164,10 @@
         <translation>Qillqa kaqta waqaychay</translation>
     </message>
     <message>
+        <source>Browse tags</source>
+        <translation>Etiquetakunata qhaway</translation>
+    </message>
+    <message>
         <source>Publish</source>
         <translation>Rakiy</translation>
     </message>

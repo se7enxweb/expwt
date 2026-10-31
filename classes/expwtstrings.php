@@ -66,6 +66,7 @@ class expwtStrings
         'In the full editor: %fields',
         'More',
         'Save draft',
+        'Browse tags',
         'Publish',
         'Editing',
         'Done',

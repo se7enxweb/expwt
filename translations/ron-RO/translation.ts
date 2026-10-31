@@ -164,6 +164,10 @@
         <translation>Salvați ciorna</translation>
     </message>
     <message>
+        <source>Browse tags</source>
+        <translation>Răsfoiește etichetele</translation>
+    </message>
+    <message>
         <source>Publish</source>
         <translation>Publicați</translation>
     </message>

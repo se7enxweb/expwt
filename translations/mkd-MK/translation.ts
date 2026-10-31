@@ -164,6 +164,10 @@
         <translation>Зачувај нацрт</translation>
     </message>
     <message>
+        <source>Browse tags</source>
+        <translation>Прегледај ознаки</translation>
+    </message>
+    <message>
         <source>Publish</source>
         <translation>Објави</translation>
     </message>

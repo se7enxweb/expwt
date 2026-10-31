@@ -164,6 +164,10 @@
         <translation>Salva bozza</translation>
     </message>
     <message>
+        <source>Browse tags</source>
+        <translation>Sfoglia i tag</translation>
+    </message>
+    <message>
         <source>Publish</source>
         <translation>Pubblica</translation>
     </message>

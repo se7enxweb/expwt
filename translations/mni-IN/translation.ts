@@ -164,6 +164,10 @@
         <translation>ড্রাফ্ট থম্বা</translation>
     </message>
     <message>
+        <source>Browse tags</source>
+        <translation>টেগশিং য়েংবা</translation>
+    </message>
+    <message>
         <source>Publish</source>
         <translation>প্রকাশ তৌবা</translation>
     </message>

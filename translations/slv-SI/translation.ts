@@ -164,6 +164,10 @@
         <translation>Shrani osnutek</translation>
     </message>
     <message>
+        <source>Browse tags</source>
+        <translation>Prebrskaj oznake</translation>
+    </message>
+    <message>
         <source>Publish</source>
         <translation>Objavi</translation>
     </message>

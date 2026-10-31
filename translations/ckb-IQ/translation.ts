@@ -164,6 +164,10 @@
         <translation>پاشەکەوتکردنی ڕەشنووس</translation>
     </message>
     <message>
+        <source>Browse tags</source>
+        <translation>گەڕان بە تاگەکاندا</translation>
+    </message>
+    <message>
         <source>Publish</source>
         <translation>بڵاوکردنەوە</translation>
     </message>

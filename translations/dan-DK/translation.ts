@@ -164,6 +164,10 @@
         <translation>Gem udkast</translation>
     </message>
     <message>
+        <source>Browse tags</source>
+        <translation>Gennemse tags</translation>
+    </message>
+    <message>
         <source>Publish</source>
         <translation>Udgiv</translation>
     </message>

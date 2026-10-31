@@ -164,6 +164,10 @@
         <translation>प्रारूपं संरक्षतु</translation>
     </message>
     <message>
+        <source>Browse tags</source>
+        <translation>चिह्नानि पश्यतु</translation>
+    </message>
+    <message>
         <source>Publish</source>
         <translation>प्रकाशयतु</translation>
     </message>

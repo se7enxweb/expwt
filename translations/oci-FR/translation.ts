@@ -164,6 +164,10 @@
         <translation>Enregistrar lo borrolhon</translation>
     </message>
     <message>
+        <source>Browse tags</source>
+        <translation>Percórrer las etiquetas</translation>
+    </message>
+    <message>
         <source>Publish</source>
         <translation>Publicar</translation>
     </message>

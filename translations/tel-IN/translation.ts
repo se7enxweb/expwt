@@ -164,6 +164,10 @@
         <translation>డ్రాఫ్ట్ సేవ్ చేయండి</translation>
     </message>
     <message>
+        <source>Browse tags</source>
+        <translation>ట్యాగ్‌లను బ్రౌజ్ చేయండి</translation>
+    </message>
+    <message>
         <source>Publish</source>
         <translation>ప్రచురించండి</translation>
     </message>

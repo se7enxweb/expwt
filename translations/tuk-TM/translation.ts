@@ -164,6 +164,10 @@
         <translation>Garalamany ýatda sakla</translation>
     </message>
     <message>
+        <source>Browse tags</source>
+        <translation>Bellikleri gözden geçir</translation>
+    </message>
+    <message>
         <source>Publish</source>
         <translation>Neşir et</translation>
     </message>

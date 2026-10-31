@@ -164,6 +164,10 @@
         <translation>Entwurf speichern</translation>
     </message>
     <message>
+        <source>Browse tags</source>
+        <translation>Tags durchsuchen</translation>
+    </message>
+    <message>
         <source>Publish</source>
         <translation>Veröffentlichen</translation>
     </message>

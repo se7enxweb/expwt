@@ -164,6 +164,10 @@
         <translation>Simpan draf</translation>
     </message>
     <message>
+        <source>Browse tags</source>
+        <translation>Jelajahi tag</translation>
+    </message>
+    <message>
         <source>Publish</source>
         <translation>Terbitkan</translation>
     </message>

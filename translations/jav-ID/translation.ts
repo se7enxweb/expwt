@@ -164,6 +164,10 @@
         <translation>Simpen draf</translation>
     </message>
     <message>
+        <source>Browse tags</source>
+        <translation>Telusuri tag</translation>
+    </message>
+    <message>
         <source>Publish</source>
         <translation>Terbitake</translation>
     </message>

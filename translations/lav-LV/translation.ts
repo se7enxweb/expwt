@@ -164,6 +164,10 @@
         <translation>Saglabāt melnrakstu</translation>
     </message>
     <message>
+        <source>Browse tags</source>
+        <translation>Pārlūkot birkas</translation>
+    </message>
+    <message>
         <source>Publish</source>
         <translation>Publicēt</translation>
     </message>

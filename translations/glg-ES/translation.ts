@@ -164,6 +164,10 @@
         <translation>Gardar borrador</translation>
     </message>
     <message>
+        <source>Browse tags</source>
+        <translation>Explorar etiquetas</translation>
+    </message>
+    <message>
         <source>Publish</source>
         <translation>Publicar</translation>
     </message>

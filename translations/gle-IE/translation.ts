@@ -164,6 +164,10 @@
         <translation>Sábháil an dréacht</translation>
     </message>
     <message>
+        <source>Browse tags</source>
+        <translation>Brabhsáil clibeanna</translation>
+    </message>
+    <message>
         <source>Publish</source>
         <translation>Foilsigh</translation>
     </message>

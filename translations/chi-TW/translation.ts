@@ -164,6 +164,10 @@
         <translation>儲存草稿</translation>
     </message>
     <message>
+        <source>Browse tags</source>
+        <translation>瀏覽標籤</translation>
+    </message>
+    <message>
         <source>Publish</source>
         <translation>發佈</translation>
     </message>

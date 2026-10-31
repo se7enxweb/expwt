@@ -164,6 +164,10 @@
         <translation>Desa l'esborrany</translation>
     </message>
     <message>
+        <source>Browse tags</source>
+        <translation>Navega per les etiquetes</translation>
+    </message>
+    <message>
         <source>Publish</source>
         <translation>Publica</translation>
     </message>

@@ -164,6 +164,10 @@
         <translation>ड्राफ़्ट सहेजू</translation>
     </message>
     <message>
+        <source>Browse tags</source>
+        <translation>टैग देखू</translation>
+    </message>
+    <message>
         <source>Publish</source>
         <translation>प्रकाशित करू</translation>
     </message>

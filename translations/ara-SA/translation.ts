@@ -164,6 +164,10 @@
         <translation>حفظ المسودة</translation>
     </message>
     <message>
+        <source>Browse tags</source>
+        <translation>تصفح الوسوم</translation>
+    </message>
+    <message>
         <source>Publish</source>
         <translation>نشر</translation>
     </message>

@@ -164,6 +164,10 @@
         <translation>খচৰা ছেভ কৰক</translation>
     </message>
     <message>
+        <source>Browse tags</source>
+        <translation>টেগসমূহ চাওক</translation>
+    </message>
+    <message>
         <source>Publish</source>
         <translation>প্ৰকাশ কৰক</translation>
     </message>

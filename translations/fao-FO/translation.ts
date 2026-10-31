@@ -164,6 +164,10 @@
         <translation>Goym kladdu</translation>
     </message>
     <message>
+        <source>Browse tags</source>
+        <translation>Kaga eftir frámerkjum</translation>
+    </message>
+    <message>
         <source>Publish</source>
         <translation>Útgev</translation>
     </message>

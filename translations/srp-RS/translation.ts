@@ -164,6 +164,10 @@
         <translation>Сачувај скицу</translation>
     </message>
     <message>
+        <source>Browse tags</source>
+        <translation>Прегледај ознаке</translation>
+    </message>
+    <message>
         <source>Publish</source>
         <translation>Објави</translation>
     </message>

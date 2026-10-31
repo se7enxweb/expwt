@@ -164,6 +164,10 @@
         <translation>下書きを保存</translation>
     </message>
     <message>
+        <source>Browse tags</source>
+        <translation>タグを参照</translation>
+    </message>
+    <message>
         <source>Publish</source>
         <translation>公開</translation>
     </message>

@@ -164,6 +164,10 @@
         <translation>I-save ang draft</translation>
     </message>
     <message>
+        <source>Browse tags</source>
+        <translation>Tan-awa ang mga tag</translation>
+    </message>
+    <message>
         <source>Publish</source>
         <translation>Ipatik</translation>
     </message>

@@ -164,6 +164,10 @@
         <translation>Zapisz wersję roboczą</translation>
     </message>
     <message>
+        <source>Browse tags</source>
+        <translation>Przeglądaj tagi</translation>
+    </message>
+    <message>
         <source>Publish</source>
         <translation>Opublikuj</translation>
     </message>

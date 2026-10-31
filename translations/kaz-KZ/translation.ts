@@ -164,6 +164,10 @@
         <translation>Жобаны сақтау</translation>
     </message>
     <message>
+        <source>Browse tags</source>
+        <translation>Тегтерді шолу</translation>
+    </message>
+    <message>
         <source>Publish</source>
         <translation>Жариялау</translation>
     </message>

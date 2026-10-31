@@ -164,6 +164,10 @@
         <translation>ᱠᱟᱪᱷᱟ ᱜᱷᱟᱛᱤ ᱨᱟᱠᱷᱟᱣ</translation>
     </message>
     <message>
+        <source>Browse tags</source>
+        <translation>ᱴᱮᱜ ᱠᱚ ᱧᱮᱞ ᱢᱮ</translation>
+    </message>
+    <message>
         <source>Publish</source>
         <translation>ᱯᱟᱵᱞᱤᱥ</translation>
     </message>

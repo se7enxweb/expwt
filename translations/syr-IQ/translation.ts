@@ -164,6 +164,10 @@
         <translation>ܢܛܘܪ ܣܘܪܛܐ</translation>
     </message>
     <message>
+        <source>Browse tags</source>
+        <translation>ܥܝܢ ܒܬܓܐ</translation>
+    </message>
+    <message>
         <source>Publish</source>
         <translation>ܦܪܣܐ</translation>
     </message>

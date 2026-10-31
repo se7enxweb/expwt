@@ -9,10 +9,17 @@ MatchFile=expwt/eztags_edit_scripts.tpl
 Subdir=templates
 Match[expwt_frame]=1
 
-# ... and with its tag tree to choose from, for a field of eztags' Default builder
-[expwt_frame_eztags_view_default]
-Source=content/datatype/edit/view/default.tpl
-MatchFile=expwt/eztags_view_default.tpl
+# ... the field on the sidebar's model: chips, the labeled search, "Browse tags" with the tag tree
+[expwt_frame_eztags_edit]
+Source=content/datatype/edit/eztags.tpl
+MatchFile=expwt/eztags_edit.tpl
+Subdir=templates
+Match[expwt_frame]=1
+
+# ... and the dialog of "Add new" (the new tag's parent) as a <dialog> on the sidebar's model
+[expwt_frame_eztags_modal_dialog]
+Source=ezjsctemplate/modal_dialog.tpl
+MatchFile=expwt/eztags_modal_dialog.tpl
 Subdir=templates
 Match[expwt_frame]=1
 

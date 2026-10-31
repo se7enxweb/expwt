@@ -164,6 +164,10 @@
         <translation>Uložit koncept</translation>
     </message>
     <message>
+        <source>Browse tags</source>
+        <translation>Procházet štítky</translation>
+    </message>
+    <message>
         <source>Publish</source>
         <translation>Zveřejnit</translation>
     </message>

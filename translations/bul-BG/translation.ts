@@ -164,6 +164,10 @@
         <translation>Запази черновата</translation>
     </message>
     <message>
+        <source>Browse tags</source>
+        <translation>Преглед на етикетите</translation>
+    </message>
+    <message>
         <source>Publish</source>
         <translation>Публикувай</translation>
     </message>

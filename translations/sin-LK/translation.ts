@@ -164,6 +164,10 @@
         <translation>කෙටුම්පත සුරකින්න</translation>
     </message>
     <message>
+        <source>Browse tags</source>
+        <translation>ටැග් පිරික්සන්න</translation>
+    </message>
+    <message>
         <source>Publish</source>
         <translation>ප්‍රකාශ කරන්න</translation>
     </message>

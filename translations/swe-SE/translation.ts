@@ -164,6 +164,10 @@
         <translation>Spara utkast</translation>
     </message>
     <message>
+        <source>Browse tags</source>
+        <translation>Bläddra bland taggar</translation>
+    </message>
+    <message>
         <source>Publish</source>
         <translation>Publicera</translation>
     </message>

@@ -164,6 +164,10 @@
         <translation>Ruaj skicën</translation>
     </message>
     <message>
+        <source>Browse tags</source>
+        <translation>Shfleto etiketat</translation>
+    </message>
+    <message>
         <source>Publish</source>
         <translation>Publiko</translation>
     </message>

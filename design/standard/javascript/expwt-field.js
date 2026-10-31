@@ -22,7 +22,7 @@
 
   function style(root) {
     Array.prototype.forEach.call(root.querySelectorAll('button, input[type=submit], input[type=button], input[type=reset], a.button'), function (b) {
-      if (b.closest(editorUi)) { return; }
+      if (b.closest(editorUi) || b.matches('.a4-chip-remove, .expwt-chip-add')) { return; }
       b.classList.add('a4-btn');
       var name = b.getAttribute('name') || '';
       if (name === 'StoreButton' || b.classList.contains('defaultbutton')) { b.classList.add('is-primary'); }
@@ -169,6 +169,9 @@
       });
       if (removeAll && removeAll.parentElement) { removeAll.parentElement.hidden = true; }
       if (!table || !table.tBodies.length) { return; }
+      /* no related object: the table holds only the datatype's row template (--name--, "no_relation", which is
+         sent); hidden, with "There are no related objects." below it */
+      if (block.querySelector('.ezobject-relation-no-relation')) { table.hidden = true; return; }
       var list = document.createElement('ul');
       list.className = 'a4-rel-list';
       var renumber = function () {
@@ -262,20 +265,17 @@
     window.requestAnimationFrame(function () { rowsPending = false; rows(); });
   });
 
-  /* eztags (its plain JavaScript editor in the frame, override.ini): a field with the frame's tag tree is built with
-     eztags' Tree builder, so a tag chosen in the tree is added; set before eztags builds its fields */
-  Array.prototype.forEach.call(document.querySelectorAll('.eztags-wrapper'), function (w) {
-    var field = w.querySelector('[data-eztags]');
-    if (field && w.querySelector('.ez-tags-tree-selector')) { field.setAttribute('data-builder', 'Tree'); }
+  /* eztags (expwt/eztags_edit.tpl in the frame) enables "Add new" and searches on keyup only: a name pasted or
+     dictated into its search counts as typed */
+  document.addEventListener('input', function (e) {
+    if (e.target && e.target.classList && e.target.classList.contains('tags-input-field') && !e.isComposing) {
+      e.target.dispatchEvent(new KeyboardEvent('keyup', { bubbles: true }));
+    }
   });
 
   /* what an edit template adds later (eztags' chips, its suggestions, its dialogs): the same look */
   function later(root) {
     style(root);
-    Array.prototype.forEach.call(root.querySelectorAll('.js-tags-remove'), function (a) {
-      a.classList.add('a4-chip-remove');
-      a.setAttribute('role', 'button');
-    });
   }
   if (window.MutationObserver && form) {
     var pending = false;

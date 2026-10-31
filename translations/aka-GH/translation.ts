@@ -164,6 +164,10 @@
         <translation>Kora draft no</translation>
     </message>
     <message>
+        <source>Browse tags</source>
+        <translation>Hwehwɛ tags mu</translation>
+    </message>
+    <message>
         <source>Publish</source>
         <translation>Tintim</translation>
     </message>

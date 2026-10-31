@@ -164,6 +164,10 @@
         <translation>Cadw'r drafft</translation>
     </message>
     <message>
+        <source>Browse tags</source>
+        <translation>Pori tagiau</translation>
+    </message>
+    <message>
         <source>Publish</source>
         <translation>Cyhoeddi</translation>
     </message>

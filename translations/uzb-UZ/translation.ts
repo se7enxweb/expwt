@@ -164,6 +164,10 @@
         <translation>Qoralamani saqlash</translation>
     </message>
     <message>
+        <source>Browse tags</source>
+        <translation>Teglarni ko‘rish</translation>
+    </message>
+    <message>
         <source>Publish</source>
         <translation>Nashr qilish</translation>
     </message>

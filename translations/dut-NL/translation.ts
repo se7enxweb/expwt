@@ -164,6 +164,10 @@
         <translation>Concept opslaan</translation>
     </message>
     <message>
+        <source>Browse tags</source>
+        <translation>Tags bekijken</translation>
+    </message>
+    <message>
         <source>Publish</source>
         <translation>Publiceren</translation>
     </message>

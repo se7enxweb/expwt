@@ -164,6 +164,10 @@
         <translation>Bika intango</translation>
     </message>
     <message>
+        <source>Browse tags</source>
+        <translation>Raba ibimenyetso</translation>
+    </message>
+    <message>
         <source>Publish</source>
         <translation>Sohora</translation>
     </message>

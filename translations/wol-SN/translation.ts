@@ -164,6 +164,10 @@
         <translation>Denc brouyoŋ bi</translation>
     </message>
     <message>
+        <source>Browse tags</source>
+        <translation>Xool ay màndarga</translation>
+    </message>
+    <message>
         <source>Publish</source>
         <translation>Siiwal</translation>
     </message>

@@ -164,6 +164,10 @@
         <translation>Londoloza isiqeshana</translation>
     </message>
     <message>
+        <source>Browse tags</source>
+        <translation>Phequlula omaka</translation>
+    </message>
+    <message>
         <source>Publish</source>
         <translation>Shicilela</translation>
     </message>

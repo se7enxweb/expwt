@@ -164,6 +164,10 @@
         <translation>Issejvja l-abbozz</translation>
     </message>
     <message>
+        <source>Browse tags</source>
+        <translation>Ibbrawżja t-tikketti</translation>
+    </message>
+    <message>
         <source>Publish</source>
         <translation>Ippubblika</translation>
     </message>

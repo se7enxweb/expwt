@@ -164,6 +164,10 @@
         <translation>Lagre utkast</translation>
     </message>
     <message>
+        <source>Browse tags</source>
+        <translation>Bla gjennom tagger</translation>
+    </message>
+    <message>
         <source>Publish</source>
         <translation>Publiser</translation>
     </message>

@@ -164,6 +164,10 @@
         <translation>Захираи сиёҳнавис</translation>
     </message>
     <message>
+        <source>Browse tags</source>
+        <translation>Тамғаҳоро дидан</translation>
+    </message>
+    <message>
         <source>Publish</source>
         <translation>Нашр кардан</translation>
     </message>

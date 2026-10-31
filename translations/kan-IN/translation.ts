@@ -164,6 +164,10 @@
         <translation>ಕರಡನ್ನು ಉಳಿಸು</translation>
     </message>
     <message>
+        <source>Browse tags</source>
+        <translation>ಟ್ಯಾಗ್‌ಗಳನ್ನು ಬ್ರೌಸ್ ಮಾಡಿ</translation>
+    </message>
+    <message>
         <source>Publish</source>
         <translation>ಪ್ರಕಟಿಸು</translation>
     </message>

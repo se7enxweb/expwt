@@ -164,6 +164,10 @@
         <translation>მონახაზის შენახვა</translation>
     </message>
     <message>
+        <source>Browse tags</source>
+        <translation>ტეგების დათვალიერება</translation>
+    </message>
+    <message>
         <source>Publish</source>
         <translation>გამოქვეყნება</translation>
     </message>

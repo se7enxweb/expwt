@@ -164,6 +164,10 @@
         <translation>nab yIpol</translation>
     </message>
     <message>
+        <source>Browse tags</source>
+        <translation>per tISam</translation>
+    </message>
+    <message>
         <source>Publish</source>
         <translation>HochvaD yI'ang</translation>
     </message>

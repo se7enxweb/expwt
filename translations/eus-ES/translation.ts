@@ -164,6 +164,10 @@
         <translation>Gorde zirriborroa</translation>
     </message>
     <message>
+        <source>Browse tags</source>
+        <translation>Arakatu etiketak</translation>
+    </message>
+    <message>
         <source>Publish</source>
         <translation>Argitaratu</translation>
     </message>

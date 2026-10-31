@@ -164,6 +164,10 @@
         <translation>Hifadhi rasimu</translation>
     </message>
     <message>
+        <source>Browse tags</source>
+        <translation>Vinjari lebo</translation>
+    </message>
+    <message>
         <source>Publish</source>
         <translation>Chapisha</translation>
     </message>

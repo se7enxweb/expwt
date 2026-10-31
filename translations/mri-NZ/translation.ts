@@ -164,6 +164,10 @@
         <translation>Tiaki tauira</translation>
     </message>
     <message>
+        <source>Browse tags</source>
+        <translation>Tirohia ngā tūtohu</translation>
+    </message>
+    <message>
         <source>Publish</source>
         <translation>Whakaputa</translation>
     </message>

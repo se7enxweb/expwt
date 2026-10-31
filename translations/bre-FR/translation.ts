@@ -164,6 +164,10 @@
         <translation>Enrollañ ar brouilhed</translation>
     </message>
     <message>
+        <source>Browse tags</source>
+        <translation>Furchal ar c'hlavioù</translation>
+    </message>
+    <message>
         <source>Publish</source>
         <translation>Embann</translation>
     </message>

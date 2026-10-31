@@ -164,6 +164,10 @@
         <translation>Bika umushinga</translation>
     </message>
     <message>
+        <source>Browse tags</source>
+        <translation>Reba ibirango</translation>
+    </message>
+    <message>
         <source>Publish</source>
         <translation>Gutangaza</translation>
     </message>

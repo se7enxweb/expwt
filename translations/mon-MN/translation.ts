@@ -164,6 +164,10 @@
         <translation>Ноорог хадгалах</translation>
     </message>
     <message>
+        <source>Browse tags</source>
+        <translation>Шошго үзэх</translation>
+    </message>
+    <message>
         <source>Publish</source>
         <translation>Нийтлэх</translation>
     </message>

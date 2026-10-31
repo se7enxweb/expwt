@@ -164,6 +164,10 @@
         <translation>Fi àkọsílẹ̀ àkọ́kọ́ pamọ́</translation>
     </message>
     <message>
+        <source>Browse tags</source>
+        <translation>Ṣàwárí àwọn àmì</translation>
+    </message>
+    <message>
         <source>Publish</source>
         <translation>Tẹ̀jáde</translation>
     </message>

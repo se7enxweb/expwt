@@ -164,6 +164,10 @@
         <translation>Save draft</translation>
     </message>
     <message>
+        <source>Browse tags</source>
+        <translation>Look di tags</translation>
+    </message>
+    <message>
         <source>Publish</source>
         <translation>Publish</translation>
     </message>

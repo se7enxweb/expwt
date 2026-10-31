@@ -164,6 +164,10 @@
         <translation>ረቂቅ አስቀምጥ</translation>
     </message>
     <message>
+        <source>Browse tags</source>
+        <translation>መለያዎችን ያስሱ</translation>
+    </message>
+    <message>
         <source>Publish</source>
         <translation>አትም</translation>
     </message>

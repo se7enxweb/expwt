@@ -164,6 +164,10 @@
         <translation>Dzra ŋɔŋlɔ gbãtɔ ɖo</translation>
     </message>
     <message>
+        <source>Browse tags</source>
+        <translation>Kpɔ dzesiwo</translation>
+    </message>
+    <message>
         <source>Publish</source>
         <translation>Ɖe ɖe dutoƒo</translation>
     </message>

@@ -164,6 +164,10 @@
         <translation>Ajiye daftari</translation>
     </message>
     <message>
+        <source>Browse tags</source>
+        <translation>Duba alamomi</translation>
+    </message>
+    <message>
         <source>Publish</source>
         <translation>Wallafa</translation>
     </message>

@@ -164,6 +164,10 @@
         <translation>Долбоорду сактоо</translation>
     </message>
     <message>
+        <source>Browse tags</source>
+        <translation>Тегдерди карап чыгуу</translation>
+    </message>
+    <message>
         <source>Publish</source>
         <translation>Жарыялоо</translation>
     </message>

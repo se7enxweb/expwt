@@ -164,6 +164,10 @@
         <translation>Vurke luonosa</translation>
     </message>
     <message>
+        <source>Browse tags</source>
+        <translation>Guora fáddágilkoriid</translation>
+    </message>
+    <message>
         <source>Publish</source>
         <translation>Almmut</translation>
     </message>

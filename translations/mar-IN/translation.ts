@@ -164,6 +164,10 @@
         <translation>मसुदा जतन करा</translation>
     </message>
     <message>
+        <source>Browse tags</source>
+        <translation>टॅग ब्राउझ करा</translation>
+    </message>
+    <message>
         <source>Publish</source>
         <translation>प्रकाशित करा</translation>
     </message>

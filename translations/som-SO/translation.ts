@@ -164,6 +164,10 @@
         <translation>Keydi qabyada</translation>
     </message>
     <message>
+        <source>Browse tags</source>
+        <translation>Daalaco calaamadaha</translation>
+    </message>
+    <message>
         <source>Publish</source>
         <translation>Daabac</translation>
     </message>

@@ -164,6 +164,10 @@
         <translation>Mooftu daartol</translation>
     </message>
     <message>
+        <source>Browse tags</source>
+        <translation>Yiylo tagge</translation>
+    </message>
+    <message>
         <source>Publish</source>
         <translation>Yaltin</translation>
     </message>

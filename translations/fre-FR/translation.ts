@@ -164,6 +164,10 @@
         <translation>Enregistrer le brouillon</translation>
     </message>
     <message>
+        <source>Browse tags</source>
+        <translation>Parcourir les tags</translation>
+    </message>
+    <message>
         <source>Publish</source>
         <translation>Publier</translation>
     </message>

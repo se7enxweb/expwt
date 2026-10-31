@@ -164,6 +164,10 @@
         <translation>Iga ndrafti</translation>
     </message>
     <message>
+        <source>Browse tags</source>
+        <translation>Rora tags</translation>
+    </message>
+    <message>
         <source>Publish</source>
         <translation>Cabithia</translation>
     </message>

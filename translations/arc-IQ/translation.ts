@@ -164,6 +164,10 @@
         <translation>נטר סורטא</translation>
     </message>
     <message>
+        <source>Browse tags</source>
+        <translation>סקור תגיא</translation>
+    </message>
+    <message>
         <source>Publish</source>
         <translation>פרסא</translation>
     </message>

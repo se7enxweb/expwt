@@ -164,6 +164,10 @@
         <translation>Išsaugoti juodraštį</translation>
     </message>
     <message>
+        <source>Browse tags</source>
+        <translation>Naršyti žymes</translation>
+    </message>
+    <message>
         <source>Publish</source>
         <translation>Paskelbti</translation>
     </message>

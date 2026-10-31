@@ -164,6 +164,10 @@
         <translation>Memorisar il sboz</translation>
     </message>
     <message>
+        <source>Browse tags</source>
+        <translation>Percurrer las etichettas</translation>
+    </message>
+    <message>
         <source>Publish</source>
         <translation>Publitgar</translation>
     </message>

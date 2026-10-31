@@ -164,6 +164,10 @@
         <translation>Wixinee olkaa'i</translation>
     </message>
     <message>
+        <source>Browse tags</source>
+        <translation>Mallattoo ilaali</translation>
+    </message>
+    <message>
         <source>Publish</source>
         <translation>Maxxansi</translation>
     </message>

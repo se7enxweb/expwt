@@ -164,6 +164,10 @@
         <translation>Sekles arewway</translation>
     </message>
     <message>
+        <source>Browse tags</source>
+        <translation>Inig deg tebzimin</translation>
+    </message>
+    <message>
         <source>Publish</source>
         <translation>Siẓreg</translation>
     </message>

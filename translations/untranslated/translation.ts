@@ -164,6 +164,10 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <source>Browse tags</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>Publish</source>
         <translation type="unfinished"></translation>
     </message>

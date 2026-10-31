@@ -164,6 +164,10 @@
         <translation>ਖਰੜਾ ਸੰਭਾਲੋ</translation>
     </message>
     <message>
+        <source>Browse tags</source>
+        <translation>ਟੈਗ ਬ੍ਰਾਊਜ਼ ਕਰੋ</translation>
+    </message>
+    <message>
         <source>Publish</source>
         <translation>ਪ੍ਰਕਾਸ਼ਿਤ ਕਰੋ</translation>
     </message>

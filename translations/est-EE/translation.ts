@@ -164,6 +164,10 @@
         <translation>Salvesta mustand</translation>
     </message>
     <message>
+        <source>Browse tags</source>
+        <translation>Sirvi silte</translation>
+    </message>
+    <message>
         <source>Publish</source>
         <translation>Avalda</translation>
     </message>

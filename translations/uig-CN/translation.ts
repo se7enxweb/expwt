@@ -164,6 +164,10 @@
         <translation>ئارگىنالنى ساقلا</translation>
     </message>
     <message>
+        <source>Browse tags</source>
+        <translation>خەتكۈچلەرنى كۆرۈش</translation>
+    </message>
+    <message>
         <source>Publish</source>
         <translation>ئېلان قىل</translation>
     </message>

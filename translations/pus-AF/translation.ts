@@ -164,6 +164,10 @@
         <translation>مسوده خوندي کړئ</translation>
     </message>
     <message>
+        <source>Browse tags</source>
+        <translation>ټګونه وګورئ</translation>
+    </message>
+    <message>
         <source>Publish</source>
         <translation>خپرول</translation>
     </message>

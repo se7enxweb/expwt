@@ -164,6 +164,10 @@
         <translation>मसौदा सेव करो</translation>
     </message>
     <message>
+        <source>Browse tags</source>
+        <translation>टैग दिक्खो</translation>
+    </message>
+    <message>
         <source>Publish</source>
         <translation>छापो</translation>
     </message>

@@ -164,6 +164,10 @@
         <translation>Захаваць чарнавік</translation>
     </message>
     <message>
+        <source>Browse tags</source>
+        <translation>Праглядзець тэгі</translation>
+    </message>
+    <message>
         <source>Publish</source>
         <translation>Апублікаваць</translation>
     </message>

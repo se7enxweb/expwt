@@ -164,6 +164,10 @@
         <translation>খসড়া সংরক্ষণ করুন</translation>
     </message>
     <message>
+        <source>Browse tags</source>
+        <translation>ট্যাগ ব্রাউজ করুন</translation>
+    </message>
+    <message>
         <source>Publish</source>
         <translation>প্রকাশ করুন</translation>
     </message>

@@ -164,6 +164,10 @@
         <translation>Lưu bản nháp</translation>
     </message>
     <message>
+        <source>Browse tags</source>
+        <translation>Duyệt thẻ</translation>
+    </message>
+    <message>
         <source>Publish</source>
         <translation>Xuất bản</translation>
     </message>

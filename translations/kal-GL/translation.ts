@@ -164,6 +164,10 @@
         <translation>Missingiut toqqoruk</translation>
     </message>
     <message>
+        <source>Browse tags</source>
+        <translation>Ilisarnaatit takuuk</translation>
+    </message>
+    <message>
         <source>Publish</source>
         <translation>Saqqummiuguk</translation>
     </message>

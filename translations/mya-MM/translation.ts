@@ -164,6 +164,10 @@
         <translation>မူကြမ်း သိမ်းရန်</translation>
     </message>
     <message>
+        <source>Browse tags</source>
+        <translation>တဂ်များကို ကြည့်ရှုရန်</translation>
+    </message>
+    <message>
         <source>Publish</source>
         <translation>ထုတ်ဝေရန်</translation>
     </message>

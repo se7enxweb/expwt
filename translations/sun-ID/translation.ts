@@ -164,6 +164,10 @@
         <translation>Simpen draf</translation>
     </message>
     <message>
+        <source>Browse tags</source>
+        <translation>Téang tag</translation>
+    </message>
+    <message>
         <source>Publish</source>
         <translation>Terbitkeun</translation>
     </message>

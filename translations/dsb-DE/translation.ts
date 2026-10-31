@@ -164,6 +164,10 @@
         <translation>Nacerjenje składowaś</translation>
     </message>
     <message>
+        <source>Browse tags</source>
+        <translation>Wobźěły pśeglědaś</translation>
+    </message>
+    <message>
         <source>Publish</source>
         <translation>Wózjawiś</translation>
     </message>

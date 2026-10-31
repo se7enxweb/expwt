@@ -164,6 +164,10 @@
         <translation>Chekwaa ndepụta mbụ</translation>
     </message>
     <message>
+        <source>Browse tags</source>
+        <translation>Nyochaa mkpado</translation>
+    </message>
+    <message>
         <source>Publish</source>
         <translation>Bipụta</translation>
     </message>
