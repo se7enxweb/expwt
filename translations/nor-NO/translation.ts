@@ -1044,6 +1044,214 @@
         <translation>Skjemaer</translation>
     </message>
     <message>
+        <source>There is no such newsletter list.</source>
+        <translation>Denne nyhetsbrevlisten finnes ikke.</translation>
+    </message>
+    <message>
+        <source>The edition was made, but a workflow holds its publishing. Find it in the administration.</source>
+        <translation>Utgaven ble laget, men en arbeidsflyt holder tilbake publiseringen. Finn den i administrasjonen.</translation>
+    </message>
+    <message>
+        <source>The edition was made, but the page could not be taken into it.</source>
+        <translation>Utgaven ble laget, men siden kunne ikke tas inn i den.</translation>
+    </message>
+    <message>
+        <source>There is no such edition, or you may not read it.</source>
+        <translation>Denne utgaven finnes ikke, eller du har ikke lov til å lese den.</translation>
+    </message>
+    <message>
+        <source>This edition has no newsletter data.</source>
+        <translation>Denne utgaven har ingen nyhetsbrevdata.</translation>
+    </message>
+    <message>
+        <source>Some of the addresses are not valid.</source>
+        <translation>Noen av adressene er ikke gyldige.</translation>
+    </message>
+    <message>
+        <source>Give at least one address.</source>
+        <translation>Oppgi minst én adresse.</translation>
+    </message>
+    <message>
+        <source>Too many addresses at once.</source>
+        <translation>For mange adresser på en gang.</translation>
+    </message>
+    <message>
+        <source>The edition was changed in the meantime. Look at it again before you send it.</source>
+        <translation>Utgaven ble endret i mellomtiden. Se på den igjen før du sender den.</translation>
+    </message>
+    <message>
+        <source>The send could not be made.</source>
+        <translation>Sendingen kunne ikke gjennomføres.</translation>
+    </message>
+    <message>
+        <source>Sending to the subscribers needs "Verify it's you", which is switched off here. Send it in the administration.</source>
+        <translation>Sending til abonnentene krever «Bekreft at det er deg», som er slått av her. Send den i administrasjonen.</translation>
+    </message>
+    <message>
+        <source>Please confirm it is you first.</source>
+        <translation>Bekreft først at det er deg.</translation>
+    </message>
+    <message>
+        <source>Editions with this page</source>
+        <translation>Utgaver med denne siden</translation>
+    </message>
+    <message>
+        <source>This page is in no edition yet.</source>
+        <translation>Denne siden er ikke i noen utgave ennå.</translation>
+    </message>
+    <message>
+        <source>Being sent</source>
+        <translation>Sendes</translation>
+    </message>
+    <message>
+        <source>Sent, in the archive</source>
+        <translation>Sendt, i arkivet</translation>
+    </message>
+    <message>
+        <source>Stopped</source>
+        <translation>Stoppet</translation>
+    </message>
+    <message>
+        <source>%n subscribers</source>
+        <translation>%n abonnenter</translation>
+    </message>
+    <message>
+        <source>Make an edition from this page</source>
+        <translation>Lag en utgave av denne siden</translation>
+    </message>
+    <message>
+        <source>There is no newsletter list where you may make an edition.</source>
+        <translation>Det finnes ingen nyhetsbrevliste der du kan lage en utgave.</translation>
+    </message>
+    <message>
+        <source>Make the edition</source>
+        <translation>Lag utgaven</translation>
+    </message>
+    <message>
+        <source>Newsletter list</source>
+        <translation>Nyhetsbrevliste</translation>
+    </message>
+    <message>
+        <source>Introduction (optional)</source>
+        <translation>Innledning (valgfritt)</translation>
+    </message>
+    <message>
+        <source>This page becomes the edition's article: its title, its intro and a link to it.</source>
+        <translation>Denne siden blir utgavens artikkel: tittelen, innledningen og en lenke til den.</translation>
+    </message>
+    <message>
+        <source>The edition was made, with this page as its article.</source>
+        <translation>Utgaven ble laget, med denne siden som artikkel.</translation>
+    </message>
+    <message>
+        <source>not asked for yet</source>
+        <translation>ikke bedt om ennå</translation>
+    </message>
+    <message>
+        <source>waiting</source>
+        <translation>venter</translation>
+    </message>
+    <message>
+        <source>approved</source>
+        <translation>godkjent</translation>
+    </message>
+    <message>
+        <source>rejected</source>
+        <translation>avvist</translation>
+    </message>
+    <message>
+        <source>Approval: %state</source>
+        <translation>Godkjenning: %state</translation>
+    </message>
+    <message>
+        <source>waiting for the cronjob</source>
+        <translation>venter på cronjobben</translation>
+    </message>
+    <message>
+        <source>queued</source>
+        <translation>i kø</translation>
+    </message>
+    <message>
+        <source>being sent</source>
+        <translation>sendes</translation>
+    </message>
+    <message>
+        <source>sent</source>
+        <translation>sendt</translation>
+    </message>
+    <message>
+        <source>stopped</source>
+        <translation>stoppet</translation>
+    </message>
+    <message>
+        <source>Last send: %state, %time</source>
+        <translation>Siste sending: %state, %time</translation>
+    </message>
+    <message>
+        <source>Send a test</source>
+        <translation>Send en test</translation>
+    </message>
+    <message>
+        <source>The test could not be sent.</source>
+        <translation>Testen kunne ikke sendes.</translation>
+    </message>
+    <message>
+        <source>The test was sent to %list.</source>
+        <translation>Testen ble sendt til %list.</translation>
+    </message>
+    <message>
+        <source>Test addresses</source>
+        <translation>Testadresser</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers</source>
+        <translation>Send til abonnentene</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers ...</source>
+        <translation>Send til abonnentene ...</translation>
+    </message>
+    <message>
+        <source>Send now</source>
+        <translation>Send nå</translation>
+    </message>
+    <message>
+        <source>The edition is queued: the newsletter's cronjob sends it to the subscribers.</source>
+        <translation>Utgaven står i kø: nyhetsbrevets cronjobb sender den til abonnentene.</translation>
+    </message>
+    <message>
+        <source>Send "%name" to the %n subscribers of "%list" now? This cannot be taken back here.</source>
+        <translation>Sende «%name» til de %n abonnentene på «%list» nå? Dette kan ikke angres her.</translation>
+    </message>
+    <message>
+        <source>Newsletter</source>
+        <translation>Nyhetsbrev</translation>
+    </message>
+    <message>
+        <source>This edition is being sent.</source>
+        <translation>Denne utgaven sendes.</translation>
+    </message>
+    <message>
+        <source>This edition was sent and is in the archive.</source>
+        <translation>Denne utgaven er sendt og ligger i arkivet.</translation>
+    </message>
+    <message>
+        <source>This edition waits for its approval. It can be sent when it is approved.</source>
+        <translation>Denne utgaven venter på godkjenning. Den kan sendes når den er godkjent.</translation>
+    </message>
+    <message>
+        <source>This edition was rejected. Change it and ask for the approval again.</source>
+        <translation>Denne utgaven ble avvist. Endre den og be om godkjenning igjen.</translation>
+    </message>
+    <message>
+        <source>The list needs an approval before an edition is sent. Ask for the approval in the administration.</source>
+        <translation>Listen krever godkjenning før en utgave sendes. Be om godkjenning i administrasjonen.</translation>
+    </message>
+    <message>
+        <source>The list has no subscribers.</source>
+        <translation>Listen har ingen abonnenter.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Innboks</translation>
     </message>

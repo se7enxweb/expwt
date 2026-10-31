@@ -1044,6 +1044,214 @@
         <translation>Formularë</translation>
     </message>
     <message>
+        <source>There is no such newsletter list.</source>
+        <translation>Nuk ekziston një listë e tillë buletini.</translation>
+    </message>
+    <message>
+        <source>The edition was made, but a workflow holds its publishing. Find it in the administration.</source>
+        <translation>Edicioni u krijua, por një rrjedhë pune po e mban publikimin e tij. Gjejeni në administrim.</translation>
+    </message>
+    <message>
+        <source>The edition was made, but the page could not be taken into it.</source>
+        <translation>Edicioni u krijua, por faqja nuk mund të përfshihej në të.</translation>
+    </message>
+    <message>
+        <source>There is no such edition, or you may not read it.</source>
+        <translation>Nuk ekziston një edicion i tillë ose nuk ju lejohet ta lexoni.</translation>
+    </message>
+    <message>
+        <source>This edition has no newsletter data.</source>
+        <translation>Ky edicion nuk ka të dhëna buletini.</translation>
+    </message>
+    <message>
+        <source>Some of the addresses are not valid.</source>
+        <translation>Disa nga adresat nuk janë të vlefshme.</translation>
+    </message>
+    <message>
+        <source>Give at least one address.</source>
+        <translation>Jepni të paktën një adresë.</translation>
+    </message>
+    <message>
+        <source>Too many addresses at once.</source>
+        <translation>Shumë adresa njëherësh.</translation>
+    </message>
+    <message>
+        <source>The edition was changed in the meantime. Look at it again before you send it.</source>
+        <translation>Edicioni u ndryshua ndërkohë. Shikojeni sërish para se ta dërgoni.</translation>
+    </message>
+    <message>
+        <source>The send could not be made.</source>
+        <translation>Dërgimi nuk mund të kryhej.</translation>
+    </message>
+    <message>
+        <source>Sending to the subscribers needs "Verify it's you", which is switched off here. Send it in the administration.</source>
+        <translation>Dërgimi te abonentët kërkon „Verifikoni që jeni ju”, i cili është i çaktivizuar këtu. Dërgojeni në administrim.</translation>
+    </message>
+    <message>
+        <source>Please confirm it is you first.</source>
+        <translation>Ju lutemi së pari konfirmoni që jeni ju.</translation>
+    </message>
+    <message>
+        <source>Editions with this page</source>
+        <translation>Edicione me këtë faqe</translation>
+    </message>
+    <message>
+        <source>This page is in no edition yet.</source>
+        <translation>Kjo faqe nuk është ende në asnjë edicion.</translation>
+    </message>
+    <message>
+        <source>Being sent</source>
+        <translation>Po dërgohet</translation>
+    </message>
+    <message>
+        <source>Sent, in the archive</source>
+        <translation>U dërgua, në arkiv</translation>
+    </message>
+    <message>
+        <source>Stopped</source>
+        <translation>U ndal</translation>
+    </message>
+    <message>
+        <source>%n subscribers</source>
+        <translation>%n abonentë</translation>
+    </message>
+    <message>
+        <source>Make an edition from this page</source>
+        <translation>Krijoni një edicion nga kjo faqe</translation>
+    </message>
+    <message>
+        <source>There is no newsletter list where you may make an edition.</source>
+        <translation>Nuk ka listë buletini ku mund të krijoni edicion.</translation>
+    </message>
+    <message>
+        <source>Make the edition</source>
+        <translation>Krijoni edicionin</translation>
+    </message>
+    <message>
+        <source>Newsletter list</source>
+        <translation>Lista e buletinit</translation>
+    </message>
+    <message>
+        <source>Introduction (optional)</source>
+        <translation>Hyrje (opsionale)</translation>
+    </message>
+    <message>
+        <source>This page becomes the edition's article: its title, its intro and a link to it.</source>
+        <translation>Kjo faqe bëhet artikulli i edicionit: titulli, hyrja dhe një lidhje drejt saj.</translation>
+    </message>
+    <message>
+        <source>The edition was made, with this page as its article.</source>
+        <translation>Edicioni u krijua, me këtë faqe si artikull.</translation>
+    </message>
+    <message>
+        <source>not asked for yet</source>
+        <translation>ende e pakërkuar</translation>
+    </message>
+    <message>
+        <source>waiting</source>
+        <translation>në pritje</translation>
+    </message>
+    <message>
+        <source>approved</source>
+        <translation>e miratuar</translation>
+    </message>
+    <message>
+        <source>rejected</source>
+        <translation>e refuzuar</translation>
+    </message>
+    <message>
+        <source>Approval: %state</source>
+        <translation>Miratimi: %state</translation>
+    </message>
+    <message>
+        <source>waiting for the cronjob</source>
+        <translation>në pritje të cronjob-it</translation>
+    </message>
+    <message>
+        <source>queued</source>
+        <translation>në radhë</translation>
+    </message>
+    <message>
+        <source>being sent</source>
+        <translation>po dërgohet</translation>
+    </message>
+    <message>
+        <source>sent</source>
+        <translation>u dërgua</translation>
+    </message>
+    <message>
+        <source>stopped</source>
+        <translation>u ndal</translation>
+    </message>
+    <message>
+        <source>Last send: %state, %time</source>
+        <translation>Dërgimi i fundit: %state, %time</translation>
+    </message>
+    <message>
+        <source>Send a test</source>
+        <translation>Dërgoni një provë</translation>
+    </message>
+    <message>
+        <source>The test could not be sent.</source>
+        <translation>Prova nuk mund të dërgohej.</translation>
+    </message>
+    <message>
+        <source>The test was sent to %list.</source>
+        <translation>Prova u dërgua te %list.</translation>
+    </message>
+    <message>
+        <source>Test addresses</source>
+        <translation>Adresat e provës</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers</source>
+        <translation>Dërgojeni te abonentët</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers ...</source>
+        <translation>Dërgojeni te abonentët ...</translation>
+    </message>
+    <message>
+        <source>Send now</source>
+        <translation>Dërgojeni tani</translation>
+    </message>
+    <message>
+        <source>The edition is queued: the newsletter's cronjob sends it to the subscribers.</source>
+        <translation>Edicioni është në radhë: cronjob-i i buletinit ua dërgon abonentëve.</translation>
+    </message>
+    <message>
+        <source>Send "%name" to the %n subscribers of "%list" now? This cannot be taken back here.</source>
+        <translation>Ta dërgoni tani „%name” te %n abonentët e „%list”? Kjo nuk mund të zhbëhet këtu.</translation>
+    </message>
+    <message>
+        <source>Newsletter</source>
+        <translation>Buletini</translation>
+    </message>
+    <message>
+        <source>This edition is being sent.</source>
+        <translation>Ky edicion po dërgohet.</translation>
+    </message>
+    <message>
+        <source>This edition was sent and is in the archive.</source>
+        <translation>Ky edicion u dërgua dhe është në arkiv.</translation>
+    </message>
+    <message>
+        <source>This edition waits for its approval. It can be sent when it is approved.</source>
+        <translation>Ky edicion pret miratimin. Mund të dërgohet kur të miratohet.</translation>
+    </message>
+    <message>
+        <source>This edition was rejected. Change it and ask for the approval again.</source>
+        <translation>Ky edicion u refuzua. Ndryshojeni dhe kërkoni sërish miratimin.</translation>
+    </message>
+    <message>
+        <source>The list needs an approval before an edition is sent. Ask for the approval in the administration.</source>
+        <translation>Lista kërkon një miratim para se të dërgohet një edicion. Kërkoni miratimin në administrim.</translation>
+    </message>
+    <message>
+        <source>The list has no subscribers.</source>
+        <translation>Lista nuk ka abonentë.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Të ardhurat</translation>
     </message>

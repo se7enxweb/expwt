@@ -1044,6 +1044,214 @@
         <translation>फॉर्म</translation>
     </message>
     <message>
+        <source>There is no such newsletter list.</source>
+        <translation>असली न्यूजलेटर वळेरी ना.</translation>
+    </message>
+    <message>
+        <source>The edition was made, but a workflow holds its publishing. Find it in the administration.</source>
+        <translation>अंक तयार जालो, पूण एका वर्कफ्लोन ताचें प्रकाशन आडायलां. तो प्रशासनांत सोदात.</translation>
+    </message>
+    <message>
+        <source>The edition was made, but the page could not be taken into it.</source>
+        <translation>अंक तयार जालो, पूण पान तातूंत घालूंक जायना.</translation>
+    </message>
+    <message>
+        <source>There is no such edition, or you may not read it.</source>
+        <translation>असलो अंक ना, वा तुमकां तो वाचपाक परवानगी ना.</translation>
+    </message>
+    <message>
+        <source>This edition has no newsletter data.</source>
+        <translation>ह्या अंकांत न्यूजलेटराचो डेटा ना.</translation>
+    </message>
+    <message>
+        <source>Some of the addresses are not valid.</source>
+        <translation>कांय पत्ते वैध नात.</translation>
+    </message>
+    <message>
+        <source>Give at least one address.</source>
+        <translation>उण्यांत उणो एक पत्तो दियात.</translation>
+    </message>
+    <message>
+        <source>Too many addresses at once.</source>
+        <translation>एकाच वेळार चड पत्ते.</translation>
+    </message>
+    <message>
+        <source>The edition was changed in the meantime. Look at it again before you send it.</source>
+        <translation>मदल्या काळांत अंक बदल्ला. धाडचे आदीं तो परत पळयात.</translation>
+    </message>
+    <message>
+        <source>The send could not be made.</source>
+        <translation>धाडप जावंक शकलें ना.</translation>
+    </message>
+    <message>
+        <source>Sending to the subscribers needs "Verify it's you", which is switched off here. Send it in the administration.</source>
+        <translation>वर्गणीदारांक धाडपाक "तुमीच आसात हें पडताळात" गरजेचें, जें हांगा बंद आसा. तो प्रशासनांत धाडात.</translation>
+    </message>
+    <message>
+        <source>Please confirm it is you first.</source>
+        <translation>पयलीं तुमीच आसात हें पडताळात.</translation>
+    </message>
+    <message>
+        <source>Editions with this page</source>
+        <translation>हें पान आशिल्ले अंक</translation>
+    </message>
+    <message>
+        <source>This page is in no edition yet.</source>
+        <translation>हें पान अजून खंयच्याच अंकांत ना.</translation>
+    </message>
+    <message>
+        <source>Being sent</source>
+        <translation>धाडटात</translation>
+    </message>
+    <message>
+        <source>Sent, in the archive</source>
+        <translation>धाडला, संग्रहांत</translation>
+    </message>
+    <message>
+        <source>Stopped</source>
+        <translation>थांबयला</translation>
+    </message>
+    <message>
+        <source>%n subscribers</source>
+        <translation>%n वर्गणीदार</translation>
+    </message>
+    <message>
+        <source>Make an edition from this page</source>
+        <translation>ह्या पानांतल्यान अंक तयार करात</translation>
+    </message>
+    <message>
+        <source>There is no newsletter list where you may make an edition.</source>
+        <translation>तुमी अंक तयार करूंक शकतात अशी न्यूजलेटर वळेरी ना.</translation>
+    </message>
+    <message>
+        <source>Make the edition</source>
+        <translation>अंक तयार करात</translation>
+    </message>
+    <message>
+        <source>Newsletter list</source>
+        <translation>न्यूजलेटर वळेरी</translation>
+    </message>
+    <message>
+        <source>Introduction (optional)</source>
+        <translation>प्रस्तावना (वैकल्पिक)</translation>
+    </message>
+    <message>
+        <source>This page becomes the edition's article: its title, its intro and a link to it.</source>
+        <translation>हें पान अंकाचो लेख जाता: ताचें शीर्षक, ताची प्रस्तावना आनी ताचो एक दुवो.</translation>
+    </message>
+    <message>
+        <source>The edition was made, with this page as its article.</source>
+        <translation>अंक तयार जालो, हें पान ताचो लेख म्हूण.</translation>
+    </message>
+    <message>
+        <source>not asked for yet</source>
+        <translation>अजून मागूंक ना</translation>
+    </message>
+    <message>
+        <source>waiting</source>
+        <translation>वाट पळयता</translation>
+    </message>
+    <message>
+        <source>approved</source>
+        <translation>मान्य</translation>
+    </message>
+    <message>
+        <source>rejected</source>
+        <translation>नाकारलें</translation>
+    </message>
+    <message>
+        <source>Approval: %state</source>
+        <translation>मान्यताय: %state</translation>
+    </message>
+    <message>
+        <source>waiting for the cronjob</source>
+        <translation>क्रॉनजॉबाची वाट पळयता</translation>
+    </message>
+    <message>
+        <source>queued</source>
+        <translation>रांकेंत</translation>
+    </message>
+    <message>
+        <source>being sent</source>
+        <translation>धाडटात</translation>
+    </message>
+    <message>
+        <source>sent</source>
+        <translation>धाडला</translation>
+    </message>
+    <message>
+        <source>stopped</source>
+        <translation>थांबयला</translation>
+    </message>
+    <message>
+        <source>Last send: %state, %time</source>
+        <translation>निमाणें धाडप: %state, %time</translation>
+    </message>
+    <message>
+        <source>Send a test</source>
+        <translation>चांचणी धाडात</translation>
+    </message>
+    <message>
+        <source>The test could not be sent.</source>
+        <translation>चांचणी धाडूंक जायना.</translation>
+    </message>
+    <message>
+        <source>The test was sent to %list.</source>
+        <translation>चांचणी %list हांकां धाडली.</translation>
+    </message>
+    <message>
+        <source>Test addresses</source>
+        <translation>चांचणी पत्ते</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers</source>
+        <translation>वर्गणीदारांक धाडात</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers ...</source>
+        <translation>वर्गणीदारांक धाडात ...</translation>
+    </message>
+    <message>
+        <source>Send now</source>
+        <translation>आतां धाडात</translation>
+    </message>
+    <message>
+        <source>The edition is queued: the newsletter's cronjob sends it to the subscribers.</source>
+        <translation>अंक रांकेंत आसा: न्यूजलेटराचो क्रॉनजॉब तो वर्गणीदारांक धाडटलो.</translation>
+    </message>
+    <message>
+        <source>Send "%name" to the %n subscribers of "%list" now? This cannot be taken back here.</source>
+        <translation>"%name" आतां "%list" च्या %n वर्गणीदारांक धाडूंक जाय? हें हांगा परत घेवंक जायना.</translation>
+    </message>
+    <message>
+        <source>Newsletter</source>
+        <translation>न्यूजलेटर</translation>
+    </message>
+    <message>
+        <source>This edition is being sent.</source>
+        <translation>हो अंक धाडटात.</translation>
+    </message>
+    <message>
+        <source>This edition was sent and is in the archive.</source>
+        <translation>हो अंक धाडला आनी संग्रहांत आसा.</translation>
+    </message>
+    <message>
+        <source>This edition waits for its approval. It can be sent when it is approved.</source>
+        <translation>हो अंक मान्यतायेची वाट पळयता. मान्य जाले उपरांत तो धाडूं येता.</translation>
+    </message>
+    <message>
+        <source>This edition was rejected. Change it and ask for the approval again.</source>
+        <translation>हो अंक नाकारला. तो बदलात आनी परत मान्यताय मागात.</translation>
+    </message>
+    <message>
+        <source>The list needs an approval before an edition is sent. Ask for the approval in the administration.</source>
+        <translation>अंक धाडचे आदीं वळेरेक मान्यताय जाय. प्रशासनांत मान्यताय मागात.</translation>
+    </message>
+    <message>
+        <source>The list has no subscribers.</source>
+        <translation>वळेरेंत वर्गणीदार नात.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>इनबॉक्स</translation>
     </message>

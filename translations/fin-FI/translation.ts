@@ -1044,6 +1044,214 @@
         <translation>Lomakkeet</translation>
     </message>
     <message>
+        <source>There is no such newsletter list.</source>
+        <translation>Tällaista uutiskirjeluetteloa ei ole.</translation>
+    </message>
+    <message>
+        <source>The edition was made, but a workflow holds its publishing. Find it in the administration.</source>
+        <translation>Numero luotiin, mutta työnkulku pidättää sen julkaisun. Löydät sen hallinnasta.</translation>
+    </message>
+    <message>
+        <source>The edition was made, but the page could not be taken into it.</source>
+        <translation>Numero luotiin, mutta sivua ei voitu ottaa siihen mukaan.</translation>
+    </message>
+    <message>
+        <source>There is no such edition, or you may not read it.</source>
+        <translation>Tällaista numeroa ei ole, tai sinulla ei ole oikeutta lukea sitä.</translation>
+    </message>
+    <message>
+        <source>This edition has no newsletter data.</source>
+        <translation>Tällä numerolla ei ole uutiskirjetietoja.</translation>
+    </message>
+    <message>
+        <source>Some of the addresses are not valid.</source>
+        <translation>Osa osoitteista ei ole kelvollisia.</translation>
+    </message>
+    <message>
+        <source>Give at least one address.</source>
+        <translation>Anna vähintään yksi osoite.</translation>
+    </message>
+    <message>
+        <source>Too many addresses at once.</source>
+        <translation>Liian monta osoitetta kerralla.</translation>
+    </message>
+    <message>
+        <source>The edition was changed in the meantime. Look at it again before you send it.</source>
+        <translation>Numeroa on muutettu sillä välin. Katso se uudelleen ennen kuin lähetät sen.</translation>
+    </message>
+    <message>
+        <source>The send could not be made.</source>
+        <translation>Lähetys epäonnistui.</translation>
+    </message>
+    <message>
+        <source>Sending to the subscribers needs "Verify it's you", which is switched off here. Send it in the administration.</source>
+        <translation>Tilaajille lähettäminen vaatii toiminnon "Vahvista henkilöllisyytesi", joka on tässä poissa käytöstä. Lähetä se hallinnassa.</translation>
+    </message>
+    <message>
+        <source>Please confirm it is you first.</source>
+        <translation>Vahvista ensin henkilöllisyytesi.</translation>
+    </message>
+    <message>
+        <source>Editions with this page</source>
+        <translation>Numerot, joissa tämä sivu on</translation>
+    </message>
+    <message>
+        <source>This page is in no edition yet.</source>
+        <translation>Tämä sivu ei ole vielä missään numerossa.</translation>
+    </message>
+    <message>
+        <source>Being sent</source>
+        <translation>Lähetetään</translation>
+    </message>
+    <message>
+        <source>Sent, in the archive</source>
+        <translation>Lähetetty, arkistossa</translation>
+    </message>
+    <message>
+        <source>Stopped</source>
+        <translation>Pysäytetty</translation>
+    </message>
+    <message>
+        <source>%n subscribers</source>
+        <translation>%n tilaajaa</translation>
+    </message>
+    <message>
+        <source>Make an edition from this page</source>
+        <translation>Tee numero tästä sivusta</translation>
+    </message>
+    <message>
+        <source>There is no newsletter list where you may make an edition.</source>
+        <translation>Ei ole uutiskirjeluetteloa, johon saisit tehdä numeron.</translation>
+    </message>
+    <message>
+        <source>Make the edition</source>
+        <translation>Tee numero</translation>
+    </message>
+    <message>
+        <source>Newsletter list</source>
+        <translation>Uutiskirjeluettelo</translation>
+    </message>
+    <message>
+        <source>Introduction (optional)</source>
+        <translation>Johdanto (valinnainen)</translation>
+    </message>
+    <message>
+        <source>This page becomes the edition's article: its title, its intro and a link to it.</source>
+        <translation>Tästä sivusta tulee numeron artikkeli: sen otsikko, johdanto ja linkki siihen.</translation>
+    </message>
+    <message>
+        <source>The edition was made, with this page as its article.</source>
+        <translation>Numero luotiin, ja tämä sivu on sen artikkeli.</translation>
+    </message>
+    <message>
+        <source>not asked for yet</source>
+        <translation>ei vielä pyydetty</translation>
+    </message>
+    <message>
+        <source>waiting</source>
+        <translation>odottaa</translation>
+    </message>
+    <message>
+        <source>approved</source>
+        <translation>hyväksytty</translation>
+    </message>
+    <message>
+        <source>rejected</source>
+        <translation>hylätty</translation>
+    </message>
+    <message>
+        <source>Approval: %state</source>
+        <translation>Hyväksyntä: %state</translation>
+    </message>
+    <message>
+        <source>waiting for the cronjob</source>
+        <translation>odottaa cron-ajoa</translation>
+    </message>
+    <message>
+        <source>queued</source>
+        <translation>jonossa</translation>
+    </message>
+    <message>
+        <source>being sent</source>
+        <translation>lähetetään</translation>
+    </message>
+    <message>
+        <source>sent</source>
+        <translation>lähetetty</translation>
+    </message>
+    <message>
+        <source>stopped</source>
+        <translation>pysäytetty</translation>
+    </message>
+    <message>
+        <source>Last send: %state, %time</source>
+        <translation>Viimeisin lähetys: %state, %time</translation>
+    </message>
+    <message>
+        <source>Send a test</source>
+        <translation>Lähetä testi</translation>
+    </message>
+    <message>
+        <source>The test could not be sent.</source>
+        <translation>Testiä ei voitu lähettää.</translation>
+    </message>
+    <message>
+        <source>The test was sent to %list.</source>
+        <translation>Testi lähetettiin osoitteisiin %list.</translation>
+    </message>
+    <message>
+        <source>Test addresses</source>
+        <translation>Testiosoitteet</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers</source>
+        <translation>Lähetä tilaajille</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers ...</source>
+        <translation>Lähetä tilaajille ...</translation>
+    </message>
+    <message>
+        <source>Send now</source>
+        <translation>Lähetä nyt</translation>
+    </message>
+    <message>
+        <source>The edition is queued: the newsletter's cronjob sends it to the subscribers.</source>
+        <translation>Numero on jonossa: uutiskirjeen cron-ajo lähettää sen tilaajille.</translation>
+    </message>
+    <message>
+        <source>Send "%name" to the %n subscribers of "%list" now? This cannot be taken back here.</source>
+        <translation>Lähetetäänkö ”%name” nyt luettelon ”%list” %n tilaajalle? Tätä ei voi perua täällä.</translation>
+    </message>
+    <message>
+        <source>Newsletter</source>
+        <translation>Uutiskirje</translation>
+    </message>
+    <message>
+        <source>This edition is being sent.</source>
+        <translation>Tätä numeroa lähetetään.</translation>
+    </message>
+    <message>
+        <source>This edition was sent and is in the archive.</source>
+        <translation>Tämä numero on lähetetty ja se on arkistossa.</translation>
+    </message>
+    <message>
+        <source>This edition waits for its approval. It can be sent when it is approved.</source>
+        <translation>Tämä numero odottaa hyväksyntää. Sen voi lähettää, kun se on hyväksytty.</translation>
+    </message>
+    <message>
+        <source>This edition was rejected. Change it and ask for the approval again.</source>
+        <translation>Tämä numero hylättiin. Muuta sitä ja pyydä hyväksyntää uudelleen.</translation>
+    </message>
+    <message>
+        <source>The list needs an approval before an edition is sent. Ask for the approval in the administration.</source>
+        <translation>Luettelo vaatii hyväksynnän ennen kuin numero lähetetään. Pyydä hyväksyntää hallinnassa.</translation>
+    </message>
+    <message>
+        <source>The list has no subscribers.</source>
+        <translation>Luettelossa ei ole tilaajia.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Saapuneet</translation>
     </message>

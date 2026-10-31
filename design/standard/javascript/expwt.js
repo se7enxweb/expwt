@@ -620,6 +620,8 @@
       list.push({ id: 'sites', label: this.t('Sites') });
       /* the page's forms and what they collected (E2), for those who edit with the sidebar */
       if (c.edit) { list.push({ id: 'forms', label: this.t('Forms') }); }
+      /* the page's newsletter (E3, cjw_newsletter), for those who may make an edition or send one */
+      if (c.edit && this.boot && this.boot.newsletter) { list.push({ id: 'newsletter', label: this.t('Newsletter') }); }
       if (c.insights) { list.push({ id: 'insights', label: this.t('Insights') }); }
       /* the approvals waiting for the user (F29), for a user of the kernel's collaboration */
       if (this.boot && this.boot.inbox) { list.push({ id: 'inbox', label: this.t('Inbox') }); }
@@ -1245,6 +1247,11 @@
         return res.text().then(function (text) {
           var data = null;
           try { data = JSON.parse(text); } catch (e) { data = null; }
+          /* a kernel answer the debug report was added to (the "Verify it's you" refusal where the debug bar is on):
+             the JSON before it */
+          if (data === null && text.indexOf('\n<!--') > 0) {
+            try { data = JSON.parse(text.slice(0, text.indexOf('\n<!--'))); } catch (e) { data = null; }
+          }
           if (!res.ok || !data || data.ok === false) {
             var err = new Error(data && data.message ? data.message : 'HTTP ' + res.status);
             err.status = res.status;
@@ -1262,7 +1269,7 @@
       var t = this.boot.transport;
       var registered = this.registry().actions || {};
       var write = Object.prototype.hasOwnProperty.call(registered, action) ? !!registered[action].writes
-        : ['me', 'page.load', 'create.classes', 'tree.children', 'inbox.load', 'insights.load', 'seo.check', 'boot'].indexOf(action) < 0;
+        : ['me', 'page.load', 'create.classes', 'tree.children', 'inbox.load', 'insights.load', 'seo.check', 'newsletter.load', 'boot'].indexOf(action) < 0;
       var json = JSON.stringify(input || {});
       var headers = { 'X-CSRF-Token': this.boot.token || '' };
       var p;

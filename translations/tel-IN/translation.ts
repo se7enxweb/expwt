@@ -1044,6 +1044,214 @@
         <translation>ఫారాలు</translation>
     </message>
     <message>
+        <source>There is no such newsletter list.</source>
+        <translation>అలాంటి వార్తాలేఖ జాబితా లేదు.</translation>
+    </message>
+    <message>
+        <source>The edition was made, but a workflow holds its publishing. Find it in the administration.</source>
+        <translation>ఎడిషన్ తయారైంది, కానీ ఒక వర్క్‌ఫ్లో దాని ప్రచురణను ఆపి ఉంచింది. దాన్ని నిర్వహణలో కనుగొనండి.</translation>
+    </message>
+    <message>
+        <source>The edition was made, but the page could not be taken into it.</source>
+        <translation>ఎడిషన్ తయారైంది, కానీ పేజీని దానిలో చేర్చలేకపోయాం.</translation>
+    </message>
+    <message>
+        <source>There is no such edition, or you may not read it.</source>
+        <translation>అలాంటి ఎడిషన్ లేదు, లేదా దాన్ని చదవడానికి మీకు అనుమతి లేదు.</translation>
+    </message>
+    <message>
+        <source>This edition has no newsletter data.</source>
+        <translation>ఈ ఎడిషన్‌కు వార్తాలేఖ డేటా లేదు.</translation>
+    </message>
+    <message>
+        <source>Some of the addresses are not valid.</source>
+        <translation>కొన్ని చిరునామాలు చెల్లవు.</translation>
+    </message>
+    <message>
+        <source>Give at least one address.</source>
+        <translation>కనీసం ఒక చిరునామా ఇవ్వండి.</translation>
+    </message>
+    <message>
+        <source>Too many addresses at once.</source>
+        <translation>ఒకేసారి చాలా ఎక్కువ చిరునామాలు.</translation>
+    </message>
+    <message>
+        <source>The edition was changed in the meantime. Look at it again before you send it.</source>
+        <translation>ఈలోగా ఎడిషన్ మార్చబడింది. పంపే ముందు దాన్ని మళ్లీ చూడండి.</translation>
+    </message>
+    <message>
+        <source>The send could not be made.</source>
+        <translation>పంపడం సాధ్యం కాలేదు.</translation>
+    </message>
+    <message>
+        <source>Sending to the subscribers needs "Verify it's you", which is switched off here. Send it in the administration.</source>
+        <translation>చందాదారులకు పంపడానికి "ఇది మీరేనని ధృవీకరించండి" అవసరం, అది ఇక్కడ ఆఫ్ చేయబడింది. దాన్ని నిర్వహణలో పంపండి.</translation>
+    </message>
+    <message>
+        <source>Please confirm it is you first.</source>
+        <translation>దయచేసి ముందుగా ఇది మీరేనని నిర్ధారించండి.</translation>
+    </message>
+    <message>
+        <source>Editions with this page</source>
+        <translation>ఈ పేజీ ఉన్న ఎడిషన్లు</translation>
+    </message>
+    <message>
+        <source>This page is in no edition yet.</source>
+        <translation>ఈ పేజీ ఇంకా ఏ ఎడిషన్‌లోనూ లేదు.</translation>
+    </message>
+    <message>
+        <source>Being sent</source>
+        <translation>పంపబడుతోంది</translation>
+    </message>
+    <message>
+        <source>Sent, in the archive</source>
+        <translation>పంపబడింది, ఆర్కైవ్‌లో</translation>
+    </message>
+    <message>
+        <source>Stopped</source>
+        <translation>ఆపివేయబడింది</translation>
+    </message>
+    <message>
+        <source>%n subscribers</source>
+        <translation>%n చందాదారులు</translation>
+    </message>
+    <message>
+        <source>Make an edition from this page</source>
+        <translation>ఈ పేజీ నుండి ఎడిషన్ తయారు చేయండి</translation>
+    </message>
+    <message>
+        <source>There is no newsletter list where you may make an edition.</source>
+        <translation>మీరు ఎడిషన్ తయారు చేయగల వార్తాలేఖ జాబితా ఏదీ లేదు.</translation>
+    </message>
+    <message>
+        <source>Make the edition</source>
+        <translation>ఎడిషన్ తయారు చేయండి</translation>
+    </message>
+    <message>
+        <source>Newsletter list</source>
+        <translation>వార్తాలేఖ జాబితా</translation>
+    </message>
+    <message>
+        <source>Introduction (optional)</source>
+        <translation>పరిచయం (ఐచ్ఛికం)</translation>
+    </message>
+    <message>
+        <source>This page becomes the edition's article: its title, its intro and a link to it.</source>
+        <translation>ఈ పేజీ ఎడిషన్ యొక్క వ్యాసం అవుతుంది: దాని శీర్షిక, దాని పరిచయం మరియు దానికి ఒక లింక్.</translation>
+    </message>
+    <message>
+        <source>The edition was made, with this page as its article.</source>
+        <translation>ఈ పేజీని వ్యాసంగా చేసి ఎడిషన్ తయారైంది.</translation>
+    </message>
+    <message>
+        <source>not asked for yet</source>
+        <translation>ఇంకా అడగలేదు</translation>
+    </message>
+    <message>
+        <source>waiting</source>
+        <translation>వేచి ఉంది</translation>
+    </message>
+    <message>
+        <source>approved</source>
+        <translation>ఆమోదించబడింది</translation>
+    </message>
+    <message>
+        <source>rejected</source>
+        <translation>తిరస్కరించబడింది</translation>
+    </message>
+    <message>
+        <source>Approval: %state</source>
+        <translation>ఆమోదం: %state</translation>
+    </message>
+    <message>
+        <source>waiting for the cronjob</source>
+        <translation>cronjob కోసం వేచి ఉంది</translation>
+    </message>
+    <message>
+        <source>queued</source>
+        <translation>వరుసలో ఉంది</translation>
+    </message>
+    <message>
+        <source>being sent</source>
+        <translation>పంపబడుతోంది</translation>
+    </message>
+    <message>
+        <source>sent</source>
+        <translation>పంపబడింది</translation>
+    </message>
+    <message>
+        <source>stopped</source>
+        <translation>ఆపివేయబడింది</translation>
+    </message>
+    <message>
+        <source>Last send: %state, %time</source>
+        <translation>చివరి పంపకం: %state, %time</translation>
+    </message>
+    <message>
+        <source>Send a test</source>
+        <translation>పరీక్షను పంపండి</translation>
+    </message>
+    <message>
+        <source>The test could not be sent.</source>
+        <translation>పరీక్షను పంపలేకపోయాం.</translation>
+    </message>
+    <message>
+        <source>The test was sent to %list.</source>
+        <translation>పరీక్ష %list కు పంపబడింది.</translation>
+    </message>
+    <message>
+        <source>Test addresses</source>
+        <translation>పరీక్ష చిరునామాలు</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers</source>
+        <translation>చందాదారులకు పంపండి</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers ...</source>
+        <translation>చందాదారులకు పంపండి ...</translation>
+    </message>
+    <message>
+        <source>Send now</source>
+        <translation>ఇప్పుడే పంపండి</translation>
+    </message>
+    <message>
+        <source>The edition is queued: the newsletter's cronjob sends it to the subscribers.</source>
+        <translation>ఎడిషన్ వరుసలో ఉంది: వార్తాలేఖ యొక్క cronjob దాన్ని చందాదారులకు పంపుతుంది.</translation>
+    </message>
+    <message>
+        <source>Send "%name" to the %n subscribers of "%list" now? This cannot be taken back here.</source>
+        <translation>"%name" ను "%list" యొక్క %n చందాదారులకు ఇప్పుడే పంపాలా? దీన్ని ఇక్కడ వెనక్కి తీసుకోలేరు.</translation>
+    </message>
+    <message>
+        <source>Newsletter</source>
+        <translation>వార్తాలేఖ</translation>
+    </message>
+    <message>
+        <source>This edition is being sent.</source>
+        <translation>ఈ ఎడిషన్ పంపబడుతోంది.</translation>
+    </message>
+    <message>
+        <source>This edition was sent and is in the archive.</source>
+        <translation>ఈ ఎడిషన్ పంపబడింది మరియు ఆర్కైవ్‌లో ఉంది.</translation>
+    </message>
+    <message>
+        <source>This edition waits for its approval. It can be sent when it is approved.</source>
+        <translation>ఈ ఎడిషన్ ఆమోదం కోసం వేచి ఉంది. ఆమోదించిన తర్వాత దాన్ని పంపవచ్చు.</translation>
+    </message>
+    <message>
+        <source>This edition was rejected. Change it and ask for the approval again.</source>
+        <translation>ఈ ఎడిషన్ తిరస్కరించబడింది. దాన్ని మార్చి మళ్లీ ఆమోదం కోరండి.</translation>
+    </message>
+    <message>
+        <source>The list needs an approval before an edition is sent. Ask for the approval in the administration.</source>
+        <translation>ఎడిషన్ పంపే ముందు జాబితాకు ఆమోదం అవసరం. నిర్వహణలో ఆమోదం కోరండి.</translation>
+    </message>
+    <message>
+        <source>The list has no subscribers.</source>
+        <translation>జాబితాలో చందాదారులు లేరు.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>ఇన్‌బాక్స్</translation>
     </message>

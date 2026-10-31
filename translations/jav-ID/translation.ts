@@ -1044,6 +1044,214 @@
         <translation>Formulir</translation>
     </message>
     <message>
+        <source>There is no such newsletter list.</source>
+        <translation>Dhaptar newsletter kuwi ora ana.</translation>
+    </message>
+    <message>
+        <source>The edition was made, but a workflow holds its publishing. Find it in the administration.</source>
+        <translation>Edisi wis digawe, nanging alur kerja nahan panerbitane. Golèken ing administrasi.</translation>
+    </message>
+    <message>
+        <source>The edition was made, but the page could not be taken into it.</source>
+        <translation>Edisi wis digawe, nanging kaca ora bisa dilebokake.</translation>
+    </message>
+    <message>
+        <source>There is no such edition, or you may not read it.</source>
+        <translation>Edisi kuwi ora ana, utawa sampeyan ora diidini maca.</translation>
+    </message>
+    <message>
+        <source>This edition has no newsletter data.</source>
+        <translation>Edisi iki ora duwe data newsletter.</translation>
+    </message>
+    <message>
+        <source>Some of the addresses are not valid.</source>
+        <translation>Sawetara alamat ora valid.</translation>
+    </message>
+    <message>
+        <source>Give at least one address.</source>
+        <translation>Wenehana paling ora siji alamat.</translation>
+    </message>
+    <message>
+        <source>Too many addresses at once.</source>
+        <translation>Kakehan alamat sakaligus.</translation>
+    </message>
+    <message>
+        <source>The edition was changed in the meantime. Look at it again before you send it.</source>
+        <translation>Edisi wis diowahi ing sela-sela kuwi. Delengen maneh sadurunge sampeyan ngirim.</translation>
+    </message>
+    <message>
+        <source>The send could not be made.</source>
+        <translation>Pangiriman ora bisa ditindakake.</translation>
+    </message>
+    <message>
+        <source>Sending to the subscribers needs "Verify it's you", which is switched off here. Send it in the administration.</source>
+        <translation>Ngirim menyang pelanggan mbutuhake "Pesthekake iki sampeyan", sing dipateni ing kene. Kirimen ing administrasi.</translation>
+    </message>
+    <message>
+        <source>Please confirm it is you first.</source>
+        <translation>Mangga pesthekake dhisik iki sampeyan.</translation>
+    </message>
+    <message>
+        <source>Editions with this page</source>
+        <translation>Edisi sing ngemot kaca iki</translation>
+    </message>
+    <message>
+        <source>This page is in no edition yet.</source>
+        <translation>Kaca iki durung ana ing edisi apa wae.</translation>
+    </message>
+    <message>
+        <source>Being sent</source>
+        <translation>Lagi dikirim</translation>
+    </message>
+    <message>
+        <source>Sent, in the archive</source>
+        <translation>Wis dikirim, ing arsip</translation>
+    </message>
+    <message>
+        <source>Stopped</source>
+        <translation>Diendhegake</translation>
+    </message>
+    <message>
+        <source>%n subscribers</source>
+        <translation>%n pelanggan</translation>
+    </message>
+    <message>
+        <source>Make an edition from this page</source>
+        <translation>Gawe edisi saka kaca iki</translation>
+    </message>
+    <message>
+        <source>There is no newsletter list where you may make an edition.</source>
+        <translation>Ora ana dhaptar newsletter sing sampeyan oleh gawe edisi.</translation>
+    </message>
+    <message>
+        <source>Make the edition</source>
+        <translation>Gawe edisi</translation>
+    </message>
+    <message>
+        <source>Newsletter list</source>
+        <translation>Dhaptar newsletter</translation>
+    </message>
+    <message>
+        <source>Introduction (optional)</source>
+        <translation>Pambuka (opsional)</translation>
+    </message>
+    <message>
+        <source>This page becomes the edition's article: its title, its intro and a link to it.</source>
+        <translation>Kaca iki dadi artikel edisi: irah-irahane, pambukane lan pranala menyang kaca iki.</translation>
+    </message>
+    <message>
+        <source>The edition was made, with this page as its article.</source>
+        <translation>Edisi wis digawe, kanthi kaca iki minangka artikele.</translation>
+    </message>
+    <message>
+        <source>not asked for yet</source>
+        <translation>durung dijaluk</translation>
+    </message>
+    <message>
+        <source>waiting</source>
+        <translation>ngenteni</translation>
+    </message>
+    <message>
+        <source>approved</source>
+        <translation>disetujoni</translation>
+    </message>
+    <message>
+        <source>rejected</source>
+        <translation>ditolak</translation>
+    </message>
+    <message>
+        <source>Approval: %state</source>
+        <translation>Persetujuan: %state</translation>
+    </message>
+    <message>
+        <source>waiting for the cronjob</source>
+        <translation>ngenteni cronjob</translation>
+    </message>
+    <message>
+        <source>queued</source>
+        <translation>ing antrian</translation>
+    </message>
+    <message>
+        <source>being sent</source>
+        <translation>lagi dikirim</translation>
+    </message>
+    <message>
+        <source>sent</source>
+        <translation>wis dikirim</translation>
+    </message>
+    <message>
+        <source>stopped</source>
+        <translation>diendhegake</translation>
+    </message>
+    <message>
+        <source>Last send: %state, %time</source>
+        <translation>Pangiriman pungkasan: %state, %time</translation>
+    </message>
+    <message>
+        <source>Send a test</source>
+        <translation>Kirim uji coba</translation>
+    </message>
+    <message>
+        <source>The test could not be sent.</source>
+        <translation>Uji coba ora bisa dikirim.</translation>
+    </message>
+    <message>
+        <source>The test was sent to %list.</source>
+        <translation>Uji coba wis dikirim menyang %list.</translation>
+    </message>
+    <message>
+        <source>Test addresses</source>
+        <translation>Alamat uji coba</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers</source>
+        <translation>Kirim menyang pelanggan</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers ...</source>
+        <translation>Kirim menyang pelanggan ...</translation>
+    </message>
+    <message>
+        <source>Send now</source>
+        <translation>Kirim saiki</translation>
+    </message>
+    <message>
+        <source>The edition is queued: the newsletter's cronjob sends it to the subscribers.</source>
+        <translation>Edisi ana ing antrian: cronjob newsletter ngirim menyang pelanggan.</translation>
+    </message>
+    <message>
+        <source>Send "%name" to the %n subscribers of "%list" now? This cannot be taken back here.</source>
+        <translation>Kirim "%name" menyang %n pelanggan "%list" saiki? Iki ora bisa dibatalake ing kene.</translation>
+    </message>
+    <message>
+        <source>Newsletter</source>
+        <translation>Newsletter</translation>
+    </message>
+    <message>
+        <source>This edition is being sent.</source>
+        <translation>Edisi iki lagi dikirim.</translation>
+    </message>
+    <message>
+        <source>This edition was sent and is in the archive.</source>
+        <translation>Edisi iki wis dikirim lan ana ing arsip.</translation>
+    </message>
+    <message>
+        <source>This edition waits for its approval. It can be sent when it is approved.</source>
+        <translation>Edisi iki ngenteni persetujuan. Bisa dikirim yen wis disetujoni.</translation>
+    </message>
+    <message>
+        <source>This edition was rejected. Change it and ask for the approval again.</source>
+        <translation>Edisi iki ditolak. Owahana lan jaluk persetujuan maneh.</translation>
+    </message>
+    <message>
+        <source>The list needs an approval before an edition is sent. Ask for the approval in the administration.</source>
+        <translation>Dhaptar iki mbutuhake persetujuan sadurunge edisi dikirim. Jaluk persetujuan ing administrasi.</translation>
+    </message>
+    <message>
+        <source>The list has no subscribers.</source>
+        <translation>Dhaptar iki ora duwe pelanggan.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Kothak mlebu</translation>
     </message>

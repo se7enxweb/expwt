@@ -1044,6 +1044,214 @@
         <translation>फॉर्म</translation>
     </message>
     <message>
+        <source>There is no such newsletter list.</source>
+        <translation>अशी कोणतीही न्यूजलेटर यादी नाही.</translation>
+    </message>
+    <message>
+        <source>The edition was made, but a workflow holds its publishing. Find it in the administration.</source>
+        <translation>आवृत्ती तयार झाली, पण एक वर्कफ्लो तिचे प्रकाशन रोखून आहे. ती प्रशासनात शोधा.</translation>
+    </message>
+    <message>
+        <source>The edition was made, but the page could not be taken into it.</source>
+        <translation>आवृत्ती तयार झाली, पण पान तिच्यात घेता आले नाही.</translation>
+    </message>
+    <message>
+        <source>There is no such edition, or you may not read it.</source>
+        <translation>अशी कोणतीही आवृत्ती नाही, किंवा तुम्हाला ती वाचण्याची परवानगी नाही.</translation>
+    </message>
+    <message>
+        <source>This edition has no newsletter data.</source>
+        <translation>या आवृत्तीत न्यूजलेटर डेटा नाही.</translation>
+    </message>
+    <message>
+        <source>Some of the addresses are not valid.</source>
+        <translation>काही पत्ते वैध नाहीत.</translation>
+    </message>
+    <message>
+        <source>Give at least one address.</source>
+        <translation>किमान एक पत्ता द्या.</translation>
+    </message>
+    <message>
+        <source>Too many addresses at once.</source>
+        <translation>एकाच वेळी खूप जास्त पत्ते.</translation>
+    </message>
+    <message>
+        <source>The edition was changed in the meantime. Look at it again before you send it.</source>
+        <translation>दरम्यान आवृत्ती बदलली आहे. पाठवण्यापूर्वी ती पुन्हा पाहा.</translation>
+    </message>
+    <message>
+        <source>The send could not be made.</source>
+        <translation>पाठवणे होऊ शकले नाही.</translation>
+    </message>
+    <message>
+        <source>Sending to the subscribers needs "Verify it's you", which is switched off here. Send it in the administration.</source>
+        <translation>सदस्यांना पाठवण्यासाठी "हे तुम्हीच आहात याची पडताळणी करा" आवश्यक आहे, जे येथे बंद आहे. ती प्रशासनात पाठवा.</translation>
+    </message>
+    <message>
+        <source>Please confirm it is you first.</source>
+        <translation>कृपया आधी हे तुम्हीच आहात याची पुष्टी करा.</translation>
+    </message>
+    <message>
+        <source>Editions with this page</source>
+        <translation>हे पान असलेल्या आवृत्त्या</translation>
+    </message>
+    <message>
+        <source>This page is in no edition yet.</source>
+        <translation>हे पान अजून कोणत्याही आवृत्तीत नाही.</translation>
+    </message>
+    <message>
+        <source>Being sent</source>
+        <translation>पाठवली जात आहे</translation>
+    </message>
+    <message>
+        <source>Sent, in the archive</source>
+        <translation>पाठवली, संग्रहात</translation>
+    </message>
+    <message>
+        <source>Stopped</source>
+        <translation>थांबवली</translation>
+    </message>
+    <message>
+        <source>%n subscribers</source>
+        <translation>%n सदस्य</translation>
+    </message>
+    <message>
+        <source>Make an edition from this page</source>
+        <translation>या पानापासून आवृत्ती तयार करा</translation>
+    </message>
+    <message>
+        <source>There is no newsletter list where you may make an edition.</source>
+        <translation>तुम्ही आवृत्ती तयार करू शकाल अशी कोणतीही न्यूजलेटर यादी नाही.</translation>
+    </message>
+    <message>
+        <source>Make the edition</source>
+        <translation>आवृत्ती तयार करा</translation>
+    </message>
+    <message>
+        <source>Newsletter list</source>
+        <translation>न्यूजलेटर यादी</translation>
+    </message>
+    <message>
+        <source>Introduction (optional)</source>
+        <translation>प्रस्तावना (ऐच्छिक)</translation>
+    </message>
+    <message>
+        <source>This page becomes the edition's article: its title, its intro and a link to it.</source>
+        <translation>हे पान आवृत्तीचा लेख बनते: त्याचे शीर्षक, प्रस्तावना आणि त्याची लिंक.</translation>
+    </message>
+    <message>
+        <source>The edition was made, with this page as its article.</source>
+        <translation>हे पान लेख म्हणून घेऊन आवृत्ती तयार झाली.</translation>
+    </message>
+    <message>
+        <source>not asked for yet</source>
+        <translation>अजून मागितले नाही</translation>
+    </message>
+    <message>
+        <source>waiting</source>
+        <translation>प्रतीक्षेत</translation>
+    </message>
+    <message>
+        <source>approved</source>
+        <translation>मंजूर</translation>
+    </message>
+    <message>
+        <source>rejected</source>
+        <translation>नाकारले</translation>
+    </message>
+    <message>
+        <source>Approval: %state</source>
+        <translation>मंजुरी: %state</translation>
+    </message>
+    <message>
+        <source>waiting for the cronjob</source>
+        <translation>cronjob च्या प्रतीक्षेत</translation>
+    </message>
+    <message>
+        <source>queued</source>
+        <translation>रांगेत</translation>
+    </message>
+    <message>
+        <source>being sent</source>
+        <translation>पाठवली जात आहे</translation>
+    </message>
+    <message>
+        <source>sent</source>
+        <translation>पाठवली</translation>
+    </message>
+    <message>
+        <source>stopped</source>
+        <translation>थांबवली</translation>
+    </message>
+    <message>
+        <source>Last send: %state, %time</source>
+        <translation>शेवटचे पाठवणे: %state, %time</translation>
+    </message>
+    <message>
+        <source>Send a test</source>
+        <translation>चाचणी पाठवा</translation>
+    </message>
+    <message>
+        <source>The test could not be sent.</source>
+        <translation>चाचणी पाठवता आली नाही.</translation>
+    </message>
+    <message>
+        <source>The test was sent to %list.</source>
+        <translation>चाचणी %list ला पाठवली.</translation>
+    </message>
+    <message>
+        <source>Test addresses</source>
+        <translation>चाचणी पत्ते</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers</source>
+        <translation>सदस्यांना पाठवा</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers ...</source>
+        <translation>सदस्यांना पाठवा ...</translation>
+    </message>
+    <message>
+        <source>Send now</source>
+        <translation>आता पाठवा</translation>
+    </message>
+    <message>
+        <source>The edition is queued: the newsletter's cronjob sends it to the subscribers.</source>
+        <translation>आवृत्ती रांगेत आहे: न्यूजलेटरचा cronjob ती सदस्यांना पाठवतो.</translation>
+    </message>
+    <message>
+        <source>Send "%name" to the %n subscribers of "%list" now? This cannot be taken back here.</source>
+        <translation>"%name" आता "%list" च्या %n सदस्यांना पाठवायची? हे येथे परत घेता येणार नाही.</translation>
+    </message>
+    <message>
+        <source>Newsletter</source>
+        <translation>न्यूजलेटर</translation>
+    </message>
+    <message>
+        <source>This edition is being sent.</source>
+        <translation>ही आवृत्ती पाठवली जात आहे.</translation>
+    </message>
+    <message>
+        <source>This edition was sent and is in the archive.</source>
+        <translation>ही आवृत्ती पाठवली गेली आहे आणि संग्रहात आहे.</translation>
+    </message>
+    <message>
+        <source>This edition waits for its approval. It can be sent when it is approved.</source>
+        <translation>ही आवृत्ती मंजुरीची वाट पाहत आहे. मंजूर झाल्यावर ती पाठवता येईल.</translation>
+    </message>
+    <message>
+        <source>This edition was rejected. Change it and ask for the approval again.</source>
+        <translation>ही आवृत्ती नाकारली गेली. ती बदला आणि पुन्हा मंजुरी मागा.</translation>
+    </message>
+    <message>
+        <source>The list needs an approval before an edition is sent. Ask for the approval in the administration.</source>
+        <translation>आवृत्ती पाठवण्यापूर्वी यादीला मंजुरी लागते. प्रशासनात मंजुरी मागा.</translation>
+    </message>
+    <message>
+        <source>The list has no subscribers.</source>
+        <translation>यादीत कोणतेही सदस्य नाहीत.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>इनबॉक्स</translation>
     </message>

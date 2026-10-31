@@ -1044,6 +1044,214 @@
         <translation>Formlar</translation>
     </message>
     <message>
+        <source>There is no such newsletter list.</source>
+        <translation>Böyle bir bülten listesi yok.</translation>
+    </message>
+    <message>
+        <source>The edition was made, but a workflow holds its publishing. Find it in the administration.</source>
+        <translation>Sayı oluşturuldu, ancak bir iş akışı yayımlanmasını bekletiyor. Onu yönetimde bulabilirsiniz.</translation>
+    </message>
+    <message>
+        <source>The edition was made, but the page could not be taken into it.</source>
+        <translation>Sayı oluşturuldu, ancak sayfa ona eklenemedi.</translation>
+    </message>
+    <message>
+        <source>There is no such edition, or you may not read it.</source>
+        <translation>Böyle bir sayı yok veya okuma izniniz yok.</translation>
+    </message>
+    <message>
+        <source>This edition has no newsletter data.</source>
+        <translation>Bu sayının bülten verisi yok.</translation>
+    </message>
+    <message>
+        <source>Some of the addresses are not valid.</source>
+        <translation>Adreslerin bazıları geçerli değil.</translation>
+    </message>
+    <message>
+        <source>Give at least one address.</source>
+        <translation>En az bir adres girin.</translation>
+    </message>
+    <message>
+        <source>Too many addresses at once.</source>
+        <translation>Aynı anda çok fazla adres.</translation>
+    </message>
+    <message>
+        <source>The edition was changed in the meantime. Look at it again before you send it.</source>
+        <translation>Sayı bu arada değiştirildi. Göndermeden önce ona tekrar bakın.</translation>
+    </message>
+    <message>
+        <source>The send could not be made.</source>
+        <translation>Gönderim yapılamadı.</translation>
+    </message>
+    <message>
+        <source>Sending to the subscribers needs "Verify it's you", which is switched off here. Send it in the administration.</source>
+        <translation>Abonelere göndermek için "Siz olduğunuzu doğrulayın" gerekir; bu burada kapalı. Yönetimde gönderin.</translation>
+    </message>
+    <message>
+        <source>Please confirm it is you first.</source>
+        <translation>Lütfen önce siz olduğunuzu doğrulayın.</translation>
+    </message>
+    <message>
+        <source>Editions with this page</source>
+        <translation>Bu sayfanın yer aldığı sayılar</translation>
+    </message>
+    <message>
+        <source>This page is in no edition yet.</source>
+        <translation>Bu sayfa henüz hiçbir sayıda yok.</translation>
+    </message>
+    <message>
+        <source>Being sent</source>
+        <translation>Gönderiliyor</translation>
+    </message>
+    <message>
+        <source>Sent, in the archive</source>
+        <translation>Gönderildi, arşivde</translation>
+    </message>
+    <message>
+        <source>Stopped</source>
+        <translation>Durduruldu</translation>
+    </message>
+    <message>
+        <source>%n subscribers</source>
+        <translation>%n abone</translation>
+    </message>
+    <message>
+        <source>Make an edition from this page</source>
+        <translation>Bu sayfadan bir sayı oluştur</translation>
+    </message>
+    <message>
+        <source>There is no newsletter list where you may make an edition.</source>
+        <translation>Sayı oluşturabileceğiniz bir bülten listesi yok.</translation>
+    </message>
+    <message>
+        <source>Make the edition</source>
+        <translation>Sayıyı oluştur</translation>
+    </message>
+    <message>
+        <source>Newsletter list</source>
+        <translation>Bülten listesi</translation>
+    </message>
+    <message>
+        <source>Introduction (optional)</source>
+        <translation>Giriş (isteğe bağlı)</translation>
+    </message>
+    <message>
+        <source>This page becomes the edition's article: its title, its intro and a link to it.</source>
+        <translation>Bu sayfa sayının makalesi olur: başlığı, girişi ve ona bir bağlantı.</translation>
+    </message>
+    <message>
+        <source>The edition was made, with this page as its article.</source>
+        <translation>Sayı, bu sayfa makalesi olarak oluşturuldu.</translation>
+    </message>
+    <message>
+        <source>not asked for yet</source>
+        <translation>henüz istenmedi</translation>
+    </message>
+    <message>
+        <source>waiting</source>
+        <translation>bekliyor</translation>
+    </message>
+    <message>
+        <source>approved</source>
+        <translation>onaylandı</translation>
+    </message>
+    <message>
+        <source>rejected</source>
+        <translation>reddedildi</translation>
+    </message>
+    <message>
+        <source>Approval: %state</source>
+        <translation>Onay: %state</translation>
+    </message>
+    <message>
+        <source>waiting for the cronjob</source>
+        <translation>cronjob bekleniyor</translation>
+    </message>
+    <message>
+        <source>queued</source>
+        <translation>sırada</translation>
+    </message>
+    <message>
+        <source>being sent</source>
+        <translation>gönderiliyor</translation>
+    </message>
+    <message>
+        <source>sent</source>
+        <translation>gönderildi</translation>
+    </message>
+    <message>
+        <source>stopped</source>
+        <translation>durduruldu</translation>
+    </message>
+    <message>
+        <source>Last send: %state, %time</source>
+        <translation>Son gönderim: %state, %time</translation>
+    </message>
+    <message>
+        <source>Send a test</source>
+        <translation>Test gönder</translation>
+    </message>
+    <message>
+        <source>The test could not be sent.</source>
+        <translation>Test gönderilemedi.</translation>
+    </message>
+    <message>
+        <source>The test was sent to %list.</source>
+        <translation>Test şu adreslere gönderildi: %list.</translation>
+    </message>
+    <message>
+        <source>Test addresses</source>
+        <translation>Test adresleri</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers</source>
+        <translation>Abonelere gönder</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers ...</source>
+        <translation>Abonelere gönder ...</translation>
+    </message>
+    <message>
+        <source>Send now</source>
+        <translation>Şimdi gönder</translation>
+    </message>
+    <message>
+        <source>The edition is queued: the newsletter's cronjob sends it to the subscribers.</source>
+        <translation>Sayı sırada: bültenin cronjob'u onu abonelere gönderir.</translation>
+    </message>
+    <message>
+        <source>Send "%name" to the %n subscribers of "%list" now? This cannot be taken back here.</source>
+        <translation>"%name" şimdi "%list" listesinin %n abonesine gönderilsin mi? Bu işlem burada geri alınamaz.</translation>
+    </message>
+    <message>
+        <source>Newsletter</source>
+        <translation>Bülten</translation>
+    </message>
+    <message>
+        <source>This edition is being sent.</source>
+        <translation>Bu sayı gönderiliyor.</translation>
+    </message>
+    <message>
+        <source>This edition was sent and is in the archive.</source>
+        <translation>Bu sayı gönderildi ve arşivde.</translation>
+    </message>
+    <message>
+        <source>This edition waits for its approval. It can be sent when it is approved.</source>
+        <translation>Bu sayı onayını bekliyor. Onaylandığında gönderilebilir.</translation>
+    </message>
+    <message>
+        <source>This edition was rejected. Change it and ask for the approval again.</source>
+        <translation>Bu sayı reddedildi. Değiştirin ve onayı yeniden isteyin.</translation>
+    </message>
+    <message>
+        <source>The list needs an approval before an edition is sent. Ask for the approval in the administration.</source>
+        <translation>Bir sayı gönderilmeden önce listenin onayı gerekir. Onayı yönetimde isteyin.</translation>
+    </message>
+    <message>
+        <source>The list has no subscribers.</source>
+        <translation>Listenin abonesi yok.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Gelen kutusu</translation>
     </message>

@@ -1044,6 +1044,214 @@
         <translation>ቅጥዕታት</translation>
     </message>
     <message>
+        <source>There is no such newsletter list.</source>
+        <translation>ከምዚ ዝበለ ዝርዝር ጋዜጣ የለን።</translation>
+    </message>
+    <message>
+        <source>The edition was made, but a workflow holds its publishing. Find it in the administration.</source>
+        <translation>እቲ ሕታም ተሰሪሑ፡ ግን መስርሕ ስራሕ ሕትመቱ ኣቋሪጹዎ ኣሎ። ኣብ ምምሕዳር ርኸቦ።</translation>
+    </message>
+    <message>
+        <source>The edition was made, but the page could not be taken into it.</source>
+        <translation>እቲ ሕታም ተሰሪሑ፡ ግን እቲ ገጽ ናብኡ ክኣቱ ኣይከኣለን።</translation>
+    </message>
+    <message>
+        <source>There is no such edition, or you may not read it.</source>
+        <translation>ከምዚ ዝበለ ሕታም የለን፡ ወይ ከተንብቦ ኣይፍቀደልካን።</translation>
+    </message>
+    <message>
+        <source>This edition has no newsletter data.</source>
+        <translation>እዚ ሕታም ሓበሬታ ጋዜጣ የብሉን።</translation>
+    </message>
+    <message>
+        <source>Some of the addresses are not valid.</source>
+        <translation>ገለ ካብቶም ኣድራሻታት ቅኑዓት ኣይኮኑን።</translation>
+    </message>
+    <message>
+        <source>Give at least one address.</source>
+        <translation>እንተወሓደ ሓደ ኣድራሻ ሃብ።</translation>
+    </message>
+    <message>
+        <source>Too many addresses at once.</source>
+        <translation>ብሓንሳብ ብዙሓት ኣድራሻታት።</translation>
+    </message>
+    <message>
+        <source>The edition was changed in the meantime. Look at it again before you send it.</source>
+        <translation>እቲ ሕታም ኣብዚ እዋን ተቐይሩ። ቅድሚ ምልኣኽካ እንደገና ርኣዮ።</translation>
+    </message>
+    <message>
+        <source>The send could not be made.</source>
+        <translation>እቲ ምልኣኽ ክግበር ኣይከኣለን።</translation>
+    </message>
+    <message>
+        <source>Sending to the subscribers needs "Verify it's you", which is switched off here. Send it in the administration.</source>
+        <translation>ናብ ተመዝገብቲ ምልኣኽ «ንስኻ ምዃንካ ኣረጋግጽ» የድልዮ፡ ኣብዚ ግን ጠፊኡ ኣሎ። ኣብ ምምሕዳር ስደዶ።</translation>
+    </message>
+    <message>
+        <source>Please confirm it is you first.</source>
+        <translation>በጃኻ ቅድም ንስኻ ምዃንካ ኣረጋግጽ።</translation>
+    </message>
+    <message>
+        <source>Editions with this page</source>
+        <translation>እዚ ገጽ ዘለዎም ሕታማት</translation>
+    </message>
+    <message>
+        <source>This page is in no edition yet.</source>
+        <translation>እዚ ገጽ ገና ኣብ ዝኾነ ሕታም የለን።</translation>
+    </message>
+    <message>
+        <source>Being sent</source>
+        <translation>ይለኣኽ ኣሎ</translation>
+    </message>
+    <message>
+        <source>Sent, in the archive</source>
+        <translation>ተላኢኹ፡ ኣብ መዝገብ</translation>
+    </message>
+    <message>
+        <source>Stopped</source>
+        <translation>ደው ኢሉ</translation>
+    </message>
+    <message>
+        <source>%n subscribers</source>
+        <translation>%n ተመዝገብቲ</translation>
+    </message>
+    <message>
+        <source>Make an edition from this page</source>
+        <translation>ካብዚ ገጽ ሕታም ስራሕ</translation>
+    </message>
+    <message>
+        <source>There is no newsletter list where you may make an edition.</source>
+        <translation>ሕታም ክትሰርሓሉ እትኽእል ዝርዝር ጋዜጣ የለን።</translation>
+    </message>
+    <message>
+        <source>Make the edition</source>
+        <translation>እቲ ሕታም ስራሕ</translation>
+    </message>
+    <message>
+        <source>Newsletter list</source>
+        <translation>ዝርዝር ጋዜጣ</translation>
+    </message>
+    <message>
+        <source>Introduction (optional)</source>
+        <translation>መእተዊ (ኣማራጺ)</translation>
+    </message>
+    <message>
+        <source>This page becomes the edition's article: its title, its intro and a link to it.</source>
+        <translation>እዚ ገጽ ዓንቀጽ ናይቲ ሕታም ይኸውን፡ ኣርእስቱ፡ መእተዊኡን ናብኡ ዝወስድ መላግቦን።</translation>
+    </message>
+    <message>
+        <source>The edition was made, with this page as its article.</source>
+        <translation>እቲ ሕታም ተሰሪሑ፡ እዚ ገጽ ከም ዓንቀጹ።</translation>
+    </message>
+    <message>
+        <source>not asked for yet</source>
+        <translation>ገና ኣይተሓተን</translation>
+    </message>
+    <message>
+        <source>waiting</source>
+        <translation>ይጽበ ኣሎ</translation>
+    </message>
+    <message>
+        <source>approved</source>
+        <translation>ጸዲቑ</translation>
+    </message>
+    <message>
+        <source>rejected</source>
+        <translation>ተነጺጉ</translation>
+    </message>
+    <message>
+        <source>Approval: %state</source>
+        <translation>ምጽዳቕ፦ %state</translation>
+    </message>
+    <message>
+        <source>waiting for the cronjob</source>
+        <translation>ንcronjob ይጽበ ኣሎ</translation>
+    </message>
+    <message>
+        <source>queued</source>
+        <translation>ኣብ መስርዕ</translation>
+    </message>
+    <message>
+        <source>being sent</source>
+        <translation>ይለኣኽ ኣሎ</translation>
+    </message>
+    <message>
+        <source>sent</source>
+        <translation>ተላኢኹ</translation>
+    </message>
+    <message>
+        <source>stopped</source>
+        <translation>ደው ኢሉ</translation>
+    </message>
+    <message>
+        <source>Last send: %state, %time</source>
+        <translation>ናይ መወዳእታ ምልኣኽ፦ %state፡ %time</translation>
+    </message>
+    <message>
+        <source>Send a test</source>
+        <translation>ፈተነ ስደድ</translation>
+    </message>
+    <message>
+        <source>The test could not be sent.</source>
+        <translation>እቲ ፈተነ ክለኣኽ ኣይከኣለን።</translation>
+    </message>
+    <message>
+        <source>The test was sent to %list.</source>
+        <translation>እቲ ፈተነ ናብ %list ተላኢኹ።</translation>
+    </message>
+    <message>
+        <source>Test addresses</source>
+        <translation>ኣድራሻታት ፈተነ</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers</source>
+        <translation>ናብ ተመዝገብቲ ስደድ</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers ...</source>
+        <translation>ናብ ተመዝገብቲ ስደድ ...</translation>
+    </message>
+    <message>
+        <source>Send now</source>
+        <translation>ሕጂ ስደድ</translation>
+    </message>
+    <message>
+        <source>The edition is queued: the newsletter's cronjob sends it to the subscribers.</source>
+        <translation>እቲ ሕታም ኣብ መስርዕ ኣሎ፦ cronjob ናይቲ ጋዜጣ ናብ ተመዝገብቲ ክሰዶ እዩ።</translation>
+    </message>
+    <message>
+        <source>Send "%name" to the %n subscribers of "%list" now? This cannot be taken back here.</source>
+        <translation>«%name» ሕጂ ናብ %n ተመዝገብቲ ናይ «%list» ይለኣኽ? እዚ ኣብዚ ክምለስ ኣይክእልን።</translation>
+    </message>
+    <message>
+        <source>Newsletter</source>
+        <translation>ጋዜጣ</translation>
+    </message>
+    <message>
+        <source>This edition is being sent.</source>
+        <translation>እዚ ሕታም ይለኣኽ ኣሎ።</translation>
+    </message>
+    <message>
+        <source>This edition was sent and is in the archive.</source>
+        <translation>እዚ ሕታም ተላኢኹ ኣብ መዝገብ ኣሎ።</translation>
+    </message>
+    <message>
+        <source>This edition waits for its approval. It can be sent when it is approved.</source>
+        <translation>እዚ ሕታም ምጽዳቑ ይጽበ ኣሎ። ምስ ጸደቐ ክለኣኽ ይኽእል።</translation>
+    </message>
+    <message>
+        <source>This edition was rejected. Change it and ask for the approval again.</source>
+        <translation>እዚ ሕታም ተነጺጉ። ቀይሮ እሞ እንደገና ምጽዳቕ ሕተት።</translation>
+    </message>
+    <message>
+        <source>The list needs an approval before an edition is sent. Ask for the approval in the administration.</source>
+        <translation>እቲ ዝርዝር ቅድሚ ሕታም ምልኣኹ ምጽዳቕ የድልዮ። ኣብ ምምሕዳር ምጽዳቕ ሕተት።</translation>
+    </message>
+    <message>
+        <source>The list has no subscribers.</source>
+        <translation>እቲ ዝርዝር ተመዝገብቲ የብሉን።</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>ዝኣተዉ</translation>
     </message>

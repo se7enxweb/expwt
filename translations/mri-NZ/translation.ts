@@ -1044,6 +1044,214 @@
         <translation>Ngā puka</translation>
     </message>
     <message>
+        <source>There is no such newsletter list.</source>
+        <translation>Kāore he rārangi pānui pitopito pērā.</translation>
+    </message>
+    <message>
+        <source>The edition was made, but a workflow holds its publishing. Find it in the administration.</source>
+        <translation>Kua hangaia te putanga, engari kei te pupuri tētahi rerenga mahi i tōna whakaputanga. Kimihia i te whakahaere.</translation>
+    </message>
+    <message>
+        <source>The edition was made, but the page could not be taken into it.</source>
+        <translation>Kua hangaia te putanga, engari kāore i taea te tango i te whārangi ki roto.</translation>
+    </message>
+    <message>
+        <source>There is no such edition, or you may not read it.</source>
+        <translation>Kāore he putanga pērā, kāore rānei koe e whakaaetia ki te pānui.</translation>
+    </message>
+    <message>
+        <source>This edition has no newsletter data.</source>
+        <translation>Kāore he raraunga pānui pitopito i tēnei putanga.</translation>
+    </message>
+    <message>
+        <source>Some of the addresses are not valid.</source>
+        <translation>Kāore ētahi o ngā wāhitau i te tika.</translation>
+    </message>
+    <message>
+        <source>Give at least one address.</source>
+        <translation>Hoatu kia kotahi te wāhitau.</translation>
+    </message>
+    <message>
+        <source>Too many addresses at once.</source>
+        <translation>He nui rawa ngā wāhitau i te wā kotahi.</translation>
+    </message>
+    <message>
+        <source>The edition was changed in the meantime. Look at it again before you send it.</source>
+        <translation>I huria te putanga i tēnei wā. Tirohia anō i mua i tō tukunga.</translation>
+    </message>
+    <message>
+        <source>The send could not be made.</source>
+        <translation>Kāore i taea te tuku.</translation>
+    </message>
+    <message>
+        <source>Sending to the subscribers needs "Verify it's you", which is switched off here. Send it in the administration.</source>
+        <translation>Ko te tuku ki ngā kaiohauru me "Whakaūngia ko koe tēnei", kua whakawetongia i konei. Tukuna i te whakahaere.</translation>
+    </message>
+    <message>
+        <source>Please confirm it is you first.</source>
+        <translation>Whakaūngia tuatahi ko koe tēnei.</translation>
+    </message>
+    <message>
+        <source>Editions with this page</source>
+        <translation>Ngā putanga me tēnei whārangi</translation>
+    </message>
+    <message>
+        <source>This page is in no edition yet.</source>
+        <translation>Kāore anō tēnei whārangi i tētahi putanga.</translation>
+    </message>
+    <message>
+        <source>Being sent</source>
+        <translation>E tukuna ana</translation>
+    </message>
+    <message>
+        <source>Sent, in the archive</source>
+        <translation>Kua tukuna, kei te pūranga</translation>
+    </message>
+    <message>
+        <source>Stopped</source>
+        <translation>Kua aukatia</translation>
+    </message>
+    <message>
+        <source>%n subscribers</source>
+        <translation>%n kaiohauru</translation>
+    </message>
+    <message>
+        <source>Make an edition from this page</source>
+        <translation>Hangaia he putanga i tēnei whārangi</translation>
+    </message>
+    <message>
+        <source>There is no newsletter list where you may make an edition.</source>
+        <translation>Kāore he rārangi pānui pitopito e whakaaetia ai koe ki te hanga putanga.</translation>
+    </message>
+    <message>
+        <source>Make the edition</source>
+        <translation>Hangaia te putanga</translation>
+    </message>
+    <message>
+        <source>Newsletter list</source>
+        <translation>Rārangi pānui pitopito</translation>
+    </message>
+    <message>
+        <source>Introduction (optional)</source>
+        <translation>Kupu whakataki (kōwhiringa)</translation>
+    </message>
+    <message>
+        <source>This page becomes the edition's article: its title, its intro and a link to it.</source>
+        <translation>Ka noho tēnei whārangi hei tuhinga o te putanga: tōna taitara, tōna kupu whakataki me tētahi hono ki a ia.</translation>
+    </message>
+    <message>
+        <source>The edition was made, with this page as its article.</source>
+        <translation>Kua hangaia te putanga, ko tēnei whārangi tōna tuhinga.</translation>
+    </message>
+    <message>
+        <source>not asked for yet</source>
+        <translation>kāore anō kia tonoa</translation>
+    </message>
+    <message>
+        <source>waiting</source>
+        <translation>e tatari ana</translation>
+    </message>
+    <message>
+        <source>approved</source>
+        <translation>kua whakaaetia</translation>
+    </message>
+    <message>
+        <source>rejected</source>
+        <translation>kua whakakāhoretia</translation>
+    </message>
+    <message>
+        <source>Approval: %state</source>
+        <translation>Whakaaetanga: %state</translation>
+    </message>
+    <message>
+        <source>waiting for the cronjob</source>
+        <translation>e tatari ana ki te cronjob</translation>
+    </message>
+    <message>
+        <source>queued</source>
+        <translation>kei te tūtira</translation>
+    </message>
+    <message>
+        <source>being sent</source>
+        <translation>e tukuna ana</translation>
+    </message>
+    <message>
+        <source>sent</source>
+        <translation>kua tukuna</translation>
+    </message>
+    <message>
+        <source>stopped</source>
+        <translation>kua aukatia</translation>
+    </message>
+    <message>
+        <source>Last send: %state, %time</source>
+        <translation>Tukunga whakamutunga: %state, %time</translation>
+    </message>
+    <message>
+        <source>Send a test</source>
+        <translation>Tukuna he whakamātautau</translation>
+    </message>
+    <message>
+        <source>The test could not be sent.</source>
+        <translation>Kāore i taea te tuku i te whakamātautau.</translation>
+    </message>
+    <message>
+        <source>The test was sent to %list.</source>
+        <translation>Kua tukuna te whakamātautau ki %list.</translation>
+    </message>
+    <message>
+        <source>Test addresses</source>
+        <translation>Ngā wāhitau whakamātautau</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers</source>
+        <translation>Tukuna ki ngā kaiohauru</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers ...</source>
+        <translation>Tukuna ki ngā kaiohauru ...</translation>
+    </message>
+    <message>
+        <source>Send now</source>
+        <translation>Tukuna ināianei</translation>
+    </message>
+    <message>
+        <source>The edition is queued: the newsletter's cronjob sends it to the subscribers.</source>
+        <translation>Kei te tūtira te putanga: mā te cronjob o te pānui pitopito e tuku ki ngā kaiohauru.</translation>
+    </message>
+    <message>
+        <source>Send "%name" to the %n subscribers of "%list" now? This cannot be taken back here.</source>
+        <translation>Me tuku ināianei a "%name" ki ngā kaiohauru %n o "%list"? Kāore e taea te whakahoki i konei.</translation>
+    </message>
+    <message>
+        <source>Newsletter</source>
+        <translation>Pānui pitopito</translation>
+    </message>
+    <message>
+        <source>This edition is being sent.</source>
+        <translation>E tukuna ana tēnei putanga.</translation>
+    </message>
+    <message>
+        <source>This edition was sent and is in the archive.</source>
+        <translation>Kua tukuna tēnei putanga, ā, kei te pūranga.</translation>
+    </message>
+    <message>
+        <source>This edition waits for its approval. It can be sent when it is approved.</source>
+        <translation>E tatari ana tēnei putanga ki tōna whakaaetanga. Ka taea te tuku ina whakaaetia.</translation>
+    </message>
+    <message>
+        <source>This edition was rejected. Change it and ask for the approval again.</source>
+        <translation>Kua whakakāhoretia tēnei putanga. Hurihia, ka tono anō i te whakaaetanga.</translation>
+    </message>
+    <message>
+        <source>The list needs an approval before an edition is sent. Ask for the approval in the administration.</source>
+        <translation>Me whakaae te rārangi i mua i te tukunga o tētahi putanga. Tonoa te whakaaetanga i te whakahaere.</translation>
+    </message>
+    <message>
+        <source>The list has no subscribers.</source>
+        <translation>Kāore he kaiohauru o te rārangi.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Pouaka whakauru</translation>
     </message>

@@ -1044,6 +1044,214 @@
         <translation>Formulae</translation>
     </message>
     <message>
+        <source>There is no such newsletter list.</source>
+        <translation>Talis index epistulae periodicae non exstat.</translation>
+    </message>
+    <message>
+        <source>The edition was made, but a workflow holds its publishing. Find it in the administration.</source>
+        <translation>Editio facta est, sed cursus operis publicationem eius retinet. Eam in administratione quaere.</translation>
+    </message>
+    <message>
+        <source>The edition was made, but the page could not be taken into it.</source>
+        <translation>Editio facta est, sed pagina in eam recipi non potuit.</translation>
+    </message>
+    <message>
+        <source>There is no such edition, or you may not read it.</source>
+        <translation>Talis editio non exstat, aut eam legere tibi non licet.</translation>
+    </message>
+    <message>
+        <source>This edition has no newsletter data.</source>
+        <translation>Haec editio nulla data epistulae periodicae habet.</translation>
+    </message>
+    <message>
+        <source>Some of the addresses are not valid.</source>
+        <translation>Quaedam inscriptiones non sunt validae.</translation>
+    </message>
+    <message>
+        <source>Give at least one address.</source>
+        <translation>Saltem unam inscriptionem da.</translation>
+    </message>
+    <message>
+        <source>Too many addresses at once.</source>
+        <translation>Nimis multae inscriptiones simul.</translation>
+    </message>
+    <message>
+        <source>The edition was changed in the meantime. Look at it again before you send it.</source>
+        <translation>Editio interea mutata est. Eam iterum inspice antequam mittis.</translation>
+    </message>
+    <message>
+        <source>The send could not be made.</source>
+        <translation>Missio fieri non potuit.</translation>
+    </message>
+    <message>
+        <source>Sending to the subscribers needs "Verify it's you", which is switched off here. Send it in the administration.</source>
+        <translation>Missio ad subscriptores "Confirma te esse" requirit, quod hic exstinctum est. Eam in administratione mitte.</translation>
+    </message>
+    <message>
+        <source>Please confirm it is you first.</source>
+        <translation>Quaeso primum confirma te esse.</translation>
+    </message>
+    <message>
+        <source>Editions with this page</source>
+        <translation>Editiones cum hac pagina</translation>
+    </message>
+    <message>
+        <source>This page is in no edition yet.</source>
+        <translation>Haec pagina in nulla editione adhuc est.</translation>
+    </message>
+    <message>
+        <source>Being sent</source>
+        <translation>Mittitur</translation>
+    </message>
+    <message>
+        <source>Sent, in the archive</source>
+        <translation>Missa, in archivo</translation>
+    </message>
+    <message>
+        <source>Stopped</source>
+        <translation>Intermissa</translation>
+    </message>
+    <message>
+        <source>%n subscribers</source>
+        <translation>%n subscriptores</translation>
+    </message>
+    <message>
+        <source>Make an edition from this page</source>
+        <translation>Editionem ex hac pagina fac</translation>
+    </message>
+    <message>
+        <source>There is no newsletter list where you may make an edition.</source>
+        <translation>Nullus est index epistulae periodicae ubi editionem facere tibi licet.</translation>
+    </message>
+    <message>
+        <source>Make the edition</source>
+        <translation>Editionem fac</translation>
+    </message>
+    <message>
+        <source>Newsletter list</source>
+        <translation>Index epistulae periodicae</translation>
+    </message>
+    <message>
+        <source>Introduction (optional)</source>
+        <translation>Introductio (ad libitum)</translation>
+    </message>
+    <message>
+        <source>This page becomes the edition's article: its title, its intro and a link to it.</source>
+        <translation>Haec pagina fit articulus editionis: titulus, introductio et nexus ad eam.</translation>
+    </message>
+    <message>
+        <source>The edition was made, with this page as its article.</source>
+        <translation>Editio facta est, hac pagina ut articulo.</translation>
+    </message>
+    <message>
+        <source>not asked for yet</source>
+        <translation>nondum petita</translation>
+    </message>
+    <message>
+        <source>waiting</source>
+        <translation>exspectat</translation>
+    </message>
+    <message>
+        <source>approved</source>
+        <translation>probata</translation>
+    </message>
+    <message>
+        <source>rejected</source>
+        <translation>reiecta</translation>
+    </message>
+    <message>
+        <source>Approval: %state</source>
+        <translation>Approbatio: %state</translation>
+    </message>
+    <message>
+        <source>waiting for the cronjob</source>
+        <translation>cronjob exspectat</translation>
+    </message>
+    <message>
+        <source>queued</source>
+        <translation>in ordine</translation>
+    </message>
+    <message>
+        <source>being sent</source>
+        <translation>mittitur</translation>
+    </message>
+    <message>
+        <source>sent</source>
+        <translation>missa</translation>
+    </message>
+    <message>
+        <source>stopped</source>
+        <translation>intermissa</translation>
+    </message>
+    <message>
+        <source>Last send: %state, %time</source>
+        <translation>Ultima missio: %state, %time</translation>
+    </message>
+    <message>
+        <source>Send a test</source>
+        <translation>Probationem mitte</translation>
+    </message>
+    <message>
+        <source>The test could not be sent.</source>
+        <translation>Probatio mitti non potuit.</translation>
+    </message>
+    <message>
+        <source>The test was sent to %list.</source>
+        <translation>Probatio ad %list missa est.</translation>
+    </message>
+    <message>
+        <source>Test addresses</source>
+        <translation>Inscriptiones probationis</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers</source>
+        <translation>Ad subscriptores mitte</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers ...</source>
+        <translation>Ad subscriptores mitte ...</translation>
+    </message>
+    <message>
+        <source>Send now</source>
+        <translation>Nunc mitte</translation>
+    </message>
+    <message>
+        <source>The edition is queued: the newsletter's cronjob sends it to the subscribers.</source>
+        <translation>Editio in ordine est: cronjob epistulae periodicae eam ad subscriptores mittit.</translation>
+    </message>
+    <message>
+        <source>Send "%name" to the %n subscribers of "%list" now? This cannot be taken back here.</source>
+        <translation>Mittisne nunc "%name" ad %n subscriptores "%list"? Hoc hic revocari non potest.</translation>
+    </message>
+    <message>
+        <source>Newsletter</source>
+        <translation>Epistula periodica</translation>
+    </message>
+    <message>
+        <source>This edition is being sent.</source>
+        <translation>Haec editio mittitur.</translation>
+    </message>
+    <message>
+        <source>This edition was sent and is in the archive.</source>
+        <translation>Haec editio missa est et in archivo est.</translation>
+    </message>
+    <message>
+        <source>This edition waits for its approval. It can be sent when it is approved.</source>
+        <translation>Haec editio approbationem exspectat. Mitti potest cum probata erit.</translation>
+    </message>
+    <message>
+        <source>This edition was rejected. Change it and ask for the approval again.</source>
+        <translation>Haec editio reiecta est. Eam muta et approbationem iterum pete.</translation>
+    </message>
+    <message>
+        <source>The list needs an approval before an edition is sent. Ask for the approval in the administration.</source>
+        <translation>Index approbationem requirit antequam editio mittitur. Approbationem in administratione pete.</translation>
+    </message>
+    <message>
+        <source>The list has no subscribers.</source>
+        <translation>Index nullos subscriptores habet.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Arca accepta</translation>
     </message>

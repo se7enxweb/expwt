@@ -1044,6 +1044,214 @@
         <translation>Φόρμες</translation>
     </message>
     <message>
+        <source>There is no such newsletter list.</source>
+        <translation>Αυτή η λίστα ενημερωτικού δελτίου δεν υπάρχει.</translation>
+    </message>
+    <message>
+        <source>The edition was made, but a workflow holds its publishing. Find it in the administration.</source>
+        <translation>Το τεύχος δημιουργήθηκε, αλλά μια ροή εργασιών καθυστερεί τη δημοσίευσή του. Βρείτε το στη διαχείριση.</translation>
+    </message>
+    <message>
+        <source>The edition was made, but the page could not be taken into it.</source>
+        <translation>Το τεύχος δημιουργήθηκε, αλλά η σελίδα δεν μπόρεσε να συμπεριληφθεί σε αυτό.</translation>
+    </message>
+    <message>
+        <source>There is no such edition, or you may not read it.</source>
+        <translation>Αυτό το τεύχος δεν υπάρχει ή δεν έχετε δικαίωμα να το διαβάσετε.</translation>
+    </message>
+    <message>
+        <source>This edition has no newsletter data.</source>
+        <translation>Αυτό το τεύχος δεν έχει δεδομένα ενημερωτικού δελτίου.</translation>
+    </message>
+    <message>
+        <source>Some of the addresses are not valid.</source>
+        <translation>Ορισμένες διευθύνσεις δεν είναι έγκυρες.</translation>
+    </message>
+    <message>
+        <source>Give at least one address.</source>
+        <translation>Δώστε τουλάχιστον μία διεύθυνση.</translation>
+    </message>
+    <message>
+        <source>Too many addresses at once.</source>
+        <translation>Πάρα πολλές διευθύνσεις ταυτόχρονα.</translation>
+    </message>
+    <message>
+        <source>The edition was changed in the meantime. Look at it again before you send it.</source>
+        <translation>Το τεύχος άλλαξε στο μεταξύ. Δείτε το ξανά πριν το στείλετε.</translation>
+    </message>
+    <message>
+        <source>The send could not be made.</source>
+        <translation>Η αποστολή δεν ήταν δυνατή.</translation>
+    </message>
+    <message>
+        <source>Sending to the subscribers needs "Verify it's you", which is switched off here. Send it in the administration.</source>
+        <translation>Η αποστολή στους συνδρομητές απαιτεί «Επιβεβαιώστε ότι είστε εσείς», που είναι απενεργοποιημένο εδώ. Στείλτε το από τη διαχείριση.</translation>
+    </message>
+    <message>
+        <source>Please confirm it is you first.</source>
+        <translation>Επιβεβαιώστε πρώτα ότι είστε εσείς.</translation>
+    </message>
+    <message>
+        <source>Editions with this page</source>
+        <translation>Τεύχη με αυτή τη σελίδα</translation>
+    </message>
+    <message>
+        <source>This page is in no edition yet.</source>
+        <translation>Αυτή η σελίδα δεν είναι ακόμη σε κανένα τεύχος.</translation>
+    </message>
+    <message>
+        <source>Being sent</source>
+        <translation>Αποστέλλεται</translation>
+    </message>
+    <message>
+        <source>Sent, in the archive</source>
+        <translation>Στάλθηκε, στο αρχείο</translation>
+    </message>
+    <message>
+        <source>Stopped</source>
+        <translation>Διακόπηκε</translation>
+    </message>
+    <message>
+        <source>%n subscribers</source>
+        <translation>%n συνδρομητές</translation>
+    </message>
+    <message>
+        <source>Make an edition from this page</source>
+        <translation>Δημιουργία τεύχους από αυτή τη σελίδα</translation>
+    </message>
+    <message>
+        <source>There is no newsletter list where you may make an edition.</source>
+        <translation>Δεν υπάρχει λίστα ενημερωτικού δελτίου όπου μπορείτε να δημιουργήσετε τεύχος.</translation>
+    </message>
+    <message>
+        <source>Make the edition</source>
+        <translation>Δημιουργία τεύχους</translation>
+    </message>
+    <message>
+        <source>Newsletter list</source>
+        <translation>Λίστα ενημερωτικού δελτίου</translation>
+    </message>
+    <message>
+        <source>Introduction (optional)</source>
+        <translation>Εισαγωγή (προαιρετικά)</translation>
+    </message>
+    <message>
+        <source>This page becomes the edition's article: its title, its intro and a link to it.</source>
+        <translation>Αυτή η σελίδα γίνεται το άρθρο του τεύχους: ο τίτλος της, η εισαγωγή της και ένας σύνδεσμος προς αυτήν.</translation>
+    </message>
+    <message>
+        <source>The edition was made, with this page as its article.</source>
+        <translation>Το τεύχος δημιουργήθηκε, με αυτή τη σελίδα ως άρθρο.</translation>
+    </message>
+    <message>
+        <source>not asked for yet</source>
+        <translation>δεν έχει ζητηθεί ακόμη</translation>
+    </message>
+    <message>
+        <source>waiting</source>
+        <translation>σε αναμονή</translation>
+    </message>
+    <message>
+        <source>approved</source>
+        <translation>εγκρίθηκε</translation>
+    </message>
+    <message>
+        <source>rejected</source>
+        <translation>απορρίφθηκε</translation>
+    </message>
+    <message>
+        <source>Approval: %state</source>
+        <translation>Έγκριση: %state</translation>
+    </message>
+    <message>
+        <source>waiting for the cronjob</source>
+        <translation>αναμένει το cronjob</translation>
+    </message>
+    <message>
+        <source>queued</source>
+        <translation>στην ουρά</translation>
+    </message>
+    <message>
+        <source>being sent</source>
+        <translation>αποστέλλεται</translation>
+    </message>
+    <message>
+        <source>sent</source>
+        <translation>στάλθηκε</translation>
+    </message>
+    <message>
+        <source>stopped</source>
+        <translation>διακόπηκε</translation>
+    </message>
+    <message>
+        <source>Last send: %state, %time</source>
+        <translation>Τελευταία αποστολή: %state, %time</translation>
+    </message>
+    <message>
+        <source>Send a test</source>
+        <translation>Δοκιμαστική αποστολή</translation>
+    </message>
+    <message>
+        <source>The test could not be sent.</source>
+        <translation>Η δοκιμή δεν μπόρεσε να σταλεί.</translation>
+    </message>
+    <message>
+        <source>The test was sent to %list.</source>
+        <translation>Η δοκιμή στάλθηκε στις %list.</translation>
+    </message>
+    <message>
+        <source>Test addresses</source>
+        <translation>Διευθύνσεις δοκιμής</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers</source>
+        <translation>Αποστολή στους συνδρομητές</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers ...</source>
+        <translation>Αποστολή στους συνδρομητές ...</translation>
+    </message>
+    <message>
+        <source>Send now</source>
+        <translation>Αποστολή τώρα</translation>
+    </message>
+    <message>
+        <source>The edition is queued: the newsletter's cronjob sends it to the subscribers.</source>
+        <translation>Το τεύχος είναι στην ουρά: το cronjob του ενημερωτικού δελτίου το στέλνει στους συνδρομητές.</translation>
+    </message>
+    <message>
+        <source>Send "%name" to the %n subscribers of "%list" now? This cannot be taken back here.</source>
+        <translation>Αποστολή του «%name» στους %n συνδρομητές της λίστας «%list» τώρα; Αυτό δεν μπορεί να αναιρεθεί εδώ.</translation>
+    </message>
+    <message>
+        <source>Newsletter</source>
+        <translation>Ενημερωτικό δελτίο</translation>
+    </message>
+    <message>
+        <source>This edition is being sent.</source>
+        <translation>Αυτό το τεύχος αποστέλλεται.</translation>
+    </message>
+    <message>
+        <source>This edition was sent and is in the archive.</source>
+        <translation>Αυτό το τεύχος στάλθηκε και βρίσκεται στο αρχείο.</translation>
+    </message>
+    <message>
+        <source>This edition waits for its approval. It can be sent when it is approved.</source>
+        <translation>Αυτό το τεύχος αναμένει έγκριση. Μπορεί να σταλεί όταν εγκριθεί.</translation>
+    </message>
+    <message>
+        <source>This edition was rejected. Change it and ask for the approval again.</source>
+        <translation>Αυτό το τεύχος απορρίφθηκε. Αλλάξτε το και ζητήστε ξανά έγκριση.</translation>
+    </message>
+    <message>
+        <source>The list needs an approval before an edition is sent. Ask for the approval in the administration.</source>
+        <translation>Η λίστα απαιτεί έγκριση πριν σταλεί ένα τεύχος. Ζητήστε την έγκριση στη διαχείριση.</translation>
+    </message>
+    <message>
+        <source>The list has no subscribers.</source>
+        <translation>Η λίστα δεν έχει συνδρομητές.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Εισερχόμενα</translation>
     </message>

@@ -1044,6 +1044,214 @@
         <translation>Form</translation>
     </message>
     <message>
+        <source>There is no such newsletter list.</source>
+        <translation>Lîsteyeke nûçenameyê ya wiha tune ye.</translation>
+    </message>
+    <message>
+        <source>The edition was made, but a workflow holds its publishing. Find it in the administration.</source>
+        <translation>Hejmar hat çêkirin, lê herikîna kar weşandina wê digire. Wê di rêveberiyê de bibîne.</translation>
+    </message>
+    <message>
+        <source>The edition was made, but the page could not be taken into it.</source>
+        <translation>Hejmar hat çêkirin, lê rûpel nehat xistin nav wê.</translation>
+    </message>
+    <message>
+        <source>There is no such edition, or you may not read it.</source>
+        <translation>Hejmareke wiha tune ye, an jî destûra te ya xwendinê tune ye.</translation>
+    </message>
+    <message>
+        <source>This edition has no newsletter data.</source>
+        <translation>Daneyên nûçenameyê yên vê hejmarê tune ne.</translation>
+    </message>
+    <message>
+        <source>Some of the addresses are not valid.</source>
+        <translation>Hin navnîşan ne derbasdar in.</translation>
+    </message>
+    <message>
+        <source>Give at least one address.</source>
+        <translation>Herî kêm navnîşanek binivîse.</translation>
+    </message>
+    <message>
+        <source>Too many addresses at once.</source>
+        <translation>Bi carekê re pir zêde navnîşan.</translation>
+    </message>
+    <message>
+        <source>The edition was changed in the meantime. Look at it again before you send it.</source>
+        <translation>Di vê navberê de hejmar hat guhertin. Berî ku bişînî, dîsa lê binêre.</translation>
+    </message>
+    <message>
+        <source>The send could not be made.</source>
+        <translation>Şandin nehat kirin.</translation>
+    </message>
+    <message>
+        <source>Sending to the subscribers needs "Verify it's you", which is switched off here. Send it in the administration.</source>
+        <translation>Ji bo şandina ji aboneyan re "Piştrast bike ku tu yî" lazim e, ku li vir girtî ye. Wê di rêveberiyê de bişîne.</translation>
+    </message>
+    <message>
+        <source>Please confirm it is you first.</source>
+        <translation>Ji kerema xwe pêşî piştrast bike ku tu yî.</translation>
+    </message>
+    <message>
+        <source>Editions with this page</source>
+        <translation>Hejmarên bi vê rûpelê</translation>
+    </message>
+    <message>
+        <source>This page is in no edition yet.</source>
+        <translation>Ev rûpel hê di tu hejmarê de nîne.</translation>
+    </message>
+    <message>
+        <source>Being sent</source>
+        <translation>Tê şandin</translation>
+    </message>
+    <message>
+        <source>Sent, in the archive</source>
+        <translation>Hat şandin, di arşîvê de</translation>
+    </message>
+    <message>
+        <source>Stopped</source>
+        <translation>Hat rawestandin</translation>
+    </message>
+    <message>
+        <source>%n subscribers</source>
+        <translation>%n abone</translation>
+    </message>
+    <message>
+        <source>Make an edition from this page</source>
+        <translation>Ji vê rûpelê hejmarekê çêke</translation>
+    </message>
+    <message>
+        <source>There is no newsletter list where you may make an edition.</source>
+        <translation>Lîsteyeke nûçenameyê ku tu tê de hejmarekê çêkî tune ye.</translation>
+    </message>
+    <message>
+        <source>Make the edition</source>
+        <translation>Hejmarê çêke</translation>
+    </message>
+    <message>
+        <source>Newsletter list</source>
+        <translation>Lîsteya nûçenameyê</translation>
+    </message>
+    <message>
+        <source>Introduction (optional)</source>
+        <translation>Destpêk (vebijarkî)</translation>
+    </message>
+    <message>
+        <source>This page becomes the edition's article: its title, its intro and a link to it.</source>
+        <translation>Ev rûpel dibe gotara hejmarê: sernav, destpêk û girêdanek jê re.</translation>
+    </message>
+    <message>
+        <source>The edition was made, with this page as its article.</source>
+        <translation>Hejmar hat çêkirin, bi vê rûpelê wek gotar.</translation>
+    </message>
+    <message>
+        <source>not asked for yet</source>
+        <translation>hê nehatiye xwestin</translation>
+    </message>
+    <message>
+        <source>waiting</source>
+        <translation>li bendê</translation>
+    </message>
+    <message>
+        <source>approved</source>
+        <translation>pejirandî</translation>
+    </message>
+    <message>
+        <source>rejected</source>
+        <translation>redkirî</translation>
+    </message>
+    <message>
+        <source>Approval: %state</source>
+        <translation>Pejirandin: %state</translation>
+    </message>
+    <message>
+        <source>waiting for the cronjob</source>
+        <translation>li benda cronjobê</translation>
+    </message>
+    <message>
+        <source>queued</source>
+        <translation>di rêzê de</translation>
+    </message>
+    <message>
+        <source>being sent</source>
+        <translation>tê şandin</translation>
+    </message>
+    <message>
+        <source>sent</source>
+        <translation>hat şandin</translation>
+    </message>
+    <message>
+        <source>stopped</source>
+        <translation>hat rawestandin</translation>
+    </message>
+    <message>
+        <source>Last send: %state, %time</source>
+        <translation>Şandina dawî: %state, %time</translation>
+    </message>
+    <message>
+        <source>Send a test</source>
+        <translation>Testekê bişîne</translation>
+    </message>
+    <message>
+        <source>The test could not be sent.</source>
+        <translation>Test nehat şandin.</translation>
+    </message>
+    <message>
+        <source>The test was sent to %list.</source>
+        <translation>Test ji %list re hat şandin.</translation>
+    </message>
+    <message>
+        <source>Test addresses</source>
+        <translation>Navnîşanên testê</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers</source>
+        <translation>Ji aboneyan re bişîne</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers ...</source>
+        <translation>Ji aboneyan re bişîne ...</translation>
+    </message>
+    <message>
+        <source>Send now</source>
+        <translation>Niha bişîne</translation>
+    </message>
+    <message>
+        <source>The edition is queued: the newsletter's cronjob sends it to the subscribers.</source>
+        <translation>Hejmar di rêzê de ye: cronjoba nûçenameyê wê ji aboneyan re dişîne.</translation>
+    </message>
+    <message>
+        <source>Send "%name" to the %n subscribers of "%list" now? This cannot be taken back here.</source>
+        <translation>"%name" niha ji %n aboneyên "%list" re bişînî? Ev li vir nayê vegerandin.</translation>
+    </message>
+    <message>
+        <source>Newsletter</source>
+        <translation>Nûçename</translation>
+    </message>
+    <message>
+        <source>This edition is being sent.</source>
+        <translation>Ev hejmar tê şandin.</translation>
+    </message>
+    <message>
+        <source>This edition was sent and is in the archive.</source>
+        <translation>Ev hejmar hat şandin û di arşîvê de ye.</translation>
+    </message>
+    <message>
+        <source>This edition waits for its approval. It can be sent when it is approved.</source>
+        <translation>Ev hejmar li benda pejirandina xwe ye. Dema were pejirandin dikare were şandin.</translation>
+    </message>
+    <message>
+        <source>This edition was rejected. Change it and ask for the approval again.</source>
+        <translation>Ev hejmar hat redkirin. Wê biguherîne û dîsa pejirandinê bixwaze.</translation>
+    </message>
+    <message>
+        <source>The list needs an approval before an edition is sent. Ask for the approval in the administration.</source>
+        <translation>Berî ku hejmarek were şandin, lîste pejirandinê dixwaze. Pejirandinê di rêveberiyê de bixwaze.</translation>
+    </message>
+    <message>
+        <source>The list has no subscribers.</source>
+        <translation>Aboneyên lîsteyê tune ne.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Qutiya hatî</translation>
     </message>

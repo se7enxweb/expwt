@@ -1044,6 +1044,214 @@
         <translation>양식</translation>
     </message>
     <message>
+        <source>There is no such newsletter list.</source>
+        <translation>해당 뉴스레터 목록이 없습니다.</translation>
+    </message>
+    <message>
+        <source>The edition was made, but a workflow holds its publishing. Find it in the administration.</source>
+        <translation>발행호가 만들어졌지만 워크플로가 게시를 보류하고 있습니다. 관리 화면에서 찾으십시오.</translation>
+    </message>
+    <message>
+        <source>The edition was made, but the page could not be taken into it.</source>
+        <translation>발행호가 만들어졌지만 이 페이지를 넣을 수 없었습니다.</translation>
+    </message>
+    <message>
+        <source>There is no such edition, or you may not read it.</source>
+        <translation>해당 발행호가 없거나 읽을 권한이 없습니다.</translation>
+    </message>
+    <message>
+        <source>This edition has no newsletter data.</source>
+        <translation>이 발행호에는 뉴스레터 데이터가 없습니다.</translation>
+    </message>
+    <message>
+        <source>Some of the addresses are not valid.</source>
+        <translation>일부 주소가 올바르지 않습니다.</translation>
+    </message>
+    <message>
+        <source>Give at least one address.</source>
+        <translation>주소를 하나 이상 입력하십시오.</translation>
+    </message>
+    <message>
+        <source>Too many addresses at once.</source>
+        <translation>한 번에 주소가 너무 많습니다.</translation>
+    </message>
+    <message>
+        <source>The edition was changed in the meantime. Look at it again before you send it.</source>
+        <translation>그동안 발행호가 변경되었습니다. 보내기 전에 다시 확인하십시오.</translation>
+    </message>
+    <message>
+        <source>The send could not be made.</source>
+        <translation>발송할 수 없었습니다.</translation>
+    </message>
+    <message>
+        <source>Sending to the subscribers needs "Verify it's you", which is switched off here. Send it in the administration.</source>
+        <translation>구독자에게 보내려면 "본인 확인"이 필요한데, 여기서는 꺼져 있습니다. 관리 화면에서 보내십시오.</translation>
+    </message>
+    <message>
+        <source>Please confirm it is you first.</source>
+        <translation>먼저 본인임을 확인하십시오.</translation>
+    </message>
+    <message>
+        <source>Editions with this page</source>
+        <translation>이 페이지가 들어 있는 발행호</translation>
+    </message>
+    <message>
+        <source>This page is in no edition yet.</source>
+        <translation>이 페이지는 아직 어떤 발행호에도 없습니다.</translation>
+    </message>
+    <message>
+        <source>Being sent</source>
+        <translation>발송 중</translation>
+    </message>
+    <message>
+        <source>Sent, in the archive</source>
+        <translation>발송됨, 보관함에 있음</translation>
+    </message>
+    <message>
+        <source>Stopped</source>
+        <translation>중단됨</translation>
+    </message>
+    <message>
+        <source>%n subscribers</source>
+        <translation>구독자 %n명</translation>
+    </message>
+    <message>
+        <source>Make an edition from this page</source>
+        <translation>이 페이지로 발행호 만들기</translation>
+    </message>
+    <message>
+        <source>There is no newsletter list where you may make an edition.</source>
+        <translation>발행호를 만들 수 있는 뉴스레터 목록이 없습니다.</translation>
+    </message>
+    <message>
+        <source>Make the edition</source>
+        <translation>발행호 만들기</translation>
+    </message>
+    <message>
+        <source>Newsletter list</source>
+        <translation>뉴스레터 목록</translation>
+    </message>
+    <message>
+        <source>Introduction (optional)</source>
+        <translation>소개 (선택 사항)</translation>
+    </message>
+    <message>
+        <source>This page becomes the edition's article: its title, its intro and a link to it.</source>
+        <translation>이 페이지가 발행호의 기사가 됩니다: 제목, 소개 및 페이지 링크.</translation>
+    </message>
+    <message>
+        <source>The edition was made, with this page as its article.</source>
+        <translation>이 페이지를 기사로 하여 발행호가 만들어졌습니다.</translation>
+    </message>
+    <message>
+        <source>not asked for yet</source>
+        <translation>아직 요청 안 함</translation>
+    </message>
+    <message>
+        <source>waiting</source>
+        <translation>대기 중</translation>
+    </message>
+    <message>
+        <source>approved</source>
+        <translation>승인됨</translation>
+    </message>
+    <message>
+        <source>rejected</source>
+        <translation>거부됨</translation>
+    </message>
+    <message>
+        <source>Approval: %state</source>
+        <translation>승인: %state</translation>
+    </message>
+    <message>
+        <source>waiting for the cronjob</source>
+        <translation>cronjob 대기 중</translation>
+    </message>
+    <message>
+        <source>queued</source>
+        <translation>대기열에 있음</translation>
+    </message>
+    <message>
+        <source>being sent</source>
+        <translation>발송 중</translation>
+    </message>
+    <message>
+        <source>sent</source>
+        <translation>발송됨</translation>
+    </message>
+    <message>
+        <source>stopped</source>
+        <translation>중단됨</translation>
+    </message>
+    <message>
+        <source>Last send: %state, %time</source>
+        <translation>마지막 발송: %state, %time</translation>
+    </message>
+    <message>
+        <source>Send a test</source>
+        <translation>테스트 보내기</translation>
+    </message>
+    <message>
+        <source>The test could not be sent.</source>
+        <translation>테스트를 보낼 수 없었습니다.</translation>
+    </message>
+    <message>
+        <source>The test was sent to %list.</source>
+        <translation>테스트를 %list(으)로 보냈습니다.</translation>
+    </message>
+    <message>
+        <source>Test addresses</source>
+        <translation>테스트 주소</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers</source>
+        <translation>구독자에게 보내기</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers ...</source>
+        <translation>구독자에게 보내기 ...</translation>
+    </message>
+    <message>
+        <source>Send now</source>
+        <translation>지금 보내기</translation>
+    </message>
+    <message>
+        <source>The edition is queued: the newsletter's cronjob sends it to the subscribers.</source>
+        <translation>발행호가 대기열에 있습니다: 뉴스레터의 cronjob이 구독자에게 보냅니다.</translation>
+    </message>
+    <message>
+        <source>Send "%name" to the %n subscribers of "%list" now? This cannot be taken back here.</source>
+        <translation>"%name"을(를) "%list"의 구독자 %n명에게 지금 보내시겠습니까? 여기서는 되돌릴 수 없습니다.</translation>
+    </message>
+    <message>
+        <source>Newsletter</source>
+        <translation>뉴스레터</translation>
+    </message>
+    <message>
+        <source>This edition is being sent.</source>
+        <translation>이 발행호는 발송 중입니다.</translation>
+    </message>
+    <message>
+        <source>This edition was sent and is in the archive.</source>
+        <translation>이 발행호는 발송되어 보관함에 있습니다.</translation>
+    </message>
+    <message>
+        <source>This edition waits for its approval. It can be sent when it is approved.</source>
+        <translation>이 발행호는 승인을 기다리고 있습니다. 승인되면 보낼 수 있습니다.</translation>
+    </message>
+    <message>
+        <source>This edition was rejected. Change it and ask for the approval again.</source>
+        <translation>이 발행호는 거부되었습니다. 수정한 후 다시 승인을 요청하십시오.</translation>
+    </message>
+    <message>
+        <source>The list needs an approval before an edition is sent. Ask for the approval in the administration.</source>
+        <translation>이 목록은 발행호를 보내기 전에 승인이 필요합니다. 관리 화면에서 승인을 요청하십시오.</translation>
+    </message>
+    <message>
+        <source>The list has no subscribers.</source>
+        <translation>이 목록에는 구독자가 없습니다.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>받은 편지함</translation>
     </message>

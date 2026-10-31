@@ -1884,6 +1884,151 @@
     }
   }
 
+  /* ---------------------------------------------------------------------------------------------- newsletter */
+
+  /* The page's newsletter (E3, cjw_newsletter). On an edition: the edition. On any other page: the editions that carry
+     the page as an article, and (with newsletter/editorial) a form that makes a new edition below a list with this page
+     as its article. Each edition: its list, state and subscribers; with newsletter/send a test send (the list's test
+     addresses by default) and the real send to the subscribers, confirmed in the panel and then with "Verify it's you".
+     The newsletter's cronjob mails a send. */
+  function newsletter(ctx, root) {
+    var h = ctx.h;
+    var t = ctx.t;
+    if (!ctx.node) {
+      root.appendChild(h('p', { text: t('This page is not content of the site. Open a page of the site to edit it.') }));
+      return;
+    }
+    root.appendChild(h('p', { class: 'wt-muted', text: t('Loading ...') }));
+    ctx.call('newsletter.load', { nodeId: ctx.node }).then(function (r) {
+      root.textContent = '';
+      if (r.edition) {
+        root.appendChild(edition(r.edition, r.canSend));
+        return;
+      }
+      var box = h('div', { class: 'wt-section' }, [h('h3', { text: t('Editions with this page') })]);
+      if (!r.editions.length) {
+        box.appendChild(h('p', { class: 'wt-muted', text: t('This page is in no edition yet.') }));
+      }
+      r.editions.forEach(function (e) { box.appendChild(edition(e, r.canSend)); });
+      root.appendChild(box);
+      if (r.canCreate) { root.appendChild(createForm(r)); }
+    }, function (err) { root.textContent = ''; failure(ctx, err); });
+
+    function message(err) {
+      var d = err && err.body && err.body.details;
+      var text = err && err.message ? err.message : t('Something went wrong on the server.');
+      return d && d.invalid && d.invalid.length ? text + ' ' + d.invalid.join(', ') : text;
+    }
+
+    function stateText(e) {
+      var s = { draft: t('Draft'), process: t('Being sent'), archive: t('Sent, in the archive'), abort: t('Stopped') }[e.status] || e.status;
+      return [e.list.name, s, t('%n subscribers').replace('%n', e.subscribers)].filter(Boolean).join(' · ');
+    }
+
+    function createForm(r) {
+      var form = h('form', { class: 'wt-section wt-nl-create' }, [h('h3', { text: t('Make an edition from this page') })]);
+      if (!r.lists.length) {
+        form.appendChild(h('p', { class: 'wt-muted', text: t('There is no newsletter list where you may make an edition.') }));
+        return form;
+      }
+      var list = h('select', { id: 'wt-nl-list' }, r.lists.map(function (l) {
+        return h('option', { value: String(l.objectId), text: l.name + ' · ' + t('%n subscribers').replace('%n', l.subscribers) });
+      }));
+      var title = h('input', { type: 'text', id: 'wt-nl-title', value: r.name, maxlength: '255' });
+      var intro = h('textarea', { id: 'wt-nl-intro', rows: '3' });
+      var button = h('button', { type: 'submit', class: 'wt-btn is-primary', text: t('Make the edition') });
+      form.appendChild(h('label', { class: 'wt-field', for: 'wt-nl-list' }, [h('span', { text: t('Newsletter list') }), list]));
+      form.appendChild(h('label', { class: 'wt-field', for: 'wt-nl-title' }, [h('span', { text: t('Title') }), title]));
+      form.appendChild(h('label', { class: 'wt-field', for: 'wt-nl-intro' }, [h('span', { text: t('Introduction (optional)') }), intro]));
+      form.appendChild(h('p', { class: 'wt-muted', text: t('This page becomes the edition\'s article: its title, its intro and a link to it.') }));
+      form.appendChild(h('div', { class: 'wt-row' }, [button]));
+      form.addEventListener('submit', function (ev) {
+        ev.preventDefault();
+        if (!title.value.trim()) { title.focus(); ctx.say(t('Give a title.'), 'bad'); return; }
+        button.disabled = true;
+        ctx.call('newsletter.create', { nodeId: ctx.node, listId: list.value, title: title.value.trim(), intro: intro.value })
+          .then(function () {
+            ctx.say(t('The edition was made, with this page as its article.'), 'ok');
+            ctx.show('newsletter');
+          }, function (err) { button.disabled = false; ctx.say(message(err), 'bad'); });
+      });
+      return form;
+    }
+
+    function edition(e, canSend) {
+      var card = h('div', { class: 'wt-nl', 'data-edition': String(e.objectId) });
+      draw();
+      return card;
+
+      function draw() {
+        card.textContent = '';
+        card.appendChild(h('h4', { class: 'wt-nl-name', text: e.name }));
+        card.appendChild(h('p', { class: 'wt-muted', text: stateText(e) }));
+        if (e.approval.required) {
+          var a = { none: t('not asked for yet'), pending: t('waiting'), approved: t('approved'), rejected: t('rejected') }[e.approval.state] || e.approval.state;
+          card.appendChild(h('p', { class: 'wt-muted', text: t('Approval: %state').replace('%state', a) }));
+        }
+        if (e.send) {
+          var s = { waiting: t('waiting for the cronjob'), queued: t('queued'), sending: t('being sent'), sent: t('sent'), aborted: t('stopped') }[e.send.status] || e.send.status;
+          card.appendChild(h('p', { class: 'wt-muted', text: t('Last send: %state, %time').replace('%state', s).replace('%time', when(e.send.created)) }));
+        }
+        if (canSend) { sendParts(); }
+        if (e.adminUrl) {
+          card.appendChild(h('div', { class: 'wt-row' }, [h('a', { class: 'wt-btn', href: e.adminUrl, text: t('In the administration') })]));
+        }
+      }
+
+      function sendParts() {
+        var id = 'wt-nl-test-' + e.objectId;
+        var to = h('input', { type: 'text', id: id, value: e.testRecipients, inputmode: 'email', autocomplete: 'off' });
+        var test = h('button', { type: 'submit', class: 'wt-btn', text: t('Send a test') });
+        card.appendChild(h('form', { class: 'wt-nl-test', onsubmit: function (ev) {
+          ev.preventDefault();
+          test.disabled = true;
+          ctx.call('newsletter.test', { editionId: e.objectId, recipients: to.value }).then(function (r) {
+            test.disabled = false;
+            if (r.failed.length) {
+              ctx.say(t('The test could not be sent.'), 'bad');
+            } else {
+              ctx.say(t('The test was sent to %list.').replace('%list', r.sent.join(', ')), 'ok');
+            }
+          }, function (err) { test.disabled = false; ctx.say(message(err), 'bad'); });
+        } }, [
+          h('label', { class: 'wt-field', for: id }, [h('span', { text: t('Test addresses') }), to]),
+          h('div', { class: 'wt-row' }, [test])
+        ]));
+        if (e.reason) {
+          card.appendChild(h('p', { class: 'wt-muted', text: t(e.reason) }));
+          return;
+        }
+        var confirmBox = h('div', { class: 'wt-nl-confirm', role: 'group', 'aria-label': t('Send to the subscribers'), hidden: true });
+        var open = h('button', { type: 'button', class: 'wt-btn is-primary', 'aria-expanded': 'false', text: t('Send to the subscribers ...'), onclick: function () {
+          confirmBox.hidden = false;
+          open.setAttribute('aria-expanded', 'true');
+          var go = confirmBox.querySelector('.is-danger');
+          if (go) { go.focus(); }
+        } });
+        var sendNow = h('button', { type: 'button', class: 'wt-btn is-danger', text: t('Send now'), onclick: function () {
+          sendNow.disabled = true;
+          ctx.call('newsletter.send', { editionId: e.objectId, version: e.version }).then(function (next) {
+            e = next;
+            ctx.say(t('The edition is queued: the newsletter\'s cronjob sends it to the subscribers.'), 'ok');
+            draw();
+          }, function (err) { sendNow.disabled = false; ctx.say(message(err), 'bad'); });
+        } });
+        confirmBox.appendChild(h('p', { text: t('Send "%name" to the %n subscribers of "%list" now? This cannot be taken back here.')
+          .replace('%name', e.name).replace('%n', e.subscribers).replace('%list', e.list.name) }));
+        confirmBox.appendChild(h('div', { class: 'wt-row' }, [sendNow, h('button', { type: 'button', class: 'wt-btn', text: t('Cancel'), onclick: function () {
+          confirmBox.hidden = true;
+          open.setAttribute('aria-expanded', 'false');
+          open.focus();
+        } })]));
+        card.appendChild(h('div', { class: 'wt-row' }, [open]));
+        card.appendChild(confirmBox);
+      }
+    }
+  }
+
   /* ---------------------------------------------------------------------------------------------- SEO check */
 
   /* The rules of the SEO check (F26), pure: what the rendered page shows (facts) to findings. A finding is
@@ -2151,5 +2296,5 @@
   }
 
   window.ExpwtSeo = SEO;
-  window.ExpwtPanels = { page: page, create: create, structure: structure, seo: seo, sites: sites, forms: forms, insights: insights, inbox: inbox, me: me, shortcuts: shortcuts };
+  window.ExpwtPanels = { page: page, create: create, structure: structure, seo: seo, sites: sites, forms: forms, newsletter: newsletter, insights: insights, inbox: inbox, me: me, shortcuts: shortcuts };
 }());

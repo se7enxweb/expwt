@@ -1044,6 +1044,214 @@
         <translation>فارم</translation>
     </message>
     <message>
+        <source>There is no such newsletter list.</source>
+        <translation>اجیہی کوئی نیوز لیٹر لسٹ نہیں۔</translation>
+    </message>
+    <message>
+        <source>The edition was made, but a workflow holds its publishing. Find it in the administration.</source>
+        <translation>شمارہ بن گیا، پر اک ورک فلو نے ایہدی چھپائی روکی ہوئی اے۔ ایہنوں انتظامیہ وچ لبھو۔</translation>
+    </message>
+    <message>
+        <source>The edition was made, but the page could not be taken into it.</source>
+        <translation>شمارہ بن گیا، پر صفحہ ایہدے وچ شامل نہیں ہو سکیا۔</translation>
+    </message>
+    <message>
+        <source>There is no such edition, or you may not read it.</source>
+        <translation>اجیہا کوئی شمارہ نہیں، یا تہانوں ایہنوں پڑھن دی اجازت نہیں۔</translation>
+    </message>
+    <message>
+        <source>This edition has no newsletter data.</source>
+        <translation>ایس شمارے وچ کوئی نیوز لیٹر ڈیٹا نہیں۔</translation>
+    </message>
+    <message>
+        <source>Some of the addresses are not valid.</source>
+        <translation>کجھ پتے درست نہیں۔</translation>
+    </message>
+    <message>
+        <source>Give at least one address.</source>
+        <translation>گھٹو گھٹ اک پتہ دیو۔</translation>
+    </message>
+    <message>
+        <source>Too many addresses at once.</source>
+        <translation>اکو واری بہت سارے پتے۔</translation>
+    </message>
+    <message>
+        <source>The edition was changed in the meantime. Look at it again before you send it.</source>
+        <translation>ایس دوران شمارہ بدل دتا گیا۔ گھلن توں پہلاں ایہنوں فیر ویکھو۔</translation>
+    </message>
+    <message>
+        <source>The send could not be made.</source>
+        <translation>گھلیا نہیں جا سکیا۔</translation>
+    </message>
+    <message>
+        <source>Sending to the subscribers needs "Verify it's you", which is switched off here. Send it in the administration.</source>
+        <translation>رکناں نوں گھلن لئی "تصدیق کرو کہ ایہہ تسی او" چاہیدا اے، جیہڑا ایتھے بند اے۔ ایہنوں انتظامیہ وچ گھلو۔</translation>
+    </message>
+    <message>
+        <source>Please confirm it is you first.</source>
+        <translation>مہربانی کر کے پہلاں تصدیق کرو کہ ایہہ تسی او۔</translation>
+    </message>
+    <message>
+        <source>Editions with this page</source>
+        <translation>ایس صفحے والے شمارے</translation>
+    </message>
+    <message>
+        <source>This page is in no edition yet.</source>
+        <translation>ایہہ صفحہ اجے کسے شمارے وچ نہیں۔</translation>
+    </message>
+    <message>
+        <source>Being sent</source>
+        <translation>گھلیا جا رہیا اے</translation>
+    </message>
+    <message>
+        <source>Sent, in the archive</source>
+        <translation>گھلیا گیا، آرکائیو وچ</translation>
+    </message>
+    <message>
+        <source>Stopped</source>
+        <translation>روکیا گیا</translation>
+    </message>
+    <message>
+        <source>%n subscribers</source>
+        <translation>%n رکن</translation>
+    </message>
+    <message>
+        <source>Make an edition from this page</source>
+        <translation>ایس صفحے توں شمارہ بناؤ</translation>
+    </message>
+    <message>
+        <source>There is no newsletter list where you may make an edition.</source>
+        <translation>کوئی نیوز لیٹر لسٹ نہیں جتھے تسی شمارہ بنا سکو۔</translation>
+    </message>
+    <message>
+        <source>Make the edition</source>
+        <translation>شمارہ بناؤ</translation>
+    </message>
+    <message>
+        <source>Newsletter list</source>
+        <translation>نیوز لیٹر لسٹ</translation>
+    </message>
+    <message>
+        <source>Introduction (optional)</source>
+        <translation>تعارف (اختیاری)</translation>
+    </message>
+    <message>
+        <source>This page becomes the edition's article: its title, its intro and a link to it.</source>
+        <translation>ایہہ صفحہ شمارے دا مضمون بن جاندا اے: ایہدا سرناواں، ایہدا تعارف تے ایہدا لنک۔</translation>
+    </message>
+    <message>
+        <source>The edition was made, with this page as its article.</source>
+        <translation>شمارہ بن گیا، ایس صفحے نوں مضمون بنا کے۔</translation>
+    </message>
+    <message>
+        <source>not asked for yet</source>
+        <translation>اجے منگی نہیں گئی</translation>
+    </message>
+    <message>
+        <source>waiting</source>
+        <translation>اڈیک وچ</translation>
+    </message>
+    <message>
+        <source>approved</source>
+        <translation>منظور</translation>
+    </message>
+    <message>
+        <source>rejected</source>
+        <translation>رد</translation>
+    </message>
+    <message>
+        <source>Approval: %state</source>
+        <translation>منظوری: %state</translation>
+    </message>
+    <message>
+        <source>waiting for the cronjob</source>
+        <translation>کرون جاب دی اڈیک وچ</translation>
+    </message>
+    <message>
+        <source>queued</source>
+        <translation>قطار وچ</translation>
+    </message>
+    <message>
+        <source>being sent</source>
+        <translation>گھلیا جا رہیا</translation>
+    </message>
+    <message>
+        <source>sent</source>
+        <translation>گھلیا گیا</translation>
+    </message>
+    <message>
+        <source>stopped</source>
+        <translation>روکیا گیا</translation>
+    </message>
+    <message>
+        <source>Last send: %state, %time</source>
+        <translation>پچھلی واری گھلیا: %state، %time</translation>
+    </message>
+    <message>
+        <source>Send a test</source>
+        <translation>ٹیسٹ گھلو</translation>
+    </message>
+    <message>
+        <source>The test could not be sent.</source>
+        <translation>ٹیسٹ نہیں گھلیا جا سکیا۔</translation>
+    </message>
+    <message>
+        <source>The test was sent to %list.</source>
+        <translation>ٹیسٹ %list نوں گھلیا گیا۔</translation>
+    </message>
+    <message>
+        <source>Test addresses</source>
+        <translation>ٹیسٹ پتے</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers</source>
+        <translation>رکناں نوں گھلو</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers ...</source>
+        <translation>رکناں نوں گھلو ...</translation>
+    </message>
+    <message>
+        <source>Send now</source>
+        <translation>ہنے گھلو</translation>
+    </message>
+    <message>
+        <source>The edition is queued: the newsletter's cronjob sends it to the subscribers.</source>
+        <translation>شمارہ قطار وچ اے: نیوز لیٹر دا کرون جاب ایہنوں رکناں نوں گھلدا اے۔</translation>
+    </message>
+    <message>
+        <source>Send "%name" to the %n subscribers of "%list" now? This cannot be taken back here.</source>
+        <translation>کیہ "%name" ہنے "%list" دے %n رکناں نوں گھلنا اے؟ ایتھے ایہہ واپس نہیں لیا جا سکدا۔</translation>
+    </message>
+    <message>
+        <source>Newsletter</source>
+        <translation>نیوز لیٹر</translation>
+    </message>
+    <message>
+        <source>This edition is being sent.</source>
+        <translation>ایہہ شمارہ گھلیا جا رہیا اے۔</translation>
+    </message>
+    <message>
+        <source>This edition was sent and is in the archive.</source>
+        <translation>ایہہ شمارہ گھلیا گیا تے آرکائیو وچ اے۔</translation>
+    </message>
+    <message>
+        <source>This edition waits for its approval. It can be sent when it is approved.</source>
+        <translation>ایہہ شمارہ منظوری دی اڈیک وچ اے۔ منظور ہون تے ایہنوں گھلیا جا سکدا اے۔</translation>
+    </message>
+    <message>
+        <source>This edition was rejected. Change it and ask for the approval again.</source>
+        <translation>ایہہ شمارہ رد ہو گیا۔ ایہنوں بدلو تے فیر منظوری منگو۔</translation>
+    </message>
+    <message>
+        <source>The list needs an approval before an edition is sent. Ask for the approval in the administration.</source>
+        <translation>شمارہ گھلن توں پہلاں لسٹ نوں منظوری چاہیدی اے۔ انتظامیہ وچ منظوری منگو۔</translation>
+    </message>
+    <message>
+        <source>The list has no subscribers.</source>
+        <translation>لسٹ دے کوئی رکن نہیں۔</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>اِن باکس</translation>
     </message>

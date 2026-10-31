@@ -1044,6 +1044,214 @@
         <translation>Formularis</translation>
     </message>
     <message>
+        <source>There is no such newsletter list.</source>
+        <translation>No existeix aquesta llista de butlletí.</translation>
+    </message>
+    <message>
+        <source>The edition was made, but a workflow holds its publishing. Find it in the administration.</source>
+        <translation>L'edició s'ha creat, però un flux de treball en reté la publicació. La trobaràs a l'administració.</translation>
+    </message>
+    <message>
+        <source>The edition was made, but the page could not be taken into it.</source>
+        <translation>L'edició s'ha creat, però no s'hi ha pogut incloure la pàgina.</translation>
+    </message>
+    <message>
+        <source>There is no such edition, or you may not read it.</source>
+        <translation>Aquesta edició no existeix o no la pots llegir.</translation>
+    </message>
+    <message>
+        <source>This edition has no newsletter data.</source>
+        <translation>Aquesta edició no té dades de butlletí.</translation>
+    </message>
+    <message>
+        <source>Some of the addresses are not valid.</source>
+        <translation>Algunes adreces no són vàlides.</translation>
+    </message>
+    <message>
+        <source>Give at least one address.</source>
+        <translation>Indica com a mínim una adreça.</translation>
+    </message>
+    <message>
+        <source>Too many addresses at once.</source>
+        <translation>Massa adreces alhora.</translation>
+    </message>
+    <message>
+        <source>The edition was changed in the meantime. Look at it again before you send it.</source>
+        <translation>L'edició ha canviat mentrestant. Torna-la a mirar abans d'enviar-la.</translation>
+    </message>
+    <message>
+        <source>The send could not be made.</source>
+        <translation>No s'ha pogut fer l'enviament.</translation>
+    </message>
+    <message>
+        <source>Sending to the subscribers needs "Verify it's you", which is switched off here. Send it in the administration.</source>
+        <translation>Per enviar als subscriptors cal «Verifica que ets tu», que aquí està desactivat. Envia-la des de l'administració.</translation>
+    </message>
+    <message>
+        <source>Please confirm it is you first.</source>
+        <translation>Primer confirma que ets tu.</translation>
+    </message>
+    <message>
+        <source>Editions with this page</source>
+        <translation>Edicions amb aquesta pàgina</translation>
+    </message>
+    <message>
+        <source>This page is in no edition yet.</source>
+        <translation>Aquesta pàgina encara no és en cap edició.</translation>
+    </message>
+    <message>
+        <source>Being sent</source>
+        <translation>S'està enviant</translation>
+    </message>
+    <message>
+        <source>Sent, in the archive</source>
+        <translation>Enviada, a l'arxiu</translation>
+    </message>
+    <message>
+        <source>Stopped</source>
+        <translation>Aturada</translation>
+    </message>
+    <message>
+        <source>%n subscribers</source>
+        <translation>%n subscriptors</translation>
+    </message>
+    <message>
+        <source>Make an edition from this page</source>
+        <translation>Crea una edició a partir d'aquesta pàgina</translation>
+    </message>
+    <message>
+        <source>There is no newsletter list where you may make an edition.</source>
+        <translation>No hi ha cap llista de butlletí on puguis crear una edició.</translation>
+    </message>
+    <message>
+        <source>Make the edition</source>
+        <translation>Crea l'edició</translation>
+    </message>
+    <message>
+        <source>Newsletter list</source>
+        <translation>Llista de butlletí</translation>
+    </message>
+    <message>
+        <source>Introduction (optional)</source>
+        <translation>Introducció (opcional)</translation>
+    </message>
+    <message>
+        <source>This page becomes the edition's article: its title, its intro and a link to it.</source>
+        <translation>Aquesta pàgina es converteix en l'article de l'edició: el títol, la introducció i un enllaç a la pàgina.</translation>
+    </message>
+    <message>
+        <source>The edition was made, with this page as its article.</source>
+        <translation>L'edició s'ha creat amb aquesta pàgina com a article.</translation>
+    </message>
+    <message>
+        <source>not asked for yet</source>
+        <translation>encara no demanada</translation>
+    </message>
+    <message>
+        <source>waiting</source>
+        <translation>en espera</translation>
+    </message>
+    <message>
+        <source>approved</source>
+        <translation>aprovada</translation>
+    </message>
+    <message>
+        <source>rejected</source>
+        <translation>rebutjada</translation>
+    </message>
+    <message>
+        <source>Approval: %state</source>
+        <translation>Aprovació: %state</translation>
+    </message>
+    <message>
+        <source>waiting for the cronjob</source>
+        <translation>esperant el cronjob</translation>
+    </message>
+    <message>
+        <source>queued</source>
+        <translation>a la cua</translation>
+    </message>
+    <message>
+        <source>being sent</source>
+        <translation>s'està enviant</translation>
+    </message>
+    <message>
+        <source>sent</source>
+        <translation>enviada</translation>
+    </message>
+    <message>
+        <source>stopped</source>
+        <translation>aturada</translation>
+    </message>
+    <message>
+        <source>Last send: %state, %time</source>
+        <translation>Últim enviament: %state, %time</translation>
+    </message>
+    <message>
+        <source>Send a test</source>
+        <translation>Envia una prova</translation>
+    </message>
+    <message>
+        <source>The test could not be sent.</source>
+        <translation>No s'ha pogut enviar la prova.</translation>
+    </message>
+    <message>
+        <source>The test was sent to %list.</source>
+        <translation>La prova s'ha enviat a %list.</translation>
+    </message>
+    <message>
+        <source>Test addresses</source>
+        <translation>Adreces de prova</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers</source>
+        <translation>Envia als subscriptors</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers ...</source>
+        <translation>Envia als subscriptors ...</translation>
+    </message>
+    <message>
+        <source>Send now</source>
+        <translation>Envia ara</translation>
+    </message>
+    <message>
+        <source>The edition is queued: the newsletter's cronjob sends it to the subscribers.</source>
+        <translation>L'edició és a la cua: el cronjob del butlletí l'envia als subscriptors.</translation>
+    </message>
+    <message>
+        <source>Send "%name" to the %n subscribers of "%list" now? This cannot be taken back here.</source>
+        <translation>Vols enviar ara «%name» als %n subscriptors de «%list»? Això no es pot desfer aquí.</translation>
+    </message>
+    <message>
+        <source>Newsletter</source>
+        <translation>Butlletí</translation>
+    </message>
+    <message>
+        <source>This edition is being sent.</source>
+        <translation>Aquesta edició s'està enviant.</translation>
+    </message>
+    <message>
+        <source>This edition was sent and is in the archive.</source>
+        <translation>Aquesta edició s'ha enviat i és a l'arxiu.</translation>
+    </message>
+    <message>
+        <source>This edition waits for its approval. It can be sent when it is approved.</source>
+        <translation>Aquesta edició espera l'aprovació. Es pot enviar quan estigui aprovada.</translation>
+    </message>
+    <message>
+        <source>This edition was rejected. Change it and ask for the approval again.</source>
+        <translation>Aquesta edició s'ha rebutjat. Canvia-la i torna a demanar l'aprovació.</translation>
+    </message>
+    <message>
+        <source>The list needs an approval before an edition is sent. Ask for the approval in the administration.</source>
+        <translation>La llista necessita una aprovació abans d'enviar una edició. Demana l'aprovació a l'administració.</translation>
+    </message>
+    <message>
+        <source>The list has no subscribers.</source>
+        <translation>La llista no té subscriptors.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Safata d'entrada</translation>
     </message>

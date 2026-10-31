@@ -1044,6 +1044,214 @@
         <translation>Formalar</translation>
     </message>
     <message>
+        <source>There is no such newsletter list.</source>
+        <translation>Beýle habarnama sanawy ýok.</translation>
+    </message>
+    <message>
+        <source>The edition was made, but a workflow holds its publishing. Find it in the administration.</source>
+        <translation>Neşir döredildi, emma iş akymy onuň çap edilmegini saklaýar. Ony dolandyryşda tapyň.</translation>
+    </message>
+    <message>
+        <source>The edition was made, but the page could not be taken into it.</source>
+        <translation>Neşir döredildi, emma sahypany oňa goşup bolmady.</translation>
+    </message>
+    <message>
+        <source>There is no such edition, or you may not read it.</source>
+        <translation>Beýle neşir ýok ýa-da siz ony okap bilmeýärsiňiz.</translation>
+    </message>
+    <message>
+        <source>This edition has no newsletter data.</source>
+        <translation>Bu neşiriň habarnama maglumatlary ýok.</translation>
+    </message>
+    <message>
+        <source>Some of the addresses are not valid.</source>
+        <translation>Käbir salgylar nädogry.</translation>
+    </message>
+    <message>
+        <source>Give at least one address.</source>
+        <translation>Iň bolmanda bir salgy beriň.</translation>
+    </message>
+    <message>
+        <source>Too many addresses at once.</source>
+        <translation>Bir gezekde salgylar gaty köp.</translation>
+    </message>
+    <message>
+        <source>The edition was changed in the meantime. Look at it again before you send it.</source>
+        <translation>Neşir şol arada üýtgedildi. Ibermezden öň oňa ýene bir gezek serediň.</translation>
+    </message>
+    <message>
+        <source>The send could not be made.</source>
+        <translation>Iberip bolmady.</translation>
+    </message>
+    <message>
+        <source>Sending to the subscribers needs "Verify it's you", which is switched off here. Send it in the administration.</source>
+        <translation>Ýazylanlara ibermek üçin „Siziň özüňizdigini tassyklaň“ gerek, ol bu ýerde öçürilen. Ony dolandyryşda iberiň.</translation>
+    </message>
+    <message>
+        <source>Please confirm it is you first.</source>
+        <translation>Haýyş, ilki siziň özüňizdigini tassyklaň.</translation>
+    </message>
+    <message>
+        <source>Editions with this page</source>
+        <translation>Bu sahypaly neşirler</translation>
+    </message>
+    <message>
+        <source>This page is in no edition yet.</source>
+        <translation>Bu sahypa entek hiç bir neşirde ýok.</translation>
+    </message>
+    <message>
+        <source>Being sent</source>
+        <translation>Iberilýär</translation>
+    </message>
+    <message>
+        <source>Sent, in the archive</source>
+        <translation>Iberildi, arhiwde</translation>
+    </message>
+    <message>
+        <source>Stopped</source>
+        <translation>Saklandy</translation>
+    </message>
+    <message>
+        <source>%n subscribers</source>
+        <translation>%n ýazylan</translation>
+    </message>
+    <message>
+        <source>Make an edition from this page</source>
+        <translation>Bu sahypadan neşir dörediň</translation>
+    </message>
+    <message>
+        <source>There is no newsletter list where you may make an edition.</source>
+        <translation>Siziň neşir döredip bilýän habarnama sanawyňyz ýok.</translation>
+    </message>
+    <message>
+        <source>Make the edition</source>
+        <translation>Neşiri dörediň</translation>
+    </message>
+    <message>
+        <source>Newsletter list</source>
+        <translation>Habarnama sanawy</translation>
+    </message>
+    <message>
+        <source>Introduction (optional)</source>
+        <translation>Giriş (hökmany däl)</translation>
+    </message>
+    <message>
+        <source>This page becomes the edition's article: its title, its intro and a link to it.</source>
+        <translation>Bu sahypa neşiriň makalasy bolar: onuň ady, girişi we oňa salgylanma.</translation>
+    </message>
+    <message>
+        <source>The edition was made, with this page as its article.</source>
+        <translation>Neşir döredildi, makalasy hökmünde bu sahypa bilen.</translation>
+    </message>
+    <message>
+        <source>not asked for yet</source>
+        <translation>heniz soralmady</translation>
+    </message>
+    <message>
+        <source>waiting</source>
+        <translation>garaşylýar</translation>
+    </message>
+    <message>
+        <source>approved</source>
+        <translation>tassyklandy</translation>
+    </message>
+    <message>
+        <source>rejected</source>
+        <translation>ret edildi</translation>
+    </message>
+    <message>
+        <source>Approval: %state</source>
+        <translation>Tassyklama: %state</translation>
+    </message>
+    <message>
+        <source>waiting for the cronjob</source>
+        <translation>cronjob-a garaşylýar</translation>
+    </message>
+    <message>
+        <source>queued</source>
+        <translation>nobatda</translation>
+    </message>
+    <message>
+        <source>being sent</source>
+        <translation>iberilýär</translation>
+    </message>
+    <message>
+        <source>sent</source>
+        <translation>iberildi</translation>
+    </message>
+    <message>
+        <source>stopped</source>
+        <translation>saklandy</translation>
+    </message>
+    <message>
+        <source>Last send: %state, %time</source>
+        <translation>Soňky iberiş: %state, %time</translation>
+    </message>
+    <message>
+        <source>Send a test</source>
+        <translation>Synag iberiň</translation>
+    </message>
+    <message>
+        <source>The test could not be sent.</source>
+        <translation>Synagy iberip bolmady.</translation>
+    </message>
+    <message>
+        <source>The test was sent to %list.</source>
+        <translation>Synag %list salgylaryna iberildi.</translation>
+    </message>
+    <message>
+        <source>Test addresses</source>
+        <translation>Synag salgylary</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers</source>
+        <translation>Ýazylanlara iberiň</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers ...</source>
+        <translation>Ýazylanlara iberiň ...</translation>
+    </message>
+    <message>
+        <source>Send now</source>
+        <translation>Häzir iberiň</translation>
+    </message>
+    <message>
+        <source>The edition is queued: the newsletter's cronjob sends it to the subscribers.</source>
+        <translation>Neşir nobatda: habarnamanyň cronjob-y ony ýazylanlara iberýär.</translation>
+    </message>
+    <message>
+        <source>Send "%name" to the %n subscribers of "%list" now? This cannot be taken back here.</source>
+        <translation>„%name“ neşirini „%list“ sanawynyň %n ýazylanyna häzir ibermelimi? Muny bu ýerde yzyna alyp bolmaýar.</translation>
+    </message>
+    <message>
+        <source>Newsletter</source>
+        <translation>Habarnama</translation>
+    </message>
+    <message>
+        <source>This edition is being sent.</source>
+        <translation>Bu neşir iberilýär.</translation>
+    </message>
+    <message>
+        <source>This edition was sent and is in the archive.</source>
+        <translation>Bu neşir iberildi we arhiwde.</translation>
+    </message>
+    <message>
+        <source>This edition waits for its approval. It can be sent when it is approved.</source>
+        <translation>Bu neşir tassyklanmagyna garaşýar. Tassyklanandan soň ony iberip bolar.</translation>
+    </message>
+    <message>
+        <source>This edition was rejected. Change it and ask for the approval again.</source>
+        <translation>Bu neşir ret edildi. Ony üýtgediň we tassyklamany täzeden soraň.</translation>
+    </message>
+    <message>
+        <source>The list needs an approval before an edition is sent. Ask for the approval in the administration.</source>
+        <translation>Neşir iberilmezden öň sanawa tassyklama gerek. Tassyklamany dolandyryşda soraň.</translation>
+    </message>
+    <message>
+        <source>The list has no subscribers.</source>
+        <translation>Sanawda ýazylan ýok.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Gelenler</translation>
     </message>

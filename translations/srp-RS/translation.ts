@@ -1044,6 +1044,214 @@
         <translation>Обрасци</translation>
     </message>
     <message>
+        <source>There is no such newsletter list.</source>
+        <translation>Не постоји таква листа билтена.</translation>
+    </message>
+    <message>
+        <source>The edition was made, but a workflow holds its publishing. Find it in the administration.</source>
+        <translation>Издање је направљено, али радни ток задржава његово објављивање. Пронађи га у администрацији.</translation>
+    </message>
+    <message>
+        <source>The edition was made, but the page could not be taken into it.</source>
+        <translation>Издање је направљено, али страница није могла да се укључи у њега.</translation>
+    </message>
+    <message>
+        <source>There is no such edition, or you may not read it.</source>
+        <translation>Не постоји такво издање или немаш право да га читаш.</translation>
+    </message>
+    <message>
+        <source>This edition has no newsletter data.</source>
+        <translation>Ово издање нема податке билтена.</translation>
+    </message>
+    <message>
+        <source>Some of the addresses are not valid.</source>
+        <translation>Неке адресе нису исправне.</translation>
+    </message>
+    <message>
+        <source>Give at least one address.</source>
+        <translation>Унеси бар једну адресу.</translation>
+    </message>
+    <message>
+        <source>Too many addresses at once.</source>
+        <translation>Превише адреса одједном.</translation>
+    </message>
+    <message>
+        <source>The edition was changed in the meantime. Look at it again before you send it.</source>
+        <translation>Издање је у међувремену измењено. Погледај га поново пре слања.</translation>
+    </message>
+    <message>
+        <source>The send could not be made.</source>
+        <translation>Слање није могло да се изврши.</translation>
+    </message>
+    <message>
+        <source>Sending to the subscribers needs "Verify it's you", which is switched off here. Send it in the administration.</source>
+        <translation>Слање претплатницима захтева „Потврди да си то ти”, што је овде искључено. Пошаљи га у администрацији.</translation>
+    </message>
+    <message>
+        <source>Please confirm it is you first.</source>
+        <translation>Прво потврди да си то ти.</translation>
+    </message>
+    <message>
+        <source>Editions with this page</source>
+        <translation>Издања са овом страницом</translation>
+    </message>
+    <message>
+        <source>This page is in no edition yet.</source>
+        <translation>Ова страница још није ни у једном издању.</translation>
+    </message>
+    <message>
+        <source>Being sent</source>
+        <translation>Шаље се</translation>
+    </message>
+    <message>
+        <source>Sent, in the archive</source>
+        <translation>Послато, у архиви</translation>
+    </message>
+    <message>
+        <source>Stopped</source>
+        <translation>Заустављено</translation>
+    </message>
+    <message>
+        <source>%n subscribers</source>
+        <translation>Претплатника: %n</translation>
+    </message>
+    <message>
+        <source>Make an edition from this page</source>
+        <translation>Направи издање од ове странице</translation>
+    </message>
+    <message>
+        <source>There is no newsletter list where you may make an edition.</source>
+        <translation>Не постоји листа билтена у којој смеш да направиш издање.</translation>
+    </message>
+    <message>
+        <source>Make the edition</source>
+        <translation>Направи издање</translation>
+    </message>
+    <message>
+        <source>Newsletter list</source>
+        <translation>Листа билтена</translation>
+    </message>
+    <message>
+        <source>Introduction (optional)</source>
+        <translation>Увод (необавезно)</translation>
+    </message>
+    <message>
+        <source>This page becomes the edition's article: its title, its intro and a link to it.</source>
+        <translation>Ова страница постаје чланак издања: њен наслов, њен увод и линк ка њој.</translation>
+    </message>
+    <message>
+        <source>The edition was made, with this page as its article.</source>
+        <translation>Издање је направљено, са овом страницом као чланком.</translation>
+    </message>
+    <message>
+        <source>not asked for yet</source>
+        <translation>још није затражено</translation>
+    </message>
+    <message>
+        <source>waiting</source>
+        <translation>чека</translation>
+    </message>
+    <message>
+        <source>approved</source>
+        <translation>одобрено</translation>
+    </message>
+    <message>
+        <source>rejected</source>
+        <translation>одбијено</translation>
+    </message>
+    <message>
+        <source>Approval: %state</source>
+        <translation>Одобрење: %state</translation>
+    </message>
+    <message>
+        <source>waiting for the cronjob</source>
+        <translation>чека cronjob</translation>
+    </message>
+    <message>
+        <source>queued</source>
+        <translation>у реду чекања</translation>
+    </message>
+    <message>
+        <source>being sent</source>
+        <translation>шаље се</translation>
+    </message>
+    <message>
+        <source>sent</source>
+        <translation>послато</translation>
+    </message>
+    <message>
+        <source>stopped</source>
+        <translation>заустављено</translation>
+    </message>
+    <message>
+        <source>Last send: %state, %time</source>
+        <translation>Последње слање: %state, %time</translation>
+    </message>
+    <message>
+        <source>Send a test</source>
+        <translation>Пошаљи тест</translation>
+    </message>
+    <message>
+        <source>The test could not be sent.</source>
+        <translation>Тест није могао да се пошаље.</translation>
+    </message>
+    <message>
+        <source>The test was sent to %list.</source>
+        <translation>Тест је послат на %list.</translation>
+    </message>
+    <message>
+        <source>Test addresses</source>
+        <translation>Тест адресе</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers</source>
+        <translation>Пошаљи претплатницима</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers ...</source>
+        <translation>Пошаљи претплатницима ...</translation>
+    </message>
+    <message>
+        <source>Send now</source>
+        <translation>Пошаљи сада</translation>
+    </message>
+    <message>
+        <source>The edition is queued: the newsletter's cronjob sends it to the subscribers.</source>
+        <translation>Издање је у реду чекања: cronjob билтена га шаље претплатницима.</translation>
+    </message>
+    <message>
+        <source>Send "%name" to the %n subscribers of "%list" now? This cannot be taken back here.</source>
+        <translation>Послати „%name” сада на %n претплатника листе „%list”? Ово се овде не може поништити.</translation>
+    </message>
+    <message>
+        <source>Newsletter</source>
+        <translation>Билтен</translation>
+    </message>
+    <message>
+        <source>This edition is being sent.</source>
+        <translation>Ово издање се шаље.</translation>
+    </message>
+    <message>
+        <source>This edition was sent and is in the archive.</source>
+        <translation>Ово издање је послато и налази се у архиви.</translation>
+    </message>
+    <message>
+        <source>This edition waits for its approval. It can be sent when it is approved.</source>
+        <translation>Ово издање чека одобрење. Може се послати када буде одобрено.</translation>
+    </message>
+    <message>
+        <source>This edition was rejected. Change it and ask for the approval again.</source>
+        <translation>Ово издање је одбијено. Измени га и поново затражи одобрење.</translation>
+    </message>
+    <message>
+        <source>The list needs an approval before an edition is sent. Ask for the approval in the administration.</source>
+        <translation>Листа захтева одобрење пре слања издања. Затражи одобрење у администрацији.</translation>
+    </message>
+    <message>
+        <source>The list has no subscribers.</source>
+        <translation>Листа нема претплатника.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Примљено</translation>
     </message>

@@ -1044,6 +1044,214 @@
         <translation>फॉर्म</translation>
     </message>
     <message>
+        <source>There is no such newsletter list.</source>
+        <translation>अइसन कवनो न्यूज़लेटर सूची नइखे।</translation>
+    </message>
+    <message>
+        <source>The edition was made, but a workflow holds its publishing. Find it in the administration.</source>
+        <translation>अंक बन गइल, बाकिर एगो वर्कफ़्लो एकर छपाई रोकले बा। एकरा के प्रशासन में खोजीं।</translation>
+    </message>
+    <message>
+        <source>The edition was made, but the page could not be taken into it.</source>
+        <translation>अंक बन गइल, बाकिर पन्ना ओह में ना जोड़ाइल।</translation>
+    </message>
+    <message>
+        <source>There is no such edition, or you may not read it.</source>
+        <translation>अइसन कवनो अंक नइखे, भा रउआ एकरा के ना पढ़ सकीं।</translation>
+    </message>
+    <message>
+        <source>This edition has no newsletter data.</source>
+        <translation>एह अंक में न्यूज़लेटर के कवनो डेटा नइखे।</translation>
+    </message>
+    <message>
+        <source>Some of the addresses are not valid.</source>
+        <translation>कुछ पता सही नइखे।</translation>
+    </message>
+    <message>
+        <source>Give at least one address.</source>
+        <translation>कम से कम एगो पता दीं।</translation>
+    </message>
+    <message>
+        <source>Too many addresses at once.</source>
+        <translation>एक बेर में बहुते ढेर पता।</translation>
+    </message>
+    <message>
+        <source>The edition was changed in the meantime. Look at it again before you send it.</source>
+        <translation>एह बीच अंक बदल गइल। भेजे से पहिले एकरा के फेर से देखीं।</translation>
+    </message>
+    <message>
+        <source>The send could not be made.</source>
+        <translation>भेजल ना जा सकल।</translation>
+    </message>
+    <message>
+        <source>Sending to the subscribers needs "Verify it's you", which is switched off here. Send it in the administration.</source>
+        <translation>सब्सक्राइबर लोग के भेजे खातिर "पक्का करीं कि ई रउए हईं" चाहीं, जवन इहाँ बंद बा। एकरा के प्रशासन में भेजीं।</translation>
+    </message>
+    <message>
+        <source>Please confirm it is you first.</source>
+        <translation>किरपा क के पहिले पक्का करीं कि ई रउए हईं।</translation>
+    </message>
+    <message>
+        <source>Editions with this page</source>
+        <translation>एह पन्ना वाला अंक</translation>
+    </message>
+    <message>
+        <source>This page is in no edition yet.</source>
+        <translation>ई पन्ना अबहीं ले कवनो अंक में नइखे।</translation>
+    </message>
+    <message>
+        <source>Being sent</source>
+        <translation>भेजल जा रहल बा</translation>
+    </message>
+    <message>
+        <source>Sent, in the archive</source>
+        <translation>भेजा गइल, अभिलेख में</translation>
+    </message>
+    <message>
+        <source>Stopped</source>
+        <translation>रुकल</translation>
+    </message>
+    <message>
+        <source>%n subscribers</source>
+        <translation>%n सब्सक्राइबर</translation>
+    </message>
+    <message>
+        <source>Make an edition from this page</source>
+        <translation>एह पन्ना से एगो अंक बनाईं</translation>
+    </message>
+    <message>
+        <source>There is no newsletter list where you may make an edition.</source>
+        <translation>अइसन कवनो न्यूज़लेटर सूची नइखे जहाँ रउआ अंक बना सकीं।</translation>
+    </message>
+    <message>
+        <source>Make the edition</source>
+        <translation>अंक बनाईं</translation>
+    </message>
+    <message>
+        <source>Newsletter list</source>
+        <translation>न्यूज़लेटर सूची</translation>
+    </message>
+    <message>
+        <source>Introduction (optional)</source>
+        <translation>परिचय (वैकल्पिक)</translation>
+    </message>
+    <message>
+        <source>This page becomes the edition's article: its title, its intro and a link to it.</source>
+        <translation>ई पन्ना अंक के लेख बन जाई: एकर शीर्षक, एकर परिचय आ एकर एगो लिंक।</translation>
+    </message>
+    <message>
+        <source>The edition was made, with this page as its article.</source>
+        <translation>अंक बन गइल, एह पन्ना के लेख बना के।</translation>
+    </message>
+    <message>
+        <source>not asked for yet</source>
+        <translation>अबहीं ना माँगल गइल</translation>
+    </message>
+    <message>
+        <source>waiting</source>
+        <translation>इंतजार में</translation>
+    </message>
+    <message>
+        <source>approved</source>
+        <translation>मंजूर</translation>
+    </message>
+    <message>
+        <source>rejected</source>
+        <translation>नामंजूर</translation>
+    </message>
+    <message>
+        <source>Approval: %state</source>
+        <translation>मंजूरी: %state</translation>
+    </message>
+    <message>
+        <source>waiting for the cronjob</source>
+        <translation>क्रॉनजॉब के इंतजार में</translation>
+    </message>
+    <message>
+        <source>queued</source>
+        <translation>कतार में</translation>
+    </message>
+    <message>
+        <source>being sent</source>
+        <translation>भेजल जा रहल बा</translation>
+    </message>
+    <message>
+        <source>sent</source>
+        <translation>भेजा गइल</translation>
+    </message>
+    <message>
+        <source>stopped</source>
+        <translation>रुकल</translation>
+    </message>
+    <message>
+        <source>Last send: %state, %time</source>
+        <translation>पिछला भेजल: %state, %time</translation>
+    </message>
+    <message>
+        <source>Send a test</source>
+        <translation>एगो जाँच भेजीं</translation>
+    </message>
+    <message>
+        <source>The test could not be sent.</source>
+        <translation>जाँच ना भेजाइल।</translation>
+    </message>
+    <message>
+        <source>The test was sent to %list.</source>
+        <translation>जाँच %list पर भेजा गइल।</translation>
+    </message>
+    <message>
+        <source>Test addresses</source>
+        <translation>जाँच वाला पता</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers</source>
+        <translation>सब्सक्राइबर लोग के भेजीं</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers ...</source>
+        <translation>सब्सक्राइबर लोग के भेजीं ...</translation>
+    </message>
+    <message>
+        <source>Send now</source>
+        <translation>अबहीं भेजीं</translation>
+    </message>
+    <message>
+        <source>The edition is queued: the newsletter's cronjob sends it to the subscribers.</source>
+        <translation>अंक कतार में बा: न्यूज़लेटर के क्रॉनजॉब एकरा के सब्सक्राइबर लोग के भेजी।</translation>
+    </message>
+    <message>
+        <source>Send "%name" to the %n subscribers of "%list" now? This cannot be taken back here.</source>
+        <translation>"%name" के अबहीं "%list" के %n सब्सक्राइबर लोग के भेजीं? इहाँ ई वापस ना लिहल जा सकेला।</translation>
+    </message>
+    <message>
+        <source>Newsletter</source>
+        <translation>न्यूज़लेटर</translation>
+    </message>
+    <message>
+        <source>This edition is being sent.</source>
+        <translation>ई अंक भेजल जा रहल बा।</translation>
+    </message>
+    <message>
+        <source>This edition was sent and is in the archive.</source>
+        <translation>ई अंक भेजा गइल बा आ अभिलेख में बा।</translation>
+    </message>
+    <message>
+        <source>This edition waits for its approval. It can be sent when it is approved.</source>
+        <translation>ई अंक मंजूरी के इंतजार में बा। मंजूर भइला पर भेजल जा सकेला।</translation>
+    </message>
+    <message>
+        <source>This edition was rejected. Change it and ask for the approval again.</source>
+        <translation>ई अंक नामंजूर हो गइल। एकरा के बदलीं आ फेर से मंजूरी माँगीं।</translation>
+    </message>
+    <message>
+        <source>The list needs an approval before an edition is sent. Ask for the approval in the administration.</source>
+        <translation>अंक भेजे से पहिले सूची के मंजूरी चाहीं। प्रशासन में मंजूरी माँगीं।</translation>
+    </message>
+    <message>
+        <source>The list has no subscribers.</source>
+        <translation>सूची में कवनो सब्सक्राइबर नइखे।</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>इनबॉक्स</translation>
     </message>

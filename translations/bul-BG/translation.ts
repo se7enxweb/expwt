@@ -1044,6 +1044,214 @@
         <translation>Формуляри</translation>
     </message>
     <message>
+        <source>There is no such newsletter list.</source>
+        <translation>Няма такъв списък за бюлетин.</translation>
+    </message>
+    <message>
+        <source>The edition was made, but a workflow holds its publishing. Find it in the administration.</source>
+        <translation>Изданието е създадено, но работен процес задържа публикуването му. Намерете го в администрацията.</translation>
+    </message>
+    <message>
+        <source>The edition was made, but the page could not be taken into it.</source>
+        <translation>Изданието е създадено, но страницата не можа да бъде включена в него.</translation>
+    </message>
+    <message>
+        <source>There is no such edition, or you may not read it.</source>
+        <translation>Няма такова издание или нямате право да го четете.</translation>
+    </message>
+    <message>
+        <source>This edition has no newsletter data.</source>
+        <translation>Това издание няма данни за бюлетин.</translation>
+    </message>
+    <message>
+        <source>Some of the addresses are not valid.</source>
+        <translation>Някои от адресите са невалидни.</translation>
+    </message>
+    <message>
+        <source>Give at least one address.</source>
+        <translation>Въведете поне един адрес.</translation>
+    </message>
+    <message>
+        <source>Too many addresses at once.</source>
+        <translation>Твърде много адреси наведнъж.</translation>
+    </message>
+    <message>
+        <source>The edition was changed in the meantime. Look at it again before you send it.</source>
+        <translation>Междувременно изданието е променено. Прегледайте го отново, преди да го изпратите.</translation>
+    </message>
+    <message>
+        <source>The send could not be made.</source>
+        <translation>Изпращането не можа да бъде извършено.</translation>
+    </message>
+    <message>
+        <source>Sending to the subscribers needs "Verify it's you", which is switched off here. Send it in the administration.</source>
+        <translation>За изпращане до абонатите е нужно „Потвърдете, че сте вие“, което тук е изключено. Изпратете го от администрацията.</translation>
+    </message>
+    <message>
+        <source>Please confirm it is you first.</source>
+        <translation>Моля, първо потвърдете, че сте вие.</translation>
+    </message>
+    <message>
+        <source>Editions with this page</source>
+        <translation>Издания с тази страница</translation>
+    </message>
+    <message>
+        <source>This page is in no edition yet.</source>
+        <translation>Тази страница още не е в нито едно издание.</translation>
+    </message>
+    <message>
+        <source>Being sent</source>
+        <translation>Изпраща се</translation>
+    </message>
+    <message>
+        <source>Sent, in the archive</source>
+        <translation>Изпратено, в архива</translation>
+    </message>
+    <message>
+        <source>Stopped</source>
+        <translation>Спряно</translation>
+    </message>
+    <message>
+        <source>%n subscribers</source>
+        <translation>%n абонати</translation>
+    </message>
+    <message>
+        <source>Make an edition from this page</source>
+        <translation>Създаване на издание от тази страница</translation>
+    </message>
+    <message>
+        <source>There is no newsletter list where you may make an edition.</source>
+        <translation>Няма списък за бюлетин, в който можете да създадете издание.</translation>
+    </message>
+    <message>
+        <source>Make the edition</source>
+        <translation>Създаване на изданието</translation>
+    </message>
+    <message>
+        <source>Newsletter list</source>
+        <translation>Списък за бюлетин</translation>
+    </message>
+    <message>
+        <source>Introduction (optional)</source>
+        <translation>Въведение (по избор)</translation>
+    </message>
+    <message>
+        <source>This page becomes the edition's article: its title, its intro and a link to it.</source>
+        <translation>Тази страница става статия на изданието: заглавието ѝ, въведението ѝ и връзка към нея.</translation>
+    </message>
+    <message>
+        <source>The edition was made, with this page as its article.</source>
+        <translation>Изданието е създадено с тази страница като статия.</translation>
+    </message>
+    <message>
+        <source>not asked for yet</source>
+        <translation>още не е поискано</translation>
+    </message>
+    <message>
+        <source>waiting</source>
+        <translation>чака</translation>
+    </message>
+    <message>
+        <source>approved</source>
+        <translation>одобрено</translation>
+    </message>
+    <message>
+        <source>rejected</source>
+        <translation>отхвърлено</translation>
+    </message>
+    <message>
+        <source>Approval: %state</source>
+        <translation>Одобрение: %state</translation>
+    </message>
+    <message>
+        <source>waiting for the cronjob</source>
+        <translation>чака cronjob задачата</translation>
+    </message>
+    <message>
+        <source>queued</source>
+        <translation>на опашка</translation>
+    </message>
+    <message>
+        <source>being sent</source>
+        <translation>изпраща се</translation>
+    </message>
+    <message>
+        <source>sent</source>
+        <translation>изпратено</translation>
+    </message>
+    <message>
+        <source>stopped</source>
+        <translation>спряно</translation>
+    </message>
+    <message>
+        <source>Last send: %state, %time</source>
+        <translation>Последно изпращане: %state, %time</translation>
+    </message>
+    <message>
+        <source>Send a test</source>
+        <translation>Изпращане на тест</translation>
+    </message>
+    <message>
+        <source>The test could not be sent.</source>
+        <translation>Тестът не можа да бъде изпратен.</translation>
+    </message>
+    <message>
+        <source>The test was sent to %list.</source>
+        <translation>Тестът е изпратен до %list.</translation>
+    </message>
+    <message>
+        <source>Test addresses</source>
+        <translation>Тестови адреси</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers</source>
+        <translation>Изпращане до абонатите</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers ...</source>
+        <translation>Изпращане до абонатите ...</translation>
+    </message>
+    <message>
+        <source>Send now</source>
+        <translation>Изпрати сега</translation>
+    </message>
+    <message>
+        <source>The edition is queued: the newsletter's cronjob sends it to the subscribers.</source>
+        <translation>Изданието е на опашка: cronjob задачата на бюлетина ще го изпрати до абонатите.</translation>
+    </message>
+    <message>
+        <source>Send "%name" to the %n subscribers of "%list" now? This cannot be taken back here.</source>
+        <translation>Да се изпрати ли „%name“ сега до %n абонати на „%list“? Това не може да бъде отменено тук.</translation>
+    </message>
+    <message>
+        <source>Newsletter</source>
+        <translation>Бюлетин</translation>
+    </message>
+    <message>
+        <source>This edition is being sent.</source>
+        <translation>Това издание се изпраща.</translation>
+    </message>
+    <message>
+        <source>This edition was sent and is in the archive.</source>
+        <translation>Това издание е изпратено и е в архива.</translation>
+    </message>
+    <message>
+        <source>This edition waits for its approval. It can be sent when it is approved.</source>
+        <translation>Това издание чака одобрение. Може да бъде изпратено, когато бъде одобрено.</translation>
+    </message>
+    <message>
+        <source>This edition was rejected. Change it and ask for the approval again.</source>
+        <translation>Това издание е отхвърлено. Променете го и поискайте одобрение отново.</translation>
+    </message>
+    <message>
+        <source>The list needs an approval before an edition is sent. Ask for the approval in the administration.</source>
+        <translation>Списъкът изисква одобрение, преди да се изпрати издание. Поискайте одобрение в администрацията.</translation>
+    </message>
+    <message>
+        <source>The list has no subscribers.</source>
+        <translation>Списъкът няма абонати.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Входящи</translation>
     </message>

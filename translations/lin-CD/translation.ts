@@ -1044,6 +1044,214 @@
         <translation>Ba-formulere</translation>
     </message>
     <message>
+        <source>There is no such newsletter list.</source>
+        <translation>Liste ya mokanda ya sango ya boye ezali te.</translation>
+    </message>
+    <message>
+        <source>The edition was made, but a workflow holds its publishing. Find it in the administration.</source>
+        <translation>Edisio esalemi, kasi workflow ezali kosimba kobimisa na yango. Luká yango na boyangeli.</translation>
+    </message>
+    <message>
+        <source>The edition was made, but the page could not be taken into it.</source>
+        <translation>Edisio esalemi, kasi lokasa ekokaki kokota na kati na yango te.</translation>
+    </message>
+    <message>
+        <source>There is no such edition, or you may not read it.</source>
+        <translation>Edisio ya boye ezali te, to ozali na nzela ya kotánga yango te.</translation>
+    </message>
+    <message>
+        <source>This edition has no newsletter data.</source>
+        <translation>Edisio oyo ezali na ba données ya mokanda ya sango te.</translation>
+    </message>
+    <message>
+        <source>Some of the addresses are not valid.</source>
+        <translation>Ba adrɛsi mosusu ezali malamu te.</translation>
+    </message>
+    <message>
+        <source>Give at least one address.</source>
+        <translation>Pesá ata adrɛsi moko.</translation>
+    </message>
+    <message>
+        <source>Too many addresses at once.</source>
+        <translation>Ba adrɛsi ebele mingi na mbala moko.</translation>
+    </message>
+    <message>
+        <source>The edition was changed in the meantime. Look at it again before you send it.</source>
+        <translation>Edisio ebongwanaki na ntango oyo. Talá yango lisusu liboso ya kotinda yango.</translation>
+    </message>
+    <message>
+        <source>The send could not be made.</source>
+        <translation>Kotinda ekokaki kosalema te.</translation>
+    </message>
+    <message>
+        <source>Sending to the subscribers needs "Verify it's you", which is switched off here. Send it in the administration.</source>
+        <translation>Kotinda epai ya bato oyo bamikomisá esengi "Ndimisá ete ozali yo", oyo ekangami awa. Tindá yango na boyangeli.</translation>
+    </message>
+    <message>
+        <source>Please confirm it is you first.</source>
+        <translation>Svp ndimisá liboso ete ozali yo.</translation>
+    </message>
+    <message>
+        <source>Editions with this page</source>
+        <translation>Ba edisio oyo ezali na lokasa oyo</translation>
+    </message>
+    <message>
+        <source>This page is in no edition yet.</source>
+        <translation>Lokasa oyo ezali naino na edisio moko te.</translation>
+    </message>
+    <message>
+        <source>Being sent</source>
+        <translation>Ezali kotindama</translation>
+    </message>
+    <message>
+        <source>Sent, in the archive</source>
+        <translation>Etindami, ezali na archive</translation>
+    </message>
+    <message>
+        <source>Stopped</source>
+        <translation>Etelemisami</translation>
+    </message>
+    <message>
+        <source>%n subscribers</source>
+        <translation>Bato %n bamikomisá</translation>
+    </message>
+    <message>
+        <source>Make an edition from this page</source>
+        <translation>Salá edisio uta na lokasa oyo</translation>
+    </message>
+    <message>
+        <source>There is no newsletter list where you may make an edition.</source>
+        <translation>Liste ya mokanda ya sango esika okoki kosala edisio ezali te.</translation>
+    </message>
+    <message>
+        <source>Make the edition</source>
+        <translation>Salá edisio</translation>
+    </message>
+    <message>
+        <source>Newsletter list</source>
+        <translation>Liste ya mokanda ya sango</translation>
+    </message>
+    <message>
+        <source>Introduction (optional)</source>
+        <translation>Ebandeli (soki olingi)</translation>
+    </message>
+    <message>
+        <source>This page becomes the edition's article: its title, its intro and a link to it.</source>
+        <translation>Lokasa oyo ekokóma lisolo ya edisio: motó na yango, ebandeli na yango mpe lien epai na yango.</translation>
+    </message>
+    <message>
+        <source>The edition was made, with this page as its article.</source>
+        <translation>Edisio esalemi, na lokasa oyo lokola lisolo na yango.</translation>
+    </message>
+    <message>
+        <source>not asked for yet</source>
+        <translation>esengami naino te</translation>
+    </message>
+    <message>
+        <source>waiting</source>
+        <translation>ezali kozela</translation>
+    </message>
+    <message>
+        <source>approved</source>
+        <translation>endimami</translation>
+    </message>
+    <message>
+        <source>rejected</source>
+        <translation>eboyami</translation>
+    </message>
+    <message>
+        <source>Approval: %state</source>
+        <translation>Kondimama: %state</translation>
+    </message>
+    <message>
+        <source>waiting for the cronjob</source>
+        <translation>ezali kozela cronjob</translation>
+    </message>
+    <message>
+        <source>queued</source>
+        <translation>na molongo</translation>
+    </message>
+    <message>
+        <source>being sent</source>
+        <translation>ezali kotindama</translation>
+    </message>
+    <message>
+        <source>sent</source>
+        <translation>etindami</translation>
+    </message>
+    <message>
+        <source>stopped</source>
+        <translation>etelemisami</translation>
+    </message>
+    <message>
+        <source>Last send: %state, %time</source>
+        <translation>Kotinda ya nsuka: %state, %time</translation>
+    </message>
+    <message>
+        <source>Send a test</source>
+        <translation>Tindá meká</translation>
+    </message>
+    <message>
+        <source>The test could not be sent.</source>
+        <translation>Meká ekokaki kotindama te.</translation>
+    </message>
+    <message>
+        <source>The test was sent to %list.</source>
+        <translation>Meká etindami epai ya %list.</translation>
+    </message>
+    <message>
+        <source>Test addresses</source>
+        <translation>Ba adrɛsi ya meká</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers</source>
+        <translation>Tindá epai ya bato oyo bamikomisá</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers ...</source>
+        <translation>Tindá epai ya bato oyo bamikomisá ...</translation>
+    </message>
+    <message>
+        <source>Send now</source>
+        <translation>Tindá sikoyo</translation>
+    </message>
+    <message>
+        <source>The edition is queued: the newsletter's cronjob sends it to the subscribers.</source>
+        <translation>Edisio ezali na molongo: cronjob ya mokanda ya sango ekotinda yango epai ya bato oyo bamikomisá.</translation>
+    </message>
+    <message>
+        <source>Send "%name" to the %n subscribers of "%list" now? This cannot be taken back here.</source>
+        <translation>Otinda "%name" epai ya bato %n oyo bamikomisá na "%list" sikoyo? Okoki kozongisa yango awa te.</translation>
+    </message>
+    <message>
+        <source>Newsletter</source>
+        <translation>Mokanda ya sango</translation>
+    </message>
+    <message>
+        <source>This edition is being sent.</source>
+        <translation>Edisio oyo ezali kotindama.</translation>
+    </message>
+    <message>
+        <source>This edition was sent and is in the archive.</source>
+        <translation>Edisio oyo etindami mpe ezali na archive.</translation>
+    </message>
+    <message>
+        <source>This edition waits for its approval. It can be sent when it is approved.</source>
+        <translation>Edisio oyo ezali kozela kondimama. Ekoki kotindama soki endimami.</translation>
+    </message>
+    <message>
+        <source>This edition was rejected. Change it and ask for the approval again.</source>
+        <translation>Edisio oyo eboyami. Bongolá yango mpe sengá kondimama lisusu.</translation>
+    </message>
+    <message>
+        <source>The list needs an approval before an edition is sent. Ask for the approval in the administration.</source>
+        <translation>Liste esengi kondimama liboso ya kotinda edisio. Sengá kondimama na boyangeli.</translation>
+    </message>
+    <message>
+        <source>The list has no subscribers.</source>
+        <translation>Liste ezali na bato oyo bamikomisá te.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Bokóti ya mikanda</translation>
     </message>

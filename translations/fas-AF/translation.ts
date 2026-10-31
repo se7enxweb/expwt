@@ -1044,6 +1044,214 @@
         <translation>فرم‌ها</translation>
     </message>
     <message>
+        <source>There is no such newsletter list.</source>
+        <translation>چنین فهرست خبرنامه‌ای وجود ندارد.</translation>
+    </message>
+    <message>
+        <source>The edition was made, but a workflow holds its publishing. Find it in the administration.</source>
+        <translation>نسخه ساخته شد، اما یک جریان کار نشر آن را نگه داشته است. آن را در مدیریت پیدا کنید.</translation>
+    </message>
+    <message>
+        <source>The edition was made, but the page could not be taken into it.</source>
+        <translation>نسخه ساخته شد، اما صفحه در آن گنجانده نشد.</translation>
+    </message>
+    <message>
+        <source>There is no such edition, or you may not read it.</source>
+        <translation>چنین نسخه‌ای وجود ندارد یا شما اجازهٔ خواندن آن را ندارید.</translation>
+    </message>
+    <message>
+        <source>This edition has no newsletter data.</source>
+        <translation>این نسخه دادهٔ خبرنامه ندارد.</translation>
+    </message>
+    <message>
+        <source>Some of the addresses are not valid.</source>
+        <translation>برخی از آدرس‌ها معتبر نیستند.</translation>
+    </message>
+    <message>
+        <source>Give at least one address.</source>
+        <translation>دست‌کم یک آدرس بدهید.</translation>
+    </message>
+    <message>
+        <source>Too many addresses at once.</source>
+        <translation>آدرس‌های زیادی به یک‌باره.</translation>
+    </message>
+    <message>
+        <source>The edition was changed in the meantime. Look at it again before you send it.</source>
+        <translation>نسخه در این میان تغییر کرده است. پیش از فرستادن، دوباره آن را ببینید.</translation>
+    </message>
+    <message>
+        <source>The send could not be made.</source>
+        <translation>فرستادن انجام نشد.</translation>
+    </message>
+    <message>
+        <source>Sending to the subscribers needs "Verify it's you", which is switched off here. Send it in the administration.</source>
+        <translation>فرستادن به مشترکان به «تأیید کنید که خود شما هستید» نیاز دارد که اینجا خاموش است. آن را در مدیریت بفرستید.</translation>
+    </message>
+    <message>
+        <source>Please confirm it is you first.</source>
+        <translation>لطفاً نخست تأیید کنید که خود شما هستید.</translation>
+    </message>
+    <message>
+        <source>Editions with this page</source>
+        <translation>نسخه‌های دارای این صفحه</translation>
+    </message>
+    <message>
+        <source>This page is in no edition yet.</source>
+        <translation>این صفحه هنوز در هیچ نسخه‌ای نیست.</translation>
+    </message>
+    <message>
+        <source>Being sent</source>
+        <translation>در حال فرستادن</translation>
+    </message>
+    <message>
+        <source>Sent, in the archive</source>
+        <translation>فرستاده شد، در بایگانی</translation>
+    </message>
+    <message>
+        <source>Stopped</source>
+        <translation>متوقف شد</translation>
+    </message>
+    <message>
+        <source>%n subscribers</source>
+        <translation>%n مشترک</translation>
+    </message>
+    <message>
+        <source>Make an edition from this page</source>
+        <translation>از این صفحه نسخه‌ای بسازید</translation>
+    </message>
+    <message>
+        <source>There is no newsletter list where you may make an edition.</source>
+        <translation>هیچ فهرست خبرنامه‌ای نیست که در آن اجازهٔ ساختن نسخه داشته باشید.</translation>
+    </message>
+    <message>
+        <source>Make the edition</source>
+        <translation>نسخه را بسازید</translation>
+    </message>
+    <message>
+        <source>Newsletter list</source>
+        <translation>فهرست خبرنامه</translation>
+    </message>
+    <message>
+        <source>Introduction (optional)</source>
+        <translation>مقدمه (اختیاری)</translation>
+    </message>
+    <message>
+        <source>This page becomes the edition's article: its title, its intro and a link to it.</source>
+        <translation>این صفحه مقالهٔ نسخه می‌شود: عنوانش، مقدمه‌اش و پیوندی به آن.</translation>
+    </message>
+    <message>
+        <source>The edition was made, with this page as its article.</source>
+        <translation>نسخه ساخته شد، با این صفحه به‌عنوان مقاله‌اش.</translation>
+    </message>
+    <message>
+        <source>not asked for yet</source>
+        <translation>هنوز درخواست نشده</translation>
+    </message>
+    <message>
+        <source>waiting</source>
+        <translation>در انتظار</translation>
+    </message>
+    <message>
+        <source>approved</source>
+        <translation>تأیید شده</translation>
+    </message>
+    <message>
+        <source>rejected</source>
+        <translation>رد شده</translation>
+    </message>
+    <message>
+        <source>Approval: %state</source>
+        <translation>منظوری: %state</translation>
+    </message>
+    <message>
+        <source>waiting for the cronjob</source>
+        <translation>در انتظار کرون‌جاب</translation>
+    </message>
+    <message>
+        <source>queued</source>
+        <translation>در صف</translation>
+    </message>
+    <message>
+        <source>being sent</source>
+        <translation>در حال فرستادن</translation>
+    </message>
+    <message>
+        <source>sent</source>
+        <translation>فرستاده شده</translation>
+    </message>
+    <message>
+        <source>stopped</source>
+        <translation>متوقف شده</translation>
+    </message>
+    <message>
+        <source>Last send: %state, %time</source>
+        <translation>آخرین فرستادن: %state، %time</translation>
+    </message>
+    <message>
+        <source>Send a test</source>
+        <translation>فرستادن یک آزمایش</translation>
+    </message>
+    <message>
+        <source>The test could not be sent.</source>
+        <translation>آزمایش فرستاده نشد.</translation>
+    </message>
+    <message>
+        <source>The test was sent to %list.</source>
+        <translation>آزمایش به %list فرستاده شد.</translation>
+    </message>
+    <message>
+        <source>Test addresses</source>
+        <translation>آدرس‌های آزمایشی</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers</source>
+        <translation>فرستادن به مشترکان</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers ...</source>
+        <translation>فرستادن به مشترکان ...</translation>
+    </message>
+    <message>
+        <source>Send now</source>
+        <translation>اکنون بفرستید</translation>
+    </message>
+    <message>
+        <source>The edition is queued: the newsletter's cronjob sends it to the subscribers.</source>
+        <translation>نسخه در صف است: کرون‌جاب خبرنامه آن را به مشترکان می‌فرستد.</translation>
+    </message>
+    <message>
+        <source>Send "%name" to the %n subscribers of "%list" now? This cannot be taken back here.</source>
+        <translation>«%name» اکنون به %n مشترک «%list» فرستاده شود؟ این کار اینجا بازگشت‌پذیر نیست.</translation>
+    </message>
+    <message>
+        <source>Newsletter</source>
+        <translation>خبرنامه</translation>
+    </message>
+    <message>
+        <source>This edition is being sent.</source>
+        <translation>این نسخه در حال فرستادن است.</translation>
+    </message>
+    <message>
+        <source>This edition was sent and is in the archive.</source>
+        <translation>این نسخه فرستاده شده و در بایگانی است.</translation>
+    </message>
+    <message>
+        <source>This edition waits for its approval. It can be sent when it is approved.</source>
+        <translation>این نسخه در انتظار منظوری است. پس از منظوری می‌توان آن را فرستاد.</translation>
+    </message>
+    <message>
+        <source>This edition was rejected. Change it and ask for the approval again.</source>
+        <translation>این نسخه رد شد. آن را تغییر دهید و دوباره منظوری بخواهید.</translation>
+    </message>
+    <message>
+        <source>The list needs an approval before an edition is sent. Ask for the approval in the administration.</source>
+        <translation>فهرست پیش از فرستادن یک نسخه به منظوری نیاز دارد. منظوری را در مدیریت درخواست کنید.</translation>
+    </message>
+    <message>
+        <source>The list has no subscribers.</source>
+        <translation>این فهرست مشترکی ندارد.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>صندوق ورودی</translation>
     </message>

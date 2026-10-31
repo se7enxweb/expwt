@@ -1044,6 +1044,214 @@
         <translation>ghItlhmey</translation>
     </message>
     <message>
+        <source>There is no such newsletter list.</source>
+        <translation>QInmey tetlh rur pagh tu'lu'.</translation>
+    </message>
+    <message>
+        <source>The edition was made, but a workflow holds its publishing. Find it in the administration.</source>
+        <translation>mI' chenmoHlu'pu', 'ach 'angghach 'ompu' Qu' mIw. loHmeH Daq yInej.</translation>
+    </message>
+    <message>
+        <source>The edition was made, but the page could not be taken into it.</source>
+        <translation>mI' chenmoHlu'pu', 'ach nav lIchlaHlu'pu'be'.</translation>
+    </message>
+    <message>
+        <source>There is no such edition, or you may not read it.</source>
+        <translation>mI' rur pagh tu'lu', pagh DalaDlaHbe'.</translation>
+    </message>
+    <message>
+        <source>This edition has no newsletter data.</source>
+        <translation>QInmey De' ghajbe' mI' vam.</translation>
+    </message>
+    <message>
+        <source>Some of the addresses are not valid.</source>
+        <translation>'op Daqmey lughbe'.</translation>
+    </message>
+    <message>
+        <source>Give at least one address.</source>
+        <translation>wa' Daq yInob, 'ach puS.</translation>
+    </message>
+    <message>
+        <source>Too many addresses at once.</source>
+        <translation>Daqmey law'qu' wa'logh.</translation>
+    </message>
+    <message>
+        <source>The edition was changed in the meantime. Look at it again before you send it.</source>
+        <translation>mI' choHlu'pu' ret. yIngeHpa' yIleghqa'.</translation>
+    </message>
+    <message>
+        <source>The send could not be made.</source>
+        <translation>ngeHlaHlu'pu'be'.</translation>
+    </message>
+    <message>
+        <source>Sending to the subscribers needs "Verify it's you", which is switched off here. Send it in the administration.</source>
+        <translation>HevwI'pu'vaD ngeHmeH "SoH Dabejqa'" poQlu', 'ach naDev chu'Ha'lu'pu'. loHmeH Daq yIngeH.</translation>
+    </message>
+    <message>
+        <source>Please confirm it is you first.</source>
+        <translation>wa'DIch SoH Dabejqa'.</translation>
+    </message>
+    <message>
+        <source>Editions with this page</source>
+        <translation>nav vam ghajbogh mI'mey</translation>
+    </message>
+    <message>
+        <source>This page is in no edition yet.</source>
+        <translation>pagh mI' ghaj nav vam.</translation>
+    </message>
+    <message>
+        <source>Being sent</source>
+        <translation>ngeHlu'taH</translation>
+    </message>
+    <message>
+        <source>Sent, in the archive</source>
+        <translation>ngeHlu'pu', qonDaq</translation>
+    </message>
+    <message>
+        <source>Stopped</source>
+        <translation>mevpu'</translation>
+    </message>
+    <message>
+        <source>%n subscribers</source>
+        <translation>HevwI' %n</translation>
+    </message>
+    <message>
+        <source>Make an edition from this page</source>
+        <translation>nav vam vo' mI' yIchenmoH</translation>
+    </message>
+    <message>
+        <source>There is no newsletter list where you may make an edition.</source>
+        <translation>mI' DachenmoHlaHbogh QInmey tetlh tu'lu'be'.</translation>
+    </message>
+    <message>
+        <source>Make the edition</source>
+        <translation>mI' yIchenmoH</translation>
+    </message>
+    <message>
+        <source>Newsletter list</source>
+        <translation>QInmey tetlh</translation>
+    </message>
+    <message>
+        <source>Introduction (optional)</source>
+        <translation>nab'a' (DaneHchugh)</translation>
+    </message>
+    <message>
+        <source>This page becomes the edition's article: its title, its intro and a link to it.</source>
+        <translation>mI' ghItlh moj nav vam: pongDaj, nab'a'Daj, rarwI'Daj je.</translation>
+    </message>
+    <message>
+        <source>The edition was made, with this page as its article.</source>
+        <translation>mI' chenmoHlu'pu'; ghItlhDaj ghaH nav vam.</translation>
+    </message>
+    <message>
+        <source>not asked for yet</source>
+        <translation>tlhoblu'pu'be' wa'</translation>
+    </message>
+    <message>
+        <source>waiting</source>
+        <translation>loStaH</translation>
+    </message>
+    <message>
+        <source>approved</source>
+        <translation>QochQo'lu'pu'</translation>
+    </message>
+    <message>
+        <source>rejected</source>
+        <translation>lajQo'lu'pu'</translation>
+    </message>
+    <message>
+        <source>Approval: %state</source>
+        <translation>chaw': %state</translation>
+    </message>
+    <message>
+        <source>waiting for the cronjob</source>
+        <translation>cronjob loStaH</translation>
+    </message>
+    <message>
+        <source>queued</source>
+        <translation>tlheghDaq</translation>
+    </message>
+    <message>
+        <source>being sent</source>
+        <translation>ngeHlu'taH</translation>
+    </message>
+    <message>
+        <source>sent</source>
+        <translation>ngeHlu'pu'</translation>
+    </message>
+    <message>
+        <source>stopped</source>
+        <translation>mevpu'</translation>
+    </message>
+    <message>
+        <source>Last send: %state, %time</source>
+        <translation>Qav ngeH: %state, %time</translation>
+    </message>
+    <message>
+        <source>Send a test</source>
+        <translation>waHmeH yIngeH</translation>
+    </message>
+    <message>
+        <source>The test could not be sent.</source>
+        <translation>waHmeH ngeHlaHlu'pu'be'.</translation>
+    </message>
+    <message>
+        <source>The test was sent to %list.</source>
+        <translation>%list Daq waHmeH ngeHlu'pu'.</translation>
+    </message>
+    <message>
+        <source>Test addresses</source>
+        <translation>waHmeH Daqmey</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers</source>
+        <translation>HevwI'pu'vaD yIngeH</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers ...</source>
+        <translation>HevwI'pu'vaD yIngeH ...</translation>
+    </message>
+    <message>
+        <source>Send now</source>
+        <translation>DaH yIngeH</translation>
+    </message>
+    <message>
+        <source>The edition is queued: the newsletter's cronjob sends it to the subscribers.</source>
+        <translation>tlheghDaq mI' tu'lu': HevwI'pu'vaD ngeH QInmey cronjob.</translation>
+    </message>
+    <message>
+        <source>Send "%name" to the %n subscribers of "%list" now? This cannot be taken back here.</source>
+        <translation>"%list" %n HevwI'pu'vaD DaH "%name" DangeH'a'? naDev DacheghmoHlaHbe'.</translation>
+    </message>
+    <message>
+        <source>Newsletter</source>
+        <translation>QInmey</translation>
+    </message>
+    <message>
+        <source>This edition is being sent.</source>
+        <translation>ngeHlu'taH mI' vam.</translation>
+    </message>
+    <message>
+        <source>This edition was sent and is in the archive.</source>
+        <translation>ngeHlu'pu' mI' vam 'ej qonDaq ghaHtaH.</translation>
+    </message>
+    <message>
+        <source>This edition waits for its approval. It can be sent when it is approved.</source>
+        <translation>chaw' loStaH mI' vam. chaw'lu'DI' ngeHlaHlu'.</translation>
+    </message>
+    <message>
+        <source>This edition was rejected. Change it and ask for the approval again.</source>
+        <translation>lajQo'lu'pu' mI' vam. yIchoH 'ej chaw' yItlhobqa'.</translation>
+    </message>
+    <message>
+        <source>The list needs an approval before an edition is sent. Ask for the approval in the administration.</source>
+        <translation>mI' ngeHpa'lu' chaw' poQ tetlh. loHmeH Daq chaw' yItlhob.</translation>
+    </message>
+    <message>
+        <source>The list has no subscribers.</source>
+        <translation>HevwI' ghajbe' tetlh.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>QIn chu'</translation>
     </message>

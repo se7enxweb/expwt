@@ -1044,6 +1044,214 @@
         <translation>Formulare</translation>
     </message>
     <message>
+        <source>There is no such newsletter list.</source>
+        <translation>Această listă de newsletter nu există.</translation>
+    </message>
+    <message>
+        <source>The edition was made, but a workflow holds its publishing. Find it in the administration.</source>
+        <translation>Ediția a fost creată, dar un flux de lucru îi reține publicarea. O găsiți în administrare.</translation>
+    </message>
+    <message>
+        <source>The edition was made, but the page could not be taken into it.</source>
+        <translation>Ediția a fost creată, dar pagina nu a putut fi inclusă în ea.</translation>
+    </message>
+    <message>
+        <source>There is no such edition, or you may not read it.</source>
+        <translation>Această ediție nu există sau nu aveți voie să o citiți.</translation>
+    </message>
+    <message>
+        <source>This edition has no newsletter data.</source>
+        <translation>Această ediție nu are date de newsletter.</translation>
+    </message>
+    <message>
+        <source>Some of the addresses are not valid.</source>
+        <translation>Unele adrese nu sunt valide.</translation>
+    </message>
+    <message>
+        <source>Give at least one address.</source>
+        <translation>Introduceți cel puțin o adresă.</translation>
+    </message>
+    <message>
+        <source>Too many addresses at once.</source>
+        <translation>Prea multe adrese deodată.</translation>
+    </message>
+    <message>
+        <source>The edition was changed in the meantime. Look at it again before you send it.</source>
+        <translation>Ediția a fost modificată între timp. Verificați-o din nou înainte de a o trimite.</translation>
+    </message>
+    <message>
+        <source>The send could not be made.</source>
+        <translation>Trimiterea nu a putut fi efectuată.</translation>
+    </message>
+    <message>
+        <source>Sending to the subscribers needs "Verify it's you", which is switched off here. Send it in the administration.</source>
+        <translation>Trimiterea către abonați necesită „Confirmați că sunteți dumneavoastră”, care este dezactivat aici. Trimiteți-o din administrare.</translation>
+    </message>
+    <message>
+        <source>Please confirm it is you first.</source>
+        <translation>Confirmați mai întâi că sunteți dumneavoastră.</translation>
+    </message>
+    <message>
+        <source>Editions with this page</source>
+        <translation>Ediții cu această pagină</translation>
+    </message>
+    <message>
+        <source>This page is in no edition yet.</source>
+        <translation>Această pagină nu este încă în nicio ediție.</translation>
+    </message>
+    <message>
+        <source>Being sent</source>
+        <translation>Se trimite</translation>
+    </message>
+    <message>
+        <source>Sent, in the archive</source>
+        <translation>Trimisă, în arhivă</translation>
+    </message>
+    <message>
+        <source>Stopped</source>
+        <translation>Oprită</translation>
+    </message>
+    <message>
+        <source>%n subscribers</source>
+        <translation>%n abonați</translation>
+    </message>
+    <message>
+        <source>Make an edition from this page</source>
+        <translation>Creați o ediție din această pagină</translation>
+    </message>
+    <message>
+        <source>There is no newsletter list where you may make an edition.</source>
+        <translation>Nu există nicio listă de newsletter în care să puteți crea o ediție.</translation>
+    </message>
+    <message>
+        <source>Make the edition</source>
+        <translation>Creați ediția</translation>
+    </message>
+    <message>
+        <source>Newsletter list</source>
+        <translation>Listă de newsletter</translation>
+    </message>
+    <message>
+        <source>Introduction (optional)</source>
+        <translation>Introducere (opțional)</translation>
+    </message>
+    <message>
+        <source>This page becomes the edition's article: its title, its intro and a link to it.</source>
+        <translation>Această pagină devine articolul ediției: titlul, introducerea și un link către ea.</translation>
+    </message>
+    <message>
+        <source>The edition was made, with this page as its article.</source>
+        <translation>Ediția a fost creată, cu această pagină ca articol.</translation>
+    </message>
+    <message>
+        <source>not asked for yet</source>
+        <translation>încă nesolicitată</translation>
+    </message>
+    <message>
+        <source>waiting</source>
+        <translation>în așteptare</translation>
+    </message>
+    <message>
+        <source>approved</source>
+        <translation>aprobată</translation>
+    </message>
+    <message>
+        <source>rejected</source>
+        <translation>respinsă</translation>
+    </message>
+    <message>
+        <source>Approval: %state</source>
+        <translation>Aprobare: %state</translation>
+    </message>
+    <message>
+        <source>waiting for the cronjob</source>
+        <translation>așteaptă cronjobul</translation>
+    </message>
+    <message>
+        <source>queued</source>
+        <translation>în coadă</translation>
+    </message>
+    <message>
+        <source>being sent</source>
+        <translation>se trimite</translation>
+    </message>
+    <message>
+        <source>sent</source>
+        <translation>trimisă</translation>
+    </message>
+    <message>
+        <source>stopped</source>
+        <translation>oprită</translation>
+    </message>
+    <message>
+        <source>Last send: %state, %time</source>
+        <translation>Ultima trimitere: %state, %time</translation>
+    </message>
+    <message>
+        <source>Send a test</source>
+        <translation>Trimiteți un test</translation>
+    </message>
+    <message>
+        <source>The test could not be sent.</source>
+        <translation>Testul nu a putut fi trimis.</translation>
+    </message>
+    <message>
+        <source>The test was sent to %list.</source>
+        <translation>Testul a fost trimis la %list.</translation>
+    </message>
+    <message>
+        <source>Test addresses</source>
+        <translation>Adrese de test</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers</source>
+        <translation>Trimiteți abonaților</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers ...</source>
+        <translation>Trimiteți abonaților ...</translation>
+    </message>
+    <message>
+        <source>Send now</source>
+        <translation>Trimiteți acum</translation>
+    </message>
+    <message>
+        <source>The edition is queued: the newsletter's cronjob sends it to the subscribers.</source>
+        <translation>Ediția este în coadă: cronjobul newsletterului o trimite abonaților.</translation>
+    </message>
+    <message>
+        <source>Send "%name" to the %n subscribers of "%list" now? This cannot be taken back here.</source>
+        <translation>Trimiteți acum „%name” celor %n abonați ai listei „%list”? Acest lucru nu poate fi anulat aici.</translation>
+    </message>
+    <message>
+        <source>Newsletter</source>
+        <translation>Newsletter</translation>
+    </message>
+    <message>
+        <source>This edition is being sent.</source>
+        <translation>Această ediție se trimite.</translation>
+    </message>
+    <message>
+        <source>This edition was sent and is in the archive.</source>
+        <translation>Această ediție a fost trimisă și se află în arhivă.</translation>
+    </message>
+    <message>
+        <source>This edition waits for its approval. It can be sent when it is approved.</source>
+        <translation>Această ediție așteaptă aprobarea. Poate fi trimisă după ce este aprobată.</translation>
+    </message>
+    <message>
+        <source>This edition was rejected. Change it and ask for the approval again.</source>
+        <translation>Această ediție a fost respinsă. Modificați-o și cereți din nou aprobarea.</translation>
+    </message>
+    <message>
+        <source>The list needs an approval before an edition is sent. Ask for the approval in the administration.</source>
+        <translation>Lista necesită o aprobare înainte de trimiterea unei ediții. Cereți aprobarea în administrare.</translation>
+    </message>
+    <message>
+        <source>The list has no subscribers.</source>
+        <translation>Lista nu are abonați.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Mesaje primite</translation>
     </message>

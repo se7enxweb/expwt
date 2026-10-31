@@ -1044,6 +1044,214 @@
         <translation>فارم</translation>
     </message>
     <message>
+        <source>There is no such newsletter list.</source>
+        <translation>اهڙي ڪا نيوز ليٽر لسٽ ناهي.</translation>
+    </message>
+    <message>
+        <source>The edition was made, but a workflow holds its publishing. Find it in the administration.</source>
+        <translation>شمارو ٺهي ويو، پر هڪ ورڪ فلو ان جي اشاعت روڪي رهيو آهي. ان کي انتظاميه ۾ ڳوليو.</translation>
+    </message>
+    <message>
+        <source>The edition was made, but the page could not be taken into it.</source>
+        <translation>شمارو ٺهي ويو، پر صفحو ان ۾ شامل نه ٿي سگهيو.</translation>
+    </message>
+    <message>
+        <source>There is no such edition, or you may not read it.</source>
+        <translation>اهڙو ڪو شمارو ناهي، يا توهان کي ان کي پڙهڻ جي اجازت ناهي.</translation>
+    </message>
+    <message>
+        <source>This edition has no newsletter data.</source>
+        <translation>هن شماري ۾ نيوز ليٽر جي ڊيٽا ناهي.</translation>
+    </message>
+    <message>
+        <source>Some of the addresses are not valid.</source>
+        <translation>ڪجهه پتا صحيح ناهن.</translation>
+    </message>
+    <message>
+        <source>Give at least one address.</source>
+        <translation>گهٽ ۾ گهٽ هڪ پتو ڏيو.</translation>
+    </message>
+    <message>
+        <source>Too many addresses at once.</source>
+        <translation>هڪ ئي وقت تمام گهڻا پتا.</translation>
+    </message>
+    <message>
+        <source>The edition was changed in the meantime. Look at it again before you send it.</source>
+        <translation>هن دوران شمارو بدلايو ويو. موڪلڻ کان اڳ ان کي ٻيهر ڏسو.</translation>
+    </message>
+    <message>
+        <source>The send could not be made.</source>
+        <translation>موڪلي نه سگهيو ويو.</translation>
+    </message>
+    <message>
+        <source>Sending to the subscribers needs "Verify it's you", which is switched off here. Send it in the administration.</source>
+        <translation>رڪنن ڏانهن موڪلڻ لاءِ "تصديق ڪريو ته اهو توهان آهيو" گهرجي، جيڪو هتي بند آهي. ان کي انتظاميه ۾ موڪليو.</translation>
+    </message>
+    <message>
+        <source>Please confirm it is you first.</source>
+        <translation>مهرباني ڪري پهرين تصديق ڪريو ته اهو توهان آهيو.</translation>
+    </message>
+    <message>
+        <source>Editions with this page</source>
+        <translation>هن صفحي وارا شمارا</translation>
+    </message>
+    <message>
+        <source>This page is in no edition yet.</source>
+        <translation>هي صفحو اڃا ڪنهن به شماري ۾ ناهي.</translation>
+    </message>
+    <message>
+        <source>Being sent</source>
+        <translation>موڪليو پيو وڃي</translation>
+    </message>
+    <message>
+        <source>Sent, in the archive</source>
+        <translation>موڪليو ويو، آرڪائيو ۾</translation>
+    </message>
+    <message>
+        <source>Stopped</source>
+        <translation>روڪيو ويو</translation>
+    </message>
+    <message>
+        <source>%n subscribers</source>
+        <translation>%n رڪن</translation>
+    </message>
+    <message>
+        <source>Make an edition from this page</source>
+        <translation>هن صفحي مان شمارو ٺاهيو</translation>
+    </message>
+    <message>
+        <source>There is no newsletter list where you may make an edition.</source>
+        <translation>ڪا اهڙي نيوز ليٽر لسٽ ناهي جتي توهان شمارو ٺاهي سگهو.</translation>
+    </message>
+    <message>
+        <source>Make the edition</source>
+        <translation>شمارو ٺاهيو</translation>
+    </message>
+    <message>
+        <source>Newsletter list</source>
+        <translation>نيوز ليٽر لسٽ</translation>
+    </message>
+    <message>
+        <source>Introduction (optional)</source>
+        <translation>تعارف (اختياري)</translation>
+    </message>
+    <message>
+        <source>This page becomes the edition's article: its title, its intro and a link to it.</source>
+        <translation>هي صفحو شماري جو مضمون بڻجي ٿو: ان جو عنوان، ان جو تعارف ۽ ان جي لنڪ.</translation>
+    </message>
+    <message>
+        <source>The edition was made, with this page as its article.</source>
+        <translation>شمارو ٺهي ويو، هن صفحي کي مضمون طور.</translation>
+    </message>
+    <message>
+        <source>not asked for yet</source>
+        <translation>اڃا نه گهريو ويو</translation>
+    </message>
+    <message>
+        <source>waiting</source>
+        <translation>انتظار ۾</translation>
+    </message>
+    <message>
+        <source>approved</source>
+        <translation>منظور</translation>
+    </message>
+    <message>
+        <source>rejected</source>
+        <translation>رد</translation>
+    </message>
+    <message>
+        <source>Approval: %state</source>
+        <translation>منظوري: %state</translation>
+    </message>
+    <message>
+        <source>waiting for the cronjob</source>
+        <translation>ڪرون جاب جي انتظار ۾</translation>
+    </message>
+    <message>
+        <source>queued</source>
+        <translation>قطار ۾</translation>
+    </message>
+    <message>
+        <source>being sent</source>
+        <translation>موڪليو پيو وڃي</translation>
+    </message>
+    <message>
+        <source>sent</source>
+        <translation>موڪليو ويو</translation>
+    </message>
+    <message>
+        <source>stopped</source>
+        <translation>روڪيو ويو</translation>
+    </message>
+    <message>
+        <source>Last send: %state, %time</source>
+        <translation>آخري موڪل: %state، %time</translation>
+    </message>
+    <message>
+        <source>Send a test</source>
+        <translation>ٽيسٽ موڪليو</translation>
+    </message>
+    <message>
+        <source>The test could not be sent.</source>
+        <translation>ٽيسٽ موڪلي نه سگهي.</translation>
+    </message>
+    <message>
+        <source>The test was sent to %list.</source>
+        <translation>ٽيسٽ %list ڏانهن موڪلي وئي.</translation>
+    </message>
+    <message>
+        <source>Test addresses</source>
+        <translation>ٽيسٽ پتا</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers</source>
+        <translation>رڪنن ڏانهن موڪليو</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers ...</source>
+        <translation>رڪنن ڏانهن موڪليو ...</translation>
+    </message>
+    <message>
+        <source>Send now</source>
+        <translation>هاڻي موڪليو</translation>
+    </message>
+    <message>
+        <source>The edition is queued: the newsletter's cronjob sends it to the subscribers.</source>
+        <translation>شمارو قطار ۾ آهي: نيوز ليٽر جو ڪرون جاب ان کي رڪنن ڏانهن موڪلي ٿو.</translation>
+    </message>
+    <message>
+        <source>Send "%name" to the %n subscribers of "%list" now? This cannot be taken back here.</source>
+        <translation>ڇا "%name" هاڻي "%list" جي %n رڪنن ڏانهن موڪليو؟ اهو هتي واپس نٿو ٿي سگهي.</translation>
+    </message>
+    <message>
+        <source>Newsletter</source>
+        <translation>نيوز ليٽر</translation>
+    </message>
+    <message>
+        <source>This edition is being sent.</source>
+        <translation>هي شمارو موڪليو پيو وڃي.</translation>
+    </message>
+    <message>
+        <source>This edition was sent and is in the archive.</source>
+        <translation>هي شمارو موڪليو ويو آهي ۽ آرڪائيو ۾ آهي.</translation>
+    </message>
+    <message>
+        <source>This edition waits for its approval. It can be sent when it is approved.</source>
+        <translation>هي شمارو منظوري جي انتظار ۾ آهي. منظور ٿيڻ کانپوءِ ان کي موڪلي سگهجي ٿو.</translation>
+    </message>
+    <message>
+        <source>This edition was rejected. Change it and ask for the approval again.</source>
+        <translation>هي شمارو رد ڪيو ويو. ان کي بدلايو ۽ ٻيهر منظوري گهرو.</translation>
+    </message>
+    <message>
+        <source>The list needs an approval before an edition is sent. Ask for the approval in the administration.</source>
+        <translation>شمارو موڪلڻ کان اڳ لسٽ کي منظوري گهرجي. انتظاميه ۾ منظوري گهرو.</translation>
+    </message>
+    <message>
+        <source>The list has no subscribers.</source>
+        <translation>لسٽ ۾ ڪو رڪن ناهي.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>آيل خط</translation>
     </message>

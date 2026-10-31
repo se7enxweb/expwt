@@ -1044,6 +1044,214 @@
         <translation>Foomu</translation>
     </message>
     <message>
+        <source>There is no such newsletter list.</source>
+        <translation>Tewali lukalala lwa bbaluwa ya mawulire ng'olwo.</translation>
+    </message>
+    <message>
+        <source>The edition was made, but a workflow holds its publishing. Find it in the administration.</source>
+        <translation>Ekifulumizibwa kikoleddwa, naye enkola y'emirimu ekuumye okukifulumya. Kinoonye mu bukulembeze.</translation>
+    </message>
+    <message>
+        <source>The edition was made, but the page could not be taken into it.</source>
+        <translation>Ekifulumizibwa kikoleddwa, naye olupapula terwasobodde kukiyingizibwamu.</translation>
+    </message>
+    <message>
+        <source>There is no such edition, or you may not read it.</source>
+        <translation>Tewali kifulumizibwa ng'ekyo, oba tokkirizibwa kukisoma.</translation>
+    </message>
+    <message>
+        <source>This edition has no newsletter data.</source>
+        <translation>Ekifulumizibwa kino tekirina bya bbaluwa ya mawulire.</translation>
+    </message>
+    <message>
+        <source>Some of the addresses are not valid.</source>
+        <translation>Endagiriro ezimu si ntuufu.</translation>
+    </message>
+    <message>
+        <source>Give at least one address.</source>
+        <translation>Wa waakiri endagiriro emu.</translation>
+    </message>
+    <message>
+        <source>Too many addresses at once.</source>
+        <translation>Endagiriro nnyingi nnyo omulundi gumu.</translation>
+    </message>
+    <message>
+        <source>The edition was changed in the meantime. Look at it again before you send it.</source>
+        <translation>Ekifulumizibwa kyakyusiddwa mu kiseera kino. Kitunuulire nate nga tonnakiweereza.</translation>
+    </message>
+    <message>
+        <source>The send could not be made.</source>
+        <translation>Okuweereza tekwasobose.</translation>
+    </message>
+    <message>
+        <source>Sending to the subscribers needs "Verify it's you", which is switched off here. Send it in the administration.</source>
+        <translation>Okuweereza eri abeewandiisa kwetaaga "Kakasa nti ggwe", ekiggaddwa wano. Kiweereze mu bukulembeze.</translation>
+    </message>
+    <message>
+        <source>Please confirm it is you first.</source>
+        <translation>Bambi sooka okakase nti ggwe.</translation>
+    </message>
+    <message>
+        <source>Editions with this page</source>
+        <translation>Ebifulumizibwa ebirimu olupapula luno</translation>
+    </message>
+    <message>
+        <source>This page is in no edition yet.</source>
+        <translation>Olupapula luno terunnaba kubeera mu kifulumizibwa kyonna.</translation>
+    </message>
+    <message>
+        <source>Being sent</source>
+        <translation>Kiweerezebwa</translation>
+    </message>
+    <message>
+        <source>Sent, in the archive</source>
+        <translation>Kiweerezeddwa, kiri mu tterekero</translation>
+    </message>
+    <message>
+        <source>Stopped</source>
+        <translation>Kiyimiriziddwa</translation>
+    </message>
+    <message>
+        <source>%n subscribers</source>
+        <translation>Abeewandiisa %n</translation>
+    </message>
+    <message>
+        <source>Make an edition from this page</source>
+        <translation>Kola ekifulumizibwa okuva ku lupapula luno</translation>
+    </message>
+    <message>
+        <source>There is no newsletter list where you may make an edition.</source>
+        <translation>Tewali lukalala lwa bbaluwa ya mawulire w'okkirizibwa okukola ekifulumizibwa.</translation>
+    </message>
+    <message>
+        <source>Make the edition</source>
+        <translation>Kola ekifulumizibwa</translation>
+    </message>
+    <message>
+        <source>Newsletter list</source>
+        <translation>Olukalala lw'ebbaluwa y'amawulire</translation>
+    </message>
+    <message>
+        <source>Introduction (optional)</source>
+        <translation>Ennyanjula (si kya tteeka)</translation>
+    </message>
+    <message>
+        <source>This page becomes the edition's article: its title, its intro and a link to it.</source>
+        <translation>Olupapula luno lufuuka ekiwandiiko ky'ekifulumizibwa: omutwe gwalwo, ennyanjula yaalwo n'enkolagana gye luli.</translation>
+    </message>
+    <message>
+        <source>The edition was made, with this page as its article.</source>
+        <translation>Ekifulumizibwa kikoleddwa, nga olupapula luno kye kiwandiiko kyakyo.</translation>
+    </message>
+    <message>
+        <source>not asked for yet</source>
+        <translation>tekinnasabibwa</translation>
+    </message>
+    <message>
+        <source>waiting</source>
+        <translation>kirindiridde</translation>
+    </message>
+    <message>
+        <source>approved</source>
+        <translation>kikkiriziddwa</translation>
+    </message>
+    <message>
+        <source>rejected</source>
+        <translation>kigaaniddwa</translation>
+    </message>
+    <message>
+        <source>Approval: %state</source>
+        <translation>Okukkiriza: %state</translation>
+    </message>
+    <message>
+        <source>waiting for the cronjob</source>
+        <translation>kirindiridde cronjob</translation>
+    </message>
+    <message>
+        <source>queued</source>
+        <translation>kiri mu lunyiriri</translation>
+    </message>
+    <message>
+        <source>being sent</source>
+        <translation>kiweerezebwa</translation>
+    </message>
+    <message>
+        <source>sent</source>
+        <translation>kiweerezeddwa</translation>
+    </message>
+    <message>
+        <source>stopped</source>
+        <translation>kiyimiriziddwa</translation>
+    </message>
+    <message>
+        <source>Last send: %state, %time</source>
+        <translation>Okuweereza okusembayo: %state, %time</translation>
+    </message>
+    <message>
+        <source>Send a test</source>
+        <translation>Weereza ekigezo</translation>
+    </message>
+    <message>
+        <source>The test could not be sent.</source>
+        <translation>Ekigezo tekyasobose kuweerezebwa.</translation>
+    </message>
+    <message>
+        <source>The test was sent to %list.</source>
+        <translation>Ekigezo kiweerezeddwa eri %list.</translation>
+    </message>
+    <message>
+        <source>Test addresses</source>
+        <translation>Endagiriro z'ekigezo</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers</source>
+        <translation>Weereza eri abeewandiisa</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers ...</source>
+        <translation>Weereza eri abeewandiisa ...</translation>
+    </message>
+    <message>
+        <source>Send now</source>
+        <translation>Weereza kati</translation>
+    </message>
+    <message>
+        <source>The edition is queued: the newsletter's cronjob sends it to the subscribers.</source>
+        <translation>Ekifulumizibwa kiri mu lunyiriri: cronjob y'ebbaluwa y'amawulire ekiweereza eri abeewandiisa.</translation>
+    </message>
+    <message>
+        <source>Send "%name" to the %n subscribers of "%list" now? This cannot be taken back here.</source>
+        <translation>Weereza "%name" eri abeewandiisa %n ab'oku "%list" kati? Kino tekisobola kuzzibwayo wano.</translation>
+    </message>
+    <message>
+        <source>Newsletter</source>
+        <translation>Ebbaluwa y'amawulire</translation>
+    </message>
+    <message>
+        <source>This edition is being sent.</source>
+        <translation>Ekifulumizibwa kino kiweerezebwa.</translation>
+    </message>
+    <message>
+        <source>This edition was sent and is in the archive.</source>
+        <translation>Ekifulumizibwa kino kyaweerezeddwa era kiri mu tterekero.</translation>
+    </message>
+    <message>
+        <source>This edition waits for its approval. It can be sent when it is approved.</source>
+        <translation>Ekifulumizibwa kino kirindiridde okukkirizibwa. Kisobola okuweerezebwa nga kikkiriziddwa.</translation>
+    </message>
+    <message>
+        <source>This edition was rejected. Change it and ask for the approval again.</source>
+        <translation>Ekifulumizibwa kino kyagaaniddwa. Kikyuse era osabe nate okukkirizibwa.</translation>
+    </message>
+    <message>
+        <source>The list needs an approval before an edition is sent. Ask for the approval in the administration.</source>
+        <translation>Olukalala lwetaaga okukkirizibwa ng'ekifulumizibwa tekinnaweerezebwa. Saba okukkirizibwa mu bukulembeze.</translation>
+    </message>
+    <message>
+        <source>The list has no subscribers.</source>
+        <translation>Olukalala terulina beewandiisa.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Ebibaluwa ebiyingira</translation>
     </message>

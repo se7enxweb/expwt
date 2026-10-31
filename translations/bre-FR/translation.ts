@@ -1044,6 +1044,214 @@
         <translation>Furmskridoù</translation>
     </message>
     <message>
+        <source>There is no such newsletter list.</source>
+        <translation>N'eus ket eus ar roll lizher-keleier-se.</translation>
+    </message>
+    <message>
+        <source>The edition was made, but a workflow holds its publishing. Find it in the administration.</source>
+        <translation>Graet eo bet an niverenn, met un dro-labour a zalc'h he embann. Kavit anezhi er merañ.</translation>
+    </message>
+    <message>
+        <source>The edition was made, but the page could not be taken into it.</source>
+        <translation>Graet eo bet an niverenn, met n'eus ket bet gallet lakaat ar bajenn enni.</translation>
+    </message>
+    <message>
+        <source>There is no such edition, or you may not read it.</source>
+        <translation>N'eus ket eus an niverenn-se, pe n'oc'h ket aotreet d'he lenn.</translation>
+    </message>
+    <message>
+        <source>This edition has no newsletter data.</source>
+        <translation>N'eus roadenn lizher-keleier ebet en niverenn-mañ.</translation>
+    </message>
+    <message>
+        <source>Some of the addresses are not valid.</source>
+        <translation>Lod eus ar chomlec'hioù n'int ket reizh.</translation>
+    </message>
+    <message>
+        <source>Give at least one address.</source>
+        <translation>Roit ur chomlec'h d'an nebeutañ.</translation>
+    </message>
+    <message>
+        <source>Too many addresses at once.</source>
+        <translation>Re a chomlec'hioù war un dro.</translation>
+    </message>
+    <message>
+        <source>The edition was changed in the meantime. Look at it again before you send it.</source>
+        <translation>Kemmet eo bet an niverenn en amzer-se. Sellit outi en-dro a-raok he c'has.</translation>
+    </message>
+    <message>
+        <source>The send could not be made.</source>
+        <translation>N'eus ket bet gallet ober ar c'hasadenn.</translation>
+    </message>
+    <message>
+        <source>Sending to the subscribers needs "Verify it's you", which is switched off here. Send it in the administration.</source>
+        <translation>Evit kas d'ar goumananterien eo ret kaout « Gwiriit ez eo c'hwi », hag a zo lazhet amañ. Kasit anezhi er merañ.</translation>
+    </message>
+    <message>
+        <source>Please confirm it is you first.</source>
+        <translation>Gwiriit ez eo c'hwi da gentañ, mar plij.</translation>
+    </message>
+    <message>
+        <source>Editions with this page</source>
+        <translation>Niverennoù gant ar bajenn-mañ</translation>
+    </message>
+    <message>
+        <source>This page is in no edition yet.</source>
+        <translation>N'emañ ar bajenn-mañ en niverenn ebet c'hoazh.</translation>
+    </message>
+    <message>
+        <source>Being sent</source>
+        <translation>O vezañ kaset</translation>
+    </message>
+    <message>
+        <source>Sent, in the archive</source>
+        <translation>Kaset, en dielloù</translation>
+    </message>
+    <message>
+        <source>Stopped</source>
+        <translation>Paouezet</translation>
+    </message>
+    <message>
+        <source>%n subscribers</source>
+        <translation>%n koumananter</translation>
+    </message>
+    <message>
+        <source>Make an edition from this page</source>
+        <translation>Ober un niverenn gant ar bajenn-mañ</translation>
+    </message>
+    <message>
+        <source>There is no newsletter list where you may make an edition.</source>
+        <translation>N'eus roll lizher-keleier ebet ma c'hallfec'h ober un niverenn ennañ.</translation>
+    </message>
+    <message>
+        <source>Make the edition</source>
+        <translation>Ober an niverenn</translation>
+    </message>
+    <message>
+        <source>Newsletter list</source>
+        <translation>Roll lizher-keleier</translation>
+    </message>
+    <message>
+        <source>Introduction (optional)</source>
+        <translation>Digoradur (diret)</translation>
+    </message>
+    <message>
+        <source>This page becomes the edition's article: its title, its intro and a link to it.</source>
+        <translation>Ar bajenn-mañ a zeu da vezañ pennad an niverenn: he zitl, he digoradur hag ul liamm warni.</translation>
+    </message>
+    <message>
+        <source>The edition was made, with this page as its article.</source>
+        <translation>Graet eo bet an niverenn, gant ar bajenn-mañ da bennad.</translation>
+    </message>
+    <message>
+        <source>not asked for yet</source>
+        <translation>n'eo ket bet goulennet c'hoazh</translation>
+    </message>
+    <message>
+        <source>waiting</source>
+        <translation>o c'hortoz</translation>
+    </message>
+    <message>
+        <source>approved</source>
+        <translation>aprouet</translation>
+    </message>
+    <message>
+        <source>rejected</source>
+        <translation>nac'het</translation>
+    </message>
+    <message>
+        <source>Approval: %state</source>
+        <translation>Aprouadur: %state</translation>
+    </message>
+    <message>
+        <source>waiting for the cronjob</source>
+        <translation>o c'hortoz ar cronjob</translation>
+    </message>
+    <message>
+        <source>queued</source>
+        <translation>el lostennad</translation>
+    </message>
+    <message>
+        <source>being sent</source>
+        <translation>o vezañ kaset</translation>
+    </message>
+    <message>
+        <source>sent</source>
+        <translation>kaset</translation>
+    </message>
+    <message>
+        <source>stopped</source>
+        <translation>paouezet</translation>
+    </message>
+    <message>
+        <source>Last send: %state, %time</source>
+        <translation>Kasadenn diwezhañ: %state, %time</translation>
+    </message>
+    <message>
+        <source>Send a test</source>
+        <translation>Kas un amprouadenn</translation>
+    </message>
+    <message>
+        <source>The test could not be sent.</source>
+        <translation>N'eus ket bet gallet kas an amprouadenn.</translation>
+    </message>
+    <message>
+        <source>The test was sent to %list.</source>
+        <translation>Kaset eo bet an amprouadenn da %list.</translation>
+    </message>
+    <message>
+        <source>Test addresses</source>
+        <translation>Chomlec'hioù amprouiñ</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers</source>
+        <translation>Kas d'ar goumananterien</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers ...</source>
+        <translation>Kas d'ar goumananterien ...</translation>
+    </message>
+    <message>
+        <source>Send now</source>
+        <translation>Kas bremañ</translation>
+    </message>
+    <message>
+        <source>The edition is queued: the newsletter's cronjob sends it to the subscribers.</source>
+        <translation>Emañ an niverenn el lostennad: cronjob al lizher-keleier a gas anezhi d'ar goumananterien.</translation>
+    </message>
+    <message>
+        <source>Send "%name" to the %n subscribers of "%list" now? This cannot be taken back here.</source>
+        <translation>Kas « %name » bremañ d'an %n koumananter eus « %list » ? N'haller ket nullañ an dra-se amañ.</translation>
+    </message>
+    <message>
+        <source>Newsletter</source>
+        <translation>Lizher-keleier</translation>
+    </message>
+    <message>
+        <source>This edition is being sent.</source>
+        <translation>Emeur o kas an niverenn-mañ.</translation>
+    </message>
+    <message>
+        <source>This edition was sent and is in the archive.</source>
+        <translation>Kaset eo bet an niverenn-mañ hag emañ en dielloù.</translation>
+    </message>
+    <message>
+        <source>This edition waits for its approval. It can be sent when it is approved.</source>
+        <translation>Gortoz a ra an niverenn-mañ he aprouadur. Gallout a ray bezañ kaset pa vo aprouet.</translation>
+    </message>
+    <message>
+        <source>This edition was rejected. Change it and ask for the approval again.</source>
+        <translation>Nac'het eo bet an niverenn-mañ. Kemmit anezhi ha goulennit an aprouadur en-dro.</translation>
+    </message>
+    <message>
+        <source>The list needs an approval before an edition is sent. Ask for the approval in the administration.</source>
+        <translation>Ezhomm en deus ar roll eus un aprouadur a-raok kas un niverenn. Goulennit an aprouadur er merañ.</translation>
+    </message>
+    <message>
+        <source>The list has no subscribers.</source>
+        <translation>N'eus koumananter ebet er roll.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Boest-degemer</translation>
     </message>

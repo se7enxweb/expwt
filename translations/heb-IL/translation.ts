@@ -1044,6 +1044,214 @@
         <translation>טפסים</translation>
     </message>
     <message>
+        <source>There is no such newsletter list.</source>
+        <translation>רשימת הניוזלטר הזו אינה קיימת.</translation>
+    </message>
+    <message>
+        <source>The edition was made, but a workflow holds its publishing. Find it in the administration.</source>
+        <translation>הגיליון נוצר, אך תהליך עבודה מעכב את פרסומו. אפשר למצוא אותו בניהול.</translation>
+    </message>
+    <message>
+        <source>The edition was made, but the page could not be taken into it.</source>
+        <translation>הגיליון נוצר, אך לא ניתן היה להכניס אליו את הדף.</translation>
+    </message>
+    <message>
+        <source>There is no such edition, or you may not read it.</source>
+        <translation>הגיליון הזה אינו קיים, או שאין לך הרשאה לקרוא אותו.</translation>
+    </message>
+    <message>
+        <source>This edition has no newsletter data.</source>
+        <translation>לגיליון הזה אין נתוני ניוזלטר.</translation>
+    </message>
+    <message>
+        <source>Some of the addresses are not valid.</source>
+        <translation>חלק מהכתובות אינן תקינות.</translation>
+    </message>
+    <message>
+        <source>Give at least one address.</source>
+        <translation>יש לציין לפחות כתובת אחת.</translation>
+    </message>
+    <message>
+        <source>Too many addresses at once.</source>
+        <translation>יותר מדי כתובות בבת אחת.</translation>
+    </message>
+    <message>
+        <source>The edition was changed in the meantime. Look at it again before you send it.</source>
+        <translation>הגיליון שונה בינתיים. יש לעיין בו שוב לפני השליחה.</translation>
+    </message>
+    <message>
+        <source>The send could not be made.</source>
+        <translation>לא ניתן היה לבצע את השליחה.</translation>
+    </message>
+    <message>
+        <source>Sending to the subscribers needs "Verify it's you", which is switched off here. Send it in the administration.</source>
+        <translation>שליחה למנויים דורשת "אימות זהות", שכבוי כאן. יש לשלוח מהניהול.</translation>
+    </message>
+    <message>
+        <source>Please confirm it is you first.</source>
+        <translation>נא לאשר קודם את הזהות.</translation>
+    </message>
+    <message>
+        <source>Editions with this page</source>
+        <translation>גיליונות עם הדף הזה</translation>
+    </message>
+    <message>
+        <source>This page is in no edition yet.</source>
+        <translation>הדף הזה עדיין אינו באף גיליון.</translation>
+    </message>
+    <message>
+        <source>Being sent</source>
+        <translation>בשליחה</translation>
+    </message>
+    <message>
+        <source>Sent, in the archive</source>
+        <translation>נשלח, בארכיון</translation>
+    </message>
+    <message>
+        <source>Stopped</source>
+        <translation>נעצר</translation>
+    </message>
+    <message>
+        <source>%n subscribers</source>
+        <translation>%n מנויים</translation>
+    </message>
+    <message>
+        <source>Make an edition from this page</source>
+        <translation>יצירת גיליון מהדף הזה</translation>
+    </message>
+    <message>
+        <source>There is no newsletter list where you may make an edition.</source>
+        <translation>אין רשימת ניוזלטר שבה מותר לך ליצור גיליון.</translation>
+    </message>
+    <message>
+        <source>Make the edition</source>
+        <translation>יצירת הגיליון</translation>
+    </message>
+    <message>
+        <source>Newsletter list</source>
+        <translation>רשימת ניוזלטר</translation>
+    </message>
+    <message>
+        <source>Introduction (optional)</source>
+        <translation>מבוא (רשות)</translation>
+    </message>
+    <message>
+        <source>This page becomes the edition's article: its title, its intro and a link to it.</source>
+        <translation>הדף הזה הופך למאמר של הגיליון: הכותרת שלו, המבוא שלו וקישור אליו.</translation>
+    </message>
+    <message>
+        <source>The edition was made, with this page as its article.</source>
+        <translation>הגיליון נוצר, עם הדף הזה כמאמר שלו.</translation>
+    </message>
+    <message>
+        <source>not asked for yet</source>
+        <translation>טרם התבקש</translation>
+    </message>
+    <message>
+        <source>waiting</source>
+        <translation>ממתין</translation>
+    </message>
+    <message>
+        <source>approved</source>
+        <translation>אושר</translation>
+    </message>
+    <message>
+        <source>rejected</source>
+        <translation>נדחה</translation>
+    </message>
+    <message>
+        <source>Approval: %state</source>
+        <translation>אישור: %state</translation>
+    </message>
+    <message>
+        <source>waiting for the cronjob</source>
+        <translation>ממתין ל-cronjob</translation>
+    </message>
+    <message>
+        <source>queued</source>
+        <translation>בתור</translation>
+    </message>
+    <message>
+        <source>being sent</source>
+        <translation>בשליחה</translation>
+    </message>
+    <message>
+        <source>sent</source>
+        <translation>נשלח</translation>
+    </message>
+    <message>
+        <source>stopped</source>
+        <translation>נעצר</translation>
+    </message>
+    <message>
+        <source>Last send: %state, %time</source>
+        <translation>שליחה אחרונה: %state, %time</translation>
+    </message>
+    <message>
+        <source>Send a test</source>
+        <translation>שליחת בדיקה</translation>
+    </message>
+    <message>
+        <source>The test could not be sent.</source>
+        <translation>לא ניתן היה לשלוח את הבדיקה.</translation>
+    </message>
+    <message>
+        <source>The test was sent to %list.</source>
+        <translation>הבדיקה נשלחה אל %list.</translation>
+    </message>
+    <message>
+        <source>Test addresses</source>
+        <translation>כתובות לבדיקה</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers</source>
+        <translation>שליחה למנויים</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers ...</source>
+        <translation>שליחה למנויים ...</translation>
+    </message>
+    <message>
+        <source>Send now</source>
+        <translation>לשלוח עכשיו</translation>
+    </message>
+    <message>
+        <source>The edition is queued: the newsletter's cronjob sends it to the subscribers.</source>
+        <translation>הגיליון בתור: ה-cronjob של הניוזלטר שולח אותו למנויים.</translation>
+    </message>
+    <message>
+        <source>Send "%name" to the %n subscribers of "%list" now? This cannot be taken back here.</source>
+        <translation>לשלוח את "%name" ל-%n המנויים של "%list" עכשיו? לא ניתן לבטל זאת כאן.</translation>
+    </message>
+    <message>
+        <source>Newsletter</source>
+        <translation>ניוזלטר</translation>
+    </message>
+    <message>
+        <source>This edition is being sent.</source>
+        <translation>הגיליון הזה נמצא בשליחה.</translation>
+    </message>
+    <message>
+        <source>This edition was sent and is in the archive.</source>
+        <translation>הגיליון הזה נשלח ונמצא בארכיון.</translation>
+    </message>
+    <message>
+        <source>This edition waits for its approval. It can be sent when it is approved.</source>
+        <translation>הגיליון הזה ממתין לאישור. אפשר לשלוח אותו לאחר שיאושר.</translation>
+    </message>
+    <message>
+        <source>This edition was rejected. Change it and ask for the approval again.</source>
+        <translation>הגיליון הזה נדחה. יש לשנות אותו ולבקש אישור שוב.</translation>
+    </message>
+    <message>
+        <source>The list needs an approval before an edition is sent. Ask for the approval in the administration.</source>
+        <translation>הרשימה דורשת אישור לפני שליחת גיליון. יש לבקש את האישור בניהול.</translation>
+    </message>
+    <message>
+        <source>The list has no subscribers.</source>
+        <translation>לרשימה אין מנויים.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>תיבת דואר נכנס</translation>
     </message>

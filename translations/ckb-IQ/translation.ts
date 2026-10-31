@@ -1044,6 +1044,214 @@
         <translation>فۆرمەکان</translation>
     </message>
     <message>
+        <source>There is no such newsletter list.</source>
+        <translation>لیستێکی هەواڵنامەی وا نییە.</translation>
+    </message>
+    <message>
+        <source>The edition was made, but a workflow holds its publishing. Find it in the administration.</source>
+        <translation>ژمارەکە دروستکرا، بەڵام ڕەوتی کارێک بڵاوکردنەوەکەی ڕاگرتووە. لە بەڕێوەبردندا بیدۆزەوە.</translation>
+    </message>
+    <message>
+        <source>The edition was made, but the page could not be taken into it.</source>
+        <translation>ژمارەکە دروستکرا، بەڵام نەتوانرا پەڕەکە بخرێتە ناوی.</translation>
+    </message>
+    <message>
+        <source>There is no such edition, or you may not read it.</source>
+        <translation>ژمارەیەکی وا نییە، یان ڕێگەت پێ نادرێت بیخوێنیتەوە.</translation>
+    </message>
+    <message>
+        <source>This edition has no newsletter data.</source>
+        <translation>ئەم ژمارەیە هیچ زانیاریی هەواڵنامەی نییە.</translation>
+    </message>
+    <message>
+        <source>Some of the addresses are not valid.</source>
+        <translation>هەندێک لە ناونیشانەکان دروست نین.</translation>
+    </message>
+    <message>
+        <source>Give at least one address.</source>
+        <translation>لانیکەم ناونیشانێک بنووسە.</translation>
+    </message>
+    <message>
+        <source>Too many addresses at once.</source>
+        <translation>ناونیشانی زۆر لە یەک کاتدا.</translation>
+    </message>
+    <message>
+        <source>The edition was changed in the meantime. Look at it again before you send it.</source>
+        <translation>لەم ماوەیەدا ژمارەکە گۆڕدرا. پێش ناردنی جارێکی تر سەیری بکەوە.</translation>
+    </message>
+    <message>
+        <source>The send could not be made.</source>
+        <translation>ناردنەکە نەکرا.</translation>
+    </message>
+    <message>
+        <source>Sending to the subscribers needs "Verify it's you", which is switched off here. Send it in the administration.</source>
+        <translation>ناردن بۆ بەشداربووان پێویستی بە «بیسەلمێنە کە خۆتی» هەیە، کە لێرە کوژاوەتەوە. لە بەڕێوەبردندا بینێرە.</translation>
+    </message>
+    <message>
+        <source>Please confirm it is you first.</source>
+        <translation>تکایە سەرەتا بیسەلمێنە کە خۆتی.</translation>
+    </message>
+    <message>
+        <source>Editions with this page</source>
+        <translation>ژمارەکان کە ئەم پەڕەیەیان تێدایە</translation>
+    </message>
+    <message>
+        <source>This page is in no edition yet.</source>
+        <translation>ئەم پەڕەیە هێشتا لە هیچ ژمارەیەکدا نییە.</translation>
+    </message>
+    <message>
+        <source>Being sent</source>
+        <translation>دەنێردرێت</translation>
+    </message>
+    <message>
+        <source>Sent, in the archive</source>
+        <translation>نێردرا، لە ئەرشیفدا</translation>
+    </message>
+    <message>
+        <source>Stopped</source>
+        <translation>ڕاگیرا</translation>
+    </message>
+    <message>
+        <source>%n subscribers</source>
+        <translation>%n بەشداربوو</translation>
+    </message>
+    <message>
+        <source>Make an edition from this page</source>
+        <translation>لەم پەڕەیە ژمارەیەک دروست بکە</translation>
+    </message>
+    <message>
+        <source>There is no newsletter list where you may make an edition.</source>
+        <translation>هیچ لیستێکی هەواڵنامە نییە کە بتوانیت ژمارەی تێدا دروست بکەیت.</translation>
+    </message>
+    <message>
+        <source>Make the edition</source>
+        <translation>ژمارەکە دروست بکە</translation>
+    </message>
+    <message>
+        <source>Newsletter list</source>
+        <translation>لیستی هەواڵنامە</translation>
+    </message>
+    <message>
+        <source>Introduction (optional)</source>
+        <translation>پێشەکی (ئارەزوومەندانە)</translation>
+    </message>
+    <message>
+        <source>This page becomes the edition's article: its title, its intro and a link to it.</source>
+        <translation>ئەم پەڕەیە دەبێتە وتاری ژمارەکە: سەردێڕەکەی، پێشەکییەکەی و بەستەرێک بۆی.</translation>
+    </message>
+    <message>
+        <source>The edition was made, with this page as its article.</source>
+        <translation>ژمارەکە دروستکرا، ئەم پەڕەیە وتارەکەیەتی.</translation>
+    </message>
+    <message>
+        <source>not asked for yet</source>
+        <translation>هێشتا داوا نەکراوە</translation>
+    </message>
+    <message>
+        <source>waiting</source>
+        <translation>چاوەڕێ</translation>
+    </message>
+    <message>
+        <source>approved</source>
+        <translation>پەسەندکرا</translation>
+    </message>
+    <message>
+        <source>rejected</source>
+        <translation>ڕەتکرایەوە</translation>
+    </message>
+    <message>
+        <source>Approval: %state</source>
+        <translation>پەسەندکردن: %state</translation>
+    </message>
+    <message>
+        <source>waiting for the cronjob</source>
+        <translation>چاوەڕێی کرۆنجۆب</translation>
+    </message>
+    <message>
+        <source>queued</source>
+        <translation>لە ڕیزدا</translation>
+    </message>
+    <message>
+        <source>being sent</source>
+        <translation>دەنێردرێت</translation>
+    </message>
+    <message>
+        <source>sent</source>
+        <translation>نێردرا</translation>
+    </message>
+    <message>
+        <source>stopped</source>
+        <translation>ڕاگیرا</translation>
+    </message>
+    <message>
+        <source>Last send: %state, %time</source>
+        <translation>دوایین ناردن: %state، %time</translation>
+    </message>
+    <message>
+        <source>Send a test</source>
+        <translation>تاقیکردنەوەیەک بنێرە</translation>
+    </message>
+    <message>
+        <source>The test could not be sent.</source>
+        <translation>تاقیکردنەوەکە نەنێردرا.</translation>
+    </message>
+    <message>
+        <source>The test was sent to %list.</source>
+        <translation>تاقیکردنەوەکە نێردرا بۆ %list.</translation>
+    </message>
+    <message>
+        <source>Test addresses</source>
+        <translation>ناونیشانەکانی تاقیکردنەوە</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers</source>
+        <translation>بینێرە بۆ بەشداربووان</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers ...</source>
+        <translation>بینێرە بۆ بەشداربووان ...</translation>
+    </message>
+    <message>
+        <source>Send now</source>
+        <translation>ئێستا بینێرە</translation>
+    </message>
+    <message>
+        <source>The edition is queued: the newsletter's cronjob sends it to the subscribers.</source>
+        <translation>ژمارەکە لە ڕیزدایە: کرۆنجۆبی هەواڵنامەکە بۆ بەشداربووانی دەنێرێت.</translation>
+    </message>
+    <message>
+        <source>Send "%name" to the %n subscribers of "%list" now? This cannot be taken back here.</source>
+        <translation>ئێستا «%name» بنێردرێت بۆ %n بەشداربووی «%list»؟ لێرە ناگەڕێتەوە.</translation>
+    </message>
+    <message>
+        <source>Newsletter</source>
+        <translation>هەواڵنامە</translation>
+    </message>
+    <message>
+        <source>This edition is being sent.</source>
+        <translation>ئەم ژمارەیە دەنێردرێت.</translation>
+    </message>
+    <message>
+        <source>This edition was sent and is in the archive.</source>
+        <translation>ئەم ژمارەیە نێردراوە و لە ئەرشیفدایە.</translation>
+    </message>
+    <message>
+        <source>This edition waits for its approval. It can be sent when it is approved.</source>
+        <translation>ئەم ژمارەیە چاوەڕێی پەسەندکردنە. دوای پەسەندکردن دەتوانرێت بنێردرێت.</translation>
+    </message>
+    <message>
+        <source>This edition was rejected. Change it and ask for the approval again.</source>
+        <translation>ئەم ژمارەیە ڕەتکرایەوە. بیگۆڕە و دووبارە داوای پەسەندکردن بکە.</translation>
+    </message>
+    <message>
+        <source>The list needs an approval before an edition is sent. Ask for the approval in the administration.</source>
+        <translation>لیستەکە پێش ناردنی ژمارە پێویستی بە پەسەندکردن هەیە. لە بەڕێوەبردندا داوای پەسەندکردن بکە.</translation>
+    </message>
+    <message>
+        <source>The list has no subscribers.</source>
+        <translation>لیستەکە هیچ بەشداربوویەکی نییە.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>هاتووەکان</translation>
     </message>

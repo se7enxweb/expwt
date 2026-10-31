@@ -1044,6 +1044,214 @@
         <translation>פֿאָרמולאַרן</translation>
     </message>
     <message>
+        <source>There is no such newsletter list.</source>
+        <translation>אַזאַ נײַעס־בריוו רשימה איז נישטאָ.</translation>
+    </message>
+    <message>
+        <source>The edition was made, but a workflow holds its publishing. Find it in the administration.</source>
+        <translation>די אויסגאַבע איז געמאַכט געוואָרן, אָבער אַן אַרבעטס־גאַנג האַלט אָפּ איר פֿאַרעפֿנטלעכן. געפֿינט זי אין דער אַדמיניסטראַציע.</translation>
+    </message>
+    <message>
+        <source>The edition was made, but the page could not be taken into it.</source>
+        <translation>די אויסגאַבע איז געמאַכט געוואָרן, אָבער מע האָט נישט געקענט אַרײַננעמען דעם בלאַט אין איר.</translation>
+    </message>
+    <message>
+        <source>There is no such edition, or you may not read it.</source>
+        <translation>אַזאַ אויסגאַבע איז נישטאָ, אָדער איר טאָרט זי נישט לייענען.</translation>
+    </message>
+    <message>
+        <source>This edition has no newsletter data.</source>
+        <translation>די אויסגאַבע האָט נישט קיין נײַעס־בריוו דאַטן.</translation>
+    </message>
+    <message>
+        <source>Some of the addresses are not valid.</source>
+        <translation>עטלעכע פֿון די אַדרעסן זענען נישט גילטיק.</translation>
+    </message>
+    <message>
+        <source>Give at least one address.</source>
+        <translation>גיט כאָטש איין אַדרעס.</translation>
+    </message>
+    <message>
+        <source>Too many addresses at once.</source>
+        <translation>צו פֿיל אַדרעסן אויף איין מאָל.</translation>
+    </message>
+    <message>
+        <source>The edition was changed in the meantime. Look at it again before you send it.</source>
+        <translation>די אויסגאַבע איז דערווײַל געביטן געוואָרן. קוקט זי איבער ווידער איידער איר שיקט זי.</translation>
+    </message>
+    <message>
+        <source>The send could not be made.</source>
+        <translation>מע האָט נישט געקענט שיקן.</translation>
+    </message>
+    <message>
+        <source>Sending to the subscribers needs "Verify it's you", which is switched off here. Send it in the administration.</source>
+        <translation>שיקן צו די אַבאָנענטן פֿאָדערט "באַשטעטיקט אַז דאָס זענט איר", וואָס איז דאָ אָפּגעשטעלט. שיקט עס אין דער אַדמיניסטראַציע.</translation>
+    </message>
+    <message>
+        <source>Please confirm it is you first.</source>
+        <translation>ביטע באַשטעטיקט פֿריִער אַז דאָס זענט איר.</translation>
+    </message>
+    <message>
+        <source>Editions with this page</source>
+        <translation>אויסגאַבעס מיט דעם בלאַט</translation>
+    </message>
+    <message>
+        <source>This page is in no edition yet.</source>
+        <translation>דער בלאַט איז נאָך אין קיין אויסגאַבע נישט.</translation>
+    </message>
+    <message>
+        <source>Being sent</source>
+        <translation>ווערט געשיקט</translation>
+    </message>
+    <message>
+        <source>Sent, in the archive</source>
+        <translation>געשיקט, אין אַרכיוו</translation>
+    </message>
+    <message>
+        <source>Stopped</source>
+        <translation>אָפּגעשטעלט</translation>
+    </message>
+    <message>
+        <source>%n subscribers</source>
+        <translation>%n אַבאָנענטן</translation>
+    </message>
+    <message>
+        <source>Make an edition from this page</source>
+        <translation>מאַכט אַן אויסגאַבע פֿון דעם בלאַט</translation>
+    </message>
+    <message>
+        <source>There is no newsletter list where you may make an edition.</source>
+        <translation>ס'איז נישטאָ קיין נײַעס־בריוו רשימה וווּ איר מעגט מאַכן אַן אויסגאַבע.</translation>
+    </message>
+    <message>
+        <source>Make the edition</source>
+        <translation>מאַכט די אויסגאַבע</translation>
+    </message>
+    <message>
+        <source>Newsletter list</source>
+        <translation>נײַעס־בריוו רשימה</translation>
+    </message>
+    <message>
+        <source>Introduction (optional)</source>
+        <translation>הקדמה (נישט נייטיק)</translation>
+    </message>
+    <message>
+        <source>This page becomes the edition's article: its title, its intro and a link to it.</source>
+        <translation>דער בלאַט ווערט דער אַרטיקל פֿון דער אויסגאַבע: זײַן טיטל, זײַן הקדמה און אַ לינק צו אים.</translation>
+    </message>
+    <message>
+        <source>The edition was made, with this page as its article.</source>
+        <translation>די אויסגאַבע איז געמאַכט געוואָרן, מיט דעם בלאַט ווי איר אַרטיקל.</translation>
+    </message>
+    <message>
+        <source>not asked for yet</source>
+        <translation>נאָך נישט געבעטן</translation>
+    </message>
+    <message>
+        <source>waiting</source>
+        <translation>וואַרט</translation>
+    </message>
+    <message>
+        <source>approved</source>
+        <translation>באַשטעטיקט</translation>
+    </message>
+    <message>
+        <source>rejected</source>
+        <translation>אָפּגעוואָרפֿן</translation>
+    </message>
+    <message>
+        <source>Approval: %state</source>
+        <translation>באַשטעטיקונג: %state</translation>
+    </message>
+    <message>
+        <source>waiting for the cronjob</source>
+        <translation>וואַרט אויף דעם cronjob</translation>
+    </message>
+    <message>
+        <source>queued</source>
+        <translation>אין דער ריי</translation>
+    </message>
+    <message>
+        <source>being sent</source>
+        <translation>ווערט געשיקט</translation>
+    </message>
+    <message>
+        <source>sent</source>
+        <translation>געשיקט</translation>
+    </message>
+    <message>
+        <source>stopped</source>
+        <translation>אָפּגעשטעלט</translation>
+    </message>
+    <message>
+        <source>Last send: %state, %time</source>
+        <translation>לעצטע שיקונג: %state, %time</translation>
+    </message>
+    <message>
+        <source>Send a test</source>
+        <translation>שיקט אַ פּרוּוו</translation>
+    </message>
+    <message>
+        <source>The test could not be sent.</source>
+        <translation>מע האָט נישט געקענט שיקן דעם פּרוּוו.</translation>
+    </message>
+    <message>
+        <source>The test was sent to %list.</source>
+        <translation>דער פּרוּוו איז געשיקט געוואָרן צו %list.</translation>
+    </message>
+    <message>
+        <source>Test addresses</source>
+        <translation>פּרוּוו־אַדרעסן</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers</source>
+        <translation>שיקט צו די אַבאָנענטן</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers ...</source>
+        <translation>שיקט צו די אַבאָנענטן ...</translation>
+    </message>
+    <message>
+        <source>Send now</source>
+        <translation>שיקט איצט</translation>
+    </message>
+    <message>
+        <source>The edition is queued: the newsletter's cronjob sends it to the subscribers.</source>
+        <translation>די אויסגאַבע שטייט אין דער ריי: דער cronjob פֿון נײַעס־בריוו שיקט זי צו די אַבאָנענטן.</translation>
+    </message>
+    <message>
+        <source>Send "%name" to the %n subscribers of "%list" now? This cannot be taken back here.</source>
+        <translation>שיקן "%name" איצט צו די %n אַבאָנענטן פֿון "%list"? דאָס קען מען דאָ נישט צוריקנעמען.</translation>
+    </message>
+    <message>
+        <source>Newsletter</source>
+        <translation>נײַעס־בריוו</translation>
+    </message>
+    <message>
+        <source>This edition is being sent.</source>
+        <translation>די אויסגאַבע ווערט געשיקט.</translation>
+    </message>
+    <message>
+        <source>This edition was sent and is in the archive.</source>
+        <translation>די אויסגאַבע איז געשיקט געוואָרן און איז אין אַרכיוו.</translation>
+    </message>
+    <message>
+        <source>This edition waits for its approval. It can be sent when it is approved.</source>
+        <translation>די אויסגאַבע וואַרט אויף איר באַשטעטיקונג. מע קען זי שיקן ווען זי איז באַשטעטיקט.</translation>
+    </message>
+    <message>
+        <source>This edition was rejected. Change it and ask for the approval again.</source>
+        <translation>די אויסגאַבע איז אָפּגעוואָרפֿן געוואָרן. ענדערט זי און בעט ווידער די באַשטעטיקונג.</translation>
+    </message>
+    <message>
+        <source>The list needs an approval before an edition is sent. Ask for the approval in the administration.</source>
+        <translation>די רשימה פֿאָדערט אַ באַשטעטיקונג איידער מע שיקט אַן אויסגאַבע. בעט די באַשטעטיקונג אין דער אַדמיניסטראַציע.</translation>
+    </message>
+    <message>
+        <source>The list has no subscribers.</source>
+        <translation>די רשימה האָט נישט קיין אַבאָנענטן.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>אַרײַנגעקומענע</translation>
     </message>

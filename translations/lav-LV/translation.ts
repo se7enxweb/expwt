@@ -1044,6 +1044,214 @@
         <translation>Veidlapas</translation>
     </message>
     <message>
+        <source>There is no such newsletter list.</source>
+        <translation>Šāda jaunumu vēstules saraksta nav.</translation>
+    </message>
+    <message>
+        <source>The edition was made, but a workflow holds its publishing. Find it in the administration.</source>
+        <translation>Izdevums ir izveidots, bet darbplūsma aiztur tā publicēšanu. Atrodiet to administrācijā.</translation>
+    </message>
+    <message>
+        <source>The edition was made, but the page could not be taken into it.</source>
+        <translation>Izdevums ir izveidots, bet lapu nevarēja tajā iekļaut.</translation>
+    </message>
+    <message>
+        <source>There is no such edition, or you may not read it.</source>
+        <translation>Šāda izdevuma nav, vai jums nav atļauts to lasīt.</translation>
+    </message>
+    <message>
+        <source>This edition has no newsletter data.</source>
+        <translation>Šim izdevumam nav jaunumu vēstules datu.</translation>
+    </message>
+    <message>
+        <source>Some of the addresses are not valid.</source>
+        <translation>Dažas adreses nav derīgas.</translation>
+    </message>
+    <message>
+        <source>Give at least one address.</source>
+        <translation>Norādiet vismaz vienu adresi.</translation>
+    </message>
+    <message>
+        <source>Too many addresses at once.</source>
+        <translation>Pārāk daudz adrešu vienlaikus.</translation>
+    </message>
+    <message>
+        <source>The edition was changed in the meantime. Look at it again before you send it.</source>
+        <translation>Izdevums pa to laiku ir mainīts. Apskatiet to vēlreiz, pirms sūtāt.</translation>
+    </message>
+    <message>
+        <source>The send could not be made.</source>
+        <translation>Sūtīšanu neizdevās veikt.</translation>
+    </message>
+    <message>
+        <source>Sending to the subscribers needs "Verify it's you", which is switched off here. Send it in the administration.</source>
+        <translation>Sūtīšanai abonentiem vajag „Apstipriniet, ka tas esat jūs”, kas šeit ir izslēgts. Sūtiet to administrācijā.</translation>
+    </message>
+    <message>
+        <source>Please confirm it is you first.</source>
+        <translation>Lūdzu, vispirms apstipriniet, ka tas esat jūs.</translation>
+    </message>
+    <message>
+        <source>Editions with this page</source>
+        <translation>Izdevumi ar šo lapu</translation>
+    </message>
+    <message>
+        <source>This page is in no edition yet.</source>
+        <translation>Šī lapa vēl nav nevienā izdevumā.</translation>
+    </message>
+    <message>
+        <source>Being sent</source>
+        <translation>Tiek sūtīts</translation>
+    </message>
+    <message>
+        <source>Sent, in the archive</source>
+        <translation>Nosūtīts, arhīvā</translation>
+    </message>
+    <message>
+        <source>Stopped</source>
+        <translation>Apturēts</translation>
+    </message>
+    <message>
+        <source>%n subscribers</source>
+        <translation>%n abonenti</translation>
+    </message>
+    <message>
+        <source>Make an edition from this page</source>
+        <translation>Izveidot izdevumu no šīs lapas</translation>
+    </message>
+    <message>
+        <source>There is no newsletter list where you may make an edition.</source>
+        <translation>Nav jaunumu vēstules saraksta, kurā jūs drīkstat izveidot izdevumu.</translation>
+    </message>
+    <message>
+        <source>Make the edition</source>
+        <translation>Izveidot izdevumu</translation>
+    </message>
+    <message>
+        <source>Newsletter list</source>
+        <translation>Jaunumu vēstules saraksts</translation>
+    </message>
+    <message>
+        <source>Introduction (optional)</source>
+        <translation>Ievads (neobligāts)</translation>
+    </message>
+    <message>
+        <source>This page becomes the edition's article: its title, its intro and a link to it.</source>
+        <translation>Šī lapa kļūst par izdevuma rakstu: tās virsraksts, ievads un saite uz to.</translation>
+    </message>
+    <message>
+        <source>The edition was made, with this page as its article.</source>
+        <translation>Izdevums ir izveidots ar šo lapu kā rakstu.</translation>
+    </message>
+    <message>
+        <source>not asked for yet</source>
+        <translation>vēl nav pieprasīts</translation>
+    </message>
+    <message>
+        <source>waiting</source>
+        <translation>gaida</translation>
+    </message>
+    <message>
+        <source>approved</source>
+        <translation>apstiprināts</translation>
+    </message>
+    <message>
+        <source>rejected</source>
+        <translation>noraidīts</translation>
+    </message>
+    <message>
+        <source>Approval: %state</source>
+        <translation>Apstiprinājums: %state</translation>
+    </message>
+    <message>
+        <source>waiting for the cronjob</source>
+        <translation>gaida cronjob</translation>
+    </message>
+    <message>
+        <source>queued</source>
+        <translation>rindā</translation>
+    </message>
+    <message>
+        <source>being sent</source>
+        <translation>tiek sūtīts</translation>
+    </message>
+    <message>
+        <source>sent</source>
+        <translation>nosūtīts</translation>
+    </message>
+    <message>
+        <source>stopped</source>
+        <translation>apturēts</translation>
+    </message>
+    <message>
+        <source>Last send: %state, %time</source>
+        <translation>Pēdējā sūtīšana: %state, %time</translation>
+    </message>
+    <message>
+        <source>Send a test</source>
+        <translation>Sūtīt testu</translation>
+    </message>
+    <message>
+        <source>The test could not be sent.</source>
+        <translation>Testu neizdevās nosūtīt.</translation>
+    </message>
+    <message>
+        <source>The test was sent to %list.</source>
+        <translation>Tests nosūtīts uz %list.</translation>
+    </message>
+    <message>
+        <source>Test addresses</source>
+        <translation>Testa adreses</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers</source>
+        <translation>Sūtīt abonentiem</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers ...</source>
+        <translation>Sūtīt abonentiem ...</translation>
+    </message>
+    <message>
+        <source>Send now</source>
+        <translation>Sūtīt tagad</translation>
+    </message>
+    <message>
+        <source>The edition is queued: the newsletter's cronjob sends it to the subscribers.</source>
+        <translation>Izdevums ir rindā: jaunumu vēstules cronjob to nosūta abonentiem.</translation>
+    </message>
+    <message>
+        <source>Send "%name" to the %n subscribers of "%list" now? This cannot be taken back here.</source>
+        <translation>Sūtīt „%name” saraksta „%list” %n abonentiem tagad? Šeit to nevar atsaukt.</translation>
+    </message>
+    <message>
+        <source>Newsletter</source>
+        <translation>Jaunumu vēstule</translation>
+    </message>
+    <message>
+        <source>This edition is being sent.</source>
+        <translation>Šis izdevums tiek sūtīts.</translation>
+    </message>
+    <message>
+        <source>This edition was sent and is in the archive.</source>
+        <translation>Šis izdevums ir nosūtīts un atrodas arhīvā.</translation>
+    </message>
+    <message>
+        <source>This edition waits for its approval. It can be sent when it is approved.</source>
+        <translation>Šis izdevums gaida apstiprinājumu. To var nosūtīt, kad tas ir apstiprināts.</translation>
+    </message>
+    <message>
+        <source>This edition was rejected. Change it and ask for the approval again.</source>
+        <translation>Šis izdevums ir noraidīts. Mainiet to un vēlreiz lūdziet apstiprinājumu.</translation>
+    </message>
+    <message>
+        <source>The list needs an approval before an edition is sent. Ask for the approval in the administration.</source>
+        <translation>Sarakstam pirms izdevuma sūtīšanas vajag apstiprinājumu. Lūdziet apstiprinājumu administrācijā.</translation>
+    </message>
+    <message>
+        <source>The list has no subscribers.</source>
+        <translation>Sarakstam nav abonentu.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Iesūtne</translation>
     </message>

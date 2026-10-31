@@ -120,6 +120,69 @@ class expwtPureTest extends PHPUnit\Framework\TestCase
         $this->assertNull( expwtReauthTriggerHandler::groupOf( 'boot', $settings ) );
         $settings['groups']['content']['enabled'] = false;
         $this->assertNull( expwtReauthTriggerHandler::groupOf( 'draft.publish', $settings ), 'a group switched off asks nothing' );
+        // E3: the real send of a newsletter asks in its own group, whatever the administration's rules say;
+        // the test send and making an edition do not
+        $this->assertSame( 'newsletter', expwtReauthTriggerHandler::groupOf( 'newsletter.send', $settings ) );
+        $this->assertNull( expwtReauthTriggerHandler::groupOf( 'newsletter.test', $settings ) );
+        $this->assertNull( expwtReauthTriggerHandler::groupOf( 'newsletter.load', $settings ) );
+        $this->assertSame( 'newsletter', expwtAccess::REAUTH_GROUPS['newsletter.send'] );
+        $this->assertSame( expwtGateway::NEWSLETTER_REAUTH_GROUP, expwtAccess::REAUTH_GROUPS['newsletter.send'] );
+    }
+
+    /** E3: the group of the real send is shipped switched on, and added to the kernel's groups (never replacing them) */
+    public function testTheNewsletterReauthGroupIsShippedOn()
+    {
+        $ini = file_get_contents( dirname( __DIR__, 3 ) . '/settings/site.ini.append.php' );
+        $this->assertMatchesRegularExpression( '/^Groups\[\]=newsletter$/m', $ini );
+        $this->assertDoesNotMatchRegularExpression( '/^Groups\[\]$/m', $ini, 'a bare Groups[] would drop the kernel\'s groups' );
+        $this->assertMatchesRegularExpression( '/\[ReauthGroup_newsletter\]\nEnabled=true\n/', $ini );
+    }
+
+    /** E3: the state of a send, why an edition cannot go out, the addresses of a test send, the introduction as XML */
+    public function testTheNewsletterOfThePage()
+    {
+        $this->assertSame( 'waiting', expwtGateway::sendState( 0 ) );
+        $this->assertSame( 'waiting', expwtGateway::sendState( 4 ) );
+        $this->assertSame( 'queued', expwtGateway::sendState( 1 ) );
+        $this->assertSame( 'sending', expwtGateway::sendState( 2 ) );
+        $this->assertSame( 'sent', expwtGateway::sendState( 3 ) );
+        $this->assertSame( 'aborted', expwtGateway::sendState( 9 ) );
+
+        $none = array( 'required' => false, 'state' => 'none' );
+        $this->assertSame( '', expwtGateway::editionBlocker( true, 'draft', $none, 40 ) );
+        $this->assertSame( 'This edition has no newsletter data.', expwtGateway::editionBlocker( false, 'draft', $none, 40 ) );
+        $this->assertSame( 'This edition is being sent.', expwtGateway::editionBlocker( true, 'process', $none, 40 ) );
+        $this->assertSame( 'This edition was sent and is in the archive.', expwtGateway::editionBlocker( true, 'archive', $none, 40 ) );
+        $this->assertSame( 'The list has no subscribers.', expwtGateway::editionBlocker( true, 'draft', $none, 0 ) );
+        $this->assertSame( 'This edition waits for its approval. It can be sent when it is approved.',
+                           expwtGateway::editionBlocker( true, 'draft', array( 'required' => true, 'state' => 'pending' ), 40 ) );
+        $this->assertSame( 'This edition was rejected. Change it and ask for the approval again.',
+                           expwtGateway::editionBlocker( true, 'draft', array( 'required' => true, 'state' => 'rejected' ), 40 ) );
+        $this->assertStringStartsWith( 'The list needs an approval', expwtGateway::editionBlocker( true, 'draft', array( 'required' => true, 'state' => 'none' ), 40 ) );
+        $this->assertSame( '', expwtGateway::editionBlocker( true, 'draft', array( 'required' => true, 'state' => 'approved' ), 40 ) );
+        foreach ( array( 'This edition is being sent.', 'This edition was sent and is in the archive.', 'The list has no subscribers.',
+                         'This edition has no newsletter data.' ) as $reason )
+            $this->assertContains( $reason, expwtStrings::SOURCES, 'every reason is translated' );
+
+        $r = expwtGateway::testRecipients( "Ann@Example.org, ann@example.org;\nbob@example.org\n\nnot an address", 25 );
+        $this->assertSame( array( 'ann@example.org', 'bob@example.org' ), $r['valid'], 'lower case, each once' );
+        $this->assertSame( array( 'not an address' ), $r['invalid'] );
+        $this->assertFalse( $r['over'] );
+        $this->assertTrue( expwtGateway::testRecipients( 'a@example.org, b@example.org, c@example.org', 2 )['over'] );
+        $this->assertSame( array(), expwtGateway::testRecipients( ' , ;', 5 )['valid'] );
+
+        $xml = expwtGateway::paragraphsXml( "Hello <you> & yours,\nsecond line\n\n\nNew paragraph\r\n" );
+        $dom = new DOMDocument();
+        $this->assertTrue( $dom->loadXML( $xml ) );
+        $this->assertSame( 'section', $dom->documentElement->nodeName );
+        $paragraphs = $dom->getElementsByTagName( 'paragraph' );
+        $this->assertSame( 2, $paragraphs->length );
+        $this->assertSame( 'Hello <you> & yours,second line', $paragraphs->item( 0 )->textContent );
+        $this->assertSame( 1, $paragraphs->item( 0 )->getElementsByTagName( 'line' )->length );
+        $this->assertSame( 'New paragraph', $paragraphs->item( 1 )->textContent );
+
+        $this->assertContains( 'newsletter', expwtState::PANELS );
+        $this->assertContains( 'newsletter', expwtRegistry::CORE_PANELS );
     }
 
     // ------------------------------------------------------------------------------------------------ state
@@ -487,7 +550,7 @@ class expwtPureTest extends PHPUnit\Framework\TestCase
     public function testFramePagesAreKnownByTheirAddress()
     {
         foreach ( array( '/site/expwt/field/134/0/eng-US/title', '/expwt/field/1/2/eng-US/body?theme=dark',
-                         '/twig/layout/set/expwtframe/content/browse/2', '/site/healthy-eating?in=sidebar' ) as $uri )
+                         '/twig/layout/set/expwtframe/content/browse/2', '/site/healthy-eating?in=sidebar', '/site/expwt/reauth/newsletter.send' ) as $uri )
             $this->assertTrue( expwtHook::framePage( $uri ), $uri );
         foreach ( array( '/site/healthy-eating', '/site/content/edit/134/2/eng-US', '/layout/set/print/healthy-eating',
                          '/site/expwt/api', '/site/my-expwt/field-notes' ) as $uri )

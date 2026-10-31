@@ -1044,6 +1044,214 @@
         <translation>แบบฟอร์ม</translation>
     </message>
     <message>
+        <source>There is no such newsletter list.</source>
+        <translation>ไม่มีรายชื่อจดหมายข่าวนี้</translation>
+    </message>
+    <message>
+        <source>The edition was made, but a workflow holds its publishing. Find it in the administration.</source>
+        <translation>สร้างฉบับแล้ว แต่เวิร์กโฟลว์กำลังระงับการเผยแพร่ไว้ ดูได้ในส่วนผู้ดูแล</translation>
+    </message>
+    <message>
+        <source>The edition was made, but the page could not be taken into it.</source>
+        <translation>สร้างฉบับแล้ว แต่ไม่สามารถนำหน้านี้ใส่ลงไปได้</translation>
+    </message>
+    <message>
+        <source>There is no such edition, or you may not read it.</source>
+        <translation>ไม่มีฉบับนี้ หรือคุณไม่มีสิทธิ์อ่าน</translation>
+    </message>
+    <message>
+        <source>This edition has no newsletter data.</source>
+        <translation>ฉบับนี้ไม่มีข้อมูลจดหมายข่าว</translation>
+    </message>
+    <message>
+        <source>Some of the addresses are not valid.</source>
+        <translation>ที่อยู่บางรายการไม่ถูกต้อง</translation>
+    </message>
+    <message>
+        <source>Give at least one address.</source>
+        <translation>ใส่ที่อยู่อย่างน้อยหนึ่งรายการ</translation>
+    </message>
+    <message>
+        <source>Too many addresses at once.</source>
+        <translation>ที่อยู่มากเกินไปในครั้งเดียว</translation>
+    </message>
+    <message>
+        <source>The edition was changed in the meantime. Look at it again before you send it.</source>
+        <translation>ฉบับนี้ถูกเปลี่ยนแปลงในระหว่างนี้ กรุณาดูอีกครั้งก่อนส่ง</translation>
+    </message>
+    <message>
+        <source>The send could not be made.</source>
+        <translation>ไม่สามารถส่งได้</translation>
+    </message>
+    <message>
+        <source>Sending to the subscribers needs "Verify it's you", which is switched off here. Send it in the administration.</source>
+        <translation>การส่งถึงสมาชิกต้องใช้ "ยืนยันว่าเป็นคุณ" ซึ่งปิดอยู่ที่นี่ กรุณาส่งในส่วนผู้ดูแล</translation>
+    </message>
+    <message>
+        <source>Please confirm it is you first.</source>
+        <translation>กรุณายืนยันว่าเป็นคุณก่อน</translation>
+    </message>
+    <message>
+        <source>Editions with this page</source>
+        <translation>ฉบับที่มีหน้านี้</translation>
+    </message>
+    <message>
+        <source>This page is in no edition yet.</source>
+        <translation>หน้านี้ยังไม่อยู่ในฉบับใด</translation>
+    </message>
+    <message>
+        <source>Being sent</source>
+        <translation>กำลังส่ง</translation>
+    </message>
+    <message>
+        <source>Sent, in the archive</source>
+        <translation>ส่งแล้ว อยู่ในคลัง</translation>
+    </message>
+    <message>
+        <source>Stopped</source>
+        <translation>หยุดแล้ว</translation>
+    </message>
+    <message>
+        <source>%n subscribers</source>
+        <translation>สมาชิก %n คน</translation>
+    </message>
+    <message>
+        <source>Make an edition from this page</source>
+        <translation>สร้างฉบับจากหน้านี้</translation>
+    </message>
+    <message>
+        <source>There is no newsletter list where you may make an edition.</source>
+        <translation>ไม่มีรายชื่อจดหมายข่าวที่คุณสร้างฉบับได้</translation>
+    </message>
+    <message>
+        <source>Make the edition</source>
+        <translation>สร้างฉบับ</translation>
+    </message>
+    <message>
+        <source>Newsletter list</source>
+        <translation>รายชื่อจดหมายข่าว</translation>
+    </message>
+    <message>
+        <source>Introduction (optional)</source>
+        <translation>บทนำ (ไม่บังคับ)</translation>
+    </message>
+    <message>
+        <source>This page becomes the edition's article: its title, its intro and a link to it.</source>
+        <translation>หน้านี้จะเป็นบทความของฉบับ: ชื่อเรื่อง บทนำ และลิงก์ไปยังหน้านี้</translation>
+    </message>
+    <message>
+        <source>The edition was made, with this page as its article.</source>
+        <translation>สร้างฉบับแล้ว โดยมีหน้านี้เป็นบทความ</translation>
+    </message>
+    <message>
+        <source>not asked for yet</source>
+        <translation>ยังไม่ได้ขอ</translation>
+    </message>
+    <message>
+        <source>waiting</source>
+        <translation>รออยู่</translation>
+    </message>
+    <message>
+        <source>approved</source>
+        <translation>อนุมัติแล้ว</translation>
+    </message>
+    <message>
+        <source>rejected</source>
+        <translation>ถูกปฏิเสธ</translation>
+    </message>
+    <message>
+        <source>Approval: %state</source>
+        <translation>การอนุมัติ: %state</translation>
+    </message>
+    <message>
+        <source>waiting for the cronjob</source>
+        <translation>รอ cronjob</translation>
+    </message>
+    <message>
+        <source>queued</source>
+        <translation>อยู่ในคิว</translation>
+    </message>
+    <message>
+        <source>being sent</source>
+        <translation>กำลังส่ง</translation>
+    </message>
+    <message>
+        <source>sent</source>
+        <translation>ส่งแล้ว</translation>
+    </message>
+    <message>
+        <source>stopped</source>
+        <translation>หยุดแล้ว</translation>
+    </message>
+    <message>
+        <source>Last send: %state, %time</source>
+        <translation>การส่งล่าสุด: %state, %time</translation>
+    </message>
+    <message>
+        <source>Send a test</source>
+        <translation>ส่งทดสอบ</translation>
+    </message>
+    <message>
+        <source>The test could not be sent.</source>
+        <translation>ไม่สามารถส่งทดสอบได้</translation>
+    </message>
+    <message>
+        <source>The test was sent to %list.</source>
+        <translation>ส่งทดสอบไปยัง %list แล้ว</translation>
+    </message>
+    <message>
+        <source>Test addresses</source>
+        <translation>ที่อยู่สำหรับทดสอบ</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers</source>
+        <translation>ส่งถึงสมาชิก</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers ...</source>
+        <translation>ส่งถึงสมาชิก ...</translation>
+    </message>
+    <message>
+        <source>Send now</source>
+        <translation>ส่งเลย</translation>
+    </message>
+    <message>
+        <source>The edition is queued: the newsletter's cronjob sends it to the subscribers.</source>
+        <translation>ฉบับนี้อยู่ในคิว: cronjob ของจดหมายข่าวจะส่งถึงสมาชิก</translation>
+    </message>
+    <message>
+        <source>Send "%name" to the %n subscribers of "%list" now? This cannot be taken back here.</source>
+        <translation>ส่ง "%name" ถึงสมาชิก %n คนของ "%list" ตอนนี้หรือไม่? ไม่สามารถยกเลิกได้ที่นี่</translation>
+    </message>
+    <message>
+        <source>Newsletter</source>
+        <translation>จดหมายข่าว</translation>
+    </message>
+    <message>
+        <source>This edition is being sent.</source>
+        <translation>ฉบับนี้กำลังส่ง</translation>
+    </message>
+    <message>
+        <source>This edition was sent and is in the archive.</source>
+        <translation>ฉบับนี้ส่งแล้วและอยู่ในคลัง</translation>
+    </message>
+    <message>
+        <source>This edition waits for its approval. It can be sent when it is approved.</source>
+        <translation>ฉบับนี้รอการอนุมัติ ส่งได้เมื่อได้รับอนุมัติแล้ว</translation>
+    </message>
+    <message>
+        <source>This edition was rejected. Change it and ask for the approval again.</source>
+        <translation>ฉบับนี้ถูกปฏิเสธ แก้ไขแล้วขออนุมัติอีกครั้ง</translation>
+    </message>
+    <message>
+        <source>The list needs an approval before an edition is sent. Ask for the approval in the administration.</source>
+        <translation>รายชื่อนี้ต้องได้รับอนุมัติก่อนส่งฉบับ กรุณาขออนุมัติในส่วนผู้ดูแล</translation>
+    </message>
+    <message>
+        <source>The list has no subscribers.</source>
+        <translation>รายชื่อนี้ไม่มีสมาชิก</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>กล่องขาเข้า</translation>
     </message>

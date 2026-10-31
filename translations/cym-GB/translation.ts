@@ -1044,6 +1044,214 @@
         <translation>Ffurflenni</translation>
     </message>
     <message>
+        <source>There is no such newsletter list.</source>
+        <translation>Does dim rhestr cylchlythyr o'r fath.</translation>
+    </message>
+    <message>
+        <source>The edition was made, but a workflow holds its publishing. Find it in the administration.</source>
+        <translation>Cafodd y rhifyn ei wneud, ond mae llif gwaith yn dal ei gyhoeddi'n ôl. Dewch o hyd iddo yn y weinyddiaeth.</translation>
+    </message>
+    <message>
+        <source>The edition was made, but the page could not be taken into it.</source>
+        <translation>Cafodd y rhifyn ei wneud, ond doedd dim modd cynnwys y dudalen ynddo.</translation>
+    </message>
+    <message>
+        <source>There is no such edition, or you may not read it.</source>
+        <translation>Does dim rhifyn o'r fath, neu chewch chi ddim ei ddarllen.</translation>
+    </message>
+    <message>
+        <source>This edition has no newsletter data.</source>
+        <translation>Does gan y rhifyn hwn ddim data cylchlythyr.</translation>
+    </message>
+    <message>
+        <source>Some of the addresses are not valid.</source>
+        <translation>Dydy rhai o'r cyfeiriadau ddim yn ddilys.</translation>
+    </message>
+    <message>
+        <source>Give at least one address.</source>
+        <translation>Rhowch o leiaf un cyfeiriad.</translation>
+    </message>
+    <message>
+        <source>Too many addresses at once.</source>
+        <translation>Gormod o gyfeiriadau ar unwaith.</translation>
+    </message>
+    <message>
+        <source>The edition was changed in the meantime. Look at it again before you send it.</source>
+        <translation>Mae'r rhifyn wedi newid yn y cyfamser. Edrychwch arno eto cyn ei anfon.</translation>
+    </message>
+    <message>
+        <source>The send could not be made.</source>
+        <translation>Doedd dim modd anfon.</translation>
+    </message>
+    <message>
+        <source>Sending to the subscribers needs "Verify it's you", which is switched off here. Send it in the administration.</source>
+        <translation>Mae anfon at y tanysgrifwyr angen “Dilyswch mai chi sydd yno”, sydd wedi'i ddiffodd yma. Anfonwch ef yn y weinyddiaeth.</translation>
+    </message>
+    <message>
+        <source>Please confirm it is you first.</source>
+        <translation>Cadarnhewch mai chi sydd yno yn gyntaf.</translation>
+    </message>
+    <message>
+        <source>Editions with this page</source>
+        <translation>Rhifynnau gyda'r dudalen hon</translation>
+    </message>
+    <message>
+        <source>This page is in no edition yet.</source>
+        <translation>Dydy'r dudalen hon ddim mewn rhifyn eto.</translation>
+    </message>
+    <message>
+        <source>Being sent</source>
+        <translation>Yn cael ei anfon</translation>
+    </message>
+    <message>
+        <source>Sent, in the archive</source>
+        <translation>Wedi'i anfon, yn yr archif</translation>
+    </message>
+    <message>
+        <source>Stopped</source>
+        <translation>Wedi'i atal</translation>
+    </message>
+    <message>
+        <source>%n subscribers</source>
+        <translation>%n tanysgrifiwr</translation>
+    </message>
+    <message>
+        <source>Make an edition from this page</source>
+        <translation>Gwneud rhifyn o'r dudalen hon</translation>
+    </message>
+    <message>
+        <source>There is no newsletter list where you may make an edition.</source>
+        <translation>Does dim rhestr cylchlythyr lle cewch chi wneud rhifyn.</translation>
+    </message>
+    <message>
+        <source>Make the edition</source>
+        <translation>Gwneud y rhifyn</translation>
+    </message>
+    <message>
+        <source>Newsletter list</source>
+        <translation>Rhestr cylchlythyr</translation>
+    </message>
+    <message>
+        <source>Introduction (optional)</source>
+        <translation>Cyflwyniad (dewisol)</translation>
+    </message>
+    <message>
+        <source>This page becomes the edition's article: its title, its intro and a link to it.</source>
+        <translation>Mae'r dudalen hon yn dod yn erthygl y rhifyn: ei theitl, ei chyflwyniad a dolen ati.</translation>
+    </message>
+    <message>
+        <source>The edition was made, with this page as its article.</source>
+        <translation>Cafodd y rhifyn ei wneud, gyda'r dudalen hon yn erthygl iddo.</translation>
+    </message>
+    <message>
+        <source>not asked for yet</source>
+        <translation>heb ofyn eto</translation>
+    </message>
+    <message>
+        <source>waiting</source>
+        <translation>yn aros</translation>
+    </message>
+    <message>
+        <source>approved</source>
+        <translation>wedi'i gymeradwyo</translation>
+    </message>
+    <message>
+        <source>rejected</source>
+        <translation>wedi'i wrthod</translation>
+    </message>
+    <message>
+        <source>Approval: %state</source>
+        <translation>Cymeradwyaeth: %state</translation>
+    </message>
+    <message>
+        <source>waiting for the cronjob</source>
+        <translation>yn aros am y cronjob</translation>
+    </message>
+    <message>
+        <source>queued</source>
+        <translation>yn y ciw</translation>
+    </message>
+    <message>
+        <source>being sent</source>
+        <translation>yn cael ei anfon</translation>
+    </message>
+    <message>
+        <source>sent</source>
+        <translation>wedi'i anfon</translation>
+    </message>
+    <message>
+        <source>stopped</source>
+        <translation>wedi'i atal</translation>
+    </message>
+    <message>
+        <source>Last send: %state, %time</source>
+        <translation>Anfon diwethaf: %state, %time</translation>
+    </message>
+    <message>
+        <source>Send a test</source>
+        <translation>Anfon prawf</translation>
+    </message>
+    <message>
+        <source>The test could not be sent.</source>
+        <translation>Doedd dim modd anfon y prawf.</translation>
+    </message>
+    <message>
+        <source>The test was sent to %list.</source>
+        <translation>Cafodd y prawf ei anfon at %list.</translation>
+    </message>
+    <message>
+        <source>Test addresses</source>
+        <translation>Cyfeiriadau prawf</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers</source>
+        <translation>Anfon at y tanysgrifwyr</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers ...</source>
+        <translation>Anfon at y tanysgrifwyr ...</translation>
+    </message>
+    <message>
+        <source>Send now</source>
+        <translation>Anfon nawr</translation>
+    </message>
+    <message>
+        <source>The edition is queued: the newsletter's cronjob sends it to the subscribers.</source>
+        <translation>Mae'r rhifyn yn y ciw: mae cronjob y cylchlythyr yn ei anfon at y tanysgrifwyr.</translation>
+    </message>
+    <message>
+        <source>Send "%name" to the %n subscribers of "%list" now? This cannot be taken back here.</source>
+        <translation>Anfon “%name” at %n tanysgrifiwr “%list” nawr? Does dim modd dadwneud hyn yma.</translation>
+    </message>
+    <message>
+        <source>Newsletter</source>
+        <translation>Cylchlythyr</translation>
+    </message>
+    <message>
+        <source>This edition is being sent.</source>
+        <translation>Mae'r rhifyn hwn yn cael ei anfon.</translation>
+    </message>
+    <message>
+        <source>This edition was sent and is in the archive.</source>
+        <translation>Cafodd y rhifyn hwn ei anfon ac mae yn yr archif.</translation>
+    </message>
+    <message>
+        <source>This edition waits for its approval. It can be sent when it is approved.</source>
+        <translation>Mae'r rhifyn hwn yn aros am ei gymeradwyo. Gellir ei anfon pan fydd wedi'i gymeradwyo.</translation>
+    </message>
+    <message>
+        <source>This edition was rejected. Change it and ask for the approval again.</source>
+        <translation>Cafodd y rhifyn hwn ei wrthod. Newidiwch ef a gofynnwch am gymeradwyaeth eto.</translation>
+    </message>
+    <message>
+        <source>The list needs an approval before an edition is sent. Ask for the approval in the administration.</source>
+        <translation>Mae angen cymeradwyaeth ar y rhestr cyn anfon rhifyn. Gofynnwch am y gymeradwyaeth yn y weinyddiaeth.</translation>
+    </message>
+    <message>
+        <source>The list has no subscribers.</source>
+        <translation>Does gan y rhestr ddim tanysgrifwyr.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Mewnflwch</translation>
     </message>

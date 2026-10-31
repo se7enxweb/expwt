@@ -1044,6 +1044,214 @@
         <translation>Nā palapala noi</translation>
     </message>
     <message>
+        <source>There is no such newsletter list.</source>
+        <translation>ʻAʻohe papa inoa leka nūhou pēlā.</translation>
+    </message>
+    <message>
+        <source>The edition was made, but a workflow holds its publishing. Find it in the administration.</source>
+        <translation>Ua hana ʻia ka paʻi, akā ke kāohi nei kekahi kaʻina hana i kona hoʻopuka ʻana. E ʻimi iā ia ma ka hoʻokele.</translation>
+    </message>
+    <message>
+        <source>The edition was made, but the page could not be taken into it.</source>
+        <translation>Ua hana ʻia ka paʻi, akā ʻaʻole hiki ke hoʻokomo i ka ʻaoʻao i loko.</translation>
+    </message>
+    <message>
+        <source>There is no such edition, or you may not read it.</source>
+        <translation>ʻAʻohe paʻi pēlā, a i ʻole ʻaʻohe ou ʻae e heluhelu.</translation>
+    </message>
+    <message>
+        <source>This edition has no newsletter data.</source>
+        <translation>ʻAʻohe ʻikepili leka nūhou o kēia paʻi.</translation>
+    </message>
+    <message>
+        <source>Some of the addresses are not valid.</source>
+        <translation>ʻAʻole kūpono kekahi o nā helu wahi.</translation>
+    </message>
+    <message>
+        <source>Give at least one address.</source>
+        <translation>E hāʻawi i hoʻokahi helu wahi ma ka liʻiliʻi loa.</translation>
+    </message>
+    <message>
+        <source>Too many addresses at once.</source>
+        <translation>Nui loa nā helu wahi i ka manawa hoʻokahi.</translation>
+    </message>
+    <message>
+        <source>The edition was changed in the meantime. Look at it again before you send it.</source>
+        <translation>Ua hoʻololi ʻia ka paʻi i kēia manawa. E nānā hou iā ia ma mua o kou hoʻouna ʻana.</translation>
+    </message>
+    <message>
+        <source>The send could not be made.</source>
+        <translation>ʻAʻole hiki ke hoʻouna.</translation>
+    </message>
+    <message>
+        <source>Sending to the subscribers needs "Verify it's you", which is switched off here. Send it in the administration.</source>
+        <translation>Pono ka hoʻouna ʻana i nā mea kākau inoa iā "E hōʻoia ʻo ʻoe nō kēia", a ua hoʻopio ʻia ia ma ʻaneʻi. E hoʻouna ma ka hoʻokele.</translation>
+    </message>
+    <message>
+        <source>Please confirm it is you first.</source>
+        <translation>E ʻoluʻolu, e hōʻoia mua ʻo ʻoe nō kēia.</translation>
+    </message>
+    <message>
+        <source>Editions with this page</source>
+        <translation>Nā paʻi me kēia ʻaoʻao</translation>
+    </message>
+    <message>
+        <source>This page is in no edition yet.</source>
+        <translation>ʻAʻole i loko o kekahi paʻi kēia ʻaoʻao i kēia manawa.</translation>
+    </message>
+    <message>
+        <source>Being sent</source>
+        <translation>Ke hoʻouna ʻia nei</translation>
+    </message>
+    <message>
+        <source>Sent, in the archive</source>
+        <translation>Ua hoʻouna ʻia, ma ka waihona</translation>
+    </message>
+    <message>
+        <source>Stopped</source>
+        <translation>Ua hoʻōki ʻia</translation>
+    </message>
+    <message>
+        <source>%n subscribers</source>
+        <translation>%n mea kākau inoa</translation>
+    </message>
+    <message>
+        <source>Make an edition from this page</source>
+        <translation>Hana i paʻi mai kēia ʻaoʻao</translation>
+    </message>
+    <message>
+        <source>There is no newsletter list where you may make an edition.</source>
+        <translation>ʻAʻohe papa inoa leka nūhou e hiki ai iā ʻoe ke hana i paʻi.</translation>
+    </message>
+    <message>
+        <source>Make the edition</source>
+        <translation>Hana i ka paʻi</translation>
+    </message>
+    <message>
+        <source>Newsletter list</source>
+        <translation>Papa inoa leka nūhou</translation>
+    </message>
+    <message>
+        <source>Introduction (optional)</source>
+        <translation>Hōʻike mua (koho)</translation>
+    </message>
+    <message>
+        <source>This page becomes the edition's article: its title, its intro and a link to it.</source>
+        <translation>Lilo kēia ʻaoʻao i ʻatikala o ka paʻi: kona poʻo inoa, kona hōʻike mua a me kahi loulou iā ia.</translation>
+    </message>
+    <message>
+        <source>The edition was made, with this page as its article.</source>
+        <translation>Ua hana ʻia ka paʻi, me kēia ʻaoʻao i ʻatikala nona.</translation>
+    </message>
+    <message>
+        <source>not asked for yet</source>
+        <translation>ʻaʻole i noi ʻia</translation>
+    </message>
+    <message>
+        <source>waiting</source>
+        <translation>e kali ana</translation>
+    </message>
+    <message>
+        <source>approved</source>
+        <translation>ua ʻae ʻia</translation>
+    </message>
+    <message>
+        <source>rejected</source>
+        <translation>ua hōʻole ʻia</translation>
+    </message>
+    <message>
+        <source>Approval: %state</source>
+        <translation>ʻAe ʻana: %state</translation>
+    </message>
+    <message>
+        <source>waiting for the cronjob</source>
+        <translation>e kali ana i ka cronjob</translation>
+    </message>
+    <message>
+        <source>queued</source>
+        <translation>i ka laina</translation>
+    </message>
+    <message>
+        <source>being sent</source>
+        <translation>ke hoʻouna ʻia nei</translation>
+    </message>
+    <message>
+        <source>sent</source>
+        <translation>ua hoʻouna ʻia</translation>
+    </message>
+    <message>
+        <source>stopped</source>
+        <translation>ua hoʻōki ʻia</translation>
+    </message>
+    <message>
+        <source>Last send: %state, %time</source>
+        <translation>Hoʻouna hope: %state, %time</translation>
+    </message>
+    <message>
+        <source>Send a test</source>
+        <translation>Hoʻouna i hoʻāʻo</translation>
+    </message>
+    <message>
+        <source>The test could not be sent.</source>
+        <translation>ʻAʻole hiki ke hoʻouna i ka hoʻāʻo.</translation>
+    </message>
+    <message>
+        <source>The test was sent to %list.</source>
+        <translation>Ua hoʻouna ʻia ka hoʻāʻo iā %list.</translation>
+    </message>
+    <message>
+        <source>Test addresses</source>
+        <translation>Nā helu wahi hoʻāʻo</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers</source>
+        <translation>Hoʻouna i nā mea kākau inoa</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers ...</source>
+        <translation>Hoʻouna i nā mea kākau inoa ...</translation>
+    </message>
+    <message>
+        <source>Send now</source>
+        <translation>Hoʻouna ʻānō</translation>
+    </message>
+    <message>
+        <source>The edition is queued: the newsletter's cronjob sends it to the subscribers.</source>
+        <translation>Aia ka paʻi i ka laina: na ka cronjob o ka leka nūhou e hoʻouna iā ia i nā mea kākau inoa.</translation>
+    </message>
+    <message>
+        <source>Send "%name" to the %n subscribers of "%list" now? This cannot be taken back here.</source>
+        <translation>Hoʻouna iā "%name" i nā mea kākau inoa %n o "%list" ʻānō? ʻAʻole hiki ke hoʻihoʻi ʻia ma ʻaneʻi.</translation>
+    </message>
+    <message>
+        <source>Newsletter</source>
+        <translation>Leka nūhou</translation>
+    </message>
+    <message>
+        <source>This edition is being sent.</source>
+        <translation>Ke hoʻouna ʻia nei kēia paʻi.</translation>
+    </message>
+    <message>
+        <source>This edition was sent and is in the archive.</source>
+        <translation>Ua hoʻouna ʻia kēia paʻi a aia i ka waihona.</translation>
+    </message>
+    <message>
+        <source>This edition waits for its approval. It can be sent when it is approved.</source>
+        <translation>Ke kali nei kēia paʻi i kona ʻae ʻia. Hiki ke hoʻouna ʻia ke ʻae ʻia.</translation>
+    </message>
+    <message>
+        <source>This edition was rejected. Change it and ask for the approval again.</source>
+        <translation>Ua hōʻole ʻia kēia paʻi. E hoʻololi iā ia a e noi hou i ka ʻae ʻana.</translation>
+    </message>
+    <message>
+        <source>The list needs an approval before an edition is sent. Ask for the approval in the administration.</source>
+        <translation>Pono ka papa inoa i ka ʻae ʻana ma mua o ka hoʻouna ʻana i kekahi paʻi. E noi i ka ʻae ʻana ma ka hoʻokele.</translation>
+    </message>
+    <message>
+        <source>The list has no subscribers.</source>
+        <translation>ʻAʻohe mea kākau inoa o ka papa inoa.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Pahu leka komo</translation>
     </message>

@@ -39,9 +39,13 @@ class expwtReauthTriggerHandler implements expReauthTriggerHandler
             $registry = expwtRegistry::fromIni();
             $kernel = isset( $registry['actions'][$action] ) ? $registry['actions'][$action]['kernelView'] : null;
         }
-        if ( $kernel === null )
-            return null;
-        $match = expReauth::matchGroup( $settings, $kernel['module'], $kernel['view'], 'POST', $kernel['post'] );
-        return $match !== null ? (string)$match['group'] : null;
+        if ( $kernel !== null )
+        {
+            $match = expReauth::matchGroup( $settings, $kernel['module'], $kernel['view'], 'POST', $kernel['post'] );
+            if ( $match !== null )
+                return (string)$match['group'];
+        }
+        // an action that asks in a group of its own (the real send of a newsletter, E3)
+        return isset( expwtAccess::REAUTH_GROUPS[$action] ) ? expwtAccess::REAUTH_GROUPS[$action] : null;
     }
 }

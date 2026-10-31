@@ -1044,6 +1044,214 @@
         <translation>Формалар</translation>
     </message>
     <message>
+        <source>There is no such newsletter list.</source>
+        <translation>Мондый хәбәрнамә исемлеге юк.</translation>
+    </message>
+    <message>
+        <source>The edition was made, but a workflow holds its publishing. Find it in the administration.</source>
+        <translation>Чыгарылыш ясалды, ләкин эш процессы аны бастыруны тоткарлый. Аны идарәдә табыгыз.</translation>
+    </message>
+    <message>
+        <source>The edition was made, but the page could not be taken into it.</source>
+        <translation>Чыгарылыш ясалды, ләкин битне аңа кертеп булмады.</translation>
+    </message>
+    <message>
+        <source>There is no such edition, or you may not read it.</source>
+        <translation>Мондый чыгарылыш юк, яки сезгә аны укырга ярамый.</translation>
+    </message>
+    <message>
+        <source>This edition has no newsletter data.</source>
+        <translation>Бу чыгарылышның хәбәрнамә мәгълүматлары юк.</translation>
+    </message>
+    <message>
+        <source>Some of the addresses are not valid.</source>
+        <translation>Кайбер адреслар дөрес түгел.</translation>
+    </message>
+    <message>
+        <source>Give at least one address.</source>
+        <translation>Ким дигәндә бер адрес күрсәтегез.</translation>
+    </message>
+    <message>
+        <source>Too many addresses at once.</source>
+        <translation>Бер юлы артык күп адрес.</translation>
+    </message>
+    <message>
+        <source>The edition was changed in the meantime. Look at it again before you send it.</source>
+        <translation>Бу арада чыгарылыш үзгәртелде. Җибәрер алдыннан аны тагын карагыз.</translation>
+    </message>
+    <message>
+        <source>The send could not be made.</source>
+        <translation>Җибәрүне башкарып булмады.</translation>
+    </message>
+    <message>
+        <source>Sending to the subscribers needs "Verify it's you", which is switched off here. Send it in the administration.</source>
+        <translation>Язылучыларга җибәрү өчен «Бу сез икәнен раслагыз» кирәк, ә ул монда сүндерелгән. Аны идарәдә җибәрегез.</translation>
+    </message>
+    <message>
+        <source>Please confirm it is you first.</source>
+        <translation>Зинһар, башта бу сез икәнен раслагыз.</translation>
+    </message>
+    <message>
+        <source>Editions with this page</source>
+        <translation>Бу бит булган чыгарылышлар</translation>
+    </message>
+    <message>
+        <source>This page is in no edition yet.</source>
+        <translation>Бу бит әлегә бер чыгарылышта да юк.</translation>
+    </message>
+    <message>
+        <source>Being sent</source>
+        <translation>Җибәрелә</translation>
+    </message>
+    <message>
+        <source>Sent, in the archive</source>
+        <translation>Җибәрелде, архивта</translation>
+    </message>
+    <message>
+        <source>Stopped</source>
+        <translation>Туктатылды</translation>
+    </message>
+    <message>
+        <source>%n subscribers</source>
+        <translation>%n язылучы</translation>
+    </message>
+    <message>
+        <source>Make an edition from this page</source>
+        <translation>Бу биттән чыгарылыш ясау</translation>
+    </message>
+    <message>
+        <source>There is no newsletter list where you may make an edition.</source>
+        <translation>Сез чыгарылыш ясый алырлык хәбәрнамә исемлеге юк.</translation>
+    </message>
+    <message>
+        <source>Make the edition</source>
+        <translation>Чыгарылышны ясау</translation>
+    </message>
+    <message>
+        <source>Newsletter list</source>
+        <translation>Хәбәрнамә исемлеге</translation>
+    </message>
+    <message>
+        <source>Introduction (optional)</source>
+        <translation>Кереш (теләк буенча)</translation>
+    </message>
+    <message>
+        <source>This page becomes the edition's article: its title, its intro and a link to it.</source>
+        <translation>Бу бит чыгарылышның мәкаләсе була: аның исеме, кереш өлеше һәм аңа сылтама.</translation>
+    </message>
+    <message>
+        <source>The edition was made, with this page as its article.</source>
+        <translation>Чыгарылыш ясалды, бу бит аның мәкаләсе.</translation>
+    </message>
+    <message>
+        <source>not asked for yet</source>
+        <translation>әле соралмаган</translation>
+    </message>
+    <message>
+        <source>waiting</source>
+        <translation>көтә</translation>
+    </message>
+    <message>
+        <source>approved</source>
+        <translation>расланган</translation>
+    </message>
+    <message>
+        <source>rejected</source>
+        <translation>кире кагылган</translation>
+    </message>
+    <message>
+        <source>Approval: %state</source>
+        <translation>Раслау: %state</translation>
+    </message>
+    <message>
+        <source>waiting for the cronjob</source>
+        <translation>cronjob көтә</translation>
+    </message>
+    <message>
+        <source>queued</source>
+        <translation>чиратта</translation>
+    </message>
+    <message>
+        <source>being sent</source>
+        <translation>җибәрелә</translation>
+    </message>
+    <message>
+        <source>sent</source>
+        <translation>җибәрелгән</translation>
+    </message>
+    <message>
+        <source>stopped</source>
+        <translation>туктатылган</translation>
+    </message>
+    <message>
+        <source>Last send: %state, %time</source>
+        <translation>Соңгы җибәрү: %state, %time</translation>
+    </message>
+    <message>
+        <source>Send a test</source>
+        <translation>Сынау җибәрү</translation>
+    </message>
+    <message>
+        <source>The test could not be sent.</source>
+        <translation>Сынауны җибәреп булмады.</translation>
+    </message>
+    <message>
+        <source>The test was sent to %list.</source>
+        <translation>Сынау %list адресларына җибәрелде.</translation>
+    </message>
+    <message>
+        <source>Test addresses</source>
+        <translation>Сынау адреслары</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers</source>
+        <translation>Язылучыларга җибәрү</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers ...</source>
+        <translation>Язылучыларга җибәрү ...</translation>
+    </message>
+    <message>
+        <source>Send now</source>
+        <translation>Хәзер җибәрү</translation>
+    </message>
+    <message>
+        <source>The edition is queued: the newsletter's cronjob sends it to the subscribers.</source>
+        <translation>Чыгарылыш чиратта: хәбәрнамәнең cronjob-ы аны язылучыларга җибәрә.</translation>
+    </message>
+    <message>
+        <source>Send "%name" to the %n subscribers of "%list" now? This cannot be taken back here.</source>
+        <translation>«%name» чыгарылышын «%list» исемлегенең %n язылучысына хәзер җибәрергәме? Моны монда кире кайтарып булмый.</translation>
+    </message>
+    <message>
+        <source>Newsletter</source>
+        <translation>Хәбәрнамә</translation>
+    </message>
+    <message>
+        <source>This edition is being sent.</source>
+        <translation>Бу чыгарылыш җибәрелә.</translation>
+    </message>
+    <message>
+        <source>This edition was sent and is in the archive.</source>
+        <translation>Бу чыгарылыш җибәрелде һәм архивта.</translation>
+    </message>
+    <message>
+        <source>This edition waits for its approval. It can be sent when it is approved.</source>
+        <translation>Бу чыгарылыш раслауны көтә. Расланганнан соң аны җибәреп була.</translation>
+    </message>
+    <message>
+        <source>This edition was rejected. Change it and ask for the approval again.</source>
+        <translation>Бу чыгарылыш кире кагылды. Аны үзгәртегез һәм раслауны кабат сорагыз.</translation>
+    </message>
+    <message>
+        <source>The list needs an approval before an edition is sent. Ask for the approval in the administration.</source>
+        <translation>Чыгарылыш җибәрелгәнче исемлеккә раслау кирәк. Раслауны идарәдә сорагыз.</translation>
+    </message>
+    <message>
+        <source>The list has no subscribers.</source>
+        <translation>Исемлектә язылучылар юк.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Керүчеләр</translation>
     </message>

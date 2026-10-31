@@ -1044,6 +1044,214 @@
         <translation>Borang</translation>
     </message>
     <message>
+        <source>There is no such newsletter list.</source>
+        <translation>Tiada senarai surat berita sedemikian.</translation>
+    </message>
+    <message>
+        <source>The edition was made, but a workflow holds its publishing. Find it in the administration.</source>
+        <translation>Edisi telah dibuat, tetapi aliran kerja menahan penerbitannya. Cari dalam pentadbiran.</translation>
+    </message>
+    <message>
+        <source>The edition was made, but the page could not be taken into it.</source>
+        <translation>Edisi telah dibuat, tetapi halaman tidak dapat dimasukkan ke dalamnya.</translation>
+    </message>
+    <message>
+        <source>There is no such edition, or you may not read it.</source>
+        <translation>Edisi sedemikian tiada, atau anda tidak dibenarkan membacanya.</translation>
+    </message>
+    <message>
+        <source>This edition has no newsletter data.</source>
+        <translation>Edisi ini tiada data surat berita.</translation>
+    </message>
+    <message>
+        <source>Some of the addresses are not valid.</source>
+        <translation>Sebahagian alamat tidak sah.</translation>
+    </message>
+    <message>
+        <source>Give at least one address.</source>
+        <translation>Berikan sekurang-kurangnya satu alamat.</translation>
+    </message>
+    <message>
+        <source>Too many addresses at once.</source>
+        <translation>Terlalu banyak alamat sekali gus.</translation>
+    </message>
+    <message>
+        <source>The edition was changed in the meantime. Look at it again before you send it.</source>
+        <translation>Edisi telah diubah dalam pada itu. Lihat semula sebelum anda menghantarnya.</translation>
+    </message>
+    <message>
+        <source>The send could not be made.</source>
+        <translation>Penghantaran tidak dapat dibuat.</translation>
+    </message>
+    <message>
+        <source>Sending to the subscribers needs "Verify it's you", which is switched off here. Send it in the administration.</source>
+        <translation>Penghantaran kepada pelanggan memerlukan "Sahkan bahawa ini anda", yang dimatikan di sini. Hantar dalam pentadbiran.</translation>
+    </message>
+    <message>
+        <source>Please confirm it is you first.</source>
+        <translation>Sila sahkan bahawa ini anda dahulu.</translation>
+    </message>
+    <message>
+        <source>Editions with this page</source>
+        <translation>Edisi dengan halaman ini</translation>
+    </message>
+    <message>
+        <source>This page is in no edition yet.</source>
+        <translation>Halaman ini belum ada dalam mana-mana edisi.</translation>
+    </message>
+    <message>
+        <source>Being sent</source>
+        <translation>Sedang dihantar</translation>
+    </message>
+    <message>
+        <source>Sent, in the archive</source>
+        <translation>Dihantar, dalam arkib</translation>
+    </message>
+    <message>
+        <source>Stopped</source>
+        <translation>Dihentikan</translation>
+    </message>
+    <message>
+        <source>%n subscribers</source>
+        <translation>%n pelanggan</translation>
+    </message>
+    <message>
+        <source>Make an edition from this page</source>
+        <translation>Buat edisi daripada halaman ini</translation>
+    </message>
+    <message>
+        <source>There is no newsletter list where you may make an edition.</source>
+        <translation>Tiada senarai surat berita tempat anda boleh membuat edisi.</translation>
+    </message>
+    <message>
+        <source>Make the edition</source>
+        <translation>Buat edisi</translation>
+    </message>
+    <message>
+        <source>Newsletter list</source>
+        <translation>Senarai surat berita</translation>
+    </message>
+    <message>
+        <source>Introduction (optional)</source>
+        <translation>Pengenalan (pilihan)</translation>
+    </message>
+    <message>
+        <source>This page becomes the edition's article: its title, its intro and a link to it.</source>
+        <translation>Halaman ini menjadi artikel edisi: tajuknya, pengenalannya dan pautan kepadanya.</translation>
+    </message>
+    <message>
+        <source>The edition was made, with this page as its article.</source>
+        <translation>Edisi telah dibuat, dengan halaman ini sebagai artikelnya.</translation>
+    </message>
+    <message>
+        <source>not asked for yet</source>
+        <translation>belum diminta</translation>
+    </message>
+    <message>
+        <source>waiting</source>
+        <translation>menunggu</translation>
+    </message>
+    <message>
+        <source>approved</source>
+        <translation>diluluskan</translation>
+    </message>
+    <message>
+        <source>rejected</source>
+        <translation>ditolak</translation>
+    </message>
+    <message>
+        <source>Approval: %state</source>
+        <translation>Kelulusan: %state</translation>
+    </message>
+    <message>
+        <source>waiting for the cronjob</source>
+        <translation>menunggu cronjob</translation>
+    </message>
+    <message>
+        <source>queued</source>
+        <translation>dalam baris gilir</translation>
+    </message>
+    <message>
+        <source>being sent</source>
+        <translation>sedang dihantar</translation>
+    </message>
+    <message>
+        <source>sent</source>
+        <translation>dihantar</translation>
+    </message>
+    <message>
+        <source>stopped</source>
+        <translation>dihentikan</translation>
+    </message>
+    <message>
+        <source>Last send: %state, %time</source>
+        <translation>Penghantaran terakhir: %state, %time</translation>
+    </message>
+    <message>
+        <source>Send a test</source>
+        <translation>Hantar ujian</translation>
+    </message>
+    <message>
+        <source>The test could not be sent.</source>
+        <translation>Ujian tidak dapat dihantar.</translation>
+    </message>
+    <message>
+        <source>The test was sent to %list.</source>
+        <translation>Ujian dihantar kepada %list.</translation>
+    </message>
+    <message>
+        <source>Test addresses</source>
+        <translation>Alamat ujian</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers</source>
+        <translation>Hantar kepada pelanggan</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers ...</source>
+        <translation>Hantar kepada pelanggan ...</translation>
+    </message>
+    <message>
+        <source>Send now</source>
+        <translation>Hantar sekarang</translation>
+    </message>
+    <message>
+        <source>The edition is queued: the newsletter's cronjob sends it to the subscribers.</source>
+        <translation>Edisi dalam baris gilir: cronjob surat berita menghantarnya kepada pelanggan.</translation>
+    </message>
+    <message>
+        <source>Send "%name" to the %n subscribers of "%list" now? This cannot be taken back here.</source>
+        <translation>Hantar "%name" kepada %n pelanggan "%list" sekarang? Ini tidak boleh dibatalkan di sini.</translation>
+    </message>
+    <message>
+        <source>Newsletter</source>
+        <translation>Surat berita</translation>
+    </message>
+    <message>
+        <source>This edition is being sent.</source>
+        <translation>Edisi ini sedang dihantar.</translation>
+    </message>
+    <message>
+        <source>This edition was sent and is in the archive.</source>
+        <translation>Edisi ini telah dihantar dan berada dalam arkib.</translation>
+    </message>
+    <message>
+        <source>This edition waits for its approval. It can be sent when it is approved.</source>
+        <translation>Edisi ini menunggu kelulusan. Ia boleh dihantar apabila diluluskan.</translation>
+    </message>
+    <message>
+        <source>This edition was rejected. Change it and ask for the approval again.</source>
+        <translation>Edisi ini ditolak. Ubahnya dan minta kelulusan semula.</translation>
+    </message>
+    <message>
+        <source>The list needs an approval before an edition is sent. Ask for the approval in the administration.</source>
+        <translation>Senarai memerlukan kelulusan sebelum edisi dihantar. Minta kelulusan dalam pentadbiran.</translation>
+    </message>
+    <message>
+        <source>The list has no subscribers.</source>
+        <translation>Senarai tiada pelanggan.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Peti masuk</translation>
     </message>

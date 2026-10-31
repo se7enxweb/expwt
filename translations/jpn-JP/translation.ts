@@ -1044,6 +1044,214 @@
         <translation>フォーム</translation>
     </message>
     <message>
+        <source>There is no such newsletter list.</source>
+        <translation>そのニュースレターリストは存在しません。</translation>
+    </message>
+    <message>
+        <source>The edition was made, but a workflow holds its publishing. Find it in the administration.</source>
+        <translation>号は作成されましたが、ワークフローにより公開が保留されています。管理画面で確認してください。</translation>
+    </message>
+    <message>
+        <source>The edition was made, but the page could not be taken into it.</source>
+        <translation>号は作成されましたが、ページを取り込めませんでした。</translation>
+    </message>
+    <message>
+        <source>There is no such edition, or you may not read it.</source>
+        <translation>その号は存在しないか、閲覧が許可されていません。</translation>
+    </message>
+    <message>
+        <source>This edition has no newsletter data.</source>
+        <translation>この号にはニュースレターのデータがありません。</translation>
+    </message>
+    <message>
+        <source>Some of the addresses are not valid.</source>
+        <translation>一部のアドレスが無効です。</translation>
+    </message>
+    <message>
+        <source>Give at least one address.</source>
+        <translation>アドレスを少なくとも1つ入力してください。</translation>
+    </message>
+    <message>
+        <source>Too many addresses at once.</source>
+        <translation>一度に指定するアドレスが多すぎます。</translation>
+    </message>
+    <message>
+        <source>The edition was changed in the meantime. Look at it again before you send it.</source>
+        <translation>号はその間に変更されました。送信する前にもう一度確認してください。</translation>
+    </message>
+    <message>
+        <source>The send could not be made.</source>
+        <translation>送信できませんでした。</translation>
+    </message>
+    <message>
+        <source>Sending to the subscribers needs "Verify it's you", which is switched off here. Send it in the administration.</source>
+        <translation>購読者への送信には「本人確認」が必要ですが、ここでは無効になっています。管理画面から送信してください。</translation>
+    </message>
+    <message>
+        <source>Please confirm it is you first.</source>
+        <translation>まず本人確認をしてください。</translation>
+    </message>
+    <message>
+        <source>Editions with this page</source>
+        <translation>このページを含む号</translation>
+    </message>
+    <message>
+        <source>This page is in no edition yet.</source>
+        <translation>このページはまだどの号にも含まれていません。</translation>
+    </message>
+    <message>
+        <source>Being sent</source>
+        <translation>送信中</translation>
+    </message>
+    <message>
+        <source>Sent, in the archive</source>
+        <translation>送信済み、アーカイブ内</translation>
+    </message>
+    <message>
+        <source>Stopped</source>
+        <translation>停止</translation>
+    </message>
+    <message>
+        <source>%n subscribers</source>
+        <translation>購読者 %n 人</translation>
+    </message>
+    <message>
+        <source>Make an edition from this page</source>
+        <translation>このページから号を作成</translation>
+    </message>
+    <message>
+        <source>There is no newsletter list where you may make an edition.</source>
+        <translation>号を作成できるニュースレターリストがありません。</translation>
+    </message>
+    <message>
+        <source>Make the edition</source>
+        <translation>号を作成</translation>
+    </message>
+    <message>
+        <source>Newsletter list</source>
+        <translation>ニュースレターリスト</translation>
+    </message>
+    <message>
+        <source>Introduction (optional)</source>
+        <translation>導入文（任意）</translation>
+    </message>
+    <message>
+        <source>This page becomes the edition's article: its title, its intro and a link to it.</source>
+        <translation>このページが号の記事になります：タイトル、導入文、ページへのリンク。</translation>
+    </message>
+    <message>
+        <source>The edition was made, with this page as its article.</source>
+        <translation>号を作成しました。このページが記事です。</translation>
+    </message>
+    <message>
+        <source>not asked for yet</source>
+        <translation>未依頼</translation>
+    </message>
+    <message>
+        <source>waiting</source>
+        <translation>待機中</translation>
+    </message>
+    <message>
+        <source>approved</source>
+        <translation>承認済み</translation>
+    </message>
+    <message>
+        <source>rejected</source>
+        <translation>却下</translation>
+    </message>
+    <message>
+        <source>Approval: %state</source>
+        <translation>承認：%state</translation>
+    </message>
+    <message>
+        <source>waiting for the cronjob</source>
+        <translation>cronjob 待ち</translation>
+    </message>
+    <message>
+        <source>queued</source>
+        <translation>キュー登録済み</translation>
+    </message>
+    <message>
+        <source>being sent</source>
+        <translation>送信中</translation>
+    </message>
+    <message>
+        <source>sent</source>
+        <translation>送信済み</translation>
+    </message>
+    <message>
+        <source>stopped</source>
+        <translation>停止</translation>
+    </message>
+    <message>
+        <source>Last send: %state, %time</source>
+        <translation>最終送信：%state、%time</translation>
+    </message>
+    <message>
+        <source>Send a test</source>
+        <translation>テスト送信</translation>
+    </message>
+    <message>
+        <source>The test could not be sent.</source>
+        <translation>テストを送信できませんでした。</translation>
+    </message>
+    <message>
+        <source>The test was sent to %list.</source>
+        <translation>テストを %list に送信しました。</translation>
+    </message>
+    <message>
+        <source>Test addresses</source>
+        <translation>テスト用アドレス</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers</source>
+        <translation>購読者に送信</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers ...</source>
+        <translation>購読者に送信 ...</translation>
+    </message>
+    <message>
+        <source>Send now</source>
+        <translation>今すぐ送信</translation>
+    </message>
+    <message>
+        <source>The edition is queued: the newsletter's cronjob sends it to the subscribers.</source>
+        <translation>号はキューに入りました：ニュースレターの cronjob が購読者に送信します。</translation>
+    </message>
+    <message>
+        <source>Send "%name" to the %n subscribers of "%list" now? This cannot be taken back here.</source>
+        <translation>「%name」を「%list」の購読者 %n 人に今すぐ送信しますか？ここでは取り消せません。</translation>
+    </message>
+    <message>
+        <source>Newsletter</source>
+        <translation>ニュースレター</translation>
+    </message>
+    <message>
+        <source>This edition is being sent.</source>
+        <translation>この号は送信中です。</translation>
+    </message>
+    <message>
+        <source>This edition was sent and is in the archive.</source>
+        <translation>この号は送信済みで、アーカイブにあります。</translation>
+    </message>
+    <message>
+        <source>This edition waits for its approval. It can be sent when it is approved.</source>
+        <translation>この号は承認待ちです。承認されると送信できます。</translation>
+    </message>
+    <message>
+        <source>This edition was rejected. Change it and ask for the approval again.</source>
+        <translation>この号は却下されました。変更して、もう一度承認を依頼してください。</translation>
+    </message>
+    <message>
+        <source>The list needs an approval before an edition is sent. Ask for the approval in the administration.</source>
+        <translation>このリストでは、号を送信する前に承認が必要です。管理画面で承認を依頼してください。</translation>
+    </message>
+    <message>
+        <source>The list has no subscribers.</source>
+        <translation>このリストには購読者がいません。</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>受信箱</translation>
     </message>

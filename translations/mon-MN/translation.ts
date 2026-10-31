@@ -1044,6 +1044,214 @@
         <translation>Маягтууд</translation>
     </message>
     <message>
+        <source>There is no such newsletter list.</source>
+        <translation>Ийм мэдээллийн товхимолын жагсаалт байхгүй.</translation>
+    </message>
+    <message>
+        <source>The edition was made, but a workflow holds its publishing. Find it in the administration.</source>
+        <translation>Дугаар үүссэн боловч ажлын урсгал түүний нийтлэлийг саатуулж байна. Үүнийг удирдлагаас олоорой.</translation>
+    </message>
+    <message>
+        <source>The edition was made, but the page could not be taken into it.</source>
+        <translation>Дугаар үүссэн боловч хуудсыг түүнд оруулж чадсангүй.</translation>
+    </message>
+    <message>
+        <source>There is no such edition, or you may not read it.</source>
+        <translation>Ийм дугаар байхгүй, эсвэл та үүнийг унших эрхгүй.</translation>
+    </message>
+    <message>
+        <source>This edition has no newsletter data.</source>
+        <translation>Энэ дугаарт мэдээллийн товхимолын өгөгдөл алга.</translation>
+    </message>
+    <message>
+        <source>Some of the addresses are not valid.</source>
+        <translation>Зарим хаяг хүчингүй байна.</translation>
+    </message>
+    <message>
+        <source>Give at least one address.</source>
+        <translation>Дор хаяж нэг хаяг оруулна уу.</translation>
+    </message>
+    <message>
+        <source>Too many addresses at once.</source>
+        <translation>Нэг дор хэт олон хаяг байна.</translation>
+    </message>
+    <message>
+        <source>The edition was changed in the meantime. Look at it again before you send it.</source>
+        <translation>Энэ хооронд дугаар өөрчлөгдсөн байна. Илгээхээсээ өмнө дахин харна уу.</translation>
+    </message>
+    <message>
+        <source>The send could not be made.</source>
+        <translation>Илгээж чадсангүй.</translation>
+    </message>
+    <message>
+        <source>Sending to the subscribers needs "Verify it's you", which is switched off here. Send it in the administration.</source>
+        <translation>Захиалагчдад илгээхэд "Энэ таныг мөн эсэхийг баталгаажуулна уу" шаардлагатай, гэвч энд унтраалттай байна. Удирдлагаас илгээнэ үү.</translation>
+    </message>
+    <message>
+        <source>Please confirm it is you first.</source>
+        <translation>Эхлээд өөрийгөө мөн гэдгээ баталгаажуулна уу.</translation>
+    </message>
+    <message>
+        <source>Editions with this page</source>
+        <translation>Энэ хуудастай дугаарууд</translation>
+    </message>
+    <message>
+        <source>This page is in no edition yet.</source>
+        <translation>Энэ хуудас одоогоор ямар ч дугаарт ороогүй байна.</translation>
+    </message>
+    <message>
+        <source>Being sent</source>
+        <translation>Илгээгдэж байна</translation>
+    </message>
+    <message>
+        <source>Sent, in the archive</source>
+        <translation>Илгээсэн, архивт</translation>
+    </message>
+    <message>
+        <source>Stopped</source>
+        <translation>Зогсоосон</translation>
+    </message>
+    <message>
+        <source>%n subscribers</source>
+        <translation>%n захиалагч</translation>
+    </message>
+    <message>
+        <source>Make an edition from this page</source>
+        <translation>Энэ хуудаснаас дугаар үүсгэх</translation>
+    </message>
+    <message>
+        <source>There is no newsletter list where you may make an edition.</source>
+        <translation>Таны дугаар үүсгэж болох мэдээллийн товхимолын жагсаалт алга.</translation>
+    </message>
+    <message>
+        <source>Make the edition</source>
+        <translation>Дугаар үүсгэх</translation>
+    </message>
+    <message>
+        <source>Newsletter list</source>
+        <translation>Мэдээллийн товхимолын жагсаалт</translation>
+    </message>
+    <message>
+        <source>Introduction (optional)</source>
+        <translation>Танилцуулга (заавал биш)</translation>
+    </message>
+    <message>
+        <source>This page becomes the edition's article: its title, its intro and a link to it.</source>
+        <translation>Энэ хуудас дугаарын нийтлэл болно: гарчиг, танилцуулга болон түүн рүү очих холбоос.</translation>
+    </message>
+    <message>
+        <source>The edition was made, with this page as its article.</source>
+        <translation>Энэ хуудсыг нийтлэл болгон дугаар үүслээ.</translation>
+    </message>
+    <message>
+        <source>not asked for yet</source>
+        <translation>хараахан хүсээгүй</translation>
+    </message>
+    <message>
+        <source>waiting</source>
+        <translation>хүлээгдэж байна</translation>
+    </message>
+    <message>
+        <source>approved</source>
+        <translation>зөвшөөрсөн</translation>
+    </message>
+    <message>
+        <source>rejected</source>
+        <translation>татгалзсан</translation>
+    </message>
+    <message>
+        <source>Approval: %state</source>
+        <translation>Зөвшөөрөл: %state</translation>
+    </message>
+    <message>
+        <source>waiting for the cronjob</source>
+        <translation>cronjob-ийг хүлээж байна</translation>
+    </message>
+    <message>
+        <source>queued</source>
+        <translation>дараалалд</translation>
+    </message>
+    <message>
+        <source>being sent</source>
+        <translation>илгээгдэж байна</translation>
+    </message>
+    <message>
+        <source>sent</source>
+        <translation>илгээсэн</translation>
+    </message>
+    <message>
+        <source>stopped</source>
+        <translation>зогсоосон</translation>
+    </message>
+    <message>
+        <source>Last send: %state, %time</source>
+        <translation>Сүүлийн илгээлт: %state, %time</translation>
+    </message>
+    <message>
+        <source>Send a test</source>
+        <translation>Туршилт илгээх</translation>
+    </message>
+    <message>
+        <source>The test could not be sent.</source>
+        <translation>Туршилтыг илгээж чадсангүй.</translation>
+    </message>
+    <message>
+        <source>The test was sent to %list.</source>
+        <translation>Туршилтыг %list руу илгээлээ.</translation>
+    </message>
+    <message>
+        <source>Test addresses</source>
+        <translation>Туршилтын хаягууд</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers</source>
+        <translation>Захиалагчдад илгээх</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers ...</source>
+        <translation>Захиалагчдад илгээх ...</translation>
+    </message>
+    <message>
+        <source>Send now</source>
+        <translation>Одоо илгээх</translation>
+    </message>
+    <message>
+        <source>The edition is queued: the newsletter's cronjob sends it to the subscribers.</source>
+        <translation>Дугаар дараалалд орлоо: мэдээллийн товхимолын cronjob үүнийг захиалагчдад илгээнэ.</translation>
+    </message>
+    <message>
+        <source>Send "%name" to the %n subscribers of "%list" now? This cannot be taken back here.</source>
+        <translation>"%name"-г "%list"-ийн %n захиалагчид одоо илгээх үү? Үүнийг энд буцаах боломжгүй.</translation>
+    </message>
+    <message>
+        <source>Newsletter</source>
+        <translation>Мэдээллийн товхимол</translation>
+    </message>
+    <message>
+        <source>This edition is being sent.</source>
+        <translation>Энэ дугаар илгээгдэж байна.</translation>
+    </message>
+    <message>
+        <source>This edition was sent and is in the archive.</source>
+        <translation>Энэ дугаар илгээгдсэн бөгөөд архивт байна.</translation>
+    </message>
+    <message>
+        <source>This edition waits for its approval. It can be sent when it is approved.</source>
+        <translation>Энэ дугаар зөвшөөрлөө хүлээж байна. Зөвшөөрөгдсөний дараа илгээж болно.</translation>
+    </message>
+    <message>
+        <source>This edition was rejected. Change it and ask for the approval again.</source>
+        <translation>Энэ дугаарыг татгалзсан. Өөрчлөөд дахин зөвшөөрөл хүснэ үү.</translation>
+    </message>
+    <message>
+        <source>The list needs an approval before an edition is sent. Ask for the approval in the administration.</source>
+        <translation>Дугаар илгээхээс өмнө жагсаалтад зөвшөөрөл хэрэгтэй. Удирдлагаас зөвшөөрөл хүснэ үү.</translation>
+    </message>
+    <message>
+        <source>The list has no subscribers.</source>
+        <translation>Жагсаалтад захиалагч алга.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Ирсэн</translation>
     </message>

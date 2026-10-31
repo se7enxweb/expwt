@@ -883,6 +883,400 @@ class expwtGateway
         return implode( ' · ', $parts );
     }
 
+    // ------------------------------------------------------------------------------- the newsletter (E3, cjw_newsletter)
+
+    /** The most editions carrying the page, and the most lists, the panel lists */
+    const NEWSLETTER_MAX = 20;
+
+    /** The reauth group of the real send (site.ini [ReauthGroup_newsletter], expwtAccess::REAUTH_GROUPS) */
+    const NEWSLETTER_REAUTH_GROUP = 'newsletter';
+
+    /** @return bool cjw_newsletter is active here with its edition class */
+    protected static function newsletterInstalled()
+    {
+        return in_array( 'cjw_newsletter', (array)eZExtension::activeExtensions(), true ) && class_exists( 'CjwNewsletterEditionBuilder' )
+               && class_exists( 'CjwNewsletterMail' ) && eZContentClass::classIDByIdentifier( 'cjw_newsletter_edition' );
+    }
+
+    /**
+     * Whether the Newsletter panel is offered (boot): with cjw_newsletter, for a user with its newsletter/editorial
+     * (making an edition, as the administration's article picker needs) or newsletter/send (the test and the real send,
+     * as the administration's send page needs).
+     *
+     * @return array|null create, send
+     */
+    public function newsletterOffer()
+    {
+        if ( !$this->capabilities()['edit'] || !self::newsletterInstalled() )
+            return null;
+        $create = $this->may( 'newsletter', 'editorial' );
+        $send = $this->may( 'newsletter', 'send' );
+        return $create || $send ? array( 'create' => $create, 'send' => $send ) : null;
+    }
+
+    /** @return array the offer, or a refusal when the user has no part of the newsletter */
+    protected function newsletterOfferOrRefuse()
+    {
+        $offer = $this->newsletterOffer();
+        if ( !$offer )
+            throw new expwtApiError( 403, 'forbidden', 'You may not do this.' );
+        return $offer;
+    }
+
+    /**
+     * The Newsletter panel of a page (E3): when the page is an edition, the edition; else the editions that carry the
+     * page as an article (newest first) and, for a user with newsletter/editorial, the lists where the user may make an
+     * edition (content/create of an edition below the list).
+     *
+     * @param array $in nodeId
+     * @return array nodeId, name, canCreate, canSend, edition, editions, lists (objectId, name, subscribers, approval)
+     */
+    public function newsletter( array $in )
+    {
+        $offer = $this->newsletterOfferOrRefuse();
+        $node = $this->readableNode( $in );
+        $object = $node->object();
+        $out = array( 'nodeId' => (int)$node->attribute( 'node_id' ), 'name' => (string)$node->attribute( 'name' ), 'canCreate' => $offer['create'],
+                      'canSend' => $offer['send'], 'edition' => null, 'editions' => array(), 'lists' => array() );
+        if ( (string)$object->attribute( 'class_identifier' ) === 'cjw_newsletter_edition' )
+        {
+            $out['edition'] = $this->editionInfo( $object );
+            return $out;
+        }
+        $seen = array();
+        foreach ( CjwNewsletterEditionArticle::fetchListByContentobjectId( (int)$object->attribute( 'id' ), self::NEWSLETTER_MAX ) as $row )
+        {
+            $id = (int)$row->attribute( 'edition_contentobject_id' );
+            $edition = isset( $seen[$id] ) ? null : eZContentObject::fetch( $id );
+            $seen[$id] = true;
+            if ( $edition instanceof eZContentObject && $edition->canRead() && $edition->attribute( 'main_node_id' ) )
+                $out['editions'][] = $this->editionInfo( $edition );
+        }
+        if ( $offer['create'] )
+            $out['lists'] = $this->newsletterLists();
+        return $out;
+    }
+
+    /** @return array the lists where the user may make an edition: objectId, name, subscribers, approval */
+    protected function newsletterLists()
+    {
+        $classId = (int)eZContentClass::classIDByIdentifier( 'cjw_newsletter_edition' );
+        $out = array();
+        $nodes = eZContentObjectTreeNode::subTreeByNodeID( array( 'ClassFilterType' => 'include', 'ClassFilterArray' => array( 'cjw_newsletter_list' ),
+                                                                  'SortBy' => array( 'name', true ), 'Limit' => self::NEWSLETTER_MAX ), 1 );
+        foreach ( (array)$nodes as $list )
+        {
+            if ( !$list instanceof eZContentObjectTreeNode
+                 || $list->checkAccess( 'create', $classId, (int)$list->attribute( 'contentclass_id' ) ) != 1 )
+                continue;
+            $listId = (int)$list->attribute( 'contentobject_id' );
+            $out[] = array( 'objectId' => $listId, 'name' => (string)$list->attribute( 'name' ), 'subscribers' => self::subscriberCount( $listId ),
+                            'approval' => CjwNewsletterApprovalFlow::isRequired( $listId ) );
+        }
+        return $out;
+    }
+
+    /** @return int the subscribers a send of the list goes to (approved subscriptions, as the mail queue takes them) */
+    protected static function subscriberCount( $listObjectId )
+    {
+        $list = CjwNewsletterList::fetchByListObjectVersion( (int)$listObjectId, 0 );
+        if ( is_object( $list ) && method_exists( $list, 'getSubscriptionObjectCount' ) )
+            return (int)$list->getSubscriptionObjectCount( CjwNewsletterSubscription::STATUS_APPROVED );
+        return (int)CjwNewsletterSubscription::fetchSubscriptionListByListIdCount( (int)$listObjectId, CjwNewsletterSubscription::STATUS_APPROVED );
+    }
+
+    /**
+     * An edition as the panel shows it.
+     *
+     * @return array objectId, nodeId, version, name, list (objectId, name), status (draft, process, archive, abort),
+     *               subscribers, approval (required, state), articles, testRecipients, send (status, created), reason
+     *               (why it cannot be sent now, empty when it can), adminUrl
+     */
+    protected function editionInfo( eZContentObject $edition )
+    {
+        $id = (int)$edition->attribute( 'id' );
+        $version = (int)$edition->attribute( 'current_version' );
+        $content = CjwNewsletterEditionBuilder::editionContent( $edition );
+        $listId = CjwNewsletterApprovalFlow::listOfEdition( $id );
+        $list = $listId ? eZContentObject::fetch( $listId ) : null;
+        $listContent = $content ? $content->attribute( 'list_attribute_content' ) : null;
+        $status = $content ? (string)$content->attribute( 'status' ) : '';
+        $send = null;
+        foreach ( (array)CjwNewsletterEditionSend::fetchByEditionContentObjectId( $id ) as $row )
+            if ( !$send || (int)$row->attribute( 'id' ) > (int)$send->attribute( 'id' ) )
+                $send = $row;
+        $required = $listId ? CjwNewsletterApprovalFlow::isRequired( $listId ) : false;
+        $admin = self::adminUrl();
+        $info = array( 'objectId' => $id, 'nodeId' => (int)$edition->attribute( 'main_node_id' ), 'version' => $version,
+                       'name' => (string)$edition->attribute( 'name' ),
+                       'list' => array( 'objectId' => $listId, 'name' => $list instanceof eZContentObject ? (string)$list->attribute( 'name' ) : '' ),
+                       'status' => in_array( $status, array( 'draft', 'process', 'archive', 'abort' ), true ) ? $status : 'draft',
+                       'subscribers' => $listId ? self::subscriberCount( $listId ) : 0,
+                       'approval' => array( 'required' => $required, 'state' => $required ? CjwNewsletterApprovalFlow::state( $id, $version ) : 'none' ),
+                       'articles' => count( CjwNewsletterEditionArticle::fetchByEdition( $id ) ),
+                       'testRecipients' => is_object( $listContent ) && $listContent->hasAttribute( 'email_receiver_test' ) ? (string)$listContent->attribute( 'email_receiver_test' ) : '',
+                       'send' => $send ? array( 'status' => self::sendState( (int)$send->attribute( 'status' ) ), 'created' => (int)$send->attribute( 'created' ) ) : null,
+                       'reason' => '',
+                       'adminUrl' => $admin ? $admin . 'newsletter/send/' . (int)$edition->attribute( 'main_node_id' ) : null );
+        $info['reason'] = self::editionBlocker( $content !== null, $info['status'], $info['approval'], $info['subscribers'] );
+        return $info;
+    }
+
+    /** Pure: the state of a send by its status (CjwNewsletterEditionSend::STATUS_*) */
+    public static function sendState( $status )
+    {
+        $map = array( 0 => 'waiting', 4 => 'waiting', 1 => 'queued', 2 => 'sending', 3 => 'sent', 9 => 'aborted' );
+        return isset( $map[(int)$status] ) ? $map[(int)$status] : 'waiting';
+    }
+
+    /**
+     * Pure: why an edition cannot go to its subscribers now (the reasons of the administration's send page), '' when
+     * it can.
+     *
+     * @param bool $hasContent the edition has its newsletter data
+     * @param string $status draft, process, archive, abort
+     * @param array $approval required, state
+     * @param int $subscribers
+     * @return string the message (a source string of expwtStrings)
+     */
+    public static function editionBlocker( $hasContent, $status, array $approval, $subscribers )
+    {
+        if ( !$hasContent )
+            return 'This edition has no newsletter data.';
+        if ( $status === 'process' )
+            return 'This edition is being sent.';
+        if ( $status === 'archive' )
+            return 'This edition was sent and is in the archive.';
+        if ( !empty( $approval['required'] ) && $approval['state'] !== 'approved' )
+            return $approval['state'] === 'pending' ? 'This edition waits for its approval. It can be sent when it is approved.'
+                 : ( $approval['state'] === 'rejected' ? 'This edition was rejected. Change it and ask for the approval again.'
+                 : 'The list needs an approval before an edition is sent. Ask for the approval in the administration.' );
+        if ( (int)$subscribers < 1 )
+            return 'The list has no subscribers.';
+        return '';
+    }
+
+    /**
+     * Makes an edition from the page (E3): a new edition (cjw_newsletter_edition) below the list, with the title and
+     * the introduction given, published; and the page in it as its article, as the administration's article picker
+     * takes it (a newsletter article with the page's title, its intro and "Read more", and the pick that the article
+     * statistics read). Needs newsletter/editorial and content/create of an edition below the list.
+     *
+     * @param array $in nodeId (the page), listId, title, intro
+     * @return array the edition (editionInfo())
+     */
+    public function newsletterCreate( array $in )
+    {
+        $offer = $this->newsletterOfferOrRefuse();
+        if ( !$offer['create'] )
+            throw new expwtApiError( 403, 'forbidden', 'You may not do this.' );
+        $node = $this->readableNode( $in );
+        $list = isset( $in['listId'] ) ? eZContentObject::fetch( (int)$in['listId'] ) : null;
+        $listNode = $list instanceof eZContentObject ? $list->attribute( 'main_node' ) : null;
+        if ( !$listNode instanceof eZContentObjectTreeNode || (string)$list->attribute( 'class_identifier' ) !== 'cjw_newsletter_list' || !$list->canRead() )
+            throw new expwtApiError( 404, 'not_found', 'There is no such newsletter list.' );
+        $title = isset( $in['title'] ) ? trim( (string)$in['title'] ) : '';
+        if ( $title === '' )
+            throw new expwtApiError( 400, 'bad_input', 'Give a title.' );
+        $class = eZContentClass::fetchByIdentifier( 'cjw_newsletter_edition' );
+        if ( !$class instanceof eZContentClass
+             || $listNode->checkAccess( 'create', (int)$class->attribute( 'id' ), (int)$listNode->attribute( 'contentclass_id' ) ) != 1 )
+            throw new expwtApiError( 403, 'forbidden', 'You may not do this.' );
+
+        $db = eZDB::instance();
+        $db->begin();
+        $edition = $class->instantiate( $this->userId(), (int)$list->attribute( 'section_id' ), false );
+        $edition->store();
+        $assignment = eZNodeAssignment::create( array( 'contentobject_id' => $edition->attribute( 'id' ), 'contentobject_version' => 1,
+                                                       'parent_node' => (int)$listNode->attribute( 'node_id' ), 'is_main' => 1 ) );
+        $assignment->store();
+        $map = $edition->attribute( 'current' )->attribute( 'data_map' );
+        if ( isset( $map['title'] ) )
+        {
+            $map['title']->setAttribute( 'data_text', mb_substr( $title, 0, 255, 'UTF-8' ) );
+            $map['title']->store();
+        }
+        if ( isset( $map['description'] ) )
+        {
+            $map['description']->setAttribute( 'data_text', self::paragraphsXml( isset( $in['intro'] ) && trim( (string)$in['intro'] ) !== '' ? (string)$in['intro'] : $title ) );
+            $map['description']->store();
+        }
+        if ( isset( $map['newsletter_edition'] ) )
+        {
+            // the edition's row of the datatype, as its form stores it on the first save
+            $row = new CjwNewsletterEdition( array( 'contentobject_attribute_id' => $map['newsletter_edition']->attribute( 'id' ),
+                                                    'contentobject_attribute_version' => $map['newsletter_edition']->attribute( 'version' ),
+                                                    'contentobject_id' => $edition->attribute( 'id' ), 'contentclass_id' => $class->attribute( 'id' ) ) );
+            $row->store();
+        }
+        $db->commit();
+        eZOperationHandler::execute( 'content', 'publish', array( 'object_id' => $edition->attribute( 'id' ), 'version' => 1 ) );
+        $edition = eZContentObject::fetch( $edition->attribute( 'id' ) );
+        if ( !$edition instanceof eZContentObject || (int)$edition->attribute( 'status' ) !== eZContentObject::STATUS_PUBLISHED || !$edition->attribute( 'main_node_id' ) )
+            throw new expwtApiError( 409, 'held', 'The edition was made, but a workflow holds its publishing. Find it in the administration.' );
+        $pool = class_exists( 'CjwNewsletterArticlePool' ) ? CjwNewsletterArticlePool::forList( (int)$list->attribute( 'id' ) ) : null;
+        if ( !CjwNewsletterEditionBuilder::addArticle( $edition, $node, CjwNewsletterEditionArticle::ADDED_BY_EDITOR,
+                                                        is_object( $pool ) ? (int)$pool->attribute( 'id' ) : 0 ) )
+            throw new expwtApiError( 500, 'internal', 'The edition was made, but the page could not be taken into it.' );
+        if ( class_exists( 'expAuditHook' ) )
+            expAuditHook::emit( 'content.newsletter.edition.create', array( 'object' => array( 'type' => 'object', 'id' => (int)$edition->attribute( 'id' ), 'name' => (string)$edition->attribute( 'name' ) ),
+                'target' => array( 'type' => 'object', 'id' => (int)$node->attribute( 'contentobject_id' ), 'name' => (string)$node->attribute( 'name' ) ), 'verb' => 'create' ) );
+        return $this->editionInfo( eZContentObject::fetch( $edition->attribute( 'id' ) ) );
+    }
+
+    /** Pure: plain text as the paragraphs of an ezxmltext section (one per block of lines; a line break inside one) */
+    public static function paragraphsXml( $text )
+    {
+        $dom = new DOMDocument( '1.0', 'utf-8' );
+        $section = $dom->createElement( 'section' );
+        $section->setAttribute( 'xmlns:image', 'http://ez.no/namespaces/ezpublish3/image/' );
+        $section->setAttribute( 'xmlns:xhtml', 'http://ez.no/namespaces/ezpublish3/xhtml/' );
+        $section->setAttribute( 'xmlns:custom', 'http://ez.no/namespaces/ezpublish3/custom/' );
+        $dom->appendChild( $section );
+        $text = mb_substr( str_replace( array( "\r\n", "\r" ), "\n", (string)$text ), 0, 10000, 'UTF-8' );
+        foreach ( preg_split( '/\n\s*\n/u', trim( $text ) ) as $block )
+        {
+            $block = trim( preg_replace( '/[\x00-\x08\x0B\x0C\x0E-\x1F]/u', '', $block ) );
+            if ( $block === '' )
+                continue;
+            $paragraph = $dom->createElement( 'paragraph' );
+            foreach ( explode( "\n", $block ) as $i => $line )
+            {
+                if ( $i )
+                    $paragraph->appendChild( $dom->createElement( 'line' ) );
+                $paragraph->appendChild( $dom->createTextNode( trim( $line ) ) );
+            }
+            $section->appendChild( $paragraph );
+        }
+        return $dom->saveXML();
+    }
+
+    /** @return eZContentObject an edition the user may read, with its newsletter data */
+    protected function sendableEdition( array $in )
+    {
+        $edition = isset( $in['editionId'] ) ? eZContentObject::fetch( (int)$in['editionId'] ) : null;
+        if ( !$edition instanceof eZContentObject || (string)$edition->attribute( 'class_identifier' ) !== 'cjw_newsletter_edition' || !$edition->canRead()
+             || !$edition->attribute( 'main_node_id' ) )
+            throw new expwtApiError( 404, 'not_found', 'There is no such edition, or you may not read it.' );
+        if ( !CjwNewsletterEditionBuilder::editionContent( $edition ) )
+            throw new expwtApiError( 409, 'not_sendable', 'This edition has no newsletter data.' );
+        return $edition;
+    }
+
+    /**
+     * A test send of the edition (E3), as the administration's send page makes it (newsletter/send): marked as a test,
+     * to the addresses given (the list's test addresses by default), at most as many as a test group may have. Needs
+     * newsletter/send. Where the installation writes mail to files (cjw_newsletter.ini TransportMethodPreview=file),
+     * the mail goes there.
+     *
+     * @param array $in editionId, recipients
+     * @return array sent (the addresses), invalid, failed (output formats that failed)
+     */
+    public function newsletterTest( array $in )
+    {
+        $offer = $this->newsletterOfferOrRefuse();
+        if ( !$offer['send'] )
+            throw new expwtApiError( 403, 'forbidden', 'You may not do this.' );
+        $edition = $this->sendableEdition( $in );
+        $parsed = self::testRecipients( isset( $in['recipients'] ) ? (string)$in['recipients'] : '',
+                                        class_exists( 'CjwNewsletterTestSend' ) ? (int)CjwNewsletterTestSend::maxSize() : 10 );
+        if ( $parsed['invalid'] )
+            throw new expwtApiError( 400, 'bad_input', 'Some of the addresses are not valid.', array( 'invalid' => $parsed['invalid'] ) );
+        if ( !$parsed['valid'] )
+            throw new expwtApiError( 400, 'bad_input', 'Give at least one address.' );
+        if ( $parsed['over'] )
+            throw new expwtApiError( 400, 'bad_input', 'Too many addresses at once.', array( 'max' => $parsed['max'] ) );
+        $mail = new CjwNewsletterMail();
+        $result = $mail->sendNewsletterTestMail( $edition->attribute( 'current' ), implode( ', ', $parsed['valid'] ), -1 );
+        $failed = array();
+        foreach ( (array)$result as $format => $one )
+            if ( !is_array( $one ) || empty( $one['send_result'] ) )
+                $failed[] = (string)$format;
+        if ( class_exists( 'expAuditHook' ) )
+            expAuditHook::emit( 'content.newsletter.test', array( 'object' => array( 'type' => 'object', 'id' => (int)$edition->attribute( 'id' ), 'name' => (string)$edition->attribute( 'name' ) ),
+                'verb' => 'send', 'count' => count( $parsed['valid'] ) ) );
+        return array( 'sent' => $parsed['valid'], 'failed' => $failed, 'edition' => $this->editionInfo( $edition ) );
+    }
+
+    /**
+     * Pure: the addresses of a test send.
+     *
+     * @param string $text separated by commas, semicolons or lines
+     * @param int $max the most addresses at once
+     * @return array valid (lower case, each once), invalid, over (more than max), max
+     */
+    public static function testRecipients( $text, $max )
+    {
+        $valid = array();
+        $invalid = array();
+        foreach ( preg_split( '/[\r\n;,]+/', (string)$text ) as $part )
+        {
+            $part = trim( $part );
+            if ( $part === '' )
+                continue;
+            if ( filter_var( $part, FILTER_VALIDATE_EMAIL ) !== false && ( !class_exists( 'eZMail' ) || eZMail::validate( $part ) ) )
+                $valid[strtolower( $part )] = true;
+            else
+                $invalid[] = $part;
+        }
+        $max = max( 1, (int)$max );
+        return array( 'valid' => array_keys( $valid ), 'invalid' => $invalid, 'over' => count( $valid ) > $max, 'max' => $max );
+    }
+
+    /**
+     * The real send of the edition to its list's subscribers (E3), as the administration's send page makes it: a send
+     * of the edition's current version, now, which the newsletter's cronjob mails; the other parts of the newsletter
+     * (approval, skin, tracking, throttling) check and set it as for a send of the form without choices. Needs
+     * newsletter/send and "Verify it's you" (the reauth group "newsletter", which the kernel asks before the request
+     * reaches here; checked here again, so no data layer sends without it). The version the user saw must still be
+     * the current one.
+     *
+     * @param array $in editionId, version
+     * @return array the edition (editionInfo()) with its send
+     */
+    public function newsletterSend( array $in )
+    {
+        $offer = $this->newsletterOfferOrRefuse();
+        if ( !$offer['send'] )
+            throw new expwtApiError( 403, 'forbidden', 'You may not do this.' );
+        $edition = $this->sendableEdition( $in );
+        self::requireFreshConfirmation();
+        if ( !isset( $in['version'] ) || (int)$in['version'] !== (int)$edition->attribute( 'current_version' ) )
+            throw new expwtApiError( 409, 'changed', 'The edition was changed in the meantime. Look at it again before you send it.' );
+        $info = $this->editionInfo( $edition );
+        if ( $info['reason'] !== '' )
+            throw new expwtApiError( 409, 'not_sendable', $info['reason'] );
+        $version = $edition->attribute( 'current' );
+        $errors = (array)CjwNewsletterExtensionPoints::errors( 'sendFormValidate', array( eZHTTPTool::instance(), $version ) );
+        if ( $errors )
+            throw new expwtApiError( 409, 'not_sendable', implode( ' ', array_map( 'strval', $errors ) ) );
+        $send = CjwNewsletterEditionBuilder::editionContent( $edition )->createNewsletterSendObject( time() );
+        if ( !is_object( $send ) )
+            throw new expwtApiError( 500, 'internal', 'The send could not be made.' );
+        // the other parts set their values of the send as for the form without choices (the list's defaults)
+        CjwNewsletterExtensionPoints::call( 'sendFormStored', array( $send, eZHTTPTool::instance(), $version ) );
+        if ( class_exists( 'expAuditHook' ) )
+            expAuditHook::emit( 'content.newsletter.send', array( 'object' => array( 'type' => 'object', 'id' => (int)$edition->attribute( 'id' ), 'name' => (string)$edition->attribute( 'name' ) ),
+                'verb' => 'send', 'count' => $info['subscribers'] ) );
+        return $this->editionInfo( eZContentObject::fetch( $edition->attribute( 'id' ) ) );
+    }
+
+    /**
+     * "Verify it's you" for the real send: the user confirmed within the minutes a confirmation counts. When the kernel
+     * would not ask (the feature or the group "newsletter" switched off), the sidebar does not send at all.
+     */
+    protected static function requireFreshConfirmation()
+    {
+        if ( !class_exists( 'expReauth' ) )
+            throw new expwtApiError( 403, 'reauth_off', 'Sending to the subscribers needs "Verify it\'s you", which is switched off here. Send it in the administration.' );
+        $settings = expReauth::settings();
+        $group = self::NEWSLETTER_REAUTH_GROUP;
+        if ( empty( $settings['enabled'] ) || empty( $settings['groups'][$group]['enabled'] ) )
+            throw new expwtApiError( 403, 'reauth_off', 'Sending to the subscribers needs "Verify it\'s you", which is switched off here. Send it in the administration.' );
+        if ( !expReauth::isFresh() )
+            throw new expwtApiError( 403, 'reauth_required', 'Please confirm it is you first.' );
+    }
+
     // ------------------------------------------------------------------------------------------------ the inbox
 
     /** @return bool the user may use the kernel's collaboration (the module's policy), where the approvals are */

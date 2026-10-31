@@ -1044,6 +1044,214 @@
         <translation>ទម្រង់</translation>
     </message>
     <message>
+        <source>There is no such newsletter list.</source>
+        <translation>មិនមានបញ្ជីព្រឹត្តិបត្របែបនេះទេ។</translation>
+    </message>
+    <message>
+        <source>The edition was made, but a workflow holds its publishing. Find it in the administration.</source>
+        <translation>ការចេញផ្សាយត្រូវបានបង្កើត ប៉ុន្តែលំហូរការងារមួយកំពុងរារាំងការបោះពុម្ពផ្សាយរបស់វា។ សូមរកវានៅក្នុងការគ្រប់គ្រង។</translation>
+    </message>
+    <message>
+        <source>The edition was made, but the page could not be taken into it.</source>
+        <translation>ការចេញផ្សាយត្រូវបានបង្កើត ប៉ុន្តែមិនអាចដាក់ទំព័រចូលក្នុងវាបានទេ។</translation>
+    </message>
+    <message>
+        <source>There is no such edition, or you may not read it.</source>
+        <translation>មិនមានការចេញផ្សាយបែបនេះទេ ឬអ្នកមិនមានសិទ្ធិអានវា។</translation>
+    </message>
+    <message>
+        <source>This edition has no newsletter data.</source>
+        <translation>ការចេញផ្សាយនេះគ្មានទិន្នន័យព្រឹត្តិបត្រទេ។</translation>
+    </message>
+    <message>
+        <source>Some of the addresses are not valid.</source>
+        <translation>អាសយដ្ឋានខ្លះមិនត្រឹមត្រូវ។</translation>
+    </message>
+    <message>
+        <source>Give at least one address.</source>
+        <translation>សូមផ្ដល់អាសយដ្ឋានយ៉ាងហោចណាស់មួយ។</translation>
+    </message>
+    <message>
+        <source>Too many addresses at once.</source>
+        <translation>អាសយដ្ឋានច្រើនពេកក្នុងពេលតែមួយ។</translation>
+    </message>
+    <message>
+        <source>The edition was changed in the meantime. Look at it again before you send it.</source>
+        <translation>ការចេញផ្សាយត្រូវបានផ្លាស់ប្ដូរក្នុងពេលនេះ។ សូមមើលវាម្ដងទៀតមុននឹងផ្ញើ។</translation>
+    </message>
+    <message>
+        <source>The send could not be made.</source>
+        <translation>មិនអាចផ្ញើបានទេ។</translation>
+    </message>
+    <message>
+        <source>Sending to the subscribers needs "Verify it's you", which is switched off here. Send it in the administration.</source>
+        <translation>ការផ្ញើទៅអ្នកជាវត្រូវការ "បញ្ជាក់ថាជាអ្នក" ដែលត្រូវបានបិទនៅទីនេះ។ សូមផ្ញើវានៅក្នុងការគ្រប់គ្រង។</translation>
+    </message>
+    <message>
+        <source>Please confirm it is you first.</source>
+        <translation>សូមបញ្ជាក់ថាជាអ្នកជាមុនសិន។</translation>
+    </message>
+    <message>
+        <source>Editions with this page</source>
+        <translation>ការចេញផ្សាយដែលមានទំព័រនេះ</translation>
+    </message>
+    <message>
+        <source>This page is in no edition yet.</source>
+        <translation>ទំព័រនេះមិនទាន់នៅក្នុងការចេញផ្សាយណាមួយនៅឡើយទេ។</translation>
+    </message>
+    <message>
+        <source>Being sent</source>
+        <translation>កំពុងផ្ញើ</translation>
+    </message>
+    <message>
+        <source>Sent, in the archive</source>
+        <translation>បានផ្ញើ នៅក្នុងបណ្ណសារ</translation>
+    </message>
+    <message>
+        <source>Stopped</source>
+        <translation>បានបញ្ឈប់</translation>
+    </message>
+    <message>
+        <source>%n subscribers</source>
+        <translation>អ្នកជាវ %n នាក់</translation>
+    </message>
+    <message>
+        <source>Make an edition from this page</source>
+        <translation>បង្កើតការចេញផ្សាយពីទំព័រនេះ</translation>
+    </message>
+    <message>
+        <source>There is no newsletter list where you may make an edition.</source>
+        <translation>មិនមានបញ្ជីព្រឹត្តិបត្រដែលអ្នកអាចបង្កើតការចេញផ្សាយបានទេ។</translation>
+    </message>
+    <message>
+        <source>Make the edition</source>
+        <translation>បង្កើតការចេញផ្សាយ</translation>
+    </message>
+    <message>
+        <source>Newsletter list</source>
+        <translation>បញ្ជីព្រឹត្តិបត្រ</translation>
+    </message>
+    <message>
+        <source>Introduction (optional)</source>
+        <translation>សេចក្ដីផ្ដើម (ស្រេចចិត្ត)</translation>
+    </message>
+    <message>
+        <source>This page becomes the edition's article: its title, its intro and a link to it.</source>
+        <translation>ទំព័រនេះក្លាយជាអត្ថបទនៃការចេញផ្សាយ៖ ចំណងជើង សេចក្ដីផ្ដើម និងតំណទៅវា។</translation>
+    </message>
+    <message>
+        <source>The edition was made, with this page as its article.</source>
+        <translation>ការចេញផ្សាយត្រូវបានបង្កើត ដោយមានទំព័រនេះជាអត្ថបទរបស់វា។</translation>
+    </message>
+    <message>
+        <source>not asked for yet</source>
+        <translation>មិនទាន់បានស្នើ</translation>
+    </message>
+    <message>
+        <source>waiting</source>
+        <translation>កំពុងរង់ចាំ</translation>
+    </message>
+    <message>
+        <source>approved</source>
+        <translation>បានអនុម័ត</translation>
+    </message>
+    <message>
+        <source>rejected</source>
+        <translation>បានបដិសេធ</translation>
+    </message>
+    <message>
+        <source>Approval: %state</source>
+        <translation>ការអនុម័ត៖ %state</translation>
+    </message>
+    <message>
+        <source>waiting for the cronjob</source>
+        <translation>កំពុងរង់ចាំ cronjob</translation>
+    </message>
+    <message>
+        <source>queued</source>
+        <translation>ក្នុងជួរ</translation>
+    </message>
+    <message>
+        <source>being sent</source>
+        <translation>កំពុងផ្ញើ</translation>
+    </message>
+    <message>
+        <source>sent</source>
+        <translation>បានផ្ញើ</translation>
+    </message>
+    <message>
+        <source>stopped</source>
+        <translation>បានបញ្ឈប់</translation>
+    </message>
+    <message>
+        <source>Last send: %state, %time</source>
+        <translation>ការផ្ញើចុងក្រោយ៖ %state, %time</translation>
+    </message>
+    <message>
+        <source>Send a test</source>
+        <translation>ផ្ញើសាកល្បង</translation>
+    </message>
+    <message>
+        <source>The test could not be sent.</source>
+        <translation>មិនអាចផ្ញើការសាកល្បងបានទេ។</translation>
+    </message>
+    <message>
+        <source>The test was sent to %list.</source>
+        <translation>ការសាកល្បងត្រូវបានផ្ញើទៅ %list។</translation>
+    </message>
+    <message>
+        <source>Test addresses</source>
+        <translation>អាសយដ្ឋានសាកល្បង</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers</source>
+        <translation>ផ្ញើទៅអ្នកជាវ</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers ...</source>
+        <translation>ផ្ញើទៅអ្នកជាវ ...</translation>
+    </message>
+    <message>
+        <source>Send now</source>
+        <translation>ផ្ញើឥឡូវ</translation>
+    </message>
+    <message>
+        <source>The edition is queued: the newsletter's cronjob sends it to the subscribers.</source>
+        <translation>ការចេញផ្សាយស្ថិតក្នុងជួរ៖ cronjob របស់ព្រឹត្តិបត្រនឹងផ្ញើវាទៅអ្នកជាវ។</translation>
+    </message>
+    <message>
+        <source>Send "%name" to the %n subscribers of "%list" now? This cannot be taken back here.</source>
+        <translation>ផ្ញើ "%name" ទៅអ្នកជាវ %n នាក់នៃ "%list" ឥឡូវនេះ? មិនអាចដកវិញនៅទីនេះបានទេ។</translation>
+    </message>
+    <message>
+        <source>Newsletter</source>
+        <translation>ព្រឹត្តិបត្រ</translation>
+    </message>
+    <message>
+        <source>This edition is being sent.</source>
+        <translation>ការចេញផ្សាយនេះកំពុងត្រូវបានផ្ញើ។</translation>
+    </message>
+    <message>
+        <source>This edition was sent and is in the archive.</source>
+        <translation>ការចេញផ្សាយនេះត្រូវបានផ្ញើ ហើយនៅក្នុងបណ្ណសារ។</translation>
+    </message>
+    <message>
+        <source>This edition waits for its approval. It can be sent when it is approved.</source>
+        <translation>ការចេញផ្សាយនេះកំពុងរង់ចាំការអនុម័ត។ វាអាចផ្ញើបាននៅពេលត្រូវបានអនុម័ត។</translation>
+    </message>
+    <message>
+        <source>This edition was rejected. Change it and ask for the approval again.</source>
+        <translation>ការចេញផ្សាយនេះត្រូវបានបដិសេធ។ សូមកែវា ហើយស្នើសុំការអនុម័តម្ដងទៀត។</translation>
+    </message>
+    <message>
+        <source>The list needs an approval before an edition is sent. Ask for the approval in the administration.</source>
+        <translation>បញ្ជីត្រូវការការអនុម័តមុនពេលផ្ញើការចេញផ្សាយ។ សូមស្នើសុំការអនុម័តនៅក្នុងការគ្រប់គ្រង។</translation>
+    </message>
+    <message>
+        <source>The list has no subscribers.</source>
+        <translation>បញ្ជីនេះគ្មានអ្នកជាវទេ។</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>ប្រអប់ទទួល</translation>
     </message>

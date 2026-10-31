@@ -1044,6 +1044,214 @@
         <translation>Mga porma</translation>
     </message>
     <message>
+        <source>There is no such newsletter list.</source>
+        <translation>Walay ingon niana nga lista sa newsletter.</translation>
+    </message>
+    <message>
+        <source>The edition was made, but a workflow holds its publishing. Find it in the administration.</source>
+        <translation>Nahimo na ang edisyon, apan gipugngan sa usa ka workflow ang pagpatik niini. Pangitaa kini sa administrasyon.</translation>
+    </message>
+    <message>
+        <source>The edition was made, but the page could not be taken into it.</source>
+        <translation>Nahimo na ang edisyon, apan ang panid dili maapil niini.</translation>
+    </message>
+    <message>
+        <source>There is no such edition, or you may not read it.</source>
+        <translation>Walay ingon niana nga edisyon, o dili ka tugotan sa pagbasa niini.</translation>
+    </message>
+    <message>
+        <source>This edition has no newsletter data.</source>
+        <translation>Kini nga edisyon walay datos sa newsletter.</translation>
+    </message>
+    <message>
+        <source>Some of the addresses are not valid.</source>
+        <translation>Ang pipila sa mga adres dili balido.</translation>
+    </message>
+    <message>
+        <source>Give at least one address.</source>
+        <translation>Paghatag og labing menos usa ka adres.</translation>
+    </message>
+    <message>
+        <source>Too many addresses at once.</source>
+        <translation>Daghan kaayo nga adres sa usa ka higayon.</translation>
+    </message>
+    <message>
+        <source>The edition was changed in the meantime. Look at it again before you send it.</source>
+        <translation>Nausab ang edisyon samtang. Tan-awa kini pag-usab sa dili pa nimo ipadala.</translation>
+    </message>
+    <message>
+        <source>The send could not be made.</source>
+        <translation>Dili mahimo ang pagpadala.</translation>
+    </message>
+    <message>
+        <source>Sending to the subscribers needs "Verify it's you", which is switched off here. Send it in the administration.</source>
+        <translation>Ang pagpadala sa mga subscriber nagkinahanglan og "Pamatud-i nga ikaw kini", nga gipalong dinhi. Ipadala kini sa administrasyon.</translation>
+    </message>
+    <message>
+        <source>Please confirm it is you first.</source>
+        <translation>Palihug pamatud-i una nga ikaw kini.</translation>
+    </message>
+    <message>
+        <source>Editions with this page</source>
+        <translation>Mga edisyon nga adunay kini nga panid</translation>
+    </message>
+    <message>
+        <source>This page is in no edition yet.</source>
+        <translation>Kini nga panid wala pa sa bisan unsang edisyon.</translation>
+    </message>
+    <message>
+        <source>Being sent</source>
+        <translation>Gipadala pa</translation>
+    </message>
+    <message>
+        <source>Sent, in the archive</source>
+        <translation>Napadala na, anaa sa archive</translation>
+    </message>
+    <message>
+        <source>Stopped</source>
+        <translation>Gipahunong</translation>
+    </message>
+    <message>
+        <source>%n subscribers</source>
+        <translation>%n ka subscriber</translation>
+    </message>
+    <message>
+        <source>Make an edition from this page</source>
+        <translation>Paghimo og edisyon gikan niini nga panid</translation>
+    </message>
+    <message>
+        <source>There is no newsletter list where you may make an edition.</source>
+        <translation>Walay lista sa newsletter diin ka makahimo og edisyon.</translation>
+    </message>
+    <message>
+        <source>Make the edition</source>
+        <translation>Himoa ang edisyon</translation>
+    </message>
+    <message>
+        <source>Newsletter list</source>
+        <translation>Lista sa newsletter</translation>
+    </message>
+    <message>
+        <source>Introduction (optional)</source>
+        <translation>Pasiuna (opsyonal)</translation>
+    </message>
+    <message>
+        <source>This page becomes the edition's article: its title, its intro and a link to it.</source>
+        <translation>Kini nga panid mahimong artikulo sa edisyon: ang titulo, ang pasiuna ug usa ka link niini.</translation>
+    </message>
+    <message>
+        <source>The edition was made, with this page as its article.</source>
+        <translation>Nahimo na ang edisyon, uban niini nga panid isip artikulo.</translation>
+    </message>
+    <message>
+        <source>not asked for yet</source>
+        <translation>wala pa gihangyo</translation>
+    </message>
+    <message>
+        <source>waiting</source>
+        <translation>naghulat</translation>
+    </message>
+    <message>
+        <source>approved</source>
+        <translation>gi-uyonan</translation>
+    </message>
+    <message>
+        <source>rejected</source>
+        <translation>gisalikway</translation>
+    </message>
+    <message>
+        <source>Approval: %state</source>
+        <translation>Pag-aprubar: %state</translation>
+    </message>
+    <message>
+        <source>waiting for the cronjob</source>
+        <translation>naghulat sa cronjob</translation>
+    </message>
+    <message>
+        <source>queued</source>
+        <translation>naa sa pila</translation>
+    </message>
+    <message>
+        <source>being sent</source>
+        <translation>gipadala pa</translation>
+    </message>
+    <message>
+        <source>sent</source>
+        <translation>napadala na</translation>
+    </message>
+    <message>
+        <source>stopped</source>
+        <translation>gipahunong</translation>
+    </message>
+    <message>
+        <source>Last send: %state, %time</source>
+        <translation>Katapusang pagpadala: %state, %time</translation>
+    </message>
+    <message>
+        <source>Send a test</source>
+        <translation>Pagpadala og test</translation>
+    </message>
+    <message>
+        <source>The test could not be sent.</source>
+        <translation>Dili maipadala ang test.</translation>
+    </message>
+    <message>
+        <source>The test was sent to %list.</source>
+        <translation>Ang test gipadala ngadto sa %list.</translation>
+    </message>
+    <message>
+        <source>Test addresses</source>
+        <translation>Mga adres sa test</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers</source>
+        <translation>Ipadala sa mga subscriber</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers ...</source>
+        <translation>Ipadala sa mga subscriber ...</translation>
+    </message>
+    <message>
+        <source>Send now</source>
+        <translation>Ipadala karon</translation>
+    </message>
+    <message>
+        <source>The edition is queued: the newsletter's cronjob sends it to the subscribers.</source>
+        <translation>Ang edisyon naa sa pila: ang cronjob sa newsletter maoy magpadala niini sa mga subscriber.</translation>
+    </message>
+    <message>
+        <source>Send "%name" to the %n subscribers of "%list" now? This cannot be taken back here.</source>
+        <translation>Ipadala karon ang "%name" sa %n ka subscriber sa "%list"? Dili na kini mabawi dinhi.</translation>
+    </message>
+    <message>
+        <source>Newsletter</source>
+        <translation>Newsletter</translation>
+    </message>
+    <message>
+        <source>This edition is being sent.</source>
+        <translation>Kini nga edisyon gipadala pa.</translation>
+    </message>
+    <message>
+        <source>This edition was sent and is in the archive.</source>
+        <translation>Kini nga edisyon napadala na ug anaa sa archive.</translation>
+    </message>
+    <message>
+        <source>This edition waits for its approval. It can be sent when it is approved.</source>
+        <translation>Kini nga edisyon naghulat sa pag-aprubar niini. Mahimo kining ipadala kung ma-aprubahan na.</translation>
+    </message>
+    <message>
+        <source>This edition was rejected. Change it and ask for the approval again.</source>
+        <translation>Kini nga edisyon gisalikway. Usba kini ug pangayo pag-usab sa pag-aprubar.</translation>
+    </message>
+    <message>
+        <source>The list needs an approval before an edition is sent. Ask for the approval in the administration.</source>
+        <translation>Ang lista nagkinahanglan og pag-aprubar sa dili pa ipadala ang edisyon. Pangayo sa pag-aprubar sa administrasyon.</translation>
+    </message>
+    <message>
+        <source>The list has no subscribers.</source>
+        <translation>Ang lista walay subscriber.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Inbox</translation>
     </message>

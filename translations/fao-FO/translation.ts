@@ -1044,6 +1044,214 @@
         <translation>Oyðubløð</translation>
     </message>
     <message>
+        <source>There is no such newsletter list.</source>
+        <translation>Hesin tíðindabrævslistin er ikki til.</translation>
+    </message>
+    <message>
+        <source>The edition was made, but a workflow holds its publishing. Find it in the administration.</source>
+        <translation>Útgávan er gjørd, men ein arbeiðsgongd heldur útgevingina aftur. Finn hana í umsitingini.</translation>
+    </message>
+    <message>
+        <source>The edition was made, but the page could not be taken into it.</source>
+        <translation>Útgávan er gjørd, men síðan kundi ikki takast við í hana.</translation>
+    </message>
+    <message>
+        <source>There is no such edition, or you may not read it.</source>
+        <translation>Henda útgávan er ikki til, ella tú hevur ikki loyvi at lesa hana.</translation>
+    </message>
+    <message>
+        <source>This edition has no newsletter data.</source>
+        <translation>Henda útgávan hevur ongar tíðindabrævsdáta.</translation>
+    </message>
+    <message>
+        <source>Some of the addresses are not valid.</source>
+        <translation>Summar av adressunum eru ikki gyldugar.</translation>
+    </message>
+    <message>
+        <source>Give at least one address.</source>
+        <translation>Gev í minsta lagi eina adressu.</translation>
+    </message>
+    <message>
+        <source>Too many addresses at once.</source>
+        <translation>Ov nógvar adressur í senn.</translation>
+    </message>
+    <message>
+        <source>The edition was changed in the meantime. Look at it again before you send it.</source>
+        <translation>Útgávan er broytt í millumtíðini. Hygg aftur at henni, áðrenn tú sendir hana.</translation>
+    </message>
+    <message>
+        <source>The send could not be made.</source>
+        <translation>Sendingin kundi ikki gerast.</translation>
+    </message>
+    <message>
+        <source>Sending to the subscribers needs "Verify it's you", which is switched off here. Send it in the administration.</source>
+        <translation>At senda til haldararnar krevur "Vátta, at tað ert tú", sum er slökt her. Send hana í umsitingini.</translation>
+    </message>
+    <message>
+        <source>Please confirm it is you first.</source>
+        <translation>Vátta fyrst, at tað ert tú.</translation>
+    </message>
+    <message>
+        <source>Editions with this page</source>
+        <translation>Útgávur við hesi síðuni</translation>
+    </message>
+    <message>
+        <source>This page is in no edition yet.</source>
+        <translation>Henda síðan er enn ikki í nakrari útgávu.</translation>
+    </message>
+    <message>
+        <source>Being sent</source>
+        <translation>Verður send</translation>
+    </message>
+    <message>
+        <source>Sent, in the archive</source>
+        <translation>Send, í savninum</translation>
+    </message>
+    <message>
+        <source>Stopped</source>
+        <translation>Steðgað</translation>
+    </message>
+    <message>
+        <source>%n subscribers</source>
+        <translation>%n haldarar</translation>
+    </message>
+    <message>
+        <source>Make an edition from this page</source>
+        <translation>Ger eina útgávu úr hesi síðuni</translation>
+    </message>
+    <message>
+        <source>There is no newsletter list where you may make an edition.</source>
+        <translation>Eingin tíðindabrævslisti er, har tú hevur loyvi at gera eina útgávu.</translation>
+    </message>
+    <message>
+        <source>Make the edition</source>
+        <translation>Ger útgávuna</translation>
+    </message>
+    <message>
+        <source>Newsletter list</source>
+        <translation>Tíðindabrævslisti</translation>
+    </message>
+    <message>
+        <source>Introduction (optional)</source>
+        <translation>Inngangur (valfrítt)</translation>
+    </message>
+    <message>
+        <source>This page becomes the edition's article: its title, its intro and a link to it.</source>
+        <translation>Henda síðan verður grein útgávunnar: heitið, inngangurin og ein leinkja til hana.</translation>
+    </message>
+    <message>
+        <source>The edition was made, with this page as its article.</source>
+        <translation>Útgávan er gjørd við hesi síðuni sum grein.</translation>
+    </message>
+    <message>
+        <source>not asked for yet</source>
+        <translation>ikki umbiðið enn</translation>
+    </message>
+    <message>
+        <source>waiting</source>
+        <translation>bíðar</translation>
+    </message>
+    <message>
+        <source>approved</source>
+        <translation>góðkent</translation>
+    </message>
+    <message>
+        <source>rejected</source>
+        <translation>avvíst</translation>
+    </message>
+    <message>
+        <source>Approval: %state</source>
+        <translation>Góðkenning: %state</translation>
+    </message>
+    <message>
+        <source>waiting for the cronjob</source>
+        <translation>bíðar eftir cronjobbinum</translation>
+    </message>
+    <message>
+        <source>queued</source>
+        <translation>í bíðirøð</translation>
+    </message>
+    <message>
+        <source>being sent</source>
+        <translation>verður send</translation>
+    </message>
+    <message>
+        <source>sent</source>
+        <translation>send</translation>
+    </message>
+    <message>
+        <source>stopped</source>
+        <translation>steðgað</translation>
+    </message>
+    <message>
+        <source>Last send: %state, %time</source>
+        <translation>Seinasta sending: %state, %time</translation>
+    </message>
+    <message>
+        <source>Send a test</source>
+        <translation>Send eina roynd</translation>
+    </message>
+    <message>
+        <source>The test could not be sent.</source>
+        <translation>Royndin kundi ikki sendast.</translation>
+    </message>
+    <message>
+        <source>The test was sent to %list.</source>
+        <translation>Royndin varð send til %list.</translation>
+    </message>
+    <message>
+        <source>Test addresses</source>
+        <translation>Royndaradressur</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers</source>
+        <translation>Send til haldararnar</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers ...</source>
+        <translation>Send til haldararnar ...</translation>
+    </message>
+    <message>
+        <source>Send now</source>
+        <translation>Send nú</translation>
+    </message>
+    <message>
+        <source>The edition is queued: the newsletter's cronjob sends it to the subscribers.</source>
+        <translation>Útgávan er í bíðirøð: cronjobbið hjá tíðindabrævinum sendir hana til haldararnar.</translation>
+    </message>
+    <message>
+        <source>Send "%name" to the %n subscribers of "%list" now? This cannot be taken back here.</source>
+        <translation>Send „%name“ til teir %n haldararnar av „%list“ nú? Hetta kann ikki takast aftur her.</translation>
+    </message>
+    <message>
+        <source>Newsletter</source>
+        <translation>Tíðindabræv</translation>
+    </message>
+    <message>
+        <source>This edition is being sent.</source>
+        <translation>Henda útgávan verður send.</translation>
+    </message>
+    <message>
+        <source>This edition was sent and is in the archive.</source>
+        <translation>Henda útgávan er send og er í savninum.</translation>
+    </message>
+    <message>
+        <source>This edition waits for its approval. It can be sent when it is approved.</source>
+        <translation>Henda útgávan bíðar eftir góðkenning. Hon kann sendast, tá ið hon er góðkend.</translation>
+    </message>
+    <message>
+        <source>This edition was rejected. Change it and ask for the approval again.</source>
+        <translation>Henda útgávan varð avvíst. Broyt hana og bið um góðkenning aftur.</translation>
+    </message>
+    <message>
+        <source>The list needs an approval before an edition is sent. Ask for the approval in the administration.</source>
+        <translation>Listin krevur góðkenning, áðrenn ein útgáva verður send. Bið um góðkenningina í umsitingini.</translation>
+    </message>
+    <message>
+        <source>The list has no subscribers.</source>
+        <translation>Listin hevur ongar haldarar.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Innbakki</translation>
     </message>

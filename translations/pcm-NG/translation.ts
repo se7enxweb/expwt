@@ -1044,6 +1044,214 @@
         <translation>Forms</translation>
     </message>
     <message>
+        <source>There is no such newsletter list.</source>
+        <translation>Dis newsletter list no dey.</translation>
+    </message>
+    <message>
+        <source>The edition was made, but a workflow holds its publishing. Find it in the administration.</source>
+        <translation>Dem don make di edition, but one workflow dey hold di publishing. Find am for di administration.</translation>
+    </message>
+    <message>
+        <source>The edition was made, but the page could not be taken into it.</source>
+        <translation>Dem don make di edition, but di page no fit enter am.</translation>
+    </message>
+    <message>
+        <source>There is no such edition, or you may not read it.</source>
+        <translation>Dis edition no dey, or you no get right to read am.</translation>
+    </message>
+    <message>
+        <source>This edition has no newsletter data.</source>
+        <translation>Dis edition no get newsletter data.</translation>
+    </message>
+    <message>
+        <source>Some of the addresses are not valid.</source>
+        <translation>Some of di addresses no correct.</translation>
+    </message>
+    <message>
+        <source>Give at least one address.</source>
+        <translation>Put at least one address.</translation>
+    </message>
+    <message>
+        <source>Too many addresses at once.</source>
+        <translation>Too many addresses at once.</translation>
+    </message>
+    <message>
+        <source>The edition was changed in the meantime. Look at it again before you send it.</source>
+        <translation>Person don change di edition for di meantime. Look am again before you send am.</translation>
+    </message>
+    <message>
+        <source>The send could not be made.</source>
+        <translation>Di send no work.</translation>
+    </message>
+    <message>
+        <source>Sending to the subscribers needs "Verify it's you", which is switched off here. Send it in the administration.</source>
+        <translation>To send to di subscribers need "Show sey na you", but dem off am for here. Send am for di administration.</translation>
+    </message>
+    <message>
+        <source>Please confirm it is you first.</source>
+        <translation>Abeg show sey na you first.</translation>
+    </message>
+    <message>
+        <source>Editions with this page</source>
+        <translation>Editions wey get dis page</translation>
+    </message>
+    <message>
+        <source>This page is in no edition yet.</source>
+        <translation>Dis page never dey any edition.</translation>
+    </message>
+    <message>
+        <source>Being sent</source>
+        <translation>E dey go</translation>
+    </message>
+    <message>
+        <source>Sent, in the archive</source>
+        <translation>E don go, e dey archive</translation>
+    </message>
+    <message>
+        <source>Stopped</source>
+        <translation>E don stop</translation>
+    </message>
+    <message>
+        <source>%n subscribers</source>
+        <translation>%n subscribers</translation>
+    </message>
+    <message>
+        <source>Make an edition from this page</source>
+        <translation>Make edition from dis page</translation>
+    </message>
+    <message>
+        <source>There is no newsletter list where you may make an edition.</source>
+        <translation>No newsletter list dey wey you fit make edition.</translation>
+    </message>
+    <message>
+        <source>Make the edition</source>
+        <translation>Make di edition</translation>
+    </message>
+    <message>
+        <source>Newsletter list</source>
+        <translation>Newsletter list</translation>
+    </message>
+    <message>
+        <source>Introduction (optional)</source>
+        <translation>Introduction (if you want)</translation>
+    </message>
+    <message>
+        <source>This page becomes the edition's article: its title, its intro and a link to it.</source>
+        <translation>Dis page go be di edition article: di title, di intro and link to di page.</translation>
+    </message>
+    <message>
+        <source>The edition was made, with this page as its article.</source>
+        <translation>Dem don make di edition, with dis page as di article.</translation>
+    </message>
+    <message>
+        <source>not asked for yet</source>
+        <translation>nobody never ask yet</translation>
+    </message>
+    <message>
+        <source>waiting</source>
+        <translation>e dey wait</translation>
+    </message>
+    <message>
+        <source>approved</source>
+        <translation>dem approve am</translation>
+    </message>
+    <message>
+        <source>rejected</source>
+        <translation>dem reject am</translation>
+    </message>
+    <message>
+        <source>Approval: %state</source>
+        <translation>Approval: %state</translation>
+    </message>
+    <message>
+        <source>waiting for the cronjob</source>
+        <translation>e dey wait for di cronjob</translation>
+    </message>
+    <message>
+        <source>queued</source>
+        <translation>e dey line</translation>
+    </message>
+    <message>
+        <source>being sent</source>
+        <translation>e dey go</translation>
+    </message>
+    <message>
+        <source>sent</source>
+        <translation>e don go</translation>
+    </message>
+    <message>
+        <source>stopped</source>
+        <translation>e don stop</translation>
+    </message>
+    <message>
+        <source>Last send: %state, %time</source>
+        <translation>Last send: %state, %time</translation>
+    </message>
+    <message>
+        <source>Send a test</source>
+        <translation>Send test</translation>
+    </message>
+    <message>
+        <source>The test could not be sent.</source>
+        <translation>Di test no fit go.</translation>
+    </message>
+    <message>
+        <source>The test was sent to %list.</source>
+        <translation>Di test don go to %list.</translation>
+    </message>
+    <message>
+        <source>Test addresses</source>
+        <translation>Test addresses</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers</source>
+        <translation>Send to di subscribers</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers ...</source>
+        <translation>Send to di subscribers ...</translation>
+    </message>
+    <message>
+        <source>Send now</source>
+        <translation>Send am now</translation>
+    </message>
+    <message>
+        <source>The edition is queued: the newsletter's cronjob sends it to the subscribers.</source>
+        <translation>Di edition dey line: di newsletter cronjob go send am to di subscribers.</translation>
+    </message>
+    <message>
+        <source>Send "%name" to the %n subscribers of "%list" now? This cannot be taken back here.</source>
+        <translation>Send "%name" to di %n subscribers of "%list" now? You no fit take am back for here.</translation>
+    </message>
+    <message>
+        <source>Newsletter</source>
+        <translation>Newsletter</translation>
+    </message>
+    <message>
+        <source>This edition is being sent.</source>
+        <translation>Dis edition dey go now.</translation>
+    </message>
+    <message>
+        <source>This edition was sent and is in the archive.</source>
+        <translation>Dis edition don go and e dey di archive.</translation>
+    </message>
+    <message>
+        <source>This edition waits for its approval. It can be sent when it is approved.</source>
+        <translation>Dis edition dey wait for approval. E fit go when dem approve am.</translation>
+    </message>
+    <message>
+        <source>This edition was rejected. Change it and ask for the approval again.</source>
+        <translation>Dem reject dis edition. Change am and ask for approval again.</translation>
+    </message>
+    <message>
+        <source>The list needs an approval before an edition is sent. Ask for the approval in the administration.</source>
+        <translation>Di list need approval before any edition go. Ask for di approval for di administration.</translation>
+    </message>
+    <message>
+        <source>The list has no subscribers.</source>
+        <translation>Di list no get subscribers.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Inbox</translation>
     </message>

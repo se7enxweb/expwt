@@ -1044,6 +1044,214 @@
         <translation>පෝරම</translation>
     </message>
     <message>
+        <source>There is no such newsletter list.</source>
+        <translation>එවැනි පුවත් පත්‍රිකා ලැයිස්තුවක් නැත.</translation>
+    </message>
+    <message>
+        <source>The edition was made, but a workflow holds its publishing. Find it in the administration.</source>
+        <translation>කලාපය සෑදුණි, නමුත් කාර්ය ප්‍රවාහයක් එහි ප්‍රකාශනය රඳවා තබයි. එය පරිපාලනයේ සොයන්න.</translation>
+    </message>
+    <message>
+        <source>The edition was made, but the page could not be taken into it.</source>
+        <translation>කලාපය සෑදුණි, නමුත් පිටුව එයට ඇතුළත් කළ නොහැකි විය.</translation>
+    </message>
+    <message>
+        <source>There is no such edition, or you may not read it.</source>
+        <translation>එවැනි කලාපයක් නැත, නැතහොත් ඔබට එය කියවීමට අවසර නැත.</translation>
+    </message>
+    <message>
+        <source>This edition has no newsletter data.</source>
+        <translation>මෙම කලාපයේ පුවත් පත්‍රිකා දත්ත නැත.</translation>
+    </message>
+    <message>
+        <source>Some of the addresses are not valid.</source>
+        <translation>සමහර ලිපින වලංගු නොවේ.</translation>
+    </message>
+    <message>
+        <source>Give at least one address.</source>
+        <translation>අවම වශයෙන් එක් ලිපිනයක් දෙන්න.</translation>
+    </message>
+    <message>
+        <source>Too many addresses at once.</source>
+        <translation>එකවර ලිපින වැඩියි.</translation>
+    </message>
+    <message>
+        <source>The edition was changed in the meantime. Look at it again before you send it.</source>
+        <translation>මේ අතරතුර කලාපය වෙනස් කර ඇත. යැවීමට පෙර එය නැවත බලන්න.</translation>
+    </message>
+    <message>
+        <source>The send could not be made.</source>
+        <translation>යැවීම කළ නොහැකි විය.</translation>
+    </message>
+    <message>
+        <source>Sending to the subscribers needs "Verify it's you", which is switched off here. Send it in the administration.</source>
+        <translation>දායකයින්ට යැවීමට "මෙය ඔබ බව තහවුරු කරන්න" අවශ්‍යයි, එය මෙහි අක්‍රිය කර ඇත. එය පරිපාලනයේ යවන්න.</translation>
+    </message>
+    <message>
+        <source>Please confirm it is you first.</source>
+        <translation>කරුණාකර පළමුව මෙය ඔබ බව තහවුරු කරන්න.</translation>
+    </message>
+    <message>
+        <source>Editions with this page</source>
+        <translation>මෙම පිටුව සහිත කලාප</translation>
+    </message>
+    <message>
+        <source>This page is in no edition yet.</source>
+        <translation>මෙම පිටුව තවම කිසිදු කලාපයක නැත.</translation>
+    </message>
+    <message>
+        <source>Being sent</source>
+        <translation>යවමින් පවතී</translation>
+    </message>
+    <message>
+        <source>Sent, in the archive</source>
+        <translation>යවා ඇත, සංරක්ෂිතයේ</translation>
+    </message>
+    <message>
+        <source>Stopped</source>
+        <translation>නවත්වා ඇත</translation>
+    </message>
+    <message>
+        <source>%n subscribers</source>
+        <translation>දායකයින් %n</translation>
+    </message>
+    <message>
+        <source>Make an edition from this page</source>
+        <translation>මෙම පිටුවෙන් කලාපයක් සාදන්න</translation>
+    </message>
+    <message>
+        <source>There is no newsletter list where you may make an edition.</source>
+        <translation>ඔබට කලාපයක් සෑදිය හැකි පුවත් පත්‍රිකා ලැයිස්තුවක් නැත.</translation>
+    </message>
+    <message>
+        <source>Make the edition</source>
+        <translation>කලාපය සාදන්න</translation>
+    </message>
+    <message>
+        <source>Newsletter list</source>
+        <translation>පුවත් පත්‍රිකා ලැයිස්තුව</translation>
+    </message>
+    <message>
+        <source>Introduction (optional)</source>
+        <translation>හැඳින්වීම (විකල්ප)</translation>
+    </message>
+    <message>
+        <source>This page becomes the edition's article: its title, its intro and a link to it.</source>
+        <translation>මෙම පිටුව කලාපයේ ලිපිය බවට පත් වේ: එහි මාතෘකාව, හැඳින්වීම සහ එයට සබැඳියක්.</translation>
+    </message>
+    <message>
+        <source>The edition was made, with this page as its article.</source>
+        <translation>මෙම පිටුව ලිපිය ලෙස ඇතිව කලාපය සෑදුණි.</translation>
+    </message>
+    <message>
+        <source>not asked for yet</source>
+        <translation>තවම ඉල්ලා නැත</translation>
+    </message>
+    <message>
+        <source>waiting</source>
+        <translation>රැඳී සිටියි</translation>
+    </message>
+    <message>
+        <source>approved</source>
+        <translation>අනුමතයි</translation>
+    </message>
+    <message>
+        <source>rejected</source>
+        <translation>ප්‍රතික්ෂේපිතයි</translation>
+    </message>
+    <message>
+        <source>Approval: %state</source>
+        <translation>අනුමැතිය: %state</translation>
+    </message>
+    <message>
+        <source>waiting for the cronjob</source>
+        <translation>cronjob එක සඳහා රැඳී සිටියි</translation>
+    </message>
+    <message>
+        <source>queued</source>
+        <translation>පෝලිමේ</translation>
+    </message>
+    <message>
+        <source>being sent</source>
+        <translation>යවමින්</translation>
+    </message>
+    <message>
+        <source>sent</source>
+        <translation>යැවිණි</translation>
+    </message>
+    <message>
+        <source>stopped</source>
+        <translation>නවත්වා ඇත</translation>
+    </message>
+    <message>
+        <source>Last send: %state, %time</source>
+        <translation>අවසන් යැවීම: %state, %time</translation>
+    </message>
+    <message>
+        <source>Send a test</source>
+        <translation>පරීක්ෂණයක් යවන්න</translation>
+    </message>
+    <message>
+        <source>The test could not be sent.</source>
+        <translation>පරීක්ෂණය යැවිය නොහැකි විය.</translation>
+    </message>
+    <message>
+        <source>The test was sent to %list.</source>
+        <translation>පරීක්ෂණය %list වෙත යවන ලදී.</translation>
+    </message>
+    <message>
+        <source>Test addresses</source>
+        <translation>පරීක්ෂණ ලිපින</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers</source>
+        <translation>දායකයින්ට යවන්න</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers ...</source>
+        <translation>දායකයින්ට යවන්න ...</translation>
+    </message>
+    <message>
+        <source>Send now</source>
+        <translation>දැන් යවන්න</translation>
+    </message>
+    <message>
+        <source>The edition is queued: the newsletter's cronjob sends it to the subscribers.</source>
+        <translation>කලාපය පෝලිමේ ඇත: පුවත් පත්‍රිකාවේ cronjob එක එය දායකයින්ට යවයි.</translation>
+    </message>
+    <message>
+        <source>Send "%name" to the %n subscribers of "%list" now? This cannot be taken back here.</source>
+        <translation>"%name" දැන් "%list" හි දායකයින් %n දෙනාට යවන්නද? මෙය මෙහිදී ආපසු ගත නොහැක.</translation>
+    </message>
+    <message>
+        <source>Newsletter</source>
+        <translation>පුවත් පත්‍රිකාව</translation>
+    </message>
+    <message>
+        <source>This edition is being sent.</source>
+        <translation>මෙම කලාපය යවමින් පවතී.</translation>
+    </message>
+    <message>
+        <source>This edition was sent and is in the archive.</source>
+        <translation>මෙම කලාපය යවා ඇති අතර සංරක්ෂිතයේ ඇත.</translation>
+    </message>
+    <message>
+        <source>This edition waits for its approval. It can be sent when it is approved.</source>
+        <translation>මෙම කලාපය අනුමැතිය සඳහා රැඳී සිටියි. අනුමත වූ පසු එය යැවිය හැක.</translation>
+    </message>
+    <message>
+        <source>This edition was rejected. Change it and ask for the approval again.</source>
+        <translation>මෙම කලාපය ප්‍රතික්ෂේප කරන ලදී. එය වෙනස් කර නැවත අනුමැතිය ඉල්ලන්න.</translation>
+    </message>
+    <message>
+        <source>The list needs an approval before an edition is sent. Ask for the approval in the administration.</source>
+        <translation>කලාපයක් යැවීමට පෙර ලැයිස්තුවට අනුමැතියක් අවශ්‍යයි. පරිපාලනයේ අනුමැතිය ඉල්ලන්න.</translation>
+    </message>
+    <message>
+        <source>The list has no subscribers.</source>
+        <translation>ලැයිස්තුවේ දායකයින් නැත.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>එන ලිපි</translation>
     </message>

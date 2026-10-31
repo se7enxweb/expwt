@@ -1044,6 +1044,214 @@
         <translation>Шаклҳо</translation>
     </message>
     <message>
+        <source>There is no such newsletter list.</source>
+        <translation>Чунин рӯйхати хабарнома вуҷуд надорад.</translation>
+    </message>
+    <message>
+        <source>The edition was made, but a workflow holds its publishing. Find it in the administration.</source>
+        <translation>Нашрия сохта шуд, аммо ҷараёни корӣ интишори онро нигоҳ медорад. Онро дар идоракунӣ ёбед.</translation>
+    </message>
+    <message>
+        <source>The edition was made, but the page could not be taken into it.</source>
+        <translation>Нашрия сохта шуд, аммо саҳифаро ба он дохил кардан нашуд.</translation>
+    </message>
+    <message>
+        <source>There is no such edition, or you may not read it.</source>
+        <translation>Чунин нашрия вуҷуд надорад ё шумо онро хонда наметавонед.</translation>
+    </message>
+    <message>
+        <source>This edition has no newsletter data.</source>
+        <translation>Ин нашрия маълумоти хабарнома надорад.</translation>
+    </message>
+    <message>
+        <source>Some of the addresses are not valid.</source>
+        <translation>Баъзе суроғаҳо нодурустанд.</translation>
+    </message>
+    <message>
+        <source>Give at least one address.</source>
+        <translation>Ақаллан як суроға диҳед.</translation>
+    </message>
+    <message>
+        <source>Too many addresses at once.</source>
+        <translation>Якбора суроғаҳо аз ҳад зиёданд.</translation>
+    </message>
+    <message>
+        <source>The edition was changed in the meantime. Look at it again before you send it.</source>
+        <translation>Дар ин миён нашрия тағйир ёфт. Пеш аз фиристодан онро боз бинед.</translation>
+    </message>
+    <message>
+        <source>The send could not be made.</source>
+        <translation>Фиристодан иҷро нашуд.</translation>
+    </message>
+    <message>
+        <source>Sending to the subscribers needs "Verify it's you", which is switched off here. Send it in the administration.</source>
+        <translation>Фиристодан ба обуначиён «Тасдиқ кунед, ки ин шумо ҳастед»-ро талаб мекунад, ки дар ин ҷо хомӯш аст. Онро дар идоракунӣ фиристед.</translation>
+    </message>
+    <message>
+        <source>Please confirm it is you first.</source>
+        <translation>Лутфан аввал тасдиқ кунед, ки ин шумо ҳастед.</translation>
+    </message>
+    <message>
+        <source>Editions with this page</source>
+        <translation>Нашрияҳо бо ин саҳифа</translation>
+    </message>
+    <message>
+        <source>This page is in no edition yet.</source>
+        <translation>Ин саҳифа ҳоло дар ягон нашрия нест.</translation>
+    </message>
+    <message>
+        <source>Being sent</source>
+        <translation>Фиристода мешавад</translation>
+    </message>
+    <message>
+        <source>Sent, in the archive</source>
+        <translation>Фиристода шуд, дар бойгонӣ</translation>
+    </message>
+    <message>
+        <source>Stopped</source>
+        <translation>Қатъ шуд</translation>
+    </message>
+    <message>
+        <source>%n subscribers</source>
+        <translation>%n обуначӣ</translation>
+    </message>
+    <message>
+        <source>Make an edition from this page</source>
+        <translation>Аз ин саҳифа нашрия созед</translation>
+    </message>
+    <message>
+        <source>There is no newsletter list where you may make an edition.</source>
+        <translation>Рӯйхати хабарномае нест, ки дар он шумо нашрия сохта тавонед.</translation>
+    </message>
+    <message>
+        <source>Make the edition</source>
+        <translation>Нашрияро созед</translation>
+    </message>
+    <message>
+        <source>Newsletter list</source>
+        <translation>Рӯйхати хабарнома</translation>
+    </message>
+    <message>
+        <source>Introduction (optional)</source>
+        <translation>Муқаддима (ихтиёрӣ)</translation>
+    </message>
+    <message>
+        <source>This page becomes the edition's article: its title, its intro and a link to it.</source>
+        <translation>Ин саҳифа мақолаи нашрия мешавад: сарлавҳааш, муқаддимааш ва пайванд ба он.</translation>
+    </message>
+    <message>
+        <source>The edition was made, with this page as its article.</source>
+        <translation>Нашрия сохта шуд, бо ин саҳифа ҳамчун мақолааш.</translation>
+    </message>
+    <message>
+        <source>not asked for yet</source>
+        <translation>ҳанӯз дархост нашудааст</translation>
+    </message>
+    <message>
+        <source>waiting</source>
+        <translation>дар интизор</translation>
+    </message>
+    <message>
+        <source>approved</source>
+        <translation>тасдиқ шуд</translation>
+    </message>
+    <message>
+        <source>rejected</source>
+        <translation>рад шуд</translation>
+    </message>
+    <message>
+        <source>Approval: %state</source>
+        <translation>Тасдиқ: %state</translation>
+    </message>
+    <message>
+        <source>waiting for the cronjob</source>
+        <translation>дар интизори cronjob</translation>
+    </message>
+    <message>
+        <source>queued</source>
+        <translation>дар навбат</translation>
+    </message>
+    <message>
+        <source>being sent</source>
+        <translation>фиристода мешавад</translation>
+    </message>
+    <message>
+        <source>sent</source>
+        <translation>фиристода шуд</translation>
+    </message>
+    <message>
+        <source>stopped</source>
+        <translation>қатъ шуд</translation>
+    </message>
+    <message>
+        <source>Last send: %state, %time</source>
+        <translation>Фиристодани охирин: %state, %time</translation>
+    </message>
+    <message>
+        <source>Send a test</source>
+        <translation>Санҷиш фиристед</translation>
+    </message>
+    <message>
+        <source>The test could not be sent.</source>
+        <translation>Санҷишро фиристодан нашуд.</translation>
+    </message>
+    <message>
+        <source>The test was sent to %list.</source>
+        <translation>Санҷиш ба %list фиристода шуд.</translation>
+    </message>
+    <message>
+        <source>Test addresses</source>
+        <translation>Суроғаҳои санҷишӣ</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers</source>
+        <translation>Ба обуначиён фиристед</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers ...</source>
+        <translation>Ба обуначиён фиристед ...</translation>
+    </message>
+    <message>
+        <source>Send now</source>
+        <translation>Ҳозир фиристед</translation>
+    </message>
+    <message>
+        <source>The edition is queued: the newsletter's cronjob sends it to the subscribers.</source>
+        <translation>Нашрия дар навбат аст: cronjob-и хабарнома онро ба обуначиён мефиристад.</translation>
+    </message>
+    <message>
+        <source>Send "%name" to the %n subscribers of "%list" now? This cannot be taken back here.</source>
+        <translation>«%name»-ро ҳозир ба %n обуначии «%list» фиристем? Инро дар ин ҷо бекор кардан мумкин нест.</translation>
+    </message>
+    <message>
+        <source>Newsletter</source>
+        <translation>Хабарнома</translation>
+    </message>
+    <message>
+        <source>This edition is being sent.</source>
+        <translation>Ин нашрия фиристода мешавад.</translation>
+    </message>
+    <message>
+        <source>This edition was sent and is in the archive.</source>
+        <translation>Ин нашрия фиристода шуд ва дар бойгонӣ аст.</translation>
+    </message>
+    <message>
+        <source>This edition waits for its approval. It can be sent when it is approved.</source>
+        <translation>Ин нашрия тасдиқи худро интизор аст. Пас аз тасдиқ онро фиристодан мумкин аст.</translation>
+    </message>
+    <message>
+        <source>This edition was rejected. Change it and ask for the approval again.</source>
+        <translation>Ин нашрия рад шуд. Онро тағйир диҳед ва боз тасдиқ пурсед.</translation>
+    </message>
+    <message>
+        <source>The list needs an approval before an edition is sent. Ask for the approval in the administration.</source>
+        <translation>Рӯйхат пеш аз фиристодани нашрия тасдиқ талаб мекунад. Тасдиқро дар идоракунӣ пурсед.</translation>
+    </message>
+    <message>
+        <source>The list has no subscribers.</source>
+        <translation>Рӯйхат обуначӣ надорад.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Воридшуда</translation>
     </message>

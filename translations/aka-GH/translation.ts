@@ -1044,6 +1044,214 @@
         <translation>Foom ahorow</translation>
     </message>
     <message>
+        <source>There is no such newsletter list.</source>
+        <translation>Nsɛmma krataa din-krataa a ɛte saa nni hɔ.</translation>
+    </message>
+    <message>
+        <source>The edition was made, but a workflow holds its publishing. Find it in the administration.</source>
+        <translation>Wɔayɛ ntintimii no, nanso workflow bi kura ne tintim mu. Hwehwɛ no wɔ nhyehyɛe no mu.</translation>
+    </message>
+    <message>
+        <source>The edition was made, but the page could not be taken into it.</source>
+        <translation>Wɔayɛ ntintimii no, nanso wɔantumi amfa krataafa no anka ho.</translation>
+    </message>
+    <message>
+        <source>There is no such edition, or you may not read it.</source>
+        <translation>Ntintimii a ɛte saa nni hɔ, anaa wontumi nkenkan.</translation>
+    </message>
+    <message>
+        <source>This edition has no newsletter data.</source>
+        <translation>Ntintimii yi nni nsɛmma krataa ho nsɛm biara.</translation>
+    </message>
+    <message>
+        <source>Some of the addresses are not valid.</source>
+        <translation>Address no bi nni nokware.</translation>
+    </message>
+    <message>
+        <source>Give at least one address.</source>
+        <translation>Fa address baako pɛ ma.</translation>
+    </message>
+    <message>
+        <source>Too many addresses at once.</source>
+        <translation>Address no dɔɔso dodo wɔ bere koro mu.</translation>
+    </message>
+    <message>
+        <source>The edition was changed in the meantime. Look at it again before you send it.</source>
+        <translation>Wɔsesaa ntintimii no wɔ saa bere no mu. Hwɛ no bio ansa na wode akɔ.</translation>
+    </message>
+    <message>
+        <source>The send could not be made.</source>
+        <translation>Wɔantumi amfa ankɔ.</translation>
+    </message>
+    <message>
+        <source>Sending to the subscribers needs "Verify it's you", which is switched off here. Send it in the administration.</source>
+        <translation>Sɛ wode bɛkɔ ama wɔn a wɔakyerɛw wɔn din a, ɛhia "Si so dua sɛ wo ne no", nanso wɔadum no wɔ ha. Fa kɔ wɔ nhyehyɛe no mu.</translation>
+    </message>
+    <message>
+        <source>Please confirm it is you first.</source>
+        <translation>Mesrɛ wo, di kan si so dua sɛ wo ne no.</translation>
+    </message>
+    <message>
+        <source>Editions with this page</source>
+        <translation>Ntintimii a krataafa yi wom</translation>
+    </message>
+    <message>
+        <source>This page is in no edition yet.</source>
+        <translation>Krataafa yi nni ntintimii biara mu da.</translation>
+    </message>
+    <message>
+        <source>Being sent</source>
+        <translation>Wɔde rekɔ</translation>
+    </message>
+    <message>
+        <source>Sent, in the archive</source>
+        <translation>Wɔde akɔ, ɛwɔ akorae mu</translation>
+    </message>
+    <message>
+        <source>Stopped</source>
+        <translation>Wɔagyae</translation>
+    </message>
+    <message>
+        <source>%n subscribers</source>
+        <translation>Wɔn a wɔakyerɛw wɔn din %n</translation>
+    </message>
+    <message>
+        <source>Make an edition from this page</source>
+        <translation>Fi krataafa yi yɛ ntintimii</translation>
+    </message>
+    <message>
+        <source>There is no newsletter list where you may make an edition.</source>
+        <translation>Nsɛmma krataa din-krataa biara nni hɔ a wobetumi ayɛ ntintimii wɔ mu.</translation>
+    </message>
+    <message>
+        <source>Make the edition</source>
+        <translation>Yɛ ntintimii no</translation>
+    </message>
+    <message>
+        <source>Newsletter list</source>
+        <translation>Nsɛmma krataa din-krataa</translation>
+    </message>
+    <message>
+        <source>Introduction (optional)</source>
+        <translation>Nhyɛase (ɛnyɛ dandan)</translation>
+    </message>
+    <message>
+        <source>This page becomes the edition's article: its title, its intro and a link to it.</source>
+        <translation>Krataafa yi bɛyɛ ntintimii no asɛm: ne din, ne nhyɛase ne link a ɛkɔ ho.</translation>
+    </message>
+    <message>
+        <source>The edition was made, with this page as its article.</source>
+        <translation>Wɔayɛ ntintimii no, na krataafa yi ne n'asɛm.</translation>
+    </message>
+    <message>
+        <source>not asked for yet</source>
+        <translation>wɔmmisaa da</translation>
+    </message>
+    <message>
+        <source>waiting</source>
+        <translation>ɛretwɛn</translation>
+    </message>
+    <message>
+        <source>approved</source>
+        <translation>wɔapene so</translation>
+    </message>
+    <message>
+        <source>rejected</source>
+        <translation>wɔapo</translation>
+    </message>
+    <message>
+        <source>Approval: %state</source>
+        <translation>Mpenesoɔ: %state</translation>
+    </message>
+    <message>
+        <source>waiting for the cronjob</source>
+        <translation>ɛretwɛn cronjob no</translation>
+    </message>
+    <message>
+        <source>queued</source>
+        <translation>ɛwɔ santen mu</translation>
+    </message>
+    <message>
+        <source>being sent</source>
+        <translation>wɔde rekɔ</translation>
+    </message>
+    <message>
+        <source>sent</source>
+        <translation>wɔde akɔ</translation>
+    </message>
+    <message>
+        <source>stopped</source>
+        <translation>wɔagyae</translation>
+    </message>
+    <message>
+        <source>Last send: %state, %time</source>
+        <translation>Nea wɔde kɔɔ akyiri: %state, %time</translation>
+    </message>
+    <message>
+        <source>Send a test</source>
+        <translation>Fa sɔhwɛ kɔ</translation>
+    </message>
+    <message>
+        <source>The test could not be sent.</source>
+        <translation>Wɔantumi amfa sɔhwɛ no ankɔ.</translation>
+    </message>
+    <message>
+        <source>The test was sent to %list.</source>
+        <translation>Wɔde sɔhwɛ no akɔ %list.</translation>
+    </message>
+    <message>
+        <source>Test addresses</source>
+        <translation>Sɔhwɛ address</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers</source>
+        <translation>Fa kɔ ma wɔn a wɔakyerɛw wɔn din</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers ...</source>
+        <translation>Fa kɔ ma wɔn a wɔakyerɛw wɔn din ...</translation>
+    </message>
+    <message>
+        <source>Send now</source>
+        <translation>Fa kɔ seesei</translation>
+    </message>
+    <message>
+        <source>The edition is queued: the newsletter's cronjob sends it to the subscribers.</source>
+        <translation>Ntintimii no wɔ santen mu: nsɛmma krataa no cronjob de bɛkɔ ama wɔn a wɔakyerɛw wɔn din.</translation>
+    </message>
+    <message>
+        <source>Send "%name" to the %n subscribers of "%list" now? This cannot be taken back here.</source>
+        <translation>Fa "%name" kɔ ma wɔn a wɔakyerɛw wɔn din %n a wɔwɔ "%list" mu seesei? Wuntumi nsan mfa no wɔ ha.</translation>
+    </message>
+    <message>
+        <source>Newsletter</source>
+        <translation>Nsɛmma krataa</translation>
+    </message>
+    <message>
+        <source>This edition is being sent.</source>
+        <translation>Wɔde ntintimii yi rekɔ.</translation>
+    </message>
+    <message>
+        <source>This edition was sent and is in the archive.</source>
+        <translation>Wɔde ntintimii yi akɔ na ɛwɔ akorae mu.</translation>
+    </message>
+    <message>
+        <source>This edition waits for its approval. It can be sent when it is approved.</source>
+        <translation>Ntintimii yi retwɛn mpenesoɔ. Wobetumi de akɔ bere a wɔapene so.</translation>
+    </message>
+    <message>
+        <source>This edition was rejected. Change it and ask for the approval again.</source>
+        <translation>Wɔapo ntintimii yi. Sesa na bisa mpenesoɔ bio.</translation>
+    </message>
+    <message>
+        <source>The list needs an approval before an edition is sent. Ask for the approval in the administration.</source>
+        <translation>Din-krataa no hia mpenesoɔ ansa na wɔde ntintimii bɛkɔ. Bisa mpenesoɔ wɔ nhyehyɛe no mu.</translation>
+    </message>
+    <message>
+        <source>The list has no subscribers.</source>
+        <translation>Din-krataa no nni obiara a wakyerɛw ne din.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Nkrataa a aba</translation>
     </message>

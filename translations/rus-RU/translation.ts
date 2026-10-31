@@ -1044,6 +1044,214 @@
         <translation>Формы</translation>
     </message>
     <message>
+        <source>There is no such newsletter list.</source>
+        <translation>Такого списка рассылки нет.</translation>
+    </message>
+    <message>
+        <source>The edition was made, but a workflow holds its publishing. Find it in the administration.</source>
+        <translation>Выпуск создан, но рабочий процесс задерживает его публикацию. Найдите его в администрировании.</translation>
+    </message>
+    <message>
+        <source>The edition was made, but the page could not be taken into it.</source>
+        <translation>Выпуск создан, но страницу не удалось в него включить.</translation>
+    </message>
+    <message>
+        <source>There is no such edition, or you may not read it.</source>
+        <translation>Такого выпуска нет, или у вас нет прав на его чтение.</translation>
+    </message>
+    <message>
+        <source>This edition has no newsletter data.</source>
+        <translation>У этого выпуска нет данных рассылки.</translation>
+    </message>
+    <message>
+        <source>Some of the addresses are not valid.</source>
+        <translation>Некоторые адреса недействительны.</translation>
+    </message>
+    <message>
+        <source>Give at least one address.</source>
+        <translation>Укажите хотя бы один адрес.</translation>
+    </message>
+    <message>
+        <source>Too many addresses at once.</source>
+        <translation>Слишком много адресов сразу.</translation>
+    </message>
+    <message>
+        <source>The edition was changed in the meantime. Look at it again before you send it.</source>
+        <translation>Выпуск тем временем изменили. Просмотрите его ещё раз перед отправкой.</translation>
+    </message>
+    <message>
+        <source>The send could not be made.</source>
+        <translation>Отправку не удалось выполнить.</translation>
+    </message>
+    <message>
+        <source>Sending to the subscribers needs "Verify it's you", which is switched off here. Send it in the administration.</source>
+        <translation>Для отправки подписчикам нужно «Подтвердите, что это вы», а здесь это отключено. Отправьте выпуск в администрировании.</translation>
+    </message>
+    <message>
+        <source>Please confirm it is you first.</source>
+        <translation>Сначала подтвердите, что это вы.</translation>
+    </message>
+    <message>
+        <source>Editions with this page</source>
+        <translation>Выпуски с этой страницей</translation>
+    </message>
+    <message>
+        <source>This page is in no edition yet.</source>
+        <translation>Эта страница пока не входит ни в один выпуск.</translation>
+    </message>
+    <message>
+        <source>Being sent</source>
+        <translation>Отправляется</translation>
+    </message>
+    <message>
+        <source>Sent, in the archive</source>
+        <translation>Отправлен, в архиве</translation>
+    </message>
+    <message>
+        <source>Stopped</source>
+        <translation>Остановлен</translation>
+    </message>
+    <message>
+        <source>%n subscribers</source>
+        <translation>Подписчиков: %n</translation>
+    </message>
+    <message>
+        <source>Make an edition from this page</source>
+        <translation>Создать выпуск из этой страницы</translation>
+    </message>
+    <message>
+        <source>There is no newsletter list where you may make an edition.</source>
+        <translation>Нет списка рассылки, в котором вы можете создать выпуск.</translation>
+    </message>
+    <message>
+        <source>Make the edition</source>
+        <translation>Создать выпуск</translation>
+    </message>
+    <message>
+        <source>Newsletter list</source>
+        <translation>Список рассылки</translation>
+    </message>
+    <message>
+        <source>Introduction (optional)</source>
+        <translation>Вступление (необязательно)</translation>
+    </message>
+    <message>
+        <source>This page becomes the edition's article: its title, its intro and a link to it.</source>
+        <translation>Эта страница станет статьёй выпуска: её заголовок, вступление и ссылка на неё.</translation>
+    </message>
+    <message>
+        <source>The edition was made, with this page as its article.</source>
+        <translation>Выпуск создан, эта страница — его статья.</translation>
+    </message>
+    <message>
+        <source>not asked for yet</source>
+        <translation>ещё не запрошено</translation>
+    </message>
+    <message>
+        <source>waiting</source>
+        <translation>ожидает</translation>
+    </message>
+    <message>
+        <source>approved</source>
+        <translation>одобрено</translation>
+    </message>
+    <message>
+        <source>rejected</source>
+        <translation>отклонено</translation>
+    </message>
+    <message>
+        <source>Approval: %state</source>
+        <translation>Утверждение: %state</translation>
+    </message>
+    <message>
+        <source>waiting for the cronjob</source>
+        <translation>ожидает cron-задания</translation>
+    </message>
+    <message>
+        <source>queued</source>
+        <translation>в очереди</translation>
+    </message>
+    <message>
+        <source>being sent</source>
+        <translation>отправляется</translation>
+    </message>
+    <message>
+        <source>sent</source>
+        <translation>отправлено</translation>
+    </message>
+    <message>
+        <source>stopped</source>
+        <translation>остановлено</translation>
+    </message>
+    <message>
+        <source>Last send: %state, %time</source>
+        <translation>Последняя отправка: %state, %time</translation>
+    </message>
+    <message>
+        <source>Send a test</source>
+        <translation>Отправить тест</translation>
+    </message>
+    <message>
+        <source>The test could not be sent.</source>
+        <translation>Тест не удалось отправить.</translation>
+    </message>
+    <message>
+        <source>The test was sent to %list.</source>
+        <translation>Тест отправлен на %list.</translation>
+    </message>
+    <message>
+        <source>Test addresses</source>
+        <translation>Тестовые адреса</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers</source>
+        <translation>Отправить подписчикам</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers ...</source>
+        <translation>Отправить подписчикам ...</translation>
+    </message>
+    <message>
+        <source>Send now</source>
+        <translation>Отправить сейчас</translation>
+    </message>
+    <message>
+        <source>The edition is queued: the newsletter's cronjob sends it to the subscribers.</source>
+        <translation>Выпуск в очереди: cron-задание рассылки отправит его подписчикам.</translation>
+    </message>
+    <message>
+        <source>Send "%name" to the %n subscribers of "%list" now? This cannot be taken back here.</source>
+        <translation>Отправить «%name» %n подписчикам списка «%list» сейчас? Здесь это нельзя отменить.</translation>
+    </message>
+    <message>
+        <source>Newsletter</source>
+        <translation>Рассылка</translation>
+    </message>
+    <message>
+        <source>This edition is being sent.</source>
+        <translation>Этот выпуск отправляется.</translation>
+    </message>
+    <message>
+        <source>This edition was sent and is in the archive.</source>
+        <translation>Этот выпуск отправлен и находится в архиве.</translation>
+    </message>
+    <message>
+        <source>This edition waits for its approval. It can be sent when it is approved.</source>
+        <translation>Этот выпуск ждёт утверждения. Его можно отправить после утверждения.</translation>
+    </message>
+    <message>
+        <source>This edition was rejected. Change it and ask for the approval again.</source>
+        <translation>Этот выпуск отклонён. Измените его и снова запросите утверждение.</translation>
+    </message>
+    <message>
+        <source>The list needs an approval before an edition is sent. Ask for the approval in the administration.</source>
+        <translation>Перед отправкой выпуска список требует утверждения. Запросите утверждение в администрировании.</translation>
+    </message>
+    <message>
+        <source>The list has no subscribers.</source>
+        <translation>В списке нет подписчиков.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Входящие</translation>
     </message>

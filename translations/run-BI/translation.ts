@@ -1044,6 +1044,214 @@
         <translation>Amafomu</translation>
     </message>
     <message>
+        <source>There is no such newsletter list.</source>
+        <translation>Nta rutonde rw'ikinyamakuru nk'urwo ruhari.</translation>
+    </message>
+    <message>
+        <source>The edition was made, but a workflow holds its publishing. Find it in the administration.</source>
+        <translation>Inomero yaremwe, ariko urukurikirane rw'ibikorwa rurahagaritse isohorwa ryayo. Yirondere mu buyobozi.</translation>
+    </message>
+    <message>
+        <source>The edition was made, but the page could not be taken into it.</source>
+        <translation>Inomero yaremwe, ariko urupapuro ntirwashoboye gushirwamwo.</translation>
+    </message>
+    <message>
+        <source>There is no such edition, or you may not read it.</source>
+        <translation>Nta nomero nk'iyo ihari, canke ntiwemerewe kuyisoma.</translation>
+    </message>
+    <message>
+        <source>This edition has no newsletter data.</source>
+        <translation>Iyi nomero ntifise amakuru y'ikinyamakuru.</translation>
+    </message>
+    <message>
+        <source>Some of the addresses are not valid.</source>
+        <translation>Zimwe muri aderesi ntizibereye.</translation>
+    </message>
+    <message>
+        <source>Give at least one address.</source>
+        <translation>Tanga n'imiburiburi aderesi imwe.</translation>
+    </message>
+    <message>
+        <source>Too many addresses at once.</source>
+        <translation>Aderesi nyinshi cane icarimwe.</translation>
+    </message>
+    <message>
+        <source>The edition was changed in the meantime. Look at it again before you send it.</source>
+        <translation>Inomero yahinduwe hagati aho. Yisubiremwo imbere y'uko uyirungika.</translation>
+    </message>
+    <message>
+        <source>The send could not be made.</source>
+        <translation>Kurungika ntivyashobotse.</translation>
+    </message>
+    <message>
+        <source>Sending to the subscribers needs "Verify it's you", which is switched off here. Send it in the administration.</source>
+        <translation>Kurungikira abiyandikishije bisaba "Emeza ko ari wewe", kandi ivyo bizimye hano. Yirungike mu buyobozi.</translation>
+    </message>
+    <message>
+        <source>Please confirm it is you first.</source>
+        <translation>Banza wemeze ko ari wewe.</translation>
+    </message>
+    <message>
+        <source>Editions with this page</source>
+        <translation>Inomero zirimwo uru rupapuro</translation>
+    </message>
+    <message>
+        <source>This page is in no edition yet.</source>
+        <translation>Uru rupapuro ntiruraba mu nomero n'imwe.</translation>
+    </message>
+    <message>
+        <source>Being sent</source>
+        <translation>Iriko irarungikwa</translation>
+    </message>
+    <message>
+        <source>Sent, in the archive</source>
+        <translation>Yarungitswe, iri mu bubiko</translation>
+    </message>
+    <message>
+        <source>Stopped</source>
+        <translation>Yahagaritswe</translation>
+    </message>
+    <message>
+        <source>%n subscribers</source>
+        <translation>Abiyandikishije %n</translation>
+    </message>
+    <message>
+        <source>Make an edition from this page</source>
+        <translation>Kora inomero uhereye kuri uru rupapuro</translation>
+    </message>
+    <message>
+        <source>There is no newsletter list where you may make an edition.</source>
+        <translation>Nta rutonde rw'ikinyamakuru ruhari wemerewe gukoramwo inomero.</translation>
+    </message>
+    <message>
+        <source>Make the edition</source>
+        <translation>Kora inomero</translation>
+    </message>
+    <message>
+        <source>Newsletter list</source>
+        <translation>Urutonde rw'ikinyamakuru</translation>
+    </message>
+    <message>
+        <source>Introduction (optional)</source>
+        <translation>Intangamarara (si ngombwa)</translation>
+    </message>
+    <message>
+        <source>This page becomes the edition's article: its title, its intro and a link to it.</source>
+        <translation>Uru rupapuro ruba ikiganiro c'inomero: umutwe warwo, intangamarara yarwo n'umuhuza urujanako.</translation>
+    </message>
+    <message>
+        <source>The edition was made, with this page as its article.</source>
+        <translation>Inomero yaremwe, uru rupapuro ari co kiganiro cayo.</translation>
+    </message>
+    <message>
+        <source>not asked for yet</source>
+        <translation>ntibirasabwa</translation>
+    </message>
+    <message>
+        <source>waiting</source>
+        <translation>biriko birarindira</translation>
+    </message>
+    <message>
+        <source>approved</source>
+        <translation>vyemejwe</translation>
+    </message>
+    <message>
+        <source>rejected</source>
+        <translation>vyanswe</translation>
+    </message>
+    <message>
+        <source>Approval: %state</source>
+        <translation>Kwemezwa: %state</translation>
+    </message>
+    <message>
+        <source>waiting for the cronjob</source>
+        <translation>birarindira cronjob</translation>
+    </message>
+    <message>
+        <source>queued</source>
+        <translation>biri ku murongo</translation>
+    </message>
+    <message>
+        <source>being sent</source>
+        <translation>biriko birarungikwa</translation>
+    </message>
+    <message>
+        <source>sent</source>
+        <translation>vyarungitswe</translation>
+    </message>
+    <message>
+        <source>stopped</source>
+        <translation>vyahagaritswe</translation>
+    </message>
+    <message>
+        <source>Last send: %state, %time</source>
+        <translation>Kurungika guheruka: %state, %time</translation>
+    </message>
+    <message>
+        <source>Send a test</source>
+        <translation>Rungika igerageza</translation>
+    </message>
+    <message>
+        <source>The test could not be sent.</source>
+        <translation>Igerageza ntiryashoboye kurungikwa.</translation>
+    </message>
+    <message>
+        <source>The test was sent to %list.</source>
+        <translation>Igerageza ryarungikiwe %list.</translation>
+    </message>
+    <message>
+        <source>Test addresses</source>
+        <translation>Aderesi z'igerageza</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers</source>
+        <translation>Rungikira abiyandikishije</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers ...</source>
+        <translation>Rungikira abiyandikishije ...</translation>
+    </message>
+    <message>
+        <source>Send now</source>
+        <translation>Rungika ubu</translation>
+    </message>
+    <message>
+        <source>The edition is queued: the newsletter's cronjob sends it to the subscribers.</source>
+        <translation>Inomero iri ku murongo: cronjob y'ikinyamakuru izoyirungikira abiyandikishije.</translation>
+    </message>
+    <message>
+        <source>Send "%name" to the %n subscribers of "%list" now? This cannot be taken back here.</source>
+        <translation>Rungika ubu "%name" ku biyandikishije %n bo kuri "%list"? Ivyo ntibishobora gusubizwa inyuma hano.</translation>
+    </message>
+    <message>
+        <source>Newsletter</source>
+        <translation>Ikinyamakuru</translation>
+    </message>
+    <message>
+        <source>This edition is being sent.</source>
+        <translation>Iyi nomero iriko irarungikwa.</translation>
+    </message>
+    <message>
+        <source>This edition was sent and is in the archive.</source>
+        <translation>Iyi nomero yarungitswe kandi iri mu bubiko.</translation>
+    </message>
+    <message>
+        <source>This edition waits for its approval. It can be sent when it is approved.</source>
+        <translation>Iyi nomero irarindira kwemezwa. Izorungikwa niyamara kwemezwa.</translation>
+    </message>
+    <message>
+        <source>This edition was rejected. Change it and ask for the approval again.</source>
+        <translation>Iyi nomero yanswe. Yihindure hanyuma usabe kwemezwa kandi.</translation>
+    </message>
+    <message>
+        <source>The list needs an approval before an edition is sent. Ask for the approval in the administration.</source>
+        <translation>Urutonde rukeneye kwemezwa imbere y'uko inomero irungikwa. Saba kwemezwa mu buyobozi.</translation>
+    </message>
+    <message>
+        <source>The list has no subscribers.</source>
+        <translation>Urutonde nta biyandikishije rufise.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Ubutumwa bwinjira</translation>
     </message>

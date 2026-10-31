@@ -1044,6 +1044,214 @@
         <translation>Foomam</translation>
     </message>
     <message>
+        <source>There is no such newsletter list.</source>
+        <translation>Liis warside oo noocaas ah ma jiro.</translation>
+    </message>
+    <message>
+        <source>The edition was made, but a workflow holds its publishing. Find it in the administration.</source>
+        <translation>Cadadka waa la sameeyay, laakiin socod-shaqo ayaa haya daabacaaddiisa. Ka hel maamulka.</translation>
+    </message>
+    <message>
+        <source>The edition was made, but the page could not be taken into it.</source>
+        <translation>Cadadka waa la sameeyay, laakiin bogga laguma dari karin.</translation>
+    </message>
+    <message>
+        <source>There is no such edition, or you may not read it.</source>
+        <translation>Cadad noocaas ah ma jiro, ama laguma oggola inaad akhrido.</translation>
+    </message>
+    <message>
+        <source>This edition has no newsletter data.</source>
+        <translation>Cadadkan ma laha xog warside.</translation>
+    </message>
+    <message>
+        <source>Some of the addresses are not valid.</source>
+        <translation>Qaar ka mid ah cinwaannada ma ansax aha.</translation>
+    </message>
+    <message>
+        <source>Give at least one address.</source>
+        <translation>Bixi ugu yaraan hal cinwaan.</translation>
+    </message>
+    <message>
+        <source>Too many addresses at once.</source>
+        <translation>Cinwaanno aad u badan hal mar.</translation>
+    </message>
+    <message>
+        <source>The edition was changed in the meantime. Look at it again before you send it.</source>
+        <translation>Cadadka waa la beddelay inta u dhaxaysay. Mar kale eeg ka hor intaadan dirin.</translation>
+    </message>
+    <message>
+        <source>The send could not be made.</source>
+        <translation>Dirista lama samayn karin.</translation>
+    </message>
+    <message>
+        <source>Sending to the subscribers needs "Verify it's you", which is switched off here. Send it in the administration.</source>
+        <translation>U dirista rukummada waxay u baahan tahay "Xaqiiji inaad adigu tahay", taas oo halkan laga demiyay. Ka dir maamulka.</translation>
+    </message>
+    <message>
+        <source>Please confirm it is you first.</source>
+        <translation>Fadlan marka hore xaqiiji inaad adigu tahay.</translation>
+    </message>
+    <message>
+        <source>Editions with this page</source>
+        <translation>Cadadyada uu boggan ku jiro</translation>
+    </message>
+    <message>
+        <source>This page is in no edition yet.</source>
+        <translation>Boggani weli kuma jiro cadad.</translation>
+    </message>
+    <message>
+        <source>Being sent</source>
+        <translation>Waa la dirayaa</translation>
+    </message>
+    <message>
+        <source>Sent, in the archive</source>
+        <translation>Waa la diray, kaydka ku jira</translation>
+    </message>
+    <message>
+        <source>Stopped</source>
+        <translation>Waa la joojiyay</translation>
+    </message>
+    <message>
+        <source>%n subscribers</source>
+        <translation>%n rukummo</translation>
+    </message>
+    <message>
+        <source>Make an edition from this page</source>
+        <translation>Boggan ka samee cadad</translation>
+    </message>
+    <message>
+        <source>There is no newsletter list where you may make an edition.</source>
+        <translation>Ma jiro liis warside oo aad cadad ku samayn karto.</translation>
+    </message>
+    <message>
+        <source>Make the edition</source>
+        <translation>Samee cadadka</translation>
+    </message>
+    <message>
+        <source>Newsletter list</source>
+        <translation>Liiska warsidaha</translation>
+    </message>
+    <message>
+        <source>Introduction (optional)</source>
+        <translation>Hordhac (ikhtiyaari)</translation>
+    </message>
+    <message>
+        <source>This page becomes the edition's article: its title, its intro and a link to it.</source>
+        <translation>Boggani wuxuu noqonayaa maqaalka cadadka: cinwaankiisa, hordhaciisa iyo xiriir loo maro.</translation>
+    </message>
+    <message>
+        <source>The edition was made, with this page as its article.</source>
+        <translation>Cadadka waa la sameeyay, boggan oo ah maqaalkiisa.</translation>
+    </message>
+    <message>
+        <source>not asked for yet</source>
+        <translation>weli lama codsan</translation>
+    </message>
+    <message>
+        <source>waiting</source>
+        <translation>sugaya</translation>
+    </message>
+    <message>
+        <source>approved</source>
+        <translation>la oggolaaday</translation>
+    </message>
+    <message>
+        <source>rejected</source>
+        <translation>la diiday</translation>
+    </message>
+    <message>
+        <source>Approval: %state</source>
+        <translation>Oggolaansho: %state</translation>
+    </message>
+    <message>
+        <source>waiting for the cronjob</source>
+        <translation>sugaya cronjob-ka</translation>
+    </message>
+    <message>
+        <source>queued</source>
+        <translation>safka ku jira</translation>
+    </message>
+    <message>
+        <source>being sent</source>
+        <translation>la dirayo</translation>
+    </message>
+    <message>
+        <source>sent</source>
+        <translation>la diray</translation>
+    </message>
+    <message>
+        <source>stopped</source>
+        <translation>la joojiyay</translation>
+    </message>
+    <message>
+        <source>Last send: %state, %time</source>
+        <translation>Diristii u dambaysay: %state, %time</translation>
+    </message>
+    <message>
+        <source>Send a test</source>
+        <translation>Dir tijaabo</translation>
+    </message>
+    <message>
+        <source>The test could not be sent.</source>
+        <translation>Tijaabada lama diri karin.</translation>
+    </message>
+    <message>
+        <source>The test was sent to %list.</source>
+        <translation>Tijaabada waxaa loo diray %list.</translation>
+    </message>
+    <message>
+        <source>Test addresses</source>
+        <translation>Cinwaannada tijaabada</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers</source>
+        <translation>U dir rukummada</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers ...</source>
+        <translation>U dir rukummada ...</translation>
+    </message>
+    <message>
+        <source>Send now</source>
+        <translation>Hadda dir</translation>
+    </message>
+    <message>
+        <source>The edition is queued: the newsletter's cronjob sends it to the subscribers.</source>
+        <translation>Cadadku safka ayuu ku jiraa: cronjob-ka warsidaha ayaa u diraya rukummada.</translation>
+    </message>
+    <message>
+        <source>Send "%name" to the %n subscribers of "%list" now? This cannot be taken back here.</source>
+        <translation>Hadda u dir "%name" %n rukun ee "%list"? Tan halkan dib looma celin karo.</translation>
+    </message>
+    <message>
+        <source>Newsletter</source>
+        <translation>Warside</translation>
+    </message>
+    <message>
+        <source>This edition is being sent.</source>
+        <translation>Cadadkan waa la dirayaa.</translation>
+    </message>
+    <message>
+        <source>This edition was sent and is in the archive.</source>
+        <translation>Cadadkan waa la diray wuxuuna ku jiraa kaydka.</translation>
+    </message>
+    <message>
+        <source>This edition waits for its approval. It can be sent when it is approved.</source>
+        <translation>Cadadkan wuxuu sugayaa oggolaanshihiisa. Waa la diri karaa marka la oggolaado.</translation>
+    </message>
+    <message>
+        <source>This edition was rejected. Change it and ask for the approval again.</source>
+        <translation>Cadadkan waa la diiday. Beddel oo mar kale codso oggolaansho.</translation>
+    </message>
+    <message>
+        <source>The list needs an approval before an edition is sent. Ask for the approval in the administration.</source>
+        <translation>Liisku wuxuu u baahan yahay oggolaansho ka hor inta aan cadad la dirin. Ka codso oggolaanshaha maamulka.</translation>
+    </message>
+    <message>
+        <source>The list has no subscribers.</source>
+        <translation>Liisku ma laha rukummo.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Sanduuqa fariimaha</translation>
     </message>

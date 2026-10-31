@@ -1044,6 +1044,214 @@
         <translation>Immersugassat</translation>
     </message>
     <message>
+        <source>There is no such newsletter list.</source>
+        <translation>Nutaarsiassanik allakkat allattorsimaffiat taamaattoqanngilaq.</translation>
+    </message>
+    <message>
+        <source>The edition was made, but a workflow holds its publishing. Find it in the administration.</source>
+        <translation>Saqqummersitaq pilersinneqarpoq, saqqummiunneqarneraali suliap ingerlariaasianit unitsinneqarpoq. Aqutsinermi nassaarisinnaavat.</translation>
+    </message>
+    <message>
+        <source>The edition was made, but the page could not be taken into it.</source>
+        <translation>Saqqummersitaq pilersinneqarpoq, quppernerli ilanngunneqarsinnaanngilaq.</translation>
+    </message>
+    <message>
+        <source>There is no such edition, or you may not read it.</source>
+        <translation>Saqqummersitaq taamaattoqanngilaq, imaluunniit atuarsinnaanngilat.</translation>
+    </message>
+    <message>
+        <source>This edition has no newsletter data.</source>
+        <translation>Saqqummersitaq una nutaarsiassanik allakkanut paasissutissaqanngilaq.</translation>
+    </message>
+    <message>
+        <source>Some of the addresses are not valid.</source>
+        <translation>Najugaqarfiit ilaat atorsinnaanngillat.</translation>
+    </message>
+    <message>
+        <source>Give at least one address.</source>
+        <translation>Minnerpaamik najugaqarfik ataaseq allaguk.</translation>
+    </message>
+    <message>
+        <source>Too many addresses at once.</source>
+        <translation>Najugaqarfiit ataatsikkut amerlavallaarput.</translation>
+    </message>
+    <message>
+        <source>The edition was changed in the meantime. Look at it again before you send it.</source>
+        <translation>Saqqummersitaq akunnerani allanngortinneqarpoq. Nassiutinnginnerani qiviaqqiguk.</translation>
+    </message>
+    <message>
+        <source>The send could not be made.</source>
+        <translation>Nassiussineq ingerlanneqarsinnaanngilaq.</translation>
+    </message>
+    <message>
+        <source>Sending to the subscribers needs "Verify it's you", which is switched off here. Send it in the administration.</source>
+        <translation>Pisartagaqartunut nassiussinermi "Illuunerit uppernarsaruk" pisariaqarpoq, maani matuneqarsimasoq. Aqutsinermi nassiuguk.</translation>
+    </message>
+    <message>
+        <source>Please confirm it is you first.</source>
+        <translation>Siullermik illuunerit uppernarsaruk.</translation>
+    </message>
+    <message>
+        <source>Editions with this page</source>
+        <translation>Saqqummersitat quppernermik matuminnga ilallit</translation>
+    </message>
+    <message>
+        <source>This page is in no edition yet.</source>
+        <translation>Quppernera una suli saqqummersitamut ilaanngilaq.</translation>
+    </message>
+    <message>
+        <source>Being sent</source>
+        <translation>Nassiunneqarpoq</translation>
+    </message>
+    <message>
+        <source>Sent, in the archive</source>
+        <translation>Nassiunneqarsimavoq, toqqorsivimmi</translation>
+    </message>
+    <message>
+        <source>Stopped</source>
+        <translation>Unitsinneqarpoq</translation>
+    </message>
+    <message>
+        <source>%n subscribers</source>
+        <translation>Pisartagaqartut %n</translation>
+    </message>
+    <message>
+        <source>Make an edition from this page</source>
+        <translation>Quppernermit matumannga saqqummersitamik pilersitsigit</translation>
+    </message>
+    <message>
+        <source>There is no newsletter list where you may make an edition.</source>
+        <translation>Nutaarsiassanik allakkat allattorsimaffiat saqqummersitamik pilersitsiffigisinnaasat peqanngilaq.</translation>
+    </message>
+    <message>
+        <source>Make the edition</source>
+        <translation>Saqqummersitaq pilersiguk</translation>
+    </message>
+    <message>
+        <source>Newsletter list</source>
+        <translation>Nutaarsiassanik allakkat allattorsimaffiat</translation>
+    </message>
+    <message>
+        <source>Introduction (optional)</source>
+        <translation>Aallarniut (piumasaqaataanngitsoq)</translation>
+    </message>
+    <message>
+        <source>This page becomes the edition's article: its title, its intro and a link to it.</source>
+        <translation>Quppernera una saqqummersitap allaaserisaanngorpoq: qulequtaa, aallarniutaa aamma innersuussut.</translation>
+    </message>
+    <message>
+        <source>The edition was made, with this page as its article.</source>
+        <translation>Saqqummersitaq pilersinneqarpoq, quppernera una allaaserisaralugu.</translation>
+    </message>
+    <message>
+        <source>not asked for yet</source>
+        <translation>suli qinnutigineqanngilaq</translation>
+    </message>
+    <message>
+        <source>waiting</source>
+        <translation>utaqqisoq</translation>
+    </message>
+    <message>
+        <source>approved</source>
+        <translation>akuerineqarpoq</translation>
+    </message>
+    <message>
+        <source>rejected</source>
+        <translation>itigartitaavoq</translation>
+    </message>
+    <message>
+        <source>Approval: %state</source>
+        <translation>Akuersineq: %state</translation>
+    </message>
+    <message>
+        <source>waiting for the cronjob</source>
+        <translation>cronjob utaqqivaa</translation>
+    </message>
+    <message>
+        <source>queued</source>
+        <translation>utaqqiisitaq</translation>
+    </message>
+    <message>
+        <source>being sent</source>
+        <translation>nassiunneqarpoq</translation>
+    </message>
+    <message>
+        <source>sent</source>
+        <translation>nassiunneqarsimavoq</translation>
+    </message>
+    <message>
+        <source>stopped</source>
+        <translation>unitsinneqarpoq</translation>
+    </message>
+    <message>
+        <source>Last send: %state, %time</source>
+        <translation>Kingullermik nassiussineq: %state, %time</translation>
+    </message>
+    <message>
+        <source>Send a test</source>
+        <translation>Misiliut nassiuguk</translation>
+    </message>
+    <message>
+        <source>The test could not be sent.</source>
+        <translation>Misiliut nassiunneqarsinnaanngilaq.</translation>
+    </message>
+    <message>
+        <source>The test was sent to %list.</source>
+        <translation>Misiliut %list-mut nassiunneqarpoq.</translation>
+    </message>
+    <message>
+        <source>Test addresses</source>
+        <translation>Misiliummut najugaqarfiit</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers</source>
+        <translation>Pisartagaqartunut nassiuguk</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers ...</source>
+        <translation>Pisartagaqartunut nassiuguk ...</translation>
+    </message>
+    <message>
+        <source>Send now</source>
+        <translation>Maanna nassiuguk</translation>
+    </message>
+    <message>
+        <source>The edition is queued: the newsletter's cronjob sends it to the subscribers.</source>
+        <translation>Saqqummersitaq utaqqiisitaavoq: nutaarsiassanik allakkat cronjob-iata pisartagaqartunut nassiussavaa.</translation>
+    </message>
+    <message>
+        <source>Send "%name" to the %n subscribers of "%list" now? This cannot be taken back here.</source>
+        <translation>"%name" maanna "%list"-p pisartagaqartuinut %n-inut nassiussaviuk? Maani utertinneqarsinnaanngilaq.</translation>
+    </message>
+    <message>
+        <source>Newsletter</source>
+        <translation>Nutaarsiassanik allagaq</translation>
+    </message>
+    <message>
+        <source>This edition is being sent.</source>
+        <translation>Saqqummersitaq una nassiunneqarpoq.</translation>
+    </message>
+    <message>
+        <source>This edition was sent and is in the archive.</source>
+        <translation>Saqqummersitaq una nassiunneqarsimavoq toqqorsivimmilu ippoq.</translation>
+    </message>
+    <message>
+        <source>This edition waits for its approval. It can be sent when it is approved.</source>
+        <translation>Saqqummersitaq una akuerineqarnissaminik utaqqivoq. Akuerineqarpat nassiunneqarsinnaavoq.</translation>
+    </message>
+    <message>
+        <source>This edition was rejected. Change it and ask for the approval again.</source>
+        <translation>Saqqummersitaq una itigartitaavoq. Allanngortiguk akuerineqarnissaalu qinnutigeqqiguk.</translation>
+    </message>
+    <message>
+        <source>The list needs an approval before an edition is sent. Ask for the approval in the administration.</source>
+        <translation>Allattorsimaffik akuerineqartariaqarpoq saqqummersitaq nassiunneqartinnagu. Aqutsinermi akuersissummik qinnutiginnigit.</translation>
+    </message>
+    <message>
+        <source>The list has no subscribers.</source>
+        <translation>Allattorsimaffik pisartagaqartoqanngilaq.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Tiguniakkat</translation>
     </message>

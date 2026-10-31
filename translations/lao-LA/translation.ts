@@ -1044,6 +1044,214 @@
         <translation>ແບບຟອມ</translation>
     </message>
     <message>
+        <source>There is no such newsletter list.</source>
+        <translation>ບໍ່ມີລາຍຊື່ຈົດໝາຍຂ່າວນີ້.</translation>
+    </message>
+    <message>
+        <source>The edition was made, but a workflow holds its publishing. Find it in the administration.</source>
+        <translation>ສ້າງສະບັບແລ້ວ ແຕ່ຂັ້ນຕອນການເຮັດວຽກກຳລັງຖືການເຜີຍແຜ່ໄວ້. ຊອກຫາມັນໃນການຈັດການ.</translation>
+    </message>
+    <message>
+        <source>The edition was made, but the page could not be taken into it.</source>
+        <translation>ສ້າງສະບັບແລ້ວ ແຕ່ບໍ່ສາມາດນຳໜ້ານີ້ເຂົ້າໄປໄດ້.</translation>
+    </message>
+    <message>
+        <source>There is no such edition, or you may not read it.</source>
+        <translation>ບໍ່ມີສະບັບນີ້ ຫຼື ທ່ານບໍ່ມີສິດອ່ານມັນ.</translation>
+    </message>
+    <message>
+        <source>This edition has no newsletter data.</source>
+        <translation>ສະບັບນີ້ບໍ່ມີຂໍ້ມູນຈົດໝາຍຂ່າວ.</translation>
+    </message>
+    <message>
+        <source>Some of the addresses are not valid.</source>
+        <translation>ທີ່ຢູ່ບາງອັນບໍ່ຖືກຕ້ອງ.</translation>
+    </message>
+    <message>
+        <source>Give at least one address.</source>
+        <translation>ກະລຸນາໃສ່ຢ່າງໜ້ອຍໜຶ່ງທີ່ຢູ່.</translation>
+    </message>
+    <message>
+        <source>Too many addresses at once.</source>
+        <translation>ທີ່ຢູ່ຫຼາຍເກີນໄປໃນຄັ້ງດຽວ.</translation>
+    </message>
+    <message>
+        <source>The edition was changed in the meantime. Look at it again before you send it.</source>
+        <translation>ສະບັບໄດ້ຖືກປ່ຽນແປງໃນລະຫວ່າງນີ້. ກະລຸນາເບິ່ງອີກຄັ້ງກ່ອນສົ່ງ.</translation>
+    </message>
+    <message>
+        <source>The send could not be made.</source>
+        <translation>ບໍ່ສາມາດສົ່ງໄດ້.</translation>
+    </message>
+    <message>
+        <source>Sending to the subscribers needs "Verify it's you", which is switched off here. Send it in the administration.</source>
+        <translation>ການສົ່ງຫາຜູ້ຕິດຕາມຕ້ອງໃຊ້ "ຢືນຢັນວ່າແມ່ນທ່ານ" ເຊິ່ງຖືກປິດຢູ່ທີ່ນີ້. ກະລຸນາສົ່ງໃນການຈັດການ.</translation>
+    </message>
+    <message>
+        <source>Please confirm it is you first.</source>
+        <translation>ກະລຸນາຢືນຢັນວ່າແມ່ນທ່ານກ່ອນ.</translation>
+    </message>
+    <message>
+        <source>Editions with this page</source>
+        <translation>ສະບັບທີ່ມີໜ້ານີ້</translation>
+    </message>
+    <message>
+        <source>This page is in no edition yet.</source>
+        <translation>ໜ້ານີ້ຍັງບໍ່ຢູ່ໃນສະບັບໃດເທື່ອ.</translation>
+    </message>
+    <message>
+        <source>Being sent</source>
+        <translation>ກຳລັງສົ່ງ</translation>
+    </message>
+    <message>
+        <source>Sent, in the archive</source>
+        <translation>ສົ່ງແລ້ວ, ຢູ່ໃນບ່ອນເກັບ</translation>
+    </message>
+    <message>
+        <source>Stopped</source>
+        <translation>ຢຸດແລ້ວ</translation>
+    </message>
+    <message>
+        <source>%n subscribers</source>
+        <translation>ຜູ້ຕິດຕາມ %n ຄົນ</translation>
+    </message>
+    <message>
+        <source>Make an edition from this page</source>
+        <translation>ສ້າງສະບັບຈາກໜ້ານີ້</translation>
+    </message>
+    <message>
+        <source>There is no newsletter list where you may make an edition.</source>
+        <translation>ບໍ່ມີລາຍຊື່ຈົດໝາຍຂ່າວທີ່ທ່ານສາມາດສ້າງສະບັບໄດ້.</translation>
+    </message>
+    <message>
+        <source>Make the edition</source>
+        <translation>ສ້າງສະບັບ</translation>
+    </message>
+    <message>
+        <source>Newsletter list</source>
+        <translation>ລາຍຊື່ຈົດໝາຍຂ່າວ</translation>
+    </message>
+    <message>
+        <source>Introduction (optional)</source>
+        <translation>ຄຳນຳ (ບໍ່ບັງຄັບ)</translation>
+    </message>
+    <message>
+        <source>This page becomes the edition's article: its title, its intro and a link to it.</source>
+        <translation>ໜ້ານີ້ຈະກາຍເປັນບົດຄວາມຂອງສະບັບ: ຫົວຂໍ້, ຄຳນຳ ແລະ ລິ້ງຫາມັນ.</translation>
+    </message>
+    <message>
+        <source>The edition was made, with this page as its article.</source>
+        <translation>ສ້າງສະບັບແລ້ວ ໂດຍມີໜ້ານີ້ເປັນບົດຄວາມ.</translation>
+    </message>
+    <message>
+        <source>not asked for yet</source>
+        <translation>ຍັງບໍ່ໄດ້ຂໍ</translation>
+    </message>
+    <message>
+        <source>waiting</source>
+        <translation>ກຳລັງລໍຖ້າ</translation>
+    </message>
+    <message>
+        <source>approved</source>
+        <translation>ອະນຸມັດແລ້ວ</translation>
+    </message>
+    <message>
+        <source>rejected</source>
+        <translation>ຖືກປະຕິເສດ</translation>
+    </message>
+    <message>
+        <source>Approval: %state</source>
+        <translation>ການອະນຸມັດ: %state</translation>
+    </message>
+    <message>
+        <source>waiting for the cronjob</source>
+        <translation>ລໍຖ້າ cronjob</translation>
+    </message>
+    <message>
+        <source>queued</source>
+        <translation>ຢູ່ໃນຄິວ</translation>
+    </message>
+    <message>
+        <source>being sent</source>
+        <translation>ກຳລັງສົ່ງ</translation>
+    </message>
+    <message>
+        <source>sent</source>
+        <translation>ສົ່ງແລ້ວ</translation>
+    </message>
+    <message>
+        <source>stopped</source>
+        <translation>ຢຸດແລ້ວ</translation>
+    </message>
+    <message>
+        <source>Last send: %state, %time</source>
+        <translation>ການສົ່ງຫຼ້າສຸດ: %state, %time</translation>
+    </message>
+    <message>
+        <source>Send a test</source>
+        <translation>ສົ່ງທົດສອບ</translation>
+    </message>
+    <message>
+        <source>The test could not be sent.</source>
+        <translation>ບໍ່ສາມາດສົ່ງການທົດສອບໄດ້.</translation>
+    </message>
+    <message>
+        <source>The test was sent to %list.</source>
+        <translation>ສົ່ງການທົດສອບໄປຫາ %list ແລ້ວ.</translation>
+    </message>
+    <message>
+        <source>Test addresses</source>
+        <translation>ທີ່ຢູ່ສຳລັບທົດສອບ</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers</source>
+        <translation>ສົ່ງຫາຜູ້ຕິດຕາມ</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers ...</source>
+        <translation>ສົ່ງຫາຜູ້ຕິດຕາມ ...</translation>
+    </message>
+    <message>
+        <source>Send now</source>
+        <translation>ສົ່ງດຽວນີ້</translation>
+    </message>
+    <message>
+        <source>The edition is queued: the newsletter's cronjob sends it to the subscribers.</source>
+        <translation>ສະບັບຢູ່ໃນຄິວແລ້ວ: cronjob ຂອງຈົດໝາຍຂ່າວຈະສົ່ງມັນຫາຜູ້ຕິດຕາມ.</translation>
+    </message>
+    <message>
+        <source>Send "%name" to the %n subscribers of "%list" now? This cannot be taken back here.</source>
+        <translation>ສົ່ງ "%name" ຫາຜູ້ຕິດຕາມ %n ຄົນຂອງ "%list" ດຽວນີ້ບໍ? ບໍ່ສາມາດຍົກເລີກໄດ້ຢູ່ທີ່ນີ້.</translation>
+    </message>
+    <message>
+        <source>Newsletter</source>
+        <translation>ຈົດໝາຍຂ່າວ</translation>
+    </message>
+    <message>
+        <source>This edition is being sent.</source>
+        <translation>ສະບັບນີ້ກຳລັງຖືກສົ່ງ.</translation>
+    </message>
+    <message>
+        <source>This edition was sent and is in the archive.</source>
+        <translation>ສະບັບນີ້ຖືກສົ່ງແລ້ວ ແລະ ຢູ່ໃນບ່ອນເກັບ.</translation>
+    </message>
+    <message>
+        <source>This edition waits for its approval. It can be sent when it is approved.</source>
+        <translation>ສະບັບນີ້ກຳລັງລໍຖ້າການອະນຸມັດ. ສາມາດສົ່ງໄດ້ເມື່ອໄດ້ຮັບການອະນຸມັດ.</translation>
+    </message>
+    <message>
+        <source>This edition was rejected. Change it and ask for the approval again.</source>
+        <translation>ສະບັບນີ້ຖືກປະຕິເສດ. ກະລຸນາແກ້ໄຂ ແລະ ຂໍການອະນຸມັດອີກຄັ້ງ.</translation>
+    </message>
+    <message>
+        <source>The list needs an approval before an edition is sent. Ask for the approval in the administration.</source>
+        <translation>ລາຍຊື່ຕ້ອງໄດ້ຮັບການອະນຸມັດກ່ອນສົ່ງສະບັບ. ກະລຸນາຂໍການອະນຸມັດໃນການຈັດການ.</translation>
+    </message>
+    <message>
+        <source>The list has no subscribers.</source>
+        <translation>ລາຍຊື່ນີ້ບໍ່ມີຜູ້ຕິດຕາມ.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>ກ່ອງຂາເຂົ້າ</translation>
     </message>

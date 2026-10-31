@@ -1044,6 +1044,214 @@
         <translation>Inprimakiak</translation>
     </message>
     <message>
+        <source>There is no such newsletter list.</source>
+        <translation>Ez dago buletin-zerrenda hori.</translation>
+    </message>
+    <message>
+        <source>The edition was made, but a workflow holds its publishing. Find it in the administration.</source>
+        <translation>Alea sortu da, baina lan-fluxu batek argitaratzea atxikitzen du. Bilatu administrazioan.</translation>
+    </message>
+    <message>
+        <source>The edition was made, but the page could not be taken into it.</source>
+        <translation>Alea sortu da, baina ezin izan da orria bertan sartu.</translation>
+    </message>
+    <message>
+        <source>There is no such edition, or you may not read it.</source>
+        <translation>Ez dago ale hori, edo ezin duzu irakurri.</translation>
+    </message>
+    <message>
+        <source>This edition has no newsletter data.</source>
+        <translation>Ale honek ez du buletin-daturik.</translation>
+    </message>
+    <message>
+        <source>Some of the addresses are not valid.</source>
+        <translation>Helbideetako batzuk ez dira baliozkoak.</translation>
+    </message>
+    <message>
+        <source>Give at least one address.</source>
+        <translation>Eman gutxienez helbide bat.</translation>
+    </message>
+    <message>
+        <source>Too many addresses at once.</source>
+        <translation>Helbide gehiegi aldi berean.</translation>
+    </message>
+    <message>
+        <source>The edition was changed in the meantime. Look at it again before you send it.</source>
+        <translation>Alea aldatu egin da bitartean. Begiratu berriro bidali aurretik.</translation>
+    </message>
+    <message>
+        <source>The send could not be made.</source>
+        <translation>Ezin izan da bidalketa egin.</translation>
+    </message>
+    <message>
+        <source>Sending to the subscribers needs "Verify it's you", which is switched off here. Send it in the administration.</source>
+        <translation>Harpidedunei bidaltzeko "Egiaztatu zu zarela" behar da, eta hemen desaktibatuta dago. Bidali administrazioan.</translation>
+    </message>
+    <message>
+        <source>Please confirm it is you first.</source>
+        <translation>Lehenik, berretsi zu zarela.</translation>
+    </message>
+    <message>
+        <source>Editions with this page</source>
+        <translation>Orri hau duten aleak</translation>
+    </message>
+    <message>
+        <source>This page is in no edition yet.</source>
+        <translation>Orri hau ez dago oraindik inongo alean.</translation>
+    </message>
+    <message>
+        <source>Being sent</source>
+        <translation>Bidaltzen</translation>
+    </message>
+    <message>
+        <source>Sent, in the archive</source>
+        <translation>Bidalita, artxiboan</translation>
+    </message>
+    <message>
+        <source>Stopped</source>
+        <translation>Geldituta</translation>
+    </message>
+    <message>
+        <source>%n subscribers</source>
+        <translation>%n harpidedun</translation>
+    </message>
+    <message>
+        <source>Make an edition from this page</source>
+        <translation>Sortu ale bat orri honetatik</translation>
+    </message>
+    <message>
+        <source>There is no newsletter list where you may make an edition.</source>
+        <translation>Ez dago ale bat sor dezakezun buletin-zerrendarik.</translation>
+    </message>
+    <message>
+        <source>Make the edition</source>
+        <translation>Sortu alea</translation>
+    </message>
+    <message>
+        <source>Newsletter list</source>
+        <translation>Buletin-zerrenda</translation>
+    </message>
+    <message>
+        <source>Introduction (optional)</source>
+        <translation>Sarrera (aukerakoa)</translation>
+    </message>
+    <message>
+        <source>This page becomes the edition's article: its title, its intro and a link to it.</source>
+        <translation>Orri hau alearen artikulu bihurtzen da: bere izenburua, bere sarrera eta harako esteka bat.</translation>
+    </message>
+    <message>
+        <source>The edition was made, with this page as its article.</source>
+        <translation>Alea sortu da, orri hau artikulu gisa duela.</translation>
+    </message>
+    <message>
+        <source>not asked for yet</source>
+        <translation>oraindik eskatu gabe</translation>
+    </message>
+    <message>
+        <source>waiting</source>
+        <translation>zain</translation>
+    </message>
+    <message>
+        <source>approved</source>
+        <translation>onartuta</translation>
+    </message>
+    <message>
+        <source>rejected</source>
+        <translation>baztertuta</translation>
+    </message>
+    <message>
+        <source>Approval: %state</source>
+        <translation>Onarpena: %state</translation>
+    </message>
+    <message>
+        <source>waiting for the cronjob</source>
+        <translation>cronjob-aren zain</translation>
+    </message>
+    <message>
+        <source>queued</source>
+        <translation>ilaran</translation>
+    </message>
+    <message>
+        <source>being sent</source>
+        <translation>bidaltzen</translation>
+    </message>
+    <message>
+        <source>sent</source>
+        <translation>bidalita</translation>
+    </message>
+    <message>
+        <source>stopped</source>
+        <translation>geldituta</translation>
+    </message>
+    <message>
+        <source>Last send: %state, %time</source>
+        <translation>Azken bidalketa: %state, %time</translation>
+    </message>
+    <message>
+        <source>Send a test</source>
+        <translation>Bidali proba bat</translation>
+    </message>
+    <message>
+        <source>The test could not be sent.</source>
+        <translation>Ezin izan da proba bidali.</translation>
+    </message>
+    <message>
+        <source>The test was sent to %list.</source>
+        <translation>Proba %list helbideetara bidali da.</translation>
+    </message>
+    <message>
+        <source>Test addresses</source>
+        <translation>Proba-helbideak</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers</source>
+        <translation>Bidali harpidedunei</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers ...</source>
+        <translation>Bidali harpidedunei ...</translation>
+    </message>
+    <message>
+        <source>Send now</source>
+        <translation>Bidali orain</translation>
+    </message>
+    <message>
+        <source>The edition is queued: the newsletter's cronjob sends it to the subscribers.</source>
+        <translation>Alea ilaran dago: buletinaren cronjob-ak harpidedunei bidaltzen die.</translation>
+    </message>
+    <message>
+        <source>Send "%name" to the %n subscribers of "%list" now? This cannot be taken back here.</source>
+        <translation>„%name“ bidali orain „%list“ zerrendako %n harpidedunei? Hemen ezin da desegin.</translation>
+    </message>
+    <message>
+        <source>Newsletter</source>
+        <translation>Buletina</translation>
+    </message>
+    <message>
+        <source>This edition is being sent.</source>
+        <translation>Ale hau bidaltzen ari da.</translation>
+    </message>
+    <message>
+        <source>This edition was sent and is in the archive.</source>
+        <translation>Ale hau bidali da eta artxiboan dago.</translation>
+    </message>
+    <message>
+        <source>This edition waits for its approval. It can be sent when it is approved.</source>
+        <translation>Ale hau onarpenaren zain dago. Onartzen denean bidal daiteke.</translation>
+    </message>
+    <message>
+        <source>This edition was rejected. Change it and ask for the approval again.</source>
+        <translation>Ale hau baztertu egin da. Aldatu eta eskatu berriro onarpena.</translation>
+    </message>
+    <message>
+        <source>The list needs an approval before an edition is sent. Ask for the approval in the administration.</source>
+        <translation>Zerrendak onarpena behar du ale bat bidali aurretik. Eskatu onarpena administrazioan.</translation>
+    </message>
+    <message>
+        <source>The list has no subscribers.</source>
+        <translation>Zerrendak ez du harpidedunik.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Sarrera-ontzia</translation>
     </message>

@@ -1044,6 +1044,214 @@
         <translation>படிவங்கள்</translation>
     </message>
     <message>
+        <source>There is no such newsletter list.</source>
+        <translation>அத்தகைய செய்திமடல் பட்டியல் இல்லை.</translation>
+    </message>
+    <message>
+        <source>The edition was made, but a workflow holds its publishing. Find it in the administration.</source>
+        <translation>பதிப்பு உருவாக்கப்பட்டது, ஆனால் ஒரு பணிப்பாய்வு அதன் வெளியீட்டை நிறுத்தி வைத்துள்ளது. அதை நிர்வாகத்தில் காணலாம்.</translation>
+    </message>
+    <message>
+        <source>The edition was made, but the page could not be taken into it.</source>
+        <translation>பதிப்பு உருவாக்கப்பட்டது, ஆனால் பக்கத்தை அதில் சேர்க்க முடியவில்லை.</translation>
+    </message>
+    <message>
+        <source>There is no such edition, or you may not read it.</source>
+        <translation>அத்தகைய பதிப்பு இல்லை, அல்லது அதைப் படிக்க உங்களுக்கு அனுமதி இல்லை.</translation>
+    </message>
+    <message>
+        <source>This edition has no newsletter data.</source>
+        <translation>இந்தப் பதிப்பில் செய்திமடல் தரவு இல்லை.</translation>
+    </message>
+    <message>
+        <source>Some of the addresses are not valid.</source>
+        <translation>சில முகவரிகள் செல்லாதவை.</translation>
+    </message>
+    <message>
+        <source>Give at least one address.</source>
+        <translation>குறைந்தது ஒரு முகவரியைக் கொடுங்கள்.</translation>
+    </message>
+    <message>
+        <source>Too many addresses at once.</source>
+        <translation>ஒரே நேரத்தில் அதிகமான முகவரிகள்.</translation>
+    </message>
+    <message>
+        <source>The edition was changed in the meantime. Look at it again before you send it.</source>
+        <translation>இதற்கிடையில் பதிப்பு மாற்றப்பட்டது. அனுப்பும் முன் அதை மீண்டும் பாருங்கள்.</translation>
+    </message>
+    <message>
+        <source>The send could not be made.</source>
+        <translation>அனுப்புதலைச் செய்ய முடியவில்லை.</translation>
+    </message>
+    <message>
+        <source>Sending to the subscribers needs "Verify it's you", which is switched off here. Send it in the administration.</source>
+        <translation>சந்தாதாரர்களுக்கு அனுப்ப "இது நீங்கள்தான் என உறுதிப்படுத்துங்கள்" தேவை, அது இங்கே அணைக்கப்பட்டுள்ளது. நிர்வாகத்தில் அனுப்புங்கள்.</translation>
+    </message>
+    <message>
+        <source>Please confirm it is you first.</source>
+        <translation>முதலில் இது நீங்கள்தான் என உறுதிப்படுத்துங்கள்.</translation>
+    </message>
+    <message>
+        <source>Editions with this page</source>
+        <translation>இந்தப் பக்கம் உள்ள பதிப்புகள்</translation>
+    </message>
+    <message>
+        <source>This page is in no edition yet.</source>
+        <translation>இந்தப் பக்கம் இன்னும் எந்தப் பதிப்பிலும் இல்லை.</translation>
+    </message>
+    <message>
+        <source>Being sent</source>
+        <translation>அனுப்பப்படுகிறது</translation>
+    </message>
+    <message>
+        <source>Sent, in the archive</source>
+        <translation>அனுப்பப்பட்டது, காப்பகத்தில்</translation>
+    </message>
+    <message>
+        <source>Stopped</source>
+        <translation>நிறுத்தப்பட்டது</translation>
+    </message>
+    <message>
+        <source>%n subscribers</source>
+        <translation>%n சந்தாதாரர்கள்</translation>
+    </message>
+    <message>
+        <source>Make an edition from this page</source>
+        <translation>இந்தப் பக்கத்திலிருந்து ஒரு பதிப்பை உருவாக்கு</translation>
+    </message>
+    <message>
+        <source>There is no newsletter list where you may make an edition.</source>
+        <translation>நீங்கள் பதிப்பை உருவாக்கக்கூடிய செய்திமடல் பட்டியல் எதுவும் இல்லை.</translation>
+    </message>
+    <message>
+        <source>Make the edition</source>
+        <translation>பதிப்பை உருவாக்கு</translation>
+    </message>
+    <message>
+        <source>Newsletter list</source>
+        <translation>செய்திமடல் பட்டியல்</translation>
+    </message>
+    <message>
+        <source>Introduction (optional)</source>
+        <translation>அறிமுகம் (விருப்பத்தேர்வு)</translation>
+    </message>
+    <message>
+        <source>This page becomes the edition's article: its title, its intro and a link to it.</source>
+        <translation>இந்தப் பக்கம் பதிப்பின் கட்டுரையாகும்: அதன் தலைப்பு, அதன் அறிமுகம் மற்றும் அதற்கான இணைப்பு.</translation>
+    </message>
+    <message>
+        <source>The edition was made, with this page as its article.</source>
+        <translation>இந்தப் பக்கத்தைக் கட்டுரையாகக் கொண்டு பதிப்பு உருவாக்கப்பட்டது.</translation>
+    </message>
+    <message>
+        <source>not asked for yet</source>
+        <translation>இன்னும் கோரப்படவில்லை</translation>
+    </message>
+    <message>
+        <source>waiting</source>
+        <translation>காத்திருக்கிறது</translation>
+    </message>
+    <message>
+        <source>approved</source>
+        <translation>ஒப்புதல் அளிக்கப்பட்டது</translation>
+    </message>
+    <message>
+        <source>rejected</source>
+        <translation>நிராகரிக்கப்பட்டது</translation>
+    </message>
+    <message>
+        <source>Approval: %state</source>
+        <translation>ஒப்புதல்: %state</translation>
+    </message>
+    <message>
+        <source>waiting for the cronjob</source>
+        <translation>cronjob-க்காகக் காத்திருக்கிறது</translation>
+    </message>
+    <message>
+        <source>queued</source>
+        <translation>வரிசையில்</translation>
+    </message>
+    <message>
+        <source>being sent</source>
+        <translation>அனுப்பப்படுகிறது</translation>
+    </message>
+    <message>
+        <source>sent</source>
+        <translation>அனுப்பப்பட்டது</translation>
+    </message>
+    <message>
+        <source>stopped</source>
+        <translation>நிறுத்தப்பட்டது</translation>
+    </message>
+    <message>
+        <source>Last send: %state, %time</source>
+        <translation>கடைசி அனுப்புதல்: %state, %time</translation>
+    </message>
+    <message>
+        <source>Send a test</source>
+        <translation>சோதனையை அனுப்பு</translation>
+    </message>
+    <message>
+        <source>The test could not be sent.</source>
+        <translation>சோதனையை அனுப்ப முடியவில்லை.</translation>
+    </message>
+    <message>
+        <source>The test was sent to %list.</source>
+        <translation>சோதனை %list-க்கு அனுப்பப்பட்டது.</translation>
+    </message>
+    <message>
+        <source>Test addresses</source>
+        <translation>சோதனை முகவரிகள்</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers</source>
+        <translation>சந்தாதாரர்களுக்கு அனுப்பு</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers ...</source>
+        <translation>சந்தாதாரர்களுக்கு அனுப்பு ...</translation>
+    </message>
+    <message>
+        <source>Send now</source>
+        <translation>இப்போது அனுப்பு</translation>
+    </message>
+    <message>
+        <source>The edition is queued: the newsletter's cronjob sends it to the subscribers.</source>
+        <translation>பதிப்பு வரிசையில் உள்ளது: செய்திமடலின் cronjob அதைச் சந்தாதாரர்களுக்கு அனுப்பும்.</translation>
+    </message>
+    <message>
+        <source>Send "%name" to the %n subscribers of "%list" now? This cannot be taken back here.</source>
+        <translation>"%name"-ஐ "%list"-இன் %n சந்தாதாரர்களுக்கு இப்போது அனுப்பவா? இதை இங்கே திரும்பப் பெற முடியாது.</translation>
+    </message>
+    <message>
+        <source>Newsletter</source>
+        <translation>செய்திமடல்</translation>
+    </message>
+    <message>
+        <source>This edition is being sent.</source>
+        <translation>இந்தப் பதிப்பு அனுப்பப்படுகிறது.</translation>
+    </message>
+    <message>
+        <source>This edition was sent and is in the archive.</source>
+        <translation>இந்தப் பதிப்பு அனுப்பப்பட்டு காப்பகத்தில் உள்ளது.</translation>
+    </message>
+    <message>
+        <source>This edition waits for its approval. It can be sent when it is approved.</source>
+        <translation>இந்தப் பதிப்பு அதன் ஒப்புதலுக்காகக் காத்திருக்கிறது. ஒப்புதல் கிடைத்ததும் அனுப்பலாம்.</translation>
+    </message>
+    <message>
+        <source>This edition was rejected. Change it and ask for the approval again.</source>
+        <translation>இந்தப் பதிப்பு நிராகரிக்கப்பட்டது. அதை மாற்றி மீண்டும் ஒப்புதல் கோருங்கள்.</translation>
+    </message>
+    <message>
+        <source>The list needs an approval before an edition is sent. Ask for the approval in the administration.</source>
+        <translation>ஒரு பதிப்பை அனுப்பும் முன் பட்டியலுக்கு ஒப்புதல் தேவை. நிர்வாகத்தில் ஒப்புதல் கோருங்கள்.</translation>
+    </message>
+    <message>
+        <source>The list has no subscribers.</source>
+        <translation>பட்டியலில் சந்தாதாரர்கள் இல்லை.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>உள்பெட்டி</translation>
     </message>

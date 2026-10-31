@@ -1044,6 +1044,214 @@
         <translation>Formos</translation>
     </message>
     <message>
+        <source>There is no such newsletter list.</source>
+        <translation>Tokio naujienlaiškio sąrašo nėra.</translation>
+    </message>
+    <message>
+        <source>The edition was made, but a workflow holds its publishing. Find it in the administration.</source>
+        <translation>Leidimas sukurtas, bet darbo eiga sulaiko jo skelbimą. Raskite jį administravime.</translation>
+    </message>
+    <message>
+        <source>The edition was made, but the page could not be taken into it.</source>
+        <translation>Leidimas sukurtas, bet puslapio nepavyko į jį įtraukti.</translation>
+    </message>
+    <message>
+        <source>There is no such edition, or you may not read it.</source>
+        <translation>Tokio leidimo nėra arba jums neleidžiama jo skaityti.</translation>
+    </message>
+    <message>
+        <source>This edition has no newsletter data.</source>
+        <translation>Šis leidimas neturi naujienlaiškio duomenų.</translation>
+    </message>
+    <message>
+        <source>Some of the addresses are not valid.</source>
+        <translation>Kai kurie adresai neteisingi.</translation>
+    </message>
+    <message>
+        <source>Give at least one address.</source>
+        <translation>Nurodykite bent vieną adresą.</translation>
+    </message>
+    <message>
+        <source>Too many addresses at once.</source>
+        <translation>Per daug adresų vienu metu.</translation>
+    </message>
+    <message>
+        <source>The edition was changed in the meantime. Look at it again before you send it.</source>
+        <translation>Leidimas per tą laiką pakeistas. Peržiūrėkite jį dar kartą prieš siųsdami.</translation>
+    </message>
+    <message>
+        <source>The send could not be made.</source>
+        <translation>Išsiųsti nepavyko.</translation>
+    </message>
+    <message>
+        <source>Sending to the subscribers needs "Verify it's you", which is switched off here. Send it in the administration.</source>
+        <translation>Siuntimui prenumeratoriams reikia „Patvirtinkite, kad tai jūs“, o tai čia išjungta. Siųskite jį administravime.</translation>
+    </message>
+    <message>
+        <source>Please confirm it is you first.</source>
+        <translation>Pirmiausia patvirtinkite, kad tai jūs.</translation>
+    </message>
+    <message>
+        <source>Editions with this page</source>
+        <translation>Leidimai su šiuo puslapiu</translation>
+    </message>
+    <message>
+        <source>This page is in no edition yet.</source>
+        <translation>Šio puslapio dar nėra jokiame leidime.</translation>
+    </message>
+    <message>
+        <source>Being sent</source>
+        <translation>Siunčiama</translation>
+    </message>
+    <message>
+        <source>Sent, in the archive</source>
+        <translation>Išsiųsta, archyve</translation>
+    </message>
+    <message>
+        <source>Stopped</source>
+        <translation>Sustabdyta</translation>
+    </message>
+    <message>
+        <source>%n subscribers</source>
+        <translation>Prenumeratorių: %n</translation>
+    </message>
+    <message>
+        <source>Make an edition from this page</source>
+        <translation>Sukurti leidimą iš šio puslapio</translation>
+    </message>
+    <message>
+        <source>There is no newsletter list where you may make an edition.</source>
+        <translation>Nėra naujienlaiškio sąrašo, kuriame galėtumėte kurti leidimą.</translation>
+    </message>
+    <message>
+        <source>Make the edition</source>
+        <translation>Sukurti leidimą</translation>
+    </message>
+    <message>
+        <source>Newsletter list</source>
+        <translation>Naujienlaiškio sąrašas</translation>
+    </message>
+    <message>
+        <source>Introduction (optional)</source>
+        <translation>Įžanga (neprivaloma)</translation>
+    </message>
+    <message>
+        <source>This page becomes the edition's article: its title, its intro and a link to it.</source>
+        <translation>Šis puslapis tampa leidimo straipsniu: jo pavadinimas, įžanga ir nuoroda į jį.</translation>
+    </message>
+    <message>
+        <source>The edition was made, with this page as its article.</source>
+        <translation>Leidimas sukurtas, šis puslapis – jo straipsnis.</translation>
+    </message>
+    <message>
+        <source>not asked for yet</source>
+        <translation>dar neprašyta</translation>
+    </message>
+    <message>
+        <source>waiting</source>
+        <translation>laukiama</translation>
+    </message>
+    <message>
+        <source>approved</source>
+        <translation>patvirtinta</translation>
+    </message>
+    <message>
+        <source>rejected</source>
+        <translation>atmesta</translation>
+    </message>
+    <message>
+        <source>Approval: %state</source>
+        <translation>Patvirtinimas: %state</translation>
+    </message>
+    <message>
+        <source>waiting for the cronjob</source>
+        <translation>laukiama cronjob</translation>
+    </message>
+    <message>
+        <source>queued</source>
+        <translation>eilėje</translation>
+    </message>
+    <message>
+        <source>being sent</source>
+        <translation>siunčiama</translation>
+    </message>
+    <message>
+        <source>sent</source>
+        <translation>išsiųsta</translation>
+    </message>
+    <message>
+        <source>stopped</source>
+        <translation>sustabdyta</translation>
+    </message>
+    <message>
+        <source>Last send: %state, %time</source>
+        <translation>Paskutinis siuntimas: %state, %time</translation>
+    </message>
+    <message>
+        <source>Send a test</source>
+        <translation>Siųsti bandomąjį</translation>
+    </message>
+    <message>
+        <source>The test could not be sent.</source>
+        <translation>Bandomojo nepavyko išsiųsti.</translation>
+    </message>
+    <message>
+        <source>The test was sent to %list.</source>
+        <translation>Bandomasis išsiųstas: %list.</translation>
+    </message>
+    <message>
+        <source>Test addresses</source>
+        <translation>Bandomieji adresai</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers</source>
+        <translation>Siųsti prenumeratoriams</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers ...</source>
+        <translation>Siųsti prenumeratoriams ...</translation>
+    </message>
+    <message>
+        <source>Send now</source>
+        <translation>Siųsti dabar</translation>
+    </message>
+    <message>
+        <source>The edition is queued: the newsletter's cronjob sends it to the subscribers.</source>
+        <translation>Leidimas eilėje: naujienlaiškio cronjob išsiųs jį prenumeratoriams.</translation>
+    </message>
+    <message>
+        <source>Send "%name" to the %n subscribers of "%list" now? This cannot be taken back here.</source>
+        <translation>Siųsti „%name“ %n sąrašo „%list“ prenumeratoriams dabar? Čia to atšaukti negalima.</translation>
+    </message>
+    <message>
+        <source>Newsletter</source>
+        <translation>Naujienlaiškis</translation>
+    </message>
+    <message>
+        <source>This edition is being sent.</source>
+        <translation>Šis leidimas siunčiamas.</translation>
+    </message>
+    <message>
+        <source>This edition was sent and is in the archive.</source>
+        <translation>Šis leidimas išsiųstas ir yra archyve.</translation>
+    </message>
+    <message>
+        <source>This edition waits for its approval. It can be sent when it is approved.</source>
+        <translation>Šis leidimas laukia patvirtinimo. Jį bus galima išsiųsti, kai jis bus patvirtintas.</translation>
+    </message>
+    <message>
+        <source>This edition was rejected. Change it and ask for the approval again.</source>
+        <translation>Šis leidimas atmestas. Pakeiskite jį ir vėl paprašykite patvirtinimo.</translation>
+    </message>
+    <message>
+        <source>The list needs an approval before an edition is sent. Ask for the approval in the administration.</source>
+        <translation>Prieš siunčiant leidimą sąrašui reikia patvirtinimo. Paprašykite patvirtinimo administravime.</translation>
+    </message>
+    <message>
+        <source>The list has no subscribers.</source>
+        <translation>Sąraše nėra prenumeratorių.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Gauta</translation>
     </message>

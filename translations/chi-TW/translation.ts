@@ -1044,6 +1044,214 @@
         <translation>表單</translation>
     </message>
     <message>
+        <source>There is no such newsletter list.</source>
+        <translation>沒有這個電子報清單。</translation>
+    </message>
+    <message>
+        <source>The edition was made, but a workflow holds its publishing. Find it in the administration.</source>
+        <translation>該期已建立，但工作流程暫停了它的發佈。請在管理後台中尋找。</translation>
+    </message>
+    <message>
+        <source>The edition was made, but the page could not be taken into it.</source>
+        <translation>該期已建立，但無法將此頁面加入其中。</translation>
+    </message>
+    <message>
+        <source>There is no such edition, or you may not read it.</source>
+        <translation>沒有這一期，或你無權閱讀。</translation>
+    </message>
+    <message>
+        <source>This edition has no newsletter data.</source>
+        <translation>該期沒有電子報資料。</translation>
+    </message>
+    <message>
+        <source>Some of the addresses are not valid.</source>
+        <translation>部分地址無效。</translation>
+    </message>
+    <message>
+        <source>Give at least one address.</source>
+        <translation>請至少填寫一個地址。</translation>
+    </message>
+    <message>
+        <source>Too many addresses at once.</source>
+        <translation>一次的地址太多。</translation>
+    </message>
+    <message>
+        <source>The edition was changed in the meantime. Look at it again before you send it.</source>
+        <translation>該期在此期間已被修改。寄送前請重新檢視。</translation>
+    </message>
+    <message>
+        <source>The send could not be made.</source>
+        <translation>無法寄送。</translation>
+    </message>
+    <message>
+        <source>Sending to the subscribers needs "Verify it's you", which is switched off here. Send it in the administration.</source>
+        <translation>寄送給訂閱者需要「驗證你的身分」，但此處已關閉此功能。請在管理後台中寄送。</translation>
+    </message>
+    <message>
+        <source>Please confirm it is you first.</source>
+        <translation>請先確認是你本人。</translation>
+    </message>
+    <message>
+        <source>Editions with this page</source>
+        <translation>包含此頁面的期數</translation>
+    </message>
+    <message>
+        <source>This page is in no edition yet.</source>
+        <translation>此頁面尚未收入任何一期。</translation>
+    </message>
+    <message>
+        <source>Being sent</source>
+        <translation>寄送中</translation>
+    </message>
+    <message>
+        <source>Sent, in the archive</source>
+        <translation>已寄送，已封存</translation>
+    </message>
+    <message>
+        <source>Stopped</source>
+        <translation>已停止</translation>
+    </message>
+    <message>
+        <source>%n subscribers</source>
+        <translation>%n 位訂閱者</translation>
+    </message>
+    <message>
+        <source>Make an edition from this page</source>
+        <translation>用此頁面製作一期</translation>
+    </message>
+    <message>
+        <source>There is no newsletter list where you may make an edition.</source>
+        <translation>沒有你可以製作新一期的電子報清單。</translation>
+    </message>
+    <message>
+        <source>Make the edition</source>
+        <translation>製作這一期</translation>
+    </message>
+    <message>
+        <source>Newsletter list</source>
+        <translation>電子報清單</translation>
+    </message>
+    <message>
+        <source>Introduction (optional)</source>
+        <translation>導言（選填）</translation>
+    </message>
+    <message>
+        <source>This page becomes the edition's article: its title, its intro and a link to it.</source>
+        <translation>此頁面將成為該期的文章：包括標題、導言和指向它的連結。</translation>
+    </message>
+    <message>
+        <source>The edition was made, with this page as its article.</source>
+        <translation>該期已建立，此頁面作為其文章。</translation>
+    </message>
+    <message>
+        <source>not asked for yet</source>
+        <translation>尚未申請</translation>
+    </message>
+    <message>
+        <source>waiting</source>
+        <translation>等待中</translation>
+    </message>
+    <message>
+        <source>approved</source>
+        <translation>已核准</translation>
+    </message>
+    <message>
+        <source>rejected</source>
+        <translation>已拒絕</translation>
+    </message>
+    <message>
+        <source>Approval: %state</source>
+        <translation>審核：%state</translation>
+    </message>
+    <message>
+        <source>waiting for the cronjob</source>
+        <translation>等待排程工作</translation>
+    </message>
+    <message>
+        <source>queued</source>
+        <translation>已排入佇列</translation>
+    </message>
+    <message>
+        <source>being sent</source>
+        <translation>寄送中</translation>
+    </message>
+    <message>
+        <source>sent</source>
+        <translation>已寄送</translation>
+    </message>
+    <message>
+        <source>stopped</source>
+        <translation>已停止</translation>
+    </message>
+    <message>
+        <source>Last send: %state, %time</source>
+        <translation>上次寄送：%state，%time</translation>
+    </message>
+    <message>
+        <source>Send a test</source>
+        <translation>寄送測試</translation>
+    </message>
+    <message>
+        <source>The test could not be sent.</source>
+        <translation>測試無法寄送。</translation>
+    </message>
+    <message>
+        <source>The test was sent to %list.</source>
+        <translation>測試已寄送到 %list。</translation>
+    </message>
+    <message>
+        <source>Test addresses</source>
+        <translation>測試地址</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers</source>
+        <translation>寄送給訂閱者</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers ...</source>
+        <translation>寄送給訂閱者 ...</translation>
+    </message>
+    <message>
+        <source>Send now</source>
+        <translation>立即寄送</translation>
+    </message>
+    <message>
+        <source>The edition is queued: the newsletter's cronjob sends it to the subscribers.</source>
+        <translation>該期已排入佇列：電子報的排程工作會將其寄送給訂閱者。</translation>
+    </message>
+    <message>
+        <source>Send "%name" to the %n subscribers of "%list" now? This cannot be taken back here.</source>
+        <translation>現在將「%name」寄送給「%list」的 %n 位訂閱者嗎？此操作在這裡無法撤回。</translation>
+    </message>
+    <message>
+        <source>Newsletter</source>
+        <translation>電子報</translation>
+    </message>
+    <message>
+        <source>This edition is being sent.</source>
+        <translation>該期正在寄送。</translation>
+    </message>
+    <message>
+        <source>This edition was sent and is in the archive.</source>
+        <translation>該期已寄送並已封存。</translation>
+    </message>
+    <message>
+        <source>This edition waits for its approval. It can be sent when it is approved.</source>
+        <translation>該期正在等待審核。核准後即可寄送。</translation>
+    </message>
+    <message>
+        <source>This edition was rejected. Change it and ask for the approval again.</source>
+        <translation>該期已被拒絕。請修改後重新申請審核。</translation>
+    </message>
+    <message>
+        <source>The list needs an approval before an edition is sent. Ask for the approval in the administration.</source>
+        <translation>寄送一期之前，此清單需要審核。請在管理後台中申請審核。</translation>
+    </message>
+    <message>
+        <source>The list has no subscribers.</source>
+        <translation>此清單沒有訂閱者。</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>收件匣</translation>
     </message>

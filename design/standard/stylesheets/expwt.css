@@ -902,3 +902,12 @@ button.wt-seo-item:hover { border-color: var(--a4-accent); }
 .wt-form-fields { display: grid; gap: var(--a4-space-1); margin: 0; }
 .wt-form-fields > dt { color: var(--a4-muted); font-size: var(--a4-text-s); font-weight: var(--a4-weight-medium); overflow-wrap: break-word; }
 .wt-form-fields > dd { margin: 0 0 var(--a4-space-1); white-space: pre-wrap; overflow-wrap: break-word; }
+
+/* the Newsletter panel (E3): each edition a card with its state, the test send and the real send behind a confirmation */
+.wt-nl { margin-block-end: var(--a4-space-3); padding: var(--a4-space-2); border: 1px solid var(--a4-line); border-radius: var(--a4-radius-s); background: var(--a4-card); min-inline-size: 0; overflow-wrap: break-word; }
+.wt-nl > p { margin-block: 0 var(--a4-space-1); }
+.wt-nl-name { margin-block: 0 var(--a4-space-1); overflow-wrap: break-word; }
+.wt-nl-test { margin-block-start: var(--a4-space-2); }
+.wt-nl-confirm { margin-block-start: var(--a4-space-2); padding: var(--a4-space-2); border: 1px solid var(--a4-bad-line); border-inline-start: 3px solid var(--a4-bad); border-radius: var(--a4-radius-s); background: var(--a4-card); }
+.wt-nl-confirm > p { margin-block: 0 var(--a4-space-2); }
+.wt-nl-confirm[hidden] { display: none; }

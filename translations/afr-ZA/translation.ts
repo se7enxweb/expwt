@@ -1044,6 +1044,214 @@
         <translation>Vorms</translation>
     </message>
     <message>
+        <source>There is no such newsletter list.</source>
+        <translation>Daar is geen sodanige nuusbrieflys nie.</translation>
+    </message>
+    <message>
+        <source>The edition was made, but a workflow holds its publishing. Find it in the administration.</source>
+        <translation>Die uitgawe is gemaak, maar 'n werkvloei hou die publikasie terug. Vind dit in die administrasie.</translation>
+    </message>
+    <message>
+        <source>The edition was made, but the page could not be taken into it.</source>
+        <translation>Die uitgawe is gemaak, maar die bladsy kon nie daarin opgeneem word nie.</translation>
+    </message>
+    <message>
+        <source>There is no such edition, or you may not read it.</source>
+        <translation>Daar is geen sodanige uitgawe nie, of u mag dit nie lees nie.</translation>
+    </message>
+    <message>
+        <source>This edition has no newsletter data.</source>
+        <translation>Hierdie uitgawe het geen nuusbriefdata nie.</translation>
+    </message>
+    <message>
+        <source>Some of the addresses are not valid.</source>
+        <translation>Sommige van die adresse is nie geldig nie.</translation>
+    </message>
+    <message>
+        <source>Give at least one address.</source>
+        <translation>Gee ten minste een adres.</translation>
+    </message>
+    <message>
+        <source>Too many addresses at once.</source>
+        <translation>Te veel adresse op een slag.</translation>
+    </message>
+    <message>
+        <source>The edition was changed in the meantime. Look at it again before you send it.</source>
+        <translation>Die uitgawe is intussen verander. Kyk weer daarna voordat u dit stuur.</translation>
+    </message>
+    <message>
+        <source>The send could not be made.</source>
+        <translation>Die versending kon nie gedoen word nie.</translation>
+    </message>
+    <message>
+        <source>Sending to the subscribers needs "Verify it's you", which is switched off here. Send it in the administration.</source>
+        <translation>Versending aan die intekenaars vereis "Bevestig dat dit u is", wat hier afgeskakel is. Stuur dit in die administrasie.</translation>
+    </message>
+    <message>
+        <source>Please confirm it is you first.</source>
+        <translation>Bevestig asseblief eers dat dit u is.</translation>
+    </message>
+    <message>
+        <source>Editions with this page</source>
+        <translation>Uitgawes met hierdie bladsy</translation>
+    </message>
+    <message>
+        <source>This page is in no edition yet.</source>
+        <translation>Hierdie bladsy is nog in geen uitgawe nie.</translation>
+    </message>
+    <message>
+        <source>Being sent</source>
+        <translation>Word gestuur</translation>
+    </message>
+    <message>
+        <source>Sent, in the archive</source>
+        <translation>Gestuur, in die argief</translation>
+    </message>
+    <message>
+        <source>Stopped</source>
+        <translation>Gestop</translation>
+    </message>
+    <message>
+        <source>%n subscribers</source>
+        <translation>%n intekenaars</translation>
+    </message>
+    <message>
+        <source>Make an edition from this page</source>
+        <translation>Maak 'n uitgawe van hierdie bladsy</translation>
+    </message>
+    <message>
+        <source>There is no newsletter list where you may make an edition.</source>
+        <translation>Daar is geen nuusbrieflys waar u 'n uitgawe mag maak nie.</translation>
+    </message>
+    <message>
+        <source>Make the edition</source>
+        <translation>Maak die uitgawe</translation>
+    </message>
+    <message>
+        <source>Newsletter list</source>
+        <translation>Nuusbrieflys</translation>
+    </message>
+    <message>
+        <source>Introduction (optional)</source>
+        <translation>Inleiding (opsioneel)</translation>
+    </message>
+    <message>
+        <source>This page becomes the edition's article: its title, its intro and a link to it.</source>
+        <translation>Hierdie bladsy word die uitgawe se artikel: sy titel, sy inleiding en 'n skakel daarna.</translation>
+    </message>
+    <message>
+        <source>The edition was made, with this page as its article.</source>
+        <translation>Die uitgawe is gemaak, met hierdie bladsy as sy artikel.</translation>
+    </message>
+    <message>
+        <source>not asked for yet</source>
+        <translation>nog nie aangevra nie</translation>
+    </message>
+    <message>
+        <source>waiting</source>
+        <translation>wag</translation>
+    </message>
+    <message>
+        <source>approved</source>
+        <translation>goedgekeur</translation>
+    </message>
+    <message>
+        <source>rejected</source>
+        <translation>afgekeur</translation>
+    </message>
+    <message>
+        <source>Approval: %state</source>
+        <translation>Goedkeuring: %state</translation>
+    </message>
+    <message>
+        <source>waiting for the cronjob</source>
+        <translation>wag vir die cronjob</translation>
+    </message>
+    <message>
+        <source>queued</source>
+        <translation>in die tou</translation>
+    </message>
+    <message>
+        <source>being sent</source>
+        <translation>word gestuur</translation>
+    </message>
+    <message>
+        <source>sent</source>
+        <translation>gestuur</translation>
+    </message>
+    <message>
+        <source>stopped</source>
+        <translation>gestop</translation>
+    </message>
+    <message>
+        <source>Last send: %state, %time</source>
+        <translation>Laaste versending: %state, %time</translation>
+    </message>
+    <message>
+        <source>Send a test</source>
+        <translation>Stuur 'n toets</translation>
+    </message>
+    <message>
+        <source>The test could not be sent.</source>
+        <translation>Die toets kon nie gestuur word nie.</translation>
+    </message>
+    <message>
+        <source>The test was sent to %list.</source>
+        <translation>Die toets is na %list gestuur.</translation>
+    </message>
+    <message>
+        <source>Test addresses</source>
+        <translation>Toetsadresse</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers</source>
+        <translation>Stuur aan die intekenaars</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers ...</source>
+        <translation>Stuur aan die intekenaars ...</translation>
+    </message>
+    <message>
+        <source>Send now</source>
+        <translation>Stuur nou</translation>
+    </message>
+    <message>
+        <source>The edition is queued: the newsletter's cronjob sends it to the subscribers.</source>
+        <translation>Die uitgawe is in die tou: die nuusbrief se cronjob stuur dit aan die intekenaars.</translation>
+    </message>
+    <message>
+        <source>Send "%name" to the %n subscribers of "%list" now? This cannot be taken back here.</source>
+        <translation>Stuur "%name" nou aan die %n intekenaars van "%list"? Dit kan nie hier teruggeneem word nie.</translation>
+    </message>
+    <message>
+        <source>Newsletter</source>
+        <translation>Nuusbrief</translation>
+    </message>
+    <message>
+        <source>This edition is being sent.</source>
+        <translation>Hierdie uitgawe word gestuur.</translation>
+    </message>
+    <message>
+        <source>This edition was sent and is in the archive.</source>
+        <translation>Hierdie uitgawe is gestuur en is in die argief.</translation>
+    </message>
+    <message>
+        <source>This edition waits for its approval. It can be sent when it is approved.</source>
+        <translation>Hierdie uitgawe wag vir goedkeuring. Dit kan gestuur word wanneer dit goedgekeur is.</translation>
+    </message>
+    <message>
+        <source>This edition was rejected. Change it and ask for the approval again.</source>
+        <translation>Hierdie uitgawe is afgekeur. Verander dit en vra weer vir goedkeuring.</translation>
+    </message>
+    <message>
+        <source>The list needs an approval before an edition is sent. Ask for the approval in the administration.</source>
+        <translation>Die lys benodig goedkeuring voordat 'n uitgawe gestuur word. Vra die goedkeuring in die administrasie aan.</translation>
+    </message>
+    <message>
+        <source>The list has no subscribers.</source>
+        <translation>Die lys het geen intekenaars nie.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Inkassie</translation>
     </message>

@@ -1044,6 +1044,214 @@
         <translation>ফৰ্মসমূহ</translation>
     </message>
     <message>
+        <source>There is no such newsletter list.</source>
+        <translation>এনে কোনো নিউজলেটাৰ তালিকা নাই।</translation>
+    </message>
+    <message>
+        <source>The edition was made, but a workflow holds its publishing. Find it in the administration.</source>
+        <translation>সংস্কৰণটো তৈয়াৰ হ'ল, কিন্তু এটা ৱৰ্কফ্ল'ই ইয়াৰ প্ৰকাশ ৰখি ৰাখিছে। প্ৰশাসনত বিচাৰক।</translation>
+    </message>
+    <message>
+        <source>The edition was made, but the page could not be taken into it.</source>
+        <translation>সংস্কৰণটো তৈয়াৰ হ'ল, কিন্তু পৃষ্ঠাটো ইয়াত সুমুৱাব পৰা নগ'ল।</translation>
+    </message>
+    <message>
+        <source>There is no such edition, or you may not read it.</source>
+        <translation>এনে কোনো সংস্কৰণ নাই, বা আপুনি ইয়াক পঢ়িব নোৱাৰে।</translation>
+    </message>
+    <message>
+        <source>This edition has no newsletter data.</source>
+        <translation>এই সংস্কৰণত কোনো নিউজলেটাৰ তথ্য নাই।</translation>
+    </message>
+    <message>
+        <source>Some of the addresses are not valid.</source>
+        <translation>কিছুমান ঠিকনা বৈধ নহয়।</translation>
+    </message>
+    <message>
+        <source>Give at least one address.</source>
+        <translation>অন্ততঃ এটা ঠিকনা দিয়ক।</translation>
+    </message>
+    <message>
+        <source>Too many addresses at once.</source>
+        <translation>একেলগে বহুত বেছি ঠিকনা।</translation>
+    </message>
+    <message>
+        <source>The edition was changed in the meantime. Look at it again before you send it.</source>
+        <translation>ইতিমধ্যে সংস্কৰণটো সলনি হৈছে। পঠোৱাৰ আগতে ইয়াক আকৌ চাওক।</translation>
+    </message>
+    <message>
+        <source>The send could not be made.</source>
+        <translation>পঠিয়াব পৰা নগ'ল।</translation>
+    </message>
+    <message>
+        <source>Sending to the subscribers needs "Verify it's you", which is switched off here. Send it in the administration.</source>
+        <translation>গ্ৰাহকসকললৈ পঠাবলৈ "আপুনিয়েই বুলি নিশ্চিত কৰক" লাগে, যিটো ইয়াত বন্ধ আছে। প্ৰশাসনত পঠিয়াওক।</translation>
+    </message>
+    <message>
+        <source>Please confirm it is you first.</source>
+        <translation>অনুগ্ৰহ কৰি প্ৰথমে আপুনিয়েই বুলি নিশ্চিত কৰক।</translation>
+    </message>
+    <message>
+        <source>Editions with this page</source>
+        <translation>এই পৃষ্ঠা থকা সংস্কৰণসমূহ</translation>
+    </message>
+    <message>
+        <source>This page is in no edition yet.</source>
+        <translation>এই পৃষ্ঠাটো এতিয়ালৈকে কোনো সংস্কৰণত নাই।</translation>
+    </message>
+    <message>
+        <source>Being sent</source>
+        <translation>পঠিওৱা হৈ আছে</translation>
+    </message>
+    <message>
+        <source>Sent, in the archive</source>
+        <translation>পঠিওৱা হ'ল, আৰ্কাইভত</translation>
+    </message>
+    <message>
+        <source>Stopped</source>
+        <translation>বন্ধ</translation>
+    </message>
+    <message>
+        <source>%n subscribers</source>
+        <translation>%n জন গ্ৰাহক</translation>
+    </message>
+    <message>
+        <source>Make an edition from this page</source>
+        <translation>এই পৃষ্ঠাৰ পৰা এটা সংস্কৰণ তৈয়াৰ কৰক</translation>
+    </message>
+    <message>
+        <source>There is no newsletter list where you may make an edition.</source>
+        <translation>আপুনি সংস্কৰণ তৈয়াৰ কৰিব পৰা কোনো নিউজলেটাৰ তালিকা নাই।</translation>
+    </message>
+    <message>
+        <source>Make the edition</source>
+        <translation>সংস্কৰণটো তৈয়াৰ কৰক</translation>
+    </message>
+    <message>
+        <source>Newsletter list</source>
+        <translation>নিউজলেটাৰ তালিকা</translation>
+    </message>
+    <message>
+        <source>Introduction (optional)</source>
+        <translation>পৰিচয় (ঐচ্ছিক)</translation>
+    </message>
+    <message>
+        <source>This page becomes the edition's article: its title, its intro and a link to it.</source>
+        <translation>এই পৃষ্ঠাটো সংস্কৰণৰ প্ৰবন্ধ হ'ব: ইয়াৰ শিৰোনাম, পৰিচয় আৰু ইয়ালৈ এটা লিংক।</translation>
+    </message>
+    <message>
+        <source>The edition was made, with this page as its article.</source>
+        <translation>সংস্কৰণটো তৈয়াৰ হ'ল, এই পৃষ্ঠাটো ইয়াৰ প্ৰবন্ধ হিচাপে।</translation>
+    </message>
+    <message>
+        <source>not asked for yet</source>
+        <translation>এতিয়াও বিচৰা হোৱা নাই</translation>
+    </message>
+    <message>
+        <source>waiting</source>
+        <translation>অপেক্ষাৰত</translation>
+    </message>
+    <message>
+        <source>approved</source>
+        <translation>অনুমোদিত</translation>
+    </message>
+    <message>
+        <source>rejected</source>
+        <translation>নাকচ</translation>
+    </message>
+    <message>
+        <source>Approval: %state</source>
+        <translation>অনুমোদন: %state</translation>
+    </message>
+    <message>
+        <source>waiting for the cronjob</source>
+        <translation>ক্ৰনজবলৈ অপেক্ষাৰত</translation>
+    </message>
+    <message>
+        <source>queued</source>
+        <translation>শাৰীত</translation>
+    </message>
+    <message>
+        <source>being sent</source>
+        <translation>পঠিওৱা হৈ আছে</translation>
+    </message>
+    <message>
+        <source>sent</source>
+        <translation>পঠিওৱা হ'ল</translation>
+    </message>
+    <message>
+        <source>stopped</source>
+        <translation>বন্ধ</translation>
+    </message>
+    <message>
+        <source>Last send: %state, %time</source>
+        <translation>শেষ প্ৰেৰণ: %state, %time</translation>
+    </message>
+    <message>
+        <source>Send a test</source>
+        <translation>এটা পৰীক্ষা পঠিয়াওক</translation>
+    </message>
+    <message>
+        <source>The test could not be sent.</source>
+        <translation>পৰীক্ষাটো পঠাব পৰা নগ'ল।</translation>
+    </message>
+    <message>
+        <source>The test was sent to %list.</source>
+        <translation>পৰীক্ষাটো %list লৈ পঠিওৱা হ'ল।</translation>
+    </message>
+    <message>
+        <source>Test addresses</source>
+        <translation>পৰীক্ষাৰ ঠিকনা</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers</source>
+        <translation>গ্ৰাহকসকললৈ পঠিয়াওক</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers ...</source>
+        <translation>গ্ৰাহকসকললৈ পঠিয়াওক ...</translation>
+    </message>
+    <message>
+        <source>Send now</source>
+        <translation>এতিয়া পঠিয়াওক</translation>
+    </message>
+    <message>
+        <source>The edition is queued: the newsletter's cronjob sends it to the subscribers.</source>
+        <translation>সংস্কৰণটো শাৰীত আছে: নিউজলেটাৰৰ ক্ৰনজবে ইয়াক গ্ৰাহকসকললৈ পঠিয়াব।</translation>
+    </message>
+    <message>
+        <source>Send "%name" to the %n subscribers of "%list" now? This cannot be taken back here.</source>
+        <translation>"%name" এতিয়া "%list"ৰ %n জন গ্ৰাহকলৈ পঠিয়াবনে? ইয়াত এইটো ঘূৰাই ল'ব নোৱাৰি।</translation>
+    </message>
+    <message>
+        <source>Newsletter</source>
+        <translation>নিউজলেটাৰ</translation>
+    </message>
+    <message>
+        <source>This edition is being sent.</source>
+        <translation>এই সংস্কৰণটো পঠিওৱা হৈ আছে।</translation>
+    </message>
+    <message>
+        <source>This edition was sent and is in the archive.</source>
+        <translation>এই সংস্কৰণটো পঠিওৱা হৈছে আৰু আৰ্কাইভত আছে।</translation>
+    </message>
+    <message>
+        <source>This edition waits for its approval. It can be sent when it is approved.</source>
+        <translation>এই সংস্কৰণটোৱে অনুমোদনৰ অপেক্ষা কৰিছে। অনুমোদিত হ'লে পঠাব পৰা যাব।</translation>
+    </message>
+    <message>
+        <source>This edition was rejected. Change it and ask for the approval again.</source>
+        <translation>এই সংস্কৰণটো নাকচ কৰা হ'ল। সলনি কৰি আকৌ অনুমোদন বিচাৰক।</translation>
+    </message>
+    <message>
+        <source>The list needs an approval before an edition is sent. Ask for the approval in the administration.</source>
+        <translation>সংস্কৰণ পঠোৱাৰ আগতে তালিকাখনৰ অনুমোদন লাগে। প্ৰশাসনত অনুমোদন বিচাৰক।</translation>
+    </message>
+    <message>
+        <source>The list has no subscribers.</source>
+        <translation>তালিকাখনত কোনো গ্ৰাহক নাই।</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>ইনবক্স</translation>
     </message>

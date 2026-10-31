@@ -1044,6 +1044,214 @@
         <translation>ಫಾರ್ಮ್‌ಗಳು</translation>
     </message>
     <message>
+        <source>There is no such newsletter list.</source>
+        <translation>ಅಂತಹ ಸುದ್ದಿಪತ್ರ ಪಟ್ಟಿ ಇಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>The edition was made, but a workflow holds its publishing. Find it in the administration.</source>
+        <translation>ಆವೃತ್ತಿ ರಚಿಸಲಾಗಿದೆ, ಆದರೆ ಒಂದು ವರ್ಕ್‌ಫ್ಲೋ ಅದರ ಪ್ರಕಟಣೆಯನ್ನು ತಡೆಹಿಡಿದಿದೆ. ಅದನ್ನು ಆಡಳಿತದಲ್ಲಿ ಹುಡುಕಿ.</translation>
+    </message>
+    <message>
+        <source>The edition was made, but the page could not be taken into it.</source>
+        <translation>ಆವೃತ್ತಿ ರಚಿಸಲಾಗಿದೆ, ಆದರೆ ಪುಟವನ್ನು ಅದರಲ್ಲಿ ಸೇರಿಸಲಾಗಲಿಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>There is no such edition, or you may not read it.</source>
+        <translation>ಅಂತಹ ಆವೃತ್ತಿ ಇಲ್ಲ, ಅಥವಾ ನೀವು ಅದನ್ನು ಓದುವಂತಿಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>This edition has no newsletter data.</source>
+        <translation>ಈ ಆವೃತ್ತಿಯಲ್ಲಿ ಸುದ್ದಿಪತ್ರದ ಡೇಟಾ ಇಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>Some of the addresses are not valid.</source>
+        <translation>ಕೆಲವು ವಿಳಾಸಗಳು ಮಾನ್ಯವಾಗಿಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>Give at least one address.</source>
+        <translation>ಕನಿಷ್ಠ ಒಂದು ವಿಳಾಸ ನೀಡಿ.</translation>
+    </message>
+    <message>
+        <source>Too many addresses at once.</source>
+        <translation>ಒಮ್ಮೆಗೆ ಅತಿ ಹೆಚ್ಚು ವಿಳಾಸಗಳು.</translation>
+    </message>
+    <message>
+        <source>The edition was changed in the meantime. Look at it again before you send it.</source>
+        <translation>ಈ ನಡುವೆ ಆವೃತ್ತಿ ಬದಲಾಗಿದೆ. ಕಳುಹಿಸುವ ಮೊದಲು ಅದನ್ನು ಮತ್ತೊಮ್ಮೆ ನೋಡಿ.</translation>
+    </message>
+    <message>
+        <source>The send could not be made.</source>
+        <translation>ಕಳುಹಿಸಲು ಆಗಲಿಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>Sending to the subscribers needs "Verify it's you", which is switched off here. Send it in the administration.</source>
+        <translation>ಚಂದಾದಾರರಿಗೆ ಕಳುಹಿಸಲು "ಇದು ನೀವೇ ಎಂದು ಖಚಿತಪಡಿಸಿ" ಅಗತ್ಯ, ಅದು ಇಲ್ಲಿ ಆಫ್ ಆಗಿದೆ. ಅದನ್ನು ಆಡಳಿತದಲ್ಲಿ ಕಳುಹಿಸಿ.</translation>
+    </message>
+    <message>
+        <source>Please confirm it is you first.</source>
+        <translation>ದಯವಿಟ್ಟು ಮೊದಲು ಇದು ನೀವೇ ಎಂದು ಖಚಿತಪಡಿಸಿ.</translation>
+    </message>
+    <message>
+        <source>Editions with this page</source>
+        <translation>ಈ ಪುಟವಿರುವ ಆವೃತ್ತಿಗಳು</translation>
+    </message>
+    <message>
+        <source>This page is in no edition yet.</source>
+        <translation>ಈ ಪುಟ ಇನ್ನೂ ಯಾವುದೇ ಆವೃತ್ತಿಯಲ್ಲಿ ಇಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>Being sent</source>
+        <translation>ಕಳುಹಿಸಲಾಗುತ್ತಿದೆ</translation>
+    </message>
+    <message>
+        <source>Sent, in the archive</source>
+        <translation>ಕಳುಹಿಸಲಾಗಿದೆ, ಆರ್ಕೈವ್‌ನಲ್ಲಿ</translation>
+    </message>
+    <message>
+        <source>Stopped</source>
+        <translation>ನಿಲ್ಲಿಸಲಾಗಿದೆ</translation>
+    </message>
+    <message>
+        <source>%n subscribers</source>
+        <translation>%n ಚಂದಾದಾರರು</translation>
+    </message>
+    <message>
+        <source>Make an edition from this page</source>
+        <translation>ಈ ಪುಟದಿಂದ ಆವೃತ್ತಿ ರಚಿಸಿ</translation>
+    </message>
+    <message>
+        <source>There is no newsletter list where you may make an edition.</source>
+        <translation>ನೀವು ಆವೃತ್ತಿ ರಚಿಸಬಹುದಾದ ಯಾವುದೇ ಸುದ್ದಿಪತ್ರ ಪಟ್ಟಿ ಇಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>Make the edition</source>
+        <translation>ಆವೃತ್ತಿ ರಚಿಸಿ</translation>
+    </message>
+    <message>
+        <source>Newsletter list</source>
+        <translation>ಸುದ್ದಿಪತ್ರ ಪಟ್ಟಿ</translation>
+    </message>
+    <message>
+        <source>Introduction (optional)</source>
+        <translation>ಪರಿಚಯ (ಐಚ್ಛಿಕ)</translation>
+    </message>
+    <message>
+        <source>This page becomes the edition's article: its title, its intro and a link to it.</source>
+        <translation>ಈ ಪುಟ ಆವೃತ್ತಿಯ ಲೇಖನವಾಗುತ್ತದೆ: ಅದರ ಶೀರ್ಷಿಕೆ, ಪರಿಚಯ ಮತ್ತು ಅದಕ್ಕೆ ಒಂದು ಲಿಂಕ್.</translation>
+    </message>
+    <message>
+        <source>The edition was made, with this page as its article.</source>
+        <translation>ಆವೃತ್ತಿ ರಚಿಸಲಾಗಿದೆ, ಈ ಪುಟವೇ ಅದರ ಲೇಖನ.</translation>
+    </message>
+    <message>
+        <source>not asked for yet</source>
+        <translation>ಇನ್ನೂ ಕೇಳಿಲ್ಲ</translation>
+    </message>
+    <message>
+        <source>waiting</source>
+        <translation>ಕಾಯುತ್ತಿದೆ</translation>
+    </message>
+    <message>
+        <source>approved</source>
+        <translation>ಅನುಮೋದಿತ</translation>
+    </message>
+    <message>
+        <source>rejected</source>
+        <translation>ತಿರಸ್ಕೃತ</translation>
+    </message>
+    <message>
+        <source>Approval: %state</source>
+        <translation>ಅನುಮೋದನೆ: %state</translation>
+    </message>
+    <message>
+        <source>waiting for the cronjob</source>
+        <translation>ಕ್ರಾನ್‌ಜಾಬ್‌ಗಾಗಿ ಕಾಯುತ್ತಿದೆ</translation>
+    </message>
+    <message>
+        <source>queued</source>
+        <translation>ಸರದಿಯಲ್ಲಿ</translation>
+    </message>
+    <message>
+        <source>being sent</source>
+        <translation>ಕಳುಹಿಸಲಾಗುತ್ತಿದೆ</translation>
+    </message>
+    <message>
+        <source>sent</source>
+        <translation>ಕಳುಹಿಸಲಾಗಿದೆ</translation>
+    </message>
+    <message>
+        <source>stopped</source>
+        <translation>ನಿಲ್ಲಿಸಲಾಗಿದೆ</translation>
+    </message>
+    <message>
+        <source>Last send: %state, %time</source>
+        <translation>ಕೊನೆಯ ಕಳುಹಿಸುವಿಕೆ: %state, %time</translation>
+    </message>
+    <message>
+        <source>Send a test</source>
+        <translation>ಪರೀಕ್ಷೆ ಕಳುಹಿಸಿ</translation>
+    </message>
+    <message>
+        <source>The test could not be sent.</source>
+        <translation>ಪರೀಕ್ಷೆ ಕಳುಹಿಸಲಾಗಲಿಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>The test was sent to %list.</source>
+        <translation>ಪರೀಕ್ಷೆಯನ್ನು %list ಗೆ ಕಳುಹಿಸಲಾಗಿದೆ.</translation>
+    </message>
+    <message>
+        <source>Test addresses</source>
+        <translation>ಪರೀಕ್ಷಾ ವಿಳಾಸಗಳು</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers</source>
+        <translation>ಚಂದಾದಾರರಿಗೆ ಕಳುಹಿಸಿ</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers ...</source>
+        <translation>ಚಂದಾದಾರರಿಗೆ ಕಳುಹಿಸಿ ...</translation>
+    </message>
+    <message>
+        <source>Send now</source>
+        <translation>ಈಗ ಕಳುಹಿಸಿ</translation>
+    </message>
+    <message>
+        <source>The edition is queued: the newsletter's cronjob sends it to the subscribers.</source>
+        <translation>ಆವೃತ್ತಿ ಸರದಿಯಲ್ಲಿದೆ: ಸುದ್ದಿಪತ್ರದ ಕ್ರಾನ್‌ಜಾಬ್ ಅದನ್ನು ಚಂದಾದಾರರಿಗೆ ಕಳುಹಿಸುತ್ತದೆ.</translation>
+    </message>
+    <message>
+        <source>Send "%name" to the %n subscribers of "%list" now? This cannot be taken back here.</source>
+        <translation>"%name" ಅನ್ನು "%list" ನ %n ಚಂದಾದಾರರಿಗೆ ಈಗ ಕಳುಹಿಸಬೇಕೇ? ಇದನ್ನು ಇಲ್ಲಿ ಹಿಂಪಡೆಯಲಾಗುವುದಿಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>Newsletter</source>
+        <translation>ಸುದ್ದಿಪತ್ರ</translation>
+    </message>
+    <message>
+        <source>This edition is being sent.</source>
+        <translation>ಈ ಆವೃತ್ತಿಯನ್ನು ಕಳುಹಿಸಲಾಗುತ್ತಿದೆ.</translation>
+    </message>
+    <message>
+        <source>This edition was sent and is in the archive.</source>
+        <translation>ಈ ಆವೃತ್ತಿಯನ್ನು ಕಳುಹಿಸಲಾಗಿದೆ ಮತ್ತು ಅದು ಆರ್ಕೈವ್‌ನಲ್ಲಿದೆ.</translation>
+    </message>
+    <message>
+        <source>This edition waits for its approval. It can be sent when it is approved.</source>
+        <translation>ಈ ಆವೃತ್ತಿ ಅನುಮೋದನೆಗಾಗಿ ಕಾಯುತ್ತಿದೆ. ಅನುಮೋದನೆಯಾದಾಗ ಅದನ್ನು ಕಳುಹಿಸಬಹುದು.</translation>
+    </message>
+    <message>
+        <source>This edition was rejected. Change it and ask for the approval again.</source>
+        <translation>ಈ ಆವೃತ್ತಿಯನ್ನು ತಿರಸ್ಕರಿಸಲಾಗಿದೆ. ಅದನ್ನು ಬದಲಿಸಿ ಮತ್ತೆ ಅನುಮೋದನೆ ಕೇಳಿ.</translation>
+    </message>
+    <message>
+        <source>The list needs an approval before an edition is sent. Ask for the approval in the administration.</source>
+        <translation>ಆವೃತ್ತಿ ಕಳುಹಿಸುವ ಮೊದಲು ಪಟ್ಟಿಗೆ ಅನುಮೋದನೆ ಬೇಕು. ಆಡಳಿತದಲ್ಲಿ ಅನುಮೋದನೆ ಕೇಳಿ.</translation>
+    </message>
+    <message>
+        <source>The list has no subscribers.</source>
+        <translation>ಪಟ್ಟಿಯಲ್ಲಿ ಚಂದಾದಾರರಿಲ್ಲ.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>ಇನ್‌ಬಾಕ್ಸ್</translation>
     </message>

@@ -1044,6 +1044,214 @@
         <translation>Amafomu</translation>
     </message>
     <message>
+        <source>There is no such newsletter list.</source>
+        <translation>Alukho uhlu lwencwadi yezindaba olunjalo.</translation>
+    </message>
+    <message>
+        <source>The edition was made, but a workflow holds its publishing. Find it in the administration.</source>
+        <translation>Uhlelo lwenziwe, kodwa ukuhamba komsebenzi kubambe ukushicilelwa kwalo. Luthole kwezokuphatha.</translation>
+    </message>
+    <message>
+        <source>The edition was made, but the page could not be taken into it.</source>
+        <translation>Uhlelo lwenziwe, kodwa ikhasi alikwazanga ukufakwa kulo.</translation>
+    </message>
+    <message>
+        <source>There is no such edition, or you may not read it.</source>
+        <translation>Alukho uhlelo olunjalo, noma awuvunyelwe ukulufunda.</translation>
+    </message>
+    <message>
+        <source>This edition has no newsletter data.</source>
+        <translation>Lolu hlelo alunayo idatha yencwadi yezindaba.</translation>
+    </message>
+    <message>
+        <source>Some of the addresses are not valid.</source>
+        <translation>Amanye amakheli awavumelekile.</translation>
+    </message>
+    <message>
+        <source>Give at least one address.</source>
+        <translation>Faka okungenani ikheli elilodwa.</translation>
+    </message>
+    <message>
+        <source>Too many addresses at once.</source>
+        <translation>Amakheli amaningi kakhulu ngesikhathi esisodwa.</translation>
+    </message>
+    <message>
+        <source>The edition was changed in the meantime. Look at it again before you send it.</source>
+        <translation>Uhlelo lushintshiwe phakathi naleso sikhathi. Lubheke futhi ngaphambi kokuluthumela.</translation>
+    </message>
+    <message>
+        <source>The send could not be made.</source>
+        <translation>Ukuthumela akwenzekanga.</translation>
+    </message>
+    <message>
+        <source>Sending to the subscribers needs "Verify it's you", which is switched off here. Send it in the administration.</source>
+        <translation>Ukuthumela kwababhalisile kudinga "Qinisekisa ukuthi nguwe", okuvaliwe lapha. Luthumele kwezokuphatha.</translation>
+    </message>
+    <message>
+        <source>Please confirm it is you first.</source>
+        <translation>Sicela uqale uqinisekise ukuthi nguwe.</translation>
+    </message>
+    <message>
+        <source>Editions with this page</source>
+        <translation>Izinhlelo ezinaleli khasi</translation>
+    </message>
+    <message>
+        <source>This page is in no edition yet.</source>
+        <translation>Leli khasi alikabi kunoma yiluphi uhlelo.</translation>
+    </message>
+    <message>
+        <source>Being sent</source>
+        <translation>Luyathunyelwa</translation>
+    </message>
+    <message>
+        <source>Sent, in the archive</source>
+        <translation>Luthunyelwe, lusengobweni yomlando</translation>
+    </message>
+    <message>
+        <source>Stopped</source>
+        <translation>Lumisiwe</translation>
+    </message>
+    <message>
+        <source>%n subscribers</source>
+        <translation>Ababhalisile abangu-%n</translation>
+    </message>
+    <message>
+        <source>Make an edition from this page</source>
+        <translation>Yenza uhlelo kusuka kuleli khasi</translation>
+    </message>
+    <message>
+        <source>There is no newsletter list where you may make an edition.</source>
+        <translation>Alukho uhlu lwencwadi yezindaba ongenza kulo uhlelo.</translation>
+    </message>
+    <message>
+        <source>Make the edition</source>
+        <translation>Yenza uhlelo</translation>
+    </message>
+    <message>
+        <source>Newsletter list</source>
+        <translation>Uhlu lwencwadi yezindaba</translation>
+    </message>
+    <message>
+        <source>Introduction (optional)</source>
+        <translation>Isingeniso (ongakukhetha)</translation>
+    </message>
+    <message>
+        <source>This page becomes the edition's article: its title, its intro and a link to it.</source>
+        <translation>Leli khasi liba yindatshana yohlelo: isihloko salo, isingeniso salo nesixhumanisi esiya kulo.</translation>
+    </message>
+    <message>
+        <source>The edition was made, with this page as its article.</source>
+        <translation>Uhlelo lwenziwe, leli khasi liyindatshana yalo.</translation>
+    </message>
+    <message>
+        <source>not asked for yet</source>
+        <translation>akukacelwa</translation>
+    </message>
+    <message>
+        <source>waiting</source>
+        <translation>kulindiwe</translation>
+    </message>
+    <message>
+        <source>approved</source>
+        <translation>kugunyaziwe</translation>
+    </message>
+    <message>
+        <source>rejected</source>
+        <translation>kwenqatshiwe</translation>
+    </message>
+    <message>
+        <source>Approval: %state</source>
+        <translation>Ukugunyazwa: %state</translation>
+    </message>
+    <message>
+        <source>waiting for the cronjob</source>
+        <translation>kulindwe i-cronjob</translation>
+    </message>
+    <message>
+        <source>queued</source>
+        <translation>kulayini</translation>
+    </message>
+    <message>
+        <source>being sent</source>
+        <translation>kuyathunyelwa</translation>
+    </message>
+    <message>
+        <source>sent</source>
+        <translation>kuthunyelwe</translation>
+    </message>
+    <message>
+        <source>stopped</source>
+        <translation>kumisiwe</translation>
+    </message>
+    <message>
+        <source>Last send: %state, %time</source>
+        <translation>Ukuthumela kokugcina: %state, %time</translation>
+    </message>
+    <message>
+        <source>Send a test</source>
+        <translation>Thumela isivivinyo</translation>
+    </message>
+    <message>
+        <source>The test could not be sent.</source>
+        <translation>Isivivinyo asikwazanga ukuthunyelwa.</translation>
+    </message>
+    <message>
+        <source>The test was sent to %list.</source>
+        <translation>Isivivinyo sithunyelwe ku-%list.</translation>
+    </message>
+    <message>
+        <source>Test addresses</source>
+        <translation>Amakheli esivivinyo</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers</source>
+        <translation>Thumela kwababhalisile</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers ...</source>
+        <translation>Thumela kwababhalisile ...</translation>
+    </message>
+    <message>
+        <source>Send now</source>
+        <translation>Thumela manje</translation>
+    </message>
+    <message>
+        <source>The edition is queued: the newsletter's cronjob sends it to the subscribers.</source>
+        <translation>Uhlelo lusemgqeni: i-cronjob yencwadi yezindaba iluthumela kwababhalisile.</translation>
+    </message>
+    <message>
+        <source>Send "%name" to the %n subscribers of "%list" now? This cannot be taken back here.</source>
+        <translation>Thumela "%name" kwababhalisile abangu-%n be-"%list" manje? Lokhu akunakuhlehliswa lapha.</translation>
+    </message>
+    <message>
+        <source>Newsletter</source>
+        <translation>Incwadi yezindaba</translation>
+    </message>
+    <message>
+        <source>This edition is being sent.</source>
+        <translation>Lolu hlelo luyathunyelwa.</translation>
+    </message>
+    <message>
+        <source>This edition was sent and is in the archive.</source>
+        <translation>Lolu hlelo luthunyelwe futhi lusengobweni yomlando.</translation>
+    </message>
+    <message>
+        <source>This edition waits for its approval. It can be sent when it is approved.</source>
+        <translation>Lolu hlelo lulinde ukugunyazwa kwalo. Lungathunyelwa uma selugunyaziwe.</translation>
+    </message>
+    <message>
+        <source>This edition was rejected. Change it and ask for the approval again.</source>
+        <translation>Lolu hlelo lwenqatshiwe. Lushintshe bese ucela ukugunyazwa futhi.</translation>
+    </message>
+    <message>
+        <source>The list needs an approval before an edition is sent. Ask for the approval in the administration.</source>
+        <translation>Uhlu ludinga ukugunyazwa ngaphambi kokuthi uhlelo luthunyelwe. Cela ukugunyazwa kwezokuphatha.</translation>
+    </message>
+    <message>
+        <source>The list has no subscribers.</source>
+        <translation>Uhlu alunababhalisile.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Ibhokisi lokungenayo</translation>
     </message>

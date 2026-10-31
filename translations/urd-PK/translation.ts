@@ -1044,6 +1044,214 @@
         <translation>فارم</translation>
     </message>
     <message>
+        <source>There is no such newsletter list.</source>
+        <translation>ایسی کوئی نیوز لیٹر فہرست نہیں ہے۔</translation>
+    </message>
+    <message>
+        <source>The edition was made, but a workflow holds its publishing. Find it in the administration.</source>
+        <translation>شمارہ بن گیا، لیکن ایک ورک فلو نے اس کی اشاعت روک رکھی ہے۔ اسے انتظامیہ میں تلاش کریں۔</translation>
+    </message>
+    <message>
+        <source>The edition was made, but the page could not be taken into it.</source>
+        <translation>شمارہ بن گیا، لیکن صفحہ اس میں شامل نہیں ہو سکا۔</translation>
+    </message>
+    <message>
+        <source>There is no such edition, or you may not read it.</source>
+        <translation>ایسا کوئی شمارہ نہیں ہے، یا آپ کو اسے پڑھنے کی اجازت نہیں۔</translation>
+    </message>
+    <message>
+        <source>This edition has no newsletter data.</source>
+        <translation>اس شمارے میں نیوز لیٹر کا ڈیٹا نہیں ہے۔</translation>
+    </message>
+    <message>
+        <source>Some of the addresses are not valid.</source>
+        <translation>کچھ پتے درست نہیں ہیں۔</translation>
+    </message>
+    <message>
+        <source>Give at least one address.</source>
+        <translation>کم از کم ایک پتہ دیں۔</translation>
+    </message>
+    <message>
+        <source>Too many addresses at once.</source>
+        <translation>ایک ساتھ بہت زیادہ پتے۔</translation>
+    </message>
+    <message>
+        <source>The edition was changed in the meantime. Look at it again before you send it.</source>
+        <translation>اس دوران شمارہ بدل دیا گیا۔ بھیجنے سے پہلے اسے دوبارہ دیکھیں۔</translation>
+    </message>
+    <message>
+        <source>The send could not be made.</source>
+        <translation>بھیجا نہیں جا سکا۔</translation>
+    </message>
+    <message>
+        <source>Sending to the subscribers needs "Verify it's you", which is switched off here. Send it in the administration.</source>
+        <translation>سبسکرائبرز کو بھیجنے کے لیے "تصدیق کریں کہ یہ آپ ہیں" درکار ہے، جو یہاں بند ہے۔ اسے انتظامیہ میں بھیجیں۔</translation>
+    </message>
+    <message>
+        <source>Please confirm it is you first.</source>
+        <translation>براہ کرم پہلے تصدیق کریں کہ یہ آپ ہیں۔</translation>
+    </message>
+    <message>
+        <source>Editions with this page</source>
+        <translation>اس صفحے والے شمارے</translation>
+    </message>
+    <message>
+        <source>This page is in no edition yet.</source>
+        <translation>یہ صفحہ ابھی کسی شمارے میں نہیں ہے۔</translation>
+    </message>
+    <message>
+        <source>Being sent</source>
+        <translation>بھیجا جا رہا ہے</translation>
+    </message>
+    <message>
+        <source>Sent, in the archive</source>
+        <translation>بھیج دیا گیا، آرکائیو میں</translation>
+    </message>
+    <message>
+        <source>Stopped</source>
+        <translation>روک دیا گیا</translation>
+    </message>
+    <message>
+        <source>%n subscribers</source>
+        <translation>%n سبسکرائبرز</translation>
+    </message>
+    <message>
+        <source>Make an edition from this page</source>
+        <translation>اس صفحے سے شمارہ بنائیں</translation>
+    </message>
+    <message>
+        <source>There is no newsletter list where you may make an edition.</source>
+        <translation>کوئی ایسی نیوز لیٹر فہرست نہیں جس میں آپ شمارہ بنا سکیں۔</translation>
+    </message>
+    <message>
+        <source>Make the edition</source>
+        <translation>شمارہ بنائیں</translation>
+    </message>
+    <message>
+        <source>Newsletter list</source>
+        <translation>نیوز لیٹر فہرست</translation>
+    </message>
+    <message>
+        <source>Introduction (optional)</source>
+        <translation>تعارف (اختیاری)</translation>
+    </message>
+    <message>
+        <source>This page becomes the edition's article: its title, its intro and a link to it.</source>
+        <translation>یہ صفحہ شمارے کا مضمون بن جاتا ہے: اس کا عنوان، اس کا تعارف اور اس کا لنک۔</translation>
+    </message>
+    <message>
+        <source>The edition was made, with this page as its article.</source>
+        <translation>شمارہ بن گیا، اس صفحے کو مضمون کے طور پر لے کر۔</translation>
+    </message>
+    <message>
+        <source>not asked for yet</source>
+        <translation>ابھی درخواست نہیں کی گئی</translation>
+    </message>
+    <message>
+        <source>waiting</source>
+        <translation>منتظر</translation>
+    </message>
+    <message>
+        <source>approved</source>
+        <translation>منظور</translation>
+    </message>
+    <message>
+        <source>rejected</source>
+        <translation>مسترد</translation>
+    </message>
+    <message>
+        <source>Approval: %state</source>
+        <translation>منظوری: %state</translation>
+    </message>
+    <message>
+        <source>waiting for the cronjob</source>
+        <translation>cronjob کا انتظار</translation>
+    </message>
+    <message>
+        <source>queued</source>
+        <translation>قطار میں</translation>
+    </message>
+    <message>
+        <source>being sent</source>
+        <translation>بھیجا جا رہا ہے</translation>
+    </message>
+    <message>
+        <source>sent</source>
+        <translation>بھیج دیا گیا</translation>
+    </message>
+    <message>
+        <source>stopped</source>
+        <translation>روک دیا گیا</translation>
+    </message>
+    <message>
+        <source>Last send: %state, %time</source>
+        <translation>آخری ترسیل: %state، %time</translation>
+    </message>
+    <message>
+        <source>Send a test</source>
+        <translation>ٹیسٹ بھیجیں</translation>
+    </message>
+    <message>
+        <source>The test could not be sent.</source>
+        <translation>ٹیسٹ نہیں بھیجا جا سکا۔</translation>
+    </message>
+    <message>
+        <source>The test was sent to %list.</source>
+        <translation>ٹیسٹ %list کو بھیج دیا گیا۔</translation>
+    </message>
+    <message>
+        <source>Test addresses</source>
+        <translation>ٹیسٹ پتے</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers</source>
+        <translation>سبسکرائبرز کو بھیجیں</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers ...</source>
+        <translation>سبسکرائبرز کو بھیجیں ...</translation>
+    </message>
+    <message>
+        <source>Send now</source>
+        <translation>ابھی بھیجیں</translation>
+    </message>
+    <message>
+        <source>The edition is queued: the newsletter's cronjob sends it to the subscribers.</source>
+        <translation>شمارہ قطار میں ہے: نیوز لیٹر کا cronjob اسے سبسکرائبرز کو بھیجتا ہے۔</translation>
+    </message>
+    <message>
+        <source>Send "%name" to the %n subscribers of "%list" now? This cannot be taken back here.</source>
+        <translation>"%name" کو "%list" کے %n سبسکرائبرز کو ابھی بھیجیں؟ اسے یہاں واپس نہیں لیا جا سکتا۔</translation>
+    </message>
+    <message>
+        <source>Newsletter</source>
+        <translation>نیوز لیٹر</translation>
+    </message>
+    <message>
+        <source>This edition is being sent.</source>
+        <translation>یہ شمارہ بھیجا جا رہا ہے۔</translation>
+    </message>
+    <message>
+        <source>This edition was sent and is in the archive.</source>
+        <translation>یہ شمارہ بھیج دیا گیا اور آرکائیو میں ہے۔</translation>
+    </message>
+    <message>
+        <source>This edition waits for its approval. It can be sent when it is approved.</source>
+        <translation>یہ شمارہ منظوری کا منتظر ہے۔ منظوری کے بعد اسے بھیجا جا سکتا ہے۔</translation>
+    </message>
+    <message>
+        <source>This edition was rejected. Change it and ask for the approval again.</source>
+        <translation>یہ شمارہ مسترد کر دیا گیا۔ اسے بدلیں اور دوبارہ منظوری مانگیں۔</translation>
+    </message>
+    <message>
+        <source>The list needs an approval before an edition is sent. Ask for the approval in the administration.</source>
+        <translation>شمارہ بھیجنے سے پہلے فہرست کو منظوری درکار ہے۔ انتظامیہ میں منظوری مانگیں۔</translation>
+    </message>
+    <message>
+        <source>The list has no subscribers.</source>
+        <translation>فہرست میں کوئی سبسکرائبر نہیں۔</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>ان باکس</translation>
     </message>

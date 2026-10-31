@@ -1044,6 +1044,214 @@
         <translation>Формаш</translation>
     </message>
     <message>
+        <source>There is no such newsletter list.</source>
+        <translation>Иштта рассылкин могӀа яц.</translation>
+    </message>
+    <message>
+        <source>The edition was made, but a workflow holds its publishing. Find it in the administration.</source>
+        <translation>Выпуск кхоьллина, амма болх беш болчу процессо цуьнан арахецар сацийна. Иза администрацехь лаха.</translation>
+    </message>
+    <message>
+        <source>The edition was made, but the page could not be taken into it.</source>
+        <translation>Выпуск кхоьллина, амма агӀо цу чу юкъаяккха ца хилира.</translation>
+    </message>
+    <message>
+        <source>There is no such edition, or you may not read it.</source>
+        <translation>Иштта выпуск бац, я шуна иза ешна бакъо яц.</translation>
+    </message>
+    <message>
+        <source>This edition has no newsletter data.</source>
+        <translation>ХӀокху выпускехь рассылкин хаамаш бац.</translation>
+    </message>
+    <message>
+        <source>Some of the addresses are not valid.</source>
+        <translation>Цхьаболу адресаш нийса яц.</translation>
+    </message>
+    <message>
+        <source>Give at least one address.</source>
+        <translation>Цхьаъ мукъна адрес язъе.</translation>
+    </message>
+    <message>
+        <source>Too many addresses at once.</source>
+        <translation>Цкъачунна дукха адресаш ю.</translation>
+    </message>
+    <message>
+        <source>The edition was changed in the meantime. Look at it again before you send it.</source>
+        <translation>ХӀинццалц выпуск хийцина. ДӀахьажале хьалха иза юха а хьажа.</translation>
+    </message>
+    <message>
+        <source>The send could not be made.</source>
+        <translation>ДӀахьажор ца хилира.</translation>
+    </message>
+    <message>
+        <source>Sending to the subscribers needs "Verify it's you", which is switched off here. Send it in the administration.</source>
+        <translation>Подписчикашка дӀахьажо «Иза шу ду тешалла де» оьшу, амма кхузахь иза дӀадайина ду. Иза администрацехь дӀахьажийта.</translation>
+    </message>
+    <message>
+        <source>Please confirm it is you first.</source>
+        <translation>Дехар ду, хьалха иза шу ду тешалла де.</translation>
+    </message>
+    <message>
+        <source>Editions with this page</source>
+        <translation>ХӀара агӀо йолу выпускаш</translation>
+    </message>
+    <message>
+        <source>This page is in no edition yet.</source>
+        <translation>ХӀара агӀо цкъачунна цхьана а выпускехь яц.</translation>
+    </message>
+    <message>
+        <source>Being sent</source>
+        <translation>ДӀахьажош ю</translation>
+    </message>
+    <message>
+        <source>Sent, in the archive</source>
+        <translation>ДӀахьажийна, архивехь</translation>
+    </message>
+    <message>
+        <source>Stopped</source>
+        <translation>Сецна</translation>
+    </message>
+    <message>
+        <source>%n subscribers</source>
+        <translation>Подписчикаш: %n</translation>
+    </message>
+    <message>
+        <source>Make an edition from this page</source>
+        <translation>ХӀокху агӀонах выпуск кхолла</translation>
+    </message>
+    <message>
+        <source>There is no newsletter list where you may make an edition.</source>
+        <translation>Шуна выпуск кхолла бакъо йолу рассылкин могӀа яц.</translation>
+    </message>
+    <message>
+        <source>Make the edition</source>
+        <translation>Выпуск кхолла</translation>
+    </message>
+    <message>
+        <source>Newsletter list</source>
+        <translation>Рассылкин могӀа</translation>
+    </message>
+    <message>
+        <source>Introduction (optional)</source>
+        <translation>Хьалхе (лаамехь)</translation>
+    </message>
+    <message>
+        <source>This page becomes the edition's article: its title, its intro and a link to it.</source>
+        <translation>ХӀара агӀо выпускан статья хир ю: цуьнан цӀе, хьалхе а, цуьнга хьажорг а.</translation>
+    </message>
+    <message>
+        <source>The edition was made, with this page as its article.</source>
+        <translation>Выпуск кхоьллина, хӀара агӀо цуьнан статья ю.</translation>
+    </message>
+    <message>
+        <source>not asked for yet</source>
+        <translation>цкъачунна дехна дац</translation>
+    </message>
+    <message>
+        <source>waiting</source>
+        <translation>хьоьжуш</translation>
+    </message>
+    <message>
+        <source>approved</source>
+        <translation>тӀечӀагӀдина</translation>
+    </message>
+    <message>
+        <source>rejected</source>
+        <translation>дӀатеттина</translation>
+    </message>
+    <message>
+        <source>Approval: %state</source>
+        <translation>ТӀечӀагӀдар: %state</translation>
+    </message>
+    <message>
+        <source>waiting for the cronjob</source>
+        <translation>cronjob-не хьоьжуш</translation>
+    </message>
+    <message>
+        <source>queued</source>
+        <translation>рогӀехь</translation>
+    </message>
+    <message>
+        <source>being sent</source>
+        <translation>дӀахьажош</translation>
+    </message>
+    <message>
+        <source>sent</source>
+        <translation>дӀахьажийна</translation>
+    </message>
+    <message>
+        <source>stopped</source>
+        <translation>сецна</translation>
+    </message>
+    <message>
+        <source>Last send: %state, %time</source>
+        <translation>ТӀаьххьара дӀахьажор: %state, %time</translation>
+    </message>
+    <message>
+        <source>Send a test</source>
+        <translation>Зер дӀахьажо</translation>
+    </message>
+    <message>
+        <source>The test could not be sent.</source>
+        <translation>Зер дӀахьажо ца делира.</translation>
+    </message>
+    <message>
+        <source>The test was sent to %list.</source>
+        <translation>Зер %list-е дӀахьажийна.</translation>
+    </message>
+    <message>
+        <source>Test addresses</source>
+        <translation>Зеран адресаш</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers</source>
+        <translation>Подписчикашка дӀахьажо</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers ...</source>
+        <translation>Подписчикашка дӀахьажо ...</translation>
+    </message>
+    <message>
+        <source>Send now</source>
+        <translation>ХӀинца дӀахьажо</translation>
+    </message>
+    <message>
+        <source>The edition is queued: the newsletter's cronjob sends it to the subscribers.</source>
+        <translation>Выпуск рогӀехь ю: рассылкин cronjob-о иза подписчикашка дӀахьажор ду.</translation>
+    </message>
+    <message>
+        <source>Send "%name" to the %n subscribers of "%list" now? This cannot be taken back here.</source>
+        <translation>«%name» хӀинца «%list» могӀанан %n подписчикашка дӀахьажо? Кхузахь иза юхадаккха йиш яц.</translation>
+    </message>
+    <message>
+        <source>Newsletter</source>
+        <translation>Рассылка</translation>
+    </message>
+    <message>
+        <source>This edition is being sent.</source>
+        <translation>ХӀара выпуск дӀахьажош ю.</translation>
+    </message>
+    <message>
+        <source>This edition was sent and is in the archive.</source>
+        <translation>ХӀара выпуск дӀахьажийна, архивехь ю.</translation>
+    </message>
+    <message>
+        <source>This edition waits for its approval. It can be sent when it is approved.</source>
+        <translation>ХӀара выпуск тӀечӀагӀдарна хьоьжуш ю. ТӀечӀагӀдинчул тӀаьхьа дӀахьажо мегар ду.</translation>
+    </message>
+    <message>
+        <source>This edition was rejected. Change it and ask for the approval again.</source>
+        <translation>ХӀара выпуск дӀатеттина. Иза хийцина, юха а тӀечӀагӀдар деха.</translation>
+    </message>
+    <message>
+        <source>The list needs an approval before an edition is sent. Ask for the approval in the administration.</source>
+        <translation>Выпуск дӀахьажале могӀанна тӀечӀагӀдар оьшу. ТӀечӀагӀдар администрацехь деха.</translation>
+    </message>
+    <message>
+        <source>The list has no subscribers.</source>
+        <translation>МогӀехь подписчикаш бац.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Чуйогӏу</translation>
     </message>

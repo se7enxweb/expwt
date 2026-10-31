@@ -1044,6 +1044,214 @@
         <translation>Fomu</translation>
     </message>
     <message>
+        <source>There is no such newsletter list.</source>
+        <translation>Gũtirĩ mũtaratara wa marũa ma ũhoro ta ũcio.</translation>
+    </message>
+    <message>
+        <source>The edition was made, but a workflow holds its publishing. Find it in the administration.</source>
+        <translation>Gĩcabithio nĩ gĩthondeketwo, no workflow nĩĩrarũgamia gũcabithio gwakĩo. Gĩcarie ũrũgamĩrĩri-inĩ.</translation>
+    </message>
+    <message>
+        <source>The edition was made, but the page could not be taken into it.</source>
+        <translation>Gĩcabithio nĩ gĩthondeketwo, no rũrũa rũtiahotire gũtoonyio thĩinĩ wakĩo.</translation>
+    </message>
+    <message>
+        <source>There is no such edition, or you may not read it.</source>
+        <translation>Gũtirĩ gĩcabithio ta kĩu, kana ndũrĩ na rũtha rwa gũkĩthoma.</translation>
+    </message>
+    <message>
+        <source>This edition has no newsletter data.</source>
+        <translation>Gĩcabithio gĩkĩ gĩtirĩ na data ya marũa ma ũhoro.</translation>
+    </message>
+    <message>
+        <source>Some of the addresses are not valid.</source>
+        <translation>Anwani imwe ti njagĩrĩru.</translation>
+    </message>
+    <message>
+        <source>Give at least one address.</source>
+        <translation>Heana anwani ĩmwe kũrĩ nini.</translation>
+    </message>
+    <message>
+        <source>Too many addresses at once.</source>
+        <translation>Anwani nyingĩ mũno hĩndĩ ĩmwe.</translation>
+    </message>
+    <message>
+        <source>The edition was changed in the meantime. Look at it again before you send it.</source>
+        <translation>Gĩcabithio nĩ kĩagarũrirwo hĩndĩ ĩno. Gĩcũthĩrĩrie rĩngĩ mbere ya gũgĩtũma.</translation>
+    </message>
+    <message>
+        <source>The send could not be made.</source>
+        <translation>Gũtũma gũtiahotekire.</translation>
+    </message>
+    <message>
+        <source>Sending to the subscribers needs "Verify it's you", which is switched off here. Send it in the administration.</source>
+        <translation>Gũtũmĩra arĩa meandĩkithĩtie nĩ kwendaga "Kĩrĩria atĩ nĩwe", kĩrĩa kĩhingĩtwo haha. Gĩtũme ũrũgamĩrĩri-inĩ.</translation>
+    </message>
+    <message>
+        <source>Please confirm it is you first.</source>
+        <translation>Ndagũthaitha, kĩrĩria mbere atĩ nĩwe.</translation>
+    </message>
+    <message>
+        <source>Editions with this page</source>
+        <translation>Icabithio irĩ na rũrũa rũrũ</translation>
+    </message>
+    <message>
+        <source>This page is in no edition yet.</source>
+        <translation>Rũrũa rũrũ rũtirĩ gĩcabithio-inĩ o na kĩmwe rĩu.</translation>
+    </message>
+    <message>
+        <source>Being sent</source>
+        <translation>Nĩ kĩratũmwo</translation>
+    </message>
+    <message>
+        <source>Sent, in the archive</source>
+        <translation>Nĩ gĩatũmirwo, kũrĩa kũigĩtwo</translation>
+    </message>
+    <message>
+        <source>Stopped</source>
+        <translation>Nĩ kĩrũgamĩtio</translation>
+    </message>
+    <message>
+        <source>%n subscribers</source>
+        <translation>Arĩa meandĩkithĩtie %n</translation>
+    </message>
+    <message>
+        <source>Make an edition from this page</source>
+        <translation>Thondeka gĩcabithio kuuma rũrũa rũrũ</translation>
+    </message>
+    <message>
+        <source>There is no newsletter list where you may make an edition.</source>
+        <translation>Gũtirĩ mũtaratara wa marũa ma ũhoro ũrĩa ũngĩthondeka gĩcabithio.</translation>
+    </message>
+    <message>
+        <source>Make the edition</source>
+        <translation>Thondeka gĩcabithio</translation>
+    </message>
+    <message>
+        <source>Newsletter list</source>
+        <translation>Mũtaratara wa marũa ma ũhoro</translation>
+    </message>
+    <message>
+        <source>Introduction (optional)</source>
+        <translation>Kĩambĩrĩria (ti ya kũbatara)</translation>
+    </message>
+    <message>
+        <source>This page becomes the edition's article: its title, its intro and a link to it.</source>
+        <translation>Rũrũa rũrũ nĩ rũrĩtuĩka gĩcunjĩ kĩa gĩcabithio: rĩĩtwa rĩaruo, kĩambĩrĩria kĩaruo na link ya gũthiĩ kũruo.</translation>
+    </message>
+    <message>
+        <source>The edition was made, with this page as its article.</source>
+        <translation>Gĩcabithio nĩ gĩthondeketwo, rũrũa rũrũ rũrĩ gĩcunjĩ kĩakĩo.</translation>
+    </message>
+    <message>
+        <source>not asked for yet</source>
+        <translation>gũtirĩ ũhoyi o na rĩu</translation>
+    </message>
+    <message>
+        <source>waiting</source>
+        <translation>nĩ kĩraeterera</translation>
+    </message>
+    <message>
+        <source>approved</source>
+        <translation>nĩ gĩetĩkĩrĩtwo</translation>
+    </message>
+    <message>
+        <source>rejected</source>
+        <translation>nĩ kĩregetwo</translation>
+    </message>
+    <message>
+        <source>Approval: %state</source>
+        <translation>Gwĩtĩkĩrwo: %state</translation>
+    </message>
+    <message>
+        <source>waiting for the cronjob</source>
+        <translation>nĩ kĩraeterera cronjob</translation>
+    </message>
+    <message>
+        <source>queued</source>
+        <translation>mũhari-inĩ</translation>
+    </message>
+    <message>
+        <source>being sent</source>
+        <translation>nĩ kĩratũmwo</translation>
+    </message>
+    <message>
+        <source>sent</source>
+        <translation>nĩ gĩatũmirwo</translation>
+    </message>
+    <message>
+        <source>stopped</source>
+        <translation>nĩ kĩrũgamĩtio</translation>
+    </message>
+    <message>
+        <source>Last send: %state, %time</source>
+        <translation>Gũtũma kwa mũthia: %state, %time</translation>
+    </message>
+    <message>
+        <source>Send a test</source>
+        <translation>Tũma kĩgerio</translation>
+    </message>
+    <message>
+        <source>The test could not be sent.</source>
+        <translation>Kĩgerio gĩtiahotire gũtũmwo.</translation>
+    </message>
+    <message>
+        <source>The test was sent to %list.</source>
+        <translation>Kĩgerio nĩ gĩatũmirwo kũrĩ %list.</translation>
+    </message>
+    <message>
+        <source>Test addresses</source>
+        <translation>Anwani cia kĩgerio</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers</source>
+        <translation>Tũmĩra arĩa meandĩkithĩtie</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers ...</source>
+        <translation>Tũmĩra arĩa meandĩkithĩtie ...</translation>
+    </message>
+    <message>
+        <source>Send now</source>
+        <translation>Tũma rĩu</translation>
+    </message>
+    <message>
+        <source>The edition is queued: the newsletter's cronjob sends it to the subscribers.</source>
+        <translation>Gĩcabithio kĩrĩ mũhari-inĩ: cronjob ya marũa ma ũhoro nĩ ĩgũgĩtũmĩra arĩa meandĩkithĩtie.</translation>
+    </message>
+    <message>
+        <source>Send "%name" to the %n subscribers of "%list" now? This cannot be taken back here.</source>
+        <translation>Tũma "%name" kũrĩ arĩa %n meandĩkithĩtie "%list" rĩu? Ũndũ ũyũ ndũngĩcookio haha.</translation>
+    </message>
+    <message>
+        <source>Newsletter</source>
+        <translation>Marũa ma ũhoro</translation>
+    </message>
+    <message>
+        <source>This edition is being sent.</source>
+        <translation>Gĩcabithio gĩkĩ nĩ kĩratũmwo.</translation>
+    </message>
+    <message>
+        <source>This edition was sent and is in the archive.</source>
+        <translation>Gĩcabithio gĩkĩ nĩ gĩatũmirwo na kĩrĩ kũrĩa kũigĩtwo.</translation>
+    </message>
+    <message>
+        <source>This edition waits for its approval. It can be sent when it is approved.</source>
+        <translation>Gĩcabithio gĩkĩ nĩ kĩraeterera gwĩtĩkĩrwo. Nĩ kĩngĩtũmwo kĩetĩkĩrwo.</translation>
+    </message>
+    <message>
+        <source>This edition was rejected. Change it and ask for the approval again.</source>
+        <translation>Gĩcabithio gĩkĩ nĩ kĩregetwo. Gĩcenjie na ũhoe gwĩtĩkĩrwo rĩngĩ.</translation>
+    </message>
+    <message>
+        <source>The list needs an approval before an edition is sent. Ask for the approval in the administration.</source>
+        <translation>Mũtaratara nĩ wendaga gwĩtĩkĩrwo mbere ya gĩcabithio gũtũmwo. Hoya gwĩtĩkĩrwo ũrũgamĩrĩri-inĩ.</translation>
+    </message>
+    <message>
+        <source>The list has no subscribers.</source>
+        <translation>Mũtaratara ũyũ ndũrĩ na arĩa meandĩkithĩtie.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Ithandũkũ rĩa marũa</translation>
     </message>

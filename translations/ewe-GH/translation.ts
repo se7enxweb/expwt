@@ -1044,6 +1044,214 @@
         <translation>Fɔmwo</translation>
     </message>
     <message>
+        <source>There is no such newsletter list.</source>
+        <translation>Nyadzɔdzɔgbalẽvi ƒe ŋkɔŋlɔ̃ma ma tɔgbe meli o.</translation>
+    </message>
+    <message>
+        <source>The edition was made, but a workflow holds its publishing. Find it in the administration.</source>
+        <translation>Wowɔ tata la, gake dɔwɔɖoɖo aɖe xe mɔ na eɖeɖe ɖe dutoƒo. Di le dzikpɔƒe.</translation>
+    </message>
+    <message>
+        <source>The edition was made, but the page could not be taken into it.</source>
+        <translation>Wowɔ tata la, gake womete ŋu tsɔ axa la de eme o.</translation>
+    </message>
+    <message>
+        <source>There is no such edition, or you may not read it.</source>
+        <translation>Tata ma tɔgbe meli o, alo màte ŋu axlẽe o.</translation>
+    </message>
+    <message>
+        <source>This edition has no newsletter data.</source>
+        <translation>Nyadzɔdzɔgbalẽvi ƒe nyatakaka aɖeke mele tata sia me o.</translation>
+    </message>
+    <message>
+        <source>Some of the addresses are not valid.</source>
+        <translation>Adrɛs aɖewo mesɔ o.</translation>
+    </message>
+    <message>
+        <source>Give at least one address.</source>
+        <translation>Na adrɛs ɖeka teti.</translation>
+    </message>
+    <message>
+        <source>Too many addresses at once.</source>
+        <translation>Adrɛs geɖe akpa le zi ɖeka.</translation>
+    </message>
+    <message>
+        <source>The edition was changed in the meantime. Look at it again before you send it.</source>
+        <translation>Wotrɔ tata la le esime. Gakpɔe ake hafi nàɖoe ɖa.</translation>
+    </message>
+    <message>
+        <source>The send could not be made.</source>
+        <translation>Womete ŋu ɖoe ɖa o.</translation>
+    </message>
+    <message>
+        <source>Sending to the subscribers needs "Verify it's you", which is switched off here. Send it in the administration.</source>
+        <translation>Eɖoɖo ɖe nuxlẽlawo hiã "Ɖe kpeɖodzi be wòe", si wotsi le afi sia. Ɖoe ɖa le dzikpɔƒe.</translation>
+    </message>
+    <message>
+        <source>Please confirm it is you first.</source>
+        <translation>Taflatse, ɖe kpeɖodzi be wòe gbã.</translation>
+    </message>
+    <message>
+        <source>Editions with this page</source>
+        <translation>Tata siwo me axa sia le</translation>
+    </message>
+    <message>
+        <source>This page is in no edition yet.</source>
+        <translation>Axa sia mele tata aɖeke me haɖe o.</translation>
+    </message>
+    <message>
+        <source>Being sent</source>
+        <translation>Wole eɖom ɖa</translation>
+    </message>
+    <message>
+        <source>Sent, in the archive</source>
+        <translation>Woɖoe ɖa, le nudzraɖoƒe</translation>
+    </message>
+    <message>
+        <source>Stopped</source>
+        <translation>Wotɔ te</translation>
+    </message>
+    <message>
+        <source>%n subscribers</source>
+        <translation>Nuxlẽla %n</translation>
+    </message>
+    <message>
+        <source>Make an edition from this page</source>
+        <translation>Wɔ tata tso axa sia me</translation>
+    </message>
+    <message>
+        <source>There is no newsletter list where you may make an edition.</source>
+        <translation>Nyadzɔdzɔgbalẽvi ƒe ŋkɔŋlɔ̃ma aɖeke meli si me nàte ŋu awɔ tata le o.</translation>
+    </message>
+    <message>
+        <source>Make the edition</source>
+        <translation>Wɔ tata la</translation>
+    </message>
+    <message>
+        <source>Newsletter list</source>
+        <translation>Nyadzɔdzɔgbalẽvi ƒe ŋkɔŋlɔ̃ma</translation>
+    </message>
+    <message>
+        <source>Introduction (optional)</source>
+        <translation>Ŋgɔdonya (ne èlɔ̃)</translation>
+    </message>
+    <message>
+        <source>This page becomes the edition's article: its title, its intro and a link to it.</source>
+        <translation>Axa sia zua tata la ƒe nyati: eƒe tanya, eƒe ŋgɔdonya kple kadodo ɖe eŋu.</translation>
+    </message>
+    <message>
+        <source>The edition was made, with this page as its article.</source>
+        <translation>Wowɔ tata la, eye axa sia nye eƒe nyati.</translation>
+    </message>
+    <message>
+        <source>not asked for yet</source>
+        <translation>womebiae haɖe o</translation>
+    </message>
+    <message>
+        <source>waiting</source>
+        <translation>le lalam</translation>
+    </message>
+    <message>
+        <source>approved</source>
+        <translation>wolɔ̃ ɖe edzi</translation>
+    </message>
+    <message>
+        <source>rejected</source>
+        <translation>wogbe</translation>
+    </message>
+    <message>
+        <source>Approval: %state</source>
+        <translation>Ɖeŋulɔ̃: %state</translation>
+    </message>
+    <message>
+        <source>waiting for the cronjob</source>
+        <translation>le cronjob lalam</translation>
+    </message>
+    <message>
+        <source>queued</source>
+        <translation>le fli me</translation>
+    </message>
+    <message>
+        <source>being sent</source>
+        <translation>wole eɖom ɖa</translation>
+    </message>
+    <message>
+        <source>sent</source>
+        <translation>woɖoe ɖa</translation>
+    </message>
+    <message>
+        <source>stopped</source>
+        <translation>wotɔ te</translation>
+    </message>
+    <message>
+        <source>Last send: %state, %time</source>
+        <translation>Ɖoɖo mamlɛtɔ: %state, %time</translation>
+    </message>
+    <message>
+        <source>Send a test</source>
+        <translation>Ɖo dodokpɔ ɖa</translation>
+    </message>
+    <message>
+        <source>The test could not be sent.</source>
+        <translation>Womete ŋu ɖo dodokpɔ la ɖa o.</translation>
+    </message>
+    <message>
+        <source>The test was sent to %list.</source>
+        <translation>Woɖo dodokpɔ la ɖe %list.</translation>
+    </message>
+    <message>
+        <source>Test addresses</source>
+        <translation>Dodokpɔ adrɛswo</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers</source>
+        <translation>Ɖoe ɖe nuxlẽlawo</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers ...</source>
+        <translation>Ɖoe ɖe nuxlẽlawo ...</translation>
+    </message>
+    <message>
+        <source>Send now</source>
+        <translation>Ɖoe ɖa fifia</translation>
+    </message>
+    <message>
+        <source>The edition is queued: the newsletter's cronjob sends it to the subscribers.</source>
+        <translation>Tata la le fli me: nyadzɔdzɔgbalẽvi la ƒe cronjob aɖoe ɖe nuxlẽlawo.</translation>
+    </message>
+    <message>
+        <source>Send "%name" to the %n subscribers of "%list" now? This cannot be taken back here.</source>
+        <translation>Àɖo "%name" ɖe "%list" ƒe nuxlẽla %n fifia? Màte ŋu agbugbɔe le afi sia o.</translation>
+    </message>
+    <message>
+        <source>Newsletter</source>
+        <translation>Nyadzɔdzɔgbalẽvi</translation>
+    </message>
+    <message>
+        <source>This edition is being sent.</source>
+        <translation>Wole tata sia ɖom ɖa.</translation>
+    </message>
+    <message>
+        <source>This edition was sent and is in the archive.</source>
+        <translation>Woɖo tata sia ɖa eye wòle nudzraɖoƒe.</translation>
+    </message>
+    <message>
+        <source>This edition waits for its approval. It can be sent when it is approved.</source>
+        <translation>Tata sia le eƒe ɖeŋulɔ̃ lalam. Woate ŋu aɖoe ɖa ne wolɔ̃ ɖe edzi.</translation>
+    </message>
+    <message>
+        <source>This edition was rejected. Change it and ask for the approval again.</source>
+        <translation>Wogbe tata sia. Trɔe eye nàbia ɖeŋulɔ̃ ake.</translation>
+    </message>
+    <message>
+        <source>The list needs an approval before an edition is sent. Ask for the approval in the administration.</source>
+        <translation>Ŋkɔŋlɔ̃ma la hiã ɖeŋulɔ̃ hafi woaɖo tata aɖe ɖa. Bia ɖeŋulɔ̃ le dzikpɔƒe.</translation>
+    </message>
+    <message>
+        <source>The list has no subscribers.</source>
+        <translation>Nuxlẽla aɖeke mele ŋkɔŋlɔ̃ma la me o.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Agbalẽ siwo va</translation>
     </message>

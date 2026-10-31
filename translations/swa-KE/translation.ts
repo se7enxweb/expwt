@@ -1044,6 +1044,214 @@
         <translation>Fomu</translation>
     </message>
     <message>
+        <source>There is no such newsletter list.</source>
+        <translation>Hakuna orodha ya jarida kama hiyo.</translation>
+    </message>
+    <message>
+        <source>The edition was made, but a workflow holds its publishing. Find it in the administration.</source>
+        <translation>Toleo limeundwa, lakini mtiririko wa kazi unazuia uchapishaji wake. Litafute kwenye usimamizi.</translation>
+    </message>
+    <message>
+        <source>The edition was made, but the page could not be taken into it.</source>
+        <translation>Toleo limeundwa, lakini ukurasa haukuweza kuingizwa ndani yake.</translation>
+    </message>
+    <message>
+        <source>There is no such edition, or you may not read it.</source>
+        <translation>Hakuna toleo kama hilo, au huruhusiwi kulisoma.</translation>
+    </message>
+    <message>
+        <source>This edition has no newsletter data.</source>
+        <translation>Toleo hili halina data ya jarida.</translation>
+    </message>
+    <message>
+        <source>Some of the addresses are not valid.</source>
+        <translation>Baadhi ya anwani si sahihi.</translation>
+    </message>
+    <message>
+        <source>Give at least one address.</source>
+        <translation>Weka angalau anwani moja.</translation>
+    </message>
+    <message>
+        <source>Too many addresses at once.</source>
+        <translation>Anwani nyingi mno kwa mara moja.</translation>
+    </message>
+    <message>
+        <source>The edition was changed in the meantime. Look at it again before you send it.</source>
+        <translation>Toleo limebadilishwa wakati huo huo. Liangalie tena kabla ya kulituma.</translation>
+    </message>
+    <message>
+        <source>The send could not be made.</source>
+        <translation>Utumaji haukuweza kufanyika.</translation>
+    </message>
+    <message>
+        <source>Sending to the subscribers needs "Verify it's you", which is switched off here. Send it in the administration.</source>
+        <translation>Kutuma kwa wanaojisajili kunahitaji "Thibitisha kuwa ni wewe", ambalo limezimwa hapa. Litume kwenye usimamizi.</translation>
+    </message>
+    <message>
+        <source>Please confirm it is you first.</source>
+        <translation>Tafadhali thibitisha kwanza kuwa ni wewe.</translation>
+    </message>
+    <message>
+        <source>Editions with this page</source>
+        <translation>Matoleo yenye ukurasa huu</translation>
+    </message>
+    <message>
+        <source>This page is in no edition yet.</source>
+        <translation>Ukurasa huu bado haupo katika toleo lolote.</translation>
+    </message>
+    <message>
+        <source>Being sent</source>
+        <translation>Linatumwa</translation>
+    </message>
+    <message>
+        <source>Sent, in the archive</source>
+        <translation>Limetumwa, kwenye kumbukumbu</translation>
+    </message>
+    <message>
+        <source>Stopped</source>
+        <translation>Limesimamishwa</translation>
+    </message>
+    <message>
+        <source>%n subscribers</source>
+        <translation>Wanaojisajili %n</translation>
+    </message>
+    <message>
+        <source>Make an edition from this page</source>
+        <translation>Unda toleo kutoka ukurasa huu</translation>
+    </message>
+    <message>
+        <source>There is no newsletter list where you may make an edition.</source>
+        <translation>Hakuna orodha ya jarida ambapo unaruhusiwa kuunda toleo.</translation>
+    </message>
+    <message>
+        <source>Make the edition</source>
+        <translation>Unda toleo</translation>
+    </message>
+    <message>
+        <source>Newsletter list</source>
+        <translation>Orodha ya jarida</translation>
+    </message>
+    <message>
+        <source>Introduction (optional)</source>
+        <translation>Utangulizi (si lazima)</translation>
+    </message>
+    <message>
+        <source>This page becomes the edition's article: its title, its intro and a link to it.</source>
+        <translation>Ukurasa huu unakuwa makala ya toleo: kichwa chake, utangulizi wake na kiungo chake.</translation>
+    </message>
+    <message>
+        <source>The edition was made, with this page as its article.</source>
+        <translation>Toleo limeundwa, ukurasa huu ukiwa makala yake.</translation>
+    </message>
+    <message>
+        <source>not asked for yet</source>
+        <translation>bado haijaombwa</translation>
+    </message>
+    <message>
+        <source>waiting</source>
+        <translation>inasubiri</translation>
+    </message>
+    <message>
+        <source>approved</source>
+        <translation>imeidhinishwa</translation>
+    </message>
+    <message>
+        <source>rejected</source>
+        <translation>imekataliwa</translation>
+    </message>
+    <message>
+        <source>Approval: %state</source>
+        <translation>Idhini: %state</translation>
+    </message>
+    <message>
+        <source>waiting for the cronjob</source>
+        <translation>inasubiri cronjob</translation>
+    </message>
+    <message>
+        <source>queued</source>
+        <translation>kwenye foleni</translation>
+    </message>
+    <message>
+        <source>being sent</source>
+        <translation>inatumwa</translation>
+    </message>
+    <message>
+        <source>sent</source>
+        <translation>imetumwa</translation>
+    </message>
+    <message>
+        <source>stopped</source>
+        <translation>imesimamishwa</translation>
+    </message>
+    <message>
+        <source>Last send: %state, %time</source>
+        <translation>Utumaji wa mwisho: %state, %time</translation>
+    </message>
+    <message>
+        <source>Send a test</source>
+        <translation>Tuma jaribio</translation>
+    </message>
+    <message>
+        <source>The test could not be sent.</source>
+        <translation>Jaribio halikuweza kutumwa.</translation>
+    </message>
+    <message>
+        <source>The test was sent to %list.</source>
+        <translation>Jaribio limetumwa kwa %list.</translation>
+    </message>
+    <message>
+        <source>Test addresses</source>
+        <translation>Anwani za majaribio</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers</source>
+        <translation>Tuma kwa wanaojisajili</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers ...</source>
+        <translation>Tuma kwa wanaojisajili ...</translation>
+    </message>
+    <message>
+        <source>Send now</source>
+        <translation>Tuma sasa</translation>
+    </message>
+    <message>
+        <source>The edition is queued: the newsletter's cronjob sends it to the subscribers.</source>
+        <translation>Toleo liko kwenye foleni: cronjob ya jarida inalituma kwa wanaojisajili.</translation>
+    </message>
+    <message>
+        <source>Send "%name" to the %n subscribers of "%list" now? This cannot be taken back here.</source>
+        <translation>Tuma "%name" sasa kwa wanaojisajili %n wa "%list"? Hili haliwezi kurudishwa hapa.</translation>
+    </message>
+    <message>
+        <source>Newsletter</source>
+        <translation>Jarida</translation>
+    </message>
+    <message>
+        <source>This edition is being sent.</source>
+        <translation>Toleo hili linatumwa.</translation>
+    </message>
+    <message>
+        <source>This edition was sent and is in the archive.</source>
+        <translation>Toleo hili limetumwa na liko kwenye kumbukumbu.</translation>
+    </message>
+    <message>
+        <source>This edition waits for its approval. It can be sent when it is approved.</source>
+        <translation>Toleo hili linasubiri idhini yake. Linaweza kutumwa likishaidhinishwa.</translation>
+    </message>
+    <message>
+        <source>This edition was rejected. Change it and ask for the approval again.</source>
+        <translation>Toleo hili limekataliwa. Libadilishe na uombe idhini tena.</translation>
+    </message>
+    <message>
+        <source>The list needs an approval before an edition is sent. Ask for the approval in the administration.</source>
+        <translation>Orodha inahitaji idhini kabla toleo halijatumwa. Omba idhini kwenye usimamizi.</translation>
+    </message>
+    <message>
+        <source>The list has no subscribers.</source>
+        <translation>Orodha haina wanaojisajili.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Kikasha</translation>
     </message>

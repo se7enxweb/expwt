@@ -1044,6 +1044,214 @@
         <translation>Formularoj</translation>
     </message>
     <message>
+        <source>There is no such newsletter list.</source>
+        <translation>Tia novaĵletera listo ne ekzistas.</translation>
+    </message>
+    <message>
+        <source>The edition was made, but a workflow holds its publishing. Find it in the administration.</source>
+        <translation>La numero estis farita, sed laborfluo tenas ĝian publikigon. Trovu ĝin en la administrado.</translation>
+    </message>
+    <message>
+        <source>The edition was made, but the page could not be taken into it.</source>
+        <translation>La numero estis farita, sed la paĝo ne povis esti metita en ĝin.</translation>
+    </message>
+    <message>
+        <source>There is no such edition, or you may not read it.</source>
+        <translation>Tia numero ne ekzistas, aŭ vi ne rajtas legi ĝin.</translation>
+    </message>
+    <message>
+        <source>This edition has no newsletter data.</source>
+        <translation>Ĉi tiu numero ne havas novaĵleterajn datumojn.</translation>
+    </message>
+    <message>
+        <source>Some of the addresses are not valid.</source>
+        <translation>Kelkaj el la adresoj ne validas.</translation>
+    </message>
+    <message>
+        <source>Give at least one address.</source>
+        <translation>Donu almenaŭ unu adreson.</translation>
+    </message>
+    <message>
+        <source>Too many addresses at once.</source>
+        <translation>Tro da adresoj samtempe.</translation>
+    </message>
+    <message>
+        <source>The edition was changed in the meantime. Look at it again before you send it.</source>
+        <translation>La numero intertempe ŝanĝiĝis. Rigardu ĝin denove antaŭ ol sendi ĝin.</translation>
+    </message>
+    <message>
+        <source>The send could not be made.</source>
+        <translation>La sendo ne eblis.</translation>
+    </message>
+    <message>
+        <source>Sending to the subscribers needs "Verify it's you", which is switched off here. Send it in the administration.</source>
+        <translation>Sendi al la abonantoj bezonas "Konfirmu, ke estas vi", kio estas malŝaltita ĉi tie. Sendu ĝin en la administrado.</translation>
+    </message>
+    <message>
+        <source>Please confirm it is you first.</source>
+        <translation>Bonvolu unue konfirmi, ke estas vi.</translation>
+    </message>
+    <message>
+        <source>Editions with this page</source>
+        <translation>Numeroj kun ĉi tiu paĝo</translation>
+    </message>
+    <message>
+        <source>This page is in no edition yet.</source>
+        <translation>Ĉi tiu paĝo ankoraŭ estas en neniu numero.</translation>
+    </message>
+    <message>
+        <source>Being sent</source>
+        <translation>Sendata</translation>
+    </message>
+    <message>
+        <source>Sent, in the archive</source>
+        <translation>Sendita, en la arkivo</translation>
+    </message>
+    <message>
+        <source>Stopped</source>
+        <translation>Haltigita</translation>
+    </message>
+    <message>
+        <source>%n subscribers</source>
+        <translation>%n abonantoj</translation>
+    </message>
+    <message>
+        <source>Make an edition from this page</source>
+        <translation>Fari numeron el ĉi tiu paĝo</translation>
+    </message>
+    <message>
+        <source>There is no newsletter list where you may make an edition.</source>
+        <translation>Ne estas novaĵletera listo, kie vi rajtas fari numeron.</translation>
+    </message>
+    <message>
+        <source>Make the edition</source>
+        <translation>Fari la numeron</translation>
+    </message>
+    <message>
+        <source>Newsletter list</source>
+        <translation>Novaĵletera listo</translation>
+    </message>
+    <message>
+        <source>Introduction (optional)</source>
+        <translation>Enkonduko (nedeviga)</translation>
+    </message>
+    <message>
+        <source>This page becomes the edition's article: its title, its intro and a link to it.</source>
+        <translation>Ĉi tiu paĝo fariĝas la artikolo de la numero: ĝia titolo, ĝia enkonduko kaj ligilo al ĝi.</translation>
+    </message>
+    <message>
+        <source>The edition was made, with this page as its article.</source>
+        <translation>La numero estis farita, kun ĉi tiu paĝo kiel ĝia artikolo.</translation>
+    </message>
+    <message>
+        <source>not asked for yet</source>
+        <translation>ankoraŭ ne petita</translation>
+    </message>
+    <message>
+        <source>waiting</source>
+        <translation>atendanta</translation>
+    </message>
+    <message>
+        <source>approved</source>
+        <translation>aprobita</translation>
+    </message>
+    <message>
+        <source>rejected</source>
+        <translation>rifuzita</translation>
+    </message>
+    <message>
+        <source>Approval: %state</source>
+        <translation>Aprobo: %state</translation>
+    </message>
+    <message>
+        <source>waiting for the cronjob</source>
+        <translation>atendas la cron-taskon</translation>
+    </message>
+    <message>
+        <source>queued</source>
+        <translation>en vico</translation>
+    </message>
+    <message>
+        <source>being sent</source>
+        <translation>sendata</translation>
+    </message>
+    <message>
+        <source>sent</source>
+        <translation>sendita</translation>
+    </message>
+    <message>
+        <source>stopped</source>
+        <translation>haltigita</translation>
+    </message>
+    <message>
+        <source>Last send: %state, %time</source>
+        <translation>Lasta sendo: %state, %time</translation>
+    </message>
+    <message>
+        <source>Send a test</source>
+        <translation>Sendi teston</translation>
+    </message>
+    <message>
+        <source>The test could not be sent.</source>
+        <translation>La testo ne povis esti sendita.</translation>
+    </message>
+    <message>
+        <source>The test was sent to %list.</source>
+        <translation>La testo estis sendita al %list.</translation>
+    </message>
+    <message>
+        <source>Test addresses</source>
+        <translation>Testaj adresoj</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers</source>
+        <translation>Sendi al la abonantoj</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers ...</source>
+        <translation>Sendi al la abonantoj ...</translation>
+    </message>
+    <message>
+        <source>Send now</source>
+        <translation>Sendi nun</translation>
+    </message>
+    <message>
+        <source>The edition is queued: the newsletter's cronjob sends it to the subscribers.</source>
+        <translation>La numero estas en vico: la cron-tasko de la novaĵletero sendas ĝin al la abonantoj.</translation>
+    </message>
+    <message>
+        <source>Send "%name" to the %n subscribers of "%list" now? This cannot be taken back here.</source>
+        <translation>Ĉu sendi „%name“ al la %n abonantoj de „%list“ nun? Tio ne malfareblas ĉi tie.</translation>
+    </message>
+    <message>
+        <source>Newsletter</source>
+        <translation>Novaĵletero</translation>
+    </message>
+    <message>
+        <source>This edition is being sent.</source>
+        <translation>Ĉi tiu numero estas sendata.</translation>
+    </message>
+    <message>
+        <source>This edition was sent and is in the archive.</source>
+        <translation>Ĉi tiu numero estis sendita kaj estas en la arkivo.</translation>
+    </message>
+    <message>
+        <source>This edition waits for its approval. It can be sent when it is approved.</source>
+        <translation>Ĉi tiu numero atendas sian aprobon. Ĝi povas esti sendita, kiam ĝi estos aprobita.</translation>
+    </message>
+    <message>
+        <source>This edition was rejected. Change it and ask for the approval again.</source>
+        <translation>Ĉi tiu numero estis rifuzita. Ŝanĝu ĝin kaj petu la aprobon denove.</translation>
+    </message>
+    <message>
+        <source>The list needs an approval before an edition is sent. Ask for the approval in the administration.</source>
+        <translation>La listo bezonas aprobon antaŭ ol numero estas sendita. Petu la aprobon en la administrado.</translation>
+    </message>
+    <message>
+        <source>The list has no subscribers.</source>
+        <translation>La listo ne havas abonantojn.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Enirkesto</translation>
     </message>

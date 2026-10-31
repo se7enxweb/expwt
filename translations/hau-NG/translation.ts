@@ -1044,6 +1044,214 @@
         <translation>Fom-fom</translation>
     </message>
     <message>
+        <source>There is no such newsletter list.</source>
+        <translation>Babu irin wannan jerin wasiƙar labarai.</translation>
+    </message>
+    <message>
+        <source>The edition was made, but a workflow holds its publishing. Find it in the administration.</source>
+        <translation>An yi bugun, amma wani tsarin aiki ya riƙe wallafawarsa. Ku nemo shi a cikin gudanarwa.</translation>
+    </message>
+    <message>
+        <source>The edition was made, but the page could not be taken into it.</source>
+        <translation>An yi bugun, amma ba a iya saka shafin a ciki ba.</translation>
+    </message>
+    <message>
+        <source>There is no such edition, or you may not read it.</source>
+        <translation>Babu irin wannan bugu, ko ba a ba ku izinin karanta shi ba.</translation>
+    </message>
+    <message>
+        <source>This edition has no newsletter data.</source>
+        <translation>Wannan bugu ba shi da bayanan wasiƙar labarai.</translation>
+    </message>
+    <message>
+        <source>Some of the addresses are not valid.</source>
+        <translation>Wasu daga cikin adiresoshin ba su da inganci.</translation>
+    </message>
+    <message>
+        <source>Give at least one address.</source>
+        <translation>Ku ba da aƙalla adireshi ɗaya.</translation>
+    </message>
+    <message>
+        <source>Too many addresses at once.</source>
+        <translation>Adiresoshi sun yi yawa a lokaci ɗaya.</translation>
+    </message>
+    <message>
+        <source>The edition was changed in the meantime. Look at it again before you send it.</source>
+        <translation>An canza bugun a wannan tsakanin. Ku sake duba shi kafin ku aika.</translation>
+    </message>
+    <message>
+        <source>The send could not be made.</source>
+        <translation>Ba a iya yin aikawar ba.</translation>
+    </message>
+    <message>
+        <source>Sending to the subscribers needs "Verify it's you", which is switched off here. Send it in the administration.</source>
+        <translation>Aikawa ga masu rajista tana bukatar "Tabbatar cewa ku ne", wanda aka kashe a nan. Ku aika shi a cikin gudanarwa.</translation>
+    </message>
+    <message>
+        <source>Please confirm it is you first.</source>
+        <translation>Don Allah ku tabbatar cewa ku ne tukuna.</translation>
+    </message>
+    <message>
+        <source>Editions with this page</source>
+        <translation>Bugu masu wannan shafi</translation>
+    </message>
+    <message>
+        <source>This page is in no edition yet.</source>
+        <translation>Wannan shafi bai cikin wani bugu ba tukuna.</translation>
+    </message>
+    <message>
+        <source>Being sent</source>
+        <translation>Ana aikawa</translation>
+    </message>
+    <message>
+        <source>Sent, in the archive</source>
+        <translation>An aika, a cikin taskar ajiya</translation>
+    </message>
+    <message>
+        <source>Stopped</source>
+        <translation>An dakatar</translation>
+    </message>
+    <message>
+        <source>%n subscribers</source>
+        <translation>Masu rajista %n</translation>
+    </message>
+    <message>
+        <source>Make an edition from this page</source>
+        <translation>Yi bugu daga wannan shafi</translation>
+    </message>
+    <message>
+        <source>There is no newsletter list where you may make an edition.</source>
+        <translation>Babu jerin wasiƙar labarai inda za ku iya yin bugu.</translation>
+    </message>
+    <message>
+        <source>Make the edition</source>
+        <translation>Yi bugun</translation>
+    </message>
+    <message>
+        <source>Newsletter list</source>
+        <translation>Jerin wasiƙar labarai</translation>
+    </message>
+    <message>
+        <source>Introduction (optional)</source>
+        <translation>Gabatarwa (na zaɓi)</translation>
+    </message>
+    <message>
+        <source>This page becomes the edition's article: its title, its intro and a link to it.</source>
+        <translation>Wannan shafi zai zama labarin bugun: takensa, gabatarwarsa da hanyar haɗi zuwa gare shi.</translation>
+    </message>
+    <message>
+        <source>The edition was made, with this page as its article.</source>
+        <translation>An yi bugun, tare da wannan shafi a matsayin labarinsa.</translation>
+    </message>
+    <message>
+        <source>not asked for yet</source>
+        <translation>ba a nema ba tukuna</translation>
+    </message>
+    <message>
+        <source>waiting</source>
+        <translation>ana jira</translation>
+    </message>
+    <message>
+        <source>approved</source>
+        <translation>an amince</translation>
+    </message>
+    <message>
+        <source>rejected</source>
+        <translation>an ƙi</translation>
+    </message>
+    <message>
+        <source>Approval: %state</source>
+        <translation>Amincewa: %state</translation>
+    </message>
+    <message>
+        <source>waiting for the cronjob</source>
+        <translation>ana jiran cronjob</translation>
+    </message>
+    <message>
+        <source>queued</source>
+        <translation>a cikin layi</translation>
+    </message>
+    <message>
+        <source>being sent</source>
+        <translation>ana aikawa</translation>
+    </message>
+    <message>
+        <source>sent</source>
+        <translation>an aika</translation>
+    </message>
+    <message>
+        <source>stopped</source>
+        <translation>an dakatar</translation>
+    </message>
+    <message>
+        <source>Last send: %state, %time</source>
+        <translation>Aikawa ta ƙarshe: %state, %time</translation>
+    </message>
+    <message>
+        <source>Send a test</source>
+        <translation>Aika gwaji</translation>
+    </message>
+    <message>
+        <source>The test could not be sent.</source>
+        <translation>Ba a iya aika gwajin ba.</translation>
+    </message>
+    <message>
+        <source>The test was sent to %list.</source>
+        <translation>An aika gwajin zuwa %list.</translation>
+    </message>
+    <message>
+        <source>Test addresses</source>
+        <translation>Adiresoshin gwaji</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers</source>
+        <translation>Aika ga masu rajista</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers ...</source>
+        <translation>Aika ga masu rajista ...</translation>
+    </message>
+    <message>
+        <source>Send now</source>
+        <translation>Aika yanzu</translation>
+    </message>
+    <message>
+        <source>The edition is queued: the newsletter's cronjob sends it to the subscribers.</source>
+        <translation>Bugun yana cikin layi: cronjob na wasiƙar labarai zai aika shi ga masu rajista.</translation>
+    </message>
+    <message>
+        <source>Send "%name" to the %n subscribers of "%list" now? This cannot be taken back here.</source>
+        <translation>Aika "%name" ga masu rajista %n na "%list" yanzu? Ba za a iya mayar da wannan a nan ba.</translation>
+    </message>
+    <message>
+        <source>Newsletter</source>
+        <translation>Wasiƙar labarai</translation>
+    </message>
+    <message>
+        <source>This edition is being sent.</source>
+        <translation>Ana aika wannan bugu.</translation>
+    </message>
+    <message>
+        <source>This edition was sent and is in the archive.</source>
+        <translation>An aika wannan bugu kuma yana cikin taskar ajiya.</translation>
+    </message>
+    <message>
+        <source>This edition waits for its approval. It can be sent when it is approved.</source>
+        <translation>Wannan bugu yana jiran amincewarsa. Za a iya aika shi idan an amince da shi.</translation>
+    </message>
+    <message>
+        <source>This edition was rejected. Change it and ask for the approval again.</source>
+        <translation>An ƙi wannan bugu. Ku canza shi kuma ku sake neman amincewa.</translation>
+    </message>
+    <message>
+        <source>The list needs an approval before an edition is sent. Ask for the approval in the administration.</source>
+        <translation>Jerin yana bukatar amincewa kafin a aika bugu. Ku nemi amincewar a cikin gudanarwa.</translation>
+    </message>
+    <message>
+        <source>The list has no subscribers.</source>
+        <translation>Jerin ba shi da masu rajista.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Akwatin saƙo</translation>
     </message>

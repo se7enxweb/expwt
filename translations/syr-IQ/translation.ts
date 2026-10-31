@@ -1044,6 +1044,214 @@
         <translation>ܛܘܦ̈ܣܐ</translation>
     </message>
     <message>
+        <source>There is no such newsletter list.</source>
+        <translation>ܠܝܬ ܪܫܝܡܬܐ ܕܐܓܪܬ ܚܕ̈ܬܬܐ ܗܟܢܐ.</translation>
+    </message>
+    <message>
+        <source>The edition was made, but a workflow holds its publishing. Find it in the administration.</source>
+        <translation>ܡܦܩܬܐ ܐܬܥܒܕܬ، ܐܠܐ ܪܕܝܐ ܕܥܒܕܐ ܟܠܐ ܦܘܪܣܡܗ̇. ܐܫܟܚܝܗ̇ ܒܡܕܒܪܢܘܬܐ.</translation>
+    </message>
+    <message>
+        <source>The edition was made, but the page could not be taken into it.</source>
+        <translation>ܡܦܩܬܐ ܐܬܥܒܕܬ، ܐܠܐ ܦܐܬܐ ܠܐ ܐܫܟܚܬ ܠܡܥܠ ܒܗ̇.</translation>
+    </message>
+    <message>
+        <source>There is no such edition, or you may not read it.</source>
+        <translation>ܠܝܬ ܡܦܩܬܐ ܗܟܢܐ، ܐܘ ܠܐ ܫܠܝܛ ܠܟ ܠܡܩܪܐ ܠܗ̇.</translation>
+    </message>
+    <message>
+        <source>This edition has no newsletter data.</source>
+        <translation>ܠܡܦܩܬܐ ܗܕܐ ܠܝܬ ܝܕ̈ܥܬܐ ܕܐܓܪܬ ܚܕ̈ܬܬܐ.</translation>
+    </message>
+    <message>
+        <source>Some of the addresses are not valid.</source>
+        <translation>ܡܢ ܡܘܢ̈ܥܐ ܠܐ ܬܪ̈ܝܨܝܢ.</translation>
+    </message>
+    <message>
+        <source>Give at least one address.</source>
+        <translation>ܗܒ ܠܟܠ ܗܘ ܩܠܝܠ ܚܕ ܡܘܢܥܐ.</translation>
+    </message>
+    <message>
+        <source>Too many addresses at once.</source>
+        <translation>ܣܓܝ̈ܐܐ ܡܘܢ̈ܥܐ ܒܚܕ ܙܒܢܐ.</translation>
+    </message>
+    <message>
+        <source>The edition was changed in the meantime. Look at it again before you send it.</source>
+        <translation>ܡܦܩܬܐ ܐܫܬܚܠܦܬ ܒܝܢܬ ܙܒܢܐ. ܚܙܝ ܠܗ̇ ܬܘܒ ܩܕܡ ܕܬܫܕܪܝܗ̇.</translation>
+    </message>
+    <message>
+        <source>The send could not be made.</source>
+        <translation>ܫܕܪܐ ܠܐ ܐܫܟܚ ܠܡܬܥܒܕܘ.</translation>
+    </message>
+    <message>
+        <source>Sending to the subscribers needs "Verify it's you", which is switched off here. Send it in the administration.</source>
+        <translation>ܫܕܪܐ ܠܡܫܬܬܦܢ̈ܐ ܣܢܝܩ ܠ«ܫܪܪ ܕܐܢܬ ܗܘ»، ܕܡܛܦܝ ܗܪܟܐ. ܫܕܪܝܗ̇ ܒܡܕܒܪܢܘܬܐ.</translation>
+    </message>
+    <message>
+        <source>Please confirm it is you first.</source>
+        <translation>ܒܒܥܘܬܐ، ܫܪܪ ܩܕܡܝܬ ܕܐܢܬ ܗܘ.</translation>
+    </message>
+    <message>
+        <source>Editions with this page</source>
+        <translation>ܡܦܩ̈ܬܐ ܥܡ ܗܢܐ ܦܐܬܐ</translation>
+    </message>
+    <message>
+        <source>This page is in no edition yet.</source>
+        <translation>ܗܢܐ ܦܐܬܐ ܠܐ ܐܝܬܘܗܝ ܥܕܡܐ ܠܗܫܐ ܒܡܦܩܬܐ ܡܕܡ.</translation>
+    </message>
+    <message>
+        <source>Being sent</source>
+        <translation>ܡܫܬܕܪܐ</translation>
+    </message>
+    <message>
+        <source>Sent, in the archive</source>
+        <translation>ܐܫܬܕܪܬ، ܒܐܪܟܝܘܢ</translation>
+    </message>
+    <message>
+        <source>Stopped</source>
+        <translation>ܐܬܟܠܝܬ</translation>
+    </message>
+    <message>
+        <source>%n subscribers</source>
+        <translation>%n ܡܫܬܬܦܢ̈ܐ</translation>
+    </message>
+    <message>
+        <source>Make an edition from this page</source>
+        <translation>ܥܒܕ ܡܦܩܬܐ ܡܢ ܗܢܐ ܦܐܬܐ</translation>
+    </message>
+    <message>
+        <source>There is no newsletter list where you may make an edition.</source>
+        <translation>ܠܝܬ ܪܫܝܡܬܐ ܕܐܓܪܬ ܚܕ̈ܬܬܐ ܕܫܠܝܛ ܠܟ ܠܡܥܒܕ ܒܗ̇ ܡܦܩܬܐ.</translation>
+    </message>
+    <message>
+        <source>Make the edition</source>
+        <translation>ܥܒܕ ܡܦܩܬܐ</translation>
+    </message>
+    <message>
+        <source>Newsletter list</source>
+        <translation>ܪܫܝܡܬܐ ܕܐܓܪܬ ܚܕ̈ܬܬܐ</translation>
+    </message>
+    <message>
+        <source>Introduction (optional)</source>
+        <translation>ܦܘܬܚܐ (ܨܒܝܢܝܐ)</translation>
+    </message>
+    <message>
+        <source>This page becomes the edition's article: its title, its intro and a link to it.</source>
+        <translation>ܗܢܐ ܦܐܬܐ ܗܘܐ ܡܐܡܪܐ ܕܡܦܩܬܐ: ܫܡܗ، ܦܘܬܚܗ ܘܐܣܘܪܐ ܠܗ.</translation>
+    </message>
+    <message>
+        <source>The edition was made, with this page as its article.</source>
+        <translation>ܡܦܩܬܐ ܐܬܥܒܕܬ، ܥܡ ܗܢܐ ܦܐܬܐ ܐܝܟ ܡܐܡܪܗ̇.</translation>
+    </message>
+    <message>
+        <source>not asked for yet</source>
+        <translation>ܥܕܡܐ ܠܗܫܐ ܠܐ ܐܬܒܥܝ</translation>
+    </message>
+    <message>
+        <source>waiting</source>
+        <translation>ܡܣܟܐ</translation>
+    </message>
+    <message>
+        <source>approved</source>
+        <translation>ܐܫܬܪܪ</translation>
+    </message>
+    <message>
+        <source>rejected</source>
+        <translation>ܐܣܬܠܝ</translation>
+    </message>
+    <message>
+        <source>Approval: %state</source>
+        <translation>ܫܘܪܪܐ: %state</translation>
+    </message>
+    <message>
+        <source>waiting for the cronjob</source>
+        <translation>ܡܣܟܐ ܠcronjob</translation>
+    </message>
+    <message>
+        <source>queued</source>
+        <translation>ܒܣܕܪܐ</translation>
+    </message>
+    <message>
+        <source>being sent</source>
+        <translation>ܡܫܬܕܪ</translation>
+    </message>
+    <message>
+        <source>sent</source>
+        <translation>ܐܫܬܕܪ</translation>
+    </message>
+    <message>
+        <source>stopped</source>
+        <translation>ܐܬܟܠܝ</translation>
+    </message>
+    <message>
+        <source>Last send: %state, %time</source>
+        <translation>ܫܕܪܐ ܐܚܪܝܐ: %state، %time</translation>
+    </message>
+    <message>
+        <source>Send a test</source>
+        <translation>ܫܕܪ ܢܣܝܘܢܐ</translation>
+    </message>
+    <message>
+        <source>The test could not be sent.</source>
+        <translation>ܢܣܝܘܢܐ ܠܐ ܐܫܟܚ ܠܡܫܬܕܪܘ.</translation>
+    </message>
+    <message>
+        <source>The test was sent to %list.</source>
+        <translation>ܢܣܝܘܢܐ ܐܫܬܕܪ ܠ %list.</translation>
+    </message>
+    <message>
+        <source>Test addresses</source>
+        <translation>ܡܘܢ̈ܥܐ ܕܢܣܝܘܢܐ</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers</source>
+        <translation>ܫܕܪ ܠܡܫܬܬܦܢ̈ܐ</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers ...</source>
+        <translation>ܫܕܪ ܠܡܫܬܬܦܢ̈ܐ ...</translation>
+    </message>
+    <message>
+        <source>Send now</source>
+        <translation>ܫܕܪ ܗܫܐ</translation>
+    </message>
+    <message>
+        <source>The edition is queued: the newsletter's cronjob sends it to the subscribers.</source>
+        <translation>ܡܦܩܬܐ ܒܣܕܪܐ: cronjob ܕܐܓܪܬ ܚܕ̈ܬܬܐ ܡܫܕܪ ܠܗ̇ ܠܡܫܬܬܦܢ̈ܐ.</translation>
+    </message>
+    <message>
+        <source>Send "%name" to the %n subscribers of "%list" now? This cannot be taken back here.</source>
+        <translation>ܬܫܕܪ «%name» ܠ %n ܡܫܬܬܦܢ̈ܐ ܕ«%list» ܗܫܐ؟ ܗܕܐ ܠܐ ܡܫܟܚܐ ܠܡܬܗܦܟܘ ܗܪܟܐ.</translation>
+    </message>
+    <message>
+        <source>Newsletter</source>
+        <translation>ܐܓܪܬ ܚܕ̈ܬܬܐ</translation>
+    </message>
+    <message>
+        <source>This edition is being sent.</source>
+        <translation>ܡܦܩܬܐ ܗܕܐ ܡܫܬܕܪܐ.</translation>
+    </message>
+    <message>
+        <source>This edition was sent and is in the archive.</source>
+        <translation>ܡܦܩܬܐ ܗܕܐ ܐܫܬܕܪܬ ܘܐܝܬܝܗ̇ ܒܐܪܟܝܘܢ.</translation>
+    </message>
+    <message>
+        <source>This edition waits for its approval. It can be sent when it is approved.</source>
+        <translation>ܡܦܩܬܐ ܗܕܐ ܡܣܟܝܐ ܠܫܘܪܪܗ̇. ܡܫܟܚܐ ܠܡܫܬܕܪܘ ܡܐ ܕܐܫܬܪܪܬ.</translation>
+    </message>
+    <message>
+        <source>This edition was rejected. Change it and ask for the approval again.</source>
+        <translation>ܡܦܩܬܐ ܗܕܐ ܐܣܬܠܝܬ. ܫܚܠܦܝܗ̇ ܘܒܥܝ ܫܘܪܪܐ ܬܘܒ.</translation>
+    </message>
+    <message>
+        <source>The list needs an approval before an edition is sent. Ask for the approval in the administration.</source>
+        <translation>ܪܫܝܡܬܐ ܣܢܝܩܐ ܠܫܘܪܪܐ ܩܕܡ ܕܡܫܬܕܪܐ ܡܦܩܬܐ. ܒܥܝ ܫܘܪܪܐ ܒܡܕܒܪܢܘܬܐ.</translation>
+    </message>
+    <message>
+        <source>The list has no subscribers.</source>
+        <translation>ܠܪܫܝܡܬܐ ܠܝܬ ܡܫܬܬܦܢ̈ܐ.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>ܐܓܪ̈ܬܐ ܕܥܐܠ̈ܢ</translation>
     </message>

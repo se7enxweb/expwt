@@ -1044,6 +1044,214 @@
         <translation>Àwọn fọ́ọ̀mù</translation>
     </message>
     <message>
+        <source>There is no such newsletter list.</source>
+        <translation>Kò sí àkójọ ìwé ìròyìn bẹ́ẹ̀.</translation>
+    </message>
+    <message>
+        <source>The edition was made, but a workflow holds its publishing. Find it in the administration.</source>
+        <translation>A ti ṣe ẹ̀dà náà, ṣùgbọ́n ìlànà iṣẹ́ kan dá ìtẹ̀jáde rẹ̀ dúró. Wá a nínú ìṣàkóso.</translation>
+    </message>
+    <message>
+        <source>The edition was made, but the page could not be taken into it.</source>
+        <translation>A ti ṣe ẹ̀dà náà, ṣùgbọ́n a kò lè fi ojú-ìwé náà sínú rẹ̀.</translation>
+    </message>
+    <message>
+        <source>There is no such edition, or you may not read it.</source>
+        <translation>Kò sí ẹ̀dà bẹ́ẹ̀, tàbí a kò gbà ọ́ láàyè láti kà á.</translation>
+    </message>
+    <message>
+        <source>This edition has no newsletter data.</source>
+        <translation>Ẹ̀dà yìí kò ní dátà ìwé ìròyìn.</translation>
+    </message>
+    <message>
+        <source>Some of the addresses are not valid.</source>
+        <translation>Díẹ̀ lára àwọn àdírẹ́sì kò tọ́.</translation>
+    </message>
+    <message>
+        <source>Give at least one address.</source>
+        <translation>Fún wa ní àdírẹ́sì kan ó kéré tán.</translation>
+    </message>
+    <message>
+        <source>Too many addresses at once.</source>
+        <translation>Àdírẹ́sì ti pọ̀ jù lẹ́ẹ̀kan náà.</translation>
+    </message>
+    <message>
+        <source>The edition was changed in the meantime. Look at it again before you send it.</source>
+        <translation>A ti yí ẹ̀dà náà padà láàárín àkókò yìí. Tún wò ó kí o tó fi ránṣẹ́.</translation>
+    </message>
+    <message>
+        <source>The send could not be made.</source>
+        <translation>A kò lè ṣe ìfiránṣẹ́ náà.</translation>
+    </message>
+    <message>
+        <source>Sending to the subscribers needs "Verify it's you", which is switched off here. Send it in the administration.</source>
+        <translation>Fífi ránṣẹ́ sí àwọn olùforúkọsílẹ̀ nílò "Jẹ́rìí pé ìwọ ni", èyí tí a pa níbí. Fi ránṣẹ́ nínú ìṣàkóso.</translation>
+    </message>
+    <message>
+        <source>Please confirm it is you first.</source>
+        <translation>Jọ̀wọ́ kọ́kọ́ jẹ́rìí pé ìwọ ni.</translation>
+    </message>
+    <message>
+        <source>Editions with this page</source>
+        <translation>Àwọn ẹ̀dà tí ojú-ìwé yìí wà nínú wọn</translation>
+    </message>
+    <message>
+        <source>This page is in no edition yet.</source>
+        <translation>Ojú-ìwé yìí kò tíì sí nínú ẹ̀dà kankan.</translation>
+    </message>
+    <message>
+        <source>Being sent</source>
+        <translation>À ń fi ránṣẹ́</translation>
+    </message>
+    <message>
+        <source>Sent, in the archive</source>
+        <translation>A ti fi ránṣẹ́, ó wà ní ibi ìpamọ́</translation>
+    </message>
+    <message>
+        <source>Stopped</source>
+        <translation>A ti dá a dúró</translation>
+    </message>
+    <message>
+        <source>%n subscribers</source>
+        <translation>Olùforúkọsílẹ̀ %n</translation>
+    </message>
+    <message>
+        <source>Make an edition from this page</source>
+        <translation>Ṣe ẹ̀dà láti ojú-ìwé yìí</translation>
+    </message>
+    <message>
+        <source>There is no newsletter list where you may make an edition.</source>
+        <translation>Kò sí àkójọ ìwé ìròyìn tí o lè ṣe ẹ̀dà nínú rẹ̀.</translation>
+    </message>
+    <message>
+        <source>Make the edition</source>
+        <translation>Ṣe ẹ̀dà náà</translation>
+    </message>
+    <message>
+        <source>Newsletter list</source>
+        <translation>Àkójọ ìwé ìròyìn</translation>
+    </message>
+    <message>
+        <source>Introduction (optional)</source>
+        <translation>Ìfáàrà (àṣàyàn)</translation>
+    </message>
+    <message>
+        <source>This page becomes the edition's article: its title, its intro and a link to it.</source>
+        <translation>Ojú-ìwé yìí di àpilẹ̀kọ ẹ̀dà náà: àkọlé rẹ̀, ìfáàrà rẹ̀ àti ìjápọ̀ sí i.</translation>
+    </message>
+    <message>
+        <source>The edition was made, with this page as its article.</source>
+        <translation>A ti ṣe ẹ̀dà náà, pẹ̀lú ojú-ìwé yìí gẹ́gẹ́ bí àpilẹ̀kọ rẹ̀.</translation>
+    </message>
+    <message>
+        <source>not asked for yet</source>
+        <translation>a kò tíì béèrè</translation>
+    </message>
+    <message>
+        <source>waiting</source>
+        <translation>ó ń dúró</translation>
+    </message>
+    <message>
+        <source>approved</source>
+        <translation>a ti fọwọ́ sí i</translation>
+    </message>
+    <message>
+        <source>rejected</source>
+        <translation>a ti kọ̀ ọ́</translation>
+    </message>
+    <message>
+        <source>Approval: %state</source>
+        <translation>Ìfọwọ́sí: %state</translation>
+    </message>
+    <message>
+        <source>waiting for the cronjob</source>
+        <translation>ó ń dúró de cronjob</translation>
+    </message>
+    <message>
+        <source>queued</source>
+        <translation>ó wà ní ìlà</translation>
+    </message>
+    <message>
+        <source>being sent</source>
+        <translation>à ń fi ránṣẹ́</translation>
+    </message>
+    <message>
+        <source>sent</source>
+        <translation>a ti fi ránṣẹ́</translation>
+    </message>
+    <message>
+        <source>stopped</source>
+        <translation>a ti dá a dúró</translation>
+    </message>
+    <message>
+        <source>Last send: %state, %time</source>
+        <translation>Ìfiránṣẹ́ tó kẹ́yìn: %state, %time</translation>
+    </message>
+    <message>
+        <source>Send a test</source>
+        <translation>Fi ìdánwò ránṣẹ́</translation>
+    </message>
+    <message>
+        <source>The test could not be sent.</source>
+        <translation>A kò lè fi ìdánwò náà ránṣẹ́.</translation>
+    </message>
+    <message>
+        <source>The test was sent to %list.</source>
+        <translation>A ti fi ìdánwò náà ránṣẹ́ sí %list.</translation>
+    </message>
+    <message>
+        <source>Test addresses</source>
+        <translation>Àwọn àdírẹ́sì ìdánwò</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers</source>
+        <translation>Fi ránṣẹ́ sí àwọn olùforúkọsílẹ̀</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers ...</source>
+        <translation>Fi ránṣẹ́ sí àwọn olùforúkọsílẹ̀ ...</translation>
+    </message>
+    <message>
+        <source>Send now</source>
+        <translation>Fi ránṣẹ́ báyìí</translation>
+    </message>
+    <message>
+        <source>The edition is queued: the newsletter's cronjob sends it to the subscribers.</source>
+        <translation>Ẹ̀dà náà wà ní ìlà: cronjob ìwé ìròyìn náà yóò fi ránṣẹ́ sí àwọn olùforúkọsílẹ̀.</translation>
+    </message>
+    <message>
+        <source>Send "%name" to the %n subscribers of "%list" now? This cannot be taken back here.</source>
+        <translation>Fi "%name" ránṣẹ́ sí àwọn olùforúkọsílẹ̀ %n ti "%list" báyìí? A kò lè dá èyí padà níbí.</translation>
+    </message>
+    <message>
+        <source>Newsletter</source>
+        <translation>Ìwé ìròyìn</translation>
+    </message>
+    <message>
+        <source>This edition is being sent.</source>
+        <translation>À ń fi ẹ̀dà yìí ránṣẹ́.</translation>
+    </message>
+    <message>
+        <source>This edition was sent and is in the archive.</source>
+        <translation>A ti fi ẹ̀dà yìí ránṣẹ́, ó sì wà ní ibi ìpamọ́.</translation>
+    </message>
+    <message>
+        <source>This edition waits for its approval. It can be sent when it is approved.</source>
+        <translation>Ẹ̀dà yìí ń dúró de ìfọwọ́sí rẹ̀. A lè fi ránṣẹ́ nígbà tí a bá fọwọ́ sí i.</translation>
+    </message>
+    <message>
+        <source>This edition was rejected. Change it and ask for the approval again.</source>
+        <translation>A ti kọ ẹ̀dà yìí. Yí i padà kí o sì tún béèrè ìfọwọ́sí.</translation>
+    </message>
+    <message>
+        <source>The list needs an approval before an edition is sent. Ask for the approval in the administration.</source>
+        <translation>Àkójọ náà nílò ìfọwọ́sí kí a tó fi ẹ̀dà ránṣẹ́. Béèrè ìfọwọ́sí nínú ìṣàkóso.</translation>
+    </message>
+    <message>
+        <source>The list has no subscribers.</source>
+        <translation>Àkójọ náà kò ní olùforúkọsílẹ̀ kankan.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Àpótí ìwọlé</translation>
     </message>

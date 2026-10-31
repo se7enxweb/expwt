@@ -119,7 +119,8 @@ class expwtHook
 
     /**
      * @param string|null $uri the request's path (default: this request's)
-     * @return bool a page of the sidebar's frame: ?in=sidebar, a field's editor (expwt/field) or a page in the
+     * @return bool a page of the sidebar's frame: ?in=sidebar, a field's editor (expwt/field), the small window of
+     *              "Verify it's you" (expwt/reauth: the sidebar would cover the kernel's form there) or a page in the
      *              frame's layout (layout/set/expwtframe)
      */
     public static function framePage( $uri = null )
@@ -133,7 +134,7 @@ class expwtHook
         $path = '/' . ltrim( (string)parse_url( (string)$uri, PHP_URL_PATH ), '/' );
         if ( strpos( (string)$uri, 'in=sidebar' ) !== false )
             return true;
-        return (bool)preg_match( '#(^|/)(expwt/field|layout/set/expwtframe)(/|$)#', $path );
+        return (bool)preg_match( '#(^|/)(expwt/field|expwt/reauth|layout/set/expwtframe)(/|$)#', $path );
     }
 
     /**

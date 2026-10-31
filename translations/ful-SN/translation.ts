@@ -1044,6 +1044,214 @@
         <translation>Fommeeji</translation>
     </message>
     <message>
+        <source>There is no such newsletter list.</source>
+        <translation>Doggol kabaruuji ngol alaa.</translation>
+    </message>
+    <message>
+        <source>The edition was made, but a workflow holds its publishing. Find it in the administration.</source>
+        <translation>Yaltinol ngol waɗaama, kono laawol golle ina haɗa yaltinde ngol. Yiytu ngol e jiiloowo.</translation>
+    </message>
+    <message>
+        <source>The edition was made, but the page could not be taken into it.</source>
+        <translation>Yaltinol ngol waɗaama, kono hello ngo waawaaka naatneede e mayru.</translation>
+    </message>
+    <message>
+        <source>There is no such edition, or you may not read it.</source>
+        <translation>Yaltinol ngol alaa, walla a alaa jamirol ngam janngude ngol.</translation>
+    </message>
+    <message>
+        <source>This edition has no newsletter data.</source>
+        <translation>Yaltinol ngol alaa keɓe kabaruuji.</translation>
+    </message>
+    <message>
+        <source>Some of the addresses are not valid.</source>
+        <translation>Won e ñiiɓirɗe ɗe moƴƴaani.</translation>
+    </message>
+    <message>
+        <source>Give at least one address.</source>
+        <translation>Hokku ñiiɓirde gooto tal.</translation>
+    </message>
+    <message>
+        <source>Too many addresses at once.</source>
+        <translation>Ñiiɓirɗe keewɗe no feewi e won sahaa.</translation>
+    </message>
+    <message>
+        <source>The edition was changed in the meantime. Look at it again before you send it.</source>
+        <translation>Yaltinol ngol waylaama e nder ɗuum. Ndaar ngol kadi hade maa neldude ngol.</translation>
+    </message>
+    <message>
+        <source>The send could not be made.</source>
+        <translation>Neldugol ngol waawaaka.</translation>
+    </message>
+    <message>
+        <source>Sending to the subscribers needs "Verify it's you", which is switched off here. Send it in the administration.</source>
+        <translation>Neldude e jokkuɓe ina naamni "Teeŋtin wonde ko aan", ɗum maayniraa ɗoo. Neldu ngol e jiiloowo.</translation>
+    </message>
+    <message>
+        <source>Please confirm it is you first.</source>
+        <translation>Useni, teeŋtin adan wonde ko aan.</translation>
+    </message>
+    <message>
+        <source>Editions with this page</source>
+        <translation>Yaltinoli jogiiɗi hello ngoo</translation>
+    </message>
+    <message>
+        <source>This page is in no edition yet.</source>
+        <translation>Hello ngoo alaa e yaltinol ɓooyaani.</translation>
+    </message>
+    <message>
+        <source>Being sent</source>
+        <translation>Ina neldee</translation>
+    </message>
+    <message>
+        <source>Sent, in the archive</source>
+        <translation>Neldaama, e ndeenkaa</translation>
+    </message>
+    <message>
+        <source>Stopped</source>
+        <translation>Daraama</translation>
+    </message>
+    <message>
+        <source>%n subscribers</source>
+        <translation>Jokkuɓe %n</translation>
+    </message>
+    <message>
+        <source>Make an edition from this page</source>
+        <translation>Waɗ yaltinol iwde e hello ngoo</translation>
+    </message>
+    <message>
+        <source>There is no newsletter list where you may make an edition.</source>
+        <translation>Alaa doggol kabaruuji ɗo a waawi waɗde yaltinol.</translation>
+    </message>
+    <message>
+        <source>Make the edition</source>
+        <translation>Waɗ yaltinol ngol</translation>
+    </message>
+    <message>
+        <source>Newsletter list</source>
+        <translation>Doggol kabaruuji</translation>
+    </message>
+    <message>
+        <source>Introduction (optional)</source>
+        <translation>Naatnirde (suɓaade)</translation>
+    </message>
+    <message>
+        <source>This page becomes the edition's article: its title, its intro and a link to it.</source>
+        <translation>Hello ngoo wontay winndannde yaltinol ngol: tiitoonde mum, naatnirde mum e jokkol fayde e mayru.</translation>
+    </message>
+    <message>
+        <source>The edition was made, with this page as its article.</source>
+        <translation>Yaltinol ngol waɗaama, hello ngoo ko winndannde mum.</translation>
+    </message>
+    <message>
+        <source>not asked for yet</source>
+        <translation>naamnaaka tawo</translation>
+    </message>
+    <message>
+        <source>waiting</source>
+        <translation>ina habba</translation>
+    </message>
+    <message>
+        <source>approved</source>
+        <translation>jaɓaama</translation>
+    </message>
+    <message>
+        <source>rejected</source>
+        <translation>salaama</translation>
+    </message>
+    <message>
+        <source>Approval: %state</source>
+        <translation>Jaɓgol: %state</translation>
+    </message>
+    <message>
+        <source>waiting for the cronjob</source>
+        <translation>ina habba cronjob</translation>
+    </message>
+    <message>
+        <source>queued</source>
+        <translation>e tolno</translation>
+    </message>
+    <message>
+        <source>being sent</source>
+        <translation>ina neldee</translation>
+    </message>
+    <message>
+        <source>sent</source>
+        <translation>neldaama</translation>
+    </message>
+    <message>
+        <source>stopped</source>
+        <translation>daraama</translation>
+    </message>
+    <message>
+        <source>Last send: %state, %time</source>
+        <translation>Neldugol sakkitiingol: %state, %time</translation>
+    </message>
+    <message>
+        <source>Send a test</source>
+        <translation>Neldu ƴeewndo</translation>
+    </message>
+    <message>
+        <source>The test could not be sent.</source>
+        <translation>Ƴeewndo ngo waawaaka neldeede.</translation>
+    </message>
+    <message>
+        <source>The test was sent to %list.</source>
+        <translation>Ƴeewndo ngo neldaama e %list.</translation>
+    </message>
+    <message>
+        <source>Test addresses</source>
+        <translation>Ñiiɓirɗe ƴeewndo</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers</source>
+        <translation>Neldu e jokkuɓe</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers ...</source>
+        <translation>Neldu e jokkuɓe ...</translation>
+    </message>
+    <message>
+        <source>Send now</source>
+        <translation>Neldu jooni</translation>
+    </message>
+    <message>
+        <source>The edition is queued: the newsletter's cronjob sends it to the subscribers.</source>
+        <translation>Yaltinol ngol ina e tolno: cronjob kabaruuji ngonka neldoyay ngol e jokkuɓe.</translation>
+    </message>
+    <message>
+        <source>Send "%name" to the %n subscribers of "%list" now? This cannot be taken back here.</source>
+        <translation>Neldu "%name" e jokkuɓe %n "%list" jooni? Ɗum waawaa ruttineede ɗoo.</translation>
+    </message>
+    <message>
+        <source>Newsletter</source>
+        <translation>Kabaruuji</translation>
+    </message>
+    <message>
+        <source>This edition is being sent.</source>
+        <translation>Yaltinol ngol ina neldee.</translation>
+    </message>
+    <message>
+        <source>This edition was sent and is in the archive.</source>
+        <translation>Yaltinol ngol neldaama, ina e ndeenkaa.</translation>
+    </message>
+    <message>
+        <source>This edition waits for its approval. It can be sent when it is approved.</source>
+        <translation>Yaltinol ngol ina habba jaɓgol mum. Ina waawi neldeede so jaɓaama.</translation>
+    </message>
+    <message>
+        <source>This edition was rejected. Change it and ask for the approval again.</source>
+        <translation>Yaltinol ngol salaama. Waylu ngol, naamnito jaɓgol kadi.</translation>
+    </message>
+    <message>
+        <source>The list needs an approval before an edition is sent. Ask for the approval in the administration.</source>
+        <translation>Doggol ngol ina naamni jaɓgol hade yaltinol neldeede. Naamnito jaɓgol e jiiloowo.</translation>
+    </message>
+    <message>
+        <source>The list has no subscribers.</source>
+        <translation>Doggol ngol alaa jokkuɓe.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Naatirde</translation>
     </message>

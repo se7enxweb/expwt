@@ -1044,6 +1044,214 @@
         <translation>Formulars</translation>
     </message>
     <message>
+        <source>There is no such newsletter list.</source>
+        <translation>Quella glista da newsletter n'exista betg.</translation>
+    </message>
+    <message>
+        <source>The edition was made, but a workflow holds its publishing. Find it in the administration.</source>
+        <translation>L'ediziun è vegnida fatga, ma in andament da lavur retegna sia publicaziun. Chattai ella en l'administraziun.</translation>
+    </message>
+    <message>
+        <source>The edition was made, but the page could not be taken into it.</source>
+        <translation>L'ediziun è vegnida fatga, ma la pagina n'ha betg pudì vegnir integrada.</translation>
+    </message>
+    <message>
+        <source>There is no such edition, or you may not read it.</source>
+        <translation>Quella ediziun n'exista betg, u vus na dastgais betg la leger.</translation>
+    </message>
+    <message>
+        <source>This edition has no newsletter data.</source>
+        <translation>Questa ediziun n'ha naginas datas da newsletter.</translation>
+    </message>
+    <message>
+        <source>Some of the addresses are not valid.</source>
+        <translation>Intginas da las adressas n'èn betg valaivlas.</translation>
+    </message>
+    <message>
+        <source>Give at least one address.</source>
+        <translation>Inditgai almain ina adressa.</translation>
+    </message>
+    <message>
+        <source>Too many addresses at once.</source>
+        <translation>Memia bleras adressas en ina giada.</translation>
+    </message>
+    <message>
+        <source>The edition was changed in the meantime. Look at it again before you send it.</source>
+        <translation>L'ediziun è vegnida midada en il fratemp. Guardai ella anc ina giada avant che la trametter.</translation>
+    </message>
+    <message>
+        <source>The send could not be made.</source>
+        <translation>La spediziun n'ha betg pudì vegnir fatga.</translation>
+    </message>
+    <message>
+        <source>Sending to the subscribers needs "Verify it's you", which is switched off here. Send it in the administration.</source>
+        <translation>La spediziun als abunents dovra «Confermai che Vus essas Vus», che è deactivà qua. Tramettai ella en l'administraziun.</translation>
+    </message>
+    <message>
+        <source>Please confirm it is you first.</source>
+        <translation>Confermai l'emprim che vus essas vus.</translation>
+    </message>
+    <message>
+        <source>Editions with this page</source>
+        <translation>Ediziuns cun questa pagina</translation>
+    </message>
+    <message>
+        <source>This page is in no edition yet.</source>
+        <translation>Questa pagina n'è anc en nagina ediziun.</translation>
+    </message>
+    <message>
+        <source>Being sent</source>
+        <translation>Vegn tramessa</translation>
+    </message>
+    <message>
+        <source>Sent, in the archive</source>
+        <translation>Tramessa, en l'archiv</translation>
+    </message>
+    <message>
+        <source>Stopped</source>
+        <translation>Fermada</translation>
+    </message>
+    <message>
+        <source>%n subscribers</source>
+        <translation>%n abunents</translation>
+    </message>
+    <message>
+        <source>Make an edition from this page</source>
+        <translation>Far ina ediziun da questa pagina</translation>
+    </message>
+    <message>
+        <source>There is no newsletter list where you may make an edition.</source>
+        <translation>I na dat nagina glista da newsletter, nua che vus dastgais far ina ediziun.</translation>
+    </message>
+    <message>
+        <source>Make the edition</source>
+        <translation>Far l'ediziun</translation>
+    </message>
+    <message>
+        <source>Newsletter list</source>
+        <translation>Glista da newsletter</translation>
+    </message>
+    <message>
+        <source>Introduction (optional)</source>
+        <translation>Introducziun (facultativ)</translation>
+    </message>
+    <message>
+        <source>This page becomes the edition's article: its title, its intro and a link to it.</source>
+        <translation>Questa pagina daventa l'artitgel da l'ediziun: ses titel, sia introducziun ed ina colliaziun ad ella.</translation>
+    </message>
+    <message>
+        <source>The edition was made, with this page as its article.</source>
+        <translation>L'ediziun è vegnida fatga, cun questa pagina sco artitgel.</translation>
+    </message>
+    <message>
+        <source>not asked for yet</source>
+        <translation>anc betg dumandà</translation>
+    </message>
+    <message>
+        <source>waiting</source>
+        <translation>en spetga</translation>
+    </message>
+    <message>
+        <source>approved</source>
+        <translation>approvà</translation>
+    </message>
+    <message>
+        <source>rejected</source>
+        <translation>refusà</translation>
+    </message>
+    <message>
+        <source>Approval: %state</source>
+        <translation>Approvaziun: %state</translation>
+    </message>
+    <message>
+        <source>waiting for the cronjob</source>
+        <translation>spetga sin il cronjob</translation>
+    </message>
+    <message>
+        <source>queued</source>
+        <translation>en la rotscha</translation>
+    </message>
+    <message>
+        <source>being sent</source>
+        <translation>vegn tramess</translation>
+    </message>
+    <message>
+        <source>sent</source>
+        <translation>tramess</translation>
+    </message>
+    <message>
+        <source>stopped</source>
+        <translation>fermà</translation>
+    </message>
+    <message>
+        <source>Last send: %state, %time</source>
+        <translation>Ultima spediziun: %state, %time</translation>
+    </message>
+    <message>
+        <source>Send a test</source>
+        <translation>Trametter in test</translation>
+    </message>
+    <message>
+        <source>The test could not be sent.</source>
+        <translation>Il test n'ha betg pudì vegnir tramess.</translation>
+    </message>
+    <message>
+        <source>The test was sent to %list.</source>
+        <translation>Il test è vegnì tramess a %list.</translation>
+    </message>
+    <message>
+        <source>Test addresses</source>
+        <translation>Adressas da test</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers</source>
+        <translation>Trametter als abunents</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers ...</source>
+        <translation>Trametter als abunents ...</translation>
+    </message>
+    <message>
+        <source>Send now</source>
+        <translation>Trametter ussa</translation>
+    </message>
+    <message>
+        <source>The edition is queued: the newsletter's cronjob sends it to the subscribers.</source>
+        <translation>L'ediziun è en la rotscha: il cronjob da la newsletter la trametta als abunents.</translation>
+    </message>
+    <message>
+        <source>Send "%name" to the %n subscribers of "%list" now? This cannot be taken back here.</source>
+        <translation>Trametter ussa «%name» als %n abunents da «%list»? Quai na po betg vegnir revocà qua.</translation>
+    </message>
+    <message>
+        <source>Newsletter</source>
+        <translation>Newsletter</translation>
+    </message>
+    <message>
+        <source>This edition is being sent.</source>
+        <translation>Questa ediziun vegn tramessa.</translation>
+    </message>
+    <message>
+        <source>This edition was sent and is in the archive.</source>
+        <translation>Questa ediziun è vegnida tramessa ed è en l'archiv.</translation>
+    </message>
+    <message>
+        <source>This edition waits for its approval. It can be sent when it is approved.</source>
+        <translation>Questa ediziun spetga sia approvaziun. Ella po vegnir tramessa cur ch'ella è approvada.</translation>
+    </message>
+    <message>
+        <source>This edition was rejected. Change it and ask for the approval again.</source>
+        <translation>Questa ediziun è vegnida refusada. Midai ella e dumandai danovamain l'approvaziun.</translation>
+    </message>
+    <message>
+        <source>The list needs an approval before an edition is sent. Ask for the approval in the administration.</source>
+        <translation>La glista dovra in'approvaziun avant che trametter in'ediziun. Dumandai l'approvaziun en l'administraziun.</translation>
+    </message>
+    <message>
+        <source>The list has no subscribers.</source>
+        <translation>La glista n'ha nagins abunents.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Chascha d'entrada</translation>
     </message>

@@ -1044,6 +1044,214 @@
         <translation>Mga form</translation>
     </message>
     <message>
+        <source>There is no such newsletter list.</source>
+        <translation>Walang ganitong listahan ng newsletter.</translation>
+    </message>
+    <message>
+        <source>The edition was made, but a workflow holds its publishing. Find it in the administration.</source>
+        <translation>Nagawa ang edisyon, pero may workflow na pumipigil sa pag-publish nito. Hanapin ito sa administrasyon.</translation>
+    </message>
+    <message>
+        <source>The edition was made, but the page could not be taken into it.</source>
+        <translation>Nagawa ang edisyon, pero hindi naisama rito ang pahina.</translation>
+    </message>
+    <message>
+        <source>There is no such edition, or you may not read it.</source>
+        <translation>Walang ganitong edisyon, o hindi mo ito puwedeng basahin.</translation>
+    </message>
+    <message>
+        <source>This edition has no newsletter data.</source>
+        <translation>Walang data ng newsletter ang edisyong ito.</translation>
+    </message>
+    <message>
+        <source>Some of the addresses are not valid.</source>
+        <translation>May ilang address na hindi wasto.</translation>
+    </message>
+    <message>
+        <source>Give at least one address.</source>
+        <translation>Magbigay ng kahit isang address.</translation>
+    </message>
+    <message>
+        <source>Too many addresses at once.</source>
+        <translation>Masyadong maraming address nang sabay-sabay.</translation>
+    </message>
+    <message>
+        <source>The edition was changed in the meantime. Look at it again before you send it.</source>
+        <translation>Nabago ang edisyon habang wala ka. Tingnan itong muli bago mo ipadala.</translation>
+    </message>
+    <message>
+        <source>The send could not be made.</source>
+        <translation>Hindi naipadala.</translation>
+    </message>
+    <message>
+        <source>Sending to the subscribers needs "Verify it's you", which is switched off here. Send it in the administration.</source>
+        <translation>Ang pagpapadala sa mga subscriber ay nangangailangan ng "Patunayang ikaw ito", na naka-off dito. Ipadala ito sa administrasyon.</translation>
+    </message>
+    <message>
+        <source>Please confirm it is you first.</source>
+        <translation>Pakikumpirma muna na ikaw ito.</translation>
+    </message>
+    <message>
+        <source>Editions with this page</source>
+        <translation>Mga edisyong may ganitong pahina</translation>
+    </message>
+    <message>
+        <source>This page is in no edition yet.</source>
+        <translation>Wala pa sa anumang edisyon ang pahinang ito.</translation>
+    </message>
+    <message>
+        <source>Being sent</source>
+        <translation>Ipinapadala</translation>
+    </message>
+    <message>
+        <source>Sent, in the archive</source>
+        <translation>Naipadala, nasa archive</translation>
+    </message>
+    <message>
+        <source>Stopped</source>
+        <translation>Itinigil</translation>
+    </message>
+    <message>
+        <source>%n subscribers</source>
+        <translation>%n subscriber</translation>
+    </message>
+    <message>
+        <source>Make an edition from this page</source>
+        <translation>Gumawa ng edisyon mula sa pahinang ito</translation>
+    </message>
+    <message>
+        <source>There is no newsletter list where you may make an edition.</source>
+        <translation>Walang listahan ng newsletter kung saan puwede kang gumawa ng edisyon.</translation>
+    </message>
+    <message>
+        <source>Make the edition</source>
+        <translation>Gawin ang edisyon</translation>
+    </message>
+    <message>
+        <source>Newsletter list</source>
+        <translation>Listahan ng newsletter</translation>
+    </message>
+    <message>
+        <source>Introduction (optional)</source>
+        <translation>Panimula (opsyonal)</translation>
+    </message>
+    <message>
+        <source>This page becomes the edition's article: its title, its intro and a link to it.</source>
+        <translation>Magiging artikulo ng edisyon ang pahinang ito: ang pamagat nito, ang panimula nito, at isang link dito.</translation>
+    </message>
+    <message>
+        <source>The edition was made, with this page as its article.</source>
+        <translation>Nagawa ang edisyon, kasama ang pahinang ito bilang artikulo.</translation>
+    </message>
+    <message>
+        <source>not asked for yet</source>
+        <translation>hindi pa hinihiling</translation>
+    </message>
+    <message>
+        <source>waiting</source>
+        <translation>naghihintay</translation>
+    </message>
+    <message>
+        <source>approved</source>
+        <translation>aprubado</translation>
+    </message>
+    <message>
+        <source>rejected</source>
+        <translation>tinanggihan</translation>
+    </message>
+    <message>
+        <source>Approval: %state</source>
+        <translation>Pag-apruba: %state</translation>
+    </message>
+    <message>
+        <source>waiting for the cronjob</source>
+        <translation>naghihintay sa cronjob</translation>
+    </message>
+    <message>
+        <source>queued</source>
+        <translation>nakapila</translation>
+    </message>
+    <message>
+        <source>being sent</source>
+        <translation>ipinapadala</translation>
+    </message>
+    <message>
+        <source>sent</source>
+        <translation>naipadala</translation>
+    </message>
+    <message>
+        <source>stopped</source>
+        <translation>itinigil</translation>
+    </message>
+    <message>
+        <source>Last send: %state, %time</source>
+        <translation>Huling pagpapadala: %state, %time</translation>
+    </message>
+    <message>
+        <source>Send a test</source>
+        <translation>Magpadala ng test</translation>
+    </message>
+    <message>
+        <source>The test could not be sent.</source>
+        <translation>Hindi maipadala ang test.</translation>
+    </message>
+    <message>
+        <source>The test was sent to %list.</source>
+        <translation>Naipadala ang test sa %list.</translation>
+    </message>
+    <message>
+        <source>Test addresses</source>
+        <translation>Mga test address</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers</source>
+        <translation>Ipadala sa mga subscriber</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers ...</source>
+        <translation>Ipadala sa mga subscriber ...</translation>
+    </message>
+    <message>
+        <source>Send now</source>
+        <translation>Ipadala ngayon</translation>
+    </message>
+    <message>
+        <source>The edition is queued: the newsletter's cronjob sends it to the subscribers.</source>
+        <translation>Nakapila ang edisyon: ipapadala ito ng cronjob ng newsletter sa mga subscriber.</translation>
+    </message>
+    <message>
+        <source>Send "%name" to the %n subscribers of "%list" now? This cannot be taken back here.</source>
+        <translation>Ipadala na ngayon ang "%name" sa %n subscriber ng "%list"? Hindi na ito mababawi rito.</translation>
+    </message>
+    <message>
+        <source>Newsletter</source>
+        <translation>Newsletter</translation>
+    </message>
+    <message>
+        <source>This edition is being sent.</source>
+        <translation>Ipinapadala ang edisyong ito.</translation>
+    </message>
+    <message>
+        <source>This edition was sent and is in the archive.</source>
+        <translation>Naipadala na ang edisyong ito at nasa archive.</translation>
+    </message>
+    <message>
+        <source>This edition waits for its approval. It can be sent when it is approved.</source>
+        <translation>Naghihintay ng pag-apruba ang edisyong ito. Maipapadala ito kapag naaprubahan.</translation>
+    </message>
+    <message>
+        <source>This edition was rejected. Change it and ask for the approval again.</source>
+        <translation>Tinanggihan ang edisyong ito. Baguhin ito at humiling muli ng pag-apruba.</translation>
+    </message>
+    <message>
+        <source>The list needs an approval before an edition is sent. Ask for the approval in the administration.</source>
+        <translation>Kailangan ng listahan ng pag-apruba bago magpadala ng edisyon. Humiling ng pag-apruba sa administrasyon.</translation>
+    </message>
+    <message>
+        <source>The list has no subscribers.</source>
+        <translation>Walang subscriber ang listahan.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Inbox</translation>
     </message>

@@ -1044,6 +1044,214 @@
         <translation>Fọm</translation>
     </message>
     <message>
+        <source>There is no such newsletter list.</source>
+        <translation>Enweghị ndepụta akwụkwọ ozi dị otú ahụ.</translation>
+    </message>
+    <message>
+        <source>The edition was made, but a workflow holds its publishing. Find it in the administration.</source>
+        <translation>Emere mbipụta ahụ, mana usoro ọrụ na-egbochi ibipụta ya. Chọta ya na nchịkwa.</translation>
+    </message>
+    <message>
+        <source>The edition was made, but the page could not be taken into it.</source>
+        <translation>Emere mbipụta ahụ, mana enweghị ike itinye ibe ahụ n'ime ya.</translation>
+    </message>
+    <message>
+        <source>There is no such edition, or you may not read it.</source>
+        <translation>Enweghị mbipụta dị otú ahụ, ma ọ bụ na ị gaghị agụ ya.</translation>
+    </message>
+    <message>
+        <source>This edition has no newsletter data.</source>
+        <translation>Mbipụta a enweghị data akwụkwọ ozi.</translation>
+    </message>
+    <message>
+        <source>Some of the addresses are not valid.</source>
+        <translation>Ụfọdụ adreesị ezighi ezi.</translation>
+    </message>
+    <message>
+        <source>Give at least one address.</source>
+        <translation>Nye opekata mpe otu adreesị.</translation>
+    </message>
+    <message>
+        <source>Too many addresses at once.</source>
+        <translation>Adreesị dị ukwuu n'otu oge.</translation>
+    </message>
+    <message>
+        <source>The edition was changed in the meantime. Look at it again before you send it.</source>
+        <translation>A gbanwere mbipụta ahụ n'oge a. Lelee ya ọzọ tupu i zipu ya.</translation>
+    </message>
+    <message>
+        <source>The send could not be made.</source>
+        <translation>Enweghị ike izipu ya.</translation>
+    </message>
+    <message>
+        <source>Sending to the subscribers needs "Verify it's you", which is switched off here. Send it in the administration.</source>
+        <translation>Izipu ndị debanyere aha chọrọ "Gosi na ọ bụ gị", nke agbanyụrụ ebe a. Zipu ya na nchịkwa.</translation>
+    </message>
+    <message>
+        <source>Please confirm it is you first.</source>
+        <translation>Biko buru ụzọ gosi na ọ bụ gị.</translation>
+    </message>
+    <message>
+        <source>Editions with this page</source>
+        <translation>Mbipụta nwere ibe a</translation>
+    </message>
+    <message>
+        <source>This page is in no edition yet.</source>
+        <translation>Ibe a anọbeghị na mbipụta ọ bụla.</translation>
+    </message>
+    <message>
+        <source>Being sent</source>
+        <translation>A na-eziga ya</translation>
+    </message>
+    <message>
+        <source>Sent, in the archive</source>
+        <translation>Ezigara, n'ebe nchekwa</translation>
+    </message>
+    <message>
+        <source>Stopped</source>
+        <translation>Akwụsịrị</translation>
+    </message>
+    <message>
+        <source>%n subscribers</source>
+        <translation>Ndị debanyere aha %n</translation>
+    </message>
+    <message>
+        <source>Make an edition from this page</source>
+        <translation>Mee mbipụta site na ibe a</translation>
+    </message>
+    <message>
+        <source>There is no newsletter list where you may make an edition.</source>
+        <translation>Enweghị ndepụta akwụkwọ ozi ebe ị nwere ike ime mbipụta.</translation>
+    </message>
+    <message>
+        <source>Make the edition</source>
+        <translation>Mee mbipụta ahụ</translation>
+    </message>
+    <message>
+        <source>Newsletter list</source>
+        <translation>Ndepụta akwụkwọ ozi</translation>
+    </message>
+    <message>
+        <source>Introduction (optional)</source>
+        <translation>Okwu mmeghe (nhọrọ)</translation>
+    </message>
+    <message>
+        <source>This page becomes the edition's article: its title, its intro and a link to it.</source>
+        <translation>Ibe a ga-abụ isiokwu mbipụta ahụ: aha ya, okwu mmeghe ya na njikọ gaa na ya.</translation>
+    </message>
+    <message>
+        <source>The edition was made, with this page as its article.</source>
+        <translation>Emere mbipụta ahụ, ya na ibe a dị ka isiokwu ya.</translation>
+    </message>
+    <message>
+        <source>not asked for yet</source>
+        <translation>a rịọbeghị ya</translation>
+    </message>
+    <message>
+        <source>waiting</source>
+        <translation>na-eche</translation>
+    </message>
+    <message>
+        <source>approved</source>
+        <translation>akwadoro</translation>
+    </message>
+    <message>
+        <source>rejected</source>
+        <translation>a jụrụ</translation>
+    </message>
+    <message>
+        <source>Approval: %state</source>
+        <translation>Nkwado: %state</translation>
+    </message>
+    <message>
+        <source>waiting for the cronjob</source>
+        <translation>na-eche cronjob</translation>
+    </message>
+    <message>
+        <source>queued</source>
+        <translation>n'ahịrị</translation>
+    </message>
+    <message>
+        <source>being sent</source>
+        <translation>a na-eziga</translation>
+    </message>
+    <message>
+        <source>sent</source>
+        <translation>ezigara</translation>
+    </message>
+    <message>
+        <source>stopped</source>
+        <translation>akwụsịrị</translation>
+    </message>
+    <message>
+        <source>Last send: %state, %time</source>
+        <translation>Nziga ikpeazụ: %state, %time</translation>
+    </message>
+    <message>
+        <source>Send a test</source>
+        <translation>Zipu ule</translation>
+    </message>
+    <message>
+        <source>The test could not be sent.</source>
+        <translation>Enweghị ike izipu ule ahụ.</translation>
+    </message>
+    <message>
+        <source>The test was sent to %list.</source>
+        <translation>Ezigara ule ahụ na %list.</translation>
+    </message>
+    <message>
+        <source>Test addresses</source>
+        <translation>Adreesị ule</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers</source>
+        <translation>Zipu ndị debanyere aha</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers ...</source>
+        <translation>Zipu ndị debanyere aha ...</translation>
+    </message>
+    <message>
+        <source>Send now</source>
+        <translation>Zipu ugbu a</translation>
+    </message>
+    <message>
+        <source>The edition is queued: the newsletter's cronjob sends it to the subscribers.</source>
+        <translation>Mbipụta ahụ nọ n'ahịrị: cronjob akwụkwọ ozi ga-ezigara ya ndị debanyere aha.</translation>
+    </message>
+    <message>
+        <source>Send "%name" to the %n subscribers of "%list" now? This cannot be taken back here.</source>
+        <translation>Zipu "%name" ugbu a nye ndị debanyere aha %n nke "%list"? A pụghị ịlaghachi nke a ebe a.</translation>
+    </message>
+    <message>
+        <source>Newsletter</source>
+        <translation>Akwụkwọ ozi</translation>
+    </message>
+    <message>
+        <source>This edition is being sent.</source>
+        <translation>A na-eziga mbipụta a.</translation>
+    </message>
+    <message>
+        <source>This edition was sent and is in the archive.</source>
+        <translation>Ezigara mbipụta a ma ọ nọ n'ebe nchekwa.</translation>
+    </message>
+    <message>
+        <source>This edition waits for its approval. It can be sent when it is approved.</source>
+        <translation>Mbipụta a na-eche nkwado ya. Enwere ike izipu ya mgbe akwadoro ya.</translation>
+    </message>
+    <message>
+        <source>This edition was rejected. Change it and ask for the approval again.</source>
+        <translation>A jụrụ mbipụta a. Gbanwee ya ma rịọ maka nkwado ọzọ.</translation>
+    </message>
+    <message>
+        <source>The list needs an approval before an edition is sent. Ask for the approval in the administration.</source>
+        <translation>Ndepụta ahụ chọrọ nkwado tupu ezipu mbipụta. Rịọ maka nkwado na nchịkwa.</translation>
+    </message>
+    <message>
+        <source>The list has no subscribers.</source>
+        <translation>Ndepụta ahụ enweghị ndị debanyere aha.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Igbe ozi</translation>
     </message>

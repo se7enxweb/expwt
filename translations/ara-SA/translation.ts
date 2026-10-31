@@ -1044,6 +1044,214 @@
         <translation>النماذج</translation>
     </message>
     <message>
+        <source>There is no such newsletter list.</source>
+        <translation>لا توجد قائمة نشرة إخبارية كهذه.</translation>
+    </message>
+    <message>
+        <source>The edition was made, but a workflow holds its publishing. Find it in the administration.</source>
+        <translation>أُنشئ العدد، لكن سير عمل يوقف نشره. تجده في الإدارة.</translation>
+    </message>
+    <message>
+        <source>The edition was made, but the page could not be taken into it.</source>
+        <translation>أُنشئ العدد، لكن تعذّر إدراج الصفحة فيه.</translation>
+    </message>
+    <message>
+        <source>There is no such edition, or you may not read it.</source>
+        <translation>لا يوجد عدد كهذا، أو غير مسموح لك بقراءته.</translation>
+    </message>
+    <message>
+        <source>This edition has no newsletter data.</source>
+        <translation>لا يحتوي هذا العدد على بيانات النشرة الإخبارية.</translation>
+    </message>
+    <message>
+        <source>Some of the addresses are not valid.</source>
+        <translation>بعض العناوين غير صالحة.</translation>
+    </message>
+    <message>
+        <source>Give at least one address.</source>
+        <translation>أدخل عنوانًا واحدًا على الأقل.</translation>
+    </message>
+    <message>
+        <source>Too many addresses at once.</source>
+        <translation>عناوين كثيرة جدًا دفعة واحدة.</translation>
+    </message>
+    <message>
+        <source>The edition was changed in the meantime. Look at it again before you send it.</source>
+        <translation>تغيّر العدد في هذه الأثناء. راجعه مرة أخرى قبل إرساله.</translation>
+    </message>
+    <message>
+        <source>The send could not be made.</source>
+        <translation>تعذّر الإرسال.</translation>
+    </message>
+    <message>
+        <source>Sending to the subscribers needs "Verify it's you", which is switched off here. Send it in the administration.</source>
+        <translation>الإرسال إلى المشتركين يتطلب «تحقق من هويتك»، وهو معطّل هنا. أرسله من الإدارة.</translation>
+    </message>
+    <message>
+        <source>Please confirm it is you first.</source>
+        <translation>يرجى تأكيد هويتك أولًا.</translation>
+    </message>
+    <message>
+        <source>Editions with this page</source>
+        <translation>الأعداد التي تتضمن هذه الصفحة</translation>
+    </message>
+    <message>
+        <source>This page is in no edition yet.</source>
+        <translation>هذه الصفحة ليست في أي عدد بعد.</translation>
+    </message>
+    <message>
+        <source>Being sent</source>
+        <translation>قيد الإرسال</translation>
+    </message>
+    <message>
+        <source>Sent, in the archive</source>
+        <translation>أُرسل، في الأرشيف</translation>
+    </message>
+    <message>
+        <source>Stopped</source>
+        <translation>متوقف</translation>
+    </message>
+    <message>
+        <source>%n subscribers</source>
+        <translation>%n مشتركين</translation>
+    </message>
+    <message>
+        <source>Make an edition from this page</source>
+        <translation>إنشاء عدد من هذه الصفحة</translation>
+    </message>
+    <message>
+        <source>There is no newsletter list where you may make an edition.</source>
+        <translation>لا توجد قائمة نشرة إخبارية يُسمح لك بإنشاء عدد فيها.</translation>
+    </message>
+    <message>
+        <source>Make the edition</source>
+        <translation>إنشاء العدد</translation>
+    </message>
+    <message>
+        <source>Newsletter list</source>
+        <translation>قائمة النشرة الإخبارية</translation>
+    </message>
+    <message>
+        <source>Introduction (optional)</source>
+        <translation>مقدمة (اختيارية)</translation>
+    </message>
+    <message>
+        <source>This page becomes the edition's article: its title, its intro and a link to it.</source>
+        <translation>تصبح هذه الصفحة مقال العدد: عنوانها ومقدمتها ورابط إليها.</translation>
+    </message>
+    <message>
+        <source>The edition was made, with this page as its article.</source>
+        <translation>أُنشئ العدد، وهذه الصفحة مقاله.</translation>
+    </message>
+    <message>
+        <source>not asked for yet</source>
+        <translation>لم يُطلب بعد</translation>
+    </message>
+    <message>
+        <source>waiting</source>
+        <translation>قيد الانتظار</translation>
+    </message>
+    <message>
+        <source>approved</source>
+        <translation>تمت الموافقة</translation>
+    </message>
+    <message>
+        <source>rejected</source>
+        <translation>مرفوض</translation>
+    </message>
+    <message>
+        <source>Approval: %state</source>
+        <translation>الموافقة: %state</translation>
+    </message>
+    <message>
+        <source>waiting for the cronjob</source>
+        <translation>بانتظار المهمة المجدولة</translation>
+    </message>
+    <message>
+        <source>queued</source>
+        <translation>في قائمة الانتظار</translation>
+    </message>
+    <message>
+        <source>being sent</source>
+        <translation>قيد الإرسال</translation>
+    </message>
+    <message>
+        <source>sent</source>
+        <translation>أُرسل</translation>
+    </message>
+    <message>
+        <source>stopped</source>
+        <translation>متوقف</translation>
+    </message>
+    <message>
+        <source>Last send: %state, %time</source>
+        <translation>آخر إرسال: %state، %time</translation>
+    </message>
+    <message>
+        <source>Send a test</source>
+        <translation>إرسال تجربة</translation>
+    </message>
+    <message>
+        <source>The test could not be sent.</source>
+        <translation>تعذّر إرسال التجربة.</translation>
+    </message>
+    <message>
+        <source>The test was sent to %list.</source>
+        <translation>أُرسلت التجربة إلى %list.</translation>
+    </message>
+    <message>
+        <source>Test addresses</source>
+        <translation>عناوين التجربة</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers</source>
+        <translation>إرسال إلى المشتركين</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers ...</source>
+        <translation>إرسال إلى المشتركين ...</translation>
+    </message>
+    <message>
+        <source>Send now</source>
+        <translation>أرسل الآن</translation>
+    </message>
+    <message>
+        <source>The edition is queued: the newsletter's cronjob sends it to the subscribers.</source>
+        <translation>العدد في قائمة الانتظار: المهمة المجدولة للنشرة الإخبارية ترسله إلى المشتركين.</translation>
+    </message>
+    <message>
+        <source>Send "%name" to the %n subscribers of "%list" now? This cannot be taken back here.</source>
+        <translation>إرسال «%name» إلى %n مشتركين في «%list» الآن؟ لا يمكن التراجع عن ذلك هنا.</translation>
+    </message>
+    <message>
+        <source>Newsletter</source>
+        <translation>النشرة الإخبارية</translation>
+    </message>
+    <message>
+        <source>This edition is being sent.</source>
+        <translation>يجري إرسال هذا العدد.</translation>
+    </message>
+    <message>
+        <source>This edition was sent and is in the archive.</source>
+        <translation>أُرسل هذا العدد وهو في الأرشيف.</translation>
+    </message>
+    <message>
+        <source>This edition waits for its approval. It can be sent when it is approved.</source>
+        <translation>ينتظر هذا العدد الموافقة عليه. يمكن إرساله بعد الموافقة.</translation>
+    </message>
+    <message>
+        <source>This edition was rejected. Change it and ask for the approval again.</source>
+        <translation>رُفض هذا العدد. عدّله واطلب الموافقة مرة أخرى.</translation>
+    </message>
+    <message>
+        <source>The list needs an approval before an edition is sent. Ask for the approval in the administration.</source>
+        <translation>تحتاج القائمة إلى موافقة قبل إرسال أي عدد. اطلب الموافقة من الإدارة.</translation>
+    </message>
+    <message>
+        <source>The list has no subscribers.</source>
+        <translation>لا يوجد مشتركون في القائمة.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>الوارد</translation>
     </message>

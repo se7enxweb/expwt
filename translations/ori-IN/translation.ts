@@ -1044,6 +1044,214 @@
         <translation>ଫର୍ମଗୁଡ଼ିକ</translation>
     </message>
     <message>
+        <source>There is no such newsletter list.</source>
+        <translation>ଏପରି କୌଣସି ନ୍ୟୁଜଲେଟର ତାଲିକା ନାହିଁ।</translation>
+    </message>
+    <message>
+        <source>The edition was made, but a workflow holds its publishing. Find it in the administration.</source>
+        <translation>ସଂସ୍କରଣ ତିଆରି ହେଲା, କିନ୍ତୁ ଏକ କାର୍ଯ୍ୟପ୍ରବାହ ଏହାର ପ୍ରକାଶନକୁ ଅଟକାଇ ରଖିଛି। ଏହାକୁ ପ୍ରଶାସନରେ ଖୋଜନ୍ତୁ।</translation>
+    </message>
+    <message>
+        <source>The edition was made, but the page could not be taken into it.</source>
+        <translation>ସଂସ୍କରଣ ତିଆରି ହେଲା, କିନ୍ତୁ ପୃଷ୍ଠାକୁ ଏଥିରେ ନିଆଯାଇପାରିଲା ନାହିଁ।</translation>
+    </message>
+    <message>
+        <source>There is no such edition, or you may not read it.</source>
+        <translation>ଏପରି କୌଣସି ସଂସ୍କରଣ ନାହିଁ, କିମ୍ବା ଆପଣଙ୍କୁ ଏହାକୁ ପଢ଼ିବାକୁ ଅନୁମତି ନାହିଁ।</translation>
+    </message>
+    <message>
+        <source>This edition has no newsletter data.</source>
+        <translation>ଏହି ସଂସ୍କରଣରେ କୌଣସି ନ୍ୟୁଜଲେଟର ଡାଟା ନାହିଁ।</translation>
+    </message>
+    <message>
+        <source>Some of the addresses are not valid.</source>
+        <translation>କିଛି ଠିକଣା ବୈଧ ନୁହେଁ।</translation>
+    </message>
+    <message>
+        <source>Give at least one address.</source>
+        <translation>ଅତି କମରେ ଗୋଟିଏ ଠିକଣା ଦିଅନ୍ତୁ।</translation>
+    </message>
+    <message>
+        <source>Too many addresses at once.</source>
+        <translation>ଏକାଥରେ ବହୁତ ଅଧିକ ଠିକଣା।</translation>
+    </message>
+    <message>
+        <source>The edition was changed in the meantime. Look at it again before you send it.</source>
+        <translation>ଏହି ମଧ୍ୟରେ ସଂସ୍କରଣ ବଦଳିଯାଇଛି। ପଠାଇବା ପୂର୍ବରୁ ଏହାକୁ ପୁଣି ଦେଖନ୍ତୁ।</translation>
+    </message>
+    <message>
+        <source>The send could not be made.</source>
+        <translation>ପଠାଯାଇପାରିଲା ନାହିଁ।</translation>
+    </message>
+    <message>
+        <source>Sending to the subscribers needs "Verify it's you", which is switched off here. Send it in the administration.</source>
+        <translation>ସଦସ୍ୟମାନଙ୍କୁ ପଠାଇବା ପାଇଁ "ଏହା ଆପଣ ବୋଲି ନିଶ୍ଚିତ କରନ୍ତୁ" ଆବଶ୍ୟକ, ଯାହା ଏଠାରେ ବନ୍ଦ ଅଛି। ଏହାକୁ ପ୍ରଶାସନରେ ପଠାନ୍ତୁ।</translation>
+    </message>
+    <message>
+        <source>Please confirm it is you first.</source>
+        <translation>ଦୟାକରି ପ୍ରଥମେ ଏହା ଆପଣ ବୋଲି ନିଶ୍ଚିତ କରନ୍ତୁ।</translation>
+    </message>
+    <message>
+        <source>Editions with this page</source>
+        <translation>ଏହି ପୃଷ୍ଠା ଥିବା ସଂସ୍କରଣଗୁଡ଼ିକ</translation>
+    </message>
+    <message>
+        <source>This page is in no edition yet.</source>
+        <translation>ଏହି ପୃଷ୍ଠା ଏପର୍ଯ୍ୟନ୍ତ କୌଣସି ସଂସ୍କରଣରେ ନାହିଁ।</translation>
+    </message>
+    <message>
+        <source>Being sent</source>
+        <translation>ପଠାଯାଉଛି</translation>
+    </message>
+    <message>
+        <source>Sent, in the archive</source>
+        <translation>ପଠାଗଲା, ଅଭିଲେଖାଗାରରେ</translation>
+    </message>
+    <message>
+        <source>Stopped</source>
+        <translation>ବନ୍ଦ ହେଲା</translation>
+    </message>
+    <message>
+        <source>%n subscribers</source>
+        <translation>%n ସଦସ୍ୟ</translation>
+    </message>
+    <message>
+        <source>Make an edition from this page</source>
+        <translation>ଏହି ପୃଷ୍ଠାରୁ ଏକ ସଂସ୍କରଣ ତିଆରି କରନ୍ତୁ</translation>
+    </message>
+    <message>
+        <source>There is no newsletter list where you may make an edition.</source>
+        <translation>ଆପଣ ସଂସ୍କରଣ ତିଆରି କରିପାରିବେ ଏପରି କୌଣସି ନ୍ୟୁଜଲେଟର ତାଲିକା ନାହିଁ।</translation>
+    </message>
+    <message>
+        <source>Make the edition</source>
+        <translation>ସଂସ୍କରଣ ତିଆରି କରନ୍ତୁ</translation>
+    </message>
+    <message>
+        <source>Newsletter list</source>
+        <translation>ନ୍ୟୁଜଲେଟର ତାଲିକା</translation>
+    </message>
+    <message>
+        <source>Introduction (optional)</source>
+        <translation>ପରିଚୟ (ଇଚ୍ଛାଧୀନ)</translation>
+    </message>
+    <message>
+        <source>This page becomes the edition's article: its title, its intro and a link to it.</source>
+        <translation>ଏହି ପୃଷ୍ଠା ସଂସ୍କରଣର ପ୍ରବନ୍ଧ ହୁଏ: ଏହାର ଶୀର୍ଷକ, ପରିଚୟ ଏବଂ ଏହାର ଲିଙ୍କ।</translation>
+    </message>
+    <message>
+        <source>The edition was made, with this page as its article.</source>
+        <translation>ଏହି ପୃଷ୍ଠାକୁ ପ୍ରବନ୍ଧ ଭାବେ ନେଇ ସଂସ୍କରଣ ତିଆରି ହେଲା।</translation>
+    </message>
+    <message>
+        <source>not asked for yet</source>
+        <translation>ଏପର୍ଯ୍ୟନ୍ତ ମଗାଯାଇନାହିଁ</translation>
+    </message>
+    <message>
+        <source>waiting</source>
+        <translation>ଅପେକ୍ଷାରେ</translation>
+    </message>
+    <message>
+        <source>approved</source>
+        <translation>ଅନୁମୋଦିତ</translation>
+    </message>
+    <message>
+        <source>rejected</source>
+        <translation>ପ୍ରତ୍ୟାଖ୍ୟାତ</translation>
+    </message>
+    <message>
+        <source>Approval: %state</source>
+        <translation>ଅନୁମୋଦନ: %state</translation>
+    </message>
+    <message>
+        <source>waiting for the cronjob</source>
+        <translation>cronjob ପାଇଁ ଅପେକ୍ଷାରେ</translation>
+    </message>
+    <message>
+        <source>queued</source>
+        <translation>ଧାଡ଼ିରେ</translation>
+    </message>
+    <message>
+        <source>being sent</source>
+        <translation>ପଠାଯାଉଛି</translation>
+    </message>
+    <message>
+        <source>sent</source>
+        <translation>ପଠାଗଲା</translation>
+    </message>
+    <message>
+        <source>stopped</source>
+        <translation>ବନ୍ଦ ହେଲା</translation>
+    </message>
+    <message>
+        <source>Last send: %state, %time</source>
+        <translation>ଶେଷ ପଠାଣ: %state, %time</translation>
+    </message>
+    <message>
+        <source>Send a test</source>
+        <translation>ଏକ ପରୀକ୍ଷା ପଠାନ୍ତୁ</translation>
+    </message>
+    <message>
+        <source>The test could not be sent.</source>
+        <translation>ପରୀକ୍ଷା ପଠାଯାଇପାରିଲା ନାହିଁ।</translation>
+    </message>
+    <message>
+        <source>The test was sent to %list.</source>
+        <translation>ପରୀକ୍ଷା %list କୁ ପଠାଗଲା।</translation>
+    </message>
+    <message>
+        <source>Test addresses</source>
+        <translation>ପରୀକ୍ଷା ଠିକଣା</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers</source>
+        <translation>ସଦସ୍ୟମାନଙ୍କୁ ପଠାନ୍ତୁ</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers ...</source>
+        <translation>ସଦସ୍ୟମାନଙ୍କୁ ପଠାନ୍ତୁ ...</translation>
+    </message>
+    <message>
+        <source>Send now</source>
+        <translation>ବର୍ତ୍ତମାନ ପଠାନ୍ତୁ</translation>
+    </message>
+    <message>
+        <source>The edition is queued: the newsletter's cronjob sends it to the subscribers.</source>
+        <translation>ସଂସ୍କରଣ ଧାଡ଼ିରେ ଅଛି: ନ୍ୟୁଜଲେଟରର cronjob ଏହାକୁ ସଦସ୍ୟମାନଙ୍କୁ ପଠାଏ।</translation>
+    </message>
+    <message>
+        <source>Send "%name" to the %n subscribers of "%list" now? This cannot be taken back here.</source>
+        <translation>"%name" କୁ "%list" ର %n ସଦସ୍ୟଙ୍କୁ ବର୍ତ୍ତମାନ ପଠାଇବେ? ଏହାକୁ ଏଠାରେ ଫେରାଇ ନିଆଯାଇପାରିବ ନାହିଁ।</translation>
+    </message>
+    <message>
+        <source>Newsletter</source>
+        <translation>ନ୍ୟୁଜଲେଟର</translation>
+    </message>
+    <message>
+        <source>This edition is being sent.</source>
+        <translation>ଏହି ସଂସ୍କରଣ ପଠାଯାଉଛି।</translation>
+    </message>
+    <message>
+        <source>This edition was sent and is in the archive.</source>
+        <translation>ଏହି ସଂସ୍କରଣ ପଠାଯାଇଛି ଏବଂ ଅଭିଲେଖାଗାରରେ ଅଛି।</translation>
+    </message>
+    <message>
+        <source>This edition waits for its approval. It can be sent when it is approved.</source>
+        <translation>ଏହି ସଂସ୍କରଣ ଏହାର ଅନୁମୋଦନ ପାଇଁ ଅପେକ୍ଷା କରୁଛି। ଅନୁମୋଦିତ ହେଲେ ଏହାକୁ ପଠାଯାଇପାରିବ।</translation>
+    </message>
+    <message>
+        <source>This edition was rejected. Change it and ask for the approval again.</source>
+        <translation>ଏହି ସଂସ୍କରଣ ପ୍ରତ୍ୟାଖ୍ୟାତ ହେଲା। ଏହାକୁ ବଦଳାନ୍ତୁ ଏବଂ ପୁଣି ଅନୁମୋଦନ ମାଗନ୍ତୁ।</translation>
+    </message>
+    <message>
+        <source>The list needs an approval before an edition is sent. Ask for the approval in the administration.</source>
+        <translation>ସଂସ୍କରଣ ପଠାଇବା ପୂର୍ବରୁ ତାଲିକାକୁ ଅନୁମୋଦନ ଦରକାର। ପ୍ରଶାସନରେ ଅନୁମୋଦନ ମାଗନ୍ତୁ।</translation>
+    </message>
+    <message>
+        <source>The list has no subscribers.</source>
+        <translation>ତାଲିକାରେ କୌଣସି ସଦସ୍ୟ ନାହାନ୍ତି।</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>ଇନବକ୍ସ</translation>
     </message>

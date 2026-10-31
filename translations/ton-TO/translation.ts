@@ -1044,6 +1044,214 @@
         <translation>Ngaahi foomu</translation>
     </message>
     <message>
+        <source>There is no such newsletter list.</source>
+        <translation>ʻOku ʻikai ha lisi tohi ongoongo pehē.</translation>
+    </message>
+    <message>
+        <source>The edition was made, but a workflow holds its publishing. Find it in the administration.</source>
+        <translation>Kuo faʻu ʻa e pulusinga, ka ʻoku taʻofi ʻe ha founga ngāue hono pulusi. Kumi ia ʻi he puleʻanga.</translation>
+    </message>
+    <message>
+        <source>The edition was made, but the page could not be taken into it.</source>
+        <translation>Kuo faʻu ʻa e pulusinga, ka naʻe ʻikai lava ke fakakau ki ai ʻa e peesi.</translation>
+    </message>
+    <message>
+        <source>There is no such edition, or you may not read it.</source>
+        <translation>ʻOku ʻikai ha pulusinga pehē, pe ʻoku ʻikai ke ke ngofua ke lau ia.</translation>
+    </message>
+    <message>
+        <source>This edition has no newsletter data.</source>
+        <translation>ʻOku ʻikai ha fakamatala tohi ongoongo ʻa e pulusinga ni.</translation>
+    </message>
+    <message>
+        <source>Some of the addresses are not valid.</source>
+        <translation>ʻOku ʻikai totonu ʻa e ʻū tuʻasila ʻe niʻihi.</translation>
+    </message>
+    <message>
+        <source>Give at least one address.</source>
+        <translation>ʻOmai ha tuʻasila ʻe taha pe lahi ange.</translation>
+    </message>
+    <message>
+        <source>Too many addresses at once.</source>
+        <translation>Lahi fau ʻa e ʻū tuʻasila ʻi he taimi pē taha.</translation>
+    </message>
+    <message>
+        <source>The edition was changed in the meantime. Look at it again before you send it.</source>
+        <translation>Naʻe liliu ʻa e pulusinga lolotonga ia. Toe vakai ki ai kimuʻa pea ke fekauʻi.</translation>
+    </message>
+    <message>
+        <source>The send could not be made.</source>
+        <translation>Naʻe ʻikai lava ke fekauʻi.</translation>
+    </message>
+    <message>
+        <source>Sending to the subscribers needs "Verify it's you", which is switched off here. Send it in the administration.</source>
+        <translation>Ko e fekauʻi ki he kau maʻu tohí ʻoku fiemaʻu ai ʻa e "Fakapapauʻi ko koe", ʻa ia ʻoku tāmateʻi heni. Fekauʻi ia ʻi he puleʻanga.</translation>
+    </message>
+    <message>
+        <source>Please confirm it is you first.</source>
+        <translation>Kātaki ʻo fakapapauʻi ʻuluaki ko koe.</translation>
+    </message>
+    <message>
+        <source>Editions with this page</source>
+        <translation>Ngaahi pulusinga ʻoku ʻi ai ʻa e peesi ni</translation>
+    </message>
+    <message>
+        <source>This page is in no edition yet.</source>
+        <translation>ʻOku teʻeki ke ʻi ha pulusinga ʻa e peesi ni.</translation>
+    </message>
+    <message>
+        <source>Being sent</source>
+        <translation>ʻOku lolotonga fekauʻi</translation>
+    </message>
+    <message>
+        <source>Sent, in the archive</source>
+        <translation>Kuo fekauʻi, ʻi he tānaki tohi</translation>
+    </message>
+    <message>
+        <source>Stopped</source>
+        <translation>Kuo taʻofi</translation>
+    </message>
+    <message>
+        <source>%n subscribers</source>
+        <translation>Kau maʻu tohi ʻe %n</translation>
+    </message>
+    <message>
+        <source>Make an edition from this page</source>
+        <translation>Faʻu ha pulusinga mei he peesi ni</translation>
+    </message>
+    <message>
+        <source>There is no newsletter list where you may make an edition.</source>
+        <translation>ʻOku ʻikai ha lisi tohi ongoongo te ke ngofua ke faʻu ai ha pulusinga.</translation>
+    </message>
+    <message>
+        <source>Make the edition</source>
+        <translation>Faʻu ʻa e pulusinga</translation>
+    </message>
+    <message>
+        <source>Newsletter list</source>
+        <translation>Lisi tohi ongoongo</translation>
+    </message>
+    <message>
+        <source>Introduction (optional)</source>
+        <translation>Talateu (ʻikai fiemaʻu)</translation>
+    </message>
+    <message>
+        <source>This page becomes the edition's article: its title, its intro and a link to it.</source>
+        <translation>ʻE hoko ʻa e peesi ni ko e fakamatala ʻo e pulusinga: hono hingoa, hono talateu mo ha fehokotaki ki ai.</translation>
+    </message>
+    <message>
+        <source>The edition was made, with this page as its article.</source>
+        <translation>Kuo faʻu ʻa e pulusinga, mo e peesi ni ko hono fakamatala.</translation>
+    </message>
+    <message>
+        <source>not asked for yet</source>
+        <translation>teʻeki kole</translation>
+    </message>
+    <message>
+        <source>waiting</source>
+        <translation>ʻoku tatali</translation>
+    </message>
+    <message>
+        <source>approved</source>
+        <translation>kuo fakangofua</translation>
+    </message>
+    <message>
+        <source>rejected</source>
+        <translation>kuo fakafisi</translation>
+    </message>
+    <message>
+        <source>Approval: %state</source>
+        <translation>Fakangofua: %state</translation>
+    </message>
+    <message>
+        <source>waiting for the cronjob</source>
+        <translation>ʻoku tatali ki he cronjob</translation>
+    </message>
+    <message>
+        <source>queued</source>
+        <translation>ʻi he laine</translation>
+    </message>
+    <message>
+        <source>being sent</source>
+        <translation>ʻoku lolotonga fekauʻi</translation>
+    </message>
+    <message>
+        <source>sent</source>
+        <translation>kuo fekauʻi</translation>
+    </message>
+    <message>
+        <source>stopped</source>
+        <translation>kuo taʻofi</translation>
+    </message>
+    <message>
+        <source>Last send: %state, %time</source>
+        <translation>Fekau fakamuimui: %state, %time</translation>
+    </message>
+    <message>
+        <source>Send a test</source>
+        <translation>Fekauʻi ha sivi</translation>
+    </message>
+    <message>
+        <source>The test could not be sent.</source>
+        <translation>Naʻe ʻikai lava ke fekauʻi ʻa e sivi.</translation>
+    </message>
+    <message>
+        <source>The test was sent to %list.</source>
+        <translation>Naʻe fekauʻi ʻa e sivi ki he %list.</translation>
+    </message>
+    <message>
+        <source>Test addresses</source>
+        <translation>Ngaahi tuʻasila sivi</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers</source>
+        <translation>Fekauʻi ki he kau maʻu tohi</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers ...</source>
+        <translation>Fekauʻi ki he kau maʻu tohi ...</translation>
+    </message>
+    <message>
+        <source>Send now</source>
+        <translation>Fekauʻi he taimí ni</translation>
+    </message>
+    <message>
+        <source>The edition is queued: the newsletter's cronjob sends it to the subscribers.</source>
+        <translation>ʻOku ʻi he laine ʻa e pulusinga: ʻe fekauʻi ia ʻe he cronjob ʻo e tohi ongoongo ki he kau maʻu tohi.</translation>
+    </message>
+    <message>
+        <source>Send "%name" to the %n subscribers of "%list" now? This cannot be taken back here.</source>
+        <translation>Fekauʻi ʻa e "%name" ki he kau maʻu tohi ʻe %n ʻo e "%list" he taimí ni? ʻOku ʻikai lava ke toe fakafoki heni.</translation>
+    </message>
+    <message>
+        <source>Newsletter</source>
+        <translation>Tohi ongoongo</translation>
+    </message>
+    <message>
+        <source>This edition is being sent.</source>
+        <translation>ʻOku lolotonga fekauʻi ʻa e pulusinga ni.</translation>
+    </message>
+    <message>
+        <source>This edition was sent and is in the archive.</source>
+        <translation>Kuo fekauʻi ʻa e pulusinga ni pea ʻoku ʻi he tānaki tohi.</translation>
+    </message>
+    <message>
+        <source>This edition waits for its approval. It can be sent when it is approved.</source>
+        <translation>ʻOku tatali ʻa e pulusinga ni ki hono fakangofua. ʻE lava ke fekauʻi ia ʻo ka fakangofua.</translation>
+    </message>
+    <message>
+        <source>This edition was rejected. Change it and ask for the approval again.</source>
+        <translation>Naʻe fakafisi ʻa e pulusinga ni. Liliu ia pea toe kole ki he fakangofua.</translation>
+    </message>
+    <message>
+        <source>The list needs an approval before an edition is sent. Ask for the approval in the administration.</source>
+        <translation>ʻOku fiemaʻu ʻe he lisi ha fakangofua kimuʻa pea fekauʻi ha pulusinga. Kole ki he fakangofua ʻi he puleʻanga.</translation>
+    </message>
+    <message>
+        <source>The list has no subscribers.</source>
+        <translation>ʻOku ʻikai ha kau maʻu tohi ʻa e lisi.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Puha tohi hū mai</translation>
     </message>

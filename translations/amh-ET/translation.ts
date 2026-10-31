@@ -1044,6 +1044,214 @@
         <translation>ቅጾች</translation>
     </message>
     <message>
+        <source>There is no such newsletter list.</source>
+        <translation>እንዲህ ያለ የጋዜጣ ዝርዝር የለም።</translation>
+    </message>
+    <message>
+        <source>The edition was made, but a workflow holds its publishing. Find it in the administration.</source>
+        <translation>እትሙ ተሠርቷል፣ ግን የስራ ፍሰት ማተሙን ይዞታል። በአስተዳደሩ ውስጥ ያግኙት።</translation>
+    </message>
+    <message>
+        <source>The edition was made, but the page could not be taken into it.</source>
+        <translation>እትሙ ተሠርቷል፣ ግን ገጹን ወደ እሱ ማስገባት አልተቻለም።</translation>
+    </message>
+    <message>
+        <source>There is no such edition, or you may not read it.</source>
+        <translation>እንዲህ ያለ እትም የለም፣ ወይም ማንበብ አይፈቀድልዎትም።</translation>
+    </message>
+    <message>
+        <source>This edition has no newsletter data.</source>
+        <translation>ይህ እትም የጋዜጣ መረጃ የለውም።</translation>
+    </message>
+    <message>
+        <source>Some of the addresses are not valid.</source>
+        <translation>አንዳንዶቹ አድራሻዎች ትክክል አይደሉም።</translation>
+    </message>
+    <message>
+        <source>Give at least one address.</source>
+        <translation>ቢያንስ አንድ አድራሻ ያስገቡ።</translation>
+    </message>
+    <message>
+        <source>Too many addresses at once.</source>
+        <translation>በአንድ ጊዜ በጣም ብዙ አድራሻዎች።</translation>
+    </message>
+    <message>
+        <source>The edition was changed in the meantime. Look at it again before you send it.</source>
+        <translation>እትሙ በዚህ መሀል ተቀይሯል። ከመላክዎ በፊት እንደገና ይመልከቱት።</translation>
+    </message>
+    <message>
+        <source>The send could not be made.</source>
+        <translation>መላኩ ሊከናወን አልቻለም።</translation>
+    </message>
+    <message>
+        <source>Sending to the subscribers needs "Verify it's you", which is switched off here. Send it in the administration.</source>
+        <translation>ለተመዝጋቢዎች መላክ "እርስዎ መሆንዎን ያረጋግጡ" ይፈልጋል፣ እዚህ ግን ጠፍቷል። በአስተዳደሩ ውስጥ ይላኩት።</translation>
+    </message>
+    <message>
+        <source>Please confirm it is you first.</source>
+        <translation>እባክዎ መጀመሪያ እርስዎ መሆንዎን ያረጋግጡ።</translation>
+    </message>
+    <message>
+        <source>Editions with this page</source>
+        <translation>ይህን ገጽ የያዙ እትሞች</translation>
+    </message>
+    <message>
+        <source>This page is in no edition yet.</source>
+        <translation>ይህ ገጽ እስካሁን በየትኛውም እትም ውስጥ የለም።</translation>
+    </message>
+    <message>
+        <source>Being sent</source>
+        <translation>በመላክ ላይ</translation>
+    </message>
+    <message>
+        <source>Sent, in the archive</source>
+        <translation>ተልኳል፣ በማህደሩ ውስጥ</translation>
+    </message>
+    <message>
+        <source>Stopped</source>
+        <translation>ቆሟል</translation>
+    </message>
+    <message>
+        <source>%n subscribers</source>
+        <translation>%n ተመዝጋቢዎች</translation>
+    </message>
+    <message>
+        <source>Make an edition from this page</source>
+        <translation>ከዚህ ገጽ እትም ይሥሩ</translation>
+    </message>
+    <message>
+        <source>There is no newsletter list where you may make an edition.</source>
+        <translation>እትም መሥራት የሚፈቀድልዎት የጋዜጣ ዝርዝር የለም።</translation>
+    </message>
+    <message>
+        <source>Make the edition</source>
+        <translation>እትሙን ይሥሩ</translation>
+    </message>
+    <message>
+        <source>Newsletter list</source>
+        <translation>የጋዜጣ ዝርዝር</translation>
+    </message>
+    <message>
+        <source>Introduction (optional)</source>
+        <translation>መግቢያ (አማራጭ)</translation>
+    </message>
+    <message>
+        <source>This page becomes the edition's article: its title, its intro and a link to it.</source>
+        <translation>ይህ ገጽ የእትሙ ጽሑፍ ይሆናል፦ ርዕሱ፣ መግቢያው እና ወደ እሱ የሚወስድ አገናኝ።</translation>
+    </message>
+    <message>
+        <source>The edition was made, with this page as its article.</source>
+        <translation>እትሙ ተሠርቷል፣ ይህ ገጽ እንደ ጽሑፉ።</translation>
+    </message>
+    <message>
+        <source>not asked for yet</source>
+        <translation>ገና አልተጠየቀም</translation>
+    </message>
+    <message>
+        <source>waiting</source>
+        <translation>በመጠባበቅ ላይ</translation>
+    </message>
+    <message>
+        <source>approved</source>
+        <translation>ጸድቋል</translation>
+    </message>
+    <message>
+        <source>rejected</source>
+        <translation>ውድቅ ተደርጓል</translation>
+    </message>
+    <message>
+        <source>Approval: %state</source>
+        <translation>ማጽደቅ፦ %state</translation>
+    </message>
+    <message>
+        <source>waiting for the cronjob</source>
+        <translation>ክሮንጆቡን በመጠባበቅ ላይ</translation>
+    </message>
+    <message>
+        <source>queued</source>
+        <translation>ወረፋ ላይ</translation>
+    </message>
+    <message>
+        <source>being sent</source>
+        <translation>በመላክ ላይ</translation>
+    </message>
+    <message>
+        <source>sent</source>
+        <translation>ተልኳል</translation>
+    </message>
+    <message>
+        <source>stopped</source>
+        <translation>ቆሟል</translation>
+    </message>
+    <message>
+        <source>Last send: %state, %time</source>
+        <translation>የመጨረሻ መላክ፦ %state፣ %time</translation>
+    </message>
+    <message>
+        <source>Send a test</source>
+        <translation>ሙከራ ይላኩ</translation>
+    </message>
+    <message>
+        <source>The test could not be sent.</source>
+        <translation>ሙከራው ሊላክ አልቻለም።</translation>
+    </message>
+    <message>
+        <source>The test was sent to %list.</source>
+        <translation>ሙከራው ወደ %list ተልኳል።</translation>
+    </message>
+    <message>
+        <source>Test addresses</source>
+        <translation>የሙከራ አድራሻዎች</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers</source>
+        <translation>ለተመዝጋቢዎች ይላኩ</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers ...</source>
+        <translation>ለተመዝጋቢዎች ይላኩ ...</translation>
+    </message>
+    <message>
+        <source>Send now</source>
+        <translation>አሁን ይላኩ</translation>
+    </message>
+    <message>
+        <source>The edition is queued: the newsletter's cronjob sends it to the subscribers.</source>
+        <translation>እትሙ ወረፋ ላይ ነው፦ የጋዜጣው ክሮንጆብ ለተመዝጋቢዎች ይልከዋል።</translation>
+    </message>
+    <message>
+        <source>Send "%name" to the %n subscribers of "%list" now? This cannot be taken back here.</source>
+        <translation>"%name"ን አሁን ለ"%list" %n ተመዝጋቢዎች ይላኩ? ይህ እዚህ ሊመለስ አይችልም።</translation>
+    </message>
+    <message>
+        <source>Newsletter</source>
+        <translation>ጋዜጣ</translation>
+    </message>
+    <message>
+        <source>This edition is being sent.</source>
+        <translation>ይህ እትም በመላክ ላይ ነው።</translation>
+    </message>
+    <message>
+        <source>This edition was sent and is in the archive.</source>
+        <translation>ይህ እትም ተልኳል፣ በማህደሩ ውስጥም አለ።</translation>
+    </message>
+    <message>
+        <source>This edition waits for its approval. It can be sent when it is approved.</source>
+        <translation>ይህ እትም ማጽደቁን እየጠበቀ ነው። ሲጸድቅ ሊላክ ይችላል።</translation>
+    </message>
+    <message>
+        <source>This edition was rejected. Change it and ask for the approval again.</source>
+        <translation>ይህ እትም ውድቅ ተደርጓል። ይቀይሩትና ማጽደቁን እንደገና ይጠይቁ።</translation>
+    </message>
+    <message>
+        <source>The list needs an approval before an edition is sent. Ask for the approval in the administration.</source>
+        <translation>ዝርዝሩ እትም ከመላኩ በፊት ማጽደቅ ይፈልጋል። ማጽደቁን በአስተዳደሩ ውስጥ ይጠይቁ።</translation>
+    </message>
+    <message>
+        <source>The list has no subscribers.</source>
+        <translation>ዝርዝሩ ተመዝጋቢዎች የሉትም።</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>የገቢ ሳጥን</translation>
     </message>

@@ -1044,6 +1044,214 @@
         <translation>ফোর্মশিং</translation>
     </message>
     <message>
+        <source>There is no such newsletter list.</source>
+        <translation>অসুম্বা নিউজলেটর লিস্ট অমা লৈতে।</translation>
+    </message>
+    <message>
+        <source>The edition was made, but a workflow holds its publishing. Find it in the administration.</source>
+        <translation>এদিসন অসি শেমখ্রে, অদুবু ৱর্কফ্লো অমনা মসিগী প্রকাশ তৌবা থম্লি। এদমিনিষ্ট্রেসনদা থিবিয়ু।</translation>
+    </message>
+    <message>
+        <source>The edition was made, but the page could not be taken into it.</source>
+        <translation>এদিসন অসি শেমখ্রে, অদুবু লামায় অসি মসিদা হাপচিনবা ঙম্খিদে।</translation>
+    </message>
+    <message>
+        <source>There is no such edition, or you may not read it.</source>
+        <translation>অসুম্বা এদিসন অমা লৈতে, নত্রগা নহাক্না পাবা য়াদে।</translation>
+    </message>
+    <message>
+        <source>This edition has no newsletter data.</source>
+        <translation>এদিসন অসিদা নিউজলেটর দেতা লৈতে।</translation>
+    </message>
+    <message>
+        <source>Some of the addresses are not valid.</source>
+        <translation>এদ্রেস খরা চুমদে।</translation>
+    </message>
+    <message>
+        <source>Give at least one address.</source>
+        <translation>খৱাইদগী নত্রবদা এদ্রেস অমা পীবিয়ু।</translation>
+    </message>
+    <message>
+        <source>Too many addresses at once.</source>
+        <translation>মতম অমদা এদ্রেস য়াম্না য়াম্লে।</translation>
+    </message>
+    <message>
+        <source>The edition was changed in the meantime. Look at it again before you send it.</source>
+        <translation>মতম অসিদা এদিসন অসি হোংলে। থাদ্রিঙৈদা অমুক্তং য়েংবিয়ু।</translation>
+    </message>
+    <message>
+        <source>The send could not be made.</source>
+        <translation>থাবা ঙম্খিদে।</translation>
+    </message>
+    <message>
+        <source>Sending to the subscribers needs "Verify it's you", which is switched off here. Send it in the administration.</source>
+        <translation>সবস্ক্রাইবরশিংদা থাবগীদমক "নহাক্নি হায়বা অসি শোয়দনা হায়বিয়ু" মথৌ তাই, মসি মফম অসিদা থোংজিনখ্রে। এদমিনিষ্ট্রেসনদা থাবিয়ু।</translation>
+    </message>
+    <message>
+        <source>Please confirm it is you first.</source>
+        <translation>অহানবদা নহাক্নি হায়বা শোয়দনা হায়বিয়ু।</translation>
+    </message>
+    <message>
+        <source>Editions with this page</source>
+        <translation>লামায় অসি পাবা এদিসনশিং</translation>
+    </message>
+    <message>
+        <source>This page is in no edition yet.</source>
+        <translation>লামায় অসি হৌজিক ফাওবা এদিসন অমত্তদা লৈতে।</translation>
+    </message>
+    <message>
+        <source>Being sent</source>
+        <translation>থারি</translation>
+    </message>
+    <message>
+        <source>Sent, in the archive</source>
+        <translation>থাখ্রে, আর্কাইভতা</translation>
+    </message>
+    <message>
+        <source>Stopped</source>
+        <translation>লেপ্পিখ্রে</translation>
+    </message>
+    <message>
+        <source>%n subscribers</source>
+        <translation>সবস্ক্রাইবর %n</translation>
+    </message>
+    <message>
+        <source>Make an edition from this page</source>
+        <translation>লামায় অসিদগী এদিসন অমা শেমবিয়ু</translation>
+    </message>
+    <message>
+        <source>There is no newsletter list where you may make an edition.</source>
+        <translation>নহাক্না এদিসন শেমবা য়াবা নিউজলেটর লিস্ট অমত্তা লৈতে।</translation>
+    </message>
+    <message>
+        <source>Make the edition</source>
+        <translation>এদিসন শেমবিয়ু</translation>
+    </message>
+    <message>
+        <source>Newsletter list</source>
+        <translation>নিউজলেটর লিস্ট</translation>
+    </message>
+    <message>
+        <source>Introduction (optional)</source>
+        <translation>হৌরকফম (অপনবা)</translation>
+    </message>
+    <message>
+        <source>This page becomes the edition's article: its title, its intro and a link to it.</source>
+        <translation>লামায় অসি এদিসনগী ৱারোল ওই: মসিগী মমিং, হৌরকফম অমসুং মসিদা লিংক অমা।</translation>
+    </message>
+    <message>
+        <source>The edition was made, with this page as its article.</source>
+        <translation>লামায় অসি ৱারোল ওইনা এদিসন শেমখ্রে।</translation>
+    </message>
+    <message>
+        <source>not asked for yet</source>
+        <translation>হৌজিক ফাওবা হংদ্রি</translation>
+    </message>
+    <message>
+        <source>waiting</source>
+        <translation>ঙাইরি</translation>
+    </message>
+    <message>
+        <source>approved</source>
+        <translation>য়াবা পীখ্রে</translation>
+    </message>
+    <message>
+        <source>rejected</source>
+        <translation>য়াখিদে</translation>
+    </message>
+    <message>
+        <source>Approval: %state</source>
+        <translation>য়াথিং: %state</translation>
+    </message>
+    <message>
+        <source>waiting for the cronjob</source>
+        <translation>cronjob ঙাইরি</translation>
+    </message>
+    <message>
+        <source>queued</source>
+        <translation>লাইনদা লৈরি</translation>
+    </message>
+    <message>
+        <source>being sent</source>
+        <translation>থারি</translation>
+    </message>
+    <message>
+        <source>sent</source>
+        <translation>থাখ্রে</translation>
+    </message>
+    <message>
+        <source>stopped</source>
+        <translation>লেপ্পিখ্রে</translation>
+    </message>
+    <message>
+        <source>Last send: %state, %time</source>
+        <translation>অরোইবা থাবা: %state, %time</translation>
+    </message>
+    <message>
+        <source>Send a test</source>
+        <translation>তেস্ত অমা থাবিয়ু</translation>
+    </message>
+    <message>
+        <source>The test could not be sent.</source>
+        <translation>তেস্ত থাবা ঙম্খিদে।</translation>
+    </message>
+    <message>
+        <source>The test was sent to %list.</source>
+        <translation>তেস্ত %list দা থাখ্রে।</translation>
+    </message>
+    <message>
+        <source>Test addresses</source>
+        <translation>তেস্ত এদ্রেসশিং</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers</source>
+        <translation>সবস্ক্রাইবরশিংদা থাবিয়ু</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers ...</source>
+        <translation>সবস্ক্রাইবরশিংদা থাবিয়ু ...</translation>
+    </message>
+    <message>
+        <source>Send now</source>
+        <translation>হৌজিক থাবিয়ু</translation>
+    </message>
+    <message>
+        <source>The edition is queued: the newsletter's cronjob sends it to the subscribers.</source>
+        <translation>এদিসন অসি লাইনদা লৈরি: নিউজলেটরগী cronjob না মসি সবস্ক্রাইবরশিংদা থাগনি।</translation>
+    </message>
+    <message>
+        <source>Send "%name" to the %n subscribers of "%list" now? This cannot be taken back here.</source>
+        <translation>"%name" অসি "%list" গী সবস্ক্রাইবর %n দা হৌজিক থাগদ্রা? মসি মফম অসিদা হন্দোক্পা ঙমদে।</translation>
+    </message>
+    <message>
+        <source>Newsletter</source>
+        <translation>নিউজলেটর</translation>
+    </message>
+    <message>
+        <source>This edition is being sent.</source>
+        <translation>এদিসন অসি থারি।</translation>
+    </message>
+    <message>
+        <source>This edition was sent and is in the archive.</source>
+        <translation>এদিসন অসি থাখ্রে অমসুং আর্কাইভতা লৈ।</translation>
+    </message>
+    <message>
+        <source>This edition waits for its approval. It can be sent when it is approved.</source>
+        <translation>এদিসন অসিনা য়াথিং ঙাইরি। য়াবা পীরবা মতুংদা থাবা য়াই।</translation>
+    </message>
+    <message>
+        <source>This edition was rejected. Change it and ask for the approval again.</source>
+        <translation>এদিসন অসি য়াখিদে। হোংদোকপিয়ু অমসুং অমুক্তং য়াথিং হংবিয়ু।</translation>
+    </message>
+    <message>
+        <source>The list needs an approval before an edition is sent. Ask for the approval in the administration.</source>
+        <translation>এদিসন থাদ্রিঙৈদা লিস্ট অসিনা য়াথিং মথৌ তাই। এদমিনিষ্ট্রেসনদা য়াথিং হংবিয়ু।</translation>
+    </message>
+    <message>
+        <source>The list has no subscribers.</source>
+        <translation>লিস্ট অসিদা সবস্ক্রাইবর অমত্তা লৈতে।</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>ইনবক্স</translation>
     </message>

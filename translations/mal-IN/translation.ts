@@ -1044,6 +1044,214 @@
         <translation>ഫോമുകൾ</translation>
     </message>
     <message>
+        <source>There is no such newsletter list.</source>
+        <translation>അങ്ങനെയൊരു ന്യൂസ്‌ലെറ്റർ ലിസ്റ്റ് ഇല്ല.</translation>
+    </message>
+    <message>
+        <source>The edition was made, but a workflow holds its publishing. Find it in the administration.</source>
+        <translation>പതിപ്പ് ഉണ്ടാക്കി, പക്ഷേ ഒരു വർക്ക്ഫ്ലോ അതിന്റെ പ്രസിദ്ധീകരണം തടഞ്ഞുവച്ചിരിക്കുന്നു. അഡ്മിനിസ്ട്രേഷനിൽ അത് കണ്ടെത്തുക.</translation>
+    </message>
+    <message>
+        <source>The edition was made, but the page could not be taken into it.</source>
+        <translation>പതിപ്പ് ഉണ്ടാക്കി, പക്ഷേ പേജ് അതിൽ ഉൾപ്പെടുത്താൻ കഴിഞ്ഞില്ല.</translation>
+    </message>
+    <message>
+        <source>There is no such edition, or you may not read it.</source>
+        <translation>അങ്ങനെയൊരു പതിപ്പ് ഇല്ല, അല്ലെങ്കിൽ നിങ്ങൾക്ക് അത് വായിക്കാൻ അനുമതിയില്ല.</translation>
+    </message>
+    <message>
+        <source>This edition has no newsletter data.</source>
+        <translation>ഈ പതിപ്പിന് ന്യൂസ്‌ലെറ്റർ ഡാറ്റയില്ല.</translation>
+    </message>
+    <message>
+        <source>Some of the addresses are not valid.</source>
+        <translation>ചില വിലാസങ്ങൾ സാധുവല്ല.</translation>
+    </message>
+    <message>
+        <source>Give at least one address.</source>
+        <translation>കുറഞ്ഞത് ഒരു വിലാസം നൽകുക.</translation>
+    </message>
+    <message>
+        <source>Too many addresses at once.</source>
+        <translation>ഒറ്റയടിക്ക് വളരെയധികം വിലാസങ്ങൾ.</translation>
+    </message>
+    <message>
+        <source>The edition was changed in the meantime. Look at it again before you send it.</source>
+        <translation>ഇതിനിടയിൽ പതിപ്പ് മാറ്റി. അയയ്ക്കുന്നതിന് മുമ്പ് അത് വീണ്ടും നോക്കുക.</translation>
+    </message>
+    <message>
+        <source>The send could not be made.</source>
+        <translation>അയയ്ക്കാൻ കഴിഞ്ഞില്ല.</translation>
+    </message>
+    <message>
+        <source>Sending to the subscribers needs "Verify it's you", which is switched off here. Send it in the administration.</source>
+        <translation>വരിക്കാർക്ക് അയയ്ക്കാൻ "ഇത് നിങ്ങളാണെന്ന് സ്ഥിരീകരിക്കുക" വേണം, അത് ഇവിടെ ഓഫാണ്. അഡ്മിനിസ്ട്രേഷനിൽ അയയ്ക്കുക.</translation>
+    </message>
+    <message>
+        <source>Please confirm it is you first.</source>
+        <translation>ആദ്യം ഇത് നിങ്ങളാണെന്ന് സ്ഥിരീകരിക്കുക.</translation>
+    </message>
+    <message>
+        <source>Editions with this page</source>
+        <translation>ഈ പേജുള്ള പതിപ്പുകൾ</translation>
+    </message>
+    <message>
+        <source>This page is in no edition yet.</source>
+        <translation>ഈ പേജ് ഇതുവരെ ഒരു പതിപ്പിലുമില്ല.</translation>
+    </message>
+    <message>
+        <source>Being sent</source>
+        <translation>അയച്ചുകൊണ്ടിരിക്കുന്നു</translation>
+    </message>
+    <message>
+        <source>Sent, in the archive</source>
+        <translation>അയച്ചു, ആർക്കൈവിൽ</translation>
+    </message>
+    <message>
+        <source>Stopped</source>
+        <translation>നിർത്തി</translation>
+    </message>
+    <message>
+        <source>%n subscribers</source>
+        <translation>%n വരിക്കാർ</translation>
+    </message>
+    <message>
+        <source>Make an edition from this page</source>
+        <translation>ഈ പേജിൽ നിന്ന് ഒരു പതിപ്പ് ഉണ്ടാക്കുക</translation>
+    </message>
+    <message>
+        <source>There is no newsletter list where you may make an edition.</source>
+        <translation>നിങ്ങൾക്ക് പതിപ്പ് ഉണ്ടാക്കാൻ കഴിയുന്ന ന്യൂസ്‌ലെറ്റർ ലിസ്റ്റ് ഇല്ല.</translation>
+    </message>
+    <message>
+        <source>Make the edition</source>
+        <translation>പതിപ്പ് ഉണ്ടാക്കുക</translation>
+    </message>
+    <message>
+        <source>Newsletter list</source>
+        <translation>ന്യൂസ്‌ലെറ്റർ ലിസ്റ്റ്</translation>
+    </message>
+    <message>
+        <source>Introduction (optional)</source>
+        <translation>ആമുഖം (ഓപ്ഷണൽ)</translation>
+    </message>
+    <message>
+        <source>This page becomes the edition's article: its title, its intro and a link to it.</source>
+        <translation>ഈ പേജ് പതിപ്പിന്റെ ലേഖനമാകും: അതിന്റെ തലക്കെട്ട്, ആമുഖം, അതിലേക്കുള്ള ലിങ്ക്.</translation>
+    </message>
+    <message>
+        <source>The edition was made, with this page as its article.</source>
+        <translation>ഈ പേജ് ലേഖനമായി പതിപ്പ് ഉണ്ടാക്കി.</translation>
+    </message>
+    <message>
+        <source>not asked for yet</source>
+        <translation>ഇതുവരെ ആവശ്യപ്പെട്ടിട്ടില്ല</translation>
+    </message>
+    <message>
+        <source>waiting</source>
+        <translation>കാത്തിരിക്കുന്നു</translation>
+    </message>
+    <message>
+        <source>approved</source>
+        <translation>അംഗീകരിച്ചു</translation>
+    </message>
+    <message>
+        <source>rejected</source>
+        <translation>നിരസിച്ചു</translation>
+    </message>
+    <message>
+        <source>Approval: %state</source>
+        <translation>അംഗീകാരം: %state</translation>
+    </message>
+    <message>
+        <source>waiting for the cronjob</source>
+        <translation>cronjob-നായി കാത്തിരിക്കുന്നു</translation>
+    </message>
+    <message>
+        <source>queued</source>
+        <translation>ക്യൂവിൽ</translation>
+    </message>
+    <message>
+        <source>being sent</source>
+        <translation>അയച്ചുകൊണ്ടിരിക്കുന്നു</translation>
+    </message>
+    <message>
+        <source>sent</source>
+        <translation>അയച്ചു</translation>
+    </message>
+    <message>
+        <source>stopped</source>
+        <translation>നിർത്തി</translation>
+    </message>
+    <message>
+        <source>Last send: %state, %time</source>
+        <translation>അവസാന അയയ്ക്കൽ: %state, %time</translation>
+    </message>
+    <message>
+        <source>Send a test</source>
+        <translation>ഒരു ടെസ്റ്റ് അയയ്ക്കുക</translation>
+    </message>
+    <message>
+        <source>The test could not be sent.</source>
+        <translation>ടെസ്റ്റ് അയയ്ക്കാൻ കഴിഞ്ഞില്ല.</translation>
+    </message>
+    <message>
+        <source>The test was sent to %list.</source>
+        <translation>ടെസ്റ്റ് %list-ലേക്ക് അയച്ചു.</translation>
+    </message>
+    <message>
+        <source>Test addresses</source>
+        <translation>ടെസ്റ്റ് വിലാസങ്ങൾ</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers</source>
+        <translation>വരിക്കാർക്ക് അയയ്ക്കുക</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers ...</source>
+        <translation>വരിക്കാർക്ക് അയയ്ക്കുക ...</translation>
+    </message>
+    <message>
+        <source>Send now</source>
+        <translation>ഇപ്പോൾ അയയ്ക്കുക</translation>
+    </message>
+    <message>
+        <source>The edition is queued: the newsletter's cronjob sends it to the subscribers.</source>
+        <translation>പതിപ്പ് ക്യൂവിലാണ്: ന്യൂസ്‌ലെറ്ററിന്റെ cronjob അത് വരിക്കാർക്ക് അയയ്ക്കും.</translation>
+    </message>
+    <message>
+        <source>Send "%name" to the %n subscribers of "%list" now? This cannot be taken back here.</source>
+        <translation>"%name" ഇപ്പോൾ "%list"-ന്റെ %n വരിക്കാർക്ക് അയയ്ക്കണോ? ഇത് ഇവിടെ തിരിച്ചെടുക്കാനാവില്ല.</translation>
+    </message>
+    <message>
+        <source>Newsletter</source>
+        <translation>ന്യൂസ്‌ലെറ്റർ</translation>
+    </message>
+    <message>
+        <source>This edition is being sent.</source>
+        <translation>ഈ പതിപ്പ് അയച്ചുകൊണ്ടിരിക്കുന്നു.</translation>
+    </message>
+    <message>
+        <source>This edition was sent and is in the archive.</source>
+        <translation>ഈ പതിപ്പ് അയച്ചു, ഇത് ആർക്കൈവിലാണ്.</translation>
+    </message>
+    <message>
+        <source>This edition waits for its approval. It can be sent when it is approved.</source>
+        <translation>ഈ പതിപ്പ് അംഗീകാരത്തിനായി കാത്തിരിക്കുന്നു. അംഗീകരിച്ചാൽ അയയ്ക്കാം.</translation>
+    </message>
+    <message>
+        <source>This edition was rejected. Change it and ask for the approval again.</source>
+        <translation>ഈ പതിപ്പ് നിരസിച്ചു. അത് മാറ്റി വീണ്ടും അംഗീകാരം ചോദിക്കുക.</translation>
+    </message>
+    <message>
+        <source>The list needs an approval before an edition is sent. Ask for the approval in the administration.</source>
+        <translation>ഒരു പതിപ്പ് അയയ്ക്കുന്നതിന് മുമ്പ് ലിസ്റ്റിന് അംഗീകാരം വേണം. അഡ്മിനിസ്ട്രേഷനിൽ അംഗീകാരം ചോദിക്കുക.</translation>
+    </message>
+    <message>
+        <source>The list has no subscribers.</source>
+        <translation>ലിസ്റ്റിൽ വരിക്കാരില്ല.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>ഇൻബോക്സ്</translation>
     </message>

@@ -1044,6 +1044,214 @@
         <translation>Formulär</translation>
     </message>
     <message>
+        <source>There is no such newsletter list.</source>
+        <translation>Det finns ingen sådan nyhetsbrevslista.</translation>
+    </message>
+    <message>
+        <source>The edition was made, but a workflow holds its publishing. Find it in the administration.</source>
+        <translation>Utgåvan skapades, men ett arbetsflöde håller tillbaka publiceringen. Du hittar den i administrationen.</translation>
+    </message>
+    <message>
+        <source>The edition was made, but the page could not be taken into it.</source>
+        <translation>Utgåvan skapades, men sidan kunde inte tas med i den.</translation>
+    </message>
+    <message>
+        <source>There is no such edition, or you may not read it.</source>
+        <translation>Utgåvan finns inte, eller så får du inte läsa den.</translation>
+    </message>
+    <message>
+        <source>This edition has no newsletter data.</source>
+        <translation>Den här utgåvan har inga nyhetsbrevsdata.</translation>
+    </message>
+    <message>
+        <source>Some of the addresses are not valid.</source>
+        <translation>Några av adresserna är ogiltiga.</translation>
+    </message>
+    <message>
+        <source>Give at least one address.</source>
+        <translation>Ange minst en adress.</translation>
+    </message>
+    <message>
+        <source>Too many addresses at once.</source>
+        <translation>För många adresser på en gång.</translation>
+    </message>
+    <message>
+        <source>The edition was changed in the meantime. Look at it again before you send it.</source>
+        <translation>Utgåvan har ändrats under tiden. Titta på den igen innan du skickar den.</translation>
+    </message>
+    <message>
+        <source>The send could not be made.</source>
+        <translation>Utskicket kunde inte göras.</translation>
+    </message>
+    <message>
+        <source>Sending to the subscribers needs "Verify it's you", which is switched off here. Send it in the administration.</source>
+        <translation>Utskick till prenumeranterna kräver ”Bekräfta att det är du”, som är avstängt här. Skicka det i administrationen.</translation>
+    </message>
+    <message>
+        <source>Please confirm it is you first.</source>
+        <translation>Bekräfta först att det är du.</translation>
+    </message>
+    <message>
+        <source>Editions with this page</source>
+        <translation>Utgåvor med den här sidan</translation>
+    </message>
+    <message>
+        <source>This page is in no edition yet.</source>
+        <translation>Den här sidan finns inte i någon utgåva än.</translation>
+    </message>
+    <message>
+        <source>Being sent</source>
+        <translation>Skickas</translation>
+    </message>
+    <message>
+        <source>Sent, in the archive</source>
+        <translation>Skickad, i arkivet</translation>
+    </message>
+    <message>
+        <source>Stopped</source>
+        <translation>Stoppad</translation>
+    </message>
+    <message>
+        <source>%n subscribers</source>
+        <translation>%n prenumeranter</translation>
+    </message>
+    <message>
+        <source>Make an edition from this page</source>
+        <translation>Gör en utgåva av den här sidan</translation>
+    </message>
+    <message>
+        <source>There is no newsletter list where you may make an edition.</source>
+        <translation>Det finns ingen nyhetsbrevslista där du får göra en utgåva.</translation>
+    </message>
+    <message>
+        <source>Make the edition</source>
+        <translation>Gör utgåvan</translation>
+    </message>
+    <message>
+        <source>Newsletter list</source>
+        <translation>Nyhetsbrevslista</translation>
+    </message>
+    <message>
+        <source>Introduction (optional)</source>
+        <translation>Inledning (valfri)</translation>
+    </message>
+    <message>
+        <source>This page becomes the edition's article: its title, its intro and a link to it.</source>
+        <translation>Den här sidan blir utgåvans artikel: dess titel, dess ingress och en länk till den.</translation>
+    </message>
+    <message>
+        <source>The edition was made, with this page as its article.</source>
+        <translation>Utgåvan skapades, med den här sidan som artikel.</translation>
+    </message>
+    <message>
+        <source>not asked for yet</source>
+        <translation>inte begärt än</translation>
+    </message>
+    <message>
+        <source>waiting</source>
+        <translation>väntar</translation>
+    </message>
+    <message>
+        <source>approved</source>
+        <translation>godkänd</translation>
+    </message>
+    <message>
+        <source>rejected</source>
+        <translation>avvisad</translation>
+    </message>
+    <message>
+        <source>Approval: %state</source>
+        <translation>Godkännande: %state</translation>
+    </message>
+    <message>
+        <source>waiting for the cronjob</source>
+        <translation>väntar på cronjobbet</translation>
+    </message>
+    <message>
+        <source>queued</source>
+        <translation>i kö</translation>
+    </message>
+    <message>
+        <source>being sent</source>
+        <translation>skickas</translation>
+    </message>
+    <message>
+        <source>sent</source>
+        <translation>skickat</translation>
+    </message>
+    <message>
+        <source>stopped</source>
+        <translation>stoppat</translation>
+    </message>
+    <message>
+        <source>Last send: %state, %time</source>
+        <translation>Senaste utskick: %state, %time</translation>
+    </message>
+    <message>
+        <source>Send a test</source>
+        <translation>Skicka ett test</translation>
+    </message>
+    <message>
+        <source>The test could not be sent.</source>
+        <translation>Testet kunde inte skickas.</translation>
+    </message>
+    <message>
+        <source>The test was sent to %list.</source>
+        <translation>Testet skickades till %list.</translation>
+    </message>
+    <message>
+        <source>Test addresses</source>
+        <translation>Testadresser</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers</source>
+        <translation>Skicka till prenumeranterna</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers ...</source>
+        <translation>Skicka till prenumeranterna ...</translation>
+    </message>
+    <message>
+        <source>Send now</source>
+        <translation>Skicka nu</translation>
+    </message>
+    <message>
+        <source>The edition is queued: the newsletter's cronjob sends it to the subscribers.</source>
+        <translation>Utgåvan står i kö: nyhetsbrevets cronjobb skickar den till prenumeranterna.</translation>
+    </message>
+    <message>
+        <source>Send "%name" to the %n subscribers of "%list" now? This cannot be taken back here.</source>
+        <translation>Skicka ”%name” till de %n prenumeranterna på ”%list” nu? Det kan inte ångras här.</translation>
+    </message>
+    <message>
+        <source>Newsletter</source>
+        <translation>Nyhetsbrev</translation>
+    </message>
+    <message>
+        <source>This edition is being sent.</source>
+        <translation>Den här utgåvan skickas.</translation>
+    </message>
+    <message>
+        <source>This edition was sent and is in the archive.</source>
+        <translation>Den här utgåvan har skickats och ligger i arkivet.</translation>
+    </message>
+    <message>
+        <source>This edition waits for its approval. It can be sent when it is approved.</source>
+        <translation>Den här utgåvan väntar på godkännande. Den kan skickas när den är godkänd.</translation>
+    </message>
+    <message>
+        <source>This edition was rejected. Change it and ask for the approval again.</source>
+        <translation>Den här utgåvan avvisades. Ändra den och begär godkännande igen.</translation>
+    </message>
+    <message>
+        <source>The list needs an approval before an edition is sent. Ask for the approval in the administration.</source>
+        <translation>Listan kräver ett godkännande innan en utgåva skickas. Begär godkännandet i administrationen.</translation>
+    </message>
+    <message>
+        <source>The list has no subscribers.</source>
+        <translation>Listan har inga prenumeranter.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Inkorg</translation>
     </message>

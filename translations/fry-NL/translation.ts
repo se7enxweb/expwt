@@ -1044,6 +1044,214 @@
         <translation>Formulieren</translation>
     </message>
     <message>
+        <source>There is no such newsletter list.</source>
+        <translation>Dizze nijsbrieflist bestiet net.</translation>
+    </message>
+    <message>
+        <source>The edition was made, but a workflow holds its publishing. Find it in the administration.</source>
+        <translation>De edysje is makke, mar in workflow hâldt it publisearjen tsjin. Jo fine him yn it behear.</translation>
+    </message>
+    <message>
+        <source>The edition was made, but the page could not be taken into it.</source>
+        <translation>De edysje is makke, mar de side koe der net yn opnommen wurde.</translation>
+    </message>
+    <message>
+        <source>There is no such edition, or you may not read it.</source>
+        <translation>Dizze edysje bestiet net, of jo meie him net lêze.</translation>
+    </message>
+    <message>
+        <source>This edition has no newsletter data.</source>
+        <translation>Dizze edysje hat gjin nijsbriefgegevens.</translation>
+    </message>
+    <message>
+        <source>Some of the addresses are not valid.</source>
+        <translation>Guon fan de adressen binne net jildich.</translation>
+    </message>
+    <message>
+        <source>Give at least one address.</source>
+        <translation>Jou op syn minst ien adres.</translation>
+    </message>
+    <message>
+        <source>Too many addresses at once.</source>
+        <translation>Tefolle adressen tagelyk.</translation>
+    </message>
+    <message>
+        <source>The edition was changed in the meantime. Look at it again before you send it.</source>
+        <translation>De edysje is yntusken feroare. Besjoch him nochris foardat jo him ferstjoere.</translation>
+    </message>
+    <message>
+        <source>The send could not be made.</source>
+        <translation>It ferstjoeren is net slagge.</translation>
+    </message>
+    <message>
+        <source>Sending to the subscribers needs "Verify it's you", which is switched off here. Send it in the administration.</source>
+        <translation>Ferstjoeren nei de abonnees freget "Befêstigje dat jo it binne", en dat stiet hjir út. Ferstjoer him yn it behear.</translation>
+    </message>
+    <message>
+        <source>Please confirm it is you first.</source>
+        <translation>Befêstigje earst dat jo it binne.</translation>
+    </message>
+    <message>
+        <source>Editions with this page</source>
+        <translation>Edysjes mei dizze side</translation>
+    </message>
+    <message>
+        <source>This page is in no edition yet.</source>
+        <translation>Dizze side sit noch yn gjin inkele edysje.</translation>
+    </message>
+    <message>
+        <source>Being sent</source>
+        <translation>Wurdt ferstjoerd</translation>
+    </message>
+    <message>
+        <source>Sent, in the archive</source>
+        <translation>Ferstjoerd, yn it argyf</translation>
+    </message>
+    <message>
+        <source>Stopped</source>
+        <translation>Stoppe</translation>
+    </message>
+    <message>
+        <source>%n subscribers</source>
+        <translation>%n abonnees</translation>
+    </message>
+    <message>
+        <source>Make an edition from this page</source>
+        <translation>Meitsje in edysje fan dizze side</translation>
+    </message>
+    <message>
+        <source>There is no newsletter list where you may make an edition.</source>
+        <translation>Der is gjin nijsbrieflist dêr't jo in edysje yn meitsje meie.</translation>
+    </message>
+    <message>
+        <source>Make the edition</source>
+        <translation>Meitsje de edysje</translation>
+    </message>
+    <message>
+        <source>Newsletter list</source>
+        <translation>Nijsbrieflist</translation>
+    </message>
+    <message>
+        <source>Introduction (optional)</source>
+        <translation>Ynlieding (opsjoneel)</translation>
+    </message>
+    <message>
+        <source>This page becomes the edition's article: its title, its intro and a link to it.</source>
+        <translation>Dizze side wurdt it artikel fan de edysje: de titel, de ynlieding en in keppeling dernei.</translation>
+    </message>
+    <message>
+        <source>The edition was made, with this page as its article.</source>
+        <translation>De edysje is makke, mei dizze side as artikel.</translation>
+    </message>
+    <message>
+        <source>not asked for yet</source>
+        <translation>noch net oanfrege</translation>
+    </message>
+    <message>
+        <source>waiting</source>
+        <translation>wachtsjend</translation>
+    </message>
+    <message>
+        <source>approved</source>
+        <translation>goedkard</translation>
+    </message>
+    <message>
+        <source>rejected</source>
+        <translation>ôfwiisd</translation>
+    </message>
+    <message>
+        <source>Approval: %state</source>
+        <translation>Goedkarring: %state</translation>
+    </message>
+    <message>
+        <source>waiting for the cronjob</source>
+        <translation>wachtet op de cronjob</translation>
+    </message>
+    <message>
+        <source>queued</source>
+        <translation>yn de wachtrige</translation>
+    </message>
+    <message>
+        <source>being sent</source>
+        <translation>wurdt ferstjoerd</translation>
+    </message>
+    <message>
+        <source>sent</source>
+        <translation>ferstjoerd</translation>
+    </message>
+    <message>
+        <source>stopped</source>
+        <translation>stoppe</translation>
+    </message>
+    <message>
+        <source>Last send: %state, %time</source>
+        <translation>Lêst ferstjoerd: %state, %time</translation>
+    </message>
+    <message>
+        <source>Send a test</source>
+        <translation>Stjoer in test</translation>
+    </message>
+    <message>
+        <source>The test could not be sent.</source>
+        <translation>De test koe net ferstjoerd wurde.</translation>
+    </message>
+    <message>
+        <source>The test was sent to %list.</source>
+        <translation>De test is ferstjoerd nei %list.</translation>
+    </message>
+    <message>
+        <source>Test addresses</source>
+        <translation>Testadressen</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers</source>
+        <translation>Nei de abonnees stjoere</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers ...</source>
+        <translation>Nei de abonnees stjoere ...</translation>
+    </message>
+    <message>
+        <source>Send now</source>
+        <translation>No ferstjoere</translation>
+    </message>
+    <message>
+        <source>The edition is queued: the newsletter's cronjob sends it to the subscribers.</source>
+        <translation>De edysje stiet yn de wachtrige: de cronjob fan de nijsbrief stjoert him nei de abonnees.</translation>
+    </message>
+    <message>
+        <source>Send "%name" to the %n subscribers of "%list" now? This cannot be taken back here.</source>
+        <translation>"%name" no nei de %n abonnees fan "%list" stjoere? Dit kin hjir net weromdraaid wurde.</translation>
+    </message>
+    <message>
+        <source>Newsletter</source>
+        <translation>Nijsbrief</translation>
+    </message>
+    <message>
+        <source>This edition is being sent.</source>
+        <translation>Dizze edysje wurdt ferstjoerd.</translation>
+    </message>
+    <message>
+        <source>This edition was sent and is in the archive.</source>
+        <translation>Dizze edysje is ferstjoerd en stiet yn it argyf.</translation>
+    </message>
+    <message>
+        <source>This edition waits for its approval. It can be sent when it is approved.</source>
+        <translation>Dizze edysje wachtet op goedkarring. Hy kin ferstjoerd wurde as er goedkard is.</translation>
+    </message>
+    <message>
+        <source>This edition was rejected. Change it and ask for the approval again.</source>
+        <translation>Dizze edysje is ôfwiisd. Feroarje him en freegje opnij om goedkarring.</translation>
+    </message>
+    <message>
+        <source>The list needs an approval before an edition is sent. Ask for the approval in the administration.</source>
+        <translation>De list freget goedkarring foardat in edysje ferstjoerd wurdt. Freegje de goedkarring oan yn it behear.</translation>
+    </message>
+    <message>
+        <source>The list has no subscribers.</source>
+        <translation>De list hat gjin abonnees.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Postfak</translation>
     </message>

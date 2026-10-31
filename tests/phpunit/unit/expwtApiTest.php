@@ -75,6 +75,12 @@ class expwtApiTestGateway extends expwtGateway
     public function aiApply( array $in ) { return $this->record( 'aiApply', $in ); }
     public function forms( array $in ) { return $this->record( 'forms', $in ); }
     public function formView( array $in ) { return $this->record( 'formView', $in ); }
+    public $newsletter = array( 'create' => true, 'send' => false );
+    public function newsletterOffer() { return $this->newsletter; }
+    public function newsletter( array $in ) { return $this->record( 'newsletter', $in ); }
+    public function newsletterCreate( array $in ) { return $this->record( 'newsletterCreate', $in ); }
+    public function newsletterTest( array $in ) { return $this->record( 'newsletterTest', $in ); }
+    public function newsletterSend( array $in ) { return $this->record( 'newsletterSend', $in ); }
     public $registered = array( 'panels' => array(), 'actions' => array(), 'highlights' => array(), 'search' => array() );
     public $policies = array();
     public function registeredActions() { return $this->registered['actions']; }
@@ -197,6 +203,32 @@ class expwtApiTest extends PHPUnit\Framework\TestCase
                            $this->gateway->calls[2] );
     }
 
+    /** E3: the newsletter's actions go to the gateway cleaned; only loading is a read; the real send is a write that
+        asks "Verify it's you" (its kernel view is the administration's send page); the boot says what the user may do */
+    public function testTheNewsletterGoesToTheGatewayCleaned()
+    {
+        $api = $this->api();
+        $this->assertFalse( expwtAccess::writes( 'newsletter.load' ) );
+        foreach ( array( 'newsletter.create', 'newsletter.test', 'newsletter.send' ) as $action )
+        {
+            $this->assertSame( 'edit', expwtAccess::functionFor( $action ) );
+            $this->assertTrue( expwtAccess::writes( $action ) );
+            $this->assertSame( 405, $api->call( $action, array( 'editionId' => 1 ), 'GET' )['status'], "$action only by POST" );
+        }
+        $this->assertSame( array( 'module' => 'newsletter', 'view' => 'send', 'post' => array( 'SendNewsletterButton' => '1' ) ), expwtAccess::kernelView( 'newsletter.send' ) );
+        $api->call( 'newsletter.load', array( 'nodeId' => '93', 'listId' => 4 ), 'GET' );
+        $this->assertSame( array( 'newsletter', array( 'nodeId' => 93 ) ), $this->gateway->calls[0] );
+        $api->call( 'newsletter.create', array( 'nodeId' => 93, 'listId' => '25590', 'title' => '  Weekly  ', 'intro' => "  Hi\n\nthere  ", 'editionId' => 5 ), 'POST' );
+        $this->assertSame( array( 'newsletterCreate', array( 'nodeId' => 93, 'listId' => 25590, 'title' => 'Weekly', 'intro' => "Hi\n\nthere" ) ), $this->gateway->calls[1] );
+        $api->call( 'newsletter.test', array( 'editionId' => '7', 'recipients' => ' a@example.org ', 'version' => 2 ), 'POST' );
+        $this->assertSame( array( 'newsletterTest', array( 'editionId' => 7, 'recipients' => 'a@example.org' ) ), $this->gateway->calls[2] );
+        $api->call( 'newsletter.send', array( 'editionId' => '7', 'version' => '2', 'recipients' => 'x' ), 'POST' );
+        $this->assertSame( array( 'newsletterSend', array( 'editionId' => 7, 'version' => 2 ) ), $this->gateway->calls[3] );
+        $this->assertSame( array( 'create' => true, 'send' => false ), $api->call( 'boot', array(), 'GET' )['body']['data']['newsletter'] );
+        $this->gateway->newsletter = null;
+        $this->assertNull( $api->call( 'boot', array(), 'GET' )['body']['data']['newsletter'] );
+    }
+
     /** E2: the page's forms and one submission are read-only, for those who edit, cleaned */
     public function testTheFormsGoToTheGatewayCleaned()
     {
@@ -280,7 +312,7 @@ class expwtApiTest extends PHPUnit\Framework\TestCase
     {
         $r = $this->api()->call( 'boot', array(), 'GET' );
         $d = $r['body']['data'];
-        $this->assertSame( array( 'user', 'capabilities', 'state', 'theme', 'token', 'transport', 'urls', 'strings', 'inbox', 'registry', 'settings' ), array_keys( $d ) );
+        $this->assertSame( array( 'user', 'capabilities', 'state', 'theme', 'token', 'transport', 'urls', 'strings', 'inbox', 'newsletter', 'registry', 'settings' ), array_keys( $d ) );
         $this->assertSame( 'dark', $d['theme'], 'follows the administration (F10)' );
         $this->assertSame( 'tok', $d['token'] );
         $this->assertSame( 'Bearbeiten', $d['strings']['Edit'] );

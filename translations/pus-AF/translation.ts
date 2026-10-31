@@ -1044,6 +1044,214 @@
         <translation>فورمې</translation>
     </message>
     <message>
+        <source>There is no such newsletter list.</source>
+        <translation>داسې د خبرپاڼې لېست نشته.</translation>
+    </message>
+    <message>
+        <source>The edition was made, but a workflow holds its publishing. Find it in the administration.</source>
+        <translation>ګڼه جوړه شوه، خو یو کاري بهیر یې خپرول ځنډوي. په ادارې کې یې ومومئ.</translation>
+    </message>
+    <message>
+        <source>The edition was made, but the page could not be taken into it.</source>
+        <translation>ګڼه جوړه شوه، خو پاڼه پکې شامله نه شوه.</translation>
+    </message>
+    <message>
+        <source>There is no such edition, or you may not read it.</source>
+        <translation>داسې ګڼه نشته، یا تاسو ته د لوستلو اجازه نشته.</translation>
+    </message>
+    <message>
+        <source>This edition has no newsletter data.</source>
+        <translation>دا ګڼه د خبرپاڼې معلومات نه لري.</translation>
+    </message>
+    <message>
+        <source>Some of the addresses are not valid.</source>
+        <translation>ځینې پتې سمې نه دي.</translation>
+    </message>
+    <message>
+        <source>Give at least one address.</source>
+        <translation>لږ تر لږه یوه پته ورکړئ.</translation>
+    </message>
+    <message>
+        <source>Too many addresses at once.</source>
+        <translation>په یو ځل ډېرې زیاتې پتې.</translation>
+    </message>
+    <message>
+        <source>The edition was changed in the meantime. Look at it again before you send it.</source>
+        <translation>ګڼه په دې منځ کې بدله شوې. د لېږلو مخکې یې بیا وګورئ.</translation>
+    </message>
+    <message>
+        <source>The send could not be made.</source>
+        <translation>لېږل ونه شول.</translation>
+    </message>
+    <message>
+        <source>Sending to the subscribers needs "Verify it's you", which is switched off here. Send it in the administration.</source>
+        <translation>ګډونوالو ته لېږل "تایید کړئ چې دا تاسو یاست" ته اړتیا لري، چې دلته بند دی. په ادارې کې یې ولېږئ.</translation>
+    </message>
+    <message>
+        <source>Please confirm it is you first.</source>
+        <translation>مهرباني وکړئ لومړی تایید کړئ چې دا تاسو یاست.</translation>
+    </message>
+    <message>
+        <source>Editions with this page</source>
+        <translation>هغه ګڼې چې دا پاڼه پکې ده</translation>
+    </message>
+    <message>
+        <source>This page is in no edition yet.</source>
+        <translation>دا پاڼه لا په هېڅ ګڼه کې نشته.</translation>
+    </message>
+    <message>
+        <source>Being sent</source>
+        <translation>د لېږلو په حال کې</translation>
+    </message>
+    <message>
+        <source>Sent, in the archive</source>
+        <translation>لېږل شوې، په آرشیف کې</translation>
+    </message>
+    <message>
+        <source>Stopped</source>
+        <translation>ودرول شوې</translation>
+    </message>
+    <message>
+        <source>%n subscribers</source>
+        <translation>%n ګډونوال</translation>
+    </message>
+    <message>
+        <source>Make an edition from this page</source>
+        <translation>له دې پاڼې ګڼه جوړه کړئ</translation>
+    </message>
+    <message>
+        <source>There is no newsletter list where you may make an edition.</source>
+        <translation>د خبرپاڼې داسې لېست نشته چې تاسو پکې ګڼه جوړولای شئ.</translation>
+    </message>
+    <message>
+        <source>Make the edition</source>
+        <translation>ګڼه جوړه کړئ</translation>
+    </message>
+    <message>
+        <source>Newsletter list</source>
+        <translation>د خبرپاڼې لېست</translation>
+    </message>
+    <message>
+        <source>Introduction (optional)</source>
+        <translation>سریزه (اختیاري)</translation>
+    </message>
+    <message>
+        <source>This page becomes the edition's article: its title, its intro and a link to it.</source>
+        <translation>دا پاڼه د ګڼې مقاله کېږي: سرلیک، سریزه او دې ته یوه لینک.</translation>
+    </message>
+    <message>
+        <source>The edition was made, with this page as its article.</source>
+        <translation>ګڼه جوړه شوه، دا پاڼه یې مقاله ده.</translation>
+    </message>
+    <message>
+        <source>not asked for yet</source>
+        <translation>لا نه ده غوښتل شوې</translation>
+    </message>
+    <message>
+        <source>waiting</source>
+        <translation>په تمه</translation>
+    </message>
+    <message>
+        <source>approved</source>
+        <translation>تایید شوې</translation>
+    </message>
+    <message>
+        <source>rejected</source>
+        <translation>رد شوې</translation>
+    </message>
+    <message>
+        <source>Approval: %state</source>
+        <translation>تایید: %state</translation>
+    </message>
+    <message>
+        <source>waiting for the cronjob</source>
+        <translation>د کرون جاب په تمه</translation>
+    </message>
+    <message>
+        <source>queued</source>
+        <translation>په کتار کې</translation>
+    </message>
+    <message>
+        <source>being sent</source>
+        <translation>د لېږلو په حال کې</translation>
+    </message>
+    <message>
+        <source>sent</source>
+        <translation>لېږل شوې</translation>
+    </message>
+    <message>
+        <source>stopped</source>
+        <translation>ودرول شوې</translation>
+    </message>
+    <message>
+        <source>Last send: %state, %time</source>
+        <translation>وروستی لېږل: %state، %time</translation>
+    </message>
+    <message>
+        <source>Send a test</source>
+        <translation>ازموینه ولېږئ</translation>
+    </message>
+    <message>
+        <source>The test could not be sent.</source>
+        <translation>ازموینه ونه لېږل شوه.</translation>
+    </message>
+    <message>
+        <source>The test was sent to %list.</source>
+        <translation>ازموینه %list ته ولېږل شوه.</translation>
+    </message>
+    <message>
+        <source>Test addresses</source>
+        <translation>د ازموینې پتې</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers</source>
+        <translation>ګډونوالو ته یې ولېږئ</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers ...</source>
+        <translation>ګډونوالو ته یې ولېږئ ...</translation>
+    </message>
+    <message>
+        <source>Send now</source>
+        <translation>اوس یې ولېږئ</translation>
+    </message>
+    <message>
+        <source>The edition is queued: the newsletter's cronjob sends it to the subscribers.</source>
+        <translation>ګڼه په کتار کې ده: د خبرپاڼې کرون جاب یې ګډونوالو ته لېږي.</translation>
+    </message>
+    <message>
+        <source>Send "%name" to the %n subscribers of "%list" now? This cannot be taken back here.</source>
+        <translation>"%name" اوس د "%list" %n ګډونوالو ته ولېږئ؟ دا دلته بېرته نه اخیستل کېږي.</translation>
+    </message>
+    <message>
+        <source>Newsletter</source>
+        <translation>خبرپاڼه</translation>
+    </message>
+    <message>
+        <source>This edition is being sent.</source>
+        <translation>دا ګڼه د لېږلو په حال کې ده.</translation>
+    </message>
+    <message>
+        <source>This edition was sent and is in the archive.</source>
+        <translation>دا ګڼه لېږل شوې او په آرشیف کې ده.</translation>
+    </message>
+    <message>
+        <source>This edition waits for its approval. It can be sent when it is approved.</source>
+        <translation>دا ګڼه د تایید په تمه ده. کله چې تایید شي، لېږل کېدای شي.</translation>
+    </message>
+    <message>
+        <source>This edition was rejected. Change it and ask for the approval again.</source>
+        <translation>دا ګڼه رد شوه. بدله یې کړئ او بیا تایید وغواړئ.</translation>
+    </message>
+    <message>
+        <source>The list needs an approval before an edition is sent. Ask for the approval in the administration.</source>
+        <translation>لېست د ګڼې له لېږلو مخکې تایید ته اړتیا لري. په ادارې کې تایید وغواړئ.</translation>
+    </message>
+    <message>
+        <source>The list has no subscribers.</source>
+        <translation>لېست هېڅ ګډونوال نه لري.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>راغلي لیکونه</translation>
     </message>

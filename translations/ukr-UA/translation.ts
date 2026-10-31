@@ -1044,6 +1044,214 @@
         <translation>Форми</translation>
     </message>
     <message>
+        <source>There is no such newsletter list.</source>
+        <translation>Такого списку розсилки немає.</translation>
+    </message>
+    <message>
+        <source>The edition was made, but a workflow holds its publishing. Find it in the administration.</source>
+        <translation>Випуск створено, але робочий процес затримує його публікацію. Знайдіть його в адмініструванні.</translation>
+    </message>
+    <message>
+        <source>The edition was made, but the page could not be taken into it.</source>
+        <translation>Випуск створено, але сторінку не вдалося до нього додати.</translation>
+    </message>
+    <message>
+        <source>There is no such edition, or you may not read it.</source>
+        <translation>Такого випуску немає, або вам не дозволено його читати.</translation>
+    </message>
+    <message>
+        <source>This edition has no newsletter data.</source>
+        <translation>Цей випуск не має даних розсилки.</translation>
+    </message>
+    <message>
+        <source>Some of the addresses are not valid.</source>
+        <translation>Деякі адреси недійсні.</translation>
+    </message>
+    <message>
+        <source>Give at least one address.</source>
+        <translation>Вкажіть принаймні одну адресу.</translation>
+    </message>
+    <message>
+        <source>Too many addresses at once.</source>
+        <translation>Забагато адрес за раз.</translation>
+    </message>
+    <message>
+        <source>The edition was changed in the meantime. Look at it again before you send it.</source>
+        <translation>Тим часом випуск змінили. Перегляньте його ще раз перед надсиланням.</translation>
+    </message>
+    <message>
+        <source>The send could not be made.</source>
+        <translation>Не вдалося виконати надсилання.</translation>
+    </message>
+    <message>
+        <source>Sending to the subscribers needs "Verify it's you", which is switched off here. Send it in the administration.</source>
+        <translation>Для надсилання підписникам потрібна функція «Підтвердьте, що це ви», яку тут вимкнено. Надішліть його в адмініструванні.</translation>
+    </message>
+    <message>
+        <source>Please confirm it is you first.</source>
+        <translation>Будь ласка, спершу підтвердьте, що це ви.</translation>
+    </message>
+    <message>
+        <source>Editions with this page</source>
+        <translation>Випуски з цією сторінкою</translation>
+    </message>
+    <message>
+        <source>This page is in no edition yet.</source>
+        <translation>Цієї сторінки ще немає в жодному випуску.</translation>
+    </message>
+    <message>
+        <source>Being sent</source>
+        <translation>Надсилається</translation>
+    </message>
+    <message>
+        <source>Sent, in the archive</source>
+        <translation>Надіслано, в архіві</translation>
+    </message>
+    <message>
+        <source>Stopped</source>
+        <translation>Зупинено</translation>
+    </message>
+    <message>
+        <source>%n subscribers</source>
+        <translation>Підписників: %n</translation>
+    </message>
+    <message>
+        <source>Make an edition from this page</source>
+        <translation>Створити випуск із цієї сторінки</translation>
+    </message>
+    <message>
+        <source>There is no newsletter list where you may make an edition.</source>
+        <translation>Немає списку розсилки, у якому ви можете створити випуск.</translation>
+    </message>
+    <message>
+        <source>Make the edition</source>
+        <translation>Створити випуск</translation>
+    </message>
+    <message>
+        <source>Newsletter list</source>
+        <translation>Список розсилки</translation>
+    </message>
+    <message>
+        <source>Introduction (optional)</source>
+        <translation>Вступ (необов’язково)</translation>
+    </message>
+    <message>
+        <source>This page becomes the edition's article: its title, its intro and a link to it.</source>
+        <translation>Ця сторінка стає статтею випуску: її заголовок, вступ і посилання на неї.</translation>
+    </message>
+    <message>
+        <source>The edition was made, with this page as its article.</source>
+        <translation>Випуск створено, ця сторінка — його стаття.</translation>
+    </message>
+    <message>
+        <source>not asked for yet</source>
+        <translation>ще не запитано</translation>
+    </message>
+    <message>
+        <source>waiting</source>
+        <translation>очікує</translation>
+    </message>
+    <message>
+        <source>approved</source>
+        <translation>схвалено</translation>
+    </message>
+    <message>
+        <source>rejected</source>
+        <translation>відхилено</translation>
+    </message>
+    <message>
+        <source>Approval: %state</source>
+        <translation>Затвердження: %state</translation>
+    </message>
+    <message>
+        <source>waiting for the cronjob</source>
+        <translation>очікує на cronjob</translation>
+    </message>
+    <message>
+        <source>queued</source>
+        <translation>у черзі</translation>
+    </message>
+    <message>
+        <source>being sent</source>
+        <translation>надсилається</translation>
+    </message>
+    <message>
+        <source>sent</source>
+        <translation>надіслано</translation>
+    </message>
+    <message>
+        <source>stopped</source>
+        <translation>зупинено</translation>
+    </message>
+    <message>
+        <source>Last send: %state, %time</source>
+        <translation>Останнє надсилання: %state, %time</translation>
+    </message>
+    <message>
+        <source>Send a test</source>
+        <translation>Надіслати тест</translation>
+    </message>
+    <message>
+        <source>The test could not be sent.</source>
+        <translation>Не вдалося надіслати тест.</translation>
+    </message>
+    <message>
+        <source>The test was sent to %list.</source>
+        <translation>Тест надіслано на %list.</translation>
+    </message>
+    <message>
+        <source>Test addresses</source>
+        <translation>Тестові адреси</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers</source>
+        <translation>Надіслати підписникам</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers ...</source>
+        <translation>Надіслати підписникам ...</translation>
+    </message>
+    <message>
+        <source>Send now</source>
+        <translation>Надіслати зараз</translation>
+    </message>
+    <message>
+        <source>The edition is queued: the newsletter's cronjob sends it to the subscribers.</source>
+        <translation>Випуск у черзі: cronjob розсилки надішле його підписникам.</translation>
+    </message>
+    <message>
+        <source>Send "%name" to the %n subscribers of "%list" now? This cannot be taken back here.</source>
+        <translation>Надіслати «%name» %n підписникам списку «%list» зараз? Тут це не можна скасувати.</translation>
+    </message>
+    <message>
+        <source>Newsletter</source>
+        <translation>Розсилка</translation>
+    </message>
+    <message>
+        <source>This edition is being sent.</source>
+        <translation>Цей випуск надсилається.</translation>
+    </message>
+    <message>
+        <source>This edition was sent and is in the archive.</source>
+        <translation>Цей випуск надіслано, він в архіві.</translation>
+    </message>
+    <message>
+        <source>This edition waits for its approval. It can be sent when it is approved.</source>
+        <translation>Цей випуск очікує на затвердження. Його можна буде надіслати після затвердження.</translation>
+    </message>
+    <message>
+        <source>This edition was rejected. Change it and ask for the approval again.</source>
+        <translation>Цей випуск відхилено. Змініть його і знову попросіть затвердження.</translation>
+    </message>
+    <message>
+        <source>The list needs an approval before an edition is sent. Ask for the approval in the administration.</source>
+        <translation>Перед надсиланням випуску список потребує затвердження. Попросіть затвердження в адмініструванні.</translation>
+    </message>
+    <message>
+        <source>The list has no subscribers.</source>
+        <translation>У списку немає підписників.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Вхідні</translation>
     </message>

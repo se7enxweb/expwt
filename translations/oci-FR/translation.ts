@@ -1044,6 +1044,214 @@
         <translation>Formularis</translation>
     </message>
     <message>
+        <source>There is no such newsletter list.</source>
+        <translation>Aquesta lista de letra d'informacion existís pas.</translation>
+    </message>
+    <message>
+        <source>The edition was made, but a workflow holds its publishing. Find it in the administration.</source>
+        <translation>L'edicion es estada facha, mas un flux de trabalh ne reten la publicacion. Trobatz-la dins l'administracion.</translation>
+    </message>
+    <message>
+        <source>The edition was made, but the page could not be taken into it.</source>
+        <translation>L'edicion es estada facha, mas la pagina i a pas pogut èsser presa.</translation>
+    </message>
+    <message>
+        <source>There is no such edition, or you may not read it.</source>
+        <translation>Aquesta edicion existís pas, o avètz pas lo drech de la legir.</translation>
+    </message>
+    <message>
+        <source>This edition has no newsletter data.</source>
+        <translation>Aquesta edicion a pas de donadas de letra d'informacion.</translation>
+    </message>
+    <message>
+        <source>Some of the addresses are not valid.</source>
+        <translation>D'unas adreças son pas valablas.</translation>
+    </message>
+    <message>
+        <source>Give at least one address.</source>
+        <translation>Donatz almens una adreça.</translation>
+    </message>
+    <message>
+        <source>Too many addresses at once.</source>
+        <translation>Tròp d'adreças d'un còp.</translation>
+    </message>
+    <message>
+        <source>The edition was changed in the meantime. Look at it again before you send it.</source>
+        <translation>L'edicion es estada modificada dins l'interval. Agachatz-la tornarmai abans de la mandar.</translation>
+    </message>
+    <message>
+        <source>The send could not be made.</source>
+        <translation>Lo mandadís a pas pogut èsser fach.</translation>
+    </message>
+    <message>
+        <source>Sending to the subscribers needs "Verify it's you", which is switched off here. Send it in the administration.</source>
+        <translation>Lo mandadís als abonats demanda « Confirmatz qu'es vos », qu'es desactivat aicí. Mandatz-la dins l'administracion.</translation>
+    </message>
+    <message>
+        <source>Please confirm it is you first.</source>
+        <translation>Confirmatz d'en primièr qu'es vos.</translation>
+    </message>
+    <message>
+        <source>Editions with this page</source>
+        <translation>Edicions amb aquesta pagina</translation>
+    </message>
+    <message>
+        <source>This page is in no edition yet.</source>
+        <translation>Aquesta pagina es pas encara dins cap d'edicion.</translation>
+    </message>
+    <message>
+        <source>Being sent</source>
+        <translation>En cors de mandadís</translation>
+    </message>
+    <message>
+        <source>Sent, in the archive</source>
+        <translation>Mandada, dins l'archiu</translation>
+    </message>
+    <message>
+        <source>Stopped</source>
+        <translation>Arrestada</translation>
+    </message>
+    <message>
+        <source>%n subscribers</source>
+        <translation>%n abonats</translation>
+    </message>
+    <message>
+        <source>Make an edition from this page</source>
+        <translation>Far una edicion a partir d'aquesta pagina</translation>
+    </message>
+    <message>
+        <source>There is no newsletter list where you may make an edition.</source>
+        <translation>I a pas cap de lista de letra d'informacion ont podètz far una edicion.</translation>
+    </message>
+    <message>
+        <source>Make the edition</source>
+        <translation>Far l'edicion</translation>
+    </message>
+    <message>
+        <source>Newsletter list</source>
+        <translation>Lista de letra d'informacion</translation>
+    </message>
+    <message>
+        <source>Introduction (optional)</source>
+        <translation>Introduccion (opcionala)</translation>
+    </message>
+    <message>
+        <source>This page becomes the edition's article: its title, its intro and a link to it.</source>
+        <translation>Aquesta pagina ven l'article de l'edicion: son títol, son introduccion e un ligam cap a ela.</translation>
+    </message>
+    <message>
+        <source>The edition was made, with this page as its article.</source>
+        <translation>L'edicion es estada facha, amb aquesta pagina coma article.</translation>
+    </message>
+    <message>
+        <source>not asked for yet</source>
+        <translation>pas encara demandada</translation>
+    </message>
+    <message>
+        <source>waiting</source>
+        <translation>en espèra</translation>
+    </message>
+    <message>
+        <source>approved</source>
+        <translation>aprovada</translation>
+    </message>
+    <message>
+        <source>rejected</source>
+        <translation>refusada</translation>
+    </message>
+    <message>
+        <source>Approval: %state</source>
+        <translation>Aprobacion: %state</translation>
+    </message>
+    <message>
+        <source>waiting for the cronjob</source>
+        <translation>en espèra del cronjob</translation>
+    </message>
+    <message>
+        <source>queued</source>
+        <translation>en fila d'espèra</translation>
+    </message>
+    <message>
+        <source>being sent</source>
+        <translation>en cors de mandadís</translation>
+    </message>
+    <message>
+        <source>sent</source>
+        <translation>mandada</translation>
+    </message>
+    <message>
+        <source>stopped</source>
+        <translation>arrestada</translation>
+    </message>
+    <message>
+        <source>Last send: %state, %time</source>
+        <translation>Darrièr mandadís: %state, %time</translation>
+    </message>
+    <message>
+        <source>Send a test</source>
+        <translation>Mandar un tèst</translation>
+    </message>
+    <message>
+        <source>The test could not be sent.</source>
+        <translation>Lo tèst a pas pogut èsser mandat.</translation>
+    </message>
+    <message>
+        <source>The test was sent to %list.</source>
+        <translation>Lo tèst es estat mandat a %list.</translation>
+    </message>
+    <message>
+        <source>Test addresses</source>
+        <translation>Adreças de tèst</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers</source>
+        <translation>Mandar als abonats</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers ...</source>
+        <translation>Mandar als abonats ...</translation>
+    </message>
+    <message>
+        <source>Send now</source>
+        <translation>Mandar ara</translation>
+    </message>
+    <message>
+        <source>The edition is queued: the newsletter's cronjob sends it to the subscribers.</source>
+        <translation>L'edicion es en fila d'espèra: lo cronjob de la letra d'informacion la manda als abonats.</translation>
+    </message>
+    <message>
+        <source>Send "%name" to the %n subscribers of "%list" now? This cannot be taken back here.</source>
+        <translation>Mandar « %name » als %n abonats de « %list » ara? Aquò se pòt pas anullar aicí.</translation>
+    </message>
+    <message>
+        <source>Newsletter</source>
+        <translation>Letra d'informacion</translation>
+    </message>
+    <message>
+        <source>This edition is being sent.</source>
+        <translation>Aquesta edicion es en cors de mandadís.</translation>
+    </message>
+    <message>
+        <source>This edition was sent and is in the archive.</source>
+        <translation>Aquesta edicion es estada mandada e es dins l'archiu.</translation>
+    </message>
+    <message>
+        <source>This edition waits for its approval. It can be sent when it is approved.</source>
+        <translation>Aquesta edicion espèra son aprobacion. Poirà èsser mandada quand serà aprovada.</translation>
+    </message>
+    <message>
+        <source>This edition was rejected. Change it and ask for the approval again.</source>
+        <translation>Aquesta edicion es estada refusada. Modificatz-la e demandatz l'aprobacion tornarmai.</translation>
+    </message>
+    <message>
+        <source>The list needs an approval before an edition is sent. Ask for the approval in the administration.</source>
+        <translation>La lista demanda una aprobacion abans qu'una edicion siá mandada. Demandatz l'aprobacion dins l'administracion.</translation>
+    </message>
+    <message>
+        <source>The list has no subscribers.</source>
+        <translation>La lista a pas cap d'abonat.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Bóstia de recepcion</translation>
     </message>

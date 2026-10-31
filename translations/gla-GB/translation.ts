@@ -1044,6 +1044,214 @@
         <translation>Foirmean</translation>
     </message>
     <message>
+        <source>There is no such newsletter list.</source>
+        <translation>Chan eil an liosta cuairt-litreach seo ann.</translation>
+    </message>
+    <message>
+        <source>The edition was made, but a workflow holds its publishing. Find it in the administration.</source>
+        <translation>Chaidh an iris a dhèanamh, ach tha sruth-obrach a’ cumail air ais am foillseachadh. Lorgaibh i san rianachd.</translation>
+    </message>
+    <message>
+        <source>The edition was made, but the page could not be taken into it.</source>
+        <translation>Chaidh an iris a dhèanamh, ach cha b’ urrainn an duilleag a chur innte.</translation>
+    </message>
+    <message>
+        <source>There is no such edition, or you may not read it.</source>
+        <translation>Chan eil an iris seo ann, no chan fhaod sibh a leughadh.</translation>
+    </message>
+    <message>
+        <source>This edition has no newsletter data.</source>
+        <translation>Chan eil dàta cuairt-litreach aig an iris seo.</translation>
+    </message>
+    <message>
+        <source>Some of the addresses are not valid.</source>
+        <translation>Chan eil cuid de na seòlaidhean dligheach.</translation>
+    </message>
+    <message>
+        <source>Give at least one address.</source>
+        <translation>Thoiribh co-dhiù aon seòladh.</translation>
+    </message>
+    <message>
+        <source>Too many addresses at once.</source>
+        <translation>Cus sheòlaidhean aig an aon àm.</translation>
+    </message>
+    <message>
+        <source>The edition was changed in the meantime. Look at it again before you send it.</source>
+        <translation>Chaidh an iris atharrachadh san eadar-àm. Thoiribh sùil oirre a-rithist mus cuir sibh i.</translation>
+    </message>
+    <message>
+        <source>The send could not be made.</source>
+        <translation>Cha b’ urrainn an cur a dhèanamh.</translation>
+    </message>
+    <message>
+        <source>Sending to the subscribers needs "Verify it's you", which is switched off here. Send it in the administration.</source>
+        <translation>Feumaidh cur dha na fo-sgrìobhaichean "Dearbhaibh gur e sibh fhèin a th’ ann", a tha dheth an seo. Cuiribh i san rianachd.</translation>
+    </message>
+    <message>
+        <source>Please confirm it is you first.</source>
+        <translation>Dearbhaibh an toiseach gur e sibh fhèin a th’ ann.</translation>
+    </message>
+    <message>
+        <source>Editions with this page</source>
+        <translation>Irisean leis an duilleag seo</translation>
+    </message>
+    <message>
+        <source>This page is in no edition yet.</source>
+        <translation>Chan eil an duilleag seo ann an iris sam bith fhathast.</translation>
+    </message>
+    <message>
+        <source>Being sent</source>
+        <translation>Ga cur</translation>
+    </message>
+    <message>
+        <source>Sent, in the archive</source>
+        <translation>Air a cur, san tasglann</translation>
+    </message>
+    <message>
+        <source>Stopped</source>
+        <translation>Air a stad</translation>
+    </message>
+    <message>
+        <source>%n subscribers</source>
+        <translation>%n fo-sgrìobhaichean</translation>
+    </message>
+    <message>
+        <source>Make an edition from this page</source>
+        <translation>Dèan iris den duilleag seo</translation>
+    </message>
+    <message>
+        <source>There is no newsletter list where you may make an edition.</source>
+        <translation>Chan eil liosta cuairt-litreach ann far am faod sibh iris a dhèanamh.</translation>
+    </message>
+    <message>
+        <source>Make the edition</source>
+        <translation>Dèan an iris</translation>
+    </message>
+    <message>
+        <source>Newsletter list</source>
+        <translation>Liosta cuairt-litreach</translation>
+    </message>
+    <message>
+        <source>Introduction (optional)</source>
+        <translation>Ro-ràdh (roghainneil)</translation>
+    </message>
+    <message>
+        <source>This page becomes the edition's article: its title, its intro and a link to it.</source>
+        <translation>Bidh an duilleag seo na h-artaigil na h-irise: a tiotal, a ro-ràdh agus ceangal thuice.</translation>
+    </message>
+    <message>
+        <source>The edition was made, with this page as its article.</source>
+        <translation>Chaidh an iris a dhèanamh, leis an duilleag seo mar artaigil.</translation>
+    </message>
+    <message>
+        <source>not asked for yet</source>
+        <translation>gun iarraidh fhathast</translation>
+    </message>
+    <message>
+        <source>waiting</source>
+        <translation>a’ feitheamh</translation>
+    </message>
+    <message>
+        <source>approved</source>
+        <translation>air aontachadh</translation>
+    </message>
+    <message>
+        <source>rejected</source>
+        <translation>air a diùltadh</translation>
+    </message>
+    <message>
+        <source>Approval: %state</source>
+        <translation>Aonta: %state</translation>
+    </message>
+    <message>
+        <source>waiting for the cronjob</source>
+        <translation>a’ feitheamh ris a’ cronjob</translation>
+    </message>
+    <message>
+        <source>queued</source>
+        <translation>sa chiutha</translation>
+    </message>
+    <message>
+        <source>being sent</source>
+        <translation>ga cur</translation>
+    </message>
+    <message>
+        <source>sent</source>
+        <translation>air a cur</translation>
+    </message>
+    <message>
+        <source>stopped</source>
+        <translation>air a stad</translation>
+    </message>
+    <message>
+        <source>Last send: %state, %time</source>
+        <translation>An cur mu dheireadh: %state, %time</translation>
+    </message>
+    <message>
+        <source>Send a test</source>
+        <translation>Cuir deuchainn</translation>
+    </message>
+    <message>
+        <source>The test could not be sent.</source>
+        <translation>Cha b’ urrainn an deuchainn a chur.</translation>
+    </message>
+    <message>
+        <source>The test was sent to %list.</source>
+        <translation>Chaidh an deuchainn a chur gu %list.</translation>
+    </message>
+    <message>
+        <source>Test addresses</source>
+        <translation>Seòlaidhean deuchainn</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers</source>
+        <translation>Cuir dha na fo-sgrìobhaichean</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers ...</source>
+        <translation>Cuir dha na fo-sgrìobhaichean ...</translation>
+    </message>
+    <message>
+        <source>Send now</source>
+        <translation>Cuir an-dràsta</translation>
+    </message>
+    <message>
+        <source>The edition is queued: the newsletter's cronjob sends it to the subscribers.</source>
+        <translation>Tha an iris sa chiutha: cuiridh cronjob na cuairt-litreach i dha na fo-sgrìobhaichean.</translation>
+    </message>
+    <message>
+        <source>Send "%name" to the %n subscribers of "%list" now? This cannot be taken back here.</source>
+        <translation>An cuir sibh "%name" dha na %n fo-sgrìobhaichean aig "%list" an-dràsta? Cha ghabh seo a thoirt air ais an seo.</translation>
+    </message>
+    <message>
+        <source>Newsletter</source>
+        <translation>Cuairt-litir</translation>
+    </message>
+    <message>
+        <source>This edition is being sent.</source>
+        <translation>Tha an iris seo ga cur.</translation>
+    </message>
+    <message>
+        <source>This edition was sent and is in the archive.</source>
+        <translation>Chaidh an iris seo a chur agus tha i san tasglann.</translation>
+    </message>
+    <message>
+        <source>This edition waits for its approval. It can be sent when it is approved.</source>
+        <translation>Tha an iris seo a’ feitheamh ri aonta. Gabhaidh a cur nuair a bhios aonta aice.</translation>
+    </message>
+    <message>
+        <source>This edition was rejected. Change it and ask for the approval again.</source>
+        <translation>Chaidh an iris seo a dhiùltadh. Atharraichibh i agus iarraibh aonta a-rithist.</translation>
+    </message>
+    <message>
+        <source>The list needs an approval before an edition is sent. Ask for the approval in the administration.</source>
+        <translation>Feumaidh an liosta aonta mus tèid iris a chur. Iarraibh an aonta san rianachd.</translation>
+    </message>
+    <message>
+        <source>The list has no subscribers.</source>
+        <translation>Chan eil fo-sgrìobhaiche aig an liosta.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Bogsa a-steach</translation>
     </message>

@@ -1044,6 +1044,214 @@
         <translation>טופסא</translation>
     </message>
     <message>
+        <source>There is no such newsletter list.</source>
+        <translation>לית רשימת אגרתא דחדתותא כדא.</translation>
+    </message>
+    <message>
+        <source>The edition was made, but a workflow holds its publishing. Find it in the administration.</source>
+        <translation>מהדורא אתעבדת, ברם עבדא דפלחנא כליא פרסומה. אשכחה במדברנותא.</translation>
+    </message>
+    <message>
+        <source>The edition was made, but the page could not be taken into it.</source>
+        <translation>מהדורא אתעבדת, ברם דפא לא אתנסב לגווה.</translation>
+    </message>
+    <message>
+        <source>There is no such edition, or you may not read it.</source>
+        <translation>לית מהדורא כדא, או לא שליט לך למקרא לה.</translation>
+    </message>
+    <message>
+        <source>This edition has no newsletter data.</source>
+        <translation>למהדורא הדא לית ידיעתא דאגרתא.</translation>
+    </message>
+    <message>
+        <source>Some of the addresses are not valid.</source>
+        <translation>מן כתובתא לא תריצן.</translation>
+    </message>
+    <message>
+        <source>Give at least one address.</source>
+        <translation>הב לפחות כתובא חדא.</translation>
+    </message>
+    <message>
+        <source>Too many addresses at once.</source>
+        <translation>כתובתא סגיאתא בזמנא חדא.</translation>
+    </message>
+    <message>
+        <source>The edition was changed in the meantime. Look at it again before you send it.</source>
+        <translation>מהדורא אשתניאת בינתיים. חזי לה תוב קדם דתשדר לה.</translation>
+    </message>
+    <message>
+        <source>The send could not be made.</source>
+        <translation>שדורא לא אתעבד.</translation>
+    </message>
+    <message>
+        <source>Sending to the subscribers needs "Verify it's you", which is switched off here. Send it in the administration.</source>
+        <translation>שדורא למנויא בעי «שרר דאנת הו», ודא כבי הכא. שדר לה במדברנותא.</translation>
+    </message>
+    <message>
+        <source>Please confirm it is you first.</source>
+        <translation>בבעו, שרר קדמאית דאנת הו.</translation>
+    </message>
+    <message>
+        <source>Editions with this page</source>
+        <translation>מהדורתא עם דפא הנא</translation>
+    </message>
+    <message>
+        <source>This page is in no edition yet.</source>
+        <translation>דפא הנא עד כען לא בשום מהדורא.</translation>
+    </message>
+    <message>
+        <source>Being sent</source>
+        <translation>מתשדרא</translation>
+    </message>
+    <message>
+        <source>Sent, in the archive</source>
+        <translation>אשתדרת, בגנזא</translation>
+    </message>
+    <message>
+        <source>Stopped</source>
+        <translation>פסקת</translation>
+    </message>
+    <message>
+        <source>%n subscribers</source>
+        <translation>%n מנויא</translation>
+    </message>
+    <message>
+        <source>Make an edition from this page</source>
+        <translation>עביד מהדורא מן דפא הנא</translation>
+    </message>
+    <message>
+        <source>There is no newsletter list where you may make an edition.</source>
+        <translation>לית רשימת אגרתא דשליט לך למעבד בה מהדורא.</translation>
+    </message>
+    <message>
+        <source>Make the edition</source>
+        <translation>עביד מהדורא</translation>
+    </message>
+    <message>
+        <source>Newsletter list</source>
+        <translation>רשימת אגרתא</translation>
+    </message>
+    <message>
+        <source>Introduction (optional)</source>
+        <translation>פתיחא (לא מחייבא)</translation>
+    </message>
+    <message>
+        <source>This page becomes the edition's article: its title, its intro and a link to it.</source>
+        <translation>דפא הנא הוי מאמרא דמהדורא: שמה, פתיחה ואסורא לה.</translation>
+    </message>
+    <message>
+        <source>The edition was made, with this page as its article.</source>
+        <translation>מהדורא אתעבדת, ודפא הנא מאמרה.</translation>
+    </message>
+    <message>
+        <source>not asked for yet</source>
+        <translation>עד כען לא אתבעי</translation>
+    </message>
+    <message>
+        <source>waiting</source>
+        <translation>מסכיא</translation>
+    </message>
+    <message>
+        <source>approved</source>
+        <translation>אשתרר</translation>
+    </message>
+    <message>
+        <source>rejected</source>
+        <translation>אתדחי</translation>
+    </message>
+    <message>
+        <source>Approval: %state</source>
+        <translation>שורנא: %state</translation>
+    </message>
+    <message>
+        <source>waiting for the cronjob</source>
+        <translation>מסכיא לcronjob</translation>
+    </message>
+    <message>
+        <source>queued</source>
+        <translation>בסדרא</translation>
+    </message>
+    <message>
+        <source>being sent</source>
+        <translation>מתשדרא</translation>
+    </message>
+    <message>
+        <source>sent</source>
+        <translation>אשתדר</translation>
+    </message>
+    <message>
+        <source>stopped</source>
+        <translation>פסק</translation>
+    </message>
+    <message>
+        <source>Last send: %state, %time</source>
+        <translation>שדורא בתרייא: %state, %time</translation>
+    </message>
+    <message>
+        <source>Send a test</source>
+        <translation>שדר נסיונא</translation>
+    </message>
+    <message>
+        <source>The test could not be sent.</source>
+        <translation>נסיונא לא אשתדר.</translation>
+    </message>
+    <message>
+        <source>The test was sent to %list.</source>
+        <translation>נסיונא אשתדר ל%list.</translation>
+    </message>
+    <message>
+        <source>Test addresses</source>
+        <translation>כתובתא דנסיונא</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers</source>
+        <translation>שדר למנויא</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers ...</source>
+        <translation>שדר למנויא ...</translation>
+    </message>
+    <message>
+        <source>Send now</source>
+        <translation>שדר השתא</translation>
+    </message>
+    <message>
+        <source>The edition is queued: the newsletter's cronjob sends it to the subscribers.</source>
+        <translation>מהדורא בסדרא: cronjob דאגרתא משדר לה למנויא.</translation>
+    </message>
+    <message>
+        <source>Send "%name" to the %n subscribers of "%list" now? This cannot be taken back here.</source>
+        <translation>לשדר «%name» ל%n מנויא ד«%list» השתא? הדא לא מתהפכא הכא.</translation>
+    </message>
+    <message>
+        <source>Newsletter</source>
+        <translation>אגרתא דחדתותא</translation>
+    </message>
+    <message>
+        <source>This edition is being sent.</source>
+        <translation>מהדורא הדא מתשדרא.</translation>
+    </message>
+    <message>
+        <source>This edition was sent and is in the archive.</source>
+        <translation>מהדורא הדא אשתדרת ואיתה בגנזא.</translation>
+    </message>
+    <message>
+        <source>This edition waits for its approval. It can be sent when it is approved.</source>
+        <translation>מהדורא הדא מסכיא לשורנא. מצי לאשתדרא כד אשתררת.</translation>
+    </message>
+    <message>
+        <source>This edition was rejected. Change it and ask for the approval again.</source>
+        <translation>מהדורא הדא אתדחיאת. שני לה ובעי שורנא תוב.</translation>
+    </message>
+    <message>
+        <source>The list needs an approval before an edition is sent. Ask for the approval in the administration.</source>
+        <translation>רשימתא בעיא שורנא קדם דמהדורא תשתדר. בעי שורנא במדברנותא.</translation>
+    </message>
+    <message>
+        <source>The list has no subscribers.</source>
+        <translation>לרשימתא לית מנויא.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>ܐܓܪ̈ܬܐ ܕܥܐܠ̈ܢ</translation>
     </message>

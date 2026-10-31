@@ -66,7 +66,20 @@ class expwtAccess
         // the page's forms and their submissions (E2): read-only; the submissions only with infocollector/read
         'forms.load'      => array( 'edit', false, '', '', '' ),
         'forms.view'      => array( 'edit', false, '', '', '' ),
+        // the newsletter of the page (E3, cjw_newsletter): an edition made from the page (content/create below the
+        // list, newsletter/editorial), a test send and the real send to the subscribers (newsletter/send); the real
+        // send always asks "Verify it's you" first (REAUTH_GROUPS)
+        'newsletter.load'   => array( 'edit', false, '', '', '' ),
+        'newsletter.create' => array( 'edit', true, 'content', 'edit', 'PublishButton' ),
+        'newsletter.test'   => array( 'edit', true, 'newsletter', 'send', 'SendNewsletterTestButton' ),
+        'newsletter.send'   => array( 'edit', true, 'newsletter', 'send', 'SendNewsletterButton' ),
     );
+
+    /**
+     * Actions that ask "Verify it's you" in a group of their own, whatever the administration's view asks: the real
+     * send of a newsletter (E3). action => the group of site.ini [ReauthSettings] Groups[] (settings/site.ini.append.php).
+     */
+    const REAUTH_GROUPS = array( 'newsletter.send' => 'newsletter' );
 
     /** @return bool */
     public static function exists( $action )

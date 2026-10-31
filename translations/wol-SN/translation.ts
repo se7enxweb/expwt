@@ -1044,6 +1044,214 @@
         <translation>Formileer yi</translation>
     </message>
     <message>
+        <source>There is no such newsletter list.</source>
+        <translation>Amul benn limu bataaxal xibaar bu ni mel.</translation>
+    </message>
+    <message>
+        <source>The edition was made, but a workflow holds its publishing. Find it in the administration.</source>
+        <translation>Nimero bi defar nañu ko, waaye benn yoonu liggéey moo téye siiwal gi. Seet ko ci njiite li.</translation>
+    </message>
+    <message>
+        <source>The edition was made, but the page could not be taken into it.</source>
+        <translation>Nimero bi defar nañu ko, waaye mënuñu woon a dugal xët wi ci biir.</translation>
+    </message>
+    <message>
+        <source>There is no such edition, or you may not read it.</source>
+        <translation>Amul benn nimero bu ni mel, walla amuloo sañ-sañ jàng ko.</translation>
+    </message>
+    <message>
+        <source>This edition has no newsletter data.</source>
+        <translation>Nimero bii amul benn xibaaru bataaxal xibaar.</translation>
+    </message>
+    <message>
+        <source>Some of the addresses are not valid.</source>
+        <translation>Yenn ci adrees yi baaxuñu.</translation>
+    </message>
+    <message>
+        <source>Give at least one address.</source>
+        <translation>Joxeel benn adrees lu mu néew néew.</translation>
+    </message>
+    <message>
+        <source>Too many addresses at once.</source>
+        <translation>Adrees yu bari lool ci benn yoon.</translation>
+    </message>
+    <message>
+        <source>The edition was changed in the meantime. Look at it again before you send it.</source>
+        <translation>Soppi nañu nimero bi ci diggante bi. Xoolaatal ko balaa ngay yónne.</translation>
+    </message>
+    <message>
+        <source>The send could not be made.</source>
+        <translation>Mënuñu woon a yónne.</translation>
+    </message>
+    <message>
+        <source>Sending to the subscribers needs "Verify it's you", which is switched off here. Send it in the administration.</source>
+        <translation>Yónne ñi bindu dafa soxla "Wóorlul ne yaw la", te dañu ko fey fii. Yónneel ko ci njiite li.</translation>
+    </message>
+    <message>
+        <source>Please confirm it is you first.</source>
+        <translation>Wóorlul bu jëkk ne yaw la.</translation>
+    </message>
+    <message>
+        <source>Editions with this page</source>
+        <translation>Nimero yi am xët wii</translation>
+    </message>
+    <message>
+        <source>This page is in no edition yet.</source>
+        <translation>Xët wii nekkagul ci benn nimero.</translation>
+    </message>
+    <message>
+        <source>Being sent</source>
+        <translation>Mungi yónnewu</translation>
+    </message>
+    <message>
+        <source>Sent, in the archive</source>
+        <translation>Yónne nañu ko, mungi ci dénkukaay bi</translation>
+    </message>
+    <message>
+        <source>Stopped</source>
+        <translation>Taxawal nañu ko</translation>
+    </message>
+    <message>
+        <source>%n subscribers</source>
+        <translation>%n ñu bindu</translation>
+    </message>
+    <message>
+        <source>Make an edition from this page</source>
+        <translation>Defar benn nimero ci xët wii</translation>
+    </message>
+    <message>
+        <source>There is no newsletter list where you may make an edition.</source>
+        <translation>Amul benn limu bataaxal xibaar foo sañ a defar nimero.</translation>
+    </message>
+    <message>
+        <source>Make the edition</source>
+        <translation>Defar nimero bi</translation>
+    </message>
+    <message>
+        <source>Newsletter list</source>
+        <translation>Limu bataaxal xibaar</translation>
+    </message>
+    <message>
+        <source>Introduction (optional)</source>
+        <translation>Ubbite (bu la neexee)</translation>
+    </message>
+    <message>
+        <source>This page becomes the edition's article: its title, its intro and a link to it.</source>
+        <translation>Xët wii dina nekk jukki bu nimero bi: koj bi, ubbite bi ak lëkkalekaay bu ko jëme.</translation>
+    </message>
+    <message>
+        <source>The edition was made, with this page as its article.</source>
+        <translation>Defar nañu nimero bi, xët wii mooy jukki bi.</translation>
+    </message>
+    <message>
+        <source>not asked for yet</source>
+        <translation>laajaguñu ko</translation>
+    </message>
+    <message>
+        <source>waiting</source>
+        <translation>mungi xaar</translation>
+    </message>
+    <message>
+        <source>approved</source>
+        <translation>nangu nañu ko</translation>
+    </message>
+    <message>
+        <source>rejected</source>
+        <translation>bañ nañu ko</translation>
+    </message>
+    <message>
+        <source>Approval: %state</source>
+        <translation>Nangu: %state</translation>
+    </message>
+    <message>
+        <source>waiting for the cronjob</source>
+        <translation>mungi xaar cronjob bi</translation>
+    </message>
+    <message>
+        <source>queued</source>
+        <translation>mungi ci toog bi</translation>
+    </message>
+    <message>
+        <source>being sent</source>
+        <translation>mungi yónnewu</translation>
+    </message>
+    <message>
+        <source>sent</source>
+        <translation>yónne nañu ko</translation>
+    </message>
+    <message>
+        <source>stopped</source>
+        <translation>taxawal nañu ko</translation>
+    </message>
+    <message>
+        <source>Last send: %state, %time</source>
+        <translation>Yónnent bu mujj: %state, %time</translation>
+    </message>
+    <message>
+        <source>Send a test</source>
+        <translation>Yónne benn jéem</translation>
+    </message>
+    <message>
+        <source>The test could not be sent.</source>
+        <translation>Mënuñu woon a yónne jéem bi.</translation>
+    </message>
+    <message>
+        <source>The test was sent to %list.</source>
+        <translation>Yónne nañu jéem bi ci %list.</translation>
+    </message>
+    <message>
+        <source>Test addresses</source>
+        <translation>Adrees yu jéem</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers</source>
+        <translation>Yónne ñi bindu</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers ...</source>
+        <translation>Yónne ñi bindu ...</translation>
+    </message>
+    <message>
+        <source>Send now</source>
+        <translation>Yónne leegi</translation>
+    </message>
+    <message>
+        <source>The edition is queued: the newsletter's cronjob sends it to the subscribers.</source>
+        <translation>Nimero bi mungi ci toog bi: cronjob bu bataaxal xibaar bi dina ko yónne ñi bindu.</translation>
+    </message>
+    <message>
+        <source>Send "%name" to the %n subscribers of "%list" now? This cannot be taken back here.</source>
+        <translation>Yónne "%name" leegi ci %n ñi bindu ci "%list"? Mënuloo ko delloo fii.</translation>
+    </message>
+    <message>
+        <source>Newsletter</source>
+        <translation>Bataaxal xibaar</translation>
+    </message>
+    <message>
+        <source>This edition is being sent.</source>
+        <translation>Nimero bii mungi yónnewu.</translation>
+    </message>
+    <message>
+        <source>This edition was sent and is in the archive.</source>
+        <translation>Nimero bii yónne nañu ko te mungi ci dénkukaay bi.</translation>
+    </message>
+    <message>
+        <source>This edition waits for its approval. It can be sent when it is approved.</source>
+        <translation>Nimero bii mungi xaar ñu nangu ko. Mën nañu ko yónne su ñu ko nangoo.</translation>
+    </message>
+    <message>
+        <source>This edition was rejected. Change it and ask for the approval again.</source>
+        <translation>Bañ nañu nimero bii. Soppil ko te laajaat ñu nangu ko.</translation>
+    </message>
+    <message>
+        <source>The list needs an approval before an edition is sent. Ask for the approval in the administration.</source>
+        <translation>Lim bi soxla na ñu nangu ko balaa ñuy yónne benn nimero. Laajal nangu bi ci njiite li.</translation>
+    </message>
+    <message>
+        <source>The list has no subscribers.</source>
+        <translation>Lim bi amul ñu bindu.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Bataaxal yu dikk</translation>
     </message>

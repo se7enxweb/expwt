@@ -1044,6 +1044,214 @@
         <translation>Формы</translation>
     </message>
     <message>
+        <source>There is no such newsletter list.</source>
+        <translation>Такога спіса рассылкі няма.</translation>
+    </message>
+    <message>
+        <source>The edition was made, but a workflow holds its publishing. Find it in the administration.</source>
+        <translation>Выпуск створаны, але працоўны працэс затрымлівае яго публікацыю. Знайдзіце яго ў адміністраванні.</translation>
+    </message>
+    <message>
+        <source>The edition was made, but the page could not be taken into it.</source>
+        <translation>Выпуск створаны, але старонку не ўдалося ўключыць у яго.</translation>
+    </message>
+    <message>
+        <source>There is no such edition, or you may not read it.</source>
+        <translation>Такога выпуску няма, або вам нельга яго чытаць.</translation>
+    </message>
+    <message>
+        <source>This edition has no newsletter data.</source>
+        <translation>У гэтага выпуску няма даных рассылкі.</translation>
+    </message>
+    <message>
+        <source>Some of the addresses are not valid.</source>
+        <translation>Некаторыя адрасы несапраўдныя.</translation>
+    </message>
+    <message>
+        <source>Give at least one address.</source>
+        <translation>Укажыце хаця б адзін адрас.</translation>
+    </message>
+    <message>
+        <source>Too many addresses at once.</source>
+        <translation>Занадта шмат адрасоў адразу.</translation>
+    </message>
+    <message>
+        <source>The edition was changed in the meantime. Look at it again before you send it.</source>
+        <translation>Выпуск тым часам змяніўся. Праглядзіце яго яшчэ раз, перш чым адпраўляць.</translation>
+    </message>
+    <message>
+        <source>The send could not be made.</source>
+        <translation>Не ўдалося выканаць адпраўку.</translation>
+    </message>
+    <message>
+        <source>Sending to the subscribers needs "Verify it's you", which is switched off here. Send it in the administration.</source>
+        <translation>Для адпраўкі падпісчыкам патрэбна «Пацвердзіце, што гэта вы», а тут гэта выключана. Адпраўце яго ў адміністраванні.</translation>
+    </message>
+    <message>
+        <source>Please confirm it is you first.</source>
+        <translation>Спачатку пацвердзіце, што гэта вы.</translation>
+    </message>
+    <message>
+        <source>Editions with this page</source>
+        <translation>Выпускі з гэтай старонкай</translation>
+    </message>
+    <message>
+        <source>This page is in no edition yet.</source>
+        <translation>Гэтай старонкі пакуль няма ні ў адным выпуску.</translation>
+    </message>
+    <message>
+        <source>Being sent</source>
+        <translation>Адпраўляецца</translation>
+    </message>
+    <message>
+        <source>Sent, in the archive</source>
+        <translation>Адпраўлены, у архіве</translation>
+    </message>
+    <message>
+        <source>Stopped</source>
+        <translation>Спынены</translation>
+    </message>
+    <message>
+        <source>%n subscribers</source>
+        <translation>Падпісчыкаў: %n</translation>
+    </message>
+    <message>
+        <source>Make an edition from this page</source>
+        <translation>Стварыць выпуск з гэтай старонкі</translation>
+    </message>
+    <message>
+        <source>There is no newsletter list where you may make an edition.</source>
+        <translation>Няма спіса рассылкі, дзе вы можаце стварыць выпуск.</translation>
+    </message>
+    <message>
+        <source>Make the edition</source>
+        <translation>Стварыць выпуск</translation>
+    </message>
+    <message>
+        <source>Newsletter list</source>
+        <translation>Спіс рассылкі</translation>
+    </message>
+    <message>
+        <source>Introduction (optional)</source>
+        <translation>Уступ (неабавязкова)</translation>
+    </message>
+    <message>
+        <source>This page becomes the edition's article: its title, its intro and a link to it.</source>
+        <translation>Гэтая старонка стане артыкулам выпуску: яе загаловак, уступ і спасылка на яе.</translation>
+    </message>
+    <message>
+        <source>The edition was made, with this page as its article.</source>
+        <translation>Выпуск створаны, з гэтай старонкай як артыкулам.</translation>
+    </message>
+    <message>
+        <source>not asked for yet</source>
+        <translation>яшчэ не запытана</translation>
+    </message>
+    <message>
+        <source>waiting</source>
+        <translation>чакае</translation>
+    </message>
+    <message>
+        <source>approved</source>
+        <translation>адобрана</translation>
+    </message>
+    <message>
+        <source>rejected</source>
+        <translation>адхілена</translation>
+    </message>
+    <message>
+        <source>Approval: %state</source>
+        <translation>Зацвярджэнне: %state</translation>
+    </message>
+    <message>
+        <source>waiting for the cronjob</source>
+        <translation>чакае cronjob</translation>
+    </message>
+    <message>
+        <source>queued</source>
+        <translation>у чарзе</translation>
+    </message>
+    <message>
+        <source>being sent</source>
+        <translation>адпраўляецца</translation>
+    </message>
+    <message>
+        <source>sent</source>
+        <translation>адпраўлена</translation>
+    </message>
+    <message>
+        <source>stopped</source>
+        <translation>спынена</translation>
+    </message>
+    <message>
+        <source>Last send: %state, %time</source>
+        <translation>Апошняя адпраўка: %state, %time</translation>
+    </message>
+    <message>
+        <source>Send a test</source>
+        <translation>Адправіць тэст</translation>
+    </message>
+    <message>
+        <source>The test could not be sent.</source>
+        <translation>Не ўдалося адправіць тэст.</translation>
+    </message>
+    <message>
+        <source>The test was sent to %list.</source>
+        <translation>Тэст адпраўлены на %list.</translation>
+    </message>
+    <message>
+        <source>Test addresses</source>
+        <translation>Тэставыя адрасы</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers</source>
+        <translation>Адправіць падпісчыкам</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers ...</source>
+        <translation>Адправіць падпісчыкам ...</translation>
+    </message>
+    <message>
+        <source>Send now</source>
+        <translation>Адправіць зараз</translation>
+    </message>
+    <message>
+        <source>The edition is queued: the newsletter's cronjob sends it to the subscribers.</source>
+        <translation>Выпуск у чарзе: cronjob рассылкі адправіць яго падпісчыкам.</translation>
+    </message>
+    <message>
+        <source>Send "%name" to the %n subscribers of "%list" now? This cannot be taken back here.</source>
+        <translation>Адправіць «%name» %n падпісчыкам спіса «%list» зараз? Тут гэта нельга будзе адмяніць.</translation>
+    </message>
+    <message>
+        <source>Newsletter</source>
+        <translation>Рассылка</translation>
+    </message>
+    <message>
+        <source>This edition is being sent.</source>
+        <translation>Гэты выпуск адпраўляецца.</translation>
+    </message>
+    <message>
+        <source>This edition was sent and is in the archive.</source>
+        <translation>Гэты выпуск адпраўлены і знаходзіцца ў архіве.</translation>
+    </message>
+    <message>
+        <source>This edition waits for its approval. It can be sent when it is approved.</source>
+        <translation>Гэты выпуск чакае зацвярджэння. Яго можна будзе адправіць пасля зацвярджэння.</translation>
+    </message>
+    <message>
+        <source>This edition was rejected. Change it and ask for the approval again.</source>
+        <translation>Гэты выпуск адхілены. Змяніце яго і зноў запытайце зацвярджэнне.</translation>
+    </message>
+    <message>
+        <source>The list needs an approval before an edition is sent. Ask for the approval in the administration.</source>
+        <translation>Спісу патрэбна зацвярджэнне, перш чым выпуск будзе адпраўлены. Запытайце зацвярджэнне ў адміністраванні.</translation>
+    </message>
+    <message>
+        <source>The list has no subscribers.</source>
+        <translation>У спісе няма падпісчыкаў.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Уваходныя</translation>
     </message>

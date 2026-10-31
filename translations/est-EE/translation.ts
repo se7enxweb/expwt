@@ -1044,6 +1044,214 @@
         <translation>Vormid</translation>
     </message>
     <message>
+        <source>There is no such newsletter list.</source>
+        <translation>Sellist uudiskirja loendit pole.</translation>
+    </message>
+    <message>
+        <source>The edition was made, but a workflow holds its publishing. Find it in the administration.</source>
+        <translation>Number on loodud, kuid töövoog peab selle avaldamist kinni. Leiate selle haldusest.</translation>
+    </message>
+    <message>
+        <source>The edition was made, but the page could not be taken into it.</source>
+        <translation>Number on loodud, kuid lehte ei õnnestunud sellesse lisada.</translation>
+    </message>
+    <message>
+        <source>There is no such edition, or you may not read it.</source>
+        <translation>Sellist numbrit pole või teil pole lubatud seda lugeda.</translation>
+    </message>
+    <message>
+        <source>This edition has no newsletter data.</source>
+        <translation>Sellel numbril pole uudiskirja andmeid.</translation>
+    </message>
+    <message>
+        <source>Some of the addresses are not valid.</source>
+        <translation>Mõned aadressid ei ole kehtivad.</translation>
+    </message>
+    <message>
+        <source>Give at least one address.</source>
+        <translation>Sisestage vähemalt üks aadress.</translation>
+    </message>
+    <message>
+        <source>Too many addresses at once.</source>
+        <translation>Liiga palju aadresse korraga.</translation>
+    </message>
+    <message>
+        <source>The edition was changed in the meantime. Look at it again before you send it.</source>
+        <translation>Numbrit on vahepeal muudetud. Vaadake see enne saatmist uuesti üle.</translation>
+    </message>
+    <message>
+        <source>The send could not be made.</source>
+        <translation>Saatmine ebaõnnestus.</translation>
+    </message>
+    <message>
+        <source>Sending to the subscribers needs "Verify it's you", which is switched off here. Send it in the administration.</source>
+        <translation>Tellijatele saatmiseks on vaja funktsiooni "Kinnitage, et see olete teie", mis on siin välja lülitatud. Saatke see haldusest.</translation>
+    </message>
+    <message>
+        <source>Please confirm it is you first.</source>
+        <translation>Kinnitage esmalt, et see olete teie.</translation>
+    </message>
+    <message>
+        <source>Editions with this page</source>
+        <translation>Selle lehega numbrid</translation>
+    </message>
+    <message>
+        <source>This page is in no edition yet.</source>
+        <translation>See leht ei ole veel üheski numbris.</translation>
+    </message>
+    <message>
+        <source>Being sent</source>
+        <translation>Saatmisel</translation>
+    </message>
+    <message>
+        <source>Sent, in the archive</source>
+        <translation>Saadetud, arhiivis</translation>
+    </message>
+    <message>
+        <source>Stopped</source>
+        <translation>Peatatud</translation>
+    </message>
+    <message>
+        <source>%n subscribers</source>
+        <translation>%n tellijat</translation>
+    </message>
+    <message>
+        <source>Make an edition from this page</source>
+        <translation>Loo sellest lehest number</translation>
+    </message>
+    <message>
+        <source>There is no newsletter list where you may make an edition.</source>
+        <translation>Pole ühtegi uudiskirja loendit, kuhu teil on lubatud numbrit luua.</translation>
+    </message>
+    <message>
+        <source>Make the edition</source>
+        <translation>Loo number</translation>
+    </message>
+    <message>
+        <source>Newsletter list</source>
+        <translation>Uudiskirja loend</translation>
+    </message>
+    <message>
+        <source>Introduction (optional)</source>
+        <translation>Sissejuhatus (valikuline)</translation>
+    </message>
+    <message>
+        <source>This page becomes the edition's article: its title, its intro and a link to it.</source>
+        <translation>Sellest lehest saab numbri artikkel: selle pealkiri, sissejuhatus ja link sellele.</translation>
+    </message>
+    <message>
+        <source>The edition was made, with this page as its article.</source>
+        <translation>Number on loodud, artikliks on see leht.</translation>
+    </message>
+    <message>
+        <source>not asked for yet</source>
+        <translation>veel taotlemata</translation>
+    </message>
+    <message>
+        <source>waiting</source>
+        <translation>ootel</translation>
+    </message>
+    <message>
+        <source>approved</source>
+        <translation>kinnitatud</translation>
+    </message>
+    <message>
+        <source>rejected</source>
+        <translation>tagasi lükatud</translation>
+    </message>
+    <message>
+        <source>Approval: %state</source>
+        <translation>Kinnitus: %state</translation>
+    </message>
+    <message>
+        <source>waiting for the cronjob</source>
+        <translation>ootab cron-tööd</translation>
+    </message>
+    <message>
+        <source>queued</source>
+        <translation>järjekorras</translation>
+    </message>
+    <message>
+        <source>being sent</source>
+        <translation>saatmisel</translation>
+    </message>
+    <message>
+        <source>sent</source>
+        <translation>saadetud</translation>
+    </message>
+    <message>
+        <source>stopped</source>
+        <translation>peatatud</translation>
+    </message>
+    <message>
+        <source>Last send: %state, %time</source>
+        <translation>Viimane saatmine: %state, %time</translation>
+    </message>
+    <message>
+        <source>Send a test</source>
+        <translation>Saada test</translation>
+    </message>
+    <message>
+        <source>The test could not be sent.</source>
+        <translation>Testi ei õnnestunud saata.</translation>
+    </message>
+    <message>
+        <source>The test was sent to %list.</source>
+        <translation>Test saadeti aadressidele %list.</translation>
+    </message>
+    <message>
+        <source>Test addresses</source>
+        <translation>Testaadressid</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers</source>
+        <translation>Saada tellijatele</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers ...</source>
+        <translation>Saada tellijatele ...</translation>
+    </message>
+    <message>
+        <source>Send now</source>
+        <translation>Saada kohe</translation>
+    </message>
+    <message>
+        <source>The edition is queued: the newsletter's cronjob sends it to the subscribers.</source>
+        <translation>Number on järjekorras: uudiskirja cron-töö saadab selle tellijatele.</translation>
+    </message>
+    <message>
+        <source>Send "%name" to the %n subscribers of "%list" now? This cannot be taken back here.</source>
+        <translation>Kas saata „%name“ kohe loendi „%list“ %n tellijale? Seda ei saa siin tagasi võtta.</translation>
+    </message>
+    <message>
+        <source>Newsletter</source>
+        <translation>Uudiskiri</translation>
+    </message>
+    <message>
+        <source>This edition is being sent.</source>
+        <translation>Seda numbrit saadetakse.</translation>
+    </message>
+    <message>
+        <source>This edition was sent and is in the archive.</source>
+        <translation>See number on saadetud ja on arhiivis.</translation>
+    </message>
+    <message>
+        <source>This edition waits for its approval. It can be sent when it is approved.</source>
+        <translation>See number ootab kinnitust. Selle saab saata, kui see on kinnitatud.</translation>
+    </message>
+    <message>
+        <source>This edition was rejected. Change it and ask for the approval again.</source>
+        <translation>See number lükati tagasi. Muutke seda ja taotlege kinnitust uuesti.</translation>
+    </message>
+    <message>
+        <source>The list needs an approval before an edition is sent. Ask for the approval in the administration.</source>
+        <translation>Loend nõuab enne numbri saatmist kinnitust. Taotlege kinnitust haldusest.</translation>
+    </message>
+    <message>
+        <source>The list has no subscribers.</source>
+        <translation>Loendil pole tellijaid.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Postkast</translation>
     </message>

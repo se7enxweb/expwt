@@ -1044,6 +1044,214 @@
         <translation>Skovit</translation>
     </message>
     <message>
+        <source>There is no such newsletter list.</source>
+        <translation>Dakkár ođasreivelistu ii gávdno.</translation>
+    </message>
+    <message>
+        <source>The edition was made, but a workflow holds its publishing. Find it in the administration.</source>
+        <translation>Nummir ráhkaduvvui, muhto bargogoavvi doallá dan almmuheami. Gávnnat dan hálddahusas.</translation>
+    </message>
+    <message>
+        <source>The edition was made, but the page could not be taken into it.</source>
+        <translation>Nummir ráhkaduvvui, muhto siidu ii sáhttán biddjot dasa.</translation>
+    </message>
+    <message>
+        <source>There is no such edition, or you may not read it.</source>
+        <translation>Dakkár nummir ii gávdno, dahje don it oaččo lohkat dan.</translation>
+    </message>
+    <message>
+        <source>This edition has no newsletter data.</source>
+        <translation>Dán nummiris eai leat ođasreivedieđut.</translation>
+    </message>
+    <message>
+        <source>Some of the addresses are not valid.</source>
+        <translation>Muhtun čujuhusat eai leat gustovaččat.</translation>
+    </message>
+    <message>
+        <source>Give at least one address.</source>
+        <translation>Atte unnimusat ovtta čujuhusa.</translation>
+    </message>
+    <message>
+        <source>Too many addresses at once.</source>
+        <translation>Menddo ollu čujuhusat oktanaga.</translation>
+    </message>
+    <message>
+        <source>The edition was changed in the meantime. Look at it again before you send it.</source>
+        <translation>Nummir rievdaduvvui gaskkohagaid. Geahča dan ođđasit ovdal go sáddet dan.</translation>
+    </message>
+    <message>
+        <source>The send could not be made.</source>
+        <translation>Sáddema ii sáhttán dahkat.</translation>
+    </message>
+    <message>
+        <source>Sending to the subscribers needs "Verify it's you", which is switched off here. Send it in the administration.</source>
+        <translation>Diŋgojeddjiide sáddemii dárbbašuvvo "Duođaš ahte leat don", mii lea dáppe jáddaduvvon. Sádde dan hálddahusas.</translation>
+    </message>
+    <message>
+        <source>Please confirm it is you first.</source>
+        <translation>Duođaš vuos ahte leat don.</translation>
+    </message>
+    <message>
+        <source>Editions with this page</source>
+        <translation>Nummirat main lea dát siidu</translation>
+    </message>
+    <message>
+        <source>This page is in no edition yet.</source>
+        <translation>Dát siidu ii leat vel makkárge nummiris.</translation>
+    </message>
+    <message>
+        <source>Being sent</source>
+        <translation>Sáddejuvvo</translation>
+    </message>
+    <message>
+        <source>Sent, in the archive</source>
+        <translation>Sáddejuvvon, arkiivvas</translation>
+    </message>
+    <message>
+        <source>Stopped</source>
+        <translation>Bissehuvvon</translation>
+    </message>
+    <message>
+        <source>%n subscribers</source>
+        <translation>%n diŋgojeaddji</translation>
+    </message>
+    <message>
+        <source>Make an edition from this page</source>
+        <translation>Ráhkat nummira dán siiddus</translation>
+    </message>
+    <message>
+        <source>There is no newsletter list where you may make an edition.</source>
+        <translation>Ii gávdno ođasreivelistu gos don oaččut ráhkadit nummira.</translation>
+    </message>
+    <message>
+        <source>Make the edition</source>
+        <translation>Ráhkat nummira</translation>
+    </message>
+    <message>
+        <source>Newsletter list</source>
+        <translation>Ođasreivelistu</translation>
+    </message>
+    <message>
+        <source>Introduction (optional)</source>
+        <translation>Álggahus (eaktodáhtolaš)</translation>
+    </message>
+    <message>
+        <source>This page becomes the edition's article: its title, its intro and a link to it.</source>
+        <translation>Dát siidu šaddá nummira artihkkalin: dan namahus, álggahus ja liŋka dasa.</translation>
+    </message>
+    <message>
+        <source>The edition was made, with this page as its article.</source>
+        <translation>Nummir ráhkaduvvui, ja dát siidu lea dan artihkal.</translation>
+    </message>
+    <message>
+        <source>not asked for yet</source>
+        <translation>ii vel bivdojuvvon</translation>
+    </message>
+    <message>
+        <source>waiting</source>
+        <translation>vuordimin</translation>
+    </message>
+    <message>
+        <source>approved</source>
+        <translation>dohkkehuvvon</translation>
+    </message>
+    <message>
+        <source>rejected</source>
+        <translation>hilgojuvvon</translation>
+    </message>
+    <message>
+        <source>Approval: %state</source>
+        <translation>Dohkkeheapmi: %state</translation>
+    </message>
+    <message>
+        <source>waiting for the cronjob</source>
+        <translation>vuordimin cronjob</translation>
+    </message>
+    <message>
+        <source>queued</source>
+        <translation>vuorus</translation>
+    </message>
+    <message>
+        <source>being sent</source>
+        <translation>sáddejuvvomin</translation>
+    </message>
+    <message>
+        <source>sent</source>
+        <translation>sáddejuvvon</translation>
+    </message>
+    <message>
+        <source>stopped</source>
+        <translation>bissehuvvon</translation>
+    </message>
+    <message>
+        <source>Last send: %state, %time</source>
+        <translation>Maŋimuš sáddejupmi: %state, %time</translation>
+    </message>
+    <message>
+        <source>Send a test</source>
+        <translation>Sádde geahččaleami</translation>
+    </message>
+    <message>
+        <source>The test could not be sent.</source>
+        <translation>Geahččaleapmi ii sáhttán sáddejuvvot.</translation>
+    </message>
+    <message>
+        <source>The test was sent to %list.</source>
+        <translation>Geahččaleapmi sáddejuvvui: %list.</translation>
+    </message>
+    <message>
+        <source>Test addresses</source>
+        <translation>Geahččalančujuhusat</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers</source>
+        <translation>Sádde diŋgojeddjiide</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers ...</source>
+        <translation>Sádde diŋgojeddjiide ...</translation>
+    </message>
+    <message>
+        <source>Send now</source>
+        <translation>Sádde dál</translation>
+    </message>
+    <message>
+        <source>The edition is queued: the newsletter's cronjob sends it to the subscribers.</source>
+        <translation>Nummir lea vuorus: ođasreivve cronjob sádde dan diŋgojeddjiide.</translation>
+    </message>
+    <message>
+        <source>Send "%name" to the %n subscribers of "%list" now? This cannot be taken back here.</source>
+        <translation>Sádde "%name" dál "%list" %n diŋgojeddjiide? Dán ii sáhte dáppe máhcahit.</translation>
+    </message>
+    <message>
+        <source>Newsletter</source>
+        <translation>Ođasreive</translation>
+    </message>
+    <message>
+        <source>This edition is being sent.</source>
+        <translation>Dát nummir sáddejuvvo.</translation>
+    </message>
+    <message>
+        <source>This edition was sent and is in the archive.</source>
+        <translation>Dát nummir lea sáddejuvvon ja lea arkiivvas.</translation>
+    </message>
+    <message>
+        <source>This edition waits for its approval. It can be sent when it is approved.</source>
+        <translation>Dát nummir vuordá dohkkeheami. Dan sáhttá sáddet go dat lea dohkkehuvvon.</translation>
+    </message>
+    <message>
+        <source>This edition was rejected. Change it and ask for the approval again.</source>
+        <translation>Dát nummir hilgojuvvui. Rievdat dan ja bivdde dohkkeheami ođđasit.</translation>
+    </message>
+    <message>
+        <source>The list needs an approval before an edition is sent. Ask for the approval in the administration.</source>
+        <translation>Listu dárbbaša dohkkeheami ovdal go nummir sáddejuvvo. Bivdde dohkkeheami hálddahusas.</translation>
+    </message>
+    <message>
+        <source>The list has no subscribers.</source>
+        <translation>Listus eai leat diŋgojeaddjit.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Sisaboarta</translation>
     </message>

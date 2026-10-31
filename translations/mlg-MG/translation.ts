@@ -1044,6 +1044,214 @@
         <translation>Taratasy fenoina</translation>
     </message>
     <message>
+        <source>There is no such newsletter list.</source>
+        <translation>Tsy misy lisitry ny gazety fampahalalana toy izany.</translation>
+    </message>
+    <message>
+        <source>The edition was made, but a workflow holds its publishing. Find it in the administration.</source>
+        <translation>Vita ny laharana, saingy misy fizotran'asa mitana ny famoahana azy. Tadiavo ao amin'ny fitantanana.</translation>
+    </message>
+    <message>
+        <source>The edition was made, but the page could not be taken into it.</source>
+        <translation>Vita ny laharana, saingy tsy afaka nampidirina tao ilay pejy.</translation>
+    </message>
+    <message>
+        <source>There is no such edition, or you may not read it.</source>
+        <translation>Tsy misy laharana toy izany, na tsy azonao vakiana.</translation>
+    </message>
+    <message>
+        <source>This edition has no newsletter data.</source>
+        <translation>Tsy manana angona gazety fampahalalana ity laharana ity.</translation>
+    </message>
+    <message>
+        <source>Some of the addresses are not valid.</source>
+        <translation>Misy adiresy tsy manan-kery.</translation>
+    </message>
+    <message>
+        <source>Give at least one address.</source>
+        <translation>Omeo adiresy iray farafahakeliny.</translation>
+    </message>
+    <message>
+        <source>Too many addresses at once.</source>
+        <translation>Adiresy be loatra indray mandeha.</translation>
+    </message>
+    <message>
+        <source>The edition was changed in the meantime. Look at it again before you send it.</source>
+        <translation>Niova ny laharana nandritra izany fotoana izany. Jereo indray alohan'ny handefasanao azy.</translation>
+    </message>
+    <message>
+        <source>The send could not be made.</source>
+        <translation>Tsy nety ny fandefasana.</translation>
+    </message>
+    <message>
+        <source>Sending to the subscribers needs "Verify it's you", which is switched off here. Send it in the administration.</source>
+        <translation>Mila "Hamarino fa ianao io" ny fandefasana ho an'ny mpanjifa, izay maty eto. Alefaso ao amin'ny fitantanana.</translation>
+    </message>
+    <message>
+        <source>Please confirm it is you first.</source>
+        <translation>Azafady, hamarino aloha fa ianao io.</translation>
+    </message>
+    <message>
+        <source>Editions with this page</source>
+        <translation>Laharana misy ity pejy ity</translation>
+    </message>
+    <message>
+        <source>This page is in no edition yet.</source>
+        <translation>Mbola tsy ao anaty laharana ity pejy ity.</translation>
+    </message>
+    <message>
+        <source>Being sent</source>
+        <translation>Alefa</translation>
+    </message>
+    <message>
+        <source>Sent, in the archive</source>
+        <translation>Lasa, ao amin'ny arisiva</translation>
+    </message>
+    <message>
+        <source>Stopped</source>
+        <translation>Najanona</translation>
+    </message>
+    <message>
+        <source>%n subscribers</source>
+        <translation>Mpanjifa %n</translation>
+    </message>
+    <message>
+        <source>Make an edition from this page</source>
+        <translation>Manaova laharana avy amin'ity pejy ity</translation>
+    </message>
+    <message>
+        <source>There is no newsletter list where you may make an edition.</source>
+        <translation>Tsy misy lisitry ny gazety fampahalalana ahafahanao manao laharana.</translation>
+    </message>
+    <message>
+        <source>Make the edition</source>
+        <translation>Ataovy ny laharana</translation>
+    </message>
+    <message>
+        <source>Newsletter list</source>
+        <translation>Lisitry ny gazety fampahalalana</translation>
+    </message>
+    <message>
+        <source>Introduction (optional)</source>
+        <translation>Fampidirana (tsy voatery)</translation>
+    </message>
+    <message>
+        <source>This page becomes the edition's article: its title, its intro and a link to it.</source>
+        <translation>Lasa lahatsoratry ny laharana ity pejy ity: ny lohateniny, ny fampidirana ary rohy mankany aminy.</translation>
+    </message>
+    <message>
+        <source>The edition was made, with this page as its article.</source>
+        <translation>Vita ny laharana, ka ity pejy ity no lahatsorany.</translation>
+    </message>
+    <message>
+        <source>not asked for yet</source>
+        <translation>mbola tsy nangatahina</translation>
+    </message>
+    <message>
+        <source>waiting</source>
+        <translation>miandry</translation>
+    </message>
+    <message>
+        <source>approved</source>
+        <translation>nankatoavina</translation>
+    </message>
+    <message>
+        <source>rejected</source>
+        <translation>nolavina</translation>
+    </message>
+    <message>
+        <source>Approval: %state</source>
+        <translation>Fankatoavana: %state</translation>
+    </message>
+    <message>
+        <source>waiting for the cronjob</source>
+        <translation>miandry ny cronjob</translation>
+    </message>
+    <message>
+        <source>queued</source>
+        <translation>ao anaty filaharana</translation>
+    </message>
+    <message>
+        <source>being sent</source>
+        <translation>alefa</translation>
+    </message>
+    <message>
+        <source>sent</source>
+        <translation>lasa</translation>
+    </message>
+    <message>
+        <source>stopped</source>
+        <translation>najanona</translation>
+    </message>
+    <message>
+        <source>Last send: %state, %time</source>
+        <translation>Fandefasana farany: %state, %time</translation>
+    </message>
+    <message>
+        <source>Send a test</source>
+        <translation>Alefaso andrana</translation>
+    </message>
+    <message>
+        <source>The test could not be sent.</source>
+        <translation>Tsy lasa ny andrana.</translation>
+    </message>
+    <message>
+        <source>The test was sent to %list.</source>
+        <translation>Lasa tany amin'ny %list ny andrana.</translation>
+    </message>
+    <message>
+        <source>Test addresses</source>
+        <translation>Adiresy andrana</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers</source>
+        <translation>Alefaso amin'ny mpanjifa</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers ...</source>
+        <translation>Alefaso amin'ny mpanjifa ...</translation>
+    </message>
+    <message>
+        <source>Send now</source>
+        <translation>Alefaso izao</translation>
+    </message>
+    <message>
+        <source>The edition is queued: the newsletter's cronjob sends it to the subscribers.</source>
+        <translation>Ao anaty filaharana ny laharana: ny cronjob an'ny gazety fampahalalana no handefa azy amin'ny mpanjifa.</translation>
+    </message>
+    <message>
+        <source>Send "%name" to the %n subscribers of "%list" now? This cannot be taken back here.</source>
+        <translation>Halefa izao ve "%name" ho an'ny mpanjifa %n an'ny "%list"? Tsy azo averina eto izany.</translation>
+    </message>
+    <message>
+        <source>Newsletter</source>
+        <translation>Gazety fampahalalana</translation>
+    </message>
+    <message>
+        <source>This edition is being sent.</source>
+        <translation>Alefa ity laharana ity.</translation>
+    </message>
+    <message>
+        <source>This edition was sent and is in the archive.</source>
+        <translation>Lasa ity laharana ity ary ao amin'ny arisiva.</translation>
+    </message>
+    <message>
+        <source>This edition waits for its approval. It can be sent when it is approved.</source>
+        <translation>Miandry fankatoavana ity laharana ity. Azo alefa rehefa nankatoavina.</translation>
+    </message>
+    <message>
+        <source>This edition was rejected. Change it and ask for the approval again.</source>
+        <translation>Nolavina ity laharana ity. Ovay ary angataho indray ny fankatoavana.</translation>
+    </message>
+    <message>
+        <source>The list needs an approval before an edition is sent. Ask for the approval in the administration.</source>
+        <translation>Mila fankatoavana ny lisitra alohan'ny handefasana laharana. Angataho ao amin'ny fitantanana ny fankatoavana.</translation>
+    </message>
+    <message>
+        <source>The list has no subscribers.</source>
+        <translation>Tsy manana mpanjifa ny lisitra.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Boaty fandraisana</translation>
     </message>

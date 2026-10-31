@@ -1044,6 +1044,214 @@
         <translation>འབྲི་ཤོག</translation>
     </message>
     <message>
+        <source>There is no such newsletter list.</source>
+        <translation>དེ་བཟུམ་གྱི་གསར་ཤོག་ཐོ་ཡིག་མེད།</translation>
+    </message>
+    <message>
+        <source>The edition was made, but a workflow holds its publishing. Find it in the administration.</source>
+        <translation>ཐེངས་རིམ་བཟོ་ཡི་ དེ་འབདཝ་ད་ ལཱ་གི་རིམ་པ་ཅིག་གིས་ དེའི་དཔེ་སྐྲུན་བཀག་བཞག་ཡི། བདག་སྐྱོང་ནང་འཚོལ།</translation>
+    </message>
+    <message>
+        <source>The edition was made, but the page could not be taken into it.</source>
+        <translation>ཐེངས་རིམ་བཟོ་ཡི་ དེ་འབདཝ་ད་ ཤོག་ལེབ་དེ་ནང་བླུགས་མ་ཚུགས།</translation>
+    </message>
+    <message>
+        <source>There is no such edition, or you may not read it.</source>
+        <translation>དེ་བཟུམ་གྱི་ཐེངས་རིམ་མེད་ ཡང་ན་ ལྷག་ནིའི་ཆོག་ཐམ་མེད།</translation>
+    </message>
+    <message>
+        <source>This edition has no newsletter data.</source>
+        <translation>ཐེངས་རིམ་འདི་ལུ་ གསར་ཤོག་གི་གནས་སྡུད་མེད།</translation>
+    </message>
+    <message>
+        <source>Some of the addresses are not valid.</source>
+        <translation>ཁ་བྱང་ལ་ལོ་ཅིག་ ནུས་མེད་ཨིན།</translation>
+    </message>
+    <message>
+        <source>Give at least one address.</source>
+        <translation>ཉུང་མཐའ་ཁ་བྱང་གཅིག་བྱིན།</translation>
+    </message>
+    <message>
+        <source>Too many addresses at once.</source>
+        <translation>ཚར་གཅིག་ལུ་ ཁ་བྱང་ལེ་ཤ་ཡོདཔ།</translation>
+    </message>
+    <message>
+        <source>The edition was changed in the meantime. Look at it again before you send it.</source>
+        <translation>བར་ན་ ཐེངས་རིམ་བསྒྱུར་བཅོས་འབད་ཡི། མ་བཏང་བའི་ཧེ་མ་ ལོག་སྟེ་བལྟ།</translation>
+    </message>
+    <message>
+        <source>The send could not be made.</source>
+        <translation>གཏང་ནི་མ་ཚུགས།</translation>
+    </message>
+    <message>
+        <source>Sending to the subscribers needs "Verify it's you", which is switched off here. Send it in the administration.</source>
+        <translation>ཞུ་ཡིག་བཀོད་མི་ཚུ་ལུ་གཏང་ནིའི་དོན་ལུ་ "ཁྱོད་རང་ཨིནམ་ངེས་གཏན་བཟོ།" དགོཔ་ཨིན་ དེ་ཡང་ ནཱ་ལུ་ཁ་བསྡམས་ཏེ་ཡོད། བདག་སྐྱོང་ནང་གཏང་།</translation>
+    </message>
+    <message>
+        <source>Please confirm it is you first.</source>
+        <translation>ཧེ་མ་ ཁྱོད་རང་ཨིནམ་ངེས་གཏན་བཟོ་གནང་།</translation>
+    </message>
+    <message>
+        <source>Editions with this page</source>
+        <translation>ཤོག་ལེབ་འདི་ཡོད་པའི་ཐེངས་རིམ་ཚུ།</translation>
+    </message>
+    <message>
+        <source>This page is in no edition yet.</source>
+        <translation>ཤོག་ལེབ་འདི་ ད་ལྟོ་ཚུན་ ཐེངས་རིམ་ག་ནང་ཡང་མེད།</translation>
+    </message>
+    <message>
+        <source>Being sent</source>
+        <translation>གཏང་དོ།</translation>
+    </message>
+    <message>
+        <source>Sent, in the archive</source>
+        <translation>བཏང་ཡི་ ཡིག་མཛོད་ནང་།</translation>
+    </message>
+    <message>
+        <source>Stopped</source>
+        <translation>བཀག་ཡི།</translation>
+    </message>
+    <message>
+        <source>%n subscribers</source>
+        <translation>ཞུ་ཡིག་བཀོད་མི་ %n</translation>
+    </message>
+    <message>
+        <source>Make an edition from this page</source>
+        <translation>ཤོག་ལེབ་འདི་ལས་ ཐེངས་རིམ་ཅིག་བཟོ།</translation>
+    </message>
+    <message>
+        <source>There is no newsletter list where you may make an edition.</source>
+        <translation>ཁྱོད་ཀྱིས་ཐེངས་རིམ་བཟོ་ཚུགས་པའི་ གསར་ཤོག་ཐོ་ཡིག་མེད།</translation>
+    </message>
+    <message>
+        <source>Make the edition</source>
+        <translation>ཐེངས་རིམ་བཟོ།</translation>
+    </message>
+    <message>
+        <source>Newsletter list</source>
+        <translation>གསར་ཤོག་ཐོ་ཡིག</translation>
+    </message>
+    <message>
+        <source>Introduction (optional)</source>
+        <translation>ངོ་སྤྲོད། (གདམ་ཁ་ཅན།)</translation>
+    </message>
+    <message>
+        <source>This page becomes the edition's article: its title, its intro and a link to it.</source>
+        <translation>ཤོག་ལེབ་འདི་ ཐེངས་རིམ་གྱི་རྩོམ་ཡིག་ལུ་འགྱུརཝ་ཨིན་: དེའི་མགོ་མིང་ ངོ་སྤྲོད་དང་ དེ་ལུ་འབྲེལ་མཐུད་ཅིག</translation>
+    </message>
+    <message>
+        <source>The edition was made, with this page as its article.</source>
+        <translation>ཐེངས་རིམ་བཟོ་ཡི་ ཤོག་ལེབ་འདི་ རྩོམ་ཡིག་སྦེ།</translation>
+    </message>
+    <message>
+        <source>not asked for yet</source>
+        <translation>ད་ལྟོ་ཚུན་ མ་ཞུ་བས།</translation>
+    </message>
+    <message>
+        <source>waiting</source>
+        <translation>སྒུག་དོ།</translation>
+    </message>
+    <message>
+        <source>approved</source>
+        <translation>གནང་བ་བྱིན་ཡི།</translation>
+    </message>
+    <message>
+        <source>rejected</source>
+        <translation>ངོས་ལེན་མ་འབད།</translation>
+    </message>
+    <message>
+        <source>Approval: %state</source>
+        <translation>ཆ་འཇོག: %state</translation>
+    </message>
+    <message>
+        <source>waiting for the cronjob</source>
+        <translation>ཀོརོན་ལཱ་ལུ་སྒུག་དོ།</translation>
+    </message>
+    <message>
+        <source>queued</source>
+        <translation>གྲལ་རིམ་ནང་།</translation>
+    </message>
+    <message>
+        <source>being sent</source>
+        <translation>གཏང་དོ།</translation>
+    </message>
+    <message>
+        <source>sent</source>
+        <translation>བཏང་ཡི།</translation>
+    </message>
+    <message>
+        <source>stopped</source>
+        <translation>བཀག་ཡི།</translation>
+    </message>
+    <message>
+        <source>Last send: %state, %time</source>
+        <translation>མཇུག་གི་གཏང་མི: %state, %time</translation>
+    </message>
+    <message>
+        <source>Send a test</source>
+        <translation>བརྟག་ཞིབ་ཅིག་གཏང་།</translation>
+    </message>
+    <message>
+        <source>The test could not be sent.</source>
+        <translation>བརྟག་ཞིབ་གཏང་མ་ཚུགས།</translation>
+    </message>
+    <message>
+        <source>The test was sent to %list.</source>
+        <translation>བརྟག་ཞིབ་ %list ལུ་བཏང་ཡི།</translation>
+    </message>
+    <message>
+        <source>Test addresses</source>
+        <translation>བརྟག་ཞིབ་ཁ་བྱང་ཚུ།</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers</source>
+        <translation>ཞུ་ཡིག་བཀོད་མི་ཚུ་ལུ་གཏང་།</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers ...</source>
+        <translation>ཞུ་ཡིག་བཀོད་མི་ཚུ་ལུ་གཏང་ ...</translation>
+    </message>
+    <message>
+        <source>Send now</source>
+        <translation>ད་ལྟོ་གཏང་།</translation>
+    </message>
+    <message>
+        <source>The edition is queued: the newsletter's cronjob sends it to the subscribers.</source>
+        <translation>ཐེངས་རིམ་གྲལ་རིམ་ནང་ཡོད: གསར་ཤོག་གི་ཀོརོན་ལཱ་གིས་ ཞུ་ཡིག་བཀོད་མི་ཚུ་ལུ་གཏངམ་ཨིན།</translation>
+    </message>
+    <message>
+        <source>Send "%name" to the %n subscribers of "%list" now? This cannot be taken back here.</source>
+        <translation>"%name" འདི་ "%list" གི་ཞུ་ཡིག་བཀོད་མི་ %n ལུ་ ད་ལྟོ་གཏང་ནི་ཨིན་ན? ནཱ་ལས་ ལོག་སྟེ་ལེན་མི་ཚུགས།</translation>
+    </message>
+    <message>
+        <source>Newsletter</source>
+        <translation>གསར་ཤོག</translation>
+    </message>
+    <message>
+        <source>This edition is being sent.</source>
+        <translation>ཐེངས་རིམ་འདི་ གཏང་དོ།</translation>
+    </message>
+    <message>
+        <source>This edition was sent and is in the archive.</source>
+        <translation>ཐེངས་རིམ་འདི་ བཏང་སྟེ་ ཡིག་མཛོད་ནང་ཡོད།</translation>
+    </message>
+    <message>
+        <source>This edition waits for its approval. It can be sent when it is approved.</source>
+        <translation>ཐེངས་རིམ་འདི་ ཆ་འཇོག་ལུ་སྒུག་དོ། ཆ་འཇོག་འབད་བའི་ཤུལ་ལས་ གཏང་ཚུགས།</translation>
+    </message>
+    <message>
+        <source>This edition was rejected. Change it and ask for the approval again.</source>
+        <translation>ཐེངས་རིམ་འདི་ ངོས་ལེན་མ་འབད། བསྒྱུར་བཅོས་འབད་ཞིནམ་ལས་ ཆ་འཇོག་ལོག་སྟེ་ཞུ།</translation>
+    </message>
+    <message>
+        <source>The list needs an approval before an edition is sent. Ask for the approval in the administration.</source>
+        <translation>ཐེངས་རིམ་མ་བཏང་བའི་ཧེ་མ་ ཐོ་ཡིག་ལུ་ཆ་འཇོག་དགོ། བདག་སྐྱོང་ནང་ ཆ་འཇོག་ཞུ།</translation>
+    </message>
+    <message>
+        <source>The list has no subscribers.</source>
+        <translation>ཐོ་ཡིག་ནང་ ཞུ་ཡིག་བཀོད་མི་མེད།</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>ནང་འབྱོར།</translation>
     </message>

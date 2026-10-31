@@ -1044,6 +1044,214 @@
         <translation>Formoli</translation>
     </message>
     <message>
+        <source>There is no such newsletter list.</source>
+        <translation>M'hemmx lista tan-newsletter bħal din.</translation>
+    </message>
+    <message>
+        <source>The edition was made, but a workflow holds its publishing. Find it in the administration.</source>
+        <translation>L-edizzjoni saret, iżda proċess tax-xogħol qed iżomm il-pubblikazzjoni tagħha. Sibha fl-amministrazzjoni.</translation>
+    </message>
+    <message>
+        <source>The edition was made, but the page could not be taken into it.</source>
+        <translation>L-edizzjoni saret, iżda l-paġna ma setgħetx tiddaħħal fiha.</translation>
+    </message>
+    <message>
+        <source>There is no such edition, or you may not read it.</source>
+        <translation>M'hemmx edizzjoni bħal din, jew m'għandekx permess taqraha.</translation>
+    </message>
+    <message>
+        <source>This edition has no newsletter data.</source>
+        <translation>Din l-edizzjoni m'għandhiex data tan-newsletter.</translation>
+    </message>
+    <message>
+        <source>Some of the addresses are not valid.</source>
+        <translation>Xi wħud mill-indirizzi mhumiex validi.</translation>
+    </message>
+    <message>
+        <source>Give at least one address.</source>
+        <translation>Agħti mill-inqas indirizz wieħed.</translation>
+    </message>
+    <message>
+        <source>Too many addresses at once.</source>
+        <translation>Wisq indirizzi f'daqqa.</translation>
+    </message>
+    <message>
+        <source>The edition was changed in the meantime. Look at it again before you send it.</source>
+        <translation>L-edizzjoni nbidlet sadanittant. Erġa' ħares lejha qabel tibgħatha.</translation>
+    </message>
+    <message>
+        <source>The send could not be made.</source>
+        <translation>Il-bgħit ma setax isir.</translation>
+    </message>
+    <message>
+        <source>Sending to the subscribers needs "Verify it's you", which is switched off here. Send it in the administration.</source>
+        <translation>Il-bgħit lill-abbonati jeħtieġ "Ikkonferma li int", li hawn huwa mitfi. Ibgħatha fl-amministrazzjoni.</translation>
+    </message>
+    <message>
+        <source>Please confirm it is you first.</source>
+        <translation>Jekk jogħġbok ikkonferma l-ewwel li int.</translation>
+    </message>
+    <message>
+        <source>Editions with this page</source>
+        <translation>Edizzjonijiet b'din il-paġna</translation>
+    </message>
+    <message>
+        <source>This page is in no edition yet.</source>
+        <translation>Din il-paġna għadha mhi f'ebda edizzjoni.</translation>
+    </message>
+    <message>
+        <source>Being sent</source>
+        <translation>Qed tintbagħat</translation>
+    </message>
+    <message>
+        <source>Sent, in the archive</source>
+        <translation>Mibgħuta, fl-arkivju</translation>
+    </message>
+    <message>
+        <source>Stopped</source>
+        <translation>Imwaqqfa</translation>
+    </message>
+    <message>
+        <source>%n subscribers</source>
+        <translation>%n abbonati</translation>
+    </message>
+    <message>
+        <source>Make an edition from this page</source>
+        <translation>Agħmel edizzjoni minn din il-paġna</translation>
+    </message>
+    <message>
+        <source>There is no newsletter list where you may make an edition.</source>
+        <translation>M'hemmx lista tan-newsletter fejn tista' tagħmel edizzjoni.</translation>
+    </message>
+    <message>
+        <source>Make the edition</source>
+        <translation>Agħmel l-edizzjoni</translation>
+    </message>
+    <message>
+        <source>Newsletter list</source>
+        <translation>Lista tan-newsletter</translation>
+    </message>
+    <message>
+        <source>Introduction (optional)</source>
+        <translation>Introduzzjoni (mhux obbligatorja)</translation>
+    </message>
+    <message>
+        <source>This page becomes the edition's article: its title, its intro and a link to it.</source>
+        <translation>Din il-paġna ssir l-artiklu tal-edizzjoni: it-titlu tagħha, l-introduzzjoni tagħha u link għaliha.</translation>
+    </message>
+    <message>
+        <source>The edition was made, with this page as its article.</source>
+        <translation>L-edizzjoni saret, b'din il-paġna bħala l-artiklu tagħha.</translation>
+    </message>
+    <message>
+        <source>not asked for yet</source>
+        <translation>għadu ma ntalabx</translation>
+    </message>
+    <message>
+        <source>waiting</source>
+        <translation>qed jistenna</translation>
+    </message>
+    <message>
+        <source>approved</source>
+        <translation>approvat</translation>
+    </message>
+    <message>
+        <source>rejected</source>
+        <translation>miċħud</translation>
+    </message>
+    <message>
+        <source>Approval: %state</source>
+        <translation>Approvazzjoni: %state</translation>
+    </message>
+    <message>
+        <source>waiting for the cronjob</source>
+        <translation>qed tistenna l-cronjob</translation>
+    </message>
+    <message>
+        <source>queued</source>
+        <translation>fil-kju</translation>
+    </message>
+    <message>
+        <source>being sent</source>
+        <translation>qed tintbagħat</translation>
+    </message>
+    <message>
+        <source>sent</source>
+        <translation>mibgħuta</translation>
+    </message>
+    <message>
+        <source>stopped</source>
+        <translation>imwaqqfa</translation>
+    </message>
+    <message>
+        <source>Last send: %state, %time</source>
+        <translation>L-aħħar bgħit: %state, %time</translation>
+    </message>
+    <message>
+        <source>Send a test</source>
+        <translation>Ibgħat test</translation>
+    </message>
+    <message>
+        <source>The test could not be sent.</source>
+        <translation>It-test ma setax jintbagħat.</translation>
+    </message>
+    <message>
+        <source>The test was sent to %list.</source>
+        <translation>It-test intbagħat lil %list.</translation>
+    </message>
+    <message>
+        <source>Test addresses</source>
+        <translation>Indirizzi tat-test</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers</source>
+        <translation>Ibgħat lill-abbonati</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers ...</source>
+        <translation>Ibgħat lill-abbonati ...</translation>
+    </message>
+    <message>
+        <source>Send now</source>
+        <translation>Ibgħat issa</translation>
+    </message>
+    <message>
+        <source>The edition is queued: the newsletter's cronjob sends it to the subscribers.</source>
+        <translation>L-edizzjoni qiegħda fil-kju: il-cronjob tan-newsletter jibgħatha lill-abbonati.</translation>
+    </message>
+    <message>
+        <source>Send "%name" to the %n subscribers of "%list" now? This cannot be taken back here.</source>
+        <translation>Tibgħat "%name" issa lill-%n abbonati ta' "%list"? Dan ma jistax jitreġġa' lura hawn.</translation>
+    </message>
+    <message>
+        <source>Newsletter</source>
+        <translation>Newsletter</translation>
+    </message>
+    <message>
+        <source>This edition is being sent.</source>
+        <translation>Din l-edizzjoni qed tintbagħat.</translation>
+    </message>
+    <message>
+        <source>This edition was sent and is in the archive.</source>
+        <translation>Din l-edizzjoni ntbagħtet u qiegħda fl-arkivju.</translation>
+    </message>
+    <message>
+        <source>This edition waits for its approval. It can be sent when it is approved.</source>
+        <translation>Din l-edizzjoni qed tistenna l-approvazzjoni tagħha. Tista' tintbagħat meta tiġi approvata.</translation>
+    </message>
+    <message>
+        <source>This edition was rejected. Change it and ask for the approval again.</source>
+        <translation>Din l-edizzjoni ġiet miċħuda. Ibdilha u erġa' itlob l-approvazzjoni.</translation>
+    </message>
+    <message>
+        <source>The list needs an approval before an edition is sent. Ask for the approval in the administration.</source>
+        <translation>Il-lista teħtieġ approvazzjoni qabel ma tintbagħat edizzjoni. Itlob l-approvazzjoni fl-amministrazzjoni.</translation>
+    </message>
+    <message>
+        <source>The list has no subscribers.</source>
+        <translation>Il-lista m'għandha l-ebda abbonat.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Inbox</translation>
     </message>

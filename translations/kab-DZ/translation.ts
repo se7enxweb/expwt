@@ -1044,6 +1044,214 @@
         <translation>Tiferkiwin</translation>
     </message>
     <message>
+        <source>There is no such newsletter list.</source>
+        <translation>Ulac tabdart n tebratin n yisalan am tagi.</translation>
+    </message>
+    <message>
+        <source>The edition was made, but a workflow holds its publishing. Find it in the administration.</source>
+        <translation>Tasufeɣt tettwaxdem, maca akala n umahil yeṭṭef asiẓreg-is. Af-itt deg tedbelt.</translation>
+    </message>
+    <message>
+        <source>The edition was made, but the page could not be taken into it.</source>
+        <translation>Tasufeɣt tettwaxdem, maca asebter ur yezmir ara ad yettwasekcem deg-s.</translation>
+    </message>
+    <message>
+        <source>There is no such edition, or you may not read it.</source>
+        <translation>Ulac tasufeɣt am tagi, neɣ ur tezmireḍ ara ad tt-teɣreḍ.</translation>
+    </message>
+    <message>
+        <source>This edition has no newsletter data.</source>
+        <translation>Tasufeɣt-a ulac deg-s isefka n tebrat n yisalan.</translation>
+    </message>
+    <message>
+        <source>Some of the addresses are not valid.</source>
+        <translation>Kra n tansiwin ur ṣeḥḥent ara.</translation>
+    </message>
+    <message>
+        <source>Give at least one address.</source>
+        <translation>Efk ma drus yiwet n tansa.</translation>
+    </message>
+    <message>
+        <source>Too many addresses at once.</source>
+        <translation>Aṭas n tansiwin yiwet n tikkelt.</translation>
+    </message>
+    <message>
+        <source>The edition was changed in the meantime. Look at it again before you send it.</source>
+        <translation>Tasufeɣt tettwabeddel deg tallit-a. Wali-tt tikkelt nniḍen send ad tt-tazneḍ.</translation>
+    </message>
+    <message>
+        <source>The send could not be made.</source>
+        <translation>Tuzna ur teddi ara.</translation>
+    </message>
+    <message>
+        <source>Sending to the subscribers needs "Verify it's you", which is switched off here. Send it in the administration.</source>
+        <translation>Tuzna i yimeltaɣen tesra "Sentem d kečč", i yettwasensen da. Azen-itt deg tedbelt.</translation>
+    </message>
+    <message>
+        <source>Please confirm it is you first.</source>
+        <translation>Ttxil sentem d kečč qbel.</translation>
+    </message>
+    <message>
+        <source>Editions with this page</source>
+        <translation>Tisufaɣ s usebter-a</translation>
+    </message>
+    <message>
+        <source>This page is in no edition yet.</source>
+        <translation>Asebter-a ulac-it ɣer tura deg yiwet n tsufeɣt.</translation>
+    </message>
+    <message>
+        <source>Being sent</source>
+        <translation>La tettwazen</translation>
+    </message>
+    <message>
+        <source>Sent, in the archive</source>
+        <translation>Tettwazen, deg teɣbalut</translation>
+    </message>
+    <message>
+        <source>Stopped</source>
+        <translation>Teḥbes</translation>
+    </message>
+    <message>
+        <source>%n subscribers</source>
+        <translation>%n n yimeltaɣen</translation>
+    </message>
+    <message>
+        <source>Make an edition from this page</source>
+        <translation>Xdem tasufeɣt seg usebter-a</translation>
+    </message>
+    <message>
+        <source>There is no newsletter list where you may make an edition.</source>
+        <translation>Ulac tabdart n tebratin n yisalan anida tzemreḍ ad txedmeḍ tasufeɣt.</translation>
+    </message>
+    <message>
+        <source>Make the edition</source>
+        <translation>Xdem tasufeɣt</translation>
+    </message>
+    <message>
+        <source>Newsletter list</source>
+        <translation>Tabdart n tebratin n yisalan</translation>
+    </message>
+    <message>
+        <source>Introduction (optional)</source>
+        <translation>Tazwart (d afrayan)</translation>
+    </message>
+    <message>
+        <source>This page becomes the edition's article: its title, its intro and a link to it.</source>
+        <translation>Asebter-a ad yuɣal d amagrad n tsufeɣt: azwel-is, tazwart-is d useɣwen ɣur-s.</translation>
+    </message>
+    <message>
+        <source>The edition was made, with this page as its article.</source>
+        <translation>Tasufeɣt tettwaxdem, s usebter-a d amagrad-is.</translation>
+    </message>
+    <message>
+        <source>not asked for yet</source>
+        <translation>ur yettwasuter ara yakan</translation>
+    </message>
+    <message>
+        <source>waiting</source>
+        <translation>yettraǧu</translation>
+    </message>
+    <message>
+        <source>approved</source>
+        <translation>yettwaqbel</translation>
+    </message>
+    <message>
+        <source>rejected</source>
+        <translation>yettwagi</translation>
+    </message>
+    <message>
+        <source>Approval: %state</source>
+        <translation>Asentem: %state</translation>
+    </message>
+    <message>
+        <source>waiting for the cronjob</source>
+        <translation>yettraǧu cronjob</translation>
+    </message>
+    <message>
+        <source>queued</source>
+        <translation>deg udras</translation>
+    </message>
+    <message>
+        <source>being sent</source>
+        <translation>la tettwazen</translation>
+    </message>
+    <message>
+        <source>sent</source>
+        <translation>tettwazen</translation>
+    </message>
+    <message>
+        <source>stopped</source>
+        <translation>teḥbes</translation>
+    </message>
+    <message>
+        <source>Last send: %state, %time</source>
+        <translation>Tuzna taneggarut: %state, %time</translation>
+    </message>
+    <message>
+        <source>Send a test</source>
+        <translation>Azen akayad</translation>
+    </message>
+    <message>
+        <source>The test could not be sent.</source>
+        <translation>Akayad ur yettwazen ara.</translation>
+    </message>
+    <message>
+        <source>The test was sent to %list.</source>
+        <translation>Akayad yettwazen ɣer %list.</translation>
+    </message>
+    <message>
+        <source>Test addresses</source>
+        <translation>Tansiwin n ukayad</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers</source>
+        <translation>Azen i yimeltaɣen</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers ...</source>
+        <translation>Azen i yimeltaɣen ...</translation>
+    </message>
+    <message>
+        <source>Send now</source>
+        <translation>Azen tura</translation>
+    </message>
+    <message>
+        <source>The edition is queued: the newsletter's cronjob sends it to the subscribers.</source>
+        <translation>Tasufeɣt deg udras: cronjob n tebrat n yisalan ad tt-yazen i yimeltaɣen.</translation>
+    </message>
+    <message>
+        <source>Send "%name" to the %n subscribers of "%list" now? This cannot be taken back here.</source>
+        <translation>Ad tazneḍ tura "%name" i %n n yimeltaɣen n "%list"? Ayagi ur yettuɣal ara da.</translation>
+    </message>
+    <message>
+        <source>Newsletter</source>
+        <translation>Tabrat n yisalan</translation>
+    </message>
+    <message>
+        <source>This edition is being sent.</source>
+        <translation>Tasufeɣt-a la tettwazen.</translation>
+    </message>
+    <message>
+        <source>This edition was sent and is in the archive.</source>
+        <translation>Tasufeɣt-a tettwazen, tella deg teɣbalut.</translation>
+    </message>
+    <message>
+        <source>This edition waits for its approval. It can be sent when it is approved.</source>
+        <translation>Tasufeɣt-a tettraǧu asentem-is. Tezmer ad tettwazen mi ara tettwaqbel.</translation>
+    </message>
+    <message>
+        <source>This edition was rejected. Change it and ask for the approval again.</source>
+        <translation>Tasufeɣt-a tettwagi. Beddel-itt sakin suter asentem tikkelt nniḍen.</translation>
+    </message>
+    <message>
+        <source>The list needs an approval before an edition is sent. Ask for the approval in the administration.</source>
+        <translation>Tabdart tesra asentem send ad tettwazen tsufeɣt. Suter asentem deg tedbelt.</translation>
+    </message>
+    <message>
+        <source>The list has no subscribers.</source>
+        <translation>Tabdart ulac deg-s imeltaɣen.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Tanaka n ukcam</translation>
     </message>

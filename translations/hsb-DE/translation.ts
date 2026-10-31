@@ -1044,6 +1044,214 @@
         <translation>Formulary</translation>
     </message>
     <message>
+        <source>There is no such newsletter list.</source>
+        <translation>Tajka lisćina powěsćoweho lista njeeksistuje.</translation>
+    </message>
+    <message>
+        <source>The edition was made, but a workflow holds its publishing. Find it in the administration.</source>
+        <translation>Wudaće je so wutworiło, ale dźěłowy wotběh jeho wozjewjenje zadźeržuje. Namakajće je w administraciji.</translation>
+    </message>
+    <message>
+        <source>The edition was made, but the page could not be taken into it.</source>
+        <translation>Wudaće je so wutworiło, ale strona njeda so do njeho přewzać.</translation>
+    </message>
+    <message>
+        <source>There is no such edition, or you may not read it.</source>
+        <translation>Tajke wudaće njeeksistuje abo jo njesměće čitać.</translation>
+    </message>
+    <message>
+        <source>This edition has no newsletter data.</source>
+        <translation>Tute wudaće nima datow powěsćoweho lista.</translation>
+    </message>
+    <message>
+        <source>Some of the addresses are not valid.</source>
+        <translation>Někotre adresy njejsu płaćiwe.</translation>
+    </message>
+    <message>
+        <source>Give at least one address.</source>
+        <translation>Podajće znajmjeńša jednu adresu.</translation>
+    </message>
+    <message>
+        <source>Too many addresses at once.</source>
+        <translation>Přewjele adresow naraz.</translation>
+    </message>
+    <message>
+        <source>The edition was changed in the meantime. Look at it again before you send it.</source>
+        <translation>Wudaće je so mjeztym změniło. Pohladajće sej je hišće raz, prjedy hač je pósćeleće.</translation>
+    </message>
+    <message>
+        <source>The send could not be made.</source>
+        <translation>Pósłanje njeje so poradźiło.</translation>
+    </message>
+    <message>
+        <source>Sending to the subscribers needs "Verify it's you", which is switched off here. Send it in the administration.</source>
+        <translation>Pósłanje abonentam trjeba „Wobkrućće, zo sće to Wy“, kotrež je tu wupinjene. Pósćelće je w administraciji.</translation>
+    </message>
+    <message>
+        <source>Please confirm it is you first.</source>
+        <translation>Prošu wobkrućće najprjedy, zo sće to Wy.</translation>
+    </message>
+    <message>
+        <source>Editions with this page</source>
+        <translation>Wudaća z tutej stronu</translation>
+    </message>
+    <message>
+        <source>This page is in no edition yet.</source>
+        <translation>Tuta strona hišće w žanym wudaću njeje.</translation>
+    </message>
+    <message>
+        <source>Being sent</source>
+        <translation>Sćele so</translation>
+    </message>
+    <message>
+        <source>Sent, in the archive</source>
+        <translation>Pósłane, w archiwje</translation>
+    </message>
+    <message>
+        <source>Stopped</source>
+        <translation>Zastajene</translation>
+    </message>
+    <message>
+        <source>%n subscribers</source>
+        <translation>Abonenća: %n</translation>
+    </message>
+    <message>
+        <source>Make an edition from this page</source>
+        <translation>Wudaće z tuteje strony wutworić</translation>
+    </message>
+    <message>
+        <source>There is no newsletter list where you may make an edition.</source>
+        <translation>Njeje lisćina powěsćoweho lista, hdźež směće wudaće wutworić.</translation>
+    </message>
+    <message>
+        <source>Make the edition</source>
+        <translation>Wudaće wutworić</translation>
+    </message>
+    <message>
+        <source>Newsletter list</source>
+        <translation>Lisćina powěsćoweho lista</translation>
+    </message>
+    <message>
+        <source>Introduction (optional)</source>
+        <translation>Zawod (opcionalnje)</translation>
+    </message>
+    <message>
+        <source>This page becomes the edition's article: its title, its intro and a link to it.</source>
+        <translation>Tuta strona budźe nastawk wudaća: jeje titul, jeje zawod a wotkaz na nju.</translation>
+    </message>
+    <message>
+        <source>The edition was made, with this page as its article.</source>
+        <translation>Wudaće je so wutworiło, z tutej stronu jako nastawkom.</translation>
+    </message>
+    <message>
+        <source>not asked for yet</source>
+        <translation>hišće njewoprašane</translation>
+    </message>
+    <message>
+        <source>waiting</source>
+        <translation>čaka</translation>
+    </message>
+    <message>
+        <source>approved</source>
+        <translation>přizwolene</translation>
+    </message>
+    <message>
+        <source>rejected</source>
+        <translation>wotpokazane</translation>
+    </message>
+    <message>
+        <source>Approval: %state</source>
+        <translation>Schwalenje: %state</translation>
+    </message>
+    <message>
+        <source>waiting for the cronjob</source>
+        <translation>čaka na cronjob</translation>
+    </message>
+    <message>
+        <source>queued</source>
+        <translation>w rynku</translation>
+    </message>
+    <message>
+        <source>being sent</source>
+        <translation>sćele so</translation>
+    </message>
+    <message>
+        <source>sent</source>
+        <translation>pósłane</translation>
+    </message>
+    <message>
+        <source>stopped</source>
+        <translation>zastajene</translation>
+    </message>
+    <message>
+        <source>Last send: %state, %time</source>
+        <translation>Posledne pósłanje: %state, %time</translation>
+    </message>
+    <message>
+        <source>Send a test</source>
+        <translation>Test pósłać</translation>
+    </message>
+    <message>
+        <source>The test could not be sent.</source>
+        <translation>Test njeda so pósłać.</translation>
+    </message>
+    <message>
+        <source>The test was sent to %list.</source>
+        <translation>Test je so na %list pósłał.</translation>
+    </message>
+    <message>
+        <source>Test addresses</source>
+        <translation>Testowe adresy</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers</source>
+        <translation>Abonentam pósłać</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers ...</source>
+        <translation>Abonentam pósłać ...</translation>
+    </message>
+    <message>
+        <source>Send now</source>
+        <translation>Nětko pósłać</translation>
+    </message>
+    <message>
+        <source>The edition is queued: the newsletter's cronjob sends it to the subscribers.</source>
+        <translation>Wudaće je w rynku: cronjob powěsćoweho lista jo abonentam pósćele.</translation>
+    </message>
+    <message>
+        <source>Send "%name" to the %n subscribers of "%list" now? This cannot be taken back here.</source>
+        <translation>„%name“ nětko %n abonentam lisćiny „%list“ pósłać? To njeda so tu wróćo wzać.</translation>
+    </message>
+    <message>
+        <source>Newsletter</source>
+        <translation>Powěsćowy list</translation>
+    </message>
+    <message>
+        <source>This edition is being sent.</source>
+        <translation>Tute wudaće so sćele.</translation>
+    </message>
+    <message>
+        <source>This edition was sent and is in the archive.</source>
+        <translation>Tute wudaće je so pósłało a je w archiwje.</translation>
+    </message>
+    <message>
+        <source>This edition waits for its approval. It can be sent when it is approved.</source>
+        <translation>Tute wudaće čaka na schwalenje. Hdyž je schwalene, da so pósłać.</translation>
+    </message>
+    <message>
+        <source>This edition was rejected. Change it and ask for the approval again.</source>
+        <translation>Tute wudaće je so wotpokazało. Změńće je a prošće znowa wo schwalenje.</translation>
+    </message>
+    <message>
+        <source>The list needs an approval before an edition is sent. Ask for the approval in the administration.</source>
+        <translation>Lisćina trjeba schwalenje, prjedy hač so wudaće pósćele. Prošće wo schwalenje w administraciji.</translation>
+    </message>
+    <message>
+        <source>The list has no subscribers.</source>
+        <translation>Lisćina nima abonentow.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Dóstate</translation>
     </message>

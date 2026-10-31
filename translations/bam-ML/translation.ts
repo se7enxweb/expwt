@@ -1044,6 +1044,214 @@
         <translation>Formuw</translation>
     </message>
     <message>
+        <source>There is no such newsletter list.</source>
+        <translation>Kunnafonisɛbɛn lisi suguya tɛ yen.</translation>
+    </message>
+    <message>
+        <source>The edition was made, but a workflow holds its publishing. Find it in the administration.</source>
+        <translation>Bɔli dilannen don, nka baarasira dɔ y'a bilali kɛnɛ kan minɛ. A ɲini ɲɛmɔgɔya la.</translation>
+    </message>
+    <message>
+        <source>The edition was made, but the page could not be taken into it.</source>
+        <translation>Bɔli dilannen don, nka ɲɛ ma se ka don a kɔnɔ.</translation>
+    </message>
+    <message>
+        <source>There is no such edition, or you may not read it.</source>
+        <translation>Bɔli suguya tɛ yen, walima i tɛ se k'a kalan.</translation>
+    </message>
+    <message>
+        <source>This edition has no newsletter data.</source>
+        <translation>Kunnafonisɛbɛn kunnafoni si tɛ nin bɔli la.</translation>
+    </message>
+    <message>
+        <source>Some of the addresses are not valid.</source>
+        <translation>Adirɛsi dɔw tɛ ɲɛ.</translation>
+    </message>
+    <message>
+        <source>Give at least one address.</source>
+        <translation>Adirɛsi kelen walima caman di.</translation>
+    </message>
+    <message>
+        <source>Too many addresses at once.</source>
+        <translation>Adirɛsi ka ca kojugu siɲɛ kelen.</translation>
+    </message>
+    <message>
+        <source>The edition was changed in the meantime. Look at it again before you send it.</source>
+        <translation>Bɔli yɛlɛmana o cɛ la. A lajɛ tugun sani i k'a ci.</translation>
+    </message>
+    <message>
+        <source>The send could not be made.</source>
+        <translation>Ci ma se ka kɛ.</translation>
+    </message>
+    <message>
+        <source>Sending to the subscribers needs "Verify it's you", which is switched off here. Send it in the administration.</source>
+        <translation>Ka ci tɔgɔsɛbɛnnaw ma, o b'a ɲini "A sinsin ko e don", nka o datugun don yan. A ci ɲɛmɔgɔya la.</translation>
+    </message>
+    <message>
+        <source>Please confirm it is you first.</source>
+        <translation>Sabari, a sinsin fɔlɔ ko e don.</translation>
+    </message>
+    <message>
+        <source>Editions with this page</source>
+        <translation>Bɔli minnu na ɲɛ nin bɛ</translation>
+    </message>
+    <message>
+        <source>This page is in no edition yet.</source>
+        <translation>Ɲɛ nin tɛ bɔli si la fɔlɔ.</translation>
+    </message>
+    <message>
+        <source>Being sent</source>
+        <translation>A bɛ ka ci</translation>
+    </message>
+    <message>
+        <source>Sent, in the archive</source>
+        <translation>A cira, maralan kɔnɔ</translation>
+    </message>
+    <message>
+        <source>Stopped</source>
+        <translation>A jɔra</translation>
+    </message>
+    <message>
+        <source>%n subscribers</source>
+        <translation>Tɔgɔsɛbɛnna %n</translation>
+    </message>
+    <message>
+        <source>Make an edition from this page</source>
+        <translation>Bɔli dilan ka bɔ ɲɛ nin na</translation>
+    </message>
+    <message>
+        <source>There is no newsletter list where you may make an edition.</source>
+        <translation>Kunnafonisɛbɛn lisi si tɛ yen i bɛ se ka bɔli dilan min na.</translation>
+    </message>
+    <message>
+        <source>Make the edition</source>
+        <translation>Bɔli dilan</translation>
+    </message>
+    <message>
+        <source>Newsletter list</source>
+        <translation>Kunnafonisɛbɛn lisi</translation>
+    </message>
+    <message>
+        <source>Introduction (optional)</source>
+        <translation>Daminɛ (n'i b'a fɛ)</translation>
+    </message>
+    <message>
+        <source>This page becomes the edition's article: its title, its intro and a link to it.</source>
+        <translation>Ɲɛ nin bɛ kɛ bɔli ka sɛbɛn ye: a tɔgɔ, a daminɛ ani jɛɲɔgɔnya min bɛ taa a ma.</translation>
+    </message>
+    <message>
+        <source>The edition was made, with this page as its article.</source>
+        <translation>Bɔli dilannen don, ɲɛ nin ye a ka sɛbɛn ye.</translation>
+    </message>
+    <message>
+        <source>not asked for yet</source>
+        <translation>a ma ɲini fɔlɔ</translation>
+    </message>
+    <message>
+        <source>waiting</source>
+        <translation>a bɛ makɔnɔni na</translation>
+    </message>
+    <message>
+        <source>approved</source>
+        <translation>sɔnna a ma</translation>
+    </message>
+    <message>
+        <source>rejected</source>
+        <translation>banna a ma</translation>
+    </message>
+    <message>
+        <source>Approval: %state</source>
+        <translation>Sɔnni: %state</translation>
+    </message>
+    <message>
+        <source>waiting for the cronjob</source>
+        <translation>a bɛ cronjob makɔnɔ</translation>
+    </message>
+    <message>
+        <source>queued</source>
+        <translation>a bɛ sira la</translation>
+    </message>
+    <message>
+        <source>being sent</source>
+        <translation>a bɛ ka ci</translation>
+    </message>
+    <message>
+        <source>sent</source>
+        <translation>a cira</translation>
+    </message>
+    <message>
+        <source>stopped</source>
+        <translation>a jɔra</translation>
+    </message>
+    <message>
+        <source>Last send: %state, %time</source>
+        <translation>Ci laban: %state, %time</translation>
+    </message>
+    <message>
+        <source>Send a test</source>
+        <translation>Kɔrɔbɔli ci</translation>
+    </message>
+    <message>
+        <source>The test could not be sent.</source>
+        <translation>Kɔrɔbɔli ma se ka ci.</translation>
+    </message>
+    <message>
+        <source>The test was sent to %list.</source>
+        <translation>Kɔrɔbɔli cira %list ma.</translation>
+    </message>
+    <message>
+        <source>Test addresses</source>
+        <translation>Kɔrɔbɔli adirɛsiw</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers</source>
+        <translation>A ci tɔgɔsɛbɛnnaw ma</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers ...</source>
+        <translation>A ci tɔgɔsɛbɛnnaw ma ...</translation>
+    </message>
+    <message>
+        <source>Send now</source>
+        <translation>A ci sisan</translation>
+    </message>
+    <message>
+        <source>The edition is queued: the newsletter's cronjob sends it to the subscribers.</source>
+        <translation>Bɔli bɛ sira la: kunnafonisɛbɛn ka cronjob b'a ci tɔgɔsɛbɛnnaw ma.</translation>
+    </message>
+    <message>
+        <source>Send "%name" to the %n subscribers of "%list" now? This cannot be taken back here.</source>
+        <translation>"%name" ci "%list" ka tɔgɔsɛbɛnna %n ma sisan? O tɛ se ka segin yan.</translation>
+    </message>
+    <message>
+        <source>Newsletter</source>
+        <translation>Kunnafonisɛbɛn</translation>
+    </message>
+    <message>
+        <source>This edition is being sent.</source>
+        <translation>Nin bɔli bɛ ka ci.</translation>
+    </message>
+    <message>
+        <source>This edition was sent and is in the archive.</source>
+        <translation>Nin bɔli cira, a bɛ maralan kɔnɔ.</translation>
+    </message>
+    <message>
+        <source>This edition waits for its approval. It can be sent when it is approved.</source>
+        <translation>Nin bɔli bɛ a sɔnni makɔnɔ. A bɛ se ka ci ni sɔnna a ma.</translation>
+    </message>
+    <message>
+        <source>This edition was rejected. Change it and ask for the approval again.</source>
+        <translation>Banna nin bɔli ma. A yɛlɛma ka sɔnni ɲini tugun.</translation>
+    </message>
+    <message>
+        <source>The list needs an approval before an edition is sent. Ask for the approval in the administration.</source>
+        <translation>Lisi mago bɛ sɔnni na sani bɔli ka ci. Sɔnni ɲini ɲɛmɔgɔya la.</translation>
+    </message>
+    <message>
+        <source>The list has no subscribers.</source>
+        <translation>Tɔgɔsɛbɛnna si tɛ lisi la.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Bataki donnenw</translation>
     </message>

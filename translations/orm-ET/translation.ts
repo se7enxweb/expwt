@@ -1044,6 +1044,214 @@
         <translation>Unkaalee</translation>
     </message>
     <message>
+        <source>There is no such newsletter list.</source>
+        <translation>Tarreen xalayaa oduu akkasii hin jiru.</translation>
+    </message>
+    <message>
+        <source>The edition was made, but a workflow holds its publishing. Find it in the administration.</source>
+        <translation>Maxxansichi hojjetameera, garuu adeemsi hojii maxxansuu isaa qabeera. Bulchiinsa keessatti barbaadi.</translation>
+    </message>
+    <message>
+        <source>The edition was made, but the page could not be taken into it.</source>
+        <translation>Maxxansichi hojjetameera, garuu fuulli isa keessa galuu hin dandeenye.</translation>
+    </message>
+    <message>
+        <source>There is no such edition, or you may not read it.</source>
+        <translation>Maxxansi akkasii hin jiru, ykn dubbisuuf hin hayyamamne.</translation>
+    </message>
+    <message>
+        <source>This edition has no newsletter data.</source>
+        <translation>Maxxansi kun daataa xalayaa oduu hin qabu.</translation>
+    </message>
+    <message>
+        <source>Some of the addresses are not valid.</source>
+        <translation>Teessoowwan tokko tokko sirrii miti.</translation>
+    </message>
+    <message>
+        <source>Give at least one address.</source>
+        <translation>Yoo xiqqaate teessoo tokko kenni.</translation>
+    </message>
+    <message>
+        <source>Too many addresses at once.</source>
+        <translation>Teessoowwan baay'een yeroo tokkotti.</translation>
+    </message>
+    <message>
+        <source>The edition was changed in the meantime. Look at it again before you send it.</source>
+        <translation>Maxxansichi gidduutti jijjiirameera. Osoo hin ergin dura irra deebi'ii ilaali.</translation>
+    </message>
+    <message>
+        <source>The send could not be made.</source>
+        <translation>Erguun hin danda'amne.</translation>
+    </message>
+    <message>
+        <source>Sending to the subscribers needs "Verify it's you", which is switched off here. Send it in the administration.</source>
+        <translation>Miseensotaaf erguun "Ati ta'uu kee mirkaneessi" barbaada, kunis asitti cufameera. Bulchiinsa keessatti ergi.</translation>
+    </message>
+    <message>
+        <source>Please confirm it is you first.</source>
+        <translation>Maaloo dura ati ta'uu kee mirkaneessi.</translation>
+    </message>
+    <message>
+        <source>Editions with this page</source>
+        <translation>Maxxansawwan fuula kana qaban</translation>
+    </message>
+    <message>
+        <source>This page is in no edition yet.</source>
+        <translation>Fuulli kun ammallee maxxansa kamiyyuu keessa hin jiru.</translation>
+    </message>
+    <message>
+        <source>Being sent</source>
+        <translation>Ergamaa jira</translation>
+    </message>
+    <message>
+        <source>Sent, in the archive</source>
+        <translation>Ergameera, kuusaa keessa</translation>
+    </message>
+    <message>
+        <source>Stopped</source>
+        <translation>Dhaabbateera</translation>
+    </message>
+    <message>
+        <source>%n subscribers</source>
+        <translation>Miseensota %n</translation>
+    </message>
+    <message>
+        <source>Make an edition from this page</source>
+        <translation>Fuula kana irraa maxxansa hojjedhu</translation>
+    </message>
+    <message>
+        <source>There is no newsletter list where you may make an edition.</source>
+        <translation>Tarreen xalayaa oduu ati maxxansa itti hojjechuu dandeessu hin jiru.</translation>
+    </message>
+    <message>
+        <source>Make the edition</source>
+        <translation>Maxxansa hojjedhu</translation>
+    </message>
+    <message>
+        <source>Newsletter list</source>
+        <translation>Tarree xalayaa oduu</translation>
+    </message>
+    <message>
+        <source>Introduction (optional)</source>
+        <translation>Seensa (filannoo)</translation>
+    </message>
+    <message>
+        <source>This page becomes the edition's article: its title, its intro and a link to it.</source>
+        <translation>Fuulli kun barruu maxxansichaa ta'a: mata-duree isaa, seensa isaa fi geessituu gara isaatti.</translation>
+    </message>
+    <message>
+        <source>The edition was made, with this page as its article.</source>
+        <translation>Maxxansichi fuula kanaan akka barruutti hojjetameera.</translation>
+    </message>
+    <message>
+        <source>not asked for yet</source>
+        <translation>ammallee hin gaafatamne</translation>
+    </message>
+    <message>
+        <source>waiting</source>
+        <translation>eegaa jira</translation>
+    </message>
+    <message>
+        <source>approved</source>
+        <translation>mirkanaa'eera</translation>
+    </message>
+    <message>
+        <source>rejected</source>
+        <translation>didameera</translation>
+    </message>
+    <message>
+        <source>Approval: %state</source>
+        <translation>Raggaasisa: %state</translation>
+    </message>
+    <message>
+        <source>waiting for the cronjob</source>
+        <translation>cronjob eegaa jira</translation>
+    </message>
+    <message>
+        <source>queued</source>
+        <translation>tarree keessa</translation>
+    </message>
+    <message>
+        <source>being sent</source>
+        <translation>ergamaa jira</translation>
+    </message>
+    <message>
+        <source>sent</source>
+        <translation>ergameera</translation>
+    </message>
+    <message>
+        <source>stopped</source>
+        <translation>dhaabbateera</translation>
+    </message>
+    <message>
+        <source>Last send: %state, %time</source>
+        <translation>Erga dhumaa: %state, %time</translation>
+    </message>
+    <message>
+        <source>Send a test</source>
+        <translation>Qormaata ergi</translation>
+    </message>
+    <message>
+        <source>The test could not be sent.</source>
+        <translation>Qormaanni ergamuu hin dandeenye.</translation>
+    </message>
+    <message>
+        <source>The test was sent to %list.</source>
+        <translation>Qormaanni gara %list ergameera.</translation>
+    </message>
+    <message>
+        <source>Test addresses</source>
+        <translation>Teessoowwan qormaataa</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers</source>
+        <translation>Miseensotaaf ergi</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers ...</source>
+        <translation>Miseensotaaf ergi ...</translation>
+    </message>
+    <message>
+        <source>Send now</source>
+        <translation>Amma ergi</translation>
+    </message>
+    <message>
+        <source>The edition is queued: the newsletter's cronjob sends it to the subscribers.</source>
+        <translation>Maxxansichi tarree keessa jira: cronjobiin xalayaa oduu miseensotaaf erga.</translation>
+    </message>
+    <message>
+        <source>Send "%name" to the %n subscribers of "%list" now? This cannot be taken back here.</source>
+        <translation>"%name" miseensota %n kan "%list" tiif amma erguu? Kun asitti deebi'uu hin danda'u.</translation>
+    </message>
+    <message>
+        <source>Newsletter</source>
+        <translation>Xalayaa oduu</translation>
+    </message>
+    <message>
+        <source>This edition is being sent.</source>
+        <translation>Maxxansi kun ergamaa jira.</translation>
+    </message>
+    <message>
+        <source>This edition was sent and is in the archive.</source>
+        <translation>Maxxansi kun ergameera, kuusaa keessa jira.</translation>
+    </message>
+    <message>
+        <source>This edition waits for its approval. It can be sent when it is approved.</source>
+        <translation>Maxxansi kun raggaasisa isaa eegaa jira. Yeroo raggaasifamu ergamuu danda'a.</translation>
+    </message>
+    <message>
+        <source>This edition was rejected. Change it and ask for the approval again.</source>
+        <translation>Maxxansi kun didameera. Jijjiiriitii raggaasisa irra deebi'ii gaafadhu.</translation>
+    </message>
+    <message>
+        <source>The list needs an approval before an edition is sent. Ask for the approval in the administration.</source>
+        <translation>Tarreen osoo maxxansi hin ergamin dura raggaasisa barbaada. Bulchiinsa keessatti raggaasisa gaafadhu.</translation>
+    </message>
+    <message>
+        <source>The list has no subscribers.</source>
+        <translation>Tarreen miseensota hin qabu.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Saanduqa galtee</translation>
     </message>

@@ -1044,6 +1044,214 @@
         <translation>ဖောင်များ</translation>
     </message>
     <message>
+        <source>There is no such newsletter list.</source>
+        <translation>ထိုကဲ့သို့သော သတင်းလွှာစာရင်း မရှိပါ။</translation>
+    </message>
+    <message>
+        <source>The edition was made, but a workflow holds its publishing. Find it in the administration.</source>
+        <translation>အစောင်ကို ပြုလုပ်ပြီးပါပြီ၊ သို့သော် လုပ်ငန်းစဉ်တစ်ခုက ၎င်း၏ထုတ်ဝေမှုကို ဆိုင်းထားသည်။ စီမံခန့်ခွဲမှုတွင် ရှာပါ။</translation>
+    </message>
+    <message>
+        <source>The edition was made, but the page could not be taken into it.</source>
+        <translation>အစောင်ကို ပြုလုပ်ပြီးပါပြီ၊ သို့သော် စာမျက်နှာကို ၎င်းထဲသို့ ထည့်၍မရခဲ့ပါ။</translation>
+    </message>
+    <message>
+        <source>There is no such edition, or you may not read it.</source>
+        <translation>ထိုကဲ့သို့သော အစောင် မရှိပါ၊ သို့မဟုတ် သင် ဖတ်ခွင့်မရှိပါ။</translation>
+    </message>
+    <message>
+        <source>This edition has no newsletter data.</source>
+        <translation>ဤအစောင်တွင် သတင်းလွှာဒေတာ မရှိပါ။</translation>
+    </message>
+    <message>
+        <source>Some of the addresses are not valid.</source>
+        <translation>လိပ်စာအချို့ မမှန်ကန်ပါ။</translation>
+    </message>
+    <message>
+        <source>Give at least one address.</source>
+        <translation>အနည်းဆုံး လိပ်စာတစ်ခု ပေးပါ။</translation>
+    </message>
+    <message>
+        <source>Too many addresses at once.</source>
+        <translation>တစ်ကြိမ်တည်းတွင် လိပ်စာများလွန်းသည်။</translation>
+    </message>
+    <message>
+        <source>The edition was changed in the meantime. Look at it again before you send it.</source>
+        <translation>ဤအတောအတွင်း အစောင်ကို ပြောင်းလဲထားသည်။ မပို့မီ ထပ်ကြည့်ပါ။</translation>
+    </message>
+    <message>
+        <source>The send could not be made.</source>
+        <translation>ပို့၍မရခဲ့ပါ။</translation>
+    </message>
+    <message>
+        <source>Sending to the subscribers needs "Verify it's you", which is switched off here. Send it in the administration.</source>
+        <translation>စာရင်းသွင်းသူများထံ ပို့ရန် "သင်ဖြစ်ကြောင်း အတည်ပြုပါ" လိုအပ်သော်လည်း ဤနေရာတွင် ပိတ်ထားသည်။ စီမံခန့်ခွဲမှုတွင် ပို့ပါ။</translation>
+    </message>
+    <message>
+        <source>Please confirm it is you first.</source>
+        <translation>ကျေးဇူးပြု၍ သင်ဖြစ်ကြောင်း ဦးစွာ အတည်ပြုပါ။</translation>
+    </message>
+    <message>
+        <source>Editions with this page</source>
+        <translation>ဤစာမျက်နှာပါသော အစောင်များ</translation>
+    </message>
+    <message>
+        <source>This page is in no edition yet.</source>
+        <translation>ဤစာမျက်နှာသည် မည်သည့်အစောင်တွင်မျှ မပါသေးပါ။</translation>
+    </message>
+    <message>
+        <source>Being sent</source>
+        <translation>ပို့နေသည်</translation>
+    </message>
+    <message>
+        <source>Sent, in the archive</source>
+        <translation>ပို့ပြီး၊ မော်ကွန်းတွင်</translation>
+    </message>
+    <message>
+        <source>Stopped</source>
+        <translation>ရပ်ထားသည်</translation>
+    </message>
+    <message>
+        <source>%n subscribers</source>
+        <translation>စာရင်းသွင်းသူ %n ဦး</translation>
+    </message>
+    <message>
+        <source>Make an edition from this page</source>
+        <translation>ဤစာမျက်နှာမှ အစောင်တစ်ခု ပြုလုပ်ရန်</translation>
+    </message>
+    <message>
+        <source>There is no newsletter list where you may make an edition.</source>
+        <translation>သင် အစောင်ပြုလုပ်ခွင့်ရှိသော သတင်းလွှာစာရင်း မရှိပါ။</translation>
+    </message>
+    <message>
+        <source>Make the edition</source>
+        <translation>အစောင် ပြုလုပ်ရန်</translation>
+    </message>
+    <message>
+        <source>Newsletter list</source>
+        <translation>သတင်းလွှာစာရင်း</translation>
+    </message>
+    <message>
+        <source>Introduction (optional)</source>
+        <translation>နိဒါန်း (ရွေးချယ်နိုင်)</translation>
+    </message>
+    <message>
+        <source>This page becomes the edition's article: its title, its intro and a link to it.</source>
+        <translation>ဤစာမျက်နှာသည် အစောင်၏ ဆောင်းပါး ဖြစ်လာမည်- ၎င်း၏ ခေါင်းစဉ်၊ နိဒါန်းနှင့် ၎င်းသို့ လင့်ခ်။</translation>
+    </message>
+    <message>
+        <source>The edition was made, with this page as its article.</source>
+        <translation>ဤစာမျက်နှာကို ဆောင်းပါးအဖြစ်ဖြင့် အစောင်ကို ပြုလုပ်ပြီးပါပြီ။</translation>
+    </message>
+    <message>
+        <source>not asked for yet</source>
+        <translation>မတောင်းဆိုရသေး</translation>
+    </message>
+    <message>
+        <source>waiting</source>
+        <translation>စောင့်ဆိုင်းနေ</translation>
+    </message>
+    <message>
+        <source>approved</source>
+        <translation>အတည်ပြုပြီး</translation>
+    </message>
+    <message>
+        <source>rejected</source>
+        <translation>ငြင်းပယ်ပြီး</translation>
+    </message>
+    <message>
+        <source>Approval: %state</source>
+        <translation>အတည်ပြုချက်- %state</translation>
+    </message>
+    <message>
+        <source>waiting for the cronjob</source>
+        <translation>cronjob ကို စောင့်နေ</translation>
+    </message>
+    <message>
+        <source>queued</source>
+        <translation>တန်းစီထား</translation>
+    </message>
+    <message>
+        <source>being sent</source>
+        <translation>ပို့နေ</translation>
+    </message>
+    <message>
+        <source>sent</source>
+        <translation>ပို့ပြီး</translation>
+    </message>
+    <message>
+        <source>stopped</source>
+        <translation>ရပ်ထား</translation>
+    </message>
+    <message>
+        <source>Last send: %state, %time</source>
+        <translation>နောက်ဆုံးပို့ခြင်း- %state, %time</translation>
+    </message>
+    <message>
+        <source>Send a test</source>
+        <translation>စမ်းသပ်ပို့ရန်</translation>
+    </message>
+    <message>
+        <source>The test could not be sent.</source>
+        <translation>စမ်းသပ်မှုကို ပို့၍မရခဲ့ပါ။</translation>
+    </message>
+    <message>
+        <source>The test was sent to %list.</source>
+        <translation>စမ်းသပ်မှုကို %list သို့ ပို့ပြီးပါပြီ။</translation>
+    </message>
+    <message>
+        <source>Test addresses</source>
+        <translation>စမ်းသပ်လိပ်စာများ</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers</source>
+        <translation>စာရင်းသွင်းသူများထံ ပို့ရန်</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers ...</source>
+        <translation>စာရင်းသွင်းသူများထံ ပို့ရန် ...</translation>
+    </message>
+    <message>
+        <source>Send now</source>
+        <translation>ယခု ပို့ရန်</translation>
+    </message>
+    <message>
+        <source>The edition is queued: the newsletter's cronjob sends it to the subscribers.</source>
+        <translation>အစောင်ကို တန်းစီထားသည်- သတင်းလွှာ၏ cronjob က ၎င်းကို စာရင်းသွင်းသူများထံ ပို့မည်။</translation>
+    </message>
+    <message>
+        <source>Send "%name" to the %n subscribers of "%list" now? This cannot be taken back here.</source>
+        <translation>"%name" ကို "%list" ၏ စာရင်းသွင်းသူ %n ဦးထံ ယခု ပို့မလား။ ဤနေရာတွင် ပြန်ရုပ်သိမ်း၍ မရပါ။</translation>
+    </message>
+    <message>
+        <source>Newsletter</source>
+        <translation>သတင်းလွှာ</translation>
+    </message>
+    <message>
+        <source>This edition is being sent.</source>
+        <translation>ဤအစောင်ကို ပို့နေသည်။</translation>
+    </message>
+    <message>
+        <source>This edition was sent and is in the archive.</source>
+        <translation>ဤအစောင်ကို ပို့ပြီး မော်ကွန်းတွင် ရှိသည်။</translation>
+    </message>
+    <message>
+        <source>This edition waits for its approval. It can be sent when it is approved.</source>
+        <translation>ဤအစောင်သည် အတည်ပြုချက်ကို စောင့်နေသည်။ အတည်ပြုပြီးမှ ပို့နိုင်သည်။</translation>
+    </message>
+    <message>
+        <source>This edition was rejected. Change it and ask for the approval again.</source>
+        <translation>ဤအစောင်ကို ငြင်းပယ်ခဲ့သည်။ ပြင်ဆင်ပြီး အတည်ပြုချက် ထပ်တောင်းပါ။</translation>
+    </message>
+    <message>
+        <source>The list needs an approval before an edition is sent. Ask for the approval in the administration.</source>
+        <translation>အစောင်မပို့မီ စာရင်းအတွက် အတည်ပြုချက် လိုအပ်သည်။ စီမံခန့်ခွဲမှုတွင် အတည်ပြုချက် တောင်းပါ။</translation>
+    </message>
+    <message>
+        <source>The list has no subscribers.</source>
+        <translation>စာရင်းတွင် စာရင်းသွင်းသူ မရှိပါ။</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>ဝင်စာ</translation>
     </message>

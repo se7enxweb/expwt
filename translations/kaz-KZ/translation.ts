@@ -1044,6 +1044,214 @@
         <translation>Пішіндер</translation>
     </message>
     <message>
+        <source>There is no such newsletter list.</source>
+        <translation>Мұндай таратылым тізімі жоқ.</translation>
+    </message>
+    <message>
+        <source>The edition was made, but a workflow holds its publishing. Find it in the administration.</source>
+        <translation>Шығарылым жасалды, бірақ жұмыс процесі оның жариялануын ұстап тұр. Оны әкімшілікте табыңыз.</translation>
+    </message>
+    <message>
+        <source>The edition was made, but the page could not be taken into it.</source>
+        <translation>Шығарылым жасалды, бірақ бетті оған қосу мүмкін болмады.</translation>
+    </message>
+    <message>
+        <source>There is no such edition, or you may not read it.</source>
+        <translation>Мұндай шығарылым жоқ немесе оны оқуға рұқсатыңыз жоқ.</translation>
+    </message>
+    <message>
+        <source>This edition has no newsletter data.</source>
+        <translation>Бұл шығарылымда таратылым деректері жоқ.</translation>
+    </message>
+    <message>
+        <source>Some of the addresses are not valid.</source>
+        <translation>Кейбір мекенжайлар жарамсыз.</translation>
+    </message>
+    <message>
+        <source>Give at least one address.</source>
+        <translation>Кемінде бір мекенжай көрсетіңіз.</translation>
+    </message>
+    <message>
+        <source>Too many addresses at once.</source>
+        <translation>Бір мезгілде мекенжайлар тым көп.</translation>
+    </message>
+    <message>
+        <source>The edition was changed in the meantime. Look at it again before you send it.</source>
+        <translation>Шығарылым осы аралықта өзгертілді. Жібермес бұрын оны қайта қараңыз.</translation>
+    </message>
+    <message>
+        <source>The send could not be made.</source>
+        <translation>Жіберу орындалмады.</translation>
+    </message>
+    <message>
+        <source>Sending to the subscribers needs "Verify it's you", which is switched off here. Send it in the administration.</source>
+        <translation>Жазылушыларға жіберу үшін «Бұл сіз екеніңізді растаңыз» қажет, ол мұнда өшірулі. Оны әкімшілікте жіберіңіз.</translation>
+    </message>
+    <message>
+        <source>Please confirm it is you first.</source>
+        <translation>Алдымен бұл сіз екеніңізді растаңыз.</translation>
+    </message>
+    <message>
+        <source>Editions with this page</source>
+        <translation>Осы беті бар шығарылымдар</translation>
+    </message>
+    <message>
+        <source>This page is in no edition yet.</source>
+        <translation>Бұл бет әлі ешбір шығарылымда жоқ.</translation>
+    </message>
+    <message>
+        <source>Being sent</source>
+        <translation>Жіберілуде</translation>
+    </message>
+    <message>
+        <source>Sent, in the archive</source>
+        <translation>Жіберілді, мұрағатта</translation>
+    </message>
+    <message>
+        <source>Stopped</source>
+        <translation>Тоқтатылды</translation>
+    </message>
+    <message>
+        <source>%n subscribers</source>
+        <translation>%n жазылушы</translation>
+    </message>
+    <message>
+        <source>Make an edition from this page</source>
+        <translation>Осы беттен шығарылым жасау</translation>
+    </message>
+    <message>
+        <source>There is no newsletter list where you may make an edition.</source>
+        <translation>Сіз шығарылым жасай алатын таратылым тізімі жоқ.</translation>
+    </message>
+    <message>
+        <source>Make the edition</source>
+        <translation>Шығарылымды жасау</translation>
+    </message>
+    <message>
+        <source>Newsletter list</source>
+        <translation>Таратылым тізімі</translation>
+    </message>
+    <message>
+        <source>Introduction (optional)</source>
+        <translation>Кіріспе (міндетті емес)</translation>
+    </message>
+    <message>
+        <source>This page becomes the edition's article: its title, its intro and a link to it.</source>
+        <translation>Бұл бет шығарылымның мақаласы болады: оның тақырыбы, кіріспесі және оған сілтеме.</translation>
+    </message>
+    <message>
+        <source>The edition was made, with this page as its article.</source>
+        <translation>Шығарылым жасалды, бұл бет оның мақаласы ретінде.</translation>
+    </message>
+    <message>
+        <source>not asked for yet</source>
+        <translation>әлі сұралмаған</translation>
+    </message>
+    <message>
+        <source>waiting</source>
+        <translation>күтуде</translation>
+    </message>
+    <message>
+        <source>approved</source>
+        <translation>мақұлданды</translation>
+    </message>
+    <message>
+        <source>rejected</source>
+        <translation>қабылданбады</translation>
+    </message>
+    <message>
+        <source>Approval: %state</source>
+        <translation>Мақұлдау: %state</translation>
+    </message>
+    <message>
+        <source>waiting for the cronjob</source>
+        <translation>cronjob күтуде</translation>
+    </message>
+    <message>
+        <source>queued</source>
+        <translation>кезекте</translation>
+    </message>
+    <message>
+        <source>being sent</source>
+        <translation>жіберілуде</translation>
+    </message>
+    <message>
+        <source>sent</source>
+        <translation>жіберілді</translation>
+    </message>
+    <message>
+        <source>stopped</source>
+        <translation>тоқтатылды</translation>
+    </message>
+    <message>
+        <source>Last send: %state, %time</source>
+        <translation>Соңғы жіберу: %state, %time</translation>
+    </message>
+    <message>
+        <source>Send a test</source>
+        <translation>Сынақ жіберу</translation>
+    </message>
+    <message>
+        <source>The test could not be sent.</source>
+        <translation>Сынақ жіберілмеді.</translation>
+    </message>
+    <message>
+        <source>The test was sent to %list.</source>
+        <translation>Сынақ жіберілді: %list.</translation>
+    </message>
+    <message>
+        <source>Test addresses</source>
+        <translation>Сынақ мекенжайлары</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers</source>
+        <translation>Жазылушыларға жіберу</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers ...</source>
+        <translation>Жазылушыларға жіберу ...</translation>
+    </message>
+    <message>
+        <source>Send now</source>
+        <translation>Қазір жіберу</translation>
+    </message>
+    <message>
+        <source>The edition is queued: the newsletter's cronjob sends it to the subscribers.</source>
+        <translation>Шығарылым кезекте: таратылымның cronjob-ы оны жазылушыларға жібереді.</translation>
+    </message>
+    <message>
+        <source>Send "%name" to the %n subscribers of "%list" now? This cannot be taken back here.</source>
+        <translation>«%name» шығарылымын «%list» тізімінің %n жазылушысына қазір жіберу керек пе? Мұнда мұны кері қайтару мүмкін емес.</translation>
+    </message>
+    <message>
+        <source>Newsletter</source>
+        <translation>Таратылым</translation>
+    </message>
+    <message>
+        <source>This edition is being sent.</source>
+        <translation>Бұл шығарылым жіберілуде.</translation>
+    </message>
+    <message>
+        <source>This edition was sent and is in the archive.</source>
+        <translation>Бұл шығарылым жіберілді және мұрағатта.</translation>
+    </message>
+    <message>
+        <source>This edition waits for its approval. It can be sent when it is approved.</source>
+        <translation>Бұл шығарылым мақұлдауды күтуде. Мақұлданған соң оны жіберуге болады.</translation>
+    </message>
+    <message>
+        <source>This edition was rejected. Change it and ask for the approval again.</source>
+        <translation>Бұл шығарылым қабылданбады. Оны өзгертіп, мақұлдауды қайта сұраңыз.</translation>
+    </message>
+    <message>
+        <source>The list needs an approval before an edition is sent. Ask for the approval in the administration.</source>
+        <translation>Тізімге шығарылым жіберілмес бұрын мақұлдау қажет. Мақұлдауды әкімшілікте сұраңыз.</translation>
+    </message>
+    <message>
+        <source>The list has no subscribers.</source>
+        <translation>Тізімде жазылушылар жоқ.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Кіріс</translation>
     </message>

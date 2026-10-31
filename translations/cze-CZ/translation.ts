@@ -1044,6 +1044,214 @@
         <translation>Formuláře</translation>
     </message>
     <message>
+        <source>There is no such newsletter list.</source>
+        <translation>Takový seznam newsletteru neexistuje.</translation>
+    </message>
+    <message>
+        <source>The edition was made, but a workflow holds its publishing. Find it in the administration.</source>
+        <translation>Vydání bylo vytvořeno, ale pracovní postup pozdržel jeho zveřejnění. Najdete ho v administraci.</translation>
+    </message>
+    <message>
+        <source>The edition was made, but the page could not be taken into it.</source>
+        <translation>Vydání bylo vytvořeno, ale stránku do něj nebylo možné zařadit.</translation>
+    </message>
+    <message>
+        <source>There is no such edition, or you may not read it.</source>
+        <translation>Takové vydání neexistuje, nebo ho nesmíte číst.</translation>
+    </message>
+    <message>
+        <source>This edition has no newsletter data.</source>
+        <translation>Toto vydání nemá data newsletteru.</translation>
+    </message>
+    <message>
+        <source>Some of the addresses are not valid.</source>
+        <translation>Některé adresy nejsou platné.</translation>
+    </message>
+    <message>
+        <source>Give at least one address.</source>
+        <translation>Zadejte alespoň jednu adresu.</translation>
+    </message>
+    <message>
+        <source>Too many addresses at once.</source>
+        <translation>Příliš mnoho adres najednou.</translation>
+    </message>
+    <message>
+        <source>The edition was changed in the meantime. Look at it again before you send it.</source>
+        <translation>Vydání se mezitím změnilo. Před odesláním si ho znovu prohlédněte.</translation>
+    </message>
+    <message>
+        <source>The send could not be made.</source>
+        <translation>Odeslání se nezdařilo.</translation>
+    </message>
+    <message>
+        <source>Sending to the subscribers needs "Verify it's you", which is switched off here. Send it in the administration.</source>
+        <translation>Odeslání odběratelům vyžaduje „Ověřte, že jste to vy“, což je zde vypnuto. Odešlete ho v administraci.</translation>
+    </message>
+    <message>
+        <source>Please confirm it is you first.</source>
+        <translation>Nejprve prosím potvrďte, že jste to vy.</translation>
+    </message>
+    <message>
+        <source>Editions with this page</source>
+        <translation>Vydání s touto stránkou</translation>
+    </message>
+    <message>
+        <source>This page is in no edition yet.</source>
+        <translation>Tato stránka zatím není v žádném vydání.</translation>
+    </message>
+    <message>
+        <source>Being sent</source>
+        <translation>Odesílá se</translation>
+    </message>
+    <message>
+        <source>Sent, in the archive</source>
+        <translation>Odesláno, v archivu</translation>
+    </message>
+    <message>
+        <source>Stopped</source>
+        <translation>Zastaveno</translation>
+    </message>
+    <message>
+        <source>%n subscribers</source>
+        <translation>Odběratelů: %n</translation>
+    </message>
+    <message>
+        <source>Make an edition from this page</source>
+        <translation>Vytvořit vydání z této stránky</translation>
+    </message>
+    <message>
+        <source>There is no newsletter list where you may make an edition.</source>
+        <translation>Není žádný seznam newsletteru, ve kterém smíte vytvořit vydání.</translation>
+    </message>
+    <message>
+        <source>Make the edition</source>
+        <translation>Vytvořit vydání</translation>
+    </message>
+    <message>
+        <source>Newsletter list</source>
+        <translation>Seznam newsletteru</translation>
+    </message>
+    <message>
+        <source>Introduction (optional)</source>
+        <translation>Úvod (nepovinné)</translation>
+    </message>
+    <message>
+        <source>This page becomes the edition's article: its title, its intro and a link to it.</source>
+        <translation>Tato stránka se stane článkem vydání: její titulek, úvod a odkaz na ni.</translation>
+    </message>
+    <message>
+        <source>The edition was made, with this page as its article.</source>
+        <translation>Vydání bylo vytvořeno s touto stránkou jako článkem.</translation>
+    </message>
+    <message>
+        <source>not asked for yet</source>
+        <translation>zatím nevyžádáno</translation>
+    </message>
+    <message>
+        <source>waiting</source>
+        <translation>čeká</translation>
+    </message>
+    <message>
+        <source>approved</source>
+        <translation>schváleno</translation>
+    </message>
+    <message>
+        <source>rejected</source>
+        <translation>zamítnuto</translation>
+    </message>
+    <message>
+        <source>Approval: %state</source>
+        <translation>Schválení: %state</translation>
+    </message>
+    <message>
+        <source>waiting for the cronjob</source>
+        <translation>čeká na cronjob</translation>
+    </message>
+    <message>
+        <source>queued</source>
+        <translation>ve frontě</translation>
+    </message>
+    <message>
+        <source>being sent</source>
+        <translation>odesílá se</translation>
+    </message>
+    <message>
+        <source>sent</source>
+        <translation>odesláno</translation>
+    </message>
+    <message>
+        <source>stopped</source>
+        <translation>zastaveno</translation>
+    </message>
+    <message>
+        <source>Last send: %state, %time</source>
+        <translation>Poslední odeslání: %state, %time</translation>
+    </message>
+    <message>
+        <source>Send a test</source>
+        <translation>Odeslat test</translation>
+    </message>
+    <message>
+        <source>The test could not be sent.</source>
+        <translation>Test se nepodařilo odeslat.</translation>
+    </message>
+    <message>
+        <source>The test was sent to %list.</source>
+        <translation>Test byl odeslán na %list.</translation>
+    </message>
+    <message>
+        <source>Test addresses</source>
+        <translation>Testovací adresy</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers</source>
+        <translation>Odeslat odběratelům</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers ...</source>
+        <translation>Odeslat odběratelům ...</translation>
+    </message>
+    <message>
+        <source>Send now</source>
+        <translation>Odeslat nyní</translation>
+    </message>
+    <message>
+        <source>The edition is queued: the newsletter's cronjob sends it to the subscribers.</source>
+        <translation>Vydání je ve frontě: cronjob newsletteru ho odešle odběratelům.</translation>
+    </message>
+    <message>
+        <source>Send "%name" to the %n subscribers of "%list" now? This cannot be taken back here.</source>
+        <translation>Odeslat „%name“ nyní odběratelům seznamu „%list“ (%n)? Zde to nelze vzít zpět.</translation>
+    </message>
+    <message>
+        <source>Newsletter</source>
+        <translation>Newsletter</translation>
+    </message>
+    <message>
+        <source>This edition is being sent.</source>
+        <translation>Toto vydání se odesílá.</translation>
+    </message>
+    <message>
+        <source>This edition was sent and is in the archive.</source>
+        <translation>Toto vydání bylo odesláno a je v archivu.</translation>
+    </message>
+    <message>
+        <source>This edition waits for its approval. It can be sent when it is approved.</source>
+        <translation>Toto vydání čeká na schválení. Odeslat ho lze, až bude schváleno.</translation>
+    </message>
+    <message>
+        <source>This edition was rejected. Change it and ask for the approval again.</source>
+        <translation>Toto vydání bylo zamítnuto. Upravte ho a znovu požádejte o schválení.</translation>
+    </message>
+    <message>
+        <source>The list needs an approval before an edition is sent. Ask for the approval in the administration.</source>
+        <translation>Seznam vyžaduje schválení před odesláním vydání. Požádejte o schválení v administraci.</translation>
+    </message>
+    <message>
+        <source>The list has no subscribers.</source>
+        <translation>Seznam nemá žádné odběratele.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Doručené</translation>
     </message>

@@ -1044,6 +1044,214 @@
         <translation>Formulariokuna</translation>
     </message>
     <message>
+        <source>There is no such newsletter list.</source>
+        <translation>Manam kanchu chay willakuy listaqa.</translation>
+    </message>
+    <message>
+        <source>The edition was made, but a workflow holds its publishing. Find it in the administration.</source>
+        <translation>Lluqsiyqa ruwasqañam, ichaqa huk llamk'ay puriymi rakiyninta hark'achkan. Kamachiypi tariy.</translation>
+    </message>
+    <message>
+        <source>The edition was made, but the page could not be taken into it.</source>
+        <translation>Lluqsiyqa ruwasqañam, ichaqa p'anqataqa manam churayta atikurqanchu.</translation>
+    </message>
+    <message>
+        <source>There is no such edition, or you may not read it.</source>
+        <translation>Manam kanchu chay lluqsiyqa, manachus ñawinchayta atinkichu.</translation>
+    </message>
+    <message>
+        <source>This edition has no newsletter data.</source>
+        <translation>Kay lluqsiypiqa manam willakuy datokuna kanchu.</translation>
+    </message>
+    <message>
+        <source>Some of the addresses are not valid.</source>
+        <translation>Wakin direccionkunaqa manam allinchu.</translation>
+    </message>
+    <message>
+        <source>Give at least one address.</source>
+        <translation>Hukllatapas direccionta quy.</translation>
+    </message>
+    <message>
+        <source>Too many addresses at once.</source>
+        <translation>Nisyu direccionkuna huk kutillapi.</translation>
+    </message>
+    <message>
+        <source>The edition was changed in the meantime. Look at it again before you send it.</source>
+        <translation>Lluqsiyqa chaykamaqa huknirayasqañam. Manaraq apachichkaspa yapamanta qhawariy.</translation>
+    </message>
+    <message>
+        <source>The send could not be made.</source>
+        <translation>Apachiyqa manam atikurqanchu.</translation>
+    </message>
+    <message>
+        <source>Sending to the subscribers needs "Verify it's you", which is switched off here. Send it in the administration.</source>
+        <translation>Suscriptorkunaman apachinapaqqa "Qam kasqaykita takyachiy" munakun, kaypitaq wañuchisqa kachkan. Kamachiypi apachiy.</translation>
+    </message>
+    <message>
+        <source>Please confirm it is you first.</source>
+        <translation>Ñawpaqta qam kasqaykita takyachiy.</translation>
+    </message>
+    <message>
+        <source>Editions with this page</source>
+        <translation>Kay p'anqayuq lluqsiykuna</translation>
+    </message>
+    <message>
+        <source>This page is in no edition yet.</source>
+        <translation>Kay p'anqaqa manaraqmi mayqin lluqsiypipas kanchu.</translation>
+    </message>
+    <message>
+        <source>Being sent</source>
+        <translation>Apachikuchkan</translation>
+    </message>
+    <message>
+        <source>Sent, in the archive</source>
+        <translation>Apachisqa, archivopi</translation>
+    </message>
+    <message>
+        <source>Stopped</source>
+        <translation>Sayachisqa</translation>
+    </message>
+    <message>
+        <source>%n subscribers</source>
+        <translation>%n suscriptorkuna</translation>
+    </message>
+    <message>
+        <source>Make an edition from this page</source>
+        <translation>Kay p'anqamanta lluqsiyta ruway</translation>
+    </message>
+    <message>
+        <source>There is no newsletter list where you may make an edition.</source>
+        <translation>Manam kanchu willakuy lista maypi lluqsiyta ruwayta atinki.</translation>
+    </message>
+    <message>
+        <source>Make the edition</source>
+        <translation>Lluqsiyta ruway</translation>
+    </message>
+    <message>
+        <source>Newsletter list</source>
+        <translation>Willakuy lista</translation>
+    </message>
+    <message>
+        <source>Introduction (optional)</source>
+        <translation>Qallariy (munaspaqa)</translation>
+    </message>
+    <message>
+        <source>This page becomes the edition's article: its title, its intro and a link to it.</source>
+        <translation>Kay p'anqam lluqsiypa qillqasqan kanqa: sutin, qallariynin, paymanpas huk t'inki.</translation>
+    </message>
+    <message>
+        <source>The edition was made, with this page as its article.</source>
+        <translation>Lluqsiyqa ruwasqañam, kay p'anqawan qillqasqan hina.</translation>
+    </message>
+    <message>
+        <source>not asked for yet</source>
+        <translation>manaraq mañakusqachu</translation>
+    </message>
+    <message>
+        <source>waiting</source>
+        <translation>suyachkan</translation>
+    </message>
+    <message>
+        <source>approved</source>
+        <translation>chaskisqa</translation>
+    </message>
+    <message>
+        <source>rejected</source>
+        <translation>mana chaskisqa</translation>
+    </message>
+    <message>
+        <source>Approval: %state</source>
+        <translation>Chaskiy: %state</translation>
+    </message>
+    <message>
+        <source>waiting for the cronjob</source>
+        <translation>cronjobta suyachkan</translation>
+    </message>
+    <message>
+        <source>queued</source>
+        <translation>suyanapi</translation>
+    </message>
+    <message>
+        <source>being sent</source>
+        <translation>apachikuchkan</translation>
+    </message>
+    <message>
+        <source>sent</source>
+        <translation>apachisqa</translation>
+    </message>
+    <message>
+        <source>stopped</source>
+        <translation>sayachisqa</translation>
+    </message>
+    <message>
+        <source>Last send: %state, %time</source>
+        <translation>Qhipa apachiy: %state, %time</translation>
+    </message>
+    <message>
+        <source>Send a test</source>
+        <translation>Huk pruebata apachiy</translation>
+    </message>
+    <message>
+        <source>The test could not be sent.</source>
+        <translation>Pruebaqa manam apachikuyta atirqanchu.</translation>
+    </message>
+    <message>
+        <source>The test was sent to %list.</source>
+        <translation>Pruebaqa %list-man apachisqa.</translation>
+    </message>
+    <message>
+        <source>Test addresses</source>
+        <translation>Prueba direccionkuna</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers</source>
+        <translation>Suscriptorkunaman apachiy</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers ...</source>
+        <translation>Suscriptorkunaman apachiy ...</translation>
+    </message>
+    <message>
+        <source>Send now</source>
+        <translation>Kunan apachiy</translation>
+    </message>
+    <message>
+        <source>The edition is queued: the newsletter's cronjob sends it to the subscribers.</source>
+        <translation>Lluqsiyqa suyanapim: willakuypa cronjobninmi suscriptorkunaman apachinqa.</translation>
+    </message>
+    <message>
+        <source>Send "%name" to the %n subscribers of "%list" now? This cannot be taken back here.</source>
+        <translation>Kunanchu "%name"-ta "%list"-pa %n suscriptorninkunaman apachinki? Kaypiqa manam kutichiyta atikunchu.</translation>
+    </message>
+    <message>
+        <source>Newsletter</source>
+        <translation>Willakuy</translation>
+    </message>
+    <message>
+        <source>This edition is being sent.</source>
+        <translation>Kay lluqsiyqa apachikuchkan.</translation>
+    </message>
+    <message>
+        <source>This edition was sent and is in the archive.</source>
+        <translation>Kay lluqsiyqa apachisqañam, archivopitaq kachkan.</translation>
+    </message>
+    <message>
+        <source>This edition waits for its approval. It can be sent when it is approved.</source>
+        <translation>Kay lluqsiyqa chaskiyninta suyachkan. Chaskisqa kaptinmi apachikuyta atinqa.</translation>
+    </message>
+    <message>
+        <source>This edition was rejected. Change it and ask for the approval again.</source>
+        <translation>Kay lluqsiyqa mana chaskisqam karqan. Huknirayachiy, chaskiytataq yapamanta mañakuy.</translation>
+    </message>
+    <message>
+        <source>The list needs an approval before an edition is sent. Ask for the approval in the administration.</source>
+        <translation>Listaqa manaraq lluqsiy apachikuchkaptin chaskiyta munan. Kamachiypi chaskiyta mañakuy.</translation>
+    </message>
+    <message>
+        <source>The list has no subscribers.</source>
+        <translation>Listapiqa manam suscriptorkuna kanchu.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Chaskina</translation>
     </message>

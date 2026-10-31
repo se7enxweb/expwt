@@ -1044,6 +1044,214 @@
         <translation>Formularios</translation>
     </message>
     <message>
+        <source>There is no such newsletter list.</source>
+        <translation>Non existe esa lista de boletíns.</translation>
+    </message>
+    <message>
+        <source>The edition was made, but a workflow holds its publishing. Find it in the administration.</source>
+        <translation>A edición creouse, pero un fluxo de traballo retén a súa publicación. Atópea na administración.</translation>
+    </message>
+    <message>
+        <source>The edition was made, but the page could not be taken into it.</source>
+        <translation>A edición creouse, pero non se puido incluír nela a páxina.</translation>
+    </message>
+    <message>
+        <source>There is no such edition, or you may not read it.</source>
+        <translation>Esa edición non existe ou non pode lela.</translation>
+    </message>
+    <message>
+        <source>This edition has no newsletter data.</source>
+        <translation>Esta edición non ten datos de boletín.</translation>
+    </message>
+    <message>
+        <source>Some of the addresses are not valid.</source>
+        <translation>Algúns dos enderezos non son válidos.</translation>
+    </message>
+    <message>
+        <source>Give at least one address.</source>
+        <translation>Indique polo menos un enderezo.</translation>
+    </message>
+    <message>
+        <source>Too many addresses at once.</source>
+        <translation>Demasiados enderezos á vez.</translation>
+    </message>
+    <message>
+        <source>The edition was changed in the meantime. Look at it again before you send it.</source>
+        <translation>A edición cambiou entrementres. Revísea de novo antes de enviala.</translation>
+    </message>
+    <message>
+        <source>The send could not be made.</source>
+        <translation>Non se puido facer o envío.</translation>
+    </message>
+    <message>
+        <source>Sending to the subscribers needs "Verify it's you", which is switched off here. Send it in the administration.</source>
+        <translation>O envío aos subscritores require "Confirme que é vostede", que aquí está desactivado. Envíea desde a administración.</translation>
+    </message>
+    <message>
+        <source>Please confirm it is you first.</source>
+        <translation>Confirme primeiro que é vostede.</translation>
+    </message>
+    <message>
+        <source>Editions with this page</source>
+        <translation>Edicións con esta páxina</translation>
+    </message>
+    <message>
+        <source>This page is in no edition yet.</source>
+        <translation>Esta páxina aínda non está en ningunha edición.</translation>
+    </message>
+    <message>
+        <source>Being sent</source>
+        <translation>Enviándose</translation>
+    </message>
+    <message>
+        <source>Sent, in the archive</source>
+        <translation>Enviada, no arquivo</translation>
+    </message>
+    <message>
+        <source>Stopped</source>
+        <translation>Detida</translation>
+    </message>
+    <message>
+        <source>%n subscribers</source>
+        <translation>%n subscritores</translation>
+    </message>
+    <message>
+        <source>Make an edition from this page</source>
+        <translation>Crear unha edición a partir desta páxina</translation>
+    </message>
+    <message>
+        <source>There is no newsletter list where you may make an edition.</source>
+        <translation>Non hai ningunha lista de boletíns na que poida crear unha edición.</translation>
+    </message>
+    <message>
+        <source>Make the edition</source>
+        <translation>Crear a edición</translation>
+    </message>
+    <message>
+        <source>Newsletter list</source>
+        <translation>Lista de boletíns</translation>
+    </message>
+    <message>
+        <source>Introduction (optional)</source>
+        <translation>Introdución (opcional)</translation>
+    </message>
+    <message>
+        <source>This page becomes the edition's article: its title, its intro and a link to it.</source>
+        <translation>Esta páxina pasa a ser o artigo da edición: o seu título, a súa entradiña e unha ligazón a ela.</translation>
+    </message>
+    <message>
+        <source>The edition was made, with this page as its article.</source>
+        <translation>A edición creouse, con esta páxina como artigo.</translation>
+    </message>
+    <message>
+        <source>not asked for yet</source>
+        <translation>aínda non solicitada</translation>
+    </message>
+    <message>
+        <source>waiting</source>
+        <translation>pendente</translation>
+    </message>
+    <message>
+        <source>approved</source>
+        <translation>aprobada</translation>
+    </message>
+    <message>
+        <source>rejected</source>
+        <translation>rexeitada</translation>
+    </message>
+    <message>
+        <source>Approval: %state</source>
+        <translation>Aprobación: %state</translation>
+    </message>
+    <message>
+        <source>waiting for the cronjob</source>
+        <translation>á espera do cronjob</translation>
+    </message>
+    <message>
+        <source>queued</source>
+        <translation>na cola</translation>
+    </message>
+    <message>
+        <source>being sent</source>
+        <translation>enviándose</translation>
+    </message>
+    <message>
+        <source>sent</source>
+        <translation>enviado</translation>
+    </message>
+    <message>
+        <source>stopped</source>
+        <translation>detido</translation>
+    </message>
+    <message>
+        <source>Last send: %state, %time</source>
+        <translation>Último envío: %state, %time</translation>
+    </message>
+    <message>
+        <source>Send a test</source>
+        <translation>Enviar unha proba</translation>
+    </message>
+    <message>
+        <source>The test could not be sent.</source>
+        <translation>Non se puido enviar a proba.</translation>
+    </message>
+    <message>
+        <source>The test was sent to %list.</source>
+        <translation>A proba enviouse a %list.</translation>
+    </message>
+    <message>
+        <source>Test addresses</source>
+        <translation>Enderezos de proba</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers</source>
+        <translation>Enviar aos subscritores</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers ...</source>
+        <translation>Enviar aos subscritores ...</translation>
+    </message>
+    <message>
+        <source>Send now</source>
+        <translation>Enviar agora</translation>
+    </message>
+    <message>
+        <source>The edition is queued: the newsletter's cronjob sends it to the subscribers.</source>
+        <translation>A edición está na cola: o cronjob do boletín envíaa aos subscritores.</translation>
+    </message>
+    <message>
+        <source>Send "%name" to the %n subscribers of "%list" now? This cannot be taken back here.</source>
+        <translation>Enviar agora «%name» aos %n subscritores de «%list»? Isto non se pode desfacer aquí.</translation>
+    </message>
+    <message>
+        <source>Newsletter</source>
+        <translation>Boletín</translation>
+    </message>
+    <message>
+        <source>This edition is being sent.</source>
+        <translation>Esta edición estase enviando.</translation>
+    </message>
+    <message>
+        <source>This edition was sent and is in the archive.</source>
+        <translation>Esta edición enviouse e está no arquivo.</translation>
+    </message>
+    <message>
+        <source>This edition waits for its approval. It can be sent when it is approved.</source>
+        <translation>Esta edición agarda a súa aprobación. Poderá enviarse cando estea aprobada.</translation>
+    </message>
+    <message>
+        <source>This edition was rejected. Change it and ask for the approval again.</source>
+        <translation>Esta edición foi rexeitada. Modifíquea e volva solicitar a aprobación.</translation>
+    </message>
+    <message>
+        <source>The list needs an approval before an edition is sent. Ask for the approval in the administration.</source>
+        <translation>A lista require unha aprobación antes de enviar unha edición. Solicite a aprobación na administración.</translation>
+    </message>
+    <message>
+        <source>The list has no subscribers.</source>
+        <translation>A lista non ten subscritores.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Caixa de entrada</translation>
     </message>

@@ -20,6 +20,16 @@ Listeners[]=response/output@expwtHook::output
 # views they stand for
 [ReauthSettings]
 TriggerHandlers[]=expwtReauthTriggerHandler
+# The real send of a newsletter edition to its subscribers from the sidebar always asks (E3)
+Groups[]=newsletter
+
+# Sending a newsletter edition (cjw_newsletter) to its list's subscribers from the website sidebar.
+# expwtReauthTriggerHandler names this group for the sidebar's real send; no administration view is
+# in it. Switched off (here or on setup/reauth), the sidebar does not send at all: the
+# administration's send page does.
+[ReauthGroup_newsletter]
+Enabled=true
+Rules[]
 
 # Editing on the page: the kernel marks every rendered attribute (field, object, version) for a user
 # who may edit with the sidebar; visitors' pages stay as they are

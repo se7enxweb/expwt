@@ -1044,6 +1044,214 @@
         <translation>جەدۋەللەر</translation>
     </message>
     <message>
+        <source>There is no such newsletter list.</source>
+        <translation>بۇنداق ئاخبارات تىزىملىكى يوق.</translation>
+    </message>
+    <message>
+        <source>The edition was made, but a workflow holds its publishing. Find it in the administration.</source>
+        <translation>سان ياسالدى، لېكىن بىر خىزمەت ئېقىمى ئۇنىڭ ئېلان قىلىنىشىنى توختىتىپ تۇرۇۋاتىدۇ. ئۇنى باشقۇرۇشتا تېپىڭ.</translation>
+    </message>
+    <message>
+        <source>The edition was made, but the page could not be taken into it.</source>
+        <translation>سان ياسالدى، لېكىن بەتنى ئۇنىڭغا قوشقىلى بولمىدى.</translation>
+    </message>
+    <message>
+        <source>There is no such edition, or you may not read it.</source>
+        <translation>بۇنداق سان يوق ياكى ئوقۇش ھوقۇقىڭىز يوق.</translation>
+    </message>
+    <message>
+        <source>This edition has no newsletter data.</source>
+        <translation>بۇ ساننىڭ ئاخبارات سانلىق مەلۇماتى يوق.</translation>
+    </message>
+    <message>
+        <source>Some of the addresses are not valid.</source>
+        <translation>بەزى ئادرېسلار ئىناۋەتسىز.</translation>
+    </message>
+    <message>
+        <source>Give at least one address.</source>
+        <translation>كەم دېگەندە بىر ئادرېس بېرىڭ.</translation>
+    </message>
+    <message>
+        <source>Too many addresses at once.</source>
+        <translation>بىر قېتىمدا ئادرېس بەك كۆپ.</translation>
+    </message>
+    <message>
+        <source>The edition was changed in the meantime. Look at it again before you send it.</source>
+        <translation>بۇ ئارىلىقتا سان ئۆزگەرتىلدى. ئەۋەتىشتىن بۇرۇن ئۇنى قايتا كۆرۈڭ.</translation>
+    </message>
+    <message>
+        <source>The send could not be made.</source>
+        <translation>ئەۋەتىش ئەمەلگە ئاشمىدى.</translation>
+    </message>
+    <message>
+        <source>Sending to the subscribers needs "Verify it's you", which is switched off here. Send it in the administration.</source>
+        <translation>مۇشتەرىلەرگە ئەۋەتىش ئۈچۈن «ئۆزىڭىز ئىكەنلىكىڭىزنى دەلىللەڭ» كېرەك، ئۇ بۇ يەردە تاقاقلىق. ئۇنى باشقۇرۇشتا ئەۋەتىڭ.</translation>
+    </message>
+    <message>
+        <source>Please confirm it is you first.</source>
+        <translation>ئالدى بىلەن ئۆزىڭىز ئىكەنلىكىڭىزنى جەزملەڭ.</translation>
+    </message>
+    <message>
+        <source>Editions with this page</source>
+        <translation>بۇ بەت بار سانلار</translation>
+    </message>
+    <message>
+        <source>This page is in no edition yet.</source>
+        <translation>بۇ بەت تېخى ھېچقانداق ساندا يوق.</translation>
+    </message>
+    <message>
+        <source>Being sent</source>
+        <translation>ئەۋەتىلىۋاتىدۇ</translation>
+    </message>
+    <message>
+        <source>Sent, in the archive</source>
+        <translation>ئەۋەتىلدى، ئارخىپتا</translation>
+    </message>
+    <message>
+        <source>Stopped</source>
+        <translation>توختىتىلدى</translation>
+    </message>
+    <message>
+        <source>%n subscribers</source>
+        <translation>%n مۇشتەرى</translation>
+    </message>
+    <message>
+        <source>Make an edition from this page</source>
+        <translation>بۇ بەتتىن سان ياساش</translation>
+    </message>
+    <message>
+        <source>There is no newsletter list where you may make an edition.</source>
+        <translation>سىز سان ياسىيالايدىغان ئاخبارات تىزىملىكى يوق.</translation>
+    </message>
+    <message>
+        <source>Make the edition</source>
+        <translation>ساننى ياساش</translation>
+    </message>
+    <message>
+        <source>Newsletter list</source>
+        <translation>ئاخبارات تىزىملىكى</translation>
+    </message>
+    <message>
+        <source>Introduction (optional)</source>
+        <translation>كىرىش سۆز (ئىختىيارى)</translation>
+    </message>
+    <message>
+        <source>This page becomes the edition's article: its title, its intro and a link to it.</source>
+        <translation>بۇ بەت ساننىڭ ماقالىسى بولىدۇ: ئۇنىڭ ماۋزۇسى، كىرىش سۆزى ۋە ئۇنىڭغا ئۇلانما.</translation>
+    </message>
+    <message>
+        <source>The edition was made, with this page as its article.</source>
+        <translation>سان ياسالدى، بۇ بەت ئۇنىڭ ماقالىسى.</translation>
+    </message>
+    <message>
+        <source>not asked for yet</source>
+        <translation>تېخى سورالمىدى</translation>
+    </message>
+    <message>
+        <source>waiting</source>
+        <translation>ساقلاۋاتىدۇ</translation>
+    </message>
+    <message>
+        <source>approved</source>
+        <translation>تەستىقلاندى</translation>
+    </message>
+    <message>
+        <source>rejected</source>
+        <translation>رەت قىلىندى</translation>
+    </message>
+    <message>
+        <source>Approval: %state</source>
+        <translation>تەستىق: %state</translation>
+    </message>
+    <message>
+        <source>waiting for the cronjob</source>
+        <translation>cronjob نى ساقلاۋاتىدۇ</translation>
+    </message>
+    <message>
+        <source>queued</source>
+        <translation>ئۆچىرەتتە</translation>
+    </message>
+    <message>
+        <source>being sent</source>
+        <translation>ئەۋەتىلىۋاتىدۇ</translation>
+    </message>
+    <message>
+        <source>sent</source>
+        <translation>ئەۋەتىلدى</translation>
+    </message>
+    <message>
+        <source>stopped</source>
+        <translation>توختىتىلدى</translation>
+    </message>
+    <message>
+        <source>Last send: %state, %time</source>
+        <translation>ئاخىرقى ئەۋەتىش: %state، %time</translation>
+    </message>
+    <message>
+        <source>Send a test</source>
+        <translation>سىناق ئەۋەتىش</translation>
+    </message>
+    <message>
+        <source>The test could not be sent.</source>
+        <translation>سىناقنى ئەۋەتكىلى بولمىدى.</translation>
+    </message>
+    <message>
+        <source>The test was sent to %list.</source>
+        <translation>سىناق %list غا ئەۋەتىلدى.</translation>
+    </message>
+    <message>
+        <source>Test addresses</source>
+        <translation>سىناق ئادرېسلىرى</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers</source>
+        <translation>مۇشتەرىلەرگە ئەۋەتىش</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers ...</source>
+        <translation>مۇشتەرىلەرگە ئەۋەتىش ...</translation>
+    </message>
+    <message>
+        <source>Send now</source>
+        <translation>ھازىر ئەۋەتىش</translation>
+    </message>
+    <message>
+        <source>The edition is queued: the newsletter's cronjob sends it to the subscribers.</source>
+        <translation>سان ئۆچىرەتتە: ئاخباراتنىڭ cronjob ى ئۇنى مۇشتەرىلەرگە ئەۋەتىدۇ.</translation>
+    </message>
+    <message>
+        <source>Send "%name" to the %n subscribers of "%list" now? This cannot be taken back here.</source>
+        <translation>«%name» نى «%list» نىڭ %n مۇشتەرىسىگە ھازىر ئەۋەتەمسىز؟ بۇنى بۇ يەردە قايتۇرۇۋالغىلى بولمايدۇ.</translation>
+    </message>
+    <message>
+        <source>Newsletter</source>
+        <translation>ئاخبارات</translation>
+    </message>
+    <message>
+        <source>This edition is being sent.</source>
+        <translation>بۇ سان ئەۋەتىلىۋاتىدۇ.</translation>
+    </message>
+    <message>
+        <source>This edition was sent and is in the archive.</source>
+        <translation>بۇ سان ئەۋەتىلدى ۋە ئارخىپتا.</translation>
+    </message>
+    <message>
+        <source>This edition waits for its approval. It can be sent when it is approved.</source>
+        <translation>بۇ سان تەستىقنى ساقلاۋاتىدۇ. تەستىقلانغاندىن كېيىن ئەۋەتكىلى بولىدۇ.</translation>
+    </message>
+    <message>
+        <source>This edition was rejected. Change it and ask for the approval again.</source>
+        <translation>بۇ سان رەت قىلىندى. ئۇنى ئۆزگەرتىپ، تەستىقنى قايتا سوراڭ.</translation>
+    </message>
+    <message>
+        <source>The list needs an approval before an edition is sent. Ask for the approval in the administration.</source>
+        <translation>سان ئەۋەتىلىشتىن بۇرۇن تىزىملىككە تەستىق كېرەك. تەستىقنى باشقۇرۇشتا سوراڭ.</translation>
+    </message>
+    <message>
+        <source>The list has no subscribers.</source>
+        <translation>تىزىملىكتە مۇشتەرى يوق.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>كىرگەنلەر</translation>
     </message>

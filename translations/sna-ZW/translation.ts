@@ -1044,6 +1044,214 @@
         <translation>Mafomu</translation>
     </message>
     <message>
+        <source>There is no such newsletter list.</source>
+        <translation>Hapana rondedzero yetsamba yenhau yakadaro.</translation>
+    </message>
+    <message>
+        <source>The edition was made, but a workflow holds its publishing. Find it in the administration.</source>
+        <translation>Edhisheni yagadzirwa, asi hurongwa hwebasa huri kumisa kuburitswa kwayo. Iwane mukutonga.</translation>
+    </message>
+    <message>
+        <source>The edition was made, but the page could not be taken into it.</source>
+        <translation>Edhisheni yagadzirwa, asi peji harina kukwanisa kuiswa mairi.</translation>
+    </message>
+    <message>
+        <source>There is no such edition, or you may not read it.</source>
+        <translation>Hapana edhisheni yakadaro, kana kuti haubvumirwe kuiverenga.</translation>
+    </message>
+    <message>
+        <source>This edition has no newsletter data.</source>
+        <translation>Edhisheni iyi haina data yetsamba yenhau.</translation>
+    </message>
+    <message>
+        <source>Some of the addresses are not valid.</source>
+        <translation>Mamwe makero haana kunaka.</translation>
+    </message>
+    <message>
+        <source>Give at least one address.</source>
+        <translation>Ipa kero imwe chete zvishoma.</translation>
+    </message>
+    <message>
+        <source>Too many addresses at once.</source>
+        <translation>Makero akawandisa panguva imwe.</translation>
+    </message>
+    <message>
+        <source>The edition was changed in the meantime. Look at it again before you send it.</source>
+        <translation>Edhisheni yakachinjwa panguva iyi. Itarisezve usati waitumira.</translation>
+    </message>
+    <message>
+        <source>The send could not be made.</source>
+        <translation>Kutumira hakuna kukwanisa kuitwa.</translation>
+    </message>
+    <message>
+        <source>Sending to the subscribers needs "Verify it's you", which is switched off here. Send it in the administration.</source>
+        <translation>Kutumira kuvakanyoresa kunoda "Simbisa kuti ndiwe", izvo zvakadzimwa pano. Itumire mukutonga.</translation>
+    </message>
+    <message>
+        <source>Please confirm it is you first.</source>
+        <translation>Ndapota tanga wasimbisa kuti ndiwe.</translation>
+    </message>
+    <message>
+        <source>Editions with this page</source>
+        <translation>Maedhisheni ane peji iri</translation>
+    </message>
+    <message>
+        <source>This page is in no edition yet.</source>
+        <translation>Peji iri harisati raiswa muedhisheni ipi zvayo.</translation>
+    </message>
+    <message>
+        <source>Being sent</source>
+        <translation>Iri kutumirwa</translation>
+    </message>
+    <message>
+        <source>Sent, in the archive</source>
+        <translation>Yatumirwa, iri mudura</translation>
+    </message>
+    <message>
+        <source>Stopped</source>
+        <translation>Yamiswa</translation>
+    </message>
+    <message>
+        <source>%n subscribers</source>
+        <translation>Vakanyoresa %n</translation>
+    </message>
+    <message>
+        <source>Make an edition from this page</source>
+        <translation>Gadzira edhisheni kubva papeji iri</translation>
+    </message>
+    <message>
+        <source>There is no newsletter list where you may make an edition.</source>
+        <translation>Hapana rondedzero yetsamba yenhau yaunobvumirwa kugadzira edhisheni.</translation>
+    </message>
+    <message>
+        <source>Make the edition</source>
+        <translation>Gadzira edhisheni</translation>
+    </message>
+    <message>
+        <source>Newsletter list</source>
+        <translation>Rondedzero yetsamba yenhau</translation>
+    </message>
+    <message>
+        <source>Introduction (optional)</source>
+        <translation>Sumo (kana uchida)</translation>
+    </message>
+    <message>
+        <source>This page becomes the edition's article: its title, its intro and a link to it.</source>
+        <translation>Peji iri rinova chinyorwa chedhisheni: musoro waro, sumo yaro nechinongedzo chakananga kwariri.</translation>
+    </message>
+    <message>
+        <source>The edition was made, with this page as its article.</source>
+        <translation>Edhisheni yagadzirwa, peji iri richiita chinyorwa chayo.</translation>
+    </message>
+    <message>
+        <source>not asked for yet</source>
+        <translation>hazvisati zvakumbirwa</translation>
+    </message>
+    <message>
+        <source>waiting</source>
+        <translation>zvakamirira</translation>
+    </message>
+    <message>
+        <source>approved</source>
+        <translation>zvabvumirwa</translation>
+    </message>
+    <message>
+        <source>rejected</source>
+        <translation>zvarambwa</translation>
+    </message>
+    <message>
+        <source>Approval: %state</source>
+        <translation>Mvumo: %state</translation>
+    </message>
+    <message>
+        <source>waiting for the cronjob</source>
+        <translation>zvakamirira cronjob</translation>
+    </message>
+    <message>
+        <source>queued</source>
+        <translation>zviri mumutsetse</translation>
+    </message>
+    <message>
+        <source>being sent</source>
+        <translation>zviri kutumirwa</translation>
+    </message>
+    <message>
+        <source>sent</source>
+        <translation>zvatumirwa</translation>
+    </message>
+    <message>
+        <source>stopped</source>
+        <translation>zvamiswa</translation>
+    </message>
+    <message>
+        <source>Last send: %state, %time</source>
+        <translation>Kutumira kwekupedzisira: %state, %time</translation>
+    </message>
+    <message>
+        <source>Send a test</source>
+        <translation>Tumira bvunzo</translation>
+    </message>
+    <message>
+        <source>The test could not be sent.</source>
+        <translation>Bvunzo haina kukwanisa kutumirwa.</translation>
+    </message>
+    <message>
+        <source>The test was sent to %list.</source>
+        <translation>Bvunzo yatumirwa ku%list.</translation>
+    </message>
+    <message>
+        <source>Test addresses</source>
+        <translation>Makero ebvunzo</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers</source>
+        <translation>Tumira kuvakanyoresa</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers ...</source>
+        <translation>Tumira kuvakanyoresa ...</translation>
+    </message>
+    <message>
+        <source>Send now</source>
+        <translation>Tumira izvozvi</translation>
+    </message>
+    <message>
+        <source>The edition is queued: the newsletter's cronjob sends it to the subscribers.</source>
+        <translation>Edhisheni iri mumutsetse: cronjob yetsamba yenhau inoitumira kuvakanyoresa.</translation>
+    </message>
+    <message>
+        <source>Send "%name" to the %n subscribers of "%list" now? This cannot be taken back here.</source>
+        <translation>Tumira "%name" izvozvi kuvakanyoresa %n ve"%list"? Izvi hazvigone kudzoserwa pano.</translation>
+    </message>
+    <message>
+        <source>Newsletter</source>
+        <translation>Tsamba yenhau</translation>
+    </message>
+    <message>
+        <source>This edition is being sent.</source>
+        <translation>Edhisheni iyi iri kutumirwa.</translation>
+    </message>
+    <message>
+        <source>This edition was sent and is in the archive.</source>
+        <translation>Edhisheni iyi yatumirwa uye iri mudura.</translation>
+    </message>
+    <message>
+        <source>This edition waits for its approval. It can be sent when it is approved.</source>
+        <translation>Edhisheni iyi yakamirira mvumo yayo. Inogona kutumirwa kana yabvumirwa.</translation>
+    </message>
+    <message>
+        <source>This edition was rejected. Change it and ask for the approval again.</source>
+        <translation>Edhisheni iyi yarambwa. Ichinje uye ukumbire mvumo zvakare.</translation>
+    </message>
+    <message>
+        <source>The list needs an approval before an edition is sent. Ask for the approval in the administration.</source>
+        <translation>Rondedzero inoda mvumo edhisheni isati yatumirwa. Kumbira mvumo mukutonga.</translation>
+    </message>
+    <message>
+        <source>The list has no subscribers.</source>
+        <translation>Rondedzero haina vakanyoresa.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Bhokisi rinopinda</translation>
     </message>

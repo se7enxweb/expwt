@@ -1044,6 +1044,214 @@
         <translation>ⵜⵉⵍⵖⵉⵡⵉⵏ</translation>
     </message>
     <message>
+        <source>There is no such newsletter list.</source>
+        <translation>ⵓⵔ ⵜⵍⵍⵉ ⵜⵍⴳⴰⵎⵜ ⵏ ⵜⴱⵔⴰⵜ ⵏ ⵉⵙⴰⵍⵏ ⴰⵎ ⵜⴰ.</translation>
+    </message>
+    <message>
+        <source>The edition was made, but a workflow holds its publishing. Find it in the administration.</source>
+        <translation>ⵉⵜⵜⵓⵙⴽⴰⵔ ⵓⵟⵟⵓⵏ, ⵎⴰⵛ ⵢⴰⵏ ⵓⴱⵔⵉⴷ ⵏ ⵜⵡⵓⵔⵉ ⵉⵟⵟⴼ ⴰⵙⵙⵓⴼⵖ ⵏⵏⵙ. ⴰⴼ ⵜ ⴳ ⵓⵙⵡⵓⴷⴷⵓ.</translation>
+    </message>
+    <message>
+        <source>The edition was made, but the page could not be taken into it.</source>
+        <translation>ⵉⵜⵜⵓⵙⴽⴰⵔ ⵓⵟⵟⵓⵏ, ⵎⴰⵛ ⵓⵔ ⵜⵣⵎⵉⵔ ⵜⴰⵙⵏⴰ ⴰⴷ ⵜⴽⵛⵎ ⵖⵓⵔⵙ.</translation>
+    </message>
+    <message>
+        <source>There is no such edition, or you may not read it.</source>
+        <translation>ⵓⵔ ⵉⵍⵍⵉ ⵓⵟⵟⵓⵏ ⴰⵎ ⵡⴰ, ⵏⵖ ⵓⵔ ⵜⵣⵎⵔⴷ ⴰⴷ ⵜ ⵜⵖⵔⴷ.</translation>
+    </message>
+    <message>
+        <source>This edition has no newsletter data.</source>
+        <translation>ⵓⵟⵟⵓⵏ ⴰ ⵓⵔ ⵖⵓⵔⵙ ⵉⵙⴼⴽⴰ ⵏ ⵜⴱⵔⴰⵜ ⵏ ⵉⵙⴰⵍⵏ.</translation>
+    </message>
+    <message>
+        <source>Some of the addresses are not valid.</source>
+        <translation>ⴽⵔⴰ ⴳ ⵉⵏⵙⴰ ⵓⵔ ⵓⵖⵓⴷⵏ.</translation>
+    </message>
+    <message>
+        <source>Give at least one address.</source>
+        <translation>ⵙⴽⵛⵎ ⵢⴰⵏ ⵓⵏⵙⴰ ⵖ ⵓⵎⵥⵥⵉ.</translation>
+    </message>
+    <message>
+        <source>Too many addresses at once.</source>
+        <translation>ⵉⵏⵙⴰ ⴳⵓⵜⵏ ⴱⵣⵣⴰⴼ ⴳ ⵢⴰⵏ ⵡⴰⴽⵓⴷ.</translation>
+    </message>
+    <message>
+        <source>The edition was changed in the meantime. Look at it again before you send it.</source>
+        <translation>ⵉⵜⵜⵓⵙⵏⴼⵍ ⵓⵟⵟⵓⵏ ⴳ ⵡⴰⵏⵙⴰ ⴰ. ⵥⵕ ⵜ ⴷⴰⵖ ⵙ ⴷⴰⵜ ⴰⴷ ⵜ ⵜⴰⵣⵏⴷ.</translation>
+    </message>
+    <message>
+        <source>The send could not be made.</source>
+        <translation>ⵓⵔ ⵉⵣⵎⵉⵔ ⵓⵣⵏ ⴰⴷ ⵉⵜⵜⵓⵙⴽⴰⵔ.</translation>
+    </message>
+    <message>
+        <source>Sending to the subscribers needs "Verify it's you", which is switched off here. Send it in the administration.</source>
+        <translation>ⴰⵣⵏ ⵉ ⵉⵎⵏⵅⵔⴰⵟⵏ ⵉⵅⵚⵚⴰ ⴰⵙ «ⵙⵏⵜⵎ ⵎⴰⵙ ⴷ ⴽⵢⵢ», ⵍⵍⵉ ⵉⵜⵜⵓⵅⵙⵉⵏ ⴷⴰ. ⴰⵣⵏ ⵜ ⴳ ⵓⵙⵡⵓⴷⴷⵓ.</translation>
+    </message>
+    <message>
+        <source>Please confirm it is you first.</source>
+        <translation>ⵙⵏⵜⵎ ⵜⵉⵣⵡⴰⵔ ⵎⴰⵙ ⴷ ⴽⵢⵢ.</translation>
+    </message>
+    <message>
+        <source>Editions with this page</source>
+        <translation>ⵉⵟⵟⵓⵏⴰ ⵍⵍⵉ ⴳ ⵜⵍⵍⴰ ⵜⴰⵙⵏⴰ ⴰ</translation>
+    </message>
+    <message>
+        <source>This page is in no edition yet.</source>
+        <translation>ⵜⴰⵙⵏⴰ ⴰ ⵓⵔ ⵜⵍⵍⵉ ⵖⴰⵙⴰ ⴳ ⴽⵔⴰ ⵏ ⵓⵟⵟⵓⵏ.</translation>
+    </message>
+    <message>
+        <source>Being sent</source>
+        <translation>ⴰⵔ ⵉⵜⵜⵓⵣⵏⴰ</translation>
+    </message>
+    <message>
+        <source>Sent, in the archive</source>
+        <translation>ⵉⵜⵜⵓⵣⵏ, ⴳ ⵓⵔⵛⵉⴼ</translation>
+    </message>
+    <message>
+        <source>Stopped</source>
+        <translation>ⵉⵃⴱⵙ</translation>
+    </message>
+    <message>
+        <source>%n subscribers</source>
+        <translation>%n ⵏ ⵉⵎⵏⵅⵔⴰⵟⵏ</translation>
+    </message>
+    <message>
+        <source>Make an edition from this page</source>
+        <translation>ⵙⴽⵔ ⵢⴰⵏ ⵓⵟⵟⵓⵏ ⵙⴳ ⵜⴰⵙⵏⴰ ⴰ</translation>
+    </message>
+    <message>
+        <source>There is no newsletter list where you may make an edition.</source>
+        <translation>ⵓⵔ ⵜⵍⵍⵉ ⵜⵍⴳⴰⵎⵜ ⵏ ⵜⴱⵔⴰⵜ ⵏ ⵉⵙⴰⵍⵏ ⴳ ⵜⵣⵎⵔⴷ ⴰⴷ ⵜⵙⴽⵔⴷ ⵓⵟⵟⵓⵏ.</translation>
+    </message>
+    <message>
+        <source>Make the edition</source>
+        <translation>ⵙⴽⵔ ⵓⵟⵟⵓⵏ</translation>
+    </message>
+    <message>
+        <source>Newsletter list</source>
+        <translation>ⵜⴰⵍⴳⴰⵎⵜ ⵏ ⵜⴱⵔⴰⵜ ⵏ ⵉⵙⴰⵍⵏ</translation>
+    </message>
+    <message>
+        <source>Introduction (optional)</source>
+        <translation>ⴰⵙⴽⵛⵎ (ⴰⵙⵜⴰⵢ)</translation>
+    </message>
+    <message>
+        <source>This page becomes the edition's article: its title, its intro and a link to it.</source>
+        <translation>ⵜⴰⵙⵏⴰ ⴰ ⴰⴷ ⵜⴳ ⴰⵎⴰⴳⵔⴰⴷ ⵏ ⵓⵟⵟⵓⵏ: ⴰⵣⵡⵍ ⵏⵏⵙ, ⴰⵙⴽⵛⵎ ⵏⵏⵙ ⴷ ⵢⴰⵏ ⵓⵙⵖⵏ ⵖⵓⵔⵙ.</translation>
+    </message>
+    <message>
+        <source>The edition was made, with this page as its article.</source>
+        <translation>ⵉⵜⵜⵓⵙⴽⴰⵔ ⵓⵟⵟⵓⵏ, ⵙ ⵜⴰⵙⵏⴰ ⴰ ⴰⵎ ⵓⵎⴰⴳⵔⴰⴷ ⵏⵏⵙ.</translation>
+    </message>
+    <message>
+        <source>not asked for yet</source>
+        <translation>ⵓⵔ ⵜⵜⵓⵙⵜⵔ ⵖⴰⵙⴰ</translation>
+    </message>
+    <message>
+        <source>waiting</source>
+        <translation>ⴰⵔ ⵉⵜⵜⵔⴰⵊⵓ</translation>
+    </message>
+    <message>
+        <source>approved</source>
+        <translation>ⵉⵜⵜⵓⵇⴱⵍ</translation>
+    </message>
+    <message>
+        <source>rejected</source>
+        <translation>ⵉⵜⵜⵓⴳⴷⵍ</translation>
+    </message>
+    <message>
+        <source>Approval: %state</source>
+        <translation>ⵜⴰⵡⴰⴼⵇⵜ: %state</translation>
+    </message>
+    <message>
+        <source>waiting for the cronjob</source>
+        <translation>ⴰⵔ ⵉⵜⵜⵔⴰⵊⵓ cronjob</translation>
+    </message>
+    <message>
+        <source>queued</source>
+        <translation>ⴳ ⵜⵙⵓⵔⵉⵜ</translation>
+    </message>
+    <message>
+        <source>being sent</source>
+        <translation>ⴰⵔ ⵉⵜⵜⵓⵣⵏⴰ</translation>
+    </message>
+    <message>
+        <source>sent</source>
+        <translation>ⵉⵜⵜⵓⵣⵏ</translation>
+    </message>
+    <message>
+        <source>stopped</source>
+        <translation>ⵉⵃⴱⵙ</translation>
+    </message>
+    <message>
+        <source>Last send: %state, %time</source>
+        <translation>ⴰⵣⵏ ⴰⵏⴳⴳⴰⵔⵓ: %state, %time</translation>
+    </message>
+    <message>
+        <source>Send a test</source>
+        <translation>ⴰⵣⵏ ⴰⵔⵎ</translation>
+    </message>
+    <message>
+        <source>The test could not be sent.</source>
+        <translation>ⵓⵔ ⵉⵣⵎⵉⵔ ⵓⵔⵎ ⴰⴷ ⵉⵜⵜⵓⵣⵏ.</translation>
+    </message>
+    <message>
+        <source>The test was sent to %list.</source>
+        <translation>ⵉⵜⵜⵓⵣⵏ ⵓⵔⵎ ⵉ %list.</translation>
+    </message>
+    <message>
+        <source>Test addresses</source>
+        <translation>ⵉⵏⵙⴰ ⵏ ⵓⵔⵎ</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers</source>
+        <translation>ⴰⵣⵏ ⵉ ⵉⵎⵏⵅⵔⴰⵟⵏ</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers ...</source>
+        <translation>ⴰⵣⵏ ⵉ ⵉⵎⵏⵅⵔⴰⵟⵏ ...</translation>
+    </message>
+    <message>
+        <source>Send now</source>
+        <translation>ⴰⵣⵏ ⴷⵖⵉ</translation>
+    </message>
+    <message>
+        <source>The edition is queued: the newsletter's cronjob sends it to the subscribers.</source>
+        <translation>ⵓⵟⵟⵓⵏ ⵉⵍⵍⴰ ⴳ ⵜⵙⵓⵔⵉⵜ: cronjob ⵏ ⵜⴱⵔⴰⵜ ⵏ ⵉⵙⴰⵍⵏ ⴰⴷ ⵜ ⵢⴰⵣⵏ ⵉ ⵉⵎⵏⵅⵔⴰⵟⵏ.</translation>
+    </message>
+    <message>
+        <source>Send "%name" to the %n subscribers of "%list" now? This cannot be taken back here.</source>
+        <translation>ⴰⴷ ⵜⴰⵣⵏⴷ «%name» ⵉ %n ⵏ ⵉⵎⵏⵅⵔⴰⵟⵏ ⵏ «%list» ⴷⵖⵉ? ⵓⵔ ⵉⵣⵎⵉⵔ ⵓⵢⴰ ⴰⴷ ⵉⵜⵜⵓⵔⴰⵔ ⴷⴰ.</translation>
+    </message>
+    <message>
+        <source>Newsletter</source>
+        <translation>ⵜⴰⴱⵔⴰⵜ ⵏ ⵉⵙⴰⵍⵏ</translation>
+    </message>
+    <message>
+        <source>This edition is being sent.</source>
+        <translation>ⵓⵟⵟⵓⵏ ⴰ ⴰⵔ ⵉⵜⵜⵓⵣⵏⴰ.</translation>
+    </message>
+    <message>
+        <source>This edition was sent and is in the archive.</source>
+        <translation>ⵓⵟⵟⵓⵏ ⴰ ⵉⵜⵜⵓⵣⵏ ⵉⵍⵍⴰ ⴳ ⵓⵔⵛⵉⴼ.</translation>
+    </message>
+    <message>
+        <source>This edition waits for its approval. It can be sent when it is approved.</source>
+        <translation>ⵓⵟⵟⵓⵏ ⴰ ⴰⵔ ⵉⵜⵜⵔⴰⵊⵓ ⵜⴰⵡⴰⴼⵇⵜ ⵏⵏⵙ. ⵉⵣⵎⵔ ⴰⴷ ⵉⵜⵜⵓⵣⵏ ⵎⵍⵎⵉ ⵉⵜⵜⵓⵇⴱⵍ.</translation>
+    </message>
+    <message>
+        <source>This edition was rejected. Change it and ask for the approval again.</source>
+        <translation>ⵓⵟⵟⵓⵏ ⴰ ⵉⵜⵜⵓⴳⴷⵍ. ⵙⵏⴼⵍ ⵜ ⵜⵙⵜⵔⴷ ⵜⴰⵡⴰⴼⵇⵜ ⴷⴰⵖ.</translation>
+    </message>
+    <message>
+        <source>The list needs an approval before an edition is sent. Ask for the approval in the administration.</source>
+        <translation>ⵜⴰⵍⴳⴰⵎⵜ ⵜⵅⵚⵚⴰ ⴰⵙ ⵜⴰⵡⴰⴼⵇⵜ ⵙ ⴷⴰⵜ ⴰⴷ ⵉⵜⵜⵓⵣⵏ ⵓⵟⵟⵓⵏ. ⵙⵜⵔ ⵜⴰⵡⴰⴼⵇⵜ ⴳ ⵓⵙⵡⵓⴷⴷⵓ.</translation>
+    </message>
+    <message>
+        <source>The list has no subscribers.</source>
+        <translation>ⵜⴰⵍⴳⴰⵎⵜ ⵓⵔ ⵖⵓⵔⵙ ⵉⵎⵏⵅⵔⴰⵟⵏ.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>ⵜⴰⵙⵏⴷⵓⵇⵜ ⵏ ⵓⴽⵛⵛⵎ</translation>
     </message>

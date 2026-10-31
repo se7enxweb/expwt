@@ -1044,6 +1044,214 @@
         <translation>Formulairen</translation>
     </message>
     <message>
+        <source>There is no such newsletter list.</source>
+        <translation>Et gëtt keng esou Newsletter-Lëscht.</translation>
+    </message>
+    <message>
+        <source>The edition was made, but a workflow holds its publishing. Find it in the administration.</source>
+        <translation>D'Ausgab gouf gemaach, mee e Workflow hält hir Publikatioun zréck. Fannt se an der Administratioun.</translation>
+    </message>
+    <message>
+        <source>The edition was made, but the page could not be taken into it.</source>
+        <translation>D'Ausgab gouf gemaach, mee d'Säit konnt net dran iwwerholl ginn.</translation>
+    </message>
+    <message>
+        <source>There is no such edition, or you may not read it.</source>
+        <translation>Et gëtt keng esou Ausgab, oder Dir däerft se net liesen.</translation>
+    </message>
+    <message>
+        <source>This edition has no newsletter data.</source>
+        <translation>Dës Ausgab huet keng Newsletter-Donnéeën.</translation>
+    </message>
+    <message>
+        <source>Some of the addresses are not valid.</source>
+        <translation>E puer vun den Adressen sinn net gëlteg.</translation>
+    </message>
+    <message>
+        <source>Give at least one address.</source>
+        <translation>Gitt mindestens eng Adress un.</translation>
+    </message>
+    <message>
+        <source>Too many addresses at once.</source>
+        <translation>Ze vill Adressen op eemol.</translation>
+    </message>
+    <message>
+        <source>The edition was changed in the meantime. Look at it again before you send it.</source>
+        <translation>D'Ausgab gouf an der Tëschenzäit geännert. Kuckt se nach eng Kéier, ier Dir se schéckt.</translation>
+    </message>
+    <message>
+        <source>The send could not be made.</source>
+        <translation>D'Verschécken huet net geklappt.</translation>
+    </message>
+    <message>
+        <source>Sending to the subscribers needs "Verify it's you", which is switched off here. Send it in the administration.</source>
+        <translation>D'Verschécken un d'Abonnente brauch „Bestätegt, datt Dir et sidd“, wat hei ausgeschalt ass. Schéckt se an der Administratioun.</translation>
+    </message>
+    <message>
+        <source>Please confirm it is you first.</source>
+        <translation>Bestätegt w.e.g. éischt, datt Dir et sidd.</translation>
+    </message>
+    <message>
+        <source>Editions with this page</source>
+        <translation>Ausgabe mat dëser Säit</translation>
+    </message>
+    <message>
+        <source>This page is in no edition yet.</source>
+        <translation>Dës Säit ass nach a kenger Ausgab.</translation>
+    </message>
+    <message>
+        <source>Being sent</source>
+        <translation>Gëtt verschéckt</translation>
+    </message>
+    <message>
+        <source>Sent, in the archive</source>
+        <translation>Verschéckt, am Archiv</translation>
+    </message>
+    <message>
+        <source>Stopped</source>
+        <translation>Gestoppt</translation>
+    </message>
+    <message>
+        <source>%n subscribers</source>
+        <translation>%n Abonnenten</translation>
+    </message>
+    <message>
+        <source>Make an edition from this page</source>
+        <translation>Eng Ausgab aus dëser Säit maachen</translation>
+    </message>
+    <message>
+        <source>There is no newsletter list where you may make an edition.</source>
+        <translation>Et gëtt keng Newsletter-Lëscht, wou Dir eng Ausgab maache däerft.</translation>
+    </message>
+    <message>
+        <source>Make the edition</source>
+        <translation>D'Ausgab maachen</translation>
+    </message>
+    <message>
+        <source>Newsletter list</source>
+        <translation>Newsletter-Lëscht</translation>
+    </message>
+    <message>
+        <source>Introduction (optional)</source>
+        <translation>Aleedung (fakultativ)</translation>
+    </message>
+    <message>
+        <source>This page becomes the edition's article: its title, its intro and a link to it.</source>
+        <translation>Dës Säit gëtt den Artikel vun der Ausgab: hiren Titel, hir Aleedung an e Link op si.</translation>
+    </message>
+    <message>
+        <source>The edition was made, with this page as its article.</source>
+        <translation>D'Ausgab gouf gemaach, mat dëser Säit als Artikel.</translation>
+    </message>
+    <message>
+        <source>not asked for yet</source>
+        <translation>nach net ugefrot</translation>
+    </message>
+    <message>
+        <source>waiting</source>
+        <translation>waart</translation>
+    </message>
+    <message>
+        <source>approved</source>
+        <translation>fräigeginn</translation>
+    </message>
+    <message>
+        <source>rejected</source>
+        <translation>refuséiert</translation>
+    </message>
+    <message>
+        <source>Approval: %state</source>
+        <translation>Fräigab: %state</translation>
+    </message>
+    <message>
+        <source>waiting for the cronjob</source>
+        <translation>waart op de Cronjob</translation>
+    </message>
+    <message>
+        <source>queued</source>
+        <translation>an der Schlaang</translation>
+    </message>
+    <message>
+        <source>being sent</source>
+        <translation>gëtt verschéckt</translation>
+    </message>
+    <message>
+        <source>sent</source>
+        <translation>verschéckt</translation>
+    </message>
+    <message>
+        <source>stopped</source>
+        <translation>gestoppt</translation>
+    </message>
+    <message>
+        <source>Last send: %state, %time</source>
+        <translation>Leschte Versand: %state, %time</translation>
+    </message>
+    <message>
+        <source>Send a test</source>
+        <translation>En Test schécken</translation>
+    </message>
+    <message>
+        <source>The test could not be sent.</source>
+        <translation>Den Test konnt net verschéckt ginn.</translation>
+    </message>
+    <message>
+        <source>The test was sent to %list.</source>
+        <translation>Den Test gouf un %list geschéckt.</translation>
+    </message>
+    <message>
+        <source>Test addresses</source>
+        <translation>Testadressen</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers</source>
+        <translation>Un d'Abonnente schécken</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers ...</source>
+        <translation>Un d'Abonnente schécken ...</translation>
+    </message>
+    <message>
+        <source>Send now</source>
+        <translation>Elo schécken</translation>
+    </message>
+    <message>
+        <source>The edition is queued: the newsletter's cronjob sends it to the subscribers.</source>
+        <translation>D'Ausgab ass an der Schlaang: de Cronjob vum Newsletter schéckt se un d'Abonnenten.</translation>
+    </message>
+    <message>
+        <source>Send "%name" to the %n subscribers of "%list" now? This cannot be taken back here.</source>
+        <translation>„%name“ elo un déi %n Abonnente vu „%list“ schécken? Dat kann hei net zréckgeholl ginn.</translation>
+    </message>
+    <message>
+        <source>Newsletter</source>
+        <translation>Newsletter</translation>
+    </message>
+    <message>
+        <source>This edition is being sent.</source>
+        <translation>Dës Ausgab gëtt verschéckt.</translation>
+    </message>
+    <message>
+        <source>This edition was sent and is in the archive.</source>
+        <translation>Dës Ausgab gouf verschéckt an ass am Archiv.</translation>
+    </message>
+    <message>
+        <source>This edition waits for its approval. It can be sent when it is approved.</source>
+        <translation>Dës Ausgab waart op hir Fräigab. Si kann verschéckt ginn, wann se fräigeginn ass.</translation>
+    </message>
+    <message>
+        <source>This edition was rejected. Change it and ask for the approval again.</source>
+        <translation>Dës Ausgab gouf refuséiert. Ännert se a frot nach eng Kéier no der Fräigab.</translation>
+    </message>
+    <message>
+        <source>The list needs an approval before an edition is sent. Ask for the approval in the administration.</source>
+        <translation>D'Lëscht brauch eng Fräigab, ier eng Ausgab verschéckt gëtt. Frot an der Administratioun no der Fräigab.</translation>
+    </message>
+    <message>
+        <source>The list has no subscribers.</source>
+        <translation>D'Lëscht huet keng Abonnenten.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Postkëscht</translation>
     </message>

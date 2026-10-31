@@ -1044,6 +1044,214 @@
         <translation>ফর্ম</translation>
     </message>
     <message>
+        <source>There is no such newsletter list.</source>
+        <translation>এমন কোনো নিউজলেটার তালিকা নেই।</translation>
+    </message>
+    <message>
+        <source>The edition was made, but a workflow holds its publishing. Find it in the administration.</source>
+        <translation>সংস্করণটি তৈরি হয়েছে, কিন্তু একটি ওয়ার্কফ্লো এর প্রকাশ আটকে রেখেছে। প্রশাসনে এটি খুঁজুন।</translation>
+    </message>
+    <message>
+        <source>The edition was made, but the page could not be taken into it.</source>
+        <translation>সংস্করণটি তৈরি হয়েছে, কিন্তু পৃষ্ঠাটি এতে যোগ করা যায়নি।</translation>
+    </message>
+    <message>
+        <source>There is no such edition, or you may not read it.</source>
+        <translation>এমন কোনো সংস্করণ নেই, অথবা আপনি এটি পড়তে পারবেন না।</translation>
+    </message>
+    <message>
+        <source>This edition has no newsletter data.</source>
+        <translation>এই সংস্করণে কোনো নিউজলেটার ডেটা নেই।</translation>
+    </message>
+    <message>
+        <source>Some of the addresses are not valid.</source>
+        <translation>কিছু ঠিকানা বৈধ নয়।</translation>
+    </message>
+    <message>
+        <source>Give at least one address.</source>
+        <translation>অন্তত একটি ঠিকানা দিন।</translation>
+    </message>
+    <message>
+        <source>Too many addresses at once.</source>
+        <translation>একবারে অনেক বেশি ঠিকানা।</translation>
+    </message>
+    <message>
+        <source>The edition was changed in the meantime. Look at it again before you send it.</source>
+        <translation>এর মধ্যে সংস্করণটি পরিবর্তিত হয়েছে। পাঠানোর আগে আবার দেখে নিন।</translation>
+    </message>
+    <message>
+        <source>The send could not be made.</source>
+        <translation>পাঠানো সম্ভব হয়নি।</translation>
+    </message>
+    <message>
+        <source>Sending to the subscribers needs "Verify it's you", which is switched off here. Send it in the administration.</source>
+        <translation>গ্রাহকদের কাছে পাঠাতে "আপনিই কিনা যাচাই করুন" প্রয়োজন, যা এখানে বন্ধ। প্রশাসনে পাঠান।</translation>
+    </message>
+    <message>
+        <source>Please confirm it is you first.</source>
+        <translation>অনুগ্রহ করে প্রথমে নিশ্চিত করুন যে এটি আপনি।</translation>
+    </message>
+    <message>
+        <source>Editions with this page</source>
+        <translation>এই পৃষ্ঠাসহ সংস্করণ</translation>
+    </message>
+    <message>
+        <source>This page is in no edition yet.</source>
+        <translation>এই পৃষ্ঠাটি এখনো কোনো সংস্করণে নেই।</translation>
+    </message>
+    <message>
+        <source>Being sent</source>
+        <translation>পাঠানো হচ্ছে</translation>
+    </message>
+    <message>
+        <source>Sent, in the archive</source>
+        <translation>পাঠানো হয়েছে, আর্কাইভে</translation>
+    </message>
+    <message>
+        <source>Stopped</source>
+        <translation>থেমে গেছে</translation>
+    </message>
+    <message>
+        <source>%n subscribers</source>
+        <translation>%n জন গ্রাহক</translation>
+    </message>
+    <message>
+        <source>Make an edition from this page</source>
+        <translation>এই পৃষ্ঠা থেকে একটি সংস্করণ তৈরি করুন</translation>
+    </message>
+    <message>
+        <source>There is no newsletter list where you may make an edition.</source>
+        <translation>এমন কোনো নিউজলেটার তালিকা নেই যেখানে আপনি সংস্করণ তৈরি করতে পারেন।</translation>
+    </message>
+    <message>
+        <source>Make the edition</source>
+        <translation>সংস্করণ তৈরি করুন</translation>
+    </message>
+    <message>
+        <source>Newsletter list</source>
+        <translation>নিউজলেটার তালিকা</translation>
+    </message>
+    <message>
+        <source>Introduction (optional)</source>
+        <translation>ভূমিকা (ঐচ্ছিক)</translation>
+    </message>
+    <message>
+        <source>This page becomes the edition's article: its title, its intro and a link to it.</source>
+        <translation>এই পৃষ্ঠাটি সংস্করণের প্রবন্ধ হবে: এর শিরোনাম, ভূমিকা এবং এর একটি লিংক।</translation>
+    </message>
+    <message>
+        <source>The edition was made, with this page as its article.</source>
+        <translation>সংস্করণটি তৈরি হয়েছে, এই পৃষ্ঠাটি এর প্রবন্ধ।</translation>
+    </message>
+    <message>
+        <source>not asked for yet</source>
+        <translation>এখনো চাওয়া হয়নি</translation>
+    </message>
+    <message>
+        <source>waiting</source>
+        <translation>অপেক্ষমাণ</translation>
+    </message>
+    <message>
+        <source>approved</source>
+        <translation>অনুমোদিত</translation>
+    </message>
+    <message>
+        <source>rejected</source>
+        <translation>প্রত্যাখ্যাত</translation>
+    </message>
+    <message>
+        <source>Approval: %state</source>
+        <translation>অনুমোদন: %state</translation>
+    </message>
+    <message>
+        <source>waiting for the cronjob</source>
+        <translation>ক্রনজবের অপেক্ষায়</translation>
+    </message>
+    <message>
+        <source>queued</source>
+        <translation>সারিতে</translation>
+    </message>
+    <message>
+        <source>being sent</source>
+        <translation>পাঠানো হচ্ছে</translation>
+    </message>
+    <message>
+        <source>sent</source>
+        <translation>পাঠানো হয়েছে</translation>
+    </message>
+    <message>
+        <source>stopped</source>
+        <translation>থেমে গেছে</translation>
+    </message>
+    <message>
+        <source>Last send: %state, %time</source>
+        <translation>শেষ পাঠানো: %state, %time</translation>
+    </message>
+    <message>
+        <source>Send a test</source>
+        <translation>একটি পরীক্ষা পাঠান</translation>
+    </message>
+    <message>
+        <source>The test could not be sent.</source>
+        <translation>পরীক্ষাটি পাঠানো যায়নি।</translation>
+    </message>
+    <message>
+        <source>The test was sent to %list.</source>
+        <translation>পরীক্ষাটি %list-এ পাঠানো হয়েছে।</translation>
+    </message>
+    <message>
+        <source>Test addresses</source>
+        <translation>পরীক্ষার ঠিকানা</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers</source>
+        <translation>গ্রাহকদের কাছে পাঠান</translation>
+    </message>
+    <message>
+        <source>Send to the subscribers ...</source>
+        <translation>গ্রাহকদের কাছে পাঠান ...</translation>
+    </message>
+    <message>
+        <source>Send now</source>
+        <translation>এখনই পাঠান</translation>
+    </message>
+    <message>
+        <source>The edition is queued: the newsletter's cronjob sends it to the subscribers.</source>
+        <translation>সংস্করণটি সারিতে আছে: নিউজলেটারের ক্রনজব এটি গ্রাহকদের কাছে পাঠাবে।</translation>
+    </message>
+    <message>
+        <source>Send "%name" to the %n subscribers of "%list" now? This cannot be taken back here.</source>
+        <translation>"%name" এখনই "%list"-এর %n জন গ্রাহকের কাছে পাঠাবেন? এখানে এটি আর ফেরানো যাবে না।</translation>
+    </message>
+    <message>
+        <source>Newsletter</source>
+        <translation>নিউজলেটার</translation>
+    </message>
+    <message>
+        <source>This edition is being sent.</source>
+        <translation>এই সংস্করণটি পাঠানো হচ্ছে।</translation>
+    </message>
+    <message>
+        <source>This edition was sent and is in the archive.</source>
+        <translation>এই সংস্করণটি পাঠানো হয়েছে এবং আর্কাইভে আছে।</translation>
+    </message>
+    <message>
+        <source>This edition waits for its approval. It can be sent when it is approved.</source>
+        <translation>এই সংস্করণটি অনুমোদনের অপেক্ষায় আছে। অনুমোদিত হলে পাঠানো যাবে।</translation>
+    </message>
+    <message>
+        <source>This edition was rejected. Change it and ask for the approval again.</source>
+        <translation>এই সংস্করণটি প্রত্যাখ্যাত হয়েছে। এটি পরিবর্তন করে আবার অনুমোদন চান।</translation>
+    </message>
+    <message>
+        <source>The list needs an approval before an edition is sent. Ask for the approval in the administration.</source>
+        <translation>সংস্করণ পাঠানোর আগে তালিকার অনুমোদন প্রয়োজন। প্রশাসনে অনুমোদন চান।</translation>
+    </message>
+    <message>
+        <source>The list has no subscribers.</source>
+        <translation>তালিকায় কোনো গ্রাহক নেই।</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>ইনবক্স</translation>
     </message>
