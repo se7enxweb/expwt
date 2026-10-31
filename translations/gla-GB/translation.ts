@@ -136,10 +136,6 @@
         <translation>Deasaiche slàn</translation>
     </message>
     <message>
-        <source>Edit</source>
-        <translation>Deasaich</translation>
-    </message>
-    <message>
         <source>required</source>
         <translation>riatanach</translation>
     </message>
@@ -178,10 +174,6 @@
     <message>
         <source>Saving ...</source>
         <translation>’Ga shàbhaladh ...</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>Sguir dheth</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
@@ -234,6 +226,10 @@
     <message>
         <source>The draft is gone.</source>
         <translation>Chaidh an dreachd air falbh.</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>Deasaich</translation>
     </message>
     <message>
         <source>Click a text on the page to edit it. It is saved with the draft.</source>
@@ -354,6 +350,10 @@
     <message>
         <source>Add "%name" also below ...</source>
         <translation>Cuir “%name” cuideachd fo ...</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Sguir dheth</translation>
     </message>
     <message>
         <source>In: %name</source>

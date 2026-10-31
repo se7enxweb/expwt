@@ -136,10 +136,6 @@
         <translation>পূর্ণ সম্পাদক</translation>
     </message>
     <message>
-        <source>Edit</source>
-        <translation>সম্পাদনা করুন</translation>
-    </message>
-    <message>
         <source>required</source>
         <translation>আবশ্যক</translation>
     </message>
@@ -178,10 +174,6 @@
     <message>
         <source>Saving ...</source>
         <translation>সংরক্ষণ হচ্ছে ...</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>বাতিল করুন</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
@@ -234,6 +226,10 @@
     <message>
         <source>The draft is gone.</source>
         <translation>খসড়াটি মুছে গেছে।</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>সম্পাদনা করুন</translation>
     </message>
     <message>
         <source>Click a text on the page to edit it. It is saved with the draft.</source>
@@ -354,6 +350,10 @@
     <message>
         <source>Add "%name" also below ...</source>
         <translation>"%name" ...-এর নিচেও যোগ করুন</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>বাতিল করুন</translation>
     </message>
     <message>
         <source>In: %name</source>

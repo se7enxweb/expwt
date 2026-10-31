@@ -136,10 +136,6 @@
         <translation>Puni uređivač</translation>
     </message>
     <message>
-        <source>Edit</source>
-        <translation>Uredi</translation>
-    </message>
-    <message>
         <source>required</source>
         <translation>obavezno</translation>
     </message>
@@ -178,10 +174,6 @@
     <message>
         <source>Saving ...</source>
         <translation>Spremanje ...</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>Odustani</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
@@ -234,6 +226,10 @@
     <message>
         <source>The draft is gone.</source>
         <translation>Skica je uklonjena.</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>Uredi</translation>
     </message>
     <message>
         <source>Click a text on the page to edit it. It is saved with the draft.</source>
@@ -354,6 +350,10 @@
     <message>
         <source>Add "%name" also below ...</source>
         <translation>Dodaj „%name” i ispod ...</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Odustani</translation>
     </message>
     <message>
         <source>In: %name</source>

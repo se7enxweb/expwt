@@ -136,10 +136,6 @@
         <translation>Editor complet</translation>
     </message>
     <message>
-        <source>Edit</source>
-        <translation>Editați</translation>
-    </message>
-    <message>
         <source>required</source>
         <translation>obligatoriu</translation>
     </message>
@@ -178,10 +174,6 @@
     <message>
         <source>Saving ...</source>
         <translation>Se salvează ...</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>Anulați</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
@@ -234,6 +226,10 @@
     <message>
         <source>The draft is gone.</source>
         <translation>Ciorna a fost ștearsă.</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>Editați</translation>
     </message>
     <message>
         <source>Click a text on the page to edit it. It is saved with the draft.</source>
@@ -354,6 +350,10 @@
     <message>
         <source>Add "%name" also below ...</source>
         <translation>Adăugați „%name” și sub ...</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Anulați</translation>
     </message>
     <message>
         <source>In: %name</source>

@@ -136,10 +136,6 @@
         <translation>Ganzen Editor</translation>
     </message>
     <message>
-        <source>Edit</source>
-        <translation>Beaarbechten</translation>
-    </message>
-    <message>
         <source>required</source>
         <translation>obligatoresch</translation>
     </message>
@@ -178,10 +174,6 @@
     <message>
         <source>Saving ...</source>
         <translation>Gëtt gespäichert ...</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>Ofbriechen</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
@@ -234,6 +226,10 @@
     <message>
         <source>The draft is gone.</source>
         <translation>Den Entworf ass ewech.</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>Beaarbechten</translation>
     </message>
     <message>
         <source>Click a text on the page to edit it. It is saved with the draft.</source>
@@ -354,6 +350,10 @@
     <message>
         <source>Add "%name" also below ...</source>
         <translation>"%name" och derbäisetzen ënner ...</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Ofbriechen</translation>
     </message>
     <message>
         <source>In: %name</source>

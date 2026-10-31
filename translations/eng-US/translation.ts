@@ -136,10 +136,6 @@
         <translation>Full editor</translation>
     </message>
     <message>
-        <source>Edit</source>
-        <translation>Edit</translation>
-    </message>
-    <message>
         <source>required</source>
         <translation>required</translation>
     </message>
@@ -178,10 +174,6 @@
     <message>
         <source>Saving ...</source>
         <translation>Saving ...</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>Cancel</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
@@ -234,6 +226,10 @@
     <message>
         <source>The draft is gone.</source>
         <translation>The draft is gone.</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>Edit</translation>
     </message>
     <message>
         <source>Click a text on the page to edit it. It is saved with the draft.</source>
@@ -354,6 +350,10 @@
     <message>
         <source>Add "%name" also below ...</source>
         <translation>Add "%name" also below ...</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Cancel</translation>
     </message>
     <message>
         <source>In: %name</source>

@@ -136,10 +136,6 @@
         <translation>Муҳаррири пурра</translation>
     </message>
     <message>
-        <source>Edit</source>
-        <translation>Таҳрир кардан</translation>
-    </message>
-    <message>
         <source>required</source>
         <translation>ҳатмӣ</translation>
     </message>
@@ -178,10 +174,6 @@
     <message>
         <source>Saving ...</source>
         <translation>Захира шуда истодааст ...</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>Бекор кардан</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
@@ -234,6 +226,10 @@
     <message>
         <source>The draft is gone.</source>
         <translation>Сиёҳнавис партофта шуд.</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>Таҳрир кардан</translation>
     </message>
     <message>
         <source>Click a text on the page to edit it. It is saved with the draft.</source>
@@ -354,6 +350,10 @@
     <message>
         <source>Add "%name" also below ...</source>
         <translation>"%name"-ро инчунин дар зери ... илова кардан</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Бекор кардан</translation>
     </message>
     <message>
         <source>In: %name</source>

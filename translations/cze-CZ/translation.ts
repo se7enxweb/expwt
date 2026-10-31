@@ -136,10 +136,6 @@
         <translation>Plný editor</translation>
     </message>
     <message>
-        <source>Edit</source>
-        <translation>Upravit</translation>
-    </message>
-    <message>
         <source>required</source>
         <translation>povinné</translation>
     </message>
@@ -178,10 +174,6 @@
     <message>
         <source>Saving ...</source>
         <translation>Ukládání ...</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>Zrušit</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
@@ -234,6 +226,10 @@
     <message>
         <source>The draft is gone.</source>
         <translation>Koncept je pryč.</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>Upravit</translation>
     </message>
     <message>
         <source>Click a text on the page to edit it. It is saved with the draft.</source>
@@ -354,6 +350,10 @@
     <message>
         <source>Add "%name" also below ...</source>
         <translation>Přidat „%name“ také pod ...</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Zrušit</translation>
     </message>
     <message>
         <source>In: %name</source>

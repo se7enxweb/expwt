@@ -136,10 +136,6 @@
         <translation>Fullständig redigerare</translation>
     </message>
     <message>
-        <source>Edit</source>
-        <translation>Redigera</translation>
-    </message>
-    <message>
         <source>required</source>
         <translation>obligatoriskt</translation>
     </message>
@@ -178,10 +174,6 @@
     <message>
         <source>Saving ...</source>
         <translation>Sparar ...</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>Avbryt</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
@@ -234,6 +226,10 @@
     <message>
         <source>The draft is gone.</source>
         <translation>Utkastet är borta.</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>Redigera</translation>
     </message>
     <message>
         <source>Click a text on the page to edit it. It is saved with the draft.</source>
@@ -354,6 +350,10 @@
     <message>
         <source>Add "%name" also below ...</source>
         <translation>Lägg även till "%name" under ...</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Avbryt</translation>
     </message>
     <message>
         <source>In: %name</source>

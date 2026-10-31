@@ -136,10 +136,6 @@
         <translation>កម្មវិធីកែសម្រួលពេញលេញ</translation>
     </message>
     <message>
-        <source>Edit</source>
-        <translation>កែសម្រួល</translation>
-    </message>
-    <message>
         <source>required</source>
         <translation>ត្រូវការ</translation>
     </message>
@@ -178,10 +174,6 @@
     <message>
         <source>Saving ...</source>
         <translation>កំពុងរក្សាទុក ...</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>បោះបង់</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
@@ -234,6 +226,10 @@
     <message>
         <source>The draft is gone.</source>
         <translation>សេចក្តីព្រាងត្រូវបានលុប។</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>កែសម្រួល</translation>
     </message>
     <message>
         <source>Click a text on the page to edit it. It is saved with the draft.</source>
@@ -354,6 +350,10 @@
     <message>
         <source>Add "%name" also below ...</source>
         <translation>បន្ថែម "%name" នៅក្រោម ... ផងដែរ</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>បោះបង់</translation>
     </message>
     <message>
         <source>In: %name</source>

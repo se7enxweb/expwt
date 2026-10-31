@@ -136,10 +136,6 @@
         <translation>Golygydd llawn</translation>
     </message>
     <message>
-        <source>Edit</source>
-        <translation>Golygu</translation>
-    </message>
-    <message>
         <source>required</source>
         <translation>gofynnol</translation>
     </message>
@@ -178,10 +174,6 @@
     <message>
         <source>Saving ...</source>
         <translation>Wrthi'n cadw ...</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>Canslo</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
@@ -234,6 +226,10 @@
     <message>
         <source>The draft is gone.</source>
         <translation>Mae'r drafft wedi mynd.</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>Golygu</translation>
     </message>
     <message>
         <source>Click a text on the page to edit it. It is saved with the draft.</source>
@@ -354,6 +350,10 @@
     <message>
         <source>Add "%name" also below ...</source>
         <translation>Ychwanegu "%name" o dan ... hefyd</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Canslo</translation>
     </message>
     <message>
         <source>In: %name</source>

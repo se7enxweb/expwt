@@ -136,10 +136,6 @@
         <translation>Asitrɔɖoƒe blibo</translation>
     </message>
     <message>
-        <source>Edit</source>
-        <translation>Trɔ asi le eŋu</translation>
-    </message>
-    <message>
         <source>required</source>
         <translation>ehiã</translation>
     </message>
@@ -178,10 +174,6 @@
     <message>
         <source>Saving ...</source>
         <translation>Ele dzadzram ɖo ...</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>Ɖe asi le eŋu</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
@@ -234,6 +226,10 @@
     <message>
         <source>The draft is gone.</source>
         <translation>Ŋɔŋlɔ gbãtɔ la megali o.</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>Trɔ asi le eŋu</translation>
     </message>
     <message>
         <source>Click a text on the page to edit it. It is saved with the draft.</source>
@@ -354,6 +350,10 @@
     <message>
         <source>Add "%name" also below ...</source>
         <translation>Tsɔ “%name” kpee hã le ... te</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Ɖe asi le eŋu</translation>
     </message>
     <message>
         <source>In: %name</source>

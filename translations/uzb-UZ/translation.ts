@@ -136,10 +136,6 @@
         <translation>Toʻliq muharrir</translation>
     </message>
     <message>
-        <source>Edit</source>
-        <translation>Tahrirlash</translation>
-    </message>
-    <message>
         <source>required</source>
         <translation>majburiy</translation>
     </message>
@@ -178,10 +174,6 @@
     <message>
         <source>Saving ...</source>
         <translation>Saqlanmoqda ...</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>Bekor qilish</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
@@ -234,6 +226,10 @@
     <message>
         <source>The draft is gone.</source>
         <translation>Qoralama oʻchirildi.</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>Tahrirlash</translation>
     </message>
     <message>
         <source>Click a text on the page to edit it. It is saved with the draft.</source>
@@ -354,6 +350,10 @@
     <message>
         <source>Add "%name" also below ...</source>
         <translation>"%name" ni yana quyidagi ostiga qoʻshish ...</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Bekor qilish</translation>
     </message>
     <message>
         <source>In: %name</source>

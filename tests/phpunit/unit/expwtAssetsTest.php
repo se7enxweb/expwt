@@ -115,7 +115,9 @@ class expwtAssetsTest extends PHPUnit\Framework\TestCase
         $panels = file_get_contents( self::ext() . '/design/standard/javascript/expwt-panels.js' );
         $this->assertStringContainsString( "text.indexOf('exp-field ') === 0", $panels, 'F20: the kernel\'s <!--exp-field ...--> comments' );
         $this->assertStringContainsString( 'return els.length ? els : findByValue(f);', $panels, 'by value where there are no markers' );
-        $this->assertStringContainsString( 'openEditor(f, rows[f.identifier], btn)', $panels, 'a marked rich text opens its own editor' );
+        $this->assertStringContainsString( 'focusField(f);', $panels, 'a marked rich text goes to its own editor' );
+        $this->assertStringContainsString( "new IntersectionObserver", $panels, 'F32: every field open in its editor, loaded as it comes into view' );
+        $this->assertStringNotContainsString( "text: t('Edit'),", $panels, 'F32: no Edit button per field' );
     }
 
     public function testTheFrameAndItsBrowseHaveNoSiteAroundThem()

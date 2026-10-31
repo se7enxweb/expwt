@@ -136,10 +136,6 @@
         <translation>Täielik redaktor</translation>
     </message>
     <message>
-        <source>Edit</source>
-        <translation>Redigeeri</translation>
-    </message>
-    <message>
         <source>required</source>
         <translation>kohustuslik</translation>
     </message>
@@ -178,10 +174,6 @@
     <message>
         <source>Saving ...</source>
         <translation>Salvestamine ...</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>Loobu</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
@@ -234,6 +226,10 @@
     <message>
         <source>The draft is gone.</source>
         <translation>Mustand on kustutatud.</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>Redigeeri</translation>
     </message>
     <message>
         <source>Click a text on the page to edit it. It is saved with the draft.</source>
@@ -354,6 +350,10 @@
     <message>
         <source>Add "%name" also below ...</source>
         <translation>Lisa „%name“ ka alla ...</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Loobu</translation>
     </message>
     <message>
         <source>In: %name</source>

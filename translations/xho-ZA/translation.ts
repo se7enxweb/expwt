@@ -136,10 +136,6 @@
         <translation>Umhleli opheleleyo</translation>
     </message>
     <message>
-        <source>Edit</source>
-        <translation>Hlela</translation>
-    </message>
-    <message>
         <source>required</source>
         <translation>kunyanzelekile</translation>
     </message>
@@ -178,10 +174,6 @@
     <message>
         <source>Saving ...</source>
         <translation>Iyagcina ...</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>Rhoxisa</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
@@ -234,6 +226,10 @@
     <message>
         <source>The draft is gone.</source>
         <translation>Uyilo alusekho.</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>Hlela</translation>
     </message>
     <message>
         <source>Click a text on the page to edit it. It is saved with the draft.</source>
@@ -354,6 +350,10 @@
     <message>
         <source>Add "%name" also below ...</source>
         <translation>Yongeza "%name" nangaphantsi ko ...</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Rhoxisa</translation>
     </message>
     <message>
         <source>In: %name</source>

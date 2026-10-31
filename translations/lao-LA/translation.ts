@@ -136,10 +136,6 @@
         <translation>ຕົວແກ້ໄຂເຕັມ</translation>
     </message>
     <message>
-        <source>Edit</source>
-        <translation>ແກ້ໄຂ</translation>
-    </message>
-    <message>
         <source>required</source>
         <translation>ຈຳເປັນ</translation>
     </message>
@@ -178,10 +174,6 @@
     <message>
         <source>Saving ...</source>
         <translation>ກຳລັງບັນທຶກ...</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>ຍົກເລີກ</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
@@ -234,6 +226,10 @@
     <message>
         <source>The draft is gone.</source>
         <translation>ສະບັບຮ່າງຖືກລຶບແລ້ວ.</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>ແກ້ໄຂ</translation>
     </message>
     <message>
         <source>Click a text on the page to edit it. It is saved with the draft.</source>
@@ -354,6 +350,10 @@
     <message>
         <source>Add "%name" also below ...</source>
         <translation>ເພີ່ມ "%name" ໄວ້ລຸ່ມ...</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>ຍົກເລີກ</translation>
     </message>
     <message>
         <source>In: %name</source>

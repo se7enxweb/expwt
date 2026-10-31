@@ -136,10 +136,6 @@
         <translation>සම්පූර්ණ සංස්කාරකය</translation>
     </message>
     <message>
-        <source>Edit</source>
-        <translation>සංස්කරණය</translation>
-    </message>
-    <message>
         <source>required</source>
         <translation>අවශ්‍යයි</translation>
     </message>
@@ -178,10 +174,6 @@
     <message>
         <source>Saving ...</source>
         <translation>සුරකිමින් ...</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>අවලංගු කරන්න</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
@@ -234,6 +226,10 @@
     <message>
         <source>The draft is gone.</source>
         <translation>කෙටුම්පත ඉවත් විය.</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>සංස්කරණය</translation>
     </message>
     <message>
         <source>Click a text on the page to edit it. It is saved with the draft.</source>
@@ -354,6 +350,10 @@
     <message>
         <source>Add "%name" also below ...</source>
         <translation>"%name" පහළින්ද එක් කරන්න ...</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>අවලංගු කරන්න</translation>
     </message>
     <message>
         <source>In: %name</source>

@@ -136,10 +136,6 @@
         <translation>Editor a ɛyɛ mã</translation>
     </message>
     <message>
-        <source>Edit</source>
-        <translation>Sesa</translation>
-    </message>
-    <message>
         <source>required</source>
         <translation>ɛho hia</translation>
     </message>
@@ -178,10 +174,6 @@
     <message>
         <source>Saving ...</source>
         <translation>Ɛrekora ...</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>Gyae</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
@@ -234,6 +226,10 @@
     <message>
         <source>The draft is gone.</source>
         <translation>Draft no afi hɔ.</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>Sesa</translation>
     </message>
     <message>
         <source>Click a text on the page to edit it. It is saved with the draft.</source>
@@ -354,6 +350,10 @@
     <message>
         <source>Add "%name" also below ...</source>
         <translation>Fa "%name" ka ho nso wɔ ... ase</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Gyae</translation>
     </message>
     <message>
         <source>In: %name</source>

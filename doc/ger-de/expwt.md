@@ -129,12 +129,16 @@ ein Feld in der Textform seiner Speicherung.
 | ezimage, ezbinaryfile, ezmedia | das Hochladen und die Felder des Datentyps (Alternativtext ...) |
 | xrowmetadata, ezgmaplocation, ezmatrix, alle anderen | die eigene Bearbeitungsvorlage des Datentyps |
 
-Die Felder der zweiten Hälfte öffnen ihren Editor mit **Bearbeiten**: links und rechts unter dem Feld, oben und unten
-über der Leiste (die dafür höher wird). Der Editor ist die Ansicht `expwt/field/<Objekt>/<Version>/<Sprache>/<Feld>`
-in einem Rahmen: das `{attribute_edit_gui}` des Kernels für dieses Feld des Entwurfs des Benutzers, gespeichert mit
-denselben Schritten wie content/edit (Prüfung, die Eingabe des Datentyps, seine eigenen Aktionen, der Name des
-Objekts). Gespeichert wird also, was die Administration für dieselbe Eingabe speichert. Ein Editor nimmt den neuesten
-Entwurf des Benutzers in der Sprache oder legt einen an, wie „Bearbeiten" in der Administration.
+Jedes Feld der zweiten Hälfte ist offen in seinem Editor, sobald der Bereich „Seite" aufgeht, bereit zum Tippen (F32):
+keine Schaltfläche „Bearbeiten", jeder Editor wird geladen, wenn er sichtbar wird. Der Editor ist die Ansicht
+`expwt/field/<Objekt>/<Version>/<Sprache>/<Feld>` in einem Rahmen, so hoch wie sein Inhalt: das `{attribute_edit_gui}`
+des Kernels für dieses Feld, gespeichert mit denselben Schritten wie content/edit (Prüfung, die Eingabe des
+Datentyps, seine eigenen Aktionen, der Name des Objekts). Gespeichert wird also, was die Administration für dieselbe
+Eingabe speichert. Er zeigt den neuesten Entwurf des Benutzers in der Sprache, oder die veröffentlichte Seite, solange
+es keinen gibt; das eine **Entwurf speichern** und **Veröffentlichen** des Bereichs speichert jeden Editor der Reihe
+nach (das erste Speichern legt den Entwurf an, ein unveränderter Editor sendet nichts), dann die Felder des
+Formulars. Nichts im Bereich scrollt seitwärts: der Inhalt eines Editors bricht in seiner Breite um (Bilder werden
+kleiner, Tabellen und Code scrollen in ihrem eigenen Kasten, lange Wörter werden getrennt).
 
 Der Rahmen des Editors sieht aus wie die Seitenleiste (ihre admin4-Tokens und Schaltflächen, in ihrem hellen oder
 dunklen Modus); die eigene Zeile der Seitenleiste hat Entwurf speichern und Veröffentlichen dafür, und die Optionen des

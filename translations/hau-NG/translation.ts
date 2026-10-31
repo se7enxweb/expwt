@@ -136,10 +136,6 @@
         <translation>Cikakken edita</translation>
     </message>
     <message>
-        <source>Edit</source>
-        <translation>Gyara</translation>
-    </message>
-    <message>
         <source>required</source>
         <translation>ana buƙata</translation>
     </message>
@@ -178,10 +174,6 @@
     <message>
         <source>Saving ...</source>
         <translation>Ana ajiyewa ...</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>Soke</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
@@ -234,6 +226,10 @@
     <message>
         <source>The draft is gone.</source>
         <translation>Daftarin ya tafi.</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>Gyara</translation>
     </message>
     <message>
         <source>Click a text on the page to edit it. It is saved with the draft.</source>
@@ -354,6 +350,10 @@
     <message>
         <source>Add "%name" also below ...</source>
         <translation>Ƙara “%name” kuma a ƙarƙashin ...</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Soke</translation>
     </message>
     <message>
         <source>In: %name</source>

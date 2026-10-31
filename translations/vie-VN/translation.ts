@@ -136,10 +136,6 @@
         <translation>Trình soạn thảo đầy đủ</translation>
     </message>
     <message>
-        <source>Edit</source>
-        <translation>Sửa</translation>
-    </message>
-    <message>
         <source>required</source>
         <translation>bắt buộc</translation>
     </message>
@@ -178,10 +174,6 @@
     <message>
         <source>Saving ...</source>
         <translation>Đang lưu ...</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>Hủy</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
@@ -234,6 +226,10 @@
     <message>
         <source>The draft is gone.</source>
         <translation>Bản nháp đã bị xóa.</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>Sửa</translation>
     </message>
     <message>
         <source>Click a text on the page to edit it. It is saved with the draft.</source>
@@ -354,6 +350,10 @@
     <message>
         <source>Add "%name" also below ...</source>
         <translation>Thêm "%name" cả bên dưới ...</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Hủy</translation>
     </message>
     <message>
         <source>In: %name</source>

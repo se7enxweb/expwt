@@ -136,10 +136,6 @@
         <translation>ตัวแก้ไขเต็มรูปแบบ</translation>
     </message>
     <message>
-        <source>Edit</source>
-        <translation>แก้ไข</translation>
-    </message>
-    <message>
         <source>required</source>
         <translation>จำเป็น</translation>
     </message>
@@ -178,10 +174,6 @@
     <message>
         <source>Saving ...</source>
         <translation>กำลังบันทึก ...</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>ยกเลิก</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
@@ -234,6 +226,10 @@
     <message>
         <source>The draft is gone.</source>
         <translation>ทิ้งฉบับร่างแล้ว</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>แก้ไข</translation>
     </message>
     <message>
         <source>Click a text on the page to edit it. It is saved with the draft.</source>
@@ -354,6 +350,10 @@
     <message>
         <source>Add "%name" also below ...</source>
         <translation>เพิ่ม "%name" ไว้ใต้ ... ด้วย</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>ยกเลิก</translation>
     </message>
     <message>
         <source>In: %name</source>

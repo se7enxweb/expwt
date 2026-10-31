@@ -136,10 +136,6 @@
         <translation>ਪੂਰਾ ਸੰਪਾਦਕ</translation>
     </message>
     <message>
-        <source>Edit</source>
-        <translation>ਸੋਧੋ</translation>
-    </message>
-    <message>
         <source>required</source>
         <translation>ਲੋੜੀਂਦਾ</translation>
     </message>
@@ -178,10 +174,6 @@
     <message>
         <source>Saving ...</source>
         <translation>ਸੰਭਾਲਿਆ ਜਾ ਰਿਹਾ ਹੈ ...</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>ਰੱਦ ਕਰੋ</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
@@ -234,6 +226,10 @@
     <message>
         <source>The draft is gone.</source>
         <translation>ਖਰੜਾ ਹਟਾ ਦਿੱਤਾ ਗਿਆ।</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>ਸੋਧੋ</translation>
     </message>
     <message>
         <source>Click a text on the page to edit it. It is saved with the draft.</source>
@@ -354,6 +350,10 @@
     <message>
         <source>Add "%name" also below ...</source>
         <translation>"%name" ਨੂੰ ਹੇਠਾਂ ਵੀ ਜੋੜੋ ...</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>ਰੱਦ ਕਰੋ</translation>
     </message>
     <message>
         <source>In: %name</source>

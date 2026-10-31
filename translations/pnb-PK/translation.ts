@@ -136,10 +136,6 @@
         <translation>پورا ایڈیٹر</translation>
     </message>
     <message>
-        <source>Edit</source>
-        <translation>سودھو</translation>
-    </message>
-    <message>
         <source>required</source>
         <translation>لازمی</translation>
     </message>
@@ -178,10 +174,6 @@
     <message>
         <source>Saving ...</source>
         <translation>محفوظ ہو رہیا اے ...</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>رد کرو</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
@@ -234,6 +226,10 @@
     <message>
         <source>The draft is gone.</source>
         <translation>مسودہ ہٹ گیا۔</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>سودھو</translation>
     </message>
     <message>
         <source>Click a text on the page to edit it. It is saved with the draft.</source>
@@ -354,6 +350,10 @@
     <message>
         <source>Add "%name" also below ...</source>
         <translation>"%name" نوں تھلے وی جوڑو ...</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>رد کرو</translation>
     </message>
     <message>
         <source>In: %name</source>

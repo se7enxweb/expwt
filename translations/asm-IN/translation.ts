@@ -136,10 +136,6 @@
         <translation>সম্পূৰ্ণ সম্পাদক</translation>
     </message>
     <message>
-        <source>Edit</source>
-        <translation>সম্পাদনা কৰক</translation>
-    </message>
-    <message>
         <source>required</source>
         <translation>প্ৰয়োজনীয়</translation>
     </message>
@@ -178,10 +174,6 @@
     <message>
         <source>Saving ...</source>
         <translation>ছেভ হৈ আছে ...</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>বাতিল কৰক</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
@@ -234,6 +226,10 @@
     <message>
         <source>The draft is gone.</source>
         <translation>খচৰাটো নাইকিয়া হ'ল।</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>সম্পাদনা কৰক</translation>
     </message>
     <message>
         <source>Click a text on the page to edit it. It is saved with the draft.</source>
@@ -354,6 +350,10 @@
     <message>
         <source>Add "%name" also below ...</source>
         <translation>"%name" ...-ৰ তলতো যোগ কৰক</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>বাতিল কৰক</translation>
     </message>
     <message>
         <source>In: %name</source>

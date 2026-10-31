@@ -136,10 +136,6 @@
         <translation>Binndirde timmunde</translation>
     </message>
     <message>
-        <source>Edit</source>
-        <translation>Waylu</translation>
-    </message>
-    <message>
         <source>required</source>
         <translation>ɗaminaa</translation>
     </message>
@@ -178,10 +174,6 @@
     <message>
         <source>Saving ...</source>
         <translation>Ina moofta ...</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>Haaytu</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
@@ -234,6 +226,10 @@
     <message>
         <source>The draft is gone.</source>
         <translation>Daartol ngol majjii.</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>Waylu</translation>
     </message>
     <message>
         <source>Click a text on the page to edit it. It is saved with the draft.</source>
@@ -354,6 +350,10 @@
     <message>
         <source>Add "%name" also below ...</source>
         <translation>Ɓeydu “%name” kadi les ...</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Haaytu</translation>
     </message>
     <message>
         <source>In: %name</source>

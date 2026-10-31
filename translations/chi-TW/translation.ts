@@ -136,10 +136,6 @@
         <translation>完整編輯器</translation>
     </message>
     <message>
-        <source>Edit</source>
-        <translation>編輯</translation>
-    </message>
-    <message>
         <source>required</source>
         <translation>必填</translation>
     </message>
@@ -178,10 +174,6 @@
     <message>
         <source>Saving ...</source>
         <translation>儲存中 ...</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>取消</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
@@ -234,6 +226,10 @@
     <message>
         <source>The draft is gone.</source>
         <translation>草稿已刪除。</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>編輯</translation>
     </message>
     <message>
         <source>Click a text on the page to edit it. It is saved with the draft.</source>
@@ -354,6 +350,10 @@
     <message>
         <source>Add "%name" also below ...</source>
         <translation>將「%name」也新增到 ... 下</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>取消</translation>
     </message>
     <message>
         <source>In: %name</source>

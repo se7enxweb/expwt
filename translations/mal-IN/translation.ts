@@ -136,10 +136,6 @@
         <translation>പൂർണ്ണ എഡിറ്റർ</translation>
     </message>
     <message>
-        <source>Edit</source>
-        <translation>എഡിറ്റ് ചെയ്യുക</translation>
-    </message>
-    <message>
         <source>required</source>
         <translation>ആവശ്യമാണ്</translation>
     </message>
@@ -178,10 +174,6 @@
     <message>
         <source>Saving ...</source>
         <translation>സംരക്ഷിക്കുന്നു ...</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>റദ്ദാക്കുക</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
@@ -234,6 +226,10 @@
     <message>
         <source>The draft is gone.</source>
         <translation>ഡ്രാഫ്റ്റ് നീക്കം ചെയ്തു.</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>എഡിറ്റ് ചെയ്യുക</translation>
     </message>
     <message>
         <source>Click a text on the page to edit it. It is saved with the draft.</source>
@@ -354,6 +350,10 @@
     <message>
         <source>Add "%name" also below ...</source>
         <translation>"%name" ഇതിന് താഴെയും ചേർക്കുക ...</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>റദ്ദാക്കുക</translation>
     </message>
     <message>
         <source>In: %name</source>

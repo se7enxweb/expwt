@@ -136,10 +136,6 @@
         <translation>Połny editor</translation>
     </message>
     <message>
-        <source>Edit</source>
-        <translation>Wobźěłaś</translation>
-    </message>
-    <message>
         <source>required</source>
         <translation>trěbne</translation>
     </message>
@@ -178,10 +174,6 @@
     <message>
         <source>Saving ...</source>
         <translation>Składujo se ...</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>Pśetergnuś</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
@@ -234,6 +226,10 @@
     <message>
         <source>The draft is gone.</source>
         <translation>Nacerjenje jo pryč.</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>Wobźěłaś</translation>
     </message>
     <message>
         <source>Click a text on the page to edit it. It is saved with the draft.</source>
@@ -354,6 +350,10 @@
     <message>
         <source>Add "%name" also below ...</source>
         <translation>„%name“ teke pód ... pśidaś</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Pśetergnuś</translation>
     </message>
     <message>
         <source>In: %name</source>

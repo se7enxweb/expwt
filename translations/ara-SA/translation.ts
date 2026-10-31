@@ -136,10 +136,6 @@
         <translation>المحرر الكامل</translation>
     </message>
     <message>
-        <source>Edit</source>
-        <translation>تحرير</translation>
-    </message>
-    <message>
         <source>required</source>
         <translation>مطلوب</translation>
     </message>
@@ -178,10 +174,6 @@
     <message>
         <source>Saving ...</source>
         <translation>جارٍ الحفظ ...</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>إلغاء</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
@@ -234,6 +226,10 @@
     <message>
         <source>The draft is gone.</source>
         <translation>أُزيلت المسودة.</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>تحرير</translation>
     </message>
     <message>
         <source>Click a text on the page to edit it. It is saved with the draft.</source>
@@ -354,6 +350,10 @@
     <message>
         <source>Add "%name" also below ...</source>
         <translation>إضافة "%name" أيضًا أسفل ...</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>إلغاء</translation>
     </message>
     <message>
         <source>In: %name</source>

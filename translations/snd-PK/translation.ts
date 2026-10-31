@@ -136,10 +136,6 @@
         <translation>مڪمل ايڊيٽر</translation>
     </message>
     <message>
-        <source>Edit</source>
-        <translation>تبديل ڪريو</translation>
-    </message>
-    <message>
         <source>required</source>
         <translation>لازمي</translation>
     </message>
@@ -178,10 +174,6 @@
     <message>
         <source>Saving ...</source>
         <translation>محفوظ ٿي رهيو آهي ...</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>رد ڪريو</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
@@ -234,6 +226,10 @@
     <message>
         <source>The draft is gone.</source>
         <translation>مسودو هٽايو ويو.</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>تبديل ڪريو</translation>
     </message>
     <message>
         <source>Click a text on the page to edit it. It is saved with the draft.</source>
@@ -354,6 +350,10 @@
     <message>
         <source>Add "%name" also below ...</source>
         <translation>"%name" کي هيٺان به شامل ڪريو ...</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>رد ڪريو</translation>
     </message>
     <message>
         <source>In: %name</source>

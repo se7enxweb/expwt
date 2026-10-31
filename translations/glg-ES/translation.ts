@@ -136,10 +136,6 @@
         <translation>Editor completo</translation>
     </message>
     <message>
-        <source>Edit</source>
-        <translation>Editar</translation>
-    </message>
-    <message>
         <source>required</source>
         <translation>obrigatorio</translation>
     </message>
@@ -178,10 +174,6 @@
     <message>
         <source>Saving ...</source>
         <translation>Gardando ...</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>Cancelar</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
@@ -234,6 +226,10 @@
     <message>
         <source>The draft is gone.</source>
         <translation>O borrador xa non está.</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>Editar</translation>
     </message>
     <message>
         <source>Click a text on the page to edit it. It is saved with the draft.</source>
@@ -354,6 +350,10 @@
     <message>
         <source>Add "%name" also below ...</source>
         <translation>Engadir «%name» tamén debaixo de ...</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Cancelar</translation>
     </message>
     <message>
         <source>In: %name</source>

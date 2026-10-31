@@ -136,10 +136,6 @@
         <translation>פֿולער רעדאַקטאָר</translation>
     </message>
     <message>
-        <source>Edit</source>
-        <translation>רעדאַגירן</translation>
-    </message>
-    <message>
         <source>required</source>
         <translation>נייטיק</translation>
     </message>
@@ -178,10 +174,6 @@
     <message>
         <source>Saving ...</source>
         <translation>היט אָפּ ...</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>אַנולירן</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
@@ -234,6 +226,10 @@
     <message>
         <source>The draft is gone.</source>
         <translation>דער שׂרטוט איז אַוועק.</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>רעדאַגירן</translation>
     </message>
     <message>
         <source>Click a text on the page to edit it. It is saved with the draft.</source>
@@ -354,6 +350,10 @@
     <message>
         <source>Add "%name" also below ...</source>
         <translation>צולייגן "%name" אויך אונטער ...</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>אַנולירן</translation>
     </message>
     <message>
         <source>In: %name</source>

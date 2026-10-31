@@ -136,10 +136,6 @@
         <translation>Eagarthóir iomlán</translation>
     </message>
     <message>
-        <source>Edit</source>
-        <translation>Cuir in eagar</translation>
-    </message>
-    <message>
         <source>required</source>
         <translation>riachtanach</translation>
     </message>
@@ -178,10 +174,6 @@
     <message>
         <source>Saving ...</source>
         <translation>Á shábháil ...</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>Cealaigh</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
@@ -234,6 +226,10 @@
     <message>
         <source>The draft is gone.</source>
         <translation>Tá an dréacht imithe.</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>Cuir in eagar</translation>
     </message>
     <message>
         <source>Click a text on the page to edit it. It is saved with the draft.</source>
@@ -354,6 +350,10 @@
     <message>
         <source>Add "%name" also below ...</source>
         <translation>Cuir “%name” faoi ... freisin</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Cealaigh</translation>
     </message>
     <message>
         <source>In: %name</source>

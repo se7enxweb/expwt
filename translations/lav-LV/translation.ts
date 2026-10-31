@@ -136,10 +136,6 @@
         <translation>Pilnais redaktors</translation>
     </message>
     <message>
-        <source>Edit</source>
-        <translation>Rediģēt</translation>
-    </message>
-    <message>
         <source>required</source>
         <translation>obligāts</translation>
     </message>
@@ -178,10 +174,6 @@
     <message>
         <source>Saving ...</source>
         <translation>Saglabā...</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>Atcelt</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
@@ -234,6 +226,10 @@
     <message>
         <source>The draft is gone.</source>
         <translation>Melnraksts ir dzēsts.</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>Rediģēt</translation>
     </message>
     <message>
         <source>Click a text on the page to edit it. It is saved with the draft.</source>
@@ -354,6 +350,10 @@
     <message>
         <source>Add "%name" also below ...</source>
         <translation>Pievienot "%name" arī zem...</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Atcelt</translation>
     </message>
     <message>
         <source>In: %name</source>

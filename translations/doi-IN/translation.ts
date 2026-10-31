@@ -136,10 +136,6 @@
         <translation>पूरा संपादक</translation>
     </message>
     <message>
-        <source>Edit</source>
-        <translation>संपादन करो</translation>
-    </message>
-    <message>
         <source>required</source>
         <translation>जरूरी</translation>
     </message>
@@ -178,10 +174,6 @@
     <message>
         <source>Saving ...</source>
         <translation>सेव होआ करदा ऐ ...</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>रद्द करो</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
@@ -234,6 +226,10 @@
     <message>
         <source>The draft is gone.</source>
         <translation>मसौदा चली गेआ।</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>संपादन करो</translation>
     </message>
     <message>
         <source>Click a text on the page to edit it. It is saved with the draft.</source>
@@ -354,6 +350,10 @@
     <message>
         <source>Add "%name" also below ...</source>
         <translation>"%name" गी ... दे हेठ बी जोड़ो</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>रद्द करो</translation>
     </message>
     <message>
         <source>In: %name</source>

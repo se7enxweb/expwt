@@ -136,10 +136,6 @@
         <translation>முழு திருத்தி</translation>
     </message>
     <message>
-        <source>Edit</source>
-        <translation>திருத்து</translation>
-    </message>
-    <message>
         <source>required</source>
         <translation>தேவை</translation>
     </message>
@@ -178,10 +174,6 @@
     <message>
         <source>Saving ...</source>
         <translation>சேமிக்கிறது ...</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>ரத்துசெய்</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
@@ -234,6 +226,10 @@
     <message>
         <source>The draft is gone.</source>
         <translation>வரைவு நீக்கப்பட்டது.</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>திருத்து</translation>
     </message>
     <message>
         <source>Click a text on the page to edit it. It is saved with the draft.</source>
@@ -354,6 +350,10 @@
     <message>
         <source>Add "%name" also below ...</source>
         <translation>"%name" ஐ இதன் கீழும் சேர் ...</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>ரத்துசெய்</translation>
     </message>
     <message>
         <source>In: %name</source>

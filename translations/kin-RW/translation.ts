@@ -136,10 +136,6 @@
         <translation>Muhinduzi wuzuye</translation>
     </message>
     <message>
-        <source>Edit</source>
-        <translation>Guhindura</translation>
-    </message>
-    <message>
         <source>required</source>
         <translation>birakenewe</translation>
     </message>
@@ -178,10 +174,6 @@
     <message>
         <source>Saving ...</source>
         <translation>Birimo kubikwa ...</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>Kureka</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
@@ -234,6 +226,10 @@
     <message>
         <source>The draft is gone.</source>
         <translation>Umushinga wavuyeho.</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>Guhindura</translation>
     </message>
     <message>
         <source>Click a text on the page to edit it. It is saved with the draft.</source>
@@ -354,6 +350,10 @@
     <message>
         <source>Add "%name" also below ...</source>
         <translation>Ongeraho "%name" no munsi ya ...</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Kureka</translation>
     </message>
     <message>
         <source>In: %name</source>

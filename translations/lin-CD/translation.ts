@@ -136,10 +136,6 @@
         <translation>Editeur mobimba</translation>
     </message>
     <message>
-        <source>Edit</source>
-        <translation>Bongisá</translation>
-    </message>
-    <message>
         <source>required</source>
         <translation>esengeli</translation>
     </message>
@@ -178,10 +174,6 @@
     <message>
         <source>Saving ...</source>
         <translation>Ezali kobómbama...</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>Tiká</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
@@ -234,6 +226,10 @@
     <message>
         <source>The draft is gone.</source>
         <translation>Brouillon elongwi.</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>Bongisá</translation>
     </message>
     <message>
         <source>Click a text on the page to edit it. It is saved with the draft.</source>
@@ -354,6 +350,10 @@
     <message>
         <source>Add "%name" also below ...</source>
         <translation>Bakisá "%name" lisusu na nse ya...</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Tiká</translation>
     </message>
     <message>
         <source>In: %name</source>

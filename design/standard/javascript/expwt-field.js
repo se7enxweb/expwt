@@ -70,9 +70,68 @@
     }
   }
 
+  /* What the form would send: a save of a field nobody changed is left out (no draft made for nothing) */
+  function snapshot() {
+    if (!form || !window.FormData) { return null; }
+    if (window.tinymce && window.tinymce.triggerSave) { window.tinymce.triggerSave(); }
+    var parts = [];
+    new FormData(form).forEach(function (v, k) {
+      if (k === 'ezxform_token') { return; }
+      parts.push(k + '=' + (typeof v === 'string' ? v : (v.name || '') + ':' + (v.size || 0)));
+    });
+    return parts.join('&');
+  }
+  var initial = null;
+  /* typed into (an editor that writes its form field only when the form is sent, such as Tiptap): changed */
+  var touched = false;
+  document.addEventListener("input", function () { touched = true; }, true);
+
+  /* the rich text editors of the frame: TinyMCE 3 lists them in tinymce.editors, TinyMCE 6 and later in tinymce.get() */
+  function editors() {
+    var t = window.tinymce;
+    if (!t) { return []; }
+    if (t.editors && typeof t.editors === 'object') {
+      var list = Array.isArray(t.editors) ? t.editors : Object.keys(t.editors).map(function (k) { return t.editors[k]; });
+      list = list.filter(function (ed, i) { return ed && ed.id && list.indexOf(ed) === i; });
+      if (list.length) { return list; }
+    }
+    var all = t.get ? t.get() : null;
+    return Array.isArray(all) ? all : [];
+  }
+
+  /* the rich text editors (TinyMCE) started: their content keeps to the frame's width (expwt-field-content.css in
+     their own document), and what they hold now counts as unchanged */
+  function settle() {
+    var tries = 0;
+    (function wait() {
+      var eds = editors();
+      var ready = !window.tinymce || (eds.length && eds.every(function (ed) { return ed.initialized; }));
+      if (!ready && tries++ < 60) { setTimeout(wait, 100); return; }
+      var css = document.documentElement.getAttribute('data-expwt-content-css');
+      eds.forEach(function (ed) { if (css && ed.dom && ed.dom.loadCSS) { ed.dom.loadCSS(css); } });
+      setTimeout(function () { initial = snapshot(); size(); }, 300);
+    }());
+  }
+
+  /* the frame's height, for the sidebar to give the frame (its height attribute) */
+  var sizing = false;
+  function size() {
+    if (sizing || !message) { return; }
+    sizing = true;
+    window.requestAnimationFrame(function () {
+      sizing = false;
+      post({ expwt: 'field-size', identifier: message.identifier, objectId: message.objectId,
+             height: Math.ceil(document.documentElement.scrollHeight) });
+    });
+  }
+
   function save() {
     var b = form && form.querySelector('[name=StoreButton]');
     if (!b) { return; }
+    if (initial !== null && !touched && snapshot() === initial) {
+      post({ expwt: 'field-unchanged', identifier: message && message.identifier, objectId: message && message.objectId });
+      return;
+    }
     /* the rich text editors write their text into the form's textarea on submit */
     if (window.tinymce && window.tinymce.triggerSave) { window.tinymce.triggerSave(); }
     if (form.requestSubmit) { form.requestSubmit(b); } else { b.click(); }
@@ -96,7 +155,34 @@
     }
   });
 
+  /* eztags (its plain JavaScript editor in the frame, override.ini): a field with the frame's tag tree is built with
+     eztags' Tree builder, so a tag chosen in the tree is added; set before eztags builds its fields */
+  Array.prototype.forEach.call(document.querySelectorAll('.eztags-wrapper'), function (w) {
+    var field = w.querySelector('[data-eztags]');
+    if (field && w.querySelector('.ez-tags-tree-selector')) { field.setAttribute('data-builder', 'Tree'); }
+  });
+
+  /* what an edit template adds later (eztags' chips, its suggestions, its dialogs): the same look */
+  function later(root) {
+    style(root);
+    Array.prototype.forEach.call(root.querySelectorAll('.js-tags-remove'), function (a) {
+      a.classList.add('a4-chip-remove');
+      a.setAttribute('role', 'button');
+    });
+  }
+  if (window.MutationObserver && form) {
+    var pending = false;
+    new MutationObserver(function () {
+      if (pending) { return; }
+      pending = true;
+      window.requestAnimationFrame(function () { pending = false; later(document); });
+    }).observe(document.body, { childList: true, subtree: true });
+  }
+
   style(document);
+  later(document);
   menu();
   if (message) { post(message); }
+  if (document.readyState === 'complete') { settle(); } else { window.addEventListener('load', settle); }
+  if (window.ResizeObserver) { new ResizeObserver(size).observe(document.body); }
 }());

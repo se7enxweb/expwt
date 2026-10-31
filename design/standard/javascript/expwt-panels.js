@@ -129,19 +129,17 @@
     var form = h('form', { class: 'wt-section wt-fields', novalidate: true, onsubmit: function (e) { e.preventDefault(); save(); } });
     var order = [];
     var others = [];
+    var frames = {};
     p.fields.forEach(function (f) {
       if (f.embed) {
-        /* rich text, tags, relations, images and every other datatype: what the field shows now, and its own editor
-           (expwt/field: the configured rich text editor, the tag picker ...) on Edit; never a text form of its storage */
-        var preview = h('div', { class: 'wt-preview' });
-        drawPreview(preview, f);
-        var editBtn = h('button', { type: 'button', class: 'wt-btn', 'aria-expanded': 'false', text: t('Edit'),
-          'aria-label': t('Edit') + ': ' + f.name, onclick: function () { openEditor(f, embedRow, editBtn); } });
+        /* rich text, tags, relations, images and every other datatype: open in its own editor (expwt/field in a frame:
+           the configured rich text editor, the tag picker ...), ready to type (F32), loaded when it comes into view */
+        var holder = h('div', { class: 'wt-editor-inline' });
         var embedRow = h('div', { class: 'wt-field is-embed' + (f.input === 'richtext' ? ' is-wide' : ''), 'data-field': f.identifier,
           role: 'group', 'aria-label': f.name }, [
-          h('span', { text: f.name + (f.required ? ' (' + t('required') + ')' : '') }), preview, h('div', { class: 'wt-row' }, [editBtn])
+          h('span', { text: f.name + (f.required ? ' (' + t('required') + ')' : '') }), holder
         ]);
-        embedRow.expwtPreview = preview;
+        frames[f.identifier] = { field: f, row: embedRow, holder: holder, frame: null, ready: false, waiter: null, onReady: null };
         rows[f.identifier] = embedRow;
         order.push(embedRow);
         form.appendChild(embedRow);
@@ -224,7 +222,13 @@
     root.expwtArrange = arrange;
     root.addEventListener('expwt-orient', arrange);
 
-    var saveBtn = h('button', { type: 'button', class: 'wt-btn', text: t('Save draft'), onclick: function () { saveFrame().then(function () { return Object.keys(dirtyFields()).length ? save() : null; }).catch(function () {}); } });
+    var saveBtn = h('button', { type: 'button', class: 'wt-btn', text: t('Save draft'), onclick: function () {
+      saveFrames().then(function (savedSome) {
+        if (Object.keys(dirtyFields()).length) { return save(); }
+        if (!savedSome) { ctx.say(t('Nothing to save.')); }
+        return null;
+      }).catch(function () {});
+    } });
     var publishBtn = h('button', { type: 'button', class: 'wt-btn is-primary', text: t('Publish'), onclick: function () { publish(); } });
     var discardBtn = h('button', { type: 'button', class: 'wt-btn is-danger', text: t('Discard draft'), onclick: function () { discard(); } });
     var mainActions = h('div', { class: 'wt-row wt-primary' }, [saveBtn, publishBtn, discardBtn]);
@@ -232,117 +236,122 @@
     if (root.getAttribute('data-panel') === 'page') { ctx.primary(mainActions); }
     discardBtn.hidden = !version;
 
-    /* A field's own editor in a frame (expwt/field). On left and right below the field; on top and bottom over the
-       bar's body, the bar made higher while it is open (and back after), its row of main actions still in view. The
-       frame's page tells which draft it edits (the same one: unsaved fields of the form are saved first) and, after
-       its Save draft, the field's new value. */
-    var editing = null;
-    var frameWaiter = null;
+    /* Every field that has an editor of its own is open in it (F32): a frame (expwt/field) per field, loaded when the
+       field comes into view. It shows the user's draft, or the published page while there is none; the panel's one
+       Save draft and Publish save each frame in turn (the first save makes the draft, the others go into it; a
+       frame nobody changed sends nothing), then the form's fields. The frames tell their draft, their height and,
+       after a save, the field's new value. */
+    function frameSrc(f) {
+      var fieldBase = String(ctx.boot.transport.rest || '').replace(/\/api$/, '/field');
+      return fieldBase + '/' + p.objectId + '/' + (version || 0) + '/' + encodeURIComponent(p.language) + '/' + encodeURIComponent(f.identifier)
+        + '?in=sidebar&theme=' + encodeURIComponent(ctx.host.getAttribute('data-theme') || '');
+    }
+    function load(entry) {
+      if (!entry || entry.frame) { return; }
+      entry.frame = h('iframe', { class: 'wt-frame', src: frameSrc(entry.field), title: entry.field.name, height: '160' });
+      entry.holder.appendChild(entry.frame);
+    }
+    var watcher = window.IntersectionObserver ? new IntersectionObserver(function (seen) {
+      seen.forEach(function (s) {
+        if (!s.isIntersecting) { return; }
+        load(frames[s.target.getAttribute('data-field')]);
+        watcher.unobserve(s.target);
+      });
+    }, { rootMargin: '200px 0px' }) : null;
+    Object.keys(frames).forEach(function (id) {
+      if (watcher) { watcher.observe(frames[id].row); } else { load(frames[id]); }
+    });
+
     /* a field's row in view in the panel, also when it is behind "More" on top and bottom */
     function reveal(row) {
       var more = row && row.closest('details');
       if (more) { more.open = true; }
       if (row) { row.scrollIntoView({ block: 'nearest' }); }
     }
-    /* The open field editor saves first (its own Save draft, asked by the sidebar's: the frame shows none), then the
-       sidebar goes on; a value the datatype refuses stays in the frame with its message, and the sidebar stops. */
-    function saveFrame() {
-      if (!editing || !editing.frame || !editing.frame.contentWindow) { return Promise.resolve(version); }
-      ctx.say(t('Saving ...'));
+    /* a field of the page clicked while editing on the page: its editor, in view, with the focus */
+    function focusField(f) {
+      var entry = frames[f.identifier];
+      if (!entry) { return; }
+      reveal(entry.row);
+      load(entry);
+      entry.frame.focus();
+    }
+    /* a file dropped on a field (an image on the page): its editor takes it and saves it to the draft */
+    function dropFile(f, file) {
+      var entry = frames[f.identifier];
+      if (!entry) { return; }
+      reveal(entry.row);
+      load(entry);
+      var send = function () { entry.frame.contentWindow.postMessage({ expwt: 'field-file', file: file }, window.location.origin); };
+      if (entry.ready) { send(); } else { entry.onReady = send; }
+    }
+
+    function saveOne(entry) {
       return new Promise(function (resolve, reject) {
-        frameWaiter = { resolve: resolve, reject: reject };
-        editing.frame.contentWindow.postMessage({ expwt: 'field-save' }, window.location.origin);
+        entry.waiter = { resolve: resolve, reject: reject };
+        entry.frame.contentWindow.postMessage({ expwt: 'field-save' }, window.location.origin);
+        setTimeout(function () { if (entry.waiter) { entry.waiter = null; reject(new Error('timeout')); } }, 30000);
       });
     }
-
-    /* A file dropped on a field (an image on the page): its editor takes it and saves it to the draft. */
-    function dropFile(f, row, btn, file) {
-      var send = function () {
-        editing.frame.contentWindow.postMessage({ expwt: 'field-file', file: file }, window.location.origin);
-      };
-      if (editing && editing.field === f && editing.ready) { send(); return; }
-      openEditor(f, row, btn, function () { send(); });
-    }
-
-    function openEditor(f, row, btn, onReady) {
-      if (editing) {
-        var same = editing.field === f;
-        closeEditor();
-        if (same) { return; }
-      }
-      var first = Object.keys(dirtyFields()).length ? save() : Promise.resolve(version);
-      first.then(function (v) {
-        var fieldBase = String(ctx.boot.transport.rest || '').replace(/\/api$/, '/field');
-        var src = fieldBase + '/' + p.objectId + '/' + (v || 0) + '/' + encodeURIComponent(p.language) + '/' + encodeURIComponent(f.identifier)
-          + '?in=sidebar&theme=' + encodeURIComponent(ctx.host.getAttribute('data-theme') || '');
-        var frame = h('iframe', { class: 'wt-frame', src: src, title: f.name });
-        var pane;
-        if (ctx.horizontal() && root.clientWidth >= 640) {
-          pane = h('div', { class: 'wt-editor-pane', role: 'group', 'aria-label': f.name }, [
-            h('div', { class: 'wt-editor-head' }, [
-              h('strong', { text: f.name }),
-              h('button', { type: 'button', class: 'wt-btn', text: t('Cancel'), onclick: function () { closeEditor(); btn.focus(); } })
-            ]),
-            frame
-          ]);
-          root.appendChild(pane);
-          var before = ctx.host.state.height;
-          ctx.host.setState({ height: Math.max(before, 520) }, true);
-          editing = { field: f, pane: pane, btn: btn, height: before, frame: frame, onReady: onReady };
-        } else {
-          pane = h('div', { class: 'wt-editor-inline' }, [frame]);
-          row.appendChild(pane);
-          editing = { field: f, pane: pane, btn: btn, height: null, frame: frame, onReady: onReady };
-        }
-        btn.setAttribute('aria-expanded', 'true');
-        frame.focus();
-      }).catch(function () {});
-    }
-
-    function closeEditor() {
-      if (!editing) { return; }
-      editing.pane.remove();
-      editing.btn.setAttribute('aria-expanded', 'false');
-      if (editing.height !== null) { ctx.host.setState({ height: editing.height }, true); }
-      editing = null;
+    /* each loaded frame in turn; true when one of them saved something */
+    function saveFrames() {
+      var list = Object.keys(frames).map(function (id) { return frames[id]; }).filter(function (e) { return e.frame && e.ready; });
+      var savedSome = false;
+      var chain = Promise.resolve();
+      if (list.length) { ctx.say(t('Saving ...')); }
+      list.forEach(function (e) {
+        chain = chain.then(function () { return saveOne(e); }).then(function (saved) { savedSome = savedSome || saved; });
+      });
+      return chain.then(function () { return savedSome; });
     }
 
     function fromField(e) {
       var m = e.detail || {};
       if (m.objectId !== p.objectId) { return; }
+      var entry = frames[m.identifier];
+      if (m.expwt === 'field-size') {
+        if (entry && entry.frame) {
+          entry.frame.setAttribute('height', String(Math.max(80, Math.min(4000, parseInt(m.height, 10) || 160))));
+          if (ctx.horizontal()) { clearTimeout(entry.fit); entry.fit = setTimeout(arrange, 200); }
+        }
+        return;
+      }
       if (m.version && m.version !== version) {
         version = m.version;
         discardBtn.hidden = false;
         drawChips();
       }
-      if (m.expwt === 'field-saved' && m.value) {
-        var f = p.fields.filter(function (x) { return x.identifier === m.identifier; })[0];
-        if (f) {
+      if (m.expwt === 'field-saved') {
+        var f = entry ? entry.field : null;
+        if (f && m.value) {
           f.value = m.value.value;
           f.names = m.value.names;
-          base[f.identifier] = values[f.identifier] = f.value;
-          if (rows[f.identifier] && rows[f.identifier].expwtPreview) { drawPreview(rows[f.identifier].expwtPreview, f); }
         }
+        if (entry) { entry.ready = true; }
         ctx.say(t('The draft is saved.'), 'ok');
-        if (frameWaiter) { frameWaiter.resolve(version); frameWaiter = null; }
+        if (entry && entry.waiter) { entry.waiter.resolve(true); entry.waiter = null; }
+      } else if (m.expwt === 'field-unchanged') {
+        if (entry && entry.waiter) { entry.waiter.resolve(false); entry.waiter = null; }
       } else if (m.expwt === 'field-ready') {
-        if (editing && editing.field && editing.field.identifier === m.identifier) {
-          editing.ready = true;
-          if (editing.onReady) { var go = editing.onReady; editing.onReady = null; go(); }
+        if (entry) {
+          entry.ready = true;
+          if (entry.onReady) { var go = entry.onReady; entry.onReady = null; go(); }
         }
-        if (frameWaiter && m.invalid) {
+        if (entry && entry.waiter && m.invalid) {
           ctx.say(t('This value does not fit the field.'), 'bad');
-          frameWaiter.reject(new Error('invalid'));
-          frameWaiter = null;
+          reveal(entry.row);
+          entry.waiter.reject(new Error('invalid'));
+          entry.waiter = null;
         }
-      } else if (m.expwt === 'field-file-refused' && frameWaiter) {
-        frameWaiter.reject(new Error('file'));
-        frameWaiter = null;
+      } else if (m.expwt === 'field-file-refused' && entry && entry.waiter) {
+        entry.waiter.reject(new Error('file'));
+        entry.waiter = null;
       }
     }
     if (root.expwtField) { root.removeEventListener('expwt-field', root.expwtField); }
     root.expwtField = fromField;
     root.addEventListener('expwt-field', fromField);
+
 
     function dirtyFields() {
       var out = {};
@@ -420,7 +429,7 @@
     }
 
     function publish() {
-      var first = saveFrame().then(function () { return Object.keys(dirtyFields()).length ? save() : version; });
+      var first = saveFrames().then(function () { return Object.keys(dirtyFields()).length ? save() : version; });
       first.then(function (v) {
         if (!v) {
           ctx.say(t('Change something first: there is no draft to publish.'));
@@ -525,8 +534,7 @@
             el.expwtInput = function (e) {
               if (e.type === 'keydown' && e.key !== 'Enter' && e.key !== ' ') { return; }
               e.preventDefault();
-              var btn = rows[f.identifier].querySelector('.wt-row button');
-              if (!editing || editing.field !== f) { openEditor(f, rows[f.identifier], btn); }
+              focusField(f);
               reveal(rows[f.identifier]);
             };
             el.addEventListener('click', el.expwtInput);
@@ -542,7 +550,7 @@
                 var file = e.dataTransfer && e.dataTransfer.files[0];
                 if (!file || !/^image\//.test(file.type)) { return; }
                 e.preventDefault();
-                dropFile(f, rows[f.identifier], rows[f.identifier].querySelector('.wt-row button'), file);
+                dropFile(f, file);
               };
               el.addEventListener('dragover', el.expwtDrag);
               el.addEventListener('dragleave', el.expwtDrag);

@@ -136,10 +136,6 @@
         <translation>Tam redaktor</translation>
     </message>
     <message>
-        <source>Edit</source>
-        <translation>Redaktə et</translation>
-    </message>
-    <message>
         <source>required</source>
         <translation>tələb olunur</translation>
     </message>
@@ -178,10 +174,6 @@
     <message>
         <source>Saving ...</source>
         <translation>Saxlanılır ...</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>Ləğv et</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
@@ -234,6 +226,10 @@
     <message>
         <source>The draft is gone.</source>
         <translation>Qaralama silindi.</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>Redaktə et</translation>
     </message>
     <message>
         <source>Click a text on the page to edit it. It is saved with the draft.</source>
@@ -354,6 +350,10 @@
     <message>
         <source>Add "%name" also below ...</source>
         <translation>"%name" həm də bunun altına əlavə et: ...</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Ləğv et</translation>
     </message>
     <message>
         <source>In: %name</source>

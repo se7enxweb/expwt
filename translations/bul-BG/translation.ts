@@ -136,10 +136,6 @@
         <translation>Пълен редактор</translation>
     </message>
     <message>
-        <source>Edit</source>
-        <translation>Редактирай</translation>
-    </message>
-    <message>
         <source>required</source>
         <translation>задължително</translation>
     </message>
@@ -178,10 +174,6 @@
     <message>
         <source>Saving ...</source>
         <translation>Запазване ...</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>Отказ</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
@@ -234,6 +226,10 @@
     <message>
         <source>The draft is gone.</source>
         <translation>Черновата я няма.</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>Редактирай</translation>
     </message>
     <message>
         <source>Click a text on the page to edit it. It is saved with the draft.</source>
@@ -354,6 +350,10 @@
     <message>
         <source>Add "%name" also below ...</source>
         <translation>Добави „%name“ и под ...</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Отказ</translation>
     </message>
     <message>
         <source>In: %name</source>

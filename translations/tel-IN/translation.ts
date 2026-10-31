@@ -136,10 +136,6 @@
         <translation>పూర్తి ఎడిటర్</translation>
     </message>
     <message>
-        <source>Edit</source>
-        <translation>సవరించండి</translation>
-    </message>
-    <message>
         <source>required</source>
         <translation>అవసరం</translation>
     </message>
@@ -178,10 +174,6 @@
     <message>
         <source>Saving ...</source>
         <translation>సేవ్ అవుతోంది ...</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>రద్దు చేయండి</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
@@ -234,6 +226,10 @@
     <message>
         <source>The draft is gone.</source>
         <translation>డ్రాఫ్ట్ తొలగించబడింది.</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>సవరించండి</translation>
     </message>
     <message>
         <source>Click a text on the page to edit it. It is saved with the draft.</source>
@@ -354,6 +350,10 @@
     <message>
         <source>Add "%name" also below ...</source>
         <translation>"%name" ను దీని కింద కూడా జోడించండి ...</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>రద్దు చేయండి</translation>
     </message>
     <message>
         <source>In: %name</source>

@@ -136,10 +136,6 @@
         <translation>پوٗرٕ ایڈیٹر</translation>
     </message>
     <message>
-        <source>Edit</source>
-        <translation>تَرمیم کٔرِو</translation>
-    </message>
-    <message>
         <source>required</source>
         <translation>ضروٗری</translation>
     </message>
@@ -178,10 +174,6 @@
     <message>
         <source>Saving ...</source>
         <translation>محفوظ گژھان ...</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>منسوٗخ کٔرِو</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
@@ -234,6 +226,10 @@
     <message>
         <source>The draft is gone.</source>
         <translation>مَسوٗدہٕ گۄو۔</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>تَرمیم کٔرِو</translation>
     </message>
     <message>
         <source>Click a text on the page to edit it. It is saved with the draft.</source>
@@ -354,6 +350,10 @@
     <message>
         <source>Add "%name" also below ...</source>
         <translation>"%name" تہِ ژارِو اَمہِ تَل ...</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>منسوٗخ کٔرِو</translation>
     </message>
     <message>
         <source>In: %name</source>

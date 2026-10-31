@@ -136,10 +136,6 @@
         <translation>مکمل ایڈیٹر</translation>
     </message>
     <message>
-        <source>Edit</source>
-        <translation>ترمیم</translation>
-    </message>
-    <message>
         <source>required</source>
         <translation>لازمی</translation>
     </message>
@@ -178,10 +174,6 @@
     <message>
         <source>Saving ...</source>
         <translation>محفوظ ہو رہا ہے ...</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>منسوخ کریں</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
@@ -234,6 +226,10 @@
     <message>
         <source>The draft is gone.</source>
         <translation>مسودہ حذف ہو گیا۔</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>ترمیم</translation>
     </message>
     <message>
         <source>Click a text on the page to edit it. It is saved with the draft.</source>
@@ -354,6 +350,10 @@
     <message>
         <source>Add "%name" also below ...</source>
         <translation>"%name" کو اس کے نیچے بھی شامل کریں ...</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>منسوخ کریں</translation>
     </message>
     <message>
         <source>In: %name</source>

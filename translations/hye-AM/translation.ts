@@ -136,10 +136,6 @@
         <translation>Լիարժեք խմբագրիչ</translation>
     </message>
     <message>
-        <source>Edit</source>
-        <translation>Խմբագրել</translation>
-    </message>
-    <message>
         <source>required</source>
         <translation>պարտադիր</translation>
     </message>
@@ -178,10 +174,6 @@
     <message>
         <source>Saving ...</source>
         <translation>Պահպանվում է ...</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>Չեղարկել</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
@@ -234,6 +226,10 @@
     <message>
         <source>The draft is gone.</source>
         <translation>Սևագիրը ջնջված է։</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>Խմբագրել</translation>
     </message>
     <message>
         <source>Click a text on the page to edit it. It is saved with the draft.</source>
@@ -354,6 +350,10 @@
     <message>
         <source>Add "%name" also below ...</source>
         <translation>Ավելացնել «%name»-ը նաև ... տակ</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Չեղարկել</translation>
     </message>
     <message>
         <source>In: %name</source>

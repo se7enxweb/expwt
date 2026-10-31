@@ -136,10 +136,6 @@
         <translation>पूर्णसम्पादकः</translation>
     </message>
     <message>
-        <source>Edit</source>
-        <translation>सम्पादनम्</translation>
-    </message>
-    <message>
         <source>required</source>
         <translation>आवश्यकम्</translation>
     </message>
@@ -178,10 +174,6 @@
     <message>
         <source>Saving ...</source>
         <translation>संरक्ष्यते ...</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>निरस्यतु</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
@@ -234,6 +226,10 @@
     <message>
         <source>The draft is gone.</source>
         <translation>प्रारूपम् अपगतम्।</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>सम्पादनम्</translation>
     </message>
     <message>
         <source>Click a text on the page to edit it. It is saved with the draft.</source>
@@ -354,6 +350,10 @@
     <message>
         <source>Add "%name" also below ...</source>
         <translation>"%name" अधः अपि योजयतु ...</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>निरस्यतु</translation>
     </message>
     <message>
         <source>In: %name</source>

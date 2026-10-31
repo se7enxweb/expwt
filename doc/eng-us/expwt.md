@@ -122,12 +122,14 @@ the text form of its storage.
 | ezimage, ezbinaryfile, ezmedia | the upload and the fields of the datatype (alternative text ...) |
 | xrowmetadata, ezgmaplocation, ezmatrix, any other | the datatype's own edit template |
 
-The fields of the second half open their editor with **Edit**: below the field on the left and right, over the bar
-(made higher while it is open) on top and bottom. The editor is the view `expwt/field/<object>/<version>/<language>/
-<field>` in a frame: the kernel's `{attribute_edit_gui}` for that field of the user's draft, saved with the same steps
-as content/edit (validation, the datatype's input, its custom actions, the object's name), so what is stored is what
-the administration stores for the same input. Opening an editor uses the user's newest draft in the language, or makes
-one, as the administration's Edit does.
+Every field of the second half is open in its editor when the Page panel opens, ready to type (F32): no Edit button,
+each editor loaded as it comes into view. The editor is the view `expwt/field/<object>/<version>/<language>/<field>`
+in a frame as high as its content: the kernel's `{attribute_edit_gui}` for that field, saved with the same steps as
+content/edit (validation, the datatype's input, its custom actions, the object's name), so what is stored is what the
+administration stores for the same input. It shows the user's newest draft in the language, or the published page
+while there is none; the panel's one **Save draft** and **Publish** save each editor in turn (the first save makes the
+draft, an editor nobody changed sends nothing), then the form's fields. Nothing in the panel scrolls sideways: the
+content of an editor wraps to its width (images scale down, tables and code scroll in their own box, long words break).
 
 The editor's frame looks like the sidebar (its admin4 tokens and buttons, in the sidebar's light or dark mode); the
 sidebar's own row has Save draft and Publish for it, and the rich text editor's options that are no main action

@@ -136,10 +136,6 @@
         <translation>Teljes szerkesztő</translation>
     </message>
     <message>
-        <source>Edit</source>
-        <translation>Szerkesztés</translation>
-    </message>
-    <message>
         <source>required</source>
         <translation>kötelező</translation>
     </message>
@@ -178,10 +174,6 @@
     <message>
         <source>Saving ...</source>
         <translation>Mentés ...</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>Mégse</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
@@ -234,6 +226,10 @@
     <message>
         <source>The draft is gone.</source>
         <translation>A piszkozat törölve.</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>Szerkesztés</translation>
     </message>
     <message>
         <source>Click a text on the page to edit it. It is saved with the draft.</source>
@@ -354,6 +350,10 @@
     <message>
         <source>Add "%name" also below ...</source>
         <translation>„%name” hozzáadása ez alá is ...</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Mégse</translation>
     </message>
     <message>
         <source>In: %name</source>

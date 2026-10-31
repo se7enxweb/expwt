@@ -136,10 +136,6 @@
         <translation>Πλήρης επεξεργαστής</translation>
     </message>
     <message>
-        <source>Edit</source>
-        <translation>Επεξεργασία</translation>
-    </message>
-    <message>
         <source>required</source>
         <translation>υποχρεωτικό</translation>
     </message>
@@ -178,10 +174,6 @@
     <message>
         <source>Saving ...</source>
         <translation>Αποθήκευση ...</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>Ακύρωση</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
@@ -234,6 +226,10 @@
     <message>
         <source>The draft is gone.</source>
         <translation>Το προσχέδιο διαγράφηκε.</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>Επεξεργασία</translation>
     </message>
     <message>
         <source>Click a text on the page to edit it. It is saved with the draft.</source>
@@ -354,6 +350,10 @@
     <message>
         <source>Add "%name" also below ...</source>
         <translation>Προσθήκη του «%name» και κάτω από ...</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Ακύρωση</translation>
     </message>
     <message>
         <source>In: %name</source>

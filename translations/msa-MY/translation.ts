@@ -136,10 +136,6 @@
         <translation>Penyunting penuh</translation>
     </message>
     <message>
-        <source>Edit</source>
-        <translation>Sunting</translation>
-    </message>
-    <message>
         <source>required</source>
         <translation>wajib</translation>
     </message>
@@ -178,10 +174,6 @@
     <message>
         <source>Saving ...</source>
         <translation>Menyimpan ...</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>Batal</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
@@ -234,6 +226,10 @@
     <message>
         <source>The draft is gone.</source>
         <translation>Draf telah dibuang.</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>Sunting</translation>
     </message>
     <message>
         <source>Click a text on the page to edit it. It is saved with the draft.</source>
@@ -354,6 +350,10 @@
     <message>
         <source>Add "%name" also below ...</source>
         <translation>Tambah "%name" juga di bawah ...</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Batal</translation>
     </message>
     <message>
         <source>In: %name</source>

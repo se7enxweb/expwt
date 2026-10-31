@@ -136,10 +136,6 @@
         <translation>Ētita katoa</translation>
     </message>
     <message>
-        <source>Edit</source>
-        <translation>Whakatika</translation>
-    </message>
-    <message>
         <source>required</source>
         <translation>herenga</translation>
     </message>
@@ -178,10 +174,6 @@
     <message>
         <source>Saving ...</source>
         <translation>E tiaki ana ...</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>Whakakore</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
@@ -234,6 +226,10 @@
     <message>
         <source>The draft is gone.</source>
         <translation>Kua ngaro te tauira.</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>Whakatika</translation>
     </message>
     <message>
         <source>Click a text on the page to edit it. It is saved with the draft.</source>
@@ -354,6 +350,10 @@
     <message>
         <source>Add "%name" also below ...</source>
         <translation>Tāpiri "%name" ki raro anō i ...</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Whakakore</translation>
     </message>
     <message>
         <source>In: %name</source>

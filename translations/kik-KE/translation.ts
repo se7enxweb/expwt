@@ -136,10 +136,6 @@
         <translation>Mũcenjia wothe</translation>
     </message>
     <message>
-        <source>Edit</source>
-        <translation>Cenjia</translation>
-    </message>
-    <message>
         <source>required</source>
         <translation>nĩbataranĩtio</translation>
     </message>
@@ -178,10 +174,6 @@
     <message>
         <source>Saving ...</source>
         <translation>Nĩkũrĩ kũiga ...</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>Tiga</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
@@ -234,6 +226,10 @@
     <message>
         <source>The draft is gone.</source>
         <translation>Ndrafti nĩ yathira.</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>Cenjia</translation>
     </message>
     <message>
         <source>Click a text on the page to edit it. It is saved with the draft.</source>
@@ -354,6 +350,10 @@
     <message>
         <source>Add "%name" also below ...</source>
         <translation>Ongerera "%name" o na rungu rwa ...</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Tiga</translation>
     </message>
     <message>
         <source>In: %name</source>

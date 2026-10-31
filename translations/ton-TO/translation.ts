@@ -136,10 +136,6 @@
         <translation>Fakatonutonu kakato</translation>
     </message>
     <message>
-        <source>Edit</source>
-        <translation>Fakatonutonu</translation>
-    </message>
-    <message>
         <source>required</source>
         <translation>fiemaʻu</translation>
     </message>
@@ -178,10 +174,6 @@
     <message>
         <source>Saving ...</source>
         <translation>ʻOku tauhi ...</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>Kaniseli</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
@@ -234,6 +226,10 @@
     <message>
         <source>The draft is gone.</source>
         <translation>Kuo mole ʻa e tohi fakataimi.</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>Fakatonutonu</translation>
     </message>
     <message>
         <source>Click a text on the page to edit it. It is saved with the draft.</source>
@@ -354,6 +350,10 @@
     <message>
         <source>Add "%name" also below ...</source>
         <translation>Tānaki foki ʻa "%name" ʻi lalo ʻi ...</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Kaniseli</translation>
     </message>
     <message>
         <source>In: %name</source>

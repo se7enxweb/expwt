@@ -136,10 +136,6 @@
         <translation>Yɛlɛmanikɛlan dafalen</translation>
     </message>
     <message>
-        <source>Edit</source>
-        <translation>Yɛlɛma</translation>
-    </message>
-    <message>
         <source>required</source>
         <translation>wajibi</translation>
     </message>
@@ -178,10 +174,6 @@
     <message>
         <source>Saving ...</source>
         <translation>A bɛ mara ...</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>Dabila</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
@@ -234,6 +226,10 @@
     <message>
         <source>The draft is gone.</source>
         <translation>Bruyɔn tununa.</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>Yɛlɛma</translation>
     </message>
     <message>
         <source>Click a text on the page to edit it. It is saved with the draft.</source>
@@ -354,6 +350,10 @@
     <message>
         <source>Add "%name" also below ...</source>
         <translation>"%name" fara ... jukɔrɔ fana</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Dabila</translation>
     </message>
     <message>
         <source>In: %name</source>

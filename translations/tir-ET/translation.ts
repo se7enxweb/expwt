@@ -136,10 +136,6 @@
         <translation>ምሉእ መእረሚ</translation>
     </message>
     <message>
-        <source>Edit</source>
-        <translation>ኣርትዕ</translation>
-    </message>
-    <message>
         <source>required</source>
         <translation>ግዴታ</translation>
     </message>
@@ -178,10 +174,6 @@
     <message>
         <source>Saving ...</source>
         <translation>ይቕመጥ ኣሎ ...</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>ሰርዝ</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
@@ -234,6 +226,10 @@
     <message>
         <source>The draft is gone.</source>
         <translation>እቲ ንድፊ ተደርብዩ።</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>ኣርትዕ</translation>
     </message>
     <message>
         <source>Click a text on the page to edit it. It is saved with the draft.</source>
@@ -354,6 +350,10 @@
     <message>
         <source>Add "%name" also below ...</source>
         <translation>"%name" ትሕቲ ... እውን ወስኽ</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>ሰርዝ</translation>
     </message>
     <message>
         <source>In: %name</source>

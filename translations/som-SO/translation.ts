@@ -136,10 +136,6 @@
         <translation>Tafatiraha buuxa</translation>
     </message>
     <message>
-        <source>Edit</source>
-        <translation>Tafatir</translation>
-    </message>
-    <message>
         <source>required</source>
         <translation>khasab</translation>
     </message>
@@ -178,10 +174,6 @@
     <message>
         <source>Saving ...</source>
         <translation>Waa la keydinayaa ...</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>Jooji</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
@@ -234,6 +226,10 @@
     <message>
         <source>The draft is gone.</source>
         <translation>Qabyadii waa la tuuray.</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>Tafatir</translation>
     </message>
     <message>
         <source>Click a text on the page to edit it. It is saved with the draft.</source>
@@ -354,6 +350,10 @@
     <message>
         <source>Add "%name" also below ...</source>
         <translation>Ku dar "%name" sidoo kale hoosta ...</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Jooji</translation>
     </message>
     <message>
         <source>In: %name</source>

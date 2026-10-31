@@ -136,10 +136,6 @@
         <translation>ಪೂರ್ಣ ಸಂಪಾದಕ</translation>
     </message>
     <message>
-        <source>Edit</source>
-        <translation>ಸಂಪಾದಿಸು</translation>
-    </message>
-    <message>
         <source>required</source>
         <translation>ಅಗತ್ಯ</translation>
     </message>
@@ -178,10 +174,6 @@
     <message>
         <source>Saving ...</source>
         <translation>ಉಳಿಸಲಾಗುತ್ತಿದೆ ...</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>ರದ್ದುಮಾಡು</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
@@ -234,6 +226,10 @@
     <message>
         <source>The draft is gone.</source>
         <translation>ಕರಡನ್ನು ತ್ಯಜಿಸಲಾಗಿದೆ.</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>ಸಂಪಾದಿಸು</translation>
     </message>
     <message>
         <source>Click a text on the page to edit it. It is saved with the draft.</source>
@@ -354,6 +350,10 @@
     <message>
         <source>Add "%name" also below ...</source>
         <translation>"%name" ಅನ್ನು ಇದರ ಕೆಳಗೂ ಸೇರಿಸು ...</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>ರದ್ದುಮಾಡು</translation>
     </message>
     <message>
         <source>In: %name</source>

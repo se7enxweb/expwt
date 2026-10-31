@@ -136,10 +136,6 @@
         <translation>Mea hoʻoponopono piha</translation>
     </message>
     <message>
-        <source>Edit</source>
-        <translation>Hoʻoponopono</translation>
-    </message>
-    <message>
         <source>required</source>
         <translation>koi ʻia</translation>
     </message>
@@ -178,10 +174,6 @@
     <message>
         <source>Saving ...</source>
         <translation>Ke mālama nei ...</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>Kāpae</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
@@ -234,6 +226,10 @@
     <message>
         <source>The draft is gone.</source>
         <translation>Ua hala ke kāmua.</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>Hoʻoponopono</translation>
     </message>
     <message>
         <source>Click a text on the page to edit it. It is saved with the draft.</source>
@@ -354,6 +350,10 @@
     <message>
         <source>Add "%name" also below ...</source>
         <translation>Hoʻohui iā “%name” ma lalo o ... kekahi</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Kāpae</translation>
     </message>
     <message>
         <source>In: %name</source>

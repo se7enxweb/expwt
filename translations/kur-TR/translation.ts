@@ -136,10 +136,6 @@
         <translation>Edîtora tevahî</translation>
     </message>
     <message>
-        <source>Edit</source>
-        <translation>Sererast bike</translation>
-    </message>
-    <message>
         <source>required</source>
         <translation>pêwîst</translation>
     </message>
@@ -178,10 +174,6 @@
     <message>
         <source>Saving ...</source>
         <translation>Tê tomarkirin...</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>Betal</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
@@ -234,6 +226,10 @@
     <message>
         <source>The draft is gone.</source>
         <translation>Reşnivîs çû.</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>Sererast bike</translation>
     </message>
     <message>
         <source>Click a text on the page to edit it. It is saved with the draft.</source>
@@ -354,6 +350,10 @@
     <message>
         <source>Add "%name" also below ...</source>
         <translation>"%name" her wiha di bin vê de zêde bike...</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Betal</translation>
     </message>
     <message>
         <source>In: %name</source>

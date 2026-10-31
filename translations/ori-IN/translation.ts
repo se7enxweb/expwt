@@ -136,10 +136,6 @@
         <translation>ସମ୍ପୂର୍ଣ୍ଣ ସମ୍ପାଦକ</translation>
     </message>
     <message>
-        <source>Edit</source>
-        <translation>ସମ୍ପାଦନ</translation>
-    </message>
-    <message>
         <source>required</source>
         <translation>ଆବଶ୍ୟକ</translation>
     </message>
@@ -178,10 +174,6 @@
     <message>
         <source>Saving ...</source>
         <translation>ସଞ୍ଚୟ ହେଉଛି ...</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>ବାତିଲ୍</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
@@ -234,6 +226,10 @@
     <message>
         <source>The draft is gone.</source>
         <translation>ଖସଡ଼ା ଚାଲିଗଲା।</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>ସମ୍ପାଦନ</translation>
     </message>
     <message>
         <source>Click a text on the page to edit it. It is saved with the draft.</source>
@@ -354,6 +350,10 @@
     <message>
         <source>Add "%name" also below ...</source>
         <translation>"%name" କୁ ତଳେ ମଧ୍ୟ ଯୋଡ଼ନ୍ତୁ ...</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>ବାତିଲ୍</translation>
     </message>
     <message>
         <source>In: %name</source>

@@ -136,10 +136,6 @@
         <translation>Éditor lengkep</translation>
     </message>
     <message>
-        <source>Edit</source>
-        <translation>Édit</translation>
-    </message>
-    <message>
         <source>required</source>
         <translation>wajib</translation>
     </message>
@@ -178,10 +174,6 @@
     <message>
         <source>Saving ...</source>
         <translation>Keur nyimpen ...</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>Bolaykeun</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
@@ -234,6 +226,10 @@
     <message>
         <source>The draft is gone.</source>
         <translation>Draf geus dipiceun.</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>Édit</translation>
     </message>
     <message>
         <source>Click a text on the page to edit it. It is saved with the draft.</source>
@@ -354,6 +350,10 @@
     <message>
         <source>Add "%name" also below ...</source>
         <translation>Tambahkeun "%name" ogé di handapeun ...</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Bolaykeun</translation>
     </message>
     <message>
         <source>In: %name</source>

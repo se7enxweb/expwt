@@ -136,10 +136,6 @@
         <translation>전체 편집기</translation>
     </message>
     <message>
-        <source>Edit</source>
-        <translation>편집</translation>
-    </message>
-    <message>
         <source>required</source>
         <translation>필수</translation>
     </message>
@@ -178,10 +174,6 @@
     <message>
         <source>Saving ...</source>
         <translation>저장 중...</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>취소</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
@@ -234,6 +226,10 @@
     <message>
         <source>The draft is gone.</source>
         <translation>초안이 삭제되었습니다.</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>편집</translation>
     </message>
     <message>
         <source>Click a text on the page to edit it. It is saved with the draft.</source>
@@ -354,6 +350,10 @@
     <message>
         <source>Add "%name" also below ...</source>
         <translation>"%name"을(를) 다음 아래에도 추가...</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>취소</translation>
     </message>
     <message>
         <source>In: %name</source>

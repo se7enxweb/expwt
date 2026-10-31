@@ -136,10 +136,6 @@
         <translation>Editur cumplet</translation>
     </message>
     <message>
-        <source>Edit</source>
-        <translation>Modifitgar</translation>
-    </message>
-    <message>
         <source>required</source>
         <translation>obligatoric</translation>
     </message>
@@ -178,10 +174,6 @@
     <message>
         <source>Saving ...</source>
         <translation>Memorisar ...</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>Interrumper</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
@@ -234,6 +226,10 @@
     <message>
         <source>The draft is gone.</source>
         <translation>Il sboz è davent.</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>Modifitgar</translation>
     </message>
     <message>
         <source>Click a text on the page to edit it. It is saved with the draft.</source>
@@ -354,6 +350,10 @@
     <message>
         <source>Add "%name" also below ...</source>
         <translation>Agiuntar «%name» er sut ...</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Interrumper</translation>
     </message>
     <message>
         <source>In: %name</source>

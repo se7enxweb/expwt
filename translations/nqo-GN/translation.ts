@@ -136,10 +136,6 @@
         <translation>ߦߍߟߍߡߊߟߊ߲ ߘߝߊߣߍ߲</translation>
     </message>
     <message>
-        <source>Edit</source>
-        <translation>ߦߍߟߍߡߊ</translation>
-    </message>
-    <message>
         <source>required</source>
         <translation>ߥߊߖߌߓߌ</translation>
     </message>
@@ -178,10 +174,6 @@
     <message>
         <source>Saving ...</source>
         <translation>ߊ߬ ߦߋ߫ ߡߊߙߊ ߟߊ߫ ...</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>ߘߊߓߌߟߊ</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
@@ -234,6 +226,10 @@
     <message>
         <source>The draft is gone.</source>
         <translation>ߓߙߎߦߐ߲ ߓߐߣߍ߲߫ ߘߊ߫.</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>ߦߍߟߍߡߊ</translation>
     </message>
     <message>
         <source>Click a text on the page to edit it. It is saved with the draft.</source>
@@ -354,6 +350,10 @@
     <message>
         <source>Add "%name" also below ...</source>
         <translation>"%name" ߝߊ߬ߙߊ߬ ߘߎ߰ߞߊ߲߬ ߝߣߊ߫ ...</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>ߘߊߓߌߟߊ</translation>
     </message>
     <message>
         <source>In: %name</source>

@@ -136,10 +136,6 @@
         <translation>Soppikat bu mat</translation>
     </message>
     <message>
-        <source>Edit</source>
-        <translation>Soppi</translation>
-    </message>
-    <message>
         <source>required</source>
         <translation>war na</translation>
     </message>
@@ -178,10 +174,6 @@
     <message>
         <source>Saving ...</source>
         <translation>Mi ngi denc ...</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>Neenal</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
@@ -234,6 +226,10 @@
     <message>
         <source>The draft is gone.</source>
         <translation>Brouyoŋ bi dem na.</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>Soppi</translation>
     </message>
     <message>
         <source>Click a text on the page to edit it. It is saved with the draft.</source>
@@ -354,6 +350,10 @@
     <message>
         <source>Add "%name" also below ...</source>
         <translation>Yokk "%name" itam ci suufu ...</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Neenal</translation>
     </message>
     <message>
         <source>In: %name</source>

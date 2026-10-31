@@ -584,7 +584,13 @@ a { color: var(--a4-accent-text); }
 .wt-rich-preview > :first-child { margin-block-start: 0; }
 .wt-rich-preview > :last-child { margin-block-end: 0; }
 .is-embed > .wt-row { margin-block-end: 0; }
-.wt-frame { display: block; inline-size: 100%; block-size: calc(var(--a4-space-7) * 9); border: 1px solid var(--a4-line); border-radius: var(--a4-radius-s); background: var(--a4-surface); }
+/* the frame takes the height its page reports (its height attribute); on top and bottom at most what the bar has, the
+   rest scrolls inside the frame */
+.wt-frame { display: block; inline-size: 100%; max-inline-size: 100%; border: 1px solid var(--a4-line); border-radius: var(--a4-radius-s); background: var(--a4-surface); }
+:host([data-orient="horizontal"]) .wt-frame { max-block-size: calc(var(--expwt-height) - var(--a4-space-7) * 2); }
+/* nothing in the panel scrolls sideways (F32): its fields and their content keep to its width */
+.wt-body, .wt-field, .wt-fields, .wt-section { min-inline-size: 0; max-inline-size: 100%; overflow-wrap: anywhere; }
+.wt-body { overflow-x: hidden; }
 .wt-editor-inline { margin-block-start: var(--a4-space-2); }
 :host([data-orient="horizontal"]) .wt-body { position: relative; }
 .wt-editor-pane {

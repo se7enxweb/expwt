@@ -136,10 +136,6 @@
         <translation>Fullur ritill</translation>
     </message>
     <message>
-        <source>Edit</source>
-        <translation>Breyta</translation>
-    </message>
-    <message>
         <source>required</source>
         <translation>nauðsynlegt</translation>
     </message>
@@ -178,10 +174,6 @@
     <message>
         <source>Saving ...</source>
         <translation>Vistar ...</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>Hætta við</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
@@ -234,6 +226,10 @@
     <message>
         <source>The draft is gone.</source>
         <translation>Drögunum hefur verið hent.</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>Breyta</translation>
     </message>
     <message>
         <source>Click a text on the page to edit it. It is saved with the draft.</source>
@@ -354,6 +350,10 @@
     <message>
         <source>Add "%name" also below ...</source>
         <translation>Bæta "%name" einnig við undir ...</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Hætta við</translation>
     </message>
     <message>
         <source>In: %name</source>

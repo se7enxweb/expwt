@@ -136,10 +136,6 @@
         <translation>Volledige editor</translation>
     </message>
     <message>
-        <source>Edit</source>
-        <translation>Bewerken</translation>
-    </message>
-    <message>
         <source>required</source>
         <translation>verplicht</translation>
     </message>
@@ -178,10 +174,6 @@
     <message>
         <source>Saving ...</source>
         <translation>Opslaan ...</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>Annuleren</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
@@ -234,6 +226,10 @@
     <message>
         <source>The draft is gone.</source>
         <translation>Het concept is weg.</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>Bewerken</translation>
     </message>
     <message>
         <source>Click a text on the page to edit it. It is saved with the draft.</source>
@@ -354,6 +350,10 @@
     <message>
         <source>Add "%name" also below ...</source>
         <translation>"%name" ook toevoegen onder ...</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Annuleren</translation>
     </message>
     <message>
         <source>In: %name</source>

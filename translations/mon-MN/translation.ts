@@ -136,10 +136,6 @@
         <translation>Бүрэн засварлагч</translation>
     </message>
     <message>
-        <source>Edit</source>
-        <translation>Засах</translation>
-    </message>
-    <message>
         <source>required</source>
         <translation>заавал</translation>
     </message>
@@ -178,10 +174,6 @@
     <message>
         <source>Saving ...</source>
         <translation>Хадгалж байна ...</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>Цуцлах</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
@@ -234,6 +226,10 @@
     <message>
         <source>The draft is gone.</source>
         <translation>Ноорог устлаа.</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>Засах</translation>
     </message>
     <message>
         <source>Click a text on the page to edit it. It is saved with the draft.</source>
@@ -354,6 +350,10 @@
     <message>
         <source>Add "%name" also below ...</source>
         <translation>"%name"-г мөн доор нь нэмэх ...</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Цуцлах</translation>
     </message>
     <message>
         <source>In: %name</source>

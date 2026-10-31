@@ -366,3 +366,100 @@ input.a4-field:is([type="checkbox"], [type="radio"]) { inline-size: var(--a4-spa
 /* the options are hidden where they stand until the script has moved them behind "More" (no flash) */
 html.is-embedded .expwt-field-input :is([name*="_disable_editor"], [name*="_enable_editor"], .ezoe-engine-switch) { display: none; }
 html.is-embedded .a4-menu-items :is([name*="_disable_editor"], [name*="_enable_editor"], .ezoe-engine-switch) { display: inline-flex; }
+
+/* ------------------------------------------------------------------------------------------------ tags (eztags)
+   eztags' plain JavaScript editor in the frame (override.ini): the selected tags as chips with a remove button, the
+   suggested tags as chips to add, the search with its results below it, the tag tree to choose from; the sidebar's
+   tokens and components throughout, the chosen tag in the tree in the selected state (the accent fill). */
+.eztags-wrapper, .tagssuggest-ui, .tagssuggest-ui .tags-input { display: grid; gap: var(--a4-space-3); }
+.tagssuggest-ui label { display: block; margin-block-end: var(--a4-space-1); color: var(--a4-muted); font-size: var(--a4-text-s); }
+.tagssuggest-ui .tags-list > p { display: none; margin: 0; color: var(--a4-muted); font-size: var(--a4-text-s); }
+.tagssuggest-ui .tags-list.no-results > p.no-results, .tagssuggest-ui .tags-list.loading > p.loading { display: block; }
+.tagssuggest-ui .tags-list > ul { display: flex; flex-wrap: wrap; gap: var(--a4-space-2); margin: 0; padding: 0; list-style: none; }
+.tagssuggest-ui .tags-list > ul::after { content: none; }
+.tagssuggest-ui .tags-list li {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--a4-space-1);
+  min-block-size: var(--a4-control-h);
+  max-inline-size: 100%;
+  margin: 0;
+  padding: 0 var(--a4-space-1) 0 var(--a4-space-3);
+  border: 1px solid var(--a4-line-strong);
+  border-radius: var(--a4-radius-s);
+  background: var(--a4-soft);
+  color: var(--a4-ink);
+  float: none;
+  overflow-wrap: anywhere;
+}
+.tagssuggest-ui .tags-list li img, .tagssuggestresults img, .eztags-tree-icon { inline-size: var(--a4-space-4); block-size: auto; }
+.tagssuggest-ui .js-tags-selected li.is-sorting { border-color: var(--a4-accent); }
+.tagssuggest-ui .js-tags-suggested li { padding-inline-end: var(--a4-space-3); background: var(--a4-surface); cursor: pointer; }
+.tagssuggest-ui .js-tags-suggested li::before { content: "+"; color: var(--a4-accent-text); font-weight: var(--a4-weight-bold); }
+.tagssuggest-ui .js-tags-suggested li:hover { background: var(--a4-accent-soft); }
+.a4-chip-remove {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  inline-size: var(--a4-space-5);
+  block-size: var(--a4-space-5);
+  border-radius: var(--a4-radius-s);
+  color: var(--a4-muted);
+  font-size: var(--a4-text-l);
+  line-height: var(--a4-leading-none);
+  text-decoration: none;
+}
+.a4-chip-remove:hover { background: var(--a4-bad-bg); color: var(--a4-bad); }
+.a4-chip-remove:focus-visible { outline: 3px solid var(--a4-ring); outline-offset: 1px; }
+.tagssuggestfieldwrap { position: relative; display: flex; gap: var(--a4-space-2); min-inline-size: 0; }
+.tagssuggestfieldwrap .tags-input-field { flex: 1; inline-size: auto; min-inline-size: 0; }
+.tagssuggestresults {
+  position: absolute;
+  inset-inline: 0;
+  inset-block-start: calc(100% + var(--a4-space-1));
+  z-index: var(--a4-z-popover);
+  max-block-size: calc(var(--a4-space-7) * 5);
+  overflow: auto;
+  border: 1px solid var(--a4-line);
+  border-radius: var(--a4-radius-s);
+  background: var(--a4-card);
+  box-shadow: var(--a4-shadow-m);
+}
+.tagssuggestresults:not(:has(.resultItem)) { display: none; }
+.tagssuggestresults .resultItem a { display: flex; align-items: center; gap: var(--a4-space-2); padding: var(--a4-space-2) var(--a4-space-3); color: var(--a4-ink); text-decoration: none; }
+.tagssuggestresults .resultItem a span { margin-inline-start: auto; color: var(--a4-muted); font-size: var(--a4-text-s); }
+.tagssuggestresults .resultItem:is(:hover, .selected, .active, [aria-selected="true"]) a { background: var(--a4-accent-soft); }
+.tagssuggestresults .resultItem.itemSynonym a { font-style: italic; }
+.expwt-tags-tree > summary { list-style: none; }
+.expwt-tags-tree > summary::-webkit-details-marker { display: none; }
+.expwt-tags-tree[open] > summary { background: var(--a4-accent-strong); border-color: var(--a4-accent-strong); color: var(--a4-on-accent); }
+html.is-dark .expwt-tags-tree[open] > summary { background: var(--a4-accent); border-color: var(--a4-accent); color: var(--a4-on-accent-hover); }
+.ez-tags-tree-selector { margin-block-start: var(--a4-space-2); padding: var(--a4-space-2); border: 1px solid var(--a4-line); border-radius: var(--a4-radius-s); background: var(--a4-card); max-block-size: calc(var(--a4-space-7) * 6); overflow: auto; }
+.eztags-tree, .eztags-tree-group { margin: 0; padding: 0; list-style: none; }
+.eztags-tree-group { padding-inline-start: var(--a4-space-5); }
+.eztags-tree-node { display: block; margin: 0; }
+.eztags-tree .a4-btn.eztags-tree-toggle, .eztags-tree-toggle { min-block-size: 0; inline-size: var(--a4-space-5); block-size: var(--a4-space-5); padding: 0; border: 0; background: transparent; color: var(--a4-muted); }
+.eztags-tree-anchor { display: inline-flex; align-items: center; gap: var(--a4-space-1); padding: 2px var(--a4-space-2); border-radius: var(--a4-radius-s); color: var(--a4-ink); text-decoration: none; overflow-wrap: anywhere; }
+.eztags-tree-anchor:hover { background: var(--a4-soft); }
+.eztags-tree-anchor:is([aria-selected="true"], [data-selected="true"]) { background: var(--a4-accent-strong); color: var(--a4-on-accent); }
+html.is-dark .eztags-tree-anchor:is([aria-selected="true"], [data-selected="true"]) { background: var(--a4-accent); color: var(--a4-on-accent-hover); }
+.expwt-field-body dialog {
+  max-inline-size: min(36rem, calc(100vw - var(--a4-space-6)));
+  padding: var(--a4-space-4);
+  border: 1px solid var(--a4-line);
+  border-radius: var(--a4-radius);
+  background: var(--a4-surface);
+  color: var(--a4-ink);
+  box-shadow: var(--a4-shadow-m);
+}
+.expwt-field-body dialog::backdrop { background: var(--a4-overlay); }
+
+/* -------------------------------------------------------------------- no sideways scrolling in the frame (F32)
+   The editor's content and whatever an edit template draws keep to the frame's width: images and media scale down,
+   tables, pre and code scroll inside their own box, long words and addresses break. */
+.expwt-field-body { overflow-x: hidden; overflow-wrap: anywhere; }
+.expwt-field-body :is(img, video, iframe, object, embed, svg, canvas) { max-inline-size: 100%; block-size: auto; }
+.expwt-field-body :is(table, pre) { display: block; max-inline-size: 100%; overflow-x: auto; }
+.expwt-field-body :is(pre, code) { white-space: pre-wrap; word-break: break-word; }
+.expwt-field-body :is(input, select, textarea) { max-inline-size: 100%; }
+.expwt-field-input > *, .expwt-field-input .block, .expwt-field-input fieldset { min-inline-size: 0; max-inline-size: 100%; box-sizing: border-box; }

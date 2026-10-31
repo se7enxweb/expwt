@@ -136,10 +136,6 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Edit</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>required</source>
         <translation type="unfinished"></translation>
     </message>
@@ -177,10 +173,6 @@
     </message>
     <message>
         <source>Saving ...</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Cancel</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -233,6 +225,10 @@
     </message>
     <message>
         <source>The draft is gone.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Edit</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -353,6 +349,10 @@
     </message>
     <message>
         <source>Add "%name" also below ...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Cancel</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

@@ -136,10 +136,6 @@
         <translation>Тулы редактор</translation>
     </message>
     <message>
-        <source>Edit</source>
-        <translation>Төзәтү</translation>
-    </message>
-    <message>
         <source>required</source>
         <translation>мәҗбүри</translation>
     </message>
@@ -178,10 +174,6 @@
     <message>
         <source>Saving ...</source>
         <translation>Саклана ...</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>Баш тарту</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
@@ -234,6 +226,10 @@
     <message>
         <source>The draft is gone.</source>
         <translation>Каралама бетерелде.</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>Төзәтү</translation>
     </message>
     <message>
         <source>Click a text on the page to edit it. It is saved with the draft.</source>
@@ -354,6 +350,10 @@
     <message>
         <source>Add "%name" also below ...</source>
         <translation>"%name" шулай ук астына өстәү ...</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Баш тарту</translation>
     </message>
     <message>
         <source>In: %name</source>

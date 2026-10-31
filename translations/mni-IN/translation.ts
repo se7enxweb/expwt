@@ -136,10 +136,6 @@
         <translation>মপুং ফাবা এডিটর</translation>
     </message>
     <message>
-        <source>Edit</source>
-        <translation>এডিট তৌবা</translation>
-    </message>
-    <message>
         <source>required</source>
         <translation>মথৌ তাই</translation>
     </message>
@@ -178,10 +174,6 @@
     <message>
         <source>Saving ...</source>
         <translation>থম্লি ...</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>কেন্সেল তৌবা</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
@@ -234,6 +226,10 @@
     <message>
         <source>The draft is gone.</source>
         <translation>ড্রাফ্ট মাংখ্রে।</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>এডিট তৌবা</translation>
     </message>
     <message>
         <source>Click a text on the page to edit it. It is saved with the draft.</source>
@@ -354,6 +350,10 @@
     <message>
         <source>Add "%name" also below ...</source>
         <translation>"%name" মখাদসু হাপচিনবা ...</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>কেন্সেল তৌবা</translation>
     </message>
     <message>
         <source>In: %name</source>

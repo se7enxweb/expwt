@@ -136,10 +136,6 @@
         <translation>Redaktori i plotë</translation>
     </message>
     <message>
-        <source>Edit</source>
-        <translation>Redakto</translation>
-    </message>
-    <message>
         <source>required</source>
         <translation>e detyrueshme</translation>
     </message>
@@ -178,10 +174,6 @@
     <message>
         <source>Saving ...</source>
         <translation>Po ruhet ...</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>Anulo</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
@@ -234,6 +226,10 @@
     <message>
         <source>The draft is gone.</source>
         <translation>Skica u hoq.</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>Redakto</translation>
     </message>
     <message>
         <source>Click a text on the page to edit it. It is saved with the draft.</source>
@@ -354,6 +350,10 @@
     <message>
         <source>Add "%name" also below ...</source>
         <translation>Shto „%name“ edhe nën ...</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Anulo</translation>
     </message>
     <message>
         <source>In: %name</source>

@@ -136,10 +136,6 @@
         <translation>Éditeur complet</translation>
     </message>
     <message>
-        <source>Edit</source>
-        <translation>Modifier</translation>
-    </message>
-    <message>
         <source>required</source>
         <translation>obligatoire</translation>
     </message>
@@ -178,10 +174,6 @@
     <message>
         <source>Saving ...</source>
         <translation>Enregistrement ...</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>Annuler</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
@@ -234,6 +226,10 @@
     <message>
         <source>The draft is gone.</source>
         <translation>Le brouillon a été supprimé.</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>Modifier</translation>
     </message>
     <message>
         <source>Click a text on the page to edit it. It is saved with the draft.</source>
@@ -354,6 +350,10 @@
     <message>
         <source>Add "%name" also below ...</source>
         <translation>Ajouter « %name » aussi sous ...</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Annuler</translation>
     </message>
     <message>
         <source>In: %name</source>

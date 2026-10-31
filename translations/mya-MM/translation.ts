@@ -136,10 +136,6 @@
         <translation>အပြည့်အစုံ တည်းဖြတ်ကိရိယာ</translation>
     </message>
     <message>
-        <source>Edit</source>
-        <translation>တည်းဖြတ်ရန်</translation>
-    </message>
-    <message>
         <source>required</source>
         <translation>လိုအပ်သည်</translation>
     </message>
@@ -178,10 +174,6 @@
     <message>
         <source>Saving ...</source>
         <translation>သိမ်းနေသည် ...</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>မလုပ်တော့ပါ</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
@@ -234,6 +226,10 @@
     <message>
         <source>The draft is gone.</source>
         <translation>မူကြမ်း မရှိတော့ပါ။</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>တည်းဖြတ်ရန်</translation>
     </message>
     <message>
         <source>Click a text on the page to edit it. It is saved with the draft.</source>
@@ -354,6 +350,10 @@
     <message>
         <source>Add "%name" also below ...</source>
         <translation>"%name" ကို အောက်တွင်လည်း ထည့်ရန် ...</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>မလုပ်တော့ပါ</translation>
     </message>
     <message>
         <source>In: %name</source>

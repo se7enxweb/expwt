@@ -136,10 +136,6 @@
         <translation>تولۇق تەھرىرلىگۈچ</translation>
     </message>
     <message>
-        <source>Edit</source>
-        <translation>تەھرىرلە</translation>
-    </message>
-    <message>
         <source>required</source>
         <translation>زۆرۈر</translation>
     </message>
@@ -178,10 +174,6 @@
     <message>
         <source>Saving ...</source>
         <translation>ساقلاۋاتىدۇ ...</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>ۋاز كەچ</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
@@ -234,6 +226,10 @@
     <message>
         <source>The draft is gone.</source>
         <translation>ئارگىنال ئۆچۈرۈلدى.</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>تەھرىرلە</translation>
     </message>
     <message>
         <source>Click a text on the page to edit it. It is saved with the draft.</source>
@@ -354,6 +350,10 @@
     <message>
         <source>Add "%name" also below ...</source>
         <translation>"%name" نى يەنە بۇنىڭ ئاستىغا قوشۇش ...</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>ۋاز كەچ</translation>
     </message>
     <message>
         <source>In: %name</source>

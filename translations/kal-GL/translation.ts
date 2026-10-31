@@ -136,10 +136,6 @@
         <translation>Aaqqissuiffik tamakkiisoq</translation>
     </message>
     <message>
-        <source>Edit</source>
-        <translation>Aaqqissoruk</translation>
-    </message>
-    <message>
         <source>required</source>
         <translation>pisariaqarpoq</translation>
     </message>
@@ -178,10 +174,6 @@
     <message>
         <source>Saving ...</source>
         <translation>Toqqorneqarpoq ...</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>Taamaatiguk</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
@@ -234,6 +226,10 @@
     <message>
         <source>The draft is gone.</source>
         <translation>Missingiut peerneqarpoq.</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>Aaqqissoruk</translation>
     </message>
     <message>
         <source>Click a text on the page to edit it. It is saved with the draft.</source>
@@ -354,6 +350,10 @@
     <message>
         <source>Add "%name" also below ...</source>
         <translation>"%name" aamma ilanngussiguk ataani ...</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Taamaatiguk</translation>
     </message>
     <message>
         <source>In: %name</source>

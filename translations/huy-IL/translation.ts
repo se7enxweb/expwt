@@ -136,10 +136,6 @@
         <translation>מתקננא שלמא</translation>
     </message>
     <message>
-        <source>Edit</source>
-        <translation>תוקנא</translation>
-    </message>
-    <message>
         <source>required</source>
         <translation>אלציא</translation>
     </message>
@@ -178,10 +174,6 @@
     <message>
         <source>Saving ...</source>
         <translation>נטרא ...</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>בוטלא</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
@@ -234,6 +226,10 @@
     <message>
         <source>The draft is gone.</source>
         <translation>סורטא אזלה.</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>תוקנא</translation>
     </message>
     <message>
         <source>Click a text on the page to edit it. It is saved with the draft.</source>
@@ -354,6 +350,10 @@
     <message>
         <source>Add "%name" also below ...</source>
         <translation>זודא „%name” אפ תחות ...</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>בוטלא</translation>
     </message>
     <message>
         <source>In: %name</source>

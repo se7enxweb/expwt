@@ -136,10 +136,6 @@
         <translation>आबुं सुजुगिरि</translation>
     </message>
     <message>
-        <source>Edit</source>
-        <translation>सोलायथाय</translation>
-    </message>
-    <message>
         <source>required</source>
         <translation>गोनांथार</translation>
     </message>
@@ -178,10 +174,6 @@
     <message>
         <source>Saving ...</source>
         <translation>दोनगासिनो दं ...</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>बन्द</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
@@ -234,6 +226,10 @@
     <message>
         <source>The draft is gone.</source>
         <translation>खस्राया गोमाखांबाय।</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>सोलायथाय</translation>
     </message>
     <message>
         <source>Click a text on the page to edit it. It is saved with the draft.</source>
@@ -354,6 +350,10 @@
     <message>
         <source>Add "%name" also below ...</source>
         <translation>"%name" खौ ... नि सिङावबो दाजाब</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>बन्द</translation>
     </message>
     <message>
         <source>In: %name</source>
