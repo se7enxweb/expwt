@@ -932,6 +932,74 @@
         <translation>Bukak panel «Kaca» kanggo nyimpen drafe.</translation>
     </message>
     <message>
+        <source>Exponential Intelligence is not available here.</source>
+        <translation>Exponential Intelligence ora kasedhiya ing kene.</translation>
+    </message>
+    <message>
+        <source>This action is not available for this field.</source>
+        <translation>Tumindak iki ora kasedhiya kanggo kolom iki.</translation>
+    </message>
+    <message>
+        <source>Ask</source>
+        <translation>Takon</translation>
+    </message>
+    <message>
+        <source>Into which language?</source>
+        <translation>Menyang basa apa?</translation>
+    </message>
+    <message>
+        <source>What should be written?</source>
+        <translation>Apa sing kudu ditulis?</translation>
+    </message>
+    <message>
+        <source>What should change? (optional)</source>
+        <translation>Apa sing kudu diganti? (opsional)</translation>
+    </message>
+    <message>
+        <source>Say what should be written.</source>
+        <translation>Kandhakna apa sing kudu ditulis.</translation>
+    </message>
+    <message>
+        <source>Asking ...</source>
+        <translation>Lagi takon ...</translation>
+    </message>
+    <message>
+        <source>Suggestion</source>
+        <translation>Saran</translation>
+    </message>
+    <message>
+        <source>Use it</source>
+        <translation>Gunakake</translation>
+    </message>
+    <message>
+        <source>A suggestion: the field keeps its value until you use it.</source>
+        <translation>Saran: kolom tetep nganggo nilaine nganti sampeyan nggunakake.</translation>
+    </message>
+    <message>
+        <source>It is in the field: Save draft keeps it, or autosave does.</source>
+        <translation>Wis ana ing kolom: Simpen draf nyimpen, utawa simpen otomatis.</translation>
+    </message>
+    <message>
+        <source>It is in the draft.</source>
+        <translation>Wis ana ing draf.</translation>
+    </message>
+    <message>
+        <source>Exponential Intelligence</source>
+        <translation>Exponential Intelligence</translation>
+    </message>
+    <message>
+        <source>AI</source>
+        <translation>AI</translation>
+    </message>
+    <message>
+        <source>Summarize</source>
+        <translation>Ringkes</translation>
+    </message>
+    <message>
+        <source>Alt text</source>
+        <translation>Teks alt</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Kothak mlebu</translation>
     </message>

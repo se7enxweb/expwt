@@ -932,6 +932,74 @@
         <translation>Караламасын саклау өчен «Бит» панелен ачыгыз.</translation>
     </message>
     <message>
+        <source>Exponential Intelligence is not available here.</source>
+        <translation>Exponential Intelligence монда юк.</translation>
+    </message>
+    <message>
+        <source>This action is not available for this field.</source>
+        <translation>Бу гамәл бу кыр өчен юк.</translation>
+    </message>
+    <message>
+        <source>Ask</source>
+        <translation>Сорау</translation>
+    </message>
+    <message>
+        <source>Into which language?</source>
+        <translation>Кайсы телгә?</translation>
+    </message>
+    <message>
+        <source>What should be written?</source>
+        <translation>Нәрсә язылырга тиеш?</translation>
+    </message>
+    <message>
+        <source>What should change? (optional)</source>
+        <translation>Нәрсә үзгәрергә тиеш? (теләк буенча)</translation>
+    </message>
+    <message>
+        <source>Say what should be written.</source>
+        <translation>Нәрсә язылырга тиешлеген әйтегез.</translation>
+    </message>
+    <message>
+        <source>Asking ...</source>
+        <translation>Сорала ...</translation>
+    </message>
+    <message>
+        <source>Suggestion</source>
+        <translation>Тәкъдим</translation>
+    </message>
+    <message>
+        <source>Use it</source>
+        <translation>Куллану</translation>
+    </message>
+    <message>
+        <source>A suggestion: the field keeps its value until you use it.</source>
+        <translation>Тәкъдим: сез кулланганчы кыр үз кыйммәтен саклый.</translation>
+    </message>
+    <message>
+        <source>It is in the field: Save draft keeps it, or autosave does.</source>
+        <translation>Ул кырда: Караламаны саклау аны саклый, яки автомат саклау.</translation>
+    </message>
+    <message>
+        <source>It is in the draft.</source>
+        <translation>Ул караламада.</translation>
+    </message>
+    <message>
+        <source>Exponential Intelligence</source>
+        <translation>Exponential Intelligence</translation>
+    </message>
+    <message>
+        <source>AI</source>
+        <translation>ЯИ</translation>
+    </message>
+    <message>
+        <source>Summarize</source>
+        <translation>Йомгаклау</translation>
+    </message>
+    <message>
+        <source>Alt text</source>
+        <translation>Альтернатив текст</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Керүчеләр</translation>
     </message>

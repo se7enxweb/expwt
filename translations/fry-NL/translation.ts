@@ -932,6 +932,74 @@
         <translation>Iepenje it paniel ‘Side’ om it konsept te bewarjen.</translation>
     </message>
     <message>
+        <source>Exponential Intelligence is not available here.</source>
+        <translation>Exponential Intelligence is hjir net beskikber.</translation>
+    </message>
+    <message>
+        <source>This action is not available for this field.</source>
+        <translation>Dizze aksje is net beskikber foar dit fjild.</translation>
+    </message>
+    <message>
+        <source>Ask</source>
+        <translation>Freegje</translation>
+    </message>
+    <message>
+        <source>Into which language?</source>
+        <translation>Nei hokker taal?</translation>
+    </message>
+    <message>
+        <source>What should be written?</source>
+        <translation>Wat moat der skreaun wurde?</translation>
+    </message>
+    <message>
+        <source>What should change? (optional)</source>
+        <translation>Wat moat der feroarje? (opsjoneel)</translation>
+    </message>
+    <message>
+        <source>Say what should be written.</source>
+        <translation>Sis wat der skreaun wurde moat.</translation>
+    </message>
+    <message>
+        <source>Asking ...</source>
+        <translation>Dwaande mei freegjen ...</translation>
+    </message>
+    <message>
+        <source>Suggestion</source>
+        <translation>Foarstel</translation>
+    </message>
+    <message>
+        <source>Use it</source>
+        <translation>Brûke</translation>
+    </message>
+    <message>
+        <source>A suggestion: the field keeps its value until you use it.</source>
+        <translation>In foarstel: it fjild hâldt syn wearde oant jo it brûke.</translation>
+    </message>
+    <message>
+        <source>It is in the field: Save draft keeps it, or autosave does.</source>
+        <translation>It stiet yn it fjild: Konsept bewarje hâldt it, of automatysk bewarjen docht dat.</translation>
+    </message>
+    <message>
+        <source>It is in the draft.</source>
+        <translation>It stiet yn it konsept.</translation>
+    </message>
+    <message>
+        <source>Exponential Intelligence</source>
+        <translation>Exponential Intelligence</translation>
+    </message>
+    <message>
+        <source>AI</source>
+        <translation>AI</translation>
+    </message>
+    <message>
+        <source>Summarize</source>
+        <translation>Gearfetsje</translation>
+    </message>
+    <message>
+        <source>Alt text</source>
+        <translation>Alt-tekst</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Postfak</translation>
     </message>

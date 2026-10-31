@@ -288,6 +288,23 @@ class expwtStrings
         'On a Mac, Option+Shift with a letter types a character in a text field: there the field gets it.',
         'Change them in the Me panel',
         'Open the Page panel to save its draft.',
+        'Exponential Intelligence is not available here.',
+        'This action is not available for this field.',
+        'Ask',
+        'Into which language?',
+        'What should be written?',
+        'What should change? (optional)',
+        'Say what should be written.',
+        'Asking ...',
+        'Suggestion',
+        'Use it',
+        'A suggestion: the field keeps its value until you use it.',
+        'It is in the field: Save draft keeps it, or autosave does.',
+        'It is in the draft.',
+        'Exponential Intelligence',
+        'AI',
+        'Summarize',
+        'Alt text',
     );
     /* sources:end */
 

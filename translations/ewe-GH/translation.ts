@@ -932,6 +932,74 @@
         <translation>Ʋu «Axa» panel la be nàdzra eƒe ŋɔŋlɔ gbãtɔ ɖo.</translation>
     </message>
     <message>
+        <source>Exponential Intelligence is not available here.</source>
+        <translation>Exponential Intelligence meli le afi o.</translation>
+    </message>
+    <message>
+        <source>This action is not available for this field.</source>
+        <translation>Dɔwɔwɔ sia meli na teƒe sia o.</translation>
+    </message>
+    <message>
+        <source>Ask</source>
+        <translation>Bia</translation>
+    </message>
+    <message>
+        <source>Into which language?</source>
+        <translation>Ɖe gbe kae me?</translation>
+    </message>
+    <message>
+        <source>What should be written?</source>
+        <translation>Nu kae woaŋlɔ?</translation>
+    </message>
+    <message>
+        <source>What should change? (optional)</source>
+        <translation>Nu kae natrɔ? (ne èlɔ̃)</translation>
+    </message>
+    <message>
+        <source>Say what should be written.</source>
+        <translation>Gblɔ nu si woaŋlɔ.</translation>
+    </message>
+    <message>
+        <source>Asking ...</source>
+        <translation>Ele biabiam ...</translation>
+    </message>
+    <message>
+        <source>Suggestion</source>
+        <translation>Aɖaŋuɖoɖo</translation>
+    </message>
+    <message>
+        <source>Use it</source>
+        <translation>Zãe</translation>
+    </message>
+    <message>
+        <source>A suggestion: the field keeps its value until you use it.</source>
+        <translation>Aɖaŋuɖoɖo: teƒe la léa eƒe asixɔxɔ ɖe asi va se ɖe esime nàzãe.</translation>
+    </message>
+    <message>
+        <source>It is in the field: Save draft keeps it, or autosave does.</source>
+        <translation>Ele teƒe la: Dzra ŋɔŋlɔ gbãtɔ ɖo léne ɖe asi, alo eɖokui dzradoɖo.</translation>
+    </message>
+    <message>
+        <source>It is in the draft.</source>
+        <translation>Ele ŋɔŋlɔ gbãtɔ la me.</translation>
+    </message>
+    <message>
+        <source>Exponential Intelligence</source>
+        <translation>Exponential Intelligence</translation>
+    </message>
+    <message>
+        <source>AI</source>
+        <translation>AI</translation>
+    </message>
+    <message>
+        <source>Summarize</source>
+        <translation>Ƒo nu kpuie</translation>
+    </message>
+    <message>
+        <source>Alt text</source>
+        <translation>Alt nuŋlɔŋlɔ</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Agbalẽ siwo va</translation>
     </message>

@@ -932,6 +932,74 @@
         <translation>Qaralamasını saxlamaq üçün «Səhifə» panelini açın.</translation>
     </message>
     <message>
+        <source>Exponential Intelligence is not available here.</source>
+        <translation>Exponential Intelligence burada mövcud deyil.</translation>
+    </message>
+    <message>
+        <source>This action is not available for this field.</source>
+        <translation>Bu əməliyyat bu sahə üçün mövcud deyil.</translation>
+    </message>
+    <message>
+        <source>Ask</source>
+        <translation>Soruş</translation>
+    </message>
+    <message>
+        <source>Into which language?</source>
+        <translation>Hansı dilə?</translation>
+    </message>
+    <message>
+        <source>What should be written?</source>
+        <translation>Nə yazılmalıdır?</translation>
+    </message>
+    <message>
+        <source>What should change? (optional)</source>
+        <translation>Nə dəyişməlidir? (istəyə bağlı)</translation>
+    </message>
+    <message>
+        <source>Say what should be written.</source>
+        <translation>Nə yazılmalı olduğunu deyin.</translation>
+    </message>
+    <message>
+        <source>Asking ...</source>
+        <translation>Soruşulur ...</translation>
+    </message>
+    <message>
+        <source>Suggestion</source>
+        <translation>Təklif</translation>
+    </message>
+    <message>
+        <source>Use it</source>
+        <translation>İstifadə et</translation>
+    </message>
+    <message>
+        <source>A suggestion: the field keeps its value until you use it.</source>
+        <translation>Təklif: siz istifadə edənə qədər sahə öz dəyərini saxlayır.</translation>
+    </message>
+    <message>
+        <source>It is in the field: Save draft keeps it, or autosave does.</source>
+        <translation>Sahədədir: Qaralamanı saxla onu saxlayır, və ya avtomatik saxlama.</translation>
+    </message>
+    <message>
+        <source>It is in the draft.</source>
+        <translation>Qaralamadadır.</translation>
+    </message>
+    <message>
+        <source>Exponential Intelligence</source>
+        <translation>Exponential Intelligence</translation>
+    </message>
+    <message>
+        <source>AI</source>
+        <translation>Sİ</translation>
+    </message>
+    <message>
+        <source>Summarize</source>
+        <translation>Xülasə et</translation>
+    </message>
+    <message>
+        <source>Alt text</source>
+        <translation>Alt mətn</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Gələnlər</translation>
     </message>

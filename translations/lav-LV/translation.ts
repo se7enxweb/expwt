@@ -932,6 +932,74 @@
         <translation>Atveriet paneli “Lapa”, lai saglabātu tās melnrakstu.</translation>
     </message>
     <message>
+        <source>Exponential Intelligence is not available here.</source>
+        <translation>Exponential Intelligence šeit nav pieejams.</translation>
+    </message>
+    <message>
+        <source>This action is not available for this field.</source>
+        <translation>Šī darbība šim laukam nav pieejama.</translation>
+    </message>
+    <message>
+        <source>Ask</source>
+        <translation>Jautāt</translation>
+    </message>
+    <message>
+        <source>Into which language?</source>
+        <translation>Uz kuru valodu?</translation>
+    </message>
+    <message>
+        <source>What should be written?</source>
+        <translation>Kas jāuzraksta?</translation>
+    </message>
+    <message>
+        <source>What should change? (optional)</source>
+        <translation>Kas jāmaina? (neobligāti)</translation>
+    </message>
+    <message>
+        <source>Say what should be written.</source>
+        <translation>Pasakiet, kas jāuzraksta.</translation>
+    </message>
+    <message>
+        <source>Asking ...</source>
+        <translation>Jautā ...</translation>
+    </message>
+    <message>
+        <source>Suggestion</source>
+        <translation>Ieteikums</translation>
+    </message>
+    <message>
+        <source>Use it</source>
+        <translation>Izmantot</translation>
+    </message>
+    <message>
+        <source>A suggestion: the field keeps its value until you use it.</source>
+        <translation>Ieteikums: lauks saglabā savu vērtību, līdz jūs to izmantojat.</translation>
+    </message>
+    <message>
+        <source>It is in the field: Save draft keeps it, or autosave does.</source>
+        <translation>Tas ir laukā: Saglabāt melnrakstu to saglabā, vai automātiskā saglabāšana.</translation>
+    </message>
+    <message>
+        <source>It is in the draft.</source>
+        <translation>Tas ir melnrakstā.</translation>
+    </message>
+    <message>
+        <source>Exponential Intelligence</source>
+        <translation>Exponential Intelligence</translation>
+    </message>
+    <message>
+        <source>AI</source>
+        <translation>MI</translation>
+    </message>
+    <message>
+        <source>Summarize</source>
+        <translation>Apkopot</translation>
+    </message>
+    <message>
+        <source>Alt text</source>
+        <translation>Alternatīvais teksts</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Iesūtne</translation>
     </message>

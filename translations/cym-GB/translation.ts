@@ -932,6 +932,74 @@
         <translation>Agorwch y panel «Tudalen» i gadw ei ddrafft.</translation>
     </message>
     <message>
+        <source>Exponential Intelligence is not available here.</source>
+        <translation>Nid yw Exponential Intelligence ar gael yma.</translation>
+    </message>
+    <message>
+        <source>This action is not available for this field.</source>
+        <translation>Nid yw'r weithred hon ar gael i'r maes hwn.</translation>
+    </message>
+    <message>
+        <source>Ask</source>
+        <translation>Gofyn</translation>
+    </message>
+    <message>
+        <source>Into which language?</source>
+        <translation>I ba iaith?</translation>
+    </message>
+    <message>
+        <source>What should be written?</source>
+        <translation>Beth ddylid ei ysgrifennu?</translation>
+    </message>
+    <message>
+        <source>What should change? (optional)</source>
+        <translation>Beth ddylai newid? (dewisol)</translation>
+    </message>
+    <message>
+        <source>Say what should be written.</source>
+        <translation>Dywedwch beth ddylid ei ysgrifennu.</translation>
+    </message>
+    <message>
+        <source>Asking ...</source>
+        <translation>Yn gofyn ...</translation>
+    </message>
+    <message>
+        <source>Suggestion</source>
+        <translation>Awgrym</translation>
+    </message>
+    <message>
+        <source>Use it</source>
+        <translation>Defnyddio</translation>
+    </message>
+    <message>
+        <source>A suggestion: the field keeps its value until you use it.</source>
+        <translation>Awgrym: mae'r maes yn cadw ei werth nes i chi ei ddefnyddio.</translation>
+    </message>
+    <message>
+        <source>It is in the field: Save draft keeps it, or autosave does.</source>
+        <translation>Mae yn y maes: mae Cadw'r drafft yn ei gadw, neu'r cadw awtomatig.</translation>
+    </message>
+    <message>
+        <source>It is in the draft.</source>
+        <translation>Mae yn y drafft.</translation>
+    </message>
+    <message>
+        <source>Exponential Intelligence</source>
+        <translation>Exponential Intelligence</translation>
+    </message>
+    <message>
+        <source>AI</source>
+        <translation>DA</translation>
+    </message>
+    <message>
+        <source>Summarize</source>
+        <translation>Crynhoi</translation>
+    </message>
+    <message>
+        <source>Alt text</source>
+        <translation>Testun amgen</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Mewnflwch</translation>
     </message>

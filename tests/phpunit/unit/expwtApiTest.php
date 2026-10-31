@@ -71,6 +71,8 @@ class expwtApiTestGateway extends expwtGateway
     public function insights( array $in ) { return $this->record( 'insights', $in ); }
     public function seoCheck( array $in ) { return $this->record( 'seoCheck', $in ); }
     public function elsewhere( array $in ) { return $this->record( 'elsewhere', $in ); }
+    public function aiField( array $in ) { return $this->record( 'aiField', $in ); }
+    public function aiApply( array $in ) { return $this->record( 'aiApply', $in ); }
     public $registered = array( 'panels' => array(), 'actions' => array(), 'highlights' => array(), 'search' => array() );
     public $policies = array();
     public function registeredActions() { return $this->registered['actions']; }
@@ -165,6 +167,32 @@ class expwtApiTest extends PHPUnit\Framework\TestCase
         $this->assertSame( 405, $api->call( 'inbox.read', array( 'itemId' => 3 ), 'GET' )['status'] );
         $api->call( 'inbox.read', array( 'itemId' => '9', 'other' => 1 ) );
         $this->assertSame( array( 'markRead', array( 'itemId' => 9 ) ), $this->gateway->calls[2] );
+    }
+
+    /** E1: asking Exponential Intelligence and taking its suggestion are writes for those who edit, cleaned */
+    public function testExponentialIntelligenceGoesToTheGatewayCleaned()
+    {
+        $api = $this->api();
+        foreach ( array( 'ai.field', 'ai.apply' ) as $action )
+        {
+            $this->assertSame( 'edit', expwtAccess::functionFor( $action ) );
+            $this->assertTrue( expwtAccess::writes( $action ), $action . ' is sent by POST with the token' );
+            $this->assertSame( 405, $api->call( $action, array( 'objectId' => 5 ), 'GET' )['status'] );
+        }
+        $this->assertNull( expwtAccess::kernelView( 'ai.field' ), 'asking writes no content' );
+        $this->assertSame( array( 'module' => 'content', 'view' => 'edit', 'post' => array( 'StoreButton' => '1' ) ), expwtAccess::kernelView( 'ai.apply' ) );
+        $api->call( 'ai.field', array( 'objectId' => '5', 'version' => 'x', 'language' => ' eng-GB ', 'field' => 'title', 'action' => 'rewrite',
+                                       'instruction' => '  ' . str_repeat( 'a', 5000 ) . ' ', 'value' => 'Typed', 'other' => 1 ) );
+        $call = $this->gateway->calls[0];
+        $this->assertSame( 'aiField', $call[0] );
+        $this->assertSame( array( 'objectId', 'language', 'field', 'action', 'instruction', 'value' ), array_keys( $call[1] ) );
+        $this->assertSame( 4000, strlen( $call[1]['instruction'] ) );
+        $this->assertSame( 'eng-GB', $call[1]['language'] );
+        $api->call( 'ai.field', array( 'objectId' => 5, 'field' => 'intro', 'action' => 'summarize', 'value' => array( 'not text' ) ) );
+        $this->assertArrayNotHasKey( 'value', $this->gateway->calls[1][1], 'a value that is no text is left out' );
+        $api->call( 'ai.apply', array( 'objectId' => 5, 'version' => 3, 'language' => 'eng-GB', 'field' => 'body', 'value' => '<p>New</p>' ) );
+        $this->assertSame( array( 'aiApply', array( 'objectId' => 5, 'version' => 3, 'language' => 'eng-GB', 'field' => 'body', 'value' => '<p>New</p>' ) ),
+                           $this->gateway->calls[2] );
     }
 
     /** F29: the counts on the tabs for every user of the sidebar: approvals and comments with the collaboration,

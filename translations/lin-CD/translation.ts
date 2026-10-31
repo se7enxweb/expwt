@@ -932,6 +932,74 @@
         <translation>Fungolá etando «Lokasa» mpo na kobómba brouillon na yango.</translation>
     </message>
     <message>
+        <source>Exponential Intelligence is not available here.</source>
+        <translation>Exponential Intelligence ezali awa te.</translation>
+    </message>
+    <message>
+        <source>This action is not available for this field.</source>
+        <translation>Mosala oyo ezali te mpo na esika oyo.</translation>
+    </message>
+    <message>
+        <source>Ask</source>
+        <translation>Tuna</translation>
+    </message>
+    <message>
+        <source>Into which language?</source>
+        <translation>Na lokota nini?</translation>
+    </message>
+    <message>
+        <source>What should be written?</source>
+        <translation>Nini esengeli kokomama?</translation>
+    </message>
+    <message>
+        <source>What should change? (optional)</source>
+        <translation>Nini esengeli kobongwana? (soki olingi)</translation>
+    </message>
+    <message>
+        <source>Say what should be written.</source>
+        <translation>Loba nini esengeli kokomama.</translation>
+    </message>
+    <message>
+        <source>Asking ...</source>
+        <translation>Ezali kotuna ...</translation>
+    </message>
+    <message>
+        <source>Suggestion</source>
+        <translation>Likanisi</translation>
+    </message>
+    <message>
+        <source>Use it</source>
+        <translation>Salela yango</translation>
+    </message>
+    <message>
+        <source>A suggestion: the field keeps its value until you use it.</source>
+        <translation>Likanisi: esika ebombaka motuya na yango kino okosalela yango.</translation>
+    </message>
+    <message>
+        <source>It is in the field: Save draft keeps it, or autosave does.</source>
+        <translation>Ezali na esika: Bómbá brouillon ebombaka yango, to kobómba yango moko.</translation>
+    </message>
+    <message>
+        <source>It is in the draft.</source>
+        <translation>Ezali na brouillon.</translation>
+    </message>
+    <message>
+        <source>Exponential Intelligence</source>
+        <translation>Exponential Intelligence</translation>
+    </message>
+    <message>
+        <source>AI</source>
+        <translation>AI</translation>
+    </message>
+    <message>
+        <source>Summarize</source>
+        <translation>Lobá na mokuse</translation>
+    </message>
+    <message>
+        <source>Alt text</source>
+        <translation>Makomi ya alt</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Bokóti ya mikanda</translation>
     </message>

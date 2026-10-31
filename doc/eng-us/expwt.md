@@ -204,6 +204,31 @@ with a click or Enter, the field's row scrolled into view. A field is found by t
 file's path, a text by its value where there are no markers. An image file dropped on the page's image replaces it in
 the draft, through the image field's own upload; its alternative text is in its editor.
 
+### Exponential Intelligence on the fields
+
+Where expai (Exponential Intelligence) is on for the user, every field it can write has a row of actions under it in
+the Page panel, marked **AI**: the field actions of the administration's edit form (expai.ini `[EditViewSettings]
+FieldActions[]`: **Write** with an instruction, **Rewrite** with an optional one, **Shorten**, **Translate** into a
+chosen language, **Suggest**, for a keyword field its keywords), **Summarize** (a short summary of the page for a text
+or rich text field: expai's Write with that instruction) and, on an image, its **Alt text** (expai's alt text, where a
+model that can look at images is available). Translate starts on the field's own language: the usual case is a new
+translation whose fields still hold the text of the main language.
+
+- **Who:** `expwt/edit` and expai's own policy `expai/write`, on a page the user may edit in that language; expai active
+  in the siteaccess the sidebar runs on (`[ExtensionSettings] ActiveAccessExtensions[]=expai` of the site siteaccess,
+  or `ActiveExtensions[]`), switched on for it (`[AISettings] Enabled`, not in `DisabledSiteAccesses[]`), configured (a
+  model and its key) and its edit form actions on (`[EditViewSettings] Enabled`). Where any of that is missing the
+  sidebar shows no AI action and makes no request for it. expai's limits, data policy, model choice and fallback, and
+  its usage log apply exactly as in the administration.
+- **Into the draft only:** the answer is a suggestion shown under the field (rich text as its text); the field keeps
+  its value until **Use it**. A field of the form takes it into its input, marked as changed and saved with the draft
+  (autosave included); a field with its own editor (rich text, the image's alternative text) gets it written into
+  the user's draft and the editor loads again. Nothing is published: Publish is the user's own step, with the
+  workflows and approvals of the installation. Asking needs a draft (expai marks it as assisted): the user's newest in
+  the language, or a new one.
+- Actions: `ai.field` (ask) and `ai.apply` (write the suggestion into a field of its own editor), both POST with the
+  form token, both `expwt/edit`.
+
 ## Policies
 
 | Policy | Allows |

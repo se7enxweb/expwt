@@ -932,6 +932,74 @@
         <translation>Apri il pannello «Pagina» per salvarne la bozza.</translation>
     </message>
     <message>
+        <source>Exponential Intelligence is not available here.</source>
+        <translation>Exponential Intelligence non è disponibile qui.</translation>
+    </message>
+    <message>
+        <source>This action is not available for this field.</source>
+        <translation>Questa azione non è disponibile per questo campo.</translation>
+    </message>
+    <message>
+        <source>Ask</source>
+        <translation>Chiedi</translation>
+    </message>
+    <message>
+        <source>Into which language?</source>
+        <translation>In quale lingua?</translation>
+    </message>
+    <message>
+        <source>What should be written?</source>
+        <translation>Cosa bisogna scrivere?</translation>
+    </message>
+    <message>
+        <source>What should change? (optional)</source>
+        <translation>Cosa deve cambiare? (facoltativo)</translation>
+    </message>
+    <message>
+        <source>Say what should be written.</source>
+        <translation>Di' cosa bisogna scrivere.</translation>
+    </message>
+    <message>
+        <source>Asking ...</source>
+        <translation>Richiesta in corso ...</translation>
+    </message>
+    <message>
+        <source>Suggestion</source>
+        <translation>Suggerimento</translation>
+    </message>
+    <message>
+        <source>Use it</source>
+        <translation>Usalo</translation>
+    </message>
+    <message>
+        <source>A suggestion: the field keeps its value until you use it.</source>
+        <translation>Un suggerimento: il campo mantiene il suo valore finché non lo usi.</translation>
+    </message>
+    <message>
+        <source>It is in the field: Save draft keeps it, or autosave does.</source>
+        <translation>È nel campo: Salva bozza lo conserva, oppure il salvataggio automatico.</translation>
+    </message>
+    <message>
+        <source>It is in the draft.</source>
+        <translation>È nella bozza.</translation>
+    </message>
+    <message>
+        <source>Exponential Intelligence</source>
+        <translation>Exponential Intelligence</translation>
+    </message>
+    <message>
+        <source>AI</source>
+        <translation>IA</translation>
+    </message>
+    <message>
+        <source>Summarize</source>
+        <translation>Riassumi</translation>
+    </message>
+    <message>
+        <source>Alt text</source>
+        <translation>Testo alternativo</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Posta in arrivo</translation>
     </message>

@@ -932,6 +932,74 @@
         <translation>Wočińće panel „Strona“, zo byšće jeje naćisk składował.</translation>
     </message>
     <message>
+        <source>Exponential Intelligence is not available here.</source>
+        <translation>Exponential Intelligence tu k dispoziciji njeje.</translation>
+    </message>
+    <message>
+        <source>This action is not available for this field.</source>
+        <translation>Tuta akcija za tute polo k dispoziciji njeje.</translation>
+    </message>
+    <message>
+        <source>Ask</source>
+        <translation>Prašeć so</translation>
+    </message>
+    <message>
+        <source>Into which language?</source>
+        <translation>Do kotreje rěče?</translation>
+    </message>
+    <message>
+        <source>What should be written?</source>
+        <translation>Što ma so pisać?</translation>
+    </message>
+    <message>
+        <source>What should change? (optional)</source>
+        <translation>Što ma so změnić? (opcionalnje)</translation>
+    </message>
+    <message>
+        <source>Say what should be written.</source>
+        <translation>Prajće, što ma so pisać.</translation>
+    </message>
+    <message>
+        <source>Asking ...</source>
+        <translation>Prašam so ...</translation>
+    </message>
+    <message>
+        <source>Suggestion</source>
+        <translation>Namjet</translation>
+    </message>
+    <message>
+        <source>Use it</source>
+        <translation>Wužiwać</translation>
+    </message>
+    <message>
+        <source>A suggestion: the field keeps its value until you use it.</source>
+        <translation>Namjet: polo swoju hódnotu wobchowa, doniž jón njewužiwaće.</translation>
+    </message>
+    <message>
+        <source>It is in the field: Save draft keeps it, or autosave does.</source>
+        <translation>Je w polu: Naćisk składować jo wobchowa, abo awtomatiske składowanje.</translation>
+    </message>
+    <message>
+        <source>It is in the draft.</source>
+        <translation>Je w naćisku.</translation>
+    </message>
+    <message>
+        <source>Exponential Intelligence</source>
+        <translation>Exponential Intelligence</translation>
+    </message>
+    <message>
+        <source>AI</source>
+        <translation>AI</translation>
+    </message>
+    <message>
+        <source>Summarize</source>
+        <translation>Zjimać</translation>
+    </message>
+    <message>
+        <source>Alt text</source>
+        <translation>Alternatiwny tekst</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Dóstate</translation>
     </message>

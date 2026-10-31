@@ -932,6 +932,74 @@
         <translation>Ανοίξτε τον πίνακα «Σελίδα» για να αποθηκεύσετε το προσχέδιό της.</translation>
     </message>
     <message>
+        <source>Exponential Intelligence is not available here.</source>
+        <translation>Το Exponential Intelligence δεν είναι διαθέσιμο εδώ.</translation>
+    </message>
+    <message>
+        <source>This action is not available for this field.</source>
+        <translation>Αυτή η ενέργεια δεν είναι διαθέσιμη για αυτό το πεδίο.</translation>
+    </message>
+    <message>
+        <source>Ask</source>
+        <translation>Ρώτα</translation>
+    </message>
+    <message>
+        <source>Into which language?</source>
+        <translation>Σε ποια γλώσσα;</translation>
+    </message>
+    <message>
+        <source>What should be written?</source>
+        <translation>Τι πρέπει να γραφτεί;</translation>
+    </message>
+    <message>
+        <source>What should change? (optional)</source>
+        <translation>Τι πρέπει να αλλάξει; (προαιρετικό)</translation>
+    </message>
+    <message>
+        <source>Say what should be written.</source>
+        <translation>Πείτε τι πρέπει να γραφτεί.</translation>
+    </message>
+    <message>
+        <source>Asking ...</source>
+        <translation>Ερώτηση ...</translation>
+    </message>
+    <message>
+        <source>Suggestion</source>
+        <translation>Πρόταση</translation>
+    </message>
+    <message>
+        <source>Use it</source>
+        <translation>Χρήση</translation>
+    </message>
+    <message>
+        <source>A suggestion: the field keeps its value until you use it.</source>
+        <translation>Πρόταση: το πεδίο κρατά την τιμή του μέχρι να τη χρησιμοποιήσετε.</translation>
+    </message>
+    <message>
+        <source>It is in the field: Save draft keeps it, or autosave does.</source>
+        <translation>Είναι στο πεδίο: η Αποθήκευση προσχεδίου το κρατά, ή η αυτόματη αποθήκευση.</translation>
+    </message>
+    <message>
+        <source>It is in the draft.</source>
+        <translation>Είναι στο προσχέδιο.</translation>
+    </message>
+    <message>
+        <source>Exponential Intelligence</source>
+        <translation>Exponential Intelligence</translation>
+    </message>
+    <message>
+        <source>AI</source>
+        <translation>ΤΝ</translation>
+    </message>
+    <message>
+        <source>Summarize</source>
+        <translation>Σύνοψη</translation>
+    </message>
+    <message>
+        <source>Alt text</source>
+        <translation>Εναλλακτικό κείμενο</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Εισερχόμενα</translation>
     </message>

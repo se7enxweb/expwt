@@ -932,6 +932,74 @@
         <translation>פתח פאנל «דפא» דתנטר סורטה.</translation>
     </message>
     <message>
+        <source>Exponential Intelligence is not available here.</source>
+        <translation>Exponential Intelligence לא איתוהי הרכא.</translation>
+    </message>
+    <message>
+        <source>This action is not available for this field.</source>
+        <translation>עבדא הנא לא איתוהי להנא חקלא.</translation>
+    </message>
+    <message>
+        <source>Ask</source>
+        <translation>שאל</translation>
+    </message>
+    <message>
+        <source>Into which language?</source>
+        <translation>לאידא לשנא?</translation>
+    </message>
+    <message>
+        <source>What should be written?</source>
+        <translation>מנא ולא דנתכתב?</translation>
+    </message>
+    <message>
+        <source>What should change? (optional)</source>
+        <translation>מנא ולא דנשתחלף? (צביונאית)</translation>
+    </message>
+    <message>
+        <source>Say what should be written.</source>
+        <translation>אמר מנא ולא דנתכתב.</translation>
+    </message>
+    <message>
+        <source>Asking ...</source>
+        <translation>שאל ...</translation>
+    </message>
+    <message>
+        <source>Suggestion</source>
+        <translation>מלכא</translation>
+    </message>
+    <message>
+        <source>Use it</source>
+        <translation>אשתמש בה</translation>
+    </message>
+    <message>
+        <source>A suggestion: the field keeps its value until you use it.</source>
+        <translation>מלכא: חקלא נטר טימיה עדמא דתשתמש בה.</translation>
+    </message>
+    <message>
+        <source>It is in the field: Save draft keeps it, or autosave does.</source>
+        <translation>איתוהי בחקלא: נטר סורטא נטר לה, או נטרא מן נפשה.</translation>
+    </message>
+    <message>
+        <source>It is in the draft.</source>
+        <translation>איתוהי בסורטא.</translation>
+    </message>
+    <message>
+        <source>Exponential Intelligence</source>
+        <translation>Exponential Intelligence</translation>
+    </message>
+    <message>
+        <source>AI</source>
+        <translation>AI</translation>
+    </message>
+    <message>
+        <source>Summarize</source>
+        <translation>קצר</translation>
+    </message>
+    <message>
+        <source>Alt text</source>
+        <translation>כתבא חלופא</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>ܐܓܪ̈ܬܐ ܕܥܐܠ̈ܢ</translation>
     </message>

@@ -932,6 +932,74 @@
         <translation>അതിന്റെ ഡ്രാഫ്റ്റ് സംരക്ഷിക്കാൻ «പേജ്» പാനൽ തുറക്കുക.</translation>
     </message>
     <message>
+        <source>Exponential Intelligence is not available here.</source>
+        <translation>Exponential Intelligence ഇവിടെ ലഭ്യമല്ല.</translation>
+    </message>
+    <message>
+        <source>This action is not available for this field.</source>
+        <translation>ഈ പ്രവർത്തനം ഈ ഫീൽഡിന് ലഭ്യമല്ല.</translation>
+    </message>
+    <message>
+        <source>Ask</source>
+        <translation>ചോദിക്കുക</translation>
+    </message>
+    <message>
+        <source>Into which language?</source>
+        <translation>ഏത് ഭാഷയിലേക്ക്?</translation>
+    </message>
+    <message>
+        <source>What should be written?</source>
+        <translation>എന്താണ് എഴുതേണ്ടത്?</translation>
+    </message>
+    <message>
+        <source>What should change? (optional)</source>
+        <translation>എന്താണ് മാറേണ്ടത്? (ഐച്ഛികം)</translation>
+    </message>
+    <message>
+        <source>Say what should be written.</source>
+        <translation>എന്താണ് എഴുതേണ്ടതെന്ന് പറയുക.</translation>
+    </message>
+    <message>
+        <source>Asking ...</source>
+        <translation>ചോദിക്കുന്നു ...</translation>
+    </message>
+    <message>
+        <source>Suggestion</source>
+        <translation>നിർദ്ദേശം</translation>
+    </message>
+    <message>
+        <source>Use it</source>
+        <translation>ഉപയോഗിക്കുക</translation>
+    </message>
+    <message>
+        <source>A suggestion: the field keeps its value until you use it.</source>
+        <translation>ഒരു നിർദ്ദേശം: നിങ്ങൾ ഉപയോഗിക്കുന്നതുവരെ ഫീൽഡ് അതിന്റെ മൂല്യം നിലനിർത്തുന്നു.</translation>
+    </message>
+    <message>
+        <source>It is in the field: Save draft keeps it, or autosave does.</source>
+        <translation>ഇത് ഫീൽഡിലുണ്ട്: ഡ്രാഫ്റ്റ് സംരക്ഷിക്കുക ഇത് നിലനിർത്തുന്നു, അല്ലെങ്കിൽ സ്വയം സംരക്ഷണം.</translation>
+    </message>
+    <message>
+        <source>It is in the draft.</source>
+        <translation>ഇത് ഡ്രാഫ്റ്റിലുണ്ട്.</translation>
+    </message>
+    <message>
+        <source>Exponential Intelligence</source>
+        <translation>Exponential Intelligence</translation>
+    </message>
+    <message>
+        <source>AI</source>
+        <translation>AI</translation>
+    </message>
+    <message>
+        <source>Summarize</source>
+        <translation>സംഗ്രഹിക്കുക</translation>
+    </message>
+    <message>
+        <source>Alt text</source>
+        <translation>ഇതര വാചകം</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>ഇൻബോക്സ്</translation>
     </message>

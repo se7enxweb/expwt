@@ -932,6 +932,74 @@
         <translation>Atidarykite skydelį „Puslapis“, kad išsaugotumėte jo juodraštį.</translation>
     </message>
     <message>
+        <source>Exponential Intelligence is not available here.</source>
+        <translation>Exponential Intelligence čia nepasiekiamas.</translation>
+    </message>
+    <message>
+        <source>This action is not available for this field.</source>
+        <translation>Šis veiksmas šiam laukui nepasiekiamas.</translation>
+    </message>
+    <message>
+        <source>Ask</source>
+        <translation>Klausti</translation>
+    </message>
+    <message>
+        <source>Into which language?</source>
+        <translation>Į kurią kalbą?</translation>
+    </message>
+    <message>
+        <source>What should be written?</source>
+        <translation>Ką reikia parašyti?</translation>
+    </message>
+    <message>
+        <source>What should change? (optional)</source>
+        <translation>Ką reikia pakeisti? (neprivaloma)</translation>
+    </message>
+    <message>
+        <source>Say what should be written.</source>
+        <translation>Pasakykite, ką reikia parašyti.</translation>
+    </message>
+    <message>
+        <source>Asking ...</source>
+        <translation>Klausiama ...</translation>
+    </message>
+    <message>
+        <source>Suggestion</source>
+        <translation>Pasiūlymas</translation>
+    </message>
+    <message>
+        <source>Use it</source>
+        <translation>Naudoti</translation>
+    </message>
+    <message>
+        <source>A suggestion: the field keeps its value until you use it.</source>
+        <translation>Pasiūlymas: laukas išlaiko savo reikšmę, kol jį panaudosite.</translation>
+    </message>
+    <message>
+        <source>It is in the field: Save draft keeps it, or autosave does.</source>
+        <translation>Tai yra lauke: Išsaugoti juodraštį tai išlaiko, arba automatinis išsaugojimas.</translation>
+    </message>
+    <message>
+        <source>It is in the draft.</source>
+        <translation>Tai yra juodraštyje.</translation>
+    </message>
+    <message>
+        <source>Exponential Intelligence</source>
+        <translation>Exponential Intelligence</translation>
+    </message>
+    <message>
+        <source>AI</source>
+        <translation>DI</translation>
+    </message>
+    <message>
+        <source>Summarize</source>
+        <translation>Apibendrinti</translation>
+    </message>
+    <message>
+        <source>Alt text</source>
+        <translation>Alternatyvusis tekstas</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Gauta</translation>
     </message>

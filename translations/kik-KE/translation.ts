@@ -932,6 +932,74 @@
         <translation>Hingũra panel ya «Ũrũ» nĩguo wĩge ndrafti yayo.</translation>
     </message>
     <message>
+        <source>Exponential Intelligence is not available here.</source>
+        <translation>Exponential Intelligence ndĩrĩ haha.</translation>
+    </message>
+    <message>
+        <source>This action is not available for this field.</source>
+        <translation>Wĩra ũyũ ndũrĩ wa kĩhumo gĩkĩ.</translation>
+    </message>
+    <message>
+        <source>Ask</source>
+        <translation>Ũria</translation>
+    </message>
+    <message>
+        <source>Into which language?</source>
+        <translation>Rũthiomi rũrĩkũ?</translation>
+    </message>
+    <message>
+        <source>What should be written?</source>
+        <translation>Nĩ kĩĩ kĩandĩkwo?</translation>
+    </message>
+    <message>
+        <source>What should change? (optional)</source>
+        <translation>Nĩ kĩĩ kĩgarũrwo? (wendaga)</translation>
+    </message>
+    <message>
+        <source>Say what should be written.</source>
+        <translation>Uga nĩ kĩĩ kĩandĩkwo.</translation>
+    </message>
+    <message>
+        <source>Asking ...</source>
+        <translation>Nĩ kũũria ...</translation>
+    </message>
+    <message>
+        <source>Suggestion</source>
+        <translation>Ũtaaro</translation>
+    </message>
+    <message>
+        <source>Use it</source>
+        <translation>Hũthĩra</translation>
+    </message>
+    <message>
+        <source>A suggestion: the field keeps its value until you use it.</source>
+        <translation>Ũtaaro: kĩhumo nĩ kĩiga ũrĩa kĩrĩ o nginya ũhũthĩre.</translation>
+    </message>
+    <message>
+        <source>It is in the field: Save draft keeps it, or autosave does.</source>
+        <translation>Kĩrĩ kĩhumo-inĩ: Iga ndrafti nĩ kĩgĩiga, kana kwĩiga kwa ĩĩ.</translation>
+    </message>
+    <message>
+        <source>It is in the draft.</source>
+        <translation>Kĩrĩ ndrafti-inĩ.</translation>
+    </message>
+    <message>
+        <source>Exponential Intelligence</source>
+        <translation>Exponential Intelligence</translation>
+    </message>
+    <message>
+        <source>AI</source>
+        <translation>AI</translation>
+    </message>
+    <message>
+        <source>Summarize</source>
+        <translation>Nyiihia</translation>
+    </message>
+    <message>
+        <source>Alt text</source>
+        <translation>Mandĩko ma alt</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Ithandũkũ rĩa marũa</translation>
     </message>

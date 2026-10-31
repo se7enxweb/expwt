@@ -932,6 +932,74 @@
         <translation>Жобасын сақтау үшін «Бет» панелін ашыңыз.</translation>
     </message>
     <message>
+        <source>Exponential Intelligence is not available here.</source>
+        <translation>Exponential Intelligence мұнда қолжетімсіз.</translation>
+    </message>
+    <message>
+        <source>This action is not available for this field.</source>
+        <translation>Бұл әрекет бұл өріс үшін қолжетімсіз.</translation>
+    </message>
+    <message>
+        <source>Ask</source>
+        <translation>Сұрау</translation>
+    </message>
+    <message>
+        <source>Into which language?</source>
+        <translation>Қай тілге?</translation>
+    </message>
+    <message>
+        <source>What should be written?</source>
+        <translation>Не жазылуы керек?</translation>
+    </message>
+    <message>
+        <source>What should change? (optional)</source>
+        <translation>Не өзгеруі керек? (міндетті емес)</translation>
+    </message>
+    <message>
+        <source>Say what should be written.</source>
+        <translation>Не жазылуы керек екенін айтыңыз.</translation>
+    </message>
+    <message>
+        <source>Asking ...</source>
+        <translation>Сұралуда ...</translation>
+    </message>
+    <message>
+        <source>Suggestion</source>
+        <translation>Ұсыныс</translation>
+    </message>
+    <message>
+        <source>Use it</source>
+        <translation>Пайдалану</translation>
+    </message>
+    <message>
+        <source>A suggestion: the field keeps its value until you use it.</source>
+        <translation>Ұсыныс: сіз оны пайдаланғанша өріс өз мәнін сақтайды.</translation>
+    </message>
+    <message>
+        <source>It is in the field: Save draft keeps it, or autosave does.</source>
+        <translation>Ол өрісте: Жобаны сақтау оны сақтайды, немесе автосақтау.</translation>
+    </message>
+    <message>
+        <source>It is in the draft.</source>
+        <translation>Ол жобада.</translation>
+    </message>
+    <message>
+        <source>Exponential Intelligence</source>
+        <translation>Exponential Intelligence</translation>
+    </message>
+    <message>
+        <source>AI</source>
+        <translation>ЖИ</translation>
+    </message>
+    <message>
+        <source>Summarize</source>
+        <translation>Қорыту</translation>
+    </message>
+    <message>
+        <source>Alt text</source>
+        <translation>Балама мәтін</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Кіріс</translation>
     </message>

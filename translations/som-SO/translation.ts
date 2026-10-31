@@ -932,6 +932,74 @@
         <translation>Fur guddiga «Bog» si aad u keydiso qabyadiisa.</translation>
     </message>
     <message>
+        <source>Exponential Intelligence is not available here.</source>
+        <translation>Exponential Intelligence halkan lagama heli karo.</translation>
+    </message>
+    <message>
+        <source>This action is not available for this field.</source>
+        <translation>Ficilkan looma heli karo goobtan.</translation>
+    </message>
+    <message>
+        <source>Ask</source>
+        <translation>Weydii</translation>
+    </message>
+    <message>
+        <source>Into which language?</source>
+        <translation>Luuqaddee?</translation>
+    </message>
+    <message>
+        <source>What should be written?</source>
+        <translation>Maxaa la qoraa?</translation>
+    </message>
+    <message>
+        <source>What should change? (optional)</source>
+        <translation>Maxaa la beddelaa? (ikhtiyaari)</translation>
+    </message>
+    <message>
+        <source>Say what should be written.</source>
+        <translation>Sheeg waxa la qorayo.</translation>
+    </message>
+    <message>
+        <source>Asking ...</source>
+        <translation>Waa la weydiinayaa ...</translation>
+    </message>
+    <message>
+        <source>Suggestion</source>
+        <translation>Soo jeedin</translation>
+    </message>
+    <message>
+        <source>Use it</source>
+        <translation>Isticmaal</translation>
+    </message>
+    <message>
+        <source>A suggestion: the field keeps its value until you use it.</source>
+        <translation>Soo jeedin: goobtu waxay haysaa qiimaheeda ilaa aad isticmaasho.</translation>
+    </message>
+    <message>
+        <source>It is in the field: Save draft keeps it, or autosave does.</source>
+        <translation>Waxay ku jirtaa goobta: Keydi qabyada ayaa haya, ama keydinta tooska ah.</translation>
+    </message>
+    <message>
+        <source>It is in the draft.</source>
+        <translation>Waxay ku jirtaa qabyada.</translation>
+    </message>
+    <message>
+        <source>Exponential Intelligence</source>
+        <translation>Exponential Intelligence</translation>
+    </message>
+    <message>
+        <source>AI</source>
+        <translation>AI</translation>
+    </message>
+    <message>
+        <source>Summarize</source>
+        <translation>Soo koob</translation>
+    </message>
+    <message>
+        <source>Alt text</source>
+        <translation>Qoraal beddel ah</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Sanduuqa fariimaha</translation>
     </message>

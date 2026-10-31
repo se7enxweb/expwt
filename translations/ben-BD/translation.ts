@@ -932,6 +932,74 @@
         <translation>খসড়া সংরক্ষণ করতে «পৃষ্ঠা» প্যানেল খুলুন।</translation>
     </message>
     <message>
+        <source>Exponential Intelligence is not available here.</source>
+        <translation>Exponential Intelligence এখানে উপলব্ধ নয়।</translation>
+    </message>
+    <message>
+        <source>This action is not available for this field.</source>
+        <translation>এই কাজটি এই ফিল্ডের জন্য উপলব্ধ নয়।</translation>
+    </message>
+    <message>
+        <source>Ask</source>
+        <translation>জিজ্ঞাসা করুন</translation>
+    </message>
+    <message>
+        <source>Into which language?</source>
+        <translation>কোন ভাষায়?</translation>
+    </message>
+    <message>
+        <source>What should be written?</source>
+        <translation>কী লিখতে হবে?</translation>
+    </message>
+    <message>
+        <source>What should change? (optional)</source>
+        <translation>কী বদলাতে হবে? (ঐচ্ছিক)</translation>
+    </message>
+    <message>
+        <source>Say what should be written.</source>
+        <translation>কী লিখতে হবে বলুন।</translation>
+    </message>
+    <message>
+        <source>Asking ...</source>
+        <translation>জিজ্ঞাসা করা হচ্ছে ...</translation>
+    </message>
+    <message>
+        <source>Suggestion</source>
+        <translation>পরামর্শ</translation>
+    </message>
+    <message>
+        <source>Use it</source>
+        <translation>ব্যবহার করুন</translation>
+    </message>
+    <message>
+        <source>A suggestion: the field keeps its value until you use it.</source>
+        <translation>একটি পরামর্শ: আপনি ব্যবহার না করা পর্যন্ত ফিল্ডটি তার মান রাখে।</translation>
+    </message>
+    <message>
+        <source>It is in the field: Save draft keeps it, or autosave does.</source>
+        <translation>এটি ফিল্ডে আছে: খসড়া সংরক্ষণ করুন এটি রাখে, অথবা স্বয়ংক্রিয় সংরক্ষণ।</translation>
+    </message>
+    <message>
+        <source>It is in the draft.</source>
+        <translation>এটি খসড়ায় আছে।</translation>
+    </message>
+    <message>
+        <source>Exponential Intelligence</source>
+        <translation>Exponential Intelligence</translation>
+    </message>
+    <message>
+        <source>AI</source>
+        <translation>AI</translation>
+    </message>
+    <message>
+        <source>Summarize</source>
+        <translation>সংক্ষেপ করুন</translation>
+    </message>
+    <message>
+        <source>Alt text</source>
+        <translation>বিকল্প লেখা</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>ইনবক্স</translation>
     </message>

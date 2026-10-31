@@ -932,6 +932,74 @@
         <translation>Whakatuwherahia te pae «Whārangi» hei tiaki i tōna tauira.</translation>
     </message>
     <message>
+        <source>Exponential Intelligence is not available here.</source>
+        <translation>Kāore a Exponential Intelligence i konei.</translation>
+    </message>
+    <message>
+        <source>This action is not available for this field.</source>
+        <translation>Kāore tēnei mahi mō tēnei āpure.</translation>
+    </message>
+    <message>
+        <source>Ask</source>
+        <translation>Pātai</translation>
+    </message>
+    <message>
+        <source>Into which language?</source>
+        <translation>Ki tēhea reo?</translation>
+    </message>
+    <message>
+        <source>What should be written?</source>
+        <translation>He aha hei tuhi?</translation>
+    </message>
+    <message>
+        <source>What should change? (optional)</source>
+        <translation>He aha hei huri? (kōwhiri)</translation>
+    </message>
+    <message>
+        <source>Say what should be written.</source>
+        <translation>Kīia he aha hei tuhi.</translation>
+    </message>
+    <message>
+        <source>Asking ...</source>
+        <translation>E pātai ana ...</translation>
+    </message>
+    <message>
+        <source>Suggestion</source>
+        <translation>Marohi</translation>
+    </message>
+    <message>
+        <source>Use it</source>
+        <translation>Whakamahia</translation>
+    </message>
+    <message>
+        <source>A suggestion: the field keeps its value until you use it.</source>
+        <translation>He marohi: ka mau tonu te āpure i tōna uara kia whakamahia rā anō e koe.</translation>
+    </message>
+    <message>
+        <source>It is in the field: Save draft keeps it, or autosave does.</source>
+        <translation>Kei te āpure: ka puritia e Tiaki tauira, e te tiaki aunoa rānei.</translation>
+    </message>
+    <message>
+        <source>It is in the draft.</source>
+        <translation>Kei te tauira.</translation>
+    </message>
+    <message>
+        <source>Exponential Intelligence</source>
+        <translation>Exponential Intelligence</translation>
+    </message>
+    <message>
+        <source>AI</source>
+        <translation>AI</translation>
+    </message>
+    <message>
+        <source>Summarize</source>
+        <translation>Whakarāpopoto</translation>
+    </message>
+    <message>
+        <source>Alt text</source>
+        <translation>Kupu kē</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Pouaka whakauru</translation>
     </message>

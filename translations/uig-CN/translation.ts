@@ -932,6 +932,74 @@
         <translation>ئارگىنالىنى ساقلاش ئۈچۈن «بەت» تاختىسىنى ئېچىڭ.</translation>
     </message>
     <message>
+        <source>Exponential Intelligence is not available here.</source>
+        <translation>Exponential Intelligence بۇ يەردە يوق.</translation>
+    </message>
+    <message>
+        <source>This action is not available for this field.</source>
+        <translation>بۇ مەشغۇلات بۇ بۆلەك ئۈچۈن يوق.</translation>
+    </message>
+    <message>
+        <source>Ask</source>
+        <translation>سورا</translation>
+    </message>
+    <message>
+        <source>Into which language?</source>
+        <translation>قايسى تىلغا؟</translation>
+    </message>
+    <message>
+        <source>What should be written?</source>
+        <translation>نېمە يېزىلىشى كېرەك؟</translation>
+    </message>
+    <message>
+        <source>What should change? (optional)</source>
+        <translation>نېمە ئۆزگىرىشى كېرەك؟ (ئىختىيارى)</translation>
+    </message>
+    <message>
+        <source>Say what should be written.</source>
+        <translation>نېمە يېزىلىشى كېرەكلىكىنى ئېيتىڭ.</translation>
+    </message>
+    <message>
+        <source>Asking ...</source>
+        <translation>سوراۋاتىدۇ ...</translation>
+    </message>
+    <message>
+        <source>Suggestion</source>
+        <translation>تەكلىپ</translation>
+    </message>
+    <message>
+        <source>Use it</source>
+        <translation>ئىشلەت</translation>
+    </message>
+    <message>
+        <source>A suggestion: the field keeps its value until you use it.</source>
+        <translation>بىر تەكلىپ: سىز ئىشلەتكۈچە بۆلەك ئۆز قىممىتىنى ساقلايدۇ.</translation>
+    </message>
+    <message>
+        <source>It is in the field: Save draft keeps it, or autosave does.</source>
+        <translation>ئۇ بۆلەكتە: ئارگىنالنى ساقلا ئۇنى ساقلايدۇ، ياكى ئاپتوماتىك ساقلاش.</translation>
+    </message>
+    <message>
+        <source>It is in the draft.</source>
+        <translation>ئۇ ئارگىنالدا.</translation>
+    </message>
+    <message>
+        <source>Exponential Intelligence</source>
+        <translation>Exponential Intelligence</translation>
+    </message>
+    <message>
+        <source>AI</source>
+        <translation>AI</translation>
+    </message>
+    <message>
+        <source>Summarize</source>
+        <translation>خۇلاسىلە</translation>
+    </message>
+    <message>
+        <source>Alt text</source>
+        <translation>ئورۇنباسار تېكىست</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>كىرگەنلەر</translation>
     </message>

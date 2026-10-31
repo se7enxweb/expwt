@@ -932,6 +932,74 @@
         <translation>यसको मस्यौदा सुरक्षित गर्न «पृष्ठ» प्यानल खोल्नुहोस्।</translation>
     </message>
     <message>
+        <source>Exponential Intelligence is not available here.</source>
+        <translation>Exponential Intelligence यहाँ उपलब्ध छैन।</translation>
+    </message>
+    <message>
+        <source>This action is not available for this field.</source>
+        <translation>यो कार्य यो फिल्डका लागि उपलब्ध छैन।</translation>
+    </message>
+    <message>
+        <source>Ask</source>
+        <translation>सोध्नुहोस्</translation>
+    </message>
+    <message>
+        <source>Into which language?</source>
+        <translation>कुन भाषामा?</translation>
+    </message>
+    <message>
+        <source>What should be written?</source>
+        <translation>के लेख्नुपर्छ?</translation>
+    </message>
+    <message>
+        <source>What should change? (optional)</source>
+        <translation>के बदल्नुपर्छ? (ऐच्छिक)</translation>
+    </message>
+    <message>
+        <source>Say what should be written.</source>
+        <translation>के लेख्नुपर्छ भन्नुहोस्।</translation>
+    </message>
+    <message>
+        <source>Asking ...</source>
+        <translation>सोधिँदै ...</translation>
+    </message>
+    <message>
+        <source>Suggestion</source>
+        <translation>सुझाव</translation>
+    </message>
+    <message>
+        <source>Use it</source>
+        <translation>प्रयोग गर्नुहोस्</translation>
+    </message>
+    <message>
+        <source>A suggestion: the field keeps its value until you use it.</source>
+        <translation>एउटा सुझाव: तपाईंले प्रयोग नगरेसम्म फिल्डले आफ्नो मान राख्छ।</translation>
+    </message>
+    <message>
+        <source>It is in the field: Save draft keeps it, or autosave does.</source>
+        <translation>यो फिल्डमा छ: मस्यौदा सुरक्षित गर्नुहोस् ले यसलाई राख्छ, वा स्वतः सुरक्षित।</translation>
+    </message>
+    <message>
+        <source>It is in the draft.</source>
+        <translation>यो मस्यौदामा छ।</translation>
+    </message>
+    <message>
+        <source>Exponential Intelligence</source>
+        <translation>Exponential Intelligence</translation>
+    </message>
+    <message>
+        <source>AI</source>
+        <translation>AI</translation>
+    </message>
+    <message>
+        <source>Summarize</source>
+        <translation>सारांश गर्नुहोस्</translation>
+    </message>
+    <message>
+        <source>Alt text</source>
+        <translation>वैकल्पिक पाठ</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>इनबक्स</translation>
     </message>

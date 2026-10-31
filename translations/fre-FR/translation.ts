@@ -932,6 +932,74 @@
         <translation>Ouvrez le panneau « Page » pour enregistrer son brouillon.</translation>
     </message>
     <message>
+        <source>Exponential Intelligence is not available here.</source>
+        <translation>Exponential Intelligence n'est pas disponible ici.</translation>
+    </message>
+    <message>
+        <source>This action is not available for this field.</source>
+        <translation>Cette action n'est pas disponible pour ce champ.</translation>
+    </message>
+    <message>
+        <source>Ask</source>
+        <translation>Demander</translation>
+    </message>
+    <message>
+        <source>Into which language?</source>
+        <translation>Dans quelle langue ?</translation>
+    </message>
+    <message>
+        <source>What should be written?</source>
+        <translation>Que faut-il écrire ?</translation>
+    </message>
+    <message>
+        <source>What should change? (optional)</source>
+        <translation>Que faut-il changer ? (facultatif)</translation>
+    </message>
+    <message>
+        <source>Say what should be written.</source>
+        <translation>Indiquez ce qu'il faut écrire.</translation>
+    </message>
+    <message>
+        <source>Asking ...</source>
+        <translation>Demande en cours ...</translation>
+    </message>
+    <message>
+        <source>Suggestion</source>
+        <translation>Suggestion</translation>
+    </message>
+    <message>
+        <source>Use it</source>
+        <translation>Utiliser</translation>
+    </message>
+    <message>
+        <source>A suggestion: the field keeps its value until you use it.</source>
+        <translation>Une suggestion : le champ garde sa valeur jusqu'à ce que vous l'utilisiez.</translation>
+    </message>
+    <message>
+        <source>It is in the field: Save draft keeps it, or autosave does.</source>
+        <translation>C'est dans le champ : Enregistrer le brouillon le conserve, ou l'enregistrement automatique.</translation>
+    </message>
+    <message>
+        <source>It is in the draft.</source>
+        <translation>C'est dans le brouillon.</translation>
+    </message>
+    <message>
+        <source>Exponential Intelligence</source>
+        <translation>Exponential Intelligence</translation>
+    </message>
+    <message>
+        <source>AI</source>
+        <translation>IA</translation>
+    </message>
+    <message>
+        <source>Summarize</source>
+        <translation>Résumer</translation>
+    </message>
+    <message>
+        <source>Alt text</source>
+        <translation>Texte alternatif</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Boîte de réception</translation>
     </message>

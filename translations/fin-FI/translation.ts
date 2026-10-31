@@ -932,6 +932,74 @@
         <translation>Avaa Sivu-paneeli tallentaaksesi sen luonnoksen.</translation>
     </message>
     <message>
+        <source>Exponential Intelligence is not available here.</source>
+        <translation>Exponential Intelligence ei ole käytettävissä tässä.</translation>
+    </message>
+    <message>
+        <source>This action is not available for this field.</source>
+        <translation>Tämä toiminto ei ole käytettävissä tälle kentälle.</translation>
+    </message>
+    <message>
+        <source>Ask</source>
+        <translation>Kysy</translation>
+    </message>
+    <message>
+        <source>Into which language?</source>
+        <translation>Mille kielelle?</translation>
+    </message>
+    <message>
+        <source>What should be written?</source>
+        <translation>Mitä pitäisi kirjoittaa?</translation>
+    </message>
+    <message>
+        <source>What should change? (optional)</source>
+        <translation>Mitä pitäisi muuttaa? (valinnainen)</translation>
+    </message>
+    <message>
+        <source>Say what should be written.</source>
+        <translation>Kerro, mitä pitäisi kirjoittaa.</translation>
+    </message>
+    <message>
+        <source>Asking ...</source>
+        <translation>Kysytään ...</translation>
+    </message>
+    <message>
+        <source>Suggestion</source>
+        <translation>Ehdotus</translation>
+    </message>
+    <message>
+        <source>Use it</source>
+        <translation>Käytä</translation>
+    </message>
+    <message>
+        <source>A suggestion: the field keeps its value until you use it.</source>
+        <translation>Ehdotus: kenttä pitää arvonsa, kunnes käytät sen.</translation>
+    </message>
+    <message>
+        <source>It is in the field: Save draft keeps it, or autosave does.</source>
+        <translation>Se on kentässä: Tallenna luonnos säilyttää sen, tai automaattinen tallennus.</translation>
+    </message>
+    <message>
+        <source>It is in the draft.</source>
+        <translation>Se on luonnoksessa.</translation>
+    </message>
+    <message>
+        <source>Exponential Intelligence</source>
+        <translation>Exponential Intelligence</translation>
+    </message>
+    <message>
+        <source>AI</source>
+        <translation>AI</translation>
+    </message>
+    <message>
+        <source>Summarize</source>
+        <translation>Tiivistä</translation>
+    </message>
+    <message>
+        <source>Alt text</source>
+        <translation>Vaihtoehtoinen teksti</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Saapuneet</translation>
     </message>

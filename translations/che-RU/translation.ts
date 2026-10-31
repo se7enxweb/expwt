@@ -932,6 +932,74 @@
         <translation>Шен черновик дӀаӀалашйан «АгӀо» панель схьаелла.</translation>
     </message>
     <message>
+        <source>Exponential Intelligence is not available here.</source>
+        <translation>Exponential Intelligence кхузахь яц.</translation>
+    </message>
+    <message>
+        <source>This action is not available for this field.</source>
+        <translation>И дешдар хӀокху арена дац.</translation>
+    </message>
+    <message>
+        <source>Ask</source>
+        <translation>Хатта</translation>
+    </message>
+    <message>
+        <source>Into which language?</source>
+        <translation>Муьлха матте?</translation>
+    </message>
+    <message>
+        <source>What should be written?</source>
+        <translation>Хӏун яздан деза?</translation>
+    </message>
+    <message>
+        <source>What should change? (optional)</source>
+        <translation>Хӏун хийца деза? (лаахь)</translation>
+    </message>
+    <message>
+        <source>Say what should be written.</source>
+        <translation>Хӏун яздан деза, алийша.</translation>
+    </message>
+    <message>
+        <source>Asking ...</source>
+        <translation>Хоьттуш ...</translation>
+    </message>
+    <message>
+        <source>Suggestion</source>
+        <translation>Хьехар</translation>
+    </message>
+    <message>
+        <source>Use it</source>
+        <translation>Пайдаэца</translation>
+    </message>
+    <message>
+        <source>A suggestion: the field keeps its value until you use it.</source>
+        <translation>Хьехар: аша пайдаэцца кхаччалц аре шен маьӀна латтадо.</translation>
+    </message>
+    <message>
+        <source>It is in the field: Save draft keeps it, or autosave does.</source>
+        <translation>Аренахь ду: Черновик дӀаӀалашде цуьнан дӀаӀалашдо, я ша-шех дӀаӀалашдар.</translation>
+    </message>
+    <message>
+        <source>It is in the draft.</source>
+        <translation>Черновикехь ду.</translation>
+    </message>
+    <message>
+        <source>Exponential Intelligence</source>
+        <translation>Exponential Intelligence</translation>
+    </message>
+    <message>
+        <source>AI</source>
+        <translation>AI</translation>
+    </message>
+    <message>
+        <source>Summarize</source>
+        <translation>Цхьаьнатоха</translation>
+    </message>
+    <message>
+        <source>Alt text</source>
+        <translation>Альт-текст</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Чуйогӏу</translation>
     </message>

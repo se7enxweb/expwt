@@ -932,6 +932,74 @@
         <translation>Dobrissètz lo panèl « Pagina » per enregistrar son borrolhon.</translation>
     </message>
     <message>
+        <source>Exponential Intelligence is not available here.</source>
+        <translation>Exponential Intelligence es pas disponible aquí.</translation>
+    </message>
+    <message>
+        <source>This action is not available for this field.</source>
+        <translation>Aquesta accion es pas disponibla per aqueste camp.</translation>
+    </message>
+    <message>
+        <source>Ask</source>
+        <translation>Demandar</translation>
+    </message>
+    <message>
+        <source>Into which language?</source>
+        <translation>En quina lenga?</translation>
+    </message>
+    <message>
+        <source>What should be written?</source>
+        <translation>Qué cal escriure?</translation>
+    </message>
+    <message>
+        <source>What should change? (optional)</source>
+        <translation>Qué cal cambiar? (opcional)</translation>
+    </message>
+    <message>
+        <source>Say what should be written.</source>
+        <translation>Indicatz qué cal escriure.</translation>
+    </message>
+    <message>
+        <source>Asking ...</source>
+        <translation>Demanda en cors ...</translation>
+    </message>
+    <message>
+        <source>Suggestion</source>
+        <translation>Suggestion</translation>
+    </message>
+    <message>
+        <source>Use it</source>
+        <translation>Utilizar</translation>
+    </message>
+    <message>
+        <source>A suggestion: the field keeps its value until you use it.</source>
+        <translation>Una suggestion: lo camp garda sa valor fins que l'utilizetz.</translation>
+    </message>
+    <message>
+        <source>It is in the field: Save draft keeps it, or autosave does.</source>
+        <translation>Es dins lo camp: Enregistrar lo borrolhon lo garda, o l'enregistrament automatic.</translation>
+    </message>
+    <message>
+        <source>It is in the draft.</source>
+        <translation>Es dins lo borrolhon.</translation>
+    </message>
+    <message>
+        <source>Exponential Intelligence</source>
+        <translation>Exponential Intelligence</translation>
+    </message>
+    <message>
+        <source>AI</source>
+        <translation>IA</translation>
+    </message>
+    <message>
+        <source>Summarize</source>
+        <translation>Resumir</translation>
+    </message>
+    <message>
+        <source>Alt text</source>
+        <translation>Tèxt alternatiu</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Bóstia de recepcion</translation>
     </message>

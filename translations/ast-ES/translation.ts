@@ -932,6 +932,74 @@
         <translation>Abri'l panel «Páxina» pa guardar el so borrador.</translation>
     </message>
     <message>
+        <source>Exponential Intelligence is not available here.</source>
+        <translation>Exponential Intelligence nun ta disponible equí.</translation>
+    </message>
+    <message>
+        <source>This action is not available for this field.</source>
+        <translation>Esta aición nun ta disponible pa esti campu.</translation>
+    </message>
+    <message>
+        <source>Ask</source>
+        <translation>Entrugar</translation>
+    </message>
+    <message>
+        <source>Into which language?</source>
+        <translation>¿A qué llingua?</translation>
+    </message>
+    <message>
+        <source>What should be written?</source>
+        <translation>¿Qué habría escribise?</translation>
+    </message>
+    <message>
+        <source>What should change? (optional)</source>
+        <translation>¿Qué habría camudar? (opcional)</translation>
+    </message>
+    <message>
+        <source>Say what should be written.</source>
+        <translation>Di qué habría escribise.</translation>
+    </message>
+    <message>
+        <source>Asking ...</source>
+        <translation>Entrugando ...</translation>
+    </message>
+    <message>
+        <source>Suggestion</source>
+        <translation>Suxerencia</translation>
+    </message>
+    <message>
+        <source>Use it</source>
+        <translation>Usala</translation>
+    </message>
+    <message>
+        <source>A suggestion: the field keeps its value until you use it.</source>
+        <translation>Una suxerencia: el campu caltién el so valor hasta que la uses.</translation>
+    </message>
+    <message>
+        <source>It is in the field: Save draft keeps it, or autosave does.</source>
+        <translation>Ta nel campu: Guardar borrador caltiénlo, o fáilo l'autoguardáu.</translation>
+    </message>
+    <message>
+        <source>It is in the draft.</source>
+        <translation>Ta nel borrador.</translation>
+    </message>
+    <message>
+        <source>Exponential Intelligence</source>
+        <translation>Exponential Intelligence</translation>
+    </message>
+    <message>
+        <source>AI</source>
+        <translation>IA</translation>
+    </message>
+    <message>
+        <source>Summarize</source>
+        <translation>Resumir</translation>
+    </message>
+    <message>
+        <source>Alt text</source>
+        <translation>Testu alternativu</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Bandexa d'entrada</translation>
     </message>

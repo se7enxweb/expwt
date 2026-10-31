@@ -932,6 +932,74 @@
         <translation>बेनि खस्रा दोननो «बिलाइखाना» पेनेल खेव।</translation>
     </message>
     <message>
+        <source>Exponential Intelligence is not available here.</source>
+        <translation>Exponential Intelligence बेयाव मोनाखै।</translation>
+    </message>
+    <message>
+        <source>This action is not available for this field.</source>
+        <translation>बे खामानिआ बे फिल्डनि थाखाय मोनाखै।</translation>
+    </message>
+    <message>
+        <source>Ask</source>
+        <translation>सुं</translation>
+    </message>
+    <message>
+        <source>Into which language?</source>
+        <translation>माबे राव आव?</translation>
+    </message>
+    <message>
+        <source>What should be written?</source>
+        <translation>मा लिरनांगौ?</translation>
+    </message>
+    <message>
+        <source>What should change? (optional)</source>
+        <translation>मा सोलायनांगौ? (गोसोनि)</translation>
+    </message>
+    <message>
+        <source>Say what should be written.</source>
+        <translation>मा लिरनांगौ बुं।</translation>
+    </message>
+    <message>
+        <source>Asking ...</source>
+        <translation>सुंगासिनो दं ...</translation>
+    </message>
+    <message>
+        <source>Suggestion</source>
+        <translation>बुद्धि होनाय</translation>
+    </message>
+    <message>
+        <source>Use it</source>
+        <translation>बाहायना ला</translation>
+    </message>
+    <message>
+        <source>A suggestion: the field keeps its value until you use it.</source>
+        <translation>मोनसे बुद्धि: नों बाहायाखै सिम फिल्डआ बेनि बेसेनखौ दोनो।</translation>
+    </message>
+    <message>
+        <source>It is in the field: Save draft keeps it, or autosave does.</source>
+        <translation>बेयो फिल्डआव दं: खस्रा दोन बेखौ दोनो, एबा गावनो दोननाय।</translation>
+    </message>
+    <message>
+        <source>It is in the draft.</source>
+        <translation>बेयो खस्राआव दं।</translation>
+    </message>
+    <message>
+        <source>Exponential Intelligence</source>
+        <translation>Exponential Intelligence</translation>
+    </message>
+    <message>
+        <source>AI</source>
+        <translation>AI</translation>
+    </message>
+    <message>
+        <source>Summarize</source>
+        <translation>सुंद'</translation>
+    </message>
+    <message>
+        <source>Alt text</source>
+        <translation>गुबुन लिरथाय</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>इनबक्स</translation>
     </message>

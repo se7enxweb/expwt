@@ -932,6 +932,74 @@
         <translation>ཁོ་རའི་ཟིན་བྲིས་སྲུང་བཞག་འབད་ནི་ལུ་ «ཤོག་ལེབ་» པེ་ནཱལ་ཁ་ཕྱེ།</translation>
     </message>
     <message>
+        <source>Exponential Intelligence is not available here.</source>
+        <translation>Exponential Intelligence ནཱ་ལུ་མེད།</translation>
+    </message>
+    <message>
+        <source>This action is not available for this field.</source>
+        <translation>བྱ་བ་འདི་ ས་སྒོ་འདི་གི་དོན་ལུ་མེད།</translation>
+    </message>
+    <message>
+        <source>Ask</source>
+        <translation>འདྲི།</translation>
+    </message>
+    <message>
+        <source>Into which language?</source>
+        <translation>སྐད་ཡིག་ག་ཅི་ནང་?</translation>
+    </message>
+    <message>
+        <source>What should be written?</source>
+        <translation>ག་ཅི་བྲི་དགོཔ་སྨོ?</translation>
+    </message>
+    <message>
+        <source>What should change? (optional)</source>
+        <translation>ག་ཅི་སོར་དགོཔ་སྨོ? (གདམ་ཁ)</translation>
+    </message>
+    <message>
+        <source>Say what should be written.</source>
+        <translation>ག་ཅི་བྲི་དགོཔ་སྨོ་ སླབ།</translation>
+    </message>
+    <message>
+        <source>Asking ...</source>
+        <translation>འདྲི་དོ ...</translation>
+    </message>
+    <message>
+        <source>Suggestion</source>
+        <translation>བསམ་འཆར།</translation>
+    </message>
+    <message>
+        <source>Use it</source>
+        <translation>ལག་ལེན་འཐབ།</translation>
+    </message>
+    <message>
+        <source>A suggestion: the field keeps its value until you use it.</source>
+        <translation>བསམ་འཆར་ཅིག: ཁྱོད་ཀྱིས་ ལག་ལེན་མ་འཐབ་ཚུན་ ས་སྒོ་གིས་ དེ་གི་གནས་གོང་བཞག་འོང་།</translation>
+    </message>
+    <message>
+        <source>It is in the field: Save draft keeps it, or autosave does.</source>
+        <translation>ས་སྒོ་ནང་ཡོད: ཟིན་བྲིས་སྲུང་བཞག་གིས་ བཞག་འོང་ ཡང་ན་ རང་བཞིན་སྲུང་བཞག་གིས།</translation>
+    </message>
+    <message>
+        <source>It is in the draft.</source>
+        <translation>ཟིན་བྲིས་ནང་ཡོད།</translation>
+    </message>
+    <message>
+        <source>Exponential Intelligence</source>
+        <translation>Exponential Intelligence</translation>
+    </message>
+    <message>
+        <source>AI</source>
+        <translation>AI</translation>
+    </message>
+    <message>
+        <source>Summarize</source>
+        <translation>བསྡོམས།</translation>
+    </message>
+    <message>
+        <source>Alt text</source>
+        <translation>ཚབ་ཡིག</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>ནང་འབྱོར།</translation>
     </message>

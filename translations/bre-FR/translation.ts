@@ -932,6 +932,74 @@
         <translation>Digorit ar banell «Pajenn» evit enrollañ he brouilhed.</translation>
     </message>
     <message>
+        <source>Exponential Intelligence is not available here.</source>
+        <translation>N'eo ket hegerz Exponential Intelligence amañ.</translation>
+    </message>
+    <message>
+        <source>This action is not available for this field.</source>
+        <translation>N'eo ket hegerz an ober-mañ evit ar vaezienn-mañ.</translation>
+    </message>
+    <message>
+        <source>Ask</source>
+        <translation>Goulenn</translation>
+    </message>
+    <message>
+        <source>Into which language?</source>
+        <translation>E pe yezh?</translation>
+    </message>
+    <message>
+        <source>What should be written?</source>
+        <translation>Petra a rank bezañ skrivet?</translation>
+    </message>
+    <message>
+        <source>What should change? (optional)</source>
+        <translation>Petra a rank cheñch? (diret)</translation>
+    </message>
+    <message>
+        <source>Say what should be written.</source>
+        <translation>Lavarit petra a rank bezañ skrivet.</translation>
+    </message>
+    <message>
+        <source>Asking ...</source>
+        <translation>O c'houlenn ...</translation>
+    </message>
+    <message>
+        <source>Suggestion</source>
+        <translation>Kinnig</translation>
+    </message>
+    <message>
+        <source>Use it</source>
+        <translation>Implijout</translation>
+    </message>
+    <message>
+        <source>A suggestion: the field keeps its value until you use it.</source>
+        <translation>Ur c'hinnig: ar vaezienn a vir he zalvoudegezh betek ma vo implijet ganeoc'h.</translation>
+    </message>
+    <message>
+        <source>It is in the field: Save draft keeps it, or autosave does.</source>
+        <translation>Er vaezienn emañ: Enrollañ ar brouilhed a vir anezhañ, pe an enrollañ emgefreek.</translation>
+    </message>
+    <message>
+        <source>It is in the draft.</source>
+        <translation>Er brouilhed emañ.</translation>
+    </message>
+    <message>
+        <source>Exponential Intelligence</source>
+        <translation>Exponential Intelligence</translation>
+    </message>
+    <message>
+        <source>AI</source>
+        <translation>AI</translation>
+    </message>
+    <message>
+        <source>Summarize</source>
+        <translation>Diverrañ</translation>
+    </message>
+    <message>
+        <source>Alt text</source>
+        <translation>Testenn erlec'hiañ</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Boest-degemer</translation>
     </message>

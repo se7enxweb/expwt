@@ -932,6 +932,74 @@
         <translation>Отворите панел „Страница“ да сачувате њену скицу.</translation>
     </message>
     <message>
+        <source>Exponential Intelligence is not available here.</source>
+        <translation>Exponential Intelligence овде није доступан.</translation>
+    </message>
+    <message>
+        <source>This action is not available for this field.</source>
+        <translation>Ова радња није доступна за ово поље.</translation>
+    </message>
+    <message>
+        <source>Ask</source>
+        <translation>Питај</translation>
+    </message>
+    <message>
+        <source>Into which language?</source>
+        <translation>На који језик?</translation>
+    </message>
+    <message>
+        <source>What should be written?</source>
+        <translation>Шта треба написати?</translation>
+    </message>
+    <message>
+        <source>What should change? (optional)</source>
+        <translation>Шта треба променити? (опционо)</translation>
+    </message>
+    <message>
+        <source>Say what should be written.</source>
+        <translation>Реците шта треба написати.</translation>
+    </message>
+    <message>
+        <source>Asking ...</source>
+        <translation>Пита се ...</translation>
+    </message>
+    <message>
+        <source>Suggestion</source>
+        <translation>Предлог</translation>
+    </message>
+    <message>
+        <source>Use it</source>
+        <translation>Искористи</translation>
+    </message>
+    <message>
+        <source>A suggestion: the field keeps its value until you use it.</source>
+        <translation>Предлог: поље задржава своју вредност док га не искористите.</translation>
+    </message>
+    <message>
+        <source>It is in the field: Save draft keeps it, or autosave does.</source>
+        <translation>У пољу је: Сачувај скицу га задржава, или аутоматско чување.</translation>
+    </message>
+    <message>
+        <source>It is in the draft.</source>
+        <translation>У скици је.</translation>
+    </message>
+    <message>
+        <source>Exponential Intelligence</source>
+        <translation>Exponential Intelligence</translation>
+    </message>
+    <message>
+        <source>AI</source>
+        <translation>ВИ</translation>
+    </message>
+    <message>
+        <source>Summarize</source>
+        <translation>Сажми</translation>
+    </message>
+    <message>
+        <source>Alt text</source>
+        <translation>Алтернативни текст</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Примљено</translation>
     </message>

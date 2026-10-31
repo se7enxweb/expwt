@@ -932,6 +932,74 @@
         <translation>Mở bảng «Trang» để lưu bản nháp của nó.</translation>
     </message>
     <message>
+        <source>Exponential Intelligence is not available here.</source>
+        <translation>Exponential Intelligence không khả dụng ở đây.</translation>
+    </message>
+    <message>
+        <source>This action is not available for this field.</source>
+        <translation>Thao tác này không khả dụng cho trường này.</translation>
+    </message>
+    <message>
+        <source>Ask</source>
+        <translation>Hỏi</translation>
+    </message>
+    <message>
+        <source>Into which language?</source>
+        <translation>Sang ngôn ngữ nào?</translation>
+    </message>
+    <message>
+        <source>What should be written?</source>
+        <translation>Nên viết gì?</translation>
+    </message>
+    <message>
+        <source>What should change? (optional)</source>
+        <translation>Nên thay đổi gì? (không bắt buộc)</translation>
+    </message>
+    <message>
+        <source>Say what should be written.</source>
+        <translation>Hãy nói nên viết gì.</translation>
+    </message>
+    <message>
+        <source>Asking ...</source>
+        <translation>Đang hỏi ...</translation>
+    </message>
+    <message>
+        <source>Suggestion</source>
+        <translation>Gợi ý</translation>
+    </message>
+    <message>
+        <source>Use it</source>
+        <translation>Dùng</translation>
+    </message>
+    <message>
+        <source>A suggestion: the field keeps its value until you use it.</source>
+        <translation>Một gợi ý: trường giữ nguyên giá trị cho đến khi bạn dùng nó.</translation>
+    </message>
+    <message>
+        <source>It is in the field: Save draft keeps it, or autosave does.</source>
+        <translation>Đã ở trong trường: Lưu bản nháp sẽ giữ nó, hoặc tự động lưu.</translation>
+    </message>
+    <message>
+        <source>It is in the draft.</source>
+        <translation>Đã ở trong bản nháp.</translation>
+    </message>
+    <message>
+        <source>Exponential Intelligence</source>
+        <translation>Exponential Intelligence</translation>
+    </message>
+    <message>
+        <source>AI</source>
+        <translation>AI</translation>
+    </message>
+    <message>
+        <source>Summarize</source>
+        <translation>Tóm tắt</translation>
+    </message>
+    <message>
+        <source>Alt text</source>
+        <translation>Văn bản thay thế</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Hộp thư đến</translation>
     </message>

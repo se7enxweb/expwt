@@ -932,6 +932,74 @@
         <translation>Ugurura akanama «Urupapuro» kugira ubike intango yako.</translation>
     </message>
     <message>
+        <source>Exponential Intelligence is not available here.</source>
+        <translation>Exponential Intelligence ntiboneka ngaha.</translation>
+    </message>
+    <message>
+        <source>This action is not available for this field.</source>
+        <translation>Iki gikorwa ntikiboneka kuri iki kibanza.</translation>
+    </message>
+    <message>
+        <source>Ask</source>
+        <translation>Baza</translation>
+    </message>
+    <message>
+        <source>Into which language?</source>
+        <translation>Mu rurimi uruhe?</translation>
+    </message>
+    <message>
+        <source>What should be written?</source>
+        <translation>Hakwiye kwandikwa iki?</translation>
+    </message>
+    <message>
+        <source>What should change? (optional)</source>
+        <translation>Hakwiye guhinduka iki? (si ngombwa)</translation>
+    </message>
+    <message>
+        <source>Say what should be written.</source>
+        <translation>Vuga ico gukwiye kwandikwa.</translation>
+    </message>
+    <message>
+        <source>Asking ...</source>
+        <translation>Birabaza ...</translation>
+    </message>
+    <message>
+        <source>Suggestion</source>
+        <translation>Iciyumviro</translation>
+    </message>
+    <message>
+        <source>Use it</source>
+        <translation>Kikoreshe</translation>
+    </message>
+    <message>
+        <source>A suggestion: the field keeps its value until you use it.</source>
+        <translation>Iciyumviro: ikibanza kigumana agaciro kaco gushika ugikoresheje.</translation>
+    </message>
+    <message>
+        <source>It is in the field: Save draft keeps it, or autosave does.</source>
+        <translation>Kiri mu kibanza: Bika intango kiragibika, canke kubika vyonyene.</translation>
+    </message>
+    <message>
+        <source>It is in the draft.</source>
+        <translation>Kiri mu ntango.</translation>
+    </message>
+    <message>
+        <source>Exponential Intelligence</source>
+        <translation>Exponential Intelligence</translation>
+    </message>
+    <message>
+        <source>AI</source>
+        <translation>AI</translation>
+    </message>
+    <message>
+        <source>Summarize</source>
+        <translation>Vuga mu ncamake</translation>
+    </message>
+    <message>
+        <source>Alt text</source>
+        <translation>Inyandiko isubirira</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Ubutumwa bwinjira</translation>
     </message>

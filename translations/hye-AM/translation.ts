@@ -932,6 +932,74 @@
         <translation>Բացեք «Էջ» վահանակը՝ դրա սևագիրը պահպանելու համար։</translation>
     </message>
     <message>
+        <source>Exponential Intelligence is not available here.</source>
+        <translation>Exponential Intelligence-ը այստեղ հասանելի չէ։</translation>
+    </message>
+    <message>
+        <source>This action is not available for this field.</source>
+        <translation>Այս գործողությունը հասանելի չէ այս դաշտի համար։</translation>
+    </message>
+    <message>
+        <source>Ask</source>
+        <translation>Հարցնել</translation>
+    </message>
+    <message>
+        <source>Into which language?</source>
+        <translation>Ո՞ր լեզվով։</translation>
+    </message>
+    <message>
+        <source>What should be written?</source>
+        <translation>Ի՞նչ պետք է գրվի։</translation>
+    </message>
+    <message>
+        <source>What should change? (optional)</source>
+        <translation>Ի՞նչ պետք է փոխվի։ (ըստ ցանկության)</translation>
+    </message>
+    <message>
+        <source>Say what should be written.</source>
+        <translation>Ասեք, թե ինչ պետք է գրվի։</translation>
+    </message>
+    <message>
+        <source>Asking ...</source>
+        <translation>Հարցվում է ...</translation>
+    </message>
+    <message>
+        <source>Suggestion</source>
+        <translation>Առաջարկ</translation>
+    </message>
+    <message>
+        <source>Use it</source>
+        <translation>Օգտագործել</translation>
+    </message>
+    <message>
+        <source>A suggestion: the field keeps its value until you use it.</source>
+        <translation>Առաջարկ․ դաշտը պահում է իր արժեքը, մինչև դուք այն օգտագործեք։</translation>
+    </message>
+    <message>
+        <source>It is in the field: Save draft keeps it, or autosave does.</source>
+        <translation>Այն դաշտում է․ Պահպանել սևագիրը այն պահում է, կամ ինքնապահպանումը։</translation>
+    </message>
+    <message>
+        <source>It is in the draft.</source>
+        <translation>Այն սևագրում է։</translation>
+    </message>
+    <message>
+        <source>Exponential Intelligence</source>
+        <translation>Exponential Intelligence</translation>
+    </message>
+    <message>
+        <source>AI</source>
+        <translation>ԱԲ</translation>
+    </message>
+    <message>
+        <source>Summarize</source>
+        <translation>Ամփոփել</translation>
+    </message>
+    <message>
+        <source>Alt text</source>
+        <translation>Այլընտրանքային տեքստ</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Մուտքային</translation>
     </message>

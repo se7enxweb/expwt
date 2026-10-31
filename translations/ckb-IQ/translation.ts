@@ -932,6 +932,74 @@
         <translation>پانێڵی «پەڕە» بکەرەوە بۆ پاشەکەوتکردنی ڕەشنووسەکەی.</translation>
     </message>
     <message>
+        <source>Exponential Intelligence is not available here.</source>
+        <translation>Exponential Intelligence لێرە بەردەست نییە.</translation>
+    </message>
+    <message>
+        <source>This action is not available for this field.</source>
+        <translation>ئەم کردارە بۆ ئەم خانەیە بەردەست نییە.</translation>
+    </message>
+    <message>
+        <source>Ask</source>
+        <translation>بپرسە</translation>
+    </message>
+    <message>
+        <source>Into which language?</source>
+        <translation>بۆ کام زمان؟</translation>
+    </message>
+    <message>
+        <source>What should be written?</source>
+        <translation>چی بنووسرێت؟</translation>
+    </message>
+    <message>
+        <source>What should change? (optional)</source>
+        <translation>چی بگۆڕدرێت؟ (ئارەزوومەندانە)</translation>
+    </message>
+    <message>
+        <source>Say what should be written.</source>
+        <translation>بڵێ چی بنووسرێت.</translation>
+    </message>
+    <message>
+        <source>Asking ...</source>
+        <translation>پرسیار دەکرێت ...</translation>
+    </message>
+    <message>
+        <source>Suggestion</source>
+        <translation>پێشنیار</translation>
+    </message>
+    <message>
+        <source>Use it</source>
+        <translation>بەکاری بهێنە</translation>
+    </message>
+    <message>
+        <source>A suggestion: the field keeps its value until you use it.</source>
+        <translation>پێشنیارێک: خانەکە بەهاکەی خۆی دەهێڵێتەوە تا بەکاری دەهێنیت.</translation>
+    </message>
+    <message>
+        <source>It is in the field: Save draft keeps it, or autosave does.</source>
+        <translation>لە خانەکەدایە: پاشەکەوتکردنی ڕەشنووس دەیهێڵێتەوە، یان پاشەکەوتی خۆکار.</translation>
+    </message>
+    <message>
+        <source>It is in the draft.</source>
+        <translation>لە ڕەشنووسەکەدایە.</translation>
+    </message>
+    <message>
+        <source>Exponential Intelligence</source>
+        <translation>Exponential Intelligence</translation>
+    </message>
+    <message>
+        <source>AI</source>
+        <translation>AI</translation>
+    </message>
+    <message>
+        <source>Summarize</source>
+        <translation>کورتی بکەرەوە</translation>
+    </message>
+    <message>
+        <source>Alt text</source>
+        <translation>دەقی جێگرەوە</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>هاتووەکان</translation>
     </message>

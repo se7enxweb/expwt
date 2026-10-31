@@ -932,6 +932,74 @@
         <translation>เปิดแผง «หน้า» เพื่อบันทึกฉบับร่าง</translation>
     </message>
     <message>
+        <source>Exponential Intelligence is not available here.</source>
+        <translation>Exponential Intelligence ไม่พร้อมใช้งานที่นี่</translation>
+    </message>
+    <message>
+        <source>This action is not available for this field.</source>
+        <translation>การดำเนินการนี้ไม่พร้อมใช้งานสำหรับฟิลด์นี้</translation>
+    </message>
+    <message>
+        <source>Ask</source>
+        <translation>ถาม</translation>
+    </message>
+    <message>
+        <source>Into which language?</source>
+        <translation>เป็นภาษาใด?</translation>
+    </message>
+    <message>
+        <source>What should be written?</source>
+        <translation>ควรเขียนอะไร?</translation>
+    </message>
+    <message>
+        <source>What should change? (optional)</source>
+        <translation>ควรเปลี่ยนอะไร? (ไม่บังคับ)</translation>
+    </message>
+    <message>
+        <source>Say what should be written.</source>
+        <translation>บอกว่าควรเขียนอะไร</translation>
+    </message>
+    <message>
+        <source>Asking ...</source>
+        <translation>กำลังถาม ...</translation>
+    </message>
+    <message>
+        <source>Suggestion</source>
+        <translation>คำแนะนำ</translation>
+    </message>
+    <message>
+        <source>Use it</source>
+        <translation>ใช้</translation>
+    </message>
+    <message>
+        <source>A suggestion: the field keeps its value until you use it.</source>
+        <translation>คำแนะนำ: ฟิลด์จะคงค่าเดิมไว้จนกว่าคุณจะใช้</translation>
+    </message>
+    <message>
+        <source>It is in the field: Save draft keeps it, or autosave does.</source>
+        <translation>อยู่ในฟิลด์แล้ว: บันทึกฉบับร่างจะเก็บไว้ หรือการบันทึกอัตโนมัติ</translation>
+    </message>
+    <message>
+        <source>It is in the draft.</source>
+        <translation>อยู่ในฉบับร่างแล้ว</translation>
+    </message>
+    <message>
+        <source>Exponential Intelligence</source>
+        <translation>Exponential Intelligence</translation>
+    </message>
+    <message>
+        <source>AI</source>
+        <translation>AI</translation>
+    </message>
+    <message>
+        <source>Summarize</source>
+        <translation>สรุป</translation>
+    </message>
+    <message>
+        <source>Alt text</source>
+        <translation>ข้อความแทน</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>กล่องขาเข้า</translation>
     </message>

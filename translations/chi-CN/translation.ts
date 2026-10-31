@@ -932,6 +932,74 @@
         <translation>打开「页面」面板以保存其草稿。</translation>
     </message>
     <message>
+        <source>Exponential Intelligence is not available here.</source>
+        <translation>Exponential Intelligence 在此不可用。</translation>
+    </message>
+    <message>
+        <source>This action is not available for this field.</source>
+        <translation>此操作不适用于此字段。</translation>
+    </message>
+    <message>
+        <source>Ask</source>
+        <translation>提问</translation>
+    </message>
+    <message>
+        <source>Into which language?</source>
+        <translation>译成哪种语言？</translation>
+    </message>
+    <message>
+        <source>What should be written?</source>
+        <translation>应该写什么？</translation>
+    </message>
+    <message>
+        <source>What should change? (optional)</source>
+        <translation>应该改什么？（可选）</translation>
+    </message>
+    <message>
+        <source>Say what should be written.</source>
+        <translation>请说明应该写什么。</translation>
+    </message>
+    <message>
+        <source>Asking ...</source>
+        <translation>正在提问 ...</translation>
+    </message>
+    <message>
+        <source>Suggestion</source>
+        <translation>建议</translation>
+    </message>
+    <message>
+        <source>Use it</source>
+        <translation>使用</translation>
+    </message>
+    <message>
+        <source>A suggestion: the field keeps its value until you use it.</source>
+        <translation>这是建议：在你使用之前，字段保持原值。</translation>
+    </message>
+    <message>
+        <source>It is in the field: Save draft keeps it, or autosave does.</source>
+        <translation>已在字段中：保存草稿会保留它，自动保存也会。</translation>
+    </message>
+    <message>
+        <source>It is in the draft.</source>
+        <translation>已在草稿中。</translation>
+    </message>
+    <message>
+        <source>Exponential Intelligence</source>
+        <translation>Exponential Intelligence</translation>
+    </message>
+    <message>
+        <source>AI</source>
+        <translation>AI</translation>
+    </message>
+    <message>
+        <source>Summarize</source>
+        <translation>总结</translation>
+    </message>
+    <message>
+        <source>Alt text</source>
+        <translation>替代文本</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>收件箱</translation>
     </message>

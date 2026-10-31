@@ -932,6 +932,74 @@
         <translation>Opnaðu „Síða“-spjaldið til að vista drög þess.</translation>
     </message>
     <message>
+        <source>Exponential Intelligence is not available here.</source>
+        <translation>Exponential Intelligence er ekki í boði hér.</translation>
+    </message>
+    <message>
+        <source>This action is not available for this field.</source>
+        <translation>Þessi aðgerð er ekki í boði fyrir þennan reit.</translation>
+    </message>
+    <message>
+        <source>Ask</source>
+        <translation>Spyrja</translation>
+    </message>
+    <message>
+        <source>Into which language?</source>
+        <translation>Á hvaða tungumál?</translation>
+    </message>
+    <message>
+        <source>What should be written?</source>
+        <translation>Hvað á að skrifa?</translation>
+    </message>
+    <message>
+        <source>What should change? (optional)</source>
+        <translation>Hverju á að breyta? (valfrjálst)</translation>
+    </message>
+    <message>
+        <source>Say what should be written.</source>
+        <translation>Segðu hvað á að skrifa.</translation>
+    </message>
+    <message>
+        <source>Asking ...</source>
+        <translation>Spyr ...</translation>
+    </message>
+    <message>
+        <source>Suggestion</source>
+        <translation>Tillaga</translation>
+    </message>
+    <message>
+        <source>Use it</source>
+        <translation>Nota</translation>
+    </message>
+    <message>
+        <source>A suggestion: the field keeps its value until you use it.</source>
+        <translation>Tillaga: reiturinn heldur gildi sínu þar til þú notar hana.</translation>
+    </message>
+    <message>
+        <source>It is in the field: Save draft keeps it, or autosave does.</source>
+        <translation>Það er í reitnum: Vista drög heldur því, eða sjálfvirk vistun.</translation>
+    </message>
+    <message>
+        <source>It is in the draft.</source>
+        <translation>Það er í drögunum.</translation>
+    </message>
+    <message>
+        <source>Exponential Intelligence</source>
+        <translation>Exponential Intelligence</translation>
+    </message>
+    <message>
+        <source>AI</source>
+        <translation>AI</translation>
+    </message>
+    <message>
+        <source>Summarize</source>
+        <translation>Draga saman</translation>
+    </message>
+    <message>
+        <source>Alt text</source>
+        <translation>Alt-texti</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Innhólf</translation>
     </message>

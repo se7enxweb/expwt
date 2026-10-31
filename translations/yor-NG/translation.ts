@@ -932,6 +932,74 @@
         <translation>Ṣí pánẹ́lì «Ojú ìwé» láti fi àkọsílẹ̀ àkọ́kọ́ rẹ̀ pamọ́.</translation>
     </message>
     <message>
+        <source>Exponential Intelligence is not available here.</source>
+        <translation>Exponential Intelligence kò sí níbí.</translation>
+    </message>
+    <message>
+        <source>This action is not available for this field.</source>
+        <translation>Iṣẹ́ yìí kò sí fún pápá yìí.</translation>
+    </message>
+    <message>
+        <source>Ask</source>
+        <translation>Béèrè</translation>
+    </message>
+    <message>
+        <source>Into which language?</source>
+        <translation>Sí èdè wo?</translation>
+    </message>
+    <message>
+        <source>What should be written?</source>
+        <translation>Kí ni ó yẹ kí a kọ?</translation>
+    </message>
+    <message>
+        <source>What should change? (optional)</source>
+        <translation>Kí ni ó yẹ kí ó yípadà? (àṣàyàn)</translation>
+    </message>
+    <message>
+        <source>Say what should be written.</source>
+        <translation>Sọ ohun tí ó yẹ kí a kọ.</translation>
+    </message>
+    <message>
+        <source>Asking ...</source>
+        <translation>Ó ń béèrè ...</translation>
+    </message>
+    <message>
+        <source>Suggestion</source>
+        <translation>Àbá</translation>
+    </message>
+    <message>
+        <source>Use it</source>
+        <translation>Lò ó</translation>
+    </message>
+    <message>
+        <source>A suggestion: the field keeps its value until you use it.</source>
+        <translation>Àbá kan: pápá náà ń di iye rẹ̀ mú títí tí o fi lò ó.</translation>
+    </message>
+    <message>
+        <source>It is in the field: Save draft keeps it, or autosave does.</source>
+        <translation>Ó wà nínú pápá náà: Fi àkọsílẹ̀ àkọ́kọ́ pamọ́ ń dì í mú, tàbí ìfipamọ́ aládàáṣe.</translation>
+    </message>
+    <message>
+        <source>It is in the draft.</source>
+        <translation>Ó wà nínú àkọsílẹ̀ àkọ́kọ́.</translation>
+    </message>
+    <message>
+        <source>Exponential Intelligence</source>
+        <translation>Exponential Intelligence</translation>
+    </message>
+    <message>
+        <source>AI</source>
+        <translation>AI</translation>
+    </message>
+    <message>
+        <source>Summarize</source>
+        <translation>Ṣàkópọ̀</translation>
+    </message>
+    <message>
+        <source>Alt text</source>
+        <translation>Ọ̀rọ̀ àfirọ́pò</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Àpótí ìwọlé</translation>
     </message>

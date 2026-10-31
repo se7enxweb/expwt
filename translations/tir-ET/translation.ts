@@ -932,6 +932,74 @@
         <translation>ንድፊኡ ንምዕቃብ «ገጽ» መቓን ክፈት።</translation>
     </message>
     <message>
+        <source>Exponential Intelligence is not available here.</source>
+        <translation>Exponential Intelligence ኣብዚ የለን።</translation>
+    </message>
+    <message>
+        <source>This action is not available for this field.</source>
+        <translation>እዚ ተግባር ንዚ መዐቀኒ የለን።</translation>
+    </message>
+    <message>
+        <source>Ask</source>
+        <translation>ሕተት</translation>
+    </message>
+    <message>
+        <source>Into which language?</source>
+        <translation>ናብ ኣየናይ ቋንቋ?</translation>
+    </message>
+    <message>
+        <source>What should be written?</source>
+        <translation>እንታይ ክጽሓፍ ኣለዎ?</translation>
+    </message>
+    <message>
+        <source>What should change? (optional)</source>
+        <translation>እንታይ ክቕየር ኣለዎ? (ኣማራጺ)</translation>
+    </message>
+    <message>
+        <source>Say what should be written.</source>
+        <translation>እንታይ ክጽሓፍ ከም ዘለዎ ንገሩ።</translation>
+    </message>
+    <message>
+        <source>Asking ...</source>
+        <translation>ይሓትት ኣሎ ...</translation>
+    </message>
+    <message>
+        <source>Suggestion</source>
+        <translation>ርእይቶ</translation>
+    </message>
+    <message>
+        <source>Use it</source>
+        <translation>ተጠቐመሉ</translation>
+    </message>
+    <message>
+        <source>A suggestion: the field keeps its value until you use it.</source>
+        <translation>ርእይቶ፦ ክሳብ ትጥቀመሉ መዐቀኒ ዋጋኡ ይሕዝ።</translation>
+    </message>
+    <message>
+        <source>It is in the field: Save draft keeps it, or autosave does.</source>
+        <translation>ኣብ መዐቀኒ ኣሎ፦ ንድፊ ኣቐምጥ ይሕዞ፡ ወይ ኣውቶማቲክ ምቕማጥ።</translation>
+    </message>
+    <message>
+        <source>It is in the draft.</source>
+        <translation>ኣብቲ ንድፊ ኣሎ።</translation>
+    </message>
+    <message>
+        <source>Exponential Intelligence</source>
+        <translation>Exponential Intelligence</translation>
+    </message>
+    <message>
+        <source>AI</source>
+        <translation>AI</translation>
+    </message>
+    <message>
+        <source>Summarize</source>
+        <translation>ኣሕጽር</translation>
+    </message>
+    <message>
+        <source>Alt text</source>
+        <translation>ኣማራጺ ጽሑፍ</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>ዝኣተዉ</translation>
     </message>

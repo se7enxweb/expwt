@@ -932,6 +932,74 @@
         <translation>פתח פאנל «פאתא» דתנטר סורטה.</translation>
     </message>
     <message>
+        <source>Exponential Intelligence is not available here.</source>
+        <translation>Exponential Intelligence לית הכא.</translation>
+    </message>
+    <message>
+        <source>This action is not available for this field.</source>
+        <translation>הדא עבידתא לית להדא חקלא.</translation>
+    </message>
+    <message>
+        <source>Ask</source>
+        <translation>שאיל</translation>
+    </message>
+    <message>
+        <source>Into which language?</source>
+        <translation>לאיא לישנא?</translation>
+    </message>
+    <message>
+        <source>What should be written?</source>
+        <translation>מא לאזם כתבא?</translation>
+    </message>
+    <message>
+        <source>What should change? (optional)</source>
+        <translation>מא לאזם שחלפא? (צביונאית)</translation>
+    </message>
+    <message>
+        <source>Say what should be written.</source>
+        <translation>אמור מא לאזם כתבא.</translation>
+    </message>
+    <message>
+        <source>Asking ...</source>
+        <translation>שאיל ...</translation>
+    </message>
+    <message>
+        <source>Suggestion</source>
+        <translation>מלכא</translation>
+    </message>
+    <message>
+        <source>Use it</source>
+        <translation>משתמש</translation>
+    </message>
+    <message>
+        <source>A suggestion: the field keeps its value until you use it.</source>
+        <translation>מלכא: חקלא נטרא טימה עדמא דמשתמשת בה.</translation>
+    </message>
+    <message>
+        <source>It is in the field: Save draft keeps it, or autosave does.</source>
+        <translation>איתה בחקלא: נטרא דסורטא נטרא לה, או נטירא מן נפשה.</translation>
+    </message>
+    <message>
+        <source>It is in the draft.</source>
+        <translation>איתה בסורטא.</translation>
+    </message>
+    <message>
+        <source>Exponential Intelligence</source>
+        <translation>Exponential Intelligence</translation>
+    </message>
+    <message>
+        <source>AI</source>
+        <translation>AI</translation>
+    </message>
+    <message>
+        <source>Summarize</source>
+        <translation>קצר</translation>
+    </message>
+    <message>
+        <source>Alt text</source>
+        <translation>כתבא חלופא</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>ܐܓܪ̈ܬܐ ܕܬܐܝܐ</translation>
     </message>

@@ -932,6 +932,74 @@
         <translation>פתחו את החלונית «דף» כדי לשמור את הטיוטה שלה.</translation>
     </message>
     <message>
+        <source>Exponential Intelligence is not available here.</source>
+        <translation>Exponential Intelligence אינו זמין כאן.</translation>
+    </message>
+    <message>
+        <source>This action is not available for this field.</source>
+        <translation>פעולה זו אינה זמינה עבור שדה זה.</translation>
+    </message>
+    <message>
+        <source>Ask</source>
+        <translation>לשאול</translation>
+    </message>
+    <message>
+        <source>Into which language?</source>
+        <translation>לאיזו שפה?</translation>
+    </message>
+    <message>
+        <source>What should be written?</source>
+        <translation>מה צריך להיכתב?</translation>
+    </message>
+    <message>
+        <source>What should change? (optional)</source>
+        <translation>מה צריך להשתנות? (אופציונלי)</translation>
+    </message>
+    <message>
+        <source>Say what should be written.</source>
+        <translation>יש לומר מה צריך להיכתב.</translation>
+    </message>
+    <message>
+        <source>Asking ...</source>
+        <translation>שואלים ...</translation>
+    </message>
+    <message>
+        <source>Suggestion</source>
+        <translation>הצעה</translation>
+    </message>
+    <message>
+        <source>Use it</source>
+        <translation>להשתמש</translation>
+    </message>
+    <message>
+        <source>A suggestion: the field keeps its value until you use it.</source>
+        <translation>הצעה: השדה שומר על ערכו עד שתשתמשו בה.</translation>
+    </message>
+    <message>
+        <source>It is in the field: Save draft keeps it, or autosave does.</source>
+        <translation>זה בשדה: שמירת טיוטה שומרת אותו, או השמירה האוטומטית.</translation>
+    </message>
+    <message>
+        <source>It is in the draft.</source>
+        <translation>זה בטיוטה.</translation>
+    </message>
+    <message>
+        <source>Exponential Intelligence</source>
+        <translation>Exponential Intelligence</translation>
+    </message>
+    <message>
+        <source>AI</source>
+        <translation>בי״מ</translation>
+    </message>
+    <message>
+        <source>Summarize</source>
+        <translation>לסכם</translation>
+    </message>
+    <message>
+        <source>Alt text</source>
+        <translation>טקסט חלופי</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>תיבת דואר נכנס</translation>
     </message>

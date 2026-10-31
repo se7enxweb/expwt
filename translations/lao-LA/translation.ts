@@ -932,6 +932,74 @@
         <translation>ເປີດແຜງ «ໜ້າ» ເພື່ອບັນທຶກສະບັບຮ່າງຂອງມັນ.</translation>
     </message>
     <message>
+        <source>Exponential Intelligence is not available here.</source>
+        <translation>Exponential Intelligence ບໍ່ມີຢູ່ບ່ອນນີ້.</translation>
+    </message>
+    <message>
+        <source>This action is not available for this field.</source>
+        <translation>ການກະທຳນີ້ບໍ່ມີສຳລັບຊ່ອງນີ້.</translation>
+    </message>
+    <message>
+        <source>Ask</source>
+        <translation>ຖາມ</translation>
+    </message>
+    <message>
+        <source>Into which language?</source>
+        <translation>ເປັນພາສາໃດ?</translation>
+    </message>
+    <message>
+        <source>What should be written?</source>
+        <translation>ຄວນຂຽນຫຍັງ?</translation>
+    </message>
+    <message>
+        <source>What should change? (optional)</source>
+        <translation>ຄວນປ່ຽນຫຍັງ? (ທາງເລືອກ)</translation>
+    </message>
+    <message>
+        <source>Say what should be written.</source>
+        <translation>ບອກວ່າຄວນຂຽນຫຍັງ.</translation>
+    </message>
+    <message>
+        <source>Asking ...</source>
+        <translation>ກຳລັງຖາມ ...</translation>
+    </message>
+    <message>
+        <source>Suggestion</source>
+        <translation>ຄຳແນະນຳ</translation>
+    </message>
+    <message>
+        <source>Use it</source>
+        <translation>ໃຊ້ມັນ</translation>
+    </message>
+    <message>
+        <source>A suggestion: the field keeps its value until you use it.</source>
+        <translation>ຄຳແນະນຳ: ຊ່ອງຮັກສາຄ່າຂອງມັນໄວ້ຈົນກວ່າທ່ານຈະໃຊ້.</translation>
+    </message>
+    <message>
+        <source>It is in the field: Save draft keeps it, or autosave does.</source>
+        <translation>ມັນຢູ່ໃນຊ່ອງແລ້ວ: ບັນທຶກສະບັບຮ່າງ ຮັກສາມັນໄວ້, ຫຼື ການບັນທຶກອັດຕະໂນມັດ.</translation>
+    </message>
+    <message>
+        <source>It is in the draft.</source>
+        <translation>ມັນຢູ່ໃນສະບັບຮ່າງ.</translation>
+    </message>
+    <message>
+        <source>Exponential Intelligence</source>
+        <translation>Exponential Intelligence</translation>
+    </message>
+    <message>
+        <source>AI</source>
+        <translation>AI</translation>
+    </message>
+    <message>
+        <source>Summarize</source>
+        <translation>ສະຫຼຸບ</translation>
+    </message>
+    <message>
+        <source>Alt text</source>
+        <translation>ຂໍ້ຄວາມແທນ</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>ກ່ອງຂາເຂົ້າ</translation>
     </message>

@@ -932,6 +932,74 @@
         <translation>Avri il panel «Pagina» per memorisar ses sboz.</translation>
     </message>
     <message>
+        <source>Exponential Intelligence is not available here.</source>
+        <translation>Exponential Intelligence n'è betg disponibel qua.</translation>
+    </message>
+    <message>
+        <source>This action is not available for this field.</source>
+        <translation>Questa acziun n'è betg disponibla per quest champ.</translation>
+    </message>
+    <message>
+        <source>Ask</source>
+        <translation>Dumandar</translation>
+    </message>
+    <message>
+        <source>Into which language?</source>
+        <translation>En tge lingua?</translation>
+    </message>
+    <message>
+        <source>What should be written?</source>
+        <translation>Tge duai vegnir scrit?</translation>
+    </message>
+    <message>
+        <source>What should change? (optional)</source>
+        <translation>Tge duai sa midar? (facultativ)</translation>
+    </message>
+    <message>
+        <source>Say what should be written.</source>
+        <translation>Di tge che duai vegnir scrit.</translation>
+    </message>
+    <message>
+        <source>Asking ...</source>
+        <translation>Dumonda ...</translation>
+    </message>
+    <message>
+        <source>Suggestion</source>
+        <translation>Proposta</translation>
+    </message>
+    <message>
+        <source>Use it</source>
+        <translation>Utilisar</translation>
+    </message>
+    <message>
+        <source>A suggestion: the field keeps its value until you use it.</source>
+        <translation>Ina proposta: il champ mantegna sia valur fin che Vus l'utilisais.</translation>
+    </message>
+    <message>
+        <source>It is in the field: Save draft keeps it, or autosave does.</source>
+        <translation>Igl è en il champ: Memorisar il sboz al mantegna, u la memorisaziun automatica.</translation>
+    </message>
+    <message>
+        <source>It is in the draft.</source>
+        <translation>Igl è en il sboz.</translation>
+    </message>
+    <message>
+        <source>Exponential Intelligence</source>
+        <translation>Exponential Intelligence</translation>
+    </message>
+    <message>
+        <source>AI</source>
+        <translation>IA</translation>
+    </message>
+    <message>
+        <source>Summarize</source>
+        <translation>Resumar</translation>
+    </message>
+    <message>
+        <source>Alt text</source>
+        <translation>Text alternativ</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Chascha d'entrada</translation>
     </message>

@@ -932,6 +932,74 @@
         <translation>Bue Krataafa panel no na kora ne draft.</translation>
     </message>
     <message>
+        <source>Exponential Intelligence is not available here.</source>
+        <translation>Exponential Intelligence nni ha.</translation>
+    </message>
+    <message>
+        <source>This action is not available for this field.</source>
+        <translation>Saa adeyɛ yi nni field yi ho.</translation>
+    </message>
+    <message>
+        <source>Ask</source>
+        <translation>Bisa</translation>
+    </message>
+    <message>
+        <source>Into which language?</source>
+        <translation>Kasa bɛn mu?</translation>
+    </message>
+    <message>
+        <source>What should be written?</source>
+        <translation>Dɛn na ɛsɛ sɛ wɔkyerɛw?</translation>
+    </message>
+    <message>
+        <source>What should change? (optional)</source>
+        <translation>Dɛn na ɛsɛ sɛ ɛsesa? (wopɛ a)</translation>
+    </message>
+    <message>
+        <source>Say what should be written.</source>
+        <translation>Ka nea ɛsɛ sɛ wɔkyerɛw.</translation>
+    </message>
+    <message>
+        <source>Asking ...</source>
+        <translation>Ɛrebisa ...</translation>
+    </message>
+    <message>
+        <source>Suggestion</source>
+        <translation>Nyansahyɛ</translation>
+    </message>
+    <message>
+        <source>Use it</source>
+        <translation>Fa di dwuma</translation>
+    </message>
+    <message>
+        <source>A suggestion: the field keeps its value until you use it.</source>
+        <translation>Nyansahyɛ: field no kura ne bo kosi sɛ wode bedi dwuma.</translation>
+    </message>
+    <message>
+        <source>It is in the field: Save draft keeps it, or autosave does.</source>
+        <translation>Ɛwɔ field no mu: Kora draft no kora so, anaa ankasa-kora yɛ saa.</translation>
+    </message>
+    <message>
+        <source>It is in the draft.</source>
+        <translation>Ɛwɔ draft no mu.</translation>
+    </message>
+    <message>
+        <source>Exponential Intelligence</source>
+        <translation>Exponential Intelligence</translation>
+    </message>
+    <message>
+        <source>AI</source>
+        <translation>AI</translation>
+    </message>
+    <message>
+        <source>Summarize</source>
+        <translation>Ka no tiawa</translation>
+    </message>
+    <message>
+        <source>Alt text</source>
+        <translation>Alt nsɛm</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Nkrataa a aba</translation>
     </message>

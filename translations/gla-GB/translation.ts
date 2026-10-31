@@ -932,6 +932,74 @@
         <translation>Fosgail am panail «Duilleag» gus an dreachd aige a shàbhaladh.</translation>
     </message>
     <message>
+        <source>Exponential Intelligence is not available here.</source>
+        <translation>Chan eil Exponential Intelligence ri fhaighinn an-seo.</translation>
+    </message>
+    <message>
+        <source>This action is not available for this field.</source>
+        <translation>Chan eil an gnìomh seo ri fhaighinn airson an raoin seo.</translation>
+    </message>
+    <message>
+        <source>Ask</source>
+        <translation>Faighnich</translation>
+    </message>
+    <message>
+        <source>Into which language?</source>
+        <translation>Gu dè an cànan?</translation>
+    </message>
+    <message>
+        <source>What should be written?</source>
+        <translation>Dè bu chòir a sgrìobhadh?</translation>
+    </message>
+    <message>
+        <source>What should change? (optional)</source>
+        <translation>Dè bu chòir atharrachadh? (roghainneil)</translation>
+    </message>
+    <message>
+        <source>Say what should be written.</source>
+        <translation>Abair dè bu chòir a sgrìobhadh.</translation>
+    </message>
+    <message>
+        <source>Asking ...</source>
+        <translation>A' faighneachd ...</translation>
+    </message>
+    <message>
+        <source>Suggestion</source>
+        <translation>Moladh</translation>
+    </message>
+    <message>
+        <source>Use it</source>
+        <translation>Cleachd e</translation>
+    </message>
+    <message>
+        <source>A suggestion: the field keeps its value until you use it.</source>
+        <translation>Moladh: cumaidh an raon a luach gus an cleachd thu e.</translation>
+    </message>
+    <message>
+        <source>It is in the field: Save draft keeps it, or autosave does.</source>
+        <translation>Tha e san raon: cumaidh Sàbhail an dreachd e, no an sàbhaladh fèin-obrachail.</translation>
+    </message>
+    <message>
+        <source>It is in the draft.</source>
+        <translation>Tha e san dreachd.</translation>
+    </message>
+    <message>
+        <source>Exponential Intelligence</source>
+        <translation>Exponential Intelligence</translation>
+    </message>
+    <message>
+        <source>AI</source>
+        <translation>AI</translation>
+    </message>
+    <message>
+        <source>Summarize</source>
+        <translation>Thoir geàrr-chunntas</translation>
+    </message>
+    <message>
+        <source>Alt text</source>
+        <translation>Alt-theacsa</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Bogsa a-steach</translation>
     </message>

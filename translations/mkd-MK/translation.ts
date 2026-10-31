@@ -932,6 +932,74 @@
         <translation>Отворете го панелот „Страница“ за да го зачувате нејзиниот нацрт.</translation>
     </message>
     <message>
+        <source>Exponential Intelligence is not available here.</source>
+        <translation>Exponential Intelligence не е достапен овде.</translation>
+    </message>
+    <message>
+        <source>This action is not available for this field.</source>
+        <translation>Ова дејство не е достапно за ова поле.</translation>
+    </message>
+    <message>
+        <source>Ask</source>
+        <translation>Прашај</translation>
+    </message>
+    <message>
+        <source>Into which language?</source>
+        <translation>На кој јазик?</translation>
+    </message>
+    <message>
+        <source>What should be written?</source>
+        <translation>Што треба да се напише?</translation>
+    </message>
+    <message>
+        <source>What should change? (optional)</source>
+        <translation>Што треба да се промени? (опционално)</translation>
+    </message>
+    <message>
+        <source>Say what should be written.</source>
+        <translation>Кажете што треба да се напише.</translation>
+    </message>
+    <message>
+        <source>Asking ...</source>
+        <translation>Се прашува ...</translation>
+    </message>
+    <message>
+        <source>Suggestion</source>
+        <translation>Предлог</translation>
+    </message>
+    <message>
+        <source>Use it</source>
+        <translation>Употреби</translation>
+    </message>
+    <message>
+        <source>A suggestion: the field keeps its value until you use it.</source>
+        <translation>Предлог: полето ја задржува својата вредност додека не го употребите.</translation>
+    </message>
+    <message>
+        <source>It is in the field: Save draft keeps it, or autosave does.</source>
+        <translation>Во полето е: Зачувај нацрт го задржува, или автоматското зачувување.</translation>
+    </message>
+    <message>
+        <source>It is in the draft.</source>
+        <translation>Во нацртот е.</translation>
+    </message>
+    <message>
+        <source>Exponential Intelligence</source>
+        <translation>Exponential Intelligence</translation>
+    </message>
+    <message>
+        <source>AI</source>
+        <translation>ВИ</translation>
+    </message>
+    <message>
+        <source>Summarize</source>
+        <translation>Сумирај</translation>
+    </message>
+    <message>
+        <source>Alt text</source>
+        <translation>Алтернативен текст</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Примени</translation>
     </message>

@@ -932,6 +932,74 @@
         <translation>Ubbil panel «Xët» ngir denc brouyoŋam.</translation>
     </message>
     <message>
+        <source>Exponential Intelligence is not available here.</source>
+        <translation>Exponential Intelligence nekkul fii.</translation>
+    </message>
+    <message>
+        <source>This action is not available for this field.</source>
+        <translation>Jëf jii nekkul ngir barab bii.</translation>
+    </message>
+    <message>
+        <source>Ask</source>
+        <translation>Laaj</translation>
+    </message>
+    <message>
+        <source>Into which language?</source>
+        <translation>Ci ban làkk?</translation>
+    </message>
+    <message>
+        <source>What should be written?</source>
+        <translation>Lan lañu wara bind?</translation>
+    </message>
+    <message>
+        <source>What should change? (optional)</source>
+        <translation>Lan moo wara soppiku? (bu la neexee)</translation>
+    </message>
+    <message>
+        <source>Say what should be written.</source>
+        <translation>Wax lan lañu wara bind.</translation>
+    </message>
+    <message>
+        <source>Asking ...</source>
+        <translation>Mi ngi laaj ...</translation>
+    </message>
+    <message>
+        <source>Suggestion</source>
+        <translation>Xalaat</translation>
+    </message>
+    <message>
+        <source>Use it</source>
+        <translation>Jëfandikoo ko</translation>
+    </message>
+    <message>
+        <source>A suggestion: the field keeps its value until you use it.</source>
+        <translation>Benn xalaat: barab bi dina denc njëgam ba nga jëfandikoo ko.</translation>
+    </message>
+    <message>
+        <source>It is in the field: Save draft keeps it, or autosave does.</source>
+        <translation>Mi ngi ci barab bi: Denc brouyoŋ bi dina ko denc, walla denc gu boppam.</translation>
+    </message>
+    <message>
+        <source>It is in the draft.</source>
+        <translation>Mi ngi ci brouyoŋ bi.</translation>
+    </message>
+    <message>
+        <source>Exponential Intelligence</source>
+        <translation>Exponential Intelligence</translation>
+    </message>
+    <message>
+        <source>AI</source>
+        <translation>AI</translation>
+    </message>
+    <message>
+        <source>Summarize</source>
+        <translation>Gàttal</translation>
+    </message>
+    <message>
+        <source>Alt text</source>
+        <translation>Mbind mu wuutu</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Bataaxal yu dikk</translation>
     </message>

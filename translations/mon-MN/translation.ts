@@ -932,6 +932,74 @@
         <translation>Ноорогоо хадгалахын тулд «Хуудас» самбарыг нээнэ үү.</translation>
     </message>
     <message>
+        <source>Exponential Intelligence is not available here.</source>
+        <translation>Exponential Intelligence энд боломжгүй.</translation>
+    </message>
+    <message>
+        <source>This action is not available for this field.</source>
+        <translation>Энэ үйлдэл энэ талбарт боломжгүй.</translation>
+    </message>
+    <message>
+        <source>Ask</source>
+        <translation>Асуух</translation>
+    </message>
+    <message>
+        <source>Into which language?</source>
+        <translation>Аль хэл рүү?</translation>
+    </message>
+    <message>
+        <source>What should be written?</source>
+        <translation>Юу бичих ёстой вэ?</translation>
+    </message>
+    <message>
+        <source>What should change? (optional)</source>
+        <translation>Юу өөрчлөгдөх ёстой вэ? (сонголтоор)</translation>
+    </message>
+    <message>
+        <source>Say what should be written.</source>
+        <translation>Юу бичих ёстойг хэлнэ үү.</translation>
+    </message>
+    <message>
+        <source>Asking ...</source>
+        <translation>Асууж байна ...</translation>
+    </message>
+    <message>
+        <source>Suggestion</source>
+        <translation>Санал</translation>
+    </message>
+    <message>
+        <source>Use it</source>
+        <translation>Ашиглах</translation>
+    </message>
+    <message>
+        <source>A suggestion: the field keeps its value until you use it.</source>
+        <translation>Санал: та ашиглах хүртэл талбар утгаа хадгална.</translation>
+    </message>
+    <message>
+        <source>It is in the field: Save draft keeps it, or autosave does.</source>
+        <translation>Талбарт байна: Ноорог хадгалах үүнийг хадгална, эсвэл автомат хадгалалт.</translation>
+    </message>
+    <message>
+        <source>It is in the draft.</source>
+        <translation>Ноорогт байна.</translation>
+    </message>
+    <message>
+        <source>Exponential Intelligence</source>
+        <translation>Exponential Intelligence</translation>
+    </message>
+    <message>
+        <source>AI</source>
+        <translation>ХОЮ</translation>
+    </message>
+    <message>
+        <source>Summarize</source>
+        <translation>Хураангуйлах</translation>
+    </message>
+    <message>
+        <source>Alt text</source>
+        <translation>Орлох текст</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Ирсэн</translation>
     </message>

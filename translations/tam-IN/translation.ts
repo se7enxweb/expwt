@@ -932,6 +932,74 @@
         <translation>அதன் வரைவைச் சேமிக்க «பக்கம்» பலகத்தைத் திறக்கவும்.</translation>
     </message>
     <message>
+        <source>Exponential Intelligence is not available here.</source>
+        <translation>Exponential Intelligence இங்கே கிடைக்காது.</translation>
+    </message>
+    <message>
+        <source>This action is not available for this field.</source>
+        <translation>இந்தச் செயல் இந்தப் புலத்திற்குக் கிடைக்காது.</translation>
+    </message>
+    <message>
+        <source>Ask</source>
+        <translation>கேள்</translation>
+    </message>
+    <message>
+        <source>Into which language?</source>
+        <translation>எந்த மொழிக்கு?</translation>
+    </message>
+    <message>
+        <source>What should be written?</source>
+        <translation>என்ன எழுத வேண்டும்?</translation>
+    </message>
+    <message>
+        <source>What should change? (optional)</source>
+        <translation>என்ன மாற வேண்டும்? (விருப்பத்தேர்வு)</translation>
+    </message>
+    <message>
+        <source>Say what should be written.</source>
+        <translation>என்ன எழுத வேண்டும் என்று சொல்லுங்கள்.</translation>
+    </message>
+    <message>
+        <source>Asking ...</source>
+        <translation>கேட்கிறது ...</translation>
+    </message>
+    <message>
+        <source>Suggestion</source>
+        <translation>பரிந்துரை</translation>
+    </message>
+    <message>
+        <source>Use it</source>
+        <translation>பயன்படுத்து</translation>
+    </message>
+    <message>
+        <source>A suggestion: the field keeps its value until you use it.</source>
+        <translation>ஒரு பரிந்துரை: நீங்கள் பயன்படுத்தும் வரை புலம் அதன் மதிப்பை வைத்திருக்கும்.</translation>
+    </message>
+    <message>
+        <source>It is in the field: Save draft keeps it, or autosave does.</source>
+        <translation>இது புலத்தில் உள்ளது: வரைவைச் சேமி இதை வைத்திருக்கும், அல்லது தானியங்கு சேமிப்பு.</translation>
+    </message>
+    <message>
+        <source>It is in the draft.</source>
+        <translation>இது வரைவில் உள்ளது.</translation>
+    </message>
+    <message>
+        <source>Exponential Intelligence</source>
+        <translation>Exponential Intelligence</translation>
+    </message>
+    <message>
+        <source>AI</source>
+        <translation>AI</translation>
+    </message>
+    <message>
+        <source>Summarize</source>
+        <translation>சுருக்கு</translation>
+    </message>
+    <message>
+        <source>Alt text</source>
+        <translation>மாற்று உரை</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>உள்பெட்டி</translation>
     </message>

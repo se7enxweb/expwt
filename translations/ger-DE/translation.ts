@@ -932,6 +932,74 @@
         <translation>Öffnen Sie den Bereich „Seite“, um seinen Entwurf zu speichern.</translation>
     </message>
     <message>
+        <source>Exponential Intelligence is not available here.</source>
+        <translation>Exponential Intelligence ist hier nicht verfügbar.</translation>
+    </message>
+    <message>
+        <source>This action is not available for this field.</source>
+        <translation>Diese Aktion ist für dieses Feld nicht verfügbar.</translation>
+    </message>
+    <message>
+        <source>Ask</source>
+        <translation>Fragen</translation>
+    </message>
+    <message>
+        <source>Into which language?</source>
+        <translation>In welche Sprache?</translation>
+    </message>
+    <message>
+        <source>What should be written?</source>
+        <translation>Was soll geschrieben werden?</translation>
+    </message>
+    <message>
+        <source>What should change? (optional)</source>
+        <translation>Was soll sich ändern? (optional)</translation>
+    </message>
+    <message>
+        <source>Say what should be written.</source>
+        <translation>Sagen Sie, was geschrieben werden soll.</translation>
+    </message>
+    <message>
+        <source>Asking ...</source>
+        <translation>Wird gefragt ...</translation>
+    </message>
+    <message>
+        <source>Suggestion</source>
+        <translation>Vorschlag</translation>
+    </message>
+    <message>
+        <source>Use it</source>
+        <translation>Übernehmen</translation>
+    </message>
+    <message>
+        <source>A suggestion: the field keeps its value until you use it.</source>
+        <translation>Ein Vorschlag: Das Feld behält seinen Wert, bis Sie ihn übernehmen.</translation>
+    </message>
+    <message>
+        <source>It is in the field: Save draft keeps it, or autosave does.</source>
+        <translation>Es steht im Feld: Entwurf speichern behält es, oder das automatische Speichern.</translation>
+    </message>
+    <message>
+        <source>It is in the draft.</source>
+        <translation>Es ist im Entwurf.</translation>
+    </message>
+    <message>
+        <source>Exponential Intelligence</source>
+        <translation>Exponential Intelligence</translation>
+    </message>
+    <message>
+        <source>AI</source>
+        <translation>KI</translation>
+    </message>
+    <message>
+        <source>Summarize</source>
+        <translation>Zusammenfassen</translation>
+    </message>
+    <message>
+        <source>Alt text</source>
+        <translation>Alternativtext</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Posteingang</translation>
     </message>

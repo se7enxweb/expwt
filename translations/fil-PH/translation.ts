@@ -932,6 +932,74 @@
         <translation>Buksan ang panel na «Pahina» para i-save ang draft nito.</translation>
     </message>
     <message>
+        <source>Exponential Intelligence is not available here.</source>
+        <translation>Hindi available dito ang Exponential Intelligence.</translation>
+    </message>
+    <message>
+        <source>This action is not available for this field.</source>
+        <translation>Hindi available ang aksyong ito para sa field na ito.</translation>
+    </message>
+    <message>
+        <source>Ask</source>
+        <translation>Magtanong</translation>
+    </message>
+    <message>
+        <source>Into which language?</source>
+        <translation>Sa anong wika?</translation>
+    </message>
+    <message>
+        <source>What should be written?</source>
+        <translation>Ano ang dapat isulat?</translation>
+    </message>
+    <message>
+        <source>What should change? (optional)</source>
+        <translation>Ano ang dapat baguhin? (opsyonal)</translation>
+    </message>
+    <message>
+        <source>Say what should be written.</source>
+        <translation>Sabihin kung ano ang dapat isulat.</translation>
+    </message>
+    <message>
+        <source>Asking ...</source>
+        <translation>Nagtatanong ...</translation>
+    </message>
+    <message>
+        <source>Suggestion</source>
+        <translation>Mungkahi</translation>
+    </message>
+    <message>
+        <source>Use it</source>
+        <translation>Gamitin</translation>
+    </message>
+    <message>
+        <source>A suggestion: the field keeps its value until you use it.</source>
+        <translation>Isang mungkahi: pinananatili ng field ang halaga nito hanggang gamitin mo ito.</translation>
+    </message>
+    <message>
+        <source>It is in the field: Save draft keeps it, or autosave does.</source>
+        <translation>Nasa field na ito: pinananatili ito ng I-save ang draft, o ng awtomatikong pag-save.</translation>
+    </message>
+    <message>
+        <source>It is in the draft.</source>
+        <translation>Nasa draft na ito.</translation>
+    </message>
+    <message>
+        <source>Exponential Intelligence</source>
+        <translation>Exponential Intelligence</translation>
+    </message>
+    <message>
+        <source>AI</source>
+        <translation>AI</translation>
+    </message>
+    <message>
+        <source>Summarize</source>
+        <translation>Ibuod</translation>
+    </message>
+    <message>
+        <source>Alt text</source>
+        <translation>Alt text</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Inbox</translation>
     </message>

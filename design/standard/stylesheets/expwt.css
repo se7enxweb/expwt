@@ -873,3 +873,19 @@ button.wt-seo-item:hover { border-color: var(--a4-accent); }
   .wt-keys { grid-template-columns: minmax(0, 1fr); gap: 0 var(--a4-space-3); }
   .wt-keys dd { margin-block-end: var(--a4-space-2); }
 }
+
+/* Exponential Intelligence on a field (E1): its actions in a row that wraps, the input of the chosen one, the
+   suggestion to read before it goes into the field */
+.wt-field > .wt-field-name { display: block; margin-block-end: var(--a4-space-1); font-weight: var(--a4-weight-medium); }
+.wt-field[data-dirty="true"] > .wt-field-name::after { content: " *"; color: var(--a4-accent-text); }
+.wt-ai { display: grid; gap: var(--a4-space-1); min-inline-size: 0; margin-block-start: var(--a4-space-1); }
+.wt-ai-actions { display: flex; flex-wrap: wrap; align-items: center; gap: var(--a4-space-1); min-inline-size: 0; }
+.wt-ai-mark { padding: 0 var(--a4-space-1); border-radius: var(--a4-radius-s); background: var(--a4-soft); color: var(--a4-accent-text); font-size: var(--a4-text-xs); font-weight: var(--a4-weight-medium); }
+.wt-ai-input { display: grid; gap: var(--a4-space-1); min-inline-size: 0; }
+.wt-ai-input > .wt-field-name { margin: 0; font-weight: var(--a4-weight-medium); }
+.wt-ai-note { margin: 0; color: var(--a4-muted); font-size: var(--a4-text-s); overflow-wrap: break-word; }
+.wt-ai-note:empty { display: none; }
+.wt-ai-answer { display: grid; gap: var(--a4-space-1); min-inline-size: 0; padding: var(--a4-space-2); border: 1px solid var(--a4-line); border-inline-start: 3px solid var(--a4-accent); border-radius: var(--a4-radius-s); background: var(--a4-card); }
+.wt-ai-label { margin: 0; color: var(--a4-muted); font-size: var(--a4-text-xs); font-weight: var(--a4-weight-medium); }
+.wt-ai-text { max-block-size: calc(var(--a4-space-7) * 6); overflow-y: auto; white-space: pre-wrap; overflow-wrap: break-word; }
+.wt-ai-answer > .wt-muted { margin: 0; }

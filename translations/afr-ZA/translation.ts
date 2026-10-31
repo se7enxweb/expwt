@@ -932,6 +932,74 @@
         <translation>Maak die Bladsy-paneel oop om sy konsep te stoor.</translation>
     </message>
     <message>
+        <source>Exponential Intelligence is not available here.</source>
+        <translation>Exponential Intelligence is nie hier beskikbaar nie.</translation>
+    </message>
+    <message>
+        <source>This action is not available for this field.</source>
+        <translation>Hierdie aksie is nie vir hierdie veld beskikbaar nie.</translation>
+    </message>
+    <message>
+        <source>Ask</source>
+        <translation>Vra</translation>
+    </message>
+    <message>
+        <source>Into which language?</source>
+        <translation>Na watter taal?</translation>
+    </message>
+    <message>
+        <source>What should be written?</source>
+        <translation>Wat moet geskryf word?</translation>
+    </message>
+    <message>
+        <source>What should change? (optional)</source>
+        <translation>Wat moet verander? (opsioneel)</translation>
+    </message>
+    <message>
+        <source>Say what should be written.</source>
+        <translation>Sê wat geskryf moet word.</translation>
+    </message>
+    <message>
+        <source>Asking ...</source>
+        <translation>Vra tans ...</translation>
+    </message>
+    <message>
+        <source>Suggestion</source>
+        <translation>Voorstel</translation>
+    </message>
+    <message>
+        <source>Use it</source>
+        <translation>Gebruik dit</translation>
+    </message>
+    <message>
+        <source>A suggestion: the field keeps its value until you use it.</source>
+        <translation>'n Voorstel: die veld hou sy waarde totdat jy dit gebruik.</translation>
+    </message>
+    <message>
+        <source>It is in the field: Save draft keeps it, or autosave does.</source>
+        <translation>Dit is in die veld: Stoor konsep hou dit, of outomatiese stoor doen dit.</translation>
+    </message>
+    <message>
+        <source>It is in the draft.</source>
+        <translation>Dit is in die konsep.</translation>
+    </message>
+    <message>
+        <source>Exponential Intelligence</source>
+        <translation>Exponential Intelligence</translation>
+    </message>
+    <message>
+        <source>AI</source>
+        <translation>KI</translation>
+    </message>
+    <message>
+        <source>Summarize</source>
+        <translation>Som op</translation>
+    </message>
+    <message>
+        <source>Alt text</source>
+        <translation>Alt-teks</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Inkassie</translation>
     </message>

@@ -98,6 +98,27 @@
   };
   window.ExpwtAutosave = Autosave;
 
+  /* Exponential Intelligence on a field (E1). Pure, for the tests (tests/js/ai.test.js).
+       actionsFor  the actions the page's offer has for a datatype, none where the user may not edit the page
+       plainText   an HTML answer (rich text) as text to read: each block on its own line, no markup */
+  var Ai = {
+    actionsFor: function (offer, can, datatype) {
+      if (!offer || !offer.actions || !can || !can.edit) { return []; }
+      return offer.actions.filter(function (a) { return (a.datatypes || []).indexOf(datatype) >= 0; });
+    },
+    plainText: function (html) {
+      return String(html || '')
+        .replace(/<\s*br\s*\/?\s*>/gi, '\n')
+        .replace(/<\/\s*(p|li|h[1-6]|div|blockquote|tr|pre)\s*>/gi, '\n')
+        .replace(/<[^>]*>/g, '')
+        .replace(/&nbsp;/g, ' ').replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&quot;/g, '"').replace(/&#0*39;/g, '\'')
+        .replace(/&amp;/g, '&')
+        .replace(/[ \t]+\n/g, '\n').replace(/\n{3,}/g, '\n\n').trim();
+    }
+  };
+  var plainText = Ai.plainText;
+  window.ExpwtAi = Ai;
+
   function local() {
     try { return window.localStorage; } catch (e) { return null; }
   }
@@ -257,6 +278,11 @@
       if (f.input === 'richtext' || f.input === 'checkbox' || f.input === 'multiselect' || f.input === 'url') {
         row = h('div', { class: 'wt-field', 'data-field': f.identifier, role: 'group', 'aria-label': f.name }, [
           h('span', { id: id + '-label', text: f.name + (f.required ? ' (' + t('required') + ')' : '') }), input.el]);
+      } else if (aiFor(f).length) {
+        /* a field with Exponential Intelligence: a group (its buttons are no part of the input's label) */
+        row = h('div', { class: 'wt-field', 'data-field': f.identifier, role: 'group', 'aria-label': f.name,
+          onmouseenter: function () { highlight(f.identifier, true); }, onmouseleave: function () { highlight(f.identifier, false); } }, [
+          h('label', { class: 'wt-field-name', for: id, text: f.name + (f.required ? ' (' + t('required') + ')' : '') }), input.el]);
       }
       if (f.input === 'richtext' || f.input === 'textarea' || f.input === 'multiselect') {
         row.classList.add('is-wide');
@@ -264,6 +290,7 @@
       rows[f.identifier] = row;
       place(f, row);
     });
+    p.fields.forEach(function (f) { aiTools(f); });
     groupOrder.forEach(function (id) {
       order.push(groups[id].el);
       form.appendChild(groups[id].el);
@@ -395,6 +422,145 @@
     root.appendChild(mainActions);
     if (root.getAttribute('data-panel') === 'page') { ctx.primary(mainActions); }
     discardBtn.hidden = !version;
+
+    /* Exponential Intelligence on the fields (E1, where expai is on for the user): the actions for each field's
+       datatype (expai's Write, Rewrite, Shorten, Translate, Suggest; Summarize; the alt text of an image), asked
+       for the user's draft. The answer is a suggestion under the field; "Use it" puts it into the field: a field of
+       the form takes it into its input (saved with the draft, autosave included), a field of its own editor gets
+       it written into the draft and loads again. Nothing is published. */
+    function aiFor(f) {
+      return Ai.actionsFor(p.ai, p.can, f.datatype);
+    }
+    function aiTools(f) {
+      var acts = aiFor(f);
+      var row = rows[f.identifier];
+      if (!acts.length || !row) { return; }
+      var key = 'wt-ai-' + f.identifier;
+      var chosen = null;
+      var instruction = null;
+      var target = null;
+      var last = null;
+      var extra = h('div', { class: 'wt-ai-input', hidden: true });
+      var note = h('p', { class: 'wt-ai-note', role: 'status', 'aria-live': 'polite' });
+      var answer = h('div', { class: 'wt-ai-answer', hidden: true });
+      var ask = h('button', { type: 'button', class: 'wt-btn is-primary', text: t('Ask'), onclick: function () { run(chosen); } });
+      var buttons = acts.map(function (a) {
+        return h('button', { type: 'button', class: 'wt-btn wt-chip-btn', 'data-action': a.name, 'aria-pressed': 'false', text: a.label,
+          onclick: function () { pick(a); } });
+      });
+      function busy(on) {
+        buttons.concat([ask]).forEach(function (b) { b.disabled = on; });
+        row.setAttribute('aria-busy', on ? 'true' : 'false');
+      }
+      function pick(a) {
+        chosen = a;
+        instruction = null;
+        target = null;
+        extra.textContent = '';
+        answer.hidden = true;
+        buttons.forEach(function (b) { b.setAttribute('aria-pressed', b.getAttribute('data-action') === a.name ? 'true' : 'false'); });
+        if (a.input === 'none') { extra.hidden = true; run(a); return; }
+        if (a.input === 'language') {
+          target = h('select', { id: key + '-l' }, p.ai.languages.map(function (l) {
+            return h('option', { value: l.locale, text: l.name, selected: l.locale === p.language });
+          }));
+          extra.appendChild(h('label', { class: 'wt-field-name', for: key + '-l', text: t('Into which language?') }));
+          extra.appendChild(target);
+        } else {
+          instruction = h('textarea', { id: key + '-i', rows: 2 });
+          extra.appendChild(h('label', { class: 'wt-field-name', for: key + '-i',
+            text: a.input === 'instruction' ? t('What should be written?') : t('What should change? (optional)') }));
+          extra.appendChild(instruction);
+        }
+        extra.appendChild(h('div', { class: 'wt-row' }, [ask]));
+        extra.hidden = false;
+        (instruction || target).focus();
+      }
+      /* a field of its own editor typed into: saved to the draft first, so the request and the answer see it */
+      function flush() {
+        var entry = frames[f.identifier];
+        return entry && entry.frame && entry.ready && entry.changed ? serial(function () { return saveOne(entry); }) : Promise.resolve();
+      }
+      function run(a) {
+        if (!a) { return; }
+        if (a.input === 'instruction' && instruction && !instruction.value.trim()) {
+          note.textContent = t('Say what should be written.');
+          instruction.focus();
+          return;
+        }
+        var body = { objectId: p.objectId, language: p.language, field: f.identifier, action: a.name };
+        if (version) { body.version = version; }
+        if (instruction) { body.instruction = instruction.value; }
+        if (target) { body.targetLanguage = target.value; }
+        if (inputs[f.identifier]) { body.value = values[f.identifier]; }
+        busy(true);
+        note.textContent = t('Asking ...');
+        flush().then(function () { return ctx.call('ai.field', body); }).then(function (r) {
+          busy(false);
+          if (r.version && r.version !== version) {
+            version = r.version;
+            discardBtn.hidden = false;
+            drawChips();
+          }
+          show(r);
+        }, function (err) {
+          busy(false);
+          note.textContent = err && err.message ? err.message : t('Something went wrong on the server.');
+        });
+      }
+      function show(r) {
+        last = r;
+        answer.textContent = '';
+        answer.appendChild(h('p', { class: 'wt-ai-label', text: t('Suggestion') }));
+        answer.appendChild(h('div', { class: 'wt-ai-text', text: f.input === 'richtext' ? plainText(r.value) : r.value }));
+        if (r.note) { answer.appendChild(h('p', { class: 'wt-muted', text: r.note })); }
+        answer.appendChild(h('div', { class: 'wt-row' }, [
+          h('button', { type: 'button', class: 'wt-btn is-primary', text: t('Use it'), onclick: use }),
+          h('button', { type: 'button', class: 'wt-btn', text: t('Discard'), onclick: function () {
+            answer.hidden = true;
+            note.textContent = '';
+          } })
+        ]));
+        answer.hidden = false;
+        note.textContent = t('A suggestion: the field keeps its value until you use it.');
+      }
+      function use() {
+        if (!last) { return; }
+        var value = last.value;
+        if (inputs[f.identifier]) {
+          inputs[f.identifier].set(value);
+          change(f.identifier, value, true);
+          answer.hidden = true;
+          note.textContent = t('It is in the field: Save draft keeps it, or autosave does.');
+          return;
+        }
+        busy(true);
+        flush().then(function () {
+          return serial(function () {
+            return ctx.call('ai.apply', { objectId: p.objectId, version: version, language: p.language, field: f.identifier, value: value });
+          });
+        }).then(function (r) {
+          busy(false);
+          if (r.version && r.version !== version) { version = r.version; discardBtn.hidden = false; drawChips(); }
+          var entry = frames[f.identifier];
+          if (entry && entry.frame) {
+            entry.ready = false;
+            entry.changed = false;
+            entry.frame.src = frameSrc(f);
+          }
+          answer.hidden = true;
+          note.textContent = t('It is in the draft.');
+          ctx.say(t('The draft is saved.'), 'ok');
+        }, function (err) {
+          busy(false);
+          note.textContent = err && err.message ? err.message : t('Something went wrong on the server.');
+        });
+      }
+      row.appendChild(h('div', { class: 'wt-ai', role: 'group', 'aria-label': t('Exponential Intelligence') + ': ' + f.name }, [
+        h('div', { class: 'wt-ai-actions' }, [h('span', { class: 'wt-ai-mark', title: t('Exponential Intelligence'), text: t('AI') })].concat(buttons)),
+        extra, note, answer
+      ]));
+    }
 
     /* Every field that has an editor of its own is open in it (F32): a frame (expwt/field) per field, loaded when the
        field comes into view. It shows the user's draft, or the published page while there is none; the panel's one

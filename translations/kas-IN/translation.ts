@@ -932,6 +932,74 @@
         <translation>امیُک مَسوٗدہٕ محفوظ کرنہٕ خٲطرٕ «صفحہٕ» پینل کھولِو۔</translation>
     </message>
     <message>
+        <source>Exponential Intelligence is not available here.</source>
+        <translation>Exponential Intelligence چھُ نہٕ یتھ دستیاب۔</translation>
+    </message>
+    <message>
+        <source>This action is not available for this field.</source>
+        <translation>یہ کٲم چھُ نہٕ یتھ فیلڈس خٲطرٕ دستیاب۔</translation>
+    </message>
+    <message>
+        <source>Ask</source>
+        <translation>پرٛژھِو</translation>
+    </message>
+    <message>
+        <source>Into which language?</source>
+        <translation>کَمِہ زبانہِ منز؟</translation>
+    </message>
+    <message>
+        <source>What should be written?</source>
+        <translation>کیاہ گژھہِ لیکھنہٕ؟</translation>
+    </message>
+    <message>
+        <source>What should change? (optional)</source>
+        <translation>کیاہ گژھہِ بدلُن؟ (اختیٲری)</translation>
+    </message>
+    <message>
+        <source>Say what should be written.</source>
+        <translation>ؤنِو کیاہ گژھہِ لیکھنہٕ۔</translation>
+    </message>
+    <message>
+        <source>Asking ...</source>
+        <translation>پرٛژھان ...</translation>
+    </message>
+    <message>
+        <source>Suggestion</source>
+        <translation>تجویز</translation>
+    </message>
+    <message>
+        <source>Use it</source>
+        <translation>استعمال کٔرِو</translation>
+    </message>
+    <message>
+        <source>A suggestion: the field keeps its value until you use it.</source>
+        <translation>اکھ تجویز: یوٗت تام تُہؠ استعمال کٔرِو، فیلڈ تھاوِ پنُن قیمت۔</translation>
+    </message>
+    <message>
+        <source>It is in the field: Save draft keeps it, or autosave does.</source>
+        <translation>یہ چھُ فیلڈس منز: مَسوٗدہٕ محفوظ کٔرِو تھاوِ یہ، یا پانہٕ محفوظ۔</translation>
+    </message>
+    <message>
+        <source>It is in the draft.</source>
+        <translation>یہ چھُ مَسوٗدس منز۔</translation>
+    </message>
+    <message>
+        <source>Exponential Intelligence</source>
+        <translation>Exponential Intelligence</translation>
+    </message>
+    <message>
+        <source>AI</source>
+        <translation>AI</translation>
+    </message>
+    <message>
+        <source>Summarize</source>
+        <translation>خلاصہٕ کٔرِو</translation>
+    </message>
+    <message>
+        <source>Alt text</source>
+        <translation>متبادل متن</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>اِنباکس</translation>
     </message>

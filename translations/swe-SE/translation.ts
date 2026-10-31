@@ -932,6 +932,74 @@
         <translation>Öppna panelen ”Sida” för att spara dess utkast.</translation>
     </message>
     <message>
+        <source>Exponential Intelligence is not available here.</source>
+        <translation>Exponential Intelligence är inte tillgängligt här.</translation>
+    </message>
+    <message>
+        <source>This action is not available for this field.</source>
+        <translation>Den här åtgärden är inte tillgänglig för det här fältet.</translation>
+    </message>
+    <message>
+        <source>Ask</source>
+        <translation>Fråga</translation>
+    </message>
+    <message>
+        <source>Into which language?</source>
+        <translation>Till vilket språk?</translation>
+    </message>
+    <message>
+        <source>What should be written?</source>
+        <translation>Vad ska skrivas?</translation>
+    </message>
+    <message>
+        <source>What should change? (optional)</source>
+        <translation>Vad ska ändras? (valfritt)</translation>
+    </message>
+    <message>
+        <source>Say what should be written.</source>
+        <translation>Säg vad som ska skrivas.</translation>
+    </message>
+    <message>
+        <source>Asking ...</source>
+        <translation>Frågar ...</translation>
+    </message>
+    <message>
+        <source>Suggestion</source>
+        <translation>Förslag</translation>
+    </message>
+    <message>
+        <source>Use it</source>
+        <translation>Använd det</translation>
+    </message>
+    <message>
+        <source>A suggestion: the field keeps its value until you use it.</source>
+        <translation>Ett förslag: fältet behåller sitt värde tills du använder det.</translation>
+    </message>
+    <message>
+        <source>It is in the field: Save draft keeps it, or autosave does.</source>
+        <translation>Det finns i fältet: Spara utkast behåller det, eller automatisk sparning.</translation>
+    </message>
+    <message>
+        <source>It is in the draft.</source>
+        <translation>Det finns i utkastet.</translation>
+    </message>
+    <message>
+        <source>Exponential Intelligence</source>
+        <translation>Exponential Intelligence</translation>
+    </message>
+    <message>
+        <source>AI</source>
+        <translation>AI</translation>
+    </message>
+    <message>
+        <source>Summarize</source>
+        <translation>Sammanfatta</translation>
+    </message>
+    <message>
+        <source>Alt text</source>
+        <translation>Alt-text</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Inkorg</translation>
     </message>

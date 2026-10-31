@@ -932,6 +932,74 @@
         <translation>Qoralamasini saqlash uchun «Sahifa» panelini oching.</translation>
     </message>
     <message>
+        <source>Exponential Intelligence is not available here.</source>
+        <translation>Exponential Intelligence bu yerda mavjud emas.</translation>
+    </message>
+    <message>
+        <source>This action is not available for this field.</source>
+        <translation>Bu amal bu maydon uchun mavjud emas.</translation>
+    </message>
+    <message>
+        <source>Ask</source>
+        <translation>So'rash</translation>
+    </message>
+    <message>
+        <source>Into which language?</source>
+        <translation>Qaysi tilga?</translation>
+    </message>
+    <message>
+        <source>What should be written?</source>
+        <translation>Nima yozilishi kerak?</translation>
+    </message>
+    <message>
+        <source>What should change? (optional)</source>
+        <translation>Nima o'zgarishi kerak? (ixtiyoriy)</translation>
+    </message>
+    <message>
+        <source>Say what should be written.</source>
+        <translation>Nima yozilishi kerakligini ayting.</translation>
+    </message>
+    <message>
+        <source>Asking ...</source>
+        <translation>So'ralmoqda ...</translation>
+    </message>
+    <message>
+        <source>Suggestion</source>
+        <translation>Taklif</translation>
+    </message>
+    <message>
+        <source>Use it</source>
+        <translation>Foydalanish</translation>
+    </message>
+    <message>
+        <source>A suggestion: the field keeps its value until you use it.</source>
+        <translation>Taklif: siz undan foydalanmaguningizcha maydon o'z qiymatini saqlaydi.</translation>
+    </message>
+    <message>
+        <source>It is in the field: Save draft keeps it, or autosave does.</source>
+        <translation>U maydonda: Qoralamani saqlash uni saqlaydi, yoki avtomatik saqlash.</translation>
+    </message>
+    <message>
+        <source>It is in the draft.</source>
+        <translation>U qoralamada.</translation>
+    </message>
+    <message>
+        <source>Exponential Intelligence</source>
+        <translation>Exponential Intelligence</translation>
+    </message>
+    <message>
+        <source>AI</source>
+        <translation>SI</translation>
+    </message>
+    <message>
+        <source>Summarize</source>
+        <translation>Xulosa qilish</translation>
+    </message>
+    <message>
+        <source>Alt text</source>
+        <translation>Muqobil matn</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Kiruvchilar</translation>
     </message>

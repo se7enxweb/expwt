@@ -932,6 +932,74 @@
         <translation>Open di Page panel make you save im draft.</translation>
     </message>
     <message>
+        <source>Exponential Intelligence is not available here.</source>
+        <translation>Exponential Intelligence no dey here.</translation>
+    </message>
+    <message>
+        <source>This action is not available for this field.</source>
+        <translation>Dis action no dey for dis field.</translation>
+    </message>
+    <message>
+        <source>Ask</source>
+        <translation>Ask</translation>
+    </message>
+    <message>
+        <source>Into which language?</source>
+        <translation>Enter which language?</translation>
+    </message>
+    <message>
+        <source>What should be written?</source>
+        <translation>Wetin we suppose write?</translation>
+    </message>
+    <message>
+        <source>What should change? (optional)</source>
+        <translation>Wetin suppose change? (if you want)</translation>
+    </message>
+    <message>
+        <source>Say what should be written.</source>
+        <translation>Talk wetin we suppose write.</translation>
+    </message>
+    <message>
+        <source>Asking ...</source>
+        <translation>E dey ask ...</translation>
+    </message>
+    <message>
+        <source>Suggestion</source>
+        <translation>Suggestion</translation>
+    </message>
+    <message>
+        <source>Use it</source>
+        <translation>Use am</translation>
+    </message>
+    <message>
+        <source>A suggestion: the field keeps its value until you use it.</source>
+        <translation>Na suggestion: di field go keep im value until you use am.</translation>
+    </message>
+    <message>
+        <source>It is in the field: Save draft keeps it, or autosave does.</source>
+        <translation>E don dey di field: Save draft go keep am, or autosave go do am.</translation>
+    </message>
+    <message>
+        <source>It is in the draft.</source>
+        <translation>E dey di draft.</translation>
+    </message>
+    <message>
+        <source>Exponential Intelligence</source>
+        <translation>Exponential Intelligence</translation>
+    </message>
+    <message>
+        <source>AI</source>
+        <translation>AI</translation>
+    </message>
+    <message>
+        <source>Summarize</source>
+        <translation>Summarize</translation>
+    </message>
+    <message>
+        <source>Alt text</source>
+        <translation>Alt text</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Inbox</translation>
     </message>

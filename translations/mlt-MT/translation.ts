@@ -932,6 +932,74 @@
         <translation>Iftaħ il-pannell «Paġna» biex tissejvja l-abbozz tagħha.</translation>
     </message>
     <message>
+        <source>Exponential Intelligence is not available here.</source>
+        <translation>Exponential Intelligence mhux disponibbli hawn.</translation>
+    </message>
+    <message>
+        <source>This action is not available for this field.</source>
+        <translation>Din l-azzjoni mhix disponibbli għal dan il-qasam.</translation>
+    </message>
+    <message>
+        <source>Ask</source>
+        <translation>Staqsi</translation>
+    </message>
+    <message>
+        <source>Into which language?</source>
+        <translation>Għal liema lingwa?</translation>
+    </message>
+    <message>
+        <source>What should be written?</source>
+        <translation>X'għandu jinkiteb?</translation>
+    </message>
+    <message>
+        <source>What should change? (optional)</source>
+        <translation>X'għandu jinbidel? (mhux obbligatorju)</translation>
+    </message>
+    <message>
+        <source>Say what should be written.</source>
+        <translation>Għid x'għandu jinkiteb.</translation>
+    </message>
+    <message>
+        <source>Asking ...</source>
+        <translation>Qed nistaqsi ...</translation>
+    </message>
+    <message>
+        <source>Suggestion</source>
+        <translation>Suġġeriment</translation>
+    </message>
+    <message>
+        <source>Use it</source>
+        <translation>Użah</translation>
+    </message>
+    <message>
+        <source>A suggestion: the field keeps its value until you use it.</source>
+        <translation>Suġġeriment: il-qasam iżomm il-valur tiegħu sakemm tużah.</translation>
+    </message>
+    <message>
+        <source>It is in the field: Save draft keeps it, or autosave does.</source>
+        <translation>Qiegħed fil-qasam: Issejvja l-abbozz iżommu, jew is-sejvjar awtomatiku.</translation>
+    </message>
+    <message>
+        <source>It is in the draft.</source>
+        <translation>Qiegħed fl-abbozz.</translation>
+    </message>
+    <message>
+        <source>Exponential Intelligence</source>
+        <translation>Exponential Intelligence</translation>
+    </message>
+    <message>
+        <source>AI</source>
+        <translation>IA</translation>
+    </message>
+    <message>
+        <source>Summarize</source>
+        <translation>Agħmel sommarju</translation>
+    </message>
+    <message>
+        <source>Alt text</source>
+        <translation>Test alternattiv</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Inbox</translation>
     </message>

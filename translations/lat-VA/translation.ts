@@ -932,6 +932,74 @@
         <translation>Aperi tabulam «Pagina» ut adumbrationem eius serves.</translation>
     </message>
     <message>
+        <source>Exponential Intelligence is not available here.</source>
+        <translation>Exponential Intelligence hic non praesto est.</translation>
+    </message>
+    <message>
+        <source>This action is not available for this field.</source>
+        <translation>Haec actio huic campo non praesto est.</translation>
+    </message>
+    <message>
+        <source>Ask</source>
+        <translation>Roga</translation>
+    </message>
+    <message>
+        <source>Into which language?</source>
+        <translation>In quam linguam?</translation>
+    </message>
+    <message>
+        <source>What should be written?</source>
+        <translation>Quid scribendum est?</translation>
+    </message>
+    <message>
+        <source>What should change? (optional)</source>
+        <translation>Quid mutandum est? (ad libitum)</translation>
+    </message>
+    <message>
+        <source>Say what should be written.</source>
+        <translation>Dic quid scribendum sit.</translation>
+    </message>
+    <message>
+        <source>Asking ...</source>
+        <translation>Rogatur ...</translation>
+    </message>
+    <message>
+        <source>Suggestion</source>
+        <translation>Propositum</translation>
+    </message>
+    <message>
+        <source>Use it</source>
+        <translation>Adhibe</translation>
+    </message>
+    <message>
+        <source>A suggestion: the field keeps its value until you use it.</source>
+        <translation>Propositum: campus valorem suum servat donec id adhibeas.</translation>
+    </message>
+    <message>
+        <source>It is in the field: Save draft keeps it, or autosave does.</source>
+        <translation>In campo est: Adumbrationem servare id servat, aut servatio sponte facta.</translation>
+    </message>
+    <message>
+        <source>It is in the draft.</source>
+        <translation>In adumbratione est.</translation>
+    </message>
+    <message>
+        <source>Exponential Intelligence</source>
+        <translation>Exponential Intelligence</translation>
+    </message>
+    <message>
+        <source>AI</source>
+        <translation>IA</translation>
+    </message>
+    <message>
+        <source>Summarize</source>
+        <translation>Summatim refer</translation>
+    </message>
+    <message>
+        <source>Alt text</source>
+        <translation>Textus alternus</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Arca accepta</translation>
     </message>

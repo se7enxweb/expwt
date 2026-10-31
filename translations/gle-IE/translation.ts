@@ -932,6 +932,74 @@
         <translation>Oscail an painéal «Leathanach» chun a dhréacht a shábháil.</translation>
     </message>
     <message>
+        <source>Exponential Intelligence is not available here.</source>
+        <translation>Níl Exponential Intelligence ar fáil anseo.</translation>
+    </message>
+    <message>
+        <source>This action is not available for this field.</source>
+        <translation>Níl an gníomh seo ar fáil don réimse seo.</translation>
+    </message>
+    <message>
+        <source>Ask</source>
+        <translation>Fiafraigh</translation>
+    </message>
+    <message>
+        <source>Into which language?</source>
+        <translation>Go dtí cén teanga?</translation>
+    </message>
+    <message>
+        <source>What should be written?</source>
+        <translation>Cad ba cheart a scríobh?</translation>
+    </message>
+    <message>
+        <source>What should change? (optional)</source>
+        <translation>Cad ba cheart a athrú? (roghnach)</translation>
+    </message>
+    <message>
+        <source>Say what should be written.</source>
+        <translation>Abair cad ba cheart a scríobh.</translation>
+    </message>
+    <message>
+        <source>Asking ...</source>
+        <translation>Ag fiafraí ...</translation>
+    </message>
+    <message>
+        <source>Suggestion</source>
+        <translation>Moladh</translation>
+    </message>
+    <message>
+        <source>Use it</source>
+        <translation>Úsáid é</translation>
+    </message>
+    <message>
+        <source>A suggestion: the field keeps its value until you use it.</source>
+        <translation>Moladh: coinníonn an réimse a luach go dtí go n-úsáideann tú é.</translation>
+    </message>
+    <message>
+        <source>It is in the field: Save draft keeps it, or autosave does.</source>
+        <translation>Tá sé sa réimse: coinníonn Sábháil an dréacht é, nó an sábháil uathoibríoch.</translation>
+    </message>
+    <message>
+        <source>It is in the draft.</source>
+        <translation>Tá sé sa dréacht.</translation>
+    </message>
+    <message>
+        <source>Exponential Intelligence</source>
+        <translation>Exponential Intelligence</translation>
+    </message>
+    <message>
+        <source>AI</source>
+        <translation>IS</translation>
+    </message>
+    <message>
+        <source>Summarize</source>
+        <translation>Achoimrigh</translation>
+    </message>
+    <message>
+        <source>Alt text</source>
+        <translation>Alt-téacs</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Bosca isteach</translation>
     </message>

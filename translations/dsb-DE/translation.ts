@@ -932,6 +932,74 @@
         <translation>Wócyńśo panel „Bok“, aby jogo nacerjenje składował.</translation>
     </message>
     <message>
+        <source>Exponential Intelligence is not available here.</source>
+        <translation>Exponential Intelligence how njejo k dispoziciji.</translation>
+    </message>
+    <message>
+        <source>This action is not available for this field.</source>
+        <translation>Toś ta akcija za toś to pólo njejo k dispoziciji.</translation>
+    </message>
+    <message>
+        <source>Ask</source>
+        <translation>Pšašaś se</translation>
+    </message>
+    <message>
+        <source>Into which language?</source>
+        <translation>Do kótaryje rěcy?</translation>
+    </message>
+    <message>
+        <source>What should be written?</source>
+        <translation>Co ma se pisaś?</translation>
+    </message>
+    <message>
+        <source>What should change? (optional)</source>
+        <translation>Co ma se změniś? (opcionalnje)</translation>
+    </message>
+    <message>
+        <source>Say what should be written.</source>
+        <translation>Pšajśo, co ma se pisaś.</translation>
+    </message>
+    <message>
+        <source>Asking ...</source>
+        <translation>Pšašam se ...</translation>
+    </message>
+    <message>
+        <source>Suggestion</source>
+        <translation>Naraźenje</translation>
+    </message>
+    <message>
+        <source>Use it</source>
+        <translation>Wužywaś</translation>
+    </message>
+    <message>
+        <source>A suggestion: the field keeps its value until you use it.</source>
+        <translation>Naraźenje: pólo wobchowa swóju gódnotu, až jo wužywaśo.</translation>
+    </message>
+    <message>
+        <source>It is in the field: Save draft keeps it, or autosave does.</source>
+        <translation>Jo w pólu: Nacerjenje składowaś jo wobchowa, abo awtomatiske składowanje.</translation>
+    </message>
+    <message>
+        <source>It is in the draft.</source>
+        <translation>Jo w nacerjenju.</translation>
+    </message>
+    <message>
+        <source>Exponential Intelligence</source>
+        <translation>Exponential Intelligence</translation>
+    </message>
+    <message>
+        <source>AI</source>
+        <translation>AI</translation>
+    </message>
+    <message>
+        <source>Summarize</source>
+        <translation>Zespominaś</translation>
+    </message>
+    <message>
+        <source>Alt text</source>
+        <translation>Alternatiwny tekst</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Dostaśe</translation>
     </message>

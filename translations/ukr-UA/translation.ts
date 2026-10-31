@@ -932,6 +932,74 @@
         <translation>Відкрийте панель «Сторінка», щоб зберегти її чернетку.</translation>
     </message>
     <message>
+        <source>Exponential Intelligence is not available here.</source>
+        <translation>Exponential Intelligence тут недоступний.</translation>
+    </message>
+    <message>
+        <source>This action is not available for this field.</source>
+        <translation>Ця дія недоступна для цього поля.</translation>
+    </message>
+    <message>
+        <source>Ask</source>
+        <translation>Запитати</translation>
+    </message>
+    <message>
+        <source>Into which language?</source>
+        <translation>Якою мовою?</translation>
+    </message>
+    <message>
+        <source>What should be written?</source>
+        <translation>Що треба написати?</translation>
+    </message>
+    <message>
+        <source>What should change? (optional)</source>
+        <translation>Що треба змінити? (необов'язково)</translation>
+    </message>
+    <message>
+        <source>Say what should be written.</source>
+        <translation>Скажіть, що треба написати.</translation>
+    </message>
+    <message>
+        <source>Asking ...</source>
+        <translation>Запит ...</translation>
+    </message>
+    <message>
+        <source>Suggestion</source>
+        <translation>Пропозиція</translation>
+    </message>
+    <message>
+        <source>Use it</source>
+        <translation>Використати</translation>
+    </message>
+    <message>
+        <source>A suggestion: the field keeps its value until you use it.</source>
+        <translation>Пропозиція: поле зберігає своє значення, доки ви її не використаєте.</translation>
+    </message>
+    <message>
+        <source>It is in the field: Save draft keeps it, or autosave does.</source>
+        <translation>Це в полі: Зберегти чернетку збереже це, або автозбереження.</translation>
+    </message>
+    <message>
+        <source>It is in the draft.</source>
+        <translation>Це в чернетці.</translation>
+    </message>
+    <message>
+        <source>Exponential Intelligence</source>
+        <translation>Exponential Intelligence</translation>
+    </message>
+    <message>
+        <source>AI</source>
+        <translation>ШІ</translation>
+    </message>
+    <message>
+        <source>Summarize</source>
+        <translation>Підсумувати</translation>
+    </message>
+    <message>
+        <source>Alt text</source>
+        <translation>Альтернативний текст</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Вхідні</translation>
     </message>

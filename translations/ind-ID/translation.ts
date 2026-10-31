@@ -932,6 +932,74 @@
         <translation>Buka panel «Halaman» untuk menyimpan drafnya.</translation>
     </message>
     <message>
+        <source>Exponential Intelligence is not available here.</source>
+        <translation>Exponential Intelligence tidak tersedia di sini.</translation>
+    </message>
+    <message>
+        <source>This action is not available for this field.</source>
+        <translation>Tindakan ini tidak tersedia untuk bidang ini.</translation>
+    </message>
+    <message>
+        <source>Ask</source>
+        <translation>Tanya</translation>
+    </message>
+    <message>
+        <source>Into which language?</source>
+        <translation>Ke bahasa apa?</translation>
+    </message>
+    <message>
+        <source>What should be written?</source>
+        <translation>Apa yang harus ditulis?</translation>
+    </message>
+    <message>
+        <source>What should change? (optional)</source>
+        <translation>Apa yang harus diubah? (opsional)</translation>
+    </message>
+    <message>
+        <source>Say what should be written.</source>
+        <translation>Katakan apa yang harus ditulis.</translation>
+    </message>
+    <message>
+        <source>Asking ...</source>
+        <translation>Sedang bertanya ...</translation>
+    </message>
+    <message>
+        <source>Suggestion</source>
+        <translation>Saran</translation>
+    </message>
+    <message>
+        <source>Use it</source>
+        <translation>Gunakan</translation>
+    </message>
+    <message>
+        <source>A suggestion: the field keeps its value until you use it.</source>
+        <translation>Sebuah saran: bidang tetap memakai nilainya sampai Anda menggunakannya.</translation>
+    </message>
+    <message>
+        <source>It is in the field: Save draft keeps it, or autosave does.</source>
+        <translation>Sudah ada di bidang: Simpan draf menyimpannya, atau simpan otomatis.</translation>
+    </message>
+    <message>
+        <source>It is in the draft.</source>
+        <translation>Sudah ada di draf.</translation>
+    </message>
+    <message>
+        <source>Exponential Intelligence</source>
+        <translation>Exponential Intelligence</translation>
+    </message>
+    <message>
+        <source>AI</source>
+        <translation>AI</translation>
+    </message>
+    <message>
+        <source>Summarize</source>
+        <translation>Ringkas</translation>
+    </message>
+    <message>
+        <source>Alt text</source>
+        <translation>Teks alt</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Kotak masuk</translation>
     </message>

@@ -932,6 +932,74 @@
         <translation>එහි කෙටුම්පත සුරැකීමට «පිටුව» පුවරුව විවෘත කරන්න.</translation>
     </message>
     <message>
+        <source>Exponential Intelligence is not available here.</source>
+        <translation>Exponential Intelligence මෙහි නොමැත.</translation>
+    </message>
+    <message>
+        <source>This action is not available for this field.</source>
+        <translation>මෙම ක්‍රියාව මෙම ක්ෂේත්‍රය සඳහා නොමැත.</translation>
+    </message>
+    <message>
+        <source>Ask</source>
+        <translation>අසන්න</translation>
+    </message>
+    <message>
+        <source>Into which language?</source>
+        <translation>කුමන භාෂාවට?</translation>
+    </message>
+    <message>
+        <source>What should be written?</source>
+        <translation>ලිවිය යුත්තේ කුමක්ද?</translation>
+    </message>
+    <message>
+        <source>What should change? (optional)</source>
+        <translation>වෙනස් විය යුත්තේ කුමක්ද? (විකල්ප)</translation>
+    </message>
+    <message>
+        <source>Say what should be written.</source>
+        <translation>ලිවිය යුත්තේ කුමක්දැයි කියන්න.</translation>
+    </message>
+    <message>
+        <source>Asking ...</source>
+        <translation>අසමින් ...</translation>
+    </message>
+    <message>
+        <source>Suggestion</source>
+        <translation>යෝජනාව</translation>
+    </message>
+    <message>
+        <source>Use it</source>
+        <translation>භාවිත කරන්න</translation>
+    </message>
+    <message>
+        <source>A suggestion: the field keeps its value until you use it.</source>
+        <translation>යෝජනාවක්: ඔබ එය භාවිත කරන තුරු ක්ෂේත්‍රය එහි අගය තබා ගනී.</translation>
+    </message>
+    <message>
+        <source>It is in the field: Save draft keeps it, or autosave does.</source>
+        <translation>එය ක්ෂේත්‍රයේ ඇත: කෙටුම්පත සුරකින්න එය තබා ගනී, නැතහොත් ස්වයංක්‍රීය සුරැකීම.</translation>
+    </message>
+    <message>
+        <source>It is in the draft.</source>
+        <translation>එය කෙටුම්පතේ ඇත.</translation>
+    </message>
+    <message>
+        <source>Exponential Intelligence</source>
+        <translation>Exponential Intelligence</translation>
+    </message>
+    <message>
+        <source>AI</source>
+        <translation>AI</translation>
+    </message>
+    <message>
+        <source>Summarize</source>
+        <translation>සාරාංශ කරන්න</translation>
+    </message>
+    <message>
+        <source>Alt text</source>
+        <translation>විකල්ප පෙළ</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>එන ලිපි</translation>
     </message>

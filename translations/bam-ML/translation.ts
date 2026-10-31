@@ -932,6 +932,74 @@
         <translation>«Ɲɛ» panel da walasa ka a ka bruyɔn mara.</translation>
     </message>
     <message>
+        <source>Exponential Intelligence is not available here.</source>
+        <translation>Exponential Intelligence tɛ yan.</translation>
+    </message>
+    <message>
+        <source>This action is not available for this field.</source>
+        <translation>Nin baara tɛ se ka kɛ nin yɔrɔ in na.</translation>
+    </message>
+    <message>
+        <source>Ask</source>
+        <translation>Ɲininka</translation>
+    </message>
+    <message>
+        <source>Into which language?</source>
+        <translation>Kan jumɛn na?</translation>
+    </message>
+    <message>
+        <source>What should be written?</source>
+        <translation>Mun ka kan ka sɛbɛn?</translation>
+    </message>
+    <message>
+        <source>What should change? (optional)</source>
+        <translation>Mun ka kan ka yɛlɛma? (n'i b'a fɛ)</translation>
+    </message>
+    <message>
+        <source>Say what should be written.</source>
+        <translation>Mun ka kan ka sɛbɛn, o fɔ.</translation>
+    </message>
+    <message>
+        <source>Asking ...</source>
+        <translation>Ɲininkali bɛ kɛ ...</translation>
+    </message>
+    <message>
+        <source>Suggestion</source>
+        <translation>Hakilina</translation>
+    </message>
+    <message>
+        <source>Use it</source>
+        <translation>A baara</translation>
+    </message>
+    <message>
+        <source>A suggestion: the field keeps its value until you use it.</source>
+        <translation>Hakilina: yɔrɔ in b'a ka hakɛ mara fo i k'a baara.</translation>
+    </message>
+    <message>
+        <source>It is in the field: Save draft keeps it, or autosave does.</source>
+        <translation>A bɛ yɔrɔ in kɔnɔ: Bruyɔn mara b'a mara, walima a yɛrɛ marali.</translation>
+    </message>
+    <message>
+        <source>It is in the draft.</source>
+        <translation>A bɛ bruyɔn kɔnɔ.</translation>
+    </message>
+    <message>
+        <source>Exponential Intelligence</source>
+        <translation>Exponential Intelligence</translation>
+    </message>
+    <message>
+        <source>AI</source>
+        <translation>AI</translation>
+    </message>
+    <message>
+        <source>Summarize</source>
+        <translation>A kuntigiw fɔ</translation>
+    </message>
+    <message>
+        <source>Alt text</source>
+        <translation>Alt sɛbɛn</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Bataki donnenw</translation>
     </message>

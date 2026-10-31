@@ -932,6 +932,74 @@
         <translation>Lat «Síða»-panelið upp fyri at goyma kladdu tess.</translation>
     </message>
     <message>
+        <source>Exponential Intelligence is not available here.</source>
+        <translation>Exponential Intelligence er ikki tøkt her.</translation>
+    </message>
+    <message>
+        <source>This action is not available for this field.</source>
+        <translation>Hendan gerðin er ikki tøk fyri henda teigin.</translation>
+    </message>
+    <message>
+        <source>Ask</source>
+        <translation>Spyr</translation>
+    </message>
+    <message>
+        <source>Into which language?</source>
+        <translation>Til hvat mál?</translation>
+    </message>
+    <message>
+        <source>What should be written?</source>
+        <translation>Hvat skal skrivast?</translation>
+    </message>
+    <message>
+        <source>What should change? (optional)</source>
+        <translation>Hvat skal broytast? (valfrítt)</translation>
+    </message>
+    <message>
+        <source>Say what should be written.</source>
+        <translation>Sig, hvat skal skrivast.</translation>
+    </message>
+    <message>
+        <source>Asking ...</source>
+        <translation>Spyrji ...</translation>
+    </message>
+    <message>
+        <source>Suggestion</source>
+        <translation>Uppskot</translation>
+    </message>
+    <message>
+        <source>Use it</source>
+        <translation>Nýt tað</translation>
+    </message>
+    <message>
+        <source>A suggestion: the field keeps its value until you use it.</source>
+        <translation>Eitt uppskot: teigurin heldur sínum virði, til tú nýtir tað.</translation>
+    </message>
+    <message>
+        <source>It is in the field: Save draft keeps it, or autosave does.</source>
+        <translation>Tað er í teiginum: Goym kladdu varðveitir tað, ella sjálvvirkandi goymsla.</translation>
+    </message>
+    <message>
+        <source>It is in the draft.</source>
+        <translation>Tað er í kladduni.</translation>
+    </message>
+    <message>
+        <source>Exponential Intelligence</source>
+        <translation>Exponential Intelligence</translation>
+    </message>
+    <message>
+        <source>AI</source>
+        <translation>AI</translation>
+    </message>
+    <message>
+        <source>Summarize</source>
+        <translation>Samandrátt</translation>
+    </message>
+    <message>
+        <source>Alt text</source>
+        <translation>Alt-tekstur</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Innbakki</translation>
     </message>

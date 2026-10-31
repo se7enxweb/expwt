@@ -932,6 +932,74 @@
         <translation>پنل «صفحه» را باز کنید تا پیش‌نویس آن ذخیره شود.</translation>
     </message>
     <message>
+        <source>Exponential Intelligence is not available here.</source>
+        <translation>Exponential Intelligence اینجا در دسترس نیست.</translation>
+    </message>
+    <message>
+        <source>This action is not available for this field.</source>
+        <translation>این کار برای این فیلد در دسترس نیست.</translation>
+    </message>
+    <message>
+        <source>Ask</source>
+        <translation>بپرس</translation>
+    </message>
+    <message>
+        <source>Into which language?</source>
+        <translation>به کدام زبان؟</translation>
+    </message>
+    <message>
+        <source>What should be written?</source>
+        <translation>چه باید نوشته شود؟</translation>
+    </message>
+    <message>
+        <source>What should change? (optional)</source>
+        <translation>چه باید تغییر کند؟ (اختیاری)</translation>
+    </message>
+    <message>
+        <source>Say what should be written.</source>
+        <translation>بگویید چه باید نوشته شود.</translation>
+    </message>
+    <message>
+        <source>Asking ...</source>
+        <translation>در حال پرسیدن ...</translation>
+    </message>
+    <message>
+        <source>Suggestion</source>
+        <translation>پیشنهاد</translation>
+    </message>
+    <message>
+        <source>Use it</source>
+        <translation>استفاده کن</translation>
+    </message>
+    <message>
+        <source>A suggestion: the field keeps its value until you use it.</source>
+        <translation>یک پیشنهاد: فیلد مقدار خود را نگه می‌دارد تا وقتی از آن استفاده کنید.</translation>
+    </message>
+    <message>
+        <source>It is in the field: Save draft keeps it, or autosave does.</source>
+        <translation>در فیلد است: ذخیرهٔ پیش‌نویس آن را نگه می‌دارد، یا ذخیرهٔ خودکار.</translation>
+    </message>
+    <message>
+        <source>It is in the draft.</source>
+        <translation>در پیش‌نویس است.</translation>
+    </message>
+    <message>
+        <source>Exponential Intelligence</source>
+        <translation>Exponential Intelligence</translation>
+    </message>
+    <message>
+        <source>AI</source>
+        <translation>AI</translation>
+    </message>
+    <message>
+        <source>Summarize</source>
+        <translation>خلاصه کن</translation>
+    </message>
+    <message>
+        <source>Alt text</source>
+        <translation>متن جایگزین</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>صندوق ورودی</translation>
     </message>

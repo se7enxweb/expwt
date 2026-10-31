@@ -932,6 +932,74 @@
         <translation>Барои захира кардани сиёҳнависаш панели «Саҳифа»-ро кушоед.</translation>
     </message>
     <message>
+        <source>Exponential Intelligence is not available here.</source>
+        <translation>Exponential Intelligence дар ин ҷо дастрас нест.</translation>
+    </message>
+    <message>
+        <source>This action is not available for this field.</source>
+        <translation>Ин амал барои ин майдон дастрас нест.</translation>
+    </message>
+    <message>
+        <source>Ask</source>
+        <translation>Пурсидан</translation>
+    </message>
+    <message>
+        <source>Into which language?</source>
+        <translation>Ба кадом забон?</translation>
+    </message>
+    <message>
+        <source>What should be written?</source>
+        <translation>Чӣ бояд навишта шавад?</translation>
+    </message>
+    <message>
+        <source>What should change? (optional)</source>
+        <translation>Чӣ бояд тағйир ёбад? (ихтиёрӣ)</translation>
+    </message>
+    <message>
+        <source>Say what should be written.</source>
+        <translation>Бигӯед, ки чӣ бояд навишта шавад.</translation>
+    </message>
+    <message>
+        <source>Asking ...</source>
+        <translation>Пурсида мешавад ...</translation>
+    </message>
+    <message>
+        <source>Suggestion</source>
+        <translation>Пешниҳод</translation>
+    </message>
+    <message>
+        <source>Use it</source>
+        <translation>Истифода бурдан</translation>
+    </message>
+    <message>
+        <source>A suggestion: the field keeps its value until you use it.</source>
+        <translation>Пешниҳод: майдон қимати худро то истифодаи шумо нигоҳ медорад.</translation>
+    </message>
+    <message>
+        <source>It is in the field: Save draft keeps it, or autosave does.</source>
+        <translation>Он дар майдон аст: Захираи сиёҳнавис онро нигоҳ медорад, ё захираи худкор.</translation>
+    </message>
+    <message>
+        <source>It is in the draft.</source>
+        <translation>Он дар сиёҳнавис аст.</translation>
+    </message>
+    <message>
+        <source>Exponential Intelligence</source>
+        <translation>Exponential Intelligence</translation>
+    </message>
+    <message>
+        <source>AI</source>
+        <translation>AI</translation>
+    </message>
+    <message>
+        <source>Summarize</source>
+        <translation>Хулоса кардан</translation>
+    </message>
+    <message>
+        <source>Alt text</source>
+        <translation>Матни ивазкунанда</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Воридшуда</translation>
     </message>

@@ -932,6 +932,74 @@
         <translation>Fungua kidirisha cha «Ukurasa» ili kuhifadhi rasimu yake.</translation>
     </message>
     <message>
+        <source>Exponential Intelligence is not available here.</source>
+        <translation>Exponential Intelligence haipatikani hapa.</translation>
+    </message>
+    <message>
+        <source>This action is not available for this field.</source>
+        <translation>Kitendo hiki hakipatikani kwa sehemu hii.</translation>
+    </message>
+    <message>
+        <source>Ask</source>
+        <translation>Uliza</translation>
+    </message>
+    <message>
+        <source>Into which language?</source>
+        <translation>Kwa lugha gani?</translation>
+    </message>
+    <message>
+        <source>What should be written?</source>
+        <translation>Nini kiandikwe?</translation>
+    </message>
+    <message>
+        <source>What should change? (optional)</source>
+        <translation>Nini kibadilike? (si lazima)</translation>
+    </message>
+    <message>
+        <source>Say what should be written.</source>
+        <translation>Sema kinachopaswa kuandikwa.</translation>
+    </message>
+    <message>
+        <source>Asking ...</source>
+        <translation>Inauliza ...</translation>
+    </message>
+    <message>
+        <source>Suggestion</source>
+        <translation>Pendekezo</translation>
+    </message>
+    <message>
+        <source>Use it</source>
+        <translation>Litumie</translation>
+    </message>
+    <message>
+        <source>A suggestion: the field keeps its value until you use it.</source>
+        <translation>Pendekezo: sehemu inabaki na thamani yake hadi utakapolitumia.</translation>
+    </message>
+    <message>
+        <source>It is in the field: Save draft keeps it, or autosave does.</source>
+        <translation>Iko kwenye sehemu: Hifadhi rasimu inaihifadhi, au uhifadhi wa kiotomatiki.</translation>
+    </message>
+    <message>
+        <source>It is in the draft.</source>
+        <translation>Iko kwenye rasimu.</translation>
+    </message>
+    <message>
+        <source>Exponential Intelligence</source>
+        <translation>Exponential Intelligence</translation>
+    </message>
+    <message>
+        <source>AI</source>
+        <translation>AI</translation>
+    </message>
+    <message>
+        <source>Summarize</source>
+        <translation>Fupisha</translation>
+    </message>
+    <message>
+        <source>Alt text</source>
+        <translation>Maandishi mbadala</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Kikasha</translation>
     </message>

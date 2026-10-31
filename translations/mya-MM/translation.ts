@@ -932,6 +932,74 @@
         <translation>၎င်း၏ မူကြမ်းကို သိမ်းရန် «စာမျက်နှာ» ဘောင်ကို ဖွင့်ပါ။</translation>
     </message>
     <message>
+        <source>Exponential Intelligence is not available here.</source>
+        <translation>Exponential Intelligence ကို ဤနေရာတွင် မရနိုင်ပါ။</translation>
+    </message>
+    <message>
+        <source>This action is not available for this field.</source>
+        <translation>ဤလုပ်ဆောင်ချက်ကို ဤအကွက်အတွက် မရနိုင်ပါ။</translation>
+    </message>
+    <message>
+        <source>Ask</source>
+        <translation>မေးရန်</translation>
+    </message>
+    <message>
+        <source>Into which language?</source>
+        <translation>မည်သည့်ဘာသာသို့?</translation>
+    </message>
+    <message>
+        <source>What should be written?</source>
+        <translation>ဘာရေးသင့်သလဲ?</translation>
+    </message>
+    <message>
+        <source>What should change? (optional)</source>
+        <translation>ဘာပြောင်းသင့်သလဲ? (ရွေးချယ်နိုင်)</translation>
+    </message>
+    <message>
+        <source>Say what should be written.</source>
+        <translation>ဘာရေးသင့်သည်ကို ပြောပါ။</translation>
+    </message>
+    <message>
+        <source>Asking ...</source>
+        <translation>မေးနေသည် ...</translation>
+    </message>
+    <message>
+        <source>Suggestion</source>
+        <translation>အကြံပြုချက်</translation>
+    </message>
+    <message>
+        <source>Use it</source>
+        <translation>သုံးရန်</translation>
+    </message>
+    <message>
+        <source>A suggestion: the field keeps its value until you use it.</source>
+        <translation>အကြံပြုချက်တစ်ခု- သင်သုံးသည်အထိ အကွက်သည် ၎င်း၏တန်ဖိုးကို ထိန်းထားသည်။</translation>
+    </message>
+    <message>
+        <source>It is in the field: Save draft keeps it, or autosave does.</source>
+        <translation>အကွက်ထဲတွင် ရှိသည်- မူကြမ်း သိမ်းရန် က ထိန်းထားသည်၊ သို့မဟုတ် အလိုအလျောက်သိမ်းခြင်း။</translation>
+    </message>
+    <message>
+        <source>It is in the draft.</source>
+        <translation>မူကြမ်းထဲတွင် ရှိသည်။</translation>
+    </message>
+    <message>
+        <source>Exponential Intelligence</source>
+        <translation>Exponential Intelligence</translation>
+    </message>
+    <message>
+        <source>AI</source>
+        <translation>AI</translation>
+    </message>
+    <message>
+        <source>Summarize</source>
+        <translation>အကျဉ်းချုပ်</translation>
+    </message>
+    <message>
+        <source>Alt text</source>
+        <translation>အစားထိုးစာသား</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>ဝင်စာ</translation>
     </message>

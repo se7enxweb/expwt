@@ -932,6 +932,74 @@
         <translation>Maacht de Beräich „Säit“ op, fir säin Entworf ze späicheren.</translation>
     </message>
     <message>
+        <source>Exponential Intelligence is not available here.</source>
+        <translation>Exponential Intelligence ass hei net disponibel.</translation>
+    </message>
+    <message>
+        <source>This action is not available for this field.</source>
+        <translation>Dës Aktioun ass fir dëst Feld net disponibel.</translation>
+    </message>
+    <message>
+        <source>Ask</source>
+        <translation>Froen</translation>
+    </message>
+    <message>
+        <source>Into which language?</source>
+        <translation>An wéi eng Sprooch?</translation>
+    </message>
+    <message>
+        <source>What should be written?</source>
+        <translation>Wat soll geschriwwe ginn?</translation>
+    </message>
+    <message>
+        <source>What should change? (optional)</source>
+        <translation>Wat soll sech änneren? (fakultativ)</translation>
+    </message>
+    <message>
+        <source>Say what should be written.</source>
+        <translation>Sot, wat geschriwwe soll ginn.</translation>
+    </message>
+    <message>
+        <source>Asking ...</source>
+        <translation>Gëtt gefrot ...</translation>
+    </message>
+    <message>
+        <source>Suggestion</source>
+        <translation>Virschlag</translation>
+    </message>
+    <message>
+        <source>Use it</source>
+        <translation>Iwwerhuelen</translation>
+    </message>
+    <message>
+        <source>A suggestion: the field keeps its value until you use it.</source>
+        <translation>E Virschlag: D'Feld behält säi Wäert, bis Dir en iwwerhuelt.</translation>
+    </message>
+    <message>
+        <source>It is in the field: Save draft keeps it, or autosave does.</source>
+        <translation>Et steet am Feld: Entworf späicheren hält et, oder dat automatescht Späicheren.</translation>
+    </message>
+    <message>
+        <source>It is in the draft.</source>
+        <translation>Et ass am Entworf.</translation>
+    </message>
+    <message>
+        <source>Exponential Intelligence</source>
+        <translation>Exponential Intelligence</translation>
+    </message>
+    <message>
+        <source>AI</source>
+        <translation>KI</translation>
+    </message>
+    <message>
+        <source>Summarize</source>
+        <translation>Resuméieren</translation>
+    </message>
+    <message>
+        <source>Alt text</source>
+        <translation>Alternativtext</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Postkëscht</translation>
     </message>

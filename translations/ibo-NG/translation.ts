@@ -932,6 +932,74 @@
         <translation>Mepee panel «Ibe» iji chekwaa ndepụta mbụ ya.</translation>
     </message>
     <message>
+        <source>Exponential Intelligence is not available here.</source>
+        <translation>Exponential Intelligence adịghị ebe a.</translation>
+    </message>
+    <message>
+        <source>This action is not available for this field.</source>
+        <translation>Ihe a adịghị maka ubi a.</translation>
+    </message>
+    <message>
+        <source>Ask</source>
+        <translation>Jụọ</translation>
+    </message>
+    <message>
+        <source>Into which language?</source>
+        <translation>Gaa n'asụsụ ole?</translation>
+    </message>
+    <message>
+        <source>What should be written?</source>
+        <translation>Gịnị ka a ga-ede?</translation>
+    </message>
+    <message>
+        <source>What should change? (optional)</source>
+        <translation>Gịnị kwesịrị ịgbanwe? (nhọrọ)</translation>
+    </message>
+    <message>
+        <source>Say what should be written.</source>
+        <translation>Kwuo ihe a ga-ede.</translation>
+    </message>
+    <message>
+        <source>Asking ...</source>
+        <translation>A na-ajụ ...</translation>
+    </message>
+    <message>
+        <source>Suggestion</source>
+        <translation>Aro</translation>
+    </message>
+    <message>
+        <source>Use it</source>
+        <translation>Jiri ya</translation>
+    </message>
+    <message>
+        <source>A suggestion: the field keeps its value until you use it.</source>
+        <translation>Otu aro: ubi ahụ na-edobe uru ya ruo mgbe ị jiri ya.</translation>
+    </message>
+    <message>
+        <source>It is in the field: Save draft keeps it, or autosave does.</source>
+        <translation>Ọ dị n'ubi ahụ: Chekwaa ndepụta mbụ na-edobe ya, ma ọ bụ nchekwa onwe ya.</translation>
+    </message>
+    <message>
+        <source>It is in the draft.</source>
+        <translation>Ọ dị na ndepụta mbụ ahụ.</translation>
+    </message>
+    <message>
+        <source>Exponential Intelligence</source>
+        <translation>Exponential Intelligence</translation>
+    </message>
+    <message>
+        <source>AI</source>
+        <translation>AI</translation>
+    </message>
+    <message>
+        <source>Summarize</source>
+        <translation>Chịkọta</translation>
+    </message>
+    <message>
+        <source>Alt text</source>
+        <translation>Ederede ọzọ</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Igbe ozi</translation>
     </message>

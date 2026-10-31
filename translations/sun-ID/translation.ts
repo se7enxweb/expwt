@@ -932,6 +932,74 @@
         <translation>Buka panél «Kaca» pikeun nyimpen drafna.</translation>
     </message>
     <message>
+        <source>Exponential Intelligence is not available here.</source>
+        <translation>Exponential Intelligence teu aya di dieu.</translation>
+    </message>
+    <message>
+        <source>This action is not available for this field.</source>
+        <translation>Tindakan ieu teu aya pikeun widang ieu.</translation>
+    </message>
+    <message>
+        <source>Ask</source>
+        <translation>Tanya</translation>
+    </message>
+    <message>
+        <source>Into which language?</source>
+        <translation>Kana basa naon?</translation>
+    </message>
+    <message>
+        <source>What should be written?</source>
+        <translation>Naon anu kudu ditulis?</translation>
+    </message>
+    <message>
+        <source>What should change? (optional)</source>
+        <translation>Naon anu kudu dirobah? (pilihan)</translation>
+    </message>
+    <message>
+        <source>Say what should be written.</source>
+        <translation>Sebutkeun naon anu kudu ditulis.</translation>
+    </message>
+    <message>
+        <source>Asking ...</source>
+        <translation>Keur nanya ...</translation>
+    </message>
+    <message>
+        <source>Suggestion</source>
+        <translation>Saran</translation>
+    </message>
+    <message>
+        <source>Use it</source>
+        <translation>Paké</translation>
+    </message>
+    <message>
+        <source>A suggestion: the field keeps its value until you use it.</source>
+        <translation>Hiji saran: widang tetep ngagunakeun nilaina nepi ka anjeun maké éta.</translation>
+    </message>
+    <message>
+        <source>It is in the field: Save draft keeps it, or autosave does.</source>
+        <translation>Geus aya dina widang: Simpen draf nyimpen éta, atawa simpen otomatis.</translation>
+    </message>
+    <message>
+        <source>It is in the draft.</source>
+        <translation>Geus aya dina draf.</translation>
+    </message>
+    <message>
+        <source>Exponential Intelligence</source>
+        <translation>Exponential Intelligence</translation>
+    </message>
+    <message>
+        <source>AI</source>
+        <translation>AI</translation>
+    </message>
+    <message>
+        <source>Summarize</source>
+        <translation>Ringkeskeun</translation>
+    </message>
+    <message>
+        <source>Alt text</source>
+        <translation>Téks alt</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Kotak asup</translation>
     </message>

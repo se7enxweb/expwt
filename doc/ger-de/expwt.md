@@ -221,6 +221,33 @@ Handler von expwt: nur für Benutzer, die mit der Seitenleiste bearbeiten dürfe
 Datei, ein Text ohne Markierungen über seinen Wert. Eine Bilddatei, die auf das Bild der Seite gezogen wird, ersetzt es
 im Entwurf, über das Hochladen des Bildfeldes selbst; sein Alternativtext steht in seinem Editor.
 
+### Exponential Intelligence an den Feldern
+
+Wo expai (Exponential Intelligence) für den Benutzer eingeschaltet ist, hat jedes Feld, das es schreiben kann, im
+Bereich Seite eine Reihe von Aktionen darunter, markiert mit **KI**: die Feldaktionen des Bearbeitungsformulars der
+Administration (expai.ini `[EditViewSettings] FieldActions[]`: **Schreiben** mit einer Anweisung, **Umschreiben** mit
+einer optionalen, **Kürzen**, **Übersetzen** in eine gewählte Sprache, **Vorschlagen**, bei einem Schlagwortfeld seine
+Schlagwörter), **Zusammenfassen** (eine kurze Zusammenfassung der Seite für ein Text- oder Rich-Text-Feld: Schreiben von
+expai mit dieser Anweisung) und bei einem Bild sein **Alternativtext** (der Alternativtext von expai, wo ein Modell
+verfügbar ist, das Bilder ansehen kann). Übersetzen beginnt mit der Sprache des Feldes selbst: der übliche Fall ist eine
+neue Übersetzung, deren Felder noch den Text der Hauptsprache enthalten.
+
+- **Wer:** `expwt/edit` und die eigene Policy von expai `expai/write`, auf einer Seite, die der Benutzer in dieser
+  Sprache bearbeiten darf; expai aktiv im Siteaccess, in dem die Seitenleiste läuft (`[ExtensionSettings]
+  ActiveAccessExtensions[]=expai` des Website-Siteaccess oder `ActiveExtensions[]`), dort eingeschaltet (`[AISettings]
+  Enabled`, nicht in `DisabledSiteAccesses[]`), eingerichtet (ein Modell und sein Schlüssel) und mit eingeschalteten
+  Aktionen im Bearbeitungsformular (`[EditViewSettings] Enabled`). Fehlt etwas davon, zeigt die Seitenleiste keine
+  KI-Aktion und stellt keine Anfrage dafür. Die Limits, die Datenrichtlinie, die Modellwahl mit Ausweichmodell und das
+  Nutzungsprotokoll von expai gelten genau wie in der Administration.
+- **Nur in den Entwurf:** die Antwort ist ein Vorschlag unter dem Feld (Rich Text als sein Text); das Feld behält seinen
+  Wert bis **Übernehmen**. Ein Feld des Formulars übernimmt ihn in seine Eingabe, als geändert markiert und mit dem
+  Entwurf gespeichert (auch automatisch); ein Feld mit eigenem Editor (Rich Text, der Alternativtext des Bildes) bekommt
+  ihn in den Entwurf des Benutzers geschrieben, und der Editor lädt neu. Es wird nichts veröffentlicht: Veröffentlichen
+  ist der eigene Schritt des Benutzers, mit den Workflows und Freigaben der Installation. Eine Anfrage braucht einen
+  Entwurf (expai markiert ihn als unterstützt): den neuesten des Benutzers in der Sprache, oder einen neuen.
+- Aktionen: `ai.field` (fragen) und `ai.apply` (den Vorschlag in ein Feld mit eigenem Editor schreiben), beide per POST
+  mit dem Formular-Token, beide `expwt/edit`.
+
 ## Policies
 
 | Policy | Erlaubt |

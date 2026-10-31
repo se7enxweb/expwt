@@ -932,6 +932,74 @@
         <translation>下書きを保存するには「ページ」パネルを開いてください。</translation>
     </message>
     <message>
+        <source>Exponential Intelligence is not available here.</source>
+        <translation>Exponential Intelligence はここでは使用できません。</translation>
+    </message>
+    <message>
+        <source>This action is not available for this field.</source>
+        <translation>この操作はこのフィールドでは使用できません。</translation>
+    </message>
+    <message>
+        <source>Ask</source>
+        <translation>質問する</translation>
+    </message>
+    <message>
+        <source>Into which language?</source>
+        <translation>どの言語に？</translation>
+    </message>
+    <message>
+        <source>What should be written?</source>
+        <translation>何を書きますか？</translation>
+    </message>
+    <message>
+        <source>What should change? (optional)</source>
+        <translation>何を変更しますか？（任意）</translation>
+    </message>
+    <message>
+        <source>Say what should be written.</source>
+        <translation>何を書くかを入力してください。</translation>
+    </message>
+    <message>
+        <source>Asking ...</source>
+        <translation>質問中 ...</translation>
+    </message>
+    <message>
+        <source>Suggestion</source>
+        <translation>提案</translation>
+    </message>
+    <message>
+        <source>Use it</source>
+        <translation>使用する</translation>
+    </message>
+    <message>
+        <source>A suggestion: the field keeps its value until you use it.</source>
+        <translation>提案です。使用するまでフィールドの値は変わりません。</translation>
+    </message>
+    <message>
+        <source>It is in the field: Save draft keeps it, or autosave does.</source>
+        <translation>フィールドに入りました。下書きを保存または自動保存で保持されます。</translation>
+    </message>
+    <message>
+        <source>It is in the draft.</source>
+        <translation>下書きに入っています。</translation>
+    </message>
+    <message>
+        <source>Exponential Intelligence</source>
+        <translation>Exponential Intelligence</translation>
+    </message>
+    <message>
+        <source>AI</source>
+        <translation>AI</translation>
+    </message>
+    <message>
+        <source>Summarize</source>
+        <translation>要約</translation>
+    </message>
+    <message>
+        <source>Alt text</source>
+        <translation>代替テキスト</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>受信箱</translation>
     </message>

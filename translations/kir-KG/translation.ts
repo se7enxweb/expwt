@@ -932,6 +932,74 @@
         <translation>Долбоорун сактоо үчүн «Барак» панелин ачыңыз.</translation>
     </message>
     <message>
+        <source>Exponential Intelligence is not available here.</source>
+        <translation>Exponential Intelligence бул жерде жеткиликсиз.</translation>
+    </message>
+    <message>
+        <source>This action is not available for this field.</source>
+        <translation>Бул аракет бул талаа үчүн жеткиликсиз.</translation>
+    </message>
+    <message>
+        <source>Ask</source>
+        <translation>Суроо</translation>
+    </message>
+    <message>
+        <source>Into which language?</source>
+        <translation>Кайсы тилге?</translation>
+    </message>
+    <message>
+        <source>What should be written?</source>
+        <translation>Эмне жазылышы керек?</translation>
+    </message>
+    <message>
+        <source>What should change? (optional)</source>
+        <translation>Эмне өзгөрүшү керек? (милдеттүү эмес)</translation>
+    </message>
+    <message>
+        <source>Say what should be written.</source>
+        <translation>Эмне жазылышы керектигин айтыңыз.</translation>
+    </message>
+    <message>
+        <source>Asking ...</source>
+        <translation>Суралууда ...</translation>
+    </message>
+    <message>
+        <source>Suggestion</source>
+        <translation>Сунуш</translation>
+    </message>
+    <message>
+        <source>Use it</source>
+        <translation>Колдонуу</translation>
+    </message>
+    <message>
+        <source>A suggestion: the field keeps its value until you use it.</source>
+        <translation>Сунуш: сиз аны колдонгонго чейин талаа өз маанисин сактайт.</translation>
+    </message>
+    <message>
+        <source>It is in the field: Save draft keeps it, or autosave does.</source>
+        <translation>Ал талаада: Долбоорду сактоо аны сактайт, же автосактоо.</translation>
+    </message>
+    <message>
+        <source>It is in the draft.</source>
+        <translation>Ал долбоордо.</translation>
+    </message>
+    <message>
+        <source>Exponential Intelligence</source>
+        <translation>Exponential Intelligence</translation>
+    </message>
+    <message>
+        <source>AI</source>
+        <translation>ЖИ</translation>
+    </message>
+    <message>
+        <source>Summarize</source>
+        <translation>Кыскача</translation>
+    </message>
+    <message>
+        <source>Alt text</source>
+        <translation>Альтернативдүү текст</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Кирүүчүлөр</translation>
     </message>

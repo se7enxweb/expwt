@@ -932,6 +932,74 @@
         <translation>Ggulawo paneli «Olupapula» okutereka ddulaafuti yaayo.</translation>
     </message>
     <message>
+        <source>Exponential Intelligence is not available here.</source>
+        <translation>Exponential Intelligence tekiriiwo wano.</translation>
+    </message>
+    <message>
+        <source>This action is not available for this field.</source>
+        <translation>Ekikolwa kino tekiriiwo ku kifo kino.</translation>
+    </message>
+    <message>
+        <source>Ask</source>
+        <translation>Buuza</translation>
+    </message>
+    <message>
+        <source>Into which language?</source>
+        <translation>Mu lulimi ki?</translation>
+    </message>
+    <message>
+        <source>What should be written?</source>
+        <translation>Kiki ekirina okuwandiikibwa?</translation>
+    </message>
+    <message>
+        <source>What should change? (optional)</source>
+        <translation>Kiki ekirina okukyusibwa? (si kya buwaze)</translation>
+    </message>
+    <message>
+        <source>Say what should be written.</source>
+        <translation>Yogera ekirina okuwandiikibwa.</translation>
+    </message>
+    <message>
+        <source>Asking ...</source>
+        <translation>Kubuuza ...</translation>
+    </message>
+    <message>
+        <source>Suggestion</source>
+        <translation>Ekiteeso</translation>
+    </message>
+    <message>
+        <source>Use it</source>
+        <translation>Kikozese</translation>
+    </message>
+    <message>
+        <source>A suggestion: the field keeps its value until you use it.</source>
+        <translation>Ekiteeso: ekifo kikuuma omuwendo gwakyo okutuusa lw'okikozesa.</translation>
+    </message>
+    <message>
+        <source>It is in the field: Save draft keeps it, or autosave does.</source>
+        <translation>Kiri mu kifo: Tereka ddulaafuti kikikuuma, oba okutereka okwokka.</translation>
+    </message>
+    <message>
+        <source>It is in the draft.</source>
+        <translation>Kiri mu ddulaafuti.</translation>
+    </message>
+    <message>
+        <source>Exponential Intelligence</source>
+        <translation>Exponential Intelligence</translation>
+    </message>
+    <message>
+        <source>AI</source>
+        <translation>AI</translation>
+    </message>
+    <message>
+        <source>Summarize</source>
+        <translation>Funza</translation>
+    </message>
+    <message>
+        <source>Alt text</source>
+        <translation>Ebiwandiiko ebikyusa</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Ebibaluwa ebiyingira</translation>
     </message>

@@ -932,6 +932,74 @@
         <translation>E wehe i ka papa «ʻAoʻao» no ka mālama ʻana i kona kāmua.</translation>
     </message>
     <message>
+        <source>Exponential Intelligence is not available here.</source>
+        <translation>ʻAʻole loaʻa ʻo Exponential Intelligence ma ʻaneʻi.</translation>
+    </message>
+    <message>
+        <source>This action is not available for this field.</source>
+        <translation>ʻAʻole loaʻa kēia hana no kēia kahua.</translation>
+    </message>
+    <message>
+        <source>Ask</source>
+        <translation>Nīnau</translation>
+    </message>
+    <message>
+        <source>Into which language?</source>
+        <translation>I loko o ka ʻōlelo hea?</translation>
+    </message>
+    <message>
+        <source>What should be written?</source>
+        <translation>He aha ka mea e kākau ʻia ai?</translation>
+    </message>
+    <message>
+        <source>What should change? (optional)</source>
+        <translation>He aha ka mea e loli ai? (koho)</translation>
+    </message>
+    <message>
+        <source>Say what should be written.</source>
+        <translation>E haʻi i ka mea e kākau ʻia ai.</translation>
+    </message>
+    <message>
+        <source>Asking ...</source>
+        <translation>E nīnau ana ...</translation>
+    </message>
+    <message>
+        <source>Suggestion</source>
+        <translation>Manaʻo</translation>
+    </message>
+    <message>
+        <source>Use it</source>
+        <translation>E hoʻohana</translation>
+    </message>
+    <message>
+        <source>A suggestion: the field keeps its value until you use it.</source>
+        <translation>He manaʻo: mālama ke kahua i kona waiwai a hiki i kou hoʻohana ʻana.</translation>
+    </message>
+    <message>
+        <source>It is in the field: Save draft keeps it, or autosave does.</source>
+        <translation>Aia i ke kahua: mālama ʻo Mālama i ke kāmua iā ia, a i ʻole ka mālama ʻakomi.</translation>
+    </message>
+    <message>
+        <source>It is in the draft.</source>
+        <translation>Aia i ke kāmua.</translation>
+    </message>
+    <message>
+        <source>Exponential Intelligence</source>
+        <translation>Exponential Intelligence</translation>
+    </message>
+    <message>
+        <source>AI</source>
+        <translation>AI</translation>
+    </message>
+    <message>
+        <source>Summarize</source>
+        <translation>Hōʻuluʻulu</translation>
+    </message>
+    <message>
+        <source>Alt text</source>
+        <translation>Kikokikona alt</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Pahu leka komo</translation>
     </message>

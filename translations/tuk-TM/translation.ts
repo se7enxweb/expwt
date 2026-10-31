@@ -932,6 +932,74 @@
         <translation>Garalamasyny ýatda saklamak üçin «Sahypa» panelini açyň.</translation>
     </message>
     <message>
+        <source>Exponential Intelligence is not available here.</source>
+        <translation>Exponential Intelligence bu ýerde elýeterli däl.</translation>
+    </message>
+    <message>
+        <source>This action is not available for this field.</source>
+        <translation>Bu hereket bu meýdan üçin elýeterli däl.</translation>
+    </message>
+    <message>
+        <source>Ask</source>
+        <translation>Sora</translation>
+    </message>
+    <message>
+        <source>Into which language?</source>
+        <translation>Haýsy dile?</translation>
+    </message>
+    <message>
+        <source>What should be written?</source>
+        <translation>Näme ýazylmaly?</translation>
+    </message>
+    <message>
+        <source>What should change? (optional)</source>
+        <translation>Näme üýtgemeli? (hökmany däl)</translation>
+    </message>
+    <message>
+        <source>Say what should be written.</source>
+        <translation>Näme ýazylmalydygyny aýdyň.</translation>
+    </message>
+    <message>
+        <source>Asking ...</source>
+        <translation>Soralýar ...</translation>
+    </message>
+    <message>
+        <source>Suggestion</source>
+        <translation>Teklip</translation>
+    </message>
+    <message>
+        <source>Use it</source>
+        <translation>Ulan</translation>
+    </message>
+    <message>
+        <source>A suggestion: the field keeps its value until you use it.</source>
+        <translation>Teklip: siz ony ulanýançaňyz meýdan öz bahasyny saklaýar.</translation>
+    </message>
+    <message>
+        <source>It is in the field: Save draft keeps it, or autosave does.</source>
+        <translation>Ol meýdanda: Garalamany ýatda sakla ony saklaýar, ýa-da awtomatik ýatda saklamak.</translation>
+    </message>
+    <message>
+        <source>It is in the draft.</source>
+        <translation>Ol garalamada.</translation>
+    </message>
+    <message>
+        <source>Exponential Intelligence</source>
+        <translation>Exponential Intelligence</translation>
+    </message>
+    <message>
+        <source>AI</source>
+        <translation>EA</translation>
+    </message>
+    <message>
+        <source>Summarize</source>
+        <translation>Gysgaça beýan et</translation>
+    </message>
+    <message>
+        <source>Alt text</source>
+        <translation>Alternatiw tekst</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Gelenler</translation>
     </message>

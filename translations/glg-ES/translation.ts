@@ -932,6 +932,74 @@
         <translation>Abre o panel «Páxina» para gardar o seu borrador.</translation>
     </message>
     <message>
+        <source>Exponential Intelligence is not available here.</source>
+        <translation>Exponential Intelligence non está dispoñible aquí.</translation>
+    </message>
+    <message>
+        <source>This action is not available for this field.</source>
+        <translation>Esta acción non está dispoñible para este campo.</translation>
+    </message>
+    <message>
+        <source>Ask</source>
+        <translation>Preguntar</translation>
+    </message>
+    <message>
+        <source>Into which language?</source>
+        <translation>A que lingua?</translation>
+    </message>
+    <message>
+        <source>What should be written?</source>
+        <translation>Que hai que escribir?</translation>
+    </message>
+    <message>
+        <source>What should change? (optional)</source>
+        <translation>Que hai que cambiar? (opcional)</translation>
+    </message>
+    <message>
+        <source>Say what should be written.</source>
+        <translation>Di que hai que escribir.</translation>
+    </message>
+    <message>
+        <source>Asking ...</source>
+        <translation>Preguntando ...</translation>
+    </message>
+    <message>
+        <source>Suggestion</source>
+        <translation>Suxestión</translation>
+    </message>
+    <message>
+        <source>Use it</source>
+        <translation>Usala</translation>
+    </message>
+    <message>
+        <source>A suggestion: the field keeps its value until you use it.</source>
+        <translation>Unha suxestión: o campo mantén o seu valor ata que a uses.</translation>
+    </message>
+    <message>
+        <source>It is in the field: Save draft keeps it, or autosave does.</source>
+        <translation>Está no campo: Gardar borrador consérvao, ou o gardado automático.</translation>
+    </message>
+    <message>
+        <source>It is in the draft.</source>
+        <translation>Está no borrador.</translation>
+    </message>
+    <message>
+        <source>Exponential Intelligence</source>
+        <translation>Exponential Intelligence</translation>
+    </message>
+    <message>
+        <source>AI</source>
+        <translation>IA</translation>
+    </message>
+    <message>
+        <source>Summarize</source>
+        <translation>Resumir</translation>
+    </message>
+    <message>
+        <source>Alt text</source>
+        <translation>Texto alternativo</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Caixa de entrada</translation>
     </message>

@@ -932,6 +932,74 @@
         <translation>Deschideți panoul „Pagină” pentru a-i salva ciorna.</translation>
     </message>
     <message>
+        <source>Exponential Intelligence is not available here.</source>
+        <translation>Exponential Intelligence nu este disponibil aici.</translation>
+    </message>
+    <message>
+        <source>This action is not available for this field.</source>
+        <translation>Această acțiune nu este disponibilă pentru acest câmp.</translation>
+    </message>
+    <message>
+        <source>Ask</source>
+        <translation>Întreabă</translation>
+    </message>
+    <message>
+        <source>Into which language?</source>
+        <translation>În ce limbă?</translation>
+    </message>
+    <message>
+        <source>What should be written?</source>
+        <translation>Ce ar trebui scris?</translation>
+    </message>
+    <message>
+        <source>What should change? (optional)</source>
+        <translation>Ce ar trebui schimbat? (opțional)</translation>
+    </message>
+    <message>
+        <source>Say what should be written.</source>
+        <translation>Spuneți ce ar trebui scris.</translation>
+    </message>
+    <message>
+        <source>Asking ...</source>
+        <translation>Se întreabă ...</translation>
+    </message>
+    <message>
+        <source>Suggestion</source>
+        <translation>Sugestie</translation>
+    </message>
+    <message>
+        <source>Use it</source>
+        <translation>Folosește</translation>
+    </message>
+    <message>
+        <source>A suggestion: the field keeps its value until you use it.</source>
+        <translation>O sugestie: câmpul își păstrează valoarea până când o folosiți.</translation>
+    </message>
+    <message>
+        <source>It is in the field: Save draft keeps it, or autosave does.</source>
+        <translation>Este în câmp: Salvați ciorna îl păstrează, sau salvarea automată.</translation>
+    </message>
+    <message>
+        <source>It is in the draft.</source>
+        <translation>Este în ciornă.</translation>
+    </message>
+    <message>
+        <source>Exponential Intelligence</source>
+        <translation>Exponential Intelligence</translation>
+    </message>
+    <message>
+        <source>AI</source>
+        <translation>IA</translation>
+    </message>
+    <message>
+        <source>Summarize</source>
+        <translation>Rezumă</translation>
+    </message>
+    <message>
+        <source>Alt text</source>
+        <translation>Text alternativ</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Mesaje primite</translation>
     </message>

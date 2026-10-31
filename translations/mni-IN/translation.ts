@@ -932,6 +932,74 @@
         <translation>মসীগী ড্রাফ্ট থম্নবা «পেজ» পেনেল হাংদোকউ।</translation>
     </message>
     <message>
+        <source>Exponential Intelligence is not available here.</source>
+        <translation>Exponential Intelligence মফম অসিদা লৈতে।</translation>
+    </message>
+    <message>
+        <source>This action is not available for this field.</source>
+        <translation>থবক অসি ফিল্ড অসিগীদমক লৈতে।</translation>
+    </message>
+    <message>
+        <source>Ask</source>
+        <translation>হংবীয়ু</translation>
+    </message>
+    <message>
+        <source>Into which language?</source>
+        <translation>কনানা লোনদা?</translation>
+    </message>
+    <message>
+        <source>What should be written?</source>
+        <translation>করি ইগদবনো?</translation>
+    </message>
+    <message>
+        <source>What should change? (optional)</source>
+        <translation>করি হোংগদবনো? (পাম্বা থোক্লবদি)</translation>
+    </message>
+    <message>
+        <source>Say what should be written.</source>
+        <translation>করি ইগদবনো হায়বীয়ু।</translation>
+    </message>
+    <message>
+        <source>Asking ...</source>
+        <translation>হংলি ...</translation>
+    </message>
+    <message>
+        <source>Suggestion</source>
+        <translation>পাউতাক</translation>
+    </message>
+    <message>
+        <source>Use it</source>
+        <translation>শিজিন্নবীয়ু</translation>
+    </message>
+    <message>
+        <source>A suggestion: the field keeps its value until you use it.</source>
+        <translation>পাউতাক অমা: নহাক্না শিজিন্নদ্রিফাওবা ফিল্ড অসিনা মগী মমল পাই।</translation>
+    </message>
+    <message>
+        <source>It is in the field: Save draft keeps it, or autosave does.</source>
+        <translation>মসি ফিল্ডতা লৈ: ড্রাফ্ট থম্বানা থম্লি, নত্রগা মশানা থম্বনা।</translation>
+    </message>
+    <message>
+        <source>It is in the draft.</source>
+        <translation>মসি ড্রাফ্টতা লৈ।</translation>
+    </message>
+    <message>
+        <source>Exponential Intelligence</source>
+        <translation>Exponential Intelligence</translation>
+    </message>
+    <message>
+        <source>AI</source>
+        <translation>AI</translation>
+    </message>
+    <message>
+        <source>Summarize</source>
+        <translation>পুথোকপীয়ু</translation>
+    </message>
+    <message>
+        <source>Alt text</source>
+        <translation>অতোপ্পা ৱাহৈ</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>ইনবক্স</translation>
     </message>

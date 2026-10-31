@@ -59,6 +59,10 @@ class expwtAccess
         'seo.check'       => array( 'edit', false, '', '', '' ),
         // the page on the other sites and in its other languages (F27)
         'page.elsewhere'  => array( 'use', false, '', '', '' ),
+        // Exponential Intelligence on a field of the user's draft (E1): asking costs and is logged (a write, by POST);
+        // taking a suggestion into a field of its own editor writes the draft (content/edit, expai/write)
+        'ai.field'        => array( 'edit', true, '', '', '' ),
+        'ai.apply'        => array( 'edit', true, 'content', 'edit', 'StoreButton' ),
     );
 
     /** @return bool */

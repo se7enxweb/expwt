@@ -932,6 +932,74 @@
         <translation>ಅದರ ಕರಡು ಉಳಿಸಲು «ಪುಟ» ಪ್ಯಾನೆಲ್ ತೆರೆಯಿರಿ.</translation>
     </message>
     <message>
+        <source>Exponential Intelligence is not available here.</source>
+        <translation>Exponential Intelligence ಇಲ್ಲಿ ಲಭ್ಯವಿಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>This action is not available for this field.</source>
+        <translation>ಈ ಕ್ರಿಯೆ ಈ ಕ್ಷೇತ್ರಕ್ಕೆ ಲಭ್ಯವಿಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>Ask</source>
+        <translation>ಕೇಳಿ</translation>
+    </message>
+    <message>
+        <source>Into which language?</source>
+        <translation>ಯಾವ ಭಾಷೆಗೆ?</translation>
+    </message>
+    <message>
+        <source>What should be written?</source>
+        <translation>ಏನು ಬರೆಯಬೇಕು?</translation>
+    </message>
+    <message>
+        <source>What should change? (optional)</source>
+        <translation>ಏನು ಬದಲಾಗಬೇಕು? (ಐಚ್ಛಿಕ)</translation>
+    </message>
+    <message>
+        <source>Say what should be written.</source>
+        <translation>ಏನು ಬರೆಯಬೇಕು ಎಂದು ಹೇಳಿ.</translation>
+    </message>
+    <message>
+        <source>Asking ...</source>
+        <translation>ಕೇಳಲಾಗುತ್ತಿದೆ ...</translation>
+    </message>
+    <message>
+        <source>Suggestion</source>
+        <translation>ಸಲಹೆ</translation>
+    </message>
+    <message>
+        <source>Use it</source>
+        <translation>ಬಳಸಿ</translation>
+    </message>
+    <message>
+        <source>A suggestion: the field keeps its value until you use it.</source>
+        <translation>ಒಂದು ಸಲಹೆ: ನೀವು ಬಳಸುವವರೆಗೆ ಕ್ಷೇತ್ರವು ತನ್ನ ಮೌಲ್ಯವನ್ನು ಉಳಿಸಿಕೊಳ್ಳುತ್ತದೆ.</translation>
+    </message>
+    <message>
+        <source>It is in the field: Save draft keeps it, or autosave does.</source>
+        <translation>ಇದು ಕ್ಷೇತ್ರದಲ್ಲಿದೆ: ಕರಡನ್ನು ಉಳಿಸು ಇದನ್ನು ಉಳಿಸುತ್ತದೆ, ಅಥವಾ ಸ್ವಯಂ ಉಳಿಕೆ.</translation>
+    </message>
+    <message>
+        <source>It is in the draft.</source>
+        <translation>ಇದು ಕರಡಿನಲ್ಲಿದೆ.</translation>
+    </message>
+    <message>
+        <source>Exponential Intelligence</source>
+        <translation>Exponential Intelligence</translation>
+    </message>
+    <message>
+        <source>AI</source>
+        <translation>AI</translation>
+    </message>
+    <message>
+        <source>Summarize</source>
+        <translation>ಸಾರಾಂಶಗೊಳಿಸಿ</translation>
+    </message>
+    <message>
+        <source>Alt text</source>
+        <translation>ಪರ್ಯಾಯ ಪಠ್ಯ</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>ಇನ್‌ಬಾಕ್ಸ್</translation>
     </message>

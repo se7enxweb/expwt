@@ -932,6 +932,74 @@
         <translation>Open het paneel ‘Pagina’ om het concept op te slaan.</translation>
     </message>
     <message>
+        <source>Exponential Intelligence is not available here.</source>
+        <translation>Exponential Intelligence is hier niet beschikbaar.</translation>
+    </message>
+    <message>
+        <source>This action is not available for this field.</source>
+        <translation>Deze actie is niet beschikbaar voor dit veld.</translation>
+    </message>
+    <message>
+        <source>Ask</source>
+        <translation>Vragen</translation>
+    </message>
+    <message>
+        <source>Into which language?</source>
+        <translation>Naar welke taal?</translation>
+    </message>
+    <message>
+        <source>What should be written?</source>
+        <translation>Wat moet er geschreven worden?</translation>
+    </message>
+    <message>
+        <source>What should change? (optional)</source>
+        <translation>Wat moet er veranderen? (optioneel)</translation>
+    </message>
+    <message>
+        <source>Say what should be written.</source>
+        <translation>Zeg wat er geschreven moet worden.</translation>
+    </message>
+    <message>
+        <source>Asking ...</source>
+        <translation>Bezig met vragen ...</translation>
+    </message>
+    <message>
+        <source>Suggestion</source>
+        <translation>Voorstel</translation>
+    </message>
+    <message>
+        <source>Use it</source>
+        <translation>Gebruiken</translation>
+    </message>
+    <message>
+        <source>A suggestion: the field keeps its value until you use it.</source>
+        <translation>Een voorstel: het veld houdt zijn waarde tot je het gebruikt.</translation>
+    </message>
+    <message>
+        <source>It is in the field: Save draft keeps it, or autosave does.</source>
+        <translation>Het staat in het veld: Concept opslaan bewaart het, of automatisch opslaan doet dat.</translation>
+    </message>
+    <message>
+        <source>It is in the draft.</source>
+        <translation>Het staat in het concept.</translation>
+    </message>
+    <message>
+        <source>Exponential Intelligence</source>
+        <translation>Exponential Intelligence</translation>
+    </message>
+    <message>
+        <source>AI</source>
+        <translation>AI</translation>
+    </message>
+    <message>
+        <source>Summarize</source>
+        <translation>Samenvatten</translation>
+    </message>
+    <message>
+        <source>Alt text</source>
+        <translation>Alt-tekst</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Inbox</translation>
     </message>

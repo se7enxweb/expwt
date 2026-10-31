@@ -188,6 +188,8 @@ class expwtGateway
             'fields' => $fields,
             'categories' => self::categories(),
             'schedule' => $schedule,
+            // what Exponential Intelligence offers for the fields of this page (E1), null where it is not there
+            'ai' => $this->aiOffer(),
             'can' => array(
                 'edit' => (bool)$object->canEdit( false, false, false, $language ),
                 'create' => $node ? (bool)$node->canCreate() : false,
@@ -538,6 +540,212 @@ class expwtGateway
         }
         uasort( $out, function ( $a, $b ) { return (int)$b['current'] - (int)$a['current']; } );
         return array_values( $out );
+    }
+
+    // ------------------------------------------------------------------------------- Exponential Intelligence (E1)
+
+    /** The instruction of Summarize: expai's Write action with this instruction */
+    const AI_SUMMARY = 'Write a short summary of the page for this field: two or three sentences in the language of the field, from the other fields of the object.';
+
+    /** Datatypes Summarize is offered on (where expai's Write is) */
+    const AI_SUMMARY_DATATYPES = array( 'ezstring', 'eztext', 'ezxmltext' );
+
+    /** @var expAiConfig|false|null */
+    protected $aiConfig = null;
+
+    /**
+     * expai where the sidebar may use it: the extension active in this siteaccess (an inactive one is never used:
+     * its settings are not loaded there), switched on and configured for it, its edit form actions on, and the user
+     * with expai/write, as for the field actions of the administration's edit form.
+     *
+     * @return expAiConfig|null
+     */
+    protected function ai()
+    {
+        if ( $this->aiConfig === null )
+        {
+            $this->aiConfig = false;
+            if ( class_exists( 'expAiConfig' ) && class_exists( 'expAiEditForm' ) && class_exists( 'eZExtension' )
+                 && in_array( 'expai', (array)eZExtension::activeExtensions(), true ) )
+            {
+                $config = expAiConfig::instance();
+                if ( $config->isEnabled() && $config->isConfigured() && $config->flag( 'EditViewSettings', 'Enabled', true )
+                     && $this->may( 'expai', 'write' ) )
+                    $this->aiConfig = $config;
+            }
+        }
+        return $this->aiConfig ?: null;
+    }
+
+    /**
+     * What the Page panel offers: expai's field actions (expai.ini [EditViewSettings] FieldActions[], those that can be
+     * used at all) on the datatypes each names and expai may write, Summarize (Write with a fixed instruction), and
+     * the alt text of an image where expai's alt text is on; the languages Translate may go to.
+     *
+     * @return array|null actions (name, label, input, datatypes), languages (locale, name), or null without expai
+     */
+    public function aiOffer()
+    {
+        $config = $this->ai();
+        if ( !$config )
+            return null;
+        $writable = $config->writableDatatypes();
+        $actions = array();
+        $registry = new expAiFieldActionRegistry( $config );
+        foreach ( $registry->describe() as $action )
+        {
+            $datatypes = array_values( array_intersect( (array)$action['datatypes'], $writable ) );
+            if ( $datatypes )
+                $actions[] = array( 'name' => (string)$action['name'], 'label' => (string)$action['label'], 'input' => (string)$action['input'], 'datatypes' => $datatypes );
+        }
+        $names = array_column( $actions, 'name' );
+        if ( in_array( 'write', $names, true ) )
+            $actions[] = array( 'name' => 'summarize', 'label' => expwtStrings::tr( 'Summarize' ), 'input' => 'none',
+                                'datatypes' => array_values( array_intersect( self::AI_SUMMARY_DATATYPES, $actions[array_search( 'write', $names, true )]['datatypes'] ) ) );
+        if ( class_exists( 'expAiAltText' ) && expAiAltText::enabled( $config ) )
+            $actions[] = array( 'name' => 'alttext', 'label' => expwtStrings::tr( 'Alt text' ), 'input' => 'none', 'datatypes' => array( 'ezimage' ) );
+        $languages = array();
+        foreach ( (array)eZContentLanguage::prioritizedLanguages() as $language )
+            $languages[] = array( 'locale' => (string)$language->attribute( 'locale' ), 'name' => (string)$language->attribute( 'name' ) );
+        return $actions ? array( 'actions' => $actions, 'languages' => $languages ) : null;
+    }
+
+    /**
+     * Asks Exponential Intelligence for a field of the user's draft (E1): expai's field action (Write, Rewrite,
+     * Shorten, Translate, Suggest ...), Summarize, or the alt text of an image. Nothing is written into the field: the
+     * answer is a suggestion the user takes with ai.apply (or into the form). The draft is the user's newest in the
+     * language, or a new one, as expai's edit form needs one (the request is marked in expai's draft log).
+     *
+     * @param array $in objectId, version (optional), language, field (identifier), action, instruction, targetLanguage,
+     *                  value (the value as it is in the sidebar's form, for a text field typed into and not saved yet)
+     * @return array value, note, action, field, datatype, version (the draft)
+     */
+    public function aiField( array $in )
+    {
+        $config = $this->ai();
+        if ( !$config )
+            throw new expwtApiError( 403, 'ai_off', 'Exponential Intelligence is not available here.' );
+        list( $object, $version, $language, $attribute ) = $this->aiDraftField( $in, true );
+        $action = isset( $in['action'] ) ? (string)$in['action'] : '';
+        $datatype = (string)$attribute->attribute( 'data_type_string' );
+        $offered = false;
+        foreach ( (array)$this->aiOffer()['actions'] as $a )
+            if ( $a['name'] === $action && in_array( $datatype, $a['datatypes'], true ) )
+                $offered = true;
+        if ( !$offered )
+            throw new expwtApiError( 400, 'bad_input', 'This action is not available for this field.' );
+        $versionNumber = (int)$version->attribute( 'version' );
+        $context = class_exists( 'expAiAltText' ) ? expAiAltText::contextFromVersion( $object, $versionNumber, $language ) : array();
+        unset( $context[(string)$attribute->attribute( 'contentclass_attribute_identifier' )] );
+        try
+        {
+            if ( $action === 'alttext' )
+            {
+                $current = (string)$attribute->content()->attribute( 'alternative_text' );
+                $r = expAiAltText::suggest( $config, $object, $attribute, $language, $context, $current, array( 'action' => 'expwt:alt_text' ) );
+                expAiEditForm::mark( $object, $version, $language, 'field', 'alt_text', $r['model'], isset( $r['provider'] ) ? $r['provider'] : '' );
+                $value = (string)$r['value'];
+                $note = (string)$r['note'];
+            }
+            else
+            {
+                $value = isset( $in['value'] ) && is_string( $in['value'] ) ? $in['value']
+                       : expwtFieldValue::value( $attribute, expwtFields::describe( $datatype )['input'] );
+                $r = expAiEditForm::fieldAction( $config, array(
+                    'object_id' => (int)$object->attribute( 'id' ), 'version' => $versionNumber, 'language' => $language,
+                    'attribute_id' => (int)$attribute->attribute( 'id' ),
+                    'action' => $action === 'summarize' ? 'write' : $action,
+                    'value' => $value,
+                    'instruction' => $action === 'summarize' ? self::AI_SUMMARY : ( isset( $in['instruction'] ) ? (string)$in['instruction'] : '' ),
+                    'target_language' => isset( $in['targetLanguage'] ) ? (string)$in['targetLanguage'] : '',
+                    'context' => json_encode( $context ) ) );
+                $value = (string)$r['value'];
+                $note = (string)$r['note'];
+            }
+        }
+        catch ( expAiException $e )
+        {
+            throw new expwtApiError( 422, 'ai_failed', $e->translatedMessage() );
+        }
+        return array( 'value' => $value, 'note' => $note, 'action' => $action, 'datatype' => $datatype,
+                      'field' => (string)$attribute->attribute( 'contentclass_attribute_identifier' ), 'version' => $versionNumber );
+    }
+
+    /**
+     * Writes a suggestion into the user's draft (E1), for a field the sidebar edits in its own editor (a frame):
+     * rich text through the same HTML conversion as the sidebar's form, the alt text of an image into the image
+     * field. Text fields of the sidebar's form take the suggestion into the form and are saved with it.
+     *
+     * @param array $in objectId, version, language, field, value
+     * @return array version, field
+     */
+    public function aiApply( array $in )
+    {
+        if ( !$this->ai() )
+            throw new expwtApiError( 403, 'ai_off', 'Exponential Intelligence is not available here.' );
+        list( $object, $version, $language, $attribute ) = $this->aiDraftField( $in, false );
+        $value = isset( $in['value'] ) && is_string( $in['value'] ) ? $in['value'] : '';
+        $datatype = (string)$attribute->attribute( 'data_type_string' );
+        $identifier = (string)$attribute->attribute( 'contentclass_attribute_identifier' );
+        $versionNumber = (int)$version->attribute( 'version' );
+        if ( $datatype === 'ezxmltext' )
+        {
+            $this->writer()->updateDraft( (int)$object->attribute( 'id' ), $versionNumber, $language,
+                                          array( array( 'identifier' => $identifier, 'value' => $value, 'format' => 'HTML' ) ) );
+        }
+        else if ( $datatype === 'ezimage' )
+        {
+            $handler = $attribute->content();
+            if ( !is_object( $handler ) || !$handler->attribute( 'is_valid' ) )
+                throw new expwtApiError( 400, 'bad_value', 'This value does not fit the field.' );
+            $db = eZDB::instance();
+            $db->begin();
+            $handler->setAttribute( 'alternative_text', trim( preg_replace( '/\s+/u', ' ', $value ) ) );
+            $handler->store( $attribute );
+            $attribute->store();
+            $version->setAttribute( 'modified', time() );
+            $version->store();
+            $db->commit();
+        }
+        else
+            throw new expwtApiError( 400, 'bad_input', 'This field cannot be edited here.' );
+        return array( 'version' => $versionNumber, 'field' => $identifier );
+    }
+
+    /**
+     * The user's draft and its field for the AI actions: the object editable by the user in the language, the draft
+     * given (theirs) or their newest in the language, or (when $create) a new one.
+     *
+     * @return array eZContentObject, eZContentObjectVersion, language, eZContentObjectAttribute
+     */
+    protected function aiDraftField( array $in, $create )
+    {
+        $object = $this->readableObject( $in );
+        $language = isset( $in['language'] ) && $in['language'] !== '' ? (string)$in['language'] : (string)$object->attribute( 'initial_language_code' );
+        if ( !$object->canEdit( false, false, false, $language ) )
+            throw new expwtApiError( 403, 'forbidden', 'You may not do this.' );
+        $draft = isset( $in['version'] ) && $in['version'] ? $this->ownDraft( $object, $in['version'] ) : $this->latestOwnDraft( $object, $language );
+        if ( isset( $in['version'] ) && $in['version'] && !$draft )
+            throw new expwtApiError( 404, 'not_found', 'This draft is not there any more.' );
+        if ( !$draft && $create )
+        {
+            try
+            {
+                $writer = new expAiContentWriter( $this->ai() );
+                list( $draft, $language ) = $writer->draftFor( $object, $language );
+            }
+            catch ( expAiException $e )
+            {
+                throw new expwtApiError( 422, 'ai_failed', $e->translatedMessage() );
+            }
+        }
+        if ( !$draft )
+            throw new expwtApiError( 404, 'not_found', 'This draft is not there any more.' );
+        $field = isset( $in['field'] ) ? (string)$in['field'] : '';
+        $dataMap = $object->fetchDataMap( (int)$draft->attribute( 'version' ), $language );
+        if ( $field === '' || !isset( $dataMap[$field] ) || in_array( (string)$dataMap[$field]->attribute( 'data_type_string' ), expwtFields::NEVER, true ) )
+            throw new expwtApiError( 400, 'bad_input', 'This field cannot be edited here.', array( 'field' => $field ) );
+        return array( $object, $draft, $language, $dataMap[$field] );
     }
 
     // ------------------------------------------------------------------------------------------------ the inbox

@@ -932,6 +932,74 @@
         <translation>nab polmeH «nav» beQ yIpoSmoH.</translation>
     </message>
     <message>
+        <source>Exponential Intelligence is not available here.</source>
+        <translation>naDev Exponential Intelligence tu'laHbe'.</translation>
+    </message>
+    <message>
+        <source>This action is not available for this field.</source>
+        <translation>Dey'vamvaD ta'vam tu'laHbe'.</translation>
+    </message>
+    <message>
+        <source>Ask</source>
+        <translation>yIghel</translation>
+    </message>
+    <message>
+        <source>Into which language?</source>
+        <translation>Hol nuqDaq?</translation>
+    </message>
+    <message>
+        <source>What should be written?</source>
+        <translation>nuq ghItlhnIS?</translation>
+    </message>
+    <message>
+        <source>What should change? (optional)</source>
+        <translation>nuq choHnIS? (DuH)</translation>
+    </message>
+    <message>
+        <source>Say what should be written.</source>
+        <translation>nuq ghItlhnIS yIja'.</translation>
+    </message>
+    <message>
+        <source>Asking ...</source>
+        <translation>ghelDI' ...</translation>
+    </message>
+    <message>
+        <source>Suggestion</source>
+        <translation>chup</translation>
+    </message>
+    <message>
+        <source>Use it</source>
+        <translation>yIlo'</translation>
+    </message>
+    <message>
+        <source>A suggestion: the field keeps its value until you use it.</source>
+        <translation>chup: DaloSpa' Dey'Daj pol Dey.</translation>
+    </message>
+    <message>
+        <source>It is in the field: Save draft keeps it, or autosave does.</source>
+        <translation>DeyDaq tu'lu': pol nab yIpol, pagh pollu'pu' De'wI'.</translation>
+    </message>
+    <message>
+        <source>It is in the draft.</source>
+        <translation>nabDaq tu'lu'.</translation>
+    </message>
+    <message>
+        <source>Exponential Intelligence</source>
+        <translation>Exponential Intelligence</translation>
+    </message>
+    <message>
+        <source>AI</source>
+        <translation>AI</translation>
+    </message>
+    <message>
+        <source>Summarize</source>
+        <translation>yIluH</translation>
+    </message>
+    <message>
+        <source>Alt text</source>
+        <translation>Alt ghItlh</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>QIn chu'</translation>
     </message>

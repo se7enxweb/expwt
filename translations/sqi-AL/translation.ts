@@ -932,6 +932,74 @@
         <translation>Hapni panelin «Faqja» për të ruajtur skicën e saj.</translation>
     </message>
     <message>
+        <source>Exponential Intelligence is not available here.</source>
+        <translation>Exponential Intelligence nuk është i disponueshëm këtu.</translation>
+    </message>
+    <message>
+        <source>This action is not available for this field.</source>
+        <translation>Ky veprim nuk është i disponueshëm për këtë fushë.</translation>
+    </message>
+    <message>
+        <source>Ask</source>
+        <translation>Pyet</translation>
+    </message>
+    <message>
+        <source>Into which language?</source>
+        <translation>Në cilën gjuhë?</translation>
+    </message>
+    <message>
+        <source>What should be written?</source>
+        <translation>Çfarë duhet shkruar?</translation>
+    </message>
+    <message>
+        <source>What should change? (optional)</source>
+        <translation>Çfarë duhet ndryshuar? (opsionale)</translation>
+    </message>
+    <message>
+        <source>Say what should be written.</source>
+        <translation>Thoni çfarë duhet shkruar.</translation>
+    </message>
+    <message>
+        <source>Asking ...</source>
+        <translation>Duke pyetur ...</translation>
+    </message>
+    <message>
+        <source>Suggestion</source>
+        <translation>Sugjerim</translation>
+    </message>
+    <message>
+        <source>Use it</source>
+        <translation>Përdore</translation>
+    </message>
+    <message>
+        <source>A suggestion: the field keeps its value until you use it.</source>
+        <translation>Një sugjerim: fusha e mban vlerën e saj derisa ta përdorni.</translation>
+    </message>
+    <message>
+        <source>It is in the field: Save draft keeps it, or autosave does.</source>
+        <translation>Është në fushë: Ruaj skicën e mban, ose ruajtja automatike.</translation>
+    </message>
+    <message>
+        <source>It is in the draft.</source>
+        <translation>Është në skicë.</translation>
+    </message>
+    <message>
+        <source>Exponential Intelligence</source>
+        <translation>Exponential Intelligence</translation>
+    </message>
+    <message>
+        <source>AI</source>
+        <translation>IA</translation>
+    </message>
+    <message>
+        <source>Summarize</source>
+        <translation>Përmblidh</translation>
+    </message>
+    <message>
+        <source>Alt text</source>
+        <translation>Tekst alternativ</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Të ardhurat</translation>
     </message>

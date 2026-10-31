@@ -932,6 +932,74 @@
         <translation>Buɗe fanel ɗin «Shafi» don ajiye daftarinsa.</translation>
     </message>
     <message>
+        <source>Exponential Intelligence is not available here.</source>
+        <translation>Exponential Intelligence ba ya nan.</translation>
+    </message>
+    <message>
+        <source>This action is not available for this field.</source>
+        <translation>Wannan aikin ba ya samuwa ga wannan filin.</translation>
+    </message>
+    <message>
+        <source>Ask</source>
+        <translation>Tambaya</translation>
+    </message>
+    <message>
+        <source>Into which language?</source>
+        <translation>Zuwa wane harshe?</translation>
+    </message>
+    <message>
+        <source>What should be written?</source>
+        <translation>Me ya kamata a rubuta?</translation>
+    </message>
+    <message>
+        <source>What should change? (optional)</source>
+        <translation>Me ya kamata ya canza? (na zaɓi)</translation>
+    </message>
+    <message>
+        <source>Say what should be written.</source>
+        <translation>Faɗi abin da ya kamata a rubuta.</translation>
+    </message>
+    <message>
+        <source>Asking ...</source>
+        <translation>Ana tambaya ...</translation>
+    </message>
+    <message>
+        <source>Suggestion</source>
+        <translation>Shawara</translation>
+    </message>
+    <message>
+        <source>Use it</source>
+        <translation>Yi amfani da shi</translation>
+    </message>
+    <message>
+        <source>A suggestion: the field keeps its value until you use it.</source>
+        <translation>Shawara: filin yana riƙe ƙimarsa har sai kun yi amfani da ita.</translation>
+    </message>
+    <message>
+        <source>It is in the field: Save draft keeps it, or autosave does.</source>
+        <translation>Yana cikin filin: Ajiye daftari yana riƙe shi, ko ajiyewa ta kai tsaye.</translation>
+    </message>
+    <message>
+        <source>It is in the draft.</source>
+        <translation>Yana cikin daftarin.</translation>
+    </message>
+    <message>
+        <source>Exponential Intelligence</source>
+        <translation>Exponential Intelligence</translation>
+    </message>
+    <message>
+        <source>AI</source>
+        <translation>AI</translation>
+    </message>
+    <message>
+        <source>Summarize</source>
+        <translation>Taƙaita</translation>
+    </message>
+    <message>
+        <source>Alt text</source>
+        <translation>Rubutun madadin</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Akwatin saƙo</translation>
     </message>

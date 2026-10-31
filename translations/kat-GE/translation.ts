@@ -932,6 +932,74 @@
         <translation>გახსენით პანელი „გვერდი“, რომ მისი მონახაზი შეინახოთ.</translation>
     </message>
     <message>
+        <source>Exponential Intelligence is not available here.</source>
+        <translation>Exponential Intelligence აქ ხელმისაწვდომი არ არის.</translation>
+    </message>
+    <message>
+        <source>This action is not available for this field.</source>
+        <translation>ეს მოქმედება ამ ველისთვის ხელმისაწვდომი არ არის.</translation>
+    </message>
+    <message>
+        <source>Ask</source>
+        <translation>კითხვა</translation>
+    </message>
+    <message>
+        <source>Into which language?</source>
+        <translation>რომელ ენაზე?</translation>
+    </message>
+    <message>
+        <source>What should be written?</source>
+        <translation>რა უნდა დაიწეროს?</translation>
+    </message>
+    <message>
+        <source>What should change? (optional)</source>
+        <translation>რა უნდა შეიცვალოს? (არასავალდებულო)</translation>
+    </message>
+    <message>
+        <source>Say what should be written.</source>
+        <translation>თქვით, რა უნდა დაიწეროს.</translation>
+    </message>
+    <message>
+        <source>Asking ...</source>
+        <translation>ვკითხულობთ ...</translation>
+    </message>
+    <message>
+        <source>Suggestion</source>
+        <translation>შეთავაზება</translation>
+    </message>
+    <message>
+        <source>Use it</source>
+        <translation>გამოყენება</translation>
+    </message>
+    <message>
+        <source>A suggestion: the field keeps its value until you use it.</source>
+        <translation>შეთავაზება: ველი ინარჩუნებს თავის მნიშვნელობას, სანამ მას არ გამოიყენებთ.</translation>
+    </message>
+    <message>
+        <source>It is in the field: Save draft keeps it, or autosave does.</source>
+        <translation>ველშია: მონახაზის შენახვა ინახავს მას, ან ავტომატური შენახვა.</translation>
+    </message>
+    <message>
+        <source>It is in the draft.</source>
+        <translation>მონახაზშია.</translation>
+    </message>
+    <message>
+        <source>Exponential Intelligence</source>
+        <translation>Exponential Intelligence</translation>
+    </message>
+    <message>
+        <source>AI</source>
+        <translation>ხი</translation>
+    </message>
+    <message>
+        <source>Summarize</source>
+        <translation>შეჯამება</translation>
+    </message>
+    <message>
+        <source>Alt text</source>
+        <translation>ალტერნატიული ტექსტი</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>შემოსულები</translation>
     </message>

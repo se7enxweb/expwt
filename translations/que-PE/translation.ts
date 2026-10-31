@@ -932,6 +932,74 @@
         <translation>«P'anqa» panelta kichay qillqa kaqninta waqaychanapaq.</translation>
     </message>
     <message>
+        <source>Exponential Intelligence is not available here.</source>
+        <translation>Exponential Intelligence manam kaypi kanchu.</translation>
+    </message>
+    <message>
+        <source>This action is not available for this field.</source>
+        <translation>Kay ruranaqa manam kay pampapaq kanchu.</translation>
+    </message>
+    <message>
+        <source>Ask</source>
+        <translation>Tapuy</translation>
+    </message>
+    <message>
+        <source>Into which language?</source>
+        <translation>Mayqin simiman?</translation>
+    </message>
+    <message>
+        <source>What should be written?</source>
+        <translation>Imatataq qillqakunan?</translation>
+    </message>
+    <message>
+        <source>What should change? (optional)</source>
+        <translation>Imataq tikrakunan? (munaspaqa)</translation>
+    </message>
+    <message>
+        <source>Say what should be written.</source>
+        <translation>Niy imatachus qillqakunan.</translation>
+    </message>
+    <message>
+        <source>Asking ...</source>
+        <translation>Tapuspa ...</translation>
+    </message>
+    <message>
+        <source>Suggestion</source>
+        <translation>Yuyaychay</translation>
+    </message>
+    <message>
+        <source>Use it</source>
+        <translation>Llamk'achiy</translation>
+    </message>
+    <message>
+        <source>A suggestion: the field keeps its value until you use it.</source>
+        <translation>Huk yuyaychay: pampaqa chaninta waqaychan llamk'achinaykikama.</translation>
+    </message>
+    <message>
+        <source>It is in the field: Save draft keeps it, or autosave does.</source>
+        <translation>Pampapim kachkan: Qillqa kaqta waqaychay waqaychan, utaq kikillanmanta waqaychay.</translation>
+    </message>
+    <message>
+        <source>It is in the draft.</source>
+        <translation>Qillqa kaqpim kachkan.</translation>
+    </message>
+    <message>
+        <source>Exponential Intelligence</source>
+        <translation>Exponential Intelligence</translation>
+    </message>
+    <message>
+        <source>AI</source>
+        <translation>AI</translation>
+    </message>
+    <message>
+        <source>Summarize</source>
+        <translation>Pisiyachiy</translation>
+    </message>
+    <message>
+        <source>Alt text</source>
+        <translation>Hukniray qillqa</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Chaskina</translation>
     </message>

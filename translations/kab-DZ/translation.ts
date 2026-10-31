@@ -932,6 +932,74 @@
         <translation>Ldi agalis «Asebter» akken ad teslekseḍ arewway-is.</translation>
     </message>
     <message>
+        <source>Exponential Intelligence is not available here.</source>
+        <translation>Exponential Intelligence ulac-it da.</translation>
+    </message>
+    <message>
+        <source>This action is not available for this field.</source>
+        <translation>Tigawt-a ulac-itt i wurti-a.</translation>
+    </message>
+    <message>
+        <source>Ask</source>
+        <translation>Steqsi</translation>
+    </message>
+    <message>
+        <source>Into which language?</source>
+        <translation>Ɣer anta tutlayt?</translation>
+    </message>
+    <message>
+        <source>What should be written?</source>
+        <translation>D acu ara yettwarun?</translation>
+    </message>
+    <message>
+        <source>What should change? (optional)</source>
+        <translation>D acu ara ibeddlen? (d afrayan)</translation>
+    </message>
+    <message>
+        <source>Say what should be written.</source>
+        <translation>Ini-d d acu ara yettwarun.</translation>
+    </message>
+    <message>
+        <source>Asking ...</source>
+        <translation>Asteqsi ...</translation>
+    </message>
+    <message>
+        <source>Suggestion</source>
+        <translation>Asumer</translation>
+    </message>
+    <message>
+        <source>Use it</source>
+        <translation>Seqdec-it</translation>
+    </message>
+    <message>
+        <source>A suggestion: the field keeps its value until you use it.</source>
+        <translation>Asumer: urti yeṭṭef azal-is alamma tesseqdceḍ-t.</translation>
+    </message>
+    <message>
+        <source>It is in the field: Save draft keeps it, or autosave does.</source>
+        <translation>Atan deg urti: Sekles arewway yeṭṭef-it, neɣ asekles awurman.</translation>
+    </message>
+    <message>
+        <source>It is in the draft.</source>
+        <translation>Atan deg urewway.</translation>
+    </message>
+    <message>
+        <source>Exponential Intelligence</source>
+        <translation>Exponential Intelligence</translation>
+    </message>
+    <message>
+        <source>AI</source>
+        <translation>AI</translation>
+    </message>
+    <message>
+        <source>Summarize</source>
+        <translation>Ssegzel</translation>
+    </message>
+    <message>
+        <source>Alt text</source>
+        <translation>Aḍris amlellay</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Tanaka n ukcam</translation>
     </message>

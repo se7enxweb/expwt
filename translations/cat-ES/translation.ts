@@ -932,6 +932,74 @@
         <translation>Obre el tauler «Pàgina» per desar-ne l'esborrany.</translation>
     </message>
     <message>
+        <source>Exponential Intelligence is not available here.</source>
+        <translation>Exponential Intelligence no està disponible aquí.</translation>
+    </message>
+    <message>
+        <source>This action is not available for this field.</source>
+        <translation>Aquesta acció no està disponible per a aquest camp.</translation>
+    </message>
+    <message>
+        <source>Ask</source>
+        <translation>Pregunta</translation>
+    </message>
+    <message>
+        <source>Into which language?</source>
+        <translation>A quina llengua?</translation>
+    </message>
+    <message>
+        <source>What should be written?</source>
+        <translation>Què s'hi ha d'escriure?</translation>
+    </message>
+    <message>
+        <source>What should change? (optional)</source>
+        <translation>Què ha de canviar? (opcional)</translation>
+    </message>
+    <message>
+        <source>Say what should be written.</source>
+        <translation>Digues què s'hi ha d'escriure.</translation>
+    </message>
+    <message>
+        <source>Asking ...</source>
+        <translation>Preguntant ...</translation>
+    </message>
+    <message>
+        <source>Suggestion</source>
+        <translation>Suggeriment</translation>
+    </message>
+    <message>
+        <source>Use it</source>
+        <translation>Fes-lo servir</translation>
+    </message>
+    <message>
+        <source>A suggestion: the field keeps its value until you use it.</source>
+        <translation>Un suggeriment: el camp manté el seu valor fins que el facis servir.</translation>
+    </message>
+    <message>
+        <source>It is in the field: Save draft keeps it, or autosave does.</source>
+        <translation>És al camp: Desa l'esborrany el conserva, o ho fa el desament automàtic.</translation>
+    </message>
+    <message>
+        <source>It is in the draft.</source>
+        <translation>És a l'esborrany.</translation>
+    </message>
+    <message>
+        <source>Exponential Intelligence</source>
+        <translation>Exponential Intelligence</translation>
+    </message>
+    <message>
+        <source>AI</source>
+        <translation>IA</translation>
+    </message>
+    <message>
+        <source>Summarize</source>
+        <translation>Resumeix</translation>
+    </message>
+    <message>
+        <source>Alt text</source>
+        <translation>Text alternatiu</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Safata d'entrada</translation>
     </message>

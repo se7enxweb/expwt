@@ -932,6 +932,74 @@
         <translation>Ireki «Orria» panela haren zirriborroa gordetzeko.</translation>
     </message>
     <message>
+        <source>Exponential Intelligence is not available here.</source>
+        <translation>Exponential Intelligence ez dago erabilgarri hemen.</translation>
+    </message>
+    <message>
+        <source>This action is not available for this field.</source>
+        <translation>Ekintza hau ez dago erabilgarri eremu honetarako.</translation>
+    </message>
+    <message>
+        <source>Ask</source>
+        <translation>Galdetu</translation>
+    </message>
+    <message>
+        <source>Into which language?</source>
+        <translation>Zein hizkuntzatara?</translation>
+    </message>
+    <message>
+        <source>What should be written?</source>
+        <translation>Zer idatzi behar da?</translation>
+    </message>
+    <message>
+        <source>What should change? (optional)</source>
+        <translation>Zer aldatu behar da? (aukerakoa)</translation>
+    </message>
+    <message>
+        <source>Say what should be written.</source>
+        <translation>Esan zer idatzi behar den.</translation>
+    </message>
+    <message>
+        <source>Asking ...</source>
+        <translation>Galdetzen ...</translation>
+    </message>
+    <message>
+        <source>Suggestion</source>
+        <translation>Iradokizuna</translation>
+    </message>
+    <message>
+        <source>Use it</source>
+        <translation>Erabili</translation>
+    </message>
+    <message>
+        <source>A suggestion: the field keeps its value until you use it.</source>
+        <translation>Iradokizun bat: eremuak bere balioa gordetzen du zuk erabili arte.</translation>
+    </message>
+    <message>
+        <source>It is in the field: Save draft keeps it, or autosave does.</source>
+        <translation>Eremuan dago: Gorde zirriborroa aukerak gordetzen du, edo gordetze automatikoak.</translation>
+    </message>
+    <message>
+        <source>It is in the draft.</source>
+        <translation>Zirriborroan dago.</translation>
+    </message>
+    <message>
+        <source>Exponential Intelligence</source>
+        <translation>Exponential Intelligence</translation>
+    </message>
+    <message>
+        <source>AI</source>
+        <translation>AA</translation>
+    </message>
+    <message>
+        <source>Summarize</source>
+        <translation>Laburtu</translation>
+    </message>
+    <message>
+        <source>Alt text</source>
+        <translation>Testu alternatiboa</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Sarrera-ontzia</translation>
     </message>

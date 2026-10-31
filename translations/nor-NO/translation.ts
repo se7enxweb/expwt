@@ -932,6 +932,74 @@
         <translation>Åpne «Side»-panelet for å lagre utkastet.</translation>
     </message>
     <message>
+        <source>Exponential Intelligence is not available here.</source>
+        <translation>Exponential Intelligence er ikke tilgjengelig her.</translation>
+    </message>
+    <message>
+        <source>This action is not available for this field.</source>
+        <translation>Denne handlingen er ikke tilgjengelig for dette feltet.</translation>
+    </message>
+    <message>
+        <source>Ask</source>
+        <translation>Spør</translation>
+    </message>
+    <message>
+        <source>Into which language?</source>
+        <translation>Til hvilket språk?</translation>
+    </message>
+    <message>
+        <source>What should be written?</source>
+        <translation>Hva skal skrives?</translation>
+    </message>
+    <message>
+        <source>What should change? (optional)</source>
+        <translation>Hva skal endres? (valgfritt)</translation>
+    </message>
+    <message>
+        <source>Say what should be written.</source>
+        <translation>Si hva som skal skrives.</translation>
+    </message>
+    <message>
+        <source>Asking ...</source>
+        <translation>Spør ...</translation>
+    </message>
+    <message>
+        <source>Suggestion</source>
+        <translation>Forslag</translation>
+    </message>
+    <message>
+        <source>Use it</source>
+        <translation>Bruk det</translation>
+    </message>
+    <message>
+        <source>A suggestion: the field keeps its value until you use it.</source>
+        <translation>Et forslag: feltet beholder verdien sin til du bruker det.</translation>
+    </message>
+    <message>
+        <source>It is in the field: Save draft keeps it, or autosave does.</source>
+        <translation>Det er i feltet: Lagre utkast tar vare på det, eller automatisk lagring.</translation>
+    </message>
+    <message>
+        <source>It is in the draft.</source>
+        <translation>Det er i utkastet.</translation>
+    </message>
+    <message>
+        <source>Exponential Intelligence</source>
+        <translation>Exponential Intelligence</translation>
+    </message>
+    <message>
+        <source>AI</source>
+        <translation>KI</translation>
+    </message>
+    <message>
+        <source>Summarize</source>
+        <translation>Oppsummer</translation>
+    </message>
+    <message>
+        <source>Alt text</source>
+        <translation>Alt-tekst</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Innboks</translation>
     </message>

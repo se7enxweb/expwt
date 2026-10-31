@@ -932,6 +932,74 @@
         <translation>עפֿנט דעם „זײַט“־פּאַנעל כּדי אָפּצוהיטן זײַן שׂרטוט.</translation>
     </message>
     <message>
+        <source>Exponential Intelligence is not available here.</source>
+        <translation>Exponential Intelligence איז דאָ ניט פֿאַראַן.</translation>
+    </message>
+    <message>
+        <source>This action is not available for this field.</source>
+        <translation>די אַקציע איז ניט פֿאַראַן פֿאַר דעם פֿעלד.</translation>
+    </message>
+    <message>
+        <source>Ask</source>
+        <translation>פֿרעגן</translation>
+    </message>
+    <message>
+        <source>Into which language?</source>
+        <translation>אין וועלכער שפּראַך?</translation>
+    </message>
+    <message>
+        <source>What should be written?</source>
+        <translation>וואָס זאָל געשריבן ווערן?</translation>
+    </message>
+    <message>
+        <source>What should change? (optional)</source>
+        <translation>וואָס זאָל זיך ענדערן? (אָפּציאָנעל)</translation>
+    </message>
+    <message>
+        <source>Say what should be written.</source>
+        <translation>זאָגט וואָס זאָל געשריבן ווערן.</translation>
+    </message>
+    <message>
+        <source>Asking ...</source>
+        <translation>מע פֿרעגט ...</translation>
+    </message>
+    <message>
+        <source>Suggestion</source>
+        <translation>פֿאָרשלאָג</translation>
+    </message>
+    <message>
+        <source>Use it</source>
+        <translation>ניצן</translation>
+    </message>
+    <message>
+        <source>A suggestion: the field keeps its value until you use it.</source>
+        <translation>א פֿאָרשלאָג: דאָס פֿעלד האַלט זײַן ווערט ביז איר ניצט אים.</translation>
+    </message>
+    <message>
+        <source>It is in the field: Save draft keeps it, or autosave does.</source>
+        <translation>עס איז אינעם פֿעלד: אָפּהיטן שׂרטוט האַלט עס, אָדער דאָס אויטאָמאַטישע אָפּהיטן.</translation>
+    </message>
+    <message>
+        <source>It is in the draft.</source>
+        <translation>עס איז אינעם שׂרטוט.</translation>
+    </message>
+    <message>
+        <source>Exponential Intelligence</source>
+        <translation>Exponential Intelligence</translation>
+    </message>
+    <message>
+        <source>AI</source>
+        <translation>AI</translation>
+    </message>
+    <message>
+        <source>Summarize</source>
+        <translation>סך־הכּל</translation>
+    </message>
+    <message>
+        <source>Alt text</source>
+        <translation>אַלטערנאַטיווער טעקסט</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>אַרײַנגעקומענע</translation>
     </message>

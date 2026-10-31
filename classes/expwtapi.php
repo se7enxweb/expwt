@@ -167,6 +167,15 @@ class expwtApi
             case 'tree.sort':
                 $order = isset( $input['order'] ) && is_array( $input['order'] ) ? array_values( array_map( 'intval', $input['order'] ) ) : array();
                 return $g->sort( self::ids( $input, array( 'nodeId' ) ) + array( 'order' => $order ) );
+            case 'ai.field':
+                // the instruction as typed, at most 4000 characters (expai cuts it to its own limit too)
+                return $g->aiField( self::ids( $input, array( 'objectId', 'version' ) )
+                                    + self::strings( $input, array( 'language', 'field', 'action', 'targetLanguage' ) )
+                                    + array( 'instruction' => isset( $input['instruction'] ) && is_scalar( $input['instruction'] ) ? substr( trim( (string)$input['instruction'] ), 0, 4000 ) : '' )
+                                    + ( isset( $input['value'] ) && is_string( $input['value'] ) ? array( 'value' => $input['value'] ) : array() ) );
+            case 'ai.apply':
+                return $g->aiApply( self::ids( $input, array( 'objectId', 'version' ) ) + self::strings( $input, array( 'language', 'field' ) )
+                                    + array( 'value' => isset( $input['value'] ) && is_string( $input['value'] ) ? $input['value'] : '' ) );
             case 'page.elsewhere':
                 return $g->elsewhere( self::ids( $input, array( 'nodeId' ) ) );
             case 'seo.check':

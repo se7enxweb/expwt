@@ -932,6 +932,74 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <source>Exponential Intelligence is not available here.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>This action is not available for this field.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Ask</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Into which language?</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>What should be written?</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>What should change? (optional)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Say what should be written.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Asking ...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Suggestion</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Use it</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>A suggestion: the field keeps its value until you use it.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>It is in the field: Save draft keeps it, or autosave does.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>It is in the draft.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Exponential Intelligence</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>AI</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Summarize</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Alt text</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation type="unfinished"></translation>
     </message>

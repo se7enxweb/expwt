@@ -932,6 +932,74 @@
         <translation>«Qupperneq»-mi paneli ammaruk missingiutaa toqqorniarlugu.</translation>
     </message>
     <message>
+        <source>Exponential Intelligence is not available here.</source>
+        <translation>Exponential Intelligence maani atorneqarsinnaanngilaq.</translation>
+    </message>
+    <message>
+        <source>This action is not available for this field.</source>
+        <translation>Iliuuseq una immersugassamut matumunnga atorneqarsinnaanngilaq.</translation>
+    </message>
+    <message>
+        <source>Ask</source>
+        <translation>Apersuigit</translation>
+    </message>
+    <message>
+        <source>Into which language?</source>
+        <translation>Oqaatsinut sorlernut?</translation>
+    </message>
+    <message>
+        <source>What should be written?</source>
+        <translation>Suna allanneqassava?</translation>
+    </message>
+    <message>
+        <source>What should change? (optional)</source>
+        <translation>Suna allanngortinneqassava? (piumasaqaataanngitsoq)</translation>
+    </message>
+    <message>
+        <source>Say what should be written.</source>
+        <translation>Suna allanneqassanersoq oqaatigiuk.</translation>
+    </message>
+    <message>
+        <source>Asking ...</source>
+        <translation>Apersuineq ...</translation>
+    </message>
+    <message>
+        <source>Suggestion</source>
+        <translation>Siunnersuut</translation>
+    </message>
+    <message>
+        <source>Use it</source>
+        <translation>Atoruk</translation>
+    </message>
+    <message>
+        <source>A suggestion: the field keeps its value until you use it.</source>
+        <translation>Siunnersuut: immersugassaq naleqarnini attassavaa atornissaata tungaanut.</translation>
+    </message>
+    <message>
+        <source>It is in the field: Save draft keeps it, or autosave does.</source>
+        <translation>Immersugassami ippoq: Missingiut toqqoruk attatissavaa, imaluunniit nammineerluni toqqorineq.</translation>
+    </message>
+    <message>
+        <source>It is in the draft.</source>
+        <translation>Missingiummi ippoq.</translation>
+    </message>
+    <message>
+        <source>Exponential Intelligence</source>
+        <translation>Exponential Intelligence</translation>
+    </message>
+    <message>
+        <source>AI</source>
+        <translation>AI</translation>
+    </message>
+    <message>
+        <source>Summarize</source>
+        <translation>Eqikkaaruk</translation>
+    </message>
+    <message>
+        <source>Alt text</source>
+        <translation>Alt-allaaserisaq</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Tiguniakkat</translation>
     </message>

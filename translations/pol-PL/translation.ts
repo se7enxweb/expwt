@@ -932,6 +932,74 @@
         <translation>Otwórz panel „Strona”, aby zapisać jej wersję roboczą.</translation>
     </message>
     <message>
+        <source>Exponential Intelligence is not available here.</source>
+        <translation>Exponential Intelligence nie jest tu dostępny.</translation>
+    </message>
+    <message>
+        <source>This action is not available for this field.</source>
+        <translation>Ta czynność nie jest dostępna dla tego pola.</translation>
+    </message>
+    <message>
+        <source>Ask</source>
+        <translation>Zapytaj</translation>
+    </message>
+    <message>
+        <source>Into which language?</source>
+        <translation>Na jaki język?</translation>
+    </message>
+    <message>
+        <source>What should be written?</source>
+        <translation>Co ma zostać napisane?</translation>
+    </message>
+    <message>
+        <source>What should change? (optional)</source>
+        <translation>Co ma się zmienić? (opcjonalnie)</translation>
+    </message>
+    <message>
+        <source>Say what should be written.</source>
+        <translation>Powiedz, co ma zostać napisane.</translation>
+    </message>
+    <message>
+        <source>Asking ...</source>
+        <translation>Pytanie ...</translation>
+    </message>
+    <message>
+        <source>Suggestion</source>
+        <translation>Propozycja</translation>
+    </message>
+    <message>
+        <source>Use it</source>
+        <translation>Użyj</translation>
+    </message>
+    <message>
+        <source>A suggestion: the field keeps its value until you use it.</source>
+        <translation>Propozycja: pole zachowuje swoją wartość, dopóki jej nie użyjesz.</translation>
+    </message>
+    <message>
+        <source>It is in the field: Save draft keeps it, or autosave does.</source>
+        <translation>Jest w polu: Zapisz wersję roboczą to zachowa, albo autozapis.</translation>
+    </message>
+    <message>
+        <source>It is in the draft.</source>
+        <translation>Jest w wersji roboczej.</translation>
+    </message>
+    <message>
+        <source>Exponential Intelligence</source>
+        <translation>Exponential Intelligence</translation>
+    </message>
+    <message>
+        <source>AI</source>
+        <translation>SI</translation>
+    </message>
+    <message>
+        <source>Summarize</source>
+        <translation>Streść</translation>
+    </message>
+    <message>
+        <source>Alt text</source>
+        <translation>Tekst alternatywny</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Skrzynka odbiorcza</translation>
     </message>

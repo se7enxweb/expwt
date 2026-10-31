@@ -932,6 +932,74 @@
         <translation>Vhura pani ye«Peji» kuti uchengetedze dhirafiti rayo.</translation>
     </message>
     <message>
+        <source>Exponential Intelligence is not available here.</source>
+        <translation>Exponential Intelligence haiwanikwi pano.</translation>
+    </message>
+    <message>
+        <source>This action is not available for this field.</source>
+        <translation>Chiito ichi hachiwanikwi pane nzvimbo iyi.</translation>
+    </message>
+    <message>
+        <source>Ask</source>
+        <translation>Bvunza</translation>
+    </message>
+    <message>
+        <source>Into which language?</source>
+        <translation>Kumutauro upi?</translation>
+    </message>
+    <message>
+        <source>What should be written?</source>
+        <translation>Chii chinofanira kunyorwa?</translation>
+    </message>
+    <message>
+        <source>What should change? (optional)</source>
+        <translation>Chii chinofanira kuchinja? (sarudzo)</translation>
+    </message>
+    <message>
+        <source>Say what should be written.</source>
+        <translation>Taura chinofanira kunyorwa.</translation>
+    </message>
+    <message>
+        <source>Asking ...</source>
+        <translation>Kubvunza ...</translation>
+    </message>
+    <message>
+        <source>Suggestion</source>
+        <translation>Zano</translation>
+    </message>
+    <message>
+        <source>Use it</source>
+        <translation>Shandisa</translation>
+    </message>
+    <message>
+        <source>A suggestion: the field keeps its value until you use it.</source>
+        <translation>Zano: nzvimbo inochengeta kukosha kwayo kusvikira wariisa.</translation>
+    </message>
+    <message>
+        <source>It is in the field: Save draft keeps it, or autosave does.</source>
+        <translation>Iri munzvimbo: Chengetedza dhirafiti inoichengeta, kana kuchengetedza kwega.</translation>
+    </message>
+    <message>
+        <source>It is in the draft.</source>
+        <translation>Iri mudhirafiti.</translation>
+    </message>
+    <message>
+        <source>Exponential Intelligence</source>
+        <translation>Exponential Intelligence</translation>
+    </message>
+    <message>
+        <source>AI</source>
+        <translation>AI</translation>
+    </message>
+    <message>
+        <source>Summarize</source>
+        <translation>Pfupikisa</translation>
+    </message>
+    <message>
+        <source>Alt text</source>
+        <translation>Mavara ekutsiva</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Bhokisi rinopinda</translation>
     </message>

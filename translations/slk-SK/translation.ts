@@ -932,6 +932,74 @@
         <translation>Otvorte panel „Stránka“, aby ste uložili jej koncept.</translation>
     </message>
     <message>
+        <source>Exponential Intelligence is not available here.</source>
+        <translation>Exponential Intelligence tu nie je k dispozícii.</translation>
+    </message>
+    <message>
+        <source>This action is not available for this field.</source>
+        <translation>Táto akcia nie je pre toto pole k dispozícii.</translation>
+    </message>
+    <message>
+        <source>Ask</source>
+        <translation>Opýtať sa</translation>
+    </message>
+    <message>
+        <source>Into which language?</source>
+        <translation>Do ktorého jazyka?</translation>
+    </message>
+    <message>
+        <source>What should be written?</source>
+        <translation>Čo sa má napísať?</translation>
+    </message>
+    <message>
+        <source>What should change? (optional)</source>
+        <translation>Čo sa má zmeniť? (voliteľné)</translation>
+    </message>
+    <message>
+        <source>Say what should be written.</source>
+        <translation>Povedzte, čo sa má napísať.</translation>
+    </message>
+    <message>
+        <source>Asking ...</source>
+        <translation>Pýtam sa ...</translation>
+    </message>
+    <message>
+        <source>Suggestion</source>
+        <translation>Návrh</translation>
+    </message>
+    <message>
+        <source>Use it</source>
+        <translation>Použiť</translation>
+    </message>
+    <message>
+        <source>A suggestion: the field keeps its value until you use it.</source>
+        <translation>Návrh: pole si ponechá svoju hodnotu, kým ho nepoužijete.</translation>
+    </message>
+    <message>
+        <source>It is in the field: Save draft keeps it, or autosave does.</source>
+        <translation>Je to v poli: Uložiť koncept to zachová, alebo automatické ukladanie.</translation>
+    </message>
+    <message>
+        <source>It is in the draft.</source>
+        <translation>Je to v koncepte.</translation>
+    </message>
+    <message>
+        <source>Exponential Intelligence</source>
+        <translation>Exponential Intelligence</translation>
+    </message>
+    <message>
+        <source>AI</source>
+        <translation>AI</translation>
+    </message>
+    <message>
+        <source>Summarize</source>
+        <translation>Zhrnúť</translation>
+    </message>
+    <message>
+        <source>Alt text</source>
+        <translation>Alternatívny text</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Doručené</translation>
     </message>

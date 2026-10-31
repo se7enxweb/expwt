@@ -932,6 +932,74 @@
         <translation>Отворете панела „Страница“, за да запазите черновата ѝ.</translation>
     </message>
     <message>
+        <source>Exponential Intelligence is not available here.</source>
+        <translation>Exponential Intelligence не е достъпен тук.</translation>
+    </message>
+    <message>
+        <source>This action is not available for this field.</source>
+        <translation>Това действие не е достъпно за това поле.</translation>
+    </message>
+    <message>
+        <source>Ask</source>
+        <translation>Попитай</translation>
+    </message>
+    <message>
+        <source>Into which language?</source>
+        <translation>На кой език?</translation>
+    </message>
+    <message>
+        <source>What should be written?</source>
+        <translation>Какво трябва да се напише?</translation>
+    </message>
+    <message>
+        <source>What should change? (optional)</source>
+        <translation>Какво трябва да се промени? (по избор)</translation>
+    </message>
+    <message>
+        <source>Say what should be written.</source>
+        <translation>Кажете какво трябва да се напише.</translation>
+    </message>
+    <message>
+        <source>Asking ...</source>
+        <translation>Пита се ...</translation>
+    </message>
+    <message>
+        <source>Suggestion</source>
+        <translation>Предложение</translation>
+    </message>
+    <message>
+        <source>Use it</source>
+        <translation>Използвай</translation>
+    </message>
+    <message>
+        <source>A suggestion: the field keeps its value until you use it.</source>
+        <translation>Предложение: полето пази стойността си, докато не го използвате.</translation>
+    </message>
+    <message>
+        <source>It is in the field: Save draft keeps it, or autosave does.</source>
+        <translation>В полето е: Запази черновата го запазва, или автоматичното запазване.</translation>
+    </message>
+    <message>
+        <source>It is in the draft.</source>
+        <translation>В черновата е.</translation>
+    </message>
+    <message>
+        <source>Exponential Intelligence</source>
+        <translation>Exponential Intelligence</translation>
+    </message>
+    <message>
+        <source>AI</source>
+        <translation>ИИ</translation>
+    </message>
+    <message>
+        <source>Summarize</source>
+        <translation>Обобщи</translation>
+    </message>
+    <message>
+        <source>Alt text</source>
+        <translation>Алтернативен текст</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Входящи</translation>
     </message>

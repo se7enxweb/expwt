@@ -932,6 +932,74 @@
         <translation>ረቂቁን ለማስቀመጥ የ«ገጽ» ፓነልን ይክፈቱ።</translation>
     </message>
     <message>
+        <source>Exponential Intelligence is not available here.</source>
+        <translation>Exponential Intelligence እዚህ አይገኝም።</translation>
+    </message>
+    <message>
+        <source>This action is not available for this field.</source>
+        <translation>ይህ ተግባር ለዚህ መስክ አይገኝም።</translation>
+    </message>
+    <message>
+        <source>Ask</source>
+        <translation>ጠይቅ</translation>
+    </message>
+    <message>
+        <source>Into which language?</source>
+        <translation>ወደ የትኛው ቋንቋ?</translation>
+    </message>
+    <message>
+        <source>What should be written?</source>
+        <translation>ምን መጻፍ አለበት?</translation>
+    </message>
+    <message>
+        <source>What should change? (optional)</source>
+        <translation>ምን መቀየር አለበት? (አማራጭ)</translation>
+    </message>
+    <message>
+        <source>Say what should be written.</source>
+        <translation>ምን መጻፍ እንዳለበት ይናገሩ።</translation>
+    </message>
+    <message>
+        <source>Asking ...</source>
+        <translation>በመጠየቅ ላይ ...</translation>
+    </message>
+    <message>
+        <source>Suggestion</source>
+        <translation>ጥቆማ</translation>
+    </message>
+    <message>
+        <source>Use it</source>
+        <translation>ተጠቀምበት</translation>
+    </message>
+    <message>
+        <source>A suggestion: the field keeps its value until you use it.</source>
+        <translation>ጥቆማ፦ እስኪጠቀሙበት ድረስ መስኩ እሴቱን ይይዛል።</translation>
+    </message>
+    <message>
+        <source>It is in the field: Save draft keeps it, or autosave does.</source>
+        <translation>በመስኩ ውስጥ ነው፦ ረቂቅ አስቀምጥ ያቆየዋል፣ ወይም ራስ-ሰር ማስቀመጥ።</translation>
+    </message>
+    <message>
+        <source>It is in the draft.</source>
+        <translation>በረቂቁ ውስጥ ነው።</translation>
+    </message>
+    <message>
+        <source>Exponential Intelligence</source>
+        <translation>Exponential Intelligence</translation>
+    </message>
+    <message>
+        <source>AI</source>
+        <translation>AI</translation>
+    </message>
+    <message>
+        <source>Summarize</source>
+        <translation>አጠቃልል</translation>
+    </message>
+    <message>
+        <source>Alt text</source>
+        <translation>አማራጭ ጽሑፍ</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>የገቢ ሳጥን</translation>
     </message>

@@ -932,6 +932,74 @@
         <translation>Taslağını kaydetmek için «Sayfa» panelini açın.</translation>
     </message>
     <message>
+        <source>Exponential Intelligence is not available here.</source>
+        <translation>Exponential Intelligence burada kullanılamıyor.</translation>
+    </message>
+    <message>
+        <source>This action is not available for this field.</source>
+        <translation>Bu işlem bu alan için kullanılamıyor.</translation>
+    </message>
+    <message>
+        <source>Ask</source>
+        <translation>Sor</translation>
+    </message>
+    <message>
+        <source>Into which language?</source>
+        <translation>Hangi dile?</translation>
+    </message>
+    <message>
+        <source>What should be written?</source>
+        <translation>Ne yazılmalı?</translation>
+    </message>
+    <message>
+        <source>What should change? (optional)</source>
+        <translation>Ne değişmeli? (isteğe bağlı)</translation>
+    </message>
+    <message>
+        <source>Say what should be written.</source>
+        <translation>Ne yazılması gerektiğini söyleyin.</translation>
+    </message>
+    <message>
+        <source>Asking ...</source>
+        <translation>Soruluyor ...</translation>
+    </message>
+    <message>
+        <source>Suggestion</source>
+        <translation>Öneri</translation>
+    </message>
+    <message>
+        <source>Use it</source>
+        <translation>Kullan</translation>
+    </message>
+    <message>
+        <source>A suggestion: the field keeps its value until you use it.</source>
+        <translation>Bir öneri: siz kullanana kadar alan değerini korur.</translation>
+    </message>
+    <message>
+        <source>It is in the field: Save draft keeps it, or autosave does.</source>
+        <translation>Alanda: Taslağı kaydet onu korur, ya da otomatik kayıt.</translation>
+    </message>
+    <message>
+        <source>It is in the draft.</source>
+        <translation>Taslakta.</translation>
+    </message>
+    <message>
+        <source>Exponential Intelligence</source>
+        <translation>Exponential Intelligence</translation>
+    </message>
+    <message>
+        <source>AI</source>
+        <translation>YZ</translation>
+    </message>
+    <message>
+        <source>Summarize</source>
+        <translation>Özetle</translation>
+    </message>
+    <message>
+        <source>Alt text</source>
+        <translation>Alternatif metin</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Gelen kutusu</translation>
     </message>

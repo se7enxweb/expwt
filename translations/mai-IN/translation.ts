@@ -932,6 +932,74 @@
         <translation>ओकर ड्राफ़्ट सहेजबाक लेल «पृष्ठ» पैनल खोलू।</translation>
     </message>
     <message>
+        <source>Exponential Intelligence is not available here.</source>
+        <translation>Exponential Intelligence एतय उपलब्ध नहि अछि।</translation>
+    </message>
+    <message>
+        <source>This action is not available for this field.</source>
+        <translation>ई काज एहि फील्ड लेल उपलब्ध नहि अछि।</translation>
+    </message>
+    <message>
+        <source>Ask</source>
+        <translation>पूछू</translation>
+    </message>
+    <message>
+        <source>Into which language?</source>
+        <translation>कोन भाषा मे?</translation>
+    </message>
+    <message>
+        <source>What should be written?</source>
+        <translation>की लिखल जेबाक चाही?</translation>
+    </message>
+    <message>
+        <source>What should change? (optional)</source>
+        <translation>की बदलबाक चाही? (वैकल्पिक)</translation>
+    </message>
+    <message>
+        <source>Say what should be written.</source>
+        <translation>कहू जे की लिखल जेबाक चाही।</translation>
+    </message>
+    <message>
+        <source>Asking ...</source>
+        <translation>पूछल जा रहल अछि ...</translation>
+    </message>
+    <message>
+        <source>Suggestion</source>
+        <translation>सुझाव</translation>
+    </message>
+    <message>
+        <source>Use it</source>
+        <translation>एकर उपयोग करू</translation>
+    </message>
+    <message>
+        <source>A suggestion: the field keeps its value until you use it.</source>
+        <translation>एकटा सुझाव: जा धरि अहाँ एकर उपयोग नहि करब, फील्ड अपन मान रखैत अछि।</translation>
+    </message>
+    <message>
+        <source>It is in the field: Save draft keeps it, or autosave does.</source>
+        <translation>ई फील्ड मे अछि: ड्राफ़्ट सहेजू एकरा रखैत अछि, वा अपने आप सहेजब।</translation>
+    </message>
+    <message>
+        <source>It is in the draft.</source>
+        <translation>ई ड्राफ़्ट मे अछि।</translation>
+    </message>
+    <message>
+        <source>Exponential Intelligence</source>
+        <translation>Exponential Intelligence</translation>
+    </message>
+    <message>
+        <source>AI</source>
+        <translation>AI</translation>
+    </message>
+    <message>
+        <source>Summarize</source>
+        <translation>सारांश बनाउ</translation>
+    </message>
+    <message>
+        <source>Alt text</source>
+        <translation>वैकल्पिक पाठ</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>इनबॉक्स</translation>
     </message>

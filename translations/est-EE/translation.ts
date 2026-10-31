@@ -932,6 +932,74 @@
         <translation>Ava paneel „Leht“, et selle mustand salvestada.</translation>
     </message>
     <message>
+        <source>Exponential Intelligence is not available here.</source>
+        <translation>Exponential Intelligence pole siin saadaval.</translation>
+    </message>
+    <message>
+        <source>This action is not available for this field.</source>
+        <translation>See toiming pole selle välja jaoks saadaval.</translation>
+    </message>
+    <message>
+        <source>Ask</source>
+        <translation>Küsi</translation>
+    </message>
+    <message>
+        <source>Into which language?</source>
+        <translation>Millisesse keelde?</translation>
+    </message>
+    <message>
+        <source>What should be written?</source>
+        <translation>Mida peaks kirjutama?</translation>
+    </message>
+    <message>
+        <source>What should change? (optional)</source>
+        <translation>Mida peaks muutma? (valikuline)</translation>
+    </message>
+    <message>
+        <source>Say what should be written.</source>
+        <translation>Ütle, mida peaks kirjutama.</translation>
+    </message>
+    <message>
+        <source>Asking ...</source>
+        <translation>Küsin ...</translation>
+    </message>
+    <message>
+        <source>Suggestion</source>
+        <translation>Soovitus</translation>
+    </message>
+    <message>
+        <source>Use it</source>
+        <translation>Kasuta</translation>
+    </message>
+    <message>
+        <source>A suggestion: the field keeps its value until you use it.</source>
+        <translation>Soovitus: väli hoiab oma väärtust, kuni sa selle kasutad.</translation>
+    </message>
+    <message>
+        <source>It is in the field: Save draft keeps it, or autosave does.</source>
+        <translation>See on väljal: Salvesta mustand hoiab selle alles, või automaatne salvestus.</translation>
+    </message>
+    <message>
+        <source>It is in the draft.</source>
+        <translation>See on mustandis.</translation>
+    </message>
+    <message>
+        <source>Exponential Intelligence</source>
+        <translation>Exponential Intelligence</translation>
+    </message>
+    <message>
+        <source>AI</source>
+        <translation>TI</translation>
+    </message>
+    <message>
+        <source>Summarize</source>
+        <translation>Kokkuvõte</translation>
+    </message>
+    <message>
+        <source>Alt text</source>
+        <translation>Alt-tekst</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Postkast</translation>
     </message>

@@ -932,6 +932,74 @@
         <translation>Wixinee isaa olkaa'uuf paanela «Fuula» bani.</translation>
     </message>
     <message>
+        <source>Exponential Intelligence is not available here.</source>
+        <translation>Exponential Intelligence asitti hin argamu.</translation>
+    </message>
+    <message>
+        <source>This action is not available for this field.</source>
+        <translation>Gochi kun dirree kanaaf hin argamu.</translation>
+    </message>
+    <message>
+        <source>Ask</source>
+        <translation>Gaafadhu</translation>
+    </message>
+    <message>
+        <source>Into which language?</source>
+        <translation>Gara afaan kamii?</translation>
+    </message>
+    <message>
+        <source>What should be written?</source>
+        <translation>Maaltu barreeffamuu qaba?</translation>
+    </message>
+    <message>
+        <source>What should change? (optional)</source>
+        <translation>Maaltu jijjiiramuu qaba? (filannoo)</translation>
+    </message>
+    <message>
+        <source>Say what should be written.</source>
+        <translation>Maaltu barreeffamuu akka qabu himi.</translation>
+    </message>
+    <message>
+        <source>Asking ...</source>
+        <translation>Gaafachaa jira ...</translation>
+    </message>
+    <message>
+        <source>Suggestion</source>
+        <translation>Yaada</translation>
+    </message>
+    <message>
+        <source>Use it</source>
+        <translation>Itti fayyadami</translation>
+    </message>
+    <message>
+        <source>A suggestion: the field keeps its value until you use it.</source>
+        <translation>Yaada: dirreen hanga ati itti fayyadamtutti gatii isaa eega.</translation>
+    </message>
+    <message>
+        <source>It is in the field: Save draft keeps it, or autosave does.</source>
+        <translation>Dirree keessa jira: Wixinee olkaa'i ni eega, yookaan olkaa'insa ofumaa.</translation>
+    </message>
+    <message>
+        <source>It is in the draft.</source>
+        <translation>Wixinee keessa jira.</translation>
+    </message>
+    <message>
+        <source>Exponential Intelligence</source>
+        <translation>Exponential Intelligence</translation>
+    </message>
+    <message>
+        <source>AI</source>
+        <translation>AI</translation>
+    </message>
+    <message>
+        <source>Summarize</source>
+        <translation>Cuunfi</translation>
+    </message>
+    <message>
+        <source>Alt text</source>
+        <translation>Barreeffama bakka bu'aa</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Saanduqa galtee</translation>
     </message>

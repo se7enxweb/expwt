@@ -932,6 +932,74 @@
         <translation>Vula iphaneli ethi «Iphepha» ukuze ugcine uyilo lwayo.</translation>
     </message>
     <message>
+        <source>Exponential Intelligence is not available here.</source>
+        <translation>I-Exponential Intelligence ayifumaneki apha.</translation>
+    </message>
+    <message>
+        <source>This action is not available for this field.</source>
+        <translation>Esi senzo asifumaneki kule ntsimi.</translation>
+    </message>
+    <message>
+        <source>Ask</source>
+        <translation>Buza</translation>
+    </message>
+    <message>
+        <source>Into which language?</source>
+        <translation>Kolwiphi ulwimi?</translation>
+    </message>
+    <message>
+        <source>What should be written?</source>
+        <translation>Yintoni ekufuneka ibhalwe?</translation>
+    </message>
+    <message>
+        <source>What should change? (optional)</source>
+        <translation>Yintoni ekufuneka itshintshe? (ukhetho)</translation>
+    </message>
+    <message>
+        <source>Say what should be written.</source>
+        <translation>Yitsho into ekufuneka ibhalwe.</translation>
+    </message>
+    <message>
+        <source>Asking ...</source>
+        <translation>Iyabuza ...</translation>
+    </message>
+    <message>
+        <source>Suggestion</source>
+        <translation>Isiphakamiso</translation>
+    </message>
+    <message>
+        <source>Use it</source>
+        <translation>Yisebenzise</translation>
+    </message>
+    <message>
+        <source>A suggestion: the field keeps its value until you use it.</source>
+        <translation>Isiphakamiso: intsimi igcina ixabiso layo de uyisebenzise.</translation>
+    </message>
+    <message>
+        <source>It is in the field: Save draft keeps it, or autosave does.</source>
+        <translation>Ikwintsimi: Gcina uyilo luyayigcina, okanye ukugcina ngokuzenzekelayo.</translation>
+    </message>
+    <message>
+        <source>It is in the draft.</source>
+        <translation>Ikuyilo.</translation>
+    </message>
+    <message>
+        <source>Exponential Intelligence</source>
+        <translation>Exponential Intelligence</translation>
+    </message>
+    <message>
+        <source>AI</source>
+        <translation>AI</translation>
+    </message>
+    <message>
+        <source>Summarize</source>
+        <translation>Shwankathela</translation>
+    </message>
+    <message>
+        <source>Alt text</source>
+        <translation>Isicatshulwa esimele umfanekiso</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Ibhokisi engenayo</translation>
     </message>

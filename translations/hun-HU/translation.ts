@@ -932,6 +932,74 @@
         <translation>Nyissa meg az „Oldal” panelt a piszkozata mentéséhez.</translation>
     </message>
     <message>
+        <source>Exponential Intelligence is not available here.</source>
+        <translation>Az Exponential Intelligence itt nem érhető el.</translation>
+    </message>
+    <message>
+        <source>This action is not available for this field.</source>
+        <translation>Ez a művelet ennél a mezőnél nem érhető el.</translation>
+    </message>
+    <message>
+        <source>Ask</source>
+        <translation>Kérdezés</translation>
+    </message>
+    <message>
+        <source>Into which language?</source>
+        <translation>Melyik nyelvre?</translation>
+    </message>
+    <message>
+        <source>What should be written?</source>
+        <translation>Mit kell írni?</translation>
+    </message>
+    <message>
+        <source>What should change? (optional)</source>
+        <translation>Min kell változtatni? (nem kötelező)</translation>
+    </message>
+    <message>
+        <source>Say what should be written.</source>
+        <translation>Adja meg, mit kell írni.</translation>
+    </message>
+    <message>
+        <source>Asking ...</source>
+        <translation>Kérdezés folyamatban ...</translation>
+    </message>
+    <message>
+        <source>Suggestion</source>
+        <translation>Javaslat</translation>
+    </message>
+    <message>
+        <source>Use it</source>
+        <translation>Használja</translation>
+    </message>
+    <message>
+        <source>A suggestion: the field keeps its value until you use it.</source>
+        <translation>Javaslat: a mező megtartja az értékét, amíg nem használja.</translation>
+    </message>
+    <message>
+        <source>It is in the field: Save draft keeps it, or autosave does.</source>
+        <translation>A mezőben van: a Piszkozat mentése megtartja, vagy az automatikus mentés.</translation>
+    </message>
+    <message>
+        <source>It is in the draft.</source>
+        <translation>A piszkozatban van.</translation>
+    </message>
+    <message>
+        <source>Exponential Intelligence</source>
+        <translation>Exponential Intelligence</translation>
+    </message>
+    <message>
+        <source>AI</source>
+        <translation>MI</translation>
+    </message>
+    <message>
+        <source>Summarize</source>
+        <translation>Összefoglalás</translation>
+    </message>
+    <message>
+        <source>Alt text</source>
+        <translation>Helyettesítő szöveg</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Beérkezett</translation>
     </message>

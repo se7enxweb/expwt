@@ -932,6 +932,74 @@
         <translation>Malfermu la panelon «Paĝo» por konservi ĝian malneton.</translation>
     </message>
     <message>
+        <source>Exponential Intelligence is not available here.</source>
+        <translation>Exponential Intelligence ne disponeblas ĉi tie.</translation>
+    </message>
+    <message>
+        <source>This action is not available for this field.</source>
+        <translation>Ĉi tiu ago ne disponeblas por ĉi tiu kampo.</translation>
+    </message>
+    <message>
+        <source>Ask</source>
+        <translation>Demandi</translation>
+    </message>
+    <message>
+        <source>Into which language?</source>
+        <translation>En kiun lingvon?</translation>
+    </message>
+    <message>
+        <source>What should be written?</source>
+        <translation>Kio estu skribita?</translation>
+    </message>
+    <message>
+        <source>What should change? (optional)</source>
+        <translation>Kio ŝanĝiĝu? (laŭvola)</translation>
+    </message>
+    <message>
+        <source>Say what should be written.</source>
+        <translation>Diru, kio estu skribita.</translation>
+    </message>
+    <message>
+        <source>Asking ...</source>
+        <translation>Demandante ...</translation>
+    </message>
+    <message>
+        <source>Suggestion</source>
+        <translation>Propono</translation>
+    </message>
+    <message>
+        <source>Use it</source>
+        <translation>Uzi ĝin</translation>
+    </message>
+    <message>
+        <source>A suggestion: the field keeps its value until you use it.</source>
+        <translation>Propono: la kampo tenas sian valoron ĝis vi uzos ĝin.</translation>
+    </message>
+    <message>
+        <source>It is in the field: Save draft keeps it, or autosave does.</source>
+        <translation>Ĝi estas en la kampo: Konservi malneton konservas ĝin, aŭ la aŭtomata konservado.</translation>
+    </message>
+    <message>
+        <source>It is in the draft.</source>
+        <translation>Ĝi estas en la malneto.</translation>
+    </message>
+    <message>
+        <source>Exponential Intelligence</source>
+        <translation>Exponential Intelligence</translation>
+    </message>
+    <message>
+        <source>AI</source>
+        <translation>AI</translation>
+    </message>
+    <message>
+        <source>Summarize</source>
+        <translation>Resumi</translation>
+    </message>
+    <message>
+        <source>Alt text</source>
+        <translation>Alternativa teksto</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Enirkesto</translation>
     </message>

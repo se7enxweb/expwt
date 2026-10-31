@@ -932,6 +932,74 @@
         <translation>Uddit panel «Hello» ngam mooftude daartol mum.</translation>
     </message>
     <message>
+        <source>Exponential Intelligence is not available here.</source>
+        <translation>Exponential Intelligence alaa ɗoo.</translation>
+    </message>
+    <message>
+        <source>This action is not available for this field.</source>
+        <translation>Ndee golle alaa e ndee nokku.</translation>
+    </message>
+    <message>
+        <source>Ask</source>
+        <translation>Naamno</translation>
+    </message>
+    <message>
+        <source>Into which language?</source>
+        <translation>E ɗemngal ngal?</translation>
+    </message>
+    <message>
+        <source>What should be written?</source>
+        <translation>Ko holi ko winndetee?</translation>
+    </message>
+    <message>
+        <source>What should change? (optional)</source>
+        <translation>Ko holi ko waylotee? (so a yiɗi)</translation>
+    </message>
+    <message>
+        <source>Say what should be written.</source>
+        <translation>Wiy ko winndetee.</translation>
+    </message>
+    <message>
+        <source>Asking ...</source>
+        <translation>Naamnagol ...</translation>
+    </message>
+    <message>
+        <source>Suggestion</source>
+        <translation>Miijo</translation>
+    </message>
+    <message>
+        <source>Use it</source>
+        <translation>Huutoro</translation>
+    </message>
+    <message>
+        <source>A suggestion: the field keeps its value until you use it.</source>
+        <translation>Miijo: nokku oo jogii njaru mum haa nde huutorto ɗum.</translation>
+    </message>
+    <message>
+        <source>It is in the field: Save draft keeps it, or autosave does.</source>
+        <translation>Ɗum woni e nokku oo: Mooftu daartol jogii ɗum, walla mooftugol e hoore mum.</translation>
+    </message>
+    <message>
+        <source>It is in the draft.</source>
+        <translation>Ɗum woni e daartol ngol.</translation>
+    </message>
+    <message>
+        <source>Exponential Intelligence</source>
+        <translation>Exponential Intelligence</translation>
+    </message>
+    <message>
+        <source>AI</source>
+        <translation>AI</translation>
+    </message>
+    <message>
+        <source>Summarize</source>
+        <translation>Raɓɓin</translation>
+    </message>
+    <message>
+        <source>Alt text</source>
+        <translation>Binndi alt</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Naatirde</translation>
     </message>

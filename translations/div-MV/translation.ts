@@ -932,6 +932,74 @@
         <translation>އޭގެ ޑްރާފްޓް ސޭވްކުރުމަށް «ޞަފްޙާ» ޕެނަލް ހުޅުވާ.</translation>
     </message>
     <message>
+        <source>Exponential Intelligence is not available here.</source>
+        <translation>Exponential Intelligence މިތާ ނެތް.</translation>
+    </message>
+    <message>
+        <source>This action is not available for this field.</source>
+        <translation>މި ޢަމަލު މި ފީލްޑަށް ނެތް.</translation>
+    </message>
+    <message>
+        <source>Ask</source>
+        <translation>ސުވާލުކުރޭ</translation>
+    </message>
+    <message>
+        <source>Into which language?</source>
+        <translation>ކޮން ބަހަކަށް؟</translation>
+    </message>
+    <message>
+        <source>What should be written?</source>
+        <translation>ލިޔަންވީ ކީކޭ؟</translation>
+    </message>
+    <message>
+        <source>What should change? (optional)</source>
+        <translation>ބަދަލުވާންވީ ކީކޭ؟ (އިޚްތިޔާރީ)</translation>
+    </message>
+    <message>
+        <source>Say what should be written.</source>
+        <translation>ލިޔަންވީ ކީކޭކަން ބުނޭ.</translation>
+    </message>
+    <message>
+        <source>Asking ...</source>
+        <translation>ސުވާލުކުރަނީ ...</translation>
+    </message>
+    <message>
+        <source>Suggestion</source>
+        <translation>ހުށަހެޅުން</translation>
+    </message>
+    <message>
+        <source>Use it</source>
+        <translation>ބޭނުންކުރޭ</translation>
+    </message>
+    <message>
+        <source>A suggestion: the field keeps its value until you use it.</source>
+        <translation>ހުށަހެޅުމެއް: ތިބާ ބޭނުންކުރާހާ ހިނދަކު ފީލްޑުގައި އޭގެ އަގު ހުރޭ.</translation>
+    </message>
+    <message>
+        <source>It is in the field: Save draft keeps it, or autosave does.</source>
+        <translation>ފީލްޑުގައި އޮތް: ޑްރާފްޓް ސޭވްކުރޭ އެ ރައްކާކުރޭ، ނުވަތަ އޮޓޯ ސޭވް.</translation>
+    </message>
+    <message>
+        <source>It is in the draft.</source>
+        <translation>ޑްރާފްޓްގައި އޮތް.</translation>
+    </message>
+    <message>
+        <source>Exponential Intelligence</source>
+        <translation>Exponential Intelligence</translation>
+    </message>
+    <message>
+        <source>AI</source>
+        <translation>AI</translation>
+    </message>
+    <message>
+        <source>Summarize</source>
+        <translation>ޚުލާޞާކުރޭ</translation>
+    </message>
+    <message>
+        <source>Alt text</source>
+        <translation>ބަދަލު ލިޔުން</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>އިންބޮކްސް</translation>
     </message>

@@ -932,6 +932,74 @@
         <translation>បើកផ្ទាំង «ទំព័រ» ដើម្បីរក្សាទុកសេចក្តីព្រាងរបស់វា។</translation>
     </message>
     <message>
+        <source>Exponential Intelligence is not available here.</source>
+        <translation>Exponential Intelligence មិនមាននៅទីនេះទេ។</translation>
+    </message>
+    <message>
+        <source>This action is not available for this field.</source>
+        <translation>សកម្មភាពនេះមិនមានសម្រាប់វាលនេះទេ។</translation>
+    </message>
+    <message>
+        <source>Ask</source>
+        <translation>សួរ</translation>
+    </message>
+    <message>
+        <source>Into which language?</source>
+        <translation>ទៅភាសាអ្វី?</translation>
+    </message>
+    <message>
+        <source>What should be written?</source>
+        <translation>គួរសរសេរអ្វី?</translation>
+    </message>
+    <message>
+        <source>What should change? (optional)</source>
+        <translation>គួរផ្លាស់ប្ដូរអ្វី? (ស្រេចចិត្ត)</translation>
+    </message>
+    <message>
+        <source>Say what should be written.</source>
+        <translation>សូមប្រាប់ថាគួរសរសេរអ្វី។</translation>
+    </message>
+    <message>
+        <source>Asking ...</source>
+        <translation>កំពុងសួរ ...</translation>
+    </message>
+    <message>
+        <source>Suggestion</source>
+        <translation>ការណែនាំ</translation>
+    </message>
+    <message>
+        <source>Use it</source>
+        <translation>ប្រើវា</translation>
+    </message>
+    <message>
+        <source>A suggestion: the field keeps its value until you use it.</source>
+        <translation>ការណែនាំមួយ៖ វាលរក្សាតម្លៃរបស់វា រហូតដល់អ្នកប្រើវា។</translation>
+    </message>
+    <message>
+        <source>It is in the field: Save draft keeps it, or autosave does.</source>
+        <translation>វានៅក្នុងវាល៖ រក្សាទុកសេចក្តីព្រាង រក្សាវាទុក ឬការរក្សាទុកស្វ័យប្រវត្តិ។</translation>
+    </message>
+    <message>
+        <source>It is in the draft.</source>
+        <translation>វានៅក្នុងសេចក្តីព្រាង។</translation>
+    </message>
+    <message>
+        <source>Exponential Intelligence</source>
+        <translation>Exponential Intelligence</translation>
+    </message>
+    <message>
+        <source>AI</source>
+        <translation>AI</translation>
+    </message>
+    <message>
+        <source>Summarize</source>
+        <translation>សង្ខេប</translation>
+    </message>
+    <message>
+        <source>Alt text</source>
+        <translation>អត្ថបទជំនួស</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>ប្រអប់ទទួល</translation>
     </message>

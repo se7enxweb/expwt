@@ -932,6 +932,74 @@
         <translation>Raba «Siidu»-panela vai vurket dan luonosa.</translation>
     </message>
     <message>
+        <source>Exponential Intelligence is not available here.</source>
+        <translation>Exponential Intelligence ii leat olámuttus dáppe.</translation>
+    </message>
+    <message>
+        <source>This action is not available for this field.</source>
+        <translation>Dát doaibma ii leat olámuttus dán gieddái.</translation>
+    </message>
+    <message>
+        <source>Ask</source>
+        <translation>Jeara</translation>
+    </message>
+    <message>
+        <source>Into which language?</source>
+        <translation>Makkár giellii?</translation>
+    </message>
+    <message>
+        <source>What should be written?</source>
+        <translation>Maid galgá čállit?</translation>
+    </message>
+    <message>
+        <source>What should change? (optional)</source>
+        <translation>Maid galgá rievdadit? (eaktodáhtolaš)</translation>
+    </message>
+    <message>
+        <source>Say what should be written.</source>
+        <translation>Daja maid galgá čállit.</translation>
+    </message>
+    <message>
+        <source>Asking ...</source>
+        <translation>Jearrá ...</translation>
+    </message>
+    <message>
+        <source>Suggestion</source>
+        <translation>Evttohus</translation>
+    </message>
+    <message>
+        <source>Use it</source>
+        <translation>Geavat dan</translation>
+    </message>
+    <message>
+        <source>A suggestion: the field keeps its value until you use it.</source>
+        <translation>Evttohus: gieddi doallá árvvus dassážii go don geavahat dan.</translation>
+    </message>
+    <message>
+        <source>It is in the field: Save draft keeps it, or autosave does.</source>
+        <translation>Dat lea gieddis: Vurke luonosa doallá dan, dahje automáhtalaš vurken.</translation>
+    </message>
+    <message>
+        <source>It is in the draft.</source>
+        <translation>Dat lea luonosis.</translation>
+    </message>
+    <message>
+        <source>Exponential Intelligence</source>
+        <translation>Exponential Intelligence</translation>
+    </message>
+    <message>
+        <source>AI</source>
+        <translation>AI</translation>
+    </message>
+    <message>
+        <source>Summarize</source>
+        <translation>Čoahkkáigeasut</translation>
+    </message>
+    <message>
+        <source>Alt text</source>
+        <translation>Alt-teaksta</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Sisaboarta</translation>
     </message>

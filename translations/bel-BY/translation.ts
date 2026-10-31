@@ -932,6 +932,74 @@
         <translation>Адкрыйце панэль «Старонка», каб захаваць яе чарнавік.</translation>
     </message>
     <message>
+        <source>Exponential Intelligence is not available here.</source>
+        <translation>Exponential Intelligence тут недаступны.</translation>
+    </message>
+    <message>
+        <source>This action is not available for this field.</source>
+        <translation>Гэтае дзеянне недаступнае для гэтага поля.</translation>
+    </message>
+    <message>
+        <source>Ask</source>
+        <translation>Спытаць</translation>
+    </message>
+    <message>
+        <source>Into which language?</source>
+        <translation>На якую мову?</translation>
+    </message>
+    <message>
+        <source>What should be written?</source>
+        <translation>Што трэба напісаць?</translation>
+    </message>
+    <message>
+        <source>What should change? (optional)</source>
+        <translation>Што трэба змяніць? (неабавязкова)</translation>
+    </message>
+    <message>
+        <source>Say what should be written.</source>
+        <translation>Скажыце, што трэба напісаць.</translation>
+    </message>
+    <message>
+        <source>Asking ...</source>
+        <translation>Пытаемся ...</translation>
+    </message>
+    <message>
+        <source>Suggestion</source>
+        <translation>Прапанова</translation>
+    </message>
+    <message>
+        <source>Use it</source>
+        <translation>Выкарыстаць</translation>
+    </message>
+    <message>
+        <source>A suggestion: the field keeps its value until you use it.</source>
+        <translation>Прапанова: поле захоўвае сваё значэнне, пакуль вы яе не выкарыстаеце.</translation>
+    </message>
+    <message>
+        <source>It is in the field: Save draft keeps it, or autosave does.</source>
+        <translation>Гэта ў полі: Захаваць чарнавік захоўвае гэта, або аўтазахаванне.</translation>
+    </message>
+    <message>
+        <source>It is in the draft.</source>
+        <translation>Гэта ў чарнавіку.</translation>
+    </message>
+    <message>
+        <source>Exponential Intelligence</source>
+        <translation>Exponential Intelligence</translation>
+    </message>
+    <message>
+        <source>AI</source>
+        <translation>ШІ</translation>
+    </message>
+    <message>
+        <source>Summarize</source>
+        <translation>Абагульніць</translation>
+    </message>
+    <message>
+        <source>Alt text</source>
+        <translation>Альт-тэкст</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Уваходныя</translation>
     </message>

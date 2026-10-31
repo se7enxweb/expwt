@@ -932,6 +932,74 @@
         <translation>Abre el panel «Página» para guardar su borrador.</translation>
     </message>
     <message>
+        <source>Exponential Intelligence is not available here.</source>
+        <translation>Exponential Intelligence no está disponible aquí.</translation>
+    </message>
+    <message>
+        <source>This action is not available for this field.</source>
+        <translation>Esta acción no está disponible para este campo.</translation>
+    </message>
+    <message>
+        <source>Ask</source>
+        <translation>Preguntar</translation>
+    </message>
+    <message>
+        <source>Into which language?</source>
+        <translation>¿A qué idioma?</translation>
+    </message>
+    <message>
+        <source>What should be written?</source>
+        <translation>¿Qué hay que escribir?</translation>
+    </message>
+    <message>
+        <source>What should change? (optional)</source>
+        <translation>¿Qué hay que cambiar? (opcional)</translation>
+    </message>
+    <message>
+        <source>Say what should be written.</source>
+        <translation>Di qué hay que escribir.</translation>
+    </message>
+    <message>
+        <source>Asking ...</source>
+        <translation>Preguntando ...</translation>
+    </message>
+    <message>
+        <source>Suggestion</source>
+        <translation>Sugerencia</translation>
+    </message>
+    <message>
+        <source>Use it</source>
+        <translation>Usarla</translation>
+    </message>
+    <message>
+        <source>A suggestion: the field keeps its value until you use it.</source>
+        <translation>Una sugerencia: el campo mantiene su valor hasta que la uses.</translation>
+    </message>
+    <message>
+        <source>It is in the field: Save draft keeps it, or autosave does.</source>
+        <translation>Está en el campo: Guardar borrador lo conserva, o lo hace el guardado automático.</translation>
+    </message>
+    <message>
+        <source>It is in the draft.</source>
+        <translation>Está en el borrador.</translation>
+    </message>
+    <message>
+        <source>Exponential Intelligence</source>
+        <translation>Exponential Intelligence</translation>
+    </message>
+    <message>
+        <source>AI</source>
+        <translation>IA</translation>
+    </message>
+    <message>
+        <source>Summarize</source>
+        <translation>Resumir</translation>
+    </message>
+    <message>
+        <source>Alt text</source>
+        <translation>Texto alternativo</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Bandeja de entrada</translation>
     </message>

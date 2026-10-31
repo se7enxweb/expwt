@@ -932,6 +932,74 @@
         <translation>Panela «Rûpel» veke da ku reşnivîsa wê tomar bikî.</translation>
     </message>
     <message>
+        <source>Exponential Intelligence is not available here.</source>
+        <translation>Exponential Intelligence li vir ne berdest e.</translation>
+    </message>
+    <message>
+        <source>This action is not available for this field.</source>
+        <translation>Ev çalakî ji bo vê qadê ne berdest e.</translation>
+    </message>
+    <message>
+        <source>Ask</source>
+        <translation>Bipirse</translation>
+    </message>
+    <message>
+        <source>Into which language?</source>
+        <translation>Bi kîjan zimanî?</translation>
+    </message>
+    <message>
+        <source>What should be written?</source>
+        <translation>Divê çi were nivîsandin?</translation>
+    </message>
+    <message>
+        <source>What should change? (optional)</source>
+        <translation>Divê çi biguhere? (bijarte)</translation>
+    </message>
+    <message>
+        <source>Say what should be written.</source>
+        <translation>Bêje divê çi were nivîsandin.</translation>
+    </message>
+    <message>
+        <source>Asking ...</source>
+        <translation>Tê pirsîn ...</translation>
+    </message>
+    <message>
+        <source>Suggestion</source>
+        <translation>Pêşniyar</translation>
+    </message>
+    <message>
+        <source>Use it</source>
+        <translation>Bikar bîne</translation>
+    </message>
+    <message>
+        <source>A suggestion: the field keeps its value until you use it.</source>
+        <translation>Pêşniyarek: qad nirxa xwe diparêze heta ku tu wê bikar bînî.</translation>
+    </message>
+    <message>
+        <source>It is in the field: Save draft keeps it, or autosave does.</source>
+        <translation>Di qadê de ye: Reşnivîsê tomar bike wê diparêze, an tomarkirina bixweber.</translation>
+    </message>
+    <message>
+        <source>It is in the draft.</source>
+        <translation>Di reşnivîsê de ye.</translation>
+    </message>
+    <message>
+        <source>Exponential Intelligence</source>
+        <translation>Exponential Intelligence</translation>
+    </message>
+    <message>
+        <source>AI</source>
+        <translation>AI</translation>
+    </message>
+    <message>
+        <source>Summarize</source>
+        <translation>Kurt bike</translation>
+    </message>
+    <message>
+        <source>Alt text</source>
+        <translation>Nivîsa alternatîf</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Qutiya hatî</translation>
     </message>

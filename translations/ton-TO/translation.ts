@@ -932,6 +932,74 @@
         <translation>Fakaava ʻa e paneli «Peesi» ke tauhi hono tohi fakataimi.</translation>
     </message>
     <message>
+        <source>Exponential Intelligence is not available here.</source>
+        <translation>ʻOku ʻikai ke maʻu ʻa e Exponential Intelligence ʻi heni.</translation>
+    </message>
+    <message>
+        <source>This action is not available for this field.</source>
+        <translation>ʻOku ʻikai ke maʻu ʻa e ngāue ko ʻeni ki he feituʻu ko ʻeni.</translation>
+    </message>
+    <message>
+        <source>Ask</source>
+        <translation>Fehuʻi</translation>
+    </message>
+    <message>
+        <source>Into which language?</source>
+        <translation>Ki he lea fē?</translation>
+    </message>
+    <message>
+        <source>What should be written?</source>
+        <translation>Ko e hā ʻe tohi?</translation>
+    </message>
+    <message>
+        <source>What should change? (optional)</source>
+        <translation>Ko e hā ʻe liliu? (fili)</translation>
+    </message>
+    <message>
+        <source>Say what should be written.</source>
+        <translation>Fakahā ʻa e meʻa ke tohi.</translation>
+    </message>
+    <message>
+        <source>Asking ...</source>
+        <translation>ʻOku fehuʻi ...</translation>
+    </message>
+    <message>
+        <source>Suggestion</source>
+        <translation>Fokotuʻu</translation>
+    </message>
+    <message>
+        <source>Use it</source>
+        <translation>Fakaʻaongaʻi</translation>
+    </message>
+    <message>
+        <source>A suggestion: the field keeps its value until you use it.</source>
+        <translation>Ko ha fokotuʻu: ʻoku tauhi ʻe he feituʻu hono mahuʻinga kae ʻoua ke ke fakaʻaongaʻi.</translation>
+    </message>
+    <message>
+        <source>It is in the field: Save draft keeps it, or autosave does.</source>
+        <translation>ʻOku ʻi he feituʻu: ʻoku tauhi ia ʻe Tauhi ʻa e tohi fakataimi, pe ko e tauhi ʻaki pē ia.</translation>
+    </message>
+    <message>
+        <source>It is in the draft.</source>
+        <translation>ʻOku ʻi he tohi fakataimi.</translation>
+    </message>
+    <message>
+        <source>Exponential Intelligence</source>
+        <translation>Exponential Intelligence</translation>
+    </message>
+    <message>
+        <source>AI</source>
+        <translation>AI</translation>
+    </message>
+    <message>
+        <source>Summarize</source>
+        <translation>Fakanounou</translation>
+    </message>
+    <message>
+        <source>Alt text</source>
+        <translation>Tohi fetongi</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Puha tohi hū mai</translation>
     </message>

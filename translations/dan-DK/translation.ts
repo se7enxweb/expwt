@@ -932,6 +932,74 @@
         <translation>Åbn panelet »Side« for at gemme dets udkast.</translation>
     </message>
     <message>
+        <source>Exponential Intelligence is not available here.</source>
+        <translation>Exponential Intelligence er ikke tilgængelig her.</translation>
+    </message>
+    <message>
+        <source>This action is not available for this field.</source>
+        <translation>Denne handling er ikke tilgængelig for dette felt.</translation>
+    </message>
+    <message>
+        <source>Ask</source>
+        <translation>Spørg</translation>
+    </message>
+    <message>
+        <source>Into which language?</source>
+        <translation>Til hvilket sprog?</translation>
+    </message>
+    <message>
+        <source>What should be written?</source>
+        <translation>Hvad skal der skrives?</translation>
+    </message>
+    <message>
+        <source>What should change? (optional)</source>
+        <translation>Hvad skal ændres? (valgfrit)</translation>
+    </message>
+    <message>
+        <source>Say what should be written.</source>
+        <translation>Sig, hvad der skal skrives.</translation>
+    </message>
+    <message>
+        <source>Asking ...</source>
+        <translation>Spørger ...</translation>
+    </message>
+    <message>
+        <source>Suggestion</source>
+        <translation>Forslag</translation>
+    </message>
+    <message>
+        <source>Use it</source>
+        <translation>Brug det</translation>
+    </message>
+    <message>
+        <source>A suggestion: the field keeps its value until you use it.</source>
+        <translation>Et forslag: feltet beholder sin værdi, indtil du bruger det.</translation>
+    </message>
+    <message>
+        <source>It is in the field: Save draft keeps it, or autosave does.</source>
+        <translation>Det er i feltet: Gem udkast beholder det, eller automatisk gemning gør.</translation>
+    </message>
+    <message>
+        <source>It is in the draft.</source>
+        <translation>Det er i udkastet.</translation>
+    </message>
+    <message>
+        <source>Exponential Intelligence</source>
+        <translation>Exponential Intelligence</translation>
+    </message>
+    <message>
+        <source>AI</source>
+        <translation>AI</translation>
+    </message>
+    <message>
+        <source>Summarize</source>
+        <translation>Opsummer</translation>
+    </message>
+    <message>
+        <source>Alt text</source>
+        <translation>Alt-tekst</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Indbakke</translation>
     </message>

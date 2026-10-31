@@ -932,6 +932,74 @@
         <translation>초안을 저장하려면 «페이지» 판을 여십시오.</translation>
     </message>
     <message>
+        <source>Exponential Intelligence is not available here.</source>
+        <translation>Exponential Intelligence는 여기에서 사용할 수 없습니다.</translation>
+    </message>
+    <message>
+        <source>This action is not available for this field.</source>
+        <translation>이 동작은 이 마당에 사용할 수 없습니다.</translation>
+    </message>
+    <message>
+        <source>Ask</source>
+        <translation>묻기</translation>
+    </message>
+    <message>
+        <source>Into which language?</source>
+        <translation>어느 언어로?</translation>
+    </message>
+    <message>
+        <source>What should be written?</source>
+        <translation>무엇을 써야 합니까?</translation>
+    </message>
+    <message>
+        <source>What should change? (optional)</source>
+        <translation>무엇을 바꿔야 합니까? (선택)</translation>
+    </message>
+    <message>
+        <source>Say what should be written.</source>
+        <translation>무엇을 써야 하는지 말하십시오.</translation>
+    </message>
+    <message>
+        <source>Asking ...</source>
+        <translation>묻는 중 ...</translation>
+    </message>
+    <message>
+        <source>Suggestion</source>
+        <translation>제안</translation>
+    </message>
+    <message>
+        <source>Use it</source>
+        <translation>사용</translation>
+    </message>
+    <message>
+        <source>A suggestion: the field keeps its value until you use it.</source>
+        <translation>제안입니다. 사용할 때까지 마당의 값은 그대로입니다.</translation>
+    </message>
+    <message>
+        <source>It is in the field: Save draft keeps it, or autosave does.</source>
+        <translation>마당에 있습니다. 초안 저장이나 자동 저장으로 보존됩니다.</translation>
+    </message>
+    <message>
+        <source>It is in the draft.</source>
+        <translation>초안에 있습니다.</translation>
+    </message>
+    <message>
+        <source>Exponential Intelligence</source>
+        <translation>Exponential Intelligence</translation>
+    </message>
+    <message>
+        <source>AI</source>
+        <translation>AI</translation>
+    </message>
+    <message>
+        <source>Summarize</source>
+        <translation>요약</translation>
+    </message>
+    <message>
+        <source>Alt text</source>
+        <translation>대체 본문</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>받은편지함</translation>
     </message>

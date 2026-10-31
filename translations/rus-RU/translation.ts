@@ -932,6 +932,74 @@
         <translation>Откройте панель «Страница», чтобы сохранить её черновик.</translation>
     </message>
     <message>
+        <source>Exponential Intelligence is not available here.</source>
+        <translation>Exponential Intelligence здесь недоступен.</translation>
+    </message>
+    <message>
+        <source>This action is not available for this field.</source>
+        <translation>Это действие недоступно для этого поля.</translation>
+    </message>
+    <message>
+        <source>Ask</source>
+        <translation>Спросить</translation>
+    </message>
+    <message>
+        <source>Into which language?</source>
+        <translation>На какой язык?</translation>
+    </message>
+    <message>
+        <source>What should be written?</source>
+        <translation>Что нужно написать?</translation>
+    </message>
+    <message>
+        <source>What should change? (optional)</source>
+        <translation>Что нужно изменить? (необязательно)</translation>
+    </message>
+    <message>
+        <source>Say what should be written.</source>
+        <translation>Скажите, что нужно написать.</translation>
+    </message>
+    <message>
+        <source>Asking ...</source>
+        <translation>Запрос ...</translation>
+    </message>
+    <message>
+        <source>Suggestion</source>
+        <translation>Предложение</translation>
+    </message>
+    <message>
+        <source>Use it</source>
+        <translation>Использовать</translation>
+    </message>
+    <message>
+        <source>A suggestion: the field keeps its value until you use it.</source>
+        <translation>Предложение: поле сохраняет своё значение, пока вы его не используете.</translation>
+    </message>
+    <message>
+        <source>It is in the field: Save draft keeps it, or autosave does.</source>
+        <translation>Это в поле: Сохранить черновик сохранит это, или автосохранение.</translation>
+    </message>
+    <message>
+        <source>It is in the draft.</source>
+        <translation>Это в черновике.</translation>
+    </message>
+    <message>
+        <source>Exponential Intelligence</source>
+        <translation>Exponential Intelligence</translation>
+    </message>
+    <message>
+        <source>AI</source>
+        <translation>ИИ</translation>
+    </message>
+    <message>
+        <source>Summarize</source>
+        <translation>Кратко изложить</translation>
+    </message>
+    <message>
+        <source>Alt text</source>
+        <translation>Альтернативный текст</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Входящие</translation>
     </message>

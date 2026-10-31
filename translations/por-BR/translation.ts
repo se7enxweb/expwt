@@ -932,6 +932,74 @@
         <translation>Abra o painel «Página» para salvar o rascunho dela.</translation>
     </message>
     <message>
+        <source>Exponential Intelligence is not available here.</source>
+        <translation>O Exponential Intelligence não está disponível aqui.</translation>
+    </message>
+    <message>
+        <source>This action is not available for this field.</source>
+        <translation>Esta ação não está disponível para este campo.</translation>
+    </message>
+    <message>
+        <source>Ask</source>
+        <translation>Perguntar</translation>
+    </message>
+    <message>
+        <source>Into which language?</source>
+        <translation>Para qual idioma?</translation>
+    </message>
+    <message>
+        <source>What should be written?</source>
+        <translation>O que deve ser escrito?</translation>
+    </message>
+    <message>
+        <source>What should change? (optional)</source>
+        <translation>O que deve mudar? (opcional)</translation>
+    </message>
+    <message>
+        <source>Say what should be written.</source>
+        <translation>Diga o que deve ser escrito.</translation>
+    </message>
+    <message>
+        <source>Asking ...</source>
+        <translation>Perguntando ...</translation>
+    </message>
+    <message>
+        <source>Suggestion</source>
+        <translation>Sugestão</translation>
+    </message>
+    <message>
+        <source>Use it</source>
+        <translation>Usar</translation>
+    </message>
+    <message>
+        <source>A suggestion: the field keeps its value until you use it.</source>
+        <translation>Uma sugestão: o campo mantém seu valor até você usá-la.</translation>
+    </message>
+    <message>
+        <source>It is in the field: Save draft keeps it, or autosave does.</source>
+        <translation>Está no campo: Salvar rascunho o mantém, ou o salvamento automático.</translation>
+    </message>
+    <message>
+        <source>It is in the draft.</source>
+        <translation>Está no rascunho.</translation>
+    </message>
+    <message>
+        <source>Exponential Intelligence</source>
+        <translation>Exponential Intelligence</translation>
+    </message>
+    <message>
+        <source>AI</source>
+        <translation>IA</translation>
+    </message>
+    <message>
+        <source>Summarize</source>
+        <translation>Resumir</translation>
+    </message>
+    <message>
+        <source>Alt text</source>
+        <translation>Texto alternativo</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Caixa de entrada</translation>
     </message>
