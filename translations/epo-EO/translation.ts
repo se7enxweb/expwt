@@ -760,6 +760,30 @@
         <translation>Ĉi tiu paĝo</translation>
     </message>
     <message>
+        <source>Saved automatically at %time</source>
+        <translation>Aŭtomate konservita je %time</translation>
+    </message>
+    <message>
+        <source>Changes made on this device at %time were not saved: %fields</source>
+        <translation>Ŝanĝoj faritaj en ĉi tiu aparato je %time ne estis konservitaj: %fields</translation>
+    </message>
+    <message>
+        <source>Restore</source>
+        <translation>Restarigi</translation>
+    </message>
+    <message>
+        <source>Restored. It is saved to the draft.</source>
+        <translation>Restarigita. Ĝi estas konservita en la malneto.</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Forĵeti</translation>
+    </message>
+    <message>
+        <source>Unsaved changes on this page</source>
+        <translation>Nekonservitaj ŝanĝoj en ĉi tiu paĝo</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Enirkesto</translation>
     </message>

@@ -760,6 +760,30 @@
         <translation>ໜ້ານີ້</translation>
     </message>
     <message>
+        <source>Saved automatically at %time</source>
+        <translation>ບັນທຶກອັດຕະໂນມັດເວລາ %time</translation>
+    </message>
+    <message>
+        <source>Changes made on this device at %time were not saved: %fields</source>
+        <translation>ການປ່ຽນແປງທີ່ເຮັດໃນອຸປະກອນນີ້ເວລາ %time ບໍ່ໄດ້ບັນທຶກ: %fields</translation>
+    </message>
+    <message>
+        <source>Restore</source>
+        <translation>ກູ້ຄືນ</translation>
+    </message>
+    <message>
+        <source>Restored. It is saved to the draft.</source>
+        <translation>ກູ້ຄືນແລ້ວ. ບັນທຶກໄວ້ໃນສະບັບຮ່າງແລ້ວ.</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>ຍົກເລີກ</translation>
+    </message>
+    <message>
+        <source>Unsaved changes on this page</source>
+        <translation>ການປ່ຽນແປງທີ່ບໍ່ໄດ້ບັນທຶກໃນໜ້ານີ້</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>ກ່ອງຂາເຂົ້າ</translation>
     </message>

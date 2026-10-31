@@ -760,6 +760,30 @@
         <translation>Orri hau</translation>
     </message>
     <message>
+        <source>Saved automatically at %time</source>
+        <translation>Automatikoki gordeta %time(e)an</translation>
+    </message>
+    <message>
+        <source>Changes made on this device at %time were not saved: %fields</source>
+        <translation>Gailu honetan %time(e)an egindako aldaketak ez dira gorde: %fields</translation>
+    </message>
+    <message>
+        <source>Restore</source>
+        <translation>Berrezarri</translation>
+    </message>
+    <message>
+        <source>Restored. It is saved to the draft.</source>
+        <translation>Berrezarrita. Zirriborroan gordeta dago.</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Baztertu</translation>
+    </message>
+    <message>
+        <source>Unsaved changes on this page</source>
+        <translation>Gorde gabeko aldaketak orri honetan</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Sarrera-ontzia</translation>
     </message>

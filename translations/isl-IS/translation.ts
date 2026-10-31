@@ -760,6 +760,30 @@
         <translation>Þessi síða</translation>
     </message>
     <message>
+        <source>Saved automatically at %time</source>
+        <translation>Vistað sjálfkrafa kl. %time</translation>
+    </message>
+    <message>
+        <source>Changes made on this device at %time were not saved: %fields</source>
+        <translation>Breytingar sem gerðar voru í þessu tæki %time voru ekki vistaðar: %fields</translation>
+    </message>
+    <message>
+        <source>Restore</source>
+        <translation>Endurheimta</translation>
+    </message>
+    <message>
+        <source>Restored. It is saved to the draft.</source>
+        <translation>Endurheimt. Það er vistað í drögunum.</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Henda</translation>
+    </message>
+    <message>
+        <source>Unsaved changes on this page</source>
+        <translation>Óvistaðar breytingar á þessari síðu</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Innhólf</translation>
     </message>

@@ -760,6 +760,30 @@
         <translation>ಈ ಪುಟ</translation>
     </message>
     <message>
+        <source>Saved automatically at %time</source>
+        <translation>%time ಕ್ಕೆ ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಉಳಿಸಲಾಗಿದೆ</translation>
+    </message>
+    <message>
+        <source>Changes made on this device at %time were not saved: %fields</source>
+        <translation>ಈ ಸಾಧನದಲ್ಲಿ %time ಕ್ಕೆ ಮಾಡಿದ ಬದಲಾವಣೆಗಳನ್ನು ಉಳಿಸಲಾಗಿಲ್ಲ: %fields</translation>
+    </message>
+    <message>
+        <source>Restore</source>
+        <translation>ಮರುಸ್ಥಾಪಿಸು</translation>
+    </message>
+    <message>
+        <source>Restored. It is saved to the draft.</source>
+        <translation>ಮರುಸ್ಥಾಪಿಸಲಾಗಿದೆ. ಇದನ್ನು ಕರಡಿನಲ್ಲಿ ಉಳಿಸಲಾಗಿದೆ.</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>ತ್ಯಜಿಸು</translation>
+    </message>
+    <message>
+        <source>Unsaved changes on this page</source>
+        <translation>ಈ ಪುಟದಲ್ಲಿ ಉಳಿಸದ ಬದಲಾವಣೆಗಳು</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>ಇನ್‌ಬಾಕ್ಸ್</translation>
     </message>

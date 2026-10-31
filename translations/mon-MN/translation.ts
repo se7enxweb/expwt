@@ -760,6 +760,30 @@
         <translation>Энэ хуудас</translation>
     </message>
     <message>
+        <source>Saved automatically at %time</source>
+        <translation>%time-д автоматаар хадгалагдсан</translation>
+    </message>
+    <message>
+        <source>Changes made on this device at %time were not saved: %fields</source>
+        <translation>Энэ төхөөрөмж дээр %time-д хийсэн өөрчлөлт хадгалагдаагүй: %fields</translation>
+    </message>
+    <message>
+        <source>Restore</source>
+        <translation>Сэргээх</translation>
+    </message>
+    <message>
+        <source>Restored. It is saved to the draft.</source>
+        <translation>Сэргээгдлээ. Ноорогт хадгалагдсан.</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Устгах</translation>
+    </message>
+    <message>
+        <source>Unsaved changes on this page</source>
+        <translation>Энэ хуудсан дээрх хадгалагдаагүй өөрчлөлт</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Ирсэн</translation>
     </message>

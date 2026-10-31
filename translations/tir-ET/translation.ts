@@ -760,6 +760,30 @@
         <translation>እዚ ገጽ</translation>
     </message>
     <message>
+        <source>Saved automatically at %time</source>
+        <translation>ብ%time ብኣውቶማቲክ ተቐሚጡ</translation>
+    </message>
+    <message>
+        <source>Changes made on this device at %time were not saved: %fields</source>
+        <translation>ኣብዚ መሳርሒ ብ%time ዝተገብሩ ለውጥታት ኣይተቐመጡን፦ %fields</translation>
+    </message>
+    <message>
+        <source>Restore</source>
+        <translation>ምለስ</translation>
+    </message>
+    <message>
+        <source>Restored. It is saved to the draft.</source>
+        <translation>ተመሊሱ። ኣብቲ ንድፊ ተቐሚጡ ኣሎ።</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>ደርብ</translation>
+    </message>
+    <message>
+        <source>Unsaved changes on this page</source>
+        <translation>ኣብዚ ገጽ ዘይተቐመጡ ለውጥታት</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>ዝኣተዉ</translation>
     </message>

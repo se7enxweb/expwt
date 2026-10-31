@@ -760,6 +760,30 @@
         <translation>ཤོག་ངོས་འདི།</translation>
     </message>
     <message>
+        <source>Saved automatically at %time</source>
+        <translation>%time ལ་རང་འགུལ་གྱིས་ཉར་ཟིན།</translation>
+    </message>
+    <message>
+        <source>Changes made on this device at %time were not saved: %fields</source>
+        <translation>སྒྲིག་ཆས་འདིའི་ཐོག་ %time ལ་བཟོས་པའི་བཟོ་བཅོས་ཉར་མེད། %fields</translation>
+    </message>
+    <message>
+        <source>Restore</source>
+        <translation>སླར་གསོ།</translation>
+    </message>
+    <message>
+        <source>Restored. It is saved to the draft.</source>
+        <translation>སླར་གསོ་བྱས་ཟིན། ཟིན་བྲིས་ནང་ཉར་ཟིན།</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>དོར།</translation>
+    </message>
+    <message>
+        <source>Unsaved changes on this page</source>
+        <translation>ཤོག་ངོས་འདིའི་ཐོག་ཉར་མེད་པའི་བཟོ་བཅོས།</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>ནང་འབྱོར།</translation>
     </message>

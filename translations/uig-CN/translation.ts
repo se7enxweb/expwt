@@ -760,6 +760,30 @@
         <translation>بۇ بەت</translation>
     </message>
     <message>
+        <source>Saved automatically at %time</source>
+        <translation>%time دە ئاپتوماتىك ساقلاندى</translation>
+    </message>
+    <message>
+        <source>Changes made on this device at %time were not saved: %fields</source>
+        <translation>بۇ ئۈسكۈنىدە %time دە قىلىنغان ئۆزگەرتىشلەر ساقلانمىدى: %fields</translation>
+    </message>
+    <message>
+        <source>Restore</source>
+        <translation>ئەسلىگە كەلتۈرۈش</translation>
+    </message>
+    <message>
+        <source>Restored. It is saved to the draft.</source>
+        <translation>ئەسلىگە كەلتۈرۈلدى. ئارگىنالدا ساقلاندى.</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>تاشلا</translation>
+    </message>
+    <message>
+        <source>Unsaved changes on this page</source>
+        <translation>بۇ بەتتە ساقلانمىغان ئۆزگەرتىشلەر</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>كىرگەنلەر</translation>
     </message>

@@ -760,6 +760,30 @@
         <translation>Kjo faqe</translation>
     </message>
     <message>
+        <source>Saved automatically at %time</source>
+        <translation>U ruajt automatikisht në %time</translation>
+    </message>
+    <message>
+        <source>Changes made on this device at %time were not saved: %fields</source>
+        <translation>Ndryshimet e bëra në këtë pajisje më %time nuk u ruajtën: %fields</translation>
+    </message>
+    <message>
+        <source>Restore</source>
+        <translation>Rikthe</translation>
+    </message>
+    <message>
+        <source>Restored. It is saved to the draft.</source>
+        <translation>U rikthye. Është ruajtur në skicë.</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Hidh</translation>
+    </message>
+    <message>
+        <source>Unsaved changes on this page</source>
+        <translation>Ndryshime të paruajtura në këtë faqe</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Të ardhurat</translation>
     </message>

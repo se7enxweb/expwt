@@ -760,6 +760,30 @@
         <translation>Halaman ini</translation>
     </message>
     <message>
+        <source>Saved automatically at %time</source>
+        <translation>Disimpan secara automatik pada %time</translation>
+    </message>
+    <message>
+        <source>Changes made on this device at %time were not saved: %fields</source>
+        <translation>Perubahan yang dibuat pada peranti ini pada %time tidak disimpan: %fields</translation>
+    </message>
+    <message>
+        <source>Restore</source>
+        <translation>Pulihkan</translation>
+    </message>
+    <message>
+        <source>Restored. It is saved to the draft.</source>
+        <translation>Dipulihkan. Ia disimpan ke draf.</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Buang</translation>
+    </message>
+    <message>
+        <source>Unsaved changes on this page</source>
+        <translation>Perubahan yang belum disimpan pada halaman ini</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Peti masuk</translation>
     </message>

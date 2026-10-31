@@ -760,6 +760,30 @@
         <translation>Quppernera una</translation>
     </message>
     <message>
+        <source>Saved automatically at %time</source>
+        <translation>Nammineerluni toqqorneqarpoq %time</translation>
+    </message>
+    <message>
+        <source>Changes made on this device at %time were not saved: %fields</source>
+        <translation>Allanngortitat atortumi uani %time pisut toqqorneqanngillat: %fields</translation>
+    </message>
+    <message>
+        <source>Restore</source>
+        <translation>Uterteruk</translation>
+    </message>
+    <message>
+        <source>Restored. It is saved to the draft.</source>
+        <translation>Uterteqqinneqarpoq. Missingiummi toqqorneqarpoq.</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Igiguk</translation>
+    </message>
+    <message>
+        <source>Unsaved changes on this page</source>
+        <translation>Allanngortitat toqqorneqanngitsut qupperneq manna</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Tiguniakkat</translation>
     </message>

@@ -760,6 +760,30 @@
         <translation>මෙම පිටුව</translation>
     </message>
     <message>
+        <source>Saved automatically at %time</source>
+        <translation>%time ට ස්වයංක්‍රීයව සුරැකිණි</translation>
+    </message>
+    <message>
+        <source>Changes made on this device at %time were not saved: %fields</source>
+        <translation>මෙම උපාංගයේ %time ට කළ වෙනස්කම් සුරැකුණේ නැත: %fields</translation>
+    </message>
+    <message>
+        <source>Restore</source>
+        <translation>ප්‍රතිසාධනය කරන්න</translation>
+    </message>
+    <message>
+        <source>Restored. It is saved to the draft.</source>
+        <translation>ප්‍රතිසාධනය විය. එය කෙටුම්පතේ සුරැකී ඇත.</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>ඉවත දමන්න</translation>
+    </message>
+    <message>
+        <source>Unsaved changes on this page</source>
+        <translation>මෙම පිටුවේ නොසුරැකූ වෙනස්කම්</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>එන ලිපි</translation>
     </message>

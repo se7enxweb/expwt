@@ -760,6 +760,30 @@
         <translation>Eli phepha</translation>
     </message>
     <message>
+        <source>Saved automatically at %time</source>
+        <translation>Igcinwe ngokuzenzekelayo ngo-%time</translation>
+    </message>
+    <message>
+        <source>Changes made on this device at %time were not saved: %fields</source>
+        <translation>Iinguqu ezenziwe kwesi sixhobo ngo-%time azigcinwanga: %fields</translation>
+    </message>
+    <message>
+        <source>Restore</source>
+        <translation>Buyisela</translation>
+    </message>
+    <message>
+        <source>Restored. It is saved to the draft.</source>
+        <translation>Ibuyiselwe. Igcinwe kuyilo.</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Lahla</translation>
+    </message>
+    <message>
+        <source>Unsaved changes on this page</source>
+        <translation>Iinguqu ezingagcinwanga kweli phepha</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Ibhokisi engenayo</translation>
     </message>

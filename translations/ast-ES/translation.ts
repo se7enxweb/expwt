@@ -760,6 +760,30 @@
         <translation>Esta páxina</translation>
     </message>
     <message>
+        <source>Saved automatically at %time</source>
+        <translation>Guardóse automáticamente a les %time</translation>
+    </message>
+    <message>
+        <source>Changes made on this device at %time were not saved: %fields</source>
+        <translation>Los cambeos fechos nesti preséu a les %time nun se guardaron: %fields</translation>
+    </message>
+    <message>
+        <source>Restore</source>
+        <translation>Restaurar</translation>
+    </message>
+    <message>
+        <source>Restored. It is saved to the draft.</source>
+        <translation>Restauróse. Ta guardao nel borrador.</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Descartar</translation>
+    </message>
+    <message>
+        <source>Unsaved changes on this page</source>
+        <translation>Cambeos ensin guardar nesta páxina</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Bandexa d'entrada</translation>
     </message>

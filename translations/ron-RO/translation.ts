@@ -760,6 +760,30 @@
         <translation>Această pagină</translation>
     </message>
     <message>
+        <source>Saved automatically at %time</source>
+        <translation>Salvat automat la %time</translation>
+    </message>
+    <message>
+        <source>Changes made on this device at %time were not saved: %fields</source>
+        <translation>Modificările făcute pe acest dispozitiv la %time nu au fost salvate: %fields</translation>
+    </message>
+    <message>
+        <source>Restore</source>
+        <translation>Restaurați</translation>
+    </message>
+    <message>
+        <source>Restored. It is saved to the draft.</source>
+        <translation>Restaurat. Este salvat în ciornă.</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Renunțați</translation>
+    </message>
+    <message>
+        <source>Unsaved changes on this page</source>
+        <translation>Modificări nesalvate pe această pagină</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Mesaje primite</translation>
     </message>

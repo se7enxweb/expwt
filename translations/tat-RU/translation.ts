@@ -760,6 +760,30 @@
         <translation>Бу бит</translation>
     </message>
     <message>
+        <source>Saved automatically at %time</source>
+        <translation>%time автомат рәвештә сакланды</translation>
+    </message>
+    <message>
+        <source>Changes made on this device at %time were not saved: %fields</source>
+        <translation>Бу җайланмада %time ясалган үзгәрешләр сакланмады: %fields</translation>
+    </message>
+    <message>
+        <source>Restore</source>
+        <translation>Кайтару</translation>
+    </message>
+    <message>
+        <source>Restored. It is saved to the draft.</source>
+        <translation>Кайтарылды. Караламада сакланган.</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Баш тарту</translation>
+    </message>
+    <message>
+        <source>Unsaved changes on this page</source>
+        <translation>Бу биттә сакланмаган үзгәрешләр</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Керүчеләр</translation>
     </message>

@@ -760,6 +760,30 @@
         <translation>See leht</translation>
     </message>
     <message>
+        <source>Saved automatically at %time</source>
+        <translation>Automaatselt salvestatud kell %time</translation>
+    </message>
+    <message>
+        <source>Changes made on this device at %time were not saved: %fields</source>
+        <translation>Selles seadmes kell %time tehtud muudatusi ei salvestatud: %fields</translation>
+    </message>
+    <message>
+        <source>Restore</source>
+        <translation>Taasta</translation>
+    </message>
+    <message>
+        <source>Restored. It is saved to the draft.</source>
+        <translation>Taastatud. See on mustandisse salvestatud.</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Loobu</translation>
+    </message>
+    <message>
+        <source>Unsaved changes on this page</source>
+        <translation>Salvestamata muudatused sellel lehel</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Postkast</translation>
     </message>

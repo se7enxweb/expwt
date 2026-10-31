@@ -760,6 +760,30 @@
         <translation>Hello ngoo</translation>
     </message>
     <message>
+        <source>Saved automatically at %time</source>
+        <translation>Mooftaama e hoore mum e %time</translation>
+    </message>
+    <message>
+        <source>Changes made on this device at %time were not saved: %fields</source>
+        <translation>Waylitaaɗe gaɗaaɗe e kaɓirgol ngol e %time mooftaaka: %fields</translation>
+    </message>
+    <message>
+        <source>Restore</source>
+        <translation>Artir</translation>
+    </message>
+    <message>
+        <source>Restored. It is saved to the draft.</source>
+        <translation>Artiraama. Ɗum mooftaama e daartol ngol.</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Accu</translation>
+    </message>
+    <message>
+        <source>Unsaved changes on this page</source>
+        <translation>Waylitaaɗe ɗe mooftaaka e hello ngo</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Naatirde</translation>
     </message>

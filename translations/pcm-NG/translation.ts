@@ -760,6 +760,30 @@
         <translation>Dis page</translation>
     </message>
     <message>
+        <source>Saved automatically at %time</source>
+        <translation>E save by itself for %time</translation>
+    </message>
+    <message>
+        <source>Changes made on this device at %time were not saved: %fields</source>
+        <translation>Di changes wey dem make for dis device for %time no save: %fields</translation>
+    </message>
+    <message>
+        <source>Restore</source>
+        <translation>Bring am back</translation>
+    </message>
+    <message>
+        <source>Restored. It is saved to the draft.</source>
+        <translation>E don come back. E don save for di draft.</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Throw am away</translation>
+    </message>
+    <message>
+        <source>Unsaved changes on this page</source>
+        <translation>Changes wey no save for dis page</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Inbox</translation>
     </message>

@@ -760,6 +760,30 @@
         <translation>ဤစာမျက်နှာ</translation>
     </message>
     <message>
+        <source>Saved automatically at %time</source>
+        <translation>%time တွင် အလိုအလျောက် သိမ်းပြီး</translation>
+    </message>
+    <message>
+        <source>Changes made on this device at %time were not saved: %fields</source>
+        <translation>ဤစက်ပေါ်တွင် %time က ပြုလုပ်ခဲ့သော ပြောင်းလဲမှုများကို မသိမ်းရသေးပါ- %fields</translation>
+    </message>
+    <message>
+        <source>Restore</source>
+        <translation>ပြန်ယူရန်</translation>
+    </message>
+    <message>
+        <source>Restored. It is saved to the draft.</source>
+        <translation>ပြန်ယူပြီးပါပြီ။ မူကြမ်းတွင် သိမ်းထားပါသည်။</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>ပယ်ရန်</translation>
+    </message>
+    <message>
+        <source>Unsaved changes on this page</source>
+        <translation>ဤစာမျက်နှာတွင် မသိမ်းရသေးသော ပြောင်းလဲမှုများ</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>ဝင်စာ</translation>
     </message>

@@ -760,6 +760,30 @@
         <translation>דער בלאַט</translation>
     </message>
     <message>
+        <source>Saved automatically at %time</source>
+        <translation>אויטאָמאַטיש אָפּגעהיט אום %time</translation>
+    </message>
+    <message>
+        <source>Changes made on this device at %time were not saved: %fields</source>
+        <translation>ענדערונגען אויף דעם מכשיר אום %time זענען ניט אָפּגעהיט געוואָרן: %fields</translation>
+    </message>
+    <message>
+        <source>Restore</source>
+        <translation>צוריקשטעלן</translation>
+    </message>
+    <message>
+        <source>Restored. It is saved to the draft.</source>
+        <translation>צוריקגעשטעלט. עס איז אָפּגעהיט אינעם שׂרטוט.</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>אַוועקוואַרפֿן</translation>
+    </message>
+    <message>
+        <source>Unsaved changes on this page</source>
+        <translation>ניט אָפּגעהיטע ענדערונגען אויף דער זײַט</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>אַרײַנגעקומענע</translation>
     </message>

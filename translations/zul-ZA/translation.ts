@@ -760,6 +760,30 @@
         <translation>Leli khasi</translation>
     </message>
     <message>
+        <source>Saved automatically at %time</source>
+        <translation>Kulondolozwe ngokuzenzakalelayo ngo-%time</translation>
+    </message>
+    <message>
+        <source>Changes made on this device at %time were not saved: %fields</source>
+        <translation>Izinguquko ezenziwe kule divayisi ngo-%time azilondolozwanga: %fields</translation>
+    </message>
+    <message>
+        <source>Restore</source>
+        <translation>Buyisela</translation>
+    </message>
+    <message>
+        <source>Restored. It is saved to the draft.</source>
+        <translation>Kubuyisiwe. Kulondoloziwe esiqeshaneni.</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Lahla</translation>
+    </message>
+    <message>
+        <source>Unsaved changes on this page</source>
+        <translation>Izinguquko ezingalondolozwanga kuleli khasi</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Ibhokisi lokungenayo</translation>
     </message>

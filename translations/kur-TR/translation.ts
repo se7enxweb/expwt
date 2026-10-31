@@ -760,6 +760,30 @@
         <translation>Ev rûpel</translation>
     </message>
     <message>
+        <source>Saved automatically at %time</source>
+        <translation>Bixweber hat tomarkirin di %time de</translation>
+    </message>
+    <message>
+        <source>Changes made on this device at %time were not saved: %fields</source>
+        <translation>Guhertinên ku di vê amûrê de di %time de hatin kirin nehatin tomarkirin: %fields</translation>
+    </message>
+    <message>
+        <source>Restore</source>
+        <translation>Vegerîne</translation>
+    </message>
+    <message>
+        <source>Restored. It is saved to the draft.</source>
+        <translation>Hat vegerandin. Di reşnivîsê de hatiye tomarkirin.</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Bavêje</translation>
+    </message>
+    <message>
+        <source>Unsaved changes on this page</source>
+        <translation>Guhertinên netomarkirî li ser vê rûpelê</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Qutiya hatî</translation>
     </message>

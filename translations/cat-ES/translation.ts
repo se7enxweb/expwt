@@ -760,6 +760,30 @@
         <translation>Aquesta pàgina</translation>
     </message>
     <message>
+        <source>Saved automatically at %time</source>
+        <translation>Desat automàticament a les %time</translation>
+    </message>
+    <message>
+        <source>Changes made on this device at %time were not saved: %fields</source>
+        <translation>Els canvis fets en aquest dispositiu a les %time no s'han desat: %fields</translation>
+    </message>
+    <message>
+        <source>Restore</source>
+        <translation>Restaura</translation>
+    </message>
+    <message>
+        <source>Restored. It is saved to the draft.</source>
+        <translation>Restaurat. Està desat a l'esborrany.</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Descarta</translation>
+    </message>
+    <message>
+        <source>Unsaved changes on this page</source>
+        <translation>Canvis sense desar en aquesta pàgina</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Safata d'entrada</translation>
     </message>

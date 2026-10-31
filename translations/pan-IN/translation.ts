@@ -760,6 +760,30 @@
         <translation>ਇਹ ਸਫ਼ਾ</translation>
     </message>
     <message>
+        <source>Saved automatically at %time</source>
+        <translation>%time ਵਜੇ ਆਪਣੇ ਆਪ ਸੰਭਾਲਿਆ ਗਿਆ</translation>
+    </message>
+    <message>
+        <source>Changes made on this device at %time were not saved: %fields</source>
+        <translation>ਇਸ ਡਿਵਾਈਸ ਉੱਤੇ %time ਵਜੇ ਕੀਤੀਆਂ ਤਬਦੀਲੀਆਂ ਸੰਭਾਲੀਆਂ ਨਹੀਂ ਗਈਆਂ: %fields</translation>
+    </message>
+    <message>
+        <source>Restore</source>
+        <translation>ਮੁੜ ਬਹਾਲ ਕਰੋ</translation>
+    </message>
+    <message>
+        <source>Restored. It is saved to the draft.</source>
+        <translation>ਮੁੜ ਬਹਾਲ ਹੋ ਗਿਆ। ਇਹ ਖਰੜੇ ਵਿੱਚ ਸੰਭਾਲਿਆ ਗਿਆ ਹੈ।</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>ਰੱਦ ਕਰੋ</translation>
+    </message>
+    <message>
+        <source>Unsaved changes on this page</source>
+        <translation>ਇਸ ਪੰਨੇ ਉੱਤੇ ਨਾ ਸੰਭਾਲੀਆਂ ਤਬਦੀਲੀਆਂ</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>ਇਨਬਾਕਸ</translation>
     </message>

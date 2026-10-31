@@ -760,6 +760,30 @@
         <translation>ХӀара агӀо</translation>
     </message>
     <message>
+        <source>Saved automatically at %time</source>
+        <translation>%time ша-шех дӀаӀалашйина</translation>
+    </message>
+    <message>
+        <source>Changes made on this device at %time were not saved: %fields</source>
+        <translation>ХӀокху гӀирсан тӀехь %time хийцамаш дӀа ца Ӏалашбина: %fields</translation>
+    </message>
+    <message>
+        <source>Restore</source>
+        <translation>МеттахӀотта</translation>
+    </message>
+    <message>
+        <source>Restored. It is saved to the draft.</source>
+        <translation>МеттахӀоттийна. Черновикехь дӀаӀалашйина.</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>ДӀататта</translation>
+    </message>
+    <message>
+        <source>Unsaved changes on this page</source>
+        <translation>ХӀокху агӀонан тӀехь дӀа ца Ӏалашбина хийцамаш</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Чуйогӏу</translation>
     </message>

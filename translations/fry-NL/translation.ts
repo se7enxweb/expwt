@@ -760,6 +760,30 @@
         <translation>Dizze side</translation>
     </message>
     <message>
+        <source>Saved automatically at %time</source>
+        <translation>Automatysk bewarre om %time</translation>
+    </message>
+    <message>
+        <source>Changes made on this device at %time were not saved: %fields</source>
+        <translation>Wizigingen op dit apparaat fan %time binne net bewarre: %fields</translation>
+    </message>
+    <message>
+        <source>Restore</source>
+        <translation>Weromsette</translation>
+    </message>
+    <message>
+        <source>Restored. It is saved to the draft.</source>
+        <translation>Weromset. It is bewarre yn it konsept.</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Fuortsmite</translation>
+    </message>
+    <message>
+        <source>Unsaved changes on this page</source>
+        <translation>Net-bewarre wizigingen op dizze side</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Postfak</translation>
     </message>

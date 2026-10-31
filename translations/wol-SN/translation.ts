@@ -760,6 +760,30 @@
         <translation>Xët wii</translation>
     </message>
     <message>
+        <source>Saved automatically at %time</source>
+        <translation>Denc na ko boppam ci %time</translation>
+    </message>
+    <message>
+        <source>Changes made on this device at %time were not saved: %fields</source>
+        <translation>Coppite yi ñu def ci jumtukaay bii ci %time denciwuñu leen: %fields</translation>
+    </message>
+    <message>
+        <source>Restore</source>
+        <translation>Delloo ko</translation>
+    </message>
+    <message>
+        <source>Restored. It is saved to the draft.</source>
+        <translation>Delloo nañu ko. Denc nañu ko ci brouyoŋ bi.</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Bàyyi</translation>
+    </message>
+    <message>
+        <source>Unsaved changes on this page</source>
+        <translation>Coppite yu ñu dencul ci xët wii</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Bataaxal yu dikk</translation>
     </message>

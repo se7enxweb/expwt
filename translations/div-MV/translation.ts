@@ -760,6 +760,30 @@
         <translation>މި ޞަފްޙާ</translation>
     </message>
     <message>
+        <source>Saved automatically at %time</source>
+        <translation>%time ގައި އޮޓޮމެޓިކުން ސޭވްކުރެވިއްޖެ</translation>
+    </message>
+    <message>
+        <source>Changes made on this device at %time were not saved: %fields</source>
+        <translation>މި ޑިވައިސްގައި %time ގައި ގެނެވުނު ބަދަލުތައް ސޭވް ނުކުރެވުނު: %fields</translation>
+    </message>
+    <message>
+        <source>Restore</source>
+        <translation>އަނބުރާ ގެންނަ</translation>
+    </message>
+    <message>
+        <source>Restored. It is saved to the draft.</source>
+        <translation>އަނބުރާ ގެނެވިއްޖެ. ޑްރާފްޓްގައި ސޭވްކުރެވިފައި.</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>ދޫކޮށްލާ</translation>
+    </message>
+    <message>
+        <source>Unsaved changes on this page</source>
+        <translation>މި ޞަފްޙާގައި ސޭވް ނުކުރެވޭ ބަދަލުތައް</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>އިންބޮކްސް</translation>
     </message>

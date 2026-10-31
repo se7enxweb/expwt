@@ -760,6 +760,30 @@
         <translation>Bu səhifə</translation>
     </message>
     <message>
+        <source>Saved automatically at %time</source>
+        <translation>%time avtomatik saxlanıldı</translation>
+    </message>
+    <message>
+        <source>Changes made on this device at %time were not saved: %fields</source>
+        <translation>Bu cihazda %time edilən dəyişikliklər saxlanılmadı: %fields</translation>
+    </message>
+    <message>
+        <source>Restore</source>
+        <translation>Bərpa et</translation>
+    </message>
+    <message>
+        <source>Restored. It is saved to the draft.</source>
+        <translation>Bərpa olundu. Qaralamada saxlanıldı.</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>İmtina et</translation>
+    </message>
+    <message>
+        <source>Unsaved changes on this page</source>
+        <translation>Bu səhifədə saxlanılmamış dəyişikliklər</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Gələnlər</translation>
     </message>

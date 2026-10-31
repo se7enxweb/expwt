@@ -760,6 +760,30 @@
         <translation>هي صفحو</translation>
     </message>
     <message>
+        <source>Saved automatically at %time</source>
+        <translation>%time تي پاڻمرادو محفوظ ٿيو</translation>
+    </message>
+    <message>
+        <source>Changes made on this device at %time were not saved: %fields</source>
+        <translation>هن ڊوائيس تي %time تي ڪيل تبديليون محفوظ نه ٿيون: %fields</translation>
+    </message>
+    <message>
+        <source>Restore</source>
+        <translation>واپس آڻيو</translation>
+    </message>
+    <message>
+        <source>Restored. It is saved to the draft.</source>
+        <translation>واپس آيو. اهو مسودي ۾ محفوظ آهي.</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>رد ڪريو</translation>
+    </message>
+    <message>
+        <source>Unsaved changes on this page</source>
+        <translation>هن صفحي تي غير محفوظ تبديليون</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>آيل خط</translation>
     </message>

@@ -84,7 +84,68 @@
   var initial = null;
   /* typed into (an editor that writes its form field only when the form is sent, such as Tiptap): changed */
   var touched = false;
-  document.addEventListener("input", function () { touched = true; }, true);
+  document.addEventListener('input', function () { touched = true; changedSoon(); }, true);
+  document.addEventListener('change', function () { changedSoon(); }, true);
+
+  /* Lost work (F28): what was typed here is kept on this device until the server has it (localStorage, the key the
+     sidebar's Page panel looks for: expwt.copyf.<object>.<language>.<field>), and the sidebar hears that this editor
+     has changes (its autosave saves it once the focus has left the frame). A save removes the copy. */
+  function copyKey() {
+    return message ? 'expwt.copyf.' + message.objectId + '.' + message.language + '.' + message.identifier : null;
+  }
+  function keep(value) {
+    var key = copyKey();
+    if (!key) { return; }
+    try {
+      if (value === null) { window.localStorage.removeItem(key); } else { window.localStorage.setItem(key, JSON.stringify(value)); }
+    } catch (e) { /* no storage on this device (private mode, full): the server's draft only */ }
+  }
+  /* the form's values as they would be sent, without the token and files */
+  function entries() {
+    if (!form || !window.FormData) { return []; }
+    if (window.tinymce && window.tinymce.triggerSave) { window.tinymce.triggerSave(); }
+    var out = [];
+    new FormData(form).forEach(function (v, k) {
+      if (k !== 'ezxform_token' && typeof v === 'string') { out.push([k, v]); }
+    });
+    return out;
+  }
+  var changeTimer = null;
+  function changedSoon() {
+    if (initial === null || !message) { return; }
+    clearTimeout(changeTimer);
+    changeTimer = setTimeout(function () {
+      var now = snapshot();
+      var changed = now !== null && now !== initial;
+      keep(changed ? { at: Date.now(), entries: entries() } : null);
+      post({ expwt: 'field-changed', changed: changed, identifier: message.identifier, objectId: message.objectId });
+    }, 600);
+  }
+  if (message && message.expwt === 'field-saved') { keep(null); }
+
+  /* the copy put back: sent as this form would send it (the field's own inputs, not the editors' state), and saved */
+  function restore() {
+    var key = copyKey();
+    var copy = null;
+    try { copy = key ? JSON.parse(window.localStorage.getItem(key) || 'null') : null; } catch (e) { copy = null; }
+    if (!copy || !copy.entries || !form) { return; }
+    var send = document.createElement('form');
+    send.method = 'post';
+    send.action = form.action;
+    send.hidden = true;
+    var add = function (name, value) {
+      var box = document.createElement('textarea');
+      box.name = name;
+      box.value = value;
+      send.appendChild(box);
+    };
+    copy.entries.forEach(function (pair) { add(pair[0], pair[1]); });
+    var token = form.querySelector('[name=ezxform_token]');
+    if (token) { add('ezxform_token', token.value); }
+    add('StoreButton', '1');
+    document.body.appendChild(send);
+    send.submit();
+  }
 
   /* the rich text editors of the frame: TinyMCE 3 lists them in tinymce.editors, TinyMCE 6 and later in tinymce.get() */
   function editors() {
@@ -108,7 +169,11 @@
       var ready = !window.tinymce || (eds.length && eds.every(function (ed) { return ed.initialized; }));
       if (!ready && tries++ < 60) { setTimeout(wait, 100); return; }
       var css = document.documentElement.getAttribute('data-expwt-content-css');
-      eds.forEach(function (ed) { if (css && ed.dom && ed.dom.loadCSS) { ed.dom.loadCSS(css); } });
+      eds.forEach(function (ed) {
+        if (css && ed.dom && ed.dom.loadCSS) { ed.dom.loadCSS(css); }
+        /* typing in the rich text editor happens in its own document: its events count as typed here (F28) */
+        if (ed.on) { ed.on('input change undo redo ExecCommand', changedSoon); }
+      });
       setTimeout(function () { initial = snapshot(); size(); }, 300);
     }());
   }
@@ -125,10 +190,11 @@
     });
   }
 
-  function save() {
+  /* auto: the sidebar's autosave, which saves only what the form would send differently */
+  function save(auto) {
     var b = form && form.querySelector('[name=StoreButton]');
     if (!b) { return; }
-    if (initial !== null && !touched && snapshot() === initial) {
+    if (initial !== null && (!touched || auto) && snapshot() === initial) {
       post({ expwt: 'field-unchanged', identifier: message && message.identifier, objectId: message && message.objectId });
       return;
     }
@@ -140,7 +206,9 @@
   window.addEventListener('message', function (e) {
     if (e.origin !== window.location.origin || e.source !== window.parent || !e.data) { return; }
     if (e.data.expwt === 'field-save') {
-      save();
+      save(!!e.data.auto);
+    } else if (e.data.expwt === 'field-restore') {
+      restore();
     } else if (e.data.expwt === 'field-file' && e.data.file) {
       /* an image dropped on the page: into the datatype's own file input, then saved as Save draft would */
       var input = form && form.querySelector('input[type=file]');
@@ -290,6 +358,8 @@
       if (pending) { return; }
       pending = true;
       window.requestAnimationFrame(function () { pending = false; later(document); });
+      /* a picker that writes hidden inputs (eztags' chips) changes the form without an input event */
+      changedSoon();
     }).observe(document.body, { childList: true, subtree: true });
   }
 

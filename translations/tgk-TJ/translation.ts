@@ -760,6 +760,30 @@
         <translation>Ин саҳифа</translation>
     </message>
     <message>
+        <source>Saved automatically at %time</source>
+        <translation>Дар соати %time худкор захира шуд</translation>
+    </message>
+    <message>
+        <source>Changes made on this device at %time were not saved: %fields</source>
+        <translation>Тағйиротҳое, ки дар ин дастгоҳ дар %time ворид шуданд, захира нашуданд: %fields</translation>
+    </message>
+    <message>
+        <source>Restore</source>
+        <translation>Барқарор кардан</translation>
+    </message>
+    <message>
+        <source>Restored. It is saved to the draft.</source>
+        <translation>Барқарор шуд. Дар сиёҳнавис захира шудааст.</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Партофтан</translation>
+    </message>
+    <message>
+        <source>Unsaved changes on this page</source>
+        <translation>Тағйироти захиранашуда дар ин саҳифа</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Воридшуда</translation>
     </message>

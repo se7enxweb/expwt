@@ -760,6 +760,30 @@
         <translation>Ova stranica</translation>
     </message>
     <message>
+        <source>Saved automatically at %time</source>
+        <translation>Automatski spremljeno u %time</translation>
+    </message>
+    <message>
+        <source>Changes made on this device at %time were not saved: %fields</source>
+        <translation>Promjene napravljene na ovom uređaju u %time nisu spremljene: %fields</translation>
+    </message>
+    <message>
+        <source>Restore</source>
+        <translation>Vrati</translation>
+    </message>
+    <message>
+        <source>Restored. It is saved to the draft.</source>
+        <translation>Vraćeno. Spremljeno je u nacrt.</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Odbaci</translation>
+    </message>
+    <message>
+        <source>Unsaved changes on this page</source>
+        <translation>Nespremljene promjene na ovoj stranici</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Prijemno sanduče</translation>
     </message>

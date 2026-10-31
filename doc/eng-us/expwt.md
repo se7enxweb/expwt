@@ -129,6 +129,16 @@ field stays, is listed, and moves on a later run once the class has it.
 page since 10:42" and may take it over. If both save anyway, nothing is lost: fields only one of them changed are
 merged, and for a field both changed differently the second editor chooses per field which text to keep.
 
+**Nothing typed is lost (autosave):** what is typed in the Page panel is saved to the user's draft every few seconds,
+the same draft Save draft writes, and only when something changed: opening a page or a field's editor makes no draft.
+The panel's own inputs are saved once typing pauses; a field's editor (rich text, tags, an image ...) once the focus
+has left it, because saving it reloads its frame. "Saved automatically at 10:42" under the page's name says when.
+Until the server has it, the browser also keeps a copy on this device (its local storage, for two weeks, per page and
+language). If the window closed, the connection dropped or the browser crashed before that, the closed tab shows a
+**!** on that page next time ("Unsaved changes on this page"), and the Page panel says which fields and from when, with
+**Restore** (puts the text back and saves it to the draft) and **Discard**. A field someone else changed on the server
+in the meantime goes through the field by field merge (above). Publishing or discarding the draft removes the copy.
+
 ## Fields and their editors
 
 The Page panel edits every field with the editor the administration has for its datatype; it never shows a field in

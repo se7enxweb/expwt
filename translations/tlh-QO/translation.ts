@@ -760,6 +760,30 @@
         <translation>nav vam</translation>
     </message>
     <message>
+        <source>Saved automatically at %time</source>
+        <translation>%time pollu'pu' De'wI'</translation>
+    </message>
+    <message>
+        <source>Changes made on this device at %time were not saved: %fields</source>
+        <translation>%time jan vamDaq choHmey pollu'be'pu': %fields</translation>
+    </message>
+    <message>
+        <source>Restore</source>
+        <translation>yImuch</translation>
+    </message>
+    <message>
+        <source>Restored. It is saved to the draft.</source>
+        <translation>much. nabDaq pollu'pu'.</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>yIwoD</translation>
+    </message>
+    <message>
+        <source>Unsaved changes on this page</source>
+        <translation>navvamDaq choHmey pollu'be'bogh</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>QIn chu'</translation>
     </message>

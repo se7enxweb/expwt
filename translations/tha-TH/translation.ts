@@ -760,6 +760,30 @@
         <translation>หน้านี้</translation>
     </message>
     <message>
+        <source>Saved automatically at %time</source>
+        <translation>บันทึกอัตโนมัติเมื่อ %time</translation>
+    </message>
+    <message>
+        <source>Changes made on this device at %time were not saved: %fields</source>
+        <translation>การเปลี่ยนแปลงที่ทำบนอุปกรณ์นี้เมื่อ %time ไม่ได้บันทึก: %fields</translation>
+    </message>
+    <message>
+        <source>Restore</source>
+        <translation>กู้คืน</translation>
+    </message>
+    <message>
+        <source>Restored. It is saved to the draft.</source>
+        <translation>กู้คืนแล้ว บันทึกไว้ในฉบับร่างแล้ว</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>ทิ้ง</translation>
+    </message>
+    <message>
+        <source>Unsaved changes on this page</source>
+        <translation>มีการเปลี่ยนแปลงที่ยังไม่ได้บันทึกในหน้านี้</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>กล่องขาเข้า</translation>
     </message>

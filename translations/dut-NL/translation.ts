@@ -760,6 +760,30 @@
         <translation>Deze pagina</translation>
     </message>
     <message>
+        <source>Saved automatically at %time</source>
+        <translation>Automatisch opgeslagen om %time</translation>
+    </message>
+    <message>
+        <source>Changes made on this device at %time were not saved: %fields</source>
+        <translation>Wijzigingen op dit apparaat van %time zijn niet opgeslagen: %fields</translation>
+    </message>
+    <message>
+        <source>Restore</source>
+        <translation>Herstellen</translation>
+    </message>
+    <message>
+        <source>Restored. It is saved to the draft.</source>
+        <translation>Hersteld. Het is opgeslagen in het concept.</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Verwerpen</translation>
+    </message>
+    <message>
+        <source>Unsaved changes on this page</source>
+        <translation>Niet-opgeslagen wijzigingen op deze pagina</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Inbox</translation>
     </message>

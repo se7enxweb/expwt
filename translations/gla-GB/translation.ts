@@ -760,6 +760,30 @@
         <translation>An duilleag seo</translation>
     </message>
     <message>
+        <source>Saved automatically at %time</source>
+        <translation>Air a shàbhaladh gu fèin-obrachail aig %time</translation>
+    </message>
+    <message>
+        <source>Changes made on this device at %time were not saved: %fields</source>
+        <translation>Cha deach na h-atharraichean a rinneadh air an uidheam seo aig %time a shàbhaladh: %fields</translation>
+    </message>
+    <message>
+        <source>Restore</source>
+        <translation>Aisig</translation>
+    </message>
+    <message>
+        <source>Restored. It is saved to the draft.</source>
+        <translation>Air aiseag. Tha e air a shàbhaladh san dreachd.</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Tilg air falbh</translation>
+    </message>
+    <message>
+        <source>Unsaved changes on this page</source>
+        <translation>Atharraichean gun sàbhaladh air an duilleag seo</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Bogsa a-steach</translation>
     </message>

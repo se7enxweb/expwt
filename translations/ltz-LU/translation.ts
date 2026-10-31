@@ -760,6 +760,30 @@
         <translation>Dës Säit</translation>
     </message>
     <message>
+        <source>Saved automatically at %time</source>
+        <translation>Automatesch gespäichert um %time</translation>
+    </message>
+    <message>
+        <source>Changes made on this device at %time were not saved: %fields</source>
+        <translation>Ännerungen op dësem Apparat vum %time goufen net gespäichert: %fields</translation>
+    </message>
+    <message>
+        <source>Restore</source>
+        <translation>Restauréieren</translation>
+    </message>
+    <message>
+        <source>Restored. It is saved to the draft.</source>
+        <translation>Restauréiert. Et ass am Entworf gespäichert.</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Verwerfen</translation>
+    </message>
+    <message>
+        <source>Unsaved changes on this page</source>
+        <translation>Net gespäichert Ännerungen op dëser Säit</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Postkëscht</translation>
     </message>

@@ -760,6 +760,30 @@
         <translation>Den här sidan</translation>
     </message>
     <message>
+        <source>Saved automatically at %time</source>
+        <translation>Sparat automatiskt kl. %time</translation>
+    </message>
+    <message>
+        <source>Changes made on this device at %time were not saved: %fields</source>
+        <translation>Ändringar som gjordes på den här enheten %time sparades inte: %fields</translation>
+    </message>
+    <message>
+        <source>Restore</source>
+        <translation>Återställ</translation>
+    </message>
+    <message>
+        <source>Restored. It is saved to the draft.</source>
+        <translation>Återställt. Det är sparat i utkastet.</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Kasta</translation>
+    </message>
+    <message>
+        <source>Unsaved changes on this page</source>
+        <translation>Osparade ändringar på den här sidan</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Inkorg</translation>
     </message>

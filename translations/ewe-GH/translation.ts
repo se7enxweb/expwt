@@ -760,6 +760,30 @@
         <translation>Axa sia</translation>
     </message>
     <message>
+        <source>Saved automatically at %time</source>
+        <translation>Wodzrae ɖo le eɖokui si le %time</translation>
+    </message>
+    <message>
+        <source>Changes made on this device at %time were not saved: %fields</source>
+        <translation>Tɔtrɔ siwo wowɔ le mɔ̃ sia dzi le %time la, womedzra wo ɖo o: %fields</translation>
+    </message>
+    <message>
+        <source>Restore</source>
+        <translation>Gbugbɔe vɛ</translation>
+    </message>
+    <message>
+        <source>Restored. It is saved to the draft.</source>
+        <translation>Wogbugbɔe vɛ. Wodzrae ɖo ɖe ŋɔŋlɔ gbãtɔ la me.</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Tutui ɖa</translation>
+    </message>
+    <message>
+        <source>Unsaved changes on this page</source>
+        <translation>Tɔtrɔ siwo womedzra ɖo o le axa sia dzi</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Agbalẽ siwo va</translation>
     </message>

@@ -760,6 +760,30 @@
         <translation>Бул барак</translation>
     </message>
     <message>
+        <source>Saved automatically at %time</source>
+        <translation>%time автоматтык түрдө сакталды</translation>
+    </message>
+    <message>
+        <source>Changes made on this device at %time were not saved: %fields</source>
+        <translation>Бул түзмөктө %time жасалган өзгөртүүлөр сакталган жок: %fields</translation>
+    </message>
+    <message>
+        <source>Restore</source>
+        <translation>Калыбына келтирүү</translation>
+    </message>
+    <message>
+        <source>Restored. It is saved to the draft.</source>
+        <translation>Калыбына келтирилди. Долбоордо сакталды.</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Жокко чыгаруу</translation>
+    </message>
+    <message>
+        <source>Unsaved changes on this page</source>
+        <translation>Бул барактагы сакталбаган өзгөртүүлөр</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Кирүүчүлөр</translation>
     </message>

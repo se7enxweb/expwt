@@ -760,6 +760,30 @@
         <translation>یہ صفحہ</translation>
     </message>
     <message>
+        <source>Saved automatically at %time</source>
+        <translation>%time پر خود بخود محفوظ ہو گیا</translation>
+    </message>
+    <message>
+        <source>Changes made on this device at %time were not saved: %fields</source>
+        <translation>اس ڈیوائس پر %time پر کی گئی تبدیلیاں محفوظ نہیں ہوئیں: %fields</translation>
+    </message>
+    <message>
+        <source>Restore</source>
+        <translation>بحال کریں</translation>
+    </message>
+    <message>
+        <source>Restored. It is saved to the draft.</source>
+        <translation>بحال ہو گیا۔ یہ مسودے میں محفوظ ہے۔</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>ترک کریں</translation>
+    </message>
+    <message>
+        <source>Unsaved changes on this page</source>
+        <translation>اس صفحے پر غیر محفوظ تبدیلیاں</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>ان باکس</translation>
     </message>

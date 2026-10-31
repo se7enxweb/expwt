@@ -760,6 +760,30 @@
         <translation>Ũrũa rũrũ</translation>
     </message>
     <message>
+        <source>Saved automatically at %time</source>
+        <translation>Nĩ yaigwo yo ĩĩ thaa %time</translation>
+    </message>
+    <message>
+        <source>Changes made on this device at %time were not saved: %fields</source>
+        <translation>Mũgarũrũku ũrĩa wekirwo kĩndũ-inĩ gĩkĩ thaa %time ndwaigwo: %fields</translation>
+    </message>
+    <message>
+        <source>Restore</source>
+        <translation>Cokia</translation>
+    </message>
+    <message>
+        <source>Restored. It is saved to the draft.</source>
+        <translation>Nĩ yacokio. Nĩ yaigwo ndrafti-inĩ.</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Te</translation>
+    </message>
+    <message>
+        <source>Unsaved changes on this page</source>
+        <translation>Mũgarũrũku ũtaigĩtwo ũrũ-inĩ rũrũ</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Ithandũkũ rĩa marũa</translation>
     </message>

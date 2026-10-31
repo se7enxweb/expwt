@@ -760,6 +760,30 @@
         <translation>Wannan shafi</translation>
     </message>
     <message>
+        <source>Saved automatically at %time</source>
+        <translation>An ajiye kai tsaye a %time</translation>
+    </message>
+    <message>
+        <source>Changes made on this device at %time were not saved: %fields</source>
+        <translation>Ba a ajiye canje-canjen da aka yi a wannan na'ura a %time ba: %fields</translation>
+    </message>
+    <message>
+        <source>Restore</source>
+        <translation>Maido</translation>
+    </message>
+    <message>
+        <source>Restored. It is saved to the draft.</source>
+        <translation>An maido. An ajiye shi a daftarin.</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Watsar</translation>
+    </message>
+    <message>
+        <source>Unsaved changes on this page</source>
+        <translation>Canje-canjen da ba a ajiye ba a wannan shafi</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Akwatin saƙo</translation>
     </message>

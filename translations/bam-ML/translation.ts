@@ -760,6 +760,30 @@
         <translation>Ɲɛ nin</translation>
     </message>
     <message>
+        <source>Saved automatically at %time</source>
+        <translation>A marala a yɛrɛ ma %time</translation>
+    </message>
+    <message>
+        <source>Changes made on this device at %time were not saved: %fields</source>
+        <translation>Changements minnu kɛra nin minɛn in kan %time, olu ma mara: %fields</translation>
+    </message>
+    <message>
+        <source>Restore</source>
+        <translation>A segin</translation>
+    </message>
+    <message>
+        <source>Restored. It is saved to the draft.</source>
+        <translation>A seginna. A marala bruyɔn kɔnɔ.</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>A fili</translation>
+    </message>
+    <message>
+        <source>Unsaved changes on this page</source>
+        <translation>Changements minnu ma mara nin ɲɛ in kan</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Bataki donnenw</translation>
     </message>

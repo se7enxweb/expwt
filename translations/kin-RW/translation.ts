@@ -760,6 +760,30 @@
         <translation>Uru rupapuro</translation>
     </message>
     <message>
+        <source>Saved automatically at %time</source>
+        <translation>Byabitswe byikora saa %time</translation>
+    </message>
+    <message>
+        <source>Changes made on this device at %time were not saved: %fields</source>
+        <translation>Impinduka zakorewe kuri iki gikoresho saa %time ntizabitswe: %fields</translation>
+    </message>
+    <message>
+        <source>Restore</source>
+        <translation>Garura</translation>
+    </message>
+    <message>
+        <source>Restored. It is saved to the draft.</source>
+        <translation>Byagaruwe. Byabitswe mu mushinga.</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Reka</translation>
+    </message>
+    <message>
+        <source>Unsaved changes on this page</source>
+        <translation>Impinduka zitabitswe kuri uru rupapuro</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Ubutumwa bwinjira</translation>
     </message>

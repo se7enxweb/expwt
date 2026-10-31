@@ -760,6 +760,30 @@
         <translation>הדף הזה</translation>
     </message>
     <message>
+        <source>Saved automatically at %time</source>
+        <translation>נשמר אוטומטית ב-%time</translation>
+    </message>
+    <message>
+        <source>Changes made on this device at %time were not saved: %fields</source>
+        <translation>שינויים שנעשו במכשיר זה ב-%time לא נשמרו: %fields</translation>
+    </message>
+    <message>
+        <source>Restore</source>
+        <translation>שחזור</translation>
+    </message>
+    <message>
+        <source>Restored. It is saved to the draft.</source>
+        <translation>שוחזר. הוא נשמר בטיוטה.</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>מחיקה</translation>
+    </message>
+    <message>
+        <source>Unsaved changes on this page</source>
+        <translation>שינויים שלא נשמרו בדף זה</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>תיבת דואר נכנס</translation>
     </message>

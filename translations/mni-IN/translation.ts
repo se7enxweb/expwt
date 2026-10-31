@@ -760,6 +760,30 @@
         <translation>লামায় অসি</translation>
     </message>
     <message>
+        <source>Saved automatically at %time</source>
+        <translation>%time দা মশানা থম্লে</translation>
+    </message>
+    <message>
+        <source>Changes made on this device at %time were not saved: %fields</source>
+        <translation>ডিভাইস অসিদা %time দা তৌখিবা অহোংবশিং থম্দ্রে: %fields</translation>
+    </message>
+    <message>
+        <source>Restore</source>
+        <translation>অমুক হন্না পুরক্উ</translation>
+    </message>
+    <message>
+        <source>Restored. It is saved to the draft.</source>
+        <translation>অমুক হন্না পুরকখ্রে। মসি ড্রাফ্টতা থম্লে।</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>হুন্থোকউ</translation>
+    </message>
+    <message>
+        <source>Unsaved changes on this page</source>
+        <translation>পেজ অসিদা থম্দ্রিবা অহোংবশিং</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>ইনবক্স</translation>
     </message>

@@ -596,6 +596,12 @@ a { color: var(--a4-accent-text); }
 .wt-tabs [role="tab"] .wt-badge { margin-inline-start: var(--a4-space-1); }
 /* on the selected tab (the accent fill) the badge turns around, so it stays visible */
 .wt-tabs [role="tab"][aria-selected="true"] .wt-badge { background: var(--a4-surface); color: var(--a4-accent-text); }
+/* changes of this page kept on this device only (F28): the warning colors, light and dark */
+.wt-badge.is-warn, :host([data-theme="dark"]) .wt-badge.is-warn { background: var(--a4-warn); color: var(--a4-surface); }
+.wt-tab .wt-badge + .wt-badge { margin-block-start: var(--a4-space-1); }
+.wt-autosaved { margin: 0; font-size: var(--a4-text-xs); }
+.wt-autosaved:empty { display: none; }
+.wt-offer p { margin: 0 0 var(--a4-space-2); overflow-wrap: break-word; }
 /* the Inbox panel: one card per approval */
 .wt-inbox { display: grid; gap: var(--a4-space-3); margin: var(--a4-space-2) 0 0; padding: 0; list-style: none; }
 .wt-inbox-item { min-inline-size: 0; padding: var(--a4-space-3); border: 1px solid var(--a4-line); border-radius: var(--a4-radius-s); background: var(--a4-card); overflow-wrap: break-word; }

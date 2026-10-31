@@ -245,6 +245,12 @@ class expwtStrings
         'Translations',
         'Sites',
         'This page',
+        'Saved automatically at %time',
+        'Changes made on this device at %time were not saved: %fields',
+        'Restore',
+        'Restored. It is saved to the draft.',
+        'Discard',
+        'Unsaved changes on this page',
     );
     /* sources:end */
 

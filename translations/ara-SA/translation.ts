@@ -760,6 +760,30 @@
         <translation>هذه الصفحة</translation>
     </message>
     <message>
+        <source>Saved automatically at %time</source>
+        <translation>حُفظ تلقائيًا في %time</translation>
+    </message>
+    <message>
+        <source>Changes made on this device at %time were not saved: %fields</source>
+        <translation>لم تُحفظ التغييرات التي أُجريت على هذا الجهاز في %time: %fields</translation>
+    </message>
+    <message>
+        <source>Restore</source>
+        <translation>استعادة</translation>
+    </message>
+    <message>
+        <source>Restored. It is saved to the draft.</source>
+        <translation>تمت الاستعادة. وهي محفوظة في المسودة.</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>تجاهل</translation>
+    </message>
+    <message>
+        <source>Unsaved changes on this page</source>
+        <translation>تغييرات غير محفوظة في هذه الصفحة</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>الوارد</translation>
     </message>

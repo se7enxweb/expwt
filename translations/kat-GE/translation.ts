@@ -760,6 +760,30 @@
         <translation>ეს გვერდი</translation>
     </message>
     <message>
+        <source>Saved automatically at %time</source>
+        <translation>ავტომატურად შეინახა %time-ზე</translation>
+    </message>
+    <message>
+        <source>Changes made on this device at %time were not saved: %fields</source>
+        <translation>ამ მოწყობილობაზე %time-ზე შეტანილი ცვლილებები არ შეინახა: %fields</translation>
+    </message>
+    <message>
+        <source>Restore</source>
+        <translation>აღდგენა</translation>
+    </message>
+    <message>
+        <source>Restored. It is saved to the draft.</source>
+        <translation>აღდგენილია. შენახულია მონახაზში.</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>გაუქმება</translation>
+    </message>
+    <message>
+        <source>Unsaved changes on this page</source>
+        <translation>შეუნახავი ცვლილებები ამ გვერდზე</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>შემოსულები</translation>
     </message>

@@ -760,6 +760,30 @@
         <translation>ܗܢܐ ܦܐܬܐ</translation>
     </message>
     <message>
+        <source>Saved automatically at %time</source>
+        <translation>אתנטר מן נפשה ב%time</translation>
+    </message>
+    <message>
+        <source>Changes made on this device at %time were not saved: %fields</source>
+        <translation>שוחלפא דאתעבדו במנא הנא ב%time לא אתנטרו: %fields</translation>
+    </message>
+    <message>
+        <source>Restore</source>
+        <translation>אהדר</translation>
+    </message>
+    <message>
+        <source>Restored. It is saved to the draft.</source>
+        <translation>אתהדר. נטיר בסורטא.</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>שבוק</translation>
+    </message>
+    <message>
+        <source>Unsaved changes on this page</source>
+        <translation>שוחלפא דלא נטירין בדפא הנא</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>ܐܓܪ̈ܬܐ ܕܥܐܠ̈ܢ</translation>
     </message>

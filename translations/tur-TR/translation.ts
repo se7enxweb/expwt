@@ -760,6 +760,30 @@
         <translation>Bu sayfa</translation>
     </message>
     <message>
+        <source>Saved automatically at %time</source>
+        <translation>%time itibarıyla otomatik kaydedildi</translation>
+    </message>
+    <message>
+        <source>Changes made on this device at %time were not saved: %fields</source>
+        <translation>Bu cihazda %time tarihinde yapılan değişiklikler kaydedilmedi: %fields</translation>
+    </message>
+    <message>
+        <source>Restore</source>
+        <translation>Geri yükle</translation>
+    </message>
+    <message>
+        <source>Restored. It is saved to the draft.</source>
+        <translation>Geri yüklendi. Taslağa kaydedildi.</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>At</translation>
+    </message>
+    <message>
+        <source>Unsaved changes on this page</source>
+        <translation>Bu sayfada kaydedilmemiş değişiklikler</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Gelen kutusu</translation>
     </message>

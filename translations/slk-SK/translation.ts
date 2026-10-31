@@ -760,6 +760,30 @@
         <translation>Táto stránka</translation>
     </message>
     <message>
+        <source>Saved automatically at %time</source>
+        <translation>Automaticky uložené o %time</translation>
+    </message>
+    <message>
+        <source>Changes made on this device at %time were not saved: %fields</source>
+        <translation>Zmeny vykonané na tomto zariadení o %time neboli uložené: %fields</translation>
+    </message>
+    <message>
+        <source>Restore</source>
+        <translation>Obnoviť</translation>
+    </message>
+    <message>
+        <source>Restored. It is saved to the draft.</source>
+        <translation>Obnovené. Je to uložené v koncepte.</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Zahodiť</translation>
+    </message>
+    <message>
+        <source>Unsaved changes on this page</source>
+        <translation>Neuložené zmeny na tejto stránke</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Doručené</translation>
     </message>

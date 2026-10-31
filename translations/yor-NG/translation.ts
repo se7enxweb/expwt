@@ -760,6 +760,30 @@
         <translation>Ojú-ìwé yìí</translation>
     </message>
     <message>
+        <source>Saved automatically at %time</source>
+        <translation>Ó fi ara rẹ̀ pamọ́ ní %time</translation>
+    </message>
+    <message>
+        <source>Changes made on this device at %time were not saved: %fields</source>
+        <translation>A kò fi àwọn àyípadà tí a ṣe lórí ẹ̀rọ yìí ní %time pamọ́: %fields</translation>
+    </message>
+    <message>
+        <source>Restore</source>
+        <translation>Dá a padà</translation>
+    </message>
+    <message>
+        <source>Restored. It is saved to the draft.</source>
+        <translation>A ti dá a padà. Ó wà ní ìpamọ́ nínú àkọsílẹ̀ àkọ́kọ́.</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Pa á tì</translation>
+    </message>
+    <message>
+        <source>Unsaved changes on this page</source>
+        <translation>Àwọn àyípadà tí a kò fi pamọ́ lórí ojú ìwé yìí</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Àpótí ìwọlé</translation>
     </message>

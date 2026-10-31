@@ -760,6 +760,30 @@
         <translation>此頁面</translation>
     </message>
     <message>
+        <source>Saved automatically at %time</source>
+        <translation>已於 %time 自動儲存</translation>
+    </message>
+    <message>
+        <source>Changes made on this device at %time were not saved: %fields</source>
+        <translation>在此裝置上於 %time 所做的變更未儲存：%fields</translation>
+    </message>
+    <message>
+        <source>Restore</source>
+        <translation>還原</translation>
+    </message>
+    <message>
+        <source>Restored. It is saved to the draft.</source>
+        <translation>已還原，並已儲存到草稿。</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>捨棄</translation>
+    </message>
+    <message>
+        <source>Unsaved changes on this page</source>
+        <translation>此頁面有未儲存的變更</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>收件匣</translation>
     </message>

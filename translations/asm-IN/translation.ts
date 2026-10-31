@@ -760,6 +760,30 @@
         <translation>এই পৃষ্ঠা</translation>
     </message>
     <message>
+        <source>Saved automatically at %time</source>
+        <translation>%time ত স্বয়ংক্ৰিয়ভাৱে ছেভ হ'ল</translation>
+    </message>
+    <message>
+        <source>Changes made on this device at %time were not saved: %fields</source>
+        <translation>এই ডিভাইচত %time ত কৰা সলনিবোৰ ছেভ হোৱা নাই: %fields</translation>
+    </message>
+    <message>
+        <source>Restore</source>
+        <translation>পুনৰুদ্ধাৰ কৰক</translation>
+    </message>
+    <message>
+        <source>Restored. It is saved to the draft.</source>
+        <translation>পুনৰুদ্ধাৰ হ'ল। ই খচৰাত ছেভ হৈছে।</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>বাতিল কৰক</translation>
+    </message>
+    <message>
+        <source>Unsaved changes on this page</source>
+        <translation>এই পৃষ্ঠাত ছেভ নোহোৱা সলনি</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>ইনবক্স</translation>
     </message>

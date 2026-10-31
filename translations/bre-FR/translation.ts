@@ -760,6 +760,30 @@
         <translation>Ar bajenn-mañ</translation>
     </message>
     <message>
+        <source>Saved automatically at %time</source>
+        <translation>Enrollet emgefreek da %time</translation>
+    </message>
+    <message>
+        <source>Changes made on this device at %time were not saved: %fields</source>
+        <translation>N'eo ket bet enrollet ar c'hemmoù graet war ar benveg-mañ da %time: %fields</translation>
+    </message>
+    <message>
+        <source>Restore</source>
+        <translation>Assevel</translation>
+    </message>
+    <message>
+        <source>Restored. It is saved to the draft.</source>
+        <translation>Assavet. Enrollet eo er brouilhed.</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Dilezel</translation>
+    </message>
+    <message>
+        <source>Unsaved changes on this page</source>
+        <translation>Kemmoù n'int ket enrollet war ar bajenn-mañ</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Boest-degemer</translation>
     </message>

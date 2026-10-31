@@ -760,6 +760,30 @@
         <translation>ഈ പേജ്</translation>
     </message>
     <message>
+        <source>Saved automatically at %time</source>
+        <translation>%time-ന് സ്വയമേവ സംരക്ഷിച്ചു</translation>
+    </message>
+    <message>
+        <source>Changes made on this device at %time were not saved: %fields</source>
+        <translation>ഈ ഉപകരണത്തിൽ %time-ന് വരുത്തിയ മാറ്റങ്ങൾ സംരക്ഷിച്ചിട്ടില്ല: %fields</translation>
+    </message>
+    <message>
+        <source>Restore</source>
+        <translation>പുനഃസ്ഥാപിക്കുക</translation>
+    </message>
+    <message>
+        <source>Restored. It is saved to the draft.</source>
+        <translation>പുനഃസ്ഥാപിച്ചു. ഇത് ഡ്രാഫ്റ്റിൽ സംരക്ഷിച്ചിരിക്കുന്നു.</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>ഉപേക്ഷിക്കുക</translation>
+    </message>
+    <message>
+        <source>Unsaved changes on this page</source>
+        <translation>ഈ പേജിൽ സംരക്ഷിക്കാത്ത മാറ്റങ്ങൾ</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>ഇൻബോക്സ്</translation>
     </message>

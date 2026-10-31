@@ -760,6 +760,30 @@
         <translation>Гэта старонка</translation>
     </message>
     <message>
+        <source>Saved automatically at %time</source>
+        <translation>Аўтаматычна захавана ў %time</translation>
+    </message>
+    <message>
+        <source>Changes made on this device at %time were not saved: %fields</source>
+        <translation>Змены, зробленыя на гэтай прыладзе ў %time, не захаваны: %fields</translation>
+    </message>
+    <message>
+        <source>Restore</source>
+        <translation>Аднавіць</translation>
+    </message>
+    <message>
+        <source>Restored. It is saved to the draft.</source>
+        <translation>Адноўлена. Захавана ў чарнавіку.</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Адхіліць</translation>
+    </message>
+    <message>
+        <source>Unsaved changes on this page</source>
+        <translation>Незахаваныя змены на гэтай старонцы</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Уваходныя</translation>
     </message>

@@ -760,6 +760,30 @@
         <translation>Henda síðan</translation>
     </message>
     <message>
+        <source>Saved automatically at %time</source>
+        <translation>Sjálvvirkandi goymt kl. %time</translation>
+    </message>
+    <message>
+        <source>Changes made on this device at %time were not saved: %fields</source>
+        <translation>Broytingar gjørdar á hesi eind kl. %time vórðu ikki goymdar: %fields</translation>
+    </message>
+    <message>
+        <source>Restore</source>
+        <translation>Endurskapa</translation>
+    </message>
+    <message>
+        <source>Restored. It is saved to the draft.</source>
+        <translation>Endurskapt. Tað er goymt í kladduni.</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Vraka</translation>
+    </message>
+    <message>
+        <source>Unsaved changes on this page</source>
+        <translation>Ikki goymdar broytingar á hesi síðuni</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Innbakki</translation>
     </message>

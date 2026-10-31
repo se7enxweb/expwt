@@ -760,6 +760,30 @@
         <translation>Y dudalen hon</translation>
     </message>
     <message>
+        <source>Saved automatically at %time</source>
+        <translation>Wedi'i gadw'n awtomatig am %time</translation>
+    </message>
+    <message>
+        <source>Changes made on this device at %time were not saved: %fields</source>
+        <translation>Ni chafodd newidiadau a wnaed ar y ddyfais hon am %time eu cadw: %fields</translation>
+    </message>
+    <message>
+        <source>Restore</source>
+        <translation>Adfer</translation>
+    </message>
+    <message>
+        <source>Restored. It is saved to the draft.</source>
+        <translation>Wedi'i adfer. Mae wedi'i gadw yn y drafft.</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Taflu</translation>
+    </message>
+    <message>
+        <source>Unsaved changes on this page</source>
+        <translation>Newidiadau heb eu cadw ar y dudalen hon</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Mewnflwch</translation>
     </message>

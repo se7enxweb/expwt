@@ -760,6 +760,30 @@
         <translation>यो पृष्ठ</translation>
     </message>
     <message>
+        <source>Saved automatically at %time</source>
+        <translation>%time मा स्वतः सुरक्षित भयो</translation>
+    </message>
+    <message>
+        <source>Changes made on this device at %time were not saved: %fields</source>
+        <translation>यो उपकरणमा %time मा गरिएका परिवर्तनहरू सुरक्षित भएनन्: %fields</translation>
+    </message>
+    <message>
+        <source>Restore</source>
+        <translation>पुनर्स्थापना गर्नुहोस्</translation>
+    </message>
+    <message>
+        <source>Restored. It is saved to the draft.</source>
+        <translation>पुनर्स्थापना भयो। यो मस्यौदामा सुरक्षित छ।</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>खारेज गर्नुहोस्</translation>
+    </message>
+    <message>
+        <source>Unsaved changes on this page</source>
+        <translation>यो पृष्ठमा सुरक्षित नगरिएका परिवर्तनहरू</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>इनबक्स</translation>
     </message>

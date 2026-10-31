@@ -138,6 +138,19 @@ diese Seite seit 10:42" und können sie übernehmen. Speichern beide trotzdem, g
 geändert hat, werden zusammengeführt, und bei einem Feld, das beide verschieden geändert haben, wählt der zweite je Feld,
 welcher Text bleibt.
 
+**Nichts Getipptes geht verloren (automatisches Speichern):** Was im Bereich Seite getippt wird, wird alle paar
+Sekunden in den Entwurf des Benutzers gespeichert, denselben, den „Entwurf speichern" schreibt, und nur, wenn sich etwas
+geändert hat: Eine Seite oder den Editor eines Felds zu öffnen, legt keinen Entwurf an. Die eigenen Eingaben des Bereichs
+werden gespeichert, sobald das Tippen pausiert; der Editor eines Felds (Rich Text, Tags, ein Bild ...), sobald der Fokus
+ihn verlassen hat, weil das Speichern seinen Rahmen neu lädt. „Automatisch gespeichert um 10:42" unter dem Namen der
+Seite sagt, wann. Bis der Server es hat, hält der Browser außerdem eine Kopie auf diesem Gerät (in seinem lokalen
+Speicher, zwei Wochen lang, je Seite und Sprache). Wurde das Fenster geschlossen, brach die Verbindung ab oder stürzte
+der Browser vorher ab, zeigt der geschlossene Reiter auf dieser Seite beim nächsten Mal ein **!** („Nicht gespeicherte
+Änderungen auf dieser Seite"), und der Bereich Seite nennt die Felder und die Zeit, mit **Wiederherstellen** (setzt den
+Text wieder ein und speichert ihn in den Entwurf) und **Verwerfen**. Ein Feld, das inzwischen jemand anderes auf dem
+Server geändert hat, geht durch die Zusammenführung Feld für Feld (oben). Veröffentlichen oder Verwerfen des Entwurfs
+entfernt die Kopie.
+
 ## Felder und ihre Editoren
 
 Der Bereich „Seite" bearbeitet jedes Feld mit dem Editor, den die Administration für seinen Datentyp hat; er zeigt nie

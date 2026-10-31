@@ -760,6 +760,30 @@
         <translation>دا پاڼه</translation>
     </message>
     <message>
+        <source>Saved automatically at %time</source>
+        <translation>په %time په اتومات ډول خوندي شو</translation>
+    </message>
+    <message>
+        <source>Changes made on this device at %time were not saved: %fields</source>
+        <translation>په دې وسیله کې په %time شوي بدلونونه خوندي نه شول: %fields</translation>
+    </message>
+    <message>
+        <source>Restore</source>
+        <translation>بیرته راوړئ</translation>
+    </message>
+    <message>
+        <source>Restored. It is saved to the draft.</source>
+        <translation>بیرته راوړل شو. په مسوده کې خوندي دی.</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>پرېږدئ</translation>
+    </message>
+    <message>
+        <source>Unsaved changes on this page</source>
+        <translation>په دې پاڼه کې ناخوندي بدلونونه</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>راغلي لیکونه</translation>
     </message>

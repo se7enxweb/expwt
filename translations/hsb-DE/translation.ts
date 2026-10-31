@@ -760,6 +760,30 @@
         <translation>Tuta strona</translation>
     </message>
     <message>
+        <source>Saved automatically at %time</source>
+        <translation>Awtomatisce składowane %time</translation>
+    </message>
+    <message>
+        <source>Changes made on this device at %time were not saved: %fields</source>
+        <translation>Změny, kotrež buchu na tutym graće %time činjene, njejsu składowane: %fields</translation>
+    </message>
+    <message>
+        <source>Restore</source>
+        <translation>Wobnowić</translation>
+    </message>
+    <message>
+        <source>Restored. It is saved to the draft.</source>
+        <translation>Wobnowjene. Je w naćisku składowane.</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Zaćisnyć</translation>
+    </message>
+    <message>
+        <source>Unsaved changes on this page</source>
+        <translation>Njeskładowane změny na tutej stronje</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Dóstate</translation>
     </message>

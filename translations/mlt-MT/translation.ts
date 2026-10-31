@@ -760,6 +760,30 @@
         <translation>Din il-paġna</translation>
     </message>
     <message>
+        <source>Saved automatically at %time</source>
+        <translation>Issejvjat awtomatikament fil-%time</translation>
+    </message>
+    <message>
+        <source>Changes made on this device at %time were not saved: %fields</source>
+        <translation>Il-bidliet magħmula fuq dan l-apparat fil-%time ma ġewx issejvjati: %fields</translation>
+    </message>
+    <message>
+        <source>Restore</source>
+        <translation>Irrestawra</translation>
+    </message>
+    <message>
+        <source>Restored. It is saved to the draft.</source>
+        <translation>Irrestawrat. Huwa ssejvjat fl-abbozz.</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Armi</translation>
+    </message>
+    <message>
+        <source>Unsaved changes on this page</source>
+        <translation>Bidliet mhux issejvjati f'din il-paġna</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Inbox</translation>
     </message>

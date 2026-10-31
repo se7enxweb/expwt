@@ -760,6 +760,30 @@
         <translation>ଏହି ପୃଷ୍ଠା</translation>
     </message>
     <message>
+        <source>Saved automatically at %time</source>
+        <translation>%time ରେ ସ୍ୱୟଂଚାଳିତ ଭାବେ ସଞ୍ଚୟ ହେଲା</translation>
+    </message>
+    <message>
+        <source>Changes made on this device at %time were not saved: %fields</source>
+        <translation>ଏହି ଡିଭାଇସରେ %time ରେ କରାଯାଇଥିବା ପରିବର୍ତ୍ତନ ସଞ୍ଚୟ ହୋଇନାହିଁ: %fields</translation>
+    </message>
+    <message>
+        <source>Restore</source>
+        <translation>ପୁନଃସ୍ଥାପନ କରନ୍ତୁ</translation>
+    </message>
+    <message>
+        <source>Restored. It is saved to the draft.</source>
+        <translation>ପୁନଃସ୍ଥାପିତ ହେଲା। ଏହା ଖସଡ଼ାରେ ସଞ୍ଚୟ ହୋଇଛି।</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>ବାତିଲ କରନ୍ତୁ</translation>
+    </message>
+    <message>
+        <source>Unsaved changes on this page</source>
+        <translation>ଏହି ପୃଷ୍ଠାରେ ସଞ୍ଚୟ ହୋଇନଥିବା ପରିବର୍ତ୍ତନ</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>ଇନବକ୍ସ</translation>
     </message>

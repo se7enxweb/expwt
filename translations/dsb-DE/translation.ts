@@ -760,6 +760,30 @@
         <translation>Toś ten bok</translation>
     </message>
     <message>
+        <source>Saved automatically at %time</source>
+        <translation>Awtomatiski skłaźone %time</translation>
+    </message>
+    <message>
+        <source>Changes made on this device at %time were not saved: %fields</source>
+        <translation>Změny, kótarež su se na toś tom rědze %time cynili, njejsu skłaźone: %fields</translation>
+    </message>
+    <message>
+        <source>Restore</source>
+        <translation>Wótnowiś</translation>
+    </message>
+    <message>
+        <source>Restored. It is saved to the draft.</source>
+        <translation>Wótnowjone. Jo w nacerjenju skłaźone.</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Zachyśiś</translation>
+    </message>
+    <message>
+        <source>Unsaved changes on this page</source>
+        <translation>Njeskłaźone změny na toś tom boku</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Dostaśe</translation>
     </message>

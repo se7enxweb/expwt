@@ -760,6 +760,30 @@
         <translation>Kaca ieu</translation>
     </message>
     <message>
+        <source>Saved automatically at %time</source>
+        <translation>Disimpen otomatis jam %time</translation>
+    </message>
+    <message>
+        <source>Changes made on this device at %time were not saved: %fields</source>
+        <translation>Parobahan dina alat ieu jam %time teu kasimpen: %fields</translation>
+    </message>
+    <message>
+        <source>Restore</source>
+        <translation>Balikeun</translation>
+    </message>
+    <message>
+        <source>Restored. It is saved to the draft.</source>
+        <translation>Geus dibalikeun. Geus disimpen kana draf.</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Piceun</translation>
+    </message>
+    <message>
+        <source>Unsaved changes on this page</source>
+        <translation>Parobahan nu can disimpen dina kaca ieu</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Kotak asup</translation>
     </message>

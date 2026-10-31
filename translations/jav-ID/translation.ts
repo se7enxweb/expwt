@@ -760,6 +760,30 @@
         <translation>Kaca iki</translation>
     </message>
     <message>
+        <source>Saved automatically at %time</source>
+        <translation>Disimpen otomatis jam %time</translation>
+    </message>
+    <message>
+        <source>Changes made on this device at %time were not saved: %fields</source>
+        <translation>Owahan ing piranti iki jam %time ora kasimpen: %fields</translation>
+    </message>
+    <message>
+        <source>Restore</source>
+        <translation>Balekake</translation>
+    </message>
+    <message>
+        <source>Restored. It is saved to the draft.</source>
+        <translation>Wis dibalekake. Wis disimpen ing draf.</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Buang</translation>
+    </message>
+    <message>
+        <source>Unsaved changes on this page</source>
+        <translation>Owahan sing durung disimpen ing kaca iki</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Kothak mlebu</translation>
     </message>

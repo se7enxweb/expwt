@@ -760,6 +760,30 @@
         <translation>Peesi ko ʻeni</translation>
     </message>
     <message>
+        <source>Saved automatically at %time</source>
+        <translation>Tauhi ʻaki pē ia ʻi he %time</translation>
+    </message>
+    <message>
+        <source>Changes made on this device at %time were not saved: %fields</source>
+        <translation>Ko e ngaahi liliu naʻe fai ʻi he meʻangāue ni ʻi he %time naʻe ʻikai tauhi: %fields</translation>
+    </message>
+    <message>
+        <source>Restore</source>
+        <translation>Fakafoki</translation>
+    </message>
+    <message>
+        <source>Restored. It is saved to the draft.</source>
+        <translation>Kuo fakafoki. Kuo tauhi ʻi he tohi fakataimi.</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Liʻaki</translation>
+    </message>
+    <message>
+        <source>Unsaved changes on this page</source>
+        <translation>Ngaahi liliu naʻe ʻikai tauhi ʻi he peesi ni</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Puha tohi hū mai</translation>
     </message>

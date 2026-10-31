@@ -760,6 +760,30 @@
         <translation>Haec pagina</translation>
     </message>
     <message>
+        <source>Saved automatically at %time</source>
+        <translation>Sponte servatum hora %time</translation>
+    </message>
+    <message>
+        <source>Changes made on this device at %time were not saved: %fields</source>
+        <translation>Mutationes in hoc instrumento %time factae non sunt servatae: %fields</translation>
+    </message>
+    <message>
+        <source>Restore</source>
+        <translation>Restituere</translation>
+    </message>
+    <message>
+        <source>Restored. It is saved to the draft.</source>
+        <translation>Restitutum. In adumbratione servatum est.</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Abicere</translation>
+    </message>
+    <message>
+        <source>Unsaved changes on this page</source>
+        <translation>Mutationes non servatae in hac pagina</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Arca accepta</translation>
     </message>

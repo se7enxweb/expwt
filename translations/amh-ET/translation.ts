@@ -760,6 +760,30 @@
         <translation>ይህ ገጽ</translation>
     </message>
     <message>
+        <source>Saved automatically at %time</source>
+        <translation>በ%time በራስ-ሰር ተቀምጧል</translation>
+    </message>
+    <message>
+        <source>Changes made on this device at %time were not saved: %fields</source>
+        <translation>በዚህ መሣሪያ ላይ በ%time የተደረጉ ለውጦች አልተቀመጡም፦ %fields</translation>
+    </message>
+    <message>
+        <source>Restore</source>
+        <translation>መልስ</translation>
+    </message>
+    <message>
+        <source>Restored. It is saved to the draft.</source>
+        <translation>ተመልሷል። በረቂቁ ውስጥ ተቀምጧል።</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>ጣል</translation>
+    </message>
+    <message>
+        <source>Unsaved changes on this page</source>
+        <translation>በዚህ ገጽ ላይ ያልተቀመጡ ለውጦች</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>የገቢ ሳጥን</translation>
     </message>

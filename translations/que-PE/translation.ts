@@ -760,6 +760,30 @@
         <translation>Kay p'anqa</translation>
     </message>
     <message>
+        <source>Saved automatically at %time</source>
+        <translation>Kikillanmanta waqaychasqa %time-pi</translation>
+    </message>
+    <message>
+        <source>Changes made on this device at %time were not saved: %fields</source>
+        <translation>Kay antapi %time-pi ruwasqa tikraykuna mana waqaychasqachu: %fields</translation>
+    </message>
+    <message>
+        <source>Restore</source>
+        <translation>Kutichiy</translation>
+    </message>
+    <message>
+        <source>Restored. It is saved to the draft.</source>
+        <translation>Kutichisqañam. Qillqa kaqpi waqaychasqa.</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Wikch'uy</translation>
+    </message>
+    <message>
+        <source>Unsaved changes on this page</source>
+        <translation>Kay p'anqapi mana waqaychasqa tikraykuna</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Chaskina</translation>
     </message>

@@ -760,6 +760,30 @@
         <translation>Boggan</translation>
     </message>
     <message>
+        <source>Saved automatically at %time</source>
+        <translation>Si toos ah ayaa loo keydiyay %time</translation>
+    </message>
+    <message>
+        <source>Changes made on this device at %time were not saved: %fields</source>
+        <translation>Isbeddellada lagu sameeyay qalabkan %time lama keydin: %fields</translation>
+    </message>
+    <message>
+        <source>Restore</source>
+        <translation>Soo celi</translation>
+    </message>
+    <message>
+        <source>Restored. It is saved to the draft.</source>
+        <translation>Waa la soo celiyay. Waxaa lagu keydiyay qabyada.</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Tuur</translation>
+    </message>
+    <message>
+        <source>Unsaved changes on this page</source>
+        <translation>Isbeddello aan la keydin oo boggan ku jira</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Sanduuqa fariimaha</translation>
     </message>

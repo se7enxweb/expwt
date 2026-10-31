@@ -760,6 +760,30 @@
         <translation>Aquesta pagina</translation>
     </message>
     <message>
+        <source>Saved automatically at %time</source>
+        <translation>Enregistrat automaticament a %time</translation>
+    </message>
+    <message>
+        <source>Changes made on this device at %time were not saved: %fields</source>
+        <translation>Las modificacions fachas sus aqueste aparelh a %time son pas estadas enregistradas : %fields</translation>
+    </message>
+    <message>
+        <source>Restore</source>
+        <translation>Restablir</translation>
+    </message>
+    <message>
+        <source>Restored. It is saved to the draft.</source>
+        <translation>Restablit. Es enregistrat dins lo borrolhon.</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Abandonar</translation>
+    </message>
+    <message>
+        <source>Unsaved changes on this page</source>
+        <translation>Modificacions pas enregistradas sus aquesta pagina</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Bóstia de recepcion</translation>
     </message>

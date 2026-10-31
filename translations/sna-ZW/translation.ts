@@ -760,6 +760,30 @@
         <translation>Peji iri</translation>
     </message>
     <message>
+        <source>Saved automatically at %time</source>
+        <translation>Zvachengetedzwa zvega pa %time</translation>
+    </message>
+    <message>
+        <source>Changes made on this device at %time were not saved: %fields</source>
+        <translation>Shanduko dzakaitwa pachishandiso ichi pa %time hadzina kuchengetedzwa: %fields</translation>
+    </message>
+    <message>
+        <source>Restore</source>
+        <translation>Dzorera</translation>
+    </message>
+    <message>
+        <source>Restored. It is saved to the draft.</source>
+        <translation>Zvadzorerwa. Zvakachengetedzwa mudhirafiti.</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Rasa</translation>
+    </message>
+    <message>
+        <source>Unsaved changes on this page</source>
+        <translation>Shanduko dzisina kuchengetedzwa papeji iri</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Bhokisi rinopinda</translation>
     </message>

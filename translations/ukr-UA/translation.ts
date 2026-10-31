@@ -760,6 +760,30 @@
         <translation>Ця сторінка</translation>
     </message>
     <message>
+        <source>Saved automatically at %time</source>
+        <translation>Автоматично збережено о %time</translation>
+    </message>
+    <message>
+        <source>Changes made on this device at %time were not saved: %fields</source>
+        <translation>Зміни, зроблені на цьому пристрої о %time, не збережено: %fields</translation>
+    </message>
+    <message>
+        <source>Restore</source>
+        <translation>Відновити</translation>
+    </message>
+    <message>
+        <source>Restored. It is saved to the draft.</source>
+        <translation>Відновлено. Збережено в чернетці.</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Відкинути</translation>
+    </message>
+    <message>
+        <source>Unsaved changes on this page</source>
+        <translation>Незбережені зміни на цій сторінці</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Вхідні</translation>
     </message>

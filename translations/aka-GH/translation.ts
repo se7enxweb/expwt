@@ -760,6 +760,30 @@
         <translation>Krataafa yi</translation>
     </message>
     <message>
+        <source>Saved automatically at %time</source>
+        <translation>Wɔakora no ankasa wɔ %time</translation>
+    </message>
+    <message>
+        <source>Changes made on this device at %time were not saved: %fields</source>
+        <translation>Nsakrae a wɔyɛe wɔ mfiri yi so wɔ %time no, wɔankora: %fields</translation>
+    </message>
+    <message>
+        <source>Restore</source>
+        <translation>San fa bra</translation>
+    </message>
+    <message>
+        <source>Restored. It is saved to the draft.</source>
+        <translation>Wɔasan de aba. Wɔakora wɔ draft no mu.</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Twa gu</translation>
+    </message>
+    <message>
+        <source>Unsaved changes on this page</source>
+        <translation>Nsakrae a wɔnkoraeɛ wɔ krataafa yi so</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Nkrataa a aba</translation>
     </message>

@@ -760,6 +760,30 @@
         <translation>این صفحه</translation>
     </message>
     <message>
+        <source>Saved automatically at %time</source>
+        <translation>ساعت %time خودکار ذخیره شد</translation>
+    </message>
+    <message>
+        <source>Changes made on this device at %time were not saved: %fields</source>
+        <translation>تغییراتی که در این دستگاه در %time انجام شد ذخیره نشد: %fields</translation>
+    </message>
+    <message>
+        <source>Restore</source>
+        <translation>بازگردانی</translation>
+    </message>
+    <message>
+        <source>Restored. It is saved to the draft.</source>
+        <translation>بازگردانی شد. در پیش‌نویس ذخیره شده است.</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>دور انداختن</translation>
+    </message>
+    <message>
+        <source>Unsaved changes on this page</source>
+        <translation>تغییرات ذخیره‌نشده در این صفحه</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>صندوق ورودی</translation>
     </message>

@@ -760,6 +760,30 @@
         <translation>ئەم پەڕەیە</translation>
     </message>
     <message>
+        <source>Saved automatically at %time</source>
+        <translation>لە %time بە شێوەی خۆکار پاشەکەوت کرا</translation>
+    </message>
+    <message>
+        <source>Changes made on this device at %time were not saved: %fields</source>
+        <translation>ئەو گۆڕانکارییانەی لە %time لەم ئامێرەدا کران پاشەکەوت نەکران: %fields</translation>
+    </message>
+    <message>
+        <source>Restore</source>
+        <translation>گەڕاندنەوە</translation>
+    </message>
+    <message>
+        <source>Restored. It is saved to the draft.</source>
+        <translation>گەڕێندرایەوە. لە ڕەشنووسەکەدا پاشەکەوت کراوە.</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>فڕێدان</translation>
+    </message>
+    <message>
+        <source>Unsaved changes on this page</source>
+        <translation>گۆڕانکاریی پاشەکەوت نەکراو لەم پەڕەیەدا</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>هاتووەکان</translation>
     </message>

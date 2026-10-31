@@ -44,6 +44,64 @@
     ctx.say(err && err.message ? err.message : ctx.t('Something went wrong.'), 'bad');
   }
 
+  /* Lost work (F28): what is typed is saved to the server's draft every few seconds, only when something changed and
+     never into the field's editor that has the focus (saving it reloads its frame); and it is kept on this device
+     (localStorage) until the server has it. Coming back to the page, the Page panel offers what the server never got.
+       expwt.copy.<object>.<language>               the panel's own fields: {at, node, name, fields, base}
+       expwt.copyf.<object>.<language>.<field>      a field's editor (its frame writes it): {at, entries: [[name, value]]}
+     Pure, for the tests (tests/js/autosave.test.js). */
+  var Autosave = {
+    EVERY: 5000,
+    QUIET: 1500,
+    KEEP: 14 * 86400000,
+    key: function (objectId, language) { return 'expwt.copy.' + objectId + '.' + language; },
+    frameKey: function (objectId, language, identifier) { return 'expwt.copyf.' + objectId + '.' + language + '.' + identifier; },
+    read: function (storage, key) {
+      try { return JSON.parse(storage.getItem(key) || 'null'); } catch (e) { return null; }
+    },
+    write: function (storage, key, value) {
+      try {
+        if (value === null) { storage.removeItem(key); } else { storage.setItem(key, JSON.stringify(value)); }
+        return true;
+      } catch (e) { return false; }
+    },
+    /* the keys of the storage that start with prefix */
+    keys: function (storage, prefix) {
+      var out = [];
+      try {
+        for (var i = 0; i < storage.length; i++) {
+          var k = storage.key(i);
+          if (k && k.indexOf(prefix) === 0) { out.push(k); }
+        }
+      } catch (e) { return []; }
+      return out;
+    },
+    fresh: function (copy, now) { return !!(copy && copy.at && now - copy.at >= 0 && now - copy.at < Autosave.KEEP); },
+    /* the panel's own fields are saved once typing paused for QUIET */
+    formDue: function (dirty, lastChange, now) { return dirty > 0 && now - lastChange >= Autosave.QUIET; },
+    /* the editors to save now: changed, loaded, and not the one with the focus */
+    framesDue: function (entries, active) {
+      return entries.filter(function (e) { return e.changed && e.ready && e.frame && e.frame !== active; });
+    },
+    /* the fields of a copy whose value is not what the server has now (what the user would get back) */
+    differs: function (copyFields, current) {
+      return Object.keys(copyFields || {}).filter(function (k) {
+        return Object.prototype.hasOwnProperty.call(current, k) && copyFields[k] !== current[k];
+      });
+    },
+    /* the copies of other pages that are too old: removed when a page is opened */
+    expired: function (storage, now) {
+      Autosave.keys(storage, 'expwt.copy').forEach(function (k) {
+        if (!Autosave.fresh(Autosave.read(storage, k), now)) { Autosave.write(storage, k, null); }
+      });
+    }
+  };
+  window.ExpwtAutosave = Autosave;
+
+  function local() {
+    try { return window.localStorage; } catch (e) { return null; }
+  }
+
   /* ---------------------------------------------------------------------------------------------- page */
 
   function page(ctx, root) {
@@ -124,6 +182,9 @@
       ]));
     }
     drawLock(p.lock);
+    /* what this device kept and the server never got (F28): offered back, see offer() */
+    var offerBox = h('div', {});
+    root.appendChild(offerBox);
 
     if (!p.can.edit) {
       ctx.host.pendingField = null;
@@ -312,14 +373,23 @@
     root.expwtArrange = arrange;
     root.addEventListener('expwt-orient', arrange);
 
+    /* the saves one after the other (the first makes the draft, the others go into it): the buttons and autosave */
+    var queue = Promise.resolve();
+    function serial(fn) {
+      var run = queue.then(fn, fn);
+      queue = run.catch(function () {});
+      return run;
+    }
     var saveBtn = h('button', { type: 'button', class: 'wt-btn', text: t('Save draft'), onclick: function () {
-      saveFrames().then(function (savedSome) {
-        if (Object.keys(dirtyFields()).length) { return save(); }
-        if (!savedSome) { ctx.say(t('Nothing to save.')); }
-        return null;
+      serial(function () {
+        return saveFrames().then(function (savedSome) {
+          if (Object.keys(dirtyFields()).length) { return save(); }
+          if (!savedSome) { ctx.say(t('Nothing to save.')); }
+          return null;
+        });
       }).catch(function () {});
     } });
-    var publishBtn = h('button', { type: 'button', class: 'wt-btn is-primary', text: t('Publish'), onclick: function () { publish(); } });
+    var publishBtn = h('button', { type: 'button', class: 'wt-btn is-primary', text: t('Publish'), onclick: function () { serial(publish); } });
     var discardBtn = h('button', { type: 'button', class: 'wt-btn is-danger', text: t('Discard draft'), onclick: function () { discard(); } });
     var mainActions = h('div', { class: 'wt-row wt-primary' }, [saveBtn, publishBtn, discardBtn]);
     root.appendChild(mainActions);
@@ -380,7 +450,7 @@
       var next = node.nextSibling;
       var saveB = h('button', { type: 'button', class: 'wt-btn', text: t('Save draft'), onclick: function () {
         note.textContent = t('Saving ...');
-        var run = entry ? saveOne(entry) : save().then(function () { return true; });
+        var run = serial(function () { return entry ? saveOne(entry) : save().then(function () { return true; }); });
         run.then(function (saved) {
           if (entry && saved === false && Object.keys(dirtyFields()).length) { return save().then(function () { return true; }); }
           return saved;
@@ -388,7 +458,7 @@
           note.textContent = saved === false ? t('Nothing to save.') : t('The draft is saved.');
         }, function () { note.textContent = t('This value does not fit the field.'); });
       } });
-      var publishB = h('button', { type: 'button', class: 'wt-btn is-primary', text: t('Publish'), onclick: function () { publish(); } });
+      var publishB = h('button', { type: 'button', class: 'wt-btn is-primary', text: t('Publish'), onclick: function () { serial(publish); } });
       ctx.openSheet(f.name, node, [saveB, publishB, note], function (done) {
         var back = function () {
           if (home.isConnected) { ctx.move(home, node, next && next.parentNode === home ? next : null); }
@@ -408,10 +478,12 @@
       if (entry.ready) { send(); } else { entry.onReady = send; }
     }
 
-    function saveOne(entry) {
+    /* quiet: autosave, which says nothing in the status line (the panel shows "Saved automatically at ...") */
+    function saveOne(entry, quiet) {
       return new Promise(function (resolve, reject) {
         entry.waiter = { resolve: resolve, reject: reject };
-        entry.frame.contentWindow.postMessage({ expwt: 'field-save' }, window.location.origin);
+        entry.quiet = !!quiet;
+        entry.frame.contentWindow.postMessage({ expwt: 'field-save', auto: !!quiet }, window.location.origin);
         setTimeout(function () { if (entry.waiter) { entry.waiter = null; reject(new Error('timeout')); } }, 30000);
       });
     }
@@ -453,10 +525,16 @@
           f.value = m.value.value;
           f.names = m.value.names;
         }
-        if (entry) { entry.ready = true; }
-        ctx.say(t('The draft is saved.'), 'ok');
+        if (entry) { entry.ready = true; entry.changed = false; }
+        if (entry && entry.quiet) { autosaved(); } else { ctx.say(t('The draft is saved.'), 'ok'); }
         if (entry && entry.waiter) { entry.waiter.resolve(true); entry.waiter = null; }
+        keep();
+      } else if (m.expwt === 'field-changed') {
+        /* typed into: autosave saves it once the focus has left it; the frame keeps its copy on this device */
+        if (entry) { entry.changed = !!m.changed; lastChange = Date.now(); }
+        keep();
       } else if (m.expwt === 'field-unchanged') {
+        if (entry) { entry.changed = false; }
         if (entry && entry.waiter) { entry.waiter.resolve(false); entry.waiter = null; }
       } else if (m.expwt === 'field-ready') {
         if (entry) {
@@ -479,6 +557,114 @@
     root.addEventListener('expwt-field', fromField);
 
 
+    /* ---- lost work (F28): autosave to the server's draft and the copy on this device */
+    var store = local();
+    var copyKey = Autosave.key(p.objectId, p.language);
+    var framePrefix = Autosave.frameKey(p.objectId, p.language, '');
+    var lastChange = 0;
+    var keepTimer = null;
+    var autoBusy = false;
+    var autoNote = h('p', { class: 'wt-muted wt-autosaved' });
+    head.appendChild(autoNote);
+    /* the panel's fields not yet on the server, and which editors keep a copy of their own: on this device */
+    function keep() {
+      clearTimeout(keepTimer);
+      keepTimer = null;
+      if (!store) { return; }
+      var fields = dirtyFields();
+      var from = {};
+      Object.keys(fields).forEach(function (k) { from[k] = base[k]; });
+      var editors = Object.keys(frames).filter(function (id) { return frames[id].changed; });
+      if (!Object.keys(fields).length && !editors.length) { Autosave.write(store, copyKey, null); unmark(); return; }
+      Autosave.write(store, copyKey, { at: Date.now(), node: ctx.node || null, name: p.name, fields: fields, base: from, frames: editors });
+    }
+    function keepSoon() {
+      if (!keepTimer) { keepTimer = setTimeout(keep, 400); }
+    }
+    /* published or discarded: nothing of this page is kept on the device any more */
+    /* the mark on the closed tab ("Unsaved changes on this page") goes with the copy */
+    function unmark() {
+      var mark = ctx.host.tab ? ctx.host.tab.querySelector('[data-badge="unsaved"]') : null;
+      if (mark) { mark.remove(); }
+    }
+    function forget() {
+      unmark();
+      if (!store) { return; }
+      Autosave.write(store, copyKey, null);
+      Autosave.keys(store, framePrefix).forEach(function (k) { Autosave.write(store, k, null); });
+    }
+    function autosaved() {
+      var d = new Date();
+      autoNote.textContent = t('Saved automatically at %time').replace('%time', pad(d.getHours()) + ':' + pad(d.getMinutes()));
+    }
+    function autosave() {
+      if (!root.isConnected) { clearInterval(autoTimer); window.removeEventListener('pagehide', keep); return; }
+      if (autoBusy || conflictBox.firstChild) { return; }
+      var active = root.getRootNode ? root.getRootNode().activeElement : null;
+      var due = Autosave.framesDue(Object.keys(frames).map(function (id) { return frames[id]; }), active);
+      var form = Autosave.formDue(Object.keys(dirtyFields()).length, lastChange, Date.now());
+      if (!due.length && !form) { return; }
+      autoBusy = true;
+      serial(function () {
+        var chain = Promise.resolve();
+        due.forEach(function (e) { chain = chain.then(function () { return saveOne(e, true); }); });
+        return chain.then(function () { return form ? save(true) : null; });
+      }).then(function () { autoBusy = false; }, function () { autoBusy = false; });
+    }
+    var autoTimer = setInterval(autosave, Autosave.EVERY);
+    window.addEventListener('pagehide', keep);
+
+    /* Coming back: what this device kept of the page and the server does not have, offered back (not for copies older
+       than two weeks). Restore puts it into the fields and saves it to the draft; Discard forgets it. */
+    function offer() {
+      if (!store) { return; }
+      var now = Date.now();
+      Autosave.expired(store, now);
+      var copy = Autosave.read(store, copyKey);
+      var current = {};
+      p.fields.forEach(function (f) { current[f.identifier] = f.value; });
+      var back = copy ? Autosave.differs(copy.fields, current).filter(function (k) { return inputs[k]; }) : [];
+      var editors = Autosave.keys(store, framePrefix).map(function (k) { return k.slice(framePrefix.length); })
+        .filter(function (id) { return frames[id]; });
+      if (!back.length && !editors.length) {
+        if (copy) { Autosave.write(store, copyKey, null); }
+        return;
+      }
+      var at = copy ? copy.at : 0;
+      editors.forEach(function (id) { var c = Autosave.read(store, framePrefix + id); at = Math.max(at, c && c.at || 0); });
+      var names = p.fields.filter(function (f) { return back.indexOf(f.identifier) >= 0 || editors.indexOf(f.identifier) >= 0; })
+        .map(function (f) { return f.name; });
+      offerBox.textContent = '';
+      offerBox.appendChild(h('div', { class: 'wt-notice is-warn wt-offer', role: 'status' }, [
+        h('p', { text: t('Changes made on this device at %time were not saved: %fields').replace('%time', when(Math.floor(at / 1000)))
+          .replace('%fields', names.join(', ')) }),
+        h('div', { class: 'wt-row' }, [
+          h('button', { type: 'button', class: 'wt-btn is-primary', text: t('Restore'), onclick: function () {
+            offerBox.textContent = '';
+            back.forEach(function (k) {
+              if (copy.base && Object.prototype.hasOwnProperty.call(copy.base, k)) { base[k] = copy.base[k]; }
+              inputs[k].set(copy.fields[k]);
+              change(k, copy.fields[k], true);
+            });
+            /* each editor takes its copy and saves it to the draft (its frame posts it as its own form would) */
+            editors.forEach(function (id) {
+              var e = frames[id];
+              load(e);
+              var go = function () { e.frame.contentWindow.postMessage({ expwt: 'field-restore' }, window.location.origin); };
+              if (e.ready) { go(); } else { e.onReady = go; }
+            });
+            ctx.say(t('Restored. It is saved to the draft.'), 'ok');
+            if (back.length) { serial(function () { return save(true); }).catch(function () {}); }
+          } }),
+          h('button', { type: 'button', class: 'wt-btn', text: t('Discard'), onclick: function () {
+            offerBox.textContent = '';
+            forget();
+          } })
+        ])
+      ]));
+    }
+    offer();
+
     function dirtyFields() {
       var out = {};
       Object.keys(values).forEach(function (k) { if (values[k] !== base[k]) { out[k] = values[k]; } });
@@ -487,6 +673,8 @@
 
     function change(id, value, fromForm) {
       values[id] = value;
+      lastChange = Date.now();
+      keepSoon();
       if (rows[id]) { rows[id].setAttribute('data-dirty', values[id] !== base[id] ? 'true' : 'false'); }
       if (fromForm && inline) { mirror(id); }
       if (!locked) {
@@ -501,26 +689,31 @@
       }
     }
 
-    function save() {
+    function save(quiet) {
       var fields = dirtyFields();
       if (!Object.keys(fields).length) {
-        ctx.say(t('Nothing to save.'));
+        if (!quiet) { ctx.say(t('Nothing to save.')); }
         return Promise.resolve(version);
       }
       var sentBase = {};
       Object.keys(fields).forEach(function (k) { sentBase[k] = base[k]; });
-      ctx.say(t('Saving ...'));
+      if (!quiet) { ctx.say(t('Saving ...')); }
       return ctx.call('draft.save', { objectId: p.objectId, language: p.language, version: version, publishedVersion: published,
         fields: fields, base: sentBase, choices: choices }).then(function (r) {
         if (r.version) { version = r.version; }
         if (r.publishedVersion) { published = r.publishedVersion; }
-        Object.keys(fields).forEach(function (k) { base[k] = values[k]; if (rows[k]) { rows[k].setAttribute('data-dirty', 'false'); } });
+        /* what was sent is saved; what was typed while it was on its way stays to be saved */
+        Object.keys(fields).forEach(function (k) {
+          base[k] = fields[k];
+          if (rows[k]) { rows[k].setAttribute('data-dirty', values[k] !== base[k] ? 'true' : 'false'); }
+        });
         choices = {};
         conflictBox.textContent = '';
         discardBtn.hidden = !version;
         p.urls.preview = r.previewUrl || p.urls.preview;
         drawChips();
-        ctx.say(t('The draft is saved.'), 'ok');
+        if (quiet) { autosaved(); } else { ctx.say(t('The draft is saved.'), 'ok'); }
+        keep();
         return version;
       }, function (err) {
         if (err.status === 409 && err.body && err.body.details) {
@@ -556,7 +749,7 @@
 
     function publish() {
       var first = saveFrames().then(function () { return Object.keys(dirtyFields()).length ? save() : version; });
-      first.then(function (v) {
+      return first.then(function (v) {
         if (!v) {
           ctx.say(t('Change something first: there is no draft to publish.'));
           return null;
@@ -568,6 +761,7 @@
         if (unpublishAt.input) { input.unpublishAt = fromInput(unpublishAt.kind, unpublishAt.input.value); }
         ctx.say(t('Publishing ...'));
         return ctx.call('draft.publish', input).then(function (r) {
+          forget();
           if (r.status === 'PUBLISHED') {
             ctx.say(t('Published.'), 'ok');
             ctx.host.draftTarget = null;
@@ -593,6 +787,7 @@
     function discard() {
       if (!version || !window.confirm(t('Throw this draft away?'))) { return; }
       ctx.call('draft.discard', { objectId: p.objectId, version: version }).then(function () {
+        forget();
         ctx.host.draftTarget = null;
         ctx.say(t('The draft is gone.'), 'ok');
         setInline(false);
@@ -886,7 +1081,11 @@
           return h('option', { value: o, text: o, selected: chosen.indexOf(o) >= 0 });
         })));
         el = sel;
-        set = function () {};
+        /* a value put back (a copy restored, F28) */
+        set = function (v) {
+          var want = String(v || '').split('|');
+          Array.prototype.forEach.call(sel.options, function (o) { o.selected = want.indexOf(o.value) >= 0; });
+        };
         break;
       case 'date':
       case 'datetime':
@@ -895,7 +1094,7 @@
         var d = h('input', { type: kind === 'datetime' ? 'datetime-local' : kind, id: id, value: toInput(kind, f.value),
           onchange: function () { onChange(fromInput(kind, d.value)); } });
         el = d;
-        set = function () {};
+        set = function (v) { d.value = toInput(kind, v); };
         break;
       case 'url':
         /* a link: its address and its text, two inputs (the datatype's string form "address|text" never shows) */

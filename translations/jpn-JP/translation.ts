@@ -760,6 +760,30 @@
         <translation>このページ</translation>
     </message>
     <message>
+        <source>Saved automatically at %time</source>
+        <translation>%time に自動保存しました</translation>
+    </message>
+    <message>
+        <source>Changes made on this device at %time were not saved: %fields</source>
+        <translation>この端末で %time に行った変更は保存されていません：%fields</translation>
+    </message>
+    <message>
+        <source>Restore</source>
+        <translation>復元</translation>
+    </message>
+    <message>
+        <source>Restored. It is saved to the draft.</source>
+        <translation>復元しました。下書きに保存されています。</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>破棄</translation>
+    </message>
+    <message>
+        <source>Unsaved changes on this page</source>
+        <translation>このページに保存されていない変更があります</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>受信箱</translation>
     </message>

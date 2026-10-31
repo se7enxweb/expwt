@@ -760,6 +760,30 @@
         <translation>हे पृष्ठ</translation>
     </message>
     <message>
+        <source>Saved automatically at %time</source>
+        <translation>%time वाजता आपोआप जतन केले</translation>
+    </message>
+    <message>
+        <source>Changes made on this device at %time were not saved: %fields</source>
+        <translation>या उपकरणावर %time वाजता केलेले बदल जतन झाले नाहीत: %fields</translation>
+    </message>
+    <message>
+        <source>Restore</source>
+        <translation>पुनर्संचयित करा</translation>
+    </message>
+    <message>
+        <source>Restored. It is saved to the draft.</source>
+        <translation>पुनर्संचयित केले. ते मसुद्यात जतन केले आहे.</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>टाकून द्या</translation>
+    </message>
+    <message>
+        <source>Unsaved changes on this page</source>
+        <translation>या पानावरील जतन न केलेले बदल</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>इनबॉक्स</translation>
     </message>

@@ -760,6 +760,30 @@
         <translation>Bu sahypa</translation>
     </message>
     <message>
+        <source>Saved automatically at %time</source>
+        <translation>%time awtomatik ýatda saklandy</translation>
+    </message>
+    <message>
+        <source>Changes made on this device at %time were not saved: %fields</source>
+        <translation>Bu enjamda %time edilen üýtgeşmeler ýatda saklanmady: %fields</translation>
+    </message>
+    <message>
+        <source>Restore</source>
+        <translation>Dikelt</translation>
+    </message>
+    <message>
+        <source>Restored. It is saved to the draft.</source>
+        <translation>Dikeldildi. Garalamada ýatda saklandy.</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Taşla</translation>
+    </message>
+    <message>
+        <source>Unsaved changes on this page</source>
+        <translation>Bu sahypada ýatda saklanmadyk üýtgeşmeler</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Gelenler</translation>
     </message>

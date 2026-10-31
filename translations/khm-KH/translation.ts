@@ -760,6 +760,30 @@
         <translation>ទំព័រនេះ</translation>
     </message>
     <message>
+        <source>Saved automatically at %time</source>
+        <translation>បានរក្សាទុកដោយស្វ័យប្រវត្តិនៅម៉ោង %time</translation>
+    </message>
+    <message>
+        <source>Changes made on this device at %time were not saved: %fields</source>
+        <translation>ការផ្លាស់ប្តូរដែលបានធ្វើលើឧបករណ៍នេះនៅ %time មិនត្រូវបានរក្សាទុកទេ៖ %fields</translation>
+    </message>
+    <message>
+        <source>Restore</source>
+        <translation>ស្ដារ</translation>
+    </message>
+    <message>
+        <source>Restored. It is saved to the draft.</source>
+        <translation>បានស្ដារ។ វាត្រូវបានរក្សាទុកក្នុងសេចក្តីព្រាង។</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>បោះបង់</translation>
+    </message>
+    <message>
+        <source>Unsaved changes on this page</source>
+        <translation>ការផ្លាស់ប្តូរដែលមិនទាន់រក្សាទុកនៅលើទំព័រនេះ</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>ប្រអប់ទទួល</translation>
     </message>

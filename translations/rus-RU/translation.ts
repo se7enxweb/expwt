@@ -760,6 +760,30 @@
         <translation>Эта страница</translation>
     </message>
     <message>
+        <source>Saved automatically at %time</source>
+        <translation>Автоматически сохранено в %time</translation>
+    </message>
+    <message>
+        <source>Changes made on this device at %time were not saved: %fields</source>
+        <translation>Изменения, сделанные на этом устройстве в %time, не сохранены: %fields</translation>
+    </message>
+    <message>
+        <source>Restore</source>
+        <translation>Восстановить</translation>
+    </message>
+    <message>
+        <source>Restored. It is saved to the draft.</source>
+        <translation>Восстановлено. Сохранено в черновике.</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Отклонить</translation>
+    </message>
+    <message>
+        <source>Unsaved changes on this page</source>
+        <translation>Несохранённые изменения на этой странице</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Входящие</translation>
     </message>

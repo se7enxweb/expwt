@@ -760,6 +760,30 @@
         <translation>Ta stran</translation>
     </message>
     <message>
+        <source>Saved automatically at %time</source>
+        <translation>Samodejno shranjeno ob %time</translation>
+    </message>
+    <message>
+        <source>Changes made on this device at %time were not saved: %fields</source>
+        <translation>Spremembe, narejene na tej napravi ob %time, niso bile shranjene: %fields</translation>
+    </message>
+    <message>
+        <source>Restore</source>
+        <translation>Obnovi</translation>
+    </message>
+    <message>
+        <source>Restored. It is saved to the draft.</source>
+        <translation>Obnovljeno. Shranjeno je v osnutek.</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Zavrzi</translation>
+    </message>
+    <message>
+        <source>Unsaved changes on this page</source>
+        <translation>Neshranjene spremembe na tej strani</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Prejeto</translation>
     </message>

@@ -760,6 +760,30 @@
         <translation>Ukurasa huu</translation>
     </message>
     <message>
+        <source>Saved automatically at %time</source>
+        <translation>Imehifadhiwa kiotomatiki saa %time</translation>
+    </message>
+    <message>
+        <source>Changes made on this device at %time were not saved: %fields</source>
+        <translation>Mabadiliko yaliyofanywa kwenye kifaa hiki saa %time hayakuhifadhiwa: %fields</translation>
+    </message>
+    <message>
+        <source>Restore</source>
+        <translation>Rejesha</translation>
+    </message>
+    <message>
+        <source>Restored. It is saved to the draft.</source>
+        <translation>Imerejeshwa. Imehifadhiwa kwenye rasimu.</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Tupa</translation>
+    </message>
+    <message>
+        <source>Unsaved changes on this page</source>
+        <translation>Mabadiliko ambayo hayajahifadhiwa kwenye ukurasa huu</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Kikasha</translation>
     </message>

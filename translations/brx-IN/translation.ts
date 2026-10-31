@@ -760,6 +760,30 @@
         <translation>बे बिखं</translation>
     </message>
     <message>
+        <source>Saved automatically at %time</source>
+        <translation>%time आव गावनो दोनजादों</translation>
+    </message>
+    <message>
+        <source>Changes made on this device at %time were not saved: %fields</source>
+        <translation>बे डिभाइसआव %time आव खालामनाय सोलायनायफोर दोनजाया: %fields</translation>
+    </message>
+    <message>
+        <source>Restore</source>
+        <translation>फिन लाबो</translation>
+    </message>
+    <message>
+        <source>Restored. It is saved to the draft.</source>
+        <translation>फिन लाबोनाय जादों। बेखौ खस्राआव दोनजादों।</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>गार</translation>
+    </message>
+    <message>
+        <source>Unsaved changes on this page</source>
+        <translation>बे बिलाइखानाआव दोनथावि सोलायनाय</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>इनबक्स</translation>
     </message>

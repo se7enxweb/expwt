@@ -760,6 +760,30 @@
         <translation>Questa pagina</translation>
     </message>
     <message>
+        <source>Saved automatically at %time</source>
+        <translation>Memorisà automaticamain a las %time</translation>
+    </message>
+    <message>
+        <source>Changes made on this device at %time were not saved: %fields</source>
+        <translation>Las midadas fatgas sin quest apparat a las %time n'èn betg vegnidas memorisadas: %fields</translation>
+    </message>
+    <message>
+        <source>Restore</source>
+        <translation>Restaurar</translation>
+    </message>
+    <message>
+        <source>Restored. It is saved to the draft.</source>
+        <translation>Restaurà. Igl è memorisà en il sboz.</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Rinunziar</translation>
+    </message>
+    <message>
+        <source>Unsaved changes on this page</source>
+        <translation>Midadas betg memorisadas sin questa pagina</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Chascha d'entrada</translation>
     </message>

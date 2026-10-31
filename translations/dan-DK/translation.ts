@@ -760,6 +760,30 @@
         <translation>Denne side</translation>
     </message>
     <message>
+        <source>Saved automatically at %time</source>
+        <translation>Gemt automatisk kl. %time</translation>
+    </message>
+    <message>
+        <source>Changes made on this device at %time were not saved: %fields</source>
+        <translation>Ændringer foretaget på denne enhed %time blev ikke gemt: %fields</translation>
+    </message>
+    <message>
+        <source>Restore</source>
+        <translation>Gendan</translation>
+    </message>
+    <message>
+        <source>Restored. It is saved to the draft.</source>
+        <translation>Gendannet. Det er gemt i udkastet.</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Kassér</translation>
+    </message>
+    <message>
+        <source>Unsaved changes on this page</source>
+        <translation>Ikke-gemte ændringer på denne side</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Indbakke</translation>
     </message>

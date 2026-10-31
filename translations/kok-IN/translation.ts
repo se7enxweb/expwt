@@ -760,6 +760,30 @@
         <translation>हें पान</translation>
     </message>
     <message>
+        <source>Saved automatically at %time</source>
+        <translation>%time वेळार आपसूक सांबाळ्ळें</translation>
+    </message>
+    <message>
+        <source>Changes made on this device at %time were not saved: %fields</source>
+        <translation>ह्या उपकरणाचेर %time वेळार केल्ले बदल सांबाळूंक नात: %fields</translation>
+    </message>
+    <message>
+        <source>Restore</source>
+        <translation>परत हाड</translation>
+    </message>
+    <message>
+        <source>Restored. It is saved to the draft.</source>
+        <translation>परत हाडलें. तें मसुद्यांत सांबाळ्ळां.</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>काडून उडय</translation>
+    </message>
+    <message>
+        <source>Unsaved changes on this page</source>
+        <translation>ह्या पानाचेर सांबाळूंक नाशिल्ले बदल</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>इनबॉक्स</translation>
     </message>

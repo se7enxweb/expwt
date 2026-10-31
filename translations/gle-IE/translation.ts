@@ -760,6 +760,30 @@
         <translation>An leathanach seo</translation>
     </message>
     <message>
+        <source>Saved automatically at %time</source>
+        <translation>Sábháladh go huathoibríoch ag %time</translation>
+    </message>
+    <message>
+        <source>Changes made on this device at %time were not saved: %fields</source>
+        <translation>Níor sábháladh na hathruithe a rinneadh ar an ngléas seo ag %time: %fields</translation>
+    </message>
+    <message>
+        <source>Restore</source>
+        <translation>Athchóirigh</translation>
+    </message>
+    <message>
+        <source>Restored. It is saved to the draft.</source>
+        <translation>Athchóirithe. Tá sé sábháilte sa dréacht.</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Caith i leataobh</translation>
+    </message>
+    <message>
+        <source>Unsaved changes on this page</source>
+        <translation>Athruithe gan sábháil ar an leathanach seo</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Bosca isteach</translation>
     </message>

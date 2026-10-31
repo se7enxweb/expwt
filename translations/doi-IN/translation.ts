@@ -760,6 +760,30 @@
         <translation>एह् पन्ना</translation>
     </message>
     <message>
+        <source>Saved automatically at %time</source>
+        <translation>%time पर अपने आप सेव होई गेआ</translation>
+    </message>
+    <message>
+        <source>Changes made on this device at %time were not saved: %fields</source>
+        <translation>इस डिवाइस पर %time पर कीते गेदे बदलाव सेव नेईं होए: %fields</translation>
+    </message>
+    <message>
+        <source>Restore</source>
+        <translation>वापस लेओ</translation>
+    </message>
+    <message>
+        <source>Restored. It is saved to the draft.</source>
+        <translation>वापस आई गेआ। एह् मसौदे च सेव ऐ।</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>छोड़ो</translation>
+    </message>
+    <message>
+        <source>Unsaved changes on this page</source>
+        <translation>इस पन्ने पर बिना सेव कीते बदलाव</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>इनबॉक्स</translation>
     </message>

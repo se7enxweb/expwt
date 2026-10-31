@@ -760,6 +760,30 @@
         <translation>Αυτή η σελίδα</translation>
     </message>
     <message>
+        <source>Saved automatically at %time</source>
+        <translation>Αποθηκεύτηκε αυτόματα στις %time</translation>
+    </message>
+    <message>
+        <source>Changes made on this device at %time were not saved: %fields</source>
+        <translation>Οι αλλαγές σε αυτή τη συσκευή στις %time δεν αποθηκεύτηκαν: %fields</translation>
+    </message>
+    <message>
+        <source>Restore</source>
+        <translation>Επαναφορά</translation>
+    </message>
+    <message>
+        <source>Restored. It is saved to the draft.</source>
+        <translation>Έγινε επαναφορά. Αποθηκεύτηκε στο προσχέδιο.</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Απόρριψη</translation>
+    </message>
+    <message>
+        <source>Unsaved changes on this page</source>
+        <translation>Μη αποθηκευμένες αλλαγές σε αυτή τη σελίδα</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Εισερχόμενα</translation>
     </message>

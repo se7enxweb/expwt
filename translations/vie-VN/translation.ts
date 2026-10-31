@@ -760,6 +760,30 @@
         <translation>Trang này</translation>
     </message>
     <message>
+        <source>Saved automatically at %time</source>
+        <translation>Đã tự động lưu lúc %time</translation>
+    </message>
+    <message>
+        <source>Changes made on this device at %time were not saved: %fields</source>
+        <translation>Các thay đổi trên thiết bị này lúc %time chưa được lưu: %fields</translation>
+    </message>
+    <message>
+        <source>Restore</source>
+        <translation>Khôi phục</translation>
+    </message>
+    <message>
+        <source>Restored. It is saved to the draft.</source>
+        <translation>Đã khôi phục. Đã được lưu vào bản nháp.</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Hủy</translation>
+    </message>
+    <message>
+        <source>Unsaved changes on this page</source>
+        <translation>Thay đổi chưa lưu trên trang này</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Hộp thư đến</translation>
     </message>

@@ -760,6 +760,30 @@
         <translation>Bu sahifa</translation>
     </message>
     <message>
+        <source>Saved automatically at %time</source>
+        <translation>%time da avtomatik saqlandi</translation>
+    </message>
+    <message>
+        <source>Changes made on this device at %time were not saved: %fields</source>
+        <translation>Bu qurilmada %time da kiritilgan oʻzgarishlar saqlanmadi: %fields</translation>
+    </message>
+    <message>
+        <source>Restore</source>
+        <translation>Tiklash</translation>
+    </message>
+    <message>
+        <source>Restored. It is saved to the draft.</source>
+        <translation>Tiklandi. Qoralamada saqlandi.</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Bekor qilish</translation>
+    </message>
+    <message>
+        <source>Unsaved changes on this page</source>
+        <translation>Bu sahifada saqlanmagan oʻzgarishlar</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Kiruvchilar</translation>
     </message>

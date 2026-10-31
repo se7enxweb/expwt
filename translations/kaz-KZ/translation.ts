@@ -760,6 +760,30 @@
         <translation>Бұл бет</translation>
     </message>
     <message>
+        <source>Saved automatically at %time</source>
+        <translation>%time кезінде автоматты түрде сақталды</translation>
+    </message>
+    <message>
+        <source>Changes made on this device at %time were not saved: %fields</source>
+        <translation>Осы құрылғыда %time кезінде енгізілген өзгерістер сақталмады: %fields</translation>
+    </message>
+    <message>
+        <source>Restore</source>
+        <translation>Қалпына келтіру</translation>
+    </message>
+    <message>
+        <source>Restored. It is saved to the draft.</source>
+        <translation>Қалпына келтірілді. Жобада сақталды.</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Жою</translation>
+    </message>
+    <message>
+        <source>Unsaved changes on this page</source>
+        <translation>Осы беттегі сақталмаған өзгерістер</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Кіріс</translation>
     </message>

@@ -760,6 +760,30 @@
         <translation>Asebter-a</translation>
     </message>
     <message>
+        <source>Saved automatically at %time</source>
+        <translation>Yettwasekles s wudem awurman ɣef %time</translation>
+    </message>
+    <message>
+        <source>Changes made on this device at %time were not saved: %fields</source>
+        <translation>Ibeddilen yettwagen deg yibenk-a ɣef %time ur ttwaseklasen ara: %fields</translation>
+    </message>
+    <message>
+        <source>Restore</source>
+        <translation>Err-d</translation>
+    </message>
+    <message>
+        <source>Restored. It is saved to the draft.</source>
+        <translation>Yuɣal-d. Yettwasekles deg urewway.</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Ttu</translation>
+    </message>
+    <message>
+        <source>Unsaved changes on this page</source>
+        <translation>Ibeddilen ur nettwasekles ara deg usebter-a</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Tanaka n ukcam</translation>
     </message>

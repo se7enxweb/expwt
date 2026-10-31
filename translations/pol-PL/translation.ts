@@ -760,6 +760,30 @@
         <translation>Ta strona</translation>
     </message>
     <message>
+        <source>Saved automatically at %time</source>
+        <translation>Zapisano automatycznie o %time</translation>
+    </message>
+    <message>
+        <source>Changes made on this device at %time were not saved: %fields</source>
+        <translation>Zmiany wprowadzone na tym urządzeniu %time nie zostały zapisane: %fields</translation>
+    </message>
+    <message>
+        <source>Restore</source>
+        <translation>Przywróć</translation>
+    </message>
+    <message>
+        <source>Restored. It is saved to the draft.</source>
+        <translation>Przywrócono. Zapisano w wersji roboczej.</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Odrzuć</translation>
+    </message>
+    <message>
+        <source>Unsaved changes on this page</source>
+        <translation>Niezapisane zmiany na tej stronie</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Skrzynka odbiorcza</translation>
     </message>

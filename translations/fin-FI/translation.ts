@@ -760,6 +760,30 @@
         <translation>Tämä sivu</translation>
     </message>
     <message>
+        <source>Saved automatically at %time</source>
+        <translation>Tallennettu automaattisesti klo %time</translation>
+    </message>
+    <message>
+        <source>Changes made on this device at %time were not saved: %fields</source>
+        <translation>Tällä laitteella klo %time tehtyjä muutoksia ei tallennettu: %fields</translation>
+    </message>
+    <message>
+        <source>Restore</source>
+        <translation>Palauta</translation>
+    </message>
+    <message>
+        <source>Restored. It is saved to the draft.</source>
+        <translation>Palautettu. Se on tallennettu luonnokseen.</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Hylkää</translation>
+    </message>
+    <message>
+        <source>Unsaved changes on this page</source>
+        <translation>Tallentamattomia muutoksia tällä sivulla</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Saapuneet</translation>
     </message>

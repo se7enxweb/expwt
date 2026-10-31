@@ -760,6 +760,30 @@
         <translation>Lokasa oyo</translation>
     </message>
     <message>
+        <source>Saved automatically at %time</source>
+        <translation>Ebómbami yango moko na %time</translation>
+    </message>
+    <message>
+        <source>Changes made on this device at %time were not saved: %fields</source>
+        <translation>Mbongwana oyo esalemaki na esaleli oyo na %time ebómbami te: %fields</translation>
+    </message>
+    <message>
+        <source>Restore</source>
+        <translation>Zongisá</translation>
+    </message>
+    <message>
+        <source>Restored. It is saved to the draft.</source>
+        <translation>Ezongisami. Ebómbami na brouillon.</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Bwakisá</translation>
+    </message>
+    <message>
+        <source>Unsaved changes on this page</source>
+        <translation>Mbongwana oyo ebómbami te na lokasa oyo</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Bokóti ya mikanda</translation>
     </message>

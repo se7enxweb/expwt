@@ -760,6 +760,30 @@
         <translation>Ang pahinang ito</translation>
     </message>
     <message>
+        <source>Saved automatically at %time</source>
+        <translation>Awtomatikong na-save noong %time</translation>
+    </message>
+    <message>
+        <source>Changes made on this device at %time were not saved: %fields</source>
+        <translation>Hindi na-save ang mga pagbabagong ginawa sa device na ito noong %time: %fields</translation>
+    </message>
+    <message>
+        <source>Restore</source>
+        <translation>Ibalik</translation>
+    </message>
+    <message>
+        <source>Restored. It is saved to the draft.</source>
+        <translation>Naibalik na. Naka-save ito sa draft.</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Itapon</translation>
+    </message>
+    <message>
+        <source>Unsaved changes on this page</source>
+        <translation>Mga hindi na-save na pagbabago sa pahinang ito</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Inbox</translation>
     </message>

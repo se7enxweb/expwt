@@ -387,6 +387,17 @@ class expwtPureTest extends PHPUnit\Framework\TestCase
         $this->assertStringStartsWith( 'PASS', (string)end( $out ) );
     }
 
+    /** Lost work (F28): autosave and the copy on this device (tests/js/autosave.test.js, Node) */
+    public function testTheRulesOfAutosaveAndTheCopyOnThisDevice()
+    {
+        $node = trim( (string)shell_exec( 'command -v node 2>&1' ) );
+        if ( $node === '' || !is_executable( $node ) )
+            $this->markTestSkipped( 'Node is not installed' );
+        exec( escapeshellarg( $node ) . ' ' . escapeshellarg( dirname( __DIR__, 2 ) . '/js/autosave.test.js' ) . ' 2>&1', $out, $status );
+        $this->assertSame( 0, $status, implode( "\n", $out ) );
+        $this->assertStringStartsWith( 'PASS', (string)end( $out ) );
+    }
+
     /** The SEO check looks a link up in this siteaccess: its prefix off, decoded, without query and anchor */
     public function testTheLinksOfTheSeoCheckArePathsOfThisSiteaccess()
     {

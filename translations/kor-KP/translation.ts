@@ -760,6 +760,30 @@
         <translation>이 페지</translation>
     </message>
     <message>
+        <source>Saved automatically at %time</source>
+        <translation>%time에 자동 저장됨</translation>
+    </message>
+    <message>
+        <source>Changes made on this device at %time were not saved: %fields</source>
+        <translation>이 장치에서 %time에 한 변경 내용이 저장되지 않았습니다: %fields</translation>
+    </message>
+    <message>
+        <source>Restore</source>
+        <translation>복원</translation>
+    </message>
+    <message>
+        <source>Restored. It is saved to the draft.</source>
+        <translation>복원되었습니다. 초안에 저장되었습니다.</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>폐기</translation>
+    </message>
+    <message>
+        <source>Unsaved changes on this page</source>
+        <translation>이 페이지에 저장되지 않은 변경 내용</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>받은편지함</translation>
     </message>

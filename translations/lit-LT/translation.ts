@@ -760,6 +760,30 @@
         <translation>Šis puslapis</translation>
     </message>
     <message>
+        <source>Saved automatically at %time</source>
+        <translation>Automatiškai išsaugota %time</translation>
+    </message>
+    <message>
+        <source>Changes made on this device at %time were not saved: %fields</source>
+        <translation>Šiame įrenginyje %time atlikti pakeitimai neišsaugoti: %fields</translation>
+    </message>
+    <message>
+        <source>Restore</source>
+        <translation>Atkurti</translation>
+    </message>
+    <message>
+        <source>Restored. It is saved to the draft.</source>
+        <translation>Atkurta. Išsaugota juodraštyje.</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Atmesti</translation>
+    </message>
+    <message>
+        <source>Unsaved changes on this page</source>
+        <translation>Neišsaugoti pakeitimai šiame puslapyje</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Gauta</translation>
     </message>

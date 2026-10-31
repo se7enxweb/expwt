@@ -760,6 +760,30 @@
         <translation>Оваа страница</translation>
     </message>
     <message>
+        <source>Saved automatically at %time</source>
+        <translation>Автоматски зачувано во %time</translation>
+    </message>
+    <message>
+        <source>Changes made on this device at %time were not saved: %fields</source>
+        <translation>Промените направени на овој уред во %time не се зачувани: %fields</translation>
+    </message>
+    <message>
+        <source>Restore</source>
+        <translation>Врати</translation>
+    </message>
+    <message>
+        <source>Restored. It is saved to the draft.</source>
+        <translation>Вратено. Зачувано е во нацртот.</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Отфрли</translation>
+    </message>
+    <message>
+        <source>Unsaved changes on this page</source>
+        <translation>Незачувани промени на оваа страница</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Примени</translation>
     </message>

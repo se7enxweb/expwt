@@ -760,6 +760,30 @@
         <translation>Tēnei whārangi</translation>
     </message>
     <message>
+        <source>Saved automatically at %time</source>
+        <translation>I tiakina aunoatia i te %time</translation>
+    </message>
+    <message>
+        <source>Changes made on this device at %time were not saved: %fields</source>
+        <translation>Kāore i tiakina ngā panonitanga i mahia ki tēnei pūrere i te %time: %fields</translation>
+    </message>
+    <message>
+        <source>Restore</source>
+        <translation>Whakaora</translation>
+    </message>
+    <message>
+        <source>Restored. It is saved to the draft.</source>
+        <translation>Kua whakaorangia. Kua tiakina ki te tauira.</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Whakakore</translation>
+    </message>
+    <message>
+        <source>Unsaved changes on this page</source>
+        <translation>Ngā panonitanga kāore anō kia tiakina i tēnei whārangi</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Pouaka whakauru</translation>
     </message>

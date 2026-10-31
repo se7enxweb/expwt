@@ -760,6 +760,30 @@
         <translation>Šī lapa</translation>
     </message>
     <message>
+        <source>Saved automatically at %time</source>
+        <translation>Automātiski saglabāts plkst. %time</translation>
+    </message>
+    <message>
+        <source>Changes made on this device at %time were not saved: %fields</source>
+        <translation>Šajā ierīcē %time veiktās izmaiņas netika saglabātas: %fields</translation>
+    </message>
+    <message>
+        <source>Restore</source>
+        <translation>Atjaunot</translation>
+    </message>
+    <message>
+        <source>Restored. It is saved to the draft.</source>
+        <translation>Atjaunots. Tas ir saglabāts melnrakstā.</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Atmest</translation>
+    </message>
+    <message>
+        <source>Unsaved changes on this page</source>
+        <translation>Nesaglabātas izmaiņas šajā lapā</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Iesūtne</translation>
     </message>

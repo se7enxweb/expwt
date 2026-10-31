@@ -760,6 +760,30 @@
         <translation>Hierdie bladsy</translation>
     </message>
     <message>
+        <source>Saved automatically at %time</source>
+        <translation>Outomaties gestoor om %time</translation>
+    </message>
+    <message>
+        <source>Changes made on this device at %time were not saved: %fields</source>
+        <translation>Veranderinge wat om %time op hierdie toestel gemaak is, is nie gestoor nie: %fields</translation>
+    </message>
+    <message>
+        <source>Restore</source>
+        <translation>Herstel</translation>
+    </message>
+    <message>
+        <source>Restored. It is saved to the draft.</source>
+        <translation>Herstel. Dit is in die konsep gestoor.</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Gooi weg</translation>
+    </message>
+    <message>
+        <source>Unsaved changes on this page</source>
+        <translation>Ongestoorde veranderinge op hierdie bladsy</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Inkassie</translation>
     </message>

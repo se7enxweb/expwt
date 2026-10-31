@@ -61,6 +61,21 @@
         if (top > least && top < viewportHeight) { room = Math.max(room, viewportHeight - top); }
       });
       return Math.round(room);
+    },
+    /* this device kept changes of the page (node) that the server never got (F28, expwt-panels.js ExpwtAutosave):
+       a copy of the Page panel's fields, at most two weeks old */
+    unsaved: function (storage, node, now) {
+      if (!storage || !node) { return false; }
+      try {
+        for (var i = 0; i < storage.length; i++) {
+          var k = storage.key(i);
+          if (k && k.indexOf('expwt.copy.') === 0) {
+            var c = JSON.parse(storage.getItem(k) || 'null');
+            if (c && c.node === node && now - c.at < 14 * 86400000) { return true; }
+          }
+        }
+      } catch (e) { return false; }
+      return false;
     }
   };
   window.ExpwtEditState = EditState;
@@ -1121,6 +1136,14 @@
         }
         self.buildTabs();
         self.setWaiting(self.boot.inbox ? self.boot.inbox.waiting : 0);
+        /* changes of this page kept on this device only (F28): a mark on the tab; opened, the Page panel offers them */
+        var local = null;
+        try { local = window.localStorage; } catch (e) { local = null; }
+        if (self.boot.capabilities && self.boot.capabilities.edit && EditState.unsaved(local, self.cfg.node, Date.now())) {
+          self.state.panel = 'page';
+          self.tab.appendChild(h('span', { class: 'wt-badge is-warn', 'data-badge': 'unsaved' }, [
+            h('span', { 'aria-hidden': 'true', text: '!' }), h('span', { class: 'wt-sr', text: ' ' + self.t('Unsaved changes on this page') })]));
+        }
         self.applyState();
         /* editing on the page (this tab, sessionStorage): the Page panel draws the outlines, open or not */
         if (self.state.open || self.editOn) {

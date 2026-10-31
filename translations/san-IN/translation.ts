@@ -760,6 +760,30 @@
         <translation>इदं पृष्ठम्</translation>
     </message>
     <message>
+        <source>Saved automatically at %time</source>
+        <translation>%time समये स्वयमेव संरक्षितम्</translation>
+    </message>
+    <message>
+        <source>Changes made on this device at %time were not saved: %fields</source>
+        <translation>अस्मिन् यन्त्रे %time समये कृताः परिवर्तनाः न संरक्षिताः: %fields</translation>
+    </message>
+    <message>
+        <source>Restore</source>
+        <translation>पुनःस्थापयतु</translation>
+    </message>
+    <message>
+        <source>Restored. It is saved to the draft.</source>
+        <translation>पुनःस्थापितम्। प्रारूपे संरक्षितम् अस्ति।</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>त्यजतु</translation>
+    </message>
+    <message>
+        <source>Unsaved changes on this page</source>
+        <translation>अस्मिन् पृष्ठे असंरक्षिताः परिवर्तनाः</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>आगतपेटिका</translation>
     </message>

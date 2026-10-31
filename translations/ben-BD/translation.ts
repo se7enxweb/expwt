@@ -760,6 +760,30 @@
         <translation>এই পৃষ্ঠা</translation>
     </message>
     <message>
+        <source>Saved automatically at %time</source>
+        <translation>%time-এ স্বয়ংক্রিয়ভাবে সংরক্ষিত</translation>
+    </message>
+    <message>
+        <source>Changes made on this device at %time were not saved: %fields</source>
+        <translation>এই ডিভাইসে %time-এ করা পরিবর্তনগুলো সংরক্ষিত হয়নি: %fields</translation>
+    </message>
+    <message>
+        <source>Restore</source>
+        <translation>পুনরুদ্ধার করুন</translation>
+    </message>
+    <message>
+        <source>Restored. It is saved to the draft.</source>
+        <translation>পুনরুদ্ধার হয়েছে। এটি খসড়ায় সংরক্ষিত।</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>বাতিল করুন</translation>
+    </message>
+    <message>
+        <source>Unsaved changes on this page</source>
+        <translation>এই পৃষ্ঠায় অসংরক্ষিত পরিবর্তন</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>ইনবক্স</translation>
     </message>

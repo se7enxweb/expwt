@@ -760,6 +760,30 @@
         <translation>یہ صفحہ</translation>
     </message>
     <message>
+        <source>Saved automatically at %time</source>
+        <translation>%time پیٹھ پانہٕ محفوظ گۄو</translation>
+    </message>
+    <message>
+        <source>Changes made on this device at %time were not saved: %fields</source>
+        <translation>یَتھ آلس پیٹھ %time پیٹھ کرنہٕ آمژ تبدیلی گیہِ نہٕ محفوظ: %fields</translation>
+    </message>
+    <message>
+        <source>Restore</source>
+        <translation>واپس اَنِو</translation>
+    </message>
+    <message>
+        <source>Restored. It is saved to the draft.</source>
+        <translation>واپس آو اَننہٕ۔ یہ چھُ مَسوٗدس منز محفوظ۔</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>ترٲوِو</translation>
+    </message>
+    <message>
+        <source>Unsaved changes on this page</source>
+        <translation>یَتھ صفحس پیٹھ غیر محفوظ تبدیلی</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>اِنباکس</translation>
     </message>

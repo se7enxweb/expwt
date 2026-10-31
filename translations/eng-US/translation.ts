@@ -760,6 +760,30 @@
         <translation>This page</translation>
     </message>
     <message>
+        <source>Saved automatically at %time</source>
+        <translation>Saved automatically at %time</translation>
+    </message>
+    <message>
+        <source>Changes made on this device at %time were not saved: %fields</source>
+        <translation>Changes made on this device at %time were not saved: %fields</translation>
+    </message>
+    <message>
+        <source>Restore</source>
+        <translation>Restore</translation>
+    </message>
+    <message>
+        <source>Restored. It is saved to the draft.</source>
+        <translation>Restored. It is saved to the draft.</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Discard</translation>
+    </message>
+    <message>
+        <source>Unsaved changes on this page</source>
+        <translation>Unsaved changes on this page</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Inbox</translation>
     </message>

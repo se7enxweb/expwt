@@ -760,6 +760,30 @@
         <translation>આ પૃષ્ઠ</translation>
     </message>
     <message>
+        <source>Saved automatically at %time</source>
+        <translation>%time વાગ્યે આપમેળે સાચવ્યું</translation>
+    </message>
+    <message>
+        <source>Changes made on this device at %time were not saved: %fields</source>
+        <translation>આ ઉપકરણ પર %time વાગ્યે કરેલા ફેરફારો સાચવાયા નથી: %fields</translation>
+    </message>
+    <message>
+        <source>Restore</source>
+        <translation>પુનઃસ્થાપિત કરો</translation>
+    </message>
+    <message>
+        <source>Restored. It is saved to the draft.</source>
+        <translation>પુનઃસ્થાપિત થયું. તે ડ્રાફ્ટમાં સચવાયું છે.</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>રદ કરો</translation>
+    </message>
+    <message>
+        <source>Unsaved changes on this page</source>
+        <translation>આ પેજ પર ન સાચવેલા ફેરફારો</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>ઇનબોક્સ</translation>
     </message>

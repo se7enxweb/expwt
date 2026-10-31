@@ -760,6 +760,30 @@
         <translation>இந்தப் பக்கம்</translation>
     </message>
     <message>
+        <source>Saved automatically at %time</source>
+        <translation>%time மணிக்கு தானாகச் சேமிக்கப்பட்டது</translation>
+    </message>
+    <message>
+        <source>Changes made on this device at %time were not saved: %fields</source>
+        <translation>இந்தச் சாதனத்தில் %time அன்று செய்த மாற்றங்கள் சேமிக்கப்படவில்லை: %fields</translation>
+    </message>
+    <message>
+        <source>Restore</source>
+        <translation>மீட்டமை</translation>
+    </message>
+    <message>
+        <source>Restored. It is saved to the draft.</source>
+        <translation>மீட்டமைக்கப்பட்டது. இது வரைவில் சேமிக்கப்பட்டுள்ளது.</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>நிராகரி</translation>
+    </message>
+    <message>
+        <source>Unsaved changes on this page</source>
+        <translation>இந்தப் பக்கத்தில் சேமிக்கப்படாத மாற்றங்கள்</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>உள்பெட்டி</translation>
     </message>

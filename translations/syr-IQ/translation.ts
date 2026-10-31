@@ -760,6 +760,30 @@
         <translation>ܗܢܐ ܦܐܬܐ</translation>
     </message>
     <message>
+        <source>Saved automatically at %time</source>
+        <translation>ܐܬܢܛܪ ܡܢ ܢܦܫܗ ܒ%time</translation>
+    </message>
+    <message>
+        <source>Changes made on this device at %time were not saved: %fields</source>
+        <translation>ܫܘܚܠܦܐ ܕܐܬܥܒܕܘ ܒܡܐܢܐ ܗܢܐ ܒ%time ܠܐ ܐܬܢܛܪܘ: %fields</translation>
+    </message>
+    <message>
+        <source>Restore</source>
+        <translation>ܐܗܦܟ</translation>
+    </message>
+    <message>
+        <source>Restored. It is saved to the draft.</source>
+        <translation>ܐܬܗܦܟ. ܢܛܝܪ ܒܣܘܪܛܐ.</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>ܫܕܝ</translation>
+    </message>
+    <message>
+        <source>Unsaved changes on this page</source>
+        <translation>ܫܘܚܠܦܐ ܕܠܐ ܢܛܝܪܝܢ ܒܦܐܬܐ ܗܕܐ</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>ܐܓܪ̈ܬܐ ܕܥܐܠ̈ܢ</translation>
     </message>

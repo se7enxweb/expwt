@@ -760,6 +760,30 @@
         <translation>Fuula kana</translation>
     </message>
     <message>
+        <source>Saved automatically at %time</source>
+        <translation>Ofumaan %time irratti olkaa'ame</translation>
+    </message>
+    <message>
+        <source>Changes made on this device at %time were not saved: %fields</source>
+        <translation>Jijjiiramni meeshaa kana irratti %time godhame hin olkaa'amne: %fields</translation>
+    </message>
+    <message>
+        <source>Restore</source>
+        <translation>Deebisi</translation>
+    </message>
+    <message>
+        <source>Restored. It is saved to the draft.</source>
+        <translation>Deebi'eera. Wixinee keessatti olkaa'ameera.</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Gatii</translation>
+    </message>
+    <message>
+        <source>Unsaved changes on this page</source>
+        <translation>Jijjiirama hin olkaa'amne fuula kana irratti</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Saanduqa galtee</translation>
     </message>

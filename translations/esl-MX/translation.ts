@@ -760,6 +760,30 @@
         <translation>Esta página</translation>
     </message>
     <message>
+        <source>Saved automatically at %time</source>
+        <translation>Guardado automáticamente a las %time</translation>
+    </message>
+    <message>
+        <source>Changes made on this device at %time were not saved: %fields</source>
+        <translation>Los cambios hechos en este dispositivo a las %time no se guardaron: %fields</translation>
+    </message>
+    <message>
+        <source>Restore</source>
+        <translation>Restaurar</translation>
+    </message>
+    <message>
+        <source>Restored. It is saved to the draft.</source>
+        <translation>Restaurado. Está guardado en el borrador.</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Descartar</translation>
+    </message>
+    <message>
+        <source>Unsaved changes on this page</source>
+        <translation>Cambios sin guardar en esta página</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Bandeja de entrada</translation>
     </message>

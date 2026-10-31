@@ -760,6 +760,30 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <source>Saved automatically at %time</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Changes made on this device at %time were not saved: %fields</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Restore</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Restored. It is saved to the draft.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Unsaved changes on this page</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation type="unfinished"></translation>
     </message>

@@ -760,6 +760,30 @@
         <translation>Cette page</translation>
     </message>
     <message>
+        <source>Saved automatically at %time</source>
+        <translation>Enregistré automatiquement à %time</translation>
+    </message>
+    <message>
+        <source>Changes made on this device at %time were not saved: %fields</source>
+        <translation>Les modifications faites sur cet appareil le %time n'ont pas été enregistrées : %fields</translation>
+    </message>
+    <message>
+        <source>Restore</source>
+        <translation>Restaurer</translation>
+    </message>
+    <message>
+        <source>Restored. It is saved to the draft.</source>
+        <translation>Restauré. C'est enregistré dans le brouillon.</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Abandonner</translation>
+    </message>
+    <message>
+        <source>Unsaved changes on this page</source>
+        <translation>Modifications non enregistrées sur cette page</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Boîte de réception</translation>
     </message>

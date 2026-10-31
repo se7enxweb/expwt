@@ -760,6 +760,30 @@
         <translation>ఈ పేజీ</translation>
     </message>
     <message>
+        <source>Saved automatically at %time</source>
+        <translation>%time కి ఆటోమేటిక్‌గా సేవ్ చేయబడింది</translation>
+    </message>
+    <message>
+        <source>Changes made on this device at %time were not saved: %fields</source>
+        <translation>ఈ పరికరంలో %time కి చేసిన మార్పులు సేవ్ కాలేదు: %fields</translation>
+    </message>
+    <message>
+        <source>Restore</source>
+        <translation>పునరుద్ధరించండి</translation>
+    </message>
+    <message>
+        <source>Restored. It is saved to the draft.</source>
+        <translation>పునరుద్ధరించబడింది. ఇది డ్రాఫ్ట్‌లో సేవ్ చేయబడింది.</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>విస్మరించండి</translation>
+    </message>
+    <message>
+        <source>Unsaved changes on this page</source>
+        <translation>ఈ పేజీలో సేవ్ చేయని మార్పులు</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>ఇన్‌బాక్స్</translation>
     </message>

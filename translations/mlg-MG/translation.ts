@@ -760,6 +760,30 @@
         <translation>Ity pejy ity</translation>
     </message>
     <message>
+        <source>Saved automatically at %time</source>
+        <translation>Voatahiry ho azy tamin'ny %time</translation>
+    </message>
+    <message>
+        <source>Changes made on this device at %time were not saved: %fields</source>
+        <translation>Tsy voatahiry ny fanovana natao tamin'ity fitaovana ity tamin'ny %time: %fields</translation>
+    </message>
+    <message>
+        <source>Restore</source>
+        <translation>Avereno</translation>
+    </message>
+    <message>
+        <source>Restored. It is saved to the draft.</source>
+        <translation>Naverina. Voatahiry ao amin'ny drafitra izy.</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Ario</translation>
+    </message>
+    <message>
+        <source>Unsaved changes on this page</source>
+        <translation>Fanovana tsy voatahiry amin'ity pejy ity</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Boaty fandraisana</translation>
     </message>

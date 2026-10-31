@@ -760,6 +760,30 @@
         <translation>Dát siidu</translation>
     </message>
     <message>
+        <source>Saved automatically at %time</source>
+        <translation>Automáhtalaččat vurkejuvvon %time</translation>
+    </message>
+    <message>
+        <source>Changes made on this device at %time were not saved: %fields</source>
+        <translation>Rievdadusat mat dahkkojuvvo dán ovttadagas %time eai vurkejuvvon: %fields</translation>
+    </message>
+    <message>
+        <source>Restore</source>
+        <translation>Máhcat</translation>
+    </message>
+    <message>
+        <source>Restored. It is saved to the draft.</source>
+        <translation>Máhcahuvvon. Dat lea vurkejuvvon luonosii.</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Hilgo</translation>
+    </message>
+    <message>
+        <source>Unsaved changes on this page</source>
+        <translation>Vurketkeahtes rievdadusat dán siiddus</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Sisaboarta</translation>
     </message>

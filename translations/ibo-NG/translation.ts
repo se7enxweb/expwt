@@ -760,6 +760,30 @@
         <translation>Ibe a</translation>
     </message>
     <message>
+        <source>Saved automatically at %time</source>
+        <translation>Echekwara onwe ya na %time</translation>
+    </message>
+    <message>
+        <source>Changes made on this device at %time were not saved: %fields</source>
+        <translation>Edeghị mgbanwe e mere na ngwaọrụ a na %time: %fields</translation>
+    </message>
+    <message>
+        <source>Restore</source>
+        <translation>Weghachi</translation>
+    </message>
+    <message>
+        <source>Restored. It is saved to the draft.</source>
+        <translation>Eweghachiri ya. Echekwara ya na ndepụta mbụ ahụ.</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Tụfuo</translation>
+    </message>
+    <message>
+        <source>Unsaved changes on this page</source>
+        <translation>Mgbanwe a na-echekwaghị na ibe a</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Igbe ozi</translation>
     </message>

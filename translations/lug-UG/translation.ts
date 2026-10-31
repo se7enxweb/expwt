@@ -760,6 +760,30 @@
         <translation>Olupapula luno</translation>
     </message>
     <message>
+        <source>Saved automatically at %time</source>
+        <translation>Eterekeddwa yokka ku %time</translation>
+    </message>
+    <message>
+        <source>Changes made on this device at %time were not saved: %fields</source>
+        <translation>Enkyukakyuka ezaakolebwa ku kyuma kino ku %time tezaaterekeddwa: %fields</translation>
+    </message>
+    <message>
+        <source>Restore</source>
+        <translation>Zzaawo</translation>
+    </message>
+    <message>
+        <source>Restored. It is saved to the draft.</source>
+        <translation>Kizziddwawo. Kiterekeddwa mu ddulaafuti.</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Sazaamu</translation>
+    </message>
+    <message>
+        <source>Unsaved changes on this page</source>
+        <translation>Enkyukakyuka ezitaterekeddwa ku lupapula luno</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Ebibaluwa ebiyingira</translation>
     </message>

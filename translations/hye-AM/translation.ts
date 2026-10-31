@@ -760,6 +760,30 @@
         <translation>Այս էջը</translation>
     </message>
     <message>
+        <source>Saved automatically at %time</source>
+        <translation>Ինքնաշխատ պահպանվել է %time-ին</translation>
+    </message>
+    <message>
+        <source>Changes made on this device at %time were not saved: %fields</source>
+        <translation>Այս սարքում %time-ին արված փոփոխությունները չեն պահպանվել՝ %fields</translation>
+    </message>
+    <message>
+        <source>Restore</source>
+        <translation>Վերականգնել</translation>
+    </message>
+    <message>
+        <source>Restored. It is saved to the draft.</source>
+        <translation>Վերականգնված է։ Այն պահպանված է սևագրում։</translation>
+    </message>
+    <message>
+        <source>Discard</source>
+        <translation>Չեղարկել</translation>
+    </message>
+    <message>
+        <source>Unsaved changes on this page</source>
+        <translation>Չպահպանված փոփոխություններ այս էջում</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Մուտքային</translation>
     </message>
