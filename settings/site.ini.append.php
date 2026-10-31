@@ -14,6 +14,7 @@ BodyEnd[]=expwt/hook.tpl
 # Pagelayouts without the hook: expwt places the sidebar before </body> (expwt.ini InjectWithoutHook)
 [Event]
 Listeners[]=response/preoutput@expwtHook::preOutput
+Listeners[]=response/output@expwtHook::output
 
 # "Verify it's you": the sidebar's actions ask with the trigger groups of the administration's
 # views they stand for

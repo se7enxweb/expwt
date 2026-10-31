@@ -335,6 +335,17 @@ class expwtPureTest extends PHPUnit\Framework\TestCase
                                 'script' => '/var/cache/public/javascript/expwt.js', 'config' => array( 'node' => 2, 'label' => 'a "quoted" <b>' ) );
     }
 
+    /** The debug report stays out of the pages of the sidebar's frame (expwtHook::preOutput()); the outer page keeps it. */
+    public function testFramePagesAreKnownByTheirAddress()
+    {
+        foreach ( array( '/site/expwt/field/134/0/eng-US/title', '/expwt/field/1/2/eng-US/body?theme=dark',
+                         '/twig/layout/set/expwtframe/content/browse/2', '/site/healthy-eating?in=sidebar' ) as $uri )
+            $this->assertTrue( expwtHook::framePage( $uri ), $uri );
+        foreach ( array( '/site/healthy-eating', '/site/content/edit/134/2/eng-US', '/layout/set/print/healthy-eating',
+                         '/site/expwt/api', '/site/my-expwt/field-notes' ) as $uri )
+            $this->assertFalse( expwtHook::framePage( $uri ), $uri );
+    }
+
     public function testHookPrintsNothingWhereTheSidebarIsNotShown()
     {
         $this->assertSame( '', expwtHook::markup( self::hookContext( array( 'enabled' => false ) ) ), 'switched off' );

@@ -114,6 +114,44 @@ class expwtHook
         return isset( $_GET['in'] ) && $_GET['in'] === 'sidebar';
     }
 
+    /** @var string|null DebugOutput as it was before a page of the frame switched it off */
+    protected static $debugOutput = null;
+
+    /**
+     * @param string|null $uri the request's path (default: this request's)
+     * @return bool a page of the sidebar's frame: ?in=sidebar, a field's editor (expwt/field) or a page in the
+     *              frame's layout (layout/set/expwtframe)
+     */
+    public static function framePage( $uri = null )
+    {
+        if ( $uri === null )
+        {
+            if ( self::inFrame() )
+                return true;
+            $uri = class_exists( 'eZSys' ) ? (string)eZSys::requestURI() : '';
+        }
+        $path = '/' . ltrim( (string)parse_url( (string)$uri, PHP_URL_PATH ), '/' );
+        if ( strpos( (string)$uri, 'in=sidebar' ) !== false )
+            return true;
+        return (bool)preg_match( '#(^|/)(expwt/field|layout/set/expwtframe)(/|$)#', $path );
+    }
+
+    /**
+     * response/output: puts DebugOutput back after a page of the frame.
+     *
+     * @param string|null $html
+     * @return string|null
+     */
+    public static function output( $html )
+    {
+        if ( self::$debugOutput !== null )
+        {
+            eZINI::instance()->setVariable( 'DebugSettings', 'DebugOutput', self::$debugOutput );
+            self::$debugOutput = null;
+        }
+        return $html;
+    }
+
     /** @return string the first URL of the packed files ('' when the packer has none) */
     protected static function packed( $type, array $files )
     {
@@ -141,6 +179,17 @@ class expwtHook
     {
         try
         {
+            // a page of the sidebar's frame shows no debug report (it would fill a narrow frame); the outer page keeps
+            // it. eZDisplayDebug() reads the setting after this filter; output() puts it back for the next request
+            // (a Velocity worker keeps its INI objects).
+            if ( self::framePage() )
+            {
+                $ini = eZINI::instance();
+                if ( self::$debugOutput === null )
+                    self::$debugOutput = (string)$ini->variable( 'DebugSettings', 'DebugOutput' );
+                $ini->setVariable( 'DebugSettings', 'DebugOutput', 'disabled' );
+                return $html;
+            }
             if ( !is_string( $html ) || stripos( $html, '</body>' ) === false || strpos( $html, '<' . self::TAG ) !== false )
                 return $html;
             $settings = expwtSettings::fromIni();
