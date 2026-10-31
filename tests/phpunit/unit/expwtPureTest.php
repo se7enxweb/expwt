@@ -335,6 +335,16 @@ class expwtPureTest extends PHPUnit\Framework\TestCase
                                 'script' => '/var/cache/public/javascript/expwt.js', 'config' => array( 'node' => 2, 'label' => 'a "quoted" <b>' ) );
     }
 
+    /** F19: the package replaces ezwt, so Composer never installs the two together (decision 1). */
+    public function testPackageReplacesEzwt()
+    {
+        $composer = json_decode( (string)file_get_contents( dirname( __DIR__, 3 ) . '/composer.json' ), true );
+        $this->assertIsArray( $composer );
+        $this->assertSame( 'se7enxweb/expwt', $composer['name'] );
+        $this->assertSame( '*', $composer['replace']['se7enxweb/ezwt'] ?? null );
+        $this->assertArrayNotHasKey( 'se7enxweb/ezwt', $composer['require'] ?? array() );
+    }
+
     /** Editing on the page is its own state, never tied to the panel being open (tests/js/editstate.test.js, Node). */
     public function testEditingOnThePageIsItsOwnState()
     {
