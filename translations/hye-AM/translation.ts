@@ -176,16 +176,16 @@
         <translation>Չեղարկել սևագիրը</translation>
     </message>
     <message>
+        <source>Saving ...</source>
+        <translation>Պահպանվում է ...</translation>
+    </message>
+    <message>
         <source>Cancel</source>
         <translation>Չեղարկել</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
         <translation>Սևագիրը պահպանված է։</translation>
-    </message>
-    <message>
-        <source>Saving ...</source>
-        <translation>Պահպանվում է ...</translation>
     </message>
     <message>
         <source>Someone else changed these fields in the meantime. Choose for each field which text to keep, then save again.</source>

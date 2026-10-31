@@ -121,6 +121,22 @@ class expwtPureTest extends PHPUnit\Framework\TestCase
         $this->assertFalse( expwtState::defaults( $s )['open'], 'decision 4: closed on the first visit' );
     }
 
+    public function testNotInTheAdministrationUnlessShowInAdmin()
+    {
+        $on = self::settings( array( 'enabled' => 'enabled' ) );
+        $this->assertFalse( $on['show_in_admin'], 'owner 2026-10-31: off in the administration by default' );
+        $this->assertTrue( expwtSettings::showHere( $on, 'site', false ) );
+        $this->assertFalse( expwtSettings::showHere( $on, 'admin', true ), 'an administration gets nothing' );
+        $this->assertTrue( expwtSettings::showHere( self::settings( array( 'enabled' => 'enabled', 'show_in_admin' => 'enabled' ) ), 'admin', true ), 'ShowInAdmin=enabled' );
+        $this->assertFalse( expwtSettings::showHere( self::settings(), 'site', false ), 'switched off' );
+        $only = self::settings( array( 'enabled' => 'enabled', 'siteaccess_list' => array( 'site', ' twig ', '' ) ) );
+        $this->assertSame( array( 'site', 'twig' ), $only['siteaccess_list'] );
+        $this->assertTrue( expwtSettings::showHere( $only, 'twig', false ) );
+        $this->assertFalse( expwtSettings::showHere( $only, 'smarty', false ), 'SiteAccessList[]' );
+        $this->assertFalse( expwtSettings::showHere( self::settings( array( 'enabled' => 'enabled', 'siteaccess_exclude' => array( 'smarty' ) ) ), 'smarty', false ), 'SiteAccessExcludeList[]' );
+        $this->assertTrue( expwtSettings::showHere( self::settings( array( 'enabled' => 'enabled', 'show_in_admin' => 'enabled', 'siteaccess_list' => array( 'admin4l' ) ) ), 'admin4l', true ) );
+    }
+
     public function testFieldMarkersOnlyForAUserWhoMayEditWithTheSidebar()
     {
         $this->assertTrue( expwtFieldMarkerHandler::decide( true, true, 'yes', 'yes' ) );

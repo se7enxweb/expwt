@@ -176,16 +176,16 @@
         <translation>បោះបង់សេចក្តីព្រាង</translation>
     </message>
     <message>
+        <source>Saving ...</source>
+        <translation>កំពុងរក្សាទុក ...</translation>
+    </message>
+    <message>
         <source>Cancel</source>
         <translation>បោះបង់</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
         <translation>សេចក្តីព្រាងត្រូវបានរក្សាទុក។</translation>
-    </message>
-    <message>
-        <source>Saving ...</source>
-        <translation>កំពុងរក្សាទុក ...</translation>
     </message>
     <message>
         <source>Someone else changed these fields in the meantime. Choose for each field which text to keep, then save again.</source>

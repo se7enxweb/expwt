@@ -176,16 +176,16 @@
         <translation>Hidh skicën</translation>
     </message>
     <message>
+        <source>Saving ...</source>
+        <translation>Po ruhet ...</translation>
+    </message>
+    <message>
         <source>Cancel</source>
         <translation>Anulo</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
         <translation>Skica u ruajt.</translation>
-    </message>
-    <message>
-        <source>Saving ...</source>
-        <translation>Po ruhet ...</translation>
     </message>
     <message>
         <source>Someone else changed these fields in the meantime. Choose for each field which text to keep, then save again.</source>

@@ -176,16 +176,16 @@
         <translation>Caith an dréacht i leataobh</translation>
     </message>
     <message>
+        <source>Saving ...</source>
+        <translation>Á shábháil ...</translation>
+    </message>
+    <message>
         <source>Cancel</source>
         <translation>Cealaigh</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
         <translation>Sábháladh an dréacht.</translation>
-    </message>
-    <message>
-        <source>Saving ...</source>
-        <translation>Á shábháil ...</translation>
     </message>
     <message>
         <source>Someone else changed these fields in the meantime. Choose for each field which text to keep, then save again.</source>

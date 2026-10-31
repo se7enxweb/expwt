@@ -176,16 +176,16 @@
         <translation>කෙටුම්පත ඉවත දමන්න</translation>
     </message>
     <message>
+        <source>Saving ...</source>
+        <translation>සුරකිමින් ...</translation>
+    </message>
+    <message>
         <source>Cancel</source>
         <translation>අවලංගු කරන්න</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
         <translation>කෙටුම්පත සුරැකිණි.</translation>
-    </message>
-    <message>
-        <source>Saving ...</source>
-        <translation>සුරකිමින් ...</translation>
     </message>
     <message>
         <source>Someone else changed these fields in the meantime. Choose for each field which text to keep, then save again.</source>

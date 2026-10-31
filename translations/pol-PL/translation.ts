@@ -176,16 +176,16 @@
         <translation>Odrzuć wersję roboczą</translation>
     </message>
     <message>
+        <source>Saving ...</source>
+        <translation>Zapisywanie ...</translation>
+    </message>
+    <message>
         <source>Cancel</source>
         <translation>Anuluj</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
         <translation>Wersja robocza została zapisana.</translation>
-    </message>
-    <message>
-        <source>Saving ...</source>
-        <translation>Zapisywanie ...</translation>
     </message>
     <message>
         <source>Someone else changed these fields in the meantime. Choose for each field which text to keep, then save again.</source>

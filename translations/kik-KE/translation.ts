@@ -176,16 +176,16 @@
         <translation>Te ndrafti</translation>
     </message>
     <message>
+        <source>Saving ...</source>
+        <translation>Nĩkũrĩ kũiga ...</translation>
+    </message>
+    <message>
         <source>Cancel</source>
         <translation>Tiga</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
         <translation>Ndrafti nĩ yaigwo.</translation>
-    </message>
-    <message>
-        <source>Saving ...</source>
-        <translation>Nĩkũrĩ kũiga ...</translation>
     </message>
     <message>
         <source>Someone else changed these fields in the meantime. Choose for each field which text to keep, then save again.</source>

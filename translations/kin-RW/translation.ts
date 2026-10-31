@@ -176,16 +176,16 @@
         <translation>Reka umushinga</translation>
     </message>
     <message>
+        <source>Saving ...</source>
+        <translation>Birimo kubikwa ...</translation>
+    </message>
+    <message>
         <source>Cancel</source>
         <translation>Kureka</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
         <translation>Umushinga wabitswe.</translation>
-    </message>
-    <message>
-        <source>Saving ...</source>
-        <translation>Birimo kubikwa ...</translation>
     </message>
     <message>
         <source>Someone else changed these fields in the meantime. Choose for each field which text to keep, then save again.</source>

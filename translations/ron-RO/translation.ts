@@ -176,16 +176,16 @@
         <translation>Renunțați la ciornă</translation>
     </message>
     <message>
+        <source>Saving ...</source>
+        <translation>Se salvează ...</translation>
+    </message>
+    <message>
         <source>Cancel</source>
         <translation>Anulați</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
         <translation>Ciorna a fost salvată.</translation>
-    </message>
-    <message>
-        <source>Saving ...</source>
-        <translation>Se salvează ...</translation>
     </message>
     <message>
         <source>Someone else changed these fields in the meantime. Choose for each field which text to keep, then save again.</source>

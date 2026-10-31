@@ -176,16 +176,16 @@
         <translation>मसुदो काडून उडयात</translation>
     </message>
     <message>
+        <source>Saving ...</source>
+        <translation>सांबाळटा ...</translation>
+    </message>
+    <message>
         <source>Cancel</source>
         <translation>रद्द करात</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
         <translation>मसुदो सांबाळ्ळा.</translation>
-    </message>
-    <message>
-        <source>Saving ...</source>
-        <translation>सांबाळटा ...</translation>
     </message>
     <message>
         <source>Someone else changed these fields in the meantime. Choose for each field which text to keep, then save again.</source>

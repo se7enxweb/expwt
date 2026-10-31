@@ -16,6 +16,17 @@ expwt wird ausgeschaltet ausgeliefert (bis Version 1.0). In `settings/siteaccess
 Enabled=enabled
 ```
 
+Die Seitenleiste bleibt aus der Administration heraus (`ShowInAdmin=disabled`, der Standard): deren Siteaccesses
+bekommen keine Seitenleiste, keine Ausgabe des Hooks und keine Anfrage. `SiteAccessList[]` und
+`SiteAccessExcludeList[]` wählen Siteaccesses einzeln.
+
+**Nur in manchen Siteaccesses, auf dem anderen Weg:** expwt pro Siteaccess mit `ActiveAccessExtensions[]=expwt` in
+`settings/siteaccess/<Website-Siteaccess>/site.ini.append.php` aktivieren statt mit `ActiveExtensions[]=expwt` für die
+ganze Installation. Der Preis: Die Erweiterung gibt es dann nur dort - ihr Modul (`expwt/api`, `expwt/field`), ihre
+Policies im Rolleneditor, ihre Übersetzungen und Einstellungen kennt kein anderer Siteaccess, auch nicht die
+Administration; Rollen werden dann dort bearbeitet, wo sie aktiv ist, oder die Policies werden von Hand eingetragen.
+Die Einstellungen oben behalten das Modul überall und lassen nur die Seitenleiste weg.
+
 Eine Installation, die ezwt nutzte, wechselt mit `./console exp:wt:migrate-from-ezwt --apply` (oder dem
 Upgrade-Schritt `6.0.15-expwt-enable`): die ausgeblendeten Klassen von ezwt, seine Policies als expwt-Policies, expwt an
 der Stelle von ezwt in den aktiven Erweiterungen. Ein Probelauf listet die Änderungen vorher auf.
@@ -125,6 +136,18 @@ denselben Schritten wie content/edit (Prüfung, die Eingabe des Datentyps, seine
 Objekts). Gespeichert wird also, was die Administration für dieselbe Eingabe speichert. Ein Editor nimmt den neuesten
 Entwurf des Benutzers in der Sprache oder legt einen an, wie „Bearbeiten" in der Administration.
 
+Der Rahmen des Editors sieht aus wie die Seitenleiste (ihre admin4-Tokens und Schaltflächen, in ihrem hellen oder
+dunklen Modus); die eigene Zeile der Seitenleiste hat Entwurf speichern und Veröffentlichen dafür, und die Optionen des
+Rich-Text-Editors, die keine Hauptaktion sind (Editor wechseln, Editor ausschalten), liegen unter **Mehr**.
+
+**Auf der Seite bearbeiten** (gedrückt: die Akzentfüllung und ein Haken, wie jedes ausgewählte Bedienelement der
+Seitenleiste) umrandet jedes Feld, das die Seite zeigt: Textfelder werden an Ort und Stelle bearbeitet; Rich Text,
+Bilder und die anderen Felder öffnen mit einem Klick oder Enter ihren Editor, die Zeile des Feldes wird sichtbar
+gemacht. Ein Feld wird über die Feldmarkierungen des Kernels gefunden (site.ini `[ContentFieldMarkerSettings]`, der
+Handler von expwt: nur für Benutzer, die mit der Seitenleiste bearbeiten dürfen), ein Bild auch über den Pfad seiner
+Datei, ein Text ohne Markierungen über seinen Wert. Eine Bilddatei, die auf das Bild der Seite gezogen wird, ersetzt es
+im Entwurf, über das Hochladen des Bildfeldes selbst; sein Alternativtext steht in seinem Editor.
+
 ## Policies
 
 | Policy | Erlaubt |
@@ -170,6 +193,8 @@ Stylesheet) bleibt unter 50 KB gzip; ein Test hält ihn dort.
 |---|---|---|
 | `[ExpwtSettings] Enabled` | disabled | die Seitenleiste in diesem Siteaccess |
 | `ShowToAnonymous` | enabled | der geschlossene Reiter für nicht angemeldete Besucher |
+| `ShowInAdmin` | disabled | die Seitenleiste in den Siteaccesses der Administration (die von `[AdminSiteAccessMenu] AdminSiteAccessList[]`, sonst ein Administrationsdesign); disabled: dort gar nichts |
+| `SiteAccessList[]`, `SiteAccessExcludeList[]` | (leer) | nur diese Siteaccesses (leer: alle), nie diese |
 | `DataLayer` | rest | rest oder graphql |
 | `InjectWithoutHook` | enabled | die Seitenleiste in Pagelayouts ohne Hook einsetzen |
 | `DefaultEdge`, `DefaultAlign` | (leer), end | Rand beim ersten Besuch (left, right, top, bottom; leer: `DefaultSide`) und oben und unten das Ende der Leiste, an dem der Reiter sitzt (start: links, end: rechts) |

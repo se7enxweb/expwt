@@ -176,16 +176,16 @@
         <translation>Armi l-abbozz</translation>
     </message>
     <message>
+        <source>Saving ...</source>
+        <translation>Qed jissejvja ...</translation>
+    </message>
+    <message>
         <source>Cancel</source>
         <translation>Ikkanċella</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
         <translation>L-abbozz ġie ssejvjat.</translation>
-    </message>
-    <message>
-        <source>Saving ...</source>
-        <translation>Qed jissejvja ...</translation>
     </message>
     <message>
         <source>Someone else changed these fields in the meantime. Choose for each field which text to keep, then save again.</source>

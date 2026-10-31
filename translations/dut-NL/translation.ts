@@ -176,16 +176,16 @@
         <translation>Concept verwerpen</translation>
     </message>
     <message>
+        <source>Saving ...</source>
+        <translation>Opslaan ...</translation>
+    </message>
+    <message>
         <source>Cancel</source>
         <translation>Annuleren</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
         <translation>Het concept is opgeslagen.</translation>
-    </message>
-    <message>
-        <source>Saving ...</source>
-        <translation>Opslaan ...</translation>
     </message>
     <message>
         <source>Someone else changed these fields in the meantime. Choose for each field which text to keep, then save again.</source>

@@ -176,16 +176,16 @@
         <translation>Gooi konsep weg</translation>
     </message>
     <message>
+        <source>Saving ...</source>
+        <translation>Stoor ...</translation>
+    </message>
+    <message>
         <source>Cancel</source>
         <translation>Kanselleer</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
         <translation>Die konsep is gestoor.</translation>
-    </message>
-    <message>
-        <source>Saving ...</source>
-        <translation>Stoor ...</translation>
     </message>
     <message>
         <source>Someone else changed these fields in the meantime. Choose for each field which text to keep, then save again.</source>

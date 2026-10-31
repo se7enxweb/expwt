@@ -176,16 +176,16 @@
         <translation>Liʻaki ʻa e tohi fakataimi</translation>
     </message>
     <message>
+        <source>Saving ...</source>
+        <translation>ʻOku tauhi ...</translation>
+    </message>
+    <message>
         <source>Cancel</source>
         <translation>Kaniseli</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
         <translation>Kuo tauhi ʻa e tohi fakataimi.</translation>
-    </message>
-    <message>
-        <source>Saving ...</source>
-        <translation>ʻOku tauhi ...</translation>
     </message>
     <message>
         <source>Someone else changed these fields in the meantime. Choose for each field which text to keep, then save again.</source>

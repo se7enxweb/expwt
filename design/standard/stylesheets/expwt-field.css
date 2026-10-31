@@ -1,19 +1,368 @@
 /*
- * expwt/field: the page of one field's editor in the sidebar's frame. The editor (ezoe, tiptap, the tag picker ...)
- * brings its own look; around it only the system's colors (Canvas, CanvasText ...), in the frame's light or dark mode,
- * so nothing here is a color of its own.
+ * expwt/field: the page of one field's editor in the sidebar's frame. It looks like the sidebar: the same admin4
+ * tokens (a generated copy of those of expwt.css; light, html.is-dark, and the system's dark mode for a frame without
+ * a mode) and the same components (a4-btn, a4-field); expwt-field.js gives the edit template's buttons and inputs
+ * those classes. The rich text editor's own toolbar (TinyMCE, Tiptap) keeps its own look.
  */
-html.expwt-field-page { color-scheme: light dark; }
-html.expwt-field-page.is-light { color-scheme: light; }
+
+/* tokens:start (generated from expwt.css, the admin4 tokens of the sidebar; do not edit by hand) */
+:root {
+  --a4-accent: #f26a21;
+  --a4-accent-hover: #d9561a;
+  --a4-accent-strong: #c2410c;
+  --a4-accent-press: #9a3412;
+  --a4-accent-text: #ad3809;
+  --a4-accent-soft: rgba(242, 106, 33, 0.12);
+  --a4-on-accent: #fff;
+  --a4-on-accent-hover: #fff;
+  --a4-ring: #c2410c;
+  --a4-ink: #1f2430;
+  --a4-muted: #545c6a;
+  --a4-line: #c9cfd8;
+  --a4-line-strong: #aab2bd;
+  --a4-soft: #eaedf1;
+  --a4-card: #fff;
+  --a4-surface: #fff;
+  --a4-zebra: #eceff3;
+  --a4-head-bg: #dce1e8;
+  --a4-field: #fff;
+  --a4-field-line: #6e7588;
+  --a4-disabled: #9aa1ad;
+  --a4-overlay: rgba(16, 24, 40, 0.45);
+  --a4-code-bg: #1f2430;
+  --a4-code-ink: #e8ebf0;
+  --a4-code-comment: #9aa5b8;
+  --a4-code-keyword: #c792ea;
+  --a4-code-string: #a5d6a7;
+  --a4-code-number: #f9ae77;
+  --a4-code-variable: #f78c8c;
+  --a4-code-function: #82aaff;
+  --a4-code-tag: #7fdbca;
+  --a4-code-attr: #ffcb6b;
+  --a4-code-operator: #89ddff;
+  --a4-code-constant: #f9ae77;
+  --a4-code-meta: #b4bcd0;
+  --a4-code-section: #ffd580;
+  --a4-code-inserted: #a5d6a7;
+  --a4-code-deleted: #ff9e9e;
+  --a4-code-property: #addb67;
+  --a4-code-type: #ffcb8b;
+  --a4-ok: #166534;
+  --a4-ok-bg: #e7f5ea;
+  --a4-ok-line: #b7dfc1;
+  --a4-warn: #8a4b00;
+  --a4-warn-bg: #fff3df;
+  --a4-warn-line: #f3d19c;
+  --a4-bad: #b91c1c;
+  --a4-bad-bg: #fdecec;
+  --a4-bad-line: #f1b4b4;
+  --a4-bad-hover: #7f1d1d;
+  --a4-info: #1e4fa8;
+  --a4-info-bg: #e8effd;
+  --a4-info-line: #bcd0f5;
+  --a4-chart-1: #2a78d6;
+  --a4-chart-2: #eb6834;
+  --a4-chart-3: #188a63;
+  --a4-chart-4: #a66c00;
+  --a4-chart-5: #d1578a;
+  --a4-chart-6: #008300;
+  --a4-chart-7: #4a3aa7;
+  --a4-chart-8: #e34948;
+  --a4-shadow-s: 0 1px 2px rgba(16, 24, 40, 0.04);
+  --a4-shadow-m: 0 12px 32px -6px rgba(16, 24, 40, 0.12);
+  --a4-shadow-up: 0 -6px 18px -8px rgba(16, 24, 40, 0.18);
+  --a4-radius: 18px;
+  --a4-radius-s: 9px;
+  --a4-space-1: 4px;
+  --a4-space-2: 8px;
+  --a4-space-3: 12px;
+  --a4-space-4: 16px;
+  --a4-space-5: 24px;
+  --a4-space-6: 32px;
+  --a4-space-7: 48px;
+  --a4-font-cjk: "PingFang SC", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Microsoft YaHei", "Microsoft JhengHei", "Yu Gothic", "Meiryo", "Malgun Gothic", "Apple SD Gothic Neo", "Noto Sans CJK SC", "Noto Sans CJK JP", "Noto Sans CJK TC", "Noto Sans CJK KR";
+  --a4-font-intl: var(--a4-font-cjk), "Leelawadee UI", "Thonburi", "Noto Sans Thai", "Nirmala UI", "Kohinoor Devanagari", "Noto Sans Devanagari", "Segoe UI", "Noto Sans Arabic", "Geeza Pro", "Noto Sans Hebrew", "Arial Hebrew", "Noto Sans Georgian", "Noto Sans Armenian", "Noto Sans Lao", "Phetsarath OT", "Noto Sans Syriac", "Noto Sans Syriac Eastern", "Segoe UI Historic", "Estrangelo Edessa";
+  --a4-font: "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, var(--a4-font-intl), sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --a4-mono: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  --a4-text-xs: 12px;
+  --a4-text-s: 13px;
+  --a4-text-m: 14px;
+  --a4-text-l: 16px;
+  --a4-text-xl: 22px;
+  --a4-text-2xl: 26px;
+  --a4-text-3xl: 32px;
+  --a4-text-body: clamp(var(--a4-text-s), calc(var(--a4-text-s) - 3px + 0.15625vw), var(--a4-text-m));
+  --a4-leading: 1.5;
+  --a4-leading-tight: 1.25;
+  --a4-leading-none: 1;
+  --a4-weight-medium: 500;
+  --a4-weight-strong: 600;
+  --a4-weight-heading: 650;
+  --a4-weight-bold: 700;
+  --a4-duration: .15s;
+  --a4-duration-slow: .3s;
+  --a4-tracking: .04em;
+  --a4-control-h: 32px;
+  --a4-content-max: 1680px;
+  --a4-z-raised: 2;
+  --a4-z-card-veil: 2;
+  --a4-z-card-spinner: 3;
+  --a4-z-sticky: 5;
+  --a4-z-frame-grip: 9;
+  --a4-z-frame-control: 11;
+  --a4-z-hover-preview: 50;
+  --a4-z-popover: 60;
+  --a4-z-controlbar-top: 60;
+  --a4-z-scroll-top: 100;
+  --a4-z-navbar: 110;
+  --a4-z-sidebar: 120;
+  --a4-z-sidebar-handle: 140;
+  --a4-z-controlbar: 200;
+  --a4-z-drag-target: 999;
+  --a4-z-header: 1020;
+  --a4-z-sidebar-toggle: 1030;
+  --a4-z-menu: 1040;
+  --a4-z-menu-sub: 1050;
+  --a4-z-overlay: 1060;
+  --a4-z-modal: 1070;
+  --a4-z-toast: 1080;
+  --a4-z-drag: 9000;
+  --a4-z-skip-link: 10000;
+  --a4-z-drag-mask: 9500;
+  --a4-list-pad: var(--a4-cell-pad-y) calc(var(--a4-space-1) + 2px);
+  --a4-cell-pad-y: var(--a4-space-2);
+  --a4-cell-pad-x: var(--a4-space-3);
+  --a4-card-pad-y: var(--a4-space-3);
+  --a4-card-pad-x: var(--a4-space-4);
+  --a4-gutter: var(--a4-space-5);
+}
+html.is-dark {
+  --a4-accent: #f26a21;
+  --a4-accent-hover: #ff8a4c;
+  --a4-accent-strong: #c2410c;
+  --a4-accent-press: #ff8a4c;
+  --a4-accent-text: #ff9a5c;
+  --a4-accent-soft: rgba(242, 106, 33, 0.18);
+  --a4-on-accent: #fff;
+  --a4-on-accent-hover: #0e1218;
+  --a4-ring: #ff9a5c;
+  --a4-ink: #e8ebf0;
+  --a4-muted: #a3abb9;
+  --a4-line: #3a4456;
+  --a4-line-strong: #55617a;
+  --a4-soft: #29313e;
+  --a4-card: #1e242f;
+  --a4-surface: #1a1f29;
+  --a4-zebra: #232a36;
+  --a4-head-bg: #323b4d;
+  --a4-field: #121720;
+  --a4-field-line: #7a85a0;
+  --a4-disabled: #6b7486;
+  --a4-overlay: rgba(0, 0, 0, 0.6);
+  --a4-code-bg: #0e1218;
+  --a4-code-ink: #e8ebf0;
+  --a4-code-comment: #9aa5b8;
+  --a4-code-keyword: #c792ea;
+  --a4-code-string: #a5d6a7;
+  --a4-code-number: #f9ae77;
+  --a4-code-variable: #f78c8c;
+  --a4-code-function: #82aaff;
+  --a4-code-tag: #7fdbca;
+  --a4-code-attr: #ffcb6b;
+  --a4-code-operator: #89ddff;
+  --a4-code-constant: #f9ae77;
+  --a4-code-meta: #b4bcd0;
+  --a4-code-section: #ffd580;
+  --a4-code-inserted: #a5d6a7;
+  --a4-code-deleted: #ff9e9e;
+  --a4-code-property: #addb67;
+  --a4-code-type: #ffcb8b;
+  --a4-ok: #86efac;
+  --a4-ok-bg: rgba(34, 197, 94, 0.14);
+  --a4-ok-line: rgba(134, 239, 172, 0.35);
+  --a4-warn: #fcd34d;
+  --a4-warn-bg: rgba(245, 158, 11, 0.14);
+  --a4-warn-line: rgba(252, 211, 77, 0.35);
+  --a4-bad: #fca5a5;
+  --a4-bad-bg: rgba(239, 68, 68, 0.15);
+  --a4-bad-line: rgba(252, 165, 165, 0.38);
+  --a4-bad-hover: #fecaca;
+  --a4-info: #93b4f5;
+  --a4-info-bg: rgba(59, 130, 246, 0.15);
+  --a4-info-line: rgba(147, 180, 245, 0.38);
+  --a4-chart-1: #5b9cf0;
+  --a4-chart-2: #f5875a;
+  --a4-chart-3: #34d399;
+  --a4-chart-4: #fbbf24;
+  --a4-chart-5: #f19bbf;
+  --a4-chart-6: #4ade80;
+  --a4-chart-7: #8b7cf0;
+  --a4-chart-8: #f87171;
+  --a4-shadow-s: 0 1px 2px rgba(0, 0, 0, 0.3);
+  --a4-shadow-m: 0 12px 32px -6px rgba(0, 0, 0, 0.45);
+  --a4-shadow-up: 0 -6px 18px -8px rgba(0, 0, 0, 0.5);
+}
+@media (prefers-color-scheme: dark) {
+  html:not(.is-light) {
+    --a4-accent: #f26a21;
+    --a4-accent-hover: #ff8a4c;
+    --a4-accent-strong: #c2410c;
+    --a4-accent-press: #ff8a4c;
+    --a4-accent-text: #ff9a5c;
+    --a4-accent-soft: rgba(242, 106, 33, 0.18);
+    --a4-on-accent: #fff;
+    --a4-on-accent-hover: #0e1218;
+    --a4-ring: #ff9a5c;
+    --a4-ink: #e8ebf0;
+    --a4-muted: #a3abb9;
+    --a4-line: #3a4456;
+    --a4-line-strong: #55617a;
+    --a4-soft: #29313e;
+    --a4-card: #1e242f;
+    --a4-surface: #1a1f29;
+    --a4-zebra: #232a36;
+    --a4-head-bg: #323b4d;
+    --a4-field: #121720;
+    --a4-field-line: #7a85a0;
+    --a4-disabled: #6b7486;
+    --a4-overlay: rgba(0, 0, 0, 0.6);
+    --a4-code-bg: #0e1218;
+    --a4-code-ink: #e8ebf0;
+    --a4-code-comment: #9aa5b8;
+    --a4-code-keyword: #c792ea;
+    --a4-code-string: #a5d6a7;
+    --a4-code-number: #f9ae77;
+    --a4-code-variable: #f78c8c;
+    --a4-code-function: #82aaff;
+    --a4-code-tag: #7fdbca;
+    --a4-code-attr: #ffcb6b;
+    --a4-code-operator: #89ddff;
+    --a4-code-constant: #f9ae77;
+    --a4-code-meta: #b4bcd0;
+    --a4-code-section: #ffd580;
+    --a4-code-inserted: #a5d6a7;
+    --a4-code-deleted: #ff9e9e;
+    --a4-code-property: #addb67;
+    --a4-code-type: #ffcb8b;
+    --a4-ok: #86efac;
+    --a4-ok-bg: rgba(34, 197, 94, 0.14);
+    --a4-ok-line: rgba(134, 239, 172, 0.35);
+    --a4-warn: #fcd34d;
+    --a4-warn-bg: rgba(245, 158, 11, 0.14);
+    --a4-warn-line: rgba(252, 211, 77, 0.35);
+    --a4-bad: #fca5a5;
+    --a4-bad-bg: rgba(239, 68, 68, 0.15);
+    --a4-bad-line: rgba(252, 165, 165, 0.38);
+    --a4-bad-hover: #fecaca;
+    --a4-info: #93b4f5;
+    --a4-info-bg: rgba(59, 130, 246, 0.15);
+    --a4-info-line: rgba(147, 180, 245, 0.38);
+    --a4-chart-1: #5b9cf0;
+    --a4-chart-2: #f5875a;
+    --a4-chart-3: #34d399;
+    --a4-chart-4: #fbbf24;
+    --a4-chart-5: #f19bbf;
+    --a4-chart-6: #4ade80;
+    --a4-chart-7: #8b7cf0;
+    --a4-chart-8: #f87171;
+    --a4-shadow-s: 0 1px 2px rgba(0, 0, 0, 0.3);
+    --a4-shadow-m: 0 12px 32px -6px rgba(0, 0, 0, 0.45);
+    --a4-shadow-up: 0 -6px 18px -8px rgba(0, 0, 0, 0.5);
+  }
+}
+/* tokens:end */
+
+
+
+html.expwt-field-page { color-scheme: light; }
 html.expwt-field-page.is-dark { color-scheme: dark; }
+@media (prefers-color-scheme: dark) {
+  html.expwt-field-page:not(.is-light) { color-scheme: dark; }
+}
 .expwt-field-body {
   margin: 0;
-  padding: 8px;
-  background: Canvas;
-  color: CanvasText;
-  font: 14px/1.5 system-ui, sans-serif;
+  padding: var(--a4-space-2) var(--a4-space-3);
+  background: var(--a4-surface);
+  color: var(--a4-ink);
+  font-family: var(--a4-font);
+  font-size: var(--a4-text-m);
+  line-height: var(--a4-leading);
 }
-.expwt-field-input { margin-block-end: 8px; }
-.expwt-field-actions { display: flex; gap: 8px; }
-.expwt-field-error { padding: 4px 8px; border: 1px solid Mark; border-radius: 4px; }
-.expwt-field-saved { margin: 0 0 8px; }
+.expwt-field-body a { color: var(--a4-accent-text); }
+.expwt-field-body label { font-weight: var(--a4-weight-medium); }
+.expwt-field-input { margin-block-end: var(--a4-space-2); }
+.expwt-field-input fieldset { margin: 0; padding: 0; border: 0; }
+.expwt-field-input legend { padding: 0; font-weight: var(--a4-weight-medium); }
+.expwt-field-actions { display: flex; gap: var(--a4-space-2); }
+/* in the sidebar its own row has Save draft and Cancel */
+html.is-embedded .expwt-field-actions { display: none; }
+.expwt-field-error { padding: var(--a4-space-2) var(--a4-space-3); border: 1px solid var(--a4-bad-line); border-radius: var(--a4-radius-s); background: var(--a4-bad-bg); color: var(--a4-bad); }
+.expwt-field-error p { margin: 0; }
+.expwt-field-saved { margin: 0 0 var(--a4-space-2); color: var(--a4-ok); }
+
+/* the sidebar's button (expwt.css .wt-btn) */
+.a4-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--a4-space-1);
+  min-block-size: var(--a4-control-h);
+  margin: 0;
+  padding: 0 var(--a4-space-3);
+  border: 1px solid var(--a4-line-strong);
+  border-radius: var(--a4-radius-s);
+  background: var(--a4-surface);
+  background-image: none;
+  color: var(--a4-ink);
+  font: inherit;
+  text-decoration: none;
+  text-shadow: none;
+  box-shadow: none;
+  cursor: pointer;
+}
+.a4-btn:hover { background: var(--a4-soft); }
+.a4-btn:focus-visible, .a4-field:focus-visible { outline: 3px solid var(--a4-ring); outline-offset: 2px; }
+.a4-btn[disabled] { color: var(--a4-disabled); cursor: not-allowed; }
+.a4-btn.is-primary { background: var(--a4-accent-strong); border-color: var(--a4-accent-strong); color: var(--a4-on-accent); }
+.a4-btn.is-danger { color: var(--a4-bad); border-color: var(--a4-bad-line); }
+/* a choice that is on (the editor in use ...): the accent fill, as the sidebar's pressed buttons */
+.a4-btn[aria-pressed="true"], .a4-btn.current { background: var(--a4-accent-strong); border-color: var(--a4-accent-strong); color: var(--a4-on-accent); }
+html.is-dark .a4-btn[aria-pressed="true"], html.is-dark .a4-btn.current { background: var(--a4-accent); border-color: var(--a4-accent); color: var(--a4-on-accent-hover); }
+
+/* the sidebar's inputs */
+.a4-field:not([type="checkbox"]):not([type="radio"]):not([type="file"]) {
+  box-sizing: border-box;
+  max-inline-size: 100%;
+  min-block-size: var(--a4-control-h);
+  padding: var(--a4-space-1) var(--a4-space-2);
+  border: 1px solid var(--a4-field-line);
+  border-radius: var(--a4-radius-s);
+  background: var(--a4-field);
+  color: var(--a4-ink);
+  font: inherit;
+}
+input.a4-field[type="file"] { font: inherit; color: var(--a4-ink); }
+input.a4-field[type="file"]::file-selector-button {
+  margin-inline-end: var(--a4-space-2);
+  min-block-size: var(--a4-control-h);
+  padding: 0 var(--a4-space-3);
+  border: 1px solid var(--a4-line-strong);
+  border-radius: var(--a4-radius-s);
+  background: var(--a4-surface);
+  color: var(--a4-ink);
+  font: inherit;
+  cursor: pointer;
+}
+input.a4-field:is([type="checkbox"], [type="radio"]) { inline-size: var(--a4-space-5); block-size: var(--a4-space-5); accent-color: var(--a4-accent-strong); }
+
+/* the editor's options that are no main action (the engine switch, switching the editor off): behind "More" */
+.expwt-field-tools { margin-block: var(--a4-space-2); }
+.a4-menu > summary { list-style: none; display: inline-flex; }
+.a4-menu > summary::-webkit-details-marker { display: none; }
+.a4-menu[open] > summary { background: var(--a4-soft); }
+.a4-menu-items { display: flex; flex-wrap: wrap; gap: var(--a4-space-2); margin-block-start: var(--a4-space-2); padding: var(--a4-space-2); border: 1px solid var(--a4-line); border-radius: var(--a4-radius-s); background: var(--a4-card); }
+.a4-menu-items .ezoe-engine-switch { display: flex; flex-wrap: wrap; align-items: center; gap: var(--a4-space-2); }
+.a4-menu-items .ezoe-engine-switch-options { display: inline-flex; gap: var(--a4-space-1); }
+/* the options are hidden where they stand until the script has moved them behind "More" (no flash) */
+html.is-embedded .expwt-field-input :is([name*="_disable_editor"], [name*="_enable_editor"], .ezoe-engine-switch) { display: none; }
+html.is-embedded .a4-menu-items :is([name*="_disable_editor"], [name*="_enable_editor"], .ezoe-engine-switch) { display: inline-flex; }

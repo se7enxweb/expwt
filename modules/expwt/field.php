@@ -74,6 +74,16 @@ if ( !$attribute )
     return $Module->handleError( eZError::KERNEL_NOT_AVAILABLE, 'kernel' );
 $attributes = array( $attribute );
 $selfUri = 'expwt/field/' . (int)$object->attribute( 'id' ) . '/' . $versionNumber . '/' . $language . '/' . $identifier;
+$theme = $http->hasGetVariable( 'theme' ) && in_array( $http->getVariable( 'theme' ), array( 'light', 'dark' ), true ) ? $http->getVariable( 'theme' ) : '';
+// in the sidebar's frame (?in=sidebar): the sidebar's own row has Save draft and Cancel; the page drawn in the
+// sidebar's light or dark mode from its first frame. Kept on every address of the frame (a browse returns here).
+$embedded = $http->hasGetVariable( 'in' ) && $http->getVariable( 'in' ) === 'sidebar';
+$query = array();
+if ( $theme !== '' )
+    $query[] = 'theme=' . $theme;
+if ( $embedded )
+    $query[] = 'in=sidebar';
+$selfUri .= $query ? '?' . implode( '&', $query ) : '';
 
 $saved = false;
 $validation = array( 'processed' => false, 'attributes' => array() );
@@ -126,20 +136,23 @@ if ( $http->hasPostVariable( 'StoreButton' ) || $http->hasPostVariable( 'CustomA
     }
 }
 
-$theme = $http->hasGetVariable( 'theme' ) && in_array( $http->getVariable( 'theme' ), array( 'light', 'dark' ), true ) ? $http->getVariable( 'theme' ) : '';
 $tpl->setVariable( 'object', $object );
 $tpl->setVariable( 'version', $version );
 $tpl->setVariable( 'attribute', $attribute );
 $tpl->setVariable( 'edit_language', $language );
 $tpl->setVariable( 'validation', $validation );
 $tpl->setVariable( 'saved', $saved );
-$tpl->setVariable( 'form_action', $selfUri . ( $theme !== '' ? '?theme=' . $theme : '' ) );
+$tpl->setVariable( 'form_action', $selfUri );
+$tpl->setVariable( 'embedded', $embedded );
 $tpl->setVariable( 'theme', $theme );
 $tpl->setVariable( 'message', json_encode( array(
     'expwt' => $saved ? 'field-saved' : 'field-ready', 'identifier' => $identifier, 'objectId' => (int)$object->attribute( 'id' ),
     'version' => $versionNumber, 'language' => $language, 'value' => $saved ? expwtFieldValue::of( $attribute ) : null,
+    'invalid' => $validation['processed'] && !$saved && count( $validation['attributes'] ) > 0,
+    'strings' => array( 'More' => ezpI18n::tr( 'extension/expwt', 'More' ) ),
 ), JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE | JSON_HEX_TAG | JSON_HEX_AMP ) );
 
 return array( 'content' => $tpl->fetch( 'design:expwt/field.tpl' ),
               'pagelayout' => 'design:expwt/field_pagelayout.tpl',
+              'expwt_theme' => $theme, 'expwt_embedded' => $embedded,
               'path' => array( array( 'text' => (string)$attribute->contentClassAttributeName(), 'url' => false ) ) );

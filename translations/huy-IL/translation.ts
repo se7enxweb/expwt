@@ -176,16 +176,16 @@
         <translation>שדיא דסורטא</translation>
     </message>
     <message>
+        <source>Saving ...</source>
+        <translation>נטרא ...</translation>
+    </message>
+    <message>
         <source>Cancel</source>
         <translation>בוטלא</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
         <translation>סורטא נטירא.</translation>
-    </message>
-    <message>
-        <source>Saving ...</source>
-        <translation>נטרא ...</translation>
     </message>
     <message>
         <source>Someone else changed these fields in the meantime. Choose for each field which text to keep, then save again.</source>

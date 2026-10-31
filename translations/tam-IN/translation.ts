@@ -176,16 +176,16 @@
         <translation>வரைவை நிராகரி</translation>
     </message>
     <message>
+        <source>Saving ...</source>
+        <translation>சேமிக்கிறது ...</translation>
+    </message>
+    <message>
         <source>Cancel</source>
         <translation>ரத்துசெய்</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
         <translation>வரைவு சேமிக்கப்பட்டது.</translation>
-    </message>
-    <message>
-        <source>Saving ...</source>
-        <translation>சேமிக்கிறது ...</translation>
     </message>
     <message>
         <source>Someone else changed these fields in the meantime. Choose for each field which text to keep, then save again.</source>

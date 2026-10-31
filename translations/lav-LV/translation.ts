@@ -176,16 +176,16 @@
         <translation>Atmest melnrakstu</translation>
     </message>
     <message>
+        <source>Saving ...</source>
+        <translation>Saglabā...</translation>
+    </message>
+    <message>
         <source>Cancel</source>
         <translation>Atcelt</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
         <translation>Melnraksts ir saglabāts.</translation>
-    </message>
-    <message>
-        <source>Saving ...</source>
-        <translation>Saglabā...</translation>
     </message>
     <message>
         <source>Someone else changed these fields in the meantime. Choose for each field which text to keep, then save again.</source>

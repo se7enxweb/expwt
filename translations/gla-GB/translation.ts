@@ -176,16 +176,16 @@
         <translation>Tilg air falbh an dreachd</translation>
     </message>
     <message>
+        <source>Saving ...</source>
+        <translation>’Ga shàbhaladh ...</translation>
+    </message>
+    <message>
         <source>Cancel</source>
         <translation>Sguir dheth</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
         <translation>Chaidh an dreachd a shàbhaladh.</translation>
-    </message>
-    <message>
-        <source>Saving ...</source>
-        <translation>’Ga shàbhaladh ...</translation>
     </message>
     <message>
         <source>Someone else changed these fields in the meantime. Choose for each field which text to keep, then save again.</source>

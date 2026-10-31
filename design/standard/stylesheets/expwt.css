@@ -522,7 +522,7 @@ select:focus-visible, textarea:focus-visible, [contenteditable]:focus-visible, [
   cursor: pointer;
   min-block-size: var(--a4-space-6);
 }
-.wt-tabs [role="tab"][aria-selected="true"] { background: var(--a4-accent-soft); color: var(--a4-accent-text); border-color: var(--a4-accent-soft); font-weight: var(--a4-weight-strong); }
+.wt-tabs [role="tab"][aria-selected="true"] { font-weight: var(--a4-weight-strong); }
 .wt-tabs [role="tab"]:hover { color: var(--a4-ink); }
 
 .wt-body { flex: 1; overflow: auto; padding: var(--a4-space-4); }
@@ -576,7 +576,7 @@ a { color: var(--a4-accent-text); }
 .wt-rich { min-block-size: calc(var(--a4-space-7) * 3); overflow: auto; }
 .wt-field[data-dirty="true"] > span::after { content: " *"; color: var(--a4-accent-text); }
 .wt-field[data-highlight="true"] { outline: 2px dashed var(--a4-accent); outline-offset: var(--a4-space-1); }
-.wt-check { display: flex; align-items: center; gap: var(--a4-space-2); margin-block: var(--a4-space-2); }
+.wt-check { display: flex; align-items: center; gap: var(--a4-space-2); margin-block: var(--a4-space-1); padding: var(--a4-space-1) var(--a4-space-2); border: 1px solid transparent; border-radius: var(--a4-radius-s); }
 /* A field in its own editor (expwt/field in a frame): what it shows now, then the editor below it (left, right) or
    over the bar's body (top, bottom) */
 .wt-preview { max-block-size: calc(var(--a4-space-7) * 3); overflow: auto; padding: var(--a4-space-1) var(--a4-space-2); border: 1px solid var(--a4-line); border-radius: var(--a4-radius-s); background: var(--a4-field); }
@@ -600,6 +600,29 @@ a { color: var(--a4-accent-text); }
 .wt-editor-head { display: flex; align-items: center; justify-content: space-between; gap: var(--a4-space-3); }
 .wt-editor-pane .wt-frame { block-size: 100%; }
 /* tags and related objects: their names as chips (changed in the full editor) */
+/* Selected or on, the one pattern of every control of the sidebar: a toggle that is pressed ("Edit on the page"), a
+   field's editor that is open, the open panel's tab, the chosen option of a choice (position, beside or over, light or
+   dark): the accent fill (at least 3:1 against the unselected surface in both modes, its text at least 4.5:1) and a
+   check mark for the toggles. */
+.wt-btn[aria-pressed="true"],
+.wt-btn[aria-expanded="true"],
+.wt-tabs [role="tab"][aria-selected="true"],
+.wt-check:has(> input:checked) {
+  background: var(--a4-accent-strong);
+  border-color: var(--a4-accent-strong);
+  color: var(--a4-on-accent);
+}
+:host([data-theme="dark"]) .wt-btn[aria-pressed="true"],
+:host([data-theme="dark"]) .wt-btn[aria-expanded="true"],
+:host([data-theme="dark"]) .wt-tabs [role="tab"][aria-selected="true"],
+:host([data-theme="dark"]) .wt-check:has(> input:checked) {
+  background: var(--a4-accent);
+  border-color: var(--a4-accent);
+  color: var(--a4-on-accent-hover);
+}
+.wt-btn[aria-pressed="true"]::before { content: "✓"; font-weight: var(--a4-weight-bold); }
+.wt-check:has(> input:checked) { font-weight: var(--a4-weight-strong); }
+.wt-check > input { accent-color: var(--a4-ink); }
 .wt-names { display: flex; flex-wrap: wrap; gap: var(--a4-space-1); margin: 0 0 var(--a4-space-1); }
 .wt-url > .wt-field { margin-block: var(--a4-space-2) 0; }
 

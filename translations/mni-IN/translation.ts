@@ -176,16 +176,16 @@
         <translation>ড্রাফ্ট হুন্থোকপা</translation>
     </message>
     <message>
+        <source>Saving ...</source>
+        <translation>থম্লি ...</translation>
+    </message>
+    <message>
         <source>Cancel</source>
         <translation>কেন্সেল তৌবা</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
         <translation>ড্রাফ্ট থম্লে।</translation>
-    </message>
-    <message>
-        <source>Saving ...</source>
-        <translation>থম্লি ...</translation>
     </message>
     <message>
         <source>Someone else changed these fields in the meantime. Choose for each field which text to keep, then save again.</source>

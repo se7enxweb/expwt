@@ -176,16 +176,16 @@
         <translation>Naćisk zaćisnyć</translation>
     </message>
     <message>
+        <source>Saving ...</source>
+        <translation>Składuje so ...</translation>
+    </message>
+    <message>
         <source>Cancel</source>
         <translation>Přetorhnyć</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
         <translation>Naćisk je składowany.</translation>
-    </message>
-    <message>
-        <source>Saving ...</source>
-        <translation>Składuje so ...</translation>
     </message>
     <message>
         <source>Someone else changed these fields in the meantime. Choose for each field which text to keep, then save again.</source>

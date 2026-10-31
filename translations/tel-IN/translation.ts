@@ -176,16 +176,16 @@
         <translation>డ్రాఫ్ట్ విస్మరించండి</translation>
     </message>
     <message>
+        <source>Saving ...</source>
+        <translation>సేవ్ అవుతోంది ...</translation>
+    </message>
+    <message>
         <source>Cancel</source>
         <translation>రద్దు చేయండి</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
         <translation>డ్రాఫ్ట్ సేవ్ చేయబడింది.</translation>
-    </message>
-    <message>
-        <source>Saving ...</source>
-        <translation>సేవ్ అవుతోంది ...</translation>
     </message>
     <message>
         <source>Someone else changed these fields in the meantime. Choose for each field which text to keep, then save again.</source>

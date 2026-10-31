@@ -176,16 +176,16 @@
         <translation>ഡ്രാഫ്റ്റ് ഉപേക്ഷിക്കുക</translation>
     </message>
     <message>
+        <source>Saving ...</source>
+        <translation>സംരക്ഷിക്കുന്നു ...</translation>
+    </message>
+    <message>
         <source>Cancel</source>
         <translation>റദ്ദാക്കുക</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
         <translation>ഡ്രാഫ്റ്റ് സംരക്ഷിച്ചു.</translation>
-    </message>
-    <message>
-        <source>Saving ...</source>
-        <translation>സംരക്ഷിക്കുന്നു ...</translation>
     </message>
     <message>
         <source>Someone else changed these fields in the meantime. Choose for each field which text to keep, then save again.</source>

@@ -176,16 +176,16 @@
         <translation>Kāpae i ke kāmua</translation>
     </message>
     <message>
+        <source>Saving ...</source>
+        <translation>Ke mālama nei ...</translation>
+    </message>
+    <message>
         <source>Cancel</source>
         <translation>Kāpae</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
         <translation>Ua mālama ʻia ke kāmua.</translation>
-    </message>
-    <message>
-        <source>Saving ...</source>
-        <translation>Ke mālama nei ...</translation>
     </message>
     <message>
         <source>Someone else changed these fields in the meantime. Choose for each field which text to keep, then save again.</source>

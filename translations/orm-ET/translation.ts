@@ -176,16 +176,16 @@
         <translation>Wixinee gatii</translation>
     </message>
     <message>
+        <source>Saving ...</source>
+        <translation>Olkaa'aa jira ...</translation>
+    </message>
+    <message>
         <source>Cancel</source>
         <translation>Dhiisi</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
         <translation>Wixineen olkaa'ameera.</translation>
-    </message>
-    <message>
-        <source>Saving ...</source>
-        <translation>Olkaa'aa jira ...</translation>
     </message>
     <message>
         <source>Someone else changed these fields in the meantime. Choose for each field which text to keep, then save again.</source>

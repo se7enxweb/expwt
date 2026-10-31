@@ -176,16 +176,16 @@
         <translation>ਖਰੜਾ ਰੱਦ ਕਰੋ</translation>
     </message>
     <message>
+        <source>Saving ...</source>
+        <translation>ਸੰਭਾਲਿਆ ਜਾ ਰਿਹਾ ਹੈ ...</translation>
+    </message>
+    <message>
         <source>Cancel</source>
         <translation>ਰੱਦ ਕਰੋ</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
         <translation>ਖਰੜਾ ਸੰਭਾਲ ਲਿਆ ਗਿਆ।</translation>
-    </message>
-    <message>
-        <source>Saving ...</source>
-        <translation>ਸੰਭਾਲਿਆ ਜਾ ਰਿਹਾ ਹੈ ...</translation>
     </message>
     <message>
         <source>Someone else changed these fields in the meantime. Choose for each field which text to keep, then save again.</source>

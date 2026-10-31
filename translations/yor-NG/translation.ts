@@ -176,16 +176,16 @@
         <translation>Pa àkọsílẹ̀ àkọ́kọ́ tì</translation>
     </message>
     <message>
+        <source>Saving ...</source>
+        <translation>Ó ń fipamọ́ ...</translation>
+    </message>
+    <message>
         <source>Cancel</source>
         <translation>Fagilé</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
         <translation>A ti fi àkọsílẹ̀ àkọ́kọ́ pamọ́.</translation>
-    </message>
-    <message>
-        <source>Saving ...</source>
-        <translation>Ó ń fipamọ́ ...</translation>
     </message>
     <message>
         <source>Someone else changed these fields in the meantime. Choose for each field which text to keep, then save again.</source>

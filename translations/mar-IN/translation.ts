@@ -176,16 +176,16 @@
         <translation>मसुदा टाकून द्या</translation>
     </message>
     <message>
+        <source>Saving ...</source>
+        <translation>जतन होत आहे ...</translation>
+    </message>
+    <message>
         <source>Cancel</source>
         <translation>रद्द करा</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
         <translation>मसुदा जतन झाला.</translation>
-    </message>
-    <message>
-        <source>Saving ...</source>
-        <translation>जतन होत आहे ...</translation>
     </message>
     <message>
         <source>Someone else changed these fields in the meantime. Choose for each field which text to keep, then save again.</source>

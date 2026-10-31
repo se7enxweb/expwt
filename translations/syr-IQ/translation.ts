@@ -176,16 +176,16 @@
         <translation>ܫܕܝ ܣܘܪܛܐ</translation>
     </message>
     <message>
+        <source>Saving ...</source>
+        <translation>ܡܬܢܛܪ ...</translation>
+    </message>
+    <message>
         <source>Cancel</source>
         <translation>ܒܘܛܠܐ</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
         <translation>ܣܘܪܛܐ ܐܬܢܛܪ.</translation>
-    </message>
-    <message>
-        <source>Saving ...</source>
-        <translation>ܡܬܢܛܪ ...</translation>
     </message>
     <message>
         <source>Someone else changed these fields in the meantime. Choose for each field which text to keep, then save again.</source>

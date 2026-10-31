@@ -224,7 +224,7 @@
     root.expwtArrange = arrange;
     root.addEventListener('expwt-orient', arrange);
 
-    var saveBtn = h('button', { type: 'button', class: 'wt-btn', text: t('Save draft'), onclick: function () { save(); } });
+    var saveBtn = h('button', { type: 'button', class: 'wt-btn', text: t('Save draft'), onclick: function () { saveFrame().then(function () { return Object.keys(dirtyFields()).length ? save() : null; }).catch(function () {}); } });
     var publishBtn = h('button', { type: 'button', class: 'wt-btn is-primary', text: t('Publish'), onclick: function () { publish(); } });
     var discardBtn = h('button', { type: 'button', class: 'wt-btn is-danger', text: t('Discard draft'), onclick: function () { discard(); } });
     var mainActions = h('div', { class: 'wt-row wt-primary' }, [saveBtn, publishBtn, discardBtn]);
@@ -237,7 +237,34 @@
        frame's page tells which draft it edits (the same one: unsaved fields of the form are saved first) and, after
        its Save draft, the field's new value. */
     var editing = null;
-    function openEditor(f, row, btn) {
+    var frameWaiter = null;
+    /* a field's row in view in the panel, also when it is behind "More" on top and bottom */
+    function reveal(row) {
+      var more = row && row.closest('details');
+      if (more) { more.open = true; }
+      if (row) { row.scrollIntoView({ block: 'nearest' }); }
+    }
+    /* The open field editor saves first (its own Save draft, asked by the sidebar's: the frame shows none), then the
+       sidebar goes on; a value the datatype refuses stays in the frame with its message, and the sidebar stops. */
+    function saveFrame() {
+      if (!editing || !editing.frame || !editing.frame.contentWindow) { return Promise.resolve(version); }
+      ctx.say(t('Saving ...'));
+      return new Promise(function (resolve, reject) {
+        frameWaiter = { resolve: resolve, reject: reject };
+        editing.frame.contentWindow.postMessage({ expwt: 'field-save' }, window.location.origin);
+      });
+    }
+
+    /* A file dropped on a field (an image on the page): its editor takes it and saves it to the draft. */
+    function dropFile(f, row, btn, file) {
+      var send = function () {
+        editing.frame.contentWindow.postMessage({ expwt: 'field-file', file: file }, window.location.origin);
+      };
+      if (editing && editing.field === f && editing.ready) { send(); return; }
+      openEditor(f, row, btn, function () { send(); });
+    }
+
+    function openEditor(f, row, btn, onReady) {
       if (editing) {
         var same = editing.field === f;
         closeEditor();
@@ -247,7 +274,7 @@
       first.then(function (v) {
         var fieldBase = String(ctx.boot.transport.rest || '').replace(/\/api$/, '/field');
         var src = fieldBase + '/' + p.objectId + '/' + (v || 0) + '/' + encodeURIComponent(p.language) + '/' + encodeURIComponent(f.identifier)
-          + '?theme=' + encodeURIComponent(ctx.host.getAttribute('data-theme') || '');
+          + '?in=sidebar&theme=' + encodeURIComponent(ctx.host.getAttribute('data-theme') || '');
         var frame = h('iframe', { class: 'wt-frame', src: src, title: f.name });
         var pane;
         if (ctx.horizontal() && root.clientWidth >= 640) {
@@ -261,11 +288,11 @@
           root.appendChild(pane);
           var before = ctx.host.state.height;
           ctx.host.setState({ height: Math.max(before, 520) }, true);
-          editing = { field: f, pane: pane, btn: btn, height: before };
+          editing = { field: f, pane: pane, btn: btn, height: before, frame: frame, onReady: onReady };
         } else {
           pane = h('div', { class: 'wt-editor-inline' }, [frame]);
           row.appendChild(pane);
-          editing = { field: f, pane: pane, btn: btn, height: null };
+          editing = { field: f, pane: pane, btn: btn, height: null, frame: frame, onReady: onReady };
         }
         btn.setAttribute('aria-expanded', 'true');
         frame.focus();
@@ -297,6 +324,20 @@
           if (rows[f.identifier] && rows[f.identifier].expwtPreview) { drawPreview(rows[f.identifier].expwtPreview, f); }
         }
         ctx.say(t('The draft is saved.'), 'ok');
+        if (frameWaiter) { frameWaiter.resolve(version); frameWaiter = null; }
+      } else if (m.expwt === 'field-ready') {
+        if (editing && editing.field && editing.field.identifier === m.identifier) {
+          editing.ready = true;
+          if (editing.onReady) { var go = editing.onReady; editing.onReady = null; go(); }
+        }
+        if (frameWaiter && m.invalid) {
+          ctx.say(t('This value does not fit the field.'), 'bad');
+          frameWaiter.reject(new Error('invalid'));
+          frameWaiter = null;
+        }
+      } else if (m.expwt === 'field-file-refused' && frameWaiter) {
+        frameWaiter.reject(new Error('file'));
+        frameWaiter = null;
       }
     }
     if (root.expwtField) { root.removeEventListener('expwt-field', root.expwtField); }
@@ -379,7 +420,7 @@
     }
 
     function publish() {
-      var first = Object.keys(dirtyFields()).length ? save() : Promise.resolve(version);
+      var first = saveFrame().then(function () { return Object.keys(dirtyFields()).length ? save() : version; });
       first.then(function (v) {
         if (!v) {
           ctx.say(t('Change something first: there is no draft to publish.'));
@@ -456,6 +497,7 @@
           el.removeEventListener('input', el.expwtInput);
           el.removeEventListener('click', el.expwtInput);
           el.removeEventListener('keydown', el.expwtInput);
+          if (el.expwtDrag) { el.removeEventListener('dragover', el.expwtDrag); el.removeEventListener('dragleave', el.expwtDrag); el.removeEventListener('drop', el.expwtDrop); el.expwtDrag = el.expwtDrop = null; }
           (el.expwtAdded || []).forEach(function (name) { el.removeAttribute(name); });
           el.expwtAdded = null;
         });
@@ -466,10 +508,12 @@
       var count = 0;
       p.fields.forEach(function (f) {
         if (f.embed && rows[f.identifier]) {
-          /* a field in its own editor (rich text ...), marked by the kernel on the page: a click opens its editor */
-          fieldMarkers(p.objectId, f.identifier).forEach(function (range) {
-            var el = markedTarget(range, { input: 'richtext' });
-            if (!el) { return; }
+          /* a field in its own editor (rich text, an image ...), marked by the kernel on the page, or an image of the
+             page that is this field's (its file's path has /<attribute id>-<version>-): a click opens its editor */
+          var targets = fieldMarkers(p.objectId, f.identifier).map(function (range) { return markedTarget(range, { input: 'richtext' }); })
+            .filter(function (el) { return el; });
+          if (!targets.length && f.input === 'image') { targets = imagesOf(f); }
+          targets.forEach(function (el) {
             count++;
             (placed[f.identifier] = placed[f.identifier] || []).push(el);
             el.setAttribute('data-expwt-field', f.identifier);
@@ -483,15 +527,57 @@
               e.preventDefault();
               var btn = rows[f.identifier].querySelector('.wt-row button');
               if (!editing || editing.field !== f) { openEditor(f, rows[f.identifier], btn); }
+              reveal(rows[f.identifier]);
             };
             el.addEventListener('click', el.expwtInput);
             el.addEventListener('keydown', el.expwtInput);
+            if (f.input === 'image') {
+              /* an image file dropped on the page's image: into the field's editor and saved to the draft */
+              el.expwtDrag = function (e) {
+                if (e.type === 'dragleave') { el.removeAttribute('data-expwt-drop'); return; }
+                if (e.dataTransfer && Array.prototype.indexOf.call(e.dataTransfer.types, 'Files') >= 0) { e.preventDefault(); el.setAttribute('data-expwt-drop', ''); }
+              };
+              el.expwtDrop = function (e) {
+                el.removeAttribute('data-expwt-drop');
+                var file = e.dataTransfer && e.dataTransfer.files[0];
+                if (!file || !/^image\//.test(file.type)) { return; }
+                e.preventDefault();
+                dropFile(f, rows[f.identifier], rows[f.identifier].querySelector('.wt-row button'), file);
+              };
+              el.addEventListener('dragover', el.expwtDrag);
+              el.addEventListener('dragleave', el.expwtDrag);
+              el.addEventListener('drop', el.expwtDrop);
+            }
           });
           return;
         }
-        if (!f.inline || !f.editable) { return; }
-        var els = findOnPage(f);
-        if (!els.length) { return; }
+        if (!f.editable) { return; }
+        var els = f.inline ? findOnPage(f) : [];
+        if (!els.length) {
+          /* a marked field that is not its value as typed (a date, a number formatted by its template, a text the
+             template shortens): outlined too, a click puts the focus into its input of the form */
+          fieldMarkers(p.objectId, f.identifier).forEach(function (range) {
+            var box = markedTarget(range, { input: 'richtext' });
+            if (!box || !rows[f.identifier]) { return; }
+            count++;
+            (placed[f.identifier] = placed[f.identifier] || []).push(box);
+            box.setAttribute('data-expwt-field', f.identifier);
+            box.expwtAdded = ['tabindex', 'role', 'aria-label'].filter(function (name) { return !box.hasAttribute(name); });
+            box.expwtAdded.forEach(function (name) {
+              box.setAttribute(name, { tabindex: '0', role: 'button', 'aria-label': t('Edit') + ': ' + f.name }[name]);
+            });
+            box.expwtInput = function (e) {
+              if (e.type === 'keydown' && e.key !== 'Enter' && e.key !== ' ') { return; }
+              e.preventDefault();
+              reveal(rows[f.identifier]);
+              var input = rows[f.identifier].querySelector('input, select, textarea');
+              if (input) { input.focus(); }
+            };
+            box.addEventListener('click', box.expwtInput);
+            box.addEventListener('keydown', box.expwtInput);
+          });
+          return;
+        }
         placed[f.identifier] = els;
         els.forEach(function (el) {
           count++;
@@ -507,7 +593,8 @@
         });
       });
       ctx.inlineCss('[data-expwt-field]{outline:2px dashed Highlight;outline-offset:2px;cursor:text}'
-        + '[data-expwt-field]:focus{outline-style:solid}[data-expwt-hl]{outline:3px solid Highlight;outline-offset:2px}');
+        + '[data-expwt-field][role=button]{cursor:pointer}[data-expwt-field]:hover{outline-style:solid}[data-expwt-field]:focus-visible{outline:3px solid Highlight}'
+        + '[data-expwt-hl]{outline:3px solid Highlight;outline-offset:2px}[data-expwt-drop]{outline:3px solid Highlight;outline-offset:6px}');
       ctx.say(count ? t('Click a text on the page to edit it. It is saved with the draft.') : t('None of the fields shows on this page as it is; use the form.'));
     }
 
@@ -524,6 +611,18 @@
       });
       if (!inline) { ctx.inlineCss(on ? '[data-expwt-hl]{outline:3px solid Highlight;outline-offset:2px}' : ''); }
     }
+  }
+
+  /* The page's images of an image field: an image file of the datatype lies in a directory named
+     <attribute id>-<version>-<language> (var/<site>/storage/images/.../402-7-eng-US/name_alias.jpg) */
+  function imagesOf(f) {
+    if (!f.attribute) { return []; }
+    var part = '/' + f.attribute + '-';
+    return Array.prototype.filter.call(document.querySelectorAll('img'), function (img) {
+      if (img.closest('exp-wt')) { return false; }
+      var src = (img.currentSrc || img.src || '') + ' ' + (img.getAttribute('srcset') || '');
+      return src.indexOf(part) >= 0 && /\/\d+-\d+-[a-z]{3}-[A-Z]{2}\//.test(src.slice(src.indexOf(part)));
+    });
   }
 
   /* What an embedded field shows in the form: rich text as the page renders it (the server's own output of the

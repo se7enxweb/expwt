@@ -176,16 +176,16 @@
         <translation>放弃草稿</translation>
     </message>
     <message>
+        <source>Saving ...</source>
+        <translation>正在保存 ...</translation>
+    </message>
+    <message>
         <source>Cancel</source>
         <translation>取消</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
         <translation>草稿已保存。</translation>
-    </message>
-    <message>
-        <source>Saving ...</source>
-        <translation>正在保存 ...</translation>
     </message>
     <message>
         <source>Someone else changed these fields in the meantime. Choose for each field which text to keep, then save again.</source>

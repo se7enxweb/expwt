@@ -176,16 +176,16 @@
         <translation>Itapon ang draft</translation>
     </message>
     <message>
+        <source>Saving ...</source>
+        <translation>Sine-save ...</translation>
+    </message>
+    <message>
         <source>Cancel</source>
         <translation>Kanselahin</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
         <translation>Na-save ang draft.</translation>
-    </message>
-    <message>
-        <source>Saving ...</source>
-        <translation>Sine-save ...</translation>
     </message>
     <message>
         <source>Someone else changed these fields in the meantime. Choose for each field which text to keep, then save again.</source>

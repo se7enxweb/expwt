@@ -176,16 +176,16 @@
         <translation>खस्रा गार</translation>
     </message>
     <message>
+        <source>Saving ...</source>
+        <translation>दोनगासिनो दं ...</translation>
+    </message>
+    <message>
         <source>Cancel</source>
         <translation>बन्द</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
         <translation>खस्राखौ दोनजादों।</translation>
-    </message>
-    <message>
-        <source>Saving ...</source>
-        <translation>दोनगासिनो दं ...</translation>
     </message>
     <message>
         <source>Someone else changed these fields in the meantime. Choose for each field which text to keep, then save again.</source>

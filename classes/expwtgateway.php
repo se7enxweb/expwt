@@ -222,6 +222,7 @@ class expwtGateway
             $shown = expwtFieldValue::of( $attribute, $kind['input'] );
             $out[] = array(
                 'identifier' => (string)$attribute->attribute( 'contentclass_attribute_identifier' ),
+                'attribute' => (int)$attribute->attribute( 'id' ),
                 'name' => $classAttribute ? (string)$classAttribute->attribute( 'name' ) : '',
                 'datatype' => $datatype,
                 'required' => $classAttribute ? (bool)$classAttribute->attribute( 'is_required' ) : false,

@@ -176,16 +176,16 @@
         <translation>مسودو رد ڪريو</translation>
     </message>
     <message>
+        <source>Saving ...</source>
+        <translation>محفوظ ٿي رهيو آهي ...</translation>
+    </message>
+    <message>
         <source>Cancel</source>
         <translation>رد ڪريو</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
         <translation>مسودو محفوظ ٿي ويو.</translation>
-    </message>
-    <message>
-        <source>Saving ...</source>
-        <translation>محفوظ ٿي رهيو آهي ...</translation>
     </message>
     <message>
         <source>Someone else changed these fields in the meantime. Choose for each field which text to keep, then save again.</source>

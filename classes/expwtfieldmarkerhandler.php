@@ -23,6 +23,8 @@ class expwtFieldMarkerHandler
         try
         {
             $settings = expwtSettings::fromIni();
+            // not on this siteaccess (an administration without ShowInAdmin=enabled, SiteAccessList[], SiteAccessExcludeList[]): off
+            $settings['enabled'] = expwtSettings::onHere( $settings );
             $user = eZUser::currentUser();
             if ( !$settings['enabled'] || !$user->isRegistered() )
                 return false;

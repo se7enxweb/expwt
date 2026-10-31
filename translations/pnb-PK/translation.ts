@@ -176,16 +176,16 @@
         <translation>مسودہ رد کرو</translation>
     </message>
     <message>
+        <source>Saving ...</source>
+        <translation>محفوظ ہو رہیا اے ...</translation>
+    </message>
+    <message>
         <source>Cancel</source>
         <translation>رد کرو</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
         <translation>مسودہ محفوظ ہو گیا۔</translation>
-    </message>
-    <message>
-        <source>Saving ...</source>
-        <translation>محفوظ ہو رہیا اے ...</translation>
     </message>
     <message>
         <source>Someone else changed these fields in the meantime. Choose for each field which text to keep, then save again.</source>

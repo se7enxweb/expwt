@@ -176,16 +176,16 @@
         <translation>초안 폐기</translation>
     </message>
     <message>
+        <source>Saving ...</source>
+        <translation>저장 중...</translation>
+    </message>
+    <message>
         <source>Cancel</source>
         <translation>취소</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
         <translation>초안이 저장되었습니다.</translation>
-    </message>
-    <message>
-        <source>Saving ...</source>
-        <translation>저장 중...</translation>
     </message>
     <message>
         <source>Someone else changed these fields in the meantime. Choose for each field which text to keep, then save again.</source>

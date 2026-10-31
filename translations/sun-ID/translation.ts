@@ -176,16 +176,16 @@
         <translation>Piceun draf</translation>
     </message>
     <message>
+        <source>Saving ...</source>
+        <translation>Keur nyimpen ...</translation>
+    </message>
+    <message>
         <source>Cancel</source>
         <translation>Bolaykeun</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
         <translation>Draf geus disimpen.</translation>
-    </message>
-    <message>
-        <source>Saving ...</source>
-        <translation>Keur nyimpen ...</translation>
     </message>
     <message>
         <source>Someone else changed these fields in the meantime. Choose for each field which text to keep, then save again.</source>

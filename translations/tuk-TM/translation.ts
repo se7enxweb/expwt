@@ -176,16 +176,16 @@
         <translation>Garalamany taşla</translation>
     </message>
     <message>
+        <source>Saving ...</source>
+        <translation>Ýatda saklanýar ...</translation>
+    </message>
+    <message>
         <source>Cancel</source>
         <translation>Ýatyr</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
         <translation>Garalama ýatda saklandy.</translation>
-    </message>
-    <message>
-        <source>Saving ...</source>
-        <translation>Ýatda saklanýar ...</translation>
     </message>
     <message>
         <source>Someone else changed these fields in the meantime. Choose for each field which text to keep, then save again.</source>

@@ -176,16 +176,16 @@
         <translation>प्रारूपं त्यजतु</translation>
     </message>
     <message>
+        <source>Saving ...</source>
+        <translation>संरक्ष्यते ...</translation>
+    </message>
+    <message>
         <source>Cancel</source>
         <translation>निरस्यतु</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
         <translation>प्रारूपं संरक्षितम्।</translation>
-    </message>
-    <message>
-        <source>Saving ...</source>
-        <translation>संरक्ष्यते ...</translation>
     </message>
     <message>
         <source>Someone else changed these fields in the meantime. Choose for each field which text to keep, then save again.</source>

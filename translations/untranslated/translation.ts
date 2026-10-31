@@ -176,15 +176,15 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <source>Saving ...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>Cancel</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <source>The draft is saved.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Saving ...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

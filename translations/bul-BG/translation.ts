@@ -176,16 +176,16 @@
         <translation>Отхвърли черновата</translation>
     </message>
     <message>
+        <source>Saving ...</source>
+        <translation>Запазване ...</translation>
+    </message>
+    <message>
         <source>Cancel</source>
         <translation>Отказ</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
         <translation>Черновата е запазена.</translation>
-    </message>
-    <message>
-        <source>Saving ...</source>
-        <translation>Запазване ...</translation>
     </message>
     <message>
         <source>Someone else changed these fields in the meantime. Choose for each field which text to keep, then save again.</source>

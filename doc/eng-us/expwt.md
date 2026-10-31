@@ -15,6 +15,16 @@ expwt ships switched off (until its 1.0 release). In `settings/siteaccess/<sitea
 Enabled=enabled
 ```
 
+The sidebar stays out of the administration (`ShowInAdmin=disabled`, the default): its siteaccesses get no sidebar,
+no hook output and no request. `SiteAccessList[]` and `SiteAccessExcludeList[]` choose siteaccesses one by one.
+
+**Only on some siteaccesses, the other way:** activate expwt per siteaccess with `ActiveAccessExtensions[]=expwt` in
+`settings/siteaccess/<front siteaccess>/site.ini.append.php` instead of `ActiveExtensions[]=expwt` for the whole
+installation. The trade-off: the extension then exists only there - its module (`expwt/api`, `expwt/field`), its
+policies in the role editor, its translations and its settings are unknown to every other siteaccess, the
+administration included, so roles are edited where it is active or with the policies typed in; the settings above
+keep the module everywhere and only leave the sidebar out.
+
 An installation that used ezwt moves over with `./console exp:wt:migrate-from-ezwt --apply` (or the upgrade step
 `6.0.15-expwt-enable`): ezwt's hidden classes, its policies as expwt policies, expwt in ezwt's place in the active
 extensions. A dry run lists the changes first.
@@ -119,6 +129,17 @@ as content/edit (validation, the datatype's input, its custom actions, the objec
 the administration stores for the same input. Opening an editor uses the user's newest draft in the language, or makes
 one, as the administration's Edit does.
 
+The editor's frame looks like the sidebar (its admin4 tokens and buttons, in the sidebar's light or dark mode); the
+sidebar's own row has Save draft and Publish for it, and the rich text editor's options that are no main action
+(switching the engine, switching the editor off) are behind **More**.
+
+**Edit on the page** (pressed: the accent fill and a check mark, like every selected control of the sidebar) outlines
+every field the page shows: text fields are edited in place; rich text, images and the other fields open their editor
+with a click or Enter, the field's row scrolled into view. A field is found by the kernel's field markers (site.ini
+`[ContentFieldMarkerSettings]`, expwt's handler: only for a user who may edit with the sidebar), an image also by its
+file's path, a text by its value where there are no markers. An image file dropped on the page's image replaces it in
+the draft, through the image field's own upload; its alternative text is in its editor.
+
 ## Policies
 
 | Policy | Allows |
@@ -162,6 +183,8 @@ sidebar is first opened. The closed tab (script and stylesheet) stays below 50 K
 |---|---|---|
 | `[ExpwtSettings] Enabled` | disabled | the sidebar on this siteaccess |
 | `ShowToAnonymous` | enabled | the closed tab for visitors not signed in |
+| `ShowInAdmin` | disabled | the sidebar in the administration's siteaccesses (those of `[AdminSiteAccessMenu] AdminSiteAccessList[]`, else an administration design); disabled: nothing at all there |
+| `SiteAccessList[]`, `SiteAccessExcludeList[]` | (empty) | only these siteaccesses (empty: all), never these |
 | `DataLayer` | rest | rest or graphql |
 | `InjectWithoutHook` | enabled | place the sidebar in pagelayouts without the hook |
 | `DefaultEdge`, `DefaultAlign` | (empty), end | a first visit's edge (left, right, top, bottom; empty: `DefaultSide`) and, on top and bottom, the end of the bar the tab is anchored at (start: left, end: right) |

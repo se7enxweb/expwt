@@ -176,16 +176,16 @@
         <translation>Odbaci nacrt</translation>
     </message>
     <message>
+        <source>Saving ...</source>
+        <translation>Spremanje ...</translation>
+    </message>
+    <message>
         <source>Cancel</source>
         <translation>Otkaži</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
         <translation>Nacrt je spremljen.</translation>
-    </message>
-    <message>
-        <source>Saving ...</source>
-        <translation>Spremanje ...</translation>
     </message>
     <message>
         <source>Someone else changed these fields in the meantime. Choose for each field which text to keep, then save again.</source>

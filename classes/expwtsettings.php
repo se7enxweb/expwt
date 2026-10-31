@@ -28,6 +28,9 @@ class expwtSettings
         'shortcut_key' => 'E',
         'header_selector' => 'header, [role=banner], #header, .header',
         'footer_selector' => 'footer, [role=contentinfo], #cookie-bar, .cookie-bar, #cookie-banner, .cookie-banner, #cookie-consent, .cookie-consent, .cc-window, #CybotCookiebotDialog, #onetrust-banner-sdk',
+        'show_in_admin' => false,
+        'siteaccess_list' => array(),
+        'siteaccess_exclude' => array(),
         'hidden_classes' => array( 'common_ini_settings' ),
         'lock_seconds' => 300,
     );
@@ -42,7 +45,9 @@ class expwtSettings
     public static function fromArray( array $values )
     {
         $s = array_intersect_key( $values, self::DEFAULTS ) + self::DEFAULTS;
-        foreach ( array( 'enabled', 'show_to_anonymous', 'inject_without_hook' ) as $flag )
+        foreach ( array( 'siteaccess_list', 'siteaccess_exclude' ) as $list )
+            $s[$list] = array_values( array_filter( array_map( 'trim', array_map( 'strval', (array)$s[$list] ) ), 'strlen' ) );
+        foreach ( array( 'enabled', 'show_to_anonymous', 'inject_without_hook', 'show_in_admin' ) as $flag )
             $s[$flag] = self::isOn( $s[$flag] );
         $s['data_layer'] = in_array( $s['data_layer'], self::DATA_LAYERS, true ) ? $s['data_layer'] : 'rest';
         $s['default_side'] = $s['default_side'] === 'left' ? 'left' : 'right';
@@ -99,9 +104,65 @@ class expwtSettings
         $read( 'ExpwtSettings', 'ShortcutKey', 'shortcut_key' );
         $read( 'ExpwtSettings', 'HeaderSelector', 'header_selector' );
         $read( 'ExpwtSettings', 'FooterSelector', 'footer_selector' );
+        $read( 'ExpwtSettings', 'ShowInAdmin', 'show_in_admin' );
+        $read( 'ExpwtSettings', 'SiteAccessList', 'siteaccess_list' );
+        $read( 'ExpwtSettings', 'SiteAccessExcludeList', 'siteaccess_exclude' );
         $read( 'CreateSettings', 'HiddenClassList', 'hidden_classes' );
         $read( 'LockSettings', 'LockSeconds', 'lock_seconds' );
         return self::fromArray( $values );
+    }
+
+    /**
+     * Whether the sidebar is on a siteaccess (owner 2026-10-31, revising decision 33): only those of SiteAccessList[]
+     * when it names any, never those of SiteAccessExcludeList[], and an administration only with ShowInAdmin=enabled.
+     * Pure.
+     *
+     * @param array $s fromArray()
+     * @param string $siteaccess
+     * @param bool $administration the siteaccess is an administration (currentIsAdministration())
+     * @return bool
+     */
+    public static function showHere( array $s, $siteaccess, $administration )
+    {
+        if ( !$s['enabled'] )
+            return false;
+        if ( $s['siteaccess_list'] && !in_array( (string)$siteaccess, $s['siteaccess_list'], true ) )
+            return false;
+        if ( in_array( (string)$siteaccess, $s['siteaccess_exclude'], true ) )
+            return false;
+        return !$administration || $s['show_in_admin'];
+    }
+
+    /**
+     * Whether the siteaccess of this request is an administration, as the kernel decides it for its siteaccess menu
+     * (ezpSiteAccessMenu::isAdministration(): [AdminSiteAccessMenu] AdminSiteAccessList[] when it names any, else an
+     * administration design - admin, admin2, admin3, admin4, admin4l, adminui, the editor's - or a FrontSiteAccess).
+     *
+     * @return bool
+     */
+    public static function currentIsAdministration()
+    {
+        $access = eZSiteAccess::current();
+        $name = is_array( $access ) && isset( $access['name'] ) ? (string)$access['name'] : '';
+        $ini = eZINI::instance();
+        $design = $ini->hasVariable( 'DesignSettings', 'SiteDesign' ) ? (string)$ini->variable( 'DesignSettings', 'SiteDesign' ) : '';
+        $info = array( 'site_design' => $design, 'site_designs' => array( $design ),
+                       'front_site_access' => $ini->hasVariable( 'SiteSettings', 'FrontSiteAccess' ) ? (string)$ini->variable( 'SiteSettings', 'FrontSiteAccess' ) : '' );
+        if ( class_exists( 'ezpSiteAccessMenu' ) && method_exists( 'ezpSiteAccessMenu', 'isAdministration' ) )
+        {
+            $menu = ezpSiteAccessMenu::settings();
+            return ezpSiteAccessMenu::isAdministration( $name, $menu['admin'], $info );
+        }
+        return in_array( strtolower( $design ), array( 'admin', 'admin2', 'admin3', 'admin4', 'admin4l', 'adminui', 'editor' ), true )
+            || $info['front_site_access'] !== '';
+    }
+
+    /** @return bool the sidebar is on for the siteaccess of this request */
+    public static function onHere( array $s )
+    {
+        $access = eZSiteAccess::current();
+        $name = is_array( $access ) && isset( $access['name'] ) ? (string)$access['name'] : '';
+        return self::showHere( $s, $name, self::currentIsAdministration() );
     }
 
     /**

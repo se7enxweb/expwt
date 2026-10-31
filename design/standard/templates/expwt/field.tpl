@@ -15,6 +15,7 @@
     <div class="expwt-field-input">
         {attribute_edit_gui attribute=$attribute}
     </div>
+    <div class="expwt-field-tools"></div>
     <div class="expwt-field-actions">
         <button type="submit" name="StoreButton" class="button defaultbutton">{'Save draft'|i18n( 'extension/expwt' )}</button>
     </div>

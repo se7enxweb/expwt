@@ -176,16 +176,16 @@
         <translation>Партофтани сиёҳнавис</translation>
     </message>
     <message>
+        <source>Saving ...</source>
+        <translation>Захира шуда истодааст ...</translation>
+    </message>
+    <message>
         <source>Cancel</source>
         <translation>Бекор кардан</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
         <translation>Сиёҳнавис захира шуд.</translation>
-    </message>
-    <message>
-        <source>Saving ...</source>
-        <translation>Захира шуда истодааст ...</translation>
     </message>
     <message>
         <source>Someone else changed these fields in the meantime. Choose for each field which text to keep, then save again.</source>

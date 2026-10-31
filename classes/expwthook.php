@@ -64,6 +64,8 @@ class expwtHook
     public static function context( $nodeId = 0 )
     {
         $settings = expwtSettings::fromIni();
+        // not on this siteaccess (an administration without ShowInAdmin=enabled, SiteAccessList[], SiteAccessExcludeList[]): off
+        $settings['enabled'] = expwtSettings::onHere( $settings );
         $user = eZUser::currentUser();
         $anonymous = !$user->isRegistered();
         $mayUse = false;
@@ -129,6 +131,8 @@ class expwtHook
             if ( !is_string( $html ) || stripos( $html, '</body>' ) === false || strpos( $html, '<' . self::TAG ) !== false )
                 return $html;
             $settings = expwtSettings::fromIni();
+            // not on this siteaccess (an administration without ShowInAdmin=enabled, SiteAccessList[], SiteAccessExcludeList[]): off
+            $settings['enabled'] = expwtSettings::onHere( $settings );
             if ( !$settings['enabled'] || !$settings['inject_without_hook'] )
                 return $html;
             return self::inject( $html, self::markup( self::context( self::currentNodeId() ) ) );

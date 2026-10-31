@@ -176,16 +176,16 @@
         <translation>فڕێدانی ڕەشنووس</translation>
     </message>
     <message>
+        <source>Saving ...</source>
+        <translation>پاشەکەوت دەکرێت ...</translation>
+    </message>
+    <message>
         <source>Cancel</source>
         <translation>هەڵوەشاندنەوە</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
         <translation>ڕەشنووسەکە پاشەکەوت کرا.</translation>
-    </message>
-    <message>
-        <source>Saving ...</source>
-        <translation>پاشەکەوت دەکرێت ...</translation>
     </message>
     <message>
         <source>Someone else changed these fields in the meantime. Choose for each field which text to keep, then save again.</source>

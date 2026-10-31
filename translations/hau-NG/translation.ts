@@ -176,16 +176,16 @@
         <translation>Watsar da daftari</translation>
     </message>
     <message>
+        <source>Saving ...</source>
+        <translation>Ana ajiyewa ...</translation>
+    </message>
+    <message>
         <source>Cancel</source>
         <translation>Soke</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
         <translation>An ajiye daftarin.</translation>
-    </message>
-    <message>
-        <source>Saving ...</source>
-        <translation>Ana ajiyewa ...</translation>
     </message>
     <message>
         <source>Someone else changed these fields in the meantime. Choose for each field which text to keep, then save again.</source>

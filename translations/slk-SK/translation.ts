@@ -176,16 +176,16 @@
         <translation>Zahodiť koncept</translation>
     </message>
     <message>
+        <source>Saving ...</source>
+        <translation>Ukladá sa ...</translation>
+    </message>
+    <message>
         <source>Cancel</source>
         <translation>Zrušiť</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
         <translation>Koncept je uložený.</translation>
-    </message>
-    <message>
-        <source>Saving ...</source>
-        <translation>Ukladá sa ...</translation>
     </message>
     <message>
         <source>Someone else changed these fields in the meantime. Choose for each field which text to keep, then save again.</source>

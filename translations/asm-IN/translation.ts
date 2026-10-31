@@ -176,16 +176,16 @@
         <translation>খচৰা বাতিল কৰক</translation>
     </message>
     <message>
+        <source>Saving ...</source>
+        <translation>ছেভ হৈ আছে ...</translation>
+    </message>
+    <message>
         <source>Cancel</source>
         <translation>বাতিল কৰক</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
         <translation>খচৰাটো ছেভ হ'ল।</translation>
-    </message>
-    <message>
-        <source>Saving ...</source>
-        <translation>ছেভ হৈ আছে ...</translation>
     </message>
     <message>
         <source>Someone else changed these fields in the meantime. Choose for each field which text to keep, then save again.</source>

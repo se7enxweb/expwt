@@ -176,16 +176,16 @@
         <translation>मस्यौदा खारेज गर्नुहोस्</translation>
     </message>
     <message>
+        <source>Saving ...</source>
+        <translation>सुरक्षित हुँदैछ ...</translation>
+    </message>
+    <message>
         <source>Cancel</source>
         <translation>रद्द गर्नुहोस्</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
         <translation>मस्यौदा सुरक्षित भयो।</translation>
-    </message>
-    <message>
-        <source>Saving ...</source>
-        <translation>सुरक्षित हुँदैछ ...</translation>
     </message>
     <message>
         <source>Someone else changed these fields in the meantime. Choose for each field which text to keep, then save again.</source>
