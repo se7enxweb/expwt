@@ -183,7 +183,10 @@
        full editor behind "More", so the bar's main controls never need a scroll bar. On left and right as before. */
     var moreFields = h('div', { class: 'wt-fields' });
     var moreSummary = h('summary', { text: t('More') });
-    var more = h('details', { class: 'wt-section wt-more' }, [moreSummary, moreFields]);
+    /* opened: its fields scroll into the bar's view (they lie below the grid) */
+    var more = h('details', { class: 'wt-section wt-more', ontoggle: function () {
+      if (more.open) { window.requestAnimationFrame(function () { moreSummary.scrollIntoView({ block: 'start', behavior: 'smooth' }); }); }
+    } }, [moreSummary, moreFields]);
     root.appendChild(more);
     var flat = h('div', {});
     root.appendChild(flat);
@@ -191,7 +194,9 @@
     /* On top and bottom (a wide window): every field in the grid first, then the last ones behind "More" until the
        bar's body needs no scroll bar (at least one field stays). Again whenever the bar changes its size. */
     function arrange() {
-      var hz = ctx.horizontal();
+      /* a phone (the bar on top or bottom is a sheet as high as its contents, its body scrolls): the fields one
+         below the other as on the sides, no "More" -- in its little room "More" opened below the visible part */
+      var hz = ctx.horizontal() && window.innerWidth >= 640;
       order.forEach(function (row) { form.appendChild(row); });
       if (hz) {
         if (othersNote) { more.appendChild(othersNote); }
