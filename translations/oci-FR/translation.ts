@@ -188,6 +188,10 @@
         <translation>Tampar</translation>
     </message>
     <message>
+        <source>Try again</source>
+        <translation>Tornar ensajar</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>Abandonar lo borrolhon</translation>
     </message>

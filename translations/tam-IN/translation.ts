@@ -188,6 +188,10 @@
         <translation>மூடு</translation>
     </message>
     <message>
+        <source>Try again</source>
+        <translation>மீண்டும் முயல்க</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>வரைவை நிராகரி</translation>
     </message>

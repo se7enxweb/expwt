@@ -188,6 +188,10 @@
         <translation>ປິດ</translation>
     </message>
     <message>
+        <source>Try again</source>
+        <translation>ລອງໃໝ່</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>ຍົກເລີກສະບັບຮ່າງ</translation>
     </message>

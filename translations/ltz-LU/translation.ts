@@ -188,6 +188,10 @@
         <translation>Zoumaachen</translation>
     </message>
     <message>
+        <source>Try again</source>
+        <translation>Nach eng Kéier probéieren</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>Entworf verwerfen</translation>
     </message>

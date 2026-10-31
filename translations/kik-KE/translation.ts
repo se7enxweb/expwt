@@ -188,6 +188,10 @@
         <translation>Hinga</translation>
     </message>
     <message>
+        <source>Try again</source>
+        <translation>Geria rĩngĩ</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>Te ndrafti</translation>
     </message>

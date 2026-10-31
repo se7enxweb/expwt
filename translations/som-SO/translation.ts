@@ -188,6 +188,10 @@
         <translation>Xir</translation>
     </message>
     <message>
+        <source>Try again</source>
+        <translation>Isku day mar kale</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>Tuur qabyada</translation>
     </message>

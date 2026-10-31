@@ -188,6 +188,10 @@
         <translation>Zavrieť</translation>
     </message>
     <message>
+        <source>Try again</source>
+        <translation>Skúsiť znova</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>Zahodiť koncept</translation>
     </message>

@@ -188,6 +188,10 @@
         <translation>Mdel</translation>
     </message>
     <message>
+        <source>Try again</source>
+        <translation>Ɛreḍ tikkelt nniḍen</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>Ttu arewway</translation>
     </message>

@@ -188,6 +188,10 @@
         <translation>Tëj</translation>
     </message>
     <message>
+        <source>Try again</source>
+        <translation>Jéemaatal</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>Bàyyi brouyoŋ bi</translation>
     </message>

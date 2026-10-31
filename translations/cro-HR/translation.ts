@@ -188,6 +188,10 @@
         <translation>Zatvori</translation>
     </message>
     <message>
+        <source>Try again</source>
+        <translation>Pokušaj ponovno</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>Odbaci skicu</translation>
     </message>

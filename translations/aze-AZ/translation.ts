@@ -188,6 +188,10 @@
         <translation>Bağla</translation>
     </message>
     <message>
+        <source>Try again</source>
+        <translation>Yenidən cəhd et</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>Qaralamadan imtina et</translation>
     </message>

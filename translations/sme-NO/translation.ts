@@ -188,6 +188,10 @@
         <translation>Gidde</translation>
     </message>
     <message>
+        <source>Try again</source>
+        <translation>Geahččal ođđasit</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>Hilgo luonosa</translation>
     </message>

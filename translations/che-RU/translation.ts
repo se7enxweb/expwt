@@ -188,6 +188,10 @@
         <translation>ДӀакъовла</translation>
     </message>
     <message>
+        <source>Try again</source>
+        <translation>Юха а хьажа</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>Черновик дӀататта</translation>
     </message>

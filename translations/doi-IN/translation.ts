@@ -188,6 +188,10 @@
         <translation>बंद करो</translation>
     </message>
     <message>
+        <source>Try again</source>
+        <translation>फ्ही कोशश करो</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>मसौदा छोड़ो</translation>
     </message>

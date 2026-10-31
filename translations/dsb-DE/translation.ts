@@ -188,6 +188,10 @@
         <translation>Zacyniś</translation>
     </message>
     <message>
+        <source>Try again</source>
+        <translation>Hyšći raz wopytaś</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>Nacerjenje zachyśiś</translation>
     </message>

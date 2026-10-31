@@ -188,6 +188,10 @@
         <translation>إغلاق</translation>
     </message>
     <message>
+        <source>Try again</source>
+        <translation>إعادة المحاولة</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>تجاهل المسودة</translation>
     </message>

@@ -188,6 +188,10 @@
         <translation>Sluiten</translation>
     </message>
     <message>
+        <source>Try again</source>
+        <translation>Opnieuw proberen</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>Concept verwerpen</translation>
     </message>

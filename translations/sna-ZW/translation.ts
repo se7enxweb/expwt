@@ -188,6 +188,10 @@
         <translation>Vhara</translation>
     </message>
     <message>
+        <source>Try again</source>
+        <translation>Edza zvakare</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>Rasa dhirafiti</translation>
     </message>

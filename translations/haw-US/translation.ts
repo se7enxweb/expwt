@@ -188,6 +188,10 @@
         <translation>Pani</translation>
     </message>
     <message>
+        <source>Try again</source>
+        <translation>Hoʻāʻo hou</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>Kāpae i ke kāmua</translation>
     </message>

@@ -188,6 +188,10 @@
         <translation>Serrar</translation>
     </message>
     <message>
+        <source>Try again</source>
+        <translation>Empruvar anc ina giada</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>Rinunziar al sboz</translation>
     </message>

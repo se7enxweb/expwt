@@ -188,6 +188,10 @@
         <translation>بند کریں</translation>
     </message>
     <message>
+        <source>Try again</source>
+        <translation>دوبارہ کوشش کریں</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>مسودہ ترک کریں</translation>
     </message>

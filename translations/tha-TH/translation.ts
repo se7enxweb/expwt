@@ -188,6 +188,10 @@
         <translation>ปิด</translation>
     </message>
     <message>
+        <source>Try again</source>
+        <translation>ลองอีกครั้ง</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>ทิ้งฉบับร่าง</translation>
     </message>

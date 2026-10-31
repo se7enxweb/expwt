@@ -188,6 +188,10 @@
         <translation>Funga</translation>
     </message>
     <message>
+        <source>Try again</source>
+        <translation>Ongera ugerageze</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>Reka umushinga</translation>
     </message>

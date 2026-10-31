@@ -188,6 +188,10 @@
         <translation>වසන්න</translation>
     </message>
     <message>
+        <source>Try again</source>
+        <translation>නැවත උත්සාහ කරන්න</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>කෙටුම්පත ඉවත දමන්න</translation>
     </message>

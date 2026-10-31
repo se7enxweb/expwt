@@ -188,6 +188,10 @@
         <translation>बंद करात</translation>
     </message>
     <message>
+        <source>Try again</source>
+        <translation>परत यत्न करात</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>मसुदो काडून उडयात</translation>
     </message>

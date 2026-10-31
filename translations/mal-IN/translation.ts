@@ -188,6 +188,10 @@
         <translation>അടയ്ക്കുക</translation>
     </message>
     <message>
+        <source>Try again</source>
+        <translation>വീണ്ടും ശ്രമിക്കുക</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>ഡ്രാഫ്റ്റ് ഉപേക്ഷിക്കുക</translation>
     </message>

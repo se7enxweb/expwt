@@ -188,6 +188,10 @@
         <translation>סגור</translation>
     </message>
     <message>
+        <source>Try again</source>
+        <translation>נסי תוב</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>שדיא דסורטא</translation>
     </message>

@@ -188,6 +188,10 @@
         <translation>Хаах</translation>
     </message>
     <message>
+        <source>Try again</source>
+        <translation>Дахин оролдох</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>Ноорог устгах</translation>
     </message>

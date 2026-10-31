@@ -188,6 +188,10 @@
         <translation>Luk</translation>
     </message>
     <message>
+        <source>Try again</source>
+        <translation>Prøv igen</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>Kassér udkast</translation>
     </message>

@@ -188,6 +188,10 @@
         <translation>Claude</translation>
     </message>
     <message>
+        <source>Try again</source>
+        <translation>Iterum conare</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>Adumbrationem abicere</translation>
     </message>

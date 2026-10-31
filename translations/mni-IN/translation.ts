@@ -188,6 +188,10 @@
         <translation>থিংবিযু</translation>
     </message>
     <message>
+        <source>Try again</source>
+        <translation>অমুক হোৎনবিযু</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>ড্রাফ্ট হুন্থোকপা</translation>
     </message>

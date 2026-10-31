@@ -188,6 +188,10 @@
         <translation>Stäng</translation>
     </message>
     <message>
+        <source>Try again</source>
+        <translation>Försök igen</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>Kasta utkast</translation>
     </message>

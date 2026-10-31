@@ -188,6 +188,10 @@
         <translation>Ýap</translation>
     </message>
     <message>
+        <source>Try again</source>
+        <translation>Gaýtadan synanyş</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>Garalamany taşla</translation>
     </message>

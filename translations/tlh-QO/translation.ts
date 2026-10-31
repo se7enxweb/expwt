@@ -188,6 +188,10 @@
         <translation>SoQmoH</translation>
     </message>
     <message>
+        <source>Try again</source>
+        <translation>yInIDqa'</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>nab yIwoD</translation>
     </message>

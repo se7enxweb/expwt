@@ -188,6 +188,10 @@
         <translation>ዕጸው</translation>
     </message>
     <message>
+        <source>Try again</source>
+        <translation>እንደገና ፈትን</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>ንድፊ ደርብ</translation>
     </message>

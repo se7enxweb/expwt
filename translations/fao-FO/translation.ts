@@ -188,6 +188,10 @@
         <translation>Lat aftur</translation>
     </message>
     <message>
+        <source>Try again</source>
+        <translation>Royn aftur</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>Vraka kladdu</translation>
     </message>

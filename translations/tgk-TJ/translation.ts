@@ -188,6 +188,10 @@
         <translation>Пӯшидан</translation>
     </message>
     <message>
+        <source>Try again</source>
+        <translation>Аз нав кӯшиш кунед</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>Партофтани сиёҳнавис</translation>
     </message>

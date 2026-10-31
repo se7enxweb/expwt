@@ -188,6 +188,10 @@
         <translation>Matuguk</translation>
     </message>
     <message>
+        <source>Try again</source>
+        <translation>Misiliiqqiguk</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>Missingiut igiguk</translation>
     </message>

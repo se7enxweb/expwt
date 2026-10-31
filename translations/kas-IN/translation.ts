@@ -188,6 +188,10 @@
         <translation>بنٛد کٔریو</translation>
     </message>
     <message>
+        <source>Try again</source>
+        <translation>دوبارٕ کوشش کٔریو</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>مَسوٗدہٕ ترٲوِو</translation>
     </message>

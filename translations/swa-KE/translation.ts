@@ -188,6 +188,10 @@
         <translation>Funga</translation>
     </message>
     <message>
+        <source>Try again</source>
+        <translation>Jaribu tena</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>Tupa rasimu</translation>
     </message>

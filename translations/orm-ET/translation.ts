@@ -188,6 +188,10 @@
         <translation>Cufi</translation>
     </message>
     <message>
+        <source>Try again</source>
+        <translation>Irra deebi'ii yaali</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>Wixinee gatii</translation>
     </message>

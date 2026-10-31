@@ -188,6 +188,10 @@
         <translation>Lukk</translation>
     </message>
     <message>
+        <source>Try again</source>
+        <translation>Prøv igjen</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>Forkast utkast</translation>
     </message>

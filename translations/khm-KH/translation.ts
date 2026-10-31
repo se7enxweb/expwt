@@ -188,6 +188,10 @@
         <translation>បិទ</translation>
     </message>
     <message>
+        <source>Try again</source>
+        <translation>ព្យាយាមម្ដងទៀត</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>បោះបង់សេចក្តីព្រាង</translation>
     </message>

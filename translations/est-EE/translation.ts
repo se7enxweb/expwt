@@ -188,6 +188,10 @@
         <translation>Sulge</translation>
     </message>
     <message>
+        <source>Try again</source>
+        <translation>Proovi uuesti</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>Loobu mustandist</translation>
     </message>

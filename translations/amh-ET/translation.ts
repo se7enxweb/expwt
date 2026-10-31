@@ -188,6 +188,10 @@
         <translation>ዝጋ</translation>
     </message>
     <message>
+        <source>Try again</source>
+        <translation>እንደገና ሞክር</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>ረቂቁን ጣል</translation>
     </message>

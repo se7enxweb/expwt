@@ -188,6 +188,10 @@
         <translation>Wichqay</translation>
     </message>
     <message>
+        <source>Try again</source>
+        <translation>Huktawan kallpachay</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>Qillqa kaqta wikch'uy</translation>
     </message>

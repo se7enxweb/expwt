@@ -22,7 +22,7 @@ class expwtStrings
                        'Light or dark', 'Like the site', 'Like the system', 'Light', 'Dark', 'The sidebar was moved.', 'The sidebar is on the left.',
                        'The sidebar is on the right.', 'The sidebar is at the top.', 'The sidebar is at the bottom.',
                        'Ctrl and an arrow key put it on another edge.', 'Height of the sidebar', 'Loading ...',
-                       'The sidebar could not reach the server.' );
+                       'The sidebar could not reach the server.', 'Try again' );
 
     /* sources:start (generated: every string of the panels, the views and the refusals) */
     const SOURCES = array(
@@ -72,6 +72,7 @@ class expwtStrings
         'Editing',
         'Done',
         'Close',
+        'Try again',
         'Discard draft',
         'Saving ...',
         'The draft is saved.',

@@ -1052,12 +1052,25 @@
       }
     }
 
+    /* The server was not reached, its reads tried again already: says so, with "Try again" for what failed */
+    unreachable(retry) {
+      var self = this;
+      this.say(this.t('The sidebar could not reach the server.'), 'bad');
+      this.status.appendChild(document.createTextNode(' '));
+      this.status.appendChild(h('button', { type: 'button', class: 'wt-btn wt-retry', text: this.t('Try again'), onclick: function () {
+        self.say(self.t('Loading ...'));
+        retry();
+      } }));
+    }
+
     /* ------------------------------------------------------------------ server */
 
     loadBoot() {
       var self = this;
       return this.request('GET', this.cfg.boot + '?action=boot&input=' + encodeURIComponent('{}'), null).then(function (body) {
         self.boot = body.data;
+        /* reached (after "Try again" too): no word of the failure or the loading left */
+        self.say('');
         store(THEME, self.boot.theme || null);
         var device = store(DEVICE);
         if (!(device && device.only)) {
@@ -1074,7 +1087,7 @@
       }).catch(function (err) {
         /* in the console what it was: a server not reached, or an error of the sidebar's own code */
         if (window.console) { window.console.error('expwt boot', err); }
-        self.say(self.t('The sidebar could not reach the server.'), 'bad');
+        self.unreachable(function () { self.loadBoot(); });
       });
     }
 
@@ -1225,7 +1238,7 @@
         }
       }).catch(function (err) {
         if (window.console) { window.console.error('expwt panel ' + id, err); }
-        self.say(self.t('The sidebar could not reach the server.'), 'bad');
+        self.unreachable(function () { self.show(id); });
       });
     }
 

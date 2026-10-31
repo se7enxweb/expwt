@@ -188,6 +188,10 @@
         <translation>Serriñ</translation>
     </message>
     <message>
+        <source>Try again</source>
+        <translation>Klask en-dro</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>Dilezel ar brouilhed</translation>
     </message>

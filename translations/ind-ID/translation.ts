@@ -188,6 +188,10 @@
         <translation>Tutup</translation>
     </message>
     <message>
+        <source>Try again</source>
+        <translation>Coba lagi</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>Buang draf</translation>
     </message>

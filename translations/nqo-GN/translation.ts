@@ -188,6 +188,10 @@
         <translation>ߊ߬ ߛߎߘߎ߲߫</translation>
     </message>
     <message>
+        <source>Try again</source>
+        <translation>ߊ߬ ߡߊߛߐ߬ߘߐ߲߬ ߕߎ߲߯</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>ߓߙߎߦߐ߲ ߓߐߛߌ</translation>
     </message>

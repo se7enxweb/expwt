@@ -106,7 +106,9 @@ class expwtAssetsTest extends PHPUnit\Framework\TestCase
         $this->assertStringContainsString( '@media (max-width: 639.98px)', $css );
         $panels = file_get_contents( self::ext() . '/design/standard/javascript/expwt-panels.js' );
         $this->assertStringContainsString( 'ctx.primary(mainActions)', $panels, 'Save draft and Publish in the bar row' );
-        $this->assertStringContainsString( "moreFields.insertBefore(inGrid.pop()", $panels, 'fields that do not fit go behind More' );
+        $this->assertStringContainsString( "put(moreFields, inGrid.pop(), moreFields.firstChild)", $panels, 'fields that do not fit go behind More' );
+        $this->assertStringContainsString( 'ctx.horizontal() && window.innerWidth >= 640', $panels, 'on a phone no More: the fields in the scrolling body' );
+        $this->assertStringContainsString( "entry.frame.getAttribute('height') === height", $panels, 'only a real change of a frame\'s height arranges again' );
         $this->assertSame( 280, expwtSettings::fromArray( array() )['default_height'] );
     }
 

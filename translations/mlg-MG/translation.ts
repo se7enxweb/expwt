@@ -188,6 +188,10 @@
         <translation>Hidio</translation>
     </message>
     <message>
+        <source>Try again</source>
+        <translation>Andramo indray</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>Ario ny drafitra</translation>
     </message>

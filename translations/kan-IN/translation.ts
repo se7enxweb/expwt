@@ -188,6 +188,10 @@
         <translation>ಮುಚ್ಚಿ</translation>
     </message>
     <message>
+        <source>Try again</source>
+        <translation>ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>ಕರಡನ್ನು ತ್ಯಜಿಸು</translation>
     </message>

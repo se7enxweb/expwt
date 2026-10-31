@@ -188,6 +188,10 @@
         <translation>Sirado</translation>
     </message>
     <message>
+        <source>Try again</source>
+        <translation>Sulayi pag-usab</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>Ilabay ang draft</translation>
     </message>

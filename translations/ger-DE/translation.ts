@@ -188,6 +188,10 @@
         <translation>Schließen</translation>
     </message>
     <message>
+        <source>Try again</source>
+        <translation>Erneut versuchen</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>Entwurf verwerfen</translation>
     </message>

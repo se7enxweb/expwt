@@ -188,6 +188,10 @@
         <translation>بند ڪريو</translation>
     </message>
     <message>
+        <source>Try again</source>
+        <translation>ٻيهر ڪوشش ڪريو</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>مسودو رد ڪريو</translation>
     </message>

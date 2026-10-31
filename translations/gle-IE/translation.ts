@@ -188,6 +188,10 @@
         <translation>Dún</translation>
     </message>
     <message>
+        <source>Try again</source>
+        <translation>Bain triail eile as</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>Caith an dréacht i leataobh</translation>
     </message>

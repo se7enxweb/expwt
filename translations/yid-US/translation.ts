@@ -188,6 +188,10 @@
         <translation>פֿאַרמאַכן</translation>
     </message>
     <message>
+        <source>Try again</source>
+        <translation>פּרוּוון נאָכאַמאָל</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>אַוועקוואַרפֿן שׂרטוט</translation>
     </message>

@@ -188,6 +188,10 @@
         <translation>Zapri</translation>
     </message>
     <message>
+        <source>Try again</source>
+        <translation>Poskusi znova</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>Zavrzi osnutek</translation>
     </message>

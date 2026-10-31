@@ -188,6 +188,10 @@
         <translation>Жабуу</translation>
     </message>
     <message>
+        <source>Try again</source>
+        <translation>Кайра аракет кылуу</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>Долбоорду жокко чыгаруу</translation>
     </message>

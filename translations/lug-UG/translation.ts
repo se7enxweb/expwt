@@ -188,6 +188,10 @@
         <translation>Ggalawo</translation>
     </message>
     <message>
+        <source>Try again</source>
+        <translation>Ddamu ogezeeko</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>Sazaamu ddulaafuti</translation>
     </message>

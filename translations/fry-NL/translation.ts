@@ -188,6 +188,10 @@
         <translation>Slute</translation>
     </message>
     <message>
+        <source>Try again</source>
+        <translation>Opnij besykje</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>Konsept fuortsmite</translation>
     </message>

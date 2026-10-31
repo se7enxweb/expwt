@@ -188,6 +188,10 @@
         <translation>אחוד</translation>
     </message>
     <message>
+        <source>Try again</source>
+        <translation>נסי תוב</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>שבוק סורטא</translation>
     </message>

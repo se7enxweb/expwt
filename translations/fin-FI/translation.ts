@@ -188,6 +188,10 @@
         <translation>Sulje</translation>
     </message>
     <message>
+        <source>Try again</source>
+        <translation>Yritä uudelleen</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>Hylkää luonnos</translation>
     </message>

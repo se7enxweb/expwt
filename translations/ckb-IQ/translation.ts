@@ -188,6 +188,10 @@
         <translation>داخستن</translation>
     </message>
     <message>
+        <source>Try again</source>
+        <translation>دووبارە هەوڵ بدەرەوە</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>فڕێدانی ڕەشنووس</translation>
     </message>

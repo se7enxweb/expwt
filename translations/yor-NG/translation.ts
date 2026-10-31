@@ -188,6 +188,10 @@
         <translation>Pa á dé</translation>
     </message>
     <message>
+        <source>Try again</source>
+        <translation>Tún gbìyànjú</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>Pa àkọsílẹ̀ àkọ́kọ́ tì</translation>
     </message>

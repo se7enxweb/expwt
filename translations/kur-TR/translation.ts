@@ -188,6 +188,10 @@
         <translation>Bigire</translation>
     </message>
     <message>
+        <source>Try again</source>
+        <translation>Dîsa biceribîne</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>Reşnivîsê bavêje</translation>
     </message>

@@ -188,6 +188,10 @@
         <translation>Isara</translation>
     </message>
     <message>
+        <source>Try again</source>
+        <translation>Subukan muli</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>Itapon ang draft</translation>
     </message>

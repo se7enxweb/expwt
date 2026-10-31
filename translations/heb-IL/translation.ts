@@ -188,6 +188,10 @@
         <translation>סגירה</translation>
     </message>
     <message>
+        <source>Try again</source>
+        <translation>ניסיון חוזר</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>מחיקת טיוטה</translation>
     </message>

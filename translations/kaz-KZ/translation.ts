@@ -188,6 +188,10 @@
         <translation>Жабу</translation>
     </message>
     <message>
+        <source>Try again</source>
+        <translation>Қайталау</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>Жобаны жою</translation>
     </message>

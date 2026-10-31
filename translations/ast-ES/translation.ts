@@ -188,6 +188,10 @@
         <translation>Zarrar</translation>
     </message>
     <message>
+        <source>Try again</source>
+        <translation>Volver tentar</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>Descartar borrador</translation>
     </message>

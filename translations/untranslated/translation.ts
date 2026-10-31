@@ -188,6 +188,10 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <source>Try again</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation type="unfinished"></translation>
     </message>

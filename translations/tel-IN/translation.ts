@@ -188,6 +188,10 @@
         <translation>మూసివేయి</translation>
     </message>
     <message>
+        <source>Try again</source>
+        <translation>మళ్లీ ప్రయత్నించండి</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>డ్రాఫ్ట్ విస్మరించండి</translation>
     </message>

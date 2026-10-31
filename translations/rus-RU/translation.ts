@@ -188,6 +188,10 @@
         <translation>Закрыть</translation>
     </message>
     <message>
+        <source>Try again</source>
+        <translation>Повторить</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>Удалить черновик</translation>
     </message>

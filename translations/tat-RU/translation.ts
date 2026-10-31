@@ -188,6 +188,10 @@
         <translation>Ябу</translation>
     </message>
     <message>
+        <source>Try again</source>
+        <translation>Кабатлау</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>Караламадан баш тарту</translation>
     </message>

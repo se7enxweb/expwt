@@ -188,6 +188,10 @@
         <translation>Loka</translation>
     </message>
     <message>
+        <source>Try again</source>
+        <translation>Reyna aftur</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>Henda drögum</translation>
     </message>

@@ -188,6 +188,10 @@
         <translation>बन्द खालाम</translation>
     </message>
     <message>
+        <source>Try again</source>
+        <translation>फिन नाजा</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>खस्रा गार</translation>
     </message>

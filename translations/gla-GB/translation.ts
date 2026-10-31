@@ -188,6 +188,10 @@
         <translation>Dùin</translation>
     </message>
     <message>
+        <source>Try again</source>
+        <translation>Feuch a-rithist</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>Tilg air falbh an dreachd</translation>
     </message>

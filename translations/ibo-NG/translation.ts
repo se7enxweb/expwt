@@ -188,6 +188,10 @@
         <translation>Mechie</translation>
     </message>
     <message>
+        <source>Try again</source>
+        <translation>Nwaa ọzọ</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>Tụfuo ndepụta mbụ</translation>
     </message>

@@ -188,6 +188,10 @@
         <translation>Fermer</translation>
     </message>
     <message>
+        <source>Try again</source>
+        <translation>Réessayer</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>Abandonner le brouillon</translation>
     </message>

@@ -188,6 +188,10 @@
         <translation>Pechar</translation>
     </message>
     <message>
+        <source>Try again</source>
+        <translation>Tentar de novo</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>Descartar borrador</translation>
     </message>

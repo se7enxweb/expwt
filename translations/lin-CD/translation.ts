@@ -188,6 +188,10 @@
         <translation>Kanga</translation>
     </message>
     <message>
+        <source>Try again</source>
+        <translation>Meka lisusu</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>Bwakisá brouillon</translation>
     </message>

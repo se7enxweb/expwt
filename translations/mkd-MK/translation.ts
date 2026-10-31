@@ -188,6 +188,10 @@
         <translation>Затвори</translation>
     </message>
     <message>
+        <source>Try again</source>
+        <translation>Обиди се повторно</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>Отфрли нацрт</translation>
     </message>

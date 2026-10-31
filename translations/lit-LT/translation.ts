@@ -188,6 +188,10 @@
         <translation>Uždaryti</translation>
     </message>
     <message>
+        <source>Try again</source>
+        <translation>Bandyti dar kartą</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>Atmesti juodraštį</translation>
     </message>

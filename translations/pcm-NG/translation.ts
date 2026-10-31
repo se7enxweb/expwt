@@ -188,6 +188,10 @@
         <translation>Close am</translation>
     </message>
     <message>
+        <source>Try again</source>
+        <translation>Try am again</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>Throw draft away</translation>
     </message>

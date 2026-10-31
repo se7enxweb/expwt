@@ -188,6 +188,10 @@
         <translation>Tāpuni</translation>
     </message>
     <message>
+        <source>Try again</source>
+        <translation>Toe feinga</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>Liʻaki ʻa e tohi fakataimi</translation>
     </message>

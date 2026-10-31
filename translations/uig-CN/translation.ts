@@ -188,6 +188,10 @@
         <translation>تاقاش</translation>
     </message>
     <message>
+        <source>Try again</source>
+        <translation>قايتا سىناش</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>ئارگىنالنى تاشلا</translation>
     </message>

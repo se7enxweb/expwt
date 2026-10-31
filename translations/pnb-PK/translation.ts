@@ -188,6 +188,10 @@
         <translation>بند کرو</translation>
     </message>
     <message>
+        <source>Try again</source>
+        <translation>فیر کوشش کرو</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>مسودہ رد کرو</translation>
     </message>

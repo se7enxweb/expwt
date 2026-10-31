@@ -188,6 +188,10 @@
         <translation>Maak toe</translation>
     </message>
     <message>
+        <source>Try again</source>
+        <translation>Probeer weer</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>Gooi konsep weg</translation>
     </message>

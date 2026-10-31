@@ -188,6 +188,10 @@
         <translation>Închide</translation>
     </message>
     <message>
+        <source>Try again</source>
+        <translation>Reîncercați</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>Renunțați la ciornă</translation>
     </message>

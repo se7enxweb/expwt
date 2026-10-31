@@ -188,6 +188,10 @@
         <translation>Cau</translation>
     </message>
     <message>
+        <source>Try again</source>
+        <translation>Rhoi cynnig arall arni</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>Taflu'r drafft</translation>
     </message>

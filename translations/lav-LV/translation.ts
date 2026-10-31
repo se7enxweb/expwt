@@ -188,6 +188,10 @@
         <translation>Aizvērt</translation>
     </message>
     <message>
+        <source>Try again</source>
+        <translation>Mēģināt vēlreiz</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>Atmest melnrakstu</translation>
     </message>

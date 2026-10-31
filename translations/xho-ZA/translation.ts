@@ -188,6 +188,10 @@
         <translation>Vala</translation>
     </message>
     <message>
+        <source>Try again</source>
+        <translation>Zama kwakhona</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>Lahla uyilo</translation>
     </message>

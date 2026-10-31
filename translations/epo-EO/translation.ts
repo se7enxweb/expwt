@@ -188,6 +188,10 @@
         <translation>Fermi</translation>
     </message>
     <message>
+        <source>Try again</source>
+        <translation>Reprovi</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>Forĵeti malneton</translation>
     </message>

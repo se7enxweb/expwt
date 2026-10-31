@@ -188,6 +188,10 @@
         <translation>पिदधातु</translation>
     </message>
     <message>
+        <source>Try again</source>
+        <translation>पुनः प्रयतताम्</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>प्रारूपं त्यजतु</translation>
     </message>

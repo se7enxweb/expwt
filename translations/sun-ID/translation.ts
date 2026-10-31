@@ -188,6 +188,10 @@
         <translation>Tutup</translation>
     </message>
     <message>
+        <source>Try again</source>
+        <translation>Cobian deui</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>Piceun draf</translation>
     </message>

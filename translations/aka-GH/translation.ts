@@ -188,6 +188,10 @@
         <translation>To mu</translation>
     </message>
     <message>
+        <source>Try again</source>
+        <translation>San hwehwɛ bio</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>Twa draft no gu</translation>
     </message>

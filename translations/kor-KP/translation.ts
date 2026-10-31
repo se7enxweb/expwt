@@ -188,6 +188,10 @@
         <translation>닫기</translation>
     </message>
     <message>
+        <source>Try again</source>
+        <translation>다시 시도</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>초안 폐기</translation>
     </message>

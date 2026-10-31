@@ -188,6 +188,10 @@
         <translation>Tanca</translation>
     </message>
     <message>
+        <source>Try again</source>
+        <translation>Torna-ho a provar</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>Descarta l'esborrany</translation>
     </message>

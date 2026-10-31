@@ -188,6 +188,10 @@
         <translation>Agħlaq</translation>
     </message>
     <message>
+        <source>Try again</source>
+        <translation>Erġa' pprova</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>Armi l-abbozz</translation>
     </message>

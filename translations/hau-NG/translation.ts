@@ -188,6 +188,10 @@
         <translation>Rufe</translation>
     </message>
     <message>
+        <source>Try again</source>
+        <translation>Sake gwadawa</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>Watsar da daftari</translation>
     </message>

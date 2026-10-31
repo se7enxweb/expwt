@@ -188,6 +188,10 @@
         <translation>বন্ধ কৰক</translation>
     </message>
     <message>
+        <source>Try again</source>
+        <translation>আকৌ চেষ্টা কৰক</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>খচৰা বাতিল কৰক</translation>
     </message>

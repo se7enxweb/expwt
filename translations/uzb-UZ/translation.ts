@@ -188,6 +188,10 @@
         <translation>Yopish</translation>
     </message>
     <message>
+        <source>Try again</source>
+        <translation>Qayta urinish</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>Qoralamani bekor qilish</translation>
     </message>

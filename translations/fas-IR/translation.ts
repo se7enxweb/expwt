@@ -188,6 +188,10 @@
         <translation>بستن</translation>
     </message>
     <message>
+        <source>Try again</source>
+        <translation>تلاش دوباره</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>دور انداختن پیش‌نویس</translation>
     </message>

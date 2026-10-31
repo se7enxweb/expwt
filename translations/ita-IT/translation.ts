@@ -188,6 +188,10 @@
         <translation>Chiudi</translation>
     </message>
     <message>
+        <source>Try again</source>
+        <translation>Riprova</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>Elimina bozza</translation>
     </message>

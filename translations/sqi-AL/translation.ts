@@ -188,6 +188,10 @@
         <translation>Mbyll</translation>
     </message>
     <message>
+        <source>Try again</source>
+        <translation>Provo përsëri</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>Hidh skicën</translation>
     </message>

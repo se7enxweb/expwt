@@ -188,6 +188,10 @@
         <translation>閉じる</translation>
     </message>
     <message>
+        <source>Try again</source>
+        <translation>再試行</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>下書きを破棄</translation>
     </message>

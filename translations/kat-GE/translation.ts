@@ -188,6 +188,10 @@
         <translation>დახურვა</translation>
     </message>
     <message>
+        <source>Try again</source>
+        <translation>ხელახლა ცდა</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>მონახაზის გაუქმება</translation>
     </message>

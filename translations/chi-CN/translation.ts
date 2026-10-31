@@ -188,6 +188,10 @@
         <translation>关闭</translation>
     </message>
     <message>
+        <source>Try again</source>
+        <translation>重试</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>放弃草稿</translation>
     </message>

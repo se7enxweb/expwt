@@ -188,6 +188,10 @@
         <translation>Փակել</translation>
     </message>
     <message>
+        <source>Try again</source>
+        <translation>Կրկին փորձել</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>Չեղարկել սևագիրը</translation>
     </message>

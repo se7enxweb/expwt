@@ -188,6 +188,10 @@
         <translation>Затваряне</translation>
     </message>
     <message>
+        <source>Try again</source>
+        <translation>Опитай отново</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>Отхвърли черновата</translation>
     </message>

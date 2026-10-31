@@ -188,6 +188,10 @@
         <translation>A datugu</translation>
     </message>
     <message>
+        <source>Try again</source>
+        <translation>A kɔsegin</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>Bruyɔn fili</translation>
     </message>

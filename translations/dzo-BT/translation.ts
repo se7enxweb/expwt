@@ -188,6 +188,10 @@
         <translation>ཁ་བསྡམས།</translation>
     </message>
     <message>
+        <source>Try again</source>
+        <translation>ལོག་སྟེ་འབད་རྩོལ་བསྐྱེད།</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>ཟིན་བྲིས་བསྐྱུར་བཏང་།</translation>
     </message>

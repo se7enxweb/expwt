@@ -188,6 +188,10 @@
         <translation>Закрыць</translation>
     </message>
     <message>
+        <source>Try again</source>
+        <translation>Паўтарыць</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>Адхіліць чарнавік</translation>
     </message>

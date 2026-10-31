@@ -188,6 +188,10 @@
         <translation>ਬੰਦ ਕਰੋ</translation>
     </message>
     <message>
+        <source>Try again</source>
+        <translation>ਮੁੜ ਕੋਸ਼ਿਸ਼ ਕਰੋ</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>ਖਰੜਾ ਰੱਦ ਕਰੋ</translation>
     </message>

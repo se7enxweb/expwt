@@ -188,6 +188,10 @@
         <translation>Đóng</translation>
     </message>
     <message>
+        <source>Try again</source>
+        <translation>Thử lại</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>Hủy bản nháp</translation>
     </message>

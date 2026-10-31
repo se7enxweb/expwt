@@ -188,6 +188,10 @@
         <translation>Uddu</translation>
     </message>
     <message>
+        <source>Try again</source>
+        <translation>Fuɗɗito</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>Accu daartol</translation>
     </message>

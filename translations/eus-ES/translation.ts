@@ -188,6 +188,10 @@
         <translation>Itxi</translation>
     </message>
     <message>
+        <source>Try again</source>
+        <translation>Saiatu berriro</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>Baztertu zirriborroa</translation>
     </message>

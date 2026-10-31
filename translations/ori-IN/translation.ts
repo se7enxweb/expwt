@@ -188,6 +188,10 @@
         <translation>ବନ୍ଦ କରନ୍ତୁ</translation>
     </message>
     <message>
+        <source>Try again</source>
+        <translation>ପୁଣି ଚେଷ୍ଟା କରନ୍ତୁ</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>ଖସଡ଼ା ବାତିଲ କରନ୍ତୁ</translation>
     </message>

@@ -188,6 +188,10 @@
         <translation>Začinić</translation>
     </message>
     <message>
+        <source>Try again</source>
+        <translation>Hišće raz spytać</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>Naćisk zaćisnyć</translation>
     </message>

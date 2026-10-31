@@ -188,6 +188,10 @@
         <translation>Tu</translation>
     </message>
     <message>
+        <source>Try again</source>
+        <translation>Gadze kpɔ</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>Tutu ŋɔŋlɔ gbãtɔ ɖa</translation>
     </message>

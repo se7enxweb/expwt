@@ -188,6 +188,10 @@
         <translation>بندول</translation>
     </message>
     <message>
+        <source>Try again</source>
+        <translation>بیا هڅه وکړئ</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>مسوده پرېږدئ</translation>
     </message>

@@ -188,6 +188,10 @@
         <translation>Kapat</translation>
     </message>
     <message>
+        <source>Try again</source>
+        <translation>Tekrar dene</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>Taslağı at</translation>
     </message>

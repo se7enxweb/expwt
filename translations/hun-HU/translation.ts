@@ -188,6 +188,10 @@
         <translation>Bezárás</translation>
     </message>
     <message>
+        <source>Try again</source>
+        <translation>Újra</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>Piszkozat elvetése</translation>
     </message>

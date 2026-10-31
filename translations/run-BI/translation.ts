@@ -188,6 +188,10 @@
         <translation>Ugara</translation>
     </message>
     <message>
+        <source>Try again</source>
+        <translation>Subira ugerageze</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>Ta intango</translation>
     </message>

@@ -188,6 +188,10 @@
         <translation>ပိတ်ရန်</translation>
     </message>
     <message>
+        <source>Try again</source>
+        <translation>ထပ်စမ်းကြည့်ရန်</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>မူကြမ်း ပယ်ရန်</translation>
     </message>

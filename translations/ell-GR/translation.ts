@@ -188,6 +188,10 @@
         <translation>Κλείσιμο</translation>
     </message>
     <message>
+        <source>Try again</source>
+        <translation>Δοκιμή ξανά</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>Απόρριψη προσχεδίου</translation>
     </message>

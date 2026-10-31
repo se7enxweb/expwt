@@ -188,6 +188,10 @@
         <translation>Close</translation>
     </message>
     <message>
+        <source>Try again</source>
+        <translation>Try again</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>Discard draft</translation>
     </message>
