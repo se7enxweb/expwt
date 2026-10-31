@@ -164,6 +164,10 @@
         <translation>ᱟᱨᱦᱚᱸ</translation>
     </message>
     <message>
+        <source>Meta</source>
+        <translation>ᱢᱮᱴᱟ</translation>
+    </message>
+    <message>
         <source>Save draft</source>
         <translation>ᱠᱟᱪᱷᱟ ᱜᱷᱟᱛᱤ ᱨᱟᱠᱷᱟᱣ</translation>
     </message>

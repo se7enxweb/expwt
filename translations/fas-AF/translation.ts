@@ -164,6 +164,10 @@
         <translation>بیشتر</translation>
     </message>
     <message>
+        <source>Meta</source>
+        <translation>فراداده</translation>
+    </message>
+    <message>
         <source>Save draft</source>
         <translation>ذخیرهٔ پیش‌نویس</translation>
     </message>

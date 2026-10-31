@@ -164,6 +164,10 @@
         <translation>Caman</translation>
     </message>
     <message>
+        <source>Meta</source>
+        <translation>Meta</translation>
+    </message>
+    <message>
         <source>Save draft</source>
         <translation>Bruyɔn mara</translation>
     </message>

@@ -164,6 +164,10 @@
         <translation>더 보기</translation>
     </message>
     <message>
+        <source>Meta</source>
+        <translation>메타</translation>
+    </message>
+    <message>
         <source>Save draft</source>
         <translation>초안 저장</translation>
     </message>

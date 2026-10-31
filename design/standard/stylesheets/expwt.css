@@ -576,6 +576,23 @@ a { color: var(--a4-accent-text); }
 .wt-rich { min-block-size: calc(var(--a4-space-7) * 3); overflow: auto; }
 .wt-field[data-dirty="true"] > span::after { content: " *"; color: var(--a4-accent-text); }
 .wt-field[data-highlight="true"] { outline: 2px dashed var(--a4-accent); outline-offset: var(--a4-space-1); }
+/* a group of fields of one category (Meta) at the end of the Page panel: closed until opened, as content/edit has it */
+.wt-group { padding-block-start: var(--a4-space-2); border-block-start: 1px solid var(--a4-line); }
+.wt-group > summary {
+  display: flex;
+  align-items: center;
+  gap: var(--a4-space-2);
+  min-block-size: var(--a4-control-h);
+  border-radius: var(--a4-radius-s);
+  font-weight: var(--a4-weight-medium);
+  cursor: pointer;
+}
+.wt-group > summary::-webkit-details-marker { display: none; }
+.wt-group > summary::before { content: "\25B8"; color: var(--a4-muted); }
+.wt-group[open] > summary::before { content: "\25BE"; }
+.wt-group > summary:focus-visible { outline: 3px solid var(--a4-ring); outline-offset: 2px; }
+.wt-group[open] > summary { margin-block-end: var(--a4-space-2); }
+:host([data-orient="horizontal"]) .wt-fields > .wt-group { grid-column: 1 / -1; }
 .wt-check { display: flex; align-items: center; gap: var(--a4-space-2); margin-block: var(--a4-space-1); padding: var(--a4-space-1) var(--a4-space-2); border: 1px solid transparent; border-radius: var(--a4-radius-s); }
 /* A field in its own editor (expwt/field in a frame): what it shows now, then the editor below it (left, right) or
    over the bar's body (top, bottom) */

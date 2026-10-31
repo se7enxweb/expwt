@@ -164,6 +164,10 @@
         <translation>ਹੋਰ</translation>
     </message>
     <message>
+        <source>Meta</source>
+        <translation>ਮੈਟਾ</translation>
+    </message>
+    <message>
         <source>Save draft</source>
         <translation>ਖਰੜਾ ਸੰਭਾਲੋ</translation>
     </message>

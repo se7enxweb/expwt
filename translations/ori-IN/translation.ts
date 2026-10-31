@@ -164,6 +164,10 @@
         <translation>ଅଧିକ</translation>
     </message>
     <message>
+        <source>Meta</source>
+        <translation>ମେଟା</translation>
+    </message>
+    <message>
         <source>Save draft</source>
         <translation>ଖସଡ଼ା ସଞ୍ଚୟ କରନ୍ତୁ</translation>
     </message>

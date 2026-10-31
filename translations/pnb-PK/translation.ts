@@ -164,6 +164,10 @@
         <translation>ہور</translation>
     </message>
     <message>
+        <source>Meta</source>
+        <translation>میٹا</translation>
+    </message>
+    <message>
         <source>Save draft</source>
         <translation>مسودہ محفوظ کرو</translation>
     </message>

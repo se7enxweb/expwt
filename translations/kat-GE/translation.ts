@@ -164,6 +164,10 @@
         <translation>მეტი</translation>
     </message>
     <message>
+        <source>Meta</source>
+        <translation>მეტა</translation>
+    </message>
+    <message>
         <source>Save draft</source>
         <translation>მონახაზის შენახვა</translation>
     </message>

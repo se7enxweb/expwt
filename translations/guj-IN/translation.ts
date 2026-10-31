@@ -164,6 +164,10 @@
         <translation>વધુ</translation>
     </message>
     <message>
+        <source>Meta</source>
+        <translation>મેટા</translation>
+    </message>
+    <message>
         <source>Save draft</source>
         <translation>ડ્રાફ્ટ સાચવો</translation>
     </message>

@@ -164,6 +164,10 @@
         <translation>மேலும்</translation>
     </message>
     <message>
+        <source>Meta</source>
+        <translation>மெட்டா</translation>
+    </message>
+    <message>
         <source>Save draft</source>
         <translation>வரைவைச் சேமி</translation>
     </message>

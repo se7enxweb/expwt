@@ -164,6 +164,10 @@
         <translation>နောက်ထပ်</translation>
     </message>
     <message>
+        <source>Meta</source>
+        <translation>မက်တာ</translation>
+    </message>
+    <message>
         <source>Save draft</source>
         <translation>မူကြမ်း သိမ်းရန်</translation>
     </message>

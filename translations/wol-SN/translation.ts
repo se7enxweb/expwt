@@ -164,6 +164,10 @@
         <translation>Yeneen</translation>
     </message>
     <message>
+        <source>Meta</source>
+        <translation>Meta</translation>
+    </message>
+    <message>
         <source>Save draft</source>
         <translation>Denc brouyoŋ bi</translation>
     </message>

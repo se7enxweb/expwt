@@ -164,6 +164,10 @@
         <translation>مزید</translation>
     </message>
     <message>
+        <source>Meta</source>
+        <translation>میٹا</translation>
+    </message>
+    <message>
         <source>Save draft</source>
         <translation>مسودہ محفوظ کریں</translation>
     </message>

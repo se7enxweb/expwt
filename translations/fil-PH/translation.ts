@@ -164,6 +164,10 @@
         <translation>Higit pa</translation>
     </message>
     <message>
+        <source>Meta</source>
+        <translation>Meta</translation>
+    </message>
+    <message>
         <source>Save draft</source>
         <translation>I-save ang draft</translation>
     </message>

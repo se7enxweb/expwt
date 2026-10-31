@@ -164,6 +164,10 @@
         <translation>เพิ่มเติม</translation>
     </message>
     <message>
+        <source>Meta</source>
+        <translation>เมตา</translation>
+    </message>
+    <message>
         <source>Save draft</source>
         <translation>บันทึกฉบับร่าง</translation>
     </message>

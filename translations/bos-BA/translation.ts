@@ -164,6 +164,10 @@
         <translation>Više</translation>
     </message>
     <message>
+        <source>Meta</source>
+        <translation>Meta</translation>
+    </message>
+    <message>
         <source>Save draft</source>
         <translation>Spremi nacrt</translation>
     </message>

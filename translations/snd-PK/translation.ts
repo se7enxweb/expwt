@@ -164,6 +164,10 @@
         <translation>وڌيڪ</translation>
     </message>
     <message>
+        <source>Meta</source>
+        <translation>ميٽا</translation>
+    </message>
+    <message>
         <source>Save draft</source>
         <translation>مسودو محفوظ ڪريو</translation>
     </message>

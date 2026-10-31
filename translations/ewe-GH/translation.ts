@@ -164,6 +164,10 @@
         <translation>Bubuwo</translation>
     </message>
     <message>
+        <source>Meta</source>
+        <translation>Meta</translation>
+    </message>
+    <message>
         <source>Save draft</source>
         <translation>Dzra ŋɔŋlɔ gbãtɔ ɖo</translation>
     </message>

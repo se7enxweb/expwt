@@ -164,6 +164,10 @@
         <translation>Περισσότερα</translation>
     </message>
     <message>
+        <source>Meta</source>
+        <translation>Μεταδεδομένα</translation>
+    </message>
+    <message>
         <source>Save draft</source>
         <translation>Αποθήκευση προσχεδίου</translation>
     </message>

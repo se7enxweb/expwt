@@ -164,6 +164,10 @@
         <translation>تېخىمۇ كۆپ</translation>
     </message>
     <message>
+        <source>Meta</source>
+        <translation>مېتا</translation>
+    </message>
+    <message>
         <source>Save draft</source>
         <translation>ئارگىنالنى ساقلا</translation>
     </message>

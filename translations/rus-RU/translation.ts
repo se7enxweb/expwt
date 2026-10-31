@@ -164,6 +164,10 @@
         <translation>Ещё</translation>
     </message>
     <message>
+        <source>Meta</source>
+        <translation>Мета</translation>
+    </message>
+    <message>
         <source>Save draft</source>
         <translation>Сохранить черновик</translation>
     </message>

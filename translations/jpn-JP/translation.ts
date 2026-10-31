@@ -164,6 +164,10 @@
         <translation>その他</translation>
     </message>
     <message>
+        <source>Meta</source>
+        <translation>メタ情報</translation>
+    </message>
+    <message>
         <source>Save draft</source>
         <translation>下書きを保存</translation>
     </message>

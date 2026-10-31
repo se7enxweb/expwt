@@ -164,6 +164,10 @@
         <translation>Plus</translation>
     </message>
     <message>
+        <source>Meta</source>
+        <translation>Méta</translation>
+    </message>
+    <message>
         <source>Save draft</source>
         <translation>Enregistrer le brouillon</translation>
     </message>

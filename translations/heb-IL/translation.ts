@@ -164,6 +164,10 @@
         <translation>עוד</translation>
     </message>
     <message>
+        <source>Meta</source>
+        <translation>מטא</translation>
+    </message>
+    <message>
         <source>Save draft</source>
         <translation>שמירת טיוטה</translation>
     </message>

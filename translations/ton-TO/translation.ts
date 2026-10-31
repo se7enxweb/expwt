@@ -164,6 +164,10 @@
         <translation>Lahi ange</translation>
     </message>
     <message>
+        <source>Meta</source>
+        <translation>Meta</translation>
+    </message>
+    <message>
         <source>Save draft</source>
         <translation>Tauhi ʻa e tohi fakataimi</translation>
     </message>

@@ -66,6 +66,7 @@ class expwtStrings
         'Publish later or take down at a date',
         'In the full editor: %fields',
         'More',
+        'Meta',
         'Save draft',
         'Browse tags',
         'Publish',

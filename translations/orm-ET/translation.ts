@@ -164,6 +164,10 @@
         <translation>Dabalata</translation>
     </message>
     <message>
+        <source>Meta</source>
+        <translation>Meta</translation>
+    </message>
+    <message>
         <source>Save draft</source>
         <translation>Wixinee olkaa'i</translation>
     </message>

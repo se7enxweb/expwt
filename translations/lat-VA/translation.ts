@@ -164,6 +164,10 @@
         <translation>Plura</translation>
     </message>
     <message>
+        <source>Meta</source>
+        <translation>Metadata</translation>
+    </message>
+    <message>
         <source>Save draft</source>
         <translation>Adumbrationem servare</translation>
     </message>

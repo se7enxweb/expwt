@@ -164,6 +164,10 @@
         <translation>Zaidi</translation>
     </message>
     <message>
+        <source>Meta</source>
+        <translation>Meta</translation>
+    </message>
+    <message>
         <source>Save draft</source>
         <translation>Hifadhi rasimu</translation>
     </message>

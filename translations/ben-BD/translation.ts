@@ -164,6 +164,10 @@
         <translation>আরও</translation>
     </message>
     <message>
+        <source>Meta</source>
+        <translation>মেটা</translation>
+    </message>
+    <message>
         <source>Save draft</source>
         <translation>খসড়া সংরক্ষণ করুন</translation>
     </message>

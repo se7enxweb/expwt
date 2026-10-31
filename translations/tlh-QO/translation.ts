@@ -164,6 +164,10 @@
         <translation>latlh</translation>
     </message>
     <message>
+        <source>Meta</source>
+        <translation>Meta</translation>
+    </message>
+    <message>
         <source>Save draft</source>
         <translation>nab yIpol</translation>
     </message>

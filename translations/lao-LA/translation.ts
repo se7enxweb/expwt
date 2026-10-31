@@ -164,6 +164,10 @@
         <translation>ເພີ່ມເຕີມ</translation>
     </message>
     <message>
+        <source>Meta</source>
+        <translation>ເມຕາ</translation>
+    </message>
+    <message>
         <source>Save draft</source>
         <translation>ບັນທຶກສະບັບຮ່າງ</translation>
     </message>

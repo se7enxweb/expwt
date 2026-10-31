@@ -164,6 +164,10 @@
         <translation>Síi</translation>
     </message>
     <message>
+        <source>Meta</source>
+        <translation>Meta</translation>
+    </message>
+    <message>
         <source>Save draft</source>
         <translation>Fi àkọsílẹ̀ àkọ́kọ́ pamọ́</translation>
     </message>

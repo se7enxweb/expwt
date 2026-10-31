@@ -164,6 +164,10 @@
         <translation>更多</translation>
     </message>
     <message>
+        <source>Meta</source>
+        <translation>中繼資料</translation>
+    </message>
+    <message>
         <source>Save draft</source>
         <translation>儲存草稿</translation>
     </message>

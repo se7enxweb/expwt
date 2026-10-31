@@ -164,6 +164,10 @@
         <translation>Gehiago</translation>
     </message>
     <message>
+        <source>Meta</source>
+        <translation>Meta</translation>
+    </message>
+    <message>
         <source>Save draft</source>
         <translation>Gorde zirriborroa</translation>
     </message>

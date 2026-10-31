@@ -164,6 +164,10 @@
         <translation>ተወሳኺ</translation>
     </message>
     <message>
+        <source>Meta</source>
+        <translation>ሜታ</translation>
+    </message>
+    <message>
         <source>Save draft</source>
         <translation>ንድፊ ኣቐምጥ</translation>
     </message>

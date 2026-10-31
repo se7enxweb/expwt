@@ -164,6 +164,10 @@
         <translation>অহেনবা</translation>
     </message>
     <message>
+        <source>Meta</source>
+        <translation>মেটা</translation>
+    </message>
+    <message>
         <source>Save draft</source>
         <translation>ড্রাফ্ট থম্বা</translation>
     </message>

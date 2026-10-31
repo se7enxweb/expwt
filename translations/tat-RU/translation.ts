@@ -164,6 +164,10 @@
         <translation>Тагын</translation>
     </message>
     <message>
+        <source>Meta</source>
+        <translation>Мета</translation>
+    </message>
+    <message>
         <source>Save draft</source>
         <translation>Караламаны саклау</translation>
     </message>

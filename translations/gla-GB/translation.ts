@@ -164,6 +164,10 @@
         <translation>Barrachd</translation>
     </message>
     <message>
+        <source>Meta</source>
+        <translation>Meta</translation>
+    </message>
+    <message>
         <source>Save draft</source>
         <translation>Sàbhail an dreachd</translation>
     </message>

@@ -164,6 +164,10 @@
         <translation>Meira</translation>
     </message>
     <message>
+        <source>Meta</source>
+        <translation>Lýsigögn</translation>
+    </message>
+    <message>
         <source>Save draft</source>
         <translation>Vista drög</translation>
     </message>

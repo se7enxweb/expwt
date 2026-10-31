@@ -164,6 +164,10 @@
         <translation>ܝܬܝܪ</translation>
     </message>
     <message>
+        <source>Meta</source>
+        <translation>ܡܝܛܐ</translation>
+    </message>
+    <message>
         <source>Save draft</source>
         <translation>ܢܛܘܪ ܣܘܪܛܐ</translation>
     </message>

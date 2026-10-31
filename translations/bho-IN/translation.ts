@@ -164,6 +164,10 @@
         <translation>अउरी</translation>
     </message>
     <message>
+        <source>Meta</source>
+        <translation>मेटा</translation>
+    </message>
+    <message>
         <source>Save draft</source>
         <translation>ड्राफ़्ट सहेजीं</translation>
     </message>

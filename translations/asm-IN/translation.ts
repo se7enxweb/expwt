@@ -164,6 +164,10 @@
         <translation>অধিক</translation>
     </message>
     <message>
+        <source>Meta</source>
+        <translation>মেটা</translation>
+    </message>
+    <message>
         <source>Save draft</source>
         <translation>খচৰা ছেভ কৰক</translation>
     </message>

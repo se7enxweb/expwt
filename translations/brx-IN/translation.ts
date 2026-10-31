@@ -164,6 +164,10 @@
         <translation>बांसिन</translation>
     </message>
     <message>
+        <source>Meta</source>
+        <translation>मेटा</translation>
+    </message>
+    <message>
         <source>Save draft</source>
         <translation>खस्रा दोन</translation>
     </message>

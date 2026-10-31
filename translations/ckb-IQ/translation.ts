@@ -164,6 +164,10 @@
         <translation>زیاتر</translation>
     </message>
     <message>
+        <source>Meta</source>
+        <translation>میتا</translation>
+    </message>
+    <message>
         <source>Save draft</source>
         <translation>پاشەکەوتکردنی ڕەشنووس</translation>
     </message>

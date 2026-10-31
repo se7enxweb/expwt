@@ -164,6 +164,10 @@
         <translation>अधिकम्</translation>
     </message>
     <message>
+        <source>Meta</source>
+        <translation>मेटा</translation>
+    </message>
+    <message>
         <source>Save draft</source>
         <translation>प्रारूपं संरक्षतु</translation>
     </message>

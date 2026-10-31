@@ -164,6 +164,10 @@
         <translation>आनीक</translation>
     </message>
     <message>
+        <source>Meta</source>
+        <translation>मेटा</translation>
+    </message>
+    <message>
         <source>Save draft</source>
         <translation>मसुदो सांबाळात</translation>
     </message>

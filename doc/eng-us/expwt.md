@@ -151,6 +151,14 @@ while there is none; the panel's one **Save draft** and **Publish** save each ed
 draft, an editor nobody changed sends nothing), then the form's fields. Nothing in the panel scrolls sideways: the
 content of an editor wraps to its width (images scale down, tables and code scroll in their own box, long words break).
 
+The fields of a category other than the default one (content.ini `[ClassAttributeSettings] CategoryList`, the class
+attribute's category) are in a group of their own at the end of the panel, closed until it is opened, as content/edit
+has them: **Meta** holds the page's metadata (xrowmetadata: title, description, keywords, the Open Graph image, the
+license with its picker, the sitemap options) and whatever else the class puts into that category. A field clicked on
+the page while editing on the page opens its group. On top and bottom the groups are behind **More**. A field whose
+class attribute has no name shows the name of its datatype. Text fields have no length limit of the sidebar's own:
+what the class allows is saved.
+
 The editor's frame looks like the sidebar (its admin4 tokens and buttons, in the sidebar's light or dark mode); the
 sidebar's own row has Save draft and Publish for it, and the rich text editor's options that are no main action
 (switching the engine, switching the editor off) are behind **More**.

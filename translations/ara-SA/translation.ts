@@ -164,6 +164,10 @@
         <translation>المزيد</translation>
     </message>
     <message>
+        <source>Meta</source>
+        <translation>البيانات الوصفية</translation>
+    </message>
+    <message>
         <source>Save draft</source>
         <translation>حفظ المسودة</translation>
     </message>

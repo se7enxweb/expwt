@@ -164,6 +164,10 @@
         <translation>Tuilleadh</translation>
     </message>
     <message>
+        <source>Meta</source>
+        <translation>Meitea</translation>
+    </message>
+    <message>
         <source>Save draft</source>
         <translation>Sábháil an dréacht</translation>
     </message>

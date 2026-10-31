@@ -164,6 +164,10 @@
         <translation>Mer</translation>
     </message>
     <message>
+        <source>Meta</source>
+        <translation>Meta</translation>
+    </message>
+    <message>
         <source>Save draft</source>
         <translation>Spara utkast</translation>
     </message>

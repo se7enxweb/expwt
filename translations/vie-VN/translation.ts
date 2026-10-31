@@ -164,6 +164,10 @@
         <translation>Thêm</translation>
     </message>
     <message>
+        <source>Meta</source>
+        <translation>Siêu dữ liệu</translation>
+    </message>
+    <message>
         <source>Save draft</source>
         <translation>Lưu bản nháp</translation>
     </message>

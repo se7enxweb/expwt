@@ -164,6 +164,10 @@
         <translation>Дагы</translation>
     </message>
     <message>
+        <source>Meta</source>
+        <translation>Мета</translation>
+    </message>
+    <message>
         <source>Save draft</source>
         <translation>Долбоорду сактоо</translation>
     </message>

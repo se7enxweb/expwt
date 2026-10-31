@@ -570,3 +570,27 @@ html.is-dark .expwt-tags .eztags-tree-anchor:is([aria-selected="true"], [data-se
 .a4-rows td :is(input:not([type=checkbox]):not([type=radio]), select, textarea) { inline-size: 100%; box-sizing: border-box; }
 .expwt-field-body :is(input, select, textarea) { max-inline-size: 100%; }
 .expwt-field-input > *, .expwt-field-input .block, .expwt-field-input fieldset { min-inline-size: 0; max-inline-size: 100%; box-sizing: border-box; }
+
+/* ------------------------------------------------------------------------------------- page metadata (xrowmetadata)
+   The metadata field (category "meta": title, description, keywords, the Open Graph image, the license, the sitemap
+   options) on the sidebar's model: each label above its control, the license picker's search, group and "Show
+   retired licenses" one below the other, the list as wide as the frame, its notes muted, and the sitemap options
+   hidden until "More options" (the template's "hide" class, xrowmetadata_edit.js). The sidebar's tokens only. */
+.expwt-field-input .hide { display: none; }
+.expwt-field-input :is(.block, .element) > label:not(:has(> input)) { display: block; margin-block-end: var(--a4-space-1); }
+.expwt-field-input :is(.block, .element) { margin-block-end: var(--a4-space-2); }
+.expwt-field-input label:has(> input[type="checkbox"]) { display: flex; align-items: center; gap: var(--a4-space-2); font-weight: var(--a4-weight-medium); }
+.xrowmetadata-og-image > p, .xrowmetadata-license p { margin: 0 0 var(--a4-space-2); }
+.xrowmetadata-og-image-chosen { display: grid; gap: var(--a4-space-1); margin-block-end: var(--a4-space-2); }
+.xrowmetadata-og-image-thumb { display: block; max-inline-size: 100%; max-block-size: calc(var(--a4-space-7) * 3); border-radius: var(--a4-radius-s); }
+.xrowmetadata-og-image :is(.a4-btn, .button) { margin-block-end: var(--a4-space-1); }
+:is(.xrowmetadata-og-image-note, .xrowmetadata-og-image-size, .xrowmetadata-license-inherited, .xrowmetadata-license-note, .xrowmetadata-license-count, .xrowmetadata-license-custom > p) { color: var(--a4-muted); font-size: var(--a4-text-s); }
+.xrowmetadata-license > fieldset > legend { margin-block-end: var(--a4-space-1); }
+.xrowmetadata-license-filter { display: grid; gap: var(--a4-space-2); margin-block: var(--a4-space-1) var(--a4-space-2); }
+.xrowmetadata-license-filter-item { display: grid; gap: var(--a4-space-1); min-inline-size: 0; }
+.xrowmetadata-license-filter-item > label { margin: 0; }
+.xrowmetadata-license-filter-item :is(input[type="search"], select), .xrowmetadata-license-select { inline-size: 100%; box-sizing: border-box; }
+.xrowmetadata-license-select-label { display: block; margin-block-end: var(--a4-space-1); }
+.xrowmetadata-license-select option { white-space: normal; }
+.xrowmetadata-license-summary { margin-block: var(--a4-space-2); }
+.xrowmetadata-license-terms { display: flex; flex-wrap: wrap; gap: 0 var(--a4-space-4); margin: var(--a4-space-1) 0; padding: 0; list-style: none; }

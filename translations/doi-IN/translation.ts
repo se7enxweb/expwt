@@ -164,6 +164,10 @@
         <translation>होर</translation>
     </message>
     <message>
+        <source>Meta</source>
+        <translation>मेटा</translation>
+    </message>
+    <message>
         <source>Save draft</source>
         <translation>मसौदा सेव करो</translation>
     </message>

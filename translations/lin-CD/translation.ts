@@ -164,6 +164,10 @@
         <translation>Mosusu</translation>
     </message>
     <message>
+        <source>Meta</source>
+        <translation>Meta</translation>
+    </message>
+    <message>
         <source>Save draft</source>
         <translation>Bómbá brouillon</translation>
     </message>

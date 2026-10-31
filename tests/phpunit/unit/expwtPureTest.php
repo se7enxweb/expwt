@@ -410,6 +410,47 @@ class expwtPureTest extends PHPUnit\Framework\TestCase
         $this->assertNotSame( '', expwtHook::markup( self::hookContext( array( 'anonymous' => true, 'may_use' => true ) ) ), 'decision 8: ShowToAnonymous=enabled (or policy with expwt/use)' );
     }
 
+    // ------------------------------------------------------------------------------- field names and categories
+
+    /** a class attribute as fieldName() and categoryOf() read it */
+    private static function classAttribute( $name, $category, $datatypeName = 'Metadata' )
+    {
+        $datatype = new class( $datatypeName ) {
+            private $name;
+            public function __construct( $name ) { $this->name = $name; }
+            public function attribute( $a ) { return $a === 'information' ? array( 'string' => 'x', 'name' => $this->name ) : null; }
+        };
+        return new class( $name, $category, $datatype ) {
+            private $values;
+            private $datatype;
+            public function __construct( $name, $category, $datatype ) { $this->values = array( 'name' => $name, 'category' => $category ); $this->datatype = $datatype; }
+            public function attribute( $a ) { return isset( $this->values[$a] ) ? $this->values[$a] : null; }
+            public function dataType() { return $this->datatype; }
+        };
+    }
+
+    public function testAFieldWithoutANameShowsItsDatatypesName()
+    {
+        $this->assertSame( 'Meta Data', expwtGateway::fieldName( self::classAttribute( 'Meta Data', 'meta' ), 'metadata' ) );
+        $this->assertSame( 'Metadata', expwtGateway::fieldName( self::classAttribute( '', 'meta' ), 'metadata' ), 'a class attribute added by a script, with no name' );
+        $this->assertSame( 'metadata', expwtGateway::fieldName( self::classAttribute( ' ', 'meta', '' ), 'metadata' ), 'the identifier at last' );
+        $this->assertSame( 'metadata', expwtGateway::fieldName( null, 'metadata' ) );
+    }
+
+    public function testTheCategoryOfAFieldIsOneOfTheList()
+    {
+        if ( !class_exists( 'eZINI' ) )
+            $this->markTestSkipped( 'the kernel is not loaded' );
+        $default = (string)eZINI::instance( 'content.ini' )->variable( 'ClassAttributeSettings', 'DefaultCategory' );
+        $this->assertSame( 'meta', expwtGateway::categoryOf( self::classAttribute( 'Meta Data', 'meta' ) ) );
+        $this->assertSame( $default, expwtGateway::categoryOf( self::classAttribute( 'Title', '' ) ), 'none: the default' );
+        $this->assertSame( $default, expwtGateway::categoryOf( self::classAttribute( 'Title', 'nonexistent' ) ), 'not in CategoryList: the default' );
+        $categories = expwtGateway::categories();
+        $this->assertSame( $default, $categories[0]['id'] );
+        $this->assertTrue( $categories[0]['default'] );
+        $this->assertContains( 'meta', array_column( $categories, 'id' ) );
+    }
+
     public function testInjectBeforeTheLastBodyEndOnce()
     {
         $page = '<html><body><p>x</p></body></html>';

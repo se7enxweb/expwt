@@ -133,6 +133,30 @@
     var order = [];
     var others = [];
     var frames = {};
+    /* The fields of a category other than the default one (content.ini [ClassAttributeSettings], "Meta": the page's
+       metadata) in a group of their own at the end, closed until opened, as content/edit has them; a field of the
+       page clicked while editing on the page opens its group (reveal()) */
+    var categories = {};
+    (p.categories || []).forEach(function (c) { categories[c.id] = c; });
+    var groups = {};
+    var groupOrder = [];
+    function groupOf(f) {
+      var c = categories[f.category];
+      if (!c || c['default']) { return null; }
+      if (!groups[c.id]) {
+        var fields = h('div', { class: 'wt-fields wt-group-fields' });
+        groups[c.id] = { el: h('details', { class: 'wt-field wt-group', 'data-group': c.id }, [
+          h('summary', { text: c.name || c.id }), fields]), fields: fields };
+        groupOrder.push(c.id);
+      }
+      return groups[c.id];
+    }
+    function place(f, row) {
+      var group = groupOf(f);
+      if (group) { group.fields.appendChild(row); return; }
+      order.push(row);
+      form.appendChild(row);
+    }
     p.fields.forEach(function (f) {
       if (f.embed) {
         /* rich text, tags, relations, images and every other datatype: open in its own editor (expwt/field in a frame:
@@ -144,8 +168,7 @@
         ]);
         frames[f.identifier] = { field: f, row: embedRow, holder: holder, frame: null, ready: false, waiter: null, onReady: null };
         rows[f.identifier] = embedRow;
-        order.push(embedRow);
-        form.appendChild(embedRow);
+        place(f, embedRow);
         return;
       }
       if (!f.editable) { others.push(f.name); return; }
@@ -163,8 +186,11 @@
         row.classList.add('is-wide');
       }
       rows[f.identifier] = row;
-      order.push(row);
-      form.appendChild(row);
+      place(f, row);
+    });
+    groupOrder.forEach(function (id) {
+      order.push(groups[id].el);
+      form.appendChild(groups[id].el);
     });
     root.appendChild(form);
 
@@ -236,13 +262,17 @@
         more.hidden = false;
         moreSummary.textContent = t('More');
         var over = function () { return root.scrollHeight > root.clientHeight + 1; };
-        var inGrid = order.slice();
+        /* the groups of fields (Meta) are behind "More" on top and bottom: opened in the grid they would need the bar's
+           scroll bar, behind "More" they open below the grid */
+        var isGroup = function (row) { return row.classList.contains('wt-group'); };
+        order.filter(isGroup).forEach(function (row) { put(moreFields, row, null); });
+        var inGrid = order.filter(function (row) { return !isGroup(row); });
         while (over() && inGrid.length > 1) {
           put(moreFields, inGrid.pop(), moreFields.firstChild);
           moreSummary.textContent = t('More') + ' (' + moreFields.children.length + ')';
         }
         /* a smaller field after a long one may still fit: back into the grid in its own place, while it fits */
-        Array.prototype.slice.call(moreFields.children).forEach(function (row) {
+        Array.prototype.slice.call(moreFields.children).filter(function (row) { return !isGroup(row); }).forEach(function (row) {
           var after = order.slice(order.indexOf(row) + 1).filter(function (r) { return r.parentNode === form; })[0];
           put(form, row, after || null);
           if (over()) { put(moreFields, row, null); }
@@ -307,10 +337,13 @@
       if (watcher) { watcher.observe(frames[id].row); } else { load(frames[id]); }
     });
 
-    /* a field's row in view in the panel, also when it is behind "More" on top and bottom */
+    /* a field's row in view in the panel, also when it is in a closed group or behind "More" on top and bottom */
     function reveal(row) {
-      var more = row && row.closest('details');
-      if (more) { more.open = true; }
+      var closed = row && row.parentElement ? row.parentElement.closest('details') : null;
+      while (closed) {
+        closed.open = true;
+        closed = closed.parentElement ? closed.parentElement.closest('details') : null;
+      }
       if (row) { row.scrollIntoView({ block: 'nearest' }); }
     }
     /* a field of the page clicked while editing on the page: its editor, in view, with the focus; with the panel out

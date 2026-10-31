@@ -164,6 +164,10 @@
         <translation>තවත්</translation>
     </message>
     <message>
+        <source>Meta</source>
+        <translation>මෙටා</translation>
+    </message>
+    <message>
         <source>Save draft</source>
         <translation>කෙටුම්පත සුරකින්න</translation>
     </message>

@@ -164,6 +164,10 @@
         <translation>ಇನ್ನಷ್ಟು</translation>
     </message>
     <message>
+        <source>Meta</source>
+        <translation>ಮೆಟಾ</translation>
+    </message>
+    <message>
         <source>Save draft</source>
         <translation>ಕರಡನ್ನು ಉಳಿಸು</translation>
     </message>

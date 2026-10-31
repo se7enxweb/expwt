@@ -164,6 +164,10 @@
         <translation>מער</translation>
     </message>
     <message>
+        <source>Meta</source>
+        <translation>מעטאַ</translation>
+    </message>
+    <message>
         <source>Save draft</source>
         <translation>אָפּהיטן שׂרטוט</translation>
     </message>

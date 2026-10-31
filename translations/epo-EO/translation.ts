@@ -164,6 +164,10 @@
         <translation>Pli</translation>
     </message>
     <message>
+        <source>Meta</source>
+        <translation>Metadatumoj</translation>
+    </message>
+    <message>
         <source>Save draft</source>
         <translation>Konservi malneton</translation>
     </message>

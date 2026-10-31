@@ -162,6 +162,14 @@ nach (das erste Speichern legt den Entwurf an, ein unveränderter Editor sendet 
 Formulars. Nichts im Bereich scrollt seitwärts: der Inhalt eines Editors bricht in seiner Breite um (Bilder werden
 kleiner, Tabellen und Code scrollen in ihrem eigenen Kasten, lange Wörter werden getrennt).
 
+Die Felder einer anderen Kategorie als der Standardkategorie (content.ini `[ClassAttributeSettings] CategoryList`, die
+Kategorie des Klassenattributs) stehen in einer eigenen Gruppe am Ende des Bereichs, geschlossen, bis man sie öffnet,
+wie content/edit sie zeigt: **Meta** enthält die Metadaten der Seite (xrowmetadata: Titel, Beschreibung,
+Schlüsselwörter, das Open-Graph-Bild, die Lizenz mit ihrer Auswahl, die Sitemap-Optionen) und was die Klasse sonst in
+diese Kategorie legt. Ein Feld, das beim Bearbeiten auf der Seite angeklickt wird, öffnet seine Gruppe. Oben und unten
+liegen die Gruppen hinter **Mehr**. Ein Feld, dessen Klassenattribut keinen Namen hat, zeigt den Namen seines
+Datentyps. Textfelder haben keine eigene Längengrenze der Seitenleiste: gespeichert wird, was die Klasse erlaubt.
+
 Der Rahmen des Editors sieht aus wie die Seitenleiste (ihre admin4-Tokens und Schaltflächen, in ihrem hellen oder
 dunklen Modus); die eigene Zeile der Seitenleiste hat Entwurf speichern und Veröffentlichen dafür, und die Optionen des
 Rich-Text-Editors, die keine Hauptaktion sind (Editor wechseln, Editor ausschalten), liegen unter **Mehr**.

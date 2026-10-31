@@ -164,6 +164,10 @@
         <translation>ច្រើនទៀត</translation>
     </message>
     <message>
+        <source>Meta</source>
+        <translation>មេតា</translation>
+    </message>
+    <message>
         <source>Save draft</source>
         <translation>រក្សាទុកសេចក្តីព្រាង</translation>
     </message>

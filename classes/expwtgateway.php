@@ -186,6 +186,7 @@ class expwtGateway
             'draft' => $draft ? array( 'version' => (int)$draft->attribute( 'version' ), 'modified' => (int)$draft->attribute( 'modified' ) ) : null,
             'hidden' => $node ? (bool)$node->attribute( 'is_hidden' ) : false,
             'fields' => $fields,
+            'categories' => self::categories(),
             'schedule' => $schedule,
             'can' => array(
                 'edit' => (bool)$object->canEdit( false, false, false, $language ),
@@ -233,7 +234,10 @@ class expwtGateway
             $out[] = array(
                 'identifier' => (string)$attribute->attribute( 'contentclass_attribute_identifier' ),
                 'attribute' => (int)$attribute->attribute( 'id' ),
-                'name' => $classAttribute ? (string)$classAttribute->attribute( 'name' ) : '',
+                'name' => self::fieldName( $classAttribute, (string)$attribute->attribute( 'contentclass_attribute_identifier' ) ),
+                // the attribute's category (content.ini [ClassAttributeSettings]): the Page panel groups the fields of
+                // every category but the default one at its end, as content/edit does
+                'category' => self::categoryOf( $classAttribute ),
                 'datatype' => $datatype,
                 'required' => $classAttribute ? (bool)$classAttribute->attribute( 'is_required' ) : false,
                 'value' => $shown['value'],
@@ -244,6 +248,53 @@ class expwtGateway
         return $out;
     }
 
+
+    /**
+     * @return string a field's label: the class attribute's name; for one without a name in any language (a field
+     *                added by a script) the name of its datatype, so no field of the sidebar is without a label
+     */
+    public static function fieldName( $classAttribute, $identifier )
+    {
+        $name = $classAttribute ? trim( (string)$classAttribute->attribute( 'name' ) ) : '';
+        if ( $name === '' && $classAttribute && $classAttribute->dataType() )
+        {
+            $information = $classAttribute->dataType()->attribute( 'information' );
+            $name = isset( $information['name'] ) ? trim( (string)$information['name'] ) : '';
+        }
+        return $name !== '' ? $name : (string)$identifier;
+    }
+
+    /**
+     * @return string the category of a class attribute (content.ini [ClassAttributeSettings] CategoryList); the
+     *                default category for none, or for one that is not in the list
+     */
+    public static function categoryOf( $classAttribute )
+    {
+        $ini = eZINI::instance( 'content.ini' );
+        $default = (string)$ini->variable( 'ClassAttributeSettings', 'DefaultCategory' );
+        $category = $classAttribute ? (string)$classAttribute->attribute( 'category' ) : '';
+        $list = $ini->hasVariable( 'ClassAttributeSettings', 'CategoryList' ) ? (array)$ini->variable( 'ClassAttributeSettings', 'CategoryList' ) : array();
+        return $category !== '' && isset( $list[$category] ) ? $category : $default;
+    }
+
+    /**
+     * @return array the categories the Page panel groups the fields by: the default one first (its fields are not in
+     *               a group), then the others in the order of content.ini CategoryList, each with its name in the
+     *               user's language where the sidebar's catalogue has it ("Meta")
+     */
+    public static function categories()
+    {
+        $ini = eZINI::instance( 'content.ini' );
+        $default = (string)$ini->variable( 'ClassAttributeSettings', 'DefaultCategory' );
+        $out = array( array( 'id' => $default, 'name' => '', 'default' => true ) );
+        $list = $ini->hasVariable( 'ClassAttributeSettings', 'CategoryList' ) ? (array)$ini->variable( 'ClassAttributeSettings', 'CategoryList' ) : array();
+        foreach ( $list as $id => $name )
+        {
+            if ( (string)$id !== $default )
+                $out[] = array( 'id' => (string)$id, 'name' => ezpI18n::tr( expwtStrings::CONTEXT, (string)$name ), 'default' => false );
+        }
+        return $out;
+    }
 
     /**
      * Saves fields into the user's draft (made on the first save). When someone published a newer version since the

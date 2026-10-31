@@ -164,6 +164,10 @@
         <translation>थप</translation>
     </message>
     <message>
+        <source>Meta</source>
+        <translation>मेटा</translation>
+    </message>
+    <message>
         <source>Save draft</source>
         <translation>मस्यौदा सुरक्षित गर्नुहोस्</translation>
     </message>

@@ -164,6 +164,10 @@
         <translation>കൂടുതൽ</translation>
     </message>
     <message>
+        <source>Meta</source>
+        <translation>മെറ്റ</translation>
+    </message>
+    <message>
         <source>Save draft</source>
         <translation>ഡ്രാഫ്റ്റ് സംരക്ഷിക്കുക</translation>
     </message>

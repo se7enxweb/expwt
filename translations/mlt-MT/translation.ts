@@ -164,6 +164,10 @@
         <translation>Aktar</translation>
     </message>
     <message>
+        <source>Meta</source>
+        <translation>Meta</translation>
+    </message>
+    <message>
         <source>Save draft</source>
         <translation>Issejvja l-abbozz</translation>
     </message>

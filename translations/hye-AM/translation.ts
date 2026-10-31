@@ -164,6 +164,10 @@
         <translation>Ավելին</translation>
     </message>
     <message>
+        <source>Meta</source>
+        <translation>Մետա</translation>
+    </message>
+    <message>
         <source>Save draft</source>
         <translation>Պահպանել սևագիրը</translation>
     </message>

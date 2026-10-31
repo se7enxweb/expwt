@@ -164,6 +164,10 @@
         <translation>మరిన్ని</translation>
     </message>
     <message>
+        <source>Meta</source>
+        <translation>మెటా</translation>
+    </message>
+    <message>
         <source>Save draft</source>
         <translation>డ్రాఫ్ట్ సేవ్ చేయండి</translation>
     </message>

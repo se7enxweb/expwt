@@ -164,6 +164,10 @@
         <translation>نور</translation>
     </message>
     <message>
+        <source>Meta</source>
+        <translation>میټا</translation>
+    </message>
+    <message>
         <source>Save draft</source>
         <translation>مسوده خوندي کړئ</translation>
     </message>
