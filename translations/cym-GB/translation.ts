@@ -168,6 +168,18 @@
         <translation>Cyhoeddi</translation>
     </message>
     <message>
+        <source>Editing</source>
+        <translation>Wrthi'n golygu</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Wedi gorffen</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>Cau</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>Taflu'r drafft</translation>
     </message>

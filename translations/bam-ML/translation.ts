@@ -168,6 +168,18 @@
         <translation>Bila kɛnɛ kan</translation>
     </message>
     <message>
+        <source>Editing</source>
+        <translation>Yɛlɛmali bɛ kɛ</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>A banna</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>A datugu</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>Bruyɔn fili</translation>
     </message>

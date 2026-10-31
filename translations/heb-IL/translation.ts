@@ -168,6 +168,18 @@
         <translation>פרסום</translation>
     </message>
     <message>
+        <source>Editing</source>
+        <translation>בעריכה</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>סיום</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>סגירה</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>מחיקת טיוטה</translation>
     </message>

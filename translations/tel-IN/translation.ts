@@ -168,6 +168,18 @@
         <translation>ప్రచురించండి</translation>
     </message>
     <message>
+        <source>Editing</source>
+        <translation>సవరిస్తోంది</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>పూర్తయింది</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>మూసివేయి</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>డ్రాఫ్ట్ విస్మరించండి</translation>
     </message>

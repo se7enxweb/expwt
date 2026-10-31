@@ -168,6 +168,18 @@
         <translation>Publitgar</translation>
     </message>
     <message>
+        <source>Editing</source>
+        <translation>Modifitgar</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Finì</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>Serrar</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>Rinunziar al sboz</translation>
     </message>

@@ -168,6 +168,18 @@
         <translation>Almmut</translation>
     </message>
     <message>
+        <source>Editing</source>
+        <translation>Redigere</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Gárvvis</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>Gidde</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>Hilgo luonosa</translation>
     </message>

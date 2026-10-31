@@ -168,6 +168,18 @@
         <translation>Ipatik</translation>
     </message>
     <message>
+        <source>Editing</source>
+        <translation>Nag-edit</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Nahuman</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>Sirado</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>Ilabay ang draft</translation>
     </message>

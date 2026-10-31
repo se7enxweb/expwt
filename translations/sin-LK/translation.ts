@@ -168,6 +168,18 @@
         <translation>ප්‍රකාශ කරන්න</translation>
     </message>
     <message>
+        <source>Editing</source>
+        <translation>සංස්කරණය වෙමින්</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>අවසන්</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>වසන්න</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>කෙටුම්පත ඉවත දමන්න</translation>
     </message>

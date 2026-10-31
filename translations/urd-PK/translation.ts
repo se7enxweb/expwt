@@ -168,6 +168,18 @@
         <translation>شائع کریں</translation>
     </message>
     <message>
+        <source>Editing</source>
+        <translation>ترمیم جاری</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>ہو گیا</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>بند کریں</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>مسودہ ترک کریں</translation>
     </message>

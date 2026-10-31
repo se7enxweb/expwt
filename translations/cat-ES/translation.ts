@@ -168,6 +168,18 @@
         <translation>Publica</translation>
     </message>
     <message>
+        <source>Editing</source>
+        <translation>S'està editant</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Fet</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>Tanca</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>Descarta l'esborrany</translation>
     </message>

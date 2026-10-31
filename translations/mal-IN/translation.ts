@@ -168,6 +168,18 @@
         <translation>പ്രസിദ്ധീകരിക്കുക</translation>
     </message>
     <message>
+        <source>Editing</source>
+        <translation>എഡിറ്റ് ചെയ്യുന്നു</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>പൂർത്തിയായി</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>അടയ്ക്കുക</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>ഡ്രാഫ്റ്റ് ഉപേക്ഷിക്കുക</translation>
     </message>

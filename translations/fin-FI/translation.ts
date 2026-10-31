@@ -168,6 +168,18 @@
         <translation>Julkaise</translation>
     </message>
     <message>
+        <source>Editing</source>
+        <translation>Muokataan</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Valmis</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>Sulje</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>Hylkää luonnos</translation>
     </message>

@@ -168,6 +168,18 @@
         <translation>Tintim</translation>
     </message>
     <message>
+        <source>Editing</source>
+        <translation>Ɛresesa</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Awie</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>To mu</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>Twa draft no gu</translation>
     </message>

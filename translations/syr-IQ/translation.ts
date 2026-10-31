@@ -168,6 +168,18 @@
         <translation>ܦܪܣܐ</translation>
     </message>
     <message>
+        <source>Editing</source>
+        <translation>ܡܬܬܩܢ</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>ܫܠܡ</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>ܐܚܘܕ</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>ܫܕܝ ܣܘܪܛܐ</translation>
     </message>

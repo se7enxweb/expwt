@@ -168,6 +168,18 @@
         <translation>Avalda</translation>
     </message>
     <message>
+        <source>Editing</source>
+        <translation>Muutmine</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Valmis</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>Sulge</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>Loobu mustandist</translation>
     </message>

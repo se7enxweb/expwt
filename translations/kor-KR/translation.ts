@@ -168,6 +168,18 @@
         <translation>게시</translation>
     </message>
     <message>
+        <source>Editing</source>
+        <translation>편집 중</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>완료</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>닫기</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>초안 폐기</translation>
     </message>

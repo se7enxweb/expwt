@@ -168,6 +168,18 @@
         <translation>Publiseer</translation>
     </message>
     <message>
+        <source>Editing</source>
+        <translation>Besig om te redigeer</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Klaar</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>Maak toe</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>Gooi konsep weg</translation>
     </message>

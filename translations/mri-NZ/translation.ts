@@ -168,6 +168,18 @@
         <translation>Whakaputa</translation>
     </message>
     <message>
+        <source>Editing</source>
+        <translation>E whakatika ana</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Kua oti</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>Kati</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>Whakakore tauira</translation>
     </message>

@@ -168,6 +168,18 @@
         <translation>Pubblica</translation>
     </message>
     <message>
+        <source>Editing</source>
+        <translation>In modifica</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Fine</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>Chiudi</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>Elimina bozza</translation>
     </message>

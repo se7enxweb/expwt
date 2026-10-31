@@ -168,6 +168,18 @@
         <translation>เผยแพร่</translation>
     </message>
     <message>
+        <source>Editing</source>
+        <translation>กำลังแก้ไข</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>เสร็จสิ้น</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>ปิด</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>ทิ้งฉบับร่าง</translation>
     </message>

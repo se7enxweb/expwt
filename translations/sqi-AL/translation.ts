@@ -168,6 +168,18 @@
         <translation>Publiko</translation>
     </message>
     <message>
+        <source>Editing</source>
+        <translation>Po redaktohet</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>U krye</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>Mbyll</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>Hidh skicën</translation>
     </message>

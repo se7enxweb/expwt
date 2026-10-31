@@ -168,6 +168,18 @@
         <translation>نشر</translation>
     </message>
     <message>
+        <source>Editing</source>
+        <translation>قيد التحرير</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>تم</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>إغلاق</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>تجاهل المسودة</translation>
     </message>

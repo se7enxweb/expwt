@@ -168,6 +168,18 @@
         <translation>Publier</translation>
     </message>
     <message>
+        <source>Editing</source>
+        <translation>Modification</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Terminé</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>Fermer</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>Abandonner le brouillon</translation>
     </message>

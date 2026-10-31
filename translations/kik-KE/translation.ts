@@ -168,6 +168,18 @@
         <translation>Cabithia</translation>
     </message>
     <message>
+        <source>Editing</source>
+        <translation>Nĩ kũcenjia</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Nĩ ndarĩkia</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>Hinga</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>Te ndrafti</translation>
     </message>

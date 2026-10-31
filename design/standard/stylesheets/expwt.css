@@ -656,3 +656,60 @@ a { color: var(--a4-accent-text); }
   .wt-panel, .wt-tab { transition: inset var(--a4-duration), left var(--a4-duration), right var(--a4-duration); }
 }
 .wt-head h2:focus { outline: none; }
+
+/* ------------------------------------------------------------------ editing on the page with the panel closed
+   The pill "Editing · Done" floats at the bottom, above the safe area and above whatever is fixed there (a cookie bar,
+   the debug bar: --wt-pill-room, measured by the sidebar); a field tapped on the page opens in the bottom sheet. */
+.wt-pill {
+  position: fixed;
+  inset-inline: 0;
+  inline-size: max-content;
+  max-inline-size: calc(100vw - 2 * var(--a4-space-4));
+  margin-inline: auto;
+  bottom: calc(var(--wt-pill-room, 0px) + env(safe-area-inset-bottom, 0px) + var(--a4-space-3));
+  z-index: var(--a4-z-overlay);
+  display: flex;
+  align-items: center;
+  gap: var(--a4-space-2);
+  padding: var(--a4-space-1) var(--a4-space-1) var(--a4-space-1) var(--a4-space-4);
+  border: 1px solid var(--a4-line);
+  border-radius: var(--a4-radius);
+  background: var(--a4-card);
+  color: var(--a4-ink);
+  box-shadow: var(--a4-shadow-m);
+  font-weight: var(--a4-weight-medium);
+}
+.wt-pill[hidden] { display: none; }
+.wt-pill-dot { color: var(--a4-muted); }
+.wt-pill .wt-btn { min-block-size: 44px; min-inline-size: 44px; }
+.wt-scrim { position: fixed; inset: 0; z-index: var(--a4-z-overlay); background: var(--a4-overlay); }
+.wt-scrim[hidden], .wt-sheet[hidden] { display: none; }
+.wt-sheet {
+  position: fixed;
+  inset-inline: 0;
+  bottom: var(--wt-bar-room, 0px);
+  z-index: var(--a4-z-overlay);
+  display: flex;
+  flex-direction: column;
+  block-size: min(85vh, calc(100vh - var(--wt-bar-room, 0px) - var(--a4-space-6)));
+  block-size: min(85dvh, calc(100dvh - var(--wt-bar-room, 0px) - var(--a4-space-6)));
+  padding-block-end: env(safe-area-inset-bottom, 0px);
+  border-start-start-radius: var(--a4-radius);
+  border-start-end-radius: var(--a4-radius);
+  background: var(--a4-card);
+  color: var(--a4-ink);
+  box-shadow: var(--a4-shadow-up);
+  outline: none;
+}
+.wt-sheet[data-dragging] { opacity: 0.85; }
+.wt-sheet-handle { flex: none; align-self: center; inline-size: 44px; block-size: 24px; margin-block-start: var(--a4-space-1); cursor: grab; touch-action: none; }
+.wt-sheet-handle::before { content: ""; display: block; inline-size: 40px; block-size: 4px; margin: 10px auto 0; border-radius: var(--a4-radius-s); background: var(--a4-line-strong); }
+.wt-sheet-head { flex: none; display: flex; align-items: center; gap: var(--a4-space-2); padding: 0 var(--a4-space-2) var(--a4-space-2) var(--a4-space-4); touch-action: none; }
+.wt-sheet-title { flex: 1; min-inline-size: 0; margin: 0; font-size: var(--a4-text-m); font-weight: var(--a4-weight-medium); overflow-wrap: break-word; }
+.wt-sheet .wt-btn { min-block-size: 44px; }
+.wt-sheet .wt-btn.is-icon { min-inline-size: 44px; }
+.wt-sheet-body { flex: 1; min-block-size: 0; overflow: auto; padding-inline: var(--a4-space-2); border-block: 1px solid var(--a4-line); }
+.wt-sheet-body > .wt-frame { display: block; inline-size: 100%; block-size: 100%; border: 0; }
+.wt-sheet-body > .wt-field { padding: var(--a4-space-3) var(--a4-space-2); }
+.wt-sheet-actions { flex: none; flex-wrap: wrap; align-items: center; gap: var(--a4-space-2); padding: var(--a4-space-2) var(--a4-space-4); }
+.wt-sheet-note { color: var(--a4-muted); font-size: var(--a4-text-s); }

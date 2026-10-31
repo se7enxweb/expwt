@@ -168,6 +168,18 @@
         <translation>Δημοσίευση</translation>
     </message>
     <message>
+        <source>Editing</source>
+        <translation>Επεξεργασία</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Τέλος</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>Κλείσιμο</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>Απόρριψη προσχεδίου</translation>
     </message>

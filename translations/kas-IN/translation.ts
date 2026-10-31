@@ -168,6 +168,18 @@
         <translation>شایع کٔرِو</translation>
     </message>
     <message>
+        <source>Editing</source>
+        <translation>ترمیم جاری</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>مُکمل</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>بنٛد کٔریو</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>مَسوٗدہٕ ترٲوِو</translation>
     </message>

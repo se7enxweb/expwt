@@ -168,6 +168,18 @@
         <translation>Foillsich</translation>
     </message>
     <message>
+        <source>Editing</source>
+        <translation>A’ deasachadh</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Deiseil</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>Dùin</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>Tilg air falbh an dreachd</translation>
     </message>

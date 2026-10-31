@@ -168,6 +168,18 @@
         <translation>Foilsigh</translation>
     </message>
     <message>
+        <source>Editing</source>
+        <translation>Ag cur in eagar</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Déanta</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>Dún</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>Caith an dréacht i leataobh</translation>
     </message>

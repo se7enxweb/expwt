@@ -168,6 +168,18 @@
         <translation>Ɖe ɖe dutoƒo</translation>
     </message>
     <message>
+        <source>Editing</source>
+        <translation>Le asi trɔm</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Wowu enu</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>Tu</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>Tutu ŋɔŋlɔ gbãtɔ ɖa</translation>
     </message>

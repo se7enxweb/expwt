@@ -168,6 +168,18 @@
         <translation>Embann</translation>
     </message>
     <message>
+        <source>Editing</source>
+        <translation>O kemmañ</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Graet</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>Serriñ</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>Dilezel ar brouilhed</translation>
     </message>

@@ -71,7 +71,8 @@
     var published = p.publishedVersion;
     var locked = false;
     var heartbeat = null;
-    var inline = false;
+    /* editing on the page is the host's state (ctx.editing()): on while the panel is closed, after a reload too */
+    var inline = !!(ctx.editing && ctx.editing());
     ctx.host.pageInfo = p;
 
     p.fields.forEach(function (f) { base[f.identifier] = f.value; values[f.identifier] = f.value; });
@@ -115,12 +116,14 @@
       return;
     }
 
+    /* Edit on the page: on or off for this browser tab (the host keeps it); where the panel lies over the page (a
+       phone) it gets out of the way at once, the page shows its outlines and the pill "Editing · Done" */
+    var inlineBtn = h('button', { type: 'button', class: 'wt-btn', 'aria-pressed': inline ? 'true' : 'false', id: 'wt-inline', text: t('Edit on the page'), onclick: function () {
+      var on = ctx.editing(!inline);
+      if (on && ctx.overlay()) { ctx.host.toggle(false); }
+    } });
     var tools = h('div', { class: 'wt-row' }, [
-      h('button', { type: 'button', class: 'wt-btn', 'aria-pressed': 'false', id: 'wt-inline', text: t('Edit on the page'), onclick: function (e) {
-        inline = !inline;
-        e.currentTarget.setAttribute('aria-pressed', inline ? 'true' : 'false');
-        setInline(inline);
-      } }),
+      inlineBtn,
       h('a', { class: 'wt-btn', href: p.urls.preview, target: '_blank', rel: 'noopener', text: t('Preview') }),
       h('a', { class: 'wt-btn', href: p.urls.fullEdit, text: t('Full editor') })
     ]);
@@ -268,13 +271,42 @@
       if (more) { more.open = true; }
       if (row) { row.scrollIntoView({ block: 'nearest' }); }
     }
-    /* a field of the page clicked while editing on the page: its editor, in view, with the focus */
+    /* a field of the page clicked while editing on the page: its editor, in view, with the focus; with the panel out
+       of the way (a phone) in the bottom sheet */
     function focusField(f) {
       var entry = frames[f.identifier];
       if (!entry) { return; }
-      reveal(entry.row);
       load(entry);
+      if (ctx.useSheet && ctx.useSheet()) { inSheet(f, entry.frame, entry.holder, entry); return; }
+      reveal(entry.row);
       entry.frame.focus();
+    }
+
+    /* The bottom sheet: the field's editor (its frame, or its row of the form) moved into it, with Save draft and
+       Publish; closing it puts the editor back into the panel. Where moving a frame would reload it (no moveBefore),
+       what was typed is saved to the draft first. */
+    function inSheet(f, node, home, entry) {
+      var note = h('span', { class: 'wt-sheet-note', role: 'status', 'aria-live': 'polite' });
+      var next = node.nextSibling;
+      var saveB = h('button', { type: 'button', class: 'wt-btn', text: t('Save draft'), onclick: function () {
+        note.textContent = t('Saving ...');
+        var run = entry ? saveOne(entry) : save().then(function () { return true; });
+        run.then(function (saved) {
+          if (entry && saved === false && Object.keys(dirtyFields()).length) { return save().then(function () { return true; }); }
+          return saved;
+        }).then(function (saved) {
+          note.textContent = saved === false ? t('Nothing to save.') : t('The draft is saved.');
+        }, function () { note.textContent = t('This value does not fit the field.'); });
+      } });
+      var publishB = h('button', { type: 'button', class: 'wt-btn is-primary', text: t('Publish'), onclick: function () { publish(); } });
+      ctx.openSheet(f.name, node, [saveB, publishB, note], function (done) {
+        var back = function () {
+          if (home.isConnected) { ctx.move(home, node, next && next.parentNode === home ? next : null); }
+          done();
+        };
+        if (entry && entry.ready && !ctx.move.keeps) { saveOne(entry).then(back, back); } else { back(); }
+      });
+      if (entry && entry.frame) { entry.frame.focus(); }
     }
     /* a file dropped on a field (an image on the page): its editor takes it and saves it to the draft */
     function dropFile(f, file) {
@@ -577,8 +609,10 @@
             box.expwtInput = function (e) {
               if (e.type === 'keydown' && e.key !== 'Enter' && e.key !== ' ') { return; }
               e.preventDefault();
-              reveal(rows[f.identifier]);
-              var input = rows[f.identifier].querySelector('input, select, textarea');
+              var row = rows[f.identifier];
+              if (ctx.useSheet && ctx.useSheet()) { inSheet(f, row, row.parentNode, null); }
+              else { reveal(row); }
+              var input = row.querySelector('input, select, textarea');
               if (input) { input.focus(); }
             };
             box.addEventListener('click', box.expwtInput);
@@ -605,6 +639,18 @@
         + '[data-expwt-hl]{outline:3px solid Highlight;outline-offset:2px}[data-expwt-drop]{outline:3px solid Highlight;outline-offset:6px}');
       ctx.say(count ? t('Click a text on the page to edit it. It is saved with the draft.') : t('None of the fields shows on this page as it is; use the form.'));
     }
+
+    /* the host turned editing on the page on or off (the button, the pill's Done): the outlines follow; the panel
+       drawn next takes this panel's marks off the page first */
+    if (root.expwtEditing) { root.removeEventListener('expwt-editing', root.expwtEditing); }
+    root.expwtEditing = function (e) {
+      inline = !!(e.detail && e.detail.on);
+      inlineBtn.setAttribute('aria-pressed', inline ? 'true' : 'false');
+      setInline(inline);
+    };
+    root.addEventListener('expwt-editing', root.expwtEditing);
+    if (ctx.onLeave) { ctx.onLeave(function () { setInline(false); }); }
+    if (inline) { setInline(true); }
 
     function mirror(id) {
       (placed[id] || []).forEach(function (el) {

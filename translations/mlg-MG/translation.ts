@@ -168,6 +168,18 @@
         <translation>Avoaky</translation>
     </message>
     <message>
+        <source>Editing</source>
+        <translation>Eo am-panovana</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Vita</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>Hidio</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>Ario ny drafitra</translation>
     </message>

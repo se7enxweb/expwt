@@ -168,6 +168,18 @@
         <translation>Maxxansi</translation>
     </message>
     <message>
+        <source>Editing</source>
+        <translation>Gulaalamaa jira</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Xumurameera</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>Cufi</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>Wixinee gatii</translation>
     </message>

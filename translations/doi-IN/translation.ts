@@ -168,6 +168,18 @@
         <translation>छापो</translation>
     </message>
     <message>
+        <source>Editing</source>
+        <translation>संपादन चला करदा</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>होई गेआ</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>बंद करो</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>मसौदा छोड़ो</translation>
     </message>

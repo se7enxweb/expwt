@@ -168,6 +168,18 @@
         <translation>I-publish</translation>
     </message>
     <message>
+        <source>Editing</source>
+        <translation>Nag-e-edit</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Tapos na</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>Isara</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>Itapon ang draft</translation>
     </message>

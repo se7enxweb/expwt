@@ -168,6 +168,18 @@
         <translation>Publicera</translation>
     </message>
     <message>
+        <source>Editing</source>
+        <translation>Redigerar</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Klar</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>Stäng</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>Kasta utkast</translation>
     </message>

@@ -168,6 +168,18 @@
         <translation>Bipụta</translation>
     </message>
     <message>
+        <source>Editing</source>
+        <translation>Na-edezi</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Emechara</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>Mechie</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>Tụfuo ndepụta mbụ</translation>
     </message>

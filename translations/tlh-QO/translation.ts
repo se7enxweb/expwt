@@ -168,6 +168,18 @@
         <translation>HochvaD yI'ang</translation>
     </message>
     <message>
+        <source>Editing</source>
+        <translation>choHlI'</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>rIn</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>SoQmoH</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>nab yIwoD</translation>
     </message>

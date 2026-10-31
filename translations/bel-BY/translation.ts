@@ -168,6 +168,18 @@
         <translation>Апублікаваць</translation>
     </message>
     <message>
+        <source>Editing</source>
+        <translation>Рэдагаванне</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Гатова</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>Закрыць</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>Адхіліць чарнавік</translation>
     </message>

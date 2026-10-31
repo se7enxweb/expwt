@@ -168,6 +168,18 @@
         <translation>ئېلان قىل</translation>
     </message>
     <message>
+        <source>Editing</source>
+        <translation>تەھرىرلىنىۋاتىدۇ</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>تامام</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>تاقاش</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>ئارگىنالنى تاشلا</translation>
     </message>

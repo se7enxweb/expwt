@@ -168,6 +168,18 @@
         <translation>ထုတ်ဝေရန်</translation>
     </message>
     <message>
+        <source>Editing</source>
+        <translation>တည်းဖြတ်နေသည်</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>ပြီးပြီ</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>ပိတ်ရန်</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>မူကြမ်း ပယ်ရန်</translation>
     </message>

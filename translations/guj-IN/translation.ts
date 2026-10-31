@@ -168,6 +168,18 @@
         <translation>પ્રકાશિત કરો</translation>
     </message>
     <message>
+        <source>Editing</source>
+        <translation>ફેરફાર ચાલુ છે</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>થઈ ગયું</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>બંધ કરો</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>ડ્રાફ્ટ રદ કરો</translation>
     </message>

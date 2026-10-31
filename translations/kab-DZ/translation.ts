@@ -168,6 +168,18 @@
         <translation>Siẓreg</translation>
     </message>
     <message>
+        <source>Editing</source>
+        <translation>Taẓrigt</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Yemmed</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>Mdel</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>Ttu arewway</translation>
     </message>

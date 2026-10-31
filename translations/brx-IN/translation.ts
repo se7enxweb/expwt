@@ -168,6 +168,18 @@
         <translation>फोसाव</translation>
     </message>
     <message>
+        <source>Editing</source>
+        <translation>सुजुदों</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>जाखांबाय</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>बन्द खालाम</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>खस्रा गार</translation>
     </message>

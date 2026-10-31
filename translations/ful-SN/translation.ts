@@ -168,6 +168,18 @@
         <translation>Yaltin</translation>
     </message>
     <message>
+        <source>Editing</source>
+        <translation>Ina waylude</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Gasii</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>Uddu</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>Accu daartol</translation>
     </message>

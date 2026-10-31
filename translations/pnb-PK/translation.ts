@@ -168,6 +168,18 @@
         <translation>چھاپو</translation>
     </message>
     <message>
+        <source>Editing</source>
+        <translation>تبدیلی جاری</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>ہو گیا</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>بند کرو</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>مسودہ رد کرو</translation>
     </message>

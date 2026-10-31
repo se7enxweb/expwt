@@ -34,6 +34,53 @@
   var SVG = 'http://www.w3.org/2000/svg';
   var canAdopt = 'adoptedStyleSheets' in Document.prototype && 'replaceSync' in CSSStyleSheet.prototype;
 
+  /* Editing on the page is a state of its own, never tied to whether the panel is open: closing or collapsing the
+     sidebar keeps it on, and it lasts through a reload and the site's other pages in this browser tab
+     (sessionStorage) until the user turns it off. Pure, for the tests (tests/js/editstate.test.js). */
+  var EditState = {
+    KEY: 'expwt.editing',
+    read: function (storage) {
+      try { return !!storage && storage.getItem(EditState.KEY) === '1'; } catch (e) { return false; }
+    },
+    write: function (storage, on) {
+      try {
+        if (on) { storage.setItem(EditState.KEY, '1'); } else { storage.removeItem(EditState.KEY); }
+      } catch (e) { /* a private window without storage: on for this page only */ }
+      return !!on;
+    },
+    /* the floating "Editing · Done": while editing with the panel closed (open, the panel's own button says it) */
+    pillShown: function (editing, open) { return !!editing && !open; },
+    /* a field tapped on the page opens in the bottom sheet when the panel is not beside the page */
+    useSheet: function (open, overlay) { return !!overlay || !open; },
+    /* the room what is fixed at the window's bottom takes (a cookie bar or dialog, the debug bar): the highest top
+       among them; something fixed from near the top (a full-height layer) does not count */
+    bottomRoom: function (viewportHeight, tops, from) {
+      var room = 0;
+      var least = viewportHeight * (from === undefined ? 0.2 : from);
+      (tops || []).forEach(function (top) {
+        if (top > least && top < viewportHeight) { room = Math.max(room, viewportHeight - top); }
+      });
+      return Math.round(room);
+    }
+  };
+  window.ExpwtEditState = EditState;
+
+  /* a node into a parent: moveBefore() keeps a frame's page as it is (no reload) where the browser has it */
+  function move(parent, node, before) {
+    if (typeof parent.moveBefore === 'function' && node.isConnected && parent.isConnected && node.getRootNode() === parent.getRootNode()) {
+      try { parent.moveBefore(node, before || null); return true; } catch (e) { /* below */ }
+    }
+    parent.insertBefore(node, before || null);
+    return false;
+  }
+  window.ExpwtMove = move;
+  /* true where moving a frame keeps its page (moveBefore) */
+  move.keeps = typeof Element !== 'undefined' && typeof Element.prototype.moveBefore === 'function';
+
+  function session() {
+    try { return window.sessionStorage; } catch (e) { return null; }
+  }
+
   function store(key, value) {
     try {
       if (value === undefined) {
@@ -145,6 +192,7 @@
       this.state = this.normalize(Object.assign({}, this.anonymous || !device ? (store(CACHE) || {}) : {}, device && device.state ? device.state : {}));
       this.wide = window.matchMedia('(min-width: ' + ((this.cfg.overlayBelow || 768) + 1) + 'px)');
       this.dark = window.matchMedia('(prefers-color-scheme: dark)');
+      this.editOn = !this.anonymous && EditState.read(session());
       this.render();
       this.applyState();
       this.wide.addEventListener('change', function () { self.applyState(); });
@@ -155,14 +203,14 @@
           .observe(document.documentElement, { attributes: true, attributeFilter: ['data-exp-theme'] });
       }
       window.addEventListener('scroll', function () { self.place(); }, { passive: true });
-      window.addEventListener('resize', function () { self.place(); });
+      window.addEventListener('resize', function () { self.place(); self.placePill(); });
       /* a phone's sheet grows and shrinks with its contents: the tab follows its edge */
       if (window.ResizeObserver) {
         new ResizeObserver(function () { if (self.horizontal() && window.innerWidth < 640) { self.place(); } }).observe(this.panel);
       }
       /* a cookie bar or a fixed footer that comes or goes: the bottom bar moves above it */
       if (window.MutationObserver && document.body) {
-        new MutationObserver(function () { if (self.state.edge === 'bottom') { self.place(); } })
+        new MutationObserver(function () { if (self.state.edge === 'bottom') { self.place(); } self.placePill(); })
           .observe(document.body, { childList: true });
       }
       document.addEventListener('keydown', function (e) { self.shortcut(e); });
@@ -269,9 +317,146 @@
         this.body,
         this.status
       ]);
+      /* editing on the page with the panel out of the way (a phone): what says so and ends it */
+      this.pill = h('div', { class: 'wt-pill', role: 'status', hidden: true }, [
+        h('span', { class: 'wt-pill-label', text: this.t('Editing') }),
+        h('span', { class: 'wt-pill-dot', 'aria-hidden': 'true', text: '·' }),
+        h('button', { type: 'button', class: 'wt-btn is-primary wt-pill-done', text: this.t('Done'),
+          onclick: function () { self.editing(false); } })
+      ]);
+      /* one field's editor over the page from below (a phone): the frame at full width */
+      this.sheetTitle = h('h2', { class: 'wt-sheet-title', id: 'wt-sheet-title' });
+      this.sheetBody = h('div', { class: 'wt-sheet-body' });
+      this.sheetActions = h('div', { class: 'wt-row wt-sheet-actions' });
+      var handle = h('div', { class: 'wt-sheet-handle', 'aria-hidden': 'true', onpointerdown: function (e) { self.sheetDrag(e); } });
+      this.sheet = h('div', { class: 'wt-sheet', role: 'dialog', 'aria-modal': 'true', 'aria-labelledby': 'wt-sheet-title', tabindex: '-1', hidden: true,
+        onkeydown: function (e) { if (e.key === 'Escape') { e.stopPropagation(); self.closeSheet(); } } }, [
+        handle,
+        h('div', { class: 'wt-sheet-head', onpointerdown: function (e) { if (e.target === e.currentTarget || e.target === self.sheetTitle) { self.sheetDrag(e); } } }, [
+          this.sheetTitle,
+          h('button', { type: 'button', class: 'wt-btn is-icon', 'aria-label': this.t('Close'), title: this.t('Close'),
+            onclick: function () { self.closeSheet(); } }, ['×'])
+        ]),
+        this.sheetBody,
+        this.sheetActions
+      ]);
+      this.scrim = h('div', { class: 'wt-scrim', hidden: true, onclick: function () { self.closeSheet(); } });
       root.appendChild(this.tab);
       root.appendChild(this.panel);
+      root.appendChild(this.pill);
+      root.appendChild(this.scrim);
+      root.appendChild(this.sheet);
       this.buildTabs();
+    }
+
+    /* ------------------------------------------------------------------ editing on the page */
+
+    /* editing() is on or off; editing(on) turns it on or off, for this tab, whatever the panel does */
+    editing(on) {
+      if (on === undefined) {
+        return !!this.editOn;
+      }
+      this.editOn = EditState.write(session(), !this.anonymous && !!on);
+      if (!this.editOn) {
+        this.closeSheet();
+      }
+      this.drawPill();
+      this.body.dispatchEvent(new CustomEvent('expwt-editing', { detail: { on: this.editOn } }));
+      /* off while the Page panel is not drawn: nothing to take off; on: the Page panel draws the outlines */
+      if (this.editOn && this.body.getAttribute('data-panel') !== 'page' && this.boot) {
+        this.show('page');
+      }
+      return this.editOn;
+    }
+
+    drawPill() {
+      if (!this.pill) { return; }
+      this.setAttribute('data-editing', this.editOn ? 'true' : 'false');
+      this.pill.hidden = !EditState.pillShown(this.editOn, this.state.open, this.overlay()) || !this.sheet.hidden;
+      this.placePill();
+    }
+
+    /* The pill stays clear of what is fixed at the window's bottom (a cookie bar, the debug bar, the bottom tab):
+       their room as a custom property of the pill, from the sidebar's own stylesheet (never an attribute style). */
+    placePill() {
+      if (!this.pill || (this.pill.hidden && this.sheet.hidden) || !canAdopt) { return; }
+      var self = this;
+      var vh = window.innerHeight;
+      var tops = [];
+      [0.2, 0.5, 0.8].forEach(function (x) {
+        (document.elementsFromPoint(window.innerWidth * x, vh - 2) || []).forEach(function (el) {
+          for (var n = el; n && n !== document.body && n !== document.documentElement; n = n.parentElement) {
+            if (n === self) { return; }
+            var pos = getComputedStyle(n).position;
+            if (pos === 'fixed' || pos === 'sticky') { tops.push(n.getBoundingClientRect().top); return; }
+          }
+        });
+      });
+      var room = EditState.bottomRoom(vh, tops);
+      if (this.state.edge === 'bottom' && this.tab) { room += this.tab.offsetHeight; }
+      /* the sheet steps above a bar at the bottom (the debug bar), not above a tall dialog (it would have no room) */
+      var bars = EditState.bottomRoom(vh, tops, 0.7);
+      if (!this.pillSheet) {
+        this.pillSheet = new CSSStyleSheet();
+        this.shadowRoot.adoptedStyleSheets = this.shadowRoot.adoptedStyleSheets.concat([this.pillSheet]);
+      }
+      this.pillSheet.replaceSync(':host{--wt-pill-room:' + room + 'px;--wt-bar-room:' + bars + 'px}');
+    }
+
+    /* openSheet(title, node, actions, onClose): the node (a field's editor frame, moved without a reload where the
+       browser can: moveBefore) in the sheet; onClose(done) gives it back and calls done() */
+    openSheet(title, node, actions, onClose) {
+      var self = this;
+      this.closeSheet();
+      this.sheetScroll = window.scrollY;
+      this.sheetTitle.textContent = title;
+      this.sheetActions.textContent = '';
+      (actions || []).forEach(function (a) { self.sheetActions.appendChild(a); });
+      this.sheetOnClose = onClose || null;
+      move(this.sheetBody, node);
+      this.sheet.hidden = false;
+      this.scrim.hidden = false;
+      this.setAttribute('data-sheet', 'open');
+      this.drawPill();
+      this.placePill();
+      this.sheet.focus();
+      var close = this.sheet.querySelector('.wt-sheet-head .wt-btn');
+      if (close) { close.focus(); }
+    }
+
+    closeSheet() {
+      if (!this.sheet || this.sheet.hidden) { return; }
+      var self = this;
+      var y = this.sheetScroll;
+      var finish = function () {
+        self.sheet.hidden = true;
+        self.scrim.hidden = true;
+        self.removeAttribute('data-sheet');
+        self.sheetBody.textContent = '';
+        self.drawPill();
+        if (typeof y === 'number') { window.scrollTo(window.scrollX, y); }
+      };
+      var onClose = this.sheetOnClose;
+      this.sheetOnClose = null;
+      if (onClose) { onClose(finish); } else { finish(); }
+    }
+
+    /* the handle (or the sheet's head) pulled down far enough closes the sheet */
+    sheetDrag(e) {
+      var self = this;
+      var startY = e.clientY;
+      var moved = 0;
+      var up = function (ev) {
+        window.removeEventListener('pointermove', mv);
+        window.removeEventListener('pointerup', up);
+        window.removeEventListener('pointercancel', up);
+        self.sheet.removeAttribute('data-dragging');
+        if (ev.type === 'pointerup' && moved > 80) { self.closeSheet(); }
+      };
+      var mv = function (ev) { moved = ev.clientY - startY; if (moved > 8) { self.sheet.setAttribute('data-dragging', ''); } };
+      window.addEventListener('pointermove', mv);
+      window.addEventListener('pointerup', up);
+      window.addEventListener('pointercancel', up);
     }
 
     /* Hide the whole sidebar (on) or show it again (off), without an attribute style: a constructed stylesheet of
@@ -588,6 +773,7 @@
       }
       this.applyTheme();
       this.place();
+      this.drawPill();
     }
 
     save() {
@@ -620,7 +806,13 @@
       if (open) {
         this.show(this.state.panel);
         this.heading.focus();
-      } else if (focusTab) {
+        return;
+      }
+      /* closed while editing on the page: the editing goes on, with the Page panel's outlines on the page */
+      if (this.editOn && this.boot && this.body.getAttribute('data-panel') !== 'page') {
+        this.show('page');
+      }
+      if (focusTab) {
         this.tab.focus();
       }
     }
@@ -819,8 +1011,9 @@
         }
         self.buildTabs();
         self.applyState();
-        if (self.state.open) {
-          self.show(self.state.panel);
+        /* editing on the page (this tab, sessionStorage): the Page panel draws the outlines, open or not */
+        if (self.state.open || self.editOn) {
+          self.show(self.editOn ? 'page' : self.state.panel);
         }
         return self.boot;
       }).catch(function () {
@@ -961,6 +1154,13 @@
         return;
       }
       this.loadPanels().then(function (registry) {
+        /* the panel drawn before takes back what it put on the page (the outlines of editing on the page) */
+        if (self.pageCleanup) {
+          var undo = self.pageCleanup;
+          self.pageCleanup = null;
+          undo();
+        }
+        self.closeSheet();
         self.body.textContent = '';
         if (registry[id]) {
           registry[id](self.context(), self.body);
@@ -1012,7 +1212,15 @@
         primary: function (el) { self.primary(el); },
         horizontal: function () { return self.horizontal(); },
         host: this,
-        inlineCss: function (css) { self.inlineRules = css || ''; self.push(); }
+        inlineCss: function (css) { self.inlineRules = css || ''; self.push(); },
+        /* editing on the page: the host's state (open or closed panel), the bottom sheet, what undoes a panel's marks */
+        editing: function (on) { return self.editing(on); },
+        overlay: function () { return self.overlay(); },
+        useSheet: function () { return EditState.useSheet(self.state.open, self.overlay()); },
+        openSheet: function (title, node, actions, onClose) { self.openSheet(title, node, actions, onClose); },
+        closeSheet: function () { self.closeSheet(); },
+        move: move,
+        onLeave: function (fn) { self.pageCleanup = fn; }
       };
     }
 

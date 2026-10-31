@@ -168,6 +168,18 @@
         <translation>አትም</translation>
     </message>
     <message>
+        <source>Editing</source>
+        <translation>በማርትዕ ላይ</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>ተጠናቋል</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>ዝጋ</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>ረቂቁን ጣል</translation>
     </message>

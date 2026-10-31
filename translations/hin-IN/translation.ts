@@ -168,6 +168,18 @@
         <translation>प्रकाशित करें</translation>
     </message>
     <message>
+        <source>Editing</source>
+        <translation>संपादन जारी</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>हो गया</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>बंद करें</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>ड्राफ़्ट छोड़ें</translation>
     </message>

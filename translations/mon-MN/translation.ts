@@ -168,6 +168,18 @@
         <translation>Нийтлэх</translation>
     </message>
     <message>
+        <source>Editing</source>
+        <translation>Засварлаж байна</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Болсон</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>Хаах</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>Ноорог устгах</translation>
     </message>

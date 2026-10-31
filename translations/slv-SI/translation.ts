@@ -168,6 +168,18 @@
         <translation>Objavi</translation>
     </message>
     <message>
+        <source>Editing</source>
+        <translation>Urejanje</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Končano</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>Zapri</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>Zavrzi osnutek</translation>
     </message>

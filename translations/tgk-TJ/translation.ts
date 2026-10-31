@@ -168,6 +168,18 @@
         <translation>Нашр кардан</translation>
     </message>
     <message>
+        <source>Editing</source>
+        <translation>Таҳрир</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Тайёр</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>Пӯшидан</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>Партофтани сиёҳнавис</translation>
     </message>

@@ -168,6 +168,18 @@
         <translation>Nashr qilish</translation>
     </message>
     <message>
+        <source>Editing</source>
+        <translation>Tahrirlanmoqda</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Tayyor</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>Yopish</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>Qoralamani bekor qilish</translation>
     </message>

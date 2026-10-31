@@ -168,6 +168,18 @@
         <translation>Publikigi</translation>
     </message>
     <message>
+        <source>Editing</source>
+        <translation>Redaktado</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Farite</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>Fermi</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>Forĵeti malneton</translation>
     </message>

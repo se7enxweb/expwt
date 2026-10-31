@@ -168,6 +168,18 @@
         <translation>Бастыру</translation>
     </message>
     <message>
+        <source>Editing</source>
+        <translation>Үзгәртелә</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Әзер</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>Ябу</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>Караламадан баш тарту</translation>
     </message>

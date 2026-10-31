@@ -168,6 +168,18 @@
         <translation>Zverejniť</translation>
     </message>
     <message>
+        <source>Editing</source>
+        <translation>Úpravy</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Hotovo</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>Zavrieť</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>Zahodiť koncept</translation>
     </message>

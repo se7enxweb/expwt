@@ -168,6 +168,18 @@
         <translation>Hoʻopuka</translation>
     </message>
     <message>
+        <source>Editing</source>
+        <translation>Ke hoʻoponopono nei</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Pau</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>Pani</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>Kāpae i ke kāmua</translation>
     </message>

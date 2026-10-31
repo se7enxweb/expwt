@@ -168,6 +168,18 @@
         <translation>Publizéieren</translation>
     </message>
     <message>
+        <source>Editing</source>
+        <translation>Gëtt beaarbecht</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Fäerdeg</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>Zoumaachen</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>Entworf verwerfen</translation>
     </message>

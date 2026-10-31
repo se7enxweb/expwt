@@ -168,6 +168,18 @@
         <translation>Rakiy</translation>
     </message>
     <message>
+        <source>Editing</source>
+        <translation>Hukchachkan</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Tukusqa</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>Wichqay</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>Qillqa kaqta wikch'uy</translation>
     </message>

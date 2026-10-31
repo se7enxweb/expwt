@@ -168,6 +168,18 @@
         <translation>ಪ್ರಕಟಿಸು</translation>
     </message>
     <message>
+        <source>Editing</source>
+        <translation>ಸಂಪಾದಿಸಲಾಗುತ್ತಿದೆ</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>ಮುಗಿದಿದೆ</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>ಮುಚ್ಚಿ</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>ಕರಡನ್ನು ತ್ಯಜಿಸು</translation>
     </message>

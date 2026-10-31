@@ -168,6 +168,18 @@
         <translation>Paskelbti</translation>
     </message>
     <message>
+        <source>Editing</source>
+        <translation>Redaguojama</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Atlikta</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>Uždaryti</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>Atmesti juodraštį</translation>
     </message>

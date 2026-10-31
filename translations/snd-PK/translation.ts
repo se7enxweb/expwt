@@ -168,6 +168,18 @@
         <translation>شايع ڪريو</translation>
     </message>
     <message>
+        <source>Editing</source>
+        <translation>ترميم جاري</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>ٿي ويو</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>بند ڪريو</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>مسودو رد ڪريو</translation>
     </message>

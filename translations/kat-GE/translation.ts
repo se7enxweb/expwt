@@ -168,6 +168,18 @@
         <translation>გამოქვეყნება</translation>
     </message>
     <message>
+        <source>Editing</source>
+        <translation>რედაქტირება</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>მზადაა</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>დახურვა</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>მონახაზის გაუქმება</translation>
     </message>

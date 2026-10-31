@@ -168,6 +168,18 @@
         <translation>प्रकाशीत करात</translation>
     </message>
     <message>
+        <source>Editing</source>
+        <translation>संपादन चालू</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>जालें</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>बंद करात</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>मसुदो काडून उडयात</translation>
     </message>

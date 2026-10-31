@@ -168,6 +168,18 @@
         <translation>ኣሕትም</translation>
     </message>
     <message>
+        <source>Editing</source>
+        <translation>ይእረም ኣሎ</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>ተወዲኡ</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>ዕጸው</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>ንድፊ ደርብ</translation>
     </message>

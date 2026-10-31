@@ -168,6 +168,18 @@
         <translation>Biweşîne</translation>
     </message>
     <message>
+        <source>Editing</source>
+        <translation>Tê guherandin</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Qediya</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>Bigire</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>Reşnivîsê bavêje</translation>
     </message>

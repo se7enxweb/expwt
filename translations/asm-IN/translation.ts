@@ -168,6 +168,18 @@
         <translation>প্ৰকাশ কৰক</translation>
     </message>
     <message>
+        <source>Editing</source>
+        <translation>সম্পাদনা চলি আছে</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>হ'ল</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>বন্ধ কৰক</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>খচৰা বাতিল কৰক</translation>
     </message>

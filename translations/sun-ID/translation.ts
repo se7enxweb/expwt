@@ -168,6 +168,18 @@
         <translation>Terbitkeun</translation>
     </message>
     <message>
+        <source>Editing</source>
+        <translation>Keur diédit</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Réngsé</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>Tutup</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>Piceun draf</translation>
     </message>

@@ -168,6 +168,18 @@
         <translation>Ippubblika</translation>
     </message>
     <message>
+        <source>Editing</source>
+        <translation>Qed teditja</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Lest</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>Agħlaq</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>Armi l-abbozz</translation>
     </message>

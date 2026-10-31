@@ -168,6 +168,18 @@
         <translation>Publicare</translation>
     </message>
     <message>
+        <source>Editing</source>
+        <translation>Mutatur</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Factum</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>Claude</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>Adumbrationem abicere</translation>
     </message>

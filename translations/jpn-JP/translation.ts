@@ -168,6 +168,18 @@
         <translation>公開</translation>
     </message>
     <message>
+        <source>Editing</source>
+        <translation>編集中</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>完了</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>閉じる</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>下書きを破棄</translation>
     </message>

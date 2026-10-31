@@ -168,6 +168,18 @@
         <translation>Publiser</translation>
     </message>
     <message>
+        <source>Editing</source>
+        <translation>Redigerer</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Ferdig</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>Lukk</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>Forkast utkast</translation>
     </message>

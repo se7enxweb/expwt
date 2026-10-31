@@ -168,6 +168,18 @@
         <translation>प्रकाशयतु</translation>
     </message>
     <message>
+        <source>Editing</source>
+        <translation>सम्पाद्यते</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>समाप्तम्</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>पिदधातु</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>प्रारूपं त्यजतु</translation>
     </message>

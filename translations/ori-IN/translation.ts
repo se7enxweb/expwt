@@ -168,6 +168,18 @@
         <translation>ପ୍ରକାଶ କରନ୍ତୁ</translation>
     </message>
     <message>
+        <source>Editing</source>
+        <translation>ସମ୍ପାଦନା ଚାଲିଛି</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>ହୋଇଗଲା</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>ବନ୍ଦ କରନ୍ତୁ</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>ଖସଡ଼ା ବାତିଲ କରନ୍ତୁ</translation>
     </message>

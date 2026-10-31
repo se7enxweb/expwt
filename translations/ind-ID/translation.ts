@@ -168,6 +168,18 @@
         <translation>Terbitkan</translation>
     </message>
     <message>
+        <source>Editing</source>
+        <translation>Mengedit</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Selesai</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>Tutup</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>Buang draf</translation>
     </message>

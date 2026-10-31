@@ -168,6 +168,18 @@
         <translation>Жариялау</translation>
     </message>
     <message>
+        <source>Editing</source>
+        <translation>Өңделуде</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Дайын</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>Жабу</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>Жобаны жою</translation>
     </message>

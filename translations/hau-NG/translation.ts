@@ -168,6 +168,18 @@
         <translation>Wallafa</translation>
     </message>
     <message>
+        <source>Editing</source>
+        <translation>Ana gyarawa</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>An gama</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>Rufe</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>Watsar da daftari</translation>
     </message>

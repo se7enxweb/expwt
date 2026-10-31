@@ -168,6 +168,18 @@
         <translation>Publiceren</translation>
     </message>
     <message>
+        <source>Editing</source>
+        <translation>Bewerken</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Gereed</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>Sluiten</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>Concept verwerpen</translation>
     </message>

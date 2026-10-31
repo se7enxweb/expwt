@@ -168,6 +168,18 @@
         <translation>छापीं</translation>
     </message>
     <message>
+        <source>Editing</source>
+        <translation>बदलाव चालू बा</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>हो गइल</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>बंद करीं</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>ड्राफ़्ट फेंकीं</translation>
     </message>

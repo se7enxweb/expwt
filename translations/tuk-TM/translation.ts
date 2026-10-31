@@ -168,6 +168,18 @@
         <translation>Neşir et</translation>
     </message>
     <message>
+        <source>Editing</source>
+        <translation>Redaktirlenýär</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Taýýar</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>Ýap</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>Garalamany taşla</translation>
     </message>

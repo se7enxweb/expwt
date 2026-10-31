@@ -168,6 +168,18 @@
         <translation>Bimisá</translation>
     </message>
     <message>
+        <source>Editing</source>
+        <translation>Kobongola</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Esili</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>Kanga</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>Bwakisá brouillon</translation>
     </message>

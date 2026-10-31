@@ -168,6 +168,18 @@
         <translation>Fulumya</translation>
     </message>
     <message>
+        <source>Editing</source>
+        <translation>Kikyusibwa</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Kiwedde</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>Ggalawo</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>Sazaamu ddulaafuti</translation>
     </message>

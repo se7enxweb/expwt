@@ -168,6 +168,18 @@
         <translation>Siiwal</translation>
     </message>
     <message>
+        <source>Editing</source>
+        <translation>Mi ngi koy soppi</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Jeex na</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>Tëj</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>Bàyyi brouyoŋ bi</translation>
     </message>

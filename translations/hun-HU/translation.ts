@@ -168,6 +168,18 @@
         <translation>Közzététel</translation>
     </message>
     <message>
+        <source>Editing</source>
+        <translation>Szerkesztés</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Kész</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>Bezárás</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>Piszkozat elvetése</translation>
     </message>

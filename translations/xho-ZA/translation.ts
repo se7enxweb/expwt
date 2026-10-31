@@ -168,6 +168,18 @@
         <translation>Shicilela</translation>
     </message>
     <message>
+        <source>Editing</source>
+        <translation>Kuyahlelwa</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Kugqityiwe</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>Vala</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>Lahla uyilo</translation>
     </message>

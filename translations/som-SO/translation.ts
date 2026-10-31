@@ -168,6 +168,18 @@
         <translation>Daabac</translation>
     </message>
     <message>
+        <source>Editing</source>
+        <translation>Waa la tafatirayaa</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Dhammaad</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>Xir</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>Tuur qabyada</translation>
     </message>

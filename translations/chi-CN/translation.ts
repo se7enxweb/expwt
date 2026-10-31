@@ -168,6 +168,18 @@
         <translation>发布</translation>
     </message>
     <message>
+        <source>Editing</source>
+        <translation>正在编辑</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>完成</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>关闭</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>放弃草稿</translation>
     </message>

@@ -168,6 +168,18 @@
         <translation>Buritsa</translation>
     </message>
     <message>
+        <source>Editing</source>
+        <translation>Kugadzirisa</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Zvapera</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>Vhara</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>Rasa dhirafiti</translation>
     </message>

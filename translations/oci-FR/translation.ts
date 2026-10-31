@@ -168,6 +168,18 @@
         <translation>Publicar</translation>
     </message>
     <message>
+        <source>Editing</source>
+        <translation>Modificacion</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Acabat</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>Tampar</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>Abandonar lo borrolhon</translation>
     </message>

@@ -168,6 +168,18 @@
         <translation>Հրապարակել</translation>
     </message>
     <message>
+        <source>Editing</source>
+        <translation>Խմբագրում</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Պատրաստ է</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>Փակել</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>Չեղարկել սևագիրը</translation>
     </message>

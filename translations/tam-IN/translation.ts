@@ -168,6 +168,18 @@
         <translation>வெளியிடு</translation>
     </message>
     <message>
+        <source>Editing</source>
+        <translation>திருத்தப்படுகிறது</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>முடிந்தது</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>மூடு</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>வரைவை நிராகரி</translation>
     </message>

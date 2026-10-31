@@ -168,6 +168,18 @@
         <translation>خپرول</translation>
     </message>
     <message>
+        <source>Editing</source>
+        <translation>سمون روان دی</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>بشپړ</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>بندول</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>مسوده پرېږدئ</translation>
     </message>

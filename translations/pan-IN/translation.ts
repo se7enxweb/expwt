@@ -168,6 +168,18 @@
         <translation>ਪ੍ਰਕਾਸ਼ਿਤ ਕਰੋ</translation>
     </message>
     <message>
+        <source>Editing</source>
+        <translation>ਸੋਧ ਜਾਰੀ</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>ਹੋ ਗਿਆ</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>ਬੰਦ ਕਰੋ</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>ਖਰੜਾ ਰੱਦ ਕਰੋ</translation>
     </message>

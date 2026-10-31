@@ -168,6 +168,18 @@
         <translation>Terbitake</translation>
     </message>
     <message>
+        <source>Editing</source>
+        <translation>Lagi diowahi</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Rampung</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>Tutup</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>Buang draf</translation>
     </message>

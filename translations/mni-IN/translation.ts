@@ -168,6 +168,18 @@
         <translation>প্রকাশ তৌবা</translation>
     </message>
     <message>
+        <source>Editing</source>
+        <translation>এডিট তৌরি</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>লোইরে</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>থিংবিযু</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>ড্রাফ্ট হুন্থোকপা</translation>
     </message>

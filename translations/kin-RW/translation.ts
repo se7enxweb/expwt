@@ -168,6 +168,18 @@
         <translation>Gutangaza</translation>
     </message>
     <message>
+        <source>Editing</source>
+        <translation>Birahindurwa</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Byarangiye</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>Funga</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>Reka umushinga</translation>
     </message>

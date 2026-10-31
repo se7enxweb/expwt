@@ -168,6 +168,18 @@
         <translation>Dərc et</translation>
     </message>
     <message>
+        <source>Editing</source>
+        <translation>Redaktə edilir</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Hazırdır</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>Bağla</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>Qaralamadan imtina et</translation>
     </message>

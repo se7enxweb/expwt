@@ -168,6 +168,18 @@
         <translation>Publisearje</translation>
     </message>
     <message>
+        <source>Editing</source>
+        <translation>Bewurkje</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Klear</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>Slute</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>Konsept fuortsmite</translation>
     </message>

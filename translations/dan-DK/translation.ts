@@ -168,6 +168,18 @@
         <translation>Udgiv</translation>
     </message>
     <message>
+        <source>Editing</source>
+        <translation>Redigerer</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Færdig</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>Luk</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>Kassér udkast</translation>
     </message>

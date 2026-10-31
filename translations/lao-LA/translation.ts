@@ -168,6 +168,18 @@
         <translation>ເຜີຍແຜ່</translation>
     </message>
     <message>
+        <source>Editing</source>
+        <translation>ກຳລັງແກ້ໄຂ</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>ແລ້ວໆ</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>ປິດ</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>ຍົກເລີກສະບັບຮ່າງ</translation>
     </message>

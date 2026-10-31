@@ -168,6 +168,18 @@
         <translation>Wózjawiś</translation>
     </message>
     <message>
+        <source>Editing</source>
+        <translation>Wobźěłujo se</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Gótowe</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>Zacyniś</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>Nacerjenje zachyśiś</translation>
     </message>

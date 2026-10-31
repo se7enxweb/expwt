@@ -168,6 +168,18 @@
         <translation>Опубликовать</translation>
     </message>
     <message>
+        <source>Editing</source>
+        <translation>Редактирование</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Готово</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>Закрыть</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>Удалить черновик</translation>
     </message>

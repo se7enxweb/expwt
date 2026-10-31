@@ -168,6 +168,18 @@
         <translation>Birta</translation>
     </message>
     <message>
+        <source>Editing</source>
+        <translation>Breytir</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Lokið</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>Loka</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>Henda drögum</translation>
     </message>

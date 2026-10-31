@@ -168,6 +168,18 @@
         <translation>انتشار</translation>
     </message>
     <message>
+        <source>Editing</source>
+        <translation>در حال ویرایش</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>انجام شد</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>بستن</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>دور انداختن پیش‌نویس</translation>
     </message>

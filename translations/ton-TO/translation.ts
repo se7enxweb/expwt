@@ -168,6 +168,18 @@
         <translation>Pulusi</translation>
     </message>
     <message>
+        <source>Editing</source>
+        <translation>ʻOku fakatonutonu</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Kuo ʻosi</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>Tāpuni</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>Liʻaki ʻa e tohi fakataimi</translation>
     </message>

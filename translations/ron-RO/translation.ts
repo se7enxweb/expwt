@@ -168,6 +168,18 @@
         <translation>Publicați</translation>
     </message>
     <message>
+        <source>Editing</source>
+        <translation>Editare</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Gata</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>Închide</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>Renunțați la ciornă</translation>
     </message>

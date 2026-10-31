@@ -168,6 +168,18 @@
         <translation>Tẹ̀jáde</translation>
     </message>
     <message>
+        <source>Editing</source>
+        <translation>Ń ṣàtúnṣe</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Ó ti parí</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>Pa á dé</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>Pa àkọsílẹ̀ àkọ́kọ́ tì</translation>
     </message>

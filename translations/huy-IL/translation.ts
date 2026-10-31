@@ -168,6 +168,18 @@
         <translation>פרסא</translation>
     </message>
     <message>
+        <source>Editing</source>
+        <translation>מתקנא</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>שלים</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>סגור</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>שדיא דסורטא</translation>
     </message>

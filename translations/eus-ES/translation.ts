@@ -168,6 +168,18 @@
         <translation>Argitaratu</translation>
     </message>
     <message>
+        <source>Editing</source>
+        <translation>Editatzen</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Eginda</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>Itxi</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>Baztertu zirriborroa</translation>
     </message>

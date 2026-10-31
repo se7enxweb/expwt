@@ -168,6 +168,18 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <source>Editing</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation type="unfinished"></translation>
     </message>

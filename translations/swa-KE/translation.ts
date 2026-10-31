@@ -168,6 +168,18 @@
         <translation>Chapisha</translation>
     </message>
     <message>
+        <source>Editing</source>
+        <translation>Inahaririwa</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Nimemaliza</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>Funga</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>Tupa rasimu</translation>
     </message>

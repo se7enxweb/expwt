@@ -168,6 +168,18 @@
         <translation>Xuất bản</translation>
     </message>
     <message>
+        <source>Editing</source>
+        <translation>Đang sửa</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Xong</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>Đóng</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>Hủy bản nháp</translation>
     </message>

@@ -168,6 +168,18 @@
         <translation>بڵاوکردنەوە</translation>
     </message>
     <message>
+        <source>Editing</source>
+        <translation>دەستکاریکردن</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>تەواو</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>داخستن</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>فڕێدانی ڕەشنووس</translation>
     </message>

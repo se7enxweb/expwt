@@ -168,6 +168,18 @@
         <translation>Wozjewić</translation>
     </message>
     <message>
+        <source>Editing</source>
+        <translation>Wobdźěłuje so</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Hotowe</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>Začinić</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>Naćisk zaćisnyć</translation>
     </message>

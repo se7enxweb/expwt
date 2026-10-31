@@ -168,6 +168,18 @@
         <translation>प्रकाशित करू</translation>
     </message>
     <message>
+        <source>Editing</source>
+        <translation>संपादन चलि रहल अछि</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>भ' गेल</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>बंद करू</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>ड्राफ़्ट फेकि दिअ</translation>
     </message>

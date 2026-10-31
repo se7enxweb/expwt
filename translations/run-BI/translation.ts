@@ -168,6 +168,18 @@
         <translation>Sohora</translation>
     </message>
     <message>
+        <source>Editing</source>
+        <translation>Biriko birahindurwa</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Vyarangiye</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>Ugara</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>Ta intango</translation>
     </message>

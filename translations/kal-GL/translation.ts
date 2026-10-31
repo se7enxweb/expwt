@@ -168,6 +168,18 @@
         <translation>Saqqummiuguk</translation>
     </message>
     <message>
+        <source>Editing</source>
+        <translation>Aaqqissuineq</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Naammassivoq</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>Matuguk</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>Missingiut igiguk</translation>
     </message>

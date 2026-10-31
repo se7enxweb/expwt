@@ -168,6 +168,18 @@
         <translation>Yayımla</translation>
     </message>
     <message>
+        <source>Editing</source>
+        <translation>Düzenleniyor</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Bitti</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>Kapat</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>Taslağı at</translation>
     </message>

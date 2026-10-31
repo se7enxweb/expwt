@@ -168,6 +168,18 @@
         <translation>Útgev</translation>
     </message>
     <message>
+        <source>Editing</source>
+        <translation>Rættar</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Liðugt</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>Lat aftur</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>Vraka kladdu</translation>
     </message>

@@ -168,6 +168,18 @@
         <translation>ޝާއިޢުކުރޭ</translation>
     </message>
     <message>
+        <source>Editing</source>
+        <translation>ބަދަލުކުރަނީ</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>ނިމުނީ</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>ބަންދުކުރޭ</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>ޑްރާފްޓް ދޫކޮށްލާ</translation>
     </message>

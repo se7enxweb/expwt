@@ -168,6 +168,18 @@
         <translation>Publish</translation>
     </message>
     <message>
+        <source>Editing</source>
+        <translation>Editing</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Done</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>Close</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>Discard draft</translation>
     </message>

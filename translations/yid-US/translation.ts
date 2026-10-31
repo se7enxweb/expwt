@@ -168,6 +168,18 @@
         <translation>פֿאַרעפֿנטלעכן</translation>
     </message>
     <message>
+        <source>Editing</source>
+        <translation>רעדאַקטירט</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>פֿאַרטיק</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>פֿאַרמאַכן</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>אַוועקוואַרפֿן שׂרטוט</translation>
     </message>

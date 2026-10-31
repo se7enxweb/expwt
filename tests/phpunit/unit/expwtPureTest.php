@@ -335,6 +335,18 @@ class expwtPureTest extends PHPUnit\Framework\TestCase
                                 'script' => '/var/cache/public/javascript/expwt.js', 'config' => array( 'node' => 2, 'label' => 'a "quoted" <b>' ) );
     }
 
+    /** Editing on the page is its own state, never tied to the panel being open (tests/js/editstate.test.js, Node). */
+    public function testEditingOnThePageIsItsOwnState()
+    {
+        $node = trim( (string)shell_exec( 'command -v node 2>&1' ) );
+        if ( $node === '' || !is_executable( $node ) )
+            $this->markTestSkipped( 'Node is not installed' );
+        $script = dirname( __DIR__, 2 ) . '/js/editstate.test.js';
+        exec( escapeshellarg( $node ) . ' ' . escapeshellarg( $script ) . ' 2>&1', $out, $status );
+        $this->assertSame( 0, $status, implode( "\n", $out ) );
+        $this->assertStringStartsWith( 'PASS', (string)end( $out ) );
+    }
+
     /** The debug report stays out of the pages of the sidebar's frame (expwtHook::preOutput()); the outer page keeps it. */
     public function testFramePagesAreKnownByTheirAddress()
     {

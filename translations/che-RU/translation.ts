@@ -168,6 +168,18 @@
         <translation>Арахеца</translation>
     </message>
     <message>
+        <source>Editing</source>
+        <translation>Нисйеш</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Кийча ю</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>ДӀакъовла</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>Черновик дӀататта</translation>
     </message>

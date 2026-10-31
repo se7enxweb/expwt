@@ -168,6 +168,18 @@
         <translation>Publicēt</translation>
     </message>
     <message>
+        <source>Editing</source>
+        <translation>Rediģēšana</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>Gatavs</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>Aizvērt</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>Atmest melnrakstu</translation>
     </message>

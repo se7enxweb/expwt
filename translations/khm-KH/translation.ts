@@ -168,6 +168,18 @@
         <translation>បោះពុម្ពផ្សាយ</translation>
     </message>
     <message>
+        <source>Editing</source>
+        <translation>កំពុងកែសម្រួល</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>រួចរាល់</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>បិទ</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>បោះបង់សេចក្តីព្រាង</translation>
     </message>

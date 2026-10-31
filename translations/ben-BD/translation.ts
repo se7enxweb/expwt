@@ -168,6 +168,18 @@
         <translation>প্রকাশ করুন</translation>
     </message>
     <message>
+        <source>Editing</source>
+        <translation>সম্পাদনা চলছে</translation>
+    </message>
+    <message>
+        <source>Done</source>
+        <translation>সম্পন্ন</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>বন্ধ করুন</translation>
+    </message>
+    <message>
         <source>Discard draft</source>
         <translation>খসড়া বাতিল করুন</translation>
     </message>
