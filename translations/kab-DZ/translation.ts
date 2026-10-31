@@ -784,6 +784,66 @@
         <translation>Ibeddilen ur nettwasekles ara deg usebter-a</translation>
     </message>
     <message>
+        <source>There is no such item.</source>
+        <translation>Ulac aferdis am wa.</translation>
+    </message>
+    <message>
+        <source>Mark as read</source>
+        <translation>Creḍ yettwaɣra</translation>
+    </message>
+    <message>
+        <source>Open in the administration</source>
+        <translation>Ldi deg tedbelt</translation>
+    </message>
+    <message>
+        <source>Comments and mentions</source>
+        <translation>Iwenniten d yibdaren</translation>
+    </message>
+    <message>
+        <source>Mentions you</source>
+        <translation>Ibder-ik-id</translation>
+    </message>
+    <message>
+        <source>%n new</source>
+        <translation>%n imaynuten</translation>
+    </message>
+    <message>
+        <source>Your pages</source>
+        <translation>Isebtar-ik</translation>
+    </message>
+    <message>
+        <source>Approved</source>
+        <translation>Yettwaqbel</translation>
+    </message>
+    <message>
+        <source>Denied</source>
+        <translation>Yettwagi</translation>
+    </message>
+    <message>
+        <source>It is published when the publishing workflow continues.</source>
+        <translation>Ad yettwasiẓreg mi ara ikemmel ukala n umahil n usiẓreg.</translation>
+    </message>
+    <message>
+        <source>It is a draft of yours again.</source>
+        <translation>D arewway-ik daɣen.</translation>
+    </message>
+    <message>
+        <source>Scheduled tasks that failed</source>
+        <translation>Timsal yettwasɣiwsen ur nedda ara</translation>
+    </message>
+    <message>
+        <source>A page</source>
+        <translation>Asebter</translation>
+    </message>
+    <message>
+        <source>The workflow %workflow stopped with an error on %time.</source>
+        <translation>Akala n umahil %workflow yeḥbes s tuccḍa ɣef %time.</translation>
+    </message>
+    <message>
+        <source>%n new in your inbox</source>
+        <translation>%n imaynuten deg tanaka-ik n ukcam</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Tanaka n ukcam</translation>
     </message>

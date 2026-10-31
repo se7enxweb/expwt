@@ -1387,7 +1387,7 @@
     var h = ctx.h;
     var t = ctx.t;
     var total = r.total;
-    ctx.waiting(r.waiting !== undefined ? r.waiting : total);
+    ctx.waiting(r.count !== undefined ? r.count : total);
     var heading = h('h3', {});
     var empty = h('p', { class: 'wt-muted', text: t('Nothing is waiting for your approval.') });
     var list = h('ul', { class: 'wt-inbox' });
@@ -1396,7 +1396,7 @@
       heading.hidden = total === 0;
       empty.hidden = total > 0;
     }
-    root.appendChild(h('div', { class: 'wt-section' }, [heading, empty, list]));
+    if (r.collaborates !== false) { root.appendChild(h('div', { class: 'wt-section' }, [heading, empty, list])); }
     count();
     r.items.forEach(function (it) {
       var id = 'wt-inbox-' + it.id;
@@ -1409,7 +1409,7 @@
         ctx.call('inbox.decide', { itemId: it.id, decision: decision, comment: comment.value }).then(function (a) {
           ctx.say(a.message || '', 'ok');
           total = Math.max(0, total - 1);
-          ctx.waiting(a.waiting);
+          ctx.waiting(a.count !== undefined ? a.count : a.waiting);
           item.remove();
           count();
         }, function (err) {
@@ -1436,6 +1436,68 @@
         note
       ]);
       list.appendChild(item);
+    });
+    drawNotices(ctx, root, r);
+  }
+
+  /* The other notifications (F29): comments not read yet (a mention of the user marked), the user's pages decided
+     since the user last looked (publish results), the user's scheduled tasks that failed. Mark as read does what
+     opening the item in the administration does; the count on the tabs follows. */
+  function drawNotices(ctx, root, r) {
+    var h = ctx.h;
+    var t = ctx.t;
+    function section(kind, title, rows, draw) {
+      if (!rows || !rows.length) { return; }
+      var list = h('ul', { class: 'wt-inbox' });
+      var box = h('div', { class: 'wt-section', 'data-notices': kind }, [h('h3', { text: title }), list]);
+      rows.forEach(function (it) { list.appendChild(draw(it, function () {
+        var li = list.querySelector('[data-item="' + it.id + '"]');
+        if (li) { li.remove(); }
+        if (!list.children.length) { box.remove(); }
+      })); });
+      root.appendChild(box);
+    }
+    function quote(m) {
+      return m ? h('blockquote', { class: 'wt-quote' }, [h('p', { text: m.text }), h('p', { class: 'wt-muted', text: m.author + ', ' + when(m.created) })]) : null;
+    }
+    function readButton(it, gone) {
+      var b = h('button', { type: 'button', class: 'wt-btn', text: t('Mark as read'), onclick: function () {
+        b.disabled = true;
+        ctx.call('inbox.read', { itemId: it.id }).then(function (c) { ctx.waiting(c.count); gone(); },
+          function (err) { b.disabled = false; failure(ctx, err); });
+      } });
+      return b;
+    }
+    function open(it) {
+      return it.url ? h('a', { class: 'wt-btn', href: it.url, target: '_blank', rel: 'noopener', text: t('Open in the administration') }) : null;
+    }
+    section('comments', t('Comments and mentions'), r.comments, function (it, gone) {
+      return h('li', { class: 'wt-inbox-item', 'data-item': String(it.id) }, [
+        h('h4', { text: it.title }),
+        h('p', {}, [
+          it.mention ? h('span', { class: 'wt-chip is-warn', text: t('Mentions you') }) : null,
+          it.mention ? document.createTextNode(' ') : null,
+          h('span', { class: 'wt-chip', text: t('%n new').replace('%n', it.unread) })]),
+        quote(it.lastMessage),
+        h('div', { class: 'wt-row' }, [open(it), readButton(it, gone)])
+      ]);
+    });
+    section('results', t('Your pages'), r.results, function (it, gone) {
+      var ok = it.state === 'approved';
+      return h('li', { class: 'wt-inbox-item', 'data-item': String(it.id) }, [
+        h('h4', { text: it.title }),
+        h('p', {}, [h('span', { class: 'wt-chip ' + (ok ? 'is-ok' : 'is-warn'), text: ok ? t('Approved') : t('Denied') })]),
+        h('p', { text: ok ? t('It is published when the publishing workflow continues.') : t('It is a draft of yours again.') }),
+        quote(it.lastMessage),
+        h('div', { class: 'wt-row' }, [open(it), readButton(it, gone)])
+      ]);
+    });
+    section('failed', t('Scheduled tasks that failed'), r.failed, function (it) {
+      return h('li', { class: 'wt-inbox-item', 'data-item': 'p' + it.id }, [
+        h('h4', { text: it.title || t('A page') }),
+        h('p', { text: t('The workflow %workflow stopped with an error on %time.').replace('%workflow', it.workflow || '-').replace('%time', when(it.modified)) }),
+        it.edit ? h('div', { class: 'wt-row' }, [h('a', { class: 'wt-btn', href: it.edit, text: t('Full editor') })]) : null
+      ]);
     });
   }
 

@@ -784,6 +784,66 @@
         <translation>Coppite yu ñu dencul ci xët wii</translation>
     </message>
     <message>
+        <source>There is no such item.</source>
+        <translation>Amul lu mel noonu.</translation>
+    </message>
+    <message>
+        <source>Mark as read</source>
+        <translation>Màndargal ni jàng nañu ko</translation>
+    </message>
+    <message>
+        <source>Open in the administration</source>
+        <translation>Ubbi ko ci njiite li</translation>
+    </message>
+    <message>
+        <source>Comments and mentions</source>
+        <translation>Xalaat yi ak tudd yi</translation>
+    </message>
+    <message>
+        <source>Mentions you</source>
+        <translation>Tudd na la</translation>
+    </message>
+    <message>
+        <source>%n new</source>
+        <translation>%n yu bees</translation>
+    </message>
+    <message>
+        <source>Your pages</source>
+        <translation>Say xët</translation>
+    </message>
+    <message>
+        <source>Approved</source>
+        <translation>Nangu nañu ko</translation>
+    </message>
+    <message>
+        <source>Denied</source>
+        <translation>Bañ nañu ko</translation>
+    </message>
+    <message>
+        <source>It is published when the publishing workflow continues.</source>
+        <translation>Dinañu ko siiwal bu yoonu liggéeyu siiwal bi demee ba jeex.</translation>
+    </message>
+    <message>
+        <source>It is a draft of yours again.</source>
+        <translation>Def na sa brouyoŋ ba tey.</translation>
+    </message>
+    <message>
+        <source>Scheduled tasks that failed</source>
+        <translation>Liggéey yu ñu waajal te jàllul</translation>
+    </message>
+    <message>
+        <source>A page</source>
+        <translation>Benn xët</translation>
+    </message>
+    <message>
+        <source>The workflow %workflow stopped with an error on %time.</source>
+        <translation>Yoonu liggéey %workflow taxaw na ak njuumte ci %time.</translation>
+    </message>
+    <message>
+        <source>%n new in your inbox</source>
+        <translation>%n yu bees ci sa bataaxal yu dikk</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Bataaxal yu dikk</translation>
     </message>

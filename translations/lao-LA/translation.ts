@@ -784,6 +784,66 @@
         <translation>ການປ່ຽນແປງທີ່ບໍ່ໄດ້ບັນທຶກໃນໜ້ານີ້</translation>
     </message>
     <message>
+        <source>There is no such item.</source>
+        <translation>ບໍ່ມີລາຍການດັ່ງກ່າວ.</translation>
+    </message>
+    <message>
+        <source>Mark as read</source>
+        <translation>ໝາຍວ່າອ່ານແລ້ວ</translation>
+    </message>
+    <message>
+        <source>Open in the administration</source>
+        <translation>ເປີດໃນການຈັດການ</translation>
+    </message>
+    <message>
+        <source>Comments and mentions</source>
+        <translation>ຄຳເຫັນ ແລະ ການກ່າວເຖິງ</translation>
+    </message>
+    <message>
+        <source>Mentions you</source>
+        <translation>ກ່າວເຖິງທ່ານ</translation>
+    </message>
+    <message>
+        <source>%n new</source>
+        <translation>%n ໃໝ່</translation>
+    </message>
+    <message>
+        <source>Your pages</source>
+        <translation>ໜ້າຂອງທ່ານ</translation>
+    </message>
+    <message>
+        <source>Approved</source>
+        <translation>ອະນຸມັດແລ້ວ</translation>
+    </message>
+    <message>
+        <source>Denied</source>
+        <translation>ປະຕິເສດແລ້ວ</translation>
+    </message>
+    <message>
+        <source>It is published when the publishing workflow continues.</source>
+        <translation>ມັນຈະຖືກເຜີຍແຜ່ເມື່ອຂັ້ນຕອນການເຜີຍແຜ່ດຳເນີນຕໍ່.</translation>
+    </message>
+    <message>
+        <source>It is a draft of yours again.</source>
+        <translation>ມັນເປັນສະບັບຮ່າງຂອງທ່ານອີກຄັ້ງ.</translation>
+    </message>
+    <message>
+        <source>Scheduled tasks that failed</source>
+        <translation>ໜ້າວຽກທີ່ກຳນົດເວລາທີ່ລົ້ມເຫຼວ</translation>
+    </message>
+    <message>
+        <source>A page</source>
+        <translation>ໜ້າໜຶ່ງ</translation>
+    </message>
+    <message>
+        <source>The workflow %workflow stopped with an error on %time.</source>
+        <translation>ຂັ້ນຕອນການເຮັດວຽກ %workflow ຢຸດດ້ວຍຂໍ້ຜິດພາດເມື່ອ %time.</translation>
+    </message>
+    <message>
+        <source>%n new in your inbox</source>
+        <translation>%n ໃໝ່ໃນກ່ອງຂາເຂົ້າຂອງທ່ານ</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>ກ່ອງຂາເຂົ້າ</translation>
     </message>

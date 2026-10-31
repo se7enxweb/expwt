@@ -784,6 +784,66 @@
         <translation>ការផ្លាស់ប្តូរដែលមិនទាន់រក្សាទុកនៅលើទំព័រនេះ</translation>
     </message>
     <message>
+        <source>There is no such item.</source>
+        <translation>មិនមានធាតុបែបនេះទេ។</translation>
+    </message>
+    <message>
+        <source>Mark as read</source>
+        <translation>សម្គាល់ថាបានអាន</translation>
+    </message>
+    <message>
+        <source>Open in the administration</source>
+        <translation>បើកក្នុងការគ្រប់គ្រង</translation>
+    </message>
+    <message>
+        <source>Comments and mentions</source>
+        <translation>មតិ និងការលើកឡើង</translation>
+    </message>
+    <message>
+        <source>Mentions you</source>
+        <translation>លើកឡើងអំពីអ្នក</translation>
+    </message>
+    <message>
+        <source>%n new</source>
+        <translation>%n ថ្មី</translation>
+    </message>
+    <message>
+        <source>Your pages</source>
+        <translation>ទំព័ររបស់អ្នក</translation>
+    </message>
+    <message>
+        <source>Approved</source>
+        <translation>បានអនុម័ត</translation>
+    </message>
+    <message>
+        <source>Denied</source>
+        <translation>បានបដិសេធ</translation>
+    </message>
+    <message>
+        <source>It is published when the publishing workflow continues.</source>
+        <translation>វានឹងត្រូវបោះពុម្ពផ្សាយនៅពេលលំហូរការងារបោះពុម្ពផ្សាយបន្ត។</translation>
+    </message>
+    <message>
+        <source>It is a draft of yours again.</source>
+        <translation>វាជាសេចក្តីព្រាងរបស់អ្នកម្តងទៀត។</translation>
+    </message>
+    <message>
+        <source>Scheduled tasks that failed</source>
+        <translation>កិច្ចការដែលបានកំណត់ពេលដែលបរាជ័យ</translation>
+    </message>
+    <message>
+        <source>A page</source>
+        <translation>ទំព័រមួយ</translation>
+    </message>
+    <message>
+        <source>The workflow %workflow stopped with an error on %time.</source>
+        <translation>លំហូរការងារ %workflow បានឈប់ដោយកំហុសនៅ %time។</translation>
+    </message>
+    <message>
+        <source>%n new in your inbox</source>
+        <translation>%n ថ្មីក្នុងប្រអប់ទទួលរបស់អ្នក</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>ប្រអប់ទទួល</translation>
     </message>

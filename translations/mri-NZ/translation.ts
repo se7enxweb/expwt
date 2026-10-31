@@ -784,6 +784,66 @@
         <translation>Ngā panonitanga kāore anō kia tiakina i tēnei whārangi</translation>
     </message>
     <message>
+        <source>There is no such item.</source>
+        <translation>Kāore he tūemi pērā.</translation>
+    </message>
+    <message>
+        <source>Mark as read</source>
+        <translation>Tohua kua pānuitia</translation>
+    </message>
+    <message>
+        <source>Open in the administration</source>
+        <translation>Whakatuwhera i te whakahaere</translation>
+    </message>
+    <message>
+        <source>Comments and mentions</source>
+        <translation>Ngā kōrero me ngā whakahua</translation>
+    </message>
+    <message>
+        <source>Mentions you</source>
+        <translation>Ka whakahua i a koe</translation>
+    </message>
+    <message>
+        <source>%n new</source>
+        <translation>%n hou</translation>
+    </message>
+    <message>
+        <source>Your pages</source>
+        <translation>Ō whārangi</translation>
+    </message>
+    <message>
+        <source>Approved</source>
+        <translation>Kua whakaaetia</translation>
+    </message>
+    <message>
+        <source>Denied</source>
+        <translation>Kua whakakāhoretia</translation>
+    </message>
+    <message>
+        <source>It is published when the publishing workflow continues.</source>
+        <translation>Ka whakaputaina ina haere tonu te rerenga mahi whakaputa.</translation>
+    </message>
+    <message>
+        <source>It is a draft of yours again.</source>
+        <translation>He tauira nāu anō tēnei.</translation>
+    </message>
+    <message>
+        <source>Scheduled tasks that failed</source>
+        <translation>Ngā mahi kua whakaritea i rahua</translation>
+    </message>
+    <message>
+        <source>A page</source>
+        <translation>He whārangi</translation>
+    </message>
+    <message>
+        <source>The workflow %workflow stopped with an error on %time.</source>
+        <translation>I mutu te rerenga mahi %workflow me tētahi hapa i te %time.</translation>
+    </message>
+    <message>
+        <source>%n new in your inbox</source>
+        <translation>%n hou i tō pouaka whakauru</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Pouaka whakauru</translation>
     </message>

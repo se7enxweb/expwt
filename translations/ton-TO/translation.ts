@@ -784,6 +784,66 @@
         <translation>Ngaahi liliu naʻe ʻikai tauhi ʻi he peesi ni</translation>
     </message>
     <message>
+        <source>There is no such item.</source>
+        <translation>ʻOku ʻikai ha meʻa pehē.</translation>
+    </message>
+    <message>
+        <source>Mark as read</source>
+        <translation>Fakaʻilongaʻi kuo lau</translation>
+    </message>
+    <message>
+        <source>Open in the administration</source>
+        <translation>Fakaava ʻi he puleʻanga</translation>
+    </message>
+    <message>
+        <source>Comments and mentions</source>
+        <translation>Ngaahi fakamatala mo e lave</translation>
+    </message>
+    <message>
+        <source>Mentions you</source>
+        <translation>ʻOku lave kiate koe</translation>
+    </message>
+    <message>
+        <source>%n new</source>
+        <translation>%n foʻou</translation>
+    </message>
+    <message>
+        <source>Your pages</source>
+        <translation>Hoʻo ngaahi peesi</translation>
+    </message>
+    <message>
+        <source>Approved</source>
+        <translation>Kuo fakangofua</translation>
+    </message>
+    <message>
+        <source>Denied</source>
+        <translation>Kuo taʻofi</translation>
+    </message>
+    <message>
+        <source>It is published when the publishing workflow continues.</source>
+        <translation>ʻE pulusi ia ʻo ka hoko atu ʻa e founga ngāue pulusi.</translation>
+    </message>
+    <message>
+        <source>It is a draft of yours again.</source>
+        <translation>Ko hoʻo tohi fakataimi ia ʻo toe.</translation>
+    </message>
+    <message>
+        <source>Scheduled tasks that failed</source>
+        <translation>Ngaahi ngāue naʻe fokotuʻutuʻu naʻe ʻikai lavameʻa</translation>
+    </message>
+    <message>
+        <source>A page</source>
+        <translation>Ko ha peesi</translation>
+    </message>
+    <message>
+        <source>The workflow %workflow stopped with an error on %time.</source>
+        <translation>Naʻe tuʻu ʻa e founga ngāue %workflow ʻi ha fehālaaki ʻi he %time.</translation>
+    </message>
+    <message>
+        <source>%n new in your inbox</source>
+        <translation>%n foʻou ʻi hoʻo puha tohi hū mai</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Puha tohi hū mai</translation>
     </message>

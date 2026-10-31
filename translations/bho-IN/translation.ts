@@ -784,6 +784,66 @@
         <translation>एह पन्ना पर बिना सहेजल बदलाव</translation>
     </message>
     <message>
+        <source>There is no such item.</source>
+        <translation>अइसन कवनो आइटम नइखे।</translation>
+    </message>
+    <message>
+        <source>Mark as read</source>
+        <translation>पढ़ल गइल चिह्नित करीं</translation>
+    </message>
+    <message>
+        <source>Open in the administration</source>
+        <translation>प्रशासन में खोलीं</translation>
+    </message>
+    <message>
+        <source>Comments and mentions</source>
+        <translation>टिप्पणी आ जिक्र</translation>
+    </message>
+    <message>
+        <source>Mentions you</source>
+        <translation>रउरा के जिक्र करेला</translation>
+    </message>
+    <message>
+        <source>%n new</source>
+        <translation>%n नया</translation>
+    </message>
+    <message>
+        <source>Your pages</source>
+        <translation>रउरा पन्ना</translation>
+    </message>
+    <message>
+        <source>Approved</source>
+        <translation>मंजूर</translation>
+    </message>
+    <message>
+        <source>Denied</source>
+        <translation>नामंजूर</translation>
+    </message>
+    <message>
+        <source>It is published when the publishing workflow continues.</source>
+        <translation>छपाई वर्कफ़्लो आगे बढ़ी त ई छप जाई।</translation>
+    </message>
+    <message>
+        <source>It is a draft of yours again.</source>
+        <translation>ई फेर से रउरा ड्राफ़्ट बा।</translation>
+    </message>
+    <message>
+        <source>Scheduled tasks that failed</source>
+        <translation>फेल भइल तय काम</translation>
+    </message>
+    <message>
+        <source>A page</source>
+        <translation>एगो पन्ना</translation>
+    </message>
+    <message>
+        <source>The workflow %workflow stopped with an error on %time.</source>
+        <translation>वर्कफ़्लो %workflow %time पर गलती से रुक गइल।</translation>
+    </message>
+    <message>
+        <source>%n new in your inbox</source>
+        <translation>रउरा इनबॉक्स में %n नया</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>इनबॉक्स</translation>
     </message>

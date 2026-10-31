@@ -784,6 +784,66 @@
         <translation>Changements minnu ma mara nin ɲɛ in kan</translation>
     </message>
     <message>
+        <source>There is no such item.</source>
+        <translation>Fɛn nin ɲɔgɔn tɛ yen.</translation>
+    </message>
+    <message>
+        <source>Mark as read</source>
+        <translation>A sɛbɛn ko a kalanna</translation>
+    </message>
+    <message>
+        <source>Open in the administration</source>
+        <translation>A da ɲɛmɔgɔya la</translation>
+    </message>
+    <message>
+        <source>Comments and mentions</source>
+        <translation>Hakilinaw ni tɔgɔ fɔlenw</translation>
+    </message>
+    <message>
+        <source>Mentions you</source>
+        <translation>I tɔgɔ fɔra</translation>
+    </message>
+    <message>
+        <source>%n new</source>
+        <translation>%n kura</translation>
+    </message>
+    <message>
+        <source>Your pages</source>
+        <translation>I ka ɲɛw</translation>
+    </message>
+    <message>
+        <source>Approved</source>
+        <translation>Sɔnna a ma</translation>
+    </message>
+    <message>
+        <source>Denied</source>
+        <translation>Banna a ma</translation>
+    </message>
+    <message>
+        <source>It is published when the publishing workflow continues.</source>
+        <translation>A bɛna bila kɛnɛ kan ni bilali baarasira tora a la.</translation>
+    </message>
+    <message>
+        <source>It is a draft of yours again.</source>
+        <translation>A kɛra i ka bruyɔn ye tugun.</translation>
+    </message>
+    <message>
+        <source>Scheduled tasks that failed</source>
+        <translation>Baara labɛnnenw minnu ma ɲɛ</translation>
+    </message>
+    <message>
+        <source>A page</source>
+        <translation>Ɲɛ dɔ</translation>
+    </message>
+    <message>
+        <source>The workflow %workflow stopped with an error on %time.</source>
+        <translation>Baarasira %workflow jɔra fili dɔ la %time.</translation>
+    </message>
+    <message>
+        <source>%n new in your inbox</source>
+        <translation>%n kura i ka bataki donnenw na</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Bataki donnenw</translation>
     </message>

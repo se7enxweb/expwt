@@ -784,6 +784,66 @@
         <translation>આ પેજ પર ન સાચવેલા ફેરફારો</translation>
     </message>
     <message>
+        <source>There is no such item.</source>
+        <translation>આવી કોઈ આઇટમ નથી.</translation>
+    </message>
+    <message>
+        <source>Mark as read</source>
+        <translation>વાંચેલું તરીકે ચિહ્નિત કરો</translation>
+    </message>
+    <message>
+        <source>Open in the administration</source>
+        <translation>વહીવટમાં ખોલો</translation>
+    </message>
+    <message>
+        <source>Comments and mentions</source>
+        <translation>ટિપ્પણીઓ અને ઉલ્લેખો</translation>
+    </message>
+    <message>
+        <source>Mentions you</source>
+        <translation>તમારો ઉલ્લેખ કરે છે</translation>
+    </message>
+    <message>
+        <source>%n new</source>
+        <translation>%n નવા</translation>
+    </message>
+    <message>
+        <source>Your pages</source>
+        <translation>તમારા પેજ</translation>
+    </message>
+    <message>
+        <source>Approved</source>
+        <translation>મંજૂર</translation>
+    </message>
+    <message>
+        <source>Denied</source>
+        <translation>નામંજૂર</translation>
+    </message>
+    <message>
+        <source>It is published when the publishing workflow continues.</source>
+        <translation>પ્રકાશનનો વર્કફ્લો આગળ વધશે ત્યારે તે પ્રકાશિત થશે.</translation>
+    </message>
+    <message>
+        <source>It is a draft of yours again.</source>
+        <translation>તે ફરી તમારો ડ્રાફ્ટ છે.</translation>
+    </message>
+    <message>
+        <source>Scheduled tasks that failed</source>
+        <translation>નિષ્ફળ થયેલાં નિર્ધારિત કાર્યો</translation>
+    </message>
+    <message>
+        <source>A page</source>
+        <translation>એક પેજ</translation>
+    </message>
+    <message>
+        <source>The workflow %workflow stopped with an error on %time.</source>
+        <translation>વર્કફ્લો %workflow %time એ ભૂલ સાથે અટકી ગયો.</translation>
+    </message>
+    <message>
+        <source>%n new in your inbox</source>
+        <translation>તમારા ઇનબોક્સમાં %n નવા</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>ઇનબોક્સ</translation>
     </message>

@@ -784,6 +784,66 @@
         <translation>تغييرات غير محفوظة في هذه الصفحة</translation>
     </message>
     <message>
+        <source>There is no such item.</source>
+        <translation>لا يوجد عنصر كهذا.</translation>
+    </message>
+    <message>
+        <source>Mark as read</source>
+        <translation>تعليم كمقروء</translation>
+    </message>
+    <message>
+        <source>Open in the administration</source>
+        <translation>فتح في الإدارة</translation>
+    </message>
+    <message>
+        <source>Comments and mentions</source>
+        <translation>التعليقات والإشارات</translation>
+    </message>
+    <message>
+        <source>Mentions you</source>
+        <translation>يشير إليك</translation>
+    </message>
+    <message>
+        <source>%n new</source>
+        <translation>%n جديد</translation>
+    </message>
+    <message>
+        <source>Your pages</source>
+        <translation>صفحاتك</translation>
+    </message>
+    <message>
+        <source>Approved</source>
+        <translation>تمت الموافقة</translation>
+    </message>
+    <message>
+        <source>Denied</source>
+        <translation>مرفوض</translation>
+    </message>
+    <message>
+        <source>It is published when the publishing workflow continues.</source>
+        <translation>ستُنشر عندما يستمر سير عمل النشر.</translation>
+    </message>
+    <message>
+        <source>It is a draft of yours again.</source>
+        <translation>أصبحت مسودة لك مرة أخرى.</translation>
+    </message>
+    <message>
+        <source>Scheduled tasks that failed</source>
+        <translation>مهام مجدولة فشلت</translation>
+    </message>
+    <message>
+        <source>A page</source>
+        <translation>صفحة</translation>
+    </message>
+    <message>
+        <source>The workflow %workflow stopped with an error on %time.</source>
+        <translation>توقف سير العمل %workflow بخطأ في %time.</translation>
+    </message>
+    <message>
+        <source>%n new in your inbox</source>
+        <translation>%n جديد في الوارد</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>الوارد</translation>
     </message>

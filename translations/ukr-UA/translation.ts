@@ -784,6 +784,66 @@
         <translation>Незбережені зміни на цій сторінці</translation>
     </message>
     <message>
+        <source>There is no such item.</source>
+        <translation>Такого елемента немає.</translation>
+    </message>
+    <message>
+        <source>Mark as read</source>
+        <translation>Позначити як прочитане</translation>
+    </message>
+    <message>
+        <source>Open in the administration</source>
+        <translation>Відкрити в адмініструванні</translation>
+    </message>
+    <message>
+        <source>Comments and mentions</source>
+        <translation>Коментарі та згадки</translation>
+    </message>
+    <message>
+        <source>Mentions you</source>
+        <translation>Згадує вас</translation>
+    </message>
+    <message>
+        <source>%n new</source>
+        <translation>%n нових</translation>
+    </message>
+    <message>
+        <source>Your pages</source>
+        <translation>Ваші сторінки</translation>
+    </message>
+    <message>
+        <source>Approved</source>
+        <translation>Схвалено</translation>
+    </message>
+    <message>
+        <source>Denied</source>
+        <translation>Відхилено</translation>
+    </message>
+    <message>
+        <source>It is published when the publishing workflow continues.</source>
+        <translation>Її буде опубліковано, коли робочий процес публікації продовжиться.</translation>
+    </message>
+    <message>
+        <source>It is a draft of yours again.</source>
+        <translation>Це знову ваша чернетка.</translation>
+    </message>
+    <message>
+        <source>Scheduled tasks that failed</source>
+        <translation>Заплановані завдання, які не виконалися</translation>
+    </message>
+    <message>
+        <source>A page</source>
+        <translation>Сторінка</translation>
+    </message>
+    <message>
+        <source>The workflow %workflow stopped with an error on %time.</source>
+        <translation>Робочий процес %workflow зупинився з помилкою %time.</translation>
+    </message>
+    <message>
+        <source>%n new in your inbox</source>
+        <translation>%n нових у вхідних</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Вхідні</translation>
     </message>

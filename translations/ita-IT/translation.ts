@@ -784,6 +784,66 @@
         <translation>Modifiche non salvate in questa pagina</translation>
     </message>
     <message>
+        <source>There is no such item.</source>
+        <translation>Questo elemento non esiste.</translation>
+    </message>
+    <message>
+        <source>Mark as read</source>
+        <translation>Segna come letto</translation>
+    </message>
+    <message>
+        <source>Open in the administration</source>
+        <translation>Apri nell'amministrazione</translation>
+    </message>
+    <message>
+        <source>Comments and mentions</source>
+        <translation>Commenti e menzioni</translation>
+    </message>
+    <message>
+        <source>Mentions you</source>
+        <translation>Ti menziona</translation>
+    </message>
+    <message>
+        <source>%n new</source>
+        <translation>%n nuovi</translation>
+    </message>
+    <message>
+        <source>Your pages</source>
+        <translation>Le tue pagine</translation>
+    </message>
+    <message>
+        <source>Approved</source>
+        <translation>Approvata</translation>
+    </message>
+    <message>
+        <source>Denied</source>
+        <translation>Rifiutata</translation>
+    </message>
+    <message>
+        <source>It is published when the publishing workflow continues.</source>
+        <translation>Sarà pubblicata quando il flusso di lavoro di pubblicazione proseguirà.</translation>
+    </message>
+    <message>
+        <source>It is a draft of yours again.</source>
+        <translation>È di nuovo una tua bozza.</translation>
+    </message>
+    <message>
+        <source>Scheduled tasks that failed</source>
+        <translation>Attività pianificate non riuscite</translation>
+    </message>
+    <message>
+        <source>A page</source>
+        <translation>Una pagina</translation>
+    </message>
+    <message>
+        <source>The workflow %workflow stopped with an error on %time.</source>
+        <translation>Il flusso di lavoro %workflow si è fermato con un errore il %time.</translation>
+    </message>
+    <message>
+        <source>%n new in your inbox</source>
+        <translation>%n nuovi nella tua posta in arrivo</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Posta in arrivo</translation>
     </message>

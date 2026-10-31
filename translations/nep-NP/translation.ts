@@ -784,6 +784,66 @@
         <translation>यो पृष्ठमा सुरक्षित नगरिएका परिवर्तनहरू</translation>
     </message>
     <message>
+        <source>There is no such item.</source>
+        <translation>यस्तो कुनै वस्तु छैन।</translation>
+    </message>
+    <message>
+        <source>Mark as read</source>
+        <translation>पढिएको भनी चिन्ह लगाउनुहोस्</translation>
+    </message>
+    <message>
+        <source>Open in the administration</source>
+        <translation>प्रशासनमा खोल्नुहोस्</translation>
+    </message>
+    <message>
+        <source>Comments and mentions</source>
+        <translation>टिप्पणी र उल्लेख</translation>
+    </message>
+    <message>
+        <source>Mentions you</source>
+        <translation>तपाईंलाई उल्लेख गर्छ</translation>
+    </message>
+    <message>
+        <source>%n new</source>
+        <translation>%n नयाँ</translation>
+    </message>
+    <message>
+        <source>Your pages</source>
+        <translation>तपाईंका पृष्ठहरू</translation>
+    </message>
+    <message>
+        <source>Approved</source>
+        <translation>स्वीकृत</translation>
+    </message>
+    <message>
+        <source>Denied</source>
+        <translation>अस्वीकृत</translation>
+    </message>
+    <message>
+        <source>It is published when the publishing workflow continues.</source>
+        <translation>प्रकाशनको कार्यप्रवाह अगाडि बढेपछि यो प्रकाशित हुन्छ।</translation>
+    </message>
+    <message>
+        <source>It is a draft of yours again.</source>
+        <translation>यो फेरि तपाईंको मस्यौदा हो।</translation>
+    </message>
+    <message>
+        <source>Scheduled tasks that failed</source>
+        <translation>असफल भएका तालिकाबद्ध कार्यहरू</translation>
+    </message>
+    <message>
+        <source>A page</source>
+        <translation>एउटा पृष्ठ</translation>
+    </message>
+    <message>
+        <source>The workflow %workflow stopped with an error on %time.</source>
+        <translation>कार्यप्रवाह %workflow %time मा त्रुटिसहित रोकियो।</translation>
+    </message>
+    <message>
+        <source>%n new in your inbox</source>
+        <translation>तपाईंको इनबक्समा %n नयाँ</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>इनबक्स</translation>
     </message>

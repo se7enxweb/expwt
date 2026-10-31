@@ -784,6 +784,66 @@
         <translation>มีการเปลี่ยนแปลงที่ยังไม่ได้บันทึกในหน้านี้</translation>
     </message>
     <message>
+        <source>There is no such item.</source>
+        <translation>ไม่มีรายการนี้</translation>
+    </message>
+    <message>
+        <source>Mark as read</source>
+        <translation>ทำเครื่องหมายว่าอ่านแล้ว</translation>
+    </message>
+    <message>
+        <source>Open in the administration</source>
+        <translation>เปิดในส่วนผู้ดูแล</translation>
+    </message>
+    <message>
+        <source>Comments and mentions</source>
+        <translation>ความคิดเห็นและการกล่าวถึง</translation>
+    </message>
+    <message>
+        <source>Mentions you</source>
+        <translation>กล่าวถึงคุณ</translation>
+    </message>
+    <message>
+        <source>%n new</source>
+        <translation>ใหม่ %n</translation>
+    </message>
+    <message>
+        <source>Your pages</source>
+        <translation>หน้าของคุณ</translation>
+    </message>
+    <message>
+        <source>Approved</source>
+        <translation>อนุมัติแล้ว</translation>
+    </message>
+    <message>
+        <source>Denied</source>
+        <translation>ปฏิเสธแล้ว</translation>
+    </message>
+    <message>
+        <source>It is published when the publishing workflow continues.</source>
+        <translation>จะเผยแพร่เมื่อเวิร์กโฟลว์การเผยแพร่ดำเนินต่อ</translation>
+    </message>
+    <message>
+        <source>It is a draft of yours again.</source>
+        <translation>กลับมาเป็นฉบับร่างของคุณอีกครั้ง</translation>
+    </message>
+    <message>
+        <source>Scheduled tasks that failed</source>
+        <translation>งานตามกำหนดเวลาที่ล้มเหลว</translation>
+    </message>
+    <message>
+        <source>A page</source>
+        <translation>หน้าหนึ่ง</translation>
+    </message>
+    <message>
+        <source>The workflow %workflow stopped with an error on %time.</source>
+        <translation>เวิร์กโฟลว์ %workflow หยุดด้วยข้อผิดพลาดเมื่อ %time</translation>
+    </message>
+    <message>
+        <source>%n new in your inbox</source>
+        <translation>ใหม่ %n รายการในกล่องขาเข้าของคุณ</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>กล่องขาเข้า</translation>
     </message>

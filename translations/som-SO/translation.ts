@@ -784,6 +784,66 @@
         <translation>Isbeddello aan la keydin oo boggan ku jira</translation>
     </message>
     <message>
+        <source>There is no such item.</source>
+        <translation>Shay noocaas ah ma jiro.</translation>
+    </message>
+    <message>
+        <source>Mark as read</source>
+        <translation>U calaamadee in la akhriyay</translation>
+    </message>
+    <message>
+        <source>Open in the administration</source>
+        <translation>Ku fur maamulka</translation>
+    </message>
+    <message>
+        <source>Comments and mentions</source>
+        <translation>Faallooyin iyo xusid</translation>
+    </message>
+    <message>
+        <source>Mentions you</source>
+        <translation>Wuu ku xusay</translation>
+    </message>
+    <message>
+        <source>%n new</source>
+        <translation>%n cusub</translation>
+    </message>
+    <message>
+        <source>Your pages</source>
+        <translation>Boggaggaaga</translation>
+    </message>
+    <message>
+        <source>Approved</source>
+        <translation>La ansixiyay</translation>
+    </message>
+    <message>
+        <source>Denied</source>
+        <translation>La diiday</translation>
+    </message>
+    <message>
+        <source>It is published when the publishing workflow continues.</source>
+        <translation>Waa la daabici doonaa marka socod-shaqada daabacaaddu sii socoto.</translation>
+    </message>
+    <message>
+        <source>It is a draft of yours again.</source>
+        <translation>Mar kale waa qabyadaada.</translation>
+    </message>
+    <message>
+        <source>Scheduled tasks that failed</source>
+        <translation>Hawlo la qorsheeyay oo fashilmay</translation>
+    </message>
+    <message>
+        <source>A page</source>
+        <translation>Bog</translation>
+    </message>
+    <message>
+        <source>The workflow %workflow stopped with an error on %time.</source>
+        <translation>Socod-shaqada %workflow waxay ku joogsatay qalad %time.</translation>
+    </message>
+    <message>
+        <source>%n new in your inbox</source>
+        <translation>%n cusub sanduuqa fariimahaaga</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Sanduuqa fariimaha</translation>
     </message>

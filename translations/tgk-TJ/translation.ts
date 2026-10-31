@@ -784,6 +784,66 @@
         <translation>Тағйироти захиранашуда дар ин саҳифа</translation>
     </message>
     <message>
+        <source>There is no such item.</source>
+        <translation>Чунин унсур нест.</translation>
+    </message>
+    <message>
+        <source>Mark as read</source>
+        <translation>Ҳамчун хондашуда қайд кардан</translation>
+    </message>
+    <message>
+        <source>Open in the administration</source>
+        <translation>Дар идоракунӣ кушодан</translation>
+    </message>
+    <message>
+        <source>Comments and mentions</source>
+        <translation>Шарҳҳо ва зикрҳо</translation>
+    </message>
+    <message>
+        <source>Mentions you</source>
+        <translation>Шуморо зикр мекунад</translation>
+    </message>
+    <message>
+        <source>%n new</source>
+        <translation>%n нав</translation>
+    </message>
+    <message>
+        <source>Your pages</source>
+        <translation>Саҳифаҳои шумо</translation>
+    </message>
+    <message>
+        <source>Approved</source>
+        <translation>Тасдиқ шуд</translation>
+    </message>
+    <message>
+        <source>Denied</source>
+        <translation>Рад шуд</translation>
+    </message>
+    <message>
+        <source>It is published when the publishing workflow continues.</source>
+        <translation>Вақте ки ҷараёни кории нашр идома ёбад, нашр мешавад.</translation>
+    </message>
+    <message>
+        <source>It is a draft of yours again.</source>
+        <translation>Ин боз сиёҳнависи шумост.</translation>
+    </message>
+    <message>
+        <source>Scheduled tasks that failed</source>
+        <translation>Вазифаҳои банақшагирифта, ки иҷро нашуданд</translation>
+    </message>
+    <message>
+        <source>A page</source>
+        <translation>Саҳифа</translation>
+    </message>
+    <message>
+        <source>The workflow %workflow stopped with an error on %time.</source>
+        <translation>Ҷараёни корӣ %workflow дар %time бо хато қатъ шуд.</translation>
+    </message>
+    <message>
+        <source>%n new in your inbox</source>
+        <translation>%n нав дар воридшудаҳои шумо</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Воридшуда</translation>
     </message>

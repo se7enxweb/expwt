@@ -784,6 +784,66 @@
         <translation>Alterações não salvas nesta página</translation>
     </message>
     <message>
+        <source>There is no such item.</source>
+        <translation>Esse item não existe.</translation>
+    </message>
+    <message>
+        <source>Mark as read</source>
+        <translation>Marcar como lido</translation>
+    </message>
+    <message>
+        <source>Open in the administration</source>
+        <translation>Abrir na administração</translation>
+    </message>
+    <message>
+        <source>Comments and mentions</source>
+        <translation>Comentários e menções</translation>
+    </message>
+    <message>
+        <source>Mentions you</source>
+        <translation>Menciona você</translation>
+    </message>
+    <message>
+        <source>%n new</source>
+        <translation>%n novos</translation>
+    </message>
+    <message>
+        <source>Your pages</source>
+        <translation>Suas páginas</translation>
+    </message>
+    <message>
+        <source>Approved</source>
+        <translation>Aprovada</translation>
+    </message>
+    <message>
+        <source>Denied</source>
+        <translation>Recusada</translation>
+    </message>
+    <message>
+        <source>It is published when the publishing workflow continues.</source>
+        <translation>Ela será publicada quando o fluxo de trabalho de publicação continuar.</translation>
+    </message>
+    <message>
+        <source>It is a draft of yours again.</source>
+        <translation>É um rascunho seu de novo.</translation>
+    </message>
+    <message>
+        <source>Scheduled tasks that failed</source>
+        <translation>Tarefas agendadas que falharam</translation>
+    </message>
+    <message>
+        <source>A page</source>
+        <translation>Uma página</translation>
+    </message>
+    <message>
+        <source>The workflow %workflow stopped with an error on %time.</source>
+        <translation>O fluxo de trabalho %workflow parou com um erro em %time.</translation>
+    </message>
+    <message>
+        <source>%n new in your inbox</source>
+        <translation>%n novos na sua caixa de entrada</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Caixa de entrada</translation>
     </message>

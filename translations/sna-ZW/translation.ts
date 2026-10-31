@@ -784,6 +784,66 @@
         <translation>Shanduko dzisina kuchengetedzwa papeji iri</translation>
     </message>
     <message>
+        <source>There is no such item.</source>
+        <translation>Hapana chinhu chakadaro.</translation>
+    </message>
+    <message>
+        <source>Mark as read</source>
+        <translation>Maka sechakaverengwa</translation>
+    </message>
+    <message>
+        <source>Open in the administration</source>
+        <translation>Vhura mukutonga</translation>
+    </message>
+    <message>
+        <source>Comments and mentions</source>
+        <translation>Mazano nekudomwa</translation>
+    </message>
+    <message>
+        <source>Mentions you</source>
+        <translation>Inokudoma</translation>
+    </message>
+    <message>
+        <source>%n new</source>
+        <translation>%n zvitsva</translation>
+    </message>
+    <message>
+        <source>Your pages</source>
+        <translation>Mapeji ako</translation>
+    </message>
+    <message>
+        <source>Approved</source>
+        <translation>Zvabvumirwa</translation>
+    </message>
+    <message>
+        <source>Denied</source>
+        <translation>Zvarambwa</translation>
+    </message>
+    <message>
+        <source>It is published when the publishing workflow continues.</source>
+        <translation>Ichaburitswa kana hurongwa hwebasa hwekuburitsa hwaenderera mberi.</translation>
+    </message>
+    <message>
+        <source>It is a draft of yours again.</source>
+        <translation>Yave dhirafiti rako zvakare.</translation>
+    </message>
+    <message>
+        <source>Scheduled tasks that failed</source>
+        <translation>Mabasa akarongwa akakundikana</translation>
+    </message>
+    <message>
+        <source>A page</source>
+        <translation>Peji</translation>
+    </message>
+    <message>
+        <source>The workflow %workflow stopped with an error on %time.</source>
+        <translation>Hurongwa hwebasa %workflow hwakamira nekukanganisa pa %time.</translation>
+    </message>
+    <message>
+        <source>%n new in your inbox</source>
+        <translation>%n zvitsva mubhokisi rako rinopinda</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Bhokisi rinopinda</translation>
     </message>

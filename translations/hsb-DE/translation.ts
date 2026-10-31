@@ -784,6 +784,66 @@
         <translation>Njeskładowane změny na tutej stronje</translation>
     </message>
     <message>
+        <source>There is no such item.</source>
+        <translation>Tajki zapisk njeeksistuje.</translation>
+    </message>
+    <message>
+        <source>Mark as read</source>
+        <translation>Jako přečitane markěrować</translation>
+    </message>
+    <message>
+        <source>Open in the administration</source>
+        <translation>W administraciji wočinić</translation>
+    </message>
+    <message>
+        <source>Comments and mentions</source>
+        <translation>Komentary a naspomnjenja</translation>
+    </message>
+    <message>
+        <source>Mentions you</source>
+        <translation>Naspomina was</translation>
+    </message>
+    <message>
+        <source>%n new</source>
+        <translation>%n nowych</translation>
+    </message>
+    <message>
+        <source>Your pages</source>
+        <translation>Waše strony</translation>
+    </message>
+    <message>
+        <source>Approved</source>
+        <translation>Přizwolene</translation>
+    </message>
+    <message>
+        <source>Denied</source>
+        <translation>Wotpokazane</translation>
+    </message>
+    <message>
+        <source>It is published when the publishing workflow continues.</source>
+        <translation>Wozjewi so, hdyž dźěłowy wotběh wozjewjenja pokročuje.</translation>
+    </message>
+    <message>
+        <source>It is a draft of yours again.</source>
+        <translation>To je zaso waš naćisk.</translation>
+    </message>
+    <message>
+        <source>Scheduled tasks that failed</source>
+        <translation>Planowane nadawki, kotrež njejsu so poradźili</translation>
+    </message>
+    <message>
+        <source>A page</source>
+        <translation>Strona</translation>
+    </message>
+    <message>
+        <source>The workflow %workflow stopped with an error on %time.</source>
+        <translation>Dźěłowy wotběh %workflow je so z zmylkom %time zastajił.</translation>
+    </message>
+    <message>
+        <source>%n new in your inbox</source>
+        <translation>%n nowych w dóstatych</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Dóstate</translation>
     </message>

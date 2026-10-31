@@ -784,6 +784,66 @@
         <translation>Mgbanwe a na-echekwaghị na ibe a</translation>
     </message>
     <message>
+        <source>There is no such item.</source>
+        <translation>Enweghị ihe dị otu ahụ.</translation>
+    </message>
+    <message>
+        <source>Mark as read</source>
+        <translation>Kaa akara dị ka agụrụ</translation>
+    </message>
+    <message>
+        <source>Open in the administration</source>
+        <translation>Mepee na nchịkwa</translation>
+    </message>
+    <message>
+        <source>Comments and mentions</source>
+        <translation>Nkọwa na nkpọtụ aha</translation>
+    </message>
+    <message>
+        <source>Mentions you</source>
+        <translation>Na-akpọtụ aha gị</translation>
+    </message>
+    <message>
+        <source>%n new</source>
+        <translation>%n ọhụrụ</translation>
+    </message>
+    <message>
+        <source>Your pages</source>
+        <translation>Ibe gị</translation>
+    </message>
+    <message>
+        <source>Approved</source>
+        <translation>Akwadoro</translation>
+    </message>
+    <message>
+        <source>Denied</source>
+        <translation>Ajụrụ</translation>
+    </message>
+    <message>
+        <source>It is published when the publishing workflow continues.</source>
+        <translation>A ga-ebipụta ya mgbe usoro ọrụ mbipụta gara n'ihu.</translation>
+    </message>
+    <message>
+        <source>It is a draft of yours again.</source>
+        <translation>Ọ bụ ndepụta mbụ gị ọzọ.</translation>
+    </message>
+    <message>
+        <source>Scheduled tasks that failed</source>
+        <translation>Ọrụ ahaziri ahazi dara ada</translation>
+    </message>
+    <message>
+        <source>A page</source>
+        <translation>Otu ibe</translation>
+    </message>
+    <message>
+        <source>The workflow %workflow stopped with an error on %time.</source>
+        <translation>Usoro ọrụ %workflow kwụsịrị na njehie na %time.</translation>
+    </message>
+    <message>
+        <source>%n new in your inbox</source>
+        <translation>%n ọhụrụ n'igbe ozi gị</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Igbe ozi</translation>
     </message>

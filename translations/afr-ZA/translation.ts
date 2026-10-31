@@ -784,6 +784,66 @@
         <translation>Ongestoorde veranderinge op hierdie bladsy</translation>
     </message>
     <message>
+        <source>There is no such item.</source>
+        <translation>Daar is nie so 'n item nie.</translation>
+    </message>
+    <message>
+        <source>Mark as read</source>
+        <translation>Merk as gelees</translation>
+    </message>
+    <message>
+        <source>Open in the administration</source>
+        <translation>Open in die administrasie</translation>
+    </message>
+    <message>
+        <source>Comments and mentions</source>
+        <translation>Kommentaar en vermeldings</translation>
+    </message>
+    <message>
+        <source>Mentions you</source>
+        <translation>Noem jou</translation>
+    </message>
+    <message>
+        <source>%n new</source>
+        <translation>%n nuut</translation>
+    </message>
+    <message>
+        <source>Your pages</source>
+        <translation>Jou bladsye</translation>
+    </message>
+    <message>
+        <source>Approved</source>
+        <translation>Goedgekeur</translation>
+    </message>
+    <message>
+        <source>Denied</source>
+        <translation>Geweier</translation>
+    </message>
+    <message>
+        <source>It is published when the publishing workflow continues.</source>
+        <translation>Dit word gepubliseer wanneer die publikasiewerkvloei voortgaan.</translation>
+    </message>
+    <message>
+        <source>It is a draft of yours again.</source>
+        <translation>Dit is weer 'n konsep van jou.</translation>
+    </message>
+    <message>
+        <source>Scheduled tasks that failed</source>
+        <translation>Geskeduleerde take wat misluk het</translation>
+    </message>
+    <message>
+        <source>A page</source>
+        <translation>'n Bladsy</translation>
+    </message>
+    <message>
+        <source>The workflow %workflow stopped with an error on %time.</source>
+        <translation>Die werkvloei %workflow het op %time met 'n fout gestop.</translation>
+    </message>
+    <message>
+        <source>%n new in your inbox</source>
+        <translation>%n nuut in jou inkassie</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Inkassie</translation>
     </message>

@@ -784,6 +784,66 @@
         <translation>Несохранённые изменения на этой странице</translation>
     </message>
     <message>
+        <source>There is no such item.</source>
+        <translation>Такого элемента нет.</translation>
+    </message>
+    <message>
+        <source>Mark as read</source>
+        <translation>Отметить как прочитанное</translation>
+    </message>
+    <message>
+        <source>Open in the administration</source>
+        <translation>Открыть в администрировании</translation>
+    </message>
+    <message>
+        <source>Comments and mentions</source>
+        <translation>Комментарии и упоминания</translation>
+    </message>
+    <message>
+        <source>Mentions you</source>
+        <translation>Упоминает вас</translation>
+    </message>
+    <message>
+        <source>%n new</source>
+        <translation>%n новых</translation>
+    </message>
+    <message>
+        <source>Your pages</source>
+        <translation>Ваши страницы</translation>
+    </message>
+    <message>
+        <source>Approved</source>
+        <translation>Одобрено</translation>
+    </message>
+    <message>
+        <source>Denied</source>
+        <translation>Отклонено</translation>
+    </message>
+    <message>
+        <source>It is published when the publishing workflow continues.</source>
+        <translation>Она будет опубликована, когда рабочий процесс публикации продолжится.</translation>
+    </message>
+    <message>
+        <source>It is a draft of yours again.</source>
+        <translation>Это снова ваш черновик.</translation>
+    </message>
+    <message>
+        <source>Scheduled tasks that failed</source>
+        <translation>Запланированные задачи, которые не выполнились</translation>
+    </message>
+    <message>
+        <source>A page</source>
+        <translation>Страница</translation>
+    </message>
+    <message>
+        <source>The workflow %workflow stopped with an error on %time.</source>
+        <translation>Рабочий процесс %workflow остановился с ошибкой %time.</translation>
+    </message>
+    <message>
+        <source>%n new in your inbox</source>
+        <translation>%n новых во входящих</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Входящие</translation>
     </message>

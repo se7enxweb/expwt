@@ -784,6 +784,66 @@
         <translation>ኣብዚ ገጽ ዘይተቐመጡ ለውጥታት</translation>
     </message>
     <message>
+        <source>There is no such item.</source>
+        <translation>ከምዚ ዝበለ ኣቕሓ የለን።</translation>
+    </message>
+    <message>
+        <source>Mark as read</source>
+        <translation>ከም ዝተነበ ምልክት ግበር</translation>
+    </message>
+    <message>
+        <source>Open in the administration</source>
+        <translation>ኣብ ምምሕዳር ክፈት</translation>
+    </message>
+    <message>
+        <source>Comments and mentions</source>
+        <translation>ርእይቶታትን ምጥቃሳትን</translation>
+    </message>
+    <message>
+        <source>Mentions you</source>
+        <translation>ይጠቕሰካ</translation>
+    </message>
+    <message>
+        <source>%n new</source>
+        <translation>%n ሓድሽ</translation>
+    </message>
+    <message>
+        <source>Your pages</source>
+        <translation>ገጻትካ</translation>
+    </message>
+    <message>
+        <source>Approved</source>
+        <translation>ጸዲቑ</translation>
+    </message>
+    <message>
+        <source>Denied</source>
+        <translation>ተነጺጉ</translation>
+    </message>
+    <message>
+        <source>It is published when the publishing workflow continues.</source>
+        <translation>መስርሕ ስራሕ ሕትመት ምስ ቀጸለ ክሕተም እዩ።</translation>
+    </message>
+    <message>
+        <source>It is a draft of yours again.</source>
+        <translation>እንደገና ናትካ ንድፊ እዩ።</translation>
+    </message>
+    <message>
+        <source>Scheduled tasks that failed</source>
+        <translation>ዝፈሸሉ ዝተወጠኑ ዕማማት</translation>
+    </message>
+    <message>
+        <source>A page</source>
+        <translation>ሓደ ገጽ</translation>
+    </message>
+    <message>
+        <source>The workflow %workflow stopped with an error on %time.</source>
+        <translation>መስርሕ ስራሕ %workflow ብ%time ብጌጋ ደው ኢሉ።</translation>
+    </message>
+    <message>
+        <source>%n new in your inbox</source>
+        <translation>ኣብ ዝኣተዉ ናትካ %n ሓድሽ</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>ዝኣተዉ</translation>
     </message>

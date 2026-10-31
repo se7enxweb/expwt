@@ -784,6 +784,66 @@
         <translation>ಈ ಪುಟದಲ್ಲಿ ಉಳಿಸದ ಬದಲಾವಣೆಗಳು</translation>
     </message>
     <message>
+        <source>There is no such item.</source>
+        <translation>ಅಂತಹ ಐಟಂ ಇಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>Mark as read</source>
+        <translation>ಓದಲಾಗಿದೆ ಎಂದು ಗುರುತಿಸಿ</translation>
+    </message>
+    <message>
+        <source>Open in the administration</source>
+        <translation>ಆಡಳಿತದಲ್ಲಿ ತೆರೆಯಿರಿ</translation>
+    </message>
+    <message>
+        <source>Comments and mentions</source>
+        <translation>ಕಾಮೆಂಟ್‌ಗಳು ಮತ್ತು ಉಲ್ಲೇಖಗಳು</translation>
+    </message>
+    <message>
+        <source>Mentions you</source>
+        <translation>ನಿಮ್ಮನ್ನು ಉಲ್ಲೇಖಿಸುತ್ತದೆ</translation>
+    </message>
+    <message>
+        <source>%n new</source>
+        <translation>%n ಹೊಸ</translation>
+    </message>
+    <message>
+        <source>Your pages</source>
+        <translation>ನಿಮ್ಮ ಪುಟಗಳು</translation>
+    </message>
+    <message>
+        <source>Approved</source>
+        <translation>ಅನುಮೋದಿಸಲಾಗಿದೆ</translation>
+    </message>
+    <message>
+        <source>Denied</source>
+        <translation>ನಿರಾಕರಿಸಲಾಗಿದೆ</translation>
+    </message>
+    <message>
+        <source>It is published when the publishing workflow continues.</source>
+        <translation>ಪ್ರಕಟಣೆಯ ವರ್ಕ್‌ಫ್ಲೋ ಮುಂದುವರಿದಾಗ ಇದು ಪ್ರಕಟವಾಗುತ್ತದೆ.</translation>
+    </message>
+    <message>
+        <source>It is a draft of yours again.</source>
+        <translation>ಇದು ಮತ್ತೆ ನಿಮ್ಮ ಕರಡು.</translation>
+    </message>
+    <message>
+        <source>Scheduled tasks that failed</source>
+        <translation>ವಿಫಲವಾದ ನಿಗದಿತ ಕಾರ್ಯಗಳು</translation>
+    </message>
+    <message>
+        <source>A page</source>
+        <translation>ಒಂದು ಪುಟ</translation>
+    </message>
+    <message>
+        <source>The workflow %workflow stopped with an error on %time.</source>
+        <translation>ವರ್ಕ್‌ಫ್ಲೋ %workflow %time ರಂದು ದೋಷದೊಂದಿಗೆ ನಿಂತಿತು.</translation>
+    </message>
+    <message>
+        <source>%n new in your inbox</source>
+        <translation>ನಿಮ್ಮ ಇನ್‌ಬಾಕ್ಸ್‌ನಲ್ಲಿ %n ಹೊಸ</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>ಇನ್‌ಬಾಕ್ಸ್</translation>
     </message>

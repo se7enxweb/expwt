@@ -784,6 +784,66 @@
         <translation>navvamDaq choHmey pollu'be'bogh</translation>
     </message>
     <message>
+        <source>There is no such item.</source>
+        <translation>Doch rur tu'lu'be'.</translation>
+    </message>
+    <message>
+        <source>Mark as read</source>
+        <translation>laDlu'pu' yIghItlh</translation>
+    </message>
+    <message>
+        <source>Open in the administration</source>
+        <translation>loHmeH Daq yIpoSmoH</translation>
+    </message>
+    <message>
+        <source>Comments and mentions</source>
+        <translation>bIngDaq ghItlh pong je</translation>
+    </message>
+    <message>
+        <source>Mentions you</source>
+        <translation>ponglIj ngu'</translation>
+    </message>
+    <message>
+        <source>%n new</source>
+        <translation>%n chu'</translation>
+    </message>
+    <message>
+        <source>Your pages</source>
+        <translation>nav Daghajbogh</translation>
+    </message>
+    <message>
+        <source>Approved</source>
+        <translation>QochQo'lu'pu'</translation>
+    </message>
+    <message>
+        <source>Denied</source>
+        <translation>Qochlu'pu'</translation>
+    </message>
+    <message>
+        <source>It is published when the publishing workflow continues.</source>
+        <translation>mev Qu' mIw taHlaHDI' 'anglu'.</translation>
+    </message>
+    <message>
+        <source>It is a draft of yours again.</source>
+        <translation>nablIj 'oH 'e' rItlh.</translation>
+    </message>
+    <message>
+        <source>Scheduled tasks that failed</source>
+        <translation>Qu'mey nab'e' luQapbe'bogh</translation>
+    </message>
+    <message>
+        <source>A page</source>
+        <translation>wa' nav</translation>
+    </message>
+    <message>
+        <source>The workflow %workflow stopped with an error on %time.</source>
+        <translation>%time Qagh mevpu' Qu' mIw %workflow.</translation>
+    </message>
+    <message>
+        <source>%n new in your inbox</source>
+        <translation>%n chu' QIn chu'lIjDaq</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>QIn chu'</translation>
     </message>

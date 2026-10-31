@@ -784,6 +784,66 @@
         <translation>ߡߊ߬ߝߊ߬ߟߋ߲߬ߠߌ߲ ߡߊߙߊߓߊߟߌ ߞߐߜ߳ߍ ߣߌ߲߬ ߞߊ߲߬</translation>
     </message>
     <message>
+        <source>There is no such item.</source>
+        <translation>ߝߋ߲߫ ߢߌ߲߬ ߠߋ߬ ߕߍ߫ ߦߋ߲߬.</translation>
+    </message>
+    <message>
+        <source>Mark as read</source>
+        <translation>ߊ߬ ߟߊߓߊ߲߫ ߞߏ߫ ߊ߬ ߞߊ߬ߙߊ߲߬ߠߊ߫</translation>
+    </message>
+    <message>
+        <source>Open in the administration</source>
+        <translation>ߊ߬ ߟߊߞߊ߬ ߡߊ߬ߟߊ߫ ߞߎߡߊ߲ ߘߐ߫</translation>
+    </message>
+    <message>
+        <source>Comments and mentions</source>
+        <translation>ߡߙߌߦߊ ߟߎ߬ ߣߌ߫ ߕߐ߮ ߝߐߣߍ߲ ߠߎ߬</translation>
+    </message>
+    <message>
+        <source>Mentions you</source>
+        <translation>ߌ ߕߐ߮ ߝߐߣߍ߲߫</translation>
+    </message>
+    <message>
+        <source>%n new</source>
+        <translation>%n ߞߎߘߊ</translation>
+    </message>
+    <message>
+        <source>Your pages</source>
+        <translation>ߌ ߟߊ߫ ߞߐߜ߳ߍ ߟߎ߬</translation>
+    </message>
+    <message>
+        <source>Approved</source>
+        <translation>ߊ߬ ߟߊߓߊ߲߬ߣߍ߲߫</translation>
+    </message>
+    <message>
+        <source>Denied</source>
+        <translation>ߊ߬ ߓߊ߲߫ ߠߋ߬</translation>
+    </message>
+    <message>
+        <source>It is published when the publishing workflow continues.</source>
+        <translation>ߊ߬ ߘߌ߫ ߓߌߟߊ߫ ߣߊ߬ ߓߌߟߊߟߌ ߓߊߙߊ ߛߌߟߊ ߘߏ߲߬ ߘߊ߫.</translation>
+    </message>
+    <message>
+        <source>It is a draft of yours again.</source>
+        <translation>ߊ߬ ߞߵߌ ߟߊ߫ ߓߙߎߦߐ߲ ߘߌ߫ ߕߎ߲߯.</translation>
+    </message>
+    <message>
+        <source>Scheduled tasks that failed</source>
+        <translation>ߓߊߙߊ߫ ߟߊ߬ߓߍ߲߬ߣߍ߲ ߡߍ߲ ߠߎ߬ ߡߊ߫ ߢߍ߫</translation>
+    </message>
+    <message>
+        <source>A page</source>
+        <translation>ߞߐߜ߳ߍ ߘߏ߫</translation>
+    </message>
+    <message>
+        <source>The workflow %workflow stopped with an error on %time.</source>
+        <translation>ߓߊߙߊ ߛߌߟߊ %workflow ߟߐ߬ߣߍ߲߫ ߝߎ߲߬ߞߊ߬ߓߊ߬ߙߊ߬ߟߌ ߘߐ߫ %time.</translation>
+    </message>
+    <message>
+        <source>%n new in your inbox</source>
+        <translation>%n ߞߎߘߊ ߌ ߟߊ߫ ߓߊ߬ߕߊ߫ ߘߏ߲߬ߠߌ ߘߐ߫</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>ߓߊ߬ߕߊ߫ ߘߏ߲߬ߠߌ</translation>
     </message>

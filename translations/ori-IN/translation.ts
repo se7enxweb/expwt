@@ -784,6 +784,66 @@
         <translation>ଏହି ପୃଷ୍ଠାରେ ସଞ୍ଚୟ ହୋଇନଥିବା ପରିବର୍ତ୍ତନ</translation>
     </message>
     <message>
+        <source>There is no such item.</source>
+        <translation>ଏପରି କୌଣସି ଆଇଟମ୍ ନାହିଁ।</translation>
+    </message>
+    <message>
+        <source>Mark as read</source>
+        <translation>ପଢ଼ାଯାଇଛି ଭାବେ ଚିହ୍ନିତ କରନ୍ତୁ</translation>
+    </message>
+    <message>
+        <source>Open in the administration</source>
+        <translation>ପ୍ରଶାସନରେ ଖୋଲନ୍ତୁ</translation>
+    </message>
+    <message>
+        <source>Comments and mentions</source>
+        <translation>ମନ୍ତବ୍ୟ ଓ ଉଲ୍ଲେଖ</translation>
+    </message>
+    <message>
+        <source>Mentions you</source>
+        <translation>ଆପଣଙ୍କୁ ଉଲ୍ଲେଖ କରେ</translation>
+    </message>
+    <message>
+        <source>%n new</source>
+        <translation>%n ନୂଆ</translation>
+    </message>
+    <message>
+        <source>Your pages</source>
+        <translation>ଆପଣଙ୍କ ପୃଷ୍ଠାଗୁଡ଼ିକ</translation>
+    </message>
+    <message>
+        <source>Approved</source>
+        <translation>ଅନୁମୋଦିତ</translation>
+    </message>
+    <message>
+        <source>Denied</source>
+        <translation>ପ୍ରତ୍ୟାଖ୍ୟାତ</translation>
+    </message>
+    <message>
+        <source>It is published when the publishing workflow continues.</source>
+        <translation>ପ୍ରକାଶନ କାର୍ଯ୍ୟପ୍ରବାହ ଆଗକୁ ବଢ଼ିଲେ ଏହା ପ୍ରକାଶିତ ହେବ।</translation>
+    </message>
+    <message>
+        <source>It is a draft of yours again.</source>
+        <translation>ଏହା ପୁଣି ଆପଣଙ୍କ ଖସଡ଼ା।</translation>
+    </message>
+    <message>
+        <source>Scheduled tasks that failed</source>
+        <translation>ବିଫଳ ହୋଇଥିବା ନିର୍ଦ୍ଧାରିତ କାର୍ଯ୍ୟ</translation>
+    </message>
+    <message>
+        <source>A page</source>
+        <translation>ଏକ ପୃଷ୍ଠା</translation>
+    </message>
+    <message>
+        <source>The workflow %workflow stopped with an error on %time.</source>
+        <translation>କାର୍ଯ୍ୟପ୍ରବାହ %workflow %time ରେ ଏକ ତ୍ରୁଟି ସହ ବନ୍ଦ ହେଲା।</translation>
+    </message>
+    <message>
+        <source>%n new in your inbox</source>
+        <translation>ଆପଣଙ୍କ ଇନବକ୍ସରେ %n ନୂଆ</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>ଇନବକ୍ସ</translation>
     </message>

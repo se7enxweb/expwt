@@ -784,6 +784,66 @@
         <translation>Waylitaaɗe ɗe mooftaaka e hello ngo</translation>
     </message>
     <message>
+        <source>There is no such item.</source>
+        <translation>Alaa ko nanndi e ɗum.</translation>
+    </message>
+    <message>
+        <source>Mark as read</source>
+        <translation>Maantin wonde jangaama</translation>
+    </message>
+    <message>
+        <source>Open in the administration</source>
+        <translation>Uddit e jiiloowo</translation>
+    </message>
+    <message>
+        <source>Comments and mentions</source>
+        <translation>Miijooji e innde</translation>
+    </message>
+    <message>
+        <source>Mentions you</source>
+        <translation>Ina innda maa</translation>
+    </message>
+    <message>
+        <source>%n new</source>
+        <translation>%n kesi</translation>
+    </message>
+    <message>
+        <source>Your pages</source>
+        <translation>Hellooji maa</translation>
+    </message>
+    <message>
+        <source>Approved</source>
+        <translation>Jaɓaama</translation>
+    </message>
+    <message>
+        <source>Denied</source>
+        <translation>Saliima</translation>
+    </message>
+    <message>
+        <source>It is published when the publishing workflow continues.</source>
+        <translation>Ɗum yaltinte so laawol golle yaltinal ngol jokkii.</translation>
+    </message>
+    <message>
+        <source>It is a draft of yours again.</source>
+        <translation>Ɗum ko daartol maa kadi.</translation>
+    </message>
+    <message>
+        <source>Scheduled tasks that failed</source>
+        <translation>Golle feewnitaaɗe ɗe ronkii</translation>
+    </message>
+    <message>
+        <source>A page</source>
+        <translation>Hello</translation>
+    </message>
+    <message>
+        <source>The workflow %workflow stopped with an error on %time.</source>
+        <translation>Laawol golle %workflow daraama e juumre e %time.</translation>
+    </message>
+    <message>
+        <source>%n new in your inbox</source>
+        <translation>%n kesi e naatirde maa</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Naatirde</translation>
     </message>

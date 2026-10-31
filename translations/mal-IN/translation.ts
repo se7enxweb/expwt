@@ -784,6 +784,66 @@
         <translation>ഈ പേജിൽ സംരക്ഷിക്കാത്ത മാറ്റങ്ങൾ</translation>
     </message>
     <message>
+        <source>There is no such item.</source>
+        <translation>അങ്ങനെയൊരു ഇനമില്ല.</translation>
+    </message>
+    <message>
+        <source>Mark as read</source>
+        <translation>വായിച്ചതായി അടയാളപ്പെടുത്തുക</translation>
+    </message>
+    <message>
+        <source>Open in the administration</source>
+        <translation>അഡ്മിനിസ്ട്രേഷനിൽ തുറക്കുക</translation>
+    </message>
+    <message>
+        <source>Comments and mentions</source>
+        <translation>അഭിപ്രായങ്ങളും പരാമർശങ്ങളും</translation>
+    </message>
+    <message>
+        <source>Mentions you</source>
+        <translation>നിങ്ങളെ പരാമർശിക്കുന്നു</translation>
+    </message>
+    <message>
+        <source>%n new</source>
+        <translation>%n പുതിയത്</translation>
+    </message>
+    <message>
+        <source>Your pages</source>
+        <translation>നിങ്ങളുടെ പേജുകൾ</translation>
+    </message>
+    <message>
+        <source>Approved</source>
+        <translation>അംഗീകരിച്ചു</translation>
+    </message>
+    <message>
+        <source>Denied</source>
+        <translation>നിരസിച്ചു</translation>
+    </message>
+    <message>
+        <source>It is published when the publishing workflow continues.</source>
+        <translation>പ്രസിദ്ധീകരണ വർക്ക്ഫ്ലോ തുടരുമ്പോൾ ഇത് പ്രസിദ്ധീകരിക്കും.</translation>
+    </message>
+    <message>
+        <source>It is a draft of yours again.</source>
+        <translation>ഇത് വീണ്ടും നിങ്ങളുടെ ഡ്രാഫ്റ്റാണ്.</translation>
+    </message>
+    <message>
+        <source>Scheduled tasks that failed</source>
+        <translation>പരാജയപ്പെട്ട ഷെഡ്യൂൾ ചെയ്ത ജോലികൾ</translation>
+    </message>
+    <message>
+        <source>A page</source>
+        <translation>ഒരു പേജ്</translation>
+    </message>
+    <message>
+        <source>The workflow %workflow stopped with an error on %time.</source>
+        <translation>വർക്ക്ഫ്ലോ %workflow %time-ന് ഒരു പിശകോടെ നിന്നു.</translation>
+    </message>
+    <message>
+        <source>%n new in your inbox</source>
+        <translation>നിങ്ങളുടെ ഇൻബോക്സിൽ %n പുതിയത്</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>ഇൻബോക്സ്</translation>
     </message>

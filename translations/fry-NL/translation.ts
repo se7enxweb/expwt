@@ -784,6 +784,66 @@
         <translation>Net-bewarre wizigingen op dizze side</translation>
     </message>
     <message>
+        <source>There is no such item.</source>
+        <translation>Dit item bestiet net.</translation>
+    </message>
+    <message>
+        <source>Mark as read</source>
+        <translation>As lêzen markearje</translation>
+    </message>
+    <message>
+        <source>Open in the administration</source>
+        <translation>Iepenje yn it behear</translation>
+    </message>
+    <message>
+        <source>Comments and mentions</source>
+        <translation>Reaksjes en fermeldingen</translation>
+    </message>
+    <message>
+        <source>Mentions you</source>
+        <translation>Neamt dy</translation>
+    </message>
+    <message>
+        <source>%n new</source>
+        <translation>%n nij</translation>
+    </message>
+    <message>
+        <source>Your pages</source>
+        <translation>Dyn siden</translation>
+    </message>
+    <message>
+        <source>Approved</source>
+        <translation>Goedkard</translation>
+    </message>
+    <message>
+        <source>Denied</source>
+        <translation>Ofwiisd</translation>
+    </message>
+    <message>
+        <source>It is published when the publishing workflow continues.</source>
+        <translation>Hy wurdt publisearre as de publikaasjeworkflow fierder giet.</translation>
+    </message>
+    <message>
+        <source>It is a draft of yours again.</source>
+        <translation>It is wer in konsept fan dy.</translation>
+    </message>
+    <message>
+        <source>Scheduled tasks that failed</source>
+        <translation>Plande taken dy't mislearre binne</translation>
+    </message>
+    <message>
+        <source>A page</source>
+        <translation>In side</translation>
+    </message>
+    <message>
+        <source>The workflow %workflow stopped with an error on %time.</source>
+        <translation>De workflow %workflow is op %time mei in flater stoppe.</translation>
+    </message>
+    <message>
+        <source>%n new in your inbox</source>
+        <translation>%n nij yn dyn postfak</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Postfak</translation>
     </message>

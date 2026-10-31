@@ -784,6 +784,66 @@
         <translation>ဤစာမျက်နှာတွင် မသိမ်းရသေးသော ပြောင်းလဲမှုများ</translation>
     </message>
     <message>
+        <source>There is no such item.</source>
+        <translation>ထိုအရာ မရှိပါ။</translation>
+    </message>
+    <message>
+        <source>Mark as read</source>
+        <translation>ဖတ်ပြီးအဖြစ် မှတ်ရန်</translation>
+    </message>
+    <message>
+        <source>Open in the administration</source>
+        <translation>စီမံခန့်ခွဲမှုတွင် ဖွင့်ရန်</translation>
+    </message>
+    <message>
+        <source>Comments and mentions</source>
+        <translation>မှတ်ချက်များနှင့် ဖော်ပြချက်များ</translation>
+    </message>
+    <message>
+        <source>Mentions you</source>
+        <translation>သင့်ကို ဖော်ပြထားသည်</translation>
+    </message>
+    <message>
+        <source>%n new</source>
+        <translation>အသစ် %n</translation>
+    </message>
+    <message>
+        <source>Your pages</source>
+        <translation>သင့်စာမျက်နှာများ</translation>
+    </message>
+    <message>
+        <source>Approved</source>
+        <translation>အတည်ပြုပြီး</translation>
+    </message>
+    <message>
+        <source>Denied</source>
+        <translation>ငြင်းပယ်ပြီး</translation>
+    </message>
+    <message>
+        <source>It is published when the publishing workflow continues.</source>
+        <translation>ထုတ်ဝေရေး လုပ်ငန်းစဉ် ဆက်လက်သွားသောအခါ ထုတ်ဝေပါမည်။</translation>
+    </message>
+    <message>
+        <source>It is a draft of yours again.</source>
+        <translation>၎င်းသည် သင့်မူကြမ်း ပြန်ဖြစ်သွားပါပြီ။</translation>
+    </message>
+    <message>
+        <source>Scheduled tasks that failed</source>
+        <translation>မအောင်မြင်သော အချိန်ဇယားဆွဲထားသည့် လုပ်ငန်းများ</translation>
+    </message>
+    <message>
+        <source>A page</source>
+        <translation>စာမျက်နှာတစ်ခု</translation>
+    </message>
+    <message>
+        <source>The workflow %workflow stopped with an error on %time.</source>
+        <translation>လုပ်ငန်းစဉ် %workflow သည် %time တွင် အမှားဖြင့် ရပ်သွားသည်။</translation>
+    </message>
+    <message>
+        <source>%n new in your inbox</source>
+        <translation>သင့်ဝင်စာတွင် အသစ် %n</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>ဝင်စာ</translation>
     </message>

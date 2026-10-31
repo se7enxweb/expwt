@@ -784,6 +784,66 @@
         <translation>Ndryshime të paruajtura në këtë faqe</translation>
     </message>
     <message>
+        <source>There is no such item.</source>
+        <translation>Nuk ka element të tillë.</translation>
+    </message>
+    <message>
+        <source>Mark as read</source>
+        <translation>Shëno si të lexuar</translation>
+    </message>
+    <message>
+        <source>Open in the administration</source>
+        <translation>Hape në administrim</translation>
+    </message>
+    <message>
+        <source>Comments and mentions</source>
+        <translation>Komente dhe përmendje</translation>
+    </message>
+    <message>
+        <source>Mentions you</source>
+        <translation>Ju përmend</translation>
+    </message>
+    <message>
+        <source>%n new</source>
+        <translation>%n të reja</translation>
+    </message>
+    <message>
+        <source>Your pages</source>
+        <translation>Faqet tuaja</translation>
+    </message>
+    <message>
+        <source>Approved</source>
+        <translation>Miratuar</translation>
+    </message>
+    <message>
+        <source>Denied</source>
+        <translation>Refuzuar</translation>
+    </message>
+    <message>
+        <source>It is published when the publishing workflow continues.</source>
+        <translation>Do të publikohet kur rrjedha e punës së publikimit të vazhdojë.</translation>
+    </message>
+    <message>
+        <source>It is a draft of yours again.</source>
+        <translation>Është sërish skica juaj.</translation>
+    </message>
+    <message>
+        <source>Scheduled tasks that failed</source>
+        <translation>Detyra të planifikuara që dështuan</translation>
+    </message>
+    <message>
+        <source>A page</source>
+        <translation>Një faqe</translation>
+    </message>
+    <message>
+        <source>The workflow %workflow stopped with an error on %time.</source>
+        <translation>Rrjedha e punës %workflow u ndal me gabim më %time.</translation>
+    </message>
+    <message>
+        <source>%n new in your inbox</source>
+        <translation>%n të reja në të ardhurat tuaja</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Të ardhurat</translation>
     </message>

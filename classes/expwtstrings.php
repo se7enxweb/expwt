@@ -251,6 +251,21 @@ class expwtStrings
         'Restored. It is saved to the draft.',
         'Discard',
         'Unsaved changes on this page',
+        'There is no such item.',
+        'Mark as read',
+        'Open in the administration',
+        'Comments and mentions',
+        'Mentions you',
+        '%n new',
+        'Your pages',
+        'Approved',
+        'Denied',
+        'It is published when the publishing workflow continues.',
+        'It is a draft of yours again.',
+        'Scheduled tasks that failed',
+        'A page',
+        'The workflow %workflow stopped with an error on %time.',
+        '%n new in your inbox',
     );
     /* sources:end */
 

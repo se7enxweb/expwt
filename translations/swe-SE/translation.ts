@@ -784,6 +784,66 @@
         <translation>Osparade ändringar på den här sidan</translation>
     </message>
     <message>
+        <source>There is no such item.</source>
+        <translation>Det finns inget sådant objekt.</translation>
+    </message>
+    <message>
+        <source>Mark as read</source>
+        <translation>Markera som läst</translation>
+    </message>
+    <message>
+        <source>Open in the administration</source>
+        <translation>Öppna i administrationen</translation>
+    </message>
+    <message>
+        <source>Comments and mentions</source>
+        <translation>Kommentarer och omnämnanden</translation>
+    </message>
+    <message>
+        <source>Mentions you</source>
+        <translation>Nämner dig</translation>
+    </message>
+    <message>
+        <source>%n new</source>
+        <translation>%n nya</translation>
+    </message>
+    <message>
+        <source>Your pages</source>
+        <translation>Dina sidor</translation>
+    </message>
+    <message>
+        <source>Approved</source>
+        <translation>Godkänd</translation>
+    </message>
+    <message>
+        <source>Denied</source>
+        <translation>Avslagen</translation>
+    </message>
+    <message>
+        <source>It is published when the publishing workflow continues.</source>
+        <translation>Den publiceras när publiceringsarbetsflödet fortsätter.</translation>
+    </message>
+    <message>
+        <source>It is a draft of yours again.</source>
+        <translation>Det är ditt utkast igen.</translation>
+    </message>
+    <message>
+        <source>Scheduled tasks that failed</source>
+        <translation>Schemalagda uppgifter som misslyckades</translation>
+    </message>
+    <message>
+        <source>A page</source>
+        <translation>En sida</translation>
+    </message>
+    <message>
+        <source>The workflow %workflow stopped with an error on %time.</source>
+        <translation>Arbetsflödet %workflow stoppades av ett fel %time.</translation>
+    </message>
+    <message>
+        <source>%n new in your inbox</source>
+        <translation>%n nya i din inkorg</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Inkorg</translation>
     </message>

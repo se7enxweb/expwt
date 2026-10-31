@@ -784,6 +784,66 @@
         <translation>Незахаваныя змены на гэтай старонцы</translation>
     </message>
     <message>
+        <source>There is no such item.</source>
+        <translation>Такога элемента няма.</translation>
+    </message>
+    <message>
+        <source>Mark as read</source>
+        <translation>Пазначыць як прачытанае</translation>
+    </message>
+    <message>
+        <source>Open in the administration</source>
+        <translation>Адкрыць у адміністраванні</translation>
+    </message>
+    <message>
+        <source>Comments and mentions</source>
+        <translation>Каментарыі і згадкі</translation>
+    </message>
+    <message>
+        <source>Mentions you</source>
+        <translation>Згадвае вас</translation>
+    </message>
+    <message>
+        <source>%n new</source>
+        <translation>%n новых</translation>
+    </message>
+    <message>
+        <source>Your pages</source>
+        <translation>Вашы старонкі</translation>
+    </message>
+    <message>
+        <source>Approved</source>
+        <translation>Адобрана</translation>
+    </message>
+    <message>
+        <source>Denied</source>
+        <translation>Адхілена</translation>
+    </message>
+    <message>
+        <source>It is published when the publishing workflow continues.</source>
+        <translation>Яна будзе апублікавана, калі працоўны працэс публікацыі працягнецца.</translation>
+    </message>
+    <message>
+        <source>It is a draft of yours again.</source>
+        <translation>Гэта зноў ваш чарнавік.</translation>
+    </message>
+    <message>
+        <source>Scheduled tasks that failed</source>
+        <translation>Запланаваныя задачы, якія не выканаліся</translation>
+    </message>
+    <message>
+        <source>A page</source>
+        <translation>Старонка</translation>
+    </message>
+    <message>
+        <source>The workflow %workflow stopped with an error on %time.</source>
+        <translation>Працоўны працэс %workflow спыніўся з памылкай %time.</translation>
+    </message>
+    <message>
+        <source>%n new in your inbox</source>
+        <translation>%n новых ва ўваходных</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Уваходныя</translation>
     </message>

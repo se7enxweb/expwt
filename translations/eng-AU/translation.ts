@@ -784,6 +784,66 @@
         <translation>Unsaved changes on this page</translation>
     </message>
     <message>
+        <source>There is no such item.</source>
+        <translation>There is no such item.</translation>
+    </message>
+    <message>
+        <source>Mark as read</source>
+        <translation>Mark as read</translation>
+    </message>
+    <message>
+        <source>Open in the administration</source>
+        <translation>Open in the administration</translation>
+    </message>
+    <message>
+        <source>Comments and mentions</source>
+        <translation>Comments and mentions</translation>
+    </message>
+    <message>
+        <source>Mentions you</source>
+        <translation>Mentions you</translation>
+    </message>
+    <message>
+        <source>%n new</source>
+        <translation>%n new</translation>
+    </message>
+    <message>
+        <source>Your pages</source>
+        <translation>Your pages</translation>
+    </message>
+    <message>
+        <source>Approved</source>
+        <translation>Approved</translation>
+    </message>
+    <message>
+        <source>Denied</source>
+        <translation>Denied</translation>
+    </message>
+    <message>
+        <source>It is published when the publishing workflow continues.</source>
+        <translation>It is published when the publishing workflow continues.</translation>
+    </message>
+    <message>
+        <source>It is a draft of yours again.</source>
+        <translation>It is a draft of yours again.</translation>
+    </message>
+    <message>
+        <source>Scheduled tasks that failed</source>
+        <translation>Scheduled tasks that failed</translation>
+    </message>
+    <message>
+        <source>A page</source>
+        <translation>A page</translation>
+    </message>
+    <message>
+        <source>The workflow %workflow stopped with an error on %time.</source>
+        <translation>The workflow %workflow stopped with an error on %time.</translation>
+    </message>
+    <message>
+        <source>%n new in your inbox</source>
+        <translation>%n new in your inbox</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Inbox</translation>
     </message>

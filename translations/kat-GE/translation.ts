@@ -784,6 +784,66 @@
         <translation>შეუნახავი ცვლილებები ამ გვერდზე</translation>
     </message>
     <message>
+        <source>There is no such item.</source>
+        <translation>ასეთი ელემენტი არ არსებობს.</translation>
+    </message>
+    <message>
+        <source>Mark as read</source>
+        <translation>წაკითხულად მონიშვნა</translation>
+    </message>
+    <message>
+        <source>Open in the administration</source>
+        <translation>ადმინისტრირებაში გახსნა</translation>
+    </message>
+    <message>
+        <source>Comments and mentions</source>
+        <translation>კომენტარები და მოხსენიებები</translation>
+    </message>
+    <message>
+        <source>Mentions you</source>
+        <translation>მოგიხსენიებთ</translation>
+    </message>
+    <message>
+        <source>%n new</source>
+        <translation>%n ახალი</translation>
+    </message>
+    <message>
+        <source>Your pages</source>
+        <translation>თქვენი გვერდები</translation>
+    </message>
+    <message>
+        <source>Approved</source>
+        <translation>დამტკიცებულია</translation>
+    </message>
+    <message>
+        <source>Denied</source>
+        <translation>უარყოფილია</translation>
+    </message>
+    <message>
+        <source>It is published when the publishing workflow continues.</source>
+        <translation>გამოქვეყნდება, როცა გამოქვეყნების სამუშაო პროცესი გაგრძელდება.</translation>
+    </message>
+    <message>
+        <source>It is a draft of yours again.</source>
+        <translation>ის კვლავ თქვენი მონახაზია.</translation>
+    </message>
+    <message>
+        <source>Scheduled tasks that failed</source>
+        <translation>დაგეგმილი ამოცანები, რომლებიც ვერ შესრულდა</translation>
+    </message>
+    <message>
+        <source>A page</source>
+        <translation>გვერდი</translation>
+    </message>
+    <message>
+        <source>The workflow %workflow stopped with an error on %time.</source>
+        <translation>სამუშაო პროცესი %workflow შეჩერდა შეცდომით %time-ზე.</translation>
+    </message>
+    <message>
+        <source>%n new in your inbox</source>
+        <translation>%n ახალი თქვენს შემოსულებში</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>შემოსულები</translation>
     </message>

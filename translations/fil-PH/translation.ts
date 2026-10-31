@@ -784,6 +784,66 @@
         <translation>Mga hindi na-save na pagbabago sa pahinang ito</translation>
     </message>
     <message>
+        <source>There is no such item.</source>
+        <translation>Walang ganoong item.</translation>
+    </message>
+    <message>
+        <source>Mark as read</source>
+        <translation>Markahan bilang nabasa</translation>
+    </message>
+    <message>
+        <source>Open in the administration</source>
+        <translation>Buksan sa administrasyon</translation>
+    </message>
+    <message>
+        <source>Comments and mentions</source>
+        <translation>Mga komento at pagbanggit</translation>
+    </message>
+    <message>
+        <source>Mentions you</source>
+        <translation>Binabanggit ka</translation>
+    </message>
+    <message>
+        <source>%n new</source>
+        <translation>%n bago</translation>
+    </message>
+    <message>
+        <source>Your pages</source>
+        <translation>Ang iyong mga pahina</translation>
+    </message>
+    <message>
+        <source>Approved</source>
+        <translation>Inaprubahan</translation>
+    </message>
+    <message>
+        <source>Denied</source>
+        <translation>Tinanggihan</translation>
+    </message>
+    <message>
+        <source>It is published when the publishing workflow continues.</source>
+        <translation>Ipa-publish ito kapag nagpatuloy ang workflow ng pag-publish.</translation>
+    </message>
+    <message>
+        <source>It is a draft of yours again.</source>
+        <translation>Draft mo na ulit ito.</translation>
+    </message>
+    <message>
+        <source>Scheduled tasks that failed</source>
+        <translation>Mga naka-iskedyul na gawain na pumalya</translation>
+    </message>
+    <message>
+        <source>A page</source>
+        <translation>Isang pahina</translation>
+    </message>
+    <message>
+        <source>The workflow %workflow stopped with an error on %time.</source>
+        <translation>Huminto ang workflow na %workflow dahil sa error noong %time.</translation>
+    </message>
+    <message>
+        <source>%n new in your inbox</source>
+        <translation>%n bago sa iyong inbox</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Inbox</translation>
     </message>

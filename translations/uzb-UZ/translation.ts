@@ -784,6 +784,66 @@
         <translation>Bu sahifada saqlanmagan oʻzgarishlar</translation>
     </message>
     <message>
+        <source>There is no such item.</source>
+        <translation>Bunday element yoʻq.</translation>
+    </message>
+    <message>
+        <source>Mark as read</source>
+        <translation>Oʻqilgan deb belgilash</translation>
+    </message>
+    <message>
+        <source>Open in the administration</source>
+        <translation>Boshqaruvda ochish</translation>
+    </message>
+    <message>
+        <source>Comments and mentions</source>
+        <translation>Izohlar va eslatmalar</translation>
+    </message>
+    <message>
+        <source>Mentions you</source>
+        <translation>Sizni eslatadi</translation>
+    </message>
+    <message>
+        <source>%n new</source>
+        <translation>%n yangi</translation>
+    </message>
+    <message>
+        <source>Your pages</source>
+        <translation>Sahifalaringiz</translation>
+    </message>
+    <message>
+        <source>Approved</source>
+        <translation>Tasdiqlandi</translation>
+    </message>
+    <message>
+        <source>Denied</source>
+        <translation>Rad etildi</translation>
+    </message>
+    <message>
+        <source>It is published when the publishing workflow continues.</source>
+        <translation>Nashr ish jarayoni davom etganda nashr qilinadi.</translation>
+    </message>
+    <message>
+        <source>It is a draft of yours again.</source>
+        <translation>Bu yana sizning qoralamangiz.</translation>
+    </message>
+    <message>
+        <source>Scheduled tasks that failed</source>
+        <translation>Muvaffaqiyatsiz rejalashtirilgan vazifalar</translation>
+    </message>
+    <message>
+        <source>A page</source>
+        <translation>Sahifa</translation>
+    </message>
+    <message>
+        <source>The workflow %workflow stopped with an error on %time.</source>
+        <translation>%workflow ish jarayoni %time da xato bilan toʻxtadi.</translation>
+    </message>
+    <message>
+        <source>%n new in your inbox</source>
+        <translation>Kiruvchilaringizda %n yangi</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Kiruvchilar</translation>
     </message>

@@ -784,6 +784,66 @@
         <translation>اس صفحے پر غیر محفوظ تبدیلیاں</translation>
     </message>
     <message>
+        <source>There is no such item.</source>
+        <translation>ایسی کوئی چیز نہیں ہے۔</translation>
+    </message>
+    <message>
+        <source>Mark as read</source>
+        <translation>پڑھا ہوا نشان زد کریں</translation>
+    </message>
+    <message>
+        <source>Open in the administration</source>
+        <translation>انتظامیہ میں کھولیں</translation>
+    </message>
+    <message>
+        <source>Comments and mentions</source>
+        <translation>تبصرے اور تذکرے</translation>
+    </message>
+    <message>
+        <source>Mentions you</source>
+        <translation>آپ کا تذکرہ کرتا ہے</translation>
+    </message>
+    <message>
+        <source>%n new</source>
+        <translation>%n نئے</translation>
+    </message>
+    <message>
+        <source>Your pages</source>
+        <translation>آپ کے صفحات</translation>
+    </message>
+    <message>
+        <source>Approved</source>
+        <translation>منظور</translation>
+    </message>
+    <message>
+        <source>Denied</source>
+        <translation>مسترد</translation>
+    </message>
+    <message>
+        <source>It is published when the publishing workflow continues.</source>
+        <translation>اشاعت کا ورک فلو آگے بڑھنے پر یہ شائع ہو جائے گا۔</translation>
+    </message>
+    <message>
+        <source>It is a draft of yours again.</source>
+        <translation>یہ پھر سے آپ کا مسودہ ہے۔</translation>
+    </message>
+    <message>
+        <source>Scheduled tasks that failed</source>
+        <translation>ناکام ہونے والے طے شدہ کام</translation>
+    </message>
+    <message>
+        <source>A page</source>
+        <translation>ایک صفحہ</translation>
+    </message>
+    <message>
+        <source>The workflow %workflow stopped with an error on %time.</source>
+        <translation>ورک فلو %workflow %time پر ایک خرابی کے ساتھ رک گیا۔</translation>
+    </message>
+    <message>
+        <source>%n new in your inbox</source>
+        <translation>آپ کے ان باکس میں %n نئے</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>ان باکس</translation>
     </message>

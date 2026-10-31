@@ -784,6 +784,66 @@
         <translation>ܫܘܚܠܦܐ ܕܠܐ ܢܛܝܪܝܢ ܒܦܐܬܐ ܗܕܐ</translation>
     </message>
     <message>
+        <source>There is no such item.</source>
+        <translation>ܠܝܬ ܡܕܡ ܗܟܢܐ.</translation>
+    </message>
+    <message>
+        <source>Mark as read</source>
+        <translation>ܪܫܘܡ ܕܐܬܩܪܝ</translation>
+    </message>
+    <message>
+        <source>Open in the administration</source>
+        <translation>ܦܬܚ ܒܡܕܒܪܢܘܬܐ</translation>
+    </message>
+    <message>
+        <source>Comments and mentions</source>
+        <translation>ܡ̈ܠܐ ܘܥܘܗܕ̈ܢܐ</translation>
+    </message>
+    <message>
+        <source>Mentions you</source>
+        <translation>ܡܥܗܕ ܠܟ</translation>
+    </message>
+    <message>
+        <source>%n new</source>
+        <translation>%n ܚ̈ܕܬܬܐ</translation>
+    </message>
+    <message>
+        <source>Your pages</source>
+        <translation>ܦܐܬ̈ܐ ܕܝܠܟ</translation>
+    </message>
+    <message>
+        <source>Approved</source>
+        <translation>ܐܫܬܪܪ</translation>
+    </message>
+    <message>
+        <source>Denied</source>
+        <translation>ܐܣܬܪܒ</translation>
+    </message>
+    <message>
+        <source>It is published when the publishing workflow continues.</source>
+        <translation>ܡܬܦܪܣ ܐܡܬܝ ܕܪܕܝܐ ܕܥܒܕܐ ܕܦܘܪܣܐ ܡܫܡܠܐ.</translation>
+    </message>
+    <message>
+        <source>It is a draft of yours again.</source>
+        <translation>ܗܘ ܬܘܒ ܣܘܪܛܐ ܕܝܠܟ.</translation>
+    </message>
+    <message>
+        <source>Scheduled tasks that failed</source>
+        <translation>ܥܒ̈ܕܐ ܡܙܡܢ̈ܐ ܕܠܐ ܐܨܠܚܘ</translation>
+    </message>
+    <message>
+        <source>A page</source>
+        <translation>ܦܐܬܐ</translation>
+    </message>
+    <message>
+        <source>The workflow %workflow stopped with an error on %time.</source>
+        <translation>ܪܕܝܐ ܕܥܒܕܐ %workflow ܐܬܟܠܝ ܒܛܥܝܘܬܐ ܒ%time.</translation>
+    </message>
+    <message>
+        <source>%n new in your inbox</source>
+        <translation>%n ܚ̈ܕܬܬܐ ܒܐܓܪ̈ܬܐ ܕܥܐܠ̈ܢ ܕܝܠܟ</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>ܐܓܪ̈ܬܐ ܕܥܐܠ̈ܢ</translation>
     </message>

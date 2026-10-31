@@ -784,6 +784,66 @@
         <translation>تغییرات ذخیره‌نشده در این صفحه</translation>
     </message>
     <message>
+        <source>There is no such item.</source>
+        <translation>چنین موردی وجود ندارد.</translation>
+    </message>
+    <message>
+        <source>Mark as read</source>
+        <translation>علامت‌گذاری به‌عنوان خوانده‌شده</translation>
+    </message>
+    <message>
+        <source>Open in the administration</source>
+        <translation>باز کردن در مدیریت</translation>
+    </message>
+    <message>
+        <source>Comments and mentions</source>
+        <translation>نظرها و اشاره‌ها</translation>
+    </message>
+    <message>
+        <source>Mentions you</source>
+        <translation>به شما اشاره کرده</translation>
+    </message>
+    <message>
+        <source>%n new</source>
+        <translation>%n جدید</translation>
+    </message>
+    <message>
+        <source>Your pages</source>
+        <translation>صفحه‌های شما</translation>
+    </message>
+    <message>
+        <source>Approved</source>
+        <translation>تأیید شد</translation>
+    </message>
+    <message>
+        <source>Denied</source>
+        <translation>رد شد</translation>
+    </message>
+    <message>
+        <source>It is published when the publishing workflow continues.</source>
+        <translation>وقتی جریان کار نشر ادامه یابد، نشر می‌شود.</translation>
+    </message>
+    <message>
+        <source>It is a draft of yours again.</source>
+        <translation>دوباره پیش‌نویس شماست.</translation>
+    </message>
+    <message>
+        <source>Scheduled tasks that failed</source>
+        <translation>وظایف زمان‌بندی‌شده‌ای که ناکام شدند</translation>
+    </message>
+    <message>
+        <source>A page</source>
+        <translation>یک صفحه</translation>
+    </message>
+    <message>
+        <source>The workflow %workflow stopped with an error on %time.</source>
+        <translation>جریان کار %workflow در %time با خطا متوقف شد.</translation>
+    </message>
+    <message>
+        <source>%n new in your inbox</source>
+        <translation>%n جدید در صندوق ورودی شما</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>صندوق ورودی</translation>
     </message>

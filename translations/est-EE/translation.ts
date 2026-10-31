@@ -784,6 +784,66 @@
         <translation>Salvestamata muudatused sellel lehel</translation>
     </message>
     <message>
+        <source>There is no such item.</source>
+        <translation>Sellist üksust pole.</translation>
+    </message>
+    <message>
+        <source>Mark as read</source>
+        <translation>Märgi loetuks</translation>
+    </message>
+    <message>
+        <source>Open in the administration</source>
+        <translation>Ava halduses</translation>
+    </message>
+    <message>
+        <source>Comments and mentions</source>
+        <translation>Kommentaarid ja mainimised</translation>
+    </message>
+    <message>
+        <source>Mentions you</source>
+        <translation>Mainib sind</translation>
+    </message>
+    <message>
+        <source>%n new</source>
+        <translation>%n uut</translation>
+    </message>
+    <message>
+        <source>Your pages</source>
+        <translation>Sinu lehed</translation>
+    </message>
+    <message>
+        <source>Approved</source>
+        <translation>Kinnitatud</translation>
+    </message>
+    <message>
+        <source>Denied</source>
+        <translation>Keeldutud</translation>
+    </message>
+    <message>
+        <source>It is published when the publishing workflow continues.</source>
+        <translation>See avaldatakse, kui avaldamise töövoog jätkub.</translation>
+    </message>
+    <message>
+        <source>It is a draft of yours again.</source>
+        <translation>See on jälle sinu mustand.</translation>
+    </message>
+    <message>
+        <source>Scheduled tasks that failed</source>
+        <translation>Ajastatud tööd, mis ebaõnnestusid</translation>
+    </message>
+    <message>
+        <source>A page</source>
+        <translation>Leht</translation>
+    </message>
+    <message>
+        <source>The workflow %workflow stopped with an error on %time.</source>
+        <translation>Töövoog %workflow peatus veaga %time.</translation>
+    </message>
+    <message>
+        <source>%n new in your inbox</source>
+        <translation>%n uut sinu postkastis</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Postkast</translation>
     </message>

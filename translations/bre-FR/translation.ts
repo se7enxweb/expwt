@@ -784,6 +784,66 @@
         <translation>Kemmoù n'int ket enrollet war ar bajenn-mañ</translation>
     </message>
     <message>
+        <source>There is no such item.</source>
+        <translation>N'eus ket eus an elfenn-se.</translation>
+    </message>
+    <message>
+        <source>Mark as read</source>
+        <translation>Merkañ evel lennet</translation>
+    </message>
+    <message>
+        <source>Open in the administration</source>
+        <translation>Digeriñ er merañ</translation>
+    </message>
+    <message>
+        <source>Comments and mentions</source>
+        <translation>Evezhiadennoù ha menegoù</translation>
+    </message>
+    <message>
+        <source>Mentions you</source>
+        <translation>Ho meneg</translation>
+    </message>
+    <message>
+        <source>%n new</source>
+        <translation>%n nevez</translation>
+    </message>
+    <message>
+        <source>Your pages</source>
+        <translation>Ho pajennoù</translation>
+    </message>
+    <message>
+        <source>Approved</source>
+        <translation>Aprouet</translation>
+    </message>
+    <message>
+        <source>Denied</source>
+        <translation>Nac'het</translation>
+    </message>
+    <message>
+        <source>It is published when the publishing workflow continues.</source>
+        <translation>Embannet e vo pa gendalc'ho an dro-labour embann.</translation>
+    </message>
+    <message>
+        <source>It is a draft of yours again.</source>
+        <translation>Ur brouilhed deoc'h eo en-dro.</translation>
+    </message>
+    <message>
+        <source>Scheduled tasks that failed</source>
+        <translation>Trevelloù steuziet c'hwitet</translation>
+    </message>
+    <message>
+        <source>A page</source>
+        <translation>Ur bajenn</translation>
+    </message>
+    <message>
+        <source>The workflow %workflow stopped with an error on %time.</source>
+        <translation>Paouezet eo an dro-labour %workflow gant ur fazi d'an %time.</translation>
+    </message>
+    <message>
+        <source>%n new in your inbox</source>
+        <translation>%n nevez en ho poest-degemer</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Boest-degemer</translation>
     </message>

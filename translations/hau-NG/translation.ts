@@ -784,6 +784,66 @@
         <translation>Canje-canjen da ba a ajiye ba a wannan shafi</translation>
     </message>
     <message>
+        <source>There is no such item.</source>
+        <translation>Babu irin wannan abu.</translation>
+    </message>
+    <message>
+        <source>Mark as read</source>
+        <translation>Yi alama an karanta</translation>
+    </message>
+    <message>
+        <source>Open in the administration</source>
+        <translation>Buɗe a cikin gudanarwa</translation>
+    </message>
+    <message>
+        <source>Comments and mentions</source>
+        <translation>Sharhi da ambato</translation>
+    </message>
+    <message>
+        <source>Mentions you</source>
+        <translation>Ya ambace ka</translation>
+    </message>
+    <message>
+        <source>%n new</source>
+        <translation>%n sababbi</translation>
+    </message>
+    <message>
+        <source>Your pages</source>
+        <translation>Shafukanka</translation>
+    </message>
+    <message>
+        <source>Approved</source>
+        <translation>An amince</translation>
+    </message>
+    <message>
+        <source>Denied</source>
+        <translation>An ƙi</translation>
+    </message>
+    <message>
+        <source>It is published when the publishing workflow continues.</source>
+        <translation>Za a wallafa shi idan tsarin aikin wallafawa ya ci gaba.</translation>
+    </message>
+    <message>
+        <source>It is a draft of yours again.</source>
+        <translation>Ya sake zama daftarinka.</translation>
+    </message>
+    <message>
+        <source>Scheduled tasks that failed</source>
+        <translation>Ayyukan da aka tsara waɗanda suka gaza</translation>
+    </message>
+    <message>
+        <source>A page</source>
+        <translation>Wani shafi</translation>
+    </message>
+    <message>
+        <source>The workflow %workflow stopped with an error on %time.</source>
+        <translation>Tsarin aiki %workflow ya tsaya da kuskure a %time.</translation>
+    </message>
+    <message>
+        <source>%n new in your inbox</source>
+        <translation>%n sababbi a akwatin saƙonka</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Akwatin saƙo</translation>
     </message>

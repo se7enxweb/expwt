@@ -784,6 +784,66 @@
         <translation>Nā loli i mālama ʻole ʻia ma kēia ʻaoʻao</translation>
     </message>
     <message>
+        <source>There is no such item.</source>
+        <translation>ʻAʻohe mea pēlā.</translation>
+    </message>
+    <message>
+        <source>Mark as read</source>
+        <translation>Kaha ua heluhelu ʻia</translation>
+    </message>
+    <message>
+        <source>Open in the administration</source>
+        <translation>Wehe ma ka hoʻokele</translation>
+    </message>
+    <message>
+        <source>Comments and mentions</source>
+        <translation>Nā manaʻo a me nā haʻina inoa</translation>
+    </message>
+    <message>
+        <source>Mentions you</source>
+        <translation>Haʻi ʻo ia i kou inoa</translation>
+    </message>
+    <message>
+        <source>%n new</source>
+        <translation>%n hou</translation>
+    </message>
+    <message>
+        <source>Your pages</source>
+        <translation>Kou mau ʻaoʻao</translation>
+    </message>
+    <message>
+        <source>Approved</source>
+        <translation>Ua ʻae ʻia</translation>
+    </message>
+    <message>
+        <source>Denied</source>
+        <translation>Ua hōʻole ʻia</translation>
+    </message>
+    <message>
+        <source>It is published when the publishing workflow continues.</source>
+        <translation>E hoʻopuka ʻia ia ke hoʻomau ke kaʻina hana hoʻopuka.</translation>
+    </message>
+    <message>
+        <source>It is a draft of yours again.</source>
+        <translation>He kāmua nou hou ia.</translation>
+    </message>
+    <message>
+        <source>Scheduled tasks that failed</source>
+        <translation>Nā hana i hoʻonohonoho ʻia i hāʻule</translation>
+    </message>
+    <message>
+        <source>A page</source>
+        <translation>He ʻaoʻao</translation>
+    </message>
+    <message>
+        <source>The workflow %workflow stopped with an error on %time.</source>
+        <translation>Ua kū ke kaʻina hana %workflow me ka hewa i ka %time.</translation>
+    </message>
+    <message>
+        <source>%n new in your inbox</source>
+        <translation>%n hou i kou pahu leka komo</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Pahu leka komo</translation>
     </message>

@@ -784,6 +784,66 @@
         <translation>Guhertinên netomarkirî li ser vê rûpelê</translation>
     </message>
     <message>
+        <source>There is no such item.</source>
+        <translation>Hêmanek wiha tune ye.</translation>
+    </message>
+    <message>
+        <source>Mark as read</source>
+        <translation>Wekî xwendî nîşan bide</translation>
+    </message>
+    <message>
+        <source>Open in the administration</source>
+        <translation>Di rêveberiyê de veke</translation>
+    </message>
+    <message>
+        <source>Comments and mentions</source>
+        <translation>Şîrove û behskirin</translation>
+    </message>
+    <message>
+        <source>Mentions you</source>
+        <translation>Behsa te dike</translation>
+    </message>
+    <message>
+        <source>%n new</source>
+        <translation>%n nû</translation>
+    </message>
+    <message>
+        <source>Your pages</source>
+        <translation>Rûpelên te</translation>
+    </message>
+    <message>
+        <source>Approved</source>
+        <translation>Hat pejirandin</translation>
+    </message>
+    <message>
+        <source>Denied</source>
+        <translation>Hat redkirin</translation>
+    </message>
+    <message>
+        <source>It is published when the publishing workflow continues.</source>
+        <translation>Dema herikîna karê weşandinê berdewam bike, ew ê were weşandin.</translation>
+    </message>
+    <message>
+        <source>It is a draft of yours again.</source>
+        <translation>Ew dîsa reşnivîsa te ye.</translation>
+    </message>
+    <message>
+        <source>Scheduled tasks that failed</source>
+        <translation>Karên plankirî yên têk çûn</translation>
+    </message>
+    <message>
+        <source>A page</source>
+        <translation>Rûpelek</translation>
+    </message>
+    <message>
+        <source>The workflow %workflow stopped with an error on %time.</source>
+        <translation>Herikîna kar %workflow di %time de bi çewtiyekê rawestiya.</translation>
+    </message>
+    <message>
+        <source>%n new in your inbox</source>
+        <translation>%n nû di qutiya te ya hatî de</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Qutiya hatî</translation>
     </message>

@@ -784,6 +784,66 @@
         <translation>ניט אָפּגעהיטע ענדערונגען אויף דער זײַט</translation>
     </message>
     <message>
+        <source>There is no such item.</source>
+        <translation>אַזאַ זאַך איז ניטאָ.</translation>
+    </message>
+    <message>
+        <source>Mark as read</source>
+        <translation>צייכענען ווי געלייענט</translation>
+    </message>
+    <message>
+        <source>Open in the administration</source>
+        <translation>עפֿענען אין דער אַדמיניסטראַציע</translation>
+    </message>
+    <message>
+        <source>Comments and mentions</source>
+        <translation>באַמערקונגען און דערמאָנונגען</translation>
+    </message>
+    <message>
+        <source>Mentions you</source>
+        <translation>דערמאָנט דיך</translation>
+    </message>
+    <message>
+        <source>%n new</source>
+        <translation>%n נײַע</translation>
+    </message>
+    <message>
+        <source>Your pages</source>
+        <translation>דײַנע זײַטן</translation>
+    </message>
+    <message>
+        <source>Approved</source>
+        <translation>באַשטעטיקט</translation>
+    </message>
+    <message>
+        <source>Denied</source>
+        <translation>אָפּגעזאָגט</translation>
+    </message>
+    <message>
+        <source>It is published when the publishing workflow continues.</source>
+        <translation>עס ווערט פֿאַרעפֿנטלעכט ווען דער אַרבעטס־גאַנג פֿון פֿאַרעפֿנטלעכן גייט ווײַטער.</translation>
+    </message>
+    <message>
+        <source>It is a draft of yours again.</source>
+        <translation>עס איז ווידער דײַן שׂרטוט.</translation>
+    </message>
+    <message>
+        <source>Scheduled tasks that failed</source>
+        <translation>פּלאַנירטע אויפֿגאַבעס וואָס זענען דורכגעפֿאַלן</translation>
+    </message>
+    <message>
+        <source>A page</source>
+        <translation>אַ זײַט</translation>
+    </message>
+    <message>
+        <source>The workflow %workflow stopped with an error on %time.</source>
+        <translation>דער אַרבעטס־גאַנג %workflow האָט זיך אָפּגעשטעלט מיט אַ טעות %time.</translation>
+    </message>
+    <message>
+        <source>%n new in your inbox</source>
+        <translation>%n נײַע אין דײַנע אַרײַנגעקומענע</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>אַרײַנגעקומענע</translation>
     </message>

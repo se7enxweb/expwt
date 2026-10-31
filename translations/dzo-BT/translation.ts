@@ -784,6 +784,66 @@
         <translation>ཤོག་ལེབ་འདི་གུ་ སྲུང་བཞག་མ་འབད་བའི་ བསྒྱུར་བཅོས།</translation>
     </message>
     <message>
+        <source>There is no such item.</source>
+        <translation>དེ་བཟུམ་གྱི་རྣམ་གྲངས་མིན་འདུག</translation>
+    </message>
+    <message>
+        <source>Mark as read</source>
+        <translation>ལྷག་ཡོདཔ་སྦེ་ རྟགས་བཀལ།</translation>
+    </message>
+    <message>
+        <source>Open in the administration</source>
+        <translation>བདག་སྐྱོང་ནང་ ཁ་ཕྱེ།</translation>
+    </message>
+    <message>
+        <source>Comments and mentions</source>
+        <translation>བསམ་བཀོད་དང་ མིང་བཀོད།</translation>
+    </message>
+    <message>
+        <source>Mentions you</source>
+        <translation>ཁྱོད་ཀྱི་མིང་བཀོད་ཡི།</translation>
+    </message>
+    <message>
+        <source>%n new</source>
+        <translation>གསརཔ་ %n</translation>
+    </message>
+    <message>
+        <source>Your pages</source>
+        <translation>ཁྱོད་ཀྱི་ཤོག་ལེབ་ཚུ།</translation>
+    </message>
+    <message>
+        <source>Approved</source>
+        <translation>གནང་བ་བྱིན་ཡི།</translation>
+    </message>
+    <message>
+        <source>Denied</source>
+        <translation>བཀག་ཡི།</translation>
+    </message>
+    <message>
+        <source>It is published when the publishing workflow continues.</source>
+        <translation>དཔེ་སྐྲུན་གྱི་ལཱ་གི་རིམ་པ་ འཕྲོ་མཐུད་པའི་སྐབས་ དཔེ་སྐྲུན་འབད་འོང་།</translation>
+    </message>
+    <message>
+        <source>It is a draft of yours again.</source>
+        <translation>འདི་ ལོག་སྟེ་ ཁྱོད་ཀྱི་ཟིན་བྲིས་ཨིན།</translation>
+    </message>
+    <message>
+        <source>Scheduled tasks that failed</source>
+        <translation>འཐུས་ཤོར་བྱུང་མི་ དུས་བཀོད་ལཱ་ཚུ།</translation>
+    </message>
+    <message>
+        <source>A page</source>
+        <translation>ཤོག་ལེབ་ཅིག</translation>
+    </message>
+    <message>
+        <source>The workflow %workflow stopped with an error on %time.</source>
+        <translation>ལཱ་གི་རིམ་པ་ %workflow %time ལུ་ འཛོལ་བ་དང་གཅིག་ཁར་ བཀག་ཡི།</translation>
+    </message>
+    <message>
+        <source>%n new in your inbox</source>
+        <translation>ཁྱོད་ཀྱི་ནང་འབྱོར་ནང་ གསརཔ་ %n</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>ནང་འབྱོར།</translation>
     </message>

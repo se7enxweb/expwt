@@ -784,6 +784,66 @@
         <translation>Net gespäichert Ännerungen op dëser Säit</translation>
     </message>
     <message>
+        <source>There is no such item.</source>
+        <translation>Dësen Element gëtt et net.</translation>
+    </message>
+    <message>
+        <source>Mark as read</source>
+        <translation>Als gelies markéieren</translation>
+    </message>
+    <message>
+        <source>Open in the administration</source>
+        <translation>An der Administratioun opmaachen</translation>
+    </message>
+    <message>
+        <source>Comments and mentions</source>
+        <translation>Kommentaren an Ernimmungen</translation>
+    </message>
+    <message>
+        <source>Mentions you</source>
+        <translation>Ernimmt Iech</translation>
+    </message>
+    <message>
+        <source>%n new</source>
+        <translation>%n nei</translation>
+    </message>
+    <message>
+        <source>Your pages</source>
+        <translation>Är Säiten</translation>
+    </message>
+    <message>
+        <source>Approved</source>
+        <translation>Fräigeginn</translation>
+    </message>
+    <message>
+        <source>Denied</source>
+        <translation>Refuséiert</translation>
+    </message>
+    <message>
+        <source>It is published when the publishing workflow continues.</source>
+        <translation>Si gëtt publizéiert, wann de Publikatiouns-Workflow weidergeet.</translation>
+    </message>
+    <message>
+        <source>It is a draft of yours again.</source>
+        <translation>Et ass erëm en Entworf vun Iech.</translation>
+    </message>
+    <message>
+        <source>Scheduled tasks that failed</source>
+        <translation>Geplangten Aufgaben, déi feelgeschloen hunn</translation>
+    </message>
+    <message>
+        <source>A page</source>
+        <translation>Eng Säit</translation>
+    </message>
+    <message>
+        <source>The workflow %workflow stopped with an error on %time.</source>
+        <translation>De Workflow %workflow ass den %time mat engem Feeler gestoppt.</translation>
+    </message>
+    <message>
+        <source>%n new in your inbox</source>
+        <translation>%n nei an Ärer Postkëscht</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Postkëscht</translation>
     </message>

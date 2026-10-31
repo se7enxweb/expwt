@@ -784,6 +784,66 @@
         <translation>Μη αποθηκευμένες αλλαγές σε αυτή τη σελίδα</translation>
     </message>
     <message>
+        <source>There is no such item.</source>
+        <translation>Δεν υπάρχει τέτοιο στοιχείο.</translation>
+    </message>
+    <message>
+        <source>Mark as read</source>
+        <translation>Σήμανση ως αναγνωσμένο</translation>
+    </message>
+    <message>
+        <source>Open in the administration</source>
+        <translation>Άνοιγμα στη διαχείριση</translation>
+    </message>
+    <message>
+        <source>Comments and mentions</source>
+        <translation>Σχόλια και αναφορές</translation>
+    </message>
+    <message>
+        <source>Mentions you</source>
+        <translation>Σας αναφέρει</translation>
+    </message>
+    <message>
+        <source>%n new</source>
+        <translation>%n νέα</translation>
+    </message>
+    <message>
+        <source>Your pages</source>
+        <translation>Οι σελίδες σας</translation>
+    </message>
+    <message>
+        <source>Approved</source>
+        <translation>Εγκρίθηκε</translation>
+    </message>
+    <message>
+        <source>Denied</source>
+        <translation>Απορρίφθηκε</translation>
+    </message>
+    <message>
+        <source>It is published when the publishing workflow continues.</source>
+        <translation>Θα δημοσιευτεί όταν συνεχιστεί η ροή εργασιών δημοσίευσης.</translation>
+    </message>
+    <message>
+        <source>It is a draft of yours again.</source>
+        <translation>Είναι ξανά δικό σας προσχέδιο.</translation>
+    </message>
+    <message>
+        <source>Scheduled tasks that failed</source>
+        <translation>Προγραμματισμένες εργασίες που απέτυχαν</translation>
+    </message>
+    <message>
+        <source>A page</source>
+        <translation>Μια σελίδα</translation>
+    </message>
+    <message>
+        <source>The workflow %workflow stopped with an error on %time.</source>
+        <translation>Η ροή εργασιών %workflow σταμάτησε με σφάλμα στις %time.</translation>
+    </message>
+    <message>
+        <source>%n new in your inbox</source>
+        <translation>%n νέα στα εισερχόμενά σας</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Εισερχόμενα</translation>
     </message>

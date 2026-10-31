@@ -784,6 +784,66 @@
         <translation>Cambios sen gardar nesta páxina</translation>
     </message>
     <message>
+        <source>There is no such item.</source>
+        <translation>Non existe ese elemento.</translation>
+    </message>
+    <message>
+        <source>Mark as read</source>
+        <translation>Marcar como lido</translation>
+    </message>
+    <message>
+        <source>Open in the administration</source>
+        <translation>Abrir na administración</translation>
+    </message>
+    <message>
+        <source>Comments and mentions</source>
+        <translation>Comentarios e mencións</translation>
+    </message>
+    <message>
+        <source>Mentions you</source>
+        <translation>Menciónate</translation>
+    </message>
+    <message>
+        <source>%n new</source>
+        <translation>%n novos</translation>
+    </message>
+    <message>
+        <source>Your pages</source>
+        <translation>As túas páxinas</translation>
+    </message>
+    <message>
+        <source>Approved</source>
+        <translation>Aprobada</translation>
+    </message>
+    <message>
+        <source>Denied</source>
+        <translation>Rexeitada</translation>
+    </message>
+    <message>
+        <source>It is published when the publishing workflow continues.</source>
+        <translation>Publicarase cando continúe o fluxo de traballo de publicación.</translation>
+    </message>
+    <message>
+        <source>It is a draft of yours again.</source>
+        <translation>Volve ser un borrador teu.</translation>
+    </message>
+    <message>
+        <source>Scheduled tasks that failed</source>
+        <translation>Tarefas programadas que fallaron</translation>
+    </message>
+    <message>
+        <source>A page</source>
+        <translation>Unha páxina</translation>
+    </message>
+    <message>
+        <source>The workflow %workflow stopped with an error on %time.</source>
+        <translation>O fluxo de traballo %workflow detívose cun erro o %time.</translation>
+    </message>
+    <message>
+        <source>%n new in your inbox</source>
+        <translation>%n novos na túa caixa de entrada</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Caixa de entrada</translation>
     </message>

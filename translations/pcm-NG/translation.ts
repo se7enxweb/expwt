@@ -784,6 +784,66 @@
         <translation>Changes wey no save for dis page</translation>
     </message>
     <message>
+        <source>There is no such item.</source>
+        <translation>Dat kain item no dey.</translation>
+    </message>
+    <message>
+        <source>Mark as read</source>
+        <translation>Mark am as read</translation>
+    </message>
+    <message>
+        <source>Open in the administration</source>
+        <translation>Open am for di administration</translation>
+    </message>
+    <message>
+        <source>Comments and mentions</source>
+        <translation>Comments and mentions</translation>
+    </message>
+    <message>
+        <source>Mentions you</source>
+        <translation>E mention you</translation>
+    </message>
+    <message>
+        <source>%n new</source>
+        <translation>%n new</translation>
+    </message>
+    <message>
+        <source>Your pages</source>
+        <translation>Your pages</translation>
+    </message>
+    <message>
+        <source>Approved</source>
+        <translation>Dem approve am</translation>
+    </message>
+    <message>
+        <source>Denied</source>
+        <translation>Dem reject am</translation>
+    </message>
+    <message>
+        <source>It is published when the publishing workflow continues.</source>
+        <translation>E go publish wen di publishing workflow continue.</translation>
+    </message>
+    <message>
+        <source>It is a draft of yours again.</source>
+        <translation>E don be your draft again.</translation>
+    </message>
+    <message>
+        <source>Scheduled tasks that failed</source>
+        <translation>Scheduled tasks wey fail</translation>
+    </message>
+    <message>
+        <source>A page</source>
+        <translation>One page</translation>
+    </message>
+    <message>
+        <source>The workflow %workflow stopped with an error on %time.</source>
+        <translation>Di workflow %workflow stop wit error for %time.</translation>
+    </message>
+    <message>
+        <source>%n new in your inbox</source>
+        <translation>%n new for your inbox</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Inbox</translation>
     </message>

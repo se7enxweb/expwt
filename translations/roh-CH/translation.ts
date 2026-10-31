@@ -784,6 +784,66 @@
         <translation>Midadas betg memorisadas sin questa pagina</translation>
     </message>
     <message>
+        <source>There is no such item.</source>
+        <translation>I n'exista betg in tal element.</translation>
+    </message>
+    <message>
+        <source>Mark as read</source>
+        <translation>Marcar sco legì</translation>
+    </message>
+    <message>
+        <source>Open in the administration</source>
+        <translation>Avrir en l'administraziun</translation>
+    </message>
+    <message>
+        <source>Comments and mentions</source>
+        <translation>Commentaris e menziuns</translation>
+    </message>
+    <message>
+        <source>Mentions you</source>
+        <translation>Al menziunescha</translation>
+    </message>
+    <message>
+        <source>%n new</source>
+        <translation>%n novs</translation>
+    </message>
+    <message>
+        <source>Your pages</source>
+        <translation>Vossas paginas</translation>
+    </message>
+    <message>
+        <source>Approved</source>
+        <translation>Approvà</translation>
+    </message>
+    <message>
+        <source>Denied</source>
+        <translation>Refusà</translation>
+    </message>
+    <message>
+        <source>It is published when the publishing workflow continues.</source>
+        <translation>Ella vegn publitgada, cura che l'andament da lavur da publicaziun cuntinuescha.</translation>
+    </message>
+    <message>
+        <source>It is a draft of yours again.</source>
+        <translation>I è puspè in sboz da Vus.</translation>
+    </message>
+    <message>
+        <source>Scheduled tasks that failed</source>
+        <translation>Incumbensas planisadas che n'han betg funcziunà</translation>
+    </message>
+    <message>
+        <source>A page</source>
+        <translation>Ina pagina</translation>
+    </message>
+    <message>
+        <source>The workflow %workflow stopped with an error on %time.</source>
+        <translation>L'andament da lavur %workflow è s'fermà cun in sbagl ils %time.</translation>
+    </message>
+    <message>
+        <source>%n new in your inbox</source>
+        <translation>%n novs en Vossa chascha d'entrada</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Chascha d'entrada</translation>
     </message>

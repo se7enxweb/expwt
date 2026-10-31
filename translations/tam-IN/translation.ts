@@ -784,6 +784,66 @@
         <translation>இந்தப் பக்கத்தில் சேமிக்கப்படாத மாற்றங்கள்</translation>
     </message>
     <message>
+        <source>There is no such item.</source>
+        <translation>அத்தகைய உருப்படி இல்லை.</translation>
+    </message>
+    <message>
+        <source>Mark as read</source>
+        <translation>படித்ததாகக் குறி</translation>
+    </message>
+    <message>
+        <source>Open in the administration</source>
+        <translation>நிர்வாகத்தில் திற</translation>
+    </message>
+    <message>
+        <source>Comments and mentions</source>
+        <translation>கருத்துகளும் குறிப்புகளும்</translation>
+    </message>
+    <message>
+        <source>Mentions you</source>
+        <translation>உங்களைக் குறிப்பிடுகிறது</translation>
+    </message>
+    <message>
+        <source>%n new</source>
+        <translation>%n புதியவை</translation>
+    </message>
+    <message>
+        <source>Your pages</source>
+        <translation>உங்கள் பக்கங்கள்</translation>
+    </message>
+    <message>
+        <source>Approved</source>
+        <translation>ஒப்புதல் அளிக்கப்பட்டது</translation>
+    </message>
+    <message>
+        <source>Denied</source>
+        <translation>நிராகரிக்கப்பட்டது</translation>
+    </message>
+    <message>
+        <source>It is published when the publishing workflow continues.</source>
+        <translation>வெளியீட்டுப் பணிப்பாய்வு தொடரும்போது இது வெளியிடப்படும்.</translation>
+    </message>
+    <message>
+        <source>It is a draft of yours again.</source>
+        <translation>இது மீண்டும் உங்கள் வரைவு.</translation>
+    </message>
+    <message>
+        <source>Scheduled tasks that failed</source>
+        <translation>தோல்வியடைந்த திட்டமிட்ட பணிகள்</translation>
+    </message>
+    <message>
+        <source>A page</source>
+        <translation>ஒரு பக்கம்</translation>
+    </message>
+    <message>
+        <source>The workflow %workflow stopped with an error on %time.</source>
+        <translation>பணிப்பாய்வு %workflow %time அன்று பிழையுடன் நின்றது.</translation>
+    </message>
+    <message>
+        <source>%n new in your inbox</source>
+        <translation>உங்கள் உள்பெட்டியில் %n புதியவை</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>உள்பெட்டி</translation>
     </message>

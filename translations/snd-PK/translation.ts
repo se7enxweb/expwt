@@ -784,6 +784,66 @@
         <translation>هن صفحي تي غير محفوظ تبديليون</translation>
     </message>
     <message>
+        <source>There is no such item.</source>
+        <translation>اهڙي ڪا شيءِ ناهي.</translation>
+    </message>
+    <message>
+        <source>Mark as read</source>
+        <translation>پڙهيل طور نشان لڳايو</translation>
+    </message>
+    <message>
+        <source>Open in the administration</source>
+        <translation>انتظاميه ۾ کوليو</translation>
+    </message>
+    <message>
+        <source>Comments and mentions</source>
+        <translation>تبصرا ۽ ذڪر</translation>
+    </message>
+    <message>
+        <source>Mentions you</source>
+        <translation>توهان جو ذڪر ڪري ٿو</translation>
+    </message>
+    <message>
+        <source>%n new</source>
+        <translation>%n نوان</translation>
+    </message>
+    <message>
+        <source>Your pages</source>
+        <translation>توهان جا صفحا</translation>
+    </message>
+    <message>
+        <source>Approved</source>
+        <translation>منظور</translation>
+    </message>
+    <message>
+        <source>Denied</source>
+        <translation>رد</translation>
+    </message>
+    <message>
+        <source>It is published when the publishing workflow continues.</source>
+        <translation>اشاعت جو ورڪ فلو اڳتي وڌندو ته اهو شايع ٿيندو.</translation>
+    </message>
+    <message>
+        <source>It is a draft of yours again.</source>
+        <translation>اهو ٻيهر توهان جو مسودو آهي.</translation>
+    </message>
+    <message>
+        <source>Scheduled tasks that failed</source>
+        <translation>ناڪام ٿيل طئي ٿيل ڪم</translation>
+    </message>
+    <message>
+        <source>A page</source>
+        <translation>هڪ صفحو</translation>
+    </message>
+    <message>
+        <source>The workflow %workflow stopped with an error on %time.</source>
+        <translation>ورڪ فلو %workflow %time تي غلطي سان رڪجي ويو.</translation>
+    </message>
+    <message>
+        <source>%n new in your inbox</source>
+        <translation>توهان جي آيل خطن ۾ %n نوان</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>آيل خط</translation>
     </message>

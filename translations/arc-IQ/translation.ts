@@ -784,6 +784,66 @@
         <translation>שוחלפא דלא נטירין בדפא הנא</translation>
     </message>
     <message>
+        <source>There is no such item.</source>
+        <translation>לית מדעם הכנא.</translation>
+    </message>
+    <message>
+        <source>Mark as read</source>
+        <translation>רשום דאתקרי</translation>
+    </message>
+    <message>
+        <source>Open in the administration</source>
+        <translation>פתח במדברנותא</translation>
+    </message>
+    <message>
+        <source>Comments and mentions</source>
+        <translation>מלי ודוכרנא</translation>
+    </message>
+    <message>
+        <source>Mentions you</source>
+        <translation>מדכר לך</translation>
+    </message>
+    <message>
+        <source>%n new</source>
+        <translation>%n חדתא</translation>
+    </message>
+    <message>
+        <source>Your pages</source>
+        <translation>דפיך</translation>
+    </message>
+    <message>
+        <source>Approved</source>
+        <translation>אשתרר</translation>
+    </message>
+    <message>
+        <source>Denied</source>
+        <translation>אסתרב</translation>
+    </message>
+    <message>
+        <source>It is published when the publishing workflow continues.</source>
+        <translation>מתפרסם כד עבדא דפרסומא ממשיך.</translation>
+    </message>
+    <message>
+        <source>It is a draft of yours again.</source>
+        <translation>הוא תוב סורטא דילך.</translation>
+    </message>
+    <message>
+        <source>Scheduled tasks that failed</source>
+        <translation>עבדא מזמנא דלא אצלחו</translation>
+    </message>
+    <message>
+        <source>A page</source>
+        <translation>דפא</translation>
+    </message>
+    <message>
+        <source>The workflow %workflow stopped with an error on %time.</source>
+        <translation>עבדא %workflow אתכלי בטעיותא ב%time.</translation>
+    </message>
+    <message>
+        <source>%n new in your inbox</source>
+        <translation>%n חדתא בדילך</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>ܐܓܪ̈ܬܐ ܕܥܐܠ̈ܢ</translation>
     </message>

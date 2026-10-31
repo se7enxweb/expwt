@@ -784,6 +784,66 @@
         <translation>Perubahan yang belum disimpan pada halaman ini</translation>
     </message>
     <message>
+        <source>There is no such item.</source>
+        <translation>Item itu tidak wujud.</translation>
+    </message>
+    <message>
+        <source>Mark as read</source>
+        <translation>Tanda sebagai dibaca</translation>
+    </message>
+    <message>
+        <source>Open in the administration</source>
+        <translation>Buka dalam pentadbiran</translation>
+    </message>
+    <message>
+        <source>Comments and mentions</source>
+        <translation>Ulasan dan sebutan</translation>
+    </message>
+    <message>
+        <source>Mentions you</source>
+        <translation>Menyebut anda</translation>
+    </message>
+    <message>
+        <source>%n new</source>
+        <translation>%n baharu</translation>
+    </message>
+    <message>
+        <source>Your pages</source>
+        <translation>Halaman anda</translation>
+    </message>
+    <message>
+        <source>Approved</source>
+        <translation>Diluluskan</translation>
+    </message>
+    <message>
+        <source>Denied</source>
+        <translation>Ditolak</translation>
+    </message>
+    <message>
+        <source>It is published when the publishing workflow continues.</source>
+        <translation>Ia diterbitkan apabila aliran kerja penerbitan diteruskan.</translation>
+    </message>
+    <message>
+        <source>It is a draft of yours again.</source>
+        <translation>Ia draf anda semula.</translation>
+    </message>
+    <message>
+        <source>Scheduled tasks that failed</source>
+        <translation>Tugas berjadual yang gagal</translation>
+    </message>
+    <message>
+        <source>A page</source>
+        <translation>Satu halaman</translation>
+    </message>
+    <message>
+        <source>The workflow %workflow stopped with an error on %time.</source>
+        <translation>Aliran kerja %workflow berhenti dengan ralat pada %time.</translation>
+    </message>
+    <message>
+        <source>%n new in your inbox</source>
+        <translation>%n baharu dalam peti masuk anda</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Peti masuk</translation>
     </message>

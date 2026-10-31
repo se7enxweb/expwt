@@ -784,6 +784,66 @@
         <translation>Neuložené zmeny na tejto stránke</translation>
     </message>
     <message>
+        <source>There is no such item.</source>
+        <translation>Taká položka neexistuje.</translation>
+    </message>
+    <message>
+        <source>Mark as read</source>
+        <translation>Označiť ako prečítané</translation>
+    </message>
+    <message>
+        <source>Open in the administration</source>
+        <translation>Otvoriť v administrácii</translation>
+    </message>
+    <message>
+        <source>Comments and mentions</source>
+        <translation>Komentáre a zmienky</translation>
+    </message>
+    <message>
+        <source>Mentions you</source>
+        <translation>Spomína vás</translation>
+    </message>
+    <message>
+        <source>%n new</source>
+        <translation>%n nových</translation>
+    </message>
+    <message>
+        <source>Your pages</source>
+        <translation>Vaše stránky</translation>
+    </message>
+    <message>
+        <source>Approved</source>
+        <translation>Schválené</translation>
+    </message>
+    <message>
+        <source>Denied</source>
+        <translation>Zamietnuté</translation>
+    </message>
+    <message>
+        <source>It is published when the publishing workflow continues.</source>
+        <translation>Zverejní sa, keď bude pracovný postup zverejnenia pokračovať.</translation>
+    </message>
+    <message>
+        <source>It is a draft of yours again.</source>
+        <translation>Je to opäť váš koncept.</translation>
+    </message>
+    <message>
+        <source>Scheduled tasks that failed</source>
+        <translation>Naplánované úlohy, ktoré zlyhali</translation>
+    </message>
+    <message>
+        <source>A page</source>
+        <translation>Stránka</translation>
+    </message>
+    <message>
+        <source>The workflow %workflow stopped with an error on %time.</source>
+        <translation>Pracovný postup %workflow sa zastavil s chybou %time.</translation>
+    </message>
+    <message>
+        <source>%n new in your inbox</source>
+        <translation>%n nových v doručenej pošte</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Doručené</translation>
     </message>

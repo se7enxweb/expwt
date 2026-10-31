@@ -784,6 +784,66 @@
         <translation>Bu sahypada ýatda saklanmadyk üýtgeşmeler</translation>
     </message>
     <message>
+        <source>There is no such item.</source>
+        <translation>Beýle element ýok.</translation>
+    </message>
+    <message>
+        <source>Mark as read</source>
+        <translation>Okaldy diýip belle</translation>
+    </message>
+    <message>
+        <source>Open in the administration</source>
+        <translation>Dolandyryşda aç</translation>
+    </message>
+    <message>
+        <source>Comments and mentions</source>
+        <translation>Teswirler we agzalmalar</translation>
+    </message>
+    <message>
+        <source>Mentions you</source>
+        <translation>Sizi agzaýar</translation>
+    </message>
+    <message>
+        <source>%n new</source>
+        <translation>%n täze</translation>
+    </message>
+    <message>
+        <source>Your pages</source>
+        <translation>Siziň sahypalaryňyz</translation>
+    </message>
+    <message>
+        <source>Approved</source>
+        <translation>Tassyklandy</translation>
+    </message>
+    <message>
+        <source>Denied</source>
+        <translation>Ret edildi</translation>
+    </message>
+    <message>
+        <source>It is published when the publishing workflow continues.</source>
+        <translation>Neşir iş akymy dowam edende neşir ediler.</translation>
+    </message>
+    <message>
+        <source>It is a draft of yours again.</source>
+        <translation>Bu ýene siziň garalamaňyz.</translation>
+    </message>
+    <message>
+        <source>Scheduled tasks that failed</source>
+        <translation>Şowsuz bolan meýilleşdirilen işler</translation>
+    </message>
+    <message>
+        <source>A page</source>
+        <translation>Bir sahypa</translation>
+    </message>
+    <message>
+        <source>The workflow %workflow stopped with an error on %time.</source>
+        <translation>%workflow iş akymy %time ýalňyşlyk bilen saklandy.</translation>
+    </message>
+    <message>
+        <source>%n new in your inbox</source>
+        <translation>Gelenleriňizde %n täze</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Gelenler</translation>
     </message>

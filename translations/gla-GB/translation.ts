@@ -784,6 +784,66 @@
         <translation>Atharraichean gun sàbhaladh air an duilleag seo</translation>
     </message>
     <message>
+        <source>There is no such item.</source>
+        <translation>Chan eil a leithid de nì ann.</translation>
+    </message>
+    <message>
+        <source>Mark as read</source>
+        <translation>Comharraich mar air a leughadh</translation>
+    </message>
+    <message>
+        <source>Open in the administration</source>
+        <translation>Fosgail san rianachd</translation>
+    </message>
+    <message>
+        <source>Comments and mentions</source>
+        <translation>Beachdan is iomraidhean</translation>
+    </message>
+    <message>
+        <source>Mentions you</source>
+        <translation>Tha e a' toirt iomradh ort</translation>
+    </message>
+    <message>
+        <source>%n new</source>
+        <translation>%n ùr</translation>
+    </message>
+    <message>
+        <source>Your pages</source>
+        <translation>Na duilleagan agad</translation>
+    </message>
+    <message>
+        <source>Approved</source>
+        <translation>Air aontachadh</translation>
+    </message>
+    <message>
+        <source>Denied</source>
+        <translation>Air a dhiùltadh</translation>
+    </message>
+    <message>
+        <source>It is published when the publishing workflow continues.</source>
+        <translation>Thèid fhoillseachadh nuair a leanas sruth-obrach an fhoillseachaidh air adhart.</translation>
+    </message>
+    <message>
+        <source>It is a draft of yours again.</source>
+        <translation>'S e dreachd agad a th' ann a-rithist.</translation>
+    </message>
+    <message>
+        <source>Scheduled tasks that failed</source>
+        <translation>Saothraichean air an sgeidealachadh nach do shoirbhich</translation>
+    </message>
+    <message>
+        <source>A page</source>
+        <translation>Duilleag</translation>
+    </message>
+    <message>
+        <source>The workflow %workflow stopped with an error on %time.</source>
+        <translation>Stad an sruth-obrach %workflow le mearachd aig %time.</translation>
+    </message>
+    <message>
+        <source>%n new in your inbox</source>
+        <translation>%n ùr sa bhogsa a-steach agad</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Bogsa a-steach</translation>
     </message>

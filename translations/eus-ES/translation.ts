@@ -784,6 +784,66 @@
         <translation>Gorde gabeko aldaketak orri honetan</translation>
     </message>
     <message>
+        <source>There is no such item.</source>
+        <translation>Ez dago halako elementurik.</translation>
+    </message>
+    <message>
+        <source>Mark as read</source>
+        <translation>Markatu irakurritako gisa</translation>
+    </message>
+    <message>
+        <source>Open in the administration</source>
+        <translation>Ireki administrazioan</translation>
+    </message>
+    <message>
+        <source>Comments and mentions</source>
+        <translation>Iruzkinak eta aipamenak</translation>
+    </message>
+    <message>
+        <source>Mentions you</source>
+        <translation>Aipatzen zaitu</translation>
+    </message>
+    <message>
+        <source>%n new</source>
+        <translation>%n berri</translation>
+    </message>
+    <message>
+        <source>Your pages</source>
+        <translation>Zure orriak</translation>
+    </message>
+    <message>
+        <source>Approved</source>
+        <translation>Onartuta</translation>
+    </message>
+    <message>
+        <source>Denied</source>
+        <translation>Ukatuta</translation>
+    </message>
+    <message>
+        <source>It is published when the publishing workflow continues.</source>
+        <translation>Argitaratzeko lan-fluxuak aurrera egiten duenean argitaratuko da.</translation>
+    </message>
+    <message>
+        <source>It is a draft of yours again.</source>
+        <translation>Berriro zure zirriborroa da.</translation>
+    </message>
+    <message>
+        <source>Scheduled tasks that failed</source>
+        <translation>Huts egin duten programatutako atazak</translation>
+    </message>
+    <message>
+        <source>A page</source>
+        <translation>Orri bat</translation>
+    </message>
+    <message>
+        <source>The workflow %workflow stopped with an error on %time.</source>
+        <translation>%workflow lan-fluxua errore batekin gelditu da (%time).</translation>
+    </message>
+    <message>
+        <source>%n new in your inbox</source>
+        <translation>%n berri zure sarrera-ontzian</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Sarrera-ontzia</translation>
     </message>

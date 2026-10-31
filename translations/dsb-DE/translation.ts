@@ -784,6 +784,66 @@
         <translation>Njeskłaźone změny na toś tom boku</translation>
     </message>
     <message>
+        <source>There is no such item.</source>
+        <translation>Taki zapisk njeeksistěrujo.</translation>
+    </message>
+    <message>
+        <source>Mark as read</source>
+        <translation>Ako cytane markěrowaś</translation>
+    </message>
+    <message>
+        <source>Open in the administration</source>
+        <translation>W administraciji wócyniś</translation>
+    </message>
+    <message>
+        <source>Comments and mentions</source>
+        <translation>Komentary a naspominanja</translation>
+    </message>
+    <message>
+        <source>Mentions you</source>
+        <translation>Naspominajo was</translation>
+    </message>
+    <message>
+        <source>%n new</source>
+        <translation>%n nowych</translation>
+    </message>
+    <message>
+        <source>Your pages</source>
+        <translation>Waše boki</translation>
+    </message>
+    <message>
+        <source>Approved</source>
+        <translation>Pśizwólone</translation>
+    </message>
+    <message>
+        <source>Denied</source>
+        <translation>Wótpokazane</translation>
+    </message>
+    <message>
+        <source>It is published when the publishing workflow continues.</source>
+        <translation>Wózjawijo se, gaž se źěłowy proces wózjawjenja pókšacujo.</translation>
+    </message>
+    <message>
+        <source>It is a draft of yours again.</source>
+        <translation>To jo zasej waše nacerjenje.</translation>
+    </message>
+    <message>
+        <source>Scheduled tasks that failed</source>
+        <translation>Planowane nadawki, kótarež su se njeraźili</translation>
+    </message>
+    <message>
+        <source>A page</source>
+        <translation>Bok</translation>
+    </message>
+    <message>
+        <source>The workflow %workflow stopped with an error on %time.</source>
+        <translation>Źěłowy proces %workflow jo se z zmólku %time zastajił.</translation>
+    </message>
+    <message>
+        <source>%n new in your inbox</source>
+        <translation>%n nowych w dostaśu</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Dostaśe</translation>
     </message>

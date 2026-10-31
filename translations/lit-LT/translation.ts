@@ -784,6 +784,66 @@
         <translation>Neišsaugoti pakeitimai šiame puslapyje</translation>
     </message>
     <message>
+        <source>There is no such item.</source>
+        <translation>Tokio elemento nėra.</translation>
+    </message>
+    <message>
+        <source>Mark as read</source>
+        <translation>Pažymėti kaip skaitytą</translation>
+    </message>
+    <message>
+        <source>Open in the administration</source>
+        <translation>Atidaryti administravime</translation>
+    </message>
+    <message>
+        <source>Comments and mentions</source>
+        <translation>Komentarai ir paminėjimai</translation>
+    </message>
+    <message>
+        <source>Mentions you</source>
+        <translation>Mini jus</translation>
+    </message>
+    <message>
+        <source>%n new</source>
+        <translation>%n naujų</translation>
+    </message>
+    <message>
+        <source>Your pages</source>
+        <translation>Jūsų puslapiai</translation>
+    </message>
+    <message>
+        <source>Approved</source>
+        <translation>Patvirtinta</translation>
+    </message>
+    <message>
+        <source>Denied</source>
+        <translation>Atmesta</translation>
+    </message>
+    <message>
+        <source>It is published when the publishing workflow continues.</source>
+        <translation>Jis bus paskelbtas, kai skelbimo darbo eiga tęsis.</translation>
+    </message>
+    <message>
+        <source>It is a draft of yours again.</source>
+        <translation>Tai vėl jūsų juodraštis.</translation>
+    </message>
+    <message>
+        <source>Scheduled tasks that failed</source>
+        <translation>Nepavykusios suplanuotos užduotys</translation>
+    </message>
+    <message>
+        <source>A page</source>
+        <translation>Puslapis</translation>
+    </message>
+    <message>
+        <source>The workflow %workflow stopped with an error on %time.</source>
+        <translation>Darbo eiga %workflow sustojo su klaida %time.</translation>
+    </message>
+    <message>
+        <source>%n new in your inbox</source>
+        <translation>%n naujų gautuose</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Gauta</translation>
     </message>

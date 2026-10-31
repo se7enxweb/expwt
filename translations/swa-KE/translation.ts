@@ -784,6 +784,66 @@
         <translation>Mabadiliko ambayo hayajahifadhiwa kwenye ukurasa huu</translation>
     </message>
     <message>
+        <source>There is no such item.</source>
+        <translation>Hakuna kipengee kama hicho.</translation>
+    </message>
+    <message>
+        <source>Mark as read</source>
+        <translation>Weka alama kuwa imesomwa</translation>
+    </message>
+    <message>
+        <source>Open in the administration</source>
+        <translation>Fungua kwenye usimamizi</translation>
+    </message>
+    <message>
+        <source>Comments and mentions</source>
+        <translation>Maoni na kutajwa</translation>
+    </message>
+    <message>
+        <source>Mentions you</source>
+        <translation>Inakutaja</translation>
+    </message>
+    <message>
+        <source>%n new</source>
+        <translation>%n mpya</translation>
+    </message>
+    <message>
+        <source>Your pages</source>
+        <translation>Kurasa zako</translation>
+    </message>
+    <message>
+        <source>Approved</source>
+        <translation>Imeidhinishwa</translation>
+    </message>
+    <message>
+        <source>Denied</source>
+        <translation>Imekataliwa</translation>
+    </message>
+    <message>
+        <source>It is published when the publishing workflow continues.</source>
+        <translation>Itachapishwa mtiririko wa kazi wa uchapishaji utakapoendelea.</translation>
+    </message>
+    <message>
+        <source>It is a draft of yours again.</source>
+        <translation>Ni rasimu yako tena.</translation>
+    </message>
+    <message>
+        <source>Scheduled tasks that failed</source>
+        <translation>Kazi zilizoratibiwa ambazo zimeshindwa</translation>
+    </message>
+    <message>
+        <source>A page</source>
+        <translation>Ukurasa</translation>
+    </message>
+    <message>
+        <source>The workflow %workflow stopped with an error on %time.</source>
+        <translation>Mtiririko wa kazi %workflow ulisimama kwa hitilafu %time.</translation>
+    </message>
+    <message>
+        <source>%n new in your inbox</source>
+        <translation>%n mpya kwenye kikasha chako</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Kikasha</translation>
     </message>

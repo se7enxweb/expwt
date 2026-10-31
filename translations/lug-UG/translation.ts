@@ -784,6 +784,66 @@
         <translation>Enkyukakyuka ezitaterekeddwa ku lupapula luno</translation>
     </message>
     <message>
+        <source>There is no such item.</source>
+        <translation>Tewali kintu ng'ekyo.</translation>
+    </message>
+    <message>
+        <source>Mark as read</source>
+        <translation>Ssaako akabonero nti kisomeddwa</translation>
+    </message>
+    <message>
+        <source>Open in the administration</source>
+        <translation>Ggulawo mu bukulembeze</translation>
+    </message>
+    <message>
+        <source>Comments and mentions</source>
+        <translation>Endowooza n'okwogerwako</translation>
+    </message>
+    <message>
+        <source>Mentions you</source>
+        <translation>Akwogeddeko</translation>
+    </message>
+    <message>
+        <source>%n new</source>
+        <translation>%n empya</translation>
+    </message>
+    <message>
+        <source>Your pages</source>
+        <translation>Empapula zo</translation>
+    </message>
+    <message>
+        <source>Approved</source>
+        <translation>Kikkiriziddwa</translation>
+    </message>
+    <message>
+        <source>Denied</source>
+        <translation>Kigaaniddwa</translation>
+    </message>
+    <message>
+        <source>It is published when the publishing workflow continues.</source>
+        <translation>Kijja kufulumizibwa enkola y'emirimu egy'okufulumya bwe nesigala ng'egenda.</translation>
+    </message>
+    <message>
+        <source>It is a draft of yours again.</source>
+        <translation>Kiddamu okuba ddulaafuti yo.</translation>
+    </message>
+    <message>
+        <source>Scheduled tasks that failed</source>
+        <translation>Emirimu egyategekebwa egyalemererwa</translation>
+    </message>
+    <message>
+        <source>A page</source>
+        <translation>Olupapula</translation>
+    </message>
+    <message>
+        <source>The workflow %workflow stopped with an error on %time.</source>
+        <translation>Enkola y'emirimu %workflow yayimirira olw'ensobi ku %time.</translation>
+    </message>
+    <message>
+        <source>%n new in your inbox</source>
+        <translation>%n empya mu bibaluwa byo ebiyingira</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Ebibaluwa ebiyingira</translation>
     </message>

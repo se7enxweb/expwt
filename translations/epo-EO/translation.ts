@@ -784,6 +784,66 @@
         <translation>Nekonservitaj ŝanĝoj en ĉi tiu paĝo</translation>
     </message>
     <message>
+        <source>There is no such item.</source>
+        <translation>Tia ero ne ekzistas.</translation>
+    </message>
+    <message>
+        <source>Mark as read</source>
+        <translation>Marki kiel legitan</translation>
+    </message>
+    <message>
+        <source>Open in the administration</source>
+        <translation>Malfermi en la administrado</translation>
+    </message>
+    <message>
+        <source>Comments and mentions</source>
+        <translation>Komentoj kaj mencioj</translation>
+    </message>
+    <message>
+        <source>Mentions you</source>
+        <translation>Mencias vin</translation>
+    </message>
+    <message>
+        <source>%n new</source>
+        <translation>%n novaj</translation>
+    </message>
+    <message>
+        <source>Your pages</source>
+        <translation>Viaj paĝoj</translation>
+    </message>
+    <message>
+        <source>Approved</source>
+        <translation>Aprobita</translation>
+    </message>
+    <message>
+        <source>Denied</source>
+        <translation>Rifuzita</translation>
+    </message>
+    <message>
+        <source>It is published when the publishing workflow continues.</source>
+        <translation>Ĝi estos publikigita kiam la publikiga laborfluo daŭros.</translation>
+    </message>
+    <message>
+        <source>It is a draft of yours again.</source>
+        <translation>Ĝi denove estas via malneto.</translation>
+    </message>
+    <message>
+        <source>Scheduled tasks that failed</source>
+        <translation>Planitaj taskoj kiuj malsukcesis</translation>
+    </message>
+    <message>
+        <source>A page</source>
+        <translation>Paĝo</translation>
+    </message>
+    <message>
+        <source>The workflow %workflow stopped with an error on %time.</source>
+        <translation>La laborfluo %workflow haltis kun eraro je %time.</translation>
+    </message>
+    <message>
+        <source>%n new in your inbox</source>
+        <translation>%n novaj en via enirkesto</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Enirkesto</translation>
     </message>

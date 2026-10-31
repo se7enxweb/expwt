@@ -784,6 +784,66 @@
         <translation>שינויים שלא נשמרו בדף זה</translation>
     </message>
     <message>
+        <source>There is no such item.</source>
+        <translation>אין פריט כזה.</translation>
+    </message>
+    <message>
+        <source>Mark as read</source>
+        <translation>סימון כנקרא</translation>
+    </message>
+    <message>
+        <source>Open in the administration</source>
+        <translation>פתיחה בניהול</translation>
+    </message>
+    <message>
+        <source>Comments and mentions</source>
+        <translation>תגובות ואזכורים</translation>
+    </message>
+    <message>
+        <source>Mentions you</source>
+        <translation>מזכיר אותך</translation>
+    </message>
+    <message>
+        <source>%n new</source>
+        <translation>%n חדשים</translation>
+    </message>
+    <message>
+        <source>Your pages</source>
+        <translation>הדפים שלך</translation>
+    </message>
+    <message>
+        <source>Approved</source>
+        <translation>אושר</translation>
+    </message>
+    <message>
+        <source>Denied</source>
+        <translation>נדחה</translation>
+    </message>
+    <message>
+        <source>It is published when the publishing workflow continues.</source>
+        <translation>הוא יפורסם כשתהליך העבודה של הפרסום ימשיך.</translation>
+    </message>
+    <message>
+        <source>It is a draft of yours again.</source>
+        <translation>זו שוב טיוטה שלך.</translation>
+    </message>
+    <message>
+        <source>Scheduled tasks that failed</source>
+        <translation>משימות מתוזמנות שנכשלו</translation>
+    </message>
+    <message>
+        <source>A page</source>
+        <translation>דף</translation>
+    </message>
+    <message>
+        <source>The workflow %workflow stopped with an error on %time.</source>
+        <translation>תהליך העבודה %workflow נעצר עם שגיאה ב-%time.</translation>
+    </message>
+    <message>
+        <source>%n new in your inbox</source>
+        <translation>%n חדשים בתיבת הדואר הנכנס</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>תיבת דואר נכנס</translation>
     </message>

@@ -784,6 +784,66 @@
         <translation>Mutationes non servatae in hac pagina</translation>
     </message>
     <message>
+        <source>There is no such item.</source>
+        <translation>Nulla talis res est.</translation>
+    </message>
+    <message>
+        <source>Mark as read</source>
+        <translation>Ut lectum nota</translation>
+    </message>
+    <message>
+        <source>Open in the administration</source>
+        <translation>In administratione aperi</translation>
+    </message>
+    <message>
+        <source>Comments and mentions</source>
+        <translation>Commentarii et mentiones</translation>
+    </message>
+    <message>
+        <source>Mentions you</source>
+        <translation>Te memorat</translation>
+    </message>
+    <message>
+        <source>%n new</source>
+        <translation>%n nova</translation>
+    </message>
+    <message>
+        <source>Your pages</source>
+        <translation>Paginae tuae</translation>
+    </message>
+    <message>
+        <source>Approved</source>
+        <translation>Probatum</translation>
+    </message>
+    <message>
+        <source>Denied</source>
+        <translation>Recusatum</translation>
+    </message>
+    <message>
+        <source>It is published when the publishing workflow continues.</source>
+        <translation>Edetur cum cursus operis edendi pergit.</translation>
+    </message>
+    <message>
+        <source>It is a draft of yours again.</source>
+        <translation>Rursus adumbratio tua est.</translation>
+    </message>
+    <message>
+        <source>Scheduled tasks that failed</source>
+        <translation>Munera statuta quae defecerunt</translation>
+    </message>
+    <message>
+        <source>A page</source>
+        <translation>Pagina</translation>
+    </message>
+    <message>
+        <source>The workflow %workflow stopped with an error on %time.</source>
+        <translation>Cursus operis %workflow errore constitit %time.</translation>
+    </message>
+    <message>
+        <source>%n new in your inbox</source>
+        <translation>%n nova in arca tua accepta</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Arca accepta</translation>
     </message>

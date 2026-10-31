@@ -784,6 +784,66 @@
         <translation>Óvistaðar breytingar á þessari síðu</translation>
     </message>
     <message>
+        <source>There is no such item.</source>
+        <translation>Ekkert slíkt atriði er til.</translation>
+    </message>
+    <message>
+        <source>Mark as read</source>
+        <translation>Merkja sem lesið</translation>
+    </message>
+    <message>
+        <source>Open in the administration</source>
+        <translation>Opna í stjórnborði</translation>
+    </message>
+    <message>
+        <source>Comments and mentions</source>
+        <translation>Athugasemdir og tilvísanir</translation>
+    </message>
+    <message>
+        <source>Mentions you</source>
+        <translation>Nefnir þig</translation>
+    </message>
+    <message>
+        <source>%n new</source>
+        <translation>%n ný</translation>
+    </message>
+    <message>
+        <source>Your pages</source>
+        <translation>Síðurnar þínar</translation>
+    </message>
+    <message>
+        <source>Approved</source>
+        <translation>Samþykkt</translation>
+    </message>
+    <message>
+        <source>Denied</source>
+        <translation>Hafnað</translation>
+    </message>
+    <message>
+        <source>It is published when the publishing workflow continues.</source>
+        <translation>Hún verður birt þegar birtingarvinnuflæðið heldur áfram.</translation>
+    </message>
+    <message>
+        <source>It is a draft of yours again.</source>
+        <translation>Þetta eru aftur drögin þín.</translation>
+    </message>
+    <message>
+        <source>Scheduled tasks that failed</source>
+        <translation>Áætluð verk sem mistókust</translation>
+    </message>
+    <message>
+        <source>A page</source>
+        <translation>Síða</translation>
+    </message>
+    <message>
+        <source>The workflow %workflow stopped with an error on %time.</source>
+        <translation>Vinnuflæðið %workflow stöðvaðist með villu %time.</translation>
+    </message>
+    <message>
+        <source>%n new in your inbox</source>
+        <translation>%n ný í innhólfinu þínu</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Innhólf</translation>
     </message>

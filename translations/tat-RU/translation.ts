@@ -784,6 +784,66 @@
         <translation>Бу биттә сакланмаган үзгәрешләр</translation>
     </message>
     <message>
+        <source>There is no such item.</source>
+        <translation>Мондый элемент юк.</translation>
+    </message>
+    <message>
+        <source>Mark as read</source>
+        <translation>Укылган дип билгеләү</translation>
+    </message>
+    <message>
+        <source>Open in the administration</source>
+        <translation>Идарәдә ачу</translation>
+    </message>
+    <message>
+        <source>Comments and mentions</source>
+        <translation>Аңлатмалар һәм искә алулар</translation>
+    </message>
+    <message>
+        <source>Mentions you</source>
+        <translation>Сезне искә ала</translation>
+    </message>
+    <message>
+        <source>%n new</source>
+        <translation>%n яңа</translation>
+    </message>
+    <message>
+        <source>Your pages</source>
+        <translation>Сезнең битләр</translation>
+    </message>
+    <message>
+        <source>Approved</source>
+        <translation>Расланды</translation>
+    </message>
+    <message>
+        <source>Denied</source>
+        <translation>Кире кагылды</translation>
+    </message>
+    <message>
+        <source>It is published when the publishing workflow continues.</source>
+        <translation>Бастыру эш процессы дәвам иткәч, ул бастырылачак.</translation>
+    </message>
+    <message>
+        <source>It is a draft of yours again.</source>
+        <translation>Бу яңадан сезнең каралама.</translation>
+    </message>
+    <message>
+        <source>Scheduled tasks that failed</source>
+        <translation>Уңышсыз булган планлаштырылган биремнәр</translation>
+    </message>
+    <message>
+        <source>A page</source>
+        <translation>Бит</translation>
+    </message>
+    <message>
+        <source>The workflow %workflow stopped with an error on %time.</source>
+        <translation>%workflow эш процессы %time хата белән туктады.</translation>
+    </message>
+    <message>
+        <source>%n new in your inbox</source>
+        <translation>Керүчеләрегездә %n яңа</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Керүчеләр</translation>
     </message>

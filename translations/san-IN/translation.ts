@@ -784,6 +784,66 @@
         <translation>अस्मिन् पृष्ठे असंरक्षिताः परिवर्तनाः</translation>
     </message>
     <message>
+        <source>There is no such item.</source>
+        <translation>तादृशं किमपि वस्तु नास्ति।</translation>
+    </message>
+    <message>
+        <source>Mark as read</source>
+        <translation>पठितम् इति चिह्नयतु</translation>
+    </message>
+    <message>
+        <source>Open in the administration</source>
+        <translation>प्रशासने उद्घाटयतु</translation>
+    </message>
+    <message>
+        <source>Comments and mentions</source>
+        <translation>टिप्पण्यः उल्लेखाः च</translation>
+    </message>
+    <message>
+        <source>Mentions you</source>
+        <translation>भवन्तम् उल्लिखति</translation>
+    </message>
+    <message>
+        <source>%n new</source>
+        <translation>%n नूतनानि</translation>
+    </message>
+    <message>
+        <source>Your pages</source>
+        <translation>भवतः पृष्ठानि</translation>
+    </message>
+    <message>
+        <source>Approved</source>
+        <translation>अनुमोदितम्</translation>
+    </message>
+    <message>
+        <source>Denied</source>
+        <translation>निराकृतम्</translation>
+    </message>
+    <message>
+        <source>It is published when the publishing workflow continues.</source>
+        <translation>प्रकाशनस्य कार्यप्रवाहे अग्रे गते एतत् प्रकाशितं भविष्यति।</translation>
+    </message>
+    <message>
+        <source>It is a draft of yours again.</source>
+        <translation>एतत् पुनः भवतः प्रारूपम् अस्ति।</translation>
+    </message>
+    <message>
+        <source>Scheduled tasks that failed</source>
+        <translation>विफलानि निर्धारितकार्याणि</translation>
+    </message>
+    <message>
+        <source>A page</source>
+        <translation>एकं पृष्ठम्</translation>
+    </message>
+    <message>
+        <source>The workflow %workflow stopped with an error on %time.</source>
+        <translation>कार्यप्रवाहः %workflow %time समये दोषेण स्थगितः।</translation>
+    </message>
+    <message>
+        <source>%n new in your inbox</source>
+        <translation>भवतः आगतपेटिकायां %n नूतनानि</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>आगतपेटिका</translation>
     </message>

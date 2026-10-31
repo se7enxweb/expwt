@@ -784,6 +784,66 @@
         <translation>ਇਸ ਪੰਨੇ ਉੱਤੇ ਨਾ ਸੰਭਾਲੀਆਂ ਤਬਦੀਲੀਆਂ</translation>
     </message>
     <message>
+        <source>There is no such item.</source>
+        <translation>ਅਜਿਹੀ ਕੋਈ ਆਈਟਮ ਨਹੀਂ ਹੈ।</translation>
+    </message>
+    <message>
+        <source>Mark as read</source>
+        <translation>ਪੜ੍ਹਿਆ ਵਜੋਂ ਨਿਸ਼ਾਨ ਲਾਓ</translation>
+    </message>
+    <message>
+        <source>Open in the administration</source>
+        <translation>ਪ੍ਰਸ਼ਾਸਨ ਵਿੱਚ ਖੋਲ੍ਹੋ</translation>
+    </message>
+    <message>
+        <source>Comments and mentions</source>
+        <translation>ਟਿੱਪਣੀਆਂ ਅਤੇ ਜ਼ਿਕਰ</translation>
+    </message>
+    <message>
+        <source>Mentions you</source>
+        <translation>ਤੁਹਾਡਾ ਜ਼ਿਕਰ ਕਰਦਾ ਹੈ</translation>
+    </message>
+    <message>
+        <source>%n new</source>
+        <translation>%n ਨਵੇਂ</translation>
+    </message>
+    <message>
+        <source>Your pages</source>
+        <translation>ਤੁਹਾਡੇ ਪੰਨੇ</translation>
+    </message>
+    <message>
+        <source>Approved</source>
+        <translation>ਮਨਜ਼ੂਰ</translation>
+    </message>
+    <message>
+        <source>Denied</source>
+        <translation>ਨਾਮਨਜ਼ੂਰ</translation>
+    </message>
+    <message>
+        <source>It is published when the publishing workflow continues.</source>
+        <translation>ਪ੍ਰਕਾਸ਼ਨ ਵਰਕਫ਼ਲੋ ਅੱਗੇ ਵਧਣ ਤੇ ਇਹ ਪ੍ਰਕਾਸ਼ਿਤ ਹੋਵੇਗਾ।</translation>
+    </message>
+    <message>
+        <source>It is a draft of yours again.</source>
+        <translation>ਇਹ ਫਿਰ ਤੋਂ ਤੁਹਾਡਾ ਖਰੜਾ ਹੈ।</translation>
+    </message>
+    <message>
+        <source>Scheduled tasks that failed</source>
+        <translation>ਅਸਫਲ ਹੋਏ ਨਿਰਧਾਰਿਤ ਕੰਮ</translation>
+    </message>
+    <message>
+        <source>A page</source>
+        <translation>ਇੱਕ ਪੰਨਾ</translation>
+    </message>
+    <message>
+        <source>The workflow %workflow stopped with an error on %time.</source>
+        <translation>ਵਰਕਫ਼ਲੋ %workflow %time ਨੂੰ ਗਲਤੀ ਨਾਲ ਰੁਕ ਗਿਆ।</translation>
+    </message>
+    <message>
+        <source>%n new in your inbox</source>
+        <translation>ਤੁਹਾਡੇ ਇਨਬਾਕਸ ਵਿੱਚ %n ਨਵੇਂ</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>ਇਨਬਾਕਸ</translation>
     </message>

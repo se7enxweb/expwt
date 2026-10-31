@@ -784,6 +784,66 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <source>There is no such item.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Mark as read</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Open in the administration</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Comments and mentions</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Mentions you</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>%n new</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Your pages</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Approved</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Denied</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>It is published when the publishing workflow continues.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>It is a draft of yours again.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Scheduled tasks that failed</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>A page</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The workflow %workflow stopped with an error on %time.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>%n new in your inbox</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation type="unfinished"></translation>
     </message>

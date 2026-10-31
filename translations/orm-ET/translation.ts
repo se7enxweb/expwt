@@ -784,6 +784,66 @@
         <translation>Jijjiirama hin olkaa'amne fuula kana irratti</translation>
     </message>
     <message>
+        <source>There is no such item.</source>
+        <translation>Wanti akkasii hin jiru.</translation>
+    </message>
+    <message>
+        <source>Mark as read</source>
+        <translation>Akka dubbifameetti mallatteessi</translation>
+    </message>
+    <message>
+        <source>Open in the administration</source>
+        <translation>Bulchiinsa keessatti bani</translation>
+    </message>
+    <message>
+        <source>Comments and mentions</source>
+        <translation>Yaadota fi maqaa dhahuu</translation>
+    </message>
+    <message>
+        <source>Mentions you</source>
+        <translation>Si maqaa dhaha</translation>
+    </message>
+    <message>
+        <source>%n new</source>
+        <translation>%n haaraa</translation>
+    </message>
+    <message>
+        <source>Your pages</source>
+        <translation>Fuulota kee</translation>
+    </message>
+    <message>
+        <source>Approved</source>
+        <translation>Mirkanaa'eera</translation>
+    </message>
+    <message>
+        <source>Denied</source>
+        <translation>Didameera</translation>
+    </message>
+    <message>
+        <source>It is published when the publishing workflow continues.</source>
+        <translation>Yeroo adeemsi hojii maxxansaa itti fufu ni maxxanfama.</translation>
+    </message>
+    <message>
+        <source>It is a draft of yours again.</source>
+        <translation>Ammas wixinee kee ta'eera.</translation>
+    </message>
+    <message>
+        <source>Scheduled tasks that failed</source>
+        <translation>Hojiiwwan karoorfaman kan hin milkoofne</translation>
+    </message>
+    <message>
+        <source>A page</source>
+        <translation>Fuula tokko</translation>
+    </message>
+    <message>
+        <source>The workflow %workflow stopped with an error on %time.</source>
+        <translation>Adeemsi hojii %workflow %time dogoggoraan dhaabbate.</translation>
+    </message>
+    <message>
+        <source>%n new in your inbox</source>
+        <translation>%n haaraa saanduqa galtee kee keessa</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Saanduqa galtee</translation>
     </message>

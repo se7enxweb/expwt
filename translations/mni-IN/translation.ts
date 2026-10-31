@@ -784,6 +784,66 @@
         <translation>পেজ অসিদা থম্দ্রিবা অহোংবশিং</translation>
     </message>
     <message>
+        <source>There is no such item.</source>
+        <translation>অসুম্বা পোৎ অমত্তা লৈতে।</translation>
+    </message>
+    <message>
+        <source>Mark as read</source>
+        <translation>পাখ্রে হায়না মচিন থম্মু</translation>
+    </message>
+    <message>
+        <source>Open in the administration</source>
+        <translation>এদমিনিষ্ট্রেসনদা হাংদোকউ</translation>
+    </message>
+    <message>
+        <source>Comments and mentions</source>
+        <translation>ৱাখল্লোন অমসুং মমিং লৌবা</translation>
+    </message>
+    <message>
+        <source>Mentions you</source>
+        <translation>নহাক্কী মমিং লৌরে</translation>
+    </message>
+    <message>
+        <source>%n new</source>
+        <translation>অনৌবা %n</translation>
+    </message>
+    <message>
+        <source>Your pages</source>
+        <translation>নহাক্কী পেজশিং</translation>
+    </message>
+    <message>
+        <source>Approved</source>
+        <translation>অয়াবা পীখ্রে</translation>
+    </message>
+    <message>
+        <source>Denied</source>
+        <translation>য়াদ্রে</translation>
+    </message>
+    <message>
+        <source>It is published when the publishing workflow continues.</source>
+        <translation>প্রকাশ তৌবগী ৱর্কফ্লো মখা চত্থরকপা মতমদা মসি প্রকাশ তৌগনি।</translation>
+    </message>
+    <message>
+        <source>It is a draft of yours again.</source>
+        <translation>মসি অমুক হন্না নহাক্কী ড্রাফ্টনি।</translation>
+    </message>
+    <message>
+        <source>Scheduled tasks that failed</source>
+        <translation>মাইথিবা পীখিবা থৌরাং থম্লবা থবকশিং</translation>
+    </message>
+    <message>
+        <source>A page</source>
+        <translation>পেজ অমা</translation>
+    </message>
+    <message>
+        <source>The workflow %workflow stopped with an error on %time.</source>
+        <translation>ৱর্কফ্লো %workflow %time দা অশোয়বা অমগা লোইনা লেপ্পিখ্রে।</translation>
+    </message>
+    <message>
+        <source>%n new in your inbox</source>
+        <translation>নহাক্কী ইনবক্সতা অনৌবা %n</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>ইনবক্স</translation>
     </message>

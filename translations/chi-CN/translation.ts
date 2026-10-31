@@ -784,6 +784,66 @@
         <translation>此页面有未保存的更改</translation>
     </message>
     <message>
+        <source>There is no such item.</source>
+        <translation>没有此项目。</translation>
+    </message>
+    <message>
+        <source>Mark as read</source>
+        <translation>标记为已读</translation>
+    </message>
+    <message>
+        <source>Open in the administration</source>
+        <translation>在管理后台打开</translation>
+    </message>
+    <message>
+        <source>Comments and mentions</source>
+        <translation>评论和提及</translation>
+    </message>
+    <message>
+        <source>Mentions you</source>
+        <translation>提及了你</translation>
+    </message>
+    <message>
+        <source>%n new</source>
+        <translation>%n 条新</translation>
+    </message>
+    <message>
+        <source>Your pages</source>
+        <translation>你的页面</translation>
+    </message>
+    <message>
+        <source>Approved</source>
+        <translation>已批准</translation>
+    </message>
+    <message>
+        <source>Denied</source>
+        <translation>已拒绝</translation>
+    </message>
+    <message>
+        <source>It is published when the publishing workflow continues.</source>
+        <translation>发布工作流继续后即会发布。</translation>
+    </message>
+    <message>
+        <source>It is a draft of yours again.</source>
+        <translation>它又是你的草稿了。</translation>
+    </message>
+    <message>
+        <source>Scheduled tasks that failed</source>
+        <translation>失败的计划任务</translation>
+    </message>
+    <message>
+        <source>A page</source>
+        <translation>一个页面</translation>
+    </message>
+    <message>
+        <source>The workflow %workflow stopped with an error on %time.</source>
+        <translation>工作流 %workflow 于 %time 出错停止。</translation>
+    </message>
+    <message>
+        <source>%n new in your inbox</source>
+        <translation>收件箱中有 %n 条新消息</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>收件箱</translation>
     </message>

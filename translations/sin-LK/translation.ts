@@ -784,6 +784,66 @@
         <translation>මෙම පිටුවේ නොසුරැකූ වෙනස්කම්</translation>
     </message>
     <message>
+        <source>There is no such item.</source>
+        <translation>එවැනි අයිතමයක් නැත.</translation>
+    </message>
+    <message>
+        <source>Mark as read</source>
+        <translation>කියවූ ලෙස සලකුණු කරන්න</translation>
+    </message>
+    <message>
+        <source>Open in the administration</source>
+        <translation>පරිපාලනයේ විවෘත කරන්න</translation>
+    </message>
+    <message>
+        <source>Comments and mentions</source>
+        <translation>අදහස් සහ සඳහන් කිරීම්</translation>
+    </message>
+    <message>
+        <source>Mentions you</source>
+        <translation>ඔබව සඳහන් කරයි</translation>
+    </message>
+    <message>
+        <source>%n new</source>
+        <translation>නව %n</translation>
+    </message>
+    <message>
+        <source>Your pages</source>
+        <translation>ඔබේ පිටු</translation>
+    </message>
+    <message>
+        <source>Approved</source>
+        <translation>අනුමත කළා</translation>
+    </message>
+    <message>
+        <source>Denied</source>
+        <translation>ප්‍රතික්ෂේප කළා</translation>
+    </message>
+    <message>
+        <source>It is published when the publishing workflow continues.</source>
+        <translation>ප්‍රකාශන කාර්ය ප්‍රවාහය ඉදිරියට යන විට එය ප්‍රකාශයට පත් වේ.</translation>
+    </message>
+    <message>
+        <source>It is a draft of yours again.</source>
+        <translation>එය නැවතත් ඔබේ කෙටුම්පතකි.</translation>
+    </message>
+    <message>
+        <source>Scheduled tasks that failed</source>
+        <translation>අසාර්ථක වූ කාලසටහන්ගත කාර්යයන්</translation>
+    </message>
+    <message>
+        <source>A page</source>
+        <translation>පිටුවක්</translation>
+    </message>
+    <message>
+        <source>The workflow %workflow stopped with an error on %time.</source>
+        <translation>කාර්ය ප්‍රවාහය %workflow %time ට දෝෂයකින් නතර විය.</translation>
+    </message>
+    <message>
+        <source>%n new in your inbox</source>
+        <translation>ඔබේ එන ලිපිවල නව %n</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>එන ලිපි</translation>
     </message>

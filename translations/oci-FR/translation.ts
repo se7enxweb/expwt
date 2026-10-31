@@ -784,6 +784,66 @@
         <translation>Modificacions pas enregistradas sus aquesta pagina</translation>
     </message>
     <message>
+        <source>There is no such item.</source>
+        <translation>Aqueste element existís pas.</translation>
+    </message>
+    <message>
+        <source>Mark as read</source>
+        <translation>Marcar coma legit</translation>
+    </message>
+    <message>
+        <source>Open in the administration</source>
+        <translation>Dobrir dins l'administracion</translation>
+    </message>
+    <message>
+        <source>Comments and mentions</source>
+        <translation>Comentaris e mencions</translation>
+    </message>
+    <message>
+        <source>Mentions you</source>
+        <translation>Vos menciona</translation>
+    </message>
+    <message>
+        <source>%n new</source>
+        <translation>%n novèls</translation>
+    </message>
+    <message>
+        <source>Your pages</source>
+        <translation>Vòstras paginas</translation>
+    </message>
+    <message>
+        <source>Approved</source>
+        <translation>Aprovada</translation>
+    </message>
+    <message>
+        <source>Denied</source>
+        <translation>Refusada</translation>
+    </message>
+    <message>
+        <source>It is published when the publishing workflow continues.</source>
+        <translation>Serà publicada quand lo flux de trabalh de publicacion contunharà.</translation>
+    </message>
+    <message>
+        <source>It is a draft of yours again.</source>
+        <translation>Es tornamai un borrolhon vòstre.</translation>
+    </message>
+    <message>
+        <source>Scheduled tasks that failed</source>
+        <translation>Prètzfaches planificats que an fracassat</translation>
+    </message>
+    <message>
+        <source>A page</source>
+        <translation>Una pagina</translation>
+    </message>
+    <message>
+        <source>The workflow %workflow stopped with an error on %time.</source>
+        <translation>Lo flux de trabalh %workflow s'es arrestat amb una error lo %time.</translation>
+    </message>
+    <message>
+        <source>%n new in your inbox</source>
+        <translation>%n novèls dins vòstra bóstia de recepcion</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Bóstia de recepcion</translation>
     </message>

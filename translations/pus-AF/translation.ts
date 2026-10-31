@@ -784,6 +784,66 @@
         <translation>په دې پاڼه کې ناخوندي بدلونونه</translation>
     </message>
     <message>
+        <source>There is no such item.</source>
+        <translation>داسې توکی نشته.</translation>
+    </message>
+    <message>
+        <source>Mark as read</source>
+        <translation>د لوستل شوي په توګه نښه کړئ</translation>
+    </message>
+    <message>
+        <source>Open in the administration</source>
+        <translation>په ادارې کې پرانیزئ</translation>
+    </message>
+    <message>
+        <source>Comments and mentions</source>
+        <translation>تبصرې او یادونې</translation>
+    </message>
+    <message>
+        <source>Mentions you</source>
+        <translation>تاسو یادوي</translation>
+    </message>
+    <message>
+        <source>%n new</source>
+        <translation>%n نوي</translation>
+    </message>
+    <message>
+        <source>Your pages</source>
+        <translation>ستاسو پاڼې</translation>
+    </message>
+    <message>
+        <source>Approved</source>
+        <translation>تایید شو</translation>
+    </message>
+    <message>
+        <source>Denied</source>
+        <translation>رد شو</translation>
+    </message>
+    <message>
+        <source>It is published when the publishing workflow continues.</source>
+        <translation>کله چې د خپرولو کاري بهیر دوام وکړي خپرېږي.</translation>
+    </message>
+    <message>
+        <source>It is a draft of yours again.</source>
+        <translation>دا بیا ستاسو مسوده ده.</translation>
+    </message>
+    <message>
+        <source>Scheduled tasks that failed</source>
+        <translation>ټاکل شوې دندې چې ناکامې شوې</translation>
+    </message>
+    <message>
+        <source>A page</source>
+        <translation>یوه پاڼه</translation>
+    </message>
+    <message>
+        <source>The workflow %workflow stopped with an error on %time.</source>
+        <translation>کاري بهیر %workflow په %time د تېروتنې سره ودرېد.</translation>
+    </message>
+    <message>
+        <source>%n new in your inbox</source>
+        <translation>ستاسو په راغلو لیکونو کې %n نوي</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>راغلي لیکونه</translation>
     </message>

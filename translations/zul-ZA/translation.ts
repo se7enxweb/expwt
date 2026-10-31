@@ -784,6 +784,66 @@
         <translation>Izinguquko ezingalondolozwanga kuleli khasi</translation>
     </message>
     <message>
+        <source>There is no such item.</source>
+        <translation>Ayikho into enjalo.</translation>
+    </message>
+    <message>
+        <source>Mark as read</source>
+        <translation>Maka njengokufundiwe</translation>
+    </message>
+    <message>
+        <source>Open in the administration</source>
+        <translation>Vula kwezokuphatha</translation>
+    </message>
+    <message>
+        <source>Comments and mentions</source>
+        <translation>Imibono nokushiwo</translation>
+    </message>
+    <message>
+        <source>Mentions you</source>
+        <translation>Uyakusho</translation>
+    </message>
+    <message>
+        <source>%n new</source>
+        <translation>%n ezintsha</translation>
+    </message>
+    <message>
+        <source>Your pages</source>
+        <translation>Amakhasi akho</translation>
+    </message>
+    <message>
+        <source>Approved</source>
+        <translation>Kugunyaziwe</translation>
+    </message>
+    <message>
+        <source>Denied</source>
+        <translation>Kwenqatshiwe</translation>
+    </message>
+    <message>
+        <source>It is published when the publishing workflow continues.</source>
+        <translation>Kuzoshicilelwa uma ukuhamba komsebenzi kokushicilela kuqhubeka.</translation>
+    </message>
+    <message>
+        <source>It is a draft of yours again.</source>
+        <translation>Sesiyisiqeshana sakho futhi.</translation>
+    </message>
+    <message>
+        <source>Scheduled tasks that failed</source>
+        <translation>Imisebenzi ehleliwe ehlulekile</translation>
+    </message>
+    <message>
+        <source>A page</source>
+        <translation>Ikhasi</translation>
+    </message>
+    <message>
+        <source>The workflow %workflow stopped with an error on %time.</source>
+        <translation>Ukuhamba komsebenzi %workflow kumile ngephutha ngo-%time.</translation>
+    </message>
+    <message>
+        <source>%n new in your inbox</source>
+        <translation>%n ezintsha ebhokisini lakho lokungenayo</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Ibhokisi lokungenayo</translation>
     </message>

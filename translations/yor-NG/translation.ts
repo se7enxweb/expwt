@@ -784,6 +784,66 @@
         <translation>Àwọn àyípadà tí a kò fi pamọ́ lórí ojú ìwé yìí</translation>
     </message>
     <message>
+        <source>There is no such item.</source>
+        <translation>Kò sí irú nǹkan bẹ́ẹ̀.</translation>
+    </message>
+    <message>
+        <source>Mark as read</source>
+        <translation>Sàmì sí bí èyí tí a ti kà</translation>
+    </message>
+    <message>
+        <source>Open in the administration</source>
+        <translation>Ṣí i nínú ìṣàkóso</translation>
+    </message>
+    <message>
+        <source>Comments and mentions</source>
+        <translation>Àwọn àlàyé àti ìdárúkọ</translation>
+    </message>
+    <message>
+        <source>Mentions you</source>
+        <translation>Ó dárúkọ rẹ</translation>
+    </message>
+    <message>
+        <source>%n new</source>
+        <translation>%n tuntun</translation>
+    </message>
+    <message>
+        <source>Your pages</source>
+        <translation>Àwọn ojú ìwé rẹ</translation>
+    </message>
+    <message>
+        <source>Approved</source>
+        <translation>A ti fọwọ́ sí i</translation>
+    </message>
+    <message>
+        <source>Denied</source>
+        <translation>A ti kọ̀ ọ́</translation>
+    </message>
+    <message>
+        <source>It is published when the publishing workflow continues.</source>
+        <translation>A ó tẹ̀ ẹ́ jáde nígbà tí ìlànà iṣẹ́ ìtẹ̀jáde bá tẹ̀síwájú.</translation>
+    </message>
+    <message>
+        <source>It is a draft of yours again.</source>
+        <translation>Ó tún di àkọsílẹ̀ àkọ́kọ́ rẹ.</translation>
+    </message>
+    <message>
+        <source>Scheduled tasks that failed</source>
+        <translation>Àwọn iṣẹ́ tí a ṣètò tí ó kùnà</translation>
+    </message>
+    <message>
+        <source>A page</source>
+        <translation>Ojú ìwé kan</translation>
+    </message>
+    <message>
+        <source>The workflow %workflow stopped with an error on %time.</source>
+        <translation>Ìlànà iṣẹ́ %workflow dúró pẹ̀lú àṣìṣe ní %time.</translation>
+    </message>
+    <message>
+        <source>%n new in your inbox</source>
+        <translation>%n tuntun nínú àpótí ìwọlé rẹ</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Àpótí ìwọlé</translation>
     </message>

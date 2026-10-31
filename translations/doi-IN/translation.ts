@@ -784,6 +784,66 @@
         <translation>इस पन्ने पर बिना सेव कीते बदलाव</translation>
     </message>
     <message>
+        <source>There is no such item.</source>
+        <translation>इस चाली दी कोई चीज नेईं ऐ।</translation>
+    </message>
+    <message>
+        <source>Mark as read</source>
+        <translation>पढ़ेआ होई गेआ निशान लाओ</translation>
+    </message>
+    <message>
+        <source>Open in the administration</source>
+        <translation>प्रशासन च खोल्लो</translation>
+    </message>
+    <message>
+        <source>Comments and mentions</source>
+        <translation>टिप्पणियां ते जिक्र</translation>
+    </message>
+    <message>
+        <source>Mentions you</source>
+        <translation>तुंदा जिक्र करदा ऐ</translation>
+    </message>
+    <message>
+        <source>%n new</source>
+        <translation>%n नमें</translation>
+    </message>
+    <message>
+        <source>Your pages</source>
+        <translation>तुंदे पन्ने</translation>
+    </message>
+    <message>
+        <source>Approved</source>
+        <translation>मंजूर</translation>
+    </message>
+    <message>
+        <source>Denied</source>
+        <translation>नामंजूर</translation>
+    </message>
+    <message>
+        <source>It is published when the publishing workflow continues.</source>
+        <translation>छपाई दा वर्कफ़्लो अग्गें चलग तां एह् छपी जाग।</translation>
+    </message>
+    <message>
+        <source>It is a draft of yours again.</source>
+        <translation>एह् फ्ही तुंदा मसौदा ऐ।</translation>
+    </message>
+    <message>
+        <source>Scheduled tasks that failed</source>
+        <translation>फेल होए दे तैह् कम्म</translation>
+    </message>
+    <message>
+        <source>A page</source>
+        <translation>इक पन्ना</translation>
+    </message>
+    <message>
+        <source>The workflow %workflow stopped with an error on %time.</source>
+        <translation>वर्कफ़्लो %workflow %time पर गलती कन्नै रुकी गेआ।</translation>
+    </message>
+    <message>
+        <source>%n new in your inbox</source>
+        <translation>तुंदे इनबॉक्स च %n नमें</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>इनबॉक्स</translation>
     </message>

@@ -784,6 +784,66 @@
         <translation>Thay đổi chưa lưu trên trang này</translation>
     </message>
     <message>
+        <source>There is no such item.</source>
+        <translation>Không có mục này.</translation>
+    </message>
+    <message>
+        <source>Mark as read</source>
+        <translation>Đánh dấu đã đọc</translation>
+    </message>
+    <message>
+        <source>Open in the administration</source>
+        <translation>Mở trong trang quản trị</translation>
+    </message>
+    <message>
+        <source>Comments and mentions</source>
+        <translation>Bình luận và nhắc đến</translation>
+    </message>
+    <message>
+        <source>Mentions you</source>
+        <translation>Nhắc đến bạn</translation>
+    </message>
+    <message>
+        <source>%n new</source>
+        <translation>%n mới</translation>
+    </message>
+    <message>
+        <source>Your pages</source>
+        <translation>Trang của bạn</translation>
+    </message>
+    <message>
+        <source>Approved</source>
+        <translation>Đã phê duyệt</translation>
+    </message>
+    <message>
+        <source>Denied</source>
+        <translation>Đã từ chối</translation>
+    </message>
+    <message>
+        <source>It is published when the publishing workflow continues.</source>
+        <translation>Trang sẽ được xuất bản khi quy trình xuất bản tiếp tục.</translation>
+    </message>
+    <message>
+        <source>It is a draft of yours again.</source>
+        <translation>Đây lại là bản nháp của bạn.</translation>
+    </message>
+    <message>
+        <source>Scheduled tasks that failed</source>
+        <translation>Tác vụ đã lên lịch bị lỗi</translation>
+    </message>
+    <message>
+        <source>A page</source>
+        <translation>Một trang</translation>
+    </message>
+    <message>
+        <source>The workflow %workflow stopped with an error on %time.</source>
+        <translation>Quy trình %workflow đã dừng do lỗi lúc %time.</translation>
+    </message>
+    <message>
+        <source>%n new in your inbox</source>
+        <translation>%n mới trong hộp thư đến của bạn</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Hộp thư đến</translation>
     </message>

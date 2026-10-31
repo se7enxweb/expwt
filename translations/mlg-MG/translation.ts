@@ -784,6 +784,66 @@
         <translation>Fanovana tsy voatahiry amin'ity pejy ity</translation>
     </message>
     <message>
+        <source>There is no such item.</source>
+        <translation>Tsy misy zavatra toy izany.</translation>
+    </message>
+    <message>
+        <source>Mark as read</source>
+        <translation>Mariho ho voavaky</translation>
+    </message>
+    <message>
+        <source>Open in the administration</source>
+        <translation>Sokafy ao amin'ny fitantanana</translation>
+    </message>
+    <message>
+        <source>Comments and mentions</source>
+        <translation>Hevitra sy fanononana</translation>
+    </message>
+    <message>
+        <source>Mentions you</source>
+        <translation>Manonona anao</translation>
+    </message>
+    <message>
+        <source>%n new</source>
+        <translation>%n vaovao</translation>
+    </message>
+    <message>
+        <source>Your pages</source>
+        <translation>Ireo pejinao</translation>
+    </message>
+    <message>
+        <source>Approved</source>
+        <translation>Nankatoavina</translation>
+    </message>
+    <message>
+        <source>Denied</source>
+        <translation>Nolavina</translation>
+    </message>
+    <message>
+        <source>It is published when the publishing workflow continues.</source>
+        <translation>Havoaka izy rehefa mitohy ny fizotran'asa famoahana.</translation>
+    </message>
+    <message>
+        <source>It is a draft of yours again.</source>
+        <translation>Drafitrao indray izy.</translation>
+    </message>
+    <message>
+        <source>Scheduled tasks that failed</source>
+        <translation>Asa voalahatra tsy nahomby</translation>
+    </message>
+    <message>
+        <source>A page</source>
+        <translation>Pejy iray</translation>
+    </message>
+    <message>
+        <source>The workflow %workflow stopped with an error on %time.</source>
+        <translation>Nijanona tamin'ny hadisoana ny fizotran'asa %workflow tamin'ny %time.</translation>
+    </message>
+    <message>
+        <source>%n new in your inbox</source>
+        <translation>%n vaovao ao amin'ny boaty fandraisanao</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Boaty fandraisana</translation>
     </message>

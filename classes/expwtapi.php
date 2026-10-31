@@ -176,6 +176,8 @@ class expwtApi
                 return $g->insights( self::ids( $input, array( 'nodeId' ) ) );
             case 'inbox.load':
                 return $g->inbox( self::ids( $input, array( 'offset' ) ) );
+            case 'inbox.read':
+                return $g->markRead( self::ids( $input, array( 'itemId' ) ) );
             case 'inbox.decide':
                 // the comment as typed (several lines), at most 10000 characters
                 $comment = isset( $input['comment'] ) && is_scalar( $input['comment'] ) ? substr( trim( (string)$input['comment'] ), 0, 10000 ) : '';
@@ -201,8 +203,9 @@ class expwtApi
             'transport' => $g->transport(),
             'urls' => $g->urls(),
             'strings' => $g->strings(),
-            // the Inbox panel and the count on the closed tab (F29): only for a user of the kernel's collaboration
-            'inbox' => $g->collaborates() ? array( 'waiting' => $g->waitingCount() ) : null,
+            // the Inbox panel and the count on the closed tab (F29): approvals, comments and mentions, publish results
+            // (for a user of the kernel's collaboration) and failed scheduled tasks (for every user of the sidebar)
+            'inbox' => $g->capabilities()['use'] ? $g->noticeCount() : null,
             // what other extensions add and this user gets (decision 32): panels, highlights, search providers, and
             // which of their actions write
             'registry' => $g->registryForBoot(),

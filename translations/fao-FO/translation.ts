@@ -784,6 +784,66 @@
         <translation>Ikki goymdar broytingar á hesi síðuni</translation>
     </message>
     <message>
+        <source>There is no such item.</source>
+        <translation>Einki slíkt evni er til.</translation>
+    </message>
+    <message>
+        <source>Mark as read</source>
+        <translation>Merk sum lisið</translation>
+    </message>
+    <message>
+        <source>Open in the administration</source>
+        <translation>Lat upp í umsitingini</translation>
+    </message>
+    <message>
+        <source>Comments and mentions</source>
+        <translation>Viðmerkingar og umrøður</translation>
+    </message>
+    <message>
+        <source>Mentions you</source>
+        <translation>Nevnir teg</translation>
+    </message>
+    <message>
+        <source>%n new</source>
+        <translation>%n nýggj</translation>
+    </message>
+    <message>
+        <source>Your pages</source>
+        <translation>Tínar síður</translation>
+    </message>
+    <message>
+        <source>Approved</source>
+        <translation>Góðkent</translation>
+    </message>
+    <message>
+        <source>Denied</source>
+        <translation>Vrakað</translation>
+    </message>
+    <message>
+        <source>It is published when the publishing workflow continues.</source>
+        <translation>Hon verður útgivin, tá ið útgávuarbeiðsgongdin heldur fram.</translation>
+    </message>
+    <message>
+        <source>It is a draft of yours again.</source>
+        <translation>Tað er aftur tín kladda.</translation>
+    </message>
+    <message>
+        <source>Scheduled tasks that failed</source>
+        <translation>Ætlaðar uppgávur, ið miseydnaðust</translation>
+    </message>
+    <message>
+        <source>A page</source>
+        <translation>Ein síða</translation>
+    </message>
+    <message>
+        <source>The workflow %workflow stopped with an error on %time.</source>
+        <translation>Arbeiðsgongdin %workflow steðgaði við einum feili %time.</translation>
+    </message>
+    <message>
+        <source>%n new in your inbox</source>
+        <translation>%n nýggj í tínum innbakka</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Innbakki</translation>
     </message>

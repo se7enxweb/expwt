@@ -784,6 +784,66 @@
         <translation>Nesaglabātas izmaiņas šajā lapā</translation>
     </message>
     <message>
+        <source>There is no such item.</source>
+        <translation>Šāda vienuma nav.</translation>
+    </message>
+    <message>
+        <source>Mark as read</source>
+        <translation>Atzīmēt kā izlasītu</translation>
+    </message>
+    <message>
+        <source>Open in the administration</source>
+        <translation>Atvērt administrācijā</translation>
+    </message>
+    <message>
+        <source>Comments and mentions</source>
+        <translation>Komentāri un pieminējumi</translation>
+    </message>
+    <message>
+        <source>Mentions you</source>
+        <translation>Piemin jūs</translation>
+    </message>
+    <message>
+        <source>%n new</source>
+        <translation>%n jauni</translation>
+    </message>
+    <message>
+        <source>Your pages</source>
+        <translation>Jūsu lapas</translation>
+    </message>
+    <message>
+        <source>Approved</source>
+        <translation>Apstiprināts</translation>
+    </message>
+    <message>
+        <source>Denied</source>
+        <translation>Noraidīts</translation>
+    </message>
+    <message>
+        <source>It is published when the publishing workflow continues.</source>
+        <translation>Tā tiks publicēta, kad publicēšanas darbplūsma turpināsies.</translation>
+    </message>
+    <message>
+        <source>It is a draft of yours again.</source>
+        <translation>Tas atkal ir jūsu melnraksts.</translation>
+    </message>
+    <message>
+        <source>Scheduled tasks that failed</source>
+        <translation>Plānotie uzdevumi, kas neizdevās</translation>
+    </message>
+    <message>
+        <source>A page</source>
+        <translation>Lapa</translation>
+    </message>
+    <message>
+        <source>The workflow %workflow stopped with an error on %time.</source>
+        <translation>Darbplūsma %workflow apstājās ar kļūdu %time.</translation>
+    </message>
+    <message>
+        <source>%n new in your inbox</source>
+        <translation>%n jauni jūsu iesūtnē</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Iesūtne</translation>
     </message>

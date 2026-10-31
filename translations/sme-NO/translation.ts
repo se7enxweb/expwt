@@ -784,6 +784,66 @@
         <translation>Vurketkeahtes rievdadusat dán siiddus</translation>
     </message>
     <message>
+        <source>There is no such item.</source>
+        <translation>Dakkár elemeanta ii gávdno.</translation>
+    </message>
+    <message>
+        <source>Mark as read</source>
+        <translation>Merke lohkkojuvvon</translation>
+    </message>
+    <message>
+        <source>Open in the administration</source>
+        <translation>Raba hálddahusas</translation>
+    </message>
+    <message>
+        <source>Comments and mentions</source>
+        <translation>Kommeanttat ja namuheamit</translation>
+    </message>
+    <message>
+        <source>Mentions you</source>
+        <translation>Namuha du</translation>
+    </message>
+    <message>
+        <source>%n new</source>
+        <translation>%n ođđa</translation>
+    </message>
+    <message>
+        <source>Your pages</source>
+        <translation>Du siiddut</translation>
+    </message>
+    <message>
+        <source>Approved</source>
+        <translation>Dohkkehuvvon</translation>
+    </message>
+    <message>
+        <source>Denied</source>
+        <translation>Hilgojuvvon</translation>
+    </message>
+    <message>
+        <source>It is published when the publishing workflow continues.</source>
+        <translation>Dat almmuhuvvo go almmuheami bargogoavvi joatkká.</translation>
+    </message>
+    <message>
+        <source>It is a draft of yours again.</source>
+        <translation>Dat lea fas du luonos.</translation>
+    </message>
+    <message>
+        <source>Scheduled tasks that failed</source>
+        <translation>Plánejuvvon bargguid mat eai lihkostuvvan</translation>
+    </message>
+    <message>
+        <source>A page</source>
+        <translation>Siidu</translation>
+    </message>
+    <message>
+        <source>The workflow %workflow stopped with an error on %time.</source>
+        <translation>Bargogoavvi %workflow bisánii meattáhusain %time.</translation>
+    </message>
+    <message>
+        <source>%n new in your inbox</source>
+        <translation>%n ođđa du sisaboarttas</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Sisaboarta</translation>
     </message>

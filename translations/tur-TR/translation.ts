@@ -784,6 +784,66 @@
         <translation>Bu sayfada kaydedilmemiş değişiklikler</translation>
     </message>
     <message>
+        <source>There is no such item.</source>
+        <translation>Böyle bir öğe yok.</translation>
+    </message>
+    <message>
+        <source>Mark as read</source>
+        <translation>Okundu olarak işaretle</translation>
+    </message>
+    <message>
+        <source>Open in the administration</source>
+        <translation>Yönetimde aç</translation>
+    </message>
+    <message>
+        <source>Comments and mentions</source>
+        <translation>Yorumlar ve bahsetmeler</translation>
+    </message>
+    <message>
+        <source>Mentions you</source>
+        <translation>Sizden bahsediyor</translation>
+    </message>
+    <message>
+        <source>%n new</source>
+        <translation>%n yeni</translation>
+    </message>
+    <message>
+        <source>Your pages</source>
+        <translation>Sayfalarınız</translation>
+    </message>
+    <message>
+        <source>Approved</source>
+        <translation>Onaylandı</translation>
+    </message>
+    <message>
+        <source>Denied</source>
+        <translation>Reddedildi</translation>
+    </message>
+    <message>
+        <source>It is published when the publishing workflow continues.</source>
+        <translation>Yayımlama iş akışı devam ettiğinde yayımlanır.</translation>
+    </message>
+    <message>
+        <source>It is a draft of yours again.</source>
+        <translation>Yine sizin taslağınız oldu.</translation>
+    </message>
+    <message>
+        <source>Scheduled tasks that failed</source>
+        <translation>Başarısız olan zamanlanmış görevler</translation>
+    </message>
+    <message>
+        <source>A page</source>
+        <translation>Bir sayfa</translation>
+    </message>
+    <message>
+        <source>The workflow %workflow stopped with an error on %time.</source>
+        <translation>%workflow iş akışı %time tarihinde bir hatayla durdu.</translation>
+    </message>
+    <message>
+        <source>%n new in your inbox</source>
+        <translation>Gelen kutunuzda %n yeni</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Gelen kutusu</translation>
     </message>

@@ -784,6 +784,66 @@
         <translation>ఈ పేజీలో సేవ్ చేయని మార్పులు</translation>
     </message>
     <message>
+        <source>There is no such item.</source>
+        <translation>అటువంటి అంశం లేదు.</translation>
+    </message>
+    <message>
+        <source>Mark as read</source>
+        <translation>చదివినట్లు గుర్తించండి</translation>
+    </message>
+    <message>
+        <source>Open in the administration</source>
+        <translation>నిర్వహణలో తెరవండి</translation>
+    </message>
+    <message>
+        <source>Comments and mentions</source>
+        <translation>వ్యాఖ్యలు మరియు ప్రస్తావనలు</translation>
+    </message>
+    <message>
+        <source>Mentions you</source>
+        <translation>మిమ్మల్ని ప్రస్తావిస్తుంది</translation>
+    </message>
+    <message>
+        <source>%n new</source>
+        <translation>%n కొత్తవి</translation>
+    </message>
+    <message>
+        <source>Your pages</source>
+        <translation>మీ పేజీలు</translation>
+    </message>
+    <message>
+        <source>Approved</source>
+        <translation>ఆమోదించబడింది</translation>
+    </message>
+    <message>
+        <source>Denied</source>
+        <translation>తిరస్కరించబడింది</translation>
+    </message>
+    <message>
+        <source>It is published when the publishing workflow continues.</source>
+        <translation>ప్రచురణ వర్క్‌ఫ్లో కొనసాగినప్పుడు ఇది ప్రచురించబడుతుంది.</translation>
+    </message>
+    <message>
+        <source>It is a draft of yours again.</source>
+        <translation>ఇది మళ్లీ మీ డ్రాఫ్ట్.</translation>
+    </message>
+    <message>
+        <source>Scheduled tasks that failed</source>
+        <translation>విఫలమైన షెడ్యూల్ చేసిన పనులు</translation>
+    </message>
+    <message>
+        <source>A page</source>
+        <translation>ఒక పేజీ</translation>
+    </message>
+    <message>
+        <source>The workflow %workflow stopped with an error on %time.</source>
+        <translation>వర్క్‌ఫ్లో %workflow %time న లోపంతో ఆగిపోయింది.</translation>
+    </message>
+    <message>
+        <source>%n new in your inbox</source>
+        <translation>మీ ఇన్‌బాక్స్‌లో %n కొత్తవి</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>ఇన్‌బాక్స్</translation>
     </message>

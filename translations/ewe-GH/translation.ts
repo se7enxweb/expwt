@@ -784,6 +784,66 @@
         <translation>Tɔtrɔ siwo womedzra ɖo o le axa sia dzi</translation>
     </message>
     <message>
+        <source>There is no such item.</source>
+        <translation>Nu sia tɔgbe meli o.</translation>
+    </message>
+    <message>
+        <source>Mark as read</source>
+        <translation>De dzesi be woxlẽe</translation>
+    </message>
+    <message>
+        <source>Open in the administration</source>
+        <translation>Ʋui le dzikpɔƒe</translation>
+    </message>
+    <message>
+        <source>Comments and mentions</source>
+        <translation>Nyagbɔgblɔwo kple ŋkɔyɔyɔwo</translation>
+    </message>
+    <message>
+        <source>Mentions you</source>
+        <translation>Eyɔ wò ŋkɔ</translation>
+    </message>
+    <message>
+        <source>%n new</source>
+        <translation>%n yeye</translation>
+    </message>
+    <message>
+        <source>Your pages</source>
+        <translation>Wò axawo</translation>
+    </message>
+    <message>
+        <source>Approved</source>
+        <translation>Wolɔ̃ ɖe edzi</translation>
+    </message>
+    <message>
+        <source>Denied</source>
+        <translation>Wogbe</translation>
+    </message>
+    <message>
+        <source>It is published when the publishing workflow continues.</source>
+        <translation>Woaɖee ɖe dutoƒo ne ɖeɖe ɖe dutoƒo ƒe dɔwɔɖoɖoa yi edzi.</translation>
+    </message>
+    <message>
+        <source>It is a draft of yours again.</source>
+        <translation>Enye wò ŋɔŋlɔ gbãtɔ ake.</translation>
+    </message>
+    <message>
+        <source>Scheduled tasks that failed</source>
+        <translation>Dɔ siwo woɖo ɖi eye womete ŋu wɔe o</translation>
+    </message>
+    <message>
+        <source>A page</source>
+        <translation>Axa aɖe</translation>
+    </message>
+    <message>
+        <source>The workflow %workflow stopped with an error on %time.</source>
+        <translation>Dɔwɔɖoɖo %workflow tɔ te kple vodada le %time.</translation>
+    </message>
+    <message>
+        <source>%n new in your inbox</source>
+        <translation>%n yeye le wò agbalẽ siwo va me</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Agbalẽ siwo va</translation>
     </message>

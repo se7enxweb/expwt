@@ -784,6 +784,66 @@
         <translation>Nsakrae a wɔnkoraeɛ wɔ krataafa yi so</translation>
     </message>
     <message>
+        <source>There is no such item.</source>
+        <translation>Adeɛ a ɛte saa nni hɔ.</translation>
+    </message>
+    <message>
+        <source>Mark as read</source>
+        <translation>Hyɛ no nsow sɛ wɔakenkan</translation>
+    </message>
+    <message>
+        <source>Open in the administration</source>
+        <translation>Bue wɔ nhyehyɛe no mu</translation>
+    </message>
+    <message>
+        <source>Comments and mentions</source>
+        <translation>Nsɛm ne mmɔdin</translation>
+    </message>
+    <message>
+        <source>Mentions you</source>
+        <translation>Ɛbɔ wo din</translation>
+    </message>
+    <message>
+        <source>%n new</source>
+        <translation>%n foforɔ</translation>
+    </message>
+    <message>
+        <source>Your pages</source>
+        <translation>Wo krataafa ahodoɔ</translation>
+    </message>
+    <message>
+        <source>Approved</source>
+        <translation>Wɔapene so</translation>
+    </message>
+    <message>
+        <source>Denied</source>
+        <translation>Wɔapo</translation>
+    </message>
+    <message>
+        <source>It is published when the publishing workflow continues.</source>
+        <translation>Wɔbɛtintim no bere a tintim workflow no toa so.</translation>
+    </message>
+    <message>
+        <source>It is a draft of yours again.</source>
+        <translation>Ɛyɛ wo draft bio.</translation>
+    </message>
+    <message>
+        <source>Scheduled tasks that failed</source>
+        <translation>Nnwuma a wɔhyehyɛeɛ a ɛantumi</translation>
+    </message>
+    <message>
+        <source>A page</source>
+        <translation>Krataafa bi</translation>
+    </message>
+    <message>
+        <source>The workflow %workflow stopped with an error on %time.</source>
+        <translation>Workflow %workflow gyinaeɛ wɔ mfomsoɔ bi mu wɔ %time.</translation>
+    </message>
+    <message>
+        <source>%n new in your inbox</source>
+        <translation>%n foforɔ wɔ wo nkrataa a aba mu</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Nkrataa a aba</translation>
     </message>

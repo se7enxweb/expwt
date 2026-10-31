@@ -784,6 +784,66 @@
         <translation>Энэ хуудсан дээрх хадгалагдаагүй өөрчлөлт</translation>
     </message>
     <message>
+        <source>There is no such item.</source>
+        <translation>Ийм зүйл байхгүй.</translation>
+    </message>
+    <message>
+        <source>Mark as read</source>
+        <translation>Уншсан гэж тэмдэглэх</translation>
+    </message>
+    <message>
+        <source>Open in the administration</source>
+        <translation>Удирдлагад нээх</translation>
+    </message>
+    <message>
+        <source>Comments and mentions</source>
+        <translation>Сэтгэгдэл ба дурдалт</translation>
+    </message>
+    <message>
+        <source>Mentions you</source>
+        <translation>Таныг дурдсан</translation>
+    </message>
+    <message>
+        <source>%n new</source>
+        <translation>%n шинэ</translation>
+    </message>
+    <message>
+        <source>Your pages</source>
+        <translation>Таны хуудсууд</translation>
+    </message>
+    <message>
+        <source>Approved</source>
+        <translation>Зөвшөөрсөн</translation>
+    </message>
+    <message>
+        <source>Denied</source>
+        <translation>Татгалзсан</translation>
+    </message>
+    <message>
+        <source>It is published when the publishing workflow continues.</source>
+        <translation>Нийтлэх ажлын урсгал үргэлжлэхэд нийтлэгдэнэ.</translation>
+    </message>
+    <message>
+        <source>It is a draft of yours again.</source>
+        <translation>Энэ дахин таны ноорог боллоо.</translation>
+    </message>
+    <message>
+        <source>Scheduled tasks that failed</source>
+        <translation>Амжилтгүй болсон төлөвлөсөн ажлууд</translation>
+    </message>
+    <message>
+        <source>A page</source>
+        <translation>Хуудас</translation>
+    </message>
+    <message>
+        <source>The workflow %workflow stopped with an error on %time.</source>
+        <translation>%workflow ажлын урсгал %time-д алдаатай зогссон.</translation>
+    </message>
+    <message>
+        <source>%n new in your inbox</source>
+        <translation>Таны ирсэнд %n шинэ</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Ирсэн</translation>
     </message>

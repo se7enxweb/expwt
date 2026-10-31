@@ -784,6 +784,66 @@
         <translation>Ikke-gemte ændringer på denne side</translation>
     </message>
     <message>
+        <source>There is no such item.</source>
+        <translation>Der er ikke noget sådant element.</translation>
+    </message>
+    <message>
+        <source>Mark as read</source>
+        <translation>Markér som læst</translation>
+    </message>
+    <message>
+        <source>Open in the administration</source>
+        <translation>Åbn i administrationen</translation>
+    </message>
+    <message>
+        <source>Comments and mentions</source>
+        <translation>Kommentarer og omtaler</translation>
+    </message>
+    <message>
+        <source>Mentions you</source>
+        <translation>Nævner dig</translation>
+    </message>
+    <message>
+        <source>%n new</source>
+        <translation>%n nye</translation>
+    </message>
+    <message>
+        <source>Your pages</source>
+        <translation>Dine sider</translation>
+    </message>
+    <message>
+        <source>Approved</source>
+        <translation>Godkendt</translation>
+    </message>
+    <message>
+        <source>Denied</source>
+        <translation>Afvist</translation>
+    </message>
+    <message>
+        <source>It is published when the publishing workflow continues.</source>
+        <translation>Den udgives, når udgivelsesworkflowet fortsætter.</translation>
+    </message>
+    <message>
+        <source>It is a draft of yours again.</source>
+        <translation>Det er dit udkast igen.</translation>
+    </message>
+    <message>
+        <source>Scheduled tasks that failed</source>
+        <translation>Planlagte opgaver, der mislykkedes</translation>
+    </message>
+    <message>
+        <source>A page</source>
+        <translation>En side</translation>
+    </message>
+    <message>
+        <source>The workflow %workflow stopped with an error on %time.</source>
+        <translation>Workflowet %workflow stoppede med en fejl %time.</translation>
+    </message>
+    <message>
+        <source>%n new in your inbox</source>
+        <translation>%n nye i din indbakke</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Indbakke</translation>
     </message>

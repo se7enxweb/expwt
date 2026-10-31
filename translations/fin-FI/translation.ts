@@ -784,6 +784,66 @@
         <translation>Tallentamattomia muutoksia tällä sivulla</translation>
     </message>
     <message>
+        <source>There is no such item.</source>
+        <translation>Tällaista kohdetta ei ole.</translation>
+    </message>
+    <message>
+        <source>Mark as read</source>
+        <translation>Merkitse luetuksi</translation>
+    </message>
+    <message>
+        <source>Open in the administration</source>
+        <translation>Avaa hallinnassa</translation>
+    </message>
+    <message>
+        <source>Comments and mentions</source>
+        <translation>Kommentit ja maininnat</translation>
+    </message>
+    <message>
+        <source>Mentions you</source>
+        <translation>Mainitsee sinut</translation>
+    </message>
+    <message>
+        <source>%n new</source>
+        <translation>%n uutta</translation>
+    </message>
+    <message>
+        <source>Your pages</source>
+        <translation>Omat sivusi</translation>
+    </message>
+    <message>
+        <source>Approved</source>
+        <translation>Hyväksytty</translation>
+    </message>
+    <message>
+        <source>Denied</source>
+        <translation>Hylätty</translation>
+    </message>
+    <message>
+        <source>It is published when the publishing workflow continues.</source>
+        <translation>Se julkaistaan, kun julkaisun työnkulku jatkuu.</translation>
+    </message>
+    <message>
+        <source>It is a draft of yours again.</source>
+        <translation>Se on taas sinun luonnoksesi.</translation>
+    </message>
+    <message>
+        <source>Scheduled tasks that failed</source>
+        <translation>Epäonnistuneet ajastetut tehtävät</translation>
+    </message>
+    <message>
+        <source>A page</source>
+        <translation>Sivu</translation>
+    </message>
+    <message>
+        <source>The workflow %workflow stopped with an error on %time.</source>
+        <translation>Työnkulku %workflow pysähtyi virheeseen %time.</translation>
+    </message>
+    <message>
+        <source>%n new in your inbox</source>
+        <translation>%n uutta saapuneissa</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Saapuneet</translation>
     </message>

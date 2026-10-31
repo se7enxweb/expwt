@@ -784,6 +784,66 @@
         <translation>Незапазени промени на тази страница</translation>
     </message>
     <message>
+        <source>There is no such item.</source>
+        <translation>Няма такъв елемент.</translation>
+    </message>
+    <message>
+        <source>Mark as read</source>
+        <translation>Отбележи като прочетено</translation>
+    </message>
+    <message>
+        <source>Open in the administration</source>
+        <translation>Отвори в администрацията</translation>
+    </message>
+    <message>
+        <source>Comments and mentions</source>
+        <translation>Коментари и споменавания</translation>
+    </message>
+    <message>
+        <source>Mentions you</source>
+        <translation>Споменава ви</translation>
+    </message>
+    <message>
+        <source>%n new</source>
+        <translation>%n нови</translation>
+    </message>
+    <message>
+        <source>Your pages</source>
+        <translation>Вашите страници</translation>
+    </message>
+    <message>
+        <source>Approved</source>
+        <translation>Одобрено</translation>
+    </message>
+    <message>
+        <source>Denied</source>
+        <translation>Отхвърлено</translation>
+    </message>
+    <message>
+        <source>It is published when the publishing workflow continues.</source>
+        <translation>Ще бъде публикувана, когато работният процес за публикуване продължи.</translation>
+    </message>
+    <message>
+        <source>It is a draft of yours again.</source>
+        <translation>Отново е ваша чернова.</translation>
+    </message>
+    <message>
+        <source>Scheduled tasks that failed</source>
+        <translation>Планирани задачи, които са се провалили</translation>
+    </message>
+    <message>
+        <source>A page</source>
+        <translation>Страница</translation>
+    </message>
+    <message>
+        <source>The workflow %workflow stopped with an error on %time.</source>
+        <translation>Работният процес %workflow спря с грешка на %time.</translation>
+    </message>
+    <message>
+        <source>%n new in your inbox</source>
+        <translation>%n нови във входящите</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Входящи</translation>
     </message>

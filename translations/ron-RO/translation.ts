@@ -784,6 +784,66 @@
         <translation>Modificări nesalvate pe această pagină</translation>
     </message>
     <message>
+        <source>There is no such item.</source>
+        <translation>Nu există un astfel de element.</translation>
+    </message>
+    <message>
+        <source>Mark as read</source>
+        <translation>Marchează ca citit</translation>
+    </message>
+    <message>
+        <source>Open in the administration</source>
+        <translation>Deschide în administrare</translation>
+    </message>
+    <message>
+        <source>Comments and mentions</source>
+        <translation>Comentarii și mențiuni</translation>
+    </message>
+    <message>
+        <source>Mentions you</source>
+        <translation>Vă menționează</translation>
+    </message>
+    <message>
+        <source>%n new</source>
+        <translation>%n noi</translation>
+    </message>
+    <message>
+        <source>Your pages</source>
+        <translation>Paginile dvs.</translation>
+    </message>
+    <message>
+        <source>Approved</source>
+        <translation>Aprobat</translation>
+    </message>
+    <message>
+        <source>Denied</source>
+        <translation>Respins</translation>
+    </message>
+    <message>
+        <source>It is published when the publishing workflow continues.</source>
+        <translation>Va fi publicată când fluxul de lucru de publicare continuă.</translation>
+    </message>
+    <message>
+        <source>It is a draft of yours again.</source>
+        <translation>Este din nou o ciornă a dvs.</translation>
+    </message>
+    <message>
+        <source>Scheduled tasks that failed</source>
+        <translation>Sarcini programate care au eșuat</translation>
+    </message>
+    <message>
+        <source>A page</source>
+        <translation>O pagină</translation>
+    </message>
+    <message>
+        <source>The workflow %workflow stopped with an error on %time.</source>
+        <translation>Fluxul de lucru %workflow s-a oprit cu o eroare la %time.</translation>
+    </message>
+    <message>
+        <source>%n new in your inbox</source>
+        <translation>%n noi în mesajele primite</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Mesaje primite</translation>
     </message>

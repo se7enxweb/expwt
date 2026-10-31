@@ -784,6 +784,66 @@
         <translation>बे बिलाइखानाआव दोनथावि सोलायनाय</translation>
     </message>
     <message>
+        <source>There is no such item.</source>
+        <translation>बेबादि मोनसे आइटेम गैया।</translation>
+    </message>
+    <message>
+        <source>Mark as read</source>
+        <translation>फरायनाय होनना चिनधाय हो</translation>
+    </message>
+    <message>
+        <source>Open in the administration</source>
+        <translation>प्रशासनाव खेव</translation>
+    </message>
+    <message>
+        <source>Comments and mentions</source>
+        <translation>बुंथि आरो मुं लानाय</translation>
+    </message>
+    <message>
+        <source>Mentions you</source>
+        <translation>नोंखौ मुं लादों</translation>
+    </message>
+    <message>
+        <source>%n new</source>
+        <translation>%n गोदान</translation>
+    </message>
+    <message>
+        <source>Your pages</source>
+        <translation>नोंथांनि बिलाइखानाफोर</translation>
+    </message>
+    <message>
+        <source>Approved</source>
+        <translation>गनायथि होनाय</translation>
+    </message>
+    <message>
+        <source>Denied</source>
+        <translation>नेवसिनाय</translation>
+    </message>
+    <message>
+        <source>It is published when the publishing workflow continues.</source>
+        <translation>फोसावनाय खामानि लामा सोलिगौ फोसावगोन।</translation>
+    </message>
+    <message>
+        <source>It is a draft of yours again.</source>
+        <translation>बे फिन नोंथांनि खस्रा।</translation>
+    </message>
+    <message>
+        <source>Scheduled tasks that failed</source>
+        <translation>फेलें जानाय सानखान्थि खामानिफोर</translation>
+    </message>
+    <message>
+        <source>A page</source>
+        <translation>मोनसे बिलाइखाना</translation>
+    </message>
+    <message>
+        <source>The workflow %workflow stopped with an error on %time.</source>
+        <translation>खामानि लामा %workflow %time आव गोरोन्थिजों थादों।</translation>
+    </message>
+    <message>
+        <source>%n new in your inbox</source>
+        <translation>नोंथांनि इनबक्साव %n गोदान</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>इनबक्स</translation>
     </message>

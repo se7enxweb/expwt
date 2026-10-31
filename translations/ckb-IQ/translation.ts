@@ -784,6 +784,66 @@
         <translation>گۆڕانکاریی پاشەکەوت نەکراو لەم پەڕەیەدا</translation>
     </message>
     <message>
+        <source>There is no such item.</source>
+        <translation>شتێکی وا نییە.</translation>
+    </message>
+    <message>
+        <source>Mark as read</source>
+        <translation>وەک خوێندراو نیشانی بکە</translation>
+    </message>
+    <message>
+        <source>Open in the administration</source>
+        <translation>لە بەڕێوەبردندا بیکەرەوە</translation>
+    </message>
+    <message>
+        <source>Comments and mentions</source>
+        <translation>لێدوان و ئاماژەپێدان</translation>
+    </message>
+    <message>
+        <source>Mentions you</source>
+        <translation>ئاماژەت پێدەکات</translation>
+    </message>
+    <message>
+        <source>%n new</source>
+        <translation>%n نوێ</translation>
+    </message>
+    <message>
+        <source>Your pages</source>
+        <translation>پەڕەکانت</translation>
+    </message>
+    <message>
+        <source>Approved</source>
+        <translation>پەسەندکرا</translation>
+    </message>
+    <message>
+        <source>Denied</source>
+        <translation>ڕەتکرایەوە</translation>
+    </message>
+    <message>
+        <source>It is published when the publishing workflow continues.</source>
+        <translation>کاتێک ڕەوتی کاری بڵاوکردنەوە بەردەوام بێت بڵاو دەکرێتەوە.</translation>
+    </message>
+    <message>
+        <source>It is a draft of yours again.</source>
+        <translation>دووبارە ڕەشنووسی تۆیە.</translation>
+    </message>
+    <message>
+        <source>Scheduled tasks that failed</source>
+        <translation>ئەرکە خشتەکراوەکانی سەرنەکەوتوو</translation>
+    </message>
+    <message>
+        <source>A page</source>
+        <translation>پەڕەیەک</translation>
+    </message>
+    <message>
+        <source>The workflow %workflow stopped with an error on %time.</source>
+        <translation>ڕەوتی کاری %workflow لە %time بە هەڵەیەک وەستا.</translation>
+    </message>
+    <message>
+        <source>%n new in your inbox</source>
+        <translation>%n نوێ لە هاتووەکانتدا</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>هاتووەکان</translation>
     </message>

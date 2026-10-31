@@ -784,6 +784,66 @@
         <translation>Niezapisane zmiany na tej stronie</translation>
     </message>
     <message>
+        <source>There is no such item.</source>
+        <translation>Nie ma takiego elementu.</translation>
+    </message>
+    <message>
+        <source>Mark as read</source>
+        <translation>Oznacz jako przeczytane</translation>
+    </message>
+    <message>
+        <source>Open in the administration</source>
+        <translation>Otwórz w administracji</translation>
+    </message>
+    <message>
+        <source>Comments and mentions</source>
+        <translation>Komentarze i wzmianki</translation>
+    </message>
+    <message>
+        <source>Mentions you</source>
+        <translation>Wspomina o tobie</translation>
+    </message>
+    <message>
+        <source>%n new</source>
+        <translation>%n nowych</translation>
+    </message>
+    <message>
+        <source>Your pages</source>
+        <translation>Twoje strony</translation>
+    </message>
+    <message>
+        <source>Approved</source>
+        <translation>Zatwierdzono</translation>
+    </message>
+    <message>
+        <source>Denied</source>
+        <translation>Odrzucono</translation>
+    </message>
+    <message>
+        <source>It is published when the publishing workflow continues.</source>
+        <translation>Zostanie opublikowana, gdy proces publikacji będzie kontynuowany.</translation>
+    </message>
+    <message>
+        <source>It is a draft of yours again.</source>
+        <translation>To znowu twoja wersja robocza.</translation>
+    </message>
+    <message>
+        <source>Scheduled tasks that failed</source>
+        <translation>Zaplanowane zadania, które się nie powiodły</translation>
+    </message>
+    <message>
+        <source>A page</source>
+        <translation>Strona</translation>
+    </message>
+    <message>
+        <source>The workflow %workflow stopped with an error on %time.</source>
+        <translation>Proces %workflow zatrzymał się z błędem %time.</translation>
+    </message>
+    <message>
+        <source>%n new in your inbox</source>
+        <translation>%n nowych w skrzynce odbiorczej</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Skrzynka odbiorcza</translation>
     </message>

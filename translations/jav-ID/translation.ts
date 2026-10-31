@@ -784,6 +784,66 @@
         <translation>Owahan sing durung disimpen ing kaca iki</translation>
     </message>
     <message>
+        <source>There is no such item.</source>
+        <translation>Item kasebut ora ana.</translation>
+    </message>
+    <message>
+        <source>Mark as read</source>
+        <translation>Tandhani wis diwaca</translation>
+    </message>
+    <message>
+        <source>Open in the administration</source>
+        <translation>Bukak ing administrasi</translation>
+    </message>
+    <message>
+        <source>Comments and mentions</source>
+        <translation>Komentar lan sebutan</translation>
+    </message>
+    <message>
+        <source>Mentions you</source>
+        <translation>Nyebut sampeyan</translation>
+    </message>
+    <message>
+        <source>%n new</source>
+        <translation>%n anyar</translation>
+    </message>
+    <message>
+        <source>Your pages</source>
+        <translation>Kaca sampeyan</translation>
+    </message>
+    <message>
+        <source>Approved</source>
+        <translation>Disetujoni</translation>
+    </message>
+    <message>
+        <source>Denied</source>
+        <translation>Ditolak</translation>
+    </message>
+    <message>
+        <source>It is published when the publishing workflow continues.</source>
+        <translation>Bakal diterbitake nalika alur kerja panerbitan lumaku maneh.</translation>
+    </message>
+    <message>
+        <source>It is a draft of yours again.</source>
+        <translation>Iki dadi draf sampeyan maneh.</translation>
+    </message>
+    <message>
+        <source>Scheduled tasks that failed</source>
+        <translation>Tugas sing dijadwal lan gagal</translation>
+    </message>
+    <message>
+        <source>A page</source>
+        <translation>Sawijining kaca</translation>
+    </message>
+    <message>
+        <source>The workflow %workflow stopped with an error on %time.</source>
+        <translation>Alur kerja %workflow mandheg amarga kesalahan ing %time.</translation>
+    </message>
+    <message>
+        <source>%n new in your inbox</source>
+        <translation>%n anyar ing kothak mlebu sampeyan</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Kothak mlebu</translation>
     </message>

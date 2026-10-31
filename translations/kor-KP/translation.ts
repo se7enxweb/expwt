@@ -784,6 +784,66 @@
         <translation>이 페이지에 저장되지 않은 변경 내용</translation>
     </message>
     <message>
+        <source>There is no such item.</source>
+        <translation>그런 항목이 없습니다.</translation>
+    </message>
+    <message>
+        <source>Mark as read</source>
+        <translation>읽음으로 표시</translation>
+    </message>
+    <message>
+        <source>Open in the administration</source>
+        <translation>관리에서 열기</translation>
+    </message>
+    <message>
+        <source>Comments and mentions</source>
+        <translation>의견과 언급</translation>
+    </message>
+    <message>
+        <source>Mentions you</source>
+        <translation>당신을 언급함</translation>
+    </message>
+    <message>
+        <source>%n new</source>
+        <translation>새 항목 %n개</translation>
+    </message>
+    <message>
+        <source>Your pages</source>
+        <translation>당신의 페이지</translation>
+    </message>
+    <message>
+        <source>Approved</source>
+        <translation>승인됨</translation>
+    </message>
+    <message>
+        <source>Denied</source>
+        <translation>거부됨</translation>
+    </message>
+    <message>
+        <source>It is published when the publishing workflow continues.</source>
+        <translation>게시 작업흐름이 계속되면 게시됩니다.</translation>
+    </message>
+    <message>
+        <source>It is a draft of yours again.</source>
+        <translation>다시 당신의 초안입니다.</translation>
+    </message>
+    <message>
+        <source>Scheduled tasks that failed</source>
+        <translation>실패한 예약 작업</translation>
+    </message>
+    <message>
+        <source>A page</source>
+        <translation>페이지</translation>
+    </message>
+    <message>
+        <source>The workflow %workflow stopped with an error on %time.</source>
+        <translation>작업흐름 %workflow이(가) %time에 오류로 중단되었습니다.</translation>
+    </message>
+    <message>
+        <source>%n new in your inbox</source>
+        <translation>받은편지함에 새 항목 %n개</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>받은편지함</translation>
     </message>

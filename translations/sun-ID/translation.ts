@@ -784,6 +784,66 @@
         <translation>Parobahan nu can disimpen dina kaca ieu</translation>
     </message>
     <message>
+        <source>There is no such item.</source>
+        <translation>Teu aya item kitu.</translation>
+    </message>
+    <message>
+        <source>Mark as read</source>
+        <translation>Tandaan geus dibaca</translation>
+    </message>
+    <message>
+        <source>Open in the administration</source>
+        <translation>Buka dina administrasi</translation>
+    </message>
+    <message>
+        <source>Comments and mentions</source>
+        <translation>Koméntar jeung sebutan</translation>
+    </message>
+    <message>
+        <source>Mentions you</source>
+        <translation>Nyebut anjeun</translation>
+    </message>
+    <message>
+        <source>%n new</source>
+        <translation>%n anyar</translation>
+    </message>
+    <message>
+        <source>Your pages</source>
+        <translation>Kaca anjeun</translation>
+    </message>
+    <message>
+        <source>Approved</source>
+        <translation>Disatujuan</translation>
+    </message>
+    <message>
+        <source>Denied</source>
+        <translation>Ditolak</translation>
+    </message>
+    <message>
+        <source>It is published when the publishing workflow continues.</source>
+        <translation>Bakal diterbitkeun nalika alur kerja panerbitan dituluykeun.</translation>
+    </message>
+    <message>
+        <source>It is a draft of yours again.</source>
+        <translation>Ieu jadi draf anjeun deui.</translation>
+    </message>
+    <message>
+        <source>Scheduled tasks that failed</source>
+        <translation>Tugas terjadwal anu gagal</translation>
+    </message>
+    <message>
+        <source>A page</source>
+        <translation>Hiji kaca</translation>
+    </message>
+    <message>
+        <source>The workflow %workflow stopped with an error on %time.</source>
+        <translation>Alur kerja %workflow eureun ku kasalahan dina %time.</translation>
+    </message>
+    <message>
+        <source>%n new in your inbox</source>
+        <translation>%n anyar dina kotak asup anjeun</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Kotak asup</translation>
     </message>

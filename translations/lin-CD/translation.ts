@@ -784,6 +784,66 @@
         <translation>Mbongwana oyo ebómbami te na lokasa oyo</translation>
     </message>
     <message>
+        <source>There is no such item.</source>
+        <translation>Eloko ya boye ezali te.</translation>
+    </message>
+    <message>
+        <source>Mark as read</source>
+        <translation>Tyá elembo ete etángami</translation>
+    </message>
+    <message>
+        <source>Open in the administration</source>
+        <translation>Fungolá na boyangeli</translation>
+    </message>
+    <message>
+        <source>Comments and mentions</source>
+        <translation>Maloba mpe kotánga nkómbó</translation>
+    </message>
+    <message>
+        <source>Mentions you</source>
+        <translation>Etángi nkómbó na yo</translation>
+    </message>
+    <message>
+        <source>%n new</source>
+        <translation>%n ya sika</translation>
+    </message>
+    <message>
+        <source>Your pages</source>
+        <translation>Nkasa na yo</translation>
+    </message>
+    <message>
+        <source>Approved</source>
+        <translation>Endimami</translation>
+    </message>
+    <message>
+        <source>Denied</source>
+        <translation>Eboyami</translation>
+    </message>
+    <message>
+        <source>It is published when the publishing workflow continues.</source>
+        <translation>Ekobima ntango workflow ya kobimisa ekokoba.</translation>
+    </message>
+    <message>
+        <source>It is a draft of yours again.</source>
+        <translation>Ezali lisusu brouillon na yo.</translation>
+    </message>
+    <message>
+        <source>Scheduled tasks that failed</source>
+        <translation>Misala oyo ebongisamaki mpe elongaki te</translation>
+    </message>
+    <message>
+        <source>A page</source>
+        <translation>Lokasa moko</translation>
+    </message>
+    <message>
+        <source>The workflow %workflow stopped with an error on %time.</source>
+        <translation>Workflow %workflow etelemaki na libunga na %time.</translation>
+    </message>
+    <message>
+        <source>%n new in your inbox</source>
+        <translation>%n ya sika na bokóti ya mikanda na yo</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Bokóti ya mikanda</translation>
     </message>

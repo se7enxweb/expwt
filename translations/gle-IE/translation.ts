@@ -784,6 +784,66 @@
         <translation>Athruithe gan sábháil ar an leathanach seo</translation>
     </message>
     <message>
+        <source>There is no such item.</source>
+        <translation>Níl a leithéid de mhír ann.</translation>
+    </message>
+    <message>
+        <source>Mark as read</source>
+        <translation>Marcáil mar léite</translation>
+    </message>
+    <message>
+        <source>Open in the administration</source>
+        <translation>Oscail sa riarachán</translation>
+    </message>
+    <message>
+        <source>Comments and mentions</source>
+        <translation>Tráchtanna agus tagairtí</translation>
+    </message>
+    <message>
+        <source>Mentions you</source>
+        <translation>Luann sé thú</translation>
+    </message>
+    <message>
+        <source>%n new</source>
+        <translation>%n nua</translation>
+    </message>
+    <message>
+        <source>Your pages</source>
+        <translation>Do leathanaigh</translation>
+    </message>
+    <message>
+        <source>Approved</source>
+        <translation>Ceadaithe</translation>
+    </message>
+    <message>
+        <source>Denied</source>
+        <translation>Diúltaithe</translation>
+    </message>
+    <message>
+        <source>It is published when the publishing workflow continues.</source>
+        <translation>Foilseofar é nuair a leanfaidh an sreabhadh oibre foilsithe ar aghaidh.</translation>
+    </message>
+    <message>
+        <source>It is a draft of yours again.</source>
+        <translation>Is dréacht leatsa é arís.</translation>
+    </message>
+    <message>
+        <source>Scheduled tasks that failed</source>
+        <translation>Tascanna sceidealaithe a theip</translation>
+    </message>
+    <message>
+        <source>A page</source>
+        <translation>Leathanach</translation>
+    </message>
+    <message>
+        <source>The workflow %workflow stopped with an error on %time.</source>
+        <translation>Stop an sreabhadh oibre %workflow le hearráid ag %time.</translation>
+    </message>
+    <message>
+        <source>%n new in your inbox</source>
+        <translation>%n nua i do bhosca isteach</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Bosca isteach</translation>
     </message>

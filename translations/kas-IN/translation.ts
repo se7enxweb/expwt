@@ -784,6 +784,66 @@
         <translation>یَتھ صفحس پیٹھ غیر محفوظ تبدیلی</translation>
     </message>
     <message>
+        <source>There is no such item.</source>
+        <translation>یُتھ کانٛہہ آیٹم چھُ نہٕ۔</translation>
+    </message>
+    <message>
+        <source>Mark as read</source>
+        <translation>پرنہٕ آمُت نشان کٔرِو</translation>
+    </message>
+    <message>
+        <source>Open in the administration</source>
+        <translation>انتظامیہ منٛز کھولِو</translation>
+    </message>
+    <message>
+        <source>Comments and mentions</source>
+        <translation>تبصرٕ تہٕ ذکر</translation>
+    </message>
+    <message>
+        <source>Mentions you</source>
+        <translation>توٚہۍ چھِو ذکر</translation>
+    </message>
+    <message>
+        <source>%n new</source>
+        <translation>%n نوٚو</translation>
+    </message>
+    <message>
+        <source>Your pages</source>
+        <translation>توٚہنٛدۍ صفحہٕ</translation>
+    </message>
+    <message>
+        <source>Approved</source>
+        <translation>منظور</translation>
+    </message>
+    <message>
+        <source>Denied</source>
+        <translation>نامنظور</translation>
+    </message>
+    <message>
+        <source>It is published when the publishing workflow continues.</source>
+        <translation>یہ گژھہِ شایع ییلہِ شایع کرنُک ورک فلو اگہٕ پکہِ۔</translation>
+    </message>
+    <message>
+        <source>It is a draft of yours again.</source>
+        <translation>یہ چھُ دوبارٕ توٚہنٛد مَسوٗدہٕ۔</translation>
+    </message>
+    <message>
+        <source>Scheduled tasks that failed</source>
+        <translation>ناکام گٔمتۍ طے شُدہ کام</translation>
+    </message>
+    <message>
+        <source>A page</source>
+        <translation>اکھ صفحہٕ</translation>
+    </message>
+    <message>
+        <source>The workflow %workflow stopped with an error on %time.</source>
+        <translation>ورک فلو %workflow روٗد %time پیٹھ غلطی سٟتؠ۔</translation>
+    </message>
+    <message>
+        <source>%n new in your inbox</source>
+        <translation>توٚہنٛدِس اِنباکسس منٛز %n نوٚو</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>اِنباکس</translation>
     </message>

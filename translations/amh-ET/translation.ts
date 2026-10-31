@@ -784,6 +784,66 @@
         <translation>በዚህ ገጽ ላይ ያልተቀመጡ ለውጦች</translation>
     </message>
     <message>
+        <source>There is no such item.</source>
+        <translation>እንደዚህ ያለ ንጥል የለም።</translation>
+    </message>
+    <message>
+        <source>Mark as read</source>
+        <translation>እንደተነበበ ምልክት አድርግ</translation>
+    </message>
+    <message>
+        <source>Open in the administration</source>
+        <translation>በአስተዳደሩ ውስጥ ክፈት</translation>
+    </message>
+    <message>
+        <source>Comments and mentions</source>
+        <translation>አስተያየቶች እና መጠቀሶች</translation>
+    </message>
+    <message>
+        <source>Mentions you</source>
+        <translation>እርስዎን ይጠቅሳል</translation>
+    </message>
+    <message>
+        <source>%n new</source>
+        <translation>%n አዲስ</translation>
+    </message>
+    <message>
+        <source>Your pages</source>
+        <translation>የእርስዎ ገጾች</translation>
+    </message>
+    <message>
+        <source>Approved</source>
+        <translation>ጸድቋል</translation>
+    </message>
+    <message>
+        <source>Denied</source>
+        <translation>ተከልክሏል</translation>
+    </message>
+    <message>
+        <source>It is published when the publishing workflow continues.</source>
+        <translation>የማተም የስራ ፍሰቱ ሲቀጥል ይታተማል።</translation>
+    </message>
+    <message>
+        <source>It is a draft of yours again.</source>
+        <translation>እንደገና የእርስዎ ረቂቅ ነው።</translation>
+    </message>
+    <message>
+        <source>Scheduled tasks that failed</source>
+        <translation>ያልተሳኩ የታቀዱ ተግባራት</translation>
+    </message>
+    <message>
+        <source>A page</source>
+        <translation>አንድ ገጽ</translation>
+    </message>
+    <message>
+        <source>The workflow %workflow stopped with an error on %time.</source>
+        <translation>የስራ ፍሰቱ %workflow በ%time በስህተት ቆሟል።</translation>
+    </message>
+    <message>
+        <source>%n new in your inbox</source>
+        <translation>በገቢ ሳጥንዎ ውስጥ %n አዲስ</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>የገቢ ሳጥን</translation>
     </message>

@@ -784,6 +784,66 @@
         <translation>Kay p'anqapi mana waqaychasqa tikraykuna</translation>
     </message>
     <message>
+        <source>There is no such item.</source>
+        <translation>Mana chay hina kanchu.</translation>
+    </message>
+    <message>
+        <source>Mark as read</source>
+        <translation>Ñam ñawinchasqa nispa unanchay</translation>
+    </message>
+    <message>
+        <source>Open in the administration</source>
+        <translation>Kamachiypi kichay</translation>
+    </message>
+    <message>
+        <source>Comments and mentions</source>
+        <translation>Rimaykuna sutichaykunapas</translation>
+    </message>
+    <message>
+        <source>Mentions you</source>
+        <translation>Qamta sutichan</translation>
+    </message>
+    <message>
+        <source>%n new</source>
+        <translation>%n musuq</translation>
+    </message>
+    <message>
+        <source>Your pages</source>
+        <translation>P'anqaykikuna</translation>
+    </message>
+    <message>
+        <source>Approved</source>
+        <translation>Chaskisqa</translation>
+    </message>
+    <message>
+        <source>Denied</source>
+        <translation>Mana chaskisqa</translation>
+    </message>
+    <message>
+        <source>It is published when the publishing workflow continues.</source>
+        <translation>Rakiy llamk'ay puriy qatipaqtinmi rakisqa kanqa.</translation>
+    </message>
+    <message>
+        <source>It is a draft of yours again.</source>
+        <translation>Hukmanta qillqa kaqniykim.</translation>
+    </message>
+    <message>
+        <source>Scheduled tasks that failed</source>
+        <translation>Mana atisqa wakichisqa llamk'aykuna</translation>
+    </message>
+    <message>
+        <source>A page</source>
+        <translation>Huk p'anqa</translation>
+    </message>
+    <message>
+        <source>The workflow %workflow stopped with an error on %time.</source>
+        <translation>Llamk'ay puriy %workflow pantaywan sayarqan %time-pi.</translation>
+    </message>
+    <message>
+        <source>%n new in your inbox</source>
+        <translation>%n musuq chaskinaykipi</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Chaskina</translation>
     </message>

@@ -784,6 +784,66 @@
         <translation>Nicht gespeicherte Änderungen auf dieser Seite</translation>
     </message>
     <message>
+        <source>There is no such item.</source>
+        <translation>Diesen Eintrag gibt es nicht.</translation>
+    </message>
+    <message>
+        <source>Mark as read</source>
+        <translation>Als gelesen markieren</translation>
+    </message>
+    <message>
+        <source>Open in the administration</source>
+        <translation>In der Administration öffnen</translation>
+    </message>
+    <message>
+        <source>Comments and mentions</source>
+        <translation>Kommentare und Erwähnungen</translation>
+    </message>
+    <message>
+        <source>Mentions you</source>
+        <translation>Erwähnt Sie</translation>
+    </message>
+    <message>
+        <source>%n new</source>
+        <translation>%n neu</translation>
+    </message>
+    <message>
+        <source>Your pages</source>
+        <translation>Ihre Seiten</translation>
+    </message>
+    <message>
+        <source>Approved</source>
+        <translation>Freigegeben</translation>
+    </message>
+    <message>
+        <source>Denied</source>
+        <translation>Abgelehnt</translation>
+    </message>
+    <message>
+        <source>It is published when the publishing workflow continues.</source>
+        <translation>Sie wird veröffentlicht, wenn der Veröffentlichungs-Workflow weiterläuft.</translation>
+    </message>
+    <message>
+        <source>It is a draft of yours again.</source>
+        <translation>Sie ist wieder ein Entwurf von Ihnen.</translation>
+    </message>
+    <message>
+        <source>Scheduled tasks that failed</source>
+        <translation>Geplante Aufgaben, die fehlgeschlagen sind</translation>
+    </message>
+    <message>
+        <source>A page</source>
+        <translation>Eine Seite</translation>
+    </message>
+    <message>
+        <source>The workflow %workflow stopped with an error on %time.</source>
+        <translation>Der Workflow %workflow wurde am %time mit einem Fehler angehalten.</translation>
+    </message>
+    <message>
+        <source>%n new in your inbox</source>
+        <translation>%n neu in Ihrem Posteingang</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Posteingang</translation>
     </message>

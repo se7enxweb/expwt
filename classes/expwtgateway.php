@@ -604,8 +604,14 @@ class expwtGateway
      */
     public function inbox( array $in )
     {
+        // without the kernel's collaboration: only the failed scheduled tasks (F29)
         if ( !$this->collaborates() )
-            throw new expwtApiError( 403, 'forbidden', 'You may not do this.' );
+        {
+            $notices = $this->notices();
+            $counts = $this->noticeCount( true );
+            return array( 'total' => 0, 'offset' => 0, 'items' => array(), 'waiting' => 0, 'count' => $counts['count'],
+                          'collaborates' => false ) + $notices;
+        }
         $userId = $this->userId();
         $inbox = expCollaborationInbox::fetch( array( 'status' => 'waiting', 'role' => 'approver', 'type' => 'ezapprove',
                                                       'offset' => isset( $in['offset'] ) ? (int)$in['offset'] : 0, 'limit' => 25 ) );
@@ -633,8 +639,226 @@ class expwtGateway
                 'preview' => $version && $language !== '' ? self::url( '/content/versionview/' . (int)$row['object_id'] . '/' . (int)$row['version'] . '/' . $language ) : null,
             );
         }
-        // the count on the tabs, counted again now that the list is open
-        return array( 'total' => (int)$inbox['total'], 'offset' => (int)$inbox['offset'], 'items' => $items, 'waiting' => $this->waitingCount( true ) );
+        // the counts on the tabs, counted again now that the list is open; the other notifications beside (F29)
+        $counts = $this->noticeCount( true );
+        return array( 'total' => (int)$inbox['total'], 'offset' => (int)$inbox['offset'], 'items' => $items,
+                      'waiting' => $this->waitingCount( true ), 'count' => $counts['count'], 'collaborates' => true ) + $this->notices();
+    }
+
+    // ------------------------------------------------------------------------- notifications (F29), beside the approvals
+
+    /** How far back the publish results and failed scheduled tasks reach, in days */
+    const NOTICE_DAYS = 30;
+
+    /**
+     * The number on the closed tab and the Inbox panel's tab (F29): the approvals waiting for the user, the items with
+     * comments the user has not read (mentions among them), the user's pages decided since the user last looked
+     * (publish results), and the user's scheduled tasks that failed in the last NOTICE_DAYS days. Each item counts
+     * once. A handful of queries through the persistent object layer (every database engine), kept in the user's
+     * session for WAITING_SECONDS.
+     *
+     * @param bool $fresh count again (the Inbox panel opened, something marked as read or decided)
+     * @return array waiting (approvals), count (everything)
+     */
+    public function noticeCount( $fresh = false )
+    {
+        $http = eZHTTPTool::instance();
+        $userId = $this->userId();
+        $kept = $http->hasSessionVariable( 'expwtNotices' ) ? $http->sessionVariable( 'expwtNotices' ) : null;
+        if ( !$fresh && is_array( $kept ) && isset( $kept['user'], $kept['waiting'], $kept['count'], $kept['at'] )
+             && (int)$kept['user'] === $userId && time() - (int)$kept['at'] < self::WAITING_SECONDS )
+            return array( 'waiting' => (int)$kept['waiting'], 'count' => (int)$kept['count'] );
+        $waiting = $this->collaborates() ? self::waitingIds( $userId ) : array();
+        // comments and publish results: the items the user takes part in (what the kernel checks for an item), also
+        // for an author without the collaboration policy (the shipped Editor role); approving needs the policy
+        $unread = class_exists( 'expCollaborationInbox' ) ? self::unreadIds( $userId ) : array( 'comments' => array(), 'results' => array() );
+        $count = self::noticeTotal( $waiting, $unread['comments'], $unread['results'], self::failedCount( $userId ) );
+        $http->setSessionVariable( 'expwtNotices', array( 'user' => $userId, 'waiting' => count( $waiting ), 'count' => $count, 'at' => time() ) );
+        return array( 'waiting' => count( $waiting ), 'count' => $count );
+    }
+
+    /** @return int every notification once: an item waiting for approval with unread comments counts one */
+    public static function noticeTotal( array $waiting, array $comments, array $results, $failed )
+    {
+        return count( array_unique( array_merge( $waiting, $comments, $results ) ) ) + max( 0, (int)$failed );
+    }
+
+    /** @return int[] the waiting approvals (ezapprove, undecided, active) the user is an approver of */
+    protected static function waitingIds( $userId )
+    {
+        $rows = eZPersistentObject::fetchObjectList( eZCollaborationItemParticipantLink::definition(), array( 'collaboration_id' ),
+                                                     array( 'participant_id' => (int)$userId,
+                                                            'participant_role' => eZCollaborationItemParticipantLink::ROLE_APPROVER ),
+                                                     null, null, false );
+        $ids = array();
+        foreach ( (array)$rows as $row )
+            $ids[] = (int)$row['collaboration_id'];
+        $out = array();
+        foreach ( array_chunk( array_unique( $ids ), 500 ) as $chunk )
+        {
+            $items = eZPersistentObject::fetchObjectList( eZCollaborationItem::definition(), array( 'id' ),
+                                                          array( 'id' => array( $chunk ), 'type_identifier' => 'ezapprove',
+                                                                 'data_int3' => eZApproveCollaborationHandler::STATUS_WAITING,
+                                                                 'status' => eZCollaborationItem::STATUS_ACTIVE ), null, null, false );
+            foreach ( (array)$items as $item )
+                $out[] = (int)$item['id'];
+        }
+        return $out;
+    }
+
+    /**
+     * @return array comments (items with a message of someone else after the user last read the item), results (the
+     *               user's own approvals decided after the user last read them, within NOTICE_DAYS)
+     */
+    protected static function unreadIds( $userId )
+    {
+        $status = eZPersistentObject::fetchObjectList( eZCollaborationItemStatus::definition(), array( 'collaboration_id', 'last_read' ),
+                                                       array( 'user_id' => (int)$userId ), null, null, false );
+        $status = (array)$status;
+        if ( !$status )
+            return array( 'comments' => array(), 'results' => array() );
+        $ids = array();
+        foreach ( $status as $row )
+            $ids[] = (int)$row['collaboration_id'];
+        $items = array();
+        $messages = array();
+        foreach ( array_chunk( array_unique( $ids ), 500 ) as $chunk )
+        {
+            $items = array_merge( $items, (array)eZPersistentObject::fetchObjectList( eZCollaborationItem::definition(),
+                array( 'id', 'creator_id', 'modified', 'type_identifier', 'data_int3' ), array( 'id' => array( $chunk ) ), null, null, false ) );
+            $messages = array_merge( $messages, (array)eZPersistentObject::fetchObjectList( eZCollaborationItemMessageLink::definition(),
+                array( 'collaboration_id', 'participant_id', 'modified' ), array( 'collaboration_id' => array( $chunk ) ), null, null, false ) );
+        }
+        return self::unreadFrom( $status, $items, $messages, $userId, time() - self::NOTICE_DAYS * 86400 );
+    }
+
+    /**
+     * Pure (tested): which items have news for the user.
+     *
+     * @param array $status rows collaboration_id, last_read of the user
+     * @param array $items rows id, creator_id, modified, type_identifier, data_int3
+     * @param array $messages rows collaboration_id, participant_id, modified
+     * @param int $userId
+     * @param int $since publish results older than this are no news any more
+     * @return array comments (item ids), results (item ids)
+     */
+    public static function unreadFrom( array $status, array $items, array $messages, $userId, $since )
+    {
+        $read = array();
+        foreach ( $status as $row )
+            $read[(int)$row['collaboration_id']] = (int)$row['last_read'];
+        $comments = array();
+        foreach ( $messages as $m )
+        {
+            $id = (int)$m['collaboration_id'];
+            if ( isset( $read[$id] ) && (int)$m['participant_id'] !== (int)$userId && (int)$m['modified'] > $read[$id] )
+                $comments[$id] = $id;
+        }
+        $results = array();
+        foreach ( $items as $item )
+        {
+            $id = (int)$item['id'];
+            // eZApproveCollaborationHandler::STATUS_ACCEPTED, _DENIED, _DEFERRED (1, 2, 3; 0 is waiting)
+            $decided = in_array( (int)$item['data_int3'], array( 1, 2, 3 ), true );
+            if ( isset( $read[$id] ) && $item['type_identifier'] === 'ezapprove' && $decided && (int)$item['creator_id'] === (int)$userId
+                 && (int)$item['modified'] > $read[$id] && (int)$item['modified'] >= $since )
+                $results[$id] = $id;
+        }
+        return array( 'comments' => array_values( $comments ), 'results' => array_values( $results ) );
+    }
+
+    /** @return bool the text mentions the login (@login, not inside a longer name or an e-mail address) */
+    public static function mentions( $text, $login )
+    {
+        $login = (string)$login;
+        if ( $login === '' )
+            return false;
+        return (bool)preg_match( '/(?<![\w@.])@' . preg_quote( $login, '/' ) . '(?![\w-])/iu', (string)$text );
+    }
+
+    /** @return int the user's scheduled tasks (workflow processes) that failed within NOTICE_DAYS */
+    protected static function failedCount( $userId )
+    {
+        if ( !class_exists( 'eZWorkflowProcess' ) )
+            return 0;
+        return (int)eZPersistentObject::count( eZWorkflowProcess::definition(),
+                                               array( 'user_id' => (int)$userId, 'status' => eZWorkflow::STATUS_FAILED,
+                                                      'modified' => array( '>=', time() - self::NOTICE_DAYS * 86400 ) ) );
+    }
+
+    /**
+     * The notifications beside the approvals, for the Inbox panel (F29): comments (unread, mentions marked), the
+     * user's publish results, the user's failed scheduled tasks. Read from the kernel's collaboration inbox and its
+     * workflow processes; nothing is marked as read by reading them.
+     */
+    public function notices()
+    {
+        $userId = $this->userId();
+        $login = (string)$this->currentUser()->attribute( 'login' );
+        $comments = array();
+        $results = array();
+        $admin = $this->collaborates();
+        if ( class_exists( 'expCollaborationInbox' ) )
+        {
+            $unread = self::unreadIds( $userId );
+            $inbox = expCollaborationInbox::fetch( array( 'status' => 'all', 'limit' => 100 ) );
+            foreach ( $inbox['items'] as $row )
+            {
+                $id = (int)$row['id'];
+                $entry = array( 'id' => $id, 'title' => (string)$row['title'], 'author' => (string)$row['author_name'],
+                                'state' => (string)$row['state'], 'modified' => (int)$row['modified'],
+                                'objectId' => (int)$row['object_id'], 'version' => (int)$row['version'],
+                                'lastMessage' => $row['last_message'] ? array( 'text' => (string)$row['last_message']['text'],
+                                                                               'author' => (string)$row['last_message']['author'],
+                                                                               'created' => (int)$row['last_message']['created'] ) : null,
+                                'url' => $admin ? self::adminItemUrl( $id ) : null );
+                if ( in_array( $id, $unread['comments'], true ) )
+                    $comments[] = $entry + array( 'unread' => (int)$row['unread_messages'],
+                                                  'mention' => $row['last_message'] && self::mentions( $row['last_message']['text'], $login ) );
+                if ( in_array( $id, $unread['results'], true ) )
+                    $results[] = $entry;
+            }
+        }
+        $failed = array();
+        if ( class_exists( 'eZWorkflowProcess' ) )
+        {
+            $rows = eZPersistentObject::fetchObjectList( eZWorkflowProcess::definition(), null,
+                                                         array( 'user_id' => $userId, 'status' => eZWorkflow::STATUS_FAILED,
+                                                                'modified' => array( '>=', time() - self::NOTICE_DAYS * 86400 ) ),
+                                                         array( 'modified' => 'desc' ), array( 'offset' => 0, 'length' => 25 ), false );
+            foreach ( (array)$rows as $row )
+            {
+                $objectId = (int)$row['content_id'];
+                $version = (int)$row['content_version'];
+                $workflow = eZWorkflow::fetch( (int)$row['workflow_id'] );
+                $object = $objectId ? eZContentObject::fetch( $objectId ) : null;
+                $failed[] = array( 'id' => (int)$row['id'], 'title' => $object ? expCollaborationInbox::approvalTitle( $objectId, $version ) : '',
+                                   'workflow' => $workflow ? (string)$workflow->attribute( 'name' ) : '',
+                                   'modified' => (int)$row['modified'], 'objectId' => $objectId, 'version' => $version,
+                                   'edit' => $object && $version ? self::url( '/content/edit/' . $objectId . '/' . $version ) : null );
+            }
+        }
+        return array( 'comments' => $comments, 'results' => $results, 'failed' => $failed );
+    }
+
+    /** @return string|null the item in the administration's collaboration view, where it is read and answered */
+    protected static function adminItemUrl( $id )
+    {
+        $base = self::adminUrl();
+        return $base ? $base . 'collaboration/item/full/' . (int)$id : null;
+    }
+
+    /**
+     * Marks a collaboration item as read for the user, as the kernel's collaboration view does on opening it
+     * (eZCollaborationItem::setLastRead); only an item the user takes part in.
+     */
+    public function markRead( array $in )
+    {
+        $item = isset( $in['itemId'] ) ? eZCollaborationItem::fetch( (int)$in['itemId'] ) : null;
+        if ( !$item instanceof eZCollaborationItem || !$item->userIsParticipant( $this->currentUser() ) )
+            throw new expwtApiError( 404, 'not_found', 'There is no such item.' );
+        $item->setLastRead( $this->userId() );
+        return $this->noticeCount( true );
     }
 
     /** @return bool the user is an approver of the collaboration item (the role the kernel's handler asks for) */
@@ -695,7 +919,8 @@ class expwtGateway
             // the kernel's own reason (not an approver, decided already ...), in the user's language
             throw new expwtApiError( 409, 'not_decided', $notice && $notice['text'] !== '' ? (string)$notice['text'] : 'The approval could not be decided.' );
         }
-        return array( 'state' => $state, 'message' => $notice ? (string)$notice['text'] : '', 'waiting' => $this->waitingCount( true ) );
+        $counts = $this->noticeCount( true );
+        return array( 'state' => $state, 'message' => $notice ? (string)$notice['text'] : '', 'waiting' => $counts['waiting'], 'count' => $counts['count'] );
     }
 
     /**

@@ -784,6 +784,66 @@
         <translation>Newidiadau heb eu cadw ar y dudalen hon</translation>
     </message>
     <message>
+        <source>There is no such item.</source>
+        <translation>Does dim eitem o'r fath.</translation>
+    </message>
+    <message>
+        <source>Mark as read</source>
+        <translation>Marcio fel wedi'i ddarllen</translation>
+    </message>
+    <message>
+        <source>Open in the administration</source>
+        <translation>Agor yn y weinyddiaeth</translation>
+    </message>
+    <message>
+        <source>Comments and mentions</source>
+        <translation>Sylwadau a chyfeiriadau</translation>
+    </message>
+    <message>
+        <source>Mentions you</source>
+        <translation>Yn cyfeirio atoch</translation>
+    </message>
+    <message>
+        <source>%n new</source>
+        <translation>%n newydd</translation>
+    </message>
+    <message>
+        <source>Your pages</source>
+        <translation>Eich tudalennau</translation>
+    </message>
+    <message>
+        <source>Approved</source>
+        <translation>Cymeradwywyd</translation>
+    </message>
+    <message>
+        <source>Denied</source>
+        <translation>Gwrthodwyd</translation>
+    </message>
+    <message>
+        <source>It is published when the publishing workflow continues.</source>
+        <translation>Caiff ei chyhoeddi pan fydd y llif gwaith cyhoeddi'n parhau.</translation>
+    </message>
+    <message>
+        <source>It is a draft of yours again.</source>
+        <translation>Mae'n ddrafft i chi eto.</translation>
+    </message>
+    <message>
+        <source>Scheduled tasks that failed</source>
+        <translation>Tasgau wedi'u hamserlennu a fethodd</translation>
+    </message>
+    <message>
+        <source>A page</source>
+        <translation>Tudalen</translation>
+    </message>
+    <message>
+        <source>The workflow %workflow stopped with an error on %time.</source>
+        <translation>Daeth y llif gwaith %workflow i ben gyda gwall ar %time.</translation>
+    </message>
+    <message>
+        <source>%n new in your inbox</source>
+        <translation>%n newydd yn eich mewnflwch</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Mewnflwch</translation>
     </message>

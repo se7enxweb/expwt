@@ -784,6 +784,66 @@
         <translation>Neshranjene spremembe na tej strani</translation>
     </message>
     <message>
+        <source>There is no such item.</source>
+        <translation>Takega elementa ni.</translation>
+    </message>
+    <message>
+        <source>Mark as read</source>
+        <translation>Označi kot prebrano</translation>
+    </message>
+    <message>
+        <source>Open in the administration</source>
+        <translation>Odpri v administraciji</translation>
+    </message>
+    <message>
+        <source>Comments and mentions</source>
+        <translation>Komentarji in omembe</translation>
+    </message>
+    <message>
+        <source>Mentions you</source>
+        <translation>Vas omenja</translation>
+    </message>
+    <message>
+        <source>%n new</source>
+        <translation>%n novih</translation>
+    </message>
+    <message>
+        <source>Your pages</source>
+        <translation>Vaše strani</translation>
+    </message>
+    <message>
+        <source>Approved</source>
+        <translation>Odobreno</translation>
+    </message>
+    <message>
+        <source>Denied</source>
+        <translation>Zavrnjeno</translation>
+    </message>
+    <message>
+        <source>It is published when the publishing workflow continues.</source>
+        <translation>Objavljena bo, ko se bo potek dela objave nadaljeval.</translation>
+    </message>
+    <message>
+        <source>It is a draft of yours again.</source>
+        <translation>Spet je vaš osnutek.</translation>
+    </message>
+    <message>
+        <source>Scheduled tasks that failed</source>
+        <translation>Načrtovana opravila, ki niso uspela</translation>
+    </message>
+    <message>
+        <source>A page</source>
+        <translation>Stran</translation>
+    </message>
+    <message>
+        <source>The workflow %workflow stopped with an error on %time.</source>
+        <translation>Potek dela %workflow se je ustavil z napako %time.</translation>
+    </message>
+    <message>
+        <source>%n new in your inbox</source>
+        <translation>%n novih v prejetem</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Prejeto</translation>
     </message>

@@ -784,6 +784,66 @@
         <translation>Չպահպանված փոփոխություններ այս էջում</translation>
     </message>
     <message>
+        <source>There is no such item.</source>
+        <translation>Նման տարր չկա։</translation>
+    </message>
+    <message>
+        <source>Mark as read</source>
+        <translation>Նշել որպես կարդացված</translation>
+    </message>
+    <message>
+        <source>Open in the administration</source>
+        <translation>Բացել կառավարման մեջ</translation>
+    </message>
+    <message>
+        <source>Comments and mentions</source>
+        <translation>Մեկնաբանություններ և հիշատակումներ</translation>
+    </message>
+    <message>
+        <source>Mentions you</source>
+        <translation>Հիշատակում է ձեզ</translation>
+    </message>
+    <message>
+        <source>%n new</source>
+        <translation>%n նոր</translation>
+    </message>
+    <message>
+        <source>Your pages</source>
+        <translation>Ձեր էջերը</translation>
+    </message>
+    <message>
+        <source>Approved</source>
+        <translation>Հաստատված է</translation>
+    </message>
+    <message>
+        <source>Denied</source>
+        <translation>Մերժված է</translation>
+    </message>
+    <message>
+        <source>It is published when the publishing workflow continues.</source>
+        <translation>Այն կհրապարակվի, երբ հրապարակման աշխատահոսքը շարունակվի։</translation>
+    </message>
+    <message>
+        <source>It is a draft of yours again.</source>
+        <translation>Այն կրկին ձեր սևագիրն է։</translation>
+    </message>
+    <message>
+        <source>Scheduled tasks that failed</source>
+        <translation>Ձախողված պլանավորված առաջադրանքներ</translation>
+    </message>
+    <message>
+        <source>A page</source>
+        <translation>Էջ</translation>
+    </message>
+    <message>
+        <source>The workflow %workflow stopped with an error on %time.</source>
+        <translation>%workflow աշխատահոսքը կանգ առավ սխալով %time-ին։</translation>
+    </message>
+    <message>
+        <source>%n new in your inbox</source>
+        <translation>%n նոր ձեր մուտքայինում</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Մուտքային</translation>
     </message>

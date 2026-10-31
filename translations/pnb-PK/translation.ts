@@ -784,6 +784,66 @@
         <translation>ایس صفحے تے غیر محفوظ تبدیلیاں</translation>
     </message>
     <message>
+        <source>There is no such item.</source>
+        <translation>اجیہی کوئی شے نئیں۔</translation>
+    </message>
+    <message>
+        <source>Mark as read</source>
+        <translation>پڑھیا ہویا نشان لاؤ</translation>
+    </message>
+    <message>
+        <source>Open in the administration</source>
+        <translation>انتظامیہ وچ کھولو</translation>
+    </message>
+    <message>
+        <source>Comments and mentions</source>
+        <translation>تبصرے تے ذکر</translation>
+    </message>
+    <message>
+        <source>Mentions you</source>
+        <translation>تہاڈا ذکر کردا اے</translation>
+    </message>
+    <message>
+        <source>%n new</source>
+        <translation>%n نویں</translation>
+    </message>
+    <message>
+        <source>Your pages</source>
+        <translation>تہاڈے صفحے</translation>
+    </message>
+    <message>
+        <source>Approved</source>
+        <translation>منظور</translation>
+    </message>
+    <message>
+        <source>Denied</source>
+        <translation>نامنظور</translation>
+    </message>
+    <message>
+        <source>It is published when the publishing workflow continues.</source>
+        <translation>چھپائی دا ورک فلو اگے ودھے گا تے ایہ چھپ جاوے گا۔</translation>
+    </message>
+    <message>
+        <source>It is a draft of yours again.</source>
+        <translation>ایہ فیر تہاڈا مسودہ اے۔</translation>
+    </message>
+    <message>
+        <source>Scheduled tasks that failed</source>
+        <translation>ناکام ہوئے طے شدہ کم</translation>
+    </message>
+    <message>
+        <source>A page</source>
+        <translation>اک صفحہ</translation>
+    </message>
+    <message>
+        <source>The workflow %workflow stopped with an error on %time.</source>
+        <translation>ورک فلو %workflow %time تے غلطی نال رک گیا۔</translation>
+    </message>
+    <message>
+        <source>%n new in your inbox</source>
+        <translation>تہاڈے اِن باکس وچ %n نویں</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>اِن باکس</translation>
     </message>

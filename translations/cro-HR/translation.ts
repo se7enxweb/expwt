@@ -784,6 +784,66 @@
         <translation>Nespremljene promjene na ovoj stranici</translation>
     </message>
     <message>
+        <source>There is no such item.</source>
+        <translation>Ne postoji takva stavka.</translation>
+    </message>
+    <message>
+        <source>Mark as read</source>
+        <translation>Označi kao pročitano</translation>
+    </message>
+    <message>
+        <source>Open in the administration</source>
+        <translation>Otvori u administraciji</translation>
+    </message>
+    <message>
+        <source>Comments and mentions</source>
+        <translation>Komentari i spominjanja</translation>
+    </message>
+    <message>
+        <source>Mentions you</source>
+        <translation>Spominje vas</translation>
+    </message>
+    <message>
+        <source>%n new</source>
+        <translation>%n novih</translation>
+    </message>
+    <message>
+        <source>Your pages</source>
+        <translation>Vaše stranice</translation>
+    </message>
+    <message>
+        <source>Approved</source>
+        <translation>Odobreno</translation>
+    </message>
+    <message>
+        <source>Denied</source>
+        <translation>Odbijeno</translation>
+    </message>
+    <message>
+        <source>It is published when the publishing workflow continues.</source>
+        <translation>Bit će objavljena kada se tijek rada objave nastavi.</translation>
+    </message>
+    <message>
+        <source>It is a draft of yours again.</source>
+        <translation>Ponovno je vaša skica.</translation>
+    </message>
+    <message>
+        <source>Scheduled tasks that failed</source>
+        <translation>Zakazani zadaci koji nisu uspjeli</translation>
+    </message>
+    <message>
+        <source>A page</source>
+        <translation>Stranica</translation>
+    </message>
+    <message>
+        <source>The workflow %workflow stopped with an error on %time.</source>
+        <translation>Tijek rada %workflow zaustavio se s pogreškom %time.</translation>
+    </message>
+    <message>
+        <source>%n new in your inbox</source>
+        <translation>%n novih u ulaznom sandučiću</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Ulazni sandučić</translation>
     </message>

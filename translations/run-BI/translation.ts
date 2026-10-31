@@ -784,6 +784,66 @@
         <translation>Ihinduka ritabitswe kuri uru rupapuro</translation>
     </message>
     <message>
+        <source>There is no such item.</source>
+        <translation>Nta kintu nk'ico kiriho.</translation>
+    </message>
+    <message>
+        <source>Mark as read</source>
+        <translation>Shiraho ko vyasomwe</translation>
+    </message>
+    <message>
+        <source>Open in the administration</source>
+        <translation>Ugurura mu buyobozi</translation>
+    </message>
+    <message>
+        <source>Comments and mentions</source>
+        <translation>Ivyiyumviro n'ivyo uvugwamwo</translation>
+    </message>
+    <message>
+        <source>Mentions you</source>
+        <translation>Arakuvuga</translation>
+    </message>
+    <message>
+        <source>%n new</source>
+        <translation>%n bishasha</translation>
+    </message>
+    <message>
+        <source>Your pages</source>
+        <translation>Impapuro zawe</translation>
+    </message>
+    <message>
+        <source>Approved</source>
+        <translation>Vyemejwe</translation>
+    </message>
+    <message>
+        <source>Denied</source>
+        <translation>Vyanswe</translation>
+    </message>
+    <message>
+        <source>It is published when the publishing workflow continues.</source>
+        <translation>Bizosohorwa igihe urukurikirane rw'ibikorwa vyo gusohora rubandanije.</translation>
+    </message>
+    <message>
+        <source>It is a draft of yours again.</source>
+        <translation>Wongeye kuba intango yawe.</translation>
+    </message>
+    <message>
+        <source>Scheduled tasks that failed</source>
+        <translation>Ibikorwa vyateguwe vyananiwe</translation>
+    </message>
+    <message>
+        <source>A page</source>
+        <translation>Urupapuro</translation>
+    </message>
+    <message>
+        <source>The workflow %workflow stopped with an error on %time.</source>
+        <translation>Urukurikirane rw'ibikorwa %workflow rwahagaze kubera ikosa ku wa %time.</translation>
+    </message>
+    <message>
+        <source>%n new in your inbox</source>
+        <translation>%n bishasha mu butumwa bwawe bwinjira</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Ubutumwa bwinjira</translation>
     </message>

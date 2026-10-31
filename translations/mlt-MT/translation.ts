@@ -784,6 +784,66 @@
         <translation>Bidliet mhux issejvjati f'din il-paġna</translation>
     </message>
     <message>
+        <source>There is no such item.</source>
+        <translation>M'hemmx oġġett bħal dan.</translation>
+    </message>
+    <message>
+        <source>Mark as read</source>
+        <translation>Immarka bħala moqri</translation>
+    </message>
+    <message>
+        <source>Open in the administration</source>
+        <translation>Iftaħ fl-amministrazzjoni</translation>
+    </message>
+    <message>
+        <source>Comments and mentions</source>
+        <translation>Kummenti u msemmijin</translation>
+    </message>
+    <message>
+        <source>Mentions you</source>
+        <translation>Isemmik</translation>
+    </message>
+    <message>
+        <source>%n new</source>
+        <translation>%n ġodda</translation>
+    </message>
+    <message>
+        <source>Your pages</source>
+        <translation>Il-paġni tiegħek</translation>
+    </message>
+    <message>
+        <source>Approved</source>
+        <translation>Approvat</translation>
+    </message>
+    <message>
+        <source>Denied</source>
+        <translation>Miċħud</translation>
+    </message>
+    <message>
+        <source>It is published when the publishing workflow continues.</source>
+        <translation>Tiġi ppubblikata meta l-proċess tax-xogħol tal-pubblikazzjoni jkompli.</translation>
+    </message>
+    <message>
+        <source>It is a draft of yours again.</source>
+        <translation>Huwa abbozz tiegħek mill-ġdid.</translation>
+    </message>
+    <message>
+        <source>Scheduled tasks that failed</source>
+        <translation>Kompiti skedati li fallew</translation>
+    </message>
+    <message>
+        <source>A page</source>
+        <translation>Paġna</translation>
+    </message>
+    <message>
+        <source>The workflow %workflow stopped with an error on %time.</source>
+        <translation>Il-proċess tax-xogħol %workflow waqaf bi żball fil-%time.</translation>
+    </message>
+    <message>
+        <source>%n new in your inbox</source>
+        <translation>%n ġodda fl-inbox tiegħek</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Inbox</translation>
     </message>

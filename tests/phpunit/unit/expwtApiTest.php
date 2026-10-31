@@ -64,6 +64,8 @@ class expwtApiTestGateway extends expwtGateway
     public $collaborates = true;
     public function collaborates() { return $this->collaborates; }
     public function waitingCount( $fresh = false ) { return 3; }
+    public function noticeCount( $fresh = false ) { return array( 'waiting' => $this->collaborates ? 3 : 0, 'count' => $this->collaborates ? 5 : 1 ); }
+    public function markRead( array $in ) { return $this->record( 'markRead', $in ); }
     public function inbox( array $in ) { return $this->record( 'inbox', $in ); }
     public function decide( array $in ) { return $this->record( 'decide', $in ); }
     public function insights( array $in ) { return $this->record( 'insights', $in ); }
@@ -157,14 +159,57 @@ class expwtApiTest extends PHPUnit\Framework\TestCase
         $this->assertSame( array( 'decide', array( 'itemId' => 7, 'decision' => 'deny', 'comment' => "Please fix\nthe intro." ) ), $this->gateway->calls[0] );
         $api->call( 'inbox.load', array( 'offset' => 'x' ), 'GET' );
         $this->assertSame( array( 'inbox', array() ), $this->gateway->calls[1] );
+        // F29: marking an item as read is a write (POST, the CSRF token), with no "Verify it's you"
+        $this->assertTrue( expwtAccess::writes( 'inbox.read' ) );
+        $this->assertNull( expwtAccess::kernelView( 'inbox.read' ) );
+        $this->assertSame( 405, $api->call( 'inbox.read', array( 'itemId' => 3 ), 'GET' )['status'] );
+        $api->call( 'inbox.read', array( 'itemId' => '9', 'other' => 1 ) );
+        $this->assertSame( array( 'markRead', array( 'itemId' => 9 ) ), $this->gateway->calls[2] );
     }
 
-    public function testBootHasTheInboxOnlyForAUserOfTheCollaboration()
+    /** F29: the counts on the tabs for every user of the sidebar: approvals and comments with the collaboration,
+        failed scheduled tasks for everyone */
+    public function testBootHasTheInboxCountsForEveryUserOfTheSidebar()
     {
         $api = $this->api();
-        $this->assertSame( array( 'waiting' => 3 ), $api->call( 'boot', array(), 'GET' )['body']['data']['inbox'] );
+        $this->assertSame( array( 'waiting' => 3, 'count' => 5 ), $api->call( 'boot', array(), 'GET' )['body']['data']['inbox'] );
         $this->gateway->collaborates = false;
-        $this->assertNull( $api->call( 'boot', array(), 'GET' )['body']['data']['inbox'] );
+        $this->assertSame( array( 'waiting' => 0, 'count' => 1 ), $api->call( 'boot', array(), 'GET' )['body']['data']['inbox'] );
+    }
+
+    /** F29: each item counts once; news are comments of others after the last read, and the user's own decided pages */
+    public function testTheNotificationsAreCountedOnceAndOnlyWhatIsNew()
+    {
+        $this->assertSame( 4, expwtGateway::noticeTotal( array( 1, 2 ), array( 2, 3 ), array( 3 ), 1 ), 'items 1, 2, 3 and one failed task' );
+        $this->assertSame( 0, expwtGateway::noticeTotal( array(), array(), array(), 0 ) );
+        $me = 14;
+        $status = array( array( 'collaboration_id' => 1, 'last_read' => 100 ), array( 'collaboration_id' => 2, 'last_read' => 100 ),
+                         array( 'collaboration_id' => 3, 'last_read' => 100 ), array( 'collaboration_id' => 4, 'last_read' => 500 ) );
+        $items = array(
+            array( 'id' => 1, 'creator_id' => $me, 'modified' => 200, 'type_identifier' => 'ezapprove', 'data_int3' => 1 ),   // approved since
+            array( 'id' => 2, 'creator_id' => 99, 'modified' => 200, 'type_identifier' => 'ezapprove', 'data_int3' => 2 ),  // someone else's
+            array( 'id' => 3, 'creator_id' => $me, 'modified' => 200, 'type_identifier' => 'ezapprove', 'data_int3' => 0 ),  // still waiting
+            array( 'id' => 4, 'creator_id' => $me, 'modified' => 400, 'type_identifier' => 'ezapprove', 'data_int3' => 2 ),  // read after
+            array( 'id' => 5, 'creator_id' => $me, 'modified' => 900, 'type_identifier' => 'ezapprove', 'data_int3' => 1 ),  // not mine to read
+        );
+        $messages = array( array( 'collaboration_id' => 2, 'participant_id' => 99, 'modified' => 150 ),
+                           array( 'collaboration_id' => 3, 'participant_id' => $me, 'modified' => 300 ),
+                           array( 'collaboration_id' => 4, 'participant_id' => 99, 'modified' => 450 ) );
+        $news = expwtGateway::unreadFrom( $status, $items, $messages, $me, 0 );
+        $this->assertSame( array( 2 ), $news['comments'], 'a comment of someone else after the last read; not my own, not one read already' );
+        $this->assertSame( array( 1 ), $news['results'], 'my own page decided since I last looked' );
+        $this->assertSame( array(), expwtGateway::unreadFrom( $status, $items, $messages, $me, 300 )['results'], 'older than the days looked back' );
+    }
+
+    /** F29: a mention is @login, not part of a longer name or an e-mail address */
+    public function testAMentionIsTheLoginWithAnAt()
+    {
+        $this->assertTrue( expwtGateway::mentions( 'Please look, @anna.', 'anna' ) );
+        $this->assertTrue( expwtGateway::mentions( '@Anna can you check', 'anna' ) );
+        $this->assertFalse( expwtGateway::mentions( 'ask @annabel', 'anna' ) );
+        $this->assertFalse( expwtGateway::mentions( 'mail anna@example.com', 'anna' ) );
+        $this->assertFalse( expwtGateway::mentions( 'nobody here', 'anna' ) );
+        $this->assertFalse( expwtGateway::mentions( '@', '' ) );
     }
 
     public function testDraftSaveNeedsFields()

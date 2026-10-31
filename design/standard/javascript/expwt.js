@@ -581,13 +581,14 @@
       return list;
     }
 
-    /* The number of approvals waiting for the user: a badge on the closed tab and on the Inbox panel's tab (F29),
-       none at 0; screen readers hear "%n waiting for your approval". */
+    /* The number of notifications (F29: approvals waiting for the user, comments and mentions, publish results, failed
+       scheduled tasks): a badge on the closed tab and on the Inbox panel's tab, none at 0; screen readers hear
+       "%n new in your inbox". */
     setWaiting(n) {
       var self = this;
       this.waiting = Math.max(0, parseInt(n, 10) || 0);
       var badge = function () {
-        var text = self.t('%n waiting for your approval').replace('%n', self.waiting);
+        var text = self.t('%n new in your inbox').replace('%n', self.waiting);
         return h('span', { class: 'wt-badge', 'data-badge': 'waiting' }, [
           h('span', { 'aria-hidden': 'true', text: String(self.waiting) }), h('span', { class: 'wt-sr', text: ' ' + text })]);
       };
@@ -1135,7 +1136,7 @@
           store(CACHE, self.state);
         }
         self.buildTabs();
-        self.setWaiting(self.boot.inbox ? self.boot.inbox.waiting : 0);
+        self.setWaiting(self.boot.inbox ? self.boot.inbox.count : 0);
         /* changes of this page kept on this device only (F28): a mark on the tab; opened, the Page panel offers them */
         var local = null;
         try { local = window.localStorage; } catch (e) { local = null; }

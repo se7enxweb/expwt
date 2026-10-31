@@ -784,6 +784,66 @@
         <translation>Mũgarũrũku ũtaigĩtwo ũrũ-inĩ rũrũ</translation>
     </message>
     <message>
+        <source>There is no such item.</source>
+        <translation>Gũtirĩ kĩndũ ta kĩu.</translation>
+    </message>
+    <message>
+        <source>Mark as read</source>
+        <translation>Onania atĩ nĩ gũthometwo</translation>
+    </message>
+    <message>
+        <source>Open in the administration</source>
+        <translation>Hingũra ũrũgamĩrĩri-inĩ</translation>
+    </message>
+    <message>
+        <source>Comments and mentions</source>
+        <translation>Ciugo na kũgwetwo</translation>
+    </message>
+    <message>
+        <source>Mentions you</source>
+        <translation>Nĩ wagwetwo</translation>
+    </message>
+    <message>
+        <source>%n new</source>
+        <translation>%n njerũ</translation>
+    </message>
+    <message>
+        <source>Your pages</source>
+        <translation>Marũ maku</translation>
+    </message>
+    <message>
+        <source>Approved</source>
+        <translation>Nĩ yetĩkĩrwo</translation>
+    </message>
+    <message>
+        <source>Denied</source>
+        <translation>Nĩ yaregwo</translation>
+    </message>
+    <message>
+        <source>It is published when the publishing workflow continues.</source>
+        <translation>Nĩ ĩgũcabithio rĩrĩa workflow ya gũcabithia ĩgũthiĩ na mbere.</translation>
+    </message>
+    <message>
+        <source>It is a draft of yours again.</source>
+        <translation>Nĩ ndrafti yaku rĩngĩ.</translation>
+    </message>
+    <message>
+        <source>Scheduled tasks that failed</source>
+        <translation>Mawĩra ma ihinda marĩa maremeirwo</translation>
+    </message>
+    <message>
+        <source>A page</source>
+        <translation>Rũrũ rũmwe</translation>
+    </message>
+    <message>
+        <source>The workflow %workflow stopped with an error on %time.</source>
+        <translation>Workflow %workflow nĩ yarũgamire na ihĩtia %time.</translation>
+    </message>
+    <message>
+        <source>%n new in your inbox</source>
+        <translation>%n njerũ ithandũkũ-inĩ rĩaku</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Ithandũkũ rĩa marũa</translation>
     </message>

@@ -784,6 +784,66 @@
         <translation>このページに保存されていない変更があります</translation>
     </message>
     <message>
+        <source>There is no such item.</source>
+        <translation>その項目はありません。</translation>
+    </message>
+    <message>
+        <source>Mark as read</source>
+        <translation>既読にする</translation>
+    </message>
+    <message>
+        <source>Open in the administration</source>
+        <translation>管理画面で開く</translation>
+    </message>
+    <message>
+        <source>Comments and mentions</source>
+        <translation>コメントとメンション</translation>
+    </message>
+    <message>
+        <source>Mentions you</source>
+        <translation>あなたへのメンション</translation>
+    </message>
+    <message>
+        <source>%n new</source>
+        <translation>%n 件の新着</translation>
+    </message>
+    <message>
+        <source>Your pages</source>
+        <translation>あなたのページ</translation>
+    </message>
+    <message>
+        <source>Approved</source>
+        <translation>承認済み</translation>
+    </message>
+    <message>
+        <source>Denied</source>
+        <translation>却下</translation>
+    </message>
+    <message>
+        <source>It is published when the publishing workflow continues.</source>
+        <translation>公開ワークフローが進むと公開されます。</translation>
+    </message>
+    <message>
+        <source>It is a draft of yours again.</source>
+        <translation>再びあなたの下書きになりました。</translation>
+    </message>
+    <message>
+        <source>Scheduled tasks that failed</source>
+        <translation>失敗した予約タスク</translation>
+    </message>
+    <message>
+        <source>A page</source>
+        <translation>ページ</translation>
+    </message>
+    <message>
+        <source>The workflow %workflow stopped with an error on %time.</source>
+        <translation>ワークフロー %workflow は %time にエラーで停止しました。</translation>
+    </message>
+    <message>
+        <source>%n new in your inbox</source>
+        <translation>受信箱に %n 件の新着</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>受信箱</translation>
     </message>

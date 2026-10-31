@@ -784,6 +784,66 @@
         <translation>Mga kausaban nga wala ma-save niini nga panid</translation>
     </message>
     <message>
+        <source>There is no such item.</source>
+        <translation>Walay ingon niana nga butang.</translation>
+    </message>
+    <message>
+        <source>Mark as read</source>
+        <translation>Markahi nga nabasa na</translation>
+    </message>
+    <message>
+        <source>Open in the administration</source>
+        <translation>Ablihi sa administrasyon</translation>
+    </message>
+    <message>
+        <source>Comments and mentions</source>
+        <translation>Mga komento ug paghisgot</translation>
+    </message>
+    <message>
+        <source>Mentions you</source>
+        <translation>Naghisgot kanimo</translation>
+    </message>
+    <message>
+        <source>%n new</source>
+        <translation>%n bag-o</translation>
+    </message>
+    <message>
+        <source>Your pages</source>
+        <translation>Imong mga panid</translation>
+    </message>
+    <message>
+        <source>Approved</source>
+        <translation>Gi-uyonan</translation>
+    </message>
+    <message>
+        <source>Denied</source>
+        <translation>Gisalikway</translation>
+    </message>
+    <message>
+        <source>It is published when the publishing workflow continues.</source>
+        <translation>Mapatik kini kung magpadayon ang workflow sa pagpatik.</translation>
+    </message>
+    <message>
+        <source>It is a draft of yours again.</source>
+        <translation>Imo na usab kining draft.</translation>
+    </message>
+    <message>
+        <source>Scheduled tasks that failed</source>
+        <translation>Mga naka-iskedyul nga buluhaton nga napakyas</translation>
+    </message>
+    <message>
+        <source>A page</source>
+        <translation>Usa ka panid</translation>
+    </message>
+    <message>
+        <source>The workflow %workflow stopped with an error on %time.</source>
+        <translation>Ang workflow %workflow mihunong tungod sa sayop sa %time.</translation>
+    </message>
+    <message>
+        <source>%n new in your inbox</source>
+        <translation>%n bag-o sa imong inbox</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Inbox</translation>
     </message>

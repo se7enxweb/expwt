@@ -784,6 +784,66 @@
         <translation>ХӀокху агӀонан тӀехь дӀа ца Ӏалашбина хийцамаш</translation>
     </message>
     <message>
+        <source>There is no such item.</source>
+        <translation>Иштта элемент яц.</translation>
+    </message>
+    <message>
+        <source>Mark as read</source>
+        <translation>Ешна аьлла билгалде</translation>
+    </message>
+    <message>
+        <source>Open in the administration</source>
+        <translation>Администрацехь схьаделла</translation>
+    </message>
+    <message>
+        <source>Comments and mentions</source>
+        <translation>Комментареш а хьахорш а</translation>
+    </message>
+    <message>
+        <source>Mentions you</source>
+        <translation>Хьо хьахийна</translation>
+    </message>
+    <message>
+        <source>%n new</source>
+        <translation>%n керла</translation>
+    </message>
+    <message>
+        <source>Your pages</source>
+        <translation>Хьан агӀонаш</translation>
+    </message>
+    <message>
+        <source>Approved</source>
+        <translation>ТӀечӀагӀдина</translation>
+    </message>
+    <message>
+        <source>Denied</source>
+        <translation>ДӀатеттина</translation>
+    </message>
+    <message>
+        <source>It is published when the publishing workflow continues.</source>
+        <translation>Арахецаран болх беш болу процесс кхин дӀа хьаьдча, иза арахоьцур ю.</translation>
+    </message>
+    <message>
+        <source>It is a draft of yours again.</source>
+        <translation>Иза юха а хьан черновик ю.</translation>
+    </message>
+    <message>
+        <source>Scheduled tasks that failed</source>
+        <translation>Ца хиллачу хӀоттийначу гӀуллакхаш</translation>
+    </message>
+    <message>
+        <source>A page</source>
+        <translation>АгӀо</translation>
+    </message>
+    <message>
+        <source>The workflow %workflow stopped with an error on %time.</source>
+        <translation>Болх беш болу процесс %workflow гӀалатца сецна %time.</translation>
+    </message>
+    <message>
+        <source>%n new in your inbox</source>
+        <translation>Хьан чуйогӀучу %n керла</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Чуйогӏу</translation>
     </message>

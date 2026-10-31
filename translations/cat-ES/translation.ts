@@ -784,6 +784,66 @@
         <translation>Canvis sense desar en aquesta pàgina</translation>
     </message>
     <message>
+        <source>There is no such item.</source>
+        <translation>No existeix aquest element.</translation>
+    </message>
+    <message>
+        <source>Mark as read</source>
+        <translation>Marca com a llegit</translation>
+    </message>
+    <message>
+        <source>Open in the administration</source>
+        <translation>Obre a l'administració</translation>
+    </message>
+    <message>
+        <source>Comments and mentions</source>
+        <translation>Comentaris i mencions</translation>
+    </message>
+    <message>
+        <source>Mentions you</source>
+        <translation>Et menciona</translation>
+    </message>
+    <message>
+        <source>%n new</source>
+        <translation>%n nous</translation>
+    </message>
+    <message>
+        <source>Your pages</source>
+        <translation>Les teves pàgines</translation>
+    </message>
+    <message>
+        <source>Approved</source>
+        <translation>Aprovada</translation>
+    </message>
+    <message>
+        <source>Denied</source>
+        <translation>Denegada</translation>
+    </message>
+    <message>
+        <source>It is published when the publishing workflow continues.</source>
+        <translation>Es publicarà quan continuï el flux de treball de publicació.</translation>
+    </message>
+    <message>
+        <source>It is a draft of yours again.</source>
+        <translation>Torna a ser un esborrany teu.</translation>
+    </message>
+    <message>
+        <source>Scheduled tasks that failed</source>
+        <translation>Tasques programades que han fallat</translation>
+    </message>
+    <message>
+        <source>A page</source>
+        <translation>Una pàgina</translation>
+    </message>
+    <message>
+        <source>The workflow %workflow stopped with an error on %time.</source>
+        <translation>El flux de treball %workflow s'ha aturat amb un error el %time.</translation>
+    </message>
+    <message>
+        <source>%n new in your inbox</source>
+        <translation>%n nous a la safata d'entrada</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Safata d'entrada</translation>
     </message>

@@ -784,6 +784,66 @@
         <translation>Nem mentett módosítások ezen az oldalon</translation>
     </message>
     <message>
+        <source>There is no such item.</source>
+        <translation>Nincs ilyen elem.</translation>
+    </message>
+    <message>
+        <source>Mark as read</source>
+        <translation>Megjelölés olvasottként</translation>
+    </message>
+    <message>
+        <source>Open in the administration</source>
+        <translation>Megnyitás az adminisztrációban</translation>
+    </message>
+    <message>
+        <source>Comments and mentions</source>
+        <translation>Hozzászólások és említések</translation>
+    </message>
+    <message>
+        <source>Mentions you</source>
+        <translation>Megemlít téged</translation>
+    </message>
+    <message>
+        <source>%n new</source>
+        <translation>%n új</translation>
+    </message>
+    <message>
+        <source>Your pages</source>
+        <translation>Az oldalaid</translation>
+    </message>
+    <message>
+        <source>Approved</source>
+        <translation>Jóváhagyva</translation>
+    </message>
+    <message>
+        <source>Denied</source>
+        <translation>Elutasítva</translation>
+    </message>
+    <message>
+        <source>It is published when the publishing workflow continues.</source>
+        <translation>Akkor jelenik meg, amikor a közzétételi munkafolyamat folytatódik.</translation>
+    </message>
+    <message>
+        <source>It is a draft of yours again.</source>
+        <translation>Ez ismét a te piszkozatod.</translation>
+    </message>
+    <message>
+        <source>Scheduled tasks that failed</source>
+        <translation>Sikertelen ütemezett feladatok</translation>
+    </message>
+    <message>
+        <source>A page</source>
+        <translation>Egy oldal</translation>
+    </message>
+    <message>
+        <source>The workflow %workflow stopped with an error on %time.</source>
+        <translation>A(z) %workflow munkafolyamat hibával leállt: %time.</translation>
+    </message>
+    <message>
+        <source>%n new in your inbox</source>
+        <translation>%n új a beérkezettek között</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Beérkezett</translation>
     </message>

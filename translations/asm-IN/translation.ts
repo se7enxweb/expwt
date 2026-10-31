@@ -784,6 +784,66 @@
         <translation>এই পৃষ্ঠাত ছেভ নোহোৱা সলনি</translation>
     </message>
     <message>
+        <source>There is no such item.</source>
+        <translation>এনে কোনো বস্তু নাই।</translation>
+    </message>
+    <message>
+        <source>Mark as read</source>
+        <translation>পঢ়া বুলি চিহ্নিত কৰক</translation>
+    </message>
+    <message>
+        <source>Open in the administration</source>
+        <translation>প্ৰশাসনত খোলক</translation>
+    </message>
+    <message>
+        <source>Comments and mentions</source>
+        <translation>মন্তব্য আৰু উল্লেখ</translation>
+    </message>
+    <message>
+        <source>Mentions you</source>
+        <translation>আপোনাক উল্লেখ কৰে</translation>
+    </message>
+    <message>
+        <source>%n new</source>
+        <translation>%n নতুন</translation>
+    </message>
+    <message>
+        <source>Your pages</source>
+        <translation>আপোনাৰ পৃষ্ঠাসমূহ</translation>
+    </message>
+    <message>
+        <source>Approved</source>
+        <translation>অনুমোদিত</translation>
+    </message>
+    <message>
+        <source>Denied</source>
+        <translation>নাকচ</translation>
+    </message>
+    <message>
+        <source>It is published when the publishing workflow continues.</source>
+        <translation>প্ৰকাশৰ ৱৰ্কফ্ল' আগবাঢ়িলে ই প্ৰকাশ হ'ব।</translation>
+    </message>
+    <message>
+        <source>It is a draft of yours again.</source>
+        <translation>ই পুনৰ আপোনাৰ খচৰা।</translation>
+    </message>
+    <message>
+        <source>Scheduled tasks that failed</source>
+        <translation>বিফল হোৱা নিৰ্ধাৰিত কামসমূহ</translation>
+    </message>
+    <message>
+        <source>A page</source>
+        <translation>এটা পৃষ্ঠা</translation>
+    </message>
+    <message>
+        <source>The workflow %workflow stopped with an error on %time.</source>
+        <translation>ৱৰ্কফ্ল' %workflow %time ত এটা ত্ৰুটিৰে বন্ধ হ'ল।</translation>
+    </message>
+    <message>
+        <source>%n new in your inbox</source>
+        <translation>আপোনাৰ ইনবক্সত %n নতুন</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>ইনবক্স</translation>
     </message>
