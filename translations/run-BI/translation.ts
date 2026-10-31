@@ -572,6 +572,10 @@
         <translation>Umuco canke umwiza</translation>
     </message>
     <message>
+        <source>Like the site</source>
+        <translation>Nk'uko urubuga rumeze</translation>
+    </message>
+    <message>
         <source>Like the system</source>
         <translation>Nk'uko sisitemu imeze</translation>
     </message>

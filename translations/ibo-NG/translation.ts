@@ -572,6 +572,10 @@
         <translation>Ìhè ma ọ bụ ọchịchịrị</translation>
     </message>
     <message>
+        <source>Like the site</source>
+        <translation>Dịka saịtị</translation>
+    </message>
+    <message>
         <source>Like the system</source>
         <translation>Dịka sistemụ</translation>
     </message>

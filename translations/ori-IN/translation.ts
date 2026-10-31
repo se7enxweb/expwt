@@ -572,6 +572,10 @@
         <translation>ହାଲୁକା କିମ୍ବା ଗାଢ଼</translation>
     </message>
     <message>
+        <source>Like the site</source>
+        <translation>ସାଇଟ୍ ପରି</translation>
+    </message>
+    <message>
         <source>Like the system</source>
         <translation>ସିଷ୍ଟମ୍ ପରି</translation>
     </message>

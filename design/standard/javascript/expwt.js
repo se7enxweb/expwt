@@ -754,7 +754,9 @@
     themeChooser() {
       var self = this;
       var group = h('fieldset', { class: 'wt-section' }, [h('legend', { text: this.t('Light or dark') })]);
-      [['auto', this.t('Like the system')], ['light', this.t('Light')], ['dark', this.t('Dark')]].forEach(function (o) {
+      /* auto follows the site's own switch where the design has one (siteMode), the system's elsewhere */
+      var auto = document.documentElement.hasAttribute('data-exp-theme') ? this.t('Like the site') : this.t('Like the system');
+      [['auto', auto],['light', this.t('Light')], ['dark', this.t('Dark')]].forEach(function (o) {
         var id = 'wt-theme-' + o[0];
         group.appendChild(h('label', { class: 'wt-check', for: id }, [
           h('input', { type: 'radio', name: 'wt-theme', id: id, value: o[0], checked: self.state.theme === o[0],

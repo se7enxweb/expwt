@@ -572,6 +572,10 @@
         <translation>प्रकाशः अन्धकारः वा</translation>
     </message>
     <message>
+        <source>Like the site</source>
+        <translation>जालस्थानवत्</translation>
+    </message>
+    <message>
         <source>Like the system</source>
         <translation>प्रणालीवत्</translation>
     </message>

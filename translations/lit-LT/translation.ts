@@ -572,6 +572,10 @@
         <translation>Šviesus ar tamsus</translation>
     </message>
     <message>
+        <source>Like the site</source>
+        <translation>Kaip svetainėje</translation>
+    </message>
+    <message>
         <source>Like the system</source>
         <translation>Kaip sistemoje</translation>
     </message>

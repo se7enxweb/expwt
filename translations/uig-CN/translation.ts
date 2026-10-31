@@ -572,6 +572,10 @@
         <translation>يورۇق ياكى قاراڭغۇ</translation>
     </message>
     <message>
+        <source>Like the site</source>
+        <translation>تور بېكەتكە ئوخشاش</translation>
+    </message>
+    <message>
         <source>Like the system</source>
         <translation>سىستېمىغا ئوخشاش</translation>
     </message>

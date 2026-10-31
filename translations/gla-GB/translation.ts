@@ -572,6 +572,10 @@
         <translation>Soilleir no dorcha</translation>
     </message>
     <message>
+        <source>Like the site</source>
+        <translation>Mar an làrach</translation>
+    </message>
+    <message>
         <source>Like the system</source>
         <translation>Mar an siostam</translation>
     </message>

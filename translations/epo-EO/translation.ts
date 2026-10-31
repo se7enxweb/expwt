@@ -572,6 +572,10 @@
         <translation>Hela aŭ malhela</translation>
     </message>
     <message>
+        <source>Like the site</source>
+        <translation>Kiel la retejo</translation>
+    </message>
+    <message>
         <source>Like the system</source>
         <translation>Kiel la sistemo</translation>
     </message>

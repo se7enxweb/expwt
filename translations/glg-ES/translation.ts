@@ -572,6 +572,10 @@
         <translation>Claro ou escuro</translation>
     </message>
     <message>
+        <source>Like the site</source>
+        <translation>Coma o sitio</translation>
+    </message>
+    <message>
         <source>Like the system</source>
         <translation>Coma o sistema</translation>
     </message>

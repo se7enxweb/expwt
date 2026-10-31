@@ -572,6 +572,10 @@
         <translation>Ашық немесе қараңғы</translation>
     </message>
     <message>
+        <source>Like the site</source>
+        <translation>Сайттағыдай</translation>
+    </message>
+    <message>
         <source>Like the system</source>
         <translation>Жүйедегідей</translation>
     </message>

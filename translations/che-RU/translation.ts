@@ -572,6 +572,10 @@
         <translation>Серло я бода</translation>
     </message>
     <message>
+        <source>Like the site</source>
+        <translation>Сайтехь санна</translation>
+    </message>
+    <message>
         <source>Like the system</source>
         <translation>Системехь санна</translation>
     </message>

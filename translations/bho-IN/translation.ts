@@ -572,6 +572,10 @@
         <translation>हल्का भा गाढ़</translation>
     </message>
     <message>
+        <source>Like the site</source>
+        <translation>साइट जइसन</translation>
+    </message>
+    <message>
         <source>Like the system</source>
         <translation>सिस्टम जइसन</translation>
     </message>

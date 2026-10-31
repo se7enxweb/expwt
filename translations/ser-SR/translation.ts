@@ -572,6 +572,10 @@
         <translation>Svetlo ili tamno</translation>
     </message>
     <message>
+        <source>Like the site</source>
+        <translation>Kao sajt</translation>
+    </message>
+    <message>
         <source>Like the system</source>
         <translation>Kao sistem</translation>
     </message>

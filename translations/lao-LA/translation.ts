@@ -572,6 +572,10 @@
         <translation>ສະຫວ່າງ ຫຼື ມືດ</translation>
     </message>
     <message>
+        <source>Like the site</source>
+        <translation>ຕາມເວັບໄຊ</translation>
+    </message>
+    <message>
         <source>Like the system</source>
         <translation>ຕາມລະບົບ</translation>
     </message>

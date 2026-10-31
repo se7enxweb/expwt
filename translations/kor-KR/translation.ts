@@ -572,6 +572,10 @@
         <translation>밝게 또는 어둡게</translation>
     </message>
     <message>
+        <source>Like the site</source>
+        <translation>사이트 설정과 같게</translation>
+    </message>
+    <message>
         <source>Like the system</source>
         <translation>시스템 설정과 같게</translation>
     </message>

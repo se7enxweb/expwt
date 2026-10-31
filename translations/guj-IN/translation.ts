@@ -572,6 +572,10 @@
         <translation>લાઇટ કે ડાર્ક</translation>
     </message>
     <message>
+        <source>Like the site</source>
+        <translation>સાઇટ મુજબ</translation>
+    </message>
+    <message>
         <source>Like the system</source>
         <translation>સિસ્ટમ મુજબ</translation>
     </message>

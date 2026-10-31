@@ -572,6 +572,10 @@
         <translation>Kitangaala oba kizikiza</translation>
     </message>
     <message>
+        <source>Like the site</source>
+        <translation>Nga omukutu</translation>
+    </message>
+    <message>
         <source>Like the system</source>
         <translation>Nga sisitemu</translation>
     </message>

@@ -572,6 +572,10 @@
         <translation>Svetlý alebo tmavý</translation>
     </message>
     <message>
+        <source>Like the site</source>
+        <translation>Podľa webu</translation>
+    </message>
+    <message>
         <source>Like the system</source>
         <translation>Podľa systému</translation>
     </message>

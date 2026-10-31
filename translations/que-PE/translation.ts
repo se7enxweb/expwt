@@ -572,6 +572,10 @@
         <translation>K'anchay utaq tutayaq</translation>
     </message>
     <message>
+        <source>Like the site</source>
+        <translation>Sitio hina</translation>
+    </message>
+    <message>
         <source>Like the system</source>
         <translation>Sistema hina</translation>
     </message>

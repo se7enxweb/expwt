@@ -572,6 +572,10 @@
         <translation>फिकट किंवा गडद</translation>
     </message>
     <message>
+        <source>Like the site</source>
+        <translation>साइटप्रमाणे</translation>
+    </message>
+    <message>
         <source>Like the system</source>
         <translation>सिस्टमप्रमाणे</translation>
     </message>

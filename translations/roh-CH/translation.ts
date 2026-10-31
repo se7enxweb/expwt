@@ -572,6 +572,10 @@
         <translation>Cler u stgir</translation>
     </message>
     <message>
+        <source>Like the site</source>
+        <translation>Sco la website</translation>
+    </message>
+    <message>
         <source>Like the system</source>
         <translation>Sco il sistem</translation>
     </message>

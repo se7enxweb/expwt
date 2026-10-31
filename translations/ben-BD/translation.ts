@@ -572,6 +572,10 @@
         <translation>হালকা বা গাঢ়</translation>
     </message>
     <message>
+        <source>Like the site</source>
+        <translation>সাইটের মতো</translation>
+    </message>
+    <message>
         <source>Like the system</source>
         <translation>সিস্টেমের মতো</translation>
     </message>

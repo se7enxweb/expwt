@@ -572,6 +572,10 @@
         <translation>Равшан ё торик</translation>
     </message>
     <message>
+        <source>Like the site</source>
+        <translation>Мисли сомона</translation>
+    </message>
+    <message>
         <source>Like the system</source>
         <translation>Мисли система</translation>
     </message>

@@ -572,6 +572,10 @@
         <translation>ආලෝකමත් හෝ අඳුරු</translation>
     </message>
     <message>
+        <source>Like the site</source>
+        <translation>අඩවිය මෙන්</translation>
+    </message>
+    <message>
         <source>Like the system</source>
         <translation>පද්ධතිය මෙන්</translation>
     </message>

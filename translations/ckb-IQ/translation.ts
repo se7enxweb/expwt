@@ -572,6 +572,10 @@
         <translation>ڕووناک یان تاریک</translation>
     </message>
     <message>
+        <source>Like the site</source>
+        <translation>وەک ماڵپەڕ</translation>
+    </message>
+    <message>
         <source>Like the system</source>
         <translation>وەک سیستەم</translation>
     </message>

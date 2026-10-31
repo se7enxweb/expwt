@@ -572,6 +572,10 @@
         <translation>အလင်း သို့မဟုတ် အမှောင်</translation>
     </message>
     <message>
+        <source>Like the site</source>
+        <translation>ဆိုက်အတိုင်း</translation>
+    </message>
+    <message>
         <source>Like the system</source>
         <translation>စနစ်အတိုင်း</translation>
     </message>

@@ -572,6 +572,10 @@
         <translation>Ìmọ́lẹ̀ tàbí òkùnkùn</translation>
     </message>
     <message>
+        <source>Like the site</source>
+        <translation>Bí ojú òpó</translation>
+    </message>
+    <message>
         <source>Like the system</source>
         <translation>Bí ètò ẹ̀rọ</translation>
     </message>

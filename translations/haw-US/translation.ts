@@ -572,6 +572,10 @@
         <translation>Mālamalama a i ʻole pōʻeleʻele</translation>
     </message>
     <message>
+        <source>Like the site</source>
+        <translation>E like me ka pūnaewele</translation>
+    </message>
+    <message>
         <source>Like the system</source>
         <translation>E like me ka ʻōnaehana</translation>
     </message>

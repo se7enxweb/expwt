@@ -572,6 +572,10 @@
         <translation>Hell oder donkel</translation>
     </message>
     <message>
+        <source>Like the site</source>
+        <translation>Wéi de Site</translation>
+    </message>
+    <message>
         <source>Like the system</source>
         <translation>Wéi de System</translation>
     </message>

@@ -572,6 +572,10 @@
         <translation>Swětły abo ćmowy</translation>
     </message>
     <message>
+        <source>Like the site</source>
+        <translation>Kaž sydło</translation>
+    </message>
+    <message>
         <source>Like the system</source>
         <translation>Kaž system</translation>
     </message>

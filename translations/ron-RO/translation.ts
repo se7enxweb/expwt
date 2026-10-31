@@ -572,6 +572,10 @@
         <translation>Luminos sau întunecat</translation>
     </message>
     <message>
+        <source>Like the site</source>
+        <translation>Ca site-ul</translation>
+    </message>
+    <message>
         <source>Like the system</source>
         <translation>Ca sistemul</translation>
     </message>

@@ -572,6 +572,10 @@
         <translation>İşıqlı və ya qaranlıq</translation>
     </message>
     <message>
+        <source>Like the site</source>
+        <translation>Sayt kimi</translation>
+    </message>
+    <message>
         <source>Like the system</source>
         <translation>Sistem kimi</translation>
     </message>

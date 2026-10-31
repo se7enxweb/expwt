@@ -572,6 +572,10 @@
         <translation>لو یا ہنیرا</translation>
     </message>
     <message>
+        <source>Like the site</source>
+        <translation>سائٹ ورگا</translation>
+    </message>
+    <message>
         <source>Like the system</source>
         <translation>سسٹم ورگا</translation>
     </message>

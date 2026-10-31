@@ -572,6 +572,10 @@
         <translation>లేత లేదా ముదురు</translation>
     </message>
     <message>
+        <source>Like the site</source>
+        <translation>సైట్ లాగా</translation>
+    </message>
+    <message>
         <source>Like the system</source>
         <translation>సిస్టమ్ లాగా</translation>
     </message>

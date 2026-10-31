@@ -572,6 +572,10 @@
         <translation>Leer walla lëndëm</translation>
     </message>
     <message>
+        <source>Like the site</source>
+        <translation>Ni dalu bi</translation>
+    </message>
+    <message>
         <source>Like the system</source>
         <translation>Ni sistem bi</translation>
     </message>

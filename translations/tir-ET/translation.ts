@@ -572,6 +572,10 @@
         <translation>ብሩህ ወይ ጸልማት</translation>
     </message>
     <message>
+        <source>Like the site</source>
+        <translation>ከም እቲ መርበብ</translation>
+    </message>
+    <message>
         <source>Like the system</source>
         <translation>ከም እቲ ስርዓት</translation>
     </message>

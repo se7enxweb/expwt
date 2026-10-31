@@ -572,6 +572,10 @@
         <translation>வெளிர் அல்லது இருள்</translation>
     </message>
     <message>
+        <source>Like the site</source>
+        <translation>தளத்தைப் போல</translation>
+    </message>
+    <message>
         <source>Like the system</source>
         <translation>கணினியைப் போல</translation>
     </message>

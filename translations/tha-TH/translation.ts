@@ -572,6 +572,10 @@
         <translation>สว่างหรือมืด</translation>
     </message>
     <message>
+        <source>Like the site</source>
+        <translation>ตามเว็บไซต์</translation>
+    </message>
+    <message>
         <source>Like the system</source>
         <translation>ตามระบบ</translation>
     </message>

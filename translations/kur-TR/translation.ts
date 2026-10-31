@@ -572,6 +572,10 @@
         <translation>Ronî an tarî</translation>
     </message>
     <message>
+        <source>Like the site</source>
+        <translation>Wek malperê</translation>
+    </message>
+    <message>
         <source>Like the system</source>
         <translation>Wek pergalê</translation>
     </message>

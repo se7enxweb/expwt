@@ -572,6 +572,10 @@
         <translation>Jasny czy ciemny</translation>
     </message>
     <message>
+        <source>Like the site</source>
+        <translation>Jak w witrynie</translation>
+    </message>
+    <message>
         <source>Like the system</source>
         <translation>Jak w systemie</translation>
     </message>

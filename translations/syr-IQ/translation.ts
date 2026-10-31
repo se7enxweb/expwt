@@ -572,6 +572,10 @@
         <translation>ܢܗܝܪܐ ܐܘ ܚܫܘܟܐ</translation>
     </message>
     <message>
+        <source>Like the site</source>
+        <translation>ܐܝܟ ܐܬܪܐ</translation>
+    </message>
+    <message>
         <source>Like the system</source>
         <translation>ܐܝܟ ܛܘܟܣܐ</translation>
     </message>

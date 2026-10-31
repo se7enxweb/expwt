@@ -572,6 +572,10 @@
         <translation>Kekeli alo viviti</translation>
     </message>
     <message>
+        <source>Like the site</source>
+        <translation>Abe nyatakakadzraɖoƒe la ene</translation>
+    </message>
+    <message>
         <source>Like the system</source>
         <translation>Abe ɖoɖowɔnu la ene</translation>
     </message>

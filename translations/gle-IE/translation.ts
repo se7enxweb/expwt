@@ -572,6 +572,10 @@
         <translation>Geal nó dorcha</translation>
     </message>
     <message>
+        <source>Like the site</source>
+        <translation>Cosúil leis an suíomh</translation>
+    </message>
+    <message>
         <source>Like the system</source>
         <translation>Cosúil leis an gcóras</translation>
     </message>

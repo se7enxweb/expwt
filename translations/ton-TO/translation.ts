@@ -572,6 +572,10 @@
         <translation>Maama pe fakapoʻuli</translation>
     </message>
     <message>
+        <source>Like the site</source>
+        <translation>Hangē ko e uepisaiti</translation>
+    </message>
+    <message>
         <source>Like the system</source>
         <translation>Hangē ko e sisitemi</translation>
     </message>

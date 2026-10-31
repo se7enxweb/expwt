@@ -572,6 +572,10 @@
         <translation>उजवाड वा काळोख</translation>
     </message>
     <message>
+        <source>Like the site</source>
+        <translation>सायटी भशेन</translation>
+    </message>
+    <message>
         <source>Like the system</source>
         <translation>सिस्टमा भशेन</translation>
     </message>

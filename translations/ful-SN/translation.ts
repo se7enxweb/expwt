@@ -572,6 +572,10 @@
         <translation>Ndaygu walla niɓɓere</translation>
     </message>
     <message>
+        <source>Like the site</source>
+        <translation>Hono lowre nde</translation>
+    </message>
+    <message>
         <source>Like the system</source>
         <translation>Hono sistem oo</translation>
     </message>

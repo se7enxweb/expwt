@@ -572,6 +572,10 @@
         <translation>Gaišs vai tumšs</translation>
     </message>
     <message>
+        <source>Like the site</source>
+        <translation>Kā vietnē</translation>
+    </message>
+    <message>
         <source>Like the system</source>
         <translation>Kā sistēmā</translation>
     </message>

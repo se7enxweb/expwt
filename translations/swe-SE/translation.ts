@@ -572,6 +572,10 @@
         <translation>Ljust eller mörkt</translation>
     </message>
     <message>
+        <source>Like the site</source>
+        <translation>Som webbplatsen</translation>
+    </message>
+    <message>
         <source>Like the system</source>
         <translation>Som systemet</translation>
     </message>

@@ -572,6 +572,10 @@
         <translation>Terang atau gelap</translation>
     </message>
     <message>
+        <source>Like the site</source>
+        <translation>Seperti situs</translation>
+    </message>
+    <message>
         <source>Like the system</source>
         <translation>Seperti sistem</translation>
     </message>

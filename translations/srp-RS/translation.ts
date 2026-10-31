@@ -572,6 +572,10 @@
         <translation>Светло или тамно</translation>
     </message>
     <message>
+        <source>Like the site</source>
+        <translation>Као сајт</translation>
+    </message>
+    <message>
         <source>Like the system</source>
         <translation>Као систем</translation>
     </message>

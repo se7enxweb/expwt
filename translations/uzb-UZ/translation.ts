@@ -572,6 +572,10 @@
         <translation>Yorugʻ yoki qorongʻi</translation>
     </message>
     <message>
+        <source>Like the site</source>
+        <translation>Saytdagidek</translation>
+    </message>
+    <message>
         <source>Like the system</source>
         <translation>Tizimdagidek</translation>
     </message>

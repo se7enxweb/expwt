@@ -572,6 +572,10 @@
         <translation>Ljóst eða dökkt</translation>
     </message>
     <message>
+        <source>Like the site</source>
+        <translation>Eins og vefurinn</translation>
+    </message>
+    <message>
         <source>Like the system</source>
         <translation>Eins og kerfið</translation>
     </message>

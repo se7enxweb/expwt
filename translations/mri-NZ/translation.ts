@@ -572,6 +572,10 @@
         <translation>Mārama, pōuri rānei</translation>
     </message>
     <message>
+        <source>Like the site</source>
+        <translation>Kia rite ki te pae</translation>
+    </message>
+    <message>
         <source>Like the system</source>
         <translation>Kia rite ki te pūnaha</translation>
     </message>

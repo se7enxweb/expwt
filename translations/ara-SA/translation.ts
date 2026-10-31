@@ -572,6 +572,10 @@
         <translation>فاتح أو داكن</translation>
     </message>
     <message>
+        <source>Like the site</source>
+        <translation>مثل الموقع</translation>
+    </message>
+    <message>
         <source>Like the system</source>
         <translation>مثل النظام</translation>
     </message>

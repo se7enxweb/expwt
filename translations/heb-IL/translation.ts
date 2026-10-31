@@ -572,6 +572,10 @@
         <translation>בהיר או כהה</translation>
     </message>
     <message>
+        <source>Like the site</source>
+        <translation>כמו האתר</translation>
+    </message>
+    <message>
         <source>Like the system</source>
         <translation>כמו המערכת</translation>
     </message>

@@ -572,6 +572,10 @@
         <translation>Ũtheri kana nduma</translation>
     </message>
     <message>
+        <source>Like the site</source>
+        <translation>Ta ũrĩa website ĩtariĩ</translation>
+    </message>
+    <message>
         <source>Like the system</source>
         <translation>Ta ũrĩa system ĩtariĩ</translation>
     </message>

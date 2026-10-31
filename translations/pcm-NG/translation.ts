@@ -572,6 +572,10 @@
         <translation>Light or dark</translation>
     </message>
     <message>
+        <source>Like the site</source>
+        <translation>Like di site</translation>
+    </message>
+    <message>
         <source>Like the system</source>
         <translation>Like di system</translation>
     </message>

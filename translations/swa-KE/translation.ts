@@ -572,6 +572,10 @@
         <translation>Mwanga au giza</translation>
     </message>
     <message>
+        <source>Like the site</source>
+        <translation>Kama tovuti</translation>
+    </message>
+    <message>
         <source>Like the system</source>
         <translation>Kama mfumo</translation>
     </message>

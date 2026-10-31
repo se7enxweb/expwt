@@ -572,6 +572,10 @@
         <translation>ತಿಳಿ ಅಥವಾ ಗಾಢ</translation>
     </message>
     <message>
+        <source>Like the site</source>
+        <translation>ಸೈಟ್‌ನಂತೆ</translation>
+    </message>
+    <message>
         <source>Like the system</source>
         <translation>ಸಿಸ್ಟಮ್‌ನಂತೆ</translation>
     </message>

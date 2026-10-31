@@ -572,6 +572,10 @@
         <translation>Clarum vel obscurum</translation>
     </message>
     <message>
+        <source>Like the site</source>
+        <translation>Ut situs</translation>
+    </message>
+    <message>
         <source>Like the system</source>
         <translation>Ut systema</translation>
     </message>

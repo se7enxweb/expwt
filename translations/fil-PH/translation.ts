@@ -572,6 +572,10 @@
         <translation>Maliwanag o madilim</translation>
     </message>
     <message>
+        <source>Like the site</source>
+        <translation>Tulad ng site</translation>
+    </message>
+    <message>
         <source>Like the system</source>
         <translation>Tulad ng system</translation>
     </message>

@@ -572,6 +572,10 @@
         <translation>सोरां नङा आन्धार</translation>
     </message>
     <message>
+        <source>Like the site</source>
+        <translation>साइटबादि</translation>
+    </message>
+    <message>
         <source>Like the system</source>
         <translation>सिस्टेमबादि</translation>
     </message>

@@ -572,6 +572,10 @@
         <translation>Lig of donker</translation>
     </message>
     <message>
+        <source>Like the site</source>
+        <translation>Soos die webwerf</translation>
+    </message>
+    <message>
         <source>Like the system</source>
         <translation>Soos die stelsel</translation>
     </message>

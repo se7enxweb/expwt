@@ -572,6 +572,10 @@
         <translation>Cerah atau gelap</translation>
     </message>
     <message>
+        <source>Like the site</source>
+        <translation>Ikut laman</translation>
+    </message>
+    <message>
         <source>Like the system</source>
         <translation>Ikut sistem</translation>
     </message>

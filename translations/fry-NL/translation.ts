@@ -572,6 +572,10 @@
         <translation>Ljocht of tsjuster</translation>
     </message>
     <message>
+        <source>Like the site</source>
+        <translation>Lykas de website</translation>
+    </message>
+    <message>
         <source>Like the system</source>
         <translation>Lykas it systeem</translation>
     </message>

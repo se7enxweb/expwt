@@ -572,6 +572,10 @@
         <translation>روشن یا تاریک</translation>
     </message>
     <message>
+        <source>Like the site</source>
+        <translation>سائٹ کی طرح</translation>
+    </message>
+    <message>
         <source>Like the system</source>
         <translation>سسٹم کی طرح</translation>
     </message>

@@ -572,6 +572,10 @@
         <translation>Sáng hoặc tối</translation>
     </message>
     <message>
+        <source>Like the site</source>
+        <translation>Theo trang</translation>
+    </message>
+    <message>
         <source>Like the system</source>
         <translation>Theo hệ thống</translation>
     </message>

@@ -572,6 +572,10 @@
         <translation>Clar o fosc</translation>
     </message>
     <message>
+        <source>Like the site</source>
+        <translation>Com el lloc</translation>
+    </message>
+    <message>
         <source>Like the system</source>
         <translation>Com el sistema</translation>
     </message>

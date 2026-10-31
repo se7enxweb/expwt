@@ -572,6 +572,10 @@
         <translation>ലൈറ്റ് അല്ലെങ്കിൽ ഡാർക്ക്</translation>
     </message>
     <message>
+        <source>Like the site</source>
+        <translation>സൈറ്റ് പോലെ</translation>
+    </message>
+    <message>
         <source>Like the system</source>
         <translation>സിസ്റ്റം പോലെ</translation>
     </message>

@@ -572,6 +572,10 @@
         <translation>Mazava na maizina</translation>
     </message>
     <message>
+        <source>Like the site</source>
+        <translation>Toy ny tranonkala</translation>
+    </message>
+    <message>
         <source>Like the system</source>
         <translation>Toy ny rafitra</translation>
     </message>

@@ -572,6 +572,10 @@
         <translation>Čuovgat dahje sevdnjes</translation>
     </message>
     <message>
+        <source>Like the site</source>
+        <translation>Nugo neahttabáiki</translation>
+    </message>
+    <message>
         <source>Like the system</source>
         <translation>Nugo vuogádat</translation>
     </message>

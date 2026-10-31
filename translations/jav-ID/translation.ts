@@ -572,6 +572,10 @@
         <translation>Padhang utawa peteng</translation>
     </message>
     <message>
+        <source>Like the site</source>
+        <translation>Kaya situs</translation>
+    </message>
+    <message>
         <source>Like the system</source>
         <translation>Kaya sistem</translation>
     </message>

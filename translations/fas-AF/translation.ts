@@ -572,6 +572,10 @@
         <translation>روشن یا تاریک</translation>
     </message>
     <message>
+        <source>Like the site</source>
+        <translation>مانند سایت</translation>
+    </message>
+    <message>
         <source>Like the system</source>
         <translation>مانند سیستم</translation>
     </message>

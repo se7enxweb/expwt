@@ -572,6 +572,10 @@
         <translation>Argia edo iluna</translation>
     </message>
     <message>
+        <source>Like the site</source>
+        <translation>Gunearen arabera</translation>
+    </message>
+    <message>
         <source>Like the system</source>
         <translation>Sistemaren arabera</translation>
     </message>

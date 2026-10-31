@@ -572,6 +572,10 @@
         <translation>Ċar jew skur</translation>
     </message>
     <message>
+        <source>Like the site</source>
+        <translation>Bħas-sit</translation>
+    </message>
+    <message>
         <source>Like the system</source>
         <translation>Bħas-sistema</translation>
     </message>

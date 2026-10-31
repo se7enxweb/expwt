@@ -572,6 +572,10 @@
         <translation>Clar o escur</translation>
     </message>
     <message>
+        <source>Like the site</source>
+        <translation>Coma lo site</translation>
+    </message>
+    <message>
         <source>Like the system</source>
         <translation>Coma lo sistèma</translation>
     </message>

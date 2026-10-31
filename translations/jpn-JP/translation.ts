@@ -572,6 +572,10 @@
         <translation>ライトまたはダーク</translation>
     </message>
     <message>
+        <source>Like the site</source>
+        <translation>サイトに合わせる</translation>
+    </message>
+    <message>
         <source>Like the system</source>
         <translation>システムに合わせる</translation>
     </message>

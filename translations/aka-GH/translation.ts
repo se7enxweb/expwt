@@ -572,6 +572,10 @@
         <translation>Hann anaa sum</translation>
     </message>
     <message>
+        <source>Like the site</source>
+        <translation>Sɛ wɛbsaet no</translation>
+    </message>
+    <message>
         <source>Like the system</source>
         <translation>Sɛ system no</translation>
     </message>

@@ -572,6 +572,10 @@
         <translation>روشن يا اونداهو</translation>
     </message>
     <message>
+        <source>Like the site</source>
+        <translation>سائيٽ وانگر</translation>
+    </message>
+    <message>
         <source>Like the system</source>
         <translation>سسٽم وانگر</translation>
     </message>

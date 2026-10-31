@@ -572,6 +572,10 @@
         <translation>روښانه یا تیاره</translation>
     </message>
     <message>
+        <source>Like the site</source>
+        <translation>د سایټ په څېر</translation>
+    </message>
+    <message>
         <source>Like the system</source>
         <translation>د سیسټم په څېر</translation>
     </message>

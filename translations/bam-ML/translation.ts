@@ -572,6 +572,10 @@
         <translation>Yeelen walima dibi</translation>
     </message>
     <message>
+        <source>Like the site</source>
+        <translation>I ko siti</translation>
+    </message>
+    <message>
         <source>Like the system</source>
         <translation>I ko sisitɛmu</translation>
     </message>

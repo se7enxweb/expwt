@@ -572,6 +572,10 @@
         <translation>Hele või tume</translation>
     </message>
     <message>
+        <source>Like the site</source>
+        <translation>Nagu sait</translation>
+    </message>
+    <message>
         <source>Like the system</source>
         <translation>Nagu süsteem</translation>
     </message>

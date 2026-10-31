@@ -572,6 +572,10 @@
         <translation>Світла чи темна</translation>
     </message>
     <message>
+        <source>Like the site</source>
+        <translation>Як на сайті</translation>
+    </message>
+    <message>
         <source>Like the system</source>
         <translation>Як у системі</translation>
     </message>

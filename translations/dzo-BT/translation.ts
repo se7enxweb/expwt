@@ -572,6 +572,10 @@
         <translation>དཀརཔོ་ ཡང་ན་ ནགཔོ།</translation>
     </message>
     <message>
+        <source>Like the site</source>
+        <translation>ཡིག་ཐོག་བཟུམ།</translation>
+    </message>
+    <message>
         <source>Like the system</source>
         <translation>རིམ་ལུགས་བཟུམ།</translation>
     </message>

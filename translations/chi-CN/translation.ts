@@ -572,6 +572,10 @@
         <translation>浅色或深色</translation>
     </message>
     <message>
+        <source>Like the site</source>
+        <translation>跟随网站</translation>
+    </message>
+    <message>
         <source>Like the system</source>
         <translation>跟随系统</translation>
     </message>

@@ -572,6 +572,10 @@
         <translation>মঙাল নত্রগা অমমবা</translation>
     </message>
     <message>
+        <source>Like the site</source>
+        <translation>সাইতকুম্না</translation>
+    </message>
+    <message>
         <source>Like the system</source>
         <translation>সিস্তেমগুম্না</translation>
     </message>

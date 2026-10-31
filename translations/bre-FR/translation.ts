@@ -572,6 +572,10 @@
         <translation>Sklaer pe teñval</translation>
     </message>
     <message>
+        <source>Like the site</source>
+        <translation>Evel al lec'hienn</translation>
+    </message>
+    <message>
         <source>Like the system</source>
         <translation>Evel ar reizhiad</translation>
     </message>

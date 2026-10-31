@@ -572,6 +572,10 @@
         <translation>Hayag o ngitngit</translation>
     </message>
     <message>
+        <source>Like the site</source>
+        <translation>Sama sa site</translation>
+    </message>
+    <message>
         <source>Like the system</source>
         <translation>Sama sa sistema</translation>
     </message>

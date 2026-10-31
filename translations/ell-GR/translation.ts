@@ -572,6 +572,10 @@
         <translation>Φωτεινό ή σκοτεινό</translation>
     </message>
     <message>
+        <source>Like the site</source>
+        <translation>Όπως ο ιστότοπος</translation>
+    </message>
+    <message>
         <source>Like the system</source>
         <translation>Όπως το σύστημα</translation>
     </message>

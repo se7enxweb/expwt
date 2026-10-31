@@ -572,6 +572,10 @@
         <translation>Жарык же караңгы</translation>
     </message>
     <message>
+        <source>Like the site</source>
+        <translation>Сайттагыдай</translation>
+    </message>
+    <message>
         <source>Like the system</source>
         <translation>Системадагыдай</translation>
     </message>

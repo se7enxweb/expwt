@@ -572,6 +572,10 @@
         <translation>পোহৰ বা আন্ধাৰ</translation>
     </message>
     <message>
+        <source>Like the site</source>
+        <translation>ছাইটৰ দৰে</translation>
+    </message>
+    <message>
         <source>Like the system</source>
         <translation>ছিষ্টেমৰ দৰে</translation>
     </message>

@@ -572,6 +572,10 @@
         <translation>Açyk ýa-da garaňky</translation>
     </message>
     <message>
+        <source>Like the site</source>
+        <translation>Saýt ýaly</translation>
+    </message>
+    <message>
         <source>Like the system</source>
         <translation>Ulgam ýaly</translation>
     </message>

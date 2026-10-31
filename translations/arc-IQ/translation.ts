@@ -572,6 +572,10 @@
         <translation>נהורא או חשוכא</translation>
     </message>
     <message>
+        <source>Like the site</source>
+        <translation>איך אתרא</translation>
+    </message>
+    <message>
         <source>Like the system</source>
         <translation>איך מערכתא</translation>
     </message>

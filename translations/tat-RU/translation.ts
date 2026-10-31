@@ -572,6 +572,10 @@
         <translation>Якты яки караңгы</translation>
     </message>
     <message>
+        <source>Like the site</source>
+        <translation>Сайт кебек</translation>
+    </message>
+    <message>
         <source>Like the system</source>
         <translation>Система кебек</translation>
     </message>

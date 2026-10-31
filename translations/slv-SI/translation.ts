@@ -572,6 +572,10 @@
         <translation>Svetlo ali temno</translation>
     </message>
     <message>
+        <source>Like the site</source>
+        <translation>Kot spletno mesto</translation>
+    </message>
+    <message>
         <source>Like the system</source>
         <translation>Kot sistem</translation>
     </message>

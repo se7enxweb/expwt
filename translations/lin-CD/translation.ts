@@ -572,6 +572,10 @@
         <translation>Pole to molili</translation>
     </message>
     <message>
+        <source>Like the site</source>
+        <translation>Lokola site</translation>
+    </message>
+    <message>
         <source>Like the system</source>
         <translation>Lokola système</translation>
     </message>

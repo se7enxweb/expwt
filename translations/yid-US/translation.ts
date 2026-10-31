@@ -572,6 +572,10 @@
         <translation>ליכטיק אָדער טונקל</translation>
     </message>
     <message>
+        <source>Like the site</source>
+        <translation>ווי דאָס וועבזײַטל</translation>
+    </message>
+    <message>
         <source>Like the system</source>
         <translation>ווי די סיסטעם</translation>
     </message>

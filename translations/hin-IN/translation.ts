@@ -572,6 +572,10 @@
         <translation>हल्का या गहरा</translation>
     </message>
     <message>
+        <source>Like the site</source>
+        <translation>साइट के अनुसार</translation>
+    </message>
+    <message>
         <source>Like the system</source>
         <translation>सिस्टम के अनुसार</translation>
     </message>

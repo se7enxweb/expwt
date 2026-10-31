@@ -572,6 +572,10 @@
         <translation>Haske ko duhu</translation>
     </message>
     <message>
+        <source>Like the site</source>
+        <translation>Kamar shafin</translation>
+    </message>
+    <message>
         <source>Like the system</source>
         <translation>Kamar tsarin</translation>
     </message>

@@ -572,6 +572,10 @@
         <translation>Ifaa ykn dukkana</translation>
     </message>
     <message>
+        <source>Like the site</source>
+        <translation>Akka marsariitichaa</translation>
+    </message>
+    <message>
         <source>Like the system</source>
         <translation>Akka sirnichaa</translation>
     </message>

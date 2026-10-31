@@ -572,6 +572,10 @@
         <translation>Iftiin ama mugdi</translation>
     </message>
     <message>
+        <source>Like the site</source>
+        <translation>Sida goobta</translation>
+    </message>
+    <message>
         <source>Like the system</source>
         <translation>Sida nidaamka</translation>
     </message>

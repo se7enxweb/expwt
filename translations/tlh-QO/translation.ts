@@ -572,6 +572,10 @@
         <translation>wov pagh Hurgh</translation>
     </message>
     <message>
+        <source>Like the site</source>
+        <translation>Daq rur</translation>
+    </message>
+    <message>
         <source>Like the system</source>
         <translation>pat rur</translation>
     </message>

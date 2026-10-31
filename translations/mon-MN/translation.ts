@@ -572,6 +572,10 @@
         <translation>Цайвар эсвэл бараан</translation>
     </message>
     <message>
+        <source>Like the site</source>
+        <translation>Сайттай адил</translation>
+    </message>
+    <message>
         <source>Like the system</source>
         <translation>Системтэй адил</translation>
     </message>

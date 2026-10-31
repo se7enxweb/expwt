@@ -572,6 +572,10 @@
         <translation>उज्यालो वा अँध्यारो</translation>
     </message>
     <message>
+        <source>Like the site</source>
+        <translation>साइटजस्तै</translation>
+    </message>
+    <message>
         <source>Like the system</source>
         <translation>प्रणालीजस्तै</translation>
     </message>

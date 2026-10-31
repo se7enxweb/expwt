@@ -572,6 +572,10 @@
         <translation>گاش یا اَنٛدھکار</translation>
     </message>
     <message>
+        <source>Like the site</source>
+        <translation>سائٹہٕ ہیوٗ</translation>
+    </message>
+    <message>
         <source>Like the system</source>
         <translation>سسٹمہٕ ہیوٗ</translation>
     </message>

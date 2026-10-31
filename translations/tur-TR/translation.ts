@@ -572,6 +572,10 @@
         <translation>Açık veya koyu</translation>
     </message>
     <message>
+        <source>Like the site</source>
+        <translation>Site gibi</translation>
+    </message>
+    <message>
         <source>Like the system</source>
         <translation>Sistem gibi</translation>
     </message>

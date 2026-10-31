@@ -572,6 +572,10 @@
         <translation>Chiedza kana rima</translation>
     </message>
     <message>
+        <source>Like the site</source>
+        <translation>Sewebhusaiti</translation>
+    </message>
+    <message>
         <source>Like the system</source>
         <translation>Sesisitimu</translation>
     </message>

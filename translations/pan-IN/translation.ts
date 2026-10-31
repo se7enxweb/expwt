@@ -572,6 +572,10 @@
         <translation>ਹਲਕਾ ਜਾਂ ਗੂੜ੍ਹਾ</translation>
     </message>
     <message>
+        <source>Like the site</source>
+        <translation>ਸਾਈਟ ਵਾਂਗ</translation>
+    </message>
+    <message>
         <source>Like the system</source>
         <translation>ਸਿਸਟਮ ਵਾਂਗ</translation>
     </message>

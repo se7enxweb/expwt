@@ -572,6 +572,10 @@
         <translation>Ljóst ella myrkt</translation>
     </message>
     <message>
+        <source>Like the site</source>
+        <translation>Sum heimasíðan</translation>
+    </message>
+    <message>
         <source>Like the system</source>
         <translation>Sum skipanin</translation>
     </message>

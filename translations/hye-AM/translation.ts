@@ -572,6 +572,10 @@
         <translation>Բաց կամ մուգ</translation>
     </message>
     <message>
+        <source>Like the site</source>
+        <translation>Ինչպես կայքում</translation>
+    </message>
+    <message>
         <source>Like the system</source>
         <translation>Ինչպես համակարգում</translation>
     </message>

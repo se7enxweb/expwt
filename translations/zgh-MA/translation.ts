@@ -572,6 +572,10 @@
         <translation>ⵜⴰⴼⴰⵡⵜ ⵏⵖ ⵜⴰⵍⵍⵙ</translation>
     </message>
     <message>
+        <source>Like the site</source>
+        <translation>ⴰⵎ ⵓⵙⵉⵜ</translation>
+    </message>
+    <message>
         <source>Like the system</source>
         <translation>ⴰⵎ ⵓⵏⴰⴳⵔⴰⵡ</translation>
     </message>

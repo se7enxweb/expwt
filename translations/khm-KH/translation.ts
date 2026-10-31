@@ -572,6 +572,10 @@
         <translation>ភ្លឺ ឬងងឹត</translation>
     </message>
     <message>
+        <source>Like the site</source>
+        <translation>ដូចគេហទំព័រ</translation>
+    </message>
+    <message>
         <source>Like the system</source>
         <translation>ដូចប្រព័ន្ធ</translation>
     </message>

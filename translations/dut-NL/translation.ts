@@ -572,6 +572,10 @@
         <translation>Licht of donker</translation>
     </message>
     <message>
+        <source>Like the site</source>
+        <translation>Zoals de site</translation>
+    </message>
+    <message>
         <source>Like the system</source>
         <translation>Zoals het systeem</translation>
     </message>

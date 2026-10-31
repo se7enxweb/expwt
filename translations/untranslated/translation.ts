@@ -572,6 +572,10 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <source>Like the site</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>Like the system</source>
         <translation type="unfinished"></translation>
     </message>

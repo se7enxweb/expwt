@@ -572,6 +572,10 @@
         <translation>ብሩህ ወይም ጨለማ</translation>
     </message>
     <message>
+        <source>Like the site</source>
+        <translation>እንደ ጣቢያው</translation>
+    </message>
+    <message>
         <source>Like the system</source>
         <translation>እንደ ስርዓቱ</translation>
     </message>

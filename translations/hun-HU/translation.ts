@@ -572,6 +572,10 @@
         <translation>Világos vagy sötét</translation>
     </message>
     <message>
+        <source>Like the site</source>
+        <translation>Webhely szerint</translation>
+    </message>
+    <message>
         <source>Like the system</source>
         <translation>Rendszer szerint</translation>
     </message>

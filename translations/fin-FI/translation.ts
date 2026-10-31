@@ -572,6 +572,10 @@
         <translation>Vaalea vai tumma</translation>
     </message>
     <message>
+        <source>Like the site</source>
+        <translation>Sivuston mukaan</translation>
+    </message>
+    <message>
         <source>Like the system</source>
         <translation>Järjestelmän mukaan</translation>
     </message>

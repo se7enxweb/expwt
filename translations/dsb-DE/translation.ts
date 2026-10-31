@@ -572,6 +572,10 @@
         <translation>Swětły abo śamny</translation>
     </message>
     <message>
+        <source>Like the site</source>
+        <translation>Ako sedło</translation>
+    </message>
+    <message>
         <source>Like the system</source>
         <translation>Ako system</translation>
     </message>

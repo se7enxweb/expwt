@@ -572,6 +572,10 @@
         <translation>Aceɛlal neɣ aberkan</translation>
     </message>
     <message>
+        <source>Like the site</source>
+        <translation>Am usmel</translation>
+    </message>
+    <message>
         <source>Like the system</source>
         <translation>Am unagraw</translation>
     </message>

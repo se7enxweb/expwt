@@ -572,6 +572,10 @@
         <translation>हल्का वा गाढ़</translation>
     </message>
     <message>
+        <source>Like the site</source>
+        <translation>साइट जकाँ</translation>
+    </message>
+    <message>
         <source>Like the system</source>
         <translation>सिस्टम जकाँ</translation>
     </message>

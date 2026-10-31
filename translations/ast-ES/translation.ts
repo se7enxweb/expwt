@@ -572,6 +572,10 @@
         <translation>Claru o escuru</translation>
     </message>
     <message>
+        <source>Like the site</source>
+        <translation>Como'l sitiu</translation>
+    </message>
+    <message>
         <source>Like the system</source>
         <translation>Como'l sistema</translation>
     </message>

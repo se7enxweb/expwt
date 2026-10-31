@@ -572,6 +572,10 @@
         <translation>E çelët ose e errët</translation>
     </message>
     <message>
+        <source>Like the site</source>
+        <translation>Si sajti</translation>
+    </message>
+    <message>
         <source>Like the system</source>
         <translation>Si sistemi</translation>
     </message>

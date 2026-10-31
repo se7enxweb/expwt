@@ -572,6 +572,10 @@
         <translation>Golau neu dywyll</translation>
     </message>
     <message>
+        <source>Like the site</source>
+        <translation>Fel y wefan</translation>
+    </message>
+    <message>
         <source>Like the system</source>
         <translation>Fel y system</translation>
     </message>

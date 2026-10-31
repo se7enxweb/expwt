@@ -572,6 +572,10 @@
         <translation>ღია ან მუქი</translation>
     </message>
     <message>
+        <source>Like the site</source>
+        <translation>როგორც საიტზე</translation>
+    </message>
+    <message>
         <source>Like the system</source>
         <translation>როგორც სისტემაში</translation>
     </message>

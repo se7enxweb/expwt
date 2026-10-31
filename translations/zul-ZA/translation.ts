@@ -572,6 +572,10 @@
         <translation>Kukhanyayo noma kumnyama</translation>
     </message>
     <message>
+        <source>Like the site</source>
+        <translation>Njengesayithi</translation>
+    </message>
+    <message>
         <source>Like the system</source>
         <translation>Njengesistimu</translation>
     </message>

@@ -572,6 +572,10 @@
         <translation>Hell oder dunkel</translation>
     </message>
     <message>
+        <source>Like the site</source>
+        <translation>Wie die Website</translation>
+    </message>
+    <message>
         <source>Like the system</source>
         <translation>Wie das System</translation>
     </message>

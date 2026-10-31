@@ -572,6 +572,10 @@
         <translation>Ukukhanya okanye ubumnyama</translation>
     </message>
     <message>
+        <source>Like the site</source>
+        <translation>Njengesayithi</translation>
+    </message>
+    <message>
         <source>Like the system</source>
         <translation>Njengenkqubo</translation>
     </message>

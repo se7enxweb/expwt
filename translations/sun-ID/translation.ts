@@ -572,6 +572,10 @@
         <translation>Caang atawa poék</translation>
     </message>
     <message>
+        <source>Like the site</source>
+        <translation>Saluyu jeung situs</translation>
+    </message>
+    <message>
         <source>Like the system</source>
         <translation>Saluyu jeung sistem</translation>
     </message>

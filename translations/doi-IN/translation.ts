@@ -572,6 +572,10 @@
         <translation>हल्का जां गूढ़ा</translation>
     </message>
     <message>
+        <source>Like the site</source>
+        <translation>साइट आंह्गर</translation>
+    </message>
+    <message>
         <source>Like the system</source>
         <translation>सिस्टम आंह्गर</translation>
     </message>

@@ -19,7 +19,7 @@ class expwtStrings
     /** What the closed tab and a visitor's panel show before the boot answer (or without one: not signed in) */
     const TAB = array( 'Website sidebar', 'Edit', 'Menu', 'Arrow keys move it, Enter opens it.', 'Width of the sidebar', 'Panels',
                        'Close the sidebar', 'Welcome', 'Sign in to edit this website.', 'Sign in', 'Register', 'Search',
-                       'Light or dark', 'Like the system', 'Light', 'Dark', 'The sidebar was moved.', 'The sidebar is on the left.',
+                       'Light or dark', 'Like the site', 'Like the system', 'Light', 'Dark', 'The sidebar was moved.', 'The sidebar is on the left.',
                        'The sidebar is on the right.', 'Loading ...', 'The sidebar could not reach the server.' );
 
     /* sources:start (generated: every string of the panels, the views and the refusals) */
@@ -166,6 +166,7 @@ class expwtStrings
         'Register',
         'Search',
         'Light or dark',
+        'Like the site',
         'Like the system',
         'Light',
         'Dark',
