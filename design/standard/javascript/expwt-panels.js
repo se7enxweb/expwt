@@ -193,11 +193,26 @@
        full editor behind "More", so the bar's main controls never need a scroll bar. On left and right as before. */
     var moreFields = h('div', { class: 'wt-fields' });
     var moreSummary = h('summary', { text: t('More') });
-    /* opened: its fields scroll into the bar's view (they lie below the grid) */
-    var more = h('details', { class: 'wt-section wt-more', ontoggle: function () {
-      if (more.open) { window.requestAnimationFrame(function () { moreSummary.scrollIntoView({ block: 'start', behavior: 'smooth' }); }); }
-    } }, [moreSummary, moreFields]);
+    /* "More" is open until the user closes it (More again, Escape, a click outside it): nothing else closes it. Opened,
+       its fields scroll into the bar's view (they lie below the grid); a new arrangement of the bar waits until it is
+       closed (its frames load when they come into view, and their sizes would arrange the bar while it is open). */
+    var arrangeLater = false;
+    var more = h('details', { class: 'wt-section wt-more',
+      onkeydown: function (e) { if (e.key === 'Escape' && more.open) { e.stopPropagation(); more.open = false; moreSummary.focus(); } },
+      ontoggle: function () {
+        if (more.open) {
+          window.requestAnimationFrame(function () { moreSummary.scrollIntoView({ block: 'start', behavior: 'smooth' }); });
+        } else if (arrangeLater) {
+          arrangeLater = false;
+          arrange();
+        }
+      } }, [moreSummary, moreFields]);
     root.appendChild(more);
+    var outside = function (e) {
+      if (!root.isConnected) { document.removeEventListener('pointerdown', outside, true); return; }
+      if (more.open && (e.composedPath ? e.composedPath() : []).indexOf(more) < 0) { more.open = false; }
+    };
+    document.addEventListener('pointerdown', outside, true);
     var flat = h('div', {});
     root.appendChild(flat);
 
@@ -207,6 +222,7 @@
       /* a phone (the bar on top or bottom is a sheet as high as its contents, its body scrolls): the fields one
          below the other as on the sides, no "More" -- in its little room "More" opened below the visible part */
       var hz = ctx.horizontal() && window.innerWidth >= 640;
+      if (hz && more.open) { arrangeLater = true; return; }
       /* A field's row holds its editor's frame, and a frame moved in the page loads again (its request aborted): rows
          move only when their place changes, with moveBefore() where the browser keeps the frame's page */
       var inPlace = order.every(function (row, i) { return row.parentNode === form && (i === 0 || order[i - 1].nextSibling === row); });
