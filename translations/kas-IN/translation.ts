@@ -1,0 +1,587 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.0" language="kas-IN">
+<context>
+    <name>extension/expwt</name>
+    <message>
+        <source>There is no such action.</source>
+        <translation>یِتھ کانٛہہ عمل چھُنہٕ۔</translation>
+    </message>
+    <message>
+        <source>This action changes something and is only sent by POST.</source>
+        <translation>یہِ عمل چھُ کینٛہہ بدلاوان تہٕ چھُ صرف POST ذٔریعہٕ سوزنہٕ یِوان۔</translation>
+    </message>
+    <message>
+        <source>You may not do this.</source>
+        <translation>تۄہہِ چھُنہٕ یہِ کرنُک اِجازت۔</translation>
+    </message>
+    <message>
+        <source>Something went wrong on the server.</source>
+        <translation>سرورس پیٹھ گۄو کینٛہہ غلط۔</translation>
+    </message>
+    <message>
+        <source>Nothing to save.</source>
+        <translation>محفوظ کرنہٕ خٲطرٕ چھُنہٕ کینٛہہ۔</translation>
+    </message>
+    <message>
+        <source>This page is not there, or you may not read it.</source>
+        <translation>یہِ صفحہٕ چھُنہٕ، یا چھُنہٕ تۄہہِ امہِ پرنُک اِجازت۔</translation>
+    </message>
+    <message>
+        <source>Which page?</source>
+        <translation>کُس صفحہٕ؟</translation>
+    </message>
+    <message>
+        <source>This draft is not there any more.</source>
+        <translation>یہِ مَسوٗدہٕ چھُنہٕ وۄنۍ موجوٗد۔</translation>
+    </message>
+    <message>
+        <source>This field cannot be edited here.</source>
+        <translation>یہِ خانہٕ ہیٚکہِ نہٕ یَتہِ تَرمیم کٔرِتھ۔</translation>
+    </message>
+    <message>
+        <source>This value does not fit the field.</source>
+        <translation>یہِ قٲمت چھِنہٕ خانس مُطٲبِق۔</translation>
+    </message>
+    <message>
+        <source>Someone else changed these fields in the meantime.</source>
+        <translation>یَتھ دوران بدلٲوۍ کُنہِ بیٚیہِ یِم خانہٕ۔</translation>
+    </message>
+    <message>
+        <source>Fill in the required fields first.</source>
+        <translation>گۄڈٕ بٔرِو ضروٗری خانہٕ۔</translation>
+    </message>
+    <message>
+        <source>This is not a date and time.</source>
+        <translation>یہِ چھُنہٕ تٲریخ تہٕ وَقت۔</translation>
+    </message>
+    <message>
+        <source>The page would be taken down before it is published.</source>
+        <translation>صفحہٕ یِیہِ شایع گژھنہٕ برونٛہہ ہٹاونہٕ۔</translation>
+    </message>
+    <message>
+        <source>Give a title.</source>
+        <translation>عنوان دِیِو۔</translation>
+    </message>
+    <message>
+        <source>There is no such class.</source>
+        <translation>یِتھ کانٛہہ کلاس چھُنہٕ۔</translation>
+    </message>
+    <message>
+        <source>Where to?</source>
+        <translation>کوٗت؟</translation>
+    </message>
+    <message>
+        <source>The pages here are not sorted by priority.</source>
+        <translation>یَتِکۍ صفحہٕ چھِنہٕ ترجیح کِس حِسابہٕ ترتیب دِتھ۔</translation>
+    </message>
+    <message>
+        <source>This is not the list of pages here.</source>
+        <translation>یہِ چھِنہٕ یَتِکین صفحن ہٕنز فہرست۔</translation>
+    </message>
+    <message>
+        <source>The input is not JSON.</source>
+        <translation>اِن پُٹ چھُنہٕ JSON۔</translation>
+    </message>
+    <message>
+        <source>This action changes something: send it with expwtWrite.</source>
+        <translation>یہِ عمل چھُ کینٛہہ بدلاوان: امہِ سوزِو expwtWrite ذٔریعہٕ۔</translation>
+    </message>
+    <message>
+        <source>Verify it's you</source>
+        <translation>تصدیق کٔرِو زِ یہِ چھِو تۄہۍ</translation>
+    </message>
+    <message>
+        <source>Thank you. You can go back to the page; this window closes by itself.</source>
+        <translation>شُکریہ۔ تۄہۍ ہیٚکِو صفحس پیٹھ واپس گٔژھِتھ؛ یہِ وِنڈو گژھہِ پانَے بنٛد۔</translation>
+    </message>
+    <message>
+        <source>Something went wrong.</source>
+        <translation>کینٛہہ گۄو غلط۔</translation>
+    </message>
+    <message>
+        <source>This page is not content of the site. Open a page of the site to edit it.</source>
+        <translation>یہِ صفحہٕ چھُنہٕ سائٹٕچ مواد۔ تَرمیم کرنہٕ خٲطرٕ کھولِو سائٹُک اکھ صفحہٕ۔</translation>
+    </message>
+    <message>
+        <source>Loading ...</source>
+        <translation>لوڈ گژھان ...</translation>
+    </message>
+    <message>
+        <source>Draft</source>
+        <translation>مَسوٗدہٕ</translation>
+    </message>
+    <message>
+        <source>Published</source>
+        <translation>شایع کوٚرمُت</translation>
+    </message>
+    <message>
+        <source>Hidden</source>
+        <translation>پوشیدہ</translation>
+    </message>
+    <message>
+        <source>%name is editing this page since %time.</source>
+        <translation>%name چھُ یہِ صفحہٕ %time پیٹھہٕ تَرمیم کران۔</translation>
+    </message>
+    <message>
+        <source>Take over</source>
+        <translation>پانس نِیِو</translation>
+    </message>
+    <message>
+        <source>You may read this page but not edit it.</source>
+        <translation>تۄہۍ ہیٚکِو یہِ صفحہٕ پٔرِتھ مگر تَرمیم کٔرِتھ نہٕ۔</translation>
+    </message>
+    <message>
+        <source>Edit on the page</source>
+        <translation>صفحس پیٹھ تَرمیم کٔرِو</translation>
+    </message>
+    <message>
+        <source>Preview</source>
+        <translation>پریویو</translation>
+    </message>
+    <message>
+        <source>Full editor</source>
+        <translation>پوٗرٕ ایڈیٹر</translation>
+    </message>
+    <message>
+        <source>required</source>
+        <translation>ضروٗری</translation>
+    </message>
+    <message>
+        <source>In the full editor: %fields</source>
+        <translation>پوٗرِس ایڈیٹرس منٛز: %fields</translation>
+    </message>
+    <message>
+        <source>Publish later or take down at a date</source>
+        <translation>پَتہٕ شایع کٔرِو یا کُنہِ تٲریخِ ہٹٲوِو</translation>
+    </message>
+    <message>
+        <source>Publish at</source>
+        <translation>شایع کرنُک وَقت</translation>
+    </message>
+    <message>
+        <source>Take down at</source>
+        <translation>ہٹاونُک وَقت</translation>
+    </message>
+    <message>
+        <source>Save draft</source>
+        <translation>مَسوٗدہٕ محفوظ کٔرِو</translation>
+    </message>
+    <message>
+        <source>Publish</source>
+        <translation>شایع کٔرِو</translation>
+    </message>
+    <message>
+        <source>Discard draft</source>
+        <translation>مَسوٗدہٕ ترٲوِو</translation>
+    </message>
+    <message>
+        <source>Saving ...</source>
+        <translation>محفوظ گژھان ...</translation>
+    </message>
+    <message>
+        <source>The draft is saved.</source>
+        <translation>مَسوٗدہٕ گۄو محفوظ۔</translation>
+    </message>
+    <message>
+        <source>Someone else changed these fields in the meantime. Choose for each field which text to keep, then save again.</source>
+        <translation>یَتھ دوران بدلٲوۍ کُنہِ بیٚیہِ یِم خانہٕ۔ پرٛتھ خانس خٲطرٕ ژارِو کُس متن تھاوُن چھُ، پَتہٕ کٔرِو دوبارٕ محفوظ۔</translation>
+    </message>
+    <message>
+        <source>Keep mine</source>
+        <translation>میٲنۍ تھٲوِو</translation>
+    </message>
+    <message>
+        <source>Take theirs</source>
+        <translation>تِہُنٛد نِیِو</translation>
+    </message>
+    <message>
+        <source>Save with these choices</source>
+        <translation>یِمَو اِنتخابَو سٟتۍ محفوظ کٔرِو</translation>
+    </message>
+    <message>
+        <source>Change something first: there is no draft to publish.</source>
+        <translation>گۄڈٕ بدلٲوِو کینٛہہ: شایع کرنہٕ خٲطرٕ چھُنہٕ کانٛہہ مَسوٗدہٕ۔</translation>
+    </message>
+    <message>
+        <source>Publishing ...</source>
+        <translation>شایع گژھان ...</translation>
+    </message>
+    <message>
+        <source>Published.</source>
+        <translation>شایع گۄو۔</translation>
+    </message>
+    <message>
+        <source>Sent for approval.</source>
+        <translation>منظوٗری خٲطرٕ سوزنہٕ آو۔</translation>
+    </message>
+    <message>
+        <source>Scheduled for %time.</source>
+        <translation>%time خٲطرٕ مقرر۔</translation>
+    </message>
+    <message>
+        <source>The publishing was stopped by a workflow.</source>
+        <translation>شایع کرُن روٗکُن ورک فلو کِنۍ۔</translation>
+    </message>
+    <message>
+        <source>Throw this draft away?</source>
+        <translation>یہِ مَسوٗدہٕ ترٲوِو؟</translation>
+    </message>
+    <message>
+        <source>The draft is gone.</source>
+        <translation>مَسوٗدہٕ گۄو۔</translation>
+    </message>
+    <message>
+        <source>Click a text on the page to edit it. It is saved with the draft.</source>
+        <translation>تَرمیم کرنہٕ خٲطرٕ کٔرِو صفحس پیٹھ کُنہِ متنس کلِک۔ یہِ گژھہِ مَسوٗدس سٟتۍ محفوظ۔</translation>
+    </message>
+    <message>
+        <source>None of the fields shows on this page as it is; use the form.</source>
+        <translation>کانٛہہ خانہٕ چھُنہٕ یَتھ صفحس پیٹھ یِتھَے بوزنہٕ یِوان؛ فارم ورتٲوِو۔</translation>
+    </message>
+    <message>
+        <source>Address of the link</source>
+        <translation>لِنکُک پتہٕ</translation>
+    </message>
+    <message>
+        <source>Text format</source>
+        <translation>متنُک فارمیٹ</translation>
+    </message>
+    <message>
+        <source>Bold</source>
+        <translation>موٚٹ</translation>
+    </message>
+    <message>
+        <source>Italic</source>
+        <translation>ترچھ</translation>
+    </message>
+    <message>
+        <source>List</source>
+        <translation>فہرست</translation>
+    </message>
+    <message>
+        <source>Link</source>
+        <translation>لِنک</translation>
+    </message>
+    <message>
+        <source>Yes</source>
+        <translation>آ</translation>
+    </message>
+    <message>
+        <source>In the text form of the field (values parted by |).</source>
+        <translation>خانُک متنی صوٗرتس منٛز (قٲمتہٕ | سٟتۍ الگ)۔</translation>
+    </message>
+    <message>
+        <source>You may not create anything here.</source>
+        <translation>تۄہۍ ہیٚکِو نہٕ یَتہِ کینٛہہ بنٲوِتھ۔</translation>
+    </message>
+    <message>
+        <source>Where</source>
+        <translation>کوٚت</translation>
+    </message>
+    <message>
+        <source>Below this page</source>
+        <translation>یَتھ صفحس تَل</translation>
+    </message>
+    <message>
+        <source>Beside this page</source>
+        <translation>یَتھ صفحس بَرابر</translation>
+    </message>
+    <message>
+        <source>A draft was made. Fill it in and publish it.</source>
+        <translation>اکھ مَسوٗدہٕ بنیوو۔ امہِ بٔرِو تہٕ شایع کٔرِو۔</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation>قسم</translation>
+    </message>
+    <message>
+        <source>Title</source>
+        <translation>عنوان</translation>
+    </message>
+    <message>
+        <source>Create draft</source>
+        <translation>مَسوٗدہٕ بنٲوِو</translation>
+    </message>
+    <message>
+        <source>Reveal</source>
+        <translation>ہاوِو</translation>
+    </message>
+    <message>
+        <source>Hide</source>
+        <translation>ژوٗرِ تھٲوِو</translation>
+    </message>
+    <message>
+        <source>The page is hidden.</source>
+        <translation>صفحہٕ گۄو پوشیدہ۔</translation>
+    </message>
+    <message>
+        <source>The page is visible again.</source>
+        <translation>صفحہٕ چھُ دوبارٕ بوزنہٕ یِوان۔</translation>
+    </message>
+    <message>
+        <source>Move ...</source>
+        <translation>منتقل کٔرِو ...</translation>
+    </message>
+    <message>
+        <source>Add location ...</source>
+        <translation>جاے ژارِو ...</translation>
+    </message>
+    <message>
+        <source>Move to trash</source>
+        <translation>کوٗڑدانس منٛز تراوِو</translation>
+    </message>
+    <message>
+        <source>Move this page to the trash?</source>
+        <translation>یہِ صفحہٕ کوٗڑدانس منٛز تراوُن؟</translation>
+    </message>
+    <message>
+        <source>Pages below this one</source>
+        <translation>یَتھ صفحس تَلۍ صفحہٕ</translation>
+    </message>
+    <message>
+        <source>There are no pages below this one.</source>
+        <translation>یَتھ صفحس تَل چھُنہٕ کانٛہہ صفحہٕ۔</translation>
+    </message>
+    <message>
+        <source>Move up</source>
+        <translation>ہیٚور کٔرِو</translation>
+    </message>
+    <message>
+        <source>Move down</source>
+        <translation>بۄن کٔرِو</translation>
+    </message>
+    <message>
+        <source>%name moved to place %n.</source>
+        <translation>%name گۄو جاے %n پیٹھ منتقل۔</translation>
+    </message>
+    <message>
+        <source>Save the order</source>
+        <translation>ترتیب محفوظ کٔرِو</translation>
+    </message>
+    <message>
+        <source>The order is saved.</source>
+        <translation>ترتیب گیہِ محفوظ۔</translation>
+    </message>
+    <message>
+        <source>These pages are sorted automatically, not by hand.</source>
+        <translation>یِم صفحہٕ چھِ پانَے ترتیب گژھان، اتھہٕ سٟتۍ نہٕ۔</translation>
+    </message>
+    <message>
+        <source>Move "%name" to ...</source>
+        <translation>"%name" منتقل کٔرِو ...</translation>
+    </message>
+    <message>
+        <source>Add "%name" also below ...</source>
+        <translation>"%name" تہِ ژارِو اَمہِ تَل ...</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>منسوٗخ کٔرِو</translation>
+    </message>
+    <message>
+        <source>In: %name</source>
+        <translation>منٛز: %name</translation>
+    </message>
+    <message>
+        <source>Up one level</source>
+        <translation>اکھ سطح ہیٚور</translation>
+    </message>
+    <message>
+        <source>Choose</source>
+        <translation>ژارِو</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>کھولِو</translation>
+    </message>
+    <message>
+        <source>Move the page below "%name"?</source>
+        <translation>صفحہٕ "%name" تَل منتقل کرُن؟</translation>
+    </message>
+    <message>
+        <source>Add the page also below "%name"?</source>
+        <translation>صفحہٕ "%name" تَل تہِ ژارُن؟</translation>
+    </message>
+    <message>
+        <source>Done.</source>
+        <translation>مُکمل۔</translation>
+    </message>
+    <message>
+        <source>Last visit: %time</source>
+        <translation>آخری دورٕ: %time</translation>
+    </message>
+    <message>
+        <source>My account</source>
+        <translation>میون اکاؤنٹ</translation>
+    </message>
+    <message>
+        <source>Password</source>
+        <translation>پاس ورڈ</translation>
+    </message>
+    <message>
+        <source>Passkeys</source>
+        <translation>پاس کی</translation>
+    </message>
+    <message>
+        <source>Sessions and devices</source>
+        <translation>سیشن تہٕ ڈیوائسہٕ</translation>
+    </message>
+    <message>
+        <source>Security</source>
+        <translation>حفاظت</translation>
+    </message>
+    <message>
+        <source>Notifications</source>
+        <translation>اطلاعات</translation>
+    </message>
+    <message>
+        <source>My drafts</source>
+        <translation>میٲنۍ مَسوٗدٕ</translation>
+    </message>
+    <message>
+        <source>Bookmarks</source>
+        <translation>بُک مارک</translation>
+    </message>
+    <message>
+        <source>The sidebar</source>
+        <translation>سائیڈ بار</translation>
+    </message>
+    <message>
+        <source>Side</source>
+        <translation>طرف</translation>
+    </message>
+    <message>
+        <source>Right</source>
+        <translation>دٔچھِن</translation>
+    </message>
+    <message>
+        <source>Left</source>
+        <translation>کھوٚبُر</translation>
+    </message>
+    <message>
+        <source>When open</source>
+        <translation>کھولنہٕ وِزِ</translation>
+    </message>
+    <message>
+        <source>Beside the page</source>
+        <translation>صفحس بَرابر</translation>
+    </message>
+    <message>
+        <source>Over the page</source>
+        <translation>صفحس پیٹھ</translation>
+    </message>
+    <message>
+        <source>Keep these settings only on this device</source>
+        <translation>یِم سیٹنگ صرف یَتھ ڈیوائسس پیٹھ تھٲوِو</translation>
+    </message>
+    <message>
+        <source>Sign out</source>
+        <translation>لاگ آؤٹ کٔرِو</translation>
+    </message>
+    <message>
+        <source>Website sidebar</source>
+        <translation>ویب سائٹُک سائیڈ بار</translation>
+    </message>
+    <message>
+        <source>Menu</source>
+        <translation>مینیو</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>تَرمیم کٔرِو</translation>
+    </message>
+    <message>
+        <source>Arrow keys move it, Enter opens it.</source>
+        <translation>تیرٕ بٹن چھِ امہِ منتقل کران، Enter چھُ امہِ کھولان۔</translation>
+    </message>
+    <message>
+        <source>Width of the sidebar</source>
+        <translation>سائیڈ بارٕچ چوڑٲے</translation>
+    </message>
+    <message>
+        <source>Panels</source>
+        <translation>پینل</translation>
+    </message>
+    <message>
+        <source>Close the sidebar</source>
+        <translation>سائیڈ بار بنٛد کٔرِو</translation>
+    </message>
+    <message>
+        <source>Welcome</source>
+        <translation>خوش آمدید</translation>
+    </message>
+    <message>
+        <source>Page</source>
+        <translation>صفحہٕ</translation>
+    </message>
+    <message>
+        <source>Create</source>
+        <translation>بنٲوِو</translation>
+    </message>
+    <message>
+        <source>Structure</source>
+        <translation>ڈھانٛچہٕ</translation>
+    </message>
+    <message>
+        <source>Me</source>
+        <translation>بہٕ</translation>
+    </message>
+    <message>
+        <source>The sidebar was moved.</source>
+        <translation>سائیڈ بار گۄو منتقل۔</translation>
+    </message>
+    <message>
+        <source>The sidebar is on the left.</source>
+        <translation>سائیڈ بار چھُ کھوٚبرِ طرف۔</translation>
+    </message>
+    <message>
+        <source>The sidebar is on the right.</source>
+        <translation>سائیڈ بار چھُ دٔچھنِ طرف۔</translation>
+    </message>
+    <message>
+        <source>The sidebar could not reach the server.</source>
+        <translation>سائیڈ بار ہیوٚک نہٕ سرورس تام واتِتھ۔</translation>
+    </message>
+    <message>
+        <source>Please confirm it is you in the new window.</source>
+        <translation>مہربٲنی کٔرِتھ تصدیق کٔرِو نوٚوِس وِنڈوس منٛز زِ یہِ چھِو تۄہۍ۔</translation>
+    </message>
+    <message>
+        <source>Allow this site to open a window to confirm it is you.</source>
+        <translation>یَتھ سائٹس دِیِو وِنڈو کھولنُک اِجازت تاکہ تۄہۍ تصدیق کٔرِو زِ یہِ چھِو تۄہۍ۔</translation>
+    </message>
+    <message>
+        <source>Sign in to edit this website.</source>
+        <translation>یہِ ویب سائٹ تَرمیم کرنہٕ خٲطرٕ کٔرِو لاگ اِن۔</translation>
+    </message>
+    <message>
+        <source>Sign in</source>
+        <translation>لاگ اِن کٔرِو</translation>
+    </message>
+    <message>
+        <source>Register</source>
+        <translation>رجسٹر کٔرِو</translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation>ژھارِو</translation>
+    </message>
+    <message>
+        <source>Light or dark</source>
+        <translation>گاش یا اَنٛدھکار</translation>
+    </message>
+    <message>
+        <source>Like the system</source>
+        <translation>سسٹمہٕ ہیوٗ</translation>
+    </message>
+    <message>
+        <source>Light</source>
+        <translation>گاش</translation>
+    </message>
+    <message>
+        <source>Dark</source>
+        <translation>اَنٛدھکار</translation>
+    </message>
+</context>
+</TS>

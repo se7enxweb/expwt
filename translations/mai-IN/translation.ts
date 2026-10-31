@@ -1,0 +1,587 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.0" language="mai-IN">
+<context>
+    <name>extension/expwt</name>
+    <message>
+        <source>There is no such action.</source>
+        <translation>एहन कोनो क्रिया नहि अछि।</translation>
+    </message>
+    <message>
+        <source>This action changes something and is only sent by POST.</source>
+        <translation>ई क्रिया किछु बदलैत अछि आ केवल POST सँ पठाओल जाइत अछि।</translation>
+    </message>
+    <message>
+        <source>You may not do this.</source>
+        <translation>अहाँ ई नहि कऽ सकैत छी।</translation>
+    </message>
+    <message>
+        <source>Something went wrong on the server.</source>
+        <translation>सर्वर पर किछु गड़बड़ भेल।</translation>
+    </message>
+    <message>
+        <source>Nothing to save.</source>
+        <translation>सहेजबाक लेल किछु नहि अछि।</translation>
+    </message>
+    <message>
+        <source>This page is not there, or you may not read it.</source>
+        <translation>ई पृष्ठ नहि अछि, वा अहाँ एकरा नहि पढ़ि सकैत छी।</translation>
+    </message>
+    <message>
+        <source>Which page?</source>
+        <translation>कोन पृष्ठ?</translation>
+    </message>
+    <message>
+        <source>This draft is not there any more.</source>
+        <translation>ई ड्राफ़्ट आब नहि अछि।</translation>
+    </message>
+    <message>
+        <source>This field cannot be edited here.</source>
+        <translation>ई फ़ील्ड एतए संपादित नहि भऽ सकैत अछि।</translation>
+    </message>
+    <message>
+        <source>This value does not fit the field.</source>
+        <translation>ई मान फ़ील्ड मे नहि बैसैत अछि।</translation>
+    </message>
+    <message>
+        <source>Someone else changed these fields in the meantime.</source>
+        <translation>बीच मे केओ आन एहि फ़ील्ड सभ केँ बदलि देलक।</translation>
+    </message>
+    <message>
+        <source>Fill in the required fields first.</source>
+        <translation>पहिने आवश्यक फ़ील्ड सभ भरू।</translation>
+    </message>
+    <message>
+        <source>This is not a date and time.</source>
+        <translation>ई तिथि आ समय नहि अछि।</translation>
+    </message>
+    <message>
+        <source>The page would be taken down before it is published.</source>
+        <translation>पृष्ठ प्रकाशित होएबा सँ पहिने हटा देल जाएत।</translation>
+    </message>
+    <message>
+        <source>Give a title.</source>
+        <translation>शीर्षक दिअ।</translation>
+    </message>
+    <message>
+        <source>There is no such class.</source>
+        <translation>एहन कोनो क्लास नहि अछि।</translation>
+    </message>
+    <message>
+        <source>Where to?</source>
+        <translation>कतए?</translation>
+    </message>
+    <message>
+        <source>The pages here are not sorted by priority.</source>
+        <translation>एतुका पृष्ठ सभ प्राथमिकता सँ क्रमित नहि अछि।</translation>
+    </message>
+    <message>
+        <source>This is not the list of pages here.</source>
+        <translation>ई एतुका पृष्ठ सभक सूची नहि अछि।</translation>
+    </message>
+    <message>
+        <source>The input is not JSON.</source>
+        <translation>इनपुट JSON नहि अछि।</translation>
+    </message>
+    <message>
+        <source>This action changes something: send it with expwtWrite.</source>
+        <translation>ई क्रिया किछु बदलैत अछि: एकरा expwtWrite सँ पठाउ।</translation>
+    </message>
+    <message>
+        <source>Verify it's you</source>
+        <translation>पुष्टि करू जे ई अहीं छी</translation>
+    </message>
+    <message>
+        <source>Thank you. You can go back to the page; this window closes by itself.</source>
+        <translation>धन्यवाद। अहाँ पृष्ठ पर घुरि सकैत छी; ई विंडो अपने बंद भऽ जाएत।</translation>
+    </message>
+    <message>
+        <source>Something went wrong.</source>
+        <translation>किछु गड़बड़ भेल।</translation>
+    </message>
+    <message>
+        <source>This page is not content of the site. Open a page of the site to edit it.</source>
+        <translation>ई पृष्ठ साइटक सामग्री नहि अछि। संपादित करबाक लेल साइटक कोनो पृष्ठ खोलू।</translation>
+    </message>
+    <message>
+        <source>Loading ...</source>
+        <translation>लोड भऽ रहल अछि ...</translation>
+    </message>
+    <message>
+        <source>Draft</source>
+        <translation>ड्राफ़्ट</translation>
+    </message>
+    <message>
+        <source>Published</source>
+        <translation>प्रकाशित</translation>
+    </message>
+    <message>
+        <source>Hidden</source>
+        <translation>नुकायल</translation>
+    </message>
+    <message>
+        <source>%name is editing this page since %time.</source>
+        <translation>%name %time सँ एहि पृष्ठ केँ संपादित कऽ रहल छथि।</translation>
+    </message>
+    <message>
+        <source>Take over</source>
+        <translation>अपना हाथ मे लिअ</translation>
+    </message>
+    <message>
+        <source>You may read this page but not edit it.</source>
+        <translation>अहाँ ई पृष्ठ पढ़ि सकैत छी मुदा संपादित नहि कऽ सकैत छी।</translation>
+    </message>
+    <message>
+        <source>Edit on the page</source>
+        <translation>पृष्ठ पर संपादित करू</translation>
+    </message>
+    <message>
+        <source>Preview</source>
+        <translation>पूर्वावलोकन</translation>
+    </message>
+    <message>
+        <source>Full editor</source>
+        <translation>पूर्ण संपादक</translation>
+    </message>
+    <message>
+        <source>required</source>
+        <translation>आवश्यक</translation>
+    </message>
+    <message>
+        <source>In the full editor: %fields</source>
+        <translation>पूर्ण संपादक मे: %fields</translation>
+    </message>
+    <message>
+        <source>Publish later or take down at a date</source>
+        <translation>बाद मे प्रकाशित करू वा कोनो तिथि केँ हटाउ</translation>
+    </message>
+    <message>
+        <source>Publish at</source>
+        <translation>प्रकाशित करबाक समय</translation>
+    </message>
+    <message>
+        <source>Take down at</source>
+        <translation>हटेबाक समय</translation>
+    </message>
+    <message>
+        <source>Save draft</source>
+        <translation>ड्राफ़्ट सहेजू</translation>
+    </message>
+    <message>
+        <source>Publish</source>
+        <translation>प्रकाशित करू</translation>
+    </message>
+    <message>
+        <source>Discard draft</source>
+        <translation>ड्राफ़्ट फेकि दिअ</translation>
+    </message>
+    <message>
+        <source>Saving ...</source>
+        <translation>सहेजल जा रहल अछि ...</translation>
+    </message>
+    <message>
+        <source>The draft is saved.</source>
+        <translation>ड्राफ़्ट सहेजल गेल।</translation>
+    </message>
+    <message>
+        <source>Someone else changed these fields in the meantime. Choose for each field which text to keep, then save again.</source>
+        <translation>बीच मे केओ आन एहि फ़ील्ड सभ केँ बदलि देलक। प्रत्येक फ़ील्ड लेल चुनू जे कोन पाठ राखब, फेर सँ सहेजू।</translation>
+    </message>
+    <message>
+        <source>Keep mine</source>
+        <translation>हमर राखू</translation>
+    </message>
+    <message>
+        <source>Take theirs</source>
+        <translation>हुनकर लिअ</translation>
+    </message>
+    <message>
+        <source>Save with these choices</source>
+        <translation>एहि चयन सभक संग सहेजू</translation>
+    </message>
+    <message>
+        <source>Change something first: there is no draft to publish.</source>
+        <translation>पहिने किछु बदलू: प्रकाशित करबाक लेल कोनो ड्राफ़्ट नहि अछि।</translation>
+    </message>
+    <message>
+        <source>Publishing ...</source>
+        <translation>प्रकाशित भऽ रहल अछि ...</translation>
+    </message>
+    <message>
+        <source>Published.</source>
+        <translation>प्रकाशित भेल।</translation>
+    </message>
+    <message>
+        <source>Sent for approval.</source>
+        <translation>स्वीकृति लेल पठाओल गेल।</translation>
+    </message>
+    <message>
+        <source>Scheduled for %time.</source>
+        <translation>%time लेल निर्धारित।</translation>
+    </message>
+    <message>
+        <source>The publishing was stopped by a workflow.</source>
+        <translation>प्रकाशन एकटा वर्कफ़्लो द्वारा रोकल गेल।</translation>
+    </message>
+    <message>
+        <source>Throw this draft away?</source>
+        <translation>ई ड्राफ़्ट फेकि दी?</translation>
+    </message>
+    <message>
+        <source>The draft is gone.</source>
+        <translation>ड्राफ़्ट हटि गेल।</translation>
+    </message>
+    <message>
+        <source>Click a text on the page to edit it. It is saved with the draft.</source>
+        <translation>संपादित करबाक लेल पृष्ठ पर कोनो पाठ पर क्लिक करू। ई ड्राफ़्टक संग सहेजल जाइत अछि।</translation>
+    </message>
+    <message>
+        <source>None of the fields shows on this page as it is; use the form.</source>
+        <translation>कोनो फ़ील्ड एहि पृष्ठ पर जहिना अछि तहिना नहि देखाइत अछि; फ़ॉर्म प्रयोग करू।</translation>
+    </message>
+    <message>
+        <source>Address of the link</source>
+        <translation>लिंकक पता</translation>
+    </message>
+    <message>
+        <source>Text format</source>
+        <translation>पाठ प्रारूप</translation>
+    </message>
+    <message>
+        <source>Bold</source>
+        <translation>मोट</translation>
+    </message>
+    <message>
+        <source>Italic</source>
+        <translation>तिरछा</translation>
+    </message>
+    <message>
+        <source>List</source>
+        <translation>सूची</translation>
+    </message>
+    <message>
+        <source>Link</source>
+        <translation>लिंक</translation>
+    </message>
+    <message>
+        <source>Yes</source>
+        <translation>हँ</translation>
+    </message>
+    <message>
+        <source>In the text form of the field (values parted by |).</source>
+        <translation>फ़ील्डक पाठ रूप मे (मान | सँ अलग कएल)।</translation>
+    </message>
+    <message>
+        <source>You may not create anything here.</source>
+        <translation>अहाँ एतए किछु नहि बना सकैत छी।</translation>
+    </message>
+    <message>
+        <source>Where</source>
+        <translation>कतए</translation>
+    </message>
+    <message>
+        <source>Below this page</source>
+        <translation>एहि पृष्ठक नीचाँ</translation>
+    </message>
+    <message>
+        <source>Beside this page</source>
+        <translation>एहि पृष्ठक बगल मे</translation>
+    </message>
+    <message>
+        <source>A draft was made. Fill it in and publish it.</source>
+        <translation>एकटा ड्राफ़्ट बनल। एकरा भरू आ प्रकाशित करू।</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation>प्रकार</translation>
+    </message>
+    <message>
+        <source>Title</source>
+        <translation>शीर्षक</translation>
+    </message>
+    <message>
+        <source>Create draft</source>
+        <translation>ड्राफ़्ट बनाउ</translation>
+    </message>
+    <message>
+        <source>Reveal</source>
+        <translation>देखाउ</translation>
+    </message>
+    <message>
+        <source>Hide</source>
+        <translation>नुकाउ</translation>
+    </message>
+    <message>
+        <source>The page is hidden.</source>
+        <translation>पृष्ठ नुकायल अछि।</translation>
+    </message>
+    <message>
+        <source>The page is visible again.</source>
+        <translation>पृष्ठ फेर सँ देखाइत अछि।</translation>
+    </message>
+    <message>
+        <source>Move ...</source>
+        <translation>हटाउ ...</translation>
+    </message>
+    <message>
+        <source>Add location ...</source>
+        <translation>स्थान जोड़ू ...</translation>
+    </message>
+    <message>
+        <source>Move to trash</source>
+        <translation>रद्दीटोकरी मे पठाउ</translation>
+    </message>
+    <message>
+        <source>Move this page to the trash?</source>
+        <translation>ई पृष्ठ रद्दीटोकरी मे पठाबी?</translation>
+    </message>
+    <message>
+        <source>Pages below this one</source>
+        <translation>एकर नीचाँक पृष्ठ</translation>
+    </message>
+    <message>
+        <source>There are no pages below this one.</source>
+        <translation>एकर नीचाँ कोनो पृष्ठ नहि अछि।</translation>
+    </message>
+    <message>
+        <source>Move up</source>
+        <translation>ऊपर करू</translation>
+    </message>
+    <message>
+        <source>Move down</source>
+        <translation>नीचाँ करू</translation>
+    </message>
+    <message>
+        <source>%name moved to place %n.</source>
+        <translation>%name स्थान %n पर गेल।</translation>
+    </message>
+    <message>
+        <source>Save the order</source>
+        <translation>क्रम सहेजू</translation>
+    </message>
+    <message>
+        <source>The order is saved.</source>
+        <translation>क्रम सहेजल गेल।</translation>
+    </message>
+    <message>
+        <source>These pages are sorted automatically, not by hand.</source>
+        <translation>ई पृष्ठ सभ अपने क्रमित होइत अछि, हाथ सँ नहि।</translation>
+    </message>
+    <message>
+        <source>Move "%name" to ...</source>
+        <translation>"%name" केँ एतए हटाउ ...</translation>
+    </message>
+    <message>
+        <source>Add "%name" also below ...</source>
+        <translation>"%name" केँ एकरो नीचाँ जोड़ू ...</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>रद्द करू</translation>
+    </message>
+    <message>
+        <source>In: %name</source>
+        <translation>मे: %name</translation>
+    </message>
+    <message>
+        <source>Up one level</source>
+        <translation>एक स्तर ऊपर</translation>
+    </message>
+    <message>
+        <source>Choose</source>
+        <translation>चुनू</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>खोलू</translation>
+    </message>
+    <message>
+        <source>Move the page below "%name"?</source>
+        <translation>पृष्ठ केँ "%name" क नीचाँ हटाबी?</translation>
+    </message>
+    <message>
+        <source>Add the page also below "%name"?</source>
+        <translation>पृष्ठ केँ "%name" क नीचाँ सेहो जोड़ी?</translation>
+    </message>
+    <message>
+        <source>Done.</source>
+        <translation>भऽ गेल।</translation>
+    </message>
+    <message>
+        <source>Last visit: %time</source>
+        <translation>अंतिम भ्रमण: %time</translation>
+    </message>
+    <message>
+        <source>My account</source>
+        <translation>हमर खाता</translation>
+    </message>
+    <message>
+        <source>Password</source>
+        <translation>पासवर्ड</translation>
+    </message>
+    <message>
+        <source>Passkeys</source>
+        <translation>पासकी</translation>
+    </message>
+    <message>
+        <source>Sessions and devices</source>
+        <translation>सत्र आ उपकरण</translation>
+    </message>
+    <message>
+        <source>Security</source>
+        <translation>सुरक्षा</translation>
+    </message>
+    <message>
+        <source>Notifications</source>
+        <translation>सूचना</translation>
+    </message>
+    <message>
+        <source>My drafts</source>
+        <translation>हमर ड्राफ़्ट</translation>
+    </message>
+    <message>
+        <source>Bookmarks</source>
+        <translation>बुकमार्क</translation>
+    </message>
+    <message>
+        <source>The sidebar</source>
+        <translation>साइडबार</translation>
+    </message>
+    <message>
+        <source>Side</source>
+        <translation>दिशा</translation>
+    </message>
+    <message>
+        <source>Right</source>
+        <translation>दहिना</translation>
+    </message>
+    <message>
+        <source>Left</source>
+        <translation>बामा</translation>
+    </message>
+    <message>
+        <source>When open</source>
+        <translation>खुजल रहला पर</translation>
+    </message>
+    <message>
+        <source>Beside the page</source>
+        <translation>पृष्ठक बगल मे</translation>
+    </message>
+    <message>
+        <source>Over the page</source>
+        <translation>पृष्ठक ऊपर</translation>
+    </message>
+    <message>
+        <source>Keep these settings only on this device</source>
+        <translation>ई सेटिंग केवल एहि उपकरण पर राखू</translation>
+    </message>
+    <message>
+        <source>Sign out</source>
+        <translation>लॉग आउट करू</translation>
+    </message>
+    <message>
+        <source>Website sidebar</source>
+        <translation>वेबसाइट साइडबार</translation>
+    </message>
+    <message>
+        <source>Menu</source>
+        <translation>मेनू</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>संपादित करू</translation>
+    </message>
+    <message>
+        <source>Arrow keys move it, Enter opens it.</source>
+        <translation>तीर कुंजी एकरा हटबैत अछि, Enter एकरा खोलैत अछि।</translation>
+    </message>
+    <message>
+        <source>Width of the sidebar</source>
+        <translation>साइडबारक चौड़ाई</translation>
+    </message>
+    <message>
+        <source>Panels</source>
+        <translation>पैनल</translation>
+    </message>
+    <message>
+        <source>Close the sidebar</source>
+        <translation>साइडबार बंद करू</translation>
+    </message>
+    <message>
+        <source>Welcome</source>
+        <translation>स्वागत अछि</translation>
+    </message>
+    <message>
+        <source>Page</source>
+        <translation>पृष्ठ</translation>
+    </message>
+    <message>
+        <source>Create</source>
+        <translation>बनाउ</translation>
+    </message>
+    <message>
+        <source>Structure</source>
+        <translation>संरचना</translation>
+    </message>
+    <message>
+        <source>Me</source>
+        <translation>हम</translation>
+    </message>
+    <message>
+        <source>The sidebar was moved.</source>
+        <translation>साइडबार हटाओल गेल।</translation>
+    </message>
+    <message>
+        <source>The sidebar is on the left.</source>
+        <translation>साइडबार बामा दिस अछि।</translation>
+    </message>
+    <message>
+        <source>The sidebar is on the right.</source>
+        <translation>साइडबार दहिना दिस अछि।</translation>
+    </message>
+    <message>
+        <source>The sidebar could not reach the server.</source>
+        <translation>साइडबार सर्वर तक नहि पहुँचि सकल।</translation>
+    </message>
+    <message>
+        <source>Please confirm it is you in the new window.</source>
+        <translation>कृपया नव विंडो मे पुष्टि करू जे ई अहीं छी।</translation>
+    </message>
+    <message>
+        <source>Allow this site to open a window to confirm it is you.</source>
+        <translation>पुष्टि करबाक लेल जे ई अहीं छी, एहि साइट केँ विंडो खोलबाक अनुमति दिअ।</translation>
+    </message>
+    <message>
+        <source>Sign in to edit this website.</source>
+        <translation>एहि वेबसाइट केँ संपादित करबाक लेल लॉग इन करू।</translation>
+    </message>
+    <message>
+        <source>Sign in</source>
+        <translation>लॉग इन करू</translation>
+    </message>
+    <message>
+        <source>Register</source>
+        <translation>पंजीकरण करू</translation>
+    </message>
+    <message>
+        <source>Search</source>
+        <translation>खोजू</translation>
+    </message>
+    <message>
+        <source>Light or dark</source>
+        <translation>हल्का वा गाढ़</translation>
+    </message>
+    <message>
+        <source>Like the system</source>
+        <translation>सिस्टम जकाँ</translation>
+    </message>
+    <message>
+        <source>Light</source>
+        <translation>हल्का</translation>
+    </message>
+    <message>
+        <source>Dark</source>
+        <translation>गाढ़</translation>
+    </message>
+</context>
+</TS>
