@@ -1,0 +1,23 @@
+{
+    "name": "se7enxweb/expwt",
+    "description": "Exponential website sidebar: edit, create and arrange content on the site's own pages, in a sidebar docked to the edge of every design. Replaces ezwt, the website toolbar.",
+    "type": "ezpublish-legacy-extension",
+    "license": "GPL-2.0-or-later",
+    "keywords": ["exponential", "website toolbar", "sidebar", "inline editing", "ezwt"],
+    "homepage": "https://github.com/se7enxweb/expwt",
+    "authors": [
+        {
+            "name": "7x",
+            "homepage": "https://se7enx.com",
+            "email": "info@se7enx.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.4",
+        "se7enxweb/ezpublish-legacy-installer": "*"
+    },
+    "extra": {
+        "ezpublish-legacy-extension-name": "expwt"
+    }
+}

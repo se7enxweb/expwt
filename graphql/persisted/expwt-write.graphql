@@ -1,0 +1,3 @@
+mutation ExpwtWrite($action: String!, $input: String) {
+  expwtWrite(action: $action, input: $input) { ok status data error message details }
+}

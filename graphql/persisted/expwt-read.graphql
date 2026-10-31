@@ -1,0 +1,3 @@
+query ExpwtRead($action: String!, $input: String) {
+  expwtRead(action: $action, input: $input) { ok status data error message details }
+}

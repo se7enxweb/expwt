@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<software>
+    <metadata>
+        <name>Exponential Website Sidebar (expwt)</name>
+        <version>0.1.0</version>
+        <copyright>Copyright (C) 1998 - 2026 7x &amp; Exponential Foundation. Copyright (C) eZ Systems AS (ezwt, the website toolbar it continues). All rights reserved.</copyright>
+        <license>GNU General Public License v2.0 (or any later version)</license>
+        <info_url>https://github.com/se7enxweb/expwt</info_url>
+    </metadata>
+
+    <dependencies>
+        <requires>
+            <extension name="ezjscore" />
+        </requires>
+        <uses>
+            <extension name="ezformtoken" />
+        </uses>
+    </dependencies>
+
+</software>
