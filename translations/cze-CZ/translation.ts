@@ -592,6 +592,122 @@
         <translation>Odkud návštěvníci přišli, se na této instalaci nezaznamenává.</translation>
     </message>
     <message>
+        <source>The page has no title.</source>
+        <translation>Stránka nemá titulek.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters; 30 to 60 fit search results.</source>
+        <translation>Titulek má %n znaků; do výsledků vyhledávání se vejde 30 až 60.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters.</source>
+        <translation>Titulek má %n znaků.</translation>
+    </message>
+    <message>
+        <source>The page has no description.</source>
+        <translation>Stránka nemá popis.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters; 70 to 160 fit search results.</source>
+        <translation>Popis má %n znaků; do výsledků vyhledávání se vejde 70 až 160.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters.</source>
+        <translation>Popis má %n znaků.</translation>
+    </message>
+    <message>
+        <source>The page has no main heading (h1).</source>
+        <translation>Stránka nemá hlavní nadpis (h1).</translation>
+    </message>
+    <message>
+        <source>The page has %n main headings (h1); one is best.</source>
+        <translation>Stránka má %n hlavních nadpisů (h1); nejlepší je jeden.</translation>
+    </message>
+    <message>
+        <source>A heading jumps from level %from to level %to.</source>
+        <translation>Nadpis přeskakuje z úrovně %from na úroveň %to.</translation>
+    </message>
+    <message>
+        <source>The headings are in order.</source>
+        <translation>Nadpisy jsou v pořadí.</translation>
+    </message>
+    <message>
+        <source>An image has no alternative text.</source>
+        <translation>Obrázek nemá alternativní text.</translation>
+    </message>
+    <message>
+        <source>Every image has an alternative text.</source>
+        <translation>Každý obrázek má alternativní text.</translation>
+    </message>
+    <message>
+        <source>The page names no canonical address.</source>
+        <translation>Stránka neuvádí žádnou kanonickou adresu.</translation>
+    </message>
+    <message>
+        <source>The page names %n canonical addresses; one is right.</source>
+        <translation>Stránka uvádí %n kanonických adres; správně je jedna.</translation>
+    </message>
+    <message>
+        <source>The canonical address is another page: %url</source>
+        <translation>Kanonická adresa je jiná stránka: %url</translation>
+    </message>
+    <message>
+        <source>The canonical address is this page.</source>
+        <translation>Kanonická adresa je tato stránka.</translation>
+    </message>
+    <message>
+        <source>Search engines are asked not to list this page (robots: %value).</source>
+        <translation>Vyhledávače jsou požádány, aby tuto stránku neuváděly (robots: %value).</translation>
+    </message>
+    <message>
+        <source>A link leads nowhere: %url</source>
+        <translation>Odkaz nikam nevede: %url</translation>
+    </message>
+    <message>
+        <source>All %n links checked on this page lead somewhere.</source>
+        <translation>Všech %n odkazů zkontrolovaných na této stránce někam vede.</translation>
+    </message>
+    <message>
+        <source>Checking ...</source>
+        <translation>Kontroluje se ...</translation>
+    </message>
+    <message>
+        <source>Check again</source>
+        <translation>Zkontrolovat znovu</translation>
+    </message>
+    <message>
+        <source>%n things to look at</source>
+        <translation>%n věcí k prohlédnutí</translation>
+    </message>
+    <message>
+        <source>Nothing to look at.</source>
+        <translation>Nic k prohlédnutí.</translation>
+    </message>
+    <message>
+        <source>Problem</source>
+        <translation>Problém</translation>
+    </message>
+    <message>
+        <source>To look at</source>
+        <translation>K prohlédnutí</translation>
+    </message>
+    <message>
+        <source>Fine</source>
+        <translation>V pořádku</translation>
+    </message>
+    <message>
+        <source>Open the field</source>
+        <translation>Otevřít pole</translation>
+    </message>
+    <message>
+        <source>Show it on the page</source>
+        <translation>Ukázat na stránce</translation>
+    </message>
+    <message>
+        <source>SEO</source>
+        <translation>SEO</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Doručené</translation>
     </message>

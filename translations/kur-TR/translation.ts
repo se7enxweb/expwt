@@ -592,6 +592,122 @@
         <translation>Mêvan ji ku hatine li vê sazkirinê nayê tomarkirin.</translation>
     </message>
     <message>
+        <source>The page has no title.</source>
+        <translation>Sernavê rûpelê tune ye.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters; 30 to 60 fit search results.</source>
+        <translation>Sernav %n tîp e; 30 heta 60 di encamên lêgerînê de cih digirin.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters.</source>
+        <translation>Sernav %n tîp e.</translation>
+    </message>
+    <message>
+        <source>The page has no description.</source>
+        <translation>Danasîna rûpelê tune ye.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters; 70 to 160 fit search results.</source>
+        <translation>Danasîn %n tîp e; 70 heta 160 di encamên lêgerînê de cih digirin.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters.</source>
+        <translation>Danasîn %n tîp e.</translation>
+    </message>
+    <message>
+        <source>The page has no main heading (h1).</source>
+        <translation>Sernivîsa sereke (h1) ya rûpelê tune ye.</translation>
+    </message>
+    <message>
+        <source>The page has %n main headings (h1); one is best.</source>
+        <translation>Rûpel %n sernivîsên sereke (h1) hene; yek çêtirîn e.</translation>
+    </message>
+    <message>
+        <source>A heading jumps from level %from to level %to.</source>
+        <translation>Sernivîsek ji asta %from bazdide asta %to.</translation>
+    </message>
+    <message>
+        <source>The headings are in order.</source>
+        <translation>Sernivîs bi rêz in.</translation>
+    </message>
+    <message>
+        <source>An image has no alternative text.</source>
+        <translation>Wêneyek nivîsa alternatîf tune ye.</translation>
+    </message>
+    <message>
+        <source>Every image has an alternative text.</source>
+        <translation>Her wêneyek nivîsa alternatîf heye.</translation>
+    </message>
+    <message>
+        <source>The page names no canonical address.</source>
+        <translation>Rûpel tu navnîşana kanonîk nabêje.</translation>
+    </message>
+    <message>
+        <source>The page names %n canonical addresses; one is right.</source>
+        <translation>Rûpel %n navnîşanên kanonîk dibêje; yek rast e.</translation>
+    </message>
+    <message>
+        <source>The canonical address is another page: %url</source>
+        <translation>Navnîşana kanonîk rûpeleke din e: %url</translation>
+    </message>
+    <message>
+        <source>The canonical address is this page.</source>
+        <translation>Navnîşana kanonîk ev rûpel e.</translation>
+    </message>
+    <message>
+        <source>Search engines are asked not to list this page (robots: %value).</source>
+        <translation>Ji motorên lêgerînê tê xwestin ku vê rûpelê lîste nekin (robots: %value).</translation>
+    </message>
+    <message>
+        <source>A link leads nowhere: %url</source>
+        <translation>Girêdanek naçe tu derê: %url</translation>
+    </message>
+    <message>
+        <source>All %n links checked on this page lead somewhere.</source>
+        <translation>Hemû %n girêdanên ku li vê rûpelê hatin kontrolkirin diçin derekê.</translation>
+    </message>
+    <message>
+        <source>Checking ...</source>
+        <translation>Tê kontrolkirin ...</translation>
+    </message>
+    <message>
+        <source>Check again</source>
+        <translation>Dîsa kontrol bike</translation>
+    </message>
+    <message>
+        <source>%n things to look at</source>
+        <translation>%n tişt ji bo nêrînê</translation>
+    </message>
+    <message>
+        <source>Nothing to look at.</source>
+        <translation>Tiştek ji bo nêrînê tune.</translation>
+    </message>
+    <message>
+        <source>Problem</source>
+        <translation>Pirsgirêk</translation>
+    </message>
+    <message>
+        <source>To look at</source>
+        <translation>Ji bo nêrînê</translation>
+    </message>
+    <message>
+        <source>Fine</source>
+        <translation>Baş e</translation>
+    </message>
+    <message>
+        <source>Open the field</source>
+        <translation>Qadê veke</translation>
+    </message>
+    <message>
+        <source>Show it on the page</source>
+        <translation>Li ser rûpelê nîşan bide</translation>
+    </message>
+    <message>
+        <source>SEO</source>
+        <translation>SEO</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Qutiya hatî</translation>
     </message>

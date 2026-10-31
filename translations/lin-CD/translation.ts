@@ -592,6 +592,122 @@
         <translation>Esika bapaya bauti ekomamaka te na botandi oyo.</translation>
     </message>
     <message>
+        <source>The page has no title.</source>
+        <translation>Lokasa ezali na motó ya likambo te.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters; 30 to 60 fit search results.</source>
+        <translation>Motó ya likambo ezali na bilembo %n; 30 tii 60 ekoki na mbano ya boluki.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters.</source>
+        <translation>Motó ya likambo ezali na bilembo %n.</translation>
+    </message>
+    <message>
+        <source>The page has no description.</source>
+        <translation>Lokasa ezali na ndimbola te.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters; 70 to 160 fit search results.</source>
+        <translation>Ndimbola ezali na bilembo %n; 70 tii 160 ekoki na mbano ya boluki.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters.</source>
+        <translation>Ndimbola ezali na bilembo %n.</translation>
+    </message>
+    <message>
+        <source>The page has no main heading (h1).</source>
+        <translation>Lokasa ezali na motó monene (h1) te.</translation>
+    </message>
+    <message>
+        <source>The page has %n main headings (h1); one is best.</source>
+        <translation>Lokasa ezali na mitó minene %n (h1); moko eleki malamu.</translation>
+    </message>
+    <message>
+        <source>A heading jumps from level %from to level %to.</source>
+        <translation>Motó moko epumbwi uta na eteni %from tii na eteni %to.</translation>
+    </message>
+    <message>
+        <source>The headings are in order.</source>
+        <translation>Mitó ezali na molongo.</translation>
+    </message>
+    <message>
+        <source>An image has no alternative text.</source>
+        <translation>Elilingi moko ezali na makomi ya kozongisa te.</translation>
+    </message>
+    <message>
+        <source>Every image has an alternative text.</source>
+        <translation>Elilingi nyonso ezali na makomi ya kozongisa.</translation>
+    </message>
+    <message>
+        <source>The page names no canonical address.</source>
+        <translation>Lokasa elobeli adrɛsi canonical moko te.</translation>
+    </message>
+    <message>
+        <source>The page names %n canonical addresses; one is right.</source>
+        <translation>Lokasa elobeli adrɛsi canonical %n; moko nde ezali malamu.</translation>
+    </message>
+    <message>
+        <source>The canonical address is another page: %url</source>
+        <translation>Adrɛsi canonical ezali lokasa mosusu: %url</translation>
+    </message>
+    <message>
+        <source>The canonical address is this page.</source>
+        <translation>Adrɛsi canonical ezali lokasa oyo.</translation>
+    </message>
+    <message>
+        <source>Search engines are asked not to list this page (robots: %value).</source>
+        <translation>Basɛngi na mašini ya boluki bátia lokasa oyo na liste te (robots: %value).</translation>
+    </message>
+    <message>
+        <source>A link leads nowhere: %url</source>
+        <translation>Lien moko ememi esika moko te: %url</translation>
+    </message>
+    <message>
+        <source>All %n links checked on this page lead somewhere.</source>
+        <translation>Ba lien nyonso %n oyo batalaki na lokasa oyo ememaka na esika moko.</translation>
+    </message>
+    <message>
+        <source>Checking ...</source>
+        <translation>Ezali kotalama ...</translation>
+    </message>
+    <message>
+        <source>Check again</source>
+        <translation>Tala lisusu</translation>
+    </message>
+    <message>
+        <source>%n things to look at</source>
+        <translation>Makambo %n ya kotala</translation>
+    </message>
+    <message>
+        <source>Nothing to look at.</source>
+        <translation>Eloko ya kotala ezali te.</translation>
+    </message>
+    <message>
+        <source>Problem</source>
+        <translation>Mokakatano</translation>
+    </message>
+    <message>
+        <source>To look at</source>
+        <translation>Ya kotala</translation>
+    </message>
+    <message>
+        <source>Fine</source>
+        <translation>Malamu</translation>
+    </message>
+    <message>
+        <source>Open the field</source>
+        <translation>Fungola esika</translation>
+    </message>
+    <message>
+        <source>Show it on the page</source>
+        <translation>Lakisa yango na lokasa</translation>
+    </message>
+    <message>
+        <source>SEO</source>
+        <translation>SEO</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Bokóti ya mikanda</translation>
     </message>

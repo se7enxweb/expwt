@@ -592,6 +592,122 @@
         <translation>Tsy voasoratra amin'ity fametrahana ity hoe avy aiza ny mpitsidika.</translation>
     </message>
     <message>
+        <source>The page has no title.</source>
+        <translation>Tsy manana lohateny ny pejy.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters; 30 to 60 fit search results.</source>
+        <translation>Manana litera %n ny lohateny; 30 ka hatramin'ny 60 no mety amin'ny valin'ny fikarohana.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters.</source>
+        <translation>Manana litera %n ny lohateny.</translation>
+    </message>
+    <message>
+        <source>The page has no description.</source>
+        <translation>Tsy manana famaritana ny pejy.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters; 70 to 160 fit search results.</source>
+        <translation>Manana litera %n ny famaritana; 70 ka hatramin'ny 160 no mety amin'ny valin'ny fikarohana.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters.</source>
+        <translation>Manana litera %n ny famaritana.</translation>
+    </message>
+    <message>
+        <source>The page has no main heading (h1).</source>
+        <translation>Tsy manana lohateny lehibe (h1) ny pejy.</translation>
+    </message>
+    <message>
+        <source>The page has %n main headings (h1); one is best.</source>
+        <translation>Manana lohateny lehibe %n (h1) ny pejy; iray no tsara indrindra.</translation>
+    </message>
+    <message>
+        <source>A heading jumps from level %from to level %to.</source>
+        <translation>Misy lohateny mitsambikina avy amin'ny ambaratonga %from mankany amin'ny ambaratonga %to.</translation>
+    </message>
+    <message>
+        <source>The headings are in order.</source>
+        <translation>Milahatra tsara ny lohateny.</translation>
+    </message>
+    <message>
+        <source>An image has no alternative text.</source>
+        <translation>Misy sary tsy manana soratra solony.</translation>
+    </message>
+    <message>
+        <source>Every image has an alternative text.</source>
+        <translation>Manana soratra solony ny sary rehetra.</translation>
+    </message>
+    <message>
+        <source>The page names no canonical address.</source>
+        <translation>Tsy manonona adiresy canonical ny pejy.</translation>
+    </message>
+    <message>
+        <source>The page names %n canonical addresses; one is right.</source>
+        <translation>Manonona adiresy canonical %n ny pejy; iray no marina.</translation>
+    </message>
+    <message>
+        <source>The canonical address is another page: %url</source>
+        <translation>Pejy hafa ny adiresy canonical: %url</translation>
+    </message>
+    <message>
+        <source>The canonical address is this page.</source>
+        <translation>Ity pejy ity ny adiresy canonical.</translation>
+    </message>
+    <message>
+        <source>Search engines are asked not to list this page (robots: %value).</source>
+        <translation>Angatahina ny milina fikarohana mba tsy hampiditra ity pejy ity (robots: %value).</translation>
+    </message>
+    <message>
+        <source>A link leads nowhere: %url</source>
+        <translation>Misy rohy tsy mitondra na aiza na aiza: %url</translation>
+    </message>
+    <message>
+        <source>All %n links checked on this page lead somewhere.</source>
+        <translation>Ny rohy %n rehetra nojerena tamin'ity pejy ity dia mitondra any amin'ny toerana iray.</translation>
+    </message>
+    <message>
+        <source>Checking ...</source>
+        <translation>Manamarina ...</translation>
+    </message>
+    <message>
+        <source>Check again</source>
+        <translation>Hamarino indray</translation>
+    </message>
+    <message>
+        <source>%n things to look at</source>
+        <translation>Zavatra %n tokony hojerena</translation>
+    </message>
+    <message>
+        <source>Nothing to look at.</source>
+        <translation>Tsy misy tokony hojerena.</translation>
+    </message>
+    <message>
+        <source>Problem</source>
+        <translation>Olana</translation>
+    </message>
+    <message>
+        <source>To look at</source>
+        <translation>Hojerena</translation>
+    </message>
+    <message>
+        <source>Fine</source>
+        <translation>Tsara</translation>
+    </message>
+    <message>
+        <source>Open the field</source>
+        <translation>Sokafy ny saha</translation>
+    </message>
+    <message>
+        <source>Show it on the page</source>
+        <translation>Asehoy amin'ny pejy</translation>
+    </message>
+    <message>
+        <source>SEO</source>
+        <translation>SEO</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Boaty fandraisana</translation>
     </message>

@@ -592,6 +592,122 @@
         <translation>ጎብኚዎች ከየት እንደመጡ በዚህ ጭነት ላይ አይመዘገብም።</translation>
     </message>
     <message>
+        <source>The page has no title.</source>
+        <translation>ገጹ ርዕስ የለውም።</translation>
+    </message>
+    <message>
+        <source>The title has %n characters; 30 to 60 fit search results.</source>
+        <translation>ርዕሱ %n ቁምፊዎች አሉት፤ ከ30 እስከ 60 በፍለጋ ውጤቶች ውስጥ ይስማማሉ።</translation>
+    </message>
+    <message>
+        <source>The title has %n characters.</source>
+        <translation>ርዕሱ %n ቁምፊዎች አሉት።</translation>
+    </message>
+    <message>
+        <source>The page has no description.</source>
+        <translation>ገጹ መግለጫ የለውም።</translation>
+    </message>
+    <message>
+        <source>The description has %n characters; 70 to 160 fit search results.</source>
+        <translation>መግለጫው %n ቁምፊዎች አሉት፤ ከ70 እስከ 160 በፍለጋ ውጤቶች ውስጥ ይስማማሉ።</translation>
+    </message>
+    <message>
+        <source>The description has %n characters.</source>
+        <translation>መግለጫው %n ቁምፊዎች አሉት።</translation>
+    </message>
+    <message>
+        <source>The page has no main heading (h1).</source>
+        <translation>ገጹ ዋና ርዕስ (h1) የለውም።</translation>
+    </message>
+    <message>
+        <source>The page has %n main headings (h1); one is best.</source>
+        <translation>ገጹ %n ዋና ርዕሶች (h1) አሉት፤ አንድ ብቻ ይሻላል።</translation>
+    </message>
+    <message>
+        <source>A heading jumps from level %from to level %to.</source>
+        <translation>አንድ ርዕስ ከደረጃ %from ወደ ደረጃ %to ይዘላል።</translation>
+    </message>
+    <message>
+        <source>The headings are in order.</source>
+        <translation>ርዕሶቹ በቅደም ተከተል ናቸው።</translation>
+    </message>
+    <message>
+        <source>An image has no alternative text.</source>
+        <translation>አንድ ምስል ተለዋጭ ጽሑፍ የለውም።</translation>
+    </message>
+    <message>
+        <source>Every image has an alternative text.</source>
+        <translation>እያንዳንዱ ምስል ተለዋጭ ጽሑፍ አለው።</translation>
+    </message>
+    <message>
+        <source>The page names no canonical address.</source>
+        <translation>ገጹ ቀኖናዊ አድራሻ አይጠቅስም።</translation>
+    </message>
+    <message>
+        <source>The page names %n canonical addresses; one is right.</source>
+        <translation>ገጹ %n ቀኖናዊ አድራሻዎችን ይጠቅሳል፤ አንድ ነው ትክክል።</translation>
+    </message>
+    <message>
+        <source>The canonical address is another page: %url</source>
+        <translation>ቀኖናዊው አድራሻ ሌላ ገጽ ነው፦ %url</translation>
+    </message>
+    <message>
+        <source>The canonical address is this page.</source>
+        <translation>ቀኖናዊው አድራሻ ይህ ገጽ ነው።</translation>
+    </message>
+    <message>
+        <source>Search engines are asked not to list this page (robots: %value).</source>
+        <translation>የፍለጋ ሞተሮች ይህን ገጽ እንዳይዘረዝሩ ተጠይቀዋል (robots: %value)።</translation>
+    </message>
+    <message>
+        <source>A link leads nowhere: %url</source>
+        <translation>አንድ አገናኝ የትም አይወስድም፦ %url</translation>
+    </message>
+    <message>
+        <source>All %n links checked on this page lead somewhere.</source>
+        <translation>በዚህ ገጽ ላይ የተፈተሹ %n አገናኞች ሁሉ ወደ አንድ ቦታ ይወስዳሉ።</translation>
+    </message>
+    <message>
+        <source>Checking ...</source>
+        <translation>በመፈተሽ ላይ ...</translation>
+    </message>
+    <message>
+        <source>Check again</source>
+        <translation>እንደገና ፈትሽ</translation>
+    </message>
+    <message>
+        <source>%n things to look at</source>
+        <translation>ሊታዩ የሚገባቸው %n ነገሮች</translation>
+    </message>
+    <message>
+        <source>Nothing to look at.</source>
+        <translation>የሚታይ ነገር የለም።</translation>
+    </message>
+    <message>
+        <source>Problem</source>
+        <translation>ችግር</translation>
+    </message>
+    <message>
+        <source>To look at</source>
+        <translation>ሊታይ የሚገባ</translation>
+    </message>
+    <message>
+        <source>Fine</source>
+        <translation>ደህና</translation>
+    </message>
+    <message>
+        <source>Open the field</source>
+        <translation>መስኩን ክፈት</translation>
+    </message>
+    <message>
+        <source>Show it on the page</source>
+        <translation>በገጹ ላይ አሳይ</translation>
+    </message>
+    <message>
+        <source>SEO</source>
+        <translation>SEO</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>የገቢ ሳጥን</translation>
     </message>

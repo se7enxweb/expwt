@@ -592,6 +592,122 @@
         <translation>Dari mana pelawat datang tidak direkodkan pada pemasangan ini.</translation>
     </message>
     <message>
+        <source>The page has no title.</source>
+        <translation>Halaman tiada tajuk.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters; 30 to 60 fit search results.</source>
+        <translation>Tajuk mempunyai %n aksara; 30 hingga 60 muat dalam hasil carian.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters.</source>
+        <translation>Tajuk mempunyai %n aksara.</translation>
+    </message>
+    <message>
+        <source>The page has no description.</source>
+        <translation>Halaman tiada keterangan.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters; 70 to 160 fit search results.</source>
+        <translation>Keterangan mempunyai %n aksara; 70 hingga 160 muat dalam hasil carian.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters.</source>
+        <translation>Keterangan mempunyai %n aksara.</translation>
+    </message>
+    <message>
+        <source>The page has no main heading (h1).</source>
+        <translation>Halaman tiada tajuk utama (h1).</translation>
+    </message>
+    <message>
+        <source>The page has %n main headings (h1); one is best.</source>
+        <translation>Halaman mempunyai %n tajuk utama (h1); satu adalah terbaik.</translation>
+    </message>
+    <message>
+        <source>A heading jumps from level %from to level %to.</source>
+        <translation>Satu tajuk melompat dari aras %from ke aras %to.</translation>
+    </message>
+    <message>
+        <source>The headings are in order.</source>
+        <translation>Tajuk-tajuk adalah mengikut urutan.</translation>
+    </message>
+    <message>
+        <source>An image has no alternative text.</source>
+        <translation>Satu imej tiada teks alternatif.</translation>
+    </message>
+    <message>
+        <source>Every image has an alternative text.</source>
+        <translation>Setiap imej mempunyai teks alternatif.</translation>
+    </message>
+    <message>
+        <source>The page names no canonical address.</source>
+        <translation>Halaman tidak menamakan alamat kanonik.</translation>
+    </message>
+    <message>
+        <source>The page names %n canonical addresses; one is right.</source>
+        <translation>Halaman menamakan %n alamat kanonik; yang betul ialah satu.</translation>
+    </message>
+    <message>
+        <source>The canonical address is another page: %url</source>
+        <translation>Alamat kanonik ialah halaman lain: %url</translation>
+    </message>
+    <message>
+        <source>The canonical address is this page.</source>
+        <translation>Alamat kanonik ialah halaman ini.</translation>
+    </message>
+    <message>
+        <source>Search engines are asked not to list this page (robots: %value).</source>
+        <translation>Enjin carian diminta untuk tidak menyenaraikan halaman ini (robots: %value).</translation>
+    </message>
+    <message>
+        <source>A link leads nowhere: %url</source>
+        <translation>Satu pautan tidak menuju ke mana-mana: %url</translation>
+    </message>
+    <message>
+        <source>All %n links checked on this page lead somewhere.</source>
+        <translation>Semua %n pautan yang disemak pada halaman ini menuju ke suatu tempat.</translation>
+    </message>
+    <message>
+        <source>Checking ...</source>
+        <translation>Menyemak ...</translation>
+    </message>
+    <message>
+        <source>Check again</source>
+        <translation>Semak semula</translation>
+    </message>
+    <message>
+        <source>%n things to look at</source>
+        <translation>%n perkara untuk dilihat</translation>
+    </message>
+    <message>
+        <source>Nothing to look at.</source>
+        <translation>Tiada apa untuk dilihat.</translation>
+    </message>
+    <message>
+        <source>Problem</source>
+        <translation>Masalah</translation>
+    </message>
+    <message>
+        <source>To look at</source>
+        <translation>Untuk dilihat</translation>
+    </message>
+    <message>
+        <source>Fine</source>
+        <translation>Baik</translation>
+    </message>
+    <message>
+        <source>Open the field</source>
+        <translation>Buka medan</translation>
+    </message>
+    <message>
+        <source>Show it on the page</source>
+        <translation>Tunjukkan pada halaman</translation>
+    </message>
+    <message>
+        <source>SEO</source>
+        <translation>SEO</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Peti masuk</translation>
     </message>

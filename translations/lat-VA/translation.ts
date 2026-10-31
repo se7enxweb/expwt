@@ -592,6 +592,122 @@
         <translation>Unde visitatores venerint in hac institutione non notatur.</translation>
     </message>
     <message>
+        <source>The page has no title.</source>
+        <translation>Pagina titulum non habet.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters; 30 to 60 fit search results.</source>
+        <translation>Titulus %n litteras habet; 30 ad 60 in eventus quaestionis conveniunt.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters.</source>
+        <translation>Titulus %n litteras habet.</translation>
+    </message>
+    <message>
+        <source>The page has no description.</source>
+        <translation>Pagina descriptionem non habet.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters; 70 to 160 fit search results.</source>
+        <translation>Descriptio %n litteras habet; 70 ad 160 in eventus quaestionis conveniunt.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters.</source>
+        <translation>Descriptio %n litteras habet.</translation>
+    </message>
+    <message>
+        <source>The page has no main heading (h1).</source>
+        <translation>Pagina caput principale (h1) non habet.</translation>
+    </message>
+    <message>
+        <source>The page has %n main headings (h1); one is best.</source>
+        <translation>Pagina %n capita principalia (h1) habet; unum optimum est.</translation>
+    </message>
+    <message>
+        <source>A heading jumps from level %from to level %to.</source>
+        <translation>Caput a gradu %from ad gradum %to salit.</translation>
+    </message>
+    <message>
+        <source>The headings are in order.</source>
+        <translation>Capita in ordine sunt.</translation>
+    </message>
+    <message>
+        <source>An image has no alternative text.</source>
+        <translation>Imago textum alternum non habet.</translation>
+    </message>
+    <message>
+        <source>Every image has an alternative text.</source>
+        <translation>Omnis imago textum alternum habet.</translation>
+    </message>
+    <message>
+        <source>The page names no canonical address.</source>
+        <translation>Pagina nullam inscriptionem canonicam nominat.</translation>
+    </message>
+    <message>
+        <source>The page names %n canonical addresses; one is right.</source>
+        <translation>Pagina %n inscriptiones canonicas nominat; una recta est.</translation>
+    </message>
+    <message>
+        <source>The canonical address is another page: %url</source>
+        <translation>Inscriptio canonica alia pagina est: %url</translation>
+    </message>
+    <message>
+        <source>The canonical address is this page.</source>
+        <translation>Inscriptio canonica haec pagina est.</translation>
+    </message>
+    <message>
+        <source>Search engines are asked not to list this page (robots: %value).</source>
+        <translation>Machinae quaestionis rogantur ne hanc paginam enumerent (robots: %value).</translation>
+    </message>
+    <message>
+        <source>A link leads nowhere: %url</source>
+        <translation>Nexus nusquam ducit: %url</translation>
+    </message>
+    <message>
+        <source>All %n links checked on this page lead somewhere.</source>
+        <translation>Omnes %n nexus in hac pagina probati aliquo ducunt.</translation>
+    </message>
+    <message>
+        <source>Checking ...</source>
+        <translation>Probatur ...</translation>
+    </message>
+    <message>
+        <source>Check again</source>
+        <translation>Iterum proba</translation>
+    </message>
+    <message>
+        <source>%n things to look at</source>
+        <translation>%n res inspiciendae</translation>
+    </message>
+    <message>
+        <source>Nothing to look at.</source>
+        <translation>Nihil inspiciendum.</translation>
+    </message>
+    <message>
+        <source>Problem</source>
+        <translation>Quaestio</translation>
+    </message>
+    <message>
+        <source>To look at</source>
+        <translation>Inspiciendum</translation>
+    </message>
+    <message>
+        <source>Fine</source>
+        <translation>Bene</translation>
+    </message>
+    <message>
+        <source>Open the field</source>
+        <translation>Campum aperi</translation>
+    </message>
+    <message>
+        <source>Show it on the page</source>
+        <translation>In pagina ostende</translation>
+    </message>
+    <message>
+        <source>SEO</source>
+        <translation>SEO</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Arca accepta</translation>
     </message>

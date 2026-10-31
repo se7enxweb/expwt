@@ -592,6 +592,122 @@
         <translation>Από πού ήρθαν οι επισκέπτες δεν καταγράφεται σε αυτή την εγκατάσταση.</translation>
     </message>
     <message>
+        <source>The page has no title.</source>
+        <translation>Η σελίδα δεν έχει τίτλο.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters; 30 to 60 fit search results.</source>
+        <translation>Ο τίτλος έχει %n χαρακτήρες· 30 έως 60 χωρούν στα αποτελέσματα αναζήτησης.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters.</source>
+        <translation>Ο τίτλος έχει %n χαρακτήρες.</translation>
+    </message>
+    <message>
+        <source>The page has no description.</source>
+        <translation>Η σελίδα δεν έχει περιγραφή.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters; 70 to 160 fit search results.</source>
+        <translation>Η περιγραφή έχει %n χαρακτήρες· 70 έως 160 χωρούν στα αποτελέσματα αναζήτησης.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters.</source>
+        <translation>Η περιγραφή έχει %n χαρακτήρες.</translation>
+    </message>
+    <message>
+        <source>The page has no main heading (h1).</source>
+        <translation>Η σελίδα δεν έχει κύρια επικεφαλίδα (h1).</translation>
+    </message>
+    <message>
+        <source>The page has %n main headings (h1); one is best.</source>
+        <translation>Η σελίδα έχει %n κύριες επικεφαλίδες (h1)· καλύτερα μία.</translation>
+    </message>
+    <message>
+        <source>A heading jumps from level %from to level %to.</source>
+        <translation>Μια επικεφαλίδα πηδά από το επίπεδο %from στο επίπεδο %to.</translation>
+    </message>
+    <message>
+        <source>The headings are in order.</source>
+        <translation>Οι επικεφαλίδες είναι στη σειρά.</translation>
+    </message>
+    <message>
+        <source>An image has no alternative text.</source>
+        <translation>Μια εικόνα δεν έχει εναλλακτικό κείμενο.</translation>
+    </message>
+    <message>
+        <source>Every image has an alternative text.</source>
+        <translation>Κάθε εικόνα έχει εναλλακτικό κείμενο.</translation>
+    </message>
+    <message>
+        <source>The page names no canonical address.</source>
+        <translation>Η σελίδα δεν ορίζει κανονική διεύθυνση.</translation>
+    </message>
+    <message>
+        <source>The page names %n canonical addresses; one is right.</source>
+        <translation>Η σελίδα ορίζει %n κανονικές διευθύνσεις· σωστή είναι μία.</translation>
+    </message>
+    <message>
+        <source>The canonical address is another page: %url</source>
+        <translation>Η κανονική διεύθυνση είναι άλλη σελίδα: %url</translation>
+    </message>
+    <message>
+        <source>The canonical address is this page.</source>
+        <translation>Η κανονική διεύθυνση είναι αυτή η σελίδα.</translation>
+    </message>
+    <message>
+        <source>Search engines are asked not to list this page (robots: %value).</source>
+        <translation>Ζητείται από τις μηχανές αναζήτησης να μην εμφανίζουν αυτή τη σελίδα (robots: %value).</translation>
+    </message>
+    <message>
+        <source>A link leads nowhere: %url</source>
+        <translation>Ένας σύνδεσμος δεν οδηγεί πουθενά: %url</translation>
+    </message>
+    <message>
+        <source>All %n links checked on this page lead somewhere.</source>
+        <translation>Και οι %n σύνδεσμοι που ελέγχθηκαν σε αυτή τη σελίδα οδηγούν κάπου.</translation>
+    </message>
+    <message>
+        <source>Checking ...</source>
+        <translation>Έλεγχος ...</translation>
+    </message>
+    <message>
+        <source>Check again</source>
+        <translation>Νέος έλεγχος</translation>
+    </message>
+    <message>
+        <source>%n things to look at</source>
+        <translation>%n θέματα προς έλεγχο</translation>
+    </message>
+    <message>
+        <source>Nothing to look at.</source>
+        <translation>Τίποτα προς έλεγχο.</translation>
+    </message>
+    <message>
+        <source>Problem</source>
+        <translation>Πρόβλημα</translation>
+    </message>
+    <message>
+        <source>To look at</source>
+        <translation>Προς έλεγχο</translation>
+    </message>
+    <message>
+        <source>Fine</source>
+        <translation>Εντάξει</translation>
+    </message>
+    <message>
+        <source>Open the field</source>
+        <translation>Άνοιγμα του πεδίου</translation>
+    </message>
+    <message>
+        <source>Show it on the page</source>
+        <translation>Εμφάνιση στη σελίδα</translation>
+    </message>
+    <message>
+        <source>SEO</source>
+        <translation>SEO</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Εισερχόμενα</translation>
     </message>

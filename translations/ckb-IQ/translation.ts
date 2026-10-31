@@ -592,6 +592,122 @@
         <translation>سەردانکەران لە کوێوە هاتوون لەم دامەزراندنەدا تۆمار ناکرێت.</translation>
     </message>
     <message>
+        <source>The page has no title.</source>
+        <translation>پەڕەکە ناونیشانی نییە.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters; 30 to 60 fit search results.</source>
+        <translation>ناونیشانەکە %n پیتی هەیە؛ 30 تا 60 لە ئەنجامەکانی گەڕاندا جێی دەبێتەوە.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters.</source>
+        <translation>ناونیشانەکە %n پیتی هەیە.</translation>
+    </message>
+    <message>
+        <source>The page has no description.</source>
+        <translation>پەڕەکە وەسفی نییە.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters; 70 to 160 fit search results.</source>
+        <translation>وەسفەکە %n پیتی هەیە؛ 70 تا 160 لە ئەنجامەکانی گەڕاندا جێی دەبێتەوە.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters.</source>
+        <translation>وەسفەکە %n پیتی هەیە.</translation>
+    </message>
+    <message>
+        <source>The page has no main heading (h1).</source>
+        <translation>پەڕەکە سەردێڕی سەرەکی (h1) نییە.</translation>
+    </message>
+    <message>
+        <source>The page has %n main headings (h1); one is best.</source>
+        <translation>پەڕەکە %n سەردێڕی سەرەکی (h1) هەیە؛ یەکێک باشترینە.</translation>
+    </message>
+    <message>
+        <source>A heading jumps from level %from to level %to.</source>
+        <translation>سەردێڕێک لە ئاستی %from بۆ ئاستی %to باز دەدات.</translation>
+    </message>
+    <message>
+        <source>The headings are in order.</source>
+        <translation>سەردێڕەکان بە ڕیزن.</translation>
+    </message>
+    <message>
+        <source>An image has no alternative text.</source>
+        <translation>وێنەیەک دەقی جێگرەوەی نییە.</translation>
+    </message>
+    <message>
+        <source>Every image has an alternative text.</source>
+        <translation>هەموو وێنەیەک دەقی جێگرەوەی هەیە.</translation>
+    </message>
+    <message>
+        <source>The page names no canonical address.</source>
+        <translation>پەڕەکە هیچ ناونیشانی کانۆنیکاڵ ناو نابات.</translation>
+    </message>
+    <message>
+        <source>The page names %n canonical addresses; one is right.</source>
+        <translation>پەڕەکە %n ناونیشانی کانۆنیکاڵ ناو دەبات؛ یەکێک ڕاستە.</translation>
+    </message>
+    <message>
+        <source>The canonical address is another page: %url</source>
+        <translation>ناونیشانی کانۆنیکاڵ پەڕەیەکی ترە: %url</translation>
+    </message>
+    <message>
+        <source>The canonical address is this page.</source>
+        <translation>ناونیشانی کانۆنیکاڵ ئەم پەڕەیەیە.</translation>
+    </message>
+    <message>
+        <source>Search engines are asked not to list this page (robots: %value).</source>
+        <translation>داوا لە بزوێنەرەکانی گەڕان کراوە ئەم پەڕەیە لیست نەکەن (robots: %value).</translation>
+    </message>
+    <message>
+        <source>A link leads nowhere: %url</source>
+        <translation>بەستەرێک بۆ هیچ شوێنێک ناچێت: %url</translation>
+    </message>
+    <message>
+        <source>All %n links checked on this page lead somewhere.</source>
+        <translation>هەموو %n بەستەری پشکنراو لەم پەڕەیەدا بۆ شوێنێک دەچن.</translation>
+    </message>
+    <message>
+        <source>Checking ...</source>
+        <translation>پشکنین ...</translation>
+    </message>
+    <message>
+        <source>Check again</source>
+        <translation>دووبارە بپشکنە</translation>
+    </message>
+    <message>
+        <source>%n things to look at</source>
+        <translation>%n شت بۆ سەیرکردن</translation>
+    </message>
+    <message>
+        <source>Nothing to look at.</source>
+        <translation>هیچ شتێک بۆ سەیرکردن نییە.</translation>
+    </message>
+    <message>
+        <source>Problem</source>
+        <translation>کێشە</translation>
+    </message>
+    <message>
+        <source>To look at</source>
+        <translation>بۆ سەیرکردن</translation>
+    </message>
+    <message>
+        <source>Fine</source>
+        <translation>باشە</translation>
+    </message>
+    <message>
+        <source>Open the field</source>
+        <translation>خانەکە بکەرەوە</translation>
+    </message>
+    <message>
+        <source>Show it on the page</source>
+        <translation>لە پەڕەکەدا پیشانی بدە</translation>
+    </message>
+    <message>
+        <source>SEO</source>
+        <translation>SEO</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>هاتووەکان</translation>
     </message>

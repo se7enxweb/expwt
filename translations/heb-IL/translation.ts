@@ -592,6 +592,122 @@
         <translation>מאין הגיעו המבקרים אינו נרשם בהתקנה זו.</translation>
     </message>
     <message>
+        <source>The page has no title.</source>
+        <translation>לעמוד אין כותרת.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters; 30 to 60 fit search results.</source>
+        <translation>בכותרת יש %n תווים; 30 עד 60 נכנסים בתוצאות החיפוש.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters.</source>
+        <translation>בכותרת יש %n תווים.</translation>
+    </message>
+    <message>
+        <source>The page has no description.</source>
+        <translation>לעמוד אין תיאור.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters; 70 to 160 fit search results.</source>
+        <translation>בתיאור יש %n תווים; 70 עד 160 נכנסים בתוצאות החיפוש.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters.</source>
+        <translation>בתיאור יש %n תווים.</translation>
+    </message>
+    <message>
+        <source>The page has no main heading (h1).</source>
+        <translation>לעמוד אין כותרת ראשית (h1).</translation>
+    </message>
+    <message>
+        <source>The page has %n main headings (h1); one is best.</source>
+        <translation>בעמוד יש %n כותרות ראשיות (h1); עדיף אחת.</translation>
+    </message>
+    <message>
+        <source>A heading jumps from level %from to level %to.</source>
+        <translation>כותרת קופצת מרמה %from לרמה %to.</translation>
+    </message>
+    <message>
+        <source>The headings are in order.</source>
+        <translation>הכותרות מסודרות לפי הסדר.</translation>
+    </message>
+    <message>
+        <source>An image has no alternative text.</source>
+        <translation>לתמונה אחת אין טקסט חלופי.</translation>
+    </message>
+    <message>
+        <source>Every image has an alternative text.</source>
+        <translation>לכל תמונה יש טקסט חלופי.</translation>
+    </message>
+    <message>
+        <source>The page names no canonical address.</source>
+        <translation>העמוד לא מציין כתובת קנונית.</translation>
+    </message>
+    <message>
+        <source>The page names %n canonical addresses; one is right.</source>
+        <translation>העמוד מציין %n כתובות קנוניות; נכון לציין אחת.</translation>
+    </message>
+    <message>
+        <source>The canonical address is another page: %url</source>
+        <translation>הכתובת הקנונית היא עמוד אחר: %url</translation>
+    </message>
+    <message>
+        <source>The canonical address is this page.</source>
+        <translation>הכתובת הקנונית היא העמוד הזה.</translation>
+    </message>
+    <message>
+        <source>Search engines are asked not to list this page (robots: %value).</source>
+        <translation>מנועי חיפוש מתבקשים לא לכלול את העמוד הזה (robots: %value).</translation>
+    </message>
+    <message>
+        <source>A link leads nowhere: %url</source>
+        <translation>קישור לא מוביל לשום מקום: %url</translation>
+    </message>
+    <message>
+        <source>All %n links checked on this page lead somewhere.</source>
+        <translation>כל %n הקישורים שנבדקו בעמוד הזה מובילים למקום כלשהו.</translation>
+    </message>
+    <message>
+        <source>Checking ...</source>
+        <translation>בודק ...</translation>
+    </message>
+    <message>
+        <source>Check again</source>
+        <translation>בדיקה חוזרת</translation>
+    </message>
+    <message>
+        <source>%n things to look at</source>
+        <translation>%n דברים לבדוק</translation>
+    </message>
+    <message>
+        <source>Nothing to look at.</source>
+        <translation>אין מה לבדוק.</translation>
+    </message>
+    <message>
+        <source>Problem</source>
+        <translation>בעיה</translation>
+    </message>
+    <message>
+        <source>To look at</source>
+        <translation>לבדיקה</translation>
+    </message>
+    <message>
+        <source>Fine</source>
+        <translation>תקין</translation>
+    </message>
+    <message>
+        <source>Open the field</source>
+        <translation>פתיחת השדה</translation>
+    </message>
+    <message>
+        <source>Show it on the page</source>
+        <translation>הצגה בעמוד</translation>
+    </message>
+    <message>
+        <source>SEO</source>
+        <translation>SEO</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>תיבת דואר נכנס</translation>
     </message>

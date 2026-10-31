@@ -592,6 +592,122 @@
         <translation>Откуда пришли посетители, в этой установке не записывается.</translation>
     </message>
     <message>
+        <source>The page has no title.</source>
+        <translation>У страницы нет заголовка.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters; 30 to 60 fit search results.</source>
+        <translation>Заголовок содержит %n символов; в результаты поиска помещается от 30 до 60.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters.</source>
+        <translation>Заголовок содержит %n символов.</translation>
+    </message>
+    <message>
+        <source>The page has no description.</source>
+        <translation>У страницы нет описания.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters; 70 to 160 fit search results.</source>
+        <translation>Описание содержит %n символов; в результаты поиска помещается от 70 до 160.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters.</source>
+        <translation>Описание содержит %n символов.</translation>
+    </message>
+    <message>
+        <source>The page has no main heading (h1).</source>
+        <translation>На странице нет главного заголовка (h1).</translation>
+    </message>
+    <message>
+        <source>The page has %n main headings (h1); one is best.</source>
+        <translation>На странице %n главных заголовков (h1); лучше всего один.</translation>
+    </message>
+    <message>
+        <source>A heading jumps from level %from to level %to.</source>
+        <translation>Заголовок перескакивает с уровня %from на уровень %to.</translation>
+    </message>
+    <message>
+        <source>The headings are in order.</source>
+        <translation>Заголовки идут по порядку.</translation>
+    </message>
+    <message>
+        <source>An image has no alternative text.</source>
+        <translation>У изображения нет альтернативного текста.</translation>
+    </message>
+    <message>
+        <source>Every image has an alternative text.</source>
+        <translation>У каждого изображения есть альтернативный текст.</translation>
+    </message>
+    <message>
+        <source>The page names no canonical address.</source>
+        <translation>Страница не указывает канонический адрес.</translation>
+    </message>
+    <message>
+        <source>The page names %n canonical addresses; one is right.</source>
+        <translation>Страница указывает %n канонических адресов; правильно один.</translation>
+    </message>
+    <message>
+        <source>The canonical address is another page: %url</source>
+        <translation>Канонический адрес — другая страница: %url</translation>
+    </message>
+    <message>
+        <source>The canonical address is this page.</source>
+        <translation>Канонический адрес — эта страница.</translation>
+    </message>
+    <message>
+        <source>Search engines are asked not to list this page (robots: %value).</source>
+        <translation>Поисковые системы просят не включать эту страницу (robots: %value).</translation>
+    </message>
+    <message>
+        <source>A link leads nowhere: %url</source>
+        <translation>Ссылка никуда не ведёт: %url</translation>
+    </message>
+    <message>
+        <source>All %n links checked on this page lead somewhere.</source>
+        <translation>Все %n проверенных на этой странице ссылок куда-то ведут.</translation>
+    </message>
+    <message>
+        <source>Checking ...</source>
+        <translation>Проверка ...</translation>
+    </message>
+    <message>
+        <source>Check again</source>
+        <translation>Проверить снова</translation>
+    </message>
+    <message>
+        <source>%n things to look at</source>
+        <translation>%n пунктов для просмотра</translation>
+    </message>
+    <message>
+        <source>Nothing to look at.</source>
+        <translation>Нечего просматривать.</translation>
+    </message>
+    <message>
+        <source>Problem</source>
+        <translation>Проблема</translation>
+    </message>
+    <message>
+        <source>To look at</source>
+        <translation>Посмотреть</translation>
+    </message>
+    <message>
+        <source>Fine</source>
+        <translation>В порядке</translation>
+    </message>
+    <message>
+        <source>Open the field</source>
+        <translation>Открыть поле</translation>
+    </message>
+    <message>
+        <source>Show it on the page</source>
+        <translation>Показать на странице</translation>
+    </message>
+    <message>
+        <source>SEO</source>
+        <translation>SEO</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Входящие</translation>
     </message>

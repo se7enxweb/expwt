@@ -592,6 +592,122 @@
         <translation>Abagenyi gye baava tekiwandiikibwa ku kuteekebwako kuno.</translation>
     </message>
     <message>
+        <source>The page has no title.</source>
+        <translation>Olupapula terulina mutwe.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters; 30 to 60 fit search results.</source>
+        <translation>Omutwe gulina ennukuta %n; 30 okutuuka ku 60 zituuka mu bivudde mu kunoonya.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters.</source>
+        <translation>Omutwe gulina ennukuta %n.</translation>
+    </message>
+    <message>
+        <source>The page has no description.</source>
+        <translation>Olupapula terulina nnyinyonnyola.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters; 70 to 160 fit search results.</source>
+        <translation>Ennyinyonnyola erina ennukuta %n; 70 okutuuka ku 160 zituuka mu bivudde mu kunoonya.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters.</source>
+        <translation>Ennyinyonnyola erina ennukuta %n.</translation>
+    </message>
+    <message>
+        <source>The page has no main heading (h1).</source>
+        <translation>Olupapula terulina mutwe mukulu (h1).</translation>
+    </message>
+    <message>
+        <source>The page has %n main headings (h1); one is best.</source>
+        <translation>Olupapula lulina emitwe emikulu %n (h1); gumu gwe gusinga.</translation>
+    </message>
+    <message>
+        <source>A heading jumps from level %from to level %to.</source>
+        <translation>Omutwe gumu gubuuka okuva ku ddaala %from okudda ku ddaala %to.</translation>
+    </message>
+    <message>
+        <source>The headings are in order.</source>
+        <translation>Emitwe giri mu nteekateeka.</translation>
+    </message>
+    <message>
+        <source>An image has no alternative text.</source>
+        <translation>Ekifaananyi kimu tekirina bigambo bikiwanyisa.</translation>
+    </message>
+    <message>
+        <source>Every image has an alternative text.</source>
+        <translation>Buli kifaananyi kirina ebigambo ebikiwanyisa.</translation>
+    </message>
+    <message>
+        <source>The page names no canonical address.</source>
+        <translation>Olupapula terwogera ndagiriro ya canonical.</translation>
+    </message>
+    <message>
+        <source>The page names %n canonical addresses; one is right.</source>
+        <translation>Olupapula lwogera endagiriro za canonical %n; emu y'entuufu.</translation>
+    </message>
+    <message>
+        <source>The canonical address is another page: %url</source>
+        <translation>Endagiriro ya canonical lupapula lulala: %url</translation>
+    </message>
+    <message>
+        <source>The canonical address is this page.</source>
+        <translation>Endagiriro ya canonical lwe lupapula luno.</translation>
+    </message>
+    <message>
+        <source>Search engines are asked not to list this page (robots: %value).</source>
+        <translation>Ebyuma ebinoonya bisabiddwa obutawandiika lupapula luno (robots: %value).</translation>
+    </message>
+    <message>
+        <source>A link leads nowhere: %url</source>
+        <translation>Enkolagana emu tetwala wantu: %url</translation>
+    </message>
+    <message>
+        <source>All %n links checked on this page lead somewhere.</source>
+        <translation>Enkolagana zonna %n ezikebereddwa ku lupapula luno zitwala wantu.</translation>
+    </message>
+    <message>
+        <source>Checking ...</source>
+        <translation>Kikeberwa ...</translation>
+    </message>
+    <message>
+        <source>Check again</source>
+        <translation>Kebera nate</translation>
+    </message>
+    <message>
+        <source>%n things to look at</source>
+        <translation>Ebintu %n eby'okutunuulira</translation>
+    </message>
+    <message>
+        <source>Nothing to look at.</source>
+        <translation>Tewali kya kutunuulira.</translation>
+    </message>
+    <message>
+        <source>Problem</source>
+        <translation>Obuzibu</translation>
+    </message>
+    <message>
+        <source>To look at</source>
+        <translation>Eky'okutunuulira</translation>
+    </message>
+    <message>
+        <source>Fine</source>
+        <translation>Kirungi</translation>
+    </message>
+    <message>
+        <source>Open the field</source>
+        <translation>Ggulawo ekifo</translation>
+    </message>
+    <message>
+        <source>Show it on the page</source>
+        <translation>Kiraga ku lupapula</translation>
+    </message>
+    <message>
+        <source>SEO</source>
+        <translation>SEO</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Ebibaluwa ebiyingira</translation>
     </message>

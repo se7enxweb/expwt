@@ -592,6 +592,122 @@
         <translation>Afisi amedzrowo tso la, womeŋlɔnɛ ɖi le ɖoɖo sia dzi o.</translation>
     </message>
     <message>
+        <source>The page has no title.</source>
+        <translation>Axa la mekpɔ tanya o.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters; 30 to 60 fit search results.</source>
+        <translation>Tanya la me nuŋɔŋlɔ %n le; 30 va ɖo 60 sɔ ɖe didi me nuwo me.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters.</source>
+        <translation>Tanya la me nuŋɔŋlɔ %n le.</translation>
+    </message>
+    <message>
+        <source>The page has no description.</source>
+        <translation>Axa la mekpɔ numeɖeɖe o.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters; 70 to 160 fit search results.</source>
+        <translation>Numeɖeɖe la me nuŋɔŋlɔ %n le; 70 va ɖo 160 sɔ ɖe didi me nuwo me.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters.</source>
+        <translation>Numeɖeɖe la me nuŋɔŋlɔ %n le.</translation>
+    </message>
+    <message>
+        <source>The page has no main heading (h1).</source>
+        <translation>Axa la mekpɔ tanya gã (h1) o.</translation>
+    </message>
+    <message>
+        <source>The page has %n main headings (h1); one is best.</source>
+        <translation>Tanya gã %n le axa la dzi (h1); ɖeka nyo wu.</translation>
+    </message>
+    <message>
+        <source>A heading jumps from level %from to level %to.</source>
+        <translation>Tanya aɖe ti kpo tso ɖoƒe %from yi ɖoƒe %to.</translation>
+    </message>
+    <message>
+        <source>The headings are in order.</source>
+        <translation>Tanyawo le ɖoɖo nu.</translation>
+    </message>
+    <message>
+        <source>An image has no alternative text.</source>
+        <translation>Nɔnɔmetata aɖe mekpɔ nuŋɔŋlɔ teƒenɔla o.</translation>
+    </message>
+    <message>
+        <source>Every image has an alternative text.</source>
+        <translation>Nɔnɔmetata ɖesiaɖe kpɔ nuŋɔŋlɔ teƒenɔla.</translation>
+    </message>
+    <message>
+        <source>The page names no canonical address.</source>
+        <translation>Axa la meyɔ adrɛs vevi aɖeke o.</translation>
+    </message>
+    <message>
+        <source>The page names %n canonical addresses; one is right.</source>
+        <translation>Axa la yɔ adrɛs vevi %n; ɖeka koe sɔ.</translation>
+    </message>
+    <message>
+        <source>The canonical address is another page: %url</source>
+        <translation>Adrɛs vevi la nye axa bubu: %url</translation>
+    </message>
+    <message>
+        <source>The canonical address is this page.</source>
+        <translation>Adrɛs vevi la nye axa sia.</translation>
+    </message>
+    <message>
+        <source>Search engines are asked not to list this page (robots: %value).</source>
+        <translation>Wobia didi mɔ̃wo be womegaŋlɔ axa sia ɖe woƒe xexlẽdzesiwo me o (robots: %value).</translation>
+    </message>
+    <message>
+        <source>A link leads nowhere: %url</source>
+        <translation>Kadodo aɖe meyina afiaɖeke o: %url</translation>
+    </message>
+    <message>
+        <source>All %n links checked on this page lead somewhere.</source>
+        <translation>Kadodo %n siwo katã wolé ŋku ɖe axa sia dzi la yina afi aɖe.</translation>
+    </message>
+    <message>
+        <source>Checking ...</source>
+        <translation>Le eŋu lém ...</translation>
+    </message>
+    <message>
+        <source>Check again</source>
+        <translation>Gale eŋu lém</translation>
+    </message>
+    <message>
+        <source>%n things to look at</source>
+        <translation>Nu %n siwo dze be nàkpɔ</translation>
+    </message>
+    <message>
+        <source>Nothing to look at.</source>
+        <translation>Naneke meli be nàkpɔ o.</translation>
+    </message>
+    <message>
+        <source>Problem</source>
+        <translation>Kuxi</translation>
+    </message>
+    <message>
+        <source>To look at</source>
+        <translation>Kpɔ eŋu</translation>
+    </message>
+    <message>
+        <source>Fine</source>
+        <translation>Enyo</translation>
+    </message>
+    <message>
+        <source>Open the field</source>
+        <translation>Ʋu teƒe la</translation>
+    </message>
+    <message>
+        <source>Show it on the page</source>
+        <translation>Ɖe fia le axa la dzi</translation>
+    </message>
+    <message>
+        <source>SEO</source>
+        <translation>SEO</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Agbalẽ siwo va</translation>
     </message>

@@ -592,6 +592,122 @@
         <translation>आगंतुक कुत्थुआं आए, एह इस इंस्टॉलेशन पर दर्ज नेईं होंदा।</translation>
     </message>
     <message>
+        <source>The page has no title.</source>
+        <translation>पन्ने दा कोई सिरनांऽ नेईं ऐ।</translation>
+    </message>
+    <message>
+        <source>The title has %n characters; 30 to 60 fit search results.</source>
+        <translation>सिरनांऽ च %n अक्खर न; खोज नतीजें च 30 थमां 60 अक्खर फिट होंदे न।</translation>
+    </message>
+    <message>
+        <source>The title has %n characters.</source>
+        <translation>सिरनांऽ च %n अक्खर न।</translation>
+    </message>
+    <message>
+        <source>The page has no description.</source>
+        <translation>पन्ने दा कोई ब्यौरा नेईं ऐ।</translation>
+    </message>
+    <message>
+        <source>The description has %n characters; 70 to 160 fit search results.</source>
+        <translation>ब्यौरे च %n अक्खर न; खोज नतीजें च 70 थमां 160 अक्खर फिट होंदे न।</translation>
+    </message>
+    <message>
+        <source>The description has %n characters.</source>
+        <translation>ब्यौरे च %n अक्खर न।</translation>
+    </message>
+    <message>
+        <source>The page has no main heading (h1).</source>
+        <translation>पन्ने पर कोई मुक्ख सिरलेख (h1) नेईं ऐ।</translation>
+    </message>
+    <message>
+        <source>The page has %n main headings (h1); one is best.</source>
+        <translation>पन्ने पर %n मुक्ख सिरलेख (h1) न; इक्क गै सब्भनें शा बधिया ऐ।</translation>
+    </message>
+    <message>
+        <source>A heading jumps from level %from to level %to.</source>
+        <translation>इक्क सिरलेख स्तर %from थमां स्तर %to पर छाल मारदा ऐ।</translation>
+    </message>
+    <message>
+        <source>The headings are in order.</source>
+        <translation>सिरलेख क्रम च न।</translation>
+    </message>
+    <message>
+        <source>An image has no alternative text.</source>
+        <translation>इक्क तस्वीरा दा कोई बदली पाठ नेईं ऐ।</translation>
+    </message>
+    <message>
+        <source>Every image has an alternative text.</source>
+        <translation>हर तस्वीरा दा बदली पाठ ऐ।</translation>
+    </message>
+    <message>
+        <source>The page names no canonical address.</source>
+        <translation>पन्ना कोई कैनॉनिकल पता नेईं दसदा।</translation>
+    </message>
+    <message>
+        <source>The page names %n canonical addresses; one is right.</source>
+        <translation>पन्ना %n कैनॉनिकल पते दसदा ऐ; इक्क गै ठीक ऐ।</translation>
+    </message>
+    <message>
+        <source>The canonical address is another page: %url</source>
+        <translation>कैनॉनिकल पता कोई होर पन्ना ऐ: %url</translation>
+    </message>
+    <message>
+        <source>The canonical address is this page.</source>
+        <translation>कैनॉनिकल पता एह् गै पन्ना ऐ।</translation>
+    </message>
+    <message>
+        <source>Search engines are asked not to list this page (robots: %value).</source>
+        <translation>खोज इंजनें गी एह् पन्ना सूची च नेईं पाने आस्तै आखेआ गेदा ऐ (robots: %value)।</translation>
+    </message>
+    <message>
+        <source>A link leads nowhere: %url</source>
+        <translation>इक्क लिंक कुतै नेईं लेई जंदा: %url</translation>
+    </message>
+    <message>
+        <source>All %n links checked on this page lead somewhere.</source>
+        <translation>इस पन्ने पर जांचे गेदे सारे %n लिंक कुतै नां कुतै लेई जंदे न।</translation>
+    </message>
+    <message>
+        <source>Checking ...</source>
+        <translation>जांच होआ करदी ऐ ...</translation>
+    </message>
+    <message>
+        <source>Check again</source>
+        <translation>फ्ही जांचो</translation>
+    </message>
+    <message>
+        <source>%n things to look at</source>
+        <translation>दिक्खने आह्‌लियां %n गल्लां</translation>
+    </message>
+    <message>
+        <source>Nothing to look at.</source>
+        <translation>दिक्खने आह्‌ला किश नेईं।</translation>
+    </message>
+    <message>
+        <source>Problem</source>
+        <translation>मसला</translation>
+    </message>
+    <message>
+        <source>To look at</source>
+        <translation>दिक्खने आह्‌ला</translation>
+    </message>
+    <message>
+        <source>Fine</source>
+        <translation>ठीक</translation>
+    </message>
+    <message>
+        <source>Open the field</source>
+        <translation>फील्ड खोह्‌लो</translation>
+    </message>
+    <message>
+        <source>Show it on the page</source>
+        <translation>पन्ने पर दस्सो</translation>
+    </message>
+    <message>
+        <source>SEO</source>
+        <translation>SEO</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>इनबॉक्स</translation>
     </message>

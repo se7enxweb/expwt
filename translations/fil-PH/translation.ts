@@ -592,6 +592,122 @@
         <translation>Hindi itinatala sa installation na ito kung saan nanggaling ang mga bisita.</translation>
     </message>
     <message>
+        <source>The page has no title.</source>
+        <translation>Walang pamagat ang pahina.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters; 30 to 60 fit search results.</source>
+        <translation>May %n karakter ang pamagat; 30 hanggang 60 ang kasya sa mga resulta ng paghahanap.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters.</source>
+        <translation>May %n karakter ang pamagat.</translation>
+    </message>
+    <message>
+        <source>The page has no description.</source>
+        <translation>Walang paglalarawan ang pahina.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters; 70 to 160 fit search results.</source>
+        <translation>May %n karakter ang paglalarawan; 70 hanggang 160 ang kasya sa mga resulta ng paghahanap.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters.</source>
+        <translation>May %n karakter ang paglalarawan.</translation>
+    </message>
+    <message>
+        <source>The page has no main heading (h1).</source>
+        <translation>Walang pangunahing heading (h1) ang pahina.</translation>
+    </message>
+    <message>
+        <source>The page has %n main headings (h1); one is best.</source>
+        <translation>May %n pangunahing heading (h1) ang pahina; isa ang pinakamainam.</translation>
+    </message>
+    <message>
+        <source>A heading jumps from level %from to level %to.</source>
+        <translation>Isang heading ang tumatalon mula antas %from patungong antas %to.</translation>
+    </message>
+    <message>
+        <source>The headings are in order.</source>
+        <translation>Nasa ayos ang mga heading.</translation>
+    </message>
+    <message>
+        <source>An image has no alternative text.</source>
+        <translation>Walang alternatibong teksto ang isang larawan.</translation>
+    </message>
+    <message>
+        <source>Every image has an alternative text.</source>
+        <translation>May alternatibong teksto ang bawat larawan.</translation>
+    </message>
+    <message>
+        <source>The page names no canonical address.</source>
+        <translation>Walang binabanggit na canonical na address ang pahina.</translation>
+    </message>
+    <message>
+        <source>The page names %n canonical addresses; one is right.</source>
+        <translation>Bumabanggit ang pahina ng %n canonical na address; isa ang tama.</translation>
+    </message>
+    <message>
+        <source>The canonical address is another page: %url</source>
+        <translation>Ibang pahina ang canonical na address: %url</translation>
+    </message>
+    <message>
+        <source>The canonical address is this page.</source>
+        <translation>Ang pahinang ito ang canonical na address.</translation>
+    </message>
+    <message>
+        <source>Search engines are asked not to list this page (robots: %value).</source>
+        <translation>Hinihiling sa mga search engine na huwag ilista ang pahinang ito (robots: %value).</translation>
+    </message>
+    <message>
+        <source>A link leads nowhere: %url</source>
+        <translation>Walang pinupuntahan ang isang link: %url</translation>
+    </message>
+    <message>
+        <source>All %n links checked on this page lead somewhere.</source>
+        <translation>Lahat ng %n link na sinuri sa pahinang ito ay may pinupuntahan.</translation>
+    </message>
+    <message>
+        <source>Checking ...</source>
+        <translation>Sinusuri ...</translation>
+    </message>
+    <message>
+        <source>Check again</source>
+        <translation>Suriin muli</translation>
+    </message>
+    <message>
+        <source>%n things to look at</source>
+        <translation>%n bagay na titingnan</translation>
+    </message>
+    <message>
+        <source>Nothing to look at.</source>
+        <translation>Walang titingnan.</translation>
+    </message>
+    <message>
+        <source>Problem</source>
+        <translation>Problema</translation>
+    </message>
+    <message>
+        <source>To look at</source>
+        <translation>Titingnan</translation>
+    </message>
+    <message>
+        <source>Fine</source>
+        <translation>Ayos</translation>
+    </message>
+    <message>
+        <source>Open the field</source>
+        <translation>Buksan ang field</translation>
+    </message>
+    <message>
+        <source>Show it on the page</source>
+        <translation>Ipakita sa pahina</translation>
+    </message>
+    <message>
+        <source>SEO</source>
+        <translation>SEO</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Inbox</translation>
     </message>

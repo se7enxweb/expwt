@@ -592,6 +592,122 @@
         <translation>Myhmanlaryň nireden gelendigi bu gurnamada ýazylmaýar.</translation>
     </message>
     <message>
+        <source>The page has no title.</source>
+        <translation>Sahypanyň ady ýok.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters; 30 to 60 fit search results.</source>
+        <translation>Atda %n nyşan bar; gözleg netijelerine 30-dan 60-a çenli sygýar.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters.</source>
+        <translation>Atda %n nyşan bar.</translation>
+    </message>
+    <message>
+        <source>The page has no description.</source>
+        <translation>Sahypanyň beýany ýok.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters; 70 to 160 fit search results.</source>
+        <translation>Beýanda %n nyşan bar; gözleg netijelerine 70-den 160-a çenli sygýar.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters.</source>
+        <translation>Beýanda %n nyşan bar.</translation>
+    </message>
+    <message>
+        <source>The page has no main heading (h1).</source>
+        <translation>Sahypada esasy sözbaşy (h1) ýok.</translation>
+    </message>
+    <message>
+        <source>The page has %n main headings (h1); one is best.</source>
+        <translation>Sahypada %n esasy sözbaşy (h1) bar; biri iň gowusy.</translation>
+    </message>
+    <message>
+        <source>A heading jumps from level %from to level %to.</source>
+        <translation>Sözbaşy %from derejeden %to derejä bökýär.</translation>
+    </message>
+    <message>
+        <source>The headings are in order.</source>
+        <translation>Sözbaşylar tertip boýunça.</translation>
+    </message>
+    <message>
+        <source>An image has no alternative text.</source>
+        <translation>Bir suratyň alternatiw teksti ýok.</translation>
+    </message>
+    <message>
+        <source>Every image has an alternative text.</source>
+        <translation>Her suratyň alternatiw teksti bar.</translation>
+    </message>
+    <message>
+        <source>The page names no canonical address.</source>
+        <translation>Sahypa hiç bir kanoniki salgy görkezmeýär.</translation>
+    </message>
+    <message>
+        <source>The page names %n canonical addresses; one is right.</source>
+        <translation>Sahypa %n kanoniki salgy görkezýär; dogrusy biri.</translation>
+    </message>
+    <message>
+        <source>The canonical address is another page: %url</source>
+        <translation>Kanoniki salgy başga sahypa: %url</translation>
+    </message>
+    <message>
+        <source>The canonical address is this page.</source>
+        <translation>Kanoniki salgy şu sahypa.</translation>
+    </message>
+    <message>
+        <source>Search engines are asked not to list this page (robots: %value).</source>
+        <translation>Gözleg ulgamlaryndan bu sahypany sanawa goşmazlyk soralýar (robots: %value).</translation>
+    </message>
+    <message>
+        <source>A link leads nowhere: %url</source>
+        <translation>Bir baglanyşyk hiç ýere alyp barmaýar: %url</translation>
+    </message>
+    <message>
+        <source>All %n links checked on this page lead somewhere.</source>
+        <translation>Bu sahypada barlanan ähli %n baglanyşyk bir ýere alyp barýar.</translation>
+    </message>
+    <message>
+        <source>Checking ...</source>
+        <translation>Barlanýar ...</translation>
+    </message>
+    <message>
+        <source>Check again</source>
+        <translation>Täzeden barla</translation>
+    </message>
+    <message>
+        <source>%n things to look at</source>
+        <translation>Seretmeli %n zat</translation>
+    </message>
+    <message>
+        <source>Nothing to look at.</source>
+        <translation>Seretmeli zat ýok.</translation>
+    </message>
+    <message>
+        <source>Problem</source>
+        <translation>Mesele</translation>
+    </message>
+    <message>
+        <source>To look at</source>
+        <translation>Seretmeli</translation>
+    </message>
+    <message>
+        <source>Fine</source>
+        <translation>Gowy</translation>
+    </message>
+    <message>
+        <source>Open the field</source>
+        <translation>Meýdany aç</translation>
+    </message>
+    <message>
+        <source>Show it on the page</source>
+        <translation>Sahypada görkez</translation>
+    </message>
+    <message>
+        <source>SEO</source>
+        <translation>SEO</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Gelenler</translation>
     </message>

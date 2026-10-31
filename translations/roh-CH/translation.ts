@@ -592,6 +592,122 @@
         <translation>Danunder ch'ils visitaders èn vegnids na vegn betg registrà sin questa installaziun.</translation>
     </message>
     <message>
+        <source>The page has no title.</source>
+        <translation>La pagina n'ha nagin titel.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters; 30 to 60 fit search results.</source>
+        <translation>Il titel ha %n caracters; 30 fin 60 han plaz en ils resultats da tschertga.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters.</source>
+        <translation>Il titel ha %n caracters.</translation>
+    </message>
+    <message>
+        <source>The page has no description.</source>
+        <translation>La pagina n'ha nagina descripziun.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters; 70 to 160 fit search results.</source>
+        <translation>La descripziun ha %n caracters; 70 fin 160 han plaz en ils resultats da tschertga.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters.</source>
+        <translation>La descripziun ha %n caracters.</translation>
+    </message>
+    <message>
+        <source>The page has no main heading (h1).</source>
+        <translation>La pagina n'ha nagin titel principal (h1).</translation>
+    </message>
+    <message>
+        <source>The page has %n main headings (h1); one is best.</source>
+        <translation>La pagina ha %n titels principals (h1); in è il meglier.</translation>
+    </message>
+    <message>
+        <source>A heading jumps from level %from to level %to.</source>
+        <translation>In titel siglia dal nivel %from al nivel %to.</translation>
+    </message>
+    <message>
+        <source>The headings are in order.</source>
+        <translation>Ils titels èn en urden.</translation>
+    </message>
+    <message>
+        <source>An image has no alternative text.</source>
+        <translation>In maletg n'ha nagin text alternativ.</translation>
+    </message>
+    <message>
+        <source>Every image has an alternative text.</source>
+        <translation>Mintga maletg ha in text alternativ.</translation>
+    </message>
+    <message>
+        <source>The page names no canonical address.</source>
+        <translation>La pagina na numna nagina adressa canonica.</translation>
+    </message>
+    <message>
+        <source>The page names %n canonical addresses; one is right.</source>
+        <translation>La pagina numna %n adressas canonicas; ina è dretga.</translation>
+    </message>
+    <message>
+        <source>The canonical address is another page: %url</source>
+        <translation>L'adressa canonica è in'autra pagina: %url</translation>
+    </message>
+    <message>
+        <source>The canonical address is this page.</source>
+        <translation>L'adressa canonica è questa pagina.</translation>
+    </message>
+    <message>
+        <source>Search engines are asked not to list this page (robots: %value).</source>
+        <translation>Las maschinas da tschertga vegnan rugadas da betg far ina glista da questa pagina (robots: %value).</translation>
+    </message>
+    <message>
+        <source>A link leads nowhere: %url</source>
+        <translation>Ina colliaziun na maina nagliur: %url</translation>
+    </message>
+    <message>
+        <source>All %n links checked on this page lead somewhere.</source>
+        <translation>Tut las %n colliaziuns controlladas sin questa pagina mainan insanua.</translation>
+    </message>
+    <message>
+        <source>Checking ...</source>
+        <translation>Controllar ...</translation>
+    </message>
+    <message>
+        <source>Check again</source>
+        <translation>Controllar anc ina giada</translation>
+    </message>
+    <message>
+        <source>%n things to look at</source>
+        <translation>%n chaussas da guardar</translation>
+    </message>
+    <message>
+        <source>Nothing to look at.</source>
+        <translation>Nagut da guardar.</translation>
+    </message>
+    <message>
+        <source>Problem</source>
+        <translation>Problem</translation>
+    </message>
+    <message>
+        <source>To look at</source>
+        <translation>Da guardar</translation>
+    </message>
+    <message>
+        <source>Fine</source>
+        <translation>En urden</translation>
+    </message>
+    <message>
+        <source>Open the field</source>
+        <translation>Avrir il champ</translation>
+    </message>
+    <message>
+        <source>Show it on the page</source>
+        <translation>Mussar sin la pagina</translation>
+    </message>
+    <message>
+        <source>SEO</source>
+        <translation>SEO</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Chascha d'entrada</translation>
     </message>

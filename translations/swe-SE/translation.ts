@@ -592,6 +592,122 @@
         <translation>Varifrån besökarna kom registreras inte på den här installationen.</translation>
     </message>
     <message>
+        <source>The page has no title.</source>
+        <translation>Sidan har ingen titel.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters; 30 to 60 fit search results.</source>
+        <translation>Titeln har %n tecken; 30 till 60 får plats i sökresultat.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters.</source>
+        <translation>Titeln har %n tecken.</translation>
+    </message>
+    <message>
+        <source>The page has no description.</source>
+        <translation>Sidan har ingen beskrivning.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters; 70 to 160 fit search results.</source>
+        <translation>Beskrivningen har %n tecken; 70 till 160 får plats i sökresultat.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters.</source>
+        <translation>Beskrivningen har %n tecken.</translation>
+    </message>
+    <message>
+        <source>The page has no main heading (h1).</source>
+        <translation>Sidan har ingen huvudrubrik (h1).</translation>
+    </message>
+    <message>
+        <source>The page has %n main headings (h1); one is best.</source>
+        <translation>Sidan har %n huvudrubriker (h1); en är bäst.</translation>
+    </message>
+    <message>
+        <source>A heading jumps from level %from to level %to.</source>
+        <translation>En rubrik hoppar från nivå %from till nivå %to.</translation>
+    </message>
+    <message>
+        <source>The headings are in order.</source>
+        <translation>Rubrikerna är i ordning.</translation>
+    </message>
+    <message>
+        <source>An image has no alternative text.</source>
+        <translation>En bild saknar alternativ text.</translation>
+    </message>
+    <message>
+        <source>Every image has an alternative text.</source>
+        <translation>Alla bilder har en alternativ text.</translation>
+    </message>
+    <message>
+        <source>The page names no canonical address.</source>
+        <translation>Sidan anger ingen kanonisk adress.</translation>
+    </message>
+    <message>
+        <source>The page names %n canonical addresses; one is right.</source>
+        <translation>Sidan anger %n kanoniska adresser; en är rätt.</translation>
+    </message>
+    <message>
+        <source>The canonical address is another page: %url</source>
+        <translation>Den kanoniska adressen är en annan sida: %url</translation>
+    </message>
+    <message>
+        <source>The canonical address is this page.</source>
+        <translation>Den kanoniska adressen är den här sidan.</translation>
+    </message>
+    <message>
+        <source>Search engines are asked not to list this page (robots: %value).</source>
+        <translation>Sökmotorer ombeds att inte visa den här sidan (robots: %value).</translation>
+    </message>
+    <message>
+        <source>A link leads nowhere: %url</source>
+        <translation>En länk leder ingenstans: %url</translation>
+    </message>
+    <message>
+        <source>All %n links checked on this page lead somewhere.</source>
+        <translation>Alla %n länkar som kontrollerats på den här sidan leder någonstans.</translation>
+    </message>
+    <message>
+        <source>Checking ...</source>
+        <translation>Kontrollerar ...</translation>
+    </message>
+    <message>
+        <source>Check again</source>
+        <translation>Kontrollera igen</translation>
+    </message>
+    <message>
+        <source>%n things to look at</source>
+        <translation>%n saker att titta på</translation>
+    </message>
+    <message>
+        <source>Nothing to look at.</source>
+        <translation>Inget att titta på.</translation>
+    </message>
+    <message>
+        <source>Problem</source>
+        <translation>Problem</translation>
+    </message>
+    <message>
+        <source>To look at</source>
+        <translation>Att titta på</translation>
+    </message>
+    <message>
+        <source>Fine</source>
+        <translation>Bra</translation>
+    </message>
+    <message>
+        <source>Open the field</source>
+        <translation>Öppna fältet</translation>
+    </message>
+    <message>
+        <source>Show it on the page</source>
+        <translation>Visa det på sidan</translation>
+    </message>
+    <message>
+        <source>SEO</source>
+        <translation>SEO</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Inkorg</translation>
     </message>

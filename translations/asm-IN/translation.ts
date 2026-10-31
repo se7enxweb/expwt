@@ -592,6 +592,122 @@
         <translation>দৰ্শকসকল ক'ৰ পৰা আহিছিল সেয়া এই সংস্থাপনত ৰেকৰ্ড কৰা নহয়।</translation>
     </message>
     <message>
+        <source>The page has no title.</source>
+        <translation>পৃষ্ঠাটোৰ কোনো শিৰোনাম নাই।</translation>
+    </message>
+    <message>
+        <source>The title has %n characters; 30 to 60 fit search results.</source>
+        <translation>শিৰোনামটোত %n টা আখৰ আছে; 30ৰ পৰা 60 টা সন্ধানৰ ফলাফলত খাপ খায়।</translation>
+    </message>
+    <message>
+        <source>The title has %n characters.</source>
+        <translation>শিৰোনামটোত %n টা আখৰ আছে।</translation>
+    </message>
+    <message>
+        <source>The page has no description.</source>
+        <translation>পৃষ্ঠাটোৰ কোনো বিৱৰণ নাই।</translation>
+    </message>
+    <message>
+        <source>The description has %n characters; 70 to 160 fit search results.</source>
+        <translation>বিৱৰণটোত %n টা আখৰ আছে; 70ৰ পৰা 160 টা সন্ধানৰ ফলাফলত খাপ খায়।</translation>
+    </message>
+    <message>
+        <source>The description has %n characters.</source>
+        <translation>বিৱৰণটোত %n টা আখৰ আছে।</translation>
+    </message>
+    <message>
+        <source>The page has no main heading (h1).</source>
+        <translation>পৃষ্ঠাটোৰ কোনো মূল শীৰ্ষক (h1) নাই।</translation>
+    </message>
+    <message>
+        <source>The page has %n main headings (h1); one is best.</source>
+        <translation>পৃষ্ঠাটোত %n টা মূল শীৰ্ষক (h1) আছে; এটাই উত্তম।</translation>
+    </message>
+    <message>
+        <source>A heading jumps from level %from to level %to.</source>
+        <translation>এটা শীৰ্ষক স্তৰ %fromৰ পৰা স্তৰ %to লৈ জঁপিয়াই যায়।</translation>
+    </message>
+    <message>
+        <source>The headings are in order.</source>
+        <translation>শীৰ্ষকবোৰ ক্ৰম অনুসৰি আছে।</translation>
+    </message>
+    <message>
+        <source>An image has no alternative text.</source>
+        <translation>এখন ছবিৰ কোনো বিকল্প পাঠ নাই।</translation>
+    </message>
+    <message>
+        <source>Every image has an alternative text.</source>
+        <translation>প্ৰতিখন ছবিৰ বিকল্প পাঠ আছে।</translation>
+    </message>
+    <message>
+        <source>The page names no canonical address.</source>
+        <translation>পৃষ্ঠাটোৱে কোনো কেননিকেল ঠিকনা উল্লেখ নকৰে।</translation>
+    </message>
+    <message>
+        <source>The page names %n canonical addresses; one is right.</source>
+        <translation>পৃষ্ঠাটোৱে %n টা কেননিকেল ঠিকনা উল্লেখ কৰে; এটাহে শুদ্ধ।</translation>
+    </message>
+    <message>
+        <source>The canonical address is another page: %url</source>
+        <translation>কেননিকেল ঠিকনাটো আন এটা পৃষ্ঠা: %url</translation>
+    </message>
+    <message>
+        <source>The canonical address is this page.</source>
+        <translation>কেননিকেল ঠিকনাটো এই পৃষ্ঠাটোৱেই।</translation>
+    </message>
+    <message>
+        <source>Search engines are asked not to list this page (robots: %value).</source>
+        <translation>সন্ধান ইঞ্জিনক এই পৃষ্ঠাটো তালিকাভুক্ত নকৰিবলৈ কোৱা হৈছে (robots: %value)।</translation>
+    </message>
+    <message>
+        <source>A link leads nowhere: %url</source>
+        <translation>এটা লিংকে ক'লৈকো নিনিয়ে: %url</translation>
+    </message>
+    <message>
+        <source>All %n links checked on this page lead somewhere.</source>
+        <translation>এই পৃষ্ঠাত পৰীক্ষা কৰা আটাইকেইটা %n টা লিংকে কৰবালৈ লৈ যায়।</translation>
+    </message>
+    <message>
+        <source>Checking ...</source>
+        <translation>পৰীক্ষা কৰি আছে ...</translation>
+    </message>
+    <message>
+        <source>Check again</source>
+        <translation>পুনৰ পৰীক্ষা কৰক</translation>
+    </message>
+    <message>
+        <source>%n things to look at</source>
+        <translation>চাবলগীয়া %n টা বিষয়</translation>
+    </message>
+    <message>
+        <source>Nothing to look at.</source>
+        <translation>চাবলগীয়া একো নাই।</translation>
+    </message>
+    <message>
+        <source>Problem</source>
+        <translation>সমস্যা</translation>
+    </message>
+    <message>
+        <source>To look at</source>
+        <translation>চাবলগীয়া</translation>
+    </message>
+    <message>
+        <source>Fine</source>
+        <translation>ঠিক আছে</translation>
+    </message>
+    <message>
+        <source>Open the field</source>
+        <translation>ফিল্ডটো খোলক</translation>
+    </message>
+    <message>
+        <source>Show it on the page</source>
+        <translation>পৃষ্ঠাত দেখুৱাওক</translation>
+    </message>
+    <message>
+        <source>SEO</source>
+        <translation>SEO</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>ইনবক্স</translation>
     </message>

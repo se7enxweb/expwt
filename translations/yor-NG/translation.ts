@@ -592,6 +592,122 @@
         <translation>A kò ṣe àkọsílẹ̀ ibi tí àwọn àlejò ti wá lórí ìfisílẹ̀ yìí.</translation>
     </message>
     <message>
+        <source>The page has no title.</source>
+        <translation>Ojú-ìwé náà kò ní àkọlé.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters; 30 to 60 fit search results.</source>
+        <translation>Àkọlé náà ní lẹ́tà %n; 30 sí 60 ló bá àbájáde ìwádìí mu.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters.</source>
+        <translation>Àkọlé náà ní lẹ́tà %n.</translation>
+    </message>
+    <message>
+        <source>The page has no description.</source>
+        <translation>Ojú-ìwé náà kò ní àpèjúwe.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters; 70 to 160 fit search results.</source>
+        <translation>Àpèjúwe náà ní lẹ́tà %n; 70 sí 160 ló bá àbájáde ìwádìí mu.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters.</source>
+        <translation>Àpèjúwe náà ní lẹ́tà %n.</translation>
+    </message>
+    <message>
+        <source>The page has no main heading (h1).</source>
+        <translation>Ojú-ìwé náà kò ní àkọlé pàtàkì (h1).</translation>
+    </message>
+    <message>
+        <source>The page has %n main headings (h1); one is best.</source>
+        <translation>Ojú-ìwé náà ní àkọlé pàtàkì %n (h1); ẹyọ kan ló dára jù.</translation>
+    </message>
+    <message>
+        <source>A heading jumps from level %from to level %to.</source>
+        <translation>Àkọlé kan fò láti ìpele %from sí ìpele %to.</translation>
+    </message>
+    <message>
+        <source>The headings are in order.</source>
+        <translation>Àwọn àkọlé wà ní ìtẹ̀léra.</translation>
+    </message>
+    <message>
+        <source>An image has no alternative text.</source>
+        <translation>Àwòrán kan kò ní ọ̀rọ̀ àfirọ́pò.</translation>
+    </message>
+    <message>
+        <source>Every image has an alternative text.</source>
+        <translation>Gbogbo àwòrán ní ọ̀rọ̀ àfirọ́pò.</translation>
+    </message>
+    <message>
+        <source>The page names no canonical address.</source>
+        <translation>Ojú-ìwé náà kò dárúkọ àdírẹ́sì canonical kankan.</translation>
+    </message>
+    <message>
+        <source>The page names %n canonical addresses; one is right.</source>
+        <translation>Ojú-ìwé náà dárúkọ àdírẹ́sì canonical %n; ẹyọ kan ló tọ́.</translation>
+    </message>
+    <message>
+        <source>The canonical address is another page: %url</source>
+        <translation>Àdírẹ́sì canonical jẹ́ ojú-ìwé mìíràn: %url</translation>
+    </message>
+    <message>
+        <source>The canonical address is this page.</source>
+        <translation>Àdírẹ́sì canonical ni ojú-ìwé yìí.</translation>
+    </message>
+    <message>
+        <source>Search engines are asked not to list this page (robots: %value).</source>
+        <translation>A bẹ̀ àwọn ẹ̀rọ ìwádìí pé kí wọ́n má ṣe to ojú-ìwé yìí (robots: %value).</translation>
+    </message>
+    <message>
+        <source>A link leads nowhere: %url</source>
+        <translation>Ìjápọ̀ kan kò lọ síbìkan: %url</translation>
+    </message>
+    <message>
+        <source>All %n links checked on this page lead somewhere.</source>
+        <translation>Gbogbo ìjápọ̀ %n tí a ṣàyẹ̀wò lórí ojú-ìwé yìí ló ń lọ síbìkan.</translation>
+    </message>
+    <message>
+        <source>Checking ...</source>
+        <translation>Ó ń ṣàyẹ̀wò ...</translation>
+    </message>
+    <message>
+        <source>Check again</source>
+        <translation>Ṣàyẹ̀wò lẹ́ẹ̀kan sí i</translation>
+    </message>
+    <message>
+        <source>%n things to look at</source>
+        <translation>Nǹkan %n láti wò</translation>
+    </message>
+    <message>
+        <source>Nothing to look at.</source>
+        <translation>Kò sí nǹkan láti wò.</translation>
+    </message>
+    <message>
+        <source>Problem</source>
+        <translation>Ìṣòro</translation>
+    </message>
+    <message>
+        <source>To look at</source>
+        <translation>Láti wò</translation>
+    </message>
+    <message>
+        <source>Fine</source>
+        <translation>Ó dára</translation>
+    </message>
+    <message>
+        <source>Open the field</source>
+        <translation>Ṣí pápá náà</translation>
+    </message>
+    <message>
+        <source>Show it on the page</source>
+        <translation>Fi hàn lórí ojú-ìwé</translation>
+    </message>
+    <message>
+        <source>SEO</source>
+        <translation>SEO</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Àpótí ìwọlé</translation>
     </message>

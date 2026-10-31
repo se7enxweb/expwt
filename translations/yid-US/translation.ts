@@ -592,6 +592,122 @@
         <translation>פֿון וואַנען די באַזוכער זײַנען געקומען ווערט נישט פֿאַרשריבן אויף דער אינסטאַלאַציע.</translation>
     </message>
     <message>
+        <source>The page has no title.</source>
+        <translation>דער בלאַט האָט ניט קיין טיטל.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters; 30 to 60 fit search results.</source>
+        <translation>דער טיטל האָט %n צייכנס; 30 ביז 60 פּאַסן אין זוך־רעזולטאַטן.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters.</source>
+        <translation>דער טיטל האָט %n צייכנס.</translation>
+    </message>
+    <message>
+        <source>The page has no description.</source>
+        <translation>דער בלאַט האָט ניט קיין באַשרייבונג.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters; 70 to 160 fit search results.</source>
+        <translation>די באַשרייבונג האָט %n צייכנס; 70 ביז 160 פּאַסן אין זוך־רעזולטאַטן.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters.</source>
+        <translation>די באַשרייבונג האָט %n צייכנס.</translation>
+    </message>
+    <message>
+        <source>The page has no main heading (h1).</source>
+        <translation>דער בלאַט האָט ניט קיין הויפּט־קעפּל (h1).</translation>
+    </message>
+    <message>
+        <source>The page has %n main headings (h1); one is best.</source>
+        <translation>דער בלאַט האָט %n הויפּט־קעפּלעך (h1); איינס איז דאָס בעסטע.</translation>
+    </message>
+    <message>
+        <source>A heading jumps from level %from to level %to.</source>
+        <translation>אַ קעפּל שפּרינגט פֿון שטאַפּל %from צו שטאַפּל %to.</translation>
+    </message>
+    <message>
+        <source>The headings are in order.</source>
+        <translation>די קעפּלעך זענען אין סדר.</translation>
+    </message>
+    <message>
+        <source>An image has no alternative text.</source>
+        <translation>אַ בילד האָט ניט קיין אַלטערנאַטיוון טעקסט.</translation>
+    </message>
+    <message>
+        <source>Every image has an alternative text.</source>
+        <translation>יעדעס בילד האָט אַן אַלטערנאַטיוון טעקסט.</translation>
+    </message>
+    <message>
+        <source>The page names no canonical address.</source>
+        <translation>דער בלאַט נעמט ניט קיין קאַנאָנישע אַדרעס.</translation>
+    </message>
+    <message>
+        <source>The page names %n canonical addresses; one is right.</source>
+        <translation>דער בלאַט נעמט %n קאַנאָנישע אַדרעסן; איינע איז ריכטיק.</translation>
+    </message>
+    <message>
+        <source>The canonical address is another page: %url</source>
+        <translation>די קאַנאָנישע אַדרעס איז אַן אַנדער בלאַט: %url</translation>
+    </message>
+    <message>
+        <source>The canonical address is this page.</source>
+        <translation>די קאַנאָנישע אַדרעס איז דער דאָזיקער בלאַט.</translation>
+    </message>
+    <message>
+        <source>Search engines are asked not to list this page (robots: %value).</source>
+        <translation>מע בעט זוכמאַשינען ניט צו ליסטן דעם בלאַט (robots: %value).</translation>
+    </message>
+    <message>
+        <source>A link leads nowhere: %url</source>
+        <translation>אַ לינק פֿירט ערגעץ ניט: %url</translation>
+    </message>
+    <message>
+        <source>All %n links checked on this page lead somewhere.</source>
+        <translation>אַלע %n געפּרוּווטע לינקען אויף דעם בלאַט פֿירן ערגעץ וווּהין.</translation>
+    </message>
+    <message>
+        <source>Checking ...</source>
+        <translation>מע פּרוּווט ...</translation>
+    </message>
+    <message>
+        <source>Check again</source>
+        <translation>פּרוּוו נאָך אַ מאָל</translation>
+    </message>
+    <message>
+        <source>%n things to look at</source>
+        <translation>%n זאַכן צו באַטראַכטן</translation>
+    </message>
+    <message>
+        <source>Nothing to look at.</source>
+        <translation>גאָרנישט צו באַטראַכטן.</translation>
+    </message>
+    <message>
+        <source>Problem</source>
+        <translation>פּראָבלעם</translation>
+    </message>
+    <message>
+        <source>To look at</source>
+        <translation>צו באַטראַכטן</translation>
+    </message>
+    <message>
+        <source>Fine</source>
+        <translation>גוט</translation>
+    </message>
+    <message>
+        <source>Open the field</source>
+        <translation>עפֿן דאָס פֿעלד</translation>
+    </message>
+    <message>
+        <source>Show it on the page</source>
+        <translation>ווײַז עס אויפֿן בלאַט</translation>
+    </message>
+    <message>
+        <source>SEO</source>
+        <translation>SEO</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>אַרײַנגעקומענע</translation>
     </message>

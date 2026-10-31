@@ -592,6 +592,122 @@
         <translation>საიდან მოვიდნენ ვიზიტორები, ამ ინსტალაციაზე არ იწერება.</translation>
     </message>
     <message>
+        <source>The page has no title.</source>
+        <translation>გვერდს სათაური არ აქვს.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters; 30 to 60 fit search results.</source>
+        <translation>სათაურს აქვს %n სიმბოლო; ძიების შედეგებში 30-დან 60-მდე ეტევა.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters.</source>
+        <translation>სათაურს აქვს %n სიმბოლო.</translation>
+    </message>
+    <message>
+        <source>The page has no description.</source>
+        <translation>გვერდს აღწერა არ აქვს.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters; 70 to 160 fit search results.</source>
+        <translation>აღწერას აქვს %n სიმბოლო; ძიების შედეგებში 70-დან 160-მდე ეტევა.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters.</source>
+        <translation>აღწერას აქვს %n სიმბოლო.</translation>
+    </message>
+    <message>
+        <source>The page has no main heading (h1).</source>
+        <translation>გვერდს მთავარი სათაური (h1) არ აქვს.</translation>
+    </message>
+    <message>
+        <source>The page has %n main headings (h1); one is best.</source>
+        <translation>გვერდს აქვს %n მთავარი სათაური (h1); საუკეთესოა ერთი.</translation>
+    </message>
+    <message>
+        <source>A heading jumps from level %from to level %to.</source>
+        <translation>სათაური %from დონიდან %to დონეზე ხტება.</translation>
+    </message>
+    <message>
+        <source>The headings are in order.</source>
+        <translation>სათაურები თანმიმდევრულია.</translation>
+    </message>
+    <message>
+        <source>An image has no alternative text.</source>
+        <translation>სურათს ალტერნატიული ტექსტი არ აქვს.</translation>
+    </message>
+    <message>
+        <source>Every image has an alternative text.</source>
+        <translation>ყველა სურათს აქვს ალტერნატიული ტექსტი.</translation>
+    </message>
+    <message>
+        <source>The page names no canonical address.</source>
+        <translation>გვერდი კანონიკურ მისამართს არ ასახელებს.</translation>
+    </message>
+    <message>
+        <source>The page names %n canonical addresses; one is right.</source>
+        <translation>გვერდი ასახელებს %n კანონიკურ მისამართს; სწორია ერთი.</translation>
+    </message>
+    <message>
+        <source>The canonical address is another page: %url</source>
+        <translation>კანონიკური მისამართი სხვა გვერდია: %url</translation>
+    </message>
+    <message>
+        <source>The canonical address is this page.</source>
+        <translation>კანონიკური მისამართი ეს გვერდია.</translation>
+    </message>
+    <message>
+        <source>Search engines are asked not to list this page (robots: %value).</source>
+        <translation>საძიებო სისტემებს სთხოვენ, ეს გვერდი არ ჩამოთვალონ (robots: %value).</translation>
+    </message>
+    <message>
+        <source>A link leads nowhere: %url</source>
+        <translation>ბმული არსად მიდის: %url</translation>
+    </message>
+    <message>
+        <source>All %n links checked on this page lead somewhere.</source>
+        <translation>ამ გვერდზე შემოწმებული ყველა %n ბმული სადღაც მიდის.</translation>
+    </message>
+    <message>
+        <source>Checking ...</source>
+        <translation>მოწმდება ...</translation>
+    </message>
+    <message>
+        <source>Check again</source>
+        <translation>ხელახლა შემოწმება</translation>
+    </message>
+    <message>
+        <source>%n things to look at</source>
+        <translation>%n სანახავი რამ</translation>
+    </message>
+    <message>
+        <source>Nothing to look at.</source>
+        <translation>სანახავი არაფერია.</translation>
+    </message>
+    <message>
+        <source>Problem</source>
+        <translation>პრობლემა</translation>
+    </message>
+    <message>
+        <source>To look at</source>
+        <translation>სანახავი</translation>
+    </message>
+    <message>
+        <source>Fine</source>
+        <translation>კარგია</translation>
+    </message>
+    <message>
+        <source>Open the field</source>
+        <translation>ველის გახსნა</translation>
+    </message>
+    <message>
+        <source>Show it on the page</source>
+        <translation>გვერდზე ჩვენება</translation>
+    </message>
+    <message>
+        <source>SEO</source>
+        <translation>SEO</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>შემოსულები</translation>
     </message>

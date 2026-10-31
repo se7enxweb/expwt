@@ -592,6 +592,122 @@
         <translation>Lapho izivakashi zivela khona akurekhodwa kulokhu kufakwa.</translation>
     </message>
     <message>
+        <source>The page has no title.</source>
+        <translation>Ikhasi alinasihloko.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters; 30 to 60 fit search results.</source>
+        <translation>Isihloko sinezinhlamvu ezingu-%n; ezingu-30 kuya ku-60 zingena emiphumeleni yokusesha.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters.</source>
+        <translation>Isihloko sinezinhlamvu ezingu-%n.</translation>
+    </message>
+    <message>
+        <source>The page has no description.</source>
+        <translation>Ikhasi alinayo incazelo.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters; 70 to 160 fit search results.</source>
+        <translation>Incazelo inezinhlamvu ezingu-%n; ezingu-70 kuya ku-160 zingena emiphumeleni yokusesha.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters.</source>
+        <translation>Incazelo inezinhlamvu ezingu-%n.</translation>
+    </message>
+    <message>
+        <source>The page has no main heading (h1).</source>
+        <translation>Ikhasi alinasihloko esikhulu (h1).</translation>
+    </message>
+    <message>
+        <source>The page has %n main headings (h1); one is best.</source>
+        <translation>Ikhasi linezihloko ezinkulu ezingu-%n (h1); esisodwa singcono.</translation>
+    </message>
+    <message>
+        <source>A heading jumps from level %from to level %to.</source>
+        <translation>Isihloko siyagxuma sisuka ezingeni %from siye ezingeni %to.</translation>
+    </message>
+    <message>
+        <source>The headings are in order.</source>
+        <translation>Izihloko zilandelana.</translation>
+    </message>
+    <message>
+        <source>An image has no alternative text.</source>
+        <translation>Isithombe esisodwa asinawo umbhalo ongenayo.</translation>
+    </message>
+    <message>
+        <source>Every image has an alternative text.</source>
+        <translation>Sonke isithombe sinombhalo ongenayo.</translation>
+    </message>
+    <message>
+        <source>The page names no canonical address.</source>
+        <translation>Ikhasi alisho ikheli le-canonical.</translation>
+    </message>
+    <message>
+        <source>The page names %n canonical addresses; one is right.</source>
+        <translation>Ikhasi lisho amakheli e-canonical angu-%n; elilodwa yilona elilungile.</translation>
+    </message>
+    <message>
+        <source>The canonical address is another page: %url</source>
+        <translation>Ikheli le-canonical yikhasi elinye: %url</translation>
+    </message>
+    <message>
+        <source>The canonical address is this page.</source>
+        <translation>Ikheli le-canonical yileli khasi.</translation>
+    </message>
+    <message>
+        <source>Search engines are asked not to list this page (robots: %value).</source>
+        <translation>Izinjini zokusesha ziyacelwa ukuthi zingalifaki leli khasi ohlwini (robots: %value).</translation>
+    </message>
+    <message>
+        <source>A link leads nowhere: %url</source>
+        <translation>Isixhumanisi esisodwa asiyi ndawo: %url</translation>
+    </message>
+    <message>
+        <source>All %n links checked on this page lead somewhere.</source>
+        <translation>Zonke izixhumanisi ezingu-%n ezihloliwe kuleli khasi ziya endaweni ethile.</translation>
+    </message>
+    <message>
+        <source>Checking ...</source>
+        <translation>Kuyahlolwa ...</translation>
+    </message>
+    <message>
+        <source>Check again</source>
+        <translation>Hlola futhi</translation>
+    </message>
+    <message>
+        <source>%n things to look at</source>
+        <translation>Izinto ezingu-%n okufanele zibhekwe</translation>
+    </message>
+    <message>
+        <source>Nothing to look at.</source>
+        <translation>Akukho okufanele kubhekwe.</translation>
+    </message>
+    <message>
+        <source>Problem</source>
+        <translation>Inkinga</translation>
+    </message>
+    <message>
+        <source>To look at</source>
+        <translation>Okufanele kubhekwe</translation>
+    </message>
+    <message>
+        <source>Fine</source>
+        <translation>Kulungile</translation>
+    </message>
+    <message>
+        <source>Open the field</source>
+        <translation>Vula inkambu</translation>
+    </message>
+    <message>
+        <source>Show it on the page</source>
+        <translation>Kubonise ekhasini</translation>
+    </message>
+    <message>
+        <source>SEO</source>
+        <translation>SEO</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Ibhokisi lokungenayo</translation>
     </message>

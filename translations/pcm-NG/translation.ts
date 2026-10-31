@@ -592,6 +592,122 @@
         <translation>Where visitors come from no dey recorded for dis installation.</translation>
     </message>
     <message>
+        <source>The page has no title.</source>
+        <translation>Di page no get title.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters; 30 to 60 fit search results.</source>
+        <translation>Di title get %n characters; 30 reach 60 dey fit for search results.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters.</source>
+        <translation>Di title get %n characters.</translation>
+    </message>
+    <message>
+        <source>The page has no description.</source>
+        <translation>Di page no get description.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters; 70 to 160 fit search results.</source>
+        <translation>Di description get %n characters; 70 reach 160 dey fit for search results.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters.</source>
+        <translation>Di description get %n characters.</translation>
+    </message>
+    <message>
+        <source>The page has no main heading (h1).</source>
+        <translation>Di page no get main heading (h1).</translation>
+    </message>
+    <message>
+        <source>The page has %n main headings (h1); one is best.</source>
+        <translation>Di page get %n main headings (h1); one na di best.</translation>
+    </message>
+    <message>
+        <source>A heading jumps from level %from to level %to.</source>
+        <translation>One heading jump from level %from go level %to.</translation>
+    </message>
+    <message>
+        <source>The headings are in order.</source>
+        <translation>Di headings dey for order.</translation>
+    </message>
+    <message>
+        <source>An image has no alternative text.</source>
+        <translation>One picture no get alternative text.</translation>
+    </message>
+    <message>
+        <source>Every image has an alternative text.</source>
+        <translation>Every picture get alternative text.</translation>
+    </message>
+    <message>
+        <source>The page names no canonical address.</source>
+        <translation>Di page no call any canonical address.</translation>
+    </message>
+    <message>
+        <source>The page names %n canonical addresses; one is right.</source>
+        <translation>Di page call %n canonical addresses; na one correct.</translation>
+    </message>
+    <message>
+        <source>The canonical address is another page: %url</source>
+        <translation>Di canonical address na another page: %url</translation>
+    </message>
+    <message>
+        <source>The canonical address is this page.</source>
+        <translation>Di canonical address na dis page.</translation>
+    </message>
+    <message>
+        <source>Search engines are asked not to list this page (robots: %value).</source>
+        <translation>Dem beg search engines make dem no list dis page (robots: %value).</translation>
+    </message>
+    <message>
+        <source>A link leads nowhere: %url</source>
+        <translation>One link no dey carry person go anywhere: %url</translation>
+    </message>
+    <message>
+        <source>All %n links checked on this page lead somewhere.</source>
+        <translation>All di %n links wey dem check for dis page dey carry person go somewhere.</translation>
+    </message>
+    <message>
+        <source>Checking ...</source>
+        <translation>E dey check ...</translation>
+    </message>
+    <message>
+        <source>Check again</source>
+        <translation>Check am again</translation>
+    </message>
+    <message>
+        <source>%n things to look at</source>
+        <translation>%n tins to look</translation>
+    </message>
+    <message>
+        <source>Nothing to look at.</source>
+        <translation>Nothing to look.</translation>
+    </message>
+    <message>
+        <source>Problem</source>
+        <translation>Wahala</translation>
+    </message>
+    <message>
+        <source>To look at</source>
+        <translation>To look</translation>
+    </message>
+    <message>
+        <source>Fine</source>
+        <translation>E dey fine</translation>
+    </message>
+    <message>
+        <source>Open the field</source>
+        <translation>Open di field</translation>
+    </message>
+    <message>
+        <source>Show it on the page</source>
+        <translation>Show am for di page</translation>
+    </message>
+    <message>
+        <source>SEO</source>
+        <translation>SEO</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Inbox</translation>
     </message>

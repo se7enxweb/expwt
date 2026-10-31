@@ -592,6 +592,122 @@
         <translation>訪問者の参照元はこのインストールでは記録されません。</translation>
     </message>
     <message>
+        <source>The page has no title.</source>
+        <translation>ページにタイトルがありません。</translation>
+    </message>
+    <message>
+        <source>The title has %n characters; 30 to 60 fit search results.</source>
+        <translation>タイトルは %n 文字です。検索結果に収まるのは 30〜60 文字です。</translation>
+    </message>
+    <message>
+        <source>The title has %n characters.</source>
+        <translation>タイトルは %n 文字です。</translation>
+    </message>
+    <message>
+        <source>The page has no description.</source>
+        <translation>ページに説明がありません。</translation>
+    </message>
+    <message>
+        <source>The description has %n characters; 70 to 160 fit search results.</source>
+        <translation>説明は %n 文字です。検索結果に収まるのは 70〜160 文字です。</translation>
+    </message>
+    <message>
+        <source>The description has %n characters.</source>
+        <translation>説明は %n 文字です。</translation>
+    </message>
+    <message>
+        <source>The page has no main heading (h1).</source>
+        <translation>ページに主見出し (h1) がありません。</translation>
+    </message>
+    <message>
+        <source>The page has %n main headings (h1); one is best.</source>
+        <translation>ページに主見出し (h1) が %n 個あります。1 個が最適です。</translation>
+    </message>
+    <message>
+        <source>A heading jumps from level %from to level %to.</source>
+        <translation>見出しがレベル %from からレベル %to へ飛んでいます。</translation>
+    </message>
+    <message>
+        <source>The headings are in order.</source>
+        <translation>見出しは順番どおりです。</translation>
+    </message>
+    <message>
+        <source>An image has no alternative text.</source>
+        <translation>代替テキストのない画像があります。</translation>
+    </message>
+    <message>
+        <source>Every image has an alternative text.</source>
+        <translation>すべての画像に代替テキストがあります。</translation>
+    </message>
+    <message>
+        <source>The page names no canonical address.</source>
+        <translation>ページに正規アドレスが指定されていません。</translation>
+    </message>
+    <message>
+        <source>The page names %n canonical addresses; one is right.</source>
+        <translation>ページに正規アドレスが %n 個指定されています。正しいのは 1 個です。</translation>
+    </message>
+    <message>
+        <source>The canonical address is another page: %url</source>
+        <translation>正規アドレスは別のページです: %url</translation>
+    </message>
+    <message>
+        <source>The canonical address is this page.</source>
+        <translation>正規アドレスはこのページです。</translation>
+    </message>
+    <message>
+        <source>Search engines are asked not to list this page (robots: %value).</source>
+        <translation>検索エンジンにこのページを掲載しないよう求めています (robots: %value)。</translation>
+    </message>
+    <message>
+        <source>A link leads nowhere: %url</source>
+        <translation>リンク先がありません: %url</translation>
+    </message>
+    <message>
+        <source>All %n links checked on this page lead somewhere.</source>
+        <translation>このページで確認した %n 個のリンクはすべてリンク先があります。</translation>
+    </message>
+    <message>
+        <source>Checking ...</source>
+        <translation>確認中 ...</translation>
+    </message>
+    <message>
+        <source>Check again</source>
+        <translation>もう一度確認</translation>
+    </message>
+    <message>
+        <source>%n things to look at</source>
+        <translation>確認すべき点 %n 件</translation>
+    </message>
+    <message>
+        <source>Nothing to look at.</source>
+        <translation>確認すべき点はありません。</translation>
+    </message>
+    <message>
+        <source>Problem</source>
+        <translation>問題</translation>
+    </message>
+    <message>
+        <source>To look at</source>
+        <translation>要確認</translation>
+    </message>
+    <message>
+        <source>Fine</source>
+        <translation>良好</translation>
+    </message>
+    <message>
+        <source>Open the field</source>
+        <translation>フィールドを開く</translation>
+    </message>
+    <message>
+        <source>Show it on the page</source>
+        <translation>ページ上で表示</translation>
+    </message>
+    <message>
+        <source>SEO</source>
+        <translation>SEO</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>受信箱</translation>
     </message>

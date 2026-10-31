@@ -592,6 +592,122 @@
         <translation>Зочид хаанаас ирснийг энэ суулгацад бүртгэдэггүй.</translation>
     </message>
     <message>
+        <source>The page has no title.</source>
+        <translation>Хуудсанд гарчиг байхгүй.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters; 30 to 60 fit search results.</source>
+        <translation>Гарчиг %n тэмдэгттэй; хайлтын үр дүнд 30-аас 60 багтана.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters.</source>
+        <translation>Гарчиг %n тэмдэгттэй.</translation>
+    </message>
+    <message>
+        <source>The page has no description.</source>
+        <translation>Хуудсанд тайлбар байхгүй.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters; 70 to 160 fit search results.</source>
+        <translation>Тайлбар %n тэмдэгттэй; хайлтын үр дүнд 70-аас 160 багтана.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters.</source>
+        <translation>Тайлбар %n тэмдэгттэй.</translation>
+    </message>
+    <message>
+        <source>The page has no main heading (h1).</source>
+        <translation>Хуудсанд үндсэн гарчиг (h1) байхгүй.</translation>
+    </message>
+    <message>
+        <source>The page has %n main headings (h1); one is best.</source>
+        <translation>Хуудсанд %n үндсэн гарчиг (h1) байна; нэг нь хамгийн зөв.</translation>
+    </message>
+    <message>
+        <source>A heading jumps from level %from to level %to.</source>
+        <translation>Гарчиг %from түвшнээс %to түвшин рүү үсэрч байна.</translation>
+    </message>
+    <message>
+        <source>The headings are in order.</source>
+        <translation>Гарчгууд дарааллаараа байна.</translation>
+    </message>
+    <message>
+        <source>An image has no alternative text.</source>
+        <translation>Нэг зурагт орлох текст байхгүй.</translation>
+    </message>
+    <message>
+        <source>Every image has an alternative text.</source>
+        <translation>Зураг бүрт орлох текст бий.</translation>
+    </message>
+    <message>
+        <source>The page names no canonical address.</source>
+        <translation>Хуудас ямар ч каноник хаяг заагаагүй.</translation>
+    </message>
+    <message>
+        <source>The page names %n canonical addresses; one is right.</source>
+        <translation>Хуудас %n каноник хаяг заасан; зөв нь нэг.</translation>
+    </message>
+    <message>
+        <source>The canonical address is another page: %url</source>
+        <translation>Каноник хаяг өөр хуудас байна: %url</translation>
+    </message>
+    <message>
+        <source>The canonical address is this page.</source>
+        <translation>Каноник хаяг энэ хуудас байна.</translation>
+    </message>
+    <message>
+        <source>Search engines are asked not to list this page (robots: %value).</source>
+        <translation>Хайлтын системүүдээс энэ хуудсыг жагсаалтад оруулахгүй байхыг хүссэн (robots: %value).</translation>
+    </message>
+    <message>
+        <source>A link leads nowhere: %url</source>
+        <translation>Холбоос хаашаа ч хүргэхгүй байна: %url</translation>
+    </message>
+    <message>
+        <source>All %n links checked on this page lead somewhere.</source>
+        <translation>Энэ хуудсанд шалгасан бүх %n холбоос хаа нэг газар хүргэдэг.</translation>
+    </message>
+    <message>
+        <source>Checking ...</source>
+        <translation>Шалгаж байна ...</translation>
+    </message>
+    <message>
+        <source>Check again</source>
+        <translation>Дахин шалгах</translation>
+    </message>
+    <message>
+        <source>%n things to look at</source>
+        <translation>Харах %n зүйл</translation>
+    </message>
+    <message>
+        <source>Nothing to look at.</source>
+        <translation>Харах зүйл алга.</translation>
+    </message>
+    <message>
+        <source>Problem</source>
+        <translation>Асуудал</translation>
+    </message>
+    <message>
+        <source>To look at</source>
+        <translation>Харах</translation>
+    </message>
+    <message>
+        <source>Fine</source>
+        <translation>Зүгээр</translation>
+    </message>
+    <message>
+        <source>Open the field</source>
+        <translation>Талбарыг нээх</translation>
+    </message>
+    <message>
+        <source>Show it on the page</source>
+        <translation>Хуудсан дээр харуулах</translation>
+    </message>
+    <message>
+        <source>SEO</source>
+        <translation>SEO</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Ирсэн</translation>
     </message>

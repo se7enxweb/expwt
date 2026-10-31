@@ -592,6 +592,122 @@
         <translation>Toɗɗaaka e ndee aafi to koɓɓiiɓe iwi.</translation>
     </message>
     <message>
+        <source>The page has no title.</source>
+        <translation>Hello ngoo alaa tiitoonde.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters; 30 to 60 fit search results.</source>
+        <translation>Tiitoonde ndee ina jogii alkule %n; 30 haa 60 ina poti e njaltudi ɗaɓɓitaali.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters.</source>
+        <translation>Tiitoonde ndee ina jogii alkule %n.</translation>
+    </message>
+    <message>
+        <source>The page has no description.</source>
+        <translation>Hello ngoo alaa sifaa.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters; 70 to 160 fit search results.</source>
+        <translation>Sifaa ngaa ina jogii alkule %n; 70 haa 160 ina poti e njaltudi ɗaɓɓitaali.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters.</source>
+        <translation>Sifaa ngaa ina jogii alkule %n.</translation>
+    </message>
+    <message>
+        <source>The page has no main heading (h1).</source>
+        <translation>Hello ngoo alaa tiitoonde mawnde (h1).</translation>
+    </message>
+    <message>
+        <source>The page has %n main headings (h1); one is best.</source>
+        <translation>Hello ngoo ina jogii tiitooɗe mawɗe %n (h1); gooto ɓuri moƴƴude.</translation>
+    </message>
+    <message>
+        <source>A heading jumps from level %from to level %to.</source>
+        <translation>Tiitoonde ina diwa iwde e tolno %from yahde e tolno %to.</translation>
+    </message>
+    <message>
+        <source>The headings are in order.</source>
+        <translation>Tiitooɗe ɗee ina njokkondiri.</translation>
+    </message>
+    <message>
+        <source>An image has no alternative text.</source>
+        <translation>Natal alaa binndol lomtotoongol.</translation>
+    </message>
+    <message>
+        <source>Every image has an alternative text.</source>
+        <translation>Natal kala ina jogii binndol lomtotoongol.</translation>
+    </message>
+    <message>
+        <source>The page names no canonical address.</source>
+        <translation>Hello ngoo innataa ñiiɓirde kanonik.</translation>
+    </message>
+    <message>
+        <source>The page names %n canonical addresses; one is right.</source>
+        <translation>Hello ngoo ina innda ñiiɓirɗe kanonik %n; gooto tan woni goonga.</translation>
+    </message>
+    <message>
+        <source>The canonical address is another page: %url</source>
+        <translation>Ñiiɓirde kanonik ndee ko hello goɗɗo: %url</translation>
+    </message>
+    <message>
+        <source>The canonical address is this page.</source>
+        <translation>Ñiiɓirde kanonik ndee ko hello ngoo.</translation>
+    </message>
+    <message>
+        <source>Search engines are asked not to list this page (robots: %value).</source>
+        <translation>Masiŋaaji ɗaɓɓitirɗi ɗi ñaagaama ɗi winndataa hello ngoo (robots: %value).</translation>
+    </message>
+    <message>
+        <source>A link leads nowhere: %url</source>
+        <translation>Jokkol yahrataa fey: %url</translation>
+    </message>
+    <message>
+        <source>All %n links checked on this page lead somewhere.</source>
+        <translation>Jokke %n ɗe ƴeewtaa e hello ngoo fof ina njaha nokku.</translation>
+    </message>
+    <message>
+        <source>Checking ...</source>
+        <translation>Ina ƴeewtee ...</translation>
+    </message>
+    <message>
+        <source>Check again</source>
+        <translation>Ƴeewto kadi</translation>
+    </message>
+    <message>
+        <source>%n things to look at</source>
+        <translation>Geɗe %n ƴeewtetee</translation>
+    </message>
+    <message>
+        <source>Nothing to look at.</source>
+        <translation>Alaa ko ƴeewtetee.</translation>
+    </message>
+    <message>
+        <source>Problem</source>
+        <translation>Caɗeele</translation>
+    </message>
+    <message>
+        <source>To look at</source>
+        <translation>Ƴeewtetee</translation>
+    </message>
+    <message>
+        <source>Fine</source>
+        <translation>Moƴƴi</translation>
+    </message>
+    <message>
+        <source>Open the field</source>
+        <translation>Uddit nokku oo</translation>
+    </message>
+    <message>
+        <source>Show it on the page</source>
+        <translation>Hollir ɗum e hello ngoo</translation>
+    </message>
+    <message>
+        <source>SEO</source>
+        <translation>SEO</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Naatirde</translation>
     </message>

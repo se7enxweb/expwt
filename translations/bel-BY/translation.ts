@@ -592,6 +592,122 @@
         <translation>Адкуль прыйшлі наведвальнікі, на гэтай усталёўцы не запісваецца.</translation>
     </message>
     <message>
+        <source>The page has no title.</source>
+        <translation>У старонкі няма загалоўка.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters; 30 to 60 fit search results.</source>
+        <translation>Загаловак мае %n сімвалаў; у вынікі пошуку змяшчаецца ад 30 да 60.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters.</source>
+        <translation>Загаловак мае %n сімвалаў.</translation>
+    </message>
+    <message>
+        <source>The page has no description.</source>
+        <translation>У старонкі няма апісання.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters; 70 to 160 fit search results.</source>
+        <translation>Апісанне мае %n сімвалаў; у вынікі пошуку змяшчаецца ад 70 да 160.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters.</source>
+        <translation>Апісанне мае %n сімвалаў.</translation>
+    </message>
+    <message>
+        <source>The page has no main heading (h1).</source>
+        <translation>У старонкі няма галоўнага загалоўка (h1).</translation>
+    </message>
+    <message>
+        <source>The page has %n main headings (h1); one is best.</source>
+        <translation>Старонка мае %n галоўных загалоўкаў (h1); лепш за ўсё адзін.</translation>
+    </message>
+    <message>
+        <source>A heading jumps from level %from to level %to.</source>
+        <translation>Загаловак пераскоквае з узроўню %from на ўзровень %to.</translation>
+    </message>
+    <message>
+        <source>The headings are in order.</source>
+        <translation>Загалоўкі ідуць па парадку.</translation>
+    </message>
+    <message>
+        <source>An image has no alternative text.</source>
+        <translation>Выява не мае альтэрнатыўнага тэксту.</translation>
+    </message>
+    <message>
+        <source>Every image has an alternative text.</source>
+        <translation>Кожная выява мае альтэрнатыўны тэкст.</translation>
+    </message>
+    <message>
+        <source>The page names no canonical address.</source>
+        <translation>Старонка не называе кананічнага адраса.</translation>
+    </message>
+    <message>
+        <source>The page names %n canonical addresses; one is right.</source>
+        <translation>Старонка называе %n кананічных адрасоў; правільна адзін.</translation>
+    </message>
+    <message>
+        <source>The canonical address is another page: %url</source>
+        <translation>Кананічны адрас — іншая старонка: %url</translation>
+    </message>
+    <message>
+        <source>The canonical address is this page.</source>
+        <translation>Кананічны адрас — гэтая старонка.</translation>
+    </message>
+    <message>
+        <source>Search engines are asked not to list this page (robots: %value).</source>
+        <translation>Пошукавыя сістэмы просяць не ўключаць гэтую старонку (robots: %value).</translation>
+    </message>
+    <message>
+        <source>A link leads nowhere: %url</source>
+        <translation>Спасылка нікуды не вядзе: %url</translation>
+    </message>
+    <message>
+        <source>All %n links checked on this page lead somewhere.</source>
+        <translation>Усе %n правераных на гэтай старонцы спасылак кудысьці вядуць.</translation>
+    </message>
+    <message>
+        <source>Checking ...</source>
+        <translation>Праверка ...</translation>
+    </message>
+    <message>
+        <source>Check again</source>
+        <translation>Праверыць зноў</translation>
+    </message>
+    <message>
+        <source>%n things to look at</source>
+        <translation>%n пунктаў для прагляду</translation>
+    </message>
+    <message>
+        <source>Nothing to look at.</source>
+        <translation>Няма чаго праглядаць.</translation>
+    </message>
+    <message>
+        <source>Problem</source>
+        <translation>Праблема</translation>
+    </message>
+    <message>
+        <source>To look at</source>
+        <translation>Праглядзець</translation>
+    </message>
+    <message>
+        <source>Fine</source>
+        <translation>Добра</translation>
+    </message>
+    <message>
+        <source>Open the field</source>
+        <translation>Адкрыць поле</translation>
+    </message>
+    <message>
+        <source>Show it on the page</source>
+        <translation>Паказаць на старонцы</translation>
+    </message>
+    <message>
+        <source>SEO</source>
+        <translation>SEO</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Уваходныя</translation>
     </message>

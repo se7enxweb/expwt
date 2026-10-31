@@ -592,6 +592,122 @@
         <translation>방문자가 어디에서 왔는지는 이 설치에서 기록하지 않습니다.</translation>
     </message>
     <message>
+        <source>The page has no title.</source>
+        <translation>페이지에 제목이 없습니다.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters; 30 to 60 fit search results.</source>
+        <translation>제목은 %n자입니다. 검색 결과에는 30~60자가 알맞습니다.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters.</source>
+        <translation>제목은 %n자입니다.</translation>
+    </message>
+    <message>
+        <source>The page has no description.</source>
+        <translation>페이지에 설명이 없습니다.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters; 70 to 160 fit search results.</source>
+        <translation>설명은 %n자입니다. 검색 결과에는 70~160자가 알맞습니다.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters.</source>
+        <translation>설명은 %n자입니다.</translation>
+    </message>
+    <message>
+        <source>The page has no main heading (h1).</source>
+        <translation>페이지에 주 제목(h1)이 없습니다.</translation>
+    </message>
+    <message>
+        <source>The page has %n main headings (h1); one is best.</source>
+        <translation>페이지에 주 제목(h1)이 %n개 있습니다. 하나가 가장 좋습니다.</translation>
+    </message>
+    <message>
+        <source>A heading jumps from level %from to level %to.</source>
+        <translation>제목이 %from 수준에서 %to 수준으로 건너뜁니다.</translation>
+    </message>
+    <message>
+        <source>The headings are in order.</source>
+        <translation>제목이 순서대로 되어 있습니다.</translation>
+    </message>
+    <message>
+        <source>An image has no alternative text.</source>
+        <translation>대체 텍스트가 없는 이미지가 있습니다.</translation>
+    </message>
+    <message>
+        <source>Every image has an alternative text.</source>
+        <translation>모든 이미지에 대체 텍스트가 있습니다.</translation>
+    </message>
+    <message>
+        <source>The page names no canonical address.</source>
+        <translation>페이지에 정식 주소가 지정되지 않았습니다.</translation>
+    </message>
+    <message>
+        <source>The page names %n canonical addresses; one is right.</source>
+        <translation>페이지에 정식 주소가 %n개 지정되어 있습니다. 하나가 맞습니다.</translation>
+    </message>
+    <message>
+        <source>The canonical address is another page: %url</source>
+        <translation>정식 주소가 다른 페이지입니다: %url</translation>
+    </message>
+    <message>
+        <source>The canonical address is this page.</source>
+        <translation>정식 주소가 이 페이지입니다.</translation>
+    </message>
+    <message>
+        <source>Search engines are asked not to list this page (robots: %value).</source>
+        <translation>검색 엔진에 이 페이지를 목록에 올리지 말라고 요청합니다 (robots: %value).</translation>
+    </message>
+    <message>
+        <source>A link leads nowhere: %url</source>
+        <translation>아무 데로도 연결되지 않는 링크가 있습니다: %url</translation>
+    </message>
+    <message>
+        <source>All %n links checked on this page lead somewhere.</source>
+        <translation>이 페이지에서 확인한 링크 %n개가 모두 어딘가로 연결됩니다.</translation>
+    </message>
+    <message>
+        <source>Checking ...</source>
+        <translation>확인 중 ...</translation>
+    </message>
+    <message>
+        <source>Check again</source>
+        <translation>다시 확인</translation>
+    </message>
+    <message>
+        <source>%n things to look at</source>
+        <translation>살펴볼 항목 %n개</translation>
+    </message>
+    <message>
+        <source>Nothing to look at.</source>
+        <translation>살펴볼 항목이 없습니다.</translation>
+    </message>
+    <message>
+        <source>Problem</source>
+        <translation>문제</translation>
+    </message>
+    <message>
+        <source>To look at</source>
+        <translation>살펴볼 항목</translation>
+    </message>
+    <message>
+        <source>Fine</source>
+        <translation>양호</translation>
+    </message>
+    <message>
+        <source>Open the field</source>
+        <translation>필드 열기</translation>
+    </message>
+    <message>
+        <source>Show it on the page</source>
+        <translation>페이지에서 보기</translation>
+    </message>
+    <message>
+        <source>SEO</source>
+        <translation>SEO</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>받은 편지함</translation>
     </message>

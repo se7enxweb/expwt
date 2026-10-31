@@ -167,6 +167,9 @@ class expwtApi
             case 'tree.sort':
                 $order = isset( $input['order'] ) && is_array( $input['order'] ) ? array_values( array_map( 'intval', $input['order'] ) ) : array();
                 return $g->sort( self::ids( $input, array( 'nodeId' ) ) + array( 'order' => $order ) );
+            case 'seo.check':
+                $paths = isset( $input['paths'] ) && is_array( $input['paths'] ) ? array_values( array_filter( $input['paths'], 'is_string' ) ) : array();
+                return $g->seoCheck( self::ids( $input, array( 'nodeId' ) ) + array( 'paths' => $paths ) );
             case 'insights.load':
                 return $g->insights( self::ids( $input, array( 'nodeId' ) ) );
             case 'inbox.load':

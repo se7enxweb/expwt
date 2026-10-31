@@ -546,6 +546,8 @@
       var list = [{ id: 'page', label: this.t('Page') }];
       if (c.create) { list.push({ id: 'create', label: this.t('Create') }); }
       if (c.structure) { list.push({ id: 'structure', label: this.t('Structure') }); }
+      /* the SEO check of the rendered page (F26), for those who edit with the sidebar */
+      if (c.edit) { list.push({ id: 'seo', label: this.t('SEO') }); }
       if (c.insights) { list.push({ id: 'insights', label: this.t('Insights') }); }
       /* the approvals waiting for the user (F29), for a user of the kernel's collaboration */
       if (this.boot && this.boot.inbox) { list.push({ id: 'inbox', label: this.t('Inbox') }); }
@@ -745,7 +747,7 @@
         + '[data-expwt-spacer]{display:block;block-size:' + h + 'px;margin:0;padding:0;border:0}'
         + 'html[data-expwt-push="top"]{--expwt-push-top:' + h + 'px;scroll-padding-block-start:' + ((this.top || 0) + h) + 'px}'
         + 'html[data-expwt-push="bottom"]{--expwt-push-bottom:' + h + 'px;scroll-padding-block-end:' + ((this.bottom || 0) + h) + 'px}'
-        + (this.inlineRules || '') + (this.registryRules || '');
+        + (this.inlineRules || '') + (this.registryRules || '') + (this.flashRules || '');
       pageCss(this.pageRules);
     }
 
@@ -1152,7 +1154,7 @@
       var t = this.boot.transport;
       var registered = this.registry().actions || {};
       var write = Object.prototype.hasOwnProperty.call(registered, action) ? !!registered[action].writes
-        : ['me', 'page.load', 'create.classes', 'tree.children', 'inbox.load', 'insights.load', 'boot'].indexOf(action) < 0;
+        : ['me', 'page.load', 'create.classes', 'tree.children', 'inbox.load', 'insights.load', 'seo.check', 'boot'].indexOf(action) < 0;
       var json = JSON.stringify(input || {});
       var headers = { 'X-CSRF-Token': this.boot.token || '' };
       var p;
@@ -1281,6 +1283,33 @@
         if (window.console) { window.console.error('expwt panel ' + id, err); }
         self.unreachable(function () { self.show(id); });
       });
+    }
+
+    /* A field of the page asked for by another panel (a finding of the SEO check, F26): the Page panel opens with
+       that field's editor in view and focused. */
+    openField(identifier) {
+      this.pendingField = identifier;
+      this.show('page');
+    }
+
+    /* An element of the page shown for a moment: scrolled into view and outlined (the SEO check's findings); where
+       the panel lies over the page (a phone) it gets out of the way first */
+    flash(el) {
+      var self = this;
+      if (!el || !el.isConnected) { return; }
+      if (this.overlay() && this.state.open) { this.toggle(false); }
+      (this.flashed || []).forEach(function (x) { x.removeAttribute('data-expwt-flash'); });
+      this.flashed = [el];
+      el.setAttribute('data-expwt-flash', '');
+      this.flashRules = '[data-expwt-flash]{outline:3px solid Highlight;outline-offset:3px}';
+      this.push();
+      el.scrollIntoView({ block: 'center', behavior: 'smooth' });
+      clearTimeout(this.flashTimer);
+      this.flashTimer = setTimeout(function () {
+        el.removeAttribute('data-expwt-flash');
+        self.flashRules = '';
+        self.push();
+      }, 3000);
     }
 
     /* ------------------------------------------------------------------ what extensions add (decision 32) */

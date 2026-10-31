@@ -7,6 +7,7 @@
  *              field by field merge (F11)
  *   create     new content below or beside the page with a quick title (decision 16)
  *   structure  hide and reveal, move, add a location (a picker on the site), the trash, sort by drag (decision 14)
+ *   seo        the SEO check of the rendered page and of its internal links; a finding opens its field (F26)
  *   me         the account and the kernel's own pages for it, the sidebar's preferences (decision 9)
  */
 (function () {
@@ -112,6 +113,7 @@
     drawLock(p.lock);
 
     if (!p.can.edit) {
+      ctx.host.pendingField = null;
       root.appendChild(h('p', { class: 'wt-notice', text: t('You may read this page but not edit it.') }));
       return;
     }
@@ -738,6 +740,24 @@
       });
     }
 
+    /* a finding of another panel (the SEO check, F26) asked for a field: its row opened and in view, its editor
+       focused; the row marked for a moment */
+    if (ctx.host.pendingField) {
+      var wanted = ctx.host.pendingField;
+      ctx.host.pendingField = null;
+      var wantedRow = rows[wanted];
+      if (wantedRow) {
+        if (frames[wanted]) { load(frames[wanted]); }
+        reveal(wantedRow);
+        wantedRow.setAttribute('data-wanted', 'true');
+        setTimeout(function () { wantedRow.removeAttribute('data-wanted'); }, 2500);
+        var into = frames[wanted] ? frames[wanted].frame : wantedRow.querySelector('input, select, textarea, [contenteditable]');
+        if (into) { into.focus({ preventScroll: true }); }
+      } else {
+        ctx.say(t('This field cannot be edited here.'));
+      }
+    }
+
     function highlight(id, on) {
       (placed[id] || findOnPage(p.fields.filter(function (x) { return x.identifier === id; })[0] || {})).forEach(function (el) {
         if (on) { el.setAttribute('data-expwt-hl', ''); } else { el.removeAttribute('data-expwt-hl'); }
@@ -1239,5 +1259,211 @@
     }, function (err) { root.textContent = ''; failure(ctx, err); });
   }
 
-  window.ExpwtPanels = { page: page, create: create, structure: structure, insights: insights, inbox: inbox, me: me };
+  /* ---------------------------------------------------------------------------------------------- SEO check */
+
+  /* The rules of the SEO check (F26), pure: what the rendered page shows (facts) to findings. A finding is
+     { id, level: bad|warn|ok, text: the English source, vars: its placeholders, ref: where it jumps }, ref one of
+     { field: 'title'|'meta' } (the page's title or metadata field), { heading: i }, { image: i }, { link: i }. */
+  var SEO = {
+    TITLE: [30, 60],
+    DESCRIPTION: [70, 160],
+    rules: function (f, translate) {
+      var t = translate || function (s) { return s; };
+      var out = [];
+      var add = function (id, level, text, vars, ref) {
+        Object.keys(vars || {}).forEach(function (k) { text = text.split(k).join(String(vars[k])); });
+        out.push({ id: id, level: level, text: text, vars: vars || {}, ref: ref || null });
+      };
+      var title = String(f.title || '').trim();
+      if (!title) {
+        add('title', 'bad', t('The page has no title.'), {}, { field: 'title' });
+      } else if (title.length < SEO.TITLE[0] || title.length > SEO.TITLE[1]) {
+        add('title', 'warn', t('The title has %n characters; 30 to 60 fit search results.'), { '%n': title.length }, { field: 'title' });
+      } else {
+        add('title', 'ok', t('The title has %n characters.'), { '%n': title.length }, { field: 'title' });
+      }
+      var desc = String(f.description || '').trim();
+      if (!desc) {
+        add('description', 'bad', t('The page has no description.'), {}, { field: 'meta' });
+      } else if (desc.length < SEO.DESCRIPTION[0] || desc.length > SEO.DESCRIPTION[1]) {
+        add('description', 'warn', t('The description has %n characters; 70 to 160 fit search results.'), { '%n': desc.length }, { field: 'meta' });
+      } else {
+        add('description', 'ok', t('The description has %n characters.'), { '%n': desc.length }, { field: 'meta' });
+      }
+      var levels = f.headings || [];
+      var h1 = levels.filter(function (l) { return l === 1; }).length;
+      if (!h1) {
+        add('h1', 'bad', t('The page has no main heading (h1).'), {}, null);
+      } else if (h1 > 1) {
+        add('h1', 'warn', t('The page has %n main headings (h1); one is best.'), { '%n': h1 }, { heading: levels.indexOf(1, levels.indexOf(1) + 1) });
+      }
+      var skips = 0;
+      levels.forEach(function (l, i) {
+        if (i > 0 && l > levels[i - 1] + 1) {
+          skips++;
+          add('order-' + i, 'warn', t('A heading jumps from level %from to level %to.'), { '%from': levels[i - 1], '%to': l }, { heading: i });
+        }
+      });
+      if (h1 === 1 && !skips) { add('headings', 'ok', t('The headings are in order.'), {}, null); }
+      var alt = 0;
+      (f.images || []).forEach(function (img, i) {
+        if (img.alt === null) { alt++; add('alt-' + i, 'bad', t('An image has no alternative text.'), {}, { image: i }); }
+      });
+      if (!alt && (f.images || []).length) { add('alt', 'ok', t('Every image has an alternative text.'), {}, null); }
+      var canon = f.canonical || [];
+      if (!canon.length) {
+        add('canonical', 'warn', t('The page names no canonical address.'), {}, { field: 'meta' });
+      } else if (canon.length > 1) {
+        add('canonical', 'bad', t('The page names %n canonical addresses; one is right.'), { '%n': canon.length }, { field: 'meta' });
+      } else if (String(canon[0]).replace(/[?#].*$/, '').replace(/\/$/, '') !== String(f.here || '').replace(/[?#].*$/, '').replace(/\/$/, '')) {
+        add('canonical', 'warn', t('The canonical address is another page: %url'), { '%url': canon[0] }, { field: 'meta' });
+      } else {
+        add('canonical', 'ok', t('The canonical address is this page.'), {}, null);
+      }
+      var robots = String(f.robots || '').toLowerCase();
+      if (/noindex|none/.test(robots)) {
+        add('robots', 'bad', t('Search engines are asked not to list this page (robots: %value).'), { '%value': robots }, { field: 'meta' });
+      }
+      var broken = 0;
+      (f.links || []).forEach(function (l, i) {
+        if (l.status === 'broken') { broken++; add('link-' + i, 'bad', t('A link leads nowhere: %url'), { '%url': l.path }, { link: i }); }
+      });
+      var checked = (f.links || []).filter(function (l) { return l.status === 'ok'; }).length;
+      if (!broken && checked) { add('links', 'ok', t('All %n links checked on this page lead somewhere.'), { '%n': checked }, null); }
+      var rank = { bad: 0, warn: 1, ok: 2 };
+      return out.map(function (x, i) { return [x, i]; })
+        .sort(function (a, b) { return rank[a[0].level] - rank[b[0].level] || a[1] - b[1]; })
+        .map(function (x) { return x[0]; });
+    }
+  };
+
+  /* What the rendered page shows, outside the sidebar: the facts for SEO.rules() and the elements behind them */
+  function seoFacts() {
+    var outside = function (el) { return !el.closest('exp-wt'); };
+    var all = function (sel) { return Array.prototype.filter.call(document.querySelectorAll(sel), outside); };
+    var meta = function (name) {
+      var el = document.querySelector('meta[name="' + name + '" i]');
+      return el ? el.getAttribute('content') || '' : '';
+    };
+    var headings = all('h1,h2,h3,h4,h5,h6').filter(function (el) { return el.getClientRects().length && !el.closest('[aria-hidden="true"]'); });
+    var images = all('img').filter(function (el) { return el.getAttribute('role') !== 'presentation' && !el.closest('[aria-hidden="true"]'); });
+    var seen = {};
+    var links = all('a[href]').filter(function (a) {
+      if (a.origin !== window.location.origin || !/^https?:$/.test(a.protocol)) { return false; }
+      if (a.pathname === window.location.pathname && a.hash) { return false; }
+      if (seen[a.pathname]) { return false; }
+      seen[a.pathname] = true;
+      return true;
+    }).slice(0, 200);
+    return {
+      els: { headings: headings, images: images, links: links },
+      facts: {
+        title: document.title,
+        description: meta('description'),
+        robots: meta('robots'),
+        canonical: all('link[rel="canonical"]').map(function (l) { return l.href; }),
+        here: window.location.origin + window.location.pathname,
+        headings: headings.map(function (el) { return parseInt(el.tagName.charAt(1), 10); }),
+        images: images.map(function (el) { return { alt: el.hasAttribute('alt') ? el.getAttribute('alt') : null }; }),
+        paths: links.map(function (a) { return a.pathname; })
+      }
+    };
+  }
+
+  /* The field of the page an element of the page shows (the kernel's markers, F20), or null */
+  function fieldAt(el) {
+    if (!el || !document.createTreeWalker) { return null; }
+    var walker = document.createTreeWalker(document.body, NodeFilter.SHOW_COMMENT);
+    var stack = [];
+    var node;
+    var found = null;
+    while ((node = walker.nextNode())) {
+      var text = node.data || '';
+      if (text.indexOf('exp-field ') === 0) {
+        var m = /data-exp-field="([^"]*)"/.exec(text);
+        var o = /data-exp-object="([^"]*)"/.exec(text);
+        stack.push({ open: node, field: m ? m[1] : '', object: o ? o[1] : '' });
+      } else if (text === '/exp-field' && stack.length) {
+        var range = stack.pop();
+        var r = document.createRange();
+        r.setStartAfter(range.open);
+        r.setEndBefore(node);
+        if (r.intersectsNode(el)) { found = range; }
+      }
+    }
+    return found;
+  }
+
+  function seo(ctx, root) {
+    var h = ctx.h;
+    var t = ctx.t;
+    if (!ctx.node) {
+      root.appendChild(h('p', { text: t('This page is not content of the site. Open a page of the site to edit it.') }));
+      return;
+    }
+    var run = function () {
+      root.textContent = '';
+      root.appendChild(h('p', { class: 'wt-muted', text: t('Checking ...') }));
+      var seen = seoFacts();
+      /* the links in parts: each part one read (a GET), short enough for every server */
+      var parts = [];
+      for (var i = 0; i < seen.facts.paths.length; i += 30) { parts.push(seen.facts.paths.slice(i, i + 30)); }
+      if (!parts.length) { parts.push([]); }
+      Promise.all(parts.map(function (paths) { return ctx.call('seo.check', { nodeId: ctx.node, paths: paths }); })).then(function (answers) {
+        var fields = answers[0].fields;
+        var links = [];
+        answers.forEach(function (a) { links = links.concat(a.links); });
+        seen.facts.links = links;
+        root.textContent = '';
+        drawSeo(ctx, root, SEO.rules(seen.facts, t), seen.els, fields, run);
+      }, function (err) { root.textContent = ''; failure(ctx, err); });
+    };
+    run();
+  }
+
+  function drawSeo(ctx, root, findings, els, fields, again) {
+    var h = ctx.h;
+    var t = ctx.t;
+    var bad = findings.filter(function (f) { return f.level !== 'ok'; }).length;
+    var again_ = h('button', { type: 'button', class: 'wt-btn', text: t('Check again'), onclick: again });
+    root.appendChild(h('div', { class: 'wt-section wt-page-head' }, [
+      h('h3', { text: bad ? t('%n things to look at').replace('%n', bad) : t('Nothing to look at.') }), again_]));
+    var label = { bad: t('Problem'), warn: t('To look at'), ok: t('Fine') };
+    var list = h('ul', { class: 'wt-seo-list' });
+    findings.forEach(function (f) {
+      var text = f.text;
+      var target = seoTarget(f.ref, els, fields);
+      var body = [h('span', { class: 'wt-chip is-' + f.level, text: label[f.level] }), h('span', { class: 'wt-seo-text', text: text })];
+      var item = target ? h('button', { type: 'button', class: 'wt-seo-item', onclick: function () { seoJump(ctx, target); } }, body)
+        : h('div', { class: 'wt-seo-item' }, body);
+      if (target) {
+        item.setAttribute('title', target.field ? t('Open the field') : t('Show it on the page'));
+        item.setAttribute('data-target', target.field ? 'field' : 'page');
+      }
+      list.appendChild(h('li', { 'data-level': f.level }, [item]));
+    });
+    root.appendChild(list);
+  }
+
+  /* Where a finding leads: { field } (the Page panel opens it) or { element } (shown on the page); null: nowhere */
+  function seoTarget(ref, els, fields) {
+    if (!ref) { return null; }
+    if (ref.field) {
+      /* the page's <title> comes from its metadata where the class has a metadata field, else from its name */
+      var id = ref.field === 'title' ? fields.meta || fields.title : fields.meta;
+      return id ? { field: id } : null;
+    }
+    var el = ref.heading !== undefined ? els.headings[ref.heading] : ref.image !== undefined ? els.images[ref.image] : ref.link !== undefined ? els.links[ref.link] : null;
+    if (!el) { return null; }
+    var marked = fieldAt(el);
+    return marked && String(marked.object) && marked.field ? { field: marked.field, element: el } : { element: el };
+  }
+
+  function seoJump(ctx, target) {
+    if (target.element) { ctx.host.flash(target.element); }
+    if (target.field) { ctx.host.openField(target.field); }
+  }
+
+  window.ExpwtSeo = SEO;
+  window.ExpwtPanels = { page: page, create: create, structure: structure, seo: seo, insights: insights, inbox: inbox, me: me };
 }());

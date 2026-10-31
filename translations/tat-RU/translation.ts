@@ -592,6 +592,122 @@
         <translation>Килүчеләр кайдан килгәне бу урнаштыруда язылмый.</translation>
     </message>
     <message>
+        <source>The page has no title.</source>
+        <translation>Битнең исеме юк.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters; 30 to 60 fit search results.</source>
+        <translation>Исемдә %n билге бар; эзләү нәтиҗәләренә 30дан 60ка кадәр сыя.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters.</source>
+        <translation>Исемдә %n билге бар.</translation>
+    </message>
+    <message>
+        <source>The page has no description.</source>
+        <translation>Битнең тасвирламасы юк.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters; 70 to 160 fit search results.</source>
+        <translation>Тасвирламада %n билге бар; эзләү нәтиҗәләренә 70тән 160ка кадәр сыя.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters.</source>
+        <translation>Тасвирламада %n билге бар.</translation>
+    </message>
+    <message>
+        <source>The page has no main heading (h1).</source>
+        <translation>Биттә төп башлык (h1) юк.</translation>
+    </message>
+    <message>
+        <source>The page has %n main headings (h1); one is best.</source>
+        <translation>Биттә %n төп башлык (h1) бар; иң яхшысы — бер.</translation>
+    </message>
+    <message>
+        <source>A heading jumps from level %from to level %to.</source>
+        <translation>Башлык %from дәрәҗәсеннән %to дәрәҗәсенә сикерә.</translation>
+    </message>
+    <message>
+        <source>The headings are in order.</source>
+        <translation>Башлыклар тәртип буенча.</translation>
+    </message>
+    <message>
+        <source>An image has no alternative text.</source>
+        <translation>Рәсемнең альтернатив тексты юк.</translation>
+    </message>
+    <message>
+        <source>Every image has an alternative text.</source>
+        <translation>Һәр рәсемнең альтернатив тексты бар.</translation>
+    </message>
+    <message>
+        <source>The page names no canonical address.</source>
+        <translation>Бит бернинди канон адресны да күрсәтми.</translation>
+    </message>
+    <message>
+        <source>The page names %n canonical addresses; one is right.</source>
+        <translation>Бит %n канон адрес күрсәтә; дөресе — бер.</translation>
+    </message>
+    <message>
+        <source>The canonical address is another page: %url</source>
+        <translation>Канон адрес — башка бит: %url</translation>
+    </message>
+    <message>
+        <source>The canonical address is this page.</source>
+        <translation>Канон адрес — шушы бит.</translation>
+    </message>
+    <message>
+        <source>Search engines are asked not to list this page (robots: %value).</source>
+        <translation>Эзләү системаларыннан бу битне исемлеккә кертмәүне сорыйлар (robots: %value).</translation>
+    </message>
+    <message>
+        <source>A link leads nowhere: %url</source>
+        <translation>Сылтама беркая да алып бармый: %url</translation>
+    </message>
+    <message>
+        <source>All %n links checked on this page lead somewhere.</source>
+        <translation>Бу биттә тикшерелгән барлык %n сылтама кайдадыр алып бара.</translation>
+    </message>
+    <message>
+        <source>Checking ...</source>
+        <translation>Тикшерелә ...</translation>
+    </message>
+    <message>
+        <source>Check again</source>
+        <translation>Яңадан тикшерү</translation>
+    </message>
+    <message>
+        <source>%n things to look at</source>
+        <translation>Карыйсы %n нәрсә</translation>
+    </message>
+    <message>
+        <source>Nothing to look at.</source>
+        <translation>Карыйсы бернәрсә дә юк.</translation>
+    </message>
+    <message>
+        <source>Problem</source>
+        <translation>Проблема</translation>
+    </message>
+    <message>
+        <source>To look at</source>
+        <translation>Карарга</translation>
+    </message>
+    <message>
+        <source>Fine</source>
+        <translation>Әйбәт</translation>
+    </message>
+    <message>
+        <source>Open the field</source>
+        <translation>Кырны ачу</translation>
+    </message>
+    <message>
+        <source>Show it on the page</source>
+        <translation>Биттә күрсәтү</translation>
+    </message>
+    <message>
+        <source>SEO</source>
+        <translation>SEO</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Керүчеләр</translation>
     </message>

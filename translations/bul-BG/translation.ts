@@ -592,6 +592,122 @@
         <translation>Откъде идват посетителите, не се записва на тази инсталация.</translation>
     </message>
     <message>
+        <source>The page has no title.</source>
+        <translation>Страницата няма заглавие.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters; 30 to 60 fit search results.</source>
+        <translation>Заглавието има %n знака; от 30 до 60 се побират в резултатите от търсене.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters.</source>
+        <translation>Заглавието има %n знака.</translation>
+    </message>
+    <message>
+        <source>The page has no description.</source>
+        <translation>Страницата няма описание.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters; 70 to 160 fit search results.</source>
+        <translation>Описанието има %n знака; от 70 до 160 се побират в резултатите от търсене.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters.</source>
+        <translation>Описанието има %n знака.</translation>
+    </message>
+    <message>
+        <source>The page has no main heading (h1).</source>
+        <translation>Страницата няма основно заглавие (h1).</translation>
+    </message>
+    <message>
+        <source>The page has %n main headings (h1); one is best.</source>
+        <translation>Страницата има %n основни заглавия (h1); най-добре е едно.</translation>
+    </message>
+    <message>
+        <source>A heading jumps from level %from to level %to.</source>
+        <translation>Заглавие прескача от ниво %from на ниво %to.</translation>
+    </message>
+    <message>
+        <source>The headings are in order.</source>
+        <translation>Заглавията са подредени.</translation>
+    </message>
+    <message>
+        <source>An image has no alternative text.</source>
+        <translation>Изображение няма алтернативен текст.</translation>
+    </message>
+    <message>
+        <source>Every image has an alternative text.</source>
+        <translation>Всяко изображение има алтернативен текст.</translation>
+    </message>
+    <message>
+        <source>The page names no canonical address.</source>
+        <translation>Страницата не посочва каноничен адрес.</translation>
+    </message>
+    <message>
+        <source>The page names %n canonical addresses; one is right.</source>
+        <translation>Страницата посочва %n канонични адреса; правилно е един.</translation>
+    </message>
+    <message>
+        <source>The canonical address is another page: %url</source>
+        <translation>Каноничният адрес е друга страница: %url</translation>
+    </message>
+    <message>
+        <source>The canonical address is this page.</source>
+        <translation>Каноничният адрес е тази страница.</translation>
+    </message>
+    <message>
+        <source>Search engines are asked not to list this page (robots: %value).</source>
+        <translation>Търсачките са помолени да не показват тази страница (robots: %value).</translation>
+    </message>
+    <message>
+        <source>A link leads nowhere: %url</source>
+        <translation>Връзка не води никъде: %url</translation>
+    </message>
+    <message>
+        <source>All %n links checked on this page lead somewhere.</source>
+        <translation>Всички %n проверени връзки на тази страница водят някъде.</translation>
+    </message>
+    <message>
+        <source>Checking ...</source>
+        <translation>Проверка ...</translation>
+    </message>
+    <message>
+        <source>Check again</source>
+        <translation>Провери отново</translation>
+    </message>
+    <message>
+        <source>%n things to look at</source>
+        <translation>%n неща за преглед</translation>
+    </message>
+    <message>
+        <source>Nothing to look at.</source>
+        <translation>Няма нищо за преглед.</translation>
+    </message>
+    <message>
+        <source>Problem</source>
+        <translation>Проблем</translation>
+    </message>
+    <message>
+        <source>To look at</source>
+        <translation>За преглед</translation>
+    </message>
+    <message>
+        <source>Fine</source>
+        <translation>Наред</translation>
+    </message>
+    <message>
+        <source>Open the field</source>
+        <translation>Отвори полето</translation>
+    </message>
+    <message>
+        <source>Show it on the page</source>
+        <translation>Покажи на страницата</translation>
+    </message>
+    <message>
+        <source>SEO</source>
+        <translation>SEO</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Входящи</translation>
     </message>

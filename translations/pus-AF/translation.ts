@@ -592,6 +592,122 @@
         <translation>لیدونکي له کومه راغلي، په دې نصب کې نه ثبتېږي.</translation>
     </message>
     <message>
+        <source>The page has no title.</source>
+        <translation>پاڼه سرلیک نه لري.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters; 30 to 60 fit search results.</source>
+        <translation>سرلیک %n توري لري؛ د لټون په پایلو کې له 30 تر 60 ځایېږي.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters.</source>
+        <translation>سرلیک %n توري لري.</translation>
+    </message>
+    <message>
+        <source>The page has no description.</source>
+        <translation>پاڼه تشریح نه لري.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters; 70 to 160 fit search results.</source>
+        <translation>تشریح %n توري لري؛ د لټون په پایلو کې له 70 تر 160 ځایېږي.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters.</source>
+        <translation>تشریح %n توري لري.</translation>
+    </message>
+    <message>
+        <source>The page has no main heading (h1).</source>
+        <translation>پاڼه اصلي سرلیک (h1) نه لري.</translation>
+    </message>
+    <message>
+        <source>The page has %n main headings (h1); one is best.</source>
+        <translation>پاڼه %n اصلي سرلیکونه (h1) لري؛ یو تر ټولو ښه دی.</translation>
+    </message>
+    <message>
+        <source>A heading jumps from level %from to level %to.</source>
+        <translation>یو سرلیک له کچې %from څخه کچې %to ته ټوپ وهي.</translation>
+    </message>
+    <message>
+        <source>The headings are in order.</source>
+        <translation>سرلیکونه په ترتیب دي.</translation>
+    </message>
+    <message>
+        <source>An image has no alternative text.</source>
+        <translation>یو انځور بدیل متن نه لري.</translation>
+    </message>
+    <message>
+        <source>Every image has an alternative text.</source>
+        <translation>هر انځور بدیل متن لري.</translation>
+    </message>
+    <message>
+        <source>The page names no canonical address.</source>
+        <translation>پاڼه هیڅ کانونیکل پته نه یادوي.</translation>
+    </message>
+    <message>
+        <source>The page names %n canonical addresses; one is right.</source>
+        <translation>پاڼه %n کانونیکل پتې یادوي؛ یوه سمه ده.</translation>
+    </message>
+    <message>
+        <source>The canonical address is another page: %url</source>
+        <translation>کانونیکل پته بله پاڼه ده: %url</translation>
+    </message>
+    <message>
+        <source>The canonical address is this page.</source>
+        <translation>کانونیکل پته همدا پاڼه ده.</translation>
+    </message>
+    <message>
+        <source>Search engines are asked not to list this page (robots: %value).</source>
+        <translation>له لټون ماشینونو غوښتل شوي چې دا پاڼه لیست نه کړي (robots: %value).</translation>
+    </message>
+    <message>
+        <source>A link leads nowhere: %url</source>
+        <translation>یوه لینک چېرته نه وړي: %url</translation>
+    </message>
+    <message>
+        <source>All %n links checked on this page lead somewhere.</source>
+        <translation>په دې پاڼه کې ټولې %n کتل شوې لینکونه چېرته وړي.</translation>
+    </message>
+    <message>
+        <source>Checking ...</source>
+        <translation>کتل کېږي ...</translation>
+    </message>
+    <message>
+        <source>Check again</source>
+        <translation>بیا وګوره</translation>
+    </message>
+    <message>
+        <source>%n things to look at</source>
+        <translation>%n شیان د کتلو لپاره</translation>
+    </message>
+    <message>
+        <source>Nothing to look at.</source>
+        <translation>د کتلو لپاره هیڅ نشته.</translation>
+    </message>
+    <message>
+        <source>Problem</source>
+        <translation>ستونزه</translation>
+    </message>
+    <message>
+        <source>To look at</source>
+        <translation>د کتلو لپاره</translation>
+    </message>
+    <message>
+        <source>Fine</source>
+        <translation>سم دی</translation>
+    </message>
+    <message>
+        <source>Open the field</source>
+        <translation>ساحه پرانیزه</translation>
+    </message>
+    <message>
+        <source>Show it on the page</source>
+        <translation>په پاڼه کې یې وښایه</translation>
+    </message>
+    <message>
+        <source>SEO</source>
+        <translation>SEO</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>راغلي لیکونه</translation>
     </message>

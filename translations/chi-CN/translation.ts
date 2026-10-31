@@ -592,6 +592,122 @@
         <translation>此安装不记录访问者的来源。</translation>
     </message>
     <message>
+        <source>The page has no title.</source>
+        <translation>页面没有标题。</translation>
+    </message>
+    <message>
+        <source>The title has %n characters; 30 to 60 fit search results.</source>
+        <translation>标题有 %n 个字符；30 到 60 个适合搜索结果。</translation>
+    </message>
+    <message>
+        <source>The title has %n characters.</source>
+        <translation>标题有 %n 个字符。</translation>
+    </message>
+    <message>
+        <source>The page has no description.</source>
+        <translation>页面没有描述。</translation>
+    </message>
+    <message>
+        <source>The description has %n characters; 70 to 160 fit search results.</source>
+        <translation>描述有 %n 个字符；70 到 160 个适合搜索结果。</translation>
+    </message>
+    <message>
+        <source>The description has %n characters.</source>
+        <translation>描述有 %n 个字符。</translation>
+    </message>
+    <message>
+        <source>The page has no main heading (h1).</source>
+        <translation>页面没有主标题（h1）。</translation>
+    </message>
+    <message>
+        <source>The page has %n main headings (h1); one is best.</source>
+        <translation>页面有 %n 个主标题（h1）；最好只有一个。</translation>
+    </message>
+    <message>
+        <source>A heading jumps from level %from to level %to.</source>
+        <translation>有一个标题从第 %from 级跳到第 %to 级。</translation>
+    </message>
+    <message>
+        <source>The headings are in order.</source>
+        <translation>标题顺序正确。</translation>
+    </message>
+    <message>
+        <source>An image has no alternative text.</source>
+        <translation>有一张图片没有替代文本。</translation>
+    </message>
+    <message>
+        <source>Every image has an alternative text.</source>
+        <translation>每张图片都有替代文本。</translation>
+    </message>
+    <message>
+        <source>The page names no canonical address.</source>
+        <translation>页面没有指定规范地址。</translation>
+    </message>
+    <message>
+        <source>The page names %n canonical addresses; one is right.</source>
+        <translation>页面指定了 %n 个规范地址；正确的是一个。</translation>
+    </message>
+    <message>
+        <source>The canonical address is another page: %url</source>
+        <translation>规范地址是另一个页面：%url</translation>
+    </message>
+    <message>
+        <source>The canonical address is this page.</source>
+        <translation>规范地址就是本页面。</translation>
+    </message>
+    <message>
+        <source>Search engines are asked not to list this page (robots: %value).</source>
+        <translation>已要求搜索引擎不要收录此页面（robots: %value）。</translation>
+    </message>
+    <message>
+        <source>A link leads nowhere: %url</source>
+        <translation>有一个链接无法到达：%url</translation>
+    </message>
+    <message>
+        <source>All %n links checked on this page lead somewhere.</source>
+        <translation>本页面检查的全部 %n 个链接都能到达。</translation>
+    </message>
+    <message>
+        <source>Checking ...</source>
+        <translation>正在检查 ...</translation>
+    </message>
+    <message>
+        <source>Check again</source>
+        <translation>重新检查</translation>
+    </message>
+    <message>
+        <source>%n things to look at</source>
+        <translation>%n 项需要查看</translation>
+    </message>
+    <message>
+        <source>Nothing to look at.</source>
+        <translation>没有需要查看的内容。</translation>
+    </message>
+    <message>
+        <source>Problem</source>
+        <translation>问题</translation>
+    </message>
+    <message>
+        <source>To look at</source>
+        <translation>需查看</translation>
+    </message>
+    <message>
+        <source>Fine</source>
+        <translation>正常</translation>
+    </message>
+    <message>
+        <source>Open the field</source>
+        <translation>打开字段</translation>
+    </message>
+    <message>
+        <source>Show it on the page</source>
+        <translation>在页面上显示</translation>
+    </message>
+    <message>
+        <source>SEO</source>
+        <translation>SEO</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>收件箱</translation>
     </message>

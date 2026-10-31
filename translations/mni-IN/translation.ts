@@ -592,6 +592,122 @@
         <translation>লাকপা মীশিং কদায়দগী লাকখিবা হায়বা ইনস্তলেসন অসিদা ইদ্রি।</translation>
     </message>
     <message>
+        <source>The page has no title.</source>
+        <translation>লামায় অসিগী মমিং লৈতে।</translation>
+    </message>
+    <message>
+        <source>The title has %n characters; 30 to 60 fit search results.</source>
+        <translation>মমিং অসিদা হরফ %n লৈ; থীবগী মহৈদা 30 নত্ত্রগা 60 চানবা।</translation>
+    </message>
+    <message>
+        <source>The title has %n characters.</source>
+        <translation>মমিং অসিদা হরফ %n লৈ।</translation>
+    </message>
+    <message>
+        <source>The page has no description.</source>
+        <translation>লামায় অসিগী ৱাফম লৈতে।</translation>
+    </message>
+    <message>
+        <source>The description has %n characters; 70 to 160 fit search results.</source>
+        <translation>ৱাফম অসিদা হরফ %n লৈ; থীবগী মহৈদা 70 নত্ত্রগা 160 চানবা।</translation>
+    </message>
+    <message>
+        <source>The description has %n characters.</source>
+        <translation>ৱাফম অসিদা হরফ %n লৈ।</translation>
+    </message>
+    <message>
+        <source>The page has no main heading (h1).</source>
+        <translation>লামায় অসিদা মকোক মমিং অচৌবা (h1) লৈতে।</translation>
+    </message>
+    <message>
+        <source>The page has %n main headings (h1); one is best.</source>
+        <translation>লামায় অসিদা মকোক মমিং অচৌবা %n (h1) লৈ; অমা খক্তনা হেন্না ফৈ।</translation>
+    </message>
+    <message>
+        <source>A heading jumps from level %from to level %to.</source>
+        <translation>মকোক মমিং অমা থাক %from দগী থাক %to দা চোংথোক্লি।</translation>
+    </message>
+    <message>
+        <source>The headings are in order.</source>
+        <translation>মকোক মমিংশিং মথং মনাও চানা লৈ।</translation>
+    </message>
+    <message>
+        <source>An image has no alternative text.</source>
+        <translation>নুংশিৎ অমদা অতোপ্পা ৱাহৈ লৈতে।</translation>
+    </message>
+    <message>
+        <source>Every image has an alternative text.</source>
+        <translation>নুংশিৎ খুদিংমক্তা অতোপ্পা ৱাহৈ লৈ।</translation>
+    </message>
+    <message>
+        <source>The page names no canonical address.</source>
+        <translation>লামায় অসিনা কেনোনিকেল এদ্রেস অমত্তা হায়দে।</translation>
+    </message>
+    <message>
+        <source>The page names %n canonical addresses; one is right.</source>
+        <translation>লামায় অসিনা কেনোনিকেল এদ্রেস %n হায়; অমখক্তনা চুম্মি।</translation>
+    </message>
+    <message>
+        <source>The canonical address is another page: %url</source>
+        <translation>কেনোনিকেল এদ্রেস অদু অতোপ্পা লামায় অমনি: %url</translation>
+    </message>
+    <message>
+        <source>The canonical address is this page.</source>
+        <translation>কেনোনিকেল এদ্রেস অদু লামায় অসিনি।</translation>
+    </message>
+    <message>
+        <source>Search engines are asked not to list this page (robots: %value).</source>
+        <translation>থীবগী ইঞ্জিনশিংদা লামায় অসি লিস্ত তৌনবা হায়জরে (robots: %value)।</translation>
+    </message>
+    <message>
+        <source>A link leads nowhere: %url</source>
+        <translation>লিংক অমনা কদায়দসু পুয়দে: %url</translation>
+    </message>
+    <message>
+        <source>All %n links checked on this page lead somewhere.</source>
+        <translation>লামায় অসিদা য়েংলবা লিংক %n পুম্নমক্না কদায়দা পুরি।</translation>
+    </message>
+    <message>
+        <source>Checking ...</source>
+        <translation>য়েংলি ...</translation>
+    </message>
+    <message>
+        <source>Check again</source>
+        <translation>অমুক হন্না য়েংবা</translation>
+    </message>
+    <message>
+        <source>%n things to look at</source>
+        <translation>য়েংগদবা %n</translation>
+    </message>
+    <message>
+        <source>Nothing to look at.</source>
+        <translation>য়েংগদবা করিসু লৈতে।</translation>
+    </message>
+    <message>
+        <source>Problem</source>
+        <translation>অৱাবা</translation>
+    </message>
+    <message>
+        <source>To look at</source>
+        <translation>য়েংগদবা</translation>
+    </message>
+    <message>
+        <source>Fine</source>
+        <translation>ফৈ</translation>
+    </message>
+    <message>
+        <source>Open the field</source>
+        <translation>ফিল্ড হাংদোকউ</translation>
+    </message>
+    <message>
+        <source>Show it on the page</source>
+        <translation>লামায়দা উৎলু</translation>
+    </message>
+    <message>
+        <source>SEO</source>
+        <translation>SEO</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>ইনবক্স</translation>
     </message>

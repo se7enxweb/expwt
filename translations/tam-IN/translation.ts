@@ -592,6 +592,122 @@
         <translation>பார்வையாளர்கள் எங்கிருந்து வந்தனர் என்பது இந்த நிறுவலில் பதிவு செய்யப்படுவதில்லை.</translation>
     </message>
     <message>
+        <source>The page has no title.</source>
+        <translation>பக்கத்துக்குத் தலைப்பு இல்லை.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters; 30 to 60 fit search results.</source>
+        <translation>தலைப்பில் %n எழுத்துகள் உள்ளன; தேடல் முடிவுகளில் 30 முதல் 60 வரை பொருந்தும்.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters.</source>
+        <translation>தலைப்பில் %n எழுத்துகள் உள்ளன.</translation>
+    </message>
+    <message>
+        <source>The page has no description.</source>
+        <translation>பக்கத்துக்கு விளக்கம் இல்லை.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters; 70 to 160 fit search results.</source>
+        <translation>விளக்கத்தில் %n எழுத்துகள் உள்ளன; தேடல் முடிவுகளில் 70 முதல் 160 வரை பொருந்தும்.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters.</source>
+        <translation>விளக்கத்தில் %n எழுத்துகள் உள்ளன.</translation>
+    </message>
+    <message>
+        <source>The page has no main heading (h1).</source>
+        <translation>பக்கத்தில் முதன்மைத் தலைப்பு (h1) இல்லை.</translation>
+    </message>
+    <message>
+        <source>The page has %n main headings (h1); one is best.</source>
+        <translation>பக்கத்தில் %n முதன்மைத் தலைப்புகள் (h1) உள்ளன; ஒன்றே சிறந்தது.</translation>
+    </message>
+    <message>
+        <source>A heading jumps from level %from to level %to.</source>
+        <translation>ஒரு தலைப்பு நிலை %from இலிருந்து நிலை %to க்குத் தாவுகிறது.</translation>
+    </message>
+    <message>
+        <source>The headings are in order.</source>
+        <translation>தலைப்புகள் வரிசையில் உள்ளன.</translation>
+    </message>
+    <message>
+        <source>An image has no alternative text.</source>
+        <translation>ஒரு படத்துக்கு மாற்று உரை இல்லை.</translation>
+    </message>
+    <message>
+        <source>Every image has an alternative text.</source>
+        <translation>ஒவ்வொரு படத்துக்கும் மாற்று உரை உள்ளது.</translation>
+    </message>
+    <message>
+        <source>The page names no canonical address.</source>
+        <translation>பக்கம் எந்த கேனானிக்கல் முகவரியையும் குறிப்பிடவில்லை.</translation>
+    </message>
+    <message>
+        <source>The page names %n canonical addresses; one is right.</source>
+        <translation>பக்கம் %n கேனானிக்கல் முகவரிகளைக் குறிப்பிடுகிறது; ஒன்றே சரி.</translation>
+    </message>
+    <message>
+        <source>The canonical address is another page: %url</source>
+        <translation>கேனானிக்கல் முகவரி வேறொரு பக்கம்: %url</translation>
+    </message>
+    <message>
+        <source>The canonical address is this page.</source>
+        <translation>கேனானிக்கல் முகவரி இந்தப் பக்கமே.</translation>
+    </message>
+    <message>
+        <source>Search engines are asked not to list this page (robots: %value).</source>
+        <translation>இந்தப் பக்கத்தைப் பட்டியலிட வேண்டாம் என்று தேடுபொறிகளிடம் கேட்கப்படுகிறது (robots: %value).</translation>
+    </message>
+    <message>
+        <source>A link leads nowhere: %url</source>
+        <translation>ஒரு இணைப்பு எங்கும் செல்லவில்லை: %url</translation>
+    </message>
+    <message>
+        <source>All %n links checked on this page lead somewhere.</source>
+        <translation>இந்தப் பக்கத்தில் சரிபார்த்த அனைத்து %n இணைப்புகளும் எங்காவது செல்கின்றன.</translation>
+    </message>
+    <message>
+        <source>Checking ...</source>
+        <translation>சரிபார்க்கிறது ...</translation>
+    </message>
+    <message>
+        <source>Check again</source>
+        <translation>மீண்டும் சரிபார்</translation>
+    </message>
+    <message>
+        <source>%n things to look at</source>
+        <translation>பார்க்க வேண்டிய %n விஷயங்கள்</translation>
+    </message>
+    <message>
+        <source>Nothing to look at.</source>
+        <translation>பார்க்க எதுவும் இல்லை.</translation>
+    </message>
+    <message>
+        <source>Problem</source>
+        <translation>சிக்கல்</translation>
+    </message>
+    <message>
+        <source>To look at</source>
+        <translation>பார்க்க வேண்டியது</translation>
+    </message>
+    <message>
+        <source>Fine</source>
+        <translation>சரி</translation>
+    </message>
+    <message>
+        <source>Open the field</source>
+        <translation>புலத்தைத் திற</translation>
+    </message>
+    <message>
+        <source>Show it on the page</source>
+        <translation>பக்கத்தில் காட்டு</translation>
+    </message>
+    <message>
+        <source>SEO</source>
+        <translation>SEO</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>உள்பெட்டி</translation>
     </message>

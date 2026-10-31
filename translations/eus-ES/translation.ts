@@ -592,6 +592,122 @@
         <translation>Bisitariak nondik etorri diren ez da erregistratzen instalazio honetan.</translation>
     </message>
     <message>
+        <source>The page has no title.</source>
+        <translation>Orriak ez du izenbururik.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters; 30 to 60 fit search results.</source>
+        <translation>Izenburuak %n karaktere ditu; 30etik 60ra sartzen dira bilaketa-emaitzetan.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters.</source>
+        <translation>Izenburuak %n karaktere ditu.</translation>
+    </message>
+    <message>
+        <source>The page has no description.</source>
+        <translation>Orriak ez du deskribapenik.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters; 70 to 160 fit search results.</source>
+        <translation>Deskribapenak %n karaktere ditu; 70etik 160ra sartzen dira bilaketa-emaitzetan.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters.</source>
+        <translation>Deskribapenak %n karaktere ditu.</translation>
+    </message>
+    <message>
+        <source>The page has no main heading (h1).</source>
+        <translation>Orriak ez du goiburu nagusirik (h1).</translation>
+    </message>
+    <message>
+        <source>The page has %n main headings (h1); one is best.</source>
+        <translation>Orriak %n goiburu nagusi (h1) ditu; onena bat da.</translation>
+    </message>
+    <message>
+        <source>A heading jumps from level %from to level %to.</source>
+        <translation>Goiburu batek %from mailatik %to mailara egiten du jauzi.</translation>
+    </message>
+    <message>
+        <source>The headings are in order.</source>
+        <translation>Goiburuak ordenan daude.</translation>
+    </message>
+    <message>
+        <source>An image has no alternative text.</source>
+        <translation>Irudi batek ez du testu alternatiborik.</translation>
+    </message>
+    <message>
+        <source>Every image has an alternative text.</source>
+        <translation>Irudi guztiek dute testu alternatiboa.</translation>
+    </message>
+    <message>
+        <source>The page names no canonical address.</source>
+        <translation>Orriak ez du helbide kanonikorik aipatzen.</translation>
+    </message>
+    <message>
+        <source>The page names %n canonical addresses; one is right.</source>
+        <translation>Orriak %n helbide kanoniko aipatzen ditu; zuzena bat da.</translation>
+    </message>
+    <message>
+        <source>The canonical address is another page: %url</source>
+        <translation>Helbide kanonikoa beste orri bat da: %url</translation>
+    </message>
+    <message>
+        <source>The canonical address is this page.</source>
+        <translation>Helbide kanonikoa orri hau da.</translation>
+    </message>
+    <message>
+        <source>Search engines are asked not to list this page (robots: %value).</source>
+        <translation>Bilatzaileei orri hau ez zerrendatzeko eskatzen zaie (robots: %value).</translation>
+    </message>
+    <message>
+        <source>A link leads nowhere: %url</source>
+        <translation>Esteka batek ez darama inora: %url</translation>
+    </message>
+    <message>
+        <source>All %n links checked on this page lead somewhere.</source>
+        <translation>Orri honetan egiaztatutako %n estekek nonbaitera daramate.</translation>
+    </message>
+    <message>
+        <source>Checking ...</source>
+        <translation>Egiaztatzen ...</translation>
+    </message>
+    <message>
+        <source>Check again</source>
+        <translation>Egiaztatu berriro</translation>
+    </message>
+    <message>
+        <source>%n things to look at</source>
+        <translation>%n gauza begiratzeko</translation>
+    </message>
+    <message>
+        <source>Nothing to look at.</source>
+        <translation>Ez dago ezer begiratzeko.</translation>
+    </message>
+    <message>
+        <source>Problem</source>
+        <translation>Arazoa</translation>
+    </message>
+    <message>
+        <source>To look at</source>
+        <translation>Begiratzeko</translation>
+    </message>
+    <message>
+        <source>Fine</source>
+        <translation>Ondo</translation>
+    </message>
+    <message>
+        <source>Open the field</source>
+        <translation>Ireki eremua</translation>
+    </message>
+    <message>
+        <source>Show it on the page</source>
+        <translation>Erakutsi orrian</translation>
+    </message>
+    <message>
+        <source>SEO</source>
+        <translation>SEO</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Sarrera-ontzia</translation>
     </message>

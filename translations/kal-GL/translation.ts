@@ -592,6 +592,122 @@
         <translation>Tikeraat sumit pinersut ikkussinermi uani allattorneqanngillat.</translation>
     </message>
     <message>
+        <source>The page has no title.</source>
+        <translation>Quppernermi qulequtaqanngilaq.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters; 30 to 60 fit search results.</source>
+        <translation>Qulequtaq naqinneqarpoq %n-nik; 30-niit 60-inut ujaasinerup inernerinut naleqquttut.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters.</source>
+        <translation>Qulequtaq naqinneqarpoq %n-nik.</translation>
+    </message>
+    <message>
+        <source>The page has no description.</source>
+        <translation>Quppernermi nassuiaateqanngilaq.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters; 70 to 160 fit search results.</source>
+        <translation>Nassuiaat naqinneqarpoq %n-nik; 70-niit 160-inut ujaasinerup inernerinut naleqquttut.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters.</source>
+        <translation>Nassuiaat naqinneqarpoq %n-nik.</translation>
+    </message>
+    <message>
+        <source>The page has no main heading (h1).</source>
+        <translation>Quppernermi qulequtarsuaqanngilaq (h1).</translation>
+    </message>
+    <message>
+        <source>The page has %n main headings (h1); one is best.</source>
+        <translation>Quppernermi qulequtarsuit %n (h1) ipput; ataaseq pitsaanerpaavoq.</translation>
+    </message>
+    <message>
+        <source>A heading jumps from level %from to level %to.</source>
+        <translation>Qulequtaq qummut %from-mit %to-mut pisippoq.</translation>
+    </message>
+    <message>
+        <source>The headings are in order.</source>
+        <translation>Qulequtat tulleriiaarput.</translation>
+    </message>
+    <message>
+        <source>An image has no alternative text.</source>
+        <translation>Assimi taarsiullugu allagaqanngilaq.</translation>
+    </message>
+    <message>
+        <source>Every image has an alternative text.</source>
+        <translation>Assit tamarmik taarsiullugu allagaqarput.</translation>
+    </message>
+    <message>
+        <source>The page names no canonical address.</source>
+        <translation>Quppernerup najugaq canonical taaneqanngilaq.</translation>
+    </message>
+    <message>
+        <source>The page names %n canonical addresses; one is right.</source>
+        <translation>Quppernerup najukkat canonical %n taavai; ataaseq eqqortuuvoq.</translation>
+    </message>
+    <message>
+        <source>The canonical address is another page: %url</source>
+        <translation>Najugaq canonical quppernerujuvoq allaq: %url</translation>
+    </message>
+    <message>
+        <source>The canonical address is this page.</source>
+        <translation>Najugaq canonical quppernerup matuma.</translation>
+    </message>
+    <message>
+        <source>Search engines are asked not to list this page (robots: %value).</source>
+        <translation>Ujaasissutit qinnuigineqarput quppernera una allattorsimaffimminni ilannguteqqunagu (robots: %value).</translation>
+    </message>
+    <message>
+        <source>A link leads nowhere: %url</source>
+        <translation>Innersuussut sumulluunniit ingerlanngilaq: %url</translation>
+    </message>
+    <message>
+        <source>All %n links checked on this page lead somewhere.</source>
+        <translation>Innersuussutit %n quppernermi uani misissorneqartut tamarmik sumulluunniit ingerlapput.</translation>
+    </message>
+    <message>
+        <source>Checking ...</source>
+        <translation>Misissuineq ...</translation>
+    </message>
+    <message>
+        <source>Check again</source>
+        <translation>Misissoqqiguk</translation>
+    </message>
+    <message>
+        <source>%n things to look at</source>
+        <translation>Isiginnaagassat %n</translation>
+    </message>
+    <message>
+        <source>Nothing to look at.</source>
+        <translation>Isiginnaagassaqanngilaq.</translation>
+    </message>
+    <message>
+        <source>Problem</source>
+        <translation>Ajornartorsiut</translation>
+    </message>
+    <message>
+        <source>To look at</source>
+        <translation>Isiginnaagassaq</translation>
+    </message>
+    <message>
+        <source>Fine</source>
+        <translation>Ajunngilaq</translation>
+    </message>
+    <message>
+        <source>Open the field</source>
+        <translation>Immersugassaq ammaruk</translation>
+    </message>
+    <message>
+        <source>Show it on the page</source>
+        <translation>Quppernermi takutiguk</translation>
+    </message>
+    <message>
+        <source>SEO</source>
+        <translation>SEO</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Tiguniakkat</translation>
     </message>

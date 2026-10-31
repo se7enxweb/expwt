@@ -376,6 +376,36 @@ class expwtPureTest extends PHPUnit\Framework\TestCase
         $this->assertStringStartsWith( 'PASS', (string)end( $out ) );
     }
 
+    /** The rules of the SEO check (tests/js/seo.test.js, Node) */
+    public function testTheRulesOfTheSeoCheck()
+    {
+        $node = trim( (string)shell_exec( 'command -v node 2>&1' ) );
+        if ( $node === '' || !is_executable( $node ) )
+            $this->markTestSkipped( 'Node is not installed' );
+        exec( escapeshellarg( $node ) . ' ' . escapeshellarg( dirname( __DIR__, 2 ) . '/js/seo.test.js' ) . ' 2>&1', $out, $status );
+        $this->assertSame( 0, $status, implode( "\n", $out ) );
+        $this->assertStringStartsWith( 'PASS', (string)end( $out ) );
+    }
+
+    /** The SEO check looks a link up in this siteaccess: its prefix off, decoded, without query and anchor */
+    public function testTheLinksOfTheSeoCheckArePathsOfThisSiteaccess()
+    {
+        $others = array( 'twig', 'admin' );
+        $this->assertSame( 'news/a-page', expwtGateway::linkPath( '/smarty/news/a-page?x=1#top', '/smarty', $others ) );
+        $this->assertSame( '', expwtGateway::linkPath( '/smarty', '/smarty', $others ) );
+        $this->assertSame( '', expwtGateway::linkPath( '/smarty/', '/smarty', $others ) );
+        $this->assertNull( expwtGateway::linkPath( '/twig/news', '/smarty', $others ), 'another siteaccess with a prefix of its own' );
+        $this->assertNull( expwtGateway::linkPath( '/smartyx/news', '/smarty', $others ) );
+        $this->assertSame( "news/caf\u{e9}", expwtGateway::linkPath( '/news/caf%C3%A9', '', $others ) );
+        $this->assertNull( expwtGateway::linkPath( '/twig/news', '', $others ), 'from the default siteaccess too' );
+        $this->assertSame( 'content/view/full/2', expwtGateway::linkPath( '/index.php/content/view/full/2', '', $others ) );
+        $this->assertNull( expwtGateway::linkPath( '//other.example/x', '', $others ), 'not a path' );
+        $this->assertNull( expwtGateway::linkPath( 'news', '', $others ) );
+        $this->assertNull( expwtGateway::linkPath( '/var/../settings/site.ini', '', $others ), 'never outside the root' );
+        $this->assertSame( 'edit', expwtAccess::functionFor( 'seo.check' ) );
+        $this->assertFalse( expwtAccess::writes( 'seo.check' ) );
+    }
+
     /** The debug report stays out of the pages of the sidebar's frame (expwtHook::preOutput()); the outer page keeps it. */
     public function testFramePagesAreKnownByTheirAddress()
     {

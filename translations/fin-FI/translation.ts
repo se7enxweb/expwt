@@ -592,6 +592,122 @@
         <translation>Mistä kävijät tulivat, ei tallenneta tässä asennuksessa.</translation>
     </message>
     <message>
+        <source>The page has no title.</source>
+        <translation>Sivulla ei ole otsikkoa.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters; 30 to 60 fit search results.</source>
+        <translation>Otsikossa on %n merkkiä; hakutuloksiin mahtuu 30–60.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters.</source>
+        <translation>Otsikossa on %n merkkiä.</translation>
+    </message>
+    <message>
+        <source>The page has no description.</source>
+        <translation>Sivulla ei ole kuvausta.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters; 70 to 160 fit search results.</source>
+        <translation>Kuvauksessa on %n merkkiä; hakutuloksiin mahtuu 70–160.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters.</source>
+        <translation>Kuvauksessa on %n merkkiä.</translation>
+    </message>
+    <message>
+        <source>The page has no main heading (h1).</source>
+        <translation>Sivulla ei ole pääotsikkoa (h1).</translation>
+    </message>
+    <message>
+        <source>The page has %n main headings (h1); one is best.</source>
+        <translation>Sivulla on %n pääotsikkoa (h1); yksi on paras.</translation>
+    </message>
+    <message>
+        <source>A heading jumps from level %from to level %to.</source>
+        <translation>Otsikko hyppää tasolta %from tasolle %to.</translation>
+    </message>
+    <message>
+        <source>The headings are in order.</source>
+        <translation>Otsikot ovat järjestyksessä.</translation>
+    </message>
+    <message>
+        <source>An image has no alternative text.</source>
+        <translation>Kuvalta puuttuu vaihtoehtoinen teksti.</translation>
+    </message>
+    <message>
+        <source>Every image has an alternative text.</source>
+        <translation>Jokaisella kuvalla on vaihtoehtoinen teksti.</translation>
+    </message>
+    <message>
+        <source>The page names no canonical address.</source>
+        <translation>Sivu ei nimeä kanonista osoitetta.</translation>
+    </message>
+    <message>
+        <source>The page names %n canonical addresses; one is right.</source>
+        <translation>Sivu nimeää %n kanonista osoitetta; oikein on yksi.</translation>
+    </message>
+    <message>
+        <source>The canonical address is another page: %url</source>
+        <translation>Kanoninen osoite on toinen sivu: %url</translation>
+    </message>
+    <message>
+        <source>The canonical address is this page.</source>
+        <translation>Kanoninen osoite on tämä sivu.</translation>
+    </message>
+    <message>
+        <source>Search engines are asked not to list this page (robots: %value).</source>
+        <translation>Hakukoneita pyydetään olemaan listaamatta tätä sivua (robots: %value).</translation>
+    </message>
+    <message>
+        <source>A link leads nowhere: %url</source>
+        <translation>Linkki ei johda minnekään: %url</translation>
+    </message>
+    <message>
+        <source>All %n links checked on this page lead somewhere.</source>
+        <translation>Kaikki %n tällä sivulla tarkistettua linkkiä johtavat jonnekin.</translation>
+    </message>
+    <message>
+        <source>Checking ...</source>
+        <translation>Tarkistetaan ...</translation>
+    </message>
+    <message>
+        <source>Check again</source>
+        <translation>Tarkista uudelleen</translation>
+    </message>
+    <message>
+        <source>%n things to look at</source>
+        <translation>%n katsottavaa asiaa</translation>
+    </message>
+    <message>
+        <source>Nothing to look at.</source>
+        <translation>Ei katsottavaa.</translation>
+    </message>
+    <message>
+        <source>Problem</source>
+        <translation>Ongelma</translation>
+    </message>
+    <message>
+        <source>To look at</source>
+        <translation>Katsottavaa</translation>
+    </message>
+    <message>
+        <source>Fine</source>
+        <translation>Kunnossa</translation>
+    </message>
+    <message>
+        <source>Open the field</source>
+        <translation>Avaa kenttä</translation>
+    </message>
+    <message>
+        <source>Show it on the page</source>
+        <translation>Näytä sivulla</translation>
+    </message>
+    <message>
+        <source>SEO</source>
+        <translation>SEO</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Saapuneet</translation>
     </message>

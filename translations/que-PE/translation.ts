@@ -592,6 +592,122 @@
         <translation>Watukuqkuna maymanta hamusqankuqa manam kay churasqapi qillqakunchu.</translation>
     </message>
     <message>
+        <source>The page has no title.</source>
+        <translation>Rapiqa mana sutiyuqchu.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters; 30 to 60 fit search results.</source>
+        <translation>Sutiqa %n qillqayuqmi; 30 manta 60 kama maskaypa lluqsisqanpi haykun.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters.</source>
+        <translation>Sutiqa %n qillqayuqmi.</translation>
+    </message>
+    <message>
+        <source>The page has no description.</source>
+        <translation>Rapiqa mana willakuyniyuqchu.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters; 70 to 160 fit search results.</source>
+        <translation>Willakuyqa %n qillqayuqmi; 70 manta 160 kama maskaypa lluqsisqanpi haykun.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters.</source>
+        <translation>Willakuyqa %n qillqayuqmi.</translation>
+    </message>
+    <message>
+        <source>The page has no main heading (h1).</source>
+        <translation>Rapiqa mana hatun umalliyuqchu (h1).</translation>
+    </message>
+    <message>
+        <source>The page has %n main headings (h1); one is best.</source>
+        <translation>Rapiqa %n hatun umalliyuqmi (h1); hukllam aswan allin.</translation>
+    </message>
+    <message>
+        <source>A heading jumps from level %from to level %to.</source>
+        <translation>Huk umalli %from patamanta %to pataman phinkin.</translation>
+    </message>
+    <message>
+        <source>The headings are in order.</source>
+        <translation>Umallikunaqa ñiqinpim kachkan.</translation>
+    </message>
+    <message>
+        <source>An image has no alternative text.</source>
+        <translation>Huk siq'iqa mana rantin qillqayuqchu.</translation>
+    </message>
+    <message>
+        <source>Every image has an alternative text.</source>
+        <translation>Sapa siq'im rantin qillqayuq.</translation>
+    </message>
+    <message>
+        <source>The page names no canonical address.</source>
+        <translation>Rapiqa mana ima canonical tiyanatapas sutinchanchu.</translation>
+    </message>
+    <message>
+        <source>The page names %n canonical addresses; one is right.</source>
+        <translation>Rapiqa %n canonical tiyanakunata sutinchan; hukllam allin.</translation>
+    </message>
+    <message>
+        <source>The canonical address is another page: %url</source>
+        <translation>Canonical tiyanaqa huk rapim: %url</translation>
+    </message>
+    <message>
+        <source>The canonical address is this page.</source>
+        <translation>Canonical tiyanaqa kay rapim.</translation>
+    </message>
+    <message>
+        <source>Search engines are asked not to list this page (robots: %value).</source>
+        <translation>Maskana antakunatam mañakun kay rapita ama qillqanankupaq (robots: %value).</translation>
+    </message>
+    <message>
+        <source>A link leads nowhere: %url</source>
+        <translation>Huk tinkiqa mana maymanpas apanchu: %url</translation>
+    </message>
+    <message>
+        <source>All %n links checked on this page lead somewhere.</source>
+        <translation>Kay rapipi qhawasqa llapan %n tinkikunam maymanpas apan.</translation>
+    </message>
+    <message>
+        <source>Checking ...</source>
+        <translation>Qhawachkan ...</translation>
+    </message>
+    <message>
+        <source>Check again</source>
+        <translation>Hukmanta qhaway</translation>
+    </message>
+    <message>
+        <source>%n things to look at</source>
+        <translation>%n imakuna qhawanapaq</translation>
+    </message>
+    <message>
+        <source>Nothing to look at.</source>
+        <translation>Manam imapas qhawanapaq kanchu.</translation>
+    </message>
+    <message>
+        <source>Problem</source>
+        <translation>Sasachakuy</translation>
+    </message>
+    <message>
+        <source>To look at</source>
+        <translation>Qhawanapaq</translation>
+    </message>
+    <message>
+        <source>Fine</source>
+        <translation>Allinmi</translation>
+    </message>
+    <message>
+        <source>Open the field</source>
+        <translation>Pampata kichay</translation>
+    </message>
+    <message>
+        <source>Show it on the page</source>
+        <translation>Rapipi rikuchiy</translation>
+    </message>
+    <message>
+        <source>SEO</source>
+        <translation>SEO</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Chaskina</translation>
     </message>

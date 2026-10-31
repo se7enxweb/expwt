@@ -592,6 +592,122 @@
         <translation>No kurienes atnāca apmeklētāji, šajā instalācijā netiek reģistrēts.</translation>
     </message>
     <message>
+        <source>The page has no title.</source>
+        <translation>Lapai nav virsraksta.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters; 30 to 60 fit search results.</source>
+        <translation>Virsrakstā ir %n rakstzīmes; meklēšanas rezultātos ietilpst 30 līdz 60.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters.</source>
+        <translation>Virsrakstā ir %n rakstzīmes.</translation>
+    </message>
+    <message>
+        <source>The page has no description.</source>
+        <translation>Lapai nav apraksta.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters; 70 to 160 fit search results.</source>
+        <translation>Aprakstā ir %n rakstzīmes; meklēšanas rezultātos ietilpst 70 līdz 160.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters.</source>
+        <translation>Aprakstā ir %n rakstzīmes.</translation>
+    </message>
+    <message>
+        <source>The page has no main heading (h1).</source>
+        <translation>Lapai nav galvenā virsraksta (h1).</translation>
+    </message>
+    <message>
+        <source>The page has %n main headings (h1); one is best.</source>
+        <translation>Lapai ir %n galvenie virsraksti (h1); vislabāk viens.</translation>
+    </message>
+    <message>
+        <source>A heading jumps from level %from to level %to.</source>
+        <translation>Virsraksts pārlec no līmeņa %from uz līmeni %to.</translation>
+    </message>
+    <message>
+        <source>The headings are in order.</source>
+        <translation>Virsraksti ir pēc kārtas.</translation>
+    </message>
+    <message>
+        <source>An image has no alternative text.</source>
+        <translation>Attēlam nav alternatīvā teksta.</translation>
+    </message>
+    <message>
+        <source>Every image has an alternative text.</source>
+        <translation>Katram attēlam ir alternatīvais teksts.</translation>
+    </message>
+    <message>
+        <source>The page names no canonical address.</source>
+        <translation>Lapa nenorāda kanonisko adresi.</translation>
+    </message>
+    <message>
+        <source>The page names %n canonical addresses; one is right.</source>
+        <translation>Lapa norāda %n kanoniskās adreses; pareizi ir viena.</translation>
+    </message>
+    <message>
+        <source>The canonical address is another page: %url</source>
+        <translation>Kanoniskā adrese ir cita lapa: %url</translation>
+    </message>
+    <message>
+        <source>The canonical address is this page.</source>
+        <translation>Kanoniskā adrese ir šī lapa.</translation>
+    </message>
+    <message>
+        <source>Search engines are asked not to list this page (robots: %value).</source>
+        <translation>Meklētājprogrammas tiek lūgtas neiekļaut šo lapu (robots: %value).</translation>
+    </message>
+    <message>
+        <source>A link leads nowhere: %url</source>
+        <translation>Saite nekur neved: %url</translation>
+    </message>
+    <message>
+        <source>All %n links checked on this page lead somewhere.</source>
+        <translation>Visas %n šajā lapā pārbaudītās saites kaut kur ved.</translation>
+    </message>
+    <message>
+        <source>Checking ...</source>
+        <translation>Pārbauda ...</translation>
+    </message>
+    <message>
+        <source>Check again</source>
+        <translation>Pārbaudīt vēlreiz</translation>
+    </message>
+    <message>
+        <source>%n things to look at</source>
+        <translation>%n lietas, ko apskatīt</translation>
+    </message>
+    <message>
+        <source>Nothing to look at.</source>
+        <translation>Nav ko apskatīt.</translation>
+    </message>
+    <message>
+        <source>Problem</source>
+        <translation>Problēma</translation>
+    </message>
+    <message>
+        <source>To look at</source>
+        <translation>Jāapskata</translation>
+    </message>
+    <message>
+        <source>Fine</source>
+        <translation>Kārtībā</translation>
+    </message>
+    <message>
+        <source>Open the field</source>
+        <translation>Atvērt lauku</translation>
+    </message>
+    <message>
+        <source>Show it on the page</source>
+        <translation>Parādīt lapā</translation>
+    </message>
+    <message>
+        <source>SEO</source>
+        <translation>SEO</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Iesūtne</translation>
     </message>

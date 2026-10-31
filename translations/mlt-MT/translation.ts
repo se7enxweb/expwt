@@ -592,6 +592,122 @@
         <translation>Minn fejn ġew il-viżitaturi mhuwiex irreġistrat f'din l-installazzjoni.</translation>
     </message>
     <message>
+        <source>The page has no title.</source>
+        <translation>Il-paġna m'għandhiex titlu.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters; 30 to 60 fit search results.</source>
+        <translation>It-titlu għandu %n karattru; minn 30 sa 60 joqogħdu fir-riżultati tat-tiftix.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters.</source>
+        <translation>It-titlu għandu %n karattru.</translation>
+    </message>
+    <message>
+        <source>The page has no description.</source>
+        <translation>Il-paġna m'għandhiex deskrizzjoni.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters; 70 to 160 fit search results.</source>
+        <translation>Id-deskrizzjoni għandha %n karattru; minn 70 sa 160 joqogħdu fir-riżultati tat-tiftix.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters.</source>
+        <translation>Id-deskrizzjoni għandha %n karattru.</translation>
+    </message>
+    <message>
+        <source>The page has no main heading (h1).</source>
+        <translation>Il-paġna m'għandhiex intestatura ewlenija (h1).</translation>
+    </message>
+    <message>
+        <source>The page has %n main headings (h1); one is best.</source>
+        <translation>Il-paġna għandha %n intestaturi ewlenin (h1); waħda hija l-aħjar.</translation>
+    </message>
+    <message>
+        <source>A heading jumps from level %from to level %to.</source>
+        <translation>Intestatura taqbeż mil-livell %from għal-livell %to.</translation>
+    </message>
+    <message>
+        <source>The headings are in order.</source>
+        <translation>L-intestaturi huma f'ordni.</translation>
+    </message>
+    <message>
+        <source>An image has no alternative text.</source>
+        <translation>Stampa m'għandhiex test alternattiv.</translation>
+    </message>
+    <message>
+        <source>Every image has an alternative text.</source>
+        <translation>Kull stampa għandha test alternattiv.</translation>
+    </message>
+    <message>
+        <source>The page names no canonical address.</source>
+        <translation>Il-paġna ma ssemmi l-ebda indirizz kanoniku.</translation>
+    </message>
+    <message>
+        <source>The page names %n canonical addresses; one is right.</source>
+        <translation>Il-paġna ssemmi %n indirizzi kanoniċi; wieħed huwa korrett.</translation>
+    </message>
+    <message>
+        <source>The canonical address is another page: %url</source>
+        <translation>L-indirizz kanoniku huwa paġna oħra: %url</translation>
+    </message>
+    <message>
+        <source>The canonical address is this page.</source>
+        <translation>L-indirizz kanoniku huwa din il-paġna.</translation>
+    </message>
+    <message>
+        <source>Search engines are asked not to list this page (robots: %value).</source>
+        <translation>Il-magni tat-tiftix huma mitluba ma jniżżlux din il-paġna (robots: %value).</translation>
+    </message>
+    <message>
+        <source>A link leads nowhere: %url</source>
+        <translation>Link ma jwassal imkien: %url</translation>
+    </message>
+    <message>
+        <source>All %n links checked on this page lead somewhere.</source>
+        <translation>Il-%n links kollha ċċekkjati f'din il-paġna jwasslu x'imkien.</translation>
+    </message>
+    <message>
+        <source>Checking ...</source>
+        <translation>Qed jiċċekkja ...</translation>
+    </message>
+    <message>
+        <source>Check again</source>
+        <translation>Iċċekkja mill-ġdid</translation>
+    </message>
+    <message>
+        <source>%n things to look at</source>
+        <translation>%n affarijiet biex tħares lejhom</translation>
+    </message>
+    <message>
+        <source>Nothing to look at.</source>
+        <translation>Xejn biex tħares lejh.</translation>
+    </message>
+    <message>
+        <source>Problem</source>
+        <translation>Problema</translation>
+    </message>
+    <message>
+        <source>To look at</source>
+        <translation>Biex tħares lejh</translation>
+    </message>
+    <message>
+        <source>Fine</source>
+        <translation>Tajjeb</translation>
+    </message>
+    <message>
+        <source>Open the field</source>
+        <translation>Iftaħ il-qasam</translation>
+    </message>
+    <message>
+        <source>Show it on the page</source>
+        <translation>Urih fil-paġna</translation>
+    </message>
+    <message>
+        <source>SEO</source>
+        <translation>SEO</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Inbox</translation>
     </message>

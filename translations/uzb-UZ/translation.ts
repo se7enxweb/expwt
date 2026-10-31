@@ -592,6 +592,122 @@
         <translation>Tashrif buyuruvchilar qayerdan kelgani bu o'rnatishda yozilmaydi.</translation>
     </message>
     <message>
+        <source>The page has no title.</source>
+        <translation>Sahifaning sarlavhasi yo'q.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters; 30 to 60 fit search results.</source>
+        <translation>Sarlavhada %n ta belgi bor; qidiruv natijalariga 30 dan 60 gacha sig'adi.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters.</source>
+        <translation>Sarlavhada %n ta belgi bor.</translation>
+    </message>
+    <message>
+        <source>The page has no description.</source>
+        <translation>Sahifaning tavsifi yo'q.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters; 70 to 160 fit search results.</source>
+        <translation>Tavsifda %n ta belgi bor; qidiruv natijalariga 70 dan 160 gacha sig'adi.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters.</source>
+        <translation>Tavsifda %n ta belgi bor.</translation>
+    </message>
+    <message>
+        <source>The page has no main heading (h1).</source>
+        <translation>Sahifada asosiy sarlavha (h1) yo'q.</translation>
+    </message>
+    <message>
+        <source>The page has %n main headings (h1); one is best.</source>
+        <translation>Sahifada %n ta asosiy sarlavha (h1) bor; bittasi eng yaxshi.</translation>
+    </message>
+    <message>
+        <source>A heading jumps from level %from to level %to.</source>
+        <translation>Sarlavha %from-darajadan %to-darajaga sakraydi.</translation>
+    </message>
+    <message>
+        <source>The headings are in order.</source>
+        <translation>Sarlavhalar tartib bilan.</translation>
+    </message>
+    <message>
+        <source>An image has no alternative text.</source>
+        <translation>Bir rasmning muqobil matni yo'q.</translation>
+    </message>
+    <message>
+        <source>Every image has an alternative text.</source>
+        <translation>Har bir rasmning muqobil matni bor.</translation>
+    </message>
+    <message>
+        <source>The page names no canonical address.</source>
+        <translation>Sahifa hech qanday kanonik manzilni ko'rsatmaydi.</translation>
+    </message>
+    <message>
+        <source>The page names %n canonical addresses; one is right.</source>
+        <translation>Sahifa %n ta kanonik manzilni ko'rsatadi; to'g'risi bitta.</translation>
+    </message>
+    <message>
+        <source>The canonical address is another page: %url</source>
+        <translation>Kanonik manzil boshqa sahifa: %url</translation>
+    </message>
+    <message>
+        <source>The canonical address is this page.</source>
+        <translation>Kanonik manzil shu sahifa.</translation>
+    </message>
+    <message>
+        <source>Search engines are asked not to list this page (robots: %value).</source>
+        <translation>Qidiruv tizimlaridan bu sahifani ro'yxatga kiritmaslik so'raladi (robots: %value).</translation>
+    </message>
+    <message>
+        <source>A link leads nowhere: %url</source>
+        <translation>Havola hech qayerga olib bormaydi: %url</translation>
+    </message>
+    <message>
+        <source>All %n links checked on this page lead somewhere.</source>
+        <translation>Bu sahifada tekshirilgan barcha %n ta havola qayergadir olib boradi.</translation>
+    </message>
+    <message>
+        <source>Checking ...</source>
+        <translation>Tekshirilmoqda ...</translation>
+    </message>
+    <message>
+        <source>Check again</source>
+        <translation>Qayta tekshirish</translation>
+    </message>
+    <message>
+        <source>%n things to look at</source>
+        <translation>Ko'rib chiqiladigan %n narsa</translation>
+    </message>
+    <message>
+        <source>Nothing to look at.</source>
+        <translation>Ko'rib chiqadigan narsa yo'q.</translation>
+    </message>
+    <message>
+        <source>Problem</source>
+        <translation>Muammo</translation>
+    </message>
+    <message>
+        <source>To look at</source>
+        <translation>Ko'rib chiqish</translation>
+    </message>
+    <message>
+        <source>Fine</source>
+        <translation>Yaxshi</translation>
+    </message>
+    <message>
+        <source>Open the field</source>
+        <translation>Maydonni ochish</translation>
+    </message>
+    <message>
+        <source>Show it on the page</source>
+        <translation>Sahifada ko'rsatish</translation>
+    </message>
+    <message>
+        <source>SEO</source>
+        <translation>SEO</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Kiruvchilar</translation>
     </message>

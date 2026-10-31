@@ -592,6 +592,122 @@
         <translation>ܡܢ ܐܝܟܐ ܐܬܘ ܐܟܣ̈ܢܝܐ ܠܐ ܡܬܟܬܒ ܒܗܕܐ ܫܘܬܠܡܬܐ.</translation>
     </message>
     <message>
+        <source>The page has no title.</source>
+        <translation>ܠܝܬ ܠܦܐܬܐ ܫܡܐ.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters; 30 to 60 fit search results.</source>
+        <translation>ܠܫܡܐ ܐܝܬ %n ܐܬܘܬܐ؛ ܡܢ 30 ܥܕܡܐ 60 ܦܐܝܢ ܠܦܠܛܐ ܕܒܥܬܐ.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters.</source>
+        <translation>ܠܫܡܐ ܐܝܬ %n ܐܬܘܬܐ.</translation>
+    </message>
+    <message>
+        <source>The page has no description.</source>
+        <translation>ܠܝܬ ܠܦܐܬܐ ܫܘܕܥܐ.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters; 70 to 160 fit search results.</source>
+        <translation>ܠܫܘܕܥܐ ܐܝܬ %n ܐܬܘܬܐ؛ ܡܢ 70 ܥܕܡܐ 160 ܦܐܝܢ ܠܦܠܛܐ ܕܒܥܬܐ.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters.</source>
+        <translation>ܠܫܘܕܥܐ ܐܝܬ %n ܐܬܘܬܐ.</translation>
+    </message>
+    <message>
+        <source>The page has no main heading (h1).</source>
+        <translation>ܠܝܬ ܠܦܐܬܐ ܪܫܐ ܪܒܐ (h1).</translation>
+    </message>
+    <message>
+        <source>The page has %n main headings (h1); one is best.</source>
+        <translation>ܠܦܐܬܐ ܐܝܬ %n ܪܫܐ ܪܒܐ (h1)؛ ܚܕ ܛܒ ܡܢ ܟܠ.</translation>
+    </message>
+    <message>
+        <source>A heading jumps from level %from to level %to.</source>
+        <translation>ܪܫܐ ܚܕ ܫܘܪ ܡܢ ܕܪܓܐ %from ܠܕܪܓܐ %to.</translation>
+    </message>
+    <message>
+        <source>The headings are in order.</source>
+        <translation>ܪܫܐ ܒܛܟܣܐ ܐܝܬܝܗܘܢ.</translation>
+    </message>
+    <message>
+        <source>An image has no alternative text.</source>
+        <translation>ܨܘܪܬܐ ܚܕܐ ܠܝܬ ܠܗ ܟܬܒܐ ܚܠܦܝܐ.</translation>
+    </message>
+    <message>
+        <source>Every image has an alternative text.</source>
+        <translation>ܠܟܠ ܨܘܪܬܐ ܐܝܬ ܟܬܒܐ ܚܠܦܝܐ.</translation>
+    </message>
+    <message>
+        <source>The page names no canonical address.</source>
+        <translation>ܦܐܬܐ ܠܐ ܡܫܡܗܐ ܡܘܢܥܐ ܩܢܘܢܝܐ.</translation>
+    </message>
+    <message>
+        <source>The page names %n canonical addresses; one is right.</source>
+        <translation>ܦܐܬܐ ܡܫܡܗܐ %n ܡܘܢܥܐ ܩܢܘܢܝܐ؛ ܚܕ ܬܪܝܨ.</translation>
+    </message>
+    <message>
+        <source>The canonical address is another page: %url</source>
+        <translation>ܡܘܢܥܐ ܩܢܘܢܝܐ ܦܐܬܐ ܐܚܪܬܐ ܗܝ: %url</translation>
+    </message>
+    <message>
+        <source>The canonical address is this page.</source>
+        <translation>ܡܘܢܥܐ ܩܢܘܢܝܐ ܗܕܐ ܦܐܬܐ ܗܝ.</translation>
+    </message>
+    <message>
+        <source>Search engines are asked not to list this page (robots: %value).</source>
+        <translation>ܡܫܬܐܠܝܢ ܡܟܝܢܬܐ ܕܒܥܬܐ ܕܠܐ ܢܟܬܒܘܢ ܗܕܐ ܦܐܬܐ (robots: %value).</translation>
+    </message>
+    <message>
+        <source>A link leads nowhere: %url</source>
+        <translation>ܐܣܘܪܐ ܚܕ ܠܐ ܡܘܒܠ ܠܐܬܪ: %url</translation>
+    </message>
+    <message>
+        <source>All %n links checked on this page lead somewhere.</source>
+        <translation>ܟܠ %n ܐܣܘܪܐ ܕܐܬܒܨܝܘ ܒܗܕܐ ܦܐܬܐ ܡܘܒܠܝܢ ܠܐܬܪ.</translation>
+    </message>
+    <message>
+        <source>Checking ...</source>
+        <translation>ܒܨܐ ...</translation>
+    </message>
+    <message>
+        <source>Check again</source>
+        <translation>ܒܨܝ ܬܘܒ</translation>
+    </message>
+    <message>
+        <source>%n things to look at</source>
+        <translation>%n ܨܒܘܬܐ ܠܡܚܙܐ</translation>
+    </message>
+    <message>
+        <source>Nothing to look at.</source>
+        <translation>ܠܝܬ ܡܕܡ ܠܡܚܙܐ.</translation>
+    </message>
+    <message>
+        <source>Problem</source>
+        <translation>ܥܩܬܐ</translation>
+    </message>
+    <message>
+        <source>To look at</source>
+        <translation>ܠܡܚܙܐ</translation>
+    </message>
+    <message>
+        <source>Fine</source>
+        <translation>ܫܦܝܪ</translation>
+    </message>
+    <message>
+        <source>Open the field</source>
+        <translation>ܦܬܚ ܚܩܠܐ</translation>
+    </message>
+    <message>
+        <source>Show it on the page</source>
+        <translation>ܚܘܝ ܒܦܐܬܐ</translation>
+    </message>
+    <message>
+        <source>SEO</source>
+        <translation>SEO</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>ܐܓܪ̈ܬܐ ܕܥܐܠ̈ܢ</translation>
     </message>

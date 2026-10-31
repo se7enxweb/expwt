@@ -592,6 +592,122 @@
         <translation>A naghị edekọ ebe ndị ọbịa si bịa na nwụnye a.</translation>
     </message>
     <message>
+        <source>The page has no title.</source>
+        <translation>Ibe ahụ enweghị aha.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters; 30 to 60 fit search results.</source>
+        <translation>Aha ahụ nwere mkpụrụedemede %n; 30 ruo 60 dabara na nsonaazụ nchọta.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters.</source>
+        <translation>Aha ahụ nwere mkpụrụedemede %n.</translation>
+    </message>
+    <message>
+        <source>The page has no description.</source>
+        <translation>Ibe ahụ enweghị nkọwa.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters; 70 to 160 fit search results.</source>
+        <translation>Nkọwa ahụ nwere mkpụrụedemede %n; 70 ruo 160 dabara na nsonaazụ nchọta.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters.</source>
+        <translation>Nkọwa ahụ nwere mkpụrụedemede %n.</translation>
+    </message>
+    <message>
+        <source>The page has no main heading (h1).</source>
+        <translation>Ibe ahụ enweghị isi okwu bụ isi (h1).</translation>
+    </message>
+    <message>
+        <source>The page has %n main headings (h1); one is best.</source>
+        <translation>Ibe ahụ nwere isi okwu bụ isi %n (h1); otu ka mma.</translation>
+    </message>
+    <message>
+        <source>A heading jumps from level %from to level %to.</source>
+        <translation>Otu isi okwu na-awụ site na ọkwa %from gaa na ọkwa %to.</translation>
+    </message>
+    <message>
+        <source>The headings are in order.</source>
+        <translation>Isi okwu niile nọ n'usoro.</translation>
+    </message>
+    <message>
+        <source>An image has no alternative text.</source>
+        <translation>Otu onyonyo enweghị ederede ọzọ.</translation>
+    </message>
+    <message>
+        <source>Every image has an alternative text.</source>
+        <translation>Onyonyo ọ bụla nwere ederede ọzọ.</translation>
+    </message>
+    <message>
+        <source>The page names no canonical address.</source>
+        <translation>Ibe ahụ akpọghị adreesị canonical ọ bụla.</translation>
+    </message>
+    <message>
+        <source>The page names %n canonical addresses; one is right.</source>
+        <translation>Ibe ahụ kpọrọ adreesị canonical %n; otu ziri ezi.</translation>
+    </message>
+    <message>
+        <source>The canonical address is another page: %url</source>
+        <translation>Adreesị canonical bụ ibe ọzọ: %url</translation>
+    </message>
+    <message>
+        <source>The canonical address is this page.</source>
+        <translation>Adreesị canonical bụ ibe a.</translation>
+    </message>
+    <message>
+        <source>Search engines are asked not to list this page (robots: %value).</source>
+        <translation>A rịọrọ igwe nchọta ka ha ghara idepụta ibe a (robots: %value).</translation>
+    </message>
+    <message>
+        <source>A link leads nowhere: %url</source>
+        <translation>Otu njikọ anaghị eduga ebe ọ bụla: %url</translation>
+    </message>
+    <message>
+        <source>All %n links checked on this page lead somewhere.</source>
+        <translation>Njikọ %n niile a lebara anya na ibe a na-eduga ebe ụfọdụ.</translation>
+    </message>
+    <message>
+        <source>Checking ...</source>
+        <translation>Na-enyocha ...</translation>
+    </message>
+    <message>
+        <source>Check again</source>
+        <translation>Nyochaa ọzọ</translation>
+    </message>
+    <message>
+        <source>%n things to look at</source>
+        <translation>Ihe %n a ga-ele anya</translation>
+    </message>
+    <message>
+        <source>Nothing to look at.</source>
+        <translation>Ọ dịghị ihe a ga-ele anya.</translation>
+    </message>
+    <message>
+        <source>Problem</source>
+        <translation>Nsogbu</translation>
+    </message>
+    <message>
+        <source>To look at</source>
+        <translation>Ga-ele anya</translation>
+    </message>
+    <message>
+        <source>Fine</source>
+        <translation>Ọ dị mma</translation>
+    </message>
+    <message>
+        <source>Open the field</source>
+        <translation>Mepee ubi ahụ</translation>
+    </message>
+    <message>
+        <source>Show it on the page</source>
+        <translation>Gosi ya na ibe ahụ</translation>
+    </message>
+    <message>
+        <source>SEO</source>
+        <translation>SEO</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Igbe ozi</translation>
     </message>

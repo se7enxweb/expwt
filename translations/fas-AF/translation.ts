@@ -592,6 +592,122 @@
         <translation>اینکه بازدیدکنندگان از کجا آمده‌اند در این نصب ثبت نمی‌شود.</translation>
     </message>
     <message>
+        <source>The page has no title.</source>
+        <translation>صفحه عنوان ندارد.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters; 30 to 60 fit search results.</source>
+        <translation>عنوان %n حرف دارد؛ ۳۰ تا ۶۰ حرف در نتایج جستجو جا می‌شود.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters.</source>
+        <translation>عنوان %n حرف دارد.</translation>
+    </message>
+    <message>
+        <source>The page has no description.</source>
+        <translation>صفحه توضیحات ندارد.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters; 70 to 160 fit search results.</source>
+        <translation>توضیحات %n حرف دارد؛ ۷۰ تا ۱۶۰ حرف در نتایج جستجو جا می‌شود.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters.</source>
+        <translation>توضیحات %n حرف دارد.</translation>
+    </message>
+    <message>
+        <source>The page has no main heading (h1).</source>
+        <translation>صفحه سرخط اصلی (h1) ندارد.</translation>
+    </message>
+    <message>
+        <source>The page has %n main headings (h1); one is best.</source>
+        <translation>صفحه %n سرخط اصلی (h1) دارد؛ یکی بهتر است.</translation>
+    </message>
+    <message>
+        <source>A heading jumps from level %from to level %to.</source>
+        <translation>یک سرخط از سطح %from به سطح %to می‌پرد.</translation>
+    </message>
+    <message>
+        <source>The headings are in order.</source>
+        <translation>سرخط‌ها به ترتیب هستند.</translation>
+    </message>
+    <message>
+        <source>An image has no alternative text.</source>
+        <translation>یک تصویر متن جایگزین ندارد.</translation>
+    </message>
+    <message>
+        <source>Every image has an alternative text.</source>
+        <translation>هر تصویر متن جایگزین دارد.</translation>
+    </message>
+    <message>
+        <source>The page names no canonical address.</source>
+        <translation>صفحه هیچ آدرس کانونیکال را نام نمی‌برد.</translation>
+    </message>
+    <message>
+        <source>The page names %n canonical addresses; one is right.</source>
+        <translation>صفحه %n آدرس کانونیکال را نام می‌برد؛ یکی درست است.</translation>
+    </message>
+    <message>
+        <source>The canonical address is another page: %url</source>
+        <translation>آدرس کانونیکال صفحهٔ دیگری است: %url</translation>
+    </message>
+    <message>
+        <source>The canonical address is this page.</source>
+        <translation>آدرس کانونیکال همین صفحه است.</translation>
+    </message>
+    <message>
+        <source>Search engines are asked not to list this page (robots: %value).</source>
+        <translation>از موتورهای جستجو خواسته شده این صفحه را فهرست نکنند (robots: %value).</translation>
+    </message>
+    <message>
+        <source>A link leads nowhere: %url</source>
+        <translation>یک پیوند به جایی نمی‌رود: %url</translation>
+    </message>
+    <message>
+        <source>All %n links checked on this page lead somewhere.</source>
+        <translation>همهٔ %n پیوند بررسی‌شده در این صفحه به جایی می‌روند.</translation>
+    </message>
+    <message>
+        <source>Checking ...</source>
+        <translation>در حال بررسی ...</translation>
+    </message>
+    <message>
+        <source>Check again</source>
+        <translation>بررسی دوباره</translation>
+    </message>
+    <message>
+        <source>%n things to look at</source>
+        <translation>%n مورد برای دیدن</translation>
+    </message>
+    <message>
+        <source>Nothing to look at.</source>
+        <translation>چیزی برای دیدن نیست.</translation>
+    </message>
+    <message>
+        <source>Problem</source>
+        <translation>مشکل</translation>
+    </message>
+    <message>
+        <source>To look at</source>
+        <translation>برای دیدن</translation>
+    </message>
+    <message>
+        <source>Fine</source>
+        <translation>خوب</translation>
+    </message>
+    <message>
+        <source>Open the field</source>
+        <translation>باز کردن فیلد</translation>
+    </message>
+    <message>
+        <source>Show it on the page</source>
+        <translation>نشان دادن در صفحه</translation>
+    </message>
+    <message>
+        <source>SEO</source>
+        <translation>SEO</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>صندوق ورودی</translation>
     </message>

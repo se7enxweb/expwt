@@ -83,6 +83,7 @@ extensions. A dry run lists the changes first.
 | Page | `expwt/use` (reading), `expwt/edit` (changing) | the page's fields in a form, editing on the page, save the draft, preview, the full editor, publish now or at a date, take down at a date, discard the draft |
 | Create | `expwt/create` | a new page below or beside this one: the classes you may create there, a title, then fill it in the Page panel and publish |
 | Structure | `expwt/structure` | hide and reveal, move and add a location (choose the place in a tree on the site), move to the trash, sort the pages below by dragging or with the up and down buttons |
+| SEO | `expwt/edit` | the SEO check of the page as it is rendered: its title and description (length), its headings (one main heading, no level skipped), the alternative texts of its images, its canonical address and robots, and whether each internal link leads somewhere (the server looks it up as the kernel would answer it: a view, a URL alias or redirect, a wildcard, a file of the storage or a design; links of another siteaccess are not checked). Problems first; a finding opens the field it is about in the Page panel (the title or the metadata field, the field an image or a link of the text belongs to) or shows its place on the page. Nothing is saved |
 | Insights | `expwt/insights` | read-only, from the kernel's own statistics, no third-party tracking: the page's views (the view counter the cronjob `updateviewcount` fills from the access log; where it is off the panel says so), the searches on this site for words of the page's title (the kernel's search log, with how often and how many results), and that the kernel records no referrers |
 | Inbox | `expwt/use` and the kernel's `collaboration` policy | the approvals of the publishing workflow that wait for you (the kernel's approve event): each page with its author and last comment, **Open the draft**, and for its approvers a comment with **Approve** or **Deny**, decided through the kernel's own `collaboration/action` view, exactly as in the administration (the workflow publishes an approved page on its next run; a denied one is a draft of its author again). Their number is a badge on the closed tab and on the panel's tab |
 | Me | `expwt/use` | your account at a glance and the kernel's own pages for it (account, password, passkeys, sessions and devices, security, notifications, drafts, bookmarks), the sidebar's preferences, sign out |
@@ -177,7 +178,7 @@ the draft, through the image field's own upload; its alternative text is in its 
 | Policy | Allows |
 |---|---|
 | `expwt/use` | the sidebar itself, the Me panel, reading the Page panel |
-| `expwt/edit` | editing on a draft, preview, publishing, soft locks |
+| `expwt/edit` | editing on a draft, preview, publishing, soft locks, the SEO check |
 | `expwt/create` | the Create panel |
 | `expwt/structure` | the Structure panel |
 | `expwt/layouts`, `expwt/templates`, `expwt/shop`, `expwt/admin` | the panels of later phases (defined now) |

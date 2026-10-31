@@ -592,6 +592,122 @@
         <translation>مہمان کتھوں آئے، ایہہ ایس انسٹالیشن تے درج نئیں ہوندا۔</translation>
     </message>
     <message>
+        <source>The page has no title.</source>
+        <translation>صفحے دا کوئی سرناواں نئیں۔</translation>
+    </message>
+    <message>
+        <source>The title has %n characters; 30 to 60 fit search results.</source>
+        <translation>سرناویں وچ %n اکھر نیں؛ کھوج دے نتیجیاں وچ 30 توں 60 سما جاندے نیں۔</translation>
+    </message>
+    <message>
+        <source>The title has %n characters.</source>
+        <translation>سرناویں وچ %n اکھر نیں۔</translation>
+    </message>
+    <message>
+        <source>The page has no description.</source>
+        <translation>صفحے دا کوئی ویروا نئیں۔</translation>
+    </message>
+    <message>
+        <source>The description has %n characters; 70 to 160 fit search results.</source>
+        <translation>ویروے وچ %n اکھر نیں؛ کھوج دے نتیجیاں وچ 70 توں 160 سما جاندے نیں۔</translation>
+    </message>
+    <message>
+        <source>The description has %n characters.</source>
+        <translation>ویروے وچ %n اکھر نیں۔</translation>
+    </message>
+    <message>
+        <source>The page has no main heading (h1).</source>
+        <translation>صفحے تے کوئی وڈی سرخی (h1) نئیں۔</translation>
+    </message>
+    <message>
+        <source>The page has %n main headings (h1); one is best.</source>
+        <translation>صفحے تے %n وڈیاں سرخیاں (h1) نیں؛ اک سب توں چنگی اے۔</translation>
+    </message>
+    <message>
+        <source>A heading jumps from level %from to level %to.</source>
+        <translation>اک سرخی پدھر %from توں پدھر %to تے چھال ماردی اے۔</translation>
+    </message>
+    <message>
+        <source>The headings are in order.</source>
+        <translation>سرخیاں ترتیب وچ نیں۔</translation>
+    </message>
+    <message>
+        <source>An image has no alternative text.</source>
+        <translation>اک تصویر دا کوئی متبادل متن نئیں۔</translation>
+    </message>
+    <message>
+        <source>Every image has an alternative text.</source>
+        <translation>ہر تصویر دا متبادل متن اے۔</translation>
+    </message>
+    <message>
+        <source>The page names no canonical address.</source>
+        <translation>صفحہ کوئی کینونیکل پتہ نئیں دسدا۔</translation>
+    </message>
+    <message>
+        <source>The page names %n canonical addresses; one is right.</source>
+        <translation>صفحہ %n کینونیکل پتے دسدا اے؛ اک ای ٹھیک اے۔</translation>
+    </message>
+    <message>
+        <source>The canonical address is another page: %url</source>
+        <translation>کینونیکل پتہ کوئی ہور صفحہ اے: %url</translation>
+    </message>
+    <message>
+        <source>The canonical address is this page.</source>
+        <translation>کینونیکل پتہ ایہو صفحہ اے۔</translation>
+    </message>
+    <message>
+        <source>Search engines are asked not to list this page (robots: %value).</source>
+        <translation>سرچ انجناں نوں ایہہ صفحہ لسٹ نہ کرن لئی کہیا گیا اے (robots: %value)۔</translation>
+    </message>
+    <message>
+        <source>A link leads nowhere: %url</source>
+        <translation>اک لنک کتے نئیں لے جاندا: %url</translation>
+    </message>
+    <message>
+        <source>All %n links checked on this page lead somewhere.</source>
+        <translation>ایس صفحے تے جانچے گئے سارے %n لنک کتے نہ کتے لے جاندے نیں۔</translation>
+    </message>
+    <message>
+        <source>Checking ...</source>
+        <translation>جانچ ہو رہی اے ...</translation>
+    </message>
+    <message>
+        <source>Check again</source>
+        <translation>مڑ جانچو</translation>
+    </message>
+    <message>
+        <source>%n things to look at</source>
+        <translation>ویکھن والیاں %n گلاں</translation>
+    </message>
+    <message>
+        <source>Nothing to look at.</source>
+        <translation>ویکھن لئی کجھ نئیں۔</translation>
+    </message>
+    <message>
+        <source>Problem</source>
+        <translation>مسئلہ</translation>
+    </message>
+    <message>
+        <source>To look at</source>
+        <translation>ویکھن والا</translation>
+    </message>
+    <message>
+        <source>Fine</source>
+        <translation>ٹھیک اے</translation>
+    </message>
+    <message>
+        <source>Open the field</source>
+        <translation>خانہ کھولو</translation>
+    </message>
+    <message>
+        <source>Show it on the page</source>
+        <translation>صفحے تے وکھاؤ</translation>
+    </message>
+    <message>
+        <source>SEO</source>
+        <translation>SEO</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>اِن باکس</translation>
     </message>

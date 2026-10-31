@@ -592,6 +592,122 @@
         <translation>ޒިޔާރަތްކުރާ މީހުން އައީ ކޮންތާކުން ކަމެއް މި އިންސްޓޯލޭޝަނުގައި ރެކޯޑެއް ނުކުރޭ.</translation>
     </message>
     <message>
+        <source>The page has no title.</source>
+        <translation>ޞަފްޙާއަށް ސުރުޚީއެއް ނެތް.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters; 30 to 60 fit search results.</source>
+        <translation>ސުރުޚީގައި %n އަކުރު އެބައޮތް؛ ހޯދުމުގެ ނަތީޖާތަކަށް 30 އިން 60 އަށް ފެތޭ.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters.</source>
+        <translation>ސުރުޚީގައި %n އަކުރު އެބައޮތް.</translation>
+    </message>
+    <message>
+        <source>The page has no description.</source>
+        <translation>ޞަފްޙާއަށް ތަފްޞީލެއް ނެތް.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters; 70 to 160 fit search results.</source>
+        <translation>ތަފްޞީލުގައި %n އަކުރު އެބައޮތް؛ ހޯދުމުގެ ނަތީޖާތަކަށް 70 އިން 160 އަށް ފެތޭ.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters.</source>
+        <translation>ތަފްޞީލުގައި %n އަކުރު އެބައޮތް.</translation>
+    </message>
+    <message>
+        <source>The page has no main heading (h1).</source>
+        <translation>ޞަފްޙާގައި މައި ސުރުޚީއެއް (h1) ނެތް.</translation>
+    </message>
+    <message>
+        <source>The page has %n main headings (h1); one is best.</source>
+        <translation>ޞަފްޙާގައި %n މައި ސުރުޚީ (h1) އެބައޮތް؛ އެންމެ ރަނގަޅީ އެކެއް.</translation>
+    </message>
+    <message>
+        <source>A heading jumps from level %from to level %to.</source>
+        <translation>ސުރުޚީއެއް ފެންވަރު %from އިން ފެންވަރު %to އަށް ފުންމާލައެވެ.</translation>
+    </message>
+    <message>
+        <source>The headings are in order.</source>
+        <translation>ސުރުޚީތައް ތަރުތީބުން އޮތް.</translation>
+    </message>
+    <message>
+        <source>An image has no alternative text.</source>
+        <translation>ފޮޓޯއެއްގައި ބަދަލު ލިޔުމެއް ނެތް.</translation>
+    </message>
+    <message>
+        <source>Every image has an alternative text.</source>
+        <translation>ކޮންމެ ފޮޓޯއެއްގައި ބަދަލު ލިޔުމެއް އޮތް.</translation>
+    </message>
+    <message>
+        <source>The page names no canonical address.</source>
+        <translation>ޞަފްޙާގައި ކެނޮނިކަލް އެޑްރެހެއް ނުބުނޭ.</translation>
+    </message>
+    <message>
+        <source>The page names %n canonical addresses; one is right.</source>
+        <translation>ޞަފްޙާގައި %n ކެނޮނިކަލް އެޑްރެސް ބުނޭ؛ ރަނގަޅީ އެކެއް.</translation>
+    </message>
+    <message>
+        <source>The canonical address is another page: %url</source>
+        <translation>ކެނޮނިކަލް އެޑްރެހަކީ އެހެން ޞަފްޙާއެއް: %url</translation>
+    </message>
+    <message>
+        <source>The canonical address is this page.</source>
+        <translation>ކެނޮނިކަލް އެޑްރެހަކީ މި ޞަފްޙާ.</translation>
+    </message>
+    <message>
+        <source>Search engines are asked not to list this page (robots: %value).</source>
+        <translation>ސާރޗް އިންޖީންތަކަށް މި ޞަފްޙާ ލިސްޓް ނުކުރުމަށް އެދިފައި (robots: %value).</translation>
+    </message>
+    <message>
+        <source>A link leads nowhere: %url</source>
+        <translation>ލިންކެއް އެއްވެސް ތަނަކަށް ނުދޭ: %url</translation>
+    </message>
+    <message>
+        <source>All %n links checked on this page lead somewhere.</source>
+        <translation>މި ޞަފްޙާގައި ޗެކްކުރި ހުރިހާ %n ލިންކެއް ކޮންމެވެސް ތަނަކަށް ދޭ.</translation>
+    </message>
+    <message>
+        <source>Checking ...</source>
+        <translation>ޗެކްކުރަނީ ...</translation>
+    </message>
+    <message>
+        <source>Check again</source>
+        <translation>އަލުން ޗެކްކުރޭ</translation>
+    </message>
+    <message>
+        <source>%n things to look at</source>
+        <translation>ބަލަންޖެހޭ %n ކަމެއް</translation>
+    </message>
+    <message>
+        <source>Nothing to look at.</source>
+        <translation>ބަލަންޖެހޭ އެއްޗެއް ނެތް.</translation>
+    </message>
+    <message>
+        <source>Problem</source>
+        <translation>މައްސަލަ</translation>
+    </message>
+    <message>
+        <source>To look at</source>
+        <translation>ބަލަންޖެހޭ</translation>
+    </message>
+    <message>
+        <source>Fine</source>
+        <translation>ރަނގަޅު</translation>
+    </message>
+    <message>
+        <source>Open the field</source>
+        <translation>ފީލްޑް ހުޅުވާ</translation>
+    </message>
+    <message>
+        <source>Show it on the page</source>
+        <translation>ޞަފްޙާގައި ދައްކާ</translation>
+    </message>
+    <message>
+        <source>SEO</source>
+        <translation>SEO</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>އިންބޮކްސް</translation>
     </message>

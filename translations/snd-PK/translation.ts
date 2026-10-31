@@ -592,6 +592,122 @@
         <translation>گهمڻ وارا ڪٿان آيا، اهو هن انسٽاليشن تي درج نٿو ٿئي.</translation>
     </message>
     <message>
+        <source>The page has no title.</source>
+        <translation>صفحي جو ڪو عنوان ناهي.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters; 30 to 60 fit search results.</source>
+        <translation>عنوان ۾ %n اکر آهن؛ ڳولا جي نتيجن ۾ 30 کان 60 سمائجن ٿا.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters.</source>
+        <translation>عنوان ۾ %n اکر آهن.</translation>
+    </message>
+    <message>
+        <source>The page has no description.</source>
+        <translation>صفحي جي ڪا وضاحت ناهي.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters; 70 to 160 fit search results.</source>
+        <translation>وضاحت ۾ %n اکر آهن؛ ڳولا جي نتيجن ۾ 70 کان 160 سمائجن ٿا.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters.</source>
+        <translation>وضاحت ۾ %n اکر آهن.</translation>
+    </message>
+    <message>
+        <source>The page has no main heading (h1).</source>
+        <translation>صفحي تي ڪا مکيه سرخي (h1) ناهي.</translation>
+    </message>
+    <message>
+        <source>The page has %n main headings (h1); one is best.</source>
+        <translation>صفحي تي %n مکيه سرخيون (h1) آهن؛ هڪ بهترين آهي.</translation>
+    </message>
+    <message>
+        <source>A heading jumps from level %from to level %to.</source>
+        <translation>هڪ سرخي سطح %from کان سطح %to تي ٽپو ڏئي ٿي.</translation>
+    </message>
+    <message>
+        <source>The headings are in order.</source>
+        <translation>سرخيون ترتيب ۾ آهن.</translation>
+    </message>
+    <message>
+        <source>An image has no alternative text.</source>
+        <translation>هڪ تصوير جو ڪو متبادل متن ناهي.</translation>
+    </message>
+    <message>
+        <source>Every image has an alternative text.</source>
+        <translation>هر تصوير جو متبادل متن آهي.</translation>
+    </message>
+    <message>
+        <source>The page names no canonical address.</source>
+        <translation>صفحو ڪو ڪينونيڪل پتو نٿو ٻڌائي.</translation>
+    </message>
+    <message>
+        <source>The page names %n canonical addresses; one is right.</source>
+        <translation>صفحو %n ڪينونيڪل پتا ٻڌائي ٿو؛ هڪ صحيح آهي.</translation>
+    </message>
+    <message>
+        <source>The canonical address is another page: %url</source>
+        <translation>ڪينونيڪل پتو ٻيو صفحو آهي: %url</translation>
+    </message>
+    <message>
+        <source>The canonical address is this page.</source>
+        <translation>ڪينونيڪل پتو هي صفحو آهي.</translation>
+    </message>
+    <message>
+        <source>Search engines are asked not to list this page (robots: %value).</source>
+        <translation>سرچ انجڻين کي چيو ويو آهي ته هي صفحو لسٽ نه ڪن (robots: %value).</translation>
+    </message>
+    <message>
+        <source>A link leads nowhere: %url</source>
+        <translation>هڪ لنڪ ڪٿي به نٿي وٺي وڃي: %url</translation>
+    </message>
+    <message>
+        <source>All %n links checked on this page lead somewhere.</source>
+        <translation>هن صفحي تي جانچيل سڀ %n لنڪ ڪٿي نه ڪٿي وٺي وڃن ٿيون.</translation>
+    </message>
+    <message>
+        <source>Checking ...</source>
+        <translation>جانچ ٿي رهي آهي ...</translation>
+    </message>
+    <message>
+        <source>Check again</source>
+        <translation>ٻيهر جانچيو</translation>
+    </message>
+    <message>
+        <source>%n things to look at</source>
+        <translation>ڏسڻ لاءِ %n ڳالهيون</translation>
+    </message>
+    <message>
+        <source>Nothing to look at.</source>
+        <translation>ڏسڻ لاءِ ڪجهه ناهي.</translation>
+    </message>
+    <message>
+        <source>Problem</source>
+        <translation>مسئلو</translation>
+    </message>
+    <message>
+        <source>To look at</source>
+        <translation>ڏسڻ لاءِ</translation>
+    </message>
+    <message>
+        <source>Fine</source>
+        <translation>ٺيڪ</translation>
+    </message>
+    <message>
+        <source>Open the field</source>
+        <translation>فيلڊ کوليو</translation>
+    </message>
+    <message>
+        <source>Show it on the page</source>
+        <translation>صفحي تي ڏيکاريو</translation>
+    </message>
+    <message>
+        <source>SEO</source>
+        <translation>SEO</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>آيل خط</translation>
     </message>

@@ -592,6 +592,122 @@
         <translation>Fu ganaa yi jóge bindu ñu ko ci samp bii.</translation>
     </message>
     <message>
+        <source>The page has no title.</source>
+        <translation>Xët wi amul tur.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters; 30 to 60 fit search results.</source>
+        <translation>Tur bi am na %n araf; 30 ba 60 ñoo mat ci ngértey seet.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters.</source>
+        <translation>Tur bi am na %n araf.</translation>
+    </message>
+    <message>
+        <source>The page has no description.</source>
+        <translation>Xët wi amul melokaan.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters; 70 to 160 fit search results.</source>
+        <translation>Melokaan bi am na %n araf; 70 ba 160 ñoo mat ci ngértey seet.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters.</source>
+        <translation>Melokaan bi am na %n araf.</translation>
+    </message>
+    <message>
+        <source>The page has no main heading (h1).</source>
+        <translation>Xët wi amul tur bu mag (h1).</translation>
+    </message>
+    <message>
+        <source>The page has %n main headings (h1); one is best.</source>
+        <translation>Xët wi am na %n tur yu mag (h1); benn moo gën.</translation>
+    </message>
+    <message>
+        <source>A heading jumps from level %from to level %to.</source>
+        <translation>Am tur bu tëb ci tolluwaay %from dem ci tolluwaay %to.</translation>
+    </message>
+    <message>
+        <source>The headings are in order.</source>
+        <translation>Tur yi topp nañu.</translation>
+    </message>
+    <message>
+        <source>An image has no alternative text.</source>
+        <translation>Am nataal bu amul mbind mu wuutu.</translation>
+    </message>
+    <message>
+        <source>Every image has an alternative text.</source>
+        <translation>Nataal bu nekk am na mbind mu wuutu.</translation>
+    </message>
+    <message>
+        <source>The page names no canonical address.</source>
+        <translation>Xët wi tudd ul benn adrees canonical.</translation>
+    </message>
+    <message>
+        <source>The page names %n canonical addresses; one is right.</source>
+        <translation>Xët wi tudd na %n adrees canonical; benn rekk moo jub.</translation>
+    </message>
+    <message>
+        <source>The canonical address is another page: %url</source>
+        <translation>Adrees canonical bi beneen xët la: %url</translation>
+    </message>
+    <message>
+        <source>The canonical address is this page.</source>
+        <translation>Adrees canonical bi xët wii la.</translation>
+    </message>
+    <message>
+        <source>Search engines are asked not to list this page (robots: %value).</source>
+        <translation>Ñu ngi ñaan masin yu seet yi ñu bañ a bind xët wii (robots: %value).</translation>
+    </message>
+    <message>
+        <source>A link leads nowhere: %url</source>
+        <translation>Am lëkkalekaay bu yóbbuwul fenn: %url</translation>
+    </message>
+    <message>
+        <source>All %n links checked on this page lead somewhere.</source>
+        <translation>%n lëkkalekaay yépp yi ñu xool ci xët wii dañuy yóbbu fenn.</translation>
+    </message>
+    <message>
+        <source>Checking ...</source>
+        <translation>Mu ngi xool ...</translation>
+    </message>
+    <message>
+        <source>Check again</source>
+        <translation>Xoolaatal</translation>
+    </message>
+    <message>
+        <source>%n things to look at</source>
+        <translation>%n lu ñu war a xool</translation>
+    </message>
+    <message>
+        <source>Nothing to look at.</source>
+        <translation>Amul lu ñu war a xool.</translation>
+    </message>
+    <message>
+        <source>Problem</source>
+        <translation>Jafe-jafe</translation>
+    </message>
+    <message>
+        <source>To look at</source>
+        <translation>Lu ñu war a xool</translation>
+    </message>
+    <message>
+        <source>Fine</source>
+        <translation>Baax na</translation>
+    </message>
+    <message>
+        <source>Open the field</source>
+        <translation>Ubbil barab bi</translation>
+    </message>
+    <message>
+        <source>Show it on the page</source>
+        <translation>Wone ko ci xët wi</translation>
+    </message>
+    <message>
+        <source>SEO</source>
+        <translation>SEO</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Bataaxal yu dikk</translation>
     </message>

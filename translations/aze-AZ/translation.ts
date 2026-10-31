@@ -592,6 +592,122 @@
         <translation>Ziyarətçilərin haradan gəldiyi bu quraşdırmada qeyd olunmur.</translation>
     </message>
     <message>
+        <source>The page has no title.</source>
+        <translation>Səhifənin başlığı yoxdur.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters; 30 to 60 fit search results.</source>
+        <translation>Başlıqda %n simvol var; axtarış nəticələrinə 30-60 simvol sığır.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters.</source>
+        <translation>Başlıqda %n simvol var.</translation>
+    </message>
+    <message>
+        <source>The page has no description.</source>
+        <translation>Səhifənin təsviri yoxdur.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters; 70 to 160 fit search results.</source>
+        <translation>Təsvirdə %n simvol var; axtarış nəticələrinə 70-160 simvol sığır.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters.</source>
+        <translation>Təsvirdə %n simvol var.</translation>
+    </message>
+    <message>
+        <source>The page has no main heading (h1).</source>
+        <translation>Səhifənin əsas başlığı (h1) yoxdur.</translation>
+    </message>
+    <message>
+        <source>The page has %n main headings (h1); one is best.</source>
+        <translation>Səhifədə %n əsas başlıq (h1) var; ən yaxşısı birdir.</translation>
+    </message>
+    <message>
+        <source>A heading jumps from level %from to level %to.</source>
+        <translation>Başlıq %from səviyyəsindən %to səviyyəsinə tullanır.</translation>
+    </message>
+    <message>
+        <source>The headings are in order.</source>
+        <translation>Başlıqlar ardıcıllıqla gedir.</translation>
+    </message>
+    <message>
+        <source>An image has no alternative text.</source>
+        <translation>Bir şəklin alternativ mətni yoxdur.</translation>
+    </message>
+    <message>
+        <source>Every image has an alternative text.</source>
+        <translation>Hər şəklin alternativ mətni var.</translation>
+    </message>
+    <message>
+        <source>The page names no canonical address.</source>
+        <translation>Səhifə heç bir kanonik ünvan göstərmir.</translation>
+    </message>
+    <message>
+        <source>The page names %n canonical addresses; one is right.</source>
+        <translation>Səhifə %n kanonik ünvan göstərir; düzgünü birdir.</translation>
+    </message>
+    <message>
+        <source>The canonical address is another page: %url</source>
+        <translation>Kanonik ünvan başqa səhifədir: %url</translation>
+    </message>
+    <message>
+        <source>The canonical address is this page.</source>
+        <translation>Kanonik ünvan bu səhifədir.</translation>
+    </message>
+    <message>
+        <source>Search engines are asked not to list this page (robots: %value).</source>
+        <translation>Axtarış sistemlərindən bu səhifəni siyahıya salmamaq xahiş olunur (robots: %value).</translation>
+    </message>
+    <message>
+        <source>A link leads nowhere: %url</source>
+        <translation>Keçid heç yerə aparmır: %url</translation>
+    </message>
+    <message>
+        <source>All %n links checked on this page lead somewhere.</source>
+        <translation>Bu səhifədə yoxlanılan bütün %n keçid haradasa aparır.</translation>
+    </message>
+    <message>
+        <source>Checking ...</source>
+        <translation>Yoxlanılır ...</translation>
+    </message>
+    <message>
+        <source>Check again</source>
+        <translation>Yenidən yoxla</translation>
+    </message>
+    <message>
+        <source>%n things to look at</source>
+        <translation>Baxılmalı %n şey</translation>
+    </message>
+    <message>
+        <source>Nothing to look at.</source>
+        <translation>Baxılmalı heç nə yoxdur.</translation>
+    </message>
+    <message>
+        <source>Problem</source>
+        <translation>Problem</translation>
+    </message>
+    <message>
+        <source>To look at</source>
+        <translation>Baxılmalı</translation>
+    </message>
+    <message>
+        <source>Fine</source>
+        <translation>Qaydasındadır</translation>
+    </message>
+    <message>
+        <source>Open the field</source>
+        <translation>Sahəni aç</translation>
+    </message>
+    <message>
+        <source>Show it on the page</source>
+        <translation>Səhifədə göstər</translation>
+    </message>
+    <message>
+        <source>SEO</source>
+        <translation>SEO</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Gələnlər</translation>
     </message>

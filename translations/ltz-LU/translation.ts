@@ -592,6 +592,122 @@
         <translation>Wou d'Besicher hierkoumen, gëtt op dëser Installatioun net festgehalen.</translation>
     </message>
     <message>
+        <source>The page has no title.</source>
+        <translation>D'Säit huet keen Titel.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters; 30 to 60 fit search results.</source>
+        <translation>Den Titel huet %n Zeechen; 30 bis 60 passen an d'Sichresultater.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters.</source>
+        <translation>Den Titel huet %n Zeechen.</translation>
+    </message>
+    <message>
+        <source>The page has no description.</source>
+        <translation>D'Säit huet keng Beschreiwung.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters; 70 to 160 fit search results.</source>
+        <translation>D'Beschreiwung huet %n Zeechen; 70 bis 160 passen an d'Sichresultater.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters.</source>
+        <translation>D'Beschreiwung huet %n Zeechen.</translation>
+    </message>
+    <message>
+        <source>The page has no main heading (h1).</source>
+        <translation>D'Säit huet keng Haaptiwwerschrëft (h1).</translation>
+    </message>
+    <message>
+        <source>The page has %n main headings (h1); one is best.</source>
+        <translation>D'Säit huet %n Haaptiwwerschrëften (h1); eng ass am beschten.</translation>
+    </message>
+    <message>
+        <source>A heading jumps from level %from to level %to.</source>
+        <translation>Eng Iwwerschrëft spréngt vum Niveau %from op den Niveau %to.</translation>
+    </message>
+    <message>
+        <source>The headings are in order.</source>
+        <translation>D'Iwwerschrëften sinn an der Rei.</translation>
+    </message>
+    <message>
+        <source>An image has no alternative text.</source>
+        <translation>E Bild huet keen Alternativtext.</translation>
+    </message>
+    <message>
+        <source>Every image has an alternative text.</source>
+        <translation>All Bild huet en Alternativtext.</translation>
+    </message>
+    <message>
+        <source>The page names no canonical address.</source>
+        <translation>D'Säit nennt keng kanonesch Adress.</translation>
+    </message>
+    <message>
+        <source>The page names %n canonical addresses; one is right.</source>
+        <translation>D'Säit nennt %n kanonesch Adressen; eng ass richteg.</translation>
+    </message>
+    <message>
+        <source>The canonical address is another page: %url</source>
+        <translation>Déi kanonesch Adress ass eng aner Säit: %url</translation>
+    </message>
+    <message>
+        <source>The canonical address is this page.</source>
+        <translation>Déi kanonesch Adress ass dës Säit.</translation>
+    </message>
+    <message>
+        <source>Search engines are asked not to list this page (robots: %value).</source>
+        <translation>Sichmaschinne gi gebieden, dës Säit net opzelëschten (robots: %value).</translation>
+    </message>
+    <message>
+        <source>A link leads nowhere: %url</source>
+        <translation>E Link féiert néierens hin: %url</translation>
+    </message>
+    <message>
+        <source>All %n links checked on this page lead somewhere.</source>
+        <translation>All %n op dëser Säit gepréifte Linke féieren iergendwouhin.</translation>
+    </message>
+    <message>
+        <source>Checking ...</source>
+        <translation>Gëtt gepréift ...</translation>
+    </message>
+    <message>
+        <source>Check again</source>
+        <translation>Nach eng Kéier préiwen</translation>
+    </message>
+    <message>
+        <source>%n things to look at</source>
+        <translation>%n Saachen ze kucken</translation>
+    </message>
+    <message>
+        <source>Nothing to look at.</source>
+        <translation>Näischt ze kucken.</translation>
+    </message>
+    <message>
+        <source>Problem</source>
+        <translation>Problem</translation>
+    </message>
+    <message>
+        <source>To look at</source>
+        <translation>Ze kucken</translation>
+    </message>
+    <message>
+        <source>Fine</source>
+        <translation>An der Rei</translation>
+    </message>
+    <message>
+        <source>Open the field</source>
+        <translation>D'Feld opmaachen</translation>
+    </message>
+    <message>
+        <source>Show it on the page</source>
+        <translation>Op der Säit weisen</translation>
+    </message>
+    <message>
+        <source>SEO</source>
+        <translation>SEO</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Postkëscht</translation>
     </message>

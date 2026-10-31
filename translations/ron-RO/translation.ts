@@ -592,6 +592,122 @@
         <translation>De unde au venit vizitatorii nu se înregistrează pe această instalare.</translation>
     </message>
     <message>
+        <source>The page has no title.</source>
+        <translation>Pagina nu are titlu.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters; 30 to 60 fit search results.</source>
+        <translation>Titlul are %n caractere; între 30 și 60 încap în rezultatele căutării.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters.</source>
+        <translation>Titlul are %n caractere.</translation>
+    </message>
+    <message>
+        <source>The page has no description.</source>
+        <translation>Pagina nu are descriere.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters; 70 to 160 fit search results.</source>
+        <translation>Descrierea are %n caractere; între 70 și 160 încap în rezultatele căutării.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters.</source>
+        <translation>Descrierea are %n caractere.</translation>
+    </message>
+    <message>
+        <source>The page has no main heading (h1).</source>
+        <translation>Pagina nu are titlu principal (h1).</translation>
+    </message>
+    <message>
+        <source>The page has %n main headings (h1); one is best.</source>
+        <translation>Pagina are %n titluri principale (h1); cel mai bine este unul.</translation>
+    </message>
+    <message>
+        <source>A heading jumps from level %from to level %to.</source>
+        <translation>Un titlu sare de la nivelul %from la nivelul %to.</translation>
+    </message>
+    <message>
+        <source>The headings are in order.</source>
+        <translation>Titlurile sunt în ordine.</translation>
+    </message>
+    <message>
+        <source>An image has no alternative text.</source>
+        <translation>O imagine nu are text alternativ.</translation>
+    </message>
+    <message>
+        <source>Every image has an alternative text.</source>
+        <translation>Fiecare imagine are text alternativ.</translation>
+    </message>
+    <message>
+        <source>The page names no canonical address.</source>
+        <translation>Pagina nu indică nicio adresă canonică.</translation>
+    </message>
+    <message>
+        <source>The page names %n canonical addresses; one is right.</source>
+        <translation>Pagina indică %n adrese canonice; corect este una.</translation>
+    </message>
+    <message>
+        <source>The canonical address is another page: %url</source>
+        <translation>Adresa canonică este altă pagină: %url</translation>
+    </message>
+    <message>
+        <source>The canonical address is this page.</source>
+        <translation>Adresa canonică este această pagină.</translation>
+    </message>
+    <message>
+        <source>Search engines are asked not to list this page (robots: %value).</source>
+        <translation>Motoarele de căutare sunt rugate să nu listeze această pagină (robots: %value).</translation>
+    </message>
+    <message>
+        <source>A link leads nowhere: %url</source>
+        <translation>Un link nu duce nicăieri: %url</translation>
+    </message>
+    <message>
+        <source>All %n links checked on this page lead somewhere.</source>
+        <translation>Toate cele %n linkuri verificate pe această pagină duc undeva.</translation>
+    </message>
+    <message>
+        <source>Checking ...</source>
+        <translation>Se verifică ...</translation>
+    </message>
+    <message>
+        <source>Check again</source>
+        <translation>Verifică din nou</translation>
+    </message>
+    <message>
+        <source>%n things to look at</source>
+        <translation>%n lucruri de văzut</translation>
+    </message>
+    <message>
+        <source>Nothing to look at.</source>
+        <translation>Nimic de văzut.</translation>
+    </message>
+    <message>
+        <source>Problem</source>
+        <translation>Problemă</translation>
+    </message>
+    <message>
+        <source>To look at</source>
+        <translation>De văzut</translation>
+    </message>
+    <message>
+        <source>Fine</source>
+        <translation>În regulă</translation>
+    </message>
+    <message>
+        <source>Open the field</source>
+        <translation>Deschide câmpul</translation>
+    </message>
+    <message>
+        <source>Show it on the page</source>
+        <translation>Arată pe pagină</translation>
+    </message>
+    <message>
+        <source>SEO</source>
+        <translation>SEO</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Mesaje primite</translation>
     </message>

@@ -592,6 +592,122 @@
         <translation>Saka ngendi pengunjung teka ora dicathet ing instalasi iki.</translation>
     </message>
     <message>
+        <source>The page has no title.</source>
+        <translation>Kaca iki ora duwe irah-irahan.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters; 30 to 60 fit search results.</source>
+        <translation>Irah-irahan duwe %n karakter; 30 nganti 60 cocog ing asil panelusuran.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters.</source>
+        <translation>Irah-irahan duwe %n karakter.</translation>
+    </message>
+    <message>
+        <source>The page has no description.</source>
+        <translation>Kaca iki ora duwe deskripsi.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters; 70 to 160 fit search results.</source>
+        <translation>Deskripsi duwe %n karakter; 70 nganti 160 cocog ing asil panelusuran.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters.</source>
+        <translation>Deskripsi duwe %n karakter.</translation>
+    </message>
+    <message>
+        <source>The page has no main heading (h1).</source>
+        <translation>Kaca iki ora duwe judhul utama (h1).</translation>
+    </message>
+    <message>
+        <source>The page has %n main headings (h1); one is best.</source>
+        <translation>Kaca iki duwe %n judhul utama (h1); siji sing paling apik.</translation>
+    </message>
+    <message>
+        <source>A heading jumps from level %from to level %to.</source>
+        <translation>Sawijining judhul mlumpat saka tingkat %from menyang tingkat %to.</translation>
+    </message>
+    <message>
+        <source>The headings are in order.</source>
+        <translation>Judhul-judhul wis urut.</translation>
+    </message>
+    <message>
+        <source>An image has no alternative text.</source>
+        <translation>Sawijining gambar ora duwe teks alternatif.</translation>
+    </message>
+    <message>
+        <source>Every image has an alternative text.</source>
+        <translation>Saben gambar duwe teks alternatif.</translation>
+    </message>
+    <message>
+        <source>The page names no canonical address.</source>
+        <translation>Kaca iki ora nyebut alamat kanonik.</translation>
+    </message>
+    <message>
+        <source>The page names %n canonical addresses; one is right.</source>
+        <translation>Kaca iki nyebut %n alamat kanonik; sing bener siji.</translation>
+    </message>
+    <message>
+        <source>The canonical address is another page: %url</source>
+        <translation>Alamat kanonik yaiku kaca liya: %url</translation>
+    </message>
+    <message>
+        <source>The canonical address is this page.</source>
+        <translation>Alamat kanonik yaiku kaca iki.</translation>
+    </message>
+    <message>
+        <source>Search engines are asked not to list this page (robots: %value).</source>
+        <translation>Mesin panelusur dijaluk supaya ora nyathet kaca iki (robots: %value).</translation>
+    </message>
+    <message>
+        <source>A link leads nowhere: %url</source>
+        <translation>Sawijining pranala ora tumuju menyang ngendi-endi: %url</translation>
+    </message>
+    <message>
+        <source>All %n links checked on this page lead somewhere.</source>
+        <translation>Kabeh %n pranala sing dipriksa ing kaca iki tumuju menyang sawijining panggonan.</translation>
+    </message>
+    <message>
+        <source>Checking ...</source>
+        <translation>Mriksa ...</translation>
+    </message>
+    <message>
+        <source>Check again</source>
+        <translation>Priksa maneh</translation>
+    </message>
+    <message>
+        <source>%n things to look at</source>
+        <translation>%n bab sing kudu dideleng</translation>
+    </message>
+    <message>
+        <source>Nothing to look at.</source>
+        <translation>Ora ana sing kudu dideleng.</translation>
+    </message>
+    <message>
+        <source>Problem</source>
+        <translation>Masalah</translation>
+    </message>
+    <message>
+        <source>To look at</source>
+        <translation>Kudu dideleng</translation>
+    </message>
+    <message>
+        <source>Fine</source>
+        <translation>Apik</translation>
+    </message>
+    <message>
+        <source>Open the field</source>
+        <translation>Bukak kolom</translation>
+    </message>
+    <message>
+        <source>Show it on the page</source>
+        <translation>Tuduhake ing kaca</translation>
+    </message>
+    <message>
+        <source>SEO</source>
+        <translation>SEO</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Kothak mlebu</translation>
     </message>

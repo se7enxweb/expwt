@@ -592,6 +592,122 @@
         <translation>ບ່ອນທີ່ຜູ້ເຂົ້າຊົມມາຈາກບໍ່ໄດ້ບັນທຶກໃນການຕິດຕັ້ງນີ້.</translation>
     </message>
     <message>
+        <source>The page has no title.</source>
+        <translation>ໜ້ານີ້ບໍ່ມີຫົວຂໍ້.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters; 30 to 60 fit search results.</source>
+        <translation>ຫົວຂໍ້ມີ %n ຕົວອັກສອນ; 30 ຫາ 60 ພໍດີກັບຜົນການຊອກຫາ.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters.</source>
+        <translation>ຫົວຂໍ້ມີ %n ຕົວອັກສອນ.</translation>
+    </message>
+    <message>
+        <source>The page has no description.</source>
+        <translation>ໜ້ານີ້ບໍ່ມີຄຳອະທິບາຍ.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters; 70 to 160 fit search results.</source>
+        <translation>ຄຳອະທິບາຍມີ %n ຕົວອັກສອນ; 70 ຫາ 160 ພໍດີກັບຜົນການຊອກຫາ.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters.</source>
+        <translation>ຄຳອະທິບາຍມີ %n ຕົວອັກສອນ.</translation>
+    </message>
+    <message>
+        <source>The page has no main heading (h1).</source>
+        <translation>ໜ້ານີ້ບໍ່ມີຫົວເລື່ອງຫຼັກ (h1).</translation>
+    </message>
+    <message>
+        <source>The page has %n main headings (h1); one is best.</source>
+        <translation>ໜ້ານີ້ມີຫົວເລື່ອງຫຼັກ %n ອັນ (h1); ອັນດຽວດີທີ່ສຸດ.</translation>
+    </message>
+    <message>
+        <source>A heading jumps from level %from to level %to.</source>
+        <translation>ຫົວເລື່ອງໜຶ່ງໂດດຈາກລະດັບ %from ໄປລະດັບ %to.</translation>
+    </message>
+    <message>
+        <source>The headings are in order.</source>
+        <translation>ຫົວເລື່ອງຢູ່ຕາມລຳດັບ.</translation>
+    </message>
+    <message>
+        <source>An image has no alternative text.</source>
+        <translation>ຮູບໜຶ່ງບໍ່ມີຂໍ້ຄວາມທົດແທນ.</translation>
+    </message>
+    <message>
+        <source>Every image has an alternative text.</source>
+        <translation>ທຸກຮູບມີຂໍ້ຄວາມທົດແທນ.</translation>
+    </message>
+    <message>
+        <source>The page names no canonical address.</source>
+        <translation>ໜ້ານີ້ບໍ່ໄດ້ລະບຸທີ່ຢູ່ canonical.</translation>
+    </message>
+    <message>
+        <source>The page names %n canonical addresses; one is right.</source>
+        <translation>ໜ້ານີ້ລະບຸທີ່ຢູ່ canonical %n ອັນ; ອັນດຽວຈຶ່ງຖືກ.</translation>
+    </message>
+    <message>
+        <source>The canonical address is another page: %url</source>
+        <translation>ທີ່ຢູ່ canonical ແມ່ນໜ້າອື່ນ: %url</translation>
+    </message>
+    <message>
+        <source>The canonical address is this page.</source>
+        <translation>ທີ່ຢູ່ canonical ແມ່ນໜ້ານີ້.</translation>
+    </message>
+    <message>
+        <source>Search engines are asked not to list this page (robots: %value).</source>
+        <translation>ຂໍໃຫ້ເຄື່ອງມືຊອກຫາບໍ່ລົງລາຍການໜ້ານີ້ (robots: %value).</translation>
+    </message>
+    <message>
+        <source>A link leads nowhere: %url</source>
+        <translation>ລິ້ງໜຶ່ງບໍ່ໄປໃສ: %url</translation>
+    </message>
+    <message>
+        <source>All %n links checked on this page lead somewhere.</source>
+        <translation>ລິ້ງທັງໝົດ %n ອັນທີ່ກວດໃນໜ້ານີ້ໄປບ່ອນໃດບ່ອນໜຶ່ງ.</translation>
+    </message>
+    <message>
+        <source>Checking ...</source>
+        <translation>ກຳລັງກວດ ...</translation>
+    </message>
+    <message>
+        <source>Check again</source>
+        <translation>ກວດອີກຄັ້ງ</translation>
+    </message>
+    <message>
+        <source>%n things to look at</source>
+        <translation>%n ເລື່ອງທີ່ຄວນເບິ່ງ</translation>
+    </message>
+    <message>
+        <source>Nothing to look at.</source>
+        <translation>ບໍ່ມີຫຍັງໃຫ້ເບິ່ງ.</translation>
+    </message>
+    <message>
+        <source>Problem</source>
+        <translation>ບັນຫາ</translation>
+    </message>
+    <message>
+        <source>To look at</source>
+        <translation>ຄວນເບິ່ງ</translation>
+    </message>
+    <message>
+        <source>Fine</source>
+        <translation>ດີ</translation>
+    </message>
+    <message>
+        <source>Open the field</source>
+        <translation>ເປີດຊ່ອງ</translation>
+    </message>
+    <message>
+        <source>Show it on the page</source>
+        <translation>ສະແດງໃນໜ້າ</translation>
+    </message>
+    <message>
+        <source>SEO</source>
+        <translation>SEO</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>ກ່ອງຂາເຂົ້າ</translation>
     </message>

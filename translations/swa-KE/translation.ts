@@ -592,6 +592,122 @@
         <translation>Wageni walikotoka hakurekodiwi kwenye usakinishaji huu.</translation>
     </message>
     <message>
+        <source>The page has no title.</source>
+        <translation>Ukurasa hauna kichwa.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters; 30 to 60 fit search results.</source>
+        <translation>Kichwa kina herufi %n; 30 hadi 60 zinatosha katika matokeo ya utafutaji.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters.</source>
+        <translation>Kichwa kina herufi %n.</translation>
+    </message>
+    <message>
+        <source>The page has no description.</source>
+        <translation>Ukurasa hauna maelezo.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters; 70 to 160 fit search results.</source>
+        <translation>Maelezo yana herufi %n; 70 hadi 160 zinatosha katika matokeo ya utafutaji.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters.</source>
+        <translation>Maelezo yana herufi %n.</translation>
+    </message>
+    <message>
+        <source>The page has no main heading (h1).</source>
+        <translation>Ukurasa hauna kichwa kikuu (h1).</translation>
+    </message>
+    <message>
+        <source>The page has %n main headings (h1); one is best.</source>
+        <translation>Ukurasa una vichwa vikuu %n (h1); kimoja ndicho bora.</translation>
+    </message>
+    <message>
+        <source>A heading jumps from level %from to level %to.</source>
+        <translation>Kichwa kimoja kinaruka kutoka kiwango %from hadi kiwango %to.</translation>
+    </message>
+    <message>
+        <source>The headings are in order.</source>
+        <translation>Vichwa viko kwa mpangilio.</translation>
+    </message>
+    <message>
+        <source>An image has no alternative text.</source>
+        <translation>Picha moja haina maandishi mbadala.</translation>
+    </message>
+    <message>
+        <source>Every image has an alternative text.</source>
+        <translation>Kila picha ina maandishi mbadala.</translation>
+    </message>
+    <message>
+        <source>The page names no canonical address.</source>
+        <translation>Ukurasa hautaji anwani ya canonical.</translation>
+    </message>
+    <message>
+        <source>The page names %n canonical addresses; one is right.</source>
+        <translation>Ukurasa unataja anwani %n za canonical; moja ndiyo sahihi.</translation>
+    </message>
+    <message>
+        <source>The canonical address is another page: %url</source>
+        <translation>Anwani ya canonical ni ukurasa mwingine: %url</translation>
+    </message>
+    <message>
+        <source>The canonical address is this page.</source>
+        <translation>Anwani ya canonical ni ukurasa huu.</translation>
+    </message>
+    <message>
+        <source>Search engines are asked not to list this page (robots: %value).</source>
+        <translation>Injini za utafutaji zinaombwa zisiorodheshe ukurasa huu (robots: %value).</translation>
+    </message>
+    <message>
+        <source>A link leads nowhere: %url</source>
+        <translation>Kiungo kimoja hakielekei popote: %url</translation>
+    </message>
+    <message>
+        <source>All %n links checked on this page lead somewhere.</source>
+        <translation>Viungo vyote %n vilivyokaguliwa kwenye ukurasa huu vinaelekea mahali fulani.</translation>
+    </message>
+    <message>
+        <source>Checking ...</source>
+        <translation>Inakagua ...</translation>
+    </message>
+    <message>
+        <source>Check again</source>
+        <translation>Kagua tena</translation>
+    </message>
+    <message>
+        <source>%n things to look at</source>
+        <translation>Mambo %n ya kuangalia</translation>
+    </message>
+    <message>
+        <source>Nothing to look at.</source>
+        <translation>Hakuna cha kuangalia.</translation>
+    </message>
+    <message>
+        <source>Problem</source>
+        <translation>Tatizo</translation>
+    </message>
+    <message>
+        <source>To look at</source>
+        <translation>Ya kuangalia</translation>
+    </message>
+    <message>
+        <source>Fine</source>
+        <translation>Sawa</translation>
+    </message>
+    <message>
+        <source>Open the field</source>
+        <translation>Fungua sehemu</translation>
+    </message>
+    <message>
+        <source>Show it on the page</source>
+        <translation>Ionyeshe kwenye ukurasa</translation>
+    </message>
+    <message>
+        <source>SEO</source>
+        <translation>SEO</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Kikasha</translation>
     </message>

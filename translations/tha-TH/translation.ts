@@ -592,6 +592,122 @@
         <translation>การติดตั้งนี้ไม่บันทึกว่าผู้เยี่ยมชมมาจากที่ใด</translation>
     </message>
     <message>
+        <source>The page has no title.</source>
+        <translation>หน้านี้ไม่มีชื่อเรื่อง</translation>
+    </message>
+    <message>
+        <source>The title has %n characters; 30 to 60 fit search results.</source>
+        <translation>ชื่อเรื่องมี %n ตัวอักษร; 30 ถึง 60 ตัวพอดีกับผลการค้นหา</translation>
+    </message>
+    <message>
+        <source>The title has %n characters.</source>
+        <translation>ชื่อเรื่องมี %n ตัวอักษร</translation>
+    </message>
+    <message>
+        <source>The page has no description.</source>
+        <translation>หน้านี้ไม่มีคำอธิบาย</translation>
+    </message>
+    <message>
+        <source>The description has %n characters; 70 to 160 fit search results.</source>
+        <translation>คำอธิบายมี %n ตัวอักษร; 70 ถึง 160 ตัวพอดีกับผลการค้นหา</translation>
+    </message>
+    <message>
+        <source>The description has %n characters.</source>
+        <translation>คำอธิบายมี %n ตัวอักษร</translation>
+    </message>
+    <message>
+        <source>The page has no main heading (h1).</source>
+        <translation>หน้านี้ไม่มีหัวข้อหลัก (h1)</translation>
+    </message>
+    <message>
+        <source>The page has %n main headings (h1); one is best.</source>
+        <translation>หน้านี้มีหัวข้อหลัก %n รายการ (h1); มีเพียงหนึ่งดีที่สุด</translation>
+    </message>
+    <message>
+        <source>A heading jumps from level %from to level %to.</source>
+        <translation>หัวข้อหนึ่งข้ามจากระดับ %from ไปยังระดับ %to</translation>
+    </message>
+    <message>
+        <source>The headings are in order.</source>
+        <translation>หัวข้อเรียงตามลำดับ</translation>
+    </message>
+    <message>
+        <source>An image has no alternative text.</source>
+        <translation>รูปภาพหนึ่งไม่มีข้อความแทน</translation>
+    </message>
+    <message>
+        <source>Every image has an alternative text.</source>
+        <translation>ทุกรูปภาพมีข้อความแทน</translation>
+    </message>
+    <message>
+        <source>The page names no canonical address.</source>
+        <translation>หน้านี้ไม่ได้ระบุที่อยู่ canonical</translation>
+    </message>
+    <message>
+        <source>The page names %n canonical addresses; one is right.</source>
+        <translation>หน้านี้ระบุที่อยู่ canonical %n รายการ; ที่ถูกต้องคือหนึ่ง</translation>
+    </message>
+    <message>
+        <source>The canonical address is another page: %url</source>
+        <translation>ที่อยู่ canonical เป็นหน้าอื่น: %url</translation>
+    </message>
+    <message>
+        <source>The canonical address is this page.</source>
+        <translation>ที่อยู่ canonical คือหน้านี้</translation>
+    </message>
+    <message>
+        <source>Search engines are asked not to list this page (robots: %value).</source>
+        <translation>ขอให้เครื่องมือค้นหาไม่แสดงหน้านี้ (robots: %value)</translation>
+    </message>
+    <message>
+        <source>A link leads nowhere: %url</source>
+        <translation>ลิงก์หนึ่งไม่ได้ไปที่ใดเลย: %url</translation>
+    </message>
+    <message>
+        <source>All %n links checked on this page lead somewhere.</source>
+        <translation>ลิงก์ทั้ง %n รายการที่ตรวจในหน้านี้ไปยังที่ใดที่หนึ่ง</translation>
+    </message>
+    <message>
+        <source>Checking ...</source>
+        <translation>กำลังตรวจ ...</translation>
+    </message>
+    <message>
+        <source>Check again</source>
+        <translation>ตรวจอีกครั้ง</translation>
+    </message>
+    <message>
+        <source>%n things to look at</source>
+        <translation>%n เรื่องที่ควรดู</translation>
+    </message>
+    <message>
+        <source>Nothing to look at.</source>
+        <translation>ไม่มีอะไรต้องดู</translation>
+    </message>
+    <message>
+        <source>Problem</source>
+        <translation>ปัญหา</translation>
+    </message>
+    <message>
+        <source>To look at</source>
+        <translation>ควรดู</translation>
+    </message>
+    <message>
+        <source>Fine</source>
+        <translation>ดี</translation>
+    </message>
+    <message>
+        <source>Open the field</source>
+        <translation>เปิดฟิลด์</translation>
+    </message>
+    <message>
+        <source>Show it on the page</source>
+        <translation>แสดงบนหน้า</translation>
+    </message>
+    <message>
+        <source>SEO</source>
+        <translation>SEO</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>กล่องขาเข้า</translation>
     </message>

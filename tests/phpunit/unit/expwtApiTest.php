@@ -67,6 +67,7 @@ class expwtApiTestGateway extends expwtGateway
     public function inbox( array $in ) { return $this->record( 'inbox', $in ); }
     public function decide( array $in ) { return $this->record( 'decide', $in ); }
     public function insights( array $in ) { return $this->record( 'insights', $in ); }
+    public function seoCheck( array $in ) { return $this->record( 'seoCheck', $in ); }
     public $registered = array( 'panels' => array(), 'actions' => array(), 'highlights' => array(), 'search' => array() );
     public $policies = array();
     public function registeredActions() { return $this->registered['actions']; }

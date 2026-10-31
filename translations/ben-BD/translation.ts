@@ -592,6 +592,122 @@
         <translation>দর্শকেরা কোথা থেকে এসেছেন তা এই ইনস্টলেশনে রেকর্ড করা হয় না।</translation>
     </message>
     <message>
+        <source>The page has no title.</source>
+        <translation>পৃষ্ঠাটির কোনো শিরোনাম নেই।</translation>
+    </message>
+    <message>
+        <source>The title has %n characters; 30 to 60 fit search results.</source>
+        <translation>শিরোনামে %n অক্ষর আছে; অনুসন্ধানের ফলাফলে 30 থেকে 60 অক্ষর আঁটে।</translation>
+    </message>
+    <message>
+        <source>The title has %n characters.</source>
+        <translation>শিরোনামে %n অক্ষর আছে।</translation>
+    </message>
+    <message>
+        <source>The page has no description.</source>
+        <translation>পৃষ্ঠাটির কোনো বিবরণ নেই।</translation>
+    </message>
+    <message>
+        <source>The description has %n characters; 70 to 160 fit search results.</source>
+        <translation>বিবরণে %n অক্ষর আছে; অনুসন্ধানের ফলাফলে 70 থেকে 160 অক্ষর আঁটে।</translation>
+    </message>
+    <message>
+        <source>The description has %n characters.</source>
+        <translation>বিবরণে %n অক্ষর আছে।</translation>
+    </message>
+    <message>
+        <source>The page has no main heading (h1).</source>
+        <translation>পৃষ্ঠাটির কোনো প্রধান শিরোনাম (h1) নেই।</translation>
+    </message>
+    <message>
+        <source>The page has %n main headings (h1); one is best.</source>
+        <translation>পৃষ্ঠাটিতে %n টি প্রধান শিরোনাম (h1) আছে; একটিই সবচেয়ে ভালো।</translation>
+    </message>
+    <message>
+        <source>A heading jumps from level %from to level %to.</source>
+        <translation>একটি শিরোনাম স্তর %from থেকে স্তর %to-এ লাফিয়ে যায়।</translation>
+    </message>
+    <message>
+        <source>The headings are in order.</source>
+        <translation>শিরোনামগুলো ক্রম অনুযায়ী আছে।</translation>
+    </message>
+    <message>
+        <source>An image has no alternative text.</source>
+        <translation>একটি ছবির কোনো বিকল্প লেখা নেই।</translation>
+    </message>
+    <message>
+        <source>Every image has an alternative text.</source>
+        <translation>প্রতিটি ছবির বিকল্প লেখা আছে।</translation>
+    </message>
+    <message>
+        <source>The page names no canonical address.</source>
+        <translation>পৃষ্ঠাটি কোনো ক্যানোনিকাল ঠিকানা উল্লেখ করে না।</translation>
+    </message>
+    <message>
+        <source>The page names %n canonical addresses; one is right.</source>
+        <translation>পৃষ্ঠাটি %n টি ক্যানোনিকাল ঠিকানা উল্লেখ করে; একটিই সঠিক।</translation>
+    </message>
+    <message>
+        <source>The canonical address is another page: %url</source>
+        <translation>ক্যানোনিকাল ঠিকানাটি অন্য একটি পৃষ্ঠা: %url</translation>
+    </message>
+    <message>
+        <source>The canonical address is this page.</source>
+        <translation>ক্যানোনিকাল ঠিকানাটি এই পৃষ্ঠাই।</translation>
+    </message>
+    <message>
+        <source>Search engines are asked not to list this page (robots: %value).</source>
+        <translation>সার্চ ইঞ্জিনগুলোকে এই পৃষ্ঠাটি তালিকাভুক্ত না করতে বলা হয়েছে (robots: %value)।</translation>
+    </message>
+    <message>
+        <source>A link leads nowhere: %url</source>
+        <translation>একটি লিঙ্ক কোথাও নিয়ে যায় না: %url</translation>
+    </message>
+    <message>
+        <source>All %n links checked on this page lead somewhere.</source>
+        <translation>এই পৃষ্ঠায় যাচাই করা সব %n টি লিঙ্ক কোথাও না কোথাও নিয়ে যায়।</translation>
+    </message>
+    <message>
+        <source>Checking ...</source>
+        <translation>যাচাই করা হচ্ছে ...</translation>
+    </message>
+    <message>
+        <source>Check again</source>
+        <translation>আবার যাচাই করুন</translation>
+    </message>
+    <message>
+        <source>%n things to look at</source>
+        <translation>দেখার মতো %n টি বিষয়</translation>
+    </message>
+    <message>
+        <source>Nothing to look at.</source>
+        <translation>দেখার মতো কিছু নেই।</translation>
+    </message>
+    <message>
+        <source>Problem</source>
+        <translation>সমস্যা</translation>
+    </message>
+    <message>
+        <source>To look at</source>
+        <translation>দেখার মতো</translation>
+    </message>
+    <message>
+        <source>Fine</source>
+        <translation>ঠিক আছে</translation>
+    </message>
+    <message>
+        <source>Open the field</source>
+        <translation>ফিল্ডটি খুলুন</translation>
+    </message>
+    <message>
+        <source>Show it on the page</source>
+        <translation>পৃষ্ঠায় দেখান</translation>
+    </message>
+    <message>
+        <source>SEO</source>
+        <translation>SEO</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>ইনবক্স</translation>
     </message>

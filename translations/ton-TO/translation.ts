@@ -592,6 +592,122 @@
         <translation>ʻOku ʻikai lēkooti ʻi he fokotuʻu ko ʻeni ʻa e feituʻu naʻe haʻu mei ai ʻa e kau ʻaʻahi.</translation>
     </message>
     <message>
+        <source>The page has no title.</source>
+        <translation>ʻOku ʻikai ha hingoa ʻo e peesi.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters; 30 to 60 fit search results.</source>
+        <translation>ʻOku %n ʻa e mataʻitohi ʻo e hingoa; ʻoku feʻunga ʻa e 30 ki he 60 ki he ola ʻo e kumi.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters.</source>
+        <translation>ʻOku %n ʻa e mataʻitohi ʻo e hingoa.</translation>
+    </message>
+    <message>
+        <source>The page has no description.</source>
+        <translation>ʻOku ʻikai ha fakamatala ʻo e peesi.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters; 70 to 160 fit search results.</source>
+        <translation>ʻOku %n ʻa e mataʻitohi ʻo e fakamatala; ʻoku feʻunga ʻa e 70 ki he 160 ki he ola ʻo e kumi.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters.</source>
+        <translation>ʻOku %n ʻa e mataʻitohi ʻo e fakamatala.</translation>
+    </message>
+    <message>
+        <source>The page has no main heading (h1).</source>
+        <translation>ʻOku ʻikai ha ʻuluʻi tefito (h1) ʻo e peesi.</translation>
+    </message>
+    <message>
+        <source>The page has %n main headings (h1); one is best.</source>
+        <translation>ʻOku %n ʻa e ʻuluʻi tefito (h1) ʻo e peesi; ʻoku lelei taha ʻa e taha.</translation>
+    </message>
+    <message>
+        <source>A heading jumps from level %from to level %to.</source>
+        <translation>ʻOku puna ha ʻuluʻi mei he tuʻunga %from ki he tuʻunga %to.</translation>
+    </message>
+    <message>
+        <source>The headings are in order.</source>
+        <translation>ʻOku hokohoko lelei ʻa e ngaahi ʻuluʻi.</translation>
+    </message>
+    <message>
+        <source>An image has no alternative text.</source>
+        <translation>ʻOku ʻikai ha tohi fetongi ʻa ha taʻataʻa.</translation>
+    </message>
+    <message>
+        <source>Every image has an alternative text.</source>
+        <translation>ʻOku ʻi ai ha tohi fetongi ʻa e taʻataʻa kotoa pē.</translation>
+    </message>
+    <message>
+        <source>The page names no canonical address.</source>
+        <translation>ʻOku ʻikai fakahingoa ʻe he peesi ha tuʻasila canonical.</translation>
+    </message>
+    <message>
+        <source>The page names %n canonical addresses; one is right.</source>
+        <translation>ʻOku fakahingoa ʻe he peesi ha tuʻasila canonical ʻe %n; ʻoku tonu pē ʻa e taha.</translation>
+    </message>
+    <message>
+        <source>The canonical address is another page: %url</source>
+        <translation>Ko e tuʻasila canonical ko ha peesi kehe: %url</translation>
+    </message>
+    <message>
+        <source>The canonical address is this page.</source>
+        <translation>Ko e tuʻasila canonical ko e peesi ni.</translation>
+    </message>
+    <message>
+        <source>Search engines are asked not to list this page (robots: %value).</source>
+        <translation>ʻOku kole ki he ngaahi misini kumi ke ʻoua te nau lisiʻi ʻa e peesi ni (robots: %value).</translation>
+    </message>
+    <message>
+        <source>A link leads nowhere: %url</source>
+        <translation>ʻOku ʻikai ʻave ʻe ha fehokotaki ki ha feituʻu: %url</translation>
+    </message>
+    <message>
+        <source>All %n links checked on this page lead somewhere.</source>
+        <translation>ʻOku ʻave ʻe he fehokotaki kotoa ʻe %n naʻe siviʻi ʻi he peesi ni ki ha feituʻu.</translation>
+    </message>
+    <message>
+        <source>Checking ...</source>
+        <translation>ʻOku siviʻi ...</translation>
+    </message>
+    <message>
+        <source>Check again</source>
+        <translation>Siviʻi ʻo toe</translation>
+    </message>
+    <message>
+        <source>%n things to look at</source>
+        <translation>Meʻa ʻe %n ke vakai ki ai</translation>
+    </message>
+    <message>
+        <source>Nothing to look at.</source>
+        <translation>ʻIkai ha meʻa ke vakai ki ai.</translation>
+    </message>
+    <message>
+        <source>Problem</source>
+        <translation>Palopalema</translation>
+    </message>
+    <message>
+        <source>To look at</source>
+        <translation>Ke vakai ki ai</translation>
+    </message>
+    <message>
+        <source>Fine</source>
+        <translation>Sai</translation>
+    </message>
+    <message>
+        <source>Open the field</source>
+        <translation>Fakaava ʻa e feituʻu</translation>
+    </message>
+    <message>
+        <source>Show it on the page</source>
+        <translation>Fakahā ʻi he peesi</translation>
+    </message>
+    <message>
+        <source>SEO</source>
+        <translation>SEO</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Puha tohi hū mai</translation>
     </message>

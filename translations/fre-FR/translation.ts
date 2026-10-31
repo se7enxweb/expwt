@@ -592,6 +592,122 @@
         <translation>La provenance des visiteurs n'est pas enregistrée sur cette installation.</translation>
     </message>
     <message>
+        <source>The page has no title.</source>
+        <translation>La page n'a pas de titre.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters; 30 to 60 fit search results.</source>
+        <translation>Le titre compte %n caractères ; de 30 à 60 tiennent dans les résultats de recherche.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters.</source>
+        <translation>Le titre compte %n caractères.</translation>
+    </message>
+    <message>
+        <source>The page has no description.</source>
+        <translation>La page n'a pas de description.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters; 70 to 160 fit search results.</source>
+        <translation>La description compte %n caractères ; de 70 à 160 tiennent dans les résultats de recherche.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters.</source>
+        <translation>La description compte %n caractères.</translation>
+    </message>
+    <message>
+        <source>The page has no main heading (h1).</source>
+        <translation>La page n'a pas de titre principal (h1).</translation>
+    </message>
+    <message>
+        <source>The page has %n main headings (h1); one is best.</source>
+        <translation>La page a %n titres principaux (h1) ; un seul est préférable.</translation>
+    </message>
+    <message>
+        <source>A heading jumps from level %from to level %to.</source>
+        <translation>Un titre saute du niveau %from au niveau %to.</translation>
+    </message>
+    <message>
+        <source>The headings are in order.</source>
+        <translation>Les titres sont dans l'ordre.</translation>
+    </message>
+    <message>
+        <source>An image has no alternative text.</source>
+        <translation>Une image n'a pas de texte alternatif.</translation>
+    </message>
+    <message>
+        <source>Every image has an alternative text.</source>
+        <translation>Chaque image a un texte alternatif.</translation>
+    </message>
+    <message>
+        <source>The page names no canonical address.</source>
+        <translation>La page n'indique aucune adresse canonique.</translation>
+    </message>
+    <message>
+        <source>The page names %n canonical addresses; one is right.</source>
+        <translation>La page indique %n adresses canoniques ; une seule est correcte.</translation>
+    </message>
+    <message>
+        <source>The canonical address is another page: %url</source>
+        <translation>L'adresse canonique est une autre page : %url</translation>
+    </message>
+    <message>
+        <source>The canonical address is this page.</source>
+        <translation>L'adresse canonique est cette page.</translation>
+    </message>
+    <message>
+        <source>Search engines are asked not to list this page (robots: %value).</source>
+        <translation>Les moteurs de recherche sont priés de ne pas référencer cette page (robots: %value).</translation>
+    </message>
+    <message>
+        <source>A link leads nowhere: %url</source>
+        <translation>Un lien ne mène nulle part : %url</translation>
+    </message>
+    <message>
+        <source>All %n links checked on this page lead somewhere.</source>
+        <translation>Les %n liens vérifiés sur cette page mènent tous quelque part.</translation>
+    </message>
+    <message>
+        <source>Checking ...</source>
+        <translation>Vérification ...</translation>
+    </message>
+    <message>
+        <source>Check again</source>
+        <translation>Vérifier à nouveau</translation>
+    </message>
+    <message>
+        <source>%n things to look at</source>
+        <translation>%n points à examiner</translation>
+    </message>
+    <message>
+        <source>Nothing to look at.</source>
+        <translation>Rien à examiner.</translation>
+    </message>
+    <message>
+        <source>Problem</source>
+        <translation>Problème</translation>
+    </message>
+    <message>
+        <source>To look at</source>
+        <translation>À examiner</translation>
+    </message>
+    <message>
+        <source>Fine</source>
+        <translation>Correct</translation>
+    </message>
+    <message>
+        <source>Open the field</source>
+        <translation>Ouvrir le champ</translation>
+    </message>
+    <message>
+        <source>Show it on the page</source>
+        <translation>Le montrer sur la page</translation>
+    </message>
+    <message>
+        <source>SEO</source>
+        <translation>SEO</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Boîte de réception</translation>
     </message>

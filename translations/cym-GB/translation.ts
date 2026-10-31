@@ -592,6 +592,122 @@
         <translation>Nid yw o ble y daeth ymwelwyr yn cael ei gofnodi ar y gosodiad hwn.</translation>
     </message>
     <message>
+        <source>The page has no title.</source>
+        <translation>Does dim teitl gan y dudalen.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters; 30 to 60 fit search results.</source>
+        <translation>Mae gan y teitl %n nod; mae 30 i 60 yn ffitio canlyniadau chwilio.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters.</source>
+        <translation>Mae gan y teitl %n nod.</translation>
+    </message>
+    <message>
+        <source>The page has no description.</source>
+        <translation>Does dim disgrifiad gan y dudalen.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters; 70 to 160 fit search results.</source>
+        <translation>Mae gan y disgrifiad %n nod; mae 70 i 160 yn ffitio canlyniadau chwilio.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters.</source>
+        <translation>Mae gan y disgrifiad %n nod.</translation>
+    </message>
+    <message>
+        <source>The page has no main heading (h1).</source>
+        <translation>Does dim prif bennawd (h1) gan y dudalen.</translation>
+    </message>
+    <message>
+        <source>The page has %n main headings (h1); one is best.</source>
+        <translation>Mae gan y dudalen %n prif bennawd (h1); un sydd orau.</translation>
+    </message>
+    <message>
+        <source>A heading jumps from level %from to level %to.</source>
+        <translation>Mae pennawd yn neidio o lefel %from i lefel %to.</translation>
+    </message>
+    <message>
+        <source>The headings are in order.</source>
+        <translation>Mae'r penawdau mewn trefn.</translation>
+    </message>
+    <message>
+        <source>An image has no alternative text.</source>
+        <translation>Does dim testun amgen gan ddelwedd.</translation>
+    </message>
+    <message>
+        <source>Every image has an alternative text.</source>
+        <translation>Mae gan bob delwedd destun amgen.</translation>
+    </message>
+    <message>
+        <source>The page names no canonical address.</source>
+        <translation>Nid yw'r dudalen yn enwi cyfeiriad canonaidd.</translation>
+    </message>
+    <message>
+        <source>The page names %n canonical addresses; one is right.</source>
+        <translation>Mae'r dudalen yn enwi %n cyfeiriad canonaidd; un sy'n gywir.</translation>
+    </message>
+    <message>
+        <source>The canonical address is another page: %url</source>
+        <translation>Tudalen arall yw'r cyfeiriad canonaidd: %url</translation>
+    </message>
+    <message>
+        <source>The canonical address is this page.</source>
+        <translation>Y dudalen hon yw'r cyfeiriad canonaidd.</translation>
+    </message>
+    <message>
+        <source>Search engines are asked not to list this page (robots: %value).</source>
+        <translation>Gofynnir i beiriannau chwilio beidio â rhestru'r dudalen hon (robots: %value).</translation>
+    </message>
+    <message>
+        <source>A link leads nowhere: %url</source>
+        <translation>Nid yw dolen yn arwain i unman: %url</translation>
+    </message>
+    <message>
+        <source>All %n links checked on this page lead somewhere.</source>
+        <translation>Mae pob un o'r %n dolen a wiriwyd ar y dudalen hon yn arwain i rywle.</translation>
+    </message>
+    <message>
+        <source>Checking ...</source>
+        <translation>Wrthi'n gwirio ...</translation>
+    </message>
+    <message>
+        <source>Check again</source>
+        <translation>Gwirio eto</translation>
+    </message>
+    <message>
+        <source>%n things to look at</source>
+        <translation>%n peth i edrych arnynt</translation>
+    </message>
+    <message>
+        <source>Nothing to look at.</source>
+        <translation>Dim byd i edrych arno.</translation>
+    </message>
+    <message>
+        <source>Problem</source>
+        <translation>Problem</translation>
+    </message>
+    <message>
+        <source>To look at</source>
+        <translation>I edrych arno</translation>
+    </message>
+    <message>
+        <source>Fine</source>
+        <translation>Iawn</translation>
+    </message>
+    <message>
+        <source>Open the field</source>
+        <translation>Agor y maes</translation>
+    </message>
+    <message>
+        <source>Show it on the page</source>
+        <translation>Dangos ar y dudalen</translation>
+    </message>
+    <message>
+        <source>SEO</source>
+        <translation>SEO</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Mewnflwch</translation>
     </message>

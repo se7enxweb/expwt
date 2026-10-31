@@ -592,6 +592,122 @@
         <translation>Lajɛlikɛlaw bɔra yɔrɔ min na, o tɛ sɛbɛn ladonni in na.</translation>
     </message>
     <message>
+        <source>The page has no title.</source>
+        <translation>Ɲɛ in tɔgɔ tɛ.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters; 30 to 60 fit search results.</source>
+        <translation>Tɔgɔ in sɛbɛnni %n de bɛ a la; 30 ka se 60 ma bɛ ɲinini jaabiw kɔnɔ.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters.</source>
+        <translation>Tɔgɔ in sɛbɛnni %n de bɛ a la.</translation>
+    </message>
+    <message>
+        <source>The page has no description.</source>
+        <translation>Ɲɛ in ɲɛfɔli tɛ.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters; 70 to 160 fit search results.</source>
+        <translation>Ɲɛfɔli in sɛbɛnni %n de bɛ a la; 70 ka se 160 ma bɛ ɲinini jaabiw kɔnɔ.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters.</source>
+        <translation>Ɲɛfɔli in sɛbɛnni %n de bɛ a la.</translation>
+    </message>
+    <message>
+        <source>The page has no main heading (h1).</source>
+        <translation>Ɲɛ in kunkɔrɔ ba (h1) tɛ.</translation>
+    </message>
+    <message>
+        <source>The page has %n main headings (h1); one is best.</source>
+        <translation>Kunkɔrɔ ba %n de bɛ ɲɛ in na (h1); kelen de ka fisa.</translation>
+    </message>
+    <message>
+        <source>A heading jumps from level %from to level %to.</source>
+        <translation>Kunkɔrɔ dɔ bɛ pan ka bɔ dakun %from la ka taa dakun %to la.</translation>
+    </message>
+    <message>
+        <source>The headings are in order.</source>
+        <translation>Kunkɔrɔw bɛ u nɔ na.</translation>
+    </message>
+    <message>
+        <source>An image has no alternative text.</source>
+        <translation>Ja dɔ sɛbɛn falen tɛ.</translation>
+    </message>
+    <message>
+        <source>Every image has an alternative text.</source>
+        <translation>Ja bɛɛ sɛbɛn falen bɛ.</translation>
+    </message>
+    <message>
+        <source>The page names no canonical address.</source>
+        <translation>Ɲɛ in tɛ aderɛsi sabatilen si fɔ.</translation>
+    </message>
+    <message>
+        <source>The page names %n canonical addresses; one is right.</source>
+        <translation>Ɲɛ in bɛ aderɛsi sabatilen %n fɔ; kelen de ka ɲi.</translation>
+    </message>
+    <message>
+        <source>The canonical address is another page: %url</source>
+        <translation>Aderɛsi sabatilen ye ɲɛ wɛrɛ ye: %url</translation>
+    </message>
+    <message>
+        <source>The canonical address is this page.</source>
+        <translation>Aderɛsi sabatilen ye ɲɛ in yɛrɛ ye.</translation>
+    </message>
+    <message>
+        <source>Search engines are asked not to list this page (robots: %value).</source>
+        <translation>Ɲinini masinw delila ko u kana ɲɛ in sɛbɛn (robots: %value).</translation>
+    </message>
+    <message>
+        <source>A link leads nowhere: %url</source>
+        <translation>Lien dɔ tɛ taa yɔrɔ si: %url</translation>
+    </message>
+    <message>
+        <source>All %n links checked on this page lead somewhere.</source>
+        <translation>Lien %n minnu lajɛra ɲɛ in kan, olu bɛɛ bɛ taa yɔrɔ dɔ.</translation>
+    </message>
+    <message>
+        <source>Checking ...</source>
+        <translation>A lajɛli bɛ kɛ ...</translation>
+    </message>
+    <message>
+        <source>Check again</source>
+        <translation>A lajɛ tugun</translation>
+    </message>
+    <message>
+        <source>%n things to look at</source>
+        <translation>Fɛn %n lajɛta</translation>
+    </message>
+    <message>
+        <source>Nothing to look at.</source>
+        <translation>Fɛn si tɛ lajɛta.</translation>
+    </message>
+    <message>
+        <source>Problem</source>
+        <translation>Gɛlɛya</translation>
+    </message>
+    <message>
+        <source>To look at</source>
+        <translation>Ka lajɛ</translation>
+    </message>
+    <message>
+        <source>Fine</source>
+        <translation>A ka ɲi</translation>
+    </message>
+    <message>
+        <source>Open the field</source>
+        <translation>Yɔrɔ in da wuli</translation>
+    </message>
+    <message>
+        <source>Show it on the page</source>
+        <translation>A jira ɲɛ in kan</translation>
+    </message>
+    <message>
+        <source>SEO</source>
+        <translation>SEO</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Bataki donnenw</translation>
     </message>

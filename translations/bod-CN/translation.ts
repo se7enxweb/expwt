@@ -592,6 +592,122 @@
         <translation>ལྟ་མཁན་གང་ནས་ཡོང་བ་སྒྲིག་འཇུག་འདིར་ཐོ་འགོད་མི་བྱེད།</translation>
     </message>
     <message>
+        <source>The page has no title.</source>
+        <translation>ཤོག་ངོས་ལ་ཁ་བྱང་མེད།</translation>
+    </message>
+    <message>
+        <source>The title has %n characters; 30 to 60 fit search results.</source>
+        <translation>ཁ་བྱང་ལ་ཡིག་འབྲུ་ %n ཡོད། འཚོལ་འབྲས་ནང་ 30 ནས་ 60 བར་འོས།</translation>
+    </message>
+    <message>
+        <source>The title has %n characters.</source>
+        <translation>ཁ་བྱང་ལ་ཡིག་འབྲུ་ %n ཡོད།</translation>
+    </message>
+    <message>
+        <source>The page has no description.</source>
+        <translation>ཤོག་ངོས་ལ་འགྲེལ་བཤད་མེད།</translation>
+    </message>
+    <message>
+        <source>The description has %n characters; 70 to 160 fit search results.</source>
+        <translation>འགྲེལ་བཤད་ལ་ཡིག་འབྲུ་ %n ཡོད། འཚོལ་འབྲས་ནང་ 70 ནས་ 160 བར་འོས།</translation>
+    </message>
+    <message>
+        <source>The description has %n characters.</source>
+        <translation>འགྲེལ་བཤད་ལ་ཡིག་འབྲུ་ %n ཡོད།</translation>
+    </message>
+    <message>
+        <source>The page has no main heading (h1).</source>
+        <translation>ཤོག་ངོས་ལ་ཁ་བྱང་གཙོ་བོ་ (h1) མེད།</translation>
+    </message>
+    <message>
+        <source>The page has %n main headings (h1); one is best.</source>
+        <translation>ཤོག་ངོས་ལ་ཁ་བྱང་གཙོ་བོ་ %n (h1) ཡོད། གཅིག་ཡག་ཤོས་རེད།</translation>
+    </message>
+    <message>
+        <source>A heading jumps from level %from to level %to.</source>
+        <translation>ཁ་བྱང་ཞིག་རིམ་པ་ %from ནས་རིམ་པ་ %to ལ་མཆོང་།</translation>
+    </message>
+    <message>
+        <source>The headings are in order.</source>
+        <translation>ཁ་བྱང་རྣམས་གོ་རིམ་ལྟར་ཡོད།</translation>
+    </message>
+    <message>
+        <source>An image has no alternative text.</source>
+        <translation>པར་རིས་ཤིག་ལ་ཚབ་ཡིག་མེད།</translation>
+    </message>
+    <message>
+        <source>Every image has an alternative text.</source>
+        <translation>པར་རིས་ཚང་མར་ཚབ་ཡིག་ཡོད།</translation>
+    </message>
+    <message>
+        <source>The page names no canonical address.</source>
+        <translation>ཤོག་ངོས་ཀྱིས་ཚད་ལྡན་ཁ་བྱང་གང་ཡང་མི་སྟོན།</translation>
+    </message>
+    <message>
+        <source>The page names %n canonical addresses; one is right.</source>
+        <translation>ཤོག་ངོས་ཀྱིས་ཚད་ལྡན་ཁ་བྱང་ %n སྟོན། གཅིག་ཡང་དག་རེད།</translation>
+    </message>
+    <message>
+        <source>The canonical address is another page: %url</source>
+        <translation>ཚད་ལྡན་ཁ་བྱང་ནི་ཤོག་ངོས་གཞན་ཞིག་རེད། %url</translation>
+    </message>
+    <message>
+        <source>The canonical address is this page.</source>
+        <translation>ཚད་ལྡན་ཁ་བྱང་ནི་ཤོག་ངོས་འདི་རེད།</translation>
+    </message>
+    <message>
+        <source>Search engines are asked not to list this page (robots: %value).</source>
+        <translation>འཚོལ་འཕྲུལ་ལ་ཤོག་ངོས་འདི་ཐོ་འགོད་མི་བྱེད་པར་ཞུས་ཡོད། (robots: %value)</translation>
+    </message>
+    <message>
+        <source>A link leads nowhere: %url</source>
+        <translation>སྦྲེལ་མཐུད་ཅིག་གང་དུའང་མི་འཁྲིད། %url</translation>
+    </message>
+    <message>
+        <source>All %n links checked on this page lead somewhere.</source>
+        <translation>ཤོག་ངོས་འདིར་ཞིབ་བཤེར་བྱས་པའི་སྦྲེལ་མཐུད་ %n ཚང་མ་ས་ཆ་ཞིག་ལ་འཁྲིད།</translation>
+    </message>
+    <message>
+        <source>Checking ...</source>
+        <translation>ཞིབ་བཤེར་བྱེད་བཞིན་ ...</translation>
+    </message>
+    <message>
+        <source>Check again</source>
+        <translation>ཡང་བསྐྱར་ཞིབ་བཤེར།</translation>
+    </message>
+    <message>
+        <source>%n things to look at</source>
+        <translation>ལྟ་དགོས་པའི་དོན་ %n</translation>
+    </message>
+    <message>
+        <source>Nothing to look at.</source>
+        <translation>ལྟ་དགོས་པ་གང་ཡང་མེད།</translation>
+    </message>
+    <message>
+        <source>Problem</source>
+        <translation>དཀའ་ངལ།</translation>
+    </message>
+    <message>
+        <source>To look at</source>
+        <translation>ལྟ་དགོས།</translation>
+    </message>
+    <message>
+        <source>Fine</source>
+        <translation>བདེ་པོ།</translation>
+    </message>
+    <message>
+        <source>Open the field</source>
+        <translation>ཁོངས་ཁ་ཕྱེ།</translation>
+    </message>
+    <message>
+        <source>Show it on the page</source>
+        <translation>ཤོག་ངོས་སུ་སྟོན།</translation>
+    </message>
+    <message>
+        <source>SEO</source>
+        <translation>SEO</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>ནང་འབྱོར།</translation>
     </message>

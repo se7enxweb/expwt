@@ -592,6 +592,122 @@
         <translation>De kie venis la vizitantoj ne estas registrata en ĉi tiu instalaĵo.</translation>
     </message>
     <message>
+        <source>The page has no title.</source>
+        <translation>La paĝo ne havas titolon.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters; 30 to 60 fit search results.</source>
+        <translation>La titolo havas %n signojn; 30 ĝis 60 taŭgas por serĉrezultoj.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters.</source>
+        <translation>La titolo havas %n signojn.</translation>
+    </message>
+    <message>
+        <source>The page has no description.</source>
+        <translation>La paĝo ne havas priskribon.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters; 70 to 160 fit search results.</source>
+        <translation>La priskribo havas %n signojn; 70 ĝis 160 taŭgas por serĉrezultoj.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters.</source>
+        <translation>La priskribo havas %n signojn.</translation>
+    </message>
+    <message>
+        <source>The page has no main heading (h1).</source>
+        <translation>La paĝo ne havas ĉeftitolon (h1).</translation>
+    </message>
+    <message>
+        <source>The page has %n main headings (h1); one is best.</source>
+        <translation>La paĝo havas %n ĉeftitolojn (h1); unu estas plej bona.</translation>
+    </message>
+    <message>
+        <source>A heading jumps from level %from to level %to.</source>
+        <translation>Titolo saltas de nivelo %from al nivelo %to.</translation>
+    </message>
+    <message>
+        <source>The headings are in order.</source>
+        <translation>La titoloj estas en ordo.</translation>
+    </message>
+    <message>
+        <source>An image has no alternative text.</source>
+        <translation>Bildo ne havas alternativan tekston.</translation>
+    </message>
+    <message>
+        <source>Every image has an alternative text.</source>
+        <translation>Ĉiu bildo havas alternativan tekston.</translation>
+    </message>
+    <message>
+        <source>The page names no canonical address.</source>
+        <translation>La paĝo nomas neniun kanonan adreson.</translation>
+    </message>
+    <message>
+        <source>The page names %n canonical addresses; one is right.</source>
+        <translation>La paĝo nomas %n kanonajn adresojn; unu estas ĝusta.</translation>
+    </message>
+    <message>
+        <source>The canonical address is another page: %url</source>
+        <translation>La kanona adreso estas alia paĝo: %url</translation>
+    </message>
+    <message>
+        <source>The canonical address is this page.</source>
+        <translation>La kanona adreso estas ĉi tiu paĝo.</translation>
+    </message>
+    <message>
+        <source>Search engines are asked not to list this page (robots: %value).</source>
+        <translation>Serĉiloj estas petataj ne listigi ĉi tiun paĝon (robots: %value).</translation>
+    </message>
+    <message>
+        <source>A link leads nowhere: %url</source>
+        <translation>Ligilo kondukas nenien: %url</translation>
+    </message>
+    <message>
+        <source>All %n links checked on this page lead somewhere.</source>
+        <translation>Ĉiuj %n ligiloj kontrolitaj en ĉi tiu paĝo kondukas ien.</translation>
+    </message>
+    <message>
+        <source>Checking ...</source>
+        <translation>Kontrolante ...</translation>
+    </message>
+    <message>
+        <source>Check again</source>
+        <translation>Kontroli denove</translation>
+    </message>
+    <message>
+        <source>%n things to look at</source>
+        <translation>%n aferoj por rigardi</translation>
+    </message>
+    <message>
+        <source>Nothing to look at.</source>
+        <translation>Nenio por rigardi.</translation>
+    </message>
+    <message>
+        <source>Problem</source>
+        <translation>Problemo</translation>
+    </message>
+    <message>
+        <source>To look at</source>
+        <translation>Por rigardi</translation>
+    </message>
+    <message>
+        <source>Fine</source>
+        <translation>Bone</translation>
+    </message>
+    <message>
+        <source>Open the field</source>
+        <translation>Malfermi la kampon</translation>
+    </message>
+    <message>
+        <source>Show it on the page</source>
+        <translation>Montri ĝin en la paĝo</translation>
+    </message>
+    <message>
+        <source>SEO</source>
+        <translation>SEO</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Enirkesto</translation>
     </message>

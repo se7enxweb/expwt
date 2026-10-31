@@ -592,6 +592,122 @@
         <translation>Kust külastajad tulid, ei salvestata selles paigalduses.</translation>
     </message>
     <message>
+        <source>The page has no title.</source>
+        <translation>Lehel pole pealkirja.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters; 30 to 60 fit search results.</source>
+        <translation>Pealkirjas on %n märki; otsingutulemustesse mahub 30 kuni 60.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters.</source>
+        <translation>Pealkirjas on %n märki.</translation>
+    </message>
+    <message>
+        <source>The page has no description.</source>
+        <translation>Lehel pole kirjeldust.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters; 70 to 160 fit search results.</source>
+        <translation>Kirjelduses on %n märki; otsingutulemustesse mahub 70 kuni 160.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters.</source>
+        <translation>Kirjelduses on %n märki.</translation>
+    </message>
+    <message>
+        <source>The page has no main heading (h1).</source>
+        <translation>Lehel pole põhipealkirja (h1).</translation>
+    </message>
+    <message>
+        <source>The page has %n main headings (h1); one is best.</source>
+        <translation>Lehel on %n põhipealkirja (h1); parim on üks.</translation>
+    </message>
+    <message>
+        <source>A heading jumps from level %from to level %to.</source>
+        <translation>Pealkiri hüppab tasemelt %from tasemele %to.</translation>
+    </message>
+    <message>
+        <source>The headings are in order.</source>
+        <translation>Pealkirjad on järjekorras.</translation>
+    </message>
+    <message>
+        <source>An image has no alternative text.</source>
+        <translation>Pildil pole alternatiivteksti.</translation>
+    </message>
+    <message>
+        <source>Every image has an alternative text.</source>
+        <translation>Igal pildil on alternatiivtekst.</translation>
+    </message>
+    <message>
+        <source>The page names no canonical address.</source>
+        <translation>Leht ei nimeta ühtegi kanoonilist aadressi.</translation>
+    </message>
+    <message>
+        <source>The page names %n canonical addresses; one is right.</source>
+        <translation>Leht nimetab %n kanoonilist aadressi; õige on üks.</translation>
+    </message>
+    <message>
+        <source>The canonical address is another page: %url</source>
+        <translation>Kanooniline aadress on teine leht: %url</translation>
+    </message>
+    <message>
+        <source>The canonical address is this page.</source>
+        <translation>Kanooniline aadress on see leht.</translation>
+    </message>
+    <message>
+        <source>Search engines are asked not to list this page (robots: %value).</source>
+        <translation>Otsingumootoritel palutakse seda lehte mitte loetleda (robots: %value).</translation>
+    </message>
+    <message>
+        <source>A link leads nowhere: %url</source>
+        <translation>Link ei vii kuhugi: %url</translation>
+    </message>
+    <message>
+        <source>All %n links checked on this page lead somewhere.</source>
+        <translation>Kõik %n sellel lehel kontrollitud linki viivad kuhugi.</translation>
+    </message>
+    <message>
+        <source>Checking ...</source>
+        <translation>Kontrollimine ...</translation>
+    </message>
+    <message>
+        <source>Check again</source>
+        <translation>Kontrolli uuesti</translation>
+    </message>
+    <message>
+        <source>%n things to look at</source>
+        <translation>%n asja, mida vaadata</translation>
+    </message>
+    <message>
+        <source>Nothing to look at.</source>
+        <translation>Pole midagi vaadata.</translation>
+    </message>
+    <message>
+        <source>Problem</source>
+        <translation>Probleem</translation>
+    </message>
+    <message>
+        <source>To look at</source>
+        <translation>Vaadata</translation>
+    </message>
+    <message>
+        <source>Fine</source>
+        <translation>Korras</translation>
+    </message>
+    <message>
+        <source>Open the field</source>
+        <translation>Ava väli</translation>
+    </message>
+    <message>
+        <source>Show it on the page</source>
+        <translation>Näita lehel</translation>
+    </message>
+    <message>
+        <source>SEO</source>
+        <translation>SEO</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Postkast</translation>
     </message>

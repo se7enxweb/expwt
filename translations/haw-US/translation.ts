@@ -592,6 +592,122 @@
         <translation>ʻAʻole kākau ʻia ma kēia hoʻokomo i kahi i hele mai ai nā malihini.</translation>
     </message>
     <message>
+        <source>The page has no title.</source>
+        <translation>ʻAʻohe poʻo inoa o ka ʻaoʻao.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters; 30 to 60 fit search results.</source>
+        <translation>He %n hua ko ka poʻo inoa; kūpono ʻo 30 a 60 i nā hopena huli.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters.</source>
+        <translation>He %n hua ko ka poʻo inoa.</translation>
+    </message>
+    <message>
+        <source>The page has no description.</source>
+        <translation>ʻAʻohe wehewehe o ka ʻaoʻao.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters; 70 to 160 fit search results.</source>
+        <translation>He %n hua ko ka wehewehe; kūpono ʻo 70 a 160 i nā hopena huli.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters.</source>
+        <translation>He %n hua ko ka wehewehe.</translation>
+    </message>
+    <message>
+        <source>The page has no main heading (h1).</source>
+        <translation>ʻAʻohe poʻomanaʻo nui (h1) o ka ʻaoʻao.</translation>
+    </message>
+    <message>
+        <source>The page has %n main headings (h1); one is best.</source>
+        <translation>He %n poʻomanaʻo nui (h1) ko ka ʻaoʻao; ʻoi aku ka maikaʻi o hoʻokahi.</translation>
+    </message>
+    <message>
+        <source>A heading jumps from level %from to level %to.</source>
+        <translation>Lele kekahi poʻomanaʻo mai ka pae %from a i ka pae %to.</translation>
+    </message>
+    <message>
+        <source>The headings are in order.</source>
+        <translation>Aia nā poʻomanaʻo ma ke kaʻina.</translation>
+    </message>
+    <message>
+        <source>An image has no alternative text.</source>
+        <translation>ʻAʻohe kikokikona ʻē aʻe o kekahi kiʻi.</translation>
+    </message>
+    <message>
+        <source>Every image has an alternative text.</source>
+        <translation>He kikokikona ʻē aʻe ko kēlā me kēia kiʻi.</translation>
+    </message>
+    <message>
+        <source>The page names no canonical address.</source>
+        <translation>ʻAʻole i kapa ka ʻaoʻao i kahi helu wahi canonical.</translation>
+    </message>
+    <message>
+        <source>The page names %n canonical addresses; one is right.</source>
+        <translation>Kapa ka ʻaoʻao i %n helu wahi canonical; pololei ʻo hoʻokahi.</translation>
+    </message>
+    <message>
+        <source>The canonical address is another page: %url</source>
+        <translation>He ʻaoʻao ʻē ka helu wahi canonical: %url</translation>
+    </message>
+    <message>
+        <source>The canonical address is this page.</source>
+        <translation>ʻO kēia ʻaoʻao ka helu wahi canonical.</translation>
+    </message>
+    <message>
+        <source>Search engines are asked not to list this page (robots: %value).</source>
+        <translation>Noi ʻia nā mīkini huli ʻaʻole e helu i kēia ʻaoʻao (robots: %value).</translation>
+    </message>
+    <message>
+        <source>A link leads nowhere: %url</source>
+        <translation>ʻAʻole hele kekahi loulou i kahi: %url</translation>
+    </message>
+    <message>
+        <source>All %n links checked on this page lead somewhere.</source>
+        <translation>Hele nā loulou %n a pau i nānā ʻia ma kēia ʻaoʻao i kekahi wahi.</translation>
+    </message>
+    <message>
+        <source>Checking ...</source>
+        <translation>Ke nānā nei ...</translation>
+    </message>
+    <message>
+        <source>Check again</source>
+        <translation>Nānā hou</translation>
+    </message>
+    <message>
+        <source>%n things to look at</source>
+        <translation>%n mea e nānā ai</translation>
+    </message>
+    <message>
+        <source>Nothing to look at.</source>
+        <translation>ʻAʻohe mea e nānā ai.</translation>
+    </message>
+    <message>
+        <source>Problem</source>
+        <translation>Pilikia</translation>
+    </message>
+    <message>
+        <source>To look at</source>
+        <translation>E nānā</translation>
+    </message>
+    <message>
+        <source>Fine</source>
+        <translation>Maikaʻi</translation>
+    </message>
+    <message>
+        <source>Open the field</source>
+        <translation>Wehe i ke kahua</translation>
+    </message>
+    <message>
+        <source>Show it on the page</source>
+        <translation>Hōʻike ma ka ʻaoʻao</translation>
+    </message>
+    <message>
+        <source>SEO</source>
+        <translation>SEO</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Pahu leka komo</translation>
     </message>

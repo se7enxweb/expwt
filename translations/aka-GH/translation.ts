@@ -592,6 +592,122 @@
         <translation>Wɔnkyerɛw baabi a ahɔho fi ba wɔ nhyehyɛe yi so.</translation>
     </message>
     <message>
+        <source>The page has no title.</source>
+        <translation>Krataafa no nni din.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters; 30 to 60 fit search results.</source>
+        <translation>Din no wɔ nkyerɛwde %n; 30 kosi 60 fata nhwehwɛ mu nsɛm.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters.</source>
+        <translation>Din no wɔ nkyerɛwde %n.</translation>
+    </message>
+    <message>
+        <source>The page has no description.</source>
+        <translation>Krataafa no nni nkyerɛkyerɛmu.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters; 70 to 160 fit search results.</source>
+        <translation>Nkyerɛkyerɛmu no wɔ nkyerɛwde %n; 70 kosi 160 fata nhwehwɛ mu nsɛm.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters.</source>
+        <translation>Nkyerɛkyerɛmu no wɔ nkyerɛwde %n.</translation>
+    </message>
+    <message>
+        <source>The page has no main heading (h1).</source>
+        <translation>Krataafa no nni ti titiriw (h1).</translation>
+    </message>
+    <message>
+        <source>The page has %n main headings (h1); one is best.</source>
+        <translation>Krataafa no wɔ ti titiriw %n (h1); baako na ɛyɛ papa.</translation>
+    </message>
+    <message>
+        <source>A heading jumps from level %from to level %to.</source>
+        <translation>Ti bi huri fi gyinabea %from kɔ gyinabea %to.</translation>
+    </message>
+    <message>
+        <source>The headings are in order.</source>
+        <translation>Ti no nyinaa di nhyehyɛe so.</translation>
+    </message>
+    <message>
+        <source>An image has no alternative text.</source>
+        <translation>Mfonini bi nni nkyerɛwee a ɛsi ananmu.</translation>
+    </message>
+    <message>
+        <source>Every image has an alternative text.</source>
+        <translation>Mfonini biara wɔ nkyerɛwee a ɛsi ananmu.</translation>
+    </message>
+    <message>
+        <source>The page names no canonical address.</source>
+        <translation>Krataafa no mmɔ address titiriw biara din.</translation>
+    </message>
+    <message>
+        <source>The page names %n canonical addresses; one is right.</source>
+        <translation>Krataafa no bɔ address titiriw %n din; baako na ɛteɛ.</translation>
+    </message>
+    <message>
+        <source>The canonical address is another page: %url</source>
+        <translation>Address titiriw no yɛ krataafa foforo: %url</translation>
+    </message>
+    <message>
+        <source>The canonical address is this page.</source>
+        <translation>Address titiriw no yɛ krataafa yi.</translation>
+    </message>
+    <message>
+        <source>Search engines are asked not to list this page (robots: %value).</source>
+        <translation>Wɔsrɛ nhwehwɛ mfiri sɛ wɔnnkyerɛw krataafa yi (robots: %value).</translation>
+    </message>
+    <message>
+        <source>A link leads nowhere: %url</source>
+        <translation>Link bi nkɔ baabiara: %url</translation>
+    </message>
+    <message>
+        <source>All %n links checked on this page lead somewhere.</source>
+        <translation>Link %n a wɔhwɛɛ wɔ krataafa yi so nyinaa kɔ baabi.</translation>
+    </message>
+    <message>
+        <source>Checking ...</source>
+        <translation>Ɛrehwɛ ...</translation>
+    </message>
+    <message>
+        <source>Check again</source>
+        <translation>Hwɛ bio</translation>
+    </message>
+    <message>
+        <source>%n things to look at</source>
+        <translation>Nneɛma %n a ɛsɛ sɛ wohwɛ</translation>
+    </message>
+    <message>
+        <source>Nothing to look at.</source>
+        <translation>Biribiara nni hɔ a ɛsɛ sɛ wohwɛ.</translation>
+    </message>
+    <message>
+        <source>Problem</source>
+        <translation>Ɔhaw</translation>
+    </message>
+    <message>
+        <source>To look at</source>
+        <translation>Hwɛ eyi</translation>
+    </message>
+    <message>
+        <source>Fine</source>
+        <translation>Ɛyɛ</translation>
+    </message>
+    <message>
+        <source>Open the field</source>
+        <translation>Bue field no</translation>
+    </message>
+    <message>
+        <source>Show it on the page</source>
+        <translation>Kyerɛ no wɔ krataafa no so</translation>
+    </message>
+    <message>
+        <source>SEO</source>
+        <translation>SEO</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Nkrataa a aba</translation>
     </message>

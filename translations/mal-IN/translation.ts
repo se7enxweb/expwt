@@ -592,6 +592,122 @@
         <translation>സന്ദർശകർ എവിടെ നിന്ന് വന്നു എന്ന് ഈ ഇൻസ്റ്റലേഷനിൽ രേഖപ്പെടുത്തുന്നില്ല.</translation>
     </message>
     <message>
+        <source>The page has no title.</source>
+        <translation>പേജിന് തലക്കെട്ടില്ല.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters; 30 to 60 fit search results.</source>
+        <translation>തലക്കെട്ടിൽ %n അക്ഷരങ്ങളുണ്ട്; തിരയൽ ഫലങ്ങളിൽ 30 മുതൽ 60 വരെ ഒതുങ്ങും.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters.</source>
+        <translation>തലക്കെട്ടിൽ %n അക്ഷരങ്ങളുണ്ട്.</translation>
+    </message>
+    <message>
+        <source>The page has no description.</source>
+        <translation>പേജിന് വിവരണമില്ല.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters; 70 to 160 fit search results.</source>
+        <translation>വിവരണത്തിൽ %n അക്ഷരങ്ങളുണ്ട്; തിരയൽ ഫലങ്ങളിൽ 70 മുതൽ 160 വരെ ഒതുങ്ങും.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters.</source>
+        <translation>വിവരണത്തിൽ %n അക്ഷരങ്ങളുണ്ട്.</translation>
+    </message>
+    <message>
+        <source>The page has no main heading (h1).</source>
+        <translation>പേജിന് പ്രധാന ശീർഷകമില്ല (h1).</translation>
+    </message>
+    <message>
+        <source>The page has %n main headings (h1); one is best.</source>
+        <translation>പേജിൽ %n പ്രധാന ശീർഷകങ്ങളുണ്ട് (h1); ഒന്നാണ് ഏറ്റവും നല്ലത്.</translation>
+    </message>
+    <message>
+        <source>A heading jumps from level %from to level %to.</source>
+        <translation>ഒരു ശീർഷകം ലെവൽ %from-ൽ നിന്ന് ലെവൽ %to-ലേക്ക് ചാടുന്നു.</translation>
+    </message>
+    <message>
+        <source>The headings are in order.</source>
+        <translation>ശീർഷകങ്ങൾ ക്രമത്തിലാണ്.</translation>
+    </message>
+    <message>
+        <source>An image has no alternative text.</source>
+        <translation>ഒരു ചിത്രത്തിന് പകരം വാചകമില്ല.</translation>
+    </message>
+    <message>
+        <source>Every image has an alternative text.</source>
+        <translation>എല്ലാ ചിത്രത്തിനും പകരം വാചകമുണ്ട്.</translation>
+    </message>
+    <message>
+        <source>The page names no canonical address.</source>
+        <translation>പേജ് ഒരു കാനോനിക്കൽ വിലാസവും പറയുന്നില്ല.</translation>
+    </message>
+    <message>
+        <source>The page names %n canonical addresses; one is right.</source>
+        <translation>പേജ് %n കാനോനിക്കൽ വിലാസങ്ങൾ പറയുന്നു; ഒന്നാണ് ശരി.</translation>
+    </message>
+    <message>
+        <source>The canonical address is another page: %url</source>
+        <translation>കാനോനിക്കൽ വിലാസം മറ്റൊരു പേജാണ്: %url</translation>
+    </message>
+    <message>
+        <source>The canonical address is this page.</source>
+        <translation>കാനോനിക്കൽ വിലാസം ഈ പേജാണ്.</translation>
+    </message>
+    <message>
+        <source>Search engines are asked not to list this page (robots: %value).</source>
+        <translation>ഈ പേജ് പട്ടികപ്പെടുത്തരുതെന്ന് സെർച്ച് എഞ്ചിനുകളോട് ആവശ്യപ്പെടുന്നു (robots: %value).</translation>
+    </message>
+    <message>
+        <source>A link leads nowhere: %url</source>
+        <translation>ഒരു ലിങ്ക് എവിടേക്കും പോകുന്നില്ല: %url</translation>
+    </message>
+    <message>
+        <source>All %n links checked on this page lead somewhere.</source>
+        <translation>ഈ പേജിൽ പരിശോധിച്ച എല്ലാ %n ലിങ്കുകളും എവിടേക്കെങ്കിലും പോകുന്നു.</translation>
+    </message>
+    <message>
+        <source>Checking ...</source>
+        <translation>പരിശോധിക്കുന്നു ...</translation>
+    </message>
+    <message>
+        <source>Check again</source>
+        <translation>വീണ്ടും പരിശോധിക്കുക</translation>
+    </message>
+    <message>
+        <source>%n things to look at</source>
+        <translation>നോക്കേണ്ട %n കാര്യങ്ങൾ</translation>
+    </message>
+    <message>
+        <source>Nothing to look at.</source>
+        <translation>നോക്കേണ്ടതൊന്നുമില്ല.</translation>
+    </message>
+    <message>
+        <source>Problem</source>
+        <translation>പ്രശ്നം</translation>
+    </message>
+    <message>
+        <source>To look at</source>
+        <translation>നോക്കേണ്ടത്</translation>
+    </message>
+    <message>
+        <source>Fine</source>
+        <translation>ശരി</translation>
+    </message>
+    <message>
+        <source>Open the field</source>
+        <translation>ഫീൽഡ് തുറക്കുക</translation>
+    </message>
+    <message>
+        <source>Show it on the page</source>
+        <translation>പേജിൽ കാണിക്കുക</translation>
+    </message>
+    <message>
+        <source>SEO</source>
+        <translation>SEO</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>ഇൻബോക്സ്</translation>
     </message>

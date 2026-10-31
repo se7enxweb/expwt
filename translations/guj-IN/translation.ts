@@ -592,6 +592,122 @@
         <translation>મુલાકાતીઓ ક્યાંથી આવ્યા તે આ ઇન્સ્ટોલેશન પર નોંધાતું નથી.</translation>
     </message>
     <message>
+        <source>The page has no title.</source>
+        <translation>પાનાનું કોઈ શીર્ષક નથી.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters; 30 to 60 fit search results.</source>
+        <translation>શીર્ષકમાં %n અક્ષર છે; શોધ પરિણામોમાં 30 થી 60 બંધબેસે છે.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters.</source>
+        <translation>શીર્ષકમાં %n અક્ષર છે.</translation>
+    </message>
+    <message>
+        <source>The page has no description.</source>
+        <translation>પાનાનું કોઈ વર્ણન નથી.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters; 70 to 160 fit search results.</source>
+        <translation>વર્ણનમાં %n અક્ષર છે; શોધ પરિણામોમાં 70 થી 160 બંધબેસે છે.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters.</source>
+        <translation>વર્ણનમાં %n અક્ષર છે.</translation>
+    </message>
+    <message>
+        <source>The page has no main heading (h1).</source>
+        <translation>પાના પર કોઈ મુખ્ય મથાળું (h1) નથી.</translation>
+    </message>
+    <message>
+        <source>The page has %n main headings (h1); one is best.</source>
+        <translation>પાના પર %n મુખ્ય મથાળાં (h1) છે; એક શ્રેષ્ઠ છે.</translation>
+    </message>
+    <message>
+        <source>A heading jumps from level %from to level %to.</source>
+        <translation>એક મથાળું સ્તર %from થી સ્તર %to પર કૂદે છે.</translation>
+    </message>
+    <message>
+        <source>The headings are in order.</source>
+        <translation>મથાળાં ક્રમમાં છે.</translation>
+    </message>
+    <message>
+        <source>An image has no alternative text.</source>
+        <translation>એક છબીમાં વૈકલ્પિક લખાણ નથી.</translation>
+    </message>
+    <message>
+        <source>Every image has an alternative text.</source>
+        <translation>દરેક છબીમાં વૈકલ્પિક લખાણ છે.</translation>
+    </message>
+    <message>
+        <source>The page names no canonical address.</source>
+        <translation>પાનું કોઈ કેનોનિકલ સરનામું જણાવતું નથી.</translation>
+    </message>
+    <message>
+        <source>The page names %n canonical addresses; one is right.</source>
+        <translation>પાનું %n કેનોનિકલ સરનામાં જણાવે છે; એક જ સાચું છે.</translation>
+    </message>
+    <message>
+        <source>The canonical address is another page: %url</source>
+        <translation>કેનોનિકલ સરનામું બીજું પાનું છે: %url</translation>
+    </message>
+    <message>
+        <source>The canonical address is this page.</source>
+        <translation>કેનોનિકલ સરનામું આ જ પાનું છે.</translation>
+    </message>
+    <message>
+        <source>Search engines are asked not to list this page (robots: %value).</source>
+        <translation>શોધ એન્જિનોને આ પાનું સૂચિમાં ન મૂકવા કહેવાયું છે (robots: %value).</translation>
+    </message>
+    <message>
+        <source>A link leads nowhere: %url</source>
+        <translation>એક લિંક ક્યાંય લઈ જતી નથી: %url</translation>
+    </message>
+    <message>
+        <source>All %n links checked on this page lead somewhere.</source>
+        <translation>આ પાના પર તપાસેલી બધી %n લિંક ક્યાંક લઈ જાય છે.</translation>
+    </message>
+    <message>
+        <source>Checking ...</source>
+        <translation>તપાસી રહ્યું છે ...</translation>
+    </message>
+    <message>
+        <source>Check again</source>
+        <translation>ફરી તપાસો</translation>
+    </message>
+    <message>
+        <source>%n things to look at</source>
+        <translation>જોવા જેવી %n બાબતો</translation>
+    </message>
+    <message>
+        <source>Nothing to look at.</source>
+        <translation>જોવા જેવું કંઈ નથી.</translation>
+    </message>
+    <message>
+        <source>Problem</source>
+        <translation>સમસ્યા</translation>
+    </message>
+    <message>
+        <source>To look at</source>
+        <translation>જોવા જેવું</translation>
+    </message>
+    <message>
+        <source>Fine</source>
+        <translation>બરાબર</translation>
+    </message>
+    <message>
+        <source>Open the field</source>
+        <translation>ફીલ્ડ ખોલો</translation>
+    </message>
+    <message>
+        <source>Show it on the page</source>
+        <translation>પાના પર બતાવો</translation>
+    </message>
+    <message>
+        <source>SEO</source>
+        <translation>SEO</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>ઇનબોક્સ</translation>
     </message>

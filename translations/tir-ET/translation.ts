@@ -592,6 +592,122 @@
         <translation>በጻሕቲ ካበይ ከም ዝመጹ ኣብዚ ተኸላ ኣይምዝገብን።</translation>
     </message>
     <message>
+        <source>The page has no title.</source>
+        <translation>እቲ ገጽ ኣርእስቲ የብሉን።</translation>
+    </message>
+    <message>
+        <source>The title has %n characters; 30 to 60 fit search results.</source>
+        <translation>ኣርእስቲ %n ፊደላት ኣለዎ፤ ካብ 30 ክሳብ 60 ኣብ ውጽኢት ምድላይ ይኣትዉ።</translation>
+    </message>
+    <message>
+        <source>The title has %n characters.</source>
+        <translation>ኣርእስቲ %n ፊደላት ኣለዎ።</translation>
+    </message>
+    <message>
+        <source>The page has no description.</source>
+        <translation>እቲ ገጽ መግለጺ የብሉን።</translation>
+    </message>
+    <message>
+        <source>The description has %n characters; 70 to 160 fit search results.</source>
+        <translation>መግለጺ %n ፊደላት ኣለዎ፤ ካብ 70 ክሳብ 160 ኣብ ውጽኢት ምድላይ ይኣትዉ።</translation>
+    </message>
+    <message>
+        <source>The description has %n characters.</source>
+        <translation>መግለጺ %n ፊደላት ኣለዎ።</translation>
+    </message>
+    <message>
+        <source>The page has no main heading (h1).</source>
+        <translation>እቲ ገጽ ቀንዲ ኣርእስቲ (h1) የብሉን።</translation>
+    </message>
+    <message>
+        <source>The page has %n main headings (h1); one is best.</source>
+        <translation>እቲ ገጽ %n ቀንዲ ኣርእስትታት (h1) ኣለዎ፤ ሓደ ይበልጽ።</translation>
+    </message>
+    <message>
+        <source>A heading jumps from level %from to level %to.</source>
+        <translation>ሓደ ኣርእስቲ ካብ ደረጃ %from ናብ ደረጃ %to ይዘልል።</translation>
+    </message>
+    <message>
+        <source>The headings are in order.</source>
+        <translation>ኣርእስትታት ብስርዓት እዮም።</translation>
+    </message>
+    <message>
+        <source>An image has no alternative text.</source>
+        <translation>ሓደ ስእሊ ተተካኢ ጽሑፍ የብሉን።</translation>
+    </message>
+    <message>
+        <source>Every image has an alternative text.</source>
+        <translation>ነፍሲ ወከፍ ስእሊ ተተካኢ ጽሑፍ ኣለዎ።</translation>
+    </message>
+    <message>
+        <source>The page names no canonical address.</source>
+        <translation>እቲ ገጽ ቀኖናዊ ኣድራሻ ኣይጠቅስን።</translation>
+    </message>
+    <message>
+        <source>The page names %n canonical addresses; one is right.</source>
+        <translation>እቲ ገጽ %n ቀኖናዊ ኣድራሻታት ይጠቅስ፤ ሓደ እዩ ቅኑዕ።</translation>
+    </message>
+    <message>
+        <source>The canonical address is another page: %url</source>
+        <translation>ቀኖናዊ ኣድራሻ ካልእ ገጽ እዩ፦ %url</translation>
+    </message>
+    <message>
+        <source>The canonical address is this page.</source>
+        <translation>ቀኖናዊ ኣድራሻ እዚ ገጽ እዩ።</translation>
+    </message>
+    <message>
+        <source>Search engines are asked not to list this page (robots: %value).</source>
+        <translation>መናድያት እዚ ገጽ ከይዝርዝሩ ተሓቲቶም (robots: %value)።</translation>
+    </message>
+    <message>
+        <source>A link leads nowhere: %url</source>
+        <translation>ሓደ መላግቦ ናብ ዝኾነ ቦታ ኣይወስድን፦ %url</translation>
+    </message>
+    <message>
+        <source>All %n links checked on this page lead somewhere.</source>
+        <translation>ኣብዚ ገጽ ዝተፈተሹ ኩሎም %n መላግቦታት ናብ ገለ ቦታ ይወስዱ።</translation>
+    </message>
+    <message>
+        <source>Checking ...</source>
+        <translation>ይፍተሽ ኣሎ ...</translation>
+    </message>
+    <message>
+        <source>Check again</source>
+        <translation>እንደገና ፈትሽ</translation>
+    </message>
+    <message>
+        <source>%n things to look at</source>
+        <translation>ዝርአዩ %n ነገራት</translation>
+    </message>
+    <message>
+        <source>Nothing to look at.</source>
+        <translation>ዝርአ ነገር የለን።</translation>
+    </message>
+    <message>
+        <source>Problem</source>
+        <translation>ጸገም</translation>
+    </message>
+    <message>
+        <source>To look at</source>
+        <translation>ዝርአ</translation>
+    </message>
+    <message>
+        <source>Fine</source>
+        <translation>ጽቡቕ</translation>
+    </message>
+    <message>
+        <source>Open the field</source>
+        <translation>መዐቀኒ ክፈት</translation>
+    </message>
+    <message>
+        <source>Show it on the page</source>
+        <translation>ኣብ ገጽ ኣርኢ</translation>
+    </message>
+    <message>
+        <source>SEO</source>
+        <translation>SEO</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>ዝኣተዉ</translation>
     </message>

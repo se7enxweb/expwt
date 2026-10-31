@@ -592,6 +592,122 @@
         <translation>Hvaðani vitjandi komu, verður ikki skrásett á hesi uppsetingini.</translation>
     </message>
     <message>
+        <source>The page has no title.</source>
+        <translation>Síðan hevur einki heiti.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters; 30 to 60 fit search results.</source>
+        <translation>Heitið hevur %n tekn; 30 til 60 hóska í leitiúrslitum.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters.</source>
+        <translation>Heitið hevur %n tekn.</translation>
+    </message>
+    <message>
+        <source>The page has no description.</source>
+        <translation>Síðan hevur onga lýsing.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters; 70 to 160 fit search results.</source>
+        <translation>Lýsingin hevur %n tekn; 70 til 160 hóska í leitiúrslitum.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters.</source>
+        <translation>Lýsingin hevur %n tekn.</translation>
+    </message>
+    <message>
+        <source>The page has no main heading (h1).</source>
+        <translation>Síðan hevur onga høvuðsyvirskrift (h1).</translation>
+    </message>
+    <message>
+        <source>The page has %n main headings (h1); one is best.</source>
+        <translation>Síðan hevur %n høvuðsyvirskriftir (h1); ein er best.</translation>
+    </message>
+    <message>
+        <source>A heading jumps from level %from to level %to.</source>
+        <translation>Ein yvirskrift loypur frá stigi %from til stig %to.</translation>
+    </message>
+    <message>
+        <source>The headings are in order.</source>
+        <translation>Yvirskriftirnar eru í røð.</translation>
+    </message>
+    <message>
+        <source>An image has no alternative text.</source>
+        <translation>Ein mynd hevur ongan alternativan tekst.</translation>
+    </message>
+    <message>
+        <source>Every image has an alternative text.</source>
+        <translation>Hvør mynd hevur ein alternativan tekst.</translation>
+    </message>
+    <message>
+        <source>The page names no canonical address.</source>
+        <translation>Síðan nevnir onga kanoniska adressu.</translation>
+    </message>
+    <message>
+        <source>The page names %n canonical addresses; one is right.</source>
+        <translation>Síðan nevnir %n kanoniskar adressur; ein er rætt.</translation>
+    </message>
+    <message>
+        <source>The canonical address is another page: %url</source>
+        <translation>Kanoniska adressan er ein onnur síða: %url</translation>
+    </message>
+    <message>
+        <source>The canonical address is this page.</source>
+        <translation>Kanoniska adressan er henda síðan.</translation>
+    </message>
+    <message>
+        <source>Search engines are asked not to list this page (robots: %value).</source>
+        <translation>Leitimaskinur verða bidnar um ikki at vísa hesa síðuna (robots: %value).</translation>
+    </message>
+    <message>
+        <source>A link leads nowhere: %url</source>
+        <translation>Eitt leinki førir ongastaðni: %url</translation>
+    </message>
+    <message>
+        <source>All %n links checked on this page lead somewhere.</source>
+        <translation>Øll %n leinkini, ið eru kannað á hesi síðuni, føra einastaðni.</translation>
+    </message>
+    <message>
+        <source>Checking ...</source>
+        <translation>Kannar ...</translation>
+    </message>
+    <message>
+        <source>Check again</source>
+        <translation>Kanna aftur</translation>
+    </message>
+    <message>
+        <source>%n things to look at</source>
+        <translation>%n lutir at hyggja at</translation>
+    </message>
+    <message>
+        <source>Nothing to look at.</source>
+        <translation>Einki at hyggja at.</translation>
+    </message>
+    <message>
+        <source>Problem</source>
+        <translation>Trupulleiki</translation>
+    </message>
+    <message>
+        <source>To look at</source>
+        <translation>At hyggja at</translation>
+    </message>
+    <message>
+        <source>Fine</source>
+        <translation>Í lagi</translation>
+    </message>
+    <message>
+        <source>Open the field</source>
+        <translation>Lat teigin upp</translation>
+    </message>
+    <message>
+        <source>Show it on the page</source>
+        <translation>Vís tað á síðuni</translation>
+    </message>
+    <message>
+        <source>SEO</source>
+        <translation>SEO</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Innbakki</translation>
     </message>

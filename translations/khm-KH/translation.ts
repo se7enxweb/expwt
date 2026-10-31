@@ -592,6 +592,122 @@
         <translation>កន្លែងដែលអ្នកទស្សនាមកពីមិនត្រូវបានកត់ត្រានៅលើការដំឡើងនេះទេ។</translation>
     </message>
     <message>
+        <source>The page has no title.</source>
+        <translation>ទំព័រមិនមានចំណងជើងទេ។</translation>
+    </message>
+    <message>
+        <source>The title has %n characters; 30 to 60 fit search results.</source>
+        <translation>ចំណងជើងមាន %n តួអក្សរ; 30 ដល់ 60 សមនឹងលទ្ធផលស្វែងរក។</translation>
+    </message>
+    <message>
+        <source>The title has %n characters.</source>
+        <translation>ចំណងជើងមាន %n តួអក្សរ។</translation>
+    </message>
+    <message>
+        <source>The page has no description.</source>
+        <translation>ទំព័រមិនមានការពិពណ៌នាទេ។</translation>
+    </message>
+    <message>
+        <source>The description has %n characters; 70 to 160 fit search results.</source>
+        <translation>ការពិពណ៌នាមាន %n តួអក្សរ; 70 ដល់ 160 សមនឹងលទ្ធផលស្វែងរក។</translation>
+    </message>
+    <message>
+        <source>The description has %n characters.</source>
+        <translation>ការពិពណ៌នាមាន %n តួអក្សរ។</translation>
+    </message>
+    <message>
+        <source>The page has no main heading (h1).</source>
+        <translation>ទំព័រមិនមានចំណងជើងមេ (h1) ទេ។</translation>
+    </message>
+    <message>
+        <source>The page has %n main headings (h1); one is best.</source>
+        <translation>ទំព័រមានចំណងជើងមេ %n (h1); មួយគឺល្អបំផុត។</translation>
+    </message>
+    <message>
+        <source>A heading jumps from level %from to level %to.</source>
+        <translation>ចំណងជើងមួយលោតពីកម្រិត %from ទៅកម្រិត %to។</translation>
+    </message>
+    <message>
+        <source>The headings are in order.</source>
+        <translation>ចំណងជើងនៅតាមលំដាប់។</translation>
+    </message>
+    <message>
+        <source>An image has no alternative text.</source>
+        <translation>រូបភាពមួយមិនមានអត្ថបទជំនួសទេ។</translation>
+    </message>
+    <message>
+        <source>Every image has an alternative text.</source>
+        <translation>រូបភាពនីមួយៗមានអត្ថបទជំនួស។</translation>
+    </message>
+    <message>
+        <source>The page names no canonical address.</source>
+        <translation>ទំព័រមិនបញ្ជាក់អាសយដ្ឋាន canonical ណាមួយទេ។</translation>
+    </message>
+    <message>
+        <source>The page names %n canonical addresses; one is right.</source>
+        <translation>ទំព័របញ្ជាក់អាសយដ្ឋាន canonical %n; ត្រឹមត្រូវគឺមួយ។</translation>
+    </message>
+    <message>
+        <source>The canonical address is another page: %url</source>
+        <translation>អាសយដ្ឋាន canonical គឺជាទំព័រផ្សេង៖ %url</translation>
+    </message>
+    <message>
+        <source>The canonical address is this page.</source>
+        <translation>អាសយដ្ឋាន canonical គឺទំព័រនេះ។</translation>
+    </message>
+    <message>
+        <source>Search engines are asked not to list this page (robots: %value).</source>
+        <translation>ម៉ាស៊ីនស្វែងរកត្រូវបានស្នើកុំឱ្យរាយទំព័រនេះ (robots: %value)។</translation>
+    </message>
+    <message>
+        <source>A link leads nowhere: %url</source>
+        <translation>តំណមួយមិននាំទៅណាទេ៖ %url</translation>
+    </message>
+    <message>
+        <source>All %n links checked on this page lead somewhere.</source>
+        <translation>តំណទាំង %n ដែលបានពិនិត្យនៅលើទំព័រនេះនាំទៅកន្លែងណាមួយ។</translation>
+    </message>
+    <message>
+        <source>Checking ...</source>
+        <translation>កំពុងពិនិត្យ ...</translation>
+    </message>
+    <message>
+        <source>Check again</source>
+        <translation>ពិនិត្យម្ដងទៀត</translation>
+    </message>
+    <message>
+        <source>%n things to look at</source>
+        <translation>%n ចំណុចត្រូវមើល</translation>
+    </message>
+    <message>
+        <source>Nothing to look at.</source>
+        <translation>គ្មានអ្វីត្រូវមើលទេ។</translation>
+    </message>
+    <message>
+        <source>Problem</source>
+        <translation>បញ្ហា</translation>
+    </message>
+    <message>
+        <source>To look at</source>
+        <translation>ត្រូវមើល</translation>
+    </message>
+    <message>
+        <source>Fine</source>
+        <translation>ល្អ</translation>
+    </message>
+    <message>
+        <source>Open the field</source>
+        <translation>បើកវាល</translation>
+    </message>
+    <message>
+        <source>Show it on the page</source>
+        <translation>បង្ហាញនៅលើទំព័រ</translation>
+    </message>
+    <message>
+        <source>SEO</source>
+        <translation>SEO</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>ប្រអប់ទទួល</translation>
     </message>

@@ -592,6 +592,122 @@
         <translation>अभ्यागत कुठून आले हे या इंस्टॉलेशनवर नोंदवले जात नाही.</translation>
     </message>
     <message>
+        <source>The page has no title.</source>
+        <translation>पानाला शीर्षक नाही.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters; 30 to 60 fit search results.</source>
+        <translation>शीर्षकात %n अक्षरे आहेत; शोध निकालांमध्ये 30 ते 60 बसतात.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters.</source>
+        <translation>शीर्षकात %n अक्षरे आहेत.</translation>
+    </message>
+    <message>
+        <source>The page has no description.</source>
+        <translation>पानाला वर्णन नाही.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters; 70 to 160 fit search results.</source>
+        <translation>वर्णनात %n अक्षरे आहेत; शोध निकालांमध्ये 70 ते 160 बसतात.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters.</source>
+        <translation>वर्णनात %n अक्षरे आहेत.</translation>
+    </message>
+    <message>
+        <source>The page has no main heading (h1).</source>
+        <translation>पानावर मुख्य शीर्षक (h1) नाही.</translation>
+    </message>
+    <message>
+        <source>The page has %n main headings (h1); one is best.</source>
+        <translation>पानावर %n मुख्य शीर्षके (h1) आहेत; एकच सर्वोत्तम.</translation>
+    </message>
+    <message>
+        <source>A heading jumps from level %from to level %to.</source>
+        <translation>एक शीर्षक स्तर %from वरून स्तर %to वर उडी मारते.</translation>
+    </message>
+    <message>
+        <source>The headings are in order.</source>
+        <translation>शीर्षके क्रमाने आहेत.</translation>
+    </message>
+    <message>
+        <source>An image has no alternative text.</source>
+        <translation>एका चित्राला पर्यायी मजकूर नाही.</translation>
+    </message>
+    <message>
+        <source>Every image has an alternative text.</source>
+        <translation>प्रत्येक चित्राला पर्यायी मजकूर आहे.</translation>
+    </message>
+    <message>
+        <source>The page names no canonical address.</source>
+        <translation>पान कोणताही कॅनॉनिकल पत्ता सांगत नाही.</translation>
+    </message>
+    <message>
+        <source>The page names %n canonical addresses; one is right.</source>
+        <translation>पान %n कॅनॉनिकल पत्ते सांगते; एकच बरोबर.</translation>
+    </message>
+    <message>
+        <source>The canonical address is another page: %url</source>
+        <translation>कॅनॉनिकल पत्ता दुसरे पान आहे: %url</translation>
+    </message>
+    <message>
+        <source>The canonical address is this page.</source>
+        <translation>कॅनॉनिकल पत्ता हेच पान आहे.</translation>
+    </message>
+    <message>
+        <source>Search engines are asked not to list this page (robots: %value).</source>
+        <translation>शोध इंजिनांना हे पान सूचीत न दाखवण्यास सांगितले आहे (robots: %value).</translation>
+    </message>
+    <message>
+        <source>A link leads nowhere: %url</source>
+        <translation>एक दुवा कुठेही नेत नाही: %url</translation>
+    </message>
+    <message>
+        <source>All %n links checked on this page lead somewhere.</source>
+        <translation>या पानावर तपासलेले सर्व %n दुवे कुठेतरी नेतात.</translation>
+    </message>
+    <message>
+        <source>Checking ...</source>
+        <translation>तपासत आहे ...</translation>
+    </message>
+    <message>
+        <source>Check again</source>
+        <translation>पुन्हा तपासा</translation>
+    </message>
+    <message>
+        <source>%n things to look at</source>
+        <translation>पाहण्याजोग्या %n गोष्टी</translation>
+    </message>
+    <message>
+        <source>Nothing to look at.</source>
+        <translation>पाहण्याजोगे काही नाही.</translation>
+    </message>
+    <message>
+        <source>Problem</source>
+        <translation>समस्या</translation>
+    </message>
+    <message>
+        <source>To look at</source>
+        <translation>पाहण्याजोगे</translation>
+    </message>
+    <message>
+        <source>Fine</source>
+        <translation>ठीक</translation>
+    </message>
+    <message>
+        <source>Open the field</source>
+        <translation>फील्ड उघडा</translation>
+    </message>
+    <message>
+        <source>Show it on the page</source>
+        <translation>पानावर दाखवा</translation>
+    </message>
+    <message>
+        <source>SEO</source>
+        <translation>SEO</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>इनबॉक्स</translation>
     </message>

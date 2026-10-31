@@ -592,6 +592,122 @@
         <translation>لا يُسجَّل في هذا التثبيت من أين جاء الزوار.</translation>
     </message>
     <message>
+        <source>The page has no title.</source>
+        <translation>لا تحتوي الصفحة على عنوان.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters; 30 to 60 fit search results.</source>
+        <translation>يحتوي العنوان على %n حرفًا؛ من 30 إلى 60 تناسب نتائج البحث.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters.</source>
+        <translation>يحتوي العنوان على %n حرفًا.</translation>
+    </message>
+    <message>
+        <source>The page has no description.</source>
+        <translation>لا تحتوي الصفحة على وصف.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters; 70 to 160 fit search results.</source>
+        <translation>يحتوي الوصف على %n حرفًا؛ من 70 إلى 160 تناسب نتائج البحث.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters.</source>
+        <translation>يحتوي الوصف على %n حرفًا.</translation>
+    </message>
+    <message>
+        <source>The page has no main heading (h1).</source>
+        <translation>لا تحتوي الصفحة على عنوان رئيسي (h1).</translation>
+    </message>
+    <message>
+        <source>The page has %n main headings (h1); one is best.</source>
+        <translation>تحتوي الصفحة على %n عناوين رئيسية (h1)؛ الأفضل عنوان واحد.</translation>
+    </message>
+    <message>
+        <source>A heading jumps from level %from to level %to.</source>
+        <translation>يقفز عنوان من المستوى %from إلى المستوى %to.</translation>
+    </message>
+    <message>
+        <source>The headings are in order.</source>
+        <translation>العناوين مرتبة.</translation>
+    </message>
+    <message>
+        <source>An image has no alternative text.</source>
+        <translation>صورة ليس لها نص بديل.</translation>
+    </message>
+    <message>
+        <source>Every image has an alternative text.</source>
+        <translation>لكل صورة نص بديل.</translation>
+    </message>
+    <message>
+        <source>The page names no canonical address.</source>
+        <translation>لا تذكر الصفحة عنوانًا أساسيًا (canonical).</translation>
+    </message>
+    <message>
+        <source>The page names %n canonical addresses; one is right.</source>
+        <translation>تذكر الصفحة %n عناوين أساسية؛ الصحيح عنوان واحد.</translation>
+    </message>
+    <message>
+        <source>The canonical address is another page: %url</source>
+        <translation>العنوان الأساسي صفحة أخرى: %url</translation>
+    </message>
+    <message>
+        <source>The canonical address is this page.</source>
+        <translation>العنوان الأساسي هو هذه الصفحة.</translation>
+    </message>
+    <message>
+        <source>Search engines are asked not to list this page (robots: %value).</source>
+        <translation>طُلب من محركات البحث عدم إدراج هذه الصفحة (robots: %value).</translation>
+    </message>
+    <message>
+        <source>A link leads nowhere: %url</source>
+        <translation>رابط لا يؤدي إلى أي مكان: %url</translation>
+    </message>
+    <message>
+        <source>All %n links checked on this page lead somewhere.</source>
+        <translation>كل الروابط الـ %n التي فُحصت في هذه الصفحة تؤدي إلى مكان ما.</translation>
+    </message>
+    <message>
+        <source>Checking ...</source>
+        <translation>جارٍ الفحص ...</translation>
+    </message>
+    <message>
+        <source>Check again</source>
+        <translation>افحص مرة أخرى</translation>
+    </message>
+    <message>
+        <source>%n things to look at</source>
+        <translation>%n أمور للمراجعة</translation>
+    </message>
+    <message>
+        <source>Nothing to look at.</source>
+        <translation>لا شيء للمراجعة.</translation>
+    </message>
+    <message>
+        <source>Problem</source>
+        <translation>مشكلة</translation>
+    </message>
+    <message>
+        <source>To look at</source>
+        <translation>للمراجعة</translation>
+    </message>
+    <message>
+        <source>Fine</source>
+        <translation>سليم</translation>
+    </message>
+    <message>
+        <source>Open the field</source>
+        <translation>افتح الحقل</translation>
+    </message>
+    <message>
+        <source>Show it on the page</source>
+        <translation>اعرضه في الصفحة</translation>
+    </message>
+    <message>
+        <source>SEO</source>
+        <translation>SEO</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>الوارد</translation>
     </message>

@@ -592,6 +592,122 @@
         <translation>Kāore e tuhia ki tēnei tāutanga te wāhi i ahu mai ai ngā manuhiri.</translation>
     </message>
     <message>
+        <source>The page has no title.</source>
+        <translation>Kāore he taitara o te whārangi.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters; 30 to 60 fit search results.</source>
+        <translation>E %n ngā pū o te taitara; e uru ana te 30 ki te 60 ki ngā hua rapu.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters.</source>
+        <translation>E %n ngā pū o te taitara.</translation>
+    </message>
+    <message>
+        <source>The page has no description.</source>
+        <translation>Kāore he whakaahuatanga o te whārangi.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters; 70 to 160 fit search results.</source>
+        <translation>E %n ngā pū o te whakaahuatanga; e uru ana te 70 ki te 160 ki ngā hua rapu.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters.</source>
+        <translation>E %n ngā pū o te whakaahuatanga.</translation>
+    </message>
+    <message>
+        <source>The page has no main heading (h1).</source>
+        <translation>Kāore he upoko matua (h1) o te whārangi.</translation>
+    </message>
+    <message>
+        <source>The page has %n main headings (h1); one is best.</source>
+        <translation>E %n ngā upoko matua (h1) o te whārangi; ko te kotahi te mea pai rawa.</translation>
+    </message>
+    <message>
+        <source>A heading jumps from level %from to level %to.</source>
+        <translation>Ka peke tētahi upoko i te taumata %from ki te taumata %to.</translation>
+    </message>
+    <message>
+        <source>The headings are in order.</source>
+        <translation>Kei te raupapa ngā upoko.</translation>
+    </message>
+    <message>
+        <source>An image has no alternative text.</source>
+        <translation>Kāore he kuputuhi kē o tētahi atahanga.</translation>
+    </message>
+    <message>
+        <source>Every image has an alternative text.</source>
+        <translation>He kuputuhi kē tō ia atahanga.</translation>
+    </message>
+    <message>
+        <source>The page names no canonical address.</source>
+        <translation>Kāore te whārangi e whakaingoa ana i tētahi wāhitau canonical.</translation>
+    </message>
+    <message>
+        <source>The page names %n canonical addresses; one is right.</source>
+        <translation>E whakaingoa ana te whārangi i ngā wāhitau canonical %n; ko te kotahi te mea tika.</translation>
+    </message>
+    <message>
+        <source>The canonical address is another page: %url</source>
+        <translation>He whārangi kē te wāhitau canonical: %url</translation>
+    </message>
+    <message>
+        <source>The canonical address is this page.</source>
+        <translation>Ko tēnei whārangi te wāhitau canonical.</translation>
+    </message>
+    <message>
+        <source>Search engines are asked not to list this page (robots: %value).</source>
+        <translation>Ka tonoa ngā pūkaha rapu kia kaua e whakarārangi i tēnei whārangi (robots: %value).</translation>
+    </message>
+    <message>
+        <source>A link leads nowhere: %url</source>
+        <translation>Kāore tētahi hono e ahu ki hea: %url</translation>
+    </message>
+    <message>
+        <source>All %n links checked on this page lead somewhere.</source>
+        <translation>Ka ahu ki tētahi wāhi ngā hono %n katoa i tirohia i tēnei whārangi.</translation>
+    </message>
+    <message>
+        <source>Checking ...</source>
+        <translation>E tirotiro ana ...</translation>
+    </message>
+    <message>
+        <source>Check again</source>
+        <translation>Tirotiro anō</translation>
+    </message>
+    <message>
+        <source>%n things to look at</source>
+        <translation>%n ngā mea hei tiro</translation>
+    </message>
+    <message>
+        <source>Nothing to look at.</source>
+        <translation>Kāore he mea hei tiro.</translation>
+    </message>
+    <message>
+        <source>Problem</source>
+        <translation>Raru</translation>
+    </message>
+    <message>
+        <source>To look at</source>
+        <translation>Hei tiro</translation>
+    </message>
+    <message>
+        <source>Fine</source>
+        <translation>Pai</translation>
+    </message>
+    <message>
+        <source>Open the field</source>
+        <translation>Whakatuwherahia te āpure</translation>
+    </message>
+    <message>
+        <source>Show it on the page</source>
+        <translation>Whakaaturia ki te whārangi</translation>
+    </message>
+    <message>
+        <source>SEO</source>
+        <translation>SEO</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Pouaka whakauru</translation>
     </message>

@@ -592,6 +592,122 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <source>The page has no title.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The title has %n characters; 30 to 60 fit search results.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The title has %n characters.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The page has no description.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The description has %n characters; 70 to 160 fit search results.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The description has %n characters.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The page has no main heading (h1).</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The page has %n main headings (h1); one is best.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>A heading jumps from level %from to level %to.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The headings are in order.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>An image has no alternative text.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Every image has an alternative text.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The page names no canonical address.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The page names %n canonical addresses; one is right.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The canonical address is another page: %url</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The canonical address is this page.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Search engines are asked not to list this page (robots: %value).</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>A link leads nowhere: %url</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>All %n links checked on this page lead somewhere.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Checking ...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Check again</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>%n things to look at</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Nothing to look at.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Problem</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>To look at</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Fine</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Open the field</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Show it on the page</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>SEO</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation type="unfinished"></translation>
     </message>

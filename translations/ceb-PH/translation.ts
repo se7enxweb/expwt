@@ -592,6 +592,122 @@
         <translation>Kung asa gikan ang mga bisita wala girekord niini nga instalasyon.</translation>
     </message>
     <message>
+        <source>The page has no title.</source>
+        <translation>Walay titulo ang panid.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters; 30 to 60 fit search results.</source>
+        <translation>Ang titulo adunay %n ka karakter; 30 hangtod 60 ang mohaum sa resulta sa pagpangita.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters.</source>
+        <translation>Ang titulo adunay %n ka karakter.</translation>
+    </message>
+    <message>
+        <source>The page has no description.</source>
+        <translation>Walay paghulagway ang panid.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters; 70 to 160 fit search results.</source>
+        <translation>Ang paghulagway adunay %n ka karakter; 70 hangtod 160 ang mohaum sa resulta sa pagpangita.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters.</source>
+        <translation>Ang paghulagway adunay %n ka karakter.</translation>
+    </message>
+    <message>
+        <source>The page has no main heading (h1).</source>
+        <translation>Walay panguna nga ulohan (h1) ang panid.</translation>
+    </message>
+    <message>
+        <source>The page has %n main headings (h1); one is best.</source>
+        <translation>Ang panid adunay %n ka panguna nga ulohan (h1); usa ang labing maayo.</translation>
+    </message>
+    <message>
+        <source>A heading jumps from level %from to level %to.</source>
+        <translation>Usa ka ulohan nanglukso gikan sa lebel %from ngadto sa lebel %to.</translation>
+    </message>
+    <message>
+        <source>The headings are in order.</source>
+        <translation>Ang mga ulohan nagsunod-sunod.</translation>
+    </message>
+    <message>
+        <source>An image has no alternative text.</source>
+        <translation>Usa ka hulagway walay alternatibong teksto.</translation>
+    </message>
+    <message>
+        <source>Every image has an alternative text.</source>
+        <translation>Ang matag hulagway adunay alternatibong teksto.</translation>
+    </message>
+    <message>
+        <source>The page names no canonical address.</source>
+        <translation>Ang panid walay ginganlan nga canonical nga adres.</translation>
+    </message>
+    <message>
+        <source>The page names %n canonical addresses; one is right.</source>
+        <translation>Ang panid nagngalan og %n ka canonical nga adres; usa ang husto.</translation>
+    </message>
+    <message>
+        <source>The canonical address is another page: %url</source>
+        <translation>Ang canonical nga adres laing panid: %url</translation>
+    </message>
+    <message>
+        <source>The canonical address is this page.</source>
+        <translation>Ang canonical nga adres mao kini nga panid.</translation>
+    </message>
+    <message>
+        <source>Search engines are asked not to list this page (robots: %value).</source>
+        <translation>Gihangyo ang mga search engine nga dili ilista kini nga panid (robots: %value).</translation>
+    </message>
+    <message>
+        <source>A link leads nowhere: %url</source>
+        <translation>Usa ka link walay padulngan: %url</translation>
+    </message>
+    <message>
+        <source>All %n links checked on this page lead somewhere.</source>
+        <translation>Ang tanang %n ka link nga gisusi niining panid adunay padulngan.</translation>
+    </message>
+    <message>
+        <source>Checking ...</source>
+        <translation>Nagsusi ...</translation>
+    </message>
+    <message>
+        <source>Check again</source>
+        <translation>Susiha pag-usab</translation>
+    </message>
+    <message>
+        <source>%n things to look at</source>
+        <translation>%n ka butang nga tan-awon</translation>
+    </message>
+    <message>
+        <source>Nothing to look at.</source>
+        <translation>Walay tan-awon.</translation>
+    </message>
+    <message>
+        <source>Problem</source>
+        <translation>Problema</translation>
+    </message>
+    <message>
+        <source>To look at</source>
+        <translation>Tan-awon</translation>
+    </message>
+    <message>
+        <source>Fine</source>
+        <translation>Maayo</translation>
+    </message>
+    <message>
+        <source>Open the field</source>
+        <translation>Ablihi ang field</translation>
+    </message>
+    <message>
+        <source>Show it on the page</source>
+        <translation>Ipakita sa panid</translation>
+    </message>
+    <message>
+        <source>SEO</source>
+        <translation>SEO</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Inbox</translation>
     </message>

@@ -592,6 +592,122 @@
         <translation>Kwakabva vashanyi hakunyorwi pakuisirwa uku.</translation>
     </message>
     <message>
+        <source>The page has no title.</source>
+        <translation>Peji haina musoro.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters; 30 to 60 fit search results.</source>
+        <translation>Musoro une mavara %n; 30 kusvika 60 anokwana pamhedzisiro yekutsvaga.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters.</source>
+        <translation>Musoro une mavara %n.</translation>
+    </message>
+    <message>
+        <source>The page has no description.</source>
+        <translation>Peji haina tsananguro.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters; 70 to 160 fit search results.</source>
+        <translation>Tsananguro ine mavara %n; 70 kusvika 160 anokwana pamhedzisiro yekutsvaga.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters.</source>
+        <translation>Tsananguro ine mavara %n.</translation>
+    </message>
+    <message>
+        <source>The page has no main heading (h1).</source>
+        <translation>Peji haina musoro mukuru (h1).</translation>
+    </message>
+    <message>
+        <source>The page has %n main headings (h1); one is best.</source>
+        <translation>Peji ine misoro mikuru %n (h1); mumwe ndiwo wakanakisa.</translation>
+    </message>
+    <message>
+        <source>A heading jumps from level %from to level %to.</source>
+        <translation>Musoro mumwe unosvetuka kubva padanho %from kuenda padanho %to.</translation>
+    </message>
+    <message>
+        <source>The headings are in order.</source>
+        <translation>Misoro yakarongeka.</translation>
+    </message>
+    <message>
+        <source>An image has no alternative text.</source>
+        <translation>Mufananidzo mumwe hauna mamwe mashoko.</translation>
+    </message>
+    <message>
+        <source>Every image has an alternative text.</source>
+        <translation>Mufananidzo wega wega une mamwe mashoko.</translation>
+    </message>
+    <message>
+        <source>The page names no canonical address.</source>
+        <translation>Peji haidomi kero ye canonical.</translation>
+    </message>
+    <message>
+        <source>The page names %n canonical addresses; one is right.</source>
+        <translation>Peji inodoma kero dze canonical %n; imwe chete ndiyo yakarurama.</translation>
+    </message>
+    <message>
+        <source>The canonical address is another page: %url</source>
+        <translation>Kero ye canonical ipeji imwe: %url</translation>
+    </message>
+    <message>
+        <source>The canonical address is this page.</source>
+        <translation>Kero ye canonical ipeji rino.</translation>
+    </message>
+    <message>
+        <source>Search engines are asked not to list this page (robots: %value).</source>
+        <translation>Injini dzekutsvaga dzinokumbirwa kuti dzisanyore peji rino (robots: %value).</translation>
+    </message>
+    <message>
+        <source>A link leads nowhere: %url</source>
+        <translation>Chinongedzo chimwe hachiendi kupi zvako: %url</translation>
+    </message>
+    <message>
+        <source>All %n links checked on this page lead somewhere.</source>
+        <translation>Zvinongedzo zvose %n zvakaongororwa papeji rino zvinoenda kumwe kunhu.</translation>
+    </message>
+    <message>
+        <source>Checking ...</source>
+        <translation>Kuongorora ...</translation>
+    </message>
+    <message>
+        <source>Check again</source>
+        <translation>Ongorora zvakare</translation>
+    </message>
+    <message>
+        <source>%n things to look at</source>
+        <translation>Zvinhu %n zvekutarisa</translation>
+    </message>
+    <message>
+        <source>Nothing to look at.</source>
+        <translation>Hapana chekutarisa.</translation>
+    </message>
+    <message>
+        <source>Problem</source>
+        <translation>Dambudziko</translation>
+    </message>
+    <message>
+        <source>To look at</source>
+        <translation>Zvekutarisa</translation>
+    </message>
+    <message>
+        <source>Fine</source>
+        <translation>Zvakanaka</translation>
+    </message>
+    <message>
+        <source>Open the field</source>
+        <translation>Vhura nzvimbo</translation>
+    </message>
+    <message>
+        <source>Show it on the page</source>
+        <translation>Ratidza papeji</translation>
+    </message>
+    <message>
+        <source>SEO</source>
+        <translation>SEO</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Bhokisi rinopinda</translation>
     </message>

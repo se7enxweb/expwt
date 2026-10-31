@@ -592,6 +592,122 @@
         <translation>Меҳмонон аз куҷо омадаанд, дар ин насб сабт намешавад.</translation>
     </message>
     <message>
+        <source>The page has no title.</source>
+        <translation>Саҳифа сарлавҳа надорад.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters; 30 to 60 fit search results.</source>
+        <translation>Сарлавҳа %n аломат дорад; дар натиҷаҳои ҷустуҷӯ аз 30 то 60 ҷо мешавад.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters.</source>
+        <translation>Сарлавҳа %n аломат дорад.</translation>
+    </message>
+    <message>
+        <source>The page has no description.</source>
+        <translation>Саҳифа тавсиф надорад.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters; 70 to 160 fit search results.</source>
+        <translation>Тавсиф %n аломат дорад; дар натиҷаҳои ҷустуҷӯ аз 70 то 160 ҷо мешавад.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters.</source>
+        <translation>Тавсиф %n аломат дорад.</translation>
+    </message>
+    <message>
+        <source>The page has no main heading (h1).</source>
+        <translation>Саҳифа сарлавҳаи асосӣ (h1) надорад.</translation>
+    </message>
+    <message>
+        <source>The page has %n main headings (h1); one is best.</source>
+        <translation>Саҳифа %n сарлавҳаи асосӣ (h1) дорад; беҳтараш як.</translation>
+    </message>
+    <message>
+        <source>A heading jumps from level %from to level %to.</source>
+        <translation>Сарлавҳа аз сатҳи %from ба сатҳи %to мепарад.</translation>
+    </message>
+    <message>
+        <source>The headings are in order.</source>
+        <translation>Сарлавҳаҳо бо тартиб мебошанд.</translation>
+    </message>
+    <message>
+        <source>An image has no alternative text.</source>
+        <translation>Тасвир матни алтернативӣ надорад.</translation>
+    </message>
+    <message>
+        <source>Every image has an alternative text.</source>
+        <translation>Ҳар тасвир матни алтернативӣ дорад.</translation>
+    </message>
+    <message>
+        <source>The page names no canonical address.</source>
+        <translation>Саҳифа ягон суроғаи каноникӣ нишон намедиҳад.</translation>
+    </message>
+    <message>
+        <source>The page names %n canonical addresses; one is right.</source>
+        <translation>Саҳифа %n суроғаи каноникӣ нишон медиҳад; дурусташ як аст.</translation>
+    </message>
+    <message>
+        <source>The canonical address is another page: %url</source>
+        <translation>Суроғаи каноникӣ саҳифаи дигар аст: %url</translation>
+    </message>
+    <message>
+        <source>The canonical address is this page.</source>
+        <translation>Суроғаи каноникӣ ҳамин саҳифа аст.</translation>
+    </message>
+    <message>
+        <source>Search engines are asked not to list this page (robots: %value).</source>
+        <translation>Аз системаҳои ҷустуҷӯ хоҳиш карда мешавад, ки ин саҳифаро дар рӯйхат нагузоранд (robots: %value).</translation>
+    </message>
+    <message>
+        <source>A link leads nowhere: %url</source>
+        <translation>Пайванд ба ҳеҷ ҷо намебарад: %url</translation>
+    </message>
+    <message>
+        <source>All %n links checked on this page lead somewhere.</source>
+        <translation>Ҳамаи %n пайванди дар ин саҳифа санҷидашуда ба ҷое мебаранд.</translation>
+    </message>
+    <message>
+        <source>Checking ...</source>
+        <translation>Санҷиш ...</translation>
+    </message>
+    <message>
+        <source>Check again</source>
+        <translation>Аз нав санҷидан</translation>
+    </message>
+    <message>
+        <source>%n things to look at</source>
+        <translation>%n чиз барои дидан</translation>
+    </message>
+    <message>
+        <source>Nothing to look at.</source>
+        <translation>Чизе барои дидан нест.</translation>
+    </message>
+    <message>
+        <source>Problem</source>
+        <translation>Мушкил</translation>
+    </message>
+    <message>
+        <source>To look at</source>
+        <translation>Барои дидан</translation>
+    </message>
+    <message>
+        <source>Fine</source>
+        <translation>Хуб</translation>
+    </message>
+    <message>
+        <source>Open the field</source>
+        <translation>Кушодани майдон</translation>
+    </message>
+    <message>
+        <source>Show it on the page</source>
+        <translation>Дар саҳифа нишон додан</translation>
+    </message>
+    <message>
+        <source>SEO</source>
+        <translation>SEO</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Воридшуда</translation>
     </message>

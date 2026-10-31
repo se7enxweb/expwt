@@ -592,6 +592,122 @@
         <translation>Chan eilear a' clàradh cò às a thàinig an luchd-tadhail air an stàladh seo.</translation>
     </message>
     <message>
+        <source>The page has no title.</source>
+        <translation>Chan eil tiotal aig an duilleag.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters; 30 to 60 fit search results.</source>
+        <translation>Tha %n caractar san tiotal; tha 30 gu 60 a' freagairt air toraidhean luirg.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters.</source>
+        <translation>Tha %n caractar san tiotal.</translation>
+    </message>
+    <message>
+        <source>The page has no description.</source>
+        <translation>Chan eil tuairisgeul aig an duilleag.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters; 70 to 160 fit search results.</source>
+        <translation>Tha %n caractar san tuairisgeul; tha 70 gu 160 a' freagairt air toraidhean luirg.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters.</source>
+        <translation>Tha %n caractar san tuairisgeul.</translation>
+    </message>
+    <message>
+        <source>The page has no main heading (h1).</source>
+        <translation>Chan eil prìomh cheann-sgrìobhadh (h1) aig an duilleag.</translation>
+    </message>
+    <message>
+        <source>The page has %n main headings (h1); one is best.</source>
+        <translation>Tha %n prìomh cheann-sgrìobhadh (h1) aig an duilleag; 's e aon as fheàrr.</translation>
+    </message>
+    <message>
+        <source>A heading jumps from level %from to level %to.</source>
+        <translation>Tha ceann-sgrìobhadh a' leum o ìre %from gu ìre %to.</translation>
+    </message>
+    <message>
+        <source>The headings are in order.</source>
+        <translation>Tha na cinn-sgrìobhaidh ann an òrdugh.</translation>
+    </message>
+    <message>
+        <source>An image has no alternative text.</source>
+        <translation>Chan eil teacsa eile aig dealbh.</translation>
+    </message>
+    <message>
+        <source>Every image has an alternative text.</source>
+        <translation>Tha teacsa eile aig gach dealbh.</translation>
+    </message>
+    <message>
+        <source>The page names no canonical address.</source>
+        <translation>Chan eil an duilleag ag ainmeachadh seòladh canonach.</translation>
+    </message>
+    <message>
+        <source>The page names %n canonical addresses; one is right.</source>
+        <translation>Tha an duilleag ag ainmeachadh %n seòladh canonach; 's e aon a tha ceart.</translation>
+    </message>
+    <message>
+        <source>The canonical address is another page: %url</source>
+        <translation>'S e duilleag eile an seòladh canonach: %url</translation>
+    </message>
+    <message>
+        <source>The canonical address is this page.</source>
+        <translation>'S e an duilleag seo an seòladh canonach.</translation>
+    </message>
+    <message>
+        <source>Search engines are asked not to list this page (robots: %value).</source>
+        <translation>Thathar ag iarraidh air einnseanan-luirg gun an duilleag seo a liostadh (robots: %value).</translation>
+    </message>
+    <message>
+        <source>A link leads nowhere: %url</source>
+        <translation>Chan eil ceangal a' dol gu àite sam bith: %url</translation>
+    </message>
+    <message>
+        <source>All %n links checked on this page lead somewhere.</source>
+        <translation>Tha na %n ceanglaichean uile a chaidh a sgrùdadh air an duilleag seo a' dol gu àiteigin.</translation>
+    </message>
+    <message>
+        <source>Checking ...</source>
+        <translation>Ga sgrùdadh ...</translation>
+    </message>
+    <message>
+        <source>Check again</source>
+        <translation>Sgrùd a-rithist</translation>
+    </message>
+    <message>
+        <source>%n things to look at</source>
+        <translation>%n rud ri sùil a thoirt orra</translation>
+    </message>
+    <message>
+        <source>Nothing to look at.</source>
+        <translation>Chan eil dad ri sùil a thoirt air.</translation>
+    </message>
+    <message>
+        <source>Problem</source>
+        <translation>Duilgheadas</translation>
+    </message>
+    <message>
+        <source>To look at</source>
+        <translation>Ri sùil a thoirt air</translation>
+    </message>
+    <message>
+        <source>Fine</source>
+        <translation>Ceart gu leòr</translation>
+    </message>
+    <message>
+        <source>Open the field</source>
+        <translation>Fosgail an raon</translation>
+    </message>
+    <message>
+        <source>Show it on the page</source>
+        <translation>Seall air an duilleag e</translation>
+    </message>
+    <message>
+        <source>SEO</source>
+        <translation>SEO</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Bogsa a-steach</translation>
     </message>

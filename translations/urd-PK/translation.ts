@@ -592,6 +592,122 @@
         <translation>مہمان کہاں سے آئے، یہ اس انسٹالیشن پر درج نہیں ہوتا۔</translation>
     </message>
     <message>
+        <source>The page has no title.</source>
+        <translation>صفحے کا کوئی عنوان نہیں ہے۔</translation>
+    </message>
+    <message>
+        <source>The title has %n characters; 30 to 60 fit search results.</source>
+        <translation>عنوان میں %n حروف ہیں؛ تلاش کے نتائج میں 30 سے 60 سماتے ہیں۔</translation>
+    </message>
+    <message>
+        <source>The title has %n characters.</source>
+        <translation>عنوان میں %n حروف ہیں۔</translation>
+    </message>
+    <message>
+        <source>The page has no description.</source>
+        <translation>صفحے کی کوئی تفصیل نہیں ہے۔</translation>
+    </message>
+    <message>
+        <source>The description has %n characters; 70 to 160 fit search results.</source>
+        <translation>تفصیل میں %n حروف ہیں؛ تلاش کے نتائج میں 70 سے 160 سماتے ہیں۔</translation>
+    </message>
+    <message>
+        <source>The description has %n characters.</source>
+        <translation>تفصیل میں %n حروف ہیں۔</translation>
+    </message>
+    <message>
+        <source>The page has no main heading (h1).</source>
+        <translation>صفحے پر کوئی مرکزی سرخی (h1) نہیں ہے۔</translation>
+    </message>
+    <message>
+        <source>The page has %n main headings (h1); one is best.</source>
+        <translation>صفحے پر %n مرکزی سرخیاں (h1) ہیں؛ ایک بہترین ہے۔</translation>
+    </message>
+    <message>
+        <source>A heading jumps from level %from to level %to.</source>
+        <translation>ایک سرخی سطح %from سے سطح %to پر چھلانگ لگاتی ہے۔</translation>
+    </message>
+    <message>
+        <source>The headings are in order.</source>
+        <translation>سرخیاں ترتیب میں ہیں۔</translation>
+    </message>
+    <message>
+        <source>An image has no alternative text.</source>
+        <translation>ایک تصویر کا کوئی متبادل متن نہیں ہے۔</translation>
+    </message>
+    <message>
+        <source>Every image has an alternative text.</source>
+        <translation>ہر تصویر کا متبادل متن ہے۔</translation>
+    </message>
+    <message>
+        <source>The page names no canonical address.</source>
+        <translation>صفحہ کوئی کینونیکل پتہ نہیں بتاتا۔</translation>
+    </message>
+    <message>
+        <source>The page names %n canonical addresses; one is right.</source>
+        <translation>صفحہ %n کینونیکل پتے بتاتا ہے؛ ایک ہی درست ہے۔</translation>
+    </message>
+    <message>
+        <source>The canonical address is another page: %url</source>
+        <translation>کینونیکل پتہ کوئی اور صفحہ ہے: %url</translation>
+    </message>
+    <message>
+        <source>The canonical address is this page.</source>
+        <translation>کینونیکل پتہ یہی صفحہ ہے۔</translation>
+    </message>
+    <message>
+        <source>Search engines are asked not to list this page (robots: %value).</source>
+        <translation>سرچ انجنوں سے کہا گیا ہے کہ یہ صفحہ فہرست میں نہ دکھائیں (robots: %value)۔</translation>
+    </message>
+    <message>
+        <source>A link leads nowhere: %url</source>
+        <translation>ایک لنک کہیں نہیں لے جاتا: %url</translation>
+    </message>
+    <message>
+        <source>All %n links checked on this page lead somewhere.</source>
+        <translation>اس صفحے پر جانچے گئے تمام %n لنک کہیں نہ کہیں لے جاتے ہیں۔</translation>
+    </message>
+    <message>
+        <source>Checking ...</source>
+        <translation>جانچ ہو رہی ہے ...</translation>
+    </message>
+    <message>
+        <source>Check again</source>
+        <translation>دوبارہ جانچیں</translation>
+    </message>
+    <message>
+        <source>%n things to look at</source>
+        <translation>دیکھنے کی %n باتیں</translation>
+    </message>
+    <message>
+        <source>Nothing to look at.</source>
+        <translation>دیکھنے کو کچھ نہیں۔</translation>
+    </message>
+    <message>
+        <source>Problem</source>
+        <translation>مسئلہ</translation>
+    </message>
+    <message>
+        <source>To look at</source>
+        <translation>دیکھنے کا</translation>
+    </message>
+    <message>
+        <source>Fine</source>
+        <translation>ٹھیک ہے</translation>
+    </message>
+    <message>
+        <source>Open the field</source>
+        <translation>فیلڈ کھولیں</translation>
+    </message>
+    <message>
+        <source>Show it on the page</source>
+        <translation>صفحے پر دکھائیں</translation>
+    </message>
+    <message>
+        <source>SEO</source>
+        <translation>SEO</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>ان باکس</translation>
     </message>

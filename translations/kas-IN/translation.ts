@@ -592,6 +592,122 @@
         <translation>مہمان کتہِ آیہِ، یہِ چھُنہٕ یتھ انسٹالیشنس پیٹھ درج سپدان۔</translation>
     </message>
     <message>
+        <source>The page has no title.</source>
+        <translation>صفحس چھُنہٕ کانٛہہ عنوان۔</translation>
+    </message>
+    <message>
+        <source>The title has %n characters; 30 to 60 fit search results.</source>
+        <translation>عنوانس منٛز چھِ %n حرف؛ تلاشٕچ نتیجن منٛز چھِ 30 پیٹھٕ 60 تام فِٹ گژھان۔</translation>
+    </message>
+    <message>
+        <source>The title has %n characters.</source>
+        <translation>عنوانس منٛز چھِ %n حرف۔</translation>
+    </message>
+    <message>
+        <source>The page has no description.</source>
+        <translation>صفحس چھُنہٕ کانٛہہ وضاحت۔</translation>
+    </message>
+    <message>
+        <source>The description has %n characters; 70 to 160 fit search results.</source>
+        <translation>وضاحتس منٛز چھِ %n حرف؛ تلاشٕچ نتیجن منٛز چھِ 70 پیٹھٕ 160 تام فِٹ گژھان۔</translation>
+    </message>
+    <message>
+        <source>The description has %n characters.</source>
+        <translation>وضاحتس منٛز چھِ %n حرف۔</translation>
+    </message>
+    <message>
+        <source>The page has no main heading (h1).</source>
+        <translation>صفحس پیٹھ چھُنہٕ کانٛہہ اہم سرخی (h1)۔</translation>
+    </message>
+    <message>
+        <source>The page has %n main headings (h1); one is best.</source>
+        <translation>صفحس پیٹھ چھِ %n اہم سرخیہٕ (h1)؛ اکھ چھُ بہتر۔</translation>
+    </message>
+    <message>
+        <source>A heading jumps from level %from to level %to.</source>
+        <translation>اکھ سرخی چھےٚ سطح %from پیٹھٕ سطح %to پیٹھ وٹھان۔</translation>
+    </message>
+    <message>
+        <source>The headings are in order.</source>
+        <translation>سرخیہٕ چھےٚ ترتیبس منٛز۔</translation>
+    </message>
+    <message>
+        <source>An image has no alternative text.</source>
+        <translation>اکِس تصویرِ چھُنہٕ متبادل متن۔</translation>
+    </message>
+    <message>
+        <source>Every image has an alternative text.</source>
+        <translation>پرٛتھ تصویرِ چھُ متبادل متن۔</translation>
+    </message>
+    <message>
+        <source>The page names no canonical address.</source>
+        <translation>صفحہٕ چھُنہٕ کانٛہہ کینونیکل پتہٕ ناو ہیوان۔</translation>
+    </message>
+    <message>
+        <source>The page names %n canonical addresses; one is right.</source>
+        <translation>صفحہٕ چھُ %n کینونیکل پتہٕ ناو ہیوان؛ اکھ چھُ صحیح۔</translation>
+    </message>
+    <message>
+        <source>The canonical address is another page: %url</source>
+        <translation>کینونیکل پتہٕ چھُ بیاکھ صفحہٕ: %url</translation>
+    </message>
+    <message>
+        <source>The canonical address is this page.</source>
+        <translation>کینونیکل پتہٕ چھُ یہ صفحہٕ۔</translation>
+    </message>
+    <message>
+        <source>Search engines are asked not to list this page (robots: %value).</source>
+        <translation>سرچ انجنن چھُ ونہٕ آمُت زِ یہ صفحہٕ مہ کٔرِو لِسٹ (robots: %value)۔</translation>
+    </message>
+    <message>
+        <source>A link leads nowhere: %url</source>
+        <translation>اکھ لنک چھُنہٕ کُنہِ نِوان: %url</translation>
+    </message>
+    <message>
+        <source>All %n links checked on this page lead somewhere.</source>
+        <translation>یتھ صفحس پیٹھ چیک کرنہٕ آمتی سٲری %n لنک چھِ کُنہِ نہٕ کُنہِ نِوان۔</translation>
+    </message>
+    <message>
+        <source>Checking ...</source>
+        <translation>چیک کرنہٕ یِوان ...</translation>
+    </message>
+    <message>
+        <source>Check again</source>
+        <translation>دوبارٕ چیک کٔرِو</translation>
+    </message>
+    <message>
+        <source>%n things to look at</source>
+        <translation>وُچھنس لایق %n چیز</translation>
+    </message>
+    <message>
+        <source>Nothing to look at.</source>
+        <translation>وُچھنس لایق چھُنہٕ کینْہہ۔</translation>
+    </message>
+    <message>
+        <source>Problem</source>
+        <translation>مسلہٕ</translation>
+    </message>
+    <message>
+        <source>To look at</source>
+        <translation>وُچھنس لایق</translation>
+    </message>
+    <message>
+        <source>Fine</source>
+        <translation>ٹھیک</translation>
+    </message>
+    <message>
+        <source>Open the field</source>
+        <translation>فیلڈ کھولِو</translation>
+    </message>
+    <message>
+        <source>Show it on the page</source>
+        <translation>صفحس پیٹھ ہاوِو</translation>
+    </message>
+    <message>
+        <source>SEO</source>
+        <translation>SEO</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>اِنباکس</translation>
     </message>

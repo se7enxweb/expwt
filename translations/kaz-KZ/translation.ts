@@ -592,6 +592,122 @@
         <translation>Келушілердің қайдан келгені бұл орнатуда жазылмайды.</translation>
     </message>
     <message>
+        <source>The page has no title.</source>
+        <translation>Беттің тақырыбы жоқ.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters; 30 to 60 fit search results.</source>
+        <translation>Тақырыпта %n таңба бар; іздеу нәтижелеріне 30-дан 60-қа дейін сыяды.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters.</source>
+        <translation>Тақырыпта %n таңба бар.</translation>
+    </message>
+    <message>
+        <source>The page has no description.</source>
+        <translation>Беттің сипаттамасы жоқ.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters; 70 to 160 fit search results.</source>
+        <translation>Сипаттамада %n таңба бар; іздеу нәтижелеріне 70-тен 160-қа дейін сыяды.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters.</source>
+        <translation>Сипаттамада %n таңба бар.</translation>
+    </message>
+    <message>
+        <source>The page has no main heading (h1).</source>
+        <translation>Бетте негізгі тақырып (h1) жоқ.</translation>
+    </message>
+    <message>
+        <source>The page has %n main headings (h1); one is best.</source>
+        <translation>Бетте %n негізгі тақырып (h1) бар; біреуі ең жақсы.</translation>
+    </message>
+    <message>
+        <source>A heading jumps from level %from to level %to.</source>
+        <translation>Тақырып %from деңгейінен %to деңгейіне секіреді.</translation>
+    </message>
+    <message>
+        <source>The headings are in order.</source>
+        <translation>Тақырыптар ретімен тұр.</translation>
+    </message>
+    <message>
+        <source>An image has no alternative text.</source>
+        <translation>Суреттің балама мәтіні жоқ.</translation>
+    </message>
+    <message>
+        <source>Every image has an alternative text.</source>
+        <translation>Әр суреттің балама мәтіні бар.</translation>
+    </message>
+    <message>
+        <source>The page names no canonical address.</source>
+        <translation>Бет ешқандай канондық мекенжайды атамайды.</translation>
+    </message>
+    <message>
+        <source>The page names %n canonical addresses; one is right.</source>
+        <translation>Бет %n канондық мекенжайды атайды; дұрысы біреу.</translation>
+    </message>
+    <message>
+        <source>The canonical address is another page: %url</source>
+        <translation>Канондық мекенжай басқа бет: %url</translation>
+    </message>
+    <message>
+        <source>The canonical address is this page.</source>
+        <translation>Канондық мекенжай осы бет.</translation>
+    </message>
+    <message>
+        <source>Search engines are asked not to list this page (robots: %value).</source>
+        <translation>Іздеу жүйелерінен бұл бетті тізімге қоспау сұралады (robots: %value).</translation>
+    </message>
+    <message>
+        <source>A link leads nowhere: %url</source>
+        <translation>Сілтеме ешқайда апармайды: %url</translation>
+    </message>
+    <message>
+        <source>All %n links checked on this page lead somewhere.</source>
+        <translation>Осы бетте тексерілген барлық %n сілтеме бір жерге апарады.</translation>
+    </message>
+    <message>
+        <source>Checking ...</source>
+        <translation>Тексерілуде ...</translation>
+    </message>
+    <message>
+        <source>Check again</source>
+        <translation>Қайта тексеру</translation>
+    </message>
+    <message>
+        <source>%n things to look at</source>
+        <translation>Қарайтын %n нәрсе</translation>
+    </message>
+    <message>
+        <source>Nothing to look at.</source>
+        <translation>Қарайтын ештеңе жоқ.</translation>
+    </message>
+    <message>
+        <source>Problem</source>
+        <translation>Мәселе</translation>
+    </message>
+    <message>
+        <source>To look at</source>
+        <translation>Қарау керек</translation>
+    </message>
+    <message>
+        <source>Fine</source>
+        <translation>Жақсы</translation>
+    </message>
+    <message>
+        <source>Open the field</source>
+        <translation>Өрісті ашу</translation>
+    </message>
+    <message>
+        <source>Show it on the page</source>
+        <translation>Бетте көрсету</translation>
+    </message>
+    <message>
+        <source>SEO</source>
+        <translation>SEO</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Кіріс</translation>
     </message>

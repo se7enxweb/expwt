@@ -592,6 +592,122 @@
         <translation>Ba a rubuta inda baƙi suka fito a wannan shigarwa.</translation>
     </message>
     <message>
+        <source>The page has no title.</source>
+        <translation>Shafin ba shi da take.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters; 30 to 60 fit search results.</source>
+        <translation>Taken yana da haruffa %n; 30 zuwa 60 sun dace da sakamakon bincike.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters.</source>
+        <translation>Taken yana da haruffa %n.</translation>
+    </message>
+    <message>
+        <source>The page has no description.</source>
+        <translation>Shafin ba shi da bayani.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters; 70 to 160 fit search results.</source>
+        <translation>Bayanin yana da haruffa %n; 70 zuwa 160 sun dace da sakamakon bincike.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters.</source>
+        <translation>Bayanin yana da haruffa %n.</translation>
+    </message>
+    <message>
+        <source>The page has no main heading (h1).</source>
+        <translation>Shafin ba shi da babban kanun labari (h1).</translation>
+    </message>
+    <message>
+        <source>The page has %n main headings (h1); one is best.</source>
+        <translation>Shafin yana da manyan kanun labarai %n (h1); ɗaya shi ne mafi kyau.</translation>
+    </message>
+    <message>
+        <source>A heading jumps from level %from to level %to.</source>
+        <translation>Wani kanun labari yana tsalle daga mataki %from zuwa mataki %to.</translation>
+    </message>
+    <message>
+        <source>The headings are in order.</source>
+        <translation>Kanun labaran suna cikin tsari.</translation>
+    </message>
+    <message>
+        <source>An image has no alternative text.</source>
+        <translation>Wani hoto ba shi da madadin rubutu.</translation>
+    </message>
+    <message>
+        <source>Every image has an alternative text.</source>
+        <translation>Kowane hoto yana da madadin rubutu.</translation>
+    </message>
+    <message>
+        <source>The page names no canonical address.</source>
+        <translation>Shafin bai ambaci adireshin canonical ba.</translation>
+    </message>
+    <message>
+        <source>The page names %n canonical addresses; one is right.</source>
+        <translation>Shafin ya ambaci adiresoshin canonical %n; ɗaya ne daidai.</translation>
+    </message>
+    <message>
+        <source>The canonical address is another page: %url</source>
+        <translation>Adireshin canonical wani shafi ne: %url</translation>
+    </message>
+    <message>
+        <source>The canonical address is this page.</source>
+        <translation>Adireshin canonical shi ne wannan shafin.</translation>
+    </message>
+    <message>
+        <source>Search engines are asked not to list this page (robots: %value).</source>
+        <translation>An roƙi injunan bincike kada su jera wannan shafin (robots: %value).</translation>
+    </message>
+    <message>
+        <source>A link leads nowhere: %url</source>
+        <translation>Wata mahaɗa ba ta kai ko'ina: %url</translation>
+    </message>
+    <message>
+        <source>All %n links checked on this page lead somewhere.</source>
+        <translation>Duk mahaɗa %n da aka duba a wannan shafin suna kai wani wuri.</translation>
+    </message>
+    <message>
+        <source>Checking ...</source>
+        <translation>Ana dubawa ...</translation>
+    </message>
+    <message>
+        <source>Check again</source>
+        <translation>Sake dubawa</translation>
+    </message>
+    <message>
+        <source>%n things to look at</source>
+        <translation>Abubuwa %n da za a duba</translation>
+    </message>
+    <message>
+        <source>Nothing to look at.</source>
+        <translation>Babu abin dubawa.</translation>
+    </message>
+    <message>
+        <source>Problem</source>
+        <translation>Matsala</translation>
+    </message>
+    <message>
+        <source>To look at</source>
+        <translation>Don dubawa</translation>
+    </message>
+    <message>
+        <source>Fine</source>
+        <translation>Lafiya</translation>
+    </message>
+    <message>
+        <source>Open the field</source>
+        <translation>Buɗe filin</translation>
+    </message>
+    <message>
+        <source>Show it on the page</source>
+        <translation>Nuna shi a shafin</translation>
+    </message>
+    <message>
+        <source>SEO</source>
+        <translation>SEO</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Akwatin saƙo</translation>
     </message>

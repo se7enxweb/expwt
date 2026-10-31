@@ -592,6 +592,122 @@
         <translation>Kũrĩa ageni moimĩte gũtiandĩkagwo kũrĩ ũbanda ũyũ.</translation>
     </message>
     <message>
+        <source>The page has no title.</source>
+        <translation>Rũrenda rũtirĩ na rĩĩtwa.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters; 30 to 60 fit search results.</source>
+        <translation>Rĩĩtwa rĩrĩ na ndemwa %n; 30 nginya 60 nĩ ciagĩrĩire maciaro-inĩ ma gũcaria.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters.</source>
+        <translation>Rĩĩtwa rĩrĩ na ndemwa %n.</translation>
+    </message>
+    <message>
+        <source>The page has no description.</source>
+        <translation>Rũrenda rũtirĩ na ũtaarĩrio.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters; 70 to 160 fit search results.</source>
+        <translation>Ũtaarĩrio ũrĩ na ndemwa %n; 70 nginya 160 nĩ ciagĩrĩire maciaro-inĩ ma gũcaria.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters.</source>
+        <translation>Ũtaarĩrio ũrĩ na ndemwa %n.</translation>
+    </message>
+    <message>
+        <source>The page has no main heading (h1).</source>
+        <translation>Rũrenda rũtirĩ na kĩongo kĩnene (h1).</translation>
+    </message>
+    <message>
+        <source>The page has %n main headings (h1); one is best.</source>
+        <translation>Rũrenda rũrĩ na ciongo nene %n (h1); ĩmwe nĩyo njega mũno.</translation>
+    </message>
+    <message>
+        <source>A heading jumps from level %from to level %to.</source>
+        <translation>Kĩongo kĩmwe nĩ gĩcũgũta kuuma kĩrĩma %from nginya kĩrĩma %to.</translation>
+    </message>
+    <message>
+        <source>The headings are in order.</source>
+        <translation>Ciongo irĩ na mũbango.</translation>
+    </message>
+    <message>
+        <source>An image has no alternative text.</source>
+        <translation>Mbica ĩmwe ndĩrĩ na ndeto ya kũrũmĩrĩra.</translation>
+    </message>
+    <message>
+        <source>Every image has an alternative text.</source>
+        <translation>O mbica yothe ĩrĩ na ndeto ya kũrũmĩrĩra.</translation>
+    </message>
+    <message>
+        <source>The page names no canonical address.</source>
+        <translation>Rũrenda rũtigwetaga anwani ya canonical.</translation>
+    </message>
+    <message>
+        <source>The page names %n canonical addresses; one is right.</source>
+        <translation>Rũrenda nĩrũgwetaga anwani %n cia canonical; ĩmwe nĩyo ya ma.</translation>
+    </message>
+    <message>
+        <source>The canonical address is another page: %url</source>
+        <translation>Anwani ya canonical nĩ rũrenda rũngĩ: %url</translation>
+    </message>
+    <message>
+        <source>The canonical address is this page.</source>
+        <translation>Anwani ya canonical nĩ rũrenda rũrũ.</translation>
+    </message>
+    <message>
+        <source>Search engines are asked not to list this page (robots: %value).</source>
+        <translation>Mĩtambo ya gũcaria nĩĩtĩtwo ĩtikandĩke rũrenda rũrũ (robots: %value).</translation>
+    </message>
+    <message>
+        <source>A link leads nowhere: %url</source>
+        <translation>Kĩhoti kĩmwe gĩtitwaraga kũndũ: %url</translation>
+    </message>
+    <message>
+        <source>All %n links checked on this page lead somewhere.</source>
+        <translation>Ihoti ciothe %n iria ciathiĩrwo rũrenda-inĩ rũrũ nĩitwaraga kũndũ.</translation>
+    </message>
+    <message>
+        <source>Checking ...</source>
+        <translation>Nĩ gũthuthuria ...</translation>
+    </message>
+    <message>
+        <source>Check again</source>
+        <translation>Thuthuria rĩngĩ</translation>
+    </message>
+    <message>
+        <source>%n things to look at</source>
+        <translation>Maũndũ %n ma kũrora</translation>
+    </message>
+    <message>
+        <source>Nothing to look at.</source>
+        <translation>Gũtirĩ kĩa kũrora.</translation>
+    </message>
+    <message>
+        <source>Problem</source>
+        <translation>Thĩna</translation>
+    </message>
+    <message>
+        <source>To look at</source>
+        <translation>Kũrora</translation>
+    </message>
+    <message>
+        <source>Fine</source>
+        <translation>Nĩ wega</translation>
+    </message>
+    <message>
+        <source>Open the field</source>
+        <translation>Hingũra kĩhumo</translation>
+    </message>
+    <message>
+        <source>Show it on the page</source>
+        <translation>Kĩonania rũrenda-inĩ</translation>
+    </message>
+    <message>
+        <source>SEO</source>
+        <translation>SEO</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Ithandũkũ rĩa marũa</translation>
     </message>

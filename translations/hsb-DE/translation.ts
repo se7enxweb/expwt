@@ -592,6 +592,122 @@
         <translation>Zwotkel wopytowarjo přińdźechu, so na tutej instalaciji njezapisuje.</translation>
     </message>
     <message>
+        <source>The page has no title.</source>
+        <translation>Strona nima titul.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters; 30 to 60 fit search results.</source>
+        <translation>Titul ma %n znamješkow; 30 do 60 so do pytanskich wuslědkow hodźi.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters.</source>
+        <translation>Titul ma %n znamješkow.</translation>
+    </message>
+    <message>
+        <source>The page has no description.</source>
+        <translation>Strona nima wopisanje.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters; 70 to 160 fit search results.</source>
+        <translation>Wopisanje ma %n znamješkow; 70 do 160 so do pytanskich wuslědkow hodźi.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters.</source>
+        <translation>Wopisanje ma %n znamješkow.</translation>
+    </message>
+    <message>
+        <source>The page has no main heading (h1).</source>
+        <translation>Strona nima hłowne nadpismo (h1).</translation>
+    </message>
+    <message>
+        <source>The page has %n main headings (h1); one is best.</source>
+        <translation>Strona ma %n hłownych nadpismow (h1); jedne je najlěpše.</translation>
+    </message>
+    <message>
+        <source>A heading jumps from level %from to level %to.</source>
+        <translation>Nadpismo skoči z runiny %from na runinu %to.</translation>
+    </message>
+    <message>
+        <source>The headings are in order.</source>
+        <translation>Nadpisma su w porjedźe.</translation>
+    </message>
+    <message>
+        <source>An image has no alternative text.</source>
+        <translation>Wobraz nima alternatiwny tekst.</translation>
+    </message>
+    <message>
+        <source>Every image has an alternative text.</source>
+        <translation>Kóždy wobraz ma alternatiwny tekst.</translation>
+    </message>
+    <message>
+        <source>The page names no canonical address.</source>
+        <translation>Strona njemjenuje žanu kanonisku adresu.</translation>
+    </message>
+    <message>
+        <source>The page names %n canonical addresses; one is right.</source>
+        <translation>Strona mjenuje %n kanoniskich adresow; jedna je prawa.</translation>
+    </message>
+    <message>
+        <source>The canonical address is another page: %url</source>
+        <translation>Kanoniska adresa je druha strona: %url</translation>
+    </message>
+    <message>
+        <source>The canonical address is this page.</source>
+        <translation>Kanoniska adresa je tuta strona.</translation>
+    </message>
+    <message>
+        <source>Search engines are asked not to list this page (robots: %value).</source>
+        <translation>Pytawy so prosa, tutu stronu njepokazać (robots: %value).</translation>
+    </message>
+    <message>
+        <source>A link leads nowhere: %url</source>
+        <translation>Wotkaz nikam njewjedźe: %url</translation>
+    </message>
+    <message>
+        <source>All %n links checked on this page lead somewhere.</source>
+        <translation>Wšě %n na tutej stronje kontrolowane wotkazy někam wjedu.</translation>
+    </message>
+    <message>
+        <source>Checking ...</source>
+        <translation>Kontroluje so ...</translation>
+    </message>
+    <message>
+        <source>Check again</source>
+        <translation>Hišće raz kontrolować</translation>
+    </message>
+    <message>
+        <source>%n things to look at</source>
+        <translation>%n wěcow k přehladowanju</translation>
+    </message>
+    <message>
+        <source>Nothing to look at.</source>
+        <translation>Ničo k přehladowanju.</translation>
+    </message>
+    <message>
+        <source>Problem</source>
+        <translation>Problem</translation>
+    </message>
+    <message>
+        <source>To look at</source>
+        <translation>K přehladowanju</translation>
+    </message>
+    <message>
+        <source>Fine</source>
+        <translation>W porjadku</translation>
+    </message>
+    <message>
+        <source>Open the field</source>
+        <translation>Polo wočinić</translation>
+    </message>
+    <message>
+        <source>Show it on the page</source>
+        <translation>Na stronje pokazać</translation>
+    </message>
+    <message>
+        <source>SEO</source>
+        <translation>SEO</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Dóstate</translation>
     </message>

@@ -592,6 +592,122 @@
         <translation>Nguồn đến của khách truy cập không được ghi lại trên bản cài đặt này.</translation>
     </message>
     <message>
+        <source>The page has no title.</source>
+        <translation>Trang không có tiêu đề.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters; 30 to 60 fit search results.</source>
+        <translation>Tiêu đề có %n ký tự; từ 30 đến 60 vừa với kết quả tìm kiếm.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters.</source>
+        <translation>Tiêu đề có %n ký tự.</translation>
+    </message>
+    <message>
+        <source>The page has no description.</source>
+        <translation>Trang không có mô tả.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters; 70 to 160 fit search results.</source>
+        <translation>Mô tả có %n ký tự; từ 70 đến 160 vừa với kết quả tìm kiếm.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters.</source>
+        <translation>Mô tả có %n ký tự.</translation>
+    </message>
+    <message>
+        <source>The page has no main heading (h1).</source>
+        <translation>Trang không có tiêu đề chính (h1).</translation>
+    </message>
+    <message>
+        <source>The page has %n main headings (h1); one is best.</source>
+        <translation>Trang có %n tiêu đề chính (h1); tốt nhất là một.</translation>
+    </message>
+    <message>
+        <source>A heading jumps from level %from to level %to.</source>
+        <translation>Một tiêu đề nhảy từ cấp %from sang cấp %to.</translation>
+    </message>
+    <message>
+        <source>The headings are in order.</source>
+        <translation>Các tiêu đề theo đúng thứ tự.</translation>
+    </message>
+    <message>
+        <source>An image has no alternative text.</source>
+        <translation>Một hình ảnh không có văn bản thay thế.</translation>
+    </message>
+    <message>
+        <source>Every image has an alternative text.</source>
+        <translation>Mọi hình ảnh đều có văn bản thay thế.</translation>
+    </message>
+    <message>
+        <source>The page names no canonical address.</source>
+        <translation>Trang không nêu địa chỉ chuẩn nào.</translation>
+    </message>
+    <message>
+        <source>The page names %n canonical addresses; one is right.</source>
+        <translation>Trang nêu %n địa chỉ chuẩn; đúng là một.</translation>
+    </message>
+    <message>
+        <source>The canonical address is another page: %url</source>
+        <translation>Địa chỉ chuẩn là một trang khác: %url</translation>
+    </message>
+    <message>
+        <source>The canonical address is this page.</source>
+        <translation>Địa chỉ chuẩn là trang này.</translation>
+    </message>
+    <message>
+        <source>Search engines are asked not to list this page (robots: %value).</source>
+        <translation>Các công cụ tìm kiếm được yêu cầu không liệt kê trang này (robots: %value).</translation>
+    </message>
+    <message>
+        <source>A link leads nowhere: %url</source>
+        <translation>Một liên kết không dẫn đến đâu: %url</translation>
+    </message>
+    <message>
+        <source>All %n links checked on this page lead somewhere.</source>
+        <translation>Tất cả %n liên kết được kiểm tra trên trang này đều dẫn đến đâu đó.</translation>
+    </message>
+    <message>
+        <source>Checking ...</source>
+        <translation>Đang kiểm tra ...</translation>
+    </message>
+    <message>
+        <source>Check again</source>
+        <translation>Kiểm tra lại</translation>
+    </message>
+    <message>
+        <source>%n things to look at</source>
+        <translation>%n điều cần xem</translation>
+    </message>
+    <message>
+        <source>Nothing to look at.</source>
+        <translation>Không có gì cần xem.</translation>
+    </message>
+    <message>
+        <source>Problem</source>
+        <translation>Vấn đề</translation>
+    </message>
+    <message>
+        <source>To look at</source>
+        <translation>Cần xem</translation>
+    </message>
+    <message>
+        <source>Fine</source>
+        <translation>Tốt</translation>
+    </message>
+    <message>
+        <source>Open the field</source>
+        <translation>Mở trường</translation>
+    </message>
+    <message>
+        <source>Show it on the page</source>
+        <translation>Hiển thị trên trang</translation>
+    </message>
+    <message>
+        <source>SEO</source>
+        <translation>SEO</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Hộp thư đến</translation>
     </message>

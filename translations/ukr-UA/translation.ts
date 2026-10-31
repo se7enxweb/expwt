@@ -592,6 +592,122 @@
         <translation>Звідки прийшли відвідувачі, в цій установці не записується.</translation>
     </message>
     <message>
+        <source>The page has no title.</source>
+        <translation>Сторінка не має заголовка.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters; 30 to 60 fit search results.</source>
+        <translation>Заголовок має %n символів; у результати пошуку вміщується від 30 до 60.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters.</source>
+        <translation>Заголовок має %n символів.</translation>
+    </message>
+    <message>
+        <source>The page has no description.</source>
+        <translation>Сторінка не має опису.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters; 70 to 160 fit search results.</source>
+        <translation>Опис має %n символів; у результати пошуку вміщується від 70 до 160.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters.</source>
+        <translation>Опис має %n символів.</translation>
+    </message>
+    <message>
+        <source>The page has no main heading (h1).</source>
+        <translation>Сторінка не має головного заголовка (h1).</translation>
+    </message>
+    <message>
+        <source>The page has %n main headings (h1); one is best.</source>
+        <translation>Сторінка має %n головних заголовків (h1); найкраще один.</translation>
+    </message>
+    <message>
+        <source>A heading jumps from level %from to level %to.</source>
+        <translation>Заголовок перескакує з рівня %from на рівень %to.</translation>
+    </message>
+    <message>
+        <source>The headings are in order.</source>
+        <translation>Заголовки йдуть по порядку.</translation>
+    </message>
+    <message>
+        <source>An image has no alternative text.</source>
+        <translation>Зображення не має альтернативного тексту.</translation>
+    </message>
+    <message>
+        <source>Every image has an alternative text.</source>
+        <translation>Кожне зображення має альтернативний текст.</translation>
+    </message>
+    <message>
+        <source>The page names no canonical address.</source>
+        <translation>Сторінка не вказує канонічної адреси.</translation>
+    </message>
+    <message>
+        <source>The page names %n canonical addresses; one is right.</source>
+        <translation>Сторінка вказує %n канонічних адрес; правильно одна.</translation>
+    </message>
+    <message>
+        <source>The canonical address is another page: %url</source>
+        <translation>Канонічна адреса — інша сторінка: %url</translation>
+    </message>
+    <message>
+        <source>The canonical address is this page.</source>
+        <translation>Канонічна адреса — ця сторінка.</translation>
+    </message>
+    <message>
+        <source>Search engines are asked not to list this page (robots: %value).</source>
+        <translation>Пошукові системи просять не включати цю сторінку (robots: %value).</translation>
+    </message>
+    <message>
+        <source>A link leads nowhere: %url</source>
+        <translation>Посилання нікуди не веде: %url</translation>
+    </message>
+    <message>
+        <source>All %n links checked on this page lead somewhere.</source>
+        <translation>Усі %n перевірених на цій сторінці посилань кудись ведуть.</translation>
+    </message>
+    <message>
+        <source>Checking ...</source>
+        <translation>Перевірка ...</translation>
+    </message>
+    <message>
+        <source>Check again</source>
+        <translation>Перевірити знову</translation>
+    </message>
+    <message>
+        <source>%n things to look at</source>
+        <translation>%n пунктів для перегляду</translation>
+    </message>
+    <message>
+        <source>Nothing to look at.</source>
+        <translation>Нічого переглядати.</translation>
+    </message>
+    <message>
+        <source>Problem</source>
+        <translation>Проблема</translation>
+    </message>
+    <message>
+        <source>To look at</source>
+        <translation>Переглянути</translation>
+    </message>
+    <message>
+        <source>Fine</source>
+        <translation>Гаразд</translation>
+    </message>
+    <message>
+        <source>Open the field</source>
+        <translation>Відкрити поле</translation>
+    </message>
+    <message>
+        <source>Show it on the page</source>
+        <translation>Показати на сторінці</translation>
+    </message>
+    <message>
+        <source>SEO</source>
+        <translation>SEO</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Вхідні</translation>
     </message>

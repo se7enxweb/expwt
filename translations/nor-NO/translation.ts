@@ -592,6 +592,122 @@
         <translation>Hvor de besøkende kom fra, registreres ikke på denne installasjonen.</translation>
     </message>
     <message>
+        <source>The page has no title.</source>
+        <translation>Siden har ingen tittel.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters; 30 to 60 fit search results.</source>
+        <translation>Tittelen har %n tegn; 30 til 60 passer i søkeresultater.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters.</source>
+        <translation>Tittelen har %n tegn.</translation>
+    </message>
+    <message>
+        <source>The page has no description.</source>
+        <translation>Siden har ingen beskrivelse.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters; 70 to 160 fit search results.</source>
+        <translation>Beskrivelsen har %n tegn; 70 til 160 passer i søkeresultater.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters.</source>
+        <translation>Beskrivelsen har %n tegn.</translation>
+    </message>
+    <message>
+        <source>The page has no main heading (h1).</source>
+        <translation>Siden har ingen hovedoverskrift (h1).</translation>
+    </message>
+    <message>
+        <source>The page has %n main headings (h1); one is best.</source>
+        <translation>Siden har %n hovedoverskrifter (h1); én er best.</translation>
+    </message>
+    <message>
+        <source>A heading jumps from level %from to level %to.</source>
+        <translation>En overskrift hopper fra nivå %from til nivå %to.</translation>
+    </message>
+    <message>
+        <source>The headings are in order.</source>
+        <translation>Overskriftene er i rekkefølge.</translation>
+    </message>
+    <message>
+        <source>An image has no alternative text.</source>
+        <translation>Et bilde har ingen alternativ tekst.</translation>
+    </message>
+    <message>
+        <source>Every image has an alternative text.</source>
+        <translation>Alle bilder har en alternativ tekst.</translation>
+    </message>
+    <message>
+        <source>The page names no canonical address.</source>
+        <translation>Siden oppgir ingen kanonisk adresse.</translation>
+    </message>
+    <message>
+        <source>The page names %n canonical addresses; one is right.</source>
+        <translation>Siden oppgir %n kanoniske adresser; én er riktig.</translation>
+    </message>
+    <message>
+        <source>The canonical address is another page: %url</source>
+        <translation>Den kanoniske adressen er en annen side: %url</translation>
+    </message>
+    <message>
+        <source>The canonical address is this page.</source>
+        <translation>Den kanoniske adressen er denne siden.</translation>
+    </message>
+    <message>
+        <source>Search engines are asked not to list this page (robots: %value).</source>
+        <translation>Søkemotorer blir bedt om ikke å vise denne siden (robots: %value).</translation>
+    </message>
+    <message>
+        <source>A link leads nowhere: %url</source>
+        <translation>En lenke fører ingen steder: %url</translation>
+    </message>
+    <message>
+        <source>All %n links checked on this page lead somewhere.</source>
+        <translation>Alle %n lenker som er sjekket på denne siden, fører et sted.</translation>
+    </message>
+    <message>
+        <source>Checking ...</source>
+        <translation>Sjekker ...</translation>
+    </message>
+    <message>
+        <source>Check again</source>
+        <translation>Sjekk igjen</translation>
+    </message>
+    <message>
+        <source>%n things to look at</source>
+        <translation>%n ting å se på</translation>
+    </message>
+    <message>
+        <source>Nothing to look at.</source>
+        <translation>Ingenting å se på.</translation>
+    </message>
+    <message>
+        <source>Problem</source>
+        <translation>Problem</translation>
+    </message>
+    <message>
+        <source>To look at</source>
+        <translation>Se på</translation>
+    </message>
+    <message>
+        <source>Fine</source>
+        <translation>Fint</translation>
+    </message>
+    <message>
+        <source>Open the field</source>
+        <translation>Åpne feltet</translation>
+    </message>
+    <message>
+        <source>Show it on the page</source>
+        <translation>Vis det på siden</translation>
+    </message>
+    <message>
+        <source>SEO</source>
+        <translation>SEO</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Innboks</translation>
     </message>

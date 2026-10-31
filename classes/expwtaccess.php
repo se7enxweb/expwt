@@ -54,6 +54,8 @@ class expwtAccess
         'inbox.decide'    => array( 'use', true, 'collaboration', 'action', 'CollaborationActionCustom' ),
         // the page's insights from the kernel's own statistics (F25)
         'insights.load'   => array( 'insights', false, '', '', '' ),
+        // the SEO check of the page (F26): read-only, for those who edit with the sidebar
+        'seo.check'       => array( 'edit', false, '', '', '' ),
     );
 
     /** @return bool */

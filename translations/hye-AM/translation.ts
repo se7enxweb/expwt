@@ -592,6 +592,122 @@
         <translation>Թե որտեղից են եկել այցելուները, այս տեղադրման մեջ չի գրանցվում։</translation>
     </message>
     <message>
+        <source>The page has no title.</source>
+        <translation>Էջը վերնագիր չունի։</translation>
+    </message>
+    <message>
+        <source>The title has %n characters; 30 to 60 fit search results.</source>
+        <translation>Վերնագիրն ունի %n նիշ. որոնման արդյունքներում տեղավորվում է 30-ից 60-ը։</translation>
+    </message>
+    <message>
+        <source>The title has %n characters.</source>
+        <translation>Վերնագիրն ունի %n նիշ։</translation>
+    </message>
+    <message>
+        <source>The page has no description.</source>
+        <translation>Էջը նկարագրություն չունի։</translation>
+    </message>
+    <message>
+        <source>The description has %n characters; 70 to 160 fit search results.</source>
+        <translation>Նկարագրությունն ունի %n նիշ. որոնման արդյունքներում տեղավորվում է 70-ից 160-ը։</translation>
+    </message>
+    <message>
+        <source>The description has %n characters.</source>
+        <translation>Նկարագրությունն ունի %n նիշ։</translation>
+    </message>
+    <message>
+        <source>The page has no main heading (h1).</source>
+        <translation>Էջը գլխավոր վերնագիր (h1) չունի։</translation>
+    </message>
+    <message>
+        <source>The page has %n main headings (h1); one is best.</source>
+        <translation>Էջն ունի %n գլխավոր վերնագիր (h1). լավագույնը մեկն է։</translation>
+    </message>
+    <message>
+        <source>A heading jumps from level %from to level %to.</source>
+        <translation>Վերնագիրը %from մակարդակից թռչում է %to մակարդակ։</translation>
+    </message>
+    <message>
+        <source>The headings are in order.</source>
+        <translation>Վերնագրերը հերթականությամբ են։</translation>
+    </message>
+    <message>
+        <source>An image has no alternative text.</source>
+        <translation>Պատկերը այլընտրանքային տեքստ չունի։</translation>
+    </message>
+    <message>
+        <source>Every image has an alternative text.</source>
+        <translation>Յուրաքանչյուր պատկեր ունի այլընտրանքային տեքստ։</translation>
+    </message>
+    <message>
+        <source>The page names no canonical address.</source>
+        <translation>Էջը կանոնական հասցե չի նշում։</translation>
+    </message>
+    <message>
+        <source>The page names %n canonical addresses; one is right.</source>
+        <translation>Էջը նշում է %n կանոնական հասցե. ճիշտը մեկն է։</translation>
+    </message>
+    <message>
+        <source>The canonical address is another page: %url</source>
+        <translation>Կանոնական հասցեն այլ էջ է՝ %url</translation>
+    </message>
+    <message>
+        <source>The canonical address is this page.</source>
+        <translation>Կանոնական հասցեն այս էջն է։</translation>
+    </message>
+    <message>
+        <source>Search engines are asked not to list this page (robots: %value).</source>
+        <translation>Որոնողական համակարգերին խնդրվում է չցուցադրել այս էջը (robots: %value)։</translation>
+    </message>
+    <message>
+        <source>A link leads nowhere: %url</source>
+        <translation>Հղումը ոչ մի տեղ չի տանում՝ %url</translation>
+    </message>
+    <message>
+        <source>All %n links checked on this page lead somewhere.</source>
+        <translation>Այս էջում ստուգված բոլոր %n հղումները ինչ-որ տեղ են տանում։</translation>
+    </message>
+    <message>
+        <source>Checking ...</source>
+        <translation>Ստուգվում է ...</translation>
+    </message>
+    <message>
+        <source>Check again</source>
+        <translation>Կրկին ստուգել</translation>
+    </message>
+    <message>
+        <source>%n things to look at</source>
+        <translation>%n բան՝ դիտելու</translation>
+    </message>
+    <message>
+        <source>Nothing to look at.</source>
+        <translation>Դիտելու բան չկա։</translation>
+    </message>
+    <message>
+        <source>Problem</source>
+        <translation>Խնդիր</translation>
+    </message>
+    <message>
+        <source>To look at</source>
+        <translation>Դիտելու</translation>
+    </message>
+    <message>
+        <source>Fine</source>
+        <translation>Լավ է</translation>
+    </message>
+    <message>
+        <source>Open the field</source>
+        <translation>Բացել դաշտը</translation>
+    </message>
+    <message>
+        <source>Show it on the page</source>
+        <translation>Ցույց տալ էջում</translation>
+    </message>
+    <message>
+        <source>SEO</source>
+        <translation>SEO</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Մուտքային</translation>
     </message>

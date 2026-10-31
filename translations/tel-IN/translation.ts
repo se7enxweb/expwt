@@ -592,6 +592,122 @@
         <translation>సందర్శకులు ఎక్కడి నుండి వచ్చారో ఈ ఇన్‌స్టాలేషన్‌లో నమోదు కాదు.</translation>
     </message>
     <message>
+        <source>The page has no title.</source>
+        <translation>పేజీకి శీర్షిక లేదు.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters; 30 to 60 fit search results.</source>
+        <translation>శీర్షికలో %n అక్షరాలు ఉన్నాయి; శోధన ఫలితాల్లో 30 నుండి 60 సరిపోతాయి.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters.</source>
+        <translation>శీర్షికలో %n అక్షరాలు ఉన్నాయి.</translation>
+    </message>
+    <message>
+        <source>The page has no description.</source>
+        <translation>పేజీకి వివరణ లేదు.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters; 70 to 160 fit search results.</source>
+        <translation>వివరణలో %n అక్షరాలు ఉన్నాయి; శోధన ఫలితాల్లో 70 నుండి 160 సరిపోతాయి.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters.</source>
+        <translation>వివరణలో %n అక్షరాలు ఉన్నాయి.</translation>
+    </message>
+    <message>
+        <source>The page has no main heading (h1).</source>
+        <translation>పేజీకి ప్రధాన శీర్షిక (h1) లేదు.</translation>
+    </message>
+    <message>
+        <source>The page has %n main headings (h1); one is best.</source>
+        <translation>పేజీలో %n ప్రధాన శీర్షికలు (h1) ఉన్నాయి; ఒకటే ఉత్తమం.</translation>
+    </message>
+    <message>
+        <source>A heading jumps from level %from to level %to.</source>
+        <translation>ఒక శీర్షిక స్థాయి %from నుండి స్థాయి %to కి దూకుతుంది.</translation>
+    </message>
+    <message>
+        <source>The headings are in order.</source>
+        <translation>శీర్షికలు క్రమంలో ఉన్నాయి.</translation>
+    </message>
+    <message>
+        <source>An image has no alternative text.</source>
+        <translation>ఒక చిత్రానికి ప్రత్యామ్నాయ వచనం లేదు.</translation>
+    </message>
+    <message>
+        <source>Every image has an alternative text.</source>
+        <translation>ప్రతి చిత్రానికి ప్రత్యామ్నాయ వచనం ఉంది.</translation>
+    </message>
+    <message>
+        <source>The page names no canonical address.</source>
+        <translation>పేజీ ఏ కానానికల్ చిరునామానూ పేర్కొనదు.</translation>
+    </message>
+    <message>
+        <source>The page names %n canonical addresses; one is right.</source>
+        <translation>పేజీ %n కానానికల్ చిరునామాలను పేర్కొంటుంది; ఒకటే సరైనది.</translation>
+    </message>
+    <message>
+        <source>The canonical address is another page: %url</source>
+        <translation>కానానికల్ చిరునామా వేరే పేజీ: %url</translation>
+    </message>
+    <message>
+        <source>The canonical address is this page.</source>
+        <translation>కానానికల్ చిరునామా ఈ పేజీయే.</translation>
+    </message>
+    <message>
+        <source>Search engines are asked not to list this page (robots: %value).</source>
+        <translation>ఈ పేజీని జాబితా చేయవద్దని శోధన యంత్రాలను కోరారు (robots: %value).</translation>
+    </message>
+    <message>
+        <source>A link leads nowhere: %url</source>
+        <translation>ఒక లింక్ ఎక్కడికీ తీసుకెళ్లదు: %url</translation>
+    </message>
+    <message>
+        <source>All %n links checked on this page lead somewhere.</source>
+        <translation>ఈ పేజీలో తనిఖీ చేసిన మొత్తం %n లింక్‌లు ఎక్కడికో తీసుకెళ్తాయి.</translation>
+    </message>
+    <message>
+        <source>Checking ...</source>
+        <translation>తనిఖీ చేస్తోంది ...</translation>
+    </message>
+    <message>
+        <source>Check again</source>
+        <translation>మళ్లీ తనిఖీ చేయండి</translation>
+    </message>
+    <message>
+        <source>%n things to look at</source>
+        <translation>చూడవలసిన %n అంశాలు</translation>
+    </message>
+    <message>
+        <source>Nothing to look at.</source>
+        <translation>చూడవలసినది ఏమీ లేదు.</translation>
+    </message>
+    <message>
+        <source>Problem</source>
+        <translation>సమస్య</translation>
+    </message>
+    <message>
+        <source>To look at</source>
+        <translation>చూడవలసినది</translation>
+    </message>
+    <message>
+        <source>Fine</source>
+        <translation>బాగుంది</translation>
+    </message>
+    <message>
+        <source>Open the field</source>
+        <translation>ఫీల్డ్ తెరవండి</translation>
+    </message>
+    <message>
+        <source>Show it on the page</source>
+        <translation>పేజీలో చూపించండి</translation>
+    </message>
+    <message>
+        <source>SEO</source>
+        <translation>SEO</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>ఇన్‌బాక్స్</translation>
     </message>

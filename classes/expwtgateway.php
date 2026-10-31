@@ -344,6 +344,116 @@ class expwtGateway
         return $out;
     }
 
+    // ------------------------------------------------------------------------------------------- SEO check (F26)
+
+    /** The most links of one page the check looks at */
+    const SEO_MAX_LINKS = 200;
+
+    /**
+     * The server's half of the SEO check: whether each internal link of the rendered page leads somewhere, and which
+     * fields of the page a finding opens (its title field, its metadata field). The checks of the rendered page
+     * itself (title, description, headings, alternative texts, canonical, robots) are made in the browser.
+     *
+     * A link is looked up as the kernel would answer it, without a request: a view of a module (content/view/full/<n>
+     * only when that node is there), a URL alias (also one that redirects), a wildcard, or a file of the storage or a
+     * design. A link of another siteaccess, or to a file elsewhere, is not checked (skipped).
+     */
+    public function seoCheck( array $in )
+    {
+        $node = isset( $in['nodeId'] ) ? eZContentObjectTreeNode::fetch( (int)$in['nodeId'] ) : null;
+        if ( !$node instanceof eZContentObjectTreeNode || !$node->canRead() )
+            throw new expwtApiError( 404, 'not_found', 'This page is not there, or you may not read it.' );
+        $object = $node->object();
+        $class = $object->contentClass();
+        $meta = null;
+        $images = array();
+        foreach ( (array)$object->contentObjectAttributes() as $attribute )
+        {
+            $type = (string)$attribute->attribute( 'data_type_string' );
+            if ( $type === 'xrowmetadata' && $meta === null )
+                $meta = (string)$attribute->attribute( 'contentclass_attribute_identifier' );
+            if ( $type === 'ezimage' )
+                $images[] = (string)$attribute->attribute( 'contentclass_attribute_identifier' );
+        }
+        $prefix = rtrim( self::url( '/' ), '/' );
+        $access = eZSiteAccess::current();
+        $here = is_array( $access ) && isset( $access['name'] ) ? (string)$access['name'] : '';
+        $ini = eZINI::instance();
+        $others = array_values( array_diff( (array)$ini->variable( 'SiteAccessSettings', 'AvailableSiteAccessList' ), array( $here ) ) );
+        $links = array();
+        $paths = isset( $in['paths'] ) && is_array( $in['paths'] ) ? array_slice( array_values( $in['paths'] ), 0, self::SEO_MAX_LINKS ) : array();
+        foreach ( $paths as $path )
+        {
+            if ( !is_string( $path ) || strlen( $path ) > 1000 )
+                continue;
+            $local = self::linkPath( $path, $prefix, $others );
+            $links[] = array( 'path' => $path, 'status' => $local === null ? 'skipped' : self::linkStatus( $local ) );
+        }
+        return array(
+            'nodeId' => (int)$node->attribute( 'node_id' ),
+            'fields' => array( 'title' => $class instanceof eZContentClass ? self::titleField( $class ) : null, 'meta' => $meta, 'images' => $images ),
+            'links' => $links,
+        );
+    }
+
+    /**
+     * A link's path inside this siteaccess, as the kernel looks it up: the siteaccess's prefix taken off, decoded,
+     * without the query, the anchor and the slashes at its ends. Pure.
+     *
+     * @param string $path the link's path as the browser has it (/smarty/news/a-page?x=1)
+     * @param string $prefix this siteaccess's prefix ('' or /smarty)
+     * @param string[] $others the names of the other siteaccesses
+     * @return string|null null for a link this siteaccess does not answer (another siteaccess's, not a path)
+     */
+    public static function linkPath( $path, $prefix, array $others )
+    {
+        $path = (string)$path;
+        if ( $path === '' || $path[0] !== '/' || strpos( $path, '//' ) === 0 )
+            return null;
+        $path = preg_replace( '/[?#].*$/s', '', $path );
+        if ( $prefix !== '' )
+        {
+            if ( $path !== $prefix && strpos( $path, $prefix . '/' ) !== 0 )
+                return null;
+            $path = (string)substr( $path, strlen( $prefix ) );
+        }
+        $path = trim( rawurldecode( $path ), '/' );
+        if ( preg_match( '#^index\.php(/|$)#', $path ) )
+            $path = trim( (string)substr( $path, 9 ), '/' );
+        $first = strtok( $path, '/' );
+        if ( $first !== false && in_array( $first, $others, true ) )
+            return null;
+        if ( strpos( '/' . $path . '/', '/../' ) !== false || strpos( $path, "\0" ) !== false )
+            return null;
+        return $path;
+    }
+
+    /** @return string ok, broken or skipped: what the kernel answers for a path of this siteaccess (linkPath()) */
+    protected static function linkStatus( $path )
+    {
+        if ( $path === '' )
+            return 'ok';
+        // a file: of the storage and the designs only (the rest of the installation's files are no one's business)
+        if ( preg_match( '#^(var/([^/]+/)?storage|design|extension/[^/]+/design)/#', $path ) )
+            return is_file( eZSys::rootDir() . '/' . $path ) ? 'ok' : 'broken';
+        if ( preg_match( '#\.[a-z0-9]{2,5}$#i', $path ) && !preg_match( '#\.html?$#i', $path ) )
+            return 'skipped';
+        $elements = explode( '/', $path );
+        if ( eZModule::exists( $elements[0] ) instanceof eZModule )
+        {
+            if ( $elements[0] === 'content' && isset( $elements[1], $elements[3] ) && $elements[1] === 'view' && ctype_digit( $elements[3] ) )
+                return eZContentObjectTreeNode::fetch( (int)$elements[3] ) instanceof eZContentObjectTreeNode ? 'ok' : 'broken';
+            return 'ok';
+        }
+        $uri = $path;
+        if ( eZURLAliasML::translate( $uri ) )
+            return 'ok';
+        $uri = eZURI::instance( $path );
+        if ( class_exists( 'eZURLWildcard' ) && eZURLWildcard::translate( $uri ) )
+            return 'ok';
+        return 'broken';
+    }
+
     // ------------------------------------------------------------------------------------------------ the inbox
 
     /** @return bool the user may use the kernel's collaboration (the module's policy), where the approvals are */

@@ -592,6 +592,122 @@
         <translation>Хьешаш мичара баьхкина, хӀокху дӀахӀоттамехь ца йазабо.</translation>
     </message>
     <message>
+        <source>The page has no title.</source>
+        <translation>Агӏонан цӀе яц.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters; 30 to 60 fit search results.</source>
+        <translation>ЦӀарехь %n символ ю; лахаран жамӀашкахь 30 тӀера 60 кхаччалц бохуш ю.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters.</source>
+        <translation>ЦӀарехь %n символ ю.</translation>
+    </message>
+    <message>
+        <source>The page has no description.</source>
+        <translation>Агӏонан цуьнан йийцар дац.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters; 70 to 160 fit search results.</source>
+        <translation>Йийцарехь %n символ ю; лахаран жамӀашкахь 70 тӀера 160 кхаччалц бохуш ю.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters.</source>
+        <translation>Йийцарехь %n символ ю.</translation>
+    </message>
+    <message>
+        <source>The page has no main heading (h1).</source>
+        <translation>Агӏонехь коьрта корта (h1) яц.</translation>
+    </message>
+    <message>
+        <source>The page has %n main headings (h1); one is best.</source>
+        <translation>Агӏонехь %n коьрта корта (h1) ю; цхьаъ бен ца оьшу.</translation>
+    </message>
+    <message>
+        <source>A heading jumps from level %from to level %to.</source>
+        <translation>Корта %from тӀегӀанера %to тӀегӀане кхоссабелла.</translation>
+    </message>
+    <message>
+        <source>The headings are in order.</source>
+        <translation>Кортош рогӀехь ду.</translation>
+    </message>
+    <message>
+        <source>An image has no alternative text.</source>
+        <translation>Суьртан кхечу кепара текст яц.</translation>
+    </message>
+    <message>
+        <source>Every image has an alternative text.</source>
+        <translation>Хӏора суьртан кхечу кепара текст ю.</translation>
+    </message>
+    <message>
+        <source>The page names no canonical address.</source>
+        <translation>Агӏоно канонически адрес ца гойту.</translation>
+    </message>
+    <message>
+        <source>The page names %n canonical addresses; one is right.</source>
+        <translation>Агӏоно %n канонически адрес гойту; нийса цхьаъ бу.</translation>
+    </message>
+    <message>
+        <source>The canonical address is another page: %url</source>
+        <translation>Канонически адрес кхин агӏо ю: %url</translation>
+    </message>
+    <message>
+        <source>The canonical address is this page.</source>
+        <translation>Канонически адрес хӏара агӏо ю.</translation>
+    </message>
+    <message>
+        <source>Search engines are asked not to list this page (robots: %value).</source>
+        <translation>Лахаран системашка хӏара агӏо ца гайта аьлла (robots: %value).</translation>
+    </message>
+    <message>
+        <source>A link leads nowhere: %url</source>
+        <translation>ТӀетовжам цхьанхьа а ца бугу: %url</translation>
+    </message>
+    <message>
+        <source>All %n links checked on this page lead somewhere.</source>
+        <translation>Хӏокху агӏонехь толлина массо а %n тӀетовжам цхьанхьа бугу.</translation>
+    </message>
+    <message>
+        <source>Checking ...</source>
+        <translation>Толлуш ...</translation>
+    </message>
+    <message>
+        <source>Check again</source>
+        <translation>Юха талла</translation>
+    </message>
+    <message>
+        <source>%n things to look at</source>
+        <translation>Хьажа деза %n хӀума</translation>
+    </message>
+    <message>
+        <source>Nothing to look at.</source>
+        <translation>Хьажа деза хӀума дац.</translation>
+    </message>
+    <message>
+        <source>Problem</source>
+        <translation>Халахетар</translation>
+    </message>
+    <message>
+        <source>To look at</source>
+        <translation>Хьажа деза</translation>
+    </message>
+    <message>
+        <source>Fine</source>
+        <translation>Дика ду</translation>
+    </message>
+    <message>
+        <source>Open the field</source>
+        <translation>Аре схьаелла</translation>
+    </message>
+    <message>
+        <source>Show it on the page</source>
+        <translation>Агӏонехь гайта</translation>
+    </message>
+    <message>
+        <source>SEO</source>
+        <translation>SEO</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Чуйогӏу</translation>
     </message>

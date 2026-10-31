@@ -592,6 +592,122 @@
         <translation>Waar besoekers vandaan kom, word nie op hierdie installasie aangeteken nie.</translation>
     </message>
     <message>
+        <source>The page has no title.</source>
+        <translation>Die bladsy het geen titel nie.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters; 30 to 60 fit search results.</source>
+        <translation>Die titel het %n karakters; 30 tot 60 pas in soekresultate.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters.</source>
+        <translation>Die titel het %n karakters.</translation>
+    </message>
+    <message>
+        <source>The page has no description.</source>
+        <translation>Die bladsy het geen beskrywing nie.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters; 70 to 160 fit search results.</source>
+        <translation>Die beskrywing het %n karakters; 70 tot 160 pas in soekresultate.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters.</source>
+        <translation>Die beskrywing het %n karakters.</translation>
+    </message>
+    <message>
+        <source>The page has no main heading (h1).</source>
+        <translation>Die bladsy het geen hoofopskrif (h1) nie.</translation>
+    </message>
+    <message>
+        <source>The page has %n main headings (h1); one is best.</source>
+        <translation>Die bladsy het %n hoofopskrifte (h1); een is die beste.</translation>
+    </message>
+    <message>
+        <source>A heading jumps from level %from to level %to.</source>
+        <translation>'n Opskrif spring van vlak %from na vlak %to.</translation>
+    </message>
+    <message>
+        <source>The headings are in order.</source>
+        <translation>Die opskrifte is in volgorde.</translation>
+    </message>
+    <message>
+        <source>An image has no alternative text.</source>
+        <translation>'n Prent het geen alternatiewe teks nie.</translation>
+    </message>
+    <message>
+        <source>Every image has an alternative text.</source>
+        <translation>Elke prent het 'n alternatiewe teks.</translation>
+    </message>
+    <message>
+        <source>The page names no canonical address.</source>
+        <translation>Die bladsy noem geen kanonieke adres nie.</translation>
+    </message>
+    <message>
+        <source>The page names %n canonical addresses; one is right.</source>
+        <translation>Die bladsy noem %n kanonieke adresse; een is reg.</translation>
+    </message>
+    <message>
+        <source>The canonical address is another page: %url</source>
+        <translation>Die kanonieke adres is 'n ander bladsy: %url</translation>
+    </message>
+    <message>
+        <source>The canonical address is this page.</source>
+        <translation>Die kanonieke adres is hierdie bladsy.</translation>
+    </message>
+    <message>
+        <source>Search engines are asked not to list this page (robots: %value).</source>
+        <translation>Soekenjins word gevra om hierdie bladsy nie te lys nie (robots: %value).</translation>
+    </message>
+    <message>
+        <source>A link leads nowhere: %url</source>
+        <translation>'n Skakel lei nêrens heen nie: %url</translation>
+    </message>
+    <message>
+        <source>All %n links checked on this page lead somewhere.</source>
+        <translation>Al %n skakels wat op hierdie bladsy nagegaan is, lei êrens heen.</translation>
+    </message>
+    <message>
+        <source>Checking ...</source>
+        <translation>Besig om na te gaan ...</translation>
+    </message>
+    <message>
+        <source>Check again</source>
+        <translation>Gaan weer na</translation>
+    </message>
+    <message>
+        <source>%n things to look at</source>
+        <translation>%n dinge om na te kyk</translation>
+    </message>
+    <message>
+        <source>Nothing to look at.</source>
+        <translation>Niks om na te kyk nie.</translation>
+    </message>
+    <message>
+        <source>Problem</source>
+        <translation>Probleem</translation>
+    </message>
+    <message>
+        <source>To look at</source>
+        <translation>Om na te kyk</translation>
+    </message>
+    <message>
+        <source>Fine</source>
+        <translation>In orde</translation>
+    </message>
+    <message>
+        <source>Open the field</source>
+        <translation>Maak die veld oop</translation>
+    </message>
+    <message>
+        <source>Show it on the page</source>
+        <translation>Wys dit op die bladsy</translation>
+    </message>
+    <message>
+        <source>SEO</source>
+        <translation>SEO</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Inkassie</translation>
     </message>

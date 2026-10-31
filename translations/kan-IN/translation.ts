@@ -592,6 +592,122 @@
         <translation>ಸಂದರ್ಶಕರು ಎಲ್ಲಿಂದ ಬಂದರು ಎಂಬುದನ್ನು ಈ ಸ್ಥಾಪನೆಯಲ್ಲಿ ದಾಖಲಿಸಲಾಗುವುದಿಲ್ಲ.</translation>
     </message>
     <message>
+        <source>The page has no title.</source>
+        <translation>ಪುಟಕ್ಕೆ ಶೀರ್ಷಿಕೆ ಇಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters; 30 to 60 fit search results.</source>
+        <translation>ಶೀರ್ಷಿಕೆಯಲ್ಲಿ %n ಅಕ್ಷರಗಳಿವೆ; ಹುಡುಕಾಟ ಫಲಿತಾಂಶಗಳಲ್ಲಿ 30 ರಿಂದ 60 ಹಿಡಿಸುತ್ತವೆ.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters.</source>
+        <translation>ಶೀರ್ಷಿಕೆಯಲ್ಲಿ %n ಅಕ್ಷರಗಳಿವೆ.</translation>
+    </message>
+    <message>
+        <source>The page has no description.</source>
+        <translation>ಪುಟಕ್ಕೆ ವಿವರಣೆ ಇಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters; 70 to 160 fit search results.</source>
+        <translation>ವಿವರಣೆಯಲ್ಲಿ %n ಅಕ್ಷರಗಳಿವೆ; ಹುಡುಕಾಟ ಫಲಿತಾಂಶಗಳಲ್ಲಿ 70 ರಿಂದ 160 ಹಿಡಿಸುತ್ತವೆ.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters.</source>
+        <translation>ವಿವರಣೆಯಲ್ಲಿ %n ಅಕ್ಷರಗಳಿವೆ.</translation>
+    </message>
+    <message>
+        <source>The page has no main heading (h1).</source>
+        <translation>ಪುಟಕ್ಕೆ ಮುಖ್ಯ ಶಿರೋನಾಮೆ (h1) ಇಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>The page has %n main headings (h1); one is best.</source>
+        <translation>ಪುಟದಲ್ಲಿ %n ಮುಖ್ಯ ಶಿರೋನಾಮೆಗಳು (h1) ಇವೆ; ಒಂದೇ ಉತ್ತಮ.</translation>
+    </message>
+    <message>
+        <source>A heading jumps from level %from to level %to.</source>
+        <translation>ಒಂದು ಶಿರೋನಾಮೆ ಹಂತ %from ರಿಂದ ಹಂತ %to ಕ್ಕೆ ಜಿಗಿಯುತ್ತದೆ.</translation>
+    </message>
+    <message>
+        <source>The headings are in order.</source>
+        <translation>ಶಿರೋನಾಮೆಗಳು ಕ್ರಮದಲ್ಲಿವೆ.</translation>
+    </message>
+    <message>
+        <source>An image has no alternative text.</source>
+        <translation>ಒಂದು ಚಿತ್ರಕ್ಕೆ ಪರ್ಯಾಯ ಪಠ್ಯ ಇಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>Every image has an alternative text.</source>
+        <translation>ಪ್ರತಿ ಚಿತ್ರಕ್ಕೂ ಪರ್ಯಾಯ ಪಠ್ಯವಿದೆ.</translation>
+    </message>
+    <message>
+        <source>The page names no canonical address.</source>
+        <translation>ಪುಟವು ಯಾವುದೇ ಕ್ಯಾನೊನಿಕಲ್ ವಿಳಾಸವನ್ನು ಹೆಸರಿಸುವುದಿಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>The page names %n canonical addresses; one is right.</source>
+        <translation>ಪುಟವು %n ಕ್ಯಾನೊನಿಕಲ್ ವಿಳಾಸಗಳನ್ನು ಹೆಸರಿಸುತ್ತದೆ; ಒಂದೇ ಸರಿ.</translation>
+    </message>
+    <message>
+        <source>The canonical address is another page: %url</source>
+        <translation>ಕ್ಯಾನೊನಿಕಲ್ ವಿಳಾಸ ಇನ್ನೊಂದು ಪುಟ: %url</translation>
+    </message>
+    <message>
+        <source>The canonical address is this page.</source>
+        <translation>ಕ್ಯಾನೊನಿಕಲ್ ವಿಳಾಸ ಇದೇ ಪುಟ.</translation>
+    </message>
+    <message>
+        <source>Search engines are asked not to list this page (robots: %value).</source>
+        <translation>ಈ ಪುಟವನ್ನು ಪಟ್ಟಿ ಮಾಡದಂತೆ ಹುಡುಕಾಟ ಎಂಜಿನ್‌ಗಳಿಗೆ ಕೇಳಲಾಗಿದೆ (robots: %value).</translation>
+    </message>
+    <message>
+        <source>A link leads nowhere: %url</source>
+        <translation>ಒಂದು ಲಿಂಕ್ ಎಲ್ಲಿಗೂ ಕರೆದೊಯ್ಯುವುದಿಲ್ಲ: %url</translation>
+    </message>
+    <message>
+        <source>All %n links checked on this page lead somewhere.</source>
+        <translation>ಈ ಪುಟದಲ್ಲಿ ಪರಿಶೀಲಿಸಿದ ಎಲ್ಲಾ %n ಲಿಂಕ್‌ಗಳು ಎಲ್ಲಿಗಾದರೂ ಕರೆದೊಯ್ಯುತ್ತವೆ.</translation>
+    </message>
+    <message>
+        <source>Checking ...</source>
+        <translation>ಪರಿಶೀಲಿಸಲಾಗುತ್ತಿದೆ ...</translation>
+    </message>
+    <message>
+        <source>Check again</source>
+        <translation>ಮತ್ತೆ ಪರಿಶೀಲಿಸಿ</translation>
+    </message>
+    <message>
+        <source>%n things to look at</source>
+        <translation>ನೋಡಬೇಕಾದ %n ವಿಷಯಗಳು</translation>
+    </message>
+    <message>
+        <source>Nothing to look at.</source>
+        <translation>ನೋಡಬೇಕಾದದ್ದು ಏನೂ ಇಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>Problem</source>
+        <translation>ಸಮಸ್ಯೆ</translation>
+    </message>
+    <message>
+        <source>To look at</source>
+        <translation>ನೋಡಬೇಕಾದದ್ದು</translation>
+    </message>
+    <message>
+        <source>Fine</source>
+        <translation>ಸರಿ</translation>
+    </message>
+    <message>
+        <source>Open the field</source>
+        <translation>ಕ್ಷೇತ್ರ ತೆರೆಯಿರಿ</translation>
+    </message>
+    <message>
+        <source>Show it on the page</source>
+        <translation>ಪುಟದಲ್ಲಿ ತೋರಿಸಿ</translation>
+    </message>
+    <message>
+        <source>SEO</source>
+        <translation>SEO</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>ಇನ್‌ಬಾಕ್ಸ್</translation>
     </message>

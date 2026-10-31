@@ -592,6 +592,122 @@
         <translation>අමුත්තන් පැමිණියේ කොහෙන්ද යන්න මෙම ස්ථාපනයේ සටහන් නොවේ.</translation>
     </message>
     <message>
+        <source>The page has no title.</source>
+        <translation>පිටුවට මාතෘකාවක් නැත.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters; 30 to 60 fit search results.</source>
+        <translation>මාතෘකාවේ අක්ෂර %n ක් ඇත; සෙවුම් ප්‍රතිඵලවලට 30 සිට 60 දක්වා ගැළපේ.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters.</source>
+        <translation>මාතෘකාවේ අක්ෂර %n ක් ඇත.</translation>
+    </message>
+    <message>
+        <source>The page has no description.</source>
+        <translation>පිටුවට විස්තරයක් නැත.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters; 70 to 160 fit search results.</source>
+        <translation>විස්තරයේ අක්ෂර %n ක් ඇත; සෙවුම් ප්‍රතිඵලවලට 70 සිට 160 දක්වා ගැළපේ.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters.</source>
+        <translation>විස්තරයේ අක්ෂර %n ක් ඇත.</translation>
+    </message>
+    <message>
+        <source>The page has no main heading (h1).</source>
+        <translation>පිටුවට ප්‍රධාන ශීර්ෂයක් (h1) නැත.</translation>
+    </message>
+    <message>
+        <source>The page has %n main headings (h1); one is best.</source>
+        <translation>පිටුවේ ප්‍රධාන ශීර්ෂ %n ක් (h1) ඇත; එකක් හොඳම වේ.</translation>
+    </message>
+    <message>
+        <source>A heading jumps from level %from to level %to.</source>
+        <translation>ශීර්ෂයක් මට්ටම %from සිට මට්ටම %to දක්වා පනී.</translation>
+    </message>
+    <message>
+        <source>The headings are in order.</source>
+        <translation>ශීර්ෂ අනුපිළිවෙළට ඇත.</translation>
+    </message>
+    <message>
+        <source>An image has no alternative text.</source>
+        <translation>රූපයකට විකල්ප පෙළක් නැත.</translation>
+    </message>
+    <message>
+        <source>Every image has an alternative text.</source>
+        <translation>සෑම රූපයකටම විකල්ප පෙළක් ඇත.</translation>
+    </message>
+    <message>
+        <source>The page names no canonical address.</source>
+        <translation>පිටුව කිසිදු කැනොනිකල් ලිපිනයක් සඳහන් නොකරයි.</translation>
+    </message>
+    <message>
+        <source>The page names %n canonical addresses; one is right.</source>
+        <translation>පිටුව කැනොනිකල් ලිපින %n ක් සඳහන් කරයි; එකක් නිවැරදිය.</translation>
+    </message>
+    <message>
+        <source>The canonical address is another page: %url</source>
+        <translation>කැනොනිකල් ලිපිනය වෙනත් පිටුවකි: %url</translation>
+    </message>
+    <message>
+        <source>The canonical address is this page.</source>
+        <translation>කැනොනිකල් ලිපිනය මෙම පිටුවයි.</translation>
+    </message>
+    <message>
+        <source>Search engines are asked not to list this page (robots: %value).</source>
+        <translation>මෙම පිටුව ලැයිස්තුගත නොකරන ලෙස සෙවුම් යන්ත්‍රවලින් ඉල්ලා ඇත (robots: %value).</translation>
+    </message>
+    <message>
+        <source>A link leads nowhere: %url</source>
+        <translation>සබැඳියක් කොතැනකටවත් නොයයි: %url</translation>
+    </message>
+    <message>
+        <source>All %n links checked on this page lead somewhere.</source>
+        <translation>මෙම පිටුවේ පරීක්ෂා කළ සියලු සබැඳි %n කොතැනකට හෝ යයි.</translation>
+    </message>
+    <message>
+        <source>Checking ...</source>
+        <translation>පරීක්ෂා කරමින් ...</translation>
+    </message>
+    <message>
+        <source>Check again</source>
+        <translation>නැවත පරීක්ෂා කරන්න</translation>
+    </message>
+    <message>
+        <source>%n things to look at</source>
+        <translation>බැලිය යුතු කරුණු %n</translation>
+    </message>
+    <message>
+        <source>Nothing to look at.</source>
+        <translation>බැලිය යුතු කිසිවක් නැත.</translation>
+    </message>
+    <message>
+        <source>Problem</source>
+        <translation>ගැටලුව</translation>
+    </message>
+    <message>
+        <source>To look at</source>
+        <translation>බැලිය යුතු</translation>
+    </message>
+    <message>
+        <source>Fine</source>
+        <translation>හොඳයි</translation>
+    </message>
+    <message>
+        <source>Open the field</source>
+        <translation>ක්ෂේත්‍රය විවෘත කරන්න</translation>
+    </message>
+    <message>
+        <source>Show it on the page</source>
+        <translation>පිටුවේ පෙන්වන්න</translation>
+    </message>
+    <message>
+        <source>SEO</source>
+        <translation>SEO</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>එන ලිපි</translation>
     </message>

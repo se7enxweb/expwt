@@ -592,6 +592,122 @@
         <translation>زىيارەتچىلەرنىڭ قەيەردىن كەلگەنلىكى بۇ ئورنىتىشتا خاتىرىلەنمەيدۇ.</translation>
     </message>
     <message>
+        <source>The page has no title.</source>
+        <translation>بەتنىڭ ماۋزۇسى يوق.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters; 30 to 60 fit search results.</source>
+        <translation>ماۋزۇدا %n ھەرپ بار؛ ئىزدەش نەتىجىلىرىگە 30 دىن 60 غىچە سىغىدۇ.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters.</source>
+        <translation>ماۋزۇدا %n ھەرپ بار.</translation>
+    </message>
+    <message>
+        <source>The page has no description.</source>
+        <translation>بەتنىڭ چۈشەندۈرۈشى يوق.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters; 70 to 160 fit search results.</source>
+        <translation>چۈشەندۈرۈشتە %n ھەرپ بار؛ ئىزدەش نەتىجىلىرىگە 70 دىن 160 غىچە سىغىدۇ.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters.</source>
+        <translation>چۈشەندۈرۈشتە %n ھەرپ بار.</translation>
+    </message>
+    <message>
+        <source>The page has no main heading (h1).</source>
+        <translation>بەتتە ئاساسىي تېما (h1) يوق.</translation>
+    </message>
+    <message>
+        <source>The page has %n main headings (h1); one is best.</source>
+        <translation>بەتتە %n ئاساسىي تېما (h1) بار؛ بىرى ئەڭ ياخشى.</translation>
+    </message>
+    <message>
+        <source>A heading jumps from level %from to level %to.</source>
+        <translation>بىر تېما %from دەرىجىدىن %to دەرىجىگە سەكرەيدۇ.</translation>
+    </message>
+    <message>
+        <source>The headings are in order.</source>
+        <translation>تېمىلار تەرتىپلىك.</translation>
+    </message>
+    <message>
+        <source>An image has no alternative text.</source>
+        <translation>بىر رەسىمنىڭ ئورۇنباسار تېكىستى يوق.</translation>
+    </message>
+    <message>
+        <source>Every image has an alternative text.</source>
+        <translation>ھەر بىر رەسىمنىڭ ئورۇنباسار تېكىستى بار.</translation>
+    </message>
+    <message>
+        <source>The page names no canonical address.</source>
+        <translation>بەت ھېچقانداق ئۆلچەملىك ئادرېسنى كۆرسەتمەيدۇ.</translation>
+    </message>
+    <message>
+        <source>The page names %n canonical addresses; one is right.</source>
+        <translation>بەت %n ئۆلچەملىك ئادرېسنى كۆرسىتىدۇ؛ توغرىسى بىرى.</translation>
+    </message>
+    <message>
+        <source>The canonical address is another page: %url</source>
+        <translation>ئۆلچەملىك ئادرېس باشقا بەت: %url</translation>
+    </message>
+    <message>
+        <source>The canonical address is this page.</source>
+        <translation>ئۆلچەملىك ئادرېس مۇشۇ بەت.</translation>
+    </message>
+    <message>
+        <source>Search engines are asked not to list this page (robots: %value).</source>
+        <translation>ئىزدەش ماتورلىرىدىن بۇ بەتنى تىزىملىماسلىق تەلەپ قىلىنىدۇ (robots: %value).</translation>
+    </message>
+    <message>
+        <source>A link leads nowhere: %url</source>
+        <translation>بىر ئۇلانما ھېچ يەرگە ئېلىپ بارمايدۇ: %url</translation>
+    </message>
+    <message>
+        <source>All %n links checked on this page lead somewhere.</source>
+        <translation>بۇ بەتتە تەكشۈرۈلگەن ھەممە %n ئۇلانما بىرەر يەرگە ئېلىپ بارىدۇ.</translation>
+    </message>
+    <message>
+        <source>Checking ...</source>
+        <translation>تەكشۈرۈۋاتىدۇ ...</translation>
+    </message>
+    <message>
+        <source>Check again</source>
+        <translation>قايتا تەكشۈر</translation>
+    </message>
+    <message>
+        <source>%n things to look at</source>
+        <translation>قاراشقا تېگىشلىك %n ئىش</translation>
+    </message>
+    <message>
+        <source>Nothing to look at.</source>
+        <translation>قارايدىغان نەرسە يوق.</translation>
+    </message>
+    <message>
+        <source>Problem</source>
+        <translation>مەسىلە</translation>
+    </message>
+    <message>
+        <source>To look at</source>
+        <translation>قاراش كېرەك</translation>
+    </message>
+    <message>
+        <source>Fine</source>
+        <translation>ياخشى</translation>
+    </message>
+    <message>
+        <source>Open the field</source>
+        <translation>بۆلەكنى ئاچ</translation>
+    </message>
+    <message>
+        <source>Show it on the page</source>
+        <translation>بەتتە كۆرسەت</translation>
+    </message>
+    <message>
+        <source>SEO</source>
+        <translation>SEO</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>كىرگەنلەر</translation>
     </message>

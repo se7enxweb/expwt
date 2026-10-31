@@ -592,6 +592,122 @@
         <translation>Wótkulž woglědowarje pśidu, se na toś tej instalaciji njezapisujo.</translation>
     </message>
     <message>
+        <source>The page has no title.</source>
+        <translation>Bok njama titel.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters; 30 to 60 fit search results.</source>
+        <translation>Titel ma %n znamuškow; 30 až 60 se do pytańskich wuslědkow góźi.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters.</source>
+        <translation>Titel ma %n znamuškow.</translation>
+    </message>
+    <message>
+        <source>The page has no description.</source>
+        <translation>Bok njama wopisanje.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters; 70 to 160 fit search results.</source>
+        <translation>Wopisanje ma %n znamuškow; 70 až 160 se do pytańskich wuslědkow góźi.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters.</source>
+        <translation>Wopisanje ma %n znamuškow.</translation>
+    </message>
+    <message>
+        <source>The page has no main heading (h1).</source>
+        <translation>Bok njama głowne nadpismo (h1).</translation>
+    </message>
+    <message>
+        <source>The page has %n main headings (h1); one is best.</source>
+        <translation>Bok ma %n głownych nadpismow (h1); jadno jo nejlěpše.</translation>
+    </message>
+    <message>
+        <source>A heading jumps from level %from to level %to.</source>
+        <translation>Nadpismo skócy wót rowniny %from na rowninu %to.</translation>
+    </message>
+    <message>
+        <source>The headings are in order.</source>
+        <translation>Nadpisma su w pórěźe.</translation>
+    </message>
+    <message>
+        <source>An image has no alternative text.</source>
+        <translation>Wobraz njama alternatiwny tekst.</translation>
+    </message>
+    <message>
+        <source>Every image has an alternative text.</source>
+        <translation>Kuždy wobraz ma alternatiwny tekst.</translation>
+    </message>
+    <message>
+        <source>The page names no canonical address.</source>
+        <translation>Bok njemjenijo žednu kanoniskej adresu.</translation>
+    </message>
+    <message>
+        <source>The page names %n canonical addresses; one is right.</source>
+        <translation>Bok mjenijo %n kanoniskich adresow; jadna jo pšawa.</translation>
+    </message>
+    <message>
+        <source>The canonical address is another page: %url</source>
+        <translation>Kanoniska adresa jo drugi bok: %url</translation>
+    </message>
+    <message>
+        <source>The canonical address is this page.</source>
+        <translation>Kanoniska adresa jo toś ten bok.</translation>
+    </message>
+    <message>
+        <source>Search engines are asked not to list this page (robots: %value).</source>
+        <translation>Pytnice su pšošone, toś ten bok njepokazaś (robots: %value).</translation>
+    </message>
+    <message>
+        <source>A link leads nowhere: %url</source>
+        <translation>Wótkaz nikaź njewjeźo: %url</translation>
+    </message>
+    <message>
+        <source>All %n links checked on this page lead somewhere.</source>
+        <translation>Wšykne %n na toś tom boku kontrolěrowane wótkaze něźi wjedu.</translation>
+    </message>
+    <message>
+        <source>Checking ...</source>
+        <translation>Kontrolěrujo se ...</translation>
+    </message>
+    <message>
+        <source>Check again</source>
+        <translation>Hyšći raz kontrolěrowaś</translation>
+    </message>
+    <message>
+        <source>%n things to look at</source>
+        <translation>%n wěcow k pśeglědowanjeju</translation>
+    </message>
+    <message>
+        <source>Nothing to look at.</source>
+        <translation>Nic k pśeglědowanjeju.</translation>
+    </message>
+    <message>
+        <source>Problem</source>
+        <translation>Problem</translation>
+    </message>
+    <message>
+        <source>To look at</source>
+        <translation>K pśeglědowanjeju</translation>
+    </message>
+    <message>
+        <source>Fine</source>
+        <translation>W pórěźe</translation>
+    </message>
+    <message>
+        <source>Open the field</source>
+        <translation>Pólo wócyniś</translation>
+    </message>
+    <message>
+        <source>Show it on the page</source>
+        <translation>Na boku pokazaś</translation>
+    </message>
+    <message>
+        <source>SEO</source>
+        <translation>SEO</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Dostaśe</translation>
     </message>

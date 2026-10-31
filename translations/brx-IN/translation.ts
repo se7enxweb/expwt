@@ -592,6 +592,122 @@
         <translation>नुग्रासिफोरा माब्लाय फैखौ बे इनस्टलेसनआव लिरनाय जाया।</translation>
     </message>
     <message>
+        <source>The page has no title.</source>
+        <translation>बिलाइनि मोनसे बिमुं गैया।</translation>
+    </message>
+    <message>
+        <source>The title has %n characters; 30 to 60 fit search results.</source>
+        <translation>बिमुंआव %n हांखो दं; नागिरनायनि फलाफलाव 30 निफ्राय 60 हांखो थाखांनो हायो।</translation>
+    </message>
+    <message>
+        <source>The title has %n characters.</source>
+        <translation>बिमुंआव %n हांखो दं।</translation>
+    </message>
+    <message>
+        <source>The page has no description.</source>
+        <translation>बिलाइनि मोनसे बेखेवनाय गैया।</translation>
+    </message>
+    <message>
+        <source>The description has %n characters; 70 to 160 fit search results.</source>
+        <translation>बेखेवनायआव %n हांखो दं; नागिरनायनि फलाफलाव 70 निफ्राय 160 हांखो थाखांनो हायो।</translation>
+    </message>
+    <message>
+        <source>The description has %n characters.</source>
+        <translation>बेखेवनायआव %n हांखो दं।</translation>
+    </message>
+    <message>
+        <source>The page has no main heading (h1).</source>
+        <translation>बिलाइआव मोनसे गाहाय खौरां (h1) गैया।</translation>
+    </message>
+    <message>
+        <source>The page has %n main headings (h1); one is best.</source>
+        <translation>बिलाइआव %n गाहाय खौरां (h1) दं; मोनसेनो बांसिन मोजां।</translation>
+    </message>
+    <message>
+        <source>A heading jumps from level %from to level %to.</source>
+        <translation>मोनसे खौरां थाख %from निफ्राय थाख %to आव बारहोबो।</translation>
+    </message>
+    <message>
+        <source>The headings are in order.</source>
+        <translation>खौरांफोरा थाखो थाखो दं।</translation>
+    </message>
+    <message>
+        <source>An image has no alternative text.</source>
+        <translation>मोनसे सावगारिनि सोलायग्रा लिरनाय गैया।</translation>
+    </message>
+    <message>
+        <source>Every image has an alternative text.</source>
+        <translation>गासै सावगारिनि सोलायग्रा लिरनाय दं।</translation>
+    </message>
+    <message>
+        <source>The page names no canonical address.</source>
+        <translation>बिलाइआ मोनसेबो कानोनिकल ठिकाना बुङा।</translation>
+    </message>
+    <message>
+        <source>The page names %n canonical addresses; one is right.</source>
+        <translation>बिलाइआ %n कानोनिकल ठिकाना बुङो; मोनसेनो थार।</translation>
+    </message>
+    <message>
+        <source>The canonical address is another page: %url</source>
+        <translation>कानोनिकल ठिकानाया गुबुन मोनसे बिलाइ: %url</translation>
+    </message>
+    <message>
+        <source>The canonical address is this page.</source>
+        <translation>कानोनिकल ठिकानाया बे बिलाइखौनो।</translation>
+    </message>
+    <message>
+        <source>Search engines are asked not to list this page (robots: %value).</source>
+        <translation>नागिरनाय इन्जिनफोरखौ बे बिलाइखौ फारिलाव लाखिनो नङा होनना बुङो (robots: %value)।</translation>
+    </message>
+    <message>
+        <source>A link leads nowhere: %url</source>
+        <translation>मोनसे लिंकआ जेराबो लानाय नङा: %url</translation>
+    </message>
+    <message>
+        <source>All %n links checked on this page lead somewhere.</source>
+        <translation>बे बिलाइआव नायनानै नायग्रा गासै %n लिंकआ जेरावबा लाबो।</translation>
+    </message>
+    <message>
+        <source>Checking ...</source>
+        <translation>नायगासिनो दं ...</translation>
+    </message>
+    <message>
+        <source>Check again</source>
+        <translation>फिन नाय</translation>
+    </message>
+    <message>
+        <source>%n things to look at</source>
+        <translation>नायनो गोनां %n मुवा</translation>
+    </message>
+    <message>
+        <source>Nothing to look at.</source>
+        <translation>नायनो गोनां जेबो गैया।</translation>
+    </message>
+    <message>
+        <source>Problem</source>
+        <translation>जेंना</translation>
+    </message>
+    <message>
+        <source>To look at</source>
+        <translation>नायनो गोनां</translation>
+    </message>
+    <message>
+        <source>Fine</source>
+        <translation>मोजां</translation>
+    </message>
+    <message>
+        <source>Open the field</source>
+        <translation>फिल्ड खेव</translation>
+    </message>
+    <message>
+        <source>Show it on the page</source>
+        <translation>बिलाइआव दिन्थि</translation>
+    </message>
+    <message>
+        <source>SEO</source>
+        <translation>SEO</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>इनबक्स</translation>
     </message>

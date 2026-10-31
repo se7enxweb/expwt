@@ -592,6 +592,122 @@
         <translation>Wêr't besikers wei kamen, wurdt op dizze ynstallaasje net fêstlein.</translation>
     </message>
     <message>
+        <source>The page has no title.</source>
+        <translation>De side hat gjin titel.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters; 30 to 60 fit search results.</source>
+        <translation>De titel hat %n tekens; 30 oant 60 passe yn sykresultaten.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters.</source>
+        <translation>De titel hat %n tekens.</translation>
+    </message>
+    <message>
+        <source>The page has no description.</source>
+        <translation>De side hat gjin beskriuwing.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters; 70 to 160 fit search results.</source>
+        <translation>De beskriuwing hat %n tekens; 70 oant 160 passe yn sykresultaten.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters.</source>
+        <translation>De beskriuwing hat %n tekens.</translation>
+    </message>
+    <message>
+        <source>The page has no main heading (h1).</source>
+        <translation>De side hat gjin haadkop (h1).</translation>
+    </message>
+    <message>
+        <source>The page has %n main headings (h1); one is best.</source>
+        <translation>De side hat %n haadkoppen (h1); ien is it bêste.</translation>
+    </message>
+    <message>
+        <source>A heading jumps from level %from to level %to.</source>
+        <translation>In kop springt fan nivo %from nei nivo %to.</translation>
+    </message>
+    <message>
+        <source>The headings are in order.</source>
+        <translation>De koppen steane op folchoarder.</translation>
+    </message>
+    <message>
+        <source>An image has no alternative text.</source>
+        <translation>In ôfbylding hat gjin alternative tekst.</translation>
+    </message>
+    <message>
+        <source>Every image has an alternative text.</source>
+        <translation>Elke ôfbylding hat in alternative tekst.</translation>
+    </message>
+    <message>
+        <source>The page names no canonical address.</source>
+        <translation>De side neamt gjin kanonyk adres.</translation>
+    </message>
+    <message>
+        <source>The page names %n canonical addresses; one is right.</source>
+        <translation>De side neamt %n kanonike adressen; ien is goed.</translation>
+    </message>
+    <message>
+        <source>The canonical address is another page: %url</source>
+        <translation>It kanonike adres is in oare side: %url</translation>
+    </message>
+    <message>
+        <source>The canonical address is this page.</source>
+        <translation>It kanonike adres is dizze side.</translation>
+    </message>
+    <message>
+        <source>Search engines are asked not to list this page (robots: %value).</source>
+        <translation>Sykmasines wurdt frege dizze side net te toanen (robots: %value).</translation>
+    </message>
+    <message>
+        <source>A link leads nowhere: %url</source>
+        <translation>In keppeling liedt nearne hinne: %url</translation>
+    </message>
+    <message>
+        <source>All %n links checked on this page lead somewhere.</source>
+        <translation>Alle %n kontrolearre keppelingen op dizze side liede earne hinne.</translation>
+    </message>
+    <message>
+        <source>Checking ...</source>
+        <translation>Dwaande mei kontrolearjen ...</translation>
+    </message>
+    <message>
+        <source>Check again</source>
+        <translation>Op 'e nij kontrolearje</translation>
+    </message>
+    <message>
+        <source>%n things to look at</source>
+        <translation>%n dingen om nei te sjen</translation>
+    </message>
+    <message>
+        <source>Nothing to look at.</source>
+        <translation>Neat om nei te sjen.</translation>
+    </message>
+    <message>
+        <source>Problem</source>
+        <translation>Probleem</translation>
+    </message>
+    <message>
+        <source>To look at</source>
+        <translation>Om nei te sjen</translation>
+    </message>
+    <message>
+        <source>Fine</source>
+        <translation>Yn oarder</translation>
+    </message>
+    <message>
+        <source>Open the field</source>
+        <translation>It fjild iepenje</translation>
+    </message>
+    <message>
+        <source>Show it on the page</source>
+        <translation>Op 'e side toane</translation>
+    </message>
+    <message>
+        <source>SEO</source>
+        <translation>SEO</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Postfak</translation>
     </message>

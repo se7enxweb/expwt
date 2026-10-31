@@ -592,6 +592,122 @@
         <translation>Ansi d-kkan yimerza ur yettwaru ara deg usebded-a.</translation>
     </message>
     <message>
+        <source>The page has no title.</source>
+        <translation>Asebter ulac ɣur-s azwel.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters; 30 to 60 fit search results.</source>
+        <translation>Azwel ɣur-s %n n yisekkilen; seg 30 ar 60 i ikecmen deg yigmaḍ n unadi.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters.</source>
+        <translation>Azwel ɣur-s %n n yisekkilen.</translation>
+    </message>
+    <message>
+        <source>The page has no description.</source>
+        <translation>Asebter ulac ɣur-s aglam.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters; 70 to 160 fit search results.</source>
+        <translation>Aglam ɣur-s %n n yisekkilen; seg 70 ar 160 i ikecmen deg yigmaḍ n unadi.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters.</source>
+        <translation>Aglam ɣur-s %n n yisekkilen.</translation>
+    </message>
+    <message>
+        <source>The page has no main heading (h1).</source>
+        <translation>Asebter ulac ɣur-s azwel agejdan (h1).</translation>
+    </message>
+    <message>
+        <source>The page has %n main headings (h1); one is best.</source>
+        <translation>Asebter ɣur-s %n n yizwal igejdanen (h1); yiwen i yelhan.</translation>
+    </message>
+    <message>
+        <source>A heading jumps from level %from to level %to.</source>
+        <translation>Azwel yenṭeg seg uswir %from ɣer uswir %to.</translation>
+    </message>
+    <message>
+        <source>The headings are in order.</source>
+        <translation>Izwal ttwasuddsen.</translation>
+    </message>
+    <message>
+        <source>An image has no alternative text.</source>
+        <translation>Tugna ulac ɣur-s aḍris amlellay.</translation>
+    </message>
+    <message>
+        <source>Every image has an alternative text.</source>
+        <translation>Yal tugna ɣur-s aḍris amlellay.</translation>
+    </message>
+    <message>
+        <source>The page names no canonical address.</source>
+        <translation>Asebter ur d-yebder ula d tansa tamagnut.</translation>
+    </message>
+    <message>
+        <source>The page names %n canonical addresses; one is right.</source>
+        <translation>Asebter d-yebder %n n tansiwin timagnutin; yiwet i d tameɣtut.</translation>
+    </message>
+    <message>
+        <source>The canonical address is another page: %url</source>
+        <translation>Tansa tamagnut d asebter-nniḍen: %url</translation>
+    </message>
+    <message>
+        <source>The canonical address is this page.</source>
+        <translation>Tansa tamagnut d asebter-agi.</translation>
+    </message>
+    <message>
+        <source>Search engines are asked not to list this page (robots: %value).</source>
+        <translation>Ttwasutren imseddayen n unadi ur ssekcamen ara asebter-agi (robots: %value).</translation>
+    </message>
+    <message>
+        <source>A link leads nowhere: %url</source>
+        <translation>Aseɣwen ur yettawi ɣer wedeg: %url</translation>
+    </message>
+    <message>
+        <source>All %n links checked on this page lead somewhere.</source>
+        <translation>Akk %n n yiseɣwan yettwasneqden deg usebter-agi ttawin ɣer kra n wedeg.</translation>
+    </message>
+    <message>
+        <source>Checking ...</source>
+        <translation>Asenqed ...</translation>
+    </message>
+    <message>
+        <source>Check again</source>
+        <translation>Ales asenqed</translation>
+    </message>
+    <message>
+        <source>%n things to look at</source>
+        <translation>%n n tɣawsiwin ara twaliḍ</translation>
+    </message>
+    <message>
+        <source>Nothing to look at.</source>
+        <translation>Ulac acu ara twaliḍ.</translation>
+    </message>
+    <message>
+        <source>Problem</source>
+        <translation>Ugur</translation>
+    </message>
+    <message>
+        <source>To look at</source>
+        <translation>Ad yettwali</translation>
+    </message>
+    <message>
+        <source>Fine</source>
+        <translation>Igerrez</translation>
+    </message>
+    <message>
+        <source>Open the field</source>
+        <translation>Ldi urti</translation>
+    </message>
+    <message>
+        <source>Show it on the page</source>
+        <translation>Sken-it deg usebter</translation>
+    </message>
+    <message>
+        <source>SEO</source>
+        <translation>SEO</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Tanaka n ukcam</translation>
     </message>

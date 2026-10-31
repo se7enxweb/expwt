@@ -592,6 +592,122 @@
         <translation>Hogy honnan jöttek a látogatók, azt ez a telepítés nem rögzíti.</translation>
     </message>
     <message>
+        <source>The page has no title.</source>
+        <translation>Az oldalnak nincs címe.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters; 30 to 60 fit search results.</source>
+        <translation>A cím %n karakteres; a keresési találatokba 30–60 fér el.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters.</source>
+        <translation>A cím %n karakteres.</translation>
+    </message>
+    <message>
+        <source>The page has no description.</source>
+        <translation>Az oldalnak nincs leírása.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters; 70 to 160 fit search results.</source>
+        <translation>A leírás %n karakteres; a keresési találatokba 70–160 fér el.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters.</source>
+        <translation>A leírás %n karakteres.</translation>
+    </message>
+    <message>
+        <source>The page has no main heading (h1).</source>
+        <translation>Az oldalnak nincs főcímsora (h1).</translation>
+    </message>
+    <message>
+        <source>The page has %n main headings (h1); one is best.</source>
+        <translation>Az oldalnak %n főcímsora (h1) van; egy a legjobb.</translation>
+    </message>
+    <message>
+        <source>A heading jumps from level %from to level %to.</source>
+        <translation>Egy címsor a(z) %from. szintről a(z) %to. szintre ugrik.</translation>
+    </message>
+    <message>
+        <source>The headings are in order.</source>
+        <translation>A címsorok sorrendben vannak.</translation>
+    </message>
+    <message>
+        <source>An image has no alternative text.</source>
+        <translation>Egy képnek nincs helyettesítő szövege.</translation>
+    </message>
+    <message>
+        <source>Every image has an alternative text.</source>
+        <translation>Minden képnek van helyettesítő szövege.</translation>
+    </message>
+    <message>
+        <source>The page names no canonical address.</source>
+        <translation>Az oldal nem ad meg kanonikus címet.</translation>
+    </message>
+    <message>
+        <source>The page names %n canonical addresses; one is right.</source>
+        <translation>Az oldal %n kanonikus címet ad meg; egy a helyes.</translation>
+    </message>
+    <message>
+        <source>The canonical address is another page: %url</source>
+        <translation>A kanonikus cím egy másik oldal: %url</translation>
+    </message>
+    <message>
+        <source>The canonical address is this page.</source>
+        <translation>A kanonikus cím ez az oldal.</translation>
+    </message>
+    <message>
+        <source>Search engines are asked not to list this page (robots: %value).</source>
+        <translation>A keresőket arra kérik, hogy ne listázzák ezt az oldalt (robots: %value).</translation>
+    </message>
+    <message>
+        <source>A link leads nowhere: %url</source>
+        <translation>Egy hivatkozás sehova sem vezet: %url</translation>
+    </message>
+    <message>
+        <source>All %n links checked on this page lead somewhere.</source>
+        <translation>Az oldalon ellenőrzött mind a(z) %n hivatkozás vezet valahova.</translation>
+    </message>
+    <message>
+        <source>Checking ...</source>
+        <translation>Ellenőrzés ...</translation>
+    </message>
+    <message>
+        <source>Check again</source>
+        <translation>Újraellenőrzés</translation>
+    </message>
+    <message>
+        <source>%n things to look at</source>
+        <translation>%n megnézendő dolog</translation>
+    </message>
+    <message>
+        <source>Nothing to look at.</source>
+        <translation>Nincs mit megnézni.</translation>
+    </message>
+    <message>
+        <source>Problem</source>
+        <translation>Probléma</translation>
+    </message>
+    <message>
+        <source>To look at</source>
+        <translation>Megnézendő</translation>
+    </message>
+    <message>
+        <source>Fine</source>
+        <translation>Rendben</translation>
+    </message>
+    <message>
+        <source>Open the field</source>
+        <translation>Mező megnyitása</translation>
+    </message>
+    <message>
+        <source>Show it on the page</source>
+        <translation>Megmutatás az oldalon</translation>
+    </message>
+    <message>
+        <source>SEO</source>
+        <translation>SEO</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Beérkezett</translation>
     </message>

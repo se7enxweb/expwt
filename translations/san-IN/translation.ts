@@ -592,6 +592,122 @@
         <translation>आगन्तुकाः कुतः आगताः इति अस्मिन् संस्थापने न लिख्यते।</translation>
     </message>
     <message>
+        <source>The page has no title.</source>
+        <translation>पृष्ठस्य शीर्षकं नास्ति।</translation>
+    </message>
+    <message>
+        <source>The title has %n characters; 30 to 60 fit search results.</source>
+        <translation>शीर्षके %n अक्षराणि सन्ति; अन्वेषणफलेषु 30 तः 60 पर्यन्तं मान्ति।</translation>
+    </message>
+    <message>
+        <source>The title has %n characters.</source>
+        <translation>शीर्षके %n अक्षराणि सन्ति।</translation>
+    </message>
+    <message>
+        <source>The page has no description.</source>
+        <translation>पृष्ठस्य विवरणं नास्ति।</translation>
+    </message>
+    <message>
+        <source>The description has %n characters; 70 to 160 fit search results.</source>
+        <translation>विवरणे %n अक्षराणि सन्ति; अन्वेषणफलेषु 70 तः 160 पर्यन्तं मान्ति।</translation>
+    </message>
+    <message>
+        <source>The description has %n characters.</source>
+        <translation>विवरणे %n अक्षराणि सन्ति।</translation>
+    </message>
+    <message>
+        <source>The page has no main heading (h1).</source>
+        <translation>पृष्ठे मुख्यशीर्षकं (h1) नास्ति।</translation>
+    </message>
+    <message>
+        <source>The page has %n main headings (h1); one is best.</source>
+        <translation>पृष्ठे %n मुख्यशीर्षकाणि (h1) सन्ति; एकम् एव श्रेष्ठम्।</translation>
+    </message>
+    <message>
+        <source>A heading jumps from level %from to level %to.</source>
+        <translation>एकं शीर्षकं स्तरात् %from स्तरं %to प्रति उत्प्लवते।</translation>
+    </message>
+    <message>
+        <source>The headings are in order.</source>
+        <translation>शीर्षकाणि क्रमेण सन्ति।</translation>
+    </message>
+    <message>
+        <source>An image has no alternative text.</source>
+        <translation>एकस्य चित्रस्य वैकल्पिकः पाठः नास्ति।</translation>
+    </message>
+    <message>
+        <source>Every image has an alternative text.</source>
+        <translation>प्रत्येकस्य चित्रस्य वैकल्पिकः पाठः अस्ति।</translation>
+    </message>
+    <message>
+        <source>The page names no canonical address.</source>
+        <translation>पृष्ठं किमपि कैनोनिकल-सङ्केतं न निर्दिशति।</translation>
+    </message>
+    <message>
+        <source>The page names %n canonical addresses; one is right.</source>
+        <translation>पृष्ठं %n कैनोनिकल-सङ्केतान् निर्दिशति; एकः एव समीचीनः।</translation>
+    </message>
+    <message>
+        <source>The canonical address is another page: %url</source>
+        <translation>कैनोनिकल-सङ्केतः अन्यत् पृष्ठम्: %url</translation>
+    </message>
+    <message>
+        <source>The canonical address is this page.</source>
+        <translation>कैनोनिकल-सङ्केतः इदम् एव पृष्ठम्।</translation>
+    </message>
+    <message>
+        <source>Search engines are asked not to list this page (robots: %value).</source>
+        <translation>अन्वेषणयन्त्राणि इदं पृष्ठं सूच्यां न योजयितुं प्रार्थ्यन्ते (robots: %value)।</translation>
+    </message>
+    <message>
+        <source>A link leads nowhere: %url</source>
+        <translation>एकः सम्पर्कः कुत्रापि न नयति: %url</translation>
+    </message>
+    <message>
+        <source>All %n links checked on this page lead somewhere.</source>
+        <translation>अस्मिन् पृष्ठे परीक्षिताः सर्वे %n सम्पर्काः कुत्रचित् नयन्ति।</translation>
+    </message>
+    <message>
+        <source>Checking ...</source>
+        <translation>परीक्ष्यते ...</translation>
+    </message>
+    <message>
+        <source>Check again</source>
+        <translation>पुनः परीक्षस्व</translation>
+    </message>
+    <message>
+        <source>%n things to look at</source>
+        <translation>द्रष्टव्यानि %n विषयाः</translation>
+    </message>
+    <message>
+        <source>Nothing to look at.</source>
+        <translation>द्रष्टव्यं किमपि नास्ति।</translation>
+    </message>
+    <message>
+        <source>Problem</source>
+        <translation>समस्या</translation>
+    </message>
+    <message>
+        <source>To look at</source>
+        <translation>द्रष्टव्यम्</translation>
+    </message>
+    <message>
+        <source>Fine</source>
+        <translation>समीचीनम्</translation>
+    </message>
+    <message>
+        <source>Open the field</source>
+        <translation>क्षेत्रम् उद्घाटय</translation>
+    </message>
+    <message>
+        <source>Show it on the page</source>
+        <translation>पृष्ठे दर्शय</translation>
+    </message>
+    <message>
+        <source>SEO</source>
+        <translation>SEO</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>आगतपेटिका</translation>
     </message>

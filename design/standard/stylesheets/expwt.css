@@ -772,3 +772,14 @@ a { color: var(--a4-accent-text); }
 .wt-insight-list { display: grid; gap: var(--a4-space-1); margin: 0; padding: 0; list-style: none; }
 .wt-insight-list > li { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 0 var(--a4-space-2); min-inline-size: 0; padding-block: var(--a4-space-1); border-block-end: 1px solid var(--a4-line); }
 .wt-insight-term { min-inline-size: 0; overflow-wrap: break-word; font-weight: var(--a4-weight-medium); }
+
+/* the SEO check (F26): one finding per row, its level as a chip; a finding with a place to go is a button */
+.wt-chip.is-warn { background: var(--a4-warn-bg); color: var(--a4-warn); }
+.wt-chip.is-bad { background: var(--a4-bad-bg); color: var(--a4-bad); }
+.wt-seo-list { display: grid; gap: var(--a4-space-1); margin: 0; padding: 0; list-style: none; }
+.wt-seo-item { display: flex; align-items: baseline; gap: var(--a4-space-2); inline-size: 100%; min-inline-size: 0; padding: var(--a4-space-2); border: 1px solid var(--a4-line); border-radius: var(--a4-radius-s); background: var(--a4-card); color: var(--a4-ink); font: inherit; text-align: start; }
+button.wt-seo-item { cursor: pointer; }
+button.wt-seo-item:hover { border-color: var(--a4-accent); }
+.wt-seo-item > .wt-chip { flex: none; }
+.wt-seo-text { min-inline-size: 0; overflow-wrap: break-word; }
+.wt-field[data-wanted="true"] { outline: 2px solid var(--a4-accent); outline-offset: 2px; border-radius: var(--a4-radius-s); }

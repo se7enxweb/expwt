@@ -592,6 +592,122 @@
         <translation>Daawwattoonni eessaa akka dhufan dhaabbii kana irratti hin galmaa'u.</translation>
     </message>
     <message>
+        <source>The page has no title.</source>
+        <translation>Fuulli kun mata duree hin qabu.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters; 30 to 60 fit search results.</source>
+        <translation>Mataan duree arfiilee %n qaba; 30 hanga 60 bu'aa barbaacha keessatti ni ga'u.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters.</source>
+        <translation>Mataan duree arfiilee %n qaba.</translation>
+    </message>
+    <message>
+        <source>The page has no description.</source>
+        <translation>Fuulli kun ibsa hin qabu.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters; 70 to 160 fit search results.</source>
+        <translation>Ibsichi arfiilee %n qaba; 70 hanga 160 bu'aa barbaacha keessatti ni ga'u.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters.</source>
+        <translation>Ibsichi arfiilee %n qaba.</translation>
+    </message>
+    <message>
+        <source>The page has no main heading (h1).</source>
+        <translation>Fuulli kun mata duree ijoo (h1) hin qabu.</translation>
+    </message>
+    <message>
+        <source>The page has %n main headings (h1); one is best.</source>
+        <translation>Fuulli kun mata duree ijoo %n (h1) qaba; tokko caalaa gaarii dha.</translation>
+    </message>
+    <message>
+        <source>A heading jumps from level %from to level %to.</source>
+        <translation>Mataan duree tokko sadarkaa %from irraa gara sadarkaa %to utaala.</translation>
+    </message>
+    <message>
+        <source>The headings are in order.</source>
+        <translation>Mata dureewwan tartiibaan jiru.</translation>
+    </message>
+    <message>
+        <source>An image has no alternative text.</source>
+        <translation>Suuraan tokko barreeffama bakka bu'aa hin qabu.</translation>
+    </message>
+    <message>
+        <source>Every image has an alternative text.</source>
+        <translation>Suuraan hundi barreeffama bakka bu'aa qaba.</translation>
+    </message>
+    <message>
+        <source>The page names no canonical address.</source>
+        <translation>Fuulli kun teessoo canonical tokkollee hin caqasu.</translation>
+    </message>
+    <message>
+        <source>The page names %n canonical addresses; one is right.</source>
+        <translation>Fuulli kun teessoo canonical %n caqasa; kan sirrii tokko.</translation>
+    </message>
+    <message>
+        <source>The canonical address is another page: %url</source>
+        <translation>Teessoon canonical fuula biraa dha: %url</translation>
+    </message>
+    <message>
+        <source>The canonical address is this page.</source>
+        <translation>Teessoon canonical fuula kana.</translation>
+    </message>
+    <message>
+        <source>Search engines are asked not to list this page (robots: %value).</source>
+        <translation>Meeshaaleen barbaachaa fuula kana akka hin tarreessine gaafatamaniiru (robots: %value).</translation>
+    </message>
+    <message>
+        <source>A link leads nowhere: %url</source>
+        <translation>Hidhaan tokko bakka tokkollee hin geessu: %url</translation>
+    </message>
+    <message>
+        <source>All %n links checked on this page lead somewhere.</source>
+        <translation>Hidhaawwan %n fuula kana irratti mirkanaa'an hundi bakka tokko geessu.</translation>
+    </message>
+    <message>
+        <source>Checking ...</source>
+        <translation>Mirkaneessaa jira ...</translation>
+    </message>
+    <message>
+        <source>Check again</source>
+        <translation>Irra deebi'ii mirkaneessi</translation>
+    </message>
+    <message>
+        <source>%n things to look at</source>
+        <translation>Wantoota ilaalamuu qaban %n</translation>
+    </message>
+    <message>
+        <source>Nothing to look at.</source>
+        <translation>Wanti ilaalamu hin jiru.</translation>
+    </message>
+    <message>
+        <source>Problem</source>
+        <translation>Rakkoo</translation>
+    </message>
+    <message>
+        <source>To look at</source>
+        <translation>Ilaalamuu qaba</translation>
+    </message>
+    <message>
+        <source>Fine</source>
+        <translation>Gaarii</translation>
+    </message>
+    <message>
+        <source>Open the field</source>
+        <translation>Dirree bani</translation>
+    </message>
+    <message>
+        <source>Show it on the page</source>
+        <translation>Fuula irratti agarsiisi</translation>
+    </message>
+    <message>
+        <source>SEO</source>
+        <translation>SEO</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Saanduqa galtee</translation>
     </message>

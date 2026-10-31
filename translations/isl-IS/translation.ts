@@ -592,6 +592,122 @@
         <translation>Hvaðan gestir komu er ekki skráð í þessari uppsetningu.</translation>
     </message>
     <message>
+        <source>The page has no title.</source>
+        <translation>Síðan hefur engan titil.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters; 30 to 60 fit search results.</source>
+        <translation>Titillinn er %n stafir; 30 til 60 passa í leitarniðurstöður.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters.</source>
+        <translation>Titillinn er %n stafir.</translation>
+    </message>
+    <message>
+        <source>The page has no description.</source>
+        <translation>Síðan hefur enga lýsingu.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters; 70 to 160 fit search results.</source>
+        <translation>Lýsingin er %n stafir; 70 til 160 passa í leitarniðurstöður.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters.</source>
+        <translation>Lýsingin er %n stafir.</translation>
+    </message>
+    <message>
+        <source>The page has no main heading (h1).</source>
+        <translation>Síðan hefur enga aðalfyrirsögn (h1).</translation>
+    </message>
+    <message>
+        <source>The page has %n main headings (h1); one is best.</source>
+        <translation>Síðan hefur %n aðalfyrirsagnir (h1); ein er best.</translation>
+    </message>
+    <message>
+        <source>A heading jumps from level %from to level %to.</source>
+        <translation>Fyrirsögn hoppar af stigi %from á stig %to.</translation>
+    </message>
+    <message>
+        <source>The headings are in order.</source>
+        <translation>Fyrirsagnirnar eru í réttri röð.</translation>
+    </message>
+    <message>
+        <source>An image has no alternative text.</source>
+        <translation>Mynd hefur engan annan texta.</translation>
+    </message>
+    <message>
+        <source>Every image has an alternative text.</source>
+        <translation>Allar myndir hafa annan texta.</translation>
+    </message>
+    <message>
+        <source>The page names no canonical address.</source>
+        <translation>Síðan tilgreinir ekkert kanónískt veffang.</translation>
+    </message>
+    <message>
+        <source>The page names %n canonical addresses; one is right.</source>
+        <translation>Síðan tilgreinir %n kanónísk veffang; eitt er rétt.</translation>
+    </message>
+    <message>
+        <source>The canonical address is another page: %url</source>
+        <translation>Kanóníska veffangið er önnur síða: %url</translation>
+    </message>
+    <message>
+        <source>The canonical address is this page.</source>
+        <translation>Kanóníska veffangið er þessi síða.</translation>
+    </message>
+    <message>
+        <source>Search engines are asked not to list this page (robots: %value).</source>
+        <translation>Leitarvélar eru beðnar um að birta ekki þessa síðu (robots: %value).</translation>
+    </message>
+    <message>
+        <source>A link leads nowhere: %url</source>
+        <translation>Tengill leiðir hvergi: %url</translation>
+    </message>
+    <message>
+        <source>All %n links checked on this page lead somewhere.</source>
+        <translation>Allir %n tenglar sem voru athugaðir á þessari síðu leiða eitthvert.</translation>
+    </message>
+    <message>
+        <source>Checking ...</source>
+        <translation>Athuga ...</translation>
+    </message>
+    <message>
+        <source>Check again</source>
+        <translation>Athuga aftur</translation>
+    </message>
+    <message>
+        <source>%n things to look at</source>
+        <translation>%n atriði til að skoða</translation>
+    </message>
+    <message>
+        <source>Nothing to look at.</source>
+        <translation>Ekkert til að skoða.</translation>
+    </message>
+    <message>
+        <source>Problem</source>
+        <translation>Vandamál</translation>
+    </message>
+    <message>
+        <source>To look at</source>
+        <translation>Til skoðunar</translation>
+    </message>
+    <message>
+        <source>Fine</source>
+        <translation>Í lagi</translation>
+    </message>
+    <message>
+        <source>Open the field</source>
+        <translation>Opna reitinn</translation>
+    </message>
+    <message>
+        <source>Show it on the page</source>
+        <translation>Sýna á síðunni</translation>
+    </message>
+    <message>
+        <source>SEO</source>
+        <translation>SEO</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Innhólf</translation>
     </message>

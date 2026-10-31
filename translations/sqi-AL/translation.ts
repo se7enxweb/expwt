@@ -592,6 +592,122 @@
         <translation>Nga erdhën vizitorët nuk regjistrohet në këtë instalim.</translation>
     </message>
     <message>
+        <source>The page has no title.</source>
+        <translation>Faqja nuk ka titull.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters; 30 to 60 fit search results.</source>
+        <translation>Titulli ka %n karaktere; nga 30 deri në 60 nxënë në rezultatet e kërkimit.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters.</source>
+        <translation>Titulli ka %n karaktere.</translation>
+    </message>
+    <message>
+        <source>The page has no description.</source>
+        <translation>Faqja nuk ka përshkrim.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters; 70 to 160 fit search results.</source>
+        <translation>Përshkrimi ka %n karaktere; nga 70 deri në 160 nxënë në rezultatet e kërkimit.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters.</source>
+        <translation>Përshkrimi ka %n karaktere.</translation>
+    </message>
+    <message>
+        <source>The page has no main heading (h1).</source>
+        <translation>Faqja nuk ka titull kryesor (h1).</translation>
+    </message>
+    <message>
+        <source>The page has %n main headings (h1); one is best.</source>
+        <translation>Faqja ka %n tituj kryesorë (h1); më mirë është një.</translation>
+    </message>
+    <message>
+        <source>A heading jumps from level %from to level %to.</source>
+        <translation>Një titull kërcen nga niveli %from në nivelin %to.</translation>
+    </message>
+    <message>
+        <source>The headings are in order.</source>
+        <translation>Titujt janë me radhë.</translation>
+    </message>
+    <message>
+        <source>An image has no alternative text.</source>
+        <translation>Një figurë nuk ka tekst alternativ.</translation>
+    </message>
+    <message>
+        <source>Every image has an alternative text.</source>
+        <translation>Çdo figurë ka tekst alternativ.</translation>
+    </message>
+    <message>
+        <source>The page names no canonical address.</source>
+        <translation>Faqja nuk tregon asnjë adresë kanonike.</translation>
+    </message>
+    <message>
+        <source>The page names %n canonical addresses; one is right.</source>
+        <translation>Faqja tregon %n adresa kanonike; e saktë është një.</translation>
+    </message>
+    <message>
+        <source>The canonical address is another page: %url</source>
+        <translation>Adresa kanonike është një faqe tjetër: %url</translation>
+    </message>
+    <message>
+        <source>The canonical address is this page.</source>
+        <translation>Adresa kanonike është kjo faqe.</translation>
+    </message>
+    <message>
+        <source>Search engines are asked not to list this page (robots: %value).</source>
+        <translation>Motorëve të kërkimit u kërkohet të mos e listojnë këtë faqe (robots: %value).</translation>
+    </message>
+    <message>
+        <source>A link leads nowhere: %url</source>
+        <translation>Një lidhje nuk të çon askund: %url</translation>
+    </message>
+    <message>
+        <source>All %n links checked on this page lead somewhere.</source>
+        <translation>Të gjitha %n lidhjet e kontrolluara në këtë faqe të çojnë diku.</translation>
+    </message>
+    <message>
+        <source>Checking ...</source>
+        <translation>Po kontrollohet ...</translation>
+    </message>
+    <message>
+        <source>Check again</source>
+        <translation>Kontrollo përsëri</translation>
+    </message>
+    <message>
+        <source>%n things to look at</source>
+        <translation>%n gjëra për t'u parë</translation>
+    </message>
+    <message>
+        <source>Nothing to look at.</source>
+        <translation>Asgjë për t'u parë.</translation>
+    </message>
+    <message>
+        <source>Problem</source>
+        <translation>Problem</translation>
+    </message>
+    <message>
+        <source>To look at</source>
+        <translation>Për t'u parë</translation>
+    </message>
+    <message>
+        <source>Fine</source>
+        <translation>Në rregull</translation>
+    </message>
+    <message>
+        <source>Open the field</source>
+        <translation>Hap fushën</translation>
+    </message>
+    <message>
+        <source>Show it on the page</source>
+        <translation>Shfaqe në faqe</translation>
+    </message>
+    <message>
+        <source>SEO</source>
+        <translation>SEO</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Të ardhurat</translation>
     </message>

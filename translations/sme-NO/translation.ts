@@ -592,6 +592,122 @@
         <translation>Gos guossit bohte, ii registrerejuvvo dán sajáiduhttimis.</translation>
     </message>
     <message>
+        <source>The page has no title.</source>
+        <translation>Siidus ii leat namahus.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters; 30 to 60 fit search results.</source>
+        <translation>Namahusas leat %n mearkka; 30 gitta 60 heivejit ohcanbohtosiidda.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters.</source>
+        <translation>Namahusas leat %n mearkka.</translation>
+    </message>
+    <message>
+        <source>The page has no description.</source>
+        <translation>Siidus ii leat válddahus.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters; 70 to 160 fit search results.</source>
+        <translation>Válddahusas leat %n mearkka; 70 gitta 160 heivejit ohcanbohtosiidda.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters.</source>
+        <translation>Válddahusas leat %n mearkka.</translation>
+    </message>
+    <message>
+        <source>The page has no main heading (h1).</source>
+        <translation>Siidus ii leat váldobajilčála (h1).</translation>
+    </message>
+    <message>
+        <source>The page has %n main headings (h1); one is best.</source>
+        <translation>Siidus leat %n váldobajilčállaga (h1); okta lea buoremus.</translation>
+    </message>
+    <message>
+        <source>A heading jumps from level %from to level %to.</source>
+        <translation>Bajilčála njuiká dási %from rájes dássái %to.</translation>
+    </message>
+    <message>
+        <source>The headings are in order.</source>
+        <translation>Bajilčállagat leat ortnegis.</translation>
+    </message>
+    <message>
+        <source>An image has no alternative text.</source>
+        <translation>Govas ii leat molssaevttolaš teaksta.</translation>
+    </message>
+    <message>
+        <source>Every image has an alternative text.</source>
+        <translation>Juohke govas lea molssaevttolaš teaksta.</translation>
+    </message>
+    <message>
+        <source>The page names no canonical address.</source>
+        <translation>Siidu ii namut kanonalaš čujuhusa.</translation>
+    </message>
+    <message>
+        <source>The page names %n canonical addresses; one is right.</source>
+        <translation>Siidu namuha %n kanonalaš čujuhusa; okta lea riekta.</translation>
+    </message>
+    <message>
+        <source>The canonical address is another page: %url</source>
+        <translation>Kanonalaš čujuhus lea eará siidu: %url</translation>
+    </message>
+    <message>
+        <source>The canonical address is this page.</source>
+        <translation>Kanonalaš čujuhus lea dát siidu.</translation>
+    </message>
+    <message>
+        <source>Search engines are asked not to list this page (robots: %value).</source>
+        <translation>Ohcanmášiinnaid bivdojit ahte eai listte dán siidu (robots: %value).</translation>
+    </message>
+    <message>
+        <source>A link leads nowhere: %url</source>
+        <translation>Liŋka ii doalvvo gosage: %url</translation>
+    </message>
+    <message>
+        <source>All %n links checked on this page lead somewhere.</source>
+        <translation>Buot %n dárkkistuvvon liŋkka dán siidus dolvot gosa nu.</translation>
+    </message>
+    <message>
+        <source>Checking ...</source>
+        <translation>Dárkkista ...</translation>
+    </message>
+    <message>
+        <source>Check again</source>
+        <translation>Dárkkis fas</translation>
+    </message>
+    <message>
+        <source>%n things to look at</source>
+        <translation>%n ášši maid geahččat</translation>
+    </message>
+    <message>
+        <source>Nothing to look at.</source>
+        <translation>Ii mihkkege maid geahččat.</translation>
+    </message>
+    <message>
+        <source>Problem</source>
+        <translation>Váttisvuohta</translation>
+    </message>
+    <message>
+        <source>To look at</source>
+        <translation>Geahččat</translation>
+    </message>
+    <message>
+        <source>Fine</source>
+        <translation>Buorre</translation>
+    </message>
+    <message>
+        <source>Open the field</source>
+        <translation>Raba gietti</translation>
+    </message>
+    <message>
+        <source>Show it on the page</source>
+        <translation>Čájet siidus</translation>
+    </message>
+    <message>
+        <source>SEO</source>
+        <translation>SEO</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Sisaboarta</translation>
     </message>

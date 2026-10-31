@@ -592,6 +592,122 @@
         <translation>ghoS ghaHvaD ngeD lutu'be'.</translation>
     </message>
     <message>
+        <source>The page has no title.</source>
+        <translation>nav pong tu'lu'be'.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters; 30 to 60 fit search results.</source>
+        <translation>nav pong %n ngutlh ghaj; 30 60 je nejmeH ghot'e' luDub.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters.</source>
+        <translation>nav pong %n ngutlh ghaj.</translation>
+    </message>
+    <message>
+        <source>The page has no description.</source>
+        <translation>nav QIjmeH mu'mey tu'lu'be'.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters; 70 to 160 fit search results.</source>
+        <translation>nav QIjmeH mu'mey %n ngutlh ghaj; 70 160 je nejmeH ghot'e' luDub.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters.</source>
+        <translation>nav QIjmeH mu'mey %n ngutlh ghaj.</translation>
+    </message>
+    <message>
+        <source>The page has no main heading (h1).</source>
+        <translation>nav nach'a' tu'lu'be' (h1).</translation>
+    </message>
+    <message>
+        <source>The page has %n main headings (h1); one is best.</source>
+        <translation>%n nach'a' ghaj nav (h1); wa' nIvqu'.</translation>
+    </message>
+    <message>
+        <source>A heading jumps from level %from to level %to.</source>
+        <translation>patlh %from patlh %to je SuplaH nach.</translation>
+    </message>
+    <message>
+        <source>The headings are in order.</source>
+        <translation>nach chel ghap mI' luvoq.</translation>
+    </message>
+    <message>
+        <source>An image has no alternative text.</source>
+        <translation>Dotlh QIjmeH ghItlh ghajbe' mIllogh.</translation>
+    </message>
+    <message>
+        <source>Every image has an alternative text.</source>
+        <translation>Hoch mIllogh Dotlh QIjmeH ghItlh ghaj.</translation>
+    </message>
+    <message>
+        <source>The page names no canonical address.</source>
+        <translation>nav Daq ngaq pongbe'.</translation>
+    </message>
+    <message>
+        <source>The page names %n canonical addresses; one is right.</source>
+        <translation>%n Daq ngaq pong nav; wa' lugh.</translation>
+    </message>
+    <message>
+        <source>The canonical address is another page: %url</source>
+        <translation>latlh nav ghaH Daq ngaq: %url</translation>
+    </message>
+    <message>
+        <source>The canonical address is this page.</source>
+        <translation>nav vam ghaH Daq ngaq.</translation>
+    </message>
+    <message>
+        <source>Search engines are asked not to list this page (robots: %value).</source>
+        <translation>nav vam tetlhDaq yIchelQo' 'e' tlhob nejmeH jo (robots: %value).</translation>
+    </message>
+    <message>
+        <source>A link leads nowhere: %url</source>
+        <translation>pa'Daq ghoSbe' rar: %url</translation>
+    </message>
+    <message>
+        <source>All %n links checked on this page lead somewhere.</source>
+        <translation>nav vamDaq %n rar luHoyta'bogh Hoch, Daq lughoS.</translation>
+    </message>
+    <message>
+        <source>Checking ...</source>
+        <translation>nuDlI' ...</translation>
+    </message>
+    <message>
+        <source>Check again</source>
+        <translation>nuD vaj</translation>
+    </message>
+    <message>
+        <source>%n things to look at</source>
+        <translation>%n Dochmey yIlegh</translation>
+    </message>
+    <message>
+        <source>Nothing to look at.</source>
+        <translation>yIlegh Dochmey tu'lu'be'.</translation>
+    </message>
+    <message>
+        <source>Problem</source>
+        <translation>Qagh</translation>
+    </message>
+    <message>
+        <source>To look at</source>
+        <translation>yIlegh</translation>
+    </message>
+    <message>
+        <source>Fine</source>
+        <translation>maj</translation>
+    </message>
+    <message>
+        <source>Open the field</source>
+        <translation>Dey yIpoSmoH</translation>
+    </message>
+    <message>
+        <source>Show it on the page</source>
+        <translation>navDaq yIcha'</translation>
+    </message>
+    <message>
+        <source>SEO</source>
+        <translation>SEO</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>QIn chu'</translation>
     </message>

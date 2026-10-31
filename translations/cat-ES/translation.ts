@@ -592,6 +592,122 @@
         <translation>D'on vénen els visitants no es registra en aquesta instal·lació.</translation>
     </message>
     <message>
+        <source>The page has no title.</source>
+        <translation>La pàgina no té títol.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters; 30 to 60 fit search results.</source>
+        <translation>El títol té %n caràcters; de 30 a 60 caben als resultats de cerca.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters.</source>
+        <translation>El títol té %n caràcters.</translation>
+    </message>
+    <message>
+        <source>The page has no description.</source>
+        <translation>La pàgina no té descripció.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters; 70 to 160 fit search results.</source>
+        <translation>La descripció té %n caràcters; de 70 a 160 caben als resultats de cerca.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters.</source>
+        <translation>La descripció té %n caràcters.</translation>
+    </message>
+    <message>
+        <source>The page has no main heading (h1).</source>
+        <translation>La pàgina no té encapçalament principal (h1).</translation>
+    </message>
+    <message>
+        <source>The page has %n main headings (h1); one is best.</source>
+        <translation>La pàgina té %n encapçalaments principals (h1); el millor és un.</translation>
+    </message>
+    <message>
+        <source>A heading jumps from level %from to level %to.</source>
+        <translation>Un encapçalament salta del nivell %from al nivell %to.</translation>
+    </message>
+    <message>
+        <source>The headings are in order.</source>
+        <translation>Els encapçalaments estan en ordre.</translation>
+    </message>
+    <message>
+        <source>An image has no alternative text.</source>
+        <translation>Una imatge no té text alternatiu.</translation>
+    </message>
+    <message>
+        <source>Every image has an alternative text.</source>
+        <translation>Totes les imatges tenen text alternatiu.</translation>
+    </message>
+    <message>
+        <source>The page names no canonical address.</source>
+        <translation>La pàgina no indica cap adreça canònica.</translation>
+    </message>
+    <message>
+        <source>The page names %n canonical addresses; one is right.</source>
+        <translation>La pàgina indica %n adreces canòniques; el correcte és una.</translation>
+    </message>
+    <message>
+        <source>The canonical address is another page: %url</source>
+        <translation>L'adreça canònica és una altra pàgina: %url</translation>
+    </message>
+    <message>
+        <source>The canonical address is this page.</source>
+        <translation>L'adreça canònica és aquesta pàgina.</translation>
+    </message>
+    <message>
+        <source>Search engines are asked not to list this page (robots: %value).</source>
+        <translation>Es demana als cercadors que no llistin aquesta pàgina (robots: %value).</translation>
+    </message>
+    <message>
+        <source>A link leads nowhere: %url</source>
+        <translation>Un enllaç no porta enlloc: %url</translation>
+    </message>
+    <message>
+        <source>All %n links checked on this page lead somewhere.</source>
+        <translation>Els %n enllaços comprovats en aquesta pàgina porten a algun lloc.</translation>
+    </message>
+    <message>
+        <source>Checking ...</source>
+        <translation>S'està comprovant ...</translation>
+    </message>
+    <message>
+        <source>Check again</source>
+        <translation>Torna a comprovar</translation>
+    </message>
+    <message>
+        <source>%n things to look at</source>
+        <translation>%n coses per revisar</translation>
+    </message>
+    <message>
+        <source>Nothing to look at.</source>
+        <translation>Res per revisar.</translation>
+    </message>
+    <message>
+        <source>Problem</source>
+        <translation>Problema</translation>
+    </message>
+    <message>
+        <source>To look at</source>
+        <translation>Per revisar</translation>
+    </message>
+    <message>
+        <source>Fine</source>
+        <translation>Correcte</translation>
+    </message>
+    <message>
+        <source>Open the field</source>
+        <translation>Obre el camp</translation>
+    </message>
+    <message>
+        <source>Show it on the page</source>
+        <translation>Mostra-ho a la pàgina</translation>
+    </message>
+    <message>
+        <source>SEO</source>
+        <translation>SEO</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Safata d'entrada</translation>
     </message>

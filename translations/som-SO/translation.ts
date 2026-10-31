@@ -592,6 +592,122 @@
         <translation>Halka ay booqdayaashu ka yimaadeen laguma diiwaangeliyo rakibaaddan.</translation>
     </message>
     <message>
+        <source>The page has no title.</source>
+        <translation>Boggu ma laha cinwaan.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters; 30 to 60 fit search results.</source>
+        <translation>Cinwaanku wuxuu leeyahay %n xaraf; 30 ilaa 60 ayaa ku habboon natiijooyinka raadinta.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters.</source>
+        <translation>Cinwaanku wuxuu leeyahay %n xaraf.</translation>
+    </message>
+    <message>
+        <source>The page has no description.</source>
+        <translation>Boggu ma laha sharraxaad.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters; 70 to 160 fit search results.</source>
+        <translation>Sharraxaaddu waxay leedahay %n xaraf; 70 ilaa 160 ayaa ku habboon natiijooyinka raadinta.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters.</source>
+        <translation>Sharraxaaddu waxay leedahay %n xaraf.</translation>
+    </message>
+    <message>
+        <source>The page has no main heading (h1).</source>
+        <translation>Boggu ma laha cinwaan weyn (h1).</translation>
+    </message>
+    <message>
+        <source>The page has %n main headings (h1); one is best.</source>
+        <translation>Boggu wuxuu leeyahay %n cinwaan oo waaweyn (h1); mid ayaa ugu fiican.</translation>
+    </message>
+    <message>
+        <source>A heading jumps from level %from to level %to.</source>
+        <translation>Cinwaan ayaa ka booda heerka %from una booda heerka %to.</translation>
+    </message>
+    <message>
+        <source>The headings are in order.</source>
+        <translation>Cinwaannadu way isku xigaan.</translation>
+    </message>
+    <message>
+        <source>An image has no alternative text.</source>
+        <translation>Sawir ma laha qoraal beddel ah.</translation>
+    </message>
+    <message>
+        <source>Every image has an alternative text.</source>
+        <translation>Sawir kasta wuxuu leeyahay qoraal beddel ah.</translation>
+    </message>
+    <message>
+        <source>The page names no canonical address.</source>
+        <translation>Boggu ma sheego cinwaan canonical ah.</translation>
+    </message>
+    <message>
+        <source>The page names %n canonical addresses; one is right.</source>
+        <translation>Boggu wuxuu sheegaa %n cinwaan canonical ah; mid ayaa sax ah.</translation>
+    </message>
+    <message>
+        <source>The canonical address is another page: %url</source>
+        <translation>Cinwaanka canonical waa bog kale: %url</translation>
+    </message>
+    <message>
+        <source>The canonical address is this page.</source>
+        <translation>Cinwaanka canonical waa boggan.</translation>
+    </message>
+    <message>
+        <source>Search engines are asked not to list this page (robots: %value).</source>
+        <translation>Matoorada raadinta waxaa laga codsaday inaysan liis gelin boggan (robots: %value).</translation>
+    </message>
+    <message>
+        <source>A link leads nowhere: %url</source>
+        <translation>Xiriiriye meelna ma geeyo: %url</translation>
+    </message>
+    <message>
+        <source>All %n links checked on this page lead somewhere.</source>
+        <translation>Dhammaan %n xiriiriye ee boggan lagu hubiyay meel ayay geeyaan.</translation>
+    </message>
+    <message>
+        <source>Checking ...</source>
+        <translation>Waa la hubinayaa ...</translation>
+    </message>
+    <message>
+        <source>Check again</source>
+        <translation>Mar kale hubi</translation>
+    </message>
+    <message>
+        <source>%n things to look at</source>
+        <translation>%n shay oo la eego</translation>
+    </message>
+    <message>
+        <source>Nothing to look at.</source>
+        <translation>Wax la eego ma jiro.</translation>
+    </message>
+    <message>
+        <source>Problem</source>
+        <translation>Dhibaato</translation>
+    </message>
+    <message>
+        <source>To look at</source>
+        <translation>In la eego</translation>
+    </message>
+    <message>
+        <source>Fine</source>
+        <translation>Wanaagsan</translation>
+    </message>
+    <message>
+        <source>Open the field</source>
+        <translation>Fur goobta</translation>
+    </message>
+    <message>
+        <source>Show it on the page</source>
+        <translation>Ku tus bogga</translation>
+    </message>
+    <message>
+        <source>SEO</source>
+        <translation>SEO</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Sanduuqa fariimaha</translation>
     </message>

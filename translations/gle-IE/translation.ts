@@ -592,6 +592,122 @@
         <translation>Ní thaifeadtar ar an suiteáil seo cad as ar tháinig cuairteoirí.</translation>
     </message>
     <message>
+        <source>The page has no title.</source>
+        <translation>Níl teideal ar an leathanach.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters; 30 to 60 fit search results.</source>
+        <translation>Tá %n carachtar sa teideal; oireann 30 go 60 do thorthaí cuardaigh.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters.</source>
+        <translation>Tá %n carachtar sa teideal.</translation>
+    </message>
+    <message>
+        <source>The page has no description.</source>
+        <translation>Níl cur síos ar an leathanach.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters; 70 to 160 fit search results.</source>
+        <translation>Tá %n carachtar sa chur síos; oireann 70 go 160 do thorthaí cuardaigh.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters.</source>
+        <translation>Tá %n carachtar sa chur síos.</translation>
+    </message>
+    <message>
+        <source>The page has no main heading (h1).</source>
+        <translation>Níl príomhcheannteideal (h1) ar an leathanach.</translation>
+    </message>
+    <message>
+        <source>The page has %n main headings (h1); one is best.</source>
+        <translation>Tá %n príomhcheannteideal (h1) ar an leathanach; is fearr ceann amháin.</translation>
+    </message>
+    <message>
+        <source>A heading jumps from level %from to level %to.</source>
+        <translation>Léimeann ceannteideal ó leibhéal %from go leibhéal %to.</translation>
+    </message>
+    <message>
+        <source>The headings are in order.</source>
+        <translation>Tá na ceannteidil in ord.</translation>
+    </message>
+    <message>
+        <source>An image has no alternative text.</source>
+        <translation>Níl téacs malartach ag íomhá.</translation>
+    </message>
+    <message>
+        <source>Every image has an alternative text.</source>
+        <translation>Tá téacs malartach ag gach íomhá.</translation>
+    </message>
+    <message>
+        <source>The page names no canonical address.</source>
+        <translation>Ní ainmníonn an leathanach seoladh canónach ar bith.</translation>
+    </message>
+    <message>
+        <source>The page names %n canonical addresses; one is right.</source>
+        <translation>Ainmníonn an leathanach %n seoladh canónach; is ceart ceann amháin.</translation>
+    </message>
+    <message>
+        <source>The canonical address is another page: %url</source>
+        <translation>Is leathanach eile an seoladh canónach: %url</translation>
+    </message>
+    <message>
+        <source>The canonical address is this page.</source>
+        <translation>Is é an leathanach seo an seoladh canónach.</translation>
+    </message>
+    <message>
+        <source>Search engines are asked not to list this page (robots: %value).</source>
+        <translation>Iarrtar ar innill chuardaigh gan an leathanach seo a liostú (robots: %value).</translation>
+    </message>
+    <message>
+        <source>A link leads nowhere: %url</source>
+        <translation>Ní théann nasc áit ar bith: %url</translation>
+    </message>
+    <message>
+        <source>All %n links checked on this page lead somewhere.</source>
+        <translation>Téann gach ceann de na %n nasc a seiceáladh ar an leathanach seo áit éigin.</translation>
+    </message>
+    <message>
+        <source>Checking ...</source>
+        <translation>Á sheiceáil ...</translation>
+    </message>
+    <message>
+        <source>Check again</source>
+        <translation>Seiceáil arís</translation>
+    </message>
+    <message>
+        <source>%n things to look at</source>
+        <translation>%n rud le breathnú orthu</translation>
+    </message>
+    <message>
+        <source>Nothing to look at.</source>
+        <translation>Níl aon rud le breathnú air.</translation>
+    </message>
+    <message>
+        <source>Problem</source>
+        <translation>Fadhb</translation>
+    </message>
+    <message>
+        <source>To look at</source>
+        <translation>Le breathnú air</translation>
+    </message>
+    <message>
+        <source>Fine</source>
+        <translation>Ceart go leor</translation>
+    </message>
+    <message>
+        <source>Open the field</source>
+        <translation>Oscail an réimse</translation>
+    </message>
+    <message>
+        <source>Show it on the page</source>
+        <translation>Taispeáin ar an leathanach é</translation>
+    </message>
+    <message>
+        <source>SEO</source>
+        <translation>SEO</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Bosca isteach</translation>
     </message>

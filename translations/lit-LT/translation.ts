@@ -592,6 +592,122 @@
         <translation>Iš kur atėjo lankytojai, šiame įdiegime neregistruojama.</translation>
     </message>
     <message>
+        <source>The page has no title.</source>
+        <translation>Puslapis neturi pavadinimo.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters; 30 to 60 fit search results.</source>
+        <translation>Pavadinime yra %n simbolių; paieškos rezultatuose telpa nuo 30 iki 60.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters.</source>
+        <translation>Pavadinime yra %n simbolių.</translation>
+    </message>
+    <message>
+        <source>The page has no description.</source>
+        <translation>Puslapis neturi aprašymo.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters; 70 to 160 fit search results.</source>
+        <translation>Aprašyme yra %n simbolių; paieškos rezultatuose telpa nuo 70 iki 160.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters.</source>
+        <translation>Aprašyme yra %n simbolių.</translation>
+    </message>
+    <message>
+        <source>The page has no main heading (h1).</source>
+        <translation>Puslapis neturi pagrindinės antraštės (h1).</translation>
+    </message>
+    <message>
+        <source>The page has %n main headings (h1); one is best.</source>
+        <translation>Puslapis turi %n pagrindines antraštes (h1); geriausia viena.</translation>
+    </message>
+    <message>
+        <source>A heading jumps from level %from to level %to.</source>
+        <translation>Antraštė peršoka iš %from lygio į %to lygį.</translation>
+    </message>
+    <message>
+        <source>The headings are in order.</source>
+        <translation>Antraštės eina iš eilės.</translation>
+    </message>
+    <message>
+        <source>An image has no alternative text.</source>
+        <translation>Paveikslėlis neturi alternatyvaus teksto.</translation>
+    </message>
+    <message>
+        <source>Every image has an alternative text.</source>
+        <translation>Kiekvienas paveikslėlis turi alternatyvų tekstą.</translation>
+    </message>
+    <message>
+        <source>The page names no canonical address.</source>
+        <translation>Puslapis nenurodo kanoninio adreso.</translation>
+    </message>
+    <message>
+        <source>The page names %n canonical addresses; one is right.</source>
+        <translation>Puslapis nurodo %n kanoninius adresus; teisingas vienas.</translation>
+    </message>
+    <message>
+        <source>The canonical address is another page: %url</source>
+        <translation>Kanoninis adresas yra kitas puslapis: %url</translation>
+    </message>
+    <message>
+        <source>The canonical address is this page.</source>
+        <translation>Kanoninis adresas yra šis puslapis.</translation>
+    </message>
+    <message>
+        <source>Search engines are asked not to list this page (robots: %value).</source>
+        <translation>Paieškos sistemų prašoma neįtraukti šio puslapio (robots: %value).</translation>
+    </message>
+    <message>
+        <source>A link leads nowhere: %url</source>
+        <translation>Nuoroda niekur neveda: %url</translation>
+    </message>
+    <message>
+        <source>All %n links checked on this page lead somewhere.</source>
+        <translation>Visos %n šiame puslapyje patikrintos nuorodos kažkur veda.</translation>
+    </message>
+    <message>
+        <source>Checking ...</source>
+        <translation>Tikrinama ...</translation>
+    </message>
+    <message>
+        <source>Check again</source>
+        <translation>Tikrinti dar kartą</translation>
+    </message>
+    <message>
+        <source>%n things to look at</source>
+        <translation>%n dalykai peržiūrėti</translation>
+    </message>
+    <message>
+        <source>Nothing to look at.</source>
+        <translation>Nėra ką peržiūrėti.</translation>
+    </message>
+    <message>
+        <source>Problem</source>
+        <translation>Problema</translation>
+    </message>
+    <message>
+        <source>To look at</source>
+        <translation>Peržiūrėti</translation>
+    </message>
+    <message>
+        <source>Fine</source>
+        <translation>Gerai</translation>
+    </message>
+    <message>
+        <source>Open the field</source>
+        <translation>Atverti lauką</translation>
+    </message>
+    <message>
+        <source>Show it on the page</source>
+        <translation>Rodyti puslapyje</translation>
+    </message>
+    <message>
+        <source>SEO</source>
+        <translation>SEO</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Gauta</translation>
     </message>

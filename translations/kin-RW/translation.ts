@@ -592,6 +592,122 @@
         <translation>Aho abasura baturutse ntibyandikwa kuri iyi nyubako.</translation>
     </message>
     <message>
+        <source>The page has no title.</source>
+        <translation>Urupapuro nta mutwe rufite.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters; 30 to 60 fit search results.</source>
+        <translation>Umutwe ufite inyuguti %n; 30 kugeza 60 zikwira mu bisubizo by'ishakisha.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters.</source>
+        <translation>Umutwe ufite inyuguti %n.</translation>
+    </message>
+    <message>
+        <source>The page has no description.</source>
+        <translation>Urupapuro nta bisobanuro rufite.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters; 70 to 160 fit search results.</source>
+        <translation>Ibisobanuro bifite inyuguti %n; 70 kugeza 160 zikwira mu bisubizo by'ishakisha.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters.</source>
+        <translation>Ibisobanuro bifite inyuguti %n.</translation>
+    </message>
+    <message>
+        <source>The page has no main heading (h1).</source>
+        <translation>Urupapuro nta mutwe mukuru (h1) rufite.</translation>
+    </message>
+    <message>
+        <source>The page has %n main headings (h1); one is best.</source>
+        <translation>Urupapuro rufite imitwe mikuru %n (h1); umwe ni wo mwiza.</translation>
+    </message>
+    <message>
+        <source>A heading jumps from level %from to level %to.</source>
+        <translation>Umutwe usimbuka kuva ku rwego %from ujya ku rwego %to.</translation>
+    </message>
+    <message>
+        <source>The headings are in order.</source>
+        <translation>Imitwe iri ku murongo.</translation>
+    </message>
+    <message>
+        <source>An image has no alternative text.</source>
+        <translation>Ishusho imwe nta nyandiko isimbura ifite.</translation>
+    </message>
+    <message>
+        <source>Every image has an alternative text.</source>
+        <translation>Buri shusho ifite inyandiko isimbura.</translation>
+    </message>
+    <message>
+        <source>The page names no canonical address.</source>
+        <translation>Urupapuro ntiruvuga aderesi ya canonical.</translation>
+    </message>
+    <message>
+        <source>The page names %n canonical addresses; one is right.</source>
+        <translation>Urupapuro ruvuga aderesi %n za canonical; imwe ni yo ikwiye.</translation>
+    </message>
+    <message>
+        <source>The canonical address is another page: %url</source>
+        <translation>Aderesi ya canonical ni urundi rupapuro: %url</translation>
+    </message>
+    <message>
+        <source>The canonical address is this page.</source>
+        <translation>Aderesi ya canonical ni uru rupapuro.</translation>
+    </message>
+    <message>
+        <source>Search engines are asked not to list this page (robots: %value).</source>
+        <translation>Moteri z'ishakisha zisabwa kutagaragaza uru rupapuro (robots: %value).</translation>
+    </message>
+    <message>
+        <source>A link leads nowhere: %url</source>
+        <translation>Ihuza rimwe ntirijyana ahantu: %url</translation>
+    </message>
+    <message>
+        <source>All %n links checked on this page lead somewhere.</source>
+        <translation>Amahuza yose %n yagenzuwe kuri uru rupapuro ajyana ahantu.</translation>
+    </message>
+    <message>
+        <source>Checking ...</source>
+        <translation>Birimo kugenzurwa ...</translation>
+    </message>
+    <message>
+        <source>Check again</source>
+        <translation>Ongera ugenzure</translation>
+    </message>
+    <message>
+        <source>%n things to look at</source>
+        <translation>Ibintu %n byo kureba</translation>
+    </message>
+    <message>
+        <source>Nothing to look at.</source>
+        <translation>Nta cyo kureba.</translation>
+    </message>
+    <message>
+        <source>Problem</source>
+        <translation>Ikibazo</translation>
+    </message>
+    <message>
+        <source>To look at</source>
+        <translation>Cyo kureba</translation>
+    </message>
+    <message>
+        <source>Fine</source>
+        <translation>Ni byiza</translation>
+    </message>
+    <message>
+        <source>Open the field</source>
+        <translation>Fungura umwanya</translation>
+    </message>
+    <message>
+        <source>Show it on the page</source>
+        <translation>Byerekane ku rupapuro</translation>
+    </message>
+    <message>
+        <source>SEO</source>
+        <translation>SEO</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Ubutumwa bwinjira</translation>
     </message>

@@ -592,6 +592,122 @@
         <translation>A-belec'h e teu ar weladennerien n'eo ket enrollet war ar staliadur-mañ.</translation>
     </message>
     <message>
+        <source>The page has no title.</source>
+        <translation>N'eus titl ebet d'ar bajenn.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters; 30 to 60 fit search results.</source>
+        <translation>%n arouezenn zo en titl; etre 30 ha 60 a zere ouzh disoc'hoù an enklask.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters.</source>
+        <translation>%n arouezenn zo en titl.</translation>
+    </message>
+    <message>
+        <source>The page has no description.</source>
+        <translation>N'eus deskrivadur ebet d'ar bajenn.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters; 70 to 160 fit search results.</source>
+        <translation>%n arouezenn zo en deskrivadur; etre 70 ha 160 a zere ouzh disoc'hoù an enklask.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters.</source>
+        <translation>%n arouezenn zo en deskrivadur.</translation>
+    </message>
+    <message>
+        <source>The page has no main heading (h1).</source>
+        <translation>N'eus titl pennañ ebet (h1) war ar bajenn.</translation>
+    </message>
+    <message>
+        <source>The page has %n main headings (h1); one is best.</source>
+        <translation>%n titl pennañ (h1) zo war ar bajenn; unan a zo ar gwellañ.</translation>
+    </message>
+    <message>
+        <source>A heading jumps from level %from to level %to.</source>
+        <translation>Un titl a lamm eus al live %from d'al live %to.</translation>
+    </message>
+    <message>
+        <source>The headings are in order.</source>
+        <translation>Mat eo urzh an titloù.</translation>
+    </message>
+    <message>
+        <source>An image has no alternative text.</source>
+        <translation>N'eus testenn all ebet d'ur skeudenn.</translation>
+    </message>
+    <message>
+        <source>Every image has an alternative text.</source>
+        <translation>Pep skeudenn he deus un destenn all.</translation>
+    </message>
+    <message>
+        <source>The page names no canonical address.</source>
+        <translation>Ne envel ar bajenn chomlec'h kanonek ebet.</translation>
+    </message>
+    <message>
+        <source>The page names %n canonical addresses; one is right.</source>
+        <translation>%n chomlec'h kanonek a envel ar bajenn; unan eo ar reizh.</translation>
+    </message>
+    <message>
+        <source>The canonical address is another page: %url</source>
+        <translation>Ar chomlec'h kanonek a zo ur bajenn all: %url</translation>
+    </message>
+    <message>
+        <source>The canonical address is this page.</source>
+        <translation>Ar chomlec'h kanonek eo ar bajenn-mañ.</translation>
+    </message>
+    <message>
+        <source>Search engines are asked not to list this page (robots: %value).</source>
+        <translation>Goulennet eo digant al lusktreoù klask chom hep rollañ ar bajenn-mañ (robots: %value).</translation>
+    </message>
+    <message>
+        <source>A link leads nowhere: %url</source>
+        <translation>Ul liamm na gas da netra: %url</translation>
+    </message>
+    <message>
+        <source>All %n links checked on this page lead somewhere.</source>
+        <translation>An holl %n liamm gwiriet war ar bajenn-mañ a gas da lec'h bennak.</translation>
+    </message>
+    <message>
+        <source>Checking ...</source>
+        <translation>O wiriañ ...</translation>
+    </message>
+    <message>
+        <source>Check again</source>
+        <translation>Gwiriañ en-dro</translation>
+    </message>
+    <message>
+        <source>%n things to look at</source>
+        <translation>%n dra da sellet</translation>
+    </message>
+    <message>
+        <source>Nothing to look at.</source>
+        <translation>Netra da sellet.</translation>
+    </message>
+    <message>
+        <source>Problem</source>
+        <translation>Kudenn</translation>
+    </message>
+    <message>
+        <source>To look at</source>
+        <translation>Da sellet</translation>
+    </message>
+    <message>
+        <source>Fine</source>
+        <translation>Mat</translation>
+    </message>
+    <message>
+        <source>Open the field</source>
+        <translation>Digeriñ ar vaezienn</translation>
+    </message>
+    <message>
+        <source>Show it on the page</source>
+        <translation>Diskouez war ar bajenn</translation>
+    </message>
+    <message>
+        <source>SEO</source>
+        <translation>SEO</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Boest-degemer</translation>
     </message>

@@ -592,6 +592,122 @@
         <translation>Where visitors came from is not recorded on this installation.</translation>
     </message>
     <message>
+        <source>The page has no title.</source>
+        <translation>The page has no title.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters; 30 to 60 fit search results.</source>
+        <translation>The title has %n characters; 30 to 60 fit search results.</translation>
+    </message>
+    <message>
+        <source>The title has %n characters.</source>
+        <translation>The title has %n characters.</translation>
+    </message>
+    <message>
+        <source>The page has no description.</source>
+        <translation>The page has no description.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters; 70 to 160 fit search results.</source>
+        <translation>The description has %n characters; 70 to 160 fit search results.</translation>
+    </message>
+    <message>
+        <source>The description has %n characters.</source>
+        <translation>The description has %n characters.</translation>
+    </message>
+    <message>
+        <source>The page has no main heading (h1).</source>
+        <translation>The page has no main heading (h1).</translation>
+    </message>
+    <message>
+        <source>The page has %n main headings (h1); one is best.</source>
+        <translation>The page has %n main headings (h1); one is best.</translation>
+    </message>
+    <message>
+        <source>A heading jumps from level %from to level %to.</source>
+        <translation>A heading jumps from level %from to level %to.</translation>
+    </message>
+    <message>
+        <source>The headings are in order.</source>
+        <translation>The headings are in order.</translation>
+    </message>
+    <message>
+        <source>An image has no alternative text.</source>
+        <translation>An image has no alternative text.</translation>
+    </message>
+    <message>
+        <source>Every image has an alternative text.</source>
+        <translation>Every image has an alternative text.</translation>
+    </message>
+    <message>
+        <source>The page names no canonical address.</source>
+        <translation>The page names no canonical address.</translation>
+    </message>
+    <message>
+        <source>The page names %n canonical addresses; one is right.</source>
+        <translation>The page names %n canonical addresses; one is right.</translation>
+    </message>
+    <message>
+        <source>The canonical address is another page: %url</source>
+        <translation>The canonical address is another page: %url</translation>
+    </message>
+    <message>
+        <source>The canonical address is this page.</source>
+        <translation>The canonical address is this page.</translation>
+    </message>
+    <message>
+        <source>Search engines are asked not to list this page (robots: %value).</source>
+        <translation>Search engines are asked not to list this page (robots: %value).</translation>
+    </message>
+    <message>
+        <source>A link leads nowhere: %url</source>
+        <translation>A link leads nowhere: %url</translation>
+    </message>
+    <message>
+        <source>All %n links checked on this page lead somewhere.</source>
+        <translation>All %n links checked on this page lead somewhere.</translation>
+    </message>
+    <message>
+        <source>Checking ...</source>
+        <translation>Checking ...</translation>
+    </message>
+    <message>
+        <source>Check again</source>
+        <translation>Check again</translation>
+    </message>
+    <message>
+        <source>%n things to look at</source>
+        <translation>%n things to look at</translation>
+    </message>
+    <message>
+        <source>Nothing to look at.</source>
+        <translation>Nothing to look at.</translation>
+    </message>
+    <message>
+        <source>Problem</source>
+        <translation>Problem</translation>
+    </message>
+    <message>
+        <source>To look at</source>
+        <translation>To look at</translation>
+    </message>
+    <message>
+        <source>Fine</source>
+        <translation>Fine</translation>
+    </message>
+    <message>
+        <source>Open the field</source>
+        <translation>Open the field</translation>
+    </message>
+    <message>
+        <source>Show it on the page</source>
+        <translation>Show it on the page</translation>
+    </message>
+    <message>
+        <source>SEO</source>
+        <translation>SEO</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Inbox</translation>
     </message>

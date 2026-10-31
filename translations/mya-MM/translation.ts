@@ -592,6 +592,122 @@
         <translation>ဧည့်သည်များ မည်သည့်နေရာမှ လာသည်ကို ဤထည့်သွင်းမှုတွင် မမှတ်တမ်းတင်ပါ။</translation>
     </message>
     <message>
+        <source>The page has no title.</source>
+        <translation>စာမျက်နှာတွင် ခေါင်းစဉ် မရှိပါ။</translation>
+    </message>
+    <message>
+        <source>The title has %n characters; 30 to 60 fit search results.</source>
+        <translation>ခေါင်းစဉ်တွင် စာလုံး %n လုံး ရှိသည်; ရှာဖွေမှုရလဒ်တွင် 30 မှ 60 အထိ ဆံ့သည်။</translation>
+    </message>
+    <message>
+        <source>The title has %n characters.</source>
+        <translation>ခေါင်းစဉ်တွင် စာလုံး %n လုံး ရှိသည်။</translation>
+    </message>
+    <message>
+        <source>The page has no description.</source>
+        <translation>စာမျက်နှာတွင် ဖော်ပြချက် မရှိပါ။</translation>
+    </message>
+    <message>
+        <source>The description has %n characters; 70 to 160 fit search results.</source>
+        <translation>ဖော်ပြချက်တွင် စာလုံး %n လုံး ရှိသည်; ရှာဖွေမှုရလဒ်တွင် 70 မှ 160 အထိ ဆံ့သည်။</translation>
+    </message>
+    <message>
+        <source>The description has %n characters.</source>
+        <translation>ဖော်ပြချက်တွင် စာလုံး %n လုံး ရှိသည်။</translation>
+    </message>
+    <message>
+        <source>The page has no main heading (h1).</source>
+        <translation>စာမျက်နှာတွင် အဓိကခေါင်းစီး (h1) မရှိပါ။</translation>
+    </message>
+    <message>
+        <source>The page has %n main headings (h1); one is best.</source>
+        <translation>စာမျက်နှာတွင် အဓိကခေါင်းစီး %n ခု (h1) ရှိသည်; တစ်ခုသာ အကောင်းဆုံး။</translation>
+    </message>
+    <message>
+        <source>A heading jumps from level %from to level %to.</source>
+        <translation>ခေါင်းစီးတစ်ခုသည် အဆင့် %from မှ အဆင့် %to သို့ ခုန်ကျော်သည်။</translation>
+    </message>
+    <message>
+        <source>The headings are in order.</source>
+        <translation>ခေါင်းစီးများ အစဉ်လိုက် ရှိသည်။</translation>
+    </message>
+    <message>
+        <source>An image has no alternative text.</source>
+        <translation>ပုံတစ်ပုံတွင် အစားထိုးစာသား မရှိပါ။</translation>
+    </message>
+    <message>
+        <source>Every image has an alternative text.</source>
+        <translation>ပုံတိုင်းတွင် အစားထိုးစာသား ရှိသည်။</translation>
+    </message>
+    <message>
+        <source>The page names no canonical address.</source>
+        <translation>စာမျက်နှာသည် canonical လိပ်စာ မဖော်ပြပါ။</translation>
+    </message>
+    <message>
+        <source>The page names %n canonical addresses; one is right.</source>
+        <translation>စာမျက်နှာသည် canonical လိပ်စာ %n ခု ဖော်ပြသည်; တစ်ခုသာ မှန်သည်။</translation>
+    </message>
+    <message>
+        <source>The canonical address is another page: %url</source>
+        <translation>canonical လိပ်စာမှာ အခြားစာမျက်နှာ ဖြစ်သည်: %url</translation>
+    </message>
+    <message>
+        <source>The canonical address is this page.</source>
+        <translation>canonical လိပ်စာမှာ ဤစာမျက်နှာ ဖြစ်သည်။</translation>
+    </message>
+    <message>
+        <source>Search engines are asked not to list this page (robots: %value).</source>
+        <translation>ဤစာမျက်နှာကို စာရင်းမသွင်းရန် ရှာဖွေရေးအင်ဂျင်များကို တောင်းဆိုထားသည် (robots: %value)။</translation>
+    </message>
+    <message>
+        <source>A link leads nowhere: %url</source>
+        <translation>လင့်ခ်တစ်ခုသည် မည်သည့်နေရာသို့မျှ မရောက်ပါ: %url</translation>
+    </message>
+    <message>
+        <source>All %n links checked on this page lead somewhere.</source>
+        <translation>ဤစာမျက်နှာတွင် စစ်ဆေးခဲ့သော လင့်ခ် %n ခုလုံး တစ်နေရာရာသို့ ရောက်သည်။</translation>
+    </message>
+    <message>
+        <source>Checking ...</source>
+        <translation>စစ်ဆေးနေသည် ...</translation>
+    </message>
+    <message>
+        <source>Check again</source>
+        <translation>ထပ်မံစစ်ဆေးရန်</translation>
+    </message>
+    <message>
+        <source>%n things to look at</source>
+        <translation>ကြည့်ရန် %n ချက်</translation>
+    </message>
+    <message>
+        <source>Nothing to look at.</source>
+        <translation>ကြည့်ရန် မရှိပါ။</translation>
+    </message>
+    <message>
+        <source>Problem</source>
+        <translation>ပြဿနာ</translation>
+    </message>
+    <message>
+        <source>To look at</source>
+        <translation>ကြည့်ရန်</translation>
+    </message>
+    <message>
+        <source>Fine</source>
+        <translation>ကောင်းသည်</translation>
+    </message>
+    <message>
+        <source>Open the field</source>
+        <translation>အကွက်ကို ဖွင့်ရန်</translation>
+    </message>
+    <message>
+        <source>Show it on the page</source>
+        <translation>စာမျက်နှာပေါ်တွင် ပြရန်</translation>
+    </message>
+    <message>
+        <source>SEO</source>
+        <translation>SEO</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>ဝင်စာ</translation>
     </message>
