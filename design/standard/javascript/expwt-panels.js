@@ -454,6 +454,10 @@
           el.removeAttribute('data-expwt-field');
           el.removeAttribute('data-expwt-hl');
           el.removeEventListener('input', el.expwtInput);
+          el.removeEventListener('click', el.expwtInput);
+          el.removeEventListener('keydown', el.expwtInput);
+          (el.expwtAdded || []).forEach(function (name) { el.removeAttribute(name); });
+          el.expwtAdded = null;
         });
       });
       placed = {};
@@ -461,6 +465,30 @@
       if (!on) { return; }
       var count = 0;
       p.fields.forEach(function (f) {
+        if (f.embed && rows[f.identifier]) {
+          /* a field in its own editor (rich text ...), marked by the kernel on the page: a click opens its editor */
+          fieldMarkers(p.objectId, f.identifier).forEach(function (range) {
+            var el = markedTarget(range, { input: 'richtext' });
+            if (!el) { return; }
+            count++;
+            (placed[f.identifier] = placed[f.identifier] || []).push(el);
+            el.setAttribute('data-expwt-field', f.identifier);
+            /* the page's element answers to the keyboard while editing on the page is on; taken off again after */
+            el.expwtAdded = ['tabindex', 'role', 'aria-label'].filter(function (name) { return !el.hasAttribute(name); });
+            el.expwtAdded.forEach(function (name) {
+              el.setAttribute(name, { tabindex: '0', role: 'button', 'aria-label': t('Edit') + ': ' + f.name }[name]);
+            });
+            el.expwtInput = function (e) {
+              if (e.type === 'keydown' && e.key !== 'Enter' && e.key !== ' ') { return; }
+              e.preventDefault();
+              var btn = rows[f.identifier].querySelector('.wt-row button');
+              if (!editing || editing.field !== f) { openEditor(f, rows[f.identifier], btn); }
+            };
+            el.addEventListener('click', el.expwtInput);
+            el.addEventListener('keydown', el.expwtInput);
+          });
+          return;
+        }
         if (!f.inline || !f.editable) { return; }
         var els = findOnPage(f);
         if (!els.length) { return; }

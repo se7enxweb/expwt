@@ -110,6 +110,14 @@ class expwtAssetsTest extends PHPUnit\Framework\TestCase
         $this->assertSame( 280, expwtSettings::fromArray( array() )['default_height'] );
     }
 
+    public function testEditingOnThePageUsesTheKernelsFieldMarkersFirst()
+    {
+        $panels = file_get_contents( self::ext() . '/design/standard/javascript/expwt-panels.js' );
+        $this->assertStringContainsString( "text.indexOf('exp-field ') === 0", $panels, 'F20: the kernel\'s <!--exp-field ...--> comments' );
+        $this->assertStringContainsString( 'return els.length ? els : findByValue(f);', $panels, 'by value where there are no markers' );
+        $this->assertStringContainsString( 'openEditor(f, rows[f.identifier], btn)', $panels, 'a marked rich text opens its own editor' );
+    }
+
     public function testClosedTabWithinItsBudget()
     {
         $bytes = strlen( gzencode( file_get_contents( self::ext() . '/design/standard/javascript/expwt.js' ), 9 ) )
