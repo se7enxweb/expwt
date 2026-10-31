@@ -374,6 +374,15 @@
       this.setAttribute('data-editing', this.editOn ? 'true' : 'false');
       this.pill.hidden = !EditState.pillShown(this.editOn, this.state.open, this.overlay()) || !this.sheet.hidden;
       this.placePill();
+      /* a bar that comes later (the debug bar, a cookie dialog shown after a delay): measured again while shown */
+      var self = this;
+      var shown = !this.pill.hidden || !this.sheet.hidden;
+      if (shown && !this.pillTimer) {
+        this.pillTimer = setInterval(function () { self.placePill(); }, 1000);
+      } else if (!shown && this.pillTimer) {
+        clearInterval(this.pillTimer);
+        this.pillTimer = null;
+      }
     }
 
     /* The pill stays clear of what is fixed at the window's bottom (a cookie bar, the debug bar, the bottom tab):
