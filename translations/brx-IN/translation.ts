@@ -136,6 +136,10 @@
         <translation>आबुं सुजुगिरि</translation>
     </message>
     <message>
+        <source>Edit</source>
+        <translation>सोलायथाय</translation>
+    </message>
+    <message>
         <source>required</source>
         <translation>गोनांथार</translation>
     </message>
@@ -172,12 +176,16 @@
         <translation>खस्रा गार</translation>
     </message>
     <message>
-        <source>Saving ...</source>
-        <translation>दोनगासिनो दं ...</translation>
+        <source>Cancel</source>
+        <translation>बन्द</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
         <translation>खस्राखौ दोनजादों।</translation>
+    </message>
+    <message>
+        <source>Saving ...</source>
+        <translation>दोनगासिनो दं ...</translation>
     </message>
     <message>
         <source>Someone else changed these fields in the meantime. Choose for each field which text to keep, then save again.</source>
@@ -236,36 +244,12 @@
         <translation>मोनसे फारिबो बे बिलाइखानायाव बेबादिनो नुथाङा; फर्मखौ बाहायदो।</translation>
     </message>
     <message>
-        <source>Address of the link</source>
-        <translation>लिंकनि थावनि</translation>
-    </message>
-    <message>
-        <source>Text format</source>
-        <translation>लिरबिदांनि फरमेट</translation>
-    </message>
-    <message>
-        <source>Bold</source>
-        <translation>गेजेर</translation>
-    </message>
-    <message>
-        <source>Italic</source>
-        <translation>बेंखा</translation>
-    </message>
-    <message>
-        <source>List</source>
-        <translation>बिहुं</translation>
-    </message>
-    <message>
-        <source>Link</source>
-        <translation>लिंक</translation>
-    </message>
-    <message>
         <source>Yes</source>
         <translation>नंगौ</translation>
     </message>
     <message>
-        <source>In the text form of the field (values parted by |).</source>
-        <translation>फारिनि लिरबिदां महराव (बेसेनफोरखौ | जों आलादा खालामनानै)।</translation>
+        <source>Text of the link</source>
+        <translation>लिंकनि लिरनाय</translation>
     </message>
     <message>
         <source>You may not create anything here.</source>
@@ -370,10 +354,6 @@
     <message>
         <source>Add "%name" also below ...</source>
         <translation>"%name" खौ ... नि सिङावबो दाजाब</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>बन्द</translation>
     </message>
     <message>
         <source>In: %name</source>
@@ -494,10 +474,6 @@
     <message>
         <source>Menu</source>
         <translation>मेनु</translation>
-    </message>
-    <message>
-        <source>Edit</source>
-        <translation>सोलायथाय</translation>
     </message>
     <message>
         <source>Arrow keys move it, Enter opens it.</source>

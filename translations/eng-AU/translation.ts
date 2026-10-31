@@ -136,6 +136,10 @@
         <translation>Full editor</translation>
     </message>
     <message>
+        <source>Edit</source>
+        <translation>Edit</translation>
+    </message>
+    <message>
         <source>required</source>
         <translation>required</translation>
     </message>
@@ -172,12 +176,16 @@
         <translation>Discard draft</translation>
     </message>
     <message>
-        <source>Saving ...</source>
-        <translation>Saving ...</translation>
+        <source>Cancel</source>
+        <translation>Cancel</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
         <translation>The draft is saved.</translation>
+    </message>
+    <message>
+        <source>Saving ...</source>
+        <translation>Saving ...</translation>
     </message>
     <message>
         <source>Someone else changed these fields in the meantime. Choose for each field which text to keep, then save again.</source>
@@ -236,36 +244,12 @@
         <translation>None of the fields shows on this page as it is; use the form.</translation>
     </message>
     <message>
-        <source>Address of the link</source>
-        <translation>Address of the link</translation>
-    </message>
-    <message>
-        <source>Text format</source>
-        <translation>Text format</translation>
-    </message>
-    <message>
-        <source>Bold</source>
-        <translation>Bold</translation>
-    </message>
-    <message>
-        <source>Italic</source>
-        <translation>Italic</translation>
-    </message>
-    <message>
-        <source>List</source>
-        <translation>List</translation>
-    </message>
-    <message>
-        <source>Link</source>
-        <translation>Link</translation>
-    </message>
-    <message>
         <source>Yes</source>
         <translation>Yes</translation>
     </message>
     <message>
-        <source>In the text form of the field (values parted by |).</source>
-        <translation>In the text form of the field (values separated by |).</translation>
+        <source>Text of the link</source>
+        <translation>Text of the link</translation>
     </message>
     <message>
         <source>You may not create anything here.</source>
@@ -370,10 +354,6 @@
     <message>
         <source>Add "%name" also below ...</source>
         <translation>Add “%name” also below ...</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>Cancel</translation>
     </message>
     <message>
         <source>In: %name</source>
@@ -494,10 +474,6 @@
     <message>
         <source>Menu</source>
         <translation>Menu</translation>
-    </message>
-    <message>
-        <source>Edit</source>
-        <translation>Edit</translation>
     </message>
     <message>
         <source>Arrow keys move it, Enter opens it.</source>

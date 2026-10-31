@@ -136,6 +136,10 @@
         <translation>पूर्ण सम्पादक</translation>
     </message>
     <message>
+        <source>Edit</source>
+        <translation>सम्पादन</translation>
+    </message>
+    <message>
         <source>required</source>
         <translation>आवश्यक</translation>
     </message>
@@ -172,12 +176,16 @@
         <translation>मस्यौदा खारेज गर्नुहोस्</translation>
     </message>
     <message>
-        <source>Saving ...</source>
-        <translation>सुरक्षित हुँदैछ ...</translation>
+        <source>Cancel</source>
+        <translation>रद्द गर्नुहोस्</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
         <translation>मस्यौदा सुरक्षित भयो।</translation>
+    </message>
+    <message>
+        <source>Saving ...</source>
+        <translation>सुरक्षित हुँदैछ ...</translation>
     </message>
     <message>
         <source>Someone else changed these fields in the meantime. Choose for each field which text to keep, then save again.</source>
@@ -236,36 +244,12 @@
         <translation>हालको अवस्थामा कुनै पनि फिल्ड यो पृष्ठमा देखिँदैन; फारम प्रयोग गर्नुहोस्।</translation>
     </message>
     <message>
-        <source>Address of the link</source>
-        <translation>लिङ्कको ठेगाना</translation>
-    </message>
-    <message>
-        <source>Text format</source>
-        <translation>पाठ ढाँचा</translation>
-    </message>
-    <message>
-        <source>Bold</source>
-        <translation>बाक्लो</translation>
-    </message>
-    <message>
-        <source>Italic</source>
-        <translation>इटालिक</translation>
-    </message>
-    <message>
-        <source>List</source>
-        <translation>सूची</translation>
-    </message>
-    <message>
-        <source>Link</source>
-        <translation>लिङ्क</translation>
-    </message>
-    <message>
         <source>Yes</source>
         <translation>हो</translation>
     </message>
     <message>
-        <source>In the text form of the field (values parted by |).</source>
-        <translation>फिल्डको पाठ रूपमा (मानहरू | ले छुट्याइएका)।</translation>
+        <source>Text of the link</source>
+        <translation>लिङ्कको पाठ</translation>
     </message>
     <message>
         <source>You may not create anything here.</source>
@@ -370,10 +354,6 @@
     <message>
         <source>Add "%name" also below ...</source>
         <translation>"%name" लाई यसमुनि पनि थप्नुहोस् ...</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>रद्द गर्नुहोस्</translation>
     </message>
     <message>
         <source>In: %name</source>
@@ -494,10 +474,6 @@
     <message>
         <source>Menu</source>
         <translation>मेनु</translation>
-    </message>
-    <message>
-        <source>Edit</source>
-        <translation>सम्पादन</translation>
     </message>
     <message>
         <source>Arrow keys move it, Enter opens it.</source>

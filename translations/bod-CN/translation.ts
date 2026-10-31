@@ -136,6 +136,10 @@
         <translation>རྩོམ་སྒྲིག་ཆས་ཆ་ཚང་།</translation>
     </message>
     <message>
+        <source>Edit</source>
+        <translation>རྩོམ་སྒྲིག</translation>
+    </message>
+    <message>
         <source>required</source>
         <translation>དགོས་ངེས།</translation>
     </message>
@@ -172,12 +176,16 @@
         <translation>ཟིན་བྲིས་དོར།</translation>
     </message>
     <message>
-        <source>Saving ...</source>
-        <translation>ཉར་བཞིན་པ ...</translation>
+        <source>Cancel</source>
+        <translation>ཕྱིར་འཐེན།</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
         <translation>ཟིན་བྲིས་ཉར་ཟིན།</translation>
+    </message>
+    <message>
+        <source>Saving ...</source>
+        <translation>ཉར་བཞིན་པ ...</translation>
     </message>
     <message>
         <source>Someone else changed these fields in the meantime. Choose for each field which text to keep, then save again.</source>
@@ -236,36 +244,12 @@
         <translation>ཡིག་སྒམ་གང་ཡང་ཤོག་ངོས་འདིར་ཇི་བཞིན་མི་མངོན། རེའུ་མིག་བེད་སྤྱོད་གནང་།</translation>
     </message>
     <message>
-        <source>Address of the link</source>
-        <translation>སྦྲེལ་མཐུད་ཀྱི་ཁ་བྱང་།</translation>
-    </message>
-    <message>
-        <source>Text format</source>
-        <translation>ཡི་གེའི་རྣམ་གཞག</translation>
-    </message>
-    <message>
-        <source>Bold</source>
-        <translation>སྦོམ།</translation>
-    </message>
-    <message>
-        <source>Italic</source>
-        <translation>གསེག</translation>
-    </message>
-    <message>
-        <source>List</source>
-        <translation>ཐོ།</translation>
-    </message>
-    <message>
-        <source>Link</source>
-        <translation>སྦྲེལ་མཐུད།</translation>
-    </message>
-    <message>
         <source>Yes</source>
         <translation>ཡིན།</translation>
     </message>
     <message>
-        <source>In the text form of the field (values parted by |).</source>
-        <translation>ཡིག་སྒམ་གྱི་ཡི་གེའི་རྣམ་པ་ལ། (གྲངས་ཐང་|ཡིས་ཁ་གྱེས།)</translation>
+        <source>Text of the link</source>
+        <translation>སྦྲེལ་མཐུད་ཀྱི་ཡི་གེ།</translation>
     </message>
     <message>
         <source>You may not create anything here.</source>
@@ -370,10 +354,6 @@
     <message>
         <source>Add "%name" also below ...</source>
         <translation>"%name" ...འོག་ཏུའང་སྣོན།</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>ཕྱིར་འཐེན།</translation>
     </message>
     <message>
         <source>In: %name</source>
@@ -494,10 +474,6 @@
     <message>
         <source>Menu</source>
         <translation>ཐོ་གཞུང་།</translation>
-    </message>
-    <message>
-        <source>Edit</source>
-        <translation>རྩོམ་སྒྲིག</translation>
     </message>
     <message>
         <source>Arrow keys move it, Enter opens it.</source>

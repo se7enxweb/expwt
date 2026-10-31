@@ -136,6 +136,10 @@
         <translation>पूरा संपादक</translation>
     </message>
     <message>
+        <source>Edit</source>
+        <translation>संपादन करो</translation>
+    </message>
+    <message>
         <source>required</source>
         <translation>जरूरी</translation>
     </message>
@@ -172,12 +176,16 @@
         <translation>मसौदा छोड़ो</translation>
     </message>
     <message>
-        <source>Saving ...</source>
-        <translation>सेव होआ करदा ऐ ...</translation>
+        <source>Cancel</source>
+        <translation>रद्द करो</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
         <translation>मसौदा सेव होई गेआ।</translation>
+    </message>
+    <message>
+        <source>Saving ...</source>
+        <translation>सेव होआ करदा ऐ ...</translation>
     </message>
     <message>
         <source>Someone else changed these fields in the meantime. Choose for each field which text to keep, then save again.</source>
@@ -236,36 +244,12 @@
         <translation>कोई बी खाना इस पन्ने पर जि'यां ऐ उ'आं नेईं दिखदा; फ़ॉर्म बरतो।</translation>
     </message>
     <message>
-        <source>Address of the link</source>
-        <translation>लिंक दा पता</translation>
-    </message>
-    <message>
-        <source>Text format</source>
-        <translation>लिखत दा फ़ॉर्मेट</translation>
-    </message>
-    <message>
-        <source>Bold</source>
-        <translation>मोटा</translation>
-    </message>
-    <message>
-        <source>Italic</source>
-        <translation>तिरछा</translation>
-    </message>
-    <message>
-        <source>List</source>
-        <translation>सूची</translation>
-    </message>
-    <message>
-        <source>Link</source>
-        <translation>लिंक</translation>
-    </message>
-    <message>
         <source>Yes</source>
         <translation>हां</translation>
     </message>
     <message>
-        <source>In the text form of the field (values parted by |).</source>
-        <translation>खाने दे लिखती रूप च (मुल्ल | कन्नै बक्ख)।</translation>
+        <source>Text of the link</source>
+        <translation>लिंक दा पाठ</translation>
     </message>
     <message>
         <source>You may not create anything here.</source>
@@ -370,10 +354,6 @@
     <message>
         <source>Add "%name" also below ...</source>
         <translation>"%name" गी ... दे हेठ बी जोड़ो</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>रद्द करो</translation>
     </message>
     <message>
         <source>In: %name</source>
@@ -494,10 +474,6 @@
     <message>
         <source>Menu</source>
         <translation>मेन्यू</translation>
-    </message>
-    <message>
-        <source>Edit</source>
-        <translation>संपादन करो</translation>
     </message>
     <message>
         <source>Arrow keys move it, Enter opens it.</source>

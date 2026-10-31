@@ -136,6 +136,10 @@
         <translation>Editeur mobimba</translation>
     </message>
     <message>
+        <source>Edit</source>
+        <translation>Bongisá</translation>
+    </message>
+    <message>
         <source>required</source>
         <translation>esengeli</translation>
     </message>
@@ -172,12 +176,16 @@
         <translation>Bwakisá brouillon</translation>
     </message>
     <message>
-        <source>Saving ...</source>
-        <translation>Ezali kobómbama...</translation>
+        <source>Cancel</source>
+        <translation>Tiká</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
         <translation>Brouillon ebómbami.</translation>
+    </message>
+    <message>
+        <source>Saving ...</source>
+        <translation>Ezali kobómbama...</translation>
     </message>
     <message>
         <source>Someone else changed these fields in the meantime. Choose for each field which text to keep, then save again.</source>
@@ -236,36 +244,12 @@
         <translation>Ata esika moko te emonani na lokasa oyo ndenge ezali; salelá formulaire.</translation>
     </message>
     <message>
-        <source>Address of the link</source>
-        <translation>Adrɛsi ya lien</translation>
-    </message>
-    <message>
-        <source>Text format</source>
-        <translation>Lolenge ya maloba</translation>
-    </message>
-    <message>
-        <source>Bold</source>
-        <translation>Makasi</translation>
-    </message>
-    <message>
-        <source>Italic</source>
-        <translation>Engumbameli</translation>
-    </message>
-    <message>
-        <source>List</source>
-        <translation>Liste</translation>
-    </message>
-    <message>
-        <source>Link</source>
-        <translation>Lien</translation>
-    </message>
-    <message>
         <source>Yes</source>
         <translation>ɛɛ</translation>
     </message>
     <message>
-        <source>In the text form of the field (values parted by |).</source>
-        <translation>Na lolenge ya maloba ya esika (mituya ekabolami na |).</translation>
+        <source>Text of the link</source>
+        <translation>Makomi ya lien</translation>
     </message>
     <message>
         <source>You may not create anything here.</source>
@@ -370,10 +354,6 @@
     <message>
         <source>Add "%name" also below ...</source>
         <translation>Bakisá "%name" lisusu na nse ya...</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>Tiká</translation>
     </message>
     <message>
         <source>In: %name</source>
@@ -494,10 +474,6 @@
     <message>
         <source>Menu</source>
         <translation>Menu</translation>
-    </message>
-    <message>
-        <source>Edit</source>
-        <translation>Bongisá</translation>
     </message>
     <message>
         <source>Arrow keys move it, Enter opens it.</source>

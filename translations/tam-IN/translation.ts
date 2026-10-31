@@ -136,6 +136,10 @@
         <translation>முழு திருத்தி</translation>
     </message>
     <message>
+        <source>Edit</source>
+        <translation>திருத்து</translation>
+    </message>
+    <message>
         <source>required</source>
         <translation>தேவை</translation>
     </message>
@@ -172,12 +176,16 @@
         <translation>வரைவை நிராகரி</translation>
     </message>
     <message>
-        <source>Saving ...</source>
-        <translation>சேமிக்கிறது ...</translation>
+        <source>Cancel</source>
+        <translation>ரத்துசெய்</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
         <translation>வரைவு சேமிக்கப்பட்டது.</translation>
+    </message>
+    <message>
+        <source>Saving ...</source>
+        <translation>சேமிக்கிறது ...</translation>
     </message>
     <message>
         <source>Someone else changed these fields in the meantime. Choose for each field which text to keep, then save again.</source>
@@ -236,36 +244,12 @@
         <translation>எந்தப் புலமும் இந்தப் பக்கத்தில் அப்படியே காட்டப்படவில்லை; படிவத்தைப் பயன்படுத்துங்கள்.</translation>
     </message>
     <message>
-        <source>Address of the link</source>
-        <translation>இணைப்பின் முகவரி</translation>
-    </message>
-    <message>
-        <source>Text format</source>
-        <translation>உரை வடிவம்</translation>
-    </message>
-    <message>
-        <source>Bold</source>
-        <translation>தடிமன்</translation>
-    </message>
-    <message>
-        <source>Italic</source>
-        <translation>சாய்வு</translation>
-    </message>
-    <message>
-        <source>List</source>
-        <translation>பட்டியல்</translation>
-    </message>
-    <message>
-        <source>Link</source>
-        <translation>இணைப்பு</translation>
-    </message>
-    <message>
         <source>Yes</source>
         <translation>ஆம்</translation>
     </message>
     <message>
-        <source>In the text form of the field (values parted by |).</source>
-        <translation>புலத்தின் உரை வடிவில் (மதிப்புகள் | மூலம் பிரிக்கப்பட்டவை).</translation>
+        <source>Text of the link</source>
+        <translation>இணைப்பின் உரை</translation>
     </message>
     <message>
         <source>You may not create anything here.</source>
@@ -370,10 +354,6 @@
     <message>
         <source>Add "%name" also below ...</source>
         <translation>"%name" ஐ இதன் கீழும் சேர் ...</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>ரத்துசெய்</translation>
     </message>
     <message>
         <source>In: %name</source>
@@ -494,10 +474,6 @@
     <message>
         <source>Menu</source>
         <translation>பட்டி</translation>
-    </message>
-    <message>
-        <source>Edit</source>
-        <translation>திருத்து</translation>
     </message>
     <message>
         <source>Arrow keys move it, Enter opens it.</source>

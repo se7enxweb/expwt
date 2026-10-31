@@ -136,6 +136,10 @@
         <translation>Editor complet</translation>
     </message>
     <message>
+        <source>Edit</source>
+        <translation>Editați</translation>
+    </message>
+    <message>
         <source>required</source>
         <translation>obligatoriu</translation>
     </message>
@@ -172,12 +176,16 @@
         <translation>Renunțați la ciornă</translation>
     </message>
     <message>
-        <source>Saving ...</source>
-        <translation>Se salvează ...</translation>
+        <source>Cancel</source>
+        <translation>Anulați</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
         <translation>Ciorna a fost salvată.</translation>
+    </message>
+    <message>
+        <source>Saving ...</source>
+        <translation>Se salvează ...</translation>
     </message>
     <message>
         <source>Someone else changed these fields in the meantime. Choose for each field which text to keep, then save again.</source>
@@ -236,36 +244,12 @@
         <translation>Niciunul dintre câmpuri nu apare pe această pagină în forma actuală; folosiți formularul.</translation>
     </message>
     <message>
-        <source>Address of the link</source>
-        <translation>Adresa linkului</translation>
-    </message>
-    <message>
-        <source>Text format</source>
-        <translation>Formatul textului</translation>
-    </message>
-    <message>
-        <source>Bold</source>
-        <translation>Aldin</translation>
-    </message>
-    <message>
-        <source>Italic</source>
-        <translation>Cursiv</translation>
-    </message>
-    <message>
-        <source>List</source>
-        <translation>Listă</translation>
-    </message>
-    <message>
-        <source>Link</source>
-        <translation>Link</translation>
-    </message>
-    <message>
         <source>Yes</source>
         <translation>Da</translation>
     </message>
     <message>
-        <source>In the text form of the field (values parted by |).</source>
-        <translation>În forma text a câmpului (valori separate prin |).</translation>
+        <source>Text of the link</source>
+        <translation>Textul linkului</translation>
     </message>
     <message>
         <source>You may not create anything here.</source>
@@ -370,10 +354,6 @@
     <message>
         <source>Add "%name" also below ...</source>
         <translation>Adăugați „%name” și sub ...</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>Anulați</translation>
     </message>
     <message>
         <source>In: %name</source>
@@ -494,10 +474,6 @@
     <message>
         <source>Menu</source>
         <translation>Meniu</translation>
-    </message>
-    <message>
-        <source>Edit</source>
-        <translation>Editați</translation>
     </message>
     <message>
         <source>Arrow keys move it, Enter opens it.</source>

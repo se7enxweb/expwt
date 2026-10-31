@@ -101,6 +101,30 @@ diese Seite seit 10:42" und können sie übernehmen. Speichern beide trotzdem, g
 geändert hat, werden zusammengeführt, und bei einem Feld, das beide verschieden geändert haben, wählt der zweite je Feld,
 welcher Text bleibt.
 
+## Felder und ihre Editoren
+
+Der Bereich „Seite" bearbeitet jedes Feld mit dem Editor, den die Administration für seinen Datentyp hat; er zeigt nie
+ein Feld in der Textform seiner Speicherung.
+
+| Datentyp | Editor in der Seitenleiste |
+|---|---|
+| ezstring, eztext, ezinteger, ezfloat, ezprice, ezemail | ein Eingabefeld des Formulars (Text auch auf der Seite selbst) |
+| ezboolean, ezselection, ezdate, ezdatetime, eztime | ein Kontrollkästchen, eine Auswahl, eine Datums- oder Zeiteingabe |
+| ezurl | zwei Eingaben: die Adresse und der Text des Links |
+| ezkeyword | eine Eingabe mit den Schlagwörtern, durch Kommas getrennt |
+| ezxmltext | der Rich-Text-Editor der Installation (ezoe mit TinyMCE 8 oder exp_oe_tiptap) mit seiner Werkzeugleiste, eigenen Tags, Einbettungen und dem Durchsuchen nach Links und Objekten |
+| eztags | die eztags-Auswahl (Vorschläge, Baum, Chips; ihre Grenzen für Teilbaum und Anzahl) |
+| ezobjectrelation, ezobjectrelationlist | die Bearbeitung des Datentyps (Objekte durchsuchen) |
+| ezimage, ezbinaryfile, ezmedia | das Hochladen und die Felder des Datentyps (Alternativtext ...) |
+| xrowmetadata, ezgmaplocation, ezmatrix, alle anderen | die eigene Bearbeitungsvorlage des Datentyps |
+
+Die Felder der zweiten Hälfte öffnen ihren Editor mit **Bearbeiten**: links und rechts unter dem Feld, oben und unten
+über der Leiste (die dafür höher wird). Der Editor ist die Ansicht `expwt/field/<Objekt>/<Version>/<Sprache>/<Feld>`
+in einem Rahmen: das `{attribute_edit_gui}` des Kernels für dieses Feld des Entwurfs des Benutzers, gespeichert mit
+denselben Schritten wie content/edit (Prüfung, die Eingabe des Datentyps, seine eigenen Aktionen, der Name des
+Objekts). Gespeichert wird also, was die Administration für dieselbe Eingabe speichert. Ein Editor nimmt den neuesten
+Entwurf des Benutzers in der Sprache oder legt einen an, wie „Bearbeiten" in der Administration.
+
 ## Policies
 
 | Policy | Erlaubt |

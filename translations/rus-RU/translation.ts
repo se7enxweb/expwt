@@ -136,6 +136,10 @@
         <translation>Полный редактор</translation>
     </message>
     <message>
+        <source>Edit</source>
+        <translation>Редактировать</translation>
+    </message>
+    <message>
         <source>required</source>
         <translation>обязательно</translation>
     </message>
@@ -172,12 +176,16 @@
         <translation>Удалить черновик</translation>
     </message>
     <message>
-        <source>Saving ...</source>
-        <translation>Сохранение ...</translation>
+        <source>Cancel</source>
+        <translation>Отмена</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
         <translation>Черновик сохранён.</translation>
+    </message>
+    <message>
+        <source>Saving ...</source>
+        <translation>Сохранение ...</translation>
     </message>
     <message>
         <source>Someone else changed these fields in the meantime. Choose for each field which text to keep, then save again.</source>
@@ -236,36 +244,12 @@
         <translation>Ни одно из полей не видно на этой странице в нынешнем виде; используйте форму.</translation>
     </message>
     <message>
-        <source>Address of the link</source>
-        <translation>Адрес ссылки</translation>
-    </message>
-    <message>
-        <source>Text format</source>
-        <translation>Формат текста</translation>
-    </message>
-    <message>
-        <source>Bold</source>
-        <translation>Жирный</translation>
-    </message>
-    <message>
-        <source>Italic</source>
-        <translation>Курсив</translation>
-    </message>
-    <message>
-        <source>List</source>
-        <translation>Список</translation>
-    </message>
-    <message>
-        <source>Link</source>
-        <translation>Ссылка</translation>
-    </message>
-    <message>
         <source>Yes</source>
         <translation>Да</translation>
     </message>
     <message>
-        <source>In the text form of the field (values parted by |).</source>
-        <translation>В текстовом виде поля (значения разделены знаком |).</translation>
+        <source>Text of the link</source>
+        <translation>Текст ссылки</translation>
     </message>
     <message>
         <source>You may not create anything here.</source>
@@ -370,10 +354,6 @@
     <message>
         <source>Add "%name" also below ...</source>
         <translation>Добавить «%name» также под ...</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>Отмена</translation>
     </message>
     <message>
         <source>In: %name</source>
@@ -494,10 +474,6 @@
     <message>
         <source>Menu</source>
         <translation>Меню</translation>
-    </message>
-    <message>
-        <source>Edit</source>
-        <translation>Редактировать</translation>
     </message>
     <message>
         <source>Arrow keys move it, Enter opens it.</source>

@@ -136,6 +136,10 @@
         <translation>naQ choHwI'</translation>
     </message>
     <message>
+        <source>Edit</source>
+        <translation>yIchoH</translation>
+    </message>
+    <message>
         <source>required</source>
         <translation>poQlu'</translation>
     </message>
@@ -172,12 +176,16 @@
         <translation>nab yIwoD</translation>
     </message>
     <message>
-        <source>Saving ...</source>
-        <translation>poltaH ...</translation>
+        <source>Cancel</source>
+        <translation>yIqIl</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
         <translation>nab pollu'pu'.</translation>
+    </message>
+    <message>
+        <source>Saving ...</source>
+        <translation>poltaH ...</translation>
     </message>
     <message>
         <source>Someone else changed these fields in the meantime. Choose for each field which text to keep, then save again.</source>
@@ -236,36 +244,12 @@
         <translation>navvamDaq tlhegh pagh 'anglu'; mu'tlheghmey 'ay' yIlo'.</translation>
     </message>
     <message>
-        <source>Address of the link</source>
-        <translation>rarwI' Daq</translation>
-    </message>
-    <message>
-        <source>Text format</source>
-        <translation>ghItlh mIw</translation>
-    </message>
-    <message>
-        <source>Bold</source>
-        <translation>HoS</translation>
-    </message>
-    <message>
-        <source>Italic</source>
-        <translation>joq</translation>
-    </message>
-    <message>
-        <source>List</source>
-        <translation>tetlh</translation>
-    </message>
-    <message>
-        <source>Link</source>
-        <translation>rarwI'</translation>
-    </message>
-    <message>
         <source>Yes</source>
         <translation>HIja'</translation>
     </message>
     <message>
-        <source>In the text form of the field (values parted by |).</source>
-        <translation>tlhegh ghItlh mIwDaq (| mIllogh ghoSmeH chevlu').</translation>
+        <source>Text of the link</source>
+        <translation>rarwI' ghItlh</translation>
     </message>
     <message>
         <source>You may not create anything here.</source>
@@ -370,10 +354,6 @@
     <message>
         <source>Add "%name" also below ...</source>
         <translation>... bIng "%name" yIchel je</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>yIqIl</translation>
     </message>
     <message>
         <source>In: %name</source>
@@ -494,10 +474,6 @@
     <message>
         <source>Menu</source>
         <translation>HIDjolev</translation>
-    </message>
-    <message>
-        <source>Edit</source>
-        <translation>yIchoH</translation>
     </message>
     <message>
         <source>Arrow keys move it, Enter opens it.</source>

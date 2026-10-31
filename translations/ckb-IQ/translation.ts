@@ -136,6 +136,10 @@
         <translation>دەستکاریکەری تەواو</translation>
     </message>
     <message>
+        <source>Edit</source>
+        <translation>دەستکاری بکە</translation>
+    </message>
+    <message>
         <source>required</source>
         <translation>پێویستە</translation>
     </message>
@@ -172,12 +176,16 @@
         <translation>فڕێدانی ڕەشنووس</translation>
     </message>
     <message>
-        <source>Saving ...</source>
-        <translation>پاشەکەوت دەکرێت ...</translation>
+        <source>Cancel</source>
+        <translation>هەڵوەشاندنەوە</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
         <translation>ڕەشنووسەکە پاشەکەوت کرا.</translation>
+    </message>
+    <message>
+        <source>Saving ...</source>
+        <translation>پاشەکەوت دەکرێت ...</translation>
     </message>
     <message>
         <source>Someone else changed these fields in the meantime. Choose for each field which text to keep, then save again.</source>
@@ -236,36 +244,12 @@
         <translation>هیچ کام لە خانەکان وەک خۆی لەم پەڕەیەدا دەرناکەوێت؛ فۆڕمەکە بەکاربهێنە.</translation>
     </message>
     <message>
-        <source>Address of the link</source>
-        <translation>ناونیشانی بەستەر</translation>
-    </message>
-    <message>
-        <source>Text format</source>
-        <translation>شێوازی دەق</translation>
-    </message>
-    <message>
-        <source>Bold</source>
-        <translation>تۆخ</translation>
-    </message>
-    <message>
-        <source>Italic</source>
-        <translation>لار</translation>
-    </message>
-    <message>
-        <source>List</source>
-        <translation>لیست</translation>
-    </message>
-    <message>
-        <source>Link</source>
-        <translation>بەستەر</translation>
-    </message>
-    <message>
         <source>Yes</source>
         <translation>بەڵێ</translation>
     </message>
     <message>
-        <source>In the text form of the field (values parted by |).</source>
-        <translation>لە شێوەی دەقی خانەکەدا (بەهاکان بە | جیاکراونەتەوە).</translation>
+        <source>Text of the link</source>
+        <translation>دەقی بەستەر</translation>
     </message>
     <message>
         <source>You may not create anything here.</source>
@@ -370,10 +354,6 @@
     <message>
         <source>Add "%name" also below ...</source>
         <translation>زیادکردنی «%name» هەروەها لە ژێر ...</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>هەڵوەشاندنەوە</translation>
     </message>
     <message>
         <source>In: %name</source>
@@ -494,10 +474,6 @@
     <message>
         <source>Menu</source>
         <translation>لیستە</translation>
-    </message>
-    <message>
-        <source>Edit</source>
-        <translation>دەستکاری بکە</translation>
     </message>
     <message>
         <source>Arrow keys move it, Enter opens it.</source>

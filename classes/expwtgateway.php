@@ -219,32 +219,20 @@ class expwtGateway
             $kind = expwtFields::describe( $datatype, $multiple );
             if ( $kind['input'] === 'hidden' )
                 continue;
+            $shown = expwtFieldValue::of( $attribute, $kind['input'] );
             $out[] = array(
                 'identifier' => (string)$attribute->attribute( 'contentclass_attribute_identifier' ),
                 'name' => $classAttribute ? (string)$classAttribute->attribute( 'name' ) : '',
                 'datatype' => $datatype,
                 'required' => $classAttribute ? (bool)$classAttribute->attribute( 'is_required' ) : false,
-                'value' => $this->valueOf( $attribute, $kind['input'] ),
+                'value' => $shown['value'],
                 'options' => $options,
+                'names' => $shown['names'],
             ) + $kind;
         }
         return $out;
     }
 
-    /** @return string the value the sidebar shows and compares (expwtMerge) */
-    protected function valueOf( eZContentObjectAttribute $attribute, $input )
-    {
-        if ( $input === 'richtext' )
-        {
-            $content = $attribute->content();
-            $output = is_object( $content ) && $content->hasAttribute( 'output' ) ? $content->attribute( 'output' ) : null;
-            return is_object( $output ) && $output->hasAttribute( 'output_text' ) ? trim( (string)$output->attribute( 'output_text' ) ) : '';
-        }
-        if ( $input === 'full' || $input === 'image' )
-            return '';
-        $value = $attribute->toString();
-        return is_scalar( $value ) ? (string)$value : '';
-    }
 
     /**
      * Saves fields into the user's draft (made on the first save). When someone published a newer version since the

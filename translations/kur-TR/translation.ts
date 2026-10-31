@@ -136,6 +136,10 @@
         <translation>Edîtora tevahî</translation>
     </message>
     <message>
+        <source>Edit</source>
+        <translation>Sererast bike</translation>
+    </message>
+    <message>
         <source>required</source>
         <translation>pêwîst</translation>
     </message>
@@ -172,12 +176,16 @@
         <translation>Reşnivîsê bavêje</translation>
     </message>
     <message>
-        <source>Saving ...</source>
-        <translation>Tê tomarkirin...</translation>
+        <source>Cancel</source>
+        <translation>Betal</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
         <translation>Reşnivîs hat tomarkirin.</translation>
+    </message>
+    <message>
+        <source>Saving ...</source>
+        <translation>Tê tomarkirin...</translation>
     </message>
     <message>
         <source>Someone else changed these fields in the meantime. Choose for each field which text to keep, then save again.</source>
@@ -236,36 +244,12 @@
         <translation>Tu qad bi vî awayî li ser vê rûpelê nayê nîşandan; formê bi kar bîne.</translation>
     </message>
     <message>
-        <source>Address of the link</source>
-        <translation>Navnîşana girêdanê</translation>
-    </message>
-    <message>
-        <source>Text format</source>
-        <translation>Formata nivîsê</translation>
-    </message>
-    <message>
-        <source>Bold</source>
-        <translation>Qalind</translation>
-    </message>
-    <message>
-        <source>Italic</source>
-        <translation>Xwar</translation>
-    </message>
-    <message>
-        <source>List</source>
-        <translation>Lîste</translation>
-    </message>
-    <message>
-        <source>Link</source>
-        <translation>Girêdan</translation>
-    </message>
-    <message>
         <source>Yes</source>
         <translation>Erê</translation>
     </message>
     <message>
-        <source>In the text form of the field (values parted by |).</source>
-        <translation>Di forma nivîsê ya qadê de (nirx bi | têne veqetandin).</translation>
+        <source>Text of the link</source>
+        <translation>Nivîsa girêdanê</translation>
     </message>
     <message>
         <source>You may not create anything here.</source>
@@ -370,10 +354,6 @@
     <message>
         <source>Add "%name" also below ...</source>
         <translation>"%name" her wiha di bin vê de zêde bike...</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>Betal</translation>
     </message>
     <message>
         <source>In: %name</source>
@@ -494,10 +474,6 @@
     <message>
         <source>Menu</source>
         <translation>Menû</translation>
-    </message>
-    <message>
-        <source>Edit</source>
-        <translation>Sererast bike</translation>
     </message>
     <message>
         <source>Arrow keys move it, Enter opens it.</source>

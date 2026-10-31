@@ -577,6 +577,31 @@ a { color: var(--a4-accent-text); }
 .wt-field[data-dirty="true"] > span::after { content: " *"; color: var(--a4-accent-text); }
 .wt-field[data-highlight="true"] { outline: 2px dashed var(--a4-accent); outline-offset: var(--a4-space-1); }
 .wt-check { display: flex; align-items: center; gap: var(--a4-space-2); margin-block: var(--a4-space-2); }
+/* A field in its own editor (expwt/field in a frame): what it shows now, then the editor below it (left, right) or
+   over the bar's body (top, bottom) */
+.wt-preview { max-block-size: calc(var(--a4-space-7) * 3); overflow: auto; padding: var(--a4-space-1) var(--a4-space-2); border: 1px solid var(--a4-line); border-radius: var(--a4-radius-s); background: var(--a4-field); }
+.wt-preview.wt-names { border: 0; padding: 0; background: transparent; }
+.wt-rich-preview > :first-child { margin-block-start: 0; }
+.wt-rich-preview > :last-child { margin-block-end: 0; }
+.is-embed > .wt-row { margin-block-end: 0; }
+.wt-frame { display: block; inline-size: 100%; block-size: calc(var(--a4-space-7) * 9); border: 1px solid var(--a4-line); border-radius: var(--a4-radius-s); background: var(--a4-surface); }
+.wt-editor-inline { margin-block-start: var(--a4-space-2); }
+:host([data-orient="horizontal"]) .wt-body { position: relative; }
+.wt-editor-pane {
+  position: absolute;
+  inset: 0;
+  z-index: var(--a4-z-raised);
+  display: grid;
+  grid-template-rows: auto minmax(0, 1fr);
+  gap: var(--a4-space-2);
+  padding: var(--a4-space-2) var(--a4-space-4);
+  background: var(--a4-surface);
+}
+.wt-editor-head { display: flex; align-items: center; justify-content: space-between; gap: var(--a4-space-3); }
+.wt-editor-pane .wt-frame { block-size: 100%; }
+/* tags and related objects: their names as chips (changed in the full editor) */
+.wt-names { display: flex; flex-wrap: wrap; gap: var(--a4-space-1); margin: 0 0 var(--a4-space-1); }
+.wt-url > .wt-field { margin-block: var(--a4-space-2) 0; }
 
 .wt-card { padding: var(--a4-space-3); border: 1px solid var(--a4-line); border-radius: var(--a4-radius-s); background: var(--a4-card); margin-block-end: var(--a4-space-3); }
 .wt-chip { display: inline-block; padding: 0 var(--a4-space-2); border-radius: var(--a4-radius-s); background: var(--a4-soft); color: var(--a4-muted); font-size: var(--a4-text-xs); }

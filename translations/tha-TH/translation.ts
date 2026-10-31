@@ -136,6 +136,10 @@
         <translation>ตัวแก้ไขเต็มรูปแบบ</translation>
     </message>
     <message>
+        <source>Edit</source>
+        <translation>แก้ไข</translation>
+    </message>
+    <message>
         <source>required</source>
         <translation>จำเป็น</translation>
     </message>
@@ -172,12 +176,16 @@
         <translation>ทิ้งฉบับร่าง</translation>
     </message>
     <message>
-        <source>Saving ...</source>
-        <translation>กำลังบันทึก ...</translation>
+        <source>Cancel</source>
+        <translation>ยกเลิก</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
         <translation>บันทึกฉบับร่างแล้ว</translation>
+    </message>
+    <message>
+        <source>Saving ...</source>
+        <translation>กำลังบันทึก ...</translation>
     </message>
     <message>
         <source>Someone else changed these fields in the meantime. Choose for each field which text to keep, then save again.</source>
@@ -236,36 +244,12 @@
         <translation>ไม่มีฟิลด์ใดแสดงบนหน้านี้ตามที่เป็นอยู่ ใช้แบบฟอร์มแทน</translation>
     </message>
     <message>
-        <source>Address of the link</source>
-        <translation>ที่อยู่ของลิงก์</translation>
-    </message>
-    <message>
-        <source>Text format</source>
-        <translation>รูปแบบข้อความ</translation>
-    </message>
-    <message>
-        <source>Bold</source>
-        <translation>ตัวหนา</translation>
-    </message>
-    <message>
-        <source>Italic</source>
-        <translation>ตัวเอียง</translation>
-    </message>
-    <message>
-        <source>List</source>
-        <translation>รายการ</translation>
-    </message>
-    <message>
-        <source>Link</source>
-        <translation>ลิงก์</translation>
-    </message>
-    <message>
         <source>Yes</source>
         <translation>ใช่</translation>
     </message>
     <message>
-        <source>In the text form of the field (values parted by |).</source>
-        <translation>ในรูปแบบข้อความของฟิลด์ (ค่าคั่นด้วย |)</translation>
+        <source>Text of the link</source>
+        <translation>ข้อความของลิงก์</translation>
     </message>
     <message>
         <source>You may not create anything here.</source>
@@ -370,10 +354,6 @@
     <message>
         <source>Add "%name" also below ...</source>
         <translation>เพิ่ม "%name" ไว้ใต้ ... ด้วย</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>ยกเลิก</translation>
     </message>
     <message>
         <source>In: %name</source>
@@ -494,10 +474,6 @@
     <message>
         <source>Menu</source>
         <translation>เมนู</translation>
-    </message>
-    <message>
-        <source>Edit</source>
-        <translation>แก้ไข</translation>
     </message>
     <message>
         <source>Arrow keys move it, Enter opens it.</source>

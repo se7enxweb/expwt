@@ -136,6 +136,10 @@
         <translation>Úplný editor</translation>
     </message>
     <message>
+        <source>Edit</source>
+        <translation>Upraviť</translation>
+    </message>
+    <message>
         <source>required</source>
         <translation>povinné</translation>
     </message>
@@ -172,12 +176,16 @@
         <translation>Zahodiť koncept</translation>
     </message>
     <message>
-        <source>Saving ...</source>
-        <translation>Ukladá sa ...</translation>
+        <source>Cancel</source>
+        <translation>Zrušiť</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
         <translation>Koncept je uložený.</translation>
+    </message>
+    <message>
+        <source>Saving ...</source>
+        <translation>Ukladá sa ...</translation>
     </message>
     <message>
         <source>Someone else changed these fields in the meantime. Choose for each field which text to keep, then save again.</source>
@@ -236,36 +244,12 @@
         <translation>Žiadne z polí sa na tejto stránke v súčasnej podobe nezobrazuje; použite formulár.</translation>
     </message>
     <message>
-        <source>Address of the link</source>
-        <translation>Adresa odkazu</translation>
-    </message>
-    <message>
-        <source>Text format</source>
-        <translation>Formát textu</translation>
-    </message>
-    <message>
-        <source>Bold</source>
-        <translation>Tučné</translation>
-    </message>
-    <message>
-        <source>Italic</source>
-        <translation>Kurzíva</translation>
-    </message>
-    <message>
-        <source>List</source>
-        <translation>Zoznam</translation>
-    </message>
-    <message>
-        <source>Link</source>
-        <translation>Odkaz</translation>
-    </message>
-    <message>
         <source>Yes</source>
         <translation>Áno</translation>
     </message>
     <message>
-        <source>In the text form of the field (values parted by |).</source>
-        <translation>V textovej podobe poľa (hodnoty oddelené znakom |).</translation>
+        <source>Text of the link</source>
+        <translation>Text odkazu</translation>
     </message>
     <message>
         <source>You may not create anything here.</source>
@@ -370,10 +354,6 @@
     <message>
         <source>Add "%name" also below ...</source>
         <translation>Pridať „%name“ aj pod ...</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>Zrušiť</translation>
     </message>
     <message>
         <source>In: %name</source>
@@ -494,10 +474,6 @@
     <message>
         <source>Menu</source>
         <translation>Ponuka</translation>
-    </message>
-    <message>
-        <source>Edit</source>
-        <translation>Upraviť</translation>
     </message>
     <message>
         <source>Arrow keys move it, Enter opens it.</source>

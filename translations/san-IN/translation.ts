@@ -136,6 +136,10 @@
         <translation>पूर्णसम्पादकः</translation>
     </message>
     <message>
+        <source>Edit</source>
+        <translation>सम्पादनम्</translation>
+    </message>
+    <message>
         <source>required</source>
         <translation>आवश्यकम्</translation>
     </message>
@@ -172,12 +176,16 @@
         <translation>प्रारूपं त्यजतु</translation>
     </message>
     <message>
-        <source>Saving ...</source>
-        <translation>संरक्ष्यते ...</translation>
+        <source>Cancel</source>
+        <translation>निरस्यतु</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
         <translation>प्रारूपं संरक्षितम्।</translation>
+    </message>
+    <message>
+        <source>Saving ...</source>
+        <translation>संरक्ष्यते ...</translation>
     </message>
     <message>
         <source>Someone else changed these fields in the meantime. Choose for each field which text to keep, then save again.</source>
@@ -236,36 +244,12 @@
         <translation>वर्तमानरूपे किमपि क्षेत्रम् अस्मिन् पृष्ठे न दृश्यते; प्रपत्रम् उपयुङ्क्ताम्।</translation>
     </message>
     <message>
-        <source>Address of the link</source>
-        <translation>सम्पर्कस्य सङ्केतः</translation>
-    </message>
-    <message>
-        <source>Text format</source>
-        <translation>पाठप्रारूपम्</translation>
-    </message>
-    <message>
-        <source>Bold</source>
-        <translation>स्थूलम्</translation>
-    </message>
-    <message>
-        <source>Italic</source>
-        <translation>तिर्यक्</translation>
-    </message>
-    <message>
-        <source>List</source>
-        <translation>सूची</translation>
-    </message>
-    <message>
-        <source>Link</source>
-        <translation>सम्पर्कः</translation>
-    </message>
-    <message>
         <source>Yes</source>
         <translation>आम्</translation>
     </message>
     <message>
-        <source>In the text form of the field (values parted by |).</source>
-        <translation>क्षेत्रस्य पाठरूपे (मूल्यानि | इत्यनेन विभक्तानि)।</translation>
+        <source>Text of the link</source>
+        <translation>सम्पर्कस्य पाठः</translation>
     </message>
     <message>
         <source>You may not create anything here.</source>
@@ -370,10 +354,6 @@
     <message>
         <source>Add "%name" also below ...</source>
         <translation>"%name" अधः अपि योजयतु ...</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>निरस्यतु</translation>
     </message>
     <message>
         <source>In: %name</source>
@@ -494,10 +474,6 @@
     <message>
         <source>Menu</source>
         <translation>सूचिका</translation>
-    </message>
-    <message>
-        <source>Edit</source>
-        <translation>सम्पादनम्</translation>
     </message>
     <message>
         <source>Arrow keys move it, Enter opens it.</source>

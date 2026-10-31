@@ -136,6 +136,10 @@
         <translation>Volledige redigeerder</translation>
     </message>
     <message>
+        <source>Edit</source>
+        <translation>Wysig</translation>
+    </message>
+    <message>
         <source>required</source>
         <translation>verpligtend</translation>
     </message>
@@ -172,12 +176,16 @@
         <translation>Gooi konsep weg</translation>
     </message>
     <message>
-        <source>Saving ...</source>
-        <translation>Stoor ...</translation>
+        <source>Cancel</source>
+        <translation>Kanselleer</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
         <translation>Die konsep is gestoor.</translation>
+    </message>
+    <message>
+        <source>Saving ...</source>
+        <translation>Stoor ...</translation>
     </message>
     <message>
         <source>Someone else changed these fields in the meantime. Choose for each field which text to keep, then save again.</source>
@@ -236,36 +244,12 @@
         <translation>Geen van die velde wys soos dit is op hierdie bladsy nie; gebruik die vorm.</translation>
     </message>
     <message>
-        <source>Address of the link</source>
-        <translation>Adres van die skakel</translation>
-    </message>
-    <message>
-        <source>Text format</source>
-        <translation>Teksformaat</translation>
-    </message>
-    <message>
-        <source>Bold</source>
-        <translation>Vet</translation>
-    </message>
-    <message>
-        <source>Italic</source>
-        <translation>Kursief</translation>
-    </message>
-    <message>
-        <source>List</source>
-        <translation>Lys</translation>
-    </message>
-    <message>
-        <source>Link</source>
-        <translation>Skakel</translation>
-    </message>
-    <message>
         <source>Yes</source>
         <translation>Ja</translation>
     </message>
     <message>
-        <source>In the text form of the field (values parted by |).</source>
-        <translation>In die teksvorm van die veld (waardes geskei deur |).</translation>
+        <source>Text of the link</source>
+        <translation>Teks van die skakel</translation>
     </message>
     <message>
         <source>You may not create anything here.</source>
@@ -370,10 +354,6 @@
     <message>
         <source>Add "%name" also below ...</source>
         <translation>Voeg "%name" ook onder ... by</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>Kanselleer</translation>
     </message>
     <message>
         <source>In: %name</source>
@@ -494,10 +474,6 @@
     <message>
         <source>Menu</source>
         <translation>Kieslys</translation>
-    </message>
-    <message>
-        <source>Edit</source>
-        <translation>Wysig</translation>
     </message>
     <message>
         <source>Arrow keys move it, Enter opens it.</source>

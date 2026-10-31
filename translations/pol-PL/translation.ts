@@ -136,6 +136,10 @@
         <translation>Pełny edytor</translation>
     </message>
     <message>
+        <source>Edit</source>
+        <translation>Edytuj</translation>
+    </message>
+    <message>
         <source>required</source>
         <translation>wymagane</translation>
     </message>
@@ -172,12 +176,16 @@
         <translation>Odrzuć wersję roboczą</translation>
     </message>
     <message>
-        <source>Saving ...</source>
-        <translation>Zapisywanie ...</translation>
+        <source>Cancel</source>
+        <translation>Anuluj</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
         <translation>Wersja robocza została zapisana.</translation>
+    </message>
+    <message>
+        <source>Saving ...</source>
+        <translation>Zapisywanie ...</translation>
     </message>
     <message>
         <source>Someone else changed these fields in the meantime. Choose for each field which text to keep, then save again.</source>
@@ -236,36 +244,12 @@
         <translation>Żadne z pól nie jest widoczne na tej stronie w obecnej postaci; użyj formularza.</translation>
     </message>
     <message>
-        <source>Address of the link</source>
-        <translation>Adres odnośnika</translation>
-    </message>
-    <message>
-        <source>Text format</source>
-        <translation>Format tekstu</translation>
-    </message>
-    <message>
-        <source>Bold</source>
-        <translation>Pogrubienie</translation>
-    </message>
-    <message>
-        <source>Italic</source>
-        <translation>Kursywa</translation>
-    </message>
-    <message>
-        <source>List</source>
-        <translation>Lista</translation>
-    </message>
-    <message>
-        <source>Link</source>
-        <translation>Odnośnik</translation>
-    </message>
-    <message>
         <source>Yes</source>
         <translation>Tak</translation>
     </message>
     <message>
-        <source>In the text form of the field (values parted by |).</source>
-        <translation>W tekstowej postaci pola (wartości rozdzielone znakiem |).</translation>
+        <source>Text of the link</source>
+        <translation>Tekst odnośnika</translation>
     </message>
     <message>
         <source>You may not create anything here.</source>
@@ -370,10 +354,6 @@
     <message>
         <source>Add "%name" also below ...</source>
         <translation>Dodaj „%name” także pod ...</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>Anuluj</translation>
     </message>
     <message>
         <source>In: %name</source>
@@ -494,10 +474,6 @@
     <message>
         <source>Menu</source>
         <translation>Menu</translation>
-    </message>
-    <message>
-        <source>Edit</source>
-        <translation>Edytuj</translation>
     </message>
     <message>
         <source>Arrow keys move it, Enter opens it.</source>

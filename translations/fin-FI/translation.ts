@@ -136,6 +136,10 @@
         <translation>Täysi muokkain</translation>
     </message>
     <message>
+        <source>Edit</source>
+        <translation>Muokkaa</translation>
+    </message>
+    <message>
         <source>required</source>
         <translation>pakollinen</translation>
     </message>
@@ -172,12 +176,16 @@
         <translation>Hylkää luonnos</translation>
     </message>
     <message>
-        <source>Saving ...</source>
-        <translation>Tallennetaan ...</translation>
+        <source>Cancel</source>
+        <translation>Peruuta</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
         <translation>Luonnos on tallennettu.</translation>
+    </message>
+    <message>
+        <source>Saving ...</source>
+        <translation>Tallennetaan ...</translation>
     </message>
     <message>
         <source>Someone else changed these fields in the meantime. Choose for each field which text to keep, then save again.</source>
@@ -236,36 +244,12 @@
         <translation>Mikään kentistä ei näy tällä sivulla sellaisenaan; käytä lomaketta.</translation>
     </message>
     <message>
-        <source>Address of the link</source>
-        <translation>Linkin osoite</translation>
-    </message>
-    <message>
-        <source>Text format</source>
-        <translation>Tekstin muotoilu</translation>
-    </message>
-    <message>
-        <source>Bold</source>
-        <translation>Lihavointi</translation>
-    </message>
-    <message>
-        <source>Italic</source>
-        <translation>Kursiivi</translation>
-    </message>
-    <message>
-        <source>List</source>
-        <translation>Luettelo</translation>
-    </message>
-    <message>
-        <source>Link</source>
-        <translation>Linkki</translation>
-    </message>
-    <message>
         <source>Yes</source>
         <translation>Kyllä</translation>
     </message>
     <message>
-        <source>In the text form of the field (values parted by |).</source>
-        <translation>Kentän tekstimuodossa (arvot erotettuina merkillä |).</translation>
+        <source>Text of the link</source>
+        <translation>Linkin teksti</translation>
     </message>
     <message>
         <source>You may not create anything here.</source>
@@ -370,10 +354,6 @@
     <message>
         <source>Add "%name" also below ...</source>
         <translation>Lisää ”%name” myös kohteen alle ...</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>Peruuta</translation>
     </message>
     <message>
         <source>In: %name</source>
@@ -494,10 +474,6 @@
     <message>
         <source>Menu</source>
         <translation>Valikko</translation>
-    </message>
-    <message>
-        <source>Edit</source>
-        <translation>Muokkaa</translation>
     </message>
     <message>
         <source>Arrow keys move it, Enter opens it.</source>

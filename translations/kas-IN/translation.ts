@@ -136,6 +136,10 @@
         <translation>پوٗرٕ ایڈیٹر</translation>
     </message>
     <message>
+        <source>Edit</source>
+        <translation>تَرمیم کٔرِو</translation>
+    </message>
+    <message>
         <source>required</source>
         <translation>ضروٗری</translation>
     </message>
@@ -172,12 +176,16 @@
         <translation>مَسوٗدہٕ ترٲوِو</translation>
     </message>
     <message>
-        <source>Saving ...</source>
-        <translation>محفوظ گژھان ...</translation>
+        <source>Cancel</source>
+        <translation>منسوٗخ کٔرِو</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
         <translation>مَسوٗدہٕ گۄو محفوظ۔</translation>
+    </message>
+    <message>
+        <source>Saving ...</source>
+        <translation>محفوظ گژھان ...</translation>
     </message>
     <message>
         <source>Someone else changed these fields in the meantime. Choose for each field which text to keep, then save again.</source>
@@ -236,36 +244,12 @@
         <translation>کانٛہہ خانہٕ چھُنہٕ یَتھ صفحس پیٹھ یِتھَے بوزنہٕ یِوان؛ فارم ورتٲوِو۔</translation>
     </message>
     <message>
-        <source>Address of the link</source>
-        <translation>لِنکُک پتہٕ</translation>
-    </message>
-    <message>
-        <source>Text format</source>
-        <translation>متنُک فارمیٹ</translation>
-    </message>
-    <message>
-        <source>Bold</source>
-        <translation>موٚٹ</translation>
-    </message>
-    <message>
-        <source>Italic</source>
-        <translation>ترچھ</translation>
-    </message>
-    <message>
-        <source>List</source>
-        <translation>فہرست</translation>
-    </message>
-    <message>
-        <source>Link</source>
-        <translation>لِنک</translation>
-    </message>
-    <message>
         <source>Yes</source>
         <translation>آ</translation>
     </message>
     <message>
-        <source>In the text form of the field (values parted by |).</source>
-        <translation>خانُک متنی صوٗرتس منٛز (قٲمتہٕ | سٟتۍ الگ)۔</translation>
+        <source>Text of the link</source>
+        <translation>لِنکُک متن</translation>
     </message>
     <message>
         <source>You may not create anything here.</source>
@@ -370,10 +354,6 @@
     <message>
         <source>Add "%name" also below ...</source>
         <translation>"%name" تہِ ژارِو اَمہِ تَل ...</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>منسوٗخ کٔرِو</translation>
     </message>
     <message>
         <source>In: %name</source>
@@ -494,10 +474,6 @@
     <message>
         <source>Menu</source>
         <translation>مینیو</translation>
-    </message>
-    <message>
-        <source>Edit</source>
-        <translation>تَرمیم کٔرِو</translation>
     </message>
     <message>
         <source>Arrow keys move it, Enter opens it.</source>

@@ -136,6 +136,10 @@
         <translation>Doly redaktor</translation>
     </message>
     <message>
+        <source>Edit</source>
+        <translation>Redaktirle</translation>
+    </message>
+    <message>
         <source>required</source>
         <translation>hökmany</translation>
     </message>
@@ -172,12 +176,16 @@
         <translation>Garalamany taşla</translation>
     </message>
     <message>
-        <source>Saving ...</source>
-        <translation>Ýatda saklanýar ...</translation>
+        <source>Cancel</source>
+        <translation>Ýatyr</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
         <translation>Garalama ýatda saklandy.</translation>
+    </message>
+    <message>
+        <source>Saving ...</source>
+        <translation>Ýatda saklanýar ...</translation>
     </message>
     <message>
         <source>Someone else changed these fields in the meantime. Choose for each field which text to keep, then save again.</source>
@@ -236,36 +244,12 @@
         <translation>Meýdanlaryň hiç biri bu sahypada bolşy ýaly görkezilmeýär; formany ulanyň.</translation>
     </message>
     <message>
-        <source>Address of the link</source>
-        <translation>Salgylanmanyň salgysy</translation>
-    </message>
-    <message>
-        <source>Text format</source>
-        <translation>Tekst formaty</translation>
-    </message>
-    <message>
-        <source>Bold</source>
-        <translation>Galyň</translation>
-    </message>
-    <message>
-        <source>Italic</source>
-        <translation>Ýapgyt</translation>
-    </message>
-    <message>
-        <source>List</source>
-        <translation>Sanaw</translation>
-    </message>
-    <message>
-        <source>Link</source>
-        <translation>Salgylanma</translation>
-    </message>
-    <message>
         <source>Yes</source>
         <translation>Hawa</translation>
     </message>
     <message>
-        <source>In the text form of the field (values parted by |).</source>
-        <translation>Meýdanyň tekst görnüşinde (bahalar | bilen bölünýär).</translation>
+        <source>Text of the link</source>
+        <translation>Salgylanmanyň teksti</translation>
     </message>
     <message>
         <source>You may not create anything here.</source>
@@ -370,10 +354,6 @@
     <message>
         <source>Add "%name" also below ...</source>
         <translation>"%name" sahypasyny şunuň aşagyna hem goş ...</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>Ýatyr</translation>
     </message>
     <message>
         <source>In: %name</source>
@@ -494,10 +474,6 @@
     <message>
         <source>Menu</source>
         <translation>Menýu</translation>
-    </message>
-    <message>
-        <source>Edit</source>
-        <translation>Redaktirle</translation>
     </message>
     <message>
         <source>Arrow keys move it, Enter opens it.</source>

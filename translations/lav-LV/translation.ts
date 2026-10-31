@@ -136,6 +136,10 @@
         <translation>Pilnais redaktors</translation>
     </message>
     <message>
+        <source>Edit</source>
+        <translation>Rediģēt</translation>
+    </message>
+    <message>
         <source>required</source>
         <translation>obligāts</translation>
     </message>
@@ -172,12 +176,16 @@
         <translation>Atmest melnrakstu</translation>
     </message>
     <message>
-        <source>Saving ...</source>
-        <translation>Saglabā...</translation>
+        <source>Cancel</source>
+        <translation>Atcelt</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
         <translation>Melnraksts ir saglabāts.</translation>
+    </message>
+    <message>
+        <source>Saving ...</source>
+        <translation>Saglabā...</translation>
     </message>
     <message>
         <source>Someone else changed these fields in the meantime. Choose for each field which text to keep, then save again.</source>
@@ -236,36 +244,12 @@
         <translation>Neviens no laukiem šajā lapā tāds, kāds tas ir, netiek rādīts; izmantojiet veidlapu.</translation>
     </message>
     <message>
-        <source>Address of the link</source>
-        <translation>Saites adrese</translation>
-    </message>
-    <message>
-        <source>Text format</source>
-        <translation>Teksta formāts</translation>
-    </message>
-    <message>
-        <source>Bold</source>
-        <translation>Treknraksts</translation>
-    </message>
-    <message>
-        <source>Italic</source>
-        <translation>Slīpraksts</translation>
-    </message>
-    <message>
-        <source>List</source>
-        <translation>Saraksts</translation>
-    </message>
-    <message>
-        <source>Link</source>
-        <translation>Saite</translation>
-    </message>
-    <message>
         <source>Yes</source>
         <translation>Jā</translation>
     </message>
     <message>
-        <source>In the text form of the field (values parted by |).</source>
-        <translation>Lauka teksta formā (vērtības atdalītas ar |).</translation>
+        <source>Text of the link</source>
+        <translation>Saites teksts</translation>
     </message>
     <message>
         <source>You may not create anything here.</source>
@@ -370,10 +354,6 @@
     <message>
         <source>Add "%name" also below ...</source>
         <translation>Pievienot "%name" arī zem...</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>Atcelt</translation>
     </message>
     <message>
         <source>In: %name</source>
@@ -494,10 +474,6 @@
     <message>
         <source>Menu</source>
         <translation>Izvēlne</translation>
-    </message>
-    <message>
-        <source>Edit</source>
-        <translation>Rediģēt</translation>
     </message>
     <message>
         <source>Arrow keys move it, Enter opens it.</source>

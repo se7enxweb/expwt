@@ -136,6 +136,10 @@
         <translation>ସମ୍ପୂର୍ଣ୍ଣ ସମ୍ପାଦକ</translation>
     </message>
     <message>
+        <source>Edit</source>
+        <translation>ସମ୍ପାଦନ</translation>
+    </message>
+    <message>
         <source>required</source>
         <translation>ଆବଶ୍ୟକ</translation>
     </message>
@@ -172,12 +176,16 @@
         <translation>ଖସଡ଼ା ବାତିଲ କରନ୍ତୁ</translation>
     </message>
     <message>
-        <source>Saving ...</source>
-        <translation>ସଞ୍ଚୟ ହେଉଛି ...</translation>
+        <source>Cancel</source>
+        <translation>ବାତିଲ୍</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
         <translation>ଖସଡ଼ା ସଞ୍ଚୟ ହେଲା।</translation>
+    </message>
+    <message>
+        <source>Saving ...</source>
+        <translation>ସଞ୍ଚୟ ହେଉଛି ...</translation>
     </message>
     <message>
         <source>Someone else changed these fields in the meantime. Choose for each field which text to keep, then save again.</source>
@@ -236,36 +244,12 @@
         <translation>ବର୍ତ୍ତମାନ ଅବସ୍ଥାରେ କୌଣସି ଫିଲ୍ଡ ଏହି ପୃଷ୍ଠାରେ ଦେଖାଯାଉ ନାହିଁ; ଫର୍ମ ବ୍ୟବହାର କରନ୍ତୁ।</translation>
     </message>
     <message>
-        <source>Address of the link</source>
-        <translation>ଲିଙ୍କର ଠିକଣା</translation>
-    </message>
-    <message>
-        <source>Text format</source>
-        <translation>ପାଠ ଫର୍ମାଟ୍</translation>
-    </message>
-    <message>
-        <source>Bold</source>
-        <translation>ମୋଟା</translation>
-    </message>
-    <message>
-        <source>Italic</source>
-        <translation>ତେରଛା</translation>
-    </message>
-    <message>
-        <source>List</source>
-        <translation>ତାଲିକା</translation>
-    </message>
-    <message>
-        <source>Link</source>
-        <translation>ଲିଙ୍କ</translation>
-    </message>
-    <message>
         <source>Yes</source>
         <translation>ହଁ</translation>
     </message>
     <message>
-        <source>In the text form of the field (values parted by |).</source>
-        <translation>ଫିଲ୍ଡର ପାଠ ରୂପରେ (ମୂଲ୍ୟଗୁଡ଼ିକ | ଦ୍ୱାରା ଅଲଗା)।</translation>
+        <source>Text of the link</source>
+        <translation>ଲିଙ୍କର ପାଠ</translation>
     </message>
     <message>
         <source>You may not create anything here.</source>
@@ -370,10 +354,6 @@
     <message>
         <source>Add "%name" also below ...</source>
         <translation>"%name" କୁ ତଳେ ମଧ୍ୟ ଯୋଡ଼ନ୍ତୁ ...</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>ବାତିଲ୍</translation>
     </message>
     <message>
         <source>In: %name</source>
@@ -494,10 +474,6 @@
     <message>
         <source>Menu</source>
         <translation>ମେନୁ</translation>
-    </message>
-    <message>
-        <source>Edit</source>
-        <translation>ସମ୍ପାଦନ</translation>
     </message>
     <message>
         <source>Arrow keys move it, Enter opens it.</source>

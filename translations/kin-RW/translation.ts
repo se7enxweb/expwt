@@ -136,6 +136,10 @@
         <translation>Muhinduzi wuzuye</translation>
     </message>
     <message>
+        <source>Edit</source>
+        <translation>Guhindura</translation>
+    </message>
+    <message>
         <source>required</source>
         <translation>birakenewe</translation>
     </message>
@@ -172,12 +176,16 @@
         <translation>Reka umushinga</translation>
     </message>
     <message>
-        <source>Saving ...</source>
-        <translation>Birimo kubikwa ...</translation>
+        <source>Cancel</source>
+        <translation>Kureka</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
         <translation>Umushinga wabitswe.</translation>
+    </message>
+    <message>
+        <source>Saving ...</source>
+        <translation>Birimo kubikwa ...</translation>
     </message>
     <message>
         <source>Someone else changed these fields in the meantime. Choose for each field which text to keep, then save again.</source>
@@ -236,36 +244,12 @@
         <translation>Nta murima n'umwe ugaragara kuri uru rupapuro uko uri; koresha ifishi.</translation>
     </message>
     <message>
-        <source>Address of the link</source>
-        <translation>Aderesi y'ihuza</translation>
-    </message>
-    <message>
-        <source>Text format</source>
-        <translation>Imiterere y'inyandiko</translation>
-    </message>
-    <message>
-        <source>Bold</source>
-        <translation>Inyuguti zibyibushye</translation>
-    </message>
-    <message>
-        <source>Italic</source>
-        <translation>Inyuguti zihengamye</translation>
-    </message>
-    <message>
-        <source>List</source>
-        <translation>Urutonde</translation>
-    </message>
-    <message>
-        <source>Link</source>
-        <translation>Ihuza</translation>
-    </message>
-    <message>
         <source>Yes</source>
         <translation>Yego</translation>
     </message>
     <message>
-        <source>In the text form of the field (values parted by |).</source>
-        <translation>Mu buryo bw'inyandiko bw'umurima (agaciro gatandukanyijwe na |).</translation>
+        <source>Text of the link</source>
+        <translation>Umwandiko w'ihuza</translation>
     </message>
     <message>
         <source>You may not create anything here.</source>
@@ -370,10 +354,6 @@
     <message>
         <source>Add "%name" also below ...</source>
         <translation>Ongeraho "%name" no munsi ya ...</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>Kureka</translation>
     </message>
     <message>
         <source>In: %name</source>
@@ -494,10 +474,6 @@
     <message>
         <source>Menu</source>
         <translation>Menu</translation>
-    </message>
-    <message>
-        <source>Edit</source>
-        <translation>Guhindura</translation>
     </message>
     <message>
         <source>Arrow keys move it, Enter opens it.</source>

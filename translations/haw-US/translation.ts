@@ -136,6 +136,10 @@
         <translation>Mea hoʻoponopono piha</translation>
     </message>
     <message>
+        <source>Edit</source>
+        <translation>Hoʻoponopono</translation>
+    </message>
+    <message>
         <source>required</source>
         <translation>koi ʻia</translation>
     </message>
@@ -172,12 +176,16 @@
         <translation>Kāpae i ke kāmua</translation>
     </message>
     <message>
-        <source>Saving ...</source>
-        <translation>Ke mālama nei ...</translation>
+        <source>Cancel</source>
+        <translation>Kāpae</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
         <translation>Ua mālama ʻia ke kāmua.</translation>
+    </message>
+    <message>
+        <source>Saving ...</source>
+        <translation>Ke mālama nei ...</translation>
     </message>
     <message>
         <source>Someone else changed these fields in the meantime. Choose for each field which text to keep, then save again.</source>
@@ -236,36 +244,12 @@
         <translation>ʻAʻohe kahua e hōʻike ʻia ma kēia ʻaoʻao e like me kona ʻano; e hoʻohana i ka palapala.</translation>
     </message>
     <message>
-        <source>Address of the link</source>
-        <translation>Helu wahi o ka loulou</translation>
-    </message>
-    <message>
-        <source>Text format</source>
-        <translation>Ke ʻano o ka huaʻōlelo</translation>
-    </message>
-    <message>
-        <source>Bold</source>
-        <translation>Mānoanoa</translation>
-    </message>
-    <message>
-        <source>Italic</source>
-        <translation>Hiōhiō</translation>
-    </message>
-    <message>
-        <source>List</source>
-        <translation>Papa inoa</translation>
-    </message>
-    <message>
-        <source>Link</source>
-        <translation>Loulou</translation>
-    </message>
-    <message>
         <source>Yes</source>
         <translation>ʻAe</translation>
     </message>
     <message>
-        <source>In the text form of the field (values parted by |).</source>
-        <translation>Ma ke ʻano huaʻōlelo o ke kahua (nā waiwai i hoʻokaʻawale ʻia me |).</translation>
+        <source>Text of the link</source>
+        <translation>Kikokikona o ka loulou</translation>
     </message>
     <message>
         <source>You may not create anything here.</source>
@@ -370,10 +354,6 @@
     <message>
         <source>Add "%name" also below ...</source>
         <translation>Hoʻohui iā “%name” ma lalo o ... kekahi</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>Kāpae</translation>
     </message>
     <message>
         <source>In: %name</source>
@@ -494,10 +474,6 @@
     <message>
         <source>Menu</source>
         <translation>Papa kuhikuhi</translation>
-    </message>
-    <message>
-        <source>Edit</source>
-        <translation>Hoʻoponopono</translation>
     </message>
     <message>
         <source>Arrow keys move it, Enter opens it.</source>

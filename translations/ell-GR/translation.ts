@@ -136,6 +136,10 @@
         <translation>Πλήρης επεξεργαστής</translation>
     </message>
     <message>
+        <source>Edit</source>
+        <translation>Επεξεργασία</translation>
+    </message>
+    <message>
         <source>required</source>
         <translation>υποχρεωτικό</translation>
     </message>
@@ -172,12 +176,16 @@
         <translation>Απόρριψη προσχεδίου</translation>
     </message>
     <message>
-        <source>Saving ...</source>
-        <translation>Αποθήκευση ...</translation>
+        <source>Cancel</source>
+        <translation>Ακύρωση</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
         <translation>Το προσχέδιο αποθηκεύτηκε.</translation>
+    </message>
+    <message>
+        <source>Saving ...</source>
+        <translation>Αποθήκευση ...</translation>
     </message>
     <message>
         <source>Someone else changed these fields in the meantime. Choose for each field which text to keep, then save again.</source>
@@ -236,36 +244,12 @@
         <translation>Κανένα από τα πεδία δεν εμφανίζεται ως έχει σε αυτή τη σελίδα· χρησιμοποιήστε τη φόρμα.</translation>
     </message>
     <message>
-        <source>Address of the link</source>
-        <translation>Διεύθυνση του συνδέσμου</translation>
-    </message>
-    <message>
-        <source>Text format</source>
-        <translation>Μορφή κειμένου</translation>
-    </message>
-    <message>
-        <source>Bold</source>
-        <translation>Έντονα</translation>
-    </message>
-    <message>
-        <source>Italic</source>
-        <translation>Πλάγια</translation>
-    </message>
-    <message>
-        <source>List</source>
-        <translation>Λίστα</translation>
-    </message>
-    <message>
-        <source>Link</source>
-        <translation>Σύνδεσμος</translation>
-    </message>
-    <message>
         <source>Yes</source>
         <translation>Ναι</translation>
     </message>
     <message>
-        <source>In the text form of the field (values parted by |).</source>
-        <translation>Στη μορφή κειμένου του πεδίου (τιμές χωρισμένες με |).</translation>
+        <source>Text of the link</source>
+        <translation>Κείμενο του συνδέσμου</translation>
     </message>
     <message>
         <source>You may not create anything here.</source>
@@ -370,10 +354,6 @@
     <message>
         <source>Add "%name" also below ...</source>
         <translation>Προσθήκη του «%name» και κάτω από ...</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>Ακύρωση</translation>
     </message>
     <message>
         <source>In: %name</source>
@@ -494,10 +474,6 @@
     <message>
         <source>Menu</source>
         <translation>Μενού</translation>
-    </message>
-    <message>
-        <source>Edit</source>
-        <translation>Επεξεργασία</translation>
     </message>
     <message>
         <source>Arrow keys move it, Enter opens it.</source>

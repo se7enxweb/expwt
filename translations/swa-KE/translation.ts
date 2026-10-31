@@ -136,6 +136,10 @@
         <translation>Kihariri kamili</translation>
     </message>
     <message>
+        <source>Edit</source>
+        <translation>Hariri</translation>
+    </message>
+    <message>
         <source>required</source>
         <translation>inahitajika</translation>
     </message>
@@ -172,12 +176,16 @@
         <translation>Tupa rasimu</translation>
     </message>
     <message>
-        <source>Saving ...</source>
-        <translation>Inahifadhi ...</translation>
+        <source>Cancel</source>
+        <translation>Ghairi</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
         <translation>Rasimu imehifadhiwa.</translation>
+    </message>
+    <message>
+        <source>Saving ...</source>
+        <translation>Inahifadhi ...</translation>
     </message>
     <message>
         <source>Someone else changed these fields in the meantime. Choose for each field which text to keep, then save again.</source>
@@ -236,36 +244,12 @@
         <translation>Hakuna sehemu inayoonekana kwenye ukurasa huu kama ulivyo; tumia fomu.</translation>
     </message>
     <message>
-        <source>Address of the link</source>
-        <translation>Anwani ya kiungo</translation>
-    </message>
-    <message>
-        <source>Text format</source>
-        <translation>Muundo wa maandishi</translation>
-    </message>
-    <message>
-        <source>Bold</source>
-        <translation>Herufi nzito</translation>
-    </message>
-    <message>
-        <source>Italic</source>
-        <translation>Italiki</translation>
-    </message>
-    <message>
-        <source>List</source>
-        <translation>Orodha</translation>
-    </message>
-    <message>
-        <source>Link</source>
-        <translation>Kiungo</translation>
-    </message>
-    <message>
         <source>Yes</source>
         <translation>Ndiyo</translation>
     </message>
     <message>
-        <source>In the text form of the field (values parted by |).</source>
-        <translation>Katika muundo wa maandishi wa sehemu (thamani zimetenganishwa kwa |).</translation>
+        <source>Text of the link</source>
+        <translation>Maandishi ya kiungo</translation>
     </message>
     <message>
         <source>You may not create anything here.</source>
@@ -370,10 +354,6 @@
     <message>
         <source>Add "%name" also below ...</source>
         <translation>Ongeza "%name" pia chini ya ...</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>Ghairi</translation>
     </message>
     <message>
         <source>In: %name</source>
@@ -494,10 +474,6 @@
     <message>
         <source>Menu</source>
         <translation>Menyu</translation>
-    </message>
-    <message>
-        <source>Edit</source>
-        <translation>Hariri</translation>
     </message>
     <message>
         <source>Arrow keys move it, Enter opens it.</source>

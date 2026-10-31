@@ -136,6 +136,10 @@
         <translation>Муҳаррири пурра</translation>
     </message>
     <message>
+        <source>Edit</source>
+        <translation>Таҳрир кардан</translation>
+    </message>
+    <message>
         <source>required</source>
         <translation>ҳатмӣ</translation>
     </message>
@@ -172,12 +176,16 @@
         <translation>Партофтани сиёҳнавис</translation>
     </message>
     <message>
-        <source>Saving ...</source>
-        <translation>Захира шуда истодааст ...</translation>
+        <source>Cancel</source>
+        <translation>Бекор кардан</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
         <translation>Сиёҳнавис захира шуд.</translation>
+    </message>
+    <message>
+        <source>Saving ...</source>
+        <translation>Захира шуда истодааст ...</translation>
     </message>
     <message>
         <source>Someone else changed these fields in the meantime. Choose for each field which text to keep, then save again.</source>
@@ -236,36 +244,12 @@
         <translation>Ҳеҷ як майдон дар ин саҳифа ба таври худ намоён нест; шаклро истифода баред.</translation>
     </message>
     <message>
-        <source>Address of the link</source>
-        <translation>Суроғаи пайванд</translation>
-    </message>
-    <message>
-        <source>Text format</source>
-        <translation>Формати матн</translation>
-    </message>
-    <message>
-        <source>Bold</source>
-        <translation>Ғафс</translation>
-    </message>
-    <message>
-        <source>Italic</source>
-        <translation>Курсив</translation>
-    </message>
-    <message>
-        <source>List</source>
-        <translation>Рӯйхат</translation>
-    </message>
-    <message>
-        <source>Link</source>
-        <translation>Пайванд</translation>
-    </message>
-    <message>
         <source>Yes</source>
         <translation>Ҳа</translation>
     </message>
     <message>
-        <source>In the text form of the field (values parted by |).</source>
-        <translation>Дар шакли матнии майдон (қиматҳо бо | ҷудо карда мешаванд).</translation>
+        <source>Text of the link</source>
+        <translation>Матни пайванд</translation>
     </message>
     <message>
         <source>You may not create anything here.</source>
@@ -370,10 +354,6 @@
     <message>
         <source>Add "%name" also below ...</source>
         <translation>"%name"-ро инчунин дар зери ... илова кардан</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>Бекор кардан</translation>
     </message>
     <message>
         <source>In: %name</source>
@@ -494,10 +474,6 @@
     <message>
         <source>Menu</source>
         <translation>Меню</translation>
-    </message>
-    <message>
-        <source>Edit</source>
-        <translation>Таҳрир кардан</translation>
     </message>
     <message>
         <source>Arrow keys move it, Enter opens it.</source>

@@ -136,6 +136,10 @@
         <translation>Editore osoa</translation>
     </message>
     <message>
+        <source>Edit</source>
+        <translation>Editatu</translation>
+    </message>
+    <message>
         <source>required</source>
         <translation>derrigorrezkoa</translation>
     </message>
@@ -172,12 +176,16 @@
         <translation>Baztertu zirriborroa</translation>
     </message>
     <message>
-        <source>Saving ...</source>
-        <translation>Gordetzen ...</translation>
+        <source>Cancel</source>
+        <translation>Utzi</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
         <translation>Zirriborroa gorde da.</translation>
+    </message>
+    <message>
+        <source>Saving ...</source>
+        <translation>Gordetzen ...</translation>
     </message>
     <message>
         <source>Someone else changed these fields in the meantime. Choose for each field which text to keep, then save again.</source>
@@ -236,36 +244,12 @@
         <translation>Eremuetako bat ere ez da orri honetan bere horretan agertzen; erabili inprimakia.</translation>
     </message>
     <message>
-        <source>Address of the link</source>
-        <translation>Estekaren helbidea</translation>
-    </message>
-    <message>
-        <source>Text format</source>
-        <translation>Testu-formatua</translation>
-    </message>
-    <message>
-        <source>Bold</source>
-        <translation>Lodia</translation>
-    </message>
-    <message>
-        <source>Italic</source>
-        <translation>Etzana</translation>
-    </message>
-    <message>
-        <source>List</source>
-        <translation>Zerrenda</translation>
-    </message>
-    <message>
-        <source>Link</source>
-        <translation>Esteka</translation>
-    </message>
-    <message>
         <source>Yes</source>
         <translation>Bai</translation>
     </message>
     <message>
-        <source>In the text form of the field (values parted by |).</source>
-        <translation>Eremuaren testu-formatuan (balioak | bidez bereizita).</translation>
+        <source>Text of the link</source>
+        <translation>Estekaren testua</translation>
     </message>
     <message>
         <source>You may not create anything here.</source>
@@ -370,10 +354,6 @@
     <message>
         <source>Add "%name" also below ...</source>
         <translation>Gehitu «%name» honen azpian ere ...</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>Utzi</translation>
     </message>
     <message>
         <source>In: %name</source>
@@ -494,10 +474,6 @@
     <message>
         <source>Menu</source>
         <translation>Menua</translation>
-    </message>
-    <message>
-        <source>Edit</source>
-        <translation>Editatu</translation>
     </message>
     <message>
         <source>Arrow keys move it, Enter opens it.</source>

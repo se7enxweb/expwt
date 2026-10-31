@@ -136,6 +136,10 @@
         <translation>Binndirde timmunde</translation>
     </message>
     <message>
+        <source>Edit</source>
+        <translation>Waylu</translation>
+    </message>
+    <message>
         <source>required</source>
         <translation>ɗaminaa</translation>
     </message>
@@ -172,12 +176,16 @@
         <translation>Accu daartol</translation>
     </message>
     <message>
-        <source>Saving ...</source>
-        <translation>Ina moofta ...</translation>
+        <source>Cancel</source>
+        <translation>Haaytu</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
         <translation>Daartol ngol mooftaama.</translation>
+    </message>
+    <message>
+        <source>Saving ...</source>
+        <translation>Ina moofta ...</translation>
     </message>
     <message>
         <source>Someone else changed these fields in the meantime. Choose for each field which text to keep, then save again.</source>
@@ -236,36 +244,12 @@
         <translation>Alaa nokku e ɗii feeñoowo e hello ngo no woniri nii; huutoro fomiil oo.</translation>
     </message>
     <message>
-        <source>Address of the link</source>
-        <translation>Ñiiɓirde jokkorde</translation>
-    </message>
-    <message>
-        <source>Text format</source>
-        <translation>Mbaadi binndol</translation>
-    </message>
-    <message>
-        <source>Bold</source>
-        <translation>Tekkuɗo</translation>
-    </message>
-    <message>
-        <source>Italic</source>
-        <translation>Ñaañuɗo</translation>
-    </message>
-    <message>
-        <source>List</source>
-        <translation>Doggol</translation>
-    </message>
-    <message>
-        <source>Link</source>
-        <translation>Jokkorde</translation>
-    </message>
-    <message>
         <source>Yes</source>
         <translation>Eey</translation>
     </message>
     <message>
-        <source>In the text form of the field (values parted by |).</source>
-        <translation>E mbaadi binndol nokku oo (keewe ceerndaaɗe e |).</translation>
+        <source>Text of the link</source>
+        <translation>Binndi jokkorde</translation>
     </message>
     <message>
         <source>You may not create anything here.</source>
@@ -370,10 +354,6 @@
     <message>
         <source>Add "%name" also below ...</source>
         <translation>Ɓeydu “%name” kadi les ...</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>Haaytu</translation>
     </message>
     <message>
         <source>In: %name</source>
@@ -494,10 +474,6 @@
     <message>
         <source>Menu</source>
         <translation>Menu</translation>
-    </message>
-    <message>
-        <source>Edit</source>
-        <translation>Waylu</translation>
     </message>
     <message>
         <source>Arrow keys move it, Enter opens it.</source>

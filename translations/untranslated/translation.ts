@@ -136,6 +136,10 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <source>Edit</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>required</source>
         <translation type="unfinished"></translation>
     </message>
@@ -172,11 +176,15 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Saving ...</source>
+        <source>Cancel</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <source>The draft is saved.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Saving ...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -236,35 +244,11 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Address of the link</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Text format</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Bold</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Italic</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>List</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Link</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Yes</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>In the text form of the field (values parted by |).</source>
+        <source>Text of the link</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -369,10 +353,6 @@
     </message>
     <message>
         <source>Add "%name" also below ...</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Cancel</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -493,10 +473,6 @@
     </message>
     <message>
         <source>Menu</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Edit</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

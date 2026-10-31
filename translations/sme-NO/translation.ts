@@ -136,6 +136,10 @@
         <translation>Ollislaš redigeren</translation>
     </message>
     <message>
+        <source>Edit</source>
+        <translation>Rievdadit</translation>
+    </message>
+    <message>
         <source>required</source>
         <translation>dárbbašlaš</translation>
     </message>
@@ -172,12 +176,16 @@
         <translation>Hilgo luonosa</translation>
     </message>
     <message>
-        <source>Saving ...</source>
-        <translation>Vurkemin ...</translation>
+        <source>Cancel</source>
+        <translation>Gaskkalduhttit</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
         <translation>Luonos lea vurkejuvvon.</translation>
+    </message>
+    <message>
+        <source>Saving ...</source>
+        <translation>Vurkemin ...</translation>
     </message>
     <message>
         <source>Someone else changed these fields in the meantime. Choose for each field which text to keep, then save again.</source>
@@ -236,36 +244,12 @@
         <translation>Ii oktage gieddi oidno dán siiddus nugo dat lea; geavat skovi.</translation>
     </message>
     <message>
-        <source>Address of the link</source>
-        <translation>Liŋkka čujuhus</translation>
-    </message>
-    <message>
-        <source>Text format</source>
-        <translation>Teakstahápmi</translation>
-    </message>
-    <message>
-        <source>Bold</source>
-        <translation>Buoiddes</translation>
-    </message>
-    <message>
-        <source>Italic</source>
-        <translation>Vinddus</translation>
-    </message>
-    <message>
-        <source>List</source>
-        <translation>Listu</translation>
-    </message>
-    <message>
-        <source>Link</source>
-        <translation>Liŋka</translation>
-    </message>
-    <message>
         <source>Yes</source>
         <translation>Juo</translation>
     </message>
     <message>
-        <source>In the text form of the field (values parted by |).</source>
-        <translation>Gietti teakstahámis (árvvut sirrejuvvon | mielde).</translation>
+        <source>Text of the link</source>
+        <translation>Liŋkka teaksta</translation>
     </message>
     <message>
         <source>You may not create anything here.</source>
@@ -370,10 +354,6 @@
     <message>
         <source>Add "%name" also below ...</source>
         <translation>Lasit "%name" maiddái dán vuollái ...</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>Gaskkalduhttit</translation>
     </message>
     <message>
         <source>In: %name</source>
@@ -494,10 +474,6 @@
     <message>
         <source>Menu</source>
         <translation>Fállu</translation>
-    </message>
-    <message>
-        <source>Edit</source>
-        <translation>Rievdadit</translation>
     </message>
     <message>
         <source>Arrow keys move it, Enter opens it.</source>

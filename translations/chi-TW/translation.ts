@@ -136,6 +136,10 @@
         <translation>完整編輯器</translation>
     </message>
     <message>
+        <source>Edit</source>
+        <translation>編輯</translation>
+    </message>
+    <message>
         <source>required</source>
         <translation>必填</translation>
     </message>
@@ -172,12 +176,16 @@
         <translation>捨棄草稿</translation>
     </message>
     <message>
-        <source>Saving ...</source>
-        <translation>儲存中 ...</translation>
+        <source>Cancel</source>
+        <translation>取消</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
         <translation>草稿已儲存。</translation>
+    </message>
+    <message>
+        <source>Saving ...</source>
+        <translation>儲存中 ...</translation>
     </message>
     <message>
         <source>Someone else changed these fields in the meantime. Choose for each field which text to keep, then save again.</source>
@@ -236,36 +244,12 @@
         <translation>這些欄位都無法照原樣顯示在此頁面上；請使用表單。</translation>
     </message>
     <message>
-        <source>Address of the link</source>
-        <translation>連結網址</translation>
-    </message>
-    <message>
-        <source>Text format</source>
-        <translation>文字格式</translation>
-    </message>
-    <message>
-        <source>Bold</source>
-        <translation>粗體</translation>
-    </message>
-    <message>
-        <source>Italic</source>
-        <translation>斜體</translation>
-    </message>
-    <message>
-        <source>List</source>
-        <translation>清單</translation>
-    </message>
-    <message>
-        <source>Link</source>
-        <translation>連結</translation>
-    </message>
-    <message>
         <source>Yes</source>
         <translation>是</translation>
     </message>
     <message>
-        <source>In the text form of the field (values parted by |).</source>
-        <translation>使用欄位的文字形式（值以 | 分隔）。</translation>
+        <source>Text of the link</source>
+        <translation>連結文字</translation>
     </message>
     <message>
         <source>You may not create anything here.</source>
@@ -370,10 +354,6 @@
     <message>
         <source>Add "%name" also below ...</source>
         <translation>將「%name」也新增到 ... 下</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>取消</translation>
     </message>
     <message>
         <source>In: %name</source>
@@ -494,10 +474,6 @@
     <message>
         <source>Menu</source>
         <translation>選單</translation>
-    </message>
-    <message>
-        <source>Edit</source>
-        <translation>編輯</translation>
     </message>
     <message>
         <source>Arrow keys move it, Enter opens it.</source>

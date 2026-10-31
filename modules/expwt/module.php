@@ -33,6 +33,13 @@ $ViewList['reauth'] = array(
     'script' => 'reauth.php',
     'params' => array( 'Action' ) );
 
+// One field of a draft in the editor the installation has for its datatype (decision 12, F1): the sidebar shows it
+// in a frame; ezxmltext in ezoe (TinyMCE 8) or exp_oe_tiptap, eztags in the tag picker, images with their upload ...
+$ViewList['field'] = array(
+    'functions' => array( 'edit' ),
+    'script' => 'field.php',
+    'params' => array( 'ObjectID', 'Version', 'Language', 'Identifier' ) );
+
 $FunctionList = array();
 // The sidebar on the site: the tab, the Me panel and the Page panel (reading)
 $FunctionList['use'] = array();

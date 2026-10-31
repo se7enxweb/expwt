@@ -136,6 +136,10 @@
         <translation>ܡܬܩܢܢܐ ܡܫܡܠܝܐ</translation>
     </message>
     <message>
+        <source>Edit</source>
+        <translation>ܬܘܩܢܐ</translation>
+    </message>
+    <message>
         <source>required</source>
         <translation>ܣܢܝܩܐ</translation>
     </message>
@@ -172,12 +176,16 @@
         <translation>ܫܕܝ ܣܘܪܛܐ</translation>
     </message>
     <message>
-        <source>Saving ...</source>
-        <translation>ܡܬܢܛܪ ...</translation>
+        <source>Cancel</source>
+        <translation>ܒܘܛܠܐ</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
         <translation>ܣܘܪܛܐ ܐܬܢܛܪ.</translation>
+    </message>
+    <message>
+        <source>Saving ...</source>
+        <translation>ܡܬܢܛܪ ...</translation>
     </message>
     <message>
         <source>Someone else changed these fields in the meantime. Choose for each field which text to keep, then save again.</source>
@@ -236,36 +244,12 @@
         <translation>ܐܦܠܐ ܚܕ ܡܢ ܚܩܠ̈ܐ ܡܬܚܙܐ ܒܦܐܬܐ ܗܕܐ ܐܝܟ ܕܐܝܬܘܗܝ؛ ܦܠܚ ܒܛܘܦܣܐ.</translation>
     </message>
     <message>
-        <source>Address of the link</source>
-        <translation>ܡܘܢܥܐ ܕܐܣܘܪܐ</translation>
-    </message>
-    <message>
-        <source>Text format</source>
-        <translation>ܐܣܟܝܡܐ ܕܟܬܒܐ</translation>
-    </message>
-    <message>
-        <source>Bold</source>
-        <translation>ܥܒܝܐ</translation>
-    </message>
-    <message>
-        <source>Italic</source>
-        <translation>ܣܡܝܟܐ</translation>
-    </message>
-    <message>
-        <source>List</source>
-        <translation>ܪܫܝܡܬܐ</translation>
-    </message>
-    <message>
-        <source>Link</source>
-        <translation>ܐܣܘܪܐ</translation>
-    </message>
-    <message>
         <source>Yes</source>
         <translation>ܐܝܢ</translation>
     </message>
     <message>
-        <source>In the text form of the field (values parted by |).</source>
-        <translation>ܒܐܣܟܝܡܐ ܟܬܝܒܐ ܕܚܩܠܐ (ܛܝܡ̈ܐ ܦܪܝܫ̈ܝܢ ܒ |).</translation>
+        <source>Text of the link</source>
+        <translation>ܟܬܒܐ ܕܐܣܘܪܐ</translation>
     </message>
     <message>
         <source>You may not create anything here.</source>
@@ -370,10 +354,6 @@
     <message>
         <source>Add "%name" also below ...</source>
         <translation>ܐܘܣܦ "%name" ܐܦ ܬܚܝܬ ...</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>ܒܘܛܠܐ</translation>
     </message>
     <message>
         <source>In: %name</source>
@@ -494,10 +474,6 @@
     <message>
         <source>Menu</source>
         <translation>ܡܢܝܢܐ</translation>
-    </message>
-    <message>
-        <source>Edit</source>
-        <translation>ܬܘܩܢܐ</translation>
     </message>
     <message>
         <source>Arrow keys move it, Enter opens it.</source>

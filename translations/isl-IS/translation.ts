@@ -136,6 +136,10 @@
         <translation>Fullur ritill</translation>
     </message>
     <message>
+        <source>Edit</source>
+        <translation>Breyta</translation>
+    </message>
+    <message>
         <source>required</source>
         <translation>nauðsynlegt</translation>
     </message>
@@ -172,12 +176,16 @@
         <translation>Henda drögum</translation>
     </message>
     <message>
-        <source>Saving ...</source>
-        <translation>Vistar ...</translation>
+        <source>Cancel</source>
+        <translation>Hætta við</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
         <translation>Drögin eru vistuð.</translation>
+    </message>
+    <message>
+        <source>Saving ...</source>
+        <translation>Vistar ...</translation>
     </message>
     <message>
         <source>Someone else changed these fields in the meantime. Choose for each field which text to keep, then save again.</source>
@@ -236,36 +244,12 @@
         <translation>Enginn reitanna birtist á þessari síðu eins og hún er; notaðu eyðublaðið.</translation>
     </message>
     <message>
-        <source>Address of the link</source>
-        <translation>Slóð tengilsins</translation>
-    </message>
-    <message>
-        <source>Text format</source>
-        <translation>Textasnið</translation>
-    </message>
-    <message>
-        <source>Bold</source>
-        <translation>Feitletrað</translation>
-    </message>
-    <message>
-        <source>Italic</source>
-        <translation>Skáletrað</translation>
-    </message>
-    <message>
-        <source>List</source>
-        <translation>Listi</translation>
-    </message>
-    <message>
-        <source>Link</source>
-        <translation>Tengill</translation>
-    </message>
-    <message>
         <source>Yes</source>
         <translation>Já</translation>
     </message>
     <message>
-        <source>In the text form of the field (values parted by |).</source>
-        <translation>Á textaformi reitsins (gildi aðskilin með |).</translation>
+        <source>Text of the link</source>
+        <translation>Texti tengilsins</translation>
     </message>
     <message>
         <source>You may not create anything here.</source>
@@ -370,10 +354,6 @@
     <message>
         <source>Add "%name" also below ...</source>
         <translation>Bæta "%name" einnig við undir ...</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>Hætta við</translation>
     </message>
     <message>
         <source>In: %name</source>
@@ -494,10 +474,6 @@
     <message>
         <source>Menu</source>
         <translation>Valmynd</translation>
-    </message>
-    <message>
-        <source>Edit</source>
-        <translation>Breyta</translation>
     </message>
     <message>
         <source>Arrow keys move it, Enter opens it.</source>

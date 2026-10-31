@@ -136,6 +136,10 @@
         <translation>פֿולער רעדאַקטאָר</translation>
     </message>
     <message>
+        <source>Edit</source>
+        <translation>רעדאַגירן</translation>
+    </message>
+    <message>
         <source>required</source>
         <translation>נייטיק</translation>
     </message>
@@ -172,12 +176,16 @@
         <translation>אַוועקוואַרפֿן שׂרטוט</translation>
     </message>
     <message>
-        <source>Saving ...</source>
-        <translation>היט אָפּ ...</translation>
+        <source>Cancel</source>
+        <translation>אַנולירן</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
         <translation>דער שׂרטוט איז אָפּגעהיט.</translation>
+    </message>
+    <message>
+        <source>Saving ...</source>
+        <translation>היט אָפּ ...</translation>
     </message>
     <message>
         <source>Someone else changed these fields in the meantime. Choose for each field which text to keep, then save again.</source>
@@ -236,36 +244,12 @@
         <translation>קיין פֿעלד ווײַזט זיך נישט אויף דער זײַט ווי זי איז; ניצט דעם פֿאָרמולאַר.</translation>
     </message>
     <message>
-        <source>Address of the link</source>
-        <translation>אַדרעס פֿונעם לינק</translation>
-    </message>
-    <message>
-        <source>Text format</source>
-        <translation>טעקסט־פֿאָרמאַט</translation>
-    </message>
-    <message>
-        <source>Bold</source>
-        <translation>פֿעט</translation>
-    </message>
-    <message>
-        <source>Italic</source>
-        <translation>קורסיוו</translation>
-    </message>
-    <message>
-        <source>List</source>
-        <translation>רשימה</translation>
-    </message>
-    <message>
-        <source>Link</source>
-        <translation>לינק</translation>
-    </message>
-    <message>
         <source>Yes</source>
         <translation>יאָ</translation>
     </message>
     <message>
-        <source>In the text form of the field (values parted by |).</source>
-        <translation>אין דער טעקסט־פֿאָרעם פֿונעם פֿעלד (ווערטן צעטיילט מיט |).</translation>
+        <source>Text of the link</source>
+        <translation>טעקסט פֿונעם לינק</translation>
     </message>
     <message>
         <source>You may not create anything here.</source>
@@ -370,10 +354,6 @@
     <message>
         <source>Add "%name" also below ...</source>
         <translation>צולייגן "%name" אויך אונטער ...</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>אַנולירן</translation>
     </message>
     <message>
         <source>In: %name</source>
@@ -494,10 +474,6 @@
     <message>
         <source>Menu</source>
         <translation>מעניו</translation>
-    </message>
-    <message>
-        <source>Edit</source>
-        <translation>רעדאַגירן</translation>
     </message>
     <message>
         <source>Arrow keys move it, Enter opens it.</source>

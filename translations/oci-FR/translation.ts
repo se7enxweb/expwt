@@ -136,6 +136,10 @@
         <translation>Editor complet</translation>
     </message>
     <message>
+        <source>Edit</source>
+        <translation>Modificar</translation>
+    </message>
+    <message>
         <source>required</source>
         <translation>obligatòri</translation>
     </message>
@@ -172,12 +176,16 @@
         <translation>Abandonar lo borrolhon</translation>
     </message>
     <message>
-        <source>Saving ...</source>
-        <translation>Enregistrament ...</translation>
+        <source>Cancel</source>
+        <translation>Anullar</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
         <translation>Lo borrolhon es enregistrat.</translation>
+    </message>
+    <message>
+        <source>Saving ...</source>
+        <translation>Enregistrament ...</translation>
     </message>
     <message>
         <source>Someone else changed these fields in the meantime. Choose for each field which text to keep, then save again.</source>
@@ -236,36 +244,12 @@
         <translation>Cap de camp s'aficha pas sus aquesta pagina tal coma es; utilizatz lo formulari.</translation>
     </message>
     <message>
-        <source>Address of the link</source>
-        <translation>Adreça del ligam</translation>
-    </message>
-    <message>
-        <source>Text format</source>
-        <translation>Format del tèxte</translation>
-    </message>
-    <message>
-        <source>Bold</source>
-        <translation>Gras</translation>
-    </message>
-    <message>
-        <source>Italic</source>
-        <translation>Italica</translation>
-    </message>
-    <message>
-        <source>List</source>
-        <translation>Lista</translation>
-    </message>
-    <message>
-        <source>Link</source>
-        <translation>Ligam</translation>
-    </message>
-    <message>
         <source>Yes</source>
         <translation>Òc</translation>
     </message>
     <message>
-        <source>In the text form of the field (values parted by |).</source>
-        <translation>Dins la forma tèxte del camp (valors separadas per |).</translation>
+        <source>Text of the link</source>
+        <translation>Tèxte del ligam</translation>
     </message>
     <message>
         <source>You may not create anything here.</source>
@@ -370,10 +354,6 @@
     <message>
         <source>Add "%name" also below ...</source>
         <translation>Apondre « %name » tanben jos ...</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>Anullar</translation>
     </message>
     <message>
         <source>In: %name</source>
@@ -494,10 +474,6 @@
     <message>
         <source>Menu</source>
         <translation>Menú</translation>
-    </message>
-    <message>
-        <source>Edit</source>
-        <translation>Modificar</translation>
     </message>
     <message>
         <source>Arrow keys move it, Enter opens it.</source>

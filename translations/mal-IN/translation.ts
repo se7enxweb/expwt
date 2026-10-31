@@ -136,6 +136,10 @@
         <translation>പൂർണ്ണ എഡിറ്റർ</translation>
     </message>
     <message>
+        <source>Edit</source>
+        <translation>എഡിറ്റ് ചെയ്യുക</translation>
+    </message>
+    <message>
         <source>required</source>
         <translation>ആവശ്യമാണ്</translation>
     </message>
@@ -172,12 +176,16 @@
         <translation>ഡ്രാഫ്റ്റ് ഉപേക്ഷിക്കുക</translation>
     </message>
     <message>
-        <source>Saving ...</source>
-        <translation>സംരക്ഷിക്കുന്നു ...</translation>
+        <source>Cancel</source>
+        <translation>റദ്ദാക്കുക</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
         <translation>ഡ്രാഫ്റ്റ് സംരക്ഷിച്ചു.</translation>
+    </message>
+    <message>
+        <source>Saving ...</source>
+        <translation>സംരക്ഷിക്കുന്നു ...</translation>
     </message>
     <message>
         <source>Someone else changed these fields in the meantime. Choose for each field which text to keep, then save again.</source>
@@ -236,36 +244,12 @@
         <translation>ഫീൽഡുകളൊന്നും ഈ പേജിൽ അതേപടി കാണിക്കുന്നില്ല; ഫോം ഉപയോഗിക്കുക.</translation>
     </message>
     <message>
-        <source>Address of the link</source>
-        <translation>ലിങ്കിന്റെ വിലാസം</translation>
-    </message>
-    <message>
-        <source>Text format</source>
-        <translation>വാചക ഫോർമാറ്റ്</translation>
-    </message>
-    <message>
-        <source>Bold</source>
-        <translation>ബോൾഡ്</translation>
-    </message>
-    <message>
-        <source>Italic</source>
-        <translation>ഇറ്റാലിക്</translation>
-    </message>
-    <message>
-        <source>List</source>
-        <translation>പട്ടിക</translation>
-    </message>
-    <message>
-        <source>Link</source>
-        <translation>ലിങ്ക്</translation>
-    </message>
-    <message>
         <source>Yes</source>
         <translation>അതെ</translation>
     </message>
     <message>
-        <source>In the text form of the field (values parted by |).</source>
-        <translation>ഫീൽഡിന്റെ വാചക രൂപത്തിൽ (മൂല്യങ്ങൾ | കൊണ്ട് വേർതിരിച്ചത്).</translation>
+        <source>Text of the link</source>
+        <translation>ലിങ്കിന്റെ വാചകം</translation>
     </message>
     <message>
         <source>You may not create anything here.</source>
@@ -370,10 +354,6 @@
     <message>
         <source>Add "%name" also below ...</source>
         <translation>"%name" ഇതിന് താഴെയും ചേർക്കുക ...</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>റദ്ദാക്കുക</translation>
     </message>
     <message>
         <source>In: %name</source>
@@ -494,10 +474,6 @@
     <message>
         <source>Menu</source>
         <translation>മെനു</translation>
-    </message>
-    <message>
-        <source>Edit</source>
-        <translation>എഡിറ്റ് ചെയ്യുക</translation>
     </message>
     <message>
         <source>Arrow keys move it, Enter opens it.</source>

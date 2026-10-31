@@ -136,6 +136,10 @@
         <translation>Full redigering</translation>
     </message>
     <message>
+        <source>Edit</source>
+        <translation>Rediger</translation>
+    </message>
+    <message>
         <source>required</source>
         <translation>påkrevd</translation>
     </message>
@@ -172,12 +176,16 @@
         <translation>Forkast utkast</translation>
     </message>
     <message>
-        <source>Saving ...</source>
-        <translation>Lagrer ...</translation>
+        <source>Cancel</source>
+        <translation>Avbryt</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
         <translation>Utkastet er lagret.</translation>
+    </message>
+    <message>
+        <source>Saving ...</source>
+        <translation>Lagrer ...</translation>
     </message>
     <message>
         <source>Someone else changed these fields in the meantime. Choose for each field which text to keep, then save again.</source>
@@ -236,36 +244,12 @@
         <translation>Ingen av feltene vises på denne siden slik den er; bruk skjemaet.</translation>
     </message>
     <message>
-        <source>Address of the link</source>
-        <translation>Adressen til lenken</translation>
-    </message>
-    <message>
-        <source>Text format</source>
-        <translation>Tekstformat</translation>
-    </message>
-    <message>
-        <source>Bold</source>
-        <translation>Fet</translation>
-    </message>
-    <message>
-        <source>Italic</source>
-        <translation>Kursiv</translation>
-    </message>
-    <message>
-        <source>List</source>
-        <translation>Liste</translation>
-    </message>
-    <message>
-        <source>Link</source>
-        <translation>Lenke</translation>
-    </message>
-    <message>
         <source>Yes</source>
         <translation>Ja</translation>
     </message>
     <message>
-        <source>In the text form of the field (values parted by |).</source>
-        <translation>I tekstformen til feltet (verdier skilt med |).</translation>
+        <source>Text of the link</source>
+        <translation>Teksten til lenken</translation>
     </message>
     <message>
         <source>You may not create anything here.</source>
@@ -370,10 +354,6 @@
     <message>
         <source>Add "%name" also below ...</source>
         <translation>Legg «%name» også under ...</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>Avbryt</translation>
     </message>
     <message>
         <source>In: %name</source>
@@ -494,10 +474,6 @@
     <message>
         <source>Menu</source>
         <translation>Meny</translation>
-    </message>
-    <message>
-        <source>Edit</source>
-        <translation>Rediger</translation>
     </message>
     <message>
         <source>Arrow keys move it, Enter opens it.</source>

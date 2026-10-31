@@ -136,6 +136,10 @@
         <translation>Eagarthóir iomlán</translation>
     </message>
     <message>
+        <source>Edit</source>
+        <translation>Cuir in eagar</translation>
+    </message>
+    <message>
         <source>required</source>
         <translation>riachtanach</translation>
     </message>
@@ -172,12 +176,16 @@
         <translation>Caith an dréacht i leataobh</translation>
     </message>
     <message>
-        <source>Saving ...</source>
-        <translation>Á shábháil ...</translation>
+        <source>Cancel</source>
+        <translation>Cealaigh</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
         <translation>Sábháladh an dréacht.</translation>
+    </message>
+    <message>
+        <source>Saving ...</source>
+        <translation>Á shábháil ...</translation>
     </message>
     <message>
         <source>Someone else changed these fields in the meantime. Choose for each field which text to keep, then save again.</source>
@@ -236,36 +244,12 @@
         <translation>Ní thaispeántar aon cheann de na réimsí ar an leathanach seo mar atá; úsáid an fhoirm.</translation>
     </message>
     <message>
-        <source>Address of the link</source>
-        <translation>Seoladh an naisc</translation>
-    </message>
-    <message>
-        <source>Text format</source>
-        <translation>Formáid an téacs</translation>
-    </message>
-    <message>
-        <source>Bold</source>
-        <translation>Trom</translation>
-    </message>
-    <message>
-        <source>Italic</source>
-        <translation>Iodálach</translation>
-    </message>
-    <message>
-        <source>List</source>
-        <translation>Liosta</translation>
-    </message>
-    <message>
-        <source>Link</source>
-        <translation>Nasc</translation>
-    </message>
-    <message>
         <source>Yes</source>
         <translation>Tá</translation>
     </message>
     <message>
-        <source>In the text form of the field (values parted by |).</source>
-        <translation>I bhfoirm téacs an réimse (luachanna scartha le |).</translation>
+        <source>Text of the link</source>
+        <translation>Téacs an naisc</translation>
     </message>
     <message>
         <source>You may not create anything here.</source>
@@ -370,10 +354,6 @@
     <message>
         <source>Add "%name" also below ...</source>
         <translation>Cuir “%name” faoi ... freisin</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>Cealaigh</translation>
     </message>
     <message>
         <source>In: %name</source>
@@ -494,10 +474,6 @@
     <message>
         <source>Menu</source>
         <translation>Roghchlár</translation>
-    </message>
-    <message>
-        <source>Edit</source>
-        <translation>Cuir in eagar</translation>
     </message>
     <message>
         <source>Arrow keys move it, Enter opens it.</source>

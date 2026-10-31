@@ -136,6 +136,10 @@
         <translation>フルエディター</translation>
     </message>
     <message>
+        <source>Edit</source>
+        <translation>編集</translation>
+    </message>
+    <message>
         <source>required</source>
         <translation>必須</translation>
     </message>
@@ -172,12 +176,16 @@
         <translation>下書きを破棄</translation>
     </message>
     <message>
-        <source>Saving ...</source>
-        <translation>保存中 ...</translation>
+        <source>Cancel</source>
+        <translation>キャンセル</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
         <translation>下書きを保存しました。</translation>
+    </message>
+    <message>
+        <source>Saving ...</source>
+        <translation>保存中 ...</translation>
     </message>
     <message>
         <source>Someone else changed these fields in the meantime. Choose for each field which text to keep, then save again.</source>
@@ -236,36 +244,12 @@
         <translation>このページにはそのまま表示されるフィールドがありません。フォームを使ってください。</translation>
     </message>
     <message>
-        <source>Address of the link</source>
-        <translation>リンクのアドレス</translation>
-    </message>
-    <message>
-        <source>Text format</source>
-        <translation>テキスト書式</translation>
-    </message>
-    <message>
-        <source>Bold</source>
-        <translation>太字</translation>
-    </message>
-    <message>
-        <source>Italic</source>
-        <translation>斜体</translation>
-    </message>
-    <message>
-        <source>List</source>
-        <translation>リスト</translation>
-    </message>
-    <message>
-        <source>Link</source>
-        <translation>リンク</translation>
-    </message>
-    <message>
         <source>Yes</source>
         <translation>はい</translation>
     </message>
     <message>
-        <source>In the text form of the field (values parted by |).</source>
-        <translation>フィールドのテキスト形式（値は | で区切ります）。</translation>
+        <source>Text of the link</source>
+        <translation>リンクのテキスト</translation>
     </message>
     <message>
         <source>You may not create anything here.</source>
@@ -370,10 +354,6 @@
     <message>
         <source>Add "%name" also below ...</source>
         <translation>「%name」を次の下にも追加 ...</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>キャンセル</translation>
     </message>
     <message>
         <source>In: %name</source>
@@ -494,10 +474,6 @@
     <message>
         <source>Menu</source>
         <translation>メニュー</translation>
-    </message>
-    <message>
-        <source>Edit</source>
-        <translation>編集</translation>
     </message>
     <message>
         <source>Arrow keys move it, Enter opens it.</source>

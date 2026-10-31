@@ -136,6 +136,10 @@
         <translation>মপুং ফাবা এডিটর</translation>
     </message>
     <message>
+        <source>Edit</source>
+        <translation>এডিট তৌবা</translation>
+    </message>
+    <message>
         <source>required</source>
         <translation>মথৌ তাই</translation>
     </message>
@@ -172,12 +176,16 @@
         <translation>ড্রাফ্ট হুন্থোকপা</translation>
     </message>
     <message>
-        <source>Saving ...</source>
-        <translation>থম্লি ...</translation>
+        <source>Cancel</source>
+        <translation>কেন্সেল তৌবা</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
         <translation>ড্রাফ্ট থম্লে।</translation>
+    </message>
+    <message>
+        <source>Saving ...</source>
+        <translation>থম্লি ...</translation>
     </message>
     <message>
         <source>Someone else changed these fields in the meantime. Choose for each field which text to keep, then save again.</source>
@@ -236,36 +244,12 @@
         <translation>হৌজিক লৈবা মওংদা ফিল্ড অমত্তা পেজ অসিদা উদে; ফোর্ম শীজিন্নবিয়ু।</translation>
     </message>
     <message>
-        <source>Address of the link</source>
-        <translation>লিংকক্কী এদ্রেস</translation>
-    </message>
-    <message>
-        <source>Text format</source>
-        <translation>তেক্সত ফোর্মেত</translation>
-    </message>
-    <message>
-        <source>Bold</source>
-        <translation>অচাউবা</translation>
-    </message>
-    <message>
-        <source>Italic</source>
-        <translation>য়েংখিবা</translation>
-    </message>
-    <message>
-        <source>List</source>
-        <translation>লিস্ট</translation>
-    </message>
-    <message>
-        <source>Link</source>
-        <translation>লিংক</translation>
-    </message>
-    <message>
         <source>Yes</source>
         <translation>হোয়</translation>
     </message>
     <message>
-        <source>In the text form of the field (values parted by |).</source>
-        <translation>ফিল্ডকী তেক্সত মওংদা (ভেল্যুশিং | না খায়দোকই)।</translation>
+        <source>Text of the link</source>
+        <translation>লিংকক্কী ৱাহৈ</translation>
     </message>
     <message>
         <source>You may not create anything here.</source>
@@ -370,10 +354,6 @@
     <message>
         <source>Add "%name" also below ...</source>
         <translation>"%name" মখাদসু হাপচিনবা ...</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>কেন্সেল তৌবা</translation>
     </message>
     <message>
         <source>In: %name</source>
@@ -494,10 +474,6 @@
     <message>
         <source>Menu</source>
         <translation>মেনু</translation>
-    </message>
-    <message>
-        <source>Edit</source>
-        <translation>এডিট তৌবা</translation>
     </message>
     <message>
         <source>Arrow keys move it, Enter opens it.</source>

@@ -136,6 +136,10 @@
         <translation>Potpuni uređivač</translation>
     </message>
     <message>
+        <source>Edit</source>
+        <translation>Izmeni</translation>
+    </message>
+    <message>
         <source>required</source>
         <translation>obavezno</translation>
     </message>
@@ -172,12 +176,16 @@
         <translation>Odbaci radnu verziju</translation>
     </message>
     <message>
-        <source>Saving ...</source>
-        <translation>Čuvanje ...</translation>
+        <source>Cancel</source>
+        <translation>Otkaži</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
         <translation>Radna verzija je sačuvana.</translation>
+    </message>
+    <message>
+        <source>Saving ...</source>
+        <translation>Čuvanje ...</translation>
     </message>
     <message>
         <source>Someone else changed these fields in the meantime. Choose for each field which text to keep, then save again.</source>
@@ -236,36 +244,12 @@
         <translation>Nijedno od polja se ne prikazuje na ovoj stranici u sadašnjem obliku; koristite obrazac.</translation>
     </message>
     <message>
-        <source>Address of the link</source>
-        <translation>Adresa linka</translation>
-    </message>
-    <message>
-        <source>Text format</source>
-        <translation>Format teksta</translation>
-    </message>
-    <message>
-        <source>Bold</source>
-        <translation>Podebljano</translation>
-    </message>
-    <message>
-        <source>Italic</source>
-        <translation>Kurziv</translation>
-    </message>
-    <message>
-        <source>List</source>
-        <translation>Lista</translation>
-    </message>
-    <message>
-        <source>Link</source>
-        <translation>Link</translation>
-    </message>
-    <message>
         <source>Yes</source>
         <translation>Da</translation>
     </message>
     <message>
-        <source>In the text form of the field (values parted by |).</source>
-        <translation>U tekstualnom obliku polja (vrednosti razdvojene znakom |).</translation>
+        <source>Text of the link</source>
+        <translation>Tekst linka</translation>
     </message>
     <message>
         <source>You may not create anything here.</source>
@@ -370,10 +354,6 @@
     <message>
         <source>Add "%name" also below ...</source>
         <translation>Dodaj „%name” i ispod ...</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>Otkaži</translation>
     </message>
     <message>
         <source>In: %name</source>
@@ -494,10 +474,6 @@
     <message>
         <source>Menu</source>
         <translation>Meni</translation>
-    </message>
-    <message>
-        <source>Edit</source>
-        <translation>Izmeni</translation>
     </message>
     <message>
         <source>Arrow keys move it, Enter opens it.</source>

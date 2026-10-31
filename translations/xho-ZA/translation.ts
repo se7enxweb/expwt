@@ -136,6 +136,10 @@
         <translation>Umhleli opheleleyo</translation>
     </message>
     <message>
+        <source>Edit</source>
+        <translation>Hlela</translation>
+    </message>
+    <message>
         <source>required</source>
         <translation>kunyanzelekile</translation>
     </message>
@@ -172,12 +176,16 @@
         <translation>Lahla uyilo</translation>
     </message>
     <message>
-        <source>Saving ...</source>
-        <translation>Iyagcina ...</translation>
+        <source>Cancel</source>
+        <translation>Rhoxisa</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
         <translation>Uyilo lugciniwe.</translation>
+    </message>
+    <message>
+        <source>Saving ...</source>
+        <translation>Iyagcina ...</translation>
     </message>
     <message>
         <source>Someone else changed these fields in the meantime. Choose for each field which text to keep, then save again.</source>
@@ -236,36 +244,12 @@
         <translation>Akukho ndawo ibonakalayo kweli phepha njengoko linjalo; sebenzisa ifomu.</translation>
     </message>
     <message>
-        <source>Address of the link</source>
-        <translation>Idilesi yekhonkco</translation>
-    </message>
-    <message>
-        <source>Text format</source>
-        <translation>Ifomathi yombhalo</translation>
-    </message>
-    <message>
-        <source>Bold</source>
-        <translation>Ngqindilili</translation>
-    </message>
-    <message>
-        <source>Italic</source>
-        <translation>Kekeleyo</translation>
-    </message>
-    <message>
-        <source>List</source>
-        <translation>Uluhlu</translation>
-    </message>
-    <message>
-        <source>Link</source>
-        <translation>Ikhonkco</translation>
-    </message>
-    <message>
         <source>Yes</source>
         <translation>Ewe</translation>
     </message>
     <message>
-        <source>In the text form of the field (values parted by |).</source>
-        <translation>Kwifomu yombhalo yendawo (amaxabiso ahlulwe ngu |).</translation>
+        <source>Text of the link</source>
+        <translation>Isicatshulwa sekhonkco</translation>
     </message>
     <message>
         <source>You may not create anything here.</source>
@@ -370,10 +354,6 @@
     <message>
         <source>Add "%name" also below ...</source>
         <translation>Yongeza "%name" nangaphantsi ko ...</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>Rhoxisa</translation>
     </message>
     <message>
         <source>In: %name</source>
@@ -494,10 +474,6 @@
     <message>
         <source>Menu</source>
         <translation>Imenyu</translation>
-    </message>
-    <message>
-        <source>Edit</source>
-        <translation>Hlela</translation>
     </message>
     <message>
         <source>Arrow keys move it, Enter opens it.</source>

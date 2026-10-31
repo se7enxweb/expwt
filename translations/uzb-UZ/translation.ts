@@ -136,6 +136,10 @@
         <translation>Toʻliq muharrir</translation>
     </message>
     <message>
+        <source>Edit</source>
+        <translation>Tahrirlash</translation>
+    </message>
+    <message>
         <source>required</source>
         <translation>majburiy</translation>
     </message>
@@ -172,12 +176,16 @@
         <translation>Qoralamani bekor qilish</translation>
     </message>
     <message>
-        <source>Saving ...</source>
-        <translation>Saqlanmoqda ...</translation>
+        <source>Cancel</source>
+        <translation>Bekor qilish</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
         <translation>Qoralama saqlandi.</translation>
+    </message>
+    <message>
+        <source>Saving ...</source>
+        <translation>Saqlanmoqda ...</translation>
     </message>
     <message>
         <source>Someone else changed these fields in the meantime. Choose for each field which text to keep, then save again.</source>
@@ -236,36 +244,12 @@
         <translation>Maydonlarning hech biri bu sahifada asl holicha koʻrinmaydi; shakldan foydalaning.</translation>
     </message>
     <message>
-        <source>Address of the link</source>
-        <translation>Havola manzili</translation>
-    </message>
-    <message>
-        <source>Text format</source>
-        <translation>Matn formati</translation>
-    </message>
-    <message>
-        <source>Bold</source>
-        <translation>Qalin</translation>
-    </message>
-    <message>
-        <source>Italic</source>
-        <translation>Kursiv</translation>
-    </message>
-    <message>
-        <source>List</source>
-        <translation>Roʻyxat</translation>
-    </message>
-    <message>
-        <source>Link</source>
-        <translation>Havola</translation>
-    </message>
-    <message>
         <source>Yes</source>
         <translation>Ha</translation>
     </message>
     <message>
-        <source>In the text form of the field (values parted by |).</source>
-        <translation>Maydonning matn shaklida (qiymatlar | bilan ajratilgan).</translation>
+        <source>Text of the link</source>
+        <translation>Havola matni</translation>
     </message>
     <message>
         <source>You may not create anything here.</source>
@@ -370,10 +354,6 @@
     <message>
         <source>Add "%name" also below ...</source>
         <translation>"%name" ni yana quyidagi ostiga qoʻshish ...</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>Bekor qilish</translation>
     </message>
     <message>
         <source>In: %name</source>
@@ -494,10 +474,6 @@
     <message>
         <source>Menu</source>
         <translation>Menyu</translation>
-    </message>
-    <message>
-        <source>Edit</source>
-        <translation>Tahrirlash</translation>
     </message>
     <message>
         <source>Arrow keys move it, Enter opens it.</source>

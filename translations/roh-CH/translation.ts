@@ -136,6 +136,10 @@
         <translation>Editur cumplet</translation>
     </message>
     <message>
+        <source>Edit</source>
+        <translation>Modifitgar</translation>
+    </message>
+    <message>
         <source>required</source>
         <translation>obligatoric</translation>
     </message>
@@ -172,12 +176,16 @@
         <translation>Rinunziar al sboz</translation>
     </message>
     <message>
-        <source>Saving ...</source>
-        <translation>Memorisar ...</translation>
+        <source>Cancel</source>
+        <translation>Interrumper</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
         <translation>Il sboz è memorisà.</translation>
+    </message>
+    <message>
+        <source>Saving ...</source>
+        <translation>Memorisar ...</translation>
     </message>
     <message>
         <source>Someone else changed these fields in the meantime. Choose for each field which text to keep, then save again.</source>
@@ -236,36 +244,12 @@
         <translation>Nagin dals champs na cumpara sin questa pagina sco ch'ella è; utilisai il formular.</translation>
     </message>
     <message>
-        <source>Address of the link</source>
-        <translation>Adressa da la colliaziun</translation>
-    </message>
-    <message>
-        <source>Text format</source>
-        <translation>Format dal text</translation>
-    </message>
-    <message>
-        <source>Bold</source>
-        <translation>Grass</translation>
-    </message>
-    <message>
-        <source>Italic</source>
-        <translation>Cursiv</translation>
-    </message>
-    <message>
-        <source>List</source>
-        <translation>Glista</translation>
-    </message>
-    <message>
-        <source>Link</source>
-        <translation>Colliaziun</translation>
-    </message>
-    <message>
         <source>Yes</source>
         <translation>Gea</translation>
     </message>
     <message>
-        <source>In the text form of the field (values parted by |).</source>
-        <translation>En la furma da text dal champ (valurs separadas cun |).</translation>
+        <source>Text of the link</source>
+        <translation>Text da la colliaziun</translation>
     </message>
     <message>
         <source>You may not create anything here.</source>
@@ -370,10 +354,6 @@
     <message>
         <source>Add "%name" also below ...</source>
         <translation>Agiuntar «%name» er sut ...</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>Interrumper</translation>
     </message>
     <message>
         <source>In: %name</source>
@@ -494,10 +474,6 @@
     <message>
         <source>Menu</source>
         <translation>Menu</translation>
-    </message>
-    <message>
-        <source>Edit</source>
-        <translation>Modifitgar</translation>
     </message>
     <message>
         <source>Arrow keys move it, Enter opens it.</source>

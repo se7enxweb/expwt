@@ -136,6 +136,10 @@
         <translation>Onye ndezi zuru oke</translation>
     </message>
     <message>
+        <source>Edit</source>
+        <translation>Dezie</translation>
+    </message>
+    <message>
         <source>required</source>
         <translation>a chọrọ</translation>
     </message>
@@ -172,12 +176,16 @@
         <translation>Tụfuo ndepụta mbụ</translation>
     </message>
     <message>
-        <source>Saving ...</source>
-        <translation>Na-echekwa ...</translation>
+        <source>Cancel</source>
+        <translation>Kagbuo</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
         <translation>Echekwala ndepụta mbụ ahụ.</translation>
+    </message>
+    <message>
+        <source>Saving ...</source>
+        <translation>Na-echekwa ...</translation>
     </message>
     <message>
         <source>Someone else changed these fields in the meantime. Choose for each field which text to keep, then save again.</source>
@@ -236,36 +244,12 @@
         <translation>Ọ dịghị nke ọ bụla n'ime mpaghara ndị ahụ na-egosi na ibe a otú ọ dị; jiri fọm ahụ.</translation>
     </message>
     <message>
-        <source>Address of the link</source>
-        <translation>Adreesị njikọ</translation>
-    </message>
-    <message>
-        <source>Text format</source>
-        <translation>Usoro ederede</translation>
-    </message>
-    <message>
-        <source>Bold</source>
-        <translation>Nke gbara aja</translation>
-    </message>
-    <message>
-        <source>Italic</source>
-        <translation>Nke dabere</translation>
-    </message>
-    <message>
-        <source>List</source>
-        <translation>Ndepụta</translation>
-    </message>
-    <message>
-        <source>Link</source>
-        <translation>Njikọ</translation>
-    </message>
-    <message>
         <source>Yes</source>
         <translation>Ee</translation>
     </message>
     <message>
-        <source>In the text form of the field (values parted by |).</source>
-        <translation>N'ụdị ederede nke mpaghara ahụ (ụkpụrụ ndị e kewara site na |).</translation>
+        <source>Text of the link</source>
+        <translation>Ederede njikọ</translation>
     </message>
     <message>
         <source>You may not create anything here.</source>
@@ -370,10 +354,6 @@
     <message>
         <source>Add "%name" also below ...</source>
         <translation>Tinyekwa “%name” n'okpuru ...</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>Kagbuo</translation>
     </message>
     <message>
         <source>In: %name</source>
@@ -494,10 +474,6 @@
     <message>
         <source>Menu</source>
         <translation>Menu</translation>
-    </message>
-    <message>
-        <source>Edit</source>
-        <translation>Dezie</translation>
     </message>
     <message>
         <source>Arrow keys move it, Enter opens it.</source>

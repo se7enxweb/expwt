@@ -136,6 +136,10 @@
         <translation>Fullur ritil</translation>
     </message>
     <message>
+        <source>Edit</source>
+        <translation>Rætta</translation>
+    </message>
+    <message>
         <source>required</source>
         <translation>kravt</translation>
     </message>
@@ -172,12 +176,16 @@
         <translation>Vraka kladdu</translation>
     </message>
     <message>
-        <source>Saving ...</source>
-        <translation>Goymir ...</translation>
+        <source>Cancel</source>
+        <translation>Ógilda</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
         <translation>Kladdan er goymd.</translation>
+    </message>
+    <message>
+        <source>Saving ...</source>
+        <translation>Goymir ...</translation>
     </message>
     <message>
         <source>Someone else changed these fields in the meantime. Choose for each field which text to keep, then save again.</source>
@@ -236,36 +244,12 @@
         <translation>Eingin av teigunum sæst á hesi síðuni, sum hann er; nýt formularin.</translation>
     </message>
     <message>
-        <source>Address of the link</source>
-        <translation>Adressa á leinkjuni</translation>
-    </message>
-    <message>
-        <source>Text format</source>
-        <translation>Tekstsnið</translation>
-    </message>
-    <message>
-        <source>Bold</source>
-        <translation>Feitt</translation>
-    </message>
-    <message>
-        <source>Italic</source>
-        <translation>Skákskrift</translation>
-    </message>
-    <message>
-        <source>List</source>
-        <translation>Listi</translation>
-    </message>
-    <message>
-        <source>Link</source>
-        <translation>Leinkja</translation>
-    </message>
-    <message>
         <source>Yes</source>
         <translation>Ja</translation>
     </message>
     <message>
-        <source>In the text form of the field (values parted by |).</source>
-        <translation>Í tekstforminum á teiginum (virðir skild sundur við |).</translation>
+        <source>Text of the link</source>
+        <translation>Tekstur á leinkjuni</translation>
     </message>
     <message>
         <source>You may not create anything here.</source>
@@ -370,10 +354,6 @@
     <message>
         <source>Add "%name" also below ...</source>
         <translation>Legg „%name“ eisini undir ...</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>Ógilda</translation>
     </message>
     <message>
         <source>In: %name</source>
@@ -494,10 +474,6 @@
     <message>
         <source>Menu</source>
         <translation>Valmynd</translation>
-    </message>
-    <message>
-        <source>Edit</source>
-        <translation>Rætta</translation>
     </message>
     <message>
         <source>Arrow keys move it, Enter opens it.</source>

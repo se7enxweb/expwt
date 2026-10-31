@@ -136,6 +136,10 @@
         <translation>Yɛlɛmanikɛlan dafalen</translation>
     </message>
     <message>
+        <source>Edit</source>
+        <translation>Yɛlɛma</translation>
+    </message>
+    <message>
         <source>required</source>
         <translation>wajibi</translation>
     </message>
@@ -172,12 +176,16 @@
         <translation>Bruyɔn fili</translation>
     </message>
     <message>
-        <source>Saving ...</source>
-        <translation>A bɛ mara ...</translation>
+        <source>Cancel</source>
+        <translation>Dabila</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
         <translation>Bruyɔn marala.</translation>
+    </message>
+    <message>
+        <source>Saving ...</source>
+        <translation>A bɛ mara ...</translation>
     </message>
     <message>
         <source>Someone else changed these fields in the meantime. Choose for each field which text to keep, then save again.</source>
@@ -236,36 +244,12 @@
         <translation>Yɔrɔ si tɛ ye nin ɲɛ kan i ko a bɛ cogo min na; fɔrimu baara.</translation>
     </message>
     <message>
-        <source>Address of the link</source>
-        <translation>Jɛɲɔgɔnya sira</translation>
-    </message>
-    <message>
-        <source>Text format</source>
-        <translation>Sɛbɛn cogo</translation>
-    </message>
-    <message>
-        <source>Bold</source>
-        <translation>Gɛlɛn</translation>
-    </message>
-    <message>
-        <source>Italic</source>
-        <translation>Biranen</translation>
-    </message>
-    <message>
-        <source>List</source>
-        <translation>Lisi</translation>
-    </message>
-    <message>
-        <source>Link</source>
-        <translation>Jɛɲɔgɔnya</translation>
-    </message>
-    <message>
         <source>Yes</source>
         <translation>Ɔwɔ</translation>
     </message>
     <message>
-        <source>In the text form of the field (values parted by |).</source>
-        <translation>Yɔrɔ sɛbɛn cogo la (hakɛw farala ni | ye).</translation>
+        <source>Text of the link</source>
+        <translation>Jɛɲɔgɔnya sɛbɛnni</translation>
     </message>
     <message>
         <source>You may not create anything here.</source>
@@ -370,10 +354,6 @@
     <message>
         <source>Add "%name" also below ...</source>
         <translation>"%name" fara ... jukɔrɔ fana</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>Dabila</translation>
     </message>
     <message>
         <source>In: %name</source>
@@ -494,10 +474,6 @@
     <message>
         <source>Menu</source>
         <translation>Menu</translation>
-    </message>
-    <message>
-        <source>Edit</source>
-        <translation>Yɛlɛma</translation>
     </message>
     <message>
         <source>Arrow keys move it, Enter opens it.</source>

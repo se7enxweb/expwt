@@ -130,6 +130,23 @@
     var order = [];
     var others = [];
     p.fields.forEach(function (f) {
+      if (f.embed) {
+        /* rich text, tags, relations, images and every other datatype: what the field shows now, and its own editor
+           (expwt/field: the configured rich text editor, the tag picker ...) on Edit; never a text form of its storage */
+        var preview = h('div', { class: 'wt-preview' });
+        drawPreview(preview, f);
+        var editBtn = h('button', { type: 'button', class: 'wt-btn', 'aria-expanded': 'false', text: t('Edit'),
+          'aria-label': t('Edit') + ': ' + f.name, onclick: function () { openEditor(f, embedRow, editBtn); } });
+        var embedRow = h('div', { class: 'wt-field is-embed' + (f.input === 'richtext' ? ' is-wide' : ''), 'data-field': f.identifier,
+          role: 'group', 'aria-label': f.name }, [
+          h('span', { text: f.name + (f.required ? ' (' + t('required') + ')' : '') }), preview, h('div', { class: 'wt-row' }, [editBtn])
+        ]);
+        embedRow.expwtPreview = preview;
+        rows[f.identifier] = embedRow;
+        order.push(embedRow);
+        form.appendChild(embedRow);
+        return;
+      }
       if (!f.editable) { others.push(f.name); return; }
       var id = 'wt-f-' + f.identifier;
       var input = control(ctx, f, id, function (v) { change(f.identifier, v, true); });
@@ -137,7 +154,7 @@
       var row = h('label', { class: 'wt-field', for: id, 'data-field': f.identifier,
         onmouseenter: function () { highlight(f.identifier, true); }, onmouseleave: function () { highlight(f.identifier, false); } },
         [h('span', { text: f.name + (f.required ? ' (' + t('required') + ')' : '') }), input.el]);
-      if (f.input === 'richtext' || f.input === 'checkbox' || f.input === 'multiselect') {
+      if (f.input === 'richtext' || f.input === 'checkbox' || f.input === 'multiselect' || f.input === 'url') {
         row = h('div', { class: 'wt-field', 'data-field': f.identifier, role: 'group', 'aria-label': f.name }, [
           h('span', { id: id + '-label', text: f.name + (f.required ? ' (' + t('required') + ')' : '') }), input.el]);
       }
@@ -214,6 +231,77 @@
     root.appendChild(mainActions);
     if (root.getAttribute('data-panel') === 'page') { ctx.primary(mainActions); }
     discardBtn.hidden = !version;
+
+    /* A field's own editor in a frame (expwt/field). On left and right below the field; on top and bottom over the
+       bar's body, the bar made higher while it is open (and back after), its row of main actions still in view. The
+       frame's page tells which draft it edits (the same one: unsaved fields of the form are saved first) and, after
+       its Save draft, the field's new value. */
+    var editing = null;
+    function openEditor(f, row, btn) {
+      if (editing) {
+        var same = editing.field === f;
+        closeEditor();
+        if (same) { return; }
+      }
+      var first = Object.keys(dirtyFields()).length ? save() : Promise.resolve(version);
+      first.then(function (v) {
+        var fieldBase = String(ctx.boot.transport.rest || '').replace(/\/api$/, '/field');
+        var src = fieldBase + '/' + p.objectId + '/' + (v || 0) + '/' + encodeURIComponent(p.language) + '/' + encodeURIComponent(f.identifier)
+          + '?theme=' + encodeURIComponent(ctx.host.getAttribute('data-theme') || '');
+        var frame = h('iframe', { class: 'wt-frame', src: src, title: f.name });
+        var pane;
+        if (ctx.horizontal() && root.clientWidth >= 640) {
+          pane = h('div', { class: 'wt-editor-pane', role: 'group', 'aria-label': f.name }, [
+            h('div', { class: 'wt-editor-head' }, [
+              h('strong', { text: f.name }),
+              h('button', { type: 'button', class: 'wt-btn', text: t('Cancel'), onclick: function () { closeEditor(); btn.focus(); } })
+            ]),
+            frame
+          ]);
+          root.appendChild(pane);
+          var before = ctx.host.state.height;
+          ctx.host.setState({ height: Math.max(before, 520) }, true);
+          editing = { field: f, pane: pane, btn: btn, height: before };
+        } else {
+          pane = h('div', { class: 'wt-editor-inline' }, [frame]);
+          row.appendChild(pane);
+          editing = { field: f, pane: pane, btn: btn, height: null };
+        }
+        btn.setAttribute('aria-expanded', 'true');
+        frame.focus();
+      }).catch(function () {});
+    }
+
+    function closeEditor() {
+      if (!editing) { return; }
+      editing.pane.remove();
+      editing.btn.setAttribute('aria-expanded', 'false');
+      if (editing.height !== null) { ctx.host.setState({ height: editing.height }, true); }
+      editing = null;
+    }
+
+    function fromField(e) {
+      var m = e.detail || {};
+      if (m.objectId !== p.objectId) { return; }
+      if (m.version && m.version !== version) {
+        version = m.version;
+        discardBtn.hidden = false;
+        drawChips();
+      }
+      if (m.expwt === 'field-saved' && m.value) {
+        var f = p.fields.filter(function (x) { return x.identifier === m.identifier; })[0];
+        if (f) {
+          f.value = m.value.value;
+          f.names = m.value.names;
+          base[f.identifier] = values[f.identifier] = f.value;
+          if (rows[f.identifier] && rows[f.identifier].expwtPreview) { drawPreview(rows[f.identifier].expwtPreview, f); }
+        }
+        ctx.say(t('The draft is saved.'), 'ok');
+      }
+    }
+    if (root.expwtField) { root.removeEventListener('expwt-field', root.expwtField); }
+    root.expwtField = fromField;
+    root.addEventListener('expwt-field', fromField);
 
     function dirtyFields() {
       var out = {};
@@ -336,9 +424,17 @@
       }, function (err) { failure(ctx, err); });
     }
 
-    /* Editing on the page: the page's own text that shows a field's value becomes editable in place. */
+    /* Editing on the page: the page's own text that shows a field's value becomes editable in place. Where the kernel
+       marked the rendered attributes (F20: <!--exp-field data-exp-field data-exp-object ...-->, for a user who may
+       edit with the sidebar) the field is found by its marker; else, as before, by its value. */
     var placed = {};
     function findOnPage(f) {
+      var marked = fieldMarkers(p.objectId, f.identifier);
+      var els = marked.map(function (range) { return markedTarget(range, f); }).filter(function (el) { return el; });
+      return els.length ? els : findByValue(f);
+    }
+
+    function findByValue(f) {
       var want = String(f.value || '').trim();
       if (!want) { return []; }
       var found = [];
@@ -402,6 +498,75 @@
     }
   }
 
+  /* What an embedded field shows in the form: rich text as the page renders it (the server's own output of the
+     stored XML), tags and related objects as chips of their names, anything else as its readable text. */
+  function drawPreview(box, f) {
+    var h = function (tag, attrs) { var el = document.createElement(tag); Object.keys(attrs || {}).forEach(function (k) { if (k === 'text') { el.textContent = attrs[k]; } else { el.setAttribute(k, attrs[k]); } }); return el; };
+    box.textContent = '';
+    if (f.names) {
+      box.classList.add('wt-names');
+      if (!f.names.length) { box.appendChild(h('span', { class: 'wt-muted', text: '–' })); }
+      f.names.forEach(function (n) { box.appendChild(h('span', { class: 'wt-chip', text: n })); });
+    } else if (f.input === 'richtext') {
+      box.classList.add('wt-rich-preview');
+      box.innerHTML = f.value || '';
+    } else {
+      box.appendChild(h('span', { class: f.value ? '' : 'wt-muted', text: f.value || '–' }));
+    }
+  }
+
+  /* The kernel's markers of the rendered attributes (expContentFieldMarker): the ranges [open comment, close comment]
+     of one field of one object, outermost first; a marker inside another one's output (an embedded object) is its
+     own range. */
+  function fieldMarkers(objectId, identifier) {
+    var out = [];
+    if (!document.createTreeWalker) { return out; }
+    var walker = document.createTreeWalker(document.body, NodeFilter.SHOW_COMMENT);
+    var stack = [];
+    var node;
+    while ((node = walker.nextNode())) {
+      var text = node.data || '';
+      if (text.indexOf('exp-field ') === 0) {
+        var attrs = {};
+        text.replace(/data-exp-([a-z]+)="([^"]*)"/g, function (m, k, v) { attrs[k] = v; return m; });
+        stack.push({ open: node, attrs: attrs });
+      } else if (text === '/exp-field' && stack.length) {
+        var range = stack.pop();
+        range.close = node;
+        if (String(range.attrs.object) === String(objectId) && range.attrs.field === identifier && range.open.parentNode === node.parentNode) {
+          out.push(range);
+        }
+      }
+    }
+    return out;
+  }
+
+  /* The element that shows a marked field and can be edited in place: the one element of its output (and, for a
+     text, the innermost element that holds only it), or its parent when the output is the parent's whole content;
+     a text in a field's output must read as the field's value. null when there is no such element. */
+  function markedTarget(range, f) {
+    var inside = [];
+    for (var n = range.open.nextSibling; n && n !== range.close; n = n.nextSibling) {
+      if (n.nodeType === 1 || (n.nodeType === 3 && n.data.trim())) { inside.push(n); }
+    }
+    var el = null;
+    if (inside.length === 1 && inside[0].nodeType === 1) {
+      el = inside[0];
+    } else if (inside.length && range.open.parentNode && range.open.parentNode !== document.body) {
+      var parent = range.open.parentNode;
+      var only = Array.prototype.every.call(parent.childNodes, function (c) {
+        return inside.indexOf(c) >= 0 || c === range.open || c === range.close || c.nodeType === 8 || (c.nodeType === 3 && !c.data.trim());
+      });
+      el = only ? parent : null;
+    }
+    if (!el || el.closest('exp-wt')) { return null; }
+    if (f.input === 'richtext') { return el; }
+    while (el.children.length === 1 && !Array.prototype.some.call(el.childNodes, function (c) { return c.nodeType === 3 && c.data.trim(); })) {
+      el = el.children[0];
+    }
+    return el.children.length === 0 && el.textContent.trim() === String(f.value || '').trim() ? el : null;
+  }
+
   /* One input of the sidebar form: el, set( value ) */
   function control(ctx, f, id, onChange) {
     var h = ctx.h;
@@ -412,25 +577,6 @@
       case 'textarea':
         el = h('textarea', { id: id, value: f.value, oninput: function () { onChange(el.value); } });
         set = function (v) { el.value = v; };
-        break;
-      case 'richtext':
-        var area = h('div', { class: 'wt-rich', id: id, contenteditable: 'true', role: 'textbox', 'aria-multiline': 'true', 'aria-labelledby': id + '-label',
-          oninput: function () { onChange(area.innerHTML.trim()); } });
-        area.innerHTML = f.value;
-        var cmd = function (name, label, arg) {
-          return h('button', { type: 'button', class: 'wt-btn', text: label, onmousedown: function (e) { e.preventDefault(); },
-            onclick: function () {
-              area.focus();
-              var value = arg;
-              if (name === 'createLink') { value = window.prompt(t('Address of the link')); if (!value) { return; } }
-              document.execCommand(name, false, value);
-              onChange(area.innerHTML.trim());
-            } });
-        };
-        el = h('div', {}, [h('div', { class: 'wt-row', role: 'toolbar', 'aria-label': t('Text format') }, [
-          cmd('bold', t('Bold')), cmd('italic', t('Italic')), cmd('insertUnorderedList', t('List')), cmd('createLink', t('Link'))
-        ]), area]);
-        set = function (v) { area.innerHTML = v; };
         break;
       case 'checkbox':
         var box = h('input', { type: 'checkbox', id: id, checked: f.value === '1', onchange: function () { onChange(box.checked ? '1' : '0'); } });
@@ -458,14 +604,21 @@
         el = d;
         set = function () {};
         break;
+      case 'url':
+        /* a link: its address and its text, two inputs (the datatype's string form "address|text" never shows) */
+        var parts = String(f.value || '').split('|');
+        var address = h('input', { type: 'url', id: id, value: parts[0] || '', 'aria-labelledby': id + '-label', oninput: function () { send(); } });
+        var linkText = h('input', { type: 'text', id: id + '-text', value: parts.slice(1).join('|'), oninput: function () { send(); } });
+        var send = function () { onChange(address.value.replace(/\|/g, '%7C') + (linkText.value ? '|' + linkText.value : '')); };
+        el = h('div', { class: 'wt-url' }, [address,
+          h('label', { class: 'wt-field', for: id + '-text' }, [h('span', { text: t('Text of the link') }), linkText])]);
+        set = function (v) { var q = String(v || '').split('|'); address.value = q[0] || ''; linkText.value = q.slice(1).join('|'); };
+        break;
       default:
         var type = { number: 'number', decimal: 'number', email: 'email' }[f.input] || 'text';
         var inp = h('input', { type: type, id: id, value: f.value, step: f.input === 'decimal' ? 'any' : null,
-          'aria-describedby': ['url', 'keywords', 'relations', 'tags'].indexOf(f.input) >= 0 ? id + '-hint' : null,
           oninput: function () { onChange(inp.value); } });
-        el = ['url', 'keywords', 'relations', 'tags'].indexOf(f.input) >= 0
-          ? h('div', {}, [inp, h('span', { class: 'wt-muted', id: id + '-hint', text: t('In the text form of the field (values parted by |).') })])
-          : inp;
+        el = inp;
         set = function (v) { inp.value = v; };
     }
     return { el: el, set: set };

@@ -136,6 +136,10 @@
         <translation>Бүрэн засварлагч</translation>
     </message>
     <message>
+        <source>Edit</source>
+        <translation>Засах</translation>
+    </message>
+    <message>
         <source>required</source>
         <translation>заавал</translation>
     </message>
@@ -172,12 +176,16 @@
         <translation>Ноорог устгах</translation>
     </message>
     <message>
-        <source>Saving ...</source>
-        <translation>Хадгалж байна ...</translation>
+        <source>Cancel</source>
+        <translation>Цуцлах</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
         <translation>Ноорог хадгалагдлаа.</translation>
+    </message>
+    <message>
+        <source>Saving ...</source>
+        <translation>Хадгалж байна ...</translation>
     </message>
     <message>
         <source>Someone else changed these fields in the meantime. Choose for each field which text to keep, then save again.</source>
@@ -236,36 +244,12 @@
         <translation>Одоогийн байдлаар талбаруудын аль нь ч энэ хуудсанд харагдахгүй байна; маягтыг ашиглана уу.</translation>
     </message>
     <message>
-        <source>Address of the link</source>
-        <translation>Холбоосын хаяг</translation>
-    </message>
-    <message>
-        <source>Text format</source>
-        <translation>Текстийн формат</translation>
-    </message>
-    <message>
-        <source>Bold</source>
-        <translation>Тод</translation>
-    </message>
-    <message>
-        <source>Italic</source>
-        <translation>Налуу</translation>
-    </message>
-    <message>
-        <source>List</source>
-        <translation>Жагсаалт</translation>
-    </message>
-    <message>
-        <source>Link</source>
-        <translation>Холбоос</translation>
-    </message>
-    <message>
         <source>Yes</source>
         <translation>Тийм</translation>
     </message>
     <message>
-        <source>In the text form of the field (values parted by |).</source>
-        <translation>Талбарын текст хэлбэрээр (утгуудыг | тэмдгээр тусгаарлана).</translation>
+        <source>Text of the link</source>
+        <translation>Холбоосын текст</translation>
     </message>
     <message>
         <source>You may not create anything here.</source>
@@ -370,10 +354,6 @@
     <message>
         <source>Add "%name" also below ...</source>
         <translation>"%name"-г мөн доор нь нэмэх ...</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>Цуцлах</translation>
     </message>
     <message>
         <source>In: %name</source>
@@ -494,10 +474,6 @@
     <message>
         <source>Menu</source>
         <translation>Цэс</translation>
-    </message>
-    <message>
-        <source>Edit</source>
-        <translation>Засах</translation>
     </message>
     <message>
         <source>Arrow keys move it, Enter opens it.</source>

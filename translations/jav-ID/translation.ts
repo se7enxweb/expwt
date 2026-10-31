@@ -136,6 +136,10 @@
         <translation>Editor lengkap</translation>
     </message>
     <message>
+        <source>Edit</source>
+        <translation>Sunting</translation>
+    </message>
+    <message>
         <source>required</source>
         <translation>wajib</translation>
     </message>
@@ -172,12 +176,16 @@
         <translation>Buang draf</translation>
     </message>
     <message>
-        <source>Saving ...</source>
-        <translation>Nyimpen ...</translation>
+        <source>Cancel</source>
+        <translation>Batal</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
         <translation>Draf wis disimpen.</translation>
+    </message>
+    <message>
+        <source>Saving ...</source>
+        <translation>Nyimpen ...</translation>
     </message>
     <message>
         <source>Someone else changed these fields in the meantime. Choose for each field which text to keep, then save again.</source>
@@ -236,36 +244,12 @@
         <translation>Ora ana kolom sing katon ing kaca iki kaya mangkene; gunakake formulir.</translation>
     </message>
     <message>
-        <source>Address of the link</source>
-        <translation>Alamat pranala</translation>
-    </message>
-    <message>
-        <source>Text format</source>
-        <translation>Format teks</translation>
-    </message>
-    <message>
-        <source>Bold</source>
-        <translation>Kandel</translation>
-    </message>
-    <message>
-        <source>Italic</source>
-        <translation>Miring</translation>
-    </message>
-    <message>
-        <source>List</source>
-        <translation>Dhaptar</translation>
-    </message>
-    <message>
-        <source>Link</source>
-        <translation>Pranala</translation>
-    </message>
-    <message>
         <source>Yes</source>
         <translation>Ya</translation>
     </message>
     <message>
-        <source>In the text form of the field (values parted by |).</source>
-        <translation>Ing wujud teks kolom (nilai dipisah nganggo |).</translation>
+        <source>Text of the link</source>
+        <translation>Teks pranala</translation>
     </message>
     <message>
         <source>You may not create anything here.</source>
@@ -370,10 +354,6 @@
     <message>
         <source>Add "%name" also below ...</source>
         <translation>Tambahake "%name" uga ing ngisor ...</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>Batal</translation>
     </message>
     <message>
         <source>In: %name</source>
@@ -494,10 +474,6 @@
     <message>
         <source>Menu</source>
         <translation>Menu</translation>
-    </message>
-    <message>
-        <source>Edit</source>
-        <translation>Sunting</translation>
     </message>
     <message>
         <source>Arrow keys move it, Enter opens it.</source>

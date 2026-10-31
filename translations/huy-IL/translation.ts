@@ -136,6 +136,10 @@
         <translation>מתקננא שלמא</translation>
     </message>
     <message>
+        <source>Edit</source>
+        <translation>תוקנא</translation>
+    </message>
+    <message>
         <source>required</source>
         <translation>אלציא</translation>
     </message>
@@ -172,12 +176,16 @@
         <translation>שדיא דסורטא</translation>
     </message>
     <message>
-        <source>Saving ...</source>
-        <translation>נטרא ...</translation>
+        <source>Cancel</source>
+        <translation>בוטלא</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
         <translation>סורטא נטירא.</translation>
+    </message>
+    <message>
+        <source>Saving ...</source>
+        <translation>נטרא ...</translation>
     </message>
     <message>
         <source>Someone else changed these fields in the meantime. Choose for each field which text to keep, then save again.</source>
@@ -236,36 +244,12 @@
         <translation>חד מן חקלא לא מתחזא בפאתא הדא הכנא; משמשון בטופסא.</translation>
     </message>
     <message>
-        <source>Address of the link</source>
-        <translation>נישנא דאסורא</translation>
-    </message>
-    <message>
-        <source>Text format</source>
-        <translation>צורתא דכתיבתא</translation>
-    </message>
-    <message>
-        <source>Bold</source>
-        <translation>עבא</translation>
-    </message>
-    <message>
-        <source>Italic</source>
-        <translation>סטיא</translation>
-    </message>
-    <message>
-        <source>List</source>
-        <translation>רשימתא</translation>
-    </message>
-    <message>
-        <source>Link</source>
-        <translation>אסורא</translation>
-    </message>
-    <message>
         <source>Yes</source>
         <translation>אין</translation>
     </message>
     <message>
-        <source>In the text form of the field (values parted by |).</source>
-        <translation>בצורתא דכתיבתא דחקלא (פרטא פרישא ב|).</translation>
+        <source>Text of the link</source>
+        <translation>כתבא דאסורא</translation>
     </message>
     <message>
         <source>You may not create anything here.</source>
@@ -370,10 +354,6 @@
     <message>
         <source>Add "%name" also below ...</source>
         <translation>זודא „%name” אפ תחות ...</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>בוטלא</translation>
     </message>
     <message>
         <source>In: %name</source>
@@ -494,10 +474,6 @@
     <message>
         <source>Menu</source>
         <translation>מנו</translation>
-    </message>
-    <message>
-        <source>Edit</source>
-        <translation>תוקנא</translation>
     </message>
     <message>
         <source>Arrow keys move it, Enter opens it.</source>

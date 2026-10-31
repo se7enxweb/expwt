@@ -136,6 +136,10 @@
         <translation>Повний редактор</translation>
     </message>
     <message>
+        <source>Edit</source>
+        <translation>Редагувати</translation>
+    </message>
+    <message>
         <source>required</source>
         <translation>обов'язково</translation>
     </message>
@@ -172,12 +176,16 @@
         <translation>Відкинути чернетку</translation>
     </message>
     <message>
-        <source>Saving ...</source>
-        <translation>Збереження ...</translation>
+        <source>Cancel</source>
+        <translation>Скасувати</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
         <translation>Чернетку збережено.</translation>
+    </message>
+    <message>
+        <source>Saving ...</source>
+        <translation>Збереження ...</translation>
     </message>
     <message>
         <source>Someone else changed these fields in the meantime. Choose for each field which text to keep, then save again.</source>
@@ -236,36 +244,12 @@
         <translation>Жодне з полів не показано на цій сторінці як є; скористайтеся формою.</translation>
     </message>
     <message>
-        <source>Address of the link</source>
-        <translation>Адреса посилання</translation>
-    </message>
-    <message>
-        <source>Text format</source>
-        <translation>Формат тексту</translation>
-    </message>
-    <message>
-        <source>Bold</source>
-        <translation>Жирний</translation>
-    </message>
-    <message>
-        <source>Italic</source>
-        <translation>Курсив</translation>
-    </message>
-    <message>
-        <source>List</source>
-        <translation>Список</translation>
-    </message>
-    <message>
-        <source>Link</source>
-        <translation>Посилання</translation>
-    </message>
-    <message>
         <source>Yes</source>
         <translation>Так</translation>
     </message>
     <message>
-        <source>In the text form of the field (values parted by |).</source>
-        <translation>У текстовій формі поля (значення розділено |).</translation>
+        <source>Text of the link</source>
+        <translation>Текст посилання</translation>
     </message>
     <message>
         <source>You may not create anything here.</source>
@@ -370,10 +354,6 @@
     <message>
         <source>Add "%name" also below ...</source>
         <translation>Додати «%name» також під ...</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>Скасувати</translation>
     </message>
     <message>
         <source>In: %name</source>
@@ -494,10 +474,6 @@
     <message>
         <source>Menu</source>
         <translation>Меню</translation>
-    </message>
-    <message>
-        <source>Edit</source>
-        <translation>Редагувати</translation>
     </message>
     <message>
         <source>Arrow keys move it, Enter opens it.</source>

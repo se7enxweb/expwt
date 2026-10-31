@@ -925,8 +925,14 @@
     }
 
     message(e) {
-      if (e.origin === window.location.origin && e.data && e.data.expwt === 'reauth-done' && this.reauthDone) {
+      if (e.origin !== window.location.origin || !e.data || typeof e.data.expwt !== 'string') {
+        return;
+      }
+      if (e.data.expwt === 'reauth-done' && this.reauthDone) {
         this.reauthDone();
+      } else if (e.data.expwt.indexOf('field-') === 0) {
+        /* a field's editor in its frame (expwt/field): its draft, its new value after a save, to the open panel */
+        this.body.dispatchEvent(new CustomEvent('expwt-field', { detail: e.data }));
       }
     }
 

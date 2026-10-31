@@ -136,6 +136,10 @@
         <translation>ⴰⵎⵙⵏⴼⵍ ⴰⵎⴷⴷⴰⴷ</translation>
     </message>
     <message>
+        <source>Edit</source>
+        <translation>ⵙⵏⴼⵍ</translation>
+    </message>
+    <message>
         <source>required</source>
         <translation>ⵉⵍⴰⵇⵇⴰ</translation>
     </message>
@@ -172,12 +176,16 @@
         <translation>ⴳⵔ ⴰⵔⵡⵡⴰⵢ</translation>
     </message>
     <message>
-        <source>Saving ...</source>
-        <translation>ⴰⵃⵟⵟⵓ ...</translation>
+        <source>Cancel</source>
+        <translation>ⵙⵔ</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
         <translation>ⴰⵔⵡⵡⴰⵢ ⵉⵜⵜⵓⵃⴹⴰ.</translation>
+    </message>
+    <message>
+        <source>Saving ...</source>
+        <translation>ⴰⵃⵟⵟⵓ ...</translation>
     </message>
     <message>
         <source>Someone else changed these fields in the meantime. Choose for each field which text to keep, then save again.</source>
@@ -236,36 +244,12 @@
         <translation>ⵓⵍⴰ ⵢⴰⵏ ⵓⴳⵔⵓ ⵓⵔ ⵉⵜⵜⴱⴰⵢⴰⵏ ⴳ ⵜⵙⵏⴰ ⴰⴷ ⵎⴰⵎⴽ ⵜⵍⵍⴰ; ⵙⵎⵔⵙ ⵜⴰⵍⵖⴰ.</translation>
     </message>
     <message>
-        <source>Address of the link</source>
-        <translation>ⵜⴰⵏⵙⴰ ⵏ ⵓⵥⴷⴰⵢ</translation>
-    </message>
-    <message>
-        <source>Text format</source>
-        <translation>ⵜⴰⵍⵖⴰ ⵏ ⵓⴹⵔⵉⵚ</translation>
-    </message>
-    <message>
-        <source>Bold</source>
-        <translation>ⴰⵣⵓⵔⴰⵏ</translation>
-    </message>
-    <message>
-        <source>Italic</source>
-        <translation>ⴰⵎⴰⵍⴰⵢ</translation>
-    </message>
-    <message>
-        <source>List</source>
-        <translation>ⵜⴰⵍⴳⴰⵎⵜ</translation>
-    </message>
-    <message>
-        <source>Link</source>
-        <translation>ⴰⵥⴷⴰⵢ</translation>
-    </message>
-    <message>
         <source>Yes</source>
         <translation>ⵢⴰⵀ</translation>
     </message>
     <message>
-        <source>In the text form of the field (values parted by |).</source>
-        <translation>ⴳ ⵜⵍⵖⴰ ⵏ ⵓⴹⵔⵉⵚ ⵏ ⵓⴳⵔⵓ (ⵉⵣⴰⵍⵏ ⵜⵜⵓⴱⴹⴰⵏ ⵙ |).</translation>
+        <source>Text of the link</source>
+        <translation>ⴰⴹⵕⵉⵚ ⵏ ⵓⵥⴷⴰⵢ</translation>
     </message>
     <message>
         <source>You may not create anything here.</source>
@@ -370,10 +354,6 @@
     <message>
         <source>Add "%name" also below ...</source>
         <translation>ⵔⵏⵓ "%name" ⴷⴰⵖ ⴷⴷⴰⵡ ...</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>ⵙⵔ</translation>
     </message>
     <message>
         <source>In: %name</source>
@@ -494,10 +474,6 @@
     <message>
         <source>Menu</source>
         <translation>ⴰⵍⵜⵜⵓ</translation>
-    </message>
-    <message>
-        <source>Edit</source>
-        <translation>ⵙⵏⴼⵍ</translation>
     </message>
     <message>
         <source>Arrow keys move it, Enter opens it.</source>

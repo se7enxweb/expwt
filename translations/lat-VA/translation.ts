@@ -136,6 +136,10 @@
         <translation>Editor plenus</translation>
     </message>
     <message>
+        <source>Edit</source>
+        <translation>Recensere</translation>
+    </message>
+    <message>
         <source>required</source>
         <translation>necessarium</translation>
     </message>
@@ -172,12 +176,16 @@
         <translation>Adumbrationem abicere</translation>
     </message>
     <message>
-        <source>Saving ...</source>
-        <translation>Servatur...</translation>
+        <source>Cancel</source>
+        <translation>Abrogare</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
         <translation>Adumbratio servata est.</translation>
+    </message>
+    <message>
+        <source>Saving ...</source>
+        <translation>Servatur...</translation>
     </message>
     <message>
         <source>Someone else changed these fields in the meantime. Choose for each field which text to keep, then save again.</source>
@@ -236,36 +244,12 @@
         <translation>Nullus camporum in hac pagina, ut est, apparet; formulam adhibe.</translation>
     </message>
     <message>
-        <source>Address of the link</source>
-        <translation>Inscriptio nexus</translation>
-    </message>
-    <message>
-        <source>Text format</source>
-        <translation>Forma textus</translation>
-    </message>
-    <message>
-        <source>Bold</source>
-        <translation>Crassum</translation>
-    </message>
-    <message>
-        <source>Italic</source>
-        <translation>Obliquum</translation>
-    </message>
-    <message>
-        <source>List</source>
-        <translation>Index</translation>
-    </message>
-    <message>
-        <source>Link</source>
-        <translation>Nexus</translation>
-    </message>
-    <message>
         <source>Yes</source>
         <translation>Ita</translation>
     </message>
     <message>
-        <source>In the text form of the field (values parted by |).</source>
-        <translation>In forma textuali campi (valores per | separati).</translation>
+        <source>Text of the link</source>
+        <translation>Textus nexus</translation>
     </message>
     <message>
         <source>You may not create anything here.</source>
@@ -370,10 +354,6 @@
     <message>
         <source>Add "%name" also below ...</source>
         <translation>"%name" etiam addere sub...</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>Abrogare</translation>
     </message>
     <message>
         <source>In: %name</source>
@@ -494,10 +474,6 @@
     <message>
         <source>Menu</source>
         <translation>Index rerum</translation>
-    </message>
-    <message>
-        <source>Edit</source>
-        <translation>Recensere</translation>
     </message>
     <message>
         <source>Arrow keys move it, Enter opens it.</source>

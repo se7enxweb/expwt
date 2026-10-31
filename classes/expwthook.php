@@ -48,7 +48,8 @@ class expwtHook
      */
     public static function inject( $html, $markup )
     {
-        if ( $markup === '' || !is_string( $html ) || strpos( $html, '<' . self::TAG ) !== false )
+        // not into a field's editor in the sidebar's frame (expwt/field)
+        if ( $markup === '' || !is_string( $html ) || strpos( $html, '<' . self::TAG ) !== false || strpos( $html, '<meta name="expwt" content="field"' ) !== false )
             return $html;
         $pos = strripos( $html, '</body>' );
         return $pos === false ? $html : substr( $html, 0, $pos ) . $markup . substr( $html, $pos );

@@ -136,6 +136,10 @@
         <translation>Gulaalaa guutuu</translation>
     </message>
     <message>
+        <source>Edit</source>
+        <translation>Gulaali</translation>
+    </message>
+    <message>
         <source>required</source>
         <translation>barbaachisaa</translation>
     </message>
@@ -172,12 +176,16 @@
         <translation>Wixinee gatii</translation>
     </message>
     <message>
-        <source>Saving ...</source>
-        <translation>Olkaa'aa jira ...</translation>
+        <source>Cancel</source>
+        <translation>Dhiisi</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
         <translation>Wixineen olkaa'ameera.</translation>
+    </message>
+    <message>
+        <source>Saving ...</source>
+        <translation>Olkaa'aa jira ...</translation>
     </message>
     <message>
         <source>Someone else changed these fields in the meantime. Choose for each field which text to keep, then save again.</source>
@@ -236,36 +244,12 @@
         <translation>Iddoowwan keessaa tokkollee akkuma jirutti fuula kana irratti hin mul'atu; unka fayyadami.</translation>
     </message>
     <message>
-        <source>Address of the link</source>
-        <translation>Teessoo hidhaa</translation>
-    </message>
-    <message>
-        <source>Text format</source>
-        <translation>Bifa barreeffamaa</translation>
-    </message>
-    <message>
-        <source>Bold</source>
-        <translation>Furdaa</translation>
-    </message>
-    <message>
-        <source>Italic</source>
-        <translation>Jallisaa</translation>
-    </message>
-    <message>
-        <source>List</source>
-        <translation>Tarree</translation>
-    </message>
-    <message>
-        <source>Link</source>
-        <translation>Hidhaa</translation>
-    </message>
-    <message>
         <source>Yes</source>
         <translation>Eeyyee</translation>
     </message>
     <message>
-        <source>In the text form of the field (values parted by |).</source>
-        <translation>Bifa barreeffamaa iddoo sanaa keessatti (gatiiwwan | n adda baafaman).</translation>
+        <source>Text of the link</source>
+        <translation>Barreeffama hidhaa</translation>
     </message>
     <message>
         <source>You may not create anything here.</source>
@@ -370,10 +354,6 @@
     <message>
         <source>Add "%name" also below ...</source>
         <translation>"%name" akkasumas jala dabali ...</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>Dhiisi</translation>
     </message>
     <message>
         <source>In: %name</source>
@@ -494,10 +474,6 @@
     <message>
         <source>Menu</source>
         <translation>Baafata</translation>
-    </message>
-    <message>
-        <source>Edit</source>
-        <translation>Gulaali</translation>
     </message>
     <message>
         <source>Arrow keys move it, Enter opens it.</source>

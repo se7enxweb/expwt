@@ -136,6 +136,10 @@
         <translation>Fakatonutonu kakato</translation>
     </message>
     <message>
+        <source>Edit</source>
+        <translation>Fakatonutonu</translation>
+    </message>
+    <message>
         <source>required</source>
         <translation>fiemaʻu</translation>
     </message>
@@ -172,12 +176,16 @@
         <translation>Liʻaki ʻa e tohi fakataimi</translation>
     </message>
     <message>
-        <source>Saving ...</source>
-        <translation>ʻOku tauhi ...</translation>
+        <source>Cancel</source>
+        <translation>Kaniseli</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
         <translation>Kuo tauhi ʻa e tohi fakataimi.</translation>
+    </message>
+    <message>
+        <source>Saving ...</source>
+        <translation>ʻOku tauhi ...</translation>
     </message>
     <message>
         <source>Someone else changed these fields in the meantime. Choose for each field which text to keep, then save again.</source>
@@ -236,36 +244,12 @@
         <translation>ʻOku ʻikai ha feituʻu ʻe hā ʻi he peesi ni ʻo hangē ko ia ʻoku ʻi ai; ngāueʻaki ʻa e foomu.</translation>
     </message>
     <message>
-        <source>Address of the link</source>
-        <translation>Tuʻasila ʻo e fehokotaki</translation>
-    </message>
-    <message>
-        <source>Text format</source>
-        <translation>Fōmeti ʻo e tohi</translation>
-    </message>
-    <message>
-        <source>Bold</source>
-        <translation>Matolu</translation>
-    </message>
-    <message>
-        <source>Italic</source>
-        <translation>Tafatafa</translation>
-    </message>
-    <message>
-        <source>List</source>
-        <translation>Lisi</translation>
-    </message>
-    <message>
-        <source>Link</source>
-        <translation>Fehokotaki</translation>
-    </message>
-    <message>
         <source>Yes</source>
         <translation>ʻIo</translation>
     </message>
     <message>
-        <source>In the text form of the field (values parted by |).</source>
-        <translation>ʻI he fōmu tohi ʻo e feituʻu (ngaahi mahuʻinga ʻoku vaheʻi ʻaki ʻa e |).</translation>
+        <source>Text of the link</source>
+        <translation>Tohi ʻo e fehokotaki</translation>
     </message>
     <message>
         <source>You may not create anything here.</source>
@@ -370,10 +354,6 @@
     <message>
         <source>Add "%name" also below ...</source>
         <translation>Tānaki foki ʻa "%name" ʻi lalo ʻi ...</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>Kaniseli</translation>
     </message>
     <message>
         <source>In: %name</source>
@@ -494,10 +474,6 @@
     <message>
         <source>Menu</source>
         <translation>Menu</translation>
-    </message>
-    <message>
-        <source>Edit</source>
-        <translation>Fakatonutonu</translation>
     </message>
     <message>
         <source>Arrow keys move it, Enter opens it.</source>

@@ -136,6 +136,10 @@
         <translation>Ētita katoa</translation>
     </message>
     <message>
+        <source>Edit</source>
+        <translation>Whakatika</translation>
+    </message>
+    <message>
         <source>required</source>
         <translation>herenga</translation>
     </message>
@@ -172,12 +176,16 @@
         <translation>Whakakore tauira</translation>
     </message>
     <message>
-        <source>Saving ...</source>
-        <translation>E tiaki ana ...</translation>
+        <source>Cancel</source>
+        <translation>Whakakore</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
         <translation>Kua tiakina te tauira.</translation>
+    </message>
+    <message>
+        <source>Saving ...</source>
+        <translation>E tiaki ana ...</translation>
     </message>
     <message>
         <source>Someone else changed these fields in the meantime. Choose for each field which text to keep, then save again.</source>
@@ -236,36 +244,12 @@
         <translation>Kāore tētahi o ngā āpure e kitea ana i tēnei whārangi i tōna āhua ināianei; whakamahia te puka.</translation>
     </message>
     <message>
-        <source>Address of the link</source>
-        <translation>Wāhitau o te hono</translation>
-    </message>
-    <message>
-        <source>Text format</source>
-        <translation>Hōputu kupu</translation>
-    </message>
-    <message>
-        <source>Bold</source>
-        <translation>Mātotoru</translation>
-    </message>
-    <message>
-        <source>Italic</source>
-        <translation>Tītaha</translation>
-    </message>
-    <message>
-        <source>List</source>
-        <translation>Rārangi</translation>
-    </message>
-    <message>
-        <source>Link</source>
-        <translation>Hono</translation>
-    </message>
-    <message>
         <source>Yes</source>
         <translation>Āe</translation>
     </message>
     <message>
-        <source>In the text form of the field (values parted by |).</source>
-        <translation>I te āhua kupu o te āpure (ka wehea ngā uara e |).</translation>
+        <source>Text of the link</source>
+        <translation>Kuputuhi o te hono</translation>
     </message>
     <message>
         <source>You may not create anything here.</source>
@@ -370,10 +354,6 @@
     <message>
         <source>Add "%name" also below ...</source>
         <translation>Tāpiri "%name" ki raro anō i ...</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>Whakakore</translation>
     </message>
     <message>
         <source>In: %name</source>
@@ -494,10 +474,6 @@
     <message>
         <source>Menu</source>
         <translation>Tahua</translation>
-    </message>
-    <message>
-        <source>Edit</source>
-        <translation>Whakatika</translation>
     </message>
     <message>
         <source>Arrow keys move it, Enter opens it.</source>

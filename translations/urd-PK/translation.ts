@@ -136,6 +136,10 @@
         <translation>مکمل ایڈیٹر</translation>
     </message>
     <message>
+        <source>Edit</source>
+        <translation>ترمیم</translation>
+    </message>
+    <message>
         <source>required</source>
         <translation>لازمی</translation>
     </message>
@@ -172,12 +176,16 @@
         <translation>مسودہ ترک کریں</translation>
     </message>
     <message>
-        <source>Saving ...</source>
-        <translation>محفوظ ہو رہا ہے ...</translation>
+        <source>Cancel</source>
+        <translation>منسوخ کریں</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
         <translation>مسودہ محفوظ ہو گیا۔</translation>
+    </message>
+    <message>
+        <source>Saving ...</source>
+        <translation>محفوظ ہو رہا ہے ...</translation>
     </message>
     <message>
         <source>Someone else changed these fields in the meantime. Choose for each field which text to keep, then save again.</source>
@@ -236,36 +244,12 @@
         <translation>کوئی بھی فیلڈ اس صفحے پر جوں کی توں نظر نہیں آتی؛ فارم استعمال کریں۔</translation>
     </message>
     <message>
-        <source>Address of the link</source>
-        <translation>لنک کا پتہ</translation>
-    </message>
-    <message>
-        <source>Text format</source>
-        <translation>متن کی فارمیٹ</translation>
-    </message>
-    <message>
-        <source>Bold</source>
-        <translation>جلی</translation>
-    </message>
-    <message>
-        <source>Italic</source>
-        <translation>ترچھا</translation>
-    </message>
-    <message>
-        <source>List</source>
-        <translation>فہرست</translation>
-    </message>
-    <message>
-        <source>Link</source>
-        <translation>لنک</translation>
-    </message>
-    <message>
         <source>Yes</source>
         <translation>ہاں</translation>
     </message>
     <message>
-        <source>In the text form of the field (values parted by |).</source>
-        <translation>فیلڈ کی متنی شکل میں (قدریں | سے الگ)۔</translation>
+        <source>Text of the link</source>
+        <translation>لنک کا متن</translation>
     </message>
     <message>
         <source>You may not create anything here.</source>
@@ -370,10 +354,6 @@
     <message>
         <source>Add "%name" also below ...</source>
         <translation>"%name" کو اس کے نیچے بھی شامل کریں ...</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>منسوخ کریں</translation>
     </message>
     <message>
         <source>In: %name</source>
@@ -494,10 +474,6 @@
     <message>
         <source>Menu</source>
         <translation>مینو</translation>
-    </message>
-    <message>
-        <source>Edit</source>
-        <translation>ترمیم</translation>
     </message>
     <message>
         <source>Arrow keys move it, Enter opens it.</source>

@@ -136,6 +136,10 @@
         <translation>အပြည့်အစုံ တည်းဖြတ်ကိရိယာ</translation>
     </message>
     <message>
+        <source>Edit</source>
+        <translation>တည်းဖြတ်ရန်</translation>
+    </message>
+    <message>
         <source>required</source>
         <translation>လိုအပ်သည်</translation>
     </message>
@@ -172,12 +176,16 @@
         <translation>မူကြမ်း ပယ်ရန်</translation>
     </message>
     <message>
-        <source>Saving ...</source>
-        <translation>သိမ်းနေသည် ...</translation>
+        <source>Cancel</source>
+        <translation>မလုပ်တော့ပါ</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
         <translation>မူကြမ်းကို သိမ်းပြီးပါပြီ။</translation>
+    </message>
+    <message>
+        <source>Saving ...</source>
+        <translation>သိမ်းနေသည် ...</translation>
     </message>
     <message>
         <source>Someone else changed these fields in the meantime. Choose for each field which text to keep, then save again.</source>
@@ -236,36 +244,12 @@
         <translation>လက်ရှိအခြေအနေတွင် မည်သည့်အကွက်မျှ ဤစာမျက်နှာပေါ်တွင် မပြပါ၊ ဖောင်ကို သုံးပါ။</translation>
     </message>
     <message>
-        <source>Address of the link</source>
-        <translation>လင့်ခ်၏ လိပ်စာ</translation>
-    </message>
-    <message>
-        <source>Text format</source>
-        <translation>စာသားပုံစံ</translation>
-    </message>
-    <message>
-        <source>Bold</source>
-        <translation>စာလုံးထူ</translation>
-    </message>
-    <message>
-        <source>Italic</source>
-        <translation>စာလုံးစောင်း</translation>
-    </message>
-    <message>
-        <source>List</source>
-        <translation>စာရင်း</translation>
-    </message>
-    <message>
-        <source>Link</source>
-        <translation>လင့်ခ်</translation>
-    </message>
-    <message>
         <source>Yes</source>
         <translation>ဟုတ်ကဲ့</translation>
     </message>
     <message>
-        <source>In the text form of the field (values parted by |).</source>
-        <translation>အကွက်၏ စာသားပုံစံဖြင့် (တန်ဖိုးများကို | ဖြင့် ခွဲထားသည်)။</translation>
+        <source>Text of the link</source>
+        <translation>လင့်ခ်၏ စာသား</translation>
     </message>
     <message>
         <source>You may not create anything here.</source>
@@ -370,10 +354,6 @@
     <message>
         <source>Add "%name" also below ...</source>
         <translation>"%name" ကို အောက်တွင်လည်း ထည့်ရန် ...</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>မလုပ်တော့ပါ</translation>
     </message>
     <message>
         <source>In: %name</source>
@@ -494,10 +474,6 @@
     <message>
         <source>Menu</source>
         <translation>မီနူး</translation>
-    </message>
-    <message>
-        <source>Edit</source>
-        <translation>တည်းဖြတ်ရန်</translation>
     </message>
     <message>
         <source>Arrow keys move it, Enter opens it.</source>

@@ -136,6 +136,10 @@
         <translation>Umhleli ophelele</translation>
     </message>
     <message>
+        <source>Edit</source>
+        <translation>Hlela</translation>
+    </message>
+    <message>
         <source>required</source>
         <translation>kuyadingeka</translation>
     </message>
@@ -172,12 +176,16 @@
         <translation>Lahla isiqeshana</translation>
     </message>
     <message>
-        <source>Saving ...</source>
-        <translation>Iyalondoloza ...</translation>
+        <source>Cancel</source>
+        <translation>Khansela</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
         <translation>Isiqeshana silondoloziwe.</translation>
+    </message>
+    <message>
+        <source>Saving ...</source>
+        <translation>Iyalondoloza ...</translation>
     </message>
     <message>
         <source>Someone else changed these fields in the meantime. Choose for each field which text to keep, then save again.</source>
@@ -236,36 +244,12 @@
         <translation>Ayikho inkambu evela kuleli khasi njengoba linjalo; sebenzisa ifomu.</translation>
     </message>
     <message>
-        <source>Address of the link</source>
-        <translation>Ikheli lesixhumanisi</translation>
-    </message>
-    <message>
-        <source>Text format</source>
-        <translation>Ifomethi yombhalo</translation>
-    </message>
-    <message>
-        <source>Bold</source>
-        <translation>Okugqamile</translation>
-    </message>
-    <message>
-        <source>Italic</source>
-        <translation>Okutsheneke</translation>
-    </message>
-    <message>
-        <source>List</source>
-        <translation>Uhlu</translation>
-    </message>
-    <message>
-        <source>Link</source>
-        <translation>Isixhumanisi</translation>
-    </message>
-    <message>
         <source>Yes</source>
         <translation>Yebo</translation>
     </message>
     <message>
-        <source>In the text form of the field (values parted by |).</source>
-        <translation>Ngefomu lombhalo lenkambu (amanani ahlukaniswe ngo |).</translation>
+        <source>Text of the link</source>
+        <translation>Umbhalo wesixhumanisi</translation>
     </message>
     <message>
         <source>You may not create anything here.</source>
@@ -370,10 +354,6 @@
     <message>
         <source>Add "%name" also below ...</source>
         <translation>Engeza "%name" futhi ngaphansi kuka ...</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>Khansela</translation>
     </message>
     <message>
         <source>In: %name</source>
@@ -494,10 +474,6 @@
     <message>
         <source>Menu</source>
         <translation>Imenyu</translation>
-    </message>
-    <message>
-        <source>Edit</source>
-        <translation>Hlela</translation>
     </message>
     <message>
         <source>Arrow keys move it, Enter opens it.</source>

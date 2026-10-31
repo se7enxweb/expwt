@@ -136,6 +136,10 @@
         <translation>Bug-os nga editor</translation>
     </message>
     <message>
+        <source>Edit</source>
+        <translation>Usba</translation>
+    </message>
+    <message>
         <source>required</source>
         <translation>gikinahanglan</translation>
     </message>
@@ -172,12 +176,16 @@
         <translation>Ilabay ang draft</translation>
     </message>
     <message>
-        <source>Saving ...</source>
-        <translation>Nag-save ...</translation>
+        <source>Cancel</source>
+        <translation>Kanselaha</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
         <translation>Na-save ang draft.</translation>
+    </message>
+    <message>
+        <source>Saving ...</source>
+        <translation>Nag-save ...</translation>
     </message>
     <message>
         <source>Someone else changed these fields in the meantime. Choose for each field which text to keep, then save again.</source>
@@ -236,36 +244,12 @@
         <translation>Walay bisan usa sa mga field nga makita niini nga panid sama sa kahimtang niini; gamita ang porma.</translation>
     </message>
     <message>
-        <source>Address of the link</source>
-        <translation>Adres sa link</translation>
-    </message>
-    <message>
-        <source>Text format</source>
-        <translation>Porma sa teksto</translation>
-    </message>
-    <message>
-        <source>Bold</source>
-        <translation>Baga</translation>
-    </message>
-    <message>
-        <source>Italic</source>
-        <translation>Hiwi</translation>
-    </message>
-    <message>
-        <source>List</source>
-        <translation>Listahan</translation>
-    </message>
-    <message>
-        <source>Link</source>
-        <translation>Link</translation>
-    </message>
-    <message>
         <source>Yes</source>
         <translation>Oo</translation>
     </message>
     <message>
-        <source>In the text form of the field (values parted by |).</source>
-        <translation>Sa porma sa teksto sa field (mga bili nga gibulag sa |).</translation>
+        <source>Text of the link</source>
+        <translation>Teksto sa link</translation>
     </message>
     <message>
         <source>You may not create anything here.</source>
@@ -370,10 +354,6 @@
     <message>
         <source>Add "%name" also below ...</source>
         <translation>Idugang usab ang "%name" ubos sa ...</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>Kanselaha</translation>
     </message>
     <message>
         <source>In: %name</source>
@@ -494,10 +474,6 @@
     <message>
         <source>Menu</source>
         <translation>Menu</translation>
-    </message>
-    <message>
-        <source>Edit</source>
-        <translation>Usba</translation>
     </message>
     <message>
         <source>Arrow keys move it, Enter opens it.</source>

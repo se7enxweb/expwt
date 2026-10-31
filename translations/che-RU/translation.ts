@@ -136,6 +136,10 @@
         <translation>Буьззина редактор</translation>
     </message>
     <message>
+        <source>Edit</source>
+        <translation>Нисдан</translation>
+    </message>
+    <message>
         <source>required</source>
         <translation>оьшу</translation>
     </message>
@@ -172,12 +176,16 @@
         <translation>Черновик дӀататта</translation>
     </message>
     <message>
-        <source>Saving ...</source>
-        <translation>ДӀаӀалашдеш ...</translation>
+        <source>Cancel</source>
+        <translation>Юхадаккха</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
         <translation>Черновик дӀаӀалашйина.</translation>
+    </message>
+    <message>
+        <source>Saving ...</source>
+        <translation>ДӀаӀалашдеш ...</translation>
     </message>
     <message>
         <source>Someone else changed these fields in the meantime. Choose for each field which text to keep, then save again.</source>
@@ -236,36 +244,12 @@
         <translation>Цхьа а меттиг хӀокху агӀонехь йолуш ма-йоллу ца гойту; форма лелае.</translation>
     </message>
     <message>
-        <source>Address of the link</source>
-        <translation>Хьажоргин адрес</translation>
-    </message>
-    <message>
-        <source>Text format</source>
-        <translation>Текстан формат</translation>
-    </message>
-    <message>
-        <source>Bold</source>
-        <translation>Стомма</translation>
-    </message>
-    <message>
-        <source>Italic</source>
-        <translation>Курсив</translation>
-    </message>
-    <message>
-        <source>List</source>
-        <translation>МогӀам</translation>
-    </message>
-    <message>
-        <source>Link</source>
-        <translation>Хьажорг</translation>
-    </message>
-    <message>
         <source>Yes</source>
         <translation>ХӀаъ</translation>
     </message>
     <message>
-        <source>In the text form of the field (values parted by |).</source>
-        <translation>Меттиган текстан кепехь (маьӀнаш | къастийна).</translation>
+        <source>Text of the link</source>
+        <translation>Хьажоргин текст</translation>
     </message>
     <message>
         <source>You may not create anything here.</source>
@@ -370,10 +354,6 @@
     <message>
         <source>Add "%name" also below ...</source>
         <translation>«%name» ... лахахь а тӀетоха</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>Юхадаккха</translation>
     </message>
     <message>
         <source>In: %name</source>
@@ -494,10 +474,6 @@
     <message>
         <source>Menu</source>
         <translation>Меню</translation>
-    </message>
-    <message>
-        <source>Edit</source>
-        <translation>Нисдан</translation>
     </message>
     <message>
         <source>Arrow keys move it, Enter opens it.</source>

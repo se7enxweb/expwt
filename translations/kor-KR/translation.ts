@@ -136,6 +136,10 @@
         <translation>전체 편집기</translation>
     </message>
     <message>
+        <source>Edit</source>
+        <translation>편집</translation>
+    </message>
+    <message>
         <source>required</source>
         <translation>필수</translation>
     </message>
@@ -172,12 +176,16 @@
         <translation>초안 폐기</translation>
     </message>
     <message>
-        <source>Saving ...</source>
-        <translation>저장 중...</translation>
+        <source>Cancel</source>
+        <translation>취소</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
         <translation>초안이 저장되었습니다.</translation>
+    </message>
+    <message>
+        <source>Saving ...</source>
+        <translation>저장 중...</translation>
     </message>
     <message>
         <source>Someone else changed these fields in the meantime. Choose for each field which text to keep, then save again.</source>
@@ -236,36 +244,12 @@
         <translation>현재 이 페이지에 표시되는 필드가 없습니다. 양식을 사용하십시오.</translation>
     </message>
     <message>
-        <source>Address of the link</source>
-        <translation>링크 주소</translation>
-    </message>
-    <message>
-        <source>Text format</source>
-        <translation>텍스트 형식</translation>
-    </message>
-    <message>
-        <source>Bold</source>
-        <translation>굵게</translation>
-    </message>
-    <message>
-        <source>Italic</source>
-        <translation>기울임꼴</translation>
-    </message>
-    <message>
-        <source>List</source>
-        <translation>목록</translation>
-    </message>
-    <message>
-        <source>Link</source>
-        <translation>링크</translation>
-    </message>
-    <message>
         <source>Yes</source>
         <translation>예</translation>
     </message>
     <message>
-        <source>In the text form of the field (values parted by |).</source>
-        <translation>필드의 텍스트 형식(값은 |로 구분).</translation>
+        <source>Text of the link</source>
+        <translation>링크 텍스트</translation>
     </message>
     <message>
         <source>You may not create anything here.</source>
@@ -370,10 +354,6 @@
     <message>
         <source>Add "%name" also below ...</source>
         <translation>"%name"을(를) 다음 아래에도 추가...</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>취소</translation>
     </message>
     <message>
         <source>In: %name</source>
@@ -494,10 +474,6 @@
     <message>
         <source>Menu</source>
         <translation>메뉴</translation>
-    </message>
-    <message>
-        <source>Edit</source>
-        <translation>편집</translation>
     </message>
     <message>
         <source>Arrow keys move it, Enter opens it.</source>

@@ -136,6 +136,10 @@
         <translation>پورا ایڈیٹر</translation>
     </message>
     <message>
+        <source>Edit</source>
+        <translation>سودھو</translation>
+    </message>
+    <message>
         <source>required</source>
         <translation>لازمی</translation>
     </message>
@@ -172,12 +176,16 @@
         <translation>مسودہ رد کرو</translation>
     </message>
     <message>
-        <source>Saving ...</source>
-        <translation>محفوظ ہو رہیا اے ...</translation>
+        <source>Cancel</source>
+        <translation>رد کرو</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
         <translation>مسودہ محفوظ ہو گیا۔</translation>
+    </message>
+    <message>
+        <source>Saving ...</source>
+        <translation>محفوظ ہو رہیا اے ...</translation>
     </message>
     <message>
         <source>Someone else changed these fields in the meantime. Choose for each field which text to keep, then save again.</source>
@@ -236,36 +244,12 @@
         <translation>اجوکی شکل وچ کوئی وی خانہ ایس صفحے تے نہیں دسدا؛ فارم ورتو۔</translation>
     </message>
     <message>
-        <source>Address of the link</source>
-        <translation>لنک دا پتہ</translation>
-    </message>
-    <message>
-        <source>Text format</source>
-        <translation>لکھت دی شکل</translation>
-    </message>
-    <message>
-        <source>Bold</source>
-        <translation>موٹا</translation>
-    </message>
-    <message>
-        <source>Italic</source>
-        <translation>ترچھا</translation>
-    </message>
-    <message>
-        <source>List</source>
-        <translation>لسٹ</translation>
-    </message>
-    <message>
-        <source>Link</source>
-        <translation>لنک</translation>
-    </message>
-    <message>
         <source>Yes</source>
         <translation>ہاں</translation>
     </message>
     <message>
-        <source>In the text form of the field (values parted by |).</source>
-        <translation>خانے دی لکھت شکل وچ (قدراں | نال وکھریاں)۔</translation>
+        <source>Text of the link</source>
+        <translation>لنک دی لکھت</translation>
     </message>
     <message>
         <source>You may not create anything here.</source>
@@ -370,10 +354,6 @@
     <message>
         <source>Add "%name" also below ...</source>
         <translation>"%name" نوں تھلے وی جوڑو ...</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>رد کرو</translation>
     </message>
     <message>
         <source>In: %name</source>
@@ -494,10 +474,6 @@
     <message>
         <source>Menu</source>
         <translation>مینیو</translation>
-    </message>
-    <message>
-        <source>Edit</source>
-        <translation>سودھو</translation>
     </message>
     <message>
         <source>Arrow keys move it, Enter opens it.</source>

@@ -136,6 +136,10 @@
         <translation>Soppikat bu mat</translation>
     </message>
     <message>
+        <source>Edit</source>
+        <translation>Soppi</translation>
+    </message>
+    <message>
         <source>required</source>
         <translation>war na</translation>
     </message>
@@ -172,12 +176,16 @@
         <translation>Bàyyi brouyoŋ bi</translation>
     </message>
     <message>
-        <source>Saving ...</source>
-        <translation>Mi ngi denc ...</translation>
+        <source>Cancel</source>
+        <translation>Neenal</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
         <translation>Brouyoŋ bi denc nañu ko.</translation>
+    </message>
+    <message>
+        <source>Saving ...</source>
+        <translation>Mi ngi denc ...</translation>
     </message>
     <message>
         <source>Someone else changed these fields in the meantime. Choose for each field which text to keep, then save again.</source>
@@ -236,36 +244,12 @@
         <translation>Benn tool feeñul ci xët wii ni mu mel; jëfandikool formulaire bi.</translation>
     </message>
     <message>
-        <source>Address of the link</source>
-        <translation>Adrees bu lëkkalekaay bi</translation>
-    </message>
-    <message>
-        <source>Text format</source>
-        <translation>Melokaanu mbind</translation>
-    </message>
-    <message>
-        <source>Bold</source>
-        <translation>Bu dërëñ</translation>
-    </message>
-    <message>
-        <source>Italic</source>
-        <translation>Bu wengu</translation>
-    </message>
-    <message>
-        <source>List</source>
-        <translation>Lim</translation>
-    </message>
-    <message>
-        <source>Link</source>
-        <translation>Lëkkalekaay</translation>
-    </message>
-    <message>
         <source>Yes</source>
         <translation>Waaw</translation>
     </message>
     <message>
-        <source>In the text form of the field (values parted by |).</source>
-        <translation>Ci melokaanu mbindu tool bi (njëg yi dañu leen xàjjale ak |).</translation>
+        <source>Text of the link</source>
+        <translation>Mbind mu lëkkalekaay bi</translation>
     </message>
     <message>
         <source>You may not create anything here.</source>
@@ -370,10 +354,6 @@
     <message>
         <source>Add "%name" also below ...</source>
         <translation>Yokk "%name" itam ci suufu ...</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>Neenal</translation>
     </message>
     <message>
         <source>In: %name</source>
@@ -494,10 +474,6 @@
     <message>
         <source>Menu</source>
         <translation>Menu</translation>
-    </message>
-    <message>
-        <source>Edit</source>
-        <translation>Soppi</translation>
     </message>
     <message>
         <source>Arrow keys move it, Enter opens it.</source>

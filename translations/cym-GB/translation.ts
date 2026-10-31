@@ -136,6 +136,10 @@
         <translation>Golygydd llawn</translation>
     </message>
     <message>
+        <source>Edit</source>
+        <translation>Golygu</translation>
+    </message>
+    <message>
         <source>required</source>
         <translation>gofynnol</translation>
     </message>
@@ -172,12 +176,16 @@
         <translation>Taflu'r drafft</translation>
     </message>
     <message>
-        <source>Saving ...</source>
-        <translation>Wrthi'n cadw ...</translation>
+        <source>Cancel</source>
+        <translation>Canslo</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
         <translation>Mae'r drafft wedi'i gadw.</translation>
+    </message>
+    <message>
+        <source>Saving ...</source>
+        <translation>Wrthi'n cadw ...</translation>
     </message>
     <message>
         <source>Someone else changed these fields in the meantime. Choose for each field which text to keep, then save again.</source>
@@ -236,36 +244,12 @@
         <translation>Does dim un o'r meysydd yn ymddangos ar y dudalen hon fel y mae; defnyddiwch y ffurflen.</translation>
     </message>
     <message>
-        <source>Address of the link</source>
-        <translation>Cyfeiriad y ddolen</translation>
-    </message>
-    <message>
-        <source>Text format</source>
-        <translation>Fformat y testun</translation>
-    </message>
-    <message>
-        <source>Bold</source>
-        <translation>Trwm</translation>
-    </message>
-    <message>
-        <source>Italic</source>
-        <translation>Italig</translation>
-    </message>
-    <message>
-        <source>List</source>
-        <translation>Rhestr</translation>
-    </message>
-    <message>
-        <source>Link</source>
-        <translation>Dolen</translation>
-    </message>
-    <message>
         <source>Yes</source>
         <translation>Ie</translation>
     </message>
     <message>
-        <source>In the text form of the field (values parted by |).</source>
-        <translation>Yn ffurf testun y maes (gwerthoedd wedi'u gwahanu gan |).</translation>
+        <source>Text of the link</source>
+        <translation>Testun y ddolen</translation>
     </message>
     <message>
         <source>You may not create anything here.</source>
@@ -370,10 +354,6 @@
     <message>
         <source>Add "%name" also below ...</source>
         <translation>Ychwanegu "%name" o dan ... hefyd</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>Canslo</translation>
     </message>
     <message>
         <source>In: %name</source>
@@ -494,10 +474,6 @@
     <message>
         <source>Menu</source>
         <translation>Dewislen</translation>
-    </message>
-    <message>
-        <source>Edit</source>
-        <translation>Golygu</translation>
     </message>
     <message>
         <source>Arrow keys move it, Enter opens it.</source>

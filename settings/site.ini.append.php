@@ -20,4 +20,9 @@ Listeners[]=response/preoutput@expwtHook::preOutput
 [ReauthSettings]
 TriggerHandlers[]=expwtReauthTriggerHandler
 
+# Editing on the page: the kernel marks every rendered attribute (field, object, version) for a user
+# who may edit with the sidebar; visitors' pages stay as they are
+[ContentFieldMarkerSettings]
+Handlers[]=expwtFieldMarkerHandler
+
 */ ?>

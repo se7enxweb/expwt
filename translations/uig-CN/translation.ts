@@ -136,6 +136,10 @@
         <translation>تولۇق تەھرىرلىگۈچ</translation>
     </message>
     <message>
+        <source>Edit</source>
+        <translation>تەھرىرلە</translation>
+    </message>
+    <message>
         <source>required</source>
         <translation>زۆرۈر</translation>
     </message>
@@ -172,12 +176,16 @@
         <translation>ئارگىنالنى تاشلا</translation>
     </message>
     <message>
-        <source>Saving ...</source>
-        <translation>ساقلاۋاتىدۇ ...</translation>
+        <source>Cancel</source>
+        <translation>ۋاز كەچ</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
         <translation>ئارگىنال ساقلاندى.</translation>
+    </message>
+    <message>
+        <source>Saving ...</source>
+        <translation>ساقلاۋاتىدۇ ...</translation>
     </message>
     <message>
         <source>Someone else changed these fields in the meantime. Choose for each field which text to keep, then save again.</source>
@@ -236,36 +244,12 @@
         <translation>ھېچقانداق سۆزلەم بۇ بەتتە ئەينەن كۆرۈنمەيدۇ؛ جەدۋەلنى ئىشلىتىڭ.</translation>
     </message>
     <message>
-        <source>Address of the link</source>
-        <translation>ئۇلانما ئادرېسى</translation>
-    </message>
-    <message>
-        <source>Text format</source>
-        <translation>تېكىست پىچىمى</translation>
-    </message>
-    <message>
-        <source>Bold</source>
-        <translation>توم</translation>
-    </message>
-    <message>
-        <source>Italic</source>
-        <translation>يانتۇ</translation>
-    </message>
-    <message>
-        <source>List</source>
-        <translation>تىزىملىك</translation>
-    </message>
-    <message>
-        <source>Link</source>
-        <translation>ئۇلانما</translation>
-    </message>
-    <message>
         <source>Yes</source>
         <translation>ھەئە</translation>
     </message>
     <message>
-        <source>In the text form of the field (values parted by |).</source>
-        <translation>سۆزلەمنىڭ تېكىست شەكلىدە (قىممەتلەر | بىلەن ئايرىلىدۇ).</translation>
+        <source>Text of the link</source>
+        <translation>ئۇلانما تېكىستى</translation>
     </message>
     <message>
         <source>You may not create anything here.</source>
@@ -370,10 +354,6 @@
     <message>
         <source>Add "%name" also below ...</source>
         <translation>"%name" نى يەنە بۇنىڭ ئاستىغا قوشۇش ...</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>ۋاز كەچ</translation>
     </message>
     <message>
         <source>In: %name</source>
@@ -494,10 +474,6 @@
     <message>
         <source>Menu</source>
         <translation>تىزىملىك</translation>
-    </message>
-    <message>
-        <source>Edit</source>
-        <translation>تەھرىرلە</translation>
     </message>
     <message>
         <source>Arrow keys move it, Enter opens it.</source>

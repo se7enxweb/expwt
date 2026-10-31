@@ -136,6 +136,10 @@
         <translation>ویرایشگر کامل</translation>
     </message>
     <message>
+        <source>Edit</source>
+        <translation>ویرایش</translation>
+    </message>
+    <message>
         <source>required</source>
         <translation>الزامی</translation>
     </message>
@@ -172,12 +176,16 @@
         <translation>دور انداختن پیش‌نویس</translation>
     </message>
     <message>
-        <source>Saving ...</source>
-        <translation>در حال ذخیره ...</translation>
+        <source>Cancel</source>
+        <translation>لغو</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
         <translation>پیش‌نویس ذخیره شد.</translation>
+    </message>
+    <message>
+        <source>Saving ...</source>
+        <translation>در حال ذخیره ...</translation>
     </message>
     <message>
         <source>Someone else changed these fields in the meantime. Choose for each field which text to keep, then save again.</source>
@@ -236,36 +244,12 @@
         <translation>هیچ‌یک از فیلدها به همین شکل در این صفحه نمایش داده نمی‌شود؛ از فرم استفاده کنید.</translation>
     </message>
     <message>
-        <source>Address of the link</source>
-        <translation>نشانی پیوند</translation>
-    </message>
-    <message>
-        <source>Text format</source>
-        <translation>قالب متن</translation>
-    </message>
-    <message>
-        <source>Bold</source>
-        <translation>پررنگ</translation>
-    </message>
-    <message>
-        <source>Italic</source>
-        <translation>کج</translation>
-    </message>
-    <message>
-        <source>List</source>
-        <translation>فهرست</translation>
-    </message>
-    <message>
-        <source>Link</source>
-        <translation>پیوند</translation>
-    </message>
-    <message>
         <source>Yes</source>
         <translation>بله</translation>
     </message>
     <message>
-        <source>In the text form of the field (values parted by |).</source>
-        <translation>در شکل متنی فیلد (مقدارها با | جدا می‌شوند).</translation>
+        <source>Text of the link</source>
+        <translation>متن پیوند</translation>
     </message>
     <message>
         <source>You may not create anything here.</source>
@@ -370,10 +354,6 @@
     <message>
         <source>Add "%name" also below ...</source>
         <translation>افزودن «%name» به زیرِ ... نیز</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>لغو</translation>
     </message>
     <message>
         <source>In: %name</source>
@@ -494,10 +474,6 @@
     <message>
         <source>Menu</source>
         <translation>منو</translation>
-    </message>
-    <message>
-        <source>Edit</source>
-        <translation>ویرایش</translation>
     </message>
     <message>
         <source>Arrow keys move it, Enter opens it.</source>

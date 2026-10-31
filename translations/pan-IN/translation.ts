@@ -136,6 +136,10 @@
         <translation>ਪੂਰਾ ਸੰਪਾਦਕ</translation>
     </message>
     <message>
+        <source>Edit</source>
+        <translation>ਸੋਧੋ</translation>
+    </message>
+    <message>
         <source>required</source>
         <translation>ਲੋੜੀਂਦਾ</translation>
     </message>
@@ -172,12 +176,16 @@
         <translation>ਖਰੜਾ ਰੱਦ ਕਰੋ</translation>
     </message>
     <message>
-        <source>Saving ...</source>
-        <translation>ਸੰਭਾਲਿਆ ਜਾ ਰਿਹਾ ਹੈ ...</translation>
+        <source>Cancel</source>
+        <translation>ਰੱਦ ਕਰੋ</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
         <translation>ਖਰੜਾ ਸੰਭਾਲ ਲਿਆ ਗਿਆ।</translation>
+    </message>
+    <message>
+        <source>Saving ...</source>
+        <translation>ਸੰਭਾਲਿਆ ਜਾ ਰਿਹਾ ਹੈ ...</translation>
     </message>
     <message>
         <source>Someone else changed these fields in the meantime. Choose for each field which text to keep, then save again.</source>
@@ -236,36 +244,12 @@
         <translation>ਮੌਜੂਦਾ ਰੂਪ ਵਿੱਚ ਕੋਈ ਵੀ ਖੇਤਰ ਇਸ ਪੰਨੇ 'ਤੇ ਨਹੀਂ ਦਿਸਦਾ; ਫ਼ਾਰਮ ਵਰਤੋ।</translation>
     </message>
     <message>
-        <source>Address of the link</source>
-        <translation>ਲਿੰਕ ਦਾ ਪਤਾ</translation>
-    </message>
-    <message>
-        <source>Text format</source>
-        <translation>ਪਾਠ ਫ਼ਾਰਮੈਟ</translation>
-    </message>
-    <message>
-        <source>Bold</source>
-        <translation>ਗੂੜ੍ਹਾ</translation>
-    </message>
-    <message>
-        <source>Italic</source>
-        <translation>ਤਿਰਛਾ</translation>
-    </message>
-    <message>
-        <source>List</source>
-        <translation>ਸੂਚੀ</translation>
-    </message>
-    <message>
-        <source>Link</source>
-        <translation>ਲਿੰਕ</translation>
-    </message>
-    <message>
         <source>Yes</source>
         <translation>ਹਾਂ</translation>
     </message>
     <message>
-        <source>In the text form of the field (values parted by |).</source>
-        <translation>ਖੇਤਰ ਦੇ ਪਾਠ ਰੂਪ ਵਿੱਚ (ਮੁੱਲ | ਨਾਲ ਵੱਖ ਕੀਤੇ)।</translation>
+        <source>Text of the link</source>
+        <translation>ਲਿੰਕ ਦਾ ਟੈਕਸਟ</translation>
     </message>
     <message>
         <source>You may not create anything here.</source>
@@ -370,10 +354,6 @@
     <message>
         <source>Add "%name" also below ...</source>
         <translation>"%name" ਨੂੰ ਹੇਠਾਂ ਵੀ ਜੋੜੋ ...</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>ਰੱਦ ਕਰੋ</translation>
     </message>
     <message>
         <source>In: %name</source>
@@ -494,10 +474,6 @@
     <message>
         <source>Menu</source>
         <translation>ਮੀਨੂ</translation>
-    </message>
-    <message>
-        <source>Edit</source>
-        <translation>ਸੋਧੋ</translation>
     </message>
     <message>
         <source>Arrow keys move it, Enter opens it.</source>

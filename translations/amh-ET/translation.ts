@@ -136,6 +136,10 @@
         <translation>ሙሉ አርታዒ</translation>
     </message>
     <message>
+        <source>Edit</source>
+        <translation>አርትዕ</translation>
+    </message>
+    <message>
         <source>required</source>
         <translation>አስፈላጊ</translation>
     </message>
@@ -172,12 +176,16 @@
         <translation>ረቂቁን ጣል</translation>
     </message>
     <message>
-        <source>Saving ...</source>
-        <translation>በማስቀመጥ ላይ ...</translation>
+        <source>Cancel</source>
+        <translation>ሰርዝ</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
         <translation>ረቂቁ ተቀምጧል።</translation>
+    </message>
+    <message>
+        <source>Saving ...</source>
+        <translation>በማስቀመጥ ላይ ...</translation>
     </message>
     <message>
         <source>Someone else changed these fields in the meantime. Choose for each field which text to keep, then save again.</source>
@@ -236,36 +244,12 @@
         <translation>ከመስኮቹ አንዱም በዚህ ገጽ ላይ እንዳለ አይታይም፤ ቅጹን ይጠቀሙ።</translation>
     </message>
     <message>
-        <source>Address of the link</source>
-        <translation>የአገናኙ አድራሻ</translation>
-    </message>
-    <message>
-        <source>Text format</source>
-        <translation>የጽሑፍ ቅርጸት</translation>
-    </message>
-    <message>
-        <source>Bold</source>
-        <translation>ደማቅ</translation>
-    </message>
-    <message>
-        <source>Italic</source>
-        <translation>ሰያፍ</translation>
-    </message>
-    <message>
-        <source>List</source>
-        <translation>ዝርዝር</translation>
-    </message>
-    <message>
-        <source>Link</source>
-        <translation>አገናኝ</translation>
-    </message>
-    <message>
         <source>Yes</source>
         <translation>አዎ</translation>
     </message>
     <message>
-        <source>In the text form of the field (values parted by |).</source>
-        <translation>በመስኩ የጽሑፍ ቅጽ (እሴቶች በ| ተለይተው)።</translation>
+        <source>Text of the link</source>
+        <translation>የአገናኙ ጽሑፍ</translation>
     </message>
     <message>
         <source>You may not create anything here.</source>
@@ -370,10 +354,6 @@
     <message>
         <source>Add "%name" also below ...</source>
         <translation>"%name"ን ደግሞ ከ... በታች አክል</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>ሰርዝ</translation>
     </message>
     <message>
         <source>In: %name</source>
@@ -494,10 +474,6 @@
     <message>
         <source>Menu</source>
         <translation>ምናሌ</translation>
-    </message>
-    <message>
-        <source>Edit</source>
-        <translation>አርትዕ</translation>
     </message>
     <message>
         <source>Arrow keys move it, Enter opens it.</source>

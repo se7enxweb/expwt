@@ -121,6 +121,18 @@ class expwtPureTest extends PHPUnit\Framework\TestCase
         $this->assertFalse( expwtState::defaults( $s )['open'], 'decision 4: closed on the first visit' );
     }
 
+    public function testFieldMarkersOnlyForAUserWhoMayEditWithTheSidebar()
+    {
+        $this->assertTrue( expwtFieldMarkerHandler::decide( true, true, 'yes', 'yes' ) );
+        $this->assertTrue( expwtFieldMarkerHandler::decide( true, true, 'yes', 'limited' ) );
+        $this->assertFalse( expwtFieldMarkerHandler::decide( true, false, 'yes', 'yes' ), 'F20: never for a visitor' );
+        $this->assertFalse( expwtFieldMarkerHandler::decide( false, true, 'yes', 'yes' ), 'the sidebar switched off' );
+        $this->assertFalse( expwtFieldMarkerHandler::decide( true, true, 'no', 'yes' ) );
+        $this->assertFalse( expwtFieldMarkerHandler::decide( true, true, 'yes', 'no' ) );
+        $ini = file_get_contents( dirname( __DIR__, 3 ) . '/settings/site.ini.append.php' );
+        $this->assertStringContainsString( "[ContentFieldMarkerSettings]\nHandlers[]=expwtFieldMarkerHandler", $ini );
+    }
+
     public function testStateFromBeforeTheTopAndBottomEdgesIsMigratedOnRead()
     {
         $s = self::settings();
@@ -202,7 +214,11 @@ class expwtPureTest extends PHPUnit\Framework\TestCase
 
     public function testFieldInputs()
     {
-        $this->assertSame( array( 'input' => 'text', 'inline' => true, 'editable' => true ), expwtFields::describe( 'ezstring' ) );
+        $this->assertSame( array( 'input' => 'text', 'inline' => true, 'editable' => true, 'embed' => false ), expwtFields::describe( 'ezstring' ) );
+        // decision 12: rich text in the installation's editor (expwt/field), never the sidebar's own controls
+        $this->assertSame( array( 'input' => 'richtext', 'inline' => false, 'editable' => false, 'embed' => true ), expwtFields::describe( 'ezxmltext' ) );
+        foreach ( array( 'eztags', 'ezobjectrelationlist', 'ezimage', 'ezbinaryfile', 'xrowmetadata', 'ezgmaplocation', 'ezmatrix' ) as $datatype )
+            $this->assertTrue( expwtFields::describe( $datatype )['embed'], "$datatype in its own editor" );
         $this->assertSame( 'richtext', expwtFields::describe( 'ezxmltext' )['input'] );
         $this->assertSame( 'multiselect', expwtFields::describe( 'ezselection', true )['input'] );
         $this->assertFalse( expwtFields::describe( 'ezuser' )['editable'] );
@@ -210,6 +226,18 @@ class expwtPureTest extends PHPUnit\Framework\TestCase
         $this->assertFalse( expwtFields::describe( 'ezimage' )['editable'], 'an image needs an upload (the full editor for now)' );
         $this->assertSame( 'full', expwtFields::describe( 'ezmatrix' )['input'] );
         $this->assertSame( 'full', expwtFields::describe( 'xrowmetadata' )['input'], 'SEO metadata: its XML form is no field to type in; the full editor until its own panel' );
+        $this->assertSame( 'full', expwtFields::describe( 'ezgmaplocation' )['input'], 'a map location: the full editor' );
+        // tags and relations show their names and are never written from the sidebar's form: their string form is the
+        // datatype's storage ("|#|#|#" for eztags, object ids for relations)
+        foreach ( array( 'eztags' => 'tags', 'ezobjectrelationlist' => 'relations', 'ezobjectrelation' => 'relations' ) as $datatype => $input )
+        {
+            $d = expwtFields::describe( $datatype );
+            $this->assertSame( $input, $d['input'], $datatype );
+            $this->assertFalse( $d['editable'], "$datatype is not written from the form" );
+            $this->assertTrue( $d['embed'], "$datatype: the datatype's own editor" );
+        }
+        $this->assertSame( array( 'https://example.org/a', 'Text | with bar' ), expwtFields::urlParts( 'https://example.org/a|Text | with bar' ) );
+        $this->assertSame( array( 'https://example.org/', '' ), expwtFields::urlParts( 'https://example.org/' ) );
     }
 
     public function testValuesInTheStringFormOfTheirDatatype()

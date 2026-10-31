@@ -136,6 +136,10 @@
         <translation>पुराय संपादक</translation>
     </message>
     <message>
+        <source>Edit</source>
+        <translation>संपादन करात</translation>
+    </message>
+    <message>
         <source>required</source>
         <translation>गरजेचें</translation>
     </message>
@@ -172,12 +176,16 @@
         <translation>मसुदो काडून उडयात</translation>
     </message>
     <message>
-        <source>Saving ...</source>
-        <translation>सांबाळटा ...</translation>
+        <source>Cancel</source>
+        <translation>रद्द करात</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
         <translation>मसुदो सांबाळ्ळा.</translation>
+    </message>
+    <message>
+        <source>Saving ...</source>
+        <translation>सांबाळटा ...</translation>
     </message>
     <message>
         <source>Someone else changed these fields in the meantime. Choose for each field which text to keep, then save again.</source>
@@ -236,36 +244,12 @@
         <translation>खंयचेंच क्षेत्र ह्या पानार जशें आसा तशें दिसना; फॉर्म वापरात.</translation>
     </message>
     <message>
-        <source>Address of the link</source>
-        <translation>दुव्याचो पत्तो</translation>
-    </message>
-    <message>
-        <source>Text format</source>
-        <translation>मजकुराचें स्वरूप</translation>
-    </message>
-    <message>
-        <source>Bold</source>
-        <translation>जाड</translation>
-    </message>
-    <message>
-        <source>Italic</source>
-        <translation>तिरपें</translation>
-    </message>
-    <message>
-        <source>List</source>
-        <translation>वळेरी</translation>
-    </message>
-    <message>
-        <source>Link</source>
-        <translation>दुवो</translation>
-    </message>
-    <message>
         <source>Yes</source>
         <translation>हय</translation>
     </message>
     <message>
-        <source>In the text form of the field (values parted by |).</source>
-        <translation>क्षेत्राच्या मजकूर रुपांत (मोलां | न वेगळीं केल्लीं).</translation>
+        <source>Text of the link</source>
+        <translation>दुव्याचो मजकूर</translation>
     </message>
     <message>
         <source>You may not create anything here.</source>
@@ -370,10 +354,6 @@
     <message>
         <source>Add "%name" also below ...</source>
         <translation>"%name" हांचे सकयलय जोडात ...</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>रद्द करात</translation>
     </message>
     <message>
         <source>In: %name</source>
@@ -494,10 +474,6 @@
     <message>
         <source>Menu</source>
         <translation>मेनू</translation>
-    </message>
-    <message>
-        <source>Edit</source>
-        <translation>संपादन करात</translation>
     </message>
     <message>
         <source>Arrow keys move it, Enter opens it.</source>

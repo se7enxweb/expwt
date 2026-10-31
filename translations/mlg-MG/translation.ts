@@ -136,6 +136,10 @@
         <translation>Mpanova feno</translation>
     </message>
     <message>
+        <source>Edit</source>
+        <translation>Ovay</translation>
+    </message>
+    <message>
         <source>required</source>
         <translation>tsy maintsy</translation>
     </message>
@@ -172,12 +176,16 @@
         <translation>Ario ny drafitra</translation>
     </message>
     <message>
-        <source>Saving ...</source>
-        <translation>Mitahiry ...</translation>
+        <source>Cancel</source>
+        <translation>Foano</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
         <translation>Voatahiry ny drafitra.</translation>
+    </message>
+    <message>
+        <source>Saving ...</source>
+        <translation>Mitahiry ...</translation>
     </message>
     <message>
         <source>Someone else changed these fields in the meantime. Choose for each field which text to keep, then save again.</source>
@@ -236,36 +244,12 @@
         <translation>Tsy misy aseho eto amin'ity pejy ity araka ny misy azy ireo saha; ampiasao ny taratasy fenoina.</translation>
     </message>
     <message>
-        <source>Address of the link</source>
-        <translation>Adiresin'ny rohy</translation>
-    </message>
-    <message>
-        <source>Text format</source>
-        <translation>Endrika lahatsoratra</translation>
-    </message>
-    <message>
-        <source>Bold</source>
-        <translation>Matevina</translation>
-    </message>
-    <message>
-        <source>Italic</source>
-        <translation>Mandry</translation>
-    </message>
-    <message>
-        <source>List</source>
-        <translation>Lisitra</translation>
-    </message>
-    <message>
-        <source>Link</source>
-        <translation>Rohy</translation>
-    </message>
-    <message>
         <source>Yes</source>
         <translation>Eny</translation>
     </message>
     <message>
-        <source>In the text form of the field (values parted by |).</source>
-        <translation>Amin'ny endrika lahatsoratry ny saha (sanda nosarahina amin'ny |).</translation>
+        <source>Text of the link</source>
+        <translation>Soratry ny rohy</translation>
     </message>
     <message>
         <source>You may not create anything here.</source>
@@ -370,10 +354,6 @@
     <message>
         <source>Add "%name" also below ...</source>
         <translation>Ampio koa "%name" ambanin'ny ...</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>Foano</translation>
     </message>
     <message>
         <source>In: %name</source>
@@ -494,10 +474,6 @@
     <message>
         <source>Menu</source>
         <translation>Menio</translation>
-    </message>
-    <message>
-        <source>Edit</source>
-        <translation>Ovay</translation>
     </message>
     <message>
         <source>Arrow keys move it, Enter opens it.</source>

@@ -136,6 +136,10 @@
         <translation>Visas redaktorius</translation>
     </message>
     <message>
+        <source>Edit</source>
+        <translation>Redaguoti</translation>
+    </message>
+    <message>
         <source>required</source>
         <translation>privaloma</translation>
     </message>
@@ -172,12 +176,16 @@
         <translation>Atmesti juodraštį</translation>
     </message>
     <message>
-        <source>Saving ...</source>
-        <translation>Išsaugoma...</translation>
+        <source>Cancel</source>
+        <translation>Atšaukti</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
         <translation>Juodraštis išsaugotas.</translation>
+    </message>
+    <message>
+        <source>Saving ...</source>
+        <translation>Išsaugoma...</translation>
     </message>
     <message>
         <source>Someone else changed these fields in the meantime. Choose for each field which text to keep, then save again.</source>
@@ -236,36 +244,12 @@
         <translation>Nė vienas laukas šiame puslapyje toks, koks yra, nerodomas; naudokite formą.</translation>
     </message>
     <message>
-        <source>Address of the link</source>
-        <translation>Nuorodos adresas</translation>
-    </message>
-    <message>
-        <source>Text format</source>
-        <translation>Teksto formatas</translation>
-    </message>
-    <message>
-        <source>Bold</source>
-        <translation>Paryškintas</translation>
-    </message>
-    <message>
-        <source>Italic</source>
-        <translation>Kursyvas</translation>
-    </message>
-    <message>
-        <source>List</source>
-        <translation>Sąrašas</translation>
-    </message>
-    <message>
-        <source>Link</source>
-        <translation>Nuoroda</translation>
-    </message>
-    <message>
         <source>Yes</source>
         <translation>Taip</translation>
     </message>
     <message>
-        <source>In the text form of the field (values parted by |).</source>
-        <translation>Lauko teksto forma (reikšmės atskirtos |).</translation>
+        <source>Text of the link</source>
+        <translation>Nuorodos tekstas</translation>
     </message>
     <message>
         <source>You may not create anything here.</source>
@@ -370,10 +354,6 @@
     <message>
         <source>Add "%name" also below ...</source>
         <translation>Pridėti „%name“ taip pat po...</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>Atšaukti</translation>
     </message>
     <message>
         <source>In: %name</source>
@@ -494,10 +474,6 @@
     <message>
         <source>Menu</source>
         <translation>Meniu</translation>
-    </message>
-    <message>
-        <source>Edit</source>
-        <translation>Redaguoti</translation>
     </message>
     <message>
         <source>Arrow keys move it, Enter opens it.</source>

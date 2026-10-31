@@ -136,6 +136,10 @@
         <translation>កម្មវិធីកែសម្រួលពេញលេញ</translation>
     </message>
     <message>
+        <source>Edit</source>
+        <translation>កែសម្រួល</translation>
+    </message>
+    <message>
         <source>required</source>
         <translation>ត្រូវការ</translation>
     </message>
@@ -172,12 +176,16 @@
         <translation>បោះបង់សេចក្តីព្រាង</translation>
     </message>
     <message>
-        <source>Saving ...</source>
-        <translation>កំពុងរក្សាទុក ...</translation>
+        <source>Cancel</source>
+        <translation>បោះបង់</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
         <translation>សេចក្តីព្រាងត្រូវបានរក្សាទុក។</translation>
+    </message>
+    <message>
+        <source>Saving ...</source>
+        <translation>កំពុងរក្សាទុក ...</translation>
     </message>
     <message>
         <source>Someone else changed these fields in the meantime. Choose for each field which text to keep, then save again.</source>
@@ -236,36 +244,12 @@
         <translation>គ្មានវាលណាមួយបង្ហាញនៅលើទំព័រនេះដូចដែលវាមានទេ; សូមប្រើទម្រង់។</translation>
     </message>
     <message>
-        <source>Address of the link</source>
-        <translation>អាសយដ្ឋានតំណ</translation>
-    </message>
-    <message>
-        <source>Text format</source>
-        <translation>ទម្រង់អត្ថបទ</translation>
-    </message>
-    <message>
-        <source>Bold</source>
-        <translation>ដិត</translation>
-    </message>
-    <message>
-        <source>Italic</source>
-        <translation>ទ្រេត</translation>
-    </message>
-    <message>
-        <source>List</source>
-        <translation>បញ្ជី</translation>
-    </message>
-    <message>
-        <source>Link</source>
-        <translation>តំណ</translation>
-    </message>
-    <message>
         <source>Yes</source>
         <translation>បាទ/ចាស</translation>
     </message>
     <message>
-        <source>In the text form of the field (values parted by |).</source>
-        <translation>ក្នុងទម្រង់អត្ថបទរបស់វាល (តម្លៃបំបែកដោយ |)។</translation>
+        <source>Text of the link</source>
+        <translation>អត្ថបទតំណ</translation>
     </message>
     <message>
         <source>You may not create anything here.</source>
@@ -370,10 +354,6 @@
     <message>
         <source>Add "%name" also below ...</source>
         <translation>បន្ថែម "%name" នៅក្រោម ... ផងដែរ</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>បោះបង់</translation>
     </message>
     <message>
         <source>In: %name</source>
@@ -494,10 +474,6 @@
     <message>
         <source>Menu</source>
         <translation>ម៉ឺនុយ</translation>
-    </message>
-    <message>
-        <source>Edit</source>
-        <translation>កែសម្រួល</translation>
     </message>
     <message>
         <source>Arrow keys move it, Enter opens it.</source>

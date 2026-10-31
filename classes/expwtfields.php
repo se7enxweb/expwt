@@ -42,10 +42,15 @@ class expwtFields
     );
 
     /** Inputs whose text is shown on the page and can be edited there */
-    const INLINE = array( 'text', 'textarea', 'richtext' );
+    const INLINE = array( 'text', 'textarea' );
 
     /** Datatypes never shown in the sidebar: accounts and secrets */
     const NEVER = array( 'ezuser', 'ezpassword', 'sevenxtwofactor' );
+
+    /** Inputs shown by their names (the tags, the related objects), changed in the full editor: their string form is
+        the datatype's storage (eztags "ids|#keywords|#parents", relations as object ids) and never reaches the
+        sidebar's form nor comes back from it */
+    const NAMES_ONLY = array( 'tags', 'relations' );
 
     /**
      * @param string $datatype
@@ -59,9 +64,27 @@ class expwtFields
         $input = isset( self::INPUTS[$datatype] ) ? self::INPUTS[$datatype] : 'full';
         if ( $input === 'select' && $multiple )
             $input = 'multiselect';
-        // a file (an image) needs an upload: the full editor until the media panel (phase 2) takes uploads
-        return array( 'input' => $input, 'inline' => in_array( $input, self::INLINE, true ),
-                      'editable' => !in_array( $input, array( 'full', 'image' ), true ) );
+        // rich text, tags, relations, images and every other datatype: the datatype's own editor, as the
+        // administration has it (expwt/field, decision 12); never a text form of their storage
+        $embed = in_array( $input, self::EMBED, true );
+        return array( 'input' => $input, 'inline' => in_array( $input, self::INLINE, true ) && !$embed,
+                      'editable' => !$embed, 'embed' => $embed );
+    }
+
+    /** Inputs edited in the datatype's own editor in a frame (expwt/field): saved as content/edit saves them */
+    const EMBED = array( 'richtext', 'tags', 'relations', 'image', 'full' );
+
+    /**
+     * ezurl's string form (address|text) as its two parts, and back. The text may contain "|"; the address may not
+     * (ezurl::fromString() splits at the first one).
+     *
+     * @param string $value
+     * @return string[] array( address, text )
+     */
+    public static function urlParts( $value )
+    {
+        $parts = explode( '|', (string)$value, 2 );
+        return array( $parts[0], isset( $parts[1] ) ? $parts[1] : '' );
     }
 
     /**

@@ -16,6 +16,7 @@ $expwtClasses = array(
     'expwtMerge' => 'expwtmerge.php', 'expwtLock' => 'expwtlock.php', 'expwtFields' => 'expwtfields.php',
     'expwtApiError' => 'expwtapierror.php', 'expwtApi' => 'expwtapi.php', 'expwtStrings' => 'expwtstrings.php',
     'expwtSchedule' => 'expwtschedule.php', 'expwtHook' => 'expwthook.php', 'expwtGateway' => 'expwtgateway.php',
+    'expwtFieldMarkerHandler' => 'expwtfieldmarkerhandler.php',
 );
 foreach ( $expwtClasses as $expwtClass => $expwtFile )
 {

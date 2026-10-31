@@ -1,0 +1,19 @@
+/*
+ * expwt/field: the page of one field's editor in the sidebar's frame. The editor (ezoe, tiptap, the tag picker ...)
+ * brings its own look; around it only the system's colors (Canvas, CanvasText ...), in the frame's light or dark mode,
+ * so nothing here is a color of its own.
+ */
+html.expwt-field-page { color-scheme: light dark; }
+html.expwt-field-page.is-light { color-scheme: light; }
+html.expwt-field-page.is-dark { color-scheme: dark; }
+.expwt-field-body {
+  margin: 0;
+  padding: 8px;
+  background: Canvas;
+  color: CanvasText;
+  font: 14px/1.5 system-ui, sans-serif;
+}
+.expwt-field-input { margin-block-end: 8px; }
+.expwt-field-actions { display: flex; gap: 8px; }
+.expwt-field-error { padding: 4px 8px; border: 1px solid Mark; border-radius: 4px; }
+.expwt-field-saved { margin: 0 0 8px; }

@@ -136,6 +136,10 @@
         <translation>Լիարժեք խմբագրիչ</translation>
     </message>
     <message>
+        <source>Edit</source>
+        <translation>Խմբագրել</translation>
+    </message>
+    <message>
         <source>required</source>
         <translation>պարտադիր</translation>
     </message>
@@ -172,12 +176,16 @@
         <translation>Չեղարկել սևագիրը</translation>
     </message>
     <message>
-        <source>Saving ...</source>
-        <translation>Պահպանվում է ...</translation>
+        <source>Cancel</source>
+        <translation>Չեղարկել</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
         <translation>Սևագիրը պահպանված է։</translation>
+    </message>
+    <message>
+        <source>Saving ...</source>
+        <translation>Պահպանվում է ...</translation>
     </message>
     <message>
         <source>Someone else changed these fields in the meantime. Choose for each field which text to keep, then save again.</source>
@@ -236,36 +244,12 @@
         <translation>Դաշտերից ոչ մեկը այս էջում չի ցուցադրվում այնպես, ինչպես կա. օգտագործեք ձևը։</translation>
     </message>
     <message>
-        <source>Address of the link</source>
-        <translation>Հղման հասցե</translation>
-    </message>
-    <message>
-        <source>Text format</source>
-        <translation>Տեքստի ձևաչափ</translation>
-    </message>
-    <message>
-        <source>Bold</source>
-        <translation>Թավ</translation>
-    </message>
-    <message>
-        <source>Italic</source>
-        <translation>Շեղ</translation>
-    </message>
-    <message>
-        <source>List</source>
-        <translation>Ցանկ</translation>
-    </message>
-    <message>
-        <source>Link</source>
-        <translation>Հղում</translation>
-    </message>
-    <message>
         <source>Yes</source>
         <translation>Այո</translation>
     </message>
     <message>
-        <source>In the text form of the field (values parted by |).</source>
-        <translation>Դաշտի տեքստային ձևով (արժեքները բաժանված են |-ով)։</translation>
+        <source>Text of the link</source>
+        <translation>Հղման տեքստ</translation>
     </message>
     <message>
         <source>You may not create anything here.</source>
@@ -370,10 +354,6 @@
     <message>
         <source>Add "%name" also below ...</source>
         <translation>Ավելացնել «%name»-ը նաև ... տակ</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>Չեղարկել</translation>
     </message>
     <message>
         <source>In: %name</source>
@@ -494,10 +474,6 @@
     <message>
         <source>Menu</source>
         <translation>Ընտրացանկ</translation>
-    </message>
-    <message>
-        <source>Edit</source>
-        <translation>Խմբագրել</translation>
     </message>
     <message>
         <source>Arrow keys move it, Enter opens it.</source>

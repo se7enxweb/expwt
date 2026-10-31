@@ -136,6 +136,10 @@
         <translation>Olóòtú kíkún</translation>
     </message>
     <message>
+        <source>Edit</source>
+        <translation>Ṣàtúnṣe</translation>
+    </message>
+    <message>
         <source>required</source>
         <translation>pọndandan</translation>
     </message>
@@ -172,12 +176,16 @@
         <translation>Pa àkọsílẹ̀ àkọ́kọ́ tì</translation>
     </message>
     <message>
-        <source>Saving ...</source>
-        <translation>Ó ń fipamọ́ ...</translation>
+        <source>Cancel</source>
+        <translation>Fagilé</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
         <translation>A ti fi àkọsílẹ̀ àkọ́kọ́ pamọ́.</translation>
+    </message>
+    <message>
+        <source>Saving ...</source>
+        <translation>Ó ń fipamọ́ ...</translation>
     </message>
     <message>
         <source>Someone else changed these fields in the meantime. Choose for each field which text to keep, then save again.</source>
@@ -236,36 +244,12 @@
         <translation>Kò sí èyíkéyìí nínú àwọn pápá tí ó hàn lórí ojú ìwé yìí bí ó ti rí; lo fọ́ọ̀mù.</translation>
     </message>
     <message>
-        <source>Address of the link</source>
-        <translation>Àdírẹ́sì ìjápọ̀</translation>
-    </message>
-    <message>
-        <source>Text format</source>
-        <translation>Ìrísí ọ̀rọ̀</translation>
-    </message>
-    <message>
-        <source>Bold</source>
-        <translation>Kíkún</translation>
-    </message>
-    <message>
-        <source>Italic</source>
-        <translation>Dídá</translation>
-    </message>
-    <message>
-        <source>List</source>
-        <translation>Àkójọ</translation>
-    </message>
-    <message>
-        <source>Link</source>
-        <translation>Ìjápọ̀</translation>
-    </message>
-    <message>
         <source>Yes</source>
         <translation>Bẹ́ẹ̀ ni</translation>
     </message>
     <message>
-        <source>In the text form of the field (values parted by |).</source>
-        <translation>Nínú ọ̀nà ọ̀rọ̀ pápá náà (àwọn iye tí | pín sọ́tọ̀).</translation>
+        <source>Text of the link</source>
+        <translation>Ọ̀rọ̀ ìjápọ̀</translation>
     </message>
     <message>
         <source>You may not create anything here.</source>
@@ -370,10 +354,6 @@
     <message>
         <source>Add "%name" also below ...</source>
         <translation>Ṣàfikún "%name" lábẹ́ ... pẹ̀lú</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>Fagilé</translation>
     </message>
     <message>
         <source>In: %name</source>
@@ -494,10 +474,6 @@
     <message>
         <source>Menu</source>
         <translation>Àtòjọ</translation>
-    </message>
-    <message>
-        <source>Edit</source>
-        <translation>Ṣàtúnṣe</translation>
     </message>
     <message>
         <source>Arrow keys move it, Enter opens it.</source>

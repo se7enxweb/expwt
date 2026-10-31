@@ -136,6 +136,10 @@
         <translation>සම්පූර්ණ සංස්කාරකය</translation>
     </message>
     <message>
+        <source>Edit</source>
+        <translation>සංස්කරණය</translation>
+    </message>
+    <message>
         <source>required</source>
         <translation>අවශ්‍යයි</translation>
     </message>
@@ -172,12 +176,16 @@
         <translation>කෙටුම්පත ඉවත දමන්න</translation>
     </message>
     <message>
-        <source>Saving ...</source>
-        <translation>සුරකිමින් ...</translation>
+        <source>Cancel</source>
+        <translation>අවලංගු කරන්න</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
         <translation>කෙටුම්පත සුරැකිණි.</translation>
+    </message>
+    <message>
+        <source>Saving ...</source>
+        <translation>සුරකිමින් ...</translation>
     </message>
     <message>
         <source>Someone else changed these fields in the meantime. Choose for each field which text to keep, then save again.</source>
@@ -236,36 +244,12 @@
         <translation>දැනට ඇති ආකාරයට කිසිදු ක්ෂේත්‍රයක් මෙම පිටුවේ නොපෙන්වයි; පෝරමය භාවිත කරන්න.</translation>
     </message>
     <message>
-        <source>Address of the link</source>
-        <translation>සබැඳියේ ලිපිනය</translation>
-    </message>
-    <message>
-        <source>Text format</source>
-        <translation>පාඨ ආකෘතිය</translation>
-    </message>
-    <message>
-        <source>Bold</source>
-        <translation>තද</translation>
-    </message>
-    <message>
-        <source>Italic</source>
-        <translation>ඇල</translation>
-    </message>
-    <message>
-        <source>List</source>
-        <translation>ලැයිස්තුව</translation>
-    </message>
-    <message>
-        <source>Link</source>
-        <translation>සබැඳිය</translation>
-    </message>
-    <message>
         <source>Yes</source>
         <translation>ඔව්</translation>
     </message>
     <message>
-        <source>In the text form of the field (values parted by |).</source>
-        <translation>ක්ෂේත්‍රයේ පාඨ ආකාරයෙන් (අගයන් | මගින් වෙන් කර).</translation>
+        <source>Text of the link</source>
+        <translation>සබැඳියේ පෙළ</translation>
     </message>
     <message>
         <source>You may not create anything here.</source>
@@ -370,10 +354,6 @@
     <message>
         <source>Add "%name" also below ...</source>
         <translation>"%name" පහළින්ද එක් කරන්න ...</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>අවලංගු කරන්න</translation>
     </message>
     <message>
         <source>In: %name</source>
@@ -494,10 +474,6 @@
     <message>
         <source>Menu</source>
         <translation>මෙනුව</translation>
-    </message>
-    <message>
-        <source>Edit</source>
-        <translation>සංස්කරණය</translation>
     </message>
     <message>
         <source>Arrow keys move it, Enter opens it.</source>

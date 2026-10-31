@@ -136,6 +136,10 @@
         <translation>Tafatiraha buuxa</translation>
     </message>
     <message>
+        <source>Edit</source>
+        <translation>Tafatir</translation>
+    </message>
+    <message>
         <source>required</source>
         <translation>khasab</translation>
     </message>
@@ -172,12 +176,16 @@
         <translation>Tuur qabyada</translation>
     </message>
     <message>
-        <source>Saving ...</source>
-        <translation>Waa la keydinayaa ...</translation>
+        <source>Cancel</source>
+        <translation>Jooji</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
         <translation>Qabyada waa la keydiyay.</translation>
+    </message>
+    <message>
+        <source>Saving ...</source>
+        <translation>Waa la keydinayaa ...</translation>
     </message>
     <message>
         <source>Someone else changed these fields in the meantime. Choose for each field which text to keep, then save again.</source>
@@ -236,36 +244,12 @@
         <translation>Goobaha midkoodna sidiisa uma muuqdo boggan; isticmaal foomka.</translation>
     </message>
     <message>
-        <source>Address of the link</source>
-        <translation>Cinwaanka xiriirka</translation>
-    </message>
-    <message>
-        <source>Text format</source>
-        <translation>Qaabka qoraalka</translation>
-    </message>
-    <message>
-        <source>Bold</source>
-        <translation>Adag</translation>
-    </message>
-    <message>
-        <source>Italic</source>
-        <translation>Janjeedha</translation>
-    </message>
-    <message>
-        <source>List</source>
-        <translation>Liis</translation>
-    </message>
-    <message>
-        <source>Link</source>
-        <translation>Xiriir</translation>
-    </message>
-    <message>
         <source>Yes</source>
         <translation>Haa</translation>
     </message>
     <message>
-        <source>In the text form of the field (values parted by |).</source>
-        <translation>Qaabka qoraalka ee goobta (qiimayaal lagu kala soocay |).</translation>
+        <source>Text of the link</source>
+        <translation>Qoraalka xiriirka</translation>
     </message>
     <message>
         <source>You may not create anything here.</source>
@@ -370,10 +354,6 @@
     <message>
         <source>Add "%name" also below ...</source>
         <translation>Ku dar "%name" sidoo kale hoosta ...</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>Jooji</translation>
     </message>
     <message>
         <source>In: %name</source>
@@ -494,10 +474,6 @@
     <message>
         <source>Menu</source>
         <translation>Menu</translation>
-    </message>
-    <message>
-        <source>Edit</source>
-        <translation>Tafatir</translation>
     </message>
     <message>
         <source>Arrow keys move it, Enter opens it.</source>

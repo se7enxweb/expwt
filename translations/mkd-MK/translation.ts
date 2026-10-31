@@ -136,6 +136,10 @@
         <translation>Целосен уредувач</translation>
     </message>
     <message>
+        <source>Edit</source>
+        <translation>Уреди</translation>
+    </message>
+    <message>
         <source>required</source>
         <translation>задолжително</translation>
     </message>
@@ -172,12 +176,16 @@
         <translation>Отфрли нацрт</translation>
     </message>
     <message>
-        <source>Saving ...</source>
-        <translation>Се зачувува ...</translation>
+        <source>Cancel</source>
+        <translation>Откажи</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
         <translation>Нацртот е зачуван.</translation>
+    </message>
+    <message>
+        <source>Saving ...</source>
+        <translation>Се зачувува ...</translation>
     </message>
     <message>
         <source>Someone else changed these fields in the meantime. Choose for each field which text to keep, then save again.</source>
@@ -236,36 +244,12 @@
         <translation>Ниедно од полињата не се прикажува на оваа страница таква каква што е; користете го формуларот.</translation>
     </message>
     <message>
-        <source>Address of the link</source>
-        <translation>Адреса на врската</translation>
-    </message>
-    <message>
-        <source>Text format</source>
-        <translation>Формат на текст</translation>
-    </message>
-    <message>
-        <source>Bold</source>
-        <translation>Задебелено</translation>
-    </message>
-    <message>
-        <source>Italic</source>
-        <translation>Закосено</translation>
-    </message>
-    <message>
-        <source>List</source>
-        <translation>Список</translation>
-    </message>
-    <message>
-        <source>Link</source>
-        <translation>Врска</translation>
-    </message>
-    <message>
         <source>Yes</source>
         <translation>Да</translation>
     </message>
     <message>
-        <source>In the text form of the field (values parted by |).</source>
-        <translation>Во текстуалната форма на полето (вредности одделени со |).</translation>
+        <source>Text of the link</source>
+        <translation>Текст на врската</translation>
     </message>
     <message>
         <source>You may not create anything here.</source>
@@ -370,10 +354,6 @@
     <message>
         <source>Add "%name" also below ...</source>
         <translation>Додај го „%name“ и под ...</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>Откажи</translation>
     </message>
     <message>
         <source>In: %name</source>
@@ -494,10 +474,6 @@
     <message>
         <source>Menu</source>
         <translation>Мени</translation>
-    </message>
-    <message>
-        <source>Edit</source>
-        <translation>Уреди</translation>
     </message>
     <message>
         <source>Arrow keys move it, Enter opens it.</source>

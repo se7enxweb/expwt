@@ -136,6 +136,10 @@
         <translation>Éditor lengkep</translation>
     </message>
     <message>
+        <source>Edit</source>
+        <translation>Édit</translation>
+    </message>
+    <message>
         <source>required</source>
         <translation>wajib</translation>
     </message>
@@ -172,12 +176,16 @@
         <translation>Piceun draf</translation>
     </message>
     <message>
-        <source>Saving ...</source>
-        <translation>Keur nyimpen ...</translation>
+        <source>Cancel</source>
+        <translation>Bolaykeun</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
         <translation>Draf geus disimpen.</translation>
+    </message>
+    <message>
+        <source>Saving ...</source>
+        <translation>Keur nyimpen ...</translation>
     </message>
     <message>
         <source>Someone else changed these fields in the meantime. Choose for each field which text to keep, then save again.</source>
@@ -236,36 +244,12 @@
         <translation>Teu aya widang nu katémbong dina kaca ieu sakumaha aslina; paké formulir.</translation>
     </message>
     <message>
-        <source>Address of the link</source>
-        <translation>Alamat tumbu</translation>
-    </message>
-    <message>
-        <source>Text format</source>
-        <translation>Format téks</translation>
-    </message>
-    <message>
-        <source>Bold</source>
-        <translation>Kandel</translation>
-    </message>
-    <message>
-        <source>Italic</source>
-        <translation>Miring</translation>
-    </message>
-    <message>
-        <source>List</source>
-        <translation>Daptar</translation>
-    </message>
-    <message>
-        <source>Link</source>
-        <translation>Tumbu</translation>
-    </message>
-    <message>
         <source>Yes</source>
         <translation>Enya</translation>
     </message>
     <message>
-        <source>In the text form of the field (values parted by |).</source>
-        <translation>Dina wangun téks widangna (ajén dipisahkeun ku |).</translation>
+        <source>Text of the link</source>
+        <translation>Téks tumbu</translation>
     </message>
     <message>
         <source>You may not create anything here.</source>
@@ -370,10 +354,6 @@
     <message>
         <source>Add "%name" also below ...</source>
         <translation>Tambahkeun "%name" ogé di handapeun ...</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>Bolaykeun</translation>
     </message>
     <message>
         <source>In: %name</source>
@@ -494,10 +474,6 @@
     <message>
         <source>Menu</source>
         <translation>Menu</translation>
-    </message>
-    <message>
-        <source>Edit</source>
-        <translation>Édit</translation>
     </message>
     <message>
         <source>Arrow keys move it, Enter opens it.</source>

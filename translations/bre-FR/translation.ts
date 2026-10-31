@@ -136,6 +136,10 @@
         <translation>Embanner klok</translation>
     </message>
     <message>
+        <source>Edit</source>
+        <translation>Kemmañ</translation>
+    </message>
+    <message>
         <source>required</source>
         <translation>rediet</translation>
     </message>
@@ -172,12 +176,16 @@
         <translation>Dilezel ar brouilhed</translation>
     </message>
     <message>
-        <source>Saving ...</source>
-        <translation>Oc'h enrollañ ...</translation>
+        <source>Cancel</source>
+        <translation>Nullañ</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
         <translation>Enrollet eo ar brouilhed.</translation>
+    </message>
+    <message>
+        <source>Saving ...</source>
+        <translation>Oc'h enrollañ ...</translation>
     </message>
     <message>
         <source>Someone else changed these fields in the meantime. Choose for each field which text to keep, then save again.</source>
@@ -236,36 +244,12 @@
         <translation>Hini ebet eus ar maeziennoù ne ziskouezer war ar bajenn-mañ evel m'emañ; implijit ar furmskrid.</translation>
     </message>
     <message>
-        <source>Address of the link</source>
-        <translation>Chomlec'h al liamm</translation>
-    </message>
-    <message>
-        <source>Text format</source>
-        <translation>Furmad an destenn</translation>
-    </message>
-    <message>
-        <source>Bold</source>
-        <translation>Tev</translation>
-    </message>
-    <message>
-        <source>Italic</source>
-        <translation>Stouet</translation>
-    </message>
-    <message>
-        <source>List</source>
-        <translation>Roll</translation>
-    </message>
-    <message>
-        <source>Link</source>
-        <translation>Liamm</translation>
-    </message>
-    <message>
         <source>Yes</source>
         <translation>Ya</translation>
     </message>
     <message>
-        <source>In the text form of the field (values parted by |).</source>
-        <translation>E furm destenn ar vaezienn (talvoudoù rannet gant |).</translation>
+        <source>Text of the link</source>
+        <translation>Testenn al liamm</translation>
     </message>
     <message>
         <source>You may not create anything here.</source>
@@ -370,10 +354,6 @@
     <message>
         <source>Add "%name" also below ...</source>
         <translation>Ouzhpennañ «%name» ivez dindan ...</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>Nullañ</translation>
     </message>
     <message>
         <source>In: %name</source>
@@ -494,10 +474,6 @@
     <message>
         <source>Menu</source>
         <translation>Lañser</translation>
-    </message>
-    <message>
-        <source>Edit</source>
-        <translation>Kemmañ</translation>
     </message>
     <message>
         <source>Arrow keys move it, Enter opens it.</source>

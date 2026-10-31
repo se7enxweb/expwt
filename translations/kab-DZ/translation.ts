@@ -136,6 +136,10 @@
         <translation>Amaẓrag ummid</translation>
     </message>
     <message>
+        <source>Edit</source>
+        <translation>Ẓreg</translation>
+    </message>
+    <message>
         <source>required</source>
         <translation>yettwasra</translation>
     </message>
@@ -172,12 +176,16 @@
         <translation>Ttu arewway</translation>
     </message>
     <message>
-        <source>Saving ...</source>
-        <translation>Asekles ...</translation>
+        <source>Cancel</source>
+        <translation>Sefsex</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
         <translation>Arewway yettwasekles.</translation>
+    </message>
+    <message>
+        <source>Saving ...</source>
+        <translation>Asekles ...</translation>
     </message>
     <message>
         <source>Someone else changed these fields in the meantime. Choose for each field which text to keep, then save again.</source>
@@ -236,36 +244,12 @@
         <translation>Ula d yiwen seg yurtiyen ur d-yettban deg usebter-a akken yella; seqdec tiferkit.</translation>
     </message>
     <message>
-        <source>Address of the link</source>
-        <translation>Tansa n useɣwen</translation>
-    </message>
-    <message>
-        <source>Text format</source>
-        <translation>Amasal n uḍris</translation>
-    </message>
-    <message>
-        <source>Bold</source>
-        <translation>Azuran</translation>
-    </message>
-    <message>
-        <source>Italic</source>
-        <translation>Uknan</translation>
-    </message>
-    <message>
-        <source>List</source>
-        <translation>Tabdart</translation>
-    </message>
-    <message>
-        <source>Link</source>
-        <translation>Aseɣwen</translation>
-    </message>
-    <message>
         <source>Yes</source>
         <translation>Ih</translation>
     </message>
     <message>
-        <source>In the text form of the field (values parted by |).</source>
-        <translation>S talɣa n uḍris n wurti (azalen ttwabḍan s |).</translation>
+        <source>Text of the link</source>
+        <translation>Aḍris n useɣwen</translation>
     </message>
     <message>
         <source>You may not create anything here.</source>
@@ -370,10 +354,6 @@
     <message>
         <source>Add "%name" also below ...</source>
         <translation>Rnu "%name" daɣen ddaw ...</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>Sefsex</translation>
     </message>
     <message>
         <source>In: %name</source>
@@ -494,10 +474,6 @@
     <message>
         <source>Menu</source>
         <translation>Umuɣ</translation>
-    </message>
-    <message>
-        <source>Edit</source>
-        <translation>Ẓreg</translation>
     </message>
     <message>
         <source>Arrow keys move it, Enter opens it.</source>

@@ -136,6 +136,10 @@
         <translation>Asitrɔɖoƒe blibo</translation>
     </message>
     <message>
+        <source>Edit</source>
+        <translation>Trɔ asi le eŋu</translation>
+    </message>
+    <message>
         <source>required</source>
         <translation>ehiã</translation>
     </message>
@@ -172,12 +176,16 @@
         <translation>Tutu ŋɔŋlɔ gbãtɔ ɖa</translation>
     </message>
     <message>
-        <source>Saving ...</source>
-        <translation>Ele dzadzram ɖo ...</translation>
+        <source>Cancel</source>
+        <translation>Ɖe asi le eŋu</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
         <translation>Wodzra ŋɔŋlɔ gbãtɔ la ɖo.</translation>
+    </message>
+    <message>
+        <source>Saving ...</source>
+        <translation>Ele dzadzram ɖo ...</translation>
     </message>
     <message>
         <source>Someone else changed these fields in the meantime. Choose for each field which text to keep, then save again.</source>
@@ -236,36 +244,12 @@
         <translation>Teƒe siawo dometɔ aɖeke medzena le axa sia dzi abe ale si wòle ene o; zã agbalẽvi la.</translation>
     </message>
     <message>
-        <source>Address of the link</source>
-        <translation>Kadodo la ƒe adrɛs</translation>
-    </message>
-    <message>
-        <source>Text format</source>
-        <translation>Ŋɔŋlɔ ƒe nɔnɔme</translation>
-    </message>
-    <message>
-        <source>Bold</source>
-        <translation>Gbadza</translation>
-    </message>
-    <message>
-        <source>Italic</source>
-        <translation>Tsyɔ</translation>
-    </message>
-    <message>
-        <source>List</source>
-        <translation>Xexlẽdzesi</translation>
-    </message>
-    <message>
-        <source>Link</source>
-        <translation>Kadodo</translation>
-    </message>
-    <message>
         <source>Yes</source>
         <translation>Ɛ̃</translation>
     </message>
     <message>
-        <source>In the text form of the field (values parted by |).</source>
-        <translation>Le teƒe la ƒe ŋɔŋlɔ ƒe nɔnɔme me (asixɔxɔwo wotso wo ɖe vovo kple |).</translation>
+        <source>Text of the link</source>
+        <translation>Kadodo la ƒe nuŋɔŋlɔ</translation>
     </message>
     <message>
         <source>You may not create anything here.</source>
@@ -370,10 +354,6 @@
     <message>
         <source>Add "%name" also below ...</source>
         <translation>Tsɔ “%name” kpee hã le ... te</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>Ɖe asi le eŋu</translation>
     </message>
     <message>
         <source>In: %name</source>
@@ -494,10 +474,6 @@
     <message>
         <source>Menu</source>
         <translation>Menu</translation>
-    </message>
-    <message>
-        <source>Edit</source>
-        <translation>Trɔ asi le eŋu</translation>
     </message>
     <message>
         <source>Arrow keys move it, Enter opens it.</source>

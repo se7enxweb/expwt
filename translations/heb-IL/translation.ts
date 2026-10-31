@@ -136,6 +136,10 @@
         <translation>עורך מלא</translation>
     </message>
     <message>
+        <source>Edit</source>
+        <translation>עריכה</translation>
+    </message>
+    <message>
         <source>required</source>
         <translation>חובה</translation>
     </message>
@@ -172,12 +176,16 @@
         <translation>מחיקת טיוטה</translation>
     </message>
     <message>
-        <source>Saving ...</source>
-        <translation>בשמירה ...</translation>
+        <source>Cancel</source>
+        <translation>ביטול</translation>
     </message>
     <message>
         <source>The draft is saved.</source>
         <translation>הטיוטה נשמרה.</translation>
+    </message>
+    <message>
+        <source>Saving ...</source>
+        <translation>בשמירה ...</translation>
     </message>
     <message>
         <source>Someone else changed these fields in the meantime. Choose for each field which text to keep, then save again.</source>
@@ -236,36 +244,12 @@
         <translation>אף אחד מהשדות אינו מוצג בדף זה כמות שהוא; יש להשתמש בטופס.</translation>
     </message>
     <message>
-        <source>Address of the link</source>
-        <translation>כתובת הקישור</translation>
-    </message>
-    <message>
-        <source>Text format</source>
-        <translation>עיצוב טקסט</translation>
-    </message>
-    <message>
-        <source>Bold</source>
-        <translation>מודגש</translation>
-    </message>
-    <message>
-        <source>Italic</source>
-        <translation>נטוי</translation>
-    </message>
-    <message>
-        <source>List</source>
-        <translation>רשימה</translation>
-    </message>
-    <message>
-        <source>Link</source>
-        <translation>קישור</translation>
-    </message>
-    <message>
         <source>Yes</source>
         <translation>כן</translation>
     </message>
     <message>
-        <source>In the text form of the field (values parted by |).</source>
-        <translation>בצורת הטקסט של השדה (ערכים מופרדים ב־|).</translation>
+        <source>Text of the link</source>
+        <translation>טקסט הקישור</translation>
     </message>
     <message>
         <source>You may not create anything here.</source>
@@ -370,10 +354,6 @@
     <message>
         <source>Add "%name" also below ...</source>
         <translation>הוספת „%name” גם מתחת ל־...</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>ביטול</translation>
     </message>
     <message>
         <source>In: %name</source>
@@ -494,10 +474,6 @@
     <message>
         <source>Menu</source>
         <translation>תפריט</translation>
-    </message>
-    <message>
-        <source>Edit</source>
-        <translation>עריכה</translation>
     </message>
     <message>
         <source>Arrow keys move it, Enter opens it.</source>

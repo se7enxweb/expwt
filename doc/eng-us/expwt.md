@@ -95,6 +95,30 @@ as the user who scheduled them.
 page since 10:42" and may take it over. If both save anyway, nothing is lost: fields only one of them changed are
 merged, and for a field both changed differently the second editor chooses per field which text to keep.
 
+## Fields and their editors
+
+The Page panel edits every field with the editor the administration has for its datatype; it never shows a field in
+the text form of its storage.
+
+| Datatype | Editor in the sidebar |
+|---|---|
+| ezstring, eztext, ezinteger, ezfloat, ezprice, ezemail | an input of the form (text also on the page itself) |
+| ezboolean, ezselection, ezdate, ezdatetime, eztime | a checkbox, a choice, a date or time input |
+| ezurl | two inputs: the address and the text of the link |
+| ezkeyword | an input with the keywords, separated by commas |
+| ezxmltext | the installation's rich text editor (ezoe with TinyMCE 8, or exp_oe_tiptap), with its toolbar, custom tags, embeds and link and object browsing |
+| eztags | the eztags picker (autocomplete, tree, chips; its subtree and number limits) |
+| ezobjectrelation, ezobjectrelationlist | the datatype's own edit (browsing for objects) |
+| ezimage, ezbinaryfile, ezmedia | the upload and the fields of the datatype (alternative text ...) |
+| xrowmetadata, ezgmaplocation, ezmatrix, any other | the datatype's own edit template |
+
+The fields of the second half open their editor with **Edit**: below the field on the left and right, over the bar
+(made higher while it is open) on top and bottom. The editor is the view `expwt/field/<object>/<version>/<language>/
+<field>` in a frame: the kernel's `{attribute_edit_gui}` for that field of the user's draft, saved with the same steps
+as content/edit (validation, the datatype's input, its custom actions, the object's name), so what is stored is what
+the administration stores for the same input. Opening an editor uses the user's newest draft in the language, or makes
+one, as the administration's Edit does.
+
 ## Policies
 
 | Policy | Allows |
