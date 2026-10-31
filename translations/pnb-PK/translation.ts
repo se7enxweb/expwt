@@ -140,10 +140,6 @@
         <translation>لازمی</translation>
     </message>
     <message>
-        <source>In the full editor: %fields</source>
-        <translation>پورے ایڈیٹر وچ: %fields</translation>
-    </message>
-    <message>
         <source>Publish later or take down at a date</source>
         <translation>بعد وچ چھاپو یا کسے تاریخ نوں ہٹاؤ</translation>
     </message>
@@ -154,6 +150,14 @@
     <message>
         <source>Take down at</source>
         <translation>ہٹان دا ویلا</translation>
+    </message>
+    <message>
+        <source>In the full editor: %fields</source>
+        <translation>پورے ایڈیٹر وچ: %fields</translation>
+    </message>
+    <message>
+        <source>More</source>
+        <translation>ہور</translation>
     </message>
     <message>
         <source>Save draft</source>

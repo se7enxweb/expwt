@@ -156,6 +156,10 @@
       }
       window.addEventListener('scroll', function () { self.place(); }, { passive: true });
       window.addEventListener('resize', function () { self.place(); });
+      /* a phone's sheet grows and shrinks with its contents: the tab follows its edge */
+      if (window.ResizeObserver) {
+        new ResizeObserver(function () { if (self.horizontal() && window.innerWidth < 640) { self.place(); } }).observe(this.panel);
+      }
       /* a cookie bar or a fixed footer that comes or goes: the bottom bar moves above it */
       if (window.MutationObserver && document.body) {
         new MutationObserver(function () { if (self.state.edge === 'bottom') { self.place(); } })
@@ -190,7 +194,7 @@
         align: s.align === 'start' || s.align === 'end' ? s.align : (c.align === 'start' ? 'start' : 'end'),
         offset: clamp(parseInt(s.offset, 10) || 0, 0, 4000),
         width: clamp(parseInt(s.width, 10) || c.width || 380, c.minWidth || 300, c.maxWidth || 720),
-        height: clamp(parseInt(s.height, 10) || c.height || 320, c.minHeight || 160, c.maxHeight || 640),
+        height: clamp(parseInt(s.height, 10) || c.height || 280, c.minHeight || 160, c.maxHeight || 640),
         open: s.open === true,
         mode: s.mode === 'overlay' ? 'overlay' : 'push',
         theme: ['light', 'dark'].indexOf(s.theme) >= 0 ? s.theme : 'auto',
@@ -216,8 +220,8 @@
           if (shown) { return; }
           shown = true;
           clearTimeout(self.veilTimer);
+          self.placeNow();
           self.veil(false);
-          self.place();
         };
         link.addEventListener('load', show);
         link.addEventListener('error', show);
@@ -245,6 +249,9 @@
       });
       this.heading = h('h2', { id: 'wt-title', tabindex: '-1', text: this.t('Website sidebar') });
       this.tablist = h('div', { class: 'wt-tabs', role: 'tablist', 'aria-label': this.t('Panels') });
+      /* On top and bottom the open panel's main actions (Save draft, Publish ...) stand in the bar's one row, next
+         to the panels' tabs, so they never scroll away; on left and right they stay in the panel (primary()). */
+      this.actions = h('div', { class: 'wt-actions' });
       this.body = h('div', { class: 'wt-body', id: 'wt-body', role: 'tabpanel', tabindex: '-1' });
       this.status = h('div', { class: 'wt-status', role: 'status', 'aria-live': 'polite' });
       this.panel = h('section', {
@@ -258,6 +265,7 @@
             onclick: function () { self.toggle(false, true); } }, ['×'])
         ]),
         this.tablist,
+        this.actions,
         this.body,
         this.status
       ]);
@@ -396,6 +404,15 @@
       this.placing = true;
       window.requestAnimationFrame(function () {
         self.placing = false;
+        self.placeNow();
+      });
+    }
+
+    /* Where the tab and the panel are, at once: also before the sidebar is first shown, so its first frame is
+       already below the header (or above a fixed footer), never at the window's edge and then moved. */
+    placeNow() {
+      var self = this;
+      {
         var hz = self.horizontal();
         var top = self.headerBottom();
         var bottom = hz && self.state.edge === 'bottom' ? self.footerHeight() : 0;
@@ -403,8 +420,12 @@
         var tabLength = hz ? (self.tab.offsetWidth || 120) : (self.tab.offsetHeight || 120);
         var room = Math.max(0, (hz ? window.innerWidth : vh - top) - tabLength);
         var offset = Math.min(self.state.offset, room);
-        /* the bar never takes more than the window has below the header, less the tab */
+        /* the bar never takes more than the window has below the header, less the tab; on a phone it is a sheet as
+           high as its contents (the stylesheet), and the tab sits at its edge */
         var height = Math.max(120, Math.min(self.state.height, vh - top - bottom - (self.tab.offsetHeight || 48)));
+        if (hz && self.state.open && window.innerWidth < 640 && self.panel.offsetHeight) {
+          height = self.panel.offsetHeight;
+        }
         self.top = top;
         self.bottom = bottom;
         self.barHeight = height;
@@ -414,8 +435,14 @@
         } else {
           Object.keys(vars).forEach(function (k) { self.style.setProperty(k, vars[k] + 'px'); });
         }
+        /* the bar got another size: the open panel fits its contents to it again (the page's fields) */
+        if (hz && self.state.open && (self.fitHeight !== height || self.fitWidth !== window.innerWidth)) {
+          self.fitHeight = height;
+          self.fitWidth = window.innerWidth;
+          self.body.dispatchEvent(new CustomEvent('expwt-orient', { detail: { horizontal: true } }));
+        }
         self.push();
-      });
+      }
     }
 
     /* Push: the page beside the panel (left, right), below the bar (top) or with room at its end for it (bottom). On
@@ -514,8 +541,33 @@
       return mode === 'light' || mode === 'dark' ? mode : 'system';
     }
 
+    /* The open panel's main actions: in the bar's row on top and bottom, back in their place in the panel on left
+       and right. */
+    primary(el) {
+      this.primaryEl = el || null;
+      this.primaryHome = el ? document.createComment('') : null;
+      if (el && el.parentNode) {
+        el.parentNode.insertBefore(this.primaryHome, el);
+      }
+      this.placePrimary();
+    }
+
+    placePrimary() {
+      var el = this.primaryEl;
+      if (!el) {
+        this.actions.textContent = '';
+        return;
+      }
+      if (this.horizontal()) {
+        if (el.parentNode !== this.actions) { this.actions.appendChild(el); }
+      } else if (this.primaryHome && this.primaryHome.parentNode && el.previousSibling !== this.primaryHome) {
+        this.primaryHome.parentNode.insertBefore(el, this.primaryHome.nextSibling);
+      }
+    }
+
     applyState() {
       var hz = this.horizontal();
+      var turned = this.getAttribute('data-orient') !== (hz ? 'horizontal' : 'vertical');
       this.setAttribute('data-edge', this.state.edge);
       this.setAttribute('data-align', this.state.align);
       this.setAttribute('data-orient', hz ? 'horizontal' : 'vertical');
@@ -529,6 +581,11 @@
       this.resizer.setAttribute('aria-valuemin', hz ? (this.cfg.minHeight || 160) : (this.cfg.minWidth || 300));
       this.resizer.setAttribute('aria-valuemax', hz ? (this.cfg.maxHeight || 640) : (this.cfg.maxWidth || 720));
       this.resizer.setAttribute('aria-valuenow', hz ? this.state.height : this.state.width);
+      if (turned) {
+        /* the panel lays its contents out for the other orientation (the page's fields: what fits in the bar) */
+        this.placePrimary();
+        this.body.dispatchEvent(new CustomEvent('expwt-orient', { detail: { horizontal: hz } }));
+      }
       this.applyTheme();
       this.place();
     }
@@ -739,6 +796,8 @@
 
     say(text, kind) {
       this.status.textContent = text || '';
+      /* on top and bottom the status shares the bar's row and may be cut short: the whole text on hover */
+      this.status.title = text || '';
       if (kind) {
         this.status.setAttribute('data-kind', kind);
       } else {
@@ -884,6 +943,8 @@
         b.setAttribute('tabindex', on ? '0' : '-1');
       });
       this.body.setAttribute('aria-labelledby', 'wt-tab-' + id);
+      this.body.setAttribute('data-panel', id);
+      this.primary(null);
       if (id === 'welcome') {
         this.welcome();
         return;
@@ -941,6 +1002,9 @@
           return self.deviceOnly;
         },
         show: function (id) { self.show(id); },
+        /* the panel's main actions: in the bar's row on top and bottom */
+        primary: function (el) { self.primary(el); },
+        horizontal: function () { return self.horizontal(); },
         host: this,
         inlineCss: function (css) { self.inlineRules = css || ''; self.push(); }
       };
@@ -969,7 +1033,7 @@
 
     themeChooser() {
       var self = this;
-      var group = h('fieldset', { class: 'wt-section' }, [h('legend', { text: this.t('Light or dark') })]);
+      var group = h('fieldset', { class: 'wt-section wt-choice' }, [h('legend', { text: this.t('Light or dark') })]);
       /* auto follows the site's own switch where the design has one (siteMode), the system's elsewhere */
       var auto = document.documentElement.hasAttribute('data-exp-theme') ? this.t('Like the site') : this.t('Like the system');
       [['auto', auto],['light', this.t('Light')], ['dark', this.t('Dark')]].forEach(function (o) {

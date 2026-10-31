@@ -140,10 +140,6 @@
         <translation>pakollinen</translation>
     </message>
     <message>
-        <source>In the full editor: %fields</source>
-        <translation>Täydessä muokkaimessa: %fields</translation>
-    </message>
-    <message>
         <source>Publish later or take down at a date</source>
         <translation>Julkaise myöhemmin tai poista näkyvistä tiettynä päivänä</translation>
     </message>
@@ -154,6 +150,14 @@
     <message>
         <source>Take down at</source>
         <translation>Poista näkyvistä</translation>
+    </message>
+    <message>
+        <source>In the full editor: %fields</source>
+        <translation>Täydessä muokkaimessa: %fields</translation>
+    </message>
+    <message>
+        <source>More</source>
+        <translation>Lisää</translation>
     </message>
     <message>
         <source>Save draft</source>

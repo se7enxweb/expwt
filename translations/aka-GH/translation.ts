@@ -140,10 +140,6 @@
         <translation>ɛho hia</translation>
     </message>
     <message>
-        <source>In the full editor: %fields</source>
-        <translation>Wɔ editor a ɛyɛ mã no mu: %fields</translation>
-    </message>
-    <message>
         <source>Publish later or take down at a date</source>
         <translation>Tintim akyiri yi anaa yi fi so da bi</translation>
     </message>
@@ -154,6 +150,14 @@
     <message>
         <source>Take down at</source>
         <translation>Yi fi so wɔ</translation>
+    </message>
+    <message>
+        <source>In the full editor: %fields</source>
+        <translation>Wɔ editor a ɛyɛ mã no mu: %fields</translation>
+    </message>
+    <message>
+        <source>More</source>
+        <translation>Bebree</translation>
     </message>
     <message>
         <source>Save draft</source>

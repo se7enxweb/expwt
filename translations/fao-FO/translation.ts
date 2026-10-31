@@ -140,10 +140,6 @@
         <translation>kravt</translation>
     </message>
     <message>
-        <source>In the full editor: %fields</source>
-        <translation>Í fulla ritlinum: %fields</translation>
-    </message>
-    <message>
         <source>Publish later or take down at a date</source>
         <translation>Útgev seinni ella tak niður ein ávísan dag</translation>
     </message>
@@ -154,6 +150,14 @@
     <message>
         <source>Take down at</source>
         <translation>Tak niður</translation>
+    </message>
+    <message>
+        <source>In the full editor: %fields</source>
+        <translation>Í fulla ritlinum: %fields</translation>
+    </message>
+    <message>
+        <source>More</source>
+        <translation>Meira</translation>
     </message>
     <message>
         <source>Save draft</source>

@@ -140,10 +140,6 @@
         <translation>pêwîst</translation>
     </message>
     <message>
-        <source>In the full editor: %fields</source>
-        <translation>Di edîtora tevahî de: %fields</translation>
-    </message>
-    <message>
         <source>Publish later or take down at a date</source>
         <translation>Paşê biweşîne an di dîrokekê de rake</translation>
     </message>
@@ -154,6 +150,14 @@
     <message>
         <source>Take down at</source>
         <translation>Rakirin li</translation>
+    </message>
+    <message>
+        <source>In the full editor: %fields</source>
+        <translation>Di edîtora tevahî de: %fields</translation>
+    </message>
+    <message>
+        <source>More</source>
+        <translation>Zêdetir</translation>
     </message>
     <message>
         <source>Save draft</source>

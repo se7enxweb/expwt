@@ -21,7 +21,7 @@ class expwtSettings
         'default_width' => 380,
         'min_width' => 300,
         'max_width' => 720,
-        'default_height' => 320,
+        'default_height' => 280,
         'min_height' => 160,
         'max_height' => 640,
         'overlay_below_width' => 768,

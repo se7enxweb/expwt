@@ -140,10 +140,6 @@
         <translation>اړین</translation>
     </message>
     <message>
-        <source>In the full editor: %fields</source>
-        <translation>په بشپړ سمونګر کې: %fields</translation>
-    </message>
-    <message>
         <source>Publish later or take down at a date</source>
         <translation>وروسته خپرول یا په یوه نېټه لرې کول</translation>
     </message>
@@ -154,6 +150,14 @@
     <message>
         <source>Take down at</source>
         <translation>د لرې کولو وخت</translation>
+    </message>
+    <message>
+        <source>In the full editor: %fields</source>
+        <translation>په بشپړ سمونګر کې: %fields</translation>
+    </message>
+    <message>
+        <source>More</source>
+        <translation>نور</translation>
     </message>
     <message>
         <source>Save draft</source>

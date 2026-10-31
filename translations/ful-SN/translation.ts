@@ -140,10 +140,6 @@
         <translation>ɗaminaa</translation>
     </message>
     <message>
-        <source>In the full editor: %fields</source>
-        <translation>E binndirde timmunde: %fields</translation>
-    </message>
-    <message>
         <source>Publish later or take down at a date</source>
         <translation>Yaltin caggal walla itt e ñalnde</translation>
     </message>
@@ -154,6 +150,14 @@
     <message>
         <source>Take down at</source>
         <translation>Itt e</translation>
+    </message>
+    <message>
+        <source>In the full editor: %fields</source>
+        <translation>E binndirde timmunde: %fields</translation>
+    </message>
+    <message>
+        <source>More</source>
+        <translation>Ɓeydi</translation>
     </message>
     <message>
         <source>Save draft</source>

@@ -288,8 +288,15 @@ select:focus-visible, textarea:focus-visible, [contenteditable]:focus-visible, [
 .wt-panel[hidden], :host([data-orient]) .wt-panel[hidden] { display: none; }
 :host([data-overlay="true"][data-orient="vertical"]) .wt-panel { inline-size: min(100vw, var(--expwt-width)); }
 
-/* The bar on top and bottom: the whole width of the window, its height the user's; the heading, the panels' tabs
-   and the close button in one row next to the edge, the panel's contents in columns across the bar. */
+/* The open panel's main actions: in the panel on left and right (they are moved there), in the bar's row on top and
+   bottom. */
+.wt-actions { display: none; }
+
+/* ---------------------------------------------------------------- the bar on top and bottom (F17, horizontal mode)
+   The whole width of the window, its height the user's (280 px at first). One compact row next to the edge: the
+   panels' tabs, the open panel's main actions, the status and the close button; the heading is there for screen
+   readers only. Below (top) or above (bottom) it the panel's contents laid out across the width, so the main controls
+   of every panel fit without a scroll bar; what can be long sits behind "More" or in a strip that scrolls sideways. */
 :host([data-orient="horizontal"]) .wt-panel {
   left: 0;
   right: 0;
@@ -297,33 +304,187 @@ select:focus-visible, textarea:focus-visible, [contenteditable]:focus-visible, [
   max-inline-size: none;
   block-size: var(--expwt-height);
   display: grid;
-  grid-template-columns: auto minmax(0, 1fr) auto;
+  grid-template-columns: max-content max-content minmax(0, 1fr) auto;
   border-inline-start: 0;
 }
 :host([data-edge="top"]) .wt-panel {
   inset-block-start: var(--expwt-top, 0px);
   inset-block-end: auto;
-  grid-template-rows: auto minmax(0, 1fr) auto;
-  grid-template-areas: "title tabs close" "body body body" "status status status";
+  grid-template-rows: auto minmax(0, 1fr);
+  grid-template-areas: "tabs actions status close" "body body body body";
   border-bottom: 1px solid var(--a4-line);
 }
 :host([data-edge="bottom"]) .wt-panel {
   inset-block-start: auto;
   inset-block-end: var(--expwt-bottom, 0px);
-  grid-template-rows: auto minmax(0, 1fr) auto;
-  grid-template-areas: "status status status" "body body body" "title tabs close";
+  grid-template-rows: minmax(0, 1fr) auto;
+  grid-template-areas: "body body body body" "tabs actions status close";
   border-top: 1px solid var(--a4-line);
   box-shadow: var(--a4-shadow-up);
 }
 :host([data-orient="horizontal"]) .wt-head { display: contents; }
-:host([data-orient="horizontal"]) .wt-head h2 { grid-area: title; align-self: center; padding: var(--a4-space-2) var(--a4-space-4); }
-:host([data-orient="horizontal"]) .wt-head .wt-btn { grid-area: close; align-self: center; margin: var(--a4-space-1) var(--a4-space-4); }
-:host([data-orient="horizontal"]) .wt-tabs { grid-area: tabs; align-items: center; border-block-end: 0; padding-inline: var(--a4-space-2); }
-:host([data-orient="horizontal"]) .wt-body { grid-area: body; border-block: 1px solid var(--a4-line); }
-:host([data-orient="horizontal"]) .wt-status { grid-area: status; border-block-start: 0; }
-@media (min-width: 720px) {
-  :host([data-orient="horizontal"]) .wt-body { column-width: 320px; column-gap: var(--a4-space-6); column-fill: auto; }
-  :host([data-orient="horizontal"]) .wt-body :is(.wt-section, .wt-card, .wt-field, .wt-row, .wt-notice, fieldset, li, h3) { break-inside: avoid; }
+:host([data-orient="horizontal"]) .wt-head h2 {
+  position: absolute;
+  inline-size: 1px;
+  block-size: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
+:host([data-orient="horizontal"]) .wt-head .wt-btn { grid-area: close; align-self: center; margin: var(--a4-space-1) var(--a4-space-3); }
+:host([data-orient="horizontal"]) .wt-tabs {
+  grid-area: tabs;
+  align-items: center;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  border-block-end: 0;
+  padding: var(--a4-space-1) var(--a4-space-3);
+}
+:host([data-orient="horizontal"]) .wt-actions { grid-area: actions; display: flex; align-items: center; padding-inline: var(--a4-space-2); border-inline-start: 1px solid var(--a4-line); }
+:host([data-orient="horizontal"]) .wt-actions .wt-row { flex-wrap: nowrap; margin: 0; }
+:host([data-orient="horizontal"]) .wt-actions:empty { display: none; }
+:host([data-orient="horizontal"]) .wt-status {
+  grid-area: status;
+  align-self: center;
+  min-block-size: 0;
+  min-inline-size: 0;
+  padding-block: 0;
+  border: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+:host([data-orient="horizontal"]) .wt-body { grid-area: body; padding: var(--a4-space-3) var(--a4-space-4); overscroll-behavior: contain; }
+:host([data-edge="top"]) .wt-body { border-block-start: 1px solid var(--a4-line); }
+:host([data-edge="bottom"]) .wt-body { border-block-end: 1px solid var(--a4-line); }
+:host([data-orient="horizontal"]) .wt-section { margin-block-end: var(--a4-space-3); }
+:host([data-orient="horizontal"]) .wt-more[hidden] { display: none; }
+:host([data-orient="horizontal"]) .wt-more > summary { cursor: pointer; color: var(--a4-muted); font-size: var(--a4-text-s); }
+:host([data-orient="horizontal"]) .wt-more[open] > summary { margin-block-end: var(--a4-space-2); }
+
+/* a group of choices (radio buttons) in one line: its legend first, the choices after it */
+:host([data-orient="horizontal"]) .wt-choice {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0 var(--a4-space-3);
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+:host([data-orient="horizontal"]) .wt-choice > legend { float: inline-start; padding: 0; margin-inline-end: var(--a4-space-1); font-weight: var(--a4-weight-medium); }
+:host([data-orient="horizontal"]) .wt-choice > .wt-check { margin: 0; }
+/* choices side by side are closer together than one under the other: each target 24 px (WCAG 2.5.8) */
+:host([data-orient="horizontal"]) :is(.wt-choice, .wt-prefs) input:is([type="radio"], [type="checkbox"]) { inline-size: var(--a4-space-5); block-size: var(--a4-space-5); margin: 0; }
+
+/* Page: the name, the state and the tools in one row; the fields in a grid of 2 to 6 columns (by the width), long
+   text two columns wide and two rows high */
+:host([data-orient="horizontal"]) .wt-page-head,
+:host([data-orient="horizontal"]) .wt-node-head { display: flex; flex-wrap: wrap; align-items: center; gap: var(--a4-space-2) var(--a4-space-4); }
+:host([data-orient="horizontal"]) .wt-page-head > h3,
+:host([data-orient="horizontal"]) .wt-node-head > h3 { margin: 0; }
+:host([data-orient="horizontal"]) .wt-page-head > p,
+:host([data-orient="horizontal"]) .wt-page-head > .wt-row,
+:host([data-orient="horizontal"]) .wt-node-head > .wt-row { margin: 0; }
+:host([data-orient="horizontal"]) .wt-fields {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 224px), 1fr));
+  grid-auto-flow: dense;
+  align-items: start;
+  gap: var(--a4-space-2) var(--a4-space-4);
+}
+:host([data-orient="horizontal"]) .wt-fields > .wt-field { margin: 0; }
+:host([data-orient="horizontal"]) .wt-fields > .wt-muted { grid-column: 1 / -1; margin: 0; }
+@media (min-width: 640px) {
+  :host([data-orient="horizontal"]) .wt-fields > .is-wide { grid-column: span 2; }
+}
+/* a long text: its label and its format buttons in one line, the text below */
+:host([data-orient="horizontal"]) .wt-fields > .is-wide { display: grid; grid-template-columns: minmax(0, 1fr) auto; align-items: end; column-gap: var(--a4-space-2); }
+:host([data-orient="horizontal"]) .wt-fields > .is-wide > span { grid-column: 1; }
+:host([data-orient="horizontal"]) .wt-fields > .is-wide > div { display: contents; }
+:host([data-orient="horizontal"]) .wt-fields > .is-wide [role="toolbar"] { grid-column: 2; grid-row: 1; margin: 0 0 var(--a4-space-1); flex-wrap: nowrap; }
+:host([data-orient="horizontal"]) .wt-fields > .is-wide :is(.wt-rich, textarea, select) { grid-column: 1 / -1; }
+:host([data-orient="horizontal"]) .wt-fields .wt-rich,
+:host([data-orient="horizontal"]) .wt-fields textarea { min-block-size: calc(var(--a4-space-7) + var(--a4-space-5)); }
+/* a long text keeps to a few lines in the bar and scrolls inside itself (it is the long data, not the bar) */
+:host([data-orient="horizontal"]) .wt-fields .wt-rich { max-block-size: calc(var(--a4-space-7) * 2 + var(--a4-space-5)); }
+/* the hint of a field in its text form: for screen readers (it describes the input), not a line of the bar */
+:host([data-orient="horizontal"]) .wt-fields [id$="-hint"] {
+  position: absolute;
+  inline-size: 1px;
+  block-size: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
+
+/* Create: where, type, title and the button in one row */
+:host([data-orient="horizontal"]) .wt-create { display: flex; flex-wrap: wrap; align-items: flex-end; gap: var(--a4-space-2) var(--a4-space-4); }
+:host([data-orient="horizontal"]) .wt-create > .wt-field { margin: 0; min-inline-size: calc(var(--a4-space-7) * 4); }
+:host([data-orient="horizontal"]) .wt-create > .wt-choice { align-self: center; }
+
+/* Structure: the pages below this one as a strip that scrolls sideways, its title and "Save the order" above it */
+:host([data-orient="horizontal"]) .wt-sort { display: grid; grid-template-columns: minmax(0, 1fr) auto; align-items: center; column-gap: var(--a4-space-3); }
+:host([data-orient="horizontal"]) .wt-sort > h3 { grid-column: 1; grid-row: 1; margin: 0; }
+:host([data-orient="horizontal"]) .wt-sort > .wt-sort-save { grid-column: 2; grid-row: 1; margin: 0; }
+:host([data-orient="horizontal"]) .wt-sort > :is(.wt-strip, p) { grid-column: 1 / -1; }
+:host([data-orient="horizontal"]) .wt-strip { display: flex; gap: var(--a4-space-2); overflow-x: auto; padding-block: var(--a4-space-2); overscroll-behavior-inline: contain; }
+:host([data-orient="horizontal"]) .wt-strip > li {
+  flex: 0 0 auto;
+  max-inline-size: calc(var(--a4-space-7) * 6);
+  padding: var(--a4-space-1) var(--a4-space-2);
+  border: 1px solid var(--a4-line);
+  border-radius: var(--a4-radius-s);
+  background: var(--a4-card);
+}
+:host([data-orient="horizontal"]) .wt-strip > li[data-drop="true"] { border-inline-start: 2px solid var(--a4-accent); }
+.wt-g-h, .wt-g-h-rtl { display: none; }
+:host([data-orient="horizontal"]) .wt-g-v { display: none; }
+:host([data-orient="horizontal"]) .wt-g-h { display: inline; }
+:host([data-orient="horizontal"]:dir(rtl)) .wt-g-h { display: none; }
+:host([data-orient="horizontal"]:dir(rtl)) .wt-g-h-rtl { display: inline; }
+
+/* Me: the account, its links (two columns) and each of the sidebar's settings side by side in one grid; Sign out in
+   the bar's row */
+:host([data-orient="horizontal"]) .wt-body[data-panel="me"] { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 200px), 1fr)); align-items: start; gap: var(--a4-space-3) var(--a4-space-4); }
+:host([data-orient="horizontal"]) .wt-body[data-panel="me"] > * { margin: 0; }
+:host([data-orient="horizontal"]) .wt-body[data-panel="me"] .wt-card h3 { margin-block-end: var(--a4-space-1); }
+:host([data-orient="horizontal"]) .wt-body[data-panel="me"] .wt-card p { margin: 0; }
+:host([data-orient="horizontal"]) .wt-links { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0 var(--a4-space-3); }
+:host([data-orient="horizontal"]) .wt-links a { padding-block: var(--a4-space-1); }
+@media (min-width: 640px) {
+  :host([data-orient="horizontal"]) .wt-links { grid-column: span 2; }
+}
+:host([data-orient="horizontal"]) .wt-prefs { display: contents; }
+:host([data-orient="horizontal"]) .wt-prefs > h3 {
+  position: absolute;
+  inline-size: 1px;
+  block-size: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
+:host([data-orient="horizontal"]) .wt-prefs > :is(fieldset, .wt-check) { margin: 0; }
+
+/* Welcome (not signed in): signing in, search and light or dark in one row */
+:host([data-orient="horizontal"]) .wt-body[data-panel="welcome"] { display: flex; flex-wrap: wrap; align-items: flex-end; gap: var(--a4-space-3) var(--a4-space-6); }
+:host([data-orient="horizontal"]) .wt-body[data-panel="welcome"] > * { margin: 0; }
+:host([data-orient="horizontal"]) .wt-body[data-panel="welcome"] > form { display: flex; align-items: flex-end; gap: var(--a4-space-2); }
+:host([data-orient="horizontal"]) .wt-body[data-panel="welcome"] > form .wt-field { margin: 0; }
+
+/* A phone: the bar is a sheet as high as its contents, at most the window less the header; the tabs and the close
+   button in the first row, the actions in the second; only the sheet's body scrolls, never the page behind it. */
+@media (max-width: 639.98px) {
+  :host([data-orient="horizontal"]) .wt-panel {
+    block-size: auto;
+    max-block-size: calc(100dvh - var(--expwt-top, 0px) - var(--expwt-bottom, 0px) - var(--a4-space-7));
+    grid-template-columns: minmax(0, 1fr) auto;
+  }
+  :host([data-edge="top"]) .wt-panel { grid-template-rows: auto auto auto minmax(0, 1fr); grid-template-areas: "tabs close" "actions actions" "status status" "body body"; }
+  :host([data-edge="bottom"]) .wt-panel { grid-template-rows: minmax(0, 1fr) auto auto auto; grid-template-areas: "body body" "status status" "actions actions" "tabs close"; }
+  :host([data-orient="horizontal"]) .wt-actions { border-inline-start: 0; padding: 0 var(--a4-space-3) var(--a4-space-1); }
+  :host([data-orient="horizontal"]) .wt-actions .wt-row { flex-wrap: wrap; }
+  :host([data-orient="horizontal"]) .wt-status { padding-inline: var(--a4-space-3); white-space: normal; }
 }
 
 .wt-resize {

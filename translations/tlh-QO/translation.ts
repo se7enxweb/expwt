@@ -140,10 +140,6 @@
         <translation>poQlu'</translation>
     </message>
     <message>
-        <source>In the full editor: %fields</source>
-        <translation>naQ choHwI'Daq: %fields</translation>
-    </message>
-    <message>
         <source>Publish later or take down at a date</source>
         <translation>tagha' yI'ang pagh jajDaq yIteq</translation>
     </message>
@@ -154,6 +150,14 @@
     <message>
         <source>Take down at</source>
         <translation>teqmeH poH</translation>
+    </message>
+    <message>
+        <source>In the full editor: %fields</source>
+        <translation>naQ choHwI'Daq: %fields</translation>
+    </message>
+    <message>
+        <source>More</source>
+        <translation>latlh</translation>
     </message>
     <message>
         <source>Save draft</source>

@@ -140,10 +140,6 @@
         <translation>ҳатмӣ</translation>
     </message>
     <message>
-        <source>In the full editor: %fields</source>
-        <translation>Дар муҳаррири пурра: %fields</translation>
-    </message>
-    <message>
         <source>Publish later or take down at a date</source>
         <translation>Баъдтар нашр кардан ё дар санаи муайян бардоштан</translation>
     </message>
@@ -154,6 +150,14 @@
     <message>
         <source>Take down at</source>
         <translation>Бардоштан дар</translation>
+    </message>
+    <message>
+        <source>In the full editor: %fields</source>
+        <translation>Дар муҳаррири пурра: %fields</translation>
+    </message>
+    <message>
+        <source>More</source>
+        <translation>Бештар</translation>
     </message>
     <message>
         <source>Save draft</source>

@@ -140,10 +140,6 @@
         <translation>လိုအပ်သည်</translation>
     </message>
     <message>
-        <source>In the full editor: %fields</source>
-        <translation>အပြည့်အစုံ တည်းဖြတ်ကိရိယာတွင်- %fields</translation>
-    </message>
-    <message>
         <source>Publish later or take down at a date</source>
         <translation>နောက်မှ ထုတ်ဝေရန် သို့မဟုတ် ရက်စွဲတစ်ခုတွင် ဖြုတ်ချရန်</translation>
     </message>
@@ -154,6 +150,14 @@
     <message>
         <source>Take down at</source>
         <translation>ဖြုတ်ချမည့်အချိန်</translation>
+    </message>
+    <message>
+        <source>In the full editor: %fields</source>
+        <translation>အပြည့်အစုံ တည်းဖြတ်ကိရိယာတွင်- %fields</translation>
+    </message>
+    <message>
+        <source>More</source>
+        <translation>နောက်ထပ်</translation>
     </message>
     <message>
         <source>Save draft</source>

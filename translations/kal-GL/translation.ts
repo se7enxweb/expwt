@@ -140,10 +140,6 @@
         <translation>pisariaqarpoq</translation>
     </message>
     <message>
-        <source>In the full editor: %fields</source>
-        <translation>Aaqqissuiffimmi tamakkiisumi: %fields</translation>
-    </message>
-    <message>
         <source>Publish later or take down at a date</source>
         <translation>Kingusinnerusukkut saqqummiuguk imaluunniit ulloq aalajangersimasoq peeruk</translation>
     </message>
@@ -154,6 +150,14 @@
     <message>
         <source>Take down at</source>
         <translation>Peerneqarfissaa</translation>
+    </message>
+    <message>
+        <source>In the full editor: %fields</source>
+        <translation>Aaqqissuiffimmi tamakkiisumi: %fields</translation>
+    </message>
+    <message>
+        <source>More</source>
+        <translation>Suli</translation>
     </message>
     <message>
         <source>Save draft</source>

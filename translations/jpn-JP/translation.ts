@@ -140,10 +140,6 @@
         <translation>必須</translation>
     </message>
     <message>
-        <source>In the full editor: %fields</source>
-        <translation>フルエディターで: %fields</translation>
-    </message>
-    <message>
         <source>Publish later or take down at a date</source>
         <translation>後で公開、または指定日に公開終了</translation>
     </message>
@@ -154,6 +150,14 @@
     <message>
         <source>Take down at</source>
         <translation>公開終了日時</translation>
+    </message>
+    <message>
+        <source>In the full editor: %fields</source>
+        <translation>フルエディターで: %fields</translation>
+    </message>
+    <message>
+        <source>More</source>
+        <translation>その他</translation>
     </message>
     <message>
         <source>Save draft</source>

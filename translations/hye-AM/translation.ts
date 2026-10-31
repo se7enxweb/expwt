@@ -140,10 +140,6 @@
         <translation>պարտադիր</translation>
     </message>
     <message>
-        <source>In the full editor: %fields</source>
-        <translation>Լիարժեք խմբագրիչում՝ %fields</translation>
-    </message>
-    <message>
         <source>Publish later or take down at a date</source>
         <translation>Հրապարակել ավելի ուշ կամ հանել որոշակի ամսաթվին</translation>
     </message>
@@ -154,6 +150,14 @@
     <message>
         <source>Take down at</source>
         <translation>Հանել</translation>
+    </message>
+    <message>
+        <source>In the full editor: %fields</source>
+        <translation>Լիարժեք խմբագրիչում՝ %fields</translation>
+    </message>
+    <message>
+        <source>More</source>
+        <translation>Ավելին</translation>
     </message>
     <message>
         <source>Save draft</source>

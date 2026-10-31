@@ -140,10 +140,6 @@
         <translation>koi ʻia</translation>
     </message>
     <message>
-        <source>In the full editor: %fields</source>
-        <translation>Ma ka mea hoʻoponopono piha: %fields</translation>
-    </message>
-    <message>
         <source>Publish later or take down at a date</source>
         <translation>Hoʻopuka ma hope a i ʻole lawe i lalo i kekahi lā</translation>
     </message>
@@ -154,6 +150,14 @@
     <message>
         <source>Take down at</source>
         <translation>Lawe i lalo i ka</translation>
+    </message>
+    <message>
+        <source>In the full editor: %fields</source>
+        <translation>Ma ka mea hoʻoponopono piha: %fields</translation>
+    </message>
+    <message>
+        <source>More</source>
+        <translation>Hou aku</translation>
     </message>
     <message>
         <source>Save draft</source>

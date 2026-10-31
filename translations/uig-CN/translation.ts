@@ -140,10 +140,6 @@
         <translation>زۆرۈر</translation>
     </message>
     <message>
-        <source>In the full editor: %fields</source>
-        <translation>تولۇق تەھرىرلىگۈچتە: %fields</translation>
-    </message>
-    <message>
         <source>Publish later or take down at a date</source>
         <translation>كېيىن ئېلان قىلىش ياكى مەلۇم چېسلادا چۈشۈرۈش</translation>
     </message>
@@ -154,6 +150,14 @@
     <message>
         <source>Take down at</source>
         <translation>چۈشۈرۈش ۋاقتى</translation>
+    </message>
+    <message>
+        <source>In the full editor: %fields</source>
+        <translation>تولۇق تەھرىرلىگۈچتە: %fields</translation>
+    </message>
+    <message>
+        <source>More</source>
+        <translation>تېخىمۇ كۆپ</translation>
     </message>
     <message>
         <source>Save draft</source>

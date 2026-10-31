@@ -140,10 +140,6 @@
         <translation>ត្រូវការ</translation>
     </message>
     <message>
-        <source>In the full editor: %fields</source>
-        <translation>នៅក្នុងកម្មវិធីកែសម្រួលពេញលេញ៖ %fields</translation>
-    </message>
-    <message>
         <source>Publish later or take down at a date</source>
         <translation>បោះពុម្ពផ្សាយពេលក្រោយ ឬដកចេញនៅកាលបរិច្ឆេទមួយ</translation>
     </message>
@@ -154,6 +150,14 @@
     <message>
         <source>Take down at</source>
         <translation>ដកចេញនៅ</translation>
+    </message>
+    <message>
+        <source>In the full editor: %fields</source>
+        <translation>នៅក្នុងកម្មវិធីកែសម្រួលពេញលេញ៖ %fields</translation>
+    </message>
+    <message>
+        <source>More</source>
+        <translation>ច្រើនទៀត</translation>
     </message>
     <message>
         <source>Save draft</source>

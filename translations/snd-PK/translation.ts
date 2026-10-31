@@ -140,10 +140,6 @@
         <translation>لازمي</translation>
     </message>
     <message>
-        <source>In the full editor: %fields</source>
-        <translation>مڪمل ايڊيٽر ۾: %fields</translation>
-    </message>
-    <message>
         <source>Publish later or take down at a date</source>
         <translation>بعد ۾ شايع ڪريو يا ڪنهن تاريخ تي هٽايو</translation>
     </message>
@@ -154,6 +150,14 @@
     <message>
         <source>Take down at</source>
         <translation>هٽايو تي</translation>
+    </message>
+    <message>
+        <source>In the full editor: %fields</source>
+        <translation>مڪمل ايڊيٽر ۾: %fields</translation>
+    </message>
+    <message>
+        <source>More</source>
+        <translation>وڌيڪ</translation>
     </message>
     <message>
         <source>Save draft</source>

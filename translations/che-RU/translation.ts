@@ -140,10 +140,6 @@
         <translation>оьшу</translation>
     </message>
     <message>
-        <source>In the full editor: %fields</source>
-        <translation>Буьззина редакторехь: %fields</translation>
-    </message>
-    <message>
         <source>Publish later or take down at a date</source>
         <translation>ТӀаьхьа арахеца я терахьехь дӀаяккха</translation>
     </message>
@@ -154,6 +150,14 @@
     <message>
         <source>Take down at</source>
         <translation>ДӀаяккха</translation>
+    </message>
+    <message>
+        <source>In the full editor: %fields</source>
+        <translation>Буьззина редакторехь: %fields</translation>
+    </message>
+    <message>
+        <source>More</source>
+        <translation>Кхин а</translation>
     </message>
     <message>
         <source>Save draft</source>

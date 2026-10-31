@@ -140,10 +140,6 @@
         <translation>જરૂરી</translation>
     </message>
     <message>
-        <source>In the full editor: %fields</source>
-        <translation>સંપૂર્ણ એડિટરમાં: %fields</translation>
-    </message>
-    <message>
         <source>Publish later or take down at a date</source>
         <translation>પછીથી પ્રકાશિત કરો અથવા કોઈ તારીખે દૂર કરો</translation>
     </message>
@@ -154,6 +150,14 @@
     <message>
         <source>Take down at</source>
         <translation>દૂર કરો</translation>
+    </message>
+    <message>
+        <source>In the full editor: %fields</source>
+        <translation>સંપૂર્ણ એડિટરમાં: %fields</translation>
+    </message>
+    <message>
+        <source>More</source>
+        <translation>વધુ</translation>
     </message>
     <message>
         <source>Save draft</source>

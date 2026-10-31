@@ -39,7 +39,17 @@ der Stelle von ezwt in den aktiven Erweiterungen. Ein Probelauf listet die Ände
   - Enter öffnet ihn. **Alt+Umschalt+E** öffnet sie von überall und setzt den Fokus hinein; Escape schließt sie.
   Im Bereich „Ich" gibt es dasselbe als Einstellung: **Position** links / rechts / oben / unten, und für oben und unten
   **Ausgerichtet nach** links oder rechts.
-- **Größe:** die Breite des Bereichs links und rechts, die Höhe der Leiste oben und unten: den inneren Rand ziehen,
+- **Die Leiste oben und unten** ist in die Breite angelegt, damit ihre wichtigsten Bedienelemente nie eine Bildlaufleiste
+  brauchen: eine Zeile am Rand enthält die Reiter der Bereiche, die Hauptaktionen des offenen Bereichs (Entwurf
+  speichern, Veröffentlichen, Entwurf verwerfen; Abmelden bei „Ich"), die Statusmeldung und die Schließen-Schaltfläche.
+  Darunter (oben) oder darüber (unten): „Seite" zeigt die Felder in einem Raster aus zwei bis sechs Spalten, lange Texte
+  zwei Spalten breit mit den Formatknöpfen neben der Beschriftung; was nicht in die Höhe der Leiste passt, das
+  Veröffentlichungsdatum und die Felder des vollen Editors liegen unter **Mehr** (die Leiste passt sich neu an, wenn sich
+  ihre Höhe oder das Fenster ändert). „Anlegen" ist eine Zeile (wo, Typ, Titel, Entwurf anlegen); „Struktur" zeigt die
+  Aktionen der Seite in einer Zeile und die Seiten darunter als seitlich scrollenden Streifen; „Ich" zeigt Konto, Links
+  und jede Einstellung nebeneinander; der Bereich für Besucher ist eine Zeile. Auf einem Telefon ist die Leiste ein
+  Blatt, so hoch wie sein Inhalt.
+- **Größe:** die Breite des Bereichs links und rechts, die Höhe der Leiste oben und unten (anfangs 280 px): den inneren Rand ziehen,
   oder ihn fokussieren und die Pfeiltasten nutzen (Pos1 und Ende: am kleinsten und am größten).
 - **Neben oder über der Seite:** In einem breiten Fenster schiebt der geöffnete Bereich die Seite beiseite (links,
   rechts), unter die Leiste nach unten (oben: der Kopf bleibt, wo er ist, was ihm folgt, rückt nach unten) oder gibt
@@ -141,7 +151,7 @@ Stylesheet) bleibt unter 50 KB gzip; ein Test hält ihn dort.
 | `DefaultEdge`, `DefaultAlign` | (leer), end | Rand beim ersten Besuch (left, right, top, bottom; leer: `DefaultSide`) und oben und unten das Ende der Leiste, an dem der Reiter sitzt (start: links, end: rechts) |
 | `DefaultSide` | right | der Rand, wenn `DefaultEdge` leer ist (left oder right; die Einstellung aus der Zeit vor oben und unten) |
 | `DefaultWidth`, `MinWidth`, `MaxWidth` | 380, 300, 720 | Breite des Bereichs links und rechts beim ersten Besuch, die Grenzen |
-| `DefaultHeight`, `MinHeight`, `MaxHeight` | 320, 160, 640 | Höhe der Leiste oben und unten beim ersten Besuch, die Grenzen |
+| `DefaultHeight`, `MinHeight`, `MaxHeight` | 280, 160, 640 | Höhe der Leiste oben und unten beim ersten Besuch, die Grenzen |
 | `OverlayBelowWidth` | 768 | schmalere Fenster bekommen den Bereich über der Seite |
 | `ShortcutKey` | E | Alt+Umschalt+<Taste> |
 | `HeaderSelector` | header, [role=banner], #header, .header | der Kopf der Website, unter dem der Reiter und die obere Leiste sitzen |

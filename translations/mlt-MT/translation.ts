@@ -140,10 +140,6 @@
         <translation>meħtieġ</translation>
     </message>
     <message>
-        <source>In the full editor: %fields</source>
-        <translation>Fl-editur sħiħ: %fields</translation>
-    </message>
-    <message>
         <source>Publish later or take down at a date</source>
         <translation>Ippubblika aktar tard jew neħħi f'data</translation>
     </message>
@@ -154,6 +150,14 @@
     <message>
         <source>Take down at</source>
         <translation>Neħħi fi</translation>
+    </message>
+    <message>
+        <source>In the full editor: %fields</source>
+        <translation>Fl-editur sħiħ: %fields</translation>
+    </message>
+    <message>
+        <source>More</source>
+        <translation>Aktar</translation>
     </message>
     <message>
         <source>Save draft</source>

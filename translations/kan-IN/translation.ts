@@ -140,10 +140,6 @@
         <translation>ಅಗತ್ಯ</translation>
     </message>
     <message>
-        <source>In the full editor: %fields</source>
-        <translation>ಪೂರ್ಣ ಸಂಪಾದಕದಲ್ಲಿ: %fields</translation>
-    </message>
-    <message>
         <source>Publish later or take down at a date</source>
         <translation>ನಂತರ ಪ್ರಕಟಿಸು ಅಥವಾ ಒಂದು ದಿನಾಂಕದಂದು ತೆಗೆದುಹಾಕು</translation>
     </message>
@@ -154,6 +150,14 @@
     <message>
         <source>Take down at</source>
         <translation>ತೆಗೆದುಹಾಕುವ ಸಮಯ</translation>
+    </message>
+    <message>
+        <source>In the full editor: %fields</source>
+        <translation>ಪೂರ್ಣ ಸಂಪಾದಕದಲ್ಲಿ: %fields</translation>
+    </message>
+    <message>
+        <source>More</source>
+        <translation>ಇನ್ನಷ್ಟು</translation>
     </message>
     <message>
         <source>Save draft</source>

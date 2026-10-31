@@ -140,10 +140,6 @@
         <translation>khasab</translation>
     </message>
     <message>
-        <source>In the full editor: %fields</source>
-        <translation>Tafatiraha buuxa: %fields</translation>
-    </message>
-    <message>
         <source>Publish later or take down at a date</source>
         <translation>Daabac goor dambe ama deji taariikh go'an</translation>
     </message>
@@ -154,6 +150,14 @@
     <message>
         <source>Take down at</source>
         <translation>Deji waqtiga</translation>
+    </message>
+    <message>
+        <source>In the full editor: %fields</source>
+        <translation>Tafatiraha buuxa: %fields</translation>
+    </message>
+    <message>
+        <source>More</source>
+        <translation>Wax kale</translation>
     </message>
     <message>
         <source>Save draft</source>

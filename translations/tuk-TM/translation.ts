@@ -140,10 +140,6 @@
         <translation>hökmany</translation>
     </message>
     <message>
-        <source>In the full editor: %fields</source>
-        <translation>Doly redaktorda: %fields</translation>
-    </message>
-    <message>
         <source>Publish later or take down at a date</source>
         <translation>Soňra neşir et ýa-da belli bir senede aýyr</translation>
     </message>
@@ -154,6 +150,14 @@
     <message>
         <source>Take down at</source>
         <translation>Aýyrmak senesi</translation>
+    </message>
+    <message>
+        <source>In the full editor: %fields</source>
+        <translation>Doly redaktorda: %fields</translation>
+    </message>
+    <message>
+        <source>More</source>
+        <translation>Ýene</translation>
     </message>
     <message>
         <source>Save draft</source>

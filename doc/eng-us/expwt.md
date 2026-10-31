@@ -38,7 +38,15 @@ extensions. A dry run lists the changes first.
   - Enter opens it. **Alt+Shift+E** opens it from anywhere and puts the focus in it; Escape closes it.
   The Me panel has the same as a setting: **Position** left, right, top or bottom, and for top and bottom
   **Anchored at** left or right.
-- **Size:** the width of the panel on the left and right, the height of the bar on top and bottom: drag the panel's
+- **The bar on top and bottom** is laid out across the width, so its main controls never need a scroll bar: one row
+  next to the edge holds the panels' tabs, the open panel's main actions (Save draft, Publish, Discard draft; Sign out
+  on Me), the status and the close button. Below it (top) or above it (bottom): Page shows its fields in a grid of two
+  to six columns, long text two columns wide with its format buttons beside its label; the fields that do not fit the
+  bar's height, the date to publish and the fields of the full editor are behind **More** (the bar fits again when its
+  height or the window changes). Create is one row (where, type, title, Create draft); Structure shows the page's
+  actions in one row and the pages below it as a strip that scrolls sideways; Me shows the account, its links and each
+  setting side by side; a visitor's panel is one row. On a phone the bar is a sheet as high as its contents.
+- **Size:** the width of the panel on the left and right, the height of the bar on top and bottom (280 px at first): drag the panel's
   inner edge, or focus it and use the arrow keys (Home and End: smallest and largest).
 - **Beside or over the page:** on a wide window the open panel pushes the page aside (left, right), down below the
   bar (top: the header stays where it is, what follows it moves down) or gives it room at its end (bottom); on a phone
@@ -135,7 +143,7 @@ sidebar is first opened. The closed tab (script and stylesheet) stays below 50 K
 | `DefaultEdge`, `DefaultAlign` | (empty), end | a first visit's edge (left, right, top, bottom; empty: `DefaultSide`) and, on top and bottom, the end of the bar the tab is anchored at (start: left, end: right) |
 | `DefaultSide` | right | the edge when `DefaultEdge` is empty (left or right; the setting from before the top and bottom edges) |
 | `DefaultWidth`, `MinWidth`, `MaxWidth` | 380, 300, 720 | a first visit's width of the panel on the left and right, the limits |
-| `DefaultHeight`, `MinHeight`, `MaxHeight` | 320, 160, 640 | a first visit's height of the bar on top and bottom, the limits |
+| `DefaultHeight`, `MinHeight`, `MaxHeight` | 280, 160, 640 | a first visit's height of the bar on top and bottom, the limits |
 | `OverlayBelowWidth` | 768 | narrower windows get the panel over the page |
 | `ShortcutKey` | E | Alt+Shift+<key> |
 | `HeaderSelector` | header, [role=banner], #header, .header | the site header the tab and the top bar sit below |

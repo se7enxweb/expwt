@@ -140,10 +140,6 @@
         <translation>povinné</translation>
     </message>
     <message>
-        <source>In the full editor: %fields</source>
-        <translation>V plném editoru: %fields</translation>
-    </message>
-    <message>
         <source>Publish later or take down at a date</source>
         <translation>Zveřejnit později nebo stáhnout k datu</translation>
     </message>
@@ -154,6 +150,14 @@
     <message>
         <source>Take down at</source>
         <translation>Stáhnout</translation>
+    </message>
+    <message>
+        <source>In the full editor: %fields</source>
+        <translation>V plném editoru: %fields</translation>
+    </message>
+    <message>
+        <source>More</source>
+        <translation>Více</translation>
     </message>
     <message>
         <source>Save draft</source>

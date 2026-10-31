@@ -140,10 +140,6 @@
         <translation>අවශ්‍යයි</translation>
     </message>
     <message>
-        <source>In the full editor: %fields</source>
-        <translation>සම්පූර්ණ සංස්කාරකයේ: %fields</translation>
-    </message>
-    <message>
         <source>Publish later or take down at a date</source>
         <translation>පසුව ප්‍රකාශ කරන්න හෝ දිනයකදී ඉවත් කරන්න</translation>
     </message>
@@ -154,6 +150,14 @@
     <message>
         <source>Take down at</source>
         <translation>ඉවත් කරන වේලාව</translation>
+    </message>
+    <message>
+        <source>In the full editor: %fields</source>
+        <translation>සම්පූර්ණ සංස්කාරකයේ: %fields</translation>
+    </message>
+    <message>
+        <source>More</source>
+        <translation>තවත්</translation>
     </message>
     <message>
         <source>Save draft</source>

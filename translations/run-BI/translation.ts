@@ -140,10 +140,6 @@
         <translation>birakenewe</translation>
     </message>
     <message>
-        <source>In the full editor: %fields</source>
-        <translation>Muri muhinduzi wuzuye: %fields</translation>
-    </message>
-    <message>
         <source>Publish later or take down at a date</source>
         <translation>Sohora mu nyuma canke ukure ku itariki</translation>
     </message>
@@ -154,6 +150,14 @@
     <message>
         <source>Take down at</source>
         <translation>Kura ku</translation>
+    </message>
+    <message>
+        <source>In the full editor: %fields</source>
+        <translation>Muri muhinduzi wuzuye: %fields</translation>
+    </message>
+    <message>
+        <source>More</source>
+        <translation>Ibindi</translation>
     </message>
     <message>
         <source>Save draft</source>

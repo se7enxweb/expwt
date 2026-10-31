@@ -140,10 +140,6 @@
         <translation>verplicht</translation>
     </message>
     <message>
-        <source>In the full editor: %fields</source>
-        <translation>In de volledige editor: %fields</translation>
-    </message>
-    <message>
         <source>Publish later or take down at a date</source>
         <translation>Later publiceren of op een datum offline halen</translation>
     </message>
@@ -154,6 +150,14 @@
     <message>
         <source>Take down at</source>
         <translation>Offline halen op</translation>
+    </message>
+    <message>
+        <source>In the full editor: %fields</source>
+        <translation>In de volledige editor: %fields</translation>
+    </message>
+    <message>
+        <source>More</source>
+        <translation>Meer</translation>
     </message>
     <message>
         <source>Save draft</source>

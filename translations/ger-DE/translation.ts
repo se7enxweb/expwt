@@ -140,10 +140,6 @@
         <translation>Pflichtfeld</translation>
     </message>
     <message>
-        <source>In the full editor: %fields</source>
-        <translation>Im vollständigen Editor: %fields</translation>
-    </message>
-    <message>
         <source>Publish later or take down at a date</source>
         <translation>Später veröffentlichen oder zu einem Datum zurückziehen</translation>
     </message>
@@ -154,6 +150,14 @@
     <message>
         <source>Take down at</source>
         <translation>Zurückziehen am</translation>
+    </message>
+    <message>
+        <source>In the full editor: %fields</source>
+        <translation>Im vollständigen Editor: %fields</translation>
+    </message>
+    <message>
+        <source>More</source>
+        <translation>Mehr</translation>
     </message>
     <message>
         <source>Save draft</source>

@@ -140,10 +140,6 @@
         <translation>จำเป็น</translation>
     </message>
     <message>
-        <source>In the full editor: %fields</source>
-        <translation>ในตัวแก้ไขเต็มรูปแบบ: %fields</translation>
-    </message>
-    <message>
         <source>Publish later or take down at a date</source>
         <translation>เผยแพร่ภายหลังหรือนำออกในวันที่กำหนด</translation>
     </message>
@@ -154,6 +150,14 @@
     <message>
         <source>Take down at</source>
         <translation>นำออกเมื่อ</translation>
+    </message>
+    <message>
+        <source>In the full editor: %fields</source>
+        <translation>ในตัวแก้ไขเต็มรูปแบบ: %fields</translation>
+    </message>
+    <message>
+        <source>More</source>
+        <translation>เพิ่มเติม</translation>
     </message>
     <message>
         <source>Save draft</source>

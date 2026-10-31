@@ -140,10 +140,6 @@
         <translation>міндетті</translation>
     </message>
     <message>
-        <source>In the full editor: %fields</source>
-        <translation>Толық редакторда: %fields</translation>
-    </message>
-    <message>
         <source>Publish later or take down at a date</source>
         <translation>Кейінірек жариялау немесе белгілі күні алып тастау</translation>
     </message>
@@ -154,6 +150,14 @@
     <message>
         <source>Take down at</source>
         <translation>Алып тастау уақыты</translation>
+    </message>
+    <message>
+        <source>In the full editor: %fields</source>
+        <translation>Толық редакторда: %fields</translation>
+    </message>
+    <message>
+        <source>More</source>
+        <translation>Тағы</translation>
     </message>
     <message>
         <source>Save draft</source>

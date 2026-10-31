@@ -140,10 +140,6 @@
         <translation>pọndandan</translation>
     </message>
     <message>
-        <source>In the full editor: %fields</source>
-        <translation>Nínú olóòtú kíkún: %fields</translation>
-    </message>
-    <message>
         <source>Publish later or take down at a date</source>
         <translation>Tẹ̀jáde lẹ́yìn náà tàbí yọ kúrò ní ọjọ́ kan</translation>
     </message>
@@ -154,6 +150,14 @@
     <message>
         <source>Take down at</source>
         <translation>Yọ kúrò ní</translation>
+    </message>
+    <message>
+        <source>In the full editor: %fields</source>
+        <translation>Nínú olóòtú kíkún: %fields</translation>
+    </message>
+    <message>
+        <source>More</source>
+        <translation>Síi</translation>
     </message>
     <message>
         <source>Save draft</source>

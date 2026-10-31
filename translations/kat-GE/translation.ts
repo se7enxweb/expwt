@@ -140,10 +140,6 @@
         <translation>სავალდებულო</translation>
     </message>
     <message>
-        <source>In the full editor: %fields</source>
-        <translation>სრულ რედაქტორში: %fields</translation>
-    </message>
-    <message>
         <source>Publish later or take down at a date</source>
         <translation>მოგვიანებით გამოქვეყნება ან მოხსნა თარიღით</translation>
     </message>
@@ -154,6 +150,14 @@
     <message>
         <source>Take down at</source>
         <translation>მოხსნის დრო</translation>
+    </message>
+    <message>
+        <source>In the full editor: %fields</source>
+        <translation>სრულ რედაქტორში: %fields</translation>
+    </message>
+    <message>
+        <source>More</source>
+        <translation>მეტი</translation>
     </message>
     <message>
         <source>Save draft</source>

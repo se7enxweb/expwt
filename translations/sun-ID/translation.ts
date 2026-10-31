@@ -140,10 +140,6 @@
         <translation>wajib</translation>
     </message>
     <message>
-        <source>In the full editor: %fields</source>
-        <translation>Dina éditor lengkep: %fields</translation>
-    </message>
-    <message>
         <source>Publish later or take down at a date</source>
         <translation>Terbitkeun engké atawa turunkeun dina hiji tanggal</translation>
     </message>
@@ -154,6 +150,14 @@
     <message>
         <source>Take down at</source>
         <translation>Turunkeun dina</translation>
+    </message>
+    <message>
+        <source>In the full editor: %fields</source>
+        <translation>Dina éditor lengkep: %fields</translation>
+    </message>
+    <message>
+        <source>More</source>
+        <translation>Lianna</translation>
     </message>
     <message>
         <source>Save draft</source>

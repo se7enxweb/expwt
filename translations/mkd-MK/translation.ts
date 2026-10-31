@@ -140,10 +140,6 @@
         <translation>задолжително</translation>
     </message>
     <message>
-        <source>In the full editor: %fields</source>
-        <translation>Во целосниот уредувач: %fields</translation>
-    </message>
-    <message>
         <source>Publish later or take down at a date</source>
         <translation>Објави подоцна или симни на датум</translation>
     </message>
@@ -154,6 +150,14 @@
     <message>
         <source>Take down at</source>
         <translation>Симни на</translation>
+    </message>
+    <message>
+        <source>In the full editor: %fields</source>
+        <translation>Во целосниот уредувач: %fields</translation>
+    </message>
+    <message>
+        <source>More</source>
+        <translation>Повеќе</translation>
     </message>
     <message>
         <source>Save draft</source>

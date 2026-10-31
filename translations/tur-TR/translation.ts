@@ -140,10 +140,6 @@
         <translation>zorunlu</translation>
     </message>
     <message>
-        <source>In the full editor: %fields</source>
-        <translation>Tam düzenleyicide: %fields</translation>
-    </message>
-    <message>
         <source>Publish later or take down at a date</source>
         <translation>Daha sonra yayımla veya bir tarihte kaldır</translation>
     </message>
@@ -154,6 +150,14 @@
     <message>
         <source>Take down at</source>
         <translation>Kaldırılma zamanı</translation>
+    </message>
+    <message>
+        <source>In the full editor: %fields</source>
+        <translation>Tam düzenleyicide: %fields</translation>
+    </message>
+    <message>
+        <source>More</source>
+        <translation>Daha fazla</translation>
     </message>
     <message>
         <source>Save draft</source>

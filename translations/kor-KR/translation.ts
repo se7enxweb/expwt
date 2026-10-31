@@ -140,10 +140,6 @@
         <translation>필수</translation>
     </message>
     <message>
-        <source>In the full editor: %fields</source>
-        <translation>전체 편집기에서: %fields</translation>
-    </message>
-    <message>
         <source>Publish later or take down at a date</source>
         <translation>나중에 게시하거나 지정한 날짜에 내리기</translation>
     </message>
@@ -154,6 +150,14 @@
     <message>
         <source>Take down at</source>
         <translation>내리는 시각</translation>
+    </message>
+    <message>
+        <source>In the full editor: %fields</source>
+        <translation>전체 편집기에서: %fields</translation>
+    </message>
+    <message>
+        <source>More</source>
+        <translation>더 보기</translation>
     </message>
     <message>
         <source>Save draft</source>

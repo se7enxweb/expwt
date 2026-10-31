@@ -140,10 +140,6 @@
         <translation>kötelező</translation>
     </message>
     <message>
-        <source>In the full editor: %fields</source>
-        <translation>A teljes szerkesztőben: %fields</translation>
-    </message>
-    <message>
         <source>Publish later or take down at a date</source>
         <translation>Későbbi közzététel vagy levétel adott időpontban</translation>
     </message>
@@ -154,6 +150,14 @@
     <message>
         <source>Take down at</source>
         <translation>Levétel ekkor</translation>
+    </message>
+    <message>
+        <source>In the full editor: %fields</source>
+        <translation>A teljes szerkesztőben: %fields</translation>
+    </message>
+    <message>
+        <source>More</source>
+        <translation>Továbbiak</translation>
     </message>
     <message>
         <source>Save draft</source>

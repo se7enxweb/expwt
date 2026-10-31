@@ -94,6 +94,22 @@ class expwtAssetsTest extends PHPUnit\Framework\TestCase
             $this->assertStringContainsString( "spacer('$edge'", $js, "push on the $edge edge" );
     }
 
+    public function testTheBarOnTopAndBottomIsLaidOutAcrossTheWidth()
+    {
+        $css = self::css();
+        // one row next to the edge: tabs, the open panel's main actions, the status, close
+        $this->assertStringContainsString( '"tabs actions status close" "body body body body"', $css );
+        $this->assertStringContainsString( '"body body body body" "tabs actions status close"', $css );
+        // each panel across the width, a sheet on a phone
+        foreach ( array( '.wt-fields', '.wt-create', '.wt-strip', '.wt-body[data-panel="me"]', '.wt-body[data-panel="welcome"]', '.wt-choice' ) as $part )
+            $this->assertStringContainsString( ':host([data-orient="horizontal"]) ' . $part, $css, $part );
+        $this->assertStringContainsString( '@media (max-width: 639.98px)', $css );
+        $panels = file_get_contents( self::ext() . '/design/standard/javascript/expwt-panels.js' );
+        $this->assertStringContainsString( 'ctx.primary(mainActions)', $panels, 'Save draft and Publish in the bar row' );
+        $this->assertStringContainsString( "moreFields.insertBefore(inGrid.pop()", $panels, 'fields that do not fit go behind More' );
+        $this->assertSame( 280, expwtSettings::fromArray( array() )['default_height'] );
+    }
+
     public function testClosedTabWithinItsBudget()
     {
         $bytes = strlen( gzencode( file_get_contents( self::ext() . '/design/standard/javascript/expwt.js' ), 9 ) )

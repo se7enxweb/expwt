@@ -140,10 +140,6 @@
         <translation>gofynnol</translation>
     </message>
     <message>
-        <source>In the full editor: %fields</source>
-        <translation>Yn y golygydd llawn: %fields</translation>
-    </message>
-    <message>
         <source>Publish later or take down at a date</source>
         <translation>Cyhoeddi'n hwyrach neu dynnu i lawr ar ddyddiad</translation>
     </message>
@@ -154,6 +150,14 @@
     <message>
         <source>Take down at</source>
         <translation>Tynnu i lawr am</translation>
+    </message>
+    <message>
+        <source>In the full editor: %fields</source>
+        <translation>Yn y golygydd llawn: %fields</translation>
+    </message>
+    <message>
+        <source>More</source>
+        <translation>Mwy</translation>
     </message>
     <message>
         <source>Save draft</source>

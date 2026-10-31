@@ -140,10 +140,6 @@
         <translation>obvezno</translation>
     </message>
     <message>
-        <source>In the full editor: %fields</source>
-        <translation>V polnem urejevalniku: %fields</translation>
-    </message>
-    <message>
         <source>Publish later or take down at a date</source>
         <translation>Objavi pozneje ali umakni na določen datum</translation>
     </message>
@@ -154,6 +150,14 @@
     <message>
         <source>Take down at</source>
         <translation>Umakni ob</translation>
+    </message>
+    <message>
+        <source>In the full editor: %fields</source>
+        <translation>V polnem urejevalniku: %fields</translation>
+    </message>
+    <message>
+        <source>More</source>
+        <translation>Več</translation>
     </message>
     <message>
         <source>Save draft</source>

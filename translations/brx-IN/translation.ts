@@ -140,10 +140,6 @@
         <translation>गोनांथार</translation>
     </message>
     <message>
-        <source>In the full editor: %fields</source>
-        <translation>आबुं सुजुगिरियाव: %fields</translation>
-    </message>
-    <message>
         <source>Publish later or take down at a date</source>
         <translation>उनाव फोसाव नङा मोनसे अक्ट'आव ओखार</translation>
     </message>
@@ -154,6 +150,14 @@
     <message>
         <source>Take down at</source>
         <translation>ओखारनाय सम</translation>
+    </message>
+    <message>
+        <source>In the full editor: %fields</source>
+        <translation>आबुं सुजुगिरियाव: %fields</translation>
+    </message>
+    <message>
+        <source>More</source>
+        <translation>बांसिन</translation>
     </message>
     <message>
         <source>Save draft</source>

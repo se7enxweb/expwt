@@ -140,10 +140,6 @@
         <translation>wajibi</translation>
     </message>
     <message>
-        <source>In the full editor: %fields</source>
-        <translation>Yɛlɛmanikɛlan dafalen kɔnɔ: %fields</translation>
-    </message>
-    <message>
         <source>Publish later or take down at a date</source>
         <translation>A bila kɛnɛ kan kɔfɛ walima a bɔ don dɔ la</translation>
     </message>
@@ -154,6 +150,14 @@
     <message>
         <source>Take down at</source>
         <translation>A bɔ</translation>
+    </message>
+    <message>
+        <source>In the full editor: %fields</source>
+        <translation>Yɛlɛmanikɛlan dafalen kɔnɔ: %fields</translation>
+    </message>
+    <message>
+        <source>More</source>
+        <translation>Caman</translation>
     </message>
     <message>
         <source>Save draft</source>

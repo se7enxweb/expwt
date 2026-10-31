@@ -140,10 +140,6 @@
         <translation>obrigatorio</translation>
     </message>
     <message>
-        <source>In the full editor: %fields</source>
-        <translation>No editor completo: %fields</translation>
-    </message>
-    <message>
         <source>Publish later or take down at a date</source>
         <translation>Publicar máis tarde ou retirar nunha data</translation>
     </message>
@@ -154,6 +150,14 @@
     <message>
         <source>Take down at</source>
         <translation>Retirar o</translation>
+    </message>
+    <message>
+        <source>In the full editor: %fields</source>
+        <translation>No editor completo: %fields</translation>
+    </message>
+    <message>
+        <source>More</source>
+        <translation>Máis</translation>
     </message>
     <message>
         <source>Save draft</source>

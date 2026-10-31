@@ -140,10 +140,6 @@
         <translation>అవసరం</translation>
     </message>
     <message>
-        <source>In the full editor: %fields</source>
-        <translation>పూర్తి ఎడిటర్‌లో: %fields</translation>
-    </message>
-    <message>
         <source>Publish later or take down at a date</source>
         <translation>తర్వాత ప్రచురించండి లేదా ఒక తేదీన తొలగించండి</translation>
     </message>
@@ -154,6 +150,14 @@
     <message>
         <source>Take down at</source>
         <translation>తొలగించే సమయం</translation>
+    </message>
+    <message>
+        <source>In the full editor: %fields</source>
+        <translation>పూర్తి ఎడిటర్‌లో: %fields</translation>
+    </message>
+    <message>
+        <source>More</source>
+        <translation>మరిన్ని</translation>
     </message>
     <message>
         <source>Save draft</source>

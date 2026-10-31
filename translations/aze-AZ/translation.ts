@@ -140,10 +140,6 @@
         <translation>tələb olunur</translation>
     </message>
     <message>
-        <source>In the full editor: %fields</source>
-        <translation>Tam redaktorda: %fields</translation>
-    </message>
-    <message>
         <source>Publish later or take down at a date</source>
         <translation>Sonra dərc et və ya bir tarixdə yayımdan çıxar</translation>
     </message>
@@ -154,6 +150,14 @@
     <message>
         <source>Take down at</source>
         <translation>Yayımdan çıxarma vaxtı</translation>
+    </message>
+    <message>
+        <source>In the full editor: %fields</source>
+        <translation>Tam redaktorda: %fields</translation>
+    </message>
+    <message>
+        <source>More</source>
+        <translation>Daha çox</translation>
     </message>
     <message>
         <source>Save draft</source>

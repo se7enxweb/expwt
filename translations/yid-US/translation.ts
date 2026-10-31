@@ -140,10 +140,6 @@
         <translation>נייטיק</translation>
     </message>
     <message>
-        <source>In the full editor: %fields</source>
-        <translation>אינעם פֿולן רעדאַקטאָר: %fields</translation>
-    </message>
-    <message>
         <source>Publish later or take down at a date</source>
         <translation>פֿאַרעפֿנטלעכן שפּעטער אָדער אַראָפּנעמען אויף אַ דאַטע</translation>
     </message>
@@ -154,6 +150,14 @@
     <message>
         <source>Take down at</source>
         <translation>אַראָפּנעמען אום</translation>
+    </message>
+    <message>
+        <source>In the full editor: %fields</source>
+        <translation>אינעם פֿולן רעדאַקטאָר: %fields</translation>
+    </message>
+    <message>
+        <source>More</source>
+        <translation>מער</translation>
     </message>
     <message>
         <source>Save draft</source>

@@ -140,10 +140,6 @@
         <translation>trěbne</translation>
     </message>
     <message>
-        <source>In the full editor: %fields</source>
-        <translation>W połnym editorje: %fields</translation>
-    </message>
-    <message>
         <source>Publish later or take down at a date</source>
         <translation>Pozdźišo wozjewić abo k datumej wotstronić</translation>
     </message>
@@ -154,6 +150,14 @@
     <message>
         <source>Take down at</source>
         <translation>Wotstronić dnja</translation>
+    </message>
+    <message>
+        <source>In the full editor: %fields</source>
+        <translation>W połnym editorje: %fields</translation>
+    </message>
+    <message>
+        <source>More</source>
+        <translation>Wjace</translation>
     </message>
     <message>
         <source>Save draft</source>

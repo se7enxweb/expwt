@@ -140,10 +140,6 @@
         <translation>e detyrueshme</translation>
     </message>
     <message>
-        <source>In the full editor: %fields</source>
-        <translation>Në redaktorin e plotë: %fields</translation>
-    </message>
-    <message>
         <source>Publish later or take down at a date</source>
         <translation>Publiko më vonë ose hiqe në një datë</translation>
     </message>
@@ -154,6 +150,14 @@
     <message>
         <source>Take down at</source>
         <translation>Hiqe më</translation>
+    </message>
+    <message>
+        <source>In the full editor: %fields</source>
+        <translation>Në redaktorin e plotë: %fields</translation>
+    </message>
+    <message>
+        <source>More</source>
+        <translation>Më shumë</translation>
     </message>
     <message>
         <source>Save draft</source>

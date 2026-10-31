@@ -140,10 +140,6 @@
         <translation>obligāts</translation>
     </message>
     <message>
-        <source>In the full editor: %fields</source>
-        <translation>Pilnajā redaktorā: %fields</translation>
-    </message>
-    <message>
         <source>Publish later or take down at a date</source>
         <translation>Publicēt vēlāk vai noņemt noteiktā datumā</translation>
     </message>
@@ -154,6 +150,14 @@
     <message>
         <source>Take down at</source>
         <translation>Noņemšanas laiks</translation>
+    </message>
+    <message>
+        <source>In the full editor: %fields</source>
+        <translation>Pilnajā redaktorā: %fields</translation>
+    </message>
+    <message>
+        <source>More</source>
+        <translation>Vairāk</translation>
     </message>
     <message>
         <source>Save draft</source>

@@ -140,10 +140,6 @@
         <translation>חובה</translation>
     </message>
     <message>
-        <source>In the full editor: %fields</source>
-        <translation>בעורך המלא: %fields</translation>
-    </message>
-    <message>
         <source>Publish later or take down at a date</source>
         <translation>פרסום מאוחר יותר או הסרה בתאריך</translation>
     </message>
@@ -154,6 +150,14 @@
     <message>
         <source>Take down at</source>
         <translation>הסרה בתאריך</translation>
+    </message>
+    <message>
+        <source>In the full editor: %fields</source>
+        <translation>בעורך המלא: %fields</translation>
+    </message>
+    <message>
+        <source>More</source>
+        <translation>עוד</translation>
     </message>
     <message>
         <source>Save draft</source>

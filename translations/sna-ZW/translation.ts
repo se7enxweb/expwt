@@ -140,10 +140,6 @@
         <translation>zvinodiwa</translation>
     </message>
     <message>
-        <source>In the full editor: %fields</source>
-        <translation>Mumugadziri wakazara: %fields</translation>
-    </message>
-    <message>
         <source>Publish later or take down at a date</source>
         <translation>Buritsa gare gare kana bvisa pazuva</translation>
     </message>
@@ -154,6 +150,14 @@
     <message>
         <source>Take down at</source>
         <translation>Bvisa pa</translation>
+    </message>
+    <message>
+        <source>In the full editor: %fields</source>
+        <translation>Mumugadziri wakazara: %fields</translation>
+    </message>
+    <message>
+        <source>More</source>
+        <translation>Zvimwe</translation>
     </message>
     <message>
         <source>Save draft</source>

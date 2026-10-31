@@ -140,10 +140,6 @@
         <translation>nĩbataranĩtio</translation>
     </message>
     <message>
-        <source>In the full editor: %fields</source>
-        <translation>Thĩinĩ wa mũcenjia wothe: %fields</translation>
-    </message>
-    <message>
         <source>Publish later or take down at a date</source>
         <translation>Cabithia thutha kana ũrute mũthenya ũmwe</translation>
     </message>
@@ -154,6 +150,14 @@
     <message>
         <source>Take down at</source>
         <translation>Ruta hĩndĩ ya</translation>
+    </message>
+    <message>
+        <source>In the full editor: %fields</source>
+        <translation>Thĩinĩ wa mũcenjia wothe: %fields</translation>
+    </message>
+    <message>
+        <source>More</source>
+        <translation>Makĩria</translation>
     </message>
     <message>
         <source>Save draft</source>

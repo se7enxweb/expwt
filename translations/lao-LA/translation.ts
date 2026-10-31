@@ -140,10 +140,6 @@
         <translation>ຈຳເປັນ</translation>
     </message>
     <message>
-        <source>In the full editor: %fields</source>
-        <translation>ໃນຕົວແກ້ໄຂເຕັມ: %fields</translation>
-    </message>
-    <message>
         <source>Publish later or take down at a date</source>
         <translation>ເຜີຍແຜ່ພາຍຫຼັງ ຫຼື ເອົາລົງໃນວັນທີທີ່ກຳນົດ</translation>
     </message>
@@ -154,6 +150,14 @@
     <message>
         <source>Take down at</source>
         <translation>ເອົາລົງເວລາ</translation>
+    </message>
+    <message>
+        <source>In the full editor: %fields</source>
+        <translation>ໃນຕົວແກ້ໄຂເຕັມ: %fields</translation>
+    </message>
+    <message>
+        <source>More</source>
+        <translation>ເພີ່ມເຕີມ</translation>
     </message>
     <message>
         <source>Save draft</source>

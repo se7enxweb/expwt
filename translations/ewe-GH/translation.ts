@@ -140,10 +140,6 @@
         <translation>ehiã</translation>
     </message>
     <message>
-        <source>In the full editor: %fields</source>
-        <translation>Le asitrɔɖoƒe blibo la me: %fields</translation>
-    </message>
-    <message>
         <source>Publish later or take down at a date</source>
         <translation>Ɖe ɖe dutoƒo emegbe alo ɖe ɖa le ŋkeke aɖe dzi</translation>
     </message>
@@ -154,6 +150,14 @@
     <message>
         <source>Take down at</source>
         <translation>Ɖe ɖa le</translation>
+    </message>
+    <message>
+        <source>In the full editor: %fields</source>
+        <translation>Le asitrɔɖoƒe blibo la me: %fields</translation>
+    </message>
+    <message>
+        <source>More</source>
+        <translation>Bubuwo</translation>
     </message>
     <message>
         <source>Save draft</source>

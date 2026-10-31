@@ -140,10 +140,6 @@
         <translation>заавал</translation>
     </message>
     <message>
-        <source>In the full editor: %fields</source>
-        <translation>Бүрэн засварлагчид: %fields</translation>
-    </message>
-    <message>
         <source>Publish later or take down at a date</source>
         <translation>Дараа нийтлэх эсвэл тодорхой өдөр буулгах</translation>
     </message>
@@ -154,6 +150,14 @@
     <message>
         <source>Take down at</source>
         <translation>Буулгах цаг</translation>
+    </message>
+    <message>
+        <source>In the full editor: %fields</source>
+        <translation>Бүрэн засварлагчид: %fields</translation>
+    </message>
+    <message>
+        <source>More</source>
+        <translation>Цааш</translation>
     </message>
     <message>
         <source>Save draft</source>

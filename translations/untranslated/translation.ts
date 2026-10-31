@@ -140,10 +140,6 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>In the full editor: %fields</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Publish later or take down at a date</source>
         <translation type="unfinished"></translation>
     </message>
@@ -153,6 +149,14 @@
     </message>
     <message>
         <source>Take down at</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>In the full editor: %fields</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>More</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

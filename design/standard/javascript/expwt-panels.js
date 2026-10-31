@@ -92,7 +92,9 @@
       }
     }
     drawChips();
-    root.appendChild(h('div', { class: 'wt-section' }, [h('h3', { text: p.name }), chips]));
+    /* the page's name, its state and the tools: one row on top and bottom */
+    var head = h('div', { class: 'wt-section wt-page-head' }, [h('h3', { text: p.name }), chips]);
+    root.appendChild(head);
 
     var lockBox = h('div', {});
     root.appendChild(lockBox);
@@ -122,9 +124,10 @@
       h('a', { class: 'wt-btn', href: p.urls.preview, target: '_blank', rel: 'noopener', text: t('Preview') }),
       h('a', { class: 'wt-btn', href: p.urls.fullEdit, text: t('Full editor') })
     ]);
-    root.appendChild(tools);
+    head.appendChild(tools);
 
-    var form = h('form', { class: 'wt-section', novalidate: true, onsubmit: function (e) { e.preventDefault(); save(); } });
+    var form = h('form', { class: 'wt-section wt-fields', novalidate: true, onsubmit: function (e) { e.preventDefault(); save(); } });
+    var order = [];
     var others = [];
     p.fields.forEach(function (f) {
       if (!f.editable) { others.push(f.name); return; }
@@ -138,12 +141,13 @@
         row = h('div', { class: 'wt-field', 'data-field': f.identifier, role: 'group', 'aria-label': f.name }, [
           h('span', { id: id + '-label', text: f.name + (f.required ? ' (' + t('required') + ')' : '') }), input.el]);
       }
+      if (f.input === 'richtext' || f.input === 'textarea' || f.input === 'multiselect') {
+        row.classList.add('is-wide');
+      }
       rows[f.identifier] = row;
+      order.push(row);
       form.appendChild(row);
     });
-    if (others.length) {
-      form.appendChild(h('p', { class: 'wt-muted', text: t('In the full editor: %fields').replace('%fields', others.join(', ')) }));
-    }
     root.appendChild(form);
 
     var conflictBox = h('div', {});
@@ -151,16 +155,64 @@
 
     var publishAt = h('input', { type: 'datetime-local', id: 'wt-publish-at' });
     var unpublishAt = h('input', { type: 'datetime-local', id: 'wt-unpublish-at' });
-    root.appendChild(h('details', { class: 'wt-section' }, [
+    var schedule = h('details', { class: 'wt-section wt-schedule' }, [
       h('summary', { text: t('Publish later or take down at a date') }),
       h('label', { class: 'wt-field', for: 'wt-publish-at' }, [h('span', { text: t('Publish at') }), publishAt]),
       h('label', { class: 'wt-field', for: 'wt-unpublish-at' }, [h('span', { text: t('Take down at') }), unpublishAt])
-    ]));
+    ]);
+    var othersNote = others.length ? h('p', { class: 'wt-muted', text: t('In the full editor: %fields').replace('%fields', others.join(', ')) }) : null;
+    /* On top and bottom: the fields that fit the bar in the grid, the rest, the date to publish and the fields of the
+       full editor behind "More", so the bar's main controls never need a scroll bar. On left and right as before. */
+    var moreFields = h('div', { class: 'wt-fields' });
+    var moreSummary = h('summary', { text: t('More') });
+    var more = h('details', { class: 'wt-section wt-more' }, [moreSummary, moreFields]);
+    root.appendChild(more);
+    var flat = h('div', {});
+    root.appendChild(flat);
+
+    /* On top and bottom (a wide window): every field in the grid first, then the last ones behind "More" until the
+       bar's body needs no scroll bar (at least one field stays). Again whenever the bar changes its size. */
+    function arrange() {
+      var hz = ctx.horizontal();
+      order.forEach(function (row) { form.appendChild(row); });
+      if (hz) {
+        if (othersNote) { more.appendChild(othersNote); }
+        more.appendChild(schedule);
+        more.open = false;
+        more.hidden = false;
+        moreSummary.textContent = t('More');
+        var over = function () { return root.scrollHeight > root.clientHeight + 1; };
+        var inGrid = order.slice();
+        while (over() && inGrid.length > 1) {
+          moreFields.insertBefore(inGrid.pop(), moreFields.firstChild);
+          moreSummary.textContent = t('More') + ' (' + moreFields.children.length + ')';
+        }
+        /* a smaller field after a long one may still fit: back into the grid in its own place, while it fits */
+        Array.prototype.slice.call(moreFields.children).forEach(function (row) {
+          var after = order.slice(order.indexOf(row) + 1).filter(function (r) { return r.parentNode === form; })[0];
+          form.insertBefore(row, after || null);
+          if (over()) { moreFields.appendChild(row); }
+        });
+        order.forEach(function (row) { if (row.parentNode === moreFields) { moreFields.appendChild(row); } });
+        var left = moreFields.children.length;
+        moreSummary.textContent = t('More') + (left ? ' (' + left + ')' : '');
+      } else {
+        if (othersNote) { form.appendChild(othersNote); }
+        flat.appendChild(schedule);
+        more.hidden = true;
+      }
+    }
+    arrange();
+    if (root.expwtArrange) { root.removeEventListener('expwt-orient', root.expwtArrange); }
+    root.expwtArrange = arrange;
+    root.addEventListener('expwt-orient', arrange);
 
     var saveBtn = h('button', { type: 'button', class: 'wt-btn', text: t('Save draft'), onclick: function () { save(); } });
     var publishBtn = h('button', { type: 'button', class: 'wt-btn is-primary', text: t('Publish'), onclick: function () { publish(); } });
     var discardBtn = h('button', { type: 'button', class: 'wt-btn is-danger', text: t('Discard draft'), onclick: function () { discard(); } });
-    root.appendChild(h('div', { class: 'wt-row' }, [saveBtn, publishBtn, discardBtn]));
+    var mainActions = h('div', { class: 'wt-row wt-primary' }, [saveBtn, publishBtn, discardBtn]);
+    root.appendChild(mainActions);
+    if (root.getAttribute('data-panel') === 'page') { ctx.primary(mainActions); }
     discardBtn.hidden = !version;
 
     function dirtyFields() {
@@ -442,7 +494,7 @@
         root.appendChild(h('p', { text: t('You may not create anything here.') }));
         return;
       }
-      var group = h('fieldset', { class: 'wt-section' }, [h('legend', { text: t('Where') })]);
+      var group = h('fieldset', { class: 'wt-section wt-choice' }, [h('legend', { text: t('Where') })]);
       [['children', t('Below this page'), c.children.length], ['siblings', t('Beside this page'), c.siblings.length]].forEach(function (o) {
         if (!o[2]) { return; }
         group.appendChild(h('label', { class: 'wt-check' }, [
@@ -450,7 +502,7 @@
         ]));
       });
       fill();
-      root.appendChild(h('form', { onsubmit: function (e) {
+      root.appendChild(h('form', { class: 'wt-create', onsubmit: function (e) {
         e.preventDefault();
         if (!title.value.trim()) { title.focus(); ctx.say(t('Give a title.'), 'bad'); return; }
         ctx.call('create.new', { parentId: where === 'children' ? c.nodeId : c.parentId, classIdentifier: classSel.value, title: title.value.trim() })
@@ -499,20 +551,31 @@
           ctx.call('tree.trash', { nodeId: ctx.node }).then(function (x) { window.location.href = x.parentUrl; }, function (e) { failure(ctx, e); });
         } }));
       }
-      root.appendChild(h('div', { class: 'wt-section' }, [h('h3', { text: p.name }), acts]));
+      root.appendChild(h('div', { class: 'wt-section wt-node-head' }, [h('h3', { text: p.name }), acts]));
       root.appendChild(sortList(ctx, kids));
     }, function (err) { failure(ctx, err); });
+  }
+
+  /* The glyphs of "move up" (back) and "move down" (on): up and down in the panel's list, along the reading
+     direction in the bar's strip (the stylesheet shows the one that fits; the button's label says it in words). */
+  function arrow(h, way) {
+    var g = way === 'back' ? ['↑', '←', '→'] : ['↓', '→', '←'];
+    return [
+      h('span', { class: 'wt-g-v', 'aria-hidden': 'true', text: g[0] }),
+      h('span', { class: 'wt-g-h', 'aria-hidden': 'true', text: g[1] }),
+      h('span', { class: 'wt-g-h-rtl', 'aria-hidden': 'true', text: g[2] })
+    ];
   }
 
   function sortList(ctx, kids) {
     var h = ctx.h;
     var t = ctx.t;
-    var box = h('div', { class: 'wt-section' }, [h('h3', { text: t('Pages below this one') })]);
+    var box = h('div', { class: 'wt-section wt-sort' }, [h('h3', { text: t('Pages below this one') })]);
     if (!kids.children.length) {
       box.appendChild(h('p', { class: 'wt-muted', text: t('There are no pages below this one.') }));
       return box;
     }
-    var list = h('ul', { class: 'wt-list' });
+    var list = h('ul', { class: 'wt-list wt-strip', tabindex: '0', 'aria-label': t('Pages below this one') });
     var order = kids.children.slice();
     var dragging = null;
     function draw() {
@@ -526,9 +589,9 @@
           [h('span', { text: c.name + (c.hidden ? ' (' + t('Hidden') + ')' : '') })]);
         if (kids.sortable) {
           li.appendChild(h('button', { type: 'button', class: 'wt-btn is-icon', 'aria-label': t('Move up') + ': ' + c.name, disabled: i === 0,
-            onclick: function () { move(i, i - 1); } }, ['↑']));
+            onclick: function () { move(i, i - 1); } }, arrow(h, 'back')));
           li.appendChild(h('button', { type: 'button', class: 'wt-btn is-icon', 'aria-label': t('Move down') + ': ' + c.name, disabled: i === order.length - 1,
-            onclick: function () { move(i, i + 1); } }, ['↓']));
+            onclick: function () { move(i, i + 1); } }, arrow(h, 'on')));
         }
         list.appendChild(li);
       });
@@ -550,7 +613,7 @@
     draw();
     box.appendChild(list);
     if (kids.sortable) {
-      box.appendChild(h('div', { class: 'wt-row' }, [saveBtn]));
+      box.appendChild(h('div', { class: 'wt-row wt-sort-save' }, [saveBtn]));
     } else {
       box.appendChild(h('p', { class: 'wt-muted', text: t('These pages are sorted automatically, not by hand.') }));
     }
@@ -564,7 +627,7 @@
     root.textContent = '';
     var title = action === 'tree.move' ? t('Move "%name" to ...') : t('Add "%name" also below ...');
     var heading = h('h3', { text: title.replace('%name', p.name) });
-    var list = h('ul', { class: 'wt-list' });
+    var list = h('ul', { class: 'wt-list wt-strip', tabindex: '0', 'aria-label': title.replace('%name', p.name) });
     var where = h('p', { class: 'wt-muted' });
     root.appendChild(heading);
     root.appendChild(where);
@@ -615,9 +678,9 @@
       Object.keys(m.links).forEach(function (k) { nav.appendChild(h('a', { href: m.links[k], text: labels[k] || k })); });
       root.appendChild(nav);
 
-      var prefs = h('div', { class: 'wt-section' }, [h('h3', { text: t('The sidebar') })]);
+      var prefs = h('div', { class: 'wt-section wt-prefs' }, [h('h3', { text: t('The sidebar') })]);
       var radios = function (legend, name, options, value, apply) {
-        var fs = h('fieldset', { class: 'wt-section' }, [h('legend', { text: legend })]);
+        var fs = h('fieldset', { class: 'wt-section wt-choice' }, [h('legend', { text: legend })]);
         options.forEach(function (o) {
           fs.appendChild(h('label', { class: 'wt-check' }, [
             h('input', { type: 'radio', name: name, checked: value === o[0], onchange: function () { apply(o[0]); } }), o[1]]));
@@ -640,7 +703,9 @@
       var only = h('input', { type: 'checkbox', id: 'wt-device', checked: ctx.deviceOnly(), onchange: function () { ctx.deviceOnly(only.checked); } });
       prefs.appendChild(h('label', { class: 'wt-check', for: 'wt-device' }, [only, t('Keep these settings only on this device')]));
       root.appendChild(prefs);
-      root.appendChild(h('div', { class: 'wt-row' }, [h('a', { class: 'wt-btn', href: m.logout, text: t('Sign out') })]));
+      var signOut = h('div', { class: 'wt-row wt-primary' }, [h('a', { class: 'wt-btn', href: m.logout, text: t('Sign out') })]);
+      root.appendChild(signOut);
+      if (root.getAttribute('data-panel') === 'me') { ctx.primary(signOut); }
     }, function (err) { failure(ctx, err); });
   }
 

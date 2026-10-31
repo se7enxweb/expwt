@@ -140,10 +140,6 @@
         <translation>riachtanach</translation>
     </message>
     <message>
-        <source>In the full editor: %fields</source>
-        <translation>San eagarthóir iomlán: %fields</translation>
-    </message>
-    <message>
         <source>Publish later or take down at a date</source>
         <translation>Foilsigh níos déanaí nó bain anuas ar dháta</translation>
     </message>
@@ -154,6 +150,14 @@
     <message>
         <source>Take down at</source>
         <translation>Bain anuas ar</translation>
+    </message>
+    <message>
+        <source>In the full editor: %fields</source>
+        <translation>San eagarthóir iomlán: %fields</translation>
+    </message>
+    <message>
+        <source>More</source>
+        <translation>Tuilleadh</translation>
     </message>
     <message>
         <source>Save draft</source>

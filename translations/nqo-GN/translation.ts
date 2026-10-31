@@ -140,10 +140,6 @@
         <translation>ߥߊߖߌߓߌ</translation>
     </message>
     <message>
-        <source>In the full editor: %fields</source>
-        <translation>ߦߍߟߍߡߊߟߊ߲ ߘߝߊߣߍ߲ ߘߐ߫: %fields</translation>
-    </message>
-    <message>
         <source>Publish later or take down at a date</source>
         <translation>ߓߌߟߊ߫ ߞߍߣߍ ߞߊ߲߫ ߞߐ߫ ߟߐ߬ ߥߟߊ߫ ߊ߬ ߓߐ߫ ߕߊߙߌߞߌ ߘߏ߫ ߟߊ߫</translation>
     </message>
@@ -154,6 +150,14 @@
     <message>
         <source>Take down at</source>
         <translation>ߓߐߟߌ ߥߊߕߌ</translation>
+    </message>
+    <message>
+        <source>In the full editor: %fields</source>
+        <translation>ߦߍߟߍߡߊߟߊ߲ ߘߝߊߣߍ߲ ߘߐ߫: %fields</translation>
+    </message>
+    <message>
+        <source>More</source>
+        <translation>ߞߏ߫ ߜߘߍ߫</translation>
     </message>
     <message>
         <source>Save draft</source>

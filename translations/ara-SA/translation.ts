@@ -140,10 +140,6 @@
         <translation>مطلوب</translation>
     </message>
     <message>
-        <source>In the full editor: %fields</source>
-        <translation>في المحرر الكامل: %fields</translation>
-    </message>
-    <message>
         <source>Publish later or take down at a date</source>
         <translation>النشر لاحقًا أو الإزالة في تاريخ محدد</translation>
     </message>
@@ -154,6 +150,14 @@
     <message>
         <source>Take down at</source>
         <translation>الإزالة في</translation>
+    </message>
+    <message>
+        <source>In the full editor: %fields</source>
+        <translation>في المحرر الكامل: %fields</translation>
+    </message>
+    <message>
+        <source>More</source>
+        <translation>المزيد</translation>
     </message>
     <message>
         <source>Save draft</source>

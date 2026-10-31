@@ -140,10 +140,6 @@
         <translation>riatanach</translation>
     </message>
     <message>
-        <source>In the full editor: %fields</source>
-        <translation>San deasaiche shlàn: %fields</translation>
-    </message>
-    <message>
         <source>Publish later or take down at a date</source>
         <translation>Foillsich nas fhaide air adhart no thoir sìos air ceann-latha</translation>
     </message>
@@ -154,6 +150,14 @@
     <message>
         <source>Take down at</source>
         <translation>Thoir sìos air</translation>
+    </message>
+    <message>
+        <source>In the full editor: %fields</source>
+        <translation>San deasaiche shlàn: %fields</translation>
+    </message>
+    <message>
+        <source>More</source>
+        <translation>Barrachd</translation>
     </message>
     <message>
         <source>Save draft</source>

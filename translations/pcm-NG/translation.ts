@@ -140,10 +140,6 @@
         <translation>must fill</translation>
     </message>
     <message>
-        <source>In the full editor: %fields</source>
-        <translation>For di full editor: %fields</translation>
-    </message>
-    <message>
         <source>Publish later or take down at a date</source>
         <translation>Publish later or comot am for one date</translation>
     </message>
@@ -154,6 +150,14 @@
     <message>
         <source>Take down at</source>
         <translation>Comot am for</translation>
+    </message>
+    <message>
+        <source>In the full editor: %fields</source>
+        <translation>For di full editor: %fields</translation>
+    </message>
+    <message>
+        <source>More</source>
+        <translation>More</translation>
     </message>
     <message>
         <source>Save draft</source>

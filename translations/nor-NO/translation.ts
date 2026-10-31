@@ -140,10 +140,6 @@
         <translation>påkrevd</translation>
     </message>
     <message>
-        <source>In the full editor: %fields</source>
-        <translation>I full redigering: %fields</translation>
-    </message>
-    <message>
         <source>Publish later or take down at a date</source>
         <translation>Publiser senere eller ta ned på en dato</translation>
     </message>
@@ -154,6 +150,14 @@
     <message>
         <source>Take down at</source>
         <translation>Ta ned</translation>
+    </message>
+    <message>
+        <source>In the full editor: %fields</source>
+        <translation>I full redigering: %fields</translation>
+    </message>
+    <message>
+        <source>More</source>
+        <translation>Mer</translation>
     </message>
     <message>
         <source>Save draft</source>

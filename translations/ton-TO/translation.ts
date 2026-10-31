@@ -140,10 +140,6 @@
         <translation>fiemaʻu</translation>
     </message>
     <message>
-        <source>In the full editor: %fields</source>
-        <translation>ʻI he fakatonutonu kakato: %fields</translation>
-    </message>
-    <message>
         <source>Publish later or take down at a date</source>
         <translation>Pulusi ʻamui pe toʻo ʻi ha ʻaho</translation>
     </message>
@@ -154,6 +150,14 @@
     <message>
         <source>Take down at</source>
         <translation>Toʻo ʻi he</translation>
+    </message>
+    <message>
+        <source>In the full editor: %fields</source>
+        <translation>ʻI he fakatonutonu kakato: %fields</translation>
+    </message>
+    <message>
+        <source>More</source>
+        <translation>Lahi ange</translation>
     </message>
     <message>
         <source>Save draft</source>

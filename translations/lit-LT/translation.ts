@@ -140,10 +140,6 @@
         <translation>privaloma</translation>
     </message>
     <message>
-        <source>In the full editor: %fields</source>
-        <translation>Visame redaktoriuje: %fields</translation>
-    </message>
-    <message>
         <source>Publish later or take down at a date</source>
         <translation>Paskelbti vėliau arba pašalinti nurodytą dieną</translation>
     </message>
@@ -154,6 +150,14 @@
     <message>
         <source>Take down at</source>
         <translation>Pašalinimo laikas</translation>
+    </message>
+    <message>
+        <source>In the full editor: %fields</source>
+        <translation>Visame redaktoriuje: %fields</translation>
+    </message>
+    <message>
+        <source>More</source>
+        <translation>Daugiau</translation>
     </message>
     <message>
         <source>Save draft</source>

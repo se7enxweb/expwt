@@ -140,10 +140,6 @@
         <translation>ferplicht</translation>
     </message>
     <message>
-        <source>In the full editor: %fields</source>
-        <translation>Yn de folsleine bewurker: %fields</translation>
-    </message>
-    <message>
         <source>Publish later or take down at a date</source>
         <translation>Letter publisearje of op in datum weinimme</translation>
     </message>
@@ -154,6 +150,14 @@
     <message>
         <source>Take down at</source>
         <translation>Weinimme op</translation>
+    </message>
+    <message>
+        <source>In the full editor: %fields</source>
+        <translation>Yn de folsleine bewurker: %fields</translation>
+    </message>
+    <message>
+        <source>More</source>
+        <translation>Mear</translation>
     </message>
     <message>
         <source>Save draft</source>

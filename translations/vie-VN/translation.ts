@@ -140,10 +140,6 @@
         <translation>bắt buộc</translation>
     </message>
     <message>
-        <source>In the full editor: %fields</source>
-        <translation>Trong trình soạn thảo đầy đủ: %fields</translation>
-    </message>
-    <message>
         <source>Publish later or take down at a date</source>
         <translation>Xuất bản sau hoặc gỡ xuống vào một ngày</translation>
     </message>
@@ -154,6 +150,14 @@
     <message>
         <source>Take down at</source>
         <translation>Gỡ xuống lúc</translation>
+    </message>
+    <message>
+        <source>In the full editor: %fields</source>
+        <translation>Trong trình soạn thảo đầy đủ: %fields</translation>
+    </message>
+    <message>
+        <source>More</source>
+        <translation>Thêm</translation>
     </message>
     <message>
         <source>Save draft</source>

@@ -140,10 +140,6 @@
         <translation>rediet</translation>
     </message>
     <message>
-        <source>In the full editor: %fields</source>
-        <translation>En embanner klok: %fields</translation>
-    </message>
-    <message>
         <source>Publish later or take down at a date</source>
         <translation>Embann diwezhatoc'h pe lemel d'un deiziad</translation>
     </message>
@@ -154,6 +150,14 @@
     <message>
         <source>Take down at</source>
         <translation>Lemel d'an</translation>
+    </message>
+    <message>
+        <source>In the full editor: %fields</source>
+        <translation>En embanner klok: %fields</translation>
+    </message>
+    <message>
+        <source>More</source>
+        <translation>Muioc'h</translation>
     </message>
     <message>
         <source>Save draft</source>

@@ -140,10 +140,6 @@
         <translation>প্ৰয়োজনীয়</translation>
     </message>
     <message>
-        <source>In the full editor: %fields</source>
-        <translation>সম্পূৰ্ণ সম্পাদকত: %fields</translation>
-    </message>
-    <message>
         <source>Publish later or take down at a date</source>
         <translation>পিছত প্ৰকাশ কৰক বা কোনো তাৰিখত আঁতৰাওক</translation>
     </message>
@@ -154,6 +150,14 @@
     <message>
         <source>Take down at</source>
         <translation>আঁতৰোৱাৰ সময়</translation>
+    </message>
+    <message>
+        <source>In the full editor: %fields</source>
+        <translation>সম্পূৰ্ণ সম্পাদকত: %fields</translation>
+    </message>
+    <message>
+        <source>More</source>
+        <translation>অধিক</translation>
     </message>
     <message>
         <source>Save draft</source>

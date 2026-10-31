@@ -140,10 +140,6 @@
         <translation>herenga</translation>
     </message>
     <message>
-        <source>In the full editor: %fields</source>
-        <translation>Kei te ētita katoa: %fields</translation>
-    </message>
-    <message>
         <source>Publish later or take down at a date</source>
         <translation>Whakaputa ā muri ake, tango rānei hei tētahi rā</translation>
     </message>
@@ -154,6 +150,14 @@
     <message>
         <source>Take down at</source>
         <translation>Tango hei</translation>
+    </message>
+    <message>
+        <source>In the full editor: %fields</source>
+        <translation>Kei te ētita katoa: %fields</translation>
+    </message>
+    <message>
+        <source>More</source>
+        <translation>Ētahi atu</translation>
     </message>
     <message>
         <source>Save draft</source>

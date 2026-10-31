@@ -140,10 +140,6 @@
         <translation>necessarium</translation>
     </message>
     <message>
-        <source>In the full editor: %fields</source>
-        <translation>In editore pleno: %fields</translation>
-    </message>
-    <message>
         <source>Publish later or take down at a date</source>
         <translation>Postea publicare vel certo die removere</translation>
     </message>
@@ -154,6 +150,14 @@
     <message>
         <source>Take down at</source>
         <translation>Removere die</translation>
+    </message>
+    <message>
+        <source>In the full editor: %fields</source>
+        <translation>In editore pleno: %fields</translation>
+    </message>
+    <message>
+        <source>More</source>
+        <translation>Plura</translation>
     </message>
     <message>
         <source>Save draft</source>

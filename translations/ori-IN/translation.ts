@@ -140,10 +140,6 @@
         <translation>ଆବଶ୍ୟକ</translation>
     </message>
     <message>
-        <source>In the full editor: %fields</source>
-        <translation>ସମ୍ପୂର୍ଣ୍ଣ ସମ୍ପାଦକରେ: %fields</translation>
-    </message>
-    <message>
         <source>Publish later or take down at a date</source>
         <translation>ପରେ ପ୍ରକାଶ କରନ୍ତୁ କିମ୍ବା ଏକ ତାରିଖରେ ହଟାନ୍ତୁ</translation>
     </message>
@@ -154,6 +150,14 @@
     <message>
         <source>Take down at</source>
         <translation>ହଟାଇବା ସମୟ</translation>
+    </message>
+    <message>
+        <source>In the full editor: %fields</source>
+        <translation>ସମ୍ପୂର୍ଣ୍ଣ ସମ୍ପାଦକରେ: %fields</translation>
+    </message>
+    <message>
+        <source>More</source>
+        <translation>ଅଧିକ</translation>
     </message>
     <message>
         <source>Save draft</source>

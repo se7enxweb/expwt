@@ -140,10 +140,6 @@
         <translation>dárbbašlaš</translation>
     </message>
     <message>
-        <source>In the full editor: %fields</source>
-        <translation>Ollislaš redigerenreaiddus: %fields</translation>
-    </message>
-    <message>
         <source>Publish later or take down at a date</source>
         <translation>Almmut maŋŋelaš dahje váldde eret dihto beaivvi</translation>
     </message>
@@ -154,6 +150,14 @@
     <message>
         <source>Take down at</source>
         <translation>Váldde eret</translation>
+    </message>
+    <message>
+        <source>In the full editor: %fields</source>
+        <translation>Ollislaš redigerenreaiddus: %fields</translation>
+    </message>
+    <message>
+        <source>More</source>
+        <translation>Eanet</translation>
     </message>
     <message>
         <source>Save draft</source>

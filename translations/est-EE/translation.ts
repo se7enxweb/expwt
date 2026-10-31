@@ -140,10 +140,6 @@
         <translation>kohustuslik</translation>
     </message>
     <message>
-        <source>In the full editor: %fields</source>
-        <translation>Täielikus redaktoris: %fields</translation>
-    </message>
-    <message>
         <source>Publish later or take down at a date</source>
         <translation>Avalda hiljem või eemalda kindlal kuupäeval</translation>
     </message>
@@ -154,6 +150,14 @@
     <message>
         <source>Take down at</source>
         <translation>Eemalda</translation>
+    </message>
+    <message>
+        <source>In the full editor: %fields</source>
+        <translation>Täielikus redaktoris: %fields</translation>
+    </message>
+    <message>
+        <source>More</source>
+        <translation>Veel</translation>
     </message>
     <message>
         <source>Save draft</source>

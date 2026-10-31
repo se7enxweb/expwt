@@ -140,10 +140,6 @@
         <translation>gikinahanglan</translation>
     </message>
     <message>
-        <source>In the full editor: %fields</source>
-        <translation>Sa bug-os nga editor: %fields</translation>
-    </message>
-    <message>
         <source>Publish later or take down at a date</source>
         <translation>Ipatik unya o kuhaa sa usa ka petsa</translation>
     </message>
@@ -154,6 +150,14 @@
     <message>
         <source>Take down at</source>
         <translation>Kuhaa sa</translation>
+    </message>
+    <message>
+        <source>In the full editor: %fields</source>
+        <translation>Sa bug-os nga editor: %fields</translation>
+    </message>
+    <message>
+        <source>More</source>
+        <translation>Dugang pa</translation>
     </message>
     <message>
         <source>Save draft</source>

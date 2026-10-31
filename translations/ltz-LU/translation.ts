@@ -140,10 +140,6 @@
         <translation>obligatoresch</translation>
     </message>
     <message>
-        <source>In the full editor: %fields</source>
-        <translation>Am ganzen Editor: %fields</translation>
-    </message>
-    <message>
         <source>Publish later or take down at a date</source>
         <translation>Méi spéit publizéieren oder un engem Datum erofhuelen</translation>
     </message>
@@ -154,6 +150,14 @@
     <message>
         <source>Take down at</source>
         <translation>Erofhuelen um</translation>
+    </message>
+    <message>
+        <source>In the full editor: %fields</source>
+        <translation>Am ganzen Editor: %fields</translation>
+    </message>
+    <message>
+        <source>More</source>
+        <translation>Méi</translation>
     </message>
     <message>
         <source>Save draft</source>

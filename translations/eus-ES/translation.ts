@@ -140,10 +140,6 @@
         <translation>derrigorrezkoa</translation>
     </message>
     <message>
-        <source>In the full editor: %fields</source>
-        <translation>Editore osoan: %fields</translation>
-    </message>
-    <message>
         <source>Publish later or take down at a date</source>
         <translation>Argitaratu geroago edo kendu data batean</translation>
     </message>
@@ -154,6 +150,14 @@
     <message>
         <source>Take down at</source>
         <translation>Kentze-data</translation>
+    </message>
+    <message>
+        <source>In the full editor: %fields</source>
+        <translation>Editore osoan: %fields</translation>
+    </message>
+    <message>
+        <source>More</source>
+        <translation>Gehiago</translation>
     </message>
     <message>
         <source>Save draft</source>

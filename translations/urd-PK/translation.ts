@@ -140,10 +140,6 @@
         <translation>لازمی</translation>
     </message>
     <message>
-        <source>In the full editor: %fields</source>
-        <translation>مکمل ایڈیٹر میں: %fields</translation>
-    </message>
-    <message>
         <source>Publish later or take down at a date</source>
         <translation>بعد میں شائع کریں یا کسی تاریخ پر ہٹائیں</translation>
     </message>
@@ -154,6 +150,14 @@
     <message>
         <source>Take down at</source>
         <translation>ہٹانے کا وقت</translation>
+    </message>
+    <message>
+        <source>In the full editor: %fields</source>
+        <translation>مکمل ایڈیٹر میں: %fields</translation>
+    </message>
+    <message>
+        <source>More</source>
+        <translation>مزید</translation>
     </message>
     <message>
         <source>Save draft</source>
