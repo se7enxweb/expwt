@@ -435,11 +435,16 @@
       this.spacer('top', on && edge === 'top');
       this.spacer('bottom', on && edge === 'bottom');
       var h = this.barHeight || this.state.height;
-      this.pageRules = 'html[data-expwt-push="right"] body{margin-right:' + this.state.width + 'px}'
-        + 'html[data-expwt-push="left"] body{margin-left:' + this.state.width + 'px}'
+      var w = this.state.width;
+      /* Left and right: the page's root gets the room as padding, so the body keeps its own margins (a centered
+         page stays centered, a design whose side columns live in the body's margins keeps them: F24). Every edge
+         also names the room it takes as --expwt-push-<edge> on <html>, for what a design fixes to the window (side
+         columns, toolbars) to step aside: design/admin4 does so. */
+      this.pageRules = 'html[data-expwt-push="right"]{--expwt-push-right:' + w + 'px;padding-right:' + w + 'px}'
+        + 'html[data-expwt-push="left"]{--expwt-push-left:' + w + 'px;padding-left:' + w + 'px}'
         + '[data-expwt-spacer]{display:block;block-size:' + h + 'px;margin:0;padding:0;border:0}'
-        + 'html[data-expwt-push="top"]{scroll-padding-block-start:' + ((this.top || 0) + h) + 'px}'
-        + 'html[data-expwt-push="bottom"]{scroll-padding-block-end:' + ((this.bottom || 0) + h) + 'px}'
+        + 'html[data-expwt-push="top"]{--expwt-push-top:' + h + 'px;scroll-padding-block-start:' + ((this.top || 0) + h) + 'px}'
+        + 'html[data-expwt-push="bottom"]{--expwt-push-bottom:' + h + 'px;scroll-padding-block-end:' + ((this.bottom || 0) + h) + 'px}'
         + (this.inlineRules || '');
       pageCss(this.pageRules);
     }
