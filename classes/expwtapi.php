@@ -86,7 +86,9 @@ class expwtApi
                                                'base' => isset( $input['base'] ) && is_array( $input['base'] ) ? $input['base'] : array(),
                                                'choices' => isset( $input['choices'] ) && is_array( $input['choices'] ) ? $input['choices'] : array() ) );
             case 'draft.publish':
-                return $g->publish( self::ids( $input, array( 'objectId', 'version' ) ) + self::strings( $input, array( 'publishAt', 'unpublishAt' ) ) );
+                // unpublishAt given empty: the take-down date is cleared (absent: left as it is)
+                return $g->publish( self::ids( $input, array( 'objectId', 'version' ) ) + self::strings( $input, array( 'publishAt', 'unpublishAt' ) )
+                                    + ( array_key_exists( 'unpublishAt', $input ) && ( $input['unpublishAt'] === null || $input['unpublishAt'] === '' ) ? array( 'unpublishAt' => '' ) : array() ) );
             case 'draft.discard':
                 return $g->discard( self::ids( $input, array( 'objectId', 'version' ) ) );
             case 'lock.acquire':

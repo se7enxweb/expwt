@@ -56,6 +56,10 @@
         <translation>Ин сана ва вақт нест.</translation>
     </message>
     <message>
+        <source>Not possible here: this kind of page has no date field for it.</source>
+        <translation>Дар ин ҷо имконнопазир: ин навъи саҳифа барои ин майдони сана надорад.</translation>
+    </message>
+    <message>
         <source>The page would be taken down before it is published.</source>
         <translation>Саҳифа пеш аз нашр шуданаш бардошта мешуд.</translation>
     </message>

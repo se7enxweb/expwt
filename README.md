@@ -17,4 +17,11 @@ Version 0.1.0 (first phase): the sidebar on every design (tab, push or overlay, 
 per device), the Me panel, editing on a draft in the panel and on the page, preview, publish now or later, create,
 tree operations, soft locks with a field by field merge, the expwt policies, REST and GraphQL data layers.
 
+Scheduling (publish at, take down at) uses the kernel's wait-until-date workflow and hide cronjob, the same as the
+administration, so approvals apply; expwt has no schedule or cronjob of its own. A class needs a date field for it
+(listed by a "Wait until date" event on the content/publish trigger, and in `content.ini [HideSettings]
+HideDateAttributeList[]` for taking down); a class without one shows "Not possible here: this kind of page has no
+date field for it." in place of the input. How to add the field: the guide, "Publish at and take down at". The
+schedule of earlier expwt versions moves to the kernel with `./console exp:wt:migrate-from-ezwt --apply`.
+
 License: GNU General Public License v2.0 (or any later version).

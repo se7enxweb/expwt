@@ -56,6 +56,10 @@
         <translation>این یک تاریخ و وقت نیست.</translation>
     </message>
     <message>
+        <source>Not possible here: this kind of page has no date field for it.</source>
+        <translation>اینجا ممکن نیست: این نوع صفحه برای این کار فیلد تاریخ ندارد.</translation>
+    </message>
+    <message>
         <source>The page would be taken down before it is published.</source>
         <translation>صفحه پیش از نشر برداشته می‌شد.</translation>
     </message>

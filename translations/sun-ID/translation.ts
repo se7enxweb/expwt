@@ -56,6 +56,10 @@
         <translation>Ieu lain tanggal jeung waktu.</translation>
     </message>
     <message>
+        <source>Not possible here: this kind of page has no date field for it.</source>
+        <translation>Teu tiasa di dieu: jinis kaca ieu teu gaduh widang tanggal pikeun éta.</translation>
+    </message>
+    <message>
         <source>The page would be taken down before it is published.</source>
         <translation>Kaca bakal diturunkeun saméméh diterbitkeun.</translation>
     </message>

@@ -56,6 +56,10 @@
         <translation>ई तारीख आ समय ना ह।</translation>
     </message>
     <message>
+        <source>Not possible here: this kind of page has no date field for it.</source>
+        <translation>इहाँ संभव नइखे: एह तरह के पन्ना में एकरा खातिर कवनो तारीख फील्ड नइखे।</translation>
+    </message>
+    <message>
         <source>The page would be taken down before it is published.</source>
         <translation>पन्ना छपे से पहिलहीं हटा दिहल जाई।</translation>
     </message>

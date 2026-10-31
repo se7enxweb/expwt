@@ -56,6 +56,10 @@
         <translation>Lii du bés ak waxtu.</translation>
     </message>
     <message>
+        <source>Not possible here: this kind of page has no date field for it.</source>
+        <translation>Mënul nekk fii: xeetu xët wii amul bérab bés ngir loolu.</translation>
+    </message>
+    <message>
         <source>The page would be taken down before it is published.</source>
         <translation>Xët wi dañu koy dindi laata ñu koy siiwal.</translation>
     </message>

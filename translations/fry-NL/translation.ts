@@ -56,6 +56,10 @@
         <translation>Dit is gjin datum en tiid.</translation>
     </message>
     <message>
+        <source>Not possible here: this kind of page has no date field for it.</source>
+        <translation>Hjir net mooglik: dit soarte side hat der gjin datumfjild foar.</translation>
+    </message>
+    <message>
         <source>The page would be taken down before it is published.</source>
         <translation>De side soe weinommen wurde foardat er publisearre is.</translation>
     </message>

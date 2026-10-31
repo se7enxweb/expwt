@@ -56,6 +56,10 @@
         <translation>Lo ayingomhla nexesha.</translation>
     </message>
     <message>
+        <source>Not possible here: this kind of page has no date field for it.</source>
+        <translation>Akunakwenzeka apha: olu hlobo lwephepha alunayo indawo yomhla yoko.</translation>
+    </message>
+    <message>
         <source>The page would be taken down before it is published.</source>
         <translation>Iphepha lingasuswa ngaphambi kokuba lishicilelwe.</translation>
     </message>

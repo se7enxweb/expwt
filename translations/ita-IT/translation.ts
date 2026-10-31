@@ -56,6 +56,10 @@
         <translation>Questa non è una data e un'ora.</translation>
     </message>
     <message>
+        <source>Not possible here: this kind of page has no date field for it.</source>
+        <translation>Non possibile qui: questo tipo di pagina non ha un campo data per questo.</translation>
+    </message>
+    <message>
         <source>The page would be taken down before it is published.</source>
         <translation>La pagina verrebbe ritirata prima di essere pubblicata.</translation>
     </message>

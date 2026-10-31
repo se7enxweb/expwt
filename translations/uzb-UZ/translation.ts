@@ -56,6 +56,10 @@
         <translation>Bu sana va vaqt emas.</translation>
     </message>
     <message>
+        <source>Not possible here: this kind of page has no date field for it.</source>
+        <translation>Bu yerda mumkin emas: bunday sahifada buning uchun sana maydoni yo'q.</translation>
+    </message>
+    <message>
         <source>The page would be taken down before it is published.</source>
         <translation>Sahifa nashr qilinishidan oldin olib tashlangan boʻlar edi.</translation>
     </message>

@@ -56,6 +56,10 @@
         <translation>हो तारीख आनी वेळ न्हय.</translation>
     </message>
     <message>
+        <source>Not possible here: this kind of page has no date field for it.</source>
+        <translation>हांगा शक्य ना: ह्या प्रकारच्या पानाक हाचे खातीर तारखेचें क्षेत्र ना.</translation>
+    </message>
+    <message>
         <source>The page would be taken down before it is published.</source>
         <translation>पान उजवाडाक येवचे पयलींच काडून उडयतलें.</translation>
     </message>

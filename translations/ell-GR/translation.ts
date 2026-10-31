@@ -56,6 +56,10 @@
         <translation>Αυτό δεν είναι ημερομηνία και ώρα.</translation>
     </message>
     <message>
+        <source>Not possible here: this kind of page has no date field for it.</source>
+        <translation>Δεν είναι δυνατό εδώ: αυτό το είδος σελίδας δεν έχει πεδίο ημερομηνίας για αυτό.</translation>
+    </message>
+    <message>
         <source>The page would be taken down before it is published.</source>
         <translation>Η σελίδα θα αποσυρόταν πριν δημοσιευτεί.</translation>
     </message>

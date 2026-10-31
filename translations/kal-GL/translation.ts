@@ -56,6 +56,10 @@
         <translation>Una ulloqarfiunngilaq piffissaqarfiunngilaq.</translation>
     </message>
     <message>
+        <source>Not possible here: this kind of page has no date field for it.</source>
+        <translation>Maani periarfissaqanngilaq: quppersagaq taamaattoq ulloq allassiffissaqanngilaq.</translation>
+    </message>
+    <message>
         <source>The page would be taken down before it is published.</source>
         <translation>Qupperneq saqqummiunneqannginnerani peerneqassagaluarpoq.</translation>
     </message>

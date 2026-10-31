@@ -56,6 +56,10 @@
         <translation>Quai n'è betg ina data ed in'ura.</translation>
     </message>
     <message>
+        <source>Not possible here: this kind of page has no date field for it.</source>
+        <translation>Betg pussaivel qua: quest gener da pagina n'ha nagin champ da data per quai.</translation>
+    </message>
+    <message>
         <source>The page would be taken down before it is published.</source>
         <translation>La pagina vegniss retratga avant ch'ella vegn publitgada.</translation>
     </message>

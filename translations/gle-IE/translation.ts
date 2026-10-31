@@ -56,6 +56,10 @@
         <translation>Ní dáta agus am é seo.</translation>
     </message>
     <message>
+        <source>Not possible here: this kind of page has no date field for it.</source>
+        <translation>Ní féidir anseo: níl réimse dáta ag an gcineál seo leathanaigh chuige.</translation>
+    </message>
+    <message>
         <source>The page would be taken down before it is published.</source>
         <translation>Bhainfí an leathanach anuas sula bhfoilseofaí é.</translation>
     </message>

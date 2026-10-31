@@ -56,6 +56,10 @@
         <translation>Ini bukan tarikh dan masa.</translation>
     </message>
     <message>
+        <source>Not possible here: this kind of page has no date field for it.</source>
+        <translation>Tidak boleh di sini: jenis halaman ini tiada medan tarikh untuknya.</translation>
+    </message>
+    <message>
         <source>The page would be taken down before it is published.</source>
         <translation>Halaman akan diturunkan sebelum ia diterbitkan.</translation>
     </message>

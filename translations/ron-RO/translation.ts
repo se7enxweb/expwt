@@ -56,6 +56,10 @@
         <translation>Aceasta nu este o dată și o oră.</translation>
     </message>
     <message>
+        <source>Not possible here: this kind of page has no date field for it.</source>
+        <translation>Nu este posibil aici: acest tip de pagină nu are un câmp de dată pentru asta.</translation>
+    </message>
+    <message>
         <source>The page would be taken down before it is published.</source>
         <translation>Pagina ar fi retrasă înainte de a fi publicată.</translation>
     </message>

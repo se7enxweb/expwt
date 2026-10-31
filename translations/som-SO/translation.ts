@@ -56,6 +56,10 @@
         <translation>Tani ma aha taariikh iyo waqti.</translation>
     </message>
     <message>
+        <source>Not possible here: this kind of page has no date field for it.</source>
+        <translation>Halkan suurtagal maaha: noocan bogga ah ma laha goob taariikh oo loogu talagalay.</translation>
+    </message>
+    <message>
         <source>The page would be taken down before it is published.</source>
         <translation>Bogga waa la dejin lahaa ka hor intaan la daabicin.</translation>
     </message>

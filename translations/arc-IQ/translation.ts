@@ -56,6 +56,10 @@
         <translation>הדא לא הוא יומא ושעתא.</translation>
     </message>
     <message>
+        <source>Not possible here: this kind of page has no date field for it.</source>
+        <translation>לא משכח הרכא: זנא הנא דדפא לית לה חקלא דיומא להדא.</translation>
+    </message>
+    <message>
         <source>The page would be taken down before it is published.</source>
         <translation>דפא נתנחת מן קדם דנתפרס.</translation>
     </message>

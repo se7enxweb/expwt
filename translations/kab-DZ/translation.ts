@@ -56,6 +56,10 @@
         <translation>Wagi mačči d azemz d wakud.</translation>
     </message>
     <message>
+        <source>Not possible here: this kind of page has no date field for it.</source>
+        <translation>Ur yezmir ara da: tawsit-a n usebter ur tesεi ara urti n uzemz i waya.</translation>
+    </message>
+    <message>
         <source>The page would be taken down before it is published.</source>
         <translation>Asebter ad yettwakkes uqbel ad yettwasiẓreg.</translation>
     </message>

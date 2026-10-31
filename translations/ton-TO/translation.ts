@@ -56,6 +56,10 @@
         <translation>ʻOku ʻikai ko ha ʻaho mo ha taimi ʻeni.</translation>
     </message>
     <message>
+        <source>Not possible here: this kind of page has no date field for it.</source>
+        <translation>ʻOku ʻikai lava heni: ʻoku ʻikai ha feituʻu ʻaho ʻa e faʻahinga peesi ko ʻeni ki ai.</translation>
+    </message>
+    <message>
         <source>The page would be taken down before it is published.</source>
         <translation>ʻE toʻo ʻa e peesi ki muʻa pea toki pulusi.</translation>
     </message>

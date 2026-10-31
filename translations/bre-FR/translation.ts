@@ -56,6 +56,10 @@
         <translation>N'eo ket an dra-se un deiziad hag un eur.</translation>
     </message>
     <message>
+        <source>Not possible here: this kind of page has no date field for it.</source>
+        <translation>N'eo ket posupl amañ: n'en deus ket ar seurt pajenn-mañ maezienn deiziad evit se.</translation>
+    </message>
+    <message>
         <source>The page would be taken down before it is published.</source>
         <translation>Lamet e vefe ar bajenn a-raok bezañ embannet.</translation>
     </message>

@@ -56,6 +56,10 @@
         <translation>Nid dyddiad ac amser yw hwn.</translation>
     </message>
     <message>
+        <source>Not possible here: this kind of page has no date field for it.</source>
+        <translation>Ddim yn bosibl yma: nid oes gan y math hwn o dudalen faes dyddiad ar ei gyfer.</translation>
+    </message>
+    <message>
         <source>The page would be taken down before it is published.</source>
         <translation>Byddai'r dudalen yn cael ei thynnu i lawr cyn iddi gael ei chyhoeddi.</translation>
     </message>

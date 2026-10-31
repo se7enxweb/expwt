@@ -56,6 +56,10 @@
         <translation>Энэ огноо, цаг биш байна.</translation>
     </message>
     <message>
+        <source>Not possible here: this kind of page has no date field for it.</source>
+        <translation>Энд боломжгүй: энэ төрлийн хуудсанд үүнд зориулсан огнооны талбар байхгүй.</translation>
+    </message>
+    <message>
         <source>The page would be taken down before it is published.</source>
         <translation>Хуудас нийтлэгдэхээсээ өмнө буулгагдах болно.</translation>
     </message>

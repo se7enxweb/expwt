@@ -98,8 +98,28 @@ type; the panel's form follows, and the change is saved with the draft. Hovering
 the page.
 
 **Publish** runs the kernel's publishing, workflows included: with an approval workflow the answer is "Sent for
-approval". Publish later and take down at a date are carried out by the cronjob part `expwt_scheduled` (frequent),
-as the user who scheduled them.
+approval".
+
+**Publish at and take down at** use the kernel's own scheduling, the same as the administration's: the sidebar has no
+schedule and no cronjob of its own.
+
+- *Publish at* writes the date into the draft's date field that a "Wait until date" event lists (a workflow on
+  `content/publish` before) and publishes the draft: the event holds it until then, the workflow cronjob
+  (`workflow.php`) publishes it, and the answer is "Scheduled for ...". Every other event of that workflow applies, so
+  with an approval the draft also waits for it.
+- *Take down at* writes the date into the field that `content.ini [HideSettings] HideDateAttributeList[<class>]`
+  names, for a page below a node of `RootNodeList[]`; the hide cronjob (`hide.php`) hides the page then. Emptying the
+  input clears the date.
+- These date fields are edited here only, not again in the list of fields. A date that is still to come is shown.
+- A class without such a field shows "Not possible here: this kind of page has no date field for it." in place of the
+  input, and the server refuses a date for it. To give a class the field, see "Scheduling" in the kernel's guide
+  `doc/eng-us/features/6.0/website-sidebar.md`: a date field (Date and time, or Date for a day), the wait-until-date
+  event listing it on the publish trigger, and the `[HideSettings]` lines.
+
+**Upgrading from an earlier expwt:** it kept its own schedule (the site data rows `expwt_publish_*` and
+`expwt_unpublish_*`, the cronjob part `expwt_scheduled`). Run `./console exp:wt:migrate-from-ezwt` to see what moves
+and `--apply` to move it (the upgrade step `6.0.15-expwt-enable` does the same); an entry whose class lacks the date
+field stays, is listed, and moves on a later run once the class has it.
 
 **Two editors on one page:** the first who changes something holds a soft lock; the others see "Anna is editing this
 page since 10:42" and may take it over. If both save anyway, nothing is lost: fields only one of them changed are

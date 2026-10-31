@@ -56,6 +56,10 @@
         <translation>Lokhu akulona usuku nesikhathi.</translation>
     </message>
     <message>
+        <source>Not possible here: this kind of page has no date field for it.</source>
+        <translation>Akunakwenzeka lapha: lolu hlobo lwekhasi alunayo indawo yosuku yalokho.</translation>
+    </message>
+    <message>
         <source>The page would be taken down before it is published.</source>
         <translation>Ikhasi lingasuswa ngaphambi kokuba lishicilelwe.</translation>
     </message>

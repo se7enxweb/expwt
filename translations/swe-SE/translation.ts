@@ -56,6 +56,10 @@
         <translation>Det här är inget datum och ingen tid.</translation>
     </message>
     <message>
+        <source>Not possible here: this kind of page has no date field for it.</source>
+        <translation>Inte möjligt här: den här typen av sida har inget datumfält för det.</translation>
+    </message>
+    <message>
         <source>The page would be taken down before it is published.</source>
         <translation>Sidan skulle tas ned innan den publiceras.</translation>
     </message>

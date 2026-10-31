@@ -56,6 +56,10 @@
         <translation>Tas nav datums un laiks.</translation>
     </message>
     <message>
+        <source>Not possible here: this kind of page has no date field for it.</source>
+        <translation>Šeit nav iespējams: šāda veida lapai nav tam paredzēta datuma lauka.</translation>
+    </message>
+    <message>
         <source>The page would be taken down before it is published.</source>
         <translation>Lapa tiktu noņemta, pirms tā tiek publicēta.</translation>
     </message>

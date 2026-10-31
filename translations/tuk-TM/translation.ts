@@ -56,6 +56,10 @@
         <translation>Bu sene we wagt däl.</translation>
     </message>
     <message>
+        <source>Not possible here: this kind of page has no date field for it.</source>
+        <translation>Bu ýerde mümkin däl: bu görnüşli sahypanyň munuň üçin sene meýdany ýok.</translation>
+    </message>
+    <message>
         <source>The page would be taken down before it is published.</source>
         <translation>Sahypa neşir edilmezinden öň aýrylardy.</translation>
     </message>

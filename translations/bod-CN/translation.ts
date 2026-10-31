@@ -56,6 +56,10 @@
         <translation>འདི་ཚེས་གྲངས་དང་དུས་ཚོད་མིན།</translation>
     </message>
     <message>
+        <source>Not possible here: this kind of page has no date field for it.</source>
+        <translation>འདིར་ཐབས་མེད། ཤོག་ངོས་རིགས་འདི་ལ་དེའི་ཆེད་དུ་ཚེས་གྲངས་ཡིག་སྒམ་མེད།</translation>
+    </message>
+    <message>
         <source>The page would be taken down before it is published.</source>
         <translation>ཤོག་ངོས་འགྲེམས་སྤེལ་མ་བྱས་གོང་ལ་ཕབ་ཡོང་།</translation>
     </message>

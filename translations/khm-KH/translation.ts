@@ -56,6 +56,10 @@
         <translation>នេះមិនមែនជាកាលបរិច្ឆេទ និងម៉ោងទេ។</translation>
     </message>
     <message>
+        <source>Not possible here: this kind of page has no date field for it.</source>
+        <translation>មិនអាចធ្វើបាននៅទីនេះទេ៖ ទំព័រប្រភេទនេះគ្មានវាលកាលបរិច្ឆេទសម្រាប់វាទេ។</translation>
+    </message>
+    <message>
         <source>The page would be taken down before it is published.</source>
         <translation>ទំព័រនឹងត្រូវដកចេញមុនពេលវាត្រូវបានបោះពុម្ពផ្សាយ។</translation>
     </message>

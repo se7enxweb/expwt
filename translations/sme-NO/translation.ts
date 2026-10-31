@@ -56,6 +56,10 @@
         <translation>Dát ii leat beaivi ja áigi.</translation>
     </message>
     <message>
+        <source>Not possible here: this kind of page has no date field for it.</source>
+        <translation>Ii leat vejolaš dás: dákkár siidošlájas ii leat beaivemearkkašanguovlu dasa.</translation>
+    </message>
+    <message>
         <source>The page would be taken down before it is published.</source>
         <translation>Siidu váldojuvvošii eret ovdal go dat almmuhuvvo.</translation>
     </message>

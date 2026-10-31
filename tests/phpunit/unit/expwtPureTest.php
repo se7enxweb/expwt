@@ -317,14 +317,33 @@ class expwtPureTest extends PHPUnit\Framework\TestCase
         $this->assertSame( 1700000000, expwtSchedule::parse( '1700000000' ) );
         $this->assertNull( expwtSchedule::parse( 'tomorrow' ) );
         $this->assertSame( strtotime( '2026-11-02T09:30:00Z' ), expwtSchedule::parse( '2026-11-02T09:30:00Z' ) );
-        $p = expwtSchedule::publishEntry( 59, 4, 14, 2000, 3000 );
-        $this->assertSame( 'expwt_publish_59_4', $p['name'] );
-        $this->assertSame( 3000, $p['data']['until'] );
-        $due = expwtSchedule::due( array( 'b' => array( 'at' => 20 ), 'a' => array( 'at' => 10 ), 'c' => array( 'at' => 99 ) ), 50 );
-        $this->assertSame( array( 'a', 'b' ), array_keys( $due ), 'the earliest first, the future left' );
         $this->assertSame( array( 7 => 10, 5 => 20, 6 => 30 ), expwtSchedule::priorities( array( 7, 5, 6 ), array( 5, 6, 7 ) ) );
         $this->assertSame( array(), expwtSchedule::priorities( array( 7, 7 ), array( 7 ) ), 'twice' );
         $this->assertSame( array(), expwtSchedule::priorities( array( 9 ), array( 7 ) ), 'not a child' );
+    }
+
+    /** F21: the dates of draft.publish as the kernel's expContentSchedule::plan() takes them */
+    public function testScheduleRequest()
+    {
+        $this->assertSame( array( 'at' => null, 'until' => null, 'error' => null ), expwtSchedule::request( array() ), 'publish now, take-down left' );
+        $this->assertSame( array( 'at' => 2000, 'until' => 3000, 'error' => null ),
+                           expwtSchedule::request( array( 'publishAt' => '2000', 'unpublishAt' => '3000' ) ) );
+        $this->assertSame( array( 'at' => null, 'until' => 0, 'error' => null ),
+                           expwtSchedule::request( array( 'publishAt' => '', 'unpublishAt' => '' ) ), 'empty take-down: cleared' );
+        $this->assertSame( 'bad_value', expwtSchedule::request( array( 'publishAt' => 'tomorrow' ) )['error'] );
+        $this->assertSame( 'bad_value', expwtSchedule::request( array( 'unpublishAt' => 'never' ) )['error'] );
+    }
+
+    /** F21: what the Page panel shows for publish at and take down at */
+    public function testScheduleView()
+    {
+        $can = array( 'publish' => array( 'identifier' => 'publish_date', 'datatype' => 'ezdatetime', 'precision' => 'datetime' ),
+                      'takeDown' => null );
+        $view = expwtSchedule::view( $can, 5000, 0, 1000 );
+        $this->assertSame( array( 'identifier' => 'publish_date', 'precision' => 'datetime', 'value' => 5000 ), $view['publish'] );
+        $this->assertNull( $view['takeDown'], 'no field: the panel says why' );
+        $this->assertNull( expwtSchedule::view( $can, 500, 0, 1000 )['publish']['value'], 'a date passed is not offered again' );
+        $this->assertSame( array( 'publish' => null, 'takeDown' => null ), expwtSchedule::view( array(), 0, 0, 1000 ) );
     }
 
     // ------------------------------------------------------------------------------------------------ the hook

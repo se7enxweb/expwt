@@ -56,6 +56,10 @@
         <translation>Hetta er ikki ein dagfesting og tíð.</translation>
     </message>
     <message>
+        <source>Not possible here: this kind of page has no date field for it.</source>
+        <translation>Ikki møguligt her: hetta slag av síðu hevur einki dagfestingarteig til tað.</translation>
+    </message>
+    <message>
         <source>The page would be taken down before it is published.</source>
         <translation>Síðan hevði verið tikin niður, áðrenn hon verður útgivin.</translation>
     </message>

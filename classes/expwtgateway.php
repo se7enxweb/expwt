@@ -166,6 +166,13 @@ class expwtGateway
         $version = $draft ?: $object->version( $published );
         $id = (int)$object->attribute( 'id' );
         $fields = $version instanceof eZContentObjectVersion ? $this->fieldsOf( $version, $language ) : array();
+        // the date fields of the schedule are edited as "Publish at" and "Take down at", not twice
+        $schedule = self::scheduleView( $object, $version );
+        $scheduled = array();
+        foreach ( $schedule as $field )
+            if ( $field )
+                $scheduled[] = $field['identifier'];
+        $fields = array_values( array_filter( $fields, function ( $f ) use ( $scheduled ) { return !in_array( $f['identifier'], $scheduled, true ); } ) );
         $lock = expwtLock::heldByOther( expwtLock::load( $id ), $this->userId(), time() );
         $versionNumber = $version instanceof eZContentObjectVersion ? (int)$version->attribute( 'version' ) : $published;
         return array(
@@ -179,6 +186,7 @@ class expwtGateway
             'draft' => $draft ? array( 'version' => (int)$draft->attribute( 'version' ), 'modified' => (int)$draft->attribute( 'modified' ) ) : null,
             'hidden' => $node ? (bool)$node->attribute( 'is_hidden' ) : false,
             'fields' => $fields,
+            'schedule' => $schedule,
             'can' => array(
                 'edit' => (bool)$object->canEdit( false, false, false, $language ),
                 'create' => $node ? (bool)$node->canCreate() : false,
@@ -292,8 +300,10 @@ class expwtGateway
     }
 
     /**
-     * Publishes the user's draft now, or at publishAt (the cronjob expwt_scheduled), and hides the page at
-     * unpublishAt. A workflow (an approval) may hold the publish: PENDING.
+     * Publishes the user's draft now, or at publishAt, and takes the page down at unpublishAt, through the kernel's
+     * mechanism (F21, expContentSchedule): the dates go into the draft's date fields and the draft is published
+     * through content/publish, where the wait-until-date event holds it until publishAt (SCHEDULED) and the hide
+     * cronjob takes it down at unpublishAt. A workflow (an approval) may hold the publish: PENDING.
      */
     public function publish( array $in )
     {
@@ -307,26 +317,53 @@ class expwtGateway
             throw new expwtApiError( 400, 'required', 'Fill in the required fields first.', array( 'fields' => $missing ) );
         $id = (int)$object->attribute( 'id' );
         $now = time();
-        $at = isset( $in['publishAt'] ) ? expwtSchedule::parse( $in['publishAt'] ) : null;
-        $until = isset( $in['unpublishAt'] ) ? expwtSchedule::parse( $in['unpublishAt'] ) : null;
-        if ( ( isset( $in['publishAt'] ) && $at === null ) || ( isset( $in['unpublishAt'] ) && $until === null ) )
+        $dates = expwtSchedule::request( $in );
+        if ( $dates['error'] !== null )
             throw new expwtApiError( 400, 'bad_value', 'This is not a date and time.' );
-        if ( $until !== null && $until <= max( $now, (int)$at ) )
-            throw new expwtApiError( 400, 'bad_value', 'The page would be taken down before it is published.' );
         if ( !$object->canEdit( false, false, false, $language ) )
             throw new expwtApiError( 403, 'forbidden', 'You may not do this.' );
-        if ( $at !== null && $at > $now )
+        if ( class_exists( 'expContentSchedule' ) )
         {
-            expwtSchedule::store( expwtSchedule::publishEntry( $id, (int)$draft->attribute( 'version' ), $this->userId(), $at, $until ) );
-            return array( 'status' => 'SCHEDULED', 'publishAt' => $at, 'unpublishAt' => $until );
+            $can = expContentSchedule::forObject( $object );
+            $current = $can['publish'] ? expContentSchedule::dateOf( $draft, $can['publish']['identifier'] ) : 0;
+            $plan = expContentSchedule::plan( $can['publish'], $can['takeDown'], $dates['at'], $dates['until'], $now, $current );
         }
+        else
+        {
+            // a kernel without the shared mechanism: publish now only
+            $later = ( $dates['at'] !== null && $dates['at'] > $now ) || $dates['until'];
+            $plan = array( 'writes' => array(), 'deferred' => false, 'error' => $later ? 'no_publish_date' : null );
+        }
+        if ( $plan['error'] === 'no_publish_date' || $plan['error'] === 'no_take_down_date' )
+            throw new expwtApiError( 400, 'not_schedulable', 'Not possible here: this kind of page has no date field for it.' );
+        if ( $plan['error'] !== null )
+            throw new expwtApiError( 400, 'bad_value', 'The page would be taken down before it is published.' );
+        if ( $plan['writes'] )
+            expContentSchedule::setDates( $draft, $plan['writes'] );
         $result = $this->writer()->publishDraft( $id, (int)$draft->attribute( 'version' ) );
-        if ( $until !== null && !empty( $result['nodeId'] ) )
-            expwtSchedule::store( expwtSchedule::unpublishEntry( (int)$result['nodeId'], $this->userId(), $until ) );
         expwtLock::release( $id, $this->userId() );
+        $until = $dates['until'] ? $dates['until'] : null;
+        if ( $plan['deferred'] && (string)$result['status'] === 'PENDING' )
+            return array( 'status' => 'SCHEDULED', 'publishAt' => $dates['at'], 'unpublishAt' => $until );
         $node = !empty( $result['nodeId'] ) ? eZContentObjectTreeNode::fetch( (int)$result['nodeId'] ) : null;
         return array( 'status' => (string)$result['status'], 'nodeId' => $result['nodeId'], 'unpublishAt' => $until,
                       'url' => $node instanceof eZContentObjectTreeNode ? self::url( '/' . ltrim( (string)$node->attribute( 'url_alias' ), '/' ) ) : null );
+    }
+
+    /**
+     * The Page panel's "Publish at" and "Take down at" (expwtSchedule::view()): the date fields of the version's class
+     * the kernel's mechanism reads, with the dates the version carries; neither on a kernel without the mechanism.
+     *
+     * @return array publish, takeDown
+     */
+    protected static function scheduleView( eZContentObject $object, $version )
+    {
+        if ( !class_exists( 'expContentSchedule' ) || !$version instanceof eZContentObjectVersion )
+            return array( 'publish' => null, 'takeDown' => null );
+        $can = expContentSchedule::forObject( $object );
+        $publish = $can['publish'] ? expContentSchedule::dateOf( $version, $can['publish']['identifier'] ) : 0;
+        $takeDown = $can['takeDown'] ? expContentSchedule::dateOf( $version, $can['takeDown']['identifier'] ) : 0;
+        return expwtSchedule::view( $can, $publish, $takeDown, time() );
     }
 
     /** Throws the user's draft away; a new object that was never published goes with it. */

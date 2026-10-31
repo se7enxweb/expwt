@@ -56,6 +56,10 @@
         <translation>日時ではありません。</translation>
     </message>
     <message>
+        <source>Not possible here: this kind of page has no date field for it.</source>
+        <translation>ここではできません：この種類のページにはそのための日付フィールドがありません。</translation>
+    </message>
+    <message>
         <source>The page would be taken down before it is published.</source>
         <translation>ページは公開される前に公開終了になります。</translation>
     </message>

@@ -56,6 +56,10 @@
         <translation>Hoc non est dies et hora.</translation>
     </message>
     <message>
+        <source>Not possible here: this kind of page has no date field for it.</source>
+        <translation>Hic fieri non potest: hoc genus paginae nullum campum diei ad hoc habet.</translation>
+    </message>
+    <message>
         <source>The page would be taken down before it is published.</source>
         <translation>Pagina ante removeretur quam publicaretur.</translation>
     </message>

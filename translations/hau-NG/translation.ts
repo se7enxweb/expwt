@@ -56,6 +56,10 @@
         <translation>Wannan ba kwanan wata da lokaci ba ne.</translation>
     </message>
     <message>
+        <source>Not possible here: this kind of page has no date field for it.</source>
+        <translation>Ba zai yiwu a nan ba: irin wannan shafi ba shi da filin kwanan wata don wannan.</translation>
+    </message>
+    <message>
         <source>The page would be taken down before it is published.</source>
         <translation>Za a sauke shafin kafin a wallafa shi.</translation>
     </message>

@@ -56,6 +56,10 @@
         <translation>ນີ້ບໍ່ແມ່ນວັນທີ ແລະ ເວລາ.</translation>
     </message>
     <message>
+        <source>Not possible here: this kind of page has no date field for it.</source>
+        <translation>ບໍ່ສາມາດເຮັດໄດ້ຢູ່ນີ້: ໜ້າປະເພດນີ້ບໍ່ມີຊ່ອງວັນທີສຳລັບສິ່ງນີ້.</translation>
+    </message>
+    <message>
         <source>The page would be taken down before it is published.</source>
         <translation>ໜ້ານີ້ຈະຖືກເອົາລົງກ່ອນທີ່ຈະເຜີຍແຜ່.</translation>
     </message>

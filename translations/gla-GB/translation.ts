@@ -56,6 +56,10 @@
         <translation>Chan e ceann-latha is àm a tha seo.</translation>
     </message>
     <message>
+        <source>Not possible here: this kind of page has no date field for it.</source>
+        <translation>Chan eil seo comasach an-seo: chan eil raon cinn-latha aig an seòrsa duilleig seo air a shon.</translation>
+    </message>
+    <message>
         <source>The page would be taken down before it is published.</source>
         <translation>Bhiodh an duilleag ga toirt sìos mus deach a foillseachadh.</translation>
     </message>

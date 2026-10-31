@@ -56,6 +56,10 @@
         <translation>Bu tarix və vaxt deyil.</translation>
     </message>
     <message>
+        <source>Not possible here: this kind of page has no date field for it.</source>
+        <translation>Burada mümkün deyil: bu növ səhifənin bunun üçün tarix sahəsi yoxdur.</translation>
+    </message>
+    <message>
         <source>The page would be taken down before it is published.</source>
         <translation>Səhifə dərc olunmadan əvvəl yayımdan çıxarılardı.</translation>
     </message>

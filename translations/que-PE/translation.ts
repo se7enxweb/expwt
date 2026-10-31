@@ -56,6 +56,10 @@
         <translation>Kayqa manam p'unchaw, pachachu.</translation>
     </message>
     <message>
+        <source>Not possible here: this kind of page has no date field for it.</source>
+        <translation>Kaypiqa mana atikunchu: kay laya p'anqaqa mana p'unchaw kitiyuqchu chaypaq.</translation>
+    </message>
+    <message>
         <source>The page would be taken down before it is published.</source>
         <translation>P'anqaqa manaraq rakinasqa kachkaspa qichusqa kanman.</translation>
     </message>

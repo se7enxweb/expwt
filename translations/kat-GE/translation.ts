@@ -56,6 +56,10 @@
         <translation>ეს არ არის თარიღი და დრო.</translation>
     </message>
     <message>
+        <source>Not possible here: this kind of page has no date field for it.</source>
+        <translation>აქ შეუძლებელია: ამ ტიპის გვერდს ამისთვის თარიღის ველი არ აქვს.</translation>
+    </message>
+    <message>
         <source>The page would be taken down before it is published.</source>
         <translation>გვერდი გამოქვეყნებამდე მოიხსნებოდა.</translation>
     </message>

@@ -56,6 +56,10 @@
         <translation>ХӀара терахь а, хан а яц.</translation>
     </message>
     <message>
+        <source>Not possible here: this kind of page has no date field for it.</source>
+        <translation>Кхузахь йиш яц: оцу тайпанан агӀонан цунна терахьан меттиг яц.</translation>
+    </message>
+    <message>
         <source>The page would be taken down before it is published.</source>
         <translation>АгӀо арахеца хьалха дӀайоккхур яра.</translation>
     </message>

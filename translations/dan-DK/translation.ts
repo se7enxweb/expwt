@@ -56,6 +56,10 @@
         <translation>Dette er ikke en dato og et klokkeslæt.</translation>
     </message>
     <message>
+        <source>Not possible here: this kind of page has no date field for it.</source>
+        <translation>Ikke muligt her: denne slags side har intet datofelt til det.</translation>
+    </message>
+    <message>
         <source>The page would be taken down before it is published.</source>
         <translation>Siden ville blive taget ned, før den bliver udgivet.</translation>
     </message>

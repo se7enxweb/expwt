@@ -56,6 +56,10 @@
         <translation>Hindi ito petsa at oras.</translation>
     </message>
     <message>
+        <source>Not possible here: this kind of page has no date field for it.</source>
+        <translation>Hindi posible rito: walang date field para rito ang ganitong uri ng pahina.</translation>
+    </message>
+    <message>
         <source>The page would be taken down before it is published.</source>
         <translation>Aalisin ang pahina bago pa ito ma-publish.</translation>
     </message>

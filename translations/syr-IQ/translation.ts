@@ -56,6 +56,10 @@
         <translation>ܗܢܐ ܠܐ ܗܘܐ ܣܝܩܘܡܐ ܘܥܕܢܐ.</translation>
     </message>
     <message>
+        <source>Not possible here: this kind of page has no date field for it.</source>
+        <translation>ܠܐ ܡܫܟܚܐ ܗܪܟܐ: ܗܢܐ ܓܢܣܐ ܕܦܐܬܐ ܠܝܬ ܠܗ ܚܩܠܐ ܕܣܝܩܘܡܐ ܠܗܕܐ.</translation>
+    </message>
+    <message>
         <source>The page would be taken down before it is published.</source>
         <translation>ܦܐܬܐ ܗܘܬ ܡܫܬܩܠܐ ܩܕܡ ܕܬܬܦܪܣ.</translation>
     </message>

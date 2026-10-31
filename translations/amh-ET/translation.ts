@@ -56,6 +56,10 @@
         <translation>ይህ ቀን እና ሰዓት አይደለም።</translation>
     </message>
     <message>
+        <source>Not possible here: this kind of page has no date field for it.</source>
+        <translation>እዚህ አይቻልም፦ ይህ ዓይነት ገጽ ለዚህ የቀን መስክ የለውም።</translation>
+    </message>
+    <message>
         <source>The page would be taken down before it is published.</source>
         <translation>ገጹ ከመታተሙ በፊት ይወርዳል።</translation>
     </message>

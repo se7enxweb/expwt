@@ -56,6 +56,10 @@
         <translation>To njeje datum z časom.</translation>
     </message>
     <message>
+        <source>Not possible here: this kind of page has no date field for it.</source>
+        <translation>Tu móžno njeje: tutón družina strony za to žane datowe polo nima.</translation>
+    </message>
+    <message>
         <source>The page would be taken down before it is published.</source>
         <translation>Strona by so wotstroniła, prjedy hač so wozjewi.</translation>
     </message>

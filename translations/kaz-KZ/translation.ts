@@ -56,6 +56,10 @@
         <translation>Бұл күн мен уақыт емес.</translation>
     </message>
     <message>
+        <source>Not possible here: this kind of page has no date field for it.</source>
+        <translation>Мұнда мүмкін емес: бұл түрдегі беттің бұл үшін күн өрісі жоқ.</translation>
+    </message>
+    <message>
         <source>The page would be taken down before it is published.</source>
         <translation>Бет жарияланбай тұрып алынып тасталар еді.</translation>
     </message>

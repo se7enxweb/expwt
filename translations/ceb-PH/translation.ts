@@ -56,6 +56,10 @@
         <translation>Dili kini petsa ug oras.</translation>
     </message>
     <message>
+        <source>Not possible here: this kind of page has no date field for it.</source>
+        <translation>Dili posible dinhi: kini nga matang sa panid walay date field alang niini.</translation>
+    </message>
+    <message>
         <source>The page would be taken down before it is published.</source>
         <translation>Makuha ang panid sa dili pa kini mapatik.</translation>
     </message>

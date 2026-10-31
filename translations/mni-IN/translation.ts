@@ -56,6 +56,10 @@
         <translation>মসি তারিখ অমসুং মতম নত্তে।</translation>
     </message>
     <message>
+        <source>Not possible here: this kind of page has no date field for it.</source>
+        <translation>মফম অসিদা ঙম্দে: অসিগুম্বা লমায়গী মখোয়গীদমক তারিখকী ফিল্ড অমত্তা লৈতে।</translation>
+    </message>
+    <message>
         <source>The page would be taken down before it is published.</source>
         <translation>পেজ অসি প্রকাশ তৌদ্রিঙৈদা থোক্কনগনি।</translation>
     </message>

@@ -171,12 +171,22 @@
     var conflictBox = h('div', {});
     root.appendChild(conflictBox);
 
-    var publishAt = h('input', { type: 'datetime-local', id: 'wt-publish-at' });
-    var unpublishAt = h('input', { type: 'datetime-local', id: 'wt-unpublish-at' });
-    var schedule = h('details', { class: 'wt-section wt-schedule' }, [
-      h('summary', { text: t('Publish later or take down at a date') }),
-      h('label', { class: 'wt-field', for: 'wt-publish-at' }, [h('span', { text: t('Publish at') }), publishAt]),
-      h('label', { class: 'wt-field', for: 'wt-unpublish-at' }, [h('span', { text: t('Take down at') }), unpublishAt])
+    /* Publish at and take down at write the class's date fields that the kernel's wait-until-date workflow and hide
+       cronjob read (F21). A class without such a field shows why in place of the input. */
+    var sched = p.schedule || { publish: null, takeDown: null };
+    function dateField(id, label, field) {
+      if (!field) {
+        return { input: null, kind: null, row: h('div', { class: 'wt-field', role: 'group', 'aria-label': label }, [
+          h('span', { text: label }), h('p', { class: 'wt-muted', text: t('Not possible here: this kind of page has no date field for it.') })]) };
+      }
+      var kind = field.precision === 'date' ? 'date' : 'datetime';
+      var input = h('input', { type: kind === 'date' ? 'date' : 'datetime-local', id: id, value: toInput(kind, field.value) });
+      return { input: input, kind: kind, row: h('label', { class: 'wt-field', for: id }, [h('span', { text: label }), input]) };
+    }
+    var publishAt = dateField('wt-publish-at', t('Publish at'), sched.publish);
+    var unpublishAt = dateField('wt-unpublish-at', t('Take down at'), sched.takeDown);
+    var schedule = h('details', { class: 'wt-section wt-schedule', open: publishAt.input && publishAt.input.value || unpublishAt.input && unpublishAt.input.value ? '' : null }, [
+      h('summary', { text: t('Publish later or take down at a date') }), publishAt.row, unpublishAt.row
     ]);
     var othersNote = others.length ? h('p', { class: 'wt-muted', text: t('In the full editor: %fields').replace('%fields', others.join(', ')) }) : null;
     /* On top and bottom: the fields that fit the bar in the grid, the rest, the date to publish and the fields of the
@@ -488,10 +498,10 @@
           return null;
         }
         var input = { objectId: p.objectId, version: v };
-        var at = fromInput('datetime', publishAt.value);
-        var until = fromInput('datetime', unpublishAt.value);
+        var at = publishAt.input ? fromInput(publishAt.kind, publishAt.input.value) : '';
         if (at) { input.publishAt = at; }
-        if (until) { input.unpublishAt = until; }
+        /* empty clears a take-down date the draft carries */
+        if (unpublishAt.input) { input.unpublishAt = fromInput(unpublishAt.kind, unpublishAt.input.value); }
         ctx.say(t('Publishing ...'));
         return ctx.call('draft.publish', input).then(function (r) {
           if (r.status === 'PUBLISHED') {

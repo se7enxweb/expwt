@@ -56,6 +56,10 @@
         <translation>Hau ez da data eta ordu bat.</translation>
     </message>
     <message>
+        <source>Not possible here: this kind of page has no date field for it.</source>
+        <translation>Ezin da hemen: orri mota honek ez du horretarako data-eremurik.</translation>
+    </message>
+    <message>
         <source>The page would be taken down before it is published.</source>
         <translation>Orria argitaratu aurretik kenduko litzateke.</translation>
     </message>

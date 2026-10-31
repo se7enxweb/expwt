@@ -1,11 +1,17 @@
 <?php
 /**
- * Publishing later and taking a page down at a date (decision 13): an entry in the site data table per draft to
- * publish (expwt_publish_<object>_<version>) and per page to hide (expwt_unpublish_<node>), carried out by the
- * cronjob part expwt_scheduled (cronjobs/expwt_scheduled.php, every few minutes in the frequent part) as the user
- * who scheduled it, through the same kernel operations as "Publish now" (workflows included) and content/hide.
+ * Publishing later and taking a page down at a date (decisions 13 and F21) through the kernel's own mechanism
+ * (expContentSchedule): the dates go into the draft's date fields, a "Wait until date" event of the content/publish
+ * workflow holds the draft until its date (approvals apply) and the hide cronjob takes the page down. The same
+ * fields the administration edits; the sidebar keeps no schedule of its own and has no cronjob.
  *
- * parse(), due() and priorities() are pure.
+ * A class without the date fields the kernel reads cannot be scheduled: the sidebar shows why in place of the input
+ * (view()), and refuses a date for it (expwtGateway::publish()).
+ *
+ * The schedule of earlier versions (site data rows expwt_publish_* and expwt_unpublish_*, the cronjob
+ * expwt_scheduled) is moved to the kernel's mechanism by exp:wt:migrate-from-ezwt.
+ *
+ * Everything here is pure.
  *
  * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @license GNU General Public License v2.0 (or any later version)
@@ -14,9 +20,6 @@
 
 class expwtSchedule
 {
-    const PUBLISH_PREFIX = 'expwt_publish_';
-    const UNPUBLISH_PREFIX = 'expwt_unpublish_';
-
     /**
      * @param string $value an ISO 8601 date and time (2026-11-02T09:30, with or without seconds and zone) or a Unix time
      * @return int|null
@@ -34,34 +37,58 @@ class expwtSchedule
         return $time === false ? null : $time;
     }
 
-    /** @return array name, data */
-    public static function publishEntry( $objectId, $version, $userId, $at, $until = null )
+    /**
+     * The dates of draft.publish as expContentSchedule::plan() takes them.
+     *
+     *   publishAt     absent or empty: publish now; else the time to publish at
+     *   unpublishAt   absent: the take-down date stays as the draft has it; empty: cleared; else the time
+     *
+     * @param array $in
+     * @return array at (int|null), until (int|null, 0: clear), error (null or bad_value)
+     */
+    public static function request( array $in )
     {
-        return array( 'name' => self::PUBLISH_PREFIX . (int)$objectId . '_' . (int)$version,
-                      'data' => array( 'type' => 'publish', 'object' => (int)$objectId, 'version' => (int)$version, 'user' => (int)$userId,
-                                       'at' => (int)$at, 'until' => $until !== null ? (int)$until : null ) );
-    }
-
-    /** @return array name, data */
-    public static function unpublishEntry( $nodeId, $userId, $at )
-    {
-        return array( 'name' => self::UNPUBLISH_PREFIX . (int)$nodeId,
-                      'data' => array( 'type' => 'unpublish', 'node' => (int)$nodeId, 'user' => (int)$userId, 'at' => (int)$at ) );
+        $out = array( 'at' => null, 'until' => null, 'error' => null );
+        if ( isset( $in['publishAt'] ) && trim( (string)$in['publishAt'] ) !== '' )
+        {
+            $out['at'] = self::parse( $in['publishAt'] );
+            if ( $out['at'] === null )
+                $out['error'] = 'bad_value';
+        }
+        if ( array_key_exists( 'unpublishAt', $in ) )
+        {
+            if ( $in['unpublishAt'] === null || trim( (string)$in['unpublishAt'] ) === '' )
+                $out['until'] = 0;
+            else
+            {
+                $out['until'] = self::parse( $in['unpublishAt'] );
+                if ( $out['until'] === null )
+                    $out['error'] = 'bad_value';
+            }
+        }
+        return $out;
     }
 
     /**
-     * @param array $entries name => data
+     * What the Page panel shows: for each of publish and takeDown either the field (identifier, precision, value: the
+     * date the draft carries, only when it is still to come) or null (the class has no such field, the panel says so).
+     *
+     * @param array $can expContentSchedule::forObject(): publish, takeDown
+     * @param int $publishValue the publish date the version carries (0: none)
+     * @param int $takeDownValue the take-down date the version carries (0: none)
      * @param int $now
-     * @return array the entries due, the earliest first
+     * @return array publish, takeDown
      */
-    public static function due( array $entries, $now )
+    public static function view( array $can, $publishValue, $takeDownValue, $now )
     {
-        $due = array();
-        foreach ( $entries as $name => $data )
-            if ( is_array( $data ) && isset( $data['at'] ) && (int)$data['at'] <= $now )
-                $due[$name] = $data;
-        uasort( $due, function ( $a, $b ) { return (int)$a['at'] - (int)$b['at']; } );
-        return $due;
+        $out = array();
+        foreach ( array( 'publish' => (int)$publishValue, 'takeDown' => (int)$takeDownValue ) as $key => $value )
+        {
+            $field = isset( $can[$key] ) ? $can[$key] : null;
+            $out[$key] = $field ? array( 'identifier' => (string)$field['identifier'], 'precision' => (string)$field['precision'],
+                                         'value' => $value > $now ? $value : null ) : null;
+        }
+        return $out;
     }
 
     /**
@@ -78,81 +105,5 @@ class expwtSchedule
         foreach ( array_values( $order ) as $i => $nodeId )
             $out[(int)$nodeId] = ( $i + 1 ) * 10;
         return $out;
-    }
-
-    public static function store( array $entry )
-    {
-        $row = eZSiteData::fetchByName( $entry['name'] );
-        if ( !$row instanceof eZSiteData )
-            $row = eZSiteData::create( $entry['name'], '' );
-        $row->setAttribute( 'value', json_encode( $entry['data'] ) );
-        $row->store();
-    }
-
-    /** @return array name => data, every entry of the sidebar's schedule */
-    public static function entries()
-    {
-        $out = array();
-        foreach ( array( self::PUBLISH_PREFIX, self::UNPUBLISH_PREFIX ) as $prefix )
-        {
-            foreach ( (array)eZSiteData::fetchList( $prefix . '*', 0, 1000 ) as $row )
-            {
-                $data = json_decode( (string)$row->attribute( 'value' ), true );
-                if ( is_array( $data ) )
-                    $out[(string)$row->attribute( 'name' )] = $data;
-            }
-        }
-        return $out;
-    }
-
-    /**
-     * Carries out what is due (the cronjob). Each entry runs as the user who scheduled it, so their rights apply at
-     * the time it runs; an entry that fails is logged and removed, never retried for ever.
-     *
-     * @param int $now
-     * @param callable|null $say function( string ) for the cronjob's output
-     * @return int entries carried out
-     */
-    public static function run( $now, $say = null )
-    {
-        $done = 0;
-        $before = eZUser::currentUserID();
-        foreach ( self::due( self::entries(), $now ) as $name => $data )
-        {
-            $user = eZUser::fetch( (int)$data['user'] );
-            $row = eZSiteData::fetchByName( $name );
-            if ( $row instanceof eZSiteData )
-                $row->remove();
-            if ( !$user instanceof eZUser )
-                continue;
-            eZUser::setCurrentlyLoggedInUser( $user, (int)$data['user'], eZUser::NO_SESSION_REGENERATE );
-            try
-            {
-                if ( $data['type'] === 'publish' )
-                {
-                    $r = expwtWriter::forCurrentUser()->publishDraft( (int)$data['object'], (int)$data['version'] );
-                    if ( !empty( $data['until'] ) && !empty( $r['nodeId'] ) )
-                        self::store( self::unpublishEntry( (int)$r['nodeId'], (int)$data['user'], (int)$data['until'] ) );
-                    $line = "published object {$data['object']} version {$data['version']}: {$r['status']}";
-                }
-                else
-                {
-                    $r = expwtWriter::forCurrentUser()->visibility( (int)$data['node'], true );
-                    $line = "hid node {$data['node']}: {$r['status']}";
-                }
-                $done++;
-            }
-            catch ( Exception $e )
-            {
-                $line = "FAILED $name: " . $e->getMessage();
-                eZDebug::writeError( $line, __METHOD__ );
-            }
-            if ( $say )
-                call_user_func( $say, $line );
-        }
-        $back = eZUser::fetch( $before );
-        if ( $back instanceof eZUser )
-            eZUser::setCurrentlyLoggedInUser( $back, $before, eZUser::NO_SESSION_REGENERATE );
-        return $done;
     }
 }

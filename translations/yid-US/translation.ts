@@ -56,6 +56,10 @@
         <translation>דאָס איז נישט קיין דאַטע און צײַט.</translation>
     </message>
     <message>
+        <source>Not possible here: this kind of page has no date field for it.</source>
+        <translation>ניט מעגלעך דאָ: אַזאַ מין בלאַט האָט ניט קיין דאַטע־פֿעלד דערפֿאַר.</translation>
+    </message>
+    <message>
         <source>The page would be taken down before it is published.</source>
         <translation>די זײַט וואָלט אַראָפּגענומען געוואָרן איידער זי ווערט פֿאַרעפֿנטלעכט.</translation>
     </message>

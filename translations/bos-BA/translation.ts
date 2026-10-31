@@ -56,6 +56,10 @@
         <translation>Ovo nije datum i vrijeme.</translation>
     </message>
     <message>
+        <source>Not possible here: this kind of page has no date field for it.</source>
+        <translation>Ovdje nije moguće: ova vrsta stranice nema polje za datum za to.</translation>
+    </message>
+    <message>
         <source>The page would be taken down before it is published.</source>
         <translation>Stranica bi bila skinuta prije nego što bude objavljena.</translation>
     </message>

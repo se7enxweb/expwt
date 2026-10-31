@@ -56,6 +56,10 @@
         <translation>Nin tɛ don ni waati ye.</translation>
     </message>
     <message>
+        <source>Not possible here: this kind of page has no date field for it.</source>
+        <translation>A tɛ se ka kɛ yan: sɛbɛnna suguya nin tɛ ni don yɔrɔ ye a kama.</translation>
+    </message>
+    <message>
         <source>The page would be taken down before it is published.</source>
         <translation>Ɲɛ tun bɛna bɔ yen sani a ka bila kɛnɛ kan.</translation>
     </message>

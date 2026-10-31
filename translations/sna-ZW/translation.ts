@@ -56,6 +56,10 @@
         <translation>Iri harisi zuva nenguva.</translation>
     </message>
     <message>
+        <source>Not possible here: this kind of page has no date field for it.</source>
+        <translation>Hazvigoneki pano: rudzi urwu rwepeji harune nzvimbo yezuva yazvo.</translation>
+    </message>
+    <message>
         <source>The page would be taken down before it is published.</source>
         <translation>Peji raizobviswa risati raburitswa.</translation>
     </message>

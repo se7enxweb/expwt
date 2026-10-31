@@ -56,6 +56,10 @@
         <translation>ئەمە بەروار و کات نییە.</translation>
     </message>
     <message>
+        <source>Not possible here: this kind of page has no date field for it.</source>
+        <translation>لێرە ناکرێت: ئەم جۆرە پەڕەیە خانەی بەرواری بۆ ئەمە نییە.</translation>
+    </message>
+    <message>
         <source>The page would be taken down before it is published.</source>
         <translation>پەڕەکە پێش بڵاوکردنەوەی لادەبرێت.</translation>
     </message>

@@ -56,6 +56,10 @@
         <translation>Tämä ei ole päivämäärä ja kellonaika.</translation>
     </message>
     <message>
+        <source>Not possible here: this kind of page has no date field for it.</source>
+        <translation>Ei mahdollista tässä: tämänlaisella sivulla ei ole päivämääräkenttää sitä varten.</translation>
+    </message>
+    <message>
         <source>The page would be taken down before it is published.</source>
         <translation>Sivu poistettaisiin näkyvistä ennen kuin se julkaistaan.</translation>
     </message>

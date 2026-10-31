@@ -56,6 +56,10 @@
         <translation>இது தேதியும் நேரமும் அல்ல.</translation>
     </message>
     <message>
+        <source>Not possible here: this kind of page has no date field for it.</source>
+        <translation>இங்கே இயலாது: இந்த வகைப் பக்கத்தில் இதற்கான தேதிப் புலம் இல்லை.</translation>
+    </message>
+    <message>
         <source>The page would be taken down before it is published.</source>
         <translation>பக்கம் வெளியிடப்படும் முன்பே அகற்றப்பட்டுவிடும்.</translation>
     </message>

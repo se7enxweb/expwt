@@ -56,6 +56,10 @@
         <translation>بۇ چېسلا ۋە ۋاقىت ئەمەس.</translation>
     </message>
     <message>
+        <source>Not possible here: this kind of page has no date field for it.</source>
+        <translation>بۇ يەردە مۇمكىن ئەمەس: بۇ خىل بەتنىڭ بۇنىڭ ئۈچۈن چېسلا بۆلىكى يوق.</translation>
+    </message>
+    <message>
         <source>The page would be taken down before it is published.</source>
         <translation>بەت ئېلان قىلىنىشتىن بۇرۇن چۈشۈرۈۋېتىلىدۇ.</translation>
     </message>

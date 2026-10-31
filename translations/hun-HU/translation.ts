@@ -56,6 +56,10 @@
         <translation>Ez nem dátum és időpont.</translation>
     </message>
     <message>
+        <source>Not possible here: this kind of page has no date field for it.</source>
+        <translation>Itt nem lehetséges: az ilyen oldalnak nincs ehhez dátummezője.</translation>
+    </message>
+    <message>
         <source>The page would be taken down before it is published.</source>
         <translation>Az oldal a közzététel előtt lekerülne.</translation>
     </message>

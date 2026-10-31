@@ -56,6 +56,10 @@
         <translation>Din mhix data u ħin.</translation>
     </message>
     <message>
+        <source>Not possible here: this kind of page has no date field for it.</source>
+        <translation>Mhux possibbli hawn: dan it-tip ta' paġna m'għandux qasam tad-data għal dan.</translation>
+    </message>
+    <message>
         <source>The page would be taken down before it is published.</source>
         <translation>Il-paġna titneħħa qabel ma tiġi ppubblikata.</translation>
     </message>

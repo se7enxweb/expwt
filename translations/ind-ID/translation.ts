@@ -56,6 +56,10 @@
         <translation>Ini bukan tanggal dan waktu.</translation>
     </message>
     <message>
+        <source>Not possible here: this kind of page has no date field for it.</source>
+        <translation>Tidak mungkin di sini: jenis halaman ini tidak memiliki kolom tanggal untuk itu.</translation>
+    </message>
+    <message>
         <source>The page would be taken down before it is published.</source>
         <translation>Halaman akan diturunkan sebelum diterbitkan.</translation>
     </message>

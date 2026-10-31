@@ -56,6 +56,10 @@
         <translation>ᱱᱚᱣᱟ ᱫᱚ ᱛᱟᱨᱤᱠ ᱟᱨ ᱚᱠᱛᱚ ᱫᱚ ᱵᱟᱝ ᱠᱟᱱᱟ᱾</translation>
     </message>
     <message>
+        <source>Not possible here: this kind of page has no date field for it.</source>
+        <translation>ᱱᱚᱸᱰᱮ ᱵᱟᱝ ᱦᱩᱭ ᱫᱟᱲᱮᱭᱟᱜᱼᱟ: ᱱᱚᱶᱟ ᱞᱮᱠᱟᱱ ᱥᱟᱦᱴᱟ ᱨᱮ ᱱᱚᱶᱟ ᱞᱟᱹᱜᱤᱫ ᱢᱤᱫᱴᱟᱹᱝ ᱦᱚᱸ ᱢᱟᱦᱟᱸ ᱯᱷᱤᱞᱰ ᱵᱟᱹᱱᱩᱜᱼᱟ᱾</translation>
+    </message>
+    <message>
         <source>The page would be taken down before it is published.</source>
         <translation>ᱥᱟᱦᱴᱟ ᱯᱟᱵᱞᱤᱥ ᱞᱟᱦᱟ ᱨᱮ ᱜᱮ ᱚᱪᱚᱜ ᱦᱩᱭᱩᱜᱼᱟ᱾</translation>
     </message>

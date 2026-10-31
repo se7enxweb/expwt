@@ -104,8 +104,30 @@ auf der Seite anklicken und tippen; das Formular des Bereichs folgt, und die Än
 Fährt die Maus über ein Feld im Bereich, wird es auf der Seite umrandet.
 
 **Veröffentlichen** nutzt das Veröffentlichen des Kernels, Workflows eingeschlossen: Mit einem Freigabe-Workflow lautet
-die Antwort „Zur Freigabe gesendet". Später veröffentlichen und zu einem Zeitpunkt zurückziehen erledigt der
-Cronjob-Teil `expwt_scheduled` (frequent), als der Benutzer, der es geplant hat.
+die Antwort „Zur Freigabe gesendet".
+
+**Veröffentlichen am und Zurückziehen am** nutzen die Zeitsteuerung des Kernels, dieselbe wie die Administration: Die
+Seitenleiste hat keinen eigenen Zeitplan und keinen eigenen Cronjob.
+
+- *Veröffentlichen am* schreibt den Zeitpunkt in das Datumsfeld des Entwurfs, das ein Ereignis „Wait until date“
+  aufführt (ein Workflow an `content/publish` before), und veröffentlicht den Entwurf: Das Ereignis hält ihn bis dahin
+  zurück, der Workflow-Cronjob (`workflow.php`) veröffentlicht ihn dann, und die Antwort lautet „Geplant für …“. Jedes
+  andere Ereignis dieses Workflows gilt, mit einer Freigabe wartet der Entwurf also auch auf sie.
+- *Zurückziehen am* schreibt den Zeitpunkt in das Feld, das `content.ini [HideSettings]
+  HideDateAttributeList[<Klasse>]` nennt, für eine Seite unterhalb eines Knotens aus `RootNodeList[]`; der Hide-Cronjob
+  (`hide.php`) verbirgt die Seite dann. Ein geleertes Eingabefeld löscht den Zeitpunkt.
+- Diese Datumsfelder werden nur hier bearbeitet, nicht noch einmal in der Liste der Felder. Ein Zeitpunkt, der noch
+  bevorsteht, wird angezeigt.
+- Eine Klasse ohne ein solches Feld zeigt statt der Eingabe „Hier nicht möglich: Diese Art Seite hat kein Datumsfeld
+  dafür.“, und der Server lehnt einen Zeitpunkt dafür ab. Wie eine Klasse das Feld bekommt, steht unter
+  „Zeitsteuerung“ in der Anleitung des Kernels `doc/ger-de/funktionen/6.0/website-seitenleiste.md`: ein Datumsfeld
+  (Datum und Uhrzeit, oder Datum für einen Tag), das Wait-until-date-Ereignis, das es am Veröffentlichen-Trigger
+  aufführt, und die Zeilen in `[HideSettings]`.
+
+**Upgrade von einer früheren expwt-Version:** Sie führte einen eigenen Zeitplan (die Site-Data-Zeilen `expwt_publish_*`
+und `expwt_unpublish_*`, den Cronjob-Teil `expwt_scheduled`). `./console exp:wt:migrate-from-ezwt` zeigt, was überführt
+wird, `--apply` überführt es (der Upgrade-Schritt `6.0.15-expwt-enable` tut dasselbe); ein Eintrag, dessen Klasse das
+Datumsfeld fehlt, bleibt, wird aufgeführt und bei einem späteren Lauf überführt, sobald die Klasse es hat.
 
 **Zwei Redakteure, eine Seite:** Wer zuerst etwas ändert, hält eine weiche Sperre; die anderen sehen „Anna bearbeitet
 diese Seite seit 10:42" und können sie übernehmen. Speichern beide trotzdem, geht nichts verloren: Felder, die nur einer

@@ -56,6 +56,10 @@
         <translation>Iki si itariki n'isaha.</translation>
     </message>
     <message>
+        <source>Not possible here: this kind of page has no date field for it.</source>
+        <translation>Ntibishoboka hano: ubu bwoko bw'urupapuro nta kibanza c'itariki bufise kuri ivyo.</translation>
+    </message>
+    <message>
         <source>The page would be taken down before it is published.</source>
         <translation>Urupapuro rwokurwa ku rubuga imbere y'uko rusohorwa.</translation>
     </message>

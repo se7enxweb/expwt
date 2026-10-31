@@ -56,6 +56,10 @@
         <translation>هذا ليس تاريخًا ووقتًا.</translation>
     </message>
     <message>
+        <source>Not possible here: this kind of page has no date field for it.</source>
+        <translation>غير ممكن هنا: هذا النوع من الصفحات ليس له حقل تاريخ لذلك.</translation>
+    </message>
+    <message>
         <source>The page would be taken down before it is published.</source>
         <translation>ستُزال الصفحة قبل أن تُنشر.</translation>
     </message>

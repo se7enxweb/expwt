@@ -56,6 +56,10 @@
         <translation>Èyí kì í ṣe ọjọ́ àti àkókò.</translation>
     </message>
     <message>
+        <source>Not possible here: this kind of page has no date field for it.</source>
+        <translation>Kò ṣeé ṣe níbí: irú ojú-ìwé yìí kò ní ààyè ọjọ́ fún un.</translation>
+    </message>
+    <message>
         <source>The page would be taken down before it is published.</source>
         <translation>A ó yọ ojú ìwé náà kúrò kí a tó tẹ̀ ẹ́ jáde.</translation>
     </message>

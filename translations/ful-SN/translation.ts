@@ -56,6 +56,10 @@
         <translation>Ɗum wonaa ñalnde e waktu.</translation>
     </message>
     <message>
+        <source>Not possible here: this kind of page has no date field for it.</source>
+        <translation>Waawaa wonde ɗoo: ndee sifaa hello alaa nokku ñalawma e mum.</translation>
+    </message>
+    <message>
         <source>The page would be taken down before it is published.</source>
         <translation>Hello ngo ittetee hade mum yaltineede.</translation>
     </message>

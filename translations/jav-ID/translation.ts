@@ -56,6 +56,10 @@
         <translation>Iki dudu tanggal lan wektu.</translation>
     </message>
     <message>
+        <source>Not possible here: this kind of page has no date field for it.</source>
+        <translation>Ora bisa ing kene: jinis kaca iki ora duwe kolom tanggal kanggo iku.</translation>
+    </message>
+    <message>
         <source>The page would be taken down before it is published.</source>
         <translation>Kaca bakal diturunake sadurunge diterbitake.</translation>
     </message>

@@ -56,6 +56,10 @@
         <translation>ʻAʻole kēia he lā a me ka hola.</translation>
     </message>
     <message>
+        <source>Not possible here: this kind of page has no date field for it.</source>
+        <translation>ʻAʻole hiki ma ʻaneʻi: ʻaʻohe kahua lā o kēia ʻano ʻaoʻao no ia mea.</translation>
+    </message>
+    <message>
         <source>The page would be taken down before it is published.</source>
         <translation>E lawe ʻia ka ʻaoʻao i lalo ma mua o kona hoʻopuka ʻia.</translation>
     </message>

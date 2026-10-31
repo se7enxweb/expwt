@@ -56,6 +56,10 @@
         <translation>Ehara tēnei i te rā me te wā.</translation>
     </message>
     <message>
+        <source>Not possible here: this kind of page has no date field for it.</source>
+        <translation>Kāore e taea i konei: kāore he āpure rā o tēnei momo whārangi mō tēnei.</translation>
+    </message>
+    <message>
         <source>The page would be taken down before it is published.</source>
         <translation>Ka tangohia te whārangi i mua i tōna whakaputanga.</translation>
     </message>

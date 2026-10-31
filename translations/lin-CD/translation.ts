@@ -56,6 +56,10 @@
         <translation>Oyo ezali mokolo mpe ngonga te.</translation>
     </message>
     <message>
+        <source>Not possible here: this kind of page has no date field for it.</source>
+        <translation>Ekoki te awa: lolenge oyo ya lokasa ezali na esika ya dati te mpo na yango.</translation>
+    </message>
+    <message>
         <source>The page would be taken down before it is published.</source>
         <translation>Lokasa ekolongolama liboso ete ebimisama.</translation>
     </message>

@@ -56,6 +56,10 @@
         <translation>دا نېټه او وخت نه دی.</translation>
     </message>
     <message>
+        <source>Not possible here: this kind of page has no date field for it.</source>
+        <translation>دلته ممکن نه دی: دا ډول پاڼه د دې لپاره د نېټې ساحه نه لري.</translation>
+    </message>
+    <message>
         <source>The page would be taken down before it is published.</source>
         <translation>پاڼه به له خپرېدو مخکې لرې شي.</translation>
     </message>

@@ -56,6 +56,10 @@
         <translation>Ова не е датум и време.</translation>
     </message>
     <message>
+        <source>Not possible here: this kind of page has no date field for it.</source>
+        <translation>Не е можно тука: овој вид страница нема поле за датум за тоа.</translation>
+    </message>
+    <message>
         <source>The page would be taken down before it is published.</source>
         <translation>Страницата би била симната пред да биде објавена.</translation>
     </message>

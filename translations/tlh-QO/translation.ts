@@ -56,6 +56,10 @@
         <translation>jaj poH je ghaHbe' Dochvam.</translation>
     </message>
     <message>
+        <source>Not possible here: this kind of page has no date field for it.</source>
+        <translation>naDev DaQaplaHbe': jaj Daqmey ghajbe' nav buq'Ir Segh'vam.</translation>
+    </message>
+    <message>
         <source>The page would be taken down before it is published.</source>
         <translation>HochvaD 'anglu'pa' navvam teqlu'.</translation>
     </message>

@@ -56,6 +56,10 @@
         <translation>See ei ole kuupäev ja kellaaeg.</translation>
     </message>
     <message>
+        <source>Not possible here: this kind of page has no date field for it.</source>
+        <translation>Siin pole võimalik: seda liiki lehel pole selle jaoks kuupäevavälja.</translation>
+    </message>
+    <message>
         <source>The page would be taken down before it is published.</source>
         <translation>Leht eemaldataks enne, kui see avaldatakse.</translation>
     </message>

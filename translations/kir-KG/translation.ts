@@ -56,6 +56,10 @@
         <translation>Бул дата жана убакыт эмес.</translation>
     </message>
     <message>
+        <source>Not possible here: this kind of page has no date field for it.</source>
+        <translation>Бул жерде мүмкүн эмес: мындай барактын бул үчүн дата талаасы жок.</translation>
+    </message>
+    <message>
         <source>The page would be taken down before it is published.</source>
         <translation>Барак жарыяланганга чейин алынып салынмак.</translation>
     </message>

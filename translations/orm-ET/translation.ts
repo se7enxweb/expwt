@@ -56,6 +56,10 @@
         <translation>Kun guyyaa fi yeroo miti.</translation>
     </message>
     <message>
+        <source>Not possible here: this kind of page has no date field for it.</source>
+        <translation>Asitti hin danda'amu: gosni fuulaa kun kanaaf dirree guyyaa hin qabu.</translation>
+    </message>
+    <message>
         <source>The page would be taken down before it is published.</source>
         <translation>Fuulli osoo hin maxxanfamin dura ni buufama ture.</translation>
     </message>

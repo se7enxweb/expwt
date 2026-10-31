@@ -56,6 +56,10 @@
         <translation>एह् तरीक ते समां नेईं ऐ।</translation>
     </message>
     <message>
+        <source>Not possible here: this kind of page has no date field for it.</source>
+        <translation>इत्थें मुमकिन नेईं: इस किस्म दे सफे च इसदे लेई कोई तरीक फील्ड नेईं ऐ।</translation>
+    </message>
+    <message>
         <source>The page would be taken down before it is published.</source>
         <translation>पन्ना छपने थमां पैह्लें गै हटाई दित्ता जाग।</translation>
     </message>

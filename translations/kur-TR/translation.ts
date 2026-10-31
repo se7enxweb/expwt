@@ -56,6 +56,10 @@
         <translation>Ev ne dîrok û dem e.</translation>
     </message>
     <message>
+        <source>Not possible here: this kind of page has no date field for it.</source>
+        <translation>Li vir ne gengaz e: ji bo vê yekê qada dîrokê ya vî cureyê rûpelê tune.</translation>
+    </message>
+    <message>
         <source>The page would be taken down before it is published.</source>
         <translation>Rûpel dê berî weşandinê were rakirin.</translation>
     </message>

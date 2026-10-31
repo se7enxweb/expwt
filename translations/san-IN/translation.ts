@@ -56,6 +56,10 @@
         <translation>एतत् दिनाङ्कः समयः च न।</translation>
     </message>
     <message>
+        <source>Not possible here: this kind of page has no date field for it.</source>
+        <translation>अत्र न शक्यम्: अस्य प्रकारस्य पृष्ठस्य एतदर्थं दिनाङ्कक्षेत्रं नास्ति।</translation>
+    </message>
+    <message>
         <source>The page would be taken down before it is published.</source>
         <translation>पृष्ठं प्रकाशनात् पूर्वम् एव अपनीयेत।</translation>
     </message>

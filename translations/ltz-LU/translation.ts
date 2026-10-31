@@ -56,6 +56,10 @@
         <translation>Dat ass keen Datum a keng Zäit.</translation>
     </message>
     <message>
+        <source>Not possible here: this kind of page has no date field for it.</source>
+        <translation>Hei net méiglech: dës Zort Säit huet keen Datumsfeld dofir.</translation>
+    </message>
+    <message>
         <source>The page would be taken down before it is published.</source>
         <translation>D'Säit géif erofgeholl ginn, ier se publizéiert ass.</translation>
     </message>

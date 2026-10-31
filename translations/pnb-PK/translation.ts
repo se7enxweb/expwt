@@ -56,6 +56,10 @@
         <translation>ایہہ تاریخ تے ویلا نہیں۔</translation>
     </message>
     <message>
+        <source>Not possible here: this kind of page has no date field for it.</source>
+        <translation>ایتھے ممکن نہیں: ایس قسم دے صفحے وچ ایس لئی کوئی تاریخ خانہ نہیں۔</translation>
+    </message>
+    <message>
         <source>The page would be taken down before it is published.</source>
         <translation>صفحہ چھپن توں پہلاں ای ہٹا دتا جاوے گا۔</translation>
     </message>

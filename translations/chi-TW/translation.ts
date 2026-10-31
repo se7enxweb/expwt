@@ -56,6 +56,10 @@
         <translation>這不是日期和時間。</translation>
     </message>
     <message>
+        <source>Not possible here: this kind of page has no date field for it.</source>
+        <translation>此處不可用：此類頁面沒有用於此的日期欄位。</translation>
+    </message>
+    <message>
         <source>The page would be taken down before it is published.</source>
         <translation>頁面會在發佈之前就被下架。</translation>
     </message>

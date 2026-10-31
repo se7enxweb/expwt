@@ -56,6 +56,10 @@
         <translation>Eyi nyɛ da ne bere.</translation>
     </message>
     <message>
+        <source>Not possible here: this kind of page has no date field for it.</source>
+        <translation>Ɛrentumi nyɛ ha: krataafa yi su nni da ho beae ma eyi.</translation>
+    </message>
+    <message>
         <source>The page would be taken down before it is published.</source>
         <translation>Wɔbɛyi krataafa no afi so ansa na wɔatintim.</translation>
     </message>

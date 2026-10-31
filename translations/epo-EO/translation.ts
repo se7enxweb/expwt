@@ -56,6 +56,10 @@
         <translation>Tio ne estas dato kaj horo.</translation>
     </message>
     <message>
+        <source>Not possible here: this kind of page has no date field for it.</source>
+        <translation>Ne eblas ĉi tie: tiu speco de paĝo ne havas datkampon por tio.</translation>
+    </message>
+    <message>
         <source>The page would be taken down before it is published.</source>
         <translation>La paĝo estus malpublikigita antaŭ ol ĝi estas publikigita.</translation>
     </message>

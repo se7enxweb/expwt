@@ -56,6 +56,10 @@
         <translation>올바른 날짜와 시간이 아닙니다.</translation>
     </message>
     <message>
+        <source>Not possible here: this kind of page has no date field for it.</source>
+        <translation>여기서는 할 수 없습니다: 이 종류의 페이지에는 이를 위한 날짜 필드가 없습니다.</translation>
+    </message>
+    <message>
         <source>The page would be taken down before it is published.</source>
         <translation>페이지가 게시되기 전에 내려지게 됩니다.</translation>
     </message>

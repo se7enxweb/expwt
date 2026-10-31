@@ -56,6 +56,10 @@
         <translation>Kjo nuk është datë dhe orë.</translation>
     </message>
     <message>
+        <source>Not possible here: this kind of page has no date field for it.</source>
+        <translation>Nuk është e mundur këtu: ky lloj faqeje nuk ka fushë date për këtë.</translation>
+    </message>
+    <message>
         <source>The page would be taken down before it is published.</source>
         <translation>Faqja do të hiqej para se të publikohej.</translation>
     </message>

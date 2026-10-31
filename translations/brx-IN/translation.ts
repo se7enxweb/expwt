@@ -56,6 +56,10 @@
         <translation>बेयो अक्ट' आरो सम नङा।</translation>
     </message>
     <message>
+        <source>Not possible here: this kind of page has no date field for it.</source>
+        <translation>बेयाव जायाखै: बे रोखोमनि बिलाइनि थाखाय मोनसे अक्ट'बर फारिख गैया।</translation>
+    </message>
+    <message>
         <source>The page would be taken down before it is published.</source>
         <translation>बिलाइखानाया फोसावनायनि सिगाङावनो ओखार लाखोनाय जागोन।</translation>
     </message>

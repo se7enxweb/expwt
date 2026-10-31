@@ -56,6 +56,10 @@
         <translation>Tai nėra data ir laikas.</translation>
     </message>
     <message>
+        <source>Not possible here: this kind of page has no date field for it.</source>
+        <translation>Čia neįmanoma: tokio tipo puslapis neturi tam skirto datos lauko.</translation>
+    </message>
+    <message>
         <source>The page would be taken down before it is published.</source>
         <translation>Puslapis būtų pašalintas dar prieš jį paskelbiant.</translation>
     </message>

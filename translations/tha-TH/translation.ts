@@ -56,6 +56,10 @@
         <translation>นี่ไม่ใช่วันที่และเวลา</translation>
     </message>
     <message>
+        <source>Not possible here: this kind of page has no date field for it.</source>
+        <translation>ทำไม่ได้ที่นี่: หน้าประเภทนี้ไม่มีช่องวันที่สำหรับสิ่งนี้</translation>
+    </message>
+    <message>
         <source>The page would be taken down before it is published.</source>
         <translation>หน้านี้จะถูกนำออกก่อนที่จะเผยแพร่</translation>
     </message>

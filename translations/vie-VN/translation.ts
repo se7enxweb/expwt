@@ -56,6 +56,10 @@
         <translation>Đây không phải là ngày và giờ.</translation>
     </message>
     <message>
+        <source>Not possible here: this kind of page has no date field for it.</source>
+        <translation>Không thể ở đây: loại trang này không có trường ngày cho việc đó.</translation>
+    </message>
+    <message>
         <source>The page would be taken down before it is published.</source>
         <translation>Trang sẽ bị gỡ xuống trước khi được xuất bản.</translation>
     </message>

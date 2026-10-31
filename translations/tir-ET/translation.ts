@@ -56,6 +56,10 @@
         <translation>እዚ ዕለትን ሰዓትን ኣይኮነን።</translation>
     </message>
     <message>
+        <source>Not possible here: this kind of page has no date field for it.</source>
+        <translation>ኣብዚ ኣይከኣልን፦ እዚ ዓይነት ገጽ ንዚ ናይ ዕለት መዐቀኒ የብሉን።</translation>
+    </message>
+    <message>
         <source>The page would be taken down before it is published.</source>
         <translation>እቲ ገጽ ቅድሚ ምሕታሙ ምተኣልየ ነይሩ።</translation>
     </message>

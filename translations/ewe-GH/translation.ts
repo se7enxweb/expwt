@@ -56,6 +56,10 @@
         <translation>Esia menye ŋkeke kple gaƒoƒo o.</translation>
     </message>
     <message>
+        <source>Not possible here: this kind of page has no date field for it.</source>
+        <translation>Mate ŋu awɔe le afii o: axa sia ƒomevi mekpɔ ŋkeke teƒe na esia o.</translation>
+    </message>
+    <message>
         <source>The page would be taken down before it is published.</source>
         <translation>Woaɖe axa la ɖa hafi woaɖee ɖe dutoƒo.</translation>
     </message>

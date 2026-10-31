@@ -56,6 +56,10 @@
         <translation>זה אינו תאריך ושעה.</translation>
     </message>
     <message>
+        <source>Not possible here: this kind of page has no date field for it.</source>
+        <translation>לא אפשרי כאן: לסוג דף זה אין שדה תאריך לכך.</translation>
+    </message>
+    <message>
         <source>The page would be taken down before it is published.</source>
         <translation>הדף היה מוסר לפני שהוא מתפרסם.</translation>
     </message>

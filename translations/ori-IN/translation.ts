@@ -56,6 +56,10 @@
         <translation>ଏହା ତାରିଖ ଓ ସମୟ ନୁହେଁ।</translation>
     </message>
     <message>
+        <source>Not possible here: this kind of page has no date field for it.</source>
+        <translation>ଏଠାରେ ସମ୍ଭବ ନୁହେଁ: ଏହି ପ୍ରକାରର ପୃଷ୍ଠାରେ ଏଥିପାଇଁ କୌଣସି ତାରିଖ କ୍ଷେତ୍ର ନାହିଁ।</translation>
+    </message>
+    <message>
         <source>The page would be taken down before it is published.</source>
         <translation>ପୃଷ୍ଠା ପ୍ରକାଶିତ ହେବା ପୂର୍ବରୁ ହଟାଯିବ।</translation>
     </message>

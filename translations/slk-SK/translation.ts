@@ -56,6 +56,10 @@
         <translation>Toto nie je dátum a čas.</translation>
     </message>
     <message>
+        <source>Not possible here: this kind of page has no date field for it.</source>
+        <translation>Tu nie je možné: tento druh stránky na to nemá pole s dátumom.</translation>
+    </message>
+    <message>
         <source>The page would be taken down before it is published.</source>
         <translation>Stránka by bola stiahnutá skôr, ako bude zverejnená.</translation>
     </message>

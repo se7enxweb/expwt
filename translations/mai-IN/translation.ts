@@ -56,6 +56,10 @@
         <translation>ई तिथि आ समय नहि अछि।</translation>
     </message>
     <message>
+        <source>Not possible here: this kind of page has no date field for it.</source>
+        <translation>एतय संभव नहि: एहि प्रकारक पृष्ठमे एहि लेल कोनो तिथि क्षेत्र नहि अछि।</translation>
+    </message>
+    <message>
         <source>The page would be taken down before it is published.</source>
         <translation>पृष्ठ प्रकाशित होएबा सँ पहिने हटा देल जाएत।</translation>
     </message>

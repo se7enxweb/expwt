@@ -56,6 +56,10 @@
         <translation>ဤအရာသည် ရက်စွဲနှင့် အချိန် မဟုတ်ပါ။</translation>
     </message>
     <message>
+        <source>Not possible here: this kind of page has no date field for it.</source>
+        <translation>ဤနေရာတွင် မဖြစ်နိုင်ပါ- ဤစာမျက်နှာအမျိုးအစားတွင် ၎င်းအတွက် ရက်စွဲအကွက် မရှိပါ။</translation>
+    </message>
+    <message>
         <source>The page would be taken down before it is published.</source>
         <translation>စာမျက်နှာကို မထုတ်ဝေမီ ဖြုတ်ချမည် ဖြစ်သည်။</translation>
     </message>

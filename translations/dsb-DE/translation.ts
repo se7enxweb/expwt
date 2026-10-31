@@ -56,6 +56,10 @@
         <translation>To njejo datum a cas.</translation>
     </message>
     <message>
+        <source>Not possible here: this kind of page has no date field for it.</source>
+        <translation>How njejo móžno: toś ten wašnja boka njama za to žedne datumowe pólo.</translation>
+    </message>
+    <message>
         <source>The page would be taken down before it is published.</source>
         <translation>Bok by se wótpórał, nježli až se wózjawijo.</translation>
     </message>

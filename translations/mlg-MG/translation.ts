@@ -56,6 +56,10 @@
         <translation>Tsy daty sy ora ity.</translation>
     </message>
     <message>
+        <source>Not possible here: this kind of page has no date field for it.</source>
+        <translation>Tsy azo atao eto: tsy manana saha daty ho an'izany ity karazana pejy ity.</translation>
+    </message>
+    <message>
         <source>The page would be taken down before it is published.</source>
         <translation>Hesorina ny pejy alohan'ny hamoahana azy.</translation>
     </message>

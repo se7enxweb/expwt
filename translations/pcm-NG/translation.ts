@@ -56,6 +56,10 @@
         <translation>Dis one no be date and time.</translation>
     </message>
     <message>
+        <source>Not possible here: this kind of page has no date field for it.</source>
+        <translation>E no possible here: dis kain page no get date field for am.</translation>
+    </message>
+    <message>
         <source>The page would be taken down before it is published.</source>
         <translation>Di page go comot before dem publish am.</translation>
     </message>

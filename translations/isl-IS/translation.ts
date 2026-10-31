@@ -56,6 +56,10 @@
         <translation>Þetta er ekki dagsetning og tími.</translation>
     </message>
     <message>
+        <source>Not possible here: this kind of page has no date field for it.</source>
+        <translation>Ekki hægt hér: þessi tegund síðu hefur engan dagsetningarreit fyrir það.</translation>
+    </message>
+    <message>
         <source>The page would be taken down before it is published.</source>
         <translation>Síðan yrði tekin niður áður en hún er birt.</translation>
     </message>

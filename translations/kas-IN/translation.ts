@@ -56,6 +56,10 @@
         <translation>یہِ چھُنہٕ تٲریخ تہٕ وَقت۔</translation>
     </message>
     <message>
+        <source>Not possible here: this kind of page has no date field for it.</source>
+        <translation>یتہِ ممکن نہٕ: یِتھۍ قسمٕچہِ صفحس چھُ نہٕ امہِ خٲطرٕ کانٛہہ تأریخ خانہٕ۔</translation>
+    </message>
+    <message>
         <source>The page would be taken down before it is published.</source>
         <translation>صفحہٕ یِیہِ شایع گژھنہٕ برونٛہہ ہٹاونہٕ۔</translation>
     </message>

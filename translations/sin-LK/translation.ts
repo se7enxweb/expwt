@@ -56,6 +56,10 @@
         <translation>මෙය දිනයක් සහ වේලාවක් නොවේ.</translation>
     </message>
     <message>
+        <source>Not possible here: this kind of page has no date field for it.</source>
+        <translation>මෙහි කළ නොහැක: මෙවැනි පිටුවකට ඒ සඳහා දින ක්ෂේත්‍රයක් නැත.</translation>
+    </message>
+    <message>
         <source>The page would be taken down before it is published.</source>
         <translation>පිටුව ප්‍රකාශ කිරීමට පෙර ඉවත් කෙරෙනු ඇත.</translation>
     </message>

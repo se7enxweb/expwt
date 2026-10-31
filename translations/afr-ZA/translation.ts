@@ -56,6 +56,10 @@
         <translation>Dit is nie 'n datum en tyd nie.</translation>
     </message>
     <message>
+        <source>Not possible here: this kind of page has no date field for it.</source>
+        <translation>Nie hier moontlik nie: hierdie soort bladsy het geen datumveld daarvoor nie.</translation>
+    </message>
+    <message>
         <source>The page would be taken down before it is published.</source>
         <translation>Die bladsy sou afgehaal word voordat dit gepubliseer word.</translation>
     </message>

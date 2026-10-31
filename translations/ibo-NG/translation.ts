@@ -56,6 +56,10 @@
         <translation>Nke a abụghị ụbọchị na oge.</translation>
     </message>
     <message>
+        <source>Not possible here: this kind of page has no date field for it.</source>
+        <translation>O gaghị ekwe omume ebe a: ụdị ibe a enweghị ebe ụbọchị maka ya.</translation>
+    </message>
+    <message>
         <source>The page would be taken down before it is published.</source>
         <translation>A ga-ewepụ ibe ahụ tupu e bipụta ya.</translation>
     </message>
