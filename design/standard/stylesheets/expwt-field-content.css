@@ -3,7 +3,7 @@
  * there): it keeps to the editor's width (F32). Images and media scale down, tables and preformatted text scroll in
  * their own box, long words and addresses break; the content's own look is the editor's.
  */
-body { overflow-x: hidden; overflow-wrap: anywhere; }
+body { overflow-x: hidden; overflow-wrap: break-word; }
 img, video, iframe, object, embed, svg, canvas { max-width: 100%; height: auto; }
 table, pre { display: block; max-width: 100%; overflow-x: auto; }
 pre, code { white-space: pre-wrap; word-break: break-word; }

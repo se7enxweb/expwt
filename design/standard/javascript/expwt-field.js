@@ -155,6 +155,113 @@
     }
   });
 
+  /* An object relation list (the kernel's edit template, an admin table with selection boxes and an order column):
+     a compact list in the sidebar's model instead, each related object a row with its name, its type as a muted tag,
+     up and down for the order and a remove button. The datatype's own inputs stay in the rows (the relation ids,
+     their order, the selection box), and its own buttons do the work: remove checks the row's box and sends the
+     datatype's "Remove selected"; "Add existing objects" browses as before. */
+  function relations() {
+    Array.prototype.forEach.call(document.querySelectorAll('[id^="ezobjectrelationlist_browse_"]'), function (block) {
+      var table = block.querySelector('table.list');
+      var removeAll = block.querySelector('[name$="_remove_objects]"]');
+      Array.prototype.forEach.call(block.querySelectorAll('.ezobject-relation-search-text, .ezobject-relation-search-btn, .ezobject-relation-search-browse'), function (el) {
+        el.hidden = true;
+      });
+      if (removeAll && removeAll.parentElement) { removeAll.parentElement.hidden = true; }
+      if (!table || !table.tBodies.length) { return; }
+      var list = document.createElement('ul');
+      list.className = 'a4-rel-list';
+      var renumber = function () {
+        Array.prototype.forEach.call(list.children, function (li, i) {
+          var prio = li.querySelector('[name*="_priority"]');
+          if (prio) { prio.value = String(i + 1); }
+          li.querySelector('.a4-rel-up').disabled = i === 0;
+          li.querySelector('.a4-rel-down').disabled = i === list.children.length - 1;
+        });
+      };
+      var button = function (cls, text, label, onclick) {
+        var b = document.createElement('button');
+        b.type = 'button';
+        b.className = 'a4-btn is-icon ' + cls;
+        b.textContent = text;
+        b.setAttribute('aria-label', label);
+        b.title = label;
+        b.addEventListener('click', onclick);
+        return b;
+      };
+      Array.prototype.forEach.call(table.tBodies[0].rows, function (tr) {
+        var cells = tr.cells;
+        if (cells.length < 3) { return; }
+        var name = cells[1].textContent.trim();
+        var type = cells[2].textContent.trim();
+        var li = document.createElement('li');
+        var label = document.createElement('span');
+        label.className = 'a4-rel-name';
+        label.textContent = name;
+        var tag = document.createElement('span');
+        tag.className = 'a4-tag';
+        tag.textContent = type;
+        li.appendChild(label);
+        li.appendChild(tag);
+        Array.prototype.forEach.call(tr.querySelectorAll('input'), function (input) {
+          if (input.type === 'checkbox') { input.hidden = true; }
+          if (/_priority/.test(input.name)) { input.type = 'hidden'; }
+          li.appendChild(input);
+        });
+        li.appendChild(button('a4-rel-up', '↑', '↑ ' + name, function () {
+          if (li.previousElementSibling) { list.insertBefore(li, li.previousElementSibling); renumber(); }
+        }));
+        li.appendChild(button('a4-rel-down', '↓', '↓ ' + name, function () {
+          if (li.nextElementSibling) { list.insertBefore(li.nextElementSibling, li); renumber(); }
+        }));
+        if (removeAll) {
+          li.appendChild(button('a4-rel-remove', '×', (removeAll.value || '×') + ': ' + name, function () {
+            Array.prototype.forEach.call(block.querySelectorAll('input[type=checkbox][name^="_selection"], input[type=checkbox][name*="_selection"]'), function (c) { c.checked = false; });
+            var box = li.querySelector('input[type=checkbox]');
+            if (box) { box.checked = true; }
+            removeAll.click();
+          }));
+        }
+        list.appendChild(li);
+      });
+      table.parentNode.replaceChild(list, table);
+      renumber();
+    });
+  }
+  relations();
+
+  /* a table of inputs (authors, a matrix, options ...) wider than the frame: one card per row, each cell with its
+     column's name (also the input's name for screen readers); a table again once the frame is wide enough */
+  function rows() {
+    Array.prototype.forEach.call(document.querySelectorAll('.expwt-field-body table'), function (table) {
+      if (!table.querySelector('tbody input:not([type=hidden]):not([type=checkbox]), tbody select, tbody textarea')) { return; }
+      var head = table.tHead ? table.tHead.rows[0] : (table.rows[0] && table.rows[0].querySelector('th') ? table.rows[0] : null);
+      if (head && !table.hasAttribute('data-a4-labelled')) {
+        table.setAttribute('data-a4-labelled', '');
+        Array.prototype.forEach.call(table.rows, function (tr) {
+          if (tr === head) { tr.classList.add('a4-rows-head'); return; }
+          Array.prototype.forEach.call(tr.cells, function (td, i) {
+            var th = head.cells[i], name = th ? th.textContent.trim() : '';
+            if (!name) { return; }
+            td.setAttribute('data-a4-label', name);
+            Array.prototype.forEach.call(td.querySelectorAll('input:not([type=hidden]), select, textarea'), function (i) {
+              if (!i.labels || !i.labels.length) { if (!i.getAttribute('aria-label')) { i.setAttribute('aria-label', name); } }
+            });
+          });
+        });
+      }
+      table.classList.remove('a4-rows');
+      if (table.scrollWidth > table.clientWidth + 1) { table.classList.add('a4-rows'); }
+    });
+  }
+  rows();
+  var rowsPending = false;
+  window.addEventListener('resize', function () {
+    if (rowsPending) { return; }
+    rowsPending = true;
+    window.requestAnimationFrame(function () { rowsPending = false; rows(); });
+  });
+
   /* eztags (its plain JavaScript editor in the frame, override.ini): a field with the frame's tag tree is built with
      eztags' Tree builder, so a tag chosen in the tree is added; set before eztags builds its fields */
   Array.prototype.forEach.call(document.querySelectorAll('.eztags-wrapper'), function (w) {

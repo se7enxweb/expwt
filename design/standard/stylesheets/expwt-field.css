@@ -325,6 +325,32 @@ html.is-embedded .expwt-field-actions { display: none; }
 .a4-btn[disabled] { color: var(--a4-disabled); cursor: not-allowed; }
 .a4-btn.is-primary { background: var(--a4-accent-strong); border-color: var(--a4-accent-strong); color: var(--a4-on-accent); }
 .a4-btn.is-danger { color: var(--a4-bad); border-color: var(--a4-bad-line); }
+.a4-btn.is-icon { min-inline-size: var(--a4-control-h); padding: 0; }
+/* a small muted label (a related object's type) */
+.a4-tag { display: inline-block; padding: 0 var(--a4-space-2); border-radius: var(--a4-radius-s); background: var(--a4-soft); color: var(--a4-muted); font-size: var(--a4-text-xs); white-space: nowrap; }
+/* only an address or a token longer than a line breaks anywhere; words break between them */
+.expwt-field-body :is(a, code, kbd) { overflow-wrap: anywhere; }
+/* an edit template's headings ("Objects in the relation" ...): the sidebar's field labels */
+.expwt-field-input :is(h4, h5) { margin: 0 0 var(--a4-space-1); color: var(--a4-muted); font-size: var(--a4-text-s); font-weight: var(--a4-weight-medium); }
+.expwt-field-input .block { margin: 0 0 var(--a4-space-2); padding: 0; border: 0; background: transparent; }
+.expwt-field-input :is(.left, .right) { float: none; }
+
+/* an object relation list (expwt-field.js builds it from the edit template's table): one row per related object */
+.a4-rel-list { display: grid; gap: var(--a4-space-1); margin: 0 0 var(--a4-space-2); padding: 0; list-style: none; }
+.a4-rel-list > li {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto auto auto auto;
+  align-items: center;
+  gap: var(--a4-space-1);
+  min-block-size: var(--a4-control-h);
+  padding: var(--a4-space-1) var(--a4-space-1) var(--a4-space-1) var(--a4-space-3);
+  border: 1px solid var(--a4-line);
+  border-radius: var(--a4-radius-s);
+  background: var(--a4-card);
+}
+.a4-rel-name { min-inline-size: 0; overflow-wrap: break-word; }
+.a4-rel-list .a4-btn.is-icon { min-inline-size: var(--a4-space-6); min-block-size: var(--a4-space-6); }
+.a4-rel-list .a4-rel-remove:hover { background: var(--a4-bad-bg); color: var(--a4-bad); }
 /* a choice that is on (the editor in use ...): the accent fill, as the sidebar's pressed buttons */
 .a4-btn[aria-pressed="true"], .a4-btn.current { background: var(--a4-accent-strong); border-color: var(--a4-accent-strong); color: var(--a4-on-accent); }
 html.is-dark .a4-btn[aria-pressed="true"], html.is-dark .a4-btn.current { background: var(--a4-accent); border-color: var(--a4-accent); color: var(--a4-on-accent-hover); }
@@ -390,7 +416,7 @@ html.is-embedded .a4-menu-items :is([name*="_disable_editor"], [name*="_enable_e
   background: var(--a4-soft);
   color: var(--a4-ink);
   float: none;
-  overflow-wrap: anywhere;
+  overflow-wrap: break-word;
 }
 .tagssuggest-ui .tags-list li img, .tagssuggestresults img, .eztags-tree-icon { inline-size: var(--a4-space-4); block-size: auto; }
 .tagssuggest-ui .js-tags-selected li.is-sorting { border-color: var(--a4-accent); }
@@ -439,7 +465,7 @@ html.is-dark .expwt-tags-tree[open] > summary { background: var(--a4-accent); bo
 .eztags-tree-group { padding-inline-start: var(--a4-space-5); }
 .eztags-tree-node { display: block; margin: 0; }
 .eztags-tree .a4-btn.eztags-tree-toggle, .eztags-tree-toggle { min-block-size: 0; inline-size: var(--a4-space-5); block-size: var(--a4-space-5); padding: 0; border: 0; background: transparent; color: var(--a4-muted); }
-.eztags-tree-anchor { display: inline-flex; align-items: center; gap: var(--a4-space-1); padding: 2px var(--a4-space-2); border-radius: var(--a4-radius-s); color: var(--a4-ink); text-decoration: none; overflow-wrap: anywhere; }
+.eztags-tree-anchor { display: inline-flex; align-items: center; gap: var(--a4-space-1); padding: 2px var(--a4-space-2); border-radius: var(--a4-radius-s); color: var(--a4-ink); text-decoration: none; overflow-wrap: break-word; }
 .eztags-tree-anchor:hover { background: var(--a4-soft); }
 .eztags-tree-anchor:is([aria-selected="true"], [data-selected="true"]) { background: var(--a4-accent-strong); color: var(--a4-on-accent); }
 html.is-dark .eztags-tree-anchor:is([aria-selected="true"], [data-selected="true"]) { background: var(--a4-accent); color: var(--a4-on-accent-hover); }
@@ -457,9 +483,19 @@ html.is-dark .eztags-tree-anchor:is([aria-selected="true"], [data-selected="true
 /* -------------------------------------------------------------------- no sideways scrolling in the frame (F32)
    The editor's content and whatever an edit template draws keep to the frame's width: images and media scale down,
    tables, pre and code scroll inside their own box, long words and addresses break. */
-.expwt-field-body { overflow-x: hidden; overflow-wrap: anywhere; }
+.expwt-field-body { overflow-x: hidden; overflow-wrap: break-word; }
 .expwt-field-body :is(img, video, iframe, object, embed, svg, canvas) { max-inline-size: 100%; block-size: auto; }
 .expwt-field-body :is(table, pre) { display: block; max-inline-size: 100%; overflow-x: auto; }
 .expwt-field-body :is(pre, code) { white-space: pre-wrap; word-break: break-word; }
+/* a table of inputs wider than the frame (expwt-field.js: a4-rows): one card per row, the column's name above each
+   cell, a row's checkbox beside its cells */
+.expwt-field-body table.a4-rows, .a4-rows :is(thead, tbody, tfoot) { display: block; overflow: visible; }
+.a4-rows .a4-rows-head { display: none; }
+.a4-rows tr { display: grid; grid-template-columns: auto minmax(0, 1fr); column-gap: var(--a4-space-2); row-gap: 0; padding-block: var(--a4-space-2); border-block-end: 1px solid var(--a4-line); }
+.a4-rows tr > :is(td, th) { display: block; grid-column: 2; min-inline-size: 0; padding: 0; }
+.a4-rows tr > :is(td, th) ~ :is(td, th) { margin-block-start: var(--a4-space-1); }
+.a4-rows tr > td:has(> input[type=checkbox]:only-child) { grid-column: 1; grid-row: 1 / span 9; align-self: start; }
+.a4-rows td[data-a4-label]:not(:has(> input[type=checkbox]:only-child))::before { content: attr(data-a4-label); display: block; color: var(--a4-muted); font-size: var(--a4-text-s); }
+.a4-rows td :is(input:not([type=checkbox]):not([type=radio]), select, textarea) { inline-size: 100%; box-sizing: border-box; }
 .expwt-field-body :is(input, select, textarea) { max-inline-size: 100%; }
 .expwt-field-input > *, .expwt-field-input .block, .expwt-field-input fieldset { min-inline-size: 0; max-inline-size: 100%; box-sizing: border-box; }

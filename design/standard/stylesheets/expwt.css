@@ -589,7 +589,9 @@ a { color: var(--a4-accent-text); }
 .wt-frame { display: block; inline-size: 100%; max-inline-size: 100%; border: 1px solid var(--a4-line); border-radius: var(--a4-radius-s); background: var(--a4-surface); }
 :host([data-orient="horizontal"]) .wt-frame { max-block-size: calc(var(--expwt-height) - var(--a4-space-7) * 2); }
 /* nothing in the panel scrolls sideways (F32): its fields and their content keep to its width */
-.wt-body, .wt-field, .wt-fields, .wt-section { min-inline-size: 0; max-inline-size: 100%; overflow-wrap: anywhere; }
+.wt-body, .wt-field, .wt-fields, .wt-section { min-inline-size: 0; max-inline-size: 100%; overflow-wrap: break-word; }
+/* only an address or a token longer than a line breaks anywhere; words break between them (F32) */
+.wt-body :is(a, code, kbd) { overflow-wrap: anywhere; }
 .wt-body { overflow-x: hidden; }
 .wt-editor-inline { margin-block-start: var(--a4-space-2); }
 :host([data-orient="horizontal"]) .wt-body { position: relative; }
@@ -642,7 +644,7 @@ a { color: var(--a4-accent-text); }
 
 .wt-list { list-style: none; margin: 0; padding: 0; }
 .wt-list li { display: flex; align-items: center; gap: var(--a4-space-2); padding: var(--a4-space-1) 0; border-block-end: 1px solid var(--a4-line); }
-.wt-list li > :first-child { flex: 1; min-inline-size: 0; overflow-wrap: anywhere; }
+.wt-list li > :first-child { flex: 1; min-inline-size: 0; overflow-wrap: break-word; }
 .wt-list li[draggable="true"] { cursor: grab; }
 .wt-list li[data-drop="true"] { border-block-start: 2px solid var(--a4-accent); }
 .wt-links a { display: block; padding: var(--a4-space-2) 0; }
