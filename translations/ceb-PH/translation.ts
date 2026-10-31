@@ -564,6 +564,34 @@
         <translation>Istruktura</translation>
     </message>
     <message>
+        <source>Insights</source>
+        <translation>Mga panabot</translation>
+    </message>
+    <message>
+        <source>Views of this page: %n</source>
+        <translation>Mga pagtan-aw niini nga panid: %n</translation>
+    </message>
+    <message>
+        <source>The views are not counted on this installation (cronjob updateviewcount).</source>
+        <translation>Ang mga pagtan-aw dili ihap niini nga instalasyon (cronjob updateviewcount).</translation>
+    </message>
+    <message>
+        <source>Searches on this site for words in the page title</source>
+        <translation>Mga pagpangita niini nga site alang sa mga pulong sa titulo sa panid</translation>
+    </message>
+    <message>
+        <source>%n searches, %results results</source>
+        <translation>%n ka pagpangita, %results ka resulta</translation>
+    </message>
+    <message>
+        <source>No search on this site used a word of the page title.</source>
+        <translation>Walay pagpangita niini nga site nga migamit og pulong sa titulo sa panid.</translation>
+    </message>
+    <message>
+        <source>Where visitors came from is not recorded on this installation.</source>
+        <translation>Kung asa gikan ang mga bisita wala girekord niini nga instalasyon.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Inbox</translation>
     </message>

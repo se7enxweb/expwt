@@ -564,6 +564,34 @@
         <translation>Struktur</translation>
     </message>
     <message>
+        <source>Insights</source>
+        <translation>Indsigt</translation>
+    </message>
+    <message>
+        <source>Views of this page: %n</source>
+        <translation>Visninger af denne side: %n</translation>
+    </message>
+    <message>
+        <source>The views are not counted on this installation (cronjob updateviewcount).</source>
+        <translation>Visninger tælles ikke på denne installation (cronjob updateviewcount).</translation>
+    </message>
+    <message>
+        <source>Searches on this site for words in the page title</source>
+        <translation>Søgninger på dette websted efter ord i sidens titel</translation>
+    </message>
+    <message>
+        <source>%n searches, %results results</source>
+        <translation>%n søgninger, %results resultater</translation>
+    </message>
+    <message>
+        <source>No search on this site used a word of the page title.</source>
+        <translation>Ingen søgning på dette websted brugte et ord fra sidens titel.</translation>
+    </message>
+    <message>
+        <source>Where visitors came from is not recorded on this installation.</source>
+        <translation>Hvor de besøgende kom fra, registreres ikke på denne installation.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Indbakke</translation>
     </message>

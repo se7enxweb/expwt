@@ -564,6 +564,34 @@
         <translation>Caasaa</translation>
     </message>
     <message>
+        <source>Insights</source>
+        <translation>Hubannoo</translation>
+    </message>
+    <message>
+        <source>Views of this page: %n</source>
+        <translation>Ilaalcha fuula kanaa: %n</translation>
+    </message>
+    <message>
+        <source>The views are not counted on this installation (cronjob updateviewcount).</source>
+        <translation>Ilaalchi dhaabbii kana irratti hin lakkaa'amu (cronjob updateviewcount).</translation>
+    </message>
+    <message>
+        <source>Searches on this site for words in the page title</source>
+        <translation>Barbaachaa marsariitii kana irratti jechoota mata duree fuulaatiif</translation>
+    </message>
+    <message>
+        <source>%n searches, %results results</source>
+        <translation>Barbaacha %n, bu'aa %results</translation>
+    </message>
+    <message>
+        <source>No search on this site used a word of the page title.</source>
+        <translation>Barbaachi tokkoyyuu marsariitii kana irratti jecha mata duree fuulaa hin fayyadamne.</translation>
+    </message>
+    <message>
+        <source>Where visitors came from is not recorded on this installation.</source>
+        <translation>Daawwattoonni eessaa akka dhufan dhaabbii kana irratti hin galmaa'u.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Saanduqa galtee</translation>
     </message>

@@ -564,6 +564,34 @@
         <translation>סטרוקטור</translation>
     </message>
     <message>
+        <source>Insights</source>
+        <translation>איינבליקן</translation>
+    </message>
+    <message>
+        <source>Views of this page: %n</source>
+        <translation>קוקן אויף דעם בלאַט: %n</translation>
+    </message>
+    <message>
+        <source>The views are not counted on this installation (cronjob updateviewcount).</source>
+        <translation>די קוקן ווערן נישט געציילט אויף דער אינסטאַלאַציע (cronjob updateviewcount).</translation>
+    </message>
+    <message>
+        <source>Searches on this site for words in the page title</source>
+        <translation>זוכונגען אויף דעם וועבזייטל נאָך ווערטער פֿונעם בלאַט־טיטל</translation>
+    </message>
+    <message>
+        <source>%n searches, %results results</source>
+        <translation>%n זוכונגען, %results רעזולטאַטן</translation>
+    </message>
+    <message>
+        <source>No search on this site used a word of the page title.</source>
+        <translation>קיין זוכונג אויף דעם וועבזייטל האָט נישט גענוצט אַ וואָרט פֿונעם בלאַט־טיטל.</translation>
+    </message>
+    <message>
+        <source>Where visitors came from is not recorded on this installation.</source>
+        <translation>פֿון וואַנען די באַזוכער זײַנען געקומען ווערט נישט פֿאַרשריבן אויף דער אינסטאַלאַציע.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>אַרײַנגעקומענע</translation>
     </message>

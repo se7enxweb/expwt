@@ -564,6 +564,34 @@
         <translation>Struktūra</translation>
     </message>
     <message>
+        <source>Insights</source>
+        <translation>Įžvalgos</translation>
+    </message>
+    <message>
+        <source>Views of this page: %n</source>
+        <translation>Šio puslapio peržiūros: %n</translation>
+    </message>
+    <message>
+        <source>The views are not counted on this installation (cronjob updateviewcount).</source>
+        <translation>Šiame įdiegime peržiūros neskaičiuojamos (cronjob updateviewcount).</translation>
+    </message>
+    <message>
+        <source>Searches on this site for words in the page title</source>
+        <translation>Paieškos šioje svetainėje pagal puslapio pavadinimo žodžius</translation>
+    </message>
+    <message>
+        <source>%n searches, %results results</source>
+        <translation>%n paieškų, %results rezultatų</translation>
+    </message>
+    <message>
+        <source>No search on this site used a word of the page title.</source>
+        <translation>Jokia paieška šioje svetainėje nenaudojo žodžio iš puslapio pavadinimo.</translation>
+    </message>
+    <message>
+        <source>Where visitors came from is not recorded on this installation.</source>
+        <translation>Iš kur atėjo lankytojai, šiame įdiegime neregistruojama.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Gauta</translation>
     </message>

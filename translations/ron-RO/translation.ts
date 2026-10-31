@@ -564,6 +564,34 @@
         <translation>Structură</translation>
     </message>
     <message>
+        <source>Insights</source>
+        <translation>Statistici</translation>
+    </message>
+    <message>
+        <source>Views of this page: %n</source>
+        <translation>Vizualizări ale acestei pagini: %n</translation>
+    </message>
+    <message>
+        <source>The views are not counted on this installation (cronjob updateviewcount).</source>
+        <translation>Vizualizările nu sunt numărate pe această instalare (cronjob updateviewcount).</translation>
+    </message>
+    <message>
+        <source>Searches on this site for words in the page title</source>
+        <translation>Căutări pe acest site după cuvinte din titlul paginii</translation>
+    </message>
+    <message>
+        <source>%n searches, %results results</source>
+        <translation>%n căutări, %results rezultate</translation>
+    </message>
+    <message>
+        <source>No search on this site used a word of the page title.</source>
+        <translation>Nicio căutare pe acest site nu a folosit un cuvânt din titlul paginii.</translation>
+    </message>
+    <message>
+        <source>Where visitors came from is not recorded on this installation.</source>
+        <translation>De unde au venit vizitatorii nu se înregistrează pe această instalare.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Mesaje primite</translation>
     </message>

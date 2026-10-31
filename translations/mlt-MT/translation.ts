@@ -564,6 +564,34 @@
         <translation>Struttura</translation>
     </message>
     <message>
+        <source>Insights</source>
+        <translation>Għarfien</translation>
+    </message>
+    <message>
+        <source>Views of this page: %n</source>
+        <translation>Dehriet ta' din il-paġna: %n</translation>
+    </message>
+    <message>
+        <source>The views are not counted on this installation (cronjob updateviewcount).</source>
+        <translation>Id-dehriet ma jingħaddux f'din l-installazzjoni (cronjob updateviewcount).</translation>
+    </message>
+    <message>
+        <source>Searches on this site for words in the page title</source>
+        <translation>Tfittxijiet f'dan is-sit għal kliem fit-titlu tal-paġna</translation>
+    </message>
+    <message>
+        <source>%n searches, %results results</source>
+        <translation>%n tfittxijiet, %results riżultati</translation>
+    </message>
+    <message>
+        <source>No search on this site used a word of the page title.</source>
+        <translation>L-ebda tfittxija f'dan is-sit ma użat kelma mit-titlu tal-paġna.</translation>
+    </message>
+    <message>
+        <source>Where visitors came from is not recorded on this installation.</source>
+        <translation>Minn fejn ġew il-viżitaturi mhuwiex irreġistrat f'din l-installazzjoni.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Inbox</translation>
     </message>

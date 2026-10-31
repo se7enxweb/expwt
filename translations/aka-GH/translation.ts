@@ -564,6 +564,34 @@
         <translation>Nhyehyɛe</translation>
     </message>
     <message>
+        <source>Insights</source>
+        <translation>Nhumu</translation>
+    </message>
+    <message>
+        <source>Views of this page: %n</source>
+        <translation>Wɔahwɛ krataafa yi: %n</translation>
+    </message>
+    <message>
+        <source>The views are not counted on this installation (cronjob updateviewcount).</source>
+        <translation>Wonkan nhwɛ wɔ nhyehyɛe yi so (cronjob updateviewcount).</translation>
+    </message>
+    <message>
+        <source>Searches on this site for words in the page title</source>
+        <translation>Nhwehwɛ wɔ wɛbsaet yi so a ɛfa krataafa no din ho</translation>
+    </message>
+    <message>
+        <source>%n searches, %results results</source>
+        <translation>Nhwehwɛ %n, nea efi mu %results</translation>
+    </message>
+    <message>
+        <source>No search on this site used a word of the page title.</source>
+        <translation>Obiara anhwehwɛ krataafa no din mu asɛmfua wɔ wɛbsaet yi so.</translation>
+    </message>
+    <message>
+        <source>Where visitors came from is not recorded on this installation.</source>
+        <translation>Wɔnkyerɛw baabi a ahɔho fi ba wɔ nhyehyɛe yi so.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Nkrataa a aba</translation>
     </message>

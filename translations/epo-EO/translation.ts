@@ -564,6 +564,34 @@
         <translation>Strukturo</translation>
     </message>
     <message>
+        <source>Insights</source>
+        <translation>Komprenoj</translation>
+    </message>
+    <message>
+        <source>Views of this page: %n</source>
+        <translation>Vidoj de ĉi tiu paĝo: %n</translation>
+    </message>
+    <message>
+        <source>The views are not counted on this installation (cronjob updateviewcount).</source>
+        <translation>La vidoj ne estas kalkulataj en ĉi tiu instalaĵo (cronjob updateviewcount).</translation>
+    </message>
+    <message>
+        <source>Searches on this site for words in the page title</source>
+        <translation>Serĉoj en ĉi tiu retejo pri vortoj de la paĝtitolo</translation>
+    </message>
+    <message>
+        <source>%n searches, %results results</source>
+        <translation>%n serĉoj, %results rezultoj</translation>
+    </message>
+    <message>
+        <source>No search on this site used a word of the page title.</source>
+        <translation>Neniu serĉo en ĉi tiu retejo uzis vorton de la paĝtitolo.</translation>
+    </message>
+    <message>
+        <source>Where visitors came from is not recorded on this installation.</source>
+        <translation>De kie venis la vizitantoj ne estas registrata en ĉi tiu instalaĵo.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Enirkesto</translation>
     </message>

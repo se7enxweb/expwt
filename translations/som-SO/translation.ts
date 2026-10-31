@@ -564,6 +564,34 @@
         <translation>Qaab-dhismeed</translation>
     </message>
     <message>
+        <source>Insights</source>
+        <translation>Aragti</translation>
+    </message>
+    <message>
+        <source>Views of this page: %n</source>
+        <translation>Daawashada boggan: %n</translation>
+    </message>
+    <message>
+        <source>The views are not counted on this installation (cronjob updateviewcount).</source>
+        <translation>Daawashada lagama tiriyo rakibaaddan (cronjob updateviewcount).</translation>
+    </message>
+    <message>
+        <source>Searches on this site for words in the page title</source>
+        <translation>Raadinta goobtan ee erayada cinwaanka bogga</translation>
+    </message>
+    <message>
+        <source>%n searches, %results results</source>
+        <translation>%n raadin, %results natiijo</translation>
+    </message>
+    <message>
+        <source>No search on this site used a word of the page title.</source>
+        <translation>Raadin kasta oo goobtan ah ma isticmaalin eray ka mid ah cinwaanka bogga.</translation>
+    </message>
+    <message>
+        <source>Where visitors came from is not recorded on this installation.</source>
+        <translation>Halka ay booqdayaashu ka yimaadeen laguma diiwaangeliyo rakibaaddan.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Sanduuqa fariimaha</translation>
     </message>

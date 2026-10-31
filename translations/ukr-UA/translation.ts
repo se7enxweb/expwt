@@ -564,6 +564,34 @@
         <translation>Структура</translation>
     </message>
     <message>
+        <source>Insights</source>
+        <translation>Аналітика</translation>
+    </message>
+    <message>
+        <source>Views of this page: %n</source>
+        <translation>Перегляди цієї сторінки: %n</translation>
+    </message>
+    <message>
+        <source>The views are not counted on this installation (cronjob updateviewcount).</source>
+        <translation>Перегляди в цій установці не рахуються (cronjob updateviewcount).</translation>
+    </message>
+    <message>
+        <source>Searches on this site for words in the page title</source>
+        <translation>Пошуки на цьому сайті за словами із заголовка сторінки</translation>
+    </message>
+    <message>
+        <source>%n searches, %results results</source>
+        <translation>%n пошуків, %results результатів</translation>
+    </message>
+    <message>
+        <source>No search on this site used a word of the page title.</source>
+        <translation>Жоден пошук на цьому сайті не використав слова із заголовка сторінки.</translation>
+    </message>
+    <message>
+        <source>Where visitors came from is not recorded on this installation.</source>
+        <translation>Звідки прийшли відвідувачі, в цій установці не записується.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Вхідні</translation>
     </message>

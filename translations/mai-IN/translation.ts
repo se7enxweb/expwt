@@ -564,6 +564,34 @@
         <translation>संरचना</translation>
     </message>
     <message>
+        <source>Insights</source>
+        <translation>अंतर्दृष्टि</translation>
+    </message>
+    <message>
+        <source>Views of this page: %n</source>
+        <translation>एहि पृष्ठक दर्शन: %n</translation>
+    </message>
+    <message>
+        <source>The views are not counted on this installation (cronjob updateviewcount).</source>
+        <translation>एहि इंस्टॉलेशन पर दर्शन नहि गनल जाइत अछि (cronjob updateviewcount)।</translation>
+    </message>
+    <message>
+        <source>Searches on this site for words in the page title</source>
+        <translation>पृष्ठ शीर्षकक शब्द लेल एहि साइट पर खोज</translation>
+    </message>
+    <message>
+        <source>%n searches, %results results</source>
+        <translation>%n खोज, %results परिणाम</translation>
+    </message>
+    <message>
+        <source>No search on this site used a word of the page title.</source>
+        <translation>एहि साइट पर कोनो खोज पृष्ठ शीर्षकक शब्द नहि प्रयोग कएलक।</translation>
+    </message>
+    <message>
+        <source>Where visitors came from is not recorded on this installation.</source>
+        <translation>आगंतुक कतय सँ अएलाह, ई एहि इंस्टॉलेशन पर दर्ज नहि होइत अछि।</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>इनबॉक्स</translation>
     </message>

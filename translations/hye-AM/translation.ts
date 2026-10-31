@@ -564,6 +564,34 @@
         <translation>Կառուցվածք</translation>
     </message>
     <message>
+        <source>Insights</source>
+        <translation>Վերլուծություն</translation>
+    </message>
+    <message>
+        <source>Views of this page: %n</source>
+        <translation>Այս էջի դիտումները՝ %n</translation>
+    </message>
+    <message>
+        <source>The views are not counted on this installation (cronjob updateviewcount).</source>
+        <translation>Այս տեղադրման մեջ դիտումները չեն հաշվվում (cronjob updateviewcount)։</translation>
+    </message>
+    <message>
+        <source>Searches on this site for words in the page title</source>
+        <translation>Որոնումներ այս կայքում էջի վերնագրի բառերով</translation>
+    </message>
+    <message>
+        <source>%n searches, %results results</source>
+        <translation>%n որոնում, %results արդյունք</translation>
+    </message>
+    <message>
+        <source>No search on this site used a word of the page title.</source>
+        <translation>Այս կայքում ոչ մի որոնում չի օգտագործել էջի վերնագրի բառ։</translation>
+    </message>
+    <message>
+        <source>Where visitors came from is not recorded on this installation.</source>
+        <translation>Թե որտեղից են եկել այցելուները, այս տեղադրման մեջ չի գրանցվում։</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Մուտքային</translation>
     </message>

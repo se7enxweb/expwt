@@ -564,6 +564,34 @@
         <translation>Struktur</translation>
     </message>
     <message>
+        <source>Insights</source>
+        <translation>Wawasan</translation>
+    </message>
+    <message>
+        <source>Views of this page: %n</source>
+        <translation>Tayangan kaca ieu: %n</translation>
+    </message>
+    <message>
+        <source>The views are not counted on this installation (cronjob updateviewcount).</source>
+        <translation>Tayangan henteu diitung dina pamasangan ieu (cronjob updateviewcount).</translation>
+    </message>
+    <message>
+        <source>Searches on this site for words in the page title</source>
+        <translation>Pamilarian di situs ieu pikeun kecap dina judul kaca</translation>
+    </message>
+    <message>
+        <source>%n searches, %results results</source>
+        <translation>%n pamilarian, %results hasil</translation>
+    </message>
+    <message>
+        <source>No search on this site used a word of the page title.</source>
+        <translation>Teu aya pamilarian di situs ieu anu maké kecap tina judul kaca.</translation>
+    </message>
+    <message>
+        <source>Where visitors came from is not recorded on this installation.</source>
+        <translation>Ti mana nu nganjang datang henteu dicatet dina pamasangan ieu.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Kotak asup</translation>
     </message>

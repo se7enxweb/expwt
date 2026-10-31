@@ -564,6 +564,34 @@
         <translation>Hoʻolālā</translation>
     </message>
     <message>
+        <source>Insights</source>
+        <translation>Nā ʻike</translation>
+    </message>
+    <message>
+        <source>Views of this page: %n</source>
+        <translation>Nā nānā ʻana o kēia ʻaoʻao: %n</translation>
+    </message>
+    <message>
+        <source>The views are not counted on this installation (cronjob updateviewcount).</source>
+        <translation>ʻAʻole helu ʻia nā nānā ʻana ma kēia hoʻokomo (cronjob updateviewcount).</translation>
+    </message>
+    <message>
+        <source>Searches on this site for words in the page title</source>
+        <translation>Nā huli ma kēia pūnaewele no nā huaʻōlelo o ke poʻo inoa o ka ʻaoʻao</translation>
+    </message>
+    <message>
+        <source>%n searches, %results results</source>
+        <translation>%n huli, %results hopena</translation>
+    </message>
+    <message>
+        <source>No search on this site used a word of the page title.</source>
+        <translation>ʻAʻohe huli ma kēia pūnaewele i hoʻohana i kekahi huaʻōlelo o ke poʻo inoa o ka ʻaoʻao.</translation>
+    </message>
+    <message>
+        <source>Where visitors came from is not recorded on this installation.</source>
+        <translation>ʻAʻole kākau ʻia ma kēia hoʻokomo i kahi i hele mai ai nā malihini.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Pahu leka komo</translation>
     </message>

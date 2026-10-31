@@ -564,6 +564,34 @@
         <translation>Ebongiseli</translation>
     </message>
     <message>
+        <source>Insights</source>
+        <translation>Bososoli</translation>
+    </message>
+    <message>
+        <source>Views of this page: %n</source>
+        <translation>Batali lokasa oyo: %n</translation>
+    </message>
+    <message>
+        <source>The views are not counted on this installation (cronjob updateviewcount).</source>
+        <translation>Batali ezali kotángama te na botandi oyo (cronjob updateviewcount).</translation>
+    </message>
+    <message>
+        <source>Searches on this site for words in the page title</source>
+        <translation>Boluki na site oyo mpo na maloba ya motó ya lokasa</translation>
+    </message>
+    <message>
+        <source>%n searches, %results results</source>
+        <translation>Boluki %n, mbano %results</translation>
+    </message>
+    <message>
+        <source>No search on this site used a word of the page title.</source>
+        <translation>Boluki moko te na site oyo esalelaki liloba ya motó ya lokasa.</translation>
+    </message>
+    <message>
+        <source>Where visitors came from is not recorded on this installation.</source>
+        <translation>Esika bapaya bauti ekomamaka te na botandi oyo.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Bokóti ya mikanda</translation>
     </message>

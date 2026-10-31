@@ -83,6 +83,7 @@ extensions. A dry run lists the changes first.
 | Page | `expwt/use` (reading), `expwt/edit` (changing) | the page's fields in a form, editing on the page, save the draft, preview, the full editor, publish now or at a date, take down at a date, discard the draft |
 | Create | `expwt/create` | a new page below or beside this one: the classes you may create there, a title, then fill it in the Page panel and publish |
 | Structure | `expwt/structure` | hide and reveal, move and add a location (choose the place in a tree on the site), move to the trash, sort the pages below by dragging or with the up and down buttons |
+| Insights | `expwt/insights` | read-only, from the kernel's own statistics, no third-party tracking: the page's views (the view counter the cronjob `updateviewcount` fills from the access log; where it is off the panel says so), the searches on this site for words of the page's title (the kernel's search log, with how often and how many results), and that the kernel records no referrers |
 | Inbox | `expwt/use` and the kernel's `collaboration` policy | the approvals of the publishing workflow that wait for you (the kernel's approve event): each page with its author and last comment, **Open the draft**, and for its approvers a comment with **Approve** or **Deny**, decided through the kernel's own `collaboration/action` view, exactly as in the administration (the workflow publishes an approved page on its next run; a denied one is a draft of its author again). Their number is a badge on the closed tab and on the panel's tab |
 | Me | `expwt/use` | your account at a glance and the kernel's own pages for it (account, password, passkeys, sessions and devices, security, notifications, drafts, bookmarks), the sidebar's preferences, sign out |
 
@@ -180,6 +181,7 @@ the draft, through the image field's own upload; its alternative text is in its 
 | `expwt/create` | the Create panel |
 | `expwt/structure` | the Structure panel |
 | `expwt/layouts`, `expwt/templates`, `expwt/shop`, `expwt/admin` | the panels of later phases (defined now) |
+| `expwt/insights` | the Insights panel: the page's views and the site's searches for words of its title, from the kernel's own statistics |
 
 The expwt policies decide what the sidebar offers; every action also checks the kernel's policy of what it changes
 (`content/edit` of the object, `content/create` below the parent, `content/hide`, `content/remove` ...) through the

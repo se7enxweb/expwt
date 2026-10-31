@@ -564,6 +564,34 @@
         <translation>mIwmey</translation>
     </message>
     <message>
+        <source>Insights</source>
+        <translation>yaj</translation>
+    </message>
+    <message>
+        <source>Views of this page: %n</source>
+        <translation>nav ghItlh legh: %n</translation>
+    </message>
+    <message>
+        <source>The views are not counted on this installation (cronjob updateviewcount).</source>
+        <translation>jabbI'ID Dagh mI' DaH qaStaHvIS (cronjob updateviewcount).</translation>
+    </message>
+    <message>
+        <source>Searches on this site for words in the page title</source>
+        <translation>nav pong mu'mey nejmeH Daq tu'</translation>
+    </message>
+    <message>
+        <source>%n searches, %results results</source>
+        <translation>%n nejmeH, %results Dochmey</translation>
+    </message>
+    <message>
+        <source>No search on this site used a word of the page title.</source>
+        <translation>nav pong mu' lo'be' Daq nejmeH.</translation>
+    </message>
+    <message>
+        <source>Where visitors came from is not recorded on this installation.</source>
+        <translation>ghoS ghaHvaD ngeD lutu'be'.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>QIn chu'</translation>
     </message>

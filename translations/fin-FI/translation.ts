@@ -564,6 +564,34 @@
         <translation>Rakenne</translation>
     </message>
     <message>
+        <source>Insights</source>
+        <translation>Tilastot</translation>
+    </message>
+    <message>
+        <source>Views of this page: %n</source>
+        <translation>Tämän sivun katselut: %n</translation>
+    </message>
+    <message>
+        <source>The views are not counted on this installation (cronjob updateviewcount).</source>
+        <translation>Katseluja ei lasketa tässä asennuksessa (cronjob updateviewcount).</translation>
+    </message>
+    <message>
+        <source>Searches on this site for words in the page title</source>
+        <translation>Haut tällä sivustolla sivun otsikon sanoilla</translation>
+    </message>
+    <message>
+        <source>%n searches, %results results</source>
+        <translation>%n hakua, %results tulosta</translation>
+    </message>
+    <message>
+        <source>No search on this site used a word of the page title.</source>
+        <translation>Mikään haku tällä sivustolla ei käyttänyt sivun otsikon sanaa.</translation>
+    </message>
+    <message>
+        <source>Where visitors came from is not recorded on this installation.</source>
+        <translation>Mistä kävijät tulivat, ei tallenneta tässä asennuksessa.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Saapuneet</translation>
     </message>

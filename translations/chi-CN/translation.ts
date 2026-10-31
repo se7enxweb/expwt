@@ -564,6 +564,34 @@
         <translation>结构</translation>
     </message>
     <message>
+        <source>Insights</source>
+        <translation>洞察</translation>
+    </message>
+    <message>
+        <source>Views of this page: %n</source>
+        <translation>此页面的浏览量：%n</translation>
+    </message>
+    <message>
+        <source>The views are not counted on this installation (cronjob updateviewcount).</source>
+        <translation>此安装未统计浏览量（cronjob updateviewcount）。</translation>
+    </message>
+    <message>
+        <source>Searches on this site for words in the page title</source>
+        <translation>本站对页面标题中词语的搜索</translation>
+    </message>
+    <message>
+        <source>%n searches, %results results</source>
+        <translation>%n 次搜索，%results 个结果</translation>
+    </message>
+    <message>
+        <source>No search on this site used a word of the page title.</source>
+        <translation>本站没有搜索使用页面标题中的词语。</translation>
+    </message>
+    <message>
+        <source>Where visitors came from is not recorded on this installation.</source>
+        <translation>此安装不记录访问者的来源。</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>收件箱</translation>
     </message>

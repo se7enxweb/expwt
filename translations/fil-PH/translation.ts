@@ -564,6 +564,34 @@
         <translation>Istruktura</translation>
     </message>
     <message>
+        <source>Insights</source>
+        <translation>Mga insight</translation>
+    </message>
+    <message>
+        <source>Views of this page: %n</source>
+        <translation>Mga pagtingin sa pahinang ito: %n</translation>
+    </message>
+    <message>
+        <source>The views are not counted on this installation (cronjob updateviewcount).</source>
+        <translation>Hindi binibilang ang mga pagtingin sa installation na ito (cronjob updateviewcount).</translation>
+    </message>
+    <message>
+        <source>Searches on this site for words in the page title</source>
+        <translation>Mga paghahanap sa site na ito para sa mga salita sa pamagat ng pahina</translation>
+    </message>
+    <message>
+        <source>%n searches, %results results</source>
+        <translation>%n paghahanap, %results resulta</translation>
+    </message>
+    <message>
+        <source>No search on this site used a word of the page title.</source>
+        <translation>Walang paghahanap sa site na ito ang gumamit ng salita mula sa pamagat ng pahina.</translation>
+    </message>
+    <message>
+        <source>Where visitors came from is not recorded on this installation.</source>
+        <translation>Hindi itinatala sa installation na ito kung saan nanggaling ang mga bisita.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Inbox</translation>
     </message>

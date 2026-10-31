@@ -564,6 +564,34 @@
         <translation>جوړښت</translation>
     </message>
     <message>
+        <source>Insights</source>
+        <translation>لیدلوري</translation>
+    </message>
+    <message>
+        <source>Views of this page: %n</source>
+        <translation>د دې پاڼې کتنې: %n</translation>
+    </message>
+    <message>
+        <source>The views are not counted on this installation (cronjob updateviewcount).</source>
+        <translation>په دې نصب کې کتنې نه شمېرل کېږي (cronjob updateviewcount).</translation>
+    </message>
+    <message>
+        <source>Searches on this site for words in the page title</source>
+        <translation>په دې سایټ کې د پاڼې د سرلیک د کلمو لټونونه</translation>
+    </message>
+    <message>
+        <source>%n searches, %results results</source>
+        <translation>%n لټونونه، %results پایلې</translation>
+    </message>
+    <message>
+        <source>No search on this site used a word of the page title.</source>
+        <translation>په دې سایټ کې هېڅ لټون د پاڼې د سرلیک کلمه نه ده کارولې.</translation>
+    </message>
+    <message>
+        <source>Where visitors came from is not recorded on this installation.</source>
+        <translation>لیدونکي له کومه راغلي، په دې نصب کې نه ثبتېږي.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>راغلي لیکونه</translation>
     </message>

@@ -564,6 +564,34 @@
         <translation>구조</translation>
     </message>
     <message>
+        <source>Insights</source>
+        <translation>통찰</translation>
+    </message>
+    <message>
+        <source>Views of this page: %n</source>
+        <translation>이 페지의 열람수: %n</translation>
+    </message>
+    <message>
+        <source>The views are not counted on this installation (cronjob updateviewcount).</source>
+        <translation>이 설치에서는 열람수를 세지 않습니다 (cronjob updateviewcount).</translation>
+    </message>
+    <message>
+        <source>Searches on this site for words in the page title</source>
+        <translation>페지 제목의 단어로 이 싸이트에서 한 검색</translation>
+    </message>
+    <message>
+        <source>%n searches, %results results</source>
+        <translation>검색 %n번, 결과 %results개</translation>
+    </message>
+    <message>
+        <source>No search on this site used a word of the page title.</source>
+        <translation>이 싸이트에서 페지 제목의 단어를 쓴 검색이 없습니다.</translation>
+    </message>
+    <message>
+        <source>Where visitors came from is not recorded on this installation.</source>
+        <translation>방문자가 어디에서 왔는지 이 설치에서는 기록하지 않습니다.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>받은편지함</translation>
     </message>

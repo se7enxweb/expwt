@@ -564,6 +564,34 @@
         <translation>Szerkezet</translation>
     </message>
     <message>
+        <source>Insights</source>
+        <translation>Elemzés</translation>
+    </message>
+    <message>
+        <source>Views of this page: %n</source>
+        <translation>Az oldal megtekintései: %n</translation>
+    </message>
+    <message>
+        <source>The views are not counted on this installation (cronjob updateviewcount).</source>
+        <translation>Ezen a telepítésen nem számolják a megtekintéseket (cronjob updateviewcount).</translation>
+    </message>
+    <message>
+        <source>Searches on this site for words in the page title</source>
+        <translation>Keresések ezen a webhelyen az oldal címének szavaira</translation>
+    </message>
+    <message>
+        <source>%n searches, %results results</source>
+        <translation>%n keresés, %results találat</translation>
+    </message>
+    <message>
+        <source>No search on this site used a word of the page title.</source>
+        <translation>Egyetlen keresés sem használt szót az oldal címéből ezen a webhelyen.</translation>
+    </message>
+    <message>
+        <source>Where visitors came from is not recorded on this installation.</source>
+        <translation>Hogy honnan jöttek a látogatók, azt ez a telepítés nem rögzíti.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Beérkezett</translation>
     </message>

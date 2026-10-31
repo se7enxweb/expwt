@@ -564,6 +564,34 @@
         <translation>Түзүлүш</translation>
     </message>
     <message>
+        <source>Insights</source>
+        <translation>Талдоо</translation>
+    </message>
+    <message>
+        <source>Views of this page: %n</source>
+        <translation>Бул барактын көрүүлөрү: %n</translation>
+    </message>
+    <message>
+        <source>The views are not counted on this installation (cronjob updateviewcount).</source>
+        <translation>Бул орнотууда көрүүлөр саналбайт (cronjob updateviewcount).</translation>
+    </message>
+    <message>
+        <source>Searches on this site for words in the page title</source>
+        <translation>Бул сайтта барактын аталышындагы сөздөр боюнча издөөлөр</translation>
+    </message>
+    <message>
+        <source>%n searches, %results results</source>
+        <translation>%n издөө, %results натыйжа</translation>
+    </message>
+    <message>
+        <source>No search on this site used a word of the page title.</source>
+        <translation>Бул сайттагы бир дагы издөө барактын аталышындагы сөздү колдонгон эмес.</translation>
+    </message>
+    <message>
+        <source>Where visitors came from is not recorded on this installation.</source>
+        <translation>Келүүчүлөр кайдан келгени бул орнотууда жазылбайт.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Кирүүчүлөр</translation>
     </message>

@@ -564,6 +564,34 @@
         <translation>መዋቅር</translation>
     </message>
     <message>
+        <source>Insights</source>
+        <translation>ግንዛቤዎች</translation>
+    </message>
+    <message>
+        <source>Views of this page: %n</source>
+        <translation>የዚህ ገጽ እይታዎች፦ %n</translation>
+    </message>
+    <message>
+        <source>The views are not counted on this installation (cronjob updateviewcount).</source>
+        <translation>እይታዎች በዚህ ጭነት ላይ አይቆጠሩም (cronjob updateviewcount)።</translation>
+    </message>
+    <message>
+        <source>Searches on this site for words in the page title</source>
+        <translation>በዚህ ጣቢያ ላይ የገጹ ርዕስ ቃላት ፍለጋዎች</translation>
+    </message>
+    <message>
+        <source>%n searches, %results results</source>
+        <translation>%n ፍለጋዎች፣ %results ውጤቶች</translation>
+    </message>
+    <message>
+        <source>No search on this site used a word of the page title.</source>
+        <translation>በዚህ ጣቢያ ላይ የገጹን ርዕስ ቃል የተጠቀመ ፍለጋ የለም።</translation>
+    </message>
+    <message>
+        <source>Where visitors came from is not recorded on this installation.</source>
+        <translation>ጎብኚዎች ከየት እንደመጡ በዚህ ጭነት ላይ አይመዘገብም።</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>የገቢ ሳጥን</translation>
     </message>

@@ -564,6 +564,34 @@
         <translation>ဖွဲ့စည်းပုံ</translation>
     </message>
     <message>
+        <source>Insights</source>
+        <translation>ထိုးထွင်းသိမြင်မှု</translation>
+    </message>
+    <message>
+        <source>Views of this page: %n</source>
+        <translation>ဤစာမျက်နှာ ကြည့်ရှုမှု- %n</translation>
+    </message>
+    <message>
+        <source>The views are not counted on this installation (cronjob updateviewcount).</source>
+        <translation>ဤထည့်သွင်းမှုတွင် ကြည့်ရှုမှုကို မရေတွက်ပါ (cronjob updateviewcount)။</translation>
+    </message>
+    <message>
+        <source>Searches on this site for words in the page title</source>
+        <translation>စာမျက်နှာခေါင်းစဉ်ရှိ စကားလုံးများအတွက် ဤဆိုက်တွင် ရှာဖွေမှုများ</translation>
+    </message>
+    <message>
+        <source>%n searches, %results results</source>
+        <translation>ရှာဖွေမှု %n ခု၊ ရလဒ် %results ခု</translation>
+    </message>
+    <message>
+        <source>No search on this site used a word of the page title.</source>
+        <translation>ဤဆိုက်တွင် မည်သည့်ရှာဖွေမှုမျှ စာမျက်နှာခေါင်းစဉ်ရှိ စကားလုံးကို မသုံးခဲ့ပါ။</translation>
+    </message>
+    <message>
+        <source>Where visitors came from is not recorded on this installation.</source>
+        <translation>ဧည့်သည်များ မည်သည့်နေရာမှ လာသည်ကို ဤထည့်သွင်းမှုတွင် မမှတ်တမ်းတင်ပါ။</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>ဝင်စာ</translation>
     </message>

@@ -564,6 +564,34 @@
         <translation>ໂຄງສ້າງ</translation>
     </message>
     <message>
+        <source>Insights</source>
+        <translation>ຂໍ້ມູນເຊີງເລິກ</translation>
+    </message>
+    <message>
+        <source>Views of this page: %n</source>
+        <translation>ການເບິ່ງໜ້ານີ້: %n</translation>
+    </message>
+    <message>
+        <source>The views are not counted on this installation (cronjob updateviewcount).</source>
+        <translation>ການເບິ່ງບໍ່ໄດ້ນັບໃນການຕິດຕັ້ງນີ້ (cronjob updateviewcount).</translation>
+    </message>
+    <message>
+        <source>Searches on this site for words in the page title</source>
+        <translation>ການຊອກຫາໃນເວັບໄຊນີ້ສຳລັບຄຳໃນຫົວຂໍ້ໜ້າ</translation>
+    </message>
+    <message>
+        <source>%n searches, %results results</source>
+        <translation>ຊອກຫາ %n ເທື່ອ, ຜົນ %results</translation>
+    </message>
+    <message>
+        <source>No search on this site used a word of the page title.</source>
+        <translation>ບໍ່ມີການຊອກຫາໃດໃນເວັບໄຊນີ້ໃຊ້ຄຳຈາກຫົວຂໍ້ໜ້າ.</translation>
+    </message>
+    <message>
+        <source>Where visitors came from is not recorded on this installation.</source>
+        <translation>ບ່ອນທີ່ຜູ້ເຂົ້າຊົມມາຈາກບໍ່ໄດ້ບັນທຶກໃນການຕິດຕັ້ງນີ້.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>ກ່ອງຂາເຂົ້າ</translation>
     </message>

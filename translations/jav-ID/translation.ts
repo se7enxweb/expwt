@@ -564,6 +564,34 @@
         <translation>Struktur</translation>
     </message>
     <message>
+        <source>Insights</source>
+        <translation>Wawasan</translation>
+    </message>
+    <message>
+        <source>Views of this page: %n</source>
+        <translation>Tayangan kaca iki: %n</translation>
+    </message>
+    <message>
+        <source>The views are not counted on this installation (cronjob updateviewcount).</source>
+        <translation>Tayangan ora diétung ing instalasi iki (cronjob updateviewcount).</translation>
+    </message>
+    <message>
+        <source>Searches on this site for words in the page title</source>
+        <translation>Panggolèkan ing situs iki kanggo tembung ing irah-irahan kaca</translation>
+    </message>
+    <message>
+        <source>%n searches, %results results</source>
+        <translation>%n panggolèkan, %results asil</translation>
+    </message>
+    <message>
+        <source>No search on this site used a word of the page title.</source>
+        <translation>Ora ana panggolèkan ing situs iki sing nganggo tembung saka irah-irahan kaca.</translation>
+    </message>
+    <message>
+        <source>Where visitors came from is not recorded on this installation.</source>
+        <translation>Saka ngendi pengunjung teka ora dicathet ing instalasi iki.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Kothak mlebu</translation>
     </message>

@@ -564,6 +564,34 @@
         <translation>Imiterere</translation>
     </message>
     <message>
+        <source>Insights</source>
+        <translation>Isesengura</translation>
+    </message>
+    <message>
+        <source>Views of this page: %n</source>
+        <translation>Abarebye uru rupapuro: %n</translation>
+    </message>
+    <message>
+        <source>The views are not counted on this installation (cronjob updateviewcount).</source>
+        <translation>Abareba ntibabarwa kuri iyi nyubako (cronjob updateviewcount).</translation>
+    </message>
+    <message>
+        <source>Searches on this site for words in the page title</source>
+        <translation>Ishakisha kuri uru rubuga ku magambo yo mu mutwe w'urupapuro</translation>
+    </message>
+    <message>
+        <source>%n searches, %results results</source>
+        <translation>Ishakisha %n, ibisubizo %results</translation>
+    </message>
+    <message>
+        <source>No search on this site used a word of the page title.</source>
+        <translation>Nta shakisha kuri uru rubuga ryakoresheje ijambo ryo mu mutwe w'urupapuro.</translation>
+    </message>
+    <message>
+        <source>Where visitors came from is not recorded on this installation.</source>
+        <translation>Aho abasura baturutse ntibyandikwa kuri iyi nyubako.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Ubutumwa bwinjira</translation>
     </message>

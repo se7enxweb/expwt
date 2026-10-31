@@ -21,7 +21,7 @@ class expwtState
 {
     const PREFERENCE = 'expwt_state';
 
-    const PANELS = array( 'page', 'create', 'structure', 'inbox', 'me' );
+    const PANELS = array( 'page', 'create', 'structure', 'insights', 'inbox', 'me' );
     const MODES = array( 'push', 'overlay' );
     const THEMES = array( 'auto', 'light', 'dark' );
     /** The edges the sidebar docks to: a vertical panel on left and right, a horizontal bar on top and bottom */

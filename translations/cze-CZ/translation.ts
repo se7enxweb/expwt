@@ -564,6 +564,34 @@
         <translation>Struktura</translation>
     </message>
     <message>
+        <source>Insights</source>
+        <translation>Přehled</translation>
+    </message>
+    <message>
+        <source>Views of this page: %n</source>
+        <translation>Zobrazení této stránky: %n</translation>
+    </message>
+    <message>
+        <source>The views are not counted on this installation (cronjob updateviewcount).</source>
+        <translation>Zobrazení se na této instalaci nepočítají (cronjob updateviewcount).</translation>
+    </message>
+    <message>
+        <source>Searches on this site for words in the page title</source>
+        <translation>Hledání na tomto webu podle slov z titulku stránky</translation>
+    </message>
+    <message>
+        <source>%n searches, %results results</source>
+        <translation>%n hledání, %results výsledků</translation>
+    </message>
+    <message>
+        <source>No search on this site used a word of the page title.</source>
+        <translation>Žádné hledání na tomto webu nepoužilo slovo z titulku stránky.</translation>
+    </message>
+    <message>
+        <source>Where visitors came from is not recorded on this installation.</source>
+        <translation>Odkud návštěvníci přišli, se na této instalaci nezaznamenává.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Doručené</translation>
     </message>

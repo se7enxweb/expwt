@@ -564,6 +564,34 @@
         <translation>Δομή</translation>
     </message>
     <message>
+        <source>Insights</source>
+        <translation>Στατιστικά</translation>
+    </message>
+    <message>
+        <source>Views of this page: %n</source>
+        <translation>Προβολές αυτής της σελίδας: %n</translation>
+    </message>
+    <message>
+        <source>The views are not counted on this installation (cronjob updateviewcount).</source>
+        <translation>Οι προβολές δεν μετρώνται σε αυτή την εγκατάσταση (cronjob updateviewcount).</translation>
+    </message>
+    <message>
+        <source>Searches on this site for words in the page title</source>
+        <translation>Αναζητήσεις στον ιστότοπο για λέξεις του τίτλου της σελίδας</translation>
+    </message>
+    <message>
+        <source>%n searches, %results results</source>
+        <translation>%n αναζητήσεις, %results αποτελέσματα</translation>
+    </message>
+    <message>
+        <source>No search on this site used a word of the page title.</source>
+        <translation>Καμία αναζήτηση στον ιστότοπο δεν χρησιμοποίησε λέξη του τίτλου της σελίδας.</translation>
+    </message>
+    <message>
+        <source>Where visitors came from is not recorded on this installation.</source>
+        <translation>Από πού ήρθαν οι επισκέπτες δεν καταγράφεται σε αυτή την εγκατάσταση.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Εισερχόμενα</translation>
     </message>

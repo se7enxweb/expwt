@@ -564,6 +564,34 @@
         <translation>Strwythur</translation>
     </message>
     <message>
+        <source>Insights</source>
+        <translation>Mewnwelediad</translation>
+    </message>
+    <message>
+        <source>Views of this page: %n</source>
+        <translation>Golygon y dudalen hon: %n</translation>
+    </message>
+    <message>
+        <source>The views are not counted on this installation (cronjob updateviewcount).</source>
+        <translation>Nid yw'r golygon yn cael eu cyfrif ar y gosodiad hwn (cronjob updateviewcount).</translation>
+    </message>
+    <message>
+        <source>Searches on this site for words in the page title</source>
+        <translation>Chwiliadau ar y wefan hon am eiriau yn nheitl y dudalen</translation>
+    </message>
+    <message>
+        <source>%n searches, %results results</source>
+        <translation>%n chwiliad, %results canlyniad</translation>
+    </message>
+    <message>
+        <source>No search on this site used a word of the page title.</source>
+        <translation>Ni ddefnyddiodd unrhyw chwiliad ar y wefan hon air o deitl y dudalen.</translation>
+    </message>
+    <message>
+        <source>Where visitors came from is not recorded on this installation.</source>
+        <translation>Nid yw o ble y daeth ymwelwyr yn cael ei gofnodi ar y gosodiad hwn.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Mewnflwch</translation>
     </message>

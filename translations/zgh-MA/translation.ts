@@ -564,6 +564,34 @@
         <translation>ⴰⵙⵖⵉⵡⵙ</translation>
     </message>
     <message>
+        <source>Insights</source>
+        <translation>ⵜⵉⵎⵓⵖⵍⵉⵡⵉⵏ</translation>
+    </message>
+    <message>
+        <source>Views of this page: %n</source>
+        <translation>ⵜⵉⵥⵕⵉⵡⵉⵏ ⵏ ⵜⴰⵙⵏⴰ ⴰ: %n</translation>
+    </message>
+    <message>
+        <source>The views are not counted on this installation (cronjob updateviewcount).</source>
+        <translation>ⵓⵔ ⵜⵜⵓⵙⵉⴹⵏⵜ ⵜⵉⵥⵕⵉⵡⵉⵏ ⴳ ⵓⵙⵔⵙ ⴰ (cronjob updateviewcount).</translation>
+    </message>
+    <message>
+        <source>Searches on this site for words in the page title</source>
+        <translation>ⵉⵔⵣⵣⵓⵜⵏ ⴳ ⵓⵙⵎⵔ ⴰ ⵅⴼ ⵡⴰⵡⴰⵍⵏ ⵏ ⵓⵣⵡⵍ ⵏ ⵜⴰⵙⵏⴰ</translation>
+    </message>
+    <message>
+        <source>%n searches, %results results</source>
+        <translation>%n ⵉⵔⵣⵣⵓⵜⵏ, %results ⵉⴳⵎⴰⴹ</translation>
+    </message>
+    <message>
+        <source>No search on this site used a word of the page title.</source>
+        <translation>ⵓⵔ ⵉⵍⵍⵉ ⵓⵔⵣⵣⵓ ⴳ ⵓⵙⵎⵔ ⴰ ⵉⵙⵙⵎⵔⵙⵏ ⴰⵡⴰⵍ ⵏ ⵓⵣⵡⵍ ⵏ ⵜⴰⵙⵏⴰ.</translation>
+    </message>
+    <message>
+        <source>Where visitors came from is not recorded on this installation.</source>
+        <translation>ⵎⴰⵏⵉ ⵙⴳ ⴷ ⵓⵛⴽⴰⵏ ⵉⵎⵔⵣⴰⵢⵏ ⵓⵔ ⵉⵜⵜⵓⵔⴰ ⴳ ⵓⵙⵔⵙ ⴰ.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>ⵜⴰⵙⵏⴷⵓⵇⵜ ⵏ ⵓⴽⵛⵛⵎ</translation>
     </message>

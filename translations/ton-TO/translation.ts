@@ -564,6 +564,34 @@
         <translation>Fokotuʻutuʻu</translation>
     </message>
     <message>
+        <source>Insights</source>
+        <translation>Ngaahi ʻiloʻi</translation>
+    </message>
+    <message>
+        <source>Views of this page: %n</source>
+        <translation>Ngaahi sio ki he peesi ko ʻeni: %n</translation>
+    </message>
+    <message>
+        <source>The views are not counted on this installation (cronjob updateviewcount).</source>
+        <translation>ʻOku ʻikai lau ʻa e ngaahi sio ʻi he fokotuʻu ko ʻeni (cronjob updateviewcount).</translation>
+    </message>
+    <message>
+        <source>Searches on this site for words in the page title</source>
+        <translation>Ngaahi kumi ʻi he uepisaiti ko ʻeni ki he ngaahi foʻi lea ʻi he kaveinga ʻo e peesi</translation>
+    </message>
+    <message>
+        <source>%n searches, %results results</source>
+        <translation>Kumi ʻe %n, ola ʻe %results</translation>
+    </message>
+    <message>
+        <source>No search on this site used a word of the page title.</source>
+        <translation>ʻOku ʻikai ha kumi ʻi he uepisaiti ko ʻeni naʻe ngāueʻaki ha foʻi lea mei he kaveinga ʻo e peesi.</translation>
+    </message>
+    <message>
+        <source>Where visitors came from is not recorded on this installation.</source>
+        <translation>ʻOku ʻikai lēkooti ʻi he fokotuʻu ko ʻeni ʻa e feituʻu naʻe haʻu mei ai ʻa e kau ʻaʻahi.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Puha tohi hū mai</translation>
     </message>

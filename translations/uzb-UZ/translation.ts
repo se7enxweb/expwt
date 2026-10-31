@@ -564,6 +564,34 @@
         <translation>Tuzilma</translation>
     </message>
     <message>
+        <source>Insights</source>
+        <translation>Tahlil</translation>
+    </message>
+    <message>
+        <source>Views of this page: %n</source>
+        <translation>Bu sahifa ko'rishlari: %n</translation>
+    </message>
+    <message>
+        <source>The views are not counted on this installation (cronjob updateviewcount).</source>
+        <translation>Bu o'rnatishda ko'rishlar sanalmaydi (cronjob updateviewcount).</translation>
+    </message>
+    <message>
+        <source>Searches on this site for words in the page title</source>
+        <translation>Bu saytda sahifa sarlavhasidagi so'zlar bo'yicha qidiruvlar</translation>
+    </message>
+    <message>
+        <source>%n searches, %results results</source>
+        <translation>%n qidiruv, %results natija</translation>
+    </message>
+    <message>
+        <source>No search on this site used a word of the page title.</source>
+        <translation>Bu saytdagi hech bir qidiruv sahifa sarlavhasidagi so'zni ishlatmagan.</translation>
+    </message>
+    <message>
+        <source>Where visitors came from is not recorded on this installation.</source>
+        <translation>Tashrif buyuruvchilar qayerdan kelgani bu o'rnatishda yozilmaydi.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Kiruvchilar</translation>
     </message>

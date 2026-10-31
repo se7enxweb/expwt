@@ -564,6 +564,34 @@
         <translation>Isakhiwo</translation>
     </message>
     <message>
+        <source>Insights</source>
+        <translation>Ukuqonda</translation>
+    </message>
+    <message>
+        <source>Views of this page: %n</source>
+        <translation>Ukubukwa kwaleli khasi: %n</translation>
+    </message>
+    <message>
+        <source>The views are not counted on this installation (cronjob updateviewcount).</source>
+        <translation>Ukubukwa akubalwa kulokhu kufakwa (cronjob updateviewcount).</translation>
+    </message>
+    <message>
+        <source>Searches on this site for words in the page title</source>
+        <translation>Ukusesha kule sayithi amagama asesihlokweni sekhasi</translation>
+    </message>
+    <message>
+        <source>%n searches, %results results</source>
+        <translation>Ukusesha %n, imiphumela %results</translation>
+    </message>
+    <message>
+        <source>No search on this site used a word of the page title.</source>
+        <translation>Akukho ukusesha kule sayithi okusebenzise igama lesihloko sekhasi.</translation>
+    </message>
+    <message>
+        <source>Where visitors came from is not recorded on this installation.</source>
+        <translation>Lapho izivakashi zivela khona akurekhodwa kulokhu kufakwa.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Ibhokisi lokungenayo</translation>
     </message>

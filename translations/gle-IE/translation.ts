@@ -564,6 +564,34 @@
         <translation>Struchtúr</translation>
     </message>
     <message>
+        <source>Insights</source>
+        <translation>Léargais</translation>
+    </message>
+    <message>
+        <source>Views of this page: %n</source>
+        <translation>Amhairc ar an leathanach seo: %n</translation>
+    </message>
+    <message>
+        <source>The views are not counted on this installation (cronjob updateviewcount).</source>
+        <translation>Ní chomhairtear na hamhairc ar an suiteáil seo (cronjob updateviewcount).</translation>
+    </message>
+    <message>
+        <source>Searches on this site for words in the page title</source>
+        <translation>Cuardaigh ar an suíomh seo ar fhocail i dteideal an leathanaigh</translation>
+    </message>
+    <message>
+        <source>%n searches, %results results</source>
+        <translation>%n cuardach, %results toradh</translation>
+    </message>
+    <message>
+        <source>No search on this site used a word of the page title.</source>
+        <translation>Níor úsáid aon chuardach ar an suíomh seo focal as teideal an leathanaigh.</translation>
+    </message>
+    <message>
+        <source>Where visitors came from is not recorded on this installation.</source>
+        <translation>Ní thaifeadtar ar an suiteáil seo cad as ar tháinig cuairteoirí.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Bosca isteach</translation>
     </message>

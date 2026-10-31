@@ -564,6 +564,34 @@
         <translation>ቅርጺ</translation>
     </message>
     <message>
+        <source>Insights</source>
+        <translation>ርድኢታት</translation>
+    </message>
+    <message>
+        <source>Views of this page: %n</source>
+        <translation>ርእይቶ ናይዚ ገጽ፦ %n</translation>
+    </message>
+    <message>
+        <source>The views are not counted on this installation (cronjob updateviewcount).</source>
+        <translation>ኣብዚ ተኸላ ርእይቶታት ኣይቑጸሩን (cronjob updateviewcount)።</translation>
+    </message>
+    <message>
+        <source>Searches on this site for words in the page title</source>
+        <translation>ኣብዚ መርበብ ንቃላት ኣርእስቲ ገጽ ዝተገብሩ ምድላያት</translation>
+    </message>
+    <message>
+        <source>%n searches, %results results</source>
+        <translation>%n ምድላያት፣ %results ውጽኢታት</translation>
+    </message>
+    <message>
+        <source>No search on this site used a word of the page title.</source>
+        <translation>ኣብዚ መርበብ ዝኾነ ምድላይ ቃል ካብ ኣርእስቲ ገጽ ኣይተጠቐመን።</translation>
+    </message>
+    <message>
+        <source>Where visitors came from is not recorded on this installation.</source>
+        <translation>በጻሕቲ ካበይ ከም ዝመጹ ኣብዚ ተኸላ ኣይምዝገብን።</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>ዝኣተዉ</translation>
     </message>

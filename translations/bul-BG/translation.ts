@@ -564,6 +564,34 @@
         <translation>Структура</translation>
     </message>
     <message>
+        <source>Insights</source>
+        <translation>Анализ</translation>
+    </message>
+    <message>
+        <source>Views of this page: %n</source>
+        <translation>Прегледи на тази страница: %n</translation>
+    </message>
+    <message>
+        <source>The views are not counted on this installation (cronjob updateviewcount).</source>
+        <translation>На тази инсталация прегледите не се броят (cronjob updateviewcount).</translation>
+    </message>
+    <message>
+        <source>Searches on this site for words in the page title</source>
+        <translation>Търсения в сайта за думи от заглавието на страницата</translation>
+    </message>
+    <message>
+        <source>%n searches, %results results</source>
+        <translation>%n търсения, %results резултата</translation>
+    </message>
+    <message>
+        <source>No search on this site used a word of the page title.</source>
+        <translation>Нито едно търсене в сайта не е използвало дума от заглавието на страницата.</translation>
+    </message>
+    <message>
+        <source>Where visitors came from is not recorded on this installation.</source>
+        <translation>Откъде идват посетителите, не се записва на тази инсталация.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Входящи</translation>
     </message>

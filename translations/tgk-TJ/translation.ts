@@ -564,6 +564,34 @@
         <translation>Сохтор</translation>
     </message>
     <message>
+        <source>Insights</source>
+        <translation>Таҳлил</translation>
+    </message>
+    <message>
+        <source>Views of this page: %n</source>
+        <translation>Тамошоҳои ин саҳифа: %n</translation>
+    </message>
+    <message>
+        <source>The views are not counted on this installation (cronjob updateviewcount).</source>
+        <translation>Дар ин насб тамошоҳо шумурда намешаванд (cronjob updateviewcount).</translation>
+    </message>
+    <message>
+        <source>Searches on this site for words in the page title</source>
+        <translation>Ҷустуҷӯҳо дар ин сайт аз рӯи калимаҳои сарлавҳаи саҳифа</translation>
+    </message>
+    <message>
+        <source>%n searches, %results results</source>
+        <translation>%n ҷустуҷӯ, %results натиҷа</translation>
+    </message>
+    <message>
+        <source>No search on this site used a word of the page title.</source>
+        <translation>Ягон ҷустуҷӯ дар ин сайт калимаи сарлавҳаи саҳифаро истифода накардааст.</translation>
+    </message>
+    <message>
+        <source>Where visitors came from is not recorded on this installation.</source>
+        <translation>Меҳмонон аз куҷо омадаанд, дар ин насб сабт намешавад.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Воридшуда</translation>
     </message>

@@ -564,6 +564,34 @@
         <translation>গাঁথনি</translation>
     </message>
     <message>
+        <source>Insights</source>
+        <translation>অন্তৰ্দৃষ্টি</translation>
+    </message>
+    <message>
+        <source>Views of this page: %n</source>
+        <translation>এই পৃষ্ঠাৰ দৰ্শন: %n</translation>
+    </message>
+    <message>
+        <source>The views are not counted on this installation (cronjob updateviewcount).</source>
+        <translation>এই সংস্থাপনত দৰ্শন গণনা কৰা নহয় (cronjob updateviewcount)।</translation>
+    </message>
+    <message>
+        <source>Searches on this site for words in the page title</source>
+        <translation>পৃষ্ঠাৰ শিৰোনামৰ শব্দৰ বাবে এই ছাইটত সন্ধান</translation>
+    </message>
+    <message>
+        <source>%n searches, %results results</source>
+        <translation>%n সন্ধান, %results ফলাফল</translation>
+    </message>
+    <message>
+        <source>No search on this site used a word of the page title.</source>
+        <translation>এই ছাইটত কোনো সন্ধানে পৃষ্ঠাৰ শিৰোনামৰ শব্দ ব্যৱহাৰ কৰা নাই।</translation>
+    </message>
+    <message>
+        <source>Where visitors came from is not recorded on this installation.</source>
+        <translation>দৰ্শকসকল ক'ৰ পৰা আহিছিল সেয়া এই সংস্থাপনত ৰেকৰ্ড কৰা নহয়।</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>ইনবক্স</translation>
     </message>

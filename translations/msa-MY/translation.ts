@@ -564,6 +564,34 @@
         <translation>Struktur</translation>
     </message>
     <message>
+        <source>Insights</source>
+        <translation>Wawasan</translation>
+    </message>
+    <message>
+        <source>Views of this page: %n</source>
+        <translation>Paparan halaman ini: %n</translation>
+    </message>
+    <message>
+        <source>The views are not counted on this installation (cronjob updateviewcount).</source>
+        <translation>Paparan tidak dikira pada pemasangan ini (cronjob updateviewcount).</translation>
+    </message>
+    <message>
+        <source>Searches on this site for words in the page title</source>
+        <translation>Carian di laman ini untuk perkataan dalam tajuk halaman</translation>
+    </message>
+    <message>
+        <source>%n searches, %results results</source>
+        <translation>%n carian, %results hasil</translation>
+    </message>
+    <message>
+        <source>No search on this site used a word of the page title.</source>
+        <translation>Tiada carian di laman ini menggunakan perkataan daripada tajuk halaman.</translation>
+    </message>
+    <message>
+        <source>Where visitors came from is not recorded on this installation.</source>
+        <translation>Dari mana pelawat datang tidak direkodkan pada pemasangan ini.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Peti masuk</translation>
     </message>

@@ -564,6 +564,34 @@
         <translation>מבנה</translation>
     </message>
     <message>
+        <source>Insights</source>
+        <translation>תובנות</translation>
+    </message>
+    <message>
+        <source>Views of this page: %n</source>
+        <translation>צפיות בדף זה: %n</translation>
+    </message>
+    <message>
+        <source>The views are not counted on this installation (cronjob updateviewcount).</source>
+        <translation>הצפיות אינן נספרות בהתקנה זו (cronjob updateviewcount).</translation>
+    </message>
+    <message>
+        <source>Searches on this site for words in the page title</source>
+        <translation>חיפושים באתר זה של מילים מכותרת הדף</translation>
+    </message>
+    <message>
+        <source>%n searches, %results results</source>
+        <translation>%n חיפושים, %results תוצאות</translation>
+    </message>
+    <message>
+        <source>No search on this site used a word of the page title.</source>
+        <translation>אף חיפוש באתר זה לא השתמש במילה מכותרת הדף.</translation>
+    </message>
+    <message>
+        <source>Where visitors came from is not recorded on this installation.</source>
+        <translation>מאין הגיעו המבקרים אינו נרשם בהתקנה זו.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>תיבת דואר נכנס</translation>
     </message>

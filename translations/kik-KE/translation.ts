@@ -564,6 +564,34 @@
         <translation>Mũbangĩre</translation>
     </message>
     <message>
+        <source>Insights</source>
+        <translation>Ũmenyo</translation>
+    </message>
+    <message>
+        <source>Views of this page: %n</source>
+        <translation>Mĩrorere ya ũrũa rũrũ: %n</translation>
+    </message>
+    <message>
+        <source>The views are not counted on this installation (cronjob updateviewcount).</source>
+        <translation>Mĩrorere ndĩtaragwo kũrĩ ũbanda ũyũ (cronjob updateviewcount).</translation>
+    </message>
+    <message>
+        <source>Searches on this site for words in the page title</source>
+        <translation>Mĩcaria kũrĩ thaiti ĩno ya ciugo cia rĩĩtwa rĩa ũrũa</translation>
+    </message>
+    <message>
+        <source>%n searches, %results results</source>
+        <translation>Mĩcaria %n, maumĩrĩra %results</translation>
+    </message>
+    <message>
+        <source>No search on this site used a word of the page title.</source>
+        <translation>Gũtirĩ mũcaria kũrĩ thaiti ĩno wahũthĩrire kiugo kĩa rĩĩtwa rĩa ũrũa.</translation>
+    </message>
+    <message>
+        <source>Where visitors came from is not recorded on this installation.</source>
+        <translation>Kũrĩa ageni moimĩte gũtiandĩkagwo kũrĩ ũbanda ũyũ.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Ithandũkũ rĩa marũa</translation>
     </message>

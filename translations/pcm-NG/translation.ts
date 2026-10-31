@@ -564,6 +564,34 @@
         <translation>Structure</translation>
     </message>
     <message>
+        <source>Insights</source>
+        <translation>Insight</translation>
+    </message>
+    <message>
+        <source>Views of this page: %n</source>
+        <translation>How many times people see dis page: %n</translation>
+    </message>
+    <message>
+        <source>The views are not counted on this installation (cronjob updateviewcount).</source>
+        <translation>Dem no dey count views for dis installation (cronjob updateviewcount).</translation>
+    </message>
+    <message>
+        <source>Searches on this site for words in the page title</source>
+        <translation>Search for dis site for words wey dey page title</translation>
+    </message>
+    <message>
+        <source>%n searches, %results results</source>
+        <translation>%n search, %results result</translation>
+    </message>
+    <message>
+        <source>No search on this site used a word of the page title.</source>
+        <translation>No search for dis site use word from di page title.</translation>
+    </message>
+    <message>
+        <source>Where visitors came from is not recorded on this installation.</source>
+        <translation>Where visitors come from no dey recorded for dis installation.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Inbox</translation>
     </message>

@@ -564,6 +564,34 @@
         <translation>Aaqqissuussaaneq</translation>
     </message>
     <message>
+        <source>Insights</source>
+        <translation>Paasisaarut</translation>
+    </message>
+    <message>
+        <source>Views of this page: %n</source>
+        <translation>Quppernermut matumunnga takunninnerit: %n</translation>
+    </message>
+    <message>
+        <source>The views are not counted on this installation (cronjob updateviewcount).</source>
+        <translation>Takunninnerit ikkussinermi uani kisinneqanngillat (cronjob updateviewcount).</translation>
+    </message>
+    <message>
+        <source>Searches on this site for words in the page title</source>
+        <translation>Nittartakkami uani quppernerup qulequtaani oqaatsinik ujarlernerit</translation>
+    </message>
+    <message>
+        <source>%n searches, %results results</source>
+        <translation>Ujarlernerit %n, inernerit %results</translation>
+    </message>
+    <message>
+        <source>No search on this site used a word of the page title.</source>
+        <translation>Ujarlernermi nittartakkami uani quppernerup qulequtaani oqaaseq atorneqanngilaq.</translation>
+    </message>
+    <message>
+        <source>Where visitors came from is not recorded on this installation.</source>
+        <translation>Tikeraat sumit pinersut ikkussinermi uani allattorneqanngillat.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Tiguniakkat</translation>
     </message>

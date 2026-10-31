@@ -564,6 +564,34 @@
         <translation>الهيكل</translation>
     </message>
     <message>
+        <source>Insights</source>
+        <translation>رؤى</translation>
+    </message>
+    <message>
+        <source>Views of this page: %n</source>
+        <translation>مشاهدات هذه الصفحة: %n</translation>
+    </message>
+    <message>
+        <source>The views are not counted on this installation (cronjob updateviewcount).</source>
+        <translation>لا تُحسب المشاهدات في هذا التثبيت (cronjob updateviewcount).</translation>
+    </message>
+    <message>
+        <source>Searches on this site for words in the page title</source>
+        <translation>عمليات البحث في هذا الموقع عن كلمات من عنوان الصفحة</translation>
+    </message>
+    <message>
+        <source>%n searches, %results results</source>
+        <translation>%n عمليات بحث، %results نتائج</translation>
+    </message>
+    <message>
+        <source>No search on this site used a word of the page title.</source>
+        <translation>لم يستخدم أي بحث في هذا الموقع كلمة من عنوان الصفحة.</translation>
+    </message>
+    <message>
+        <source>Where visitors came from is not recorded on this installation.</source>
+        <translation>لا يُسجَّل في هذا التثبيت من أين جاء الزوار.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>الوارد</translation>
     </message>

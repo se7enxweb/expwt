@@ -564,6 +564,34 @@
         <translation>Structura</translation>
     </message>
     <message>
+        <source>Insights</source>
+        <translation>Perspectus</translation>
+    </message>
+    <message>
+        <source>Views of this page: %n</source>
+        <translation>Aspectus huius paginae: %n</translation>
+    </message>
+    <message>
+        <source>The views are not counted on this installation (cronjob updateviewcount).</source>
+        <translation>Aspectus in hac institutione non numerantur (cronjob updateviewcount).</translation>
+    </message>
+    <message>
+        <source>Searches on this site for words in the page title</source>
+        <translation>Quaesita in hoc situ verborum tituli paginae</translation>
+    </message>
+    <message>
+        <source>%n searches, %results results</source>
+        <translation>%n quaesita, %results eventus</translation>
+    </message>
+    <message>
+        <source>No search on this site used a word of the page title.</source>
+        <translation>Nullum quaesitum in hoc situ verbo tituli paginae usum est.</translation>
+    </message>
+    <message>
+        <source>Where visitors came from is not recorded on this installation.</source>
+        <translation>Unde visitatores venerint in hac institutione non notatur.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Arca accepta</translation>
     </message>

@@ -564,6 +564,34 @@
         <translation>Структура</translation>
     </message>
     <message>
+        <source>Insights</source>
+        <translation>Аналітыка</translation>
+    </message>
+    <message>
+        <source>Views of this page: %n</source>
+        <translation>Праглядаў гэтай старонкі: %n</translation>
+    </message>
+    <message>
+        <source>The views are not counted on this installation (cronjob updateviewcount).</source>
+        <translation>Прагляды на гэтай усталёўцы не лічацца (cronjob updateviewcount).</translation>
+    </message>
+    <message>
+        <source>Searches on this site for words in the page title</source>
+        <translation>Пошукі на гэтым сайце па словах з загалоўка старонкі</translation>
+    </message>
+    <message>
+        <source>%n searches, %results results</source>
+        <translation>%n пошукаў, %results вынікаў</translation>
+    </message>
+    <message>
+        <source>No search on this site used a word of the page title.</source>
+        <translation>Ніводны пошук на гэтым сайце не выкарыстаў слова з загалоўка старонкі.</translation>
+    </message>
+    <message>
+        <source>Where visitors came from is not recorded on this installation.</source>
+        <translation>Адкуль прыйшлі наведвальнікі, на гэтай усталёўцы не запісваецца.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Уваходныя</translation>
     </message>

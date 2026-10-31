@@ -564,6 +564,34 @@
         <translation>Bygnaður</translation>
     </message>
     <message>
+        <source>Insights</source>
+        <translation>Innlit</translation>
+    </message>
+    <message>
+        <source>Views of this page: %n</source>
+        <translation>Vísingar av hesi síðuni: %n</translation>
+    </message>
+    <message>
+        <source>The views are not counted on this installation (cronjob updateviewcount).</source>
+        <translation>Vísingar verða ikki taldar á hesi uppsetingini (cronjob updateviewcount).</translation>
+    </message>
+    <message>
+        <source>Searches on this site for words in the page title</source>
+        <translation>Leitingar á hesi heimasíðuni eftir orðum í heitinum á síðuni</translation>
+    </message>
+    <message>
+        <source>%n searches, %results results</source>
+        <translation>%n leitingar, %results úrslit</translation>
+    </message>
+    <message>
+        <source>No search on this site used a word of the page title.</source>
+        <translation>Eingin leiting á hesi heimasíðuni nýtti eitt orð úr heitinum á síðuni.</translation>
+    </message>
+    <message>
+        <source>Where visitors came from is not recorded on this installation.</source>
+        <translation>Hvaðani vitjandi komu, verður ikki skrásett á hesi uppsetingini.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Innbakki</translation>
     </message>

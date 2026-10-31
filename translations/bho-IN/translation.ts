@@ -564,6 +564,34 @@
         <translation>ढाँचा</translation>
     </message>
     <message>
+        <source>Insights</source>
+        <translation>अंतर्दृष्टि</translation>
+    </message>
+    <message>
+        <source>Views of this page: %n</source>
+        <translation>एह पन्ना के दर्शन: %n</translation>
+    </message>
+    <message>
+        <source>The views are not counted on this installation (cronjob updateviewcount).</source>
+        <translation>एह इंस्टॉलेशन पर दर्शन ना गिनल जाला (cronjob updateviewcount)।</translation>
+    </message>
+    <message>
+        <source>Searches on this site for words in the page title</source>
+        <translation>पन्ना के शीर्षक के शब्दन खातिर एह साइट पर खोज</translation>
+    </message>
+    <message>
+        <source>%n searches, %results results</source>
+        <translation>%n खोज, %results नतीजा</translation>
+    </message>
+    <message>
+        <source>No search on this site used a word of the page title.</source>
+        <translation>एह साइट पर कवनो खोज पन्ना के शीर्षक के शब्द ना इस्तेमाल कइलस।</translation>
+    </message>
+    <message>
+        <source>Where visitors came from is not recorded on this installation.</source>
+        <translation>आगंतुक कहाँ से अइलें, ई एह इंस्टॉलेशन पर दर्ज ना होला।</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>इनबॉक्स</translation>
     </message>

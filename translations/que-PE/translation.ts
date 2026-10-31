@@ -564,6 +564,34 @@
         <translation>Estructura</translation>
     </message>
     <message>
+        <source>Insights</source>
+        <translation>Hamutaykuna</translation>
+    </message>
+    <message>
+        <source>Views of this page: %n</source>
+        <translation>Kay p'anqata qhawasqanku: %n</translation>
+    </message>
+    <message>
+        <source>The views are not counted on this installation (cronjob updateviewcount).</source>
+        <translation>Kay churasqapiqa manam qhawasqakunata yupanchu (cronjob updateviewcount).</translation>
+    </message>
+    <message>
+        <source>Searches on this site for words in the page title</source>
+        <translation>Kay sitiopi p'anqa sutinpa rimankunata maskasqakuna</translation>
+    </message>
+    <message>
+        <source>%n searches, %results results</source>
+        <translation>%n maskasqa, %results tarisqa</translation>
+    </message>
+    <message>
+        <source>No search on this site used a word of the page title.</source>
+        <translation>Manam ni huk maskasqapas kay sitiopi p'anqa sutinpa rimanta llamk'achirqanchu.</translation>
+    </message>
+    <message>
+        <source>Where visitors came from is not recorded on this installation.</source>
+        <translation>Watukuqkuna maymanta hamusqankuqa manam kay churasqapi qillqakunchu.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Chaskina</translation>
     </message>

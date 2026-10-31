@@ -564,6 +564,34 @@
         <translation>Yapı</translation>
     </message>
     <message>
+        <source>Insights</source>
+        <translation>Görünüm</translation>
+    </message>
+    <message>
+        <source>Views of this page: %n</source>
+        <translation>Bu sayfanın görüntülenmesi: %n</translation>
+    </message>
+    <message>
+        <source>The views are not counted on this installation (cronjob updateviewcount).</source>
+        <translation>Bu kurulumda görüntülenmeler sayılmıyor (cronjob updateviewcount).</translation>
+    </message>
+    <message>
+        <source>Searches on this site for words in the page title</source>
+        <translation>Bu sitede sayfa başlığındaki sözcükler için yapılan aramalar</translation>
+    </message>
+    <message>
+        <source>%n searches, %results results</source>
+        <translation>%n arama, %results sonuç</translation>
+    </message>
+    <message>
+        <source>No search on this site used a word of the page title.</source>
+        <translation>Bu sitede hiçbir arama sayfa başlığından bir sözcük kullanmadı.</translation>
+    </message>
+    <message>
+        <source>Where visitors came from is not recorded on this installation.</source>
+        <translation>Ziyaretçilerin nereden geldiği bu kurulumda kaydedilmiyor.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Gelen kutusu</translation>
     </message>

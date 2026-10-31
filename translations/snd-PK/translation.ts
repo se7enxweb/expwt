@@ -564,6 +564,34 @@
         <translation>بناوت</translation>
     </message>
     <message>
+        <source>Insights</source>
+        <translation>بصيرت</translation>
+    </message>
+    <message>
+        <source>Views of this page: %n</source>
+        <translation>هن صفحي جا ڏيک: %n</translation>
+    </message>
+    <message>
+        <source>The views are not counted on this installation (cronjob updateviewcount).</source>
+        <translation>هن انسٽاليشن تي ڏيک ڳڻيا نٿا وڃن (cronjob updateviewcount).</translation>
+    </message>
+    <message>
+        <source>Searches on this site for words in the page title</source>
+        <translation>صفحي جي عنوان جي لفظن لاءِ هن سائيٽ تي ڳولا</translation>
+    </message>
+    <message>
+        <source>%n searches, %results results</source>
+        <translation>%n ڳولائون، %results نتيجا</translation>
+    </message>
+    <message>
+        <source>No search on this site used a word of the page title.</source>
+        <translation>هن سائيٽ تي ڪنهن به ڳولا صفحي جي عنوان جو لفظ استعمال نه ڪيو.</translation>
+    </message>
+    <message>
+        <source>Where visitors came from is not recorded on this installation.</source>
+        <translation>گهمڻ وارا ڪٿان آيا، اهو هن انسٽاليشن تي درج نٿو ٿئي.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>آيل خط</translation>
     </message>

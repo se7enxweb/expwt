@@ -451,6 +451,22 @@ class expwtPureTest extends PHPUnit\Framework\TestCase
         $this->assertContains( 'meta', array_column( $categories, 'id' ) );
     }
 
+    public function testTheSearchesOfAPageAreThoseWithAWordOfItsName()
+    {
+        $log = array( array( 'phrase' => 'healthy', 'phrase_count' => 1530, 'result_count' => 30 ),
+                      array( 'phrase' => 'news', 'phrase_count' => 464, 'result_count' => 4 ),
+                      array( 'phrase' => 'Vegetables soup', 'phrase_count' => 12, 'result_count' => 2.6 ),
+                      array( 'phrase' => 'eat', 'phrase_count' => 9, 'result_count' => 1 ),
+                      array( 'phrase' => 'vegetablesoup', 'phrase_count' => 3, 'result_count' => 0 ) );
+        $this->assertSame( array( array( 'phrase' => 'Vegetables soup', 'searches' => 12, 'results' => 3 ),
+                                  array( 'phrase' => 'eat', 'searches' => 9, 'results' => 1 ) ),
+                           expwtGateway::searchesFor( 'You Should Eat More Vegetables', $log ),
+                           'whole words of three letters or more, any case; most searched first' );
+        $this->assertSame( array(), expwtGateway::searchesFor( 'Ab', $log ) );
+        $this->assertSame( 'insights', expwtAccess::functionFor( 'insights.load' ) );
+        $this->assertFalse( expwtAccess::writes( 'insights.load' ) );
+    }
+
     public function testInjectBeforeTheLastBodyEndOnce()
     {
         $page = '<html><body><p>x</p></body></html>';

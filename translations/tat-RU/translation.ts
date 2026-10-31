@@ -564,6 +564,34 @@
         <translation>Структура</translation>
     </message>
     <message>
+        <source>Insights</source>
+        <translation>Анализ</translation>
+    </message>
+    <message>
+        <source>Views of this page: %n</source>
+        <translation>Бу битне карау: %n</translation>
+    </message>
+    <message>
+        <source>The views are not counted on this installation (cronjob updateviewcount).</source>
+        <translation>Бу урнаштыруда караулар саналмый (cronjob updateviewcount).</translation>
+    </message>
+    <message>
+        <source>Searches on this site for words in the page title</source>
+        <translation>Бу сайтта бит исемендәге сүзләр буенча эзләүләр</translation>
+    </message>
+    <message>
+        <source>%n searches, %results results</source>
+        <translation>%n эзләү, %results нәтиҗә</translation>
+    </message>
+    <message>
+        <source>No search on this site used a word of the page title.</source>
+        <translation>Бу сайттагы бер эзләү дә бит исеменнән сүз кулланмаган.</translation>
+    </message>
+    <message>
+        <source>Where visitors came from is not recorded on this installation.</source>
+        <translation>Килүчеләр кайдан килгәне бу урнаштыруда язылмый.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Керүчеләр</translation>
     </message>

@@ -564,6 +564,34 @@
         <translation>ਢਾਂਚਾ</translation>
     </message>
     <message>
+        <source>Insights</source>
+        <translation>ਸੂਝ</translation>
+    </message>
+    <message>
+        <source>Views of this page: %n</source>
+        <translation>ਇਸ ਸਫ਼ੇ ਦੇ ਵਿਊ: %n</translation>
+    </message>
+    <message>
+        <source>The views are not counted on this installation (cronjob updateviewcount).</source>
+        <translation>ਇਸ ਇੰਸਟਾਲੇਸ਼ਨ 'ਤੇ ਵਿਊ ਨਹੀਂ ਗਿਣੇ ਜਾਂਦੇ (cronjob updateviewcount)।</translation>
+    </message>
+    <message>
+        <source>Searches on this site for words in the page title</source>
+        <translation>ਸਫ਼ੇ ਦੇ ਸਿਰਲੇਖ ਦੇ ਸ਼ਬਦਾਂ ਲਈ ਇਸ ਸਾਈਟ 'ਤੇ ਖੋਜਾਂ</translation>
+    </message>
+    <message>
+        <source>%n searches, %results results</source>
+        <translation>%n ਖੋਜਾਂ, %results ਨਤੀਜੇ</translation>
+    </message>
+    <message>
+        <source>No search on this site used a word of the page title.</source>
+        <translation>ਇਸ ਸਾਈਟ 'ਤੇ ਕਿਸੇ ਖੋਜ ਨੇ ਸਫ਼ੇ ਦੇ ਸਿਰਲੇਖ ਦਾ ਸ਼ਬਦ ਨਹੀਂ ਵਰਤਿਆ।</translation>
+    </message>
+    <message>
+        <source>Where visitors came from is not recorded on this installation.</source>
+        <translation>ਵਿਜ਼ਿਟਰ ਕਿੱਥੋਂ ਆਏ, ਇਹ ਇਸ ਇੰਸਟਾਲੇਸ਼ਨ 'ਤੇ ਦਰਜ ਨਹੀਂ ਹੁੰਦਾ।</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>ਇਨਬਾਕਸ</translation>
     </message>

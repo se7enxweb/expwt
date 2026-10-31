@@ -564,6 +564,34 @@
         <translation>Struktuvra</translation>
     </message>
     <message>
+        <source>Insights</source>
+        <translation>Čielgguheapmi</translation>
+    </message>
+    <message>
+        <source>Views of this page: %n</source>
+        <translation>Dán siiddu geahčadeamit: %n</translation>
+    </message>
+    <message>
+        <source>The views are not counted on this installation (cronjob updateviewcount).</source>
+        <translation>Geahčadeamit eai lohkojuvvo dán sajáiduhttimis (cronjob updateviewcount).</translation>
+    </message>
+    <message>
+        <source>Searches on this site for words in the page title</source>
+        <translation>Ohcamat dán neahttabáikkis siiddu bajilčállaga sániid mielde</translation>
+    </message>
+    <message>
+        <source>%n searches, %results results</source>
+        <translation>%n ohcama, %results boađusa</translation>
+    </message>
+    <message>
+        <source>No search on this site used a word of the page title.</source>
+        <translation>Ii oktage ohcan dán neahttabáikkis geavahan sáni siiddu bajilčállagis.</translation>
+    </message>
+    <message>
+        <source>Where visitors came from is not recorded on this installation.</source>
+        <translation>Gos guossit bohte, ii registrerejuvvo dán sajáiduhttimis.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Sisaboarta</translation>
     </message>

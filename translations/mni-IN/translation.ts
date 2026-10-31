@@ -564,6 +564,34 @@
         <translation>মওং মতৌ</translation>
     </message>
     <message>
+        <source>Insights</source>
+        <translation>ৱাখল্লোন</translation>
+    </message>
+    <message>
+        <source>Views of this page: %n</source>
+        <translation>লামায় অসিগী য়েংবা: %n</translation>
+    </message>
+    <message>
+        <source>The views are not counted on this installation (cronjob updateviewcount).</source>
+        <translation>ইনস্তলেসন অসিদা য়েংবা মশিং থীদ্রি (cronjob updateviewcount)।</translation>
+    </message>
+    <message>
+        <source>Searches on this site for words in the page title</source>
+        <translation>লামায়গী মমিংগী ৱাহৈশিংগীদমক সাইত অসিদা থীবা</translation>
+    </message>
+    <message>
+        <source>%n searches, %results results</source>
+        <translation>থীবা %n, মহৈ %results</translation>
+    </message>
+    <message>
+        <source>No search on this site used a word of the page title.</source>
+        <translation>সাইত অসিদা থীবা অমত্তনা লামায়গী মমিংগী ৱাহৈ শীজিন্দ্রে।</translation>
+    </message>
+    <message>
+        <source>Where visitors came from is not recorded on this installation.</source>
+        <translation>লাকপা মীশিং কদায়দগী লাকখিবা হায়বা ইনস্তলেসন অসিদা ইদ্রি।</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>ইনবক্স</translation>
     </message>

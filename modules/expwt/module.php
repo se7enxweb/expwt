@@ -62,3 +62,5 @@ $FunctionList['templates'] = array();
 $FunctionList['shop'] = array();
 // The administration's panels of the sidebar (caches, users, settings)
 $FunctionList['admin'] = array();
+// The Insights panel: the page's views and the site's searches from the kernel's own statistics (F25)
+$FunctionList['insights'] = array();

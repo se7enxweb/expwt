@@ -564,6 +564,34 @@
         <translation>Enzimba</translation>
     </message>
     <message>
+        <source>Insights</source>
+        <translation>Okutegeera</translation>
+    </message>
+    <message>
+        <source>Views of this page: %n</source>
+        <translation>Okulaba olupapula luno: %n</translation>
+    </message>
+    <message>
+        <source>The views are not counted on this installation (cronjob updateviewcount).</source>
+        <translation>Okulaba tekubalibwa ku kuteekebwako kuno (cronjob updateviewcount).</translation>
+    </message>
+    <message>
+        <source>Searches on this site for words in the page title</source>
+        <translation>Okunoonya ku mukutu guno okw'ebigambo mu mutwe gw'olupapula</translation>
+    </message>
+    <message>
+        <source>%n searches, %results results</source>
+        <translation>Okunoonya %n, ebivudde mu %results</translation>
+    </message>
+    <message>
+        <source>No search on this site used a word of the page title.</source>
+        <translation>Tewali kunoonya ku mukutu guno kwakozesa kigambo kya mu mutwe gw'olupapula.</translation>
+    </message>
+    <message>
+        <source>Where visitors came from is not recorded on this installation.</source>
+        <translation>Abagenyi gye baava tekiwandiikibwa ku kuteekebwako kuno.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Ebibaluwa ebiyingira</translation>
     </message>

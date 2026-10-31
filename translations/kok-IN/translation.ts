@@ -564,6 +564,34 @@
         <translation>रचना</translation>
     </message>
     <message>
+        <source>Insights</source>
+        <translation>अंतर्दृष्टी</translation>
+    </message>
+    <message>
+        <source>Views of this page: %n</source>
+        <translation>ह्या पानाचे दर्शन: %n</translation>
+    </message>
+    <message>
+        <source>The views are not counted on this installation (cronjob updateviewcount).</source>
+        <translation>ह्या इंस्टॉलेशनाचेर दर्शन मेजनात (cronjob updateviewcount).</translation>
+    </message>
+    <message>
+        <source>Searches on this site for words in the page title</source>
+        <translation>पानाच्या माथाळ्यांतल्या उतरांखातीर ह्या सायटीर सोद</translation>
+    </message>
+    <message>
+        <source>%n searches, %results results</source>
+        <translation>%n सोद, %results निकाल</translation>
+    </message>
+    <message>
+        <source>No search on this site used a word of the page title.</source>
+        <translation>ह्या सायटीर खंयच्याच सोदान पानाच्या माथाळ्यांतलें उतर वापरूंक ना.</translation>
+    </message>
+    <message>
+        <source>Where visitors came from is not recorded on this installation.</source>
+        <translation>भोंवडेकार खंयच्यान आयले तें ह्या इंस्टॉलेशनाचेर नोंद जायना.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>इनबॉक्स</translation>
     </message>

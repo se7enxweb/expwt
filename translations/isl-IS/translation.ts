@@ -564,6 +564,34 @@
         <translation>Uppbygging</translation>
     </message>
     <message>
+        <source>Insights</source>
+        <translation>Innsýn</translation>
+    </message>
+    <message>
+        <source>Views of this page: %n</source>
+        <translation>Skoðanir þessarar síðu: %n</translation>
+    </message>
+    <message>
+        <source>The views are not counted on this installation (cronjob updateviewcount).</source>
+        <translation>Skoðanir eru ekki taldar í þessari uppsetningu (cronjob updateviewcount).</translation>
+    </message>
+    <message>
+        <source>Searches on this site for words in the page title</source>
+        <translation>Leitir á þessum vef að orðum í titli síðunnar</translation>
+    </message>
+    <message>
+        <source>%n searches, %results results</source>
+        <translation>%n leitir, %results niðurstöður</translation>
+    </message>
+    <message>
+        <source>No search on this site used a word of the page title.</source>
+        <translation>Engin leit á þessum vef notaði orð úr titli síðunnar.</translation>
+    </message>
+    <message>
+        <source>Where visitors came from is not recorded on this installation.</source>
+        <translation>Hvaðan gestir komu er ekki skráð í þessari uppsetningu.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Innhólf</translation>
     </message>

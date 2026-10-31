@@ -564,6 +564,34 @@
         <translation>Ɖoɖowɔwɔ</translation>
     </message>
     <message>
+        <source>Insights</source>
+        <translation>Gɔmesesewo</translation>
+    </message>
+    <message>
+        <source>Views of this page: %n</source>
+        <translation>Amesiwo kpɔ axa sia: %n</translation>
+    </message>
+    <message>
+        <source>The views are not counted on this installation (cronjob updateviewcount).</source>
+        <translation>Womexlẽa kpɔkpɔwo le ɖoɖo sia dzi o (cronjob updateviewcount).</translation>
+    </message>
+    <message>
+        <source>Searches on this site for words in the page title</source>
+        <translation>Didiwo le nyatakakadzraɖoƒe sia dzi ɖe axa ƒe tanya ƒe nyawo ŋu</translation>
+    </message>
+    <message>
+        <source>%n searches, %results results</source>
+        <translation>Didi %n, emetsonu %results</translation>
+    </message>
+    <message>
+        <source>No search on this site used a word of the page title.</source>
+        <translation>Didi aɖeke le nyatakakadzraɖoƒe sia dzi mezã axa ƒe tanya ƒe nya aɖeke o.</translation>
+    </message>
+    <message>
+        <source>Where visitors came from is not recorded on this installation.</source>
+        <translation>Afisi amedzrowo tso la, womeŋlɔnɛ ɖi le ɖoɖo sia dzi o.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Agbalẽ siwo va</translation>
     </message>

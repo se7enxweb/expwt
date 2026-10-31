@@ -564,6 +564,34 @@
         <translation>پێکهاتە</translation>
     </message>
     <message>
+        <source>Insights</source>
+        <translation>تێڕوانین</translation>
+    </message>
+    <message>
+        <source>Views of this page: %n</source>
+        <translation>بینینەکانی ئەم پەڕەیە: %n</translation>
+    </message>
+    <message>
+        <source>The views are not counted on this installation (cronjob updateviewcount).</source>
+        <translation>بینینەکان لەم دامەزراندنەدا ناژمێردرێن (cronjob updateviewcount).</translation>
+    </message>
+    <message>
+        <source>Searches on this site for words in the page title</source>
+        <translation>گەڕانەکان لەم ماڵپەڕەدا بۆ وشەکانی ناونیشانی پەڕە</translation>
+    </message>
+    <message>
+        <source>%n searches, %results results</source>
+        <translation>%n گەڕان، %results ئەنجام</translation>
+    </message>
+    <message>
+        <source>No search on this site used a word of the page title.</source>
+        <translation>هیچ گەڕانێک لەم ماڵپەڕەدا وشەیەکی ناونیشانی پەڕەی بەکارنەهێناوە.</translation>
+    </message>
+    <message>
+        <source>Where visitors came from is not recorded on this installation.</source>
+        <translation>سەردانکەران لە کوێوە هاتوون لەم دامەزراندنەدا تۆمار ناکرێت.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>هاتووەکان</translation>
     </message>

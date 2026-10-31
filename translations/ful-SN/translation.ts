@@ -564,6 +564,34 @@
         <translation>Mbaadi</translation>
     </message>
     <message>
+        <source>Insights</source>
+        <translation>Faamde</translation>
+    </message>
+    <message>
+        <source>Views of this page: %n</source>
+        <translation>Yiyeeji hello ngoo: %n</translation>
+    </message>
+    <message>
+        <source>The views are not counted on this installation (cronjob updateviewcount).</source>
+        <translation>Yiyeeji limaaka e ndee aafi (cronjob updateviewcount).</translation>
+    </message>
+    <message>
+        <source>Searches on this site for words in the page title</source>
+        <translation>Ɗaɓɓitaaɗe e lowre ndee ngam konngi tiitoonde hello</translation>
+    </message>
+    <message>
+        <source>%n searches, %results results</source>
+        <translation>Ɗaɓɓitaaɗe %n, njaltudi %results</translation>
+    </message>
+    <message>
+        <source>No search on this site used a word of the page title.</source>
+        <translation>Alaa ɗaɓɓitaare e lowre ndee huutortoo konngol tiitoonde hello.</translation>
+    </message>
+    <message>
+        <source>Where visitors came from is not recorded on this installation.</source>
+        <translation>Toɗɗaaka e ndee aafi to koɓɓiiɓe iwi.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Naatirde</translation>
     </message>

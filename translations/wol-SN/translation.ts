@@ -564,6 +564,34 @@
         <translation>Tëralin</translation>
     </message>
     <message>
+        <source>Insights</source>
+        <translation>Xam-xam</translation>
+    </message>
+    <message>
+        <source>Views of this page: %n</source>
+        <translation>Seet yi ci xët wii: %n</translation>
+    </message>
+    <message>
+        <source>The views are not counted on this installation (cronjob updateviewcount).</source>
+        <translation>Seet yi ñu leen waññi ci samp bii (cronjob updateviewcount).</translation>
+    </message>
+    <message>
+        <source>Searches on this site for words in the page title</source>
+        <translation>Wut yi ci dalu bii ngir baat yi nekk ci turu xët wi</translation>
+    </message>
+    <message>
+        <source>%n searches, %results results</source>
+        <translation>%n wut, %results ngérte</translation>
+    </message>
+    <message>
+        <source>No search on this site used a word of the page title.</source>
+        <translation>Amul benn wut ci dalu bii ju jëfandikoo baat bu jóge ci turu xët wi.</translation>
+    </message>
+    <message>
+        <source>Where visitors came from is not recorded on this installation.</source>
+        <translation>Fu ganaa yi jóge bindu ñu ko ci samp bii.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Bataaxal yu dikk</translation>
     </message>

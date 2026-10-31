@@ -564,6 +564,34 @@
         <translation>માળખું</translation>
     </message>
     <message>
+        <source>Insights</source>
+        <translation>આંતરદૃષ્ટિ</translation>
+    </message>
+    <message>
+        <source>Views of this page: %n</source>
+        <translation>આ પૃષ્ઠના વ્યૂ: %n</translation>
+    </message>
+    <message>
+        <source>The views are not counted on this installation (cronjob updateviewcount).</source>
+        <translation>આ ઇન્સ્ટોલેશન પર વ્યૂ ગણાતા નથી (cronjob updateviewcount).</translation>
+    </message>
+    <message>
+        <source>Searches on this site for words in the page title</source>
+        <translation>પૃષ્ઠ શીર્ષકના શબ્દો માટે આ સાઇટ પર શોધ</translation>
+    </message>
+    <message>
+        <source>%n searches, %results results</source>
+        <translation>%n શોધ, %results પરિણામ</translation>
+    </message>
+    <message>
+        <source>No search on this site used a word of the page title.</source>
+        <translation>આ સાઇટ પર કોઈ શોધે પૃષ્ઠ શીર્ષકનો શબ્દ વાપર્યો નથી.</translation>
+    </message>
+    <message>
+        <source>Where visitors came from is not recorded on this installation.</source>
+        <translation>મુલાકાતીઓ ક્યાંથી આવ્યા તે આ ઇન્સ્ટોલેશન પર નોંધાતું નથી.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>ઇનબોક્સ</translation>
     </message>

@@ -564,6 +564,34 @@
         <translation>Taɣessa</translation>
     </message>
     <message>
+        <source>Insights</source>
+        <translation>Tamuɣli</translation>
+    </message>
+    <message>
+        <source>Views of this page: %n</source>
+        <translation>Tiẓriwin n usebter-a: %n</translation>
+    </message>
+    <message>
+        <source>The views are not counted on this installation (cronjob updateviewcount).</source>
+        <translation>Tiẓriwin ur ttwaḥesbent ara deg usebded-a (cronjob updateviewcount).</translation>
+    </message>
+    <message>
+        <source>Searches on this site for words in the page title</source>
+        <translation>Inadiyen deg usmel-a ɣef wawalen n uzwel n usebter</translation>
+    </message>
+    <message>
+        <source>%n searches, %results results</source>
+        <translation>%n inadiyen, %results igmaḍ</translation>
+    </message>
+    <message>
+        <source>No search on this site used a word of the page title.</source>
+        <translation>Ulac anadi deg usmel-a i iseqdcen awal seg uzwel n usebter.</translation>
+    </message>
+    <message>
+        <source>Where visitors came from is not recorded on this installation.</source>
+        <translation>Ansi d-kkan yimerza ur yettwaru ara deg usebded-a.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Tanaka n ukcam</translation>
     </message>

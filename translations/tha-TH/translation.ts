@@ -564,6 +564,34 @@
         <translation>โครงสร้าง</translation>
     </message>
     <message>
+        <source>Insights</source>
+        <translation>ข้อมูลเชิงลึก</translation>
+    </message>
+    <message>
+        <source>Views of this page: %n</source>
+        <translation>จำนวนการดูหน้านี้: %n</translation>
+    </message>
+    <message>
+        <source>The views are not counted on this installation (cronjob updateviewcount).</source>
+        <translation>การติดตั้งนี้ไม่นับจำนวนการดู (cronjob updateviewcount)</translation>
+    </message>
+    <message>
+        <source>Searches on this site for words in the page title</source>
+        <translation>การค้นหาในเว็บไซต์นี้สำหรับคำในชื่อหน้า</translation>
+    </message>
+    <message>
+        <source>%n searches, %results results</source>
+        <translation>ค้นหา %n ครั้ง ผลลัพธ์ %results รายการ</translation>
+    </message>
+    <message>
+        <source>No search on this site used a word of the page title.</source>
+        <translation>ไม่มีการค้นหาในเว็บไซต์นี้ที่ใช้คำจากชื่อหน้า</translation>
+    </message>
+    <message>
+        <source>Where visitors came from is not recorded on this installation.</source>
+        <translation>การติดตั้งนี้ไม่บันทึกว่าผู้เยี่ยมชมมาจากที่ใด</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>กล่องขาเข้า</translation>
     </message>

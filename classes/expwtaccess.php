@@ -24,7 +24,7 @@ class expwtAccess
      * The policy functions of the module expwt (modules/expwt/module.php), one per area. Those of later phases are
      * defined now, so roles can be prepared before the panels arrive.
      */
-    const FUNCTIONS = array( 'use', 'edit', 'create', 'structure', 'layouts', 'templates', 'shop', 'admin' );
+    const FUNCTIONS = array( 'use', 'edit', 'create', 'structure', 'layouts', 'templates', 'shop', 'admin', 'insights' );
 
     /**
      * action => array( expwt function, writes, kernel module, kernel view, kernel POST button )
@@ -52,6 +52,8 @@ class expwtAccess
         // the approvals of the kernel's approve workflow (F29): the kernel's collaboration policy decides who has them
         'inbox.load'      => array( 'use', false, '', '', '' ),
         'inbox.decide'    => array( 'use', true, 'collaboration', 'action', 'CollaborationActionCustom' ),
+        // the page's insights from the kernel's own statistics (F25)
+        'insights.load'   => array( 'insights', false, '', '', '' ),
     );
 
     /** @return bool */

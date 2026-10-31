@@ -564,6 +564,34 @@
         <translation>Gurluş</translation>
     </message>
     <message>
+        <source>Insights</source>
+        <translation>Seljeriş</translation>
+    </message>
+    <message>
+        <source>Views of this page: %n</source>
+        <translation>Bu sahypanyň görülişi: %n</translation>
+    </message>
+    <message>
+        <source>The views are not counted on this installation (cronjob updateviewcount).</source>
+        <translation>Bu gurnamada görülişler sanalmaýar (cronjob updateviewcount).</translation>
+    </message>
+    <message>
+        <source>Searches on this site for words in the page title</source>
+        <translation>Bu saýtda sahypa adyndaky sözler boýunça gözlegler</translation>
+    </message>
+    <message>
+        <source>%n searches, %results results</source>
+        <translation>%n gözleg, %results netije</translation>
+    </message>
+    <message>
+        <source>No search on this site used a word of the page title.</source>
+        <translation>Bu saýtda hiç bir gözleg sahypa adyndaky sözi ulanmady.</translation>
+    </message>
+    <message>
+        <source>Where visitors came from is not recorded on this installation.</source>
+        <translation>Myhmanlaryň nireden gelendigi bu gurnamada ýazylmaýar.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Gelenler</translation>
     </message>

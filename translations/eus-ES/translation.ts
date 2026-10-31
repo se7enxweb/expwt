@@ -564,6 +564,34 @@
         <translation>Egitura</translation>
     </message>
     <message>
+        <source>Insights</source>
+        <translation>Ikuspegiak</translation>
+    </message>
+    <message>
+        <source>Views of this page: %n</source>
+        <translation>Orri honen bistaratzeak: %n</translation>
+    </message>
+    <message>
+        <source>The views are not counted on this installation (cronjob updateviewcount).</source>
+        <translation>Instalazio honetan ez dira bistaratzeak zenbatzen (cronjob updateviewcount).</translation>
+    </message>
+    <message>
+        <source>Searches on this site for words in the page title</source>
+        <translation>Gune honetan orriaren izenburuko hitzen bilaketak</translation>
+    </message>
+    <message>
+        <source>%n searches, %results results</source>
+        <translation>%n bilaketa, %results emaitza</translation>
+    </message>
+    <message>
+        <source>No search on this site used a word of the page title.</source>
+        <translation>Gune honetako bilaketa batek ere ez du erabili orriaren izenburuko hitzik.</translation>
+    </message>
+    <message>
+        <source>Where visitors came from is not recorded on this installation.</source>
+        <translation>Bisitariak nondik etorri diren ez da erregistratzen instalazio honetan.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Sarrera-ontzia</translation>
     </message>

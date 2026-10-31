@@ -564,6 +564,34 @@
         <translation>ڈھانچہ</translation>
     </message>
     <message>
+        <source>Insights</source>
+        <translation>بصیرت</translation>
+    </message>
+    <message>
+        <source>Views of this page: %n</source>
+        <translation>ایس صفحے دے ویو: %n</translation>
+    </message>
+    <message>
+        <source>The views are not counted on this installation (cronjob updateviewcount).</source>
+        <translation>ایس انسٹالیشن تے ویو نئیں گنے جاندے (cronjob updateviewcount)۔</translation>
+    </message>
+    <message>
+        <source>Searches on this site for words in the page title</source>
+        <translation>صفحے دے سرناویں دے لفظاں لئی ایس سائٹ تے کھوجاں</translation>
+    </message>
+    <message>
+        <source>%n searches, %results results</source>
+        <translation>%n کھوجاں، %results نتیجے</translation>
+    </message>
+    <message>
+        <source>No search on this site used a word of the page title.</source>
+        <translation>ایس سائٹ تے کسے کھوج نے صفحے دے سرناویں دا لفظ نئیں ورتیا۔</translation>
+    </message>
+    <message>
+        <source>Where visitors came from is not recorded on this installation.</source>
+        <translation>مہمان کتھوں آئے، ایہہ ایس انسٹالیشن تے درج نئیں ہوندا۔</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>اِن باکس</translation>
     </message>

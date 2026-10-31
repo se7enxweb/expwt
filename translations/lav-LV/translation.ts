@@ -564,6 +564,34 @@
         <translation>Struktūra</translation>
     </message>
     <message>
+        <source>Insights</source>
+        <translation>Ieskats</translation>
+    </message>
+    <message>
+        <source>Views of this page: %n</source>
+        <translation>Šīs lapas skatījumi: %n</translation>
+    </message>
+    <message>
+        <source>The views are not counted on this installation (cronjob updateviewcount).</source>
+        <translation>Šajā instalācijā skatījumi netiek skaitīti (cronjob updateviewcount).</translation>
+    </message>
+    <message>
+        <source>Searches on this site for words in the page title</source>
+        <translation>Meklējumi šajā vietnē pēc lapas virsraksta vārdiem</translation>
+    </message>
+    <message>
+        <source>%n searches, %results results</source>
+        <translation>%n meklējumi, %results rezultāti</translation>
+    </message>
+    <message>
+        <source>No search on this site used a word of the page title.</source>
+        <translation>Neviens meklējums šajā vietnē neizmantoja lapas virsraksta vārdu.</translation>
+    </message>
+    <message>
+        <source>Where visitors came from is not recorded on this installation.</source>
+        <translation>No kurienes atnāca apmeklētāji, šajā instalācijā netiek reģistrēts.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Iesūtne</translation>
     </message>

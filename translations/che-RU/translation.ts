@@ -564,6 +564,34 @@
         <translation>Структура</translation>
     </message>
     <message>
+        <source>Insights</source>
+        <translation>Анализ</translation>
+    </message>
+    <message>
+        <source>Views of this page: %n</source>
+        <translation>ХӀокху агӀонан хьажарш: %n</translation>
+    </message>
+    <message>
+        <source>The views are not counted on this installation (cronjob updateviewcount).</source>
+        <translation>ХӀокху дӀахӀоттамехь хьажарш ца лору (cronjob updateviewcount).</translation>
+    </message>
+    <message>
+        <source>Searches on this site for words in the page title</source>
+        <translation>ХӀокху сайтехь агӀонан цӀеран дешнашца лахар</translation>
+    </message>
+    <message>
+        <source>%n searches, %results results</source>
+        <translation>%n лахар, %results жамӀ</translation>
+    </message>
+    <message>
+        <source>No search on this site used a word of the page title.</source>
+        <translation>ХӀокху сайтехь цхьа а лахаро агӀонан цӀеран дош ца лелийна.</translation>
+    </message>
+    <message>
+        <source>Where visitors came from is not recorded on this installation.</source>
+        <translation>Хьешаш мичара баьхкина, хӀокху дӀахӀоттамехь ца йазабо.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Чуйогӏу</translation>
     </message>

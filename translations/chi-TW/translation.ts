@@ -564,6 +564,34 @@
         <translation>結構</translation>
     </message>
     <message>
+        <source>Insights</source>
+        <translation>洞察</translation>
+    </message>
+    <message>
+        <source>Views of this page: %n</source>
+        <translation>此頁面的瀏覽次數：%n</translation>
+    </message>
+    <message>
+        <source>The views are not counted on this installation (cronjob updateviewcount).</source>
+        <translation>此安裝未統計瀏覽次數（cronjob updateviewcount）。</translation>
+    </message>
+    <message>
+        <source>Searches on this site for words in the page title</source>
+        <translation>本站對頁面標題中字詞的搜尋</translation>
+    </message>
+    <message>
+        <source>%n searches, %results results</source>
+        <translation>%n 次搜尋，%results 個結果</translation>
+    </message>
+    <message>
+        <source>No search on this site used a word of the page title.</source>
+        <translation>本站沒有搜尋使用頁面標題中的字詞。</translation>
+    </message>
+    <message>
+        <source>Where visitors came from is not recorded on this installation.</source>
+        <translation>此安裝不記錄訪客的來源。</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>收件匣</translation>
     </message>

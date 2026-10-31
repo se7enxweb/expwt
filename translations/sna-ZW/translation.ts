@@ -564,6 +564,34 @@
         <translation>Chimiro</translation>
     </message>
     <message>
+        <source>Insights</source>
+        <translation>Njere</translation>
+    </message>
+    <message>
+        <source>Views of this page: %n</source>
+        <translation>Kuonekwa kwepeji iri: %n</translation>
+    </message>
+    <message>
+        <source>The views are not counted on this installation (cronjob updateviewcount).</source>
+        <translation>Kuonekwa hakuverengwi pakuisirwa uku (cronjob updateviewcount).</translation>
+    </message>
+    <message>
+        <source>Searches on this site for words in the page title</source>
+        <translation>Kutsvaga pasaiti iyi kwemazwi ari mumusoro wepeji</translation>
+    </message>
+    <message>
+        <source>%n searches, %results results</source>
+        <translation>Kutsvaga %n, mhedzisiro %results</translation>
+    </message>
+    <message>
+        <source>No search on this site used a word of the page title.</source>
+        <translation>Hapana kutsvaga pasaiti iyi kwakashandisa izwi rinobva mumusoro wepeji.</translation>
+    </message>
+    <message>
+        <source>Where visitors came from is not recorded on this installation.</source>
+        <translation>Kwakabva vashanyi hakunyorwi pakuisirwa uku.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Bhokisi rinopinda</translation>
     </message>

@@ -564,6 +564,34 @@
         <translation>ଗଠନ</translation>
     </message>
     <message>
+        <source>Insights</source>
+        <translation>ଅନ୍ତର୍ଦୃଷ୍ଟି</translation>
+    </message>
+    <message>
+        <source>Views of this page: %n</source>
+        <translation>ଏହି ପୃଷ୍ଠାର ଦର୍ଶନ: %n</translation>
+    </message>
+    <message>
+        <source>The views are not counted on this installation (cronjob updateviewcount).</source>
+        <translation>ଏହି ସଂସ୍ଥାପନରେ ଦର୍ଶନ ଗଣନା କରାଯାଏ ନାହିଁ (cronjob updateviewcount)।</translation>
+    </message>
+    <message>
+        <source>Searches on this site for words in the page title</source>
+        <translation>ପୃଷ୍ଠା ଶୀର୍ଷକର ଶବ୍ଦ ପାଇଁ ଏହି ସାଇଟରେ ସନ୍ଧାନ</translation>
+    </message>
+    <message>
+        <source>%n searches, %results results</source>
+        <translation>%n ସନ୍ଧାନ, %results ଫଳାଫଳ</translation>
+    </message>
+    <message>
+        <source>No search on this site used a word of the page title.</source>
+        <translation>ଏହି ସାଇଟରେ କୌଣସି ସନ୍ଧାନ ପୃଷ୍ଠା ଶୀର୍ଷକର ଶବ୍ଦ ବ୍ୟବହାର କରିନାହିଁ।</translation>
+    </message>
+    <message>
+        <source>Where visitors came from is not recorded on this installation.</source>
+        <translation>ଦର୍ଶକମାନେ କେଉଁଠୁ ଆସିଲେ ତାହା ଏହି ସଂସ୍ଥାପନରେ ରେକର୍ଡ ହୁଏ ନାହିଁ।</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>ଇନବକ୍ସ</translation>
     </message>

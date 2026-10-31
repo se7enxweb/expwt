@@ -564,6 +564,34 @@
         <translation>Avahî</translation>
     </message>
     <message>
+        <source>Insights</source>
+        <translation>Têgihîştin</translation>
+    </message>
+    <message>
+        <source>Views of this page: %n</source>
+        <translation>Dîtinên vê rûpelê: %n</translation>
+    </message>
+    <message>
+        <source>The views are not counted on this installation (cronjob updateviewcount).</source>
+        <translation>Dîtin li vê sazkirinê nayên jimartin (cronjob updateviewcount).</translation>
+    </message>
+    <message>
+        <source>Searches on this site for words in the page title</source>
+        <translation>Lêgerînên li vê malperê ji bo peyvên sernavê rûpelê</translation>
+    </message>
+    <message>
+        <source>%n searches, %results results</source>
+        <translation>%n lêgerîn, %results encam</translation>
+    </message>
+    <message>
+        <source>No search on this site used a word of the page title.</source>
+        <translation>Tu lêgerînek li vê malperê peyveke sernavê rûpelê bi kar neaniye.</translation>
+    </message>
+    <message>
+        <source>Where visitors came from is not recorded on this installation.</source>
+        <translation>Mêvan ji ku hatine li vê sazkirinê nayê tomarkirin.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Qutiya hatî</translation>
     </message>

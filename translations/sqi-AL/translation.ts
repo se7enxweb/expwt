@@ -564,6 +564,34 @@
         <translation>Struktura</translation>
     </message>
     <message>
+        <source>Insights</source>
+        <translation>Statistika</translation>
+    </message>
+    <message>
+        <source>Views of this page: %n</source>
+        <translation>Shikime të kësaj faqeje: %n</translation>
+    </message>
+    <message>
+        <source>The views are not counted on this installation (cronjob updateviewcount).</source>
+        <translation>Shikimet nuk numërohen në këtë instalim (cronjob updateviewcount).</translation>
+    </message>
+    <message>
+        <source>Searches on this site for words in the page title</source>
+        <translation>Kërkime në këtë sajt për fjalë të titullit të faqes</translation>
+    </message>
+    <message>
+        <source>%n searches, %results results</source>
+        <translation>%n kërkime, %results rezultate</translation>
+    </message>
+    <message>
+        <source>No search on this site used a word of the page title.</source>
+        <translation>Asnjë kërkim në këtë sajt nuk përdori një fjalë të titullit të faqes.</translation>
+    </message>
+    <message>
+        <source>Where visitors came from is not recorded on this installation.</source>
+        <translation>Nga erdhën vizitorët nuk regjistrohet në këtë instalim.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Të ardhurat</translation>
     </message>

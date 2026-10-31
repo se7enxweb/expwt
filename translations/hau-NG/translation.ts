@@ -564,6 +564,34 @@
         <translation>Tsari</translation>
     </message>
     <message>
+        <source>Insights</source>
+        <translation>Fahimta</translation>
+    </message>
+    <message>
+        <source>Views of this page: %n</source>
+        <translation>Kallon wannan shafi: %n</translation>
+    </message>
+    <message>
+        <source>The views are not counted on this installation (cronjob updateviewcount).</source>
+        <translation>Ba a ƙidaya kallo a wannan shigarwa (cronjob updateviewcount).</translation>
+    </message>
+    <message>
+        <source>Searches on this site for words in the page title</source>
+        <translation>Bincike a wannan shafin don kalmomi a taken shafi</translation>
+    </message>
+    <message>
+        <source>%n searches, %results results</source>
+        <translation>Bincike %n, sakamako %results</translation>
+    </message>
+    <message>
+        <source>No search on this site used a word of the page title.</source>
+        <translation>Babu binciken da ya yi amfani da kalma daga taken shafi a wannan shafin.</translation>
+    </message>
+    <message>
+        <source>Where visitors came from is not recorded on this installation.</source>
+        <translation>Ba a rubuta inda baƙi suka fito a wannan shigarwa.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Akwatin saƙo</translation>
     </message>

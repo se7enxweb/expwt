@@ -564,6 +564,34 @@
         <translation>Struktura</translation>
     </message>
     <message>
+        <source>Insights</source>
+        <translation>Pśeglěd</translation>
+    </message>
+    <message>
+        <source>Views of this page: %n</source>
+        <translation>Woglědanja toś togo boka: %n</translation>
+    </message>
+    <message>
+        <source>The views are not counted on this installation (cronjob updateviewcount).</source>
+        <translation>Woglědanja se na toś tej instalaciji njelicyju (cronjob updateviewcount).</translation>
+    </message>
+    <message>
+        <source>Searches on this site for words in the page title</source>
+        <translation>Pytanja na toś tom sedle za słowami z titela boka</translation>
+    </message>
+    <message>
+        <source>%n searches, %results results</source>
+        <translation>%n pytanjow, %results wuslědkow</translation>
+    </message>
+    <message>
+        <source>No search on this site used a word of the page title.</source>
+        <translation>Žedno pytanje na toś tom sedle njejo wužywało słowo z titela boka.</translation>
+    </message>
+    <message>
+        <source>Where visitors came from is not recorded on this installation.</source>
+        <translation>Wótkulž woglědowarje pśidu, se na toś tej instalaciji njezapisujo.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Dostaśe</translation>
     </message>

@@ -292,6 +292,58 @@ class expwtGateway
         return $this->may( $module, $function );
     }
 
+    // ------------------------------------------------------------------------------------------- insights (F25)
+
+    /**
+     * Read-only insights into the page from the kernel's own statistics, no third-party tracking: its views (the
+     * view counter the cronjob updateviewcount fills from the access log; collected false when it holds nothing) and
+     * the searches on this site (the kernel's search log) for a word of the page's name. The kernel records no
+     * referrers: referrers false says so.
+     */
+    public function insights( array $in )
+    {
+        $node = isset( $in['nodeId'] ) ? eZContentObjectTreeNode::fetch( (int)$in['nodeId'] ) : null;
+        if ( !$node instanceof eZContentObjectTreeNode || !$node->canRead() )
+            throw new expwtApiError( 404, 'not_found', 'This page is not there, or you may not read it.' );
+        $counter = eZViewCounter::fetch( (int)$node->attribute( 'node_id' ) );
+        $collected = $counter instanceof eZViewCounter || (int)eZPersistentObject::count( eZViewCounter::definition() ) > 0;
+        $phrases = eZSearchLog::mostFrequentPhraseArray( array( 'offset' => 0, 'limit' => 500 ) );
+        $object = $node->object();
+        return array(
+            'nodeId' => (int)$node->attribute( 'node_id' ),
+            'name' => (string)$node->attribute( 'name' ),
+            'published' => (int)$object->attribute( 'published' ),
+            'modified' => (int)$object->attribute( 'modified' ),
+            'views' => array( 'collected' => $collected, 'count' => $counter instanceof eZViewCounter ? (int)$counter->attribute( 'count' ) : 0 ),
+            'searches' => self::searchesFor( (string)$node->attribute( 'name' ), is_array( $phrases ) ? $phrases : array() ),
+            'referrers' => false,
+        );
+    }
+
+    /**
+     * @param string $name the page's name
+     * @param array $phrases the search log (phrase, phrase_count, result_count), most frequent first
+     * @return array the phrases with a word of the name (3 letters or more), at most 10: phrase, searches, results
+     */
+    public static function searchesFor( $name, array $phrases )
+    {
+        $words = array();
+        foreach ( preg_split( '/[^\p{L}\p{N}]+/u', mb_strtolower( (string)$name, 'UTF-8' ), -1, PREG_SPLIT_NO_EMPTY ) as $word )
+            if ( mb_strlen( $word, 'UTF-8' ) >= 3 )
+                $words[$word] = true;
+        $out = array();
+        foreach ( $phrases as $p )
+        {
+            $terms = preg_split( '/[^\p{L}\p{N}]+/u', mb_strtolower( (string)$p['phrase'], 'UTF-8' ), -1, PREG_SPLIT_NO_EMPTY );
+            if ( !array_intersect_key( array_flip( $terms ), $words ) )
+                continue;
+            $out[] = array( 'phrase' => (string)$p['phrase'], 'searches' => (int)$p['phrase_count'], 'results' => (int)round( (float)$p['result_count'] ) );
+            if ( count( $out ) >= 10 )
+                break;
+        }
+        return $out;
+    }
+
     // ------------------------------------------------------------------------------------------------ the inbox
 
     /** @return bool the user may use the kernel's collaboration (the module's policy), where the approvals are */

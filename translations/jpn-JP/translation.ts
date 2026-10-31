@@ -564,6 +564,34 @@
         <translation>構造</translation>
     </message>
     <message>
+        <source>Insights</source>
+        <translation>インサイト</translation>
+    </message>
+    <message>
+        <source>Views of this page: %n</source>
+        <translation>このページの表示回数: %n</translation>
+    </message>
+    <message>
+        <source>The views are not counted on this installation (cronjob updateviewcount).</source>
+        <translation>このインストールでは表示回数を数えていません（cronjob updateviewcount）。</translation>
+    </message>
+    <message>
+        <source>Searches on this site for words in the page title</source>
+        <translation>ページタイトルの語によるこのサイトでの検索</translation>
+    </message>
+    <message>
+        <source>%n searches, %results results</source>
+        <translation>検索 %n 回、結果 %results 件</translation>
+    </message>
+    <message>
+        <source>No search on this site used a word of the page title.</source>
+        <translation>このサイトでページタイトルの語を使った検索はありません。</translation>
+    </message>
+    <message>
+        <source>Where visitors came from is not recorded on this installation.</source>
+        <translation>訪問者の参照元はこのインストールでは記録されません。</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>受信箱</translation>
     </message>

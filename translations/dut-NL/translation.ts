@@ -564,6 +564,34 @@
         <translation>Structuur</translation>
     </message>
     <message>
+        <source>Insights</source>
+        <translation>Inzicht</translation>
+    </message>
+    <message>
+        <source>Views of this page: %n</source>
+        <translation>Weergaven van deze pagina: %n</translation>
+    </message>
+    <message>
+        <source>The views are not counted on this installation (cronjob updateviewcount).</source>
+        <translation>Weergaven worden op deze installatie niet geteld (cronjob updateviewcount).</translation>
+    </message>
+    <message>
+        <source>Searches on this site for words in the page title</source>
+        <translation>Zoekopdrachten op deze site naar woorden uit de paginatitel</translation>
+    </message>
+    <message>
+        <source>%n searches, %results results</source>
+        <translation>%n zoekopdrachten, %results resultaten</translation>
+    </message>
+    <message>
+        <source>No search on this site used a word of the page title.</source>
+        <translation>Geen zoekopdracht op deze site gebruikte een woord uit de paginatitel.</translation>
+    </message>
+    <message>
+        <source>Where visitors came from is not recorded on this installation.</source>
+        <translation>Waar bezoekers vandaan kwamen, wordt op deze installatie niet vastgelegd.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Inbox</translation>
     </message>

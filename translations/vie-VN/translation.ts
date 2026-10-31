@@ -564,6 +564,34 @@
         <translation>Cấu trúc</translation>
     </message>
     <message>
+        <source>Insights</source>
+        <translation>Thông tin chi tiết</translation>
+    </message>
+    <message>
+        <source>Views of this page: %n</source>
+        <translation>Lượt xem trang này: %n</translation>
+    </message>
+    <message>
+        <source>The views are not counted on this installation (cronjob updateviewcount).</source>
+        <translation>Lượt xem không được đếm trên bản cài đặt này (cronjob updateviewcount).</translation>
+    </message>
+    <message>
+        <source>Searches on this site for words in the page title</source>
+        <translation>Các lượt tìm kiếm trên trang web này cho từ trong tiêu đề trang</translation>
+    </message>
+    <message>
+        <source>%n searches, %results results</source>
+        <translation>%n lượt tìm kiếm, %results kết quả</translation>
+    </message>
+    <message>
+        <source>No search on this site used a word of the page title.</source>
+        <translation>Không có lượt tìm kiếm nào trên trang web này dùng từ trong tiêu đề trang.</translation>
+    </message>
+    <message>
+        <source>Where visitors came from is not recorded on this installation.</source>
+        <translation>Nguồn đến của khách truy cập không được ghi lại trên bản cài đặt này.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Hộp thư đến</translation>
     </message>

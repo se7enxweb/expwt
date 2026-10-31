@@ -564,6 +564,34 @@
         <translation>ڈھانٛچہٕ</translation>
     </message>
     <message>
+        <source>Insights</source>
+        <translation>بٔصیرت</translation>
+    </message>
+    <message>
+        <source>Views of this page: %n</source>
+        <translation>یمہٕ صفحُک ویو: %n</translation>
+    </message>
+    <message>
+        <source>The views are not counted on this installation (cronjob updateviewcount).</source>
+        <translation>یتھ انسٹالیشنس پیٹھ چھُنہٕ ویو گنٛزراوان (cronjob updateviewcount)۔</translation>
+    </message>
+    <message>
+        <source>Searches on this site for words in the page title</source>
+        <translation>صفحُک عنوان کیٛن لفظن ہٕنٛز تلاش یتھ سائٹس پیٹھ</translation>
+    </message>
+    <message>
+        <source>%n searches, %results results</source>
+        <translation>%n تلاش، %results نتیجہٕ</translation>
+    </message>
+    <message>
+        <source>No search on this site used a word of the page title.</source>
+        <translation>یتھ سائٹس پیٹھ ورتوٚو نہٕ کانٛہہ تلاشن صفحُک عنوانُک لفظ۔</translation>
+    </message>
+    <message>
+        <source>Where visitors came from is not recorded on this installation.</source>
+        <translation>مہمان کتہِ آیہِ، یہِ چھُنہٕ یتھ انسٹالیشنس پیٹھ درج سپدان۔</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>اِنباکس</translation>
     </message>

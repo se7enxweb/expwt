@@ -564,6 +564,34 @@
         <translation>Struktur</translation>
     </message>
     <message>
+        <source>Insights</source>
+        <translation>Abléck</translation>
+    </message>
+    <message>
+        <source>Views of this page: %n</source>
+        <translation>Opruff vun dëser Säit: %n</translation>
+    </message>
+    <message>
+        <source>The views are not counted on this installation (cronjob updateviewcount).</source>
+        <translation>D'Opruff ginn op dëser Installatioun net gezielt (cronjob updateviewcount).</translation>
+    </message>
+    <message>
+        <source>Searches on this site for words in the page title</source>
+        <translation>Sichen op dësem Site no Wierder aus dem Säitentitel</translation>
+    </message>
+    <message>
+        <source>%n searches, %results results</source>
+        <translation>%n Sichen, %results Resultater</translation>
+    </message>
+    <message>
+        <source>No search on this site used a word of the page title.</source>
+        <translation>Keng Sich op dësem Site huet e Wuert aus dem Säitentitel benotzt.</translation>
+    </message>
+    <message>
+        <source>Where visitors came from is not recorded on this installation.</source>
+        <translation>Wou d'Besicher hierkoumen, gëtt op dëser Installatioun net festgehalen.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Postkëscht</translation>
     </message>

@@ -89,6 +89,7 @@ der Stelle von ezwt in den aktiven Erweiterungen. Ein Probelauf listet die Ände
 | Seite | `expwt/use` (lesen), `expwt/edit` (ändern) | die Felder der Seite in einem Formular, auf der Seite bearbeiten, Entwurf speichern, Vorschau, der volle Editor, jetzt oder zu einem Zeitpunkt veröffentlichen, zu einem Zeitpunkt zurückziehen, Entwurf verwerfen |
 | Anlegen | `expwt/create` | eine neue Seite unter oder neben dieser: die Klassen, die Sie dort anlegen dürfen, ein Titel, dann im Bereich Seite ausfüllen und veröffentlichen |
 | Struktur | `expwt/structure` | ausblenden und einblenden, verschieben und einen weiteren Ort hinzufügen (der Platz wird in einem Baum auf der Website gewählt), in den Papierkorb, die Seiten darunter per Ziehen oder mit den Pfeilschaltflächen sortieren |
+| Einblicke | `expwt/insights` | nur lesend, aus den eigenen Statistiken des Kernels, ohne Tracking Dritter: die Aufrufe der Seite (der Aufrufzähler, den der Cronjob `updateviewcount` aus dem Zugriffsprotokoll füllt; ist er aus, sagt der Bereich das), die Suchen auf der Website nach Wörtern des Seitentitels (das Suchprotokoll des Kernels, mit Anzahl und Treffern) und dass der Kernel keine Herkunftsseiten erfasst |
 | Posteingang | `expwt/use` und die Richtlinie `collaboration` des Kernels | die Freigaben des Veröffentlichungs-Workflows, die auf Sie warten (das Freigabe-Ereignis des Kernels): jede Seite mit Autor und letztem Kommentar, **Entwurf öffnen**, und für ihre Freigebenden ein Kommentar mit **Freigeben** oder **Ablehnen**, entschieden über die eigene Ansicht `collaboration/action` des Kernels, genau wie in der Administration (der Workflow veröffentlicht eine freigegebene Seite bei seinem nächsten Lauf; eine abgelehnte ist wieder ein Entwurf ihres Autors). Ihre Anzahl steht als Zähler auf dem geschlossenen Reiter und auf dem Reiter des Bereichs |
 | Ich | `expwt/use` | Ihr Konto auf einen Blick und die Seiten des Kernels dafür (Konto, Passwort, Passkeys, Sitzungen und Geräte, Sicherheit, Benachrichtigungen, Entwürfe, Lesezeichen), die Einstellungen der Seitenleiste, abmelden |
 
@@ -192,6 +193,7 @@ im Entwurf, über das Hochladen des Bildfeldes selbst; sein Alternativtext steht
 | `expwt/create` | den Bereich Anlegen |
 | `expwt/structure` | den Bereich Struktur |
 | `expwt/layouts`, `expwt/templates`, `expwt/shop`, `expwt/admin` | die Bereiche späterer Phasen (schon jetzt definiert) |
+| `expwt/insights` | der Bereich „Einblicke": die Aufrufe der Seite und die Suchen der Website nach Wörtern ihres Titels, aus den eigenen Statistiken des Kernels |
 
 Die Policies von expwt entscheiden, was die Seitenleiste anbietet; jede Aktion prüft zusätzlich die Policy des Kernels
 für das, was sie ändert (`content/edit` des Objekts, `content/create` unter dem Elternknoten, `content/hide`,

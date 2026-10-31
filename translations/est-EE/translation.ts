@@ -564,6 +564,34 @@
         <translation>Struktuur</translation>
     </message>
     <message>
+        <source>Insights</source>
+        <translation>Ülevaade</translation>
+    </message>
+    <message>
+        <source>Views of this page: %n</source>
+        <translation>Selle lehe vaatamisi: %n</translation>
+    </message>
+    <message>
+        <source>The views are not counted on this installation (cronjob updateviewcount).</source>
+        <translation>Selles paigalduses vaatamisi ei loeta (cronjob updateviewcount).</translation>
+    </message>
+    <message>
+        <source>Searches on this site for words in the page title</source>
+        <translation>Otsingud sellel saidil lehe pealkirja sõnade järgi</translation>
+    </message>
+    <message>
+        <source>%n searches, %results results</source>
+        <translation>%n otsingut, %results tulemust</translation>
+    </message>
+    <message>
+        <source>No search on this site used a word of the page title.</source>
+        <translation>Ükski otsing sellel saidil ei kasutanud lehe pealkirja sõna.</translation>
+    </message>
+    <message>
+        <source>Where visitors came from is not recorded on this installation.</source>
+        <translation>Kust külastajad tulid, ei salvestata selles paigalduses.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Postkast</translation>
     </message>

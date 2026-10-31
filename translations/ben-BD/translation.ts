@@ -564,6 +564,34 @@
         <translation>কাঠামো</translation>
     </message>
     <message>
+        <source>Insights</source>
+        <translation>অন্তর্দৃষ্টি</translation>
+    </message>
+    <message>
+        <source>Views of this page: %n</source>
+        <translation>এই পৃষ্ঠার দর্শন: %n</translation>
+    </message>
+    <message>
+        <source>The views are not counted on this installation (cronjob updateviewcount).</source>
+        <translation>এই ইনস্টলেশনে দর্শন গণনা করা হয় না (cronjob updateviewcount)।</translation>
+    </message>
+    <message>
+        <source>Searches on this site for words in the page title</source>
+        <translation>পৃষ্ঠার শিরোনামের শব্দ দিয়ে এই সাইটে অনুসন্ধান</translation>
+    </message>
+    <message>
+        <source>%n searches, %results results</source>
+        <translation>%n অনুসন্ধান, %results ফলাফল</translation>
+    </message>
+    <message>
+        <source>No search on this site used a word of the page title.</source>
+        <translation>এই সাইটে কোনো অনুসন্ধানে পৃষ্ঠার শিরোনামের শব্দ ব্যবহৃত হয়নি।</translation>
+    </message>
+    <message>
+        <source>Where visitors came from is not recorded on this installation.</source>
+        <translation>দর্শকেরা কোথা থেকে এসেছেন তা এই ইনস্টলেশনে রেকর্ড করা হয় না।</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>ইনবক্স</translation>
     </message>

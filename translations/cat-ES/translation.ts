@@ -564,6 +564,34 @@
         <translation>Estructura</translation>
     </message>
     <message>
+        <source>Insights</source>
+        <translation>Informació</translation>
+    </message>
+    <message>
+        <source>Views of this page: %n</source>
+        <translation>Visites d'aquesta pàgina: %n</translation>
+    </message>
+    <message>
+        <source>The views are not counted on this installation (cronjob updateviewcount).</source>
+        <translation>Les visites no es compten en aquesta instal·lació (cronjob updateviewcount).</translation>
+    </message>
+    <message>
+        <source>Searches on this site for words in the page title</source>
+        <translation>Cerques en aquest lloc de paraules del títol de la pàgina</translation>
+    </message>
+    <message>
+        <source>%n searches, %results results</source>
+        <translation>%n cerques, %results resultats</translation>
+    </message>
+    <message>
+        <source>No search on this site used a word of the page title.</source>
+        <translation>Cap cerca en aquest lloc no ha fet servir una paraula del títol de la pàgina.</translation>
+    </message>
+    <message>
+        <source>Where visitors came from is not recorded on this installation.</source>
+        <translation>D'on vénen els visitants no es registra en aquesta instal·lació.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Safata d'entrada</translation>
     </message>

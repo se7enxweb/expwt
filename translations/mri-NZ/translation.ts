@@ -564,6 +564,34 @@
         <translation>Hanganga</translation>
     </message>
     <message>
+        <source>Insights</source>
+        <translation>Ngā kitenga</translation>
+    </message>
+    <message>
+        <source>Views of this page: %n</source>
+        <translation>Ngā tirohanga o tēnei whārangi: %n</translation>
+    </message>
+    <message>
+        <source>The views are not counted on this installation (cronjob updateviewcount).</source>
+        <translation>Kāore e tatauria ngā tirohanga ki tēnei tāutanga (cronjob updateviewcount).</translation>
+    </message>
+    <message>
+        <source>Searches on this site for words in the page title</source>
+        <translation>Ngā rapunga i tēnei pae mō ngā kupu o te taitara whārangi</translation>
+    </message>
+    <message>
+        <source>%n searches, %results results</source>
+        <translation>%n rapunga, %results hua</translation>
+    </message>
+    <message>
+        <source>No search on this site used a word of the page title.</source>
+        <translation>Kāore he rapunga i tēnei pae i whakamahi i tētahi kupu o te taitara whārangi.</translation>
+    </message>
+    <message>
+        <source>Where visitors came from is not recorded on this installation.</source>
+        <translation>Kāore e tuhia ki tēnei tāutanga te wāhi i ahu mai ai ngā manuhiri.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Pouaka whakauru</translation>
     </message>

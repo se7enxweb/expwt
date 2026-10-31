@@ -1207,5 +1207,37 @@
     });
   }
 
-  window.ExpwtPanels = { page: page, create: create, structure: structure, inbox: inbox, me: me };
+  /* ---------------------------------------------------------------------------------------------- insights */
+
+  /* The page's insights from the kernel's own statistics (F25), read-only: its views, the searches on this site for
+     a word of its name, and that the kernel records no referrers. No third-party tracking. */
+  function insights(ctx, root) {
+    var h = ctx.h;
+    var t = ctx.t;
+    if (!ctx.node) {
+      root.appendChild(h('p', { text: t('This page is not content of the site. Open a page of the site to edit it.') }));
+      return;
+    }
+    root.appendChild(h('p', { class: 'wt-muted', text: t('Loading ...') }));
+    ctx.call('insights.load', { nodeId: ctx.node }).then(function (r) {
+      root.textContent = '';
+      root.appendChild(h('div', { class: 'wt-section wt-page-head' }, [h('h3', { text: r.name })]));
+      root.appendChild(h('div', { class: 'wt-section' }, [
+        r.views.collected ? h('p', { class: 'wt-insight-figure', text: t('Views of this page: %n').replace('%n', r.views.count) })
+          : h('p', { class: 'wt-muted', text: t('The views are not counted on this installation (cronjob updateviewcount).') })]));
+      var searches = h('div', { class: 'wt-section' }, [h('h4', { text: t('Searches on this site for words in the page title') })]);
+      if (r.searches.length) {
+        searches.appendChild(h('ul', { class: 'wt-insight-list' }, r.searches.map(function (s) {
+          return h('li', {}, [h('span', { class: 'wt-insight-term', text: s.phrase }),
+            h('span', { class: 'wt-muted', text: t('%n searches, %results results').replace('%n', s.searches).replace('%results', s.results) })]);
+        })));
+      } else {
+        searches.appendChild(h('p', { class: 'wt-muted', text: t('No search on this site used a word of the page title.') }));
+      }
+      root.appendChild(searches);
+      root.appendChild(h('p', { class: 'wt-muted', text: t('Where visitors came from is not recorded on this installation.') }));
+    }, function (err) { root.textContent = ''; failure(ctx, err); });
+  }
+
+  window.ExpwtPanels = { page: page, create: create, structure: structure, insights: insights, inbox: inbox, me: me };
 }());

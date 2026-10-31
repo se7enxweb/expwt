@@ -564,6 +564,34 @@
         <translation>गाहाय गुदि</translation>
     </message>
     <message>
+        <source>Insights</source>
+        <translation>सान्थि</translation>
+    </message>
+    <message>
+        <source>Views of this page: %n</source>
+        <translation>बे बिखंनि नुथाय: %n</translation>
+    </message>
+    <message>
+        <source>The views are not counted on this installation (cronjob updateviewcount).</source>
+        <translation>बे इनस्टलेसनआव नुथाय सानायाखै (cronjob updateviewcount)।</translation>
+    </message>
+    <message>
+        <source>Searches on this site for words in the page title</source>
+        <translation>बिखंनि बिमुंनि सोदोबनि थाखाय बे साइटआव नागिरनाय</translation>
+    </message>
+    <message>
+        <source>%n searches, %results results</source>
+        <translation>%n नागिरनाय, %results फल</translation>
+    </message>
+    <message>
+        <source>No search on this site used a word of the page title.</source>
+        <translation>बे साइटआव जेबो नागिरनायआ बिखंनि बिमुंनि सोदोब बाहायाखै।</translation>
+    </message>
+    <message>
+        <source>Where visitors came from is not recorded on this installation.</source>
+        <translation>नुग्रासिफोरा माब्लाय फैखौ बे इनस्टलेसनआव लिरनाय जाया।</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>इनबक्स</translation>
     </message>

@@ -564,6 +564,34 @@
         <translation>រចនាសម្ព័ន្ធ</translation>
     </message>
     <message>
+        <source>Insights</source>
+        <translation>ការយល់ដឹង</translation>
+    </message>
+    <message>
+        <source>Views of this page: %n</source>
+        <translation>ការមើលទំព័រនេះ៖ %n</translation>
+    </message>
+    <message>
+        <source>The views are not counted on this installation (cronjob updateviewcount).</source>
+        <translation>ការមើលមិនត្រូវបានរាប់នៅលើការដំឡើងនេះទេ (cronjob updateviewcount)។</translation>
+    </message>
+    <message>
+        <source>Searches on this site for words in the page title</source>
+        <translation>ការស្វែងរកនៅលើគេហទំព័រនេះសម្រាប់ពាក្យក្នុងចំណងជើងទំព័រ</translation>
+    </message>
+    <message>
+        <source>%n searches, %results results</source>
+        <translation>ការស្វែងរក %n, លទ្ធផល %results</translation>
+    </message>
+    <message>
+        <source>No search on this site used a word of the page title.</source>
+        <translation>គ្មានការស្វែងរកណាមួយនៅលើគេហទំព័រនេះប្រើពាក្យពីចំណងជើងទំព័រទេ។</translation>
+    </message>
+    <message>
+        <source>Where visitors came from is not recorded on this installation.</source>
+        <translation>កន្លែងដែលអ្នកទស្សនាមកពីមិនត្រូវបានកត់ត្រានៅលើការដំឡើងនេះទេ។</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>ប្រអប់ទទួល</translation>
     </message>

@@ -564,6 +564,34 @@
         <translation>கட்டமைப்பு</translation>
     </message>
     <message>
+        <source>Insights</source>
+        <translation>நுண்ணறிவு</translation>
+    </message>
+    <message>
+        <source>Views of this page: %n</source>
+        <translation>இந்தப் பக்கத்தின் பார்வைகள்: %n</translation>
+    </message>
+    <message>
+        <source>The views are not counted on this installation (cronjob updateviewcount).</source>
+        <translation>இந்த நிறுவலில் பார்வைகள் எண்ணப்படுவதில்லை (cronjob updateviewcount).</translation>
+    </message>
+    <message>
+        <source>Searches on this site for words in the page title</source>
+        <translation>பக்கத் தலைப்பின் சொற்களுக்காக இந்தத் தளத்தில் தேடல்கள்</translation>
+    </message>
+    <message>
+        <source>%n searches, %results results</source>
+        <translation>%n தேடல்கள், %results முடிவுகள்</translation>
+    </message>
+    <message>
+        <source>No search on this site used a word of the page title.</source>
+        <translation>இந்தத் தளத்தில் எந்தத் தேடலும் பக்கத் தலைப்பின் சொல்லைப் பயன்படுத்தவில்லை.</translation>
+    </message>
+    <message>
+        <source>Where visitors came from is not recorded on this installation.</source>
+        <translation>பார்வையாளர்கள் எங்கிருந்து வந்தனர் என்பது இந்த நிறுவலில் பதிவு செய்யப்படுவதில்லை.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>உள்பெட்டி</translation>
     </message>

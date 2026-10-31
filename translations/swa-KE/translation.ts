@@ -564,6 +564,34 @@
         <translation>Muundo</translation>
     </message>
     <message>
+        <source>Insights</source>
+        <translation>Maarifa</translation>
+    </message>
+    <message>
+        <source>Views of this page: %n</source>
+        <translation>Mitazamo ya ukurasa huu: %n</translation>
+    </message>
+    <message>
+        <source>The views are not counted on this installation (cronjob updateviewcount).</source>
+        <translation>Mitazamo haihesabiwi kwenye usakinishaji huu (cronjob updateviewcount).</translation>
+    </message>
+    <message>
+        <source>Searches on this site for words in the page title</source>
+        <translation>Utafutaji kwenye tovuti hii wa maneno ya kichwa cha ukurasa</translation>
+    </message>
+    <message>
+        <source>%n searches, %results results</source>
+        <translation>Utafutaji %n, matokeo %results</translation>
+    </message>
+    <message>
+        <source>No search on this site used a word of the page title.</source>
+        <translation>Hakuna utafutaji kwenye tovuti hii uliotumia neno la kichwa cha ukurasa.</translation>
+    </message>
+    <message>
+        <source>Where visitors came from is not recorded on this installation.</source>
+        <translation>Wageni walikotoka hakurekodiwi kwenye usakinishaji huu.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Kikasha</translation>
     </message>

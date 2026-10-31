@@ -564,6 +564,34 @@
         <translation>Rafitra</translation>
     </message>
     <message>
+        <source>Insights</source>
+        <translation>Fahalalana</translation>
+    </message>
+    <message>
+        <source>Views of this page: %n</source>
+        <translation>Fijerena ity pejy ity: %n</translation>
+    </message>
+    <message>
+        <source>The views are not counted on this installation (cronjob updateviewcount).</source>
+        <translation>Tsy isaina ny fijerena amin'ity fametrahana ity (cronjob updateviewcount).</translation>
+    </message>
+    <message>
+        <source>Searches on this site for words in the page title</source>
+        <translation>Fikarohana amin'ity tranonkala ity ho an'ny teny ao amin'ny lohatenin'ny pejy</translation>
+    </message>
+    <message>
+        <source>%n searches, %results results</source>
+        <translation>Fikarohana %n, valiny %results</translation>
+    </message>
+    <message>
+        <source>No search on this site used a word of the page title.</source>
+        <translation>Tsy nisy fikarohana tamin'ity tranonkala ity nampiasa teny avy amin'ny lohatenin'ny pejy.</translation>
+    </message>
+    <message>
+        <source>Where visitors came from is not recorded on this installation.</source>
+        <translation>Tsy voasoratra amin'ity fametrahana ity hoe avy aiza ny mpitsidika.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Boaty fandraisana</translation>
     </message>

@@ -564,6 +564,34 @@
         <translation>ساختار</translation>
     </message>
     <message>
+        <source>Insights</source>
+        <translation>بینش‌ها</translation>
+    </message>
+    <message>
+        <source>Views of this page: %n</source>
+        <translation>بازدیدهای این صفحه: %n</translation>
+    </message>
+    <message>
+        <source>The views are not counted on this installation (cronjob updateviewcount).</source>
+        <translation>بازدیدها در این نصب شمرده نمی‌شوند (cronjob updateviewcount).</translation>
+    </message>
+    <message>
+        <source>Searches on this site for words in the page title</source>
+        <translation>جستجوها در این سایت برای واژه‌های عنوان صفحه</translation>
+    </message>
+    <message>
+        <source>%n searches, %results results</source>
+        <translation>%n جستجو، %results نتیجه</translation>
+    </message>
+    <message>
+        <source>No search on this site used a word of the page title.</source>
+        <translation>هیچ جستجویی در این سایت از واژه‌ای از عنوان صفحه استفاده نکرده است.</translation>
+    </message>
+    <message>
+        <source>Where visitors came from is not recorded on this installation.</source>
+        <translation>اینکه بازدیدکنندگان از کجا آمده‌اند در این نصب ثبت نمی‌شود.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>صندوق ورودی</translation>
     </message>

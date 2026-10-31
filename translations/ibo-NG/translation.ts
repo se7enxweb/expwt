@@ -564,6 +564,34 @@
         <translation>Nhazi</translation>
     </message>
     <message>
+        <source>Insights</source>
+        <translation>Nghọta</translation>
+    </message>
+    <message>
+        <source>Views of this page: %n</source>
+        <translation>Nlele ibe a: %n</translation>
+    </message>
+    <message>
+        <source>The views are not counted on this installation (cronjob updateviewcount).</source>
+        <translation>A naghị agụ nlele na nwụnye a (cronjob updateviewcount).</translation>
+    </message>
+    <message>
+        <source>Searches on this site for words in the page title</source>
+        <translation>Nchọta na saịtị a maka okwu dị n'aha ibe ahụ</translation>
+    </message>
+    <message>
+        <source>%n searches, %results results</source>
+        <translation>Nchọta %n, nsonaazụ %results</translation>
+    </message>
+    <message>
+        <source>No search on this site used a word of the page title.</source>
+        <translation>Ọ dịghị nchọta na saịtị a jiri okwu sitere n'aha ibe ahụ.</translation>
+    </message>
+    <message>
+        <source>Where visitors came from is not recorded on this installation.</source>
+        <translation>A naghị edekọ ebe ndị ọbịa si bịa na nwụnye a.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Igbe ozi</translation>
     </message>

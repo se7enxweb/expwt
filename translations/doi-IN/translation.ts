@@ -564,6 +564,34 @@
         <translation>ढांचा</translation>
     </message>
     <message>
+        <source>Insights</source>
+        <translation>अंतर्दृष्टि</translation>
+    </message>
+    <message>
+        <source>Views of this page: %n</source>
+        <translation>इस पन्ने दे दर्शन: %n</translation>
+    </message>
+    <message>
+        <source>The views are not counted on this installation (cronjob updateviewcount).</source>
+        <translation>इस इंस्टॉलेशन पर दर्शन नेईं गिने जंदे (cronjob updateviewcount)।</translation>
+    </message>
+    <message>
+        <source>Searches on this site for words in the page title</source>
+        <translation>पन्ने दे शीर्षक दे शब्दें आस्तै इस साइट पर खोज</translation>
+    </message>
+    <message>
+        <source>%n searches, %results results</source>
+        <translation>%n खोज, %results नतीजे</translation>
+    </message>
+    <message>
+        <source>No search on this site used a word of the page title.</source>
+        <translation>इस साइट पर कुसै खोज ने पन्ने दे शीर्षक दा शब्द नेईं बरतेआ।</translation>
+    </message>
+    <message>
+        <source>Where visitors came from is not recorded on this installation.</source>
+        <translation>आगंतुक कुत्थुआं आए, एह इस इंस्टॉलेशन पर दर्ज नेईं होंदा।</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>इनबॉक्स</translation>
     </message>

@@ -564,6 +564,34 @@
         <translation>ڈھانچہ</translation>
     </message>
     <message>
+        <source>Insights</source>
+        <translation>بصیرت</translation>
+    </message>
+    <message>
+        <source>Views of this page: %n</source>
+        <translation>اس صفحے کے ویوز: %n</translation>
+    </message>
+    <message>
+        <source>The views are not counted on this installation (cronjob updateviewcount).</source>
+        <translation>اس انسٹالیشن پر ویوز نہیں گنے جاتے (cronjob updateviewcount)۔</translation>
+    </message>
+    <message>
+        <source>Searches on this site for words in the page title</source>
+        <translation>صفحے کے عنوان کے الفاظ کے لیے اس سائٹ پر تلاش</translation>
+    </message>
+    <message>
+        <source>%n searches, %results results</source>
+        <translation>%n تلاشیں، %results نتائج</translation>
+    </message>
+    <message>
+        <source>No search on this site used a word of the page title.</source>
+        <translation>اس سائٹ پر کسی تلاش نے صفحے کے عنوان کا لفظ استعمال نہیں کیا۔</translation>
+    </message>
+    <message>
+        <source>Where visitors came from is not recorded on this installation.</source>
+        <translation>مہمان کہاں سے آئے، یہ اس انسٹالیشن پر درج نہیں ہوتا۔</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>ان باکس</translation>
     </message>

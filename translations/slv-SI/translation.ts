@@ -564,6 +564,34 @@
         <translation>Struktura</translation>
     </message>
     <message>
+        <source>Insights</source>
+        <translation>Vpogled</translation>
+    </message>
+    <message>
+        <source>Views of this page: %n</source>
+        <translation>Ogledi te strani: %n</translation>
+    </message>
+    <message>
+        <source>The views are not counted on this installation (cronjob updateviewcount).</source>
+        <translation>Ogledi se na tej namestitvi ne štejejo (cronjob updateviewcount).</translation>
+    </message>
+    <message>
+        <source>Searches on this site for words in the page title</source>
+        <translation>Iskanja na tem spletišču po besedah iz naslova strani</translation>
+    </message>
+    <message>
+        <source>%n searches, %results results</source>
+        <translation>%n iskanj, %results zadetkov</translation>
+    </message>
+    <message>
+        <source>No search on this site used a word of the page title.</source>
+        <translation>Nobeno iskanje na tem spletišču ni uporabilo besede iz naslova strani.</translation>
+    </message>
+    <message>
+        <source>Where visitors came from is not recorded on this installation.</source>
+        <translation>Od kod so obiskovalci prišli, se na tej namestitvi ne beleži.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Prejeto</translation>
     </message>

@@ -564,6 +564,34 @@
         <translation>ව්‍යුහය</translation>
     </message>
     <message>
+        <source>Insights</source>
+        <translation>තීක්ෂ්ණ බුද්ධිය</translation>
+    </message>
+    <message>
+        <source>Views of this page: %n</source>
+        <translation>මෙම පිටුවේ නැරඹුම්: %n</translation>
+    </message>
+    <message>
+        <source>The views are not counted on this installation (cronjob updateviewcount).</source>
+        <translation>මෙම ස්ථාපනයේ නැරඹුම් ගණන් නොකෙරේ (cronjob updateviewcount).</translation>
+    </message>
+    <message>
+        <source>Searches on this site for words in the page title</source>
+        <translation>පිටු මාතෘකාවේ වචන සඳහා මෙම අඩවියේ සෙවුම්</translation>
+    </message>
+    <message>
+        <source>%n searches, %results results</source>
+        <translation>සෙවුම් %n, ප්‍රතිඵල %results</translation>
+    </message>
+    <message>
+        <source>No search on this site used a word of the page title.</source>
+        <translation>මෙම අඩවියේ කිසිදු සෙවුමක් පිටු මාතෘකාවේ වචනයක් භාවිත කළේ නැත.</translation>
+    </message>
+    <message>
+        <source>Where visitors came from is not recorded on this installation.</source>
+        <translation>අමුත්තන් පැමිණියේ කොහෙන්ද යන්න මෙම ස්ථාපනයේ සටහන් නොවේ.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>එන ලිපි</translation>
     </message>

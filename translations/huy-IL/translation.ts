@@ -564,6 +564,34 @@
         <translation>בנינא</translation>
     </message>
     <message>
+        <source>Insights</source>
+        <translation>ܣܘܟܠ̈ܐ</translation>
+    </message>
+    <message>
+        <source>Views of this page: %n</source>
+        <translation>ܚܙܝ̈ܬܐ ܕܐܕܐ ܦܐܬܐ: %n</translation>
+    </message>
+    <message>
+        <source>The views are not counted on this installation (cronjob updateviewcount).</source>
+        <translation>ܚܙܝ̈ܬܐ ܠܐ ܡܬܡܢܝܐ ܒܐܕܐ ܫܘܬܠܡܬܐ (cronjob updateviewcount).</translation>
+    </message>
+    <message>
+        <source>Searches on this site for words in the page title</source>
+        <translation>ܒܥܝ̈ܬܐ ܒܐܕܐ ܐܬܪܐ ܩܐ ܡ̈ܠܐ ܕܫܡܐ ܕܦܐܬܐ</translation>
+    </message>
+    <message>
+        <source>%n searches, %results results</source>
+        <translation>%n ܒܥܝ̈ܬܐ، %results ܦܐܪ̈ܐ</translation>
+    </message>
+    <message>
+        <source>No search on this site used a word of the page title.</source>
+        <translation>ܠܝܬ ܒܥܝܬܐ ܕܡܦܠܚܠܗ ܡܠܬܐ ܕܫܡܐ ܕܦܐܬܐ.</translation>
+    </message>
+    <message>
+        <source>Where visitors came from is not recorded on this installation.</source>
+        <translation>ܡܢ ܐܝܟܐ ܐܬܝܠܗܘܢ ܐܟܣ̈ܢܝܐ ܠܐ ܡܬܟܬܒ ܒܐܕܐ ܫܘܬܠܡܬܐ.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>ܐܓܪ̈ܬܐ ܕܬܐܝܐ</translation>
     </message>

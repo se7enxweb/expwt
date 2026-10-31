@@ -564,6 +564,34 @@
         <translation>Бүтэц</translation>
     </message>
     <message>
+        <source>Insights</source>
+        <translation>Шинжилгээ</translation>
+    </message>
+    <message>
+        <source>Views of this page: %n</source>
+        <translation>Энэ хуудасны үзэлт: %n</translation>
+    </message>
+    <message>
+        <source>The views are not counted on this installation (cronjob updateviewcount).</source>
+        <translation>Энэ суулгацад үзэлтийг тоолдоггүй (cronjob updateviewcount).</translation>
+    </message>
+    <message>
+        <source>Searches on this site for words in the page title</source>
+        <translation>Энэ сайтад хуудасны гарчгийн үгээр хийсэн хайлт</translation>
+    </message>
+    <message>
+        <source>%n searches, %results results</source>
+        <translation>%n хайлт, %results үр дүн</translation>
+    </message>
+    <message>
+        <source>No search on this site used a word of the page title.</source>
+        <translation>Энэ сайтад хуудасны гарчгийн үгийг ашигласан хайлт алга.</translation>
+    </message>
+    <message>
+        <source>Where visitors came from is not recorded on this installation.</source>
+        <translation>Зочид хаанаас ирснийг энэ суулгацад бүртгэдэггүй.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Ирсэн</translation>
     </message>

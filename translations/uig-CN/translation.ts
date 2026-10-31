@@ -564,6 +564,34 @@
         <translation>قۇرۇلما</translation>
     </message>
     <message>
+        <source>Insights</source>
+        <translation>تەھلىل</translation>
+    </message>
+    <message>
+        <source>Views of this page: %n</source>
+        <translation>بۇ بەتنىڭ كۆرۈلۈشى: %n</translation>
+    </message>
+    <message>
+        <source>The views are not counted on this installation (cronjob updateviewcount).</source>
+        <translation>بۇ ئورنىتىشتا كۆرۈلۈش سانالمايدۇ (cronjob updateviewcount).</translation>
+    </message>
+    <message>
+        <source>Searches on this site for words in the page title</source>
+        <translation>بۇ تور بېكەتتە بەت ماۋزۇسىدىكى سۆزلەر بويىچە ئىزدەشلەر</translation>
+    </message>
+    <message>
+        <source>%n searches, %results results</source>
+        <translation>%n ئىزدەش، %results نەتىجە</translation>
+    </message>
+    <message>
+        <source>No search on this site used a word of the page title.</source>
+        <translation>بۇ تور بېكەتتىكى ھېچقانداق ئىزدەش بەت ماۋزۇسىدىكى سۆزنى ئىشلەتمىگەن.</translation>
+    </message>
+    <message>
+        <source>Where visitors came from is not recorded on this installation.</source>
+        <translation>زىيارەتچىلەرنىڭ قەيەردىن كەلگەنلىكى بۇ ئورنىتىشتا خاتىرىلەنمەيدۇ.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>كىرگەنلەر</translation>
     </message>

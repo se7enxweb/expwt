@@ -564,6 +564,34 @@
         <translation>ഘടന</translation>
     </message>
     <message>
+        <source>Insights</source>
+        <translation>ഉൾക്കാഴ്ചകൾ</translation>
+    </message>
+    <message>
+        <source>Views of this page: %n</source>
+        <translation>ഈ പേജിന്റെ കാഴ്ചകൾ: %n</translation>
+    </message>
+    <message>
+        <source>The views are not counted on this installation (cronjob updateviewcount).</source>
+        <translation>ഈ ഇൻസ്റ്റലേഷനിൽ കാഴ്ചകൾ എണ്ണുന്നില്ല (cronjob updateviewcount).</translation>
+    </message>
+    <message>
+        <source>Searches on this site for words in the page title</source>
+        <translation>പേജ് ശീർഷകത്തിലെ വാക്കുകൾക്കായി ഈ സൈറ്റിലെ തിരയലുകൾ</translation>
+    </message>
+    <message>
+        <source>%n searches, %results results</source>
+        <translation>%n തിരയലുകൾ, %results ഫലങ്ങൾ</translation>
+    </message>
+    <message>
+        <source>No search on this site used a word of the page title.</source>
+        <translation>ഈ സൈറ്റിലെ ഒരു തിരയലും പേജ് ശീർഷകത്തിലെ വാക്ക് ഉപയോഗിച്ചില്ല.</translation>
+    </message>
+    <message>
+        <source>Where visitors came from is not recorded on this installation.</source>
+        <translation>സന്ദർശകർ എവിടെ നിന്ന് വന്നു എന്ന് ഈ ഇൻസ്റ്റലേഷനിൽ രേഖപ്പെടുത്തുന്നില്ല.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>ഇൻബോക്സ്</translation>
     </message>

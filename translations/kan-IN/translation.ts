@@ -564,6 +564,34 @@
         <translation>ರಚನೆ</translation>
     </message>
     <message>
+        <source>Insights</source>
+        <translation>ಒಳನೋಟಗಳು</translation>
+    </message>
+    <message>
+        <source>Views of this page: %n</source>
+        <translation>ಈ ಪುಟದ ವೀಕ್ಷಣೆಗಳು: %n</translation>
+    </message>
+    <message>
+        <source>The views are not counted on this installation (cronjob updateviewcount).</source>
+        <translation>ಈ ಸ್ಥಾಪನೆಯಲ್ಲಿ ವೀಕ್ಷಣೆಗಳನ್ನು ಎಣಿಸಲಾಗುವುದಿಲ್ಲ (cronjob updateviewcount).</translation>
+    </message>
+    <message>
+        <source>Searches on this site for words in the page title</source>
+        <translation>ಪುಟದ ಶೀರ್ಷಿಕೆಯ ಪದಗಳಿಗಾಗಿ ಈ ಸೈಟ್‌ನಲ್ಲಿ ಹುಡುಕಾಟಗಳು</translation>
+    </message>
+    <message>
+        <source>%n searches, %results results</source>
+        <translation>%n ಹುಡುಕಾಟಗಳು, %results ಫಲಿತಾಂಶಗಳು</translation>
+    </message>
+    <message>
+        <source>No search on this site used a word of the page title.</source>
+        <translation>ಈ ಸೈಟ್‌ನಲ್ಲಿ ಯಾವ ಹುಡುಕಾಟವೂ ಪುಟದ ಶೀರ್ಷಿಕೆಯ ಪದವನ್ನು ಬಳಸಿಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>Where visitors came from is not recorded on this installation.</source>
+        <translation>ಸಂದರ್ಶಕರು ಎಲ್ಲಿಂದ ಬಂದರು ಎಂಬುದನ್ನು ಈ ಸ್ಥಾಪನೆಯಲ್ಲಿ ದಾಖಲಿಸಲಾಗುವುದಿಲ್ಲ.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>ಇನ್‌ಬಾಕ್ಸ್</translation>
     </message>

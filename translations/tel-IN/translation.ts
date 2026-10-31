@@ -564,6 +564,34 @@
         <translation>నిర్మాణం</translation>
     </message>
     <message>
+        <source>Insights</source>
+        <translation>అంతర్దృష్టులు</translation>
+    </message>
+    <message>
+        <source>Views of this page: %n</source>
+        <translation>ఈ పేజీ వీక్షణలు: %n</translation>
+    </message>
+    <message>
+        <source>The views are not counted on this installation (cronjob updateviewcount).</source>
+        <translation>ఈ ఇన్‌స్టాలేషన్‌లో వీక్షణలు లెక్కించబడవు (cronjob updateviewcount).</translation>
+    </message>
+    <message>
+        <source>Searches on this site for words in the page title</source>
+        <translation>పేజీ శీర్షికలోని పదాల కోసం ఈ సైట్‌లో శోధనలు</translation>
+    </message>
+    <message>
+        <source>%n searches, %results results</source>
+        <translation>%n శోధనలు, %results ఫలితాలు</translation>
+    </message>
+    <message>
+        <source>No search on this site used a word of the page title.</source>
+        <translation>ఈ సైట్‌లో ఏ శోధనా పేజీ శీర్షికలోని పదాన్ని ఉపయోగించలేదు.</translation>
+    </message>
+    <message>
+        <source>Where visitors came from is not recorded on this installation.</source>
+        <translation>సందర్శకులు ఎక్కడి నుండి వచ్చారో ఈ ఇన్‌స్టాలేషన్‌లో నమోదు కాదు.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>ఇన్‌బాక్స్</translation>
     </message>

@@ -564,6 +564,34 @@
         <translation>Structar</translation>
     </message>
     <message>
+        <source>Insights</source>
+        <translation>Lèirsinn</translation>
+    </message>
+    <message>
+        <source>Views of this page: %n</source>
+        <translation>Seallaidhean na duilleige seo: %n</translation>
+    </message>
+    <message>
+        <source>The views are not counted on this installation (cronjob updateviewcount).</source>
+        <translation>Chan eilear a' cunntadh nan seallaidhean air an stàladh seo (cronjob updateviewcount).</translation>
+    </message>
+    <message>
+        <source>Searches on this site for words in the page title</source>
+        <translation>Lorgan air an làrach seo airson faclan ann an tiotal na duilleige</translation>
+    </message>
+    <message>
+        <source>%n searches, %results results</source>
+        <translation>%n lorg, %results toradh</translation>
+    </message>
+    <message>
+        <source>No search on this site used a word of the page title.</source>
+        <translation>Cha do chleachd lorg sam bith air an làrach seo facal à tiotal na duilleige.</translation>
+    </message>
+    <message>
+        <source>Where visitors came from is not recorded on this installation.</source>
+        <translation>Chan eilear a' clàradh cò às a thàinig an luchd-tadhail air an stàladh seo.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Bogsa a-steach</translation>
     </message>

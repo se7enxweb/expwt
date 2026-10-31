@@ -564,6 +564,34 @@
         <translation>Ìgbékalẹ̀</translation>
     </message>
     <message>
+        <source>Insights</source>
+        <translation>Ìjìnlẹ̀ òye</translation>
+    </message>
+    <message>
+        <source>Views of this page: %n</source>
+        <translation>Ìwò ojú-ìwé yìí: %n</translation>
+    </message>
+    <message>
+        <source>The views are not counted on this installation (cronjob updateviewcount).</source>
+        <translation>A kò ka ìwò lórí ìfisílẹ̀ yìí (cronjob updateviewcount).</translation>
+    </message>
+    <message>
+        <source>Searches on this site for words in the page title</source>
+        <translation>Àwọn ìwákiri lórí ojúlé yìí fún ọ̀rọ̀ inú àkọlé ojú-ìwé</translation>
+    </message>
+    <message>
+        <source>%n searches, %results results</source>
+        <translation>Ìwákiri %n, àbájáde %results</translation>
+    </message>
+    <message>
+        <source>No search on this site used a word of the page title.</source>
+        <translation>Kò sí ìwákiri lórí ojúlé yìí tí ó lo ọ̀rọ̀ láti inú àkọlé ojú-ìwé.</translation>
+    </message>
+    <message>
+        <source>Where visitors came from is not recorded on this installation.</source>
+        <translation>A kò ṣe àkọsílẹ̀ ibi tí àwọn àlejò ti wá lórí ìfisílẹ̀ yìí.</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Àpótí ìwọlé</translation>
     </message>
