@@ -1155,7 +1155,7 @@
     var h = ctx.h;
     var t = ctx.t;
     var total = r.total;
-    ctx.waiting(total);
+    ctx.waiting(r.waiting !== undefined ? r.waiting : total);
     var heading = h('h3', {});
     var empty = h('p', { class: 'wt-muted', text: t('Nothing is waiting for your approval.') });
     var list = h('ul', { class: 'wt-inbox' });

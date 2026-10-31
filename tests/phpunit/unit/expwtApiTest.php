@@ -63,7 +63,7 @@ class expwtApiTestGateway extends expwtGateway
     public function sort( array $in ) { return $this->record( 'sort', $in ); }
     public $collaborates = true;
     public function collaborates() { return $this->collaborates; }
-    public function waitingCount() { return 3; }
+    public function waitingCount( $fresh = false ) { return 3; }
     public function inbox( array $in ) { return $this->record( 'inbox', $in ); }
     public function decide( array $in ) { return $this->record( 'decide', $in ); }
 }

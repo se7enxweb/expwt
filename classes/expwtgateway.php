@@ -260,13 +260,49 @@ class expwtGateway
         return isset( $access['accessWord'] ) && $access['accessWord'] !== 'no';
     }
 
-    /** @return int how many approvals wait for the user (the count on the closed tab, F29); 0 without collaboration */
-    public function waitingCount()
+    /** How long the count on the closed tab is kept in the user's session, in seconds */
+    const WAITING_SECONDS = 60;
+
+    /**
+     * @param bool $fresh count again (after a decision), not the count kept in the session
+     * @return int how many approvals wait for the user (the count on the closed tab, F29); 0 without collaboration.
+     *             Two counting queries through the persistent object layer (every database engine), kept in the
+     *             user's session for WAITING_SECONDS: the boot of every page asks for it.
+     */
+    public function waitingCount( $fresh = false )
     {
         if ( !$this->collaborates() )
             return 0;
-        $inbox = expCollaborationInbox::fetch( array( 'status' => 'waiting', 'role' => 'approver', 'type' => 'ezapprove', 'limit' => 1 ) );
-        return (int)$inbox['total'];
+        $http = eZHTTPTool::instance();
+        $userId = $this->userId();
+        $kept = $http->hasSessionVariable( 'expwtWaiting' ) ? $http->sessionVariable( 'expwtWaiting' ) : null;
+        if ( !$fresh && is_array( $kept ) && isset( $kept['user'], $kept['count'], $kept['at'] )
+             && (int)$kept['user'] === $userId && time() - (int)$kept['at'] < self::WAITING_SECONDS )
+            return (int)$kept['count'];
+        $count = self::countWaitingFor( $userId );
+        $http->setSessionVariable( 'expwtWaiting', array( 'user' => $userId, 'count' => $count, 'at' => time() ) );
+        return $count;
+    }
+
+    /** @return int the waiting approvals (ezapprove, undecided, active) the user is an approver of */
+    protected static function countWaitingFor( $userId )
+    {
+        $rows = eZPersistentObject::fetchObjectList( eZCollaborationItemParticipantLink::definition(), array( 'collaboration_id' ),
+                                                     array( 'participant_id' => (int)$userId,
+                                                            'participant_role' => eZCollaborationItemParticipantLink::ROLE_APPROVER ),
+                                                     null, null, false );
+        $ids = array();
+        foreach ( (array)$rows as $row )
+            $ids[] = (int)$row['collaboration_id'];
+        if ( !$ids )
+            return 0;
+        $count = 0;
+        foreach ( array_chunk( array_unique( $ids ), 500 ) as $chunk )
+            $count += (int)eZPersistentObject::count( eZCollaborationItem::definition(),
+                                                      array( 'id' => array( $chunk ), 'type_identifier' => 'ezapprove',
+                                                             'data_int3' => eZApproveCollaborationHandler::STATUS_WAITING,
+                                                             'status' => eZCollaborationItem::STATUS_ACTIVE ) );
+        return $count;
     }
 
     /**
@@ -306,7 +342,8 @@ class expwtGateway
                 'preview' => $version && $language !== '' ? self::url( '/content/versionview/' . (int)$row['object_id'] . '/' . (int)$row['version'] . '/' . $language ) : null,
             );
         }
-        return array( 'total' => (int)$inbox['total'], 'offset' => (int)$inbox['offset'], 'items' => $items );
+        // the count on the tabs, counted again now that the list is open
+        return array( 'total' => (int)$inbox['total'], 'offset' => (int)$inbox['offset'], 'items' => $items, 'waiting' => $this->waitingCount( true ) );
     }
 
     /** @return bool the user is an approver of the collaboration item (the role the kernel's handler asks for) */
@@ -367,7 +404,7 @@ class expwtGateway
             // the kernel's own reason (not an approver, decided already ...), in the user's language
             throw new expwtApiError( 409, 'not_decided', $notice && $notice['text'] !== '' ? (string)$notice['text'] : 'The approval could not be decided.' );
         }
-        return array( 'state' => $state, 'message' => $notice ? (string)$notice['text'] : '', 'waiting' => $this->waitingCount() );
+        return array( 'state' => $state, 'message' => $notice ? (string)$notice['text'] : '', 'waiting' => $this->waitingCount( true ) );
     }
 
     /**
