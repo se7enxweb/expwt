@@ -197,33 +197,44 @@
       /* a phone (the bar on top or bottom is a sheet as high as its contents, its body scrolls): the fields one
          below the other as on the sides, no "More" -- in its little room "More" opened below the visible part */
       var hz = ctx.horizontal() && window.innerWidth >= 640;
-      order.forEach(function (row) { form.appendChild(row); });
+      /* A field's row holds its editor's frame, and a frame moved in the page loads again (its request aborted): rows
+         move only when their place changes, with moveBefore() where the browser keeps the frame's page */
+      var inPlace = order.every(function (row, i) { return row.parentNode === form && (i === 0 || order[i - 1].nextSibling === row); });
+      if (!inPlace) {
+        order.forEach(function (row) { put(form, row, null); });
+      }
       if (hz) {
-        if (othersNote) { more.appendChild(othersNote); }
-        more.appendChild(schedule);
+        if (othersNote) { put(more, othersNote, null); }
+        put(more, schedule, null);
         more.open = false;
         more.hidden = false;
         moreSummary.textContent = t('More');
         var over = function () { return root.scrollHeight > root.clientHeight + 1; };
         var inGrid = order.slice();
         while (over() && inGrid.length > 1) {
-          moreFields.insertBefore(inGrid.pop(), moreFields.firstChild);
+          put(moreFields, inGrid.pop(), moreFields.firstChild);
           moreSummary.textContent = t('More') + ' (' + moreFields.children.length + ')';
         }
         /* a smaller field after a long one may still fit: back into the grid in its own place, while it fits */
         Array.prototype.slice.call(moreFields.children).forEach(function (row) {
           var after = order.slice(order.indexOf(row) + 1).filter(function (r) { return r.parentNode === form; })[0];
-          form.insertBefore(row, after || null);
-          if (over()) { moreFields.appendChild(row); }
+          put(form, row, after || null);
+          if (over()) { put(moreFields, row, null); }
         });
-        order.forEach(function (row) { if (row.parentNode === moreFields) { moreFields.appendChild(row); } });
+        order.forEach(function (row) { if (row.parentNode === moreFields) { put(moreFields, row, null); } });
         var left = moreFields.children.length;
         moreSummary.textContent = t('More') + (left ? ' (' + left + ')' : '');
       } else {
-        if (othersNote) { form.appendChild(othersNote); }
-        flat.appendChild(schedule);
+        if (othersNote) { put(form, othersNote, null); }
+        put(flat, schedule, null);
         more.hidden = true;
       }
+    }
+    /* node into parent before ref (null: at the end); nothing when it is there already */
+    function put(parent, node, ref) {
+      ref = ref || null;
+      if (node.parentNode === parent && (ref ? node.nextSibling === ref : !node.nextSibling)) { return; }
+      if (ctx.move) { ctx.move(parent, node, ref); } else { parent.insertBefore(node, ref); }
     }
     arrange();
     if (root.expwtArrange) { root.removeEventListener('expwt-orient', root.expwtArrange); }
@@ -348,8 +359,12 @@
       var entry = frames[m.identifier];
       if (m.expwt === 'field-size') {
         if (entry && entry.frame) {
-          entry.frame.setAttribute('height', String(Math.max(80, Math.min(4000, parseInt(m.height, 10) || 160))));
-          if (ctx.horizontal()) { clearTimeout(entry.fit); entry.fit = setTimeout(arrange, 200); }
+          var height = String(Math.max(80, Math.min(4000, parseInt(m.height, 10) || 160)));
+          /* only a real change of size arranges the wide bar again (a frame that loaded again after a move says the
+             same height: no new arrangement, so no loop of moves and reloads) */
+          if (entry.frame.getAttribute('height') === height) { return; }
+          entry.frame.setAttribute('height', height);
+          if (ctx.horizontal() && window.innerWidth >= 640) { clearTimeout(entry.fit); entry.fit = setTimeout(arrange, 200); }
         }
         return;
       }

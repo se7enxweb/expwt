@@ -77,6 +77,32 @@
   /* true where moving a frame keeps its page (moveBefore) */
   move.keeps = typeof Element !== 'undefined' && typeof Element.prototype.moveBefore === 'function';
 
+  /* A read that meets no server (the connection refused while the application server restarts, a gateway error) is
+     tried again after 1, 2, 4 and 8 seconds before the sidebar says it could not reach the server. Never a write: it
+     may have been carried out. */
+  var RETRY_AFTER = [1000, 2000, 4000, 8000];
+  function fetchRetry(url, init) {
+    var attempt = 0;
+    return new Promise(function (resolve, reject) {
+      (function go() {
+        fetch(url, init).then(function (res) {
+          if ([502, 503, 504].indexOf(res.status) >= 0 && attempt < RETRY_AFTER.length) {
+            setTimeout(go, RETRY_AFTER[attempt++]);
+            return;
+          }
+          resolve(res);
+        }, function (err) {
+          if (attempt < RETRY_AFTER.length) {
+            setTimeout(go, RETRY_AFTER[attempt++]);
+            return;
+          }
+          reject(err);
+        });
+      })();
+    });
+  }
+  window.ExpwtFetchRetry = fetchRetry;
+
   function session() {
     try { return window.sessionStorage; } catch (e) { return null; }
   }
@@ -1045,7 +1071,9 @@
           self.show(self.editOn ? 'page' : self.state.panel);
         }
         return self.boot;
-      }).catch(function () {
+      }).catch(function (err) {
+        /* in the console what it was: a server not reached, or an error of the sidebar's own code */
+        if (window.console) { window.console.error('expwt boot', err); }
         self.say(self.t('The sidebar could not reach the server.'), 'bad');
       });
     }
@@ -1055,7 +1083,7 @@
       if (body !== null) {
         init.body = body;
       }
-      return fetch(url, init).then(function (res) {
+      return (method === 'GET' ? fetchRetry(url, init) : fetch(url, init)).then(function (res) {
         return res.text().then(function (text) {
           var data = null;
           try { data = JSON.parse(text); } catch (e) { data = null; }
@@ -1079,7 +1107,7 @@
       var headers = { 'X-CSRF-Token': this.boot.token || '' };
       var p;
       if (t.layer === 'graphql') {
-        p = fetch(t.graphql, {
+        p = (write ? fetch : fetchRetry)(t.graphql, {
           method: 'POST', credentials: 'same-origin',
           headers: Object.assign({ 'Content-Type': 'application/json', 'X-Requested-With': 'XMLHttpRequest', Accept: 'application/json' }, headers),
           body: JSON.stringify({ id: write ? 'expwt-write' : 'expwt-read', variables: { action: action, input: json } })
@@ -1195,7 +1223,8 @@
         if (registry[id]) {
           registry[id](self.context(), self.body);
         }
-      }).catch(function () {
+      }).catch(function (err) {
+        if (window.console) { window.console.error('expwt panel ' + id, err); }
         self.say(self.t('The sidebar could not reach the server.'), 'bad');
       });
     }
@@ -1206,14 +1235,23 @@
         return Promise.resolve(window.ExpwtPanels);
       }
       if (!this.panelsPromise) {
+        /* the panels' script, tried again as a read is (a restart of the application server); a failed promise is not
+           kept, so the next panel shown loads it anew */
         this.panelsPromise = new Promise(function (resolve, reject) {
-          var s = document.createElement('script');
-          s.src = self.cfg.panels;
-          s.async = true;
-          s.onload = function () { resolve(window.ExpwtPanels || {}); };
-          s.onerror = reject;
-          document.head.appendChild(s);
+          var attempt = 0;
+          (function load() {
+            var s = document.createElement('script');
+            s.src = self.cfg.panels;
+            s.async = true;
+            s.onload = function () { resolve(window.ExpwtPanels || {}); };
+            s.onerror = function (e) {
+              s.remove();
+              if (attempt < RETRY_AFTER.length) { setTimeout(load, RETRY_AFTER[attempt++]); } else { reject(e); }
+            };
+            document.head.appendChild(s);
+          })();
         });
+        this.panelsPromise.catch(function () { self.panelsPromise = null; });
       }
       return this.panelsPromise;
     }
