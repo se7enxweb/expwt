@@ -1000,6 +1000,50 @@
         <translation>Alternativtext</translation>
     </message>
     <message>
+        <source>This submission is not there, or you may not read it.</source>
+        <translation>Dës Areechung gëtt et net, oder Dir däerft se net liesen.</translation>
+    </message>
+    <message>
+        <source>This page has no form.</source>
+        <translation>Dës Säit huet kee Formulaire.</translation>
+    </message>
+    <message>
+        <source>The submissions are only shown to those who may read collected information in the administration.</source>
+        <translation>D'Areechunge gi just deenen ugewisen, déi an der Administratioun gesammelt Informatiounen liese däerfen.</translation>
+    </message>
+    <message>
+        <source>%n submissions</source>
+        <translation>%n Areechungen</translation>
+    </message>
+    <message>
+        <source>Export CSV</source>
+        <translation>CSV exportéieren</translation>
+    </message>
+    <message>
+        <source>In the administration</source>
+        <translation>An der Administratioun</translation>
+    </message>
+    <message>
+        <source>This form collects personal data: keep what you read to yourself.</source>
+        <translation>Dëse Formulaire sammelt perséinlech Donnéeën: Behaalt fir Iech, wat Dir liest.</translation>
+    </message>
+    <message>
+        <source>Submission</source>
+        <translation>Areechung</translation>
+    </message>
+    <message>
+        <source>Latest submissions</source>
+        <translation>Lescht Areechungen</translation>
+    </message>
+    <message>
+        <source>Visitor</source>
+        <translation>Besicher</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>Formulairen</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Postkëscht</translation>
     </message>

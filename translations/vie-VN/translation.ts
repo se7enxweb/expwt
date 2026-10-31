@@ -1000,6 +1000,50 @@
         <translation>Văn bản thay thế</translation>
     </message>
     <message>
+        <source>This submission is not there, or you may not read it.</source>
+        <translation>Bài gửi này không tồn tại hoặc bạn không có quyền xem.</translation>
+    </message>
+    <message>
+        <source>This page has no form.</source>
+        <translation>Trang này không có biểu mẫu.</translation>
+    </message>
+    <message>
+        <source>The submissions are only shown to those who may read collected information in the administration.</source>
+        <translation>Các bài gửi chỉ hiển thị cho những người được đọc thông tin đã thu thập trong trang quản trị.</translation>
+    </message>
+    <message>
+        <source>%n submissions</source>
+        <translation>%n bài gửi</translation>
+    </message>
+    <message>
+        <source>Export CSV</source>
+        <translation>Xuất CSV</translation>
+    </message>
+    <message>
+        <source>In the administration</source>
+        <translation>Trong trang quản trị</translation>
+    </message>
+    <message>
+        <source>This form collects personal data: keep what you read to yourself.</source>
+        <translation>Biểu mẫu này thu thập dữ liệu cá nhân: hãy giữ kín những gì bạn đọc.</translation>
+    </message>
+    <message>
+        <source>Submission</source>
+        <translation>Bài gửi</translation>
+    </message>
+    <message>
+        <source>Latest submissions</source>
+        <translation>Bài gửi mới nhất</translation>
+    </message>
+    <message>
+        <source>Visitor</source>
+        <translation>Khách truy cập</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>Biểu mẫu</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Hộp thư đến</translation>
     </message>

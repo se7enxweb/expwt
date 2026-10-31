@@ -1000,6 +1000,50 @@
         <translation>Test alternattiv</translation>
     </message>
     <message>
+        <source>This submission is not there, or you may not read it.</source>
+        <translation>Din is-sottomissjoni mhix hemm, jew m'għandekx permess taqraha.</translation>
+    </message>
+    <message>
+        <source>This page has no form.</source>
+        <translation>Din il-paġna m'għandhiex formola.</translation>
+    </message>
+    <message>
+        <source>The submissions are only shown to those who may read collected information in the administration.</source>
+        <translation>Is-sottomissjonijiet jintwerew biss lil min jista' jaqra l-informazzjoni miġbura fl-amministrazzjoni.</translation>
+    </message>
+    <message>
+        <source>%n submissions</source>
+        <translation>%n sottomissjonijiet</translation>
+    </message>
+    <message>
+        <source>Export CSV</source>
+        <translation>Esporta CSV</translation>
+    </message>
+    <message>
+        <source>In the administration</source>
+        <translation>Fl-amministrazzjoni</translation>
+    </message>
+    <message>
+        <source>This form collects personal data: keep what you read to yourself.</source>
+        <translation>Din il-formola tiġbor data personali: dak li taqra żommu għalik.</translation>
+    </message>
+    <message>
+        <source>Submission</source>
+        <translation>Sottomissjoni</translation>
+    </message>
+    <message>
+        <source>Latest submissions</source>
+        <translation>L-aħħar sottomissjonijiet</translation>
+    </message>
+    <message>
+        <source>Visitor</source>
+        <translation>Viżitatur</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>Formoli</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Inbox</translation>
     </message>

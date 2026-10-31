@@ -1000,6 +1000,50 @@
         <translation>អត្ថបទជំនួស</translation>
     </message>
     <message>
+        <source>This submission is not there, or you may not read it.</source>
+        <translation>ការដាក់ស្នើនេះមិនមានទេ ឬអ្នកមិនមានសិទ្ធិអានវា។</translation>
+    </message>
+    <message>
+        <source>This page has no form.</source>
+        <translation>ទំព័រនេះគ្មានទម្រង់ទេ។</translation>
+    </message>
+    <message>
+        <source>The submissions are only shown to those who may read collected information in the administration.</source>
+        <translation>ការដាក់ស្នើត្រូវបានបង្ហាញតែចំពោះអ្នកដែលអាចអានព័ត៌មានដែលបានប្រមូលក្នុងការគ្រប់គ្រងប៉ុណ្ណោះ។</translation>
+    </message>
+    <message>
+        <source>%n submissions</source>
+        <translation>ការដាក់ស្នើ %n</translation>
+    </message>
+    <message>
+        <source>Export CSV</source>
+        <translation>នាំចេញ CSV</translation>
+    </message>
+    <message>
+        <source>In the administration</source>
+        <translation>ក្នុងការគ្រប់គ្រង</translation>
+    </message>
+    <message>
+        <source>This form collects personal data: keep what you read to yourself.</source>
+        <translation>ទម្រង់នេះប្រមូលទិន្នន័យផ្ទាល់ខ្លួន៖ សូមរក្សាអ្វីដែលអ្នកអានទុកសម្រាប់ខ្លួនឯង។</translation>
+    </message>
+    <message>
+        <source>Submission</source>
+        <translation>ការដាក់ស្នើ</translation>
+    </message>
+    <message>
+        <source>Latest submissions</source>
+        <translation>ការដាក់ស្នើចុងក្រោយ</translation>
+    </message>
+    <message>
+        <source>Visitor</source>
+        <translation>អ្នកទស្សនា</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>ទម្រង់</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>ប្រអប់ទទួល</translation>
     </message>

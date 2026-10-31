@@ -1000,6 +1000,50 @@
         <translation>Nivîsa alternatîf</translation>
     </message>
     <message>
+        <source>This submission is not there, or you may not read it.</source>
+        <translation>Ev şandin tune ye, an jî destûra te ya xwendinê tune ye.</translation>
+    </message>
+    <message>
+        <source>This page has no form.</source>
+        <translation>Di vê rûpelê de form tune ye.</translation>
+    </message>
+    <message>
+        <source>The submissions are only shown to those who may read collected information in the administration.</source>
+        <translation>Şandin tenê ji wan re tên nîşandan ku dikarin agahiyên berhevkirî di rêveberiyê de bixwînin.</translation>
+    </message>
+    <message>
+        <source>%n submissions</source>
+        <translation>%n şandin</translation>
+    </message>
+    <message>
+        <source>Export CSV</source>
+        <translation>CSV derxe</translation>
+    </message>
+    <message>
+        <source>In the administration</source>
+        <translation>Di rêveberiyê de</translation>
+    </message>
+    <message>
+        <source>This form collects personal data: keep what you read to yourself.</source>
+        <translation>Ev form daneyên kesane berhev dike: tiştê ku tu dixwînî ji xwe re bihêle.</translation>
+    </message>
+    <message>
+        <source>Submission</source>
+        <translation>Şandin</translation>
+    </message>
+    <message>
+        <source>Latest submissions</source>
+        <translation>Şandinên dawî</translation>
+    </message>
+    <message>
+        <source>Visitor</source>
+        <translation>Mêvan</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>Form</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Qutiya hatî</translation>
     </message>

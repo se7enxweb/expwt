@@ -1000,6 +1000,50 @@
         <translation>Alternatívny text</translation>
     </message>
     <message>
+        <source>This submission is not there, or you may not read it.</source>
+        <translation>Tento záznam neexistuje alebo ho nemôžete čítať.</translation>
+    </message>
+    <message>
+        <source>This page has no form.</source>
+        <translation>Táto stránka nemá formulár.</translation>
+    </message>
+    <message>
+        <source>The submissions are only shown to those who may read collected information in the administration.</source>
+        <translation>Záznamy sa zobrazujú len tým, ktorí smú v administrácii čítať zhromaždené informácie.</translation>
+    </message>
+    <message>
+        <source>%n submissions</source>
+        <translation>Záznamy: %n</translation>
+    </message>
+    <message>
+        <source>Export CSV</source>
+        <translation>Exportovať CSV</translation>
+    </message>
+    <message>
+        <source>In the administration</source>
+        <translation>V administrácii</translation>
+    </message>
+    <message>
+        <source>This form collects personal data: keep what you read to yourself.</source>
+        <translation>Tento formulár zhromažďuje osobné údaje: čo si prečítate, nechajte si pre seba.</translation>
+    </message>
+    <message>
+        <source>Submission</source>
+        <translation>Záznam</translation>
+    </message>
+    <message>
+        <source>Latest submissions</source>
+        <translation>Najnovšie záznamy</translation>
+    </message>
+    <message>
+        <source>Visitor</source>
+        <translation>Návštevník</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>Formuláre</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Doručené</translation>
     </message>

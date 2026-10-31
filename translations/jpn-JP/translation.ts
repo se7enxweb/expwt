@@ -1000,6 +1000,50 @@
         <translation>代替テキスト</translation>
     </message>
     <message>
+        <source>This submission is not there, or you may not read it.</source>
+        <translation>この送信は存在しないか、閲覧が許可されていません。</translation>
+    </message>
+    <message>
+        <source>This page has no form.</source>
+        <translation>このページにはフォームがありません。</translation>
+    </message>
+    <message>
+        <source>The submissions are only shown to those who may read collected information in the administration.</source>
+        <translation>送信内容は、管理画面で収集された情報を閲覧できる人にのみ表示されます。</translation>
+    </message>
+    <message>
+        <source>%n submissions</source>
+        <translation>%n 件の送信</translation>
+    </message>
+    <message>
+        <source>Export CSV</source>
+        <translation>CSV をエクスポート</translation>
+    </message>
+    <message>
+        <source>In the administration</source>
+        <translation>管理画面で</translation>
+    </message>
+    <message>
+        <source>This form collects personal data: keep what you read to yourself.</source>
+        <translation>このフォームは個人データを収集します。閲覧した内容は他言しないでください。</translation>
+    </message>
+    <message>
+        <source>Submission</source>
+        <translation>送信</translation>
+    </message>
+    <message>
+        <source>Latest submissions</source>
+        <translation>最新の送信</translation>
+    </message>
+    <message>
+        <source>Visitor</source>
+        <translation>訪問者</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>フォーム</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>受信箱</translation>
     </message>

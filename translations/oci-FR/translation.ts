@@ -1000,6 +1000,50 @@
         <translation>Tèxt alternatiu</translation>
     </message>
     <message>
+        <source>This submission is not there, or you may not read it.</source>
+        <translation>Aqueste mandadís existís pas, o avètz pas lo drech de lo legir.</translation>
+    </message>
+    <message>
+        <source>This page has no form.</source>
+        <translation>Aquesta pagina a pas de formulari.</translation>
+    </message>
+    <message>
+        <source>The submissions are only shown to those who may read collected information in the administration.</source>
+        <translation>Los mandadisses son pas mostrats qu'a los que pòdon legir las informacions recampadas dins l'administracion.</translation>
+    </message>
+    <message>
+        <source>%n submissions</source>
+        <translation>%n mandadisses</translation>
+    </message>
+    <message>
+        <source>Export CSV</source>
+        <translation>Exportar CSV</translation>
+    </message>
+    <message>
+        <source>In the administration</source>
+        <translation>Dins l'administracion</translation>
+    </message>
+    <message>
+        <source>This form collects personal data: keep what you read to yourself.</source>
+        <translation>Aqueste formulari recampa de donadas personalas : gardatz per vos çò que legissètz.</translation>
+    </message>
+    <message>
+        <source>Submission</source>
+        <translation>Mandadís</translation>
+    </message>
+    <message>
+        <source>Latest submissions</source>
+        <translation>Darrièrs mandadisses</translation>
+    </message>
+    <message>
+        <source>Visitor</source>
+        <translation>Visitaire</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>Formularis</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Bóstia de recepcion</translation>
     </message>

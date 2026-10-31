@@ -1000,6 +1000,50 @@
         <translation>Testo alternativo</translation>
     </message>
     <message>
+        <source>This submission is not there, or you may not read it.</source>
+        <translation>Questo invio non esiste oppure non hai il permesso di leggerlo.</translation>
+    </message>
+    <message>
+        <source>This page has no form.</source>
+        <translation>Questa pagina non ha moduli.</translation>
+    </message>
+    <message>
+        <source>The submissions are only shown to those who may read collected information in the administration.</source>
+        <translation>Gli invii sono mostrati solo a chi può leggere le informazioni raccolte nell'amministrazione.</translation>
+    </message>
+    <message>
+        <source>%n submissions</source>
+        <translation>%n invii</translation>
+    </message>
+    <message>
+        <source>Export CSV</source>
+        <translation>Esporta CSV</translation>
+    </message>
+    <message>
+        <source>In the administration</source>
+        <translation>Nell'amministrazione</translation>
+    </message>
+    <message>
+        <source>This form collects personal data: keep what you read to yourself.</source>
+        <translation>Questo modulo raccoglie dati personali: tieni per te ciò che leggi.</translation>
+    </message>
+    <message>
+        <source>Submission</source>
+        <translation>Invio</translation>
+    </message>
+    <message>
+        <source>Latest submissions</source>
+        <translation>Ultimi invii</translation>
+    </message>
+    <message>
+        <source>Visitor</source>
+        <translation>Visitatore</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>Moduli</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Posta in arrivo</translation>
     </message>

@@ -1000,6 +1000,50 @@
         <translation>Texte alternatif</translation>
     </message>
     <message>
+        <source>This submission is not there, or you may not read it.</source>
+        <translation>Cette soumission n’existe pas, ou vous n’êtes pas autorisé à la lire.</translation>
+    </message>
+    <message>
+        <source>This page has no form.</source>
+        <translation>Cette page n'a pas de formulaire.</translation>
+    </message>
+    <message>
+        <source>The submissions are only shown to those who may read collected information in the administration.</source>
+        <translation>Les soumissions ne sont affichées qu'à ceux qui peuvent lire les informations collectées dans l'administration.</translation>
+    </message>
+    <message>
+        <source>%n submissions</source>
+        <translation>%n soumissions</translation>
+    </message>
+    <message>
+        <source>Export CSV</source>
+        <translation>Exporter CSV</translation>
+    </message>
+    <message>
+        <source>In the administration</source>
+        <translation>Dans l'administration</translation>
+    </message>
+    <message>
+        <source>This form collects personal data: keep what you read to yourself.</source>
+        <translation>Ce formulaire collecte des données personnelles : gardez pour vous ce que vous lisez.</translation>
+    </message>
+    <message>
+        <source>Submission</source>
+        <translation>Soumission</translation>
+    </message>
+    <message>
+        <source>Latest submissions</source>
+        <translation>Dernières soumissions</translation>
+    </message>
+    <message>
+        <source>Visitor</source>
+        <translation>Visiteur</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>Formulaires</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Boîte de réception</translation>
     </message>

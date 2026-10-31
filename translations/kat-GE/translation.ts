@@ -1000,6 +1000,50 @@
         <translation>ალტერნატიული ტექსტი</translation>
     </message>
     <message>
+        <source>This submission is not there, or you may not read it.</source>
+        <translation>ეს გაგზავნილი არ არსებობს, ან მისი წაკითხვის უფლება არ გაქვთ.</translation>
+    </message>
+    <message>
+        <source>This page has no form.</source>
+        <translation>ამ გვერდზე ფორმა არ არის.</translation>
+    </message>
+    <message>
+        <source>The submissions are only shown to those who may read collected information in the administration.</source>
+        <translation>გაგზავნილები მხოლოდ მათ ჩანს, ვისაც ადმინისტრირებაში შეგროვებული ინფორმაციის წაკითხვა შეუძლია.</translation>
+    </message>
+    <message>
+        <source>%n submissions</source>
+        <translation>%n გაგზავნილი</translation>
+    </message>
+    <message>
+        <source>Export CSV</source>
+        <translation>CSV-ის ექსპორტი</translation>
+    </message>
+    <message>
+        <source>In the administration</source>
+        <translation>ადმინისტრირებაში</translation>
+    </message>
+    <message>
+        <source>This form collects personal data: keep what you read to yourself.</source>
+        <translation>ეს ფორმა პერსონალურ მონაცემებს აგროვებს: რასაც კითხულობთ, თქვენთვის შეინახეთ.</translation>
+    </message>
+    <message>
+        <source>Submission</source>
+        <translation>გაგზავნილი</translation>
+    </message>
+    <message>
+        <source>Latest submissions</source>
+        <translation>ბოლო გაგზავნილები</translation>
+    </message>
+    <message>
+        <source>Visitor</source>
+        <translation>ვიზიტორი</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>ფორმები</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>შემოსულები</translation>
     </message>

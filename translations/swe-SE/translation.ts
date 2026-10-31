@@ -1000,6 +1000,50 @@
         <translation>Alt-text</translation>
     </message>
     <message>
+        <source>This submission is not there, or you may not read it.</source>
+        <translation>Inskickningen finns inte, eller så får du inte läsa den.</translation>
+    </message>
+    <message>
+        <source>This page has no form.</source>
+        <translation>Den här sidan har inget formulär.</translation>
+    </message>
+    <message>
+        <source>The submissions are only shown to those who may read collected information in the administration.</source>
+        <translation>Inskickningarna visas bara för dem som får läsa insamlad information i administrationen.</translation>
+    </message>
+    <message>
+        <source>%n submissions</source>
+        <translation>%n inskickningar</translation>
+    </message>
+    <message>
+        <source>Export CSV</source>
+        <translation>Exportera CSV</translation>
+    </message>
+    <message>
+        <source>In the administration</source>
+        <translation>I administrationen</translation>
+    </message>
+    <message>
+        <source>This form collects personal data: keep what you read to yourself.</source>
+        <translation>Det här formuläret samlar in personuppgifter: behåll det du läser för dig själv.</translation>
+    </message>
+    <message>
+        <source>Submission</source>
+        <translation>Inskickning</translation>
+    </message>
+    <message>
+        <source>Latest submissions</source>
+        <translation>Senaste inskickningar</translation>
+    </message>
+    <message>
+        <source>Visitor</source>
+        <translation>Besökare</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>Formulär</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Inkorg</translation>
     </message>

@@ -1000,6 +1000,50 @@
         <translation>Alt-tekst</translation>
     </message>
     <message>
+        <source>This submission is not there, or you may not read it.</source>
+        <translation>Dizze ynstjoering bestiet net, of jo meie him net lêze.</translation>
+    </message>
+    <message>
+        <source>This page has no form.</source>
+        <translation>Dizze side hat gjin formulier.</translation>
+    </message>
+    <message>
+        <source>The submissions are only shown to those who may read collected information in the administration.</source>
+        <translation>De ynstjoeringen wurde allinnich toand oan wa't sammele gegevens yn it behear lêze mei.</translation>
+    </message>
+    <message>
+        <source>%n submissions</source>
+        <translation>%n ynstjoeringen</translation>
+    </message>
+    <message>
+        <source>Export CSV</source>
+        <translation>CSV eksportearje</translation>
+    </message>
+    <message>
+        <source>In the administration</source>
+        <translation>Yn it behear</translation>
+    </message>
+    <message>
+        <source>This form collects personal data: keep what you read to yourself.</source>
+        <translation>Dit formulier sammelt persoansgegevens: hâld wat jo lêze foar josels.</translation>
+    </message>
+    <message>
+        <source>Submission</source>
+        <translation>Ynstjoering</translation>
+    </message>
+    <message>
+        <source>Latest submissions</source>
+        <translation>Nijste ynstjoeringen</translation>
+    </message>
+    <message>
+        <source>Visitor</source>
+        <translation>Besiker</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>Formulieren</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Postfak</translation>
     </message>

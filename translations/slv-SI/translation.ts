@@ -1000,6 +1000,50 @@
         <translation>Nadomestno besedilo</translation>
     </message>
     <message>
+        <source>This submission is not there, or you may not read it.</source>
+        <translation>Te oddaje ni ali je ne smete brati.</translation>
+    </message>
+    <message>
+        <source>This page has no form.</source>
+        <translation>Ta stran nima obrazca.</translation>
+    </message>
+    <message>
+        <source>The submissions are only shown to those who may read collected information in the administration.</source>
+        <translation>Oddaje so prikazane le tistim, ki smejo brati zbrane podatke v administraciji.</translation>
+    </message>
+    <message>
+        <source>%n submissions</source>
+        <translation>Oddaje: %n</translation>
+    </message>
+    <message>
+        <source>Export CSV</source>
+        <translation>Izvozi CSV</translation>
+    </message>
+    <message>
+        <source>In the administration</source>
+        <translation>V administraciji</translation>
+    </message>
+    <message>
+        <source>This form collects personal data: keep what you read to yourself.</source>
+        <translation>Ta obrazec zbira osebne podatke: kar preberete, obdržite zase.</translation>
+    </message>
+    <message>
+        <source>Submission</source>
+        <translation>Oddaja</translation>
+    </message>
+    <message>
+        <source>Latest submissions</source>
+        <translation>Zadnje oddaje</translation>
+    </message>
+    <message>
+        <source>Visitor</source>
+        <translation>Obiskovalec</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>Obrazci</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Prejeto</translation>
     </message>

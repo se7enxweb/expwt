@@ -1000,6 +1000,50 @@
         <translation>Tekst alternativ</translation>
     </message>
     <message>
+        <source>This submission is not there, or you may not read it.</source>
+        <translation>Ky dërgim nuk ekziston ose nuk ju lejohet ta lexoni.</translation>
+    </message>
+    <message>
+        <source>This page has no form.</source>
+        <translation>Kjo faqe nuk ka formular.</translation>
+    </message>
+    <message>
+        <source>The submissions are only shown to those who may read collected information in the administration.</source>
+        <translation>Dërgimet u shfaqen vetëm atyre që mund të lexojnë informacionin e mbledhur në administrim.</translation>
+    </message>
+    <message>
+        <source>%n submissions</source>
+        <translation>%n dërgime</translation>
+    </message>
+    <message>
+        <source>Export CSV</source>
+        <translation>Eksporto CSV</translation>
+    </message>
+    <message>
+        <source>In the administration</source>
+        <translation>Në administrim</translation>
+    </message>
+    <message>
+        <source>This form collects personal data: keep what you read to yourself.</source>
+        <translation>Ky formular mbledh të dhëna personale: atë që lexoni mbajeni për vete.</translation>
+    </message>
+    <message>
+        <source>Submission</source>
+        <translation>Dërgim</translation>
+    </message>
+    <message>
+        <source>Latest submissions</source>
+        <translation>Dërgimet e fundit</translation>
+    </message>
+    <message>
+        <source>Visitor</source>
+        <translation>Vizitor</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>Formularë</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Të ardhurat</translation>
     </message>

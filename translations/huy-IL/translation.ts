@@ -1000,6 +1000,50 @@
         <translation>כתבא חלופא</translation>
     </message>
     <message>
+        <source>This submission is not there, or you may not read it.</source>
+        <translation>שדרתא הדא לית, או לית לוכון אפסנותא למקריא.</translation>
+    </message>
+    <message>
+        <source>This page has no form.</source>
+        <translation>בפאתא הדא לית טופס.</translation>
+    </message>
+    <message>
+        <source>The submissions are only shown to those who may read collected information in the administration.</source>
+        <translation>שדרתא מתחזיא בס לאנשי דאית להון אפסנותא למקריא ידיעתא דכנישא בשולטנא.</translation>
+    </message>
+    <message>
+        <source>%n submissions</source>
+        <translation>%n שדרתא</translation>
+    </message>
+    <message>
+        <source>Export CSV</source>
+        <translation>אפיק CSV</translation>
+    </message>
+    <message>
+        <source>In the administration</source>
+        <translation>בשולטנא</translation>
+    </message>
+    <message>
+        <source>This form collects personal data: keep what you read to yourself.</source>
+        <translation>טופס הדא כניש ידיעתא דנפשא: מא דקריתון נטורון לנפשכון.</translation>
+    </message>
+    <message>
+        <source>Submission</source>
+        <translation>שדרתא</translation>
+    </message>
+    <message>
+        <source>Latest submissions</source>
+        <translation>שדרתא חדתא</translation>
+    </message>
+    <message>
+        <source>Visitor</source>
+        <translation>אכסניא</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>טופסא</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>ܐܓܪ̈ܬܐ ܕܬܐܝܐ</translation>
     </message>

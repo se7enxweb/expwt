@@ -1000,6 +1000,50 @@
         <translation>Այլընտրանքային տեքստ</translation>
     </message>
     <message>
+        <source>This submission is not there, or you may not read it.</source>
+        <translation>Այս ուղարկումը գոյություն չունի, կամ Դուք իրավունք չունեք այն կարդալու։</translation>
+    </message>
+    <message>
+        <source>This page has no form.</source>
+        <translation>Այս էջում ձև չկա։</translation>
+    </message>
+    <message>
+        <source>The submissions are only shown to those who may read collected information in the administration.</source>
+        <translation>Ուղարկումները ցուցադրվում են միայն նրանց, ովքեր կարող են կարդալ կառավարման մեջ հավաքված տեղեկությունները։</translation>
+    </message>
+    <message>
+        <source>%n submissions</source>
+        <translation>%n ուղարկում</translation>
+    </message>
+    <message>
+        <source>Export CSV</source>
+        <translation>Արտահանել CSV</translation>
+    </message>
+    <message>
+        <source>In the administration</source>
+        <translation>Կառավարման մեջ</translation>
+    </message>
+    <message>
+        <source>This form collects personal data: keep what you read to yourself.</source>
+        <translation>Այս ձևը հավաքում է անձնական տվյալներ. Ձեր կարդացածը պահեք Ձեզ մոտ։</translation>
+    </message>
+    <message>
+        <source>Submission</source>
+        <translation>Ուղարկում</translation>
+    </message>
+    <message>
+        <source>Latest submissions</source>
+        <translation>Վերջին ուղարկումները</translation>
+    </message>
+    <message>
+        <source>Visitor</source>
+        <translation>Այցելու</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>Ձևեր</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Մուտքային</translation>
     </message>

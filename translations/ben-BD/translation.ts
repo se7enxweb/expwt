@@ -1000,6 +1000,50 @@
         <translation>বিকল্প লেখা</translation>
     </message>
     <message>
+        <source>This submission is not there, or you may not read it.</source>
+        <translation>এই জমাটি নেই, অথবা আপনি এটি পড়তে পারবেন না।</translation>
+    </message>
+    <message>
+        <source>This page has no form.</source>
+        <translation>এই পৃষ্ঠায় কোনো ফর্ম নেই।</translation>
+    </message>
+    <message>
+        <source>The submissions are only shown to those who may read collected information in the administration.</source>
+        <translation>জমাগুলো কেবল তাদেরই দেখানো হয় যারা প্রশাসনে সংগৃহীত তথ্য পড়তে পারেন।</translation>
+    </message>
+    <message>
+        <source>%n submissions</source>
+        <translation>%nটি জমা</translation>
+    </message>
+    <message>
+        <source>Export CSV</source>
+        <translation>CSV রপ্তানি করুন</translation>
+    </message>
+    <message>
+        <source>In the administration</source>
+        <translation>প্রশাসনে</translation>
+    </message>
+    <message>
+        <source>This form collects personal data: keep what you read to yourself.</source>
+        <translation>এই ফর্মটি ব্যক্তিগত তথ্য সংগ্রহ করে: যা পড়েন তা নিজের কাছে রাখুন।</translation>
+    </message>
+    <message>
+        <source>Submission</source>
+        <translation>জমা</translation>
+    </message>
+    <message>
+        <source>Latest submissions</source>
+        <translation>সর্বশেষ জমা</translation>
+    </message>
+    <message>
+        <source>Visitor</source>
+        <translation>দর্শক</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>ফর্ম</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>ইনবক্স</translation>
     </message>

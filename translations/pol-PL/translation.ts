@@ -1000,6 +1000,50 @@
         <translation>Tekst alternatywny</translation>
     </message>
     <message>
+        <source>This submission is not there, or you may not read it.</source>
+        <translation>Tego zgłoszenia nie ma albo nie możesz go czytać.</translation>
+    </message>
+    <message>
+        <source>This page has no form.</source>
+        <translation>Ta strona nie ma formularza.</translation>
+    </message>
+    <message>
+        <source>The submissions are only shown to those who may read collected information in the administration.</source>
+        <translation>Zgłoszenia są widoczne tylko dla osób, które mogą czytać zebrane informacje w administracji.</translation>
+    </message>
+    <message>
+        <source>%n submissions</source>
+        <translation>Zgłoszenia: %n</translation>
+    </message>
+    <message>
+        <source>Export CSV</source>
+        <translation>Eksportuj CSV</translation>
+    </message>
+    <message>
+        <source>In the administration</source>
+        <translation>W administracji</translation>
+    </message>
+    <message>
+        <source>This form collects personal data: keep what you read to yourself.</source>
+        <translation>Ten formularz zbiera dane osobowe: zachowaj dla siebie to, co czytasz.</translation>
+    </message>
+    <message>
+        <source>Submission</source>
+        <translation>Zgłoszenie</translation>
+    </message>
+    <message>
+        <source>Latest submissions</source>
+        <translation>Najnowsze zgłoszenia</translation>
+    </message>
+    <message>
+        <source>Visitor</source>
+        <translation>Odwiedzający</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>Formularze</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Skrzynka odbiorcza</translation>
     </message>

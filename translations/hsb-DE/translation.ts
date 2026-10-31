@@ -1000,6 +1000,50 @@
         <translation>Alternatiwny tekst</translation>
     </message>
     <message>
+        <source>This submission is not there, or you may not read it.</source>
+        <translation>Tute zapodaće njeeksistuje abo jo njesměće čitać.</translation>
+    </message>
+    <message>
+        <source>This page has no form.</source>
+        <translation>Tuta strona nima formular.</translation>
+    </message>
+    <message>
+        <source>The submissions are only shown to those who may read collected information in the administration.</source>
+        <translation>Zapodaća so jenož tym pokazuja, kotřiž smědźa zběrane informacije w administraciji čitać.</translation>
+    </message>
+    <message>
+        <source>%n submissions</source>
+        <translation>Zapodaća: %n</translation>
+    </message>
+    <message>
+        <source>Export CSV</source>
+        <translation>CSV eksportować</translation>
+    </message>
+    <message>
+        <source>In the administration</source>
+        <translation>W administraciji</translation>
+    </message>
+    <message>
+        <source>This form collects personal data: keep what you read to yourself.</source>
+        <translation>Tutón formular zběra wosobinske daty: wobchowajće za so, štož čitaće.</translation>
+    </message>
+    <message>
+        <source>Submission</source>
+        <translation>Zapodaće</translation>
+    </message>
+    <message>
+        <source>Latest submissions</source>
+        <translation>Najnowše zapodaća</translation>
+    </message>
+    <message>
+        <source>Visitor</source>
+        <translation>Wopytowar</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>Formulary</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Dóstate</translation>
     </message>

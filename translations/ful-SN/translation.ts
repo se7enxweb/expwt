@@ -1000,6 +1000,50 @@
         <translation>Binndi alt</translation>
     </message>
     <message>
+        <source>This submission is not there, or you may not read it.</source>
+        <translation>Ndee neldaande alaa, walla a alaa jamirol ngam janngude nde.</translation>
+    </message>
+    <message>
+        <source>This page has no form.</source>
+        <translation>Hello ngoo alaa fomme.</translation>
+    </message>
+    <message>
+        <source>The submissions are only shown to those who may read collected information in the administration.</source>
+        <translation>Neldaaɗe ɗee ena njaŋngee tan e ɓe njamiraa janngude humpito mooftaaɗo e jiiloowo.</translation>
+    </message>
+    <message>
+        <source>%n submissions</source>
+        <translation>Neldaaɗe %n</translation>
+    </message>
+    <message>
+        <source>Export CSV</source>
+        <translation>Yaltin CSV</translation>
+    </message>
+    <message>
+        <source>In the administration</source>
+        <translation>E jiiloowo</translation>
+    </message>
+    <message>
+        <source>This form collects personal data: keep what you read to yourself.</source>
+        <translation>Ndee fomme ena mooftoo humpito keeriiɗo: ko njanngataa, hay to e maaɗa.</translation>
+    </message>
+    <message>
+        <source>Submission</source>
+        <translation>Neldaande</translation>
+    </message>
+    <message>
+        <source>Latest submissions</source>
+        <translation>Neldaaɗe sakkitiiɗe</translation>
+    </message>
+    <message>
+        <source>Visitor</source>
+        <translation>Koɓɓiiɗo</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>Fommeeji</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Naatirde</translation>
     </message>

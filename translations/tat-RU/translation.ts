@@ -1000,6 +1000,50 @@
         <translation>Альтернатив текст</translation>
     </message>
     <message>
+        <source>This submission is not there, or you may not read it.</source>
+        <translation>Бу җибәрү юк, яки сезгә аны укырга ярамый.</translation>
+    </message>
+    <message>
+        <source>This page has no form.</source>
+        <translation>Бу биттә форма юк.</translation>
+    </message>
+    <message>
+        <source>The submissions are only shown to those who may read collected information in the administration.</source>
+        <translation>Җибәрүләр идарәдә җыелган мәгълүматны укый алучыларга гына күрсәтелә.</translation>
+    </message>
+    <message>
+        <source>%n submissions</source>
+        <translation>%n җибәрү</translation>
+    </message>
+    <message>
+        <source>Export CSV</source>
+        <translation>CSV экспортлау</translation>
+    </message>
+    <message>
+        <source>In the administration</source>
+        <translation>Идарәдә</translation>
+    </message>
+    <message>
+        <source>This form collects personal data: keep what you read to yourself.</source>
+        <translation>Бу форма шәхси мәгълүматлар җыя: укыганыгызны үзегездә калдырыгыз.</translation>
+    </message>
+    <message>
+        <source>Submission</source>
+        <translation>Җибәрү</translation>
+    </message>
+    <message>
+        <source>Latest submissions</source>
+        <translation>Соңгы җибәрүләр</translation>
+    </message>
+    <message>
+        <source>Visitor</source>
+        <translation>Килүче</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>Формалар</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Керүчеләр</translation>
     </message>

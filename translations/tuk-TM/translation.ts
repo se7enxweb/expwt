@@ -1000,6 +1000,50 @@
         <translation>Alternatiw tekst</translation>
     </message>
     <message>
+        <source>This submission is not there, or you may not read it.</source>
+        <translation>Bu iberme ýok ýa-da siz ony okap bilmeýärsiňiz.</translation>
+    </message>
+    <message>
+        <source>This page has no form.</source>
+        <translation>Bu sahypada forma ýok.</translation>
+    </message>
+    <message>
+        <source>The submissions are only shown to those who may read collected information in the administration.</source>
+        <translation>Ibermeler diňe dolandyryşda ýygnalan maglumaty okap bilýänlere görkezilýär.</translation>
+    </message>
+    <message>
+        <source>%n submissions</source>
+        <translation>%n iberme</translation>
+    </message>
+    <message>
+        <source>Export CSV</source>
+        <translation>CSV eksport et</translation>
+    </message>
+    <message>
+        <source>In the administration</source>
+        <translation>Dolandyryşda</translation>
+    </message>
+    <message>
+        <source>This form collects personal data: keep what you read to yourself.</source>
+        <translation>Bu forma şahsy maglumatlary ýygnaýar: okanyňyzy özüňizde saklaň.</translation>
+    </message>
+    <message>
+        <source>Submission</source>
+        <translation>Iberme</translation>
+    </message>
+    <message>
+        <source>Latest submissions</source>
+        <translation>Soňky ibermeler</translation>
+    </message>
+    <message>
+        <source>Visitor</source>
+        <translation>Myhman</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>Formalar</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Gelenler</translation>
     </message>

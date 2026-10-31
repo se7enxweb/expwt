@@ -1000,6 +1000,50 @@
         <translation>ഇതര വാചകം</translation>
     </message>
     <message>
+        <source>This submission is not there, or you may not read it.</source>
+        <translation>ഈ സമർപ്പണം ഇല്ല, അല്ലെങ്കിൽ നിങ്ങൾക്ക് അത് വായിക്കാൻ അനുമതിയില്ല.</translation>
+    </message>
+    <message>
+        <source>This page has no form.</source>
+        <translation>ഈ പേജിൽ ഫോം ഇല്ല.</translation>
+    </message>
+    <message>
+        <source>The submissions are only shown to those who may read collected information in the administration.</source>
+        <translation>അഡ്മിനിസ്ട്രേഷനിൽ ശേഖരിച്ച വിവരങ്ങൾ വായിക്കാൻ അനുമതിയുള്ളവർക്ക് മാത്രമേ സമർപ്പണങ്ങൾ കാണിക്കൂ.</translation>
+    </message>
+    <message>
+        <source>%n submissions</source>
+        <translation>%n സമർപ്പണങ്ങൾ</translation>
+    </message>
+    <message>
+        <source>Export CSV</source>
+        <translation>CSV എക്സ്പോർട്ട് ചെയ്യുക</translation>
+    </message>
+    <message>
+        <source>In the administration</source>
+        <translation>അഡ്മിനിസ്ട്രേഷനിൽ</translation>
+    </message>
+    <message>
+        <source>This form collects personal data: keep what you read to yourself.</source>
+        <translation>ഈ ഫോം വ്യക്തിഗത ഡാറ്റ ശേഖരിക്കുന്നു: വായിക്കുന്നത് നിങ്ങളിൽ തന്നെ സൂക്ഷിക്കുക.</translation>
+    </message>
+    <message>
+        <source>Submission</source>
+        <translation>സമർപ്പണം</translation>
+    </message>
+    <message>
+        <source>Latest submissions</source>
+        <translation>ഏറ്റവും പുതിയ സമർപ്പണങ്ങൾ</translation>
+    </message>
+    <message>
+        <source>Visitor</source>
+        <translation>സന്ദർശകൻ</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>ഫോമുകൾ</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>ഇൻബോക്സ്</translation>
     </message>

@@ -1000,6 +1000,50 @@
         <translation>Alt text</translation>
     </message>
     <message>
+        <source>This submission is not there, or you may not read it.</source>
+        <translation>This submission is not there, or you may not read it.</translation>
+    </message>
+    <message>
+        <source>This page has no form.</source>
+        <translation>This page has no form.</translation>
+    </message>
+    <message>
+        <source>The submissions are only shown to those who may read collected information in the administration.</source>
+        <translation>The submissions are only shown to those who may read collected information in the administration.</translation>
+    </message>
+    <message>
+        <source>%n submissions</source>
+        <translation>%n submissions</translation>
+    </message>
+    <message>
+        <source>Export CSV</source>
+        <translation>Export CSV</translation>
+    </message>
+    <message>
+        <source>In the administration</source>
+        <translation>In the administration</translation>
+    </message>
+    <message>
+        <source>This form collects personal data: keep what you read to yourself.</source>
+        <translation>This form collects personal data: keep what you read to yourself.</translation>
+    </message>
+    <message>
+        <source>Submission</source>
+        <translation>Submission</translation>
+    </message>
+    <message>
+        <source>Latest submissions</source>
+        <translation>Latest submissions</translation>
+    </message>
+    <message>
+        <source>Visitor</source>
+        <translation>Visitor</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>Forms</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Inbox</translation>
     </message>

@@ -1000,6 +1000,50 @@
         <translation>Muqobil matn</translation>
     </message>
     <message>
+        <source>This submission is not there, or you may not read it.</source>
+        <translation>Bu yuborilgan shakl mavjud emas yoki uni oʻqishga ruxsatingiz yoʻq.</translation>
+    </message>
+    <message>
+        <source>This page has no form.</source>
+        <translation>Bu sahifada shakl yoʻq.</translation>
+    </message>
+    <message>
+        <source>The submissions are only shown to those who may read collected information in the administration.</source>
+        <translation>Yuborilgan shakllar faqat boshqaruvda toʻplangan maʼlumotlarni oʻqiy oladiganlarga koʻrsatiladi.</translation>
+    </message>
+    <message>
+        <source>%n submissions</source>
+        <translation>%n ta yuborilgan shakl</translation>
+    </message>
+    <message>
+        <source>Export CSV</source>
+        <translation>CSV eksport qilish</translation>
+    </message>
+    <message>
+        <source>In the administration</source>
+        <translation>Boshqaruvda</translation>
+    </message>
+    <message>
+        <source>This form collects personal data: keep what you read to yourself.</source>
+        <translation>Bu shakl shaxsiy maʼlumotlarni toʻplaydi: oʻqiganlaringizni oʻzingizda saqlang.</translation>
+    </message>
+    <message>
+        <source>Submission</source>
+        <translation>Yuborilgan shakl</translation>
+    </message>
+    <message>
+        <source>Latest submissions</source>
+        <translation>Oxirgi yuborilgan shakllar</translation>
+    </message>
+    <message>
+        <source>Visitor</source>
+        <translation>Tashrif buyuruvchi</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>Shakllar</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Kiruvchilar</translation>
     </message>

@@ -1000,6 +1000,50 @@
         <translation>ਬਦਲਵਾਂ ਟੈਕਸਟ</translation>
     </message>
     <message>
+        <source>This submission is not there, or you may not read it.</source>
+        <translation>ਇਹ ਸਬਮਿਸ਼ਨ ਮੌਜੂਦ ਨਹੀਂ ਹੈ, ਜਾਂ ਤੁਹਾਨੂੰ ਇਸਨੂੰ ਪੜ੍ਹਨ ਦੀ ਇਜਾਜ਼ਤ ਨਹੀਂ ਹੈ।</translation>
+    </message>
+    <message>
+        <source>This page has no form.</source>
+        <translation>ਇਸ ਸਫ਼ੇ 'ਤੇ ਕੋਈ ਫ਼ਾਰਮ ਨਹੀਂ ਹੈ।</translation>
+    </message>
+    <message>
+        <source>The submissions are only shown to those who may read collected information in the administration.</source>
+        <translation>ਸਬਮਿਸ਼ਨਾਂ ਸਿਰਫ਼ ਉਹਨਾਂ ਨੂੰ ਦਿਖਾਈਆਂ ਜਾਂਦੀਆਂ ਹਨ ਜੋ ਪ੍ਰਸ਼ਾਸਨ ਵਿੱਚ ਇਕੱਠੀ ਕੀਤੀ ਜਾਣਕਾਰੀ ਪੜ੍ਹ ਸਕਦੇ ਹਨ।</translation>
+    </message>
+    <message>
+        <source>%n submissions</source>
+        <translation>%n ਸਬਮਿਸ਼ਨਾਂ</translation>
+    </message>
+    <message>
+        <source>Export CSV</source>
+        <translation>CSV ਨਿਰਯਾਤ ਕਰੋ</translation>
+    </message>
+    <message>
+        <source>In the administration</source>
+        <translation>ਪ੍ਰਸ਼ਾਸਨ ਵਿੱਚ</translation>
+    </message>
+    <message>
+        <source>This form collects personal data: keep what you read to yourself.</source>
+        <translation>ਇਹ ਫ਼ਾਰਮ ਨਿੱਜੀ ਡਾਟਾ ਇਕੱਠਾ ਕਰਦਾ ਹੈ: ਜੋ ਪੜ੍ਹੋ ਉਸਨੂੰ ਆਪਣੇ ਤੱਕ ਰੱਖੋ।</translation>
+    </message>
+    <message>
+        <source>Submission</source>
+        <translation>ਸਬਮਿਸ਼ਨ</translation>
+    </message>
+    <message>
+        <source>Latest submissions</source>
+        <translation>ਨਵੀਨਤਮ ਸਬਮਿਸ਼ਨਾਂ</translation>
+    </message>
+    <message>
+        <source>Visitor</source>
+        <translation>ਵਿਜ਼ਿਟਰ</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>ਫ਼ਾਰਮ</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>ਇਨਬਾਕਸ</translation>
     </message>

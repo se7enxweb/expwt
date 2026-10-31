@@ -1000,6 +1000,50 @@
         <translation>متبادل متن</translation>
     </message>
     <message>
+        <source>This submission is not there, or you may not read it.</source>
+        <translation>هي جمع ڪرايل شيءِ موجود ناهي، يا توهان کي ان کي پڙهڻ جي اجازت ناهي.</translation>
+    </message>
+    <message>
+        <source>This page has no form.</source>
+        <translation>هن صفحي تي ڪو فارم ناهي.</translation>
+    </message>
+    <message>
+        <source>The submissions are only shown to those who may read collected information in the administration.</source>
+        <translation>جمع ڪرايل شيون صرف انهن کي ڏيکاريون وينديون آهن جيڪي انتظاميه ۾ گڏ ڪيل معلومات پڙهي سگهن ٿا.</translation>
+    </message>
+    <message>
+        <source>%n submissions</source>
+        <translation>%n جمع ڪرايل شيون</translation>
+    </message>
+    <message>
+        <source>Export CSV</source>
+        <translation>CSV برآمد ڪريو</translation>
+    </message>
+    <message>
+        <source>In the administration</source>
+        <translation>انتظاميه ۾</translation>
+    </message>
+    <message>
+        <source>This form collects personal data: keep what you read to yourself.</source>
+        <translation>هي فارم ذاتي ڊيٽا گڏ ڪري ٿو: جيڪو پڙهو اهو پاڻ وٽ رکو.</translation>
+    </message>
+    <message>
+        <source>Submission</source>
+        <translation>جمع ڪرايل شيءِ</translation>
+    </message>
+    <message>
+        <source>Latest submissions</source>
+        <translation>تازيون جمع ڪرايل شيون</translation>
+    </message>
+    <message>
+        <source>Visitor</source>
+        <translation>مهمان</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>فارم</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>آيل خط</translation>
     </message>

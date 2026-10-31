@@ -1000,6 +1000,50 @@
         <translation>Alt-tekst</translation>
     </message>
     <message>
+        <source>This submission is not there, or you may not read it.</source>
+        <translation>Denne indsendelse findes ikke, eller du må ikke læse den.</translation>
+    </message>
+    <message>
+        <source>This page has no form.</source>
+        <translation>Denne side har ingen formular.</translation>
+    </message>
+    <message>
+        <source>The submissions are only shown to those who may read collected information in the administration.</source>
+        <translation>Indsendelserne vises kun for dem, der må læse indsamlede oplysninger i administrationen.</translation>
+    </message>
+    <message>
+        <source>%n submissions</source>
+        <translation>%n indsendelser</translation>
+    </message>
+    <message>
+        <source>Export CSV</source>
+        <translation>Eksportér CSV</translation>
+    </message>
+    <message>
+        <source>In the administration</source>
+        <translation>I administrationen</translation>
+    </message>
+    <message>
+        <source>This form collects personal data: keep what you read to yourself.</source>
+        <translation>Denne formular indsamler personoplysninger: behold det, du læser, for dig selv.</translation>
+    </message>
+    <message>
+        <source>Submission</source>
+        <translation>Indsendelse</translation>
+    </message>
+    <message>
+        <source>Latest submissions</source>
+        <translation>Seneste indsendelser</translation>
+    </message>
+    <message>
+        <source>Visitor</source>
+        <translation>Besøgende</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>Formularer</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Indbakke</translation>
     </message>

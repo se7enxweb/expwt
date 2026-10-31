@@ -1000,6 +1000,50 @@
         <translation>Альт-текст</translation>
     </message>
     <message>
+        <source>This submission is not there, or you may not read it.</source>
+        <translation>ХӀара дӀадахьийтинарг яц, я шуна иза ешна бакъо яц.</translation>
+    </message>
+    <message>
+        <source>This page has no form.</source>
+        <translation>ХӀокху агӀонехь форма яц.</translation>
+    </message>
+    <message>
+        <source>The submissions are only shown to those who may read collected information in the administration.</source>
+        <translation>ДӀадахьийтинарш гойту администрацехь гулйина хаам еша бакъо йолчарна бен.</translation>
+    </message>
+    <message>
+        <source>%n submissions</source>
+        <translation>ДӀадахьийтинарш: %n</translation>
+    </message>
+    <message>
+        <source>Export CSV</source>
+        <translation>CSV экспорт ян</translation>
+    </message>
+    <message>
+        <source>In the administration</source>
+        <translation>Администрацехь</translation>
+    </message>
+    <message>
+        <source>This form collects personal data: keep what you read to yourself.</source>
+        <translation>ХӀокху формо гулбо шен хаамаш: ешнарг шайна тӀехь латто.</translation>
+    </message>
+    <message>
+        <source>Submission</source>
+        <translation>ДӀадахьийтинарг</translation>
+    </message>
+    <message>
+        <source>Latest submissions</source>
+        <translation>ТӀаьххьара дӀадахьийтинарш</translation>
+    </message>
+    <message>
+        <source>Visitor</source>
+        <translation>Хьаша</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>Формаш</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Чуйогӏу</translation>
     </message>

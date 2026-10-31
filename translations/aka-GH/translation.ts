@@ -1000,6 +1000,50 @@
         <translation>Alt nsɛm</translation>
     </message>
     <message>
+        <source>This submission is not there, or you may not read it.</source>
+        <translation>Saa nea wɔde mae yi nni hɔ, anaa wontumi nkenkan.</translation>
+    </message>
+    <message>
+        <source>This page has no form.</source>
+        <translation>Krataafa yi nni foom biara.</translation>
+    </message>
+    <message>
+        <source>The submissions are only shown to those who may read collected information in the administration.</source>
+        <translation>Wɔkyerɛ nea wɔde mae no nkurɔfo a wotumi kenkan nsɛm a wɔaboaboa ano wɔ nhyehyɛe no mu nko ara.</translation>
+    </message>
+    <message>
+        <source>%n submissions</source>
+        <translation>Nea wɔde mae %n</translation>
+    </message>
+    <message>
+        <source>Export CSV</source>
+        <translation>Yi CSV</translation>
+    </message>
+    <message>
+        <source>In the administration</source>
+        <translation>Wɔ nhyehyɛe no mu</translation>
+    </message>
+    <message>
+        <source>This form collects personal data: keep what you read to yourself.</source>
+        <translation>Saa foom yi boaboa nsɛm a ɛfa obi ho ano: nea wokenkan no, fa sie wo ho.</translation>
+    </message>
+    <message>
+        <source>Submission</source>
+        <translation>Nea wɔde mae</translation>
+    </message>
+    <message>
+        <source>Latest submissions</source>
+        <translation>Nea wɔde mae a ɛyɛ foforo</translation>
+    </message>
+    <message>
+        <source>Visitor</source>
+        <translation>Ɔhɔho</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>Foom ahorow</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Nkrataa a aba</translation>
     </message>

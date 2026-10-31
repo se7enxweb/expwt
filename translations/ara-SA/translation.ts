@@ -1000,6 +1000,50 @@
         <translation>نص بديل</translation>
     </message>
     <message>
+        <source>This submission is not there, or you may not read it.</source>
+        <translation>هذا الإرسال غير موجود، أو غير مسموح لك بقراءته.</translation>
+    </message>
+    <message>
+        <source>This page has no form.</source>
+        <translation>لا تحتوي هذه الصفحة على نموذج.</translation>
+    </message>
+    <message>
+        <source>The submissions are only shown to those who may read collected information in the administration.</source>
+        <translation>لا تُعرض الإرسالات إلا لمن يحق لهم قراءة المعلومات المجمّعة في الإدارة.</translation>
+    </message>
+    <message>
+        <source>%n submissions</source>
+        <translation>%n إرسالات</translation>
+    </message>
+    <message>
+        <source>Export CSV</source>
+        <translation>تصدير CSV</translation>
+    </message>
+    <message>
+        <source>In the administration</source>
+        <translation>في الإدارة</translation>
+    </message>
+    <message>
+        <source>This form collects personal data: keep what you read to yourself.</source>
+        <translation>يجمع هذا النموذج بيانات شخصية: احتفظ بما تقرؤه لنفسك.</translation>
+    </message>
+    <message>
+        <source>Submission</source>
+        <translation>إرسال</translation>
+    </message>
+    <message>
+        <source>Latest submissions</source>
+        <translation>أحدث الإرسالات</translation>
+    </message>
+    <message>
+        <source>Visitor</source>
+        <translation>زائر</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>النماذج</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>الوارد</translation>
     </message>

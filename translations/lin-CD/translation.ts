@@ -1000,6 +1000,50 @@
         <translation>Makomi ya alt</translation>
     </message>
     <message>
+        <source>This submission is not there, or you may not read it.</source>
+        <translation>Eye etindamaki ezali te, to ozali na nzela ya kotánga yango te.</translation>
+    </message>
+    <message>
+        <source>This page has no form.</source>
+        <translation>Lokasa oyo ezali na formulere te.</translation>
+    </message>
+    <message>
+        <source>The submissions are only shown to those who may read collected information in the administration.</source>
+        <translation>Oyo etindamaki emonisamaka kaka na baoyo bakoki kotánga ba-nsango oyo esangisamaki na boyangeli.</translation>
+    </message>
+    <message>
+        <source>%n submissions</source>
+        <translation>Oyo etindamaki %n</translation>
+    </message>
+    <message>
+        <source>Export CSV</source>
+        <translation>Bimisa CSV</translation>
+    </message>
+    <message>
+        <source>In the administration</source>
+        <translation>Na boyangeli</translation>
+    </message>
+    <message>
+        <source>This form collects personal data: keep what you read to yourself.</source>
+        <translation>Formulere oyo esangisaka ba-nsango ya moto moko: oyo ozali kotánga, bomba yango mpo na yo moko.</translation>
+    </message>
+    <message>
+        <source>Submission</source>
+        <translation>Oyo etindamaki</translation>
+    </message>
+    <message>
+        <source>Latest submissions</source>
+        <translation>Oyo etindamaki ya sika</translation>
+    </message>
+    <message>
+        <source>Visitor</source>
+        <translation>Motali</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>Ba-formulere</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Bokóti ya mikanda</translation>
     </message>

@@ -1000,6 +1000,50 @@
         <translation>বিকল্প পাঠ</translation>
     </message>
     <message>
+        <source>This submission is not there, or you may not read it.</source>
+        <translation>এই দাখিলটো নাই, বা আপুনি ইয়াক পঢ়িব নোৱাৰে।</translation>
+    </message>
+    <message>
+        <source>This page has no form.</source>
+        <translation>এই পৃষ্ঠাত কোনো ফৰ্ম নাই।</translation>
+    </message>
+    <message>
+        <source>The submissions are only shown to those who may read collected information in the administration.</source>
+        <translation>প্ৰশাসনত সংগ্ৰহ কৰা তথ্য পঢ়িব পৰাসকলক হে দাখিলসমূহ দেখুওৱা হয়।</translation>
+    </message>
+    <message>
+        <source>%n submissions</source>
+        <translation>%n টা দাখিল</translation>
+    </message>
+    <message>
+        <source>Export CSV</source>
+        <translation>CSV ৰপ্তানি কৰক</translation>
+    </message>
+    <message>
+        <source>In the administration</source>
+        <translation>প্ৰশাসনত</translation>
+    </message>
+    <message>
+        <source>This form collects personal data: keep what you read to yourself.</source>
+        <translation>এই ফৰ্মে ব্যক্তিগত তথ্য সংগ্ৰহ কৰে: আপুনি যি পঢ়ে সেয়া নিজৰ মাজতে ৰাখক।</translation>
+    </message>
+    <message>
+        <source>Submission</source>
+        <translation>দাখিল</translation>
+    </message>
+    <message>
+        <source>Latest submissions</source>
+        <translation>শেহতীয়া দাখিলসমূহ</translation>
+    </message>
+    <message>
+        <source>Visitor</source>
+        <translation>দৰ্শক</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>ফৰ্মসমূহ</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>ইনবক্স</translation>
     </message>

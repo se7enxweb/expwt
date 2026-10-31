@@ -1000,6 +1000,50 @@
         <translation>Alternativní text</translation>
     </message>
     <message>
+        <source>This submission is not there, or you may not read it.</source>
+        <translation>Tento záznam neexistuje, nebo ho nesmíte číst.</translation>
+    </message>
+    <message>
+        <source>This page has no form.</source>
+        <translation>Tato stránka nemá žádný formulář.</translation>
+    </message>
+    <message>
+        <source>The submissions are only shown to those who may read collected information in the administration.</source>
+        <translation>Záznamy se zobrazují jen těm, kdo smějí v administraci číst shromážděné informace.</translation>
+    </message>
+    <message>
+        <source>%n submissions</source>
+        <translation>Záznamů: %n</translation>
+    </message>
+    <message>
+        <source>Export CSV</source>
+        <translation>Exportovat CSV</translation>
+    </message>
+    <message>
+        <source>In the administration</source>
+        <translation>V administraci</translation>
+    </message>
+    <message>
+        <source>This form collects personal data: keep what you read to yourself.</source>
+        <translation>Tento formulář shromažďuje osobní údaje: co si přečtete, nechte si pro sebe.</translation>
+    </message>
+    <message>
+        <source>Submission</source>
+        <translation>Záznam</translation>
+    </message>
+    <message>
+        <source>Latest submissions</source>
+        <translation>Nejnovější záznamy</translation>
+    </message>
+    <message>
+        <source>Visitor</source>
+        <translation>Návštěvník</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>Formuláře</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Doručené</translation>
     </message>

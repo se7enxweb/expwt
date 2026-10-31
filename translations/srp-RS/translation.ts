@@ -1000,6 +1000,50 @@
         <translation>Алтернативни текст</translation>
     </message>
     <message>
+        <source>This submission is not there, or you may not read it.</source>
+        <translation>Овај унос не постоји или немаш право да га читаш.</translation>
+    </message>
+    <message>
+        <source>This page has no form.</source>
+        <translation>Ова страница нема образац.</translation>
+    </message>
+    <message>
+        <source>The submissions are only shown to those who may read collected information in the administration.</source>
+        <translation>Уноси се приказују само онима који смеју да читају прикупљене информације у администрацији.</translation>
+    </message>
+    <message>
+        <source>%n submissions</source>
+        <translation>Уноса: %n</translation>
+    </message>
+    <message>
+        <source>Export CSV</source>
+        <translation>Извези CSV</translation>
+    </message>
+    <message>
+        <source>In the administration</source>
+        <translation>У администрацији</translation>
+    </message>
+    <message>
+        <source>This form collects personal data: keep what you read to yourself.</source>
+        <translation>Овај образац прикупља личне податке: оно што прочиташ задржи за себе.</translation>
+    </message>
+    <message>
+        <source>Submission</source>
+        <translation>Унос</translation>
+    </message>
+    <message>
+        <source>Latest submissions</source>
+        <translation>Најновији уноси</translation>
+    </message>
+    <message>
+        <source>Visitor</source>
+        <translation>Посетилац</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>Обрасци</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Примљено</translation>
     </message>

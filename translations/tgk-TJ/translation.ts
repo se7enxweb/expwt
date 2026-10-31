@@ -1000,6 +1000,50 @@
         <translation>Матни ивазкунанда</translation>
     </message>
     <message>
+        <source>This submission is not there, or you may not read it.</source>
+        <translation>Ин ирсол вуҷуд надорад ё шумо онро хонда наметавонед.</translation>
+    </message>
+    <message>
+        <source>This page has no form.</source>
+        <translation>Дар ин саҳифа шакл нест.</translation>
+    </message>
+    <message>
+        <source>The submissions are only shown to those who may read collected information in the administration.</source>
+        <translation>Ирсолҳо танҳо ба онҳое нишон дода мешаванд, ки маълумоти дар идоракунӣ ҷамъшударо хонда метавонанд.</translation>
+    </message>
+    <message>
+        <source>%n submissions</source>
+        <translation>%n ирсол</translation>
+    </message>
+    <message>
+        <source>Export CSV</source>
+        <translation>Содироти CSV</translation>
+    </message>
+    <message>
+        <source>In the administration</source>
+        <translation>Дар идоракунӣ</translation>
+    </message>
+    <message>
+        <source>This form collects personal data: keep what you read to yourself.</source>
+        <translation>Ин шакл маълумоти шахсӣ ҷамъ мекунад: он чиро мехонед, пеши худ нигоҳ доред.</translation>
+    </message>
+    <message>
+        <source>Submission</source>
+        <translation>Ирсол</translation>
+    </message>
+    <message>
+        <source>Latest submissions</source>
+        <translation>Ирсолҳои охирин</translation>
+    </message>
+    <message>
+        <source>Visitor</source>
+        <translation>Меҳмон</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>Шаклҳо</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Воридшуда</translation>
     </message>

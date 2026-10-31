@@ -1807,6 +1807,83 @@
     }, function (err) { root.textContent = ''; failure(ctx, err); });
   }
 
+  /* ---------------------------------------------------------------------------------------------- forms */
+
+  /* The page's forms (E2): the page itself when it is a form, and the forms it relates to or embeds, each with its
+     number of submissions. With the kernel's infocollector/read (the administration's Collected information) also
+     the latest submissions (when, who, the first answers): one opens with all its answers; Export CSV is the
+     kernel's export of the form. Without that policy: the numbers only. */
+  function forms(ctx, root) {
+    var h = ctx.h;
+    var t = ctx.t;
+    if (!ctx.node) {
+      root.appendChild(h('p', { text: t('This page is not content of the site. Open a page of the site to edit it.') }));
+      return;
+    }
+    root.appendChild(h('p', { class: 'wt-muted', text: t('Loading ...') }));
+    ctx.call('forms.load', { nodeId: ctx.node }).then(function (r) {
+      root.textContent = '';
+      if (!r.forms.length) {
+        root.appendChild(h('p', { class: 'wt-muted', text: t('This page has no form.') }));
+        return;
+      }
+      if (!r.canRead) {
+        root.appendChild(h('p', { class: 'wt-muted', text: t('The submissions are only shown to those who may read collected information in the administration.') }));
+      }
+      r.forms.forEach(function (form) {
+        var section = h('div', { class: 'wt-section wt-form' }, [
+          h('h3', { class: 'wt-form-name', text: form.name }),
+          h('p', { class: 'wt-muted', text: (form.isPage ? t('This page') + ' · ' : '') + t('%n submissions').replace('%n', form.count) })
+        ]);
+        if (r.canRead) {
+          var tools = h('div', { class: 'wt-row' });
+          if (form.count && form.exportUrl) { tools.appendChild(h('a', { class: 'wt-btn', href: form.exportUrl, download: '', text: t('Export CSV') })); }
+          if (form.adminUrl) { tools.appendChild(h('a', { class: 'wt-btn', href: form.adminUrl, text: t('In the administration') })); }
+          if (tools.childNodes.length) { section.appendChild(tools); }
+          if (form.sensitive) { section.appendChild(h('p', { class: 'wt-muted', text: t('This form collects personal data: keep what you read to yourself.') })); }
+          if (form.recent.length) {
+            var detail = h('div', { class: 'wt-form-detail', hidden: true, role: 'region', 'aria-live': 'polite', 'aria-label': t('Submission') });
+            section.appendChild(h('h4', { text: t('Latest submissions') }));
+            section.appendChild(h('ul', { class: 'wt-form-list' }, form.recent.map(function (s) {
+              return h('li', {}, [h('button', { type: 'button', class: 'wt-form-item', 'aria-expanded': 'false', onclick: function (e) {
+                open(s.id, e.currentTarget, detail);
+              } }, [
+                h('span', { class: 'wt-form-when', text: when(s.created) + (s.by ? ' · ' + s.by : ' · ' + t('Visitor')) }),
+                s.preview ? h('span', { class: 'wt-form-preview', text: s.preview }) : null
+              ])]);
+            })));
+            section.appendChild(detail);
+          }
+        }
+        root.appendChild(section);
+      });
+    }, function (err) { root.textContent = ''; failure(ctx, err); });
+
+    function open(id, button, detail) {
+      if (button.getAttribute('aria-expanded') === 'true') {
+        button.setAttribute('aria-expanded', 'false');
+        detail.hidden = true;
+        return;
+      }
+      Array.prototype.forEach.call(root.querySelectorAll('.wt-form-item[aria-expanded="true"]'), function (b) { b.setAttribute('aria-expanded', 'false'); });
+      detail.textContent = '';
+      detail.appendChild(h('p', { class: 'wt-muted', text: t('Loading ...') }));
+      detail.hidden = false;
+      button.setAttribute('aria-expanded', 'true');
+      ctx.call('forms.view', { collectionId: id }).then(function (s) {
+        detail.textContent = '';
+        detail.appendChild(h('h4', { text: when(s.created) + (s.by ? ' · ' + s.by : ' · ' + t('Visitor')) }));
+        detail.appendChild(h('dl', { class: 'wt-form-fields' }, [].concat.apply([], s.fields.map(function (f) {
+          return [h('dt', { text: f.name }), h('dd', { text: f.value || '–' })];
+        }))));
+        if (s.adminUrl) { detail.appendChild(h('div', { class: 'wt-row' }, [h('a', { class: 'wt-btn', href: s.adminUrl, text: t('In the administration') })])); }
+      }, function (err) {
+        detail.textContent = '';
+        detail.appendChild(h('p', { class: 'wt-muted', text: err && err.message ? err.message : t('Something went wrong on the server.') }));
+      });
+    }
+  }
+
   /* ---------------------------------------------------------------------------------------------- SEO check */
 
   /* The rules of the SEO check (F26), pure: what the rendered page shows (facts) to findings. A finding is
@@ -2074,5 +2151,5 @@
   }
 
   window.ExpwtSeo = SEO;
-  window.ExpwtPanels = { page: page, create: create, structure: structure, seo: seo, sites: sites, insights: insights, inbox: inbox, me: me, shortcuts: shortcuts };
+  window.ExpwtPanels = { page: page, create: create, structure: structure, seo: seo, sites: sites, forms: forms, insights: insights, inbox: inbox, me: me, shortcuts: shortcuts };
 }());

@@ -1000,6 +1000,50 @@
         <translation>විකල්ප පෙළ</translation>
     </message>
     <message>
+        <source>This submission is not there, or you may not read it.</source>
+        <translation>මෙම ඉදිරිපත් කිරීම නැත, නැතහොත් ඔබට එය කියවීමට අවසර නැත.</translation>
+    </message>
+    <message>
+        <source>This page has no form.</source>
+        <translation>මෙම පිටුවේ පෝරමයක් නැත.</translation>
+    </message>
+    <message>
+        <source>The submissions are only shown to those who may read collected information in the administration.</source>
+        <translation>ඉදිරිපත් කිරීම් පෙන්වන්නේ පරිපාලනයේ එකතු කළ තොරතුරු කියවිය හැකි අයට පමණි.</translation>
+    </message>
+    <message>
+        <source>%n submissions</source>
+        <translation>ඉදිරිපත් කිරීම් %n</translation>
+    </message>
+    <message>
+        <source>Export CSV</source>
+        <translation>CSV අපනයනය කරන්න</translation>
+    </message>
+    <message>
+        <source>In the administration</source>
+        <translation>පරිපාලනයේ</translation>
+    </message>
+    <message>
+        <source>This form collects personal data: keep what you read to yourself.</source>
+        <translation>මෙම පෝරමය පුද්ගලික දත්ත එකතු කරයි: ඔබ කියවන දේ ඔබ ළඟම තබා ගන්න.</translation>
+    </message>
+    <message>
+        <source>Submission</source>
+        <translation>ඉදිරිපත් කිරීම</translation>
+    </message>
+    <message>
+        <source>Latest submissions</source>
+        <translation>නවතම ඉදිරිපත් කිරීම්</translation>
+    </message>
+    <message>
+        <source>Visitor</source>
+        <translation>අමුත්තා</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>පෝරම</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>එන ලිපි</translation>
     </message>

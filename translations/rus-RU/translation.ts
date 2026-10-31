@@ -1000,6 +1000,50 @@
         <translation>Альтернативный текст</translation>
     </message>
     <message>
+        <source>This submission is not there, or you may not read it.</source>
+        <translation>Этой заявки нет, или у вас нет прав на её чтение.</translation>
+    </message>
+    <message>
+        <source>This page has no form.</source>
+        <translation>На этой странице нет формы.</translation>
+    </message>
+    <message>
+        <source>The submissions are only shown to those who may read collected information in the administration.</source>
+        <translation>Заявки показываются только тем, кто может читать собранную информацию в администрировании.</translation>
+    </message>
+    <message>
+        <source>%n submissions</source>
+        <translation>Заявок: %n</translation>
+    </message>
+    <message>
+        <source>Export CSV</source>
+        <translation>Экспорт CSV</translation>
+    </message>
+    <message>
+        <source>In the administration</source>
+        <translation>В администрировании</translation>
+    </message>
+    <message>
+        <source>This form collects personal data: keep what you read to yourself.</source>
+        <translation>Эта форма собирает персональные данные: держите прочитанное при себе.</translation>
+    </message>
+    <message>
+        <source>Submission</source>
+        <translation>Заявка</translation>
+    </message>
+    <message>
+        <source>Latest submissions</source>
+        <translation>Последние заявки</translation>
+    </message>
+    <message>
+        <source>Visitor</source>
+        <translation>Посетитель</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>Формы</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Входящие</translation>
     </message>

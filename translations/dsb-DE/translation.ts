@@ -1000,6 +1000,50 @@
         <translation>Alternatiwny tekst</translation>
     </message>
     <message>
+        <source>This submission is not there, or you may not read it.</source>
+        <translation>Toś to zapódaśe njeeksistěrujo abo jo njesmějośo cytaś.</translation>
+    </message>
+    <message>
+        <source>This page has no form.</source>
+        <translation>Toś ten bok njama formular.</translation>
+    </message>
+    <message>
+        <source>The submissions are only shown to those who may read collected information in the administration.</source>
+        <translation>Zapódaśa pokazuju se jano tym, kótarež smeju zběrane informacije w administraciji cytaś.</translation>
+    </message>
+    <message>
+        <source>%n submissions</source>
+        <translation>Zapódaśa: %n</translation>
+    </message>
+    <message>
+        <source>Export CSV</source>
+        <translation>CSV eksportěrowaś</translation>
+    </message>
+    <message>
+        <source>In the administration</source>
+        <translation>W administraciji</translation>
+    </message>
+    <message>
+        <source>This form collects personal data: keep what you read to yourself.</source>
+        <translation>Toś ten formular zběra wósobinske daty: wobchowajśo za se, což cytaśo.</translation>
+    </message>
+    <message>
+        <source>Submission</source>
+        <translation>Zapódaśe</translation>
+    </message>
+    <message>
+        <source>Latest submissions</source>
+        <translation>Nejnowše zapódaśa</translation>
+    </message>
+    <message>
+        <source>Visitor</source>
+        <translation>Woglědowaŕ</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>Formulary</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Dostaśe</translation>
     </message>

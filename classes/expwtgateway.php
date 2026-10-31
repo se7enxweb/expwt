@@ -748,6 +748,141 @@ class expwtGateway
         return array( $object, $draft, $language, $dataMap[$field] );
     }
 
+    // -------------------------------------------------------------------------------- the page's forms (E2)
+
+    /** How many submissions of each form the panel lists */
+    const FORM_RECENT = 10;
+
+    /**
+     * The page's forms: the page itself when its class collects information (the kernel's information collection),
+     * and the objects it relates to or embeds that do, each the user may read. For each its number of submissions;
+     * the submissions themselves (date, who, the first answers) only for a user with the kernel's infocollector/read,
+     * the policy of the administration's Collected information, which also guards the kernel's CSV export linked here.
+     *
+     * @param array $in nodeId
+     * @return array nodeId, canRead, forms (objectId, name, isPage, count, sensitive, exportUrl, adminUrl, recent)
+     */
+    public function forms( array $in )
+    {
+        $node = $this->readableNode( $in );
+        $object = $node->object();
+        $canRead = $this->may( 'infocollector', 'read' );
+        $candidates = array( (int)$object->attribute( 'id' ) => $object );
+        foreach ( (array)$object->relatedObjects( false, false, 0, false, array( 'AllRelations' => true ) ) as $related )
+            if ( $related instanceof eZContentObject )
+                $candidates[(int)$related->attribute( 'id' )] = $related;
+        $forms = array();
+        $admin = self::adminUrl();
+        foreach ( $candidates as $id => $candidate )
+        {
+            if ( !self::collectsInformation( $candidate ) || !$candidate->canRead() )
+                continue;
+            $form = array( 'objectId' => $id, 'name' => (string)$candidate->attribute( 'name' ), 'isPage' => $id === (int)$object->attribute( 'id' ),
+                           'count' => (int)eZInformationCollection::fetchCollectionCountForObject( $id ),
+                           'sensitive' => (bool)eZInformationCollection::isCollectingSensitiveData( $candidate ),
+                           'exportUrl' => null, 'adminUrl' => null, 'recent' => array() );
+            if ( $canRead )
+            {
+                $form['exportUrl'] = self::url( '/infocollector/export/' . $id );
+                $form['adminUrl'] = $admin ? $admin . 'infocollector/collectionlist/' . $id : null;
+                $list = eZInformationCollection::fetchCollectionsList( $id, false, false, array( 'limit' => self::FORM_RECENT, 'offset' => 0 ),
+                                                                        array( 'created', false ) );
+                foreach ( (array)$list as $collection )
+                    $form['recent'][] = array( 'id' => (int)$collection->attribute( 'id' ), 'created' => (int)$collection->attribute( 'created' ),
+                                               'by' => self::collectionAuthor( $collection ), 'preview' => self::collectionPreview( $collection ) );
+            }
+            $forms[] = $form;
+        }
+        return array( 'nodeId' => (int)$node->attribute( 'node_id' ), 'canRead' => $canRead, 'forms' => $forms );
+    }
+
+    /**
+     * One submission (E2): its answers, field by field, for a user with infocollector/read who may read its form;
+     * audited as the kernel's infocollector/view is (which collection was opened, never its values).
+     *
+     * @param array $in collectionId
+     * @return array id, objectId, form, created, by, fields (name, value), adminUrl
+     */
+    public function formView( array $in )
+    {
+        if ( !$this->may( 'infocollector', 'read' ) )
+            throw new expwtApiError( 403, 'forbidden', 'You may not do this.' );
+        $collection = isset( $in['collectionId'] ) ? eZInformationCollection::fetch( (int)$in['collectionId'] ) : null;
+        $object = $collection ? eZContentObject::fetch( (int)$collection->attribute( 'contentobject_id' ) ) : null;
+        if ( !$collection || !$object instanceof eZContentObject || !$object->canRead() )
+            throw new expwtApiError( 404, 'not_found', 'This submission is not there, or you may not read it.' );
+        if ( class_exists( 'expAuditHook' ) )
+            expAuditHook::emit( 'data.infocollection.view', array( 'object' => array( 'type' => 'collection', 'id' => (int)$collection->attribute( 'id' ) ),
+                'target' => array( 'type' => 'object', 'id' => (int)$object->attribute( 'id' ), 'name' => (string)$object->attribute( 'name' ) ), 'verb' => 'read' ) );
+        $admin = self::adminUrl();
+        return array( 'id' => (int)$collection->attribute( 'id' ), 'objectId' => (int)$object->attribute( 'id' ), 'form' => (string)$object->attribute( 'name' ),
+                      'created' => (int)$collection->attribute( 'created' ), 'by' => self::collectionAuthor( $collection ),
+                      'fields' => self::collectionFields( $collection ),
+                      'adminUrl' => $admin ? $admin . 'infocollector/view/' . (int)$collection->attribute( 'id' ) : null );
+    }
+
+    /** @return bool the object's class has an attribute that collects information */
+    protected static function collectsInformation( eZContentObject $object )
+    {
+        $list = eZContentClassAttribute::fetchFilteredList( array( 'contentclass_id' => (int)$object->attribute( 'contentclass_id' ), 'version' => 0,
+                                                                   'is_information_collector' => 1 ), false );
+        return !empty( $list );
+    }
+
+    /** @return string who sent it: the user's name, or empty for a visitor */
+    protected static function collectionAuthor( eZInformationCollection $collection )
+    {
+        $creatorId = (int)$collection->attribute( 'creator_id' );
+        if ( !$creatorId || $creatorId === (int)eZINI::instance()->variable( 'UserSettings', 'AnonymousUserID' ) )
+            return '';
+        $creator = eZContentObject::fetch( $creatorId );
+        return $creator instanceof eZContentObject ? (string)$creator->attribute( 'name' ) : '';
+    }
+
+    /** @return array the answers: name, value (text; a number or a choice as the kernel stored it) */
+    protected static function collectionFields( eZInformationCollection $collection )
+    {
+        $out = array();
+        foreach ( (array)$collection->informationCollectionAttributes() as $attribute )
+            $out[] = array( 'name' => (string)$attribute->attribute( 'contentclass_attribute_name' ),
+                            'value' => self::collectedValue( (string)$attribute->attribute( 'data_text' ), $attribute->attribute( 'data_int' ), $attribute->attribute( 'data_float' ) ) );
+        return $out;
+    }
+
+    /** @return string the first two answers that have text, each cut to 80 characters (the list's preview) */
+    protected static function collectionPreview( eZInformationCollection $collection )
+    {
+        return self::previewOf( self::collectionFields( $collection ) );
+    }
+
+    /** Pure: the stored value of an answer as text */
+    public static function collectedValue( $text, $int, $float )
+    {
+        if ( trim( (string)$text ) !== '' )
+            return (string)$text;
+        if ( $float !== null && (float)$float != 0.0 )
+            return (string)(float)$float;
+        if ( $int !== null && (int)$int !== 0 )
+            return (string)(int)$int;
+        return '';
+    }
+
+    /** Pure: the preview of a submission: its first two answers with text, one line each, at most 80 characters */
+    public static function previewOf( array $fields )
+    {
+        $parts = array();
+        foreach ( $fields as $field )
+        {
+            $value = trim( preg_replace( '/\s+/u', ' ', (string)$field['value'] ) );
+            if ( $value === '' )
+                continue;
+            $parts[] = mb_strlen( $value, 'UTF-8' ) > 80 ? rtrim( mb_substr( $value, 0, 79, 'UTF-8' ) ) . '…' : $value;
+            if ( count( $parts ) === 2 )
+                break;
+        }
+        return implode( ' · ', $parts );
+    }
+
     // ------------------------------------------------------------------------------------------------ the inbox
 
     /** @return bool the user may use the kernel's collaboration (the module's policy), where the approvals are */

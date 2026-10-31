@@ -1000,6 +1000,50 @@
         <translation>Testu alternativu</translation>
     </message>
     <message>
+        <source>This submission is not there, or you may not read it.</source>
+        <translation>Esti unviu nun esiste o nun puedes lleelu.</translation>
+    </message>
+    <message>
+        <source>This page has no form.</source>
+        <translation>Esta páxina nun tien formulariu.</translation>
+    </message>
+    <message>
+        <source>The submissions are only shown to those who may read collected information in the administration.</source>
+        <translation>Los unvios namás se-yos amuesen a los que puen lleer la información recoyida na alministración.</translation>
+    </message>
+    <message>
+        <source>%n submissions</source>
+        <translation>%n unvios</translation>
+    </message>
+    <message>
+        <source>Export CSV</source>
+        <translation>Esportar CSV</translation>
+    </message>
+    <message>
+        <source>In the administration</source>
+        <translation>Na alministración</translation>
+    </message>
+    <message>
+        <source>This form collects personal data: keep what you read to yourself.</source>
+        <translation>Esti formulariu recueye datos personales: lo que lleas guárdalo pa ti.</translation>
+    </message>
+    <message>
+        <source>Submission</source>
+        <translation>Unviu</translation>
+    </message>
+    <message>
+        <source>Latest submissions</source>
+        <translation>Últimos unvios</translation>
+    </message>
+    <message>
+        <source>Visitor</source>
+        <translation>Visitante</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>Formularios</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Bandexa d'entrada</translation>
     </message>

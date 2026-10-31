@@ -1000,6 +1000,50 @@
         <translation>متن جایگزین</translation>
     </message>
     <message>
+        <source>This submission is not there, or you may not read it.</source>
+        <translation>این ارسال وجود ندارد یا شما اجازهٔ خواندن آن را ندارید.</translation>
+    </message>
+    <message>
+        <source>This page has no form.</source>
+        <translation>این صفحه فرمی ندارد.</translation>
+    </message>
+    <message>
+        <source>The submissions are only shown to those who may read collected information in the administration.</source>
+        <translation>ارسال‌ها فقط به کسانی نشان داده می‌شوند که اجازهٔ خواندن اطلاعات گردآوری‌شده در مدیریت را دارند.</translation>
+    </message>
+    <message>
+        <source>%n submissions</source>
+        <translation>%n ارسال</translation>
+    </message>
+    <message>
+        <source>Export CSV</source>
+        <translation>خروجی CSV</translation>
+    </message>
+    <message>
+        <source>In the administration</source>
+        <translation>در مدیریت</translation>
+    </message>
+    <message>
+        <source>This form collects personal data: keep what you read to yourself.</source>
+        <translation>این فرم داده‌های شخصی گردآوری می‌کند: آنچه را می‌خوانید نزد خود نگه دارید.</translation>
+    </message>
+    <message>
+        <source>Submission</source>
+        <translation>ارسال</translation>
+    </message>
+    <message>
+        <source>Latest submissions</source>
+        <translation>آخرین ارسال‌ها</translation>
+    </message>
+    <message>
+        <source>Visitor</source>
+        <translation>بازدیدکننده</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>فرم‌ها</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>صندوق ورودی</translation>
     </message>

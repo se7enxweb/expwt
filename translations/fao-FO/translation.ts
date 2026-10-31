@@ -1000,6 +1000,50 @@
         <translation>Alt-tekstur</translation>
     </message>
     <message>
+        <source>This submission is not there, or you may not read it.</source>
+        <translation>Henda innsending er ikki til, ella tú hevur ikki loyvi at lesa hana.</translation>
+    </message>
+    <message>
+        <source>This page has no form.</source>
+        <translation>Henda síðan hevur einki oyðublað.</translation>
+    </message>
+    <message>
+        <source>The submissions are only shown to those who may read collected information in the administration.</source>
+        <translation>Innsendingarnar verða bara vístar teimum, ið hava loyvi at lesa savnaðar upplýsingar í umsitingini.</translation>
+    </message>
+    <message>
+        <source>%n submissions</source>
+        <translation>%n innsendingar</translation>
+    </message>
+    <message>
+        <source>Export CSV</source>
+        <translation>Útflyt CSV</translation>
+    </message>
+    <message>
+        <source>In the administration</source>
+        <translation>Í umsitingini</translation>
+    </message>
+    <message>
+        <source>This form collects personal data: keep what you read to yourself.</source>
+        <translation>Hetta oyðublaðið savnar persónupplýsingar: hav fyri teg sjálvan tað, tú lesur.</translation>
+    </message>
+    <message>
+        <source>Submission</source>
+        <translation>Innsending</translation>
+    </message>
+    <message>
+        <source>Latest submissions</source>
+        <translation>Nýggjastu innsendingar</translation>
+    </message>
+    <message>
+        <source>Visitor</source>
+        <translation>Vitjandi</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>Oyðubløð</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Innbakki</translation>
     </message>

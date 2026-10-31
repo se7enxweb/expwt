@@ -1000,6 +1000,50 @@
         <translation>Ebiwandiiko ebikyusa</translation>
     </message>
     <message>
+        <source>This submission is not there, or you may not read it.</source>
+        <translation>Ekyaweerezeddwa kino tekiriiwo, oba tokkirizibwa kukisoma.</translation>
+    </message>
+    <message>
+        <source>This page has no form.</source>
+        <translation>Olupapula luno terulina foomu.</translation>
+    </message>
+    <message>
+        <source>The submissions are only shown to those who may read collected information in the administration.</source>
+        <translation>Ebyaweerezeddwa biragibwa bokka abo abakkirizibwa okusoma amawulire agakuŋŋaanyizibwa mu bukulembeze.</translation>
+    </message>
+    <message>
+        <source>%n submissions</source>
+        <translation>Ebyaweerezeddwa %n</translation>
+    </message>
+    <message>
+        <source>Export CSV</source>
+        <translation>Fulumya CSV</translation>
+    </message>
+    <message>
+        <source>In the administration</source>
+        <translation>Mu bukulembeze</translation>
+    </message>
+    <message>
+        <source>This form collects personal data: keep what you read to yourself.</source>
+        <translation>Foomu eno ekuŋŋaanya ebikwata ku muntu: by'osoma bikuumire gy'oli.</translation>
+    </message>
+    <message>
+        <source>Submission</source>
+        <translation>Ekyaweerezeddwa</translation>
+    </message>
+    <message>
+        <source>Latest submissions</source>
+        <translation>Ebyaweerezeddwa ebisembyeyo</translation>
+    </message>
+    <message>
+        <source>Visitor</source>
+        <translation>Omugenyi</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>Foomu</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Ebibaluwa ebiyingira</translation>
     </message>

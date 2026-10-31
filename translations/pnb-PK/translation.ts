@@ -1000,6 +1000,50 @@
         <translation>بدلواں متن</translation>
     </message>
     <message>
+        <source>This submission is not there, or you may not read it.</source>
+        <translation>ایہہ جمع کرائی گئی چیز موجود نہیں، یا تہانوں ایہنوں پڑھن دی اجازت نہیں۔</translation>
+    </message>
+    <message>
+        <source>This page has no form.</source>
+        <translation>ایس صفحے تے کوئی فارم نہیں۔</translation>
+    </message>
+    <message>
+        <source>The submissions are only shown to those who may read collected information in the administration.</source>
+        <translation>جمع کرائیاں چیزاں صرف اوہناں نوں وکھائیاں جاندیاں نیں جیہڑے انتظامیہ وچ کٹھی کیتی گئی جانکاری پڑھ سکدے نیں۔</translation>
+    </message>
+    <message>
+        <source>%n submissions</source>
+        <translation>%n جمع کرائیاں</translation>
+    </message>
+    <message>
+        <source>Export CSV</source>
+        <translation>CSV برآمد کرو</translation>
+    </message>
+    <message>
+        <source>In the administration</source>
+        <translation>انتظامیہ وچ</translation>
+    </message>
+    <message>
+        <source>This form collects personal data: keep what you read to yourself.</source>
+        <translation>ایہہ فارم ذاتی ڈیٹا کٹھا کردا اے: جو پڑھو اوہنوں اپنے تک رکھو۔</translation>
+    </message>
+    <message>
+        <source>Submission</source>
+        <translation>جمع کرائی گئی چیز</translation>
+    </message>
+    <message>
+        <source>Latest submissions</source>
+        <translation>تازہ جمع کرائیاں</translation>
+    </message>
+    <message>
+        <source>Visitor</source>
+        <translation>مہمان</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>فارم</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>اِن باکس</translation>
     </message>

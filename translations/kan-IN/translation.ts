@@ -1000,6 +1000,50 @@
         <translation>ಪರ್ಯಾಯ ಪಠ್ಯ</translation>
     </message>
     <message>
+        <source>This submission is not there, or you may not read it.</source>
+        <translation>ಈ ಸಲ್ಲಿಕೆ ಇಲ್ಲ, ಅಥವಾ ನೀವು ಇದನ್ನು ಓದುವಂತಿಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>This page has no form.</source>
+        <translation>ಈ ಪುಟದಲ್ಲಿ ಯಾವುದೇ ಫಾರ್ಮ್ ಇಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>The submissions are only shown to those who may read collected information in the administration.</source>
+        <translation>ಆಡಳಿತದಲ್ಲಿ ಸಂಗ್ರಹಿಸಿದ ಮಾಹಿತಿಯನ್ನು ಓದಬಲ್ಲವರಿಗೆ ಮಾತ್ರ ಸಲ್ಲಿಕೆಗಳನ್ನು ತೋರಿಸಲಾಗುತ್ತದೆ.</translation>
+    </message>
+    <message>
+        <source>%n submissions</source>
+        <translation>%n ಸಲ್ಲಿಕೆಗಳು</translation>
+    </message>
+    <message>
+        <source>Export CSV</source>
+        <translation>CSV ರಫ್ತು ಮಾಡಿ</translation>
+    </message>
+    <message>
+        <source>In the administration</source>
+        <translation>ಆಡಳಿತದಲ್ಲಿ</translation>
+    </message>
+    <message>
+        <source>This form collects personal data: keep what you read to yourself.</source>
+        <translation>ಈ ಫಾರ್ಮ್ ವೈಯಕ್ತಿಕ ಡೇಟಾವನ್ನು ಸಂಗ್ರಹಿಸುತ್ತದೆ: ನೀವು ಓದಿದ್ದನ್ನು ನಿಮ್ಮಲ್ಲೇ ಇಟ್ಟುಕೊಳ್ಳಿ.</translation>
+    </message>
+    <message>
+        <source>Submission</source>
+        <translation>ಸಲ್ಲಿಕೆ</translation>
+    </message>
+    <message>
+        <source>Latest submissions</source>
+        <translation>ಇತ್ತೀಚಿನ ಸಲ್ಲಿಕೆಗಳು</translation>
+    </message>
+    <message>
+        <source>Visitor</source>
+        <translation>ಸಂದರ್ಶಕ</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>ಫಾರ್ಮ್‌ಗಳು</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>ಇನ್‌ಬಾಕ್ಸ್</translation>
     </message>

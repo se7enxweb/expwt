@@ -1000,6 +1000,50 @@
         <translation>Alt-texti</translation>
     </message>
     <message>
+        <source>This submission is not there, or you may not read it.</source>
+        <translation>Þessi innsending er ekki til, eða þú mátt ekki lesa hana.</translation>
+    </message>
+    <message>
+        <source>This page has no form.</source>
+        <translation>Þessi síða er ekki með eyðublað.</translation>
+    </message>
+    <message>
+        <source>The submissions are only shown to those who may read collected information in the administration.</source>
+        <translation>Innsendingarnar eru aðeins sýndar þeim sem mega lesa safnaðar upplýsingar í stjórnborði.</translation>
+    </message>
+    <message>
+        <source>%n submissions</source>
+        <translation>%n innsendingar</translation>
+    </message>
+    <message>
+        <source>Export CSV</source>
+        <translation>Flytja út CSV</translation>
+    </message>
+    <message>
+        <source>In the administration</source>
+        <translation>Í stjórnborði</translation>
+    </message>
+    <message>
+        <source>This form collects personal data: keep what you read to yourself.</source>
+        <translation>Þetta eyðublað safnar persónuupplýsingum: haltu því sem þú lest fyrir sjálfan þig.</translation>
+    </message>
+    <message>
+        <source>Submission</source>
+        <translation>Innsending</translation>
+    </message>
+    <message>
+        <source>Latest submissions</source>
+        <translation>Nýjustu innsendingar</translation>
+    </message>
+    <message>
+        <source>Visitor</source>
+        <translation>Gestur</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>Eyðublöð</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Innhólf</translation>
     </message>

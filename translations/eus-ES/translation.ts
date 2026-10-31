@@ -1000,6 +1000,50 @@
         <translation>Testu alternatiboa</translation>
     </message>
     <message>
+        <source>This submission is not there, or you may not read it.</source>
+        <translation>Bidalketa hau ez dago, edo ezin duzu irakurri.</translation>
+    </message>
+    <message>
+        <source>This page has no form.</source>
+        <translation>Orri honek ez du inprimakirik.</translation>
+    </message>
+    <message>
+        <source>The submissions are only shown to those who may read collected information in the administration.</source>
+        <translation>Bidalketak administrazioan bildutako informazioa irakur dezaketenei soilik erakusten zaizkie.</translation>
+    </message>
+    <message>
+        <source>%n submissions</source>
+        <translation>%n bidalketa</translation>
+    </message>
+    <message>
+        <source>Export CSV</source>
+        <translation>Esportatu CSV</translation>
+    </message>
+    <message>
+        <source>In the administration</source>
+        <translation>Administrazioan</translation>
+    </message>
+    <message>
+        <source>This form collects personal data: keep what you read to yourself.</source>
+        <translation>Inprimaki honek datu pertsonalak biltzen ditu: irakurtzen duzuna zeuretzat gorde.</translation>
+    </message>
+    <message>
+        <source>Submission</source>
+        <translation>Bidalketa</translation>
+    </message>
+    <message>
+        <source>Latest submissions</source>
+        <translation>Azken bidalketak</translation>
+    </message>
+    <message>
+        <source>Visitor</source>
+        <translation>Bisitaria</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>Inprimakiak</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Sarrera-ontzia</translation>
     </message>

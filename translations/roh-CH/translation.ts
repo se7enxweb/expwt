@@ -1000,6 +1000,50 @@
         <translation>Text alternativ</translation>
     </message>
     <message>
+        <source>This submission is not there, or you may not read it.</source>
+        <translation>Questa inoltraziun n'exista betg, u vus na dastgais betg la leger.</translation>
+    </message>
+    <message>
+        <source>This page has no form.</source>
+        <translation>Questa pagina n'ha nagin formular.</translation>
+    </message>
+    <message>
+        <source>The submissions are only shown to those who may read collected information in the administration.</source>
+        <translation>Las inoltraziuns vegnan mussadas mo a quels che dastgan leger infurmaziuns rimnadas en l'administraziun.</translation>
+    </message>
+    <message>
+        <source>%n submissions</source>
+        <translation>%n inoltraziuns</translation>
+    </message>
+    <message>
+        <source>Export CSV</source>
+        <translation>Exportar CSV</translation>
+    </message>
+    <message>
+        <source>In the administration</source>
+        <translation>En l'administraziun</translation>
+    </message>
+    <message>
+        <source>This form collects personal data: keep what you read to yourself.</source>
+        <translation>Quest formular rimna datas persunalas: tegnai per vus quai che vus legis.</translation>
+    </message>
+    <message>
+        <source>Submission</source>
+        <translation>Inoltraziun</translation>
+    </message>
+    <message>
+        <source>Latest submissions</source>
+        <translation>Ultimas inoltraziuns</translation>
+    </message>
+    <message>
+        <source>Visitor</source>
+        <translation>Visitader</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>Formulars</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Chascha d'entrada</translation>
     </message>

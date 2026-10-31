@@ -63,6 +63,9 @@ class expwtAccess
         // taking a suggestion into a field of its own editor writes the draft (content/edit, expai/write)
         'ai.field'        => array( 'edit', true, '', '', '' ),
         'ai.apply'        => array( 'edit', true, 'content', 'edit', 'StoreButton' ),
+        // the page's forms and their submissions (E2): read-only; the submissions only with infocollector/read
+        'forms.load'      => array( 'edit', false, '', '', '' ),
+        'forms.view'      => array( 'edit', false, '', '', '' ),
     );
 
     /** @return bool */

@@ -1000,6 +1000,50 @@
         <translation>Vaihtoehtoinen teksti</translation>
     </message>
     <message>
+        <source>This submission is not there, or you may not read it.</source>
+        <translation>Tätä lähetystä ei ole, tai sinulla ei ole oikeutta lukea sitä.</translation>
+    </message>
+    <message>
+        <source>This page has no form.</source>
+        <translation>Tällä sivulla ei ole lomaketta.</translation>
+    </message>
+    <message>
+        <source>The submissions are only shown to those who may read collected information in the administration.</source>
+        <translation>Lähetykset näytetään vain niille, jotka saavat lukea hallinnassa kerättyjä tietoja.</translation>
+    </message>
+    <message>
+        <source>%n submissions</source>
+        <translation>%n lähetystä</translation>
+    </message>
+    <message>
+        <source>Export CSV</source>
+        <translation>Vie CSV</translation>
+    </message>
+    <message>
+        <source>In the administration</source>
+        <translation>Hallinnassa</translation>
+    </message>
+    <message>
+        <source>This form collects personal data: keep what you read to yourself.</source>
+        <translation>Tämä lomake kerää henkilötietoja: pidä lukemasi omana tietonasi.</translation>
+    </message>
+    <message>
+        <source>Submission</source>
+        <translation>Lähetys</translation>
+    </message>
+    <message>
+        <source>Latest submissions</source>
+        <translation>Uusimmat lähetykset</translation>
+    </message>
+    <message>
+        <source>Visitor</source>
+        <translation>Kävijä</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>Lomakkeet</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Saapuneet</translation>
     </message>

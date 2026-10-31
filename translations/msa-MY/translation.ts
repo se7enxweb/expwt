@@ -1000,6 +1000,50 @@
         <translation>Teks alt</translation>
     </message>
     <message>
+        <source>This submission is not there, or you may not read it.</source>
+        <translation>Serahan ini tiada, atau anda tidak dibenarkan membacanya.</translation>
+    </message>
+    <message>
+        <source>This page has no form.</source>
+        <translation>Halaman ini tiada borang.</translation>
+    </message>
+    <message>
+        <source>The submissions are only shown to those who may read collected information in the administration.</source>
+        <translation>Serahan hanya ditunjukkan kepada mereka yang boleh membaca maklumat yang dikumpul dalam pentadbiran.</translation>
+    </message>
+    <message>
+        <source>%n submissions</source>
+        <translation>%n serahan</translation>
+    </message>
+    <message>
+        <source>Export CSV</source>
+        <translation>Eksport CSV</translation>
+    </message>
+    <message>
+        <source>In the administration</source>
+        <translation>Dalam pentadbiran</translation>
+    </message>
+    <message>
+        <source>This form collects personal data: keep what you read to yourself.</source>
+        <translation>Borang ini mengumpul data peribadi: simpan apa yang anda baca untuk diri sendiri.</translation>
+    </message>
+    <message>
+        <source>Submission</source>
+        <translation>Serahan</translation>
+    </message>
+    <message>
+        <source>Latest submissions</source>
+        <translation>Serahan terkini</translation>
+    </message>
+    <message>
+        <source>Visitor</source>
+        <translation>Pelawat</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>Borang</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Peti masuk</translation>
     </message>

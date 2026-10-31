@@ -176,6 +176,10 @@ class expwtApi
             case 'ai.apply':
                 return $g->aiApply( self::ids( $input, array( 'objectId', 'version' ) ) + self::strings( $input, array( 'language', 'field' ) )
                                     + array( 'value' => isset( $input['value'] ) && is_string( $input['value'] ) ? $input['value'] : '' ) );
+            case 'forms.load':
+                return $g->forms( self::ids( $input, array( 'nodeId' ) ) );
+            case 'forms.view':
+                return $g->formView( self::ids( $input, array( 'collectionId' ) ) );
             case 'page.elsewhere':
                 return $g->elsewhere( self::ids( $input, array( 'nodeId' ) ) );
             case 'seo.check':

@@ -1000,6 +1000,50 @@
         <translation>متبادل متن</translation>
     </message>
     <message>
+        <source>This submission is not there, or you may not read it.</source>
+        <translation>یہ جمع شدہ اندراج موجود نہیں، یا آپ کو اسے پڑھنے کی اجازت نہیں۔</translation>
+    </message>
+    <message>
+        <source>This page has no form.</source>
+        <translation>اس صفحے پر کوئی فارم نہیں۔</translation>
+    </message>
+    <message>
+        <source>The submissions are only shown to those who may read collected information in the administration.</source>
+        <translation>اندراجات صرف انہیں دکھائے جاتے ہیں جو انتظامیہ میں جمع کی گئی معلومات پڑھ سکتے ہیں۔</translation>
+    </message>
+    <message>
+        <source>%n submissions</source>
+        <translation>%n اندراجات</translation>
+    </message>
+    <message>
+        <source>Export CSV</source>
+        <translation>CSV برآمد کریں</translation>
+    </message>
+    <message>
+        <source>In the administration</source>
+        <translation>انتظامیہ میں</translation>
+    </message>
+    <message>
+        <source>This form collects personal data: keep what you read to yourself.</source>
+        <translation>یہ فارم ذاتی ڈیٹا جمع کرتا ہے: جو پڑھیں اسے اپنے تک رکھیں۔</translation>
+    </message>
+    <message>
+        <source>Submission</source>
+        <translation>اندراج</translation>
+    </message>
+    <message>
+        <source>Latest submissions</source>
+        <translation>تازہ ترین اندراجات</translation>
+    </message>
+    <message>
+        <source>Visitor</source>
+        <translation>مہمان</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>فارم</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>ان باکس</translation>
     </message>

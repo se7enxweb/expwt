@@ -1000,6 +1000,50 @@
         <translation>Alt-tekst</translation>
     </message>
     <message>
+        <source>This submission is not there, or you may not read it.</source>
+        <translation>Denne innsendingen finnes ikke, eller du har ikke lov til å lese den.</translation>
+    </message>
+    <message>
+        <source>This page has no form.</source>
+        <translation>Denne siden har ikke noe skjema.</translation>
+    </message>
+    <message>
+        <source>The submissions are only shown to those who may read collected information in the administration.</source>
+        <translation>Innsendingene vises bare for dem som har lov til å lese innsamlet informasjon i administrasjonen.</translation>
+    </message>
+    <message>
+        <source>%n submissions</source>
+        <translation>%n innsendinger</translation>
+    </message>
+    <message>
+        <source>Export CSV</source>
+        <translation>Eksporter CSV</translation>
+    </message>
+    <message>
+        <source>In the administration</source>
+        <translation>I administrasjonen</translation>
+    </message>
+    <message>
+        <source>This form collects personal data: keep what you read to yourself.</source>
+        <translation>Dette skjemaet samler inn personopplysninger: behold det du leser, for deg selv.</translation>
+    </message>
+    <message>
+        <source>Submission</source>
+        <translation>Innsending</translation>
+    </message>
+    <message>
+        <source>Latest submissions</source>
+        <translation>Siste innsendinger</translation>
+    </message>
+    <message>
+        <source>Visitor</source>
+        <translation>Besøkende</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>Skjemaer</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Innboks</translation>
     </message>

@@ -1000,6 +1000,50 @@
         <translation>אַלטערנאַטיווער טעקסט</translation>
     </message>
     <message>
+        <source>This submission is not there, or you may not read it.</source>
+        <translation>די אײַנזענדונג איז נישטאָ, אָדער איר טאָרט זי נישט לייענען.</translation>
+    </message>
+    <message>
+        <source>This page has no form.</source>
+        <translation>דער בלאַט האָט נישט קיין פֿאָרמולאַר.</translation>
+    </message>
+    <message>
+        <source>The submissions are only shown to those who may read collected information in the administration.</source>
+        <translation>די אײַנזענדונגען ווערן געוויזן נאָר די וואָס טאָרן לייענען געזאַמלטע אינפֿאָרמאַציע אין דער אַדמיניסטראַציע.</translation>
+    </message>
+    <message>
+        <source>%n submissions</source>
+        <translation>%n אײַנזענדונגען</translation>
+    </message>
+    <message>
+        <source>Export CSV</source>
+        <translation>עקספּאָרטירן CSV</translation>
+    </message>
+    <message>
+        <source>In the administration</source>
+        <translation>אין דער אַדמיניסטראַציע</translation>
+    </message>
+    <message>
+        <source>This form collects personal data: keep what you read to yourself.</source>
+        <translation>דער פֿאָרמולאַר זאַמלט פּערזענלעכע דאַטן: האַלט בײַ זיך וואָס איר לייענט.</translation>
+    </message>
+    <message>
+        <source>Submission</source>
+        <translation>אײַנזענדונג</translation>
+    </message>
+    <message>
+        <source>Latest submissions</source>
+        <translation>לעצטע אײַנזענדונגען</translation>
+    </message>
+    <message>
+        <source>Visitor</source>
+        <translation>באַזוכער</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>פֿאָרמולאַרן</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>אַרײַנגעקומענע</translation>
     </message>

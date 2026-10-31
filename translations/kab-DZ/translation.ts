@@ -1000,6 +1000,50 @@
         <translation>Aḍris amlellay</translation>
     </message>
     <message>
+        <source>This submission is not there, or you may not read it.</source>
+        <translation>Tuzna-a ulac-itt, neɣ ur tezmireḍ ara ad tt-teɣreḍ.</translation>
+    </message>
+    <message>
+        <source>This page has no form.</source>
+        <translation>Asebter-a ulac deg-s tiferkit.</translation>
+    </message>
+    <message>
+        <source>The submissions are only shown to those who may read collected information in the administration.</source>
+        <translation>Tuzniwin ttwaskanent kan i wid yezmren ad ɣren talɣut yettwalqeḍen deg tedbelt.</translation>
+    </message>
+    <message>
+        <source>%n submissions</source>
+        <translation>%n n tuzniwin</translation>
+    </message>
+    <message>
+        <source>Export CSV</source>
+        <translation>Sifeḍ CSV</translation>
+    </message>
+    <message>
+        <source>In the administration</source>
+        <translation>Deg tedbelt</translation>
+    </message>
+    <message>
+        <source>This form collects personal data: keep what you read to yourself.</source>
+        <translation>Tiferkit-a tlaqqeḍ isefka udmawanen: ayen teɣriḍ eǧǧ-it ɣur-k.</translation>
+    </message>
+    <message>
+        <source>Submission</source>
+        <translation>Tuzna</translation>
+    </message>
+    <message>
+        <source>Latest submissions</source>
+        <translation>Tuzniwin tineggura</translation>
+    </message>
+    <message>
+        <source>Visitor</source>
+        <translation>Amerzu</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>Tiferkiwin</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Tanaka n ukcam</translation>
     </message>

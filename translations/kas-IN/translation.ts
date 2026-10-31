@@ -1000,6 +1000,50 @@
         <translation>متبادل متن</translation>
     </message>
     <message>
+        <source>This submission is not there, or you may not read it.</source>
+        <translation>یہِ جمع کرُن چھُنہٕ، یا چھُنہٕ تۄہہِ امہِ پرنُک اِجازت۔</translation>
+    </message>
+    <message>
+        <source>This page has no form.</source>
+        <translation>یتھ صفحس پیٹھ چھُنہٕ کانٛہہ فارم۔</translation>
+    </message>
+    <message>
+        <source>The submissions are only shown to those who may read collected information in the administration.</source>
+        <translation>جمع کرنہٕ آمٕتۍ چیز چھِ صرف تِمن ہاونہٕ یِوان یِم انتظامیہ منٛز جمع کرنہٕ آمٕژ معلومات پٔرِتھ ہیکن۔</translation>
+    </message>
+    <message>
+        <source>%n submissions</source>
+        <translation>%n جمع کرنہٕ آمٕتۍ</translation>
+    </message>
+    <message>
+        <source>Export CSV</source>
+        <translation>CSV برآمد کٔرِو</translation>
+    </message>
+    <message>
+        <source>In the administration</source>
+        <translation>انتظامیہ منٛز</translation>
+    </message>
+    <message>
+        <source>This form collects personal data: keep what you read to yourself.</source>
+        <translation>یہِ فارم چھُ ذٲتی معلومات جمع کران: یُس تُہؠ پٔرِو، سُہ تھٲوِو پانس نِش۔</translation>
+    </message>
+    <message>
+        <source>Submission</source>
+        <translation>جمع کرُن</translation>
+    </message>
+    <message>
+        <source>Latest submissions</source>
+        <translation>تازٕ جمع کرنہٕ آمٕتۍ</translation>
+    </message>
+    <message>
+        <source>Visitor</source>
+        <translation>مہمان</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>فارم</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>اِنباکس</translation>
     </message>

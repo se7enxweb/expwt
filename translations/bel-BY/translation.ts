@@ -1000,6 +1000,50 @@
         <translation>Альт-тэкст</translation>
     </message>
     <message>
+        <source>This submission is not there, or you may not read it.</source>
+        <translation>Гэтага адпраўлення няма, або вам нельга яго чытаць.</translation>
+    </message>
+    <message>
+        <source>This page has no form.</source>
+        <translation>На гэтай старонцы няма формы.</translation>
+    </message>
+    <message>
+        <source>The submissions are only shown to those who may read collected information in the administration.</source>
+        <translation>Адпраўленні паказваюцца толькі тым, хто можа чытаць сабраную інфармацыю ў адміністраванні.</translation>
+    </message>
+    <message>
+        <source>%n submissions</source>
+        <translation>Адпраўленняў: %n</translation>
+    </message>
+    <message>
+        <source>Export CSV</source>
+        <translation>Экспартаваць CSV</translation>
+    </message>
+    <message>
+        <source>In the administration</source>
+        <translation>У адміністраванні</translation>
+    </message>
+    <message>
+        <source>This form collects personal data: keep what you read to yourself.</source>
+        <translation>Гэтая форма збірае асабістыя даныя: трымайце прачытанае пры сабе.</translation>
+    </message>
+    <message>
+        <source>Submission</source>
+        <translation>Адпраўленне</translation>
+    </message>
+    <message>
+        <source>Latest submissions</source>
+        <translation>Апошнія адпраўленні</translation>
+    </message>
+    <message>
+        <source>Visitor</source>
+        <translation>Наведвальнік</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>Формы</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Уваходныя</translation>
     </message>

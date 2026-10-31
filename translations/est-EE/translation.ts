@@ -1000,6 +1000,50 @@
         <translation>Alt-tekst</translation>
     </message>
     <message>
+        <source>This submission is not there, or you may not read it.</source>
+        <translation>Seda saadetist pole või teil pole lubatud seda lugeda.</translation>
+    </message>
+    <message>
+        <source>This page has no form.</source>
+        <translation>Sellel lehel pole vormi.</translation>
+    </message>
+    <message>
+        <source>The submissions are only shown to those who may read collected information in the administration.</source>
+        <translation>Saadetisi näidatakse ainult neile, kes tohivad halduses kogutud teavet lugeda.</translation>
+    </message>
+    <message>
+        <source>%n submissions</source>
+        <translation>%n saadetist</translation>
+    </message>
+    <message>
+        <source>Export CSV</source>
+        <translation>Ekspordi CSV</translation>
+    </message>
+    <message>
+        <source>In the administration</source>
+        <translation>Halduses</translation>
+    </message>
+    <message>
+        <source>This form collects personal data: keep what you read to yourself.</source>
+        <translation>See vorm kogub isikuandmeid: hoidke loetu enda teada.</translation>
+    </message>
+    <message>
+        <source>Submission</source>
+        <translation>Saadetis</translation>
+    </message>
+    <message>
+        <source>Latest submissions</source>
+        <translation>Viimased saadetised</translation>
+    </message>
+    <message>
+        <source>Visitor</source>
+        <translation>Külastaja</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>Vormid</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Postkast</translation>
     </message>

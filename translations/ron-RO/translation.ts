@@ -1000,6 +1000,50 @@
         <translation>Text alternativ</translation>
     </message>
     <message>
+        <source>This submission is not there, or you may not read it.</source>
+        <translation>Această trimitere nu există sau nu aveți voie să o citiți.</translation>
+    </message>
+    <message>
+        <source>This page has no form.</source>
+        <translation>Această pagină nu are niciun formular.</translation>
+    </message>
+    <message>
+        <source>The submissions are only shown to those who may read collected information in the administration.</source>
+        <translation>Trimiterile sunt afișate doar celor care pot citi informațiile colectate în administrare.</translation>
+    </message>
+    <message>
+        <source>%n submissions</source>
+        <translation>%n trimiteri</translation>
+    </message>
+    <message>
+        <source>Export CSV</source>
+        <translation>Exportă CSV</translation>
+    </message>
+    <message>
+        <source>In the administration</source>
+        <translation>În administrare</translation>
+    </message>
+    <message>
+        <source>This form collects personal data: keep what you read to yourself.</source>
+        <translation>Acest formular colectează date personale: păstrați pentru dumneavoastră ce citiți.</translation>
+    </message>
+    <message>
+        <source>Submission</source>
+        <translation>Trimitere</translation>
+    </message>
+    <message>
+        <source>Latest submissions</source>
+        <translation>Ultimele trimiteri</translation>
+    </message>
+    <message>
+        <source>Visitor</source>
+        <translation>Vizitator</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>Formulare</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Mesaje primite</translation>
     </message>

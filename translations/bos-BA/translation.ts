@@ -1000,6 +1000,50 @@
         <translation>Alternativni tekst</translation>
     </message>
     <message>
+        <source>This submission is not there, or you may not read it.</source>
+        <translation>Ovaj unos ne postoji ili ga ne smijete čitati.</translation>
+    </message>
+    <message>
+        <source>This page has no form.</source>
+        <translation>Ova stranica nema obrazac.</translation>
+    </message>
+    <message>
+        <source>The submissions are only shown to those who may read collected information in the administration.</source>
+        <translation>Unosi se prikazuju samo onima koji smiju čitati prikupljene informacije u administraciji.</translation>
+    </message>
+    <message>
+        <source>%n submissions</source>
+        <translation>Unosa: %n</translation>
+    </message>
+    <message>
+        <source>Export CSV</source>
+        <translation>Izvezi CSV</translation>
+    </message>
+    <message>
+        <source>In the administration</source>
+        <translation>U administraciji</translation>
+    </message>
+    <message>
+        <source>This form collects personal data: keep what you read to yourself.</source>
+        <translation>Ovaj obrazac prikuplja lične podatke: ono što pročitate zadržite za sebe.</translation>
+    </message>
+    <message>
+        <source>Submission</source>
+        <translation>Unos</translation>
+    </message>
+    <message>
+        <source>Latest submissions</source>
+        <translation>Najnoviji unosi</translation>
+    </message>
+    <message>
+        <source>Visitor</source>
+        <translation>Posjetilac</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>Obrasci</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Prijemno sanduče</translation>
     </message>

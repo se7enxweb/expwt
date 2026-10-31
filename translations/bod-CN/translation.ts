@@ -1000,6 +1000,50 @@
         <translation>ཚབ་ཡིག</translation>
     </message>
     <message>
+        <source>This submission is not there, or you may not read it.</source>
+        <translation>ཕུལ་ཡིག་འདི་མེད། ཡང་ན་ཁྱེད་ཀྱིས་ཀློག་མི་ཆོག</translation>
+    </message>
+    <message>
+        <source>This page has no form.</source>
+        <translation>ཤོག་ངོས་འདིར་རེའུ་མིག་མེད།</translation>
+    </message>
+    <message>
+        <source>The submissions are only shown to those who may read collected information in the administration.</source>
+        <translation>ཕུལ་ཡིག་རྣམས་དོ་དམ་ནང་བསྡུས་པའི་ཆ་འཕྲིན་ཀློག་ཆོག་མཁན་ཁོ་ནར་སྟོན།</translation>
+    </message>
+    <message>
+        <source>%n submissions</source>
+        <translation>ཕུལ་ཡིག་ %n</translation>
+    </message>
+    <message>
+        <source>Export CSV</source>
+        <translation>CSV ཕྱིར་འདོན།</translation>
+    </message>
+    <message>
+        <source>In the administration</source>
+        <translation>དོ་དམ་ནང་།</translation>
+    </message>
+    <message>
+        <source>This form collects personal data: keep what you read to yourself.</source>
+        <translation>རེའུ་མིག་འདིས་སྒེར་གྱི་གཞི་གྲངས་བསྡུ། ཁྱེད་ཀྱིས་ཀློག་པ་དེ་རང་ཉིད་ལ་ཉར།</translation>
+    </message>
+    <message>
+        <source>Submission</source>
+        <translation>ཕུལ་ཡིག</translation>
+    </message>
+    <message>
+        <source>Latest submissions</source>
+        <translation>ཕུལ་ཡིག་གསར་ཤོས།</translation>
+    </message>
+    <message>
+        <source>Visitor</source>
+        <translation>ལྟ་མཁན།</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>རེའུ་མིག</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>ནང་འབྱོར།</translation>
     </message>

@@ -1000,6 +1000,50 @@
         <translation>Textus alternus</translation>
     </message>
     <message>
+        <source>This submission is not there, or you may not read it.</source>
+        <translation>Haec missio non exstat, aut eam legere tibi non licet.</translation>
+    </message>
+    <message>
+        <source>This page has no form.</source>
+        <translation>Haec pagina formulam non habet.</translation>
+    </message>
+    <message>
+        <source>The submissions are only shown to those who may read collected information in the administration.</source>
+        <translation>Missiones iis tantum ostenduntur quibus licet notitias collectas in administratione legere.</translation>
+    </message>
+    <message>
+        <source>%n submissions</source>
+        <translation>%n missiones</translation>
+    </message>
+    <message>
+        <source>Export CSV</source>
+        <translation>CSV exporta</translation>
+    </message>
+    <message>
+        <source>In the administration</source>
+        <translation>In administratione</translation>
+    </message>
+    <message>
+        <source>This form collects personal data: keep what you read to yourself.</source>
+        <translation>Haec formula data personalia colligit: quae legis tibi serva.</translation>
+    </message>
+    <message>
+        <source>Submission</source>
+        <translation>Missio</translation>
+    </message>
+    <message>
+        <source>Latest submissions</source>
+        <translation>Missiones novissimae</translation>
+    </message>
+    <message>
+        <source>Visitor</source>
+        <translation>Visitator</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>Formulae</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Arca accepta</translation>
     </message>

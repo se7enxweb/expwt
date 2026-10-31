@@ -1000,6 +1000,50 @@
         <translation>ܟܬܒܐ ܚܠܘܦܐ</translation>
     </message>
     <message>
+        <source>This submission is not there, or you may not read it.</source>
+        <translation>ܫܕܪܬܐ ܗܕܐ ܠܝܬܝܗ̇، ܐܘ ܠܐ ܫܠܝܛ ܠܟ ܠܡܩܪܐ ܠܗ̇.</translation>
+    </message>
+    <message>
+        <source>This page has no form.</source>
+        <translation>ܒܦܐܬܐ ܗܕܐ ܠܝܬ ܛܘܦܣܐ.</translation>
+    </message>
+    <message>
+        <source>The submissions are only shown to those who may read collected information in the administration.</source>
+        <translation>ܫܕܪ̈ܬܐ ܡܬܚܙܝ̈ܢ ܒܠܚܘܕ ܠܐܝܠܝܢ ܕܫܠܝܛ ܠܗܘܢ ܠܡܩܪܐ ܝܕܥܬܐ ܕܐܬܟܢܫܬ ܒܡܕܒܪܢܘܬܐ.</translation>
+    </message>
+    <message>
+        <source>%n submissions</source>
+        <translation>%n ܫܕܪ̈ܬܐ</translation>
+    </message>
+    <message>
+        <source>Export CSV</source>
+        <translation>ܐܦܩ CSV</translation>
+    </message>
+    <message>
+        <source>In the administration</source>
+        <translation>ܒܡܕܒܪܢܘܬܐ</translation>
+    </message>
+    <message>
+        <source>This form collects personal data: keep what you read to yourself.</source>
+        <translation>ܛܘܦܣܐ ܗܢܐ ܟܢܫ ܝܕܥܬܐ ܕܦܪܨܘܦܐ: ܡܐ ܕܩܪܝܬ ܛܪ ܠܢܦܫܟ.</translation>
+    </message>
+    <message>
+        <source>Submission</source>
+        <translation>ܫܕܪܬܐ</translation>
+    </message>
+    <message>
+        <source>Latest submissions</source>
+        <translation>ܫܕܪ̈ܬܐ ܐܚܪ̈ܝܬܐ</translation>
+    </message>
+    <message>
+        <source>Visitor</source>
+        <translation>ܐܟܣܢܝܐ</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>ܛܘܦ̈ܣܐ</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>ܐܓܪ̈ܬܐ ܕܥܐܠ̈ܢ</translation>
     </message>

@@ -1000,6 +1000,50 @@
         <translation>Alt-téacs</translation>
     </message>
     <message>
+        <source>This submission is not there, or you may not read it.</source>
+        <translation>Níl an aighneacht seo ann, nó níl cead agat í a léamh.</translation>
+    </message>
+    <message>
+        <source>This page has no form.</source>
+        <translation>Níl foirm ar an leathanach seo.</translation>
+    </message>
+    <message>
+        <source>The submissions are only shown to those who may read collected information in the administration.</source>
+        <translation>Ní thaispeántar na haighneachtaí ach dóibh siúd ar féidir leo faisnéis bhailithe a léamh sa riarachán.</translation>
+    </message>
+    <message>
+        <source>%n submissions</source>
+        <translation>%n aighneacht</translation>
+    </message>
+    <message>
+        <source>Export CSV</source>
+        <translation>Easpórtáil CSV</translation>
+    </message>
+    <message>
+        <source>In the administration</source>
+        <translation>Sa riarachán</translation>
+    </message>
+    <message>
+        <source>This form collects personal data: keep what you read to yourself.</source>
+        <translation>Bailíonn an fhoirm seo sonraí pearsanta: coinnigh agat féin a léann tú.</translation>
+    </message>
+    <message>
+        <source>Submission</source>
+        <translation>Aighneacht</translation>
+    </message>
+    <message>
+        <source>Latest submissions</source>
+        <translation>Na haighneachtaí is déanaí</translation>
+    </message>
+    <message>
+        <source>Visitor</source>
+        <translation>Cuairteoir</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>Foirmeacha</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Bosca isteach</translation>
     </message>

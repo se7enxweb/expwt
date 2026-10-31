@@ -1000,6 +1000,50 @@
         <translation>Teks alt</translation>
     </message>
     <message>
+        <source>This submission is not there, or you may not read it.</source>
+        <translation>Kiriman ini tidak ada, atau Anda tidak diizinkan membacanya.</translation>
+    </message>
+    <message>
+        <source>This page has no form.</source>
+        <translation>Halaman ini tidak memiliki formulir.</translation>
+    </message>
+    <message>
+        <source>The submissions are only shown to those who may read collected information in the administration.</source>
+        <translation>Kiriman hanya ditampilkan kepada mereka yang boleh membaca informasi yang dikumpulkan di administrasi.</translation>
+    </message>
+    <message>
+        <source>%n submissions</source>
+        <translation>%n kiriman</translation>
+    </message>
+    <message>
+        <source>Export CSV</source>
+        <translation>Ekspor CSV</translation>
+    </message>
+    <message>
+        <source>In the administration</source>
+        <translation>Di administrasi</translation>
+    </message>
+    <message>
+        <source>This form collects personal data: keep what you read to yourself.</source>
+        <translation>Formulir ini mengumpulkan data pribadi: simpan apa yang Anda baca untuk diri sendiri.</translation>
+    </message>
+    <message>
+        <source>Submission</source>
+        <translation>Kiriman</translation>
+    </message>
+    <message>
+        <source>Latest submissions</source>
+        <translation>Kiriman terbaru</translation>
+    </message>
+    <message>
+        <source>Visitor</source>
+        <translation>Pengunjung</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>Formulir</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Kotak masuk</translation>
     </message>

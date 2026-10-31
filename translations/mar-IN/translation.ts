@@ -1000,6 +1000,50 @@
         <translation>पर्यायी मजकूर</translation>
     </message>
     <message>
+        <source>This submission is not there, or you may not read it.</source>
+        <translation>हे सबमिशन अस्तित्वात नाही, किंवा तुम्हाला ते वाचण्याची परवानगी नाही.</translation>
+    </message>
+    <message>
+        <source>This page has no form.</source>
+        <translation>या पृष्ठावर कोणताही फॉर्म नाही.</translation>
+    </message>
+    <message>
+        <source>The submissions are only shown to those who may read collected information in the administration.</source>
+        <translation>सबमिशन फक्त त्यांनाच दाखवली जातात जे प्रशासनात गोळा केलेली माहिती वाचू शकतात.</translation>
+    </message>
+    <message>
+        <source>%n submissions</source>
+        <translation>%n सबमिशन</translation>
+    </message>
+    <message>
+        <source>Export CSV</source>
+        <translation>CSV निर्यात करा</translation>
+    </message>
+    <message>
+        <source>In the administration</source>
+        <translation>प्रशासनात</translation>
+    </message>
+    <message>
+        <source>This form collects personal data: keep what you read to yourself.</source>
+        <translation>हा फॉर्म वैयक्तिक माहिती गोळा करतो: जे वाचाल ते स्वतःपुरते ठेवा.</translation>
+    </message>
+    <message>
+        <source>Submission</source>
+        <translation>सबमिशन</translation>
+    </message>
+    <message>
+        <source>Latest submissions</source>
+        <translation>नवीनतम सबमिशन</translation>
+    </message>
+    <message>
+        <source>Visitor</source>
+        <translation>अभ्यागत</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>फॉर्म</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>इनबॉक्स</translation>
     </message>

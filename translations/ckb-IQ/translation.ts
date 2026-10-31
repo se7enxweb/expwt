@@ -1000,6 +1000,50 @@
         <translation>دەقی جێگرەوە</translation>
     </message>
     <message>
+        <source>This submission is not there, or you may not read it.</source>
+        <translation>ئەم ناردنە نییە، یان ڕێگەت پێ نادرێت بیخوێنیتەوە.</translation>
+    </message>
+    <message>
+        <source>This page has no form.</source>
+        <translation>ئەم پەڕەیە هیچ فۆرمێکی نییە.</translation>
+    </message>
+    <message>
+        <source>The submissions are only shown to those who may read collected information in the administration.</source>
+        <translation>ناردنەکان تەنها بەوانە پیشان دەدرێن کە دەتوانن زانیاریی کۆکراوە لە بەڕێوەبردندا بخوێننەوە.</translation>
+    </message>
+    <message>
+        <source>%n submissions</source>
+        <translation>%n ناردن</translation>
+    </message>
+    <message>
+        <source>Export CSV</source>
+        <translation>هەناردەکردنی CSV</translation>
+    </message>
+    <message>
+        <source>In the administration</source>
+        <translation>لە بەڕێوەبردندا</translation>
+    </message>
+    <message>
+        <source>This form collects personal data: keep what you read to yourself.</source>
+        <translation>ئەم فۆرمە داتای کەسی کۆدەکاتەوە: ئەوەی دەیخوێنیتەوە لای خۆت بیهێڵەوە.</translation>
+    </message>
+    <message>
+        <source>Submission</source>
+        <translation>ناردن</translation>
+    </message>
+    <message>
+        <source>Latest submissions</source>
+        <translation>دوایین ناردنەکان</translation>
+    </message>
+    <message>
+        <source>Visitor</source>
+        <translation>سەردانکەر</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>فۆرمەکان</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>هاتووەکان</translation>
     </message>

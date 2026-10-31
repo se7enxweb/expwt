@@ -1000,6 +1000,50 @@
         <translation>Mbind mu wuutu</translation>
     </message>
     <message>
+        <source>This submission is not there, or you may not read it.</source>
+        <translation>Yónnent bii amul, walla amuloo sañ-sañ jàng ko.</translation>
+    </message>
+    <message>
+        <source>This page has no form.</source>
+        <translation>Xët wii amul benn formileer.</translation>
+    </message>
+    <message>
+        <source>The submissions are only shown to those who may read collected information in the administration.</source>
+        <translation>Yónnent yi dañu leen di won rekk ñi mën a jàng xibaar yi ñu dajale ci njiite li.</translation>
+    </message>
+    <message>
+        <source>%n submissions</source>
+        <translation>%n yónnent</translation>
+    </message>
+    <message>
+        <source>Export CSV</source>
+        <translation>Génne CSV</translation>
+    </message>
+    <message>
+        <source>In the administration</source>
+        <translation>Ci njiite li</translation>
+    </message>
+    <message>
+        <source>This form collects personal data: keep what you read to yourself.</source>
+        <translation>Formileer bii dafay dajale xibaar yu ñeel nit: li ngay jàng, denc ko ci sa bopp.</translation>
+    </message>
+    <message>
+        <source>Submission</source>
+        <translation>Yónnent</translation>
+    </message>
+    <message>
+        <source>Latest submissions</source>
+        <translation>Yónnent yu mujj yi</translation>
+    </message>
+    <message>
+        <source>Visitor</source>
+        <translation>Ganaa</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>Formileer yi</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Bataaxal yu dikk</translation>
     </message>

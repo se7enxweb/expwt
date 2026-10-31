@@ -1000,6 +1000,50 @@
         <translation>Qoraal beddel ah</translation>
     </message>
     <message>
+        <source>This submission is not there, or you may not read it.</source>
+        <translation>Gudbintan ma jirto, ama laguma oggola inaad akhrido.</translation>
+    </message>
+    <message>
+        <source>This page has no form.</source>
+        <translation>Boggan ma laha foom.</translation>
+    </message>
+    <message>
+        <source>The submissions are only shown to those who may read collected information in the administration.</source>
+        <translation>Gudbinnada waxaa la tusaa oo keliya kuwa akhrin kara macluumaadka lagu ururiyay maamulka.</translation>
+    </message>
+    <message>
+        <source>%n submissions</source>
+        <translation>%n gudbin</translation>
+    </message>
+    <message>
+        <source>Export CSV</source>
+        <translation>Dhoofi CSV</translation>
+    </message>
+    <message>
+        <source>In the administration</source>
+        <translation>Maamulka</translation>
+    </message>
+    <message>
+        <source>This form collects personal data: keep what you read to yourself.</source>
+        <translation>Foomkani wuxuu ururiyaa xog shakhsi ah: waxaad akhrido naftaada u hay.</translation>
+    </message>
+    <message>
+        <source>Submission</source>
+        <translation>Gudbin</translation>
+    </message>
+    <message>
+        <source>Latest submissions</source>
+        <translation>Gudbinnadii ugu dambeeyay</translation>
+    </message>
+    <message>
+        <source>Visitor</source>
+        <translation>Booqde</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>Foomam</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Sanduuqa fariimaha</translation>
     </message>

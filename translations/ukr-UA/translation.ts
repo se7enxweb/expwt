@@ -1000,6 +1000,50 @@
         <translation>Альтернативний текст</translation>
     </message>
     <message>
+        <source>This submission is not there, or you may not read it.</source>
+        <translation>Цієї заявки немає, або вам не дозволено її читати.</translation>
+    </message>
+    <message>
+        <source>This page has no form.</source>
+        <translation>На цій сторінці немає форми.</translation>
+    </message>
+    <message>
+        <source>The submissions are only shown to those who may read collected information in the administration.</source>
+        <translation>Заявки показуються лише тим, хто може читати зібрану інформацію в адмініструванні.</translation>
+    </message>
+    <message>
+        <source>%n submissions</source>
+        <translation>Заявок: %n</translation>
+    </message>
+    <message>
+        <source>Export CSV</source>
+        <translation>Експортувати CSV</translation>
+    </message>
+    <message>
+        <source>In the administration</source>
+        <translation>В адмініструванні</translation>
+    </message>
+    <message>
+        <source>This form collects personal data: keep what you read to yourself.</source>
+        <translation>Ця форма збирає персональні дані: тримайте прочитане при собі.</translation>
+    </message>
+    <message>
+        <source>Submission</source>
+        <translation>Заявка</translation>
+    </message>
+    <message>
+        <source>Latest submissions</source>
+        <translation>Останні заявки</translation>
+    </message>
+    <message>
+        <source>Visitor</source>
+        <translation>Відвідувач</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>Форми</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Вхідні</translation>
     </message>

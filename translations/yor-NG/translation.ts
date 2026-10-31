@@ -1000,6 +1000,50 @@
         <translation>Ọ̀rọ̀ àfirọ́pò</translation>
     </message>
     <message>
+        <source>This submission is not there, or you may not read it.</source>
+        <translation>Ìfiránṣẹ́ yìí kò sí, tàbí a kò gbà ọ́ láàyè láti kà á.</translation>
+    </message>
+    <message>
+        <source>This page has no form.</source>
+        <translation>Ojú-ìwé yìí kò ní fọ́ọ̀mù.</translation>
+    </message>
+    <message>
+        <source>The submissions are only shown to those who may read collected information in the administration.</source>
+        <translation>Àwọn ìfiránṣẹ́ ni a ń fihàn kìkì àwọn tí ó lè ka ìwífún tí a kó jọ nínú ìṣàkóso.</translation>
+    </message>
+    <message>
+        <source>%n submissions</source>
+        <translation>Ìfiránṣẹ́ %n</translation>
+    </message>
+    <message>
+        <source>Export CSV</source>
+        <translation>Kó CSV jáde</translation>
+    </message>
+    <message>
+        <source>In the administration</source>
+        <translation>Nínú ìṣàkóso</translation>
+    </message>
+    <message>
+        <source>This form collects personal data: keep what you read to yourself.</source>
+        <translation>Fọ́ọ̀mù yìí ń kó dátà ti ara ẹni jọ: pa ohun tí o kà mọ́ fún ara rẹ.</translation>
+    </message>
+    <message>
+        <source>Submission</source>
+        <translation>Ìfiránṣẹ́</translation>
+    </message>
+    <message>
+        <source>Latest submissions</source>
+        <translation>Àwọn ìfiránṣẹ́ tuntun</translation>
+    </message>
+    <message>
+        <source>Visitor</source>
+        <translation>Àlejò</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>Àwọn fọ́ọ̀mù</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Àpótí ìwọlé</translation>
     </message>

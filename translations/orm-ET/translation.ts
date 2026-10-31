@@ -1000,6 +1000,50 @@
         <translation>Barreeffama bakka bu'aa</translation>
     </message>
     <message>
+        <source>This submission is not there, or you may not read it.</source>
+        <translation>Galchi kun hin jiru, ykn dubbisuuf hin hayyamamne.</translation>
+    </message>
+    <message>
+        <source>This page has no form.</source>
+        <translation>Fuulli kun unka hin qabu.</translation>
+    </message>
+    <message>
+        <source>The submissions are only shown to those who may read collected information in the administration.</source>
+        <translation>Galchiiwwan warra odeeffannoo bulchiinsa keessatti walitti qabame dubbisuu danda'aniif qofa agarsiifamu.</translation>
+    </message>
+    <message>
+        <source>%n submissions</source>
+        <translation>Galchiiwwan %n</translation>
+    </message>
+    <message>
+        <source>Export CSV</source>
+        <translation>CSV ergi</translation>
+    </message>
+    <message>
+        <source>In the administration</source>
+        <translation>Bulchiinsa keessatti</translation>
+    </message>
+    <message>
+        <source>This form collects personal data: keep what you read to yourself.</source>
+        <translation>Unkaan kun odeeffannoo dhuunfaa walitti qaba: waan dubbistu ofitti qabadhu.</translation>
+    </message>
+    <message>
+        <source>Submission</source>
+        <translation>Galchii</translation>
+    </message>
+    <message>
+        <source>Latest submissions</source>
+        <translation>Galchiiwwan haaraa</translation>
+    </message>
+    <message>
+        <source>Visitor</source>
+        <translation>Daawwataa</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>Unkaalee</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Saanduqa galtee</translation>
     </message>

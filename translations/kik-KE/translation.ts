@@ -1000,6 +1000,50 @@
         <translation>Mandĩko ma alt</translation>
     </message>
     <message>
+        <source>This submission is not there, or you may not read it.</source>
+        <translation>Ũndũ ũyũ watũmĩtwo ndũrĩ kuo, kana ndũrĩ na rũtha rwa kũũthoma.</translation>
+    </message>
+    <message>
+        <source>This page has no form.</source>
+        <translation>Ũrũa rũrũ rũtirĩ na fomu.</translation>
+    </message>
+    <message>
+        <source>The submissions are only shown to those who may read collected information in the administration.</source>
+        <translation>Maũndũ marĩa matũmĩtwo monanagio o arĩa marĩ na rũtha rwa gũthoma ũhoro ũrĩa ũcookanĩrĩirio ũrũgamĩrĩri-inĩ.</translation>
+    </message>
+    <message>
+        <source>%n submissions</source>
+        <translation>Maũndũ %n matũmĩtwo</translation>
+    </message>
+    <message>
+        <source>Export CSV</source>
+        <translation>Ruta CSV</translation>
+    </message>
+    <message>
+        <source>In the administration</source>
+        <translation>Ũrũgamĩrĩri-inĩ</translation>
+    </message>
+    <message>
+        <source>This form collects personal data: keep what you read to yourself.</source>
+        <translation>Fomu ĩno ĩcookanagĩrĩria ũhoro wa mũndũ kĩũmbe: ũrĩa ũrathoma ũiga harĩ we mwene.</translation>
+    </message>
+    <message>
+        <source>Submission</source>
+        <translation>Ũndũ watũmĩtwo</translation>
+    </message>
+    <message>
+        <source>Latest submissions</source>
+        <translation>Maũndũ ma rĩu matũmĩtwo</translation>
+    </message>
+    <message>
+        <source>Visitor</source>
+        <translation>Mũgeni</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>Fomu</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Ithandũkũ rĩa marũa</translation>
     </message>

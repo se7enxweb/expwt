@@ -1000,6 +1000,50 @@
         <translation>Alt-teaksta</translation>
     </message>
     <message>
+        <source>This submission is not there, or you may not read it.</source>
+        <translation>Dát sáddehus ii gávdno, dahje don it oaččo lohkat dan.</translation>
+    </message>
+    <message>
+        <source>This page has no form.</source>
+        <translation>Dán siiddus ii leat skovvi.</translation>
+    </message>
+    <message>
+        <source>The submissions are only shown to those who may read collected information in the administration.</source>
+        <translation>Sáddehusat čájehuvvojit dušše sidjiide geat ožžot lohkat hálddahusas čohkkejuvvon dieđuid.</translation>
+    </message>
+    <message>
+        <source>%n submissions</source>
+        <translation>%n sáddehusa</translation>
+    </message>
+    <message>
+        <source>Export CSV</source>
+        <translation>Fievrrit CSV olggos</translation>
+    </message>
+    <message>
+        <source>In the administration</source>
+        <translation>Hálddahusas</translation>
+    </message>
+    <message>
+        <source>This form collects personal data: keep what you read to yourself.</source>
+        <translation>Dát skovvi čohkke persovnnalaš dieđuid: doala alccesat dan maid logat.</translation>
+    </message>
+    <message>
+        <source>Submission</source>
+        <translation>Sáddehus</translation>
+    </message>
+    <message>
+        <source>Latest submissions</source>
+        <translation>Maŋimuš sáddehusat</translation>
+    </message>
+    <message>
+        <source>Visitor</source>
+        <translation>Guossi</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>Skovit</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Sisaboarta</translation>
     </message>

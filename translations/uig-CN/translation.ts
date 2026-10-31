@@ -1000,6 +1000,50 @@
         <translation>ئورۇنباسار تېكىست</translation>
     </message>
     <message>
+        <source>This submission is not there, or you may not read it.</source>
+        <translation>بۇ يوللانما مەۋجۇت ئەمەس ياكى ئوقۇش ھوقۇقىڭىز يوق.</translation>
+    </message>
+    <message>
+        <source>This page has no form.</source>
+        <translation>بۇ بەتتە جەدۋەل يوق.</translation>
+    </message>
+    <message>
+        <source>The submissions are only shown to those who may read collected information in the administration.</source>
+        <translation>يوللانمىلار پەقەت باشقۇرۇشتا توپلانغان ئۇچۇرلارنى ئوقۇيالايدىغانلارغىلا كۆرسىتىلىدۇ.</translation>
+    </message>
+    <message>
+        <source>%n submissions</source>
+        <translation>%n يوللانما</translation>
+    </message>
+    <message>
+        <source>Export CSV</source>
+        <translation>CSV چىقىرىش</translation>
+    </message>
+    <message>
+        <source>In the administration</source>
+        <translation>باشقۇرۇشتا</translation>
+    </message>
+    <message>
+        <source>This form collects personal data: keep what you read to yourself.</source>
+        <translation>بۇ جەدۋەل شەخسىي سانلىق مەلۇمات توپلايدۇ: ئوقۇغانلىرىڭىزنى ئۆزىڭىزدە ساقلاڭ.</translation>
+    </message>
+    <message>
+        <source>Submission</source>
+        <translation>يوللانما</translation>
+    </message>
+    <message>
+        <source>Latest submissions</source>
+        <translation>ئەڭ يېڭى يوللانمىلار</translation>
+    </message>
+    <message>
+        <source>Visitor</source>
+        <translation>زىيارەتچى</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>جەدۋەللەر</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>كىرگەنلەر</translation>
     </message>

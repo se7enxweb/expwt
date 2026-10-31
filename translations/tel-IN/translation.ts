@@ -1000,6 +1000,50 @@
         <translation>ప్రత్యామ్నాయ వచనం</translation>
     </message>
     <message>
+        <source>This submission is not there, or you may not read it.</source>
+        <translation>ఈ సమర్పణ లేదు, లేదా దాన్ని చదవడానికి మీకు అనుమతి లేదు.</translation>
+    </message>
+    <message>
+        <source>This page has no form.</source>
+        <translation>ఈ పేజీలో ఫారం లేదు.</translation>
+    </message>
+    <message>
+        <source>The submissions are only shown to those who may read collected information in the administration.</source>
+        <translation>నిర్వహణలో సేకరించిన సమాచారాన్ని చదవగలిగే వారికి మాత్రమే సమర్పణలు చూపబడతాయి.</translation>
+    </message>
+    <message>
+        <source>%n submissions</source>
+        <translation>%n సమర్పణలు</translation>
+    </message>
+    <message>
+        <source>Export CSV</source>
+        <translation>CSV ఎగుమతి చేయండి</translation>
+    </message>
+    <message>
+        <source>In the administration</source>
+        <translation>నిర్వహణలో</translation>
+    </message>
+    <message>
+        <source>This form collects personal data: keep what you read to yourself.</source>
+        <translation>ఈ ఫారం వ్యక్తిగత డేటాను సేకరిస్తుంది: మీరు చదివినది మీ వద్దే ఉంచుకోండి.</translation>
+    </message>
+    <message>
+        <source>Submission</source>
+        <translation>సమర్పణ</translation>
+    </message>
+    <message>
+        <source>Latest submissions</source>
+        <translation>తాజా సమర్పణలు</translation>
+    </message>
+    <message>
+        <source>Visitor</source>
+        <translation>సందర్శకుడు</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>ఫారాలు</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>ఇన్‌బాక్స్</translation>
     </message>

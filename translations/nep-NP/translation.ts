@@ -1000,6 +1000,50 @@
         <translation>वैकल्पिक पाठ</translation>
     </message>
     <message>
+        <source>This submission is not there, or you may not read it.</source>
+        <translation>यो प्रविष्टि छैन, वा तपाईंलाई यसलाई पढ्ने अनुमति छैन।</translation>
+    </message>
+    <message>
+        <source>This page has no form.</source>
+        <translation>यस पृष्ठमा कुनै फारम छैन।</translation>
+    </message>
+    <message>
+        <source>The submissions are only shown to those who may read collected information in the administration.</source>
+        <translation>प्रविष्टिहरू प्रशासनमा सङ्कलन गरिएको जानकारी पढ्न सक्नेहरूलाई मात्र देखाइन्छ।</translation>
+    </message>
+    <message>
+        <source>%n submissions</source>
+        <translation>%n प्रविष्टि</translation>
+    </message>
+    <message>
+        <source>Export CSV</source>
+        <translation>CSV निर्यात गर्नुहोस्</translation>
+    </message>
+    <message>
+        <source>In the administration</source>
+        <translation>प्रशासनमा</translation>
+    </message>
+    <message>
+        <source>This form collects personal data: keep what you read to yourself.</source>
+        <translation>यो फारमले व्यक्तिगत डेटा सङ्कलन गर्छ: तपाईंले पढेको कुरा आफूसम्मै राख्नुहोस्।</translation>
+    </message>
+    <message>
+        <source>Submission</source>
+        <translation>प्रविष्टि</translation>
+    </message>
+    <message>
+        <source>Latest submissions</source>
+        <translation>पछिल्ला प्रविष्टिहरू</translation>
+    </message>
+    <message>
+        <source>Visitor</source>
+        <translation>आगन्तुक</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>फारमहरू</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>इनबक्स</translation>
     </message>

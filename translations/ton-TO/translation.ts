@@ -1000,6 +1000,50 @@
         <translation>Tohi fetongi</translation>
     </message>
     <message>
+        <source>This submission is not there, or you may not read it.</source>
+        <translation>ʻOku ʻikai ʻi ai ʻa e tohi tuku ni, pe ʻoku ʻikai ke ke ngofua ke lau ia.</translation>
+    </message>
+    <message>
+        <source>This page has no form.</source>
+        <translation>ʻOku ʻikai ha foomu ʻi he peesi ko ʻeni.</translation>
+    </message>
+    <message>
+        <source>The submissions are only shown to those who may read collected information in the administration.</source>
+        <translation>ʻOku fakahā pē ʻa e ngaahi tohi tuku ki he kakai ʻoku ngofua ke lau ʻa e fakamatala kuo tānaki ʻi he puleʻanga.</translation>
+    </message>
+    <message>
+        <source>%n submissions</source>
+        <translation>Tohi tuku ʻe %n</translation>
+    </message>
+    <message>
+        <source>Export CSV</source>
+        <translation>Hū atu CSV</translation>
+    </message>
+    <message>
+        <source>In the administration</source>
+        <translation>ʻI he puleʻanga</translation>
+    </message>
+    <message>
+        <source>This form collects personal data: keep what you read to yourself.</source>
+        <translation>ʻOku tānaki ʻe he foomu ni ʻa e fakamatala fakafoʻituitui: tauhi kiate koe pē ʻa e meʻa ʻokú ke lau.</translation>
+    </message>
+    <message>
+        <source>Submission</source>
+        <translation>Tohi tuku</translation>
+    </message>
+    <message>
+        <source>Latest submissions</source>
+        <translation>Ngaahi tohi tuku fakamuimui</translation>
+    </message>
+    <message>
+        <source>Visitor</source>
+        <translation>Tokotaha ʻaʻahi</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>Ngaahi foomu</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Puha tohi hū mai</translation>
     </message>

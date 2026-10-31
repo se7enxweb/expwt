@@ -1000,6 +1000,50 @@
         <translation>Альтернативдүү текст</translation>
     </message>
     <message>
+        <source>This submission is not there, or you may not read it.</source>
+        <translation>Бул жөнөтүү жок, же аны окууга уруксатыңыз жок.</translation>
+    </message>
+    <message>
+        <source>This page has no form.</source>
+        <translation>Бул баракта форма жок.</translation>
+    </message>
+    <message>
+        <source>The submissions are only shown to those who may read collected information in the administration.</source>
+        <translation>Жөнөтүүлөр башкарууда чогултулган маалыматты окуй алгандарга гана көрсөтүлөт.</translation>
+    </message>
+    <message>
+        <source>%n submissions</source>
+        <translation>%n жөнөтүү</translation>
+    </message>
+    <message>
+        <source>Export CSV</source>
+        <translation>CSV экспорттоо</translation>
+    </message>
+    <message>
+        <source>In the administration</source>
+        <translation>Башкарууда</translation>
+    </message>
+    <message>
+        <source>This form collects personal data: keep what you read to yourself.</source>
+        <translation>Бул форма жеке маалыматтарды чогултат: окуганыңызды өзүңүздө сактаңыз.</translation>
+    </message>
+    <message>
+        <source>Submission</source>
+        <translation>Жөнөтүү</translation>
+    </message>
+    <message>
+        <source>Latest submissions</source>
+        <translation>Акыркы жөнөтүүлөр</translation>
+    </message>
+    <message>
+        <source>Visitor</source>
+        <translation>Келүүчү</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>Формалар</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Кирүүчүлөр</translation>
     </message>

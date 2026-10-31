@@ -1000,6 +1000,50 @@
         <translation>ข้อความแทน</translation>
     </message>
     <message>
+        <source>This submission is not there, or you may not read it.</source>
+        <translation>ไม่มีรายการส่งนี้ หรือคุณไม่มีสิทธิ์อ่าน</translation>
+    </message>
+    <message>
+        <source>This page has no form.</source>
+        <translation>หน้านี้ไม่มีแบบฟอร์ม</translation>
+    </message>
+    <message>
+        <source>The submissions are only shown to those who may read collected information in the administration.</source>
+        <translation>รายการส่งจะแสดงเฉพาะผู้ที่อ่านข้อมูลที่รวบรวมไว้ในส่วนผู้ดูแลได้เท่านั้น</translation>
+    </message>
+    <message>
+        <source>%n submissions</source>
+        <translation>%n รายการส่ง</translation>
+    </message>
+    <message>
+        <source>Export CSV</source>
+        <translation>ส่งออก CSV</translation>
+    </message>
+    <message>
+        <source>In the administration</source>
+        <translation>ในส่วนผู้ดูแล</translation>
+    </message>
+    <message>
+        <source>This form collects personal data: keep what you read to yourself.</source>
+        <translation>แบบฟอร์มนี้เก็บข้อมูลส่วนบุคคล: สิ่งที่คุณอ่านให้เก็บไว้กับตัวเอง</translation>
+    </message>
+    <message>
+        <source>Submission</source>
+        <translation>รายการส่ง</translation>
+    </message>
+    <message>
+        <source>Latest submissions</source>
+        <translation>รายการส่งล่าสุด</translation>
+    </message>
+    <message>
+        <source>Visitor</source>
+        <translation>ผู้เยี่ยมชม</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>แบบฟอร์ม</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>กล่องขาเข้า</translation>
     </message>

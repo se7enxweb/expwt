@@ -1000,6 +1000,50 @@
         <translation>대체 텍스트</translation>
     </message>
     <message>
+        <source>This submission is not there, or you may not read it.</source>
+        <translation>이 제출 내역이 없거나 읽을 권한이 없습니다.</translation>
+    </message>
+    <message>
+        <source>This page has no form.</source>
+        <translation>이 페이지에는 양식이 없습니다.</translation>
+    </message>
+    <message>
+        <source>The submissions are only shown to those who may read collected information in the administration.</source>
+        <translation>제출 내역은 관리 화면에서 수집된 정보를 읽을 수 있는 사람에게만 표시됩니다.</translation>
+    </message>
+    <message>
+        <source>%n submissions</source>
+        <translation>제출 %n건</translation>
+    </message>
+    <message>
+        <source>Export CSV</source>
+        <translation>CSV 내보내기</translation>
+    </message>
+    <message>
+        <source>In the administration</source>
+        <translation>관리 화면에서</translation>
+    </message>
+    <message>
+        <source>This form collects personal data: keep what you read to yourself.</source>
+        <translation>이 양식은 개인 정보를 수집합니다. 읽은 내용은 외부에 알리지 마세요.</translation>
+    </message>
+    <message>
+        <source>Submission</source>
+        <translation>제출 내역</translation>
+    </message>
+    <message>
+        <source>Latest submissions</source>
+        <translation>최근 제출</translation>
+    </message>
+    <message>
+        <source>Visitor</source>
+        <translation>방문자</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>양식</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>받은 편지함</translation>
     </message>

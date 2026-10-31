@@ -1000,6 +1000,50 @@
         <translation>Ederede ọzọ</translation>
     </message>
     <message>
+        <source>This submission is not there, or you may not read it.</source>
+        <translation>Ihe e zitere a adịghị, ma ọ bụ na ị gaghị agụ ya.</translation>
+    </message>
+    <message>
+        <source>This page has no form.</source>
+        <translation>Ibe a enweghị fọm.</translation>
+    </message>
+    <message>
+        <source>The submissions are only shown to those who may read collected information in the administration.</source>
+        <translation>A na-egosi ihe e zitere naanị ndị nwere ike ịgụ ozi a nakọtara na nchịkwa.</translation>
+    </message>
+    <message>
+        <source>%n submissions</source>
+        <translation>Ihe e zitere %n</translation>
+    </message>
+    <message>
+        <source>Export CSV</source>
+        <translation>Bupụ CSV</translation>
+    </message>
+    <message>
+        <source>In the administration</source>
+        <translation>Na nchịkwa</translation>
+    </message>
+    <message>
+        <source>This form collects personal data: keep what you read to yourself.</source>
+        <translation>Fọm a na-anakọta data nkeonwe: debe ihe ị gụrụ n'onwe gị.</translation>
+    </message>
+    <message>
+        <source>Submission</source>
+        <translation>Ihe e zitere</translation>
+    </message>
+    <message>
+        <source>Latest submissions</source>
+        <translation>Ihe e zitere kacha ọhụrụ</translation>
+    </message>
+    <message>
+        <source>Visitor</source>
+        <translation>Ọbịa</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>Fọm</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Igbe ozi</translation>
     </message>

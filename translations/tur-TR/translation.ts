@@ -1000,6 +1000,50 @@
         <translation>Alternatif metin</translation>
     </message>
     <message>
+        <source>This submission is not there, or you may not read it.</source>
+        <translation>Bu gönderim yok veya okuma izniniz yok.</translation>
+    </message>
+    <message>
+        <source>This page has no form.</source>
+        <translation>Bu sayfada form yok.</translation>
+    </message>
+    <message>
+        <source>The submissions are only shown to those who may read collected information in the administration.</source>
+        <translation>Gönderimler yalnızca yönetimde toplanan bilgileri okuyabilenlere gösterilir.</translation>
+    </message>
+    <message>
+        <source>%n submissions</source>
+        <translation>%n gönderim</translation>
+    </message>
+    <message>
+        <source>Export CSV</source>
+        <translation>CSV dışa aktar</translation>
+    </message>
+    <message>
+        <source>In the administration</source>
+        <translation>Yönetimde</translation>
+    </message>
+    <message>
+        <source>This form collects personal data: keep what you read to yourself.</source>
+        <translation>Bu form kişisel veri topluyor: okuduklarınızı kendinize saklayın.</translation>
+    </message>
+    <message>
+        <source>Submission</source>
+        <translation>Gönderim</translation>
+    </message>
+    <message>
+        <source>Latest submissions</source>
+        <translation>Son gönderimler</translation>
+    </message>
+    <message>
+        <source>Visitor</source>
+        <translation>Ziyaretçi</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>Formlar</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Gelen kutusu</translation>
     </message>

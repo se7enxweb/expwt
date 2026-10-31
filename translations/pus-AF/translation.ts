@@ -1000,6 +1000,50 @@
         <translation>بدیل متن</translation>
     </message>
     <message>
+        <source>This submission is not there, or you may not read it.</source>
+        <translation>دا سپارنه نشته، یا تاسو ته د لوستلو اجازه نشته.</translation>
+    </message>
+    <message>
+        <source>This page has no form.</source>
+        <translation>په دې پاڼه کې هېڅ فورمه نشته.</translation>
+    </message>
+    <message>
+        <source>The submissions are only shown to those who may read collected information in the administration.</source>
+        <translation>سپارنې یوازې هغو کسانو ته ښودل کېږي چې په ادارې کې راټول شوي معلومات لوستلی شي.</translation>
+    </message>
+    <message>
+        <source>%n submissions</source>
+        <translation>%n سپارنې</translation>
+    </message>
+    <message>
+        <source>Export CSV</source>
+        <translation>CSV صادرول</translation>
+    </message>
+    <message>
+        <source>In the administration</source>
+        <translation>په ادارې کې</translation>
+    </message>
+    <message>
+        <source>This form collects personal data: keep what you read to yourself.</source>
+        <translation>دا فورمه شخصي معلومات راټولوي: څه چې لولئ له ځانه سره یې وساتئ.</translation>
+    </message>
+    <message>
+        <source>Submission</source>
+        <translation>سپارنه</translation>
+    </message>
+    <message>
+        <source>Latest submissions</source>
+        <translation>وروستۍ سپارنې</translation>
+    </message>
+    <message>
+        <source>Visitor</source>
+        <translation>لیدونکی</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>فورمې</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>راغلي لیکونه</translation>
     </message>

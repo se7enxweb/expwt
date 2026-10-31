@@ -1000,6 +1000,50 @@
         <translation>အစားထိုးစာသား</translation>
     </message>
     <message>
+        <source>This submission is not there, or you may not read it.</source>
+        <translation>ဤတင်သွင်းချက် မရှိပါ၊ သို့မဟုတ် သင် ဖတ်ခွင့်မရှိပါ။</translation>
+    </message>
+    <message>
+        <source>This page has no form.</source>
+        <translation>ဤစာမျက်နှာတွင် ဖောင် မရှိပါ။</translation>
+    </message>
+    <message>
+        <source>The submissions are only shown to those who may read collected information in the administration.</source>
+        <translation>တင်သွင်းချက်များကို စီမံခန့်ခွဲမှုတွင် စုဆောင်းထားသော အချက်အလက်များ ဖတ်ခွင့်ရှိသူများကိုသာ ပြသပါသည်။</translation>
+    </message>
+    <message>
+        <source>%n submissions</source>
+        <translation>တင်သွင်းချက် %n ခု</translation>
+    </message>
+    <message>
+        <source>Export CSV</source>
+        <translation>CSV ထုတ်ယူရန်</translation>
+    </message>
+    <message>
+        <source>In the administration</source>
+        <translation>စီမံခန့်ခွဲမှုတွင်</translation>
+    </message>
+    <message>
+        <source>This form collects personal data: keep what you read to yourself.</source>
+        <translation>ဤဖောင်သည် ကိုယ်ရေးအချက်အလက်များကို စုဆောင်းပါသည်- ဖတ်ရသည်များကို ကိုယ့်ထံတွင်သာ ထားပါ။</translation>
+    </message>
+    <message>
+        <source>Submission</source>
+        <translation>တင်သွင်းချက်</translation>
+    </message>
+    <message>
+        <source>Latest submissions</source>
+        <translation>နောက်ဆုံး တင်သွင်းချက်များ</translation>
+    </message>
+    <message>
+        <source>Visitor</source>
+        <translation>ဧည့်သည်</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>ဖောင်များ</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>ဝင်စာ</translation>
     </message>

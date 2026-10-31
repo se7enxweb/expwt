@@ -1000,6 +1000,50 @@
         <translation>Téks alt</translation>
     </message>
     <message>
+        <source>This submission is not there, or you may not read it.</source>
+        <translation>Kiriman ieu teu aya, atawa anjeun teu meunang macana.</translation>
+    </message>
+    <message>
+        <source>This page has no form.</source>
+        <translation>Kaca ieu teu boga formulir.</translation>
+    </message>
+    <message>
+        <source>The submissions are only shown to those who may read collected information in the administration.</source>
+        <translation>Kiriman ngan ditémbongkeun ka nu meunang maca informasi nu dikumpulkeun dina administrasi.</translation>
+    </message>
+    <message>
+        <source>%n submissions</source>
+        <translation>%n kiriman</translation>
+    </message>
+    <message>
+        <source>Export CSV</source>
+        <translation>Ékspor CSV</translation>
+    </message>
+    <message>
+        <source>In the administration</source>
+        <translation>Dina administrasi</translation>
+    </message>
+    <message>
+        <source>This form collects personal data: keep what you read to yourself.</source>
+        <translation>Formulir ieu ngumpulkeun data pribadi: simpen pikeun diri sorangan naon nu dibaca.</translation>
+    </message>
+    <message>
+        <source>Submission</source>
+        <translation>Kiriman</translation>
+    </message>
+    <message>
+        <source>Latest submissions</source>
+        <translation>Kiriman panganyarna</translation>
+    </message>
+    <message>
+        <source>Visitor</source>
+        <translation>Nu nganjang</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>Formulir</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Kotak asup</translation>
     </message>

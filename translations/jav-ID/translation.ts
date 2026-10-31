@@ -1000,6 +1000,50 @@
         <translation>Teks alt</translation>
     </message>
     <message>
+        <source>This submission is not there, or you may not read it.</source>
+        <translation>Kiriman iki ora ana, utawa sampeyan ora diidini maca.</translation>
+    </message>
+    <message>
+        <source>This page has no form.</source>
+        <translation>Kaca iki ora duwe formulir.</translation>
+    </message>
+    <message>
+        <source>The submissions are only shown to those who may read collected information in the administration.</source>
+        <translation>Kiriman mung dituduhake marang sing oleh maca informasi sing diklumpukake ing administrasi.</translation>
+    </message>
+    <message>
+        <source>%n submissions</source>
+        <translation>%n kiriman</translation>
+    </message>
+    <message>
+        <source>Export CSV</source>
+        <translation>Ekspor CSV</translation>
+    </message>
+    <message>
+        <source>In the administration</source>
+        <translation>Ing administrasi</translation>
+    </message>
+    <message>
+        <source>This form collects personal data: keep what you read to yourself.</source>
+        <translation>Formulir iki nglumpukake data pribadi: simpen dhewe apa sing sampeyan waca.</translation>
+    </message>
+    <message>
+        <source>Submission</source>
+        <translation>Kiriman</translation>
+    </message>
+    <message>
+        <source>Latest submissions</source>
+        <translation>Kiriman paling anyar</translation>
+    </message>
+    <message>
+        <source>Visitor</source>
+        <translation>Pengunjung</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>Formulir</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Kothak mlebu</translation>
     </message>

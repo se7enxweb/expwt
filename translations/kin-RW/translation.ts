@@ -1000,6 +1000,50 @@
         <translation>Inyandiko isimbura</translation>
     </message>
     <message>
+        <source>This submission is not there, or you may not read it.</source>
+        <translation>Iki cyoherejwe ntikiriho, cyangwa ntiwemerewe kugisoma.</translation>
+    </message>
+    <message>
+        <source>This page has no form.</source>
+        <translation>Uru rupapuro nta fomu rufite.</translation>
+    </message>
+    <message>
+        <source>The submissions are only shown to those who may read collected information in the administration.</source>
+        <translation>Ibyoherejwe byerekwa gusa abemerewe gusoma amakuru yakusanyijwe mu buyobozi.</translation>
+    </message>
+    <message>
+        <source>%n submissions</source>
+        <translation>Ibyoherejwe %n</translation>
+    </message>
+    <message>
+        <source>Export CSV</source>
+        <translation>Ohereza CSV hanze</translation>
+    </message>
+    <message>
+        <source>In the administration</source>
+        <translation>Mu buyobozi</translation>
+    </message>
+    <message>
+        <source>This form collects personal data: keep what you read to yourself.</source>
+        <translation>Iyi fomu ikusanya amakuru bwite: ibyo usoma ubigumane.</translation>
+    </message>
+    <message>
+        <source>Submission</source>
+        <translation>Icyoherejwe</translation>
+    </message>
+    <message>
+        <source>Latest submissions</source>
+        <translation>Ibyoherejwe vuba</translation>
+    </message>
+    <message>
+        <source>Visitor</source>
+        <translation>Usura</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>Amafomu</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Ubutumwa bwinjira</translation>
     </message>

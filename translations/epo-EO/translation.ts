@@ -1000,6 +1000,50 @@
         <translation>Alternativa teksto</translation>
     </message>
     <message>
+        <source>This submission is not there, or you may not read it.</source>
+        <translation>Ĉi tiu sendaĵo ne ekzistas, aŭ vi ne rajtas legi ĝin.</translation>
+    </message>
+    <message>
+        <source>This page has no form.</source>
+        <translation>Ĉi tiu paĝo ne havas formularon.</translation>
+    </message>
+    <message>
+        <source>The submissions are only shown to those who may read collected information in the administration.</source>
+        <translation>La sendaĵoj montriĝas nur al tiuj, kiuj rajtas legi kolektitajn informojn en la administrado.</translation>
+    </message>
+    <message>
+        <source>%n submissions</source>
+        <translation>%n sendaĵoj</translation>
+    </message>
+    <message>
+        <source>Export CSV</source>
+        <translation>Eksporti CSV</translation>
+    </message>
+    <message>
+        <source>In the administration</source>
+        <translation>En la administrado</translation>
+    </message>
+    <message>
+        <source>This form collects personal data: keep what you read to yourself.</source>
+        <translation>Ĉi tiu formularo kolektas personajn datumojn: tenu por vi mem tion, kion vi legas.</translation>
+    </message>
+    <message>
+        <source>Submission</source>
+        <translation>Sendaĵo</translation>
+    </message>
+    <message>
+        <source>Latest submissions</source>
+        <translation>Lastaj sendaĵoj</translation>
+    </message>
+    <message>
+        <source>Visitor</source>
+        <translation>Vizitanto</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>Formularoj</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Enirkesto</translation>
     </message>

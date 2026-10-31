@@ -1000,6 +1000,50 @@
         <translation>Alt text</translation>
     </message>
     <message>
+        <source>This submission is not there, or you may not read it.</source>
+        <translation>Wala ang pagsusumiteng ito, o hindi mo ito puwedeng basahin.</translation>
+    </message>
+    <message>
+        <source>This page has no form.</source>
+        <translation>Walang form ang pahinang ito.</translation>
+    </message>
+    <message>
+        <source>The submissions are only shown to those who may read collected information in the administration.</source>
+        <translation>Ipinapakita lang ang mga pagsusumite sa mga puwedeng magbasa ng nakolektang impormasyon sa administrasyon.</translation>
+    </message>
+    <message>
+        <source>%n submissions</source>
+        <translation>%n pagsusumite</translation>
+    </message>
+    <message>
+        <source>Export CSV</source>
+        <translation>I-export ang CSV</translation>
+    </message>
+    <message>
+        <source>In the administration</source>
+        <translation>Sa administrasyon</translation>
+    </message>
+    <message>
+        <source>This form collects personal data: keep what you read to yourself.</source>
+        <translation>Nangongolekta ng personal na datos ang form na ito: sarilinin ang iyong nababasa.</translation>
+    </message>
+    <message>
+        <source>Submission</source>
+        <translation>Pagsusumite</translation>
+    </message>
+    <message>
+        <source>Latest submissions</source>
+        <translation>Mga pinakabagong pagsusumite</translation>
+    </message>
+    <message>
+        <source>Visitor</source>
+        <translation>Bisita</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>Mga form</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Inbox</translation>
     </message>

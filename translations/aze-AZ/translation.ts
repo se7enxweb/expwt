@@ -1000,6 +1000,50 @@
         <translation>Alt mətn</translation>
     </message>
     <message>
+        <source>This submission is not there, or you may not read it.</source>
+        <translation>Bu göndəriş yoxdur və ya onu oxumağa icazəniz yoxdur.</translation>
+    </message>
+    <message>
+        <source>This page has no form.</source>
+        <translation>Bu səhifədə forma yoxdur.</translation>
+    </message>
+    <message>
+        <source>The submissions are only shown to those who may read collected information in the administration.</source>
+        <translation>Göndərişlər yalnız idarəetmədə toplanmış məlumatı oxuya bilənlərə göstərilir.</translation>
+    </message>
+    <message>
+        <source>%n submissions</source>
+        <translation>%n göndəriş</translation>
+    </message>
+    <message>
+        <source>Export CSV</source>
+        <translation>CSV ixrac et</translation>
+    </message>
+    <message>
+        <source>In the administration</source>
+        <translation>İdarəetmədə</translation>
+    </message>
+    <message>
+        <source>This form collects personal data: keep what you read to yourself.</source>
+        <translation>Bu forma şəxsi məlumat toplayır: oxuduqlarınızı özünüzdə saxlayın.</translation>
+    </message>
+    <message>
+        <source>Submission</source>
+        <translation>Göndəriş</translation>
+    </message>
+    <message>
+        <source>Latest submissions</source>
+        <translation>Son göndərişlər</translation>
+    </message>
+    <message>
+        <source>Visitor</source>
+        <translation>Ziyarətçi</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>Formalar</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Gələnlər</translation>
     </message>

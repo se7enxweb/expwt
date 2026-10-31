@@ -1000,6 +1000,50 @@
         <translation>Alt-teks</translation>
     </message>
     <message>
+        <source>This submission is not there, or you may not read it.</source>
+        <translation>Hierdie inskrywing bestaan nie, of u mag dit nie lees nie.</translation>
+    </message>
+    <message>
+        <source>This page has no form.</source>
+        <translation>Hierdie bladsy het geen vorm nie.</translation>
+    </message>
+    <message>
+        <source>The submissions are only shown to those who may read collected information in the administration.</source>
+        <translation>Die inskrywings word slegs gewys aan diegene wat ingesamelde inligting in die administrasie mag lees.</translation>
+    </message>
+    <message>
+        <source>%n submissions</source>
+        <translation>%n inskrywings</translation>
+    </message>
+    <message>
+        <source>Export CSV</source>
+        <translation>Voer CSV uit</translation>
+    </message>
+    <message>
+        <source>In the administration</source>
+        <translation>In die administrasie</translation>
+    </message>
+    <message>
+        <source>This form collects personal data: keep what you read to yourself.</source>
+        <translation>Hierdie vorm samel persoonlike data in: hou wat u lees vir uself.</translation>
+    </message>
+    <message>
+        <source>Submission</source>
+        <translation>Inskrywing</translation>
+    </message>
+    <message>
+        <source>Latest submissions</source>
+        <translation>Jongste inskrywings</translation>
+    </message>
+    <message>
+        <source>Visitor</source>
+        <translation>Besoeker</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>Vorms</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Inkassie</translation>
     </message>

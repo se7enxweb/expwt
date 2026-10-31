@@ -1000,6 +1000,50 @@
         <translation>አማራጭ ጽሑፍ</translation>
     </message>
     <message>
+        <source>This submission is not there, or you may not read it.</source>
+        <translation>ይህ ማስገቢያ የለም፣ ወይም ማንበብ አይፈቀድልዎትም።</translation>
+    </message>
+    <message>
+        <source>This page has no form.</source>
+        <translation>ይህ ገጽ ቅጽ የለውም።</translation>
+    </message>
+    <message>
+        <source>The submissions are only shown to those who may read collected information in the administration.</source>
+        <translation>ማስገቢያዎቹ የሚታዩት በአስተዳደሩ ውስጥ የተሰበሰበ መረጃ ማንበብ ለሚችሉ ብቻ ነው።</translation>
+    </message>
+    <message>
+        <source>%n submissions</source>
+        <translation>%n ማስገቢያዎች</translation>
+    </message>
+    <message>
+        <source>Export CSV</source>
+        <translation>CSV ላክ</translation>
+    </message>
+    <message>
+        <source>In the administration</source>
+        <translation>በአስተዳደሩ ውስጥ</translation>
+    </message>
+    <message>
+        <source>This form collects personal data: keep what you read to yourself.</source>
+        <translation>ይህ ቅጽ የግል መረጃ ይሰበስባል፦ ያነበቡትን ለራስዎ ያቆዩ።</translation>
+    </message>
+    <message>
+        <source>Submission</source>
+        <translation>ማስገቢያ</translation>
+    </message>
+    <message>
+        <source>Latest submissions</source>
+        <translation>የቅርብ ጊዜ ማስገቢያዎች</translation>
+    </message>
+    <message>
+        <source>Visitor</source>
+        <translation>ጎብኚ</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>ቅጾች</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>የገቢ ሳጥን</translation>
     </message>

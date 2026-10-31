@@ -1000,6 +1000,50 @@
         <translation>Alt text</translation>
     </message>
     <message>
+        <source>This submission is not there, or you may not read it.</source>
+        <translation>Dis submission no dey, or you no get right to read am.</translation>
+    </message>
+    <message>
+        <source>This page has no form.</source>
+        <translation>Dis page no get form.</translation>
+    </message>
+    <message>
+        <source>The submissions are only shown to those who may read collected information in the administration.</source>
+        <translation>Na only people wey fit read information wey dem collect for di administration go see di submissions.</translation>
+    </message>
+    <message>
+        <source>%n submissions</source>
+        <translation>%n submissions</translation>
+    </message>
+    <message>
+        <source>Export CSV</source>
+        <translation>Export CSV</translation>
+    </message>
+    <message>
+        <source>In the administration</source>
+        <translation>For di administration</translation>
+    </message>
+    <message>
+        <source>This form collects personal data: keep what you read to yourself.</source>
+        <translation>Dis form dey collect personal data: keep wetin you read for yourself.</translation>
+    </message>
+    <message>
+        <source>Submission</source>
+        <translation>Submission</translation>
+    </message>
+    <message>
+        <source>Latest submissions</source>
+        <translation>Latest submissions</translation>
+    </message>
+    <message>
+        <source>Visitor</source>
+        <translation>Visitor</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>Forms</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Inbox</translation>
     </message>

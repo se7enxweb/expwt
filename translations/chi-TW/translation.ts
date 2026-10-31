@@ -1000,6 +1000,50 @@
         <translation>替代文字</translation>
     </message>
     <message>
+        <source>This submission is not there, or you may not read it.</source>
+        <translation>此提交不存在，或你無權閱讀。</translation>
+    </message>
+    <message>
+        <source>This page has no form.</source>
+        <translation>此頁面沒有表單。</translation>
+    </message>
+    <message>
+        <source>The submissions are only shown to those who may read collected information in the administration.</source>
+        <translation>只有可在管理後台閱讀所收集資訊的人才能看到這些提交。</translation>
+    </message>
+    <message>
+        <source>%n submissions</source>
+        <translation>%n 筆提交</translation>
+    </message>
+    <message>
+        <source>Export CSV</source>
+        <translation>匯出 CSV</translation>
+    </message>
+    <message>
+        <source>In the administration</source>
+        <translation>在管理後台</translation>
+    </message>
+    <message>
+        <source>This form collects personal data: keep what you read to yourself.</source>
+        <translation>此表單收集個人資料：請對所讀內容保密。</translation>
+    </message>
+    <message>
+        <source>Submission</source>
+        <translation>提交</translation>
+    </message>
+    <message>
+        <source>Latest submissions</source>
+        <translation>最新提交</translation>
+    </message>
+    <message>
+        <source>Visitor</source>
+        <translation>訪客</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>表單</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>收件匣</translation>
     </message>

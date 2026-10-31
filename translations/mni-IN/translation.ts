@@ -1000,6 +1000,50 @@
         <translation>অতোপ্পা ৱাহৈ</translation>
     </message>
     <message>
+        <source>This submission is not there, or you may not read it.</source>
+        <translation>থাখিবা অসি লৈতে, নত্রগা নহাক্না পাবা য়াদে।</translation>
+    </message>
+    <message>
+        <source>This page has no form.</source>
+        <translation>লামায় অসিদা ফোর্ম অমত্তা লৈতে।</translation>
+    </message>
+    <message>
+        <source>The submissions are only shown to those who may read collected information in the administration.</source>
+        <translation>থাখিবাশিং অসি এদমিনিষ্ট্রেসনদা খোমজিনখিবা ঈপাউ পাবা য়াবা মীশিংদা খক্তা উৎলি।</translation>
+    </message>
+    <message>
+        <source>%n submissions</source>
+        <translation>থাখিবা %n</translation>
+    </message>
+    <message>
+        <source>Export CSV</source>
+        <translation>CSV থাদোকউ</translation>
+    </message>
+    <message>
+        <source>In the administration</source>
+        <translation>এদমিনিষ্ট্রেসনদা</translation>
+    </message>
+    <message>
+        <source>This form collects personal data: keep what you read to yourself.</source>
+        <translation>ফোর্ম অসিনা মশাগী ডেটা খোমজিল্লি: নহাক্না পাখিবা অদু নশামক্তা থম্বিযু।</translation>
+    </message>
+    <message>
+        <source>Submission</source>
+        <translation>থাখিবা</translation>
+    </message>
+    <message>
+        <source>Latest submissions</source>
+        <translation>অনৌবা থাখিবাশিং</translation>
+    </message>
+    <message>
+        <source>Visitor</source>
+        <translation>লাকপা মী</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>ফোর্মশিং</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>ইনবক্স</translation>
     </message>

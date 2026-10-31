@@ -1000,6 +1000,50 @@
         <translation>ⴰⴹⵕⵉⵚ ⴰⵎⵙⵏⴼⵍ</translation>
     </message>
     <message>
+        <source>This submission is not there, or you may not read it.</source>
+        <translation>ⴰⵣⵏ ⴰⴷ ⵓⵔ ⵉⵍⵍⵉ, ⵏⵖ ⵓⵔ ⵜⵣⵎⵔⴷ ⴰⴷ ⵜ ⵜⵖⵔⴷ.</translation>
+    </message>
+    <message>
+        <source>This page has no form.</source>
+        <translation>ⵜⴰⵙⵏⴰ ⴰ ⵓⵔ ⵖⵓⵔⵙ ⵜⴰⵍⵖⴰ.</translation>
+    </message>
+    <message>
+        <source>The submissions are only shown to those who may read collected information in the administration.</source>
+        <translation>ⵉⵣⵏⴰⵏ ⴰⵔ ⵜⵜⵓⵙⵎⴰⵍⴰⵏ ⵖⴰⵙ ⵉ ⵡⵉⵏⵏ ⵉⵣⵎⵔⵏ ⴰⴷ ⵖⵔⵏ ⵜⵉⵏⴼⵓⵍⵉⵏ ⵉⵜⵜⵓⵙⵎⵓⵏⵏ ⴳ ⵓⵙⵡⵓⴷⴷⵓ.</translation>
+    </message>
+    <message>
+        <source>%n submissions</source>
+        <translation>%n ⵉⵣⵏⴰⵏ</translation>
+    </message>
+    <message>
+        <source>Export CSV</source>
+        <translation>ⵙⵙⵓⴼⵖ CSV</translation>
+    </message>
+    <message>
+        <source>In the administration</source>
+        <translation>ⴳ ⵓⵙⵡⵓⴷⴷⵓ</translation>
+    </message>
+    <message>
+        <source>This form collects personal data: keep what you read to yourself.</source>
+        <translation>ⵜⴰⵍⵖⴰ ⴰ ⴰⵔ ⵜⵙⵎⵓⵏ ⵉⵙⴼⴽⴰ ⵉⵏⵎⵎⴰⴳⵏ: ⴰⵢⵏⵏⴰ ⵜⵖⵔⵉⴷ ⴰⵊⵊ ⵜ ⵖⵓⵔⴽ.</translation>
+    </message>
+    <message>
+        <source>Submission</source>
+        <translation>ⴰⵣⵏ</translation>
+    </message>
+    <message>
+        <source>Latest submissions</source>
+        <translation>ⵉⵣⵏⴰⵏ ⵉⵏⴳⴳⵓⵔⴰ</translation>
+    </message>
+    <message>
+        <source>Visitor</source>
+        <translation>ⴰⵎⵔⵣⴰⵢ</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>ⵜⵉⵍⵖⵉⵡⵉⵏ</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>ⵜⴰⵙⵏⴷⵓⵇⵜ ⵏ ⵓⴽⵛⵛⵎ</translation>
     </message>

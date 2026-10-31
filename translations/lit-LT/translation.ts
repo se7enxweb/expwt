@@ -1000,6 +1000,50 @@
         <translation>Alternatyvusis tekstas</translation>
     </message>
     <message>
+        <source>This submission is not there, or you may not read it.</source>
+        <translation>Šio pateikimo nėra arba jums neleidžiama jo skaityti.</translation>
+    </message>
+    <message>
+        <source>This page has no form.</source>
+        <translation>Šiame puslapyje nėra formos.</translation>
+    </message>
+    <message>
+        <source>The submissions are only shown to those who may read collected information in the administration.</source>
+        <translation>Pateikimai rodomi tik tiems, kam leidžiama skaityti administravime surinktą informaciją.</translation>
+    </message>
+    <message>
+        <source>%n submissions</source>
+        <translation>Pateikimų: %n</translation>
+    </message>
+    <message>
+        <source>Export CSV</source>
+        <translation>Eksportuoti CSV</translation>
+    </message>
+    <message>
+        <source>In the administration</source>
+        <translation>Administravime</translation>
+    </message>
+    <message>
+        <source>This form collects personal data: keep what you read to yourself.</source>
+        <translation>Ši forma renka asmens duomenis: tai, ką skaitote, pasilikite sau.</translation>
+    </message>
+    <message>
+        <source>Submission</source>
+        <translation>Pateikimas</translation>
+    </message>
+    <message>
+        <source>Latest submissions</source>
+        <translation>Naujausi pateikimai</translation>
+    </message>
+    <message>
+        <source>Visitor</source>
+        <translation>Lankytojas</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>Formos</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Gauta</translation>
     </message>

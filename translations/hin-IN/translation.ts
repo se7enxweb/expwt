@@ -1000,6 +1000,50 @@
         <translation>वैकल्पिक टेक्स्ट</translation>
     </message>
     <message>
+        <source>This submission is not there, or you may not read it.</source>
+        <translation>यह सबमिशन मौजूद नहीं है, या आप इसे पढ़ नहीं सकते।</translation>
+    </message>
+    <message>
+        <source>This page has no form.</source>
+        <translation>इस पृष्ठ पर कोई फ़ॉर्म नहीं है।</translation>
+    </message>
+    <message>
+        <source>The submissions are only shown to those who may read collected information in the administration.</source>
+        <translation>सबमिशन केवल उन्हें दिखाए जाते हैं जो प्रशासन में एकत्र की गई जानकारी पढ़ सकते हैं।</translation>
+    </message>
+    <message>
+        <source>%n submissions</source>
+        <translation>%n सबमिशन</translation>
+    </message>
+    <message>
+        <source>Export CSV</source>
+        <translation>CSV निर्यात करें</translation>
+    </message>
+    <message>
+        <source>In the administration</source>
+        <translation>प्रशासन में</translation>
+    </message>
+    <message>
+        <source>This form collects personal data: keep what you read to yourself.</source>
+        <translation>यह फ़ॉर्म व्यक्तिगत डेटा एकत्र करता है: जो पढ़ें उसे अपने तक रखें।</translation>
+    </message>
+    <message>
+        <source>Submission</source>
+        <translation>सबमिशन</translation>
+    </message>
+    <message>
+        <source>Latest submissions</source>
+        <translation>नवीनतम सबमिशन</translation>
+    </message>
+    <message>
+        <source>Visitor</source>
+        <translation>आगंतुक</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>फ़ॉर्म</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>इनबॉक्स</translation>
     </message>

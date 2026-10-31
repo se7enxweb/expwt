@@ -618,6 +618,8 @@
       if (c.edit) { list.push({ id: 'seo', label: this.t('SEO') }); }
       /* the page on the other sites and in its other languages (F27) */
       list.push({ id: 'sites', label: this.t('Sites') });
+      /* the page's forms and what they collected (E2), for those who edit with the sidebar */
+      if (c.edit) { list.push({ id: 'forms', label: this.t('Forms') }); }
       if (c.insights) { list.push({ id: 'insights', label: this.t('Insights') }); }
       /* the approvals waiting for the user (F29), for a user of the kernel's collaboration */
       if (this.boot && this.boot.inbox) { list.push({ id: 'inbox', label: this.t('Inbox') }); }

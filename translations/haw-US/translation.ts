@@ -1000,6 +1000,50 @@
         <translation>Kikokikona alt</translation>
     </message>
     <message>
+        <source>This submission is not there, or you may not read it.</source>
+        <translation>ʻAʻole i loaʻa kēia waiho ʻana, a i ʻole ʻaʻohe ou ʻae e heluhelu.</translation>
+    </message>
+    <message>
+        <source>This page has no form.</source>
+        <translation>ʻAʻohe palapala noi ma kēia ʻaoʻao.</translation>
+    </message>
+    <message>
+        <source>The submissions are only shown to those who may read collected information in the administration.</source>
+        <translation>Hōʻike ʻia nā waiho ʻana i ka poʻe i ʻae ʻia e heluhelu i ka ʻike i hōʻiliʻili ʻia ma ka hoʻokele wale nō.</translation>
+    </message>
+    <message>
+        <source>%n submissions</source>
+        <translation>%n waiho ʻana</translation>
+    </message>
+    <message>
+        <source>Export CSV</source>
+        <translation>Hoʻopuka CSV</translation>
+    </message>
+    <message>
+        <source>In the administration</source>
+        <translation>Ma ka hoʻokele</translation>
+    </message>
+    <message>
+        <source>This form collects personal data: keep what you read to yourself.</source>
+        <translation>Hōʻiliʻili kēia palapala noi i ka ʻikepili pilikino: e mālama iā ʻoe iho i kāu e heluhelu ai.</translation>
+    </message>
+    <message>
+        <source>Submission</source>
+        <translation>Waiho ʻana</translation>
+    </message>
+    <message>
+        <source>Latest submissions</source>
+        <translation>Nā waiho ʻana hou loa</translation>
+    </message>
+    <message>
+        <source>Visitor</source>
+        <translation>Malihini</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>Nā palapala noi</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Pahu leka komo</translation>
     </message>

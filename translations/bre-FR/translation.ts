@@ -1000,6 +1000,50 @@
         <translation>Testenn erlec'hiañ</translation>
     </message>
     <message>
+        <source>This submission is not there, or you may not read it.</source>
+        <translation>N'eus ket eus ar c'hasadenn-mañ, pe n'oc'h ket aotreet d'he lenn.</translation>
+    </message>
+    <message>
+        <source>This page has no form.</source>
+        <translation>N'eus furmskrid ebet war ar bajenn-mañ.</translation>
+    </message>
+    <message>
+        <source>The submissions are only shown to those who may read collected information in the administration.</source>
+        <translation>Ne vez diskouezet ar c'hasadennoù nemet d'ar re a c'hall lenn an titouroù dastumet er merañ.</translation>
+    </message>
+    <message>
+        <source>%n submissions</source>
+        <translation>%n kasadenn</translation>
+    </message>
+    <message>
+        <source>Export CSV</source>
+        <translation>Ezporzhiañ CSV</translation>
+    </message>
+    <message>
+        <source>In the administration</source>
+        <translation>Er merañ</translation>
+    </message>
+    <message>
+        <source>This form collects personal data: keep what you read to yourself.</source>
+        <translation>Dastum a ra ar furmskrid-mañ roadennoù personel: mirit evidoc'h ar pezh a lennit.</translation>
+    </message>
+    <message>
+        <source>Submission</source>
+        <translation>Kasadenn</translation>
+    </message>
+    <message>
+        <source>Latest submissions</source>
+        <translation>Kasadennoù diwezhañ</translation>
+    </message>
+    <message>
+        <source>Visitor</source>
+        <translation>Gweladenner</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>Furmskridoù</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Boest-degemer</translation>
     </message>

@@ -1000,6 +1000,50 @@
         <translation>Umbhalo omele isithombe</translation>
     </message>
     <message>
+        <source>This submission is not there, or you may not read it.</source>
+        <translation>Lokhu okuthunyelwe akukho, noma awuvunyelwe ukukufunda.</translation>
+    </message>
+    <message>
+        <source>This page has no form.</source>
+        <translation>Leli khasi alinalo ifomu.</translation>
+    </message>
+    <message>
+        <source>The submissions are only shown to those who may read collected information in the administration.</source>
+        <translation>Okuthunyelwe kuboniswa kuphela labo abangafunda ulwazi oluqoqwe kwezokuphatha.</translation>
+    </message>
+    <message>
+        <source>%n submissions</source>
+        <translation>Okuthunyelwe okungu-%n</translation>
+    </message>
+    <message>
+        <source>Export CSV</source>
+        <translation>Thumela i-CSV ngaphandle</translation>
+    </message>
+    <message>
+        <source>In the administration</source>
+        <translation>Kwezokuphatha</translation>
+    </message>
+    <message>
+        <source>This form collects personal data: keep what you read to yourself.</source>
+        <translation>Leli fomu liqoqa idatha yomuntu siqu: okufundayo kugcine kuwe.</translation>
+    </message>
+    <message>
+        <source>Submission</source>
+        <translation>Okuthunyelwe</translation>
+    </message>
+    <message>
+        <source>Latest submissions</source>
+        <translation>Okuthunyelwe kwakamuva</translation>
+    </message>
+    <message>
+        <source>Visitor</source>
+        <translation>Isivakashi</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>Amafomu</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Ibhokisi lokungenayo</translation>
     </message>

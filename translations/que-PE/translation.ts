@@ -1000,6 +1000,50 @@
         <translation>Hukniray qillqa</translation>
     </message>
     <message>
+        <source>This submission is not there, or you may not read it.</source>
+        <translation>Kay apachisqaqa manam kanchu, manachus ñawinchayta atinkichu.</translation>
+    </message>
+    <message>
+        <source>This page has no form.</source>
+        <translation>Kay p'anqapiqa manam formulariochu kan.</translation>
+    </message>
+    <message>
+        <source>The submissions are only shown to those who may read collected information in the administration.</source>
+        <translation>Apachisqakunaqa kamachiypi huñusqa willakuykunata ñawinchay atiqkunallamanmi rikuchikun.</translation>
+    </message>
+    <message>
+        <source>%n submissions</source>
+        <translation>%n apachisqa</translation>
+    </message>
+    <message>
+        <source>Export CSV</source>
+        <translation>CSV hurquy</translation>
+    </message>
+    <message>
+        <source>In the administration</source>
+        <translation>Kamachiypi</translation>
+    </message>
+    <message>
+        <source>This form collects personal data: keep what you read to yourself.</source>
+        <translation>Kay formularioqa sapan willakuykunata huñun: ñawinchasqaykitaqa qampaqlla waqaychay.</translation>
+    </message>
+    <message>
+        <source>Submission</source>
+        <translation>Apachisqa</translation>
+    </message>
+    <message>
+        <source>Latest submissions</source>
+        <translation>Qhipa apachisqakuna</translation>
+    </message>
+    <message>
+        <source>Visitor</source>
+        <translation>Watukuq</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>Formulariokuna</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Chaskina</translation>
     </message>

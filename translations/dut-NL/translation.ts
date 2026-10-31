@@ -1000,6 +1000,50 @@
         <translation>Alt-tekst</translation>
     </message>
     <message>
+        <source>This submission is not there, or you may not read it.</source>
+        <translation>Deze inzending bestaat niet, of je mag hem niet lezen.</translation>
+    </message>
+    <message>
+        <source>This page has no form.</source>
+        <translation>Deze pagina heeft geen formulier.</translation>
+    </message>
+    <message>
+        <source>The submissions are only shown to those who may read collected information in the administration.</source>
+        <translation>De inzendingen worden alleen getoond aan wie verzamelde gegevens in de beheeromgeving mag lezen.</translation>
+    </message>
+    <message>
+        <source>%n submissions</source>
+        <translation>%n inzendingen</translation>
+    </message>
+    <message>
+        <source>Export CSV</source>
+        <translation>CSV exporteren</translation>
+    </message>
+    <message>
+        <source>In the administration</source>
+        <translation>In de beheeromgeving</translation>
+    </message>
+    <message>
+        <source>This form collects personal data: keep what you read to yourself.</source>
+        <translation>Dit formulier verzamelt persoonsgegevens: houd wat je leest voor jezelf.</translation>
+    </message>
+    <message>
+        <source>Submission</source>
+        <translation>Inzending</translation>
+    </message>
+    <message>
+        <source>Latest submissions</source>
+        <translation>Nieuwste inzendingen</translation>
+    </message>
+    <message>
+        <source>Visitor</source>
+        <translation>Bezoeker</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>Formulieren</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Inbox</translation>
     </message>

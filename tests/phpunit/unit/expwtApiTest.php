@@ -73,6 +73,8 @@ class expwtApiTestGateway extends expwtGateway
     public function elsewhere( array $in ) { return $this->record( 'elsewhere', $in ); }
     public function aiField( array $in ) { return $this->record( 'aiField', $in ); }
     public function aiApply( array $in ) { return $this->record( 'aiApply', $in ); }
+    public function forms( array $in ) { return $this->record( 'forms', $in ); }
+    public function formView( array $in ) { return $this->record( 'formView', $in ); }
     public $registered = array( 'panels' => array(), 'actions' => array(), 'highlights' => array(), 'search' => array() );
     public $policies = array();
     public function registeredActions() { return $this->registered['actions']; }
@@ -193,6 +195,21 @@ class expwtApiTest extends PHPUnit\Framework\TestCase
         $api->call( 'ai.apply', array( 'objectId' => 5, 'version' => 3, 'language' => 'eng-GB', 'field' => 'body', 'value' => '<p>New</p>' ) );
         $this->assertSame( array( 'aiApply', array( 'objectId' => 5, 'version' => 3, 'language' => 'eng-GB', 'field' => 'body', 'value' => '<p>New</p>' ) ),
                            $this->gateway->calls[2] );
+    }
+
+    /** E2: the page's forms and one submission are read-only, for those who edit, cleaned */
+    public function testTheFormsGoToTheGatewayCleaned()
+    {
+        $api = $this->api();
+        foreach ( array( 'forms.load', 'forms.view' ) as $action )
+        {
+            $this->assertSame( 'edit', expwtAccess::functionFor( $action ) );
+            $this->assertFalse( expwtAccess::writes( $action ) );
+        }
+        $api->call( 'forms.load', array( 'nodeId' => '185', 'other' => 1 ), 'GET' );
+        $this->assertSame( array( 'forms', array( 'nodeId' => 185 ) ), $this->gateway->calls[0] );
+        $api->call( 'forms.view', array( 'collectionId' => '7', 'nodeId' => 3 ), 'GET' );
+        $this->assertSame( array( 'formView', array( 'collectionId' => 7 ) ), $this->gateway->calls[1] );
     }
 
     /** F29: the counts on the tabs for every user of the sidebar: approvals and comments with the collaboration,

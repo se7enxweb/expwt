@@ -1000,6 +1000,50 @@
         <translation>Maandishi mbadala</translation>
     </message>
     <message>
+        <source>This submission is not there, or you may not read it.</source>
+        <translation>Wasilisho hili halipo, au huruhusiwi kulisoma.</translation>
+    </message>
+    <message>
+        <source>This page has no form.</source>
+        <translation>Ukurasa huu hauna fomu.</translation>
+    </message>
+    <message>
+        <source>The submissions are only shown to those who may read collected information in the administration.</source>
+        <translation>Mawasilisho yanaonyeshwa tu kwa wale wanaoruhusiwa kusoma taarifa zilizokusanywa kwenye usimamizi.</translation>
+    </message>
+    <message>
+        <source>%n submissions</source>
+        <translation>Mawasilisho %n</translation>
+    </message>
+    <message>
+        <source>Export CSV</source>
+        <translation>Hamisha CSV</translation>
+    </message>
+    <message>
+        <source>In the administration</source>
+        <translation>Kwenye usimamizi</translation>
+    </message>
+    <message>
+        <source>This form collects personal data: keep what you read to yourself.</source>
+        <translation>Fomu hii inakusanya data binafsi: unachosoma kiweke kwako.</translation>
+    </message>
+    <message>
+        <source>Submission</source>
+        <translation>Wasilisho</translation>
+    </message>
+    <message>
+        <source>Latest submissions</source>
+        <translation>Mawasilisho ya hivi karibuni</translation>
+    </message>
+    <message>
+        <source>Visitor</source>
+        <translation>Mgeni</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>Fomu</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Kikasha</translation>
     </message>

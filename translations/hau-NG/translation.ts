@@ -1000,6 +1000,50 @@
         <translation>Rubutun madadin</translation>
     </message>
     <message>
+        <source>This submission is not there, or you may not read it.</source>
+        <translation>Wannan saƙo babu shi, ko ba a ba ku izinin karanta shi ba.</translation>
+    </message>
+    <message>
+        <source>This page has no form.</source>
+        <translation>Wannan shafi ba shi da fom.</translation>
+    </message>
+    <message>
+        <source>The submissions are only shown to those who may read collected information in the administration.</source>
+        <translation>Ana nuna saƙonnin ne kawai ga waɗanda za su iya karanta bayanan da aka tattara a cikin gudanarwa.</translation>
+    </message>
+    <message>
+        <source>%n submissions</source>
+        <translation>Saƙonni %n</translation>
+    </message>
+    <message>
+        <source>Export CSV</source>
+        <translation>Fitar da CSV</translation>
+    </message>
+    <message>
+        <source>In the administration</source>
+        <translation>A cikin gudanarwa</translation>
+    </message>
+    <message>
+        <source>This form collects personal data: keep what you read to yourself.</source>
+        <translation>Wannan fom yana tattara bayanan sirri: ku riƙe abin da kuka karanta a wurinku.</translation>
+    </message>
+    <message>
+        <source>Submission</source>
+        <translation>Saƙo</translation>
+    </message>
+    <message>
+        <source>Latest submissions</source>
+        <translation>Sabbin saƙonni</translation>
+    </message>
+    <message>
+        <source>Visitor</source>
+        <translation>Baƙo</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>Fom-fom</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Akwatin saƙo</translation>
     </message>

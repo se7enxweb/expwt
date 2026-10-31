@@ -1000,6 +1000,50 @@
         <translation>Kupu kē</translation>
     </message>
     <message>
+        <source>This submission is not there, or you may not read it.</source>
+        <translation>Kāore tēnei tukunga i konei, kāore rānei koe e whakaaetia ki te pānui.</translation>
+    </message>
+    <message>
+        <source>This page has no form.</source>
+        <translation>Kāore he puka i tēnei whārangi.</translation>
+    </message>
+    <message>
+        <source>The submissions are only shown to those who may read collected information in the administration.</source>
+        <translation>Ka whakaaturia ngā tukunga ki te hunga anake ka āhei ki te pānui i ngā mōhiohio kua kohia i te whakahaere.</translation>
+    </message>
+    <message>
+        <source>%n submissions</source>
+        <translation>%n tukunga</translation>
+    </message>
+    <message>
+        <source>Export CSV</source>
+        <translation>Kaweake CSV</translation>
+    </message>
+    <message>
+        <source>In the administration</source>
+        <translation>I te whakahaere</translation>
+    </message>
+    <message>
+        <source>This form collects personal data: keep what you read to yourself.</source>
+        <translation>Ka kohi tēnei puka i ngā raraunga whaiaro: puritia māu anake ngā mea ka pānuitia e koe.</translation>
+    </message>
+    <message>
+        <source>Submission</source>
+        <translation>Tukunga</translation>
+    </message>
+    <message>
+        <source>Latest submissions</source>
+        <translation>Ngā tukunga hou</translation>
+    </message>
+    <message>
+        <source>Visitor</source>
+        <translation>Manuhiri</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>Ngā puka</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Pouaka whakauru</translation>
     </message>

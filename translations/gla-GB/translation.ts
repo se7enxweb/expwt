@@ -1000,6 +1000,50 @@
         <translation>Alt-theacsa</translation>
     </message>
     <message>
+        <source>This submission is not there, or you may not read it.</source>
+        <translation>Chan eil an tagradh seo ann, no chan fhaod sibh a leughadh.</translation>
+    </message>
+    <message>
+        <source>This page has no form.</source>
+        <translation>Chan eil foirm air an duilleag seo.</translation>
+    </message>
+    <message>
+        <source>The submissions are only shown to those who may read collected information in the administration.</source>
+        <translation>Chan fhaicear na tagraidhean ach leis an fheadhainn a dh'fhaodas fiosrachadh cruinnichte a leughadh san rianachd.</translation>
+    </message>
+    <message>
+        <source>%n submissions</source>
+        <translation>%n tagraidhean</translation>
+    </message>
+    <message>
+        <source>Export CSV</source>
+        <translation>Às-phortaich CSV</translation>
+    </message>
+    <message>
+        <source>In the administration</source>
+        <translation>San rianachd</translation>
+    </message>
+    <message>
+        <source>This form collects personal data: keep what you read to yourself.</source>
+        <translation>Tha am foirm seo a' cruinneachadh dàta pearsanta: cumaibh na leughas sibh agaibh fhèin.</translation>
+    </message>
+    <message>
+        <source>Submission</source>
+        <translation>Tagradh</translation>
+    </message>
+    <message>
+        <source>Latest submissions</source>
+        <translation>Na tagraidhean as ùire</translation>
+    </message>
+    <message>
+        <source>Visitor</source>
+        <translation>Neach-tadhail</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>Foirmean</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Bogsa a-steach</translation>
     </message>

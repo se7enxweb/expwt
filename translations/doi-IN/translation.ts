@@ -1000,6 +1000,50 @@
         <translation>बदलवां पाठ</translation>
     </message>
     <message>
+        <source>This submission is not there, or you may not read it.</source>
+        <translation>एह् जमा नेईं ऐ, जां तुसेंगी इसगी पढ़ने दी इजाजत नेईं ऐ।</translation>
+    </message>
+    <message>
+        <source>This page has no form.</source>
+        <translation>इस पन्ने पर कोई फार्म नेईं ऐ।</translation>
+    </message>
+    <message>
+        <source>The submissions are only shown to those who may read collected information in the administration.</source>
+        <translation>जमा सिर्फ उनें गी दस्से जंदे न जेह्ड़े प्रशासन च किट्ठी कीती दी जानकारी पढ़ी सकदे न।</translation>
+    </message>
+    <message>
+        <source>%n submissions</source>
+        <translation>%n जमा</translation>
+    </message>
+    <message>
+        <source>Export CSV</source>
+        <translation>CSV निर्यात करो</translation>
+    </message>
+    <message>
+        <source>In the administration</source>
+        <translation>प्रशासन च</translation>
+    </message>
+    <message>
+        <source>This form collects personal data: keep what you read to yourself.</source>
+        <translation>एह् फार्म निजी जानकारी किट्ठी करदा ऐ: जे किश पढ़ो, उसी अपने तगर रक्खो।</translation>
+    </message>
+    <message>
+        <source>Submission</source>
+        <translation>जमा</translation>
+    </message>
+    <message>
+        <source>Latest submissions</source>
+        <translation>नमें जमा</translation>
+    </message>
+    <message>
+        <source>Visitor</source>
+        <translation>आगंतुक</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>फार्म</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>इनबॉक्स</translation>
     </message>

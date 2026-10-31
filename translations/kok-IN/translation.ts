@@ -1000,6 +1000,50 @@
         <translation>पर्यायी मजकूर</translation>
     </message>
     <message>
+        <source>This submission is not there, or you may not read it.</source>
+        <translation>हें सादरीकरण ना, वा तुमकां तें वाचपाक परवानगी ना.</translation>
+    </message>
+    <message>
+        <source>This page has no form.</source>
+        <translation>ह्या पानार फॉर्म ना.</translation>
+    </message>
+    <message>
+        <source>The submissions are only shown to those who may read collected information in the administration.</source>
+        <translation>सादरीकरणां फकत तांकांच दाखयतात जे प्रशासनांत एकठांय केल्ली माहिती वाचूंक शकतात.</translation>
+    </message>
+    <message>
+        <source>%n submissions</source>
+        <translation>%n सादरीकरणां</translation>
+    </message>
+    <message>
+        <source>Export CSV</source>
+        <translation>CSV निर्यात कर</translation>
+    </message>
+    <message>
+        <source>In the administration</source>
+        <translation>प्रशासनांत</translation>
+    </message>
+    <message>
+        <source>This form collects personal data: keep what you read to yourself.</source>
+        <translation>हो फॉर्म खाजगी माहिती एकठांय करता: तुमी जें वाचतात तें तुमच्याकडेच दवरात.</translation>
+    </message>
+    <message>
+        <source>Submission</source>
+        <translation>सादरीकरण</translation>
+    </message>
+    <message>
+        <source>Latest submissions</source>
+        <translation>नवी सादरीकरणां</translation>
+    </message>
+    <message>
+        <source>Visitor</source>
+        <translation>भोंवडेकार</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>फॉर्म</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>इनबॉक्स</translation>
     </message>

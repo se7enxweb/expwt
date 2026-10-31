@@ -1000,6 +1000,50 @@
         <translation>ବିକଳ୍ପ ପାଠ୍ୟ</translation>
     </message>
     <message>
+        <source>This submission is not there, or you may not read it.</source>
+        <translation>ଏହି ଦାଖଲ ନାହିଁ, କିମ୍ବା ଆପଣଙ୍କୁ ଏହାକୁ ପଢ଼ିବାକୁ ଅନୁମତି ନାହିଁ।</translation>
+    </message>
+    <message>
+        <source>This page has no form.</source>
+        <translation>ଏହି ପୃଷ୍ଠାରେ କୌଣସି ଫର୍ମ ନାହିଁ।</translation>
+    </message>
+    <message>
+        <source>The submissions are only shown to those who may read collected information in the administration.</source>
+        <translation>ଦାଖଲଗୁଡ଼ିକ କେବଳ ସେମାନଙ୍କୁ ଦେଖାଯାଏ ଯେଉଁମାନେ ପ୍ରଶାସନରେ ସଂଗୃହୀତ ସୂଚନା ପଢ଼ିପାରନ୍ତି।</translation>
+    </message>
+    <message>
+        <source>%n submissions</source>
+        <translation>%n ଦାଖଲ</translation>
+    </message>
+    <message>
+        <source>Export CSV</source>
+        <translation>CSV ରପ୍ତାନି କରନ୍ତୁ</translation>
+    </message>
+    <message>
+        <source>In the administration</source>
+        <translation>ପ୍ରଶାସନରେ</translation>
+    </message>
+    <message>
+        <source>This form collects personal data: keep what you read to yourself.</source>
+        <translation>ଏହି ଫର୍ମ ବ୍ୟକ୍ତିଗତ ତଥ୍ୟ ସଂଗ୍ରହ କରେ: ଯାହା ପଢ଼ନ୍ତି ତାହା ନିଜ ପାଖରେ ରଖନ୍ତୁ।</translation>
+    </message>
+    <message>
+        <source>Submission</source>
+        <translation>ଦାଖଲ</translation>
+    </message>
+    <message>
+        <source>Latest submissions</source>
+        <translation>ସର୍ବଶେଷ ଦାଖଲଗୁଡ଼ିକ</translation>
+    </message>
+    <message>
+        <source>Visitor</source>
+        <translation>ଦର୍ଶକ</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>ଫର୍ମଗୁଡ଼ିକ</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>ଇନବକ୍ସ</translation>
     </message>

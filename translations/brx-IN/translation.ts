@@ -1000,6 +1000,50 @@
         <translation>गुबुन लिरथाय</translation>
     </message>
     <message>
+        <source>This submission is not there, or you may not read it.</source>
+        <translation>बे दाखिलाया गैया, नङा नोंथाङा बेखौ फरायनो हाया।</translation>
+    </message>
+    <message>
+        <source>This page has no form.</source>
+        <translation>बे बिखंआव मोनसेबो फर्म गैया।</translation>
+    </message>
+    <message>
+        <source>The submissions are only shown to those who may read collected information in the administration.</source>
+        <translation>दाखिलाफोरखौ प्रशासनाव बुथुम लानाय खौरां फरायनो हानाय सुबुङफोरखौल' दिन्थियो।</translation>
+    </message>
+    <message>
+        <source>%n submissions</source>
+        <translation>%n दाखिला</translation>
+    </message>
+    <message>
+        <source>Export CSV</source>
+        <translation>CSV बाहायनाय</translation>
+    </message>
+    <message>
+        <source>In the administration</source>
+        <translation>प्रशासनाव</translation>
+    </message>
+    <message>
+        <source>This form collects personal data: keep what you read to yourself.</source>
+        <translation>बे फर्मआ गाव गावनि डाटा बुथुमो: नों जेखौ फरायो बेखौ गावआव दोन।</translation>
+    </message>
+    <message>
+        <source>Submission</source>
+        <translation>दाखिला</translation>
+    </message>
+    <message>
+        <source>Latest submissions</source>
+        <translation>गोदान दाखिलाफोर</translation>
+    </message>
+    <message>
+        <source>Visitor</source>
+        <translation>नुग्रासि</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>फर्मफोर</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>इनबक्स</translation>
     </message>

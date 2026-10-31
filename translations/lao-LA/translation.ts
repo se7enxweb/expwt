@@ -1000,6 +1000,50 @@
         <translation>ຂໍ້ຄວາມແທນ</translation>
     </message>
     <message>
+        <source>This submission is not there, or you may not read it.</source>
+        <translation>ບໍ່ມີການສົ່ງນີ້ ຫຼື ທ່ານບໍ່ມີສິດອ່ານມັນ.</translation>
+    </message>
+    <message>
+        <source>This page has no form.</source>
+        <translation>ໜ້ານີ້ບໍ່ມີແບບຟອມ.</translation>
+    </message>
+    <message>
+        <source>The submissions are only shown to those who may read collected information in the administration.</source>
+        <translation>ການສົ່ງຈະສະແດງໃຫ້ສະເພາະຜູ້ທີ່ອ່ານຂໍ້ມູນທີ່ເກັບໄດ້ໃນການຈັດການເທົ່ານັ້ນ.</translation>
+    </message>
+    <message>
+        <source>%n submissions</source>
+        <translation>%n ການສົ່ງ</translation>
+    </message>
+    <message>
+        <source>Export CSV</source>
+        <translation>ສົ່ງອອກ CSV</translation>
+    </message>
+    <message>
+        <source>In the administration</source>
+        <translation>ໃນການຈັດການ</translation>
+    </message>
+    <message>
+        <source>This form collects personal data: keep what you read to yourself.</source>
+        <translation>ແບບຟອມນີ້ເກັບຂໍ້ມູນສ່ວນຕົວ: ສິ່ງທີ່ທ່ານອ່ານ ໃຫ້ເກັບໄວ້ກັບຕົວເອງ.</translation>
+    </message>
+    <message>
+        <source>Submission</source>
+        <translation>ການສົ່ງ</translation>
+    </message>
+    <message>
+        <source>Latest submissions</source>
+        <translation>ການສົ່ງລ່າສຸດ</translation>
+    </message>
+    <message>
+        <source>Visitor</source>
+        <translation>ຜູ້ເຂົ້າຊົມ</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>ແບບຟອມ</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>ກ່ອງຂາເຂົ້າ</translation>
     </message>

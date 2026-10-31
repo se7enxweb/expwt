@@ -421,6 +421,21 @@ class expwtPureTest extends PHPUnit\Framework\TestCase
         $this->assertStringStartsWith( 'PASS', (string)end( $out ) );
     }
 
+    /** E2: an answer as text and the preview of a submission in the Forms panel */
+    public function testTheAnswersOfASubmission()
+    {
+        $this->assertSame( 'Hello', expwtGateway::collectedValue( 'Hello', 0, 0.0 ) );
+        $this->assertSame( '3', expwtGateway::collectedValue( '', 3, 0.0 ) );
+        $this->assertSame( '2.5', expwtGateway::collectedValue( '  ', 0, 2.5 ) );
+        $this->assertSame( '', expwtGateway::collectedValue( '', 0, 0.0 ) );
+        $long = str_repeat( 'ä', 100 );
+        $preview = expwtGateway::previewOf( array( array( 'value' => '' ), array( 'value' => "Ann\n  Smith" ), array( 'value' => $long ), array( 'value' => 'third' ) ) );
+        $this->assertSame( 'Ann Smith · ' . str_repeat( 'ä', 79 ) . '…', $preview, 'two answers with text, one line each, cut to 80 characters' );
+        $this->assertSame( '', expwtGateway::previewOf( array() ) );
+        $this->assertContains( 'forms', expwtState::PANELS );
+        $this->assertContains( 'forms', expwtRegistry::CORE_PANELS );
+    }
+
     /** E1: which fields get Exponential Intelligence and the text of a suggestion (tests/js/ai.test.js, Node) */
     public function testExponentialIntelligenceOnTheFields()
     {

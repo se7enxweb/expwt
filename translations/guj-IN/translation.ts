@@ -1000,6 +1000,50 @@
         <translation>વૈકલ્પિક લખાણ</translation>
     </message>
     <message>
+        <source>This submission is not there, or you may not read it.</source>
+        <translation>આ સબમિશન અસ્તિત્વમાં નથી, અથવા આપ તેને વાંચી શકતા નથી.</translation>
+    </message>
+    <message>
+        <source>This page has no form.</source>
+        <translation>આ પૃષ્ઠ પર કોઈ ફોર્મ નથી.</translation>
+    </message>
+    <message>
+        <source>The submissions are only shown to those who may read collected information in the administration.</source>
+        <translation>સબમિશન ફક્ત તેમને જ બતાવવામાં આવે છે જેઓ વહીવટમાં એકત્રિત માહિતી વાંચી શકે છે.</translation>
+    </message>
+    <message>
+        <source>%n submissions</source>
+        <translation>%n સબમિશન</translation>
+    </message>
+    <message>
+        <source>Export CSV</source>
+        <translation>CSV નિકાસ કરો</translation>
+    </message>
+    <message>
+        <source>In the administration</source>
+        <translation>વહીવટમાં</translation>
+    </message>
+    <message>
+        <source>This form collects personal data: keep what you read to yourself.</source>
+        <translation>આ ફોર્મ વ્યક્તિગત માહિતી એકત્રિત કરે છે: આપ જે વાંચો તે પોતાની પાસે રાખો.</translation>
+    </message>
+    <message>
+        <source>Submission</source>
+        <translation>સબમિશન</translation>
+    </message>
+    <message>
+        <source>Latest submissions</source>
+        <translation>તાજેતરનાં સબમિશન</translation>
+    </message>
+    <message>
+        <source>Visitor</source>
+        <translation>મુલાકાતી</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>ફોર્મ</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>ઇનબોક્સ</translation>
     </message>

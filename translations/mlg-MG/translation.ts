@@ -1000,6 +1000,50 @@
         <translation>Soratra solon'ny sary</translation>
     </message>
     <message>
+        <source>This submission is not there, or you may not read it.</source>
+        <translation>Tsy misy io fandefasana io, na tsy azonao vakiana.</translation>
+    </message>
+    <message>
+        <source>This page has no form.</source>
+        <translation>Tsy misy taratasy fenoina ity pejy ity.</translation>
+    </message>
+    <message>
+        <source>The submissions are only shown to those who may read collected information in the administration.</source>
+        <translation>Ireo fandefasana dia aseho ihany amin'ireo afaka mamaky ny vaovao voaangona ao amin'ny fitantanana.</translation>
+    </message>
+    <message>
+        <source>%n submissions</source>
+        <translation>Fandefasana %n</translation>
+    </message>
+    <message>
+        <source>Export CSV</source>
+        <translation>Avoahy CSV</translation>
+    </message>
+    <message>
+        <source>In the administration</source>
+        <translation>Ao amin'ny fitantanana</translation>
+    </message>
+    <message>
+        <source>This form collects personal data: keep what you read to yourself.</source>
+        <translation>Ity taratasy fenoina ity dia manangona angon-drakitra manokana: tano ho anao ihany izay vakianao.</translation>
+    </message>
+    <message>
+        <source>Submission</source>
+        <translation>Fandefasana</translation>
+    </message>
+    <message>
+        <source>Latest submissions</source>
+        <translation>Fandefasana farany</translation>
+    </message>
+    <message>
+        <source>Visitor</source>
+        <translation>Mpitsidika</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>Taratasy fenoina</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Boaty fandraisana</translation>
     </message>

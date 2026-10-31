@@ -305,6 +305,17 @@ class expwtStrings
         'AI',
         'Summarize',
         'Alt text',
+        'This submission is not there, or you may not read it.',
+        'This page has no form.',
+        'The submissions are only shown to those who may read collected information in the administration.',
+        '%n submissions',
+        'Export CSV',
+        'In the administration',
+        'This form collects personal data: keep what you read to yourself.',
+        'Submission',
+        'Latest submissions',
+        'Visitor',
+        'Forms',
     );
     /* sources:end */
 

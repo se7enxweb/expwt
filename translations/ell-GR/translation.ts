@@ -1000,6 +1000,50 @@
         <translation>Εναλλακτικό κείμενο</translation>
     </message>
     <message>
+        <source>This submission is not there, or you may not read it.</source>
+        <translation>Αυτή η υποβολή δεν υπάρχει ή δεν έχετε δικαίωμα να τη διαβάσετε.</translation>
+    </message>
+    <message>
+        <source>This page has no form.</source>
+        <translation>Αυτή η σελίδα δεν έχει φόρμα.</translation>
+    </message>
+    <message>
+        <source>The submissions are only shown to those who may read collected information in the administration.</source>
+        <translation>Οι υποβολές εμφανίζονται μόνο σε όσους μπορούν να διαβάζουν τις συλλεγμένες πληροφορίες στη διαχείριση.</translation>
+    </message>
+    <message>
+        <source>%n submissions</source>
+        <translation>%n υποβολές</translation>
+    </message>
+    <message>
+        <source>Export CSV</source>
+        <translation>Εξαγωγή CSV</translation>
+    </message>
+    <message>
+        <source>In the administration</source>
+        <translation>Στη διαχείριση</translation>
+    </message>
+    <message>
+        <source>This form collects personal data: keep what you read to yourself.</source>
+        <translation>Αυτή η φόρμα συλλέγει προσωπικά δεδομένα: κρατήστε όσα διαβάζετε για τον εαυτό σας.</translation>
+    </message>
+    <message>
+        <source>Submission</source>
+        <translation>Υποβολή</translation>
+    </message>
+    <message>
+        <source>Latest submissions</source>
+        <translation>Τελευταίες υποβολές</translation>
+    </message>
+    <message>
+        <source>Visitor</source>
+        <translation>Επισκέπτης</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>Φόρμες</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Εισερχόμενα</translation>
     </message>

@@ -1000,6 +1000,50 @@
         <translation>Testun amgen</translation>
     </message>
     <message>
+        <source>This submission is not there, or you may not read it.</source>
+        <translation>Dydy'r cyflwyniad hwn ddim yno, neu chewch chi ddim ei ddarllen.</translation>
+    </message>
+    <message>
+        <source>This page has no form.</source>
+        <translation>Does gan y dudalen hon ddim ffurflen.</translation>
+    </message>
+    <message>
+        <source>The submissions are only shown to those who may read collected information in the administration.</source>
+        <translation>Dim ond i'r rhai sy'n cael darllen gwybodaeth a gasglwyd yn y weinyddiaeth y dangosir y cyflwyniadau.</translation>
+    </message>
+    <message>
+        <source>%n submissions</source>
+        <translation>%n cyflwyniad</translation>
+    </message>
+    <message>
+        <source>Export CSV</source>
+        <translation>Allforio CSV</translation>
+    </message>
+    <message>
+        <source>In the administration</source>
+        <translation>Yn y weinyddiaeth</translation>
+    </message>
+    <message>
+        <source>This form collects personal data: keep what you read to yourself.</source>
+        <translation>Mae'r ffurflen hon yn casglu data personol: cadwch yr hyn a ddarllenwch i chi'ch hun.</translation>
+    </message>
+    <message>
+        <source>Submission</source>
+        <translation>Cyflwyniad</translation>
+    </message>
+    <message>
+        <source>Latest submissions</source>
+        <translation>Cyflwyniadau diweddaraf</translation>
+    </message>
+    <message>
+        <source>Visitor</source>
+        <translation>Ymwelydd</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>Ffurflenni</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Mewnflwch</translation>
     </message>

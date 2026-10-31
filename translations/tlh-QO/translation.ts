@@ -1000,6 +1000,50 @@
         <translation>Alt ghItlh</translation>
     </message>
     <message>
+        <source>This submission is not there, or you may not read it.</source>
+        <translation>ngeHbogh vam tu'lu'be', pagh DalaDlaHbe'.</translation>
+    </message>
+    <message>
+        <source>This page has no form.</source>
+        <translation>nav vamDaq ghItlh mu'tlhegh tu'lu'be'.</translation>
+    </message>
+    <message>
+        <source>The submissions are only shown to those who may read collected information in the administration.</source>
+        <translation>ngeHbogh Dochmey legh neH loHmeH Daq De' boSlu'pu'bogh laDlaHbogh nuvpu'.</translation>
+    </message>
+    <message>
+        <source>%n submissions</source>
+        <translation>ngeHbogh %n</translation>
+    </message>
+    <message>
+        <source>Export CSV</source>
+        <translation>CSV yIngeH</translation>
+    </message>
+    <message>
+        <source>In the administration</source>
+        <translation>loHmeH Daq</translation>
+    </message>
+    <message>
+        <source>This form collects personal data: keep what you read to yourself.</source>
+        <translation>De' ghot boS ghItlh vam: DalaDbogh yIpegh.</translation>
+    </message>
+    <message>
+        <source>Submission</source>
+        <translation>ngeHbogh</translation>
+    </message>
+    <message>
+        <source>Latest submissions</source>
+        <translation>ngeHbogh chu'</translation>
+    </message>
+    <message>
+        <source>Visitor</source>
+        <translation>ghoSwI'</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>ghItlhmey</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>QIn chu'</translation>
     </message>

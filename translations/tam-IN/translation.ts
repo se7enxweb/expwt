@@ -1000,6 +1000,50 @@
         <translation>மாற்று உரை</translation>
     </message>
     <message>
+        <source>This submission is not there, or you may not read it.</source>
+        <translation>இந்தச் சமர்ப்பிப்பு இல்லை, அல்லது அதைப் படிக்க உங்களுக்கு அனுமதி இல்லை.</translation>
+    </message>
+    <message>
+        <source>This page has no form.</source>
+        <translation>இந்தப் பக்கத்தில் படிவம் இல்லை.</translation>
+    </message>
+    <message>
+        <source>The submissions are only shown to those who may read collected information in the administration.</source>
+        <translation>நிர்வாகத்தில் சேகரிக்கப்பட்ட தகவல்களைப் படிக்கக்கூடியவர்களுக்கு மட்டுமே சமர்ப்பிப்புகள் காட்டப்படும்.</translation>
+    </message>
+    <message>
+        <source>%n submissions</source>
+        <translation>%n சமர்ப்பிப்புகள்</translation>
+    </message>
+    <message>
+        <source>Export CSV</source>
+        <translation>CSV ஏற்றுமதி செய்</translation>
+    </message>
+    <message>
+        <source>In the administration</source>
+        <translation>நிர்வாகத்தில்</translation>
+    </message>
+    <message>
+        <source>This form collects personal data: keep what you read to yourself.</source>
+        <translation>இந்தப் படிவம் தனிப்பட்ட தரவைச் சேகரிக்கிறது: நீங்கள் படிப்பதை உங்களுக்குள்ளேயே வைத்துக்கொள்ளுங்கள்.</translation>
+    </message>
+    <message>
+        <source>Submission</source>
+        <translation>சமர்ப்பிப்பு</translation>
+    </message>
+    <message>
+        <source>Latest submissions</source>
+        <translation>சமீபத்திய சமர்ப்பிப்புகள்</translation>
+    </message>
+    <message>
+        <source>Visitor</source>
+        <translation>பார்வையாளர்</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>படிவங்கள்</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>உள்பெட்டி</translation>
     </message>

@@ -1000,6 +1000,50 @@
         <translation>Alt nuŋlɔŋlɔ</translation>
     </message>
     <message>
+        <source>This submission is not there, or you may not read it.</source>
+        <translation>Nusi woɖo sia meli o, alo màte ŋu axlẽe o.</translation>
+    </message>
+    <message>
+        <source>This page has no form.</source>
+        <translation>Fɔm aɖeke mele axa sia dzi o.</translation>
+    </message>
+    <message>
+        <source>The submissions are only shown to those who may read collected information in the administration.</source>
+        <translation>Woɖea nusi woɖo la fiana ame siwo ate ŋu axlẽ nyatakaka siwo woƒo nu ƒu le dzikpɔƒe ko.</translation>
+    </message>
+    <message>
+        <source>%n submissions</source>
+        <translation>Nusi woɖo %n</translation>
+    </message>
+    <message>
+        <source>Export CSV</source>
+        <translation>Ɖo CSV ɖa</translation>
+    </message>
+    <message>
+        <source>In the administration</source>
+        <translation>Le dzikpɔƒe</translation>
+    </message>
+    <message>
+        <source>This form collects personal data: keep what you read to yourself.</source>
+        <translation>Fɔm sia ƒoa ame ŋutɔ ƒe nyatakakawo nu ƒu: nusi nèxlẽ la, na wòanɔ asiwò.</translation>
+    </message>
+    <message>
+        <source>Submission</source>
+        <translation>Nusi woɖo</translation>
+    </message>
+    <message>
+        <source>Latest submissions</source>
+        <translation>Nusi woɖo yeyetɔ</translation>
+    </message>
+    <message>
+        <source>Visitor</source>
+        <translation>Amedzro</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>Fɔmwo</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Agbalẽ siwo va</translation>
     </message>

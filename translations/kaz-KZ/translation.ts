@@ -1000,6 +1000,50 @@
         <translation>Балама мәтін</translation>
     </message>
     <message>
+        <source>This submission is not there, or you may not read it.</source>
+        <translation>Бұл жіберілім жоқ немесе оны оқуға рұқсатыңыз жоқ.</translation>
+    </message>
+    <message>
+        <source>This page has no form.</source>
+        <translation>Бұл бетте пішін жоқ.</translation>
+    </message>
+    <message>
+        <source>The submissions are only shown to those who may read collected information in the administration.</source>
+        <translation>Жіберілімдер әкімшілікте жиналған ақпаратты оқи алатындарға ғана көрсетіледі.</translation>
+    </message>
+    <message>
+        <source>%n submissions</source>
+        <translation>%n жіберілім</translation>
+    </message>
+    <message>
+        <source>Export CSV</source>
+        <translation>CSV экспорттау</translation>
+    </message>
+    <message>
+        <source>In the administration</source>
+        <translation>Әкімшілікте</translation>
+    </message>
+    <message>
+        <source>This form collects personal data: keep what you read to yourself.</source>
+        <translation>Бұл пішін жеке деректерді жинайды: оқығаныңызды өзіңізде сақтаңыз.</translation>
+    </message>
+    <message>
+        <source>Submission</source>
+        <translation>Жіберілім</translation>
+    </message>
+    <message>
+        <source>Latest submissions</source>
+        <translation>Соңғы жіберілімдер</translation>
+    </message>
+    <message>
+        <source>Visitor</source>
+        <translation>Келуші</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>Пішіндер</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Кіріс</translation>
     </message>

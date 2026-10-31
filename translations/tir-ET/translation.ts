@@ -1000,6 +1000,50 @@
         <translation>ኣማራጺ ጽሑፍ</translation>
     </message>
     <message>
+        <source>This submission is not there, or you may not read it.</source>
+        <translation>እዚ ዝተላእከ የለን፡ ወይ ከተንብቦ ኣይፍቀደልካን።</translation>
+    </message>
+    <message>
+        <source>This page has no form.</source>
+        <translation>እዚ ገጽ ቅጥዒ የብሉን።</translation>
+    </message>
+    <message>
+        <source>The submissions are only shown to those who may read collected information in the administration.</source>
+        <translation>ዝተላእኩ ኣብ ምምሕዳር ዝተኣከበ ሓበሬታ ከንብቡ ንዝኽእሉ ጥራይ እዮም ዝረኣዩ።</translation>
+    </message>
+    <message>
+        <source>%n submissions</source>
+        <translation>%n ዝተላእኩ</translation>
+    </message>
+    <message>
+        <source>Export CSV</source>
+        <translation>CSV ስደድ</translation>
+    </message>
+    <message>
+        <source>In the administration</source>
+        <translation>ኣብ ምምሕዳር</translation>
+    </message>
+    <message>
+        <source>This form collects personal data: keep what you read to yourself.</source>
+        <translation>እዚ ቅጥዒ ውልቃዊ ሓበሬታ ይእክብ፦ ዘንበብካዮ ንርእስኻ ሓዞ።</translation>
+    </message>
+    <message>
+        <source>Submission</source>
+        <translation>ዝተላእከ</translation>
+    </message>
+    <message>
+        <source>Latest submissions</source>
+        <translation>ናይ ቀረባ ዝተላእኩ</translation>
+    </message>
+    <message>
+        <source>Visitor</source>
+        <translation>በጻሒ</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>ቅጥዕታት</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>ዝኣተዉ</translation>
     </message>

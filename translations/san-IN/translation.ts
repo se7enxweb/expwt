@@ -1000,6 +1000,50 @@
         <translation>वैकल्पिकः पाठः</translation>
     </message>
     <message>
+        <source>This submission is not there, or you may not read it.</source>
+        <translation>इदं प्रेषणं नास्ति, अथवा भवतः तत् पठितुम् अनुमतिः नास्ति।</translation>
+    </message>
+    <message>
+        <source>This page has no form.</source>
+        <translation>अस्मिन् पृष्ठे प्रपत्रं नास्ति।</translation>
+    </message>
+    <message>
+        <source>The submissions are only shown to those who may read collected information in the administration.</source>
+        <translation>प्रेषणानि केवलं तेभ्यः दर्श्यन्ते ये प्रशासने सङ्गृहीतां सूचनां पठितुं शक्नुवन्ति।</translation>
+    </message>
+    <message>
+        <source>%n submissions</source>
+        <translation>%n प्रेषणानि</translation>
+    </message>
+    <message>
+        <source>Export CSV</source>
+        <translation>CSV निर्यातयतु</translation>
+    </message>
+    <message>
+        <source>In the administration</source>
+        <translation>प्रशासने</translation>
+    </message>
+    <message>
+        <source>This form collects personal data: keep what you read to yourself.</source>
+        <translation>इदं प्रपत्रं व्यक्तिगतदत्तांशं सङ्गृह्णाति: यत् पठति तत् स्वस्मिन् एव रक्षतु।</translation>
+    </message>
+    <message>
+        <source>Submission</source>
+        <translation>प्रेषणम्</translation>
+    </message>
+    <message>
+        <source>Latest submissions</source>
+        <translation>नूतनानि प्रेषणानि</translation>
+    </message>
+    <message>
+        <source>Visitor</source>
+        <translation>आगन्तुकः</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>प्रपत्राणि</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>आगतपेटिका</translation>
     </message>

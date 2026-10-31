@@ -1000,6 +1000,50 @@
         <translation>Alt sɛbɛn</translation>
     </message>
     <message>
+        <source>This submission is not there, or you may not read it.</source>
+        <translation>Ci nin tɛ yen, walima i tɛ se k'a kalan.</translation>
+    </message>
+    <message>
+        <source>This page has no form.</source>
+        <translation>Formu si tɛ ɲɛ nin na.</translation>
+    </message>
+    <message>
+        <source>The submissions are only shown to those who may read collected information in the administration.</source>
+        <translation>Ciw bɛ jira dɔrɔn mɔgɔw la minnu bɛ se ka kunnafoni lajɛlenw kalan ɲɛmɔgɔya la.</translation>
+    </message>
+    <message>
+        <source>%n submissions</source>
+        <translation>Ci %n</translation>
+    </message>
+    <message>
+        <source>Export CSV</source>
+        <translation>CSV bɔ</translation>
+    </message>
+    <message>
+        <source>In the administration</source>
+        <translation>Ɲɛmɔgɔya la</translation>
+    </message>
+    <message>
+        <source>This form collects personal data: keep what you read to yourself.</source>
+        <translation>Formu nin bɛ mɔgɔ yɛrɛ kunnafoniw lajɛ: i bɛ min kalan, o mara i yɛrɛ fɛ.</translation>
+    </message>
+    <message>
+        <source>Submission</source>
+        <translation>Ci</translation>
+    </message>
+    <message>
+        <source>Latest submissions</source>
+        <translation>Ci laban</translation>
+    </message>
+    <message>
+        <source>Visitor</source>
+        <translation>Lajɛlikɛla</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>Formuw</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Bataki donnenw</translation>
     </message>

@@ -1000,6 +1000,50 @@
         <translation>Text alternatiu</translation>
     </message>
     <message>
+        <source>This submission is not there, or you may not read it.</source>
+        <translation>Aquest enviament no existeix o no el pots llegir.</translation>
+    </message>
+    <message>
+        <source>This page has no form.</source>
+        <translation>Aquesta pàgina no té cap formulari.</translation>
+    </message>
+    <message>
+        <source>The submissions are only shown to those who may read collected information in the administration.</source>
+        <translation>Els enviaments només es mostren a qui pot llegir la informació recollida a l'administració.</translation>
+    </message>
+    <message>
+        <source>%n submissions</source>
+        <translation>%n enviaments</translation>
+    </message>
+    <message>
+        <source>Export CSV</source>
+        <translation>Exporta CSV</translation>
+    </message>
+    <message>
+        <source>In the administration</source>
+        <translation>A l'administració</translation>
+    </message>
+    <message>
+        <source>This form collects personal data: keep what you read to yourself.</source>
+        <translation>Aquest formulari recull dades personals: guarda't per a tu el que llegeixis.</translation>
+    </message>
+    <message>
+        <source>Submission</source>
+        <translation>Enviament</translation>
+    </message>
+    <message>
+        <source>Latest submissions</source>
+        <translation>Últims enviaments</translation>
+    </message>
+    <message>
+        <source>Visitor</source>
+        <translation>Visitant</translation>
+    </message>
+    <message>
+        <source>Forms</source>
+        <translation>Formularis</translation>
+    </message>
+    <message>
         <source>Inbox</source>
         <translation>Safata d'entrada</translation>
     </message>
