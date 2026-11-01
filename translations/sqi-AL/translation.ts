@@ -1371,5 +1371,97 @@
         <source>Verify it's you</source>
         <translation>Verifikoni që jeni ju</translation>
     </message>
+    <message>
+        <source>There are no comments here.</source>
+        <translation>Këtu nuk ka komente.</translation>
+    </message>
+    <message>
+        <source>This comment is not there any more, or you may not read it.</source>
+        <translation>Ky koment nuk ekziston më, ose nuk ju lejohet ta lexoni.</translation>
+    </message>
+    <message>
+        <source>There is no such decision.</source>
+        <translation>Nuk ka një vendim të tillë.</translation>
+    </message>
+    <message>
+        <source>Write the reply first.</source>
+        <translation>Shkruani fillimisht përgjigjen.</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>Komente</translation>
+    </message>
+    <message>
+        <source>%n wait for moderation</source>
+        <translation>%n presin moderimin</translation>
+    </message>
+    <message>
+        <source>No comments on this page yet.</source>
+        <translation>Në këtë faqe nuk ka ende komente.</translation>
+    </message>
+    <message>
+        <source>Waiting for moderation</source>
+        <translation>Pret moderimin</translation>
+    </message>
+    <message>
+        <source>Reply</source>
+        <translation>Përgjigju</translation>
+    </message>
+    <message>
+        <source>Spam</source>
+        <translation>Spam</translation>
+    </message>
+    <message>
+        <source>Move "%name" to the trash as spam? It can be restored from the trash in the administration.</source>
+        <translation>Të zhvendoset "%name" në kosh si spam? Mund të rikthehet nga koshi në administrim.</translation>
+    </message>
+    <message>
+        <source>Spam ...</source>
+        <translation>Spam ...</translation>
+    </message>
+    <message>
+        <source>The comment is approved and shown on the page.</source>
+        <translation>Komenti u miratua dhe shfaqet në faqe.</translation>
+    </message>
+    <message>
+        <source>The comment is hidden.</source>
+        <translation>Komenti u fsheh.</translation>
+    </message>
+    <message>
+        <source>The comment was moved to the trash as spam.</source>
+        <translation>Komenti u zhvendos në kosh si spam.</translation>
+    </message>
+    <message>
+        <source>A workflow holds this change. Find it in the administration.</source>
+        <translation>Një rrjedhë pune e mban këtë ndryshim. Gjejeni në administrim.</translation>
+    </message>
+    <message>
+        <source>Send the reply</source>
+        <translation>Dërgo përgjigjen</translation>
+    </message>
+    <message>
+        <source>Write a comment</source>
+        <translation>Shkruaj një koment</translation>
+    </message>
+    <message>
+        <source>Reply to "%name"</source>
+        <translation>Përgjigje për "%name"</translation>
+    </message>
+    <message>
+        <source>Comment on this page</source>
+        <translation>Komento këtë faqe</translation>
+    </message>
+    <message>
+        <source>The reply is published on the page.</source>
+        <translation>Përgjigja u publikua në faqe.</translation>
+    </message>
+    <message>
+        <source>The reply waits for its approval.</source>
+        <translation>Përgjigja pret miratimin.</translation>
+    </message>
+    <message>
+        <source>%n comments wait for moderation</source>
+        <translation>%n komente presin moderimin</translation>
+    </message>
 </context>
 </TS>

@@ -1371,5 +1371,97 @@
         <source>Verify it's you</source>
         <translation>ཁྱོད་རང་ཨིནམ་ངེས་གཏན་བཟོ།</translation>
     </message>
+    <message>
+        <source>There are no comments here.</source>
+        <translation>ནཱ་ལུ་ བསམ་བཀོད་ག་ནི་ཡང་མེད།</translation>
+    </message>
+    <message>
+        <source>This comment is not there any more, or you may not read it.</source>
+        <translation>བསམ་བཀོད་འདི་ ད་ལྟོ་མེད། ཡང་ན་ ཁྱོད་ཀྱིས་ ལྷག་ནི་ལུ་ གནང་བ་མེད།</translation>
+    </message>
+    <message>
+        <source>There is no such decision.</source>
+        <translation>དེ་བཟུམ་གྱི་ གྲོས་ཐག་མེད།</translation>
+    </message>
+    <message>
+        <source>Write the reply first.</source>
+        <translation>དང་པ་ ལན་འདི་ བྲིས།</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>བསམ་བཀོད།</translation>
+    </message>
+    <message>
+        <source>%n wait for moderation</source>
+        <translation>%n ཞིབ་དཔྱད་ལུ་ བསྒུག་དོ།</translation>
+    </message>
+    <message>
+        <source>No comments on this page yet.</source>
+        <translation>ཤོག་ལེབ་འདི་གུ་ ད་ཚུན་ བསམ་བཀོད་མེད།</translation>
+    </message>
+    <message>
+        <source>Waiting for moderation</source>
+        <translation>ཞིབ་དཔྱད་ལུ་ བསྒུག་དོ།</translation>
+    </message>
+    <message>
+        <source>Reply</source>
+        <translation>ལན་གསལ།</translation>
+    </message>
+    <message>
+        <source>Spam</source>
+        <translation>ཁ་ཚིག་ཁྱད་མེད།</translation>
+    </message>
+    <message>
+        <source>Move "%name" to the trash as spam? It can be restored from the trash in the administration.</source>
+        <translation>"%name" ཁ་ཚིག་ཁྱད་མེད་སྦེ་ ཁུག་མ་ནང་སྤོ་ནི་ཨིན་ན? བདག་སྐྱོང་ནང་ ཁུག་མ་ལས་ སླར་གསོ་འབད་ཚུགས།</translation>
+    </message>
+    <message>
+        <source>Spam ...</source>
+        <translation>ཁ་ཚིག་ཁྱད་མེད། ...</translation>
+    </message>
+    <message>
+        <source>The comment is approved and shown on the page.</source>
+        <translation>བསམ་བཀོད་ གནང་བ་ཐོབ་སྟེ་ ཤོག་ལེབ་གུ་ སྟོན་དོ།</translation>
+    </message>
+    <message>
+        <source>The comment is hidden.</source>
+        <translation>བསམ་བཀོད་ སྦ་ཡི།</translation>
+    </message>
+    <message>
+        <source>The comment was moved to the trash as spam.</source>
+        <translation>བསམ་བཀོད་ ཁ་ཚིག་ཁྱད་མེད་སྦེ་ ཁུག་མ་ནང་ སྤོ་ཡི།</translation>
+    </message>
+    <message>
+        <source>A workflow holds this change. Find it in the administration.</source>
+        <translation>ལཱ་གི་རྒྱུན་རིམ་ཅིག་གིས་ བསྒྱུར་བཅོས་འདི་ བཀག་དོ། བདག་སྐྱོང་ནང་ འཚོལ།</translation>
+    </message>
+    <message>
+        <source>Send the reply</source>
+        <translation>ལན་གཏང་།</translation>
+    </message>
+    <message>
+        <source>Write a comment</source>
+        <translation>བསམ་བཀོད་ཅིག་ བྲིས།</translation>
+    </message>
+    <message>
+        <source>Reply to "%name"</source>
+        <translation>"%name" ལུ་ལན།</translation>
+    </message>
+    <message>
+        <source>Comment on this page</source>
+        <translation>ཤོག་ལེབ་འདི་གུ་ བསམ་བཀོད་བྲིས།</translation>
+    </message>
+    <message>
+        <source>The reply is published on the page.</source>
+        <translation>ལན་འདི་ ཤོག་ལེབ་གུ་ དཔར་བསྐྲུན་འབད་ཡི།</translation>
+    </message>
+    <message>
+        <source>The reply waits for its approval.</source>
+        <translation>ལན་འདི་ གནང་བ་ལུ་ བསྒུག་དོ།</translation>
+    </message>
+    <message>
+        <source>%n comments wait for moderation</source>
+        <translation>བསམ་བཀོད་ %n ཞིབ་དཔྱད་ལུ་ བསྒུག་དོ།</translation>
+    </message>
 </context>
 </TS>

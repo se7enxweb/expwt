@@ -1371,5 +1371,97 @@
         <source>Verify it's you</source>
         <translation>Kinnitage, et see olete teie</translation>
     </message>
+    <message>
+        <source>There are no comments here.</source>
+        <translation>Siin pole kommentaare.</translation>
+    </message>
+    <message>
+        <source>This comment is not there any more, or you may not read it.</source>
+        <translation>Seda kommentaari pole enam või teil pole lubatud seda lugeda.</translation>
+    </message>
+    <message>
+        <source>There is no such decision.</source>
+        <translation>Sellist otsust pole.</translation>
+    </message>
+    <message>
+        <source>Write the reply first.</source>
+        <translation>Kirjutage kõigepealt vastus.</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>Kommentaarid</translation>
+    </message>
+    <message>
+        <source>%n wait for moderation</source>
+        <translation>%n ootab modereerimist</translation>
+    </message>
+    <message>
+        <source>No comments on this page yet.</source>
+        <translation>Sellel lehel pole veel kommentaare.</translation>
+    </message>
+    <message>
+        <source>Waiting for moderation</source>
+        <translation>Ootab modereerimist</translation>
+    </message>
+    <message>
+        <source>Reply</source>
+        <translation>Vasta</translation>
+    </message>
+    <message>
+        <source>Spam</source>
+        <translation>Rämpspost</translation>
+    </message>
+    <message>
+        <source>Move "%name" to the trash as spam? It can be restored from the trash in the administration.</source>
+        <translation>Kas teisaldada "%name" rämpspostina prügikasti? Selle saab halduses prügikastist taastada.</translation>
+    </message>
+    <message>
+        <source>Spam ...</source>
+        <translation>Rämpspost ...</translation>
+    </message>
+    <message>
+        <source>The comment is approved and shown on the page.</source>
+        <translation>Kommentaar on kinnitatud ja seda näidatakse lehel.</translation>
+    </message>
+    <message>
+        <source>The comment is hidden.</source>
+        <translation>Kommentaar on peidetud.</translation>
+    </message>
+    <message>
+        <source>The comment was moved to the trash as spam.</source>
+        <translation>Kommentaar teisaldati rämpspostina prügikasti.</translation>
+    </message>
+    <message>
+        <source>A workflow holds this change. Find it in the administration.</source>
+        <translation>Töövoog hoiab seda muudatust kinni. Leiate selle haldusest.</translation>
+    </message>
+    <message>
+        <source>Send the reply</source>
+        <translation>Saada vastus</translation>
+    </message>
+    <message>
+        <source>Write a comment</source>
+        <translation>Kirjuta kommentaar</translation>
+    </message>
+    <message>
+        <source>Reply to "%name"</source>
+        <translation>Vastus kommentaarile "%name"</translation>
+    </message>
+    <message>
+        <source>Comment on this page</source>
+        <translation>Kommenteeri seda lehte</translation>
+    </message>
+    <message>
+        <source>The reply is published on the page.</source>
+        <translation>Vastus on lehel avaldatud.</translation>
+    </message>
+    <message>
+        <source>The reply waits for its approval.</source>
+        <translation>Vastus ootab kinnitamist.</translation>
+    </message>
+    <message>
+        <source>%n comments wait for moderation</source>
+        <translation>%n kommentaari ootab modereerimist</translation>
+    </message>
 </context>
 </TS>

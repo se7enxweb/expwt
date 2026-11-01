@@ -1371,5 +1371,97 @@
         <source>Verify it's you</source>
         <translation>Qinisekisa ukuba nguwe</translation>
     </message>
+    <message>
+        <source>There are no comments here.</source>
+        <translation>Akukho zimvo apha.</translation>
+    </message>
+    <message>
+        <source>This comment is not there any more, or you may not read it.</source>
+        <translation>Olu luvo alusekho, okanye awuvumelekanga ukulufunda.</translation>
+    </message>
+    <message>
+        <source>There is no such decision.</source>
+        <translation>Asikho isigqibo esinjalo.</translation>
+    </message>
+    <message>
+        <source>Write the reply first.</source>
+        <translation>Qala ubhale impendulo.</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>Izimvo</translation>
+    </message>
+    <message>
+        <source>%n wait for moderation</source>
+        <translation>%n zilinde ukumodareyithwa</translation>
+    </message>
+    <message>
+        <source>No comments on this page yet.</source>
+        <translation>Akukabikho zimvo kweli phepha.</translation>
+    </message>
+    <message>
+        <source>Waiting for moderation</source>
+        <translation>Lulinde ukumodareyithwa</translation>
+    </message>
+    <message>
+        <source>Reply</source>
+        <translation>Phendula</translation>
+    </message>
+    <message>
+        <source>Spam</source>
+        <translation>Ugaxekile</translation>
+    </message>
+    <message>
+        <source>Move "%name" to the trash as spam? It can be restored from the trash in the administration.</source>
+        <translation>Hambisa "%name" kwinkunkuma njengogaxekile? Lunokubuyiselwa kwinkunkuma kulawulo.</translation>
+    </message>
+    <message>
+        <source>Spam ...</source>
+        <translation>Ugaxekile ...</translation>
+    </message>
+    <message>
+        <source>The comment is approved and shown on the page.</source>
+        <translation>Uluvo luvunyiwe kwaye luboniswa ephepheni.</translation>
+    </message>
+    <message>
+        <source>The comment is hidden.</source>
+        <translation>Uluvo lufihliwe.</translation>
+    </message>
+    <message>
+        <source>The comment was moved to the trash as spam.</source>
+        <translation>Uluvo luhanjiswe kwinkunkuma njengogaxekile.</translation>
+    </message>
+    <message>
+        <source>A workflow holds this change. Find it in the administration.</source>
+        <translation>Ukuhamba komsebenzi kubambe olu tshintsho. Lufumane kulawulo.</translation>
+    </message>
+    <message>
+        <source>Send the reply</source>
+        <translation>Thumela impendulo</translation>
+    </message>
+    <message>
+        <source>Write a comment</source>
+        <translation>Bhala uluvo</translation>
+    </message>
+    <message>
+        <source>Reply to "%name"</source>
+        <translation>Impendulo ku-"%name"</translation>
+    </message>
+    <message>
+        <source>Comment on this page</source>
+        <translation>Phawula ngeli phepha</translation>
+    </message>
+    <message>
+        <source>The reply is published on the page.</source>
+        <translation>Impendulo ipapashwe ephepheni.</translation>
+    </message>
+    <message>
+        <source>The reply waits for its approval.</source>
+        <translation>Impendulo ilinde ukuvunywa kwayo.</translation>
+    </message>
+    <message>
+        <source>%n comments wait for moderation</source>
+        <translation>Izimvo ezi-%n zilinde ukumodareyithwa</translation>
+    </message>
 </context>
 </TS>

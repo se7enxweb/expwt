@@ -1371,5 +1371,97 @@
         <source>Verify it's you</source>
         <translation>Vátta, at tað ert tú</translation>
     </message>
+    <message>
+        <source>There are no comments here.</source>
+        <translation>Her eru eingar viðmerkingar.</translation>
+    </message>
+    <message>
+        <source>This comment is not there any more, or you may not read it.</source>
+        <translation>Henda viðmerkingin er ikki longur til, ella tú mást ikki lesa hana.</translation>
+    </message>
+    <message>
+        <source>There is no such decision.</source>
+        <translation>Eingin slík avgerð er til.</translation>
+    </message>
+    <message>
+        <source>Write the reply first.</source>
+        <translation>Skriva svarið fyrst.</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>Viðmerkingar</translation>
+    </message>
+    <message>
+        <source>%n wait for moderation</source>
+        <translation>%n bíða eftir eftirliti</translation>
+    </message>
+    <message>
+        <source>No comments on this page yet.</source>
+        <translation>Enn eru eingar viðmerkingar á hesi síðuni.</translation>
+    </message>
+    <message>
+        <source>Waiting for moderation</source>
+        <translation>Bíðar eftir eftirliti</translation>
+    </message>
+    <message>
+        <source>Reply</source>
+        <translation>Svara</translation>
+    </message>
+    <message>
+        <source>Spam</source>
+        <translation>Ruskpostur</translation>
+    </message>
+    <message>
+        <source>Move "%name" to the trash as spam? It can be restored from the trash in the administration.</source>
+        <translation>Flyt "%name" í ruskspannina sum ruskpost? Hon kann endurstovnast úr ruskspanni í umsitingini.</translation>
+    </message>
+    <message>
+        <source>Spam ...</source>
+        <translation>Ruskpostur ...</translation>
+    </message>
+    <message>
+        <source>The comment is approved and shown on the page.</source>
+        <translation>Viðmerkingin er góðkend og víst á síðuni.</translation>
+    </message>
+    <message>
+        <source>The comment is hidden.</source>
+        <translation>Viðmerkingin er fjald.</translation>
+    </message>
+    <message>
+        <source>The comment was moved to the trash as spam.</source>
+        <translation>Viðmerkingin er flutt í ruskspannina sum ruskpostur.</translation>
+    </message>
+    <message>
+        <source>A workflow holds this change. Find it in the administration.</source>
+        <translation>Eitt arbeiðsflóð heldur aftur á hesi broytingini. Finn hana í umsitingini.</translation>
+    </message>
+    <message>
+        <source>Send the reply</source>
+        <translation>Send svarið</translation>
+    </message>
+    <message>
+        <source>Write a comment</source>
+        <translation>Skriva eina viðmerking</translation>
+    </message>
+    <message>
+        <source>Reply to "%name"</source>
+        <translation>Svar til "%name"</translation>
+    </message>
+    <message>
+        <source>Comment on this page</source>
+        <translation>Viðmerk hesa síðuna</translation>
+    </message>
+    <message>
+        <source>The reply is published on the page.</source>
+        <translation>Svarið er útgivið á síðuni.</translation>
+    </message>
+    <message>
+        <source>The reply waits for its approval.</source>
+        <translation>Svarið bíðar eftir góðkenning.</translation>
+    </message>
+    <message>
+        <source>%n comments wait for moderation</source>
+        <translation>%n viðmerkingar bíða eftir eftirliti</translation>
+    </message>
 </context>
 </TS>

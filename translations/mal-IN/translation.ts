@@ -1371,5 +1371,97 @@
         <source>Verify it's you</source>
         <translation>ഇത് നിങ്ങളാണെന്ന് സ്ഥിരീകരിക്കുക</translation>
     </message>
+    <message>
+        <source>There are no comments here.</source>
+        <translation>ഇവിടെ അഭിപ്രായങ്ങളൊന്നുമില്ല.</translation>
+    </message>
+    <message>
+        <source>This comment is not there any more, or you may not read it.</source>
+        <translation>ഈ അഭിപ്രായം ഇനി ഇല്ല, അല്ലെങ്കിൽ അത് വായിക്കാൻ നിങ്ങൾക്ക് അനുമതിയില്ല.</translation>
+    </message>
+    <message>
+        <source>There is no such decision.</source>
+        <translation>അങ്ങനെയൊരു തീരുമാനമില്ല.</translation>
+    </message>
+    <message>
+        <source>Write the reply first.</source>
+        <translation>ആദ്യം മറുപടി എഴുതുക.</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>അഭിപ്രായങ്ങൾ</translation>
+    </message>
+    <message>
+        <source>%n wait for moderation</source>
+        <translation>%n മോഡറേഷനായി കാത്തിരിക്കുന്നു</translation>
+    </message>
+    <message>
+        <source>No comments on this page yet.</source>
+        <translation>ഈ പേജിൽ ഇതുവരെ അഭിപ്രായങ്ങളൊന്നുമില്ല.</translation>
+    </message>
+    <message>
+        <source>Waiting for moderation</source>
+        <translation>മോഡറേഷനായി കാത്തിരിക്കുന്നു</translation>
+    </message>
+    <message>
+        <source>Reply</source>
+        <translation>മറുപടി</translation>
+    </message>
+    <message>
+        <source>Spam</source>
+        <translation>സ്പാം</translation>
+    </message>
+    <message>
+        <source>Move "%name" to the trash as spam? It can be restored from the trash in the administration.</source>
+        <translation>"%name" സ്പാം ആയി ട്രാഷിലേക്ക് നീക്കണോ? അഡ്മിനിസ്ട്രേഷനിൽ ട്രാഷിൽ നിന്ന് ഇത് പുനഃസ്ഥാപിക്കാം.</translation>
+    </message>
+    <message>
+        <source>Spam ...</source>
+        <translation>സ്പാം ...</translation>
+    </message>
+    <message>
+        <source>The comment is approved and shown on the page.</source>
+        <translation>അഭിപ്രായം അംഗീകരിച്ചു, പേജിൽ കാണിക്കുന്നു.</translation>
+    </message>
+    <message>
+        <source>The comment is hidden.</source>
+        <translation>അഭിപ്രായം മറച്ചു.</translation>
+    </message>
+    <message>
+        <source>The comment was moved to the trash as spam.</source>
+        <translation>അഭിപ്രായം സ്പാം ആയി ട്രാഷിലേക്ക് നീക്കി.</translation>
+    </message>
+    <message>
+        <source>A workflow holds this change. Find it in the administration.</source>
+        <translation>ഒരു വർക്ക്ഫ്ലോ ഈ മാറ്റം തടഞ്ഞുവച്ചിരിക്കുന്നു. അഡ്മിനിസ്ട്രേഷനിൽ കണ്ടെത്തുക.</translation>
+    </message>
+    <message>
+        <source>Send the reply</source>
+        <translation>മറുപടി അയയ്ക്കുക</translation>
+    </message>
+    <message>
+        <source>Write a comment</source>
+        <translation>ഒരു അഭിപ്രായം എഴുതുക</translation>
+    </message>
+    <message>
+        <source>Reply to "%name"</source>
+        <translation>"%name" എന്നതിനുള്ള മറുപടി</translation>
+    </message>
+    <message>
+        <source>Comment on this page</source>
+        <translation>ഈ പേജിൽ അഭിപ്രായമിടുക</translation>
+    </message>
+    <message>
+        <source>The reply is published on the page.</source>
+        <translation>മറുപടി പേജിൽ പ്രസിദ്ധീകരിച്ചു.</translation>
+    </message>
+    <message>
+        <source>The reply waits for its approval.</source>
+        <translation>മറുപടി അംഗീകാരത്തിനായി കാത്തിരിക്കുന്നു.</translation>
+    </message>
+    <message>
+        <source>%n comments wait for moderation</source>
+        <translation>%n അഭിപ്രായങ്ങൾ മോഡറേഷനായി കാത്തിരിക്കുന്നു</translation>
+    </message>
 </context>
 </TS>

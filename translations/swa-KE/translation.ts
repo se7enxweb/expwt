@@ -1371,5 +1371,97 @@
         <source>Verify it's you</source>
         <translation>Thibitisha kuwa ni wewe</translation>
     </message>
+    <message>
+        <source>There are no comments here.</source>
+        <translation>Hakuna maoni hapa.</translation>
+    </message>
+    <message>
+        <source>This comment is not there any more, or you may not read it.</source>
+        <translation>Maoni haya hayapo tena, au huruhusiwi kuyasoma.</translation>
+    </message>
+    <message>
+        <source>There is no such decision.</source>
+        <translation>Hakuna uamuzi kama huo.</translation>
+    </message>
+    <message>
+        <source>Write the reply first.</source>
+        <translation>Andika jibu kwanza.</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>Maoni</translation>
+    </message>
+    <message>
+        <source>%n wait for moderation</source>
+        <translation>%n yanasubiri udhibiti</translation>
+    </message>
+    <message>
+        <source>No comments on this page yet.</source>
+        <translation>Bado hakuna maoni kwenye ukurasa huu.</translation>
+    </message>
+    <message>
+        <source>Waiting for moderation</source>
+        <translation>Yanasubiri udhibiti</translation>
+    </message>
+    <message>
+        <source>Reply</source>
+        <translation>Jibu</translation>
+    </message>
+    <message>
+        <source>Spam</source>
+        <translation>Barua taka</translation>
+    </message>
+    <message>
+        <source>Move "%name" to the trash as spam? It can be restored from the trash in the administration.</source>
+        <translation>Hamishia "%name" kwenye tupio kama barua taka? Yanaweza kurejeshwa kutoka kwenye tupio katika usimamizi.</translation>
+    </message>
+    <message>
+        <source>Spam ...</source>
+        <translation>Barua taka ...</translation>
+    </message>
+    <message>
+        <source>The comment is approved and shown on the page.</source>
+        <translation>Maoni yameidhinishwa na yanaonyeshwa kwenye ukurasa.</translation>
+    </message>
+    <message>
+        <source>The comment is hidden.</source>
+        <translation>Maoni yamefichwa.</translation>
+    </message>
+    <message>
+        <source>The comment was moved to the trash as spam.</source>
+        <translation>Maoni yamehamishiwa kwenye tupio kama barua taka.</translation>
+    </message>
+    <message>
+        <source>A workflow holds this change. Find it in the administration.</source>
+        <translation>Mtiririko wa kazi unashikilia badiliko hili. Lipate katika usimamizi.</translation>
+    </message>
+    <message>
+        <source>Send the reply</source>
+        <translation>Tuma jibu</translation>
+    </message>
+    <message>
+        <source>Write a comment</source>
+        <translation>Andika maoni</translation>
+    </message>
+    <message>
+        <source>Reply to "%name"</source>
+        <translation>Jibu kwa "%name"</translation>
+    </message>
+    <message>
+        <source>Comment on this page</source>
+        <translation>Toa maoni kuhusu ukurasa huu</translation>
+    </message>
+    <message>
+        <source>The reply is published on the page.</source>
+        <translation>Jibu limechapishwa kwenye ukurasa.</translation>
+    </message>
+    <message>
+        <source>The reply waits for its approval.</source>
+        <translation>Jibu linasubiri kuidhinishwa.</translation>
+    </message>
+    <message>
+        <source>%n comments wait for moderation</source>
+        <translation>Maoni %n yanasubiri udhibiti</translation>
+    </message>
 </context>
 </TS>

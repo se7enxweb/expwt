@@ -1371,5 +1371,97 @@
         <source>Verify it's you</source>
         <translation>Jẹ́rìí pé ìwọ ni</translation>
     </message>
+    <message>
+        <source>There are no comments here.</source>
+        <translation>Kò sí àsọyé níbí.</translation>
+    </message>
+    <message>
+        <source>This comment is not there any more, or you may not read it.</source>
+        <translation>Àsọyé yìí kò sí mọ́, tàbí a kò gbà ọ́ láàyè láti kà á.</translation>
+    </message>
+    <message>
+        <source>There is no such decision.</source>
+        <translation>Kò sí ìpinnu bẹ́ẹ̀.</translation>
+    </message>
+    <message>
+        <source>Write the reply first.</source>
+        <translation>Kọ́kọ́ kọ ìdáhùn náà.</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>Àwọn àsọyé</translation>
+    </message>
+    <message>
+        <source>%n wait for moderation</source>
+        <translation>%n ń dúró de àyẹ̀wò</translation>
+    </message>
+    <message>
+        <source>No comments on this page yet.</source>
+        <translation>Kò tíì sí àsọyé lórí ojú-ìwé yìí.</translation>
+    </message>
+    <message>
+        <source>Waiting for moderation</source>
+        <translation>Ó ń dúró de àyẹ̀wò</translation>
+    </message>
+    <message>
+        <source>Reply</source>
+        <translation>Fèsì</translation>
+    </message>
+    <message>
+        <source>Spam</source>
+        <translation>Àwúrúju</translation>
+    </message>
+    <message>
+        <source>Move "%name" to the trash as spam? It can be restored from the trash in the administration.</source>
+        <translation>Gbé "%name" lọ sí àpótí ìdọ̀tí gẹ́gẹ́ bí àwúrúju? A lè dá a padà láti inú àpótí ìdọ̀tí nínú ìṣàkóso.</translation>
+    </message>
+    <message>
+        <source>Spam ...</source>
+        <translation>Àwúrúju ...</translation>
+    </message>
+    <message>
+        <source>The comment is approved and shown on the page.</source>
+        <translation>A ti fọwọ́ sí àsọyé náà, ó sì ń hàn lórí ojú-ìwé.</translation>
+    </message>
+    <message>
+        <source>The comment is hidden.</source>
+        <translation>A ti fi àsọyé náà pamọ́.</translation>
+    </message>
+    <message>
+        <source>The comment was moved to the trash as spam.</source>
+        <translation>A ti gbé àsọyé náà lọ sí àpótí ìdọ̀tí gẹ́gẹ́ bí àwúrúju.</translation>
+    </message>
+    <message>
+        <source>A workflow holds this change. Find it in the administration.</source>
+        <translation>Ìlànà iṣẹ́ kan ń dá ìyípadà yìí dúró. Wá a nínú ìṣàkóso.</translation>
+    </message>
+    <message>
+        <source>Send the reply</source>
+        <translation>Fi ìdáhùn ránṣẹ́</translation>
+    </message>
+    <message>
+        <source>Write a comment</source>
+        <translation>Kọ àsọyé</translation>
+    </message>
+    <message>
+        <source>Reply to "%name"</source>
+        <translation>Ìdáhùn sí "%name"</translation>
+    </message>
+    <message>
+        <source>Comment on this page</source>
+        <translation>Sọ̀rọ̀ lórí ojú-ìwé yìí</translation>
+    </message>
+    <message>
+        <source>The reply is published on the page.</source>
+        <translation>A ti tẹ ìdáhùn náà jáde lórí ojú-ìwé.</translation>
+    </message>
+    <message>
+        <source>The reply waits for its approval.</source>
+        <translation>Ìdáhùn náà ń dúró de ìfọwọ́sí.</translation>
+    </message>
+    <message>
+        <source>%n comments wait for moderation</source>
+        <translation>Àsọyé %n ń dúró de àyẹ̀wò</translation>
+    </message>
 </context>
 </TS>

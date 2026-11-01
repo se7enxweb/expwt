@@ -1371,5 +1371,97 @@
         <source>Verify it's you</source>
         <translation>Wobkšuśćo, až sćo to wy</translation>
     </message>
+    <message>
+        <source>There are no comments here.</source>
+        <translation>How njejsu žedne komentary.</translation>
+    </message>
+    <message>
+        <source>This comment is not there any more, or you may not read it.</source>
+        <translation>Toś ten komentar južo njeeksistěrujo abo njesmějośo jen cytaś.</translation>
+    </message>
+    <message>
+        <source>There is no such decision.</source>
+        <translation>Take rozsuźenje njeeksistěrujo.</translation>
+    </message>
+    <message>
+        <source>Write the reply first.</source>
+        <translation>Napišćo nejpjerwjej wótegrono.</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>Komentary</translation>
+    </message>
+    <message>
+        <source>%n wait for moderation</source>
+        <translation>%n caka na moderaciju</translation>
+    </message>
+    <message>
+        <source>No comments on this page yet.</source>
+        <translation>Na toś tom boku hyšći žedne komentary njejsu.</translation>
+    </message>
+    <message>
+        <source>Waiting for moderation</source>
+        <translation>Caka na moderaciju</translation>
+    </message>
+    <message>
+        <source>Reply</source>
+        <translation>Wótegroniś</translation>
+    </message>
+    <message>
+        <source>Spam</source>
+        <translation>Spam</translation>
+    </message>
+    <message>
+        <source>Move "%name" to the trash as spam? It can be restored from the trash in the administration.</source>
+        <translation>"%name" ako spam do papjernika pśesunuś? Dajo se w administraciji z papjernika wótnowiś.</translation>
+    </message>
+    <message>
+        <source>Spam ...</source>
+        <translation>Spam ...</translation>
+    </message>
+    <message>
+        <source>The comment is approved and shown on the page.</source>
+        <translation>Komentar jo pśizwólony a pokazujo se na boku.</translation>
+    </message>
+    <message>
+        <source>The comment is hidden.</source>
+        <translation>Komentar jo schowany.</translation>
+    </message>
+    <message>
+        <source>The comment was moved to the trash as spam.</source>
+        <translation>Komentar jo se ako spam do papjernika pśesunuł.</translation>
+    </message>
+    <message>
+        <source>A workflow holds this change. Find it in the administration.</source>
+        <translation>Źěłowy proces toś tu změnu zaźaržujo. Namakajśo ju w administraciji.</translation>
+    </message>
+    <message>
+        <source>Send the reply</source>
+        <translation>Wótegrono pósłaś</translation>
+    </message>
+    <message>
+        <source>Write a comment</source>
+        <translation>Komentar napisaś</translation>
+    </message>
+    <message>
+        <source>Reply to "%name"</source>
+        <translation>Wótegrono na "%name"</translation>
+    </message>
+    <message>
+        <source>Comment on this page</source>
+        <translation>Toś ten bok komentěrowaś</translation>
+    </message>
+    <message>
+        <source>The reply is published on the page.</source>
+        <translation>Wótegrono jo na boku wózjawjone.</translation>
+    </message>
+    <message>
+        <source>The reply waits for its approval.</source>
+        <translation>Wótegrono caka na swójo pśizwólenje.</translation>
+    </message>
+    <message>
+        <source>%n comments wait for moderation</source>
+        <translation>%n komentarow caka na moderaciju</translation>
+    </message>
 </context>
 </TS>

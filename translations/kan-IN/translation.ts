@@ -1371,5 +1371,97 @@
         <source>Verify it's you</source>
         <translation>ಇದು ನೀವೇ ಎಂದು ಖಚಿತಪಡಿಸಿ</translation>
     </message>
+    <message>
+        <source>There are no comments here.</source>
+        <translation>ಇಲ್ಲಿ ಯಾವುದೇ ಕಾಮೆಂಟ್‌ಗಳಿಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>This comment is not there any more, or you may not read it.</source>
+        <translation>ಈ ಕಾಮೆಂಟ್ ಈಗ ಇಲ್ಲ, ಅಥವಾ ಅದನ್ನು ಓದಲು ನಿಮಗೆ ಅನುಮತಿ ಇಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>There is no such decision.</source>
+        <translation>ಅಂತಹ ನಿರ್ಧಾರವಿಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>Write the reply first.</source>
+        <translation>ಮೊದಲು ಉತ್ತರ ಬರೆಯಿರಿ.</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>ಕಾಮೆಂಟ್‌ಗಳು</translation>
+    </message>
+    <message>
+        <source>%n wait for moderation</source>
+        <translation>%n ಮಾಡರೇಶನ್‌ಗಾಗಿ ಕಾಯುತ್ತಿವೆ</translation>
+    </message>
+    <message>
+        <source>No comments on this page yet.</source>
+        <translation>ಈ ಪುಟದಲ್ಲಿ ಇನ್ನೂ ಕಾಮೆಂಟ್‌ಗಳಿಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>Waiting for moderation</source>
+        <translation>ಮಾಡರೇಶನ್‌ಗಾಗಿ ಕಾಯುತ್ತಿದೆ</translation>
+    </message>
+    <message>
+        <source>Reply</source>
+        <translation>ಉತ್ತರಿಸಿ</translation>
+    </message>
+    <message>
+        <source>Spam</source>
+        <translation>ಸ್ಪ್ಯಾಮ್</translation>
+    </message>
+    <message>
+        <source>Move "%name" to the trash as spam? It can be restored from the trash in the administration.</source>
+        <translation>"%name" ಅನ್ನು ಸ್ಪ್ಯಾಮ್ ಆಗಿ ಕಸದ ಬುಟ್ಟಿಗೆ ಸರಿಸುವುದೇ? ಆಡಳಿತದಲ್ಲಿ ಕಸದ ಬುಟ್ಟಿಯಿಂದ ಮರುಸ್ಥಾಪಿಸಬಹುದು.</translation>
+    </message>
+    <message>
+        <source>Spam ...</source>
+        <translation>ಸ್ಪ್ಯಾಮ್ ...</translation>
+    </message>
+    <message>
+        <source>The comment is approved and shown on the page.</source>
+        <translation>ಕಾಮೆಂಟ್ ಅನುಮೋದನೆಯಾಗಿದೆ ಮತ್ತು ಪುಟದಲ್ಲಿ ತೋರಿಸಲಾಗುತ್ತಿದೆ.</translation>
+    </message>
+    <message>
+        <source>The comment is hidden.</source>
+        <translation>ಕಾಮೆಂಟ್ ಅನ್ನು ಅಡಗಿಸಲಾಗಿದೆ.</translation>
+    </message>
+    <message>
+        <source>The comment was moved to the trash as spam.</source>
+        <translation>ಕಾಮೆಂಟ್ ಅನ್ನು ಸ್ಪ್ಯಾಮ್ ಆಗಿ ಕಸದ ಬುಟ್ಟಿಗೆ ಸರಿಸಲಾಗಿದೆ.</translation>
+    </message>
+    <message>
+        <source>A workflow holds this change. Find it in the administration.</source>
+        <translation>ಒಂದು ವರ್ಕ್‌ಫ್ಲೋ ಈ ಬದಲಾವಣೆಯನ್ನು ತಡೆಹಿಡಿದಿದೆ. ಆಡಳಿತದಲ್ಲಿ ಹುಡುಕಿ.</translation>
+    </message>
+    <message>
+        <source>Send the reply</source>
+        <translation>ಉತ್ತರ ಕಳುಹಿಸಿ</translation>
+    </message>
+    <message>
+        <source>Write a comment</source>
+        <translation>ಕಾಮೆಂಟ್ ಬರೆಯಿರಿ</translation>
+    </message>
+    <message>
+        <source>Reply to "%name"</source>
+        <translation>"%name" ಗೆ ಉತ್ತರ</translation>
+    </message>
+    <message>
+        <source>Comment on this page</source>
+        <translation>ಈ ಪುಟದ ಬಗ್ಗೆ ಕಾಮೆಂಟ್ ಮಾಡಿ</translation>
+    </message>
+    <message>
+        <source>The reply is published on the page.</source>
+        <translation>ಉತ್ತರವನ್ನು ಪುಟದಲ್ಲಿ ಪ್ರಕಟಿಸಲಾಗಿದೆ.</translation>
+    </message>
+    <message>
+        <source>The reply waits for its approval.</source>
+        <translation>ಉತ್ತರ ಅನುಮೋದನೆಗಾಗಿ ಕಾಯುತ್ತಿದೆ.</translation>
+    </message>
+    <message>
+        <source>%n comments wait for moderation</source>
+        <translation>%n ಕಾಮೆಂಟ್‌ಗಳು ಮಾಡರೇಶನ್‌ಗಾಗಿ ಕಾಯುತ್ತಿವೆ</translation>
+    </message>
 </context>
 </TS>

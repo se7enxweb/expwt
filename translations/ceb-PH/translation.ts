@@ -1371,5 +1371,97 @@
         <source>Verify it's you</source>
         <translation>Pamatud-i nga ikaw kini</translation>
     </message>
+    <message>
+        <source>There are no comments here.</source>
+        <translation>Walay mga komento dinhi.</translation>
+    </message>
+    <message>
+        <source>This comment is not there any more, or you may not read it.</source>
+        <translation>Kini nga komento wala na, o dili ka tugotan nga mobasa niini.</translation>
+    </message>
+    <message>
+        <source>There is no such decision.</source>
+        <translation>Walay ingon niana nga desisyon.</translation>
+    </message>
+    <message>
+        <source>Write the reply first.</source>
+        <translation>Isulat una ang tubag.</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>Mga komento</translation>
+    </message>
+    <message>
+        <source>%n wait for moderation</source>
+        <translation>%n naghulat sa moderasyon</translation>
+    </message>
+    <message>
+        <source>No comments on this page yet.</source>
+        <translation>Wala pay komento niini nga panid.</translation>
+    </message>
+    <message>
+        <source>Waiting for moderation</source>
+        <translation>Naghulat sa moderasyon</translation>
+    </message>
+    <message>
+        <source>Reply</source>
+        <translation>Tubag</translation>
+    </message>
+    <message>
+        <source>Spam</source>
+        <translation>Spam</translation>
+    </message>
+    <message>
+        <source>Move "%name" to the trash as spam? It can be restored from the trash in the administration.</source>
+        <translation>Ibalhin ang "%name" sa basurahan isip spam? Mahimo kining ibalik gikan sa basurahan sa administrasyon.</translation>
+    </message>
+    <message>
+        <source>Spam ...</source>
+        <translation>Spam ...</translation>
+    </message>
+    <message>
+        <source>The comment is approved and shown on the page.</source>
+        <translation>Ang komento giuyonan ug gipakita sa panid.</translation>
+    </message>
+    <message>
+        <source>The comment is hidden.</source>
+        <translation>Ang komento gitago.</translation>
+    </message>
+    <message>
+        <source>The comment was moved to the trash as spam.</source>
+        <translation>Ang komento gibalhin sa basurahan isip spam.</translation>
+    </message>
+    <message>
+        <source>A workflow holds this change. Find it in the administration.</source>
+        <translation>Usa ka workflow ang nagkupot niini nga kausaban. Pangitaa kini sa administrasyon.</translation>
+    </message>
+    <message>
+        <source>Send the reply</source>
+        <translation>Ipadala ang tubag</translation>
+    </message>
+    <message>
+        <source>Write a comment</source>
+        <translation>Pagsulat og komento</translation>
+    </message>
+    <message>
+        <source>Reply to "%name"</source>
+        <translation>Tubag sa "%name"</translation>
+    </message>
+    <message>
+        <source>Comment on this page</source>
+        <translation>Pagkomento niini nga panid</translation>
+    </message>
+    <message>
+        <source>The reply is published on the page.</source>
+        <translation>Ang tubag gimantala sa panid.</translation>
+    </message>
+    <message>
+        <source>The reply waits for its approval.</source>
+        <translation>Ang tubag naghulat sa pag-uyon niini.</translation>
+    </message>
+    <message>
+        <source>%n comments wait for moderation</source>
+        <translation>%n ka komento naghulat sa moderasyon</translation>
+    </message>
 </context>
 </TS>

@@ -1371,5 +1371,97 @@
         <source>Verify it's you</source>
         <translation>तुमीच आसात हें पडताळात</translation>
     </message>
+    <message>
+        <source>There are no comments here.</source>
+        <translation>हांगा खंयचेय टिप्पणी नात.</translation>
+    </message>
+    <message>
+        <source>This comment is not there any more, or you may not read it.</source>
+        <translation>ही टिप्पणी आतां ना, वा तुमकां ती वाचपाक परवानगी ना.</translation>
+    </message>
+    <message>
+        <source>There is no such decision.</source>
+        <translation>असो खंयचोच निर्णय ना.</translation>
+    </message>
+    <message>
+        <source>Write the reply first.</source>
+        <translation>पयलीं जाप बरयात.</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>टिप्पण्यो</translation>
+    </message>
+    <message>
+        <source>%n wait for moderation</source>
+        <translation>%n मॉडरेशनाची वाट पळयतात</translation>
+    </message>
+    <message>
+        <source>No comments on this page yet.</source>
+        <translation>ह्या पानार अजून खंयचेय टिप्पणी नात.</translation>
+    </message>
+    <message>
+        <source>Waiting for moderation</source>
+        <translation>मॉडरेशनाची वाट पळयता</translation>
+    </message>
+    <message>
+        <source>Reply</source>
+        <translation>जाप दियात</translation>
+    </message>
+    <message>
+        <source>Spam</source>
+        <translation>स्पॅम</translation>
+    </message>
+    <message>
+        <source>Move "%name" to the trash as spam? It can be restored from the trash in the administration.</source>
+        <translation>"%name" स्पॅम म्हूण कचऱ्यांत घालूंक जाय? प्रशासनांत कचऱ्यांतल्यान ती परत हाडूंक जाता.</translation>
+    </message>
+    <message>
+        <source>Spam ...</source>
+        <translation>स्पॅम ...</translation>
+    </message>
+    <message>
+        <source>The comment is approved and shown on the page.</source>
+        <translation>टिप्पणी मान्य जाली आनी पानार दाखयतात.</translation>
+    </message>
+    <message>
+        <source>The comment is hidden.</source>
+        <translation>टिप्पणी लिपयली.</translation>
+    </message>
+    <message>
+        <source>The comment was moved to the trash as spam.</source>
+        <translation>टिप्पणी स्पॅम म्हूण कचऱ्यांत घाली.</translation>
+    </message>
+    <message>
+        <source>A workflow holds this change. Find it in the administration.</source>
+        <translation>एक वर्कफ्लो हो बदल धरून दवरता. प्रशासनांत सोदात.</translation>
+    </message>
+    <message>
+        <source>Send the reply</source>
+        <translation>जाप धाडात</translation>
+    </message>
+    <message>
+        <source>Write a comment</source>
+        <translation>टिप्पणी बरयात</translation>
+    </message>
+    <message>
+        <source>Reply to "%name"</source>
+        <translation>"%name" क जाप</translation>
+    </message>
+    <message>
+        <source>Comment on this page</source>
+        <translation>ह्या पानार टिप्पणी करात</translation>
+    </message>
+    <message>
+        <source>The reply is published on the page.</source>
+        <translation>जाप पानार उजवाडाक आयली.</translation>
+    </message>
+    <message>
+        <source>The reply waits for its approval.</source>
+        <translation>जाप मान्यतायेची वाट पळयता.</translation>
+    </message>
+    <message>
+        <source>%n comments wait for moderation</source>
+        <translation>%n टिप्पण्यो मॉडरेशनाची वाट पळयतात</translation>
+    </message>
 </context>
 </TS>

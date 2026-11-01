@@ -129,6 +129,32 @@ class expwtPureTest extends PHPUnit\Framework\TestCase
         $this->assertSame( expwtGateway::NEWSLETTER_REAUTH_GROUP, expwtAccess::REAUTH_GROUPS['newsletter.send'] );
     }
 
+    /** E4: what a moderation does, the subject of a reply, a comment's text; every refusal is translated */
+    public function testTheCommentsOfThePage()
+    {
+        $this->assertSame( 'reveal', expwtGateway::commentStep( 'approve', true ) );
+        $this->assertNull( expwtGateway::commentStep( 'approve', false ), 'an approved comment approved again: nothing to do' );
+        $this->assertSame( 'hide', expwtGateway::commentStep( 'hide', false ) );
+        $this->assertNull( expwtGateway::commentStep( 'hide', true ) );
+        $this->assertSame( 'trash', expwtGateway::commentStep( 'spam', false ) );
+        $this->assertSame( 'trash', expwtGateway::commentStep( 'spam', true ) );
+        $this->assertNull( expwtGateway::commentStep( 'remove', false ) );
+
+        $this->assertSame( 'Re: Great article', expwtGateway::replySubject( 'Great article', 'Healthy eating' ) );
+        $this->assertSame( 'Re: Great article', expwtGateway::replySubject( 'Re: Great article', 'Healthy eating' ), 'once' );
+        $this->assertSame( 'RE: shouting', expwtGateway::replySubject( 'RE: shouting', 'x' ) );
+        $this->assertSame( 'Re: Healthy eating', expwtGateway::replySubject( '  ', 'Healthy eating' ), 'a reply on the page' );
+        $this->assertSame( 255, mb_strlen( expwtGateway::replySubject( str_repeat( 'ü', 400 ), '' ), 'UTF-8' ) );
+
+        $this->assertSame( "Line one\nline two", expwtGateway::commentText( "  Line one\r\nline\x07 two\x00  " ) );
+        $this->assertSame( 5000, mb_strlen( expwtGateway::commentText( str_repeat( 'é', 6000 ) ), 'UTF-8' ) );
+
+        foreach ( array( 'There are no comments here.', 'This comment is not there any more, or you may not read it.', 'There is no such decision.',
+                         'Write the reply first.', '%n comments wait for moderation' ) as $text )
+            $this->assertContains( $text, expwtStrings::SOURCES, 'translated' );
+        $this->assertArrayNotHasKey( 'comments.spam', expwtAccess::REAUTH_GROUPS, 'spam asks as the administration\'s removal asks' );
+    }
+
     /** E3: the group of the real send is shipped switched on, and added to the kernel's groups (never replacing them) */
     public function testTheNewsletterReauthGroupIsShippedOn()
     {
@@ -507,6 +533,17 @@ class expwtPureTest extends PHPUnit\Framework\TestCase
         if ( $node === '' || !is_executable( $node ) )
             $this->markTestSkipped( 'Node is not installed' );
         exec( escapeshellarg( $node ) . ' ' . escapeshellarg( dirname( __DIR__, 2 ) . '/js/ai.test.js' ) . ' 2>&1', $out, $status );
+        $this->assertSame( 0, $status, implode( "\n", $out ) );
+        $this->assertStringStartsWith( 'PASS', (string)end( $out ) );
+    }
+
+    /** E4: the buttons of a comment in the Page panel (tests/js/comments.test.js, Node) */
+    public function testTheButtonsOfAComment()
+    {
+        $node = trim( (string)shell_exec( 'command -v node 2>&1' ) );
+        if ( $node === '' || !is_executable( $node ) )
+            $this->markTestSkipped( 'Node is not installed' );
+        exec( escapeshellarg( $node ) . ' ' . escapeshellarg( dirname( __DIR__, 2 ) . '/js/comments.test.js' ) . ' 2>&1', $out, $status );
         $this->assertSame( 0, $status, implode( "\n", $out ) );
         $this->assertStringStartsWith( 'PASS', (string)end( $out ) );
     }

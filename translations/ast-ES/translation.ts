@@ -1371,5 +1371,97 @@
         <source>Verify it's you</source>
         <translation>Confirma que yes tu</translation>
     </message>
+    <message>
+        <source>There are no comments here.</source>
+        <translation>Equí nun hai comentarios.</translation>
+    </message>
+    <message>
+        <source>This comment is not there any more, or you may not read it.</source>
+        <translation>Esti comentariu yá nun ta, o nun tienes permisu pa lleelu.</translation>
+    </message>
+    <message>
+        <source>There is no such decision.</source>
+        <translation>Nun esiste esa decisión.</translation>
+    </message>
+    <message>
+        <source>Write the reply first.</source>
+        <translation>Escribi primero la rempuesta.</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>Comentarios</translation>
+    </message>
+    <message>
+        <source>%n wait for moderation</source>
+        <translation>%n esperando moderación</translation>
+    </message>
+    <message>
+        <source>No comments on this page yet.</source>
+        <translation>Nun hai comentarios nesta páxina entá.</translation>
+    </message>
+    <message>
+        <source>Waiting for moderation</source>
+        <translation>Esperando moderación</translation>
+    </message>
+    <message>
+        <source>Reply</source>
+        <translation>Responder</translation>
+    </message>
+    <message>
+        <source>Spam</source>
+        <translation>Spam</translation>
+    </message>
+    <message>
+        <source>Move "%name" to the trash as spam? It can be restored from the trash in the administration.</source>
+        <translation>¿Mover "%name" a la papelera como spam? Pue restaurase dende la papelera na alministración.</translation>
+    </message>
+    <message>
+        <source>Spam ...</source>
+        <translation>Spam ...</translation>
+    </message>
+    <message>
+        <source>The comment is approved and shown on the page.</source>
+        <translation>El comentariu ta aprobáu y amuésase na páxina.</translation>
+    </message>
+    <message>
+        <source>The comment is hidden.</source>
+        <translation>El comentariu ta anubríu.</translation>
+    </message>
+    <message>
+        <source>The comment was moved to the trash as spam.</source>
+        <translation>El comentariu movióse a la papelera como spam.</translation>
+    </message>
+    <message>
+        <source>A workflow holds this change. Find it in the administration.</source>
+        <translation>Un fluxu de trabayu retién esti cambéu. Atópalu na alministración.</translation>
+    </message>
+    <message>
+        <source>Send the reply</source>
+        <translation>Unviar la rempuesta</translation>
+    </message>
+    <message>
+        <source>Write a comment</source>
+        <translation>Escribir un comentariu</translation>
+    </message>
+    <message>
+        <source>Reply to "%name"</source>
+        <translation>Responder a "%name"</translation>
+    </message>
+    <message>
+        <source>Comment on this page</source>
+        <translation>Comentar esta páxina</translation>
+    </message>
+    <message>
+        <source>The reply is published on the page.</source>
+        <translation>La rempuesta ta espublizada na páxina.</translation>
+    </message>
+    <message>
+        <source>The reply waits for its approval.</source>
+        <translation>La rempuesta espera la so aprobación.</translation>
+    </message>
+    <message>
+        <source>%n comments wait for moderation</source>
+        <translation>%n comentarios esperando moderación</translation>
+    </message>
 </context>
 </TS>

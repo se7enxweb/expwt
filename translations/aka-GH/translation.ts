@@ -1371,5 +1371,97 @@
         <source>Verify it's you</source>
         <translation>Si so dua sɛ wo ne no</translation>
     </message>
+    <message>
+        <source>There are no comments here.</source>
+        <translation>Adwenkyerɛ biara nni ha.</translation>
+    </message>
+    <message>
+        <source>This comment is not there any more, or you may not read it.</source>
+        <translation>Saa adwenkyerɛ yi nni hɔ bio, anaa wontumi nkenkan.</translation>
+    </message>
+    <message>
+        <source>There is no such decision.</source>
+        <translation>Saa gyinae yi nni hɔ.</translation>
+    </message>
+    <message>
+        <source>Write the reply first.</source>
+        <translation>Kyerɛw mmuae no kan.</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>Adwenkyerɛ</translation>
+    </message>
+    <message>
+        <source>%n wait for moderation</source>
+        <translation>%n retwɛn nhwehwɛmu</translation>
+    </message>
+    <message>
+        <source>No comments on this page yet.</source>
+        <translation>Adwenkyerɛ biara nni krataafa yi so mmom.</translation>
+    </message>
+    <message>
+        <source>Waiting for moderation</source>
+        <translation>Ɛretwɛn nhwehwɛmu</translation>
+    </message>
+    <message>
+        <source>Reply</source>
+        <translation>Bua</translation>
+    </message>
+    <message>
+        <source>Spam</source>
+        <translation>Nkrasɛm a mfaso nni so</translation>
+    </message>
+    <message>
+        <source>Move "%name" to the trash as spam? It can be restored from the trash in the administration.</source>
+        <translation>Fa "%name" kɔ nwura kotoku mu sɛ nkrasɛm a mfaso nni so? Wobɛtumi asan de afi nwura kotoku mu wɔ nhyehyɛe no mu.</translation>
+    </message>
+    <message>
+        <source>Spam ...</source>
+        <translation>Nkrasɛm a mfaso nni so ...</translation>
+    </message>
+    <message>
+        <source>The comment is approved and shown on the page.</source>
+        <translation>Wɔapene adwenkyerɛ no so na ɛda krataafa no so.</translation>
+    </message>
+    <message>
+        <source>The comment is hidden.</source>
+        <translation>Wɔde adwenkyerɛ no ahinta.</translation>
+    </message>
+    <message>
+        <source>The comment was moved to the trash as spam.</source>
+        <translation>Wɔde adwenkyerɛ no akɔ nwura kotoku mu sɛ nkrasɛm a mfaso nni so.</translation>
+    </message>
+    <message>
+        <source>A workflow holds this change. Find it in the administration.</source>
+        <translation>Adwumayɛ nhyehyɛe bi kura saa nsakrae yi. Hwehwɛ wɔ nhyehyɛe no mu.</translation>
+    </message>
+    <message>
+        <source>Send the reply</source>
+        <translation>Fa mmuae no kɔ</translation>
+    </message>
+    <message>
+        <source>Write a comment</source>
+        <translation>Kyerɛw adwenkyerɛ</translation>
+    </message>
+    <message>
+        <source>Reply to "%name"</source>
+        <translation>Bua "%name"</translation>
+    </message>
+    <message>
+        <source>Comment on this page</source>
+        <translation>Kyerɛ w'adwene wɔ krataafa yi ho</translation>
+    </message>
+    <message>
+        <source>The reply is published on the page.</source>
+        <translation>Wɔde mmuae no ato krataafa no so.</translation>
+    </message>
+    <message>
+        <source>The reply waits for its approval.</source>
+        <translation>Mmuae no retwɛn ne mpenee.</translation>
+    </message>
+    <message>
+        <source>%n comments wait for moderation</source>
+        <translation>Adwenkyerɛ %n retwɛn nhwehwɛmu</translation>
+    </message>
 </context>
 </TS>

@@ -1371,5 +1371,97 @@
         <source>Verify it's you</source>
         <translation>ንስኻ ምዃንካ ኣረጋግጽ</translation>
     </message>
+    <message>
+        <source>There are no comments here.</source>
+        <translation>ኣብዚ ርእይቶ የለን።</translation>
+    </message>
+    <message>
+        <source>This comment is not there any more, or you may not read it.</source>
+        <translation>እዚ ርእይቶ ደጊም የለን፣ ወይ ከተንብቦ ኣይተፈቕደልካን።</translation>
+    </message>
+    <message>
+        <source>There is no such decision.</source>
+        <translation>ከምኡ ዝበለ ውሳነ የለን።</translation>
+    </message>
+    <message>
+        <source>Write the reply first.</source>
+        <translation>መጀመርታ መልሲ ጽሓፍ።</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>ርእይቶታት</translation>
+    </message>
+    <message>
+        <source>%n wait for moderation</source>
+        <translation>%n ምምርማር ይጽበዩ ኣለዉ</translation>
+    </message>
+    <message>
+        <source>No comments on this page yet.</source>
+        <translation>ኣብዚ ገጽ ክሳብ ሕጂ ርእይቶ የለን።</translation>
+    </message>
+    <message>
+        <source>Waiting for moderation</source>
+        <translation>ምምርማር ይጽበ ኣሎ</translation>
+    </message>
+    <message>
+        <source>Reply</source>
+        <translation>መልሲ</translation>
+    </message>
+    <message>
+        <source>Spam</source>
+        <translation>ስፓም</translation>
+    </message>
+    <message>
+        <source>Move "%name" to the trash as spam? It can be restored from the trash in the administration.</source>
+        <translation>"%name" ከም ስፓም ናብ መጓሓፊ ይሰደድ? ኣብ ምምሕዳር ካብ መጓሓፊ ክምለስ ይኽእል።</translation>
+    </message>
+    <message>
+        <source>Spam ...</source>
+        <translation>ስፓም ...</translation>
+    </message>
+    <message>
+        <source>The comment is approved and shown on the page.</source>
+        <translation>ርእይቶ ጸዲቑ ኣብ ገጽ ይርአ ኣሎ።</translation>
+    </message>
+    <message>
+        <source>The comment is hidden.</source>
+        <translation>ርእይቶ ተሓቢኡ።</translation>
+    </message>
+    <message>
+        <source>The comment was moved to the trash as spam.</source>
+        <translation>ርእይቶ ከም ስፓም ናብ መጓሓፊ ተሰዲዱ።</translation>
+    </message>
+    <message>
+        <source>A workflow holds this change. Find it in the administration.</source>
+        <translation>ሓደ ናይ ስራሕ ፍሰት ነዚ ለውጢ ሒዝዎ ኣሎ። ኣብ ምምሕዳር ድለዮ።</translation>
+    </message>
+    <message>
+        <source>Send the reply</source>
+        <translation>መልሲ ስደድ</translation>
+    </message>
+    <message>
+        <source>Write a comment</source>
+        <translation>ርእይቶ ጽሓፍ</translation>
+    </message>
+    <message>
+        <source>Reply to "%name"</source>
+        <translation>ን"%name" መልሲ</translation>
+    </message>
+    <message>
+        <source>Comment on this page</source>
+        <translation>ኣብዚ ገጽ ርእይቶ ሃብ</translation>
+    </message>
+    <message>
+        <source>The reply is published on the page.</source>
+        <translation>መልሲ ኣብ ገጽ ተሓቲሙ።</translation>
+    </message>
+    <message>
+        <source>The reply waits for its approval.</source>
+        <translation>መልሲ ምጽዳቕ ይጽበ ኣሎ።</translation>
+    </message>
+    <message>
+        <source>%n comments wait for moderation</source>
+        <translation>%n ርእይቶታት ምምርማር ይጽበዩ ኣለዉ</translation>
+    </message>
 </context>
 </TS>

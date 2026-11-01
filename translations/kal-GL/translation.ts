@@ -1371,5 +1371,97 @@
         <source>Verify it's you</source>
         <translation>Illuunerit uppernarsaruk</translation>
     </message>
+    <message>
+        <source>There are no comments here.</source>
+        <translation>Maani oqaaseqaatinik peqanngilaq.</translation>
+    </message>
+    <message>
+        <source>This comment is not there any more, or you may not read it.</source>
+        <translation>Oqaaseqaat una peqareernani, imaluunniit atuarsinnaanngilat.</translation>
+    </message>
+    <message>
+        <source>There is no such decision.</source>
+        <translation>Aalajangiineq taamaattoq peqanngilaq.</translation>
+    </message>
+    <message>
+        <source>Write the reply first.</source>
+        <translation>Akissut siullermik allaguk.</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>Oqaaseqaatit</translation>
+    </message>
+    <message>
+        <source>%n wait for moderation</source>
+        <translation>%n misissorneqarnissaminnut utaqqipput</translation>
+    </message>
+    <message>
+        <source>No comments on this page yet.</source>
+        <translation>Quppernermi uani suli oqaaseqaatinik peqanngilaq.</translation>
+    </message>
+    <message>
+        <source>Waiting for moderation</source>
+        <translation>Misissorneqarnissaminut utaqqivoq</translation>
+    </message>
+    <message>
+        <source>Reply</source>
+        <translation>Akiguk</translation>
+    </message>
+    <message>
+        <source>Spam</source>
+        <translation>Spam</translation>
+    </message>
+    <message>
+        <source>Move "%name" to the trash as spam? It can be restored from the trash in the administration.</source>
+        <translation>"%name" spam-itut eqqaavimmut nuutissaviuk? Aqutsinermi eqqaavimmit uteqqissinnaavoq.</translation>
+    </message>
+    <message>
+        <source>Spam ...</source>
+        <translation>Spam ...</translation>
+    </message>
+    <message>
+        <source>The comment is approved and shown on the page.</source>
+        <translation>Oqaaseqaat akuerineqarpoq quppernermilu takutinneqarluni.</translation>
+    </message>
+    <message>
+        <source>The comment is hidden.</source>
+        <translation>Oqaaseqaat isertorneqarpoq.</translation>
+    </message>
+    <message>
+        <source>The comment was moved to the trash as spam.</source>
+        <translation>Oqaaseqaat spam-itut eqqaavimmut nuunneqarpoq.</translation>
+    </message>
+    <message>
+        <source>A workflow holds this change. Find it in the administration.</source>
+        <translation>Suliap ingerlanera allanngortitamik tigumivoq. Aqutsinermi nassaaruk.</translation>
+    </message>
+    <message>
+        <source>Send the reply</source>
+        <translation>Akissut nassiuguk</translation>
+    </message>
+    <message>
+        <source>Write a comment</source>
+        <translation>Oqaaseqaammik allagit</translation>
+    </message>
+    <message>
+        <source>Reply to "%name"</source>
+        <translation>"%name" akineqarpoq</translation>
+    </message>
+    <message>
+        <source>Comment on this page</source>
+        <translation>Quppernermut uunga oqaaseqarit</translation>
+    </message>
+    <message>
+        <source>The reply is published on the page.</source>
+        <translation>Akissut quppernermi saqqummersinneqarpoq.</translation>
+    </message>
+    <message>
+        <source>The reply waits for its approval.</source>
+        <translation>Akissut akuerineqarnissaminut utaqqivoq.</translation>
+    </message>
+    <message>
+        <source>%n comments wait for moderation</source>
+        <translation>Oqaaseqaatit %n misissorneqarnissaminnut utaqqipput</translation>
+    </message>
 </context>
 </TS>

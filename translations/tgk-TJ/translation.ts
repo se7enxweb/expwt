@@ -1371,5 +1371,97 @@
         <source>Verify it's you</source>
         <translation>Тасдиқ кунед, ки ин шумо ҳастед</translation>
     </message>
+    <message>
+        <source>There are no comments here.</source>
+        <translation>Дар ин ҷо шарҳҳо нестанд.</translation>
+    </message>
+    <message>
+        <source>This comment is not there any more, or you may not read it.</source>
+        <translation>Ин шарҳ дигар нест ё ба шумо хондани он иҷозат нест.</translation>
+    </message>
+    <message>
+        <source>There is no such decision.</source>
+        <translation>Чунин қарор нест.</translation>
+    </message>
+    <message>
+        <source>Write the reply first.</source>
+        <translation>Аввал ҷавобро нависед.</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>Шарҳҳо</translation>
+    </message>
+    <message>
+        <source>%n wait for moderation</source>
+        <translation>%n мунтазири модератсия</translation>
+    </message>
+    <message>
+        <source>No comments on this page yet.</source>
+        <translation>Дар ин саҳифа ҳоло шарҳҳо нестанд.</translation>
+    </message>
+    <message>
+        <source>Waiting for moderation</source>
+        <translation>Мунтазири модератсия</translation>
+    </message>
+    <message>
+        <source>Reply</source>
+        <translation>Ҷавоб додан</translation>
+    </message>
+    <message>
+        <source>Spam</source>
+        <translation>Спам</translation>
+    </message>
+    <message>
+        <source>Move "%name" to the trash as spam? It can be restored from the trash in the administration.</source>
+        <translation>"%name" ҳамчун спам ба сабад гузошта шавад? Онро дар маъмурият аз сабад барқарор кардан мумкин аст.</translation>
+    </message>
+    <message>
+        <source>Spam ...</source>
+        <translation>Спам ...</translation>
+    </message>
+    <message>
+        <source>The comment is approved and shown on the page.</source>
+        <translation>Шарҳ тасдиқ шуд ва дар саҳифа нишон дода мешавад.</translation>
+    </message>
+    <message>
+        <source>The comment is hidden.</source>
+        <translation>Шарҳ пинҳон шуд.</translation>
+    </message>
+    <message>
+        <source>The comment was moved to the trash as spam.</source>
+        <translation>Шарҳ ҳамчун спам ба сабад гузошта шуд.</translation>
+    </message>
+    <message>
+        <source>A workflow holds this change. Find it in the administration.</source>
+        <translation>Ҷараёни корӣ ин тағйиротро нигоҳ медорад. Онро дар маъмурият ёбед.</translation>
+    </message>
+    <message>
+        <source>Send the reply</source>
+        <translation>Фиристодани ҷавоб</translation>
+    </message>
+    <message>
+        <source>Write a comment</source>
+        <translation>Навиштани шарҳ</translation>
+    </message>
+    <message>
+        <source>Reply to "%name"</source>
+        <translation>Ҷавоб ба "%name"</translation>
+    </message>
+    <message>
+        <source>Comment on this page</source>
+        <translation>Шарҳ додан ба ин саҳифа</translation>
+    </message>
+    <message>
+        <source>The reply is published on the page.</source>
+        <translation>Ҷавоб дар саҳифа нашр шуд.</translation>
+    </message>
+    <message>
+        <source>The reply waits for its approval.</source>
+        <translation>Ҷавоб мунтазири тасдиқ аст.</translation>
+    </message>
+    <message>
+        <source>%n comments wait for moderation</source>
+        <translation>%n шарҳ мунтазири модератсия</translation>
+    </message>
 </context>
 </TS>

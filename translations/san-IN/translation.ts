@@ -1371,5 +1371,97 @@
         <source>Verify it's you</source>
         <translation>भवान् एव इति सत्यापयतु</translation>
     </message>
+    <message>
+        <source>There are no comments here.</source>
+        <translation>अत्र टिप्पण्यः न सन्ति।</translation>
+    </message>
+    <message>
+        <source>This comment is not there any more, or you may not read it.</source>
+        <translation>इयं टिप्पणी इदानीं नास्ति, अथवा भवतः तस्याः पठनस्य अनुमतिः नास्ति।</translation>
+    </message>
+    <message>
+        <source>There is no such decision.</source>
+        <translation>एतादृशः निर्णयः नास्ति।</translation>
+    </message>
+    <message>
+        <source>Write the reply first.</source>
+        <translation>प्रथमं उत्तरं लिखतु।</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>टिप्पण्यः</translation>
+    </message>
+    <message>
+        <source>%n wait for moderation</source>
+        <translation>%n समीक्षां प्रतीक्षन्ते</translation>
+    </message>
+    <message>
+        <source>No comments on this page yet.</source>
+        <translation>अस्मिन् पृष्ठे अद्यापि टिप्पण्यः न सन्ति।</translation>
+    </message>
+    <message>
+        <source>Waiting for moderation</source>
+        <translation>समीक्षां प्रतीक्षते</translation>
+    </message>
+    <message>
+        <source>Reply</source>
+        <translation>उत्तरं ददातु</translation>
+    </message>
+    <message>
+        <source>Spam</source>
+        <translation>अवाञ्छितम्</translation>
+    </message>
+    <message>
+        <source>Move "%name" to the trash as spam? It can be restored from the trash in the administration.</source>
+        <translation>"%name" अवाञ्छितम् इति अवकरपात्रं प्रति नयतु वा? प्रशासने अवकरपात्रात् पुनः आनेतुं शक्यते।</translation>
+    </message>
+    <message>
+        <source>Spam ...</source>
+        <translation>अवाञ्छितम् ...</translation>
+    </message>
+    <message>
+        <source>The comment is approved and shown on the page.</source>
+        <translation>टिप्पणी अनुमोदिता पृष्ठे च दर्श्यते।</translation>
+    </message>
+    <message>
+        <source>The comment is hidden.</source>
+        <translation>टिप्पणी गोपिता।</translation>
+    </message>
+    <message>
+        <source>The comment was moved to the trash as spam.</source>
+        <translation>टिप्पणी अवाञ्छितम् इति अवकरपात्रं प्रति नीता।</translation>
+    </message>
+    <message>
+        <source>A workflow holds this change. Find it in the administration.</source>
+        <translation>कश्चन कार्यप्रवाहः इदं परिवर्तनं धारयति। प्रशासने अन्विष्यतु।</translation>
+    </message>
+    <message>
+        <source>Send the reply</source>
+        <translation>उत्तरं प्रेषयतु</translation>
+    </message>
+    <message>
+        <source>Write a comment</source>
+        <translation>टिप्पणीं लिखतु</translation>
+    </message>
+    <message>
+        <source>Reply to "%name"</source>
+        <translation>"%name" इत्यस्मै उत्तरम्</translation>
+    </message>
+    <message>
+        <source>Comment on this page</source>
+        <translation>अस्मिन् पृष्ठे टिप्पणीं करोतु</translation>
+    </message>
+    <message>
+        <source>The reply is published on the page.</source>
+        <translation>उत्तरं पृष्ठे प्रकाशितम्।</translation>
+    </message>
+    <message>
+        <source>The reply waits for its approval.</source>
+        <translation>उत्तरं अनुमोदनं प्रतीक्षते।</translation>
+    </message>
+    <message>
+        <source>%n comments wait for moderation</source>
+        <translation>%n टिप्पण्यः समीक्षां प्रतीक्षन्ते</translation>
+    </message>
 </context>
 </TS>

@@ -1371,5 +1371,97 @@
         <source>Verify it's you</source>
         <translation>Bevestig dat dit u is</translation>
     </message>
+    <message>
+        <source>There are no comments here.</source>
+        <translation>Hier is geen kommentaar nie.</translation>
+    </message>
+    <message>
+        <source>This comment is not there any more, or you may not read it.</source>
+        <translation>Hierdie kommentaar is nie meer daar nie, of u mag dit nie lees nie.</translation>
+    </message>
+    <message>
+        <source>There is no such decision.</source>
+        <translation>Daar is geen sodanige besluit nie.</translation>
+    </message>
+    <message>
+        <source>Write the reply first.</source>
+        <translation>Skryf eers die antwoord.</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>Kommentaar</translation>
+    </message>
+    <message>
+        <source>%n wait for moderation</source>
+        <translation>%n wag vir moderering</translation>
+    </message>
+    <message>
+        <source>No comments on this page yet.</source>
+        <translation>Nog geen kommentaar op hierdie bladsy nie.</translation>
+    </message>
+    <message>
+        <source>Waiting for moderation</source>
+        <translation>Wag vir moderering</translation>
+    </message>
+    <message>
+        <source>Reply</source>
+        <translation>Antwoord</translation>
+    </message>
+    <message>
+        <source>Spam</source>
+        <translation>Strooipos</translation>
+    </message>
+    <message>
+        <source>Move "%name" to the trash as spam? It can be restored from the trash in the administration.</source>
+        <translation>Skuif "%name" as strooipos na die asblik? Dit kan in die administrasie uit die asblik herstel word.</translation>
+    </message>
+    <message>
+        <source>Spam ...</source>
+        <translation>Strooipos ...</translation>
+    </message>
+    <message>
+        <source>The comment is approved and shown on the page.</source>
+        <translation>Die kommentaar is goedgekeur en word op die bladsy gewys.</translation>
+    </message>
+    <message>
+        <source>The comment is hidden.</source>
+        <translation>Die kommentaar is versteek.</translation>
+    </message>
+    <message>
+        <source>The comment was moved to the trash as spam.</source>
+        <translation>Die kommentaar is as strooipos na die asblik geskuif.</translation>
+    </message>
+    <message>
+        <source>A workflow holds this change. Find it in the administration.</source>
+        <translation>'n Werkvloei hou hierdie verandering terug. Vind dit in die administrasie.</translation>
+    </message>
+    <message>
+        <source>Send the reply</source>
+        <translation>Stuur die antwoord</translation>
+    </message>
+    <message>
+        <source>Write a comment</source>
+        <translation>Skryf 'n kommentaar</translation>
+    </message>
+    <message>
+        <source>Reply to "%name"</source>
+        <translation>Antwoord op "%name"</translation>
+    </message>
+    <message>
+        <source>Comment on this page</source>
+        <translation>Lewer kommentaar op hierdie bladsy</translation>
+    </message>
+    <message>
+        <source>The reply is published on the page.</source>
+        <translation>Die antwoord is op die bladsy gepubliseer.</translation>
+    </message>
+    <message>
+        <source>The reply waits for its approval.</source>
+        <translation>Die antwoord wag vir sy goedkeuring.</translation>
+    </message>
+    <message>
+        <source>%n comments wait for moderation</source>
+        <translation>%n kommentare wag vir moderering</translation>
+    </message>
 </context>
 </TS>

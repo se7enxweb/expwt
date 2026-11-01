@@ -1371,5 +1371,97 @@
         <source>Verify it's you</source>
         <translation>Tabbatar cewa ku ne</translation>
     </message>
+    <message>
+        <source>There are no comments here.</source>
+        <translation>Babu sharhi a nan.</translation>
+    </message>
+    <message>
+        <source>This comment is not there any more, or you may not read it.</source>
+        <translation>Wannan sharhin ba ya nan kuma, ko ba a ba ka izinin karanta shi ba.</translation>
+    </message>
+    <message>
+        <source>There is no such decision.</source>
+        <translation>Babu irin wannan shawara.</translation>
+    </message>
+    <message>
+        <source>Write the reply first.</source>
+        <translation>Ka rubuta amsar da farko.</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>Sharhohi</translation>
+    </message>
+    <message>
+        <source>%n wait for moderation</source>
+        <translation>%n suna jiran daidaitawa</translation>
+    </message>
+    <message>
+        <source>No comments on this page yet.</source>
+        <translation>Babu sharhi a wannan shafin tukuna.</translation>
+    </message>
+    <message>
+        <source>Waiting for moderation</source>
+        <translation>Yana jiran daidaitawa</translation>
+    </message>
+    <message>
+        <source>Reply</source>
+        <translation>Amsa</translation>
+    </message>
+    <message>
+        <source>Spam</source>
+        <translation>Saƙon banza</translation>
+    </message>
+    <message>
+        <source>Move "%name" to the trash as spam? It can be restored from the trash in the administration.</source>
+        <translation>A matsar da "%name" zuwa shara a matsayin saƙon banza? Ana iya mayar da shi daga shara a cikin gudanarwa.</translation>
+    </message>
+    <message>
+        <source>Spam ...</source>
+        <translation>Saƙon banza ...</translation>
+    </message>
+    <message>
+        <source>The comment is approved and shown on the page.</source>
+        <translation>An amince da sharhin kuma ana nuna shi a shafin.</translation>
+    </message>
+    <message>
+        <source>The comment is hidden.</source>
+        <translation>An ɓoye sharhin.</translation>
+    </message>
+    <message>
+        <source>The comment was moved to the trash as spam.</source>
+        <translation>An matsar da sharhin zuwa shara a matsayin saƙon banza.</translation>
+    </message>
+    <message>
+        <source>A workflow holds this change. Find it in the administration.</source>
+        <translation>Wani tsarin aiki yana riƙe da wannan canji. Nemo shi a cikin gudanarwa.</translation>
+    </message>
+    <message>
+        <source>Send the reply</source>
+        <translation>Aika amsar</translation>
+    </message>
+    <message>
+        <source>Write a comment</source>
+        <translation>Rubuta sharhi</translation>
+    </message>
+    <message>
+        <source>Reply to "%name"</source>
+        <translation>Amsa ga "%name"</translation>
+    </message>
+    <message>
+        <source>Comment on this page</source>
+        <translation>Yi sharhi a kan wannan shafin</translation>
+    </message>
+    <message>
+        <source>The reply is published on the page.</source>
+        <translation>An wallafa amsar a shafin.</translation>
+    </message>
+    <message>
+        <source>The reply waits for its approval.</source>
+        <translation>Amsar tana jiran amincewa.</translation>
+    </message>
+    <message>
+        <source>%n comments wait for moderation</source>
+        <translation>Sharhohi %n suna jiran daidaitawa</translation>
+    </message>
 </context>
 </TS>

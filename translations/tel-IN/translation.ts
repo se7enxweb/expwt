@@ -1371,5 +1371,97 @@
         <source>Verify it's you</source>
         <translation>ఇది మీరేనని ధృవీకరించండి</translation>
     </message>
+    <message>
+        <source>There are no comments here.</source>
+        <translation>ఇక్కడ వ్యాఖ్యలు లేవు.</translation>
+    </message>
+    <message>
+        <source>This comment is not there any more, or you may not read it.</source>
+        <translation>ఈ వ్యాఖ్య ఇక లేదు, లేదా దాన్ని చదవడానికి మీకు అనుమతి లేదు.</translation>
+    </message>
+    <message>
+        <source>There is no such decision.</source>
+        <translation>అలాంటి నిర్ణయం లేదు.</translation>
+    </message>
+    <message>
+        <source>Write the reply first.</source>
+        <translation>ముందుగా జవాబు రాయండి.</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>వ్యాఖ్యలు</translation>
+    </message>
+    <message>
+        <source>%n wait for moderation</source>
+        <translation>%n మోడరేషన్ కోసం వేచి ఉన్నాయి</translation>
+    </message>
+    <message>
+        <source>No comments on this page yet.</source>
+        <translation>ఈ పేజీలో ఇంకా వ్యాఖ్యలు లేవు.</translation>
+    </message>
+    <message>
+        <source>Waiting for moderation</source>
+        <translation>మోడరేషన్ కోసం వేచి ఉంది</translation>
+    </message>
+    <message>
+        <source>Reply</source>
+        <translation>జవాబివ్వండి</translation>
+    </message>
+    <message>
+        <source>Spam</source>
+        <translation>స్పామ్</translation>
+    </message>
+    <message>
+        <source>Move "%name" to the trash as spam? It can be restored from the trash in the administration.</source>
+        <translation>"%name"ను స్పామ్‌గా ట్రాష్‌కు తరలించాలా? నిర్వహణలో ట్రాష్ నుండి దాన్ని పునరుద్ధరించవచ్చు.</translation>
+    </message>
+    <message>
+        <source>Spam ...</source>
+        <translation>స్పామ్ ...</translation>
+    </message>
+    <message>
+        <source>The comment is approved and shown on the page.</source>
+        <translation>వ్యాఖ్య ఆమోదించబడింది మరియు పేజీలో చూపబడుతోంది.</translation>
+    </message>
+    <message>
+        <source>The comment is hidden.</source>
+        <translation>వ్యాఖ్య దాచబడింది.</translation>
+    </message>
+    <message>
+        <source>The comment was moved to the trash as spam.</source>
+        <translation>వ్యాఖ్య స్పామ్‌గా ట్రాష్‌కు తరలించబడింది.</translation>
+    </message>
+    <message>
+        <source>A workflow holds this change. Find it in the administration.</source>
+        <translation>ఒక వర్క్‌ఫ్లో ఈ మార్పును నిలిపి ఉంచింది. నిర్వహణలో కనుగొనండి.</translation>
+    </message>
+    <message>
+        <source>Send the reply</source>
+        <translation>జవాబు పంపండి</translation>
+    </message>
+    <message>
+        <source>Write a comment</source>
+        <translation>వ్యాఖ్య రాయండి</translation>
+    </message>
+    <message>
+        <source>Reply to "%name"</source>
+        <translation>"%name"కు జవాబు</translation>
+    </message>
+    <message>
+        <source>Comment on this page</source>
+        <translation>ఈ పేజీపై వ్యాఖ్యానించండి</translation>
+    </message>
+    <message>
+        <source>The reply is published on the page.</source>
+        <translation>జవాబు పేజీలో ప్రచురించబడింది.</translation>
+    </message>
+    <message>
+        <source>The reply waits for its approval.</source>
+        <translation>జవాబు ఆమోదం కోసం వేచి ఉంది.</translation>
+    </message>
+    <message>
+        <source>%n comments wait for moderation</source>
+        <translation>%n వ్యాఖ్యలు మోడరేషన్ కోసం వేచి ఉన్నాయి</translation>
+    </message>
 </context>
 </TS>

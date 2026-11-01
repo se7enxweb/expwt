@@ -1371,5 +1371,97 @@
         <source>Verify it's you</source>
         <translation>Bekræft, at det er dig</translation>
     </message>
+    <message>
+        <source>There are no comments here.</source>
+        <translation>Her er ingen kommentarer.</translation>
+    </message>
+    <message>
+        <source>This comment is not there any more, or you may not read it.</source>
+        <translation>Denne kommentar findes ikke længere, eller du må ikke læse den.</translation>
+    </message>
+    <message>
+        <source>There is no such decision.</source>
+        <translation>Der findes ingen sådan beslutning.</translation>
+    </message>
+    <message>
+        <source>Write the reply first.</source>
+        <translation>Skriv svaret først.</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>Kommentarer</translation>
+    </message>
+    <message>
+        <source>%n wait for moderation</source>
+        <translation>%n venter på moderering</translation>
+    </message>
+    <message>
+        <source>No comments on this page yet.</source>
+        <translation>Der er endnu ingen kommentarer på denne side.</translation>
+    </message>
+    <message>
+        <source>Waiting for moderation</source>
+        <translation>Venter på moderering</translation>
+    </message>
+    <message>
+        <source>Reply</source>
+        <translation>Svar</translation>
+    </message>
+    <message>
+        <source>Spam</source>
+        <translation>Spam</translation>
+    </message>
+    <message>
+        <source>Move "%name" to the trash as spam? It can be restored from the trash in the administration.</source>
+        <translation>Flyt "%name" til papirkurven som spam? Den kan gendannes fra papirkurven i administrationen.</translation>
+    </message>
+    <message>
+        <source>Spam ...</source>
+        <translation>Spam ...</translation>
+    </message>
+    <message>
+        <source>The comment is approved and shown on the page.</source>
+        <translation>Kommentaren er godkendt og vises på siden.</translation>
+    </message>
+    <message>
+        <source>The comment is hidden.</source>
+        <translation>Kommentaren er skjult.</translation>
+    </message>
+    <message>
+        <source>The comment was moved to the trash as spam.</source>
+        <translation>Kommentaren er flyttet til papirkurven som spam.</translation>
+    </message>
+    <message>
+        <source>A workflow holds this change. Find it in the administration.</source>
+        <translation>Et workflow holder denne ændring tilbage. Find den i administrationen.</translation>
+    </message>
+    <message>
+        <source>Send the reply</source>
+        <translation>Send svaret</translation>
+    </message>
+    <message>
+        <source>Write a comment</source>
+        <translation>Skriv en kommentar</translation>
+    </message>
+    <message>
+        <source>Reply to "%name"</source>
+        <translation>Svar til "%name"</translation>
+    </message>
+    <message>
+        <source>Comment on this page</source>
+        <translation>Kommentér denne side</translation>
+    </message>
+    <message>
+        <source>The reply is published on the page.</source>
+        <translation>Svaret er offentliggjort på siden.</translation>
+    </message>
+    <message>
+        <source>The reply waits for its approval.</source>
+        <translation>Svaret venter på sin godkendelse.</translation>
+    </message>
+    <message>
+        <source>%n comments wait for moderation</source>
+        <translation>%n kommentarer venter på moderering</translation>
+    </message>
 </context>
 </TS>

@@ -1371,5 +1371,97 @@
         <source>Verify it's you</source>
         <translation>Подтвердите, что это вы</translation>
     </message>
+    <message>
+        <source>There are no comments here.</source>
+        <translation>Здесь нет комментариев.</translation>
+    </message>
+    <message>
+        <source>This comment is not there any more, or you may not read it.</source>
+        <translation>Этого комментария больше нет, или вам нельзя его читать.</translation>
+    </message>
+    <message>
+        <source>There is no such decision.</source>
+        <translation>Такого решения нет.</translation>
+    </message>
+    <message>
+        <source>Write the reply first.</source>
+        <translation>Сначала напишите ответ.</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>Комментарии</translation>
+    </message>
+    <message>
+        <source>%n wait for moderation</source>
+        <translation>%n ждут модерации</translation>
+    </message>
+    <message>
+        <source>No comments on this page yet.</source>
+        <translation>На этой странице пока нет комментариев.</translation>
+    </message>
+    <message>
+        <source>Waiting for moderation</source>
+        <translation>Ждёт модерации</translation>
+    </message>
+    <message>
+        <source>Reply</source>
+        <translation>Ответить</translation>
+    </message>
+    <message>
+        <source>Spam</source>
+        <translation>Спам</translation>
+    </message>
+    <message>
+        <source>Move "%name" to the trash as spam? It can be restored from the trash in the administration.</source>
+        <translation>Переместить "%name" в корзину как спам? Его можно восстановить из корзины в администрировании.</translation>
+    </message>
+    <message>
+        <source>Spam ...</source>
+        <translation>Спам ...</translation>
+    </message>
+    <message>
+        <source>The comment is approved and shown on the page.</source>
+        <translation>Комментарий одобрен и показывается на странице.</translation>
+    </message>
+    <message>
+        <source>The comment is hidden.</source>
+        <translation>Комментарий скрыт.</translation>
+    </message>
+    <message>
+        <source>The comment was moved to the trash as spam.</source>
+        <translation>Комментарий перемещён в корзину как спам.</translation>
+    </message>
+    <message>
+        <source>A workflow holds this change. Find it in the administration.</source>
+        <translation>Рабочий процесс удерживает это изменение. Найдите его в администрировании.</translation>
+    </message>
+    <message>
+        <source>Send the reply</source>
+        <translation>Отправить ответ</translation>
+    </message>
+    <message>
+        <source>Write a comment</source>
+        <translation>Написать комментарий</translation>
+    </message>
+    <message>
+        <source>Reply to "%name"</source>
+        <translation>Ответ на "%name"</translation>
+    </message>
+    <message>
+        <source>Comment on this page</source>
+        <translation>Прокомментировать эту страницу</translation>
+    </message>
+    <message>
+        <source>The reply is published on the page.</source>
+        <translation>Ответ опубликован на странице.</translation>
+    </message>
+    <message>
+        <source>The reply waits for its approval.</source>
+        <translation>Ответ ждёт одобрения.</translation>
+    </message>
+    <message>
+        <source>%n comments wait for moderation</source>
+        <translation>%n комментариев ждут модерации</translation>
+    </message>
 </context>
 </TS>

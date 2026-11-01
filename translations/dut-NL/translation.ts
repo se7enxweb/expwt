@@ -1371,5 +1371,97 @@
         <source>Verify it's you</source>
         <translation>Bevestig dat jij het bent</translation>
     </message>
+    <message>
+        <source>There are no comments here.</source>
+        <translation>Hier zijn geen reacties.</translation>
+    </message>
+    <message>
+        <source>This comment is not there any more, or you may not read it.</source>
+        <translation>Deze reactie bestaat niet meer, of u mag haar niet lezen.</translation>
+    </message>
+    <message>
+        <source>There is no such decision.</source>
+        <translation>Zo'n besluit bestaat niet.</translation>
+    </message>
+    <message>
+        <source>Write the reply first.</source>
+        <translation>Schrijf eerst het antwoord.</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>Reacties</translation>
+    </message>
+    <message>
+        <source>%n wait for moderation</source>
+        <translation>%n wachten op moderatie</translation>
+    </message>
+    <message>
+        <source>No comments on this page yet.</source>
+        <translation>Er zijn nog geen reacties op deze pagina.</translation>
+    </message>
+    <message>
+        <source>Waiting for moderation</source>
+        <translation>Wacht op moderatie</translation>
+    </message>
+    <message>
+        <source>Reply</source>
+        <translation>Antwoorden</translation>
+    </message>
+    <message>
+        <source>Spam</source>
+        <translation>Spam</translation>
+    </message>
+    <message>
+        <source>Move "%name" to the trash as spam? It can be restored from the trash in the administration.</source>
+        <translation>"%name" als spam naar de prullenbak verplaatsen? Het kan in de beheeromgeving uit de prullenbak worden hersteld.</translation>
+    </message>
+    <message>
+        <source>Spam ...</source>
+        <translation>Spam ...</translation>
+    </message>
+    <message>
+        <source>The comment is approved and shown on the page.</source>
+        <translation>De reactie is goedgekeurd en wordt op de pagina getoond.</translation>
+    </message>
+    <message>
+        <source>The comment is hidden.</source>
+        <translation>De reactie is verborgen.</translation>
+    </message>
+    <message>
+        <source>The comment was moved to the trash as spam.</source>
+        <translation>De reactie is als spam naar de prullenbak verplaatst.</translation>
+    </message>
+    <message>
+        <source>A workflow holds this change. Find it in the administration.</source>
+        <translation>Een workflow houdt deze wijziging vast. U vindt haar in de beheeromgeving.</translation>
+    </message>
+    <message>
+        <source>Send the reply</source>
+        <translation>Antwoord versturen</translation>
+    </message>
+    <message>
+        <source>Write a comment</source>
+        <translation>Een reactie schrijven</translation>
+    </message>
+    <message>
+        <source>Reply to "%name"</source>
+        <translation>Antwoord op "%name"</translation>
+    </message>
+    <message>
+        <source>Comment on this page</source>
+        <translation>Reageren op deze pagina</translation>
+    </message>
+    <message>
+        <source>The reply is published on the page.</source>
+        <translation>Het antwoord is op de pagina gepubliceerd.</translation>
+    </message>
+    <message>
+        <source>The reply waits for its approval.</source>
+        <translation>Het antwoord wacht op goedkeuring.</translation>
+    </message>
+    <message>
+        <source>%n comments wait for moderation</source>
+        <translation>%n reacties wachten op moderatie</translation>
+    </message>
 </context>
 </TS>

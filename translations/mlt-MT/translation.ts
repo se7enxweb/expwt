@@ -1371,5 +1371,97 @@
         <source>Verify it's you</source>
         <translation>Ikkonferma li int</translation>
     </message>
+    <message>
+        <source>There are no comments here.</source>
+        <translation>M'hemm l-ebda kumment hawn.</translation>
+    </message>
+    <message>
+        <source>This comment is not there any more, or you may not read it.</source>
+        <translation>Dan il-kumment m'għadux hemm, jew m'għandekx permess taqrah.</translation>
+    </message>
+    <message>
+        <source>There is no such decision.</source>
+        <translation>M'hemmx deċiżjoni bħal din.</translation>
+    </message>
+    <message>
+        <source>Write the reply first.</source>
+        <translation>L-ewwel ikteb it-tweġiba.</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>Kummenti</translation>
+    </message>
+    <message>
+        <source>%n wait for moderation</source>
+        <translation>%n qed jistennew il-moderazzjoni</translation>
+    </message>
+    <message>
+        <source>No comments on this page yet.</source>
+        <translation>Għad m'hemm l-ebda kumment f'din il-paġna.</translation>
+    </message>
+    <message>
+        <source>Waiting for moderation</source>
+        <translation>Qed jistenna l-moderazzjoni</translation>
+    </message>
+    <message>
+        <source>Reply</source>
+        <translation>Wieġeb</translation>
+    </message>
+    <message>
+        <source>Spam</source>
+        <translation>Spam</translation>
+    </message>
+    <message>
+        <source>Move "%name" to the trash as spam? It can be restored from the trash in the administration.</source>
+        <translation>Tmexxi "%name" lejn il-barmil bħala spam? Jista' jiġi rrestawrat mill-barmil fl-amministrazzjoni.</translation>
+    </message>
+    <message>
+        <source>Spam ...</source>
+        <translation>Spam ...</translation>
+    </message>
+    <message>
+        <source>The comment is approved and shown on the page.</source>
+        <translation>Il-kumment ġie approvat u qed jintwera fil-paġna.</translation>
+    </message>
+    <message>
+        <source>The comment is hidden.</source>
+        <translation>Il-kumment ġie moħbi.</translation>
+    </message>
+    <message>
+        <source>The comment was moved to the trash as spam.</source>
+        <translation>Il-kumment tmexxa lejn il-barmil bħala spam.</translation>
+    </message>
+    <message>
+        <source>A workflow holds this change. Find it in the administration.</source>
+        <translation>Fluss tax-xogħol qed iżomm din il-bidla. Sibha fl-amministrazzjoni.</translation>
+    </message>
+    <message>
+        <source>Send the reply</source>
+        <translation>Ibgħat it-tweġiba</translation>
+    </message>
+    <message>
+        <source>Write a comment</source>
+        <translation>Ikteb kumment</translation>
+    </message>
+    <message>
+        <source>Reply to "%name"</source>
+        <translation>Tweġiba għal "%name"</translation>
+    </message>
+    <message>
+        <source>Comment on this page</source>
+        <translation>Ikkummenta fuq din il-paġna</translation>
+    </message>
+    <message>
+        <source>The reply is published on the page.</source>
+        <translation>It-tweġiba ġiet ippubblikata fil-paġna.</translation>
+    </message>
+    <message>
+        <source>The reply waits for its approval.</source>
+        <translation>It-tweġiba qed tistenna l-approvazzjoni tagħha.</translation>
+    </message>
+    <message>
+        <source>%n comments wait for moderation</source>
+        <translation>%n kummenti qed jistennew il-moderazzjoni</translation>
+    </message>
 </context>
 </TS>

@@ -1371,5 +1371,97 @@
         <source>Verify it's you</source>
         <translation>Підтвердьте, що це ви</translation>
     </message>
+    <message>
+        <source>There are no comments here.</source>
+        <translation>Тут немає коментарів.</translation>
+    </message>
+    <message>
+        <source>This comment is not there any more, or you may not read it.</source>
+        <translation>Цього коментаря більше немає, або вам не можна його читати.</translation>
+    </message>
+    <message>
+        <source>There is no such decision.</source>
+        <translation>Такого рішення немає.</translation>
+    </message>
+    <message>
+        <source>Write the reply first.</source>
+        <translation>Спочатку напишіть відповідь.</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>Коментарі</translation>
+    </message>
+    <message>
+        <source>%n wait for moderation</source>
+        <translation>%n чекають на модерацію</translation>
+    </message>
+    <message>
+        <source>No comments on this page yet.</source>
+        <translation>На цій сторінці ще немає коментарів.</translation>
+    </message>
+    <message>
+        <source>Waiting for moderation</source>
+        <translation>Чекає на модерацію</translation>
+    </message>
+    <message>
+        <source>Reply</source>
+        <translation>Відповісти</translation>
+    </message>
+    <message>
+        <source>Spam</source>
+        <translation>Спам</translation>
+    </message>
+    <message>
+        <source>Move "%name" to the trash as spam? It can be restored from the trash in the administration.</source>
+        <translation>Перемістити "%name" в кошик як спам? Його можна відновити з кошика в адмініструванні.</translation>
+    </message>
+    <message>
+        <source>Spam ...</source>
+        <translation>Спам ...</translation>
+    </message>
+    <message>
+        <source>The comment is approved and shown on the page.</source>
+        <translation>Коментар схвалено, і він показується на сторінці.</translation>
+    </message>
+    <message>
+        <source>The comment is hidden.</source>
+        <translation>Коментар приховано.</translation>
+    </message>
+    <message>
+        <source>The comment was moved to the trash as spam.</source>
+        <translation>Коментар переміщено в кошик як спам.</translation>
+    </message>
+    <message>
+        <source>A workflow holds this change. Find it in the administration.</source>
+        <translation>Робочий процес утримує цю зміну. Знайдіть її в адмініструванні.</translation>
+    </message>
+    <message>
+        <source>Send the reply</source>
+        <translation>Надіслати відповідь</translation>
+    </message>
+    <message>
+        <source>Write a comment</source>
+        <translation>Написати коментар</translation>
+    </message>
+    <message>
+        <source>Reply to "%name"</source>
+        <translation>Відповідь на "%name"</translation>
+    </message>
+    <message>
+        <source>Comment on this page</source>
+        <translation>Коментувати цю сторінку</translation>
+    </message>
+    <message>
+        <source>The reply is published on the page.</source>
+        <translation>Відповідь опубліковано на сторінці.</translation>
+    </message>
+    <message>
+        <source>The reply waits for its approval.</source>
+        <translation>Відповідь чекає на схвалення.</translation>
+    </message>
+    <message>
+        <source>%n comments wait for moderation</source>
+        <translation>%n коментарів чекають на модерацію</translation>
+    </message>
 </context>
 </TS>

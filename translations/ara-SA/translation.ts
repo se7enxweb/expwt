@@ -1371,5 +1371,97 @@
         <source>Verify it's you</source>
         <translation>تحقق من هويتك</translation>
     </message>
+    <message>
+        <source>There are no comments here.</source>
+        <translation>لا توجد تعليقات هنا.</translation>
+    </message>
+    <message>
+        <source>This comment is not there any more, or you may not read it.</source>
+        <translation>هذا التعليق لم يعد موجودًا، أو لا يُسمح لك بقراءته.</translation>
+    </message>
+    <message>
+        <source>There is no such decision.</source>
+        <translation>لا يوجد قرار كهذا.</translation>
+    </message>
+    <message>
+        <source>Write the reply first.</source>
+        <translation>اكتب الرد أولًا.</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>التعليقات</translation>
+    </message>
+    <message>
+        <source>%n wait for moderation</source>
+        <translation>%n بانتظار الإشراف</translation>
+    </message>
+    <message>
+        <source>No comments on this page yet.</source>
+        <translation>لا توجد تعليقات على هذه الصفحة بعد.</translation>
+    </message>
+    <message>
+        <source>Waiting for moderation</source>
+        <translation>بانتظار الإشراف</translation>
+    </message>
+    <message>
+        <source>Reply</source>
+        <translation>رد</translation>
+    </message>
+    <message>
+        <source>Spam</source>
+        <translation>رسالة مزعجة</translation>
+    </message>
+    <message>
+        <source>Move "%name" to the trash as spam? It can be restored from the trash in the administration.</source>
+        <translation>نقل "%name" إلى سلة المحذوفات كرسالة مزعجة؟ يمكن استعادته من سلة المحذوفات في الإدارة.</translation>
+    </message>
+    <message>
+        <source>Spam ...</source>
+        <translation>رسالة مزعجة ...</translation>
+    </message>
+    <message>
+        <source>The comment is approved and shown on the page.</source>
+        <translation>تمت الموافقة على التعليق وهو معروض على الصفحة.</translation>
+    </message>
+    <message>
+        <source>The comment is hidden.</source>
+        <translation>تم إخفاء التعليق.</translation>
+    </message>
+    <message>
+        <source>The comment was moved to the trash as spam.</source>
+        <translation>تم نقل التعليق إلى سلة المحذوفات كرسالة مزعجة.</translation>
+    </message>
+    <message>
+        <source>A workflow holds this change. Find it in the administration.</source>
+        <translation>سير عمل يحتجز هذا التغيير. تجده في الإدارة.</translation>
+    </message>
+    <message>
+        <source>Send the reply</source>
+        <translation>أرسل الرد</translation>
+    </message>
+    <message>
+        <source>Write a comment</source>
+        <translation>اكتب تعليقًا</translation>
+    </message>
+    <message>
+        <source>Reply to "%name"</source>
+        <translation>الرد على "%name"</translation>
+    </message>
+    <message>
+        <source>Comment on this page</source>
+        <translation>علّق على هذه الصفحة</translation>
+    </message>
+    <message>
+        <source>The reply is published on the page.</source>
+        <translation>تم نشر الرد على الصفحة.</translation>
+    </message>
+    <message>
+        <source>The reply waits for its approval.</source>
+        <translation>الرد بانتظار الموافقة عليه.</translation>
+    </message>
+    <message>
+        <source>%n comments wait for moderation</source>
+        <translation>%n تعليقات بانتظار الإشراف</translation>
+    </message>
 </context>
 </TS>

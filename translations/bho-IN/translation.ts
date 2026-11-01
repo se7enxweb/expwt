@@ -1371,5 +1371,97 @@
         <source>Verify it's you</source>
         <translation>पक्का करीं कि ई रउए हईं</translation>
     </message>
+    <message>
+        <source>There are no comments here.</source>
+        <translation>इहाँ कवनो टिप्पणी नइखे।</translation>
+    </message>
+    <message>
+        <source>This comment is not there any more, or you may not read it.</source>
+        <translation>ई टिप्पणी अब नइखे, या रउआ एकरा के पढ़े के अनुमति नइखे।</translation>
+    </message>
+    <message>
+        <source>There is no such decision.</source>
+        <translation>अइसन कवनो फैसला नइखे।</translation>
+    </message>
+    <message>
+        <source>Write the reply first.</source>
+        <translation>पहिले जवाब लिखीं।</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>टिप्पणी</translation>
+    </message>
+    <message>
+        <source>%n wait for moderation</source>
+        <translation>%n मॉडरेशन के इंतजार में</translation>
+    </message>
+    <message>
+        <source>No comments on this page yet.</source>
+        <translation>एह पन्ना पर अबहीं ले कवनो टिप्पणी नइखे।</translation>
+    </message>
+    <message>
+        <source>Waiting for moderation</source>
+        <translation>मॉडरेशन के इंतजार में</translation>
+    </message>
+    <message>
+        <source>Reply</source>
+        <translation>जवाब दीं</translation>
+    </message>
+    <message>
+        <source>Spam</source>
+        <translation>स्पैम</translation>
+    </message>
+    <message>
+        <source>Move "%name" to the trash as spam? It can be restored from the trash in the administration.</source>
+        <translation>"%name" के स्पैम मान के कूड़ादान में डालीं? प्रशासन में कूड़ादान से एकरा के वापस लावल जा सकेला।</translation>
+    </message>
+    <message>
+        <source>Spam ...</source>
+        <translation>स्पैम ...</translation>
+    </message>
+    <message>
+        <source>The comment is approved and shown on the page.</source>
+        <translation>टिप्पणी मंजूर हो गइल आ पन्ना पर देखावल जा रहल बा।</translation>
+    </message>
+    <message>
+        <source>The comment is hidden.</source>
+        <translation>टिप्पणी लुका दिहल गइल।</translation>
+    </message>
+    <message>
+        <source>The comment was moved to the trash as spam.</source>
+        <translation>टिप्पणी स्पैम मान के कूड़ादान में डाल दिहल गइल।</translation>
+    </message>
+    <message>
+        <source>A workflow holds this change. Find it in the administration.</source>
+        <translation>एगो वर्कफ़्लो एह बदलाव के रोकले बा। प्रशासन में खोजीं।</translation>
+    </message>
+    <message>
+        <source>Send the reply</source>
+        <translation>जवाब भेजीं</translation>
+    </message>
+    <message>
+        <source>Write a comment</source>
+        <translation>टिप्पणी लिखीं</translation>
+    </message>
+    <message>
+        <source>Reply to "%name"</source>
+        <translation>"%name" के जवाब</translation>
+    </message>
+    <message>
+        <source>Comment on this page</source>
+        <translation>एह पन्ना पर टिप्पणी करीं</translation>
+    </message>
+    <message>
+        <source>The reply is published on the page.</source>
+        <translation>जवाब पन्ना पर प्रकाशित हो गइल।</translation>
+    </message>
+    <message>
+        <source>The reply waits for its approval.</source>
+        <translation>जवाब मंजूरी के इंतजार में बा।</translation>
+    </message>
+    <message>
+        <source>%n comments wait for moderation</source>
+        <translation>%n टिप्पणी मॉडरेशन के इंतजार में</translation>
+    </message>
 </context>
 </TS>

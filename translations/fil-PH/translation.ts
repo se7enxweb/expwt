@@ -1371,5 +1371,97 @@
         <source>Verify it's you</source>
         <translation>Patunayang ikaw ito</translation>
     </message>
+    <message>
+        <source>There are no comments here.</source>
+        <translation>Walang mga komento rito.</translation>
+    </message>
+    <message>
+        <source>This comment is not there any more, or you may not read it.</source>
+        <translation>Wala na ang komentong ito, o hindi ka pinapayagang basahin ito.</translation>
+    </message>
+    <message>
+        <source>There is no such decision.</source>
+        <translation>Walang ganoong pasya.</translation>
+    </message>
+    <message>
+        <source>Write the reply first.</source>
+        <translation>Isulat muna ang sagot.</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>Mga komento</translation>
+    </message>
+    <message>
+        <source>%n wait for moderation</source>
+        <translation>%n naghihintay ng moderasyon</translation>
+    </message>
+    <message>
+        <source>No comments on this page yet.</source>
+        <translation>Wala pang komento sa pahinang ito.</translation>
+    </message>
+    <message>
+        <source>Waiting for moderation</source>
+        <translation>Naghihintay ng moderasyon</translation>
+    </message>
+    <message>
+        <source>Reply</source>
+        <translation>Sumagot</translation>
+    </message>
+    <message>
+        <source>Spam</source>
+        <translation>Spam</translation>
+    </message>
+    <message>
+        <source>Move "%name" to the trash as spam? It can be restored from the trash in the administration.</source>
+        <translation>Ilipat ang "%name" sa basurahan bilang spam? Maibabalik ito mula sa basurahan sa administrasyon.</translation>
+    </message>
+    <message>
+        <source>Spam ...</source>
+        <translation>Spam ...</translation>
+    </message>
+    <message>
+        <source>The comment is approved and shown on the page.</source>
+        <translation>Inaprubahan ang komento at ipinapakita sa pahina.</translation>
+    </message>
+    <message>
+        <source>The comment is hidden.</source>
+        <translation>Itinago ang komento.</translation>
+    </message>
+    <message>
+        <source>The comment was moved to the trash as spam.</source>
+        <translation>Inilipat ang komento sa basurahan bilang spam.</translation>
+    </message>
+    <message>
+        <source>A workflow holds this change. Find it in the administration.</source>
+        <translation>May workflow na humahawak sa pagbabagong ito. Hanapin ito sa administrasyon.</translation>
+    </message>
+    <message>
+        <source>Send the reply</source>
+        <translation>Ipadala ang sagot</translation>
+    </message>
+    <message>
+        <source>Write a comment</source>
+        <translation>Sumulat ng komento</translation>
+    </message>
+    <message>
+        <source>Reply to "%name"</source>
+        <translation>Sagot kay "%name"</translation>
+    </message>
+    <message>
+        <source>Comment on this page</source>
+        <translation>Magkomento sa pahinang ito</translation>
+    </message>
+    <message>
+        <source>The reply is published on the page.</source>
+        <translation>Nailathala ang sagot sa pahina.</translation>
+    </message>
+    <message>
+        <source>The reply waits for its approval.</source>
+        <translation>Naghihintay ng pag-apruba ang sagot.</translation>
+    </message>
+    <message>
+        <source>%n comments wait for moderation</source>
+        <translation>%n komento ang naghihintay ng moderasyon</translation>
+    </message>
 </context>
 </TS>

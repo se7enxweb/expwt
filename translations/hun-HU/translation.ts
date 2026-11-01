@@ -1371,5 +1371,97 @@
         <source>Verify it's you</source>
         <translation>Igazolja, hogy Ön az</translation>
     </message>
+    <message>
+        <source>There are no comments here.</source>
+        <translation>Itt nincsenek hozzászólások.</translation>
+    </message>
+    <message>
+        <source>This comment is not there any more, or you may not read it.</source>
+        <translation>Ez a hozzászólás már nem létezik, vagy nem olvashatja.</translation>
+    </message>
+    <message>
+        <source>There is no such decision.</source>
+        <translation>Nincs ilyen döntés.</translation>
+    </message>
+    <message>
+        <source>Write the reply first.</source>
+        <translation>Először írja meg a választ.</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>Hozzászólások</translation>
+    </message>
+    <message>
+        <source>%n wait for moderation</source>
+        <translation>%n moderálásra vár</translation>
+    </message>
+    <message>
+        <source>No comments on this page yet.</source>
+        <translation>Ezen az oldalon még nincsenek hozzászólások.</translation>
+    </message>
+    <message>
+        <source>Waiting for moderation</source>
+        <translation>Moderálásra vár</translation>
+    </message>
+    <message>
+        <source>Reply</source>
+        <translation>Válasz</translation>
+    </message>
+    <message>
+        <source>Spam</source>
+        <translation>Kéretlen</translation>
+    </message>
+    <message>
+        <source>Move "%name" to the trash as spam? It can be restored from the trash in the administration.</source>
+        <translation>Áthelyezi a(z) "%name" hozzászólást kéretlenként a lomtárba? Az adminisztrációban visszaállítható a lomtárból.</translation>
+    </message>
+    <message>
+        <source>Spam ...</source>
+        <translation>Kéretlen ...</translation>
+    </message>
+    <message>
+        <source>The comment is approved and shown on the page.</source>
+        <translation>A hozzászólás jóvá van hagyva, és megjelenik az oldalon.</translation>
+    </message>
+    <message>
+        <source>The comment is hidden.</source>
+        <translation>A hozzászólás el van rejtve.</translation>
+    </message>
+    <message>
+        <source>The comment was moved to the trash as spam.</source>
+        <translation>A hozzászólás kéretlenként a lomtárba került.</translation>
+    </message>
+    <message>
+        <source>A workflow holds this change. Find it in the administration.</source>
+        <translation>Egy munkafolyamat visszatartja ezt a módosítást. Az adminisztrációban találja.</translation>
+    </message>
+    <message>
+        <source>Send the reply</source>
+        <translation>Válasz küldése</translation>
+    </message>
+    <message>
+        <source>Write a comment</source>
+        <translation>Hozzászólás írása</translation>
+    </message>
+    <message>
+        <source>Reply to "%name"</source>
+        <translation>Válasz erre: "%name"</translation>
+    </message>
+    <message>
+        <source>Comment on this page</source>
+        <translation>Hozzászólás ehhez az oldalhoz</translation>
+    </message>
+    <message>
+        <source>The reply is published on the page.</source>
+        <translation>A válasz megjelent az oldalon.</translation>
+    </message>
+    <message>
+        <source>The reply waits for its approval.</source>
+        <translation>A válasz jóváhagyásra vár.</translation>
+    </message>
+    <message>
+        <source>%n comments wait for moderation</source>
+        <translation>%n hozzászólás moderálásra vár</translation>
+    </message>
 </context>
 </TS>

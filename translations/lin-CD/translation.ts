@@ -1371,5 +1371,97 @@
         <source>Verify it's you</source>
         <translation>Ndimisá ete ozali yo</translation>
     </message>
+    <message>
+        <source>There are no comments here.</source>
+        <translation>Makanisi ezali awa te.</translation>
+    </message>
+    <message>
+        <source>This comment is not there any more, or you may not read it.</source>
+        <translation>Likanisi oyo ezali lisusu te, to bopesami nzela te ya kotánga yango.</translation>
+    </message>
+    <message>
+        <source>There is no such decision.</source>
+        <translation>Mokano ya ndenge wana ezali te.</translation>
+    </message>
+    <message>
+        <source>Write the reply first.</source>
+        <translation>Bokoma eyano liboso.</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>Makanisi</translation>
+    </message>
+    <message>
+        <source>%n wait for moderation</source>
+        <translation>%n ezali kozela botaleli</translation>
+    </message>
+    <message>
+        <source>No comments on this page yet.</source>
+        <translation>Makanisi ezali naino te na lokasa oyo.</translation>
+    </message>
+    <message>
+        <source>Waiting for moderation</source>
+        <translation>Ezali kozela botaleli</translation>
+    </message>
+    <message>
+        <source>Reply</source>
+        <translation>Yanola</translation>
+    </message>
+    <message>
+        <source>Spam</source>
+        <translation>Spam</translation>
+    </message>
+    <message>
+        <source>Move "%name" to the trash as spam? It can be restored from the trash in the administration.</source>
+        <translation>Kotinda "%name" na libenga lokola spam? Ekoki kozongisama uta na libenga na boyangeli.</translation>
+    </message>
+    <message>
+        <source>Spam ...</source>
+        <translation>Spam ...</translation>
+    </message>
+    <message>
+        <source>The comment is approved and shown on the page.</source>
+        <translation>Likanisi endimami mpe ezali komonana na lokasa.</translation>
+    </message>
+    <message>
+        <source>The comment is hidden.</source>
+        <translation>Likanisi ebombami.</translation>
+    </message>
+    <message>
+        <source>The comment was moved to the trash as spam.</source>
+        <translation>Likanisi etindami na libenga lokola spam.</translation>
+    </message>
+    <message>
+        <source>A workflow holds this change. Find it in the administration.</source>
+        <translation>Molongo ya mosala moko ezali kosimba mbongwana oyo. Luká yango na boyangeli.</translation>
+    </message>
+    <message>
+        <source>Send the reply</source>
+        <translation>Tinda eyano</translation>
+    </message>
+    <message>
+        <source>Write a comment</source>
+        <translation>Koma likanisi</translation>
+    </message>
+    <message>
+        <source>Reply to "%name"</source>
+        <translation>Eyano na "%name"</translation>
+    </message>
+    <message>
+        <source>Comment on this page</source>
+        <translation>Pesá likanisi na lokasa oyo</translation>
+    </message>
+    <message>
+        <source>The reply is published on the page.</source>
+        <translation>Eyano ebimisami na lokasa.</translation>
+    </message>
+    <message>
+        <source>The reply waits for its approval.</source>
+        <translation>Eyano ezali kozela bondimi na yango.</translation>
+    </message>
+    <message>
+        <source>%n comments wait for moderation</source>
+        <translation>Makanisi %n ezali kozela botaleli</translation>
+    </message>
 </context>
 </TS>

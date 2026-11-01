@@ -1371,5 +1371,97 @@
         <source>Verify it's you</source>
         <translation>हे तुम्हीच आहात याची पडताळणी करा</translation>
     </message>
+    <message>
+        <source>There are no comments here.</source>
+        <translation>येथे कोणत्याही टिप्पण्या नाहीत.</translation>
+    </message>
+    <message>
+        <source>This comment is not there any more, or you may not read it.</source>
+        <translation>ही टिप्पणी आता नाही, किंवा तुम्हाला ती वाचण्याची परवानगी नाही.</translation>
+    </message>
+    <message>
+        <source>There is no such decision.</source>
+        <translation>असा कोणताही निर्णय नाही.</translation>
+    </message>
+    <message>
+        <source>Write the reply first.</source>
+        <translation>आधी उत्तर लिहा.</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>टिप्पण्या</translation>
+    </message>
+    <message>
+        <source>%n wait for moderation</source>
+        <translation>%n नियंत्रणाच्या प्रतीक्षेत</translation>
+    </message>
+    <message>
+        <source>No comments on this page yet.</source>
+        <translation>या पानावर अजून कोणत्याही टिप्पण्या नाहीत.</translation>
+    </message>
+    <message>
+        <source>Waiting for moderation</source>
+        <translation>नियंत्रणाच्या प्रतीक्षेत</translation>
+    </message>
+    <message>
+        <source>Reply</source>
+        <translation>उत्तर द्या</translation>
+    </message>
+    <message>
+        <source>Spam</source>
+        <translation>स्पॅम</translation>
+    </message>
+    <message>
+        <source>Move "%name" to the trash as spam? It can be restored from the trash in the administration.</source>
+        <translation>"%name" स्पॅम म्हणून कचरापेटीत हलवायची? प्रशासनात कचरापेटीतून ती पुनर्संचयित करता येते.</translation>
+    </message>
+    <message>
+        <source>Spam ...</source>
+        <translation>स्पॅम ...</translation>
+    </message>
+    <message>
+        <source>The comment is approved and shown on the page.</source>
+        <translation>टिप्पणी मंजूर झाली आणि पानावर दाखवली जात आहे.</translation>
+    </message>
+    <message>
+        <source>The comment is hidden.</source>
+        <translation>टिप्पणी लपवली.</translation>
+    </message>
+    <message>
+        <source>The comment was moved to the trash as spam.</source>
+        <translation>टिप्पणी स्पॅम म्हणून कचरापेटीत हलवली.</translation>
+    </message>
+    <message>
+        <source>A workflow holds this change. Find it in the administration.</source>
+        <translation>एक वर्कफ्लो हा बदल रोखून धरत आहे. प्रशासनात शोधा.</translation>
+    </message>
+    <message>
+        <source>Send the reply</source>
+        <translation>उत्तर पाठवा</translation>
+    </message>
+    <message>
+        <source>Write a comment</source>
+        <translation>टिप्पणी लिहा</translation>
+    </message>
+    <message>
+        <source>Reply to "%name"</source>
+        <translation>"%name" ला उत्तर</translation>
+    </message>
+    <message>
+        <source>Comment on this page</source>
+        <translation>या पानावर टिप्पणी करा</translation>
+    </message>
+    <message>
+        <source>The reply is published on the page.</source>
+        <translation>उत्तर पानावर प्रकाशित झाले.</translation>
+    </message>
+    <message>
+        <source>The reply waits for its approval.</source>
+        <translation>उत्तर मंजुरीच्या प्रतीक्षेत आहे.</translation>
+    </message>
+    <message>
+        <source>%n comments wait for moderation</source>
+        <translation>%n टिप्पण्या नियंत्रणाच्या प्रतीक्षेत</translation>
+    </message>
 </context>
 </TS>

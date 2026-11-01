@@ -1371,5 +1371,97 @@
         <source>Verify it's you</source>
         <translation>ຢືນຢັນວ່າແມ່ນທ່ານ</translation>
     </message>
+    <message>
+        <source>There are no comments here.</source>
+        <translation>ບໍ່ມີຄຳເຫັນຢູ່ນີ້.</translation>
+    </message>
+    <message>
+        <source>This comment is not there any more, or you may not read it.</source>
+        <translation>ຄຳເຫັນນີ້ບໍ່ມີອີກແລ້ວ, ຫຼື ທ່ານບໍ່ໄດ້ຮັບອະນຸຍາດໃຫ້ອ່ານ.</translation>
+    </message>
+    <message>
+        <source>There is no such decision.</source>
+        <translation>ບໍ່ມີການຕັດສິນໃຈແບບນັ້ນ.</translation>
+    </message>
+    <message>
+        <source>Write the reply first.</source>
+        <translation>ຂຽນຄຳຕອບກ່ອນ.</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>ຄຳເຫັນ</translation>
+    </message>
+    <message>
+        <source>%n wait for moderation</source>
+        <translation>%n ລໍຖ້າການກວດກາ</translation>
+    </message>
+    <message>
+        <source>No comments on this page yet.</source>
+        <translation>ຍັງບໍ່ມີຄຳເຫັນໃນໜ້ານີ້ເທື່ອ.</translation>
+    </message>
+    <message>
+        <source>Waiting for moderation</source>
+        <translation>ລໍຖ້າການກວດກາ</translation>
+    </message>
+    <message>
+        <source>Reply</source>
+        <translation>ຕອບກັບ</translation>
+    </message>
+    <message>
+        <source>Spam</source>
+        <translation>ສະແປມ</translation>
+    </message>
+    <message>
+        <source>Move "%name" to the trash as spam? It can be restored from the trash in the administration.</source>
+        <translation>ຍ້າຍ "%name" ໄປຖັງຂີ້ເຫຍື້ອເປັນສະແປມບໍ? ສາມາດກູ້ຄືນຈາກຖັງຂີ້ເຫຍື້ອໃນການບໍລິຫານໄດ້.</translation>
+    </message>
+    <message>
+        <source>Spam ...</source>
+        <translation>ສະແປມ ...</translation>
+    </message>
+    <message>
+        <source>The comment is approved and shown on the page.</source>
+        <translation>ຄຳເຫັນໄດ້ຮັບການອະນຸມັດ ແລະ ສະແດງຢູ່ໃນໜ້າ.</translation>
+    </message>
+    <message>
+        <source>The comment is hidden.</source>
+        <translation>ຄຳເຫັນຖືກເຊື່ອງແລ້ວ.</translation>
+    </message>
+    <message>
+        <source>The comment was moved to the trash as spam.</source>
+        <translation>ຄຳເຫັນຖືກຍ້າຍໄປຖັງຂີ້ເຫຍື້ອເປັນສະແປມແລ້ວ.</translation>
+    </message>
+    <message>
+        <source>A workflow holds this change. Find it in the administration.</source>
+        <translation>ຂັ້ນຕອນການເຮັດວຽກໜຶ່ງກຳລັງຖືການປ່ຽນແປງນີ້ໄວ້. ຊອກຫາໃນການບໍລິຫານ.</translation>
+    </message>
+    <message>
+        <source>Send the reply</source>
+        <translation>ສົ່ງຄຳຕອບ</translation>
+    </message>
+    <message>
+        <source>Write a comment</source>
+        <translation>ຂຽນຄຳເຫັນ</translation>
+    </message>
+    <message>
+        <source>Reply to "%name"</source>
+        <translation>ຕອບກັບ "%name"</translation>
+    </message>
+    <message>
+        <source>Comment on this page</source>
+        <translation>ສະແດງຄຳເຫັນຕໍ່ໜ້ານີ້</translation>
+    </message>
+    <message>
+        <source>The reply is published on the page.</source>
+        <translation>ຄຳຕອບຖືກເຜີຍແຜ່ໃນໜ້າແລ້ວ.</translation>
+    </message>
+    <message>
+        <source>The reply waits for its approval.</source>
+        <translation>ຄຳຕອບກຳລັງລໍຖ້າການອະນຸມັດ.</translation>
+    </message>
+    <message>
+        <source>%n comments wait for moderation</source>
+        <translation>%n ຄຳເຫັນລໍຖ້າການກວດກາ</translation>
+    </message>
 </context>
 </TS>

@@ -1371,5 +1371,97 @@
         <source>Verify it's you</source>
         <translation>ܫܪܪ ܕܐܢܬ ܗܘ</translation>
     </message>
+    <message>
+        <source>There are no comments here.</source>
+        <translation>ܠܝܬ ܦܘܩܕܢ̈ܐ ܗܪܟܐ.</translation>
+    </message>
+    <message>
+        <source>This comment is not there any more, or you may not read it.</source>
+        <translation>ܦܘܩܕܢܐ ܗܢܐ ܠܐ ܐܝܬܘܗܝ ܬܘܒ، ܐܘ ܠܐ ܫܠܝܛ ܠܟ ܠܡܩܪܝܘܗܝ.</translation>
+    </message>
+    <message>
+        <source>There is no such decision.</source>
+        <translation>ܠܝܬ ܦܣܩܐ ܐܝܟ ܗܢܐ.</translation>
+    </message>
+    <message>
+        <source>Write the reply first.</source>
+        <translation>ܟܬܘܒ ܦܬܓܡܐ ܩܕܡܝܬ.</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>ܦܘܩܕܢ̈ܐ</translation>
+    </message>
+    <message>
+        <source>%n wait for moderation</source>
+        <translation>%n ܡܣܟܝܢ ܠܒܘܚܢܐ</translation>
+    </message>
+    <message>
+        <source>No comments on this page yet.</source>
+        <translation>ܠܝܬ ܥܕܟܝܠ ܦܘܩܕܢ̈ܐ ܥܠ ܦܐܬܐ ܗܕܐ.</translation>
+    </message>
+    <message>
+        <source>Waiting for moderation</source>
+        <translation>ܡܣܟܐ ܠܒܘܚܢܐ</translation>
+    </message>
+    <message>
+        <source>Reply</source>
+        <translation>ܦܬܓܡ</translation>
+    </message>
+    <message>
+        <source>Spam</source>
+        <translation>ܪܘܩܐ</translation>
+    </message>
+    <message>
+        <source>Move "%name" to the trash as spam? It can be restored from the trash in the administration.</source>
+        <translation>ܠܫܢܝܐ "%name" ܠܣܠܐ ܐܝܟ ܪܘܩܐ؟ ܡܨܐ ܕܢܬܗܦܟ ܡܢ ܣܠܐ ܒܡܕܒܪܢܘܬܐ.</translation>
+    </message>
+    <message>
+        <source>Spam ...</source>
+        <translation>ܪܘܩܐ ...</translation>
+    </message>
+    <message>
+        <source>The comment is approved and shown on the page.</source>
+        <translation>ܦܘܩܕܢܐ ܐܫܬܪܪ ܘܡܬܚܙܐ ܥܠ ܦܐܬܐ.</translation>
+    </message>
+    <message>
+        <source>The comment is hidden.</source>
+        <translation>ܦܘܩܕܢܐ ܐܛܫܝ.</translation>
+    </message>
+    <message>
+        <source>The comment was moved to the trash as spam.</source>
+        <translation>ܦܘܩܕܢܐ ܐܫܬܢܝ ܠܣܠܐ ܐܝܟ ܪܘܩܐ.</translation>
+    </message>
+    <message>
+        <source>A workflow holds this change. Find it in the administration.</source>
+        <translation>ܫܒܝܠܐ ܕܥܒܕܐ ܐܚܝܕ ܫܘܚܠܦܐ ܗܢܐ. ܐܫܟܚܝܗܝ ܒܡܕܒܪܢܘܬܐ.</translation>
+    </message>
+    <message>
+        <source>Send the reply</source>
+        <translation>ܫܕܪ ܦܬܓܡܐ</translation>
+    </message>
+    <message>
+        <source>Write a comment</source>
+        <translation>ܟܬܘܒ ܦܘܩܕܢܐ</translation>
+    </message>
+    <message>
+        <source>Reply to "%name"</source>
+        <translation>ܦܬܓܡܐ ܠ"%name"</translation>
+    </message>
+    <message>
+        <source>Comment on this page</source>
+        <translation>ܦܩܘܕ ܥܠ ܦܐܬܐ ܗܕܐ</translation>
+    </message>
+    <message>
+        <source>The reply is published on the page.</source>
+        <translation>ܦܬܓܡܐ ܐܬܦܪܣܡ ܥܠ ܦܐܬܐ.</translation>
+    </message>
+    <message>
+        <source>The reply waits for its approval.</source>
+        <translation>ܦܬܓܡܐ ܡܣܟܐ ܠܫܘܪܪܗ.</translation>
+    </message>
+    <message>
+        <source>%n comments wait for moderation</source>
+        <translation>%n ܦܘܩܕܢ̈ܐ ܡܣܟܝܢ ܠܒܘܚܢܐ</translation>
+    </message>
 </context>
 </TS>

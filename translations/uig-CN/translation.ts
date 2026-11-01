@@ -1371,5 +1371,97 @@
         <source>Verify it's you</source>
         <translation>ئۆزىڭىز ئىكەنلىكىڭىزنى دەلىللەڭ</translation>
     </message>
+    <message>
+        <source>There are no comments here.</source>
+        <translation>بۇ يەردە ئىنكاس يوق.</translation>
+    </message>
+    <message>
+        <source>This comment is not there any more, or you may not read it.</source>
+        <translation>بۇ ئىنكاس ئەمدى يوق، ياكى ئۇنى ئوقۇش ھوقۇقىڭىز يوق.</translation>
+    </message>
+    <message>
+        <source>There is no such decision.</source>
+        <translation>بۇنداق قارار يوق.</translation>
+    </message>
+    <message>
+        <source>Write the reply first.</source>
+        <translation>ئاۋۋال جاۋابنى يېزىڭ.</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>ئىنكاسلار</translation>
+    </message>
+    <message>
+        <source>%n wait for moderation</source>
+        <translation>%n تەكشۈرۈشنى كۈتۈۋاتىدۇ</translation>
+    </message>
+    <message>
+        <source>No comments on this page yet.</source>
+        <translation>بۇ بەتتە تېخى ئىنكاس يوق.</translation>
+    </message>
+    <message>
+        <source>Waiting for moderation</source>
+        <translation>تەكشۈرۈشنى كۈتۈۋاتىدۇ</translation>
+    </message>
+    <message>
+        <source>Reply</source>
+        <translation>جاۋاب بېرىش</translation>
+    </message>
+    <message>
+        <source>Spam</source>
+        <translation>ئەخلەت ئۇچۇر</translation>
+    </message>
+    <message>
+        <source>Move "%name" to the trash as spam? It can be restored from the trash in the administration.</source>
+        <translation>"%name" نى ئەخلەت ئۇچۇر سۈپىتىدە ئەخلەت چېلىكىگە يۆتكەمسىز؟ ئۇنى باشقۇرۇشتا ئەخلەت چېلىكىدىن ئەسلىگە كەلتۈرگىلى بولىدۇ.</translation>
+    </message>
+    <message>
+        <source>Spam ...</source>
+        <translation>ئەخلەت ئۇچۇر ...</translation>
+    </message>
+    <message>
+        <source>The comment is approved and shown on the page.</source>
+        <translation>ئىنكاس تەستىقلاندى ۋە بەتتە كۆرسىتىلىۋاتىدۇ.</translation>
+    </message>
+    <message>
+        <source>The comment is hidden.</source>
+        <translation>ئىنكاس يوشۇرۇلدى.</translation>
+    </message>
+    <message>
+        <source>The comment was moved to the trash as spam.</source>
+        <translation>ئىنكاس ئەخلەت ئۇچۇر سۈپىتىدە ئەخلەت چېلىكىگە يۆتكەلدى.</translation>
+    </message>
+    <message>
+        <source>A workflow holds this change. Find it in the administration.</source>
+        <translation>بىر خىزمەت ئېقىمى بۇ ئۆزگەرتىشنى توختىتىپ تۇرۇۋاتىدۇ. باشقۇرۇشتىن تېپىڭ.</translation>
+    </message>
+    <message>
+        <source>Send the reply</source>
+        <translation>جاۋابنى ئەۋەتىش</translation>
+    </message>
+    <message>
+        <source>Write a comment</source>
+        <translation>ئىنكاس يېزىش</translation>
+    </message>
+    <message>
+        <source>Reply to "%name"</source>
+        <translation>"%name" غا جاۋاب</translation>
+    </message>
+    <message>
+        <source>Comment on this page</source>
+        <translation>بۇ بەتكە ئىنكاس يېزىش</translation>
+    </message>
+    <message>
+        <source>The reply is published on the page.</source>
+        <translation>جاۋاب بەتتە ئېلان قىلىندى.</translation>
+    </message>
+    <message>
+        <source>The reply waits for its approval.</source>
+        <translation>جاۋاب تەستىقنى كۈتۈۋاتىدۇ.</translation>
+    </message>
+    <message>
+        <source>%n comments wait for moderation</source>
+        <translation>%n ئىنكاس تەكشۈرۈشنى كۈتۈۋاتىدۇ</translation>
+    </message>
 </context>
 </TS>

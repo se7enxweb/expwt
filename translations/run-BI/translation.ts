@@ -1371,5 +1371,97 @@
         <source>Verify it's you</source>
         <translation>Emeza ko ari wewe</translation>
     </message>
+    <message>
+        <source>There are no comments here.</source>
+        <translation>Nta vyiyumviro biri ng'aha.</translation>
+    </message>
+    <message>
+        <source>This comment is not there any more, or you may not read it.</source>
+        <translation>Iki ciyumviro nticakiriho, canke ntimurekuriwe kugisoma.</translation>
+    </message>
+    <message>
+        <source>There is no such decision.</source>
+        <translation>Nta ngingo nk'iyo iriho.</translation>
+    </message>
+    <message>
+        <source>Write the reply first.</source>
+        <translation>Banza wandike inyishu.</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>Ivyiyumviro</translation>
+    </message>
+    <message>
+        <source>%n wait for moderation</source>
+        <translation>%n birarindiriye isuzuma</translation>
+    </message>
+    <message>
+        <source>No comments on this page yet.</source>
+        <translation>Nta vyiyumviro biraba kuri uru rupapuro.</translation>
+    </message>
+    <message>
+        <source>Waiting for moderation</source>
+        <translation>Kirarindiriye isuzuma</translation>
+    </message>
+    <message>
+        <source>Reply</source>
+        <translation>Ishura</translation>
+    </message>
+    <message>
+        <source>Spam</source>
+        <translation>Ubutumwa butakenewe</translation>
+    </message>
+    <message>
+        <source>Move "%name" to the trash as spam? It can be restored from the trash in the administration.</source>
+        <translation>Imurira "%name" mu gisanduku c'imyanda nk'ubutumwa butakenewe? Gishobora kugarukanwa kivuye mu gisanduku c'imyanda mu buyobozi.</translation>
+    </message>
+    <message>
+        <source>Spam ...</source>
+        <translation>Ubutumwa butakenewe ...</translation>
+    </message>
+    <message>
+        <source>The comment is approved and shown on the page.</source>
+        <translation>Iciyumviro carekuwe kandi kiragaragara ku rupapuro.</translation>
+    </message>
+    <message>
+        <source>The comment is hidden.</source>
+        <translation>Iciyumviro canyegejwe.</translation>
+    </message>
+    <message>
+        <source>The comment was moved to the trash as spam.</source>
+        <translation>Iciyumviro cimuriwe mu gisanduku c'imyanda nk'ubutumwa butakenewe.</translation>
+    </message>
+    <message>
+        <source>A workflow holds this change. Find it in the administration.</source>
+        <translation>Urugendo rw'igikorwa rufashe iyi mpinduka. Iyirondere mu buyobozi.</translation>
+    </message>
+    <message>
+        <source>Send the reply</source>
+        <translation>Rungika inyishu</translation>
+    </message>
+    <message>
+        <source>Write a comment</source>
+        <translation>Andika iciyumviro</translation>
+    </message>
+    <message>
+        <source>Reply to "%name"</source>
+        <translation>Inyishu kuri "%name"</translation>
+    </message>
+    <message>
+        <source>Comment on this page</source>
+        <translation>Tanga iciyumviro kuri uru rupapuro</translation>
+    </message>
+    <message>
+        <source>The reply is published on the page.</source>
+        <translation>Inyishu yasohowe ku rupapuro.</translation>
+    </message>
+    <message>
+        <source>The reply waits for its approval.</source>
+        <translation>Inyishu irarindiriye kwemezwa.</translation>
+    </message>
+    <message>
+        <source>%n comments wait for moderation</source>
+        <translation>Ivyiyumviro %n birarindiriye isuzuma</translation>
+    </message>
 </context>
 </TS>

@@ -1371,5 +1371,97 @@
         <source>Verify it's you</source>
         <translation>បញ្ជាក់ថាជាអ្នក</translation>
     </message>
+    <message>
+        <source>There are no comments here.</source>
+        <translation>គ្មានមតិនៅទីនេះទេ។</translation>
+    </message>
+    <message>
+        <source>This comment is not there any more, or you may not read it.</source>
+        <translation>មតិនេះលែងមានហើយ ឬអ្នកមិនត្រូវបានអនុញ្ញាតឱ្យអានវាទេ។</translation>
+    </message>
+    <message>
+        <source>There is no such decision.</source>
+        <translation>គ្មានការសម្រេចចិត្តបែបនេះទេ។</translation>
+    </message>
+    <message>
+        <source>Write the reply first.</source>
+        <translation>សរសេរចម្លើយជាមុនសិន។</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>មតិ</translation>
+    </message>
+    <message>
+        <source>%n wait for moderation</source>
+        <translation>%n កំពុងរង់ចាំការត្រួតពិនិត្យ</translation>
+    </message>
+    <message>
+        <source>No comments on this page yet.</source>
+        <translation>មិនទាន់មានមតិនៅលើទំព័រនេះនៅឡើយទេ។</translation>
+    </message>
+    <message>
+        <source>Waiting for moderation</source>
+        <translation>កំពុងរង់ចាំការត្រួតពិនិត្យ</translation>
+    </message>
+    <message>
+        <source>Reply</source>
+        <translation>ឆ្លើយតប</translation>
+    </message>
+    <message>
+        <source>Spam</source>
+        <translation>សារឥតបានការ</translation>
+    </message>
+    <message>
+        <source>Move "%name" to the trash as spam? It can be restored from the trash in the administration.</source>
+        <translation>ផ្លាស់ "%name" ទៅធុងសំរាមជាសារឥតបានការ? អាចស្ដារវាពីធុងសំរាមក្នុងការគ្រប់គ្រងបាន។</translation>
+    </message>
+    <message>
+        <source>Spam ...</source>
+        <translation>សារឥតបានការ ...</translation>
+    </message>
+    <message>
+        <source>The comment is approved and shown on the page.</source>
+        <translation>មតិត្រូវបានអនុម័ត ហើយបង្ហាញនៅលើទំព័រ។</translation>
+    </message>
+    <message>
+        <source>The comment is hidden.</source>
+        <translation>មតិត្រូវបានលាក់។</translation>
+    </message>
+    <message>
+        <source>The comment was moved to the trash as spam.</source>
+        <translation>មតិត្រូវបានផ្លាស់ទៅធុងសំរាមជាសារឥតបានការ។</translation>
+    </message>
+    <message>
+        <source>A workflow holds this change. Find it in the administration.</source>
+        <translation>លំហូរការងារមួយកំពុងរក្សាការផ្លាស់ប្ដូរនេះ។ ស្វែងរកវាក្នុងការគ្រប់គ្រង។</translation>
+    </message>
+    <message>
+        <source>Send the reply</source>
+        <translation>ផ្ញើចម្លើយ</translation>
+    </message>
+    <message>
+        <source>Write a comment</source>
+        <translation>សរសេរមតិ</translation>
+    </message>
+    <message>
+        <source>Reply to "%name"</source>
+        <translation>ចម្លើយទៅ "%name"</translation>
+    </message>
+    <message>
+        <source>Comment on this page</source>
+        <translation>ផ្ដល់មតិលើទំព័រនេះ</translation>
+    </message>
+    <message>
+        <source>The reply is published on the page.</source>
+        <translation>ចម្លើយត្រូវបានផ្សាយនៅលើទំព័រ។</translation>
+    </message>
+    <message>
+        <source>The reply waits for its approval.</source>
+        <translation>ចម្លើយកំពុងរង់ចាំការអនុម័ត។</translation>
+    </message>
+    <message>
+        <source>%n comments wait for moderation</source>
+        <translation>មតិ %n កំពុងរង់ចាំការត្រួតពិនិត្យ</translation>
+    </message>
 </context>
 </TS>

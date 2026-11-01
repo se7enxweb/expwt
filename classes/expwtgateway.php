@@ -1277,6 +1277,254 @@ class expwtGateway
             throw new expwtApiError( 403, 'reauth_required', 'Please confirm it is you first.' );
     }
 
+    // ------------------------------------------------------------------------------------------------ the comments (E4)
+
+    /** The most comments of a page the panel lists (newest first) */
+    const COMMENTS_MAX = 50;
+
+    /** The longest reply, in characters */
+    const COMMENT_REPLY_MAX = 10000;
+
+    /**
+     * @return string|null the content class of the comments here (expservices.ini [Community] CommentClass, the class
+     *                     the site's comment form and the comment services use; else comment), null where it does not exist
+     */
+    public static function commentClass()
+    {
+        $identifier = 'comment';
+        $ini = eZINI::instance( 'expservices.ini' );
+        if ( $ini->hasVariable( 'Community', 'CommentClass' ) && trim( (string)$ini->variable( 'Community', 'CommentClass' ) ) !== '' )
+            $identifier = trim( (string)$ini->variable( 'Community', 'CommentClass' ) );
+        return eZContentClass::classIDByIdentifier( $identifier ) ? $identifier : null;
+    }
+
+    /**
+     * The comments of the page for the boot (E4): their number, and how many wait for moderation (hidden comments the
+     * user may reveal), for the badge on the Page panel's tab. Null without expwt/edit, without a comment class, or on
+     * a page without comments the user could see.
+     *
+     * @param array $in nodeId
+     * @return array|null total, waiting
+     */
+    public function commentsOffer( array $in )
+    {
+        if ( !$this->capabilities()['edit'] || !isset( $in['nodeId'] ) || ( $class = self::commentClass() ) === null )
+            return null;
+        $node = eZContentObjectTreeNode::fetch( (int)$in['nodeId'] );
+        if ( !$node instanceof eZContentObjectTreeNode || !$node->canRead() )
+            return null;
+        $total = 0;
+        $waiting = 0;
+        foreach ( $this->commentNodes( $node, $class ) as $comment )
+        {
+            if ( !$comment->attribute( 'is_hidden' ) )
+                $total++;
+            elseif ( $comment->canHide() )
+            {
+                $total++;
+                $waiting++;
+            }
+        }
+        return $total || $this->commentCreateAccess( $node, $class ) ? array( 'total' => $total, 'waiting' => $waiting ) : null;
+    }
+
+    /** @return eZContentObjectTreeNode[] the comments directly below the page, hidden ones too, newest first */
+    protected function commentNodes( eZContentObjectTreeNode $node, $class )
+    {
+        return (array)eZContentObjectTreeNode::subTreeByNodeID( array( 'ClassFilterType' => 'include', 'ClassFilterArray' => array( $class ),
+            'Depth' => 1, 'DepthOperator' => 'eq', 'IgnoreVisibility' => true,
+            'SortBy' => array( array( 'published', false ), array( 'node_id', false ) ), 'Limit' => self::COMMENTS_MAX ), (int)$node->attribute( 'node_id' ) );
+    }
+
+    /** @return bool the user may write a comment below the page (content/create of the comment class there) */
+    protected function commentCreateAccess( eZContentObjectTreeNode $node, $class )
+    {
+        $classId = (int)eZContentClass::classIDByIdentifier( $class );
+        return $classId && $node->checkAccess( 'create', $classId, (int)$node->attribute( 'contentclass_id' ) ) == 1;
+    }
+
+    /**
+     * The comments of the page (E4), newest first: the visible ones, and the hidden ones (waiting for moderation) for
+     * those who may reveal them. Each with what the user may do to it by the kernel's content policies: approve and
+     * hide (content/hide of the comment), mark as spam (content/remove: to the trash); reply (content/create of a
+     * comment below the page).
+     *
+     * @param array $in nodeId
+     * @return array nodeId, name, canReply, total, waiting, comments (nodeId, objectId, subject, author, message,
+     *               published, hidden, can: moderate, spam)
+     */
+    public function comments( array $in )
+    {
+        $class = self::commentClass();
+        if ( $class === null )
+            throw new expwtApiError( 404, 'not_found', 'There are no comments here.' );
+        $node = $this->readableNode( $in );
+        $out = array( 'nodeId' => (int)$node->attribute( 'node_id' ), 'name' => (string)$node->attribute( 'name' ),
+                      'canReply' => $this->commentCreateAccess( $node, $class ), 'total' => 0, 'waiting' => 0, 'comments' => array() );
+        foreach ( $this->commentNodes( $node, $class ) as $comment )
+        {
+            $hidden = (bool)$comment->attribute( 'is_hidden' );
+            $moderate = (bool)$comment->canHide();
+            if ( $hidden && !$moderate )
+                continue;
+            $out['total']++;
+            if ( $hidden )
+                $out['waiting']++;
+            $out['comments'][] = $this->commentInfo( $comment, $moderate );
+        }
+        return $out;
+    }
+
+    /** @return array a comment as the panel shows it */
+    protected function commentInfo( eZContentObjectTreeNode $comment, $moderate )
+    {
+        $object = $comment->object();
+        $map = $object instanceof eZContentObject ? (array)$object->attribute( 'data_map' ) : array();
+        $text = function ( $id ) use ( $map ) {
+            return isset( $map[$id] ) && $map[$id]->hasContent() ? (string)$map[$id]->attribute( 'data_text' ) : '';
+        };
+        return array( 'nodeId' => (int)$comment->attribute( 'node_id' ), 'objectId' => (int)$comment->attribute( 'contentobject_id' ),
+                      'subject' => $text( 'subject' ) !== '' ? $text( 'subject' ) : (string)$comment->attribute( 'name' ),
+                      'author' => $text( 'author' ), 'message' => self::commentText( $text( 'message' ) ),
+                      'published' => $object instanceof eZContentObject ? (int)$object->attribute( 'published' ) : 0,
+                      'hidden' => (bool)$comment->attribute( 'is_hidden' ),
+                      'can' => array( 'moderate' => (bool)$moderate, 'spam' => (bool)$comment->canRemove() ) );
+    }
+
+    /** Pure: a comment's message as the panel shows it: plain text, control characters out, at most 5000 characters */
+    public static function commentText( $text )
+    {
+        $text = str_replace( array( "\r\n", "\r" ), "\n", (string)$text );
+        $text = preg_replace( '/[\x00-\x08\x0B\x0C\x0E-\x1F\x7F]/u', '', $text );
+        return mb_substr( trim( (string)$text ), 0, 5000, 'UTF-8' );
+    }
+
+    /**
+     * Pure: what a moderation does to a comment: approve reveals a hidden comment, hide hides a visible one, spam takes
+     * it to the trash (visible or hidden).
+     *
+     * @param string $decision approve, hide, spam
+     * @param bool $hidden the comment is hidden now
+     * @return string|null reveal, hide, trash, or null when there is nothing to do (an approved comment approved again)
+     */
+    public static function commentStep( $decision, $hidden )
+    {
+        if ( $decision === 'spam' )
+            return 'trash';
+        if ( $decision === 'approve' )
+            return $hidden ? 'reveal' : null;
+        if ( $decision === 'hide' )
+            return $hidden ? null : 'hide';
+        return null;
+    }
+
+    /** @return eZContentObjectTreeNode a comment the user may read */
+    protected function readableComment( array $in )
+    {
+        $class = self::commentClass();
+        $comment = isset( $in['commentId'] ) ? eZContentObjectTreeNode::fetch( (int)$in['commentId'] ) : null;
+        if ( $class === null || !$comment instanceof eZContentObjectTreeNode || (string)$comment->attribute( 'class_identifier' ) !== $class || !$comment->canRead() )
+            throw new expwtApiError( 404, 'not_found', 'This comment is not there any more, or you may not read it.' );
+        return $comment;
+    }
+
+    /**
+     * Moderates a comment in place (E4): approve (reveal a hidden comment) and hide need content/hide of the comment,
+     * spam (to the trash, where it can be restored) content/remove; each through the kernel's operation, as the
+     * administration does it, and audited as content.comment.<decision>.
+     *
+     * @param array $in commentId, decision (approve, hide, spam)
+     * @return array status (DONE, or the writer's when a workflow holds it), decision, comment (as comments() lists it; null after spam)
+     */
+    public function commentModerate( array $in )
+    {
+        $decision = isset( $in['decision'] ) ? (string)$in['decision'] : '';
+        if ( !in_array( $decision, array( 'approve', 'hide', 'spam' ), true ) )
+            throw new expwtApiError( 400, 'bad_input', 'There is no such decision.' );
+        $comment = $this->readableComment( $in );
+        $step = self::commentStep( $decision, (bool)$comment->attribute( 'is_hidden' ) );
+        if ( $step === 'trash' ? !$comment->canRemove() : !$comment->canHide() )
+            throw new expwtApiError( 403, 'forbidden', 'You may not do this.' );
+        $nodeId = (int)$comment->attribute( 'node_id' );
+        $parentId = (int)$comment->attribute( 'parent_node_id' );
+        $name = (string)$comment->attribute( 'name' );
+        $status = 'DONE';
+        if ( $step === 'trash' )
+            $status = (string)$this->writer()->remove( array( 'nodeId' => $nodeId, 'trash' => true ) )['status'];
+        elseif ( $step !== null )
+            $status = (string)$this->writer()->visibility( $nodeId, $step === 'hide' )['status'];
+        // the trash is where spam goes: done
+        if ( in_array( $status, array( 'TRASHED', 'DELETED' ), true ) )
+            $status = 'DONE';
+        eZContentCacheManager::clearContentCacheIfNeeded( (int)$comment->attribute( 'contentobject_id' ) );
+        $parent = eZContentObjectTreeNode::fetch( $parentId );
+        if ( $parent instanceof eZContentObjectTreeNode )
+            eZContentCacheManager::clearContentCacheIfNeeded( (int)$parent->attribute( 'contentobject_id' ) );
+        if ( class_exists( 'expAuditHook' ) )
+            expAuditHook::emit( 'content.comment.' . $decision, array( 'object' => array( 'type' => 'node', 'id' => $nodeId, 'name' => $name ),
+                'target' => array( 'type' => 'node', 'id' => $parentId ), 'verb' => $decision ) );
+        $after = $step === 'trash' ? null : eZContentObjectTreeNode::fetch( $nodeId );
+        return array( 'status' => $status, 'decision' => $decision,
+                      'comment' => $after instanceof eZContentObjectTreeNode ? $this->commentInfo( $after, (bool)$after->canHide() ) : null );
+    }
+
+    /**
+     * Pure: the subject of a reply: "Re: " and the subject replied to (once), else the page's name; at most 255 characters.
+     */
+    public static function replySubject( $subject, $pageName )
+    {
+        $subject = trim( (string)$subject );
+        if ( $subject === '' )
+            $subject = trim( (string)$pageName );
+        if ( !preg_match( '/^re:\s/iu', $subject ) )
+            $subject = 'Re: ' . $subject;
+        return mb_substr( $subject, 0, 255, 'UTF-8' );
+    }
+
+    /**
+     * A reply on the page (E4): a new comment below the page, by the user (their name as the author), published through
+     * the kernel's content/publish (its workflows apply, an approval too); needs content/create of the comment class
+     * below the page. Audited as content.comment.reply.
+     *
+     * @param array $in nodeId (the page), commentId (the comment replied to, optional), message
+     * @return array status (DONE when published, PENDING when a workflow holds it), comment (null while held)
+     */
+    public function commentReply( array $in )
+    {
+        $class = self::commentClass();
+        if ( $class === null )
+            throw new expwtApiError( 404, 'not_found', 'There are no comments here.' );
+        $node = $this->readableNode( $in );
+        $message = isset( $in['message'] ) ? trim( (string)$in['message'] ) : '';
+        if ( $message === '' )
+            throw new expwtApiError( 400, 'bad_input', 'Write the reply first.' );
+        if ( !$this->commentCreateAccess( $node, $class ) )
+            throw new expwtApiError( 403, 'forbidden', 'You may not do this.' );
+        $about = '';
+        if ( isset( $in['commentId'] ) )
+        {
+            $to = $this->readableComment( $in );
+            if ( (int)$to->attribute( 'parent_node_id' ) !== (int)$node->attribute( 'node_id' ) )
+                throw new expwtApiError( 404, 'not_found', 'This comment is not there any more, or you may not read it.' );
+            $about = (string)$to->attribute( 'name' );
+        }
+        $user = $this->currentUser();
+        $userObject = $user->attribute( 'contentobject' );
+        $author = $userObject instanceof eZContentObject ? (string)$userObject->attribute( 'name' ) : (string)$user->attribute( 'login' );
+        $fields = array( array( 'identifier' => 'subject', 'value' => self::replySubject( $about, $node->attribute( 'name' ) ), 'format' => 'RAW' ),
+                         array( 'identifier' => 'author', 'value' => mb_substr( $author, 0, 255, 'UTF-8' ), 'format' => 'RAW' ),
+                         array( 'identifier' => 'message', 'value' => mb_substr( $message, 0, self::COMMENT_REPLY_MAX, 'UTF-8' ), 'format' => 'RAW' ) );
+        $draft = $this->writer()->createDraft( array( 'parentId' => (int)$node->attribute( 'node_id' ), 'classIdentifier' => $class, 'fields' => $fields ) );
+        $result = $this->writer()->publishDraft( (int)$draft['contentId'], (int)$draft['version'] );
+        // published at once: done; else a workflow holds it (an approval)
+        $status = (string)$result['status'] === 'PUBLISHED' ? 'DONE' : 'PENDING';
+        if ( class_exists( 'expAuditHook' ) )
+            expAuditHook::emit( 'content.comment.reply', array( 'object' => array( 'type' => 'object', 'id' => (int)$draft['contentId'] ),
+                'target' => array( 'type' => 'node', 'id' => (int)$node->attribute( 'node_id' ), 'name' => (string)$node->attribute( 'name' ) ), 'verb' => 'reply' ) );
+        $new = !empty( $result['nodeId'] ) ? eZContentObjectTreeNode::fetch( (int)$result['nodeId'] ) : null;
+        return array( 'status' => $status, 'comment' => $new instanceof eZContentObjectTreeNode ? $this->commentInfo( $new, (bool)$new->canHide() ) : null );
+    }
+
     // ------------------------------------------------------------------------------------------------ the inbox
 
     /** @return bool the user may use the kernel's collaboration (the module's policy), where the approvals are */

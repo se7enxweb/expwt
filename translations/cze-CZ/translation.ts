@@ -1371,5 +1371,97 @@
         <source>Verify it's you</source>
         <translation>Ověřte, že jste to vy</translation>
     </message>
+    <message>
+        <source>There are no comments here.</source>
+        <translation>Nejsou tu žádné komentáře.</translation>
+    </message>
+    <message>
+        <source>This comment is not there any more, or you may not read it.</source>
+        <translation>Tento komentář už neexistuje, nebo ho nesmíte číst.</translation>
+    </message>
+    <message>
+        <source>There is no such decision.</source>
+        <translation>Takové rozhodnutí neexistuje.</translation>
+    </message>
+    <message>
+        <source>Write the reply first.</source>
+        <translation>Nejprve napište odpověď.</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>Komentáře</translation>
+    </message>
+    <message>
+        <source>%n wait for moderation</source>
+        <translation>%n čeká na moderaci</translation>
+    </message>
+    <message>
+        <source>No comments on this page yet.</source>
+        <translation>Na této stránce zatím nejsou žádné komentáře.</translation>
+    </message>
+    <message>
+        <source>Waiting for moderation</source>
+        <translation>Čeká na moderaci</translation>
+    </message>
+    <message>
+        <source>Reply</source>
+        <translation>Odpovědět</translation>
+    </message>
+    <message>
+        <source>Spam</source>
+        <translation>Spam</translation>
+    </message>
+    <message>
+        <source>Move "%name" to the trash as spam? It can be restored from the trash in the administration.</source>
+        <translation>Přesunout "%name" do koše jako spam? Lze jej obnovit z koše v administraci.</translation>
+    </message>
+    <message>
+        <source>Spam ...</source>
+        <translation>Spam ...</translation>
+    </message>
+    <message>
+        <source>The comment is approved and shown on the page.</source>
+        <translation>Komentář je schválen a zobrazuje se na stránce.</translation>
+    </message>
+    <message>
+        <source>The comment is hidden.</source>
+        <translation>Komentář je skrytý.</translation>
+    </message>
+    <message>
+        <source>The comment was moved to the trash as spam.</source>
+        <translation>Komentář byl přesunut do koše jako spam.</translation>
+    </message>
+    <message>
+        <source>A workflow holds this change. Find it in the administration.</source>
+        <translation>Tuto změnu zadržuje pracovní postup. Najdete ji v administraci.</translation>
+    </message>
+    <message>
+        <source>Send the reply</source>
+        <translation>Odeslat odpověď</translation>
+    </message>
+    <message>
+        <source>Write a comment</source>
+        <translation>Napsat komentář</translation>
+    </message>
+    <message>
+        <source>Reply to "%name"</source>
+        <translation>Odpověď na "%name"</translation>
+    </message>
+    <message>
+        <source>Comment on this page</source>
+        <translation>Komentovat tuto stránku</translation>
+    </message>
+    <message>
+        <source>The reply is published on the page.</source>
+        <translation>Odpověď je zveřejněna na stránce.</translation>
+    </message>
+    <message>
+        <source>The reply waits for its approval.</source>
+        <translation>Odpověď čeká na schválení.</translation>
+    </message>
+    <message>
+        <source>%n comments wait for moderation</source>
+        <translation>%n komentářů čeká na moderaci</translation>
+    </message>
 </context>
 </TS>

@@ -1371,5 +1371,97 @@
         <source>Verify it's you</source>
         <translation>ખાતરી કરો કે આ આપ જ છો</translation>
     </message>
+    <message>
+        <source>There are no comments here.</source>
+        <translation>અહીં કોઈ ટિપ્પણી નથી.</translation>
+    </message>
+    <message>
+        <source>This comment is not there any more, or you may not read it.</source>
+        <translation>આ ટિપ્પણી હવે નથી, અથવા તમને તે વાંચવાની પરવાનગી નથી.</translation>
+    </message>
+    <message>
+        <source>There is no such decision.</source>
+        <translation>એવો કોઈ નિર્ણય નથી.</translation>
+    </message>
+    <message>
+        <source>Write the reply first.</source>
+        <translation>પહેલાં જવાબ લખો.</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>ટિપ્પણીઓ</translation>
+    </message>
+    <message>
+        <source>%n wait for moderation</source>
+        <translation>%n મધ્યસ્થીની રાહ જુએ છે</translation>
+    </message>
+    <message>
+        <source>No comments on this page yet.</source>
+        <translation>આ પેજ પર હજી કોઈ ટિપ્પણી નથી.</translation>
+    </message>
+    <message>
+        <source>Waiting for moderation</source>
+        <translation>મધ્યસ્થીની રાહ જુએ છે</translation>
+    </message>
+    <message>
+        <source>Reply</source>
+        <translation>જવાબ આપો</translation>
+    </message>
+    <message>
+        <source>Spam</source>
+        <translation>સ્પામ</translation>
+    </message>
+    <message>
+        <source>Move "%name" to the trash as spam? It can be restored from the trash in the administration.</source>
+        <translation>"%name" ને સ્પામ તરીકે કચરાપેટીમાં ખસેડવું છે? વહીવટમાં કચરાપેટીમાંથી તેને પાછું લાવી શકાય છે.</translation>
+    </message>
+    <message>
+        <source>Spam ...</source>
+        <translation>સ્પામ ...</translation>
+    </message>
+    <message>
+        <source>The comment is approved and shown on the page.</source>
+        <translation>ટિપ્પણી મંજૂર થઈ અને પેજ પર બતાવાય છે.</translation>
+    </message>
+    <message>
+        <source>The comment is hidden.</source>
+        <translation>ટિપ્પણી છુપાવી દેવાઈ.</translation>
+    </message>
+    <message>
+        <source>The comment was moved to the trash as spam.</source>
+        <translation>ટિપ્પણી સ્પામ તરીકે કચરાપેટીમાં ખસેડાઈ.</translation>
+    </message>
+    <message>
+        <source>A workflow holds this change. Find it in the administration.</source>
+        <translation>એક વર્કફ્લો આ ફેરફારને રોકી રાખે છે. વહીવટમાં શોધો.</translation>
+    </message>
+    <message>
+        <source>Send the reply</source>
+        <translation>જવાબ મોકલો</translation>
+    </message>
+    <message>
+        <source>Write a comment</source>
+        <translation>ટિપ્પણી લખો</translation>
+    </message>
+    <message>
+        <source>Reply to "%name"</source>
+        <translation>"%name" ને જવાબ</translation>
+    </message>
+    <message>
+        <source>Comment on this page</source>
+        <translation>આ પેજ પર ટિપ્પણી કરો</translation>
+    </message>
+    <message>
+        <source>The reply is published on the page.</source>
+        <translation>જવાબ પેજ પર પ્રકાશિત થયો.</translation>
+    </message>
+    <message>
+        <source>The reply waits for its approval.</source>
+        <translation>જવાબ મંજૂરીની રાહ જુએ છે.</translation>
+    </message>
+    <message>
+        <source>%n comments wait for moderation</source>
+        <translation>%n ટિપ્પણીઓ મધ્યસ્થીની રાહ જુએ છે</translation>
+    </message>
 </context>
 </TS>

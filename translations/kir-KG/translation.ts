@@ -1371,5 +1371,97 @@
         <source>Verify it's you</source>
         <translation>Бул сиз экениңизди ырастаңыз</translation>
     </message>
+    <message>
+        <source>There are no comments here.</source>
+        <translation>Бул жерде комментарийлер жок.</translation>
+    </message>
+    <message>
+        <source>This comment is not there any more, or you may not read it.</source>
+        <translation>Бул комментарий мындан ары жок же аны окууга уруксатыңыз жок.</translation>
+    </message>
+    <message>
+        <source>There is no such decision.</source>
+        <translation>Мындай чечим жок.</translation>
+    </message>
+    <message>
+        <source>Write the reply first.</source>
+        <translation>Адегенде жоопту жазыңыз.</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>Комментарийлер</translation>
+    </message>
+    <message>
+        <source>%n wait for moderation</source>
+        <translation>%n модерацияны күтүүдө</translation>
+    </message>
+    <message>
+        <source>No comments on this page yet.</source>
+        <translation>Бул бетте азырынча комментарийлер жок.</translation>
+    </message>
+    <message>
+        <source>Waiting for moderation</source>
+        <translation>Модерацияны күтүүдө</translation>
+    </message>
+    <message>
+        <source>Reply</source>
+        <translation>Жооп берүү</translation>
+    </message>
+    <message>
+        <source>Spam</source>
+        <translation>Спам</translation>
+    </message>
+    <message>
+        <source>Move "%name" to the trash as spam? It can be restored from the trash in the administration.</source>
+        <translation>"%name" спам катары себетке жылдырылсынбы? Аны башкарууда себеттен калыбына келтирсе болот.</translation>
+    </message>
+    <message>
+        <source>Spam ...</source>
+        <translation>Спам ...</translation>
+    </message>
+    <message>
+        <source>The comment is approved and shown on the page.</source>
+        <translation>Комментарий бекитилди жана бетте көрсөтүлөт.</translation>
+    </message>
+    <message>
+        <source>The comment is hidden.</source>
+        <translation>Комментарий жашырылды.</translation>
+    </message>
+    <message>
+        <source>The comment was moved to the trash as spam.</source>
+        <translation>Комментарий спам катары себетке жылдырылды.</translation>
+    </message>
+    <message>
+        <source>A workflow holds this change. Find it in the administration.</source>
+        <translation>Иш агымы бул өзгөрүүнү кармап турат. Аны башкаруудан табыңыз.</translation>
+    </message>
+    <message>
+        <source>Send the reply</source>
+        <translation>Жоопту жөнөтүү</translation>
+    </message>
+    <message>
+        <source>Write a comment</source>
+        <translation>Комментарий жазуу</translation>
+    </message>
+    <message>
+        <source>Reply to "%name"</source>
+        <translation>"%name" комментарийине жооп</translation>
+    </message>
+    <message>
+        <source>Comment on this page</source>
+        <translation>Бул бетке комментарий калтыруу</translation>
+    </message>
+    <message>
+        <source>The reply is published on the page.</source>
+        <translation>Жооп бетте жарыяланды.</translation>
+    </message>
+    <message>
+        <source>The reply waits for its approval.</source>
+        <translation>Жооп бекитүүнү күтүүдө.</translation>
+    </message>
+    <message>
+        <source>%n comments wait for moderation</source>
+        <translation>%n комментарий модерацияны күтүүдө</translation>
+    </message>
 </context>
 </TS>

@@ -1371,5 +1371,97 @@
         <source>Verify it's you</source>
         <translation>تصدیق کرو کہ ایہہ تسی او</translation>
     </message>
+    <message>
+        <source>There are no comments here.</source>
+        <translation>ایتھے کوئی تبصرہ نہیں۔</translation>
+    </message>
+    <message>
+        <source>This comment is not there any more, or you may not read it.</source>
+        <translation>ایہہ تبصرہ ہُن نہیں رہیا، یا تہانوں ایہنوں پڑھن دی اجازت نہیں۔</translation>
+    </message>
+    <message>
+        <source>There is no such decision.</source>
+        <translation>اجیہا کوئی فیصلہ نہیں۔</translation>
+    </message>
+    <message>
+        <source>Write the reply first.</source>
+        <translation>پہلاں جواب لکھو۔</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>تبصرے</translation>
+    </message>
+    <message>
+        <source>%n wait for moderation</source>
+        <translation>%n موڈریشن دی اڈیک وچ</translation>
+    </message>
+    <message>
+        <source>No comments on this page yet.</source>
+        <translation>ایس صفحے تے حالے کوئی تبصرہ نہیں۔</translation>
+    </message>
+    <message>
+        <source>Waiting for moderation</source>
+        <translation>موڈریشن دی اڈیک وچ</translation>
+    </message>
+    <message>
+        <source>Reply</source>
+        <translation>جواب دیو</translation>
+    </message>
+    <message>
+        <source>Spam</source>
+        <translation>سپیم</translation>
+    </message>
+    <message>
+        <source>Move "%name" to the trash as spam? It can be restored from the trash in the administration.</source>
+        <translation>"%name" نوں سپیم سمجھ کے ردی وچ گھلو؟ انتظامیہ وچ ردی توں ایہنوں واپس لیایا جا سکدا اے۔</translation>
+    </message>
+    <message>
+        <source>Spam ...</source>
+        <translation>سپیم ...</translation>
+    </message>
+    <message>
+        <source>The comment is approved and shown on the page.</source>
+        <translation>تبصرہ منظور ہو گیا تے صفحے تے وکھایا جا رہیا اے۔</translation>
+    </message>
+    <message>
+        <source>The comment is hidden.</source>
+        <translation>تبصرہ لکا دتا گیا۔</translation>
+    </message>
+    <message>
+        <source>The comment was moved to the trash as spam.</source>
+        <translation>تبصرہ سپیم سمجھ کے ردی وچ گھل دتا گیا۔</translation>
+    </message>
+    <message>
+        <source>A workflow holds this change. Find it in the administration.</source>
+        <translation>اک ورک فلو ایس تبدیلی نوں روکی بیٹھا اے۔ انتظامیہ وچ لبھو۔</translation>
+    </message>
+    <message>
+        <source>Send the reply</source>
+        <translation>جواب گھلو</translation>
+    </message>
+    <message>
+        <source>Write a comment</source>
+        <translation>تبصرہ لکھو</translation>
+    </message>
+    <message>
+        <source>Reply to "%name"</source>
+        <translation>"%name" دا جواب</translation>
+    </message>
+    <message>
+        <source>Comment on this page</source>
+        <translation>ایس صفحے تے تبصرہ کرو</translation>
+    </message>
+    <message>
+        <source>The reply is published on the page.</source>
+        <translation>جواب صفحے تے چھاپ دتا گیا۔</translation>
+    </message>
+    <message>
+        <source>The reply waits for its approval.</source>
+        <translation>جواب منظوری دی اڈیک وچ اے۔</translation>
+    </message>
+    <message>
+        <source>%n comments wait for moderation</source>
+        <translation>%n تبصرے موڈریشن دی اڈیک وچ</translation>
+    </message>
 </context>
 </TS>

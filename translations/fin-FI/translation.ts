@@ -1371,5 +1371,97 @@
         <source>Verify it's you</source>
         <translation>Vahvista henkilöllisyytesi</translation>
     </message>
+    <message>
+        <source>There are no comments here.</source>
+        <translation>Täällä ei ole kommentteja.</translation>
+    </message>
+    <message>
+        <source>This comment is not there any more, or you may not read it.</source>
+        <translation>Tätä kommenttia ei ole enää, tai et saa lukea sitä.</translation>
+    </message>
+    <message>
+        <source>There is no such decision.</source>
+        <translation>Tällaista päätöstä ei ole.</translation>
+    </message>
+    <message>
+        <source>Write the reply first.</source>
+        <translation>Kirjoita ensin vastaus.</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>Kommentit</translation>
+    </message>
+    <message>
+        <source>%n wait for moderation</source>
+        <translation>%n odottaa moderointia</translation>
+    </message>
+    <message>
+        <source>No comments on this page yet.</source>
+        <translation>Tällä sivulla ei ole vielä kommentteja.</translation>
+    </message>
+    <message>
+        <source>Waiting for moderation</source>
+        <translation>Odottaa moderointia</translation>
+    </message>
+    <message>
+        <source>Reply</source>
+        <translation>Vastaa</translation>
+    </message>
+    <message>
+        <source>Spam</source>
+        <translation>Roskaposti</translation>
+    </message>
+    <message>
+        <source>Move "%name" to the trash as spam? It can be restored from the trash in the administration.</source>
+        <translation>Siirretäänkö "%name" roskakoriin roskapostina? Sen voi palauttaa roskakorista hallinnassa.</translation>
+    </message>
+    <message>
+        <source>Spam ...</source>
+        <translation>Roskaposti ...</translation>
+    </message>
+    <message>
+        <source>The comment is approved and shown on the page.</source>
+        <translation>Kommentti on hyväksytty ja näkyy sivulla.</translation>
+    </message>
+    <message>
+        <source>The comment is hidden.</source>
+        <translation>Kommentti on piilotettu.</translation>
+    </message>
+    <message>
+        <source>The comment was moved to the trash as spam.</source>
+        <translation>Kommentti siirrettiin roskakoriin roskapostina.</translation>
+    </message>
+    <message>
+        <source>A workflow holds this change. Find it in the administration.</source>
+        <translation>Työnkulku pidättää tämän muutoksen. Löydät sen hallinnasta.</translation>
+    </message>
+    <message>
+        <source>Send the reply</source>
+        <translation>Lähetä vastaus</translation>
+    </message>
+    <message>
+        <source>Write a comment</source>
+        <translation>Kirjoita kommentti</translation>
+    </message>
+    <message>
+        <source>Reply to "%name"</source>
+        <translation>Vastaus: "%name"</translation>
+    </message>
+    <message>
+        <source>Comment on this page</source>
+        <translation>Kommentoi tätä sivua</translation>
+    </message>
+    <message>
+        <source>The reply is published on the page.</source>
+        <translation>Vastaus on julkaistu sivulla.</translation>
+    </message>
+    <message>
+        <source>The reply waits for its approval.</source>
+        <translation>Vastaus odottaa hyväksyntää.</translation>
+    </message>
+    <message>
+        <source>%n comments wait for moderation</source>
+        <translation>%n kommenttia odottaa moderointia</translation>
+    </message>
 </context>
 </TS>

@@ -1371,5 +1371,97 @@
         <source>Verify it's you</source>
         <translation>මෙය ඔබ බව තහවුරු කරන්න</translation>
     </message>
+    <message>
+        <source>There are no comments here.</source>
+        <translation>මෙහි අදහස් නැත.</translation>
+    </message>
+    <message>
+        <source>This comment is not there any more, or you may not read it.</source>
+        <translation>මෙම අදහස තවදුරටත් නැත, නැතහොත් ඔබට එය කියවීමට අවසර නැත.</translation>
+    </message>
+    <message>
+        <source>There is no such decision.</source>
+        <translation>එවැනි තීරණයක් නැත.</translation>
+    </message>
+    <message>
+        <source>Write the reply first.</source>
+        <translation>පළමුව පිළිතුර ලියන්න.</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>අදහස්</translation>
+    </message>
+    <message>
+        <source>%n wait for moderation</source>
+        <translation>%n ක් මධ්‍යස්ථකරණය සඳහා රැඳී සිටී</translation>
+    </message>
+    <message>
+        <source>No comments on this page yet.</source>
+        <translation>මෙම පිටුවේ තවම අදහස් නැත.</translation>
+    </message>
+    <message>
+        <source>Waiting for moderation</source>
+        <translation>මධ්‍යස්ථකරණය සඳහා රැඳී සිටී</translation>
+    </message>
+    <message>
+        <source>Reply</source>
+        <translation>පිළිතුරු දෙන්න</translation>
+    </message>
+    <message>
+        <source>Spam</source>
+        <translation>ස්පෑම්</translation>
+    </message>
+    <message>
+        <source>Move "%name" to the trash as spam? It can be restored from the trash in the administration.</source>
+        <translation>"%name" ස්පෑම් ලෙස කුණු බඳුනට ගෙන යන්නද? පරිපාලනයේ කුණු බඳුනෙන් එය ප්‍රතිසාධනය කළ හැක.</translation>
+    </message>
+    <message>
+        <source>Spam ...</source>
+        <translation>ස්පෑම් ...</translation>
+    </message>
+    <message>
+        <source>The comment is approved and shown on the page.</source>
+        <translation>අදහස අනුමත කර පිටුවේ පෙන්වයි.</translation>
+    </message>
+    <message>
+        <source>The comment is hidden.</source>
+        <translation>අදහස සඟවා ඇත.</translation>
+    </message>
+    <message>
+        <source>The comment was moved to the trash as spam.</source>
+        <translation>අදහස ස්පෑම් ලෙස කුණු බඳුනට ගෙන ගියා.</translation>
+    </message>
+    <message>
+        <source>A workflow holds this change. Find it in the administration.</source>
+        <translation>කාර්ය ප්‍රවාහයක් මෙම වෙනස රඳවා තබා ඇත. පරිපාලනයේ සොයන්න.</translation>
+    </message>
+    <message>
+        <source>Send the reply</source>
+        <translation>පිළිතුර යවන්න</translation>
+    </message>
+    <message>
+        <source>Write a comment</source>
+        <translation>අදහසක් ලියන්න</translation>
+    </message>
+    <message>
+        <source>Reply to "%name"</source>
+        <translation>"%name" ට පිළිතුර</translation>
+    </message>
+    <message>
+        <source>Comment on this page</source>
+        <translation>මෙම පිටුවට අදහස් දක්වන්න</translation>
+    </message>
+    <message>
+        <source>The reply is published on the page.</source>
+        <translation>පිළිතුර පිටුවේ ප්‍රකාශ කළා.</translation>
+    </message>
+    <message>
+        <source>The reply waits for its approval.</source>
+        <translation>පිළිතුර අනුමැතිය සඳහා රැඳී සිටී.</translation>
+    </message>
+    <message>
+        <source>%n comments wait for moderation</source>
+        <translation>අදහස් %n ක් මධ්‍යස්ථකරණය සඳහා රැඳී සිටී</translation>
+    </message>
 </context>
 </TS>

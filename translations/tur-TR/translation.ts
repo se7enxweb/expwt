@@ -1371,5 +1371,97 @@
         <source>Verify it's you</source>
         <translation>Siz olduğunuzu doğrulayın</translation>
     </message>
+    <message>
+        <source>There are no comments here.</source>
+        <translation>Burada yorum yok.</translation>
+    </message>
+    <message>
+        <source>This comment is not there any more, or you may not read it.</source>
+        <translation>Bu yorum artık yok ya da onu okuma izniniz yok.</translation>
+    </message>
+    <message>
+        <source>There is no such decision.</source>
+        <translation>Böyle bir karar yok.</translation>
+    </message>
+    <message>
+        <source>Write the reply first.</source>
+        <translation>Önce yanıtı yazın.</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>Yorumlar</translation>
+    </message>
+    <message>
+        <source>%n wait for moderation</source>
+        <translation>%n denetim bekliyor</translation>
+    </message>
+    <message>
+        <source>No comments on this page yet.</source>
+        <translation>Bu sayfada henüz yorum yok.</translation>
+    </message>
+    <message>
+        <source>Waiting for moderation</source>
+        <translation>Denetim bekliyor</translation>
+    </message>
+    <message>
+        <source>Reply</source>
+        <translation>Yanıtla</translation>
+    </message>
+    <message>
+        <source>Spam</source>
+        <translation>İstenmeyen</translation>
+    </message>
+    <message>
+        <source>Move "%name" to the trash as spam? It can be restored from the trash in the administration.</source>
+        <translation>"%name" istenmeyen olarak çöp kutusuna taşınsın mı? Yönetimde çöp kutusundan geri yüklenebilir.</translation>
+    </message>
+    <message>
+        <source>Spam ...</source>
+        <translation>İstenmeyen ...</translation>
+    </message>
+    <message>
+        <source>The comment is approved and shown on the page.</source>
+        <translation>Yorum onaylandı ve sayfada gösteriliyor.</translation>
+    </message>
+    <message>
+        <source>The comment is hidden.</source>
+        <translation>Yorum gizlendi.</translation>
+    </message>
+    <message>
+        <source>The comment was moved to the trash as spam.</source>
+        <translation>Yorum istenmeyen olarak çöp kutusuna taşındı.</translation>
+    </message>
+    <message>
+        <source>A workflow holds this change. Find it in the administration.</source>
+        <translation>Bir iş akışı bu değişikliği bekletiyor. Yönetimde bulabilirsiniz.</translation>
+    </message>
+    <message>
+        <source>Send the reply</source>
+        <translation>Yanıtı gönder</translation>
+    </message>
+    <message>
+        <source>Write a comment</source>
+        <translation>Yorum yaz</translation>
+    </message>
+    <message>
+        <source>Reply to "%name"</source>
+        <translation>"%name" yorumuna yanıt</translation>
+    </message>
+    <message>
+        <source>Comment on this page</source>
+        <translation>Bu sayfaya yorum yap</translation>
+    </message>
+    <message>
+        <source>The reply is published on the page.</source>
+        <translation>Yanıt sayfada yayımlandı.</translation>
+    </message>
+    <message>
+        <source>The reply waits for its approval.</source>
+        <translation>Yanıt onayını bekliyor.</translation>
+    </message>
+    <message>
+        <source>%n comments wait for moderation</source>
+        <translation>%n yorum denetim bekliyor</translation>
+    </message>
 </context>
 </TS>

@@ -1371,5 +1371,97 @@
         <source>Verify it's you</source>
         <translation>تصدیق کٔرِو زِ یہِ چھِو تۄہۍ</translation>
     </message>
+    <message>
+        <source>There are no comments here.</source>
+        <translation>یَتھ کانٛہہ تبصرٕ چھُنہٕ۔</translation>
+    </message>
+    <message>
+        <source>This comment is not there any more, or you may not read it.</source>
+        <translation>یہِ تبصرٕ چھُنہٕ وۄنۍ، یا چھُنہٕ توٚہۍ اَمیُک پرنُک اجازت۔</translation>
+    </message>
+    <message>
+        <source>There is no such decision.</source>
+        <translation>تِتھ کانٛہہ فیصلہٕ چھُنہٕ۔</translation>
+    </message>
+    <message>
+        <source>Write the reply first.</source>
+        <translation>گۄڈٕ لیٚکھِو جواب۔</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>تبصرٕ</translation>
+    </message>
+    <message>
+        <source>%n wait for moderation</source>
+        <translation>%n چھِ موڈریشنُک انتظار کران</translation>
+    </message>
+    <message>
+        <source>No comments on this page yet.</source>
+        <translation>یَتھ صفحس پیٹھ چھُنہٕ وۄنۍ تام کانٛہہ تبصرٕ۔</translation>
+    </message>
+    <message>
+        <source>Waiting for moderation</source>
+        <translation>موڈریشنُک انتظار</translation>
+    </message>
+    <message>
+        <source>Reply</source>
+        <translation>جواب دِیو</translation>
+    </message>
+    <message>
+        <source>Spam</source>
+        <translation>سپیم</translation>
+    </message>
+    <message>
+        <source>Move "%name" to the trash as spam? It can be restored from the trash in the administration.</source>
+        <translation>"%name" سپیم سمجھِتھ کوٗڑدانس منٛز تراوِو؟ یہِ ہیٚکہِ انتظامیہس منٛز کوٗڑدانہٕ واپس انٛنہٕ۔</translation>
+    </message>
+    <message>
+        <source>Spam ...</source>
+        <translation>سپیم ...</translation>
+    </message>
+    <message>
+        <source>The comment is approved and shown on the page.</source>
+        <translation>تبصرٕ آو منظور کرنہٕ تہٕ صفحس پیٹھ چھُ ہاونہٕ یِوان۔</translation>
+    </message>
+    <message>
+        <source>The comment is hidden.</source>
+        <translation>تبصرٕ آو ژوٗرِ تھاونہٕ۔</translation>
+    </message>
+    <message>
+        <source>The comment was moved to the trash as spam.</source>
+        <translation>تبصرٕ آو سپیم سمجھِتھ کوٗڑدانس منٛز تراونہٕ۔</translation>
+    </message>
+    <message>
+        <source>A workflow holds this change. Find it in the administration.</source>
+        <translation>اکھ ورک فلو چھُ یہِ تبدیلی رۄکِتھ۔ انتظامیہس منٛز ژھانٛڈِو۔</translation>
+    </message>
+    <message>
+        <source>Send the reply</source>
+        <translation>جواب سوزِو</translation>
+    </message>
+    <message>
+        <source>Write a comment</source>
+        <translation>تبصرٕ لیٚکھِو</translation>
+    </message>
+    <message>
+        <source>Reply to "%name"</source>
+        <translation>"%name" کُن جواب</translation>
+    </message>
+    <message>
+        <source>Comment on this page</source>
+        <translation>یَتھ صفحس پیٹھ تبصرٕ کٔرِو</translation>
+    </message>
+    <message>
+        <source>The reply is published on the page.</source>
+        <translation>جواب آو صفحس پیٹھ شایع کرنہٕ۔</translation>
+    </message>
+    <message>
+        <source>The reply waits for its approval.</source>
+        <translation>جواب چھُ منظوری ہٕنز انتظار کران۔</translation>
+    </message>
+    <message>
+        <source>%n comments wait for moderation</source>
+        <translation>%n تبصرٕ چھِ موڈریشنُک انتظار کران</translation>
+    </message>
 </context>
 </TS>

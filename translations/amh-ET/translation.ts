@@ -1371,5 +1371,97 @@
         <source>Verify it's you</source>
         <translation>እርስዎ መሆንዎን ያረጋግጡ</translation>
     </message>
+    <message>
+        <source>There are no comments here.</source>
+        <translation>እዚህ ምንም አስተያየት የለም።</translation>
+    </message>
+    <message>
+        <source>This comment is not there any more, or you may not read it.</source>
+        <translation>ይህ አስተያየት ከአሁን በኋላ የለም፣ ወይም ማንበብ አይፈቀድልዎትም።</translation>
+    </message>
+    <message>
+        <source>There is no such decision.</source>
+        <translation>እንዲህ ያለ ውሳኔ የለም።</translation>
+    </message>
+    <message>
+        <source>Write the reply first.</source>
+        <translation>መጀመሪያ ምላሹን ይጻፉ።</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>አስተያየቶች</translation>
+    </message>
+    <message>
+        <source>%n wait for moderation</source>
+        <translation>%n ማጣራት ይጠብቃሉ</translation>
+    </message>
+    <message>
+        <source>No comments on this page yet.</source>
+        <translation>በዚህ ገጽ ላይ እስካሁን አስተያየት የለም።</translation>
+    </message>
+    <message>
+        <source>Waiting for moderation</source>
+        <translation>ማጣራት በመጠበቅ ላይ</translation>
+    </message>
+    <message>
+        <source>Reply</source>
+        <translation>መልስ</translation>
+    </message>
+    <message>
+        <source>Spam</source>
+        <translation>አይፈለጌ መልዕክት</translation>
+    </message>
+    <message>
+        <source>Move "%name" to the trash as spam? It can be restored from the trash in the administration.</source>
+        <translation>"%name"ን እንደ አይፈለጌ መልዕክት ወደ ቆሻሻ ይውሰዱ? በአስተዳደሩ ውስጥ ከቆሻሻው መመለስ ይቻላል።</translation>
+    </message>
+    <message>
+        <source>Spam ...</source>
+        <translation>አይፈለጌ መልዕክት ...</translation>
+    </message>
+    <message>
+        <source>The comment is approved and shown on the page.</source>
+        <translation>አስተያየቱ ጸድቋል እና በገጹ ላይ ይታያል።</translation>
+    </message>
+    <message>
+        <source>The comment is hidden.</source>
+        <translation>አስተያየቱ ተደብቋል።</translation>
+    </message>
+    <message>
+        <source>The comment was moved to the trash as spam.</source>
+        <translation>አስተያየቱ እንደ አይፈለጌ መልዕክት ወደ ቆሻሻ ተወስዷል።</translation>
+    </message>
+    <message>
+        <source>A workflow holds this change. Find it in the administration.</source>
+        <translation>የሥራ ፍሰት ይህን ለውጥ ይዞታል። በአስተዳደሩ ውስጥ ያግኙት።</translation>
+    </message>
+    <message>
+        <source>Send the reply</source>
+        <translation>ምላሹን ላክ</translation>
+    </message>
+    <message>
+        <source>Write a comment</source>
+        <translation>አስተያየት ይጻፉ</translation>
+    </message>
+    <message>
+        <source>Reply to "%name"</source>
+        <translation>ለ"%name" መልስ</translation>
+    </message>
+    <message>
+        <source>Comment on this page</source>
+        <translation>በዚህ ገጽ ላይ አስተያየት ይስጡ</translation>
+    </message>
+    <message>
+        <source>The reply is published on the page.</source>
+        <translation>ምላሹ በገጹ ላይ ታትሟል።</translation>
+    </message>
+    <message>
+        <source>The reply waits for its approval.</source>
+        <translation>ምላሹ ፈቃዱን ይጠብቃል።</translation>
+    </message>
+    <message>
+        <source>%n comments wait for moderation</source>
+        <translation>%n አስተያየቶች ማጣራት ይጠብቃሉ</translation>
+    </message>
 </context>
 </TS>

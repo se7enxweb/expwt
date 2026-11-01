@@ -1371,5 +1371,97 @@
         <source>Verify it's you</source>
         <translation>Xác minh đó là bạn</translation>
     </message>
+    <message>
+        <source>There are no comments here.</source>
+        <translation>Không có bình luận nào ở đây.</translation>
+    </message>
+    <message>
+        <source>This comment is not there any more, or you may not read it.</source>
+        <translation>Bình luận này không còn nữa, hoặc bạn không được phép đọc nó.</translation>
+    </message>
+    <message>
+        <source>There is no such decision.</source>
+        <translation>Không có quyết định như vậy.</translation>
+    </message>
+    <message>
+        <source>Write the reply first.</source>
+        <translation>Hãy viết câu trả lời trước.</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>Bình luận</translation>
+    </message>
+    <message>
+        <source>%n wait for moderation</source>
+        <translation>%n đang chờ kiểm duyệt</translation>
+    </message>
+    <message>
+        <source>No comments on this page yet.</source>
+        <translation>Trang này chưa có bình luận nào.</translation>
+    </message>
+    <message>
+        <source>Waiting for moderation</source>
+        <translation>Đang chờ kiểm duyệt</translation>
+    </message>
+    <message>
+        <source>Reply</source>
+        <translation>Trả lời</translation>
+    </message>
+    <message>
+        <source>Spam</source>
+        <translation>Thư rác</translation>
+    </message>
+    <message>
+        <source>Move "%name" to the trash as spam? It can be restored from the trash in the administration.</source>
+        <translation>Chuyển "%name" vào thùng rác như thư rác? Có thể khôi phục từ thùng rác trong phần quản trị.</translation>
+    </message>
+    <message>
+        <source>Spam ...</source>
+        <translation>Thư rác ...</translation>
+    </message>
+    <message>
+        <source>The comment is approved and shown on the page.</source>
+        <translation>Bình luận đã được phê duyệt và hiển thị trên trang.</translation>
+    </message>
+    <message>
+        <source>The comment is hidden.</source>
+        <translation>Bình luận đã bị ẩn.</translation>
+    </message>
+    <message>
+        <source>The comment was moved to the trash as spam.</source>
+        <translation>Bình luận đã được chuyển vào thùng rác như thư rác.</translation>
+    </message>
+    <message>
+        <source>A workflow holds this change. Find it in the administration.</source>
+        <translation>Một quy trình làm việc đang giữ thay đổi này. Hãy tìm nó trong phần quản trị.</translation>
+    </message>
+    <message>
+        <source>Send the reply</source>
+        <translation>Gửi câu trả lời</translation>
+    </message>
+    <message>
+        <source>Write a comment</source>
+        <translation>Viết bình luận</translation>
+    </message>
+    <message>
+        <source>Reply to "%name"</source>
+        <translation>Trả lời "%name"</translation>
+    </message>
+    <message>
+        <source>Comment on this page</source>
+        <translation>Bình luận về trang này</translation>
+    </message>
+    <message>
+        <source>The reply is published on the page.</source>
+        <translation>Câu trả lời đã được đăng trên trang.</translation>
+    </message>
+    <message>
+        <source>The reply waits for its approval.</source>
+        <translation>Câu trả lời đang chờ phê duyệt.</translation>
+    </message>
+    <message>
+        <source>%n comments wait for moderation</source>
+        <translation>%n bình luận đang chờ kiểm duyệt</translation>
+    </message>
 </context>
 </TS>

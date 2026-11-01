@@ -1371,5 +1371,97 @@
         <source>Verify it's you</source>
         <translation>Confirmatz qu'es vos</translation>
     </message>
+    <message>
+        <source>There are no comments here.</source>
+        <translation>Aicí i a pas de comentaris.</translation>
+    </message>
+    <message>
+        <source>This comment is not there any more, or you may not read it.</source>
+        <translation>Aqueste comentari existís pas mai, o avètz pas lo drech de lo legir.</translation>
+    </message>
+    <message>
+        <source>There is no such decision.</source>
+        <translation>Existís pas aquesta decision.</translation>
+    </message>
+    <message>
+        <source>Write the reply first.</source>
+        <translation>Escrivètz d'en primièr la responsa.</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>Comentaris</translation>
+    </message>
+    <message>
+        <source>%n wait for moderation</source>
+        <translation>%n esperan la moderacion</translation>
+    </message>
+    <message>
+        <source>No comments on this page yet.</source>
+        <translation>I a pas encara de comentaris sus aquesta pagina.</translation>
+    </message>
+    <message>
+        <source>Waiting for moderation</source>
+        <translation>Espèra la moderacion</translation>
+    </message>
+    <message>
+        <source>Reply</source>
+        <translation>Respondre</translation>
+    </message>
+    <message>
+        <source>Spam</source>
+        <translation>Spam</translation>
+    </message>
+    <message>
+        <source>Move "%name" to the trash as spam? It can be restored from the trash in the administration.</source>
+        <translation>Desplaçar "%name" a l'escobilhièr coma spam? Se pòt restablir de l'escobilhièr dins l'administracion.</translation>
+    </message>
+    <message>
+        <source>Spam ...</source>
+        <translation>Spam ...</translation>
+    </message>
+    <message>
+        <source>The comment is approved and shown on the page.</source>
+        <translation>Lo comentari es aprovat e afichat sus la pagina.</translation>
+    </message>
+    <message>
+        <source>The comment is hidden.</source>
+        <translation>Lo comentari es amagat.</translation>
+    </message>
+    <message>
+        <source>The comment was moved to the trash as spam.</source>
+        <translation>Lo comentari es estat desplaçat a l'escobilhièr coma spam.</translation>
+    </message>
+    <message>
+        <source>A workflow holds this change. Find it in the administration.</source>
+        <translation>Un flux de trabalh reten aquesta modificacion. La trobaretz dins l'administracion.</translation>
+    </message>
+    <message>
+        <source>Send the reply</source>
+        <translation>Mandar la responsa</translation>
+    </message>
+    <message>
+        <source>Write a comment</source>
+        <translation>Escriure un comentari</translation>
+    </message>
+    <message>
+        <source>Reply to "%name"</source>
+        <translation>Responsa a "%name"</translation>
+    </message>
+    <message>
+        <source>Comment on this page</source>
+        <translation>Comentar aquesta pagina</translation>
+    </message>
+    <message>
+        <source>The reply is published on the page.</source>
+        <translation>La responsa es publicada sus la pagina.</translation>
+    </message>
+    <message>
+        <source>The reply waits for its approval.</source>
+        <translation>La responsa espèra son aprovacion.</translation>
+    </message>
+    <message>
+        <source>%n comments wait for moderation</source>
+        <translation>%n comentaris esperan la moderacion</translation>
+    </message>
 </context>
 </TS>

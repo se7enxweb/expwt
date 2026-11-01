@@ -1371,5 +1371,97 @@
         <source>Verify it's you</source>
         <translation>Konfirmu, ke estas vi</translation>
     </message>
+    <message>
+        <source>There are no comments here.</source>
+        <translation>Ĉi tie ne estas komentoj.</translation>
+    </message>
+    <message>
+        <source>This comment is not there any more, or you may not read it.</source>
+        <translation>Ĉi tiu komento ne plu ekzistas, aŭ vi ne rajtas legi ĝin.</translation>
+    </message>
+    <message>
+        <source>There is no such decision.</source>
+        <translation>Ne ekzistas tia decido.</translation>
+    </message>
+    <message>
+        <source>Write the reply first.</source>
+        <translation>Unue skribu la respondon.</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>Komentoj</translation>
+    </message>
+    <message>
+        <source>%n wait for moderation</source>
+        <translation>%n atendas moderigon</translation>
+    </message>
+    <message>
+        <source>No comments on this page yet.</source>
+        <translation>Ankoraŭ ne estas komentoj ĉe ĉi tiu paĝo.</translation>
+    </message>
+    <message>
+        <source>Waiting for moderation</source>
+        <translation>Atendas moderigon</translation>
+    </message>
+    <message>
+        <source>Reply</source>
+        <translation>Respondi</translation>
+    </message>
+    <message>
+        <source>Spam</source>
+        <translation>Trudmesaĝo</translation>
+    </message>
+    <message>
+        <source>Move "%name" to the trash as spam? It can be restored from the trash in the administration.</source>
+        <translation>Ĉu movi "%name" al la rubujo kiel trudmesaĝon? Ĝi estas restaŭrebla el la rubujo en la administrado.</translation>
+    </message>
+    <message>
+        <source>Spam ...</source>
+        <translation>Trudmesaĝo ...</translation>
+    </message>
+    <message>
+        <source>The comment is approved and shown on the page.</source>
+        <translation>La komento estas aprobita kaj montrata sur la paĝo.</translation>
+    </message>
+    <message>
+        <source>The comment is hidden.</source>
+        <translation>La komento estas kaŝita.</translation>
+    </message>
+    <message>
+        <source>The comment was moved to the trash as spam.</source>
+        <translation>La komento estis movita al la rubujo kiel trudmesaĝo.</translation>
+    </message>
+    <message>
+        <source>A workflow holds this change. Find it in the administration.</source>
+        <translation>Laborfluo retenas ĉi tiun ŝanĝon. Trovu ĝin en la administrado.</translation>
+    </message>
+    <message>
+        <source>Send the reply</source>
+        <translation>Sendi la respondon</translation>
+    </message>
+    <message>
+        <source>Write a comment</source>
+        <translation>Skribi komenton</translation>
+    </message>
+    <message>
+        <source>Reply to "%name"</source>
+        <translation>Respondo al "%name"</translation>
+    </message>
+    <message>
+        <source>Comment on this page</source>
+        <translation>Komenti ĉi tiun paĝon</translation>
+    </message>
+    <message>
+        <source>The reply is published on the page.</source>
+        <translation>La respondo estas publikigita sur la paĝo.</translation>
+    </message>
+    <message>
+        <source>The reply waits for its approval.</source>
+        <translation>La respondo atendas sian aprobon.</translation>
+    </message>
+    <message>
+        <source>%n comments wait for moderation</source>
+        <translation>%n komentoj atendas moderigon</translation>
+    </message>
 </context>
 </TS>

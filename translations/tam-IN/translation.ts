@@ -1371,5 +1371,97 @@
         <source>Verify it's you</source>
         <translation>இது நீங்கள்தான் என உறுதிப்படுத்துங்கள்</translation>
     </message>
+    <message>
+        <source>There are no comments here.</source>
+        <translation>இங்கே கருத்துகள் இல்லை.</translation>
+    </message>
+    <message>
+        <source>This comment is not there any more, or you may not read it.</source>
+        <translation>இந்தக் கருத்து இனி இல்லை, அல்லது அதைப் படிக்க உங்களுக்கு அனுமதி இல்லை.</translation>
+    </message>
+    <message>
+        <source>There is no such decision.</source>
+        <translation>அப்படி ஒரு முடிவு இல்லை.</translation>
+    </message>
+    <message>
+        <source>Write the reply first.</source>
+        <translation>முதலில் பதிலை எழுதுங்கள்.</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>கருத்துகள்</translation>
+    </message>
+    <message>
+        <source>%n wait for moderation</source>
+        <translation>%n மதிப்பாய்வுக்குக் காத்திருக்கின்றன</translation>
+    </message>
+    <message>
+        <source>No comments on this page yet.</source>
+        <translation>இந்தப் பக்கத்தில் இன்னும் கருத்துகள் இல்லை.</translation>
+    </message>
+    <message>
+        <source>Waiting for moderation</source>
+        <translation>மதிப்பாய்வுக்குக் காத்திருக்கிறது</translation>
+    </message>
+    <message>
+        <source>Reply</source>
+        <translation>பதில்</translation>
+    </message>
+    <message>
+        <source>Spam</source>
+        <translation>ஸ்பேம்</translation>
+    </message>
+    <message>
+        <source>Move "%name" to the trash as spam? It can be restored from the trash in the administration.</source>
+        <translation>"%name" ஐ ஸ்பேமாகக் குப்பைக்கு நகர்த்தவா? நிர்வாகத்தில் குப்பையிலிருந்து மீட்டெடுக்கலாம்.</translation>
+    </message>
+    <message>
+        <source>Spam ...</source>
+        <translation>ஸ்பேம் ...</translation>
+    </message>
+    <message>
+        <source>The comment is approved and shown on the page.</source>
+        <translation>கருத்து ஒப்புதல் பெற்று பக்கத்தில் காட்டப்படுகிறது.</translation>
+    </message>
+    <message>
+        <source>The comment is hidden.</source>
+        <translation>கருத்து மறைக்கப்பட்டது.</translation>
+    </message>
+    <message>
+        <source>The comment was moved to the trash as spam.</source>
+        <translation>கருத்து ஸ்பேமாகக் குப்பைக்கு நகர்த்தப்பட்டது.</translation>
+    </message>
+    <message>
+        <source>A workflow holds this change. Find it in the administration.</source>
+        <translation>ஒரு பணிப்பாய்வு இந்த மாற்றத்தை நிறுத்தி வைத்துள்ளது. நிர்வாகத்தில் கண்டறியுங்கள்.</translation>
+    </message>
+    <message>
+        <source>Send the reply</source>
+        <translation>பதிலை அனுப்பு</translation>
+    </message>
+    <message>
+        <source>Write a comment</source>
+        <translation>கருத்து எழுது</translation>
+    </message>
+    <message>
+        <source>Reply to "%name"</source>
+        <translation>"%name" க்குப் பதில்</translation>
+    </message>
+    <message>
+        <source>Comment on this page</source>
+        <translation>இந்தப் பக்கத்தில் கருத்து தெரிவி</translation>
+    </message>
+    <message>
+        <source>The reply is published on the page.</source>
+        <translation>பதில் பக்கத்தில் வெளியிடப்பட்டது.</translation>
+    </message>
+    <message>
+        <source>The reply waits for its approval.</source>
+        <translation>பதில் ஒப்புதலுக்குக் காத்திருக்கிறது.</translation>
+    </message>
+    <message>
+        <source>%n comments wait for moderation</source>
+        <translation>%n கருத்துகள் மதிப்பாய்வுக்குக் காத்திருக்கின்றன</translation>
+    </message>
 </context>
 </TS>

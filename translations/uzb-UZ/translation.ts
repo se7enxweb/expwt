@@ -1371,5 +1371,97 @@
         <source>Verify it's you</source>
         <translation>Bu siz ekanligingizni tasdiqlang</translation>
     </message>
+    <message>
+        <source>There are no comments here.</source>
+        <translation>Bu yerda izohlar yoʻq.</translation>
+    </message>
+    <message>
+        <source>This comment is not there any more, or you may not read it.</source>
+        <translation>Bu izoh endi yoʻq yoki uni oʻqishga ruxsatingiz yoʻq.</translation>
+    </message>
+    <message>
+        <source>There is no such decision.</source>
+        <translation>Bunday qaror yoʻq.</translation>
+    </message>
+    <message>
+        <source>Write the reply first.</source>
+        <translation>Avval javobni yozing.</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>Izohlar</translation>
+    </message>
+    <message>
+        <source>%n wait for moderation</source>
+        <translation>%n moderatsiyani kutmoqda</translation>
+    </message>
+    <message>
+        <source>No comments on this page yet.</source>
+        <translation>Bu sahifada hali izohlar yoʻq.</translation>
+    </message>
+    <message>
+        <source>Waiting for moderation</source>
+        <translation>Moderatsiyani kutmoqda</translation>
+    </message>
+    <message>
+        <source>Reply</source>
+        <translation>Javob berish</translation>
+    </message>
+    <message>
+        <source>Spam</source>
+        <translation>Spam</translation>
+    </message>
+    <message>
+        <source>Move "%name" to the trash as spam? It can be restored from the trash in the administration.</source>
+        <translation>"%name" spam sifatida savatga koʻchirilsinmi? Uni boshqaruvda savatdan tiklash mumkin.</translation>
+    </message>
+    <message>
+        <source>Spam ...</source>
+        <translation>Spam ...</translation>
+    </message>
+    <message>
+        <source>The comment is approved and shown on the page.</source>
+        <translation>Izoh tasdiqlandi va sahifada koʻrsatilmoqda.</translation>
+    </message>
+    <message>
+        <source>The comment is hidden.</source>
+        <translation>Izoh yashirildi.</translation>
+    </message>
+    <message>
+        <source>The comment was moved to the trash as spam.</source>
+        <translation>Izoh spam sifatida savatga koʻchirildi.</translation>
+    </message>
+    <message>
+        <source>A workflow holds this change. Find it in the administration.</source>
+        <translation>Ish oqimi bu oʻzgarishni ushlab turibdi. Uni boshqaruvdan toping.</translation>
+    </message>
+    <message>
+        <source>Send the reply</source>
+        <translation>Javobni yuborish</translation>
+    </message>
+    <message>
+        <source>Write a comment</source>
+        <translation>Izoh yozish</translation>
+    </message>
+    <message>
+        <source>Reply to "%name"</source>
+        <translation>"%name" izohiga javob</translation>
+    </message>
+    <message>
+        <source>Comment on this page</source>
+        <translation>Bu sahifaga izoh yozish</translation>
+    </message>
+    <message>
+        <source>The reply is published on the page.</source>
+        <translation>Javob sahifada eʼlon qilindi.</translation>
+    </message>
+    <message>
+        <source>The reply waits for its approval.</source>
+        <translation>Javob tasdiqlanishini kutmoqda.</translation>
+    </message>
+    <message>
+        <source>%n comments wait for moderation</source>
+        <translation>%n izoh moderatsiyani kutmoqda</translation>
+    </message>
 </context>
 </TS>

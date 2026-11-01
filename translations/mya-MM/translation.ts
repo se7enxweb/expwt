@@ -1371,5 +1371,97 @@
         <source>Verify it's you</source>
         <translation>သင်ဖြစ်ကြောင်း အတည်ပြုပါ</translation>
     </message>
+    <message>
+        <source>There are no comments here.</source>
+        <translation>ဤနေရာတွင် မှတ်ချက်မရှိပါ။</translation>
+    </message>
+    <message>
+        <source>This comment is not there any more, or you may not read it.</source>
+        <translation>ဤမှတ်ချက် မရှိတော့ပါ၊ သို့မဟုတ် ဖတ်ခွင့်မရှိပါ။</translation>
+    </message>
+    <message>
+        <source>There is no such decision.</source>
+        <translation>ထိုကဲ့သို့ ဆုံးဖြတ်ချက် မရှိပါ။</translation>
+    </message>
+    <message>
+        <source>Write the reply first.</source>
+        <translation>အဖြေကို ဦးစွာ ရေးပါ။</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>မှတ်ချက်များ</translation>
+    </message>
+    <message>
+        <source>%n wait for moderation</source>
+        <translation>%n ခု စိစစ်ရန် စောင့်နေသည်</translation>
+    </message>
+    <message>
+        <source>No comments on this page yet.</source>
+        <translation>ဤစာမျက်နှာတွင် မှတ်ချက် မရှိသေးပါ။</translation>
+    </message>
+    <message>
+        <source>Waiting for moderation</source>
+        <translation>စိစစ်ရန် စောင့်နေသည်</translation>
+    </message>
+    <message>
+        <source>Reply</source>
+        <translation>ပြန်ဖြေရန်</translation>
+    </message>
+    <message>
+        <source>Spam</source>
+        <translation>စပမ်း</translation>
+    </message>
+    <message>
+        <source>Move "%name" to the trash as spam? It can be restored from the trash in the administration.</source>
+        <translation>"%name" ကို စပမ်းအဖြစ် အမှိုက်ပုံးသို့ ရွှေ့မလား။ စီမံခန့်ခွဲမှုတွင် အမှိုက်ပုံးမှ ပြန်ယူနိုင်သည်။</translation>
+    </message>
+    <message>
+        <source>Spam ...</source>
+        <translation>စပမ်း ...</translation>
+    </message>
+    <message>
+        <source>The comment is approved and shown on the page.</source>
+        <translation>မှတ်ချက်ကို အတည်ပြုပြီး စာမျက်နှာတွင် ပြသထားသည်။</translation>
+    </message>
+    <message>
+        <source>The comment is hidden.</source>
+        <translation>မှတ်ချက်ကို ဝှက်ထားသည်။</translation>
+    </message>
+    <message>
+        <source>The comment was moved to the trash as spam.</source>
+        <translation>မှတ်ချက်ကို စပမ်းအဖြစ် အမှိုက်ပုံးသို့ ရွှေ့ပြီးပါပြီ။</translation>
+    </message>
+    <message>
+        <source>A workflow holds this change. Find it in the administration.</source>
+        <translation>လုပ်ငန်းစဉ်တစ်ခုက ဤပြောင်းလဲမှုကို ထိန်းထားသည်။ စီမံခန့်ခွဲမှုတွင် ရှာပါ။</translation>
+    </message>
+    <message>
+        <source>Send the reply</source>
+        <translation>အဖြေ ပို့ရန်</translation>
+    </message>
+    <message>
+        <source>Write a comment</source>
+        <translation>မှတ်ချက် ရေးရန်</translation>
+    </message>
+    <message>
+        <source>Reply to "%name"</source>
+        <translation>"%name" သို့ ပြန်ဖြေချက်</translation>
+    </message>
+    <message>
+        <source>Comment on this page</source>
+        <translation>ဤစာမျက်နှာအတွက် မှတ်ချက်ပေးရန်</translation>
+    </message>
+    <message>
+        <source>The reply is published on the page.</source>
+        <translation>အဖြေကို စာမျက်နှာတွင် ထုတ်ဝေပြီးပါပြီ။</translation>
+    </message>
+    <message>
+        <source>The reply waits for its approval.</source>
+        <translation>အဖြေသည် အတည်ပြုချက်ကို စောင့်နေသည်။</translation>
+    </message>
+    <message>
+        <source>%n comments wait for moderation</source>
+        <translation>မှတ်ချက် %n ခု စိစစ်ရန် စောင့်နေသည်</translation>
+    </message>
 </context>
 </TS>

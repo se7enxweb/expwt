@@ -1371,5 +1371,97 @@
         <source>Verify it's you</source>
         <translation>আপুনিয়েই বুলি নিশ্চিত কৰক</translation>
     </message>
+    <message>
+        <source>There are no comments here.</source>
+        <translation>ইয়াত কোনো মন্তব্য নাই।</translation>
+    </message>
+    <message>
+        <source>This comment is not there any more, or you may not read it.</source>
+        <translation>এই মন্তব্য আৰু নাই, বা আপুনি ইয়াক পঢ়িব নোৱাৰে।</translation>
+    </message>
+    <message>
+        <source>There is no such decision.</source>
+        <translation>এনে কোনো সিদ্ধান্ত নাই।</translation>
+    </message>
+    <message>
+        <source>Write the reply first.</source>
+        <translation>প্ৰথমে উত্তৰটো লিখক।</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>মন্তব্য</translation>
+    </message>
+    <message>
+        <source>%n wait for moderation</source>
+        <translation>%n টা সঞ্চালনাৰ অপেক্ষাত</translation>
+    </message>
+    <message>
+        <source>No comments on this page yet.</source>
+        <translation>এই পৃষ্ঠাত এতিয়ালৈকে কোনো মন্তব্য নাই।</translation>
+    </message>
+    <message>
+        <source>Waiting for moderation</source>
+        <translation>সঞ্চালনাৰ অপেক্ষাত</translation>
+    </message>
+    <message>
+        <source>Reply</source>
+        <translation>উত্তৰ দিয়ক</translation>
+    </message>
+    <message>
+        <source>Spam</source>
+        <translation>স্পাম</translation>
+    </message>
+    <message>
+        <source>Move "%name" to the trash as spam? It can be restored from the trash in the administration.</source>
+        <translation>"%name" স্পাম হিচাপে আবৰ্জনালৈ পঠিয়াব নেকি? প্ৰশাসনত আবৰ্জনাৰ পৰা ইয়াক পুনৰুদ্ধাৰ কৰিব পাৰি।</translation>
+    </message>
+    <message>
+        <source>Spam ...</source>
+        <translation>স্পাম ...</translation>
+    </message>
+    <message>
+        <source>The comment is approved and shown on the page.</source>
+        <translation>মন্তব্যটো অনুমোদিত আৰু পৃষ্ঠাত দেখুওৱা হৈছে।</translation>
+    </message>
+    <message>
+        <source>The comment is hidden.</source>
+        <translation>মন্তব্যটো লুকুৱা হ'ল।</translation>
+    </message>
+    <message>
+        <source>The comment was moved to the trash as spam.</source>
+        <translation>মন্তব্যটো স্পাম হিচাপে আবৰ্জনালৈ পঠিওৱা হ'ল।</translation>
+    </message>
+    <message>
+        <source>A workflow holds this change. Find it in the administration.</source>
+        <translation>এটা কৰ্মপ্ৰবাহে এই সলনিটো ধৰি ৰাখিছে। প্ৰশাসনত বিচাৰক।</translation>
+    </message>
+    <message>
+        <source>Send the reply</source>
+        <translation>উত্তৰটো পঠিয়াওক</translation>
+    </message>
+    <message>
+        <source>Write a comment</source>
+        <translation>এটা মন্তব্য লিখক</translation>
+    </message>
+    <message>
+        <source>Reply to "%name"</source>
+        <translation>"%name"ৰ উত্তৰ</translation>
+    </message>
+    <message>
+        <source>Comment on this page</source>
+        <translation>এই পৃষ্ঠাত মন্তব্য কৰক</translation>
+    </message>
+    <message>
+        <source>The reply is published on the page.</source>
+        <translation>উত্তৰটো পৃষ্ঠাত প্ৰকাশ কৰা হ'ল।</translation>
+    </message>
+    <message>
+        <source>The reply waits for its approval.</source>
+        <translation>উত্তৰটো অনুমোদনৰ অপেক্ষাত আছে।</translation>
+    </message>
+    <message>
+        <source>%n comments wait for moderation</source>
+        <translation>%n টা মন্তব্য সঞ্চালনাৰ অপেক্ষাত</translation>
+    </message>
 </context>
 </TS>

@@ -1371,5 +1371,97 @@
         <source>Verify it's you</source>
         <translation>تایید کړئ چې دا تاسو یاست</translation>
     </message>
+    <message>
+        <source>There are no comments here.</source>
+        <translation>دلته هېڅ تبصره نشته.</translation>
+    </message>
+    <message>
+        <source>This comment is not there any more, or you may not read it.</source>
+        <translation>دا تبصره نور نشته، یا تاسو ته د لوستلو اجازه نشته.</translation>
+    </message>
+    <message>
+        <source>There is no such decision.</source>
+        <translation>داسې پرېکړه نشته.</translation>
+    </message>
+    <message>
+        <source>Write the reply first.</source>
+        <translation>لومړی ځواب ولیکئ.</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>تبصرې</translation>
+    </message>
+    <message>
+        <source>%n wait for moderation</source>
+        <translation>%n د څارنې په تمه دي</translation>
+    </message>
+    <message>
+        <source>No comments on this page yet.</source>
+        <translation>په دې پاڼه کې لا تبصره نشته.</translation>
+    </message>
+    <message>
+        <source>Waiting for moderation</source>
+        <translation>د څارنې په تمه</translation>
+    </message>
+    <message>
+        <source>Reply</source>
+        <translation>ځواب ورکړئ</translation>
+    </message>
+    <message>
+        <source>Spam</source>
+        <translation>سپام</translation>
+    </message>
+    <message>
+        <source>Move "%name" to the trash as spam? It can be restored from the trash in the administration.</source>
+        <translation>"%name" د سپام په توګه کثافاتو ته ولېږدول شي؟ په مدیریت کې له کثافاتو بېرته راګرځول کېدای شي.</translation>
+    </message>
+    <message>
+        <source>Spam ...</source>
+        <translation>سپام ...</translation>
+    </message>
+    <message>
+        <source>The comment is approved and shown on the page.</source>
+        <translation>تبصره تایید شوه او په پاڼه کې ښودل کېږي.</translation>
+    </message>
+    <message>
+        <source>The comment is hidden.</source>
+        <translation>تبصره پټه شوه.</translation>
+    </message>
+    <message>
+        <source>The comment was moved to the trash as spam.</source>
+        <translation>تبصره د سپام په توګه کثافاتو ته ولېږدول شوه.</translation>
+    </message>
+    <message>
+        <source>A workflow holds this change. Find it in the administration.</source>
+        <translation>یو کاري بهیر دا بدلون ساتلی دی. په مدیریت کې یې ومومئ.</translation>
+    </message>
+    <message>
+        <source>Send the reply</source>
+        <translation>ځواب ولېږئ</translation>
+    </message>
+    <message>
+        <source>Write a comment</source>
+        <translation>تبصره ولیکئ</translation>
+    </message>
+    <message>
+        <source>Reply to "%name"</source>
+        <translation>"%name" ته ځواب</translation>
+    </message>
+    <message>
+        <source>Comment on this page</source>
+        <translation>په دې پاڼه تبصره وکړئ</translation>
+    </message>
+    <message>
+        <source>The reply is published on the page.</source>
+        <translation>ځواب په پاڼه کې خپور شو.</translation>
+    </message>
+    <message>
+        <source>The reply waits for its approval.</source>
+        <translation>ځواب د تایید په تمه دی.</translation>
+    </message>
+    <message>
+        <source>%n comments wait for moderation</source>
+        <translation>%n تبصرې د څارنې په تمه دي</translation>
+    </message>
 </context>
 </TS>

@@ -1371,5 +1371,97 @@
         <source>Verify it's you</source>
         <translation>Pastikan ini Anda</translation>
     </message>
+    <message>
+        <source>There are no comments here.</source>
+        <translation>Tidak ada komentar di sini.</translation>
+    </message>
+    <message>
+        <source>This comment is not there any more, or you may not read it.</source>
+        <translation>Komentar ini sudah tidak ada, atau Anda tidak boleh membacanya.</translation>
+    </message>
+    <message>
+        <source>There is no such decision.</source>
+        <translation>Tidak ada keputusan seperti itu.</translation>
+    </message>
+    <message>
+        <source>Write the reply first.</source>
+        <translation>Tulis balasannya terlebih dahulu.</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>Komentar</translation>
+    </message>
+    <message>
+        <source>%n wait for moderation</source>
+        <translation>%n menunggu moderasi</translation>
+    </message>
+    <message>
+        <source>No comments on this page yet.</source>
+        <translation>Belum ada komentar di halaman ini.</translation>
+    </message>
+    <message>
+        <source>Waiting for moderation</source>
+        <translation>Menunggu moderasi</translation>
+    </message>
+    <message>
+        <source>Reply</source>
+        <translation>Balas</translation>
+    </message>
+    <message>
+        <source>Spam</source>
+        <translation>Spam</translation>
+    </message>
+    <message>
+        <source>Move "%name" to the trash as spam? It can be restored from the trash in the administration.</source>
+        <translation>Pindahkan "%name" ke tempat sampah sebagai spam? Komentar dapat dipulihkan dari tempat sampah di administrasi.</translation>
+    </message>
+    <message>
+        <source>Spam ...</source>
+        <translation>Spam ...</translation>
+    </message>
+    <message>
+        <source>The comment is approved and shown on the page.</source>
+        <translation>Komentar disetujui dan ditampilkan di halaman.</translation>
+    </message>
+    <message>
+        <source>The comment is hidden.</source>
+        <translation>Komentar disembunyikan.</translation>
+    </message>
+    <message>
+        <source>The comment was moved to the trash as spam.</source>
+        <translation>Komentar dipindahkan ke tempat sampah sebagai spam.</translation>
+    </message>
+    <message>
+        <source>A workflow holds this change. Find it in the administration.</source>
+        <translation>Sebuah alur kerja menahan perubahan ini. Temukan di administrasi.</translation>
+    </message>
+    <message>
+        <source>Send the reply</source>
+        <translation>Kirim balasan</translation>
+    </message>
+    <message>
+        <source>Write a comment</source>
+        <translation>Tulis komentar</translation>
+    </message>
+    <message>
+        <source>Reply to "%name"</source>
+        <translation>Balasan untuk "%name"</translation>
+    </message>
+    <message>
+        <source>Comment on this page</source>
+        <translation>Komentari halaman ini</translation>
+    </message>
+    <message>
+        <source>The reply is published on the page.</source>
+        <translation>Balasan dipublikasikan di halaman.</translation>
+    </message>
+    <message>
+        <source>The reply waits for its approval.</source>
+        <translation>Balasan menunggu persetujuannya.</translation>
+    </message>
+    <message>
+        <source>%n comments wait for moderation</source>
+        <translation>%n komentar menunggu moderasi</translation>
+    </message>
 </context>
 </TS>

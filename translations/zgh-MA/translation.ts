@@ -1371,5 +1371,97 @@
         <source>Verify it's you</source>
         <translation>ⵙⵏⵜⵎ ⵎⴰⵙ ⴷ ⴽⵢⵢ</translation>
     </message>
+    <message>
+        <source>There are no comments here.</source>
+        <translation>ⵓⵔ ⵍⵍⵉⵏ ⵉⵡⵏⵏⵉⵜⵏ ⴷⴰ.</translation>
+    </message>
+    <message>
+        <source>This comment is not there any more, or you may not read it.</source>
+        <translation>ⴰⵡⵏⵏⵉⵜ ⴰ ⵓⵔ ⵉⵍⵍⵉ ⴷⴰⵖ, ⵏⵖ ⵓⵔ ⵜⵜⵓⵙⵓⵔⴳⵜ ⴰⴷ ⵜ ⵜⵖⵔⵜ.</translation>
+    </message>
+    <message>
+        <source>There is no such decision.</source>
+        <translation>ⵓⵔ ⵜⵍⵍⵉ ⵜⴰⵖⵜⴰⵙⵜ ⵣⵓⵏ ⴷ ⵜⴰ.</translation>
+    </message>
+    <message>
+        <source>Write the reply first.</source>
+        <translation>ⴰⵔⵓ ⵜⴰⵔⵔⴰⵢⵜ ⵣⵡⴰⵔ.</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>ⵉⵡⵏⵏⵉⵜⵏ</translation>
+    </message>
+    <message>
+        <source>%n wait for moderation</source>
+        <translation>%n ⵔⴰⵊⵊⵓⵏ ⴰⵙⵙⵓⴷⵙ</translation>
+    </message>
+    <message>
+        <source>No comments on this page yet.</source>
+        <translation>ⵓⵔ ⵙⵓⵍ ⵍⵍⵉⵏ ⵉⵡⵏⵏⵉⵜⵏ ⴳ ⵜⴰⵙⵏⴰ ⴰ.</translation>
+    </message>
+    <message>
+        <source>Waiting for moderation</source>
+        <translation>ⵉⵔⴰⵊⵊⵓ ⴰⵙⵙⵓⴷⵙ</translation>
+    </message>
+    <message>
+        <source>Reply</source>
+        <translation>ⵔⴰⵔ</translation>
+    </message>
+    <message>
+        <source>Spam</source>
+        <translation>ⴰⵙⴱⴰⵎ</translation>
+    </message>
+    <message>
+        <source>Move "%name" to the trash as spam? It can be restored from the trash in the administration.</source>
+        <translation>ⵙⵎⵓⵜⵜⵉ "%name" ⵖⵔ ⵉⴹⵓⵎⵎⴰⵏ ⵣⵓⵏⴷ ⴰⵙⴱⴰⵎ? ⵉⵣⵎⵔ ⴰⴷ ⵉⵜⵜⵓⵔⴰⵔ ⵙⴳ ⵉⴹⵓⵎⵎⴰⵏ ⴳ ⵓⵙⵡⵓⴷⴷⵓ.</translation>
+    </message>
+    <message>
+        <source>Spam ...</source>
+        <translation>ⴰⵙⴱⴰⵎ ...</translation>
+    </message>
+    <message>
+        <source>The comment is approved and shown on the page.</source>
+        <translation>ⴰⵡⵏⵏⵉⵜ ⵉⵜⵜⵓⵇⴱⵍ ⵉⵜⵜⵓⵙⵎⵔⴰⵢ ⴳ ⵜⴰⵙⵏⴰ.</translation>
+    </message>
+    <message>
+        <source>The comment is hidden.</source>
+        <translation>ⴰⵡⵏⵏⵉⵜ ⵉⵜⵜⵓⵙⵏⵜⵍ.</translation>
+    </message>
+    <message>
+        <source>The comment was moved to the trash as spam.</source>
+        <translation>ⴰⵡⵏⵏⵉⵜ ⵉⵜⵜⵓⵙⵎⵓⵜⵜⵉ ⵖⵔ ⵉⴹⵓⵎⵎⴰⵏ ⵣⵓⵏⴷ ⴰⵙⴱⴰⵎ.</translation>
+    </message>
+    <message>
+        <source>A workflow holds this change. Find it in the administration.</source>
+        <translation>ⵢⴰⵏ ⵓⴱⵔⵉⴷ ⵏ ⵜⵡⵓⵔⵉ ⵉⵟⵟⴼ ⴰⵙⵏⴼⵍ ⴰ. ⴰⴼ ⵜ ⴳ ⵓⵙⵡⵓⴷⴷⵓ.</translation>
+    </message>
+    <message>
+        <source>Send the reply</source>
+        <translation>ⴰⵣⵏ ⵜⴰⵔⵔⴰⵢⵜ</translation>
+    </message>
+    <message>
+        <source>Write a comment</source>
+        <translation>ⴰⵔⵓ ⴰⵡⵏⵏⵉⵜ</translation>
+    </message>
+    <message>
+        <source>Reply to "%name"</source>
+        <translation>ⵜⴰⵔⵔⴰⵢⵜ ⵉ "%name"</translation>
+    </message>
+    <message>
+        <source>Comment on this page</source>
+        <translation>ⵡⵏⵏⵉ ⵅⴼ ⵜⴰⵙⵏⴰ ⴰ</translation>
+    </message>
+    <message>
+        <source>The reply is published on the page.</source>
+        <translation>ⵜⴰⵔⵔⴰⵢⵜ ⵜⵜⵓⵙⵙⵓⴼⵖ ⴳ ⵜⴰⵙⵏⴰ.</translation>
+    </message>
+    <message>
+        <source>The reply waits for its approval.</source>
+        <translation>ⵜⴰⵔⵔⴰⵢⵜ ⵜⵔⴰⵊⵊⵓ ⴰⵇⴱⴰⵍ ⵏⵏⵙ.</translation>
+    </message>
+    <message>
+        <source>%n comments wait for moderation</source>
+        <translation>%n ⵉⵡⵏⵏⵉⵜⵏ ⵔⴰⵊⵊⵓⵏ ⴰⵙⵙⵓⴷⵙ</translation>
+    </message>
 </context>
 </TS>

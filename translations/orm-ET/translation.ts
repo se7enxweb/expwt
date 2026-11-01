@@ -1371,5 +1371,97 @@
         <source>Verify it's you</source>
         <translation>Ati ta'uu kee mirkaneessi</translation>
     </message>
+    <message>
+        <source>There are no comments here.</source>
+        <translation>Asitti yaadni hin jiru.</translation>
+    </message>
+    <message>
+        <source>This comment is not there any more, or you may not read it.</source>
+        <translation>Yaadni kun kana booda hin jiru, ykn akka dubbistu hin hayyamamu.</translation>
+    </message>
+    <message>
+        <source>There is no such decision.</source>
+        <translation>Murtiin akkasii hin jiru.</translation>
+    </message>
+    <message>
+        <source>Write the reply first.</source>
+        <translation>Dura deebii barreessi.</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>Yaadota</translation>
+    </message>
+    <message>
+        <source>%n wait for moderation</source>
+        <translation>%n to'annoo eegaa jiru</translation>
+    </message>
+    <message>
+        <source>No comments on this page yet.</source>
+        <translation>Fuula kana irratti hanga ammaatti yaadni hin jiru.</translation>
+    </message>
+    <message>
+        <source>Waiting for moderation</source>
+        <translation>To'annoo eegaa jira</translation>
+    </message>
+    <message>
+        <source>Reply</source>
+        <translation>Deebisi</translation>
+    </message>
+    <message>
+        <source>Spam</source>
+        <translation>Ergaa barbaachisaa hin taane</translation>
+    </message>
+    <message>
+        <source>Move "%name" to the trash as spam? It can be restored from the trash in the administration.</source>
+        <translation>"%name" akka ergaa barbaachisaa hin taaneetti gara qashaashaatti socho'u? Bulchiinsa keessatti qashaashaa irraa deebi'uu danda'a.</translation>
+    </message>
+    <message>
+        <source>Spam ...</source>
+        <translation>Ergaa barbaachisaa hin taane ...</translation>
+    </message>
+    <message>
+        <source>The comment is approved and shown on the page.</source>
+        <translation>Yaadni mirkanaa'ee fuula irratti mul'ataa jira.</translation>
+    </message>
+    <message>
+        <source>The comment is hidden.</source>
+        <translation>Yaadni dhokfameera.</translation>
+    </message>
+    <message>
+        <source>The comment was moved to the trash as spam.</source>
+        <translation>Yaadni akka ergaa barbaachisaa hin taaneetti gara qashaashaatti socho'eera.</translation>
+    </message>
+    <message>
+        <source>A workflow holds this change. Find it in the administration.</source>
+        <translation>Adeemsi hojii tokko jijjiirama kana qabatee jira. Bulchiinsa keessatti barbaadi.</translation>
+    </message>
+    <message>
+        <source>Send the reply</source>
+        <translation>Deebii ergi</translation>
+    </message>
+    <message>
+        <source>Write a comment</source>
+        <translation>Yaada barreessi</translation>
+    </message>
+    <message>
+        <source>Reply to "%name"</source>
+        <translation>Deebii "%name" tiif</translation>
+    </message>
+    <message>
+        <source>Comment on this page</source>
+        <translation>Fuula kana irratti yaada kenni</translation>
+    </message>
+    <message>
+        <source>The reply is published on the page.</source>
+        <translation>Deebiin fuula irratti maxxanfameera.</translation>
+    </message>
+    <message>
+        <source>The reply waits for its approval.</source>
+        <translation>Deebiin mirkanaa'uu isaa eegaa jira.</translation>
+    </message>
+    <message>
+        <source>%n comments wait for moderation</source>
+        <translation>Yaadonni %n to'annoo eegaa jiru</translation>
+    </message>
 </context>
 </TS>

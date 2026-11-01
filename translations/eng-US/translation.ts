@@ -1371,5 +1371,97 @@
         <source>Verify it's you</source>
         <translation>Verify it's you</translation>
     </message>
+    <message>
+        <source>There are no comments here.</source>
+        <translation>There are no comments here.</translation>
+    </message>
+    <message>
+        <source>This comment is not there any more, or you may not read it.</source>
+        <translation>This comment is not there any more, or you may not read it.</translation>
+    </message>
+    <message>
+        <source>There is no such decision.</source>
+        <translation>There is no such decision.</translation>
+    </message>
+    <message>
+        <source>Write the reply first.</source>
+        <translation>Write the reply first.</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>Comments</translation>
+    </message>
+    <message>
+        <source>%n wait for moderation</source>
+        <translation>%n wait for moderation</translation>
+    </message>
+    <message>
+        <source>No comments on this page yet.</source>
+        <translation>No comments on this page yet.</translation>
+    </message>
+    <message>
+        <source>Waiting for moderation</source>
+        <translation>Waiting for moderation</translation>
+    </message>
+    <message>
+        <source>Reply</source>
+        <translation>Reply</translation>
+    </message>
+    <message>
+        <source>Spam</source>
+        <translation>Spam</translation>
+    </message>
+    <message>
+        <source>Move "%name" to the trash as spam? It can be restored from the trash in the administration.</source>
+        <translation>Move "%name" to the trash as spam? It can be restored from the trash in the administration.</translation>
+    </message>
+    <message>
+        <source>Spam ...</source>
+        <translation>Spam ...</translation>
+    </message>
+    <message>
+        <source>The comment is approved and shown on the page.</source>
+        <translation>The comment is approved and shown on the page.</translation>
+    </message>
+    <message>
+        <source>The comment is hidden.</source>
+        <translation>The comment is hidden.</translation>
+    </message>
+    <message>
+        <source>The comment was moved to the trash as spam.</source>
+        <translation>The comment was moved to the trash as spam.</translation>
+    </message>
+    <message>
+        <source>A workflow holds this change. Find it in the administration.</source>
+        <translation>A workflow holds this change. Find it in the administration.</translation>
+    </message>
+    <message>
+        <source>Send the reply</source>
+        <translation>Send the reply</translation>
+    </message>
+    <message>
+        <source>Write a comment</source>
+        <translation>Write a comment</translation>
+    </message>
+    <message>
+        <source>Reply to "%name"</source>
+        <translation>Reply to "%name"</translation>
+    </message>
+    <message>
+        <source>Comment on this page</source>
+        <translation>Comment on this page</translation>
+    </message>
+    <message>
+        <source>The reply is published on the page.</source>
+        <translation>The reply is published on the page.</translation>
+    </message>
+    <message>
+        <source>The reply waits for its approval.</source>
+        <translation>The reply waits for its approval.</translation>
+    </message>
+    <message>
+        <source>%n comments wait for moderation</source>
+        <translation>%n comments wait for moderation</translation>
+    </message>
 </context>
 </TS>

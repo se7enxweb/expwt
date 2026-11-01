@@ -1371,5 +1371,97 @@
         <source>Verify it's you</source>
         <translation>Bekräfta att det är du</translation>
     </message>
+    <message>
+        <source>There are no comments here.</source>
+        <translation>Här finns inga kommentarer.</translation>
+    </message>
+    <message>
+        <source>This comment is not there any more, or you may not read it.</source>
+        <translation>Den här kommentaren finns inte längre, eller så får du inte läsa den.</translation>
+    </message>
+    <message>
+        <source>There is no such decision.</source>
+        <translation>Det finns inget sådant beslut.</translation>
+    </message>
+    <message>
+        <source>Write the reply first.</source>
+        <translation>Skriv svaret först.</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>Kommentarer</translation>
+    </message>
+    <message>
+        <source>%n wait for moderation</source>
+        <translation>%n väntar på moderering</translation>
+    </message>
+    <message>
+        <source>No comments on this page yet.</source>
+        <translation>Det finns inga kommentarer på den här sidan än.</translation>
+    </message>
+    <message>
+        <source>Waiting for moderation</source>
+        <translation>Väntar på moderering</translation>
+    </message>
+    <message>
+        <source>Reply</source>
+        <translation>Svara</translation>
+    </message>
+    <message>
+        <source>Spam</source>
+        <translation>Skräppost</translation>
+    </message>
+    <message>
+        <source>Move "%name" to the trash as spam? It can be restored from the trash in the administration.</source>
+        <translation>Flytta "%name" till papperskorgen som skräppost? Den kan återställas från papperskorgen i administrationen.</translation>
+    </message>
+    <message>
+        <source>Spam ...</source>
+        <translation>Skräppost ...</translation>
+    </message>
+    <message>
+        <source>The comment is approved and shown on the page.</source>
+        <translation>Kommentaren är godkänd och visas på sidan.</translation>
+    </message>
+    <message>
+        <source>The comment is hidden.</source>
+        <translation>Kommentaren är dold.</translation>
+    </message>
+    <message>
+        <source>The comment was moved to the trash as spam.</source>
+        <translation>Kommentaren flyttades till papperskorgen som skräppost.</translation>
+    </message>
+    <message>
+        <source>A workflow holds this change. Find it in the administration.</source>
+        <translation>Ett arbetsflöde håller kvar den här ändringen. Du hittar den i administrationen.</translation>
+    </message>
+    <message>
+        <source>Send the reply</source>
+        <translation>Skicka svaret</translation>
+    </message>
+    <message>
+        <source>Write a comment</source>
+        <translation>Skriv en kommentar</translation>
+    </message>
+    <message>
+        <source>Reply to "%name"</source>
+        <translation>Svar till "%name"</translation>
+    </message>
+    <message>
+        <source>Comment on this page</source>
+        <translation>Kommentera den här sidan</translation>
+    </message>
+    <message>
+        <source>The reply is published on the page.</source>
+        <translation>Svaret är publicerat på sidan.</translation>
+    </message>
+    <message>
+        <source>The reply waits for its approval.</source>
+        <translation>Svaret väntar på godkännande.</translation>
+    </message>
+    <message>
+        <source>%n comments wait for moderation</source>
+        <translation>%n kommentarer väntar på moderering</translation>
+    </message>
 </context>
 </TS>

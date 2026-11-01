@@ -1371,5 +1371,97 @@
         <source>Verify it's you</source>
         <translation>Bestätegt, datt Dir et sidd</translation>
     </message>
+    <message>
+        <source>There are no comments here.</source>
+        <translation>Hei gëtt et keng Kommentaren.</translation>
+    </message>
+    <message>
+        <source>This comment is not there any more, or you may not read it.</source>
+        <translation>Dëse Kommentar gëtt et net méi, oder Dir däerft en net liesen.</translation>
+    </message>
+    <message>
+        <source>There is no such decision.</source>
+        <translation>Esou eng Decisioun gëtt et net.</translation>
+    </message>
+    <message>
+        <source>Write the reply first.</source>
+        <translation>Schreift fir d'éischt d'Äntwert.</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>Kommentaren</translation>
+    </message>
+    <message>
+        <source>%n wait for moderation</source>
+        <translation>%n waarden op Moderatioun</translation>
+    </message>
+    <message>
+        <source>No comments on this page yet.</source>
+        <translation>Op dëser Säit ginn et nach keng Kommentaren.</translation>
+    </message>
+    <message>
+        <source>Waiting for moderation</source>
+        <translation>Waart op Moderatioun</translation>
+    </message>
+    <message>
+        <source>Reply</source>
+        <translation>Äntweren</translation>
+    </message>
+    <message>
+        <source>Spam</source>
+        <translation>Spam</translation>
+    </message>
+    <message>
+        <source>Move "%name" to the trash as spam? It can be restored from the trash in the administration.</source>
+        <translation>"%name" als Spam an de Pabeierkuerf réckelen? En ka vun der Administratioun aus dem Pabeierkuerf erëmgeholl ginn.</translation>
+    </message>
+    <message>
+        <source>Spam ...</source>
+        <translation>Spam ...</translation>
+    </message>
+    <message>
+        <source>The comment is approved and shown on the page.</source>
+        <translation>De Kommentar ass fräiginn a gëtt op der Säit gewisen.</translation>
+    </message>
+    <message>
+        <source>The comment is hidden.</source>
+        <translation>De Kommentar ass verstoppt.</translation>
+    </message>
+    <message>
+        <source>The comment was moved to the trash as spam.</source>
+        <translation>De Kommentar gouf als Spam an de Pabeierkuerf geréckelt.</translation>
+    </message>
+    <message>
+        <source>A workflow holds this change. Find it in the administration.</source>
+        <translation>E Workflow hält dës Ännerung un. Dir fannt se an der Administratioun.</translation>
+    </message>
+    <message>
+        <source>Send the reply</source>
+        <translation>Äntwert schécken</translation>
+    </message>
+    <message>
+        <source>Write a comment</source>
+        <translation>E Kommentar schreiwen</translation>
+    </message>
+    <message>
+        <source>Reply to "%name"</source>
+        <translation>Äntwert op "%name"</translation>
+    </message>
+    <message>
+        <source>Comment on this page</source>
+        <translation>Dës Säit kommentéieren</translation>
+    </message>
+    <message>
+        <source>The reply is published on the page.</source>
+        <translation>D'Äntwert ass op der Säit verëffentlecht.</translation>
+    </message>
+    <message>
+        <source>The reply waits for its approval.</source>
+        <translation>D'Äntwert waart op hir Fräigab.</translation>
+    </message>
+    <message>
+        <source>%n comments wait for moderation</source>
+        <translation>%n Kommentare waarden op Moderatioun</translation>
+    </message>
 </context>
 </TS>

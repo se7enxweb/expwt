@@ -1371,5 +1371,97 @@
         <source>Verify it's you</source>
         <translation>Wóorlul ne yaw la</translation>
     </message>
+    <message>
+        <source>There are no comments here.</source>
+        <translation>Amul ay xalaat fii.</translation>
+    </message>
+    <message>
+        <source>This comment is not there any more, or you may not read it.</source>
+        <translation>Xalaat bii amatul, walla jaggaluñu la nga jàng ko.</translation>
+    </message>
+    <message>
+        <source>There is no such decision.</source>
+        <translation>Amul dogal bu ni mel.</translation>
+    </message>
+    <message>
+        <source>Write the reply first.</source>
+        <translation>Bindal tontu bi jëkk.</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>Xalaat yi</translation>
+    </message>
+    <message>
+        <source>%n wait for moderation</source>
+        <translation>%n ñu ngi xaar ñu seet leen</translation>
+    </message>
+    <message>
+        <source>No comments on this page yet.</source>
+        <translation>Amagul benn xalaat ci xët wii.</translation>
+    </message>
+    <message>
+        <source>Waiting for moderation</source>
+        <translation>Mu ngi xaar ñu seet ko</translation>
+    </message>
+    <message>
+        <source>Reply</source>
+        <translation>Tontu</translation>
+    </message>
+    <message>
+        <source>Spam</source>
+        <translation>Spam</translation>
+    </message>
+    <message>
+        <source>Move "%name" to the trash as spam? It can be restored from the trash in the administration.</source>
+        <translation>Yóbbu "%name" ci mbalit ni spam? Mën nañu ko delloo ci mbalit ci njiite li.</translation>
+    </message>
+    <message>
+        <source>Spam ...</source>
+        <translation>Spam ...</translation>
+    </message>
+    <message>
+        <source>The comment is approved and shown on the page.</source>
+        <translation>Xalaat bi nanguñu ko te mu ngi feeñ ci xët wi.</translation>
+    </message>
+    <message>
+        <source>The comment is hidden.</source>
+        <translation>Xalaat bi nëbbuñu ko.</translation>
+    </message>
+    <message>
+        <source>The comment was moved to the trash as spam.</source>
+        <translation>Xalaat bi yóbbu nañu ko ci mbalit ni spam.</translation>
+    </message>
+    <message>
+        <source>A workflow holds this change. Find it in the administration.</source>
+        <translation>Benn yoonu liggéey moo téye coppite bii. Seetal ko ci njiite li.</translation>
+    </message>
+    <message>
+        <source>Send the reply</source>
+        <translation>Yónnee tontu bi</translation>
+    </message>
+    <message>
+        <source>Write a comment</source>
+        <translation>Bindal xalaat</translation>
+    </message>
+    <message>
+        <source>Reply to "%name"</source>
+        <translation>Tontu ci "%name"</translation>
+    </message>
+    <message>
+        <source>Comment on this page</source>
+        <translation>Joxeel sa xalaat ci xët wii</translation>
+    </message>
+    <message>
+        <source>The reply is published on the page.</source>
+        <translation>Tontu bi siiwal nañu ko ci xët wi.</translation>
+    </message>
+    <message>
+        <source>The reply waits for its approval.</source>
+        <translation>Tontu bi mu ngi xaar ñu nangu ko.</translation>
+    </message>
+    <message>
+        <source>%n comments wait for moderation</source>
+        <translation>%n xalaat ñu ngi xaar ñu seet leen</translation>
+    </message>
 </context>
 </TS>

@@ -1371,5 +1371,97 @@
         <source>Verify it's you</source>
         <translation>באַשטעטיקט אַז דאָס זענט איר</translation>
     </message>
+    <message>
+        <source>There are no comments here.</source>
+        <translation>דאָ זענען נישטאָ קיין באַמערקונגען.</translation>
+    </message>
+    <message>
+        <source>This comment is not there any more, or you may not read it.</source>
+        <translation>די באַמערקונג איז מער נישטאָ, אָדער איר טאָרט זי נישט לייענען.</translation>
+    </message>
+    <message>
+        <source>There is no such decision.</source>
+        <translation>אַזאַ באַשלוס איז נישטאָ.</translation>
+    </message>
+    <message>
+        <source>Write the reply first.</source>
+        <translation>שרײַבט פֿריִער דעם ענטפֿער.</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>באַמערקונגען</translation>
+    </message>
+    <message>
+        <source>%n wait for moderation</source>
+        <translation>%n וואַרטן אויף מאָדעראַציע</translation>
+    </message>
+    <message>
+        <source>No comments on this page yet.</source>
+        <translation>אויף דעם בלאַט זענען נאָך נישטאָ קיין באַמערקונגען.</translation>
+    </message>
+    <message>
+        <source>Waiting for moderation</source>
+        <translation>וואַרט אויף מאָדעראַציע</translation>
+    </message>
+    <message>
+        <source>Reply</source>
+        <translation>ענטפֿערן</translation>
+    </message>
+    <message>
+        <source>Spam</source>
+        <translation>שפּאַם</translation>
+    </message>
+    <message>
+        <source>Move "%name" to the trash as spam? It can be restored from the trash in the administration.</source>
+        <translation>אַרײַנלייגן "%name" אין מיסטקאַסטן ווי שפּאַם? מע קען זי צוריקשטעלן פֿונעם מיסטקאַסטן אין דער אַדמיניסטראַציע.</translation>
+    </message>
+    <message>
+        <source>Spam ...</source>
+        <translation>שפּאַם ...</translation>
+    </message>
+    <message>
+        <source>The comment is approved and shown on the page.</source>
+        <translation>די באַמערקונג איז באַשטעטיקט און ווערט געוויזן אויפֿן בלאַט.</translation>
+    </message>
+    <message>
+        <source>The comment is hidden.</source>
+        <translation>די באַמערקונג איז באַהאַלטן.</translation>
+    </message>
+    <message>
+        <source>The comment was moved to the trash as spam.</source>
+        <translation>די באַמערקונג איז אַרײַנגעלייגט געוואָרן אין מיסטקאַסטן ווי שפּאַם.</translation>
+    </message>
+    <message>
+        <source>A workflow holds this change. Find it in the administration.</source>
+        <translation>אַ אַרבעטס־פֿלוס האַלט די ענדערונג. געפֿינט זי אין דער אַדמיניסטראַציע.</translation>
+    </message>
+    <message>
+        <source>Send the reply</source>
+        <translation>שיקן דעם ענטפֿער</translation>
+    </message>
+    <message>
+        <source>Write a comment</source>
+        <translation>שרײַבן אַ באַמערקונג</translation>
+    </message>
+    <message>
+        <source>Reply to "%name"</source>
+        <translation>ענטפֿער אויף "%name"</translation>
+    </message>
+    <message>
+        <source>Comment on this page</source>
+        <translation>באַמערקן דעם בלאַט</translation>
+    </message>
+    <message>
+        <source>The reply is published on the page.</source>
+        <translation>דער ענטפֿער איז פֿאַרעפֿנטלעכט אויפֿן בלאַט.</translation>
+    </message>
+    <message>
+        <source>The reply waits for its approval.</source>
+        <translation>דער ענטפֿער וואַרט אויף באַשטעטיקונג.</translation>
+    </message>
+    <message>
+        <source>%n comments wait for moderation</source>
+        <translation>%n באַמערקונגען וואַרטן אויף מאָדעראַציע</translation>
+    </message>
 </context>
 </TS>

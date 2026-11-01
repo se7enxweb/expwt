@@ -1371,5 +1371,97 @@
         <source>Verify it's you</source>
         <translation>验证你的身份</translation>
     </message>
+    <message>
+        <source>There are no comments here.</source>
+        <translation>这里没有评论。</translation>
+    </message>
+    <message>
+        <source>This comment is not there any more, or you may not read it.</source>
+        <translation>此评论已不存在，或您无权阅读。</translation>
+    </message>
+    <message>
+        <source>There is no such decision.</source>
+        <translation>没有这样的决定。</translation>
+    </message>
+    <message>
+        <source>Write the reply first.</source>
+        <translation>请先写回复。</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>评论</translation>
+    </message>
+    <message>
+        <source>%n wait for moderation</source>
+        <translation>%n 条待审核</translation>
+    </message>
+    <message>
+        <source>No comments on this page yet.</source>
+        <translation>此页面还没有评论。</translation>
+    </message>
+    <message>
+        <source>Waiting for moderation</source>
+        <translation>待审核</translation>
+    </message>
+    <message>
+        <source>Reply</source>
+        <translation>回复</translation>
+    </message>
+    <message>
+        <source>Spam</source>
+        <translation>垃圾评论</translation>
+    </message>
+    <message>
+        <source>Move "%name" to the trash as spam? It can be restored from the trash in the administration.</source>
+        <translation>将“%name”作为垃圾评论移至回收站？可在管理后台从回收站中恢复。</translation>
+    </message>
+    <message>
+        <source>Spam ...</source>
+        <translation>垃圾评论 ...</translation>
+    </message>
+    <message>
+        <source>The comment is approved and shown on the page.</source>
+        <translation>评论已批准并显示在页面上。</translation>
+    </message>
+    <message>
+        <source>The comment is hidden.</source>
+        <translation>评论已隐藏。</translation>
+    </message>
+    <message>
+        <source>The comment was moved to the trash as spam.</source>
+        <translation>评论已作为垃圾评论移至回收站。</translation>
+    </message>
+    <message>
+        <source>A workflow holds this change. Find it in the administration.</source>
+        <translation>有工作流暂留了此更改。请在管理后台查找。</translation>
+    </message>
+    <message>
+        <source>Send the reply</source>
+        <translation>发送回复</translation>
+    </message>
+    <message>
+        <source>Write a comment</source>
+        <translation>写评论</translation>
+    </message>
+    <message>
+        <source>Reply to "%name"</source>
+        <translation>回复“%name”</translation>
+    </message>
+    <message>
+        <source>Comment on this page</source>
+        <translation>评论此页面</translation>
+    </message>
+    <message>
+        <source>The reply is published on the page.</source>
+        <translation>回复已发布在页面上。</translation>
+    </message>
+    <message>
+        <source>The reply waits for its approval.</source>
+        <translation>回复正在等待批准。</translation>
+    </message>
+    <message>
+        <source>%n comments wait for moderation</source>
+        <translation>%n 条评论待审核</translation>
+    </message>
 </context>
 </TS>

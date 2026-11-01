@@ -1371,5 +1371,97 @@
         <source>Verify it's you</source>
         <translation>Потврди да си то ти</translation>
     </message>
+    <message>
+        <source>There are no comments here.</source>
+        <translation>Овде нема коментара.</translation>
+    </message>
+    <message>
+        <source>This comment is not there any more, or you may not read it.</source>
+        <translation>Овај коментар више не постоји или немате право да га читате.</translation>
+    </message>
+    <message>
+        <source>There is no such decision.</source>
+        <translation>Таква одлука не постоји.</translation>
+    </message>
+    <message>
+        <source>Write the reply first.</source>
+        <translation>Прво напишите одговор.</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>Коментари</translation>
+    </message>
+    <message>
+        <source>%n wait for moderation</source>
+        <translation>%n чека модерацију</translation>
+    </message>
+    <message>
+        <source>No comments on this page yet.</source>
+        <translation>На овој страници још нема коментара.</translation>
+    </message>
+    <message>
+        <source>Waiting for moderation</source>
+        <translation>Чека модерацију</translation>
+    </message>
+    <message>
+        <source>Reply</source>
+        <translation>Одговори</translation>
+    </message>
+    <message>
+        <source>Spam</source>
+        <translation>Спам</translation>
+    </message>
+    <message>
+        <source>Move "%name" to the trash as spam? It can be restored from the trash in the administration.</source>
+        <translation>Преместити "%name" у корпу за отпатке као спам? Може се вратити из корпе у администрацији.</translation>
+    </message>
+    <message>
+        <source>Spam ...</source>
+        <translation>Спам ...</translation>
+    </message>
+    <message>
+        <source>The comment is approved and shown on the page.</source>
+        <translation>Коментар је одобрен и приказује се на страници.</translation>
+    </message>
+    <message>
+        <source>The comment is hidden.</source>
+        <translation>Коментар је сакривен.</translation>
+    </message>
+    <message>
+        <source>The comment was moved to the trash as spam.</source>
+        <translation>Коментар је премештен у корпу за отпатке као спам.</translation>
+    </message>
+    <message>
+        <source>A workflow holds this change. Find it in the administration.</source>
+        <translation>Ток рада задржава ову промену. Пронађите је у администрацији.</translation>
+    </message>
+    <message>
+        <source>Send the reply</source>
+        <translation>Пошаљи одговор</translation>
+    </message>
+    <message>
+        <source>Write a comment</source>
+        <translation>Напиши коментар</translation>
+    </message>
+    <message>
+        <source>Reply to "%name"</source>
+        <translation>Одговор на "%name"</translation>
+    </message>
+    <message>
+        <source>Comment on this page</source>
+        <translation>Коментариши ову страницу</translation>
+    </message>
+    <message>
+        <source>The reply is published on the page.</source>
+        <translation>Одговор је објављен на страници.</translation>
+    </message>
+    <message>
+        <source>The reply waits for its approval.</source>
+        <translation>Одговор чека одобрење.</translation>
+    </message>
+    <message>
+        <source>%n comments wait for moderation</source>
+        <translation>%n коментара чека модерацију</translation>
+    </message>
 </context>
 </TS>

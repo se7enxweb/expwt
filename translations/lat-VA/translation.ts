@@ -1371,5 +1371,97 @@
         <source>Verify it's you</source>
         <translation>Confirma te esse</translation>
     </message>
+    <message>
+        <source>There are no comments here.</source>
+        <translation>Hic nulla commentaria sunt.</translation>
+    </message>
+    <message>
+        <source>This comment is not there any more, or you may not read it.</source>
+        <translation>Hoc commentarium iam non est, aut tibi legere non licet.</translation>
+    </message>
+    <message>
+        <source>There is no such decision.</source>
+        <translation>Talis sententia non est.</translation>
+    </message>
+    <message>
+        <source>Write the reply first.</source>
+        <translation>Primum responsum scribe.</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>Commentaria</translation>
+    </message>
+    <message>
+        <source>%n wait for moderation</source>
+        <translation>%n moderationem exspectant</translation>
+    </message>
+    <message>
+        <source>No comments on this page yet.</source>
+        <translation>In hac pagina nondum commentaria sunt.</translation>
+    </message>
+    <message>
+        <source>Waiting for moderation</source>
+        <translation>Moderationem exspectat</translation>
+    </message>
+    <message>
+        <source>Reply</source>
+        <translation>Responde</translation>
+    </message>
+    <message>
+        <source>Spam</source>
+        <translation>Spamma</translation>
+    </message>
+    <message>
+        <source>Move "%name" to the trash as spam? It can be restored from the trash in the administration.</source>
+        <translation>Movesne "%name" in quisquilias ut spamma? In administratione ex quisquiliis restitui potest.</translation>
+    </message>
+    <message>
+        <source>Spam ...</source>
+        <translation>Spamma ...</translation>
+    </message>
+    <message>
+        <source>The comment is approved and shown on the page.</source>
+        <translation>Commentarium probatum est et in pagina ostenditur.</translation>
+    </message>
+    <message>
+        <source>The comment is hidden.</source>
+        <translation>Commentarium occultatum est.</translation>
+    </message>
+    <message>
+        <source>The comment was moved to the trash as spam.</source>
+        <translation>Commentarium in quisquilias ut spamma motum est.</translation>
+    </message>
+    <message>
+        <source>A workflow holds this change. Find it in the administration.</source>
+        <translation>Ordo operis hanc mutationem retinet. In administratione eam invenies.</translation>
+    </message>
+    <message>
+        <source>Send the reply</source>
+        <translation>Responsum mitte</translation>
+    </message>
+    <message>
+        <source>Write a comment</source>
+        <translation>Commentarium scribe</translation>
+    </message>
+    <message>
+        <source>Reply to "%name"</source>
+        <translation>Responsum ad "%name"</translation>
+    </message>
+    <message>
+        <source>Comment on this page</source>
+        <translation>Hanc paginam commenta</translation>
+    </message>
+    <message>
+        <source>The reply is published on the page.</source>
+        <translation>Responsum in pagina editum est.</translation>
+    </message>
+    <message>
+        <source>The reply waits for its approval.</source>
+        <translation>Responsum probationem suam exspectat.</translation>
+    </message>
+    <message>
+        <source>%n comments wait for moderation</source>
+        <translation>%n commentaria moderationem exspectant</translation>
+    </message>
 </context>
 </TS>

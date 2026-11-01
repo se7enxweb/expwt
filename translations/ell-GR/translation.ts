@@ -1371,5 +1371,97 @@
         <source>Verify it's you</source>
         <translation>Επιβεβαιώστε ότι είστε εσείς</translation>
     </message>
+    <message>
+        <source>There are no comments here.</source>
+        <translation>Δεν υπάρχουν σχόλια εδώ.</translation>
+    </message>
+    <message>
+        <source>This comment is not there any more, or you may not read it.</source>
+        <translation>Αυτό το σχόλιο δεν υπάρχει πια ή δεν σας επιτρέπεται να το διαβάσετε.</translation>
+    </message>
+    <message>
+        <source>There is no such decision.</source>
+        <translation>Δεν υπάρχει τέτοια απόφαση.</translation>
+    </message>
+    <message>
+        <source>Write the reply first.</source>
+        <translation>Γράψτε πρώτα την απάντηση.</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>Σχόλια</translation>
+    </message>
+    <message>
+        <source>%n wait for moderation</source>
+        <translation>%n περιμένουν έλεγχο</translation>
+    </message>
+    <message>
+        <source>No comments on this page yet.</source>
+        <translation>Δεν υπάρχουν ακόμη σχόλια σε αυτή τη σελίδα.</translation>
+    </message>
+    <message>
+        <source>Waiting for moderation</source>
+        <translation>Περιμένει έλεγχο</translation>
+    </message>
+    <message>
+        <source>Reply</source>
+        <translation>Απάντηση</translation>
+    </message>
+    <message>
+        <source>Spam</source>
+        <translation>Ανεπιθύμητο</translation>
+    </message>
+    <message>
+        <source>Move "%name" to the trash as spam? It can be restored from the trash in the administration.</source>
+        <translation>Μετακίνηση του "%name" στον κάδο ως ανεπιθύμητο; Μπορεί να επαναφερθεί από τον κάδο στη διαχείριση.</translation>
+    </message>
+    <message>
+        <source>Spam ...</source>
+        <translation>Ανεπιθύμητο ...</translation>
+    </message>
+    <message>
+        <source>The comment is approved and shown on the page.</source>
+        <translation>Το σχόλιο εγκρίθηκε και εμφανίζεται στη σελίδα.</translation>
+    </message>
+    <message>
+        <source>The comment is hidden.</source>
+        <translation>Το σχόλιο αποκρύφτηκε.</translation>
+    </message>
+    <message>
+        <source>The comment was moved to the trash as spam.</source>
+        <translation>Το σχόλιο μετακινήθηκε στον κάδο ως ανεπιθύμητο.</translation>
+    </message>
+    <message>
+        <source>A workflow holds this change. Find it in the administration.</source>
+        <translation>Μια ροή εργασιών κρατά αυτή την αλλαγή. Βρείτε τη στη διαχείριση.</translation>
+    </message>
+    <message>
+        <source>Send the reply</source>
+        <translation>Αποστολή απάντησης</translation>
+    </message>
+    <message>
+        <source>Write a comment</source>
+        <translation>Γράψτε ένα σχόλιο</translation>
+    </message>
+    <message>
+        <source>Reply to "%name"</source>
+        <translation>Απάντηση στο "%name"</translation>
+    </message>
+    <message>
+        <source>Comment on this page</source>
+        <translation>Σχολιάστε αυτή τη σελίδα</translation>
+    </message>
+    <message>
+        <source>The reply is published on the page.</source>
+        <translation>Η απάντηση δημοσιεύτηκε στη σελίδα.</translation>
+    </message>
+    <message>
+        <source>The reply waits for its approval.</source>
+        <translation>Η απάντηση περιμένει την έγκρισή της.</translation>
+    </message>
+    <message>
+        <source>%n comments wait for moderation</source>
+        <translation>%n σχόλια περιμένουν έλεγχο</translation>
+    </message>
 </context>
 </TS>

@@ -671,6 +671,24 @@
       });
       this.tablist.hidden = list.length < 2;
       if (this.waiting) { this.setWaiting(this.waiting); }
+      if (this.commentsWaiting) { this.setComments(this.commentsWaiting); }
+    }
+
+    /* The comments of the page waiting for moderation (E4: hidden comments the user may approve): a badge on the Page
+       panel's tab, none at 0; screen readers hear "%n comments wait for moderation". The Page panel sets it again
+       after each moderation. */
+    setComments(n) {
+      var self = this;
+      this.commentsWaiting = Math.max(0, parseInt(n, 10) || 0);
+      (this.tabButtons || []).filter(function (b) { return b.getAttribute('data-panel') === 'page'; }).forEach(function (el) {
+        var old = el.querySelector('[data-badge="comments"]');
+        if (old) { old.remove(); }
+        if (self.commentsWaiting > 0) {
+          el.appendChild(h('span', { class: 'wt-badge', 'data-badge': 'comments' }, [
+            h('span', { 'aria-hidden': 'true', text: String(self.commentsWaiting) }),
+            h('span', { class: 'wt-sr', text: ' ' + self.t('%n comments wait for moderation').replace('%n', self.commentsWaiting) })]));
+        }
+      });
     }
 
     tabsKey(e) {
@@ -1204,7 +1222,7 @@
 
     loadBoot() {
       var self = this;
-      return this.request('GET', this.cfg.boot + '?action=boot&input=' + encodeURIComponent('{}'), null).then(function (body) {
+      return this.request('GET', this.cfg.boot + '?action=boot&input=' + encodeURIComponent(JSON.stringify(this.cfg.node ? { nodeId: this.cfg.node } : {})), null).then(function (body) {
         self.boot = body.data;
         /* reached (after "Try again" too): no word of the failure or the loading left */
         self.say('');
@@ -1217,6 +1235,7 @@
         self.buildTabs();
         self.labelKeys();
         self.setWaiting(self.boot.inbox ? self.boot.inbox.count : 0);
+        self.setComments(self.boot.comments ? self.boot.comments.waiting : 0);
         /* changes of this page kept on this device only (F28): a mark on the tab; opened, the Page panel offers them */
         var local = null;
         try { local = window.localStorage; } catch (e) { local = null; }
@@ -1269,7 +1288,7 @@
       var t = this.boot.transport;
       var registered = this.registry().actions || {};
       var write = Object.prototype.hasOwnProperty.call(registered, action) ? !!registered[action].writes
-        : ['me', 'page.load', 'create.classes', 'tree.children', 'inbox.load', 'insights.load', 'seo.check', 'newsletter.load', 'boot'].indexOf(action) < 0;
+        : ['me', 'page.load', 'create.classes', 'tree.children', 'inbox.load', 'insights.load', 'seo.check', 'newsletter.load', 'comments.load', 'boot'].indexOf(action) < 0;
       var json = JSON.stringify(input || {});
       var headers = { 'X-CSRF-Token': this.boot.token || '' };
       var p;

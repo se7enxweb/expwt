@@ -1371,5 +1371,97 @@
         <source>Verify it's you</source>
         <translation>Иза шу ду тешалла де</translation>
     </message>
+    <message>
+        <source>There are no comments here.</source>
+        <translation>Кхузахь комментареш яц.</translation>
+    </message>
+    <message>
+        <source>This comment is not there any more, or you may not read it.</source>
+        <translation>И комментари кхин дац, я хьуна иза деша бакъо яц.</translation>
+    </message>
+    <message>
+        <source>There is no such decision.</source>
+        <translation>Иштта сацам бац.</translation>
+    </message>
+    <message>
+        <source>Write the reply first.</source>
+        <translation>Хьалха жоп язде.</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>Комментареш</translation>
+    </message>
+    <message>
+        <source>%n wait for moderation</source>
+        <translation>%n модераци хьоьжуш ю</translation>
+    </message>
+    <message>
+        <source>No comments on this page yet.</source>
+        <translation>ХӀокху агӀонгахь хӀинца а комментареш яц.</translation>
+    </message>
+    <message>
+        <source>Waiting for moderation</source>
+        <translation>Модераци хьоьжуш ду</translation>
+    </message>
+    <message>
+        <source>Reply</source>
+        <translation>Жоп дала</translation>
+    </message>
+    <message>
+        <source>Spam</source>
+        <translation>Спам</translation>
+    </message>
+    <message>
+        <source>Move "%name" to the trash as spam? It can be restored from the trash in the administration.</source>
+        <translation>"%name" спам санна нехийн тускаре дехьадаккха? Иза администрацехь нехийн тускара меттахӀотто мега.</translation>
+    </message>
+    <message>
+        <source>Spam ...</source>
+        <translation>Спам ...</translation>
+    </message>
+    <message>
+        <source>The comment is approved and shown on the page.</source>
+        <translation>Комментари тӀечӀагӀдина а, агӀонгахь гойту а.</translation>
+    </message>
+    <message>
+        <source>The comment is hidden.</source>
+        <translation>Комментари къайладаьккхина.</translation>
+    </message>
+    <message>
+        <source>The comment was moved to the trash as spam.</source>
+        <translation>Комментари спам санна нехийн тускаре дехьадаьккхина.</translation>
+    </message>
+    <message>
+        <source>A workflow holds this change. Find it in the administration.</source>
+        <translation>Болх бечу процессо хӀара хийцам сацийна. Иза администрацехь лаха.</translation>
+    </message>
+    <message>
+        <source>Send the reply</source>
+        <translation>Жоп дахьийта</translation>
+    </message>
+    <message>
+        <source>Write a comment</source>
+        <translation>Комментари язде</translation>
+    </message>
+    <message>
+        <source>Reply to "%name"</source>
+        <translation>"%name" жоп</translation>
+    </message>
+    <message>
+        <source>Comment on this page</source>
+        <translation>ХӀокху агӀонах комментари язде</translation>
+    </message>
+    <message>
+        <source>The reply is published on the page.</source>
+        <translation>Жоп агӀонгахь арахецна.</translation>
+    </message>
+    <message>
+        <source>The reply waits for its approval.</source>
+        <translation>Жоп тӀечӀагӀдаре хьоьжуш ду.</translation>
+    </message>
+    <message>
+        <source>%n comments wait for moderation</source>
+        <translation>%n комментари модераци хьоьжуш ю</translation>
+    </message>
 </context>
 </TS>

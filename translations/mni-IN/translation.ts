@@ -1371,5 +1371,97 @@
         <source>Verify it's you</source>
         <translation>নহাক্নি হায়বা অসি শোয়দনা হায়বিয়ু</translation>
     </message>
+    <message>
+        <source>There are no comments here.</source>
+        <translation>মফম অসিদা ৱাখল ফোংদোকপা অমত্তা লৈতে।</translation>
+    </message>
+    <message>
+        <source>This comment is not there any more, or you may not read it.</source>
+        <translation>ৱাখল ফোংদোকপা অসি হৌজিক লৈরে, নত্রগা নহাক্না পাবগী য়াবা লৈতে।</translation>
+    </message>
+    <message>
+        <source>There is no such decision.</source>
+        <translation>অসুম্বা ৱারেপ অমত্তা লৈতে।</translation>
+    </message>
+    <message>
+        <source>Write the reply first.</source>
+        <translation>অহানবদা পাউখুম ইবিয়ু।</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>ৱাখল ফোংদোকপাশিং</translation>
+    </message>
+    <message>
+        <source>%n wait for moderation</source>
+        <translation>%n য়েংশিনবা ঙাইরি</translation>
+    </message>
+    <message>
+        <source>No comments on this page yet.</source>
+        <translation>লমায় অসিদা হৌজিক ফাওবা ৱাখল ফোংদোকপা অমত্তা লৈতে।</translation>
+    </message>
+    <message>
+        <source>Waiting for moderation</source>
+        <translation>য়েংশিনবা ঙাইরি</translation>
+    </message>
+    <message>
+        <source>Reply</source>
+        <translation>পাউখুম পীবিয়ু</translation>
+    </message>
+    <message>
+        <source>Spam</source>
+        <translation>স্পাম</translation>
+    </message>
+    <message>
+        <source>Move "%name" to the trash as spam? It can be restored from the trash in the administration.</source>
+        <translation>"%name" স্পাম ওইনা ত্রেশতা থাদোক্কদ্রা? মসি শাসনদা ত্রেশদগী হন্দোকপা ঙম্মি।</translation>
+    </message>
+    <message>
+        <source>Spam ...</source>
+        <translation>স্পাম ...</translation>
+    </message>
+    <message>
+        <source>The comment is approved and shown on the page.</source>
+        <translation>ৱাখল ফোংদোকপা অয়াবা পীরে অমসুং লমায়দা উৎলি।</translation>
+    </message>
+    <message>
+        <source>The comment is hidden.</source>
+        <translation>ৱাখল ফোংদোকপা লুমখ্রে।</translation>
+    </message>
+    <message>
+        <source>The comment was moved to the trash as spam.</source>
+        <translation>ৱাখল ফোংদোকপা স্পাম ওইনা ত্রেশতা থাদোকখ্রে।</translation>
+    </message>
+    <message>
+        <source>A workflow holds this change. Find it in the administration.</source>
+        <translation>থবক চৎনবী অমনা অহোংবা অসি পাইখৎলি। শাসনদা থিবিয়ু।</translation>
+    </message>
+    <message>
+        <source>Send the reply</source>
+        <translation>পাউখুম থাবিয়ু</translation>
+    </message>
+    <message>
+        <source>Write a comment</source>
+        <translation>ৱাখল ফোংদোকপা অমা ইবিয়ু</translation>
+    </message>
+    <message>
+        <source>Reply to "%name"</source>
+        <translation>"%name"দা পাউখুম</translation>
+    </message>
+    <message>
+        <source>Comment on this page</source>
+        <translation>লমায় অসিদা ৱাখল ফোংদোকউ</translation>
+    </message>
+    <message>
+        <source>The reply is published on the page.</source>
+        <translation>পাউখুম লমায়দা থোকখ্রে।</translation>
+    </message>
+    <message>
+        <source>The reply waits for its approval.</source>
+        <translation>পাউখুম অয়াবা ঙাইরি।</translation>
+    </message>
+    <message>
+        <source>%n comments wait for moderation</source>
+        <translation>ৱাখল ফোংদোকপা %n য়েংশিনবা ঙাইরি</translation>
+    </message>
 </context>
 </TS>

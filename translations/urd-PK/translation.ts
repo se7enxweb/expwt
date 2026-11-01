@@ -1371,5 +1371,97 @@
         <source>Verify it's you</source>
         <translation>تصدیق کریں کہ یہ آپ ہیں</translation>
     </message>
+    <message>
+        <source>There are no comments here.</source>
+        <translation>یہاں کوئی تبصرہ نہیں ہے۔</translation>
+    </message>
+    <message>
+        <source>This comment is not there any more, or you may not read it.</source>
+        <translation>یہ تبصرہ اب موجود نہیں، یا آپ کو اسے پڑھنے کی اجازت نہیں۔</translation>
+    </message>
+    <message>
+        <source>There is no such decision.</source>
+        <translation>ایسا کوئی فیصلہ نہیں ہے۔</translation>
+    </message>
+    <message>
+        <source>Write the reply first.</source>
+        <translation>پہلے جواب لکھیں۔</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>تبصرے</translation>
+    </message>
+    <message>
+        <source>%n wait for moderation</source>
+        <translation>%n نگرانی کے منتظر</translation>
+    </message>
+    <message>
+        <source>No comments on this page yet.</source>
+        <translation>اس صفحے پر ابھی کوئی تبصرہ نہیں ہے۔</translation>
+    </message>
+    <message>
+        <source>Waiting for moderation</source>
+        <translation>نگرانی کا منتظر</translation>
+    </message>
+    <message>
+        <source>Reply</source>
+        <translation>جواب دیں</translation>
+    </message>
+    <message>
+        <source>Spam</source>
+        <translation>سپیم</translation>
+    </message>
+    <message>
+        <source>Move "%name" to the trash as spam? It can be restored from the trash in the administration.</source>
+        <translation>"%name" کو سپیم کے طور پر ردی کی ٹوکری میں ڈالیں؟ انتظامیہ میں ردی کی ٹوکری سے اسے بحال کیا جا سکتا ہے۔</translation>
+    </message>
+    <message>
+        <source>Spam ...</source>
+        <translation>سپیم ...</translation>
+    </message>
+    <message>
+        <source>The comment is approved and shown on the page.</source>
+        <translation>تبصرہ منظور ہو گیا اور صفحے پر دکھایا جا رہا ہے۔</translation>
+    </message>
+    <message>
+        <source>The comment is hidden.</source>
+        <translation>تبصرہ چھپا دیا گیا۔</translation>
+    </message>
+    <message>
+        <source>The comment was moved to the trash as spam.</source>
+        <translation>تبصرہ سپیم کے طور پر ردی کی ٹوکری میں ڈال دیا گیا۔</translation>
+    </message>
+    <message>
+        <source>A workflow holds this change. Find it in the administration.</source>
+        <translation>ایک ورک فلو اس تبدیلی کو روکے ہوئے ہے۔ انتظامیہ میں تلاش کریں۔</translation>
+    </message>
+    <message>
+        <source>Send the reply</source>
+        <translation>جواب بھیجیں</translation>
+    </message>
+    <message>
+        <source>Write a comment</source>
+        <translation>تبصرہ لکھیں</translation>
+    </message>
+    <message>
+        <source>Reply to "%name"</source>
+        <translation>"%name" کا جواب</translation>
+    </message>
+    <message>
+        <source>Comment on this page</source>
+        <translation>اس صفحے پر تبصرہ کریں</translation>
+    </message>
+    <message>
+        <source>The reply is published on the page.</source>
+        <translation>جواب صفحے پر شائع ہو گیا۔</translation>
+    </message>
+    <message>
+        <source>The reply waits for its approval.</source>
+        <translation>جواب منظوری کا منتظر ہے۔</translation>
+    </message>
+    <message>
+        <source>%n comments wait for moderation</source>
+        <translation>%n تبصرے نگرانی کے منتظر</translation>
+    </message>
 </context>
 </TS>

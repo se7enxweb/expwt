@@ -1371,5 +1371,97 @@
         <source>Verify it's you</source>
         <translation>本人確認</translation>
     </message>
+    <message>
+        <source>There are no comments here.</source>
+        <translation>ここにはコメントがありません。</translation>
+    </message>
+    <message>
+        <source>This comment is not there any more, or you may not read it.</source>
+        <translation>このコメントはもう存在しないか、閲覧する権限がありません。</translation>
+    </message>
+    <message>
+        <source>There is no such decision.</source>
+        <translation>そのような判断はありません。</translation>
+    </message>
+    <message>
+        <source>Write the reply first.</source>
+        <translation>先に返信を書いてください。</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>コメント</translation>
+    </message>
+    <message>
+        <source>%n wait for moderation</source>
+        <translation>%n 件がモデレーション待ち</translation>
+    </message>
+    <message>
+        <source>No comments on this page yet.</source>
+        <translation>このページにはまだコメントがありません。</translation>
+    </message>
+    <message>
+        <source>Waiting for moderation</source>
+        <translation>モデレーション待ち</translation>
+    </message>
+    <message>
+        <source>Reply</source>
+        <translation>返信</translation>
+    </message>
+    <message>
+        <source>Spam</source>
+        <translation>スパム</translation>
+    </message>
+    <message>
+        <source>Move "%name" to the trash as spam? It can be restored from the trash in the administration.</source>
+        <translation>「%name」をスパムとしてゴミ箱へ移動しますか？管理画面でゴミ箱から復元できます。</translation>
+    </message>
+    <message>
+        <source>Spam ...</source>
+        <translation>スパム ...</translation>
+    </message>
+    <message>
+        <source>The comment is approved and shown on the page.</source>
+        <translation>コメントは承認され、ページに表示されています。</translation>
+    </message>
+    <message>
+        <source>The comment is hidden.</source>
+        <translation>コメントを非表示にしました。</translation>
+    </message>
+    <message>
+        <source>The comment was moved to the trash as spam.</source>
+        <translation>コメントをスパムとしてゴミ箱へ移動しました。</translation>
+    </message>
+    <message>
+        <source>A workflow holds this change. Find it in the administration.</source>
+        <translation>ワークフローがこの変更を保留しています。管理画面で確認してください。</translation>
+    </message>
+    <message>
+        <source>Send the reply</source>
+        <translation>返信を送信</translation>
+    </message>
+    <message>
+        <source>Write a comment</source>
+        <translation>コメントを書く</translation>
+    </message>
+    <message>
+        <source>Reply to "%name"</source>
+        <translation>「%name」への返信</translation>
+    </message>
+    <message>
+        <source>Comment on this page</source>
+        <translation>このページにコメントする</translation>
+    </message>
+    <message>
+        <source>The reply is published on the page.</source>
+        <translation>返信はページに公開されました。</translation>
+    </message>
+    <message>
+        <source>The reply waits for its approval.</source>
+        <translation>返信は承認待ちです。</translation>
+    </message>
+    <message>
+        <source>%n comments wait for moderation</source>
+        <translation>%n 件のコメントがモデレーション待ち</translation>
+    </message>
 </context>
 </TS>

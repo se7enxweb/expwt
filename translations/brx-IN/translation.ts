@@ -1371,5 +1371,97 @@
         <source>Verify it's you</source>
         <translation>नोंनो नोंथां बेखौ फोरमान</translation>
     </message>
+    <message>
+        <source>There are no comments here.</source>
+        <translation>बेयाव जेबो सुंद'थि गैया।</translation>
+    </message>
+    <message>
+        <source>This comment is not there any more, or you may not read it.</source>
+        <translation>बे सुंद'थिया दिनै गैया, नङा नोंथाङा बेखौ फरायनो हाया।</translation>
+    </message>
+    <message>
+        <source>There is no such decision.</source>
+        <translation>बादि जेबो थाखो गैया।</translation>
+    </message>
+    <message>
+        <source>Write the reply first.</source>
+        <translation>गिबियाव फिननायखौ लिर।</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>सुंद'थिफोर</translation>
+    </message>
+    <message>
+        <source>%n wait for moderation</source>
+        <translation>%n मडारेसनखौ नेथ'वा दं</translation>
+    </message>
+    <message>
+        <source>No comments on this page yet.</source>
+        <translation>बे बिलाइयाव दिनैसिम जेबो सुंद'थि गैया।</translation>
+    </message>
+    <message>
+        <source>Waiting for moderation</source>
+        <translation>मडारेसनखौ नेथ'वा दं</translation>
+    </message>
+    <message>
+        <source>Reply</source>
+        <translation>फिननाय हो</translation>
+    </message>
+    <message>
+        <source>Spam</source>
+        <translation>स्पाम</translation>
+    </message>
+    <message>
+        <source>Move "%name" to the trash as spam? It can be restored from the trash in the administration.</source>
+        <translation>"%name" खौ स्पाम महरै जाथाइ गाङाव थां होनो? प्रशासनाव जाथाइ गाङा निफ्राय फिन लाबोनो हायो।</translation>
+    </message>
+    <message>
+        <source>Spam ...</source>
+        <translation>स्पाम ...</translation>
+    </message>
+    <message>
+        <source>The comment is approved and shown on the page.</source>
+        <translation>सुंद'थिया गनायथि मोनबाय आरो बिलाइयाव दिन्थिनो दं।</translation>
+    </message>
+    <message>
+        <source>The comment is hidden.</source>
+        <translation>सुंद'थिखौ गुबुन खालामबाय।</translation>
+    </message>
+    <message>
+        <source>The comment was moved to the trash as spam.</source>
+        <translation>सुंद'थिखौ स्पाम महरै जाथाइ गाङाव थां होबाय।</translation>
+    </message>
+    <message>
+        <source>A workflow holds this change. Find it in the administration.</source>
+        <translation>मोनसे खामानि सोलायनाया बे सोलायनायखौ हमना लाखिदों। प्रशासनाव नागिरनाय।</translation>
+    </message>
+    <message>
+        <source>Send the reply</source>
+        <translation>फिननायखौ दैथाय हो</translation>
+    </message>
+    <message>
+        <source>Write a comment</source>
+        <translation>मोनसे सुंद'थि लिर</translation>
+    </message>
+    <message>
+        <source>Reply to "%name"</source>
+        <translation>"%name" आव फिननाय</translation>
+    </message>
+    <message>
+        <source>Comment on this page</source>
+        <translation>बे बिलाइयाव सुंद'थि हो</translation>
+    </message>
+    <message>
+        <source>The reply is published on the page.</source>
+        <translation>फिननायखौ बिलाइयाव फोसावबाय।</translation>
+    </message>
+    <message>
+        <source>The reply waits for its approval.</source>
+        <translation>फिननाया गनायथिखौ नेथ'वा दं।</translation>
+    </message>
+    <message>
+        <source>%n comments wait for moderation</source>
+        <translation>%n सुंद'थि मडारेसनखौ नेथ'वा दं</translation>
+    </message>
 </context>
 </TS>

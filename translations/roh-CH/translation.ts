@@ -1371,5 +1371,97 @@
         <source>Verify it's you</source>
         <translation>Confermai che Vus essas Vus</translation>
     </message>
+    <message>
+        <source>There are no comments here.</source>
+        <translation>Qua na datti nagins commentaris.</translation>
+    </message>
+    <message>
+        <source>This comment is not there any more, or you may not read it.</source>
+        <translation>Quest commentari n'exista betg pli, u Vus na dastgais betg al leger.</translation>
+    </message>
+    <message>
+        <source>There is no such decision.</source>
+        <translation>Ina tala decisiun n'exista betg.</translation>
+    </message>
+    <message>
+        <source>Write the reply first.</source>
+        <translation>Scrivai l'emprim la resposta.</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>Commentaris</translation>
+    </message>
+    <message>
+        <source>%n wait for moderation</source>
+        <translation>%n spetgan sin moderaziun</translation>
+    </message>
+    <message>
+        <source>No comments on this page yet.</source>
+        <translation>Sin questa pagina na datti anc nagins commentaris.</translation>
+    </message>
+    <message>
+        <source>Waiting for moderation</source>
+        <translation>Spetga sin moderaziun</translation>
+    </message>
+    <message>
+        <source>Reply</source>
+        <translation>Respunder</translation>
+    </message>
+    <message>
+        <source>Spam</source>
+        <translation>Spam</translation>
+    </message>
+    <message>
+        <source>Move "%name" to the trash as spam? It can be restored from the trash in the administration.</source>
+        <translation>Spustar "%name" en il chanaster sco spam? El po vegnir restaurà ord il chanaster en l'administraziun.</translation>
+    </message>
+    <message>
+        <source>Spam ...</source>
+        <translation>Spam ...</translation>
+    </message>
+    <message>
+        <source>The comment is approved and shown on the page.</source>
+        <translation>Il commentari è approvà e vegn mussà sin la pagina.</translation>
+    </message>
+    <message>
+        <source>The comment is hidden.</source>
+        <translation>Il commentari è zuppentà.</translation>
+    </message>
+    <message>
+        <source>The comment was moved to the trash as spam.</source>
+        <translation>Il commentari è vegnì spustà en il chanaster sco spam.</translation>
+    </message>
+    <message>
+        <source>A workflow holds this change. Find it in the administration.</source>
+        <translation>In process da lavur retegna questa midada. Chattai ella en l'administraziun.</translation>
+    </message>
+    <message>
+        <source>Send the reply</source>
+        <translation>Trametter la resposta</translation>
+    </message>
+    <message>
+        <source>Write a comment</source>
+        <translation>Scriver in commentari</translation>
+    </message>
+    <message>
+        <source>Reply to "%name"</source>
+        <translation>Resposta a "%name"</translation>
+    </message>
+    <message>
+        <source>Comment on this page</source>
+        <translation>Commentar questa pagina</translation>
+    </message>
+    <message>
+        <source>The reply is published on the page.</source>
+        <translation>La resposta è publitgada sin la pagina.</translation>
+    </message>
+    <message>
+        <source>The reply waits for its approval.</source>
+        <translation>La resposta spetga sia approvaziun.</translation>
+    </message>
+    <message>
+        <source>%n comments wait for moderation</source>
+        <translation>%n commentaris spetgan sin moderaziun</translation>
+    </message>
 </context>
 </TS>

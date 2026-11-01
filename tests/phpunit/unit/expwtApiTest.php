@@ -81,6 +81,11 @@ class expwtApiTestGateway extends expwtGateway
     public function newsletterCreate( array $in ) { return $this->record( 'newsletterCreate', $in ); }
     public function newsletterTest( array $in ) { return $this->record( 'newsletterTest', $in ); }
     public function newsletterSend( array $in ) { return $this->record( 'newsletterSend', $in ); }
+    public $comments = array( 'total' => 3, 'waiting' => 1 );
+    public function commentsOffer( array $in ) { $this->calls[] = array( 'commentsOffer', $in ); return $this->comments; }
+    public function comments( array $in ) { return $this->record( 'comments', $in ); }
+    public function commentModerate( array $in ) { return $this->record( 'commentModerate', $in ); }
+    public function commentReply( array $in ) { return $this->record( 'commentReply', $in ); }
     public $registered = array( 'panels' => array(), 'actions' => array(), 'highlights' => array(), 'search' => array() );
     public $policies = array();
     public function registeredActions() { return $this->registered['actions']; }
@@ -229,6 +234,40 @@ class expwtApiTest extends PHPUnit\Framework\TestCase
         $this->assertNull( $api->call( 'boot', array(), 'GET' )['body']['data']['newsletter'] );
     }
 
+    /** E4: the comments of the page: loading is a read; approve, hide, spam and reply are writes by POST that stand for
+        the administration's views (so "Verify it's you" asks as it asks there); the boot counts them for the page */
+    public function testTheCommentsGoToTheGatewayCleaned()
+    {
+        $api = $this->api();
+        $this->assertFalse( expwtAccess::writes( 'comments.load' ) );
+        $this->assertSame( 'edit', expwtAccess::functionFor( 'comments.load' ) );
+        foreach ( array( 'comments.approve', 'comments.hide', 'comments.spam', 'comments.reply' ) as $action )
+        {
+            $this->assertSame( 'edit', expwtAccess::functionFor( $action ) );
+            $this->assertTrue( expwtAccess::writes( $action ) );
+            $this->assertSame( 405, $api->call( $action, array( 'commentId' => 1 ), 'GET' )['status'], "$action only by POST" );
+        }
+        $this->assertSame( array( 'module' => 'content', 'view' => 'hide', 'post' => array() ), expwtAccess::kernelView( 'comments.approve' ) );
+        $this->assertSame( array( 'module' => 'content', 'view' => 'hide', 'post' => array() ), expwtAccess::kernelView( 'comments.hide' ) );
+        $this->assertSame( array( 'module' => 'content', 'view' => 'removeobject', 'post' => array( 'ConfirmButton' => '1' ) ), expwtAccess::kernelView( 'comments.spam' ) );
+        $this->assertSame( array( 'module' => 'content', 'view' => 'edit', 'post' => array( 'PublishButton' => '1' ) ), expwtAccess::kernelView( 'comments.reply' ) );
+        $api->call( 'comments.load', array( 'nodeId' => '93', 'commentId' => 4 ), 'GET' );
+        $this->assertSame( array( 'comments', array( 'nodeId' => 93 ) ), $this->gateway->calls[0] );
+        $api->call( 'comments.approve', array( 'commentId' => '120', 'decision' => 'spam' ), 'POST' );
+        $this->assertSame( array( 'commentModerate', array( 'commentId' => 120, 'decision' => 'approve' ) ), $this->gateway->calls[1], 'the decision is the action' );
+        $api->call( 'comments.hide', array( 'commentId' => 121 ), 'POST' );
+        $this->assertSame( array( 'commentModerate', array( 'commentId' => 121, 'decision' => 'hide' ) ), $this->gateway->calls[2] );
+        $api->call( 'comments.spam', array( 'commentId' => 122 ), 'POST' );
+        $this->assertSame( array( 'commentModerate', array( 'commentId' => 122, 'decision' => 'spam' ) ), $this->gateway->calls[3] );
+        $api->call( 'comments.reply', array( 'nodeId' => '93', 'commentId' => '0', 'message' => "  Thanks!\n  ", 'subject' => 'x' ), 'POST' );
+        $this->assertSame( array( 'commentReply', array( 'nodeId' => 93, 'message' => 'Thanks!' ) ), $this->gateway->calls[4] );
+        $this->gateway->calls = array();
+        $this->assertSame( array( 'total' => 3, 'waiting' => 1 ), $api->call( 'boot', array( 'nodeId' => '93' ), 'GET' )['body']['data']['comments'] );
+        $this->assertSame( array( 'commentsOffer', array( 'nodeId' => 93 ) ), $this->gateway->calls[0] );
+        $this->gateway->comments = null;
+        $this->assertNull( $api->call( 'boot', array(), 'GET' )['body']['data']['comments'] );
+    }
+
     /** E2: the page's forms and one submission are read-only, for those who edit, cleaned */
     public function testTheFormsGoToTheGatewayCleaned()
     {
@@ -312,7 +351,7 @@ class expwtApiTest extends PHPUnit\Framework\TestCase
     {
         $r = $this->api()->call( 'boot', array(), 'GET' );
         $d = $r['body']['data'];
-        $this->assertSame( array( 'user', 'capabilities', 'state', 'theme', 'token', 'transport', 'urls', 'strings', 'inbox', 'newsletter', 'registry', 'settings' ), array_keys( $d ) );
+        $this->assertSame( array( 'user', 'capabilities', 'state', 'theme', 'token', 'transport', 'urls', 'strings', 'inbox', 'newsletter', 'comments', 'registry', 'settings' ), array_keys( $d ) );
         $this->assertSame( 'dark', $d['theme'], 'follows the administration (F10)' );
         $this->assertSame( 'tok', $d['token'] );
         $this->assertSame( 'Bearbeiten', $d['strings']['Edit'] );

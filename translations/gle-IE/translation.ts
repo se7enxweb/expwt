@@ -1371,5 +1371,97 @@
         <source>Verify it's you</source>
         <translation>Deimhnigh gur tú atá ann</translation>
     </message>
+    <message>
+        <source>There are no comments here.</source>
+        <translation>Níl aon tráchtanna anseo.</translation>
+    </message>
+    <message>
+        <source>This comment is not there any more, or you may not read it.</source>
+        <translation>Níl an trácht seo ann a thuilleadh, nó níl cead agat é a léamh.</translation>
+    </message>
+    <message>
+        <source>There is no such decision.</source>
+        <translation>Níl a leithéid de chinneadh ann.</translation>
+    </message>
+    <message>
+        <source>Write the reply first.</source>
+        <translation>Scríobh an freagra ar dtús.</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>Tráchtanna</translation>
+    </message>
+    <message>
+        <source>%n wait for moderation</source>
+        <translation>%n ag fanacht le modhnóireacht</translation>
+    </message>
+    <message>
+        <source>No comments on this page yet.</source>
+        <translation>Níl aon tráchtanna ar an leathanach seo fós.</translation>
+    </message>
+    <message>
+        <source>Waiting for moderation</source>
+        <translation>Ag fanacht le modhnóireacht</translation>
+    </message>
+    <message>
+        <source>Reply</source>
+        <translation>Freagair</translation>
+    </message>
+    <message>
+        <source>Spam</source>
+        <translation>Turscar</translation>
+    </message>
+    <message>
+        <source>Move "%name" to the trash as spam? It can be restored from the trash in the administration.</source>
+        <translation>Bog "%name" go dtí an bruscar mar thurscar? Is féidir é a athchóiriú ón mbruscar sa riarachán.</translation>
+    </message>
+    <message>
+        <source>Spam ...</source>
+        <translation>Turscar ...</translation>
+    </message>
+    <message>
+        <source>The comment is approved and shown on the page.</source>
+        <translation>Tá an trácht ceadaithe agus á thaispeáint ar an leathanach.</translation>
+    </message>
+    <message>
+        <source>The comment is hidden.</source>
+        <translation>Tá an trácht i bhfolach.</translation>
+    </message>
+    <message>
+        <source>The comment was moved to the trash as spam.</source>
+        <translation>Bogadh an trácht go dtí an bruscar mar thurscar.</translation>
+    </message>
+    <message>
+        <source>A workflow holds this change. Find it in the administration.</source>
+        <translation>Tá sreabhadh oibre ag coinneáil an athraithe seo. Aimsigh sa riarachán é.</translation>
+    </message>
+    <message>
+        <source>Send the reply</source>
+        <translation>Seol an freagra</translation>
+    </message>
+    <message>
+        <source>Write a comment</source>
+        <translation>Scríobh trácht</translation>
+    </message>
+    <message>
+        <source>Reply to "%name"</source>
+        <translation>Freagra ar "%name"</translation>
+    </message>
+    <message>
+        <source>Comment on this page</source>
+        <translation>Déan trácht ar an leathanach seo</translation>
+    </message>
+    <message>
+        <source>The reply is published on the page.</source>
+        <translation>Foilsíodh an freagra ar an leathanach.</translation>
+    </message>
+    <message>
+        <source>The reply waits for its approval.</source>
+        <translation>Tá an freagra ag fanacht lena cheadú.</translation>
+    </message>
+    <message>
+        <source>%n comments wait for moderation</source>
+        <translation>%n trácht ag fanacht le modhnóireacht</translation>
+    </message>
 </context>
 </TS>

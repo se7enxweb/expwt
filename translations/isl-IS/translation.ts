@@ -1371,5 +1371,97 @@
         <source>Verify it's you</source>
         <translation>Staðfestu að þetta sért þú</translation>
     </message>
+    <message>
+        <source>There are no comments here.</source>
+        <translation>Hér eru engar athugasemdir.</translation>
+    </message>
+    <message>
+        <source>This comment is not there any more, or you may not read it.</source>
+        <translation>Þessi athugasemd er ekki lengur til, eða þú mátt ekki lesa hana.</translation>
+    </message>
+    <message>
+        <source>There is no such decision.</source>
+        <translation>Engin slík ákvörðun er til.</translation>
+    </message>
+    <message>
+        <source>Write the reply first.</source>
+        <translation>Skrifaðu svarið fyrst.</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>Athugasemdir</translation>
+    </message>
+    <message>
+        <source>%n wait for moderation</source>
+        <translation>%n bíða eftir yfirferð</translation>
+    </message>
+    <message>
+        <source>No comments on this page yet.</source>
+        <translation>Engar athugasemdir eru enn á þessari síðu.</translation>
+    </message>
+    <message>
+        <source>Waiting for moderation</source>
+        <translation>Bíður eftir yfirferð</translation>
+    </message>
+    <message>
+        <source>Reply</source>
+        <translation>Svara</translation>
+    </message>
+    <message>
+        <source>Spam</source>
+        <translation>Ruslpóstur</translation>
+    </message>
+    <message>
+        <source>Move "%name" to the trash as spam? It can be restored from the trash in the administration.</source>
+        <translation>Færa "%name" í ruslið sem ruslpóst? Hægt er að endurheimta hana úr ruslinu í stjórnun.</translation>
+    </message>
+    <message>
+        <source>Spam ...</source>
+        <translation>Ruslpóstur ...</translation>
+    </message>
+    <message>
+        <source>The comment is approved and shown on the page.</source>
+        <translation>Athugasemdin er samþykkt og birtist á síðunni.</translation>
+    </message>
+    <message>
+        <source>The comment is hidden.</source>
+        <translation>Athugasemdin er falin.</translation>
+    </message>
+    <message>
+        <source>The comment was moved to the trash as spam.</source>
+        <translation>Athugasemdin var færð í ruslið sem ruslpóstur.</translation>
+    </message>
+    <message>
+        <source>A workflow holds this change. Find it in the administration.</source>
+        <translation>Verkflæði heldur þessari breytingu. Finndu hana í stjórnun.</translation>
+    </message>
+    <message>
+        <source>Send the reply</source>
+        <translation>Senda svarið</translation>
+    </message>
+    <message>
+        <source>Write a comment</source>
+        <translation>Skrifa athugasemd</translation>
+    </message>
+    <message>
+        <source>Reply to "%name"</source>
+        <translation>Svar við "%name"</translation>
+    </message>
+    <message>
+        <source>Comment on this page</source>
+        <translation>Gera athugasemd við þessa síðu</translation>
+    </message>
+    <message>
+        <source>The reply is published on the page.</source>
+        <translation>Svarið er birt á síðunni.</translation>
+    </message>
+    <message>
+        <source>The reply waits for its approval.</source>
+        <translation>Svarið bíður samþykktar.</translation>
+    </message>
+    <message>
+        <source>%n comments wait for moderation</source>
+        <translation>%n athugasemdir bíða eftir yfirferð</translation>
+    </message>
 </context>
 </TS>

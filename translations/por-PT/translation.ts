@@ -1371,5 +1371,97 @@
         <source>Verify it's you</source>
         <translation>Confirme que é você</translation>
     </message>
+    <message>
+        <source>There are no comments here.</source>
+        <translation>Não há comentários aqui.</translation>
+    </message>
+    <message>
+        <source>This comment is not there any more, or you may not read it.</source>
+        <translation>Este comentário já não existe ou não tem permissão para o ler.</translation>
+    </message>
+    <message>
+        <source>There is no such decision.</source>
+        <translation>Essa decisão não existe.</translation>
+    </message>
+    <message>
+        <source>Write the reply first.</source>
+        <translation>Escreva primeiro a resposta.</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>Comentários</translation>
+    </message>
+    <message>
+        <source>%n wait for moderation</source>
+        <translation>%n a aguardar moderação</translation>
+    </message>
+    <message>
+        <source>No comments on this page yet.</source>
+        <translation>Ainda não há comentários nesta página.</translation>
+    </message>
+    <message>
+        <source>Waiting for moderation</source>
+        <translation>A aguardar moderação</translation>
+    </message>
+    <message>
+        <source>Reply</source>
+        <translation>Responder</translation>
+    </message>
+    <message>
+        <source>Spam</source>
+        <translation>Spam</translation>
+    </message>
+    <message>
+        <source>Move "%name" to the trash as spam? It can be restored from the trash in the administration.</source>
+        <translation>Mover "%name" para o lixo como spam? Pode ser restaurado do lixo na administração.</translation>
+    </message>
+    <message>
+        <source>Spam ...</source>
+        <translation>Spam ...</translation>
+    </message>
+    <message>
+        <source>The comment is approved and shown on the page.</source>
+        <translation>O comentário foi aprovado e é mostrado na página.</translation>
+    </message>
+    <message>
+        <source>The comment is hidden.</source>
+        <translation>O comentário foi ocultado.</translation>
+    </message>
+    <message>
+        <source>The comment was moved to the trash as spam.</source>
+        <translation>O comentário foi movido para o lixo como spam.</translation>
+    </message>
+    <message>
+        <source>A workflow holds this change. Find it in the administration.</source>
+        <translation>Um fluxo de trabalho está a reter esta alteração. Encontre-a na administração.</translation>
+    </message>
+    <message>
+        <source>Send the reply</source>
+        <translation>Enviar a resposta</translation>
+    </message>
+    <message>
+        <source>Write a comment</source>
+        <translation>Escrever um comentário</translation>
+    </message>
+    <message>
+        <source>Reply to "%name"</source>
+        <translation>Resposta a "%name"</translation>
+    </message>
+    <message>
+        <source>Comment on this page</source>
+        <translation>Comentar esta página</translation>
+    </message>
+    <message>
+        <source>The reply is published on the page.</source>
+        <translation>A resposta foi publicada na página.</translation>
+    </message>
+    <message>
+        <source>The reply waits for its approval.</source>
+        <translation>A resposta aguarda aprovação.</translation>
+    </message>
+    <message>
+        <source>%n comments wait for moderation</source>
+        <translation>%n comentários a aguardar moderação</translation>
+    </message>
 </context>
 </TS>

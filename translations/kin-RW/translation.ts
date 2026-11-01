@@ -1371,5 +1371,97 @@
         <source>Verify it's you</source>
         <translation>Emeza ko ari wowe</translation>
     </message>
+    <message>
+        <source>There are no comments here.</source>
+        <translation>Nta bitekerezo biri hano.</translation>
+    </message>
+    <message>
+        <source>This comment is not there any more, or you may not read it.</source>
+        <translation>Iki gitekerezo ntikikiriho, cyangwa ntiwemerewe kugisoma.</translation>
+    </message>
+    <message>
+        <source>There is no such decision.</source>
+        <translation>Nta cyemezo nk'icyo kibaho.</translation>
+    </message>
+    <message>
+        <source>Write the reply first.</source>
+        <translation>Banza wandike igisubizo.</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>Ibitekerezo</translation>
+    </message>
+    <message>
+        <source>%n wait for moderation</source>
+        <translation>%n bitegereje kugenzurwa</translation>
+    </message>
+    <message>
+        <source>No comments on this page yet.</source>
+        <translation>Nta bitekerezo biri kuri uru rupapuro kugeza ubu.</translation>
+    </message>
+    <message>
+        <source>Waiting for moderation</source>
+        <translation>Gitegereje kugenzurwa</translation>
+    </message>
+    <message>
+        <source>Reply</source>
+        <translation>Subiza</translation>
+    </message>
+    <message>
+        <source>Spam</source>
+        <translation>Ubutumwa butifuzwa</translation>
+    </message>
+    <message>
+        <source>Move "%name" to the trash as spam? It can be restored from the trash in the administration.</source>
+        <translation>Shyira "%name" mu myanda nk'ubutumwa butifuzwa? Gishobora kugarurwa kivuye mu myanda mu buyobozi.</translation>
+    </message>
+    <message>
+        <source>Spam ...</source>
+        <translation>Ubutumwa butifuzwa ...</translation>
+    </message>
+    <message>
+        <source>The comment is approved and shown on the page.</source>
+        <translation>Igitekerezo cyemejwe kandi kigaragara ku rupapuro.</translation>
+    </message>
+    <message>
+        <source>The comment is hidden.</source>
+        <translation>Igitekerezo cyahishwe.</translation>
+    </message>
+    <message>
+        <source>The comment was moved to the trash as spam.</source>
+        <translation>Igitekerezo cyashyizwe mu myanda nk'ubutumwa butifuzwa.</translation>
+    </message>
+    <message>
+        <source>A workflow holds this change. Find it in the administration.</source>
+        <translation>Urutonde rw'akazi rufashe iri hinduka. Rishakire mu buyobozi.</translation>
+    </message>
+    <message>
+        <source>Send the reply</source>
+        <translation>Ohereza igisubizo</translation>
+    </message>
+    <message>
+        <source>Write a comment</source>
+        <translation>Andika igitekerezo</translation>
+    </message>
+    <message>
+        <source>Reply to "%name"</source>
+        <translation>Igisubizo kuri "%name"</translation>
+    </message>
+    <message>
+        <source>Comment on this page</source>
+        <translation>Tanga igitekerezo kuri uru rupapuro</translation>
+    </message>
+    <message>
+        <source>The reply is published on the page.</source>
+        <translation>Igisubizo cyatangajwe ku rupapuro.</translation>
+    </message>
+    <message>
+        <source>The reply waits for its approval.</source>
+        <translation>Igisubizo gitegereje kwemezwa.</translation>
+    </message>
+    <message>
+        <source>%n comments wait for moderation</source>
+        <translation>Ibitekerezo %n bitegereje kugenzurwa</translation>
+    </message>
 </context>
 </TS>

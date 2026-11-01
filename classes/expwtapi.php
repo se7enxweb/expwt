@@ -190,6 +190,16 @@ class expwtApi
                 return $g->newsletterTest( self::ids( $input, array( 'editionId' ) ) + self::strings( $input, array( 'recipients' ) ) );
             case 'newsletter.send':
                 return $g->newsletterSend( self::ids( $input, array( 'editionId', 'version' ) ) );
+            case 'comments.load':
+                return $g->comments( self::ids( $input, array( 'nodeId' ) ) );
+            case 'comments.approve':
+            case 'comments.hide':
+            case 'comments.spam':
+                return $g->commentModerate( self::ids( $input, array( 'commentId' ) ) + array( 'decision' => substr( $action, 9 ) ) );
+            case 'comments.reply':
+                // the reply as typed (several lines), at most 10000 characters
+                $message = isset( $input['message'] ) && is_scalar( $input['message'] ) ? substr( trim( (string)$input['message'] ), 0, 10000 ) : '';
+                return $g->commentReply( self::ids( $input, array( 'nodeId', 'commentId' ) ) + array( 'message' => $message ) );
             case 'page.elsewhere':
                 return $g->elsewhere( self::ids( $input, array( 'nodeId' ) ) );
             case 'seo.check':
@@ -231,6 +241,9 @@ class expwtApi
             'inbox' => $g->capabilities()['use'] ? $g->noticeCount() : null,
             // the Newsletter panel (E3): with cjw_newsletter, what the user may do there (create, send), else null
             'newsletter' => $g->newsletterOffer(),
+            // the comments of the page (E4): their number and how many wait for moderation, the badge on the Page
+            // panel's tab; null without expwt/edit or comments
+            'comments' => $g->commentsOffer( self::ids( $input, array( 'nodeId' ) ) ),
             // what other extensions add and this user gets (decision 32): panels, highlights, search providers, and
             // which of their actions write
             'registry' => $g->registryForBoot(),

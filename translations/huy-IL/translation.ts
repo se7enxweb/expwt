@@ -1371,5 +1371,97 @@
         <source>Verify it's you</source>
         <translation>שררון דאחתון אניתון</translation>
     </message>
+    <message>
+        <source>There are no comments here.</source>
+        <translation>לית הערות הכא.</translation>
+    </message>
+    <message>
+        <source>This comment is not there any more, or you may not read it.</source>
+        <translation>הא הערה לית תו, יאן לית לוך רשות דקריתא.</translation>
+    </message>
+    <message>
+        <source>There is no such decision.</source>
+        <translation>לית הדא פסקא.</translation>
+    </message>
+    <message>
+        <source>Write the reply first.</source>
+        <translation>כתוב קמאית ג'ואבא.</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>הערות</translation>
+    </message>
+    <message>
+        <source>%n wait for moderation</source>
+        <translation>%n קא מנטרי לבדיקה</translation>
+    </message>
+    <message>
+        <source>No comments on this page yet.</source>
+        <translation>לית הערות בדא דפא עד השתא.</translation>
+    </message>
+    <message>
+        <source>Waiting for moderation</source>
+        <translation>קא מנטרא לבדיקה</translation>
+    </message>
+    <message>
+        <source>Reply</source>
+        <translation>ג'ואב</translation>
+    </message>
+    <message>
+        <source>Spam</source>
+        <translation>ספאם</translation>
+    </message>
+    <message>
+        <source>Move "%name" to the trash as spam? It can be restored from the trash in the administration.</source>
+        <translation>שניא "%name" למזבלתא כספאם? מצי מהדרת מן מזבלתא בניהול.</translation>
+    </message>
+    <message>
+        <source>Spam ...</source>
+        <translation>ספאם ...</translation>
+    </message>
+    <message>
+        <source>The comment is approved and shown on the page.</source>
+        <translation>הערה איתקבלא וקא מתחזיא בדפא.</translation>
+    </message>
+    <message>
+        <source>The comment is hidden.</source>
+        <translation>הערה איטשיא.</translation>
+    </message>
+    <message>
+        <source>The comment was moved to the trash as spam.</source>
+        <translation>הערה אישתניא למזבלתא כספאם.</translation>
+    </message>
+    <message>
+        <source>A workflow holds this change. Find it in the administration.</source>
+        <translation>פלן תהליך עבודה קא נטר הא שנויא. משכח בניהול.</translation>
+    </message>
+    <message>
+        <source>Send the reply</source>
+        <translation>שדר ג'ואבא</translation>
+    </message>
+    <message>
+        <source>Write a comment</source>
+        <translation>כתוב הערה</translation>
+    </message>
+    <message>
+        <source>Reply to "%name"</source>
+        <translation>ג'ואב ל"%name"</translation>
+    </message>
+    <message>
+        <source>Comment on this page</source>
+        <translation>כתוב הערה על הא דפא</translation>
+    </message>
+    <message>
+        <source>The reply is published on the page.</source>
+        <translation>ג'ואבא איתפרסם בדפא.</translation>
+    </message>
+    <message>
+        <source>The reply waits for its approval.</source>
+        <translation>ג'ואבא קא מנטר לקבלתא.</translation>
+    </message>
+    <message>
+        <source>%n comments wait for moderation</source>
+        <translation>%n הערות קא מנטרי לבדיקה</translation>
+    </message>
 </context>
 </TS>

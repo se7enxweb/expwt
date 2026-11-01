@@ -1371,5 +1371,97 @@
         <source>Verify it's you</source>
         <translation>ਪੁਸ਼ਟੀ ਕਰੋ ਕਿ ਇਹ ਤੁਸੀਂ ਹੋ</translation>
     </message>
+    <message>
+        <source>There are no comments here.</source>
+        <translation>ਇੱਥੇ ਕੋਈ ਟਿੱਪਣੀ ਨਹੀਂ ਹੈ।</translation>
+    </message>
+    <message>
+        <source>This comment is not there any more, or you may not read it.</source>
+        <translation>ਇਹ ਟਿੱਪਣੀ ਹੁਣ ਨਹੀਂ ਹੈ, ਜਾਂ ਤੁਹਾਨੂੰ ਇਸਨੂੰ ਪੜ੍ਹਨ ਦੀ ਇਜਾਜ਼ਤ ਨਹੀਂ ਹੈ।</translation>
+    </message>
+    <message>
+        <source>There is no such decision.</source>
+        <translation>ਅਜਿਹਾ ਕੋਈ ਫ਼ੈਸਲਾ ਨਹੀਂ ਹੈ।</translation>
+    </message>
+    <message>
+        <source>Write the reply first.</source>
+        <translation>ਪਹਿਲਾਂ ਜਵਾਬ ਲਿਖੋ।</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>ਟਿੱਪਣੀਆਂ</translation>
+    </message>
+    <message>
+        <source>%n wait for moderation</source>
+        <translation>%n ਮਾਡਰੇਸ਼ਨ ਦੀ ਉਡੀਕ ਵਿੱਚ</translation>
+    </message>
+    <message>
+        <source>No comments on this page yet.</source>
+        <translation>ਇਸ ਪੰਨੇ 'ਤੇ ਅਜੇ ਕੋਈ ਟਿੱਪਣੀ ਨਹੀਂ ਹੈ।</translation>
+    </message>
+    <message>
+        <source>Waiting for moderation</source>
+        <translation>ਮਾਡਰੇਸ਼ਨ ਦੀ ਉਡੀਕ ਵਿੱਚ</translation>
+    </message>
+    <message>
+        <source>Reply</source>
+        <translation>ਜਵਾਬ ਦਿਓ</translation>
+    </message>
+    <message>
+        <source>Spam</source>
+        <translation>ਸਪੈਮ</translation>
+    </message>
+    <message>
+        <source>Move "%name" to the trash as spam? It can be restored from the trash in the administration.</source>
+        <translation>"%name" ਨੂੰ ਸਪੈਮ ਵਜੋਂ ਰੱਦੀ ਵਿੱਚ ਭੇਜਣਾ ਹੈ? ਪ੍ਰਸ਼ਾਸਨ ਵਿੱਚ ਰੱਦੀ ਤੋਂ ਇਸਨੂੰ ਮੁੜ ਬਹਾਲ ਕੀਤਾ ਜਾ ਸਕਦਾ ਹੈ।</translation>
+    </message>
+    <message>
+        <source>Spam ...</source>
+        <translation>ਸਪੈਮ ...</translation>
+    </message>
+    <message>
+        <source>The comment is approved and shown on the page.</source>
+        <translation>ਟਿੱਪਣੀ ਮਨਜ਼ੂਰ ਹੋ ਗਈ ਅਤੇ ਪੰਨੇ 'ਤੇ ਦਿਖਾਈ ਜਾ ਰਹੀ ਹੈ।</translation>
+    </message>
+    <message>
+        <source>The comment is hidden.</source>
+        <translation>ਟਿੱਪਣੀ ਲੁਕਾ ਦਿੱਤੀ ਗਈ।</translation>
+    </message>
+    <message>
+        <source>The comment was moved to the trash as spam.</source>
+        <translation>ਟਿੱਪਣੀ ਸਪੈਮ ਵਜੋਂ ਰੱਦੀ ਵਿੱਚ ਭੇਜ ਦਿੱਤੀ ਗਈ।</translation>
+    </message>
+    <message>
+        <source>A workflow holds this change. Find it in the administration.</source>
+        <translation>ਇੱਕ ਵਰਕਫ਼ਲੋ ਇਸ ਤਬਦੀਲੀ ਨੂੰ ਰੋਕੀ ਬੈਠਾ ਹੈ। ਪ੍ਰਸ਼ਾਸਨ ਵਿੱਚ ਲੱਭੋ।</translation>
+    </message>
+    <message>
+        <source>Send the reply</source>
+        <translation>ਜਵਾਬ ਭੇਜੋ</translation>
+    </message>
+    <message>
+        <source>Write a comment</source>
+        <translation>ਟਿੱਪਣੀ ਲਿਖੋ</translation>
+    </message>
+    <message>
+        <source>Reply to "%name"</source>
+        <translation>"%name" ਦਾ ਜਵਾਬ</translation>
+    </message>
+    <message>
+        <source>Comment on this page</source>
+        <translation>ਇਸ ਪੰਨੇ 'ਤੇ ਟਿੱਪਣੀ ਕਰੋ</translation>
+    </message>
+    <message>
+        <source>The reply is published on the page.</source>
+        <translation>ਜਵਾਬ ਪੰਨੇ 'ਤੇ ਪ੍ਰਕਾਸ਼ਿਤ ਹੋ ਗਿਆ।</translation>
+    </message>
+    <message>
+        <source>The reply waits for its approval.</source>
+        <translation>ਜਵਾਬ ਮਨਜ਼ੂਰੀ ਦੀ ਉਡੀਕ ਵਿੱਚ ਹੈ।</translation>
+    </message>
+    <message>
+        <source>%n comments wait for moderation</source>
+        <translation>%n ਟਿੱਪਣੀਆਂ ਮਾਡਰੇਸ਼ਨ ਦੀ ਉਡੀਕ ਵਿੱਚ</translation>
+    </message>
 </context>
 </TS>

@@ -1371,5 +1371,97 @@
         <source>Verify it's you</source>
         <translation>Verifica que ets tu</translation>
     </message>
+    <message>
+        <source>There are no comments here.</source>
+        <translation>Aquí no hi ha comentaris.</translation>
+    </message>
+    <message>
+        <source>This comment is not there any more, or you may not read it.</source>
+        <translation>Aquest comentari ja no hi és, o no el pots llegir.</translation>
+    </message>
+    <message>
+        <source>There is no such decision.</source>
+        <translation>No existeix aquesta decisió.</translation>
+    </message>
+    <message>
+        <source>Write the reply first.</source>
+        <translation>Escriu primer la resposta.</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>Comentaris</translation>
+    </message>
+    <message>
+        <source>%n wait for moderation</source>
+        <translation>%n esperen moderació</translation>
+    </message>
+    <message>
+        <source>No comments on this page yet.</source>
+        <translation>Encara no hi ha comentaris en aquesta pàgina.</translation>
+    </message>
+    <message>
+        <source>Waiting for moderation</source>
+        <translation>Espera moderació</translation>
+    </message>
+    <message>
+        <source>Reply</source>
+        <translation>Respon</translation>
+    </message>
+    <message>
+        <source>Spam</source>
+        <translation>Correu brossa</translation>
+    </message>
+    <message>
+        <source>Move "%name" to the trash as spam? It can be restored from the trash in the administration.</source>
+        <translation>Vols moure "%name" a la paperera com a correu brossa? Es pot restaurar des de la paperera a l'administració.</translation>
+    </message>
+    <message>
+        <source>Spam ...</source>
+        <translation>Correu brossa ...</translation>
+    </message>
+    <message>
+        <source>The comment is approved and shown on the page.</source>
+        <translation>El comentari s'ha aprovat i es mostra a la pàgina.</translation>
+    </message>
+    <message>
+        <source>The comment is hidden.</source>
+        <translation>El comentari s'ha ocultat.</translation>
+    </message>
+    <message>
+        <source>The comment was moved to the trash as spam.</source>
+        <translation>El comentari s'ha mogut a la paperera com a correu brossa.</translation>
+    </message>
+    <message>
+        <source>A workflow holds this change. Find it in the administration.</source>
+        <translation>Un flux de treball reté aquest canvi. El trobaràs a l'administració.</translation>
+    </message>
+    <message>
+        <source>Send the reply</source>
+        <translation>Envia la resposta</translation>
+    </message>
+    <message>
+        <source>Write a comment</source>
+        <translation>Escriu un comentari</translation>
+    </message>
+    <message>
+        <source>Reply to "%name"</source>
+        <translation>Resposta a "%name"</translation>
+    </message>
+    <message>
+        <source>Comment on this page</source>
+        <translation>Comenta aquesta pàgina</translation>
+    </message>
+    <message>
+        <source>The reply is published on the page.</source>
+        <translation>La resposta s'ha publicat a la pàgina.</translation>
+    </message>
+    <message>
+        <source>The reply waits for its approval.</source>
+        <translation>La resposta espera la seva aprovació.</translation>
+    </message>
+    <message>
+        <source>%n comments wait for moderation</source>
+        <translation>%n comentaris esperen moderació</translation>
+    </message>
 </context>
 </TS>

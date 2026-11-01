@@ -1371,5 +1371,97 @@
         <source>Verify it's you</source>
         <translation>본인 확인</translation>
     </message>
+    <message>
+        <source>There are no comments here.</source>
+        <translation>여기에는 댓글이 없습니다.</translation>
+    </message>
+    <message>
+        <source>This comment is not there any more, or you may not read it.</source>
+        <translation>이 댓글은 더 이상 없거나 읽을 권한이 없습니다.</translation>
+    </message>
+    <message>
+        <source>There is no such decision.</source>
+        <translation>그런 결정은 없습니다.</translation>
+    </message>
+    <message>
+        <source>Write the reply first.</source>
+        <translation>먼저 답글을 쓰십시오.</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>댓글</translation>
+    </message>
+    <message>
+        <source>%n wait for moderation</source>
+        <translation>%n개가 검토를 기다립니다</translation>
+    </message>
+    <message>
+        <source>No comments on this page yet.</source>
+        <translation>이 페지에는 아직 댓글이 없습니다.</translation>
+    </message>
+    <message>
+        <source>Waiting for moderation</source>
+        <translation>검토 대기 중</translation>
+    </message>
+    <message>
+        <source>Reply</source>
+        <translation>답글</translation>
+    </message>
+    <message>
+        <source>Spam</source>
+        <translation>스팸</translation>
+    </message>
+    <message>
+        <source>Move "%name" to the trash as spam? It can be restored from the trash in the administration.</source>
+        <translation>"%name"을(를) 스팸으로 휴지통으로 이동하겠습니까? 관리에서 휴지통에서 복원할 수 있습니다.</translation>
+    </message>
+    <message>
+        <source>Spam ...</source>
+        <translation>스팸 ...</translation>
+    </message>
+    <message>
+        <source>The comment is approved and shown on the page.</source>
+        <translation>댓글이 승인되여 페지에 표시됩니다.</translation>
+    </message>
+    <message>
+        <source>The comment is hidden.</source>
+        <translation>댓글을 숨겼습니다.</translation>
+    </message>
+    <message>
+        <source>The comment was moved to the trash as spam.</source>
+        <translation>댓글을 스팸으로 휴지통으로 이동했습니다.</translation>
+    </message>
+    <message>
+        <source>A workflow holds this change. Find it in the administration.</source>
+        <translation>작업흐름이 이 변경을 보류하고 있습니다. 관리에서 찾으십시오.</translation>
+    </message>
+    <message>
+        <source>Send the reply</source>
+        <translation>답글 보내기</translation>
+    </message>
+    <message>
+        <source>Write a comment</source>
+        <translation>댓글 쓰기</translation>
+    </message>
+    <message>
+        <source>Reply to "%name"</source>
+        <translation>"%name"에 대한 답글</translation>
+    </message>
+    <message>
+        <source>Comment on this page</source>
+        <translation>이 페지에 댓글 달기</translation>
+    </message>
+    <message>
+        <source>The reply is published on the page.</source>
+        <translation>답글이 페지에 게시되였습니다.</translation>
+    </message>
+    <message>
+        <source>The reply waits for its approval.</source>
+        <translation>답글이 승인을 기다리고 있습니다.</translation>
+    </message>
+    <message>
+        <source>%n comments wait for moderation</source>
+        <translation>댓글 %n개가 검토를 기다립니다</translation>
+    </message>
 </context>
 </TS>

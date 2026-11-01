@@ -1371,5 +1371,97 @@
         <source>Verify it's you</source>
         <translation>E hōʻoia ʻo ʻoe nō kēia</translation>
     </message>
+    <message>
+        <source>There are no comments here.</source>
+        <translation>ʻAʻohe manaʻo ma ʻaneʻi.</translation>
+    </message>
+    <message>
+        <source>This comment is not there any more, or you may not read it.</source>
+        <translation>ʻAʻole i laila hou kēia manaʻo, a i ʻole ʻaʻole ʻae ʻia ʻoe e heluhelu.</translation>
+    </message>
+    <message>
+        <source>There is no such decision.</source>
+        <translation>ʻAʻohe hoʻoholo pēlā.</translation>
+    </message>
+    <message>
+        <source>Write the reply first.</source>
+        <translation>E kākau mua i ka pane.</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>Nā manaʻo</translation>
+    </message>
+    <message>
+        <source>%n wait for moderation</source>
+        <translation>%n e kali ana i ka loiloi</translation>
+    </message>
+    <message>
+        <source>No comments on this page yet.</source>
+        <translation>ʻAʻohe manaʻo ma kēia ʻaoʻao i kēia manawa.</translation>
+    </message>
+    <message>
+        <source>Waiting for moderation</source>
+        <translation>E kali ana i ka loiloi</translation>
+    </message>
+    <message>
+        <source>Reply</source>
+        <translation>Pane</translation>
+    </message>
+    <message>
+        <source>Spam</source>
+        <translation>Leka ʻōpala</translation>
+    </message>
+    <message>
+        <source>Move "%name" to the trash as spam? It can be restored from the trash in the administration.</source>
+        <translation>E hoʻoneʻe iā "%name" i ka pahu ʻōpala ma ke ʻano he leka ʻōpala? Hiki ke hoʻihoʻi ʻia mai ka pahu ʻōpala ma ka hoʻokele.</translation>
+    </message>
+    <message>
+        <source>Spam ...</source>
+        <translation>Leka ʻōpala ...</translation>
+    </message>
+    <message>
+        <source>The comment is approved and shown on the page.</source>
+        <translation>Ua ʻae ʻia ka manaʻo a hōʻike ʻia ma ka ʻaoʻao.</translation>
+    </message>
+    <message>
+        <source>The comment is hidden.</source>
+        <translation>Ua hūnā ʻia ka manaʻo.</translation>
+    </message>
+    <message>
+        <source>The comment was moved to the trash as spam.</source>
+        <translation>Ua hoʻoneʻe ʻia ka manaʻo i ka pahu ʻōpala ma ke ʻano he leka ʻōpala.</translation>
+    </message>
+    <message>
+        <source>A workflow holds this change. Find it in the administration.</source>
+        <translation>Ke paʻa nei kekahi kaʻina hana i kēia hoʻololi. E ʻimi ma ka hoʻokele.</translation>
+    </message>
+    <message>
+        <source>Send the reply</source>
+        <translation>Hoʻouna i ka pane</translation>
+    </message>
+    <message>
+        <source>Write a comment</source>
+        <translation>Kākau i manaʻo</translation>
+    </message>
+    <message>
+        <source>Reply to "%name"</source>
+        <translation>Pane iā "%name"</translation>
+    </message>
+    <message>
+        <source>Comment on this page</source>
+        <translation>Hāʻawi manaʻo no kēia ʻaoʻao</translation>
+    </message>
+    <message>
+        <source>The reply is published on the page.</source>
+        <translation>Ua paʻi ʻia ka pane ma ka ʻaoʻao.</translation>
+    </message>
+    <message>
+        <source>The reply waits for its approval.</source>
+        <translation>Ke kali nei ka pane i kona ʻae ʻia.</translation>
+    </message>
+    <message>
+        <source>%n comments wait for moderation</source>
+        <translation>%n manaʻo e kali ana i ka loiloi</translation>
+    </message>
 </context>
 </TS>

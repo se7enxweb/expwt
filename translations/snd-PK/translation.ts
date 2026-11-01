@@ -1371,5 +1371,97 @@
         <source>Verify it's you</source>
         <translation>تصديق ڪريو ته اهو توهان آهيو</translation>
     </message>
+    <message>
+        <source>There are no comments here.</source>
+        <translation>هتي ڪو به تبصرو ناهي.</translation>
+    </message>
+    <message>
+        <source>This comment is not there any more, or you may not read it.</source>
+        <translation>هي تبصرو هاڻي ناهي، يا توهان کي ان کي پڙهڻ جي اجازت ناهي.</translation>
+    </message>
+    <message>
+        <source>There is no such decision.</source>
+        <translation>اهڙو ڪو فيصلو ناهي.</translation>
+    </message>
+    <message>
+        <source>Write the reply first.</source>
+        <translation>پهريان جواب لکو.</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>تبصرا</translation>
+    </message>
+    <message>
+        <source>%n wait for moderation</source>
+        <translation>%n نگراني جي انتظار ۾</translation>
+    </message>
+    <message>
+        <source>No comments on this page yet.</source>
+        <translation>هن صفحي تي اڃا ڪو تبصرو ناهي.</translation>
+    </message>
+    <message>
+        <source>Waiting for moderation</source>
+        <translation>نگراني جي انتظار ۾</translation>
+    </message>
+    <message>
+        <source>Reply</source>
+        <translation>جواب ڏيو</translation>
+    </message>
+    <message>
+        <source>Spam</source>
+        <translation>اسپام</translation>
+    </message>
+    <message>
+        <source>Move "%name" to the trash as spam? It can be restored from the trash in the administration.</source>
+        <translation>"%name" کي اسپام طور ڪچرادان ۾ موڪليو؟ انتظاميه ۾ ڪچرادان مان ان کي واپس آڻي سگهجي ٿو.</translation>
+    </message>
+    <message>
+        <source>Spam ...</source>
+        <translation>اسپام ...</translation>
+    </message>
+    <message>
+        <source>The comment is approved and shown on the page.</source>
+        <translation>تبصرو منظور ٿيو ۽ صفحي تي ڏيکاريو پيو وڃي.</translation>
+    </message>
+    <message>
+        <source>The comment is hidden.</source>
+        <translation>تبصرو لڪايو ويو.</translation>
+    </message>
+    <message>
+        <source>The comment was moved to the trash as spam.</source>
+        <translation>تبصرو اسپام طور ڪچرادان ۾ موڪليو ويو.</translation>
+    </message>
+    <message>
+        <source>A workflow holds this change. Find it in the administration.</source>
+        <translation>هڪ ورڪ فلو هن تبديلي کي روڪي رکيو آهي. انتظاميه ۾ ڳوليو.</translation>
+    </message>
+    <message>
+        <source>Send the reply</source>
+        <translation>جواب موڪليو</translation>
+    </message>
+    <message>
+        <source>Write a comment</source>
+        <translation>تبصرو لکو</translation>
+    </message>
+    <message>
+        <source>Reply to "%name"</source>
+        <translation>"%name" جو جواب</translation>
+    </message>
+    <message>
+        <source>Comment on this page</source>
+        <translation>هن صفحي تي تبصرو ڪريو</translation>
+    </message>
+    <message>
+        <source>The reply is published on the page.</source>
+        <translation>جواب صفحي تي شايع ٿيو.</translation>
+    </message>
+    <message>
+        <source>The reply waits for its approval.</source>
+        <translation>جواب منظوري جي انتظار ۾ آهي.</translation>
+    </message>
+    <message>
+        <source>%n comments wait for moderation</source>
+        <translation>%n تبصرا نگراني جي انتظار ۾</translation>
+    </message>
 </context>
 </TS>

@@ -1371,5 +1371,97 @@
         <source>Verify it's you</source>
         <translation>SoH Dabejqa'</translation>
     </message>
+    <message>
+        <source>There are no comments here.</source>
+        <translation>naDev bIngDaq QIn ghItlh tu'lu'be'.</translation>
+    </message>
+    <message>
+        <source>This comment is not there any more, or you may not read it.</source>
+        <translation>QIn ghItlh vam tu'lu'be' DaH, pagh 'oH DalaDlaH'a' net chaw'be'.</translation>
+    </message>
+    <message>
+        <source>There is no such decision.</source>
+        <translation>wuq rur tu'lu'be'.</translation>
+    </message>
+    <message>
+        <source>Write the reply first.</source>
+        <translation>wa'DIch jangmeH QIn yIghItlh.</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>QIn ghItlhmey</translation>
+    </message>
+    <message>
+        <source>%n wait for moderation</source>
+        <translation>%n loHwI' loS</translation>
+    </message>
+    <message>
+        <source>No comments on this page yet.</source>
+        <translation>naDev nav DaqDaq QIn ghItlh tu'lu'be' DaH.</translation>
+    </message>
+    <message>
+        <source>Waiting for moderation</source>
+        <translation>loHwI' loS</translation>
+    </message>
+    <message>
+        <source>Reply</source>
+        <translation>jang</translation>
+    </message>
+    <message>
+        <source>Spam</source>
+        <translation>QIn Qab</translation>
+    </message>
+    <message>
+        <source>Move "%name" to the trash as spam? It can be restored from the trash in the administration.</source>
+        <translation>"%name" veQDaq yIvIHmoH QIn Qab rur? loHwI' DaqDaq veQ vo' chegh 'oHlaH.</translation>
+    </message>
+    <message>
+        <source>Spam ...</source>
+        <translation>QIn Qab ...</translation>
+    </message>
+    <message>
+        <source>The comment is approved and shown on the page.</source>
+        <translation>QIn ghItlh chaw'lu' 'ej nav DaqDaq 'aghlu'.</translation>
+    </message>
+    <message>
+        <source>The comment is hidden.</source>
+        <translation>QIn ghItlh So'lu'.</translation>
+    </message>
+    <message>
+        <source>The comment was moved to the trash as spam.</source>
+        <translation>QIn ghItlh veQDaq vIHmoHlu' QIn Qab rur.</translation>
+    </message>
+    <message>
+        <source>A workflow holds this change. Find it in the administration.</source>
+        <translation>Qu' tlhegh choHmeH vam 'uch. loHwI' DaqDaq yInej.</translation>
+    </message>
+    <message>
+        <source>Send the reply</source>
+        <translation>jang yIngeH</translation>
+    </message>
+    <message>
+        <source>Write a comment</source>
+        <translation>QIn ghItlh yIghItlh</translation>
+    </message>
+    <message>
+        <source>Reply to "%name"</source>
+        <translation>"%name" jang</translation>
+    </message>
+    <message>
+        <source>Comment on this page</source>
+        <translation>nav vam QIn ghItlh yIghItlh</translation>
+    </message>
+    <message>
+        <source>The reply is published on the page.</source>
+        <translation>jang nav DaqDaq mughlu'.</translation>
+    </message>
+    <message>
+        <source>The reply waits for its approval.</source>
+        <translation>jang chaw' loS.</translation>
+    </message>
+    <message>
+        <source>%n comments wait for moderation</source>
+        <translation>%n QIn ghItlhmey loHwI' loS</translation>
+    </message>
 </context>
 </TS>

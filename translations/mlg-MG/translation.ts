@@ -1371,5 +1371,97 @@
         <source>Verify it's you</source>
         <translation>Hamarino fa ianao io</translation>
     </message>
+    <message>
+        <source>There are no comments here.</source>
+        <translation>Tsy misy hevitra eto.</translation>
+    </message>
+    <message>
+        <source>This comment is not there any more, or you may not read it.</source>
+        <translation>Tsy misy intsony ity hevitra ity, na tsy omena alalana hamaky azy ianao.</translation>
+    </message>
+    <message>
+        <source>There is no such decision.</source>
+        <translation>Tsy misy fanapahan-kevitra toy izany.</translation>
+    </message>
+    <message>
+        <source>Write the reply first.</source>
+        <translation>Soraty aloha ny valiny.</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>Hevitra</translation>
+    </message>
+    <message>
+        <source>%n wait for moderation</source>
+        <translation>%n miandry fanaraha-maso</translation>
+    </message>
+    <message>
+        <source>No comments on this page yet.</source>
+        <translation>Mbola tsy misy hevitra amin'ity pejy ity.</translation>
+    </message>
+    <message>
+        <source>Waiting for moderation</source>
+        <translation>Miandry fanaraha-maso</translation>
+    </message>
+    <message>
+        <source>Reply</source>
+        <translation>Valio</translation>
+    </message>
+    <message>
+        <source>Spam</source>
+        <translation>Spam</translation>
+    </message>
+    <message>
+        <source>Move "%name" to the trash as spam? It can be restored from the trash in the administration.</source>
+        <translation>Afindra any amin'ny fanariam-pako ho spam ve "%name"? Azo averina avy amin'ny fanariam-pako ao amin'ny fitantanana izy.</translation>
+    </message>
+    <message>
+        <source>Spam ...</source>
+        <translation>Spam ...</translation>
+    </message>
+    <message>
+        <source>The comment is approved and shown on the page.</source>
+        <translation>Nankatoavina ny hevitra ary aseho eo amin'ny pejy.</translation>
+    </message>
+    <message>
+        <source>The comment is hidden.</source>
+        <translation>Nafenina ny hevitra.</translation>
+    </message>
+    <message>
+        <source>The comment was moved to the trash as spam.</source>
+        <translation>Nafindra any amin'ny fanariam-pako ho spam ny hevitra.</translation>
+    </message>
+    <message>
+        <source>A workflow holds this change. Find it in the administration.</source>
+        <translation>Misy fizotran'asa mitazona ity fanovana ity. Tadiavo ao amin'ny fitantanana.</translation>
+    </message>
+    <message>
+        <source>Send the reply</source>
+        <translation>Alefaso ny valiny</translation>
+    </message>
+    <message>
+        <source>Write a comment</source>
+        <translation>Manorata hevitra</translation>
+    </message>
+    <message>
+        <source>Reply to "%name"</source>
+        <translation>Valiny ho an'i "%name"</translation>
+    </message>
+    <message>
+        <source>Comment on this page</source>
+        <translation>Maneho hevitra momba ity pejy ity</translation>
+    </message>
+    <message>
+        <source>The reply is published on the page.</source>
+        <translation>Navoaka teo amin'ny pejy ny valiny.</translation>
+    </message>
+    <message>
+        <source>The reply waits for its approval.</source>
+        <translation>Miandry ny fankatoavana azy ny valiny.</translation>
+    </message>
+    <message>
+        <source>%n comments wait for moderation</source>
+        <translation>Hevitra %n miandry fanaraha-maso</translation>
+    </message>
 </context>
 </TS>

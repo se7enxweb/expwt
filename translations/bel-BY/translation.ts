@@ -1371,5 +1371,97 @@
         <source>Verify it's you</source>
         <translation>Пацвердзіце, што гэта вы</translation>
     </message>
+    <message>
+        <source>There are no comments here.</source>
+        <translation>Тут няма каментарыяў.</translation>
+    </message>
+    <message>
+        <source>This comment is not there any more, or you may not read it.</source>
+        <translation>Гэтага каментарыя больш няма, або вам нельга яго чытаць.</translation>
+    </message>
+    <message>
+        <source>There is no such decision.</source>
+        <translation>Такога рашэння няма.</translation>
+    </message>
+    <message>
+        <source>Write the reply first.</source>
+        <translation>Спачатку напішыце адказ.</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>Каментарыі</translation>
+    </message>
+    <message>
+        <source>%n wait for moderation</source>
+        <translation>%n чакаюць мадэрацыі</translation>
+    </message>
+    <message>
+        <source>No comments on this page yet.</source>
+        <translation>На гэтай старонцы пакуль няма каментарыяў.</translation>
+    </message>
+    <message>
+        <source>Waiting for moderation</source>
+        <translation>Чакае мадэрацыі</translation>
+    </message>
+    <message>
+        <source>Reply</source>
+        <translation>Адказаць</translation>
+    </message>
+    <message>
+        <source>Spam</source>
+        <translation>Спам</translation>
+    </message>
+    <message>
+        <source>Move "%name" to the trash as spam? It can be restored from the trash in the administration.</source>
+        <translation>Перамясціць "%name" у сметніцу як спам? Яго можна аднавіць са сметніцы ў адміністраванні.</translation>
+    </message>
+    <message>
+        <source>Spam ...</source>
+        <translation>Спам ...</translation>
+    </message>
+    <message>
+        <source>The comment is approved and shown on the page.</source>
+        <translation>Каментарый адобраны і паказваецца на старонцы.</translation>
+    </message>
+    <message>
+        <source>The comment is hidden.</source>
+        <translation>Каментарый схаваны.</translation>
+    </message>
+    <message>
+        <source>The comment was moved to the trash as spam.</source>
+        <translation>Каментарый перамешчаны ў сметніцу як спам.</translation>
+    </message>
+    <message>
+        <source>A workflow holds this change. Find it in the administration.</source>
+        <translation>Працоўны працэс утрымлівае гэтую змену. Знайдзіце яе ў адміністраванні.</translation>
+    </message>
+    <message>
+        <source>Send the reply</source>
+        <translation>Адправіць адказ</translation>
+    </message>
+    <message>
+        <source>Write a comment</source>
+        <translation>Напісаць каментарый</translation>
+    </message>
+    <message>
+        <source>Reply to "%name"</source>
+        <translation>Адказ на "%name"</translation>
+    </message>
+    <message>
+        <source>Comment on this page</source>
+        <translation>Каментаваць гэтую старонку</translation>
+    </message>
+    <message>
+        <source>The reply is published on the page.</source>
+        <translation>Адказ апублікаваны на старонцы.</translation>
+    </message>
+    <message>
+        <source>The reply waits for its approval.</source>
+        <translation>Адказ чакае адабрэння.</translation>
+    </message>
+    <message>
+        <source>%n comments wait for moderation</source>
+        <translation>%n каментарыяў чакаюць мадэрацыі</translation>
+    </message>
 </context>
 </TS>

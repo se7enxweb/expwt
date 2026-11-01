@@ -1371,5 +1371,97 @@
         <source>Verify it's you</source>
         <translation>Fakapapauʻi ko koe</translation>
     </message>
+    <message>
+        <source>There are no comments here.</source>
+        <translation>ʻOku ʻikai ha fakamatala heni.</translation>
+    </message>
+    <message>
+        <source>This comment is not there any more, or you may not read it.</source>
+        <translation>ʻOku ʻikai toe ʻi ai ʻa e fakamatala ko ʻeni, pe ʻoku ʻikai ke ngofua ke ke lau ia.</translation>
+    </message>
+    <message>
+        <source>There is no such decision.</source>
+        <translation>ʻOku ʻikai ha tuʻutuʻuni pehē.</translation>
+    </message>
+    <message>
+        <source>Write the reply first.</source>
+        <translation>Tohi ʻuluaki ʻa e tali.</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>Ngaahi fakamatala</translation>
+    </message>
+    <message>
+        <source>%n wait for moderation</source>
+        <translation>%n ʻoku tatali ki he sivisivi</translation>
+    </message>
+    <message>
+        <source>No comments on this page yet.</source>
+        <translation>ʻOku teʻeki ha fakamatala ʻi he peesi ni.</translation>
+    </message>
+    <message>
+        <source>Waiting for moderation</source>
+        <translation>ʻOku tatali ki he sivisivi</translation>
+    </message>
+    <message>
+        <source>Reply</source>
+        <translation>Tali</translation>
+    </message>
+    <message>
+        <source>Spam</source>
+        <translation>Spam</translation>
+    </message>
+    <message>
+        <source>Move "%name" to the trash as spam? It can be restored from the trash in the administration.</source>
+        <translation>Hiki "%name" ki he veve ko e spam? ʻE lava ke toe fakafoki mei he veve ʻi he puleʻi.</translation>
+    </message>
+    <message>
+        <source>Spam ...</source>
+        <translation>Spam ...</translation>
+    </message>
+    <message>
+        <source>The comment is approved and shown on the page.</source>
+        <translation>Kuo fakangofua ʻa e fakamatala pea ʻoku fakahā ʻi he peesi.</translation>
+    </message>
+    <message>
+        <source>The comment is hidden.</source>
+        <translation>Kuo fufū ʻa e fakamatala.</translation>
+    </message>
+    <message>
+        <source>The comment was moved to the trash as spam.</source>
+        <translation>Kuo hiki ʻa e fakamatala ki he veve ko e spam.</translation>
+    </message>
+    <message>
+        <source>A workflow holds this change. Find it in the administration.</source>
+        <translation>ʻOku puke ʻe ha founga ngāue ʻa e liliu ni. Kumi ia ʻi he puleʻi.</translation>
+    </message>
+    <message>
+        <source>Send the reply</source>
+        <translation>Fekau ʻa e tali</translation>
+    </message>
+    <message>
+        <source>Write a comment</source>
+        <translation>Tohi ha fakamatala</translation>
+    </message>
+    <message>
+        <source>Reply to "%name"</source>
+        <translation>Tali kia "%name"</translation>
+    </message>
+    <message>
+        <source>Comment on this page</source>
+        <translation>Fai ha fakamatala ki he peesi ni</translation>
+    </message>
+    <message>
+        <source>The reply is published on the page.</source>
+        <translation>Kuo pulusi ʻa e tali ʻi he peesi.</translation>
+    </message>
+    <message>
+        <source>The reply waits for its approval.</source>
+        <translation>ʻOku tatali ʻa e tali ki hono fakangofua.</translation>
+    </message>
+    <message>
+        <source>%n comments wait for moderation</source>
+        <translation>%n fakamatala ʻoku tatali ki he sivisivi</translation>
+    </message>
 </context>
 </TS>

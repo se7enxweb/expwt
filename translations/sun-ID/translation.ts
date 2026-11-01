@@ -1371,5 +1371,97 @@
         <source>Verify it's you</source>
         <translation>Pastikeun yén ieu anjeun</translation>
     </message>
+    <message>
+        <source>There are no comments here.</source>
+        <translation>Teu aya koméntar di dieu.</translation>
+    </message>
+    <message>
+        <source>This comment is not there any more, or you may not read it.</source>
+        <translation>Koméntar ieu geus euweuh, atawa anjeun teu diidinan maca.</translation>
+    </message>
+    <message>
+        <source>There is no such decision.</source>
+        <translation>Teu aya kaputusan kitu.</translation>
+    </message>
+    <message>
+        <source>Write the reply first.</source>
+        <translation>Tulis heula walerna.</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>Koméntar</translation>
+    </message>
+    <message>
+        <source>%n wait for moderation</source>
+        <translation>%n ngantosan moderasi</translation>
+    </message>
+    <message>
+        <source>No comments on this page yet.</source>
+        <translation>Can aya koméntar dina kaca ieu.</translation>
+    </message>
+    <message>
+        <source>Waiting for moderation</source>
+        <translation>Ngantosan moderasi</translation>
+    </message>
+    <message>
+        <source>Reply</source>
+        <translation>Walér</translation>
+    </message>
+    <message>
+        <source>Spam</source>
+        <translation>Spam</translation>
+    </message>
+    <message>
+        <source>Move "%name" to the trash as spam? It can be restored from the trash in the administration.</source>
+        <translation>Pindahkeun "%name" ka tong runtah salaku spam? Bisa dibalikkeun tina tong runtah dina administrasi.</translation>
+    </message>
+    <message>
+        <source>Spam ...</source>
+        <translation>Spam ...</translation>
+    </message>
+    <message>
+        <source>The comment is approved and shown on the page.</source>
+        <translation>Koméntar disatujuan sarta dipintonkeun dina kaca.</translation>
+    </message>
+    <message>
+        <source>The comment is hidden.</source>
+        <translation>Koméntar disumputkeun.</translation>
+    </message>
+    <message>
+        <source>The comment was moved to the trash as spam.</source>
+        <translation>Koméntar dipindahkeun ka tong runtah salaku spam.</translation>
+    </message>
+    <message>
+        <source>A workflow holds this change. Find it in the administration.</source>
+        <translation>Hiji alur gawé nahan parobahan ieu. Panggihan dina administrasi.</translation>
+    </message>
+    <message>
+        <source>Send the reply</source>
+        <translation>Kirim walerna</translation>
+    </message>
+    <message>
+        <source>Write a comment</source>
+        <translation>Tulis koméntar</translation>
+    </message>
+    <message>
+        <source>Reply to "%name"</source>
+        <translation>Walér ka "%name"</translation>
+    </message>
+    <message>
+        <source>Comment on this page</source>
+        <translation>Koméntaran kaca ieu</translation>
+    </message>
+    <message>
+        <source>The reply is published on the page.</source>
+        <translation>Walerna geus dipedalkeun dina kaca.</translation>
+    </message>
+    <message>
+        <source>The reply waits for its approval.</source>
+        <translation>Walerna ngantosan persetujuan.</translation>
+    </message>
+    <message>
+        <source>%n comments wait for moderation</source>
+        <translation>%n koméntar ngantosan moderasi</translation>
+    </message>
 </context>
 </TS>

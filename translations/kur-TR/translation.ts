@@ -1371,5 +1371,97 @@
         <source>Verify it's you</source>
         <translation>Piştrast bike ku tu yî</translation>
     </message>
+    <message>
+        <source>There are no comments here.</source>
+        <translation>Li vir şîrove tune ne.</translation>
+    </message>
+    <message>
+        <source>This comment is not there any more, or you may not read it.</source>
+        <translation>Ev şîrove êdî tune ye, an jî destûra te tune ye ku tu wê bixwînî.</translation>
+    </message>
+    <message>
+        <source>There is no such decision.</source>
+        <translation>Biryareke wisa tune ye.</translation>
+    </message>
+    <message>
+        <source>Write the reply first.</source>
+        <translation>Pêşî bersivê binivîse.</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>Şîrove</translation>
+    </message>
+    <message>
+        <source>%n wait for moderation</source>
+        <translation>%n li benda kontrolê ne</translation>
+    </message>
+    <message>
+        <source>No comments on this page yet.</source>
+        <translation>Li ser vê rûpelê hîn şîrove tune ne.</translation>
+    </message>
+    <message>
+        <source>Waiting for moderation</source>
+        <translation>Li benda kontrolê ye</translation>
+    </message>
+    <message>
+        <source>Reply</source>
+        <translation>Bersiv bide</translation>
+    </message>
+    <message>
+        <source>Spam</source>
+        <translation>Spam</translation>
+    </message>
+    <message>
+        <source>Move "%name" to the trash as spam? It can be restored from the trash in the administration.</source>
+        <translation>"%name" wek spam bavêje çopê? Ew di rêveberiyê de ji çopê dikare were vegerandin.</translation>
+    </message>
+    <message>
+        <source>Spam ...</source>
+        <translation>Spam ...</translation>
+    </message>
+    <message>
+        <source>The comment is approved and shown on the page.</source>
+        <translation>Şîrove hate erêkirin û li ser rûpelê tê nîşandan.</translation>
+    </message>
+    <message>
+        <source>The comment is hidden.</source>
+        <translation>Şîrove hate veşartin.</translation>
+    </message>
+    <message>
+        <source>The comment was moved to the trash as spam.</source>
+        <translation>Şîrove wek spam hate avêtin çopê.</translation>
+    </message>
+    <message>
+        <source>A workflow holds this change. Find it in the administration.</source>
+        <translation>Herikîneke kar vê guhertinê digire. Wê di rêveberiyê de bibîne.</translation>
+    </message>
+    <message>
+        <source>Send the reply</source>
+        <translation>Bersivê bişîne</translation>
+    </message>
+    <message>
+        <source>Write a comment</source>
+        <translation>Şîroveyekê binivîse</translation>
+    </message>
+    <message>
+        <source>Reply to "%name"</source>
+        <translation>Bersiv ji "%name" re</translation>
+    </message>
+    <message>
+        <source>Comment on this page</source>
+        <translation>Li ser vê rûpelê şîrove bike</translation>
+    </message>
+    <message>
+        <source>The reply is published on the page.</source>
+        <translation>Bersiv li ser rûpelê hate weşandin.</translation>
+    </message>
+    <message>
+        <source>The reply waits for its approval.</source>
+        <translation>Bersiv li benda erêkirina xwe ye.</translation>
+    </message>
+    <message>
+        <source>%n comments wait for moderation</source>
+        <translation>%n şîrove li benda kontrolê ne</translation>
+    </message>
 </context>
 </TS>

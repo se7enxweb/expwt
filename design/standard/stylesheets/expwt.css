@@ -911,3 +911,11 @@ button.wt-seo-item:hover { border-color: var(--a4-accent); }
 .wt-nl-confirm { margin-block-start: var(--a4-space-2); padding: var(--a4-space-2); border: 1px solid var(--a4-bad-line); border-inline-start: 3px solid var(--a4-bad); border-radius: var(--a4-radius-s); background: var(--a4-card); }
 .wt-nl-confirm > p { margin-block: 0 var(--a4-space-2); }
 .wt-nl-confirm[hidden] { display: none; }
+
+/* the comments of the page (E4): each comment a block (its text wraps), a hidden one marked as waiting */
+.wt-comment-list > li.wt-comment { display: block; padding-block: var(--a4-space-2); }
+.wt-comment > p { margin-block: 0 var(--a4-space-1); overflow-wrap: break-word; min-inline-size: 0; }
+.wt-comment.is-hidden { border-inline-start: 3px solid var(--a4-warn); padding-inline-start: var(--a4-space-2); }
+.wt-comment-text { white-space: pre-wrap; }
+.wt-comment-reply { margin-block-start: var(--a4-space-2); }
+.wt-comment-reply textarea { inline-size: 100%; box-sizing: border-box; }

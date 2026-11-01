@@ -1371,5 +1371,97 @@
         <source>Verify it's you</source>
         <translation>Gwiriit ez eo c'hwi</translation>
     </message>
+    <message>
+        <source>There are no comments here.</source>
+        <translation>N'eus evezhiadenn ebet amañ.</translation>
+    </message>
+    <message>
+        <source>This comment is not there any more, or you may not read it.</source>
+        <translation>N'emañ ket mui an evezhiadenn-mañ, pe n'hoc'h eus ket an aotre d'he lenn.</translation>
+    </message>
+    <message>
+        <source>There is no such decision.</source>
+        <translation>N'eus ket eus un hevelep diviz.</translation>
+    </message>
+    <message>
+        <source>Write the reply first.</source>
+        <translation>Skrivit ar respont da gentañ.</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>Evezhiadennoù</translation>
+    </message>
+    <message>
+        <source>%n wait for moderation</source>
+        <translation>%n o c'hortoz ar c'hontroll</translation>
+    </message>
+    <message>
+        <source>No comments on this page yet.</source>
+        <translation>N'eus evezhiadenn ebet war ar bajenn-mañ c'hoazh.</translation>
+    </message>
+    <message>
+        <source>Waiting for moderation</source>
+        <translation>O c'hortoz ar c'hontroll</translation>
+    </message>
+    <message>
+        <source>Reply</source>
+        <translation>Respont</translation>
+    </message>
+    <message>
+        <source>Spam</source>
+        <translation>Strobell</translation>
+    </message>
+    <message>
+        <source>Move "%name" to the trash as spam? It can be restored from the trash in the administration.</source>
+        <translation>Dilec'hiañ "%name" er voubellenn evel strobell? Gallout a ra bezañ adsavet eus ar voubellenn er merañ.</translation>
+    </message>
+    <message>
+        <source>Spam ...</source>
+        <translation>Strobell ...</translation>
+    </message>
+    <message>
+        <source>The comment is approved and shown on the page.</source>
+        <translation>Aprouet eo an evezhiadenn hag diskouezet war ar bajenn.</translation>
+    </message>
+    <message>
+        <source>The comment is hidden.</source>
+        <translation>Kuzhet eo an evezhiadenn.</translation>
+    </message>
+    <message>
+        <source>The comment was moved to the trash as spam.</source>
+        <translation>Dilec'hiet eo bet an evezhiadenn er voubellenn evel strobell.</translation>
+    </message>
+    <message>
+        <source>A workflow holds this change. Find it in the administration.</source>
+        <translation>Ul lanv-labour a zalc'h ar c'hemm-mañ. Kavit anezhañ er merañ.</translation>
+    </message>
+    <message>
+        <source>Send the reply</source>
+        <translation>Kas ar respont</translation>
+    </message>
+    <message>
+        <source>Write a comment</source>
+        <translation>Skrivañ un evezhiadenn</translation>
+    </message>
+    <message>
+        <source>Reply to "%name"</source>
+        <translation>Respont da "%name"</translation>
+    </message>
+    <message>
+        <source>Comment on this page</source>
+        <translation>Ober un evezhiadenn war ar bajenn-mañ</translation>
+    </message>
+    <message>
+        <source>The reply is published on the page.</source>
+        <translation>Embannet eo ar respont war ar bajenn.</translation>
+    </message>
+    <message>
+        <source>The reply waits for its approval.</source>
+        <translation>Ar respont a c'hortoz e aprouadur.</translation>
+    </message>
+    <message>
+        <source>%n comments wait for moderation</source>
+        <translation>%n evezhiadenn o c'hortoz ar c'hontroll</translation>
+    </message>
 </context>
 </TS>

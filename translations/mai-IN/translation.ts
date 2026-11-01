@@ -1371,5 +1371,97 @@
         <source>Verify it's you</source>
         <translation>पुष्टि करू जे ई अहीं छी</translation>
     </message>
+    <message>
+        <source>There are no comments here.</source>
+        <translation>एतय कोनो टिप्पणी नहि अछि।</translation>
+    </message>
+    <message>
+        <source>This comment is not there any more, or you may not read it.</source>
+        <translation>ई टिप्पणी आब नहि अछि, वा अहाँकेँ एकरा पढ़बाक अनुमति नहि अछि।</translation>
+    </message>
+    <message>
+        <source>There is no such decision.</source>
+        <translation>एहन कोनो निर्णय नहि अछि।</translation>
+    </message>
+    <message>
+        <source>Write the reply first.</source>
+        <translation>पहिने उत्तर लिखू।</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>टिप्पणी</translation>
+    </message>
+    <message>
+        <source>%n wait for moderation</source>
+        <translation>%n मॉडरेशनक प्रतीक्षामे</translation>
+    </message>
+    <message>
+        <source>No comments on this page yet.</source>
+        <translation>एहि पन्ना पर एखन धरि कोनो टिप्पणी नहि अछि।</translation>
+    </message>
+    <message>
+        <source>Waiting for moderation</source>
+        <translation>मॉडरेशनक प्रतीक्षामे</translation>
+    </message>
+    <message>
+        <source>Reply</source>
+        <translation>उत्तर दिअ</translation>
+    </message>
+    <message>
+        <source>Spam</source>
+        <translation>स्पैम</translation>
+    </message>
+    <message>
+        <source>Move "%name" to the trash as spam? It can be restored from the trash in the administration.</source>
+        <translation>"%name" केँ स्पैम मानि रद्दीटोकरीमे पठाउ? प्रशासनमे रद्दीटोकरीसँ एकरा वापस आनल जा सकैत अछि।</translation>
+    </message>
+    <message>
+        <source>Spam ...</source>
+        <translation>स्पैम ...</translation>
+    </message>
+    <message>
+        <source>The comment is approved and shown on the page.</source>
+        <translation>टिप्पणी स्वीकृत भेल आ पन्ना पर देखाओल जा रहल अछि।</translation>
+    </message>
+    <message>
+        <source>The comment is hidden.</source>
+        <translation>टिप्पणी नुका देल गेल।</translation>
+    </message>
+    <message>
+        <source>The comment was moved to the trash as spam.</source>
+        <translation>टिप्पणी स्पैम मानि रद्दीटोकरीमे पठाओल गेल।</translation>
+    </message>
+    <message>
+        <source>A workflow holds this change. Find it in the administration.</source>
+        <translation>एकटा वर्कफ़्लो एहि बदलावकेँ रोकने अछि। प्रशासनमे ताकू।</translation>
+    </message>
+    <message>
+        <source>Send the reply</source>
+        <translation>उत्तर पठाउ</translation>
+    </message>
+    <message>
+        <source>Write a comment</source>
+        <translation>टिप्पणी लिखू</translation>
+    </message>
+    <message>
+        <source>Reply to "%name"</source>
+        <translation>"%name" क उत्तर</translation>
+    </message>
+    <message>
+        <source>Comment on this page</source>
+        <translation>एहि पन्ना पर टिप्पणी करू</translation>
+    </message>
+    <message>
+        <source>The reply is published on the page.</source>
+        <translation>उत्तर पन्ना पर प्रकाशित भेल।</translation>
+    </message>
+    <message>
+        <source>The reply waits for its approval.</source>
+        <translation>उत्तर स्वीकृतिक प्रतीक्षामे अछि।</translation>
+    </message>
+    <message>
+        <source>%n comments wait for moderation</source>
+        <translation>%n टिप्पणी मॉडरेशनक प्रतीक्षामे</translation>
+    </message>
 </context>
 </TS>

@@ -1371,5 +1371,97 @@
         <source>Verify it's you</source>
         <translation>Apstipriniet, ka tas esat jūs</translation>
     </message>
+    <message>
+        <source>There are no comments here.</source>
+        <translation>Šeit nav komentāru.</translation>
+    </message>
+    <message>
+        <source>This comment is not there any more, or you may not read it.</source>
+        <translation>Šī komentāra vairs nav, vai jums nav atļauts to lasīt.</translation>
+    </message>
+    <message>
+        <source>There is no such decision.</source>
+        <translation>Šāda lēmuma nav.</translation>
+    </message>
+    <message>
+        <source>Write the reply first.</source>
+        <translation>Vispirms uzrakstiet atbildi.</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>Komentāri</translation>
+    </message>
+    <message>
+        <source>%n wait for moderation</source>
+        <translation>%n gaida moderāciju</translation>
+    </message>
+    <message>
+        <source>No comments on this page yet.</source>
+        <translation>Šajā lapā vēl nav komentāru.</translation>
+    </message>
+    <message>
+        <source>Waiting for moderation</source>
+        <translation>Gaida moderāciju</translation>
+    </message>
+    <message>
+        <source>Reply</source>
+        <translation>Atbildēt</translation>
+    </message>
+    <message>
+        <source>Spam</source>
+        <translation>Mēstule</translation>
+    </message>
+    <message>
+        <source>Move "%name" to the trash as spam? It can be restored from the trash in the administration.</source>
+        <translation>Pārvietot "%name" uz atkritni kā mēstuli? To var atjaunot no atkritnes administrācijā.</translation>
+    </message>
+    <message>
+        <source>Spam ...</source>
+        <translation>Mēstule ...</translation>
+    </message>
+    <message>
+        <source>The comment is approved and shown on the page.</source>
+        <translation>Komentārs ir apstiprināts un tiek rādīts lapā.</translation>
+    </message>
+    <message>
+        <source>The comment is hidden.</source>
+        <translation>Komentārs ir paslēpts.</translation>
+    </message>
+    <message>
+        <source>The comment was moved to the trash as spam.</source>
+        <translation>Komentārs tika pārvietots uz atkritni kā mēstule.</translation>
+    </message>
+    <message>
+        <source>A workflow holds this change. Find it in the administration.</source>
+        <translation>Darbplūsma aiztur šīs izmaiņas. Atrodiet tās administrācijā.</translation>
+    </message>
+    <message>
+        <source>Send the reply</source>
+        <translation>Sūtīt atbildi</translation>
+    </message>
+    <message>
+        <source>Write a comment</source>
+        <translation>Rakstīt komentāru</translation>
+    </message>
+    <message>
+        <source>Reply to "%name"</source>
+        <translation>Atbilde uz "%name"</translation>
+    </message>
+    <message>
+        <source>Comment on this page</source>
+        <translation>Komentēt šo lapu</translation>
+    </message>
+    <message>
+        <source>The reply is published on the page.</source>
+        <translation>Atbilde ir publicēta lapā.</translation>
+    </message>
+    <message>
+        <source>The reply waits for its approval.</source>
+        <translation>Atbilde gaida apstiprinājumu.</translation>
+    </message>
+    <message>
+        <source>%n comments wait for moderation</source>
+        <translation>%n komentāri gaida moderāciju</translation>
+    </message>
 </context>
 </TS>

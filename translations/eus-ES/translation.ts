@@ -1371,5 +1371,97 @@
         <source>Verify it's you</source>
         <translation>Egiaztatu zu zarela</translation>
     </message>
+    <message>
+        <source>There are no comments here.</source>
+        <translation>Hemen ez dago iruzkinik.</translation>
+    </message>
+    <message>
+        <source>This comment is not there any more, or you may not read it.</source>
+        <translation>Iruzkin hau ez dago jada, edo ezin duzu irakurri.</translation>
+    </message>
+    <message>
+        <source>There is no such decision.</source>
+        <translation>Ez dago horrelako erabakirik.</translation>
+    </message>
+    <message>
+        <source>Write the reply first.</source>
+        <translation>Idatzi lehenik erantzuna.</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>Iruzkinak</translation>
+    </message>
+    <message>
+        <source>%n wait for moderation</source>
+        <translation>%n moderazioaren zain</translation>
+    </message>
+    <message>
+        <source>No comments on this page yet.</source>
+        <translation>Orri honetan ez dago iruzkinik oraindik.</translation>
+    </message>
+    <message>
+        <source>Waiting for moderation</source>
+        <translation>Moderazioaren zain</translation>
+    </message>
+    <message>
+        <source>Reply</source>
+        <translation>Erantzun</translation>
+    </message>
+    <message>
+        <source>Spam</source>
+        <translation>Spama</translation>
+    </message>
+    <message>
+        <source>Move "%name" to the trash as spam? It can be restored from the trash in the administration.</source>
+        <translation>"%name" zakarrontzira bota spam gisa? Administrazioan zakarrontzitik berreskura daiteke.</translation>
+    </message>
+    <message>
+        <source>Spam ...</source>
+        <translation>Spama ...</translation>
+    </message>
+    <message>
+        <source>The comment is approved and shown on the page.</source>
+        <translation>Iruzkina onartu da eta orrian erakusten da.</translation>
+    </message>
+    <message>
+        <source>The comment is hidden.</source>
+        <translation>Iruzkina ezkutatu da.</translation>
+    </message>
+    <message>
+        <source>The comment was moved to the trash as spam.</source>
+        <translation>Iruzkina zakarrontzira bota da spam gisa.</translation>
+    </message>
+    <message>
+        <source>A workflow holds this change. Find it in the administration.</source>
+        <translation>Lan-fluxu batek aldaketa hau atxikitzen du. Aurkitu administrazioan.</translation>
+    </message>
+    <message>
+        <source>Send the reply</source>
+        <translation>Bidali erantzuna</translation>
+    </message>
+    <message>
+        <source>Write a comment</source>
+        <translation>Idatzi iruzkin bat</translation>
+    </message>
+    <message>
+        <source>Reply to "%name"</source>
+        <translation>"%name"-(r)i erantzuna</translation>
+    </message>
+    <message>
+        <source>Comment on this page</source>
+        <translation>Egin iruzkina orri honi buruz</translation>
+    </message>
+    <message>
+        <source>The reply is published on the page.</source>
+        <translation>Erantzuna orrian argitaratu da.</translation>
+    </message>
+    <message>
+        <source>The reply waits for its approval.</source>
+        <translation>Erantzuna onarpenaren zain dago.</translation>
+    </message>
+    <message>
+        <source>%n comments wait for moderation</source>
+        <translation>%n iruzkin moderazioaren zain</translation>
+    </message>
 </context>
 </TS>

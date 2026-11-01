@@ -1371,5 +1371,97 @@
         <source>Verify it's you</source>
         <translation>ଏହା ଆପଣ ବୋଲି ନିଶ୍ଚିତ କରନ୍ତୁ</translation>
     </message>
+    <message>
+        <source>There are no comments here.</source>
+        <translation>ଏଠାରେ କୌଣସି ମନ୍ତବ୍ୟ ନାହିଁ।</translation>
+    </message>
+    <message>
+        <source>This comment is not there any more, or you may not read it.</source>
+        <translation>ଏହି ମନ୍ତବ୍ୟ ଆଉ ନାହିଁ, କିମ୍ବା ଆପଣଙ୍କୁ ଏହାକୁ ପଢ଼ିବାର ଅନୁମତି ନାହିଁ।</translation>
+    </message>
+    <message>
+        <source>There is no such decision.</source>
+        <translation>ଏପରି କୌଣସି ନିଷ୍ପତ୍ତି ନାହିଁ।</translation>
+    </message>
+    <message>
+        <source>Write the reply first.</source>
+        <translation>ପ୍ରଥମେ ଉତ୍ତର ଲେଖନ୍ତୁ।</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>ମନ୍ତବ୍ୟ</translation>
+    </message>
+    <message>
+        <source>%n wait for moderation</source>
+        <translation>%n ମଡରେସନ ପାଇଁ ଅପେକ୍ଷାରେ</translation>
+    </message>
+    <message>
+        <source>No comments on this page yet.</source>
+        <translation>ଏହି ପୃଷ୍ଠାରେ ଏପର୍ଯ୍ୟନ୍ତ କୌଣସି ମନ୍ତବ୍ୟ ନାହିଁ।</translation>
+    </message>
+    <message>
+        <source>Waiting for moderation</source>
+        <translation>ମଡରେସନ ପାଇଁ ଅପେକ୍ଷାରେ</translation>
+    </message>
+    <message>
+        <source>Reply</source>
+        <translation>ଉତ୍ତର ଦିଅନ୍ତୁ</translation>
+    </message>
+    <message>
+        <source>Spam</source>
+        <translation>ସ୍ପାମ</translation>
+    </message>
+    <message>
+        <source>Move "%name" to the trash as spam? It can be restored from the trash in the administration.</source>
+        <translation>"%name" କୁ ସ୍ପାମ ଭାବେ ଆବର୍ଜନାକୁ ଘୁଞ୍ଚାଇବେ କି? ପ୍ରଶାସନରେ ଆବର୍ଜନାରୁ ଏହାକୁ ପୁନଃସ୍ଥାପନ କରାଯାଇପାରିବ।</translation>
+    </message>
+    <message>
+        <source>Spam ...</source>
+        <translation>ସ୍ପାମ ...</translation>
+    </message>
+    <message>
+        <source>The comment is approved and shown on the page.</source>
+        <translation>ମନ୍ତବ୍ୟ ଅନୁମୋଦିତ ହେଲା ଏବଂ ପୃଷ୍ଠାରେ ଦେଖାଯାଉଛି।</translation>
+    </message>
+    <message>
+        <source>The comment is hidden.</source>
+        <translation>ମନ୍ତବ୍ୟ ଲୁଚାଯାଇଛି।</translation>
+    </message>
+    <message>
+        <source>The comment was moved to the trash as spam.</source>
+        <translation>ମନ୍ତବ୍ୟ ସ୍ପାମ ଭାବେ ଆବର୍ଜନାକୁ ଘୁଞ୍ଚାଯାଇଛି।</translation>
+    </message>
+    <message>
+        <source>A workflow holds this change. Find it in the administration.</source>
+        <translation>ଏକ କାର୍ଯ୍ୟପ୍ରବାହ ଏହି ପରିବର୍ତ୍ତନକୁ ଅଟକାଇ ରଖିଛି। ପ୍ରଶାସନରେ ଖୋଜନ୍ତୁ।</translation>
+    </message>
+    <message>
+        <source>Send the reply</source>
+        <translation>ଉତ୍ତର ପଠାନ୍ତୁ</translation>
+    </message>
+    <message>
+        <source>Write a comment</source>
+        <translation>ମନ୍ତବ୍ୟ ଲେଖନ୍ତୁ</translation>
+    </message>
+    <message>
+        <source>Reply to "%name"</source>
+        <translation>"%name" ପାଇଁ ଉତ୍ତର</translation>
+    </message>
+    <message>
+        <source>Comment on this page</source>
+        <translation>ଏହି ପୃଷ୍ଠାରେ ମନ୍ତବ୍ୟ ଦିଅନ୍ତୁ</translation>
+    </message>
+    <message>
+        <source>The reply is published on the page.</source>
+        <translation>ଉତ୍ତର ପୃଷ୍ଠାରେ ପ୍ରକାଶିତ ହେଲା।</translation>
+    </message>
+    <message>
+        <source>The reply waits for its approval.</source>
+        <translation>ଉତ୍ତର ଅନୁମୋଦନ ପାଇଁ ଅପେକ୍ଷାରେ ଅଛି।</translation>
+    </message>
+    <message>
+        <source>%n comments wait for moderation</source>
+        <translation>%n ମନ୍ତବ୍ୟ ମଡରେସନ ପାଇଁ ଅପେକ୍ଷାରେ</translation>
+    </message>
 </context>
 </TS>

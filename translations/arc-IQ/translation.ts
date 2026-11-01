@@ -1371,5 +1371,97 @@
         <source>Verify it's you</source>
         <translation>שרר דאנת הו</translation>
     </message>
+    <message>
+        <source>There are no comments here.</source>
+        <translation>לית פוקדנא הכא.</translation>
+    </message>
+    <message>
+        <source>This comment is not there any more, or you may not read it.</source>
+        <translation>פוקדנא הנא לא איתוהי תוב, או לא שליט לך למקרא לה.</translation>
+    </message>
+    <message>
+        <source>There is no such decision.</source>
+        <translation>לית פסקא כדא.</translation>
+    </message>
+    <message>
+        <source>Write the reply first.</source>
+        <translation>כתוב פתגמא קדמית.</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>פוקדנא</translation>
+    </message>
+    <message>
+        <source>%n wait for moderation</source>
+        <translation>%n מסכין לבחנא</translation>
+    </message>
+    <message>
+        <source>No comments on this page yet.</source>
+        <translation>לית עדכיל פוקדנא על פאתא הדא.</translation>
+    </message>
+    <message>
+        <source>Waiting for moderation</source>
+        <translation>מסכא לבחנא</translation>
+    </message>
+    <message>
+        <source>Reply</source>
+        <translation>פתגם</translation>
+    </message>
+    <message>
+        <source>Spam</source>
+        <translation>רוקא</translation>
+    </message>
+    <message>
+        <source>Move "%name" to the trash as spam? It can be restored from the trash in the administration.</source>
+        <translation>לשנאה "%name" למזבלתא כרוקא? מצי מתהפך מן מזבלתא במדברנותא.</translation>
+    </message>
+    <message>
+        <source>Spam ...</source>
+        <translation>רוקא ...</translation>
+    </message>
+    <message>
+        <source>The comment is approved and shown on the page.</source>
+        <translation>פוקדנא אשתרר ומתחזיא על פאתא.</translation>
+    </message>
+    <message>
+        <source>The comment is hidden.</source>
+        <translation>פוקדנא אטשי.</translation>
+    </message>
+    <message>
+        <source>The comment was moved to the trash as spam.</source>
+        <translation>פוקדנא אשתני למזבלתא כרוקא.</translation>
+    </message>
+    <message>
+        <source>A workflow holds this change. Find it in the administration.</source>
+        <translation>שבילא דעבדא אחיד שוחלפא הנא. אשכחה במדברנותא.</translation>
+    </message>
+    <message>
+        <source>Send the reply</source>
+        <translation>שדר פתגמא</translation>
+    </message>
+    <message>
+        <source>Write a comment</source>
+        <translation>כתוב פוקדנא</translation>
+    </message>
+    <message>
+        <source>Reply to "%name"</source>
+        <translation>פתגם ל"%name"</translation>
+    </message>
+    <message>
+        <source>Comment on this page</source>
+        <translation>פקד על פאתא הדא</translation>
+    </message>
+    <message>
+        <source>The reply is published on the page.</source>
+        <translation>פתגמא אתפרסם על פאתא.</translation>
+    </message>
+    <message>
+        <source>The reply waits for its approval.</source>
+        <translation>פתגמא מסכא לשוררה.</translation>
+    </message>
+    <message>
+        <source>%n comments wait for moderation</source>
+        <translation>%n פוקדנא מסכין לבחנא</translation>
+    </message>
 </context>
 </TS>

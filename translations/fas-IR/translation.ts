@@ -1371,5 +1371,97 @@
         <source>Verify it's you</source>
         <translation>تأیید کنید که خودتان هستید</translation>
     </message>
+    <message>
+        <source>There are no comments here.</source>
+        <translation>اینجا هیچ نظری نیست.</translation>
+    </message>
+    <message>
+        <source>This comment is not there any more, or you may not read it.</source>
+        <translation>این نظر دیگر وجود ندارد، یا اجازهٔ خواندن آن را ندارید.</translation>
+    </message>
+    <message>
+        <source>There is no such decision.</source>
+        <translation>چنین تصمیمی وجود ندارد.</translation>
+    </message>
+    <message>
+        <source>Write the reply first.</source>
+        <translation>ابتدا پاسخ را بنویسید.</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>نظرها</translation>
+    </message>
+    <message>
+        <source>%n wait for moderation</source>
+        <translation>%n در انتظار بررسی</translation>
+    </message>
+    <message>
+        <source>No comments on this page yet.</source>
+        <translation>هنوز نظری در این صفحه نیست.</translation>
+    </message>
+    <message>
+        <source>Waiting for moderation</source>
+        <translation>در انتظار بررسی</translation>
+    </message>
+    <message>
+        <source>Reply</source>
+        <translation>پاسخ</translation>
+    </message>
+    <message>
+        <source>Spam</source>
+        <translation>هرزنامه</translation>
+    </message>
+    <message>
+        <source>Move "%name" to the trash as spam? It can be restored from the trash in the administration.</source>
+        <translation>"%name" به‌عنوان هرزنامه به سطل زباله منتقل شود؟ می‌توان آن را در مدیریت از سطل زباله بازیابی کرد.</translation>
+    </message>
+    <message>
+        <source>Spam ...</source>
+        <translation>هرزنامه ...</translation>
+    </message>
+    <message>
+        <source>The comment is approved and shown on the page.</source>
+        <translation>نظر تأیید شد و در صفحه نمایش داده می‌شود.</translation>
+    </message>
+    <message>
+        <source>The comment is hidden.</source>
+        <translation>نظر پنهان شد.</translation>
+    </message>
+    <message>
+        <source>The comment was moved to the trash as spam.</source>
+        <translation>نظر به‌عنوان هرزنامه به سطل زباله منتقل شد.</translation>
+    </message>
+    <message>
+        <source>A workflow holds this change. Find it in the administration.</source>
+        <translation>یک گردش کار این تغییر را نگه داشته است. آن را در مدیریت بیابید.</translation>
+    </message>
+    <message>
+        <source>Send the reply</source>
+        <translation>ارسال پاسخ</translation>
+    </message>
+    <message>
+        <source>Write a comment</source>
+        <translation>نوشتن نظر</translation>
+    </message>
+    <message>
+        <source>Reply to "%name"</source>
+        <translation>پاسخ به "%name"</translation>
+    </message>
+    <message>
+        <source>Comment on this page</source>
+        <translation>نظر دادن دربارهٔ این صفحه</translation>
+    </message>
+    <message>
+        <source>The reply is published on the page.</source>
+        <translation>پاسخ در صفحه منتشر شد.</translation>
+    </message>
+    <message>
+        <source>The reply waits for its approval.</source>
+        <translation>پاسخ در انتظار تأیید است.</translation>
+    </message>
+    <message>
+        <source>%n comments wait for moderation</source>
+        <translation>%n نظر در انتظار بررسی</translation>
+    </message>
 </context>
 </TS>

@@ -1371,5 +1371,97 @@
         <source>Verify it's you</source>
         <translation>Siziň özüňizdigini tassyklaň</translation>
     </message>
+    <message>
+        <source>There are no comments here.</source>
+        <translation>Bu ýerde teswir ýok.</translation>
+    </message>
+    <message>
+        <source>This comment is not there any more, or you may not read it.</source>
+        <translation>Bu teswir indi ýok, ýa-da ony okamaga rugsadyňyz ýok.</translation>
+    </message>
+    <message>
+        <source>There is no such decision.</source>
+        <translation>Şeýle karar ýok.</translation>
+    </message>
+    <message>
+        <source>Write the reply first.</source>
+        <translation>Ilki jogaby ýazyň.</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>Teswirler</translation>
+    </message>
+    <message>
+        <source>%n wait for moderation</source>
+        <translation>%n moderasiýa garaşýar</translation>
+    </message>
+    <message>
+        <source>No comments on this page yet.</source>
+        <translation>Bu sahypada entek teswir ýok.</translation>
+    </message>
+    <message>
+        <source>Waiting for moderation</source>
+        <translation>Moderasiýa garaşýar</translation>
+    </message>
+    <message>
+        <source>Reply</source>
+        <translation>Jogap ber</translation>
+    </message>
+    <message>
+        <source>Spam</source>
+        <translation>Spam</translation>
+    </message>
+    <message>
+        <source>Move "%name" to the trash as spam? It can be restored from the trash in the administration.</source>
+        <translation>"%name" spam hökmünde zibil sebedine geçirilsinmi? Ony dolandyryşda zibil sebedinden dikeldip bolýar.</translation>
+    </message>
+    <message>
+        <source>Spam ...</source>
+        <translation>Spam ...</translation>
+    </message>
+    <message>
+        <source>The comment is approved and shown on the page.</source>
+        <translation>Teswir tassyklandy we sahypada görkezilýär.</translation>
+    </message>
+    <message>
+        <source>The comment is hidden.</source>
+        <translation>Teswir gizlendi.</translation>
+    </message>
+    <message>
+        <source>The comment was moved to the trash as spam.</source>
+        <translation>Teswir spam hökmünde zibil sebedine geçirildi.</translation>
+    </message>
+    <message>
+        <source>A workflow holds this change. Find it in the administration.</source>
+        <translation>Bir iş akymy bu üýtgeşmäni saklaýar. Ony dolandyryşdan tapyň.</translation>
+    </message>
+    <message>
+        <source>Send the reply</source>
+        <translation>Jogaby iber</translation>
+    </message>
+    <message>
+        <source>Write a comment</source>
+        <translation>Teswir ýaz</translation>
+    </message>
+    <message>
+        <source>Reply to "%name"</source>
+        <translation>"%name" teswirine jogap</translation>
+    </message>
+    <message>
+        <source>Comment on this page</source>
+        <translation>Bu sahypa teswir ýaz</translation>
+    </message>
+    <message>
+        <source>The reply is published on the page.</source>
+        <translation>Jogap sahypada çap edildi.</translation>
+    </message>
+    <message>
+        <source>The reply waits for its approval.</source>
+        <translation>Jogap tassyklanmaga garaşýar.</translation>
+    </message>
+    <message>
+        <source>%n comments wait for moderation</source>
+        <translation>%n teswir moderasiýa garaşýar</translation>
+    </message>
 </context>
 </TS>

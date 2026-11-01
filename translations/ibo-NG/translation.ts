@@ -1371,5 +1371,97 @@
         <source>Verify it's you</source>
         <translation>Gosi na ọ bụ gị</translation>
     </message>
+    <message>
+        <source>There are no comments here.</source>
+        <translation>Enweghị nkọwa ebe a.</translation>
+    </message>
+    <message>
+        <source>This comment is not there any more, or you may not read it.</source>
+        <translation>Nkọwa a adịghị ọzọ, ma ọ bụ enweghị ikike ịgụ ya.</translation>
+    </message>
+    <message>
+        <source>There is no such decision.</source>
+        <translation>Enweghị mkpebi dị otu ahụ.</translation>
+    </message>
+    <message>
+        <source>Write the reply first.</source>
+        <translation>Dee azịza ahụ mbụ.</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>Nkọwa</translation>
+    </message>
+    <message>
+        <source>%n wait for moderation</source>
+        <translation>%n na-eche nlekọta</translation>
+    </message>
+    <message>
+        <source>No comments on this page yet.</source>
+        <translation>Enweghị nkọwa na ibe a ka.</translation>
+    </message>
+    <message>
+        <source>Waiting for moderation</source>
+        <translation>Na-eche nlekọta</translation>
+    </message>
+    <message>
+        <source>Reply</source>
+        <translation>Zaa</translation>
+    </message>
+    <message>
+        <source>Spam</source>
+        <translation>Spam</translation>
+    </message>
+    <message>
+        <source>Move "%name" to the trash as spam? It can be restored from the trash in the administration.</source>
+        <translation>Kpugharịa "%name" gaa na mkpọkọta ahịhịa dị ka spam? Enwere ike iweghachi ya site na mkpọkọta ahịhịa na nchịkwa.</translation>
+    </message>
+    <message>
+        <source>Spam ...</source>
+        <translation>Spam ...</translation>
+    </message>
+    <message>
+        <source>The comment is approved and shown on the page.</source>
+        <translation>Akwadola nkọwa ahụ ma na-egosi ya na ibe ahụ.</translation>
+    </message>
+    <message>
+        <source>The comment is hidden.</source>
+        <translation>Ezoola nkọwa ahụ.</translation>
+    </message>
+    <message>
+        <source>The comment was moved to the trash as spam.</source>
+        <translation>Ebugara nkọwa ahụ na mkpọkọta ahịhịa dị ka spam.</translation>
+    </message>
+    <message>
+        <source>A workflow holds this change. Find it in the administration.</source>
+        <translation>Usoro ọrụ na-ejide mgbanwe a. Chọta ya na nchịkwa.</translation>
+    </message>
+    <message>
+        <source>Send the reply</source>
+        <translation>Zipu azịza ahụ</translation>
+    </message>
+    <message>
+        <source>Write a comment</source>
+        <translation>Dee nkọwa</translation>
+    </message>
+    <message>
+        <source>Reply to "%name"</source>
+        <translation>Azịza nye "%name"</translation>
+    </message>
+    <message>
+        <source>Comment on this page</source>
+        <translation>Kọwaa ibe a</translation>
+    </message>
+    <message>
+        <source>The reply is published on the page.</source>
+        <translation>Ebipụtala azịza ahụ na ibe ahụ.</translation>
+    </message>
+    <message>
+        <source>The reply waits for its approval.</source>
+        <translation>Azịza ahụ na-eche nkwado ya.</translation>
+    </message>
+    <message>
+        <source>%n comments wait for moderation</source>
+        <translation>Nkọwa %n na-eche nlekọta</translation>
+    </message>
 </context>
 </TS>

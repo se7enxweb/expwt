@@ -1371,5 +1371,97 @@
         <source>Verify it's you</source>
         <translation>Dilyswch mai chi sydd yno</translation>
     </message>
+    <message>
+        <source>There are no comments here.</source>
+        <translation>Does dim sylwadau yma.</translation>
+    </message>
+    <message>
+        <source>This comment is not there any more, or you may not read it.</source>
+        <translation>Nid yw'r sylw hwn yma mwyach, neu ni chewch ei ddarllen.</translation>
+    </message>
+    <message>
+        <source>There is no such decision.</source>
+        <translation>Does dim penderfyniad o'r fath.</translation>
+    </message>
+    <message>
+        <source>Write the reply first.</source>
+        <translation>Ysgrifennwch yr ateb yn gyntaf.</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>Sylwadau</translation>
+    </message>
+    <message>
+        <source>%n wait for moderation</source>
+        <translation>%n yn aros am gymedroli</translation>
+    </message>
+    <message>
+        <source>No comments on this page yet.</source>
+        <translation>Does dim sylwadau ar y dudalen hon eto.</translation>
+    </message>
+    <message>
+        <source>Waiting for moderation</source>
+        <translation>Yn aros am gymedroli</translation>
+    </message>
+    <message>
+        <source>Reply</source>
+        <translation>Ateb</translation>
+    </message>
+    <message>
+        <source>Spam</source>
+        <translation>Sbam</translation>
+    </message>
+    <message>
+        <source>Move "%name" to the trash as spam? It can be restored from the trash in the administration.</source>
+        <translation>Symud "%name" i'r sbwriel fel sbam? Gellir ei adfer o'r sbwriel yn y weinyddiaeth.</translation>
+    </message>
+    <message>
+        <source>Spam ...</source>
+        <translation>Sbam ...</translation>
+    </message>
+    <message>
+        <source>The comment is approved and shown on the page.</source>
+        <translation>Mae'r sylw wedi'i gymeradwyo ac yn cael ei ddangos ar y dudalen.</translation>
+    </message>
+    <message>
+        <source>The comment is hidden.</source>
+        <translation>Mae'r sylw wedi'i guddio.</translation>
+    </message>
+    <message>
+        <source>The comment was moved to the trash as spam.</source>
+        <translation>Symudwyd y sylw i'r sbwriel fel sbam.</translation>
+    </message>
+    <message>
+        <source>A workflow holds this change. Find it in the administration.</source>
+        <translation>Mae llif gwaith yn dal y newid hwn. Dewch o hyd iddo yn y weinyddiaeth.</translation>
+    </message>
+    <message>
+        <source>Send the reply</source>
+        <translation>Anfon yr ateb</translation>
+    </message>
+    <message>
+        <source>Write a comment</source>
+        <translation>Ysgrifennu sylw</translation>
+    </message>
+    <message>
+        <source>Reply to "%name"</source>
+        <translation>Ateb i "%name"</translation>
+    </message>
+    <message>
+        <source>Comment on this page</source>
+        <translation>Rhoi sylw ar y dudalen hon</translation>
+    </message>
+    <message>
+        <source>The reply is published on the page.</source>
+        <translation>Mae'r ateb wedi'i gyhoeddi ar y dudalen.</translation>
+    </message>
+    <message>
+        <source>The reply waits for its approval.</source>
+        <translation>Mae'r ateb yn aros am ei gymeradwyo.</translation>
+    </message>
+    <message>
+        <source>%n comments wait for moderation</source>
+        <translation>%n sylw yn aros am gymedroli</translation>
+    </message>
 </context>
 </TS>

@@ -1371,5 +1371,97 @@
         <source>Verify it's you</source>
         <translation>Xaqiiji inaad adigu tahay</translation>
     </message>
+    <message>
+        <source>There are no comments here.</source>
+        <translation>Halkan faallooyin kuma jiraan.</translation>
+    </message>
+    <message>
+        <source>This comment is not there any more, or you may not read it.</source>
+        <translation>Faalladani hadda ma jirto, ama looma oggola inaad akhrido.</translation>
+    </message>
+    <message>
+        <source>There is no such decision.</source>
+        <translation>Go'aan sidaas ah ma jiro.</translation>
+    </message>
+    <message>
+        <source>Write the reply first.</source>
+        <translation>Marka hore qor jawaabta.</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>Faallooyin</translation>
+    </message>
+    <message>
+        <source>%n wait for moderation</source>
+        <translation>%n waxay sugayaan dib-u-eegis</translation>
+    </message>
+    <message>
+        <source>No comments on this page yet.</source>
+        <translation>Boggan weli faallooyin kuma jiraan.</translation>
+    </message>
+    <message>
+        <source>Waiting for moderation</source>
+        <translation>Waxay sugaysaa dib-u-eegis</translation>
+    </message>
+    <message>
+        <source>Reply</source>
+        <translation>Jawaab</translation>
+    </message>
+    <message>
+        <source>Spam</source>
+        <translation>Spam</translation>
+    </message>
+    <message>
+        <source>Move "%name" to the trash as spam? It can be restored from the trash in the administration.</source>
+        <translation>U guuri "%name" Qashinka sida spam? Waa laga soo celin karaa Qashinka maamulka dhexdiisa.</translation>
+    </message>
+    <message>
+        <source>Spam ...</source>
+        <translation>Spam ...</translation>
+    </message>
+    <message>
+        <source>The comment is approved and shown on the page.</source>
+        <translation>Faallada waa la oggolaaday waxaana lagu muujinayaa bogga.</translation>
+    </message>
+    <message>
+        <source>The comment is hidden.</source>
+        <translation>Faallada waa la qariyay.</translation>
+    </message>
+    <message>
+        <source>The comment was moved to the trash as spam.</source>
+        <translation>Faallada waxaa loo guuriyay Qashinka sida spam.</translation>
+    </message>
+    <message>
+        <source>A workflow holds this change. Find it in the administration.</source>
+        <translation>Hab-shaqo ayaa haya isbeddelkan. Ka hel maamulka.</translation>
+    </message>
+    <message>
+        <source>Send the reply</source>
+        <translation>Dir jawaabta</translation>
+    </message>
+    <message>
+        <source>Write a comment</source>
+        <translation>Qor faallo</translation>
+    </message>
+    <message>
+        <source>Reply to "%name"</source>
+        <translation>Jawaab u ah "%name"</translation>
+    </message>
+    <message>
+        <source>Comment on this page</source>
+        <translation>Faallo ka bixi boggan</translation>
+    </message>
+    <message>
+        <source>The reply is published on the page.</source>
+        <translation>Jawaabta waxaa lagu daabacay bogga.</translation>
+    </message>
+    <message>
+        <source>The reply waits for its approval.</source>
+        <translation>Jawaabtu waxay sugaysaa oggolaanshaheeda.</translation>
+    </message>
+    <message>
+        <source>%n comments wait for moderation</source>
+        <translation>%n faallo waxay sugayaan dib-u-eegis</translation>
+    </message>
 </context>
 </TS>

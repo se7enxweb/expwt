@@ -1371,5 +1371,97 @@
         <source>Verify it's you</source>
         <translation>Бұл сіз екеніңізді растаңыз</translation>
     </message>
+    <message>
+        <source>There are no comments here.</source>
+        <translation>Мұнда пікірлер жоқ.</translation>
+    </message>
+    <message>
+        <source>This comment is not there any more, or you may not read it.</source>
+        <translation>Бұл пікір енді жоқ немесе оны оқуға рұқсатыңыз жоқ.</translation>
+    </message>
+    <message>
+        <source>There is no such decision.</source>
+        <translation>Мұндай шешім жоқ.</translation>
+    </message>
+    <message>
+        <source>Write the reply first.</source>
+        <translation>Алдымен жауапты жазыңыз.</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>Пікірлер</translation>
+    </message>
+    <message>
+        <source>%n wait for moderation</source>
+        <translation>%n модерацияны күтуде</translation>
+    </message>
+    <message>
+        <source>No comments on this page yet.</source>
+        <translation>Бұл бетте әлі пікір жоқ.</translation>
+    </message>
+    <message>
+        <source>Waiting for moderation</source>
+        <translation>Модерацияны күтуде</translation>
+    </message>
+    <message>
+        <source>Reply</source>
+        <translation>Жауап беру</translation>
+    </message>
+    <message>
+        <source>Spam</source>
+        <translation>Спам</translation>
+    </message>
+    <message>
+        <source>Move "%name" to the trash as spam? It can be restored from the trash in the administration.</source>
+        <translation>"%name" спам ретінде себетке жіберілсін бе? Оны әкімшілікте себеттен қалпына келтіруге болады.</translation>
+    </message>
+    <message>
+        <source>Spam ...</source>
+        <translation>Спам ...</translation>
+    </message>
+    <message>
+        <source>The comment is approved and shown on the page.</source>
+        <translation>Пікір мақұлданды және бетте көрсетіледі.</translation>
+    </message>
+    <message>
+        <source>The comment is hidden.</source>
+        <translation>Пікір жасырылды.</translation>
+    </message>
+    <message>
+        <source>The comment was moved to the trash as spam.</source>
+        <translation>Пікір спам ретінде себетке жіберілді.</translation>
+    </message>
+    <message>
+        <source>A workflow holds this change. Find it in the administration.</source>
+        <translation>Жұмыс процесі бұл өзгерісті ұстап тұр. Оны әкімшіліктен табыңыз.</translation>
+    </message>
+    <message>
+        <source>Send the reply</source>
+        <translation>Жауапты жіберу</translation>
+    </message>
+    <message>
+        <source>Write a comment</source>
+        <translation>Пікір жазу</translation>
+    </message>
+    <message>
+        <source>Reply to "%name"</source>
+        <translation>"%name" пікіріне жауап</translation>
+    </message>
+    <message>
+        <source>Comment on this page</source>
+        <translation>Осы бетке пікір қалдыру</translation>
+    </message>
+    <message>
+        <source>The reply is published on the page.</source>
+        <translation>Жауап бетте жарияланды.</translation>
+    </message>
+    <message>
+        <source>The reply waits for its approval.</source>
+        <translation>Жауап мақұлдауды күтуде.</translation>
+    </message>
+    <message>
+        <source>%n comments wait for moderation</source>
+        <translation>%n пікір модерацияны күтуде</translation>
+    </message>
 </context>
 </TS>

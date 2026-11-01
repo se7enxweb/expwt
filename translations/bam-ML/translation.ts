@@ -1371,5 +1371,97 @@
         <source>Verify it's you</source>
         <translation>A sinsin ko e don</translation>
     </message>
+    <message>
+        <source>There are no comments here.</source>
+        <translation>Hakilinali si tɛ yan.</translation>
+    </message>
+    <message>
+        <source>This comment is not there any more, or you may not read it.</source>
+        <translation>Nin hakilinali tɛ yen tugun, walima i tɛ se k'a kalan.</translation>
+    </message>
+    <message>
+        <source>There is no such decision.</source>
+        <translation>Latigɛ suguya tɛ yen.</translation>
+    </message>
+    <message>
+        <source>Write the reply first.</source>
+        <translation>Jaabi sɛbɛn fɔlɔ.</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>Hakilinaliw</translation>
+    </message>
+    <message>
+        <source>%n wait for moderation</source>
+        <translation>%n bɛ kɔlɔsili makɔnɔ</translation>
+    </message>
+    <message>
+        <source>No comments on this page yet.</source>
+        <translation>Hakilinali si ma kɛ nin ɲɛ kan fɔlɔ.</translation>
+    </message>
+    <message>
+        <source>Waiting for moderation</source>
+        <translation>A bɛ kɔlɔsili makɔnɔ</translation>
+    </message>
+    <message>
+        <source>Reply</source>
+        <translation>Jaabi</translation>
+    </message>
+    <message>
+        <source>Spam</source>
+        <translation>Spam</translation>
+    </message>
+    <message>
+        <source>Move "%name" to the trash as spam? It can be restored from the trash in the administration.</source>
+        <translation>"%name" bila nɔgɔsigiyɔrɔ la iko spam? A bɛ se ka segin ka bɔ nɔgɔsigiyɔrɔ la ɲɛmɔgɔya la.</translation>
+    </message>
+    <message>
+        <source>Spam ...</source>
+        <translation>Spam ...</translation>
+    </message>
+    <message>
+        <source>The comment is approved and shown on the page.</source>
+        <translation>Hakilinali sɔnna a ma, a bɛ ɲɛ kan.</translation>
+    </message>
+    <message>
+        <source>The comment is hidden.</source>
+        <translation>Hakilinali dogolen don.</translation>
+    </message>
+    <message>
+        <source>The comment was moved to the trash as spam.</source>
+        <translation>Hakilinali bilala nɔgɔsigiyɔrɔ la iko spam.</translation>
+    </message>
+    <message>
+        <source>A workflow holds this change. Find it in the administration.</source>
+        <translation>Baara taabolo dɔ bɛ nin yɛlɛma minɛ. A ɲini ɲɛmɔgɔya la.</translation>
+    </message>
+    <message>
+        <source>Send the reply</source>
+        <translation>Jaabi ci</translation>
+    </message>
+    <message>
+        <source>Write a comment</source>
+        <translation>Hakilinali sɛbɛn</translation>
+    </message>
+    <message>
+        <source>Reply to "%name"</source>
+        <translation>Jaabi "%name" ma</translation>
+    </message>
+    <message>
+        <source>Comment on this page</source>
+        <translation>Hakilinali di nin ɲɛ kan</translation>
+    </message>
+    <message>
+        <source>The reply is published on the page.</source>
+        <translation>Jaabi bɔra ɲɛ kan.</translation>
+    </message>
+    <message>
+        <source>The reply waits for its approval.</source>
+        <translation>Jaabi bɛ a sɔnni makɔnɔ.</translation>
+    </message>
+    <message>
+        <source>%n comments wait for moderation</source>
+        <translation>Hakilinali %n bɛ kɔlɔsili makɔnɔ</translation>
+    </message>
 </context>
 </TS>

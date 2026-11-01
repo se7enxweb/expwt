@@ -1371,5 +1371,97 @@
         <source>Verify it's you</source>
         <translation>Dearbhaibh gur e sibh fhèin a th’ ann</translation>
     </message>
+    <message>
+        <source>There are no comments here.</source>
+        <translation>Chan eil beachdan an seo.</translation>
+    </message>
+    <message>
+        <source>This comment is not there any more, or you may not read it.</source>
+        <translation>Chan eil am beachd seo ann tuilleadh, no chan fhaod thu a leughadh.</translation>
+    </message>
+    <message>
+        <source>There is no such decision.</source>
+        <translation>Chan eil co-dhùnadh mar sin ann.</translation>
+    </message>
+    <message>
+        <source>Write the reply first.</source>
+        <translation>Sgrìobh am freagairt an toiseach.</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>Beachdan</translation>
+    </message>
+    <message>
+        <source>%n wait for moderation</source>
+        <translation>%n a' feitheamh air modarachadh</translation>
+    </message>
+    <message>
+        <source>No comments on this page yet.</source>
+        <translation>Chan eil beachdan air an duilleag seo fhathast.</translation>
+    </message>
+    <message>
+        <source>Waiting for moderation</source>
+        <translation>A' feitheamh air modarachadh</translation>
+    </message>
+    <message>
+        <source>Reply</source>
+        <translation>Freagair</translation>
+    </message>
+    <message>
+        <source>Spam</source>
+        <translation>Spama</translation>
+    </message>
+    <message>
+        <source>Move "%name" to the trash as spam? It can be restored from the trash in the administration.</source>
+        <translation>An gluais thu "%name" dhan sgudal mar spama? Gabhaidh aiseag on sgudal san rianachd.</translation>
+    </message>
+    <message>
+        <source>Spam ...</source>
+        <translation>Spama ...</translation>
+    </message>
+    <message>
+        <source>The comment is approved and shown on the page.</source>
+        <translation>Chaidh am beachd aontachadh agus tha e ga shealltainn air an duilleag.</translation>
+    </message>
+    <message>
+        <source>The comment is hidden.</source>
+        <translation>Chaidh am beachd fhalach.</translation>
+    </message>
+    <message>
+        <source>The comment was moved to the trash as spam.</source>
+        <translation>Chaidh am beachd a ghluasad dhan sgudal mar spama.</translation>
+    </message>
+    <message>
+        <source>A workflow holds this change. Find it in the administration.</source>
+        <translation>Tha sruth-obrach a' cumail an atharrachaidh seo. Lorg san rianachd e.</translation>
+    </message>
+    <message>
+        <source>Send the reply</source>
+        <translation>Cuir am freagairt</translation>
+    </message>
+    <message>
+        <source>Write a comment</source>
+        <translation>Sgrìobh beachd</translation>
+    </message>
+    <message>
+        <source>Reply to "%name"</source>
+        <translation>Freagairt do "%name"</translation>
+    </message>
+    <message>
+        <source>Comment on this page</source>
+        <translation>Thoir beachd air an duilleag seo</translation>
+    </message>
+    <message>
+        <source>The reply is published on the page.</source>
+        <translation>Chaidh am freagairt fhoillseachadh air an duilleag.</translation>
+    </message>
+    <message>
+        <source>The reply waits for its approval.</source>
+        <translation>Tha am freagairt a' feitheamh air aontachadh.</translation>
+    </message>
+    <message>
+        <source>%n comments wait for moderation</source>
+        <translation>%n beachdan a' feitheamh air modarachadh</translation>
+    </message>
 </context>
 </TS>

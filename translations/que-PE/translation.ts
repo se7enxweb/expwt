@@ -1371,5 +1371,97 @@
         <source>Verify it's you</source>
         <translation>Qam kasqaykita takyachiy</translation>
     </message>
+    <message>
+        <source>There are no comments here.</source>
+        <translation>Kaypiqa mana rimarisqakuna kanchu.</translation>
+    </message>
+    <message>
+        <source>This comment is not there any more, or you may not read it.</source>
+        <translation>Kay rimarisqaqa manañam kanchu, utaq mana leeyta atinkichu.</translation>
+    </message>
+    <message>
+        <source>There is no such decision.</source>
+        <translation>Mana chayna akllakuy kanchu.</translation>
+    </message>
+    <message>
+        <source>Write the reply first.</source>
+        <translation>Ñawpaqta kutichiyta qillqay.</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>Rimarisqakuna</translation>
+    </message>
+    <message>
+        <source>%n wait for moderation</source>
+        <translation>%n qhawarisqa kanankupaq suyachkanku</translation>
+    </message>
+    <message>
+        <source>No comments on this page yet.</source>
+        <translation>Kay raphipiqa manaraqmi rimarisqakuna kanchu.</translation>
+    </message>
+    <message>
+        <source>Waiting for moderation</source>
+        <translation>Qhawarisqa kananpaq suyachkan</translation>
+    </message>
+    <message>
+        <source>Reply</source>
+        <translation>Kutichiy</translation>
+    </message>
+    <message>
+        <source>Spam</source>
+        <translation>Spam</translation>
+    </message>
+    <message>
+        <source>Move "%name" to the trash as spam? It can be restored from the trash in the administration.</source>
+        <translation>"%name" q'upa wayaqaman spam hina kuyuchinkichu? Kamachiypi q'upa wayaqamanta kutichiyta atikun.</translation>
+    </message>
+    <message>
+        <source>Spam ...</source>
+        <translation>Spam ...</translation>
+    </message>
+    <message>
+        <source>The comment is approved and shown on the page.</source>
+        <translation>Rimarisqaqa chaskisqam, raphipi rikuchikun.</translation>
+    </message>
+    <message>
+        <source>The comment is hidden.</source>
+        <translation>Rimarisqaqa pakasqam.</translation>
+    </message>
+    <message>
+        <source>The comment was moved to the trash as spam.</source>
+        <translation>Rimarisqaqa q'upa wayaqaman spam hina kuyuchisqam.</translation>
+    </message>
+    <message>
+        <source>A workflow holds this change. Find it in the administration.</source>
+        <translation>Huk llamk'ay puriymi kay tikrayta hap'ichkan. Kamachiypi maskay.</translation>
+    </message>
+    <message>
+        <source>Send the reply</source>
+        <translation>Kutichiyta apachiy</translation>
+    </message>
+    <message>
+        <source>Write a comment</source>
+        <translation>Rimarisqata qillqay</translation>
+    </message>
+    <message>
+        <source>Reply to "%name"</source>
+        <translation>"%name"man kutichiy</translation>
+    </message>
+    <message>
+        <source>Comment on this page</source>
+        <translation>Kay raphimanta rimariy</translation>
+    </message>
+    <message>
+        <source>The reply is published on the page.</source>
+        <translation>Kutichiyqa raphipi lluqsichisqam.</translation>
+    </message>
+    <message>
+        <source>The reply waits for its approval.</source>
+        <translation>Kutichiyqa chaskisqa kananpaq suyachkan.</translation>
+    </message>
+    <message>
+        <source>%n comments wait for moderation</source>
+        <translation>%n rimarisqakuna qhawarisqa kanankupaq suyachkanku</translation>
+    </message>
 </context>
 </TS>

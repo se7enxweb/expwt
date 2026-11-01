@@ -1371,5 +1371,97 @@
         <source>Verify it's you</source>
         <translation>Duođaš ahte leat don</translation>
     </message>
+    <message>
+        <source>There are no comments here.</source>
+        <translation>Dáppe eai leat kommeanttat.</translation>
+    </message>
+    <message>
+        <source>This comment is not there any more, or you may not read it.</source>
+        <translation>Dát kommeanta ii leat šat, dahje don it oaččo lohkat dan.</translation>
+    </message>
+    <message>
+        <source>There is no such decision.</source>
+        <translation>Dakkár mearrádus ii leat.</translation>
+    </message>
+    <message>
+        <source>Write the reply first.</source>
+        <translation>Čális vástádusa vuos.</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>Kommeanttat</translation>
+    </message>
+    <message>
+        <source>%n wait for moderation</source>
+        <translation>%n vurdet moderašuvnna</translation>
+    </message>
+    <message>
+        <source>No comments on this page yet.</source>
+        <translation>Dán siiddus eai leat vel kommeanttat.</translation>
+    </message>
+    <message>
+        <source>Waiting for moderation</source>
+        <translation>Vuordá moderašuvnna</translation>
+    </message>
+    <message>
+        <source>Reply</source>
+        <translation>Vástit</translation>
+    </message>
+    <message>
+        <source>Spam</source>
+        <translation>Ruskaboasta</translation>
+    </message>
+    <message>
+        <source>Move "%name" to the trash as spam? It can be restored from the trash in the administration.</source>
+        <translation>Sirdit "%name" ruskalihttái ruskaboastan? Dan sáhttá máhcahit ruskalihttes hálddahusas.</translation>
+    </message>
+    <message>
+        <source>Spam ...</source>
+        <translation>Ruskaboasta ...</translation>
+    </message>
+    <message>
+        <source>The comment is approved and shown on the page.</source>
+        <translation>Kommeanta lea dohkkehuvvon ja čájehuvvo siiddus.</translation>
+    </message>
+    <message>
+        <source>The comment is hidden.</source>
+        <translation>Kommeanta lea čiehkkojuvvon.</translation>
+    </message>
+    <message>
+        <source>The comment was moved to the trash as spam.</source>
+        <translation>Kommeanta sirdojuvvui ruskalihttái ruskaboastan.</translation>
+    </message>
+    <message>
+        <source>A workflow holds this change. Find it in the administration.</source>
+        <translation>Bargoproseassa doallá dán rievdadusa. Gávnna dan hálddahusas.</translation>
+    </message>
+    <message>
+        <source>Send the reply</source>
+        <translation>Sádde vástádusa</translation>
+    </message>
+    <message>
+        <source>Write a comment</source>
+        <translation>Čále kommeantta</translation>
+    </message>
+    <message>
+        <source>Reply to "%name"</source>
+        <translation>Vástádus "%name"</translation>
+    </message>
+    <message>
+        <source>Comment on this page</source>
+        <translation>Kommentere dán siiddu</translation>
+    </message>
+    <message>
+        <source>The reply is published on the page.</source>
+        <translation>Vástádus lea almmuhuvvon siiddus.</translation>
+    </message>
+    <message>
+        <source>The reply waits for its approval.</source>
+        <translation>Vástádus vuordá dohkkeheami.</translation>
+    </message>
+    <message>
+        <source>%n comments wait for moderation</source>
+        <translation>%n kommeantta vurdet moderašuvnna</translation>
+    </message>
 </context>
 </TS>

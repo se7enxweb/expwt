@@ -1371,5 +1371,97 @@
         <source>Verify it's you</source>
         <translation>Wobkrućće, zo sće to Wy</translation>
     </message>
+    <message>
+        <source>There are no comments here.</source>
+        <translation>Tu žane komentary njejsu.</translation>
+    </message>
+    <message>
+        <source>This comment is not there any more, or you may not read it.</source>
+        <translation>Tutón komentar hižo njeeksistuje abo njesměće jón čitać.</translation>
+    </message>
+    <message>
+        <source>There is no such decision.</source>
+        <translation>Tajke rozsudźenje njeeksistuje.</translation>
+    </message>
+    <message>
+        <source>Write the reply first.</source>
+        <translation>Napisajće najprjedy wotmołwu.</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>Komentary</translation>
+    </message>
+    <message>
+        <source>%n wait for moderation</source>
+        <translation>%n čaka na moderaciju</translation>
+    </message>
+    <message>
+        <source>No comments on this page yet.</source>
+        <translation>Na tutej stronje hišće žane komentary njejsu.</translation>
+    </message>
+    <message>
+        <source>Waiting for moderation</source>
+        <translation>Čaka na moderaciju</translation>
+    </message>
+    <message>
+        <source>Reply</source>
+        <translation>Wotmołwić</translation>
+    </message>
+    <message>
+        <source>Spam</source>
+        <translation>Spam</translation>
+    </message>
+    <message>
+        <source>Move "%name" to the trash as spam? It can be restored from the trash in the administration.</source>
+        <translation>"%name" jako spam do papjernika přesunyć? Da so w administraciji z papjernika wobnowić.</translation>
+    </message>
+    <message>
+        <source>Spam ...</source>
+        <translation>Spam ...</translation>
+    </message>
+    <message>
+        <source>The comment is approved and shown on the page.</source>
+        <translation>Komentar je přizwoleny a pokazuje so na stronje.</translation>
+    </message>
+    <message>
+        <source>The comment is hidden.</source>
+        <translation>Komentar je schowany.</translation>
+    </message>
+    <message>
+        <source>The comment was moved to the trash as spam.</source>
+        <translation>Komentar je so jako spam do papjernika přesunył.</translation>
+    </message>
+    <message>
+        <source>A workflow holds this change. Find it in the administration.</source>
+        <translation>Dźěłowy proces tutu změnu zadźeržuje. Namakajće ju w administraciji.</translation>
+    </message>
+    <message>
+        <source>Send the reply</source>
+        <translation>Wotmołwu pósłać</translation>
+    </message>
+    <message>
+        <source>Write a comment</source>
+        <translation>Komentar napisać</translation>
+    </message>
+    <message>
+        <source>Reply to "%name"</source>
+        <translation>Wotmołwa na "%name"</translation>
+    </message>
+    <message>
+        <source>Comment on this page</source>
+        <translation>Tutu stronu komentować</translation>
+    </message>
+    <message>
+        <source>The reply is published on the page.</source>
+        <translation>Wotmołwa je na stronje wozjewjena.</translation>
+    </message>
+    <message>
+        <source>The reply waits for its approval.</source>
+        <translation>Wotmołwa čaka na swoje přizwolenje.</translation>
+    </message>
+    <message>
+        <source>%n comments wait for moderation</source>
+        <translation>%n komentarow čaka na moderaciju</translation>
+    </message>
 </context>
 </TS>

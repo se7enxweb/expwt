@@ -1371,5 +1371,97 @@
         <source>Verify it's you</source>
         <translation>Befêstigje dat jo it binne</translation>
     </message>
+    <message>
+        <source>There are no comments here.</source>
+        <translation>Hjir binne gjin reaksjes.</translation>
+    </message>
+    <message>
+        <source>This comment is not there any more, or you may not read it.</source>
+        <translation>Dizze reaksje bestiet net mear, of jo meie har net lêze.</translation>
+    </message>
+    <message>
+        <source>There is no such decision.</source>
+        <translation>Sa'n beslút bestiet net.</translation>
+    </message>
+    <message>
+        <source>Write the reply first.</source>
+        <translation>Skriuw earst it antwurd.</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>Reaksjes</translation>
+    </message>
+    <message>
+        <source>%n wait for moderation</source>
+        <translation>%n wachtsje op moderaasje</translation>
+    </message>
+    <message>
+        <source>No comments on this page yet.</source>
+        <translation>Der binne noch gjin reaksjes op dizze side.</translation>
+    </message>
+    <message>
+        <source>Waiting for moderation</source>
+        <translation>Wachtet op moderaasje</translation>
+    </message>
+    <message>
+        <source>Reply</source>
+        <translation>Antwurdzje</translation>
+    </message>
+    <message>
+        <source>Spam</source>
+        <translation>Spam</translation>
+    </message>
+    <message>
+        <source>Move "%name" to the trash as spam? It can be restored from the trash in the administration.</source>
+        <translation>"%name" as spam nei it jiskefet ferpleatse? It kin yn it behear út it jiskefet weromset wurde.</translation>
+    </message>
+    <message>
+        <source>Spam ...</source>
+        <translation>Spam ...</translation>
+    </message>
+    <message>
+        <source>The comment is approved and shown on the page.</source>
+        <translation>De reaksje is goedkard en wurdt op de side toand.</translation>
+    </message>
+    <message>
+        <source>The comment is hidden.</source>
+        <translation>De reaksje is ferburgen.</translation>
+    </message>
+    <message>
+        <source>The comment was moved to the trash as spam.</source>
+        <translation>De reaksje is as spam nei it jiskefet ferpleatst.</translation>
+    </message>
+    <message>
+        <source>A workflow holds this change. Find it in the administration.</source>
+        <translation>In workflow hâldt dizze wiziging fêst. Jo fine har yn it behear.</translation>
+    </message>
+    <message>
+        <source>Send the reply</source>
+        <translation>Antwurd ferstjoere</translation>
+    </message>
+    <message>
+        <source>Write a comment</source>
+        <translation>In reaksje skriuwe</translation>
+    </message>
+    <message>
+        <source>Reply to "%name"</source>
+        <translation>Antwurd op "%name"</translation>
+    </message>
+    <message>
+        <source>Comment on this page</source>
+        <translation>Reagearje op dizze side</translation>
+    </message>
+    <message>
+        <source>The reply is published on the page.</source>
+        <translation>It antwurd is op de side publisearre.</translation>
+    </message>
+    <message>
+        <source>The reply waits for its approval.</source>
+        <translation>It antwurd wachtet op goedkarring.</translation>
+    </message>
+    <message>
+        <source>%n comments wait for moderation</source>
+        <translation>%n reaksjes wachtsje op moderaasje</translation>
+    </message>
 </context>
 </TS>

@@ -1371,5 +1371,97 @@
         <source>Verify it's you</source>
         <translation>بیسەلمێنە کە خۆتی</translation>
     </message>
+    <message>
+        <source>There are no comments here.</source>
+        <translation>لێرە هیچ لێدوانێک نییە.</translation>
+    </message>
+    <message>
+        <source>This comment is not there any more, or you may not read it.</source>
+        <translation>ئەم لێدوانە ئیتر نییە، یان ڕێگەت پێ نەدراوە بیخوێنیتەوە.</translation>
+    </message>
+    <message>
+        <source>There is no such decision.</source>
+        <translation>بڕیارێکی وا نییە.</translation>
+    </message>
+    <message>
+        <source>Write the reply first.</source>
+        <translation>سەرەتا وەڵامەکە بنووسە.</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>لێدوانەکان</translation>
+    </message>
+    <message>
+        <source>%n wait for moderation</source>
+        <translation>%n چاوەڕێی چاودێرین</translation>
+    </message>
+    <message>
+        <source>No comments on this page yet.</source>
+        <translation>هێشتا هیچ لێدوانێک لەسەر ئەم پەڕەیە نییە.</translation>
+    </message>
+    <message>
+        <source>Waiting for moderation</source>
+        <translation>چاوەڕێی چاودێرییە</translation>
+    </message>
+    <message>
+        <source>Reply</source>
+        <translation>وەڵام</translation>
+    </message>
+    <message>
+        <source>Spam</source>
+        <translation>سپام</translation>
+    </message>
+    <message>
+        <source>Move "%name" to the trash as spam? It can be restored from the trash in the administration.</source>
+        <translation>"%name" وەک سپام بگوازرێتەوە بۆ سەبەتەی خۆڵ؟ دەتوانرێت لە بەڕێوەبردندا لە سەبەتەی خۆڵ بگەڕێندرێتەوە.</translation>
+    </message>
+    <message>
+        <source>Spam ...</source>
+        <translation>سپام ...</translation>
+    </message>
+    <message>
+        <source>The comment is approved and shown on the page.</source>
+        <translation>لێدوانەکە پەسەند کرا و لەسەر پەڕەکە پیشان دەدرێت.</translation>
+    </message>
+    <message>
+        <source>The comment is hidden.</source>
+        <translation>لێدوانەکە شاردرایەوە.</translation>
+    </message>
+    <message>
+        <source>The comment was moved to the trash as spam.</source>
+        <translation>لێدوانەکە وەک سپام گوازرایەوە بۆ سەبەتەی خۆڵ.</translation>
+    </message>
+    <message>
+        <source>A workflow holds this change. Find it in the administration.</source>
+        <translation>ڕێڕەوێکی کار ئەم گۆڕانکارییە ڕادەگرێت. لە بەڕێوەبردندا بیدۆزەرەوە.</translation>
+    </message>
+    <message>
+        <source>Send the reply</source>
+        <translation>وەڵامەکە بنێرە</translation>
+    </message>
+    <message>
+        <source>Write a comment</source>
+        <translation>لێدوانێک بنووسە</translation>
+    </message>
+    <message>
+        <source>Reply to "%name"</source>
+        <translation>وەڵام بۆ "%name"</translation>
+    </message>
+    <message>
+        <source>Comment on this page</source>
+        <translation>لێدوان لەسەر ئەم پەڕەیە بدە</translation>
+    </message>
+    <message>
+        <source>The reply is published on the page.</source>
+        <translation>وەڵامەکە لەسەر پەڕەکە بڵاوکرایەوە.</translation>
+    </message>
+    <message>
+        <source>The reply waits for its approval.</source>
+        <translation>وەڵامەکە چاوەڕێی پەسەندکردنە.</translation>
+    </message>
+    <message>
+        <source>%n comments wait for moderation</source>
+        <translation>%n لێدوان چاوەڕێی چاودێرین</translation>
+    </message>
 </context>
 </TS>

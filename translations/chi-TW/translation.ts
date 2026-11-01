@@ -1371,5 +1371,97 @@
         <source>Verify it's you</source>
         <translation>驗證你的身分</translation>
     </message>
+    <message>
+        <source>There are no comments here.</source>
+        <translation>這裡沒有留言。</translation>
+    </message>
+    <message>
+        <source>This comment is not there any more, or you may not read it.</source>
+        <translation>此留言已不存在，或您無權閱讀。</translation>
+    </message>
+    <message>
+        <source>There is no such decision.</source>
+        <translation>沒有這樣的決定。</translation>
+    </message>
+    <message>
+        <source>Write the reply first.</source>
+        <translation>請先撰寫回覆。</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>留言</translation>
+    </message>
+    <message>
+        <source>%n wait for moderation</source>
+        <translation>%n 則待審核</translation>
+    </message>
+    <message>
+        <source>No comments on this page yet.</source>
+        <translation>此頁面尚無留言。</translation>
+    </message>
+    <message>
+        <source>Waiting for moderation</source>
+        <translation>待審核</translation>
+    </message>
+    <message>
+        <source>Reply</source>
+        <translation>回覆</translation>
+    </message>
+    <message>
+        <source>Spam</source>
+        <translation>垃圾留言</translation>
+    </message>
+    <message>
+        <source>Move "%name" to the trash as spam? It can be restored from the trash in the administration.</source>
+        <translation>將「%name」作為垃圾留言移至垃圾桶？可在管理後台從垃圾桶中還原。</translation>
+    </message>
+    <message>
+        <source>Spam ...</source>
+        <translation>垃圾留言 ...</translation>
+    </message>
+    <message>
+        <source>The comment is approved and shown on the page.</source>
+        <translation>留言已核准並顯示在頁面上。</translation>
+    </message>
+    <message>
+        <source>The comment is hidden.</source>
+        <translation>留言已隱藏。</translation>
+    </message>
+    <message>
+        <source>The comment was moved to the trash as spam.</source>
+        <translation>留言已作為垃圾留言移至垃圾桶。</translation>
+    </message>
+    <message>
+        <source>A workflow holds this change. Find it in the administration.</source>
+        <translation>有工作流程暫留了此變更。請在管理後台查找。</translation>
+    </message>
+    <message>
+        <source>Send the reply</source>
+        <translation>送出回覆</translation>
+    </message>
+    <message>
+        <source>Write a comment</source>
+        <translation>撰寫留言</translation>
+    </message>
+    <message>
+        <source>Reply to "%name"</source>
+        <translation>回覆「%name」</translation>
+    </message>
+    <message>
+        <source>Comment on this page</source>
+        <translation>在此頁面留言</translation>
+    </message>
+    <message>
+        <source>The reply is published on the page.</source>
+        <translation>回覆已發佈在頁面上。</translation>
+    </message>
+    <message>
+        <source>The reply waits for its approval.</source>
+        <translation>回覆正在等待核准。</translation>
+    </message>
+    <message>
+        <source>%n comments wait for moderation</source>
+        <translation>%n 則留言待審核</translation>
+    </message>
 </context>
 </TS>

@@ -1371,5 +1371,97 @@
         <source>Verify it's you</source>
         <translation>Patvirtinkite, kad tai jūs</translation>
     </message>
+    <message>
+        <source>There are no comments here.</source>
+        <translation>Čia komentarų nėra.</translation>
+    </message>
+    <message>
+        <source>This comment is not there any more, or you may not read it.</source>
+        <translation>Šio komentaro nebėra arba jums neleidžiama jo skaityti.</translation>
+    </message>
+    <message>
+        <source>There is no such decision.</source>
+        <translation>Tokio sprendimo nėra.</translation>
+    </message>
+    <message>
+        <source>Write the reply first.</source>
+        <translation>Pirmiausia parašykite atsakymą.</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>Komentarai</translation>
+    </message>
+    <message>
+        <source>%n wait for moderation</source>
+        <translation>%n laukia moderavimo</translation>
+    </message>
+    <message>
+        <source>No comments on this page yet.</source>
+        <translation>Šiame puslapyje dar nėra komentarų.</translation>
+    </message>
+    <message>
+        <source>Waiting for moderation</source>
+        <translation>Laukia moderavimo</translation>
+    </message>
+    <message>
+        <source>Reply</source>
+        <translation>Atsakyti</translation>
+    </message>
+    <message>
+        <source>Spam</source>
+        <translation>Šlamštas</translation>
+    </message>
+    <message>
+        <source>Move "%name" to the trash as spam? It can be restored from the trash in the administration.</source>
+        <translation>Perkelti "%name" į šiukšlinę kaip šlamštą? Jį galima atkurti iš šiukšlinės administravime.</translation>
+    </message>
+    <message>
+        <source>Spam ...</source>
+        <translation>Šlamštas ...</translation>
+    </message>
+    <message>
+        <source>The comment is approved and shown on the page.</source>
+        <translation>Komentaras patvirtintas ir rodomas puslapyje.</translation>
+    </message>
+    <message>
+        <source>The comment is hidden.</source>
+        <translation>Komentaras paslėptas.</translation>
+    </message>
+    <message>
+        <source>The comment was moved to the trash as spam.</source>
+        <translation>Komentaras perkeltas į šiukšlinę kaip šlamštas.</translation>
+    </message>
+    <message>
+        <source>A workflow holds this change. Find it in the administration.</source>
+        <translation>Darbo eiga sulaiko šį pakeitimą. Raskite jį administravime.</translation>
+    </message>
+    <message>
+        <source>Send the reply</source>
+        <translation>Siųsti atsakymą</translation>
+    </message>
+    <message>
+        <source>Write a comment</source>
+        <translation>Rašyti komentarą</translation>
+    </message>
+    <message>
+        <source>Reply to "%name"</source>
+        <translation>Atsakymas į "%name"</translation>
+    </message>
+    <message>
+        <source>Comment on this page</source>
+        <translation>Komentuoti šį puslapį</translation>
+    </message>
+    <message>
+        <source>The reply is published on the page.</source>
+        <translation>Atsakymas paskelbtas puslapyje.</translation>
+    </message>
+    <message>
+        <source>The reply waits for its approval.</source>
+        <translation>Atsakymas laukia patvirtinimo.</translation>
+    </message>
+    <message>
+        <source>%n comments wait for moderation</source>
+        <translation>%n komentarai laukia moderavimo</translation>
+    </message>
 </context>
 </TS>

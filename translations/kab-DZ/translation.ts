@@ -1371,5 +1371,97 @@
         <source>Verify it's you</source>
         <translation>Sentem d kečč</translation>
     </message>
+    <message>
+        <source>There are no comments here.</source>
+        <translation>Ulac iwenniten dagi.</translation>
+    </message>
+    <message>
+        <source>This comment is not there any more, or you may not read it.</source>
+        <translation>Awennit-a ulac-it yakan, neɣ ur tettusirgeḍ ara ad t-teɣreḍ.</translation>
+    </message>
+    <message>
+        <source>There is no such decision.</source>
+        <translation>Ulac taɣtest am tin.</translation>
+    </message>
+    <message>
+        <source>Write the reply first.</source>
+        <translation>Aru tiririt qbel.</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>Iwenniten</translation>
+    </message>
+    <message>
+        <source>%n wait for moderation</source>
+        <translation>%n ttrajun aseɣyed</translation>
+    </message>
+    <message>
+        <source>No comments on this page yet.</source>
+        <translation>Ulac yakan iwenniten deg usebter-a.</translation>
+    </message>
+    <message>
+        <source>Waiting for moderation</source>
+        <translation>Yettraju aseɣyed</translation>
+    </message>
+    <message>
+        <source>Reply</source>
+        <translation>Err</translation>
+    </message>
+    <message>
+        <source>Spam</source>
+        <translation>Aspam</translation>
+    </message>
+    <message>
+        <source>Move "%name" to the trash as spam? It can be restored from the trash in the administration.</source>
+        <translation>Smutti "%name" ɣer yiḍumman d aspam? Yezmer ad d-yettwarr seg yiḍumman deg usefrek.</translation>
+    </message>
+    <message>
+        <source>Spam ...</source>
+        <translation>Aspam ...</translation>
+    </message>
+    <message>
+        <source>The comment is approved and shown on the page.</source>
+        <translation>Awennit yettwaqbel, yettwaskan deg usebter.</translation>
+    </message>
+    <message>
+        <source>The comment is hidden.</source>
+        <translation>Awennit yettwaffer.</translation>
+    </message>
+    <message>
+        <source>The comment was moved to the trash as spam.</source>
+        <translation>Awennit yettwasmutti ɣer yiḍumman d aspam.</translation>
+    </message>
+    <message>
+        <source>A workflow holds this change. Find it in the administration.</source>
+        <translation>Asuddem n umahil yeṭṭef abeddel-a. Af-it deg usefrek.</translation>
+    </message>
+    <message>
+        <source>Send the reply</source>
+        <translation>Azen tiririt</translation>
+    </message>
+    <message>
+        <source>Write a comment</source>
+        <translation>Aru awennit</translation>
+    </message>
+    <message>
+        <source>Reply to "%name"</source>
+        <translation>Tiririt i "%name"</translation>
+    </message>
+    <message>
+        <source>Comment on this page</source>
+        <translation>Wennet ɣef usebter-a</translation>
+    </message>
+    <message>
+        <source>The reply is published on the page.</source>
+        <translation>Tiririt tettwasuffeɣ deg usebter.</translation>
+    </message>
+    <message>
+        <source>The reply waits for its approval.</source>
+        <translation>Tiririt tettraju aqbal-is.</translation>
+    </message>
+    <message>
+        <source>%n comments wait for moderation</source>
+        <translation>%n iwenniten ttrajun aseɣyed</translation>
+    </message>
 </context>
 </TS>

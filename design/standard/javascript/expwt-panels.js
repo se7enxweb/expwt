@@ -139,6 +139,8 @@
     ctx.call('page.load', target).then(function (p) {
       root.textContent = '';
       renderPage(ctx, root, p);
+      /* the page's comments, moderated in place (E4): below the fields, on the page itself (not a new draft) */
+      if (ctx.boot && ctx.boot.comments && ctx.node && !ctx.host.draftTarget) { comments(ctx, root); }
     }, function (err) { root.textContent = ''; failure(ctx, err); });
   }
 
@@ -1884,6 +1886,137 @@
     }
   }
 
+  /* ---------------------------------------------------------------------------------------------- comments */
+
+  /* The page's comments, moderated in place (E4), at the end of the Page panel: newest first, the hidden ones (waiting
+     for moderation) only for those who may reveal them. Approve and Hide (content/hide of the comment), Spam (to the
+     trash, content/remove) behind one more question, and a reply on the page (content/create of a comment below it).
+     The number waiting is the badge on the Page panel's tab. */
+  /* Pure (tests/js/comments.test.js): the buttons of a comment, in their order: approve (a hidden comment) or hide (a
+     shown one) for those who may hide it, reply where the user may comment on the page, spam for those who may remove it */
+  function commentActions(c, canReply) {
+    var out = [];
+    if (c.can && c.can.moderate) { out.push(c.hidden ? 'approve' : 'hide'); }
+    if (canReply) { out.push('reply'); }
+    if (c.can && c.can.spam) { out.push('spam'); }
+    return out;
+  }
+
+  function comments(ctx, root) {
+    var h = ctx.h;
+    var t = ctx.t;
+    var box = h('section', { class: 'wt-section wt-comments', 'aria-labelledby': 'wt-comments-h' }, [
+      h('h3', { id: 'wt-comments-h', text: t('Comments') }),
+      h('p', { class: 'wt-muted', text: t('Loading ...') })
+    ]);
+    root.appendChild(box);
+    ctx.call('comments.load', { nodeId: ctx.node }).then(draw, function (err) {
+      box.lastChild.remove();
+      box.appendChild(h('p', { class: 'wt-muted', text: err && err.message ? err.message : t('Something went wrong on the server.') }));
+    });
+
+    function draw(r) {
+      box.textContent = '';
+      var waiting = r.waiting ? ' · ' + t('%n wait for moderation').replace('%n', r.waiting) : '';
+      box.appendChild(h('h3', { id: 'wt-comments-h', text: t('Comments') + ' (' + r.total + ')' }));
+      if (waiting) { box.appendChild(h('p', { class: 'wt-muted', text: waiting.slice(3) })); }
+      if (ctx.host && ctx.host.setComments) { ctx.host.setComments(r.waiting); }
+      if (!r.comments.length) {
+        box.appendChild(h('p', { class: 'wt-muted', text: t('No comments on this page yet.') }));
+      }
+      var list = h('ul', { class: 'wt-list wt-comment-list' });
+      r.comments.forEach(function (c) { list.appendChild(item(c, r)); });
+      if (r.comments.length) { box.appendChild(list); }
+      if (r.canReply) { box.appendChild(replyForm(null, r)); }
+    }
+
+    function reload() {
+      ctx.call('comments.load', { nodeId: ctx.node }).then(draw, function (err) { ctx.say(err && err.message ? err.message : t('Something went wrong on the server.'), 'bad'); });
+    }
+
+    function item(c, r) {
+      var li = h('li', { class: 'wt-comment' + (c.hidden ? ' is-hidden' : ''), 'data-comment': String(c.nodeId) });
+      var head = h('p', { class: 'wt-comment-head' }, [
+        h('strong', { text: c.subject }),
+        document.createTextNode(' '),
+        c.hidden ? h('span', { class: 'wt-chip is-warn', text: t('Waiting for moderation') }) : null
+      ]);
+      li.appendChild(head);
+      li.appendChild(h('p', { class: 'wt-muted', text: [c.author, c.published ? when(c.published) : ''].filter(Boolean).join(' · ') }));
+      li.appendChild(h('p', { class: 'wt-comment-text', text: c.message }));
+      var acts = h('div', { class: 'wt-row' });
+      var can = commentActions(c, r.canReply);
+      if (can.indexOf('approve') >= 0) { acts.appendChild(button(t('Approve'), 'is-primary', function (b) { moderate('approve', c, b); })); }
+      if (can.indexOf('hide') >= 0) { acts.appendChild(button(t('Hide'), '', function (b) { moderate('hide', c, b); })); }
+      if (can.indexOf('reply') >= 0) {
+        acts.appendChild(button(t('Reply'), '', function () {
+          var open = li.querySelector('.wt-comment-reply');
+          if (open) { open.remove(); return; }
+          var f = replyForm(c, r);
+          li.appendChild(f);
+          f.querySelector('textarea').focus();
+        }));
+      }
+      if (can.indexOf('spam') >= 0) {
+        var confirmBox = h('div', { class: 'wt-nl-confirm', role: 'group', 'aria-label': t('Spam'), hidden: true }, [
+          h('p', { text: t('Move "%name" to the trash as spam? It can be restored from the trash in the administration.').replace('%name', c.subject) })
+        ]);
+        var spam = button(t('Spam ...'), '', function () {
+          confirmBox.hidden = false;
+          spam.setAttribute('aria-expanded', 'true');
+          confirmBox.querySelector('.is-danger').focus();
+        });
+        spam.setAttribute('aria-expanded', 'false');
+        confirmBox.appendChild(h('div', { class: 'wt-row' }, [
+          button(t('Move to trash'), 'is-danger', function (b) { moderate('spam', c, b); }),
+          button(t('Cancel'), '', function () { confirmBox.hidden = true; spam.setAttribute('aria-expanded', 'false'); spam.focus(); })
+        ]));
+        acts.appendChild(spam);
+        li.appendChild(acts);
+        li.appendChild(confirmBox);
+      } else if (acts.childNodes.length) {
+        li.appendChild(acts);
+      }
+      return li;
+    }
+
+    function button(text, kind, fn) {
+      var b = h('button', { type: 'button', class: 'wt-btn' + (kind ? ' ' + kind : ''), text: text });
+      b.addEventListener('click', function () { fn(b); });
+      return b;
+    }
+
+    function moderate(decision, c, b) {
+      b.disabled = true;
+      ctx.call('comments.' + decision, { commentId: c.nodeId }).then(function (res) {
+        var said = { approve: t('The comment is approved and shown on the page.'), hide: t('The comment is hidden.'),
+          spam: t('The comment was moved to the trash as spam.') }[decision];
+        ctx.say(res.status === 'DONE' ? said : t('A workflow holds this change. Find it in the administration.'), res.status === 'DONE' ? 'ok' : '');
+        reload();
+      }, function (err) { b.disabled = false; ctx.say(err && err.message ? err.message : t('Something went wrong on the server.'), 'bad'); });
+    }
+
+    function replyForm(c, r) {
+      var id = 'wt-comment-reply-' + (c ? c.nodeId : 'page');
+      var text = h('textarea', { id: id, rows: '3', maxlength: '10000' });
+      var send = h('button', { type: 'submit', class: 'wt-btn is-primary', text: c ? t('Send the reply') : t('Write a comment') });
+      var form = h('form', { class: 'wt-comment-reply' }, [
+        h('label', { class: 'wt-field', for: id }, [h('span', { text: c ? t('Reply to "%name"').replace('%name', c.subject) : t('Comment on this page') }), text]),
+        h('div', { class: 'wt-row' }, [send])
+      ]);
+      form.addEventListener('submit', function (ev) {
+        ev.preventDefault();
+        if (!text.value.trim()) { text.focus(); ctx.say(t('Write the reply first.'), 'bad'); return; }
+        send.disabled = true;
+        ctx.call('comments.reply', c ? { nodeId: r.nodeId, commentId: c.nodeId, message: text.value } : { nodeId: r.nodeId, message: text.value }).then(function (res) {
+          ctx.say(res.status === 'DONE' ? t('The reply is published on the page.') : t('The reply waits for its approval.'), res.status === 'DONE' ? 'ok' : '');
+          reload();
+        }, function (err) { send.disabled = false; ctx.say(err && err.message ? err.message : t('Something went wrong on the server.'), 'bad'); });
+      });
+      return form;
+    }
+  }
+
   /* ---------------------------------------------------------------------------------------------- newsletter */
 
   /* The page's newsletter (E3, cjw_newsletter). On an edition: the edition. On any other page: the editions that carry
@@ -2296,5 +2429,6 @@
   }
 
   window.ExpwtSeo = SEO;
+  window.ExpwtComments = { actions: commentActions };
   window.ExpwtPanels = { page: page, create: create, structure: structure, seo: seo, sites: sites, forms: forms, newsletter: newsletter, insights: insights, inbox: inbox, me: me, shortcuts: shortcuts };
 }());

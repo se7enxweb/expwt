@@ -1371,5 +1371,97 @@
         <source>Verify it's you</source>
         <translation>Հաստատեք, որ դա Դուք եք</translation>
     </message>
+    <message>
+        <source>There are no comments here.</source>
+        <translation>Այստեղ մեկնաբանություններ չկան։</translation>
+    </message>
+    <message>
+        <source>This comment is not there any more, or you may not read it.</source>
+        <translation>Այս մեկնաբանությունն այլևս չկա, կամ դուք չեք կարող այն կարդալ։</translation>
+    </message>
+    <message>
+        <source>There is no such decision.</source>
+        <translation>Նման որոշում չկա։</translation>
+    </message>
+    <message>
+        <source>Write the reply first.</source>
+        <translation>Նախ գրեք պատասխանը։</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>Մեկնաբանություններ</translation>
+    </message>
+    <message>
+        <source>%n wait for moderation</source>
+        <translation>%n սպասում են մոդերացիայի</translation>
+    </message>
+    <message>
+        <source>No comments on this page yet.</source>
+        <translation>Այս էջում դեռ մեկնաբանություններ չկան։</translation>
+    </message>
+    <message>
+        <source>Waiting for moderation</source>
+        <translation>Սպասում է մոդերացիայի</translation>
+    </message>
+    <message>
+        <source>Reply</source>
+        <translation>Պատասխանել</translation>
+    </message>
+    <message>
+        <source>Spam</source>
+        <translation>Սպամ</translation>
+    </message>
+    <message>
+        <source>Move "%name" to the trash as spam? It can be restored from the trash in the administration.</source>
+        <translation>Տեղափոխե՞լ "%name"-ը աղբարկղ որպես սպամ։ Այն կարելի է վերականգնել աղբարկղից կառավարման մեջ։</translation>
+    </message>
+    <message>
+        <source>Spam ...</source>
+        <translation>Սպամ ...</translation>
+    </message>
+    <message>
+        <source>The comment is approved and shown on the page.</source>
+        <translation>Մեկնաբանությունը հաստատված է և ցուցադրվում է էջում։</translation>
+    </message>
+    <message>
+        <source>The comment is hidden.</source>
+        <translation>Մեկնաբանությունը թաքցված է։</translation>
+    </message>
+    <message>
+        <source>The comment was moved to the trash as spam.</source>
+        <translation>Մեկնաբանությունը տեղափոխվեց աղբարկղ որպես սպամ։</translation>
+    </message>
+    <message>
+        <source>A workflow holds this change. Find it in the administration.</source>
+        <translation>Աշխատանքային հոսքը պահում է այս փոփոխությունը։ Գտեք այն կառավարման մեջ։</translation>
+    </message>
+    <message>
+        <source>Send the reply</source>
+        <translation>Ուղարկել պատասխանը</translation>
+    </message>
+    <message>
+        <source>Write a comment</source>
+        <translation>Գրել մեկնաբանություն</translation>
+    </message>
+    <message>
+        <source>Reply to "%name"</source>
+        <translation>Պատասխան "%name"-ին</translation>
+    </message>
+    <message>
+        <source>Comment on this page</source>
+        <translation>Մեկնաբանել այս էջը</translation>
+    </message>
+    <message>
+        <source>The reply is published on the page.</source>
+        <translation>Պատասխանը հրապարակվեց էջում։</translation>
+    </message>
+    <message>
+        <source>The reply waits for its approval.</source>
+        <translation>Պատասխանը սպասում է հաստատման։</translation>
+    </message>
+    <message>
+        <source>%n comments wait for moderation</source>
+        <translation>%n մեկնաբանություն սպասում է մոդերացիայի</translation>
+    </message>
 </context>
 </TS>

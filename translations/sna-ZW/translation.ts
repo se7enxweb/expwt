@@ -1371,5 +1371,97 @@
         <source>Verify it's you</source>
         <translation>Simbisa kuti ndiwe</translation>
     </message>
+    <message>
+        <source>There are no comments here.</source>
+        <translation>Hapana mafungiro pano.</translation>
+    </message>
+    <message>
+        <source>This comment is not there any more, or you may not read it.</source>
+        <translation>Mafungiro aya haachipo, kana kuti haubvumirwe kuaverenga.</translation>
+    </message>
+    <message>
+        <source>There is no such decision.</source>
+        <translation>Hapana sarudzo yakadaro.</translation>
+    </message>
+    <message>
+        <source>Write the reply first.</source>
+        <translation>Tanga wanyora mhinduro.</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>Mafungiro</translation>
+    </message>
+    <message>
+        <source>%n wait for moderation</source>
+        <translation>%n akamirira kuongororwa</translation>
+    </message>
+    <message>
+        <source>No comments on this page yet.</source>
+        <translation>Hapana mafungiro papeji iyi parizvino.</translation>
+    </message>
+    <message>
+        <source>Waiting for moderation</source>
+        <translation>Akamirira kuongororwa</translation>
+    </message>
+    <message>
+        <source>Reply</source>
+        <translation>Pindura</translation>
+    </message>
+    <message>
+        <source>Spam</source>
+        <translation>Spam</translation>
+    </message>
+    <message>
+        <source>Move "%name" to the trash as spam? It can be restored from the trash in the administration.</source>
+        <translation>Isa "%name" mumarara se spam? Inogona kudzoserwa kubva mumarara mukutonga.</translation>
+    </message>
+    <message>
+        <source>Spam ...</source>
+        <translation>Spam ...</translation>
+    </message>
+    <message>
+        <source>The comment is approved and shown on the page.</source>
+        <translation>Mafungiro abvumirwa uye ari kuratidzwa papeji.</translation>
+    </message>
+    <message>
+        <source>The comment is hidden.</source>
+        <translation>Mafungiro avanzwa.</translation>
+    </message>
+    <message>
+        <source>The comment was moved to the trash as spam.</source>
+        <translation>Mafungiro aiswa mumarara se spam.</translation>
+    </message>
+    <message>
+        <source>A workflow holds this change. Find it in the administration.</source>
+        <translation>Imwe nzira yebasa yakabata shanduko iyi. Itsvage mukutonga.</translation>
+    </message>
+    <message>
+        <source>Send the reply</source>
+        <translation>Tumira mhinduro</translation>
+    </message>
+    <message>
+        <source>Write a comment</source>
+        <translation>Nyora mafungiro</translation>
+    </message>
+    <message>
+        <source>Reply to "%name"</source>
+        <translation>Mhinduro kuna "%name"</translation>
+    </message>
+    <message>
+        <source>Comment on this page</source>
+        <translation>Taura mafungiro pamusoro pepeji iyi</translation>
+    </message>
+    <message>
+        <source>The reply is published on the page.</source>
+        <translation>Mhinduro yaburitswa papeji.</translation>
+    </message>
+    <message>
+        <source>The reply waits for its approval.</source>
+        <translation>Mhinduro yakamirira kubvumirwa kwayo.</translation>
+    </message>
+    <message>
+        <source>%n comments wait for moderation</source>
+        <translation>Mafungiro %n akamirira kuongororwa</translation>
+    </message>
 </context>
 </TS>

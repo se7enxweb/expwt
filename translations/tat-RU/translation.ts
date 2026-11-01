@@ -1371,5 +1371,97 @@
         <source>Verify it's you</source>
         <translation>Бу сез икәнен раслагыз</translation>
     </message>
+    <message>
+        <source>There are no comments here.</source>
+        <translation>Монда аңлатмалар юк.</translation>
+    </message>
+    <message>
+        <source>This comment is not there any more, or you may not read it.</source>
+        <translation>Бу аңлатма инде юк, яисә сезгә аны укырга ярамый.</translation>
+    </message>
+    <message>
+        <source>There is no such decision.</source>
+        <translation>Мондый карар юк.</translation>
+    </message>
+    <message>
+        <source>Write the reply first.</source>
+        <translation>Башта җавапны языгыз.</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>Аңлатмалар</translation>
+    </message>
+    <message>
+        <source>%n wait for moderation</source>
+        <translation>%n модерация көтә</translation>
+    </message>
+    <message>
+        <source>No comments on this page yet.</source>
+        <translation>Бу биттә әлегә аңлатмалар юк.</translation>
+    </message>
+    <message>
+        <source>Waiting for moderation</source>
+        <translation>Модерация көтә</translation>
+    </message>
+    <message>
+        <source>Reply</source>
+        <translation>Җавап бирү</translation>
+    </message>
+    <message>
+        <source>Spam</source>
+        <translation>Спам</translation>
+    </message>
+    <message>
+        <source>Move "%name" to the trash as spam? It can be restored from the trash in the administration.</source>
+        <translation>"%name" спам буларак кәрзингә күчерелсенме? Аны идарәдә кәрзиннән кире кайтарып була.</translation>
+    </message>
+    <message>
+        <source>Spam ...</source>
+        <translation>Спам ...</translation>
+    </message>
+    <message>
+        <source>The comment is approved and shown on the page.</source>
+        <translation>Аңлатма расланды һәм биттә күрсәтелә.</translation>
+    </message>
+    <message>
+        <source>The comment is hidden.</source>
+        <translation>Аңлатма яшерелде.</translation>
+    </message>
+    <message>
+        <source>The comment was moved to the trash as spam.</source>
+        <translation>Аңлатма спам буларак кәрзингә күчерелде.</translation>
+    </message>
+    <message>
+        <source>A workflow holds this change. Find it in the administration.</source>
+        <translation>Эш агымы бу үзгәрешне тотып тора. Аны идарәдә табыгыз.</translation>
+    </message>
+    <message>
+        <source>Send the reply</source>
+        <translation>Җавапны җибәрү</translation>
+    </message>
+    <message>
+        <source>Write a comment</source>
+        <translation>Аңлатма язу</translation>
+    </message>
+    <message>
+        <source>Reply to "%name"</source>
+        <translation>"%name" аңлатмасына җавап</translation>
+    </message>
+    <message>
+        <source>Comment on this page</source>
+        <translation>Бу биткә аңлатма язу</translation>
+    </message>
+    <message>
+        <source>The reply is published on the page.</source>
+        <translation>Җавап биттә бастырылды.</translation>
+    </message>
+    <message>
+        <source>The reply waits for its approval.</source>
+        <translation>Җавап раслауны көтә.</translation>
+    </message>
+    <message>
+        <source>%n comments wait for moderation</source>
+        <translation>%n аңлатма модерация көтә</translation>
+    </message>
 </context>
 </TS>

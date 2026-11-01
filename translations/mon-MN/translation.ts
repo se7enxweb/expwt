@@ -1371,5 +1371,97 @@
         <source>Verify it's you</source>
         <translation>Энэ таныг мөн эсэхийг баталгаажуулна уу</translation>
     </message>
+    <message>
+        <source>There are no comments here.</source>
+        <translation>Энд сэтгэгдэл алга.</translation>
+    </message>
+    <message>
+        <source>This comment is not there any more, or you may not read it.</source>
+        <translation>Энэ сэтгэгдэл байхаа больсон, эсвэл та үүнийг унших эрхгүй.</translation>
+    </message>
+    <message>
+        <source>There is no such decision.</source>
+        <translation>Ийм шийдвэр байхгүй.</translation>
+    </message>
+    <message>
+        <source>Write the reply first.</source>
+        <translation>Эхлээд хариултаа бичнэ үү.</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>Сэтгэгдэл</translation>
+    </message>
+    <message>
+        <source>%n wait for moderation</source>
+        <translation>%n хяналт хүлээж байна</translation>
+    </message>
+    <message>
+        <source>No comments on this page yet.</source>
+        <translation>Энэ хуудсанд одоогоор сэтгэгдэл алга.</translation>
+    </message>
+    <message>
+        <source>Waiting for moderation</source>
+        <translation>Хяналт хүлээж байна</translation>
+    </message>
+    <message>
+        <source>Reply</source>
+        <translation>Хариулах</translation>
+    </message>
+    <message>
+        <source>Spam</source>
+        <translation>Спам</translation>
+    </message>
+    <message>
+        <source>Move "%name" to the trash as spam? It can be restored from the trash in the administration.</source>
+        <translation>"%name"-г спам гэж хогийн сав руу зөөх үү? Үүнийг удирдлагад хогийн савнаас сэргээж болно.</translation>
+    </message>
+    <message>
+        <source>Spam ...</source>
+        <translation>Спам ...</translation>
+    </message>
+    <message>
+        <source>The comment is approved and shown on the page.</source>
+        <translation>Сэтгэгдлийг зөвшөөрч, хуудсанд харуулж байна.</translation>
+    </message>
+    <message>
+        <source>The comment is hidden.</source>
+        <translation>Сэтгэгдлийг нуусан.</translation>
+    </message>
+    <message>
+        <source>The comment was moved to the trash as spam.</source>
+        <translation>Сэтгэгдлийг спам гэж хогийн сав руу зөөсөн.</translation>
+    </message>
+    <message>
+        <source>A workflow holds this change. Find it in the administration.</source>
+        <translation>Ажлын урсгал энэ өөрчлөлтийг барьж байна. Удирдлагаас олно уу.</translation>
+    </message>
+    <message>
+        <source>Send the reply</source>
+        <translation>Хариулт илгээх</translation>
+    </message>
+    <message>
+        <source>Write a comment</source>
+        <translation>Сэтгэгдэл бичих</translation>
+    </message>
+    <message>
+        <source>Reply to "%name"</source>
+        <translation>"%name"-д хариулах</translation>
+    </message>
+    <message>
+        <source>Comment on this page</source>
+        <translation>Энэ хуудсанд сэтгэгдэл үлдээх</translation>
+    </message>
+    <message>
+        <source>The reply is published on the page.</source>
+        <translation>Хариулт хуудсанд нийтлэгдсэн.</translation>
+    </message>
+    <message>
+        <source>The reply waits for its approval.</source>
+        <translation>Хариулт зөвшөөрөл хүлээж байна.</translation>
+    </message>
+    <message>
+        <source>%n comments wait for moderation</source>
+        <translation>%n сэтгэгдэл хяналт хүлээж байна</translation>
+    </message>
 </context>
 </TS>

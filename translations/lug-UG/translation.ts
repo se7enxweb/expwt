@@ -1371,5 +1371,97 @@
         <source>Verify it's you</source>
         <translation>Kakasa nti ggwe</translation>
     </message>
+    <message>
+        <source>There are no comments here.</source>
+        <translation>Wano tewali birowoozo.</translation>
+    </message>
+    <message>
+        <source>This comment is not there any more, or you may not read it.</source>
+        <translation>Ekirowoozo kino tekikyaliwo, oba tokkirizibwa kukisoma.</translation>
+    </message>
+    <message>
+        <source>There is no such decision.</source>
+        <translation>Tewali kusalawo ng'okwo.</translation>
+    </message>
+    <message>
+        <source>Write the reply first.</source>
+        <translation>Sooka owandiike okuddamu.</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>Ebirowoozo</translation>
+    </message>
+    <message>
+        <source>%n wait for moderation</source>
+        <translation>%n birindiridde okwekenneenya</translation>
+    </message>
+    <message>
+        <source>No comments on this page yet.</source>
+        <translation>Tewannabaawo birowoozo ku lupapula luno.</translation>
+    </message>
+    <message>
+        <source>Waiting for moderation</source>
+        <translation>Kirindiridde okwekenneenya</translation>
+    </message>
+    <message>
+        <source>Reply</source>
+        <translation>Ddamu</translation>
+    </message>
+    <message>
+        <source>Spam</source>
+        <translation>Spam</translation>
+    </message>
+    <message>
+        <source>Move "%name" to the trash as spam? It can be restored from the trash in the administration.</source>
+        <translation>Teeka "%name" mu kasasiro nga spam? Kisobola okuzzibwawo okuva mu kasasiro mu buwanika.</translation>
+    </message>
+    <message>
+        <source>Spam ...</source>
+        <translation>Spam ...</translation>
+    </message>
+    <message>
+        <source>The comment is approved and shown on the page.</source>
+        <translation>Ekirowoozo kikkiriziddwa era kiragibwa ku lupapula.</translation>
+    </message>
+    <message>
+        <source>The comment is hidden.</source>
+        <translation>Ekirowoozo kikwekeddwa.</translation>
+    </message>
+    <message>
+        <source>The comment was moved to the trash as spam.</source>
+        <translation>Ekirowoozo kitereddwa mu kasasiro nga spam.</translation>
+    </message>
+    <message>
+        <source>A workflow holds this change. Find it in the administration.</source>
+        <translation>Enkola y'emirimu ekutte enkyukakyuka eno. Ginoonye mu buwanika.</translation>
+    </message>
+    <message>
+        <source>Send the reply</source>
+        <translation>Weereza okuddamu</translation>
+    </message>
+    <message>
+        <source>Write a comment</source>
+        <translation>Wandiika ekirowoozo</translation>
+    </message>
+    <message>
+        <source>Reply to "%name"</source>
+        <translation>Okuddamu eri "%name"</translation>
+    </message>
+    <message>
+        <source>Comment on this page</source>
+        <translation>Wa ekirowoozo ku lupapula luno</translation>
+    </message>
+    <message>
+        <source>The reply is published on the page.</source>
+        <translation>Okuddamu kufulumiziddwa ku lupapula.</translation>
+    </message>
+    <message>
+        <source>The reply waits for its approval.</source>
+        <translation>Okuddamu kulindiridde okukkirizibwa.</translation>
+    </message>
+    <message>
+        <source>%n comments wait for moderation</source>
+        <translation>Ebirowoozo %n birindiridde okwekenneenya</translation>
+    </message>
 </context>
 </TS>

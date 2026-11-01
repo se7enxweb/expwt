@@ -1371,5 +1371,97 @@
         <source>Verify it's you</source>
         <translation>אימות זהות</translation>
     </message>
+    <message>
+        <source>There are no comments here.</source>
+        <translation>אין כאן תגובות.</translation>
+    </message>
+    <message>
+        <source>This comment is not there any more, or you may not read it.</source>
+        <translation>התגובה הזו כבר לא קיימת, או שאין לך הרשאה לקרוא אותה.</translation>
+    </message>
+    <message>
+        <source>There is no such decision.</source>
+        <translation>אין החלטה כזו.</translation>
+    </message>
+    <message>
+        <source>Write the reply first.</source>
+        <translation>יש לכתוב קודם את התשובה.</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>תגובות</translation>
+    </message>
+    <message>
+        <source>%n wait for moderation</source>
+        <translation>%n ממתינות לניהול</translation>
+    </message>
+    <message>
+        <source>No comments on this page yet.</source>
+        <translation>אין עדיין תגובות בדף הזה.</translation>
+    </message>
+    <message>
+        <source>Waiting for moderation</source>
+        <translation>ממתינה לניהול</translation>
+    </message>
+    <message>
+        <source>Reply</source>
+        <translation>תשובה</translation>
+    </message>
+    <message>
+        <source>Spam</source>
+        <translation>ספאם</translation>
+    </message>
+    <message>
+        <source>Move "%name" to the trash as spam? It can be restored from the trash in the administration.</source>
+        <translation>להעביר את "%name" לסל המחזור כספאם? אפשר לשחזר אותה מסל המחזור בניהול.</translation>
+    </message>
+    <message>
+        <source>Spam ...</source>
+        <translation>ספאם ...</translation>
+    </message>
+    <message>
+        <source>The comment is approved and shown on the page.</source>
+        <translation>התגובה אושרה ומוצגת בדף.</translation>
+    </message>
+    <message>
+        <source>The comment is hidden.</source>
+        <translation>התגובה הוסתרה.</translation>
+    </message>
+    <message>
+        <source>The comment was moved to the trash as spam.</source>
+        <translation>התגובה הועברה לסל המחזור כספאם.</translation>
+    </message>
+    <message>
+        <source>A workflow holds this change. Find it in the administration.</source>
+        <translation>תהליך עבודה מעכב את השינוי הזה. אפשר למצוא אותו בניהול.</translation>
+    </message>
+    <message>
+        <source>Send the reply</source>
+        <translation>שליחת התשובה</translation>
+    </message>
+    <message>
+        <source>Write a comment</source>
+        <translation>כתיבת תגובה</translation>
+    </message>
+    <message>
+        <source>Reply to "%name"</source>
+        <translation>תשובה ל"%name"</translation>
+    </message>
+    <message>
+        <source>Comment on this page</source>
+        <translation>הגבה על הדף הזה</translation>
+    </message>
+    <message>
+        <source>The reply is published on the page.</source>
+        <translation>התשובה פורסמה בדף.</translation>
+    </message>
+    <message>
+        <source>The reply waits for its approval.</source>
+        <translation>התשובה ממתינה לאישור.</translation>
+    </message>
+    <message>
+        <source>%n comments wait for moderation</source>
+        <translation>%n תגובות ממתינות לניהול</translation>
+    </message>
 </context>
 </TS>

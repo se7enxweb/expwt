@@ -1371,5 +1371,97 @@
         <source>Verify it's you</source>
         <translation>Ɖe kpeɖodzi be wòe</translation>
     </message>
+    <message>
+        <source>There are no comments here.</source>
+        <translation>Nukpɔsusu aɖeke mele afii o.</translation>
+    </message>
+    <message>
+        <source>This comment is not there any more, or you may not read it.</source>
+        <translation>Nukpɔsusu sia meli o, alo womeɖe mɔ na wò be nàxlẽe o.</translation>
+    </message>
+    <message>
+        <source>There is no such decision.</source>
+        <translation>Nyametsotso ma tɔgbi meli o.</translation>
+    </message>
+    <message>
+        <source>Write the reply first.</source>
+        <translation>Ŋlɔ ŋuɖoɖoa gbã.</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>Nukpɔsusuwo</translation>
+    </message>
+    <message>
+        <source>%n wait for moderation</source>
+        <translation>%n le lalam na dzikpɔkpɔ</translation>
+    </message>
+    <message>
+        <source>No comments on this page yet.</source>
+        <translation>Nukpɔsusu aɖeke mele axa sia dzi haɖe o.</translation>
+    </message>
+    <message>
+        <source>Waiting for moderation</source>
+        <translation>Ele lalam na dzikpɔkpɔ</translation>
+    </message>
+    <message>
+        <source>Reply</source>
+        <translation>Ɖo eŋu</translation>
+    </message>
+    <message>
+        <source>Spam</source>
+        <translation>Gbedeasi manyomanyo</translation>
+    </message>
+    <message>
+        <source>Move "%name" to the trash as spam? It can be restored from the trash in the administration.</source>
+        <translation>Tsɔ "%name" yi nugbegblẽƒe abe gbedeasi manyomanyo ene? Woate ŋu agbugbɔe tso nugbegblẽƒe le dzikpɔƒe.</translation>
+    </message>
+    <message>
+        <source>Spam ...</source>
+        <translation>Gbedeasi manyomanyo ...</translation>
+    </message>
+    <message>
+        <source>The comment is approved and shown on the page.</source>
+        <translation>Wolɔ̃ ɖe nukpɔsusua dzi eye wòle axaa dzi.</translation>
+    </message>
+    <message>
+        <source>The comment is hidden.</source>
+        <translation>Woɣla nukpɔsusua.</translation>
+    </message>
+    <message>
+        <source>The comment was moved to the trash as spam.</source>
+        <translation>Wotsɔ nukpɔsusua yi nugbegblẽƒe abe gbedeasi manyomanyo ene.</translation>
+    </message>
+    <message>
+        <source>A workflow holds this change. Find it in the administration.</source>
+        <translation>Dɔwɔɖoɖo aɖe lé tɔtrɔ sia ɖe asi. Di le dzikpɔƒe.</translation>
+    </message>
+    <message>
+        <source>Send the reply</source>
+        <translation>Ɖo ŋuɖoɖoa ɖa</translation>
+    </message>
+    <message>
+        <source>Write a comment</source>
+        <translation>Ŋlɔ nukpɔsusu</translation>
+    </message>
+    <message>
+        <source>Reply to "%name"</source>
+        <translation>Ŋuɖoɖo na "%name"</translation>
+    </message>
+    <message>
+        <source>Comment on this page</source>
+        <translation>Gblɔ wò nukpɔsusu le axa sia ŋu</translation>
+    </message>
+    <message>
+        <source>The reply is published on the page.</source>
+        <translation>Woɖe ŋuɖoɖoa ɖe go le axaa dzi.</translation>
+    </message>
+    <message>
+        <source>The reply waits for its approval.</source>
+        <translation>Ŋuɖoɖoa le lalam na eƒe dzi lɔlɔ̃.</translation>
+    </message>
+    <message>
+        <source>%n comments wait for moderation</source>
+        <translation>Nukpɔsusu %n le lalam na dzikpɔkpɔ</translation>
+    </message>
 </context>
 </TS>

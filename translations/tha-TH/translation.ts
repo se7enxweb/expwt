@@ -1371,5 +1371,97 @@
         <source>Verify it's you</source>
         <translation>ยืนยันว่าเป็นคุณ</translation>
     </message>
+    <message>
+        <source>There are no comments here.</source>
+        <translation>ไม่มีความคิดเห็นที่นี่</translation>
+    </message>
+    <message>
+        <source>This comment is not there any more, or you may not read it.</source>
+        <translation>ความคิดเห็นนี้ไม่มีอยู่แล้ว หรือคุณไม่ได้รับอนุญาตให้อ่าน</translation>
+    </message>
+    <message>
+        <source>There is no such decision.</source>
+        <translation>ไม่มีการตัดสินใจแบบนั้น</translation>
+    </message>
+    <message>
+        <source>Write the reply first.</source>
+        <translation>เขียนคำตอบก่อน</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>ความคิดเห็น</translation>
+    </message>
+    <message>
+        <source>%n wait for moderation</source>
+        <translation>%n รายการรอการตรวจสอบ</translation>
+    </message>
+    <message>
+        <source>No comments on this page yet.</source>
+        <translation>ยังไม่มีความคิดเห็นในหน้านี้</translation>
+    </message>
+    <message>
+        <source>Waiting for moderation</source>
+        <translation>รอการตรวจสอบ</translation>
+    </message>
+    <message>
+        <source>Reply</source>
+        <translation>ตอบกลับ</translation>
+    </message>
+    <message>
+        <source>Spam</source>
+        <translation>สแปม</translation>
+    </message>
+    <message>
+        <source>Move "%name" to the trash as spam? It can be restored from the trash in the administration.</source>
+        <translation>ย้าย "%name" ไปถังขยะเป็นสแปมหรือไม่ สามารถกู้คืนจากถังขยะได้ในส่วนการจัดการ</translation>
+    </message>
+    <message>
+        <source>Spam ...</source>
+        <translation>สแปม ...</translation>
+    </message>
+    <message>
+        <source>The comment is approved and shown on the page.</source>
+        <translation>อนุมัติความคิดเห็นแล้วและแสดงบนหน้า</translation>
+    </message>
+    <message>
+        <source>The comment is hidden.</source>
+        <translation>ซ่อนความคิดเห็นแล้ว</translation>
+    </message>
+    <message>
+        <source>The comment was moved to the trash as spam.</source>
+        <translation>ย้ายความคิดเห็นไปถังขยะเป็นสแปมแล้ว</translation>
+    </message>
+    <message>
+        <source>A workflow holds this change. Find it in the administration.</source>
+        <translation>เวิร์กโฟลว์กำลังระงับการเปลี่ยนแปลงนี้ไว้ ค้นหาได้ในส่วนการจัดการ</translation>
+    </message>
+    <message>
+        <source>Send the reply</source>
+        <translation>ส่งคำตอบ</translation>
+    </message>
+    <message>
+        <source>Write a comment</source>
+        <translation>เขียนความคิดเห็น</translation>
+    </message>
+    <message>
+        <source>Reply to "%name"</source>
+        <translation>ตอบกลับ "%name"</translation>
+    </message>
+    <message>
+        <source>Comment on this page</source>
+        <translation>แสดงความคิดเห็นในหน้านี้</translation>
+    </message>
+    <message>
+        <source>The reply is published on the page.</source>
+        <translation>เผยแพร่คำตอบบนหน้าแล้ว</translation>
+    </message>
+    <message>
+        <source>The reply waits for its approval.</source>
+        <translation>คำตอบกำลังรอการอนุมัติ</translation>
+    </message>
+    <message>
+        <source>%n comments wait for moderation</source>
+        <translation>%n ความคิดเห็นรอการตรวจสอบ</translation>
+    </message>
 </context>
 </TS>

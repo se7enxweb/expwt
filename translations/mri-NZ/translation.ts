@@ -1371,5 +1371,97 @@
         <source>Verify it's you</source>
         <translation>Whakaūngia ko koe tēnei</translation>
     </message>
+    <message>
+        <source>There are no comments here.</source>
+        <translation>Kāore he kōrero tāpiri i konei.</translation>
+    </message>
+    <message>
+        <source>This comment is not there any more, or you may not read it.</source>
+        <translation>Kāore tēnei kōrero tāpiri i konei i ēnei rā, kāore rānei koe e whakaaetia ki te pānui.</translation>
+    </message>
+    <message>
+        <source>There is no such decision.</source>
+        <translation>Kāore he whakataunga pērā.</translation>
+    </message>
+    <message>
+        <source>Write the reply first.</source>
+        <translation>Tuhia te whakautu i te tuatahi.</translation>
+    </message>
+    <message>
+        <source>Comments</source>
+        <translation>Kōrero tāpiri</translation>
+    </message>
+    <message>
+        <source>%n wait for moderation</source>
+        <translation>%n e tatari ana kia arotakea</translation>
+    </message>
+    <message>
+        <source>No comments on this page yet.</source>
+        <translation>Kāore anō he kōrero tāpiri ki tēnei whārangi.</translation>
+    </message>
+    <message>
+        <source>Waiting for moderation</source>
+        <translation>E tatari ana kia arotakea</translation>
+    </message>
+    <message>
+        <source>Reply</source>
+        <translation>Whakautu</translation>
+    </message>
+    <message>
+        <source>Spam</source>
+        <translation>Pāme</translation>
+    </message>
+    <message>
+        <source>Move "%name" to the trash as spam? It can be restored from the trash in the administration.</source>
+        <translation>Me nuku "%name" ki te para hei pāme? Ka taea te whakahoki mai i te para i te whakahaere.</translation>
+    </message>
+    <message>
+        <source>Spam ...</source>
+        <translation>Pāme ...</translation>
+    </message>
+    <message>
+        <source>The comment is approved and shown on the page.</source>
+        <translation>Kua whakaaetia te kōrero tāpiri, ā, e whakaaturia ana ki te whārangi.</translation>
+    </message>
+    <message>
+        <source>The comment is hidden.</source>
+        <translation>Kua hunaia te kōrero tāpiri.</translation>
+    </message>
+    <message>
+        <source>The comment was moved to the trash as spam.</source>
+        <translation>Kua nukuhia te kōrero tāpiri ki te para hei pāme.</translation>
+    </message>
+    <message>
+        <source>A workflow holds this change. Find it in the administration.</source>
+        <translation>Kei te pupuri tētahi rerenga mahi i tēnei panoni. Kimihia i te whakahaere.</translation>
+    </message>
+    <message>
+        <source>Send the reply</source>
+        <translation>Tukuna te whakautu</translation>
+    </message>
+    <message>
+        <source>Write a comment</source>
+        <translation>Tuhia he kōrero tāpiri</translation>
+    </message>
+    <message>
+        <source>Reply to "%name"</source>
+        <translation>Whakautu ki "%name"</translation>
+    </message>
+    <message>
+        <source>Comment on this page</source>
+        <translation>Tuku kōrero mō tēnei whārangi</translation>
+    </message>
+    <message>
+        <source>The reply is published on the page.</source>
+        <translation>Kua whakaputaina te whakautu ki te whārangi.</translation>
+    </message>
+    <message>
+        <source>The reply waits for its approval.</source>
+        <translation>Kei te tatari te whakautu kia whakaaetia.</translation>
+    </message>
+    <message>
+        <source>%n comments wait for moderation</source>
+        <translation>%n kōrero tāpiri e tatari ana kia arotakea</translation>
+    </message>
 </context>
 </TS>

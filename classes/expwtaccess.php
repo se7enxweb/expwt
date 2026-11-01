@@ -73,6 +73,14 @@ class expwtAccess
         'newsletter.create' => array( 'edit', true, 'content', 'edit', 'PublishButton' ),
         'newsletter.test'   => array( 'edit', true, 'newsletter', 'send', 'SendNewsletterTestButton' ),
         'newsletter.send'   => array( 'edit', true, 'newsletter', 'send', 'SendNewsletterButton' ),
+        // the page's comments, moderated in place (E4): the comments are content below the page, so the kernel's content
+        // policies decide (approve and hide: content/hide of the comment; spam: content/remove, to the trash; a reply:
+        // content/create of a comment below the page, published through the kernel's workflows)
+        'comments.load'     => array( 'edit', false, '', '', '' ),
+        'comments.approve'  => array( 'edit', true, 'content', 'hide', '' ),
+        'comments.hide'     => array( 'edit', true, 'content', 'hide', '' ),
+        'comments.spam'     => array( 'edit', true, 'content', 'removeobject', 'ConfirmButton' ),
+        'comments.reply'    => array( 'edit', true, 'content', 'edit', 'PublishButton' ),
     );
 
     /**
