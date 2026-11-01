@@ -1867,5 +1867,81 @@
         <source>Saved: the sizes are made again around the focal point.</source>
         <translation>Vurkejuvvon: sturrodagat dahkkojuvvojit ođđasit fokusčuoggá birra.</translation>
     </message>
+    <message>
+        <source>Devices</source>
+        <translation>Neavvut</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>Veršuvdna</translation>
+    </message>
+    <message>
+        <source>Your draft of %time</source>
+        <translation>Du luonos %time</translation>
+    </message>
+    <message>
+        <source>From %min to %max pixels</source>
+        <translation>%min rájes %max piksela rádjai</translation>
+    </message>
+    <message>
+        <source>The width must be a whole number from %min to %max.</source>
+        <translation>Govddas ferte leat ollesloguhus %min rájes %max rádjai.</translation>
+    </message>
+    <message>
+        <source>A frame %w pixels wide was added.</source>
+        <translation>Rámma mas govddas lea %w piksela lasihuvvui.</translation>
+    </message>
+    <message>
+        <source>A width of your own</source>
+        <translation>Iežat govddas</translation>
+    </message>
+    <message>
+        <source>Add the frame</source>
+        <translation>Lasit rámma</translation>
+    </message>
+    <message>
+        <source>Load again</source>
+        <translation>Viečča ođđasit</translation>
+    </message>
+    <message>
+        <source>Device preview</source>
+        <translation>Neavvuid ovdačájeheapmi</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page: the frames show the published page.</source>
+        <translation>Dus ii leat dán siidduid luonos: rámmat čájehit almmuhuvvon siiddu.</translation>
+    </message>
+    <message>
+        <source>Preview on %device</source>
+        <translation>Ovdačájeheapmi %device alde</translation>
+    </message>
+    <message>
+        <source>%w × %h</source>
+        <translation>%w × %h</translation>
+    </message>
+    <message>
+        <source>Remove the frame</source>
+        <translation>Eastit rámma</translation>
+    </message>
+    <message>
+        <source>%w pixels wide</source>
+        <translation>%w piksela govddas</translation>
+    </message>
+    <message>
+        <source>Choose a device above.</source>
+        <translation>Vállje neavvu bajábealde.</translation>
+    </message>
+    <message>
+        <source>Tablet</source>
+        <translation>Tabletta</translation>
+    </message>
+    <message>
+        <source>Desktop</source>
+        <translation>Beavdedihtor</translation>
+    </message>
+    <message>
+        <source>1920 wide at 200% zoom</source>
+        <translation>1920 govddas 200 % stuorrudusas</translation>
+    </message>
 </context>
 </TS>

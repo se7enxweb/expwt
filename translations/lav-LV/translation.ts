@@ -1867,5 +1867,81 @@
         <source>Saved: the sizes are made again around the focal point.</source>
         <translation>Saglabāts: izmēri tiek izveidoti no jauna ap fokusa punktu.</translation>
     </message>
+    <message>
+        <source>Devices</source>
+        <translation>Ierīces</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>Versija</translation>
+    </message>
+    <message>
+        <source>Your draft of %time</source>
+        <translation>Jūsu melnraksts no %time</translation>
+    </message>
+    <message>
+        <source>From %min to %max pixels</source>
+        <translation>No %min līdz %max pikseļiem</translation>
+    </message>
+    <message>
+        <source>The width must be a whole number from %min to %max.</source>
+        <translation>Platumam jābūt veselam skaitlim no %min līdz %max.</translation>
+    </message>
+    <message>
+        <source>A frame %w pixels wide was added.</source>
+        <translation>Pievienots %w pikseļu plats kadrs.</translation>
+    </message>
+    <message>
+        <source>A width of your own</source>
+        <translation>Pašu izvēlēts platums</translation>
+    </message>
+    <message>
+        <source>Add the frame</source>
+        <translation>Pievienot kadru</translation>
+    </message>
+    <message>
+        <source>Load again</source>
+        <translation>Ielādēt vēlreiz</translation>
+    </message>
+    <message>
+        <source>Device preview</source>
+        <translation>Ierīces priekšskatījums</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page: the frames show the published page.</source>
+        <translation>Jums nav šīs lapas melnraksta: kadros redzama publicētā lapa.</translation>
+    </message>
+    <message>
+        <source>Preview on %device</source>
+        <translation>Priekšskatījums ierīcē %device</translation>
+    </message>
+    <message>
+        <source>%w × %h</source>
+        <translation>%w × %h</translation>
+    </message>
+    <message>
+        <source>Remove the frame</source>
+        <translation>Noņemt kadru</translation>
+    </message>
+    <message>
+        <source>%w pixels wide</source>
+        <translation>%w pikseļu plats</translation>
+    </message>
+    <message>
+        <source>Choose a device above.</source>
+        <translation>Izvēlieties ierīci augstāk.</translation>
+    </message>
+    <message>
+        <source>Tablet</source>
+        <translation>Planšetdators</translation>
+    </message>
+    <message>
+        <source>Desktop</source>
+        <translation>Galddators</translation>
+    </message>
+    <message>
+        <source>1920 wide at 200% zoom</source>
+        <translation>1920 plats ar 200% tālummaiņu</translation>
+    </message>
 </context>
 </TS>

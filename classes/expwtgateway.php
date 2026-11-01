@@ -2527,6 +2527,76 @@ class expwtGateway
         return rtrim( eZSys::wwwDir(), '/' ) . '/' . ltrim( $path, '/' );
     }
 
+    // ------------------------------------------------------------------------------------------------ the device preview
+
+    /**
+     * The device preview of the page (E8): the frames of expwt.ini [DevicePreviewSettings] (their names translated)
+     * and the two addresses a frame may show, the published page and the user's own newest draft of it in the
+     * language (the kernel's content/versionview, which checks again that the user may read it). Read-only.
+     *
+     * @param array $in nodeId, language (optional: the page's language here)
+     * @return array devices, shown, custom, urls (published, draft), draft (version, modified) or null
+     */
+    public function previewDevices( array $in )
+    {
+        $node = isset( $in['nodeId'] ) ? eZContentObjectTreeNode::fetch( $in['nodeId'] ) : null;
+        if ( !$node instanceof eZContentObjectTreeNode || !$node->canRead() )
+            throw new expwtApiError( 404, 'not_found', 'This page is not there, or you may not read it.' );
+        $object = $node->object();
+        if ( !$object instanceof eZContentObject )
+            throw new expwtApiError( 404, 'not_found', 'This page is not there, or you may not read it.' );
+        $language = isset( $in['language'] ) && preg_match( '/^[a-z]{3}-[A-Z]{2}$/', $in['language'] ) ? $in['language'] : '';
+        if ( $language === '' )
+            $language = method_exists( $node, 'currentLanguage' ) && $node->currentLanguage() ? (string)$node->currentLanguage()
+                                                                                                 : (string)$object->attribute( 'initial_language_code' );
+        $draft = $this->latestOwnDraft( $object, $language );
+        $id = (int)$object->attribute( 'id' );
+        return self::devicesView( $this->settings,
+            self::url( '/' . ltrim( (string)$node->attribute( 'url_alias' ), '/' ) ),
+            $draft ? self::url( '/content/versionview/' . $id . '/' . (int)$draft->attribute( 'version' ) . '/' . $language ) : null,
+            $draft ? array( 'version' => (int)$draft->attribute( 'version' ), 'modified' => (int)$draft->attribute( 'modified' ) ) : null,
+            function ( $name ) { return expwtStrings::tr( $name ); } );
+    }
+
+    /**
+     * Pure: what the device preview gets. Every address carries ?in=sidebar, so the page in a frame comes without a
+     * sidebar and a debug bar of its own (expwtHook::framePage()).
+     *
+     * @param array $settings expwtSettings
+     * @param string $published the page's address
+     * @param string|null $draft the address of the user's draft
+     * @param array|null $draftInfo version, modified
+     * @param callable $tr translates a device's name
+     * @return array
+     */
+    public static function devicesView( array $settings, $published, $draft, $draftInfo, callable $tr )
+    {
+        $devices = array();
+        foreach ( $settings['devices'] as $d )
+            $devices[] = array( 'name' => (string)call_user_func( $tr, $d['name'] ) ) + $d;
+        $ids = array_map( function ( $d ) { return $d['id']; }, $devices );
+        return array(
+            'devices' => $devices,
+            'shown' => $settings['devices_shown'] ? array_values( $settings['devices_shown'] ) : $ids,
+            'custom' => array( 'min' => expwtSettings::DEVICE_MIN, 'max' => expwtSettings::DEVICE_MAX_WIDTH, 'height' => 900 ),
+            'urls' => array( 'published' => self::framed( $published ), 'draft' => $draft !== null ? self::framed( $draft ) : null ),
+            'draft' => $draft !== null ? $draftInfo : null,
+        );
+    }
+
+    /** Pure: an address of the site with in=sidebar added (no sidebar and no debug bar in the page it shows) */
+    public static function framed( $url )
+    {
+        $url = (string)$url;
+        $hash = '';
+        if ( ( $at = strpos( $url, '#' ) ) !== false )
+        {
+            $hash = substr( $url, $at );
+            $url = substr( $url, 0, $at );
+        }
+        return $url . ( strpos( $url, '?' ) === false ? '?' : '&' ) . 'in=sidebar' . $hash;
+    }
+
     // ------------------------------------------------------------------------------------------------ the inbox
 
     /** @return bool the user may use the kernel's collaboration (the module's policy), where the approvals are */

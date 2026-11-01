@@ -1867,5 +1867,81 @@
         <source>Saved: the sizes are made again around the focal point.</source>
         <translation>Mooftaama: mawnuuji ɗii ina waɗee kadi takko tonngoode hakkille.</translation>
     </message>
+    <message>
+        <source>Devices</source>
+        <translation>Kuutiniiɗe</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>Version</translation>
+    </message>
+    <message>
+        <source>Your draft of %time</source>
+        <translation>Daartol maa e %time</translation>
+    </message>
+    <message>
+        <source>From %min to %max pixels</source>
+        <translation>Immorde %min haa %max pikseli</translation>
+    </message>
+    <message>
+        <source>The width must be a whole number from %min to %max.</source>
+        <translation>Yaajeende ina haani wona limngal timmungal immorde %min haa %max.</translation>
+    </message>
+    <message>
+        <source>A frame %w pixels wide was added.</source>
+        <translation>Foɗɗaama kaadiri yaajeende pikseli %w.</translation>
+    </message>
+    <message>
+        <source>A width of your own</source>
+        <translation>Yaajeende maa jey-maa</translation>
+    </message>
+    <message>
+        <source>Add the frame</source>
+        <translation>Ɓeydu kaadiri</translation>
+    </message>
+    <message>
+        <source>Load again</source>
+        <translation>Loowtu fahin</translation>
+    </message>
+    <message>
+        <source>Device preview</source>
+        <translation>Yiyde adan kuutiniiɗe</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page: the frames show the published page.</source>
+        <translation>A walaa daartol ngol hello: kaadirooji ɗin cetta hello yaltinaaŋgel.</translation>
+    </message>
+    <message>
+        <source>Preview on %device</source>
+        <translation>Yiyde adan e %device</translation>
+    </message>
+    <message>
+        <source>%w × %h</source>
+        <translation>%w × %h</translation>
+    </message>
+    <message>
+        <source>Remove the frame</source>
+        <translation>Ittu kaadiri</translation>
+    </message>
+    <message>
+        <source>%w pixels wide</source>
+        <translation>Yaajeende pikseli %w</translation>
+    </message>
+    <message>
+        <source>Choose a device above.</source>
+        <translation>Suɓtu kuutiniire dow.</translation>
+    </message>
+    <message>
+        <source>Tablet</source>
+        <translation>Tablet</translation>
+    </message>
+    <message>
+        <source>Desktop</source>
+        <translation>Desktop</translation>
+    </message>
+    <message>
+        <source>1920 wide at 200% zoom</source>
+        <translation>1920 yaajeende e zoom 200%</translation>
+    </message>
 </context>
 </TS>

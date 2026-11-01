@@ -1867,5 +1867,81 @@
         <source>Saved: the sizes are made again around the focal point.</source>
         <translation>محفوظ ہو گیا: سائز فوکل پوائنٹ دے دوالے مڑ بنائے جاندے نیں۔</translation>
     </message>
+    <message>
+        <source>Devices</source>
+        <translation>ڈیوائساں</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>ورژن</translation>
+    </message>
+    <message>
+        <source>Your draft of %time</source>
+        <translation>%time دا تہاڈا مسودہ</translation>
+    </message>
+    <message>
+        <source>From %min to %max pixels</source>
+        <translation>%min توں %max پکسل تک</translation>
+    </message>
+    <message>
+        <source>The width must be a whole number from %min to %max.</source>
+        <translation>چوڑائی %min توں %max تک پورا عدد ہونی چاہیدی اے۔</translation>
+    </message>
+    <message>
+        <source>A frame %w pixels wide was added.</source>
+        <translation>%w پکسل چوڑا فریم شامل کیتا گیا۔</translation>
+    </message>
+    <message>
+        <source>A width of your own</source>
+        <translation>تہاڈی اپنی چوڑائی</translation>
+    </message>
+    <message>
+        <source>Add the frame</source>
+        <translation>فریم شامل کرو</translation>
+    </message>
+    <message>
+        <source>Load again</source>
+        <translation>دوبارہ لوڈ کرو</translation>
+    </message>
+    <message>
+        <source>Device preview</source>
+        <translation>ڈیوائس جھلک</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page: the frames show the published page.</source>
+        <translation>تہاڈے کول اس صفحے دا کوئی مسودہ نئیں: فریم چھپیا ہویا صفحہ دکھاندے نیں۔</translation>
+    </message>
+    <message>
+        <source>Preview on %device</source>
+        <translation>%device اتے جھلک</translation>
+    </message>
+    <message>
+        <source>%w × %h</source>
+        <translation>%w × %h</translation>
+    </message>
+    <message>
+        <source>Remove the frame</source>
+        <translation>فریم ہٹاؤ</translation>
+    </message>
+    <message>
+        <source>%w pixels wide</source>
+        <translation>%w پکسل چوڑا</translation>
+    </message>
+    <message>
+        <source>Choose a device above.</source>
+        <translation>اتوں اک ڈیوائس چنو۔</translation>
+    </message>
+    <message>
+        <source>Tablet</source>
+        <translation>ٹیبلٹ</translation>
+    </message>
+    <message>
+        <source>Desktop</source>
+        <translation>ڈیسک ٹاپ</translation>
+    </message>
+    <message>
+        <source>1920 wide at 200% zoom</source>
+        <translation>200% زوم اتے 1920 چوڑا</translation>
+    </message>
 </context>
 </TS>

@@ -1867,5 +1867,81 @@
         <source>Saved: the sizes are made again around the focal point.</source>
         <translation>ບັນທຶກແລ້ວ: ຂະໜາດຕ່າງໆຖືກສ້າງຄືນອ້ອມຈຸດໂຟກັສ.</translation>
     </message>
+    <message>
+        <source>Devices</source>
+        <translation>ອຸປະກອນ</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>ເວີຊັນ</translation>
+    </message>
+    <message>
+        <source>Your draft of %time</source>
+        <translation>ສະບັບຮ່າງຂອງທ່ານ ເມື່ອ %time</translation>
+    </message>
+    <message>
+        <source>From %min to %max pixels</source>
+        <translation>ຈາກ %min ຫາ %max ພິກເຊວ</translation>
+    </message>
+    <message>
+        <source>The width must be a whole number from %min to %max.</source>
+        <translation>ຄວາມກວ້າງຕ້ອງເປັນຈຳນວນເຕັມ ຈາກ %min ຫາ %max.</translation>
+    </message>
+    <message>
+        <source>A frame %w pixels wide was added.</source>
+        <translation>ໄດ້ເພີ່ມກອບກວ້າງ %w ພິກເຊວແລ້ວ.</translation>
+    </message>
+    <message>
+        <source>A width of your own</source>
+        <translation>ຄວາມກວ້າງຂອງທ່ານເອງ</translation>
+    </message>
+    <message>
+        <source>Add the frame</source>
+        <translation>ເພີ່ມກອບ</translation>
+    </message>
+    <message>
+        <source>Load again</source>
+        <translation>ໂຫຼດໃໝ່</translation>
+    </message>
+    <message>
+        <source>Device preview</source>
+        <translation>ສະແດງຕົວຢ່າງອຸປະກອນ</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page: the frames show the published page.</source>
+        <translation>ທ່ານບໍ່ມີສະບັບຮ່າງຂອງໜ້ານີ້: ກອບສະແດງໜ້າທີ່ເຜີຍແຜ່ແລ້ວ.</translation>
+    </message>
+    <message>
+        <source>Preview on %device</source>
+        <translation>ສະແດງຕົວຢ່າງໃນ %device</translation>
+    </message>
+    <message>
+        <source>%w × %h</source>
+        <translation>%w × %h</translation>
+    </message>
+    <message>
+        <source>Remove the frame</source>
+        <translation>ລຶບກອບ</translation>
+    </message>
+    <message>
+        <source>%w pixels wide</source>
+        <translation>ກວ້າງ %w ພິກເຊວ</translation>
+    </message>
+    <message>
+        <source>Choose a device above.</source>
+        <translation>ເລືອກອຸປະກອນຂ້າງເທິງ.</translation>
+    </message>
+    <message>
+        <source>Tablet</source>
+        <translation>ແທັບເລັດ</translation>
+    </message>
+    <message>
+        <source>Desktop</source>
+        <translation>ເດັສທັອບ</translation>
+    </message>
+    <message>
+        <source>1920 wide at 200% zoom</source>
+        <translation>ກວ້າງ 1920 ທີ່ການຊູມ 200%</translation>
+    </message>
 </context>
 </TS>

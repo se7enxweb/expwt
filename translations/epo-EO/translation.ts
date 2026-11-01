@@ -1867,5 +1867,81 @@
         <source>Saved: the sizes are made again around the focal point.</source>
         <translation>Konservita: la grandoj estas refaritaj ĉirkaŭ la fokuspunkto.</translation>
     </message>
+    <message>
+        <source>Devices</source>
+        <translation>Aparatoj</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>Versio</translation>
+    </message>
+    <message>
+        <source>Your draft of %time</source>
+        <translation>Via malneto de %time</translation>
+    </message>
+    <message>
+        <source>From %min to %max pixels</source>
+        <translation>De %min ĝis %max bilderoj</translation>
+    </message>
+    <message>
+        <source>The width must be a whole number from %min to %max.</source>
+        <translation>La larĝo devas esti entjero de %min ĝis %max.</translation>
+    </message>
+    <message>
+        <source>A frame %w pixels wide was added.</source>
+        <translation>Kadro larĝa je %w bilderoj estis aldonita.</translation>
+    </message>
+    <message>
+        <source>A width of your own</source>
+        <translation>Via propra larĝo</translation>
+    </message>
+    <message>
+        <source>Add the frame</source>
+        <translation>Aldoni la kadron</translation>
+    </message>
+    <message>
+        <source>Load again</source>
+        <translation>Reŝargi</translation>
+    </message>
+    <message>
+        <source>Device preview</source>
+        <translation>Antaŭrigardo sur aparatoj</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page: the frames show the published page.</source>
+        <translation>Vi ne havas malneton de ĉi tiu paĝo: la kadroj montras la publikigitan paĝon.</translation>
+    </message>
+    <message>
+        <source>Preview on %device</source>
+        <translation>Antaŭrigardo sur %device</translation>
+    </message>
+    <message>
+        <source>%w × %h</source>
+        <translation>%w × %h</translation>
+    </message>
+    <message>
+        <source>Remove the frame</source>
+        <translation>Forigi la kadron</translation>
+    </message>
+    <message>
+        <source>%w pixels wide</source>
+        <translation>Larĝa je %w bilderoj</translation>
+    </message>
+    <message>
+        <source>Choose a device above.</source>
+        <translation>Elektu aparaton supre.</translation>
+    </message>
+    <message>
+        <source>Tablet</source>
+        <translation>Tabulkomputilo</translation>
+    </message>
+    <message>
+        <source>Desktop</source>
+        <translation>Labortablo</translation>
+    </message>
+    <message>
+        <source>1920 wide at 200% zoom</source>
+        <translation>1920 larĝa kun 200% zomo</translation>
+    </message>
 </context>
 </TS>

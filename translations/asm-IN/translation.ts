@@ -1867,5 +1867,81 @@
         <source>Saved: the sizes are made again around the focal point.</source>
         <translation>ছেভ কৰা হ'ল: আকাৰসমূহ ফ'কাল পইণ্টৰ চাৰিওফালে পুনৰ তৈয়াৰ কৰা হয়।</translation>
     </message>
+    <message>
+        <source>Devices</source>
+        <translation>ডিভাইচসমূহ</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>সংস্কৰণ</translation>
+    </message>
+    <message>
+        <source>Your draft of %time</source>
+        <translation>%time ৰ আপোনাৰ খচৰা</translation>
+    </message>
+    <message>
+        <source>From %min to %max pixels</source>
+        <translation>%min ৰ পৰা %max পিক্সেল</translation>
+    </message>
+    <message>
+        <source>The width must be a whole number from %min to %max.</source>
+        <translation>বহল %min ৰ পৰা %max লৈকে এটা সম্পূৰ্ণ সংখ্যা হ'ব লাগিব।</translation>
+    </message>
+    <message>
+        <source>A frame %w pixels wide was added.</source>
+        <translation>%w পিক্সেল বহলৰ এটা ফ্ৰেম যোগ কৰা হ'ল।</translation>
+    </message>
+    <message>
+        <source>A width of your own</source>
+        <translation>আপোনাৰ নিজৰ বহল</translation>
+    </message>
+    <message>
+        <source>Add the frame</source>
+        <translation>ফ্ৰেমটো যোগ কৰক</translation>
+    </message>
+    <message>
+        <source>Load again</source>
+        <translation>পুনৰ লোড কৰক</translation>
+    </message>
+    <message>
+        <source>Device preview</source>
+        <translation>ডিভাইচৰ পূৰ্বদৰ্শন</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page: the frames show the published page.</source>
+        <translation>এই পৃষ্ঠাৰ কোনো খচৰা আপোনাৰ নাই: ফ্ৰেমবোৰে প্ৰকাশিত পৃষ্ঠা দেখুৱাইছে।</translation>
+    </message>
+    <message>
+        <source>Preview on %device</source>
+        <translation>%device ত পূৰ্বদৰ্শন</translation>
+    </message>
+    <message>
+        <source>%w × %h</source>
+        <translation>%w × %h</translation>
+    </message>
+    <message>
+        <source>Remove the frame</source>
+        <translation>ফ্ৰেমটো আঁতৰাওক</translation>
+    </message>
+    <message>
+        <source>%w pixels wide</source>
+        <translation>%w পিক্সেল বহল</translation>
+    </message>
+    <message>
+        <source>Choose a device above.</source>
+        <translation>ওপৰত এটা ডিভাইচ বাছক।</translation>
+    </message>
+    <message>
+        <source>Tablet</source>
+        <translation>টেবলেট</translation>
+    </message>
+    <message>
+        <source>Desktop</source>
+        <translation>ডেস্কটপ</translation>
+    </message>
+    <message>
+        <source>1920 wide at 200% zoom</source>
+        <translation>২০০% জুমত ১৯২০ বহল</translation>
+    </message>
 </context>
 </TS>

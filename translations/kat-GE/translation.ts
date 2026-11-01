@@ -1867,5 +1867,81 @@
         <source>Saved: the sizes are made again around the focal point.</source>
         <translation>შენახულია: ზომები ხელახლა იქმნება ფოკუსის წერტილის გარშემო.</translation>
     </message>
+    <message>
+        <source>Devices</source>
+        <translation>მოწყობილობები</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>ვერსია</translation>
+    </message>
+    <message>
+        <source>Your draft of %time</source>
+        <translation>თქვენი მონახაზი, %time</translation>
+    </message>
+    <message>
+        <source>From %min to %max pixels</source>
+        <translation>%min-დან %max პიქსელამდე</translation>
+    </message>
+    <message>
+        <source>The width must be a whole number from %min to %max.</source>
+        <translation>სიგანე უნდა იყოს მთელი რიცხვი %min-დან %max-მდე.</translation>
+    </message>
+    <message>
+        <source>A frame %w pixels wide was added.</source>
+        <translation>დაემატა %w პიქსელის სიგანის ჩარჩო.</translation>
+    </message>
+    <message>
+        <source>A width of your own</source>
+        <translation>საკუთარი სიგანე</translation>
+    </message>
+    <message>
+        <source>Add the frame</source>
+        <translation>ჩარჩოს დამატება</translation>
+    </message>
+    <message>
+        <source>Load again</source>
+        <translation>ხელახლა ჩატვირთვა</translation>
+    </message>
+    <message>
+        <source>Device preview</source>
+        <translation>მოწყობილობის წინასწარი ნახვა</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page: the frames show the published page.</source>
+        <translation>ამ გვერდის მონახაზი არ გაქვთ: ჩარჩოებში გამოქვეყნებული გვერდი ჩანს.</translation>
+    </message>
+    <message>
+        <source>Preview on %device</source>
+        <translation>წინასწარი ნახვა: %device</translation>
+    </message>
+    <message>
+        <source>%w × %h</source>
+        <translation>%w × %h</translation>
+    </message>
+    <message>
+        <source>Remove the frame</source>
+        <translation>ჩარჩოს წაშლა</translation>
+    </message>
+    <message>
+        <source>%w pixels wide</source>
+        <translation>%w პიქსელის სიგანე</translation>
+    </message>
+    <message>
+        <source>Choose a device above.</source>
+        <translation>აირჩიეთ მოწყობილობა ზემოთ.</translation>
+    </message>
+    <message>
+        <source>Tablet</source>
+        <translation>ტაბლეტი</translation>
+    </message>
+    <message>
+        <source>Desktop</source>
+        <translation>დესკტოპი</translation>
+    </message>
+    <message>
+        <source>1920 wide at 200% zoom</source>
+        <translation>1920 სიგანე 200%-იანი მასშტაბით</translation>
+    </message>
 </context>
 </TS>

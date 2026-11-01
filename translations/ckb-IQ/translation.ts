@@ -1867,5 +1867,81 @@
         <source>Saved: the sizes are made again around the focal point.</source>
         <translation>پاشەکەوت کرا: قەبارەکان دووبارە لە دەوری خاڵی سەرنج دروست دەکرێنەوە.</translation>
     </message>
+    <message>
+        <source>Devices</source>
+        <translation>ئامێرەکان</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>وەشان</translation>
+    </message>
+    <message>
+        <source>Your draft of %time</source>
+        <translation>ڕەشنووسەکەت لە %time</translation>
+    </message>
+    <message>
+        <source>From %min to %max pixels</source>
+        <translation>لە %min بۆ %max پیکسڵ</translation>
+    </message>
+    <message>
+        <source>The width must be a whole number from %min to %max.</source>
+        <translation>پانی دەبێت ژمارەیەکی تەواو بێت لە %min بۆ %max.</translation>
+    </message>
+    <message>
+        <source>A frame %w pixels wide was added.</source>
+        <translation>چوارچێوەیەک بە پانی %w پیکسڵ زیادکرا.</translation>
+    </message>
+    <message>
+        <source>A width of your own</source>
+        <translation>پانییەکی خۆت</translation>
+    </message>
+    <message>
+        <source>Add the frame</source>
+        <translation>چوارچێوەکە زیاد بکە</translation>
+    </message>
+    <message>
+        <source>Load again</source>
+        <translation>دووبارە بار بکە</translation>
+    </message>
+    <message>
+        <source>Device preview</source>
+        <translation>پێشبینینی ئامێر</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page: the frames show the published page.</source>
+        <translation>ڕەشنووسێکت بۆ ئەم پەڕەیە نییە: چوارچێوەکان پەڕە بڵاوکراوەکە نیشان دەدەن.</translation>
+    </message>
+    <message>
+        <source>Preview on %device</source>
+        <translation>پێشبینین لەسەر %device</translation>
+    </message>
+    <message>
+        <source>%w × %h</source>
+        <translation>%w × %h</translation>
+    </message>
+    <message>
+        <source>Remove the frame</source>
+        <translation>چوارچێوەکە لابە</translation>
+    </message>
+    <message>
+        <source>%w pixels wide</source>
+        <translation>پانی %w پیکسڵ</translation>
+    </message>
+    <message>
+        <source>Choose a device above.</source>
+        <translation>لە سەرەوە ئامێرێک هەڵبژێرە.</translation>
+    </message>
+    <message>
+        <source>Tablet</source>
+        <translation>تابلێت</translation>
+    </message>
+    <message>
+        <source>Desktop</source>
+        <translation>دێسکتۆپ</translation>
+    </message>
+    <message>
+        <source>1920 wide at 200% zoom</source>
+        <translation>پانی 1920 لەگەڵ زووم ٪200</translation>
+    </message>
 </context>
 </TS>

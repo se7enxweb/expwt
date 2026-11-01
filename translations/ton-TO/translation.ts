@@ -1867,5 +1867,81 @@
         <source>Saved: the sizes are made again around the focal point.</source>
         <translation>Kuo tauhi: 'oku toe ngaohi 'a e ngaahi lahi 'o takatakai 'i he poini fakatokanga.</translation>
     </message>
+    <message>
+        <source>Devices</source>
+        <translation>Ngaahi mīsini</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>Veesiona</translation>
+    </message>
+    <message>
+        <source>Your draft of %time</source>
+        <translation>Ho tohi fakataimi ʻo e %time</translation>
+    </message>
+    <message>
+        <source>From %min to %max pixels</source>
+        <translation>Mei he %min ki he %max piki</translation>
+    </message>
+    <message>
+        <source>The width must be a whole number from %min to %max.</source>
+        <translation>Ko e fālahi ʻe totonu ke fika kakato mei he %min ki he %max.</translation>
+    </message>
+    <message>
+        <source>A frame %w pixels wide was added.</source>
+        <translation>Kuo tānaki ha fuʻu ʻa e fālahi piki ʻe %w.</translation>
+    </message>
+    <message>
+        <source>A width of your own</source>
+        <translation>Ha fālahi ʻoʻou</translation>
+    </message>
+    <message>
+        <source>Add the frame</source>
+        <translation>Tānaki e fuʻu</translation>
+    </message>
+    <message>
+        <source>Load again</source>
+        <translation>Toe fakaʻaonga</translation>
+    </message>
+    <message>
+        <source>Device preview</source>
+        <translation>Vakai muʻa ʻo e mīsini</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page: the frames show the published page.</source>
+        <translation>ʻOku ʻikai ha tohi fakataimi ʻa e peesi ni: ʻoku fakahaa ʻe he ngaahi fuʻu ʻa e peesi kuo pulusi.</translation>
+    </message>
+    <message>
+        <source>Preview on %device</source>
+        <translation>Vakai muʻa ʻi he %device</translation>
+    </message>
+    <message>
+        <source>%w × %h</source>
+        <translation>%w × %h</translation>
+    </message>
+    <message>
+        <source>Remove the frame</source>
+        <translation>Toʻo e fuʻu</translation>
+    </message>
+    <message>
+        <source>%w pixels wide</source>
+        <translation>Fālahi piki ʻe %w</translation>
+    </message>
+    <message>
+        <source>Choose a device above.</source>
+        <translation>Fili ha mīsini ʻi ʻolunga.</translation>
+    </message>
+    <message>
+        <source>Tablet</source>
+        <translation>Tēpileti</translation>
+    </message>
+    <message>
+        <source>Desktop</source>
+        <translation>Tesikitopu</translation>
+    </message>
+    <message>
+        <source>1920 wide at 200% zoom</source>
+        <translation>Fālahi 1920 ʻi he fakalahi 200%</translation>
+    </message>
 </context>
 </TS>

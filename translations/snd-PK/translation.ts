@@ -1867,5 +1867,81 @@
         <source>Saved: the sizes are made again around the focal point.</source>
         <translation>محفوظ ٿيو: ماپون فوڪل پوائنٽ جي چوڌاري ٻيهر ٺاهيون وڃن ٿيون.</translation>
     </message>
+    <message>
+        <source>Devices</source>
+        <translation>ڊيوائسز</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>نسخو</translation>
+    </message>
+    <message>
+        <source>Your draft of %time</source>
+        <translation>توهان جو %time جو مسودو</translation>
+    </message>
+    <message>
+        <source>From %min to %max pixels</source>
+        <translation>%min کان %max پڪسل تائين</translation>
+    </message>
+    <message>
+        <source>The width must be a whole number from %min to %max.</source>
+        <translation>ويڪر %min کان %max تائين پورو انگ هجڻ گهرجي.</translation>
+    </message>
+    <message>
+        <source>A frame %w pixels wide was added.</source>
+        <translation>%w پڪسل ويڪرو فريم شامل ڪيو ويو.</translation>
+    </message>
+    <message>
+        <source>A width of your own</source>
+        <translation>پنهنجي ويڪر</translation>
+    </message>
+    <message>
+        <source>Add the frame</source>
+        <translation>فريم شامل ڪريو</translation>
+    </message>
+    <message>
+        <source>Load again</source>
+        <translation>ٻيهر لوڊ ڪريو</translation>
+    </message>
+    <message>
+        <source>Device preview</source>
+        <translation>ڊيوائس جو پيش منظر</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page: the frames show the published page.</source>
+        <translation>هن صفحي جو توهان وٽ مسودو ناهي: فريم شايع ٿيل صفحو ڏيکارين ٿا.</translation>
+    </message>
+    <message>
+        <source>Preview on %device</source>
+        <translation>%device تي پيش منظر</translation>
+    </message>
+    <message>
+        <source>%w × %h</source>
+        <translation>%w × %h</translation>
+    </message>
+    <message>
+        <source>Remove the frame</source>
+        <translation>فريم هٽايو</translation>
+    </message>
+    <message>
+        <source>%w pixels wide</source>
+        <translation>%w پڪسل ويڪرو</translation>
+    </message>
+    <message>
+        <source>Choose a device above.</source>
+        <translation>مٿي ڪو ڊيوائس چونڊيو.</translation>
+    </message>
+    <message>
+        <source>Tablet</source>
+        <translation>ٽيبليٽ</translation>
+    </message>
+    <message>
+        <source>Desktop</source>
+        <translation>ڊيسڪٽاپ</translation>
+    </message>
+    <message>
+        <source>1920 wide at 200% zoom</source>
+        <translation>1920 ويڪر 200% زوم تي</translation>
+    </message>
 </context>
 </TS>

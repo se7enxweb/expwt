@@ -1867,5 +1867,81 @@
         <source>Saved: the sizes are made again around the focal point.</source>
         <translation>Gordeta: tamainak berriro egiten dira foku-puntuaren inguruan.</translation>
     </message>
+    <message>
+        <source>Devices</source>
+        <translation>Gailuak</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>Bertsioa</translation>
+    </message>
+    <message>
+        <source>Your draft of %time</source>
+        <translation>Zure zirriborroa: %time</translation>
+    </message>
+    <message>
+        <source>From %min to %max pixels</source>
+        <translation>%min eta %max bitarteko pixelak</translation>
+    </message>
+    <message>
+        <source>The width must be a whole number from %min to %max.</source>
+        <translation>Zabalerak %min eta %max arteko zenbaki osoa izan behar du.</translation>
+    </message>
+    <message>
+        <source>A frame %w pixels wide was added.</source>
+        <translation>%w pixeleko zabalerako marko bat gehitu da.</translation>
+    </message>
+    <message>
+        <source>A width of your own</source>
+        <translation>Zure zabalera propioa</translation>
+    </message>
+    <message>
+        <source>Add the frame</source>
+        <translation>Gehitu markoa</translation>
+    </message>
+    <message>
+        <source>Load again</source>
+        <translation>Kargatu berriro</translation>
+    </message>
+    <message>
+        <source>Device preview</source>
+        <translation>Gailuen aurrebista</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page: the frames show the published page.</source>
+        <translation>Ez duzu orri honen zirriborrorik: markoek argitaratutako orria erakusten dute.</translation>
+    </message>
+    <message>
+        <source>Preview on %device</source>
+        <translation>Aurrebista hemen: %device</translation>
+    </message>
+    <message>
+        <source>%w × %h</source>
+        <translation>%w × %h</translation>
+    </message>
+    <message>
+        <source>Remove the frame</source>
+        <translation>Kendu markoa</translation>
+    </message>
+    <message>
+        <source>%w pixels wide</source>
+        <translation>%w pixeleko zabalera</translation>
+    </message>
+    <message>
+        <source>Choose a device above.</source>
+        <translation>Aukeratu gailu bat goian.</translation>
+    </message>
+    <message>
+        <source>Tablet</source>
+        <translation>Tableta</translation>
+    </message>
+    <message>
+        <source>Desktop</source>
+        <translation>Mahaigainekoa</translation>
+    </message>
+    <message>
+        <source>1920 wide at 200% zoom</source>
+        <translation>1920ko zabalera %200eko zoomarekin</translation>
+    </message>
 </context>
 </TS>

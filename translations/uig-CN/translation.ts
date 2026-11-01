@@ -1867,5 +1867,81 @@
         <source>Saved: the sizes are made again around the focal point.</source>
         <translation>ساقلاندى: چوڭلۇقلار فوكۇس نۇقتىسى ئەتراپىدا قايتا ياسىلىدۇ.</translation>
     </message>
+    <message>
+        <source>Devices</source>
+        <translation>ئۈسكۈنىلەر</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>نەشرى</translation>
+    </message>
+    <message>
+        <source>Your draft of %time</source>
+        <translation>سىزنىڭ %time دىكى ئارگىنالىڭىز</translation>
+    </message>
+    <message>
+        <source>From %min to %max pixels</source>
+        <translation>%min دىن %max پىكسېلغىچە</translation>
+    </message>
+    <message>
+        <source>The width must be a whole number from %min to %max.</source>
+        <translation>كەڭلىك %min دىن %max غىچە پۈتۈن سان بولۇشى كېرەك.</translation>
+    </message>
+    <message>
+        <source>A frame %w pixels wide was added.</source>
+        <translation>كەڭلىكى %w پىكسېل بولغان رامكا قوشۇلدى.</translation>
+    </message>
+    <message>
+        <source>A width of your own</source>
+        <translation>ئۆزىڭىزنىڭ كەڭلىكى</translation>
+    </message>
+    <message>
+        <source>Add the frame</source>
+        <translation>رامكا قوشۇش</translation>
+    </message>
+    <message>
+        <source>Load again</source>
+        <translation>قايتا يۈكلەش</translation>
+    </message>
+    <message>
+        <source>Device preview</source>
+        <translation>ئۈسكۈنە ئالدىن كۆرۈنۈشى</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page: the frames show the published page.</source>
+        <translation>سىزدە بۇ بەتنىڭ ئارگىنالى يوق: رامكىلار ئېلان قىلىنغان بەتنى كۆرسىتىدۇ.</translation>
+    </message>
+    <message>
+        <source>Preview on %device</source>
+        <translation>%device دا ئالدىن كۆرۈش</translation>
+    </message>
+    <message>
+        <source>%w × %h</source>
+        <translation>%w × %h</translation>
+    </message>
+    <message>
+        <source>Remove the frame</source>
+        <translation>رامكىنى ئۆچۈرۈش</translation>
+    </message>
+    <message>
+        <source>%w pixels wide</source>
+        <translation>كەڭلىكى %w پىكسېل</translation>
+    </message>
+    <message>
+        <source>Choose a device above.</source>
+        <translation>يۇقىرىدىن بىر ئۈسكۈنە تاللاڭ.</translation>
+    </message>
+    <message>
+        <source>Tablet</source>
+        <translation>تاختا كومپيۇتېر</translation>
+    </message>
+    <message>
+        <source>Desktop</source>
+        <translation>ئۈستەل كومپيۇتېر</translation>
+    </message>
+    <message>
+        <source>1920 wide at 200% zoom</source>
+        <translation>200% چوڭايتىلغاندا كەڭلىكى 1920</translation>
+    </message>
 </context>
 </TS>

@@ -1313,7 +1313,7 @@
       var t = this.boot.transport;
       var registered = this.registry().actions || {};
       var write = Object.prototype.hasOwnProperty.call(registered, action) ? !!registered[action].writes
-        : ['me', 'page.load', 'create.classes', 'tree.children', 'inbox.load', 'insights.load', 'seo.check', 'newsletter.load', 'comments.load', 'urls.load', 'calendar.load', 'migrations.load', 'images.load', 'boot'].indexOf(action) < 0;
+        : ['me', 'page.load', 'create.classes', 'tree.children', 'inbox.load', 'insights.load', 'seo.check', 'newsletter.load', 'comments.load', 'urls.load', 'calendar.load', 'migrations.load', 'images.load', 'preview.devices', 'boot'].indexOf(action) < 0;
       var json = JSON.stringify(input || {});
       var headers = { 'X-CSRF-Token': this.boot.token || '' };
       var p;

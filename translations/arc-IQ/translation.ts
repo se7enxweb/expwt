@@ -1867,5 +1867,81 @@
         <source>Saved: the sizes are made again around the focal point.</source>
         <translation>אתנטר: מדיא מתעבדין תוב חזור נקודת חזוא.</translation>
     </message>
+    <message>
+        <source>Devices</source>
+        <translation>אסכולתא</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>טורגמא</translation>
+    </message>
+    <message>
+        <source>Your draft of %time</source>
+        <translation>סורטא דילך דמן %time</translation>
+    </message>
+    <message>
+        <source>From %min to %max pixels</source>
+        <translation>מן %min עד %max פיקסלין</translation>
+    </message>
+    <message>
+        <source>The width must be a whole number from %min to %max.</source>
+        <translation>פותיא חייב למהוי מניינא שלימא מן %min עד %max.</translation>
+    </message>
+    <message>
+        <source>A frame %w pixels wide was added.</source>
+        <translation>מסגרתא דפותיה %w פיקסלין אתוספת.</translation>
+    </message>
+    <message>
+        <source>A width of your own</source>
+        <translation>פותיא דילך</translation>
+    </message>
+    <message>
+        <source>Add the frame</source>
+        <translation>אוסף מסגרתא</translation>
+    </message>
+    <message>
+        <source>Load again</source>
+        <translation>טעון תוב</translation>
+    </message>
+    <message>
+        <source>Device preview</source>
+        <translation>חזיא קדמיא דאסכולתא</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page: the frames show the published page.</source>
+        <translation>ליתלך סורטא דהדא דפא: מסגרתא מחזין דפא פריסא.</translation>
+    </message>
+    <message>
+        <source>Preview on %device</source>
+        <translation>חזיא קדמיא על %device</translation>
+    </message>
+    <message>
+        <source>%w × %h</source>
+        <translation>%w × %h</translation>
+    </message>
+    <message>
+        <source>Remove the frame</source>
+        <translation>עדי מסגרתא</translation>
+    </message>
+    <message>
+        <source>%w pixels wide</source>
+        <translation>פותיה %w פיקסלין</translation>
+    </message>
+    <message>
+        <source>Choose a device above.</source>
+        <translation>בחר אסכולתא לעיל.</translation>
+    </message>
+    <message>
+        <source>Tablet</source>
+        <translation>טבלט</translation>
+    </message>
+    <message>
+        <source>Desktop</source>
+        <translation>שולחנא</translation>
+    </message>
+    <message>
+        <source>1920 wide at 200% zoom</source>
+        <translation>1920 פותיא בזום 200%</translation>
+    </message>
 </context>
 </TS>

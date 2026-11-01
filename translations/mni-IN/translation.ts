@@ -1867,5 +1867,81 @@
         <source>Saved: the sizes are made again around the focal point.</source>
         <translation>ꯊꯝꯂꯦ: ꯆꯥꯡꯁꯤꯡ ꯐꯣꯀꯦꯜ ꯄꯣꯏꯟꯠꯀꯤ ꯃꯅꯥꯛꯇꯥ ꯑꯃꯨꯛ ꯍꯟꯅ ꯁꯦꯝꯂꯤ꯫</translation>
     </message>
+    <message>
+        <source>Devices</source>
+        <translation>ডিভাইসশিং</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>ভার্সন</translation>
+    </message>
+    <message>
+        <source>Your draft of %time</source>
+        <translation>%time গী নহাক্কী ড্রাফ্ট</translation>
+    </message>
+    <message>
+        <source>From %min to %max pixels</source>
+        <translation>%min দগী %max পিক্সেল পীর্ক্</translation>
+    </message>
+    <message>
+        <source>The width must be a whole number from %min to %max.</source>
+        <translation>চৌথা %min দগী %max মখা পুম্নমক নম্বর অমা ওইরগা ঙাই।</translation>
+    </message>
+    <message>
+        <source>A frame %w pixels wide was added.</source>
+        <translation>চৌথা %w পিক্সেল ঙাঙবা ফ্রেম অমা অমুক্পা ওইরে।</translation>
+    </message>
+    <message>
+        <source>A width of your own</source>
+        <translation>নহাক্কী চৌথা</translation>
+    </message>
+    <message>
+        <source>Add the frame</source>
+        <translation>ফ্রেম অমা অমুক্তবা</translation>
+    </message>
+    <message>
+        <source>Load again</source>
+        <translation>অমুক্ লোডতবা</translation>
+    </message>
+    <message>
+        <source>Device preview</source>
+        <translation>ডিভাইস প্রিভিউ</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page: the frames show the published page.</source>
+        <translation>নহাক্না ইন্না ইম্ ড্রাফ্ট অমা য়াদ্রে: ফ্রেমশিংনা পাবলিস ওইবা পেজ উনা।</translation>
+    </message>
+    <message>
+        <source>Preview on %device</source>
+        <translation>%device দা প্রিভিউ</translation>
+    </message>
+    <message>
+        <source>%w × %h</source>
+        <translation>%w × %h</translation>
+    </message>
+    <message>
+        <source>Remove the frame</source>
+        <translation>ফ্রেম অসি হাপ্পা</translation>
+    </message>
+    <message>
+        <source>%w pixels wide</source>
+        <translation>চৌথা %w পিক্সেল</translation>
+    </message>
+    <message>
+        <source>Choose a device above.</source>
+        <translation>মরোয়দা ডিভাইস অমা য়ারো।</translation>
+    </message>
+    <message>
+        <source>Tablet</source>
+        <translation>টেব্লেট</translation>
+    </message>
+    <message>
+        <source>Desktop</source>
+        <translation>ডেস্কটপ</translation>
+    </message>
+    <message>
+        <source>1920 wide at 200% zoom</source>
+        <translation>জুম ২০০% দা ১৯২০ চৌথা</translation>
+    </message>
 </context>
 </TS>

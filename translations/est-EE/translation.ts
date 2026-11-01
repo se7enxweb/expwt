@@ -1867,5 +1867,81 @@
         <source>Saved: the sizes are made again around the focal point.</source>
         <translation>Salvestatud: suurused tehakse uuesti fookuspunkti ümber.</translation>
     </message>
+    <message>
+        <source>Devices</source>
+        <translation>Seadmed</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>Versioon</translation>
+    </message>
+    <message>
+        <source>Your draft of %time</source>
+        <translation>Teie mustand ajast %time</translation>
+    </message>
+    <message>
+        <source>From %min to %max pixels</source>
+        <translation>%min kuni %max pikslit</translation>
+    </message>
+    <message>
+        <source>The width must be a whole number from %min to %max.</source>
+        <translation>Laius peab olema täisarv vahemikus %min kuni %max.</translation>
+    </message>
+    <message>
+        <source>A frame %w pixels wide was added.</source>
+        <translation>Lisati %w piksli laiune raam.</translation>
+    </message>
+    <message>
+        <source>A width of your own</source>
+        <translation>Enda laius</translation>
+    </message>
+    <message>
+        <source>Add the frame</source>
+        <translation>Lisa raam</translation>
+    </message>
+    <message>
+        <source>Load again</source>
+        <translation>Laadi uuesti</translation>
+    </message>
+    <message>
+        <source>Device preview</source>
+        <translation>Seadmete eelvaade</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page: the frames show the published page.</source>
+        <translation>Teil ei ole sellest lehest mustandit: raamid näitavad avaldatud lehte.</translation>
+    </message>
+    <message>
+        <source>Preview on %device</source>
+        <translation>Eelvaade seadmel %device</translation>
+    </message>
+    <message>
+        <source>%w × %h</source>
+        <translation>%w × %h</translation>
+    </message>
+    <message>
+        <source>Remove the frame</source>
+        <translation>Eemalda raam</translation>
+    </message>
+    <message>
+        <source>%w pixels wide</source>
+        <translation>%w piksli laiune</translation>
+    </message>
+    <message>
+        <source>Choose a device above.</source>
+        <translation>Valige ülal seade.</translation>
+    </message>
+    <message>
+        <source>Tablet</source>
+        <translation>Tahvelarvuti</translation>
+    </message>
+    <message>
+        <source>Desktop</source>
+        <translation>Lauaarvuti</translation>
+    </message>
+    <message>
+        <source>1920 wide at 200% zoom</source>
+        <translation>1920 lai 200% suumiga</translation>
+    </message>
 </context>
 </TS>

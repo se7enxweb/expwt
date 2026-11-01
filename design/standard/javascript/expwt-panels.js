@@ -224,6 +224,10 @@
     var tools = h('div', { class: 'wt-row' }, [
       inlineBtn,
       h('a', { class: 'wt-btn', href: p.urls.preview, target: '_blank', rel: 'noopener', text: t('Preview') }),
+      /* the device preview (E8): the page and the draft in frames of several devices, with expwt/edit */
+      p.nodeId && ctx.boot.capabilities && ctx.boot.capabilities.edit
+        ? h('button', { type: 'button', class: 'wt-btn', id: 'wt-devices', 'aria-haspopup': 'dialog', text: t('Devices'), onclick: function () { devices(ctx, p); } })
+        : null,
       h('a', { class: 'wt-btn', href: p.urls.fullEdit, text: t('Full editor') })
     ]);
     head.appendChild(tools);
@@ -3290,11 +3294,229 @@
     }, function (err) { root.textContent = ''; failure(ctx, err); });
   }
 
+  /* ------------------------------------------------------------------ the device preview (E8) */
+
+  /* Pure (tests/js/devices.test.js): how the frames of the device preview fit the window, the width typed for a frame
+     of one's own, and which address a frame shows.
+       fit()     one row at a common scale where every frame stays at least MIN pixels wide; else each frame on its own,
+                 as large as the window allows (never larger than the device, at least TALL pixels high where the
+                 window is lower), the frames wrapping
+       custom()  a whole number of CSS pixels from min to max, else null
+       src()     the user's draft where there is one and it is chosen, else the published page */
+  var Devices = {
+    MIN: 160,
+    TALL: 560,
+    KEY: 'expwt.devices',
+    fit: function (frames, width, height, gap) {
+      var n = frames.length;
+      if (!n) { return { row: true, scales: [] }; }
+      var floor = function (x) { return Math.max(0.05, Math.floor(Math.min(1, x) * 1000) / 1000); };
+      var sum = 0;
+      var tallest = 0;
+      var narrowest = Infinity;
+      frames.forEach(function (f) { sum += f.width; tallest = Math.max(tallest, f.height); narrowest = Math.min(narrowest, f.width); });
+      var common = floor(Math.min((width - gap * (n - 1)) / sum, height / tallest));
+      if (narrowest * common >= Devices.MIN) {
+        return { row: true, scales: frames.map(function () { return common; }) };
+      }
+      /* each on its own: a low window (a phone, its choices above) still gets frames TALL pixels high, the body scrolls */
+      var tall = Math.max(height, Devices.TALL);
+      return { row: false, scales: frames.map(function (f) { return floor(Math.min(width / f.width, tall / f.height)); }) };
+    },
+    custom: function (text, min, max) {
+      var s = String(text === null || text === undefined ? '' : text).trim();
+      if (!/^[0-9]{1,5}$/.test(s)) { return null; }
+      var n = parseInt(s, 10);
+      return n >= min && n <= max ? n : null;
+    },
+    src: function (urls, which) {
+      return which === 'draft' && urls.draft ? urls.draft : urls.published;
+    },
+    /* what this device remembers of the preview: the frames shown, the widths added, the mode of each frame */
+    remembered: function (raw, ids, custom) {
+      var r = raw && typeof raw === 'object' ? raw : {};
+      var shown = Array.isArray(r.shown) ? r.shown.filter(function (id) { return ids.indexOf(id) >= 0; }) : null;
+      var widths = Array.isArray(r.widths) ? r.widths.map(function (w) { return Devices.custom(w, custom.min, custom.max); })
+        .filter(function (w, i, all) { return w !== null && all.indexOf(w) === i; }).slice(0, 4) : [];
+      var modes = {};
+      if (r.modes && typeof r.modes === 'object') {
+        Object.keys(r.modes).forEach(function (k) { if (r.modes[k] === 'light' || r.modes[k] === 'dark') { modes[k] = r.modes[k]; } });
+      }
+      return { shown: shown, widths: widths, modes: modes };
+    }
+  };
+
+  /* The device preview (E8): a view over the whole window with the page in a frame per device, side by side where
+     they fit, the 200% zoom case among them, plus frames of a width of one's own; the user's draft or the published
+     page; light or dark per frame (the media designs' html[data-exp-theme], set in that frame only; "Like the site"
+     loads it again as the site has it). The pages in the frames come without a sidebar (?in=sidebar). Escape, Close
+     or the backdrop end it. */
+  function devices(ctx, p) {
+    var h = ctx.h;
+    var t = ctx.t;
+    var host = ctx.host;
+    ctx.call('preview.devices', { nodeId: p.nodeId, language: p.language }).then(function (r) {
+      var storage = null;
+      try { storage = window.localStorage; } catch (e) { storage = null; }
+      var ids = r.devices.map(function (d) { return d.id; });
+      var kept = Devices.remembered(storage ? Autosave.read(storage, Devices.KEY) : null, ids, r.custom);
+      var shown = kept.shown || r.shown.slice();
+      var widths = kept.widths;
+      var modes = kept.modes;
+      var which = r.urls.draft ? 'draft' : 'published';
+      function keep() {
+        if (storage) { Autosave.write(storage, Devices.KEY, { shown: shown, widths: widths, modes: modes }); }
+      }
+      if (host.devicesView) { host.devicesView.remove(); }
+      var body = h('div', { class: 'wt-dev-body' });
+      var status = h('p', { class: 'wt-sr', role: 'status' });
+      var view = h('dialog', { class: 'wt-split wt-dev', 'aria-labelledby': 'wt-dev-title',
+        onclose: function () { if (observer) { observer.disconnect(); } view.remove(); host.devicesView = null; } });
+      host.devicesView = view;
+      var close = function () { view.close(); };
+
+      /* the version shown in every frame */
+      var versions = null;
+      if (r.urls.draft) {
+        versions = h('fieldset', { class: 'wt-dev-group' }, [h('legend', { text: t('Version') })].concat(['draft', 'published'].map(function (v) {
+          var input = h('input', { type: 'radio', name: 'wt-dev-version', value: v, checked: v === which, onchange: function () { which = v; draw(); } });
+          var label = v === 'draft' ? t('Your draft of %time').replace('%time', when(r.draft.modified)) : t('Published');
+          return h('label', { class: 'wt-check' }, [input, label]);
+        })));
+      }
+      /* the devices shown */
+      var picks = h('fieldset', { class: 'wt-dev-group' }, [h('legend', { text: t('Devices') })].concat(r.devices.map(function (d) {
+        var input = h('input', { type: 'checkbox', value: d.id, checked: shown.indexOf(d.id) >= 0, onchange: function () {
+          shown = ids.filter(function (id) { return id === d.id ? input.checked : shown.indexOf(id) >= 0; });
+          keep();
+          draw();
+        } });
+        return h('label', { class: 'wt-check' }, [input, d.name]);
+      })));
+      /* a frame of a width of one's own */
+      var widthInput = h('input', { type: 'number', id: 'wt-dev-width', min: String(r.custom.min), max: String(r.custom.max), step: '1', inputmode: 'numeric' });
+      var widthNote = h('span', { class: 'wt-muted', id: 'wt-dev-width-note', text: t('From %min to %max pixels').replace('%min', r.custom.min).replace('%max', r.custom.max) });
+      widthInput.setAttribute('aria-describedby', 'wt-dev-width-note');
+      var addForm = h('form', { class: 'wt-dev-group wt-dev-add', novalidate: true, onsubmit: function (e) {
+        e.preventDefault();
+        var w = Devices.custom(widthInput.value, r.custom.min, r.custom.max);
+        if (w === null) {
+          widthInput.setAttribute('aria-invalid', 'true');
+          widthNote.textContent = t('The width must be a whole number from %min to %max.').replace('%min', r.custom.min).replace('%max', r.custom.max);
+          widthInput.focus();
+          return;
+        }
+        widthInput.removeAttribute('aria-invalid');
+        widthNote.textContent = t('From %min to %max pixels').replace('%min', r.custom.min).replace('%max', r.custom.max);
+        if (widths.indexOf(w) < 0) { widths = widths.concat([w]).slice(-4); }
+        widthInput.value = '';
+        keep();
+        draw();
+        status.textContent = t('A frame %w pixels wide was added.').replace('%w', w);
+      } }, [
+        h('label', { class: 'wt-field' }, [h('span', { text: t('A width of your own') }), widthInput]),
+        widthNote,
+        h('button', { type: 'submit', class: 'wt-btn', text: t('Add the frame') })
+      ]);
+      var reload = h('button', { type: 'button', class: 'wt-btn', text: t('Load again'), onclick: function () { draw(); } });
+
+      view.appendChild(h('div', { class: 'wt-split-head' }, [
+        h('h2', { id: 'wt-dev-title', class: 'wt-split-title', text: t('Device preview') + ': ' + p.name }),
+        h('button', { type: 'button', class: 'wt-btn is-icon', 'aria-label': t('Close'), title: t('Close'), onclick: close }, ['×'])
+      ]));
+      view.appendChild(h('div', { class: 'wt-dev-bar' }, [versions, picks, addForm, h('div', { class: 'wt-dev-group' }, [reload])]));
+      if (!r.urls.draft) {
+        view.appendChild(h('p', { class: 'wt-dev-note wt-muted', text: t('You have no draft of this page: the frames show the published page.') }));
+      }
+      view.appendChild(body);
+      view.appendChild(status);
+
+      var frames = [];
+      /* light or dark in one frame: the design's attribute on that frame's page; where the design has none, its
+         color-scheme follows the frame (the iframe's class) */
+      function applyMode(entry) {
+        var mode = modes[entry.key] || '';
+        entry.frame.classList.toggle('is-light', mode === 'light');
+        entry.frame.classList.toggle('is-dark', mode === 'dark');
+        if (!mode) { return; }
+        try {
+          var root = entry.frame.contentDocument && entry.frame.contentDocument.documentElement;
+          if (root) {
+            root.setAttribute('data-exp-theme', mode);
+            root.setAttribute('data-exp-theme-choice', mode);
+          }
+        } catch (e) { /* a page of another origin: its own mode stays */ }
+      }
+      function frameOf(d, custom) {
+        var key = custom ? 'w' + d.width : d.id;
+        var frame = h('iframe', { class: 'wt-dev-frame', 'data-expwt-split': '', title: t('Preview on %device').replace('%device', d.name), src: Devices.src(r.urls, which) });
+        var entry = { key: key, device: d, frame: frame };
+        frame.addEventListener('load', function () { applyMode(entry); });
+        var select = h('select', { 'aria-label': t('Light or dark') + ': ' + d.name, onchange: function () {
+          var before = modes[key] || '';
+          if (select.value) { modes[key] = select.value; } else { delete modes[key]; }
+          keep();
+          /* back to the site's own mode: the frame loads again, as the site has it */
+          if (before && !select.value) { frame.src = Devices.src(r.urls, which); } else { applyMode(entry); }
+        } }, [['', t('Like the site')], ['light', t('Light')], ['dark', t('Dark')]].map(function (o) {
+          var opt = h('option', { value: o[0], text: o[1] });
+          if ((modes[key] || '') === o[0]) { opt.setAttribute('selected', ''); }
+          return opt;
+        }));
+        var caption = h('figcaption', { class: 'wt-dev-cap' }, [
+          h('span', { class: 'wt-dev-name', text: d.name }),
+          h('span', { class: 'wt-dev-size wt-muted', text: t('%w × %h').replace('%w', d.width).replace('%h', d.height) }),
+          select,
+          custom ? h('button', { type: 'button', class: 'wt-btn', 'aria-label': t('Remove the frame') + ': ' + d.name, text: t('Remove the frame'), onclick: function () {
+            widths = widths.filter(function (w) { return w !== d.width; });
+            keep();
+            draw();
+          } }) : null
+        ]);
+        entry.figure = h('figure', { class: 'wt-dev-item', 'data-device': key }, [caption, h('div', { class: 'wt-dev-screen' }, [frame])]);
+        return entry;
+      }
+      function draw() {
+        body.textContent = '';
+        frames = r.devices.filter(function (d) { return shown.indexOf(d.id) >= 0; }).map(function (d) { return frameOf(d, false); })
+          .concat(widths.map(function (w) { return frameOf({ id: 'w' + w, name: t('%w pixels wide').replace('%w', w), width: w, height: r.custom.height }, true); }));
+        if (!frames.length) {
+          body.appendChild(h('p', { class: 'wt-muted', text: t('Choose a device above.') }));
+          return;
+        }
+        frames.forEach(function (f) { body.appendChild(f.figure); });
+        layout();
+      }
+      function layout() {
+        if (!frames.length || !body.clientWidth) { return; }
+        var cs = window.getComputedStyle(body);
+        var gap = parseFloat(cs.columnGap) || 0;
+        var width = body.clientWidth - (parseFloat(cs.paddingLeft) || 0) - (parseFloat(cs.paddingRight) || 0);
+        var cap = frames[0].figure.querySelector('.wt-dev-cap');
+        var height = body.clientHeight - (parseFloat(cs.paddingTop) || 0) - (parseFloat(cs.paddingBottom) || 0) - (cap ? cap.offsetHeight : 0) - gap;
+        var fit = Devices.fit(frames.map(function (f) { return f.device; }), width, Math.max(160, height), gap);
+        body.classList.toggle('is-row', fit.row);
+        frames.forEach(function (f, i) {
+          f.figure.style.setProperty('--wt-dw', String(f.device.width));
+          f.figure.style.setProperty('--wt-dh', String(f.device.height));
+          f.figure.style.setProperty('--wt-ds', String(fit.scales[i]));
+        });
+      }
+      var observer = window.ResizeObserver ? new ResizeObserver(function () { layout(); }) : null;
+      host.shadowRoot.appendChild(view);
+      view.showModal();
+      draw();
+      if (observer) { observer.observe(body); }
+      view.querySelector('.wt-split-head .wt-btn').focus();
+    }, function (err) { failure(ctx, err); });
+  }
+
   window.ExpwtMigrations = Migrations;
   window.ExpwtSeo = SEO;
   window.ExpwtComments = { actions: commentActions };
   window.ExpwtUrls = { address: addressOf };
   window.ExpwtCalendar = Calendar;
   window.ExpwtFocal = Focal;
+  window.ExpwtDevices = Devices;
   window.ExpwtPanels = { page: page, create: create, structure: structure, seo: seo, sites: sites, forms: forms, newsletter: newsletter, urls: urls, calendar: calendar, insights: insights, inbox: inbox, migrations: migrations, me: me, shortcuts: shortcuts };
 }());

@@ -1867,5 +1867,81 @@
         <source>Saved: the sizes are made again around the focal point.</source>
         <translation>Захира шуд: андозаҳо дар атрофи нуқтаи фокус аз нав сохта мешаванд.</translation>
     </message>
+    <message>
+        <source>Devices</source>
+        <translation>Дастгоҳҳо</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>Нусха</translation>
+    </message>
+    <message>
+        <source>Your draft of %time</source>
+        <translation>Сиёҳнависи шумо аз %time</translation>
+    </message>
+    <message>
+        <source>From %min to %max pixels</source>
+        <translation>Аз %min то %max пиксел</translation>
+    </message>
+    <message>
+        <source>The width must be a whole number from %min to %max.</source>
+        <translation>Васеъӣ бояд ададе бутун аз %min то %max бошад.</translation>
+    </message>
+    <message>
+        <source>A frame %w pixels wide was added.</source>
+        <translation>Чорчӯбаи бо васеъии %w пиксел илова шуд.</translation>
+    </message>
+    <message>
+        <source>A width of your own</source>
+        <translation>Васеъии худатон</translation>
+    </message>
+    <message>
+        <source>Add the frame</source>
+        <translation>Илова кардани чорчӯба</translation>
+    </message>
+    <message>
+        <source>Load again</source>
+        <translation>Бозбор кардан</translation>
+    </message>
+    <message>
+        <source>Device preview</source>
+        <translation>Пешнамоиши дастгоҳ</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page: the frames show the published page.</source>
+        <translation>Шумо сиёҳнависи ин саҳифа надоред: чорчӯбаҳо саҳифаи нашршударо нишон медиҳанд.</translation>
+    </message>
+    <message>
+        <source>Preview on %device</source>
+        <translation>Пешнамоиш дар %device</translation>
+    </message>
+    <message>
+        <source>%w × %h</source>
+        <translation>%w × %h</translation>
+    </message>
+    <message>
+        <source>Remove the frame</source>
+        <translation>Нест кардани чорчӯба</translation>
+    </message>
+    <message>
+        <source>%w pixels wide</source>
+        <translation>Васеъӣ %w пиксел</translation>
+    </message>
+    <message>
+        <source>Choose a device above.</source>
+        <translation>Дар боло дастгоҳро интихоб кунед.</translation>
+    </message>
+    <message>
+        <source>Tablet</source>
+        <translation>Планшет</translation>
+    </message>
+    <message>
+        <source>Desktop</source>
+        <translation>Мизи корӣ</translation>
+    </message>
+    <message>
+        <source>1920 wide at 200% zoom</source>
+        <translation>1920 васеъӣ бо масштаби 200%</translation>
+    </message>
 </context>
 </TS>

@@ -1867,5 +1867,81 @@
         <source>Saved: the sizes are made again around the focal point.</source>
         <translation>ذخیره شد: اندازه‌ها دوباره حول نقطهٔ کانونی ساخته می‌شوند.</translation>
     </message>
+    <message>
+        <source>Devices</source>
+        <translation>دستگاه‌ها</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>نسخه</translation>
+    </message>
+    <message>
+        <source>Your draft of %time</source>
+        <translation>پیش‌نویس شما از %time</translation>
+    </message>
+    <message>
+        <source>From %min to %max pixels</source>
+        <translation>از %min تا %max پیکسل</translation>
+    </message>
+    <message>
+        <source>The width must be a whole number from %min to %max.</source>
+        <translation>پهنا باید یک عدد صحیح از %min تا %max باشد.</translation>
+    </message>
+    <message>
+        <source>A frame %w pixels wide was added.</source>
+        <translation>یک قاب با پهنای %w پیکسل افزوده شد.</translation>
+    </message>
+    <message>
+        <source>A width of your own</source>
+        <translation>یک پهنای دلخواه</translation>
+    </message>
+    <message>
+        <source>Add the frame</source>
+        <translation>افزودن قاب</translation>
+    </message>
+    <message>
+        <source>Load again</source>
+        <translation>بارگذاری دوباره</translation>
+    </message>
+    <message>
+        <source>Device preview</source>
+        <translation>پیش‌نمایش دستگاه</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page: the frames show the published page.</source>
+        <translation>شما پیش‌نویسی از این صفحه ندارید: قاب‌ها صفحهٔ منتشرشده را نشان می‌دهند.</translation>
+    </message>
+    <message>
+        <source>Preview on %device</source>
+        <translation>پیش‌نمایش در %device</translation>
+    </message>
+    <message>
+        <source>%w × %h</source>
+        <translation>%w × %h</translation>
+    </message>
+    <message>
+        <source>Remove the frame</source>
+        <translation>حذف قاب</translation>
+    </message>
+    <message>
+        <source>%w pixels wide</source>
+        <translation>پهنای %w پیکسل</translation>
+    </message>
+    <message>
+        <source>Choose a device above.</source>
+        <translation>در بالا یک دستگاه انتخاب کنید.</translation>
+    </message>
+    <message>
+        <source>Tablet</source>
+        <translation>تبلت</translation>
+    </message>
+    <message>
+        <source>Desktop</source>
+        <translation>رایانهٔ رومیزی</translation>
+    </message>
+    <message>
+        <source>1920 wide at 200% zoom</source>
+        <translation>پهنای 1920 با بزرگ‌نمایی 200%</translation>
+    </message>
 </context>
 </TS>

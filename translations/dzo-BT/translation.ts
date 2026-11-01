@@ -1867,5 +1867,81 @@
         <source>Saved: the sizes are made again around the focal point.</source>
         <translation>སྲུང་བཞག་ཡི། ཚད་ཚུ་ དམིགས་ཚད་ཀྱི་མཐའ་སྐོར་ལུ་ ལོག་བཟོཝ་ཨིན།</translation>
     </message>
+    <message>
+        <source>Devices</source>
+        <translation>ཐབས་འཕྲུལ།</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>ཐོན་རིམ།</translation>
+    </message>
+    <message>
+        <source>Your draft of %time</source>
+        <translation>%time གི་ཁྱོད་ཀྱི་ཟིན་བྲིས།</translation>
+    </message>
+    <message>
+        <source>From %min to %max pixels</source>
+        <translation>པིག་སེལ་ %min ལས་ %max ཚུན།</translation>
+    </message>
+    <message>
+        <source>The width must be a whole number from %min to %max.</source>
+        <translation>ཞེང་ཚད་འདི་ %min ལས་ %max ཚུན་གྱི་ཨང་གྲངས་ཚང་མ་ཅིག་ཨིན་དགོ།</translation>
+    </message>
+    <message>
+        <source>A frame %w pixels wide was added.</source>
+        <translation>ཞེང་ཚད་པིག་སེལ་ %w ཡོད་པའི་གཞི་ཁྲམ་ཅིག་ཁ་སྣོན་འབད་ཡི།</translation>
+    </message>
+    <message>
+        <source>A width of your own</source>
+        <translation>ཁྱོད་རང་གི་ཞེང་ཚད།</translation>
+    </message>
+    <message>
+        <source>Add the frame</source>
+        <translation>གཞི་ཁྲམ་ཁ་སྣོན་འབད།</translation>
+    </message>
+    <message>
+        <source>Load again</source>
+        <translation>ལོག་མངོན་འབད།</translation>
+    </message>
+    <message>
+        <source>Device preview</source>
+        <translation>ཐབས་འཕྲུལ་གྱི་སྔོན་མཐོང་།</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page: the frames show the published page.</source>
+        <translation>ཁྱོད་ཀྱིས་ཤོག་ལེབ་འདི་གི་ཟིན་བྲིས་མིན་འདུག གཞི་ཁྲམ་ཚུ་གིས་དཔེ་སྐྲུན་འབད་ཡོད་པའི་ཤོག་ལེབ་སྟོནམ་ཨིན།</translation>
+    </message>
+    <message>
+        <source>Preview on %device</source>
+        <translation>%device གུ་སྔོན་མཐོང་།</translation>
+    </message>
+    <message>
+        <source>%w × %h</source>
+        <translation>%w × %h</translation>
+    </message>
+    <message>
+        <source>Remove the frame</source>
+        <translation>གཞི་ཁྲམ་རྩ་བསྐྲད་གཏང་།</translation>
+    </message>
+    <message>
+        <source>%w pixels wide</source>
+        <translation>ཞེང་ཚད་པིག་སེལ་ %w</translation>
+    </message>
+    <message>
+        <source>Choose a device above.</source>
+        <translation>གོང་ལས་ཐབས་འཕྲུལ་ཅིག་སེལ་འཐུ་འབད།</translation>
+    </message>
+    <message>
+        <source>Tablet</source>
+        <translation>ཊེབ་ལེཊ།</translation>
+    </message>
+    <message>
+        <source>Desktop</source>
+        <translation>ཌེཀསི་ཊོཔ།</translation>
+    </message>
+    <message>
+        <source>1920 wide at 200% zoom</source>
+        <translation>ཆེ་ཚད་ 200% ནང་ཞེང་ཚད་ 1920</translation>
+    </message>
 </context>
 </TS>

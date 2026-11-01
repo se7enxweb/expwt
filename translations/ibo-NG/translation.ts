@@ -1867,5 +1867,81 @@
         <source>Saved: the sizes are made again around the focal point.</source>
         <translation>Echekwara: a na-emegharị nha ndị ahụ gburugburu ebe nlekwasị anya.</translation>
     </message>
+    <message>
+        <source>Devices</source>
+        <translation>Ngwaọrụ</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>Mbipụta</translation>
+    </message>
+    <message>
+        <source>Your draft of %time</source>
+        <translation>Ndepụta mbụ gị nke %time</translation>
+    </message>
+    <message>
+        <source>From %min to %max pixels</source>
+        <translation>Site na pixel %min ruo %max</translation>
+    </message>
+    <message>
+        <source>The width must be a whole number from %min to %max.</source>
+        <translation>Obosara ga-abụ nọmba zuru ezu site na %min ruo %max.</translation>
+    </message>
+    <message>
+        <source>A frame %w pixels wide was added.</source>
+        <translation>Agbakwunyere ihe ókè nke obosara ya bụ pixel %w.</translation>
+    </message>
+    <message>
+        <source>A width of your own</source>
+        <translation>Obosara nke gị</translation>
+    </message>
+    <message>
+        <source>Add the frame</source>
+        <translation>Tinye ihe ókè ahụ</translation>
+    </message>
+    <message>
+        <source>Load again</source>
+        <translation>Bubata ọzọ</translation>
+    </message>
+    <message>
+        <source>Device preview</source>
+        <translation>Ọhụụ mbụ nke ngwaọrụ</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page: the frames show the published page.</source>
+        <translation>Enweghị ndepụta mbụ nke ibe a: ihe ókè ndị ahụ na-egosi ibe ebipụtara.</translation>
+    </message>
+    <message>
+        <source>Preview on %device</source>
+        <translation>Ọhụụ mbụ na %device</translation>
+    </message>
+    <message>
+        <source>%w × %h</source>
+        <translation>%w × %h</translation>
+    </message>
+    <message>
+        <source>Remove the frame</source>
+        <translation>Wepụ ihe ókè ahụ</translation>
+    </message>
+    <message>
+        <source>%w pixels wide</source>
+        <translation>Obosara pixel %w</translation>
+    </message>
+    <message>
+        <source>Choose a device above.</source>
+        <translation>Họrọ ngwaọrụ n'elu.</translation>
+    </message>
+    <message>
+        <source>Tablet</source>
+        <translation>Tablet</translation>
+    </message>
+    <message>
+        <source>Desktop</source>
+        <translation>Kọmputa tebụl</translation>
+    </message>
+    <message>
+        <source>1920 wide at 200% zoom</source>
+        <translation>1920 obosara na 200% zuum</translation>
+    </message>
 </context>
 </TS>

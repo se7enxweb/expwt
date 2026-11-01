@@ -1867,5 +1867,81 @@
         <source>Saved: the sizes are made again around the focal point.</source>
         <translation>સાચવ્યું: કદ ફોકલ પોઇન્ટની આસપાસ ફરીથી બનાવવામાં આવે છે.</translation>
     </message>
+    <message>
+        <source>Devices</source>
+        <translation>ઉપકરણો</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>આવૃત્તિ</translation>
+    </message>
+    <message>
+        <source>Your draft of %time</source>
+        <translation>%time નો તમારો ડ્રાફ્ટ</translation>
+    </message>
+    <message>
+        <source>From %min to %max pixels</source>
+        <translation>%min થી %max પિક્સેલ</translation>
+    </message>
+    <message>
+        <source>The width must be a whole number from %min to %max.</source>
+        <translation>પહોળાઈ %min થી %max સુધીની પૂર્ણ સંખ્યા હોવી જોઈએ.</translation>
+    </message>
+    <message>
+        <source>A frame %w pixels wide was added.</source>
+        <translation>%w પિક્સેલ પહોળી ફ્રેમ ઉમેરાઈ.</translation>
+    </message>
+    <message>
+        <source>A width of your own</source>
+        <translation>તમારી પોતાની પહોળાઈ</translation>
+    </message>
+    <message>
+        <source>Add the frame</source>
+        <translation>ફ્રેમ ઉમેરો</translation>
+    </message>
+    <message>
+        <source>Load again</source>
+        <translation>ફરી લોડ કરો</translation>
+    </message>
+    <message>
+        <source>Device preview</source>
+        <translation>ઉપકરણ પૂર્વાવલોકન</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page: the frames show the published page.</source>
+        <translation>તમારી પાસે આ પૃષ્ઠનો ડ્રાફ્ટ નથી: ફ્રેમ પ્રકાશિત પૃષ્ઠ બતાવે છે.</translation>
+    </message>
+    <message>
+        <source>Preview on %device</source>
+        <translation>%device પર પૂર્વાવલોકન</translation>
+    </message>
+    <message>
+        <source>%w × %h</source>
+        <translation>%w × %h</translation>
+    </message>
+    <message>
+        <source>Remove the frame</source>
+        <translation>ફ્રેમ દૂર કરો</translation>
+    </message>
+    <message>
+        <source>%w pixels wide</source>
+        <translation>%w પિક્સેલ પહોળી</translation>
+    </message>
+    <message>
+        <source>Choose a device above.</source>
+        <translation>ઉપર એક ઉપકરણ પસંદ કરો.</translation>
+    </message>
+    <message>
+        <source>Tablet</source>
+        <translation>ટેબ્લેટ</translation>
+    </message>
+    <message>
+        <source>Desktop</source>
+        <translation>ડેસ્કટોપ</translation>
+    </message>
+    <message>
+        <source>1920 wide at 200% zoom</source>
+        <translation>200% ઝૂમ પર 1920 પહોળાઈ</translation>
+    </message>
 </context>
 </TS>

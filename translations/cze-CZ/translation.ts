@@ -1867,5 +1867,81 @@
         <source>Saved: the sizes are made again around the focal point.</source>
         <translation>Uloženo: velikosti se znovu vytvoří kolem ohniska.</translation>
     </message>
+    <message>
+        <source>Devices</source>
+        <translation>Zařízení</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>Verze</translation>
+    </message>
+    <message>
+        <source>Your draft of %time</source>
+        <translation>Váš koncept z %time</translation>
+    </message>
+    <message>
+        <source>From %min to %max pixels</source>
+        <translation>Od %min do %max pixelů</translation>
+    </message>
+    <message>
+        <source>The width must be a whole number from %min to %max.</source>
+        <translation>Šířka musí být celé číslo od %min do %max.</translation>
+    </message>
+    <message>
+        <source>A frame %w pixels wide was added.</source>
+        <translation>Byl přidán rámec o šířce %w pixelů.</translation>
+    </message>
+    <message>
+        <source>A width of your own</source>
+        <translation>Vlastní šířka</translation>
+    </message>
+    <message>
+        <source>Add the frame</source>
+        <translation>Přidat rámec</translation>
+    </message>
+    <message>
+        <source>Load again</source>
+        <translation>Načíst znovu</translation>
+    </message>
+    <message>
+        <source>Device preview</source>
+        <translation>Náhled na zařízení</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page: the frames show the published page.</source>
+        <translation>K této stránce nemáte koncept: rámce zobrazují zveřejněnou stránku.</translation>
+    </message>
+    <message>
+        <source>Preview on %device</source>
+        <translation>Náhled na zařízení %device</translation>
+    </message>
+    <message>
+        <source>%w × %h</source>
+        <translation>%w × %h</translation>
+    </message>
+    <message>
+        <source>Remove the frame</source>
+        <translation>Odebrat rámec</translation>
+    </message>
+    <message>
+        <source>%w pixels wide</source>
+        <translation>Šířka %w pixelů</translation>
+    </message>
+    <message>
+        <source>Choose a device above.</source>
+        <translation>Nahoře vyberte zařízení.</translation>
+    </message>
+    <message>
+        <source>Tablet</source>
+        <translation>Tablet</translation>
+    </message>
+    <message>
+        <source>Desktop</source>
+        <translation>Počítač</translation>
+    </message>
+    <message>
+        <source>1920 wide at 200% zoom</source>
+        <translation>Šířka 1920 při přiblížení 200 %</translation>
+    </message>
 </context>
 </TS>

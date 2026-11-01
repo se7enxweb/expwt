@@ -1867,5 +1867,81 @@
         <source>Saved: the sizes are made again around the focal point.</source>
         <translation>Disimpen: ukuran-ukuran dijieun deui di sabudeureun titik fokus.</translation>
     </message>
+    <message>
+        <source>Devices</source>
+        <translation>Piranti</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>Versi</translation>
+    </message>
+    <message>
+        <source>Your draft of %time</source>
+        <translation>Draf anjeun tina %time</translation>
+    </message>
+    <message>
+        <source>From %min to %max pixels</source>
+        <translation>Ti %min nepi ka %max piksel</translation>
+    </message>
+    <message>
+        <source>The width must be a whole number from %min to %max.</source>
+        <translation>Lébarna kudu wilangan bulat ti %min nepi ka %max.</translation>
+    </message>
+    <message>
+        <source>A frame %w pixels wide was added.</source>
+        <translation>Pigura lébarna %w piksel geus ditambahkeun.</translation>
+    </message>
+    <message>
+        <source>A width of your own</source>
+        <translation>Lébar anjeun sorangan</translation>
+    </message>
+    <message>
+        <source>Add the frame</source>
+        <translation>Tambahkeun pigura</translation>
+    </message>
+    <message>
+        <source>Load again</source>
+        <translation>Muat deui</translation>
+    </message>
+    <message>
+        <source>Device preview</source>
+        <translation>Pratinjau piranti</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page: the frames show the published page.</source>
+        <translation>Anjeun teu boga draf kaca ieu: pigura nunjukkeun kaca nu geus diterbitkeun.</translation>
+    </message>
+    <message>
+        <source>Preview on %device</source>
+        <translation>Pratinjau dina %device</translation>
+    </message>
+    <message>
+        <source>%w × %h</source>
+        <translation>%w × %h</translation>
+    </message>
+    <message>
+        <source>Remove the frame</source>
+        <translation>Piceun pigura</translation>
+    </message>
+    <message>
+        <source>%w pixels wide</source>
+        <translation>Lébarna %w piksel</translation>
+    </message>
+    <message>
+        <source>Choose a device above.</source>
+        <translation>Pilih hiji piranti di luhur.</translation>
+    </message>
+    <message>
+        <source>Tablet</source>
+        <translation>Tablét</translation>
+    </message>
+    <message>
+        <source>Desktop</source>
+        <translation>Desktop</translation>
+    </message>
+    <message>
+        <source>1920 wide at 200% zoom</source>
+        <translation>Lébar 1920 kalayan zoom 200%</translation>
+    </message>
 </context>
 </TS>

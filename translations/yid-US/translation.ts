@@ -1867,5 +1867,81 @@
         <source>Saved: the sizes are made again around the focal point.</source>
         <translation>געהיט: די גרייסן ווערן ווידער געמאַכט אַרום דעם פֿאָקוס־פּונקט.</translation>
     </message>
+    <message>
+        <source>Devices</source>
+        <translation>מכשירים</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>ווערסיע</translation>
+    </message>
+    <message>
+        <source>Your draft of %time</source>
+        <translation>אײַער שׂרטוט פֿון %time</translation>
+    </message>
+    <message>
+        <source>From %min to %max pixels</source>
+        <translation>פֿון %min ביז %max פּיקסעלן</translation>
+    </message>
+    <message>
+        <source>The width must be a whole number from %min to %max.</source>
+        <translation>די ברייט מוז זײַן אַ גאַנצע צאָל פֿון %min ביז %max.</translation>
+    </message>
+    <message>
+        <source>A frame %w pixels wide was added.</source>
+        <translation>אַ ראַם מיט אַ ברייט פֿון %w פּיקסעלן איז צוגעגעבן געוואָרן.</translation>
+    </message>
+    <message>
+        <source>A width of your own</source>
+        <translation>אײַער אײגענע ברייט</translation>
+    </message>
+    <message>
+        <source>Add the frame</source>
+        <translation>לייגט צו די ראַם</translation>
+    </message>
+    <message>
+        <source>Load again</source>
+        <translation>לאָדט נאָך אַ מאָל</translation>
+    </message>
+    <message>
+        <source>Device preview</source>
+        <translation>פֿאָרויסבליק פֿון דעם מכשיר</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page: the frames show the published page.</source>
+        <translation>איר האָט נישט קיין שׂרטוט פֿון דער דאָזיקער זײַט: די ראַמען ווײַזן די פֿאַרעפֿנטלעכטע זײַט.</translation>
+    </message>
+    <message>
+        <source>Preview on %device</source>
+        <translation>פֿאָרויסבליק אויף %device</translation>
+    </message>
+    <message>
+        <source>%w × %h</source>
+        <translation>%w × %h</translation>
+    </message>
+    <message>
+        <source>Remove the frame</source>
+        <translation>נעמט אַוועק די ראַם</translation>
+    </message>
+    <message>
+        <source>%w pixels wide</source>
+        <translation>%w פּיקסעלן ברייט</translation>
+    </message>
+    <message>
+        <source>Choose a device above.</source>
+        <translation>קלײַבט אויס אַ מכשיר אויבן.</translation>
+    </message>
+    <message>
+        <source>Tablet</source>
+        <translation>טאַבלעט</translation>
+    </message>
+    <message>
+        <source>Desktop</source>
+        <translation>דעסקטאָפּ</translation>
+    </message>
+    <message>
+        <source>1920 wide at 200% zoom</source>
+        <translation>1920 ברייט בײַ 200% פֿאַרגרעסערונג</translation>
+    </message>
 </context>
 </TS>

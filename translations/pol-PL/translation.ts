@@ -1867,5 +1867,81 @@
         <source>Saved: the sizes are made again around the focal point.</source>
         <translation>Zapisano: rozmiary są tworzone na nowo wokół punktu centralnego.</translation>
     </message>
+    <message>
+        <source>Devices</source>
+        <translation>Urządzenia</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>Wersja</translation>
+    </message>
+    <message>
+        <source>Your draft of %time</source>
+        <translation>Twoja wersja robocza z %time</translation>
+    </message>
+    <message>
+        <source>From %min to %max pixels</source>
+        <translation>Od %min do %max pikseli</translation>
+    </message>
+    <message>
+        <source>The width must be a whole number from %min to %max.</source>
+        <translation>Szerokość musi być liczbą całkowitą od %min do %max.</translation>
+    </message>
+    <message>
+        <source>A frame %w pixels wide was added.</source>
+        <translation>Dodano ramkę o szerokości %w pikseli.</translation>
+    </message>
+    <message>
+        <source>A width of your own</source>
+        <translation>Własna szerokość</translation>
+    </message>
+    <message>
+        <source>Add the frame</source>
+        <translation>Dodaj ramkę</translation>
+    </message>
+    <message>
+        <source>Load again</source>
+        <translation>Wczytaj ponownie</translation>
+    </message>
+    <message>
+        <source>Device preview</source>
+        <translation>Podgląd na urządzeniach</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page: the frames show the published page.</source>
+        <translation>Nie masz wersji roboczej tej strony: ramki pokazują opublikowaną stronę.</translation>
+    </message>
+    <message>
+        <source>Preview on %device</source>
+        <translation>Podgląd na urządzeniu %device</translation>
+    </message>
+    <message>
+        <source>%w × %h</source>
+        <translation>%w × %h</translation>
+    </message>
+    <message>
+        <source>Remove the frame</source>
+        <translation>Usuń ramkę</translation>
+    </message>
+    <message>
+        <source>%w pixels wide</source>
+        <translation>Szerokość %w pikseli</translation>
+    </message>
+    <message>
+        <source>Choose a device above.</source>
+        <translation>Wybierz urządzenie powyżej.</translation>
+    </message>
+    <message>
+        <source>Tablet</source>
+        <translation>Tablet</translation>
+    </message>
+    <message>
+        <source>Desktop</source>
+        <translation>Komputer stacjonarny</translation>
+    </message>
+    <message>
+        <source>1920 wide at 200% zoom</source>
+        <translation>Szerokość 1920 przy powiększeniu 200%</translation>
+    </message>
 </context>
 </TS>

@@ -1867,5 +1867,81 @@
         <source>Saved: the sizes are made again around the focal point.</source>
         <translation>Αποθηκεύτηκε: τα μεγέθη δημιουργούνται ξανά γύρω από το σημείο εστίασης.</translation>
     </message>
+    <message>
+        <source>Devices</source>
+        <translation>Συσκευές</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>Έκδοση</translation>
+    </message>
+    <message>
+        <source>Your draft of %time</source>
+        <translation>Το προσχέδιό σας από %time</translation>
+    </message>
+    <message>
+        <source>From %min to %max pixels</source>
+        <translation>Από %min έως %max εικονοστοιχεία</translation>
+    </message>
+    <message>
+        <source>The width must be a whole number from %min to %max.</source>
+        <translation>Το πλάτος πρέπει να είναι ακέραιος αριθμός από %min έως %max.</translation>
+    </message>
+    <message>
+        <source>A frame %w pixels wide was added.</source>
+        <translation>Προστέθηκε ένα πλαίσιο πλάτους %w εικονοστοιχείων.</translation>
+    </message>
+    <message>
+        <source>A width of your own</source>
+        <translation>Δικό σας πλάτος</translation>
+    </message>
+    <message>
+        <source>Add the frame</source>
+        <translation>Προσθήκη του πλαισίου</translation>
+    </message>
+    <message>
+        <source>Load again</source>
+        <translation>Φόρτωση ξανά</translation>
+    </message>
+    <message>
+        <source>Device preview</source>
+        <translation>Προεπισκόπηση συσκευών</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page: the frames show the published page.</source>
+        <translation>Δεν έχετε προσχέδιο αυτής της σελίδας: τα πλαίσια δείχνουν τη δημοσιευμένη σελίδα.</translation>
+    </message>
+    <message>
+        <source>Preview on %device</source>
+        <translation>Προεπισκόπηση σε %device</translation>
+    </message>
+    <message>
+        <source>%w × %h</source>
+        <translation>%w × %h</translation>
+    </message>
+    <message>
+        <source>Remove the frame</source>
+        <translation>Αφαίρεση του πλαισίου</translation>
+    </message>
+    <message>
+        <source>%w pixels wide</source>
+        <translation>Πλάτος %w εικονοστοιχείων</translation>
+    </message>
+    <message>
+        <source>Choose a device above.</source>
+        <translation>Επιλέξτε μια συσκευή παραπάνω.</translation>
+    </message>
+    <message>
+        <source>Tablet</source>
+        <translation>Tablet</translation>
+    </message>
+    <message>
+        <source>Desktop</source>
+        <translation>Επιτραπέζιος υπολογιστής</translation>
+    </message>
+    <message>
+        <source>1920 wide at 200% zoom</source>
+        <translation>1920 πλάτος με μεγέθυνση 200%</translation>
+    </message>
 </context>
 </TS>

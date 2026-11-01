@@ -1867,5 +1867,81 @@
         <source>Saved: the sizes are made again around the focal point.</source>
         <translation>خوندي شو: اندازې د فوکل ټکي شاوخوا بیا جوړېږي.</translation>
     </message>
+    <message>
+        <source>Devices</source>
+        <translation>وسایل</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>نسخه</translation>
+    </message>
+    <message>
+        <source>Your draft of %time</source>
+        <translation>د %time ستاسو مسوده</translation>
+    </message>
+    <message>
+        <source>From %min to %max pixels</source>
+        <translation>له %min څخه تر %max پکسلونو پورې</translation>
+    </message>
+    <message>
+        <source>The width must be a whole number from %min to %max.</source>
+        <translation>پلنوالی باید له %min څخه تر %max پورې بشپړ عدد وي.</translation>
+    </message>
+    <message>
+        <source>A frame %w pixels wide was added.</source>
+        <translation>%w پکسل پلن چوکاټ اضافه شو.</translation>
+    </message>
+    <message>
+        <source>A width of your own</source>
+        <translation>ستاسو خپل پلنوالی</translation>
+    </message>
+    <message>
+        <source>Add the frame</source>
+        <translation>چوکاټ اضافه کړئ</translation>
+    </message>
+    <message>
+        <source>Load again</source>
+        <translation>بیا بار کړئ</translation>
+    </message>
+    <message>
+        <source>Device preview</source>
+        <translation>د وسیلې مخکتنه</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page: the frames show the published page.</source>
+        <translation>تاسو د دې پاڼې مسوده نه لرئ: چوکاټونه خپره شوې پاڼه ښيي.</translation>
+    </message>
+    <message>
+        <source>Preview on %device</source>
+        <translation>په %device کې مخکتنه</translation>
+    </message>
+    <message>
+        <source>%w × %h</source>
+        <translation>%w × %h</translation>
+    </message>
+    <message>
+        <source>Remove the frame</source>
+        <translation>چوکاټ لرې کړئ</translation>
+    </message>
+    <message>
+        <source>%w pixels wide</source>
+        <translation>%w پکسل پلن</translation>
+    </message>
+    <message>
+        <source>Choose a device above.</source>
+        <translation>له پورته یو وسیله وټاکئ.</translation>
+    </message>
+    <message>
+        <source>Tablet</source>
+        <translation>ټابلیټ</translation>
+    </message>
+    <message>
+        <source>Desktop</source>
+        <translation>ډیسکټاپ</translation>
+    </message>
+    <message>
+        <source>1920 wide at 200% zoom</source>
+        <translation>په ۲۰۰٪ زوم کې ۱۹۲۰ پلن</translation>
+    </message>
 </context>
 </TS>

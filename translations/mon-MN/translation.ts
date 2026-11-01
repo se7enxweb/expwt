@@ -1867,5 +1867,81 @@
         <source>Saved: the sizes are made again around the focal point.</source>
         <translation>Хадгалагдлаа: хэмжээнүүдийг фокусын цэгийг тойруулан дахин үүсгэнэ.</translation>
     </message>
+    <message>
+        <source>Devices</source>
+        <translation>Төхөөрөмжүүд</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>Хувилбар</translation>
+    </message>
+    <message>
+        <source>Your draft of %time</source>
+        <translation>%time-ийн таны ноорог</translation>
+    </message>
+    <message>
+        <source>From %min to %max pixels</source>
+        <translation>%min-ээс %max пиксель</translation>
+    </message>
+    <message>
+        <source>The width must be a whole number from %min to %max.</source>
+        <translation>Өргөн нь %min-ээс %max хүртэлх бүхэл тоо байх ёстой.</translation>
+    </message>
+    <message>
+        <source>A frame %w pixels wide was added.</source>
+        <translation>%w пиксель өргөнтэй хүрээ нэмэгдлээ.</translation>
+    </message>
+    <message>
+        <source>A width of your own</source>
+        <translation>Өөрийн өргөн</translation>
+    </message>
+    <message>
+        <source>Add the frame</source>
+        <translation>Хүрээ нэмэх</translation>
+    </message>
+    <message>
+        <source>Load again</source>
+        <translation>Дахин ачаалах</translation>
+    </message>
+    <message>
+        <source>Device preview</source>
+        <translation>Төхөөрөмжийн урьдчилан харалт</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page: the frames show the published page.</source>
+        <translation>Танд энэ хуудасны ноорог байхгүй: хүрээнүүд нийтлэгдсэн хуудсыг харуулж байна.</translation>
+    </message>
+    <message>
+        <source>Preview on %device</source>
+        <translation>%device дээрх урьдчилан харалт</translation>
+    </message>
+    <message>
+        <source>%w × %h</source>
+        <translation>%w × %h</translation>
+    </message>
+    <message>
+        <source>Remove the frame</source>
+        <translation>Хүрээг устгах</translation>
+    </message>
+    <message>
+        <source>%w pixels wide</source>
+        <translation>%w пиксель өргөн</translation>
+    </message>
+    <message>
+        <source>Choose a device above.</source>
+        <translation>Дээрээс төхөөрөмж сонгоно уу.</translation>
+    </message>
+    <message>
+        <source>Tablet</source>
+        <translation>Таблет</translation>
+    </message>
+    <message>
+        <source>Desktop</source>
+        <translation>Ширээний компьютер</translation>
+    </message>
+    <message>
+        <source>1920 wide at 200% zoom</source>
+        <translation>200% томруулалттай 1920 өргөн</translation>
+    </message>
 </context>
 </TS>

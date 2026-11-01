@@ -1867,5 +1867,81 @@
         <source>Saved: the sizes are made again around the focal point.</source>
         <translation>E don save: dem go make the sizes again round the focal point.</translation>
     </message>
+    <message>
+        <source>Devices</source>
+        <translation>Devices</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>Version</translation>
+    </message>
+    <message>
+        <source>Your draft of %time</source>
+        <translation>Your draft wey you do for %time</translation>
+    </message>
+    <message>
+        <source>From %min to %max pixels</source>
+        <translation>From %min reach %max pixels</translation>
+    </message>
+    <message>
+        <source>The width must be a whole number from %min to %max.</source>
+        <translation>Di width must be whole number from %min reach %max.</translation>
+    </message>
+    <message>
+        <source>A frame %w pixels wide was added.</source>
+        <translation>Dem don add frame wey wide %w pixels.</translation>
+    </message>
+    <message>
+        <source>A width of your own</source>
+        <translation>Your own width</translation>
+    </message>
+    <message>
+        <source>Add the frame</source>
+        <translation>Add di frame</translation>
+    </message>
+    <message>
+        <source>Load again</source>
+        <translation>Load am again</translation>
+    </message>
+    <message>
+        <source>Device preview</source>
+        <translation>Device preview</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page: the frames show the published page.</source>
+        <translation>You no get draft of dis page: di frames dey show di page wey dem don publish.</translation>
+    </message>
+    <message>
+        <source>Preview on %device</source>
+        <translation>Preview for %device</translation>
+    </message>
+    <message>
+        <source>%w × %h</source>
+        <translation>%w × %h</translation>
+    </message>
+    <message>
+        <source>Remove the frame</source>
+        <translation>Remove di frame</translation>
+    </message>
+    <message>
+        <source>%w pixels wide</source>
+        <translation>%w pixels wide</translation>
+    </message>
+    <message>
+        <source>Choose a device above.</source>
+        <translation>Choose one device for up.</translation>
+    </message>
+    <message>
+        <source>Tablet</source>
+        <translation>Tablet</translation>
+    </message>
+    <message>
+        <source>Desktop</source>
+        <translation>Desktop</translation>
+    </message>
+    <message>
+        <source>1920 wide at 200% zoom</source>
+        <translation>1920 wide for 200% zoom</translation>
+    </message>
 </context>
 </TS>

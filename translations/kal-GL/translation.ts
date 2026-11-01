@@ -1867,5 +1867,81 @@
         <source>Saved: the sizes are made again around the focal point.</source>
         <translation>Toqqorneqarpoq: angissutsit qiterlersuiffiup eqqaani nutaamik pilersinneqarput.</translation>
     </message>
+    <message>
+        <source>Devices</source>
+        <translation>Atortussat</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>Versioni</translation>
+    </message>
+    <message>
+        <source>Your draft of %time</source>
+        <translation>Missingiutit %time</translation>
+    </message>
+    <message>
+        <source>From %min to %max pixels</source>
+        <translation>%min-miit %max-mut pikseliit</translation>
+    </message>
+    <message>
+        <source>The width must be a whole number from %min to %max.</source>
+        <translation>Silissusaa normuuvoq ilaanngitsoq %min-miit %max-mut.</translation>
+    </message>
+    <message>
+        <source>A frame %w pixels wide was added.</source>
+        <translation>Silissusilik %w pikseliit ilanngunneqarpoq.</translation>
+    </message>
+    <message>
+        <source>A width of your own</source>
+        <translation>Namminneq silissusiqarneq</translation>
+    </message>
+    <message>
+        <source>Add the frame</source>
+        <translation>Ilanngguteqarit</translation>
+    </message>
+    <message>
+        <source>Load again</source>
+        <translation>Uterlugu atuaruk</translation>
+    </message>
+    <message>
+        <source>Device preview</source>
+        <translation>Atortussap siumut takuneqarnera</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page: the frames show the published page.</source>
+        <translation>Missingiutiqanngilatit una qupperneq: qupperneq saqqummiunneqarsimasoq takuneqarsinnaavoq.</translation>
+    </message>
+    <message>
+        <source>Preview on %device</source>
+        <translation>Siumut takuneq: %device</translation>
+    </message>
+    <message>
+        <source>%w × %h</source>
+        <translation>%w × %h</translation>
+    </message>
+    <message>
+        <source>Remove the frame</source>
+        <translation>Peeruk</translation>
+    </message>
+    <message>
+        <source>%w pixels wide</source>
+        <translation>Silissusaa %w pikseliit</translation>
+    </message>
+    <message>
+        <source>Choose a device above.</source>
+        <translation>Atortussaq qulaani toqqaruk.</translation>
+    </message>
+    <message>
+        <source>Tablet</source>
+        <translation>Tablet</translation>
+    </message>
+    <message>
+        <source>Desktop</source>
+        <translation>Desktop</translation>
+    </message>
+    <message>
+        <source>1920 wide at 200% zoom</source>
+        <translation>1920 silissusilik 200% zoomimik</translation>
+    </message>
 </context>
 </TS>

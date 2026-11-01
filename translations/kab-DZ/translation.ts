@@ -1867,5 +1867,81 @@
         <source>Saved: the sizes are made again around the focal point.</source>
         <translation>Yettwasekles: tiddiwin ttwagent tikkelt nniḍen ɣef tnqiḍt n usaḍas.</translation>
     </message>
+    <message>
+        <source>Devices</source>
+        <translation>Allalen</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>Lqem</translation>
+    </message>
+    <message>
+        <source>Your draft of %time</source>
+        <translation>Arewway-ik n %time</translation>
+    </message>
+    <message>
+        <source>From %min to %max pixels</source>
+        <translation>Seg %min ɣer %max n ipiksilen</translation>
+    </message>
+    <message>
+        <source>The width must be a whole number from %min to %max.</source>
+        <translation>Teɣzi ilaq ad tili d amḍan ummid seg %min ɣer %max.</translation>
+    </message>
+    <message>
+        <source>A frame %w pixels wide was added.</source>
+        <translation>Yettwarna uɣrab s teɣzi n %w n ipiksilen.</translation>
+    </message>
+    <message>
+        <source>A width of your own</source>
+        <translation>Teɣzi i tferneḍ s yiman-ik</translation>
+    </message>
+    <message>
+        <source>Add the frame</source>
+        <translation>Rnu aɣrab</translation>
+    </message>
+    <message>
+        <source>Load again</source>
+        <translation>Ɛiwed asali</translation>
+    </message>
+    <message>
+        <source>Device preview</source>
+        <translation>Taskant n yibenk</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page: the frames show the published page.</source>
+        <translation>Ulac ɣur-k arewway n usebter-a: iɣrab ttwalin asebter yettwasiẓreg.</translation>
+    </message>
+    <message>
+        <source>Preview on %device</source>
+        <translation>Taskant ɣef %device</translation>
+    </message>
+    <message>
+        <source>%w × %h</source>
+        <translation>%w × %h</translation>
+    </message>
+    <message>
+        <source>Remove the frame</source>
+        <translation>Kkes aɣrab</translation>
+    </message>
+    <message>
+        <source>%w pixels wide</source>
+        <translation>Teɣzi n %w n ipiksilen</translation>
+    </message>
+    <message>
+        <source>Choose a device above.</source>
+        <translation>Fren ibenk deg uksawen.</translation>
+    </message>
+    <message>
+        <source>Tablet</source>
+        <translation>Tablet</translation>
+    </message>
+    <message>
+        <source>Desktop</source>
+        <translation>Desktop</translation>
+    </message>
+    <message>
+        <source>1920 wide at 200% zoom</source>
+        <translation>1920 n teɣzi s zoom n 200%</translation>
+    </message>
 </context>
 </TS>

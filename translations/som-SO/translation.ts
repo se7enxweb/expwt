@@ -1867,5 +1867,81 @@
         <source>Saved: the sizes are made again around the focal point.</source>
         <translation>Waa la keydiyey: cabbirrada ayaa dib loogu sameeyaa barta diiradda agteeda.</translation>
     </message>
+    <message>
+        <source>Devices</source>
+        <translation>Qalabka</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>Nooca</translation>
+    </message>
+    <message>
+        <source>Your draft of %time</source>
+        <translation>Qabyadaada %time</translation>
+    </message>
+    <message>
+        <source>From %min to %max pixels</source>
+        <translation>Laga bilaabo %min ilaa %max pixel</translation>
+    </message>
+    <message>
+        <source>The width must be a whole number from %min to %max.</source>
+        <translation>Ballaca waa inuu noqdaa tiro dhan oo ka bilaabma %min ilaa %max.</translation>
+    </message>
+    <message>
+        <source>A frame %w pixels wide was added.</source>
+        <translation>Fariim ballaciisu yahay %w pixel ayaa lagu daray.</translation>
+    </message>
+    <message>
+        <source>A width of your own</source>
+        <translation>Ballac adiga u gaar ah</translation>
+    </message>
+    <message>
+        <source>Add the frame</source>
+        <translation>Ku dar fariimka</translation>
+    </message>
+    <message>
+        <source>Load again</source>
+        <translation>Mar kale soo rar</translation>
+    </message>
+    <message>
+        <source>Device preview</source>
+        <translation>Horu-eegga qalabka</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page: the frames show the published page.</source>
+        <translation>Boggan qabyo ma haysatid: fariimyadu waxay muujinayaan bogga la daabacay.</translation>
+    </message>
+    <message>
+        <source>Preview on %device</source>
+        <translation>Horu-eeg ku saabsan %device</translation>
+    </message>
+    <message>
+        <source>%w × %h</source>
+        <translation>%w × %h</translation>
+    </message>
+    <message>
+        <source>Remove the frame</source>
+        <translation>Ka saar fariimka</translation>
+    </message>
+    <message>
+        <source>%w pixels wide</source>
+        <translation>%w pixel ballac ah</translation>
+    </message>
+    <message>
+        <source>Choose a device above.</source>
+        <translation>Kor ka dooro qalab.</translation>
+    </message>
+    <message>
+        <source>Tablet</source>
+        <translation>Tablet</translation>
+    </message>
+    <message>
+        <source>Desktop</source>
+        <translation>Kombiyuutar miiska</translation>
+    </message>
+    <message>
+        <source>1920 wide at 200% zoom</source>
+        <translation>1920 ballac ah oo 200% la weyneeyay</translation>
+    </message>
 </context>
 </TS>

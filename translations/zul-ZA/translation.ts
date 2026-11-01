@@ -1867,5 +1867,81 @@
         <source>Saved: the sizes are made again around the focal point.</source>
         <translation>Kulondoloziwe: osayizi benziwa kabusha bezungeze indawo yokugxila.</translation>
     </message>
+    <message>
+        <source>Devices</source>
+        <translation>Amadivayisi</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>Inguqulo</translation>
+    </message>
+    <message>
+        <source>Your draft of %time</source>
+        <translation>Isiqeshana sakho sika-%time</translation>
+    </message>
+    <message>
+        <source>From %min to %max pixels</source>
+        <translation>Kusukela ku-%min kuya ku-%max amaphikseli</translation>
+    </message>
+    <message>
+        <source>The width must be a whole number from %min to %max.</source>
+        <translation>Ububanzi kumele kube yinombolo ephelele kusukela ku-%min kuya ku-%max.</translation>
+    </message>
+    <message>
+        <source>A frame %w pixels wide was added.</source>
+        <translation>Kwengezwe uhlaka olububanzi bayo bumaphikseli angu-%w.</translation>
+    </message>
+    <message>
+        <source>A width of your own</source>
+        <translation>Ububanzi bakho</translation>
+    </message>
+    <message>
+        <source>Add the frame</source>
+        <translation>Engeza uhlaka</translation>
+    </message>
+    <message>
+        <source>Load again</source>
+        <translation>Layisha futhi</translation>
+    </message>
+    <message>
+        <source>Device preview</source>
+        <translation>Buka kuqala idivayisi</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page: the frames show the published page.</source>
+        <translation>Anayo isiqeshana saleli khasi: izinhlaka ziveza ikhasi elishicilelwe.</translation>
+    </message>
+    <message>
+        <source>Preview on %device</source>
+        <translation>Buka kuqala ku-%device</translation>
+    </message>
+    <message>
+        <source>%w × %h</source>
+        <translation>%w × %h</translation>
+    </message>
+    <message>
+        <source>Remove the frame</source>
+        <translation>Susa uhlaka</translation>
+    </message>
+    <message>
+        <source>%w pixels wide</source>
+        <translation>Ububanzi bumaphikseli angu-%w</translation>
+    </message>
+    <message>
+        <source>Choose a device above.</source>
+        <translation>Khetha idivayisi ngenhla.</translation>
+    </message>
+    <message>
+        <source>Tablet</source>
+        <translation>Ithebulethi</translation>
+    </message>
+    <message>
+        <source>Desktop</source>
+        <translation>Ikhompyutha yedeskithophu</translation>
+    </message>
+    <message>
+        <source>1920 wide at 200% zoom</source>
+        <translation>1920 ububanzi ku-zoom engu-200%</translation>
+    </message>
 </context>
 </TS>

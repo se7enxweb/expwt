@@ -1867,5 +1867,81 @@
         <source>Saved: the sizes are made again around the focal point.</source>
         <translation>ተቐሚጡ: መጠናት ኣብ ዙርያ ማእከላይ ነጥቢ ዳግም ይስርሑ።</translation>
     </message>
+    <message>
+        <source>Devices</source>
+        <translation>መሳርሒታት</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>ዕትም</translation>
+    </message>
+    <message>
+        <source>Your draft of %time</source>
+        <translation>ናይ %time ንድፊኹም</translation>
+    </message>
+    <message>
+        <source>From %min to %max pixels</source>
+        <translation>ካብ %min ክሳብ %max ፒክሰል</translation>
+    </message>
+    <message>
+        <source>The width must be a whole number from %min to %max.</source>
+        <translation>ስፍሓቱ ካብ %min ክሳብ %max ዝኾነ ምሉእ ቁጽሪ ክኸውን ኣለዎ።</translation>
+    </message>
+    <message>
+        <source>A frame %w pixels wide was added.</source>
+        <translation>ስፍሓቱ %w ፒክሰል ዝኾነ ፍሬም ተወሲኹ።</translation>
+    </message>
+    <message>
+        <source>A width of your own</source>
+        <translation>ናይ ባዕልኹም ስፍሓት</translation>
+    </message>
+    <message>
+        <source>Add the frame</source>
+        <translation>ፍሬም ወስኹ</translation>
+    </message>
+    <message>
+        <source>Load again</source>
+        <translation>ዳግማይ ጽዓን</translation>
+    </message>
+    <message>
+        <source>Device preview</source>
+        <translation>ቅድመ ርእይቶ መሳርሒ</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page: the frames show the published page.</source>
+        <translation>ናይዛ ገጽ ንድፊ የብልኩምን: ፍሬማት ዝተሓተመ ገጽ የርእዩ።</translation>
+    </message>
+    <message>
+        <source>Preview on %device</source>
+        <translation>ኣብ %device ቅድመ ርእይቶ</translation>
+    </message>
+    <message>
+        <source>%w × %h</source>
+        <translation>%w × %h</translation>
+    </message>
+    <message>
+        <source>Remove the frame</source>
+        <translation>ፍሬም ኣወግድ</translation>
+    </message>
+    <message>
+        <source>%w pixels wide</source>
+        <translation>ስፍሓቱ %w ፒክሰል</translation>
+    </message>
+    <message>
+        <source>Choose a device above.</source>
+        <translation>ኣብ ላዕሊ መሳርሒ ሓርዩ።</translation>
+    </message>
+    <message>
+        <source>Tablet</source>
+        <translation>ታብሌት</translation>
+    </message>
+    <message>
+        <source>Desktop</source>
+        <translation>ዴስክቶፕ</translation>
+    </message>
+    <message>
+        <source>1920 wide at 200% zoom</source>
+        <translation>ስፍሓት 1920 ኣብ 200% ምዕባይ</translation>
+    </message>
 </context>
 </TS>

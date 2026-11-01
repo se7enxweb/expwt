@@ -1867,5 +1867,81 @@
         <source>Saved: the sizes are made again around the focal point.</source>
         <translation>An ajiye: ana sake yin girman a kewayen wurin mayar da hankali.</translation>
     </message>
+    <message>
+        <source>Devices</source>
+        <translation>Na'urori</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>Sigar</translation>
+    </message>
+    <message>
+        <source>Your draft of %time</source>
+        <translation>Daftarinka na %time</translation>
+    </message>
+    <message>
+        <source>From %min to %max pixels</source>
+        <translation>Daga pixel %min zuwa %max</translation>
+    </message>
+    <message>
+        <source>The width must be a whole number from %min to %max.</source>
+        <translation>Dole faɗin ya zama cikakken lamba daga %min zuwa %max.</translation>
+    </message>
+    <message>
+        <source>A frame %w pixels wide was added.</source>
+        <translation>An ƙara firam mai faɗin pixel %w.</translation>
+    </message>
+    <message>
+        <source>A width of your own</source>
+        <translation>Faɗinka na kanka</translation>
+    </message>
+    <message>
+        <source>Add the frame</source>
+        <translation>Ƙara firam ɗin</translation>
+    </message>
+    <message>
+        <source>Load again</source>
+        <translation>Sake lodawa</translation>
+    </message>
+    <message>
+        <source>Device preview</source>
+        <translation>Duba samfoti na na'ura</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page: the frames show the published page.</source>
+        <translation>Ba ka da daftari na wannan shafi: firam ɗin suna nuna shafin da aka wallafa.</translation>
+    </message>
+    <message>
+        <source>Preview on %device</source>
+        <translation>Samfoti a kan %device</translation>
+    </message>
+    <message>
+        <source>%w × %h</source>
+        <translation>%w × %h</translation>
+    </message>
+    <message>
+        <source>Remove the frame</source>
+        <translation>Cire firam ɗin</translation>
+    </message>
+    <message>
+        <source>%w pixels wide</source>
+        <translation>Faɗin pixel %w</translation>
+    </message>
+    <message>
+        <source>Choose a device above.</source>
+        <translation>Zaɓi na'ura a sama.</translation>
+    </message>
+    <message>
+        <source>Tablet</source>
+        <translation>Tablet</translation>
+    </message>
+    <message>
+        <source>Desktop</source>
+        <translation>Kwamfutar tebur</translation>
+    </message>
+    <message>
+        <source>1920 wide at 200% zoom</source>
+        <translation>Faɗin 1920 a girman 200%</translation>
+    </message>
 </context>
 </TS>

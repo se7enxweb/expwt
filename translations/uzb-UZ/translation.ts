@@ -1867,5 +1867,81 @@
         <source>Saved: the sizes are made again around the focal point.</source>
         <translation>Saqlandi: o'lchamlar fokus nuqtasi atrofida qayta yaratiladi.</translation>
     </message>
+    <message>
+        <source>Devices</source>
+        <translation>Qurilmalar</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>Versiya</translation>
+    </message>
+    <message>
+        <source>Your draft of %time</source>
+        <translation>Sizning %time dagi qoralamangiz</translation>
+    </message>
+    <message>
+        <source>From %min to %max pixels</source>
+        <translation>%min dan %max pikselgacha</translation>
+    </message>
+    <message>
+        <source>The width must be a whole number from %min to %max.</source>
+        <translation>Kenglik %min dan %max gacha butun son boʻlishi kerak.</translation>
+    </message>
+    <message>
+        <source>A frame %w pixels wide was added.</source>
+        <translation>Kengligi %w piksel boʻlgan ramka qoʻshildi.</translation>
+    </message>
+    <message>
+        <source>A width of your own</source>
+        <translation>Oʻzingizning kengligingiz</translation>
+    </message>
+    <message>
+        <source>Add the frame</source>
+        <translation>Ramkani qoʻshish</translation>
+    </message>
+    <message>
+        <source>Load again</source>
+        <translation>Qayta yuklash</translation>
+    </message>
+    <message>
+        <source>Device preview</source>
+        <translation>Qurilmani oldindan koʻrish</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page: the frames show the published page.</source>
+        <translation>Sizda bu sahifaning qoralamasi yoʻq: ramkalar nashr qilingan sahifani koʻrsatadi.</translation>
+    </message>
+    <message>
+        <source>Preview on %device</source>
+        <translation>%device da oldindan koʻrish</translation>
+    </message>
+    <message>
+        <source>%w × %h</source>
+        <translation>%w × %h</translation>
+    </message>
+    <message>
+        <source>Remove the frame</source>
+        <translation>Ramkani olib tashlash</translation>
+    </message>
+    <message>
+        <source>%w pixels wide</source>
+        <translation>Kengligi %w piksel</translation>
+    </message>
+    <message>
+        <source>Choose a device above.</source>
+        <translation>Yuqoridan qurilmani tanlang.</translation>
+    </message>
+    <message>
+        <source>Tablet</source>
+        <translation>Planshet</translation>
+    </message>
+    <message>
+        <source>Desktop</source>
+        <translation>Kompyuter</translation>
+    </message>
+    <message>
+        <source>1920 wide at 200% zoom</source>
+        <translation>200% masshtabda 1920 kenglik</translation>
+    </message>
 </context>
 </TS>

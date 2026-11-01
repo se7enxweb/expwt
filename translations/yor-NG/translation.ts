@@ -1867,5 +1867,81 @@
         <source>Saved: the sizes are made again around the focal point.</source>
         <translation>Ó ti fipamọ́: a tún ṣe àwọn ìwọ̀n yíká ojú-àfiyèsí.</translation>
     </message>
+    <message>
+        <source>Devices</source>
+        <translation>Àwọn ẹ̀rọ</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>Ẹ̀dà</translation>
+    </message>
+    <message>
+        <source>Your draft of %time</source>
+        <translation>Àkọsílẹ̀ àkọ́kọ́ rẹ ti %time</translation>
+    </message>
+    <message>
+        <source>From %min to %max pixels</source>
+        <translation>Láti %min sí %max pixel</translation>
+    </message>
+    <message>
+        <source>The width must be a whole number from %min to %max.</source>
+        <translation>Fífẹ̀ gbọ́dọ̀ jẹ́ nọ́mbà odidi láti %min sí %max.</translation>
+    </message>
+    <message>
+        <source>A frame %w pixels wide was added.</source>
+        <translation>A ti fi férémù tó fẹ̀ ní pixel %w kún.</translation>
+    </message>
+    <message>
+        <source>A width of your own</source>
+        <translation>Fífẹ̀ tìrẹ</translation>
+    </message>
+    <message>
+        <source>Add the frame</source>
+        <translation>Fi férémù kún</translation>
+    </message>
+    <message>
+        <source>Load again</source>
+        <translation>Gbé e wọlé lẹ́ẹ̀kan sí i</translation>
+    </message>
+    <message>
+        <source>Device preview</source>
+        <translation>Awotẹ́lẹ̀ ẹ̀rọ</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page: the frames show the published page.</source>
+        <translation>O kò ní àkọsílẹ̀ àkọ́kọ́ ojú-ìwé yìí: àwọn férémù fi ojú-ìwé tí a tẹ̀jáde hàn.</translation>
+    </message>
+    <message>
+        <source>Preview on %device</source>
+        <translation>Awotẹ́lẹ̀ lórí %device</translation>
+    </message>
+    <message>
+        <source>%w × %h</source>
+        <translation>%w × %h</translation>
+    </message>
+    <message>
+        <source>Remove the frame</source>
+        <translation>Yọ férémù kúrò</translation>
+    </message>
+    <message>
+        <source>%w pixels wide</source>
+        <translation>Fífẹ̀ pixel %w</translation>
+    </message>
+    <message>
+        <source>Choose a device above.</source>
+        <translation>Yan ẹ̀rọ kan lókè.</translation>
+    </message>
+    <message>
+        <source>Tablet</source>
+        <translation>Tábìlẹ́ẹ̀tì</translation>
+    </message>
+    <message>
+        <source>Desktop</source>
+        <translation>Kọ̀ǹpútà orí tábìlì</translation>
+    </message>
+    <message>
+        <source>1920 wide at 200% zoom</source>
+        <translation>Fífẹ̀ 1920 ní 200% ìfàmóra</translation>
+    </message>
 </context>
 </TS>

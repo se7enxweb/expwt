@@ -1867,5 +1867,81 @@
         <source>Saved: the sizes are made again around the focal point.</source>
         <translation>محفوظ: سائز چھِ فوکل پوائنٹس گرٕدٕ نَوِ سرٕ بناونہٕ یِوان۔</translation>
     </message>
+    <message>
+        <source>Devices</source>
+        <translation>آلات</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>ورژن</translation>
+    </message>
+    <message>
+        <source>Your draft of %time</source>
+        <translation>%time مَنٛز توٚہنٛد مَسوٗدہٕ</translation>
+    </message>
+    <message>
+        <source>From %min to %max pixels</source>
+        <translation>%min کھوتہ %max پِکسل</translation>
+    </message>
+    <message>
+        <source>The width must be a whole number from %min to %max.</source>
+        <translation>چوڑٲے ضرور اکھ پوٗرٕ عدد %min کھوتہ %max تام۔</translation>
+    </message>
+    <message>
+        <source>A frame %w pixels wide was added.</source>
+        <translation>%w پِکسل چوڑ فریم شامِل کَرنہ آیہِ۔</translation>
+    </message>
+    <message>
+        <source>A width of your own</source>
+        <translation>تُہنٛد پننٕ چوڑٲے</translation>
+    </message>
+    <message>
+        <source>Add the frame</source>
+        <translation>فریم شامِل کٔریو</translation>
+    </message>
+    <message>
+        <source>Load again</source>
+        <translation>دوبارٕ لوڈ کٔریو</translation>
+    </message>
+    <message>
+        <source>Device preview</source>
+        <translation>آلہٕ پریویو</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page: the frames show the published page.</source>
+        <translation>تۄہہِ چھُ نہٕ یِمہِ صفحہٕ ہُند مَسوٗدہٕ: فریم چھِ شایع کوٚرمُت صفحہٕ ظاہر کران۔</translation>
+    </message>
+    <message>
+        <source>Preview on %device</source>
+        <translation>%device پیٹھ پریویو</translation>
+    </message>
+    <message>
+        <source>%w × %h</source>
+        <translation>%w × %h</translation>
+    </message>
+    <message>
+        <source>Remove the frame</source>
+        <translation>فریم ہٹاوِو</translation>
+    </message>
+    <message>
+        <source>%w pixels wide</source>
+        <translation>%w پِکسل چوڑ</translation>
+    </message>
+    <message>
+        <source>Choose a device above.</source>
+        <translation>اُتھ پیٹھ آلہٕ ژارِو۔</translation>
+    </message>
+    <message>
+        <source>Tablet</source>
+        <translation>ٹیبلیٹ</translation>
+    </message>
+    <message>
+        <source>Desktop</source>
+        <translation>ڈیسک ٹاپ</translation>
+    </message>
+    <message>
+        <source>1920 wide at 200% zoom</source>
+        <translation>200% زوم پیٹھ 1920 چوڑ</translation>
+    </message>
 </context>
 </TS>

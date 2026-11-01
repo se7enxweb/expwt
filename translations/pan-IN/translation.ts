@@ -1867,5 +1867,81 @@
         <source>Saved: the sizes are made again around the focal point.</source>
         <translation>ਸੰਭਾਲਿਆ ਗਿਆ: ਆਕਾਰ ਫੋਕਲ ਪੁਆਇੰਟ ਦੇ ਦੁਆਲੇ ਦੁਬਾਰਾ ਬਣਾਏ ਜਾਂਦੇ ਹਨ।</translation>
     </message>
+    <message>
+        <source>Devices</source>
+        <translation>ਡੀਵਾਈਸ</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>ਵਰਜਨ</translation>
+    </message>
+    <message>
+        <source>Your draft of %time</source>
+        <translation>%time ਦਾ ਤੁਹਾਡਾ ਖਰੜਾ</translation>
+    </message>
+    <message>
+        <source>From %min to %max pixels</source>
+        <translation>%min ਤੋਂ %max ਪਿਕਸਲ ਤੱਕ</translation>
+    </message>
+    <message>
+        <source>The width must be a whole number from %min to %max.</source>
+        <translation>ਚੌੜਾਈ %min ਤੋਂ %max ਤੱਕ ਇੱਕ ਪੂਰਨ ਅੰਕ ਹੋਣੀ ਚਾਹੀਦੀ ਹੈ।</translation>
+    </message>
+    <message>
+        <source>A frame %w pixels wide was added.</source>
+        <translation>%w ਪਿਕਸਲ ਚੌੜਾ ਫ੍ਰੇਮ ਜੋੜਿਆ ਗਿਆ।</translation>
+    </message>
+    <message>
+        <source>A width of your own</source>
+        <translation>ਤੁਹਾਡੀ ਆਪਣੀ ਚੌੜਾਈ</translation>
+    </message>
+    <message>
+        <source>Add the frame</source>
+        <translation>ਫ੍ਰੇਮ ਜੋੜੋ</translation>
+    </message>
+    <message>
+        <source>Load again</source>
+        <translation>ਮੁੜ ਲੋਡ ਕਰੋ</translation>
+    </message>
+    <message>
+        <source>Device preview</source>
+        <translation>ਡੀਵਾਈਸ ਝਲਕ</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page: the frames show the published page.</source>
+        <translation>ਤੁਹਾਡੇ ਕੋਲ ਇਸ ਸਫ਼ੇ ਦਾ ਕੋਈ ਖਰੜਾ ਨਹੀਂ ਹੈ: ਫ੍ਰੇਮ ਪ੍ਰਕਾਸ਼ਿਤ ਸਫ਼ਾ ਦਿਖਾਉਂਦੇ ਹਨ।</translation>
+    </message>
+    <message>
+        <source>Preview on %device</source>
+        <translation>%device ਉੱਤੇ ਝਲਕ</translation>
+    </message>
+    <message>
+        <source>%w × %h</source>
+        <translation>%w × %h</translation>
+    </message>
+    <message>
+        <source>Remove the frame</source>
+        <translation>ਫ੍ਰੇਮ ਹਟਾਓ</translation>
+    </message>
+    <message>
+        <source>%w pixels wide</source>
+        <translation>%w ਪਿਕਸਲ ਚੌੜਾ</translation>
+    </message>
+    <message>
+        <source>Choose a device above.</source>
+        <translation>ਉੱਪਰੋਂ ਇੱਕ ਡੀਵਾਈਸ ਚੁਣੋ।</translation>
+    </message>
+    <message>
+        <source>Tablet</source>
+        <translation>ਟੈਬਲੇਟ</translation>
+    </message>
+    <message>
+        <source>Desktop</source>
+        <translation>ਡੈਸਕਟਾਪ</translation>
+    </message>
+    <message>
+        <source>1920 wide at 200% zoom</source>
+        <translation>200% ਜ਼ੂਮ ਉੱਤੇ 1920 ਚੌੜਾ</translation>
+    </message>
 </context>
 </TS>

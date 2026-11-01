@@ -1867,5 +1867,81 @@
         <source>Saved: the sizes are made again around the focal point.</source>
         <translation>Išsaugota: dydžiai sukuriami iš naujo aplink židinio tašką.</translation>
     </message>
+    <message>
+        <source>Devices</source>
+        <translation>Įrenginiai</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>Versija</translation>
+    </message>
+    <message>
+        <source>Your draft of %time</source>
+        <translation>Jūsų juodraštis, %time</translation>
+    </message>
+    <message>
+        <source>From %min to %max pixels</source>
+        <translation>Nuo %min iki %max pikselių</translation>
+    </message>
+    <message>
+        <source>The width must be a whole number from %min to %max.</source>
+        <translation>Plotis turi būti sveikasis skaičius nuo %min iki %max.</translation>
+    </message>
+    <message>
+        <source>A frame %w pixels wide was added.</source>
+        <translation>Pridėtas %w pikselių pločio rėmelis.</translation>
+    </message>
+    <message>
+        <source>A width of your own</source>
+        <translation>Savas plotis</translation>
+    </message>
+    <message>
+        <source>Add the frame</source>
+        <translation>Pridėti rėmelį</translation>
+    </message>
+    <message>
+        <source>Load again</source>
+        <translation>Įkelti iš naujo</translation>
+    </message>
+    <message>
+        <source>Device preview</source>
+        <translation>Įrenginio peržiūra</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page: the frames show the published page.</source>
+        <translation>Šio puslapio juodraščio neturite: rėmeliai rodo paskelbtą puslapį.</translation>
+    </message>
+    <message>
+        <source>Preview on %device</source>
+        <translation>Peržiūra įrenginyje %device</translation>
+    </message>
+    <message>
+        <source>%w × %h</source>
+        <translation>%w × %h</translation>
+    </message>
+    <message>
+        <source>Remove the frame</source>
+        <translation>Pašalinti rėmelį</translation>
+    </message>
+    <message>
+        <source>%w pixels wide</source>
+        <translation>%w pikselių pločio</translation>
+    </message>
+    <message>
+        <source>Choose a device above.</source>
+        <translation>Aukščiau pasirinkite įrenginį.</translation>
+    </message>
+    <message>
+        <source>Tablet</source>
+        <translation>Planšetė</translation>
+    </message>
+    <message>
+        <source>Desktop</source>
+        <translation>Kompiuteris</translation>
+    </message>
+    <message>
+        <source>1920 wide at 200% zoom</source>
+        <translation>1920 pločio, 200% mastelis</translation>
+    </message>
 </context>
 </TS>

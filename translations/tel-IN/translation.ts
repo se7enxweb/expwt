@@ -1867,5 +1867,81 @@
         <source>Saved: the sizes are made again around the focal point.</source>
         <translation>సేవ్ చేయబడింది: పరిమాణాలు ఫోకల్ పాయింట్ చుట్టూ మళ్లీ తయారవుతాయి.</translation>
     </message>
+    <message>
+        <source>Devices</source>
+        <translation>పరికరాలు</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>వెర్షన్</translation>
+    </message>
+    <message>
+        <source>Your draft of %time</source>
+        <translation>%time నాటి మీ డ్రాఫ్ట్</translation>
+    </message>
+    <message>
+        <source>From %min to %max pixels</source>
+        <translation>%min నుండి %max పిక్సెల్‌ల వరకు</translation>
+    </message>
+    <message>
+        <source>The width must be a whole number from %min to %max.</source>
+        <translation>వెడల్పు %min నుండి %max వరకు ఉండే పూర్ణాంకం అయి ఉండాలి.</translation>
+    </message>
+    <message>
+        <source>A frame %w pixels wide was added.</source>
+        <translation>%w పిక్సెల్‌ల వెడల్పు గల ఫ్రేమ్ జోడించబడింది.</translation>
+    </message>
+    <message>
+        <source>A width of your own</source>
+        <translation>మీ స్వంత వెడల్పు</translation>
+    </message>
+    <message>
+        <source>Add the frame</source>
+        <translation>ఫ్రేమ్‌ను జోడించండి</translation>
+    </message>
+    <message>
+        <source>Load again</source>
+        <translation>మళ్లీ లోడ్ చేయండి</translation>
+    </message>
+    <message>
+        <source>Device preview</source>
+        <translation>పరికరం ప్రివ్యూ</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page: the frames show the published page.</source>
+        <translation>ఈ పేజీకి మీకు డ్రాఫ్ట్ లేదు: ఫ్రేమ్‌లు ప్రచురించబడిన పేజీని చూపుతాయి.</translation>
+    </message>
+    <message>
+        <source>Preview on %device</source>
+        <translation>%device లో ప్రివ్యూ</translation>
+    </message>
+    <message>
+        <source>%w × %h</source>
+        <translation>%w × %h</translation>
+    </message>
+    <message>
+        <source>Remove the frame</source>
+        <translation>ఫ్రేమ్‌ను తీసివేయండి</translation>
+    </message>
+    <message>
+        <source>%w pixels wide</source>
+        <translation>%w పిక్సెల్‌ల వెడల్పు</translation>
+    </message>
+    <message>
+        <source>Choose a device above.</source>
+        <translation>పైన ఒక పరికరాన్ని ఎంచుకోండి.</translation>
+    </message>
+    <message>
+        <source>Tablet</source>
+        <translation>టాబ్లెట్</translation>
+    </message>
+    <message>
+        <source>Desktop</source>
+        <translation>డెస్క్‌టాప్</translation>
+    </message>
+    <message>
+        <source>1920 wide at 200% zoom</source>
+        <translation>200% జూమ్‌లో 1920 వెడల్పు</translation>
+    </message>
 </context>
 </TS>

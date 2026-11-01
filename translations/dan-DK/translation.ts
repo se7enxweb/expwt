@@ -1867,5 +1867,81 @@
         <source>Saved: the sizes are made again around the focal point.</source>
         <translation>Gemt: størrelserne laves igen omkring fokuspunktet.</translation>
     </message>
+    <message>
+        <source>Devices</source>
+        <translation>Enheder</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>Version</translation>
+    </message>
+    <message>
+        <source>Your draft of %time</source>
+        <translation>Dit udkast fra %time</translation>
+    </message>
+    <message>
+        <source>From %min to %max pixels</source>
+        <translation>Fra %min til %max pixel</translation>
+    </message>
+    <message>
+        <source>The width must be a whole number from %min to %max.</source>
+        <translation>Bredden skal være et helt tal fra %min til %max.</translation>
+    </message>
+    <message>
+        <source>A frame %w pixels wide was added.</source>
+        <translation>En ramme på %w pixel i bredden blev tilføjet.</translation>
+    </message>
+    <message>
+        <source>A width of your own</source>
+        <translation>Din egen bredde</translation>
+    </message>
+    <message>
+        <source>Add the frame</source>
+        <translation>Tilføj rammen</translation>
+    </message>
+    <message>
+        <source>Load again</source>
+        <translation>Indlæs igen</translation>
+    </message>
+    <message>
+        <source>Device preview</source>
+        <translation>Visning på enhed</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page: the frames show the published page.</source>
+        <translation>Du har intet udkast til denne side: rammerne viser den udgivne side.</translation>
+    </message>
+    <message>
+        <source>Preview on %device</source>
+        <translation>Forhåndsvisning på %device</translation>
+    </message>
+    <message>
+        <source>%w × %h</source>
+        <translation>%w × %h</translation>
+    </message>
+    <message>
+        <source>Remove the frame</source>
+        <translation>Fjern rammen</translation>
+    </message>
+    <message>
+        <source>%w pixels wide</source>
+        <translation>%w pixel bred</translation>
+    </message>
+    <message>
+        <source>Choose a device above.</source>
+        <translation>Vælg en enhed ovenfor.</translation>
+    </message>
+    <message>
+        <source>Tablet</source>
+        <translation>Tablet</translation>
+    </message>
+    <message>
+        <source>Desktop</source>
+        <translation>Computer</translation>
+    </message>
+    <message>
+        <source>1920 wide at 200% zoom</source>
+        <translation>1920 bred ved 200 % zoom</translation>
+    </message>
 </context>
 </TS>

@@ -1867,5 +1867,81 @@
         <source>Saved: the sizes are made again around the focal point.</source>
         <translation>दोनबाय: महरफोरखौ फकाल पइन्टनि गेजेरजों फिन बानायनाय जायो।</translation>
     </message>
+    <message>
+        <source>Devices</source>
+        <translation>डिभाइसफोर</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>संस्करण</translation>
+    </message>
+    <message>
+        <source>Your draft of %time</source>
+        <translation>%timeनि नों-नि खस्रा</translation>
+    </message>
+    <message>
+        <source>From %min to %max pixels</source>
+        <translation>%min निफ्राय %max पिक्सेल सम्मोन</translation>
+    </message>
+    <message>
+        <source>The width must be a whole number from %min to %max.</source>
+        <translation>गुवारथि %min निफ्राय %max सम्मोन गाहाइ थैखाइ जायो।</translation>
+    </message>
+    <message>
+        <source>A frame %w pixels wide was added.</source>
+        <translation>%w पिक्सेल गुवारथि फ्रेम सोलायजाबाय।</translation>
+    </message>
+    <message>
+        <source>A width of your own</source>
+        <translation>नोंथांनि गुवारथि</translation>
+    </message>
+    <message>
+        <source>Add the frame</source>
+        <translation>फ्रेमखौ सोलाय</translation>
+    </message>
+    <message>
+        <source>Load again</source>
+        <translation>फिनजाव लोड खालाम</translation>
+    </message>
+    <message>
+        <source>Device preview</source>
+        <translation>डिभाइसनि सोलोंथाइ</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page: the frames show the published page.</source>
+        <translation>नोंथांनि बे बिलाइनि खस्रा गैया: फ्रेमफोरैनि फोसावजादों बिलाइखौ सोलोंथाइ खालामो।</translation>
+    </message>
+    <message>
+        <source>Preview on %device</source>
+        <translation>%device आव सोलोंथाइ</translation>
+    </message>
+    <message>
+        <source>%w × %h</source>
+        <translation>%w × %h</translation>
+    </message>
+    <message>
+        <source>Remove the frame</source>
+        <translation>फ्रेमखौ फुंखा</translation>
+    </message>
+    <message>
+        <source>%w pixels wide</source>
+        <translation>%w पिक्सेल गुवारथि</translation>
+    </message>
+    <message>
+        <source>Choose a device above.</source>
+        <translation>सिगां आव डिभाइस सायख'।</translation>
+    </message>
+    <message>
+        <source>Tablet</source>
+        <translation>टेबलेट</translation>
+    </message>
+    <message>
+        <source>Desktop</source>
+        <translation>डेस्कटप</translation>
+    </message>
+    <message>
+        <source>1920 wide at 200% zoom</source>
+        <translation>200% जुमआव 1920 गुवारथि</translation>
+    </message>
 </context>
 </TS>

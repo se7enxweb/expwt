@@ -1867,5 +1867,81 @@
         <source>Saved: the sizes are made again around the focal point.</source>
         <translation>जतन केले: आकार फोकल पॉइंटभोवती पुन्हा तयार केले जातात.</translation>
     </message>
+    <message>
+        <source>Devices</source>
+        <translation>उपकरणे</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>आवृत्ती</translation>
+    </message>
+    <message>
+        <source>Your draft of %time</source>
+        <translation>%time चा तुमचा मसुदा</translation>
+    </message>
+    <message>
+        <source>From %min to %max pixels</source>
+        <translation>%min ते %max पिक्सेल</translation>
+    </message>
+    <message>
+        <source>The width must be a whole number from %min to %max.</source>
+        <translation>रुंदी %min ते %max मधील पूर्ण संख्या असली पाहिजे.</translation>
+    </message>
+    <message>
+        <source>A frame %w pixels wide was added.</source>
+        <translation>%w पिक्सेल रुंदीची चौकट जोडली.</translation>
+    </message>
+    <message>
+        <source>A width of your own</source>
+        <translation>स्वतःची रुंदी</translation>
+    </message>
+    <message>
+        <source>Add the frame</source>
+        <translation>चौकट जोडा</translation>
+    </message>
+    <message>
+        <source>Load again</source>
+        <translation>पुन्हा लोड करा</translation>
+    </message>
+    <message>
+        <source>Device preview</source>
+        <translation>उपकरण पूर्वावलोकन</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page: the frames show the published page.</source>
+        <translation>या पानाचा तुमचा मसुदा नाही: चौकटी प्रकाशित पान दाखवतात.</translation>
+    </message>
+    <message>
+        <source>Preview on %device</source>
+        <translation>%device वर पूर्वावलोकन</translation>
+    </message>
+    <message>
+        <source>%w × %h</source>
+        <translation>%w × %h</translation>
+    </message>
+    <message>
+        <source>Remove the frame</source>
+        <translation>चौकट काढा</translation>
+    </message>
+    <message>
+        <source>%w pixels wide</source>
+        <translation>%w पिक्सेल रुंद</translation>
+    </message>
+    <message>
+        <source>Choose a device above.</source>
+        <translation>वरून उपकरण निवडा.</translation>
+    </message>
+    <message>
+        <source>Tablet</source>
+        <translation>टॅबलेट</translation>
+    </message>
+    <message>
+        <source>Desktop</source>
+        <translation>डेस्कटॉप</translation>
+    </message>
+    <message>
+        <source>1920 wide at 200% zoom</source>
+        <translation>200% झूमवर 1920 रुंद</translation>
+    </message>
 </context>
 </TS>

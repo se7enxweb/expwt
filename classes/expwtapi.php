@@ -224,6 +224,8 @@ class expwtApi
                 return $g->imagesSave( self::ids( $input, array( 'objectId', 'version' ) ) + self::strings( $input, array( 'language', 'field' ) )
                                        + array( 'focal' => self::numbers( $input, 'focal', array( 'x', 'y' ) ),
                                                 'crop' => self::numbers( $input, 'crop', array( 'x', 'y', 'width', 'height' ) ) ) );
+            case 'preview.devices':
+                return $g->previewDevices( self::ids( $input, array( 'nodeId' ) ) + self::strings( $input, array( 'language' ) ) );
             case 'page.elsewhere':
                 return $g->elsewhere( self::ids( $input, array( 'nodeId' ) ) );
             case 'seo.check':

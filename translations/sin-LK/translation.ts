@@ -1867,5 +1867,81 @@
         <source>Saved: the sizes are made again around the focal point.</source>
         <translation>සුරකින ලදී: ප්‍රමාණ නාභිගත ලක්ෂ්‍යය වටා නැවත සාදනු ලැබේ.</translation>
     </message>
+    <message>
+        <source>Devices</source>
+        <translation>උපාංග</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>අනුවාදය</translation>
+    </message>
+    <message>
+        <source>Your draft of %time</source>
+        <translation>%time හි ඔබේ කෙටුම්පත</translation>
+    </message>
+    <message>
+        <source>From %min to %max pixels</source>
+        <translation>පික්සල් %min සිට %max දක්වා</translation>
+    </message>
+    <message>
+        <source>The width must be a whole number from %min to %max.</source>
+        <translation>පළල %min සිට %max දක්වා පූර්ණ සංඛ්‍යාවක් විය යුතුය.</translation>
+    </message>
+    <message>
+        <source>A frame %w pixels wide was added.</source>
+        <translation>පික්සල් %w ක් පළල රාමුවක් එක් කරන ලදී.</translation>
+    </message>
+    <message>
+        <source>A width of your own</source>
+        <translation>ඔබේම පළලක්</translation>
+    </message>
+    <message>
+        <source>Add the frame</source>
+        <translation>රාමුව එක් කරන්න</translation>
+    </message>
+    <message>
+        <source>Load again</source>
+        <translation>නැවත පූරණය කරන්න</translation>
+    </message>
+    <message>
+        <source>Device preview</source>
+        <translation>උපාංග පෙරදසුන</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page: the frames show the published page.</source>
+        <translation>ඔබට මෙම පිටුවේ කෙටුම්පතක් නැත: රාමු මඟින් ප්‍රකාශිත පිටුව පෙන්වයි.</translation>
+    </message>
+    <message>
+        <source>Preview on %device</source>
+        <translation>%device හි පෙරදසුන</translation>
+    </message>
+    <message>
+        <source>%w × %h</source>
+        <translation>%w × %h</translation>
+    </message>
+    <message>
+        <source>Remove the frame</source>
+        <translation>රාමුව ඉවත් කරන්න</translation>
+    </message>
+    <message>
+        <source>%w pixels wide</source>
+        <translation>පික්සල් %w ක් පළල</translation>
+    </message>
+    <message>
+        <source>Choose a device above.</source>
+        <translation>ඉහළින් උපාංගයක් තෝරන්න.</translation>
+    </message>
+    <message>
+        <source>Tablet</source>
+        <translation>ටැබ්ලටය</translation>
+    </message>
+    <message>
+        <source>Desktop</source>
+        <translation>ඩෙස්ක්ටොපය</translation>
+    </message>
+    <message>
+        <source>1920 wide at 200% zoom</source>
+        <translation>200% විශාලනයෙන් 1920 පළල</translation>
+    </message>
 </context>
 </TS>

@@ -1867,5 +1867,81 @@
         <source>Saved: the sizes are made again around the focal point.</source>
         <translation>Сакланды: зурлыклар фокус ноктасы тирәсендә яңадан ясала.</translation>
     </message>
+    <message>
+        <source>Devices</source>
+        <translation>Җайланмалар</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>Версия</translation>
+    </message>
+    <message>
+        <source>Your draft of %time</source>
+        <translation>Сезнең %time каралама</translation>
+    </message>
+    <message>
+        <source>From %min to %max pixels</source>
+        <translation>%min-дән %max пикселькә кадәр</translation>
+    </message>
+    <message>
+        <source>The width must be a whole number from %min to %max.</source>
+        <translation>Киңлек %min-дән %max-ка кадәр бөтен сан булырга тиеш.</translation>
+    </message>
+    <message>
+        <source>A frame %w pixels wide was added.</source>
+        <translation>Киңлеге %w пиксель булган рамка өстәлде.</translation>
+    </message>
+    <message>
+        <source>A width of your own</source>
+        <translation>Үз киңлегегез</translation>
+    </message>
+    <message>
+        <source>Add the frame</source>
+        <translation>Рамканы өстәү</translation>
+    </message>
+    <message>
+        <source>Load again</source>
+        <translation>Яңадан йөкләү</translation>
+    </message>
+    <message>
+        <source>Device preview</source>
+        <translation>Җайланманы алдан карау</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page: the frames show the published page.</source>
+        <translation>Сезнең бу битнең караламасы юк: рамкалар бастырылган битне күрсәтә.</translation>
+    </message>
+    <message>
+        <source>Preview on %device</source>
+        <translation>%device җайланмасында алдан карау</translation>
+    </message>
+    <message>
+        <source>%w × %h</source>
+        <translation>%w × %h</translation>
+    </message>
+    <message>
+        <source>Remove the frame</source>
+        <translation>Рамканы бетерү</translation>
+    </message>
+    <message>
+        <source>%w pixels wide</source>
+        <translation>Киңлеге %w пиксель</translation>
+    </message>
+    <message>
+        <source>Choose a device above.</source>
+        <translation>Өстән җайланма сайлагыз.</translation>
+    </message>
+    <message>
+        <source>Tablet</source>
+        <translation>Планшет</translation>
+    </message>
+    <message>
+        <source>Desktop</source>
+        <translation>Эш өстәле</translation>
+    </message>
+    <message>
+        <source>1920 wide at 200% zoom</source>
+        <translation>1920 киңлек, 200% зум белән</translation>
+    </message>
 </context>
 </TS>

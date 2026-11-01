@@ -1867,5 +1867,81 @@
         <source>Saved: the sizes are made again around the focal point.</source>
         <translation>Sparat: storlekarna skapas på nytt runt fokuspunkten.</translation>
     </message>
+    <message>
+        <source>Devices</source>
+        <translation>Enheter</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>Version</translation>
+    </message>
+    <message>
+        <source>Your draft of %time</source>
+        <translation>Ditt utkast från %time</translation>
+    </message>
+    <message>
+        <source>From %min to %max pixels</source>
+        <translation>Från %min till %max pixlar</translation>
+    </message>
+    <message>
+        <source>The width must be a whole number from %min to %max.</source>
+        <translation>Bredden måste vara ett heltal från %min till %max.</translation>
+    </message>
+    <message>
+        <source>A frame %w pixels wide was added.</source>
+        <translation>En ram på %w pixlar i bredd lades till.</translation>
+    </message>
+    <message>
+        <source>A width of your own</source>
+        <translation>En egen bredd</translation>
+    </message>
+    <message>
+        <source>Add the frame</source>
+        <translation>Lägg till ramen</translation>
+    </message>
+    <message>
+        <source>Load again</source>
+        <translation>Läs in igen</translation>
+    </message>
+    <message>
+        <source>Device preview</source>
+        <translation>Förhandsgranskning av enhet</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page: the frames show the published page.</source>
+        <translation>Du har inget utkast av den här sidan: ramarna visar den publicerade sidan.</translation>
+    </message>
+    <message>
+        <source>Preview on %device</source>
+        <translation>Förhandsgranska på %device</translation>
+    </message>
+    <message>
+        <source>%w × %h</source>
+        <translation>%w × %h</translation>
+    </message>
+    <message>
+        <source>Remove the frame</source>
+        <translation>Ta bort ramen</translation>
+    </message>
+    <message>
+        <source>%w pixels wide</source>
+        <translation>%w pixlar bred</translation>
+    </message>
+    <message>
+        <source>Choose a device above.</source>
+        <translation>Välj en enhet ovan.</translation>
+    </message>
+    <message>
+        <source>Tablet</source>
+        <translation>Surfplatta</translation>
+    </message>
+    <message>
+        <source>Desktop</source>
+        <translation>Dator</translation>
+    </message>
+    <message>
+        <source>1920 wide at 200% zoom</source>
+        <translation>1920 bred vid 200 % zoom</translation>
+    </message>
 </context>
 </TS>

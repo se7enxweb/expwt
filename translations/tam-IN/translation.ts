@@ -1867,5 +1867,81 @@
         <source>Saved: the sizes are made again around the focal point.</source>
         <translation>சேமிக்கப்பட்டது: அளவுகள் குவியப் புள்ளியைச் சுற்றி மீண்டும் உருவாக்கப்படுகின்றன.</translation>
     </message>
+    <message>
+        <source>Devices</source>
+        <translation>சாதனங்கள்</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>பதிப்பு</translation>
+    </message>
+    <message>
+        <source>Your draft of %time</source>
+        <translation>%time இன் உங்கள் வரைவு</translation>
+    </message>
+    <message>
+        <source>From %min to %max pixels</source>
+        <translation>%min முதல் %max பிக்சல் வரை</translation>
+    </message>
+    <message>
+        <source>The width must be a whole number from %min to %max.</source>
+        <translation>அகலம் %min முதல் %max வரையிலான முழு எண்ணாக இருக்க வேண்டும்.</translation>
+    </message>
+    <message>
+        <source>A frame %w pixels wide was added.</source>
+        <translation>%w பிக்சல் அகலமுள்ள சட்டகம் சேர்க்கப்பட்டது.</translation>
+    </message>
+    <message>
+        <source>A width of your own</source>
+        <translation>உங்கள் சொந்த அகலம்</translation>
+    </message>
+    <message>
+        <source>Add the frame</source>
+        <translation>சட்டகத்தைச் சேர்க்கவும்</translation>
+    </message>
+    <message>
+        <source>Load again</source>
+        <translation>மீண்டும் ஏற்றவும்</translation>
+    </message>
+    <message>
+        <source>Device preview</source>
+        <translation>சாதன முன்னோட்டம்</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page: the frames show the published page.</source>
+        <translation>இந்தப் பக்கத்திற்கு உங்களிடம் வரைவு இல்லை: சட்டகங்கள் வெளியிடப்பட்ட பக்கத்தைக் காட்டுகின்றன.</translation>
+    </message>
+    <message>
+        <source>Preview on %device</source>
+        <translation>%device இல் முன்னோட்டம்</translation>
+    </message>
+    <message>
+        <source>%w × %h</source>
+        <translation>%w × %h</translation>
+    </message>
+    <message>
+        <source>Remove the frame</source>
+        <translation>சட்டகத்தை நீக்கவும்</translation>
+    </message>
+    <message>
+        <source>%w pixels wide</source>
+        <translation>%w பிக்சல் அகலம்</translation>
+    </message>
+    <message>
+        <source>Choose a device above.</source>
+        <translation>மேலே ஒரு சாதனத்தைத் தேர்ந்தெடுக்கவும்.</translation>
+    </message>
+    <message>
+        <source>Tablet</source>
+        <translation>டேப்லெட்</translation>
+    </message>
+    <message>
+        <source>Desktop</source>
+        <translation>டெஸ்க்டாப்</translation>
+    </message>
+    <message>
+        <source>1920 wide at 200% zoom</source>
+        <translation>200% பெரிதாக்கத்தில் 1920 அகலம்</translation>
+    </message>
 </context>
 </TS>

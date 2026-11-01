@@ -1867,5 +1867,81 @@
         <source>Saved: the sizes are made again around the focal point.</source>
         <translation>Зачувано: големините се прават повторно околу фокусната точка.</translation>
     </message>
+    <message>
+        <source>Devices</source>
+        <translation>Уреди</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>Верзија</translation>
+    </message>
+    <message>
+        <source>Your draft of %time</source>
+        <translation>Вашиот нацрт од %time</translation>
+    </message>
+    <message>
+        <source>From %min to %max pixels</source>
+        <translation>Од %min до %max пиксели</translation>
+    </message>
+    <message>
+        <source>The width must be a whole number from %min to %max.</source>
+        <translation>Ширината мора да биде цел број од %min до %max.</translation>
+    </message>
+    <message>
+        <source>A frame %w pixels wide was added.</source>
+        <translation>Додадена е рамка широка %w пиксели.</translation>
+    </message>
+    <message>
+        <source>A width of your own</source>
+        <translation>Своја ширина</translation>
+    </message>
+    <message>
+        <source>Add the frame</source>
+        <translation>Додај ја рамката</translation>
+    </message>
+    <message>
+        <source>Load again</source>
+        <translation>Вчитај повторно</translation>
+    </message>
+    <message>
+        <source>Device preview</source>
+        <translation>Преглед на уред</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page: the frames show the published page.</source>
+        <translation>Немате нацрт од оваа страница: рамките ја прикажуваат објавената страница.</translation>
+    </message>
+    <message>
+        <source>Preview on %device</source>
+        <translation>Преглед на %device</translation>
+    </message>
+    <message>
+        <source>%w × %h</source>
+        <translation>%w × %h</translation>
+    </message>
+    <message>
+        <source>Remove the frame</source>
+        <translation>Отстрани ја рамката</translation>
+    </message>
+    <message>
+        <source>%w pixels wide</source>
+        <translation>Широка %w пиксели</translation>
+    </message>
+    <message>
+        <source>Choose a device above.</source>
+        <translation>Изберете уред погоре.</translation>
+    </message>
+    <message>
+        <source>Tablet</source>
+        <translation>Таблет</translation>
+    </message>
+    <message>
+        <source>Desktop</source>
+        <translation>Десктоп</translation>
+    </message>
+    <message>
+        <source>1920 wide at 200% zoom</source>
+        <translation>1920 широко со зумирање од 200%</translation>
+    </message>
 </context>
 </TS>

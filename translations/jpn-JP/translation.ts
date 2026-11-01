@@ -1867,5 +1867,81 @@
         <source>Saved: the sizes are made again around the focal point.</source>
         <translation>保存しました: 各サイズはフォーカルポイントを中心に再作成されます。</translation>
     </message>
+    <message>
+        <source>Devices</source>
+        <translation>デバイス</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>バージョン</translation>
+    </message>
+    <message>
+        <source>Your draft of %time</source>
+        <translation>%time の下書き</translation>
+    </message>
+    <message>
+        <source>From %min to %max pixels</source>
+        <translation>%min から %max ピクセル</translation>
+    </message>
+    <message>
+        <source>The width must be a whole number from %min to %max.</source>
+        <translation>幅は %min から %max までの整数にしてください。</translation>
+    </message>
+    <message>
+        <source>A frame %w pixels wide was added.</source>
+        <translation>幅 %w ピクセルのフレームを追加しました。</translation>
+    </message>
+    <message>
+        <source>A width of your own</source>
+        <translation>任意の幅</translation>
+    </message>
+    <message>
+        <source>Add the frame</source>
+        <translation>フレームを追加</translation>
+    </message>
+    <message>
+        <source>Load again</source>
+        <translation>再読み込み</translation>
+    </message>
+    <message>
+        <source>Device preview</source>
+        <translation>デバイスプレビュー</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page: the frames show the published page.</source>
+        <translation>このページの下書きはありません。フレームには公開済みのページが表示されます。</translation>
+    </message>
+    <message>
+        <source>Preview on %device</source>
+        <translation>%device でのプレビュー</translation>
+    </message>
+    <message>
+        <source>%w × %h</source>
+        <translation>%w × %h</translation>
+    </message>
+    <message>
+        <source>Remove the frame</source>
+        <translation>フレームを削除</translation>
+    </message>
+    <message>
+        <source>%w pixels wide</source>
+        <translation>幅 %w ピクセル</translation>
+    </message>
+    <message>
+        <source>Choose a device above.</source>
+        <translation>上からデバイスを選んでください。</translation>
+    </message>
+    <message>
+        <source>Tablet</source>
+        <translation>タブレット</translation>
+    </message>
+    <message>
+        <source>Desktop</source>
+        <translation>デスクトップ</translation>
+    </message>
+    <message>
+        <source>1920 wide at 200% zoom</source>
+        <translation>幅1920(ズーム200%)</translation>
+    </message>
 </context>
 </TS>

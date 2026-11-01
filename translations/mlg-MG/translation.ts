@@ -1867,5 +1867,81 @@
         <source>Saved: the sizes are made again around the focal point.</source>
         <translation>Voatahiry: averina amboarina manodidina ny teboka ifantohana ireo habe.</translation>
     </message>
+    <message>
+        <source>Devices</source>
+        <translation>Fitaovana</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>Version</translation>
+    </message>
+    <message>
+        <source>Your draft of %time</source>
+        <translation>Ny drafitrao tamin'ny %time</translation>
+    </message>
+    <message>
+        <source>From %min to %max pixels</source>
+        <translation>Manomboka amin'ny %min hatramin'ny %max pixel</translation>
+    </message>
+    <message>
+        <source>The width must be a whole number from %min to %max.</source>
+        <translation>Tsy maintsy isa manontolo manomboka amin'ny %min hatramin'ny %max ny sakany.</translation>
+    </message>
+    <message>
+        <source>A frame %w pixels wide was added.</source>
+        <translation>Nampiana rafitra misy sakana %w pixel.</translation>
+    </message>
+    <message>
+        <source>A width of your own</source>
+        <translation>Sakana manokana</translation>
+    </message>
+    <message>
+        <source>Add the frame</source>
+        <translation>Ampio ny rafitra</translation>
+    </message>
+    <message>
+        <source>Load again</source>
+        <translation>Ampidiro indray</translation>
+    </message>
+    <message>
+        <source>Device preview</source>
+        <translation>Topi-maso ny fitaovana</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page: the frames show the published page.</source>
+        <translation>Tsy manana drafitra amin'ity pejy ity ianao: ny rafitra dia mampiseho ny pejy navoaka.</translation>
+    </message>
+    <message>
+        <source>Preview on %device</source>
+        <translation>Topi-maso amin'ny %device</translation>
+    </message>
+    <message>
+        <source>%w × %h</source>
+        <translation>%w × %h</translation>
+    </message>
+    <message>
+        <source>Remove the frame</source>
+        <translation>Esory ny rafitra</translation>
+    </message>
+    <message>
+        <source>%w pixels wide</source>
+        <translation>Sakana %w pixel</translation>
+    </message>
+    <message>
+        <source>Choose a device above.</source>
+        <translation>Misafidiana fitaovana etsy ambony.</translation>
+    </message>
+    <message>
+        <source>Tablet</source>
+        <translation>Tablette</translation>
+    </message>
+    <message>
+        <source>Desktop</source>
+        <translation>Desktop</translation>
+    </message>
+    <message>
+        <source>1920 wide at 200% zoom</source>
+        <translation>1920 ny sakany amin'ny zoom 200%</translation>
+    </message>
 </context>
 </TS>

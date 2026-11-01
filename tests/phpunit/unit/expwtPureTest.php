@@ -909,6 +909,42 @@ class expwtPureTest extends PHPUnit\Framework\TestCase
         $this->assertFalse( expwtGateway::migrationKernel() );
     }
 
+    /** E8: the devices of the preview from the settings, what the preview gets, and its frames without a sidebar */
+    public function testTheDevicesOfThePreview()
+    {
+        $shipped = self::settings( array() );
+        $this->assertSame( array( 'iphone13', 'pixel7', 'tablet', 'zoom200', 'desktop' ), array_column( $shipped['devices'], 'id' ) );
+        $this->assertSame( array( 'id' => 'zoom200', 'name' => '1920 wide at 200% zoom', 'width' => 960, 'height' => 900 ), $shipped['devices'][3] );
+        $this->assertSame( 1, preg_match( '/^\[DevicePreviewSettings\]$(.*?)^\[/ms', file_get_contents( dirname( __DIR__, 3 ) . '/settings/expwt.ini' ), $group ) );
+        preg_match_all( '/^DeviceList\[\]=(.+)$/m', $group[1], $lines );
+        $lines = $lines[1];
+        $this->assertSame( $shipped['devices'], expwtSettings::devices( $lines ), 'expwt.ini ships the defaults' );
+
+        $d = expwtSettings::devices( array( 'a;A;390;844', 'a;Again;400;800', 'b;B;239;800', 'c;C;2561;800', 'd;D;800;2401', 'e;;800;800',
+                                            'F;F;800;800', 'g;G;80O;800', 'h;H;800', 'i; Wide ;2560;240', '' ) );
+        $this->assertSame( array( array( 'id' => 'a', 'name' => 'A', 'width' => 390, 'height' => 844 ),
+                                  array( 'id' => 'i', 'name' => 'Wide', 'width' => 2560, 'height' => 240 ) ), $d, 'each id once, sizes within the limits' );
+        $s = self::settings( array( 'devices' => array( 'a;A;390;844', 'b;B;800;600' ), 'devices_shown' => array( 'b', 'x', 'b' ) ) );
+        $this->assertSame( array( 'b' ), $s['devices_shown'], 'only devices there are, each once' );
+
+        $tr = function ( $name ) { return $name === 'Tablet' ? 'Tablett' : $name; };
+        $v = expwtGateway::devicesView( $shipped, '/site/news/a', null, array( 'version' => 3, 'modified' => 1 ), $tr );
+        $this->assertSame( array( 'iphone13', 'pixel7', 'tablet', 'zoom200', 'desktop' ), $v['shown'], 'all of them without ShownDeviceList[]' );
+        $this->assertSame( 'Tablett', $v['devices'][2]['name'] );
+        $this->assertSame( 820, $v['devices'][2]['width'] );
+        $this->assertSame( array( 'published' => '/site/news/a?in=sidebar', 'draft' => null ), $v['urls'] );
+        $this->assertNull( $v['draft'], 'no draft, nothing about one' );
+        $this->assertSame( array( 'min' => 240, 'max' => 2560, 'height' => 900 ), $v['custom'] );
+        $v = expwtGateway::devicesView( $s, '/site/news/a', '/site/content/versionview/7/3/eng-US', array( 'version' => 3, 'modified' => 1 ), $tr );
+        $this->assertSame( array( 'b' ), $v['shown'] );
+        $this->assertSame( '/site/content/versionview/7/3/eng-US?in=sidebar', $v['urls']['draft'] );
+        $this->assertSame( 3, $v['draft']['version'] );
+        $this->assertSame( '/a?x=1&in=sidebar#top', expwtGateway::framed( '/a?x=1#top' ) );
+        $this->assertTrue( expwtHook::framePage( expwtGateway::framed( '/site/news/a' ) ), 'the frames get no sidebar of their own' );
+        foreach ( array( 'Devices', 'Device preview', 'Tablet', 'Desktop', '1920 wide at 200% zoom' ) as $text )
+            $this->assertContains( $text, expwtStrings::SOURCES, 'translated' );
+    }
+
     public function testInjectBeforeTheLastBodyEndOnce()
     {
         $page = '<html><body><p>x</p></body></html>';

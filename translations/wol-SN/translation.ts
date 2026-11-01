@@ -1867,5 +1867,81 @@
         <source>Saved: the sizes are made again around the focal point.</source>
         <translation>Denc na: dayo yi dañu leen di defaraat ci wetu toombu xool bi.</translation>
     </message>
+    <message>
+        <source>Devices</source>
+        <translation>Jumtukaay yi</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>Versiyoŋ</translation>
+    </message>
+    <message>
+        <source>Your draft of %time</source>
+        <translation>Sa brouyoŋ bu %time</translation>
+    </message>
+    <message>
+        <source>From %min to %max pixels</source>
+        <translation>Ci %min ba %max piksel</translation>
+    </message>
+    <message>
+        <source>The width must be a whole number from %min to %max.</source>
+        <translation>Yaatu bi war na doon lim bu mat sëkk, ci %min ba %max.</translation>
+    </message>
+    <message>
+        <source>A frame %w pixels wide was added.</source>
+        <translation>Ñu yokk na ab kadar bu yaatuwaayam di %w piksel.</translation>
+    </message>
+    <message>
+        <source>A width of your own</source>
+        <translation>Sa yaatu bopp</translation>
+    </message>
+    <message>
+        <source>Add the frame</source>
+        <translation>Yokk kadar bi</translation>
+    </message>
+    <message>
+        <source>Load again</source>
+        <translation>Yeesalaat</translation>
+    </message>
+    <message>
+        <source>Device preview</source>
+        <translation>Xool jumtukaay bi lu jiitu</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page: the frames show the published page.</source>
+        <translation>Amoo brouyoŋ bu xët wii: kadar yi dañuy won xët wi ñu siiwal.</translation>
+    </message>
+    <message>
+        <source>Preview on %device</source>
+        <translation>Xool lu jiitu ci %device</translation>
+    </message>
+    <message>
+        <source>%w × %h</source>
+        <translation>%w × %h</translation>
+    </message>
+    <message>
+        <source>Remove the frame</source>
+        <translation>Tuss kadar bi</translation>
+    </message>
+    <message>
+        <source>%w pixels wide</source>
+        <translation>Yaatuwaayam %w piksel</translation>
+    </message>
+    <message>
+        <source>Choose a device above.</source>
+        <translation>Tànnal jumtukaay ci kaw.</translation>
+    </message>
+    <message>
+        <source>Tablet</source>
+        <translation>Tablet</translation>
+    </message>
+    <message>
+        <source>Desktop</source>
+        <translation>Ordinatër bu taabal</translation>
+    </message>
+    <message>
+        <source>1920 wide at 200% zoom</source>
+        <translation>1920 yaatu ak zoom 200%</translation>
+    </message>
 </context>
 </TS>

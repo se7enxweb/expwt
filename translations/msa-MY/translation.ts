@@ -1867,5 +1867,81 @@
         <source>Saved: the sizes are made again around the focal point.</source>
         <translation>Disimpan: saiz-saiz dibuat semula di sekitar titik fokus.</translation>
     </message>
+    <message>
+        <source>Devices</source>
+        <translation>Peranti</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>Versi</translation>
+    </message>
+    <message>
+        <source>Your draft of %time</source>
+        <translation>Draf anda pada %time</translation>
+    </message>
+    <message>
+        <source>From %min to %max pixels</source>
+        <translation>Dari %min hingga %max piksel</translation>
+    </message>
+    <message>
+        <source>The width must be a whole number from %min to %max.</source>
+        <translation>Lebar mestilah nombor bulat dari %min hingga %max.</translation>
+    </message>
+    <message>
+        <source>A frame %w pixels wide was added.</source>
+        <translation>Bingkai selebar %w piksel telah ditambah.</translation>
+    </message>
+    <message>
+        <source>A width of your own</source>
+        <translation>Lebar anda sendiri</translation>
+    </message>
+    <message>
+        <source>Add the frame</source>
+        <translation>Tambah bingkai</translation>
+    </message>
+    <message>
+        <source>Load again</source>
+        <translation>Muat semula</translation>
+    </message>
+    <message>
+        <source>Device preview</source>
+        <translation>Pratonton peranti</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page: the frames show the published page.</source>
+        <translation>Anda tiada draf halaman ini: bingkai menunjukkan halaman yang diterbitkan.</translation>
+    </message>
+    <message>
+        <source>Preview on %device</source>
+        <translation>Pratonton pada %device</translation>
+    </message>
+    <message>
+        <source>%w × %h</source>
+        <translation>%w × %h</translation>
+    </message>
+    <message>
+        <source>Remove the frame</source>
+        <translation>Alih keluar bingkai</translation>
+    </message>
+    <message>
+        <source>%w pixels wide</source>
+        <translation>Selebar %w piksel</translation>
+    </message>
+    <message>
+        <source>Choose a device above.</source>
+        <translation>Pilih peranti di atas.</translation>
+    </message>
+    <message>
+        <source>Tablet</source>
+        <translation>Tablet</translation>
+    </message>
+    <message>
+        <source>Desktop</source>
+        <translation>Desktop</translation>
+    </message>
+    <message>
+        <source>1920 wide at 200% zoom</source>
+        <translation>Lebar 1920 pada zum 200%</translation>
+    </message>
 </context>
 </TS>

@@ -1867,5 +1867,81 @@
         <source>Saved: the sizes are made again around the focal point.</source>
         <translation>បានរក្សាទុក៖ ទំហំត្រូវបានបង្កើតឡើងវិញជុំវិញចំណុចផ្ដោត។</translation>
     </message>
+    <message>
+        <source>Devices</source>
+        <translation>ឧបករណ៍</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>កំណែ</translation>
+    </message>
+    <message>
+        <source>Your draft of %time</source>
+        <translation>សេចក្តីព្រាងរបស់អ្នកនៅ %time</translation>
+    </message>
+    <message>
+        <source>From %min to %max pixels</source>
+        <translation>ពី %min ដល់ %max ភីកសែល</translation>
+    </message>
+    <message>
+        <source>The width must be a whole number from %min to %max.</source>
+        <translation>ទទឹងត្រូវតែជាចំនួនគត់ពី %min ដល់ %max។</translation>
+    </message>
+    <message>
+        <source>A frame %w pixels wide was added.</source>
+        <translation>បានបន្ថែមស៊ុមទទឹង %w ភីកសែល។</translation>
+    </message>
+    <message>
+        <source>A width of your own</source>
+        <translation>ទទឹងផ្ទាល់ខ្លួន</translation>
+    </message>
+    <message>
+        <source>Add the frame</source>
+        <translation>បន្ថែមស៊ុម</translation>
+    </message>
+    <message>
+        <source>Load again</source>
+        <translation>ផ្ទុកម្តងទៀត</translation>
+    </message>
+    <message>
+        <source>Device preview</source>
+        <translation>ការមើលឧបករណ៍ជាមុន</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page: the frames show the published page.</source>
+        <translation>អ្នកមិនមានសេចក្តីព្រាងនៃទំព័រនេះទេ៖ ស៊ុមបង្ហាញទំព័រដែលបានបោះពុម្ពផ្សាយ។</translation>
+    </message>
+    <message>
+        <source>Preview on %device</source>
+        <translation>មើលជាមុនលើ %device</translation>
+    </message>
+    <message>
+        <source>%w × %h</source>
+        <translation>%w × %h</translation>
+    </message>
+    <message>
+        <source>Remove the frame</source>
+        <translation>លុបស៊ុម</translation>
+    </message>
+    <message>
+        <source>%w pixels wide</source>
+        <translation>ទទឹង %w ភីកសែល</translation>
+    </message>
+    <message>
+        <source>Choose a device above.</source>
+        <translation>ជ្រើសរើសឧបករណ៍ខាងលើ។</translation>
+    </message>
+    <message>
+        <source>Tablet</source>
+        <translation>ថេប្លេត</translation>
+    </message>
+    <message>
+        <source>Desktop</source>
+        <translation>កុំព្យូទ័រ</translation>
+    </message>
+    <message>
+        <source>1920 wide at 200% zoom</source>
+        <translation>ទទឹង 1920 នៅពេលពង្រីក 200%</translation>
+    </message>
 </context>
 </TS>

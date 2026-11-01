@@ -1867,5 +1867,81 @@
         <source>Saved: the sizes are made again around the focal point.</source>
         <translation>Kaydedildi: boyutlar odak noktasının çevresinde yeniden oluşturulur.</translation>
     </message>
+    <message>
+        <source>Devices</source>
+        <translation>Cihazlar</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>Sürüm</translation>
+    </message>
+    <message>
+        <source>Your draft of %time</source>
+        <translation>%time tarihli taslağınız</translation>
+    </message>
+    <message>
+        <source>From %min to %max pixels</source>
+        <translation>%min ile %max piksel arası</translation>
+    </message>
+    <message>
+        <source>The width must be a whole number from %min to %max.</source>
+        <translation>Genişlik, %min ile %max arasında bir tam sayı olmalıdır.</translation>
+    </message>
+    <message>
+        <source>A frame %w pixels wide was added.</source>
+        <translation>%w piksel genişliğinde bir çerçeve eklendi.</translation>
+    </message>
+    <message>
+        <source>A width of your own</source>
+        <translation>Kendi genişliğiniz</translation>
+    </message>
+    <message>
+        <source>Add the frame</source>
+        <translation>Çerçeveyi ekle</translation>
+    </message>
+    <message>
+        <source>Load again</source>
+        <translation>Yeniden yükle</translation>
+    </message>
+    <message>
+        <source>Device preview</source>
+        <translation>Cihaz önizlemesi</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page: the frames show the published page.</source>
+        <translation>Bu sayfanın taslağı yok: çerçeveler yayımlanmış sayfayı gösterir.</translation>
+    </message>
+    <message>
+        <source>Preview on %device</source>
+        <translation>%device üzerinde önizleme</translation>
+    </message>
+    <message>
+        <source>%w × %h</source>
+        <translation>%w × %h</translation>
+    </message>
+    <message>
+        <source>Remove the frame</source>
+        <translation>Çerçeveyi kaldır</translation>
+    </message>
+    <message>
+        <source>%w pixels wide</source>
+        <translation>%w piksel genişliğinde</translation>
+    </message>
+    <message>
+        <source>Choose a device above.</source>
+        <translation>Yukarıdan bir cihaz seçin.</translation>
+    </message>
+    <message>
+        <source>Tablet</source>
+        <translation>Tablet</translation>
+    </message>
+    <message>
+        <source>Desktop</source>
+        <translation>Masaüstü</translation>
+    </message>
+    <message>
+        <source>1920 wide at 200% zoom</source>
+        <translation>%200 yakınlaştırmada 1920 genişlik</translation>
+    </message>
 </context>
 </TS>

@@ -1867,5 +1867,81 @@
         <source>Saved: the sizes are made again around the focal point.</source>
         <translation>Enregistrat: las talhas son tornadas far a l'entorn del punt focal.</translation>
     </message>
+    <message>
+        <source>Devices</source>
+        <translation>Aparelhs</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>Version</translation>
+    </message>
+    <message>
+        <source>Your draft of %time</source>
+        <translation>Vòstre borrolhon del %time</translation>
+    </message>
+    <message>
+        <source>From %min to %max pixels</source>
+        <translation>De %min a %max pixèls</translation>
+    </message>
+    <message>
+        <source>The width must be a whole number from %min to %max.</source>
+        <translation>La largor deu èsser un nombre entièr de %min a %max.</translation>
+    </message>
+    <message>
+        <source>A frame %w pixels wide was added.</source>
+        <translation>Un quadre de %w pixèls de large es estat apondut.</translation>
+    </message>
+    <message>
+        <source>A width of your own</source>
+        <translation>Una largor pròpria</translation>
+    </message>
+    <message>
+        <source>Add the frame</source>
+        <translation>Apondre lo quadre</translation>
+    </message>
+    <message>
+        <source>Load again</source>
+        <translation>Tornar cargar</translation>
+    </message>
+    <message>
+        <source>Device preview</source>
+        <translation>Apercebut per aparelh</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page: the frames show the published page.</source>
+        <translation>Avètz pas cap de borrolhon d'aquesta pagina : los quadres mòstran la pagina publicada.</translation>
+    </message>
+    <message>
+        <source>Preview on %device</source>
+        <translation>Apercebut sus %device</translation>
+    </message>
+    <message>
+        <source>%w × %h</source>
+        <translation>%w × %h</translation>
+    </message>
+    <message>
+        <source>Remove the frame</source>
+        <translation>Levar lo quadre</translation>
+    </message>
+    <message>
+        <source>%w pixels wide</source>
+        <translation>%w pixèls de large</translation>
+    </message>
+    <message>
+        <source>Choose a device above.</source>
+        <translation>Causissètz un aparelh çai-dessús.</translation>
+    </message>
+    <message>
+        <source>Tablet</source>
+        <translation>Tauleta</translation>
+    </message>
+    <message>
+        <source>Desktop</source>
+        <translation>Ordenador de burèu</translation>
+    </message>
+    <message>
+        <source>1920 wide at 200% zoom</source>
+        <translation>1920 de large a 200 % de zoom</translation>
+    </message>
 </context>
 </TS>

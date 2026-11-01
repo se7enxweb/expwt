@@ -1867,5 +1867,81 @@
         <source>Saved: the sizes are made again around the focal point.</source>
         <translation>Składowane: wjelikosći se znowego wokoło fokusowego dypka napóraju.</translation>
     </message>
+    <message>
+        <source>Devices</source>
+        <translation>Rědy</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>Wersija</translation>
+    </message>
+    <message>
+        <source>Your draft of %time</source>
+        <translation>Waše nacerjenje wót %time</translation>
+    </message>
+    <message>
+        <source>From %min to %max pixels</source>
+        <translation>Wót %min do %max pikselow</translation>
+    </message>
+    <message>
+        <source>The width must be a whole number from %min to %max.</source>
+        <translation>Šyrokosć musy byś cełe licba wót %min do %max.</translation>
+    </message>
+    <message>
+        <source>A frame %w pixels wide was added.</source>
+        <translation>Ramik z šyrokosću %w pikselow jo se pśidał.</translation>
+    </message>
+    <message>
+        <source>A width of your own</source>
+        <translation>Swójska šyrokosć</translation>
+    </message>
+    <message>
+        <source>Add the frame</source>
+        <translation>Ramik pśidaś</translation>
+    </message>
+    <message>
+        <source>Load again</source>
+        <translation>Znowa zacytaś</translation>
+    </message>
+    <message>
+        <source>Device preview</source>
+        <translation>Pśeglěd na rěźe</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page: the frames show the published page.</source>
+        <translation>Njamaśo nacerjenje toś togo boka: ramiki pokazuju wózjawjony bok.</translation>
+    </message>
+    <message>
+        <source>Preview on %device</source>
+        <translation>Pśeglěd na %device</translation>
+    </message>
+    <message>
+        <source>%w × %h</source>
+        <translation>%w × %h</translation>
+    </message>
+    <message>
+        <source>Remove the frame</source>
+        <translation>Ramik wótpóraś</translation>
+    </message>
+    <message>
+        <source>%w pixels wide</source>
+        <translation>Šyrokosć %w pikselow</translation>
+    </message>
+    <message>
+        <source>Choose a device above.</source>
+        <translation>Wubjeŕśo górjejce rěd.</translation>
+    </message>
+    <message>
+        <source>Tablet</source>
+        <translation>Tablet</translation>
+    </message>
+    <message>
+        <source>Desktop</source>
+        <translation>Desktop</translation>
+    </message>
+    <message>
+        <source>1920 wide at 200% zoom</source>
+        <translation>Šyrokosć 1920 pśi pówjetšenju 200 %</translation>
+    </message>
 </context>
 </TS>

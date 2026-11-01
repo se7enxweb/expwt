@@ -1867,5 +1867,81 @@
         <source>Saved: the sizes are made again around the focal point.</source>
         <translation>सहेजल गइल: आकार फोकल पॉइंट के चारों ओर फेर से बनावल जाला।</translation>
     </message>
+    <message>
+        <source>Devices</source>
+        <translation>डिवाइस</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>संस्करण</translation>
+    </message>
+    <message>
+        <source>Your draft of %time</source>
+        <translation>%time के रउआ के ड्राफ़्ट</translation>
+    </message>
+    <message>
+        <source>From %min to %max pixels</source>
+        <translation>%min से %max पिक्सेल तक</translation>
+    </message>
+    <message>
+        <source>The width must be a whole number from %min to %max.</source>
+        <translation>चौड़ाई %min से %max तक के एगो पूरा संख्या होखे के चाहीं।</translation>
+    </message>
+    <message>
+        <source>A frame %w pixels wide was added.</source>
+        <translation>%w पिक्सेल चौड़ाई के फ्रेम जोड़ल गइल।</translation>
+    </message>
+    <message>
+        <source>A width of your own</source>
+        <translation>रउआ अपना के चौड़ाई</translation>
+    </message>
+    <message>
+        <source>Add the frame</source>
+        <translation>फ्रेम जोड़ीं</translation>
+    </message>
+    <message>
+        <source>Load again</source>
+        <translation>फेर से लोड करीं</translation>
+    </message>
+    <message>
+        <source>Device preview</source>
+        <translation>डिवाइस के पूर्वावलोकन</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page: the frames show the published page.</source>
+        <translation>एह पन्ना के कवनो ड्राफ़्ट रउआ लगे नइखे: फ्रेम छपल पन्ना देखावत बाड़े।</translation>
+    </message>
+    <message>
+        <source>Preview on %device</source>
+        <translation>%device पर पूर्वावलोकन</translation>
+    </message>
+    <message>
+        <source>%w × %h</source>
+        <translation>%w × %h</translation>
+    </message>
+    <message>
+        <source>Remove the frame</source>
+        <translation>फ्रेम हटाईं</translation>
+    </message>
+    <message>
+        <source>%w pixels wide</source>
+        <translation>%w पिक्सेल चौड़ाई</translation>
+    </message>
+    <message>
+        <source>Choose a device above.</source>
+        <translation>ऊपर से एगो डिवाइस चुनीं।</translation>
+    </message>
+    <message>
+        <source>Tablet</source>
+        <translation>टैबलेट</translation>
+    </message>
+    <message>
+        <source>Desktop</source>
+        <translation>डेस्कटॉप</translation>
+    </message>
+    <message>
+        <source>1920 wide at 200% zoom</source>
+        <translation>200% ज़ूम पर 1920 चौड़ाई</translation>
+    </message>
 </context>
 </TS>

@@ -1867,5 +1867,81 @@
         <source>Saved: the sizes are made again around the focal point.</source>
         <translation>Ebombami: ba monene bakosalema lisusu zingazinga ya esika ya ntina.</translation>
     </message>
+    <message>
+        <source>Devices</source>
+        <translation>Bisaleli</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>Version</translation>
+    </message>
+    <message>
+        <source>Your draft of %time</source>
+        <translation>Brouillon na yo ya %time</translation>
+    </message>
+    <message>
+        <source>From %min to %max pixels</source>
+        <translation>Uta %min tii %max ya pikseli</translation>
+    </message>
+    <message>
+        <source>The width must be a whole number from %min to %max.</source>
+        <translation>Monene esengeli ezala motango mobimba uta %min tii %max.</translation>
+    </message>
+    <message>
+        <source>A frame %w pixels wide was added.</source>
+        <translation>Cadre ya monene ya pikseli %w ekomisamaki.</translation>
+    </message>
+    <message>
+        <source>A width of your own</source>
+        <translation>Monene na yo moko</translation>
+    </message>
+    <message>
+        <source>Add the frame</source>
+        <translation>Bakisa cadre</translation>
+    </message>
+    <message>
+        <source>Load again</source>
+        <translation>Kotisa lisusu</translation>
+    </message>
+    <message>
+        <source>Device preview</source>
+        <translation>Kotala liboso ya esaleli</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page: the frames show the published page.</source>
+        <translation>Ozali na brouillon ya lokasa oyo te: ba cadre emonisi lokasa ebimisami.</translation>
+    </message>
+    <message>
+        <source>Preview on %device</source>
+        <translation>Kotala liboso na %device</translation>
+    </message>
+    <message>
+        <source>%w × %h</source>
+        <translation>%w × %h</translation>
+    </message>
+    <message>
+        <source>Remove the frame</source>
+        <translation>Longola cadre</translation>
+    </message>
+    <message>
+        <source>%w pixels wide</source>
+        <translation>Monene ya pikseli %w</translation>
+    </message>
+    <message>
+        <source>Choose a device above.</source>
+        <translation>Pona esaleli o likolo.</translation>
+    </message>
+    <message>
+        <source>Tablet</source>
+        <translation>Tablette</translation>
+    </message>
+    <message>
+        <source>Desktop</source>
+        <translation>Desktop</translation>
+    </message>
+    <message>
+        <source>1920 wide at 200% zoom</source>
+        <translation>1920 monene na zoom ya 200%</translation>
+    </message>
 </context>
 </TS>

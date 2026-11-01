@@ -1867,5 +1867,81 @@
         <source>Saved: the sizes are made again around the focal point.</source>
         <translation>Wɔakora so: wɔasan ayɛ kɛseɛ no nyinaa atwa beaeɛ titiriw no ho ahyia.</translation>
     </message>
+    <message>
+        <source>Devices</source>
+        <translation>Nnwuma</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>Nsakraeɛ</translation>
+    </message>
+    <message>
+        <source>Your draft of %time</source>
+        <translation>Wo nhyehyɛeɛ a ɛyɛ draft wɔ %time</translation>
+    </message>
+    <message>
+        <source>From %min to %max pixels</source>
+        <translation>Fi %min kɔsi %max pixel</translation>
+    </message>
+    <message>
+        <source>The width must be a whole number from %min to %max.</source>
+        <translation>Tɛtrɛtɛ no gyina yɛ ɛnnɛ nyinaa a efi %min kɔsi %max.</translation>
+    </message>
+    <message>
+        <source>A frame %w pixels wide was added.</source>
+        <translation>Wɔde frame a ne tɛtrɛtɛ yɛ pixel %w aka ho.</translation>
+    </message>
+    <message>
+        <source>A width of your own</source>
+        <translation>Wo ankasa tɛtrɛtɛ</translation>
+    </message>
+    <message>
+        <source>Add the frame</source>
+        <translation>Fa frame no ka ho</translation>
+    </message>
+    <message>
+        <source>Load again</source>
+        <translation>Fa bio</translation>
+    </message>
+    <message>
+        <source>Device preview</source>
+        <translation>Nnwuma hwɛ kane</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page: the frames show the published page.</source>
+        <translation>Wonni draft biara a ɛfa krataafa yi ho: frame no kyerɛ krataafa a wɔatintim no.</translation>
+    </message>
+    <message>
+        <source>Preview on %device</source>
+        <translation>Hwɛ kane wɔ %device so</translation>
+    </message>
+    <message>
+        <source>%w × %h</source>
+        <translation>%w × %h</translation>
+    </message>
+    <message>
+        <source>Remove the frame</source>
+        <translation>Yi frame no fi hɔ</translation>
+    </message>
+    <message>
+        <source>%w pixels wide</source>
+        <translation>Pixel %w tɛtrɛtɛ</translation>
+    </message>
+    <message>
+        <source>Choose a device above.</source>
+        <translation>Paw adwumayɛ ɔkwan bi wɔ atifi hɔ.</translation>
+    </message>
+    <message>
+        <source>Tablet</source>
+        <translation>Tablet</translation>
+    </message>
+    <message>
+        <source>Desktop</source>
+        <translation>Desktop</translation>
+    </message>
+    <message>
+        <source>1920 wide at 200% zoom</source>
+        <translation>1920 tɛtrɛtɛ wɔ 200% zoom mu</translation>
+    </message>
 </context>
 </TS>

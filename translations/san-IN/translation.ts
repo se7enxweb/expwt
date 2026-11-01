@@ -1867,5 +1867,81 @@
         <source>Saved: the sizes are made again around the focal point.</source>
         <translation>रक्षितम्: आकाराः केन्द्रबिन्दुं परितः पुनः निर्मीयन्ते।</translation>
     </message>
+    <message>
+        <source>Devices</source>
+        <translation>उपकरणानि</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>संस्करणम्</translation>
+    </message>
+    <message>
+        <source>Your draft of %time</source>
+        <translation>%time इत्यस्य भवतः प्रारूपम्</translation>
+    </message>
+    <message>
+        <source>From %min to %max pixels</source>
+        <translation>%min तः %max पिक्सेलपर्यन्तम्</translation>
+    </message>
+    <message>
+        <source>The width must be a whole number from %min to %max.</source>
+        <translation>विस्तारः %min तः %max पर्यन्तं पूर्णाङ्कः भवेत्।</translation>
+    </message>
+    <message>
+        <source>A frame %w pixels wide was added.</source>
+        <translation>%w पिक्सेल विस्तारयुक्तं चौकटं योजितम्।</translation>
+    </message>
+    <message>
+        <source>A width of your own</source>
+        <translation>स्वकीयः विस्तारः</translation>
+    </message>
+    <message>
+        <source>Add the frame</source>
+        <translation>चौकटं योजयतु</translation>
+    </message>
+    <message>
+        <source>Load again</source>
+        <translation>पुनः आरोपयतु</translation>
+    </message>
+    <message>
+        <source>Device preview</source>
+        <translation>उपकरण-पूर्वदर्शनम्</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page: the frames show the published page.</source>
+        <translation>अस्य पृष्ठस्य भवतः प्रारूपं नास्ति: चौकटानि प्रकाशितं पृष्ठं दर्शयन्ति।</translation>
+    </message>
+    <message>
+        <source>Preview on %device</source>
+        <translation>%device इत्यत्र पूर्वदर्शनम्</translation>
+    </message>
+    <message>
+        <source>%w × %h</source>
+        <translation>%w × %h</translation>
+    </message>
+    <message>
+        <source>Remove the frame</source>
+        <translation>चौकटं निष्कासयतु</translation>
+    </message>
+    <message>
+        <source>%w pixels wide</source>
+        <translation>%w पिक्सेल विस्तारः</translation>
+    </message>
+    <message>
+        <source>Choose a device above.</source>
+        <translation>उपरि उपकरणं चिनोतु।</translation>
+    </message>
+    <message>
+        <source>Tablet</source>
+        <translation>पट्टिकागणकम्</translation>
+    </message>
+    <message>
+        <source>Desktop</source>
+        <translation>डेस्कटॉप्</translation>
+    </message>
+    <message>
+        <source>1920 wide at 200% zoom</source>
+        <translation>२००% विवर्धने १९२० विस्तारः</translation>
+    </message>
 </context>
 </TS>

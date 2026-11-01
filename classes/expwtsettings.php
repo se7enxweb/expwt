@@ -33,7 +33,16 @@ class expwtSettings
         'siteaccess_exclude' => array(),
         'hidden_classes' => array( 'common_ini_settings' ),
         'lock_seconds' => 300,
+        // the frames of the device preview (E8): id;name;width;height in CSS pixels, and the ids shown first (empty: all)
+        'devices' => array( 'iphone13;iPhone 13;390;844', 'pixel7;Pixel 7;412;915', 'tablet;Tablet;820;1180',
+                            'zoom200;1920 wide at 200% zoom;960;900', 'desktop;Desktop;1440;900' ),
+        'devices_shown' => array(),
     );
+
+    /** The widths and heights a device frame may have, in CSS pixels (a custom width as well) */
+    const DEVICE_MIN = 240;
+    const DEVICE_MAX_WIDTH = 2560;
+    const DEVICE_MAX_HEIGHT = 2400;
 
     /** The data layers a setting may name */
     const DATA_LAYERS = array( 'rest', 'graphql' );
@@ -73,7 +82,38 @@ class expwtSettings
         $s['header_selector'] = trim( (string)$s['header_selector'] );
         $s['footer_selector'] = trim( (string)$s['footer_selector'] );
         $s['hidden_classes'] = array_values( array_filter( array_map( 'strval', (array)$s['hidden_classes'] ), 'strlen' ) );
+        $s['devices'] = self::devices( (array)$s['devices'] );
+        $ids = array_map( function ( $d ) { return $d['id']; }, $s['devices'] );
+        $s['devices_shown'] = array_values( array_unique( array_intersect( array_map( 'strval', (array)$s['devices_shown'] ), $ids ) ) );
         return $s;
+    }
+
+    /**
+     * The frames of the device preview (E8) from [DevicePreviewSettings] DeviceList[]: each line id;name;width;height
+     * (CSS pixels). A line that is not one, an id given twice or a size outside DEVICE_MIN ... DEVICE_MAX_* is left
+     * out. Pure.
+     *
+     * @param string[] $lines
+     * @return array[] id, name, width, height
+     */
+    public static function devices( array $lines )
+    {
+        $out = array();
+        $seen = array();
+        foreach ( $lines as $line )
+        {
+            $parts = array_map( 'trim', explode( ';', (string)$line ) );
+            if ( count( $parts ) !== 4 || !preg_match( '/^[a-z0-9_-]{1,32}$/', $parts[0] ) || $parts[1] === '' || isset( $seen[$parts[0]] )
+                 || !ctype_digit( $parts[2] ) || !ctype_digit( $parts[3] ) )
+                continue;
+            $width = (int)$parts[2];
+            $height = (int)$parts[3];
+            if ( $width < self::DEVICE_MIN || $width > self::DEVICE_MAX_WIDTH || $height < self::DEVICE_MIN || $height > self::DEVICE_MAX_HEIGHT )
+                continue;
+            $seen[$parts[0]] = true;
+            $out[] = array( 'id' => $parts[0], 'name' => mb_substr( $parts[1], 0, 60 ), 'width' => $width, 'height' => $height );
+        }
+        return $out;
     }
 
     /**
@@ -110,6 +150,8 @@ class expwtSettings
         $read( 'ExpwtSettings', 'SiteAccessExcludeList', 'siteaccess_exclude' );
         $read( 'CreateSettings', 'HiddenClassList', 'hidden_classes' );
         $read( 'LockSettings', 'LockSeconds', 'lock_seconds' );
+        $read( 'DevicePreviewSettings', 'DeviceList', 'devices' );
+        $read( 'DevicePreviewSettings', 'ShownDeviceList', 'devices_shown' );
         return self::fromArray( $values );
     }
 

@@ -1867,5 +1867,81 @@
         <source>Saved: the sizes are made again around the focal point.</source>
         <translation>Сақталды: өлшемдер фокус нүктесінің айналасында қайта жасалады.</translation>
     </message>
+    <message>
+        <source>Devices</source>
+        <translation>Құрылғылар</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>Нұсқа</translation>
+    </message>
+    <message>
+        <source>Your draft of %time</source>
+        <translation>%time күнгі сіздің жобаңыз</translation>
+    </message>
+    <message>
+        <source>From %min to %max pixels</source>
+        <translation>%min бастап %max пикселге дейін</translation>
+    </message>
+    <message>
+        <source>The width must be a whole number from %min to %max.</source>
+        <translation>Ені %min мен %max аралығындағы бүтін сан болуы керек.</translation>
+    </message>
+    <message>
+        <source>A frame %w pixels wide was added.</source>
+        <translation>Ені %w пиксель кадр қосылды.</translation>
+    </message>
+    <message>
+        <source>A width of your own</source>
+        <translation>Өз еніңіз</translation>
+    </message>
+    <message>
+        <source>Add the frame</source>
+        <translation>Кадрды қосу</translation>
+    </message>
+    <message>
+        <source>Load again</source>
+        <translation>Қайта жүктеу</translation>
+    </message>
+    <message>
+        <source>Device preview</source>
+        <translation>Құрылғыны алдын ала қарау</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page: the frames show the published page.</source>
+        <translation>Бұл беттің жобасы жоқ: кадрлар жарияланған бетті көрсетеді.</translation>
+    </message>
+    <message>
+        <source>Preview on %device</source>
+        <translation>%device құрылғысында алдын ала қарау</translation>
+    </message>
+    <message>
+        <source>%w × %h</source>
+        <translation>%w × %h</translation>
+    </message>
+    <message>
+        <source>Remove the frame</source>
+        <translation>Кадрды алып тастау</translation>
+    </message>
+    <message>
+        <source>%w pixels wide</source>
+        <translation>Ені %w пиксель</translation>
+    </message>
+    <message>
+        <source>Choose a device above.</source>
+        <translation>Жоғарыдан құрылғыны таңдаңыз.</translation>
+    </message>
+    <message>
+        <source>Tablet</source>
+        <translation>Планшет</translation>
+    </message>
+    <message>
+        <source>Desktop</source>
+        <translation>Компьютер</translation>
+    </message>
+    <message>
+        <source>1920 wide at 200% zoom</source>
+        <translation>200% масштабта 1920 ен</translation>
+    </message>
 </context>
 </TS>

@@ -98,6 +98,7 @@ class expwtApiTestGateway extends expwtGateway
     public function migrations() { return $this->record( 'migrations', array() ); }
     public function images( array $in ) { return $this->record( 'images', $in ); }
     public function imagesSave( array $in ) { return $this->record( 'imagesSave', $in ); }
+    public function previewDevices( array $in ) { return $this->record( 'previewDevices', $in ); }
     public $registered = array( 'panels' => array(), 'actions' => array(), 'highlights' => array(), 'search' => array() );
     public $policies = array();
     public function registeredActions() { return $this->registered['actions']; }
@@ -347,6 +348,23 @@ class expwtApiTest extends PHPUnit\Framework\TestCase
         $caps['edit'] = false;
         $this->assertSame( 403, $this->api( $caps )->call( 'images.load', array( 'objectId' => 7, 'field' => 'image' ), 'GET' )['status'] );
         $this->assertSame( 403, $this->api( $caps )->call( 'images.save', array( 'objectId' => 7, 'field' => 'image' ), 'POST' )['status'] );
+    }
+
+    /** E8: the device preview is a read with expwt/edit; only the page and a language that looks like one reach the gateway */
+    public function testTheDevicePreviewIsAReadForEditors()
+    {
+        $api = $this->api();
+        $this->assertFalse( expwtAccess::writes( 'preview.devices' ) );
+        $this->assertSame( 'edit', expwtAccess::functionFor( 'preview.devices' ) );
+        $this->assertNull( expwtAccess::kernelView( 'preview.devices' ), 'nothing to verify: it changes nothing' );
+        $this->assertSame( 200, $api->call( 'preview.devices', array( 'nodeId' => '42', 'language' => 'ger-DE', 'objectId' => 9 ), 'GET' )['status'] );
+        $this->assertSame( array( 'previewDevices', array( 'nodeId' => 42, 'language' => 'ger-DE' ) ), $this->gateway->calls[0] );
+        $api->call( 'preview.devices', array( 'nodeId' => -1, 'language' => array( 'x' ) ), 'GET' );
+        $this->assertSame( array( 'previewDevices', array() ), $this->gateway->calls[1], 'nothing that is not one' );
+        $caps = array_fill_keys( expwtAccess::FUNCTIONS, true );
+        $caps['edit'] = false;
+        $this->assertSame( 403, $this->api( $caps )->call( 'preview.devices', array( 'nodeId' => 42 ), 'GET' )['status'], 'without expwt/edit' );
+        $this->assertSame( 403, $this->api( array() )->call( 'preview.devices', array( 'nodeId' => 42 ), 'GET' )['status'], 'without expwt/use' );
     }
 
     /** E5: the page's addresses: loading is a read; an alias and a wildcard are writes by POST that stand for the

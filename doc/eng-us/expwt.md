@@ -100,7 +100,7 @@ extensions. A dry run lists the changes first.
 | Panel | For | What |
 |---|---|---|
 | Welcome | visitors not signed in (`ShowToAnonymous`) | sign in, register, search, light or dark |
-| Page | `expwt/use` (reading), `expwt/edit` (changing) | the page's fields in a form, editing on the page, save the draft, preview, the full editor, publish now or at a date, take down at a date, discard the draft; under each image field its focal point and crop with a preview of every size (see "Focal point and crop" below) |
+| Page | `expwt/use` (reading), `expwt/edit` (changing) | the page's fields in a form, editing on the page, save the draft, preview, the page on several devices side by side (see "Device preview" below), the full editor, publish now or at a date, take down at a date, discard the draft; under each image field its focal point and crop with a preview of every size (see "Focal point and crop" below) |
 | Page: comments | `expwt/edit`; each action the kernel's policy of the comment (`content/hide`, `content/remove`) or of the page (`content/create` of a comment) | the page's comments, moderated in place, below the fields of the Page panel. The comments are content below the page (the class of expservices.ini `[Community] CommentClass`, `comment` by default), so the kernel's content policies are the comments' policies. Newest first, at most 50; hidden comments are the ones waiting for moderation and are listed, marked, only for those who may reveal them (`content/hide` of the comment). **Approve** shows a hidden comment, **Hide** hides a shown one (both `content/hide`, through the kernel's hide operation, as the administration's Hide and Reveal); **Spam ...** asks once more in the panel and moves the comment to the trash (`content/remove`; it can be restored from the trash in the administration). **Reply** writes a comment below the page by the user (subject "Re: " and the comment's subject, the user's name as the author), published through the kernel's publishing, so an approval workflow applies; **Write a comment** does the same for the page itself. "Verify it's you" asks exactly where the administration asks for hiding, removing and publishing. Each moderation and reply is audited (`content.comment.approve`, `.hide`, `.spam`, `.reply`). The number of comments waiting for moderation is a badge on the Page panel's tab (from the boot, no extra request; none at 0). With `[Comments] HideNew=enabled` a new comment waits for moderation: a comment published for the first time by someone who may not approve it (no `content/hide` of the comment: a visitor, a member) is hidden right after publishing, inside the kernel's publish operation, so the page never shows it; moderators' own comments and their replies stay visible |
 | Create | `expwt/create` | a new page below or beside this one: the classes you may create there, a title, then fill it in the Page panel and publish |
 | Structure | `expwt/structure` | hide and reveal, move and add a location (choose the place in a tree on the site), move to the trash, sort the pages below by dragging or with the up and down buttons |
@@ -181,6 +181,26 @@ kernel the part is not shown and the sidebar refuses its actions.
 - Needs `expwt/edit` and the kernel's `content/edit` of the page in its language; "Verify it's you" asks as the
   administration's edit asks. Each change is audited as `content.expwt.image.focal`, with the values before and after.
 - Actions `images.load` and `images.save`. An SVG image has no focal point (its sizes are the original file).
+
+**Device preview** (the Page panel's **Devices**, next to Preview): the page in a frame per device, side by side over
+the whole window, to see how it lays out before it is published.
+
+- The frames of `expwt.ini [DevicePreviewSettings] DeviceList[]`: iPhone 13 (390 x 844), Pixel 7 (412 x 915), a
+  tablet (820 x 1180), **1920 wide at 200% zoom** (a 1920 pixel window zoomed to 200%, which lays the page out at 960
+  pixels: the case of a reader who enlarges the page) and a desktop (1440 x 900). Tick the devices to show; **A width
+  of your own** adds a frame of any width from 240 to 2560 pixels (up to four), **Remove the frame** takes it away.
+- Each frame is the device's window, scaled down to fit: one row where every frame stays readable, else each frame on
+  its own, as large as the window allows, the frames wrapping below each other. A frame scrolls on its own, and its
+  links work in it.
+- **Version:** your own newest draft of the page in its language (the kernel's draft preview, `content/versionview`,
+  which checks again that you may read it), or the published page. Without a draft of yours the frames show the
+  published page and say so.
+- **Light or dark per frame:** Like the site, Light or Dark; the choice is set in that frame only (the media designs'
+  color mode), nothing of the site's own choice changes. Like the site loads the frame again as the site has it.
+- The pages in the frames show no sidebar and no debug bar of their own (`?in=sidebar`). The choices are remembered on
+  this device. Read-only: nothing is saved on the server.
+- Needs `expwt/edit` (the button is there for those who may edit the page). Action `preview.devices` (GET): it answers
+  the frames and the two addresses, and 403 without `expwt/edit`.
 
 **Upgrading from an earlier expwt:** it kept its own schedule (the site data rows `expwt_publish_*` and
 `expwt_unpublish_*`, the cronjob part `expwt_scheduled`). Run `./console exp:wt:migrate-from-ezwt` to see what moves
@@ -276,7 +296,7 @@ translation whose fields still hold the text of the main language.
 | Policy | Allows |
 |---|---|
 | `expwt/use` | the sidebar itself, the Me panel, reading the Page panel |
-| `expwt/edit` | editing on a draft, preview, publishing, soft locks, the SEO check |
+| `expwt/edit` | editing on a draft, preview, the device preview, publishing, soft locks, the SEO check |
 | `expwt/create` | the Create panel |
 | `expwt/structure` | the Structure panel |
 | `expwt/layouts`, `expwt/templates`, `expwt/shop`, `expwt/admin` | the panels of later phases (defined now) |
@@ -331,6 +351,8 @@ sidebar is first opened. The closed tab (script and stylesheet) stays below 50 K
 | `FooterSelector` | footer, [role=contentinfo], cookie bars | what the site may fix to the bottom of the window; the bottom bar sits above whichever of them is fixed or sticky there |
 | `[CreateSettings] HiddenClassList[]` | common_ini_settings | classes Create never offers |
 | `[LockSettings] LockSeconds` | 300 | how long a soft lock lasts without a heartbeat |
+| `[DevicePreviewSettings] DeviceList[]` | iPhone 13, Pixel 7, tablet, 1920 at 200% zoom, desktop | the frames of the device preview, each `id;name;width;height` (CSS pixels, 240 to 2560 wide, 240 to 2400 high); the name is translated where the sidebar's catalogue has it |
+| `ShownDeviceList[]` | (empty) | the frames shown when the preview opens (ids of `DeviceList[]`); empty: all of them |
 | `[Comments] HideNew` | disabled | enabled: a comment (expservices.ini `[Community] CommentClass`, else `comment`) published for the first time is hidden right after publishing when its creator may not approve it (no `content/hide` of the comment); the Page panel lists it as waiting for moderation and **Approve** reveals it. Done by expwt's content edit handler (content.ini `[EditSettings] ExtensionDirectories[]=expwt`), which the kernel calls in every publish operation (the web, commands, cronjobs, workflows), through the kernel's hide; no workflow to set up |
 
 ## Adding to the sidebar from another extension

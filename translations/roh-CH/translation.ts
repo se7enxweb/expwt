@@ -1867,5 +1867,81 @@
         <source>Saved: the sizes are made again around the focal point.</source>
         <translation>Memorisà: las grondezzas vegnan fatgas da nov enturn il punct focal.</translation>
     </message>
+    <message>
+        <source>Devices</source>
+        <translation>Apparats</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>Versiun</translation>
+    </message>
+    <message>
+        <source>Your draft of %time</source>
+        <translation>Voss sboz dal %time</translation>
+    </message>
+    <message>
+        <source>From %min to %max pixels</source>
+        <translation>Da %min fin %max pixels</translation>
+    </message>
+    <message>
+        <source>The width must be a whole number from %min to %max.</source>
+        <translation>La ladezza stoppa esser in numer entir da %min fin %max.</translation>
+    </message>
+    <message>
+        <source>A frame %w pixels wide was added.</source>
+        <translation>I vegn agiuntà in maletg da %w pixels ladezza.</translation>
+    </message>
+    <message>
+        <source>A width of your own</source>
+        <translation>In'atgna ladezza</translation>
+    </message>
+    <message>
+        <source>Add the frame</source>
+        <translation>Agiuntar il maletg</translation>
+    </message>
+    <message>
+        <source>Load again</source>
+        <translation>Chargiar danovamain</translation>
+    </message>
+    <message>
+        <source>Device preview</source>
+        <translation>Prevista da l'apparat</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page: the frames show the published page.</source>
+        <translation>Vus n'avais nagin sboz da questa pagina: ils maletgs mussan la pagina publitgada.</translation>
+    </message>
+    <message>
+        <source>Preview on %device</source>
+        <translation>Prevista sin %device</translation>
+    </message>
+    <message>
+        <source>%w × %h</source>
+        <translation>%w × %h</translation>
+    </message>
+    <message>
+        <source>Remove the frame</source>
+        <translation>Allontanar il maletg</translation>
+    </message>
+    <message>
+        <source>%w pixels wide</source>
+        <translation>%w pixels ladezza</translation>
+    </message>
+    <message>
+        <source>Choose a device above.</source>
+        <translation>Tscherni in apparat survart.</translation>
+    </message>
+    <message>
+        <source>Tablet</source>
+        <translation>Tablet</translation>
+    </message>
+    <message>
+        <source>Desktop</source>
+        <translation>Desktop</translation>
+    </message>
+    <message>
+        <source>1920 wide at 200% zoom</source>
+        <translation>1920 ladezza cun 200% zoom</translation>
+    </message>
 </context>
 </TS>

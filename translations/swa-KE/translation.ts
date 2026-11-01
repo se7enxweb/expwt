@@ -1867,5 +1867,81 @@
         <source>Saved: the sizes are made again around the focal point.</source>
         <translation>Imehifadhiwa: ukubwa unatengenezwa upya kuzunguka sehemu ya kulenga.</translation>
     </message>
+    <message>
+        <source>Devices</source>
+        <translation>Vifaa</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>Toleo</translation>
+    </message>
+    <message>
+        <source>Your draft of %time</source>
+        <translation>Rasimu yako ya %time</translation>
+    </message>
+    <message>
+        <source>From %min to %max pixels</source>
+        <translation>Kuanzia %min hadi %max pikseli</translation>
+    </message>
+    <message>
+        <source>The width must be a whole number from %min to %max.</source>
+        <translation>Upana lazima uwe nambari nzima kuanzia %min hadi %max.</translation>
+    </message>
+    <message>
+        <source>A frame %w pixels wide was added.</source>
+        <translation>Fremu yenye upana wa pikseli %w imeongezwa.</translation>
+    </message>
+    <message>
+        <source>A width of your own</source>
+        <translation>Upana wako mwenyewe</translation>
+    </message>
+    <message>
+        <source>Add the frame</source>
+        <translation>Ongeza fremu</translation>
+    </message>
+    <message>
+        <source>Load again</source>
+        <translation>Pakia upya</translation>
+    </message>
+    <message>
+        <source>Device preview</source>
+        <translation>Hakiki ya kifaa</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page: the frames show the published page.</source>
+        <translation>Huna rasimu ya ukurasa huu: fremu zinaonyesha ukurasa uliochapishwa.</translation>
+    </message>
+    <message>
+        <source>Preview on %device</source>
+        <translation>Hakiki kwenye %device</translation>
+    </message>
+    <message>
+        <source>%w × %h</source>
+        <translation>%w × %h</translation>
+    </message>
+    <message>
+        <source>Remove the frame</source>
+        <translation>Ondoa fremu</translation>
+    </message>
+    <message>
+        <source>%w pixels wide</source>
+        <translation>Upana wa pikseli %w</translation>
+    </message>
+    <message>
+        <source>Choose a device above.</source>
+        <translation>Chagua kifaa hapo juu.</translation>
+    </message>
+    <message>
+        <source>Tablet</source>
+        <translation>Kompyuta kibao</translation>
+    </message>
+    <message>
+        <source>Desktop</source>
+        <translation>Kompyuta ya mezani</translation>
+    </message>
+    <message>
+        <source>1920 wide at 200% zoom</source>
+        <translation>Upana wa 1920 kwa ukuzaji wa 200%</translation>
+    </message>
 </context>
 </TS>

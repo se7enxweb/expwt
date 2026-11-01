@@ -1867,5 +1867,81 @@
         <source>Saved: the sizes are made again around the focal point.</source>
         <translation>ಉಳಿಸಲಾಗಿದೆ: ಗಾತ್ರಗಳನ್ನು ಕೇಂದ್ರಬಿಂದುವಿನ ಸುತ್ತ ಮತ್ತೆ ರಚಿಸಲಾಗುತ್ತದೆ.</translation>
     </message>
+    <message>
+        <source>Devices</source>
+        <translation>ಸಾಧನಗಳು</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>ಆವೃತ್ತಿ</translation>
+    </message>
+    <message>
+        <source>Your draft of %time</source>
+        <translation>%time ರ ನಿಮ್ಮ ಕರಡು</translation>
+    </message>
+    <message>
+        <source>From %min to %max pixels</source>
+        <translation>%min ರಿಂದ %max ಪಿಕ್ಸೆಲ್‌ಗಳು</translation>
+    </message>
+    <message>
+        <source>The width must be a whole number from %min to %max.</source>
+        <translation>ಅಗಲವು %min ರಿಂದ %max ವರೆಗಿನ ಪೂರ್ಣಾಂಕವಾಗಿರಬೇಕು.</translation>
+    </message>
+    <message>
+        <source>A frame %w pixels wide was added.</source>
+        <translation>%w ಪಿಕ್ಸೆಲ್ ಅಗಲದ ಫ್ರೇಮ್ ಅನ್ನು ಸೇರಿಸಲಾಗಿದೆ.</translation>
+    </message>
+    <message>
+        <source>A width of your own</source>
+        <translation>ನಿಮ್ಮದೇ ಆದ ಅಗಲ</translation>
+    </message>
+    <message>
+        <source>Add the frame</source>
+        <translation>ಫ್ರೇಮ್ ಸೇರಿಸಿ</translation>
+    </message>
+    <message>
+        <source>Load again</source>
+        <translation>ಮತ್ತೆ ಲೋಡ್ ಮಾಡಿ</translation>
+    </message>
+    <message>
+        <source>Device preview</source>
+        <translation>ಸಾಧನ ಮುನ್ನೋಟ</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page: the frames show the published page.</source>
+        <translation>ಈ ಪುಟಕ್ಕೆ ನಿಮ್ಮ ಕರಡು ಇಲ್ಲ: ಫ್ರೇಮ್‌ಗಳು ಪ್ರಕಟಿತ ಪುಟವನ್ನು ತೋರಿಸುತ್ತವೆ.</translation>
+    </message>
+    <message>
+        <source>Preview on %device</source>
+        <translation>%device ನಲ್ಲಿ ಮುನ್ನೋಟ</translation>
+    </message>
+    <message>
+        <source>%w × %h</source>
+        <translation>%w × %h</translation>
+    </message>
+    <message>
+        <source>Remove the frame</source>
+        <translation>ಫ್ರೇಮ್ ತೆಗೆದುಹಾಕಿ</translation>
+    </message>
+    <message>
+        <source>%w pixels wide</source>
+        <translation>%w ಪಿಕ್ಸೆಲ್ ಅಗಲ</translation>
+    </message>
+    <message>
+        <source>Choose a device above.</source>
+        <translation>ಮೇಲಿನಿಂದ ಸಾಧನವನ್ನು ಆರಿಸಿ.</translation>
+    </message>
+    <message>
+        <source>Tablet</source>
+        <translation>ಟ್ಯಾಬ್ಲೆಟ್</translation>
+    </message>
+    <message>
+        <source>Desktop</source>
+        <translation>ಡೆಸ್ಕ್‌ಟಾಪ್</translation>
+    </message>
+    <message>
+        <source>1920 wide at 200% zoom</source>
+        <translation>200% ಜೂಮ್‌ನಲ್ಲಿ 1920 ಅಗಲ</translation>
+    </message>
 </context>
 </TS>

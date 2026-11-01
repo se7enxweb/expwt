@@ -1867,5 +1867,81 @@
         <source>Saved: the sizes are made again around the focal point.</source>
         <translation>Natipig: ang mga gidak-on gihimo pag-usab palibot sa focal point.</translation>
     </message>
+    <message>
+        <source>Devices</source>
+        <translation>Mga device</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>Bersyon</translation>
+    </message>
+    <message>
+        <source>Your draft of %time</source>
+        <translation>Imong draft sa %time</translation>
+    </message>
+    <message>
+        <source>From %min to %max pixels</source>
+        <translation>Gikan sa %min hangtod %max ka pixel</translation>
+    </message>
+    <message>
+        <source>The width must be a whole number from %min to %max.</source>
+        <translation>Ang gilapdon kinahanglan nga bug-os nga numero gikan sa %min hangtod %max.</translation>
+    </message>
+    <message>
+        <source>A frame %w pixels wide was added.</source>
+        <translation>Gidugang ang frame nga %w ka pixel ang gilapdon.</translation>
+    </message>
+    <message>
+        <source>A width of your own</source>
+        <translation>Kaugalingon nimo nga gilapdon</translation>
+    </message>
+    <message>
+        <source>Add the frame</source>
+        <translation>Idugang ang frame</translation>
+    </message>
+    <message>
+        <source>Load again</source>
+        <translation>I-load pag-usab</translation>
+    </message>
+    <message>
+        <source>Device preview</source>
+        <translation>Preview sa device</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page: the frames show the published page.</source>
+        <translation>Wala kay draft niini nga panid: ang mga frame nagpakita sa napatik nga panid.</translation>
+    </message>
+    <message>
+        <source>Preview on %device</source>
+        <translation>Preview sa %device</translation>
+    </message>
+    <message>
+        <source>%w × %h</source>
+        <translation>%w × %h</translation>
+    </message>
+    <message>
+        <source>Remove the frame</source>
+        <translation>Tangtanga ang frame</translation>
+    </message>
+    <message>
+        <source>%w pixels wide</source>
+        <translation>%w ka pixel ang gilapdon</translation>
+    </message>
+    <message>
+        <source>Choose a device above.</source>
+        <translation>Pagpili og device sa taas.</translation>
+    </message>
+    <message>
+        <source>Tablet</source>
+        <translation>Tablet</translation>
+    </message>
+    <message>
+        <source>Desktop</source>
+        <translation>Desktop</translation>
+    </message>
+    <message>
+        <source>1920 wide at 200% zoom</source>
+        <translation>1920 ang gilapdon sa 200% nga zoom</translation>
+    </message>
 </context>
 </TS>

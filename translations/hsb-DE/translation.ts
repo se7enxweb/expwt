@@ -1867,5 +1867,81 @@
         <source>Saved: the sizes are made again around the focal point.</source>
         <translation>Składowane: wulkosće so wokoło fokusoweho dypka znowa wutworja.</translation>
     </message>
+    <message>
+        <source>Devices</source>
+        <translation>Graty</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>Wersija</translation>
+    </message>
+    <message>
+        <source>Your draft of %time</source>
+        <translation>Waš naćisk z %time</translation>
+    </message>
+    <message>
+        <source>From %min to %max pixels</source>
+        <translation>Wot %min do %max pikselow</translation>
+    </message>
+    <message>
+        <source>The width must be a whole number from %min to %max.</source>
+        <translation>Šěrokosć dyrbi cyła ličba wot %min do %max być.</translation>
+    </message>
+    <message>
+        <source>A frame %w pixels wide was added.</source>
+        <translation>Dodaty je so wobraz z šěrokosću %w pikselow.</translation>
+    </message>
+    <message>
+        <source>A width of your own</source>
+        <translation>Swójska šěrokosć</translation>
+    </message>
+    <message>
+        <source>Add the frame</source>
+        <translation>Wobraz přidać</translation>
+    </message>
+    <message>
+        <source>Load again</source>
+        <translation>Znowa začitać</translation>
+    </message>
+    <message>
+        <source>Device preview</source>
+        <translation>Přehlad gratow</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page: the frames show the published page.</source>
+        <translation>Njemaće naćisk tuteje strony: wobrazy pokazuja wozjewjenu stronu.</translation>
+    </message>
+    <message>
+        <source>Preview on %device</source>
+        <translation>Přehlad na %device</translation>
+    </message>
+    <message>
+        <source>%w × %h</source>
+        <translation>%w × %h</translation>
+    </message>
+    <message>
+        <source>Remove the frame</source>
+        <translation>Wobraz wotstronić</translation>
+    </message>
+    <message>
+        <source>%w pixels wide</source>
+        <translation>%w pikselow šěroki</translation>
+    </message>
+    <message>
+        <source>Choose a device above.</source>
+        <translation>Wubjerće horjeka graty.</translation>
+    </message>
+    <message>
+        <source>Tablet</source>
+        <translation>Tablet</translation>
+    </message>
+    <message>
+        <source>Desktop</source>
+        <translation>Desktop</translation>
+    </message>
+    <message>
+        <source>1920 wide at 200% zoom</source>
+        <translation>1920 šěroki při 200 % zoomje</translation>
+    </message>
 </context>
 </TS>

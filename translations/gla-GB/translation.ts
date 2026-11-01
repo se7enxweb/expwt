@@ -1867,5 +1867,81 @@
         <source>Saved: the sizes are made again around the focal point.</source>
         <translation>Air a shàbhaladh: thèid na meudan a dhèanamh às ùr timcheall air a’ phuing-fòcais.</translation>
     </message>
+    <message>
+        <source>Devices</source>
+        <translation>Uidheaman</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>Tionndadh</translation>
+    </message>
+    <message>
+        <source>Your draft of %time</source>
+        <translation>An dreachd agad o %time</translation>
+    </message>
+    <message>
+        <source>From %min to %max pixels</source>
+        <translation>Bho %min gu %max piogsail</translation>
+    </message>
+    <message>
+        <source>The width must be a whole number from %min to %max.</source>
+        <translation>Feumaidh an leud a bhith na àireamh shlàn eadar %min agus %max.</translation>
+    </message>
+    <message>
+        <source>A frame %w pixels wide was added.</source>
+        <translation>Chaidh frèam %w piogsail de leud a chur ris.</translation>
+    </message>
+    <message>
+        <source>A width of your own</source>
+        <translation>Leud dhut fhèin</translation>
+    </message>
+    <message>
+        <source>Add the frame</source>
+        <translation>Cuir am frèam ris</translation>
+    </message>
+    <message>
+        <source>Load again</source>
+        <translation>Luchdaich a-rithist</translation>
+    </message>
+    <message>
+        <source>Device preview</source>
+        <translation>Ro-shealladh uidheaman</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page: the frames show the published page.</source>
+        <translation>Chan eil dreachd agad dhen duilleag seo: tha na frèamaichean a’ sealltainn na duilleige foillsichte.</translation>
+    </message>
+    <message>
+        <source>Preview on %device</source>
+        <translation>Ro-shealladh air %device</translation>
+    </message>
+    <message>
+        <source>%w × %h</source>
+        <translation>%w × %h</translation>
+    </message>
+    <message>
+        <source>Remove the frame</source>
+        <translation>Thoir air falbh am frèam</translation>
+    </message>
+    <message>
+        <source>%w pixels wide</source>
+        <translation>%w piogsail de leud</translation>
+    </message>
+    <message>
+        <source>Choose a device above.</source>
+        <translation>Tagh uidheam gu h-àrd.</translation>
+    </message>
+    <message>
+        <source>Tablet</source>
+        <translation>Tablaid</translation>
+    </message>
+    <message>
+        <source>Desktop</source>
+        <translation>Deasg</translation>
+    </message>
+    <message>
+        <source>1920 wide at 200% zoom</source>
+        <translation>1920 de leud aig sùm 200%</translation>
+    </message>
 </context>
 </TS>

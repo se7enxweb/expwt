@@ -1867,5 +1867,81 @@
         <source>Saved: the sizes are made again around the focal point.</source>
         <translation>Goymt: støddirnar verða gjørdar av nýggjum kring brennidepilin.</translation>
     </message>
+    <message>
+        <source>Devices</source>
+        <translation>Tól</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>Útgáva</translation>
+    </message>
+    <message>
+        <source>Your draft of %time</source>
+        <translation>Kladda tín frá %time</translation>
+    </message>
+    <message>
+        <source>From %min to %max pixels</source>
+        <translation>Frá %min til %max pikslar</translation>
+    </message>
+    <message>
+        <source>The width must be a whole number from %min to %max.</source>
+        <translation>Breiddin má vera eitt heiltal frá %min til %max.</translation>
+    </message>
+    <message>
+        <source>A frame %w pixels wide was added.</source>
+        <translation>Ein rammi %w pikslar breiður varð lagdur afturat.</translation>
+    </message>
+    <message>
+        <source>A width of your own</source>
+        <translation>Tín egna breidd</translation>
+    </message>
+    <message>
+        <source>Add the frame</source>
+        <translation>Legg ramman afturat</translation>
+    </message>
+    <message>
+        <source>Load again</source>
+        <translation>Les inn umaftur</translation>
+    </message>
+    <message>
+        <source>Device preview</source>
+        <translation>Forsýning á tólum</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page: the frames show the published page.</source>
+        <translation>Tú hevur onga kladdu av hesi síðuni: rammarnir vísa útgivnu síðuna.</translation>
+    </message>
+    <message>
+        <source>Preview on %device</source>
+        <translation>Forsýning á %device</translation>
+    </message>
+    <message>
+        <source>%w × %h</source>
+        <translation>%w × %h</translation>
+    </message>
+    <message>
+        <source>Remove the frame</source>
+        <translation>Tak ramman burtur</translation>
+    </message>
+    <message>
+        <source>%w pixels wide</source>
+        <translation>%w pikslar breiður</translation>
+    </message>
+    <message>
+        <source>Choose a device above.</source>
+        <translation>Vel eitt tól omanfyri.</translation>
+    </message>
+    <message>
+        <source>Tablet</source>
+        <translation>Talva</translation>
+    </message>
+    <message>
+        <source>Desktop</source>
+        <translation>Skrivborð</translation>
+    </message>
+    <message>
+        <source>1920 wide at 200% zoom</source>
+        <translation>1920 breitt við 200% stækking</translation>
+    </message>
 </context>
 </TS>

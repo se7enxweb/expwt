@@ -1867,5 +1867,81 @@
         <source>Saved: the sizes are made again around the focal point.</source>
         <translation>已保存：各尺寸将围绕焦点重新生成。</translation>
     </message>
+    <message>
+        <source>Devices</source>
+        <translation>设备</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>版本</translation>
+    </message>
+    <message>
+        <source>Your draft of %time</source>
+        <translation>你在 %time 的草稿</translation>
+    </message>
+    <message>
+        <source>From %min to %max pixels</source>
+        <translation>从 %min 到 %max 像素</translation>
+    </message>
+    <message>
+        <source>The width must be a whole number from %min to %max.</source>
+        <translation>宽度必须是 %min 到 %max 之间的整数。</translation>
+    </message>
+    <message>
+        <source>A frame %w pixels wide was added.</source>
+        <translation>已添加宽度为 %w 像素的框架。</translation>
+    </message>
+    <message>
+        <source>A width of your own</source>
+        <translation>自定义宽度</translation>
+    </message>
+    <message>
+        <source>Add the frame</source>
+        <translation>添加框架</translation>
+    </message>
+    <message>
+        <source>Load again</source>
+        <translation>重新加载</translation>
+    </message>
+    <message>
+        <source>Device preview</source>
+        <translation>设备预览</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page: the frames show the published page.</source>
+        <translation>你没有此页面的草稿：框架显示的是已发布的页面。</translation>
+    </message>
+    <message>
+        <source>Preview on %device</source>
+        <translation>在 %device 上预览</translation>
+    </message>
+    <message>
+        <source>%w × %h</source>
+        <translation>%w × %h</translation>
+    </message>
+    <message>
+        <source>Remove the frame</source>
+        <translation>移除框架</translation>
+    </message>
+    <message>
+        <source>%w pixels wide</source>
+        <translation>宽 %w 像素</translation>
+    </message>
+    <message>
+        <source>Choose a device above.</source>
+        <translation>请在上方选择一个设备。</translation>
+    </message>
+    <message>
+        <source>Tablet</source>
+        <translation>平板电脑</translation>
+    </message>
+    <message>
+        <source>Desktop</source>
+        <translation>桌面电脑</translation>
+    </message>
+    <message>
+        <source>1920 wide at 200% zoom</source>
+        <translation>1920 宽，缩放 200%</translation>
+    </message>
 </context>
 </TS>

@@ -1867,5 +1867,81 @@
         <source>Saved: the sizes are made again around the focal point.</source>
         <translation>Waqaychasqa: hatun kaykunaqa focal punto muyuriqpi musuqmanta ruwasqa kanku.</translation>
     </message>
+    <message>
+        <source>Devices</source>
+        <translation>Llamk'ana kaqkuna</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>Versión</translation>
+    </message>
+    <message>
+        <source>Your draft of %time</source>
+        <translation>%time pacha qillqasqayki</translation>
+    </message>
+    <message>
+        <source>From %min to %max pixels</source>
+        <translation>%min manta %max pixelkama</translation>
+    </message>
+    <message>
+        <source>The width must be a whole number from %min to %max.</source>
+        <translation>Mast'ayninqa %min manta %max kama tukuy yupay kanan.</translation>
+    </message>
+    <message>
+        <source>A frame %w pixels wide was added.</source>
+        <translation>%w pixel mast'aq marku yapasqa karqan.</translation>
+    </message>
+    <message>
+        <source>A width of your own</source>
+        <translation>Kikiykipa mast'ayniyki</translation>
+    </message>
+    <message>
+        <source>Add the frame</source>
+        <translation>Markuta yapay</translation>
+    </message>
+    <message>
+        <source>Load again</source>
+        <translation>Musuqmanta apamuy</translation>
+    </message>
+    <message>
+        <source>Device preview</source>
+        <translation>Llamk'ana ñawpaq qhaway</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page: the frames show the published page.</source>
+        <translation>Kay p'anqapa qillqa kaqnikiqa manam kanchu: markukunaqa rakinasqa p'anqatam rikuchin.</translation>
+    </message>
+    <message>
+        <source>Preview on %device</source>
+        <translation>%device nisqapi ñawpaq qhaway</translation>
+    </message>
+    <message>
+        <source>%w × %h</source>
+        <translation>%w × %h</translation>
+    </message>
+    <message>
+        <source>Remove the frame</source>
+        <translation>Markuta orqoy</translation>
+    </message>
+    <message>
+        <source>%w pixels wide</source>
+        <translation>%w pixel mast'aq</translation>
+    </message>
+    <message>
+        <source>Choose a device above.</source>
+        <translation>Hanaqpi huk llamk'anata akllay.</translation>
+    </message>
+    <message>
+        <source>Tablet</source>
+        <translation>Tablet</translation>
+    </message>
+    <message>
+        <source>Desktop</source>
+        <translation>Escritorio</translation>
+    </message>
+    <message>
+        <source>1920 wide at 200% zoom</source>
+        <translation>1920 mast'aq 200% hatunchasqa</translation>
+    </message>
 </context>
 </TS>

@@ -1004,3 +1004,26 @@ button.wt-seo-item:hover { border-color: var(--a4-accent); }
 .wt-focal-frame.is-file { aspect-ratio: auto; line-height: 0; }
 .wt-focal-live { position: absolute; left: var(--wt-il, 0%); top: var(--wt-it, 0%); inline-size: var(--wt-iw, 100%); max-inline-size: none; block-size: auto; }
 .wt-focal-file { display: block; inline-size: 100%; block-size: auto; }
+
+/* the device preview (E8): a view over the whole window (the split view's frame), the choices in a bar that wraps,
+   then a frame per device. Each frame is the device's window (--wt-dw x --wt-dh CSS pixels, set by the script from
+   the settings) scaled by --wt-ds to fit: one row where every frame stays readable, else each on its own, wrapping. */
+.wt-dev-bar { flex: none; display: flex; flex-wrap: wrap; align-items: flex-end; gap: var(--a4-space-2) var(--a4-space-4); max-block-size: 40vh; overflow-x: hidden; overflow-y: auto; padding: var(--a4-space-2) var(--a4-space-4); border-block-end: 1px solid var(--a4-line); }
+.wt-dev-group { display: flex; flex-wrap: wrap; align-items: center; gap: var(--a4-space-1) var(--a4-space-2); min-inline-size: 0; margin: 0; padding: 0; border: 0; }
+.wt-dev-group > legend { float: inline-start; inline-size: 100%; padding: 0; margin-block-end: var(--a4-space-1); font-weight: var(--a4-weight-medium); }
+.wt-dev-group .wt-check { margin: 0; }
+.wt-dev-add { align-items: flex-end; }
+.wt-dev-add .wt-field { margin: 0; }
+.wt-dev-add .wt-field input { inline-size: calc(var(--a4-space-7) * 2 + var(--a4-space-6)); }
+.wt-dev-add input[aria-invalid="true"] { border-color: var(--a4-bad); }
+.wt-dev-note { flex: none; margin: 0; padding: var(--a4-space-1) var(--a4-space-4); }
+.wt-dev-body { flex: 1; display: flex; flex-wrap: wrap; align-items: flex-start; align-content: flex-start; gap: var(--a4-space-3); min-block-size: 0; overflow-x: hidden; overflow-y: auto; padding: var(--a4-space-3); }
+.wt-dev-body.is-row { flex-wrap: nowrap; justify-content: center; }
+.wt-dev-item { display: flex; flex-direction: column; gap: var(--a4-space-1); flex: none; inline-size: max(calc(var(--wt-dw, 390) * var(--wt-ds, 0.25) * 1px), calc(var(--a4-space-7) * 3 + var(--a4-space-4))); max-inline-size: 100%; margin: 0; }
+.wt-dev-cap { display: flex; flex-wrap: wrap; align-items: center; gap: var(--a4-space-1) var(--a4-space-2); min-inline-size: 0; font-size: var(--a4-text-s); overflow-wrap: anywhere; }
+.wt-dev-name { font-weight: var(--a4-weight-medium); }
+.wt-dev-cap select { max-inline-size: 100%; min-block-size: var(--a4-control-h); padding: 0 var(--a4-space-1); border: 1px solid var(--a4-field-line); border-radius: var(--a4-radius-s); background: var(--a4-field); color: var(--a4-ink); font: inherit; }
+.wt-dev-screen { overflow: hidden; inline-size: calc(var(--wt-dw, 390) * var(--wt-ds, 0.25) * 1px + 2px); block-size: calc(var(--wt-dh, 844) * var(--wt-ds, 0.25) * 1px + 2px); max-inline-size: 100%; border: 1px solid var(--a4-line); border-radius: var(--a4-radius-s); background: var(--a4-surface); }
+.wt-dev-frame { display: block; inline-size: calc(var(--wt-dw, 390) * 1px); block-size: calc(var(--wt-dh, 844) * 1px); border: 0; transform: scale(var(--wt-ds, 0.25)); transform-origin: 0 0; background: var(--a4-surface); }
+.wt-dev-frame.is-light { color-scheme: light; }
+.wt-dev-frame.is-dark { color-scheme: dark; }

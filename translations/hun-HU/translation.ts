@@ -1867,5 +1867,81 @@
         <source>Saved: the sizes are made again around the focal point.</source>
         <translation>Mentve: a méretek újra elkészülnek a fókuszpont körül.</translation>
     </message>
+    <message>
+        <source>Devices</source>
+        <translation>Eszközök</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>Verzió</translation>
+    </message>
+    <message>
+        <source>Your draft of %time</source>
+        <translation>Az Ön piszkozata ekkorról: %time</translation>
+    </message>
+    <message>
+        <source>From %min to %max pixels</source>
+        <translation>%min és %max képpont között</translation>
+    </message>
+    <message>
+        <source>The width must be a whole number from %min to %max.</source>
+        <translation>A szélességnek %min és %max közötti egész számnak kell lennie.</translation>
+    </message>
+    <message>
+        <source>A frame %w pixels wide was added.</source>
+        <translation>Hozzáadtunk egy %w képpont széles keretet.</translation>
+    </message>
+    <message>
+        <source>A width of your own</source>
+        <translation>Saját szélesség</translation>
+    </message>
+    <message>
+        <source>Add the frame</source>
+        <translation>A keret hozzáadása</translation>
+    </message>
+    <message>
+        <source>Load again</source>
+        <translation>Újratöltés</translation>
+    </message>
+    <message>
+        <source>Device preview</source>
+        <translation>Eszköz-előnézet</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page: the frames show the published page.</source>
+        <translation>Ennek az oldalnak nincs piszkozata: a keretek a közzétett oldalt mutatják.</translation>
+    </message>
+    <message>
+        <source>Preview on %device</source>
+        <translation>Előnézet itt: %device</translation>
+    </message>
+    <message>
+        <source>%w × %h</source>
+        <translation>%w × %h</translation>
+    </message>
+    <message>
+        <source>Remove the frame</source>
+        <translation>A keret eltávolítása</translation>
+    </message>
+    <message>
+        <source>%w pixels wide</source>
+        <translation>%w képpont széles</translation>
+    </message>
+    <message>
+        <source>Choose a device above.</source>
+        <translation>Válasszon fent egy eszközt.</translation>
+    </message>
+    <message>
+        <source>Tablet</source>
+        <translation>Táblagép</translation>
+    </message>
+    <message>
+        <source>Desktop</source>
+        <translation>Asztali gép</translation>
+    </message>
+    <message>
+        <source>1920 wide at 200% zoom</source>
+        <translation>1920 széles 200%-os nagyításnál</translation>
+    </message>
 </context>
 </TS>

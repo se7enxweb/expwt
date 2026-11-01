@@ -1867,5 +1867,81 @@
         <source>Saved: the sizes are made again around the focal point.</source>
         <translation>A marala: bonyaw bɛ dilan kokura sinsinni yɔrɔ lamini na.</translation>
     </message>
+    <message>
+        <source>Devices</source>
+        <translation>Minɛnw</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>Sɛbɛn</translation>
+    </message>
+    <message>
+        <source>Your draft of %time</source>
+        <translation>I ka bruyɔn min kɛra %time</translation>
+    </message>
+    <message>
+        <source>From %min to %max pixels</source>
+        <translation>%min ka se %max pikseli ma</translation>
+    </message>
+    <message>
+        <source>The width must be a whole number from %min to %max.</source>
+        <translation>Bonya ka kan ka kɛ jatefɔlɔ bɛnbali ye min bɛ %min ni %max cɛ.</translation>
+    </message>
+    <message>
+        <source>A frame %w pixels wide was added.</source>
+        <translation>Kadiri min bonya ye pikseli %w ye, o fara a kan.</translation>
+    </message>
+    <message>
+        <source>A width of your own</source>
+        <translation>I yɛrɛ ka bonya</translation>
+    </message>
+    <message>
+        <source>Add the frame</source>
+        <translation>Kadiri fara a kan</translation>
+    </message>
+    <message>
+        <source>Load again</source>
+        <translation>A ladon tuun</translation>
+    </message>
+    <message>
+        <source>Device preview</source>
+        <translation>Minɛn ɲɛfɛlajɛ</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page: the frames show the published page.</source>
+        <translation>Bruyɔn tɛ i bolo nin ɲɛ ma: kadiriw b'a jira ko ɲɛ min bilala kɛnɛ kan.</translation>
+    </message>
+    <message>
+        <source>Preview on %device</source>
+        <translation>Ɲɛfɛlajɛ %device kan</translation>
+    </message>
+    <message>
+        <source>%w × %h</source>
+        <translation>%w × %h</translation>
+    </message>
+    <message>
+        <source>Remove the frame</source>
+        <translation>Kadiri bɔ yen</translation>
+    </message>
+    <message>
+        <source>%w pixels wide</source>
+        <translation>Bonya pikseli %w</translation>
+    </message>
+    <message>
+        <source>Choose a device above.</source>
+        <translation>Minɛn sugandi sanfɛ.</translation>
+    </message>
+    <message>
+        <source>Tablet</source>
+        <translation>Tablɛti</translation>
+    </message>
+    <message>
+        <source>Desktop</source>
+        <translation>Desktop</translation>
+    </message>
+    <message>
+        <source>1920 wide at 200% zoom</source>
+        <translation>1920 bonya zoom 200% la</translation>
+    </message>
 </context>
 </TS>

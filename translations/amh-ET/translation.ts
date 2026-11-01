@@ -1867,5 +1867,81 @@
         <source>Saved: the sizes are made again around the focal point.</source>
         <translation>ተቀምጧል፦ መጠኖቹ በትኩረት ነጥቡ ዙሪያ እንደገና ይሠራሉ።</translation>
     </message>
+    <message>
+        <source>Devices</source>
+        <translation>መሣሪያዎች</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>ስሪት</translation>
+    </message>
+    <message>
+        <source>Your draft of %time</source>
+        <translation>የእርስዎ ረቂቅ የ%time</translation>
+    </message>
+    <message>
+        <source>From %min to %max pixels</source>
+        <translation>ከ%min እስከ %max ፒክሰል</translation>
+    </message>
+    <message>
+        <source>The width must be a whole number from %min to %max.</source>
+        <translation>ስፋቱ ከ%min እስከ %max ያለ ሙሉ ቁጥር መሆን አለበት።</translation>
+    </message>
+    <message>
+        <source>A frame %w pixels wide was added.</source>
+        <translation>%w ፒክሰል ስፋት ያለው ፍሬም ታክሏል።</translation>
+    </message>
+    <message>
+        <source>A width of your own</source>
+        <translation>የራስዎ ስፋት</translation>
+    </message>
+    <message>
+        <source>Add the frame</source>
+        <translation>ፍሬሙን ጨምር</translation>
+    </message>
+    <message>
+        <source>Load again</source>
+        <translation>እንደገና ጫን</translation>
+    </message>
+    <message>
+        <source>Device preview</source>
+        <translation>የመሣሪያ ቅድመ እይታ</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page: the frames show the published page.</source>
+        <translation>የዚህ ገጽ ረቂቅ የለዎትም፦ ፍሬሞቹ የታተመውን ገጽ ያሳያሉ።</translation>
+    </message>
+    <message>
+        <source>Preview on %device</source>
+        <translation>በ%device ላይ ቅድመ እይታ</translation>
+    </message>
+    <message>
+        <source>%w × %h</source>
+        <translation>%w × %h</translation>
+    </message>
+    <message>
+        <source>Remove the frame</source>
+        <translation>ፍሬሙን አስወግድ</translation>
+    </message>
+    <message>
+        <source>%w pixels wide</source>
+        <translation>%w ፒክሰል ስፋት</translation>
+    </message>
+    <message>
+        <source>Choose a device above.</source>
+        <translation>ከላይ መሣሪያ ይምረጡ።</translation>
+    </message>
+    <message>
+        <source>Tablet</source>
+        <translation>ታብሌት</translation>
+    </message>
+    <message>
+        <source>Desktop</source>
+        <translation>ዴስክቶፕ</translation>
+    </message>
+    <message>
+        <source>1920 wide at 200% zoom</source>
+        <translation>1920 ስፋት በ200% ማጉላት</translation>
+    </message>
 </context>
 </TS>

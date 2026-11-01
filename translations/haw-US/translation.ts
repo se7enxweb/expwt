@@ -1867,5 +1867,81 @@
         <source>Saved: the sizes are made again around the focal point.</source>
         <translation>Mālama ʻia: hana hou ʻia nā nui a puni ke kiko nānā.</translation>
     </message>
+    <message>
+        <source>Devices</source>
+        <translation>Nā ʻaparata</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>Mana</translation>
+    </message>
+    <message>
+        <source>Your draft of %time</source>
+        <translation>Kāu kāmua mai %time</translation>
+    </message>
+    <message>
+        <source>From %min to %max pixels</source>
+        <translation>Mai %min a %max pika</translation>
+    </message>
+    <message>
+        <source>The width must be a whole number from %min to %max.</source>
+        <translation>Pono ka laulā i ka helu piha mai %min a %max.</translation>
+    </message>
+    <message>
+        <source>A frame %w pixels wide was added.</source>
+        <translation>Ua hoʻohui ʻia he kiʻi-pā he %w pika ka laulā.</translation>
+    </message>
+    <message>
+        <source>A width of your own</source>
+        <translation>He laulā nou ponoʻī</translation>
+    </message>
+    <message>
+        <source>Add the frame</source>
+        <translation>Hoʻohui i ke kiʻi-pā</translation>
+    </message>
+    <message>
+        <source>Load again</source>
+        <translation>Hoʻouka hou</translation>
+    </message>
+    <message>
+        <source>Device preview</source>
+        <translation>Nānā mua i nā ʻaparata</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page: the frames show the published page.</source>
+        <translation>ʻAʻohe āu kāmua o kēia ʻaoʻao: hōʻike nā kiʻi-pā i ka ʻaoʻao i hoʻopuka ʻia.</translation>
+    </message>
+    <message>
+        <source>Preview on %device</source>
+        <translation>Nānā mua ma %device</translation>
+    </message>
+    <message>
+        <source>%w × %h</source>
+        <translation>%w × %h</translation>
+    </message>
+    <message>
+        <source>Remove the frame</source>
+        <translation>Wehe i ke kiʻi-pā</translation>
+    </message>
+    <message>
+        <source>%w pixels wide</source>
+        <translation>%w pika ka laulā</translation>
+    </message>
+    <message>
+        <source>Choose a device above.</source>
+        <translation>E koho i ka ʻaparata ma luna.</translation>
+    </message>
+    <message>
+        <source>Tablet</source>
+        <translation>Pona pālola</translation>
+    </message>
+    <message>
+        <source>Desktop</source>
+        <translation>Pākaukau</translation>
+    </message>
+    <message>
+        <source>1920 wide at 200% zoom</source>
+        <translation>1920 ka laulā ma ka hoʻomāhua 200%</translation>
+    </message>
 </context>
 </TS>

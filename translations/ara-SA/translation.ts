@@ -1867,5 +1867,81 @@
         <source>Saved: the sizes are made again around the focal point.</source>
         <translation>تم الحفظ: يُعاد إنشاء الأحجام حول نقطة التركيز.</translation>
     </message>
+    <message>
+        <source>Devices</source>
+        <translation>الأجهزة</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>الإصدار</translation>
+    </message>
+    <message>
+        <source>Your draft of %time</source>
+        <translation>مسودتك من %time</translation>
+    </message>
+    <message>
+        <source>From %min to %max pixels</source>
+        <translation>من %min إلى %max بكسل</translation>
+    </message>
+    <message>
+        <source>The width must be a whole number from %min to %max.</source>
+        <translation>يجب أن يكون العرض عددًا صحيحًا من %min إلى %max.</translation>
+    </message>
+    <message>
+        <source>A frame %w pixels wide was added.</source>
+        <translation>تمت إضافة إطار بعرض %w بكسل.</translation>
+    </message>
+    <message>
+        <source>A width of your own</source>
+        <translation>عرض خاص بك</translation>
+    </message>
+    <message>
+        <source>Add the frame</source>
+        <translation>أضف الإطار</translation>
+    </message>
+    <message>
+        <source>Load again</source>
+        <translation>أعد التحميل</translation>
+    </message>
+    <message>
+        <source>Device preview</source>
+        <translation>معاينة الجهاز</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page: the frames show the published page.</source>
+        <translation>ليست لديك مسودة لهذه الصفحة: تعرض الإطارات الصفحة المنشورة.</translation>
+    </message>
+    <message>
+        <source>Preview on %device</source>
+        <translation>معاينة على %device</translation>
+    </message>
+    <message>
+        <source>%w × %h</source>
+        <translation>%w × %h</translation>
+    </message>
+    <message>
+        <source>Remove the frame</source>
+        <translation>أزل الإطار</translation>
+    </message>
+    <message>
+        <source>%w pixels wide</source>
+        <translation>بعرض %w بكسل</translation>
+    </message>
+    <message>
+        <source>Choose a device above.</source>
+        <translation>اختر جهازًا أعلاه.</translation>
+    </message>
+    <message>
+        <source>Tablet</source>
+        <translation>جهاز لوحي</translation>
+    </message>
+    <message>
+        <source>Desktop</source>
+        <translation>سطح المكتب</translation>
+    </message>
+    <message>
+        <source>1920 wide at 200% zoom</source>
+        <translation>عرض 1920 بتكبير 200%</translation>
+    </message>
 </context>
 </TS>

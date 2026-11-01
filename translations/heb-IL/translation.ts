@@ -1867,5 +1867,81 @@
         <source>Saved: the sizes are made again around the focal point.</source>
         <translation>נשמר: הגדלים נוצרים מחדש סביב נקודת המוקד.</translation>
     </message>
+    <message>
+        <source>Devices</source>
+        <translation>מכשירים</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>גרסה</translation>
+    </message>
+    <message>
+        <source>Your draft of %time</source>
+        <translation>הטיוטה שלך מ-%time</translation>
+    </message>
+    <message>
+        <source>From %min to %max pixels</source>
+        <translation>מ-%min עד %max פיקסלים</translation>
+    </message>
+    <message>
+        <source>The width must be a whole number from %min to %max.</source>
+        <translation>הרוחב חייב להיות מספר שלם מ-%min עד %max.</translation>
+    </message>
+    <message>
+        <source>A frame %w pixels wide was added.</source>
+        <translation>נוספה מסגרת ברוחב %w פיקסלים.</translation>
+    </message>
+    <message>
+        <source>A width of your own</source>
+        <translation>רוחב משלך</translation>
+    </message>
+    <message>
+        <source>Add the frame</source>
+        <translation>הוספת המסגרת</translation>
+    </message>
+    <message>
+        <source>Load again</source>
+        <translation>טעינה מחדש</translation>
+    </message>
+    <message>
+        <source>Device preview</source>
+        <translation>תצוגה מקדימה במכשירים</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page: the frames show the published page.</source>
+        <translation>אין לך טיוטה של דף זה: המסגרות מציגות את הדף שפורסם.</translation>
+    </message>
+    <message>
+        <source>Preview on %device</source>
+        <translation>תצוגה מקדימה ב-%device</translation>
+    </message>
+    <message>
+        <source>%w × %h</source>
+        <translation>%w × %h</translation>
+    </message>
+    <message>
+        <source>Remove the frame</source>
+        <translation>הסרת המסגרת</translation>
+    </message>
+    <message>
+        <source>%w pixels wide</source>
+        <translation>ברוחב %w פיקסלים</translation>
+    </message>
+    <message>
+        <source>Choose a device above.</source>
+        <translation>בחרו מכשיר למעלה.</translation>
+    </message>
+    <message>
+        <source>Tablet</source>
+        <translation>טאבלט</translation>
+    </message>
+    <message>
+        <source>Desktop</source>
+        <translation>מחשב שולחני</translation>
+    </message>
+    <message>
+        <source>1920 wide at 200% zoom</source>
+        <translation>רוחב 1920 בהגדלה של 200%</translation>
+    </message>
 </context>
 </TS>

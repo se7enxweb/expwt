@@ -1867,5 +1867,81 @@
         <source>Saved: the sizes are made again around the focal point.</source>
         <translation>pollu'ta': buSwI' Daq Dechmo' 'abmey cherqa'lu'.</translation>
     </message>
+    <message>
+        <source>Devices</source>
+        <translation>janmey</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>tlhegh</translation>
+    </message>
+    <message>
+        <source>Your draft of %time</source>
+        <translation>%time nab'lIj</translation>
+    </message>
+    <message>
+        <source>From %min to %max pixels</source>
+        <translation>%min vo' %max pixelmey</translation>
+    </message>
+    <message>
+        <source>The width must be a whole number from %min to %max.</source>
+        <translation>'ez tlhoy mI' ghaH: %min vo' %max.</translation>
+    </message>
+    <message>
+        <source>A frame %w pixels wide was added.</source>
+        <translation>%w pixel 'ez chel chel'a'.</translation>
+    </message>
+    <message>
+        <source>A width of your own</source>
+        <translation>'ez Dajatlh</translation>
+    </message>
+    <message>
+        <source>Add the frame</source>
+        <translation>chel chel'a' yIchel</translation>
+    </message>
+    <message>
+        <source>Load again</source>
+        <translation>vaj yIlaH</translation>
+    </message>
+    <message>
+        <source>Device preview</source>
+        <translation>jan nungbogh mIllogh</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page: the frames show the published page.</source>
+        <translation>nab 'oH ghajbe' chel'a' vIleghlaHbe': chel'a'pu' 'anglu'pu' chel'a' pagh.</translation>
+    </message>
+    <message>
+        <source>Preview on %device</source>
+        <translation>%device nungbogh mIllogh</translation>
+    </message>
+    <message>
+        <source>%w × %h</source>
+        <translation>%w × %h</translation>
+    </message>
+    <message>
+        <source>Remove the frame</source>
+        <translation>chel yIpoSmoH</translation>
+    </message>
+    <message>
+        <source>%w pixels wide</source>
+        <translation>%w pixel 'ez</translation>
+    </message>
+    <message>
+        <source>Choose a device above.</source>
+        <translation>jan yIwIv Dung.</translation>
+    </message>
+    <message>
+        <source>Tablet</source>
+        <translation>tablet</translation>
+    </message>
+    <message>
+        <source>Desktop</source>
+        <translation>desktop</translation>
+    </message>
+    <message>
+        <source>1920 wide at 200% zoom</source>
+        <translation>1920 'ez 200% zoom</translation>
+    </message>
 </context>
 </TS>

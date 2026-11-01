@@ -1867,5 +1867,81 @@
         <source>Saved: the sizes are made again around the focal point.</source>
         <translation>സംരക്ഷിച്ചു: വലുപ്പങ്ങൾ ഫോക്കൽ പോയിന്റിന് ചുറ്റും വീണ്ടും നിർമ്മിക്കുന്നു.</translation>
     </message>
+    <message>
+        <source>Devices</source>
+        <translation>ഉപകരണങ്ങൾ</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>പതിപ്പ്</translation>
+    </message>
+    <message>
+        <source>Your draft of %time</source>
+        <translation>%time-ലെ നിങ്ങളുടെ ഡ്രാഫ്റ്റ്</translation>
+    </message>
+    <message>
+        <source>From %min to %max pixels</source>
+        <translation>%min മുതൽ %max പിക്സൽ വരെ</translation>
+    </message>
+    <message>
+        <source>The width must be a whole number from %min to %max.</source>
+        <translation>വീതി %min മുതൽ %max വരെയുള്ള ഒരു പൂർണ്ണസംഖ്യ ആയിരിക്കണം.</translation>
+    </message>
+    <message>
+        <source>A frame %w pixels wide was added.</source>
+        <translation>%w പിക്സൽ വീതിയുള്ള ഫ്രെയിം ചേർത്തു.</translation>
+    </message>
+    <message>
+        <source>A width of your own</source>
+        <translation>സ്വന്തം വീതി</translation>
+    </message>
+    <message>
+        <source>Add the frame</source>
+        <translation>ഫ്രെയിം ചേർക്കുക</translation>
+    </message>
+    <message>
+        <source>Load again</source>
+        <translation>വീണ്ടും ലോഡ് ചെയ്യുക</translation>
+    </message>
+    <message>
+        <source>Device preview</source>
+        <translation>ഉപകരണ പ്രിവ്യൂ</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page: the frames show the published page.</source>
+        <translation>ഈ പേജിന് നിങ്ങൾക്ക് ഡ്രാഫ്റ്റ് ഇല്ല: ഫ്രെയിമുകൾ പ്രസിദ്ധീകരിച്ച പേജ് കാണിക്കുന്നു.</translation>
+    </message>
+    <message>
+        <source>Preview on %device</source>
+        <translation>%device-ലെ പ്രിവ്യൂ</translation>
+    </message>
+    <message>
+        <source>%w × %h</source>
+        <translation>%w × %h</translation>
+    </message>
+    <message>
+        <source>Remove the frame</source>
+        <translation>ഫ്രെയിം നീക്കം ചെയ്യുക</translation>
+    </message>
+    <message>
+        <source>%w pixels wide</source>
+        <translation>%w പിക്സൽ വീതി</translation>
+    </message>
+    <message>
+        <source>Choose a device above.</source>
+        <translation>മുകളിൽ നിന്ന് ഒരു ഉപകരണം തിരഞ്ഞെടുക്കുക.</translation>
+    </message>
+    <message>
+        <source>Tablet</source>
+        <translation>ടാബ്‌ലെറ്റ്</translation>
+    </message>
+    <message>
+        <source>Desktop</source>
+        <translation>ഡെസ്ക്ടോപ്പ്</translation>
+    </message>
+    <message>
+        <source>1920 wide at 200% zoom</source>
+        <translation>200% സൂമിൽ 1920 വീതി</translation>
+    </message>
 </context>
 </TS>

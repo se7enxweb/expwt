@@ -1867,5 +1867,81 @@
         <source>Saved: the sizes are made again around the focal point.</source>
         <translation>Guardóse: los tamaños vuelven facese alredor del puntu focal.</translation>
     </message>
+    <message>
+        <source>Devices</source>
+        <translation>Preseos</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>Versión</translation>
+    </message>
+    <message>
+        <source>Your draft of %time</source>
+        <translation>El to borrador de %time</translation>
+    </message>
+    <message>
+        <source>From %min to %max pixels</source>
+        <translation>De %min a %max píxeles</translation>
+    </message>
+    <message>
+        <source>The width must be a whole number from %min to %max.</source>
+        <translation>L'anchor tien de ser un númberu enteru de %min a %max.</translation>
+    </message>
+    <message>
+        <source>A frame %w pixels wide was added.</source>
+        <translation>Amestóse un marcu de %w píxeles d'anchor.</translation>
+    </message>
+    <message>
+        <source>A width of your own</source>
+        <translation>Un anchor propiu</translation>
+    </message>
+    <message>
+        <source>Add the frame</source>
+        <translation>Amestar el marcu</translation>
+    </message>
+    <message>
+        <source>Load again</source>
+        <translation>Cargar otra vez</translation>
+    </message>
+    <message>
+        <source>Device preview</source>
+        <translation>Previsualización del preséu</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page: the frames show the published page.</source>
+        <translation>Nun tienes borrador d'esta páxina: los marcos amuesen la páxina publicada.</translation>
+    </message>
+    <message>
+        <source>Preview on %device</source>
+        <translation>Previsualización en %device</translation>
+    </message>
+    <message>
+        <source>%w × %h</source>
+        <translation>%w × %h</translation>
+    </message>
+    <message>
+        <source>Remove the frame</source>
+        <translation>Quitar el marcu</translation>
+    </message>
+    <message>
+        <source>%w pixels wide</source>
+        <translation>%w píxeles d'anchor</translation>
+    </message>
+    <message>
+        <source>Choose a device above.</source>
+        <translation>Escueyi un preséu d'arriba.</translation>
+    </message>
+    <message>
+        <source>Tablet</source>
+        <translation>Tablet</translation>
+    </message>
+    <message>
+        <source>Desktop</source>
+        <translation>Escritoriu</translation>
+    </message>
+    <message>
+        <source>1920 wide at 200% zoom</source>
+        <translation>1920 d'anchor al 200% de zoom</translation>
+    </message>
 </context>
 </TS>

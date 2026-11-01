@@ -1867,5 +1867,81 @@
         <source>Saved: the sizes are made again around the focal point.</source>
         <translation>ސޭވްކުރެވިއްޖެ: ސައިޒުތައް ފޯކަލް ޕޮއިންޓުގެ ވަށައިގެން އަލުން ހެދޭ.</translation>
     </message>
+    <message>
+        <source>Devices</source>
+        <translation>ޑިވައިސްތައް</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>ވާރޝަން</translation>
+    </message>
+    <message>
+        <source>Your draft of %time</source>
+        <translation>%time ގެ ތިޔަބައިމީހުންގެ ޑްރާފްޓް</translation>
+    </message>
+    <message>
+        <source>From %min to %max pixels</source>
+        <translation>%min އިން %max އަށް ޕިކްސެލް</translation>
+    </message>
+    <message>
+        <source>The width must be a whole number from %min to %max.</source>
+        <translation>ފުޅާމިން %min އިން %max އަށް ފުރިހަމަ ނަންބަރެއް ވާންޖެހޭ.</translation>
+    </message>
+    <message>
+        <source>A frame %w pixels wide was added.</source>
+        <translation>%w ޕިކްސެލް ފުޅާ ފްރޭމެއް އިތުރުކުރެވުނު.</translation>
+    </message>
+    <message>
+        <source>A width of your own</source>
+        <translation>އަމިއްލަ ފުޅާމިނެއް</translation>
+    </message>
+    <message>
+        <source>Add the frame</source>
+        <translation>ފްރޭމް އިތުރުކުރޭ</translation>
+    </message>
+    <message>
+        <source>Load again</source>
+        <translation>އަނެއްކާ ލޯޑުކުރޭ</translation>
+    </message>
+    <message>
+        <source>Device preview</source>
+        <translation>ޑިވައިސް ޕްރިވިއު</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page: the frames show the published page.</source>
+        <translation>މި ސަފްޙާގެ ޑްރާފްޓެއް ނެތް: ފްރޭމްތަކުން ޝާއިޢުކޮށްފައިވާ ސަފްޙާ ދައްކައެވެ.</translation>
+    </message>
+    <message>
+        <source>Preview on %device</source>
+        <translation>%device ގައި ޕްރިވިއު</translation>
+    </message>
+    <message>
+        <source>%w × %h</source>
+        <translation>%w × %h</translation>
+    </message>
+    <message>
+        <source>Remove the frame</source>
+        <translation>ފްރޭމް ފޮހެލާ</translation>
+    </message>
+    <message>
+        <source>%w pixels wide</source>
+        <translation>%w ޕިކްސެލް ފުޅާ</translation>
+    </message>
+    <message>
+        <source>Choose a device above.</source>
+        <translation>މަތިން ޑިވައިސްއެއް ހިޔާރުކުރޭ.</translation>
+    </message>
+    <message>
+        <source>Tablet</source>
+        <translation>ޓެބްލެޓް</translation>
+    </message>
+    <message>
+        <source>Desktop</source>
+        <translation>ޑެސްކްޓޮޕް</translation>
+    </message>
+    <message>
+        <source>1920 wide at 200% zoom</source>
+        <translation>200% ޒޫމްގައި 1920 ފުޅާ</translation>
+    </message>
 </context>
 </TS>

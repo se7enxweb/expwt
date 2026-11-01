@@ -1867,5 +1867,81 @@
         <source>Saved: the sizes are made again around the focal point.</source>
         <translation>ܐܬܢܛܪ: ܪ̈ܒܘܬܐ ܡܬܥܒܕܢ ܡܢ ܕܪܝܫ ܚܕܪ ܢܘܩܙܐ ܕܚܘܪܐ.</translation>
     </message>
+    <message>
+        <source>Devices</source>
+        <translation>ܡܥܕܪܢܝܐ</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>ܢܘܣܚܐ</translation>
+    </message>
+    <message>
+        <source>Your draft of %time</source>
+        <translation>ܣܘܪܛܐ ܕܝܠܟ ܕ%time</translation>
+    </message>
+    <message>
+        <source>From %min to %max pixels</source>
+        <translation>ܡܢ %min ܥܕܡܐ ܠ%max ܦܝܟܣܠ</translation>
+    </message>
+    <message>
+        <source>The width must be a whole number from %min to %max.</source>
+        <translation>ܦܬܝܘܬܐ ܠܙܡ ܗܘܐ ܡܢܝܢܐ ܕܡܠܝܐ ܡܢ %min ܥܕܡܐ ܠ%max.</translation>
+    </message>
+    <message>
+        <source>A frame %w pixels wide was added.</source>
+        <translation>ܛܪܝܐ ܕܦܬܝܘܬܗ %w ܦܝܟܣܠ ܐܬܬܘܣܦ.</translation>
+    </message>
+    <message>
+        <source>A width of your own</source>
+        <translation>ܦܬܝܘܬܐ ܕܝܠܟ</translation>
+    </message>
+    <message>
+        <source>Add the frame</source>
+        <translation>ܐܘܣܦ ܛܪܝܐ</translation>
+    </message>
+    <message>
+        <source>Load again</source>
+        <translation>ܛܥܘܢ ܬܘܒ</translation>
+    </message>
+    <message>
+        <source>Device preview</source>
+        <translation>ܚܙܝܐ ܩܕܡܝܐ ܕܡܥܕܪܢܝܐ</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page: the frames show the published page.</source>
+        <translation>ܠܝܬ ܠܟ ܣܘܪܛܐ ܕܗܢܐ ܦܐܬܐ: ܛܪܝܐ ܡܚܘܝܢ ܦܐܬܐ ܦܪܝܣܬܐ.</translation>
+    </message>
+    <message>
+        <source>Preview on %device</source>
+        <translation>ܚܙܝܐ ܩܕܡܝܐ ܥܠ %device</translation>
+    </message>
+    <message>
+        <source>%w × %h</source>
+        <translation>%w × %h</translation>
+    </message>
+    <message>
+        <source>Remove the frame</source>
+        <translation>ܫܩܘܠ ܛܪܝܐ</translation>
+    </message>
+    <message>
+        <source>%w pixels wide</source>
+        <translation>ܦܬܝܘܬܐ %w ܦܝܟܣܠ</translation>
+    </message>
+    <message>
+        <source>Choose a device above.</source>
+        <translation>ܓܒܝ ܡܥܕܪܢܝܐ ܠܥܠ.</translation>
+    </message>
+    <message>
+        <source>Tablet</source>
+        <translation>ܛܒܠܝܬ</translation>
+    </message>
+    <message>
+        <source>Desktop</source>
+        <translation>ܫܘܠܚܢܐ</translation>
+    </message>
+    <message>
+        <source>1920 wide at 200% zoom</source>
+        <translation>1920 ܦܬܝܘܬܐ ܒܙܘܡܐ ܕ200%</translation>
+    </message>
 </context>
 </TS>

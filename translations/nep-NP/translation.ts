@@ -1867,5 +1867,81 @@
         <source>Saved: the sizes are made again around the focal point.</source>
         <translation>सुरक्षित गरियो: आकारहरू फोकल बिन्दुको वरिपरि फेरि बनाइन्छन्।</translation>
     </message>
+    <message>
+        <source>Devices</source>
+        <translation>उपकरणहरू</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>संस्करण</translation>
+    </message>
+    <message>
+        <source>Your draft of %time</source>
+        <translation>%time को तपाईंको मस्यौदा</translation>
+    </message>
+    <message>
+        <source>From %min to %max pixels</source>
+        <translation>%min देखि %max पिक्सेलसम्म</translation>
+    </message>
+    <message>
+        <source>The width must be a whole number from %min to %max.</source>
+        <translation>चौडाइ %min देखि %max सम्मको पूर्णांक हुनुपर्छ।</translation>
+    </message>
+    <message>
+        <source>A frame %w pixels wide was added.</source>
+        <translation>%w पिक्सेल चौडा फ्रेम थपियो।</translation>
+    </message>
+    <message>
+        <source>A width of your own</source>
+        <translation>आफ्नै चौडाइ</translation>
+    </message>
+    <message>
+        <source>Add the frame</source>
+        <translation>फ्रेम थप्नुहोस्</translation>
+    </message>
+    <message>
+        <source>Load again</source>
+        <translation>फेरि लोड गर्नुहोस्</translation>
+    </message>
+    <message>
+        <source>Device preview</source>
+        <translation>उपकरण पूर्वावलोकन</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page: the frames show the published page.</source>
+        <translation>यस पृष्ठको तपाईंको कुनै मस्यौदा छैन: फ्रेमहरूले प्रकाशित पृष्ठ देखाउँछन्।</translation>
+    </message>
+    <message>
+        <source>Preview on %device</source>
+        <translation>%device मा पूर्वावलोकन</translation>
+    </message>
+    <message>
+        <source>%w × %h</source>
+        <translation>%w × %h</translation>
+    </message>
+    <message>
+        <source>Remove the frame</source>
+        <translation>फ्रेम हटाउनुहोस्</translation>
+    </message>
+    <message>
+        <source>%w pixels wide</source>
+        <translation>%w पिक्सेल चौडा</translation>
+    </message>
+    <message>
+        <source>Choose a device above.</source>
+        <translation>माथिबाट एउटा उपकरण छान्नुहोस्।</translation>
+    </message>
+    <message>
+        <source>Tablet</source>
+        <translation>ट्याब्लेट</translation>
+    </message>
+    <message>
+        <source>Desktop</source>
+        <translation>डेस्कटप</translation>
+    </message>
+    <message>
+        <source>1920 wide at 200% zoom</source>
+        <translation>२००% जुममा १९२० चौडा</translation>
+    </message>
 </context>
 </TS>

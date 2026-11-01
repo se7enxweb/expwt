@@ -1867,5 +1867,81 @@
         <source>Saved: the sizes are made again around the focal point.</source>
         <translation>ДӀаязйина: барамаш фокусан тӀадаман гонахь юха бо.</translation>
     </message>
+    <message>
+        <source>Devices</source>
+        <translation>Дакъалазарш</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>Верси</translation>
+    </message>
+    <message>
+        <source>Your draft of %time</source>
+        <translation>Хьан черновик %time</translation>
+    </message>
+    <message>
+        <source>From %min to %max pixels</source>
+        <translation>%min-аьлла %max пиксель кхаччалца</translation>
+    </message>
+    <message>
+        <source>The width must be a whole number from %min to %max.</source>
+        <translation>Шоралла %min-аьлла %max кхаччалц болу бух долу терахь хила еза.</translation>
+    </message>
+    <message>
+        <source>A frame %w pixels wide was added.</source>
+        <translation>Шоралла %w пиксель йолу рамка тӀетоьхна.</translation>
+    </message>
+    <message>
+        <source>A width of your own</source>
+        <translation>Шен шоралла</translation>
+    </message>
+    <message>
+        <source>Add the frame</source>
+        <translation>Рамка тӀетоха</translation>
+    </message>
+    <message>
+        <source>Load again</source>
+        <translation>ЮкъаяьлцӀа</translation>
+    </message>
+    <message>
+        <source>Device preview</source>
+        <translation>Дакъалазаран хьалххе хьажар</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page: the frames show the published page.</source>
+        <translation>Хьан оцу агӀонан черновик яц: рамкаша арахецна агӀо гойту.</translation>
+    </message>
+    <message>
+        <source>Preview on %device</source>
+        <translation>%device тӀехь хьалххе хьажар</translation>
+    </message>
+    <message>
+        <source>%w × %h</source>
+        <translation>%w × %h</translation>
+    </message>
+    <message>
+        <source>Remove the frame</source>
+        <translation>Рамка дӀаяккха</translation>
+    </message>
+    <message>
+        <source>%w pixels wide</source>
+        <translation>Шоралла %w пиксель</translation>
+    </message>
+    <message>
+        <source>Choose a device above.</source>
+        <translation>Лакхахь дакъалазар харжа.</translation>
+    </message>
+    <message>
+        <source>Tablet</source>
+        <translation>Планшет</translation>
+    </message>
+    <message>
+        <source>Desktop</source>
+        <translation>Стоьл тӀера компьютер</translation>
+    </message>
+    <message>
+        <source>1920 wide at 200% zoom</source>
+        <translation>1920 шоралла 200% масштабехь</translation>
+    </message>
 </context>
 </TS>

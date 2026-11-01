@@ -1867,5 +1867,81 @@
         <source>Saved: the sizes are made again around the focal point.</source>
         <translation>Сачувано: величине се поново праве око жижне тачке.</translation>
     </message>
+    <message>
+        <source>Devices</source>
+        <translation>Уређаји</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>Верзија</translation>
+    </message>
+    <message>
+        <source>Your draft of %time</source>
+        <translation>Ваша скица од %time</translation>
+    </message>
+    <message>
+        <source>From %min to %max pixels</source>
+        <translation>Од %min до %max пиксела</translation>
+    </message>
+    <message>
+        <source>The width must be a whole number from %min to %max.</source>
+        <translation>Ширина мора бити цео број од %min до %max.</translation>
+    </message>
+    <message>
+        <source>A frame %w pixels wide was added.</source>
+        <translation>Додат је оквир широк %w пиксела.</translation>
+    </message>
+    <message>
+        <source>A width of your own</source>
+        <translation>Своја ширина</translation>
+    </message>
+    <message>
+        <source>Add the frame</source>
+        <translation>Додај оквир</translation>
+    </message>
+    <message>
+        <source>Load again</source>
+        <translation>Учитај поново</translation>
+    </message>
+    <message>
+        <source>Device preview</source>
+        <translation>Преглед на уређају</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page: the frames show the published page.</source>
+        <translation>Немате скицу ове странице: оквири приказују објављену страницу.</translation>
+    </message>
+    <message>
+        <source>Preview on %device</source>
+        <translation>Преглед на уређају %device</translation>
+    </message>
+    <message>
+        <source>%w × %h</source>
+        <translation>%w × %h</translation>
+    </message>
+    <message>
+        <source>Remove the frame</source>
+        <translation>Уклони оквир</translation>
+    </message>
+    <message>
+        <source>%w pixels wide</source>
+        <translation>Ширина %w пиксела</translation>
+    </message>
+    <message>
+        <source>Choose a device above.</source>
+        <translation>Изаберите уређај изнад.</translation>
+    </message>
+    <message>
+        <source>Tablet</source>
+        <translation>Таблет</translation>
+    </message>
+    <message>
+        <source>Desktop</source>
+        <translation>Рачунар</translation>
+    </message>
+    <message>
+        <source>1920 wide at 200% zoom</source>
+        <translation>Ширина 1920 са зумом 200%</translation>
+    </message>
 </context>
 </TS>

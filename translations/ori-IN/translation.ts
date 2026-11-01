@@ -1867,5 +1867,81 @@
         <source>Saved: the sizes are made again around the focal point.</source>
         <translation>ସଞ୍ଚିତ ହେଲା: ଆକାରଗୁଡ଼ିକ ଫୋକାଲ ପଏଣ୍ଟ ଚାରିପାଖେ ପୁଣି ତିଆରି ହୁଏ।</translation>
     </message>
+    <message>
+        <source>Devices</source>
+        <translation>ଡିଭାଇସଗୁଡ଼ିକ</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>ସଂସ୍କରଣ</translation>
+    </message>
+    <message>
+        <source>Your draft of %time</source>
+        <translation>%time ର ଆପଣଙ୍କ ଖସଡ଼ା</translation>
+    </message>
+    <message>
+        <source>From %min to %max pixels</source>
+        <translation>%min ରୁ %max ପିକ୍ସେଲ୍</translation>
+    </message>
+    <message>
+        <source>The width must be a whole number from %min to %max.</source>
+        <translation>ଓସାର %min ରୁ %max ମଧ୍ୟରେ ଏକ ପୂର୍ଣ୍ଣ ସଂଖ୍ୟା ହେବା ଆବଶ୍ୟକ।</translation>
+    </message>
+    <message>
+        <source>A frame %w pixels wide was added.</source>
+        <translation>%w ପିକ୍ସେଲ୍ ଓସାରର ଏକ ଫ୍ରେମ୍ ଯୋଡ଼ାଗଲା।</translation>
+    </message>
+    <message>
+        <source>A width of your own</source>
+        <translation>ନିଜର ଓସାର</translation>
+    </message>
+    <message>
+        <source>Add the frame</source>
+        <translation>ଫ୍ରେମ୍ ଯୋଡ଼ନ୍ତୁ</translation>
+    </message>
+    <message>
+        <source>Load again</source>
+        <translation>ପୁନଃ ଲୋଡ୍ କରନ୍ତୁ</translation>
+    </message>
+    <message>
+        <source>Device preview</source>
+        <translation>ଡିଭାଇସ୍ ପୂର୍ବାବଲୋକନ</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page: the frames show the published page.</source>
+        <translation>ଏହି ପୃଷ୍ଠାର ଆପଣଙ୍କ କୌଣସି ଖସଡ଼ା ନାହିଁ: ଫ୍ରେମଗୁଡ଼ିକ ପ୍ରକାଶିତ ପୃଷ୍ଠା ଦେଖାଉଛି।</translation>
+    </message>
+    <message>
+        <source>Preview on %device</source>
+        <translation>%device ରେ ପୂର୍ବାବଲୋକନ</translation>
+    </message>
+    <message>
+        <source>%w × %h</source>
+        <translation>%w × %h</translation>
+    </message>
+    <message>
+        <source>Remove the frame</source>
+        <translation>ଫ୍ରେମ୍ ହଟାନ୍ତୁ</translation>
+    </message>
+    <message>
+        <source>%w pixels wide</source>
+        <translation>%w ପିକ୍ସେଲ୍ ଓସାର</translation>
+    </message>
+    <message>
+        <source>Choose a device above.</source>
+        <translation>ଉପରୁ ଏକ ଡିଭାଇସ୍ ବାଛନ୍ତୁ।</translation>
+    </message>
+    <message>
+        <source>Tablet</source>
+        <translation>ଟାବଲେଟ୍</translation>
+    </message>
+    <message>
+        <source>Desktop</source>
+        <translation>ଡେସ୍କଟପ୍</translation>
+    </message>
+    <message>
+        <source>1920 wide at 200% zoom</source>
+        <translation>୨୦୦% ଜୁମ୍ ରେ ୧୯୨୦ ଓସାର</translation>
+    </message>
 </context>
 </TS>

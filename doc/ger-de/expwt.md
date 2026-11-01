@@ -108,7 +108,7 @@ der Stelle von ezwt in den aktiven Erweiterungen. Ein Probelauf listet die Ände
 | Bereich | Für | Was |
 |---|---|---|
 | Willkommen | nicht angemeldete Besucher (`ShowToAnonymous`) | anmelden, registrieren, suchen, hell oder dunkel |
-| Seite | `expwt/use` (lesen), `expwt/edit` (ändern) | die Felder der Seite in einem Formular, auf der Seite bearbeiten, Entwurf speichern, Vorschau, der volle Editor, jetzt oder zu einem Zeitpunkt veröffentlichen, zu einem Zeitpunkt zurückziehen, Entwurf verwerfen; unter jedem Bildfeld sein Fokuspunkt und Zuschnitt mit einer Vorschau jeder Größe (siehe „Fokuspunkt und Zuschnitt“ unten) |
+| Seite | `expwt/use` (lesen), `expwt/edit` (ändern) | die Felder der Seite in einem Formular, auf der Seite bearbeiten, Entwurf speichern, Vorschau, die Seite auf mehreren Geräten nebeneinander (siehe „Gerätevorschau“ unten), der volle Editor, jetzt oder zu einem Zeitpunkt veröffentlichen, zu einem Zeitpunkt zurückziehen, Entwurf verwerfen; unter jedem Bildfeld sein Fokuspunkt und Zuschnitt mit einer Vorschau jeder Größe (siehe „Fokuspunkt und Zuschnitt“ unten) |
 | Seite: Kommentare | `expwt/edit`; jede Aktion die Richtlinie des Kernels für den Kommentar (`content/hide`, `content/remove`) oder für die Seite (`content/create` eines Kommentars) | die Kommentare der Seite, an Ort und Stelle moderiert, unter den Feldern des Bereichs Seite. Die Kommentare sind Inhalte unter der Seite (die Klasse aus expservices.ini `[Community] CommentClass`, vorgegeben `comment`), daher sind die Inhaltsrichtlinien des Kernels die Richtlinien der Kommentare. Neueste zuerst, höchstens 50; verborgene Kommentare sind die, die auf Moderation warten, und erscheinen, markiert, nur für die, die sie einblenden dürfen (`content/hide` des Kommentars). **Freigeben** zeigt einen verborgenen Kommentar, **Verbergen** verbirgt einen sichtbaren (beides `content/hide`, über die Verbergen-Operation des Kernels wie Verbergen und Einblenden der Administration); **Spam ...** fragt im Bereich noch einmal und verschiebt den Kommentar in den Papierkorb (`content/remove`; in der Administration aus dem Papierkorb wiederherstellbar). **Antworten** schreibt einen Kommentar des Benutzers unter die Seite (Betreff „Re: " und der Betreff des Kommentars, der Name des Benutzers als Autor), veröffentlicht über die Veröffentlichung des Kernels, ein Freigabe-Workflow greift also; **Kommentar schreiben** tut dasselbe für die Seite selbst. „Bestätigen Sie, dass Sie es sind" fragt genau dort, wo die Administration beim Verbergen, Entfernen und Veröffentlichen fragt. Jede Moderation und Antwort wird protokolliert (`content.comment.approve`, `.hide`, `.spam`, `.reply`). Die Zahl der Kommentare, die auf Moderation warten, steht als Zähler auf dem Reiter des Bereichs Seite (aus dem Start der Seitenleiste, keine zusätzliche Anfrage; keiner bei 0). Mit `[Comments] HideNew=enabled` wartet ein neuer Kommentar auf Moderation: Ein Kommentar, den jemand zum ersten Mal veröffentlicht, der ihn nicht freigeben darf (kein `content/hide` des Kommentars: ein Besucher, ein Mitglied), wird gleich nach dem Veröffentlichen verborgen, innerhalb der Veröffentlichung des Kernels, die Seite zeigt ihn also nie; eigene Kommentare und Antworten der Moderatoren bleiben sichtbar |
 | Anlegen | `expwt/create` | eine neue Seite unter oder neben dieser: die Klassen, die Sie dort anlegen dürfen, ein Titel, dann im Bereich Seite ausfüllen und veröffentlichen |
 | Struktur | `expwt/structure` | ausblenden und einblenden, verschieben und einen weiteren Ort hinzufügen (der Platz wird in einem Baum auf der Website gewählt), in den Papierkorb, die Seiten darunter per Ziehen oder mit den Pfeilschaltflächen sortieren |
@@ -196,6 +196,28 @@ Bild-Datentyps); mit einem älteren Kernel wird der Teil nicht gezeigt, und die 
   sind" fragt, wie das Bearbeiten in der Administration fragt. Jede Änderung wird als `content.expwt.image.focal`
   protokolliert, mit den Werten davor und danach.
 - Aktionen `images.load` und `images.save`. Ein SVG-Bild hat keinen Fokuspunkt (seine Größen sind die Originaldatei).
+
+**Gerätevorschau** (**Geräte** im Bereich Seite, neben Vorschau): die Seite in einem Rahmen je Gerät, nebeneinander
+über dem ganzen Fenster, um zu sehen, wie sie sich aufbaut, bevor sie veröffentlicht wird.
+
+- Die Rahmen aus `expwt.ini [DevicePreviewSettings] DeviceList[]`: iPhone 13 (390 x 844), Pixel 7 (412 x 915), ein
+  Tablet (820 x 1180), **1920 breit bei 200 % Zoom** (ein 1920 Pixel breites Fenster mit 200 % Zoom, das die Seite
+  wie bei 960 Pixeln aufbaut: der Fall einer Leserin, die die Seite vergrößert) und ein Desktop (1440 x 900). Haken
+  Sie die Geräte an, die Sie sehen wollen; **Eine eigene Breite** fügt einen Rahmen beliebiger Breite von 240 bis 2560
+  Pixeln hinzu (bis zu vier), **Den Rahmen entfernen** nimmt ihn wieder weg.
+- Jeder Rahmen ist das Fenster des Geräts, verkleinert, bis er passt: eine Reihe, wo jeder Rahmen lesbar bleibt, sonst
+  jeder Rahmen für sich, so groß, wie das Fenster erlaubt, die Rahmen untereinander umbrochen. Ein Rahmen scrollt für
+  sich, und seine Links funktionieren darin.
+- **Version:** Ihr eigener neuester Entwurf der Seite in ihrer Sprache (die Entwurfsvorschau des Kernels,
+  `content/versionview`, die noch einmal prüft, dass Sie ihn lesen dürfen) oder die veröffentlichte Seite. Ohne einen
+  Entwurf von Ihnen zeigen die Rahmen die veröffentlichte Seite und sagen das.
+- **Hell oder dunkel je Rahmen:** Wie die Website, Hell oder Dunkel; die Wahl gilt nur in diesem Rahmen (der Farbmodus
+  der Media-Designs), an der eigenen Wahl der Website ändert sich nichts. Wie die Website lädt den Rahmen neu, wie die
+  Website ihn hat.
+- Die Seiten in den Rahmen zeigen keine eigene Seitenleiste und keine Debug-Leiste (`?in=sidebar`). Die Auswahl merkt
+  sich dieses Gerät. Nur lesend: auf dem Server wird nichts gespeichert.
+- Braucht `expwt/edit` (die Schaltfläche gibt es für alle, die die Seite bearbeiten dürfen). Aktion `preview.devices`
+  (GET): sie antwortet mit den Rahmen und den beiden Adressen, ohne `expwt/edit` mit 403.
 
 **Upgrade von einer früheren expwt-Version:** Sie führte einen eigenen Zeitplan (die Site-Data-Zeilen `expwt_publish_*`
 und `expwt_unpublish_*`, den Cronjob-Teil `expwt_scheduled`). `./console exp:wt:migrate-from-ezwt` zeigt, was überführt
@@ -300,7 +322,7 @@ neue Übersetzung, deren Felder noch den Text der Hauptsprache enthalten.
 | Policy | Erlaubt |
 |---|---|
 | `expwt/use` | die Seitenleiste selbst, den Bereich Ich, das Lesen im Bereich Seite |
-| `expwt/edit` | Bearbeiten im Entwurf, Vorschau, Veröffentlichen, weiche Sperren, die SEO-Prüfung |
+| `expwt/edit` | Bearbeiten im Entwurf, Vorschau, die Gerätevorschau, Veröffentlichen, weiche Sperren, die SEO-Prüfung |
 | `expwt/create` | den Bereich Anlegen |
 | `expwt/structure` | den Bereich Struktur |
 | `expwt/layouts`, `expwt/templates`, `expwt/shop`, `expwt/admin` | die Bereiche späterer Phasen (schon jetzt definiert) |
@@ -357,6 +379,8 @@ Stylesheet) bleibt unter 50 KB gzip; ein Test hält ihn dort.
 | `FooterSelector` | footer, [role=contentinfo], Cookie-Hinweise | was die Website unten im Fenster festhalten kann; die untere Leiste sitzt über dem, was davon dort gerade fest steht |
 | `[CreateSettings] HiddenClassList[]` | common_ini_settings | Klassen, die Anlegen nie anbietet |
 | `[LockSettings] LockSeconds` | 300 | wie lange eine weiche Sperre ohne Lebenszeichen hält |
+| `[DevicePreviewSettings] DeviceList[]` | iPhone 13, Pixel 7, Tablet, 1920 bei 200 % Zoom, Desktop | die Rahmen der Gerätevorschau, je `id;Name;Breite;Höhe` (CSS-Pixel, 240 bis 2560 breit, 240 bis 2400 hoch); der Name wird übersetzt, wo der Katalog der Seitenleiste ihn hat |
+| `ShownDeviceList[]` | (leer) | die Rahmen, die beim Öffnen der Vorschau gezeigt werden (IDs aus `DeviceList[]`); leer: alle |
 | `[Comments] HideNew` | disabled | enabled: Ein Kommentar (expservices.ini `[Community] CommentClass`, sonst `comment`), der zum ersten Mal veröffentlicht wird, wird gleich danach verborgen, wenn sein Ersteller ihn nicht freigeben darf (kein `content/hide` des Kommentars); der Bereich Seite listet ihn als wartend auf Moderation, **Freigeben** zeigt ihn. Das erledigt der Inhalts-Bearbeitungs-Handler von expwt (content.ini `[EditSettings] ExtensionDirectories[]=expwt`), den der Kernel in jeder Veröffentlichung aufruft (Web, Befehle, Cronjobs, Workflows), über das Verbergen des Kernels; kein Workflow einzurichten |
 
 ## Erweiterungen fügen der Seitenleiste etwas hinzu

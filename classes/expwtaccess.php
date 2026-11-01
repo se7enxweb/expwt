@@ -102,6 +102,9 @@ class expwtAccess
         // focal point and crop written into the user's draft as content/edit saves a field (content/edit of the page)
         'images.load'       => array( 'edit', false, '', '', '' ),
         'images.save'       => array( 'edit', true, 'content', 'edit', 'StoreButton' ),
+        // the device preview (E8), read-only: the page and the user's draft of it in frames of several devices; the
+        // frames are the kernel's own views (content/versionview checks the user may read the draft)
+        'preview.devices'   => array( 'edit', false, '', '', '' ),
     );
 
     /**

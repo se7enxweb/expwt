@@ -1867,5 +1867,81 @@
         <source>Saved: the sizes are made again around the focal point.</source>
         <translation>Sačuvano: veličine se ponovo prave oko žižne tačke.</translation>
     </message>
+    <message>
+        <source>Devices</source>
+        <translation>Uređaji</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>Verzija</translation>
+    </message>
+    <message>
+        <source>Your draft of %time</source>
+        <translation>Vaša radna verzija od %time</translation>
+    </message>
+    <message>
+        <source>From %min to %max pixels</source>
+        <translation>Od %min do %max piksela</translation>
+    </message>
+    <message>
+        <source>The width must be a whole number from %min to %max.</source>
+        <translation>Širina mora biti ceo broj od %min do %max.</translation>
+    </message>
+    <message>
+        <source>A frame %w pixels wide was added.</source>
+        <translation>Dodat je okvir širine %w piksela.</translation>
+    </message>
+    <message>
+        <source>A width of your own</source>
+        <translation>Sopstvena širina</translation>
+    </message>
+    <message>
+        <source>Add the frame</source>
+        <translation>Dodaj okvir</translation>
+    </message>
+    <message>
+        <source>Load again</source>
+        <translation>Učitaj ponovo</translation>
+    </message>
+    <message>
+        <source>Device preview</source>
+        <translation>Pregled na uređajima</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page: the frames show the published page.</source>
+        <translation>Nemate radnu verziju ove stranice: okviri prikazuju objavljenu stranicu.</translation>
+    </message>
+    <message>
+        <source>Preview on %device</source>
+        <translation>Pregled na uređaju %device</translation>
+    </message>
+    <message>
+        <source>%w × %h</source>
+        <translation>%w × %h</translation>
+    </message>
+    <message>
+        <source>Remove the frame</source>
+        <translation>Ukloni okvir</translation>
+    </message>
+    <message>
+        <source>%w pixels wide</source>
+        <translation>Širine %w piksela</translation>
+    </message>
+    <message>
+        <source>Choose a device above.</source>
+        <translation>Izaberite uređaj iznad.</translation>
+    </message>
+    <message>
+        <source>Tablet</source>
+        <translation>Tablet</translation>
+    </message>
+    <message>
+        <source>Desktop</source>
+        <translation>Desktop računar</translation>
+    </message>
+    <message>
+        <source>1920 wide at 200% zoom</source>
+        <translation>1920 širine pri zumu od 200%</translation>
+    </message>
 </context>
 </TS>

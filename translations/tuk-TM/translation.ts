@@ -1867,5 +1867,81 @@
         <source>Saved: the sizes are made again around the focal point.</source>
         <translation>Ýatda saklandy: ölçegler fokus nokadynyň töwereginde täzeden döredilýär.</translation>
     </message>
+    <message>
+        <source>Devices</source>
+        <translation>Enjamlar</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>Wersiýa</translation>
+    </message>
+    <message>
+        <source>Your draft of %time</source>
+        <translation>Siziň %time garalamaňyz</translation>
+    </message>
+    <message>
+        <source>From %min to %max pixels</source>
+        <translation>%min-den %max piksele çenli</translation>
+    </message>
+    <message>
+        <source>The width must be a whole number from %min to %max.</source>
+        <translation>Ini %min-den %max-a çenli bitin san bolmaly.</translation>
+    </message>
+    <message>
+        <source>A frame %w pixels wide was added.</source>
+        <translation>Ini %w piksel bolan çarçuwa goşuldy.</translation>
+    </message>
+    <message>
+        <source>A width of your own</source>
+        <translation>Öz iniňiz</translation>
+    </message>
+    <message>
+        <source>Add the frame</source>
+        <translation>Çarçuwany goş</translation>
+    </message>
+    <message>
+        <source>Load again</source>
+        <translation>Täzeden ýükle</translation>
+    </message>
+    <message>
+        <source>Device preview</source>
+        <translation>Enjamy öňünden görmek</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page: the frames show the published page.</source>
+        <translation>Bu sahypanyň garalamasy ýok: çarçuwalar neşir edilen sahypany görkezýär.</translation>
+    </message>
+    <message>
+        <source>Preview on %device</source>
+        <translation>%device enjamynda öňünden görmek</translation>
+    </message>
+    <message>
+        <source>%w × %h</source>
+        <translation>%w × %h</translation>
+    </message>
+    <message>
+        <source>Remove the frame</source>
+        <translation>Çarçuwany aýyr</translation>
+    </message>
+    <message>
+        <source>%w pixels wide</source>
+        <translation>Ini %w piksel</translation>
+    </message>
+    <message>
+        <source>Choose a device above.</source>
+        <translation>Ýokarda enjam saýlaň.</translation>
+    </message>
+    <message>
+        <source>Tablet</source>
+        <translation>Planşet</translation>
+    </message>
+    <message>
+        <source>Desktop</source>
+        <translation>Stol kompýuteri</translation>
+    </message>
+    <message>
+        <source>1920 wide at 200% zoom</source>
+        <translation>200% ulaltmada 1920 ini</translation>
+    </message>
 </context>
 </TS>

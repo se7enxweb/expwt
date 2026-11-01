@@ -1867,5 +1867,81 @@
         <source>Saved: the sizes are made again around the focal point.</source>
         <translation>Issejvjat: id-daqsijiet isiru mill-ġdid madwar il-punt fokali.</translation>
     </message>
+    <message>
+        <source>Devices</source>
+        <translation>Apparati</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>Verżjoni</translation>
+    </message>
+    <message>
+        <source>Your draft of %time</source>
+        <translation>L-abbozz tiegħek ta' %time</translation>
+    </message>
+    <message>
+        <source>From %min to %max pixels</source>
+        <translation>Minn %min sa %max pixel</translation>
+    </message>
+    <message>
+        <source>The width must be a whole number from %min to %max.</source>
+        <translation>Il-wisa' jrid ikun numru sħiħ minn %min sa %max.</translation>
+    </message>
+    <message>
+        <source>A frame %w pixels wide was added.</source>
+        <translation>Ġie miżjud qafas bi wisa' ta' %w pixel.</translation>
+    </message>
+    <message>
+        <source>A width of your own</source>
+        <translation>Wisa' tiegħek stess</translation>
+    </message>
+    <message>
+        <source>Add the frame</source>
+        <translation>Żid il-qafas</translation>
+    </message>
+    <message>
+        <source>Load again</source>
+        <translation>Erġa' ttella'</translation>
+    </message>
+    <message>
+        <source>Device preview</source>
+        <translation>Dehra minn qabel tal-apparat</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page: the frames show the published page.</source>
+        <translation>M'għandekx abbozz ta' din il-paġna: il-oqfsa juru l-paġna ppubblikata.</translation>
+    </message>
+    <message>
+        <source>Preview on %device</source>
+        <translation>Dehra minn qabel fuq %device</translation>
+    </message>
+    <message>
+        <source>%w × %h</source>
+        <translation>%w × %h</translation>
+    </message>
+    <message>
+        <source>Remove the frame</source>
+        <translation>Neħħi l-qafas</translation>
+    </message>
+    <message>
+        <source>%w pixels wide</source>
+        <translation>Wisa' ta' %w pixel</translation>
+    </message>
+    <message>
+        <source>Choose a device above.</source>
+        <translation>Agħżel apparat hawn fuq.</translation>
+    </message>
+    <message>
+        <source>Tablet</source>
+        <translation>Tablet</translation>
+    </message>
+    <message>
+        <source>Desktop</source>
+        <translation>Desktop</translation>
+    </message>
+    <message>
+        <source>1920 wide at 200% zoom</source>
+        <translation>1920 wisa' b'zoom ta' 200%</translation>
+    </message>
 </context>
 </TS>

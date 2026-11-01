@@ -1867,5 +1867,81 @@
         <source>Saved: the sizes are made again around the focal point.</source>
         <translation>Сохранено: размеры создаются заново вокруг точки фокуса.</translation>
     </message>
+    <message>
+        <source>Devices</source>
+        <translation>Устройства</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>Версия</translation>
+    </message>
+    <message>
+        <source>Your draft of %time</source>
+        <translation>Ваш черновик от %time</translation>
+    </message>
+    <message>
+        <source>From %min to %max pixels</source>
+        <translation>От %min до %max пикселей</translation>
+    </message>
+    <message>
+        <source>The width must be a whole number from %min to %max.</source>
+        <translation>Ширина должна быть целым числом от %min до %max.</translation>
+    </message>
+    <message>
+        <source>A frame %w pixels wide was added.</source>
+        <translation>Добавлена рамка шириной %w пикселей.</translation>
+    </message>
+    <message>
+        <source>A width of your own</source>
+        <translation>Своя ширина</translation>
+    </message>
+    <message>
+        <source>Add the frame</source>
+        <translation>Добавить рамку</translation>
+    </message>
+    <message>
+        <source>Load again</source>
+        <translation>Загрузить снова</translation>
+    </message>
+    <message>
+        <source>Device preview</source>
+        <translation>Предпросмотр на устройствах</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page: the frames show the published page.</source>
+        <translation>У вас нет черновика этой страницы: рамки показывают опубликованную страницу.</translation>
+    </message>
+    <message>
+        <source>Preview on %device</source>
+        <translation>Предпросмотр на %device</translation>
+    </message>
+    <message>
+        <source>%w × %h</source>
+        <translation>%w × %h</translation>
+    </message>
+    <message>
+        <source>Remove the frame</source>
+        <translation>Удалить рамку</translation>
+    </message>
+    <message>
+        <source>%w pixels wide</source>
+        <translation>Шириной %w пикселей</translation>
+    </message>
+    <message>
+        <source>Choose a device above.</source>
+        <translation>Выберите устройство выше.</translation>
+    </message>
+    <message>
+        <source>Tablet</source>
+        <translation>Планшет</translation>
+    </message>
+    <message>
+        <source>Desktop</source>
+        <translation>Компьютер</translation>
+    </message>
+    <message>
+        <source>1920 wide at 200% zoom</source>
+        <translation>1920 в ширину при масштабе 200%</translation>
+    </message>
 </context>
 </TS>

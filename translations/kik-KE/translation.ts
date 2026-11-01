@@ -1867,5 +1867,81 @@
         <source>Saved: the sizes are made again around the focal point.</source>
         <translation>Nĩ kũigĩtwo: ũnene nĩ ũrathondekwo rĩngĩ gũthiũrũrũka kĩhinya kĩa kwĩrorera.</translation>
     </message>
+    <message>
+        <source>Devices</source>
+        <translation>Indo</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>Verisio</translation>
+    </message>
+    <message>
+        <source>Your draft of %time</source>
+        <translation>Ndrafti yaku ya %time</translation>
+    </message>
+    <message>
+        <source>From %min to %max pixels</source>
+        <translation>Kuuma %min nginya %max pikseli</translation>
+    </message>
+    <message>
+        <source>The width must be a whole number from %min to %max.</source>
+        <translation>Wariĩ no kĩhaana kũgĩa namba yothe kuuma %min nginya %max.</translation>
+    </message>
+    <message>
+        <source>A frame %w pixels wide was added.</source>
+        <translation>Frame ya wariĩ wa pikseli %w ĩekĩtwo.</translation>
+    </message>
+    <message>
+        <source>A width of your own</source>
+        <translation>Wariĩ waku mwene</translation>
+    </message>
+    <message>
+        <source>Add the frame</source>
+        <translation>Ekeria frame</translation>
+    </message>
+    <message>
+        <source>Load again</source>
+        <translation>Tharia rĩngĩ</translation>
+    </message>
+    <message>
+        <source>Device preview</source>
+        <translation>Rora mbere ya kĩndũ</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page: the frames show the published page.</source>
+        <translation>Ndũrĩ na ndrafti ya rũrangi rũrũ: frame nĩ cionanagia rũrangi rwacabithirio.</translation>
+    </message>
+    <message>
+        <source>Preview on %device</source>
+        <translation>Rora mbere kũrĩ %device</translation>
+    </message>
+    <message>
+        <source>%w × %h</source>
+        <translation>%w × %h</translation>
+    </message>
+    <message>
+        <source>Remove the frame</source>
+        <translation>Eheria frame</translation>
+    </message>
+    <message>
+        <source>%w pixels wide</source>
+        <translation>Wariĩ wa pikseli %w</translation>
+    </message>
+    <message>
+        <source>Choose a device above.</source>
+        <translation>Thura kĩndũ gĩkũ igũrũ.</translation>
+    </message>
+    <message>
+        <source>Tablet</source>
+        <translation>Tablet</translation>
+    </message>
+    <message>
+        <source>Desktop</source>
+        <translation>Desktop</translation>
+    </message>
+    <message>
+        <source>1920 wide at 200% zoom</source>
+        <translation>1920 wariĩ na zoom ya 200%</translation>
+    </message>
 </context>
 </TS>

@@ -1867,5 +1867,81 @@
         <source>Saved: the sizes are made again around the focal point.</source>
         <translation>Enrollet: adgraet e vez ar mentoù en-dro d'ar poent fokus.</translation>
     </message>
+    <message>
+        <source>Devices</source>
+        <translation>Trevnadoù</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>Stumm</translation>
+    </message>
+    <message>
+        <source>Your draft of %time</source>
+        <translation>Ho brouilhed eus %time</translation>
+    </message>
+    <message>
+        <source>From %min to %max pixels</source>
+        <translation>Eus %min da %max piksel</translation>
+    </message>
+    <message>
+        <source>The width must be a whole number from %min to %max.</source>
+        <translation>Ret eo d'al ledander bezañ un niver anterin etre %min ha %max.</translation>
+    </message>
+    <message>
+        <source>A frame %w pixels wide was added.</source>
+        <translation>Ur framm %w piksel led a zo bet ouzhpennet.</translation>
+    </message>
+    <message>
+        <source>A width of your own</source>
+        <translation>Ur ledander ho peus</translation>
+    </message>
+    <message>
+        <source>Add the frame</source>
+        <translation>Ouzhpennañ ar framm</translation>
+    </message>
+    <message>
+        <source>Load again</source>
+        <translation>Kargañ en-dro</translation>
+    </message>
+    <message>
+        <source>Device preview</source>
+        <translation>Alberz an trevnad</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page: the frames show the published page.</source>
+        <translation>N'ho peus brouilhed ebet eus ar bajenn-mañ: ar frammoù a ziskouez ar bajenn embannet.</translation>
+    </message>
+    <message>
+        <source>Preview on %device</source>
+        <translation>Alberz war %device</translation>
+    </message>
+    <message>
+        <source>%w × %h</source>
+        <translation>%w × %h</translation>
+    </message>
+    <message>
+        <source>Remove the frame</source>
+        <translation>Lemel ar framm kuit</translation>
+    </message>
+    <message>
+        <source>%w pixels wide</source>
+        <translation>%w piksel led</translation>
+    </message>
+    <message>
+        <source>Choose a device above.</source>
+        <translation>Choazit un trevnad a-us.</translation>
+    </message>
+    <message>
+        <source>Tablet</source>
+        <translation>Tablet</translation>
+    </message>
+    <message>
+        <source>Desktop</source>
+        <translation>Burev</translation>
+    </message>
+    <message>
+        <source>1920 wide at 200% zoom</source>
+        <translation>1920 led gant zoom 200%</translation>
+    </message>
 </context>
 </TS>

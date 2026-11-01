@@ -1867,5 +1867,81 @@
         <source>Saved: the sizes are made again around the focal point.</source>
         <translation>Đã lưu: các kích thước được tạo lại quanh điểm lấy nét.</translation>
     </message>
+    <message>
+        <source>Devices</source>
+        <translation>Thiết bị</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>Phiên bản</translation>
+    </message>
+    <message>
+        <source>Your draft of %time</source>
+        <translation>Bản nháp của bạn lúc %time</translation>
+    </message>
+    <message>
+        <source>From %min to %max pixels</source>
+        <translation>Từ %min đến %max pixel</translation>
+    </message>
+    <message>
+        <source>The width must be a whole number from %min to %max.</source>
+        <translation>Chiều rộng phải là số nguyên từ %min đến %max.</translation>
+    </message>
+    <message>
+        <source>A frame %w pixels wide was added.</source>
+        <translation>Đã thêm một khung rộng %w pixel.</translation>
+    </message>
+    <message>
+        <source>A width of your own</source>
+        <translation>Chiều rộng tùy chọn</translation>
+    </message>
+    <message>
+        <source>Add the frame</source>
+        <translation>Thêm khung</translation>
+    </message>
+    <message>
+        <source>Load again</source>
+        <translation>Tải lại</translation>
+    </message>
+    <message>
+        <source>Device preview</source>
+        <translation>Xem trước thiết bị</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page: the frames show the published page.</source>
+        <translation>Bạn không có bản nháp của trang này: các khung hiển thị trang đã xuất bản.</translation>
+    </message>
+    <message>
+        <source>Preview on %device</source>
+        <translation>Xem trước trên %device</translation>
+    </message>
+    <message>
+        <source>%w × %h</source>
+        <translation>%w × %h</translation>
+    </message>
+    <message>
+        <source>Remove the frame</source>
+        <translation>Xóa khung</translation>
+    </message>
+    <message>
+        <source>%w pixels wide</source>
+        <translation>Rộng %w pixel</translation>
+    </message>
+    <message>
+        <source>Choose a device above.</source>
+        <translation>Chọn một thiết bị ở trên.</translation>
+    </message>
+    <message>
+        <source>Tablet</source>
+        <translation>Máy tính bảng</translation>
+    </message>
+    <message>
+        <source>Desktop</source>
+        <translation>Máy tính để bàn</translation>
+    </message>
+    <message>
+        <source>1920 wide at 200% zoom</source>
+        <translation>Rộng 1920 ở mức thu phóng 200%</translation>
+    </message>
 </context>
 </TS>

@@ -1867,5 +1867,81 @@
         <source>Saved: the sizes are made again around the focal point.</source>
         <translation>Gespäichert: d'Gréissten ginn ëm de Fokuspunkt nei gemaach.</translation>
     </message>
+    <message>
+        <source>Devices</source>
+        <translation>Apparater</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>Versioun</translation>
+    </message>
+    <message>
+        <source>Your draft of %time</source>
+        <translation>Däin Entworf vum %time</translation>
+    </message>
+    <message>
+        <source>From %min to %max pixels</source>
+        <translation>Vu %min bis %max Pixel</translation>
+    </message>
+    <message>
+        <source>The width must be a whole number from %min to %max.</source>
+        <translation>D'Breet muss eng ganz Zuel tëscht %min a %max sinn.</translation>
+    </message>
+    <message>
+        <source>A frame %w pixels wide was added.</source>
+        <translation>E Rummen, %w Pixel breet, gouf derbäigesat.</translation>
+    </message>
+    <message>
+        <source>A width of your own</source>
+        <translation>Eng eege Breet</translation>
+    </message>
+    <message>
+        <source>Add the frame</source>
+        <translation>De Rummen derbäisetzen</translation>
+    </message>
+    <message>
+        <source>Load again</source>
+        <translation>Nei lueden</translation>
+    </message>
+    <message>
+        <source>Device preview</source>
+        <translation>Apparat-Virschau</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page: the frames show the published page.</source>
+        <translation>Du hues keen Entworf vun dëser Säit: d'Rummen weisen déi publizéiert Säit.</translation>
+    </message>
+    <message>
+        <source>Preview on %device</source>
+        <translation>Virschau um %device</translation>
+    </message>
+    <message>
+        <source>%w × %h</source>
+        <translation>%w × %h</translation>
+    </message>
+    <message>
+        <source>Remove the frame</source>
+        <translation>De Rummen ewechhuelen</translation>
+    </message>
+    <message>
+        <source>%w pixels wide</source>
+        <translation>%w Pixel breet</translation>
+    </message>
+    <message>
+        <source>Choose a device above.</source>
+        <translation>Wiel uewen en Apparat.</translation>
+    </message>
+    <message>
+        <source>Tablet</source>
+        <translation>Tablet</translation>
+    </message>
+    <message>
+        <source>Desktop</source>
+        <translation>Desktop</translation>
+    </message>
+    <message>
+        <source>1920 wide at 200% zoom</source>
+        <translation>1920 breet bei 200% Zoom</translation>
+    </message>
 </context>
 </TS>

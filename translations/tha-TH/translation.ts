@@ -1867,5 +1867,81 @@
         <source>Saved: the sizes are made again around the focal point.</source>
         <translation>บันทึกแล้ว: ขนาดต่าง ๆ ถูกสร้างใหม่โดยยึดจุดโฟกัสเป็นศูนย์กลาง</translation>
     </message>
+    <message>
+        <source>Devices</source>
+        <translation>อุปกรณ์</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>เวอร์ชัน</translation>
+    </message>
+    <message>
+        <source>Your draft of %time</source>
+        <translation>ฉบับร่างของคุณเมื่อ %time</translation>
+    </message>
+    <message>
+        <source>From %min to %max pixels</source>
+        <translation>ตั้งแต่ %min ถึง %max พิกเซล</translation>
+    </message>
+    <message>
+        <source>The width must be a whole number from %min to %max.</source>
+        <translation>ความกว้างต้องเป็นจำนวนเต็มตั้งแต่ %min ถึง %max</translation>
+    </message>
+    <message>
+        <source>A frame %w pixels wide was added.</source>
+        <translation>เพิ่มเฟรมกว้าง %w พิกเซลแล้ว</translation>
+    </message>
+    <message>
+        <source>A width of your own</source>
+        <translation>ความกว้างที่กำหนดเอง</translation>
+    </message>
+    <message>
+        <source>Add the frame</source>
+        <translation>เพิ่มเฟรม</translation>
+    </message>
+    <message>
+        <source>Load again</source>
+        <translation>โหลดใหม่</translation>
+    </message>
+    <message>
+        <source>Device preview</source>
+        <translation>แสดงตัวอย่างอุปกรณ์</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page: the frames show the published page.</source>
+        <translation>คุณไม่มีฉบับร่างของหน้านี้: เฟรมแสดงหน้าที่เผยแพร่แล้ว</translation>
+    </message>
+    <message>
+        <source>Preview on %device</source>
+        <translation>แสดงตัวอย่างบน %device</translation>
+    </message>
+    <message>
+        <source>%w × %h</source>
+        <translation>%w × %h</translation>
+    </message>
+    <message>
+        <source>Remove the frame</source>
+        <translation>ลบเฟรม</translation>
+    </message>
+    <message>
+        <source>%w pixels wide</source>
+        <translation>กว้าง %w พิกเซล</translation>
+    </message>
+    <message>
+        <source>Choose a device above.</source>
+        <translation>เลือกอุปกรณ์ด้านบน</translation>
+    </message>
+    <message>
+        <source>Tablet</source>
+        <translation>แท็บเล็ต</translation>
+    </message>
+    <message>
+        <source>Desktop</source>
+        <translation>เดสก์ท็อป</translation>
+    </message>
+    <message>
+        <source>1920 wide at 200% zoom</source>
+        <translation>กว้าง 1920 ที่ซูม 200%</translation>
+    </message>
 </context>
 </TS>

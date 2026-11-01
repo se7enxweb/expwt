@@ -1867,5 +1867,81 @@
         <source>Saved: the sizes are made again around the focal point.</source>
         <translation>Gestoor: die groottes word weer rondom die fokuspunt gemaak.</translation>
     </message>
+    <message>
+        <source>Devices</source>
+        <translation>Toestelle</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>Weergawe</translation>
+    </message>
+    <message>
+        <source>Your draft of %time</source>
+        <translation>Jou konsep van %time</translation>
+    </message>
+    <message>
+        <source>From %min to %max pixels</source>
+        <translation>Van %min tot %max piksels</translation>
+    </message>
+    <message>
+        <source>The width must be a whole number from %min to %max.</source>
+        <translation>Die breedte moet 'n heelgetal van %min tot %max wees.</translation>
+    </message>
+    <message>
+        <source>A frame %w pixels wide was added.</source>
+        <translation>'n Raam van %w piksels breed is bygevoeg.</translation>
+    </message>
+    <message>
+        <source>A width of your own</source>
+        <translation>'n Breedte van jou eie</translation>
+    </message>
+    <message>
+        <source>Add the frame</source>
+        <translation>Voeg die raam by</translation>
+    </message>
+    <message>
+        <source>Load again</source>
+        <translation>Laai weer</translation>
+    </message>
+    <message>
+        <source>Device preview</source>
+        <translation>Toestelvoorskou</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page: the frames show the published page.</source>
+        <translation>Jy het geen konsep van hierdie bladsy nie: die rame wys die gepubliseerde bladsy.</translation>
+    </message>
+    <message>
+        <source>Preview on %device</source>
+        <translation>Voorskou op %device</translation>
+    </message>
+    <message>
+        <source>%w × %h</source>
+        <translation>%w × %h</translation>
+    </message>
+    <message>
+        <source>Remove the frame</source>
+        <translation>Verwyder die raam</translation>
+    </message>
+    <message>
+        <source>%w pixels wide</source>
+        <translation>%w piksels breed</translation>
+    </message>
+    <message>
+        <source>Choose a device above.</source>
+        <translation>Kies hierbo 'n toestel.</translation>
+    </message>
+    <message>
+        <source>Tablet</source>
+        <translation>Tablet</translation>
+    </message>
+    <message>
+        <source>Desktop</source>
+        <translation>Rekenaar</translation>
+    </message>
+    <message>
+        <source>1920 wide at 200% zoom</source>
+        <translation>1920 breed teen 200% zoem</translation>
+    </message>
 </context>
 </TS>

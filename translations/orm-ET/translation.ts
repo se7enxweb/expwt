@@ -1867,5 +1867,81 @@
         <source>Saved: the sizes are made again around the focal point.</source>
         <translation>Olkaa'ameera: hammoonni qabxii xiyyeeffannaa naannoo irra deebi'amanii hojjetamu.</translation>
     </message>
+    <message>
+        <source>Devices</source>
+        <translation>Meeshaalee</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>Gosa</translation>
+    </message>
+    <message>
+        <source>Your draft of %time</source>
+        <translation>Wixinee kee %time</translation>
+    </message>
+    <message>
+        <source>From %min to %max pixels</source>
+        <translation>%min hanga %max pikseelii</translation>
+    </message>
+    <message>
+        <source>The width must be a whole number from %min to %max.</source>
+        <translation>Bal'inni lakkoofsa guutuu %min hanga %max ta'uu qaba.</translation>
+    </message>
+    <message>
+        <source>A frame %w pixels wide was added.</source>
+        <translation>Fireemiin bal'inni isaa pikseelii %w ta'e dabalameera.</translation>
+    </message>
+    <message>
+        <source>A width of your own</source>
+        <translation>Bal'ina kee mataa kee</translation>
+    </message>
+    <message>
+        <source>Add the frame</source>
+        <translation>Fireemii dabaluu</translation>
+    </message>
+    <message>
+        <source>Load again</source>
+        <translation>Irra deebi'ii fe'uu</translation>
+    </message>
+    <message>
+        <source>Device preview</source>
+        <translation>Duraan ilaalcha meeshaa</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page: the frames show the published page.</source>
+        <translation>Wixinee fuula kanaa hin qabdu: fireemonni fuula maxxanfame agarsiisu.</translation>
+    </message>
+    <message>
+        <source>Preview on %device</source>
+        <translation>Duraan ilaaluu %device irratti</translation>
+    </message>
+    <message>
+        <source>%w × %h</source>
+        <translation>%w × %h</translation>
+    </message>
+    <message>
+        <source>Remove the frame</source>
+        <translation>Fireemii balleessuu</translation>
+    </message>
+    <message>
+        <source>%w pixels wide</source>
+        <translation>Bal'inni pikseelii %w</translation>
+    </message>
+    <message>
+        <source>Choose a device above.</source>
+        <translation>Meeshaa tokko armaan olitti filadhu.</translation>
+    </message>
+    <message>
+        <source>Tablet</source>
+        <translation>Taablet</translation>
+    </message>
+    <message>
+        <source>Desktop</source>
+        <translation>Kompiitara teessoo</translation>
+    </message>
+    <message>
+        <source>1920 wide at 200% zoom</source>
+        <translation>Bal'inni 1920 zuumii 200% irratti</translation>
+    </message>
 </context>
 </TS>

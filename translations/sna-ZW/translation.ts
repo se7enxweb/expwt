@@ -1867,5 +1867,81 @@
         <source>Saved: the sizes are made again around the focal point.</source>
         <translation>Zvachengetwa: masaizi anogadzirwa patsva akatenderedza pfungwa yekutarisa.</translation>
     </message>
+    <message>
+        <source>Devices</source>
+        <translation>Zvishandiso</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>Vhezheni</translation>
+    </message>
+    <message>
+        <source>Your draft of %time</source>
+        <translation>Dhirafiti rako ra%time</translation>
+    </message>
+    <message>
+        <source>From %min to %max pixels</source>
+        <translation>Kubva pa%min kusvika pa%max pikseri</translation>
+    </message>
+    <message>
+        <source>The width must be a whole number from %min to %max.</source>
+        <translation>Upamhi hunofanira kunge huri nhamba yakazara kubva pa%min kusvika pa%max.</translation>
+    </message>
+    <message>
+        <source>A frame %w pixels wide was added.</source>
+        <translation>Furemu yakapamhama mapikseri %w yawedzerwa.</translation>
+    </message>
+    <message>
+        <source>A width of your own</source>
+        <translation>Upamhi hwako pachako</translation>
+    </message>
+    <message>
+        <source>Add the frame</source>
+        <translation>Wedzera furemu</translation>
+    </message>
+    <message>
+        <source>Load again</source>
+        <translation>Tora zvakare</translation>
+    </message>
+    <message>
+        <source>Device preview</source>
+        <translation>Ongororo yekutanga yechishandiso</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page: the frames show the published page.</source>
+        <translation>Hauna dhirafiti yepeji iyi: mafuremu anoratidza peji rakaburitswa.</translation>
+    </message>
+    <message>
+        <source>Preview on %device</source>
+        <translation>Ongororo yekutanga pa%device</translation>
+    </message>
+    <message>
+        <source>%w × %h</source>
+        <translation>%w × %h</translation>
+    </message>
+    <message>
+        <source>Remove the frame</source>
+        <translation>Bvisa furemu</translation>
+    </message>
+    <message>
+        <source>%w pixels wide</source>
+        <translation>Mapikseri %w mupamhi</translation>
+    </message>
+    <message>
+        <source>Choose a device above.</source>
+        <translation>Sarudza chishandiso pamusoro.</translation>
+    </message>
+    <message>
+        <source>Tablet</source>
+        <translation>Tebhuretu</translation>
+    </message>
+    <message>
+        <source>Desktop</source>
+        <translation>Dhesktopu</translation>
+    </message>
+    <message>
+        <source>1920 wide at 200% zoom</source>
+        <translation>1920 mupamhi pa200% zoom</translation>
+    </message>
 </context>
 </TS>

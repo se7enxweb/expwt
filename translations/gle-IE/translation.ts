@@ -1867,5 +1867,81 @@
         <source>Saved: the sizes are made again around the focal point.</source>
         <translation>Sábháilte: déantar na méideanna arís timpeall an fhócasphointe.</translation>
     </message>
+    <message>
+        <source>Devices</source>
+        <translation>Gairis</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>Leagan</translation>
+    </message>
+    <message>
+        <source>Your draft of %time</source>
+        <translation>Do dhréacht ó %time</translation>
+    </message>
+    <message>
+        <source>From %min to %max pixels</source>
+        <translation>Ó %min go %max picteilín</translation>
+    </message>
+    <message>
+        <source>The width must be a whole number from %min to %max.</source>
+        <translation>Ní mór an leithead a bheith ina slánuimhir ó %min go %max.</translation>
+    </message>
+    <message>
+        <source>A frame %w pixels wide was added.</source>
+        <translation>Cuireadh fráma %w picteilín ar leithead leis.</translation>
+    </message>
+    <message>
+        <source>A width of your own</source>
+        <translation>Leithead de do chuid féin</translation>
+    </message>
+    <message>
+        <source>Add the frame</source>
+        <translation>Cuir an fráma leis</translation>
+    </message>
+    <message>
+        <source>Load again</source>
+        <translation>Luchtaigh arís</translation>
+    </message>
+    <message>
+        <source>Device preview</source>
+        <translation>Réamhamharc gairis</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page: the frames show the published page.</source>
+        <translation>Níl dréacht agat den leathanach seo: taispeánann na frámaí an leathanach foilsithe.</translation>
+    </message>
+    <message>
+        <source>Preview on %device</source>
+        <translation>Réamhamharc ar %device</translation>
+    </message>
+    <message>
+        <source>%w × %h</source>
+        <translation>%w × %h</translation>
+    </message>
+    <message>
+        <source>Remove the frame</source>
+        <translation>Bain an fráma</translation>
+    </message>
+    <message>
+        <source>%w pixels wide</source>
+        <translation>%w picteilín ar leithead</translation>
+    </message>
+    <message>
+        <source>Choose a device above.</source>
+        <translation>Roghnaigh gléas thuas.</translation>
+    </message>
+    <message>
+        <source>Tablet</source>
+        <translation>Táibléad</translation>
+    </message>
+    <message>
+        <source>Desktop</source>
+        <translation>Deasc</translation>
+    </message>
+    <message>
+        <source>1920 wide at 200% zoom</source>
+        <translation>1920 ar leithead ag zúmáil 200%</translation>
+    </message>
 </context>
 </TS>

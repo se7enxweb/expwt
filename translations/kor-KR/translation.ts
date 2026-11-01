@@ -1867,5 +1867,81 @@
         <source>Saved: the sizes are made again around the focal point.</source>
         <translation>저장됨: 크기들을 초점을 중심으로 다시 만듭니다.</translation>
     </message>
+    <message>
+        <source>Devices</source>
+        <translation>기기</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>버전</translation>
+    </message>
+    <message>
+        <source>Your draft of %time</source>
+        <translation>%time의 내 초안</translation>
+    </message>
+    <message>
+        <source>From %min to %max pixels</source>
+        <translation>%min에서 %max 픽셀까지</translation>
+    </message>
+    <message>
+        <source>The width must be a whole number from %min to %max.</source>
+        <translation>너비는 %min에서 %max 사이의 정수여야 합니다.</translation>
+    </message>
+    <message>
+        <source>A frame %w pixels wide was added.</source>
+        <translation>너비 %w 픽셀의 프레임을 추가했습니다.</translation>
+    </message>
+    <message>
+        <source>A width of your own</source>
+        <translation>직접 입력한 너비</translation>
+    </message>
+    <message>
+        <source>Add the frame</source>
+        <translation>프레임 추가</translation>
+    </message>
+    <message>
+        <source>Load again</source>
+        <translation>다시 불러오기</translation>
+    </message>
+    <message>
+        <source>Device preview</source>
+        <translation>기기 미리보기</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page: the frames show the published page.</source>
+        <translation>이 페이지의 초안이 없습니다. 프레임에는 게시된 페이지가 표시됩니다.</translation>
+    </message>
+    <message>
+        <source>Preview on %device</source>
+        <translation>%device에서 미리보기</translation>
+    </message>
+    <message>
+        <source>%w × %h</source>
+        <translation>%w × %h</translation>
+    </message>
+    <message>
+        <source>Remove the frame</source>
+        <translation>프레임 제거</translation>
+    </message>
+    <message>
+        <source>%w pixels wide</source>
+        <translation>너비 %w 픽셀</translation>
+    </message>
+    <message>
+        <source>Choose a device above.</source>
+        <translation>위에서 기기를 선택하세요.</translation>
+    </message>
+    <message>
+        <source>Tablet</source>
+        <translation>태블릿</translation>
+    </message>
+    <message>
+        <source>Desktop</source>
+        <translation>데스크톱</translation>
+    </message>
+    <message>
+        <source>1920 wide at 200% zoom</source>
+        <translation>200% 확대에서 너비 1920</translation>
+    </message>
 </context>
 </TS>

@@ -1867,5 +1867,81 @@
         <source>Saved: the sizes are made again around the focal point.</source>
         <translation>သိမ်းပြီး: အရွယ်အစားများကို အာရုံစိုက်အမှတ်ပတ်လည်တွင် ပြန်လည်ပြုလုပ်သည်။</translation>
     </message>
+    <message>
+        <source>Devices</source>
+        <translation>စက်ပစ္စည်းများ</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>ဗားရှင်း</translation>
+    </message>
+    <message>
+        <source>Your draft of %time</source>
+        <translation>%time ရှိ သင်၏ မူကြမ်း</translation>
+    </message>
+    <message>
+        <source>From %min to %max pixels</source>
+        <translation>%min မှ %max ပစ်ဇယ်အထိ</translation>
+    </message>
+    <message>
+        <source>The width must be a whole number from %min to %max.</source>
+        <translation>အကျယ်သည် %min မှ %max အထိ ကိန်းပြည့် ဖြစ်ရမည်။</translation>
+    </message>
+    <message>
+        <source>A frame %w pixels wide was added.</source>
+        <translation>အကျယ် %w ပစ်ဇယ်ရှိသော ဘောင်တစ်ခု ထည့်ပြီးပါပြီ။</translation>
+    </message>
+    <message>
+        <source>A width of your own</source>
+        <translation>သင့်ကိုယ်ပိုင် အကျယ်</translation>
+    </message>
+    <message>
+        <source>Add the frame</source>
+        <translation>ဘောင်ထည့်ရန်</translation>
+    </message>
+    <message>
+        <source>Load again</source>
+        <translation>ပြန်ဖွင့်ရန်</translation>
+    </message>
+    <message>
+        <source>Device preview</source>
+        <translation>စက်ပစ္စည်း အစမ်းကြည့်ရှုမှု</translation>
+    </message>
+    <message>
+        <source>You have no draft of this page: the frames show the published page.</source>
+        <translation>ဤစာမျက်နှာအတွက် သင့်တွင် မူကြမ်းမရှိပါ။ ဘောင်များသည် ထုတ်ဝေပြီးစာမျက်နှာကို ပြနေသည်။</translation>
+    </message>
+    <message>
+        <source>Preview on %device</source>
+        <translation>%device ပေါ်တွင် အစမ်းကြည့်ရန်</translation>
+    </message>
+    <message>
+        <source>%w × %h</source>
+        <translation>%w × %h</translation>
+    </message>
+    <message>
+        <source>Remove the frame</source>
+        <translation>ဘောင်ကို ဖယ်ရှားရန်</translation>
+    </message>
+    <message>
+        <source>%w pixels wide</source>
+        <translation>အကျယ် %w ပစ်ဇယ်</translation>
+    </message>
+    <message>
+        <source>Choose a device above.</source>
+        <translation>အပေါ်မှ စက်ပစ္စည်းတစ်ခု ရွေးပါ။</translation>
+    </message>
+    <message>
+        <source>Tablet</source>
+        <translation>တက်ဘလက်</translation>
+    </message>
+    <message>
+        <source>Desktop</source>
+        <translation>ဒက်စ်တော့</translation>
+    </message>
+    <message>
+        <source>1920 wide at 200% zoom</source>
+        <translation>၂၀၀% ချဲ့ထားသော အကျယ် ၁၉၂၀</translation>
+    </message>
 </context>
 </TS>
