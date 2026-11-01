@@ -1525,6 +1525,300 @@ class expwtGateway
         return array( 'status' => $status, 'comment' => $new instanceof eZContentObjectTreeNode ? $this->commentInfo( $new, (bool)$new->canHide() ) : null );
     }
 
+    // ------------------------------------------------------------------------------------------------ the addresses (E5)
+
+    /** The most addresses, redirects and broken addresses the URLs panel lists */
+    const URLS_MAX = 50;
+
+    /** How much of the end of the not-found log the URLs panel reads, in bytes */
+    const NOT_FOUND_TAIL = 1048576;
+
+    /**
+     * The addresses of the page (E5): its address in each language, its old addresses (which redirect to the current
+     * one), the aliases added to it (each redirecting or not), the URL wildcards that lead to it, and the addresses
+     * visitors asked for and did not find that look like the page's (the kernel's not-found log, the page's own last
+     * part of the address), still not found now. What the user may add: an alias with content/edit of the page (the
+     * administration's URL aliases of a page, content/urlalias), a wildcard with content/urltranslator.
+     *
+     * @param array $in nodeId
+     * @return array nodeId, name, mainPath, canAlias, canWildcard, languages, addresses, wildcards, broken
+     */
+    public function addresses( array $in )
+    {
+        $node = $this->readableNode( $in );
+        $nodeId = (int)$node->attribute( 'node_id' );
+        $object = $node->object();
+        $canAlias = $object instanceof eZContentObject && $object->canEdit() && $this->may( 'content', 'edit' );
+        $canWildcard = $this->may( 'content', 'urltranslator' );
+        $addresses = array();
+        $slugs = array();
+        $prefix = self::pathPrefix();
+        foreach ( (array)eZURLAliasML::fetchByAction( 'eznode', $nodeId, false, false, true ) as $element )
+        {
+            if ( !$element instanceof eZURLAliasML )
+                continue;
+            // as this siteaccess answers it: without its path prefix
+            $path = self::withoutPrefix( (string)$element->getPath(), $prefix );
+            $kind = (int)$element->attribute( 'is_alias' ) ? 'alias' : ( (int)$element->attribute( 'is_original' ) ? 'main' : 'history' );
+            $codes = eZContentLanguage::decodeLanguageMask( (int)$element->attribute( 'lang_mask' ) & ~1, true );
+            $addresses[] = array( 'path' => $path, 'url' => self::url( $path ), 'kind' => $kind,
+                                  'redirects' => $kind === 'history' || ( $kind === 'alias' && (int)$element->attribute( 'alias_redirects' ) ),
+                                  'language' => implode( ', ', isset( $codes['language_list'] ) ? (array)$codes['language_list'] : array() ) );
+            $slugs[] = (string)$element->attribute( 'text' );
+            if ( count( $addresses ) >= self::URLS_MAX )
+                break;
+        }
+        usort( $addresses, function ( $a, $b ) {
+            $order = array( 'main' => 0, 'alias' => 1, 'history' => 2 );
+            return $order[$a['kind']] - $order[$b['kind']] ?: strcmp( $a['path'], $b['path'] );
+        } );
+        $main = trim( (string)$node->attribute( 'url_alias' ), '/' );
+        $own = array_map( function ( $a ) { return $a['path']; }, $addresses );
+        $wildcards = array();
+        foreach ( (array)eZURLWildcard::fetchList( false, false, false ) as $row )
+        {
+            if ( !self::wildcardLeadsTo( (string)$row['destination_url'], $own, $nodeId ) )
+                continue;
+            $wildcards[] = array( 'id' => (int)$row['id'], 'source' => '/' . ltrim( (string)$row['source_url'], '/' ),
+                                  'destination' => '/' . ltrim( (string)$row['destination_url'], '/' ),
+                                  'type' => (int)$row['type'] === eZURLWildcard::TYPE_FORWARD ? 'redirect' : 'direct' );
+            if ( count( $wildcards ) >= self::URLS_MAX )
+                break;
+        }
+        $broken = array();
+        if ( $canAlias && class_exists( 'expRequestLog' ) )
+        {
+            foreach ( self::brokenFor( self::notFoundCounts( self::logTail( expRequestLog::logFile(), self::NOT_FOUND_TAIL ) ), $slugs, $own ) as $path => $seen )
+            {
+                // still not found now: no address of the kernel answers it (in this siteaccess, with its path prefix)
+                if ( eZURLAliasML::fetchByPath( trim( ( $prefix !== '' ? $prefix . '/' : '' ) . trim( $path, '/' ), '/' ) ) || eZURLAliasML::fetchByPath( trim( $path, '/' ) ) )
+                    continue;
+                $broken[] = array( 'path' => $path, 'count' => $seen['count'], 'last' => $seen['last'] );
+                if ( count( $broken ) >= 20 )
+                    break;
+            }
+        }
+        $languages = array();
+        foreach ( (array)eZContentLanguage::prioritizedLanguages() as $language )
+            $languages[] = array( 'code' => (string)$language->attribute( 'locale' ), 'name' => (string)$language->attribute( 'name' ) );
+        $admin = self::adminUrl();
+        return array( 'nodeId' => $nodeId, 'name' => (string)$node->attribute( 'name' ), 'mainPath' => '/' . $main,
+                      'canAlias' => $canAlias, 'canWildcard' => $canWildcard, 'languages' => $languages,
+                      'addresses' => $addresses, 'wildcards' => $wildcards, 'broken' => $broken,
+                      'adminUrl' => $admin && $canAlias ? $admin . 'content/urlalias/' . $nodeId : null );
+    }
+
+    /** @return string the path prefix of this siteaccess (site.ini [SiteAccessSettings] PathPrefix), without slashes */
+    protected static function pathPrefix()
+    {
+        return trim( (string)eZURLAliasML::getPathPrefix(), '/' );
+    }
+
+    /** Pure: an address from the top of the aliases as a siteaccess with the path prefix answers it: "/" and the rest */
+    public static function withoutPrefix( $path, $prefix )
+    {
+        $path = trim( (string)$path, '/' );
+        $prefix = trim( (string)$prefix, '/' );
+        if ( $prefix !== '' && ( strcasecmp( $path, $prefix ) === 0 || stripos( $path, $prefix . '/' ) === 0 ) )
+            $path = (string)substr( $path, strlen( $prefix ) + 1 );
+        return '/' . $path;
+    }
+
+    /** Pure: a wildcard's destination leads to the page (one of its addresses, or its content/view/full address) */
+    public static function wildcardLeadsTo( $destination, array $paths, $nodeId )
+    {
+        $d = strtolower( '/' . trim( preg_replace( '/[?#].*$/', '', (string)$destination ), '/' ) );
+        if ( $d === '/content/view/full/' . (int)$nodeId )
+            return true;
+        foreach ( $paths as $p )
+            if ( strtolower( '/' . trim( (string)$p, '/' ) ) === $d )
+                return true;
+        return false;
+    }
+
+    /** @return string[] the lines of the end of a log file (at most $bytes), the first (cut) line left out */
+    protected static function logTail( $file, $bytes )
+    {
+        if ( !is_file( $file ) || !is_readable( $file ) )
+            return array();
+        $size = filesize( $file );
+        $h = fopen( $file, 'rb' );
+        if ( !$h )
+            return array();
+        if ( $size > $bytes )
+            fseek( $h, $size - $bytes );
+        $text = (string)stream_get_contents( $h );
+        fclose( $h );
+        $lines = explode( "\n", $text );
+        if ( $size > $bytes )
+            array_shift( $lines );
+        return $lines;
+    }
+
+    /**
+     * Pure: the paths of the not-found log's lines (expRequestLog's format: "[ time ] [address] 404 GET /path
+     * siteaccess=x ..."), without the siteaccess's part of the address and without the query, each with how often and
+     * when last. The visitors' addresses are not kept.
+     *
+     * @param string[] $lines
+     * @return array path => count, last
+     */
+    public static function notFoundCounts( array $lines )
+    {
+        $out = array();
+        foreach ( $lines as $line )
+        {
+            if ( !preg_match( '#^\[ ([^\]]+) \] \[[^\]]*\] (?:404|410) (?:GET|HEAD) (/\S*) siteaccess=(\S+)#', (string)$line, $m ) )
+                continue;
+            $path = preg_replace( '/[?#].*$/', '', $m[2] );
+            $prefix = '/' . $m[3];
+            if ( $m[3] !== '-' && ( $path === $prefix || strpos( $path, $prefix . '/' ) === 0 ) )
+                $path = substr( $path, strlen( $prefix ) );
+            $path = '/' . trim( rawurldecode( $path ), '/' );
+            if ( $path === '/' || strlen( $path ) > 300 || preg_match( '/[\x00-\x1F\x7F<>"]/', $path ) )
+                continue;
+            if ( !isset( $out[$path] ) )
+                $out[$path] = array( 'count' => 0, 'last' => '' );
+            $out[$path]['count']++;
+            $out[$path]['last'] = trim( $m[1] );
+        }
+        return $out;
+    }
+
+    /** Pure: the last part of an address as compared: lower case, letters and digits, words joined by "-" */
+    public static function slug( $text )
+    {
+        $text = mb_strtolower( (string)$text, 'UTF-8' );
+        $text = preg_replace( '/\.(html?|php)$/', '', $text );
+        return trim( preg_replace( '/[^\p{L}\p{N}]+/u', '-', $text ), '-' );
+    }
+
+    /**
+     * Pure: the not-found paths that look like the page's: their last part is the last part of one of the page's
+     * addresses, and they are none of the page's addresses. Most often first.
+     *
+     * @param array $counts of notFoundCounts()
+     * @param string[] $slugs the last parts of the page's addresses
+     * @param string[] $own the page's addresses
+     * @return array path => count, last
+     */
+    public static function brokenFor( array $counts, array $slugs, array $own )
+    {
+        $want = array();
+        foreach ( $slugs as $s )
+            if ( ( $s = self::slug( $s ) ) !== '' )
+                $want[$s] = true;
+        $mine = array();
+        foreach ( $own as $p )
+            $mine[strtolower( '/' . trim( (string)$p, '/' ) )] = true;
+        $out = array();
+        foreach ( $counts as $path => $seen )
+        {
+            $parts = explode( '/', trim( (string)$path, '/' ) );
+            if ( isset( $want[self::slug( end( $parts ) )] ) && !isset( $mine[strtolower( (string)$path )] ) )
+                $out[$path] = $seen;
+        }
+        uasort( $out, function ( $a, $b ) { return $b['count'] - $a['count']; } );
+        return $out;
+    }
+
+    /**
+     * Pure: an address as typed for a new alias or wildcard: without the leading and trailing slashes, the query and
+     * the host; null for an empty one or one that leaves the site ("..", a scheme).
+     */
+    public static function addressInput( $text )
+    {
+        $text = trim( (string)$text );
+        if ( preg_match( '#^[a-z][a-z0-9+.-]*://[^/]*(/.*)?$#i', $text, $m ) )
+            $text = isset( $m[1] ) ? $m[1] : '';
+        $text = trim( preg_replace( '/[?#].*$/', '', $text ), "/ \t" );
+        if ( $text === '' || preg_match( '#(^|/)\.\.?(/|$)#', $text ) || preg_match( '/[\x00-\x1F\x7F]/', $text ) || strlen( $text ) > 300 )
+            return null;
+        return preg_replace( '#/+#', '/', $text );
+    }
+
+    /**
+     * Adds an address to the page (E5), as the administration's URL aliases of the page add it (content/urlalias,
+     * NewAlias, from the top of the site): in a language, redirecting to the page's address or showing the page under
+     * it. Needs content/edit of the page. Also what "Redirect to this page" of a broken address does (redirects on).
+     * Audited as content.urlalias.change, as the administration's.
+     *
+     * @param array $in nodeId, path, language, redirects
+     * @return array status (created, cleaned: stored as path), path; or a refusal when the address is taken
+     */
+    public function urlAlias( array $in )
+    {
+        $node = $this->readableNode( $in );
+        $object = $node->object();
+        if ( !$object instanceof eZContentObject || !$object->canEdit() || !$this->may( 'content', 'edit' ) )
+            throw new expwtApiError( 403, 'forbidden', 'You may not do this.' );
+        $text = self::addressInput( isset( $in['path'] ) ? $in['path'] : '' );
+        if ( $text === null )
+            throw new expwtApiError( 400, 'bad_input', 'Give an address on this site, such as /campaign/running.' );
+        $language = eZContentLanguage::fetchByLocale( isset( $in['language'] ) ? (string)$in['language'] : '' );
+        if ( !$language instanceof eZContentLanguage )
+            $language = eZContentLanguage::topPriorityLanguage();
+        if ( !$language instanceof eZContentLanguage )
+            throw new expwtApiError( 400, 'bad_input', 'There is no such language.' );
+        $nodeId = (int)$node->attribute( 'node_id' );
+        $linkId = 0;
+        $filter = new eZURLAliasQuery();
+        $filter->actions = array( 'eznode:' . $nodeId );
+        $filter->type = 'name';
+        $filter->limit = false;
+        $existing = $filter->fetchAll();
+        if ( $existing )
+            $linkId = (int)$existing[0]->attribute( 'id' );
+        $alwaysMask = (int)$object->attribute( 'language_mask' ) & 1;
+        // from the top of this siteaccess: below its path prefix, where the kernel looks a visitor's address up
+        $prefix = self::pathPrefix();
+        $result = eZURLAliasML::storePath( ( $prefix !== '' ? $prefix . '/' : '' ) . $text, 'eznode:' . $nodeId, $language, $linkId, $alwaysMask, 0, true, false, false, !empty( $in['redirects'] ) );
+        if ( $result['status'] === eZURLAliasML::LINK_ALREADY_TAKEN )
+            throw new expwtApiError( 409, 'taken', 'This address is taken already.', array( 'path' => self::withoutPrefix( (string)$result['path'], $prefix ) ) );
+        if ( $result['status'] !== true )
+            throw new expwtApiError( 500, 'internal', 'Something went wrong on the server.' );
+        $stored = self::withoutPrefix( (string)$result['path'], $prefix );
+        ezpEvent::getInstance()->notify( 'content/cache', array( array( $nodeId ), array( (int)$node->attribute( 'contentobject_id' ) ) ) );
+        if ( class_exists( 'expAuditHook' ) )
+            expAuditHook::emit( 'content.urlalias.change', array( 'object' => array( 'type' => 'alias', 'id' => $stored ),
+                'target' => array( 'type' => 'node', 'id' => $nodeId, 'name' => (string)$node->attribute( 'name' ) ), 'verb' => 'add',
+                'after' => array( 'alias' => $stored, 'redirects' => !empty( $in['redirects'] ), 'language' => (string)$language->attribute( 'locale' ) ) ) );
+        return array( 'status' => strcasecmp( $stored, '/' . $text ) === 0 ? 'created' : 'cleaned', 'path' => $stored );
+    }
+
+    /**
+     * Adds a URL wildcard that leads to the page (E5), as the administration's URL wildcards add one
+     * (content/urlwildcards, NewWildcard): the address pattern given (a "*" matches the rest), the page's address as
+     * the destination, redirecting (the visitor's browser goes to the page's address) or not (the page is shown under
+     * the pattern's address). Needs content/urltranslator. Audited as content.urlalias.change.
+     *
+     * @param array $in nodeId, source, type (redirect, direct)
+     * @return array status created, source, destination
+     */
+    public function urlWildcard( array $in )
+    {
+        $node = $this->readableNode( $in );
+        if ( !$this->may( 'content', 'urltranslator' ) )
+            throw new expwtApiError( 403, 'forbidden', 'You may not do this.' );
+        $source = self::addressInput( isset( $in['source'] ) ? $in['source'] : '' );
+        if ( $source === null )
+            throw new expwtApiError( 400, 'bad_input', 'Give an address on this site, such as /campaign/running.' );
+        if ( eZURLWildcard::fetchBySourceURL( $source, false ) )
+            throw new expwtApiError( 409, 'taken', 'There is a wildcard for this address already.' );
+        $destination = trim( (string)$node->attribute( 'url_alias' ), '/' );
+        if ( $destination === '' )
+            $destination = 'content/view/full/' . (int)$node->attribute( 'node_id' );
+        $wildcard = new eZURLWildcard( array( 'source_url' => $source, 'destination_url' => $destination,
+                                              'type' => isset( $in['type'] ) && $in['type'] === 'direct' ? eZURLWildcard::TYPE_DIRECT : eZURLWildcard::TYPE_FORWARD ) );
+        $wildcard->store();
+        eZURLWildcard::expireCache();
+        if ( class_exists( 'expAuditHook' ) )
+            expAuditHook::emit( 'content.urlalias.change', array( 'object' => array( 'type' => 'wildcard', 'id' => '/' . $source ),
+                'target' => array( 'type' => 'node', 'id' => (int)$node->attribute( 'node_id' ), 'name' => (string)$node->attribute( 'name' ) ), 'verb' => 'add',
+                'after' => array( 'source' => '/' . $source, 'destination' => '/' . $destination, 'type' => isset( $in['type'] ) && $in['type'] === 'direct' ? 'direct' : 'redirect' ) ) );
+        return array( 'status' => 'created', 'source' => '/' . $source, 'destination' => '/' . $destination );
+    }
+
     // ------------------------------------------------------------------------------------------------ the inbox
 
     /** @return bool the user may use the kernel's collaboration (the module's policy), where the approvals are */

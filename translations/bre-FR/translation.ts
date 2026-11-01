@@ -1463,5 +1463,121 @@
         <source>%n comments wait for moderation</source>
         <translation>%n evezhiadenn o c'hortoz ar c'hontroll</translation>
     </message>
+    <message>
+        <source>Give an address on this site, such as /campaign/running.</source>
+        <translation>Roit ur chomlec'h war al lec'hienn-mañ, evel /campaign/running.</translation>
+    </message>
+    <message>
+        <source>There is no such language.</source>
+        <translation>N'eus ket eus ur yezh evel-se.</translation>
+    </message>
+    <message>
+        <source>This address is taken already.</source>
+        <translation>Kemeret eo ar chomlec'h-mañ dija.</translation>
+    </message>
+    <message>
+        <source>There is a wildcard for this address already.</source>
+        <translation>Bez' ez eus dija un arouezenn-joker evit ar chomlec'h-mañ.</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Chomlec'h</translation>
+    </message>
+    <message>
+        <source>Alias</source>
+        <translation>Lesanv</translation>
+    </message>
+    <message>
+        <source>Old address</source>
+        <translation>Chomlec'h kozh</translation>
+    </message>
+    <message>
+        <source>Addresses of this page</source>
+        <translation>Chomlec'hioù ar bajenn-mañ</translation>
+    </message>
+    <message>
+        <source>redirects</source>
+        <translation>adkas</translation>
+    </message>
+    <message>
+        <source>Wildcards that lead here</source>
+        <translation>Arouezennoù-joker a gas amañ</translation>
+    </message>
+    <message>
+        <source>No wildcard leads to this page.</source>
+        <translation>Arouezenn-joker ebet ne gas d'ar bajenn-mañ.</translation>
+    </message>
+    <message>
+        <source>shows this page</source>
+        <translation>a ziskouez ar bajenn-mañ</translation>
+    </message>
+    <message>
+        <source>Addresses visitors did not find</source>
+        <translation>Chomlec'hioù n'eo ket bet kavet gant ar weladennerien</translation>
+    </message>
+    <message>
+        <source>Addresses of this site that answered "not found" and end like this page's address. A redirect sends their visitors here.</source>
+        <translation>Chomlec'hioù al lec'hienn-mañ o deus respontet "n'eo ket bet kavet" hag a echu evel chomlec'h ar bajenn-mañ. Un adkas a gas o gweladennerien amañ.</translation>
+    </message>
+    <message>
+        <source>None: no visitor missed this page.</source>
+        <translation>Hini ebet: gweladenner ebet n'en deus c'hwitet ar bajenn-mañ.</translation>
+    </message>
+    <message>
+        <source>Redirect to this page</source>
+        <translation>Adkas d'ar bajenn-mañ</translation>
+    </message>
+    <message>
+        <source>%path now redirects to this page.</source>
+        <translation>%path a adkas d'ar bajenn-mañ bremañ.</translation>
+    </message>
+    <message>
+        <source>%n times, last %time</source>
+        <translation>%n gwech, ar wech diwezhañ %time</translation>
+    </message>
+    <message>
+        <source>Add the address</source>
+        <translation>Ouzhpennañ ar chomlec'h</translation>
+    </message>
+    <message>
+        <source>Add an address</source>
+        <translation>Ouzhpennañ ur chomlec'h</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>Yezh</translation>
+    </message>
+    <message>
+        <source>Redirect to the page's address (otherwise the page is shown under this address)</source>
+        <translation>Adkas da chomlec'h ar bajenn (a-hend-all e vez diskouezet ar bajenn dindan ar chomlec'h-mañ)</translation>
+    </message>
+    <message>
+        <source>Added as %path (the address was cleaned up).</source>
+        <translation>Ouzhpennet evel %path (naetaet eo bet ar chomlec'h).</translation>
+    </message>
+    <message>
+        <source>Added: %path</source>
+        <translation>Ouzhpennet: %path</translation>
+    </message>
+    <message>
+        <source>Add the wildcard</source>
+        <translation>Ouzhpennañ an arouezenn-joker</translation>
+    </message>
+    <message>
+        <source>Add a wildcard</source>
+        <translation>Ouzhpennañ un arouezenn-joker</translation>
+    </message>
+    <message>
+        <source>Every address that matches leads to this page; a * matches the rest of the address.</source>
+        <translation>Pep chomlec'h a glot a gas d'ar bajenn-mañ; ur * a glot gant dilerc'h ar chomlec'h.</translation>
+    </message>
+    <message>
+        <source>Address pattern</source>
+        <translation>Patrom chomlec'h</translation>
+    </message>
+    <message>
+        <source>URLs</source>
+        <translation>URLoù</translation>
+    </message>
 </context>
 </TS>

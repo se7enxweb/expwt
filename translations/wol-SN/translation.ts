@@ -1463,5 +1463,121 @@
         <source>%n comments wait for moderation</source>
         <translation>%n xalaat ñu ngi xaar ñu seet leen</translation>
     </message>
+    <message>
+        <source>Give an address on this site, such as /campaign/running.</source>
+        <translation>Joxeel benn adrees ci site bii, niki /campaign/running.</translation>
+    </message>
+    <message>
+        <source>There is no such language.</source>
+        <translation>Amul làkk bu ni mel.</translation>
+    </message>
+    <message>
+        <source>This address is taken already.</source>
+        <translation>Adrees bii jël nañu ko ba noppi.</translation>
+    </message>
+    <message>
+        <source>There is a wildcard for this address already.</source>
+        <translation>Am na wildcard ba noppi ngir adrees bii.</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Adrees</translation>
+    </message>
+    <message>
+        <source>Alias</source>
+        <translation>Beneen tur</translation>
+    </message>
+    <message>
+        <source>Old address</source>
+        <translation>Adrees bu yàgg</translation>
+    </message>
+    <message>
+        <source>Addresses of this page</source>
+        <translation>Adreesi xët wii</translation>
+    </message>
+    <message>
+        <source>redirects</source>
+        <translation>dafay jubluwaat</translation>
+    </message>
+    <message>
+        <source>Wildcards that lead here</source>
+        <translation>Wildcard yi fi indi</translation>
+    </message>
+    <message>
+        <source>No wildcard leads to this page.</source>
+        <translation>Amul benn wildcard bu indi ci xët wii.</translation>
+    </message>
+    <message>
+        <source>shows this page</source>
+        <translation>dafay wone xët wii</translation>
+    </message>
+    <message>
+        <source>Addresses visitors did not find</source>
+        <translation>Adrees yi ganyi yi gisuñu</translation>
+    </message>
+    <message>
+        <source>Addresses of this site that answered "not found" and end like this page's address. A redirect sends their visitors here.</source>
+        <translation>Adreesi site bii yi tontu "gisuñu ko" te jeexe niki adreesi xët wii. Jubluwaat dafay yónnee seeni ganyi fii.</translation>
+    </message>
+    <message>
+        <source>None: no visitor missed this page.</source>
+        <translation>Dara: amul benn gan bu ñàkk xët wii.</translation>
+    </message>
+    <message>
+        <source>Redirect to this page</source>
+        <translation>Jubluwaat ci xët wii</translation>
+    </message>
+    <message>
+        <source>%path now redirects to this page.</source>
+        <translation>%path léegi dafay jubluwaat ci xët wii.</translation>
+    </message>
+    <message>
+        <source>%n times, last %time</source>
+        <translation>%n yoon, mujj gi %time</translation>
+    </message>
+    <message>
+        <source>Add the address</source>
+        <translation>Yokk adrees bi</translation>
+    </message>
+    <message>
+        <source>Add an address</source>
+        <translation>Yokk benn adrees</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>Làkk</translation>
+    </message>
+    <message>
+        <source>Redirect to the page's address (otherwise the page is shown under this address)</source>
+        <translation>Jubluwaat ci adreesi xët wi (lu ko moy xët wi dees koy wone ci adrees bii)</translation>
+    </message>
+    <message>
+        <source>Added as %path (the address was cleaned up).</source>
+        <translation>Yokk nañu ko ni %path (setal nañu adrees bi).</translation>
+    </message>
+    <message>
+        <source>Added: %path</source>
+        <translation>Yokk nañu ko: %path</translation>
+    </message>
+    <message>
+        <source>Add the wildcard</source>
+        <translation>Yokk wildcard bi</translation>
+    </message>
+    <message>
+        <source>Add a wildcard</source>
+        <translation>Yokk benn wildcard</translation>
+    </message>
+    <message>
+        <source>Every address that matches leads to this page; a * matches the rest of the address.</source>
+        <translation>Adrees bu nekk bu dëppoo dafay indi ci xët wii; * dafay dëppoo ak li des ci adrees bi.</translation>
+    </message>
+    <message>
+        <source>Address pattern</source>
+        <translation>Melokaanu adrees</translation>
+    </message>
+    <message>
+        <source>URLs</source>
+        <translation>URL yi</translation>
+    </message>
 </context>
 </TS>

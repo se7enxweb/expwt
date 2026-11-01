@@ -1463,5 +1463,121 @@
         <source>%n comments wait for moderation</source>
         <translation>%n faallo waxay sugayaan dib-u-eegis</translation>
     </message>
+    <message>
+        <source>Give an address on this site, such as /campaign/running.</source>
+        <translation>Sii cinwaan ku yaal goobtan, sida /campaign/running.</translation>
+    </message>
+    <message>
+        <source>There is no such language.</source>
+        <translation>Luqad sidaas ah ma jirto.</translation>
+    </message>
+    <message>
+        <source>This address is taken already.</source>
+        <translation>Cinwaankan horay ayaa loo qaatay.</translation>
+    </message>
+    <message>
+        <source>There is a wildcard for this address already.</source>
+        <translation>Cinwaankan horay ayaa wildcard loogu sameeyay.</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Cinwaan</translation>
+    </message>
+    <message>
+        <source>Alias</source>
+        <translation>Magac kale</translation>
+    </message>
+    <message>
+        <source>Old address</source>
+        <translation>Cinwaan hore</translation>
+    </message>
+    <message>
+        <source>Addresses of this page</source>
+        <translation>Cinwaannada boggan</translation>
+    </message>
+    <message>
+        <source>redirects</source>
+        <translation>u leexiyaa</translation>
+    </message>
+    <message>
+        <source>Wildcards that lead here</source>
+        <translation>Wildcard-yada halkan keena</translation>
+    </message>
+    <message>
+        <source>No wildcard leads to this page.</source>
+        <translation>Wildcard la'aan ayaa boggan loo keenaa.</translation>
+    </message>
+    <message>
+        <source>shows this page</source>
+        <translation>wuxuu muujiyaa boggan</translation>
+    </message>
+    <message>
+        <source>Addresses visitors did not find</source>
+        <translation>Cinwaanno ay booqdayaashu waayeen</translation>
+    </message>
+    <message>
+        <source>Addresses of this site that answered "not found" and end like this page's address. A redirect sends their visitors here.</source>
+        <translation>Cinwaannada goobtan ee ku jawaabay "lama helin" oo u dhammaada sida cinwaanka boggan. Leexin ayaa booqdayaashooda halkan u dirta.</translation>
+    </message>
+    <message>
+        <source>None: no visitor missed this page.</source>
+        <translation>Midna: booqde ma jiro oo boggan seegay.</translation>
+    </message>
+    <message>
+        <source>Redirect to this page</source>
+        <translation>U leexi boggan</translation>
+    </message>
+    <message>
+        <source>%path now redirects to this page.</source>
+        <translation>%path hadda wuxuu u leexiyaa boggan.</translation>
+    </message>
+    <message>
+        <source>%n times, last %time</source>
+        <translation>%n jeer, ugu dambeysay %time</translation>
+    </message>
+    <message>
+        <source>Add the address</source>
+        <translation>Ku dar cinwaanka</translation>
+    </message>
+    <message>
+        <source>Add an address</source>
+        <translation>Ku dar cinwaan</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>Luqad</translation>
+    </message>
+    <message>
+        <source>Redirect to the page's address (otherwise the page is shown under this address)</source>
+        <translation>U leexi cinwaanka bogga (haddii kale boggu wuxuu ka muuqdaa cinwaankan hoostiisa)</translation>
+    </message>
+    <message>
+        <source>Added as %path (the address was cleaned up).</source>
+        <translation>Waxaa lagu daray sida %path (cinwaanka waa la nadiifiyay).</translation>
+    </message>
+    <message>
+        <source>Added: %path</source>
+        <translation>Waa la daray: %path</translation>
+    </message>
+    <message>
+        <source>Add the wildcard</source>
+        <translation>Ku dar wildcard-ka</translation>
+    </message>
+    <message>
+        <source>Add a wildcard</source>
+        <translation>Ku dar wildcard</translation>
+    </message>
+    <message>
+        <source>Every address that matches leads to this page; a * matches the rest of the address.</source>
+        <translation>Cinwaan kasta oo ku habboon wuxuu keenaa boggan; * waxay ku habboon tahay inta ka hartay cinwaanka.</translation>
+    </message>
+    <message>
+        <source>Address pattern</source>
+        <translation>Qaabka cinwaanka</translation>
+    </message>
+    <message>
+        <source>URLs</source>
+        <translation>URL-yada</translation>
+    </message>
 </context>
 </TS>

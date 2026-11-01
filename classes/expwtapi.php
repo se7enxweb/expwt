@@ -200,6 +200,13 @@ class expwtApi
                 // the reply as typed (several lines), at most 10000 characters
                 $message = isset( $input['message'] ) && is_scalar( $input['message'] ) ? substr( trim( (string)$input['message'] ), 0, 10000 ) : '';
                 return $g->commentReply( self::ids( $input, array( 'nodeId', 'commentId' ) ) + array( 'message' => $message ) );
+            case 'urls.load':
+                return $g->addresses( self::ids( $input, array( 'nodeId' ) ) );
+            case 'urls.alias':
+                return $g->urlAlias( self::ids( $input, array( 'nodeId' ) ) + self::strings( $input, array( 'path', 'language' ) )
+                                     + array( 'redirects' => !empty( $input['redirects'] ) ) );
+            case 'urls.wildcard':
+                return $g->urlWildcard( self::ids( $input, array( 'nodeId' ) ) + self::strings( $input, array( 'source', 'type' ) ) );
             case 'page.elsewhere':
                 return $g->elsewhere( self::ids( $input, array( 'nodeId' ) ) );
             case 'seo.check':

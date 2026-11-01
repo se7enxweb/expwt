@@ -1463,5 +1463,121 @@
         <source>%n comments wait for moderation</source>
         <translation>%n सुंद'थि मडारेसनखौ नेथ'वा दं</translation>
     </message>
+    <message>
+        <source>Give an address on this site, such as /campaign/running.</source>
+        <translation>बे साइटआव मोनसे थाखो हो, जेरै /campaign/running।</translation>
+    </message>
+    <message>
+        <source>There is no such language.</source>
+        <translation>बादि जेबो राव गैया।</translation>
+    </message>
+    <message>
+        <source>This address is taken already.</source>
+        <translation>बे थाखोखौ गोजाम लाखानाय जादों।</translation>
+    </message>
+    <message>
+        <source>There is a wildcard for this address already.</source>
+        <translation>बे थाखोनि थाखाय गोजाम मोनसे वाइल्डकार्ड दं।</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>थाखो</translation>
+    </message>
+    <message>
+        <source>Alias</source>
+        <translation>गुबुन मुं</translation>
+    </message>
+    <message>
+        <source>Old address</source>
+        <translation>गोजाम थाखो</translation>
+    </message>
+    <message>
+        <source>Addresses of this page</source>
+        <translation>बे बिलाइनि थाखोफोर</translation>
+    </message>
+    <message>
+        <source>redirects</source>
+        <translation>फिन दैथाय होयो</translation>
+    </message>
+    <message>
+        <source>Wildcards that lead here</source>
+        <translation>बेयाव लाबोनाय वाइल्डकार्डफोर</translation>
+    </message>
+    <message>
+        <source>No wildcard leads to this page.</source>
+        <translation>जेबो वाइल्डकार्डआ बे बिलाइआव लाबोआ।</translation>
+    </message>
+    <message>
+        <source>shows this page</source>
+        <translation>बे बिलाइखौ दिन्थियो</translation>
+    </message>
+    <message>
+        <source>Addresses visitors did not find</source>
+        <translation>सिनायथि होनायफोरा मोनाखै थाखोफोर</translation>
+    </message>
+    <message>
+        <source>Addresses of this site that answered "not found" and end like this page's address. A redirect sends their visitors here.</source>
+        <translation>बे साइटनि थाखोफोर जाय "मोनाखै" फिननाय होदों आरो बे बिलाइनि थाखोबादि जोबयो। फिन दैथाय होनाया बिसोरनि सिनायथि होनायफोरखौ बेयाव दैथाय होयो।</translation>
+    </message>
+    <message>
+        <source>None: no visitor missed this page.</source>
+        <translation>जेबो नङा: जेबो सिनायथि होनायआ बे बिलाइखौ गोमायाखै।</translation>
+    </message>
+    <message>
+        <source>Redirect to this page</source>
+        <translation>बे बिलाइआव फिन दैथाय हो</translation>
+    </message>
+    <message>
+        <source>%path now redirects to this page.</source>
+        <translation>%path दा बे बिलाइआव फिन दैथाय होयो।</translation>
+    </message>
+    <message>
+        <source>%n times, last %time</source>
+        <translation>%n जोनोम, जोबनाय %time</translation>
+    </message>
+    <message>
+        <source>Add the address</source>
+        <translation>थाखोखौ दाजाब</translation>
+    </message>
+    <message>
+        <source>Add an address</source>
+        <translation>मोनसे थाखो दाजाब</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>राव</translation>
+    </message>
+    <message>
+        <source>Redirect to the page's address (otherwise the page is shown under this address)</source>
+        <translation>बिलाइनि थाखोआव फिन दैथाय हो (नङाब्ला बिलाइखौ बे थाखोआव दिन्थियो)</translation>
+    </message>
+    <message>
+        <source>Added as %path (the address was cleaned up).</source>
+        <translation>%path महरै दाजाबनाय जादों (थाखोखौ सिखलाबनाय जादों)।</translation>
+    </message>
+    <message>
+        <source>Added: %path</source>
+        <translation>दाजाबनाय जादों: %path</translation>
+    </message>
+    <message>
+        <source>Add the wildcard</source>
+        <translation>वाइल्डकार्डखौ दाजाब</translation>
+    </message>
+    <message>
+        <source>Add a wildcard</source>
+        <translation>मोनसे वाइल्डकार्ड दाजाब</translation>
+    </message>
+    <message>
+        <source>Every address that matches leads to this page; a * matches the rest of the address.</source>
+        <translation>गासै गोरोबनाय थाखोआ बे बिलाइआव लाबोयो; * आ थाखोनि आथिखालखौ गोरोबयो।</translation>
+    </message>
+    <message>
+        <source>Address pattern</source>
+        <translation>थाखोनि महर</translation>
+    </message>
+    <message>
+        <source>URLs</source>
+        <translation>URL</translation>
+    </message>
 </context>
 </TS>

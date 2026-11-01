@@ -1463,5 +1463,121 @@
         <source>%n comments wait for moderation</source>
         <translation>%n komen menunggu penyederhanaan</translation>
     </message>
+    <message>
+        <source>Give an address on this site, such as /campaign/running.</source>
+        <translation>Berikan alamat di laman ini, seperti /campaign/running.</translation>
+    </message>
+    <message>
+        <source>There is no such language.</source>
+        <translation>Tiada bahasa sedemikian.</translation>
+    </message>
+    <message>
+        <source>This address is taken already.</source>
+        <translation>Alamat ini sudah digunakan.</translation>
+    </message>
+    <message>
+        <source>There is a wildcard for this address already.</source>
+        <translation>Sudah ada kad bebas untuk alamat ini.</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Alamat</translation>
+    </message>
+    <message>
+        <source>Alias</source>
+        <translation>Alias</translation>
+    </message>
+    <message>
+        <source>Old address</source>
+        <translation>Alamat lama</translation>
+    </message>
+    <message>
+        <source>Addresses of this page</source>
+        <translation>Alamat halaman ini</translation>
+    </message>
+    <message>
+        <source>redirects</source>
+        <translation>mengubah hala</translation>
+    </message>
+    <message>
+        <source>Wildcards that lead here</source>
+        <translation>Kad bebas yang membawa ke sini</translation>
+    </message>
+    <message>
+        <source>No wildcard leads to this page.</source>
+        <translation>Tiada kad bebas yang membawa ke halaman ini.</translation>
+    </message>
+    <message>
+        <source>shows this page</source>
+        <translation>memaparkan halaman ini</translation>
+    </message>
+    <message>
+        <source>Addresses visitors did not find</source>
+        <translation>Alamat yang tidak ditemui pelawat</translation>
+    </message>
+    <message>
+        <source>Addresses of this site that answered "not found" and end like this page's address. A redirect sends their visitors here.</source>
+        <translation>Alamat laman ini yang menjawab "tidak ditemui" dan berakhir seperti alamat halaman ini. Ubah hala menghantar pelawatnya ke sini.</translation>
+    </message>
+    <message>
+        <source>None: no visitor missed this page.</source>
+        <translation>Tiada: tiada pelawat yang terlepas halaman ini.</translation>
+    </message>
+    <message>
+        <source>Redirect to this page</source>
+        <translation>Ubah hala ke halaman ini</translation>
+    </message>
+    <message>
+        <source>%path now redirects to this page.</source>
+        <translation>%path kini mengubah hala ke halaman ini.</translation>
+    </message>
+    <message>
+        <source>%n times, last %time</source>
+        <translation>%n kali, terakhir %time</translation>
+    </message>
+    <message>
+        <source>Add the address</source>
+        <translation>Tambah alamat</translation>
+    </message>
+    <message>
+        <source>Add an address</source>
+        <translation>Tambah alamat</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>Bahasa</translation>
+    </message>
+    <message>
+        <source>Redirect to the page's address (otherwise the page is shown under this address)</source>
+        <translation>Ubah hala ke alamat halaman (jika tidak, halaman dipaparkan di bawah alamat ini)</translation>
+    </message>
+    <message>
+        <source>Added as %path (the address was cleaned up).</source>
+        <translation>Ditambah sebagai %path (alamat dikemas).</translation>
+    </message>
+    <message>
+        <source>Added: %path</source>
+        <translation>Ditambah: %path</translation>
+    </message>
+    <message>
+        <source>Add the wildcard</source>
+        <translation>Tambah kad bebas</translation>
+    </message>
+    <message>
+        <source>Add a wildcard</source>
+        <translation>Tambah kad bebas</translation>
+    </message>
+    <message>
+        <source>Every address that matches leads to this page; a * matches the rest of the address.</source>
+        <translation>Setiap alamat yang sepadan membawa ke halaman ini; * sepadan dengan baki alamat.</translation>
+    </message>
+    <message>
+        <source>Address pattern</source>
+        <translation>Corak alamat</translation>
+    </message>
+    <message>
+        <source>URLs</source>
+        <translation>URL</translation>
+    </message>
 </context>
 </TS>

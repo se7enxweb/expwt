@@ -1463,5 +1463,121 @@
         <source>%n comments wait for moderation</source>
         <translation>%n commentaris spetgan sin moderaziun</translation>
     </message>
+    <message>
+        <source>Give an address on this site, such as /campaign/running.</source>
+        <translation>Inditgai ina adressa sin questa website, p.ex. /campaign/running.</translation>
+    </message>
+    <message>
+        <source>There is no such language.</source>
+        <translation>In tal linguatg n'exista betg.</translation>
+    </message>
+    <message>
+        <source>This address is taken already.</source>
+        <translation>Questa adressa è gia occupada.</translation>
+    </message>
+    <message>
+        <source>There is a wildcard for this address already.</source>
+        <translation>I dat gia in jolly per questa adressa.</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Adressa</translation>
+    </message>
+    <message>
+        <source>Alias</source>
+        <translation>Alias</translation>
+    </message>
+    <message>
+        <source>Old address</source>
+        <translation>Adressa veglia</translation>
+    </message>
+    <message>
+        <source>Addresses of this page</source>
+        <translation>Adressas da questa pagina</translation>
+    </message>
+    <message>
+        <source>redirects</source>
+        <translation>renviescha</translation>
+    </message>
+    <message>
+        <source>Wildcards that lead here</source>
+        <translation>Jollys che mainan nà qua</translation>
+    </message>
+    <message>
+        <source>No wildcard leads to this page.</source>
+        <translation>Nagin jolly na maina tar questa pagina.</translation>
+    </message>
+    <message>
+        <source>shows this page</source>
+        <translation>mussa questa pagina</translation>
+    </message>
+    <message>
+        <source>Addresses visitors did not find</source>
+        <translation>Adressas che visitaders n'han betg chattà</translation>
+    </message>
+    <message>
+        <source>Addresses of this site that answered "not found" and end like this page's address. A redirect sends their visitors here.</source>
+        <translation>Adressas da questa website che han respundì "betg chattà" e finan sco l'adressa da questa pagina. In renviament tramet lur visitaders nà qua.</translation>
+    </message>
+    <message>
+        <source>None: no visitor missed this page.</source>
+        <translation>Nagina: nagin visitader n'ha manchentà questa pagina.</translation>
+    </message>
+    <message>
+        <source>Redirect to this page</source>
+        <translation>Renviar a questa pagina</translation>
+    </message>
+    <message>
+        <source>%path now redirects to this page.</source>
+        <translation>%path renviescha ussa a questa pagina.</translation>
+    </message>
+    <message>
+        <source>%n times, last %time</source>
+        <translation>%n giadas, la davosa %time</translation>
+    </message>
+    <message>
+        <source>Add the address</source>
+        <translation>Agiuntar l'adressa</translation>
+    </message>
+    <message>
+        <source>Add an address</source>
+        <translation>Agiuntar ina adressa</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>Linguatg</translation>
+    </message>
+    <message>
+        <source>Redirect to the page's address (otherwise the page is shown under this address)</source>
+        <translation>Renviar a l'adressa da la pagina (uschiglio vegn la pagina mussada sut questa adressa)</translation>
+    </message>
+    <message>
+        <source>Added as %path (the address was cleaned up).</source>
+        <translation>Agiuntà sco %path (l'adressa è vegnida nettegiada).</translation>
+    </message>
+    <message>
+        <source>Added: %path</source>
+        <translation>Agiuntà: %path</translation>
+    </message>
+    <message>
+        <source>Add the wildcard</source>
+        <translation>Agiuntar il jolly</translation>
+    </message>
+    <message>
+        <source>Add a wildcard</source>
+        <translation>Agiuntar in jolly</translation>
+    </message>
+    <message>
+        <source>Every address that matches leads to this page; a * matches the rest of the address.</source>
+        <translation>Mintga adressa che correspunda maina tar questa pagina; in * correspunda al rest da l'adressa.</translation>
+    </message>
+    <message>
+        <source>Address pattern</source>
+        <translation>Muster d'adressa</translation>
+    </message>
+    <message>
+        <source>URLs</source>
+        <translation>URLs</translation>
+    </message>
 </context>
 </TS>

@@ -1463,5 +1463,121 @@
         <source>%n comments wait for moderation</source>
         <translation>%n komentárov čaká na moderovanie</translation>
     </message>
+    <message>
+        <source>Give an address on this site, such as /campaign/running.</source>
+        <translation>Zadajte adresu na tomto webe, napríklad /campaign/running.</translation>
+    </message>
+    <message>
+        <source>There is no such language.</source>
+        <translation>Taký jazyk neexistuje.</translation>
+    </message>
+    <message>
+        <source>This address is taken already.</source>
+        <translation>Táto adresa je už obsadená.</translation>
+    </message>
+    <message>
+        <source>There is a wildcard for this address already.</source>
+        <translation>Pre túto adresu už existuje zástupný vzor.</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Adresa</translation>
+    </message>
+    <message>
+        <source>Alias</source>
+        <translation>Alias</translation>
+    </message>
+    <message>
+        <source>Old address</source>
+        <translation>Stará adresa</translation>
+    </message>
+    <message>
+        <source>Addresses of this page</source>
+        <translation>Adresy tejto stránky</translation>
+    </message>
+    <message>
+        <source>redirects</source>
+        <translation>presmerúva</translation>
+    </message>
+    <message>
+        <source>Wildcards that lead here</source>
+        <translation>Zástupné vzory, ktoré vedú sem</translation>
+    </message>
+    <message>
+        <source>No wildcard leads to this page.</source>
+        <translation>Na túto stránku nevedie žiadny zástupný vzor.</translation>
+    </message>
+    <message>
+        <source>shows this page</source>
+        <translation>zobrazuje túto stránku</translation>
+    </message>
+    <message>
+        <source>Addresses visitors did not find</source>
+        <translation>Adresy, ktoré návštevníci nenašli</translation>
+    </message>
+    <message>
+        <source>Addresses of this site that answered "not found" and end like this page's address. A redirect sends their visitors here.</source>
+        <translation>Adresy tohto webu, ktoré odpovedali "nenájdené" a končia ako adresa tejto stránky. Presmerovanie pošle ich návštevníkov sem.</translation>
+    </message>
+    <message>
+        <source>None: no visitor missed this page.</source>
+        <translation>Žiadne: žiadny návštevník túto stránku neminul.</translation>
+    </message>
+    <message>
+        <source>Redirect to this page</source>
+        <translation>Presmerovať na túto stránku</translation>
+    </message>
+    <message>
+        <source>%path now redirects to this page.</source>
+        <translation>%path teraz presmerúva na túto stránku.</translation>
+    </message>
+    <message>
+        <source>%n times, last %time</source>
+        <translation>%n-krát, naposledy %time</translation>
+    </message>
+    <message>
+        <source>Add the address</source>
+        <translation>Pridať adresu</translation>
+    </message>
+    <message>
+        <source>Add an address</source>
+        <translation>Pridať adresu</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>Jazyk</translation>
+    </message>
+    <message>
+        <source>Redirect to the page's address (otherwise the page is shown under this address)</source>
+        <translation>Presmerovať na adresu stránky (inak sa stránka zobrazí pod touto adresou)</translation>
+    </message>
+    <message>
+        <source>Added as %path (the address was cleaned up).</source>
+        <translation>Pridané ako %path (adresa bola upravená).</translation>
+    </message>
+    <message>
+        <source>Added: %path</source>
+        <translation>Pridané: %path</translation>
+    </message>
+    <message>
+        <source>Add the wildcard</source>
+        <translation>Pridať zástupný vzor</translation>
+    </message>
+    <message>
+        <source>Add a wildcard</source>
+        <translation>Pridať zástupný vzor</translation>
+    </message>
+    <message>
+        <source>Every address that matches leads to this page; a * matches the rest of the address.</source>
+        <translation>Každá zodpovedajúca adresa vedie na túto stránku; * zodpovedá zvyšku adresy.</translation>
+    </message>
+    <message>
+        <source>Address pattern</source>
+        <translation>Vzor adresy</translation>
+    </message>
+    <message>
+        <source>URLs</source>
+        <translation>URL adresy</translation>
+    </message>
 </context>
 </TS>

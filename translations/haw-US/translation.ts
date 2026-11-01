@@ -1463,5 +1463,121 @@
         <source>%n comments wait for moderation</source>
         <translation>%n manaʻo e kali ana i ka loiloi</translation>
     </message>
+    <message>
+        <source>Give an address on this site, such as /campaign/running.</source>
+        <translation>E hāʻawi i kahi helu wahi ma kēia pūnaewele, e like me /campaign/running.</translation>
+    </message>
+    <message>
+        <source>There is no such language.</source>
+        <translation>ʻAʻohe ʻōlelo pēlā.</translation>
+    </message>
+    <message>
+        <source>This address is taken already.</source>
+        <translation>Ua lawe ʻia kēia helu wahi.</translation>
+    </message>
+    <message>
+        <source>There is a wildcard for this address already.</source>
+        <translation>Aia he wildcard no kēia helu wahi.</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Helu wahi</translation>
+    </message>
+    <message>
+        <source>Alias</source>
+        <translation>Inoa ʻē</translation>
+    </message>
+    <message>
+        <source>Old address</source>
+        <translation>Helu wahi kahiko</translation>
+    </message>
+    <message>
+        <source>Addresses of this page</source>
+        <translation>Nā helu wahi o kēia ʻaoʻao</translation>
+    </message>
+    <message>
+        <source>redirects</source>
+        <translation>hoʻohuli</translation>
+    </message>
+    <message>
+        <source>Wildcards that lead here</source>
+        <translation>Nā wildcard e alakaʻi mai i ʻaneʻi</translation>
+    </message>
+    <message>
+        <source>No wildcard leads to this page.</source>
+        <translation>ʻAʻohe wildcard e alakaʻi i kēia ʻaoʻao.</translation>
+    </message>
+    <message>
+        <source>shows this page</source>
+        <translation>hōʻike i kēia ʻaoʻao</translation>
+    </message>
+    <message>
+        <source>Addresses visitors did not find</source>
+        <translation>Nā helu wahi i loaʻa ʻole i nā malihini</translation>
+    </message>
+    <message>
+        <source>Addresses of this site that answered "not found" and end like this page's address. A redirect sends their visitors here.</source>
+        <translation>Nā helu wahi o kēia pūnaewele i pane "ʻaʻole i loaʻa" a pau e like me ka helu wahi o kēia ʻaoʻao. Hoʻouna ka hoʻohuli i ko lākou mau malihini i ʻaneʻi.</translation>
+    </message>
+    <message>
+        <source>None: no visitor missed this page.</source>
+        <translation>ʻAʻohe: ʻaʻohe malihini i hala iā ia kēia ʻaoʻao.</translation>
+    </message>
+    <message>
+        <source>Redirect to this page</source>
+        <translation>Hoʻohuli i kēia ʻaoʻao</translation>
+    </message>
+    <message>
+        <source>%path now redirects to this page.</source>
+        <translation>Ke hoʻohuli nei ʻo %path i kēia ʻaoʻao.</translation>
+    </message>
+    <message>
+        <source>%n times, last %time</source>
+        <translation>%n manawa, hope loa %time</translation>
+    </message>
+    <message>
+        <source>Add the address</source>
+        <translation>Hoʻohui i ka helu wahi</translation>
+    </message>
+    <message>
+        <source>Add an address</source>
+        <translation>Hoʻohui i helu wahi</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>ʻŌlelo</translation>
+    </message>
+    <message>
+        <source>Redirect to the page's address (otherwise the page is shown under this address)</source>
+        <translation>Hoʻohuli i ka helu wahi o ka ʻaoʻao (inā ʻaʻole, hōʻike ʻia ka ʻaoʻao ma lalo o kēia helu wahi)</translation>
+    </message>
+    <message>
+        <source>Added as %path (the address was cleaned up).</source>
+        <translation>Ua hoʻohui ʻia ma ke ʻano he %path (ua hoʻomaʻemaʻe ʻia ka helu wahi).</translation>
+    </message>
+    <message>
+        <source>Added: %path</source>
+        <translation>Ua hoʻohui ʻia: %path</translation>
+    </message>
+    <message>
+        <source>Add the wildcard</source>
+        <translation>Hoʻohui i ka wildcard</translation>
+    </message>
+    <message>
+        <source>Add a wildcard</source>
+        <translation>Hoʻohui i wildcard</translation>
+    </message>
+    <message>
+        <source>Every address that matches leads to this page; a * matches the rest of the address.</source>
+        <translation>Alakaʻi kēlā me kēia helu wahi kūlike i kēia ʻaoʻao; kūlike ka * me ke koena o ka helu wahi.</translation>
+    </message>
+    <message>
+        <source>Address pattern</source>
+        <translation>Kumu helu wahi</translation>
+    </message>
+    <message>
+        <source>URLs</source>
+        <translation>Nā URL</translation>
+    </message>
 </context>
 </TS>

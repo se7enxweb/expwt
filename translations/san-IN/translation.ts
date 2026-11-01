@@ -1463,5 +1463,121 @@
         <source>%n comments wait for moderation</source>
         <translation>%n टिप्पण्यः समीक्षां प्रतीक्षन्ते</translation>
     </message>
+    <message>
+        <source>Give an address on this site, such as /campaign/running.</source>
+        <translation>अस्य जालस्थानस्य एकं सङ्केतं ददातु, यथा /campaign/running।</translation>
+    </message>
+    <message>
+        <source>There is no such language.</source>
+        <translation>एतादृशी भाषा नास्ति।</translation>
+    </message>
+    <message>
+        <source>This address is taken already.</source>
+        <translation>अयं सङ्केतः पूर्वमेव गृहीतः।</translation>
+    </message>
+    <message>
+        <source>There is a wildcard for this address already.</source>
+        <translation>अस्य सङ्केतस्य कृते पूर्वमेव वाइल्डकार्ड् अस्ति।</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>सङ्केतः</translation>
+    </message>
+    <message>
+        <source>Alias</source>
+        <translation>उपनाम</translation>
+    </message>
+    <message>
+        <source>Old address</source>
+        <translation>पुरातनः सङ्केतः</translation>
+    </message>
+    <message>
+        <source>Addresses of this page</source>
+        <translation>अस्य पृष्ठस्य सङ्केताः</translation>
+    </message>
+    <message>
+        <source>redirects</source>
+        <translation>पुनर्निर्दिशति</translation>
+    </message>
+    <message>
+        <source>Wildcards that lead here</source>
+        <translation>अत्र आनयन्ति ये वाइल्डकार्ड्</translation>
+    </message>
+    <message>
+        <source>No wildcard leads to this page.</source>
+        <translation>कोऽपि वाइल्डकार्ड् अस्मिन् पृष्ठे न आनयति।</translation>
+    </message>
+    <message>
+        <source>shows this page</source>
+        <translation>इदं पृष्ठं दर्शयति</translation>
+    </message>
+    <message>
+        <source>Addresses visitors did not find</source>
+        <translation>आगन्तुकैः अप्राप्ताः सङ्केताः</translation>
+    </message>
+    <message>
+        <source>Addresses of this site that answered "not found" and end like this page's address. A redirect sends their visitors here.</source>
+        <translation>अस्य जालस्थानस्य सङ्केताः ये "न प्राप्तम्" इति उत्तरं दत्तवन्तः अस्य पृष्ठस्य सङ्केतवत् समाप्यन्ते च। पुनर्निर्देशः तेषाम् आगन्तुकान् अत्र प्रेषयति।</translation>
+    </message>
+    <message>
+        <source>None: no visitor missed this page.</source>
+        <translation>न कोऽपि: कोऽपि आगन्तुकः इदं पृष्ठं न त्यक्तवान्।</translation>
+    </message>
+    <message>
+        <source>Redirect to this page</source>
+        <translation>अस्मिन् पृष्ठे पुनर्निर्दिशतु</translation>
+    </message>
+    <message>
+        <source>%path now redirects to this page.</source>
+        <translation>%path इदानीं अस्मिन् पृष्ठे पुनर्निर्दिशति।</translation>
+    </message>
+    <message>
+        <source>%n times, last %time</source>
+        <translation>%n वारम्, अन्तिमम् %time</translation>
+    </message>
+    <message>
+        <source>Add the address</source>
+        <translation>सङ्केतं योजयतु</translation>
+    </message>
+    <message>
+        <source>Add an address</source>
+        <translation>एकं सङ्केतं योजयतु</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>भाषा</translation>
+    </message>
+    <message>
+        <source>Redirect to the page's address (otherwise the page is shown under this address)</source>
+        <translation>पृष्ठस्य सङ्केते पुनर्निर्दिशतु (अन्यथा पृष्ठम् अस्मिन् सङ्केते दर्श्यते)</translation>
+    </message>
+    <message>
+        <source>Added as %path (the address was cleaned up).</source>
+        <translation>%path इति योजितम् (सङ्केतः शोधितः)।</translation>
+    </message>
+    <message>
+        <source>Added: %path</source>
+        <translation>योजितम्: %path</translation>
+    </message>
+    <message>
+        <source>Add the wildcard</source>
+        <translation>वाइल्डकार्ड् योजयतु</translation>
+    </message>
+    <message>
+        <source>Add a wildcard</source>
+        <translation>एकं वाइल्डकार्ड् योजयतु</translation>
+    </message>
+    <message>
+        <source>Every address that matches leads to this page; a * matches the rest of the address.</source>
+        <translation>प्रत्येकः मेलनशीलः सङ्केतः अस्मिन् पृष्ठे आनयति; * सङ्केतस्य शेषभागेन मेलति।</translation>
+    </message>
+    <message>
+        <source>Address pattern</source>
+        <translation>सङ्केतस्य प्रतिरूपम्</translation>
+    </message>
+    <message>
+        <source>URLs</source>
+        <translation>URL</translation>
+    </message>
 </context>
 </TS>

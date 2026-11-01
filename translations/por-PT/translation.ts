@@ -1463,5 +1463,121 @@
         <source>%n comments wait for moderation</source>
         <translation>%n comentários a aguardar moderação</translation>
     </message>
+    <message>
+        <source>Give an address on this site, such as /campaign/running.</source>
+        <translation>Indique um endereço deste site, como /campaign/running.</translation>
+    </message>
+    <message>
+        <source>There is no such language.</source>
+        <translation>Esse idioma não existe.</translation>
+    </message>
+    <message>
+        <source>This address is taken already.</source>
+        <translation>Este endereço já está ocupado.</translation>
+    </message>
+    <message>
+        <source>There is a wildcard for this address already.</source>
+        <translation>Já existe um caráter universal para este endereço.</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Endereço</translation>
+    </message>
+    <message>
+        <source>Alias</source>
+        <translation>Alias</translation>
+    </message>
+    <message>
+        <source>Old address</source>
+        <translation>Endereço antigo</translation>
+    </message>
+    <message>
+        <source>Addresses of this page</source>
+        <translation>Endereços desta página</translation>
+    </message>
+    <message>
+        <source>redirects</source>
+        <translation>redireciona</translation>
+    </message>
+    <message>
+        <source>Wildcards that lead here</source>
+        <translation>Caracteres universais que levam aqui</translation>
+    </message>
+    <message>
+        <source>No wildcard leads to this page.</source>
+        <translation>Nenhum caráter universal leva a esta página.</translation>
+    </message>
+    <message>
+        <source>shows this page</source>
+        <translation>mostra esta página</translation>
+    </message>
+    <message>
+        <source>Addresses visitors did not find</source>
+        <translation>Endereços que os visitantes não encontraram</translation>
+    </message>
+    <message>
+        <source>Addresses of this site that answered "not found" and end like this page's address. A redirect sends their visitors here.</source>
+        <translation>Endereços deste site que responderam "não encontrado" e terminam como o endereço desta página. Um redirecionamento envia os respetivos visitantes para aqui.</translation>
+    </message>
+    <message>
+        <source>None: no visitor missed this page.</source>
+        <translation>Nenhum: nenhum visitante perdeu esta página.</translation>
+    </message>
+    <message>
+        <source>Redirect to this page</source>
+        <translation>Redirecionar para esta página</translation>
+    </message>
+    <message>
+        <source>%path now redirects to this page.</source>
+        <translation>%path redireciona agora para esta página.</translation>
+    </message>
+    <message>
+        <source>%n times, last %time</source>
+        <translation>%n vezes, a última %time</translation>
+    </message>
+    <message>
+        <source>Add the address</source>
+        <translation>Adicionar o endereço</translation>
+    </message>
+    <message>
+        <source>Add an address</source>
+        <translation>Adicionar um endereço</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>Idioma</translation>
+    </message>
+    <message>
+        <source>Redirect to the page's address (otherwise the page is shown under this address)</source>
+        <translation>Redirecionar para o endereço da página (caso contrário, a página é mostrada com este endereço)</translation>
+    </message>
+    <message>
+        <source>Added as %path (the address was cleaned up).</source>
+        <translation>Adicionado como %path (o endereço foi limpo).</translation>
+    </message>
+    <message>
+        <source>Added: %path</source>
+        <translation>Adicionado: %path</translation>
+    </message>
+    <message>
+        <source>Add the wildcard</source>
+        <translation>Adicionar o caráter universal</translation>
+    </message>
+    <message>
+        <source>Add a wildcard</source>
+        <translation>Adicionar um caráter universal</translation>
+    </message>
+    <message>
+        <source>Every address that matches leads to this page; a * matches the rest of the address.</source>
+        <translation>Cada endereço correspondente leva a esta página; um * corresponde ao resto do endereço.</translation>
+    </message>
+    <message>
+        <source>Address pattern</source>
+        <translation>Padrão de endereço</translation>
+    </message>
+    <message>
+        <source>URLs</source>
+        <translation>URLs</translation>
+    </message>
 </context>
 </TS>

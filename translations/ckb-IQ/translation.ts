@@ -1463,5 +1463,121 @@
         <source>%n comments wait for moderation</source>
         <translation>%n لێدوان چاوەڕێی چاودێرین</translation>
     </message>
+    <message>
+        <source>Give an address on this site, such as /campaign/running.</source>
+        <translation>ناونیشانێک لەم ماڵپەڕە بدە، وەک /campaign/running.</translation>
+    </message>
+    <message>
+        <source>There is no such language.</source>
+        <translation>زمانێکی وا نییە.</translation>
+    </message>
+    <message>
+        <source>This address is taken already.</source>
+        <translation>ئەم ناونیشانە پێشتر گیراوە.</translation>
+    </message>
+    <message>
+        <source>There is a wildcard for this address already.</source>
+        <translation>پێشتر وایڵدکاردێک بۆ ئەم ناونیشانە هەیە.</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>ناونیشان</translation>
+    </message>
+    <message>
+        <source>Alias</source>
+        <translation>نازناو</translation>
+    </message>
+    <message>
+        <source>Old address</source>
+        <translation>ناونیشانی کۆن</translation>
+    </message>
+    <message>
+        <source>Addresses of this page</source>
+        <translation>ناونیشانەکانی ئەم پەڕەیە</translation>
+    </message>
+    <message>
+        <source>redirects</source>
+        <translation>ئاڕاستە دەکاتەوە</translation>
+    </message>
+    <message>
+        <source>Wildcards that lead here</source>
+        <translation>ئەو وایڵدکاردانەی دێنە ئێرە</translation>
+    </message>
+    <message>
+        <source>No wildcard leads to this page.</source>
+        <translation>هیچ وایڵدکاردێک نایەتە ئەم پەڕەیە.</translation>
+    </message>
+    <message>
+        <source>shows this page</source>
+        <translation>ئەم پەڕەیە پیشان دەدات</translation>
+    </message>
+    <message>
+        <source>Addresses visitors did not find</source>
+        <translation>ئەو ناونیشانانەی سەردانکەران نەیاندۆزیەوە</translation>
+    </message>
+    <message>
+        <source>Addresses of this site that answered "not found" and end like this page's address. A redirect sends their visitors here.</source>
+        <translation>ناونیشانەکانی ئەم ماڵپەڕە کە وەڵامیان "نەدۆزرایەوە" بوو و وەک ناونیشانی ئەم پەڕەیە کۆتایی دێن. ئاڕاستەکردنەوە سەردانکەرانیان دەنێرێتە ئێرە.</translation>
+    </message>
+    <message>
+        <source>None: no visitor missed this page.</source>
+        <translation>هیچ: هیچ سەردانکەرێک ئەم پەڕەیەی لەدەست نەدا.</translation>
+    </message>
+    <message>
+        <source>Redirect to this page</source>
+        <translation>ئاڕاستە بکەرەوە بۆ ئەم پەڕەیە</translation>
+    </message>
+    <message>
+        <source>%path now redirects to this page.</source>
+        <translation>%path ئێستا ئاڕاستە دەکاتەوە بۆ ئەم پەڕەیە.</translation>
+    </message>
+    <message>
+        <source>%n times, last %time</source>
+        <translation>%n جار، دوایین %time</translation>
+    </message>
+    <message>
+        <source>Add the address</source>
+        <translation>ناونیشانەکە زیاد بکە</translation>
+    </message>
+    <message>
+        <source>Add an address</source>
+        <translation>ناونیشانێک زیاد بکە</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>زمان</translation>
+    </message>
+    <message>
+        <source>Redirect to the page's address (otherwise the page is shown under this address)</source>
+        <translation>ئاڕاستە بکەرەوە بۆ ناونیشانی پەڕەکە (ئەگینا پەڕەکە لەژێر ئەم ناونیشانە پیشان دەدرێت)</translation>
+    </message>
+    <message>
+        <source>Added as %path (the address was cleaned up).</source>
+        <translation>وەک %path زیاد کرا (ناونیشانەکە پاک کرایەوە).</translation>
+    </message>
+    <message>
+        <source>Added: %path</source>
+        <translation>زیاد کرا: %path</translation>
+    </message>
+    <message>
+        <source>Add the wildcard</source>
+        <translation>وایڵدکاردەکە زیاد بکە</translation>
+    </message>
+    <message>
+        <source>Add a wildcard</source>
+        <translation>وایڵدکاردێک زیاد بکە</translation>
+    </message>
+    <message>
+        <source>Every address that matches leads to this page; a * matches the rest of the address.</source>
+        <translation>هەر ناونیشانێک کە بگونجێت دەچێتە ئەم پەڕەیە؛ * لەگەڵ باقی ناونیشانەکە دەگونجێت.</translation>
+    </message>
+    <message>
+        <source>Address pattern</source>
+        <translation>شێوازی ناونیشان</translation>
+    </message>
+    <message>
+        <source>URLs</source>
+        <translation>URLەکان</translation>
+    </message>
 </context>
 </TS>

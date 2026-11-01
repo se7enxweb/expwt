@@ -1463,5 +1463,121 @@
         <source>%n comments wait for moderation</source>
         <translation>අදහස් %n ක් මධ්‍යස්ථකරණය සඳහා රැඳී සිටී</translation>
     </message>
+    <message>
+        <source>Give an address on this site, such as /campaign/running.</source>
+        <translation>මෙම අඩවියේ ලිපිනයක් දෙන්න, උදා /campaign/running.</translation>
+    </message>
+    <message>
+        <source>There is no such language.</source>
+        <translation>එවැනි භාෂාවක් නැත.</translation>
+    </message>
+    <message>
+        <source>This address is taken already.</source>
+        <translation>මෙම ලිපිනය දැනටමත් ගෙන ඇත.</translation>
+    </message>
+    <message>
+        <source>There is a wildcard for this address already.</source>
+        <translation>මෙම ලිපිනයට දැනටමත් වයිල්ඩ්කාඩ් එකක් ඇත.</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>ලිපිනය</translation>
+    </message>
+    <message>
+        <source>Alias</source>
+        <translation>අන්වර්ථ නාමය</translation>
+    </message>
+    <message>
+        <source>Old address</source>
+        <translation>පැරණි ලිපිනය</translation>
+    </message>
+    <message>
+        <source>Addresses of this page</source>
+        <translation>මෙම පිටුවේ ලිපින</translation>
+    </message>
+    <message>
+        <source>redirects</source>
+        <translation>යළි යොමු කරයි</translation>
+    </message>
+    <message>
+        <source>Wildcards that lead here</source>
+        <translation>මෙතැනට ගෙන එන වයිල්ඩ්කාඩ්</translation>
+    </message>
+    <message>
+        <source>No wildcard leads to this page.</source>
+        <translation>කිසිදු වයිල්ඩ්කාඩ් එකක් මෙම පිටුවට ගෙන නොඑයි.</translation>
+    </message>
+    <message>
+        <source>shows this page</source>
+        <translation>මෙම පිටුව පෙන්වයි</translation>
+    </message>
+    <message>
+        <source>Addresses visitors did not find</source>
+        <translation>අමුත්තන්ට සොයාගත නොහැකි වූ ලිපින</translation>
+    </message>
+    <message>
+        <source>Addresses of this site that answered "not found" and end like this page's address. A redirect sends their visitors here.</source>
+        <translation>"හමු නොවිණි" යනුවෙන් පිළිතුරු දුන් සහ මෙම පිටුවේ ලිපිනය මෙන් අවසන් වන මෙම අඩවියේ ලිපින. යළි යොමුවක් ඔවුන්ගේ අමුත්තන් මෙතැනට යවයි.</translation>
+    </message>
+    <message>
+        <source>None: no visitor missed this page.</source>
+        <translation>කිසිවක් නැත: කිසිදු අමුත්තෙකුට මෙම පිටුව මග නොහැරුණි.</translation>
+    </message>
+    <message>
+        <source>Redirect to this page</source>
+        <translation>මෙම පිටුවට යළි යොමු කරන්න</translation>
+    </message>
+    <message>
+        <source>%path now redirects to this page.</source>
+        <translation>%path දැන් මෙම පිටුවට යළි යොමු කරයි.</translation>
+    </message>
+    <message>
+        <source>%n times, last %time</source>
+        <translation>%n වතාවක්, අවසන් %time</translation>
+    </message>
+    <message>
+        <source>Add the address</source>
+        <translation>ලිපිනය එක් කරන්න</translation>
+    </message>
+    <message>
+        <source>Add an address</source>
+        <translation>ලිපිනයක් එක් කරන්න</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>භාෂාව</translation>
+    </message>
+    <message>
+        <source>Redirect to the page's address (otherwise the page is shown under this address)</source>
+        <translation>පිටුවේ ලිපිනයට යළි යොමු කරන්න (නැතහොත් පිටුව මෙම ලිපිනය යටතේ පෙන්වයි)</translation>
+    </message>
+    <message>
+        <source>Added as %path (the address was cleaned up).</source>
+        <translation>%path ලෙස එක් කළා (ලිපිනය පිරිසිදු කළා).</translation>
+    </message>
+    <message>
+        <source>Added: %path</source>
+        <translation>එක් කළා: %path</translation>
+    </message>
+    <message>
+        <source>Add the wildcard</source>
+        <translation>වයිල්ඩ්කාඩ් එක එක් කරන්න</translation>
+    </message>
+    <message>
+        <source>Add a wildcard</source>
+        <translation>වයිල්ඩ්කාඩ් එකක් එක් කරන්න</translation>
+    </message>
+    <message>
+        <source>Every address that matches leads to this page; a * matches the rest of the address.</source>
+        <translation>ගැළපෙන සෑම ලිපිනයක්ම මෙම පිටුවට ගෙන එයි; * ලිපිනයේ ඉතිරි කොටසට ගැළපේ.</translation>
+    </message>
+    <message>
+        <source>Address pattern</source>
+        <translation>ලිපින රටාව</translation>
+    </message>
+    <message>
+        <source>URLs</source>
+        <translation>URL</translation>
+    </message>
 </context>
 </TS>

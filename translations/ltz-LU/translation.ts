@@ -1463,5 +1463,121 @@
         <source>%n comments wait for moderation</source>
         <translation>%n Kommentare waarden op Moderatioun</translation>
     </message>
+    <message>
+        <source>Give an address on this site, such as /campaign/running.</source>
+        <translation>Gitt eng Adress op dësem Site un, z. B. /campaign/running.</translation>
+    </message>
+    <message>
+        <source>There is no such language.</source>
+        <translation>Esou eng Sprooch gëtt et net.</translation>
+    </message>
+    <message>
+        <source>This address is taken already.</source>
+        <translation>Dës Adress ass schonn ewechgeholl.</translation>
+    </message>
+    <message>
+        <source>There is a wildcard for this address already.</source>
+        <translation>Fir dës Adress gëtt et schonn e Wildcard.</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Adress</translation>
+    </message>
+    <message>
+        <source>Alias</source>
+        <translation>Alias</translation>
+    </message>
+    <message>
+        <source>Old address</source>
+        <translation>Al Adress</translation>
+    </message>
+    <message>
+        <source>Addresses of this page</source>
+        <translation>Adressen vun dëser Säit</translation>
+    </message>
+    <message>
+        <source>redirects</source>
+        <translation>leet weider</translation>
+    </message>
+    <message>
+        <source>Wildcards that lead here</source>
+        <translation>Wildcarden, déi heihinner féieren</translation>
+    </message>
+    <message>
+        <source>No wildcard leads to this page.</source>
+        <translation>Kee Wildcard féiert op dës Säit.</translation>
+    </message>
+    <message>
+        <source>shows this page</source>
+        <translation>weist dës Säit</translation>
+    </message>
+    <message>
+        <source>Addresses visitors did not find</source>
+        <translation>Adressen, déi Besucher net fonnt hunn</translation>
+    </message>
+    <message>
+        <source>Addresses of this site that answered "not found" and end like this page's address. A redirect sends their visitors here.</source>
+        <translation>Adressen vun dësem Site, déi "net fonnt" geäntwert hunn an esou ophale wéi d'Adress vun dëser Säit. Eng Weiderleedung schéckt hir Besucher heihinner.</translation>
+    </message>
+    <message>
+        <source>None: no visitor missed this page.</source>
+        <translation>Keng: kee Besucher huet dës Säit verpasst.</translation>
+    </message>
+    <message>
+        <source>Redirect to this page</source>
+        <translation>Op dës Säit weiderleeden</translation>
+    </message>
+    <message>
+        <source>%path now redirects to this page.</source>
+        <translation>%path leet elo op dës Säit weider.</translation>
+    </message>
+    <message>
+        <source>%n times, last %time</source>
+        <translation>%n Mol, lescht Kéier %time</translation>
+    </message>
+    <message>
+        <source>Add the address</source>
+        <translation>Adress dobäisetzen</translation>
+    </message>
+    <message>
+        <source>Add an address</source>
+        <translation>Eng Adress dobäisetzen</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>Sprooch</translation>
+    </message>
+    <message>
+        <source>Redirect to the page's address (otherwise the page is shown under this address)</source>
+        <translation>Op d'Adress vun der Säit weiderleeden (soss gëtt d'Säit ënner dëser Adress gewisen)</translation>
+    </message>
+    <message>
+        <source>Added as %path (the address was cleaned up).</source>
+        <translation>Dobäigesat als %path (d'Adress gouf gebotzt).</translation>
+    </message>
+    <message>
+        <source>Added: %path</source>
+        <translation>Dobäigesat: %path</translation>
+    </message>
+    <message>
+        <source>Add the wildcard</source>
+        <translation>Wildcard dobäisetzen</translation>
+    </message>
+    <message>
+        <source>Add a wildcard</source>
+        <translation>E Wildcard dobäisetzen</translation>
+    </message>
+    <message>
+        <source>Every address that matches leads to this page; a * matches the rest of the address.</source>
+        <translation>All passend Adress féiert op dës Säit; e * passt op de Rescht vun der Adress.</translation>
+    </message>
+    <message>
+        <source>Address pattern</source>
+        <translation>Adressmuster</translation>
+    </message>
+    <message>
+        <source>URLs</source>
+        <translation>URLen</translation>
+    </message>
 </context>
 </TS>

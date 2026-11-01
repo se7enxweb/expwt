@@ -1463,5 +1463,121 @@
         <source>%n comments wait for moderation</source>
         <translation>%n تبصرے نگرانی کے منتظر</translation>
     </message>
+    <message>
+        <source>Give an address on this site, such as /campaign/running.</source>
+        <translation>اس سائٹ کا ایک پتہ دیں، جیسے /campaign/running۔</translation>
+    </message>
+    <message>
+        <source>There is no such language.</source>
+        <translation>ایسی کوئی زبان نہیں۔</translation>
+    </message>
+    <message>
+        <source>This address is taken already.</source>
+        <translation>یہ پتہ پہلے ہی لیا جا چکا ہے۔</translation>
+    </message>
+    <message>
+        <source>There is a wildcard for this address already.</source>
+        <translation>اس پتے کے لیے پہلے ہی ایک وائلڈکارڈ موجود ہے۔</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>پتہ</translation>
+    </message>
+    <message>
+        <source>Alias</source>
+        <translation>عرف</translation>
+    </message>
+    <message>
+        <source>Old address</source>
+        <translation>پرانا پتہ</translation>
+    </message>
+    <message>
+        <source>Addresses of this page</source>
+        <translation>اس صفحے کے پتے</translation>
+    </message>
+    <message>
+        <source>redirects</source>
+        <translation>ری ڈائریکٹ کرتا ہے</translation>
+    </message>
+    <message>
+        <source>Wildcards that lead here</source>
+        <translation>یہاں لانے والے وائلڈکارڈ</translation>
+    </message>
+    <message>
+        <source>No wildcard leads to this page.</source>
+        <translation>کوئی وائلڈکارڈ اس صفحے پر نہیں لاتا۔</translation>
+    </message>
+    <message>
+        <source>shows this page</source>
+        <translation>یہ صفحہ دکھاتا ہے</translation>
+    </message>
+    <message>
+        <source>Addresses visitors did not find</source>
+        <translation>پتے جو آنے والوں کو نہیں ملے</translation>
+    </message>
+    <message>
+        <source>Addresses of this site that answered "not found" and end like this page's address. A redirect sends their visitors here.</source>
+        <translation>اس سائٹ کے پتے جنہوں نے "نہیں ملا" جواب دیا اور جو اس صفحے کے پتے کی طرح ختم ہوتے ہیں۔ ری ڈائریکٹ ان کے آنے والوں کو یہاں بھیجتا ہے۔</translation>
+    </message>
+    <message>
+        <source>None: no visitor missed this page.</source>
+        <translation>کوئی نہیں: کسی آنے والے سے یہ صفحہ نہیں چھوٹا۔</translation>
+    </message>
+    <message>
+        <source>Redirect to this page</source>
+        <translation>اس صفحے پر ری ڈائریکٹ کریں</translation>
+    </message>
+    <message>
+        <source>%path now redirects to this page.</source>
+        <translation>%path اب اس صفحے پر ری ڈائریکٹ کرتا ہے۔</translation>
+    </message>
+    <message>
+        <source>%n times, last %time</source>
+        <translation>%n بار، آخری %time</translation>
+    </message>
+    <message>
+        <source>Add the address</source>
+        <translation>پتہ شامل کریں</translation>
+    </message>
+    <message>
+        <source>Add an address</source>
+        <translation>ایک پتہ شامل کریں</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>زبان</translation>
+    </message>
+    <message>
+        <source>Redirect to the page's address (otherwise the page is shown under this address)</source>
+        <translation>صفحے کے پتے پر ری ڈائریکٹ کریں (ورنہ صفحہ اس پتے پر دکھایا جاتا ہے)</translation>
+    </message>
+    <message>
+        <source>Added as %path (the address was cleaned up).</source>
+        <translation>%path کے طور پر شامل کیا گیا (پتہ صاف کیا گیا)۔</translation>
+    </message>
+    <message>
+        <source>Added: %path</source>
+        <translation>شامل کیا گیا: %path</translation>
+    </message>
+    <message>
+        <source>Add the wildcard</source>
+        <translation>وائلڈکارڈ شامل کریں</translation>
+    </message>
+    <message>
+        <source>Add a wildcard</source>
+        <translation>ایک وائلڈکارڈ شامل کریں</translation>
+    </message>
+    <message>
+        <source>Every address that matches leads to this page; a * matches the rest of the address.</source>
+        <translation>ملنے والا ہر پتہ اس صفحے پر لاتا ہے؛ * پتے کے باقی حصے سے ملتا ہے۔</translation>
+    </message>
+    <message>
+        <source>Address pattern</source>
+        <translation>پتے کا نمونہ</translation>
+    </message>
+    <message>
+        <source>URLs</source>
+        <translation>URL</translation>
+    </message>
 </context>
 </TS>

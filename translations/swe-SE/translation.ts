@@ -1463,5 +1463,121 @@
         <source>%n comments wait for moderation</source>
         <translation>%n kommentarer väntar på moderering</translation>
     </message>
+    <message>
+        <source>Give an address on this site, such as /campaign/running.</source>
+        <translation>Ange en adress på den här webbplatsen, till exempel /campaign/running.</translation>
+    </message>
+    <message>
+        <source>There is no such language.</source>
+        <translation>Det finns inget sådant språk.</translation>
+    </message>
+    <message>
+        <source>This address is taken already.</source>
+        <translation>Den här adressen är redan tagen.</translation>
+    </message>
+    <message>
+        <source>There is a wildcard for this address already.</source>
+        <translation>Det finns redan ett jokertecken för den här adressen.</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Adress</translation>
+    </message>
+    <message>
+        <source>Alias</source>
+        <translation>Alias</translation>
+    </message>
+    <message>
+        <source>Old address</source>
+        <translation>Gammal adress</translation>
+    </message>
+    <message>
+        <source>Addresses of this page</source>
+        <translation>Den här sidans adresser</translation>
+    </message>
+    <message>
+        <source>redirects</source>
+        <translation>omdirigerar</translation>
+    </message>
+    <message>
+        <source>Wildcards that lead here</source>
+        <translation>Jokertecken som leder hit</translation>
+    </message>
+    <message>
+        <source>No wildcard leads to this page.</source>
+        <translation>Inget jokertecken leder till den här sidan.</translation>
+    </message>
+    <message>
+        <source>shows this page</source>
+        <translation>visar den här sidan</translation>
+    </message>
+    <message>
+        <source>Addresses visitors did not find</source>
+        <translation>Adresser som besökare inte hittade</translation>
+    </message>
+    <message>
+        <source>Addresses of this site that answered "not found" and end like this page's address. A redirect sends their visitors here.</source>
+        <translation>Adresser på den här webbplatsen som svarade "hittades inte" och slutar som den här sidans adress. En omdirigering skickar deras besökare hit.</translation>
+    </message>
+    <message>
+        <source>None: no visitor missed this page.</source>
+        <translation>Inga: ingen besökare har missat den här sidan.</translation>
+    </message>
+    <message>
+        <source>Redirect to this page</source>
+        <translation>Omdirigera till den här sidan</translation>
+    </message>
+    <message>
+        <source>%path now redirects to this page.</source>
+        <translation>%path omdirigerar nu till den här sidan.</translation>
+    </message>
+    <message>
+        <source>%n times, last %time</source>
+        <translation>%n gånger, senast %time</translation>
+    </message>
+    <message>
+        <source>Add the address</source>
+        <translation>Lägg till adressen</translation>
+    </message>
+    <message>
+        <source>Add an address</source>
+        <translation>Lägg till en adress</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>Språk</translation>
+    </message>
+    <message>
+        <source>Redirect to the page's address (otherwise the page is shown under this address)</source>
+        <translation>Omdirigera till sidans adress (annars visas sidan under den här adressen)</translation>
+    </message>
+    <message>
+        <source>Added as %path (the address was cleaned up).</source>
+        <translation>Tillagd som %path (adressen rensades).</translation>
+    </message>
+    <message>
+        <source>Added: %path</source>
+        <translation>Tillagd: %path</translation>
+    </message>
+    <message>
+        <source>Add the wildcard</source>
+        <translation>Lägg till jokertecknet</translation>
+    </message>
+    <message>
+        <source>Add a wildcard</source>
+        <translation>Lägg till ett jokertecken</translation>
+    </message>
+    <message>
+        <source>Every address that matches leads to this page; a * matches the rest of the address.</source>
+        <translation>Varje adress som matchar leder till den här sidan; en * matchar resten av adressen.</translation>
+    </message>
+    <message>
+        <source>Address pattern</source>
+        <translation>Adressmönster</translation>
+    </message>
+    <message>
+        <source>URLs</source>
+        <translation>URL:er</translation>
+    </message>
 </context>
 </TS>

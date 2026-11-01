@@ -1463,5 +1463,121 @@
         <source>%n comments wait for moderation</source>
         <translation>%n ટિપ્પણીઓ મધ્યસ્થીની રાહ જુએ છે</translation>
     </message>
+    <message>
+        <source>Give an address on this site, such as /campaign/running.</source>
+        <translation>આ સાઇટ પરનું એક સરનામું આપો, જેમ કે /campaign/running.</translation>
+    </message>
+    <message>
+        <source>There is no such language.</source>
+        <translation>એવી કોઈ ભાષા નથી.</translation>
+    </message>
+    <message>
+        <source>This address is taken already.</source>
+        <translation>આ સરનામું પહેલેથી લેવાયેલું છે.</translation>
+    </message>
+    <message>
+        <source>There is a wildcard for this address already.</source>
+        <translation>આ સરનામા માટે પહેલેથી એક વાઇલ્ડકાર્ડ છે.</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>સરનામું</translation>
+    </message>
+    <message>
+        <source>Alias</source>
+        <translation>ઉપનામ</translation>
+    </message>
+    <message>
+        <source>Old address</source>
+        <translation>જૂનું સરનામું</translation>
+    </message>
+    <message>
+        <source>Addresses of this page</source>
+        <translation>આ પેજના સરનામાં</translation>
+    </message>
+    <message>
+        <source>redirects</source>
+        <translation>રીડાયરેક્ટ કરે છે</translation>
+    </message>
+    <message>
+        <source>Wildcards that lead here</source>
+        <translation>અહીં લાવતા વાઇલ્ડકાર્ડ</translation>
+    </message>
+    <message>
+        <source>No wildcard leads to this page.</source>
+        <translation>કોઈ વાઇલ્ડકાર્ડ આ પેજ પર લાવતું નથી.</translation>
+    </message>
+    <message>
+        <source>shows this page</source>
+        <translation>આ પેજ બતાવે છે</translation>
+    </message>
+    <message>
+        <source>Addresses visitors did not find</source>
+        <translation>મુલાકાતીઓને ન મળેલાં સરનામાં</translation>
+    </message>
+    <message>
+        <source>Addresses of this site that answered "not found" and end like this page's address. A redirect sends their visitors here.</source>
+        <translation>આ સાઇટનાં સરનામાં જેણે "મળ્યું નથી" જવાબ આપ્યો અને આ પેજના સરનામા જેવાં પૂરાં થાય છે. રીડાયરેક્ટ તેમના મુલાકાતીઓને અહીં મોકલે છે.</translation>
+    </message>
+    <message>
+        <source>None: no visitor missed this page.</source>
+        <translation>કોઈ નહીં: કોઈ મુલાકાતી આ પેજ ચૂક્યો નથી.</translation>
+    </message>
+    <message>
+        <source>Redirect to this page</source>
+        <translation>આ પેજ પર રીડાયરેક્ટ કરો</translation>
+    </message>
+    <message>
+        <source>%path now redirects to this page.</source>
+        <translation>%path હવે આ પેજ પર રીડાયરેક્ટ કરે છે.</translation>
+    </message>
+    <message>
+        <source>%n times, last %time</source>
+        <translation>%n વખત, છેલ્લે %time</translation>
+    </message>
+    <message>
+        <source>Add the address</source>
+        <translation>સરનામું ઉમેરો</translation>
+    </message>
+    <message>
+        <source>Add an address</source>
+        <translation>એક સરનામું ઉમેરો</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>ભાષા</translation>
+    </message>
+    <message>
+        <source>Redirect to the page's address (otherwise the page is shown under this address)</source>
+        <translation>પેજના સરનામા પર રીડાયરેક્ટ કરો (નહીં તો પેજ આ સરનામા હેઠળ બતાવાય છે)</translation>
+    </message>
+    <message>
+        <source>Added as %path (the address was cleaned up).</source>
+        <translation>%path તરીકે ઉમેરાયું (સરનામું સાફ કરાયું).</translation>
+    </message>
+    <message>
+        <source>Added: %path</source>
+        <translation>ઉમેરાયું: %path</translation>
+    </message>
+    <message>
+        <source>Add the wildcard</source>
+        <translation>વાઇલ્ડકાર્ડ ઉમેરો</translation>
+    </message>
+    <message>
+        <source>Add a wildcard</source>
+        <translation>એક વાઇલ્ડકાર્ડ ઉમેરો</translation>
+    </message>
+    <message>
+        <source>Every address that matches leads to this page; a * matches the rest of the address.</source>
+        <translation>મેળ ખાતું દરેક સરનામું આ પેજ પર લાવે છે; * સરનામાના બાકીના ભાગ સાથે મેળ ખાય છે.</translation>
+    </message>
+    <message>
+        <source>Address pattern</source>
+        <translation>સરનામાની પેટર્ન</translation>
+    </message>
+    <message>
+        <source>URLs</source>
+        <translation>URL</translation>
+    </message>
 </context>
 </TS>

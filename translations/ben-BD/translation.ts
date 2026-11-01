@@ -1463,5 +1463,121 @@
         <source>%n comments wait for moderation</source>
         <translation>%n টি মন্তব্য মডারেশনের অপেক্ষায়</translation>
     </message>
+    <message>
+        <source>Give an address on this site, such as /campaign/running.</source>
+        <translation>এই সাইটের একটি ঠিকানা দিন, যেমন /campaign/running।</translation>
+    </message>
+    <message>
+        <source>There is no such language.</source>
+        <translation>এমন কোনো ভাষা নেই।</translation>
+    </message>
+    <message>
+        <source>This address is taken already.</source>
+        <translation>এই ঠিকানা আগেই নেওয়া হয়েছে।</translation>
+    </message>
+    <message>
+        <source>There is a wildcard for this address already.</source>
+        <translation>এই ঠিকানার জন্য আগেই একটি ওয়াইল্ডকার্ড আছে।</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>ঠিকানা</translation>
+    </message>
+    <message>
+        <source>Alias</source>
+        <translation>উপনাম</translation>
+    </message>
+    <message>
+        <source>Old address</source>
+        <translation>পুরোনো ঠিকানা</translation>
+    </message>
+    <message>
+        <source>Addresses of this page</source>
+        <translation>এই পৃষ্ঠার ঠিকানাগুলো</translation>
+    </message>
+    <message>
+        <source>redirects</source>
+        <translation>পুনর্নির্দেশ করে</translation>
+    </message>
+    <message>
+        <source>Wildcards that lead here</source>
+        <translation>যে ওয়াইল্ডকার্ডগুলো এখানে নিয়ে আসে</translation>
+    </message>
+    <message>
+        <source>No wildcard leads to this page.</source>
+        <translation>কোনো ওয়াইল্ডকার্ড এই পৃষ্ঠায় নিয়ে আসে না।</translation>
+    </message>
+    <message>
+        <source>shows this page</source>
+        <translation>এই পৃষ্ঠা দেখায়</translation>
+    </message>
+    <message>
+        <source>Addresses visitors did not find</source>
+        <translation>দর্শকেরা যে ঠিকানাগুলো খুঁজে পাননি</translation>
+    </message>
+    <message>
+        <source>Addresses of this site that answered "not found" and end like this page's address. A redirect sends their visitors here.</source>
+        <translation>এই সাইটের যে ঠিকানাগুলো "পাওয়া যায়নি" উত্তর দিয়েছে এবং এই পৃষ্ঠার ঠিকানার মতো শেষ হয়। একটি পুনর্নির্দেশ তাদের দর্শকদের এখানে পাঠায়।</translation>
+    </message>
+    <message>
+        <source>None: no visitor missed this page.</source>
+        <translation>কোনোটিই নয়: কোনো দর্শক এই পৃষ্ঠাটি হারাননি।</translation>
+    </message>
+    <message>
+        <source>Redirect to this page</source>
+        <translation>এই পৃষ্ঠায় পুনর্নির্দেশ করুন</translation>
+    </message>
+    <message>
+        <source>%path now redirects to this page.</source>
+        <translation>%path এখন এই পৃষ্ঠায় পুনর্নির্দেশ করে।</translation>
+    </message>
+    <message>
+        <source>%n times, last %time</source>
+        <translation>%n বার, শেষবার %time</translation>
+    </message>
+    <message>
+        <source>Add the address</source>
+        <translation>ঠিকানাটি যোগ করুন</translation>
+    </message>
+    <message>
+        <source>Add an address</source>
+        <translation>একটি ঠিকানা যোগ করুন</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>ভাষা</translation>
+    </message>
+    <message>
+        <source>Redirect to the page's address (otherwise the page is shown under this address)</source>
+        <translation>পৃষ্ঠার ঠিকানায় পুনর্নির্দেশ করুন (না হলে পৃষ্ঠাটি এই ঠিকানায় দেখানো হয়)</translation>
+    </message>
+    <message>
+        <source>Added as %path (the address was cleaned up).</source>
+        <translation>%path হিসেবে যোগ করা হয়েছে (ঠিকানাটি পরিষ্কার করা হয়েছে)।</translation>
+    </message>
+    <message>
+        <source>Added: %path</source>
+        <translation>যোগ করা হয়েছে: %path</translation>
+    </message>
+    <message>
+        <source>Add the wildcard</source>
+        <translation>ওয়াইল্ডকার্ডটি যোগ করুন</translation>
+    </message>
+    <message>
+        <source>Add a wildcard</source>
+        <translation>একটি ওয়াইল্ডকার্ড যোগ করুন</translation>
+    </message>
+    <message>
+        <source>Every address that matches leads to this page; a * matches the rest of the address.</source>
+        <translation>মেলে এমন প্রতিটি ঠিকানা এই পৃষ্ঠায় নিয়ে আসে; * ঠিকানার বাকি অংশের সাথে মেলে।</translation>
+    </message>
+    <message>
+        <source>Address pattern</source>
+        <translation>ঠিকানার ধরন</translation>
+    </message>
+    <message>
+        <source>URLs</source>
+        <translation>URL</translation>
+    </message>
 </context>
 </TS>

@@ -1463,5 +1463,121 @@
         <source>%n comments wait for moderation</source>
         <translation>Nukpɔsusu %n le lalam na dzikpɔkpɔ</translation>
     </message>
+    <message>
+        <source>Give an address on this site, such as /campaign/running.</source>
+        <translation>Na adrɛs aɖe le nyatakakadzraɖoƒe sia, abe /campaign/running ene.</translation>
+    </message>
+    <message>
+        <source>There is no such language.</source>
+        <translation>Gbe ma tɔgbi meli o.</translation>
+    </message>
+    <message>
+        <source>This address is taken already.</source>
+        <translation>Ame aɖe xɔ adrɛs sia xoxo.</translation>
+    </message>
+    <message>
+        <source>There is a wildcard for this address already.</source>
+        <translation>Wildcard aɖe li na adrɛs sia xoxo.</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Adrɛs</translation>
+    </message>
+    <message>
+        <source>Alias</source>
+        <translation>Ŋkɔ bubu</translation>
+    </message>
+    <message>
+        <source>Old address</source>
+        <translation>Adrɛs xoxo</translation>
+    </message>
+    <message>
+        <source>Addresses of this page</source>
+        <translation>Axa sia ƒe adrɛswo</translation>
+    </message>
+    <message>
+        <source>redirects</source>
+        <translation>etrɔa mɔ</translation>
+    </message>
+    <message>
+        <source>Wildcards that lead here</source>
+        <translation>Wildcard siwo kplɔa ame va afii</translation>
+    </message>
+    <message>
+        <source>No wildcard leads to this page.</source>
+        <translation>Wildcard aɖeke mekplɔa ame yia axa sia dzi o.</translation>
+    </message>
+    <message>
+        <source>shows this page</source>
+        <translation>eɖea axa sia fiana</translation>
+    </message>
+    <message>
+        <source>Addresses visitors did not find</source>
+        <translation>Adrɛs siwo amedzrowo mekpɔ o</translation>
+    </message>
+    <message>
+        <source>Addresses of this site that answered "not found" and end like this page's address. A redirect sends their visitors here.</source>
+        <translation>Nyatakakadzraɖoƒe sia ƒe adrɛs siwo ɖo eŋu be "womekpɔe o" eye wowu nu abe axa sia ƒe adrɛs ene. Mɔtrɔtrɔ ɖoa woƒe amedzrowo ɖe afii.</translation>
+    </message>
+    <message>
+        <source>None: no visitor missed this page.</source>
+        <translation>Ɖeke o: amedzro aɖeke mebu axa sia o.</translation>
+    </message>
+    <message>
+        <source>Redirect to this page</source>
+        <translation>Trɔ mɔ yi axa sia dzi</translation>
+    </message>
+    <message>
+        <source>%path now redirects to this page.</source>
+        <translation>%path trɔa mɔ yia axa sia dzi fifia.</translation>
+    </message>
+    <message>
+        <source>%n times, last %time</source>
+        <translation>Zi %n, mamlɛtɔ %time</translation>
+    </message>
+    <message>
+        <source>Add the address</source>
+        <translation>Tsɔ adrɛsa kpe ɖe eŋu</translation>
+    </message>
+    <message>
+        <source>Add an address</source>
+        <translation>Tsɔ adrɛs aɖe kpe ɖe eŋu</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>Gbe</translation>
+    </message>
+    <message>
+        <source>Redirect to the page's address (otherwise the page is shown under this address)</source>
+        <translation>Trɔ mɔ yi axaa ƒe adrɛs dzi (ne menye nenema o la, woaɖe axaa afia le adrɛs sia te)</translation>
+    </message>
+    <message>
+        <source>Added as %path (the address was cleaned up).</source>
+        <translation>Wotsɔe kpe ɖe eŋu abe %path ene (woklɔ adrɛsa ŋu).</translation>
+    </message>
+    <message>
+        <source>Added: %path</source>
+        <translation>Wotsɔe kpe ɖe eŋu: %path</translation>
+    </message>
+    <message>
+        <source>Add the wildcard</source>
+        <translation>Tsɔ wildcard la kpe ɖe eŋu</translation>
+    </message>
+    <message>
+        <source>Add a wildcard</source>
+        <translation>Tsɔ wildcard aɖe kpe ɖe eŋu</translation>
+    </message>
+    <message>
+        <source>Every address that matches leads to this page; a * matches the rest of the address.</source>
+        <translation>Adrɛs ɖesiaɖe si sɔ la kplɔa ame yia axa sia dzi; * sɔ kple adrɛsa ƒe susɔea.</translation>
+    </message>
+    <message>
+        <source>Address pattern</source>
+        <translation>Adrɛs ƒe nɔnɔme</translation>
+    </message>
+    <message>
+        <source>URLs</source>
+        <translation>URLwo</translation>
+    </message>
 </context>
 </TS>

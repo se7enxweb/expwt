@@ -86,6 +86,9 @@ class expwtApiTestGateway extends expwtGateway
     public function comments( array $in ) { return $this->record( 'comments', $in ); }
     public function commentModerate( array $in ) { return $this->record( 'commentModerate', $in ); }
     public function commentReply( array $in ) { return $this->record( 'commentReply', $in ); }
+    public function addresses( array $in ) { return $this->record( 'addresses', $in ); }
+    public function urlAlias( array $in ) { return $this->record( 'urlAlias', $in ); }
+    public function urlWildcard( array $in ) { return $this->record( 'urlWildcard', $in ); }
     public $registered = array( 'panels' => array(), 'actions' => array(), 'highlights' => array(), 'search' => array() );
     public $policies = array();
     public function registeredActions() { return $this->registered['actions']; }
@@ -266,6 +269,31 @@ class expwtApiTest extends PHPUnit\Framework\TestCase
         $this->assertSame( array( 'commentsOffer', array( 'nodeId' => 93 ) ), $this->gateway->calls[0] );
         $this->gateway->comments = null;
         $this->assertNull( $api->call( 'boot', array(), 'GET' )['body']['data']['comments'] );
+    }
+
+    /** E5: the page's addresses: loading is a read; an alias and a wildcard are writes by POST that stand for the
+        administration's URL aliases of a page and its URL wildcards; the input goes to the gateway cleaned */
+    public function testTheAddressesGoToTheGatewayCleaned()
+    {
+        $api = $this->api();
+        $this->assertFalse( expwtAccess::writes( 'urls.load' ) );
+        $this->assertSame( 'edit', expwtAccess::functionFor( 'urls.load' ) );
+        foreach ( array( 'urls.alias', 'urls.wildcard' ) as $action )
+        {
+            $this->assertSame( 'edit', expwtAccess::functionFor( $action ) );
+            $this->assertTrue( expwtAccess::writes( $action ) );
+            $this->assertSame( 405, $api->call( $action, array( 'nodeId' => 1 ), 'GET' )['status'], "$action only by POST" );
+        }
+        $this->assertSame( array( 'module' => 'content', 'view' => 'urlalias', 'post' => array( 'NewAliasButton' => '1' ) ), expwtAccess::kernelView( 'urls.alias' ) );
+        $this->assertSame( array( 'module' => 'content', 'view' => 'urlwildcards', 'post' => array( 'NewWildcardButton' => '1' ) ), expwtAccess::kernelView( 'urls.wildcard' ) );
+        $api->call( 'urls.load', array( 'nodeId' => '93', 'path' => 'x' ), 'GET' );
+        $this->assertSame( array( 'addresses', array( 'nodeId' => 93 ) ), $this->gateway->calls[0] );
+        $api->call( 'urls.alias', array( 'nodeId' => '93', 'path' => ' /promo/run ', 'language' => 'eng-US', 'redirects' => 1, 'source' => 'x' ), 'POST' );
+        $this->assertSame( array( 'urlAlias', array( 'nodeId' => 93, 'path' => '/promo/run', 'language' => 'eng-US', 'redirects' => true ) ), $this->gateway->calls[1] );
+        $api->call( 'urls.alias', array( 'nodeId' => 93, 'path' => '/a' ), 'POST' );
+        $this->assertFalse( $this->gateway->calls[2][1]['redirects'], 'no redirect unless asked for' );
+        $api->call( 'urls.wildcard', array( 'nodeId' => 93, 'source' => '/old/*', 'type' => 'direct', 'destination' => '/elsewhere' ), 'POST' );
+        $this->assertSame( array( 'urlWildcard', array( 'nodeId' => 93, 'source' => '/old/*', 'type' => 'direct' ) ), $this->gateway->calls[3], 'the destination is always the page' );
     }
 
     /** E2: the page's forms and one submission are read-only, for those who edit, cleaned */

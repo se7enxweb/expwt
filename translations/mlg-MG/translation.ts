@@ -1463,5 +1463,121 @@
         <source>%n comments wait for moderation</source>
         <translation>Hevitra %n miandry fanaraha-maso</translation>
     </message>
+    <message>
+        <source>Give an address on this site, such as /campaign/running.</source>
+        <translation>Omeo adiresy amin'ity tranonkala ity, toy ny /campaign/running.</translation>
+    </message>
+    <message>
+        <source>There is no such language.</source>
+        <translation>Tsy misy fiteny toy izany.</translation>
+    </message>
+    <message>
+        <source>This address is taken already.</source>
+        <translation>Efa nalaina ity adiresy ity.</translation>
+    </message>
+    <message>
+        <source>There is a wildcard for this address already.</source>
+        <translation>Efa misy wildcard ho an'ity adiresy ity.</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Adiresy</translation>
+    </message>
+    <message>
+        <source>Alias</source>
+        <translation>Anarana hafa</translation>
+    </message>
+    <message>
+        <source>Old address</source>
+        <translation>Adiresy taloha</translation>
+    </message>
+    <message>
+        <source>Addresses of this page</source>
+        <translation>Adiresin'ity pejy ity</translation>
+    </message>
+    <message>
+        <source>redirects</source>
+        <translation>mamindra</translation>
+    </message>
+    <message>
+        <source>Wildcards that lead here</source>
+        <translation>Wildcard mitondra eto</translation>
+    </message>
+    <message>
+        <source>No wildcard leads to this page.</source>
+        <translation>Tsy misy wildcard mitondra amin'ity pejy ity.</translation>
+    </message>
+    <message>
+        <source>shows this page</source>
+        <translation>mampiseho ity pejy ity</translation>
+    </message>
+    <message>
+        <source>Addresses visitors did not find</source>
+        <translation>Adiresy tsy hitan'ny mpitsidika</translation>
+    </message>
+    <message>
+        <source>Addresses of this site that answered "not found" and end like this page's address. A redirect sends their visitors here.</source>
+        <translation>Adiresin'ity tranonkala ity namaly hoe "tsy hita" ary mifarana toy ny adiresin'ity pejy ity. Ny famindrana dia mandefa ny mpitsidika azy eto.</translation>
+    </message>
+    <message>
+        <source>None: no visitor missed this page.</source>
+        <translation>Tsy misy: tsy nisy mpitsidika tsy nahita ity pejy ity.</translation>
+    </message>
+    <message>
+        <source>Redirect to this page</source>
+        <translation>Afindra amin'ity pejy ity</translation>
+    </message>
+    <message>
+        <source>%path now redirects to this page.</source>
+        <translation>%path izao dia mamindra amin'ity pejy ity.</translation>
+    </message>
+    <message>
+        <source>%n times, last %time</source>
+        <translation>Im-%n, farany %time</translation>
+    </message>
+    <message>
+        <source>Add the address</source>
+        <translation>Ampio ilay adiresy</translation>
+    </message>
+    <message>
+        <source>Add an address</source>
+        <translation>Ampio adiresy</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>Fiteny</translation>
+    </message>
+    <message>
+        <source>Redirect to the page's address (otherwise the page is shown under this address)</source>
+        <translation>Afindra amin'ny adiresin'ny pejy (raha tsy izany dia aseho amin'ity adiresy ity ny pejy)</translation>
+    </message>
+    <message>
+        <source>Added as %path (the address was cleaned up).</source>
+        <translation>Nampiana ho %path (nodiovina ilay adiresy).</translation>
+    </message>
+    <message>
+        <source>Added: %path</source>
+        <translation>Nampiana: %path</translation>
+    </message>
+    <message>
+        <source>Add the wildcard</source>
+        <translation>Ampio ilay wildcard</translation>
+    </message>
+    <message>
+        <source>Add a wildcard</source>
+        <translation>Ampio wildcard</translation>
+    </message>
+    <message>
+        <source>Every address that matches leads to this page; a * matches the rest of the address.</source>
+        <translation>Ny adiresy rehetra mifanaraka dia mitondra amin'ity pejy ity; ny * dia mifanaraka amin'ny ambin'ny adiresy.</translation>
+    </message>
+    <message>
+        <source>Address pattern</source>
+        <translation>Endriky ny adiresy</translation>
+    </message>
+    <message>
+        <source>URLs</source>
+        <translation>URL</translation>
+    </message>
 </context>
 </TS>

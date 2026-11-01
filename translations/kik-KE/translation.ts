@@ -1463,5 +1463,121 @@
         <source>%n comments wait for moderation</source>
         <translation>Mĩario %n ĩrĩ gweterera ũtuĩria</translation>
     </message>
+    <message>
+        <source>Give an address on this site, such as /campaign/running.</source>
+        <translation>Heana adiresi ya thaiti ĩno, ta /campaign/running.</translation>
+    </message>
+    <message>
+        <source>There is no such language.</source>
+        <translation>Gũtirĩ rũthiomi ta rũu.</translation>
+    </message>
+    <message>
+        <source>This address is taken already.</source>
+        <translation>Adiresi ĩno nĩ yamaarĩte kuoywo.</translation>
+    </message>
+    <message>
+        <source>There is a wildcard for this address already.</source>
+        <translation>Nĩ harĩ na wildcard ya adiresi ĩno.</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Adiresi</translation>
+    </message>
+    <message>
+        <source>Alias</source>
+        <translation>Rĩĩtwa rĩngĩ</translation>
+    </message>
+    <message>
+        <source>Old address</source>
+        <translation>Adiresi ya tene</translation>
+    </message>
+    <message>
+        <source>Addresses of this page</source>
+        <translation>Adiresi cia karatathi gaka</translation>
+    </message>
+    <message>
+        <source>redirects</source>
+        <translation>nĩ ĩgarũraga</translation>
+    </message>
+    <message>
+        <source>Wildcards that lead here</source>
+        <translation>Wildcard iria itongoragia gũkũ</translation>
+    </message>
+    <message>
+        <source>No wildcard leads to this page.</source>
+        <translation>Gũtirĩ wildcard ĩtongoragia karatathi-inĩ gaka.</translation>
+    </message>
+    <message>
+        <source>shows this page</source>
+        <translation>nĩ ĩonanagia karatathi gaka</translation>
+    </message>
+    <message>
+        <source>Addresses visitors did not find</source>
+        <translation>Adiresi iria ageni matoonire</translation>
+    </message>
+    <message>
+        <source>Addresses of this site that answered "not found" and end like this page's address. A redirect sends their visitors here.</source>
+        <translation>Adiresi cia thaiti ĩno iria ciacokirie "ndĩonekire" na ikarĩkia ta adiresi ya karatathi gaka. Kũgarũra nĩ gũtũmaga ageni ao gũkũ.</translation>
+    </message>
+    <message>
+        <source>None: no visitor missed this page.</source>
+        <translation>Gũtirĩ: gũtirĩ mũgeni waagĩrĩirwo nĩ karatathi gaka.</translation>
+    </message>
+    <message>
+        <source>Redirect to this page</source>
+        <translation>Garũra nginya karatathi gaka</translation>
+    </message>
+    <message>
+        <source>%path now redirects to this page.</source>
+        <translation>%path rĩu nĩ ĩgarũraga nginya karatathi gaka.</translation>
+    </message>
+    <message>
+        <source>%n times, last %time</source>
+        <translation>Maita %n, ma mũthia %time</translation>
+    </message>
+    <message>
+        <source>Add the address</source>
+        <translation>Ongerera adiresi</translation>
+    </message>
+    <message>
+        <source>Add an address</source>
+        <translation>Ongerera adiresi</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>Rũthiomi</translation>
+    </message>
+    <message>
+        <source>Redirect to the page's address (otherwise the page is shown under this address)</source>
+        <translation>Garũra nginya adiresi ya karatathi (kũngĩ karatathi konanagio na adiresi ĩno)</translation>
+    </message>
+    <message>
+        <source>Added as %path (the address was cleaned up).</source>
+        <translation>Yongereirwo ta %path (adiresi nĩ yatheririo).</translation>
+    </message>
+    <message>
+        <source>Added: %path</source>
+        <translation>Yongereirwo: %path</translation>
+    </message>
+    <message>
+        <source>Add the wildcard</source>
+        <translation>Ongerera wildcard</translation>
+    </message>
+    <message>
+        <source>Add a wildcard</source>
+        <translation>Ongerera wildcard</translation>
+    </message>
+    <message>
+        <source>Every address that matches leads to this page; a * matches the rest of the address.</source>
+        <translation>O adiresi ĩrĩa ĩhaanaine ĩtongoragia karatathi-inĩ gaka; * ĩhaanaine na adiresi ĩrĩa ĩtigarĩte.</translation>
+    </message>
+    <message>
+        <source>Address pattern</source>
+        <translation>Mũhiano wa adiresi</translation>
+    </message>
+    <message>
+        <source>URLs</source>
+        <translation>URLs</translation>
+    </message>
 </context>
 </TS>

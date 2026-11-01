@@ -1463,5 +1463,121 @@
         <source>%n comments wait for moderation</source>
         <translation>Ivyiyumviro %n birarindiriye isuzuma</translation>
     </message>
+    <message>
+        <source>Give an address on this site, such as /campaign/running.</source>
+        <translation>Tanga aderese iri kuri uru rubuga, nka /campaign/running.</translation>
+    </message>
+    <message>
+        <source>There is no such language.</source>
+        <translation>Nta rurimi nk'urwo ruriho.</translation>
+    </message>
+    <message>
+        <source>This address is taken already.</source>
+        <translation>Iyi aderese yamaze gufatwa.</translation>
+    </message>
+    <message>
+        <source>There is a wildcard for this address already.</source>
+        <translation>Iyi aderese isanzwe ifise wildcard.</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Aderese</translation>
+    </message>
+    <message>
+        <source>Alias</source>
+        <translation>Irindi zina</translation>
+    </message>
+    <message>
+        <source>Old address</source>
+        <translation>Aderese ya kera</translation>
+    </message>
+    <message>
+        <source>Addresses of this page</source>
+        <translation>Aderese z'uru rupapuro</translation>
+    </message>
+    <message>
+        <source>redirects</source>
+        <translation>irungika ahandi</translation>
+    </message>
+    <message>
+        <source>Wildcards that lead here</source>
+        <translation>Wildcard zizana hano</translation>
+    </message>
+    <message>
+        <source>No wildcard leads to this page.</source>
+        <translation>Nta wildcard izana kuri uru rupapuro.</translation>
+    </message>
+    <message>
+        <source>shows this page</source>
+        <translation>yerekana uru rupapuro</translation>
+    </message>
+    <message>
+        <source>Addresses visitors did not find</source>
+        <translation>Aderese abagenzi batabonye</translation>
+    </message>
+    <message>
+        <source>Addresses of this site that answered "not found" and end like this page's address. A redirect sends their visitors here.</source>
+        <translation>Aderese z'uru rubuga zishuye "ntibiboneka" kandi zihera nk'aderese y'uru rupapuro. Kurungika ahandi birungika abagenzi bazo hano.</translation>
+    </message>
+    <message>
+        <source>None: no visitor missed this page.</source>
+        <translation>Nta na imwe: nta mugenzi yahusha uru rupapuro.</translation>
+    </message>
+    <message>
+        <source>Redirect to this page</source>
+        <translation>Rungika kuri uru rupapuro</translation>
+    </message>
+    <message>
+        <source>%path now redirects to this page.</source>
+        <translation>%path ubu irungika kuri uru rupapuro.</translation>
+    </message>
+    <message>
+        <source>%n times, last %time</source>
+        <translation>Incuro %n, iya nyuma %time</translation>
+    </message>
+    <message>
+        <source>Add the address</source>
+        <translation>Ongeraho aderese</translation>
+    </message>
+    <message>
+        <source>Add an address</source>
+        <translation>Ongeraho aderese</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>Ururimi</translation>
+    </message>
+    <message>
+        <source>Redirect to the page's address (otherwise the page is shown under this address)</source>
+        <translation>Rungika kuri aderese y'urupapuro (ahandiho urupapuro rwerekanwa kuri iyi aderese)</translation>
+    </message>
+    <message>
+        <source>Added as %path (the address was cleaned up).</source>
+        <translation>Yongewe nka %path (aderese yasukuwe).</translation>
+    </message>
+    <message>
+        <source>Added: %path</source>
+        <translation>Yongewe: %path</translation>
+    </message>
+    <message>
+        <source>Add the wildcard</source>
+        <translation>Ongeraho wildcard</translation>
+    </message>
+    <message>
+        <source>Add a wildcard</source>
+        <translation>Ongeraho wildcard</translation>
+    </message>
+    <message>
+        <source>Every address that matches leads to this page; a * matches the rest of the address.</source>
+        <translation>Aderese yose ihuye izana kuri uru rupapuro; * ihura n'igisigaye c'aderese.</translation>
+    </message>
+    <message>
+        <source>Address pattern</source>
+        <translation>Uburyo bw'aderese</translation>
+    </message>
+    <message>
+        <source>URLs</source>
+        <translation>URL</translation>
+    </message>
 </context>
 </TS>

@@ -1463,5 +1463,121 @@
         <source>%n comments wait for moderation</source>
         <translation>%n ርእይቶታት ምምርማር ይጽበዩ ኣለዉ</translation>
     </message>
+    <message>
+        <source>Give an address on this site, such as /campaign/running.</source>
+        <translation>ኣብዚ መርበብ ሓደ ኣድራሻ ሃብ፣ ከም /campaign/running።</translation>
+    </message>
+    <message>
+        <source>There is no such language.</source>
+        <translation>ከምኡ ዝበለ ቋንቋ የለን።</translation>
+    </message>
+    <message>
+        <source>This address is taken already.</source>
+        <translation>እዚ ኣድራሻ ድሮ ተታሒዙ ኣሎ።</translation>
+    </message>
+    <message>
+        <source>There is a wildcard for this address already.</source>
+        <translation>ነዚ ኣድራሻ ድሮ ዋይልድካርድ ኣሎ።</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>ኣድራሻ</translation>
+    </message>
+    <message>
+        <source>Alias</source>
+        <translation>ካልእ ስም</translation>
+    </message>
+    <message>
+        <source>Old address</source>
+        <translation>ናይ ቀደም ኣድራሻ</translation>
+    </message>
+    <message>
+        <source>Addresses of this page</source>
+        <translation>ኣድራሻታት እዚ ገጽ</translation>
+    </message>
+    <message>
+        <source>redirects</source>
+        <translation>የቕንዕ</translation>
+    </message>
+    <message>
+        <source>Wildcards that lead here</source>
+        <translation>ናብዚ ዘምጽኡ ዋይልድካርድታት</translation>
+    </message>
+    <message>
+        <source>No wildcard leads to this page.</source>
+        <translation>ናብዚ ገጽ ዘምጽእ ዋይልድካርድ የለን።</translation>
+    </message>
+    <message>
+        <source>shows this page</source>
+        <translation>ነዚ ገጽ የርኢ</translation>
+    </message>
+    <message>
+        <source>Addresses visitors did not find</source>
+        <translation>በጻሕቲ ዘይረኸብዎም ኣድራሻታት</translation>
+    </message>
+    <message>
+        <source>Addresses of this site that answered "not found" and end like this page's address. A redirect sends their visitors here.</source>
+        <translation>"ኣይተረኽበን" ዝመለሱን ከም ኣድራሻ እዚ ገጽ ዝውድኡን ናይዚ መርበብ ኣድራሻታት። ምቕናዕ ንበጻሕቶም ናብዚ ይሰድዶም።</translation>
+    </message>
+    <message>
+        <source>None: no visitor missed this page.</source>
+        <translation>የለን፦ ነዚ ገጽ ዘሕለፎ በጻሒ የለን።</translation>
+    </message>
+    <message>
+        <source>Redirect to this page</source>
+        <translation>ናብዚ ገጽ ኣቕንዕ</translation>
+    </message>
+    <message>
+        <source>%path now redirects to this page.</source>
+        <translation>%path ሕጂ ናብዚ ገጽ የቕንዕ።</translation>
+    </message>
+    <message>
+        <source>%n times, last %time</source>
+        <translation>%n ግዜ፣ ናይ መወዳእታ %time</translation>
+    </message>
+    <message>
+        <source>Add the address</source>
+        <translation>ኣድራሻ ወስኽ</translation>
+    </message>
+    <message>
+        <source>Add an address</source>
+        <translation>ሓደ ኣድራሻ ወስኽ</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>ቋንቋ</translation>
+    </message>
+    <message>
+        <source>Redirect to the page's address (otherwise the page is shown under this address)</source>
+        <translation>ናብ ኣድራሻ እቲ ገጽ ኣቕንዕ (እንተዘይኮይኑ እቲ ገጽ ኣብዚ ኣድራሻ ይረአ)</translation>
+    </message>
+    <message>
+        <source>Added as %path (the address was cleaned up).</source>
+        <translation>ከም %path ተወሲኹ (እቲ ኣድራሻ ተጸሪዩ)።</translation>
+    </message>
+    <message>
+        <source>Added: %path</source>
+        <translation>ተወሲኹ፦ %path</translation>
+    </message>
+    <message>
+        <source>Add the wildcard</source>
+        <translation>ዋይልድካርድ ወስኽ</translation>
+    </message>
+    <message>
+        <source>Add a wildcard</source>
+        <translation>ሓደ ዋይልድካርድ ወስኽ</translation>
+    </message>
+    <message>
+        <source>Every address that matches leads to this page; a * matches the rest of the address.</source>
+        <translation>ዝሰማማዕ ኩሉ ኣድራሻ ናብዚ ገጽ የምጽእ፤ * ምስቲ ዝተረፈ ኣድራሻ ይሰማማዕ።</translation>
+    </message>
+    <message>
+        <source>Address pattern</source>
+        <translation>ቅዲ ኣድራሻ</translation>
+    </message>
+    <message>
+        <source>URLs</source>
+        <translation>URLታት</translation>
+    </message>
 </context>
 </TS>

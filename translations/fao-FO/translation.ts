@@ -1463,5 +1463,121 @@
         <source>%n comments wait for moderation</source>
         <translation>%n viðmerkingar bíða eftir eftirliti</translation>
     </message>
+    <message>
+        <source>Give an address on this site, such as /campaign/running.</source>
+        <translation>Gev eina adressu á hesi heimasíðuni, t.d. /campaign/running.</translation>
+    </message>
+    <message>
+        <source>There is no such language.</source>
+        <translation>Einki slíkt mál er til.</translation>
+    </message>
+    <message>
+        <source>This address is taken already.</source>
+        <translation>Henda adressan er longu tikin.</translation>
+    </message>
+    <message>
+        <source>There is a wildcard for this address already.</source>
+        <translation>Eitt jokertekn er longu til fyri hesa adressuna.</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Adressa</translation>
+    </message>
+    <message>
+        <source>Alias</source>
+        <translation>Alias</translation>
+    </message>
+    <message>
+        <source>Old address</source>
+        <translation>Gomul adressa</translation>
+    </message>
+    <message>
+        <source>Addresses of this page</source>
+        <translation>Adressur hjá hesi síðuni</translation>
+    </message>
+    <message>
+        <source>redirects</source>
+        <translation>víðarisendir</translation>
+    </message>
+    <message>
+        <source>Wildcards that lead here</source>
+        <translation>Jokertekn, sum føra higar</translation>
+    </message>
+    <message>
+        <source>No wildcard leads to this page.</source>
+        <translation>Einki jokertekn førir til hesa síðuna.</translation>
+    </message>
+    <message>
+        <source>shows this page</source>
+        <translation>vísir hesa síðuna</translation>
+    </message>
+    <message>
+        <source>Addresses visitors did not find</source>
+        <translation>Adressur, sum vitjandi ikki funnu</translation>
+    </message>
+    <message>
+        <source>Addresses of this site that answered "not found" and end like this page's address. A redirect sends their visitors here.</source>
+        <translation>Adressur á hesi heimasíðuni, sum svaraðu "ikki funnið" og enda sum adressan hjá hesi síðuni. Ein víðarisending sendir teirra vitjandi higar.</translation>
+    </message>
+    <message>
+        <source>None: no visitor missed this page.</source>
+        <translation>Eingin: eingin vitjandi hevur mist hesa síðuna.</translation>
+    </message>
+    <message>
+        <source>Redirect to this page</source>
+        <translation>Víðarisend til hesa síðuna</translation>
+    </message>
+    <message>
+        <source>%path now redirects to this page.</source>
+        <translation>%path víðarisendir nú til hesa síðuna.</translation>
+    </message>
+    <message>
+        <source>%n times, last %time</source>
+        <translation>%n ferðir, seinast %time</translation>
+    </message>
+    <message>
+        <source>Add the address</source>
+        <translation>Legg adressuna afturat</translation>
+    </message>
+    <message>
+        <source>Add an address</source>
+        <translation>Legg eina adressu afturat</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>Mál</translation>
+    </message>
+    <message>
+        <source>Redirect to the page's address (otherwise the page is shown under this address)</source>
+        <translation>Víðarisend til adressuna hjá síðuni (annars verður síðan víst undir hesi adressuni)</translation>
+    </message>
+    <message>
+        <source>Added as %path (the address was cleaned up).</source>
+        <translation>Lagt afturat sum %path (adressan varð reinsað).</translation>
+    </message>
+    <message>
+        <source>Added: %path</source>
+        <translation>Lagt afturat: %path</translation>
+    </message>
+    <message>
+        <source>Add the wildcard</source>
+        <translation>Legg jokerteknið afturat</translation>
+    </message>
+    <message>
+        <source>Add a wildcard</source>
+        <translation>Legg eitt jokertekn afturat</translation>
+    </message>
+    <message>
+        <source>Every address that matches leads to this page; a * matches the rest of the address.</source>
+        <translation>Hvør adressa, sum samsvarar, førir til hesa síðuna; ein * samsvarar við restina av adressuni.</translation>
+    </message>
+    <message>
+        <source>Address pattern</source>
+        <translation>Adressumynstur</translation>
+    </message>
+    <message>
+        <source>URLs</source>
+        <translation>URL'ar</translation>
+    </message>
 </context>
 </TS>

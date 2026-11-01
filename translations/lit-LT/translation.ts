@@ -1463,5 +1463,121 @@
         <source>%n comments wait for moderation</source>
         <translation>%n komentarai laukia moderavimo</translation>
     </message>
+    <message>
+        <source>Give an address on this site, such as /campaign/running.</source>
+        <translation>Nurodykite šios svetainės adresą, pvz., /campaign/running.</translation>
+    </message>
+    <message>
+        <source>There is no such language.</source>
+        <translation>Tokios kalbos nėra.</translation>
+    </message>
+    <message>
+        <source>This address is taken already.</source>
+        <translation>Šis adresas jau užimtas.</translation>
+    </message>
+    <message>
+        <source>There is a wildcard for this address already.</source>
+        <translation>Šiam adresui jau yra pakaitos šablonas.</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Adresas</translation>
+    </message>
+    <message>
+        <source>Alias</source>
+        <translation>Slapyvardis</translation>
+    </message>
+    <message>
+        <source>Old address</source>
+        <translation>Senas adresas</translation>
+    </message>
+    <message>
+        <source>Addresses of this page</source>
+        <translation>Šio puslapio adresai</translation>
+    </message>
+    <message>
+        <source>redirects</source>
+        <translation>peradresuoja</translation>
+    </message>
+    <message>
+        <source>Wildcards that lead here</source>
+        <translation>Pakaitos šablonai, vedantys čia</translation>
+    </message>
+    <message>
+        <source>No wildcard leads to this page.</source>
+        <translation>Joks pakaitos šablonas neveda į šį puslapį.</translation>
+    </message>
+    <message>
+        <source>shows this page</source>
+        <translation>rodo šį puslapį</translation>
+    </message>
+    <message>
+        <source>Addresses visitors did not find</source>
+        <translation>Adresai, kurių lankytojai nerado</translation>
+    </message>
+    <message>
+        <source>Addresses of this site that answered "not found" and end like this page's address. A redirect sends their visitors here.</source>
+        <translation>Šios svetainės adresai, kurie atsakė "nerasta" ir baigiasi kaip šio puslapio adresas. Peradresavimas siunčia jų lankytojus čia.</translation>
+    </message>
+    <message>
+        <source>None: no visitor missed this page.</source>
+        <translation>Nėra: nė vienas lankytojas nepraleido šio puslapio.</translation>
+    </message>
+    <message>
+        <source>Redirect to this page</source>
+        <translation>Peradresuoti į šį puslapį</translation>
+    </message>
+    <message>
+        <source>%path now redirects to this page.</source>
+        <translation>%path dabar peradresuoja į šį puslapį.</translation>
+    </message>
+    <message>
+        <source>%n times, last %time</source>
+        <translation>%n kartų, paskutinį kartą %time</translation>
+    </message>
+    <message>
+        <source>Add the address</source>
+        <translation>Pridėti adresą</translation>
+    </message>
+    <message>
+        <source>Add an address</source>
+        <translation>Pridėti adresą</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>Kalba</translation>
+    </message>
+    <message>
+        <source>Redirect to the page's address (otherwise the page is shown under this address)</source>
+        <translation>Peradresuoti į puslapio adresą (kitaip puslapis rodomas šiuo adresu)</translation>
+    </message>
+    <message>
+        <source>Added as %path (the address was cleaned up).</source>
+        <translation>Pridėta kaip %path (adresas išvalytas).</translation>
+    </message>
+    <message>
+        <source>Added: %path</source>
+        <translation>Pridėta: %path</translation>
+    </message>
+    <message>
+        <source>Add the wildcard</source>
+        <translation>Pridėti pakaitos šabloną</translation>
+    </message>
+    <message>
+        <source>Add a wildcard</source>
+        <translation>Pridėti pakaitos šabloną</translation>
+    </message>
+    <message>
+        <source>Every address that matches leads to this page; a * matches the rest of the address.</source>
+        <translation>Kiekvienas atitinkantis adresas veda į šį puslapį; * atitinka likusią adreso dalį.</translation>
+    </message>
+    <message>
+        <source>Address pattern</source>
+        <translation>Adreso šablonas</translation>
+    </message>
+    <message>
+        <source>URLs</source>
+        <translation>URL adresai</translation>
+    </message>
 </context>
 </TS>

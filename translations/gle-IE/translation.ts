@@ -1463,5 +1463,121 @@
         <source>%n comments wait for moderation</source>
         <translation>%n trácht ag fanacht le modhnóireacht</translation>
     </message>
+    <message>
+        <source>Give an address on this site, such as /campaign/running.</source>
+        <translation>Tabhair seoladh ar an suíomh seo, mar shampla /campaign/running.</translation>
+    </message>
+    <message>
+        <source>There is no such language.</source>
+        <translation>Níl a leithéid de theanga ann.</translation>
+    </message>
+    <message>
+        <source>This address is taken already.</source>
+        <translation>Tá an seoladh seo in úsáid cheana.</translation>
+    </message>
+    <message>
+        <source>There is a wildcard for this address already.</source>
+        <translation>Tá saoróg ann don seoladh seo cheana.</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Seoladh</translation>
+    </message>
+    <message>
+        <source>Alias</source>
+        <translation>Ailias</translation>
+    </message>
+    <message>
+        <source>Old address</source>
+        <translation>Seanseoladh</translation>
+    </message>
+    <message>
+        <source>Addresses of this page</source>
+        <translation>Seoltaí an leathanaigh seo</translation>
+    </message>
+    <message>
+        <source>redirects</source>
+        <translation>atreoraíonn</translation>
+    </message>
+    <message>
+        <source>Wildcards that lead here</source>
+        <translation>Saoróga a thugann anseo</translation>
+    </message>
+    <message>
+        <source>No wildcard leads to this page.</source>
+        <translation>Níl saoróg ar bith a thugann chuig an leathanach seo.</translation>
+    </message>
+    <message>
+        <source>shows this page</source>
+        <translation>taispeánann sé an leathanach seo</translation>
+    </message>
+    <message>
+        <source>Addresses visitors did not find</source>
+        <translation>Seoltaí nár aimsigh cuairteoirí</translation>
+    </message>
+    <message>
+        <source>Addresses of this site that answered "not found" and end like this page's address. A redirect sends their visitors here.</source>
+        <translation>Seoltaí den suíomh seo a d'fhreagair "níor aimsíodh" agus a chríochnaíonn cosúil le seoladh an leathanaigh seo. Seolann atreorú a gcuid cuairteoirí anseo.</translation>
+    </message>
+    <message>
+        <source>None: no visitor missed this page.</source>
+        <translation>Dada: níor chaill aon chuairteoir an leathanach seo.</translation>
+    </message>
+    <message>
+        <source>Redirect to this page</source>
+        <translation>Atreoraigh chuig an leathanach seo</translation>
+    </message>
+    <message>
+        <source>%path now redirects to this page.</source>
+        <translation>Atreoraíonn %path chuig an leathanach seo anois.</translation>
+    </message>
+    <message>
+        <source>%n times, last %time</source>
+        <translation>%n uair, an uair dheireanach %time</translation>
+    </message>
+    <message>
+        <source>Add the address</source>
+        <translation>Cuir an seoladh leis</translation>
+    </message>
+    <message>
+        <source>Add an address</source>
+        <translation>Cuir seoladh leis</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>Teanga</translation>
+    </message>
+    <message>
+        <source>Redirect to the page's address (otherwise the page is shown under this address)</source>
+        <translation>Atreoraigh chuig seoladh an leathanaigh (nó taispeántar an leathanach faoin seoladh seo)</translation>
+    </message>
+    <message>
+        <source>Added as %path (the address was cleaned up).</source>
+        <translation>Curtha leis mar %path (glanadh an seoladh).</translation>
+    </message>
+    <message>
+        <source>Added: %path</source>
+        <translation>Curtha leis: %path</translation>
+    </message>
+    <message>
+        <source>Add the wildcard</source>
+        <translation>Cuir an tsaoróg leis</translation>
+    </message>
+    <message>
+        <source>Add a wildcard</source>
+        <translation>Cuir saoróg leis</translation>
+    </message>
+    <message>
+        <source>Every address that matches leads to this page; a * matches the rest of the address.</source>
+        <translation>Tugann gach seoladh a mheaitseálann chuig an leathanach seo; meaitseálann * an chuid eile den seoladh.</translation>
+    </message>
+    <message>
+        <source>Address pattern</source>
+        <translation>Patrún seolta</translation>
+    </message>
+    <message>
+        <source>URLs</source>
+        <translation>URLanna</translation>
+    </message>
 </context>
 </TS>

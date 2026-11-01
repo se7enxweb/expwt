@@ -1463,5 +1463,121 @@
         <source>%n comments wait for moderation</source>
         <translation>%n تبصرے موڈریشن دی اڈیک وچ</translation>
     </message>
+    <message>
+        <source>Give an address on this site, such as /campaign/running.</source>
+        <translation>ایس سائٹ دا اک پتہ دیو، جیویں /campaign/running۔</translation>
+    </message>
+    <message>
+        <source>There is no such language.</source>
+        <translation>اجیہی کوئی بولی نہیں۔</translation>
+    </message>
+    <message>
+        <source>This address is taken already.</source>
+        <translation>ایہہ پتہ پہلاں ای لیا جا چکیا اے۔</translation>
+    </message>
+    <message>
+        <source>There is a wildcard for this address already.</source>
+        <translation>ایس پتے لئی پہلاں ای اک وائلڈکارڈ اے۔</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>پتہ</translation>
+    </message>
+    <message>
+        <source>Alias</source>
+        <translation>دوجا ناں</translation>
+    </message>
+    <message>
+        <source>Old address</source>
+        <translation>پرانا پتہ</translation>
+    </message>
+    <message>
+        <source>Addresses of this page</source>
+        <translation>ایس صفحے دے پتے</translation>
+    </message>
+    <message>
+        <source>redirects</source>
+        <translation>ری ڈائریکٹ کردا اے</translation>
+    </message>
+    <message>
+        <source>Wildcards that lead here</source>
+        <translation>ایتھے لیاؤن والے وائلڈکارڈ</translation>
+    </message>
+    <message>
+        <source>No wildcard leads to this page.</source>
+        <translation>کوئی وائلڈکارڈ ایس صفحے تے نہیں لیاؤندا۔</translation>
+    </message>
+    <message>
+        <source>shows this page</source>
+        <translation>ایہہ صفحہ وکھاؤندا اے</translation>
+    </message>
+    <message>
+        <source>Addresses visitors did not find</source>
+        <translation>پتے جیہڑے آؤن والیاں نوں نہیں لبھے</translation>
+    </message>
+    <message>
+        <source>Addresses of this site that answered "not found" and end like this page's address. A redirect sends their visitors here.</source>
+        <translation>ایس سائٹ دے پتے جنہاں نے "نہیں لبھیا" جواب دتا تے جیہڑے ایس صفحے دے پتے وانگ مکدے نیں۔ ری ڈائریکٹ اوہناں دے آؤن والیاں نوں ایتھے گھلدا اے۔</translation>
+    </message>
+    <message>
+        <source>None: no visitor missed this page.</source>
+        <translation>کوئی نہیں: کسے آؤن والے کولوں ایہہ صفحہ نہیں رہیا۔</translation>
+    </message>
+    <message>
+        <source>Redirect to this page</source>
+        <translation>ایس صفحے تے ری ڈائریکٹ کرو</translation>
+    </message>
+    <message>
+        <source>%path now redirects to this page.</source>
+        <translation>%path ہُن ایس صفحے تے ری ڈائریکٹ کردا اے۔</translation>
+    </message>
+    <message>
+        <source>%n times, last %time</source>
+        <translation>%n واری، آخری %time</translation>
+    </message>
+    <message>
+        <source>Add the address</source>
+        <translation>پتہ جوڑو</translation>
+    </message>
+    <message>
+        <source>Add an address</source>
+        <translation>اک پتہ جوڑو</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>بولی</translation>
+    </message>
+    <message>
+        <source>Redirect to the page's address (otherwise the page is shown under this address)</source>
+        <translation>صفحے دے پتے تے ری ڈائریکٹ کرو (نہیں تے صفحہ ایس پتے تے وکھایا جاندا اے)</translation>
+    </message>
+    <message>
+        <source>Added as %path (the address was cleaned up).</source>
+        <translation>%path دے طور تے جوڑیا گیا (پتہ صاف کیتا گیا)۔</translation>
+    </message>
+    <message>
+        <source>Added: %path</source>
+        <translation>جوڑیا گیا: %path</translation>
+    </message>
+    <message>
+        <source>Add the wildcard</source>
+        <translation>وائلڈکارڈ جوڑو</translation>
+    </message>
+    <message>
+        <source>Add a wildcard</source>
+        <translation>اک وائلڈکارڈ جوڑو</translation>
+    </message>
+    <message>
+        <source>Every address that matches leads to this page; a * matches the rest of the address.</source>
+        <translation>رلدا ہر پتہ ایس صفحے تے لیاؤندا اے؛ * پتے دے باقی حصے نال رلدا اے۔</translation>
+    </message>
+    <message>
+        <source>Address pattern</source>
+        <translation>پتے دا نمونہ</translation>
+    </message>
+    <message>
+        <source>URLs</source>
+        <translation>URL</translation>
+    </message>
 </context>
 </TS>

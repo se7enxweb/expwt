@@ -1463,5 +1463,121 @@
         <source>%n comments wait for moderation</source>
         <translation>Yaadonni %n to'annoo eegaa jiru</translation>
     </message>
+    <message>
+        <source>Give an address on this site, such as /campaign/running.</source>
+        <translation>Teessoo marsariitii kanaa kenni, fakkeenyaaf /campaign/running.</translation>
+    </message>
+    <message>
+        <source>There is no such language.</source>
+        <translation>Afaan akkasii hin jiru.</translation>
+    </message>
+    <message>
+        <source>This address is taken already.</source>
+        <translation>Teessoon kun duraan qabameera.</translation>
+    </message>
+    <message>
+        <source>There is a wildcard for this address already.</source>
+        <translation>Teessoo kanaaf duraan wildcard jira.</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Teessoo</translation>
+    </message>
+    <message>
+        <source>Alias</source>
+        <translation>Maqaa biraa</translation>
+    </message>
+    <message>
+        <source>Old address</source>
+        <translation>Teessoo durii</translation>
+    </message>
+    <message>
+        <source>Addresses of this page</source>
+        <translation>Teessoowwan fuula kanaa</translation>
+    </message>
+    <message>
+        <source>redirects</source>
+        <translation>ni jijjiira</translation>
+    </message>
+    <message>
+        <source>Wildcards that lead here</source>
+        <translation>Wildcard gara asitti geessan</translation>
+    </message>
+    <message>
+        <source>No wildcard leads to this page.</source>
+        <translation>Wildcard tokkollee gara fuula kanaatti hin geessu.</translation>
+    </message>
+    <message>
+        <source>shows this page</source>
+        <translation>fuula kana agarsiisa</translation>
+    </message>
+    <message>
+        <source>Addresses visitors did not find</source>
+        <translation>Teessoowwan daawwattoonni hin arganne</translation>
+    </message>
+    <message>
+        <source>Addresses of this site that answered "not found" and end like this page's address. A redirect sends their visitors here.</source>
+        <translation>Teessoowwan marsariitii kanaa kanneen "hin argamne" jedhanii deebisanii fi akka teessoo fuula kanaa xumuraman. Jijjiirraan daawwattoota isaanii gara asitti erga.</translation>
+    </message>
+    <message>
+        <source>None: no visitor missed this page.</source>
+        <translation>Homaa: daawwataan tokkollee fuula kana hin dhabne.</translation>
+    </message>
+    <message>
+        <source>Redirect to this page</source>
+        <translation>Gara fuula kanaatti jijjiiri</translation>
+    </message>
+    <message>
+        <source>%path now redirects to this page.</source>
+        <translation>%path amma gara fuula kanaatti jijjiira.</translation>
+    </message>
+    <message>
+        <source>%n times, last %time</source>
+        <translation>Yeroo %n, dhumaa %time</translation>
+    </message>
+    <message>
+        <source>Add the address</source>
+        <translation>Teessoo dabali</translation>
+    </message>
+    <message>
+        <source>Add an address</source>
+        <translation>Teessoo tokko dabali</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>Afaan</translation>
+    </message>
+    <message>
+        <source>Redirect to the page's address (otherwise the page is shown under this address)</source>
+        <translation>Gara teessoo fuulaatti jijjiiri (yoo kana hin taane fuulli teessoo kana jalatti mul'ata)</translation>
+    </message>
+    <message>
+        <source>Added as %path (the address was cleaned up).</source>
+        <translation>Akka %path tti dabalame (teessoon qulqulleeffame).</translation>
+    </message>
+    <message>
+        <source>Added: %path</source>
+        <translation>Dabalame: %path</translation>
+    </message>
+    <message>
+        <source>Add the wildcard</source>
+        <translation>Wildcard dabali</translation>
+    </message>
+    <message>
+        <source>Add a wildcard</source>
+        <translation>Wildcard tokko dabali</translation>
+    </message>
+    <message>
+        <source>Every address that matches leads to this page; a * matches the rest of the address.</source>
+        <translation>Teessoon wal simu hundi gara fuula kanaatti geessa; * hafaa teessoo wajjin wal sima.</translation>
+    </message>
+    <message>
+        <source>Address pattern</source>
+        <translation>Akkaataa teessoo</translation>
+    </message>
+    <message>
+        <source>URLs</source>
+        <translation>URLs</translation>
+    </message>
 </context>
 </TS>

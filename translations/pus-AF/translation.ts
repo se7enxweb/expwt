@@ -1463,5 +1463,121 @@
         <source>%n comments wait for moderation</source>
         <translation>%n تبصرې د څارنې په تمه دي</translation>
     </message>
+    <message>
+        <source>Give an address on this site, such as /campaign/running.</source>
+        <translation>د دې سایټ یوه پته ورکړئ، لکه /campaign/running.</translation>
+    </message>
+    <message>
+        <source>There is no such language.</source>
+        <translation>داسې ژبه نشته.</translation>
+    </message>
+    <message>
+        <source>This address is taken already.</source>
+        <translation>دا پته مخکې نیول شوې ده.</translation>
+    </message>
+    <message>
+        <source>There is a wildcard for this address already.</source>
+        <translation>د دې پتې لپاره مخکې یو وایلډکارډ شته.</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>پته</translation>
+    </message>
+    <message>
+        <source>Alias</source>
+        <translation>بل نوم</translation>
+    </message>
+    <message>
+        <source>Old address</source>
+        <translation>زړه پته</translation>
+    </message>
+    <message>
+        <source>Addresses of this page</source>
+        <translation>د دې پاڼې پتې</translation>
+    </message>
+    <message>
+        <source>redirects</source>
+        <translation>بیا لېږدوي</translation>
+    </message>
+    <message>
+        <source>Wildcards that lead here</source>
+        <translation>هغه وایلډکارډونه چې دلته راولي</translation>
+    </message>
+    <message>
+        <source>No wildcard leads to this page.</source>
+        <translation>هېڅ وایلډکارډ دې پاڼې ته نه راولي.</translation>
+    </message>
+    <message>
+        <source>shows this page</source>
+        <translation>دا پاڼه ښيي</translation>
+    </message>
+    <message>
+        <source>Addresses visitors did not find</source>
+        <translation>هغه پتې چې لیدونکو ونه موندلې</translation>
+    </message>
+    <message>
+        <source>Addresses of this site that answered "not found" and end like this page's address. A redirect sends their visitors here.</source>
+        <translation>د دې سایټ هغه پتې چې "ونه موندل شوه" ځواب یې ورکړ او د دې پاڼې د پتې په څېر پای ته رسېږي. بیا لېږد یې لیدونکي دلته لېږي.</translation>
+    </message>
+    <message>
+        <source>None: no visitor missed this page.</source>
+        <translation>هېڅ: هېڅ لیدونکي دا پاڼه له لاسه نه ده ورکړې.</translation>
+    </message>
+    <message>
+        <source>Redirect to this page</source>
+        <translation>دې پاڼې ته بیا لېږد</translation>
+    </message>
+    <message>
+        <source>%path now redirects to this page.</source>
+        <translation>%path اوس دې پاڼې ته بیا لېږدوي.</translation>
+    </message>
+    <message>
+        <source>%n times, last %time</source>
+        <translation>%n ځله، وروستی %time</translation>
+    </message>
+    <message>
+        <source>Add the address</source>
+        <translation>پته اضافه کړئ</translation>
+    </message>
+    <message>
+        <source>Add an address</source>
+        <translation>یوه پته اضافه کړئ</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>ژبه</translation>
+    </message>
+    <message>
+        <source>Redirect to the page's address (otherwise the page is shown under this address)</source>
+        <translation>د پاڼې پتې ته بیا لېږد (که نه، پاڼه د دې پتې لاندې ښودل کېږي)</translation>
+    </message>
+    <message>
+        <source>Added as %path (the address was cleaned up).</source>
+        <translation>د %path په توګه اضافه شوه (پته پاکه شوه).</translation>
+    </message>
+    <message>
+        <source>Added: %path</source>
+        <translation>اضافه شوه: %path</translation>
+    </message>
+    <message>
+        <source>Add the wildcard</source>
+        <translation>وایلډکارډ اضافه کړئ</translation>
+    </message>
+    <message>
+        <source>Add a wildcard</source>
+        <translation>یو وایلډکارډ اضافه کړئ</translation>
+    </message>
+    <message>
+        <source>Every address that matches leads to this page; a * matches the rest of the address.</source>
+        <translation>هره سمون لرونکې پته دې پاڼې ته راولي؛ * د پتې له پاتې برخې سره سمون لري.</translation>
+    </message>
+    <message>
+        <source>Address pattern</source>
+        <translation>د پتې بڼه</translation>
+    </message>
+    <message>
+        <source>URLs</source>
+        <translation>URLs</translation>
+    </message>
 </context>
 </TS>

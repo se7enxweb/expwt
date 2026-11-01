@@ -1463,5 +1463,121 @@
         <source>%n comments wait for moderation</source>
         <translation>%n komentarjev čaka na moderiranje</translation>
     </message>
+    <message>
+        <source>Give an address on this site, such as /campaign/running.</source>
+        <translation>Navedite naslov na tem spletnem mestu, npr. /campaign/running.</translation>
+    </message>
+    <message>
+        <source>There is no such language.</source>
+        <translation>Takega jezika ni.</translation>
+    </message>
+    <message>
+        <source>This address is taken already.</source>
+        <translation>Ta naslov je že zaseden.</translation>
+    </message>
+    <message>
+        <source>There is a wildcard for this address already.</source>
+        <translation>Za ta naslov že obstaja nadomestni znak.</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Naslov</translation>
+    </message>
+    <message>
+        <source>Alias</source>
+        <translation>Vzdevek</translation>
+    </message>
+    <message>
+        <source>Old address</source>
+        <translation>Stari naslov</translation>
+    </message>
+    <message>
+        <source>Addresses of this page</source>
+        <translation>Naslovi te strani</translation>
+    </message>
+    <message>
+        <source>redirects</source>
+        <translation>preusmerja</translation>
+    </message>
+    <message>
+        <source>Wildcards that lead here</source>
+        <translation>Nadomestni znaki, ki vodijo sem</translation>
+    </message>
+    <message>
+        <source>No wildcard leads to this page.</source>
+        <translation>Noben nadomestni znak ne vodi na to stran.</translation>
+    </message>
+    <message>
+        <source>shows this page</source>
+        <translation>prikazuje to stran</translation>
+    </message>
+    <message>
+        <source>Addresses visitors did not find</source>
+        <translation>Naslovi, ki jih obiskovalci niso našli</translation>
+    </message>
+    <message>
+        <source>Addresses of this site that answered "not found" and end like this page's address. A redirect sends their visitors here.</source>
+        <translation>Naslovi tega spletnega mesta, ki so odgovorili "ni najdeno" in se končajo kot naslov te strani. Preusmeritev pošlje njihove obiskovalce sem.</translation>
+    </message>
+    <message>
+        <source>None: no visitor missed this page.</source>
+        <translation>Nobenega: noben obiskovalec ni zgrešil te strani.</translation>
+    </message>
+    <message>
+        <source>Redirect to this page</source>
+        <translation>Preusmeri na to stran</translation>
+    </message>
+    <message>
+        <source>%path now redirects to this page.</source>
+        <translation>%path zdaj preusmerja na to stran.</translation>
+    </message>
+    <message>
+        <source>%n times, last %time</source>
+        <translation>%n-krat, nazadnje %time</translation>
+    </message>
+    <message>
+        <source>Add the address</source>
+        <translation>Dodaj naslov</translation>
+    </message>
+    <message>
+        <source>Add an address</source>
+        <translation>Dodaj naslov</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>Jezik</translation>
+    </message>
+    <message>
+        <source>Redirect to the page's address (otherwise the page is shown under this address)</source>
+        <translation>Preusmeri na naslov strani (sicer je stran prikazana pod tem naslovom)</translation>
+    </message>
+    <message>
+        <source>Added as %path (the address was cleaned up).</source>
+        <translation>Dodano kot %path (naslov je bil očiščen).</translation>
+    </message>
+    <message>
+        <source>Added: %path</source>
+        <translation>Dodano: %path</translation>
+    </message>
+    <message>
+        <source>Add the wildcard</source>
+        <translation>Dodaj nadomestni znak</translation>
+    </message>
+    <message>
+        <source>Add a wildcard</source>
+        <translation>Dodaj nadomestni znak</translation>
+    </message>
+    <message>
+        <source>Every address that matches leads to this page; a * matches the rest of the address.</source>
+        <translation>Vsak ustrezen naslov vodi na to stran; * ustreza preostanku naslova.</translation>
+    </message>
+    <message>
+        <source>Address pattern</source>
+        <translation>Vzorec naslova</translation>
+    </message>
+    <message>
+        <source>URLs</source>
+        <translation>URL-ji</translation>
+    </message>
 </context>
 </TS>

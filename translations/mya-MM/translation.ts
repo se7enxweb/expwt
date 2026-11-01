@@ -1463,5 +1463,121 @@
         <source>%n comments wait for moderation</source>
         <translation>မှတ်ချက် %n ခု စိစစ်ရန် စောင့်နေသည်</translation>
     </message>
+    <message>
+        <source>Give an address on this site, such as /campaign/running.</source>
+        <translation>ဤဆိုက်ရှိ လိပ်စာတစ်ခု ပေးပါ၊ ဥပမာ /campaign/running။</translation>
+    </message>
+    <message>
+        <source>There is no such language.</source>
+        <translation>ထိုကဲ့သို့ ဘာသာစကား မရှိပါ။</translation>
+    </message>
+    <message>
+        <source>This address is taken already.</source>
+        <translation>ဤလိပ်စာကို ယူပြီးသားဖြစ်သည်။</translation>
+    </message>
+    <message>
+        <source>There is a wildcard for this address already.</source>
+        <translation>ဤလိပ်စာအတွက် wildcard ရှိပြီးသားဖြစ်သည်။</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>လိပ်စာ</translation>
+    </message>
+    <message>
+        <source>Alias</source>
+        <translation>အမည်ကွဲ</translation>
+    </message>
+    <message>
+        <source>Old address</source>
+        <translation>လိပ်စာဟောင်း</translation>
+    </message>
+    <message>
+        <source>Addresses of this page</source>
+        <translation>ဤစာမျက်နှာ၏ လိပ်စာများ</translation>
+    </message>
+    <message>
+        <source>redirects</source>
+        <translation>လမ်းကြောင်းလွှဲသည်</translation>
+    </message>
+    <message>
+        <source>Wildcards that lead here</source>
+        <translation>ဤနေရာသို့ ဦးတည်သော wildcard များ</translation>
+    </message>
+    <message>
+        <source>No wildcard leads to this page.</source>
+        <translation>ဤစာမျက်နှာသို့ ဦးတည်သော wildcard မရှိပါ။</translation>
+    </message>
+    <message>
+        <source>shows this page</source>
+        <translation>ဤစာမျက်နှာကို ပြသည်</translation>
+    </message>
+    <message>
+        <source>Addresses visitors did not find</source>
+        <translation>ဧည့်သည်များ ရှာမတွေ့သော လိပ်စာများ</translation>
+    </message>
+    <message>
+        <source>Addresses of this site that answered "not found" and end like this page's address. A redirect sends their visitors here.</source>
+        <translation>"ရှာမတွေ့ပါ" ဟု ဖြေခဲ့ပြီး ဤစာမျက်နှာ၏ လိပ်စာကဲ့သို့ အဆုံးသတ်သော ဤဆိုက်၏ လိပ်စာများ။ လမ်းကြောင်းလွှဲခြင်းက ၎င်းတို့၏ ဧည့်သည်များကို ဤနေရာသို့ ပို့သည်။</translation>
+    </message>
+    <message>
+        <source>None: no visitor missed this page.</source>
+        <translation>မရှိပါ- ဤစာမျက်နှာကို လွတ်သွားသော ဧည့်သည် မရှိပါ။</translation>
+    </message>
+    <message>
+        <source>Redirect to this page</source>
+        <translation>ဤစာမျက်နှာသို့ လမ်းကြောင်းလွှဲရန်</translation>
+    </message>
+    <message>
+        <source>%path now redirects to this page.</source>
+        <translation>%path သည် ယခု ဤစာမျက်နှာသို့ လမ်းကြောင်းလွှဲသည်။</translation>
+    </message>
+    <message>
+        <source>%n times, last %time</source>
+        <translation>%n ကြိမ်၊ နောက်ဆုံး %time</translation>
+    </message>
+    <message>
+        <source>Add the address</source>
+        <translation>လိပ်စာ ထည့်ရန်</translation>
+    </message>
+    <message>
+        <source>Add an address</source>
+        <translation>လိပ်စာတစ်ခု ထည့်ရန်</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>ဘာသာစကား</translation>
+    </message>
+    <message>
+        <source>Redirect to the page's address (otherwise the page is shown under this address)</source>
+        <translation>စာမျက်နှာ၏ လိပ်စာသို့ လမ်းကြောင်းလွှဲရန် (မဟုတ်ပါက စာမျက်နှာကို ဤလိပ်စာအောက်တွင် ပြသည်)</translation>
+    </message>
+    <message>
+        <source>Added as %path (the address was cleaned up).</source>
+        <translation>%path အဖြစ် ထည့်ပြီးပါပြီ (လိပ်စာကို ရှင်းလင်းထားသည်)။</translation>
+    </message>
+    <message>
+        <source>Added: %path</source>
+        <translation>ထည့်ပြီးပါပြီ- %path</translation>
+    </message>
+    <message>
+        <source>Add the wildcard</source>
+        <translation>wildcard ထည့်ရန်</translation>
+    </message>
+    <message>
+        <source>Add a wildcard</source>
+        <translation>wildcard တစ်ခု ထည့်ရန်</translation>
+    </message>
+    <message>
+        <source>Every address that matches leads to this page; a * matches the rest of the address.</source>
+        <translation>ကိုက်ညီသော လိပ်စာတိုင်း ဤစာမျက်နှာသို့ ဦးတည်သည်၊ * သည် လိပ်စာ၏ ကျန်အပိုင်းနှင့် ကိုက်ညီသည်။</translation>
+    </message>
+    <message>
+        <source>Address pattern</source>
+        <translation>လိပ်စာ ပုံစံ</translation>
+    </message>
+    <message>
+        <source>URLs</source>
+        <translation>URL များ</translation>
+    </message>
 </context>
 </TS>

@@ -1463,5 +1463,121 @@
         <source>%n comments wait for moderation</source>
         <translation>%n σχόλια περιμένουν έλεγχο</translation>
     </message>
+    <message>
+        <source>Give an address on this site, such as /campaign/running.</source>
+        <translation>Δώστε μια διεύθυνση σε αυτόν τον ιστότοπο, π.χ. /campaign/running.</translation>
+    </message>
+    <message>
+        <source>There is no such language.</source>
+        <translation>Δεν υπάρχει τέτοια γλώσσα.</translation>
+    </message>
+    <message>
+        <source>This address is taken already.</source>
+        <translation>Αυτή η διεύθυνση χρησιμοποιείται ήδη.</translation>
+    </message>
+    <message>
+        <source>There is a wildcard for this address already.</source>
+        <translation>Υπάρχει ήδη μπαλαντέρ για αυτή τη διεύθυνση.</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Διεύθυνση</translation>
+    </message>
+    <message>
+        <source>Alias</source>
+        <translation>Ψευδώνυμο</translation>
+    </message>
+    <message>
+        <source>Old address</source>
+        <translation>Παλιά διεύθυνση</translation>
+    </message>
+    <message>
+        <source>Addresses of this page</source>
+        <translation>Διευθύνσεις αυτής της σελίδας</translation>
+    </message>
+    <message>
+        <source>redirects</source>
+        <translation>ανακατευθύνει</translation>
+    </message>
+    <message>
+        <source>Wildcards that lead here</source>
+        <translation>Μπαλαντέρ που οδηγούν εδώ</translation>
+    </message>
+    <message>
+        <source>No wildcard leads to this page.</source>
+        <translation>Κανένα μπαλαντέρ δεν οδηγεί σε αυτή τη σελίδα.</translation>
+    </message>
+    <message>
+        <source>shows this page</source>
+        <translation>εμφανίζει αυτή τη σελίδα</translation>
+    </message>
+    <message>
+        <source>Addresses visitors did not find</source>
+        <translation>Διευθύνσεις που δεν βρήκαν οι επισκέπτες</translation>
+    </message>
+    <message>
+        <source>Addresses of this site that answered "not found" and end like this page's address. A redirect sends their visitors here.</source>
+        <translation>Διευθύνσεις αυτού του ιστότοπου που απάντησαν "δεν βρέθηκε" και τελειώνουν όπως η διεύθυνση αυτής της σελίδας. Μια ανακατεύθυνση στέλνει τους επισκέπτες τους εδώ.</translation>
+    </message>
+    <message>
+        <source>None: no visitor missed this page.</source>
+        <translation>Καμία: κανένας επισκέπτης δεν έχασε αυτή τη σελίδα.</translation>
+    </message>
+    <message>
+        <source>Redirect to this page</source>
+        <translation>Ανακατεύθυνση σε αυτή τη σελίδα</translation>
+    </message>
+    <message>
+        <source>%path now redirects to this page.</source>
+        <translation>Η %path ανακατευθύνει τώρα σε αυτή τη σελίδα.</translation>
+    </message>
+    <message>
+        <source>%n times, last %time</source>
+        <translation>%n φορές, τελευταία %time</translation>
+    </message>
+    <message>
+        <source>Add the address</source>
+        <translation>Προσθήκη διεύθυνσης</translation>
+    </message>
+    <message>
+        <source>Add an address</source>
+        <translation>Προσθήκη διεύθυνσης</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>Γλώσσα</translation>
+    </message>
+    <message>
+        <source>Redirect to the page's address (otherwise the page is shown under this address)</source>
+        <translation>Ανακατεύθυνση στη διεύθυνση της σελίδας (αλλιώς η σελίδα εμφανίζεται με αυτή τη διεύθυνση)</translation>
+    </message>
+    <message>
+        <source>Added as %path (the address was cleaned up).</source>
+        <translation>Προστέθηκε ως %path (η διεύθυνση καθαρίστηκε).</translation>
+    </message>
+    <message>
+        <source>Added: %path</source>
+        <translation>Προστέθηκε: %path</translation>
+    </message>
+    <message>
+        <source>Add the wildcard</source>
+        <translation>Προσθήκη μπαλαντέρ</translation>
+    </message>
+    <message>
+        <source>Add a wildcard</source>
+        <translation>Προσθήκη μπαλαντέρ</translation>
+    </message>
+    <message>
+        <source>Every address that matches leads to this page; a * matches the rest of the address.</source>
+        <translation>Κάθε διεύθυνση που ταιριάζει οδηγεί σε αυτή τη σελίδα· το * ταιριάζει με το υπόλοιπο της διεύθυνσης.</translation>
+    </message>
+    <message>
+        <source>Address pattern</source>
+        <translation>Μοτίβο διεύθυνσης</translation>
+    </message>
+    <message>
+        <source>URLs</source>
+        <translation>URL</translation>
+    </message>
 </context>
 </TS>

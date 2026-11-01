@@ -1463,5 +1463,121 @@
         <source>%n comments wait for moderation</source>
         <translation>%n Kommentare warten auf Moderation</translation>
     </message>
+    <message>
+        <source>Give an address on this site, such as /campaign/running.</source>
+        <translation>Geben Sie eine Adresse dieser Website an, etwa /campaign/running.</translation>
+    </message>
+    <message>
+        <source>There is no such language.</source>
+        <translation>Diese Sprache gibt es nicht.</translation>
+    </message>
+    <message>
+        <source>This address is taken already.</source>
+        <translation>Diese Adresse ist schon vergeben.</translation>
+    </message>
+    <message>
+        <source>There is a wildcard for this address already.</source>
+        <translation>Für diese Adresse gibt es schon einen Platzhalter.</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Adresse</translation>
+    </message>
+    <message>
+        <source>Alias</source>
+        <translation>Alias</translation>
+    </message>
+    <message>
+        <source>Old address</source>
+        <translation>Alte Adresse</translation>
+    </message>
+    <message>
+        <source>Addresses of this page</source>
+        <translation>Adressen dieser Seite</translation>
+    </message>
+    <message>
+        <source>redirects</source>
+        <translation>leitet weiter</translation>
+    </message>
+    <message>
+        <source>Wildcards that lead here</source>
+        <translation>Platzhalter, die hierher führen</translation>
+    </message>
+    <message>
+        <source>No wildcard leads to this page.</source>
+        <translation>Kein Platzhalter führt zu dieser Seite.</translation>
+    </message>
+    <message>
+        <source>shows this page</source>
+        <translation>zeigt diese Seite</translation>
+    </message>
+    <message>
+        <source>Addresses visitors did not find</source>
+        <translation>Adressen, die Besucher nicht fanden</translation>
+    </message>
+    <message>
+        <source>Addresses of this site that answered "not found" and end like this page's address. A redirect sends their visitors here.</source>
+        <translation>Adressen dieser Website, die mit "nicht gefunden" antworteten und wie die Adresse dieser Seite enden. Eine Weiterleitung schickt ihre Besucher hierher.</translation>
+    </message>
+    <message>
+        <source>None: no visitor missed this page.</source>
+        <translation>Keine: Kein Besucher hat diese Seite verfehlt.</translation>
+    </message>
+    <message>
+        <source>Redirect to this page</source>
+        <translation>Hierher weiterleiten</translation>
+    </message>
+    <message>
+        <source>%path now redirects to this page.</source>
+        <translation>%path leitet jetzt auf diese Seite weiter.</translation>
+    </message>
+    <message>
+        <source>%n times, last %time</source>
+        <translation>%n-mal, zuletzt %time</translation>
+    </message>
+    <message>
+        <source>Add the address</source>
+        <translation>Adresse hinzufügen</translation>
+    </message>
+    <message>
+        <source>Add an address</source>
+        <translation>Eine Adresse hinzufügen</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>Sprache</translation>
+    </message>
+    <message>
+        <source>Redirect to the page's address (otherwise the page is shown under this address)</source>
+        <translation>Auf die Adresse der Seite weiterleiten (sonst wird die Seite unter dieser Adresse gezeigt)</translation>
+    </message>
+    <message>
+        <source>Added as %path (the address was cleaned up).</source>
+        <translation>Hinzugefügt als %path (die Adresse wurde bereinigt).</translation>
+    </message>
+    <message>
+        <source>Added: %path</source>
+        <translation>Hinzugefügt: %path</translation>
+    </message>
+    <message>
+        <source>Add the wildcard</source>
+        <translation>Platzhalter hinzufügen</translation>
+    </message>
+    <message>
+        <source>Add a wildcard</source>
+        <translation>Einen Platzhalter hinzufügen</translation>
+    </message>
+    <message>
+        <source>Every address that matches leads to this page; a * matches the rest of the address.</source>
+        <translation>Jede passende Adresse führt zu dieser Seite; ein * passt auf den Rest der Adresse.</translation>
+    </message>
+    <message>
+        <source>Address pattern</source>
+        <translation>Adressmuster</translation>
+    </message>
+    <message>
+        <source>URLs</source>
+        <translation>URLs</translation>
+    </message>
 </context>
 </TS>

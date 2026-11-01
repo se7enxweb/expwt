@@ -1463,5 +1463,121 @@
         <source>%n comments wait for moderation</source>
         <translation>Oqaaseqaatit %n misissorneqarnissaminnut utaqqipput</translation>
     </message>
+    <message>
+        <source>Give an address on this site, such as /campaign/running.</source>
+        <translation>Nittartakkami matumani najugaq allaguk, soorlu /campaign/running.</translation>
+    </message>
+    <message>
+        <source>There is no such language.</source>
+        <translation>Oqaatsit taamaattut peqanngillat.</translation>
+    </message>
+    <message>
+        <source>This address is taken already.</source>
+        <translation>Najugaq una atorneqareerpoq.</translation>
+    </message>
+    <message>
+        <source>There is a wildcard for this address already.</source>
+        <translation>Najugamut uunga wildcard-imik peqareerpoq.</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Najugaq</translation>
+    </message>
+    <message>
+        <source>Alias</source>
+        <translation>Taaguut alla</translation>
+    </message>
+    <message>
+        <source>Old address</source>
+        <translation>Najugaq pisoqaq</translation>
+    </message>
+    <message>
+        <source>Addresses of this page</source>
+        <translation>Quppernerup matuma najugai</translation>
+    </message>
+    <message>
+        <source>redirects</source>
+        <translation>ingerlatitseqqittarpoq</translation>
+    </message>
+    <message>
+        <source>Wildcards that lead here</source>
+        <translation>Wildcard-it maangamut ingerlatitsisut</translation>
+    </message>
+    <message>
+        <source>No wildcard leads to this page.</source>
+        <translation>Wildcard-imik quppernermut uunga ingerlatitsisoqanngilaq.</translation>
+    </message>
+    <message>
+        <source>shows this page</source>
+        <translation>quppernermik uuminnga takutitsivoq</translation>
+    </message>
+    <message>
+        <source>Addresses visitors did not find</source>
+        <translation>Najugat tikeraartut nassaarisimanngisaat</translation>
+    </message>
+    <message>
+        <source>Addresses of this site that answered "not found" and end like this page's address. A redirect sends their visitors here.</source>
+        <translation>Nittartakkami matumani najugat "nassaarineqanngilaq" akisimasut quppernerullu matuma najugaatut naggateqartut. Ingerlatitseqqinnerup tikeraartui maangamut nassiuttarpai.</translation>
+    </message>
+    <message>
+        <source>None: no visitor missed this page.</source>
+        <translation>Peqanngilaq: tikeraartoq kinaluunniit quppernermik uuminnga amigaateqanngilaq.</translation>
+    </message>
+    <message>
+        <source>Redirect to this page</source>
+        <translation>Quppernermut uunga ingerlatitseqqigit</translation>
+    </message>
+    <message>
+        <source>%path now redirects to this page.</source>
+        <translation>%path maanna quppernermut uunga ingerlatitseqqittarpoq.</translation>
+    </message>
+    <message>
+        <source>%n times, last %time</source>
+        <translation>Mikkoqqat %n, kingulliit %time</translation>
+    </message>
+    <message>
+        <source>Add the address</source>
+        <translation>Najugaq ilanngutiguk</translation>
+    </message>
+    <message>
+        <source>Add an address</source>
+        <translation>Najugamik ilanngussigit</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>Oqaatsit</translation>
+    </message>
+    <message>
+        <source>Redirect to the page's address (otherwise the page is shown under this address)</source>
+        <translation>Quppernerup najugaanut ingerlatitseqqigit (taamaanngippat quppernera najugami uani takutinneqassaaq)</translation>
+    </message>
+    <message>
+        <source>Added as %path (the address was cleaned up).</source>
+        <translation>%path-itut ilanngunneqarpoq (najugaq eqqiluisaarneqarpoq).</translation>
+    </message>
+    <message>
+        <source>Added: %path</source>
+        <translation>Ilanngunneqarpoq: %path</translation>
+    </message>
+    <message>
+        <source>Add the wildcard</source>
+        <translation>Wildcard ilanngutiguk</translation>
+    </message>
+    <message>
+        <source>Add a wildcard</source>
+        <translation>Wildcard-imik ilanngussigit</translation>
+    </message>
+    <message>
+        <source>Every address that matches leads to this page; a * matches the rest of the address.</source>
+        <translation>Najugaq naapertuuttoq tamarmi quppernermut uunga ingerlatitsisarpoq; * najugap sinneranut naapertuuppoq.</translation>
+    </message>
+    <message>
+        <source>Address pattern</source>
+        <translation>Najugap ilusaa</translation>
+    </message>
+    <message>
+        <source>URLs</source>
+        <translation>URL-it</translation>
+    </message>
 </context>
 </TS>

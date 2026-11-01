@@ -155,6 +155,60 @@ class expwtPureTest extends PHPUnit\Framework\TestCase
         $this->assertArrayNotHasKey( 'comments.spam', expwtAccess::REAUTH_GROUPS, 'spam asks as the administration\'s removal asks' );
     }
 
+    /** E5: the not-found log read for the page, its addresses as typed, the wildcards that lead to it */
+    public function testTheAddressesOfThePage()
+    {
+        $lines = array(
+            '[ Oct 31 2026 16:40:40 ] [203.0.x.x] 404 GET /site/old-section/running-free?utm=*** siteaccess=site reason=module:old-section node=- referrer=- ua=- ""',
+            '[ Oct 31 2026 16:41:40 ] [203.0.x.x] 404 GET /site/old-section/running-free siteaccess=site reason=module:old-section node=- referrer=- ua=- ""',
+            '[ Oct 31 2026 16:42:40 ] [198.51.x.x] 410 GET /smarty/blog/Running-Free.html siteaccess=smarty reason=kernel:kernel/20 node=- referrer=- ua=- ""',
+            '[ Oct 31 2026 16:43:40 ] [198.51.x.x] 404 GET /site/unrelated siteaccess=site reason=module:unrelated node=- referrer=- ua=- ""',
+            '[ Oct 31 2026 16:44:40 ] [198.51.x.x] 404 POST /site/old-section/running-free siteaccess=site reason=module:x node=- referrer=- ua=- ""',
+            '[ Oct 31 2026 16:45:40 ] [198.51.x.x] 404 GET /fitness/running-free siteaccess=- reason=module:x node=- referrer=- ua=- ""',
+            'not a line of the log',
+        );
+        $counts = expwtGateway::notFoundCounts( $lines );
+        $this->assertSame( array( 'count' => 2, 'last' => 'Oct 31 2026 16:41:40' ), $counts['/old-section/running-free'], 'without the siteaccess and the query; POST is not a link' );
+        $this->assertSame( 1, $counts['/blog/Running-Free.html']['count'], '410 too' );
+        $this->assertArrayHasKey( '/unrelated', $counts );
+        $this->assertArrayHasKey( '/fitness/running-free', $counts );
+        foreach ( $counts as $path => $seen )
+            $this->assertStringNotContainsString( '203.0', $path . json_encode( $seen ), 'no visitor addresses' );
+        $broken = expwtGateway::brokenFor( $counts, array( 'running-free' ), array( '/fitness/running-free' ) );
+        $this->assertSame( array( '/old-section/running-free', '/blog/Running-Free.html' ), array_keys( $broken ), 'like the page, not the page itself, most often first' );
+        $this->assertSame( 'running-free', expwtGateway::slug( 'Running_Free.HTML' ) );
+        $this->assertSame( 'über-uns', expwtGateway::slug( 'Über uns' ) );
+
+        $this->assertSame( 'promo/run', expwtGateway::addressInput( ' /promo//run/ ' ) );
+        $this->assertSame( 'promo/run', expwtGateway::addressInput( 'https://alpha.se7enx.com/promo/run?x=1#top' ) );
+        $this->assertSame( 'old/*', expwtGateway::addressInput( '/old/*' ) );
+        foreach ( array( '', '  / ', '../etc', 'a/../../b', "a\x00b", str_repeat( 'a', 301 ) ) as $bad )
+            $this->assertNull( expwtGateway::addressInput( $bad ), json_encode( $bad ) );
+
+        $this->assertTrue( expwtGateway::wildcardLeadsTo( 'fitness/running-free', array( '/fitness/running-free' ), 128 ) );
+        $this->assertTrue( expwtGateway::wildcardLeadsTo( '/Fitness/Running-Free/?x', array( '/fitness/running-free' ), 128 ) );
+        $this->assertTrue( expwtGateway::wildcardLeadsTo( 'content/view/full/128', array(), 128 ) );
+        $this->assertFalse( expwtGateway::wildcardLeadsTo( 'fitness/running-free-2', array( '/fitness/running-free' ), 128 ) );
+        $this->assertFalse( expwtGateway::wildcardLeadsTo( 'content/view/full/1280', array(), 128 ) );
+
+        $this->assertSame( '/fitness/run', expwtGateway::withoutPrefix( 'fit-healthy/fitness/run', 'fit-healthy' ) );
+        $this->assertSame( '/fit-healthy-old/run', expwtGateway::withoutPrefix( '/fit-healthy-old/run', 'fit-healthy' ) );
+        $this->assertSame( '/fitness/run', expwtGateway::withoutPrefix( 'fitness/run', '' ) );
+        $this->assertContains( 'urls', expwtState::PANELS );
+        $this->assertContains( 'urls', expwtRegistry::CORE_PANELS );
+    }
+
+    /** E5: what the panel sends as an address (tests/js/urls.test.js, Node) */
+    public function testTheAddressesAsTyped()
+    {
+        $node = trim( (string)shell_exec( 'command -v node 2>&1' ) );
+        if ( $node === '' || !is_executable( $node ) )
+            $this->markTestSkipped( 'Node is not installed' );
+        exec( escapeshellarg( $node ) . ' ' . escapeshellarg( dirname( __DIR__, 2 ) . '/js/urls.test.js' ) . ' 2>&1', $out, $status );
+        $this->assertSame( 0, $status, implode( "\n", $out ) );
+        $this->assertStringStartsWith( 'PASS', (string)end( $out ) );
+    }
+
     /** E3: the group of the real send is shipped switched on, and added to the kernel's groups (never replacing them) */
     public function testTheNewsletterReauthGroupIsShippedOn()
     {

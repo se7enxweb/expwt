@@ -1463,5 +1463,121 @@
         <source>%n comments wait for moderation</source>
         <translation>%n kommentaari ootab modereerimist</translation>
     </message>
+    <message>
+        <source>Give an address on this site, such as /campaign/running.</source>
+        <translation>Sisestage selle saidi aadress, näiteks /campaign/running.</translation>
+    </message>
+    <message>
+        <source>There is no such language.</source>
+        <translation>Sellist keelt pole.</translation>
+    </message>
+    <message>
+        <source>This address is taken already.</source>
+        <translation>See aadress on juba võetud.</translation>
+    </message>
+    <message>
+        <source>There is a wildcard for this address already.</source>
+        <translation>Selle aadressi jaoks on juba metamärk.</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Aadress</translation>
+    </message>
+    <message>
+        <source>Alias</source>
+        <translation>Alias</translation>
+    </message>
+    <message>
+        <source>Old address</source>
+        <translation>Vana aadress</translation>
+    </message>
+    <message>
+        <source>Addresses of this page</source>
+        <translation>Selle lehe aadressid</translation>
+    </message>
+    <message>
+        <source>redirects</source>
+        <translation>suunab ümber</translation>
+    </message>
+    <message>
+        <source>Wildcards that lead here</source>
+        <translation>Metamärgid, mis viivad siia</translation>
+    </message>
+    <message>
+        <source>No wildcard leads to this page.</source>
+        <translation>Ükski metamärk ei vii sellele lehele.</translation>
+    </message>
+    <message>
+        <source>shows this page</source>
+        <translation>näitab seda lehte</translation>
+    </message>
+    <message>
+        <source>Addresses visitors did not find</source>
+        <translation>Aadressid, mida külastajad ei leidnud</translation>
+    </message>
+    <message>
+        <source>Addresses of this site that answered "not found" and end like this page's address. A redirect sends their visitors here.</source>
+        <translation>Selle saidi aadressid, mis vastasid "ei leitud" ja lõpevad nagu selle lehe aadress. Ümbersuunamine saadab nende külastajad siia.</translation>
+    </message>
+    <message>
+        <source>None: no visitor missed this page.</source>
+        <translation>Pole: ükski külastaja pole seda lehte kahe silma vahele jätnud.</translation>
+    </message>
+    <message>
+        <source>Redirect to this page</source>
+        <translation>Suuna sellele lehele</translation>
+    </message>
+    <message>
+        <source>%path now redirects to this page.</source>
+        <translation>%path suunab nüüd sellele lehele.</translation>
+    </message>
+    <message>
+        <source>%n times, last %time</source>
+        <translation>%n korda, viimati %time</translation>
+    </message>
+    <message>
+        <source>Add the address</source>
+        <translation>Lisa aadress</translation>
+    </message>
+    <message>
+        <source>Add an address</source>
+        <translation>Lisa aadress</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>Keel</translation>
+    </message>
+    <message>
+        <source>Redirect to the page's address (otherwise the page is shown under this address)</source>
+        <translation>Suuna lehe aadressile (muidu näidatakse lehte selle aadressi all)</translation>
+    </message>
+    <message>
+        <source>Added as %path (the address was cleaned up).</source>
+        <translation>Lisatud kui %path (aadress puhastati).</translation>
+    </message>
+    <message>
+        <source>Added: %path</source>
+        <translation>Lisatud: %path</translation>
+    </message>
+    <message>
+        <source>Add the wildcard</source>
+        <translation>Lisa metamärk</translation>
+    </message>
+    <message>
+        <source>Add a wildcard</source>
+        <translation>Lisa metamärk</translation>
+    </message>
+    <message>
+        <source>Every address that matches leads to this page; a * matches the rest of the address.</source>
+        <translation>Iga sobiv aadress viib sellele lehele; * sobib aadressi ülejäänud osaga.</translation>
+    </message>
+    <message>
+        <source>Address pattern</source>
+        <translation>Aadressi muster</translation>
+    </message>
+    <message>
+        <source>URLs</source>
+        <translation>URL-id</translation>
+    </message>
 </context>
 </TS>

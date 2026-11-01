@@ -1463,5 +1463,121 @@
         <source>%n comments wait for moderation</source>
         <translation>%n commentaires en attente de modération</translation>
     </message>
+    <message>
+        <source>Give an address on this site, such as /campaign/running.</source>
+        <translation>Indiquez une adresse de ce site, comme /campaign/running.</translation>
+    </message>
+    <message>
+        <source>There is no such language.</source>
+        <translation>Cette langue n'existe pas.</translation>
+    </message>
+    <message>
+        <source>This address is taken already.</source>
+        <translation>Cette adresse est déjà prise.</translation>
+    </message>
+    <message>
+        <source>There is a wildcard for this address already.</source>
+        <translation>Il existe déjà un joker pour cette adresse.</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Adresse</translation>
+    </message>
+    <message>
+        <source>Alias</source>
+        <translation>Alias</translation>
+    </message>
+    <message>
+        <source>Old address</source>
+        <translation>Ancienne adresse</translation>
+    </message>
+    <message>
+        <source>Addresses of this page</source>
+        <translation>Adresses de cette page</translation>
+    </message>
+    <message>
+        <source>redirects</source>
+        <translation>redirige</translation>
+    </message>
+    <message>
+        <source>Wildcards that lead here</source>
+        <translation>Jokers qui mènent ici</translation>
+    </message>
+    <message>
+        <source>No wildcard leads to this page.</source>
+        <translation>Aucun joker ne mène à cette page.</translation>
+    </message>
+    <message>
+        <source>shows this page</source>
+        <translation>affiche cette page</translation>
+    </message>
+    <message>
+        <source>Addresses visitors did not find</source>
+        <translation>Adresses que les visiteurs n'ont pas trouvées</translation>
+    </message>
+    <message>
+        <source>Addresses of this site that answered "not found" and end like this page's address. A redirect sends their visitors here.</source>
+        <translation>Adresses de ce site qui ont répondu "introuvable" et se terminent comme l'adresse de cette page. Une redirection envoie leurs visiteurs ici.</translation>
+    </message>
+    <message>
+        <source>None: no visitor missed this page.</source>
+        <translation>Aucune : aucun visiteur n'a manqué cette page.</translation>
+    </message>
+    <message>
+        <source>Redirect to this page</source>
+        <translation>Rediriger vers cette page</translation>
+    </message>
+    <message>
+        <source>%path now redirects to this page.</source>
+        <translation>%path redirige maintenant vers cette page.</translation>
+    </message>
+    <message>
+        <source>%n times, last %time</source>
+        <translation>%n fois, la dernière %time</translation>
+    </message>
+    <message>
+        <source>Add the address</source>
+        <translation>Ajouter l'adresse</translation>
+    </message>
+    <message>
+        <source>Add an address</source>
+        <translation>Ajouter une adresse</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>Langue</translation>
+    </message>
+    <message>
+        <source>Redirect to the page's address (otherwise the page is shown under this address)</source>
+        <translation>Rediriger vers l'adresse de la page (sinon la page est affichée sous cette adresse)</translation>
+    </message>
+    <message>
+        <source>Added as %path (the address was cleaned up).</source>
+        <translation>Ajoutée sous la forme %path (l'adresse a été nettoyée).</translation>
+    </message>
+    <message>
+        <source>Added: %path</source>
+        <translation>Ajoutée : %path</translation>
+    </message>
+    <message>
+        <source>Add the wildcard</source>
+        <translation>Ajouter le joker</translation>
+    </message>
+    <message>
+        <source>Add a wildcard</source>
+        <translation>Ajouter un joker</translation>
+    </message>
+    <message>
+        <source>Every address that matches leads to this page; a * matches the rest of the address.</source>
+        <translation>Chaque adresse correspondante mène à cette page ; un * correspond au reste de l'adresse.</translation>
+    </message>
+    <message>
+        <source>Address pattern</source>
+        <translation>Modèle d'adresse</translation>
+    </message>
+    <message>
+        <source>URLs</source>
+        <translation>URL</translation>
+    </message>
 </context>
 </TS>

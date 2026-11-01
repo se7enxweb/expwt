@@ -1463,5 +1463,121 @@
         <source>%n comments wait for moderation</source>
         <translation>%n kommentarer venter på moderering</translation>
     </message>
+    <message>
+        <source>Give an address on this site, such as /campaign/running.</source>
+        <translation>Angiv en adresse på dette websted, fx /campaign/running.</translation>
+    </message>
+    <message>
+        <source>There is no such language.</source>
+        <translation>Der findes intet sådant sprog.</translation>
+    </message>
+    <message>
+        <source>This address is taken already.</source>
+        <translation>Denne adresse er allerede taget.</translation>
+    </message>
+    <message>
+        <source>There is a wildcard for this address already.</source>
+        <translation>Der findes allerede et jokertegn for denne adresse.</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Adresse</translation>
+    </message>
+    <message>
+        <source>Alias</source>
+        <translation>Alias</translation>
+    </message>
+    <message>
+        <source>Old address</source>
+        <translation>Gammel adresse</translation>
+    </message>
+    <message>
+        <source>Addresses of this page</source>
+        <translation>Denne sides adresser</translation>
+    </message>
+    <message>
+        <source>redirects</source>
+        <translation>omdirigerer</translation>
+    </message>
+    <message>
+        <source>Wildcards that lead here</source>
+        <translation>Jokertegn, der fører hertil</translation>
+    </message>
+    <message>
+        <source>No wildcard leads to this page.</source>
+        <translation>Intet jokertegn fører til denne side.</translation>
+    </message>
+    <message>
+        <source>shows this page</source>
+        <translation>viser denne side</translation>
+    </message>
+    <message>
+        <source>Addresses visitors did not find</source>
+        <translation>Adresser, som besøgende ikke fandt</translation>
+    </message>
+    <message>
+        <source>Addresses of this site that answered "not found" and end like this page's address. A redirect sends their visitors here.</source>
+        <translation>Adresser på dette websted, der svarede "ikke fundet" og ender som denne sides adresse. En omdirigering sender deres besøgende hertil.</translation>
+    </message>
+    <message>
+        <source>None: no visitor missed this page.</source>
+        <translation>Ingen: ingen besøgende er gået glip af denne side.</translation>
+    </message>
+    <message>
+        <source>Redirect to this page</source>
+        <translation>Omdiriger til denne side</translation>
+    </message>
+    <message>
+        <source>%path now redirects to this page.</source>
+        <translation>%path omdirigerer nu til denne side.</translation>
+    </message>
+    <message>
+        <source>%n times, last %time</source>
+        <translation>%n gange, senest %time</translation>
+    </message>
+    <message>
+        <source>Add the address</source>
+        <translation>Tilføj adressen</translation>
+    </message>
+    <message>
+        <source>Add an address</source>
+        <translation>Tilføj en adresse</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>Sprog</translation>
+    </message>
+    <message>
+        <source>Redirect to the page's address (otherwise the page is shown under this address)</source>
+        <translation>Omdiriger til sidens adresse (ellers vises siden under denne adresse)</translation>
+    </message>
+    <message>
+        <source>Added as %path (the address was cleaned up).</source>
+        <translation>Tilføjet som %path (adressen blev renset).</translation>
+    </message>
+    <message>
+        <source>Added: %path</source>
+        <translation>Tilføjet: %path</translation>
+    </message>
+    <message>
+        <source>Add the wildcard</source>
+        <translation>Tilføj jokertegnet</translation>
+    </message>
+    <message>
+        <source>Add a wildcard</source>
+        <translation>Tilføj et jokertegn</translation>
+    </message>
+    <message>
+        <source>Every address that matches leads to this page; a * matches the rest of the address.</source>
+        <translation>Hver adresse, der matcher, fører til denne side; en * matcher resten af adressen.</translation>
+    </message>
+    <message>
+        <source>Address pattern</source>
+        <translation>Adressemønster</translation>
+    </message>
+    <message>
+        <source>URLs</source>
+        <translation>URL'er</translation>
+    </message>
 </context>
 </TS>

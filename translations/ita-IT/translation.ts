@@ -1463,5 +1463,121 @@
         <source>%n comments wait for moderation</source>
         <translation>%n commenti in attesa di moderazione</translation>
     </message>
+    <message>
+        <source>Give an address on this site, such as /campaign/running.</source>
+        <translation>Indica un indirizzo di questo sito, come /campaign/running.</translation>
+    </message>
+    <message>
+        <source>There is no such language.</source>
+        <translation>Questa lingua non esiste.</translation>
+    </message>
+    <message>
+        <source>This address is taken already.</source>
+        <translation>Questo indirizzo è già occupato.</translation>
+    </message>
+    <message>
+        <source>There is a wildcard for this address already.</source>
+        <translation>Esiste già un carattere jolly per questo indirizzo.</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Indirizzo</translation>
+    </message>
+    <message>
+        <source>Alias</source>
+        <translation>Alias</translation>
+    </message>
+    <message>
+        <source>Old address</source>
+        <translation>Indirizzo vecchio</translation>
+    </message>
+    <message>
+        <source>Addresses of this page</source>
+        <translation>Indirizzi di questa pagina</translation>
+    </message>
+    <message>
+        <source>redirects</source>
+        <translation>reindirizza</translation>
+    </message>
+    <message>
+        <source>Wildcards that lead here</source>
+        <translation>Caratteri jolly che portano qui</translation>
+    </message>
+    <message>
+        <source>No wildcard leads to this page.</source>
+        <translation>Nessun carattere jolly porta a questa pagina.</translation>
+    </message>
+    <message>
+        <source>shows this page</source>
+        <translation>mostra questa pagina</translation>
+    </message>
+    <message>
+        <source>Addresses visitors did not find</source>
+        <translation>Indirizzi che i visitatori non hanno trovato</translation>
+    </message>
+    <message>
+        <source>Addresses of this site that answered "not found" and end like this page's address. A redirect sends their visitors here.</source>
+        <translation>Indirizzi di questo sito che hanno risposto "non trovato" e finiscono come l'indirizzo di questa pagina. Un reindirizzamento manda qui i loro visitatori.</translation>
+    </message>
+    <message>
+        <source>None: no visitor missed this page.</source>
+        <translation>Nessuno: nessun visitatore ha mancato questa pagina.</translation>
+    </message>
+    <message>
+        <source>Redirect to this page</source>
+        <translation>Reindirizza a questa pagina</translation>
+    </message>
+    <message>
+        <source>%path now redirects to this page.</source>
+        <translation>%path ora reindirizza a questa pagina.</translation>
+    </message>
+    <message>
+        <source>%n times, last %time</source>
+        <translation>%n volte, l'ultima %time</translation>
+    </message>
+    <message>
+        <source>Add the address</source>
+        <translation>Aggiungi l'indirizzo</translation>
+    </message>
+    <message>
+        <source>Add an address</source>
+        <translation>Aggiungi un indirizzo</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>Lingua</translation>
+    </message>
+    <message>
+        <source>Redirect to the page's address (otherwise the page is shown under this address)</source>
+        <translation>Reindirizza all'indirizzo della pagina (altrimenti la pagina viene mostrata con questo indirizzo)</translation>
+    </message>
+    <message>
+        <source>Added as %path (the address was cleaned up).</source>
+        <translation>Aggiunto come %path (l'indirizzo è stato ripulito).</translation>
+    </message>
+    <message>
+        <source>Added: %path</source>
+        <translation>Aggiunto: %path</translation>
+    </message>
+    <message>
+        <source>Add the wildcard</source>
+        <translation>Aggiungi il carattere jolly</translation>
+    </message>
+    <message>
+        <source>Add a wildcard</source>
+        <translation>Aggiungi un carattere jolly</translation>
+    </message>
+    <message>
+        <source>Every address that matches leads to this page; a * matches the rest of the address.</source>
+        <translation>Ogni indirizzo corrispondente porta a questa pagina; un * corrisponde al resto dell'indirizzo.</translation>
+    </message>
+    <message>
+        <source>Address pattern</source>
+        <translation>Modello di indirizzo</translation>
+    </message>
+    <message>
+        <source>URLs</source>
+        <translation>URL</translation>
+    </message>
 </context>
 </TS>

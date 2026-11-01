@@ -2017,6 +2017,156 @@
     }
   }
 
+  /* ---------------------------------------------------------------------------------------------- urls */
+
+  /* Pure (tests/js/urls.test.js): an address as the panel shows it and sends it: one leading slash, no host, no
+     query, no doubled slashes; '' for nothing */
+  function addressOf(text) {
+    var s = String(text || '').trim().replace(/^[a-z][a-z0-9+.-]*:\/\/[^/]*/i, '').replace(/[?#].*$/, '');
+    s = s.replace(/\/+/g, '/').replace(/^\/|\/$/g, '');
+    return s ? '/' + s : '';
+  }
+
+  /* The page's addresses (E5): its address in each language, its old addresses (they redirect), the aliases added to
+     it, the URL wildcards that lead to it, and the addresses visitors asked for and did not find that look like the
+     page's, each with "Redirect to this page". With content/edit of the page a new alias (redirecting or not, in a
+     language); with content/urltranslator a new wildcard. Nothing is removed here. */
+  function urls(ctx, root) {
+    var h = ctx.h;
+    var t = ctx.t;
+    if (!ctx.node) {
+      root.appendChild(h('p', { text: t('This page is not content of the site. Open a page of the site to edit it.') }));
+      return;
+    }
+    root.appendChild(h('p', { class: 'wt-muted', text: t('Loading ...') }));
+    load();
+
+    function load() {
+      ctx.call('urls.load', { nodeId: ctx.node }).then(draw, function (err) { root.textContent = ''; failure(ctx, err); });
+    }
+
+    function message(err) {
+      var d = err && err.body && err.body.details;
+      var text = err && err.message ? err.message : t('Something went wrong on the server.');
+      return d && d.path ? text + ' ' + d.path : text;
+    }
+
+    function draw(r) {
+      root.textContent = '';
+      var kinds = { main: t('Address'), alias: t('Alias'), history: t('Old address') };
+      var box = h('section', { class: 'wt-section', 'aria-labelledby': 'wt-urls-h' }, [h('h3', { id: 'wt-urls-h', text: t('Addresses of this page') })]);
+      var list = h('ul', { class: 'wt-list wt-url-list' });
+      r.addresses.forEach(function (a) {
+        list.appendChild(h('li', { class: 'wt-url' }, [
+          h('a', { class: 'wt-url-path', href: a.url, target: '_blank', rel: 'noopener', text: a.path }),
+          h('span', { class: 'wt-url-meta' }, [
+            h('span', { class: 'wt-chip' + (a.kind === 'main' ? ' is-ok' : ''), text: kinds[a.kind] || a.kind }),
+            a.language ? h('span', { class: 'wt-chip', text: a.language }) : null,
+            a.redirects ? h('span', { class: 'wt-chip', text: t('redirects') }) : null
+          ])
+        ]));
+      });
+      box.appendChild(list);
+      root.appendChild(box);
+
+      var wild = h('section', { class: 'wt-section', 'aria-labelledby': 'wt-urls-w' }, [h('h3', { id: 'wt-urls-w', text: t('Wildcards that lead here') })]);
+      if (!r.wildcards.length) {
+        wild.appendChild(h('p', { class: 'wt-muted', text: t('No wildcard leads to this page.') }));
+      } else {
+        var wl = h('ul', { class: 'wt-list wt-url-list' });
+        r.wildcards.forEach(function (w) {
+          wl.appendChild(h('li', { class: 'wt-url' }, [
+            h('span', { class: 'wt-url-path', text: w.source }),
+            h('span', { class: 'wt-url-meta' }, [h('span', { class: 'wt-chip', text: w.type === 'redirect' ? t('redirects') : t('shows this page') })])
+          ]));
+        });
+        wild.appendChild(wl);
+      }
+      root.appendChild(wild);
+
+      if (r.canAlias) {
+        var broken = h('section', { class: 'wt-section', 'aria-labelledby': 'wt-urls-b' }, [h('h3', { id: 'wt-urls-b', text: t('Addresses visitors did not find') }),
+          h('p', { class: 'wt-muted', text: t('Addresses of this site that answered "not found" and end like this page\'s address. A redirect sends their visitors here.') })]);
+        if (!r.broken.length) {
+          broken.appendChild(h('p', { class: 'wt-muted', text: t('None: no visitor missed this page.') }));
+        } else {
+          var bl = h('ul', { class: 'wt-list wt-url-list' });
+          r.broken.forEach(function (b) {
+            var fix = h('button', { type: 'button', class: 'wt-btn', text: t('Redirect to this page') });
+            fix.addEventListener('click', function () {
+              fix.disabled = true;
+              ctx.call('urls.alias', { nodeId: r.nodeId, path: b.path, redirects: true, language: r.languages.length ? r.languages[0].code : '' }).then(function (res) {
+                ctx.say(t('%path now redirects to this page.').replace('%path', res.path), 'ok');
+                load();
+              }, function (err) { fix.disabled = false; ctx.say(message(err), 'bad'); });
+            });
+            bl.appendChild(h('li', { class: 'wt-url', 'data-broken': b.path }, [
+              h('span', { class: 'wt-url-path', text: b.path }),
+              h('span', { class: 'wt-url-meta' }, [h('span', { class: 'wt-chip is-warn', text: t('%n times, last %time').replace('%n', b.count).replace('%time', b.last) })]),
+              fix
+            ]));
+          });
+          broken.appendChild(bl);
+        }
+        root.appendChild(broken);
+        root.appendChild(aliasForm(r));
+      }
+      if (r.canWildcard) { root.appendChild(wildcardForm(r)); }
+      if (r.adminUrl) {
+        root.appendChild(h('div', { class: 'wt-row' }, [h('a', { class: 'wt-btn', href: r.adminUrl, text: t('In the administration') })]));
+      }
+    }
+
+    function aliasForm(r) {
+      var path = h('input', { type: 'text', id: 'wt-url-alias', inputmode: 'url', autocomplete: 'off', placeholder: '/campaign/running' });
+      var lang = h('select', { id: 'wt-url-lang' }, r.languages.map(function (l) { return h('option', { value: l.code, text: l.name }); }));
+      var redirects = h('input', { type: 'checkbox', id: 'wt-url-redirects', checked: true });
+      var add = h('button', { type: 'submit', class: 'wt-btn is-primary', text: t('Add the address') });
+      var form = h('form', { class: 'wt-section wt-url-form' }, [
+        h('h3', { text: t('Add an address') }),
+        h('label', { class: 'wt-field', for: 'wt-url-alias' }, [h('span', { text: t('Address') }), path]),
+        h('label', { class: 'wt-field', for: 'wt-url-lang' }, [h('span', { text: t('Language') }), lang]),
+        h('label', { class: 'wt-check', for: 'wt-url-redirects' }, [redirects, h('span', { text: t('Redirect to the page\'s address (otherwise the page is shown under this address)') })]),
+        h('div', { class: 'wt-row' }, [add])
+      ]);
+      form.addEventListener('submit', function (ev) {
+        ev.preventDefault();
+        var p = addressOf(path.value);
+        if (!p) { path.focus(); ctx.say(t('Give an address on this site, such as /campaign/running.'), 'bad'); return; }
+        add.disabled = true;
+        ctx.call('urls.alias', { nodeId: r.nodeId, path: p, language: lang.value, redirects: redirects.checked }).then(function (res) {
+          ctx.say((res.status === 'cleaned' ? t('Added as %path (the address was cleaned up).') : t('Added: %path')).replace('%path', res.path), 'ok');
+          load();
+        }, function (err) { add.disabled = false; ctx.say(message(err), 'bad'); });
+      });
+      return form;
+    }
+
+    function wildcardForm(r) {
+      var source = h('input', { type: 'text', id: 'wt-url-wild', inputmode: 'url', autocomplete: 'off', placeholder: '/old-campaign/*' });
+      var redirects = h('input', { type: 'checkbox', id: 'wt-url-wild-redirects', checked: true });
+      var add = h('button', { type: 'submit', class: 'wt-btn', text: t('Add the wildcard') });
+      var form = h('form', { class: 'wt-section wt-url-form' }, [
+        h('h3', { text: t('Add a wildcard') }),
+        h('p', { class: 'wt-muted', text: t('Every address that matches leads to this page; a * matches the rest of the address.') }),
+        h('label', { class: 'wt-field', for: 'wt-url-wild' }, [h('span', { text: t('Address pattern') }), source]),
+        h('label', { class: 'wt-check', for: 'wt-url-wild-redirects' }, [redirects, h('span', { text: t('Redirect to the page\'s address (otherwise the page is shown under this address)') })]),
+        h('div', { class: 'wt-row' }, [add])
+      ]);
+      form.addEventListener('submit', function (ev) {
+        ev.preventDefault();
+        var p = addressOf(source.value);
+        if (!p) { source.focus(); ctx.say(t('Give an address on this site, such as /campaign/running.'), 'bad'); return; }
+        add.disabled = true;
+        ctx.call('urls.wildcard', { nodeId: r.nodeId, source: p, type: redirects.checked ? 'redirect' : 'direct' }).then(function (res) {
+          ctx.say(t('Added: %path').replace('%path', res.source), 'ok');
+          load();
+        }, function (err) { add.disabled = false; ctx.say(message(err), 'bad'); });
+      });
+      return form;
+    }
+  }
+
   /* ---------------------------------------------------------------------------------------------- newsletter */
 
   /* The page's newsletter (E3, cjw_newsletter). On an edition: the edition. On any other page: the editions that carry
@@ -2430,5 +2580,6 @@
 
   window.ExpwtSeo = SEO;
   window.ExpwtComments = { actions: commentActions };
-  window.ExpwtPanels = { page: page, create: create, structure: structure, seo: seo, sites: sites, forms: forms, newsletter: newsletter, insights: insights, inbox: inbox, me: me, shortcuts: shortcuts };
+  window.ExpwtUrls = { address: addressOf };
+  window.ExpwtPanels = { page: page, create: create, structure: structure, seo: seo, sites: sites, forms: forms, newsletter: newsletter, urls: urls, insights: insights, inbox: inbox, me: me, shortcuts: shortcuts };
 }());

@@ -1463,5 +1463,121 @@
         <source>%n comments wait for moderation</source>
         <translation>%n അഭിപ്രായങ്ങൾ മോഡറേഷനായി കാത്തിരിക്കുന്നു</translation>
     </message>
+    <message>
+        <source>Give an address on this site, such as /campaign/running.</source>
+        <translation>ഈ സൈറ്റിലെ ഒരു വിലാസം നൽകുക, ഉദാ /campaign/running.</translation>
+    </message>
+    <message>
+        <source>There is no such language.</source>
+        <translation>അങ്ങനെയൊരു ഭാഷയില്ല.</translation>
+    </message>
+    <message>
+        <source>This address is taken already.</source>
+        <translation>ഈ വിലാസം ഇതിനകം എടുത്തിട്ടുണ്ട്.</translation>
+    </message>
+    <message>
+        <source>There is a wildcard for this address already.</source>
+        <translation>ഈ വിലാസത്തിന് ഇതിനകം ഒരു വൈൽഡ്കാർഡ് ഉണ്ട്.</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>വിലാസം</translation>
+    </message>
+    <message>
+        <source>Alias</source>
+        <translation>അപരനാമം</translation>
+    </message>
+    <message>
+        <source>Old address</source>
+        <translation>പഴയ വിലാസം</translation>
+    </message>
+    <message>
+        <source>Addresses of this page</source>
+        <translation>ഈ പേജിന്റെ വിലാസങ്ങൾ</translation>
+    </message>
+    <message>
+        <source>redirects</source>
+        <translation>റീഡയറക്ട് ചെയ്യുന്നു</translation>
+    </message>
+    <message>
+        <source>Wildcards that lead here</source>
+        <translation>ഇവിടേക്ക് നയിക്കുന്ന വൈൽഡ്കാർഡുകൾ</translation>
+    </message>
+    <message>
+        <source>No wildcard leads to this page.</source>
+        <translation>ഒരു വൈൽഡ്കാർഡും ഈ പേജിലേക്ക് നയിക്കുന്നില്ല.</translation>
+    </message>
+    <message>
+        <source>shows this page</source>
+        <translation>ഈ പേജ് കാണിക്കുന്നു</translation>
+    </message>
+    <message>
+        <source>Addresses visitors did not find</source>
+        <translation>സന്ദർശകർ കണ്ടെത്താത്ത വിലാസങ്ങൾ</translation>
+    </message>
+    <message>
+        <source>Addresses of this site that answered "not found" and end like this page's address. A redirect sends their visitors here.</source>
+        <translation>"കണ്ടെത്തിയില്ല" എന്ന് മറുപടി നൽകിയതും ഈ പേജിന്റെ വിലാസം പോലെ അവസാനിക്കുന്നതുമായ ഈ സൈറ്റിലെ വിലാസങ്ങൾ. ഒരു റീഡയറക്ട് അവയുടെ സന്ദർശകരെ ഇവിടേക്ക് അയയ്ക്കുന്നു.</translation>
+    </message>
+    <message>
+        <source>None: no visitor missed this page.</source>
+        <translation>ഒന്നുമില്ല: ഒരു സന്ദർശകനും ഈ പേജ് നഷ്ടമായില്ല.</translation>
+    </message>
+    <message>
+        <source>Redirect to this page</source>
+        <translation>ഈ പേജിലേക്ക് റീഡയറക്ട് ചെയ്യുക</translation>
+    </message>
+    <message>
+        <source>%path now redirects to this page.</source>
+        <translation>%path ഇപ്പോൾ ഈ പേജിലേക്ക് റീഡയറക്ട് ചെയ്യുന്നു.</translation>
+    </message>
+    <message>
+        <source>%n times, last %time</source>
+        <translation>%n തവണ, അവസാനം %time</translation>
+    </message>
+    <message>
+        <source>Add the address</source>
+        <translation>വിലാസം ചേർക്കുക</translation>
+    </message>
+    <message>
+        <source>Add an address</source>
+        <translation>ഒരു വിലാസം ചേർക്കുക</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>ഭാഷ</translation>
+    </message>
+    <message>
+        <source>Redirect to the page's address (otherwise the page is shown under this address)</source>
+        <translation>പേജിന്റെ വിലാസത്തിലേക്ക് റീഡയറക്ട് ചെയ്യുക (അല്ലെങ്കിൽ പേജ് ഈ വിലാസത്തിൽ കാണിക്കും)</translation>
+    </message>
+    <message>
+        <source>Added as %path (the address was cleaned up).</source>
+        <translation>%path ആയി ചേർത്തു (വിലാസം വൃത്തിയാക്കി).</translation>
+    </message>
+    <message>
+        <source>Added: %path</source>
+        <translation>ചേർത്തു: %path</translation>
+    </message>
+    <message>
+        <source>Add the wildcard</source>
+        <translation>വൈൽഡ്കാർഡ് ചേർക്കുക</translation>
+    </message>
+    <message>
+        <source>Add a wildcard</source>
+        <translation>ഒരു വൈൽഡ്കാർഡ് ചേർക്കുക</translation>
+    </message>
+    <message>
+        <source>Every address that matches leads to this page; a * matches the rest of the address.</source>
+        <translation>പൊരുത്തപ്പെടുന്ന ഓരോ വിലാസവും ഈ പേജിലേക്ക് നയിക്കുന്നു; * വിലാസത്തിന്റെ ബാക്കി ഭാഗവുമായി പൊരുത്തപ്പെടുന്നു.</translation>
+    </message>
+    <message>
+        <source>Address pattern</source>
+        <translation>വിലാസ മാതൃക</translation>
+    </message>
+    <message>
+        <source>URLs</source>
+        <translation>URL-കൾ</translation>
+    </message>
 </context>
 </TS>

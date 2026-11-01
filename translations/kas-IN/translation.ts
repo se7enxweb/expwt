@@ -1463,5 +1463,121 @@
         <source>%n comments wait for moderation</source>
         <translation>%n تبصرٕ چھِ موڈریشنُک انتظار کران</translation>
     </message>
+    <message>
+        <source>Give an address on this site, such as /campaign/running.</source>
+        <translation>یَتھ سایٹس پیٹھ اکھ پتہٕ دِیو، مثلن /campaign/running۔</translation>
+    </message>
+    <message>
+        <source>There is no such language.</source>
+        <translation>تِتھ کانٛہہ زبان چھُنہٕ۔</translation>
+    </message>
+    <message>
+        <source>This address is taken already.</source>
+        <translation>یہِ پتہٕ چھُ گۄڈٕے نِنہٕ آمُت۔</translation>
+    </message>
+    <message>
+        <source>There is a wildcard for this address already.</source>
+        <translation>یَمہِ پتس خٲطرٕ چھُ گۄڈٕے اکھ وائلڈکارڈ۔</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>پتہٕ</translation>
+    </message>
+    <message>
+        <source>Alias</source>
+        <translation>بیٚیہ ناو</translation>
+    </message>
+    <message>
+        <source>Old address</source>
+        <translation>پرون پتہٕ</translation>
+    </message>
+    <message>
+        <source>Addresses of this page</source>
+        <translation>یَمہِ صفحُک پتہٕ</translation>
+    </message>
+    <message>
+        <source>redirects</source>
+        <translation>ری ڈائریکٹ کران</translation>
+    </message>
+    <message>
+        <source>Wildcards that lead here</source>
+        <translation>وائلڈکارڈ یِم یَتہِ انان چھِ</translation>
+    </message>
+    <message>
+        <source>No wildcard leads to this page.</source>
+        <translation>کانٛہہ وائلڈکارڈ چھُنہٕ یَتھ صفحس انان۔</translation>
+    </message>
+    <message>
+        <source>shows this page</source>
+        <translation>یہِ صفحہ ہاوان</translation>
+    </message>
+    <message>
+        <source>Addresses visitors did not find</source>
+        <translation>پتہٕ یِم مُلاقٲتیو نہٕ لٔبۍ</translation>
+    </message>
+    <message>
+        <source>Addresses of this site that answered "not found" and end like this page's address. A redirect sends their visitors here.</source>
+        <translation>یَمہِ سایٹُک پتہٕ یِمو "نہٕ لوٚب" جواب دیُت تہٕ یَمہِ صفحُک پتس ہِیو ختم چھِ گژھان۔ ری ڈائریکٹ چھُ تِہندۍ مُلاقٲتی یَتہِ سوزان۔</translation>
+    </message>
+    <message>
+        <source>None: no visitor missed this page.</source>
+        <translation>کانٛہہ نہٕ: کانٛہہ مُلاقٲتی گوٚو نہٕ یَتھ صفحس نِشہِ رُوٚد۔</translation>
+    </message>
+    <message>
+        <source>Redirect to this page</source>
+        <translation>یَتھ صفحس پیٹھ ری ڈائریکٹ کٔرِو</translation>
+    </message>
+    <message>
+        <source>%path now redirects to this page.</source>
+        <translation>%path چھُ وۄنۍ یَتھ صفحس پیٹھ ری ڈائریکٹ کران۔</translation>
+    </message>
+    <message>
+        <source>%n times, last %time</source>
+        <translation>%n لٹہٕ، آخری %time</translation>
+    </message>
+    <message>
+        <source>Add the address</source>
+        <translation>پتہٕ جوڑِو</translation>
+    </message>
+    <message>
+        <source>Add an address</source>
+        <translation>اکھ پتہٕ جوڑِو</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>زبان</translation>
+    </message>
+    <message>
+        <source>Redirect to the page's address (otherwise the page is shown under this address)</source>
+        <translation>صفحُک پتس پیٹھ ری ڈائریکٹ کٔرِو (نتہٕ چھُ صفحہ یَتھ پتس تَل ہاونہٕ یِوان)</translation>
+    </message>
+    <message>
+        <source>Added as %path (the address was cleaned up).</source>
+        <translation>%path ہِیو جوڑنہٕ آو (پتہٕ کوٚر صاف)۔</translation>
+    </message>
+    <message>
+        <source>Added: %path</source>
+        <translation>جوڑنہٕ آو: %path</translation>
+    </message>
+    <message>
+        <source>Add the wildcard</source>
+        <translation>وائلڈکارڈ جوڑِو</translation>
+    </message>
+    <message>
+        <source>Add a wildcard</source>
+        <translation>اکھ وائلڈکارڈ جوڑِو</translation>
+    </message>
+    <message>
+        <source>Every address that matches leads to this page; a * matches the rest of the address.</source>
+        <translation>پرٛتھ مِلن وول پتہٕ چھُ یَتھ صفحس انان؛ * چھُ پتُک باقی حصس سٕتۍ مِلان۔</translation>
+    </message>
+    <message>
+        <source>Address pattern</source>
+        <translation>پتُک نمونہٕ</translation>
+    </message>
+    <message>
+        <source>URLs</source>
+        <translation>URL</translation>
+    </message>
 </context>
 </TS>

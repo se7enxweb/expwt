@@ -1463,5 +1463,121 @@
         <source>%n comments wait for moderation</source>
         <translation>%n сэтгэгдэл хяналт хүлээж байна</translation>
     </message>
+    <message>
+        <source>Give an address on this site, such as /campaign/running.</source>
+        <translation>Энэ сайтын хаяг оруулна уу, жишээ нь /campaign/running.</translation>
+    </message>
+    <message>
+        <source>There is no such language.</source>
+        <translation>Ийм хэл байхгүй.</translation>
+    </message>
+    <message>
+        <source>This address is taken already.</source>
+        <translation>Энэ хаяг аль хэдийн эзэлсэн байна.</translation>
+    </message>
+    <message>
+        <source>There is a wildcard for this address already.</source>
+        <translation>Энэ хаягт аль хэдийн орлуулагч тэмдэгт байна.</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Хаяг</translation>
+    </message>
+    <message>
+        <source>Alias</source>
+        <translation>Өөр нэр</translation>
+    </message>
+    <message>
+        <source>Old address</source>
+        <translation>Хуучин хаяг</translation>
+    </message>
+    <message>
+        <source>Addresses of this page</source>
+        <translation>Энэ хуудасны хаягууд</translation>
+    </message>
+    <message>
+        <source>redirects</source>
+        <translation>дахин чиглүүлдэг</translation>
+    </message>
+    <message>
+        <source>Wildcards that lead here</source>
+        <translation>Энд хүргэдэг орлуулагч тэмдэгтүүд</translation>
+    </message>
+    <message>
+        <source>No wildcard leads to this page.</source>
+        <translation>Энэ хуудас руу ямар ч орлуулагч тэмдэгт хүргэдэггүй.</translation>
+    </message>
+    <message>
+        <source>shows this page</source>
+        <translation>энэ хуудсыг харуулдаг</translation>
+    </message>
+    <message>
+        <source>Addresses visitors did not find</source>
+        <translation>Зочдын олоогүй хаягууд</translation>
+    </message>
+    <message>
+        <source>Addresses of this site that answered "not found" and end like this page's address. A redirect sends their visitors here.</source>
+        <translation>"Олдсонгүй" гэж хариулсан, энэ хуудасны хаяг шиг төгсдөг энэ сайтын хаягууд. Дахин чиглүүлэлт тэдний зочдыг энд илгээнэ.</translation>
+    </message>
+    <message>
+        <source>None: no visitor missed this page.</source>
+        <translation>Байхгүй: энэ хуудсыг алгассан зочин байхгүй.</translation>
+    </message>
+    <message>
+        <source>Redirect to this page</source>
+        <translation>Энэ хуудас руу дахин чиглүүлэх</translation>
+    </message>
+    <message>
+        <source>%path now redirects to this page.</source>
+        <translation>%path одоо энэ хуудас руу дахин чиглүүлдэг.</translation>
+    </message>
+    <message>
+        <source>%n times, last %time</source>
+        <translation>%n удаа, сүүлд %time</translation>
+    </message>
+    <message>
+        <source>Add the address</source>
+        <translation>Хаягийг нэмэх</translation>
+    </message>
+    <message>
+        <source>Add an address</source>
+        <translation>Хаяг нэмэх</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>Хэл</translation>
+    </message>
+    <message>
+        <source>Redirect to the page's address (otherwise the page is shown under this address)</source>
+        <translation>Хуудасны хаяг руу дахин чиглүүлэх (үгүй бол хуудас энэ хаягаар харагдана)</translation>
+    </message>
+    <message>
+        <source>Added as %path (the address was cleaned up).</source>
+        <translation>%path болгож нэмсэн (хаягийг цэвэрлэсэн).</translation>
+    </message>
+    <message>
+        <source>Added: %path</source>
+        <translation>Нэмсэн: %path</translation>
+    </message>
+    <message>
+        <source>Add the wildcard</source>
+        <translation>Орлуулагч тэмдэгтийг нэмэх</translation>
+    </message>
+    <message>
+        <source>Add a wildcard</source>
+        <translation>Орлуулагч тэмдэгт нэмэх</translation>
+    </message>
+    <message>
+        <source>Every address that matches leads to this page; a * matches the rest of the address.</source>
+        <translation>Таарах бүх хаяг энэ хуудас руу хүргэнэ; * нь хаягийн үлдсэн хэсэгт таарна.</translation>
+    </message>
+    <message>
+        <source>Address pattern</source>
+        <translation>Хаягийн загвар</translation>
+    </message>
+    <message>
+        <source>URLs</source>
+        <translation>URL-ууд</translation>
+    </message>
 </context>
 </TS>

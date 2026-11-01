@@ -1463,5 +1463,121 @@
         <source>%n comments wait for moderation</source>
         <translation>Ebirowoozo %n birindiridde okwekenneenya</translation>
     </message>
+    <message>
+        <source>Give an address on this site, such as /campaign/running.</source>
+        <translation>Wa endagiriro ku mukutu guno, nga /campaign/running.</translation>
+    </message>
+    <message>
+        <source>There is no such language.</source>
+        <translation>Tewali lulimi ng'olwo.</translation>
+    </message>
+    <message>
+        <source>This address is taken already.</source>
+        <translation>Endagiriro eno yatwalibwa dda.</translation>
+    </message>
+    <message>
+        <source>There is a wildcard for this address already.</source>
+        <translation>Waliwo dda wildcard ku ndagiriro eno.</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Endagiriro</translation>
+    </message>
+    <message>
+        <source>Alias</source>
+        <translation>Erinnya eddala</translation>
+    </message>
+    <message>
+        <source>Old address</source>
+        <translation>Endagiriro enkadde</translation>
+    </message>
+    <message>
+        <source>Addresses of this page</source>
+        <translation>Endagiriro z'olupapula luno</translation>
+    </message>
+    <message>
+        <source>redirects</source>
+        <translation>ekyusa</translation>
+    </message>
+    <message>
+        <source>Wildcards that lead here</source>
+        <translation>Wildcard ezireeta wano</translation>
+    </message>
+    <message>
+        <source>No wildcard leads to this page.</source>
+        <translation>Tewali wildcard etwala ku lupapula luno.</translation>
+    </message>
+    <message>
+        <source>shows this page</source>
+        <translation>eraga olupapula luno</translation>
+    </message>
+    <message>
+        <source>Addresses visitors did not find</source>
+        <translation>Endagiriro abagenyi ze bataasanga</translation>
+    </message>
+    <message>
+        <source>Addresses of this site that answered "not found" and end like this page's address. A redirect sends their visitors here.</source>
+        <translation>Endagiriro z'omukutu guno ezaddamu nti "tekizuuliddwa" era ne zikoma nga endagiriro y'olupapula luno. Okukyusa kuweereza abagenyi baazo wano.</translation>
+    </message>
+    <message>
+        <source>None: no visitor missed this page.</source>
+        <translation>Tewali: tewali mugenyi yasubwa lupapula luno.</translation>
+    </message>
+    <message>
+        <source>Redirect to this page</source>
+        <translation>Kyusa ku lupapula luno</translation>
+    </message>
+    <message>
+        <source>%path now redirects to this page.</source>
+        <translation>%path kati ekyusa ku lupapula luno.</translation>
+    </message>
+    <message>
+        <source>%n times, last %time</source>
+        <translation>Emirundi %n, ogusembayo %time</translation>
+    </message>
+    <message>
+        <source>Add the address</source>
+        <translation>Yongerako endagiriro</translation>
+    </message>
+    <message>
+        <source>Add an address</source>
+        <translation>Yongerako endagiriro</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>Olulimi</translation>
+    </message>
+    <message>
+        <source>Redirect to the page's address (otherwise the page is shown under this address)</source>
+        <translation>Kyusa ku ndagiriro y'olupapula (oba olupapula lulagibwa wansi w'endagiriro eno)</translation>
+    </message>
+    <message>
+        <source>Added as %path (the address was cleaned up).</source>
+        <translation>Eyongeddwako nga %path (endagiriro erongooseddwa).</translation>
+    </message>
+    <message>
+        <source>Added: %path</source>
+        <translation>Eyongeddwako: %path</translation>
+    </message>
+    <message>
+        <source>Add the wildcard</source>
+        <translation>Yongerako wildcard</translation>
+    </message>
+    <message>
+        <source>Add a wildcard</source>
+        <translation>Yongerako wildcard</translation>
+    </message>
+    <message>
+        <source>Every address that matches leads to this page; a * matches the rest of the address.</source>
+        <translation>Buli ndagiriro ekwatagana etwala ku lupapula luno; * ekwatagana n'ekitundu ky'endagiriro ekisigaddewo.</translation>
+    </message>
+    <message>
+        <source>Address pattern</source>
+        <translation>Enkola y'endagiriro</translation>
+    </message>
+    <message>
+        <source>URLs</source>
+        <translation>URLs</translation>
+    </message>
 </context>
 </TS>

@@ -1463,5 +1463,121 @@
         <source>%n comments wait for moderation</source>
         <translation>Àsọyé %n ń dúró de àyẹ̀wò</translation>
     </message>
+    <message>
+        <source>Give an address on this site, such as /campaign/running.</source>
+        <translation>Fi àdírẹ́sì kan sílẹ̀ lórí ojú-òpó yìí, bíi /campaign/running.</translation>
+    </message>
+    <message>
+        <source>There is no such language.</source>
+        <translation>Kò sí èdè bẹ́ẹ̀.</translation>
+    </message>
+    <message>
+        <source>This address is taken already.</source>
+        <translation>A ti gba àdírẹ́sì yìí tẹ́lẹ̀.</translation>
+    </message>
+    <message>
+        <source>There is a wildcard for this address already.</source>
+        <translation>Wildcard kan ti wà fún àdírẹ́sì yìí tẹ́lẹ̀.</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Àdírẹ́sì</translation>
+    </message>
+    <message>
+        <source>Alias</source>
+        <translation>Orúkọ míràn</translation>
+    </message>
+    <message>
+        <source>Old address</source>
+        <translation>Àdírẹ́sì àtijọ́</translation>
+    </message>
+    <message>
+        <source>Addresses of this page</source>
+        <translation>Àwọn àdírẹ́sì ojú-ìwé yìí</translation>
+    </message>
+    <message>
+        <source>redirects</source>
+        <translation>ń darí sí ibòmíràn</translation>
+    </message>
+    <message>
+        <source>Wildcards that lead here</source>
+        <translation>Àwọn wildcard tí ń mú wá síbí</translation>
+    </message>
+    <message>
+        <source>No wildcard leads to this page.</source>
+        <translation>Kò sí wildcard tí ń mú wá sí ojú-ìwé yìí.</translation>
+    </message>
+    <message>
+        <source>shows this page</source>
+        <translation>ń fi ojú-ìwé yìí hàn</translation>
+    </message>
+    <message>
+        <source>Addresses visitors did not find</source>
+        <translation>Àwọn àdírẹ́sì tí àwọn àlejò kò rí</translation>
+    </message>
+    <message>
+        <source>Addresses of this site that answered "not found" and end like this page's address. A redirect sends their visitors here.</source>
+        <translation>Àwọn àdírẹ́sì ojú-òpó yìí tí wọ́n dáhùn "a kò rí i" tí wọ́n sì parí bí àdírẹ́sì ojú-ìwé yìí. Ìdarí ń rán àwọn àlejò wọn wá síbí.</translation>
+    </message>
+    <message>
+        <source>None: no visitor missed this page.</source>
+        <translation>Kò sí: kò sí àlejò tí ojú-ìwé yìí bọ́ lọ́wọ́ rẹ̀.</translation>
+    </message>
+    <message>
+        <source>Redirect to this page</source>
+        <translation>Darí sí ojú-ìwé yìí</translation>
+    </message>
+    <message>
+        <source>%path now redirects to this page.</source>
+        <translation>%path ń darí sí ojú-ìwé yìí báyìí.</translation>
+    </message>
+    <message>
+        <source>%n times, last %time</source>
+        <translation>Ìgbà %n, ìkẹyìn %time</translation>
+    </message>
+    <message>
+        <source>Add the address</source>
+        <translation>Ṣàfikún àdírẹ́sì náà</translation>
+    </message>
+    <message>
+        <source>Add an address</source>
+        <translation>Ṣàfikún àdírẹ́sì kan</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>Èdè</translation>
+    </message>
+    <message>
+        <source>Redirect to the page's address (otherwise the page is shown under this address)</source>
+        <translation>Darí sí àdírẹ́sì ojú-ìwé náà (bí bẹ́ẹ̀ kọ́, a ó fi ojú-ìwé náà hàn lábẹ́ àdírẹ́sì yìí)</translation>
+    </message>
+    <message>
+        <source>Added as %path (the address was cleaned up).</source>
+        <translation>A ṣàfikún rẹ̀ bí %path (a ti tún àdírẹ́sì náà ṣe).</translation>
+    </message>
+    <message>
+        <source>Added: %path</source>
+        <translation>A ṣàfikún: %path</translation>
+    </message>
+    <message>
+        <source>Add the wildcard</source>
+        <translation>Ṣàfikún wildcard náà</translation>
+    </message>
+    <message>
+        <source>Add a wildcard</source>
+        <translation>Ṣàfikún wildcard kan</translation>
+    </message>
+    <message>
+        <source>Every address that matches leads to this page; a * matches the rest of the address.</source>
+        <translation>Gbogbo àdírẹ́sì tó bá bá a mu ń mú wá sí ojú-ìwé yìí; * bá ìyókù àdírẹ́sì náà mu.</translation>
+    </message>
+    <message>
+        <source>Address pattern</source>
+        <translation>Àpẹẹrẹ àdírẹ́sì</translation>
+    </message>
+    <message>
+        <source>URLs</source>
+        <translation>Àwọn URL</translation>
+    </message>
 </context>
 </TS>

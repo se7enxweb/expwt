@@ -1463,5 +1463,121 @@
         <source>%n comments wait for moderation</source>
         <translation>%n reacties wachten op moderatie</translation>
     </message>
+    <message>
+        <source>Give an address on this site, such as /campaign/running.</source>
+        <translation>Geef een adres op deze site, zoals /campaign/running.</translation>
+    </message>
+    <message>
+        <source>There is no such language.</source>
+        <translation>Zo'n taal bestaat niet.</translation>
+    </message>
+    <message>
+        <source>This address is taken already.</source>
+        <translation>Dit adres is al in gebruik.</translation>
+    </message>
+    <message>
+        <source>There is a wildcard for this address already.</source>
+        <translation>Er is al een wildcard voor dit adres.</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Adres</translation>
+    </message>
+    <message>
+        <source>Alias</source>
+        <translation>Alias</translation>
+    </message>
+    <message>
+        <source>Old address</source>
+        <translation>Oud adres</translation>
+    </message>
+    <message>
+        <source>Addresses of this page</source>
+        <translation>Adressen van deze pagina</translation>
+    </message>
+    <message>
+        <source>redirects</source>
+        <translation>stuurt door</translation>
+    </message>
+    <message>
+        <source>Wildcards that lead here</source>
+        <translation>Wildcards die hierheen leiden</translation>
+    </message>
+    <message>
+        <source>No wildcard leads to this page.</source>
+        <translation>Geen wildcard leidt naar deze pagina.</translation>
+    </message>
+    <message>
+        <source>shows this page</source>
+        <translation>toont deze pagina</translation>
+    </message>
+    <message>
+        <source>Addresses visitors did not find</source>
+        <translation>Adressen die bezoekers niet vonden</translation>
+    </message>
+    <message>
+        <source>Addresses of this site that answered "not found" and end like this page's address. A redirect sends their visitors here.</source>
+        <translation>Adressen van deze site die "niet gevonden" antwoordden en eindigen zoals het adres van deze pagina. Een doorverwijzing stuurt hun bezoekers hierheen.</translation>
+    </message>
+    <message>
+        <source>None: no visitor missed this page.</source>
+        <translation>Geen: geen bezoeker heeft deze pagina gemist.</translation>
+    </message>
+    <message>
+        <source>Redirect to this page</source>
+        <translation>Doorsturen naar deze pagina</translation>
+    </message>
+    <message>
+        <source>%path now redirects to this page.</source>
+        <translation>%path stuurt nu door naar deze pagina.</translation>
+    </message>
+    <message>
+        <source>%n times, last %time</source>
+        <translation>%n keer, laatst %time</translation>
+    </message>
+    <message>
+        <source>Add the address</source>
+        <translation>Adres toevoegen</translation>
+    </message>
+    <message>
+        <source>Add an address</source>
+        <translation>Een adres toevoegen</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>Taal</translation>
+    </message>
+    <message>
+        <source>Redirect to the page's address (otherwise the page is shown under this address)</source>
+        <translation>Doorsturen naar het adres van de pagina (anders wordt de pagina onder dit adres getoond)</translation>
+    </message>
+    <message>
+        <source>Added as %path (the address was cleaned up).</source>
+        <translation>Toegevoegd als %path (het adres is opgeschoond).</translation>
+    </message>
+    <message>
+        <source>Added: %path</source>
+        <translation>Toegevoegd: %path</translation>
+    </message>
+    <message>
+        <source>Add the wildcard</source>
+        <translation>Wildcard toevoegen</translation>
+    </message>
+    <message>
+        <source>Add a wildcard</source>
+        <translation>Een wildcard toevoegen</translation>
+    </message>
+    <message>
+        <source>Every address that matches leads to this page; a * matches the rest of the address.</source>
+        <translation>Elk adres dat overeenkomt, leidt naar deze pagina; een * komt overeen met de rest van het adres.</translation>
+    </message>
+    <message>
+        <source>Address pattern</source>
+        <translation>Adrespatroon</translation>
+    </message>
+    <message>
+        <source>URLs</source>
+        <translation>URL's</translation>
+    </message>
 </context>
 </TS>

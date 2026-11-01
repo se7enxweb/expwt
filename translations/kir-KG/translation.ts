@@ -1463,5 +1463,121 @@
         <source>%n comments wait for moderation</source>
         <translation>%n комментарий модерацияны күтүүдө</translation>
     </message>
+    <message>
+        <source>Give an address on this site, such as /campaign/running.</source>
+        <translation>Бул сайттагы даректи бериңиз, мисалы /campaign/running.</translation>
+    </message>
+    <message>
+        <source>There is no such language.</source>
+        <translation>Мындай тил жок.</translation>
+    </message>
+    <message>
+        <source>This address is taken already.</source>
+        <translation>Бул дарек мурунтан ээленген.</translation>
+    </message>
+    <message>
+        <source>There is a wildcard for this address already.</source>
+        <translation>Бул дарек үчүн мурунтан шаблон бар.</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Дарек</translation>
+    </message>
+    <message>
+        <source>Alias</source>
+        <translation>Лакап ат</translation>
+    </message>
+    <message>
+        <source>Old address</source>
+        <translation>Эски дарек</translation>
+    </message>
+    <message>
+        <source>Addresses of this page</source>
+        <translation>Бул беттин даректери</translation>
+    </message>
+    <message>
+        <source>redirects</source>
+        <translation>кайра багыттайт</translation>
+    </message>
+    <message>
+        <source>Wildcards that lead here</source>
+        <translation>Бул жакка алып келген шаблондор</translation>
+    </message>
+    <message>
+        <source>No wildcard leads to this page.</source>
+        <translation>Бул бетке эч бир шаблон алып келбейт.</translation>
+    </message>
+    <message>
+        <source>shows this page</source>
+        <translation>бул бетти көрсөтөт</translation>
+    </message>
+    <message>
+        <source>Addresses visitors did not find</source>
+        <translation>Келүүчүлөр таппаган даректер</translation>
+    </message>
+    <message>
+        <source>Addresses of this site that answered "not found" and end like this page's address. A redirect sends their visitors here.</source>
+        <translation>"Табылган жок" деп жооп берген жана бул беттин дареги сыяктуу аяктаган бул сайттын даректери. Кайра багыттоо алардын келүүчүлөрүн бул жакка жиберет.</translation>
+    </message>
+    <message>
+        <source>None: no visitor missed this page.</source>
+        <translation>Жок: эч бир келүүчү бул бетти өткөрүп жиберген жок.</translation>
+    </message>
+    <message>
+        <source>Redirect to this page</source>
+        <translation>Бул бетке кайра багыттоо</translation>
+    </message>
+    <message>
+        <source>%path now redirects to this page.</source>
+        <translation>%path эми бул бетке кайра багыттайт.</translation>
+    </message>
+    <message>
+        <source>%n times, last %time</source>
+        <translation>%n жолу, акыркысы %time</translation>
+    </message>
+    <message>
+        <source>Add the address</source>
+        <translation>Даректи кошуу</translation>
+    </message>
+    <message>
+        <source>Add an address</source>
+        <translation>Дарек кошуу</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>Тил</translation>
+    </message>
+    <message>
+        <source>Redirect to the page's address (otherwise the page is shown under this address)</source>
+        <translation>Беттин дарегине кайра багыттоо (антпесе бет ушул дарек менен көрсөтүлөт)</translation>
+    </message>
+    <message>
+        <source>Added as %path (the address was cleaned up).</source>
+        <translation>%path катары кошулду (дарек тазаланды).</translation>
+    </message>
+    <message>
+        <source>Added: %path</source>
+        <translation>Кошулду: %path</translation>
+    </message>
+    <message>
+        <source>Add the wildcard</source>
+        <translation>Шаблонду кошуу</translation>
+    </message>
+    <message>
+        <source>Add a wildcard</source>
+        <translation>Шаблон кошуу</translation>
+    </message>
+    <message>
+        <source>Every address that matches leads to this page; a * matches the rest of the address.</source>
+        <translation>Дал келген ар бир дарек бул бетке алып келет; * даректин калган бөлүгүнө дал келет.</translation>
+    </message>
+    <message>
+        <source>Address pattern</source>
+        <translation>Дарек үлгүсү</translation>
+    </message>
+    <message>
+        <source>URLs</source>
+        <translation>URL даректер</translation>
+    </message>
 </context>
 </TS>

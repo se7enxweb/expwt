@@ -1463,5 +1463,121 @@
         <source>%n comments wait for moderation</source>
         <translation>%n koméntar ngantosan moderasi</translation>
     </message>
+    <message>
+        <source>Give an address on this site, such as /campaign/running.</source>
+        <translation>Béré alamat dina situs ieu, sapertos /campaign/running.</translation>
+    </message>
+    <message>
+        <source>There is no such language.</source>
+        <translation>Teu aya basa kitu.</translation>
+    </message>
+    <message>
+        <source>This address is taken already.</source>
+        <translation>Alamat ieu parantos dianggo.</translation>
+    </message>
+    <message>
+        <source>There is a wildcard for this address already.</source>
+        <translation>Parantos aya wildcard kanggo alamat ieu.</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Alamat</translation>
+    </message>
+    <message>
+        <source>Alias</source>
+        <translation>Alias</translation>
+    </message>
+    <message>
+        <source>Old address</source>
+        <translation>Alamat heubeul</translation>
+    </message>
+    <message>
+        <source>Addresses of this page</source>
+        <translation>Alamat kaca ieu</translation>
+    </message>
+    <message>
+        <source>redirects</source>
+        <translation>ngalihkeun</translation>
+    </message>
+    <message>
+        <source>Wildcards that lead here</source>
+        <translation>Wildcard anu ngarah ka dieu</translation>
+    </message>
+    <message>
+        <source>No wildcard leads to this page.</source>
+        <translation>Teu aya wildcard anu ngarah ka kaca ieu.</translation>
+    </message>
+    <message>
+        <source>shows this page</source>
+        <translation>mintonkeun kaca ieu</translation>
+    </message>
+    <message>
+        <source>Addresses visitors did not find</source>
+        <translation>Alamat anu teu kapendak ku nu nganjang</translation>
+    </message>
+    <message>
+        <source>Addresses of this site that answered "not found" and end like this page's address. A redirect sends their visitors here.</source>
+        <translation>Alamat situs ieu anu ngajawab "teu kapendak" sarta tungtungna sapertos alamat kaca ieu. Pangalihan ngirim nu nganjangna ka dieu.</translation>
+    </message>
+    <message>
+        <source>None: no visitor missed this page.</source>
+        <translation>Euweuh: teu aya nu nganjang anu kaliwat kaca ieu.</translation>
+    </message>
+    <message>
+        <source>Redirect to this page</source>
+        <translation>Alihkeun ka kaca ieu</translation>
+    </message>
+    <message>
+        <source>%path now redirects to this page.</source>
+        <translation>%path ayeuna ngalihkeun ka kaca ieu.</translation>
+    </message>
+    <message>
+        <source>%n times, last %time</source>
+        <translation>%n kali, pamungkas %time</translation>
+    </message>
+    <message>
+        <source>Add the address</source>
+        <translation>Tambihkeun alamat</translation>
+    </message>
+    <message>
+        <source>Add an address</source>
+        <translation>Tambihkeun alamat</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>Basa</translation>
+    </message>
+    <message>
+        <source>Redirect to the page's address (otherwise the page is shown under this address)</source>
+        <translation>Alihkeun ka alamat kaca (upami henteu, kaca dipintonkeun dina alamat ieu)</translation>
+    </message>
+    <message>
+        <source>Added as %path (the address was cleaned up).</source>
+        <translation>Ditambihkeun salaku %path (alamat dirapihkeun).</translation>
+    </message>
+    <message>
+        <source>Added: %path</source>
+        <translation>Ditambihkeun: %path</translation>
+    </message>
+    <message>
+        <source>Add the wildcard</source>
+        <translation>Tambihkeun wildcard</translation>
+    </message>
+    <message>
+        <source>Add a wildcard</source>
+        <translation>Tambihkeun wildcard</translation>
+    </message>
+    <message>
+        <source>Every address that matches leads to this page; a * matches the rest of the address.</source>
+        <translation>Unggal alamat anu cocog ngarah ka kaca ieu; * cocog sareng sésana alamat.</translation>
+    </message>
+    <message>
+        <source>Address pattern</source>
+        <translation>Pola alamat</translation>
+    </message>
+    <message>
+        <source>URLs</source>
+        <translation>URL</translation>
+    </message>
 </context>
 </TS>

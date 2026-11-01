@@ -1463,5 +1463,121 @@
         <source>%n comments wait for moderation</source>
         <translation>%n አስተያየቶች ማጣራት ይጠብቃሉ</translation>
     </message>
+    <message>
+        <source>Give an address on this site, such as /campaign/running.</source>
+        <translation>በዚህ ጣቢያ ላይ ያለ አድራሻ ይስጡ፣ ለምሳሌ /campaign/running።</translation>
+    </message>
+    <message>
+        <source>There is no such language.</source>
+        <translation>እንዲህ ያለ ቋንቋ የለም።</translation>
+    </message>
+    <message>
+        <source>This address is taken already.</source>
+        <translation>ይህ አድራሻ አስቀድሞ ተይዟል።</translation>
+    </message>
+    <message>
+        <source>There is a wildcard for this address already.</source>
+        <translation>ለዚህ አድራሻ አስቀድሞ ዋይልድካርድ አለ።</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>አድራሻ</translation>
+    </message>
+    <message>
+        <source>Alias</source>
+        <translation>ተለዋጭ ስም</translation>
+    </message>
+    <message>
+        <source>Old address</source>
+        <translation>የቀድሞ አድራሻ</translation>
+    </message>
+    <message>
+        <source>Addresses of this page</source>
+        <translation>የዚህ ገጽ አድራሻዎች</translation>
+    </message>
+    <message>
+        <source>redirects</source>
+        <translation>ያዞራል</translation>
+    </message>
+    <message>
+        <source>Wildcards that lead here</source>
+        <translation>ወደዚህ የሚመሩ ዋይልድካርዶች</translation>
+    </message>
+    <message>
+        <source>No wildcard leads to this page.</source>
+        <translation>ወደዚህ ገጽ የሚመራ ዋይልድካርድ የለም።</translation>
+    </message>
+    <message>
+        <source>shows this page</source>
+        <translation>ይህን ገጽ ያሳያል</translation>
+    </message>
+    <message>
+        <source>Addresses visitors did not find</source>
+        <translation>ጎብኚዎች ያላገኟቸው አድራሻዎች</translation>
+    </message>
+    <message>
+        <source>Addresses of this site that answered "not found" and end like this page's address. A redirect sends their visitors here.</source>
+        <translation>"አልተገኘም" የመለሱ እና እንደዚህ ገጽ አድራሻ የሚያልቁ የዚህ ጣቢያ አድራሻዎች። ማዞሪያ ጎብኚዎቻቸውን ወደዚህ ይልካል።</translation>
+    </message>
+    <message>
+        <source>None: no visitor missed this page.</source>
+        <translation>የለም፦ ይህን ገጽ ያጣ ጎብኚ የለም።</translation>
+    </message>
+    <message>
+        <source>Redirect to this page</source>
+        <translation>ወደዚህ ገጽ አዙር</translation>
+    </message>
+    <message>
+        <source>%path now redirects to this page.</source>
+        <translation>%path አሁን ወደዚህ ገጽ ያዞራል።</translation>
+    </message>
+    <message>
+        <source>%n times, last %time</source>
+        <translation>%n ጊዜ፣ የመጨረሻው %time</translation>
+    </message>
+    <message>
+        <source>Add the address</source>
+        <translation>አድራሻውን አክል</translation>
+    </message>
+    <message>
+        <source>Add an address</source>
+        <translation>አድራሻ አክል</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>ቋንቋ</translation>
+    </message>
+    <message>
+        <source>Redirect to the page's address (otherwise the page is shown under this address)</source>
+        <translation>ወደ ገጹ አድራሻ አዙር (ያለበለዚያ ገጹ በዚህ አድራሻ ይታያል)</translation>
+    </message>
+    <message>
+        <source>Added as %path (the address was cleaned up).</source>
+        <translation>እንደ %path ታክሏል (አድራሻው ተስተካክሏል)።</translation>
+    </message>
+    <message>
+        <source>Added: %path</source>
+        <translation>ታክሏል፦ %path</translation>
+    </message>
+    <message>
+        <source>Add the wildcard</source>
+        <translation>ዋይልድካርዱን አክል</translation>
+    </message>
+    <message>
+        <source>Add a wildcard</source>
+        <translation>ዋይልድካርድ አክል</translation>
+    </message>
+    <message>
+        <source>Every address that matches leads to this page; a * matches the rest of the address.</source>
+        <translation>የሚዛመድ እያንዳንዱ አድራሻ ወደዚህ ገጽ ይመራል፤ * የቀረውን አድራሻ ይዛመዳል።</translation>
+    </message>
+    <message>
+        <source>Address pattern</source>
+        <translation>የአድራሻ ንድፍ</translation>
+    </message>
+    <message>
+        <source>URLs</source>
+        <translation>URLዎች</translation>
+    </message>
 </context>
 </TS>

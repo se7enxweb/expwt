@@ -1463,5 +1463,121 @@
         <source>%n comments wait for moderation</source>
         <translation>%n ކޮމެންޓް މޮޑަރޭޝަނަށް އިންތިޒާރުކުރަނީ</translation>
     </message>
+    <message>
+        <source>Give an address on this site, such as /campaign/running.</source>
+        <translation>މި ސައިޓުގެ އެޑްރެހެއް ދޭ، މިސާލަކަށް /campaign/running.</translation>
+    </message>
+    <message>
+        <source>There is no such language.</source>
+        <translation>އެފަދަ ބަހެއް ނެތް.</translation>
+    </message>
+    <message>
+        <source>This address is taken already.</source>
+        <translation>މި އެޑްރެސް ކުރިން ނަގާފައި.</translation>
+    </message>
+    <message>
+        <source>There is a wildcard for this address already.</source>
+        <translation>މި އެޑްރެހަށް ކުރިން ވައިލްޑްކާޑެއް އޮތް.</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>އެޑްރެސް</translation>
+    </message>
+    <message>
+        <source>Alias</source>
+        <translation>އިތުރު ނަން</translation>
+    </message>
+    <message>
+        <source>Old address</source>
+        <translation>ކުރީގެ އެޑްރެސް</translation>
+    </message>
+    <message>
+        <source>Addresses of this page</source>
+        <translation>މި ޞަފްޙާގެ އެޑްރެސްތައް</translation>
+    </message>
+    <message>
+        <source>redirects</source>
+        <translation>ރީޑައިރެކްޓް ކުރޭ</translation>
+    </message>
+    <message>
+        <source>Wildcards that lead here</source>
+        <translation>މިތަނަށް ގެންނަ ވައިލްޑްކާޑްތައް</translation>
+    </message>
+    <message>
+        <source>No wildcard leads to this page.</source>
+        <translation>މި ޞަފްޙާއަށް އެއްވެސް ވައިލްޑްކާޑެއް ނުގެންނާނެ.</translation>
+    </message>
+    <message>
+        <source>shows this page</source>
+        <translation>މި ޞަފްޙާ ދައްކާ</translation>
+    </message>
+    <message>
+        <source>Addresses visitors did not find</source>
+        <translation>ޒިޔާރަތްކުރާ މީހުންނަށް ނުފެނުނު އެޑްރެސްތައް</translation>
+    </message>
+    <message>
+        <source>Addresses of this site that answered "not found" and end like this page's address. A redirect sends their visitors here.</source>
+        <translation>"ނުފެނުނު" ޖަވާބު ދިން އަދި މި ޞަފްޙާގެ އެޑްރެސް ފަދައިން ނިމޭ މި ސައިޓުގެ އެޑްރެސްތައް. ރީޑައިރެކްޓެއް އެމީހުންގެ ޒިޔާރަތްކުރާ މީހުން މިތަނަށް ފޮނުވާނެ.</translation>
+    </message>
+    <message>
+        <source>None: no visitor missed this page.</source>
+        <translation>ނެތް: އެއްވެސް ޒިޔާރަތްކުރާ މީހަކު މި ޞަފްޙާ ގެއްލިފައެއް ނެތް.</translation>
+    </message>
+    <message>
+        <source>Redirect to this page</source>
+        <translation>މި ޞަފްޙާއަށް ރީޑައިރެކްޓް ކުރޭ</translation>
+    </message>
+    <message>
+        <source>%path now redirects to this page.</source>
+        <translation>%path މިހާރު މި ޞަފްޙާއަށް ރީޑައިރެކްޓް ކުރޭ.</translation>
+    </message>
+    <message>
+        <source>%n times, last %time</source>
+        <translation>%n ފަހަރު، އެންމެ ފަހުން %time</translation>
+    </message>
+    <message>
+        <source>Add the address</source>
+        <translation>އެޑްރެސް އިތުރުކުރޭ</translation>
+    </message>
+    <message>
+        <source>Add an address</source>
+        <translation>އެޑްރެހެއް އިތުރުކުރޭ</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>ބަސް</translation>
+    </message>
+    <message>
+        <source>Redirect to the page's address (otherwise the page is shown under this address)</source>
+        <translation>ޞަފްޙާގެ އެޑްރެހަށް ރީޑައިރެކްޓް ކުރޭ (ނޫނީ ޞަފްޙާ މި އެޑްރެހުގެ ދަށުން ދައްކާނެ)</translation>
+    </message>
+    <message>
+        <source>Added as %path (the address was cleaned up).</source>
+        <translation>%path ގެ ގޮތުގައި އިތުރުކުރެވިއްޖެ (އެޑްރެސް ސާފުކުރެވިއްޖެ).</translation>
+    </message>
+    <message>
+        <source>Added: %path</source>
+        <translation>އިތުރުކުރެވިއްޖެ: %path</translation>
+    </message>
+    <message>
+        <source>Add the wildcard</source>
+        <translation>ވައިލްޑްކާޑު އިތުރުކުރޭ</translation>
+    </message>
+    <message>
+        <source>Add a wildcard</source>
+        <translation>ވައިލްޑްކާޑެއް އިތުރުކުރޭ</translation>
+    </message>
+    <message>
+        <source>Every address that matches leads to this page; a * matches the rest of the address.</source>
+        <translation>ދިމާވާ ކޮންމެ އެޑްރެހެއް މި ޞަފްޙާއަށް ގެންދާނެ؛ * އެޑްރެހުގެ ބާކީ ބައިއާ ދިމާވޭ.</translation>
+    </message>
+    <message>
+        <source>Address pattern</source>
+        <translation>އެޑްރެހުގެ ނަމޫނާ</translation>
+    </message>
+    <message>
+        <source>URLs</source>
+        <translation>URLތައް</translation>
+    </message>
 </context>
 </TS>

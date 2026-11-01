@@ -1463,5 +1463,121 @@
         <source>%n comments wait for moderation</source>
         <translation>%n iwenniten ttrajun aseɣyed</translation>
     </message>
+    <message>
+        <source>Give an address on this site, such as /campaign/running.</source>
+        <translation>Efk tansa deg usmel-a, am /campaign/running.</translation>
+    </message>
+    <message>
+        <source>There is no such language.</source>
+        <translation>Ulac tutlayt am tin.</translation>
+    </message>
+    <message>
+        <source>This address is taken already.</source>
+        <translation>Tansa-a tettwaṭṭef yakan.</translation>
+    </message>
+    <message>
+        <source>There is a wildcard for this address already.</source>
+        <translation>Yella yakan wildcard i tansa-a.</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Tansa</translation>
+    </message>
+    <message>
+        <source>Alias</source>
+        <translation>Isem-nniḍen</translation>
+    </message>
+    <message>
+        <source>Old address</source>
+        <translation>Tansa taqdimt</translation>
+    </message>
+    <message>
+        <source>Addresses of this page</source>
+        <translation>Tansiwin n usebter-a</translation>
+    </message>
+    <message>
+        <source>redirects</source>
+        <translation>yettwellih</translation>
+    </message>
+    <message>
+        <source>Wildcards that lead here</source>
+        <translation>Wildcards i d-yettawin ɣer da</translation>
+    </message>
+    <message>
+        <source>No wildcard leads to this page.</source>
+        <translation>Ulac wildcard i yettawin ɣer usebter-a.</translation>
+    </message>
+    <message>
+        <source>shows this page</source>
+        <translation>yesskan asebter-a</translation>
+    </message>
+    <message>
+        <source>Addresses visitors did not find</source>
+        <translation>Tansiwin ur ufin ara yinagiyen</translation>
+    </message>
+    <message>
+        <source>Addresses of this site that answered "not found" and end like this page's address. A redirect sends their visitors here.</source>
+        <translation>Tansiwin n usmel-a i d-yerran "ur yettwaf ara" yerna fukkunt am tansa n usebter-a. Awellih ad d-yazen inagiyen-nsent ɣer da.</translation>
+    </message>
+    <message>
+        <source>None: no visitor missed this page.</source>
+        <translation>Ulac: ula d yiwen n unagi ur iruḥ ara fell-as usebter-a.</translation>
+    </message>
+    <message>
+        <source>Redirect to this page</source>
+        <translation>Wellih ɣer usebter-a</translation>
+    </message>
+    <message>
+        <source>%path now redirects to this page.</source>
+        <translation>%path yettwellih tura ɣer usebter-a.</translation>
+    </message>
+    <message>
+        <source>%n times, last %time</source>
+        <translation>%n n tikkal, taneggarut %time</translation>
+    </message>
+    <message>
+        <source>Add the address</source>
+        <translation>Rnu tansa</translation>
+    </message>
+    <message>
+        <source>Add an address</source>
+        <translation>Rnu tansa</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>Tutlayt</translation>
+    </message>
+    <message>
+        <source>Redirect to the page's address (otherwise the page is shown under this address)</source>
+        <translation>Wellih ɣer tansa n usebter (neɣ ad yettwaskan usebter s tansa-a)</translation>
+    </message>
+    <message>
+        <source>Added as %path (the address was cleaned up).</source>
+        <translation>Yettwarna am %path (tansa tettwasfeḍ).</translation>
+    </message>
+    <message>
+        <source>Added: %path</source>
+        <translation>Yettwarna: %path</translation>
+    </message>
+    <message>
+        <source>Add the wildcard</source>
+        <translation>Rnu wildcard</translation>
+    </message>
+    <message>
+        <source>Add a wildcard</source>
+        <translation>Rnu wildcard</translation>
+    </message>
+    <message>
+        <source>Every address that matches leads to this page; a * matches the rest of the address.</source>
+        <translation>Yal tansa i yemṣadan tettawi ɣer usebter-a; * yemṣada d wayen i d-yeqqimen deg tansa.</translation>
+    </message>
+    <message>
+        <source>Address pattern</source>
+        <translation>Tamudemt n tansa</translation>
+    </message>
+    <message>
+        <source>URLs</source>
+        <translation>URLs</translation>
+    </message>
 </context>
 </TS>

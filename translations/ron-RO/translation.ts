@@ -1463,5 +1463,121 @@
         <source>%n comments wait for moderation</source>
         <translation>%n comentarii așteaptă moderarea</translation>
     </message>
+    <message>
+        <source>Give an address on this site, such as /campaign/running.</source>
+        <translation>Indicați o adresă de pe acest site, de exemplu /campaign/running.</translation>
+    </message>
+    <message>
+        <source>There is no such language.</source>
+        <translation>Nu există o astfel de limbă.</translation>
+    </message>
+    <message>
+        <source>This address is taken already.</source>
+        <translation>Această adresă este deja ocupată.</translation>
+    </message>
+    <message>
+        <source>There is a wildcard for this address already.</source>
+        <translation>Există deja un metacaracter pentru această adresă.</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Adresă</translation>
+    </message>
+    <message>
+        <source>Alias</source>
+        <translation>Alias</translation>
+    </message>
+    <message>
+        <source>Old address</source>
+        <translation>Adresă veche</translation>
+    </message>
+    <message>
+        <source>Addresses of this page</source>
+        <translation>Adresele acestei pagini</translation>
+    </message>
+    <message>
+        <source>redirects</source>
+        <translation>redirecționează</translation>
+    </message>
+    <message>
+        <source>Wildcards that lead here</source>
+        <translation>Metacaractere care duc aici</translation>
+    </message>
+    <message>
+        <source>No wildcard leads to this page.</source>
+        <translation>Niciun metacaracter nu duce la această pagină.</translation>
+    </message>
+    <message>
+        <source>shows this page</source>
+        <translation>afișează această pagină</translation>
+    </message>
+    <message>
+        <source>Addresses visitors did not find</source>
+        <translation>Adrese pe care vizitatorii nu le-au găsit</translation>
+    </message>
+    <message>
+        <source>Addresses of this site that answered "not found" and end like this page's address. A redirect sends their visitors here.</source>
+        <translation>Adrese ale acestui site care au răspuns "negăsit" și se termină ca adresa acestei pagini. O redirecționare îi trimite aici pe vizitatorii lor.</translation>
+    </message>
+    <message>
+        <source>None: no visitor missed this page.</source>
+        <translation>Niciuna: niciun vizitator nu a ratat această pagină.</translation>
+    </message>
+    <message>
+        <source>Redirect to this page</source>
+        <translation>Redirecționează către această pagină</translation>
+    </message>
+    <message>
+        <source>%path now redirects to this page.</source>
+        <translation>%path redirecționează acum către această pagină.</translation>
+    </message>
+    <message>
+        <source>%n times, last %time</source>
+        <translation>de %n ori, ultima dată %time</translation>
+    </message>
+    <message>
+        <source>Add the address</source>
+        <translation>Adăugați adresa</translation>
+    </message>
+    <message>
+        <source>Add an address</source>
+        <translation>Adăugați o adresă</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>Limbă</translation>
+    </message>
+    <message>
+        <source>Redirect to the page's address (otherwise the page is shown under this address)</source>
+        <translation>Redirecționează către adresa paginii (altfel pagina este afișată la această adresă)</translation>
+    </message>
+    <message>
+        <source>Added as %path (the address was cleaned up).</source>
+        <translation>Adăugată ca %path (adresa a fost curățată).</translation>
+    </message>
+    <message>
+        <source>Added: %path</source>
+        <translation>Adăugată: %path</translation>
+    </message>
+    <message>
+        <source>Add the wildcard</source>
+        <translation>Adăugați metacaracterul</translation>
+    </message>
+    <message>
+        <source>Add a wildcard</source>
+        <translation>Adăugați un metacaracter</translation>
+    </message>
+    <message>
+        <source>Every address that matches leads to this page; a * matches the rest of the address.</source>
+        <translation>Fiecare adresă care se potrivește duce la această pagină; un * se potrivește cu restul adresei.</translation>
+    </message>
+    <message>
+        <source>Address pattern</source>
+        <translation>Model de adresă</translation>
+    </message>
+    <message>
+        <source>URLs</source>
+        <translation>URL-uri</translation>
+    </message>
 </context>
 </TS>

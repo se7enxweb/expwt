@@ -1463,5 +1463,121 @@
         <source>%n comments wait for moderation</source>
         <translation>%n iruzkin moderazioaren zain</translation>
     </message>
+    <message>
+        <source>Give an address on this site, such as /campaign/running.</source>
+        <translation>Eman gune honetako helbide bat, adibidez /campaign/running.</translation>
+    </message>
+    <message>
+        <source>There is no such language.</source>
+        <translation>Ez dago horrelako hizkuntzarik.</translation>
+    </message>
+    <message>
+        <source>This address is taken already.</source>
+        <translation>Helbide hau hartuta dago jada.</translation>
+    </message>
+    <message>
+        <source>There is a wildcard for this address already.</source>
+        <translation>Badago jada komodin bat helbide honetarako.</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Helbidea</translation>
+    </message>
+    <message>
+        <source>Alias</source>
+        <translation>Aliasa</translation>
+    </message>
+    <message>
+        <source>Old address</source>
+        <translation>Helbide zaharra</translation>
+    </message>
+    <message>
+        <source>Addresses of this page</source>
+        <translation>Orri honen helbideak</translation>
+    </message>
+    <message>
+        <source>redirects</source>
+        <translation>birbideratzen du</translation>
+    </message>
+    <message>
+        <source>Wildcards that lead here</source>
+        <translation>Hona daramaten komodinak</translation>
+    </message>
+    <message>
+        <source>No wildcard leads to this page.</source>
+        <translation>Ez dago orri honetara daraman komodinik.</translation>
+    </message>
+    <message>
+        <source>shows this page</source>
+        <translation>orri hau erakusten du</translation>
+    </message>
+    <message>
+        <source>Addresses visitors did not find</source>
+        <translation>Bisitariek aurkitu ez dituzten helbideak</translation>
+    </message>
+    <message>
+        <source>Addresses of this site that answered "not found" and end like this page's address. A redirect sends their visitors here.</source>
+        <translation>Gune honetako helbideak, "ez da aurkitu" erantzun dutenak eta orri honen helbidea bezala amaitzen direnak. Birbideratze batek haien bisitariak hona bidaltzen ditu.</translation>
+    </message>
+    <message>
+        <source>None: no visitor missed this page.</source>
+        <translation>Bat ere ez: ez du bisitaririk orri hau galdu.</translation>
+    </message>
+    <message>
+        <source>Redirect to this page</source>
+        <translation>Birbideratu orri honetara</translation>
+    </message>
+    <message>
+        <source>%path now redirects to this page.</source>
+        <translation>%path orain orri honetara birbideratzen du.</translation>
+    </message>
+    <message>
+        <source>%n times, last %time</source>
+        <translation>%n aldiz, azkena %time</translation>
+    </message>
+    <message>
+        <source>Add the address</source>
+        <translation>Gehitu helbidea</translation>
+    </message>
+    <message>
+        <source>Add an address</source>
+        <translation>Gehitu helbide bat</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>Hizkuntza</translation>
+    </message>
+    <message>
+        <source>Redirect to the page's address (otherwise the page is shown under this address)</source>
+        <translation>Birbideratu orriaren helbidera (bestela orria helbide honen pean erakusten da)</translation>
+    </message>
+    <message>
+        <source>Added as %path (the address was cleaned up).</source>
+        <translation>%path gisa gehitu da (helbidea garbitu da).</translation>
+    </message>
+    <message>
+        <source>Added: %path</source>
+        <translation>Gehituta: %path</translation>
+    </message>
+    <message>
+        <source>Add the wildcard</source>
+        <translation>Gehitu komodina</translation>
+    </message>
+    <message>
+        <source>Add a wildcard</source>
+        <translation>Gehitu komodin bat</translation>
+    </message>
+    <message>
+        <source>Every address that matches leads to this page; a * matches the rest of the address.</source>
+        <translation>Bat datorren helbide orok orri honetara darama; * helbidearen gainerakoarekin bat dator.</translation>
+    </message>
+    <message>
+        <source>Address pattern</source>
+        <translation>Helbide-eredua</translation>
+    </message>
+    <message>
+        <source>URLs</source>
+        <translation>URLak</translation>
+    </message>
 </context>
 </TS>

@@ -1463,5 +1463,121 @@
         <source>%n comments wait for moderation</source>
         <translation>%n sylw yn aros am gymedroli</translation>
     </message>
+    <message>
+        <source>Give an address on this site, such as /campaign/running.</source>
+        <translation>Rhowch gyfeiriad ar y wefan hon, fel /campaign/running.</translation>
+    </message>
+    <message>
+        <source>There is no such language.</source>
+        <translation>Does dim iaith o'r fath.</translation>
+    </message>
+    <message>
+        <source>This address is taken already.</source>
+        <translation>Mae'r cyfeiriad hwn wedi'i gymryd yn barod.</translation>
+    </message>
+    <message>
+        <source>There is a wildcard for this address already.</source>
+        <translation>Mae nod-chwilio ar gyfer y cyfeiriad hwn yn barod.</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Cyfeiriad</translation>
+    </message>
+    <message>
+        <source>Alias</source>
+        <translation>Arallenw</translation>
+    </message>
+    <message>
+        <source>Old address</source>
+        <translation>Hen gyfeiriad</translation>
+    </message>
+    <message>
+        <source>Addresses of this page</source>
+        <translation>Cyfeiriadau'r dudalen hon</translation>
+    </message>
+    <message>
+        <source>redirects</source>
+        <translation>ailgyfeirio</translation>
+    </message>
+    <message>
+        <source>Wildcards that lead here</source>
+        <translation>Nodau-chwilio sy'n arwain yma</translation>
+    </message>
+    <message>
+        <source>No wildcard leads to this page.</source>
+        <translation>Does dim nod-chwilio'n arwain i'r dudalen hon.</translation>
+    </message>
+    <message>
+        <source>shows this page</source>
+        <translation>yn dangos y dudalen hon</translation>
+    </message>
+    <message>
+        <source>Addresses visitors did not find</source>
+        <translation>Cyfeiriadau na ddaeth ymwelwyr o hyd iddynt</translation>
+    </message>
+    <message>
+        <source>Addresses of this site that answered "not found" and end like this page's address. A redirect sends their visitors here.</source>
+        <translation>Cyfeiriadau ar y wefan hon a atebodd "heb ei ganfod" ac sy'n gorffen fel cyfeiriad y dudalen hon. Mae ailgyfeiriad yn anfon eu hymwelwyr yma.</translation>
+    </message>
+    <message>
+        <source>None: no visitor missed this page.</source>
+        <translation>Dim: does dim ymwelydd wedi colli'r dudalen hon.</translation>
+    </message>
+    <message>
+        <source>Redirect to this page</source>
+        <translation>Ailgyfeirio i'r dudalen hon</translation>
+    </message>
+    <message>
+        <source>%path now redirects to this page.</source>
+        <translation>Mae %path yn ailgyfeirio i'r dudalen hon nawr.</translation>
+    </message>
+    <message>
+        <source>%n times, last %time</source>
+        <translation>%n gwaith, y tro olaf %time</translation>
+    </message>
+    <message>
+        <source>Add the address</source>
+        <translation>Ychwanegu'r cyfeiriad</translation>
+    </message>
+    <message>
+        <source>Add an address</source>
+        <translation>Ychwanegu cyfeiriad</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>Iaith</translation>
+    </message>
+    <message>
+        <source>Redirect to the page's address (otherwise the page is shown under this address)</source>
+        <translation>Ailgyfeirio i gyfeiriad y dudalen (fel arall dangosir y dudalen dan y cyfeiriad hwn)</translation>
+    </message>
+    <message>
+        <source>Added as %path (the address was cleaned up).</source>
+        <translation>Ychwanegwyd fel %path (cafodd y cyfeiriad ei dacluso).</translation>
+    </message>
+    <message>
+        <source>Added: %path</source>
+        <translation>Ychwanegwyd: %path</translation>
+    </message>
+    <message>
+        <source>Add the wildcard</source>
+        <translation>Ychwanegu'r nod-chwilio</translation>
+    </message>
+    <message>
+        <source>Add a wildcard</source>
+        <translation>Ychwanegu nod-chwilio</translation>
+    </message>
+    <message>
+        <source>Every address that matches leads to this page; a * matches the rest of the address.</source>
+        <translation>Mae pob cyfeiriad sy'n cyfateb yn arwain i'r dudalen hon; mae * yn cyfateb i weddill y cyfeiriad.</translation>
+    </message>
+    <message>
+        <source>Address pattern</source>
+        <translation>Patrwm cyfeiriad</translation>
+    </message>
+    <message>
+        <source>URLs</source>
+        <translation>URLau</translation>
+    </message>
 </context>
 </TS>

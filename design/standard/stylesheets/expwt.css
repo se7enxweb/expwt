@@ -919,3 +919,9 @@ button.wt-seo-item:hover { border-color: var(--a4-accent); }
 .wt-comment-text { white-space: pre-wrap; }
 .wt-comment-reply { margin-block-start: var(--a4-space-2); }
 .wt-comment-reply textarea { inline-size: 100%; box-sizing: border-box; }
+
+/* the addresses of the page (E5): an address and its kind on one line, wrapping on a narrow panel */
+.wt-url-list > li.wt-url { flex-wrap: wrap; }
+.wt-url-path { flex: 1 1 calc(var(--a4-space-7) * 3); min-inline-size: 0; overflow-wrap: break-word; }
+.wt-url-meta { display: inline-flex; flex-wrap: wrap; gap: var(--a4-space-1); }
+.wt-url-form { margin-block-start: var(--a4-space-3); }

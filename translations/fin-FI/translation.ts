@@ -1463,5 +1463,121 @@
         <source>%n comments wait for moderation</source>
         <translation>%n kommenttia odottaa moderointia</translation>
     </message>
+    <message>
+        <source>Give an address on this site, such as /campaign/running.</source>
+        <translation>Anna tämän sivuston osoite, esimerkiksi /campaign/running.</translation>
+    </message>
+    <message>
+        <source>There is no such language.</source>
+        <translation>Tällaista kieltä ei ole.</translation>
+    </message>
+    <message>
+        <source>This address is taken already.</source>
+        <translation>Tämä osoite on jo varattu.</translation>
+    </message>
+    <message>
+        <source>There is a wildcard for this address already.</source>
+        <translation>Tälle osoitteelle on jo jokerimerkki.</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Osoite</translation>
+    </message>
+    <message>
+        <source>Alias</source>
+        <translation>Alias</translation>
+    </message>
+    <message>
+        <source>Old address</source>
+        <translation>Vanha osoite</translation>
+    </message>
+    <message>
+        <source>Addresses of this page</source>
+        <translation>Tämän sivun osoitteet</translation>
+    </message>
+    <message>
+        <source>redirects</source>
+        <translation>uudelleenohjaa</translation>
+    </message>
+    <message>
+        <source>Wildcards that lead here</source>
+        <translation>Jokerimerkit, jotka johtavat tänne</translation>
+    </message>
+    <message>
+        <source>No wildcard leads to this page.</source>
+        <translation>Mikään jokerimerkki ei johda tälle sivulle.</translation>
+    </message>
+    <message>
+        <source>shows this page</source>
+        <translation>näyttää tämän sivun</translation>
+    </message>
+    <message>
+        <source>Addresses visitors did not find</source>
+        <translation>Osoitteet, joita kävijät eivät löytäneet</translation>
+    </message>
+    <message>
+        <source>Addresses of this site that answered "not found" and end like this page's address. A redirect sends their visitors here.</source>
+        <translation>Tämän sivuston osoitteet, jotka vastasivat "ei löytynyt" ja päättyvät kuten tämän sivun osoite. Uudelleenohjaus lähettää niiden kävijät tänne.</translation>
+    </message>
+    <message>
+        <source>None: no visitor missed this page.</source>
+        <translation>Ei yhtään: yksikään kävijä ei ole ohittanut tätä sivua.</translation>
+    </message>
+    <message>
+        <source>Redirect to this page</source>
+        <translation>Ohjaa tälle sivulle</translation>
+    </message>
+    <message>
+        <source>%path now redirects to this page.</source>
+        <translation>%path ohjaa nyt tälle sivulle.</translation>
+    </message>
+    <message>
+        <source>%n times, last %time</source>
+        <translation>%n kertaa, viimeksi %time</translation>
+    </message>
+    <message>
+        <source>Add the address</source>
+        <translation>Lisää osoite</translation>
+    </message>
+    <message>
+        <source>Add an address</source>
+        <translation>Lisää osoite</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>Kieli</translation>
+    </message>
+    <message>
+        <source>Redirect to the page's address (otherwise the page is shown under this address)</source>
+        <translation>Ohjaa sivun osoitteeseen (muuten sivu näytetään tällä osoitteella)</translation>
+    </message>
+    <message>
+        <source>Added as %path (the address was cleaned up).</source>
+        <translation>Lisätty muodossa %path (osoite siistittiin).</translation>
+    </message>
+    <message>
+        <source>Added: %path</source>
+        <translation>Lisätty: %path</translation>
+    </message>
+    <message>
+        <source>Add the wildcard</source>
+        <translation>Lisää jokerimerkki</translation>
+    </message>
+    <message>
+        <source>Add a wildcard</source>
+        <translation>Lisää jokerimerkki</translation>
+    </message>
+    <message>
+        <source>Every address that matches leads to this page; a * matches the rest of the address.</source>
+        <translation>Jokainen vastaava osoite johtaa tälle sivulle; * vastaa osoitteen loppuosaa.</translation>
+    </message>
+    <message>
+        <source>Address pattern</source>
+        <translation>Osoitekuvio</translation>
+    </message>
+    <message>
+        <source>URLs</source>
+        <translation>URL-osoitteet</translation>
+    </message>
 </context>
 </TS>

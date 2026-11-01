@@ -1463,5 +1463,121 @@
         <source>%n comments wait for moderation</source>
         <translation>Nkọwa %n na-eche nlekọta</translation>
     </message>
+    <message>
+        <source>Give an address on this site, such as /campaign/running.</source>
+        <translation>Nye adreesị dị na saịtị a, dị ka /campaign/running.</translation>
+    </message>
+    <message>
+        <source>There is no such language.</source>
+        <translation>Enweghị asụsụ dị otu ahụ.</translation>
+    </message>
+    <message>
+        <source>This address is taken already.</source>
+        <translation>E werela adreesị a.</translation>
+    </message>
+    <message>
+        <source>There is a wildcard for this address already.</source>
+        <translation>E nwere wildcard maka adreesị a.</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Adreesị</translation>
+    </message>
+    <message>
+        <source>Alias</source>
+        <translation>Aha ọzọ</translation>
+    </message>
+    <message>
+        <source>Old address</source>
+        <translation>Adreesị ochie</translation>
+    </message>
+    <message>
+        <source>Addresses of this page</source>
+        <translation>Adreesị nke ibe a</translation>
+    </message>
+    <message>
+        <source>redirects</source>
+        <translation>na-atụgharị</translation>
+    </message>
+    <message>
+        <source>Wildcards that lead here</source>
+        <translation>Wildcard ndị na-eduga ebe a</translation>
+    </message>
+    <message>
+        <source>No wildcard leads to this page.</source>
+        <translation>Ọ dịghị wildcard na-eduga na ibe a.</translation>
+    </message>
+    <message>
+        <source>shows this page</source>
+        <translation>na-egosi ibe a</translation>
+    </message>
+    <message>
+        <source>Addresses visitors did not find</source>
+        <translation>Adreesị ndị ọbịa achọtaghị</translation>
+    </message>
+    <message>
+        <source>Addresses of this site that answered "not found" and end like this page's address. A redirect sends their visitors here.</source>
+        <translation>Adreesị nke saịtị a zara "achọtaghị" ma kwụsị dị ka adreesị ibe a. Ntụgharị na-eziga ndị ọbịa ha ebe a.</translation>
+    </message>
+    <message>
+        <source>None: no visitor missed this page.</source>
+        <translation>Ọ dịghị: ọ dịghị onye ọbịa tụfuru ibe a.</translation>
+    </message>
+    <message>
+        <source>Redirect to this page</source>
+        <translation>Tụgharịa gaa na ibe a</translation>
+    </message>
+    <message>
+        <source>%path now redirects to this page.</source>
+        <translation>%path na-atụgharị ugbu a gaa na ibe a.</translation>
+    </message>
+    <message>
+        <source>%n times, last %time</source>
+        <translation>Ugboro %n, nke ikpeazụ %time</translation>
+    </message>
+    <message>
+        <source>Add the address</source>
+        <translation>Tinye adreesị ahụ</translation>
+    </message>
+    <message>
+        <source>Add an address</source>
+        <translation>Tinye adreesị</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>Asụsụ</translation>
+    </message>
+    <message>
+        <source>Redirect to the page's address (otherwise the page is shown under this address)</source>
+        <translation>Tụgharịa gaa na adreesị ibe ahụ (ma ọ bụghị ya, a na-egosi ibe ahụ n'okpuru adreesị a)</translation>
+    </message>
+    <message>
+        <source>Added as %path (the address was cleaned up).</source>
+        <translation>Etinyere dị ka %path (e hichara adreesị ahụ).</translation>
+    </message>
+    <message>
+        <source>Added: %path</source>
+        <translation>Etinyere: %path</translation>
+    </message>
+    <message>
+        <source>Add the wildcard</source>
+        <translation>Tinye wildcard ahụ</translation>
+    </message>
+    <message>
+        <source>Add a wildcard</source>
+        <translation>Tinye wildcard</translation>
+    </message>
+    <message>
+        <source>Every address that matches leads to this page; a * matches the rest of the address.</source>
+        <translation>Adreesị ọ bụla dabara na-eduga na ibe a; * dabara na ndị fọdụrụ n'adreesị ahụ.</translation>
+    </message>
+    <message>
+        <source>Address pattern</source>
+        <translation>Ụkpụrụ adreesị</translation>
+    </message>
+    <message>
+        <source>URLs</source>
+        <translation>URLs</translation>
+    </message>
 </context>
 </TS>

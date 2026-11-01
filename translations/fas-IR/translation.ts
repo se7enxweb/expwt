@@ -1463,5 +1463,121 @@
         <source>%n comments wait for moderation</source>
         <translation>%n نظر در انتظار بررسی</translation>
     </message>
+    <message>
+        <source>Give an address on this site, such as /campaign/running.</source>
+        <translation>یک نشانی در این سایت وارد کنید، مانند /campaign/running.</translation>
+    </message>
+    <message>
+        <source>There is no such language.</source>
+        <translation>چنین زبانی وجود ندارد.</translation>
+    </message>
+    <message>
+        <source>This address is taken already.</source>
+        <translation>این نشانی قبلاً گرفته شده است.</translation>
+    </message>
+    <message>
+        <source>There is a wildcard for this address already.</source>
+        <translation>برای این نشانی قبلاً یک نویسهٔ عام وجود دارد.</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>نشانی</translation>
+    </message>
+    <message>
+        <source>Alias</source>
+        <translation>نام مستعار</translation>
+    </message>
+    <message>
+        <source>Old address</source>
+        <translation>نشانی قدیمی</translation>
+    </message>
+    <message>
+        <source>Addresses of this page</source>
+        <translation>نشانی‌های این صفحه</translation>
+    </message>
+    <message>
+        <source>redirects</source>
+        <translation>تغییر مسیر می‌دهد</translation>
+    </message>
+    <message>
+        <source>Wildcards that lead here</source>
+        <translation>نویسه‌های عامی که به اینجا می‌رسانند</translation>
+    </message>
+    <message>
+        <source>No wildcard leads to this page.</source>
+        <translation>هیچ نویسهٔ عامی به این صفحه نمی‌رساند.</translation>
+    </message>
+    <message>
+        <source>shows this page</source>
+        <translation>این صفحه را نمایش می‌دهد</translation>
+    </message>
+    <message>
+        <source>Addresses visitors did not find</source>
+        <translation>نشانی‌هایی که بازدیدکنندگان پیدا نکردند</translation>
+    </message>
+    <message>
+        <source>Addresses of this site that answered "not found" and end like this page's address. A redirect sends their visitors here.</source>
+        <translation>نشانی‌هایی از این سایت که پاسخ "یافت نشد" دادند و مانند نشانی این صفحه تمام می‌شوند. تغییر مسیر بازدیدکنندگان آن‌ها را به اینجا می‌فرستد.</translation>
+    </message>
+    <message>
+        <source>None: no visitor missed this page.</source>
+        <translation>هیچ: هیچ بازدیدکننده‌ای این صفحه را از دست نداده است.</translation>
+    </message>
+    <message>
+        <source>Redirect to this page</source>
+        <translation>تغییر مسیر به این صفحه</translation>
+    </message>
+    <message>
+        <source>%path now redirects to this page.</source>
+        <translation>%path اکنون به این صفحه تغییر مسیر می‌دهد.</translation>
+    </message>
+    <message>
+        <source>%n times, last %time</source>
+        <translation>%n بار، آخرین بار %time</translation>
+    </message>
+    <message>
+        <source>Add the address</source>
+        <translation>افزودن نشانی</translation>
+    </message>
+    <message>
+        <source>Add an address</source>
+        <translation>افزودن نشانی</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>زبان</translation>
+    </message>
+    <message>
+        <source>Redirect to the page's address (otherwise the page is shown under this address)</source>
+        <translation>تغییر مسیر به نشانی صفحه (در غیر این صورت صفحه با این نشانی نمایش داده می‌شود)</translation>
+    </message>
+    <message>
+        <source>Added as %path (the address was cleaned up).</source>
+        <translation>به‌صورت %path افزوده شد (نشانی پاک‌سازی شد).</translation>
+    </message>
+    <message>
+        <source>Added: %path</source>
+        <translation>افزوده شد: %path</translation>
+    </message>
+    <message>
+        <source>Add the wildcard</source>
+        <translation>افزودن نویسهٔ عام</translation>
+    </message>
+    <message>
+        <source>Add a wildcard</source>
+        <translation>افزودن نویسهٔ عام</translation>
+    </message>
+    <message>
+        <source>Every address that matches leads to this page; a * matches the rest of the address.</source>
+        <translation>هر نشانی منطبق به این صفحه می‌رساند؛ * با بقیهٔ نشانی منطبق است.</translation>
+    </message>
+    <message>
+        <source>Address pattern</source>
+        <translation>الگوی نشانی</translation>
+    </message>
+    <message>
+        <source>URLs</source>
+        <translation>نشانی‌ها</translation>
+    </message>
 </context>
 </TS>

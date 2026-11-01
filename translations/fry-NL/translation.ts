@@ -1463,5 +1463,121 @@
         <source>%n comments wait for moderation</source>
         <translation>%n reaksjes wachtsje op moderaasje</translation>
     </message>
+    <message>
+        <source>Give an address on this site, such as /campaign/running.</source>
+        <translation>Jou in adres op dizze side, lykas /campaign/running.</translation>
+    </message>
+    <message>
+        <source>There is no such language.</source>
+        <translation>Sa'n taal bestiet net.</translation>
+    </message>
+    <message>
+        <source>This address is taken already.</source>
+        <translation>Dit adres is al yn gebrûk.</translation>
+    </message>
+    <message>
+        <source>There is a wildcard for this address already.</source>
+        <translation>Der is al in jokerteken foar dit adres.</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Adres</translation>
+    </message>
+    <message>
+        <source>Alias</source>
+        <translation>Alias</translation>
+    </message>
+    <message>
+        <source>Old address</source>
+        <translation>Âld adres</translation>
+    </message>
+    <message>
+        <source>Addresses of this page</source>
+        <translation>Adressen fan dizze side</translation>
+    </message>
+    <message>
+        <source>redirects</source>
+        <translation>stjoert troch</translation>
+    </message>
+    <message>
+        <source>Wildcards that lead here</source>
+        <translation>Jokertekens dy't hjirhinne liede</translation>
+    </message>
+    <message>
+        <source>No wildcard leads to this page.</source>
+        <translation>Gjin jokerteken liedt nei dizze side.</translation>
+    </message>
+    <message>
+        <source>shows this page</source>
+        <translation>toant dizze side</translation>
+    </message>
+    <message>
+        <source>Addresses visitors did not find</source>
+        <translation>Adressen dy't besikers net fûnen</translation>
+    </message>
+    <message>
+        <source>Addresses of this site that answered "not found" and end like this page's address. A redirect sends their visitors here.</source>
+        <translation>Adressen fan dizze side dy't "net fûn" antwurde en einigje lykas it adres fan dizze side. In trochferwizing stjoert harren besikers hjirhinne.</translation>
+    </message>
+    <message>
+        <source>None: no visitor missed this page.</source>
+        <translation>Gjin: gjin besiker hat dizze side mist.</translation>
+    </message>
+    <message>
+        <source>Redirect to this page</source>
+        <translation>Trochstjoere nei dizze side</translation>
+    </message>
+    <message>
+        <source>%path now redirects to this page.</source>
+        <translation>%path stjoert no troch nei dizze side.</translation>
+    </message>
+    <message>
+        <source>%n times, last %time</source>
+        <translation>%n kear, lêst %time</translation>
+    </message>
+    <message>
+        <source>Add the address</source>
+        <translation>Adres tafoegje</translation>
+    </message>
+    <message>
+        <source>Add an address</source>
+        <translation>In adres tafoegje</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>Taal</translation>
+    </message>
+    <message>
+        <source>Redirect to the page's address (otherwise the page is shown under this address)</source>
+        <translation>Trochstjoere nei it adres fan de side (oars wurdt de side ûnder dit adres toand)</translation>
+    </message>
+    <message>
+        <source>Added as %path (the address was cleaned up).</source>
+        <translation>Tafoege as %path (it adres is skjinmakke).</translation>
+    </message>
+    <message>
+        <source>Added: %path</source>
+        <translation>Tafoege: %path</translation>
+    </message>
+    <message>
+        <source>Add the wildcard</source>
+        <translation>Jokerteken tafoegje</translation>
+    </message>
+    <message>
+        <source>Add a wildcard</source>
+        <translation>In jokerteken tafoegje</translation>
+    </message>
+    <message>
+        <source>Every address that matches leads to this page; a * matches the rest of the address.</source>
+        <translation>Elk adres dat oerienkomt, liedt nei dizze side; in * komt oerien mei de rest fan it adres.</translation>
+    </message>
+    <message>
+        <source>Address pattern</source>
+        <translation>Adrespatroan</translation>
+    </message>
+    <message>
+        <source>URLs</source>
+        <translation>URL's</translation>
+    </message>
 </context>
 </TS>

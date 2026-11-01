@@ -1463,5 +1463,121 @@
         <source>%n comments wait for moderation</source>
         <translation>%n şîrove li benda kontrolê ne</translation>
     </message>
+    <message>
+        <source>Give an address on this site, such as /campaign/running.</source>
+        <translation>Navnîşaneke vê malperê bide, wek /campaign/running.</translation>
+    </message>
+    <message>
+        <source>There is no such language.</source>
+        <translation>Zimanekî wisa tune ye.</translation>
+    </message>
+    <message>
+        <source>This address is taken already.</source>
+        <translation>Ev navnîşan berê hatiye girtin.</translation>
+    </message>
+    <message>
+        <source>There is a wildcard for this address already.</source>
+        <translation>Ji bo vê navnîşanê berê wildcardek heye.</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Navnîşan</translation>
+    </message>
+    <message>
+        <source>Alias</source>
+        <translation>Nasnav</translation>
+    </message>
+    <message>
+        <source>Old address</source>
+        <translation>Navnîşana kevn</translation>
+    </message>
+    <message>
+        <source>Addresses of this page</source>
+        <translation>Navnîşanên vê rûpelê</translation>
+    </message>
+    <message>
+        <source>redirects</source>
+        <translation>beralî dike</translation>
+    </message>
+    <message>
+        <source>Wildcards that lead here</source>
+        <translation>Wildcardên ku tînin vir</translation>
+    </message>
+    <message>
+        <source>No wildcard leads to this page.</source>
+        <translation>Tu wildcard nayê vê rûpelê.</translation>
+    </message>
+    <message>
+        <source>shows this page</source>
+        <translation>vê rûpelê nîşan dide</translation>
+    </message>
+    <message>
+        <source>Addresses visitors did not find</source>
+        <translation>Navnîşanên ku mêvanan nedîtin</translation>
+    </message>
+    <message>
+        <source>Addresses of this site that answered "not found" and end like this page's address. A redirect sends their visitors here.</source>
+        <translation>Navnîşanên vê malperê yên ku bersiva "nehat dîtin" dan û wek navnîşana vê rûpelê diqedin. Beralîkirin mêvanên wan dişîne vir.</translation>
+    </message>
+    <message>
+        <source>None: no visitor missed this page.</source>
+        <translation>Tune: tu mêvan ev rûpel ji dest neda.</translation>
+    </message>
+    <message>
+        <source>Redirect to this page</source>
+        <translation>Beralî bike vê rûpelê</translation>
+    </message>
+    <message>
+        <source>%path now redirects to this page.</source>
+        <translation>%path niha beralî dike vê rûpelê.</translation>
+    </message>
+    <message>
+        <source>%n times, last %time</source>
+        <translation>%n caran, ya dawî %time</translation>
+    </message>
+    <message>
+        <source>Add the address</source>
+        <translation>Navnîşanê lê zêde bike</translation>
+    </message>
+    <message>
+        <source>Add an address</source>
+        <translation>Navnîşanekê lê zêde bike</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>Ziman</translation>
+    </message>
+    <message>
+        <source>Redirect to the page's address (otherwise the page is shown under this address)</source>
+        <translation>Beralî bike navnîşana rûpelê (wekî din rûpel di bin vê navnîşanê de tê nîşandan)</translation>
+    </message>
+    <message>
+        <source>Added as %path (the address was cleaned up).</source>
+        <translation>Wek %path hate zêdekirin (navnîşan hate paqijkirin).</translation>
+    </message>
+    <message>
+        <source>Added: %path</source>
+        <translation>Hate zêdekirin: %path</translation>
+    </message>
+    <message>
+        <source>Add the wildcard</source>
+        <translation>Wildcardê lê zêde bike</translation>
+    </message>
+    <message>
+        <source>Add a wildcard</source>
+        <translation>Wildcardekê lê zêde bike</translation>
+    </message>
+    <message>
+        <source>Every address that matches leads to this page; a * matches the rest of the address.</source>
+        <translation>Her navnîşana ku li hev tê dibe vê rûpelê; * li ser bermayiya navnîşanê tê.</translation>
+    </message>
+    <message>
+        <source>Address pattern</source>
+        <translation>Şêweya navnîşanê</translation>
+    </message>
+    <message>
+        <source>URLs</source>
+        <translation>URL</translation>
+    </message>
 </context>
 </TS>

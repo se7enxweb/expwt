@@ -1463,5 +1463,121 @@
         <source>%n comments wait for moderation</source>
         <translation>%n comentarios esperan moderación</translation>
     </message>
+    <message>
+        <source>Give an address on this site, such as /campaign/running.</source>
+        <translation>Indica una dirección de este sitio, como /campaign/running.</translation>
+    </message>
+    <message>
+        <source>There is no such language.</source>
+        <translation>No existe ese idioma.</translation>
+    </message>
+    <message>
+        <source>This address is taken already.</source>
+        <translation>Esta dirección ya está ocupada.</translation>
+    </message>
+    <message>
+        <source>There is a wildcard for this address already.</source>
+        <translation>Ya hay un comodín para esta dirección.</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Dirección</translation>
+    </message>
+    <message>
+        <source>Alias</source>
+        <translation>Alias</translation>
+    </message>
+    <message>
+        <source>Old address</source>
+        <translation>Dirección anterior</translation>
+    </message>
+    <message>
+        <source>Addresses of this page</source>
+        <translation>Direcciones de esta página</translation>
+    </message>
+    <message>
+        <source>redirects</source>
+        <translation>redirige</translation>
+    </message>
+    <message>
+        <source>Wildcards that lead here</source>
+        <translation>Comodines que llevan aquí</translation>
+    </message>
+    <message>
+        <source>No wildcard leads to this page.</source>
+        <translation>Ningún comodín lleva a esta página.</translation>
+    </message>
+    <message>
+        <source>shows this page</source>
+        <translation>muestra esta página</translation>
+    </message>
+    <message>
+        <source>Addresses visitors did not find</source>
+        <translation>Direcciones que los visitantes no encontraron</translation>
+    </message>
+    <message>
+        <source>Addresses of this site that answered "not found" and end like this page's address. A redirect sends their visitors here.</source>
+        <translation>Direcciones de este sitio que respondieron "no encontrado" y terminan como la dirección de esta página. Una redirección envía aquí a sus visitantes.</translation>
+    </message>
+    <message>
+        <source>None: no visitor missed this page.</source>
+        <translation>Ninguna: ningún visitante se perdió esta página.</translation>
+    </message>
+    <message>
+        <source>Redirect to this page</source>
+        <translation>Redirigir a esta página</translation>
+    </message>
+    <message>
+        <source>%path now redirects to this page.</source>
+        <translation>%path ahora redirige a esta página.</translation>
+    </message>
+    <message>
+        <source>%n times, last %time</source>
+        <translation>%n veces, la última %time</translation>
+    </message>
+    <message>
+        <source>Add the address</source>
+        <translation>Agregar la dirección</translation>
+    </message>
+    <message>
+        <source>Add an address</source>
+        <translation>Agregar una dirección</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>Idioma</translation>
+    </message>
+    <message>
+        <source>Redirect to the page's address (otherwise the page is shown under this address)</source>
+        <translation>Redirigir a la dirección de la página (si no, la página se muestra con esta dirección)</translation>
+    </message>
+    <message>
+        <source>Added as %path (the address was cleaned up).</source>
+        <translation>Agregada como %path (la dirección se limpió).</translation>
+    </message>
+    <message>
+        <source>Added: %path</source>
+        <translation>Agregada: %path</translation>
+    </message>
+    <message>
+        <source>Add the wildcard</source>
+        <translation>Agregar el comodín</translation>
+    </message>
+    <message>
+        <source>Add a wildcard</source>
+        <translation>Agregar un comodín</translation>
+    </message>
+    <message>
+        <source>Every address that matches leads to this page; a * matches the rest of the address.</source>
+        <translation>Cada dirección que coincide lleva a esta página; un * coincide con el resto de la dirección.</translation>
+    </message>
+    <message>
+        <source>Address pattern</source>
+        <translation>Patrón de dirección</translation>
+    </message>
+    <message>
+        <source>URLs</source>
+        <translation>URL</translation>
+    </message>
 </context>
 </TS>

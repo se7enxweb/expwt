@@ -1463,5 +1463,121 @@
         <source>%n comments wait for moderation</source>
         <translation>%n ຄຳເຫັນລໍຖ້າການກວດກາ</translation>
     </message>
+    <message>
+        <source>Give an address on this site, such as /campaign/running.</source>
+        <translation>ໃສ່ທີ່ຢູ່ໃນເວັບໄຊນີ້, ເຊັ່ນ /campaign/running.</translation>
+    </message>
+    <message>
+        <source>There is no such language.</source>
+        <translation>ບໍ່ມີພາສາແບບນັ້ນ.</translation>
+    </message>
+    <message>
+        <source>This address is taken already.</source>
+        <translation>ທີ່ຢູ່ນີ້ຖືກໃຊ້ແລ້ວ.</translation>
+    </message>
+    <message>
+        <source>There is a wildcard for this address already.</source>
+        <translation>ມີ wildcard ສຳລັບທີ່ຢູ່ນີ້ແລ້ວ.</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>ທີ່ຢູ່</translation>
+    </message>
+    <message>
+        <source>Alias</source>
+        <translation>ຊື່ແທນ</translation>
+    </message>
+    <message>
+        <source>Old address</source>
+        <translation>ທີ່ຢູ່ເກົ່າ</translation>
+    </message>
+    <message>
+        <source>Addresses of this page</source>
+        <translation>ທີ່ຢູ່ຂອງໜ້ານີ້</translation>
+    </message>
+    <message>
+        <source>redirects</source>
+        <translation>ປ່ຽນທາງ</translation>
+    </message>
+    <message>
+        <source>Wildcards that lead here</source>
+        <translation>wildcard ທີ່ນຳມາບ່ອນນີ້</translation>
+    </message>
+    <message>
+        <source>No wildcard leads to this page.</source>
+        <translation>ບໍ່ມີ wildcard ໃດນຳໄປໜ້ານີ້.</translation>
+    </message>
+    <message>
+        <source>shows this page</source>
+        <translation>ສະແດງໜ້ານີ້</translation>
+    </message>
+    <message>
+        <source>Addresses visitors did not find</source>
+        <translation>ທີ່ຢູ່ທີ່ຜູ້ເຂົ້າຊົມຊອກບໍ່ພົບ</translation>
+    </message>
+    <message>
+        <source>Addresses of this site that answered "not found" and end like this page's address. A redirect sends their visitors here.</source>
+        <translation>ທີ່ຢູ່ຂອງເວັບໄຊນີ້ທີ່ຕອບວ່າ "ບໍ່ພົບ" ແລະ ລົງທ້າຍຄືທີ່ຢູ່ຂອງໜ້ານີ້. ການປ່ຽນທາງຈະສົ່ງຜູ້ເຂົ້າຊົມຂອງມັນມາບ່ອນນີ້.</translation>
+    </message>
+    <message>
+        <source>None: no visitor missed this page.</source>
+        <translation>ບໍ່ມີ: ບໍ່ມີຜູ້ເຂົ້າຊົມຄົນໃດພາດໜ້ານີ້.</translation>
+    </message>
+    <message>
+        <source>Redirect to this page</source>
+        <translation>ປ່ຽນທາງມາໜ້ານີ້</translation>
+    </message>
+    <message>
+        <source>%path now redirects to this page.</source>
+        <translation>%path ຕອນນີ້ປ່ຽນທາງມາໜ້ານີ້.</translation>
+    </message>
+    <message>
+        <source>%n times, last %time</source>
+        <translation>%n ເທື່ອ, ເທື່ອສຸດທ້າຍ %time</translation>
+    </message>
+    <message>
+        <source>Add the address</source>
+        <translation>ເພີ່ມທີ່ຢູ່</translation>
+    </message>
+    <message>
+        <source>Add an address</source>
+        <translation>ເພີ່ມທີ່ຢູ່</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>ພາສາ</translation>
+    </message>
+    <message>
+        <source>Redirect to the page's address (otherwise the page is shown under this address)</source>
+        <translation>ປ່ຽນທາງໄປທີ່ຢູ່ຂອງໜ້າ (ຖ້າບໍ່ດັ່ງນັ້ນ ໜ້າຈະສະແດງພາຍໃຕ້ທີ່ຢູ່ນີ້)</translation>
+    </message>
+    <message>
+        <source>Added as %path (the address was cleaned up).</source>
+        <translation>ເພີ່ມເປັນ %path ແລ້ວ (ທີ່ຢູ່ຖືກທຳຄວາມສະອາດ).</translation>
+    </message>
+    <message>
+        <source>Added: %path</source>
+        <translation>ເພີ່ມແລ້ວ: %path</translation>
+    </message>
+    <message>
+        <source>Add the wildcard</source>
+        <translation>ເພີ່ມ wildcard</translation>
+    </message>
+    <message>
+        <source>Add a wildcard</source>
+        <translation>ເພີ່ມ wildcard</translation>
+    </message>
+    <message>
+        <source>Every address that matches leads to this page; a * matches the rest of the address.</source>
+        <translation>ທຸກທີ່ຢູ່ທີ່ກົງກັນຈະນຳໄປໜ້ານີ້; * ກົງກັບສ່ວນທີ່ເຫຼືອຂອງທີ່ຢູ່.</translation>
+    </message>
+    <message>
+        <source>Address pattern</source>
+        <translation>ຮູບແບບທີ່ຢູ່</translation>
+    </message>
+    <message>
+        <source>URLs</source>
+        <translation>URL</translation>
+    </message>
 </context>
 </TS>

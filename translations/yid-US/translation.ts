@@ -1463,5 +1463,121 @@
         <source>%n comments wait for moderation</source>
         <translation>%n באַמערקונגען וואַרטן אויף מאָדעראַציע</translation>
     </message>
+    <message>
+        <source>Give an address on this site, such as /campaign/running.</source>
+        <translation>גיט אַן אַדרעס אויף דעם זײַטל, למשל /campaign/running.</translation>
+    </message>
+    <message>
+        <source>There is no such language.</source>
+        <translation>אַזאַ שפּראַך איז נישטאָ.</translation>
+    </message>
+    <message>
+        <source>This address is taken already.</source>
+        <translation>דער אַדרעס איז שוין פֿאַרנומען.</translation>
+    </message>
+    <message>
+        <source>There is a wildcard for this address already.</source>
+        <translation>פֿאַר דעם אַדרעס איז שוין דאָ אַ ווילדקאַרד.</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>אַדרעס</translation>
+    </message>
+    <message>
+        <source>Alias</source>
+        <translation>צונאָמען</translation>
+    </message>
+    <message>
+        <source>Old address</source>
+        <translation>אַלטער אַדרעס</translation>
+    </message>
+    <message>
+        <source>Addresses of this page</source>
+        <translation>די אַדרעסן פֿון דעם בלאַט</translation>
+    </message>
+    <message>
+        <source>redirects</source>
+        <translation>פֿירט ווײַטער</translation>
+    </message>
+    <message>
+        <source>Wildcards that lead here</source>
+        <translation>ווילדקאַרדן וואָס פֿירן אַהער</translation>
+    </message>
+    <message>
+        <source>No wildcard leads to this page.</source>
+        <translation>קיין ווילדקאַרד פֿירט נישט צו דעם בלאַט.</translation>
+    </message>
+    <message>
+        <source>shows this page</source>
+        <translation>ווײַזט דעם בלאַט</translation>
+    </message>
+    <message>
+        <source>Addresses visitors did not find</source>
+        <translation>אַדרעסן וואָס באַזוכער האָבן נישט געפֿונען</translation>
+    </message>
+    <message>
+        <source>Addresses of this site that answered "not found" and end like this page's address. A redirect sends their visitors here.</source>
+        <translation>אַדרעסן פֿון דעם זײַטל וואָס האָבן געענטפֿערט "נישט געפֿונען" און ענדיקן זיך ווי דער אַדרעס פֿון דעם בלאַט. אַ ווײַטערפֿירונג שיקט זייערע באַזוכער אַהער.</translation>
+    </message>
+    <message>
+        <source>None: no visitor missed this page.</source>
+        <translation>קיינע: קיין באַזוכער האָט נישט פֿאַרפֿעלט דעם בלאַט.</translation>
+    </message>
+    <message>
+        <source>Redirect to this page</source>
+        <translation>ווײַטערפֿירן צו דעם בלאַט</translation>
+    </message>
+    <message>
+        <source>%path now redirects to this page.</source>
+        <translation>%path פֿירט איצט ווײַטער צו דעם בלאַט.</translation>
+    </message>
+    <message>
+        <source>%n times, last %time</source>
+        <translation>%n מאָל, לעצטנס %time</translation>
+    </message>
+    <message>
+        <source>Add the address</source>
+        <translation>צולייגן דעם אַדרעס</translation>
+    </message>
+    <message>
+        <source>Add an address</source>
+        <translation>צולייגן אַן אַדרעס</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>שפּראַך</translation>
+    </message>
+    <message>
+        <source>Redirect to the page's address (otherwise the page is shown under this address)</source>
+        <translation>ווײַטערפֿירן צום אַדרעס פֿונעם בלאַט (אַנדערש ווערט דער בלאַט געוויזן אונטער דעם אַדרעס)</translation>
+    </message>
+    <message>
+        <source>Added as %path (the address was cleaned up).</source>
+        <translation>צוגעלייגט ווי %path (דער אַדרעס איז אויסגעריינט געוואָרן).</translation>
+    </message>
+    <message>
+        <source>Added: %path</source>
+        <translation>צוגעלייגט: %path</translation>
+    </message>
+    <message>
+        <source>Add the wildcard</source>
+        <translation>צולייגן דעם ווילדקאַרד</translation>
+    </message>
+    <message>
+        <source>Add a wildcard</source>
+        <translation>צולייגן אַ ווילדקאַרד</translation>
+    </message>
+    <message>
+        <source>Every address that matches leads to this page; a * matches the rest of the address.</source>
+        <translation>יעדער פּאַסיקער אַדרעס פֿירט צו דעם בלאַט; אַ * פּאַסט צום רעשט פֿונעם אַדרעס.</translation>
+    </message>
+    <message>
+        <source>Address pattern</source>
+        <translation>אַדרעס־מוסטער</translation>
+    </message>
+    <message>
+        <source>URLs</source>
+        <translation>URLs</translation>
+    </message>
 </context>
 </TS>

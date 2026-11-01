@@ -1463,5 +1463,121 @@
         <source>%n comments wait for moderation</source>
         <translation>%n komentāri gaida moderāciju</translation>
     </message>
+    <message>
+        <source>Give an address on this site, such as /campaign/running.</source>
+        <translation>Norādiet šīs vietnes adresi, piemēram, /campaign/running.</translation>
+    </message>
+    <message>
+        <source>There is no such language.</source>
+        <translation>Šādas valodas nav.</translation>
+    </message>
+    <message>
+        <source>This address is taken already.</source>
+        <translation>Šī adrese jau ir aizņemta.</translation>
+    </message>
+    <message>
+        <source>There is a wildcard for this address already.</source>
+        <translation>Šai adresei jau ir aizstājējzīme.</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Adrese</translation>
+    </message>
+    <message>
+        <source>Alias</source>
+        <translation>Aizstājvārds</translation>
+    </message>
+    <message>
+        <source>Old address</source>
+        <translation>Vecā adrese</translation>
+    </message>
+    <message>
+        <source>Addresses of this page</source>
+        <translation>Šīs lapas adreses</translation>
+    </message>
+    <message>
+        <source>redirects</source>
+        <translation>pāradresē</translation>
+    </message>
+    <message>
+        <source>Wildcards that lead here</source>
+        <translation>Aizstājējzīmes, kas ved šeit</translation>
+    </message>
+    <message>
+        <source>No wildcard leads to this page.</source>
+        <translation>Neviena aizstājējzīme neved uz šo lapu.</translation>
+    </message>
+    <message>
+        <source>shows this page</source>
+        <translation>rāda šo lapu</translation>
+    </message>
+    <message>
+        <source>Addresses visitors did not find</source>
+        <translation>Adreses, ko apmeklētāji neatrada</translation>
+    </message>
+    <message>
+        <source>Addresses of this site that answered "not found" and end like this page's address. A redirect sends their visitors here.</source>
+        <translation>Šīs vietnes adreses, kas atbildēja "nav atrasts" un beidzas kā šīs lapas adrese. Pāradresācija sūta to apmeklētājus šeit.</translation>
+    </message>
+    <message>
+        <source>None: no visitor missed this page.</source>
+        <translation>Nav: neviens apmeklētājs nav palaidis garām šo lapu.</translation>
+    </message>
+    <message>
+        <source>Redirect to this page</source>
+        <translation>Pāradresēt uz šo lapu</translation>
+    </message>
+    <message>
+        <source>%path now redirects to this page.</source>
+        <translation>%path tagad pāradresē uz šo lapu.</translation>
+    </message>
+    <message>
+        <source>%n times, last %time</source>
+        <translation>%n reizes, pēdējo reizi %time</translation>
+    </message>
+    <message>
+        <source>Add the address</source>
+        <translation>Pievienot adresi</translation>
+    </message>
+    <message>
+        <source>Add an address</source>
+        <translation>Pievienot adresi</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>Valoda</translation>
+    </message>
+    <message>
+        <source>Redirect to the page's address (otherwise the page is shown under this address)</source>
+        <translation>Pāradresēt uz lapas adresi (citādi lapa tiek rādīta ar šo adresi)</translation>
+    </message>
+    <message>
+        <source>Added as %path (the address was cleaned up).</source>
+        <translation>Pievienots kā %path (adrese tika notīrīta).</translation>
+    </message>
+    <message>
+        <source>Added: %path</source>
+        <translation>Pievienots: %path</translation>
+    </message>
+    <message>
+        <source>Add the wildcard</source>
+        <translation>Pievienot aizstājējzīmi</translation>
+    </message>
+    <message>
+        <source>Add a wildcard</source>
+        <translation>Pievienot aizstājējzīmi</translation>
+    </message>
+    <message>
+        <source>Every address that matches leads to this page; a * matches the rest of the address.</source>
+        <translation>Katra atbilstošā adrese ved uz šo lapu; * atbilst adreses atlikušajai daļai.</translation>
+    </message>
+    <message>
+        <source>Address pattern</source>
+        <translation>Adreses šablons</translation>
+    </message>
+    <message>
+        <source>URLs</source>
+        <translation>URL adreses</translation>
+    </message>
 </context>
 </TS>

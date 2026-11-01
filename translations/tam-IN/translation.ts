@@ -1463,5 +1463,121 @@
         <source>%n comments wait for moderation</source>
         <translation>%n கருத்துகள் மதிப்பாய்வுக்குக் காத்திருக்கின்றன</translation>
     </message>
+    <message>
+        <source>Give an address on this site, such as /campaign/running.</source>
+        <translation>இந்தத் தளத்தின் ஒரு முகவரியைத் தாருங்கள், எ.கா. /campaign/running.</translation>
+    </message>
+    <message>
+        <source>There is no such language.</source>
+        <translation>அப்படி ஒரு மொழி இல்லை.</translation>
+    </message>
+    <message>
+        <source>This address is taken already.</source>
+        <translation>இந்த முகவரி ஏற்கனவே எடுக்கப்பட்டுள்ளது.</translation>
+    </message>
+    <message>
+        <source>There is a wildcard for this address already.</source>
+        <translation>இந்த முகவரிக்கு ஏற்கனவே ஒரு வைல்டுகார்டு உள்ளது.</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>முகவரி</translation>
+    </message>
+    <message>
+        <source>Alias</source>
+        <translation>மாற்றுப்பெயர்</translation>
+    </message>
+    <message>
+        <source>Old address</source>
+        <translation>பழைய முகவரி</translation>
+    </message>
+    <message>
+        <source>Addresses of this page</source>
+        <translation>இந்தப் பக்கத்தின் முகவரிகள்</translation>
+    </message>
+    <message>
+        <source>redirects</source>
+        <translation>திசைதிருப்புகிறது</translation>
+    </message>
+    <message>
+        <source>Wildcards that lead here</source>
+        <translation>இங்கே கொண்டுவரும் வைல்டுகார்டுகள்</translation>
+    </message>
+    <message>
+        <source>No wildcard leads to this page.</source>
+        <translation>எந்த வைல்டுகார்டும் இந்தப் பக்கத்திற்குக் கொண்டுவருவதில்லை.</translation>
+    </message>
+    <message>
+        <source>shows this page</source>
+        <translation>இந்தப் பக்கத்தைக் காட்டுகிறது</translation>
+    </message>
+    <message>
+        <source>Addresses visitors did not find</source>
+        <translation>பார்வையாளர்கள் கண்டுபிடிக்காத முகவரிகள்</translation>
+    </message>
+    <message>
+        <source>Addresses of this site that answered "not found" and end like this page's address. A redirect sends their visitors here.</source>
+        <translation>"கிடைக்கவில்லை" என்று பதிலளித்து இந்தப் பக்கத்தின் முகவரி போல முடியும் இந்தத் தளத்தின் முகவரிகள். திசைதிருப்பல் அவற்றின் பார்வையாளர்களை இங்கே அனுப்பும்.</translation>
+    </message>
+    <message>
+        <source>None: no visitor missed this page.</source>
+        <translation>எதுவுமில்லை: எந்தப் பார்வையாளரும் இந்தப் பக்கத்தைத் தவறவிடவில்லை.</translation>
+    </message>
+    <message>
+        <source>Redirect to this page</source>
+        <translation>இந்தப் பக்கத்திற்குத் திசைதிருப்பு</translation>
+    </message>
+    <message>
+        <source>%path now redirects to this page.</source>
+        <translation>%path இப்போது இந்தப் பக்கத்திற்குத் திசைதிருப்புகிறது.</translation>
+    </message>
+    <message>
+        <source>%n times, last %time</source>
+        <translation>%n முறை, கடைசியாக %time</translation>
+    </message>
+    <message>
+        <source>Add the address</source>
+        <translation>முகவரியைச் சேர்</translation>
+    </message>
+    <message>
+        <source>Add an address</source>
+        <translation>ஒரு முகவரியைச் சேர்</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>மொழி</translation>
+    </message>
+    <message>
+        <source>Redirect to the page's address (otherwise the page is shown under this address)</source>
+        <translation>பக்கத்தின் முகவரிக்குத் திசைதிருப்பு (இல்லையெனில் பக்கம் இந்த முகவரியில் காட்டப்படும்)</translation>
+    </message>
+    <message>
+        <source>Added as %path (the address was cleaned up).</source>
+        <translation>%path ஆகச் சேர்க்கப்பட்டது (முகவரி சுத்தம் செய்யப்பட்டது).</translation>
+    </message>
+    <message>
+        <source>Added: %path</source>
+        <translation>சேர்க்கப்பட்டது: %path</translation>
+    </message>
+    <message>
+        <source>Add the wildcard</source>
+        <translation>வைல்டுகார்டைச் சேர்</translation>
+    </message>
+    <message>
+        <source>Add a wildcard</source>
+        <translation>ஒரு வைல்டுகார்டைச் சேர்</translation>
+    </message>
+    <message>
+        <source>Every address that matches leads to this page; a * matches the rest of the address.</source>
+        <translation>பொருந்தும் ஒவ்வொரு முகவரியும் இந்தப் பக்கத்திற்குக் கொண்டுவரும்; * முகவரியின் மீதிப் பகுதியுடன் பொருந்தும்.</translation>
+    </message>
+    <message>
+        <source>Address pattern</source>
+        <translation>முகவரி வடிவம்</translation>
+    </message>
+    <message>
+        <source>URLs</source>
+        <translation>URLகள்</translation>
+    </message>
 </context>
 </TS>

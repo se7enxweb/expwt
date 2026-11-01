@@ -1463,5 +1463,121 @@
         <source>%n comments wait for moderation</source>
         <translation>%n komentar menunggu moderasi</translation>
     </message>
+    <message>
+        <source>Give an address on this site, such as /campaign/running.</source>
+        <translation>Berikan alamat di situs ini, seperti /campaign/running.</translation>
+    </message>
+    <message>
+        <source>There is no such language.</source>
+        <translation>Tidak ada bahasa seperti itu.</translation>
+    </message>
+    <message>
+        <source>This address is taken already.</source>
+        <translation>Alamat ini sudah dipakai.</translation>
+    </message>
+    <message>
+        <source>There is a wildcard for this address already.</source>
+        <translation>Sudah ada wildcard untuk alamat ini.</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Alamat</translation>
+    </message>
+    <message>
+        <source>Alias</source>
+        <translation>Alias</translation>
+    </message>
+    <message>
+        <source>Old address</source>
+        <translation>Alamat lama</translation>
+    </message>
+    <message>
+        <source>Addresses of this page</source>
+        <translation>Alamat halaman ini</translation>
+    </message>
+    <message>
+        <source>redirects</source>
+        <translation>mengalihkan</translation>
+    </message>
+    <message>
+        <source>Wildcards that lead here</source>
+        <translation>Wildcard yang menuju ke sini</translation>
+    </message>
+    <message>
+        <source>No wildcard leads to this page.</source>
+        <translation>Tidak ada wildcard yang menuju ke halaman ini.</translation>
+    </message>
+    <message>
+        <source>shows this page</source>
+        <translation>menampilkan halaman ini</translation>
+    </message>
+    <message>
+        <source>Addresses visitors did not find</source>
+        <translation>Alamat yang tidak ditemukan pengunjung</translation>
+    </message>
+    <message>
+        <source>Addresses of this site that answered "not found" and end like this page's address. A redirect sends their visitors here.</source>
+        <translation>Alamat situs ini yang menjawab "tidak ditemukan" dan berakhir seperti alamat halaman ini. Pengalihan mengirim pengunjungnya ke sini.</translation>
+    </message>
+    <message>
+        <source>None: no visitor missed this page.</source>
+        <translation>Tidak ada: tidak ada pengunjung yang melewatkan halaman ini.</translation>
+    </message>
+    <message>
+        <source>Redirect to this page</source>
+        <translation>Alihkan ke halaman ini</translation>
+    </message>
+    <message>
+        <source>%path now redirects to this page.</source>
+        <translation>%path sekarang mengalihkan ke halaman ini.</translation>
+    </message>
+    <message>
+        <source>%n times, last %time</source>
+        <translation>%n kali, terakhir %time</translation>
+    </message>
+    <message>
+        <source>Add the address</source>
+        <translation>Tambahkan alamat</translation>
+    </message>
+    <message>
+        <source>Add an address</source>
+        <translation>Tambahkan alamat</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>Bahasa</translation>
+    </message>
+    <message>
+        <source>Redirect to the page's address (otherwise the page is shown under this address)</source>
+        <translation>Alihkan ke alamat halaman (jika tidak, halaman ditampilkan di bawah alamat ini)</translation>
+    </message>
+    <message>
+        <source>Added as %path (the address was cleaned up).</source>
+        <translation>Ditambahkan sebagai %path (alamat dirapikan).</translation>
+    </message>
+    <message>
+        <source>Added: %path</source>
+        <translation>Ditambahkan: %path</translation>
+    </message>
+    <message>
+        <source>Add the wildcard</source>
+        <translation>Tambahkan wildcard</translation>
+    </message>
+    <message>
+        <source>Add a wildcard</source>
+        <translation>Tambahkan wildcard</translation>
+    </message>
+    <message>
+        <source>Every address that matches leads to this page; a * matches the rest of the address.</source>
+        <translation>Setiap alamat yang cocok menuju ke halaman ini; * cocok dengan sisa alamat.</translation>
+    </message>
+    <message>
+        <source>Address pattern</source>
+        <translation>Pola alamat</translation>
+    </message>
+    <message>
+        <source>URLs</source>
+        <translation>URL</translation>
+    </message>
 </context>
 </TS>

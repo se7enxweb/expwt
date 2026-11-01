@@ -1463,5 +1463,121 @@
         <source>%n comments wait for moderation</source>
         <translation>%n каментарыяў чакаюць мадэрацыі</translation>
     </message>
+    <message>
+        <source>Give an address on this site, such as /campaign/running.</source>
+        <translation>Укажыце адрас на гэтым сайце, напрыклад /campaign/running.</translation>
+    </message>
+    <message>
+        <source>There is no such language.</source>
+        <translation>Такой мовы няма.</translation>
+    </message>
+    <message>
+        <source>This address is taken already.</source>
+        <translation>Гэты адрас ужо заняты.</translation>
+    </message>
+    <message>
+        <source>There is a wildcard for this address already.</source>
+        <translation>Для гэтага адраса ўжо ёсць шаблон.</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Адрас</translation>
+    </message>
+    <message>
+        <source>Alias</source>
+        <translation>Псеўданім</translation>
+    </message>
+    <message>
+        <source>Old address</source>
+        <translation>Стары адрас</translation>
+    </message>
+    <message>
+        <source>Addresses of this page</source>
+        <translation>Адрасы гэтай старонкі</translation>
+    </message>
+    <message>
+        <source>redirects</source>
+        <translation>перанакіроўвае</translation>
+    </message>
+    <message>
+        <source>Wildcards that lead here</source>
+        <translation>Шаблоны, што вядуць сюды</translation>
+    </message>
+    <message>
+        <source>No wildcard leads to this page.</source>
+        <translation>Ніводзін шаблон не вядзе на гэтую старонку.</translation>
+    </message>
+    <message>
+        <source>shows this page</source>
+        <translation>паказвае гэтую старонку</translation>
+    </message>
+    <message>
+        <source>Addresses visitors did not find</source>
+        <translation>Адрасы, якія наведвальнікі не знайшлі</translation>
+    </message>
+    <message>
+        <source>Addresses of this site that answered "not found" and end like this page's address. A redirect sends their visitors here.</source>
+        <translation>Адрасы гэтага сайта, якія адказалі "не знойдзена" і заканчваюцца як адрас гэтай старонкі. Перанакіраванне адпраўляе іх наведвальнікаў сюды.</translation>
+    </message>
+    <message>
+        <source>None: no visitor missed this page.</source>
+        <translation>Няма: ніводзін наведвальнік не прапусціў гэтую старонку.</translation>
+    </message>
+    <message>
+        <source>Redirect to this page</source>
+        <translation>Перанакіраваць на гэтую старонку</translation>
+    </message>
+    <message>
+        <source>%path now redirects to this page.</source>
+        <translation>%path цяпер перанакіроўвае на гэтую старонку.</translation>
+    </message>
+    <message>
+        <source>%n times, last %time</source>
+        <translation>%n разоў, апошні раз %time</translation>
+    </message>
+    <message>
+        <source>Add the address</source>
+        <translation>Дадаць адрас</translation>
+    </message>
+    <message>
+        <source>Add an address</source>
+        <translation>Дадаць адрас</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>Мова</translation>
+    </message>
+    <message>
+        <source>Redirect to the page's address (otherwise the page is shown under this address)</source>
+        <translation>Перанакіроўваць на адрас старонкі (інакш старонка паказваецца пад гэтым адрасам)</translation>
+    </message>
+    <message>
+        <source>Added as %path (the address was cleaned up).</source>
+        <translation>Дададзена як %path (адрас ачышчаны).</translation>
+    </message>
+    <message>
+        <source>Added: %path</source>
+        <translation>Дададзена: %path</translation>
+    </message>
+    <message>
+        <source>Add the wildcard</source>
+        <translation>Дадаць шаблон</translation>
+    </message>
+    <message>
+        <source>Add a wildcard</source>
+        <translation>Дадаць шаблон</translation>
+    </message>
+    <message>
+        <source>Every address that matches leads to this page; a * matches the rest of the address.</source>
+        <translation>Кожны адпаведны адрас вядзе на гэтую старонку; * адпавядае астатняй частцы адраса.</translation>
+    </message>
+    <message>
+        <source>Address pattern</source>
+        <translation>Шаблон адраса</translation>
+    </message>
+    <message>
+        <source>URLs</source>
+        <translation>URL-адрасы</translation>
+    </message>
 </context>
 </TS>

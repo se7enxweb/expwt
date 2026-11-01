@@ -1463,5 +1463,121 @@
         <source>%n comments wait for moderation</source>
         <translation>%n komento ang naghihintay ng moderasyon</translation>
     </message>
+    <message>
+        <source>Give an address on this site, such as /campaign/running.</source>
+        <translation>Magbigay ng address sa site na ito, gaya ng /campaign/running.</translation>
+    </message>
+    <message>
+        <source>There is no such language.</source>
+        <translation>Walang ganoong wika.</translation>
+    </message>
+    <message>
+        <source>This address is taken already.</source>
+        <translation>Kinuha na ang address na ito.</translation>
+    </message>
+    <message>
+        <source>There is a wildcard for this address already.</source>
+        <translation>May wildcard na para sa address na ito.</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Address</translation>
+    </message>
+    <message>
+        <source>Alias</source>
+        <translation>Alias</translation>
+    </message>
+    <message>
+        <source>Old address</source>
+        <translation>Lumang address</translation>
+    </message>
+    <message>
+        <source>Addresses of this page</source>
+        <translation>Mga address ng pahinang ito</translation>
+    </message>
+    <message>
+        <source>redirects</source>
+        <translation>nagre-redirect</translation>
+    </message>
+    <message>
+        <source>Wildcards that lead here</source>
+        <translation>Mga wildcard na papunta rito</translation>
+    </message>
+    <message>
+        <source>No wildcard leads to this page.</source>
+        <translation>Walang wildcard na papunta sa pahinang ito.</translation>
+    </message>
+    <message>
+        <source>shows this page</source>
+        <translation>ipinapakita ang pahinang ito</translation>
+    </message>
+    <message>
+        <source>Addresses visitors did not find</source>
+        <translation>Mga address na hindi nakita ng mga bisita</translation>
+    </message>
+    <message>
+        <source>Addresses of this site that answered "not found" and end like this page's address. A redirect sends their visitors here.</source>
+        <translation>Mga address ng site na ito na sumagot ng "hindi nakita" at nagtatapos tulad ng address ng pahinang ito. Ipinapadala rito ng redirect ang kanilang mga bisita.</translation>
+    </message>
+    <message>
+        <source>None: no visitor missed this page.</source>
+        <translation>Wala: walang bisitang nakaligtaan ang pahinang ito.</translation>
+    </message>
+    <message>
+        <source>Redirect to this page</source>
+        <translation>I-redirect sa pahinang ito</translation>
+    </message>
+    <message>
+        <source>%path now redirects to this page.</source>
+        <translation>Nagre-redirect na ngayon ang %path sa pahinang ito.</translation>
+    </message>
+    <message>
+        <source>%n times, last %time</source>
+        <translation>%n beses, huli %time</translation>
+    </message>
+    <message>
+        <source>Add the address</source>
+        <translation>Idagdag ang address</translation>
+    </message>
+    <message>
+        <source>Add an address</source>
+        <translation>Magdagdag ng address</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>Wika</translation>
+    </message>
+    <message>
+        <source>Redirect to the page's address (otherwise the page is shown under this address)</source>
+        <translation>I-redirect sa address ng pahina (kung hindi, ipinapakita ang pahina sa ilalim ng address na ito)</translation>
+    </message>
+    <message>
+        <source>Added as %path (the address was cleaned up).</source>
+        <translation>Idinagdag bilang %path (nilinis ang address).</translation>
+    </message>
+    <message>
+        <source>Added: %path</source>
+        <translation>Idinagdag: %path</translation>
+    </message>
+    <message>
+        <source>Add the wildcard</source>
+        <translation>Idagdag ang wildcard</translation>
+    </message>
+    <message>
+        <source>Add a wildcard</source>
+        <translation>Magdagdag ng wildcard</translation>
+    </message>
+    <message>
+        <source>Every address that matches leads to this page; a * matches the rest of the address.</source>
+        <translation>Ang bawat address na tumutugma ay papunta sa pahinang ito; tumutugma ang * sa natitirang bahagi ng address.</translation>
+    </message>
+    <message>
+        <source>Address pattern</source>
+        <translation>Pattern ng address</translation>
+    </message>
+    <message>
+        <source>URLs</source>
+        <translation>Mga URL</translation>
+    </message>
 </context>
 </TS>

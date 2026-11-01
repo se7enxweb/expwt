@@ -1463,5 +1463,121 @@
         <source>%n comments wait for moderation</source>
         <translation>%n ܦܘܩܕܢ̈ܐ ܡܣܟܝܢ ܠܒܘܚܢܐ</translation>
     </message>
+    <message>
+        <source>Give an address on this site, such as /campaign/running.</source>
+        <translation>ܗܒ ܡܘܢܥܐ ܒܐܬܪܐ ܗܢܐ، ܐܝܟ /campaign/running.</translation>
+    </message>
+    <message>
+        <source>There is no such language.</source>
+        <translation>ܠܝܬ ܠܫܢܐ ܐܝܟ ܗܢܐ.</translation>
+    </message>
+    <message>
+        <source>This address is taken already.</source>
+        <translation>ܡܘܢܥܐ ܗܢܐ ܐܚܝܕ ܟܒܪ.</translation>
+    </message>
+    <message>
+        <source>There is a wildcard for this address already.</source>
+        <translation>ܐܝܬ ܟܒܪ ܘܝܠܕܩܪܕ ܠܡܘܢܥܐ ܗܢܐ.</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>ܡܘܢܥܐ</translation>
+    </message>
+    <message>
+        <source>Alias</source>
+        <translation>ܫܡܐ ܐܚܪܢܐ</translation>
+    </message>
+    <message>
+        <source>Old address</source>
+        <translation>ܡܘܢܥܐ ܥܬܝܩܐ</translation>
+    </message>
+    <message>
+        <source>Addresses of this page</source>
+        <translation>ܡܘܢܥ̈ܐ ܕܦܐܬܐ ܗܕܐ</translation>
+    </message>
+    <message>
+        <source>redirects</source>
+        <translation>ܡܦܢܐ</translation>
+    </message>
+    <message>
+        <source>Wildcards that lead here</source>
+        <translation>ܘܝܠܕܩܪܕ̈ܐ ܕܡܘܒܠܝܢ ܠܗܪܟܐ</translation>
+    </message>
+    <message>
+        <source>No wildcard leads to this page.</source>
+        <translation>ܠܝܬ ܘܝܠܕܩܪܕ ܕܡܘܒܠ ܠܦܐܬܐ ܗܕܐ.</translation>
+    </message>
+    <message>
+        <source>shows this page</source>
+        <translation>ܡܚܘܐ ܦܐܬܐ ܗܕܐ</translation>
+    </message>
+    <message>
+        <source>Addresses visitors did not find</source>
+        <translation>ܡܘܢܥ̈ܐ ܕܠܐ ܐܫܟܚܘ ܣܥܘܪ̈ܐ</translation>
+    </message>
+    <message>
+        <source>Addresses of this site that answered "not found" and end like this page's address. A redirect sends their visitors here.</source>
+        <translation>ܡܘܢܥ̈ܐ ܕܐܬܪܐ ܗܢܐ ܕܥܢܘ "ܠܐ ܐܫܬܟܚ" ܘܫܠܡܝܢ ܐܝܟ ܡܘܢܥܐ ܕܦܐܬܐ ܗܕܐ. ܦܢܝܬܐ ܡܫܕܪܐ ܠܣܥܘܪ̈ܝܗܘܢ ܠܗܪܟܐ.</translation>
+    </message>
+    <message>
+        <source>None: no visitor missed this page.</source>
+        <translation>ܠܐ ܡܕܡ: ܠܐ ܣܥܘܪܐ ܛܥܐ ܦܐܬܐ ܗܕܐ.</translation>
+    </message>
+    <message>
+        <source>Redirect to this page</source>
+        <translation>ܦܢܝ ܠܦܐܬܐ ܗܕܐ</translation>
+    </message>
+    <message>
+        <source>%path now redirects to this page.</source>
+        <translation>%path ܗܫܐ ܡܦܢܐ ܠܦܐܬܐ ܗܕܐ.</translation>
+    </message>
+    <message>
+        <source>%n times, last %time</source>
+        <translation>%n ܙܒܢ̈ܝܢ، ܐܚܪܝܐ %time</translation>
+    </message>
+    <message>
+        <source>Add the address</source>
+        <translation>ܐܘܣܦ ܡܘܢܥܐ</translation>
+    </message>
+    <message>
+        <source>Add an address</source>
+        <translation>ܐܘܣܦ ܡܘܢܥܐ ܚܕ</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>ܠܫܢܐ</translation>
+    </message>
+    <message>
+        <source>Redirect to the page's address (otherwise the page is shown under this address)</source>
+        <translation>ܦܢܝ ܠܡܘܢܥܐ ܕܦܐܬܐ (ܘܐܠܐ ܦܐܬܐ ܡܬܚܙܝܐ ܬܚܝܬ ܡܘܢܥܐ ܗܢܐ)</translation>
+    </message>
+    <message>
+        <source>Added as %path (the address was cleaned up).</source>
+        <translation>ܐܬܘܣܦ ܐܝܟ %path (ܡܘܢܥܐ ܐܬܕܟܝ).</translation>
+    </message>
+    <message>
+        <source>Added: %path</source>
+        <translation>ܐܬܘܣܦ: %path</translation>
+    </message>
+    <message>
+        <source>Add the wildcard</source>
+        <translation>ܐܘܣܦ ܘܝܠܕܩܪܕ</translation>
+    </message>
+    <message>
+        <source>Add a wildcard</source>
+        <translation>ܐܘܣܦ ܘܝܠܕܩܪܕ ܚܕ</translation>
+    </message>
+    <message>
+        <source>Every address that matches leads to this page; a * matches the rest of the address.</source>
+        <translation>ܟܠ ܡܘܢܥܐ ܕܫܘܐ ܡܘܒܠ ܠܦܐܬܐ ܗܕܐ؛ * ܫܘܐ ܠܫܪܟܐ ܕܡܘܢܥܐ.</translation>
+    </message>
+    <message>
+        <source>Address pattern</source>
+        <translation>ܨܘܪܬ ܡܘܢܥܐ</translation>
+    </message>
+    <message>
+        <source>URLs</source>
+        <translation>URLs</translation>
+    </message>
 </context>
 </TS>

@@ -1463,5 +1463,121 @@
         <source>%n comments wait for moderation</source>
         <translation>Miijooji %n ena ndaara ƴeewndo</translation>
     </message>
+    <message>
+        <source>Give an address on this site, such as /campaign/running.</source>
+        <translation>Hokku ñiiɓirde e ndee lowre, wano /campaign/running.</translation>
+    </message>
+    <message>
+        <source>There is no such language.</source>
+        <translation>Alaa ɗemngal wayngal noon.</translation>
+    </message>
+    <message>
+        <source>This address is taken already.</source>
+        <translation>Ndee ñiiɓirde jogaama gila.</translation>
+    </message>
+    <message>
+        <source>There is a wildcard for this address already.</source>
+        <translation>Wildcard ena woodi gila ngam ndee ñiiɓirde.</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Ñiiɓirde</translation>
+    </message>
+    <message>
+        <source>Alias</source>
+        <translation>Innde goɗnde</translation>
+    </message>
+    <message>
+        <source>Old address</source>
+        <translation>Ñiiɓirde hiiɗnde</translation>
+    </message>
+    <message>
+        <source>Addresses of this page</source>
+        <translation>Ñiiɓirɗe ndee hello</translation>
+    </message>
+    <message>
+        <source>redirects</source>
+        <translation>ena waylita</translation>
+    </message>
+    <message>
+        <source>Wildcards that lead here</source>
+        <translation>Wildcard ɗe njaarata gaa</translation>
+    </message>
+    <message>
+        <source>No wildcard leads to this page.</source>
+        <translation>Alaa wildcard yaarata e ndee hello.</translation>
+    </message>
+    <message>
+        <source>shows this page</source>
+        <translation>ena holla ndee hello</translation>
+    </message>
+    <message>
+        <source>Addresses visitors did not find</source>
+        <translation>Ñiiɓirɗe ɗe koɓkoɓɓe ɓe njiyaani</translation>
+    </message>
+    <message>
+        <source>Addresses of this site that answered "not found" and end like this page's address. A redirect sends their visitors here.</source>
+        <translation>Ñiiɓirɗe ndee lowre ɗe njaabii "yiytaaka" tee ɗe ngasata no ñiiɓirde ndee hello. Waylitde ena neldoo koɓkoɓɓe maɓɓe gaa.</translation>
+    </message>
+    <message>
+        <source>None: no visitor missed this page.</source>
+        <translation>Alaa: alaa koɓkoɓɗo majjini ndee hello.</translation>
+    </message>
+    <message>
+        <source>Redirect to this page</source>
+        <translation>Waylit e ndee hello</translation>
+    </message>
+    <message>
+        <source>%path now redirects to this page.</source>
+        <translation>%path ena waylita e ndee hello jooni.</translation>
+    </message>
+    <message>
+        <source>%n times, last %time</source>
+        <translation>Laabi %n, sakket %time</translation>
+    </message>
+    <message>
+        <source>Add the address</source>
+        <translation>Ɓeydu ñiiɓirde nde</translation>
+    </message>
+    <message>
+        <source>Add an address</source>
+        <translation>Ɓeydu ñiiɓirde</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>Ɗemngal</translation>
+    </message>
+    <message>
+        <source>Redirect to the page's address (otherwise the page is shown under this address)</source>
+        <translation>Waylit e ñiiɓirde hello (so wonaa ɗum hello ena hollee e ndee ñiiɓirde)</translation>
+    </message>
+    <message>
+        <source>Added as %path (the address was cleaned up).</source>
+        <translation>Ɓeydaama no %path (ñiiɓirde laɓɓinaama).</translation>
+    </message>
+    <message>
+        <source>Added: %path</source>
+        <translation>Ɓeydaama: %path</translation>
+    </message>
+    <message>
+        <source>Add the wildcard</source>
+        <translation>Ɓeydu wildcard oo</translation>
+    </message>
+    <message>
+        <source>Add a wildcard</source>
+        <translation>Ɓeydu wildcard</translation>
+    </message>
+    <message>
+        <source>Every address that matches leads to this page; a * matches the rest of the address.</source>
+        <translation>Ñiiɓirde fof nde fotndi ena yaara e ndee hello; * ena fotndi e heddiiɗe ñiiɓirde.</translation>
+    </message>
+    <message>
+        <source>Address pattern</source>
+        <translation>Mbaydi ñiiɓirde</translation>
+    </message>
+    <message>
+        <source>URLs</source>
+        <translation>URLe</translation>
+    </message>
 </context>
 </TS>

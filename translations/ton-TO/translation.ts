@@ -1463,5 +1463,121 @@
         <source>%n comments wait for moderation</source>
         <translation>%n fakamatala ʻoku tatali ki he sivisivi</translation>
     </message>
+    <message>
+        <source>Give an address on this site, such as /campaign/running.</source>
+        <translation>ʻOmai ha tuʻasila ʻi he uepisaiti ni, hangē ko /campaign/running.</translation>
+    </message>
+    <message>
+        <source>There is no such language.</source>
+        <translation>ʻOku ʻikai ha lea pehē.</translation>
+    </message>
+    <message>
+        <source>This address is taken already.</source>
+        <translation>Kuo ʻosi toʻo ʻa e tuʻasila ni.</translation>
+    </message>
+    <message>
+        <source>There is a wildcard for this address already.</source>
+        <translation>ʻOku ʻosi ʻi ai ha wildcard ki he tuʻasila ni.</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Tuʻasila</translation>
+    </message>
+    <message>
+        <source>Alias</source>
+        <translation>Hingoa kehe</translation>
+    </message>
+    <message>
+        <source>Old address</source>
+        <translation>Tuʻasila motuʻa</translation>
+    </message>
+    <message>
+        <source>Addresses of this page</source>
+        <translation>Ngaahi tuʻasila ʻo e peesi ni</translation>
+    </message>
+    <message>
+        <source>redirects</source>
+        <translation>ʻoku fakahinohino</translation>
+    </message>
+    <message>
+        <source>Wildcards that lead here</source>
+        <translation>Ngaahi wildcard ʻoku taki mai ki heni</translation>
+    </message>
+    <message>
+        <source>No wildcard leads to this page.</source>
+        <translation>ʻOku ʻikai ha wildcard ʻoku taki ki he peesi ni.</translation>
+    </message>
+    <message>
+        <source>shows this page</source>
+        <translation>ʻoku fakahā ʻa e peesi ni</translation>
+    </message>
+    <message>
+        <source>Addresses visitors did not find</source>
+        <translation>Ngaahi tuʻasila naʻe ʻikai ke maʻu ʻe he kau ʻaʻahi</translation>
+    </message>
+    <message>
+        <source>Addresses of this site that answered "not found" and end like this page's address. A redirect sends their visitors here.</source>
+        <translation>Ngaahi tuʻasila ʻo e uepisaiti ni naʻe tali "ʻikai maʻu" pea ngata ʻo hangē ko e tuʻasila ʻo e peesi ni. ʻOku fekau ʻe ha fakahinohino ʻenau kau ʻaʻahi ki heni.</translation>
+    </message>
+    <message>
+        <source>None: no visitor missed this page.</source>
+        <translation>Hala: ʻoku ʻikai ha taha ʻaʻahi naʻe mole ʻa e peesi ni.</translation>
+    </message>
+    <message>
+        <source>Redirect to this page</source>
+        <translation>Fakahinohino ki he peesi ni</translation>
+    </message>
+    <message>
+        <source>%path now redirects to this page.</source>
+        <translation>ʻOku fakahinohino ʻa %path ki he peesi ni he taimi ni.</translation>
+    </message>
+    <message>
+        <source>%n times, last %time</source>
+        <translation>Tuʻo %n, fakamuimui %time</translation>
+    </message>
+    <message>
+        <source>Add the address</source>
+        <translation>Tānaki ʻa e tuʻasila</translation>
+    </message>
+    <message>
+        <source>Add an address</source>
+        <translation>Tānaki ha tuʻasila</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>Lea</translation>
+    </message>
+    <message>
+        <source>Redirect to the page's address (otherwise the page is shown under this address)</source>
+        <translation>Fakahinohino ki he tuʻasila ʻo e peesi (kapau ʻikai, ʻe fakahā ʻa e peesi ʻi he tuʻasila ni)</translation>
+    </message>
+    <message>
+        <source>Added as %path (the address was cleaned up).</source>
+        <translation>Kuo tānaki ko e %path (kuo fakamaʻa ʻa e tuʻasila).</translation>
+    </message>
+    <message>
+        <source>Added: %path</source>
+        <translation>Kuo tānaki: %path</translation>
+    </message>
+    <message>
+        <source>Add the wildcard</source>
+        <translation>Tānaki ʻa e wildcard</translation>
+    </message>
+    <message>
+        <source>Add a wildcard</source>
+        <translation>Tānaki ha wildcard</translation>
+    </message>
+    <message>
+        <source>Every address that matches leads to this page; a * matches the rest of the address.</source>
+        <translation>Ko e tuʻasila kotoa pē ʻoku hoa ʻoku taki ki he peesi ni; ʻoku hoa ʻa e * mo e toenga ʻo e tuʻasila.</translation>
+    </message>
+    <message>
+        <source>Address pattern</source>
+        <translation>Sīpinga tuʻasila</translation>
+    </message>
+    <message>
+        <source>URLs</source>
+        <translation>Ngaahi URL</translation>
+    </message>
 </context>
 </TS>

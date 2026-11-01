@@ -1463,5 +1463,121 @@
         <source>%n comments wait for moderation</source>
         <translation>%n комментари модераци хьоьжуш ю</translation>
     </message>
+    <message>
+        <source>Give an address on this site, such as /campaign/running.</source>
+        <translation>ХӀокху сайтехь адрес ло, масала /campaign/running.</translation>
+    </message>
+    <message>
+        <source>There is no such language.</source>
+        <translation>Иштта мотт бац.</translation>
+    </message>
+    <message>
+        <source>This address is taken already.</source>
+        <translation>ХӀара адрес хӀинцале дӀалаьцна ю.</translation>
+    </message>
+    <message>
+        <source>There is a wildcard for this address already.</source>
+        <translation>ХӀокху адресна хӀинцале шаблон ю.</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Адрес</translation>
+    </message>
+    <message>
+        <source>Alias</source>
+        <translation>ШолгӀа цӀе</translation>
+    </message>
+    <message>
+        <source>Old address</source>
+        <translation>Ширa адрес</translation>
+    </message>
+    <message>
+        <source>Addresses of this page</source>
+        <translation>ХӀокху агӀонан адресаш</translation>
+    </message>
+    <message>
+        <source>redirects</source>
+        <translation>дӀасахьажадо</translation>
+    </message>
+    <message>
+        <source>Wildcards that lead here</source>
+        <translation>Кхуза дIахьош долу шаблонаш</translation>
+    </message>
+    <message>
+        <source>No wildcard leads to this page.</source>
+        <translation>ХӀокху агӀоне цхьа а шаблон ца дуьгу.</translation>
+    </message>
+    <message>
+        <source>shows this page</source>
+        <translation>хӀара агӀо гойту</translation>
+    </message>
+    <message>
+        <source>Addresses visitors did not find</source>
+        <translation>Хьошаша ца карийна адресаш</translation>
+    </message>
+    <message>
+        <source>Addresses of this site that answered "not found" and end like this page's address. A redirect sends their visitors here.</source>
+        <translation>ХӀокху сайтан адресаш, "ца карийна" жоп деллачу а, хӀокху агӀонан адрес санна чекхйолу а. ДӀасахьажорехь церан хьешийн кхуза хьажабо.</translation>
+    </message>
+    <message>
+        <source>None: no visitor missed this page.</source>
+        <translation>Дац: цхьа а хьаша хӀокху агӀонах ца ваьлла.</translation>
+    </message>
+    <message>
+        <source>Redirect to this page</source>
+        <translation>ХӀокху агӀоне дӀасахьажаде</translation>
+    </message>
+    <message>
+        <source>%path now redirects to this page.</source>
+        <translation>%path хӀинца хӀокху агӀоне дӀасахьажадо.</translation>
+    </message>
+    <message>
+        <source>%n times, last %time</source>
+        <translation>%n кӀира, тӀаьххьара %time</translation>
+    </message>
+    <message>
+        <source>Add the address</source>
+        <translation>Адрес тӀетоха</translation>
+    </message>
+    <message>
+        <source>Add an address</source>
+        <translation>Адрес тӀетоха</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>Мотт</translation>
+    </message>
+    <message>
+        <source>Redirect to the page's address (otherwise the page is shown under this address)</source>
+        <translation>АгӀонан адресе дӀасахьажаде (кхечу кепара агӀо хӀокху адресехь гойту)</translation>
+    </message>
+    <message>
+        <source>Added as %path (the address was cleaned up).</source>
+        <translation>%path санна тӀетоьхна (адрес цӀанйина).</translation>
+    </message>
+    <message>
+        <source>Added: %path</source>
+        <translation>ТӀетоьхна: %path</translation>
+    </message>
+    <message>
+        <source>Add the wildcard</source>
+        <translation>Шаблон тӀетоха</translation>
+    </message>
+    <message>
+        <source>Add a wildcard</source>
+        <translation>Шаблон тӀетоха</translation>
+    </message>
+    <message>
+        <source>Every address that matches leads to this page; a * matches the rest of the address.</source>
+        <translation>Нийса догӀу хӀора адрес хӀокху агӀоне дуьгу; * адресан бисиначу декъе нийса догӀу.</translation>
+    </message>
+    <message>
+        <source>Address pattern</source>
+        <translation>Адресан кеп</translation>
+    </message>
+    <message>
+        <source>URLs</source>
+        <translation>URL-аш</translation>
+    </message>
 </context>
 </TS>

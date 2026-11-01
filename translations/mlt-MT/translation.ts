@@ -1463,5 +1463,121 @@
         <source>%n comments wait for moderation</source>
         <translation>%n kummenti qed jistennew il-moderazzjoni</translation>
     </message>
+    <message>
+        <source>Give an address on this site, such as /campaign/running.</source>
+        <translation>Agħti indirizz fuq dan is-sit, bħal /campaign/running.</translation>
+    </message>
+    <message>
+        <source>There is no such language.</source>
+        <translation>M'hemmx lingwa bħal din.</translation>
+    </message>
+    <message>
+        <source>This address is taken already.</source>
+        <translation>Dan l-indirizz diġà meħud.</translation>
+    </message>
+    <message>
+        <source>There is a wildcard for this address already.</source>
+        <translation>Diġà hemm wildcard għal dan l-indirizz.</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Indirizz</translation>
+    </message>
+    <message>
+        <source>Alias</source>
+        <translation>Alias</translation>
+    </message>
+    <message>
+        <source>Old address</source>
+        <translation>Indirizz qadim</translation>
+    </message>
+    <message>
+        <source>Addresses of this page</source>
+        <translation>Indirizzi ta' din il-paġna</translation>
+    </message>
+    <message>
+        <source>redirects</source>
+        <translation>jirrindirizza</translation>
+    </message>
+    <message>
+        <source>Wildcards that lead here</source>
+        <translation>Wildcards li jwasslu hawn</translation>
+    </message>
+    <message>
+        <source>No wildcard leads to this page.</source>
+        <translation>L-ebda wildcard ma jwassal għal din il-paġna.</translation>
+    </message>
+    <message>
+        <source>shows this page</source>
+        <translation>juri din il-paġna</translation>
+    </message>
+    <message>
+        <source>Addresses visitors did not find</source>
+        <translation>Indirizzi li l-viżitaturi ma sabux</translation>
+    </message>
+    <message>
+        <source>Addresses of this site that answered "not found" and end like this page's address. A redirect sends their visitors here.</source>
+        <translation>Indirizzi ta' dan is-sit li wieġbu "ma nstabx" u jispiċċaw bħall-indirizz ta' din il-paġna. Ridirezzjoni tibgħat il-viżitaturi tagħhom hawn.</translation>
+    </message>
+    <message>
+        <source>None: no visitor missed this page.</source>
+        <translation>Xejn: l-ebda viżitatur ma tilef din il-paġna.</translation>
+    </message>
+    <message>
+        <source>Redirect to this page</source>
+        <translation>Irrindirizza għal din il-paġna</translation>
+    </message>
+    <message>
+        <source>%path now redirects to this page.</source>
+        <translation>%path issa jirrindirizza għal din il-paġna.</translation>
+    </message>
+    <message>
+        <source>%n times, last %time</source>
+        <translation>%n darba, l-aħħar %time</translation>
+    </message>
+    <message>
+        <source>Add the address</source>
+        <translation>Żid l-indirizz</translation>
+    </message>
+    <message>
+        <source>Add an address</source>
+        <translation>Żid indirizz</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>Lingwa</translation>
+    </message>
+    <message>
+        <source>Redirect to the page's address (otherwise the page is shown under this address)</source>
+        <translation>Irrindirizza għall-indirizz tal-paġna (inkella l-paġna tintwera taħt dan l-indirizz)</translation>
+    </message>
+    <message>
+        <source>Added as %path (the address was cleaned up).</source>
+        <translation>Miżjud bħala %path (l-indirizz ġie mnaddaf).</translation>
+    </message>
+    <message>
+        <source>Added: %path</source>
+        <translation>Miżjud: %path</translation>
+    </message>
+    <message>
+        <source>Add the wildcard</source>
+        <translation>Żid il-wildcard</translation>
+    </message>
+    <message>
+        <source>Add a wildcard</source>
+        <translation>Żid wildcard</translation>
+    </message>
+    <message>
+        <source>Every address that matches leads to this page; a * matches the rest of the address.</source>
+        <translation>Kull indirizz li jaqbel iwassal għal din il-paġna; * jaqbel mal-bqija tal-indirizz.</translation>
+    </message>
+    <message>
+        <source>Address pattern</source>
+        <translation>Mudell tal-indirizz</translation>
+    </message>
+    <message>
+        <source>URLs</source>
+        <translation>URLs</translation>
+    </message>
 </context>
 </TS>

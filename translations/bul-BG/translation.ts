@@ -1463,5 +1463,121 @@
         <source>%n comments wait for moderation</source>
         <translation>%n коментара чакат модерация</translation>
     </message>
+    <message>
+        <source>Give an address on this site, such as /campaign/running.</source>
+        <translation>Посочете адрес в този сайт, например /campaign/running.</translation>
+    </message>
+    <message>
+        <source>There is no such language.</source>
+        <translation>Няма такъв език.</translation>
+    </message>
+    <message>
+        <source>This address is taken already.</source>
+        <translation>Този адрес вече е зает.</translation>
+    </message>
+    <message>
+        <source>There is a wildcard for this address already.</source>
+        <translation>За този адрес вече има шаблон.</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Адрес</translation>
+    </message>
+    <message>
+        <source>Alias</source>
+        <translation>Псевдоним</translation>
+    </message>
+    <message>
+        <source>Old address</source>
+        <translation>Стар адрес</translation>
+    </message>
+    <message>
+        <source>Addresses of this page</source>
+        <translation>Адреси на тази страница</translation>
+    </message>
+    <message>
+        <source>redirects</source>
+        <translation>пренасочва</translation>
+    </message>
+    <message>
+        <source>Wildcards that lead here</source>
+        <translation>Шаблони, които водят тук</translation>
+    </message>
+    <message>
+        <source>No wildcard leads to this page.</source>
+        <translation>Нито един шаблон не води към тази страница.</translation>
+    </message>
+    <message>
+        <source>shows this page</source>
+        <translation>показва тази страница</translation>
+    </message>
+    <message>
+        <source>Addresses visitors did not find</source>
+        <translation>Адреси, които посетителите не намериха</translation>
+    </message>
+    <message>
+        <source>Addresses of this site that answered "not found" and end like this page's address. A redirect sends their visitors here.</source>
+        <translation>Адреси в този сайт, които отговориха "не е намерено" и завършват като адреса на тази страница. Пренасочването изпраща посетителите им тук.</translation>
+    </message>
+    <message>
+        <source>None: no visitor missed this page.</source>
+        <translation>Няма: никой посетител не е пропуснал тази страница.</translation>
+    </message>
+    <message>
+        <source>Redirect to this page</source>
+        <translation>Пренасочи към тази страница</translation>
+    </message>
+    <message>
+        <source>%path now redirects to this page.</source>
+        <translation>%path вече пренасочва към тази страница.</translation>
+    </message>
+    <message>
+        <source>%n times, last %time</source>
+        <translation>%n пъти, последно %time</translation>
+    </message>
+    <message>
+        <source>Add the address</source>
+        <translation>Добави адреса</translation>
+    </message>
+    <message>
+        <source>Add an address</source>
+        <translation>Добави адрес</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>Език</translation>
+    </message>
+    <message>
+        <source>Redirect to the page's address (otherwise the page is shown under this address)</source>
+        <translation>Пренасочване към адреса на страницата (иначе страницата се показва под този адрес)</translation>
+    </message>
+    <message>
+        <source>Added as %path (the address was cleaned up).</source>
+        <translation>Добавено като %path (адресът беше изчистен).</translation>
+    </message>
+    <message>
+        <source>Added: %path</source>
+        <translation>Добавено: %path</translation>
+    </message>
+    <message>
+        <source>Add the wildcard</source>
+        <translation>Добави шаблона</translation>
+    </message>
+    <message>
+        <source>Add a wildcard</source>
+        <translation>Добави шаблон</translation>
+    </message>
+    <message>
+        <source>Every address that matches leads to this page; a * matches the rest of the address.</source>
+        <translation>Всеки съвпадащ адрес води към тази страница; * съвпада с останалата част на адреса.</translation>
+    </message>
+    <message>
+        <source>Address pattern</source>
+        <translation>Шаблон на адреса</translation>
+    </message>
+    <message>
+        <source>URLs</source>
+        <translation>URL адреси</translation>
+    </message>
 </context>
 </TS>

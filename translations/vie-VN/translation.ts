@@ -1463,5 +1463,121 @@
         <source>%n comments wait for moderation</source>
         <translation>%n bình luận đang chờ kiểm duyệt</translation>
     </message>
+    <message>
+        <source>Give an address on this site, such as /campaign/running.</source>
+        <translation>Nhập một địa chỉ trên trang web này, ví dụ /campaign/running.</translation>
+    </message>
+    <message>
+        <source>There is no such language.</source>
+        <translation>Không có ngôn ngữ như vậy.</translation>
+    </message>
+    <message>
+        <source>This address is taken already.</source>
+        <translation>Địa chỉ này đã được dùng.</translation>
+    </message>
+    <message>
+        <source>There is a wildcard for this address already.</source>
+        <translation>Đã có ký tự đại diện cho địa chỉ này.</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Địa chỉ</translation>
+    </message>
+    <message>
+        <source>Alias</source>
+        <translation>Bí danh</translation>
+    </message>
+    <message>
+        <source>Old address</source>
+        <translation>Địa chỉ cũ</translation>
+    </message>
+    <message>
+        <source>Addresses of this page</source>
+        <translation>Các địa chỉ của trang này</translation>
+    </message>
+    <message>
+        <source>redirects</source>
+        <translation>chuyển hướng</translation>
+    </message>
+    <message>
+        <source>Wildcards that lead here</source>
+        <translation>Ký tự đại diện dẫn đến đây</translation>
+    </message>
+    <message>
+        <source>No wildcard leads to this page.</source>
+        <translation>Không có ký tự đại diện nào dẫn đến trang này.</translation>
+    </message>
+    <message>
+        <source>shows this page</source>
+        <translation>hiển thị trang này</translation>
+    </message>
+    <message>
+        <source>Addresses visitors did not find</source>
+        <translation>Địa chỉ mà khách truy cập không tìm thấy</translation>
+    </message>
+    <message>
+        <source>Addresses of this site that answered "not found" and end like this page's address. A redirect sends their visitors here.</source>
+        <translation>Các địa chỉ của trang web này đã trả lời "không tìm thấy" và kết thúc giống địa chỉ của trang này. Một chuyển hướng sẽ đưa khách truy cập của chúng đến đây.</translation>
+    </message>
+    <message>
+        <source>None: no visitor missed this page.</source>
+        <translation>Không có: không khách truy cập nào bỏ lỡ trang này.</translation>
+    </message>
+    <message>
+        <source>Redirect to this page</source>
+        <translation>Chuyển hướng đến trang này</translation>
+    </message>
+    <message>
+        <source>%path now redirects to this page.</source>
+        <translation>%path hiện chuyển hướng đến trang này.</translation>
+    </message>
+    <message>
+        <source>%n times, last %time</source>
+        <translation>%n lần, lần cuối %time</translation>
+    </message>
+    <message>
+        <source>Add the address</source>
+        <translation>Thêm địa chỉ</translation>
+    </message>
+    <message>
+        <source>Add an address</source>
+        <translation>Thêm một địa chỉ</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>Ngôn ngữ</translation>
+    </message>
+    <message>
+        <source>Redirect to the page's address (otherwise the page is shown under this address)</source>
+        <translation>Chuyển hướng đến địa chỉ của trang (nếu không, trang được hiển thị dưới địa chỉ này)</translation>
+    </message>
+    <message>
+        <source>Added as %path (the address was cleaned up).</source>
+        <translation>Đã thêm thành %path (địa chỉ đã được làm gọn).</translation>
+    </message>
+    <message>
+        <source>Added: %path</source>
+        <translation>Đã thêm: %path</translation>
+    </message>
+    <message>
+        <source>Add the wildcard</source>
+        <translation>Thêm ký tự đại diện</translation>
+    </message>
+    <message>
+        <source>Add a wildcard</source>
+        <translation>Thêm một ký tự đại diện</translation>
+    </message>
+    <message>
+        <source>Every address that matches leads to this page; a * matches the rest of the address.</source>
+        <translation>Mọi địa chỉ khớp đều dẫn đến trang này; * khớp với phần còn lại của địa chỉ.</translation>
+    </message>
+    <message>
+        <source>Address pattern</source>
+        <translation>Mẫu địa chỉ</translation>
+    </message>
+    <message>
+        <source>URLs</source>
+        <translation>URL</translation>
+    </message>
 </context>
 </TS>

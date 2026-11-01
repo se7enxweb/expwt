@@ -1463,5 +1463,121 @@
         <source>%n comments wait for moderation</source>
         <translation>%n komentar ngenteni moderasi</translation>
     </message>
+    <message>
+        <source>Give an address on this site, such as /campaign/running.</source>
+        <translation>Wenehana alamat ing situs iki, kayata /campaign/running.</translation>
+    </message>
+    <message>
+        <source>There is no such language.</source>
+        <translation>Ora ana basa kaya ngono.</translation>
+    </message>
+    <message>
+        <source>This address is taken already.</source>
+        <translation>Alamat iki wis dienggo.</translation>
+    </message>
+    <message>
+        <source>There is a wildcard for this address already.</source>
+        <translation>Wis ana wildcard kanggo alamat iki.</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Alamat</translation>
+    </message>
+    <message>
+        <source>Alias</source>
+        <translation>Alias</translation>
+    </message>
+    <message>
+        <source>Old address</source>
+        <translation>Alamat lawas</translation>
+    </message>
+    <message>
+        <source>Addresses of this page</source>
+        <translation>Alamat kaca iki</translation>
+    </message>
+    <message>
+        <source>redirects</source>
+        <translation>ngalihake</translation>
+    </message>
+    <message>
+        <source>Wildcards that lead here</source>
+        <translation>Wildcard sing tumuju mrene</translation>
+    </message>
+    <message>
+        <source>No wildcard leads to this page.</source>
+        <translation>Ora ana wildcard sing tumuju kaca iki.</translation>
+    </message>
+    <message>
+        <source>shows this page</source>
+        <translation>nampilake kaca iki</translation>
+    </message>
+    <message>
+        <source>Addresses visitors did not find</source>
+        <translation>Alamat sing ora ditemokake pengunjung</translation>
+    </message>
+    <message>
+        <source>Addresses of this site that answered "not found" and end like this page's address. A redirect sends their visitors here.</source>
+        <translation>Alamat situs iki sing mangsuli "ora ditemokake" lan pungkasane kaya alamat kaca iki. Pangalihan ngirim pengunjunge mrene.</translation>
+    </message>
+    <message>
+        <source>None: no visitor missed this page.</source>
+        <translation>Ora ana: ora ana pengunjung sing kliwatan kaca iki.</translation>
+    </message>
+    <message>
+        <source>Redirect to this page</source>
+        <translation>Alihake menyang kaca iki</translation>
+    </message>
+    <message>
+        <source>%path now redirects to this page.</source>
+        <translation>%path saiki ngalihake menyang kaca iki.</translation>
+    </message>
+    <message>
+        <source>%n times, last %time</source>
+        <translation>%n kaping, pungkasan %time</translation>
+    </message>
+    <message>
+        <source>Add the address</source>
+        <translation>Tambahake alamat</translation>
+    </message>
+    <message>
+        <source>Add an address</source>
+        <translation>Tambahake alamat</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>Basa</translation>
+    </message>
+    <message>
+        <source>Redirect to the page's address (otherwise the page is shown under this address)</source>
+        <translation>Alihake menyang alamat kaca (yen ora, kaca ditampilake ing sangisore alamat iki)</translation>
+    </message>
+    <message>
+        <source>Added as %path (the address was cleaned up).</source>
+        <translation>Ditambahake minangka %path (alamate diresiki).</translation>
+    </message>
+    <message>
+        <source>Added: %path</source>
+        <translation>Ditambahake: %path</translation>
+    </message>
+    <message>
+        <source>Add the wildcard</source>
+        <translation>Tambahake wildcard</translation>
+    </message>
+    <message>
+        <source>Add a wildcard</source>
+        <translation>Tambahake wildcard</translation>
+    </message>
+    <message>
+        <source>Every address that matches leads to this page; a * matches the rest of the address.</source>
+        <translation>Saben alamat sing cocog tumuju kaca iki; * cocog karo sisa alamat.</translation>
+    </message>
+    <message>
+        <source>Address pattern</source>
+        <translation>Pola alamat</translation>
+    </message>
+    <message>
+        <source>URLs</source>
+        <translation>URL</translation>
+    </message>
 </context>
 </TS>

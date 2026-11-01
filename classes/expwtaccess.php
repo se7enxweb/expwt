@@ -81,6 +81,12 @@ class expwtAccess
         'comments.hide'     => array( 'edit', true, 'content', 'hide', '' ),
         'comments.spam'     => array( 'edit', true, 'content', 'removeobject', 'ConfirmButton' ),
         'comments.reply'    => array( 'edit', true, 'content', 'edit', 'PublishButton' ),
+        // the page's addresses (E5): its addresses, old addresses, aliases, the wildcards that lead to it and the
+        // addresses visitors did not find; an alias as the administration's URL aliases of a page add it
+        // (content/edit of the page), a wildcard as its URL wildcards (content/urltranslator)
+        'urls.load'         => array( 'edit', false, '', '', '' ),
+        'urls.alias'        => array( 'edit', true, 'content', 'urlalias', 'NewAliasButton' ),
+        'urls.wildcard'     => array( 'edit', true, 'content', 'urlwildcards', 'NewWildcardButton' ),
     );
 
     /**

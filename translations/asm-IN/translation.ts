@@ -1463,5 +1463,121 @@
         <source>%n comments wait for moderation</source>
         <translation>%n টা মন্তব্য সঞ্চালনাৰ অপেক্ষাত</translation>
     </message>
+    <message>
+        <source>Give an address on this site, such as /campaign/running.</source>
+        <translation>এই চাইটত এটা ঠিকনা দিয়ক, যেনে /campaign/running।</translation>
+    </message>
+    <message>
+        <source>There is no such language.</source>
+        <translation>এনে কোনো ভাষা নাই।</translation>
+    </message>
+    <message>
+        <source>This address is taken already.</source>
+        <translation>এই ঠিকনা ইতিমধ্যে লোৱা হৈছে।</translation>
+    </message>
+    <message>
+        <source>There is a wildcard for this address already.</source>
+        <translation>এই ঠিকনাৰ বাবে ইতিমধ্যে এটা ৱাইল্ডকাৰ্ড আছে।</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>ঠিকনা</translation>
+    </message>
+    <message>
+        <source>Alias</source>
+        <translation>উপনাম</translation>
+    </message>
+    <message>
+        <source>Old address</source>
+        <translation>পুৰণি ঠিকনা</translation>
+    </message>
+    <message>
+        <source>Addresses of this page</source>
+        <translation>এই পৃষ্ঠাৰ ঠিকনাসমূহ</translation>
+    </message>
+    <message>
+        <source>redirects</source>
+        <translation>পুনৰনিৰ্দেশ কৰে</translation>
+    </message>
+    <message>
+        <source>Wildcards that lead here</source>
+        <translation>ইয়ালৈ লৈ যোৱা ৱাইল্ডকাৰ্ড</translation>
+    </message>
+    <message>
+        <source>No wildcard leads to this page.</source>
+        <translation>কোনো ৱাইল্ডকাৰ্ডে এই পৃষ্ঠালৈ নিনিয়ে।</translation>
+    </message>
+    <message>
+        <source>shows this page</source>
+        <translation>এই পৃষ্ঠা দেখুৱায়</translation>
+    </message>
+    <message>
+        <source>Addresses visitors did not find</source>
+        <translation>দৰ্শনাৰ্থীয়ে নোপোৱা ঠিকনা</translation>
+    </message>
+    <message>
+        <source>Addresses of this site that answered "not found" and end like this page's address. A redirect sends their visitors here.</source>
+        <translation>এই চাইটৰ ঠিকনা যিয়ে "পোৱা নগ'ল" উত্তৰ দিছিল আৰু এই পৃষ্ঠাৰ ঠিকনাৰ দৰে শেষ হয়। এটা পুনৰনিৰ্দেশে সিহঁতৰ দৰ্শনাৰ্থীক ইয়ালৈ পঠিয়ায়।</translation>
+    </message>
+    <message>
+        <source>None: no visitor missed this page.</source>
+        <translation>নাই: কোনো দৰ্শনাৰ্থীয়ে এই পৃষ্ঠা হেৰুওৱা নাই।</translation>
+    </message>
+    <message>
+        <source>Redirect to this page</source>
+        <translation>এই পৃষ্ঠালৈ পুনৰনিৰ্দেশ কৰক</translation>
+    </message>
+    <message>
+        <source>%path now redirects to this page.</source>
+        <translation>%path এতিয়া এই পৃষ্ঠালৈ পুনৰনিৰ্দেশ কৰে।</translation>
+    </message>
+    <message>
+        <source>%n times, last %time</source>
+        <translation>%n বাৰ, শেষবাৰ %time</translation>
+    </message>
+    <message>
+        <source>Add the address</source>
+        <translation>ঠিকনাটো যোগ কৰক</translation>
+    </message>
+    <message>
+        <source>Add an address</source>
+        <translation>এটা ঠিকনা যোগ কৰক</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>ভাষা</translation>
+    </message>
+    <message>
+        <source>Redirect to the page's address (otherwise the page is shown under this address)</source>
+        <translation>পৃষ্ঠাৰ ঠিকনালৈ পুনৰনিৰ্দেশ কৰক (নহ'লে পৃষ্ঠাটো এই ঠিকনাত দেখুওৱা হয়)</translation>
+    </message>
+    <message>
+        <source>Added as %path (the address was cleaned up).</source>
+        <translation>%path হিচাপে যোগ কৰা হ'ল (ঠিকনাটো চাফা কৰা হ'ল)।</translation>
+    </message>
+    <message>
+        <source>Added: %path</source>
+        <translation>যোগ কৰা হ'ল: %path</translation>
+    </message>
+    <message>
+        <source>Add the wildcard</source>
+        <translation>ৱাইল্ডকাৰ্ডটো যোগ কৰক</translation>
+    </message>
+    <message>
+        <source>Add a wildcard</source>
+        <translation>এটা ৱাইল্ডকাৰ্ড যোগ কৰক</translation>
+    </message>
+    <message>
+        <source>Every address that matches leads to this page; a * matches the rest of the address.</source>
+        <translation>মিলা প্ৰতিটো ঠিকনাই এই পৃষ্ঠালৈ লৈ যায়; * এ ঠিকনাৰ বাকী অংশ মিলায়।</translation>
+    </message>
+    <message>
+        <source>Address pattern</source>
+        <translation>ঠিকনাৰ আৰ্হি</translation>
+    </message>
+    <message>
+        <source>URLs</source>
+        <translation>URL</translation>
+    </message>
 </context>
 </TS>

@@ -1463,5 +1463,121 @@
         <source>%n comments wait for moderation</source>
         <translation>%n athugasemdir bíða eftir yfirferð</translation>
     </message>
+    <message>
+        <source>Give an address on this site, such as /campaign/running.</source>
+        <translation>Gefðu upp vistfang á þessum vef, t.d. /campaign/running.</translation>
+    </message>
+    <message>
+        <source>There is no such language.</source>
+        <translation>Ekkert slíkt tungumál er til.</translation>
+    </message>
+    <message>
+        <source>This address is taken already.</source>
+        <translation>Þetta vistfang er þegar í notkun.</translation>
+    </message>
+    <message>
+        <source>There is a wildcard for this address already.</source>
+        <translation>Það er þegar algildisstafur fyrir þetta vistfang.</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Vistfang</translation>
+    </message>
+    <message>
+        <source>Alias</source>
+        <translation>Samnefni</translation>
+    </message>
+    <message>
+        <source>Old address</source>
+        <translation>Gamalt vistfang</translation>
+    </message>
+    <message>
+        <source>Addresses of this page</source>
+        <translation>Vistföng þessarar síðu</translation>
+    </message>
+    <message>
+        <source>redirects</source>
+        <translation>áframsendir</translation>
+    </message>
+    <message>
+        <source>Wildcards that lead here</source>
+        <translation>Algildisstafir sem leiða hingað</translation>
+    </message>
+    <message>
+        <source>No wildcard leads to this page.</source>
+        <translation>Enginn algildisstafur leiðir á þessa síðu.</translation>
+    </message>
+    <message>
+        <source>shows this page</source>
+        <translation>sýnir þessa síðu</translation>
+    </message>
+    <message>
+        <source>Addresses visitors did not find</source>
+        <translation>Vistföng sem gestir fundu ekki</translation>
+    </message>
+    <message>
+        <source>Addresses of this site that answered "not found" and end like this page's address. A redirect sends their visitors here.</source>
+        <translation>Vistföng á þessum vef sem svöruðu "fannst ekki" og enda eins og vistfang þessarar síðu. Áframsending sendir gesti þeirra hingað.</translation>
+    </message>
+    <message>
+        <source>None: no visitor missed this page.</source>
+        <translation>Ekkert: enginn gestur missti af þessari síðu.</translation>
+    </message>
+    <message>
+        <source>Redirect to this page</source>
+        <translation>Áframsenda á þessa síðu</translation>
+    </message>
+    <message>
+        <source>%path now redirects to this page.</source>
+        <translation>%path áframsendir nú á þessa síðu.</translation>
+    </message>
+    <message>
+        <source>%n times, last %time</source>
+        <translation>%n sinnum, síðast %time</translation>
+    </message>
+    <message>
+        <source>Add the address</source>
+        <translation>Bæta vistfanginu við</translation>
+    </message>
+    <message>
+        <source>Add an address</source>
+        <translation>Bæta við vistfangi</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>Tungumál</translation>
+    </message>
+    <message>
+        <source>Redirect to the page's address (otherwise the page is shown under this address)</source>
+        <translation>Áframsenda á vistfang síðunnar (annars er síðan sýnd undir þessu vistfangi)</translation>
+    </message>
+    <message>
+        <source>Added as %path (the address was cleaned up).</source>
+        <translation>Bætt við sem %path (vistfangið var hreinsað).</translation>
+    </message>
+    <message>
+        <source>Added: %path</source>
+        <translation>Bætt við: %path</translation>
+    </message>
+    <message>
+        <source>Add the wildcard</source>
+        <translation>Bæta algildisstafnum við</translation>
+    </message>
+    <message>
+        <source>Add a wildcard</source>
+        <translation>Bæta við algildisstaf</translation>
+    </message>
+    <message>
+        <source>Every address that matches leads to this page; a * matches the rest of the address.</source>
+        <translation>Hvert vistfang sem passar leiðir á þessa síðu; * passar við afganginn af vistfanginu.</translation>
+    </message>
+    <message>
+        <source>Address pattern</source>
+        <translation>Vistfangamynstur</translation>
+    </message>
+    <message>
+        <source>URLs</source>
+        <translation>Vefslóðir</translation>
+    </message>
 </context>
 </TS>

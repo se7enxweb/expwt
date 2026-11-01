@@ -1463,5 +1463,121 @@
         <source>%n comments wait for moderation</source>
         <translation>%n टिप्पणीहरू मोडरेसनको पर्खाइमा</translation>
     </message>
+    <message>
+        <source>Give an address on this site, such as /campaign/running.</source>
+        <translation>यो साइटको एउटा ठेगाना दिनुहोस्, जस्तै /campaign/running।</translation>
+    </message>
+    <message>
+        <source>There is no such language.</source>
+        <translation>त्यस्तो कुनै भाषा छैन।</translation>
+    </message>
+    <message>
+        <source>This address is taken already.</source>
+        <translation>यो ठेगाना पहिल्यै लिइएको छ।</translation>
+    </message>
+    <message>
+        <source>There is a wildcard for this address already.</source>
+        <translation>यो ठेगानाका लागि पहिल्यै एउटा वाइल्डकार्ड छ।</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>ठेगाना</translation>
+    </message>
+    <message>
+        <source>Alias</source>
+        <translation>उपनाम</translation>
+    </message>
+    <message>
+        <source>Old address</source>
+        <translation>पुरानो ठेगाना</translation>
+    </message>
+    <message>
+        <source>Addresses of this page</source>
+        <translation>यो पृष्ठका ठेगानाहरू</translation>
+    </message>
+    <message>
+        <source>redirects</source>
+        <translation>पुनर्निर्देशित गर्छ</translation>
+    </message>
+    <message>
+        <source>Wildcards that lead here</source>
+        <translation>यहाँ ल्याउने वाइल्डकार्डहरू</translation>
+    </message>
+    <message>
+        <source>No wildcard leads to this page.</source>
+        <translation>कुनै वाइल्डकार्डले यो पृष्ठमा ल्याउँदैन।</translation>
+    </message>
+    <message>
+        <source>shows this page</source>
+        <translation>यो पृष्ठ देखाउँछ</translation>
+    </message>
+    <message>
+        <source>Addresses visitors did not find</source>
+        <translation>आगन्तुकहरूले नभेटेका ठेगानाहरू</translation>
+    </message>
+    <message>
+        <source>Addresses of this site that answered "not found" and end like this page's address. A redirect sends their visitors here.</source>
+        <translation>यो साइटका ठेगानाहरू जसले "भेटिएन" जवाफ दिए र यो पृष्ठको ठेगानाजस्तै अन्त्य हुन्छन्। पुनर्निर्देशनले तिनका आगन्तुकलाई यहाँ पठाउँछ।</translation>
+    </message>
+    <message>
+        <source>None: no visitor missed this page.</source>
+        <translation>कुनै छैन: कुनै आगन्तुकले यो पृष्ठ गुमाएनन्।</translation>
+    </message>
+    <message>
+        <source>Redirect to this page</source>
+        <translation>यो पृष्ठमा पुनर्निर्देशित गर्नुहोस्</translation>
+    </message>
+    <message>
+        <source>%path now redirects to this page.</source>
+        <translation>%path अब यो पृष्ठमा पुनर्निर्देशित गर्छ।</translation>
+    </message>
+    <message>
+        <source>%n times, last %time</source>
+        <translation>%n पटक, अन्तिम %time</translation>
+    </message>
+    <message>
+        <source>Add the address</source>
+        <translation>ठेगाना थप्नुहोस्</translation>
+    </message>
+    <message>
+        <source>Add an address</source>
+        <translation>एउटा ठेगाना थप्नुहोस्</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>भाषा</translation>
+    </message>
+    <message>
+        <source>Redirect to the page's address (otherwise the page is shown under this address)</source>
+        <translation>पृष्ठको ठेगानामा पुनर्निर्देशित गर्नुहोस् (नत्र पृष्ठ यो ठेगानामा देखाइन्छ)</translation>
+    </message>
+    <message>
+        <source>Added as %path (the address was cleaned up).</source>
+        <translation>%path को रूपमा थपियो (ठेगाना सफा गरियो)।</translation>
+    </message>
+    <message>
+        <source>Added: %path</source>
+        <translation>थपियो: %path</translation>
+    </message>
+    <message>
+        <source>Add the wildcard</source>
+        <translation>वाइल्डकार्ड थप्नुहोस्</translation>
+    </message>
+    <message>
+        <source>Add a wildcard</source>
+        <translation>एउटा वाइल्डकार्ड थप्नुहोस्</translation>
+    </message>
+    <message>
+        <source>Every address that matches leads to this page; a * matches the rest of the address.</source>
+        <translation>मेल खाने हरेक ठेगानाले यो पृष्ठमा ल्याउँछ; * ले ठेगानाको बाँकी भागसँग मेल खान्छ।</translation>
+    </message>
+    <message>
+        <source>Address pattern</source>
+        <translation>ठेगानाको ढाँचा</translation>
+    </message>
+    <message>
+        <source>URLs</source>
+        <translation>URL हरू</translation>
+    </message>
 </context>
 </TS>

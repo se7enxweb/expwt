@@ -1463,5 +1463,121 @@
         <source>%n comments wait for moderation</source>
         <translation>Adwenkyerɛ %n retwɛn nhwehwɛmu</translation>
     </message>
+    <message>
+        <source>Give an address on this site, such as /campaign/running.</source>
+        <translation>Fa address bi wɔ saa wɛbsaet yi so, te sɛ /campaign/running.</translation>
+    </message>
+    <message>
+        <source>There is no such language.</source>
+        <translation>Kasa a ɛte saa nni hɔ.</translation>
+    </message>
+    <message>
+        <source>This address is taken already.</source>
+        <translation>Obi de saa address yi redi dwuma dedaw.</translation>
+    </message>
+    <message>
+        <source>There is a wildcard for this address already.</source>
+        <translation>Wildcard bi wɔ hɔ ma saa address yi dedaw.</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Address</translation>
+    </message>
+    <message>
+        <source>Alias</source>
+        <translation>Din foforo</translation>
+    </message>
+    <message>
+        <source>Old address</source>
+        <translation>Address dada</translation>
+    </message>
+    <message>
+        <source>Addresses of this page</source>
+        <translation>Krataafa yi addresses</translation>
+    </message>
+    <message>
+        <source>redirects</source>
+        <translation>ɛde kɔ</translation>
+    </message>
+    <message>
+        <source>Wildcards that lead here</source>
+        <translation>Wildcards a ɛde ba ha</translation>
+    </message>
+    <message>
+        <source>No wildcard leads to this page.</source>
+        <translation>Wildcard biara mfa nkɔ krataafa yi so.</translation>
+    </message>
+    <message>
+        <source>shows this page</source>
+        <translation>ɛkyerɛ krataafa yi</translation>
+    </message>
+    <message>
+        <source>Addresses visitors did not find</source>
+        <translation>Addresses a ahɔho anhu</translation>
+    </message>
+    <message>
+        <source>Addresses of this site that answered "not found" and end like this page's address. A redirect sends their visitors here.</source>
+        <translation>Wɛbsaet yi addresses a ɛbuae sɛ "yɛanhu" na ɛwie te sɛ krataafa yi address. Redirect de wɔn ahɔho ba ha.</translation>
+    </message>
+    <message>
+        <source>None: no visitor missed this page.</source>
+        <translation>Biara nni hɔ: ɔhɔho biara anhwere krataafa yi.</translation>
+    </message>
+    <message>
+        <source>Redirect to this page</source>
+        <translation>Fa kɔ krataafa yi so</translation>
+    </message>
+    <message>
+        <source>%path now redirects to this page.</source>
+        <translation>%path de kɔ krataafa yi so seesei.</translation>
+    </message>
+    <message>
+        <source>%n times, last %time</source>
+        <translation>Mpɛn %n, etwa to %time</translation>
+    </message>
+    <message>
+        <source>Add the address</source>
+        <translation>Fa address no ka ho</translation>
+    </message>
+    <message>
+        <source>Add an address</source>
+        <translation>Fa address bi ka ho</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>Kasa</translation>
+    </message>
+    <message>
+        <source>Redirect to the page's address (otherwise the page is shown under this address)</source>
+        <translation>Fa kɔ krataafa no address so (anyɛ saa a, wɔbɛkyerɛ krataafa no wɔ saa address yi ase)</translation>
+    </message>
+    <message>
+        <source>Added as %path (the address was cleaned up).</source>
+        <translation>Wɔde aka ho sɛ %path (wɔasiesie address no).</translation>
+    </message>
+    <message>
+        <source>Added: %path</source>
+        <translation>Wɔde aka ho: %path</translation>
+    </message>
+    <message>
+        <source>Add the wildcard</source>
+        <translation>Fa wildcard no ka ho</translation>
+    </message>
+    <message>
+        <source>Add a wildcard</source>
+        <translation>Fa wildcard bi ka ho</translation>
+    </message>
+    <message>
+        <source>Every address that matches leads to this page; a * matches the rest of the address.</source>
+        <translation>Address biara a ɛhyia de kɔ krataafa yi so; * hyia address no nkae.</translation>
+    </message>
+    <message>
+        <source>Address pattern</source>
+        <translation>Address nhyehyɛe</translation>
+    </message>
+    <message>
+        <source>URLs</source>
+        <translation>URLs</translation>
+    </message>
 </context>
 </TS>

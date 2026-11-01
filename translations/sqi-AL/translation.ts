@@ -1463,5 +1463,121 @@
         <source>%n comments wait for moderation</source>
         <translation>%n komente presin moderimin</translation>
     </message>
+    <message>
+        <source>Give an address on this site, such as /campaign/running.</source>
+        <translation>Jepni një adresë në këtë sajt, si /campaign/running.</translation>
+    </message>
+    <message>
+        <source>There is no such language.</source>
+        <translation>Nuk ka gjuhë të tillë.</translation>
+    </message>
+    <message>
+        <source>This address is taken already.</source>
+        <translation>Kjo adresë është zënë tashmë.</translation>
+    </message>
+    <message>
+        <source>There is a wildcard for this address already.</source>
+        <translation>Për këtë adresë ka tashmë një shkronjë të çfarëdoshme.</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Adresë</translation>
+    </message>
+    <message>
+        <source>Alias</source>
+        <translation>Pseudonim</translation>
+    </message>
+    <message>
+        <source>Old address</source>
+        <translation>Adresë e vjetër</translation>
+    </message>
+    <message>
+        <source>Addresses of this page</source>
+        <translation>Adresat e kësaj faqeje</translation>
+    </message>
+    <message>
+        <source>redirects</source>
+        <translation>ridrejton</translation>
+    </message>
+    <message>
+        <source>Wildcards that lead here</source>
+        <translation>Shkronja të çfarëdoshme që të çojnë këtu</translation>
+    </message>
+    <message>
+        <source>No wildcard leads to this page.</source>
+        <translation>Asnjë shkronjë e çfarëdoshme nuk të çon në këtë faqe.</translation>
+    </message>
+    <message>
+        <source>shows this page</source>
+        <translation>shfaq këtë faqe</translation>
+    </message>
+    <message>
+        <source>Addresses visitors did not find</source>
+        <translation>Adresa që vizitorët nuk i gjetën</translation>
+    </message>
+    <message>
+        <source>Addresses of this site that answered "not found" and end like this page's address. A redirect sends their visitors here.</source>
+        <translation>Adresa të këtij sajti që u përgjigjën "nuk u gjet" dhe mbarojnë si adresa e kësaj faqeje. Një ridrejtim i dërgon vizitorët e tyre këtu.</translation>
+    </message>
+    <message>
+        <source>None: no visitor missed this page.</source>
+        <translation>Asnjë: asnjë vizitor nuk e humbi këtë faqe.</translation>
+    </message>
+    <message>
+        <source>Redirect to this page</source>
+        <translation>Ridrejto te kjo faqe</translation>
+    </message>
+    <message>
+        <source>%path now redirects to this page.</source>
+        <translation>%path tani ridrejton te kjo faqe.</translation>
+    </message>
+    <message>
+        <source>%n times, last %time</source>
+        <translation>%n herë, e fundit %time</translation>
+    </message>
+    <message>
+        <source>Add the address</source>
+        <translation>Shto adresën</translation>
+    </message>
+    <message>
+        <source>Add an address</source>
+        <translation>Shto një adresë</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>Gjuha</translation>
+    </message>
+    <message>
+        <source>Redirect to the page's address (otherwise the page is shown under this address)</source>
+        <translation>Ridrejto te adresa e faqes (përndryshe faqja shfaqet nën këtë adresë)</translation>
+    </message>
+    <message>
+        <source>Added as %path (the address was cleaned up).</source>
+        <translation>U shtua si %path (adresa u pastrua).</translation>
+    </message>
+    <message>
+        <source>Added: %path</source>
+        <translation>U shtua: %path</translation>
+    </message>
+    <message>
+        <source>Add the wildcard</source>
+        <translation>Shto shkronjën e çfarëdoshme</translation>
+    </message>
+    <message>
+        <source>Add a wildcard</source>
+        <translation>Shto një shkronjë të çfarëdoshme</translation>
+    </message>
+    <message>
+        <source>Every address that matches leads to this page; a * matches the rest of the address.</source>
+        <translation>Çdo adresë që përputhet të çon në këtë faqe; një * përputhet me pjesën tjetër të adresës.</translation>
+    </message>
+    <message>
+        <source>Address pattern</source>
+        <translation>Modeli i adresës</translation>
+    </message>
+    <message>
+        <source>URLs</source>
+        <translation>URL-të</translation>
+    </message>
 </context>
 </TS>

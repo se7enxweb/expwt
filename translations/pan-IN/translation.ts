@@ -1463,5 +1463,121 @@
         <source>%n comments wait for moderation</source>
         <translation>%n ਟਿੱਪਣੀਆਂ ਮਾਡਰੇਸ਼ਨ ਦੀ ਉਡੀਕ ਵਿੱਚ</translation>
     </message>
+    <message>
+        <source>Give an address on this site, such as /campaign/running.</source>
+        <translation>ਇਸ ਸਾਈਟ ਦਾ ਇੱਕ ਪਤਾ ਦਿਓ, ਜਿਵੇਂ /campaign/running।</translation>
+    </message>
+    <message>
+        <source>There is no such language.</source>
+        <translation>ਅਜਿਹੀ ਕੋਈ ਭਾਸ਼ਾ ਨਹੀਂ ਹੈ।</translation>
+    </message>
+    <message>
+        <source>This address is taken already.</source>
+        <translation>ਇਹ ਪਤਾ ਪਹਿਲਾਂ ਹੀ ਲਿਆ ਜਾ ਚੁੱਕਾ ਹੈ।</translation>
+    </message>
+    <message>
+        <source>There is a wildcard for this address already.</source>
+        <translation>ਇਸ ਪਤੇ ਲਈ ਪਹਿਲਾਂ ਹੀ ਇੱਕ ਵਾਈਲਡਕਾਰਡ ਹੈ।</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>ਪਤਾ</translation>
+    </message>
+    <message>
+        <source>Alias</source>
+        <translation>ਉਪਨਾਮ</translation>
+    </message>
+    <message>
+        <source>Old address</source>
+        <translation>ਪੁਰਾਣਾ ਪਤਾ</translation>
+    </message>
+    <message>
+        <source>Addresses of this page</source>
+        <translation>ਇਸ ਪੰਨੇ ਦੇ ਪਤੇ</translation>
+    </message>
+    <message>
+        <source>redirects</source>
+        <translation>ਰੀਡਾਇਰੈਕਟ ਕਰਦਾ ਹੈ</translation>
+    </message>
+    <message>
+        <source>Wildcards that lead here</source>
+        <translation>ਇੱਥੇ ਲਿਆਉਣ ਵਾਲੇ ਵਾਈਲਡਕਾਰਡ</translation>
+    </message>
+    <message>
+        <source>No wildcard leads to this page.</source>
+        <translation>ਕੋਈ ਵਾਈਲਡਕਾਰਡ ਇਸ ਪੰਨੇ 'ਤੇ ਨਹੀਂ ਲਿਆਉਂਦਾ।</translation>
+    </message>
+    <message>
+        <source>shows this page</source>
+        <translation>ਇਹ ਪੰਨਾ ਦਿਖਾਉਂਦਾ ਹੈ</translation>
+    </message>
+    <message>
+        <source>Addresses visitors did not find</source>
+        <translation>ਪਤੇ ਜੋ ਆਉਣ ਵਾਲਿਆਂ ਨੂੰ ਨਹੀਂ ਮਿਲੇ</translation>
+    </message>
+    <message>
+        <source>Addresses of this site that answered "not found" and end like this page's address. A redirect sends their visitors here.</source>
+        <translation>ਇਸ ਸਾਈਟ ਦੇ ਪਤੇ ਜਿਨ੍ਹਾਂ ਨੇ "ਨਹੀਂ ਮਿਲਿਆ" ਜਵਾਬ ਦਿੱਤਾ ਅਤੇ ਜੋ ਇਸ ਪੰਨੇ ਦੇ ਪਤੇ ਵਾਂਗ ਖ਼ਤਮ ਹੁੰਦੇ ਹਨ। ਰੀਡਾਇਰੈਕਟ ਉਨ੍ਹਾਂ ਦੇ ਆਉਣ ਵਾਲਿਆਂ ਨੂੰ ਇੱਥੇ ਭੇਜਦਾ ਹੈ।</translation>
+    </message>
+    <message>
+        <source>None: no visitor missed this page.</source>
+        <translation>ਕੋਈ ਨਹੀਂ: ਕਿਸੇ ਆਉਣ ਵਾਲੇ ਤੋਂ ਇਹ ਪੰਨਾ ਨਹੀਂ ਖੁੰਝਿਆ।</translation>
+    </message>
+    <message>
+        <source>Redirect to this page</source>
+        <translation>ਇਸ ਪੰਨੇ 'ਤੇ ਰੀਡਾਇਰੈਕਟ ਕਰੋ</translation>
+    </message>
+    <message>
+        <source>%path now redirects to this page.</source>
+        <translation>%path ਹੁਣ ਇਸ ਪੰਨੇ 'ਤੇ ਰੀਡਾਇਰੈਕਟ ਕਰਦਾ ਹੈ।</translation>
+    </message>
+    <message>
+        <source>%n times, last %time</source>
+        <translation>%n ਵਾਰ, ਆਖ਼ਰੀ %time</translation>
+    </message>
+    <message>
+        <source>Add the address</source>
+        <translation>ਪਤਾ ਜੋੜੋ</translation>
+    </message>
+    <message>
+        <source>Add an address</source>
+        <translation>ਇੱਕ ਪਤਾ ਜੋੜੋ</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>ਭਾਸ਼ਾ</translation>
+    </message>
+    <message>
+        <source>Redirect to the page's address (otherwise the page is shown under this address)</source>
+        <translation>ਪੰਨੇ ਦੇ ਪਤੇ 'ਤੇ ਰੀਡਾਇਰੈਕਟ ਕਰੋ (ਨਹੀਂ ਤਾਂ ਪੰਨਾ ਇਸ ਪਤੇ 'ਤੇ ਦਿਖਾਇਆ ਜਾਂਦਾ ਹੈ)</translation>
+    </message>
+    <message>
+        <source>Added as %path (the address was cleaned up).</source>
+        <translation>%path ਵਜੋਂ ਜੋੜਿਆ ਗਿਆ (ਪਤਾ ਸਾਫ਼ ਕੀਤਾ ਗਿਆ)।</translation>
+    </message>
+    <message>
+        <source>Added: %path</source>
+        <translation>ਜੋੜਿਆ ਗਿਆ: %path</translation>
+    </message>
+    <message>
+        <source>Add the wildcard</source>
+        <translation>ਵਾਈਲਡਕਾਰਡ ਜੋੜੋ</translation>
+    </message>
+    <message>
+        <source>Add a wildcard</source>
+        <translation>ਇੱਕ ਵਾਈਲਡਕਾਰਡ ਜੋੜੋ</translation>
+    </message>
+    <message>
+        <source>Every address that matches leads to this page; a * matches the rest of the address.</source>
+        <translation>ਮੇਲ ਖਾਂਦਾ ਹਰ ਪਤਾ ਇਸ ਪੰਨੇ 'ਤੇ ਲਿਆਉਂਦਾ ਹੈ; * ਪਤੇ ਦੇ ਬਾਕੀ ਹਿੱਸੇ ਨਾਲ ਮੇਲ ਖਾਂਦਾ ਹੈ।</translation>
+    </message>
+    <message>
+        <source>Address pattern</source>
+        <translation>ਪਤੇ ਦਾ ਨਮੂਨਾ</translation>
+    </message>
+    <message>
+        <source>URLs</source>
+        <translation>URL</translation>
+    </message>
 </context>
 </TS>

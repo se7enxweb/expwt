@@ -1463,5 +1463,121 @@
         <source>%n comments wait for moderation</source>
         <translation>%n הערות קא מנטרי לבדיקה</translation>
     </message>
+    <message>
+        <source>Give an address on this site, such as /campaign/running.</source>
+        <translation>הב כתובת בהא אתר, כמו /campaign/running.</translation>
+    </message>
+    <message>
+        <source>There is no such language.</source>
+        <translation>לית לשנא כדא.</translation>
+    </message>
+    <message>
+        <source>This address is taken already.</source>
+        <translation>הא כתובת איתאחדא כבר.</translation>
+    </message>
+    <message>
+        <source>There is a wildcard for this address already.</source>
+        <translation>איתה כבר ווילדקארד להא כתובת.</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>כתובת</translation>
+    </message>
+    <message>
+        <source>Alias</source>
+        <translation>שמא חרנא</translation>
+    </message>
+    <message>
+        <source>Old address</source>
+        <translation>כתובת עתיקא</translation>
+    </message>
+    <message>
+        <source>Addresses of this page</source>
+        <translation>כתובות דהא דפא</translation>
+    </message>
+    <message>
+        <source>redirects</source>
+        <translation>קא מפני</translation>
+    </message>
+    <message>
+        <source>Wildcards that lead here</source>
+        <translation>ווילדקארדס דקא מובלי להכא</translation>
+    </message>
+    <message>
+        <source>No wildcard leads to this page.</source>
+        <translation>לית ווילדקארד דקא מובל להא דפא.</translation>
+    </message>
+    <message>
+        <source>shows this page</source>
+        <translation>קא מחוי הא דפא</translation>
+    </message>
+    <message>
+        <source>Addresses visitors did not find</source>
+        <translation>כתובות דמבקרי לא משכחי</translation>
+    </message>
+    <message>
+        <source>Addresses of this site that answered "not found" and end like this page's address. A redirect sends their visitors here.</source>
+        <translation>כתובות דהא אתר דג'ואב "לא אשתכח" ומשלמי כמו כתובת דהא דפא. הפניה קא משדרא מבקריהון להכא.</translation>
+    </message>
+    <message>
+        <source>None: no visitor missed this page.</source>
+        <translation>לית: לית מבקר דטעא הא דפא.</translation>
+    </message>
+    <message>
+        <source>Redirect to this page</source>
+        <translation>הפני להא דפא</translation>
+    </message>
+    <message>
+        <source>%path now redirects to this page.</source>
+        <translation>%path השתא קא מפני להא דפא.</translation>
+    </message>
+    <message>
+        <source>%n times, last %time</source>
+        <translation>%n זבני, אחרונא %time</translation>
+    </message>
+    <message>
+        <source>Add the address</source>
+        <translation>זיד הא כתובת</translation>
+    </message>
+    <message>
+        <source>Add an address</source>
+        <translation>זיד כתובת</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>לשנא</translation>
+    </message>
+    <message>
+        <source>Redirect to the page's address (otherwise the page is shown under this address)</source>
+        <translation>הפני לכתובת דדפא (ואלא דפא מתחזיא תחות הא כתובת)</translation>
+    </message>
+    <message>
+        <source>Added as %path (the address was cleaned up).</source>
+        <translation>איתזידא כמו %path (כתובת איתנקיא).</translation>
+    </message>
+    <message>
+        <source>Added: %path</source>
+        <translation>איתזידא: %path</translation>
+    </message>
+    <message>
+        <source>Add the wildcard</source>
+        <translation>זיד הא ווילדקארד</translation>
+    </message>
+    <message>
+        <source>Add a wildcard</source>
+        <translation>זיד ווילדקארד</translation>
+    </message>
+    <message>
+        <source>Every address that matches leads to this page; a * matches the rest of the address.</source>
+        <translation>כל כתובת דשויא קא מובלא להא דפא; * שויא לשארא דכתובת.</translation>
+    </message>
+    <message>
+        <source>Address pattern</source>
+        <translation>צורת כתובת</translation>
+    </message>
+    <message>
+        <source>URLs</source>
+        <translation>URLs</translation>
+    </message>
 </context>
 </TS>

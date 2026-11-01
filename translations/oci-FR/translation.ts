@@ -1463,5 +1463,121 @@
         <source>%n comments wait for moderation</source>
         <translation>%n comentaris esperan la moderacion</translation>
     </message>
+    <message>
+        <source>Give an address on this site, such as /campaign/running.</source>
+        <translation>Indicatz una adreça d'aqueste site, coma /campaign/running.</translation>
+    </message>
+    <message>
+        <source>There is no such language.</source>
+        <translation>Aquesta lenga existís pas.</translation>
+    </message>
+    <message>
+        <source>This address is taken already.</source>
+        <translation>Aquesta adreça es ja presa.</translation>
+    </message>
+    <message>
+        <source>There is a wildcard for this address already.</source>
+        <translation>I a ja un jòquer per aquesta adreça.</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Adreça</translation>
+    </message>
+    <message>
+        <source>Alias</source>
+        <translation>Alias</translation>
+    </message>
+    <message>
+        <source>Old address</source>
+        <translation>Adreça anciana</translation>
+    </message>
+    <message>
+        <source>Addresses of this page</source>
+        <translation>Adreças d'aquesta pagina</translation>
+    </message>
+    <message>
+        <source>redirects</source>
+        <translation>redirigís</translation>
+    </message>
+    <message>
+        <source>Wildcards that lead here</source>
+        <translation>Jòquers que mènan aicí</translation>
+    </message>
+    <message>
+        <source>No wildcard leads to this page.</source>
+        <translation>Cap de jòquer mena pas a aquesta pagina.</translation>
+    </message>
+    <message>
+        <source>shows this page</source>
+        <translation>aficha aquesta pagina</translation>
+    </message>
+    <message>
+        <source>Addresses visitors did not find</source>
+        <translation>Adreças que los visitaires an pas trobadas</translation>
+    </message>
+    <message>
+        <source>Addresses of this site that answered "not found" and end like this page's address. A redirect sends their visitors here.</source>
+        <translation>Adreças d'aqueste site qu'an respondut "pas trobat" e que s'acaban coma l'adreça d'aquesta pagina. Una redireccion manda aicí lors visitaires.</translation>
+    </message>
+    <message>
+        <source>None: no visitor missed this page.</source>
+        <translation>Cap: cap de visitaire a pas mancat aquesta pagina.</translation>
+    </message>
+    <message>
+        <source>Redirect to this page</source>
+        <translation>Redirigir cap a aquesta pagina</translation>
+    </message>
+    <message>
+        <source>%path now redirects to this page.</source>
+        <translation>%path redirigís ara cap a aquesta pagina.</translation>
+    </message>
+    <message>
+        <source>%n times, last %time</source>
+        <translation>%n còps, lo darrièr %time</translation>
+    </message>
+    <message>
+        <source>Add the address</source>
+        <translation>Apondre l'adreça</translation>
+    </message>
+    <message>
+        <source>Add an address</source>
+        <translation>Apondre una adreça</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>Lenga</translation>
+    </message>
+    <message>
+        <source>Redirect to the page's address (otherwise the page is shown under this address)</source>
+        <translation>Redirigir cap a l'adreça de la pagina (siquenon la pagina es afichada jos aquesta adreça)</translation>
+    </message>
+    <message>
+        <source>Added as %path (the address was cleaned up).</source>
+        <translation>Apondut coma %path (l'adreça es estada netejada).</translation>
+    </message>
+    <message>
+        <source>Added: %path</source>
+        <translation>Apondut: %path</translation>
+    </message>
+    <message>
+        <source>Add the wildcard</source>
+        <translation>Apondre lo jòquer</translation>
+    </message>
+    <message>
+        <source>Add a wildcard</source>
+        <translation>Apondre un jòquer</translation>
+    </message>
+    <message>
+        <source>Every address that matches leads to this page; a * matches the rest of the address.</source>
+        <translation>Cada adreça que correspond mena a aquesta pagina; un * correspond a la rèsta de l'adreça.</translation>
+    </message>
+    <message>
+        <source>Address pattern</source>
+        <translation>Modèl d'adreça</translation>
+    </message>
+    <message>
+        <source>URLs</source>
+        <translation>URL</translation>
+    </message>
 </context>
 </TS>

@@ -1463,5 +1463,121 @@
         <source>%n comments wait for moderation</source>
         <translation>%n аңлатма модерация көтә</translation>
     </message>
+    <message>
+        <source>Give an address on this site, such as /campaign/running.</source>
+        <translation>Бу сайттагы адресны күрсәтегез, мәсәлән /campaign/running.</translation>
+    </message>
+    <message>
+        <source>There is no such language.</source>
+        <translation>Мондый тел юк.</translation>
+    </message>
+    <message>
+        <source>This address is taken already.</source>
+        <translation>Бу адрес инде алынган.</translation>
+    </message>
+    <message>
+        <source>There is a wildcard for this address already.</source>
+        <translation>Бу адрес өчен инде шаблон бар.</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Адрес</translation>
+    </message>
+    <message>
+        <source>Alias</source>
+        <translation>Псевдоним</translation>
+    </message>
+    <message>
+        <source>Old address</source>
+        <translation>Иске адрес</translation>
+    </message>
+    <message>
+        <source>Addresses of this page</source>
+        <translation>Бу битнең адреслары</translation>
+    </message>
+    <message>
+        <source>redirects</source>
+        <translation>юнәлтә</translation>
+    </message>
+    <message>
+        <source>Wildcards that lead here</source>
+        <translation>Монда китерүче шаблоннар</translation>
+    </message>
+    <message>
+        <source>No wildcard leads to this page.</source>
+        <translation>Бер шаблон да бу биткә китерми.</translation>
+    </message>
+    <message>
+        <source>shows this page</source>
+        <translation>бу битне күрсәтә</translation>
+    </message>
+    <message>
+        <source>Addresses visitors did not find</source>
+        <translation>Килүчеләр тапмаган адреслар</translation>
+    </message>
+    <message>
+        <source>Addresses of this site that answered "not found" and end like this page's address. A redirect sends their visitors here.</source>
+        <translation>"Табылмады" дип җавап биргән һәм бу битнең адресы кебек тәмамланучы бу сайт адреслары. Юнәлтү аларның килүчеләрен монда җибәрә.</translation>
+    </message>
+    <message>
+        <source>None: no visitor missed this page.</source>
+        <translation>Юк: бер килүче дә бу битне югалтмады.</translation>
+    </message>
+    <message>
+        <source>Redirect to this page</source>
+        <translation>Бу биткә юнәлтү</translation>
+    </message>
+    <message>
+        <source>%path now redirects to this page.</source>
+        <translation>%path хәзер бу биткә юнәлтә.</translation>
+    </message>
+    <message>
+        <source>%n times, last %time</source>
+        <translation>%n тапкыр, соңгысы %time</translation>
+    </message>
+    <message>
+        <source>Add the address</source>
+        <translation>Адресны өстәү</translation>
+    </message>
+    <message>
+        <source>Add an address</source>
+        <translation>Адрес өстәү</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>Тел</translation>
+    </message>
+    <message>
+        <source>Redirect to the page's address (otherwise the page is shown under this address)</source>
+        <translation>Битнең адресына юнәлтү (югыйсә бит бу адрес астында күрсәтелә)</translation>
+    </message>
+    <message>
+        <source>Added as %path (the address was cleaned up).</source>
+        <translation>%path буларак өстәлде (адрес чистартылды).</translation>
+    </message>
+    <message>
+        <source>Added: %path</source>
+        <translation>Өстәлде: %path</translation>
+    </message>
+    <message>
+        <source>Add the wildcard</source>
+        <translation>Шаблонны өстәү</translation>
+    </message>
+    <message>
+        <source>Add a wildcard</source>
+        <translation>Шаблон өстәү</translation>
+    </message>
+    <message>
+        <source>Every address that matches leads to this page; a * matches the rest of the address.</source>
+        <translation>Туры килгән һәр адрес бу биткә китерә; * адресның калган өлешенә туры килә.</translation>
+    </message>
+    <message>
+        <source>Address pattern</source>
+        <translation>Адрес үрнәге</translation>
+    </message>
+    <message>
+        <source>URLs</source>
+        <translation>URL адреслары</translation>
+    </message>
 </context>
 </TS>

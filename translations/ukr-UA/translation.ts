@@ -1463,5 +1463,121 @@
         <source>%n comments wait for moderation</source>
         <translation>%n коментарів чекають на модерацію</translation>
     </message>
+    <message>
+        <source>Give an address on this site, such as /campaign/running.</source>
+        <translation>Вкажіть адресу на цьому сайті, наприклад /campaign/running.</translation>
+    </message>
+    <message>
+        <source>There is no such language.</source>
+        <translation>Такої мови немає.</translation>
+    </message>
+    <message>
+        <source>This address is taken already.</source>
+        <translation>Ця адреса вже зайнята.</translation>
+    </message>
+    <message>
+        <source>There is a wildcard for this address already.</source>
+        <translation>Для цієї адреси вже є шаблон.</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Адреса</translation>
+    </message>
+    <message>
+        <source>Alias</source>
+        <translation>Псевдонім</translation>
+    </message>
+    <message>
+        <source>Old address</source>
+        <translation>Стара адреса</translation>
+    </message>
+    <message>
+        <source>Addresses of this page</source>
+        <translation>Адреси цієї сторінки</translation>
+    </message>
+    <message>
+        <source>redirects</source>
+        <translation>переспрямовує</translation>
+    </message>
+    <message>
+        <source>Wildcards that lead here</source>
+        <translation>Шаблони, що ведуть сюди</translation>
+    </message>
+    <message>
+        <source>No wildcard leads to this page.</source>
+        <translation>Жоден шаблон не веде на цю сторінку.</translation>
+    </message>
+    <message>
+        <source>shows this page</source>
+        <translation>показує цю сторінку</translation>
+    </message>
+    <message>
+        <source>Addresses visitors did not find</source>
+        <translation>Адреси, які відвідувачі не знайшли</translation>
+    </message>
+    <message>
+        <source>Addresses of this site that answered "not found" and end like this page's address. A redirect sends their visitors here.</source>
+        <translation>Адреси цього сайту, які відповіли "не знайдено" і закінчуються як адреса цієї сторінки. Переспрямування надсилає їхніх відвідувачів сюди.</translation>
+    </message>
+    <message>
+        <source>None: no visitor missed this page.</source>
+        <translation>Немає: жоден відвідувач не пропустив цю сторінку.</translation>
+    </message>
+    <message>
+        <source>Redirect to this page</source>
+        <translation>Переспрямувати на цю сторінку</translation>
+    </message>
+    <message>
+        <source>%path now redirects to this page.</source>
+        <translation>%path тепер переспрямовує на цю сторінку.</translation>
+    </message>
+    <message>
+        <source>%n times, last %time</source>
+        <translation>%n разів, востаннє %time</translation>
+    </message>
+    <message>
+        <source>Add the address</source>
+        <translation>Додати адресу</translation>
+    </message>
+    <message>
+        <source>Add an address</source>
+        <translation>Додати адресу</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>Мова</translation>
+    </message>
+    <message>
+        <source>Redirect to the page's address (otherwise the page is shown under this address)</source>
+        <translation>Переспрямовувати на адресу сторінки (інакше сторінка показується під цією адресою)</translation>
+    </message>
+    <message>
+        <source>Added as %path (the address was cleaned up).</source>
+        <translation>Додано як %path (адресу очищено).</translation>
+    </message>
+    <message>
+        <source>Added: %path</source>
+        <translation>Додано: %path</translation>
+    </message>
+    <message>
+        <source>Add the wildcard</source>
+        <translation>Додати шаблон</translation>
+    </message>
+    <message>
+        <source>Add a wildcard</source>
+        <translation>Додати шаблон</translation>
+    </message>
+    <message>
+        <source>Every address that matches leads to this page; a * matches the rest of the address.</source>
+        <translation>Кожна відповідна адреса веде на цю сторінку; * відповідає решті адреси.</translation>
+    </message>
+    <message>
+        <source>Address pattern</source>
+        <translation>Шаблон адреси</translation>
+    </message>
+    <message>
+        <source>URLs</source>
+        <translation>URL-адреси</translation>
+    </message>
 </context>
 </TS>

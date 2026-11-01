@@ -622,6 +622,8 @@
       if (c.edit) { list.push({ id: 'forms', label: this.t('Forms') }); }
       /* the page's newsletter (E3, cjw_newsletter), for those who may make an edition or send one */
       if (c.edit && this.boot && this.boot.newsletter) { list.push({ id: 'newsletter', label: this.t('Newsletter') }); }
+      /* the page's addresses, redirects and the addresses visitors did not find (E5), for those who edit with the sidebar */
+      if (c.edit) { list.push({ id: 'urls', label: this.t('URLs') }); }
       if (c.insights) { list.push({ id: 'insights', label: this.t('Insights') }); }
       /* the approvals waiting for the user (F29), for a user of the kernel's collaboration */
       if (this.boot && this.boot.inbox) { list.push({ id: 'inbox', label: this.t('Inbox') }); }
@@ -1288,7 +1290,7 @@
       var t = this.boot.transport;
       var registered = this.registry().actions || {};
       var write = Object.prototype.hasOwnProperty.call(registered, action) ? !!registered[action].writes
-        : ['me', 'page.load', 'create.classes', 'tree.children', 'inbox.load', 'insights.load', 'seo.check', 'newsletter.load', 'comments.load', 'boot'].indexOf(action) < 0;
+        : ['me', 'page.load', 'create.classes', 'tree.children', 'inbox.load', 'insights.load', 'seo.check', 'newsletter.load', 'comments.load', 'urls.load', 'boot'].indexOf(action) < 0;
       var json = JSON.stringify(input || {});
       var headers = { 'X-CSRF-Token': this.boot.token || '' };
       var p;

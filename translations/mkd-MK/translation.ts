@@ -1463,5 +1463,121 @@
         <source>%n comments wait for moderation</source>
         <translation>%n коментари чекаат модерација</translation>
     </message>
+    <message>
+        <source>Give an address on this site, such as /campaign/running.</source>
+        <translation>Наведете адреса на ова мрежно место, на пр. /campaign/running.</translation>
+    </message>
+    <message>
+        <source>There is no such language.</source>
+        <translation>Таков јазик не постои.</translation>
+    </message>
+    <message>
+        <source>This address is taken already.</source>
+        <translation>Оваа адреса е веќе зафатена.</translation>
+    </message>
+    <message>
+        <source>There is a wildcard for this address already.</source>
+        <translation>За оваа адреса веќе постои џокер.</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Адреса</translation>
+    </message>
+    <message>
+        <source>Alias</source>
+        <translation>Алијас</translation>
+    </message>
+    <message>
+        <source>Old address</source>
+        <translation>Стара адреса</translation>
+    </message>
+    <message>
+        <source>Addresses of this page</source>
+        <translation>Адреси на оваа страница</translation>
+    </message>
+    <message>
+        <source>redirects</source>
+        <translation>пренасочува</translation>
+    </message>
+    <message>
+        <source>Wildcards that lead here</source>
+        <translation>Џокери што водат овде</translation>
+    </message>
+    <message>
+        <source>No wildcard leads to this page.</source>
+        <translation>Ниеден џокер не води до оваа страница.</translation>
+    </message>
+    <message>
+        <source>shows this page</source>
+        <translation>ја прикажува оваа страница</translation>
+    </message>
+    <message>
+        <source>Addresses visitors did not find</source>
+        <translation>Адреси што посетителите не ги најдоа</translation>
+    </message>
+    <message>
+        <source>Addresses of this site that answered "not found" and end like this page's address. A redirect sends their visitors here.</source>
+        <translation>Адреси на ова место што одговорија "не е пронајдено" и завршуваат како адресата на оваа страница. Пренасочувањето ги праќа нивните посетители овде.</translation>
+    </message>
+    <message>
+        <source>None: no visitor missed this page.</source>
+        <translation>Ниедна: ниеден посетител не ја промаши оваа страница.</translation>
+    </message>
+    <message>
+        <source>Redirect to this page</source>
+        <translation>Пренасочи на оваа страница</translation>
+    </message>
+    <message>
+        <source>%path now redirects to this page.</source>
+        <translation>%path сега пренасочува на оваа страница.</translation>
+    </message>
+    <message>
+        <source>%n times, last %time</source>
+        <translation>%n пати, последен пат %time</translation>
+    </message>
+    <message>
+        <source>Add the address</source>
+        <translation>Додај ја адресата</translation>
+    </message>
+    <message>
+        <source>Add an address</source>
+        <translation>Додај адреса</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>Јазик</translation>
+    </message>
+    <message>
+        <source>Redirect to the page's address (otherwise the page is shown under this address)</source>
+        <translation>Пренасочи на адресата на страницата (инаку страницата се прикажува под оваа адреса)</translation>
+    </message>
+    <message>
+        <source>Added as %path (the address was cleaned up).</source>
+        <translation>Додадено како %path (адресата е исчистена).</translation>
+    </message>
+    <message>
+        <source>Added: %path</source>
+        <translation>Додадено: %path</translation>
+    </message>
+    <message>
+        <source>Add the wildcard</source>
+        <translation>Додај го џокерот</translation>
+    </message>
+    <message>
+        <source>Add a wildcard</source>
+        <translation>Додај џокер</translation>
+    </message>
+    <message>
+        <source>Every address that matches leads to this page; a * matches the rest of the address.</source>
+        <translation>Секоја соодветна адреса води до оваа страница; * одговара на остатокот од адресата.</translation>
+    </message>
+    <message>
+        <source>Address pattern</source>
+        <translation>Образец на адреса</translation>
+    </message>
+    <message>
+        <source>URLs</source>
+        <translation>URL-адреси</translation>
+    </message>
 </context>
 </TS>

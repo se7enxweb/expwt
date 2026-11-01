@@ -1463,5 +1463,121 @@
         <source>%n comments wait for moderation</source>
         <translation>%n izoh moderatsiyani kutmoqda</translation>
     </message>
+    <message>
+        <source>Give an address on this site, such as /campaign/running.</source>
+        <translation>Ushbu saytdagi manzilni kiriting, masalan /campaign/running.</translation>
+    </message>
+    <message>
+        <source>There is no such language.</source>
+        <translation>Bunday til yoʻq.</translation>
+    </message>
+    <message>
+        <source>This address is taken already.</source>
+        <translation>Bu manzil allaqachon band.</translation>
+    </message>
+    <message>
+        <source>There is a wildcard for this address already.</source>
+        <translation>Bu manzil uchun allaqachon shablon bor.</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Manzil</translation>
+    </message>
+    <message>
+        <source>Alias</source>
+        <translation>Taxallus</translation>
+    </message>
+    <message>
+        <source>Old address</source>
+        <translation>Eski manzil</translation>
+    </message>
+    <message>
+        <source>Addresses of this page</source>
+        <translation>Bu sahifaning manzillari</translation>
+    </message>
+    <message>
+        <source>redirects</source>
+        <translation>yoʻnaltiradi</translation>
+    </message>
+    <message>
+        <source>Wildcards that lead here</source>
+        <translation>Bu yerga olib keladigan shablonlar</translation>
+    </message>
+    <message>
+        <source>No wildcard leads to this page.</source>
+        <translation>Hech bir shablon bu sahifaga olib kelmaydi.</translation>
+    </message>
+    <message>
+        <source>shows this page</source>
+        <translation>bu sahifani koʻrsatadi</translation>
+    </message>
+    <message>
+        <source>Addresses visitors did not find</source>
+        <translation>Tashrifchilar topmagan manzillar</translation>
+    </message>
+    <message>
+        <source>Addresses of this site that answered "not found" and end like this page's address. A redirect sends their visitors here.</source>
+        <translation>"Topilmadi" deb javob bergan va bu sahifa manzili kabi tugaydigan ushbu sayt manzillari. Yoʻnaltirish ularning tashrifchilarini bu yerga yuboradi.</translation>
+    </message>
+    <message>
+        <source>None: no visitor missed this page.</source>
+        <translation>Yoʻq: hech bir tashrifchi bu sahifani oʻtkazib yubormadi.</translation>
+    </message>
+    <message>
+        <source>Redirect to this page</source>
+        <translation>Bu sahifaga yoʻnaltirish</translation>
+    </message>
+    <message>
+        <source>%path now redirects to this page.</source>
+        <translation>%path endi bu sahifaga yoʻnaltiradi.</translation>
+    </message>
+    <message>
+        <source>%n times, last %time</source>
+        <translation>%n marta, oxirgisi %time</translation>
+    </message>
+    <message>
+        <source>Add the address</source>
+        <translation>Manzilni qoʻshish</translation>
+    </message>
+    <message>
+        <source>Add an address</source>
+        <translation>Manzil qoʻshish</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>Til</translation>
+    </message>
+    <message>
+        <source>Redirect to the page's address (otherwise the page is shown under this address)</source>
+        <translation>Sahifa manziliga yoʻnaltirish (aks holda sahifa shu manzilda koʻrsatiladi)</translation>
+    </message>
+    <message>
+        <source>Added as %path (the address was cleaned up).</source>
+        <translation>%path sifatida qoʻshildi (manzil tozalandi).</translation>
+    </message>
+    <message>
+        <source>Added: %path</source>
+        <translation>Qoʻshildi: %path</translation>
+    </message>
+    <message>
+        <source>Add the wildcard</source>
+        <translation>Shablonni qoʻshish</translation>
+    </message>
+    <message>
+        <source>Add a wildcard</source>
+        <translation>Shablon qoʻshish</translation>
+    </message>
+    <message>
+        <source>Every address that matches leads to this page; a * matches the rest of the address.</source>
+        <translation>Mos keladigan har bir manzil bu sahifaga olib keladi; * manzilning qolgan qismiga mos keladi.</translation>
+    </message>
+    <message>
+        <source>Address pattern</source>
+        <translation>Manzil namunasi</translation>
+    </message>
+    <message>
+        <source>URLs</source>
+        <translation>URL manzillar</translation>
+    </message>
 </context>
 </TS>

@@ -1463,5 +1463,121 @@
         <source>%n comments wait for moderation</source>
         <translation>%n ئىنكاس تەكشۈرۈشنى كۈتۈۋاتىدۇ</translation>
     </message>
+    <message>
+        <source>Give an address on this site, such as /campaign/running.</source>
+        <translation>بۇ تور بېكەتتىكى بىر ئادرېسنى بېرىڭ، مەسىلەن /campaign/running.</translation>
+    </message>
+    <message>
+        <source>There is no such language.</source>
+        <translation>بۇنداق تىل يوق.</translation>
+    </message>
+    <message>
+        <source>This address is taken already.</source>
+        <translation>بۇ ئادرېس ئاللىبۇرۇن ئېلىنغان.</translation>
+    </message>
+    <message>
+        <source>There is a wildcard for this address already.</source>
+        <translation>بۇ ئادرېس ئۈچۈن ئاللىبۇرۇن بىر ئورتاق بەلگە بار.</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>ئادرېس</translation>
+    </message>
+    <message>
+        <source>Alias</source>
+        <translation>تەخەللۇس</translation>
+    </message>
+    <message>
+        <source>Old address</source>
+        <translation>كونا ئادرېس</translation>
+    </message>
+    <message>
+        <source>Addresses of this page</source>
+        <translation>بۇ بەتنىڭ ئادرېسلىرى</translation>
+    </message>
+    <message>
+        <source>redirects</source>
+        <translation>قايتا يۆنىلىشلەيدۇ</translation>
+    </message>
+    <message>
+        <source>Wildcards that lead here</source>
+        <translation>بۇ يەرگە ئېلىپ كېلىدىغان ئورتاق بەلگىلەر</translation>
+    </message>
+    <message>
+        <source>No wildcard leads to this page.</source>
+        <translation>ھېچقانداق ئورتاق بەلگە بۇ بەتكە ئېلىپ كەلمەيدۇ.</translation>
+    </message>
+    <message>
+        <source>shows this page</source>
+        <translation>بۇ بەتنى كۆرسىتىدۇ</translation>
+    </message>
+    <message>
+        <source>Addresses visitors did not find</source>
+        <translation>زىيارەتچىلەر تاپالمىغان ئادرېسلار</translation>
+    </message>
+    <message>
+        <source>Addresses of this site that answered "not found" and end like this page's address. A redirect sends their visitors here.</source>
+        <translation>"تېپىلمىدى" دەپ جاۋاب بەرگەن ۋە بۇ بەتنىڭ ئادرېسىدەك ئاخىرلىشىدىغان بۇ تور بېكەتنىڭ ئادرېسلىرى. قايتا يۆنىلىش ئۇلارنىڭ زىيارەتچىلىرىنى بۇ يەرگە ئەۋەتىدۇ.</translation>
+    </message>
+    <message>
+        <source>None: no visitor missed this page.</source>
+        <translation>يوق: ھېچقانداق زىيارەتچى بۇ بەتنى قولدىن بەرمىدى.</translation>
+    </message>
+    <message>
+        <source>Redirect to this page</source>
+        <translation>بۇ بەتكە قايتا يۆنىلىشلە</translation>
+    </message>
+    <message>
+        <source>%path now redirects to this page.</source>
+        <translation>%path ھازىر بۇ بەتكە قايتا يۆنىلىشلەيدۇ.</translation>
+    </message>
+    <message>
+        <source>%n times, last %time</source>
+        <translation>%n قېتىم، ئاخىرقىسى %time</translation>
+    </message>
+    <message>
+        <source>Add the address</source>
+        <translation>ئادرېسنى قوش</translation>
+    </message>
+    <message>
+        <source>Add an address</source>
+        <translation>ئادرېس قوش</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>تىل</translation>
+    </message>
+    <message>
+        <source>Redirect to the page's address (otherwise the page is shown under this address)</source>
+        <translation>بەتنىڭ ئادرېسىغا قايتا يۆنىلىشلە (بولمىسا بەت بۇ ئادرېستا كۆرسىتىلىدۇ)</translation>
+    </message>
+    <message>
+        <source>Added as %path (the address was cleaned up).</source>
+        <translation>%path سۈپىتىدە قوشۇلدى (ئادرېس رەتلەندى).</translation>
+    </message>
+    <message>
+        <source>Added: %path</source>
+        <translation>قوشۇلدى: %path</translation>
+    </message>
+    <message>
+        <source>Add the wildcard</source>
+        <translation>ئورتاق بەلگىنى قوش</translation>
+    </message>
+    <message>
+        <source>Add a wildcard</source>
+        <translation>ئورتاق بەلگە قوش</translation>
+    </message>
+    <message>
+        <source>Every address that matches leads to this page; a * matches the rest of the address.</source>
+        <translation>ماس كەلگەن ھەر بىر ئادرېس بۇ بەتكە ئېلىپ كېلىدۇ؛ * ئادرېسنىڭ قالغان قىسمىغا ماس كېلىدۇ.</translation>
+    </message>
+    <message>
+        <source>Address pattern</source>
+        <translation>ئادرېس ئەندىزىسى</translation>
+    </message>
+    <message>
+        <source>URLs</source>
+        <translation>URL لار</translation>
+    </message>
 </context>
 </TS>

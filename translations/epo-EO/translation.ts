@@ -1463,5 +1463,121 @@
         <source>%n comments wait for moderation</source>
         <translation>%n komentoj atendas moderigon</translation>
     </message>
+    <message>
+        <source>Give an address on this site, such as /campaign/running.</source>
+        <translation>Donu adreson en ĉi tiu retejo, ekzemple /campaign/running.</translation>
+    </message>
+    <message>
+        <source>There is no such language.</source>
+        <translation>Ne ekzistas tia lingvo.</translation>
+    </message>
+    <message>
+        <source>This address is taken already.</source>
+        <translation>Ĉi tiu adreso jam estas okupita.</translation>
+    </message>
+    <message>
+        <source>There is a wildcard for this address already.</source>
+        <translation>Jam ekzistas ĵokero por ĉi tiu adreso.</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Adreso</translation>
+    </message>
+    <message>
+        <source>Alias</source>
+        <translation>Kromnomo</translation>
+    </message>
+    <message>
+        <source>Old address</source>
+        <translation>Malnova adreso</translation>
+    </message>
+    <message>
+        <source>Addresses of this page</source>
+        <translation>Adresoj de ĉi tiu paĝo</translation>
+    </message>
+    <message>
+        <source>redirects</source>
+        <translation>alidirektas</translation>
+    </message>
+    <message>
+        <source>Wildcards that lead here</source>
+        <translation>Ĵokeroj kiuj kondukas ĉi tien</translation>
+    </message>
+    <message>
+        <source>No wildcard leads to this page.</source>
+        <translation>Neniu ĵokero kondukas al ĉi tiu paĝo.</translation>
+    </message>
+    <message>
+        <source>shows this page</source>
+        <translation>montras ĉi tiun paĝon</translation>
+    </message>
+    <message>
+        <source>Addresses visitors did not find</source>
+        <translation>Adresoj kiujn vizitantoj ne trovis</translation>
+    </message>
+    <message>
+        <source>Addresses of this site that answered "not found" and end like this page's address. A redirect sends their visitors here.</source>
+        <translation>Adresoj de ĉi tiu retejo kiuj respondis "ne trovita" kaj finiĝas kiel la adreso de ĉi tiu paĝo. Alidirekto sendas iliajn vizitantojn ĉi tien.</translation>
+    </message>
+    <message>
+        <source>None: no visitor missed this page.</source>
+        <translation>Neniu: neniu vizitanto maltrafis ĉi tiun paĝon.</translation>
+    </message>
+    <message>
+        <source>Redirect to this page</source>
+        <translation>Alidirekti al ĉi tiu paĝo</translation>
+    </message>
+    <message>
+        <source>%path now redirects to this page.</source>
+        <translation>%path nun alidirektas al ĉi tiu paĝo.</translation>
+    </message>
+    <message>
+        <source>%n times, last %time</source>
+        <translation>%n fojojn, laste %time</translation>
+    </message>
+    <message>
+        <source>Add the address</source>
+        <translation>Aldoni la adreson</translation>
+    </message>
+    <message>
+        <source>Add an address</source>
+        <translation>Aldoni adreson</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>Lingvo</translation>
+    </message>
+    <message>
+        <source>Redirect to the page's address (otherwise the page is shown under this address)</source>
+        <translation>Alidirekti al la adreso de la paĝo (alie la paĝo montriĝas sub ĉi tiu adreso)</translation>
+    </message>
+    <message>
+        <source>Added as %path (the address was cleaned up).</source>
+        <translation>Aldonita kiel %path (la adreso estis purigita).</translation>
+    </message>
+    <message>
+        <source>Added: %path</source>
+        <translation>Aldonita: %path</translation>
+    </message>
+    <message>
+        <source>Add the wildcard</source>
+        <translation>Aldoni la ĵokeron</translation>
+    </message>
+    <message>
+        <source>Add a wildcard</source>
+        <translation>Aldoni ĵokeron</translation>
+    </message>
+    <message>
+        <source>Every address that matches leads to this page; a * matches the rest of the address.</source>
+        <translation>Ĉiu kongrua adreso kondukas al ĉi tiu paĝo; * kongruas kun la resto de la adreso.</translation>
+    </message>
+    <message>
+        <source>Address pattern</source>
+        <translation>Adresa ŝablono</translation>
+    </message>
+    <message>
+        <source>URLs</source>
+        <translation>URL-oj</translation>
+    </message>
 </context>
 </TS>

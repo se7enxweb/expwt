@@ -1463,5 +1463,121 @@
         <source>%n comments wait for moderation</source>
         <translation>Amazwana angu-%n alinde ukumodareyithwa</translation>
     </message>
+    <message>
+        <source>Give an address on this site, such as /campaign/running.</source>
+        <translation>Nikeza ikheli kule sayithi, njenge-/campaign/running.</translation>
+    </message>
+    <message>
+        <source>There is no such language.</source>
+        <translation>Alukho ulimi olunjalo.</translation>
+    </message>
+    <message>
+        <source>This address is taken already.</source>
+        <translation>Leli kheli selithathiwe.</translation>
+    </message>
+    <message>
+        <source>There is a wildcard for this address already.</source>
+        <translation>Selikhona i-wildcard yaleli kheli.</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Ikheli</translation>
+    </message>
+    <message>
+        <source>Alias</source>
+        <translation>Elinye igama</translation>
+    </message>
+    <message>
+        <source>Old address</source>
+        <translation>Ikheli elidala</translation>
+    </message>
+    <message>
+        <source>Addresses of this page</source>
+        <translation>Amakheli aleli khasi</translation>
+    </message>
+    <message>
+        <source>redirects</source>
+        <translation>iqondisa kabusha</translation>
+    </message>
+    <message>
+        <source>Wildcards that lead here</source>
+        <translation>Ama-wildcard aletha lapha</translation>
+    </message>
+    <message>
+        <source>No wildcard leads to this page.</source>
+        <translation>Ayikho i-wildcard eletha kuleli khasi.</translation>
+    </message>
+    <message>
+        <source>shows this page</source>
+        <translation>ibonisa leli khasi</translation>
+    </message>
+    <message>
+        <source>Addresses visitors did not find</source>
+        <translation>Amakheli izivakashi ezingawatholanga</translation>
+    </message>
+    <message>
+        <source>Addresses of this site that answered "not found" and end like this page's address. A redirect sends their visitors here.</source>
+        <translation>Amakheli ale sayithi aphendule ngokuthi "akutholakalanga" futhi aphela njengekheli laleli khasi. Ukuqondisa kabusha kuthumela izivakashi zawo lapha.</translation>
+    </message>
+    <message>
+        <source>None: no visitor missed this page.</source>
+        <translation>Lutho: asikho isivakashi esiphuthelwe yileli khasi.</translation>
+    </message>
+    <message>
+        <source>Redirect to this page</source>
+        <translation>Qondisa kabusha kuleli khasi</translation>
+    </message>
+    <message>
+        <source>%path now redirects to this page.</source>
+        <translation>I-%path manje iqondisa kabusha kuleli khasi.</translation>
+    </message>
+    <message>
+        <source>%n times, last %time</source>
+        <translation>Izikhathi ezingu-%n, okokugcina %time</translation>
+    </message>
+    <message>
+        <source>Add the address</source>
+        <translation>Engeza ikheli</translation>
+    </message>
+    <message>
+        <source>Add an address</source>
+        <translation>Engeza ikheli</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>Ulimi</translation>
+    </message>
+    <message>
+        <source>Redirect to the page's address (otherwise the page is shown under this address)</source>
+        <translation>Qondisa kabusha ekhelini lekhasi (uma kungenjalo ikhasi liboniswa ngaphansi kwaleli kheli)</translation>
+    </message>
+    <message>
+        <source>Added as %path (the address was cleaned up).</source>
+        <translation>Kwengezwe njenge-%path (ikheli lihlanziwe).</translation>
+    </message>
+    <message>
+        <source>Added: %path</source>
+        <translation>Kwengeziwe: %path</translation>
+    </message>
+    <message>
+        <source>Add the wildcard</source>
+        <translation>Engeza i-wildcard</translation>
+    </message>
+    <message>
+        <source>Add a wildcard</source>
+        <translation>Engeza i-wildcard</translation>
+    </message>
+    <message>
+        <source>Every address that matches leads to this page; a * matches the rest of the address.</source>
+        <translation>Wonke amakheli afanayo aletha kuleli khasi; i-* ifana nengxenye esele yekheli.</translation>
+    </message>
+    <message>
+        <source>Address pattern</source>
+        <translation>Iphethini lekheli</translation>
+    </message>
+    <message>
+        <source>URLs</source>
+        <translation>Ama-URL</translation>
+    </message>
 </context>
 </TS>

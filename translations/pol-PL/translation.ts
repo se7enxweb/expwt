@@ -1463,5 +1463,121 @@
         <source>%n comments wait for moderation</source>
         <translation>%n komentarzy czeka na moderację</translation>
     </message>
+    <message>
+        <source>Give an address on this site, such as /campaign/running.</source>
+        <translation>Podaj adres w tej witrynie, np. /campaign/running.</translation>
+    </message>
+    <message>
+        <source>There is no such language.</source>
+        <translation>Nie ma takiego języka.</translation>
+    </message>
+    <message>
+        <source>This address is taken already.</source>
+        <translation>Ten adres jest już zajęty.</translation>
+    </message>
+    <message>
+        <source>There is a wildcard for this address already.</source>
+        <translation>Dla tego adresu istnieje już symbol wieloznaczny.</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Adres</translation>
+    </message>
+    <message>
+        <source>Alias</source>
+        <translation>Alias</translation>
+    </message>
+    <message>
+        <source>Old address</source>
+        <translation>Stary adres</translation>
+    </message>
+    <message>
+        <source>Addresses of this page</source>
+        <translation>Adresy tej strony</translation>
+    </message>
+    <message>
+        <source>redirects</source>
+        <translation>przekierowuje</translation>
+    </message>
+    <message>
+        <source>Wildcards that lead here</source>
+        <translation>Symbole wieloznaczne prowadzące tutaj</translation>
+    </message>
+    <message>
+        <source>No wildcard leads to this page.</source>
+        <translation>Żaden symbol wieloznaczny nie prowadzi do tej strony.</translation>
+    </message>
+    <message>
+        <source>shows this page</source>
+        <translation>pokazuje tę stronę</translation>
+    </message>
+    <message>
+        <source>Addresses visitors did not find</source>
+        <translation>Adresy, których odwiedzający nie znaleźli</translation>
+    </message>
+    <message>
+        <source>Addresses of this site that answered "not found" and end like this page's address. A redirect sends their visitors here.</source>
+        <translation>Adresy tej witryny, które odpowiedziały "nie znaleziono" i kończą się jak adres tej strony. Przekierowanie wysyła ich odwiedzających tutaj.</translation>
+    </message>
+    <message>
+        <source>None: no visitor missed this page.</source>
+        <translation>Brak: żaden odwiedzający nie przeoczył tej strony.</translation>
+    </message>
+    <message>
+        <source>Redirect to this page</source>
+        <translation>Przekieruj na tę stronę</translation>
+    </message>
+    <message>
+        <source>%path now redirects to this page.</source>
+        <translation>%path przekierowuje teraz na tę stronę.</translation>
+    </message>
+    <message>
+        <source>%n times, last %time</source>
+        <translation>%n razy, ostatnio %time</translation>
+    </message>
+    <message>
+        <source>Add the address</source>
+        <translation>Dodaj adres</translation>
+    </message>
+    <message>
+        <source>Add an address</source>
+        <translation>Dodaj adres</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>Język</translation>
+    </message>
+    <message>
+        <source>Redirect to the page's address (otherwise the page is shown under this address)</source>
+        <translation>Przekieruj na adres strony (inaczej strona jest pokazywana pod tym adresem)</translation>
+    </message>
+    <message>
+        <source>Added as %path (the address was cleaned up).</source>
+        <translation>Dodano jako %path (adres został uporządkowany).</translation>
+    </message>
+    <message>
+        <source>Added: %path</source>
+        <translation>Dodano: %path</translation>
+    </message>
+    <message>
+        <source>Add the wildcard</source>
+        <translation>Dodaj symbol wieloznaczny</translation>
+    </message>
+    <message>
+        <source>Add a wildcard</source>
+        <translation>Dodaj symbol wieloznaczny</translation>
+    </message>
+    <message>
+        <source>Every address that matches leads to this page; a * matches the rest of the address.</source>
+        <translation>Każdy pasujący adres prowadzi do tej strony; * pasuje do reszty adresu.</translation>
+    </message>
+    <message>
+        <source>Address pattern</source>
+        <translation>Wzorzec adresu</translation>
+    </message>
+    <message>
+        <source>URLs</source>
+        <translation>Adresy URL</translation>
+    </message>
 </context>
 </TS>

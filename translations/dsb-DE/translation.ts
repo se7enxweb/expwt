@@ -1463,5 +1463,121 @@
         <source>%n comments wait for moderation</source>
         <translation>%n komentarow caka na moderaciju</translation>
     </message>
+    <message>
+        <source>Give an address on this site, such as /campaign/running.</source>
+        <translation>Pódajśo adresu na toś tom websedle, na pś. /campaign/running.</translation>
+    </message>
+    <message>
+        <source>There is no such language.</source>
+        <translation>Taka rěc njeeksistěrujo.</translation>
+    </message>
+    <message>
+        <source>This address is taken already.</source>
+        <translation>Toś ta adresa jo južo zabrana.</translation>
+    </message>
+    <message>
+        <source>There is a wildcard for this address already.</source>
+        <translation>Za toś tu adresu južo dajo zastupne znamuško.</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Adresa</translation>
+    </message>
+    <message>
+        <source>Alias</source>
+        <translation>Alias</translation>
+    </message>
+    <message>
+        <source>Old address</source>
+        <translation>Stara adresa</translation>
+    </message>
+    <message>
+        <source>Addresses of this page</source>
+        <translation>Adrese toś togo boka</translation>
+    </message>
+    <message>
+        <source>redirects</source>
+        <translation>dalej pósrědnja</translation>
+    </message>
+    <message>
+        <source>Wildcards that lead here</source>
+        <translation>Zastupne znamuška, kótarež how wjedu</translation>
+    </message>
+    <message>
+        <source>No wildcard leads to this page.</source>
+        <translation>Žedne zastupne znamuško njewjeźo k toś tomu bokoju.</translation>
+    </message>
+    <message>
+        <source>shows this page</source>
+        <translation>pokazujo toś ten bok</translation>
+    </message>
+    <message>
+        <source>Addresses visitors did not find</source>
+        <translation>Adrese, kótarež woglědowarje njejsu namakali</translation>
+    </message>
+    <message>
+        <source>Addresses of this site that answered "not found" and end like this page's address. A redirect sends their visitors here.</source>
+        <translation>Adrese toś togo websedła, kótarež su wótegronili "njenamakany" a kóńce ako adresa toś togo boka. Dalejpósrědnjenje sćelo jich woglědowarjow how.</translation>
+    </message>
+    <message>
+        <source>None: no visitor missed this page.</source>
+        <translation>Žedne: žeden woglědowaŕ njejo toś ten bok zamólił.</translation>
+    </message>
+    <message>
+        <source>Redirect to this page</source>
+        <translation>K toś tomu bokoju dalej pósrědniś</translation>
+    </message>
+    <message>
+        <source>%path now redirects to this page.</source>
+        <translation>%path něnto k toś tomu bokoju dalej pósrědnja.</translation>
+    </message>
+    <message>
+        <source>%n times, last %time</source>
+        <translation>%n raz, slědny raz %time</translation>
+    </message>
+    <message>
+        <source>Add the address</source>
+        <translation>Adresu pśidaś</translation>
+    </message>
+    <message>
+        <source>Add an address</source>
+        <translation>Adresu pśidaś</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>Rěc</translation>
+    </message>
+    <message>
+        <source>Redirect to the page's address (otherwise the page is shown under this address)</source>
+        <translation>K adresy boka dalej pósrědniś (howac se bok pód toś teju adresu pokažo)</translation>
+    </message>
+    <message>
+        <source>Added as %path (the address was cleaned up).</source>
+        <translation>Pśidane ako %path (adresa jo se wurědowała).</translation>
+    </message>
+    <message>
+        <source>Added: %path</source>
+        <translation>Pśidane: %path</translation>
+    </message>
+    <message>
+        <source>Add the wildcard</source>
+        <translation>Zastupne znamuško pśidaś</translation>
+    </message>
+    <message>
+        <source>Add a wildcard</source>
+        <translation>Zastupne znamuško pśidaś</translation>
+    </message>
+    <message>
+        <source>Every address that matches leads to this page; a * matches the rest of the address.</source>
+        <translation>Kužda wótpowědujuca adresa wjeźo k toś tomu bokoju; * wótpowědujo zbytkoju adrese.</translation>
+    </message>
+    <message>
+        <source>Address pattern</source>
+        <translation>Wzor adrese</translation>
+    </message>
+    <message>
+        <source>URLs</source>
+        <translation>URL</translation>
+    </message>
 </context>
 </TS>

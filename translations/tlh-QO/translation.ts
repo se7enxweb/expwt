@@ -1463,5 +1463,121 @@
         <source>%n comments wait for moderation</source>
         <translation>%n QIn ghItlhmey loHwI' loS</translation>
     </message>
+    <message>
+        <source>Give an address on this site, such as /campaign/running.</source>
+        <translation>Dat ghoS SamlaHghach yIDel, /campaign/running rur.</translation>
+    </message>
+    <message>
+        <source>There is no such language.</source>
+        <translation>Hol rur tu'lu'be'.</translation>
+    </message>
+    <message>
+        <source>This address is taken already.</source>
+        <translation>ghoS SamlaHghach vam tlhaplu'pu'.</translation>
+    </message>
+    <message>
+        <source>There is a wildcard for this address already.</source>
+        <translation>ghoS SamlaHghach vamvaD wildcard tu'lu'pu'.</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>ghoS SamlaHghach</translation>
+    </message>
+    <message>
+        <source>Alias</source>
+        <translation>pong latlh</translation>
+    </message>
+    <message>
+        <source>Old address</source>
+        <translation>ghoS SamlaHghach ngo'</translation>
+    </message>
+    <message>
+        <source>Addresses of this page</source>
+        <translation>nav vam ghoS SamlaHghachmey</translation>
+    </message>
+    <message>
+        <source>redirects</source>
+        <translation>ghoS choH</translation>
+    </message>
+    <message>
+        <source>Wildcards that lead here</source>
+        <translation>naDev Dev wildcardmey</translation>
+    </message>
+    <message>
+        <source>No wildcard leads to this page.</source>
+        <translation>nav vamvaD wildcard Devbe'.</translation>
+    </message>
+    <message>
+        <source>shows this page</source>
+        <translation>nav vam 'agh</translation>
+    </message>
+    <message>
+        <source>Addresses visitors did not find</source>
+        <translation>ghoS SamlaHghachmey tu'be'lu'pu'bogh SuchwI'pu'</translation>
+    </message>
+    <message>
+        <source>Addresses of this site that answered "not found" and end like this page's address. A redirect sends their visitors here.</source>
+        <translation>Dat vam ghoS SamlaHghachmey "tu'lu'be'" jangbogh 'ej nav vam ghoS SamlaHghach rur Qanbogh. ghoS choHmeH SuchwI'chaj naDev ngeH.</translation>
+    </message>
+    <message>
+        <source>None: no visitor missed this page.</source>
+        <translation>pagh: nav vam lujbe' SuchwI' pagh.</translation>
+    </message>
+    <message>
+        <source>Redirect to this page</source>
+        <translation>nav vamDaq ghoS yIchoH</translation>
+    </message>
+    <message>
+        <source>%path now redirects to this page.</source>
+        <translation>DaH nav vamDaq ghoS choH %path.</translation>
+    </message>
+    <message>
+        <source>%n times, last %time</source>
+        <translation>%n Dop, Qav %time</translation>
+    </message>
+    <message>
+        <source>Add the address</source>
+        <translation>ghoS SamlaHghach yIchel</translation>
+    </message>
+    <message>
+        <source>Add an address</source>
+        <translation>ghoS SamlaHghach yIchel</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>Hol</translation>
+    </message>
+    <message>
+        <source>Redirect to the page's address (otherwise the page is shown under this address)</source>
+        <translation>nav ghoS SamlaHghachDaq ghoS yIchoH (pagh ghoS SamlaHghach vam bIngDaq nav 'aghlu')</translation>
+    </message>
+    <message>
+        <source>Added as %path (the address was cleaned up).</source>
+        <translation>%path rur chellu' (ghoS SamlaHghach Say'moHlu').</translation>
+    </message>
+    <message>
+        <source>Added: %path</source>
+        <translation>chellu': %path</translation>
+    </message>
+    <message>
+        <source>Add the wildcard</source>
+        <translation>wildcard yIchel</translation>
+    </message>
+    <message>
+        <source>Add a wildcard</source>
+        <translation>wildcard yIchel</translation>
+    </message>
+    <message>
+        <source>Every address that matches leads to this page; a * matches the rest of the address.</source>
+        <translation>Hoch ghoS SamlaHghach rapbogh nav vamDaq Dev; ghoS SamlaHghach chuvmey rap *.</translation>
+    </message>
+    <message>
+        <source>Address pattern</source>
+        <translation>ghoS SamlaHghach mIw</translation>
+    </message>
+    <message>
+        <source>URLs</source>
+        <translation>URLmey</translation>
+    </message>
 </context>
 </TS>

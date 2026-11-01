@@ -1463,5 +1463,121 @@
         <source>%n comments wait for moderation</source>
         <translation>%n تبصرا نگراني جي انتظار ۾</translation>
     </message>
+    <message>
+        <source>Give an address on this site, such as /campaign/running.</source>
+        <translation>هن سائيٽ جو هڪ پتو ڏيو، جيئن /campaign/running.</translation>
+    </message>
+    <message>
+        <source>There is no such language.</source>
+        <translation>اهڙي ڪا ٻولي ناهي.</translation>
+    </message>
+    <message>
+        <source>This address is taken already.</source>
+        <translation>هي پتو اڳ ۾ ئي ورتل آهي.</translation>
+    </message>
+    <message>
+        <source>There is a wildcard for this address already.</source>
+        <translation>هن پتي لاءِ اڳ ۾ ئي هڪ وائلڊڪارڊ آهي.</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>پتو</translation>
+    </message>
+    <message>
+        <source>Alias</source>
+        <translation>ٻيو نالو</translation>
+    </message>
+    <message>
+        <source>Old address</source>
+        <translation>پراڻو پتو</translation>
+    </message>
+    <message>
+        <source>Addresses of this page</source>
+        <translation>هن صفحي جا پتا</translation>
+    </message>
+    <message>
+        <source>redirects</source>
+        <translation>ري ڊائريڪٽ ڪري ٿو</translation>
+    </message>
+    <message>
+        <source>Wildcards that lead here</source>
+        <translation>هتي آڻيندڙ وائلڊڪارڊ</translation>
+    </message>
+    <message>
+        <source>No wildcard leads to this page.</source>
+        <translation>ڪو به وائلڊڪارڊ هن صفحي تي نٿو آڻي.</translation>
+    </message>
+    <message>
+        <source>shows this page</source>
+        <translation>هي صفحو ڏيکاري ٿو</translation>
+    </message>
+    <message>
+        <source>Addresses visitors did not find</source>
+        <translation>پتا جيڪي سياحن کي نه مليا</translation>
+    </message>
+    <message>
+        <source>Addresses of this site that answered "not found" and end like this page's address. A redirect sends their visitors here.</source>
+        <translation>هن سائيٽ جا پتا جن "نه مليو" جواب ڏنو ۽ جيڪي هن صفحي جي پتي وانگر ختم ٿين ٿا. ري ڊائريڪٽ انهن جي سياحن کي هتي موڪلي ٿو.</translation>
+    </message>
+    <message>
+        <source>None: no visitor missed this page.</source>
+        <translation>ڪو به نه: ڪنهن سياح کان هي صفحو نه رهيو.</translation>
+    </message>
+    <message>
+        <source>Redirect to this page</source>
+        <translation>هن صفحي تي ري ڊائريڪٽ ڪريو</translation>
+    </message>
+    <message>
+        <source>%path now redirects to this page.</source>
+        <translation>%path هاڻي هن صفحي تي ري ڊائريڪٽ ڪري ٿو.</translation>
+    </message>
+    <message>
+        <source>%n times, last %time</source>
+        <translation>%n ڀيرا، آخري %time</translation>
+    </message>
+    <message>
+        <source>Add the address</source>
+        <translation>پتو شامل ڪريو</translation>
+    </message>
+    <message>
+        <source>Add an address</source>
+        <translation>هڪ پتو شامل ڪريو</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>ٻولي</translation>
+    </message>
+    <message>
+        <source>Redirect to the page's address (otherwise the page is shown under this address)</source>
+        <translation>صفحي جي پتي تي ري ڊائريڪٽ ڪريو (نه ته صفحو هن پتي هيٺ ڏيکاريو ويندو)</translation>
+    </message>
+    <message>
+        <source>Added as %path (the address was cleaned up).</source>
+        <translation>%path طور شامل ڪيو ويو (پتو صاف ڪيو ويو).</translation>
+    </message>
+    <message>
+        <source>Added: %path</source>
+        <translation>شامل ڪيو ويو: %path</translation>
+    </message>
+    <message>
+        <source>Add the wildcard</source>
+        <translation>وائلڊڪارڊ شامل ڪريو</translation>
+    </message>
+    <message>
+        <source>Add a wildcard</source>
+        <translation>هڪ وائلڊڪارڊ شامل ڪريو</translation>
+    </message>
+    <message>
+        <source>Every address that matches leads to this page; a * matches the rest of the address.</source>
+        <translation>ملندڙ هر پتو هن صفحي تي آڻي ٿو؛ * پتي جي باقي حصي سان ملي ٿو.</translation>
+    </message>
+    <message>
+        <source>Address pattern</source>
+        <translation>پتي جو نمونو</translation>
+    </message>
+    <message>
+        <source>URLs</source>
+        <translation>URL</translation>
+    </message>
 </context>
 </TS>

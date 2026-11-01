@@ -1463,5 +1463,121 @@
         <source>%n comments wait for moderation</source>
         <translation>%n 件のコメントがモデレーション待ち</translation>
     </message>
+    <message>
+        <source>Give an address on this site, such as /campaign/running.</source>
+        <translation>このサイトのアドレスを入力してください（例: /campaign/running）。</translation>
+    </message>
+    <message>
+        <source>There is no such language.</source>
+        <translation>そのような言語はありません。</translation>
+    </message>
+    <message>
+        <source>This address is taken already.</source>
+        <translation>このアドレスはすでに使われています。</translation>
+    </message>
+    <message>
+        <source>There is a wildcard for this address already.</source>
+        <translation>このアドレスにはすでにワイルドカードがあります。</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>アドレス</translation>
+    </message>
+    <message>
+        <source>Alias</source>
+        <translation>エイリアス</translation>
+    </message>
+    <message>
+        <source>Old address</source>
+        <translation>旧アドレス</translation>
+    </message>
+    <message>
+        <source>Addresses of this page</source>
+        <translation>このページのアドレス</translation>
+    </message>
+    <message>
+        <source>redirects</source>
+        <translation>リダイレクト</translation>
+    </message>
+    <message>
+        <source>Wildcards that lead here</source>
+        <translation>ここへ導くワイルドカード</translation>
+    </message>
+    <message>
+        <source>No wildcard leads to this page.</source>
+        <translation>このページへ導くワイルドカードはありません。</translation>
+    </message>
+    <message>
+        <source>shows this page</source>
+        <translation>このページを表示</translation>
+    </message>
+    <message>
+        <source>Addresses visitors did not find</source>
+        <translation>訪問者が見つけられなかったアドレス</translation>
+    </message>
+    <message>
+        <source>Addresses of this site that answered "not found" and end like this page's address. A redirect sends their visitors here.</source>
+        <translation>「見つかりません」と応答し、このページのアドレスと同じ末尾を持つこのサイトのアドレス。リダイレクトするとその訪問者をここへ送ります。</translation>
+    </message>
+    <message>
+        <source>None: no visitor missed this page.</source>
+        <translation>なし：このページを見逃した訪問者はいません。</translation>
+    </message>
+    <message>
+        <source>Redirect to this page</source>
+        <translation>このページへリダイレクト</translation>
+    </message>
+    <message>
+        <source>%path now redirects to this page.</source>
+        <translation>%path は現在このページへリダイレクトします。</translation>
+    </message>
+    <message>
+        <source>%n times, last %time</source>
+        <translation>%n 回、最後は %time</translation>
+    </message>
+    <message>
+        <source>Add the address</source>
+        <translation>アドレスを追加</translation>
+    </message>
+    <message>
+        <source>Add an address</source>
+        <translation>アドレスを追加</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>言語</translation>
+    </message>
+    <message>
+        <source>Redirect to the page's address (otherwise the page is shown under this address)</source>
+        <translation>ページのアドレスへリダイレクト（しない場合はこのアドレスでページを表示）</translation>
+    </message>
+    <message>
+        <source>Added as %path (the address was cleaned up).</source>
+        <translation>%path として追加しました（アドレスを整えました）。</translation>
+    </message>
+    <message>
+        <source>Added: %path</source>
+        <translation>追加しました: %path</translation>
+    </message>
+    <message>
+        <source>Add the wildcard</source>
+        <translation>ワイルドカードを追加</translation>
+    </message>
+    <message>
+        <source>Add a wildcard</source>
+        <translation>ワイルドカードを追加</translation>
+    </message>
+    <message>
+        <source>Every address that matches leads to this page; a * matches the rest of the address.</source>
+        <translation>一致するすべてのアドレスがこのページへ導きます。* はアドレスの残りの部分に一致します。</translation>
+    </message>
+    <message>
+        <source>Address pattern</source>
+        <translation>アドレスのパターン</translation>
+    </message>
+    <message>
+        <source>URLs</source>
+        <translation>URL</translation>
+    </message>
 </context>
 </TS>

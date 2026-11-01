@@ -1463,5 +1463,121 @@
         <source>%n comments wait for moderation</source>
         <translation>ৱাখল ফোংদোকপা %n য়েংশিনবা ঙাইরি</translation>
     </message>
+    <message>
+        <source>Give an address on this site, such as /campaign/running.</source>
+        <translation>ৱেবসাইত অসিগী মফম অমা পীবিয়ু, খুদম ওইনা /campaign/running।</translation>
+    </message>
+    <message>
+        <source>There is no such language.</source>
+        <translation>অসুম্বা লোন অমত্তা লৈতে।</translation>
+    </message>
+    <message>
+        <source>This address is taken already.</source>
+        <translation>মফম অসি হান্নদগী লৌখ্রে।</translation>
+    </message>
+    <message>
+        <source>There is a wildcard for this address already.</source>
+        <translation>মফম অসিগীদমক হান্নদগী ৱাইল্ডকার্দ অমা লৈরে।</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>মফম</translation>
+    </message>
+    <message>
+        <source>Alias</source>
+        <translation>মমিং অতোপ্পা</translation>
+    </message>
+    <message>
+        <source>Old address</source>
+        <translation>অরিবা মফম</translation>
+    </message>
+    <message>
+        <source>Addresses of this page</source>
+        <translation>লমায় অসিগী মফমশিং</translation>
+    </message>
+    <message>
+        <source>redirects</source>
+        <translation>হন্দোকই</translation>
+    </message>
+    <message>
+        <source>Wildcards that lead here</source>
+        <translation>মসিদা পুরকপা ৱাইল্ডকার্দশিং</translation>
+    </message>
+    <message>
+        <source>No wildcard leads to this page.</source>
+        <translation>ৱাইল্ডকার্দ অমত্তনা লমায় অসিদা পুরক্তে।</translation>
+    </message>
+    <message>
+        <source>shows this page</source>
+        <translation>লমায় অসি উৎলি</translation>
+    </message>
+    <message>
+        <source>Addresses visitors did not find</source>
+        <translation>লাকপা মীশিংনা ফংদবা মফমশিং</translation>
+    </message>
+    <message>
+        <source>Addresses of this site that answered "not found" and end like this page's address. A redirect sends their visitors here.</source>
+        <translation>"ফংদ্রে" হায়না পাউখুম পীখিবা অমসুং লমায় অসিগী মফমগুম লোইবা ৱেবসাইত অসিগী মফমশিং। হন্দোকপা অমনা মখোয়গী লাকপা মীশিংবু মসিদা থাগনি।</translation>
+    </message>
+    <message>
+        <source>None: no visitor missed this page.</source>
+        <translation>অমত্তা নত্তে: লাকপা মী অমত্তনা লমায় অসি মাংহন্দ্রে।</translation>
+    </message>
+    <message>
+        <source>Redirect to this page</source>
+        <translation>লমায় অসিদা হন্দোকউ</translation>
+    </message>
+    <message>
+        <source>%path now redirects to this page.</source>
+        <translation>%path হৌজিক লমায় অসিদা হন্দোকই।</translation>
+    </message>
+    <message>
+        <source>%n times, last %time</source>
+        <translation>মতম %n, অরোইবা %time</translation>
+    </message>
+    <message>
+        <source>Add the address</source>
+        <translation>মফম হাপচিনবিয়ু</translation>
+    </message>
+    <message>
+        <source>Add an address</source>
+        <translation>মফম অমা হাপচিনবিয়ু</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>লোন</translation>
+    </message>
+    <message>
+        <source>Redirect to the page's address (otherwise the page is shown under this address)</source>
+        <translation>লমায়গী মফমদা হন্দোকউ (নত্রগা লমায় অসি মফম অসিগী মখাদা উৎলগনি)</translation>
+    </message>
+    <message>
+        <source>Added as %path (the address was cleaned up).</source>
+        <translation>%path ওইনা হাপচিনখ্রে (মফম শেংদোকখ্রে)।</translation>
+    </message>
+    <message>
+        <source>Added: %path</source>
+        <translation>হাপচিনখ্রে: %path</translation>
+    </message>
+    <message>
+        <source>Add the wildcard</source>
+        <translation>ৱাইল্ডকার্দ হাপচিনবিয়ু</translation>
+    </message>
+    <message>
+        <source>Add a wildcard</source>
+        <translation>ৱাইল্ডকার্দ অমা হাপচিনবিয়ু</translation>
+    </message>
+    <message>
+        <source>Every address that matches leads to this page; a * matches the rest of the address.</source>
+        <translation>চানবা মফম খুদিংমক লমায় অসিদা পুরক্নি; * না মফমগী অদোম্বা শরুগা চান্নি।</translation>
+    </message>
+    <message>
+        <source>Address pattern</source>
+        <translation>মফমগী মওং</translation>
+    </message>
+    <message>
+        <source>URLs</source>
+        <translation>URLশিং</translation>
+    </message>
 </context>
 </TS>

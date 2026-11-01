@@ -1463,5 +1463,121 @@
         <source>%n comments wait for moderation</source>
         <translation>%n ความคิดเห็นรอการตรวจสอบ</translation>
     </message>
+    <message>
+        <source>Give an address on this site, such as /campaign/running.</source>
+        <translation>ระบุที่อยู่บนไซต์นี้ เช่น /campaign/running</translation>
+    </message>
+    <message>
+        <source>There is no such language.</source>
+        <translation>ไม่มีภาษานั้น</translation>
+    </message>
+    <message>
+        <source>This address is taken already.</source>
+        <translation>ที่อยู่นี้ถูกใช้แล้ว</translation>
+    </message>
+    <message>
+        <source>There is a wildcard for this address already.</source>
+        <translation>มีไวลด์การ์ดสำหรับที่อยู่นี้อยู่แล้ว</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>ที่อยู่</translation>
+    </message>
+    <message>
+        <source>Alias</source>
+        <translation>ชื่อแทน</translation>
+    </message>
+    <message>
+        <source>Old address</source>
+        <translation>ที่อยู่เดิม</translation>
+    </message>
+    <message>
+        <source>Addresses of this page</source>
+        <translation>ที่อยู่ของหน้านี้</translation>
+    </message>
+    <message>
+        <source>redirects</source>
+        <translation>เปลี่ยนเส้นทาง</translation>
+    </message>
+    <message>
+        <source>Wildcards that lead here</source>
+        <translation>ไวลด์การ์ดที่นำมาที่นี่</translation>
+    </message>
+    <message>
+        <source>No wildcard leads to this page.</source>
+        <translation>ไม่มีไวลด์การ์ดใดนำไปยังหน้านี้</translation>
+    </message>
+    <message>
+        <source>shows this page</source>
+        <translation>แสดงหน้านี้</translation>
+    </message>
+    <message>
+        <source>Addresses visitors did not find</source>
+        <translation>ที่อยู่ที่ผู้เยี่ยมชมหาไม่พบ</translation>
+    </message>
+    <message>
+        <source>Addresses of this site that answered "not found" and end like this page's address. A redirect sends their visitors here.</source>
+        <translation>ที่อยู่ของไซต์นี้ที่ตอบว่า "ไม่พบ" และลงท้ายเหมือนที่อยู่ของหน้านี้ การเปลี่ยนเส้นทางจะส่งผู้เยี่ยมชมมาที่นี่</translation>
+    </message>
+    <message>
+        <source>None: no visitor missed this page.</source>
+        <translation>ไม่มี: ไม่มีผู้เยี่ยมชมคนใดพลาดหน้านี้</translation>
+    </message>
+    <message>
+        <source>Redirect to this page</source>
+        <translation>เปลี่ยนเส้นทางมายังหน้านี้</translation>
+    </message>
+    <message>
+        <source>%path now redirects to this page.</source>
+        <translation>ตอนนี้ %path เปลี่ยนเส้นทางมายังหน้านี้</translation>
+    </message>
+    <message>
+        <source>%n times, last %time</source>
+        <translation>%n ครั้ง ล่าสุด %time</translation>
+    </message>
+    <message>
+        <source>Add the address</source>
+        <translation>เพิ่มที่อยู่</translation>
+    </message>
+    <message>
+        <source>Add an address</source>
+        <translation>เพิ่มที่อยู่</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>ภาษา</translation>
+    </message>
+    <message>
+        <source>Redirect to the page's address (otherwise the page is shown under this address)</source>
+        <translation>เปลี่ยนเส้นทางไปยังที่อยู่ของหน้า (มิฉะนั้นจะแสดงหน้าภายใต้ที่อยู่นี้)</translation>
+    </message>
+    <message>
+        <source>Added as %path (the address was cleaned up).</source>
+        <translation>เพิ่มเป็น %path แล้ว (ปรับที่อยู่ให้เรียบร้อย)</translation>
+    </message>
+    <message>
+        <source>Added: %path</source>
+        <translation>เพิ่มแล้ว: %path</translation>
+    </message>
+    <message>
+        <source>Add the wildcard</source>
+        <translation>เพิ่มไวลด์การ์ด</translation>
+    </message>
+    <message>
+        <source>Add a wildcard</source>
+        <translation>เพิ่มไวลด์การ์ด</translation>
+    </message>
+    <message>
+        <source>Every address that matches leads to this page; a * matches the rest of the address.</source>
+        <translation>ทุกที่อยู่ที่ตรงกันจะนำมายังหน้านี้ * ตรงกับส่วนที่เหลือของที่อยู่</translation>
+    </message>
+    <message>
+        <source>Address pattern</source>
+        <translation>รูปแบบที่อยู่</translation>
+    </message>
+    <message>
+        <source>URLs</source>
+        <translation>URL</translation>
+    </message>
 </context>
 </TS>

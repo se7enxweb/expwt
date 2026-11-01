@@ -1463,5 +1463,121 @@
         <source>%n comments wait for moderation</source>
         <translation>%n hozzászólás moderálásra vár</translation>
     </message>
+    <message>
+        <source>Give an address on this site, such as /campaign/running.</source>
+        <translation>Adjon meg egy címet ezen a webhelyen, például /campaign/running.</translation>
+    </message>
+    <message>
+        <source>There is no such language.</source>
+        <translation>Nincs ilyen nyelv.</translation>
+    </message>
+    <message>
+        <source>This address is taken already.</source>
+        <translation>Ez a cím már foglalt.</translation>
+    </message>
+    <message>
+        <source>There is a wildcard for this address already.</source>
+        <translation>Ehhez a címhez már van helyettesítő minta.</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Cím</translation>
+    </message>
+    <message>
+        <source>Alias</source>
+        <translation>Álnév</translation>
+    </message>
+    <message>
+        <source>Old address</source>
+        <translation>Régi cím</translation>
+    </message>
+    <message>
+        <source>Addresses of this page</source>
+        <translation>Az oldal címei</translation>
+    </message>
+    <message>
+        <source>redirects</source>
+        <translation>átirányít</translation>
+    </message>
+    <message>
+        <source>Wildcards that lead here</source>
+        <translation>Ide vezető helyettesítő minták</translation>
+    </message>
+    <message>
+        <source>No wildcard leads to this page.</source>
+        <translation>Egy helyettesítő minta sem vezet erre az oldalra.</translation>
+    </message>
+    <message>
+        <source>shows this page</source>
+        <translation>ezt az oldalt mutatja</translation>
+    </message>
+    <message>
+        <source>Addresses visitors did not find</source>
+        <translation>Címek, amelyeket a látogatók nem találtak</translation>
+    </message>
+    <message>
+        <source>Addresses of this site that answered "not found" and end like this page's address. A redirect sends their visitors here.</source>
+        <translation>A webhely olyan címei, amelyek "nem található" választ adtak, és úgy végződnek, mint ennek az oldalnak a címe. Egy átirányítás ide küldi a látogatóikat.</translation>
+    </message>
+    <message>
+        <source>None: no visitor missed this page.</source>
+        <translation>Nincs: egy látogató sem tévesztette el ezt az oldalt.</translation>
+    </message>
+    <message>
+        <source>Redirect to this page</source>
+        <translation>Átirányítás erre az oldalra</translation>
+    </message>
+    <message>
+        <source>%path now redirects to this page.</source>
+        <translation>%path most erre az oldalra irányít át.</translation>
+    </message>
+    <message>
+        <source>%n times, last %time</source>
+        <translation>%n alkalommal, utoljára %time</translation>
+    </message>
+    <message>
+        <source>Add the address</source>
+        <translation>Cím hozzáadása</translation>
+    </message>
+    <message>
+        <source>Add an address</source>
+        <translation>Cím hozzáadása</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>Nyelv</translation>
+    </message>
+    <message>
+        <source>Redirect to the page's address (otherwise the page is shown under this address)</source>
+        <translation>Átirányítás az oldal címére (különben az oldal ezen a címen jelenik meg)</translation>
+    </message>
+    <message>
+        <source>Added as %path (the address was cleaned up).</source>
+        <translation>Hozzáadva ekként: %path (a cím meg lett tisztítva).</translation>
+    </message>
+    <message>
+        <source>Added: %path</source>
+        <translation>Hozzáadva: %path</translation>
+    </message>
+    <message>
+        <source>Add the wildcard</source>
+        <translation>Helyettesítő minta hozzáadása</translation>
+    </message>
+    <message>
+        <source>Add a wildcard</source>
+        <translation>Helyettesítő minta hozzáadása</translation>
+    </message>
+    <message>
+        <source>Every address that matches leads to this page; a * matches the rest of the address.</source>
+        <translation>Minden illeszkedő cím erre az oldalra vezet; a * a cím többi részére illeszkedik.</translation>
+    </message>
+    <message>
+        <source>Address pattern</source>
+        <translation>Címminta</translation>
+    </message>
+    <message>
+        <source>URLs</source>
+        <translation>URL-ek</translation>
+    </message>
 </context>
 </TS>

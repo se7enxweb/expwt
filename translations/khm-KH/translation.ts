@@ -1463,5 +1463,121 @@
         <source>%n comments wait for moderation</source>
         <translation>មតិ %n កំពុងរង់ចាំការត្រួតពិនិត្យ</translation>
     </message>
+    <message>
+        <source>Give an address on this site, such as /campaign/running.</source>
+        <translation>ផ្ដល់អាសយដ្ឋានមួយនៅលើគេហទំព័រនេះ ដូចជា /campaign/running។</translation>
+    </message>
+    <message>
+        <source>There is no such language.</source>
+        <translation>គ្មានភាសាបែបនេះទេ។</translation>
+    </message>
+    <message>
+        <source>This address is taken already.</source>
+        <translation>អាសយដ្ឋាននេះត្រូវបានយករួចហើយ។</translation>
+    </message>
+    <message>
+        <source>There is a wildcard for this address already.</source>
+        <translation>មាន wildcard សម្រាប់អាសយដ្ឋាននេះរួចហើយ។</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>អាសយដ្ឋាន</translation>
+    </message>
+    <message>
+        <source>Alias</source>
+        <translation>ឈ្មោះក្លែង</translation>
+    </message>
+    <message>
+        <source>Old address</source>
+        <translation>អាសយដ្ឋានចាស់</translation>
+    </message>
+    <message>
+        <source>Addresses of this page</source>
+        <translation>អាសយដ្ឋាននៃទំព័រនេះ</translation>
+    </message>
+    <message>
+        <source>redirects</source>
+        <translation>បញ្ជូនបន្ត</translation>
+    </message>
+    <message>
+        <source>Wildcards that lead here</source>
+        <translation>wildcard ដែលនាំមកទីនេះ</translation>
+    </message>
+    <message>
+        <source>No wildcard leads to this page.</source>
+        <translation>គ្មាន wildcard ណានាំទៅទំព័រនេះទេ។</translation>
+    </message>
+    <message>
+        <source>shows this page</source>
+        <translation>បង្ហាញទំព័រនេះ</translation>
+    </message>
+    <message>
+        <source>Addresses visitors did not find</source>
+        <translation>អាសយដ្ឋានដែលអ្នកទស្សនារកមិនឃើញ</translation>
+    </message>
+    <message>
+        <source>Addresses of this site that answered "not found" and end like this page's address. A redirect sends their visitors here.</source>
+        <translation>អាសយដ្ឋាននៃគេហទំព័រនេះដែលឆ្លើយ "រកមិនឃើញ" ហើយបញ្ចប់ដូចអាសយដ្ឋាននៃទំព័រនេះ។ ការបញ្ជូនបន្តផ្ញើអ្នកទស្សនារបស់វាមកទីនេះ។</translation>
+    </message>
+    <message>
+        <source>None: no visitor missed this page.</source>
+        <translation>គ្មាន៖ គ្មានអ្នកទស្សនាណាខកខានទំព័រនេះទេ។</translation>
+    </message>
+    <message>
+        <source>Redirect to this page</source>
+        <translation>បញ្ជូនបន្តទៅទំព័រនេះ</translation>
+    </message>
+    <message>
+        <source>%path now redirects to this page.</source>
+        <translation>%path ឥឡូវបញ្ជូនបន្តទៅទំព័រនេះ។</translation>
+    </message>
+    <message>
+        <source>%n times, last %time</source>
+        <translation>%n ដង ចុងក្រោយ %time</translation>
+    </message>
+    <message>
+        <source>Add the address</source>
+        <translation>បន្ថែមអាសយដ្ឋាន</translation>
+    </message>
+    <message>
+        <source>Add an address</source>
+        <translation>បន្ថែមអាសយដ្ឋានមួយ</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>ភាសា</translation>
+    </message>
+    <message>
+        <source>Redirect to the page's address (otherwise the page is shown under this address)</source>
+        <translation>បញ្ជូនបន្តទៅអាសយដ្ឋាននៃទំព័រ (បើមិនដូច្នោះ ទំព័របង្ហាញក្រោមអាសយដ្ឋាននេះ)</translation>
+    </message>
+    <message>
+        <source>Added as %path (the address was cleaned up).</source>
+        <translation>បានបន្ថែមជា %path (អាសយដ្ឋានត្រូវបានសម្អាត)។</translation>
+    </message>
+    <message>
+        <source>Added: %path</source>
+        <translation>បានបន្ថែម៖ %path</translation>
+    </message>
+    <message>
+        <source>Add the wildcard</source>
+        <translation>បន្ថែម wildcard</translation>
+    </message>
+    <message>
+        <source>Add a wildcard</source>
+        <translation>បន្ថែម wildcard មួយ</translation>
+    </message>
+    <message>
+        <source>Every address that matches leads to this page; a * matches the rest of the address.</source>
+        <translation>អាសយដ្ឋានដែលត្រូវគ្នានីមួយៗនាំទៅទំព័រនេះ; * ត្រូវគ្នានឹងផ្នែកដែលនៅសល់នៃអាសយដ្ឋាន។</translation>
+    </message>
+    <message>
+        <source>Address pattern</source>
+        <translation>លំនាំអាសយដ្ឋាន</translation>
+    </message>
+    <message>
+        <source>URLs</source>
+        <translation>URL</translation>
+    </message>
 </context>
 </TS>

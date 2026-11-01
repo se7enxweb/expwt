@@ -1463,5 +1463,121 @@
         <source>%n comments wait for moderation</source>
         <translation>%n коментара чека модерацију</translation>
     </message>
+    <message>
+        <source>Give an address on this site, such as /campaign/running.</source>
+        <translation>Наведите адресу на овом сајту, нпр. /campaign/running.</translation>
+    </message>
+    <message>
+        <source>There is no such language.</source>
+        <translation>Такав језик не постоји.</translation>
+    </message>
+    <message>
+        <source>This address is taken already.</source>
+        <translation>Ова адреса је већ заузета.</translation>
+    </message>
+    <message>
+        <source>There is a wildcard for this address already.</source>
+        <translation>За ову адресу већ постоји џокер.</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Адреса</translation>
+    </message>
+    <message>
+        <source>Alias</source>
+        <translation>Алијас</translation>
+    </message>
+    <message>
+        <source>Old address</source>
+        <translation>Стара адреса</translation>
+    </message>
+    <message>
+        <source>Addresses of this page</source>
+        <translation>Адресе ове странице</translation>
+    </message>
+    <message>
+        <source>redirects</source>
+        <translation>преусмерава</translation>
+    </message>
+    <message>
+        <source>Wildcards that lead here</source>
+        <translation>Џокери који воде овде</translation>
+    </message>
+    <message>
+        <source>No wildcard leads to this page.</source>
+        <translation>Ниједан џокер не води на ову страницу.</translation>
+    </message>
+    <message>
+        <source>shows this page</source>
+        <translation>приказује ову страницу</translation>
+    </message>
+    <message>
+        <source>Addresses visitors did not find</source>
+        <translation>Адресе које посетиоци нису пронашли</translation>
+    </message>
+    <message>
+        <source>Addresses of this site that answered "not found" and end like this page's address. A redirect sends their visitors here.</source>
+        <translation>Адресе овог сајта које су одговориле "није пронађено" и завршавају се као адреса ове странице. Преусмеравање шаље њихове посетиоце овде.</translation>
+    </message>
+    <message>
+        <source>None: no visitor missed this page.</source>
+        <translation>Ниједна: ниједан посетилац није промашио ову страницу.</translation>
+    </message>
+    <message>
+        <source>Redirect to this page</source>
+        <translation>Преусмери на ову страницу</translation>
+    </message>
+    <message>
+        <source>%path now redirects to this page.</source>
+        <translation>%path сада преусмерава на ову страницу.</translation>
+    </message>
+    <message>
+        <source>%n times, last %time</source>
+        <translation>%n пута, последњи пут %time</translation>
+    </message>
+    <message>
+        <source>Add the address</source>
+        <translation>Додај адресу</translation>
+    </message>
+    <message>
+        <source>Add an address</source>
+        <translation>Додај адресу</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>Језик</translation>
+    </message>
+    <message>
+        <source>Redirect to the page's address (otherwise the page is shown under this address)</source>
+        <translation>Преусмери на адресу странице (иначе се страница приказује под овом адресом)</translation>
+    </message>
+    <message>
+        <source>Added as %path (the address was cleaned up).</source>
+        <translation>Додато као %path (адреса је очишћена).</translation>
+    </message>
+    <message>
+        <source>Added: %path</source>
+        <translation>Додато: %path</translation>
+    </message>
+    <message>
+        <source>Add the wildcard</source>
+        <translation>Додај џокер</translation>
+    </message>
+    <message>
+        <source>Add a wildcard</source>
+        <translation>Додај џокер</translation>
+    </message>
+    <message>
+        <source>Every address that matches leads to this page; a * matches the rest of the address.</source>
+        <translation>Свака одговарајућа адреса води на ову страницу; * одговара остатку адресе.</translation>
+    </message>
+    <message>
+        <source>Address pattern</source>
+        <translation>Образац адресе</translation>
+    </message>
+    <message>
+        <source>URLs</source>
+        <translation>URL адресе</translation>
+    </message>
 </context>
 </TS>

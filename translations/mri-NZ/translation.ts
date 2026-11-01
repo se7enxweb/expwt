@@ -1463,5 +1463,121 @@
         <source>%n comments wait for moderation</source>
         <translation>%n kōrero tāpiri e tatari ana kia arotakea</translation>
     </message>
+    <message>
+        <source>Give an address on this site, such as /campaign/running.</source>
+        <translation>Hoatu he wāhitau i tēnei pae, pērā i /campaign/running.</translation>
+    </message>
+    <message>
+        <source>There is no such language.</source>
+        <translation>Kāore he reo pērā.</translation>
+    </message>
+    <message>
+        <source>This address is taken already.</source>
+        <translation>Kua tangohia kētia tēnei wāhitau.</translation>
+    </message>
+    <message>
+        <source>There is a wildcard for this address already.</source>
+        <translation>Kua whai kē he tohu kāri mohoao mō tēnei wāhitau.</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Wāhitau</translation>
+    </message>
+    <message>
+        <source>Alias</source>
+        <translation>Ingoa kē</translation>
+    </message>
+    <message>
+        <source>Old address</source>
+        <translation>Wāhitau tawhito</translation>
+    </message>
+    <message>
+        <source>Addresses of this page</source>
+        <translation>Ngā wāhitau o tēnei whārangi</translation>
+    </message>
+    <message>
+        <source>redirects</source>
+        <translation>ka tuku anō</translation>
+    </message>
+    <message>
+        <source>Wildcards that lead here</source>
+        <translation>Ngā tohu kāri mohoao e arahi mai ana ki konei</translation>
+    </message>
+    <message>
+        <source>No wildcard leads to this page.</source>
+        <translation>Kāore he tohu kāri mohoao e arahi ana ki tēnei whārangi.</translation>
+    </message>
+    <message>
+        <source>shows this page</source>
+        <translation>ka whakaatu i tēnei whārangi</translation>
+    </message>
+    <message>
+        <source>Addresses visitors did not find</source>
+        <translation>Ngā wāhitau kāore i kitea e ngā manuhiri</translation>
+    </message>
+    <message>
+        <source>Addresses of this site that answered "not found" and end like this page's address. A redirect sends their visitors here.</source>
+        <translation>Ngā wāhitau o tēnei pae i whakautu "kāore i kitea", ā, ka mutu pērā i te wāhitau o tēnei whārangi. Mā te tuku anō e tuku ō rātou manuhiri ki konei.</translation>
+    </message>
+    <message>
+        <source>None: no visitor missed this page.</source>
+        <translation>Kāore: kāore he manuhiri i ngaro i a ia tēnei whārangi.</translation>
+    </message>
+    <message>
+        <source>Redirect to this page</source>
+        <translation>Tuku anō ki tēnei whārangi</translation>
+    </message>
+    <message>
+        <source>%path now redirects to this page.</source>
+        <translation>Ka tuku anō a %path ki tēnei whārangi ināianei.</translation>
+    </message>
+    <message>
+        <source>%n times, last %time</source>
+        <translation>%n wā, te mea whakamutunga %time</translation>
+    </message>
+    <message>
+        <source>Add the address</source>
+        <translation>Tāpiri i te wāhitau</translation>
+    </message>
+    <message>
+        <source>Add an address</source>
+        <translation>Tāpiri i tētahi wāhitau</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>Reo</translation>
+    </message>
+    <message>
+        <source>Redirect to the page's address (otherwise the page is shown under this address)</source>
+        <translation>Tuku anō ki te wāhitau o te whārangi (ki te kore, ka whakaaturia te whārangi i raro i tēnei wāhitau)</translation>
+    </message>
+    <message>
+        <source>Added as %path (the address was cleaned up).</source>
+        <translation>Kua tāpirihia hei %path (kua whakapaitia te wāhitau).</translation>
+    </message>
+    <message>
+        <source>Added: %path</source>
+        <translation>Kua tāpirihia: %path</translation>
+    </message>
+    <message>
+        <source>Add the wildcard</source>
+        <translation>Tāpiri i te tohu kāri mohoao</translation>
+    </message>
+    <message>
+        <source>Add a wildcard</source>
+        <translation>Tāpiri i tētahi tohu kāri mohoao</translation>
+    </message>
+    <message>
+        <source>Every address that matches leads to this page; a * matches the rest of the address.</source>
+        <translation>Ka arahi ia wāhitau ōrite ki tēnei whārangi; ka ōrite te * ki te toenga o te wāhitau.</translation>
+    </message>
+    <message>
+        <source>Address pattern</source>
+        <translation>Tauira wāhitau</translation>
+    </message>
+    <message>
+        <source>URLs</source>
+        <translation>Ngā URL</translation>
+    </message>
 </context>
 </TS>

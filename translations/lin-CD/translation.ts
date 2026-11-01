@@ -1463,5 +1463,121 @@
         <source>%n comments wait for moderation</source>
         <translation>Makanisi %n ezali kozela botaleli</translation>
     </message>
+    <message>
+        <source>Give an address on this site, such as /campaign/running.</source>
+        <translation>Pesá adrɛsi moko na site oyo, lokola /campaign/running.</translation>
+    </message>
+    <message>
+        <source>There is no such language.</source>
+        <translation>Lokóta ya ndenge wana ezali te.</translation>
+    </message>
+    <message>
+        <source>This address is taken already.</source>
+        <translation>Adrɛsi oyo esili kozwama.</translation>
+    </message>
+    <message>
+        <source>There is a wildcard for this address already.</source>
+        <translation>Wildcard ezali kala mpo na adrɛsi oyo.</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Adrɛsi</translation>
+    </message>
+    <message>
+        <source>Alias</source>
+        <translation>Nkombo mosusu</translation>
+    </message>
+    <message>
+        <source>Old address</source>
+        <translation>Adrɛsi ya kala</translation>
+    </message>
+    <message>
+        <source>Addresses of this page</source>
+        <translation>Ba adrɛsi ya lokasa oyo</translation>
+    </message>
+    <message>
+        <source>redirects</source>
+        <translation>ezongisaka</translation>
+    </message>
+    <message>
+        <source>Wildcards that lead here</source>
+        <translation>Ba wildcard oyo ememaka awa</translation>
+    </message>
+    <message>
+        <source>No wildcard leads to this page.</source>
+        <translation>Wildcard moko te ememaka na lokasa oyo.</translation>
+    </message>
+    <message>
+        <source>shows this page</source>
+        <translation>emonisaka lokasa oyo</translation>
+    </message>
+    <message>
+        <source>Addresses visitors did not find</source>
+        <translation>Ba adrɛsi oyo bapaya bamonaki te</translation>
+    </message>
+    <message>
+        <source>Addresses of this site that answered "not found" and end like this page's address. A redirect sends their visitors here.</source>
+        <translation>Ba adrɛsi ya site oyo oyo ezongisaki "emonani te" mpe esilaka lokola adrɛsi ya lokasa oyo. Bozongisi etindaka bapaya na yango awa.</translation>
+    </message>
+    <message>
+        <source>None: no visitor missed this page.</source>
+        <translation>Moko te: mopaya moko te azangaki lokasa oyo.</translation>
+    </message>
+    <message>
+        <source>Redirect to this page</source>
+        <translation>Zongisa na lokasa oyo</translation>
+    </message>
+    <message>
+        <source>%path now redirects to this page.</source>
+        <translation>%path sikoyo ezongisaka na lokasa oyo.</translation>
+    </message>
+    <message>
+        <source>%n times, last %time</source>
+        <translation>Mbala %n, ya nsuka %time</translation>
+    </message>
+    <message>
+        <source>Add the address</source>
+        <translation>Bakisá adrɛsi</translation>
+    </message>
+    <message>
+        <source>Add an address</source>
+        <translation>Bakisá adrɛsi moko</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>Lokóta</translation>
+    </message>
+    <message>
+        <source>Redirect to the page's address (otherwise the page is shown under this address)</source>
+        <translation>Zongisa na adrɛsi ya lokasa (soki te lokasa emonisami na nse ya adrɛsi oyo)</translation>
+    </message>
+    <message>
+        <source>Added as %path (the address was cleaned up).</source>
+        <translation>Ebakisami lokola %path (adrɛsi epetolami).</translation>
+    </message>
+    <message>
+        <source>Added: %path</source>
+        <translation>Ebakisami: %path</translation>
+    </message>
+    <message>
+        <source>Add the wildcard</source>
+        <translation>Bakisá wildcard</translation>
+    </message>
+    <message>
+        <source>Add a wildcard</source>
+        <translation>Bakisá wildcard moko</translation>
+    </message>
+    <message>
+        <source>Every address that matches leads to this page; a * matches the rest of the address.</source>
+        <translation>Adrɛsi nyonso oyo ekokani ememaka na lokasa oyo; * ekokani na oyo etikali na adrɛsi.</translation>
+    </message>
+    <message>
+        <source>Address pattern</source>
+        <translation>Motindo ya adrɛsi</translation>
+    </message>
+    <message>
+        <source>URLs</source>
+        <translation>Ba URL</translation>
+    </message>
 </context>
 </TS>

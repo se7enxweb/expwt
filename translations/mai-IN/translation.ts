@@ -1463,5 +1463,121 @@
         <source>%n comments wait for moderation</source>
         <translation>%n टिप्पणी मॉडरेशनक प्रतीक्षामे</translation>
     </message>
+    <message>
+        <source>Give an address on this site, such as /campaign/running.</source>
+        <translation>एहि साइटक एकटा पता दिअ, जेना /campaign/running।</translation>
+    </message>
+    <message>
+        <source>There is no such language.</source>
+        <translation>एहन कोनो भाषा नहि अछि।</translation>
+    </message>
+    <message>
+        <source>This address is taken already.</source>
+        <translation>ई पता पहिनहि लेल जा चुकल अछि।</translation>
+    </message>
+    <message>
+        <source>There is a wildcard for this address already.</source>
+        <translation>एहि पता लेल पहिनहि एकटा वाइल्डकार्ड अछि।</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>पता</translation>
+    </message>
+    <message>
+        <source>Alias</source>
+        <translation>उपनाम</translation>
+    </message>
+    <message>
+        <source>Old address</source>
+        <translation>पुरान पता</translation>
+    </message>
+    <message>
+        <source>Addresses of this page</source>
+        <translation>एहि पन्नाक पता</translation>
+    </message>
+    <message>
+        <source>redirects</source>
+        <translation>रीडायरेक्ट करैत अछि</translation>
+    </message>
+    <message>
+        <source>Wildcards that lead here</source>
+        <translation>एतय आनयवला वाइल्डकार्ड</translation>
+    </message>
+    <message>
+        <source>No wildcard leads to this page.</source>
+        <translation>कोनो वाइल्डकार्ड एहि पन्ना पर नहि आनैत अछि।</translation>
+    </message>
+    <message>
+        <source>shows this page</source>
+        <translation>ई पन्ना देखबैत अछि</translation>
+    </message>
+    <message>
+        <source>Addresses visitors did not find</source>
+        <translation>पता जे आगंतुककेँ नहि भेटल</translation>
+    </message>
+    <message>
+        <source>Addresses of this site that answered "not found" and end like this page's address. A redirect sends their visitors here.</source>
+        <translation>एहि साइटक पता जे "नहि भेटल" उत्तर देलक आ एहि पन्नाक पता जकाँ समाप्त होइत अछि। रीडायरेक्ट ओकर आगंतुककेँ एतय पठबैत अछि।</translation>
+    </message>
+    <message>
+        <source>None: no visitor missed this page.</source>
+        <translation>कोनो नहि: कोनो आगंतुकसँ ई पन्ना नहि छुटल।</translation>
+    </message>
+    <message>
+        <source>Redirect to this page</source>
+        <translation>एहि पन्ना पर रीडायरेक्ट करू</translation>
+    </message>
+    <message>
+        <source>%path now redirects to this page.</source>
+        <translation>%path आब एहि पन्ना पर रीडायरेक्ट करैत अछि।</translation>
+    </message>
+    <message>
+        <source>%n times, last %time</source>
+        <translation>%n बेर, अंतिम %time</translation>
+    </message>
+    <message>
+        <source>Add the address</source>
+        <translation>पता जोड़ू</translation>
+    </message>
+    <message>
+        <source>Add an address</source>
+        <translation>एकटा पता जोड़ू</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>भाषा</translation>
+    </message>
+    <message>
+        <source>Redirect to the page's address (otherwise the page is shown under this address)</source>
+        <translation>पन्नाक पता पर रीडायरेक्ट करू (नहि तँ पन्ना एहि पता पर देखाओल जाइत अछि)</translation>
+    </message>
+    <message>
+        <source>Added as %path (the address was cleaned up).</source>
+        <translation>%path क रूपमे जोड़ल गेल (पता साफ कएल गेल)।</translation>
+    </message>
+    <message>
+        <source>Added: %path</source>
+        <translation>जोड़ल गेल: %path</translation>
+    </message>
+    <message>
+        <source>Add the wildcard</source>
+        <translation>वाइल्डकार्ड जोड़ू</translation>
+    </message>
+    <message>
+        <source>Add a wildcard</source>
+        <translation>एकटा वाइल्डकार्ड जोड़ू</translation>
+    </message>
+    <message>
+        <source>Every address that matches leads to this page; a * matches the rest of the address.</source>
+        <translation>मेल खाइवला सभ पता एहि पन्ना पर अनैत अछि; * पताक शेष भागसँ मेल खाइत अछि।</translation>
+    </message>
+    <message>
+        <source>Address pattern</source>
+        <translation>पताक पैटर्न</translation>
+    </message>
+    <message>
+        <source>URLs</source>
+        <translation>URL</translation>
+    </message>
 </context>
 </TS>

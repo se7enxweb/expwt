@@ -1463,5 +1463,121 @@
         <source>%n comments wait for moderation</source>
         <translation>Sharhohi %n suna jiran daidaitawa</translation>
     </message>
+    <message>
+        <source>Give an address on this site, such as /campaign/running.</source>
+        <translation>Ba da adireshi a wannan shafin yanar gizo, kamar /campaign/running.</translation>
+    </message>
+    <message>
+        <source>There is no such language.</source>
+        <translation>Babu irin wannan harshe.</translation>
+    </message>
+    <message>
+        <source>This address is taken already.</source>
+        <translation>An riga an ɗauki wannan adireshin.</translation>
+    </message>
+    <message>
+        <source>There is a wildcard for this address already.</source>
+        <translation>Akwai wildcard na wannan adireshin tuni.</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Adireshi</translation>
+    </message>
+    <message>
+        <source>Alias</source>
+        <translation>Laƙabi</translation>
+    </message>
+    <message>
+        <source>Old address</source>
+        <translation>Tsohon adireshi</translation>
+    </message>
+    <message>
+        <source>Addresses of this page</source>
+        <translation>Adiresoshin wannan shafi</translation>
+    </message>
+    <message>
+        <source>redirects</source>
+        <translation>yana karkatarwa</translation>
+    </message>
+    <message>
+        <source>Wildcards that lead here</source>
+        <translation>Wildcards da ke kawowa nan</translation>
+    </message>
+    <message>
+        <source>No wildcard leads to this page.</source>
+        <translation>Babu wildcard da ke kai wa wannan shafi.</translation>
+    </message>
+    <message>
+        <source>shows this page</source>
+        <translation>yana nuna wannan shafi</translation>
+    </message>
+    <message>
+        <source>Addresses visitors did not find</source>
+        <translation>Adiresoshin da baƙi ba su samu ba</translation>
+    </message>
+    <message>
+        <source>Addresses of this site that answered "not found" and end like this page's address. A redirect sends their visitors here.</source>
+        <translation>Adiresoshin wannan shafin yanar gizo da suka amsa "ba a samu ba" kuma suke ƙarewa kamar adireshin wannan shafi. Karkatarwa tana aika baƙinsu nan.</translation>
+    </message>
+    <message>
+        <source>None: no visitor missed this page.</source>
+        <translation>Babu: babu baƙon da ya rasa wannan shafi.</translation>
+    </message>
+    <message>
+        <source>Redirect to this page</source>
+        <translation>Karkatar zuwa wannan shafi</translation>
+    </message>
+    <message>
+        <source>%path now redirects to this page.</source>
+        <translation>%path yanzu yana karkatarwa zuwa wannan shafi.</translation>
+    </message>
+    <message>
+        <source>%n times, last %time</source>
+        <translation>Sau %n, na ƙarshe %time</translation>
+    </message>
+    <message>
+        <source>Add the address</source>
+        <translation>Ƙara adireshin</translation>
+    </message>
+    <message>
+        <source>Add an address</source>
+        <translation>Ƙara adireshi</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>Harshe</translation>
+    </message>
+    <message>
+        <source>Redirect to the page's address (otherwise the page is shown under this address)</source>
+        <translation>Karkatar zuwa adireshin shafin (in ba haka ba ana nuna shafin a ƙarƙashin wannan adireshin)</translation>
+    </message>
+    <message>
+        <source>Added as %path (the address was cleaned up).</source>
+        <translation>An ƙara a matsayin %path (an tsabtace adireshin).</translation>
+    </message>
+    <message>
+        <source>Added: %path</source>
+        <translation>An ƙara: %path</translation>
+    </message>
+    <message>
+        <source>Add the wildcard</source>
+        <translation>Ƙara wildcard ɗin</translation>
+    </message>
+    <message>
+        <source>Add a wildcard</source>
+        <translation>Ƙara wildcard</translation>
+    </message>
+    <message>
+        <source>Every address that matches leads to this page; a * matches the rest of the address.</source>
+        <translation>Kowane adireshi da ya dace yana kai wa wannan shafi; * yana dacewa da sauran adireshin.</translation>
+    </message>
+    <message>
+        <source>Address pattern</source>
+        <translation>Tsarin adireshi</translation>
+    </message>
+    <message>
+        <source>URLs</source>
+        <translation>URLs</translation>
+    </message>
 </context>
 </TS>

@@ -1463,5 +1463,121 @@
         <source>%n comments wait for moderation</source>
         <translation>%n commentaria moderationem exspectant</translation>
     </message>
+    <message>
+        <source>Give an address on this site, such as /campaign/running.</source>
+        <translation>Da inscriptionem huius situs, ut /campaign/running.</translation>
+    </message>
+    <message>
+        <source>There is no such language.</source>
+        <translation>Talis lingua non est.</translation>
+    </message>
+    <message>
+        <source>This address is taken already.</source>
+        <translation>Haec inscriptio iam occupata est.</translation>
+    </message>
+    <message>
+        <source>There is a wildcard for this address already.</source>
+        <translation>Iam est character generalis huic inscriptioni.</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Inscriptio</translation>
+    </message>
+    <message>
+        <source>Alias</source>
+        <translation>Cognomen</translation>
+    </message>
+    <message>
+        <source>Old address</source>
+        <translation>Inscriptio vetus</translation>
+    </message>
+    <message>
+        <source>Addresses of this page</source>
+        <translation>Inscriptiones huius paginae</translation>
+    </message>
+    <message>
+        <source>redirects</source>
+        <translation>redirigit</translation>
+    </message>
+    <message>
+        <source>Wildcards that lead here</source>
+        <translation>Characteres generales qui huc ducunt</translation>
+    </message>
+    <message>
+        <source>No wildcard leads to this page.</source>
+        <translation>Nullus character generalis ad hanc paginam ducit.</translation>
+    </message>
+    <message>
+        <source>shows this page</source>
+        <translation>hanc paginam ostendit</translation>
+    </message>
+    <message>
+        <source>Addresses visitors did not find</source>
+        <translation>Inscriptiones quas visitatores non invenerunt</translation>
+    </message>
+    <message>
+        <source>Addresses of this site that answered "not found" and end like this page's address. A redirect sends their visitors here.</source>
+        <translation>Inscriptiones huius situs quae "non inventum" responderunt et ut inscriptio huius paginae desinunt. Redirectio visitatores earum huc mittit.</translation>
+    </message>
+    <message>
+        <source>None: no visitor missed this page.</source>
+        <translation>Nullae: nullus visitator hanc paginam praetermisit.</translation>
+    </message>
+    <message>
+        <source>Redirect to this page</source>
+        <translation>Ad hanc paginam redirige</translation>
+    </message>
+    <message>
+        <source>%path now redirects to this page.</source>
+        <translation>%path nunc ad hanc paginam redirigit.</translation>
+    </message>
+    <message>
+        <source>%n times, last %time</source>
+        <translation>%n vicibus, ultimum %time</translation>
+    </message>
+    <message>
+        <source>Add the address</source>
+        <translation>Inscriptionem adde</translation>
+    </message>
+    <message>
+        <source>Add an address</source>
+        <translation>Inscriptionem adde</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>Lingua</translation>
+    </message>
+    <message>
+        <source>Redirect to the page's address (otherwise the page is shown under this address)</source>
+        <translation>Ad inscriptionem paginae redirige (aliter pagina sub hac inscriptione ostenditur)</translation>
+    </message>
+    <message>
+        <source>Added as %path (the address was cleaned up).</source>
+        <translation>Addita ut %path (inscriptio purgata est).</translation>
+    </message>
+    <message>
+        <source>Added: %path</source>
+        <translation>Addita: %path</translation>
+    </message>
+    <message>
+        <source>Add the wildcard</source>
+        <translation>Characterem generalem adde</translation>
+    </message>
+    <message>
+        <source>Add a wildcard</source>
+        <translation>Characterem generalem adde</translation>
+    </message>
+    <message>
+        <source>Every address that matches leads to this page; a * matches the rest of the address.</source>
+        <translation>Omnis inscriptio congruens ad hanc paginam ducit; * reliquae inscriptioni congruit.</translation>
+    </message>
+    <message>
+        <source>Address pattern</source>
+        <translation>Forma inscriptionis</translation>
+    </message>
+    <message>
+        <source>URLs</source>
+        <translation>URL</translation>
+    </message>
 </context>
 </TS>

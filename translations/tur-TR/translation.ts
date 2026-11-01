@@ -1463,5 +1463,121 @@
         <source>%n comments wait for moderation</source>
         <translation>%n yorum denetim bekliyor</translation>
     </message>
+    <message>
+        <source>Give an address on this site, such as /campaign/running.</source>
+        <translation>Bu sitede bir adres verin, örneğin /campaign/running.</translation>
+    </message>
+    <message>
+        <source>There is no such language.</source>
+        <translation>Böyle bir dil yok.</translation>
+    </message>
+    <message>
+        <source>This address is taken already.</source>
+        <translation>Bu adres zaten alınmış.</translation>
+    </message>
+    <message>
+        <source>There is a wildcard for this address already.</source>
+        <translation>Bu adres için zaten bir joker var.</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Adres</translation>
+    </message>
+    <message>
+        <source>Alias</source>
+        <translation>Takma ad</translation>
+    </message>
+    <message>
+        <source>Old address</source>
+        <translation>Eski adres</translation>
+    </message>
+    <message>
+        <source>Addresses of this page</source>
+        <translation>Bu sayfanın adresleri</translation>
+    </message>
+    <message>
+        <source>redirects</source>
+        <translation>yönlendirir</translation>
+    </message>
+    <message>
+        <source>Wildcards that lead here</source>
+        <translation>Buraya götüren jokerler</translation>
+    </message>
+    <message>
+        <source>No wildcard leads to this page.</source>
+        <translation>Hiçbir joker bu sayfaya götürmüyor.</translation>
+    </message>
+    <message>
+        <source>shows this page</source>
+        <translation>bu sayfayı gösterir</translation>
+    </message>
+    <message>
+        <source>Addresses visitors did not find</source>
+        <translation>Ziyaretçilerin bulamadığı adresler</translation>
+    </message>
+    <message>
+        <source>Addresses of this site that answered "not found" and end like this page's address. A redirect sends their visitors here.</source>
+        <translation>Bu sitenin "bulunamadı" yanıtı veren ve bu sayfanın adresi gibi biten adresleri. Bir yönlendirme ziyaretçilerini buraya gönderir.</translation>
+    </message>
+    <message>
+        <source>None: no visitor missed this page.</source>
+        <translation>Yok: hiçbir ziyaretçi bu sayfayı kaçırmadı.</translation>
+    </message>
+    <message>
+        <source>Redirect to this page</source>
+        <translation>Bu sayfaya yönlendir</translation>
+    </message>
+    <message>
+        <source>%path now redirects to this page.</source>
+        <translation>%path artık bu sayfaya yönlendiriyor.</translation>
+    </message>
+    <message>
+        <source>%n times, last %time</source>
+        <translation>%n kez, son %time</translation>
+    </message>
+    <message>
+        <source>Add the address</source>
+        <translation>Adresi ekle</translation>
+    </message>
+    <message>
+        <source>Add an address</source>
+        <translation>Adres ekle</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>Dil</translation>
+    </message>
+    <message>
+        <source>Redirect to the page's address (otherwise the page is shown under this address)</source>
+        <translation>Sayfanın adresine yönlendir (aksi halde sayfa bu adreste gösterilir)</translation>
+    </message>
+    <message>
+        <source>Added as %path (the address was cleaned up).</source>
+        <translation>%path olarak eklendi (adres temizlendi).</translation>
+    </message>
+    <message>
+        <source>Added: %path</source>
+        <translation>Eklendi: %path</translation>
+    </message>
+    <message>
+        <source>Add the wildcard</source>
+        <translation>Jokeri ekle</translation>
+    </message>
+    <message>
+        <source>Add a wildcard</source>
+        <translation>Joker ekle</translation>
+    </message>
+    <message>
+        <source>Every address that matches leads to this page; a * matches the rest of the address.</source>
+        <translation>Eşleşen her adres bu sayfaya götürür; * adresin geri kalanıyla eşleşir.</translation>
+    </message>
+    <message>
+        <source>Address pattern</source>
+        <translation>Adres kalıbı</translation>
+    </message>
+    <message>
+        <source>URLs</source>
+        <translation>URL'ler</translation>
+    </message>
 </context>
 </TS>

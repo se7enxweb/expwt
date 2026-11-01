@@ -1463,5 +1463,121 @@
         <source>%n comments wait for moderation</source>
         <translation>%n ಕಾಮೆಂಟ್‌ಗಳು ಮಾಡರೇಶನ್‌ಗಾಗಿ ಕಾಯುತ್ತಿವೆ</translation>
     </message>
+    <message>
+        <source>Give an address on this site, such as /campaign/running.</source>
+        <translation>ಈ ಸೈಟ್‌ನ ಒಂದು ವಿಳಾಸ ನೀಡಿ, ಉದಾ /campaign/running.</translation>
+    </message>
+    <message>
+        <source>There is no such language.</source>
+        <translation>ಅಂತಹ ಭಾಷೆ ಇಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>This address is taken already.</source>
+        <translation>ಈ ವಿಳಾಸವನ್ನು ಈಗಾಗಲೇ ಬಳಸಲಾಗಿದೆ.</translation>
+    </message>
+    <message>
+        <source>There is a wildcard for this address already.</source>
+        <translation>ಈ ವಿಳಾಸಕ್ಕೆ ಈಗಾಗಲೇ ವೈಲ್ಡ್‌ಕಾರ್ಡ್ ಇದೆ.</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>ವಿಳಾಸ</translation>
+    </message>
+    <message>
+        <source>Alias</source>
+        <translation>ಉಪನಾಮ</translation>
+    </message>
+    <message>
+        <source>Old address</source>
+        <translation>ಹಳೆಯ ವಿಳಾಸ</translation>
+    </message>
+    <message>
+        <source>Addresses of this page</source>
+        <translation>ಈ ಪುಟದ ವಿಳಾಸಗಳು</translation>
+    </message>
+    <message>
+        <source>redirects</source>
+        <translation>ಮರುನಿರ್ದೇಶಿಸುತ್ತದೆ</translation>
+    </message>
+    <message>
+        <source>Wildcards that lead here</source>
+        <translation>ಇಲ್ಲಿಗೆ ಕರೆತರುವ ವೈಲ್ಡ್‌ಕಾರ್ಡ್‌ಗಳು</translation>
+    </message>
+    <message>
+        <source>No wildcard leads to this page.</source>
+        <translation>ಯಾವುದೇ ವೈಲ್ಡ್‌ಕಾರ್ಡ್ ಈ ಪುಟಕ್ಕೆ ಕರೆತರುವುದಿಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>shows this page</source>
+        <translation>ಈ ಪುಟವನ್ನು ತೋರಿಸುತ್ತದೆ</translation>
+    </message>
+    <message>
+        <source>Addresses visitors did not find</source>
+        <translation>ಸಂದರ್ಶಕರಿಗೆ ಸಿಗದ ವಿಳಾಸಗಳು</translation>
+    </message>
+    <message>
+        <source>Addresses of this site that answered "not found" and end like this page's address. A redirect sends their visitors here.</source>
+        <translation>"ಸಿಗಲಿಲ್ಲ" ಎಂದು ಉತ್ತರಿಸಿದ ಮತ್ತು ಈ ಪುಟದ ವಿಳಾಸದಂತೆ ಕೊನೆಗೊಳ್ಳುವ ಈ ಸೈಟ್‌ನ ವಿಳಾಸಗಳು. ಮರುನಿರ್ದೇಶನವು ಅವರ ಸಂದರ್ಶಕರನ್ನು ಇಲ್ಲಿಗೆ ಕಳುಹಿಸುತ್ತದೆ.</translation>
+    </message>
+    <message>
+        <source>None: no visitor missed this page.</source>
+        <translation>ಯಾವುದೂ ಇಲ್ಲ: ಯಾವ ಸಂದರ್ಶಕರೂ ಈ ಪುಟವನ್ನು ತಪ್ಪಿಸಿಕೊಂಡಿಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>Redirect to this page</source>
+        <translation>ಈ ಪುಟಕ್ಕೆ ಮರುನಿರ್ದೇಶಿಸಿ</translation>
+    </message>
+    <message>
+        <source>%path now redirects to this page.</source>
+        <translation>%path ಈಗ ಈ ಪುಟಕ್ಕೆ ಮರುನಿರ್ದೇಶಿಸುತ್ತದೆ.</translation>
+    </message>
+    <message>
+        <source>%n times, last %time</source>
+        <translation>%n ಬಾರಿ, ಕೊನೆಯದು %time</translation>
+    </message>
+    <message>
+        <source>Add the address</source>
+        <translation>ವಿಳಾಸವನ್ನು ಸೇರಿಸಿ</translation>
+    </message>
+    <message>
+        <source>Add an address</source>
+        <translation>ಒಂದು ವಿಳಾಸ ಸೇರಿಸಿ</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>ಭಾಷೆ</translation>
+    </message>
+    <message>
+        <source>Redirect to the page's address (otherwise the page is shown under this address)</source>
+        <translation>ಪುಟದ ವಿಳಾಸಕ್ಕೆ ಮರುನಿರ್ದೇಶಿಸಿ (ಇಲ್ಲದಿದ್ದರೆ ಪುಟವನ್ನು ಈ ವಿಳಾಸದಲ್ಲಿ ತೋರಿಸಲಾಗುತ್ತದೆ)</translation>
+    </message>
+    <message>
+        <source>Added as %path (the address was cleaned up).</source>
+        <translation>%path ಆಗಿ ಸೇರಿಸಲಾಗಿದೆ (ವಿಳಾಸವನ್ನು ಸ್ವಚ್ಛಗೊಳಿಸಲಾಗಿದೆ).</translation>
+    </message>
+    <message>
+        <source>Added: %path</source>
+        <translation>ಸೇರಿಸಲಾಗಿದೆ: %path</translation>
+    </message>
+    <message>
+        <source>Add the wildcard</source>
+        <translation>ವೈಲ್ಡ್‌ಕಾರ್ಡ್ ಸೇರಿಸಿ</translation>
+    </message>
+    <message>
+        <source>Add a wildcard</source>
+        <translation>ಒಂದು ವೈಲ್ಡ್‌ಕಾರ್ಡ್ ಸೇರಿಸಿ</translation>
+    </message>
+    <message>
+        <source>Every address that matches leads to this page; a * matches the rest of the address.</source>
+        <translation>ಹೊಂದುವ ಪ್ರತಿಯೊಂದು ವಿಳಾಸವೂ ಈ ಪುಟಕ್ಕೆ ಕರೆತರುತ್ತದೆ; * ವಿಳಾಸದ ಉಳಿದ ಭಾಗಕ್ಕೆ ಹೊಂದುತ್ತದೆ.</translation>
+    </message>
+    <message>
+        <source>Address pattern</source>
+        <translation>ವಿಳಾಸದ ಮಾದರಿ</translation>
+    </message>
+    <message>
+        <source>URLs</source>
+        <translation>URLಗಳು</translation>
+    </message>
 </context>
 </TS>

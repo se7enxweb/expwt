@@ -1463,5 +1463,121 @@
         <source>%n comments wait for moderation</source>
         <translation>%n kommeantta vurdet moderašuvnna</translation>
     </message>
+    <message>
+        <source>Give an address on this site, such as /campaign/running.</source>
+        <translation>Atte čujuhusa dán neahttabáikkis, ovdamearkka dihtii /campaign/running.</translation>
+    </message>
+    <message>
+        <source>There is no such language.</source>
+        <translation>Dakkár giella ii leat.</translation>
+    </message>
+    <message>
+        <source>This address is taken already.</source>
+        <translation>Dát čujuhus lea juo váldon.</translation>
+    </message>
+    <message>
+        <source>There is a wildcard for this address already.</source>
+        <translation>Dán čujuhussii lea juo jokermearka.</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Čujuhus</translation>
+    </message>
+    <message>
+        <source>Alias</source>
+        <translation>Alias</translation>
+    </message>
+    <message>
+        <source>Old address</source>
+        <translation>Boares čujuhus</translation>
+    </message>
+    <message>
+        <source>Addresses of this page</source>
+        <translation>Dán siiddu čujuhusat</translation>
+    </message>
+    <message>
+        <source>redirects</source>
+        <translation>sádde viidáset</translation>
+    </message>
+    <message>
+        <source>Wildcards that lead here</source>
+        <translation>Jokermearkkat mat dolvot deike</translation>
+    </message>
+    <message>
+        <source>No wildcard leads to this page.</source>
+        <translation>Ii oktage jokermearka doalvvo dán siidui.</translation>
+    </message>
+    <message>
+        <source>shows this page</source>
+        <translation>čájeha dán siiddu</translation>
+    </message>
+    <message>
+        <source>Addresses visitors did not find</source>
+        <translation>Čujuhusat maid guossit eai gávdnan</translation>
+    </message>
+    <message>
+        <source>Addresses of this site that answered "not found" and end like this page's address. A redirect sends their visitors here.</source>
+        <translation>Dán neahttabáikki čujuhusat mat vástidedje "ii gávdnon" ja nohket dego dán siiddu čujuhus. Viidáset sáddejupmi sádde sin guossiid deike.</translation>
+    </message>
+    <message>
+        <source>None: no visitor missed this page.</source>
+        <translation>Ii oktage: ii oktage guossi leat massán dán siiddu.</translation>
+    </message>
+    <message>
+        <source>Redirect to this page</source>
+        <translation>Sádde viidáset dán siidui</translation>
+    </message>
+    <message>
+        <source>%path now redirects to this page.</source>
+        <translation>%path sádde dál viidáset dán siidui.</translation>
+    </message>
+    <message>
+        <source>%n times, last %time</source>
+        <translation>%n háve, maŋimuš %time</translation>
+    </message>
+    <message>
+        <source>Add the address</source>
+        <translation>Lasit čujuhusa</translation>
+    </message>
+    <message>
+        <source>Add an address</source>
+        <translation>Lasit čujuhusa</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>Giella</translation>
+    </message>
+    <message>
+        <source>Redirect to the page's address (otherwise the page is shown under this address)</source>
+        <translation>Sádde viidáset siiddu čujuhussii (muđui siidu čájehuvvo dán čujuhusa vuolde)</translation>
+    </message>
+    <message>
+        <source>Added as %path (the address was cleaned up).</source>
+        <translation>Lasihuvvon dego %path (čujuhus buhtistuvvui).</translation>
+    </message>
+    <message>
+        <source>Added: %path</source>
+        <translation>Lasihuvvon: %path</translation>
+    </message>
+    <message>
+        <source>Add the wildcard</source>
+        <translation>Lasit jokermearkka</translation>
+    </message>
+    <message>
+        <source>Add a wildcard</source>
+        <translation>Lasit jokermearkka</translation>
+    </message>
+    <message>
+        <source>Every address that matches leads to this page; a * matches the rest of the address.</source>
+        <translation>Juohke čujuhus mii heive doalvu dán siidui; * heive čujuhusa loahppaoassái.</translation>
+    </message>
+    <message>
+        <source>Address pattern</source>
+        <translation>Čujuhusminsttar</translation>
+    </message>
+    <message>
+        <source>URLs</source>
+        <translation>URL:at</translation>
+    </message>
 </context>
 </TS>

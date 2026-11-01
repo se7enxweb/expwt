@@ -1463,5 +1463,121 @@
         <source>%n comments wait for moderation</source>
         <translation>%n rimarisqakuna qhawarisqa kanankupaq suyachkanku</translation>
     </message>
+    <message>
+        <source>Give an address on this site, such as /campaign/running.</source>
+        <translation>Kay situpi huk tiyana churay, kayhina /campaign/running.</translation>
+    </message>
+    <message>
+        <source>There is no such language.</source>
+        <translation>Mana chayna simi kanchu.</translation>
+    </message>
+    <message>
+        <source>This address is taken already.</source>
+        <translation>Kay tiyanaqa ñam hap'isqa.</translation>
+    </message>
+    <message>
+        <source>There is a wildcard for this address already.</source>
+        <translation>Kay tiyanapaqqa ñam huk wildcard kan.</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Tiyana</translation>
+    </message>
+    <message>
+        <source>Alias</source>
+        <translation>Huk suti</translation>
+    </message>
+    <message>
+        <source>Old address</source>
+        <translation>Ñawpa tiyana</translation>
+    </message>
+    <message>
+        <source>Addresses of this page</source>
+        <translation>Kay raphip tiyanankuna</translation>
+    </message>
+    <message>
+        <source>redirects</source>
+        <translation>pusapun</translation>
+    </message>
+    <message>
+        <source>Wildcards that lead here</source>
+        <translation>Kayman pusaq wildcardkuna</translation>
+    </message>
+    <message>
+        <source>No wildcard leads to this page.</source>
+        <translation>Mana ima wildcardpas kay raphiman pusanchu.</translation>
+    </message>
+    <message>
+        <source>shows this page</source>
+        <translation>kay raphita rikuchin</translation>
+    </message>
+    <message>
+        <source>Addresses visitors did not find</source>
+        <translation>Watukuqkunap mana tarisqan tiyanakuna</translation>
+    </message>
+    <message>
+        <source>Addresses of this site that answered "not found" and end like this page's address. A redirect sends their visitors here.</source>
+        <translation>Kay situp tiyanankuna "mana tarikunchu" nispa kutichiq, kay raphip tiyanan hina tukukuqkuna. Huk pusapuymi watukuqninkunata kayman kachan.</translation>
+    </message>
+    <message>
+        <source>None: no visitor missed this page.</source>
+        <translation>Mana mayqinpas: mana ima watukuqpas kay raphita chinkachinchu.</translation>
+    </message>
+    <message>
+        <source>Redirect to this page</source>
+        <translation>Kay raphiman pusapuy</translation>
+    </message>
+    <message>
+        <source>%path now redirects to this page.</source>
+        <translation>%path kunanqa kay raphiman pusapun.</translation>
+    </message>
+    <message>
+        <source>%n times, last %time</source>
+        <translation>%n kuti, qhipa kaq %time</translation>
+    </message>
+    <message>
+        <source>Add the address</source>
+        <translation>Tiyanata yapay</translation>
+    </message>
+    <message>
+        <source>Add an address</source>
+        <translation>Huk tiyanata yapay</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>Simi</translation>
+    </message>
+    <message>
+        <source>Redirect to the page's address (otherwise the page is shown under this address)</source>
+        <translation>Raphip tiyananman pusapuy (manachayqa raphiqa kay tiyana ukhupi rikuchikun)</translation>
+    </message>
+    <message>
+        <source>Added as %path (the address was cleaned up).</source>
+        <translation>%path hina yapasqa (tiyanaqa ch'uyanchasqa).</translation>
+    </message>
+    <message>
+        <source>Added: %path</source>
+        <translation>Yapasqa: %path</translation>
+    </message>
+    <message>
+        <source>Add the wildcard</source>
+        <translation>Wildcardta yapay</translation>
+    </message>
+    <message>
+        <source>Add a wildcard</source>
+        <translation>Huk wildcardta yapay</translation>
+    </message>
+    <message>
+        <source>Every address that matches leads to this page; a * matches the rest of the address.</source>
+        <translation>Tupaq sapa tiyanam kay raphiman pusan; * tiyanap puchuqninwan tupan.</translation>
+    </message>
+    <message>
+        <source>Address pattern</source>
+        <translation>Tiyanap rikch'aynin</translation>
+    </message>
+    <message>
+        <source>URLs</source>
+        <translation>URLkuna</translation>
+    </message>
 </context>
 </TS>

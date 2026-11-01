@@ -1463,5 +1463,121 @@
         <source>%n comments wait for moderation</source>
         <translation>%n კომენტარი ელოდება მოდერაციას</translation>
     </message>
+    <message>
+        <source>Give an address on this site, such as /campaign/running.</source>
+        <translation>მიუთითეთ ამ საიტის მისამართი, მაგალითად /campaign/running.</translation>
+    </message>
+    <message>
+        <source>There is no such language.</source>
+        <translation>ასეთი ენა არ არსებობს.</translation>
+    </message>
+    <message>
+        <source>This address is taken already.</source>
+        <translation>ეს მისამართი უკვე დაკავებულია.</translation>
+    </message>
+    <message>
+        <source>There is a wildcard for this address already.</source>
+        <translation>ამ მისამართისთვის უკვე არსებობს შაბლონი.</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>მისამართი</translation>
+    </message>
+    <message>
+        <source>Alias</source>
+        <translation>ფსევდონიმი</translation>
+    </message>
+    <message>
+        <source>Old address</source>
+        <translation>ძველი მისამართი</translation>
+    </message>
+    <message>
+        <source>Addresses of this page</source>
+        <translation>ამ გვერდის მისამართები</translation>
+    </message>
+    <message>
+        <source>redirects</source>
+        <translation>გადამისამართებს</translation>
+    </message>
+    <message>
+        <source>Wildcards that lead here</source>
+        <translation>შაბლონები, რომლებიც აქ მოჰყავს</translation>
+    </message>
+    <message>
+        <source>No wildcard leads to this page.</source>
+        <translation>არცერთი შაბლონი არ მიჰყავს ამ გვერდზე.</translation>
+    </message>
+    <message>
+        <source>shows this page</source>
+        <translation>აჩვენებს ამ გვერდს</translation>
+    </message>
+    <message>
+        <source>Addresses visitors did not find</source>
+        <translation>მისამართები, რომლებიც ვიზიტორებმა ვერ იპოვეს</translation>
+    </message>
+    <message>
+        <source>Addresses of this site that answered "not found" and end like this page's address. A redirect sends their visitors here.</source>
+        <translation>ამ საიტის მისამართები, რომლებმაც "ვერ მოიძებნა" უპასუხეს და ამ გვერდის მისამართივით მთავრდება. გადამისამართება მათ ვიზიტორებს აქ გზავნის.</translation>
+    </message>
+    <message>
+        <source>None: no visitor missed this page.</source>
+        <translation>არცერთი: არცერთ ვიზიტორს არ გამორჩენია ეს გვერდი.</translation>
+    </message>
+    <message>
+        <source>Redirect to this page</source>
+        <translation>ამ გვერდზე გადამისამართება</translation>
+    </message>
+    <message>
+        <source>%path now redirects to this page.</source>
+        <translation>%path ახლა ამ გვერდზე გადამისამართებს.</translation>
+    </message>
+    <message>
+        <source>%n times, last %time</source>
+        <translation>%n-ჯერ, ბოლოს %time</translation>
+    </message>
+    <message>
+        <source>Add the address</source>
+        <translation>მისამართის დამატება</translation>
+    </message>
+    <message>
+        <source>Add an address</source>
+        <translation>მისამართის დამატება</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>ენა</translation>
+    </message>
+    <message>
+        <source>Redirect to the page's address (otherwise the page is shown under this address)</source>
+        <translation>გვერდის მისამართზე გადამისამართება (თორემ გვერდი ამ მისამართით ჩანს)</translation>
+    </message>
+    <message>
+        <source>Added as %path (the address was cleaned up).</source>
+        <translation>დაემატა როგორც %path (მისამართი გასუფთავდა).</translation>
+    </message>
+    <message>
+        <source>Added: %path</source>
+        <translation>დაემატა: %path</translation>
+    </message>
+    <message>
+        <source>Add the wildcard</source>
+        <translation>შაბლონის დამატება</translation>
+    </message>
+    <message>
+        <source>Add a wildcard</source>
+        <translation>შაბლონის დამატება</translation>
+    </message>
+    <message>
+        <source>Every address that matches leads to this page; a * matches the rest of the address.</source>
+        <translation>ყოველი შესაბამისი მისამართი ამ გვერდზე მიდის; * შეესაბამება მისამართის დანარჩენ ნაწილს.</translation>
+    </message>
+    <message>
+        <source>Address pattern</source>
+        <translation>მისამართის ნიმუში</translation>
+    </message>
+    <message>
+        <source>URLs</source>
+        <translation>URL-ები</translation>
+    </message>
 </context>
 </TS>

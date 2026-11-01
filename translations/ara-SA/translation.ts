@@ -1463,5 +1463,121 @@
         <source>%n comments wait for moderation</source>
         <translation>%n تعليقات بانتظار الإشراف</translation>
     </message>
+    <message>
+        <source>Give an address on this site, such as /campaign/running.</source>
+        <translation>أدخل عنوانًا على هذا الموقع، مثل /campaign/running.</translation>
+    </message>
+    <message>
+        <source>There is no such language.</source>
+        <translation>لا توجد لغة كهذه.</translation>
+    </message>
+    <message>
+        <source>This address is taken already.</source>
+        <translation>هذا العنوان مستخدم بالفعل.</translation>
+    </message>
+    <message>
+        <source>There is a wildcard for this address already.</source>
+        <translation>يوجد بالفعل حرف بدل لهذا العنوان.</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>العنوان</translation>
+    </message>
+    <message>
+        <source>Alias</source>
+        <translation>اسم بديل</translation>
+    </message>
+    <message>
+        <source>Old address</source>
+        <translation>عنوان قديم</translation>
+    </message>
+    <message>
+        <source>Addresses of this page</source>
+        <translation>عناوين هذه الصفحة</translation>
+    </message>
+    <message>
+        <source>redirects</source>
+        <translation>يعيد التوجيه</translation>
+    </message>
+    <message>
+        <source>Wildcards that lead here</source>
+        <translation>أحرف البدل التي تؤدي إلى هنا</translation>
+    </message>
+    <message>
+        <source>No wildcard leads to this page.</source>
+        <translation>لا يؤدي أي حرف بدل إلى هذه الصفحة.</translation>
+    </message>
+    <message>
+        <source>shows this page</source>
+        <translation>يعرض هذه الصفحة</translation>
+    </message>
+    <message>
+        <source>Addresses visitors did not find</source>
+        <translation>عناوين لم يجدها الزوار</translation>
+    </message>
+    <message>
+        <source>Addresses of this site that answered "not found" and end like this page's address. A redirect sends their visitors here.</source>
+        <translation>عناوين في هذا الموقع أجابت "غير موجود" وتنتهي مثل عنوان هذه الصفحة. إعادة التوجيه ترسل زوارها إلى هنا.</translation>
+    </message>
+    <message>
+        <source>None: no visitor missed this page.</source>
+        <translation>لا شيء: لم يفوّت أي زائر هذه الصفحة.</translation>
+    </message>
+    <message>
+        <source>Redirect to this page</source>
+        <translation>إعادة التوجيه إلى هذه الصفحة</translation>
+    </message>
+    <message>
+        <source>%path now redirects to this page.</source>
+        <translation>%path يعيد التوجيه الآن إلى هذه الصفحة.</translation>
+    </message>
+    <message>
+        <source>%n times, last %time</source>
+        <translation>%n مرات، آخرها %time</translation>
+    </message>
+    <message>
+        <source>Add the address</source>
+        <translation>أضف العنوان</translation>
+    </message>
+    <message>
+        <source>Add an address</source>
+        <translation>أضف عنوانًا</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>اللغة</translation>
+    </message>
+    <message>
+        <source>Redirect to the page's address (otherwise the page is shown under this address)</source>
+        <translation>إعادة التوجيه إلى عنوان الصفحة (وإلا تُعرض الصفحة تحت هذا العنوان)</translation>
+    </message>
+    <message>
+        <source>Added as %path (the address was cleaned up).</source>
+        <translation>أضيف باسم %path (تم تنظيف العنوان).</translation>
+    </message>
+    <message>
+        <source>Added: %path</source>
+        <translation>أضيف: %path</translation>
+    </message>
+    <message>
+        <source>Add the wildcard</source>
+        <translation>أضف حرف البدل</translation>
+    </message>
+    <message>
+        <source>Add a wildcard</source>
+        <translation>أضف حرف بدل</translation>
+    </message>
+    <message>
+        <source>Every address that matches leads to this page; a * matches the rest of the address.</source>
+        <translation>كل عنوان مطابق يؤدي إلى هذه الصفحة؛ تطابق * بقية العنوان.</translation>
+    </message>
+    <message>
+        <source>Address pattern</source>
+        <translation>نمط العنوان</translation>
+    </message>
+    <message>
+        <source>URLs</source>
+        <translation>العناوين</translation>
+    </message>
 </context>
 </TS>

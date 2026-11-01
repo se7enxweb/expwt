@@ -1463,5 +1463,121 @@
         <source>%n comments wait for moderation</source>
         <translation>%n beachdan a' feitheamh air modarachadh</translation>
     </message>
+    <message>
+        <source>Give an address on this site, such as /campaign/running.</source>
+        <translation>Thoir seòladh air an làrach seo, mar /campaign/running.</translation>
+    </message>
+    <message>
+        <source>There is no such language.</source>
+        <translation>Chan eil cànan mar sin ann.</translation>
+    </message>
+    <message>
+        <source>This address is taken already.</source>
+        <translation>Tha an seòladh seo ga chleachdadh mu thràth.</translation>
+    </message>
+    <message>
+        <source>There is a wildcard for this address already.</source>
+        <translation>Tha saoragan ann airson an t-seòlaidh seo mu thràth.</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Seòladh</translation>
+    </message>
+    <message>
+        <source>Alias</source>
+        <translation>Alias</translation>
+    </message>
+    <message>
+        <source>Old address</source>
+        <translation>Seann seòladh</translation>
+    </message>
+    <message>
+        <source>Addresses of this page</source>
+        <translation>Seòlaidhean na duilleig seo</translation>
+    </message>
+    <message>
+        <source>redirects</source>
+        <translation>ath-stiùireadh</translation>
+    </message>
+    <message>
+        <source>Wildcards that lead here</source>
+        <translation>Saoragan a bheir an seo</translation>
+    </message>
+    <message>
+        <source>No wildcard leads to this page.</source>
+        <translation>Chan eil saoragan a' toirt dhan duilleag seo.</translation>
+    </message>
+    <message>
+        <source>shows this page</source>
+        <translation>a' sealltainn na duilleig seo</translation>
+    </message>
+    <message>
+        <source>Addresses visitors did not find</source>
+        <translation>Seòlaidhean nach do lorg tadhlaichean</translation>
+    </message>
+    <message>
+        <source>Addresses of this site that answered "not found" and end like this page's address. A redirect sends their visitors here.</source>
+        <translation>Seòlaidhean na làraich seo a fhreagair "cha deach a lorg" agus a chrìochnaicheas mar sheòladh na duilleig seo. Cuiridh ath-stiùireadh an tadhlaichean an seo.</translation>
+    </message>
+    <message>
+        <source>None: no visitor missed this page.</source>
+        <translation>Chan eil gin: cha do chaill tadhlaiche sam bith an duilleag seo.</translation>
+    </message>
+    <message>
+        <source>Redirect to this page</source>
+        <translation>Ath-stiùir dhan duilleag seo</translation>
+    </message>
+    <message>
+        <source>%path now redirects to this page.</source>
+        <translation>Tha %path ag ath-stiùireadh dhan duilleag seo a-nis.</translation>
+    </message>
+    <message>
+        <source>%n times, last %time</source>
+        <translation>%n tursan, an turas mu dheireadh %time</translation>
+    </message>
+    <message>
+        <source>Add the address</source>
+        <translation>Cuir an seòladh ris</translation>
+    </message>
+    <message>
+        <source>Add an address</source>
+        <translation>Cuir seòladh ris</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>Cànan</translation>
+    </message>
+    <message>
+        <source>Redirect to the page's address (otherwise the page is shown under this address)</source>
+        <translation>Ath-stiùir gu seòladh na duilleige (air neo thèid an duilleag a shealltainn fon t-seòladh seo)</translation>
+    </message>
+    <message>
+        <source>Added as %path (the address was cleaned up).</source>
+        <translation>Air a chur ris mar %path (chaidh an seòladh a sgioblachadh).</translation>
+    </message>
+    <message>
+        <source>Added: %path</source>
+        <translation>Air a chur ris: %path</translation>
+    </message>
+    <message>
+        <source>Add the wildcard</source>
+        <translation>Cuir an saoragan ris</translation>
+    </message>
+    <message>
+        <source>Add a wildcard</source>
+        <translation>Cuir saoragan ris</translation>
+    </message>
+    <message>
+        <source>Every address that matches leads to this page; a * matches the rest of the address.</source>
+        <translation>Bheir gach seòladh a fhreagras dhan duilleag seo; freagraidh * ri còrr an t-seòlaidh.</translation>
+    </message>
+    <message>
+        <source>Address pattern</source>
+        <translation>Pàtran seòlaidh</translation>
+    </message>
+    <message>
+        <source>URLs</source>
+        <translation>URLan</translation>
+    </message>
 </context>
 </TS>

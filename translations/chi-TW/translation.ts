@@ -1463,5 +1463,121 @@
         <source>%n comments wait for moderation</source>
         <translation>%n 則留言待審核</translation>
     </message>
+    <message>
+        <source>Give an address on this site, such as /campaign/running.</source>
+        <translation>請輸入本網站的一個網址，例如 /campaign/running。</translation>
+    </message>
+    <message>
+        <source>There is no such language.</source>
+        <translation>沒有這樣的語言。</translation>
+    </message>
+    <message>
+        <source>This address is taken already.</source>
+        <translation>此網址已被使用。</translation>
+    </message>
+    <message>
+        <source>There is a wildcard for this address already.</source>
+        <translation>此網址已有萬用字元規則。</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>網址</translation>
+    </message>
+    <message>
+        <source>Alias</source>
+        <translation>別名</translation>
+    </message>
+    <message>
+        <source>Old address</source>
+        <translation>舊網址</translation>
+    </message>
+    <message>
+        <source>Addresses of this page</source>
+        <translation>此頁面的網址</translation>
+    </message>
+    <message>
+        <source>redirects</source>
+        <translation>重新導向</translation>
+    </message>
+    <message>
+        <source>Wildcards that lead here</source>
+        <translation>指向此處的萬用字元規則</translation>
+    </message>
+    <message>
+        <source>No wildcard leads to this page.</source>
+        <translation>沒有萬用字元規則指向此頁面。</translation>
+    </message>
+    <message>
+        <source>shows this page</source>
+        <translation>顯示此頁面</translation>
+    </message>
+    <message>
+        <source>Addresses visitors did not find</source>
+        <translation>訪客找不到的網址</translation>
+    </message>
+    <message>
+        <source>Addresses of this site that answered "not found" and end like this page's address. A redirect sends their visitors here.</source>
+        <translation>本網站中回答「找不到」且結尾與此頁面網址相同的網址。重新導向會把這些訪客引到這裡。</translation>
+    </message>
+    <message>
+        <source>None: no visitor missed this page.</source>
+        <translation>無：沒有訪客錯過此頁面。</translation>
+    </message>
+    <message>
+        <source>Redirect to this page</source>
+        <translation>重新導向到此頁面</translation>
+    </message>
+    <message>
+        <source>%path now redirects to this page.</source>
+        <translation>%path 現在重新導向到此頁面。</translation>
+    </message>
+    <message>
+        <source>%n times, last %time</source>
+        <translation>%n 次，最近一次 %time</translation>
+    </message>
+    <message>
+        <source>Add the address</source>
+        <translation>新增網址</translation>
+    </message>
+    <message>
+        <source>Add an address</source>
+        <translation>新增網址</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>語言</translation>
+    </message>
+    <message>
+        <source>Redirect to the page's address (otherwise the page is shown under this address)</source>
+        <translation>重新導向到頁面的網址（否則頁面在此網址下顯示）</translation>
+    </message>
+    <message>
+        <source>Added as %path (the address was cleaned up).</source>
+        <translation>已新增為 %path（網址已整理）。</translation>
+    </message>
+    <message>
+        <source>Added: %path</source>
+        <translation>已新增：%path</translation>
+    </message>
+    <message>
+        <source>Add the wildcard</source>
+        <translation>新增萬用字元規則</translation>
+    </message>
+    <message>
+        <source>Add a wildcard</source>
+        <translation>新增萬用字元規則</translation>
+    </message>
+    <message>
+        <source>Every address that matches leads to this page; a * matches the rest of the address.</source>
+        <translation>每個相符的網址都指向此頁面；* 相符網址的其餘部分。</translation>
+    </message>
+    <message>
+        <source>Address pattern</source>
+        <translation>網址模式</translation>
+    </message>
+    <message>
+        <source>URLs</source>
+        <translation>網址</translation>
+    </message>
 </context>
 </TS>

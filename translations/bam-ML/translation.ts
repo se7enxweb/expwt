@@ -1463,5 +1463,121 @@
         <source>%n comments wait for moderation</source>
         <translation>Hakilinali %n bɛ kɔlɔsili makɔnɔ</translation>
     </message>
+    <message>
+        <source>Give an address on this site, such as /campaign/running.</source>
+        <translation>Adrɛsi dɔ di nin siti kan, i n'a fɔ /campaign/running.</translation>
+    </message>
+    <message>
+        <source>There is no such language.</source>
+        <translation>Kan suguya tɛ yen.</translation>
+    </message>
+    <message>
+        <source>This address is taken already.</source>
+        <translation>Nin adrɛsi minɛna kaban.</translation>
+    </message>
+    <message>
+        <source>There is a wildcard for this address already.</source>
+        <translation>Wildcard dɔ bɛ yen nin adrɛsi kama kaban.</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Adrɛsi</translation>
+    </message>
+    <message>
+        <source>Alias</source>
+        <translation>Tɔgɔ wɛrɛ</translation>
+    </message>
+    <message>
+        <source>Old address</source>
+        <translation>Adrɛsi kɔrɔ</translation>
+    </message>
+    <message>
+        <source>Addresses of this page</source>
+        <translation>Nin ɲɛ adrɛsiw</translation>
+    </message>
+    <message>
+        <source>redirects</source>
+        <translation>a bɛ bila</translation>
+    </message>
+    <message>
+        <source>Wildcards that lead here</source>
+        <translation>Wildcard minnu bɛ na yan</translation>
+    </message>
+    <message>
+        <source>No wildcard leads to this page.</source>
+        <translation>Wildcard si tɛ taa nin ɲɛ ma.</translation>
+    </message>
+    <message>
+        <source>shows this page</source>
+        <translation>a bɛ nin ɲɛ jira</translation>
+    </message>
+    <message>
+        <source>Addresses visitors did not find</source>
+        <translation>Adrɛsi minnu lajɛbagaw ma sɔrɔ</translation>
+    </message>
+    <message>
+        <source>Addresses of this site that answered "not found" and end like this page's address. A redirect sends their visitors here.</source>
+        <translation>Nin siti adrɛsi minnu ye jaabi "a ma sɔrɔ" ka ban i n'a fɔ nin ɲɛ adrɛsi. Bilali bɛ u lajɛbagaw ci yan.</translation>
+    </message>
+    <message>
+        <source>None: no visitor missed this page.</source>
+        <translation>Si: lajɛbaga si ma nin ɲɛ tɛmɛ.</translation>
+    </message>
+    <message>
+        <source>Redirect to this page</source>
+        <translation>Bila nin ɲɛ ma</translation>
+    </message>
+    <message>
+        <source>%path now redirects to this page.</source>
+        <translation>%path bɛ bila nin ɲɛ ma sisan.</translation>
+    </message>
+    <message>
+        <source>%n times, last %time</source>
+        <translation>Siɲɛ %n, laban %time</translation>
+    </message>
+    <message>
+        <source>Add the address</source>
+        <translation>Adrɛsi fara a kan</translation>
+    </message>
+    <message>
+        <source>Add an address</source>
+        <translation>Adrɛsi dɔ fara a kan</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>Kan</translation>
+    </message>
+    <message>
+        <source>Redirect to the page's address (otherwise the page is shown under this address)</source>
+        <translation>Bila ɲɛ adrɛsi ma (n'o tɛ ɲɛ bɛ jira nin adrɛsi kɔrɔ)</translation>
+    </message>
+    <message>
+        <source>Added as %path (the address was cleaned up).</source>
+        <translation>A farala a kan iko %path (adrɛsi saniyara).</translation>
+    </message>
+    <message>
+        <source>Added: %path</source>
+        <translation>A farala a kan: %path</translation>
+    </message>
+    <message>
+        <source>Add the wildcard</source>
+        <translation>Wildcard fara a kan</translation>
+    </message>
+    <message>
+        <source>Add a wildcard</source>
+        <translation>Wildcard dɔ fara a kan</translation>
+    </message>
+    <message>
+        <source>Every address that matches leads to this page; a * matches the rest of the address.</source>
+        <translation>Adrɛsi o adrɛsi bɛ bɛn, o bɛ taa nin ɲɛ ma; * bɛ bɛn adrɛsi tɔ ma.</translation>
+    </message>
+    <message>
+        <source>Address pattern</source>
+        <translation>Adrɛsi cogoya</translation>
+    </message>
+    <message>
+        <source>URLs</source>
+        <translation>URLw</translation>
+    </message>
 </context>
 </TS>

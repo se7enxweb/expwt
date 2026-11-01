@@ -1463,5 +1463,121 @@
         <source>%n comments wait for moderation</source>
         <translation>%n шарҳ мунтазири модератсия</translation>
     </message>
+    <message>
+        <source>Give an address on this site, such as /campaign/running.</source>
+        <translation>Суроғаи ин сайтро нишон диҳед, масалан /campaign/running.</translation>
+    </message>
+    <message>
+        <source>There is no such language.</source>
+        <translation>Чунин забон нест.</translation>
+    </message>
+    <message>
+        <source>This address is taken already.</source>
+        <translation>Ин суроға аллакай гирифта шудааст.</translation>
+    </message>
+    <message>
+        <source>There is a wildcard for this address already.</source>
+        <translation>Барои ин суроға аллакай шаблон ҳаст.</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Суроға</translation>
+    </message>
+    <message>
+        <source>Alias</source>
+        <translation>Тахаллус</translation>
+    </message>
+    <message>
+        <source>Old address</source>
+        <translation>Суроғаи кӯҳна</translation>
+    </message>
+    <message>
+        <source>Addresses of this page</source>
+        <translation>Суроғаҳои ин саҳифа</translation>
+    </message>
+    <message>
+        <source>redirects</source>
+        <translation>равона мекунад</translation>
+    </message>
+    <message>
+        <source>Wildcards that lead here</source>
+        <translation>Шаблонҳое, ки ба ин ҷо меоранд</translation>
+    </message>
+    <message>
+        <source>No wildcard leads to this page.</source>
+        <translation>Ягон шаблон ба ин саҳифа намеорад.</translation>
+    </message>
+    <message>
+        <source>shows this page</source>
+        <translation>ин саҳифаро нишон медиҳад</translation>
+    </message>
+    <message>
+        <source>Addresses visitors did not find</source>
+        <translation>Суроғаҳое, ки меҳмонон наёфтанд</translation>
+    </message>
+    <message>
+        <source>Addresses of this site that answered "not found" and end like this page's address. A redirect sends their visitors here.</source>
+        <translation>Суроғаҳои ин сайт, ки "ёфт нашуд" ҷавоб доданд ва мисли суроғаи ин саҳифа анҷом меёбанд. Равонакунӣ меҳмонони онҳоро ба ин ҷо мефиристад.</translation>
+    </message>
+    <message>
+        <source>None: no visitor missed this page.</source>
+        <translation>Ҳеҷ: ягон меҳмон ин саҳифаро аз даст надод.</translation>
+    </message>
+    <message>
+        <source>Redirect to this page</source>
+        <translation>Ба ин саҳифа равона кардан</translation>
+    </message>
+    <message>
+        <source>%path now redirects to this page.</source>
+        <translation>%path акнун ба ин саҳифа равона мекунад.</translation>
+    </message>
+    <message>
+        <source>%n times, last %time</source>
+        <translation>%n бор, охирин %time</translation>
+    </message>
+    <message>
+        <source>Add the address</source>
+        <translation>Илова кардани суроға</translation>
+    </message>
+    <message>
+        <source>Add an address</source>
+        <translation>Илова кардани суроға</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>Забон</translation>
+    </message>
+    <message>
+        <source>Redirect to the page's address (otherwise the page is shown under this address)</source>
+        <translation>Ба суроғаи саҳифа равона кардан (вагарна саҳифа зери ин суроға нишон дода мешавад)</translation>
+    </message>
+    <message>
+        <source>Added as %path (the address was cleaned up).</source>
+        <translation>Ҳамчун %path илова шуд (суроға тоза карда шуд).</translation>
+    </message>
+    <message>
+        <source>Added: %path</source>
+        <translation>Илова шуд: %path</translation>
+    </message>
+    <message>
+        <source>Add the wildcard</source>
+        <translation>Илова кардани шаблон</translation>
+    </message>
+    <message>
+        <source>Add a wildcard</source>
+        <translation>Илова кардани шаблон</translation>
+    </message>
+    <message>
+        <source>Every address that matches leads to this page; a * matches the rest of the address.</source>
+        <translation>Ҳар суроғаи мувофиқ ба ин саҳифа меорад; * ба боқимондаи суроға мувофиқ аст.</translation>
+    </message>
+    <message>
+        <source>Address pattern</source>
+        <translation>Намунаи суроға</translation>
+    </message>
+    <message>
+        <source>URLs</source>
+        <translation>URL-ҳо</translation>
+    </message>
 </context>
 </TS>

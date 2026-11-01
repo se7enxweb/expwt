@@ -1463,5 +1463,121 @@
         <source>%n comments wait for moderation</source>
         <translation>%n ମନ୍ତବ୍ୟ ମଡରେସନ ପାଇଁ ଅପେକ୍ଷାରେ</translation>
     </message>
+    <message>
+        <source>Give an address on this site, such as /campaign/running.</source>
+        <translation>ଏହି ସାଇଟର ଏକ ଠିକଣା ଦିଅନ୍ତୁ, ଯେପରି /campaign/running।</translation>
+    </message>
+    <message>
+        <source>There is no such language.</source>
+        <translation>ଏପରି କୌଣସି ଭାଷା ନାହିଁ।</translation>
+    </message>
+    <message>
+        <source>This address is taken already.</source>
+        <translation>ଏହି ଠିକଣା ପୂର୍ବରୁ ନିଆଯାଇଛି।</translation>
+    </message>
+    <message>
+        <source>There is a wildcard for this address already.</source>
+        <translation>ଏହି ଠିକଣା ପାଇଁ ପୂର୍ବରୁ ଏକ ୱାଇଲ୍ଡକାର୍ଡ ଅଛି।</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>ଠିକଣା</translation>
+    </message>
+    <message>
+        <source>Alias</source>
+        <translation>ଉପନାମ</translation>
+    </message>
+    <message>
+        <source>Old address</source>
+        <translation>ପୁରୁଣା ଠିକଣା</translation>
+    </message>
+    <message>
+        <source>Addresses of this page</source>
+        <translation>ଏହି ପୃଷ୍ଠାର ଠିକଣାଗୁଡ଼ିକ</translation>
+    </message>
+    <message>
+        <source>redirects</source>
+        <translation>ପୁନର୍ନିର୍ଦ୍ଦେଶ କରେ</translation>
+    </message>
+    <message>
+        <source>Wildcards that lead here</source>
+        <translation>ଏଠାକୁ ଆଣୁଥିବା ୱାଇଲ୍ଡକାର୍ଡ</translation>
+    </message>
+    <message>
+        <source>No wildcard leads to this page.</source>
+        <translation>କୌଣସି ୱାଇଲ୍ଡକାର୍ଡ ଏହି ପୃଷ୍ଠାକୁ ଆଣେ ନାହିଁ।</translation>
+    </message>
+    <message>
+        <source>shows this page</source>
+        <translation>ଏହି ପୃଷ୍ଠା ଦେଖାଏ</translation>
+    </message>
+    <message>
+        <source>Addresses visitors did not find</source>
+        <translation>ପରିଦର୍ଶକମାନେ ପାଇନଥିବା ଠିକଣା</translation>
+    </message>
+    <message>
+        <source>Addresses of this site that answered "not found" and end like this page's address. A redirect sends their visitors here.</source>
+        <translation>ଏହି ସାଇଟର ଠିକଣା ଯାହା "ମିଳିଲା ନାହିଁ" ଉତ୍ତର ଦେଲା ଏବଂ ଏହି ପୃଷ୍ଠାର ଠିକଣା ପରି ଶେଷ ହୁଏ। ପୁନର୍ନିର୍ଦ୍ଦେଶ ସେମାନଙ୍କ ପରିଦର୍ଶକଙ୍କୁ ଏଠାକୁ ପଠାଏ।</translation>
+    </message>
+    <message>
+        <source>None: no visitor missed this page.</source>
+        <translation>କିଛି ନାହିଁ: କୌଣସି ପରିଦର୍ଶକ ଏହି ପୃଷ୍ଠା ହରାଇନାହାନ୍ତି।</translation>
+    </message>
+    <message>
+        <source>Redirect to this page</source>
+        <translation>ଏହି ପୃଷ୍ଠାକୁ ପୁନର୍ନିର୍ଦ୍ଦେଶ କରନ୍ତୁ</translation>
+    </message>
+    <message>
+        <source>%path now redirects to this page.</source>
+        <translation>%path ବର୍ତ୍ତମାନ ଏହି ପୃଷ୍ଠାକୁ ପୁନର୍ନିର୍ଦ୍ଦେଶ କରେ।</translation>
+    </message>
+    <message>
+        <source>%n times, last %time</source>
+        <translation>%n ଥର, ଶେଷ %time</translation>
+    </message>
+    <message>
+        <source>Add the address</source>
+        <translation>ଠିକଣା ଯୋଗ କରନ୍ତୁ</translation>
+    </message>
+    <message>
+        <source>Add an address</source>
+        <translation>ଏକ ଠିକଣା ଯୋଗ କରନ୍ତୁ</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>ଭାଷା</translation>
+    </message>
+    <message>
+        <source>Redirect to the page's address (otherwise the page is shown under this address)</source>
+        <translation>ପୃଷ୍ଠାର ଠିକଣାକୁ ପୁନର୍ନିର୍ଦ୍ଦେଶ କରନ୍ତୁ (ନହେଲେ ପୃଷ୍ଠା ଏହି ଠିକଣାରେ ଦେଖାଯାଏ)</translation>
+    </message>
+    <message>
+        <source>Added as %path (the address was cleaned up).</source>
+        <translation>%path ଭାବେ ଯୋଗ କରାଗଲା (ଠିକଣା ସଫା କରାଗଲା)।</translation>
+    </message>
+    <message>
+        <source>Added: %path</source>
+        <translation>ଯୋଗ କରାଗଲା: %path</translation>
+    </message>
+    <message>
+        <source>Add the wildcard</source>
+        <translation>ୱାଇଲ୍ଡକାର୍ଡ ଯୋଗ କରନ୍ତୁ</translation>
+    </message>
+    <message>
+        <source>Add a wildcard</source>
+        <translation>ଏକ ୱାଇଲ୍ଡକାର୍ଡ ଯୋଗ କରନ୍ତୁ</translation>
+    </message>
+    <message>
+        <source>Every address that matches leads to this page; a * matches the rest of the address.</source>
+        <translation>ମେଳ ଖାଉଥିବା ପ୍ରତ୍ୟେକ ଠିକଣା ଏହି ପୃଷ୍ଠାକୁ ଆଣେ; * ଠିକଣାର ବାକି ଅଂଶ ସହ ମେଳ ଖାଏ।</translation>
+    </message>
+    <message>
+        <source>Address pattern</source>
+        <translation>ଠିକଣାର ଢାଞ୍ଚା</translation>
+    </message>
+    <message>
+        <source>URLs</source>
+        <translation>URL</translation>
+    </message>
 </context>
 </TS>

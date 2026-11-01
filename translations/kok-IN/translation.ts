@@ -1463,5 +1463,121 @@
         <source>%n comments wait for moderation</source>
         <translation>%n टिप्पण्यो मॉडरेशनाची वाट पळयतात</translation>
     </message>
+    <message>
+        <source>Give an address on this site, such as /campaign/running.</source>
+        <translation>ह्या सायटीचो एक पत्तो दियात, देखीक /campaign/running.</translation>
+    </message>
+    <message>
+        <source>There is no such language.</source>
+        <translation>अशी खंयचीच भास ना.</translation>
+    </message>
+    <message>
+        <source>This address is taken already.</source>
+        <translation>हो पत्तो आदींच घेतला.</translation>
+    </message>
+    <message>
+        <source>There is a wildcard for this address already.</source>
+        <translation>ह्या पत्त्या खातीर आदींच एक वायल्डकार्ड आसा.</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>पत्तो</translation>
+    </message>
+    <message>
+        <source>Alias</source>
+        <translation>दुसरें नांव</translation>
+    </message>
+    <message>
+        <source>Old address</source>
+        <translation>पोरनो पत्तो</translation>
+    </message>
+    <message>
+        <source>Addresses of this page</source>
+        <translation>ह्या पानाचे पत्ते</translation>
+    </message>
+    <message>
+        <source>redirects</source>
+        <translation>रिडायरेक्ट करता</translation>
+    </message>
+    <message>
+        <source>Wildcards that lead here</source>
+        <translation>हांगा हाडपी वायल्डकार्ड</translation>
+    </message>
+    <message>
+        <source>No wildcard leads to this page.</source>
+        <translation>खंयचोच वायल्डकार्ड ह्या पानार हाडना.</translation>
+    </message>
+    <message>
+        <source>shows this page</source>
+        <translation>हें पान दाखयता</translation>
+    </message>
+    <message>
+        <source>Addresses visitors did not find</source>
+        <translation>भेट दिवपी लोकांक मेळूंक नाशिल्ले पत्ते</translation>
+    </message>
+    <message>
+        <source>Addresses of this site that answered "not found" and end like this page's address. A redirect sends their visitors here.</source>
+        <translation>ह्या सायटीचे पत्ते जांणी "मेळ्ळें ना" जाप दिली आनी जे ह्या पानाच्या पत्त्या सारके सोंपतात. एक रिडायरेक्ट तांच्या भेट दिवप्यांक हांगा धाडटा.</translation>
+    </message>
+    <message>
+        <source>None: no visitor missed this page.</source>
+        <translation>एकूय ना: खंयच्याच भेट दिवप्याक हें पान चुकलें ना.</translation>
+    </message>
+    <message>
+        <source>Redirect to this page</source>
+        <translation>ह्या पानार रिडायरेक्ट करात</translation>
+    </message>
+    <message>
+        <source>%path now redirects to this page.</source>
+        <translation>%path आतां ह्या पानार रिडायरेक्ट करता.</translation>
+    </message>
+    <message>
+        <source>%n times, last %time</source>
+        <translation>%n फावटीं, निमाणें %time</translation>
+    </message>
+    <message>
+        <source>Add the address</source>
+        <translation>पत्तो जोडात</translation>
+    </message>
+    <message>
+        <source>Add an address</source>
+        <translation>एक पत्तो जोडात</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>भास</translation>
+    </message>
+    <message>
+        <source>Redirect to the page's address (otherwise the page is shown under this address)</source>
+        <translation>पानाच्या पत्त्यार रिडायरेक्ट करात (ना जाल्यार पान ह्या पत्त्या खाला दाखयतात)</translation>
+    </message>
+    <message>
+        <source>Added as %path (the address was cleaned up).</source>
+        <translation>%path म्हूण जोडलें (पत्तो नितळ केलो).</translation>
+    </message>
+    <message>
+        <source>Added: %path</source>
+        <translation>जोडलें: %path</translation>
+    </message>
+    <message>
+        <source>Add the wildcard</source>
+        <translation>वायल्डकार्ड जोडात</translation>
+    </message>
+    <message>
+        <source>Add a wildcard</source>
+        <translation>एक वायल्डकार्ड जोडात</translation>
+    </message>
+    <message>
+        <source>Every address that matches leads to this page; a * matches the rest of the address.</source>
+        <translation>जुळपी दर एक पत्तो ह्या पानार हाडटा; * पत्त्याच्या उरिल्ल्या भागाकडेन जुळटा.</translation>
+    </message>
+    <message>
+        <source>Address pattern</source>
+        <translation>पत्त्याचो नमुनो</translation>
+    </message>
+    <message>
+        <source>URLs</source>
+        <translation>URL</translation>
+    </message>
 </context>
 </TS>

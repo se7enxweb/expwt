@@ -1463,5 +1463,121 @@
         <source>%n comments wait for moderation</source>
         <translation>%n 条评论待审核</translation>
     </message>
+    <message>
+        <source>Give an address on this site, such as /campaign/running.</source>
+        <translation>请输入本站点的一个地址，例如 /campaign/running。</translation>
+    </message>
+    <message>
+        <source>There is no such language.</source>
+        <translation>没有这样的语言。</translation>
+    </message>
+    <message>
+        <source>This address is taken already.</source>
+        <translation>此地址已被占用。</translation>
+    </message>
+    <message>
+        <source>There is a wildcard for this address already.</source>
+        <translation>此地址已有通配符。</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>地址</translation>
+    </message>
+    <message>
+        <source>Alias</source>
+        <translation>别名</translation>
+    </message>
+    <message>
+        <source>Old address</source>
+        <translation>旧地址</translation>
+    </message>
+    <message>
+        <source>Addresses of this page</source>
+        <translation>此页面的地址</translation>
+    </message>
+    <message>
+        <source>redirects</source>
+        <translation>重定向</translation>
+    </message>
+    <message>
+        <source>Wildcards that lead here</source>
+        <translation>指向此处的通配符</translation>
+    </message>
+    <message>
+        <source>No wildcard leads to this page.</source>
+        <translation>没有通配符指向此页面。</translation>
+    </message>
+    <message>
+        <source>shows this page</source>
+        <translation>显示此页面</translation>
+    </message>
+    <message>
+        <source>Addresses visitors did not find</source>
+        <translation>访客未找到的地址</translation>
+    </message>
+    <message>
+        <source>Addresses of this site that answered "not found" and end like this page's address. A redirect sends their visitors here.</source>
+        <translation>本站点中回答"未找到"且结尾与此页面地址相同的地址。重定向会把这些访客引到这里。</translation>
+    </message>
+    <message>
+        <source>None: no visitor missed this page.</source>
+        <translation>无：没有访客错过此页面。</translation>
+    </message>
+    <message>
+        <source>Redirect to this page</source>
+        <translation>重定向到此页面</translation>
+    </message>
+    <message>
+        <source>%path now redirects to this page.</source>
+        <translation>%path 现在重定向到此页面。</translation>
+    </message>
+    <message>
+        <source>%n times, last %time</source>
+        <translation>%n 次，最近一次 %time</translation>
+    </message>
+    <message>
+        <source>Add the address</source>
+        <translation>添加地址</translation>
+    </message>
+    <message>
+        <source>Add an address</source>
+        <translation>添加地址</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>语言</translation>
+    </message>
+    <message>
+        <source>Redirect to the page's address (otherwise the page is shown under this address)</source>
+        <translation>重定向到页面的地址（否则页面在此地址下显示）</translation>
+    </message>
+    <message>
+        <source>Added as %path (the address was cleaned up).</source>
+        <translation>已添加为 %path（地址已清理）。</translation>
+    </message>
+    <message>
+        <source>Added: %path</source>
+        <translation>已添加：%path</translation>
+    </message>
+    <message>
+        <source>Add the wildcard</source>
+        <translation>添加通配符</translation>
+    </message>
+    <message>
+        <source>Add a wildcard</source>
+        <translation>添加通配符</translation>
+    </message>
+    <message>
+        <source>Every address that matches leads to this page; a * matches the rest of the address.</source>
+        <translation>每个匹配的地址都指向此页面；* 匹配地址的其余部分。</translation>
+    </message>
+    <message>
+        <source>Address pattern</source>
+        <translation>地址模式</translation>
+    </message>
+    <message>
+        <source>URLs</source>
+        <translation>网址</translation>
+    </message>
 </context>
 </TS>

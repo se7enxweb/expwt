@@ -1463,5 +1463,121 @@
         <source>%n comments wait for moderation</source>
         <translation>%n comments dey wait for moderation</translation>
     </message>
+    <message>
+        <source>Give an address on this site, such as /campaign/running.</source>
+        <translation>Give one address for dis site, like /campaign/running.</translation>
+    </message>
+    <message>
+        <source>There is no such language.</source>
+        <translation>Dat kind language no dey.</translation>
+    </message>
+    <message>
+        <source>This address is taken already.</source>
+        <translation>Person don already take dis address.</translation>
+    </message>
+    <message>
+        <source>There is a wildcard for this address already.</source>
+        <translation>One wildcard don already dey for dis address.</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Address</translation>
+    </message>
+    <message>
+        <source>Alias</source>
+        <translation>Alias</translation>
+    </message>
+    <message>
+        <source>Old address</source>
+        <translation>Old address</translation>
+    </message>
+    <message>
+        <source>Addresses of this page</source>
+        <translation>Dis page addresses</translation>
+    </message>
+    <message>
+        <source>redirects</source>
+        <translation>dey redirect</translation>
+    </message>
+    <message>
+        <source>Wildcards that lead here</source>
+        <translation>Wildcards wey dey bring people come here</translation>
+    </message>
+    <message>
+        <source>No wildcard leads to this page.</source>
+        <translation>No wildcard dey carry people go dis page.</translation>
+    </message>
+    <message>
+        <source>shows this page</source>
+        <translation>dey show dis page</translation>
+    </message>
+    <message>
+        <source>Addresses visitors did not find</source>
+        <translation>Addresses wey visitors no find</translation>
+    </message>
+    <message>
+        <source>Addresses of this site that answered "not found" and end like this page's address. A redirect sends their visitors here.</source>
+        <translation>Addresses for dis site wey answer "we no find am" and wey end like dis page address. Redirect go send their visitors come here.</translation>
+    </message>
+    <message>
+        <source>None: no visitor missed this page.</source>
+        <translation>None: no visitor miss dis page.</translation>
+    </message>
+    <message>
+        <source>Redirect to this page</source>
+        <translation>Redirect go dis page</translation>
+    </message>
+    <message>
+        <source>%path now redirects to this page.</source>
+        <translation>%path dey redirect go dis page now.</translation>
+    </message>
+    <message>
+        <source>%n times, last %time</source>
+        <translation>%n times, last one %time</translation>
+    </message>
+    <message>
+        <source>Add the address</source>
+        <translation>Add di address</translation>
+    </message>
+    <message>
+        <source>Add an address</source>
+        <translation>Add address</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>Language</translation>
+    </message>
+    <message>
+        <source>Redirect to the page's address (otherwise the page is shown under this address)</source>
+        <translation>Redirect go di page address (if not, di page go show under dis address)</translation>
+    </message>
+    <message>
+        <source>Added as %path (the address was cleaned up).</source>
+        <translation>We don add am as %path (we clean di address).</translation>
+    </message>
+    <message>
+        <source>Added: %path</source>
+        <translation>We don add am: %path</translation>
+    </message>
+    <message>
+        <source>Add the wildcard</source>
+        <translation>Add di wildcard</translation>
+    </message>
+    <message>
+        <source>Add a wildcard</source>
+        <translation>Add wildcard</translation>
+    </message>
+    <message>
+        <source>Every address that matches leads to this page; a * matches the rest of the address.</source>
+        <translation>Every address wey match go carry people go dis page; * dey match di rest of di address.</translation>
+    </message>
+    <message>
+        <source>Address pattern</source>
+        <translation>Address pattern</translation>
+    </message>
+    <message>
+        <source>URLs</source>
+        <translation>URLs</translation>
+    </message>
 </context>
 </TS>
