@@ -2071,6 +2071,70 @@
         <source>The accent color %color (expwt.ini [BrandingSettings] %setting) is not used: its contrast is %ratio:1, at least %needed:1 is needed.</source>
         <translation>Ngjyra e theksit %color (expwt.ini [BrandingSettings] %setting) nuk përdoret: kontrasti i saj është %ratio:1, nevojitet të paktën %needed:1.</translation>
     </message>
+    <message>
+        <source>Accessibility</source>
+        <translation>Aksesueshmëria</translation>
+    </message>
+    <message>
+        <source>Check the accessibility of the page (WCAG 2.2 AA)</source>
+        <translation>Kontrollo aksesueshmërinë e faqes (WCAG 2.2 AA)</translation>
+    </message>
+    <message>
+        <source>Checking the accessibility ...</source>
+        <translation>Po kontrollohet aksesueshmëria ...</translation>
+    </message>
+    <message>
+        <source>The automatic check found no accessibility problems.</source>
+        <translation>Kontrolli automatik nuk gjeti probleme aksesueshmërie.</translation>
+    </message>
+    <message>
+        <source>%n accessibility problems</source>
+        <translation>%n probleme aksesueshmërie</translation>
+    </message>
+    <message>
+        <source>Critical</source>
+        <translation>Kritik</translation>
+    </message>
+    <message>
+        <source>Serious</source>
+        <translation>Serioz</translation>
+    </message>
+    <message>
+        <source>Moderate</source>
+        <translation>I moderuar</translation>
+    </message>
+    <message>
+        <source>Minor</source>
+        <translation>I vogël</translation>
+    </message>
+    <message>
+        <source>Field: %name</source>
+        <translation>Fusha: %name</translation>
+    </message>
+    <message>
+        <source>Block: %name</source>
+        <translation>Blloku: %name</translation>
+    </message>
+    <message>
+        <source>Template: %name</source>
+        <translation>Shablloni: %name</translation>
+    </message>
+    <message>
+        <source>More about this rule</source>
+        <translation>Më shumë për këtë rregull</translation>
+    </message>
+    <message>
+        <source>The accessibility check could not run.</source>
+        <translation>Kontrolli i aksesueshmërisë nuk mund të ekzekutohej.</translation>
+    </message>
+    <message>
+        <source>An automatic check finds only some problems: also try the page with the keyboard alone and with a screen reader.</source>
+        <translation>Një kontroll automatik gjen vetëm disa probleme: provojeni faqen edhe vetëm me tastierë dhe me një lexues ekrani.</translation>
+    </message>
+    <message>
+        <source>The rule texts come from axe-core, in English.</source>
+        <translation>Tekstet e rregullave vijnë nga axe-core, në anglisht.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

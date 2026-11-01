@@ -2071,6 +2071,70 @@
         <source>The accent color %color (expwt.ini [BrandingSettings] %setting) is not used: its contrast is %ratio:1, at least %needed:1 is needed.</source>
         <translation>Qalipaat erseqqissaataasoq %color (expwt.ini [BrandingSettings] %setting) atorneqanngilaq: assigiinngissutaa %ratio:1-iuvoq, minnerpaamik %needed:1 pisariaqarpoq.</translation>
     </message>
+    <message>
+        <source>Accessibility</source>
+        <translation>Iserfiginnissaq</translation>
+    </message>
+    <message>
+        <source>Check the accessibility of the page (WCAG 2.2 AA)</source>
+        <translation>Quppernerup iserfiginnissaa misissoruk (WCAG 2.2 AA)</translation>
+    </message>
+    <message>
+        <source>Checking the accessibility ...</source>
+        <translation>Iserfiginnissaq misissorneqarpoq ...</translation>
+    </message>
+    <message>
+        <source>The automatic check found no accessibility problems.</source>
+        <translation>Misissuineq nammineq ingerlasoq iserfiginnissamut ajornartorsiutinik nassaarsinngilaq.</translation>
+    </message>
+    <message>
+        <source>%n accessibility problems</source>
+        <translation>Iserfiginnissamut ajornartorsiutit %n</translation>
+    </message>
+    <message>
+        <source>Critical</source>
+        <translation>Navianarluinnartoq</translation>
+    </message>
+    <message>
+        <source>Serious</source>
+        <translation>Annertuumik</translation>
+    </message>
+    <message>
+        <source>Moderate</source>
+        <translation>Akunnattumik</translation>
+    </message>
+    <message>
+        <source>Minor</source>
+        <translation>Annikitsoq</translation>
+    </message>
+    <message>
+        <source>Field: %name</source>
+        <translation>Immersugassaq: %name</translation>
+    </message>
+    <message>
+        <source>Block: %name</source>
+        <translation>Blok: %name</translation>
+    </message>
+    <message>
+        <source>Template: %name</source>
+        <translation>Ilisarnaat: %name</translation>
+    </message>
+    <message>
+        <source>More about this rule</source>
+        <translation>Maleruagassaq una pillugu annerusumik</translation>
+    </message>
+    <message>
+        <source>The accessibility check could not run.</source>
+        <translation>Iserfiginnissap misissorneqarnera ingerlanneqarsinnaanngilaq.</translation>
+    </message>
+    <message>
+        <source>An automatic check finds only some problems: also try the page with the keyboard alone and with a screen reader.</source>
+        <translation>Misissuineq nammineq ingerlasoq ajornartorsiutinik ilaannaanik nassaarisarpoq: quppernerit naqitassaatinik kisimi aamma skærmip atuarfianik misiliguk.</translation>
+    </message>
+    <message>
+        <source>The rule texts come from axe-core, in English.</source>
+        <translation>Maleruagassat allagaat axe-core-mit pipput, tuluttut.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

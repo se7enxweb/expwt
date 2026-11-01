@@ -2071,6 +2071,70 @@
         <source>The accent color %color (expwt.ini [BrandingSettings] %setting) is not used: its contrast is %ratio:1, at least %needed:1 is needed.</source>
         <translation>ܓܘܢܐ ܕܬܘܟܝܕܐ %color (expwt.ini [BrandingSettings] %setting) ܠܐ ܡܬܦܠܚ: ܦܘܪܫܢܗ %ratio:1 ܐܝܬܘܗܝ، ܠܟܠ ܗܕܐ %needed:1 ܣܢܝܩ.</translation>
     </message>
+    <message>
+        <source>Accessibility</source>
+        <translation>ܡܛܝܢܘܬܐ</translation>
+    </message>
+    <message>
+        <source>Check the accessibility of the page (WCAG 2.2 AA)</source>
+        <translation>ܒܨܝ ܡܛܝܢܘܬܐ ܕܦܐܬܐ (WCAG 2.2 AA)</translation>
+    </message>
+    <message>
+        <source>Checking the accessibility ...</source>
+        <translation>ܒܨܝܢܢ ܡܛܝܢܘܬܐ ...</translation>
+    </message>
+    <message>
+        <source>The automatic check found no accessibility problems.</source>
+        <translation>ܒܘܨܝܐ ܐܘܛܘܡܛܝܩܝܐ ܠܐ ܐܫܟܚ ܐܦ ܚܕܐ ܥܣܩܘܬܐ ܕܡܛܝܢܘܬܐ.</translation>
+    </message>
+    <message>
+        <source>%n accessibility problems</source>
+        <translation>%n ܥܣܩܘ̈ܬܐ ܕܡܛܝܢܘܬܐ</translation>
+    </message>
+    <message>
+        <source>Critical</source>
+        <translation>ܚܪܝܦܬܐ</translation>
+    </message>
+    <message>
+        <source>Serious</source>
+        <translation>ܝܩܝܪܬܐ</translation>
+    </message>
+    <message>
+        <source>Moderate</source>
+        <translation>ܡܨܥܝܬܐ</translation>
+    </message>
+    <message>
+        <source>Minor</source>
+        <translation>ܙܥܘܪܬܐ</translation>
+    </message>
+    <message>
+        <source>Field: %name</source>
+        <translation>ܚܩܠܐ: %name</translation>
+    </message>
+    <message>
+        <source>Block: %name</source>
+        <translation>ܦܠܓܘܬܐ: %name</translation>
+    </message>
+    <message>
+        <source>Template: %name</source>
+        <translation>ܛܘܦܣܐ: %name</translation>
+    </message>
+    <message>
+        <source>More about this rule</source>
+        <translation>ܝܬܝܪ ܥܠ ܢܡܘܣܐ ܗܢܐ</translation>
+    </message>
+    <message>
+        <source>The accessibility check could not run.</source>
+        <translation>ܒܘܨܝܐ ܕܡܛܝܢܘܬܐ ܠܐ ܐܫܟܚ ܠܡܪܗܛ.</translation>
+    </message>
+    <message>
+        <source>An automatic check finds only some problems: also try the page with the keyboard alone and with a screen reader.</source>
+        <translation>ܒܘܨܝܐ ܐܘܛܘܡܛܝܩܝܐ ܡܫܟܚ ܩܨܬ ܥܣܩܘ̈ܬܐ ܒܠܚܘܕ: ܢܣܝ ܦܐܬܐ ܐܦ ܒܩܠܝ̈ܕܐ ܒܠܚܘܕ ܘܒܩܪܘܝܐ ܕܡܣܟܐ.</translation>
+    </message>
+    <message>
+        <source>The rule texts come from axe-core, in English.</source>
+        <translation>ܟܬܒ̈ܐ ܕܢܡܘ̈ܣܐ ܐܬܝܢ ܡܢ axe-core، ܒܠܫܢܐ ܐܢܓܠܝܐ.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

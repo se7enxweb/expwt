@@ -2071,6 +2071,70 @@
         <source>The accent color %color (expwt.ini [BrandingSettings] %setting) is not used: its contrast is %ratio:1, at least %needed:1 is needed.</source>
         <translation>Rõhuvärvi %color (expwt.ini [BrandingSettings] %setting) ei kasutata: selle kontrast on %ratio:1, vaja on vähemalt %needed:1.</translation>
     </message>
+    <message>
+        <source>Accessibility</source>
+        <translation>Ligipääsetavus</translation>
+    </message>
+    <message>
+        <source>Check the accessibility of the page (WCAG 2.2 AA)</source>
+        <translation>Kontrolli lehe ligipääsetavust (WCAG 2.2 AA)</translation>
+    </message>
+    <message>
+        <source>Checking the accessibility ...</source>
+        <translation>Ligipääsetavuse kontrollimine ...</translation>
+    </message>
+    <message>
+        <source>The automatic check found no accessibility problems.</source>
+        <translation>Automaatne kontroll ei leidnud ligipääsetavuse probleeme.</translation>
+    </message>
+    <message>
+        <source>%n accessibility problems</source>
+        <translation>%n ligipääsetavuse probleemi</translation>
+    </message>
+    <message>
+        <source>Critical</source>
+        <translation>Kriitiline</translation>
+    </message>
+    <message>
+        <source>Serious</source>
+        <translation>Tõsine</translation>
+    </message>
+    <message>
+        <source>Moderate</source>
+        <translation>Mõõdukas</translation>
+    </message>
+    <message>
+        <source>Minor</source>
+        <translation>Väike</translation>
+    </message>
+    <message>
+        <source>Field: %name</source>
+        <translation>Väli: %name</translation>
+    </message>
+    <message>
+        <source>Block: %name</source>
+        <translation>Plokk: %name</translation>
+    </message>
+    <message>
+        <source>Template: %name</source>
+        <translation>Mall: %name</translation>
+    </message>
+    <message>
+        <source>More about this rule</source>
+        <translation>Lisateave selle reegli kohta</translation>
+    </message>
+    <message>
+        <source>The accessibility check could not run.</source>
+        <translation>Ligipääsetavuse kontrolli ei saanud käivitada.</translation>
+    </message>
+    <message>
+        <source>An automatic check finds only some problems: also try the page with the keyboard alone and with a screen reader.</source>
+        <translation>Automaatne kontroll leiab vaid osa probleemidest: proovige lehte ka ainult klaviatuuriga ja ekraanilugejaga.</translation>
+    </message>
+    <message>
+        <source>The rule texts come from axe-core, in English.</source>
+        <translation>Reeglite tekstid pärinevad axe-core'ist, inglise keeles.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

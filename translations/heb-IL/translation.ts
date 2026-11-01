@@ -2071,6 +2071,70 @@
         <source>The accent color %color (expwt.ini [BrandingSettings] %setting) is not used: its contrast is %ratio:1, at least %needed:1 is needed.</source>
         <translation>צבע ההדגשה %color (expwt.ini [BrandingSettings] %setting) אינו בשימוש: הניגודיות שלו היא %ratio:1, נדרש לפחות %needed:1.</translation>
     </message>
+    <message>
+        <source>Accessibility</source>
+        <translation>נגישות</translation>
+    </message>
+    <message>
+        <source>Check the accessibility of the page (WCAG 2.2 AA)</source>
+        <translation>בדיקת הנגישות של הדף (WCAG 2.2 AA)</translation>
+    </message>
+    <message>
+        <source>Checking the accessibility ...</source>
+        <translation>בודק נגישות ...</translation>
+    </message>
+    <message>
+        <source>The automatic check found no accessibility problems.</source>
+        <translation>הבדיקה האוטומטית לא מצאה בעיות נגישות.</translation>
+    </message>
+    <message>
+        <source>%n accessibility problems</source>
+        <translation>%n בעיות נגישות</translation>
+    </message>
+    <message>
+        <source>Critical</source>
+        <translation>קריטית</translation>
+    </message>
+    <message>
+        <source>Serious</source>
+        <translation>חמורה</translation>
+    </message>
+    <message>
+        <source>Moderate</source>
+        <translation>בינונית</translation>
+    </message>
+    <message>
+        <source>Minor</source>
+        <translation>קלה</translation>
+    </message>
+    <message>
+        <source>Field: %name</source>
+        <translation>שדה: %name</translation>
+    </message>
+    <message>
+        <source>Block: %name</source>
+        <translation>בלוק: %name</translation>
+    </message>
+    <message>
+        <source>Template: %name</source>
+        <translation>תבנית: %name</translation>
+    </message>
+    <message>
+        <source>More about this rule</source>
+        <translation>עוד על הכלל הזה</translation>
+    </message>
+    <message>
+        <source>The accessibility check could not run.</source>
+        <translation>לא ניתן היה להריץ את בדיקת הנגישות.</translation>
+    </message>
+    <message>
+        <source>An automatic check finds only some problems: also try the page with the keyboard alone and with a screen reader.</source>
+        <translation>בדיקה אוטומטית מוצאת רק חלק מהבעיות: נסו את הדף גם עם המקלדת בלבד ועם קורא מסך.</translation>
+    </message>
+    <message>
+        <source>The rule texts come from axe-core, in English.</source>
+        <translation>טקסטי הכללים מגיעים מ-axe-core, באנגלית.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

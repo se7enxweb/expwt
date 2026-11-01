@@ -2071,6 +2071,70 @@
         <source>The accent color %color (expwt.ini [BrandingSettings] %setting) is not used: its contrast is %ratio:1, at least %needed:1 is needed.</source>
         <translation>גוונא דטעמא %color (expwt.ini [BrandingSettings] %setting) לא קא משתמש: פרשותא דידה %ratio:1 ילה, לפחות %needed:1 גריך.</translation>
     </message>
+    <message>
+        <source>Accessibility</source>
+        <translation>מטיינותא</translation>
+    </message>
+    <message>
+        <source>Check the accessibility of the page (WCAG 2.2 AA)</source>
+        <translation>בדוק מטיינותא דדפא (WCAG 2.2 AA)</translation>
+    </message>
+    <message>
+        <source>Checking the accessibility ...</source>
+        <translation>קא בדקינן מטיינותא ...</translation>
+    </message>
+    <message>
+        <source>The automatic check found no accessibility problems.</source>
+        <translation>בדיקא דמן גרמה לא אשכח קשיותא דמטיינותא.</translation>
+    </message>
+    <message>
+        <source>%n accessibility problems</source>
+        <translation>%n קשיותא דמטיינותא</translation>
+    </message>
+    <message>
+        <source>Critical</source>
+        <translation>חריפא</translation>
+    </message>
+    <message>
+        <source>Serious</source>
+        <translation>יקירא</translation>
+    </message>
+    <message>
+        <source>Moderate</source>
+        <translation>מציעאה</translation>
+    </message>
+    <message>
+        <source>Minor</source>
+        <translation>זעורא</translation>
+    </message>
+    <message>
+        <source>Field: %name</source>
+        <translation>ܚܩܠܐ: %name</translation>
+    </message>
+    <message>
+        <source>Block: %name</source>
+        <translation>פלגותא: %name</translation>
+    </message>
+    <message>
+        <source>Template: %name</source>
+        <translation>טופסא: %name</translation>
+    </message>
+    <message>
+        <source>More about this rule</source>
+        <translation>יתיר על דינא הדא</translation>
+    </message>
+    <message>
+        <source>The accessibility check could not run.</source>
+        <translation>בדיקא דמטיינותא לא מצא למרהט.</translation>
+    </message>
+    <message>
+        <source>An automatic check finds only some problems: also try the page with the keyboard alone and with a screen reader.</source>
+        <translation>בדיקא דמן גרמה משכח קצת קשיותא בלחוד: נסי דפא אף בקלידא בלחוד ובקריא דמסכא.</translation>
+    </message>
+    <message>
+        <source>The rule texts come from axe-core, in English.</source>
+        <translation>כתבי דינא אתין מן axe-core, בלשן אנגליא.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

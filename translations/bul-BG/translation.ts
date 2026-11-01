@@ -2071,6 +2071,70 @@
         <source>The accent color %color (expwt.ini [BrandingSettings] %setting) is not used: its contrast is %ratio:1, at least %needed:1 is needed.</source>
         <translation>Акцентният цвят %color (expwt.ini [BrandingSettings] %setting) не се използва: контрастът му е %ratio:1, нужен е поне %needed:1.</translation>
     </message>
+    <message>
+        <source>Accessibility</source>
+        <translation>Достъпност</translation>
+    </message>
+    <message>
+        <source>Check the accessibility of the page (WCAG 2.2 AA)</source>
+        <translation>Провери достъпността на страницата (WCAG 2.2 AA)</translation>
+    </message>
+    <message>
+        <source>Checking the accessibility ...</source>
+        <translation>Проверка на достъпността ...</translation>
+    </message>
+    <message>
+        <source>The automatic check found no accessibility problems.</source>
+        <translation>Автоматичната проверка не откри проблеми с достъпността.</translation>
+    </message>
+    <message>
+        <source>%n accessibility problems</source>
+        <translation>%n проблема с достъпността</translation>
+    </message>
+    <message>
+        <source>Critical</source>
+        <translation>Критичен</translation>
+    </message>
+    <message>
+        <source>Serious</source>
+        <translation>Сериозен</translation>
+    </message>
+    <message>
+        <source>Moderate</source>
+        <translation>Умерен</translation>
+    </message>
+    <message>
+        <source>Minor</source>
+        <translation>Незначителен</translation>
+    </message>
+    <message>
+        <source>Field: %name</source>
+        <translation>Поле: %name</translation>
+    </message>
+    <message>
+        <source>Block: %name</source>
+        <translation>Блок: %name</translation>
+    </message>
+    <message>
+        <source>Template: %name</source>
+        <translation>Шаблон: %name</translation>
+    </message>
+    <message>
+        <source>More about this rule</source>
+        <translation>Повече за това правило</translation>
+    </message>
+    <message>
+        <source>The accessibility check could not run.</source>
+        <translation>Проверката на достъпността не можа да се изпълни.</translation>
+    </message>
+    <message>
+        <source>An automatic check finds only some problems: also try the page with the keyboard alone and with a screen reader.</source>
+        <translation>Автоматичната проверка открива само част от проблемите: пробвайте страницата и само с клавиатура, и с екранен четец.</translation>
+    </message>
+    <message>
+        <source>The rule texts come from axe-core, in English.</source>
+        <translation>Текстовете на правилата идват от axe-core, на английски.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

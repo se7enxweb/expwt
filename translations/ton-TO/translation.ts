@@ -2071,6 +2071,70 @@
         <source>The accent color %color (expwt.ini [BrandingSettings] %setting) is not used: its contrast is %ratio:1, at least %needed:1 is needed.</source>
         <translation>ʻOku ʻikai ngāueʻaki ʻa e lanu fakamamafa %color (expwt.ini [BrandingSettings] %setting): ko hono faikehekehe ko e %ratio:1, ʻoku fiemaʻu ʻo siʻisiʻi taha ki he %needed:1.</translation>
     </message>
+    <message>
+        <source>Accessibility</source>
+        <translation>Faingofua ke aʻu ki ai</translation>
+    </message>
+    <message>
+        <source>Check the accessibility of the page (WCAG 2.2 AA)</source>
+        <translation>Siviʻi ʻa e faingofua ke aʻu ki he peesi (WCAG 2.2 AA)</translation>
+    </message>
+    <message>
+        <source>Checking the accessibility ...</source>
+        <translation>ʻOku siviʻi ʻa e faingofua ke aʻu ki ai ...</translation>
+    </message>
+    <message>
+        <source>The automatic check found no accessibility problems.</source>
+        <translation>Naʻe ʻikai ʻilo ʻe he siviʻi fakaʻotometiki ha palopalema ʻo e faingofua ke aʻu ki ai.</translation>
+    </message>
+    <message>
+        <source>%n accessibility problems</source>
+        <translation>Palopalema ʻe %n ʻo e faingofua ke aʻu ki ai</translation>
+    </message>
+    <message>
+        <source>Critical</source>
+        <translation>Mātuʻaki mafatukituki</translation>
+    </message>
+    <message>
+        <source>Serious</source>
+        <translation>Mafatukituki</translation>
+    </message>
+    <message>
+        <source>Moderate</source>
+        <translation>Lotoloto</translation>
+    </message>
+    <message>
+        <source>Minor</source>
+        <translation>Siʻi</translation>
+    </message>
+    <message>
+        <source>Field: %name</source>
+        <translation>Feituʻu: %name</translation>
+    </message>
+    <message>
+        <source>Block: %name</source>
+        <translation>Poloka: %name</translation>
+    </message>
+    <message>
+        <source>Template: %name</source>
+        <translation>Sīpinga: %name</translation>
+    </message>
+    <message>
+        <source>More about this rule</source>
+        <translation>Meʻa lahi ange fekauʻaki mo e lao ko ʻeni</translation>
+    </message>
+    <message>
+        <source>The accessibility check could not run.</source>
+        <translation>Naʻe ʻikai lava ke fakalele ʻa e siviʻi faingofua ke aʻu ki ai.</translation>
+    </message>
+    <message>
+        <source>An automatic check finds only some problems: also try the page with the keyboard alone and with a screen reader.</source>
+        <translation>ʻOku ʻilo pē ʻe ha siviʻi fakaʻotometiki ʻa e ngaahi palopalema ʻe niʻihi: ʻahiʻahiʻi foki ʻa e peesi ʻaki pē ʻa e kīpoti pea mo ha meʻa lau sikilini.</translation>
+    </message>
+    <message>
+        <source>The rule texts come from axe-core, in English.</source>
+        <translation>ʻOku haʻu ʻa e ngaahi tohi ʻo e lao mei he axe-core, ʻi he lea faka-Pilitānia.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

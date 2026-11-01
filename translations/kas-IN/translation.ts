@@ -2071,6 +2071,70 @@
         <source>The accent color %color (expwt.ini [BrandingSettings] %setting) is not used: its contrast is %ratio:1, at least %needed:1 is needed.</source>
         <translation>ایکسینٹ رنگ %color (expwt.ini [BrandingSettings] %setting) چھُنہٕ استعمال سپدان: اَمہِ ہُند کنٹراسٹ چھُ %ratio:1، کم از کم %needed:1 چھُ ضروری۔</translation>
     </message>
+    <message>
+        <source>Accessibility</source>
+        <translation>رسائی</translation>
+    </message>
+    <message>
+        <source>Check the accessibility of the page (WCAG 2.2 AA)</source>
+        <translation>صفحُک رسائی جانچِو (WCAG 2.2 AA)</translation>
+    </message>
+    <message>
+        <source>Checking the accessibility ...</source>
+        <translation>رسائی چھےٚ جانچنہٕ یِوان ...</translation>
+    </message>
+    <message>
+        <source>The automatic check found no accessibility problems.</source>
+        <translation>خودکار جانچہِ منز آو نہٕ رسائی ہُند کانٛہہ مسلہٕ نظرِ۔</translation>
+    </message>
+    <message>
+        <source>%n accessibility problems</source>
+        <translation>رسائی ہِنٛدۍ %n مسلہٕ</translation>
+    </message>
+    <message>
+        <source>Critical</source>
+        <translation>سٔخت نازُک</translation>
+    </message>
+    <message>
+        <source>Serious</source>
+        <translation>سنجیدٕ</translation>
+    </message>
+    <message>
+        <source>Moderate</source>
+        <translation>درمیانہٕ</translation>
+    </message>
+    <message>
+        <source>Minor</source>
+        <translation>لوکٕٹ</translation>
+    </message>
+    <message>
+        <source>Field: %name</source>
+        <translation>فیلڈ: %name</translation>
+    </message>
+    <message>
+        <source>Block: %name</source>
+        <translation>بلاک: %name</translation>
+    </message>
+    <message>
+        <source>Template: %name</source>
+        <translation>ٹیمپلیٹ: %name</translation>
+    </message>
+    <message>
+        <source>More about this rule</source>
+        <translation>یَتھ قانونس متعلق مزید</translation>
+    </message>
+    <message>
+        <source>The accessibility check could not run.</source>
+        <translation>رسائی ہُنٛد جانچ ہیوٚک نہٕ چلِتھ۔</translation>
+    </message>
+    <message>
+        <source>An automatic check finds only some problems: also try the page with the keyboard alone and with a screen reader.</source>
+        <translation>خودکار جانچ چھےٚ صرف کینٛہہ مسلہٕ ژھانٛڈان: صفحہٕ آزمٲیِو صرف کیبورڈ سٟتۍ تہٕ سکرین ریڈر سٟتۍ تہِ۔</translation>
+    </message>
+    <message>
+        <source>The rule texts come from axe-core, in English.</source>
+        <translation>قانونن ہِنٛدۍ متن چھِ axe-core پیٚٹھٕ یِوان، انگریزی منز۔</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

@@ -2071,6 +2071,70 @@
         <source>The accent color %color (expwt.ini [BrandingSettings] %setting) is not used: its contrast is %ratio:1, at least %needed:1 is needed.</source>
         <translation>Akcenta krāsa %color (expwt.ini [BrandingSettings] %setting) netiek izmantota: tās kontrasts ir %ratio:1, nepieciešams vismaz %needed:1.</translation>
     </message>
+    <message>
+        <source>Accessibility</source>
+        <translation>Piekļūstamība</translation>
+    </message>
+    <message>
+        <source>Check the accessibility of the page (WCAG 2.2 AA)</source>
+        <translation>Pārbaudīt lapas piekļūstamību (WCAG 2.2 AA)</translation>
+    </message>
+    <message>
+        <source>Checking the accessibility ...</source>
+        <translation>Pārbauda piekļūstamību ...</translation>
+    </message>
+    <message>
+        <source>The automatic check found no accessibility problems.</source>
+        <translation>Automātiskā pārbaude neatrada piekļūstamības problēmas.</translation>
+    </message>
+    <message>
+        <source>%n accessibility problems</source>
+        <translation>%n piekļūstamības problēmas</translation>
+    </message>
+    <message>
+        <source>Critical</source>
+        <translation>Kritiska</translation>
+    </message>
+    <message>
+        <source>Serious</source>
+        <translation>Nopietna</translation>
+    </message>
+    <message>
+        <source>Moderate</source>
+        <translation>Vidēja</translation>
+    </message>
+    <message>
+        <source>Minor</source>
+        <translation>Neliela</translation>
+    </message>
+    <message>
+        <source>Field: %name</source>
+        <translation>Lauks: %name</translation>
+    </message>
+    <message>
+        <source>Block: %name</source>
+        <translation>Bloks: %name</translation>
+    </message>
+    <message>
+        <source>Template: %name</source>
+        <translation>Veidne: %name</translation>
+    </message>
+    <message>
+        <source>More about this rule</source>
+        <translation>Vairāk par šo noteikumu</translation>
+    </message>
+    <message>
+        <source>The accessibility check could not run.</source>
+        <translation>Piekļūstamības pārbaudi neizdevās palaist.</translation>
+    </message>
+    <message>
+        <source>An automatic check finds only some problems: also try the page with the keyboard alone and with a screen reader.</source>
+        <translation>Automātiskā pārbaude atrod tikai daļu problēmu: izmēģiniet lapu arī tikai ar tastatūru un ar ekrāna lasītāju.</translation>
+    </message>
+    <message>
+        <source>The rule texts come from axe-core, in English.</source>
+        <translation>Noteikumu teksti nāk no axe-core, angļu valodā.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

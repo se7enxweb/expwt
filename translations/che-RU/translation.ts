@@ -2071,6 +2071,70 @@
         <source>The accent color %color (expwt.ini [BrandingSettings] %setting) is not used: its contrast is %ratio:1, at least %needed:1 is needed.</source>
         <translation>Акцентан бос %color (expwt.ini [BrandingSettings] %setting) лелош дац: цуьнан контраст %ratio:1 бу, уггар кӀезиг а %needed:1 оьшу.</translation>
     </message>
+    <message>
+        <source>Accessibility</source>
+        <translation>Тӏекхачар</translation>
+    </message>
+    <message>
+        <source>Check the accessibility of the page (WCAG 2.2 AA)</source>
+        <translation>АгӀонан тӀекхачар таллар (WCAG 2.2 AA)</translation>
+    </message>
+    <message>
+        <source>Checking the accessibility ...</source>
+        <translation>ТӀекхачар толлуш ду ...</translation>
+    </message>
+    <message>
+        <source>The automatic check found no accessibility problems.</source>
+        <translation>Автоматически таллам тӀекхачарца проблемаш ца карийна.</translation>
+    </message>
+    <message>
+        <source>%n accessibility problems</source>
+        <translation>ТӀекхачарца %n проблема</translation>
+    </message>
+    <message>
+        <source>Critical</source>
+        <translation>Критически</translation>
+    </message>
+    <message>
+        <source>Serious</source>
+        <translation>Чолхе</translation>
+    </message>
+    <message>
+        <source>Moderate</source>
+        <translation>Юккъера</translation>
+    </message>
+    <message>
+        <source>Minor</source>
+        <translation>Жима</translation>
+    </message>
+    <message>
+        <source>Field: %name</source>
+        <translation>Аре: %name</translation>
+    </message>
+    <message>
+        <source>Block: %name</source>
+        <translation>Блок: %name</translation>
+    </message>
+    <message>
+        <source>Template: %name</source>
+        <translation>Кеп: %name</translation>
+    </message>
+    <message>
+        <source>More about this rule</source>
+        <translation>ХӀокху бакъонах лаьцна кхин</translation>
+    </message>
+    <message>
+        <source>The accessibility check could not run.</source>
+        <translation>ТӀекхачаран таллам болийна ца хилира.</translation>
+    </message>
+    <message>
+        <source>An automatic check finds only some problems: also try the page with the keyboard alone and with a screen reader.</source>
+        <translation>Автоматически талламо цхьайолу проблемаш бен ца карайо: агӀо клавиатурца бен а, экран ешархочуьнца а хьажа.</translation>
+    </message>
+    <message>
+        <source>The rule texts come from axe-core, in English.</source>
+        <translation>Бакъонийн текстaш axe-core-ера ю, ингалсан маттахь.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

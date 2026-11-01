@@ -2071,6 +2071,70 @@
         <source>The accent color %color (expwt.ini [BrandingSettings] %setting) is not used: its contrast is %ratio:1, at least %needed:1 is needed.</source>
         <translation>Aksentfargen %color (expwt.ini [BrandingSettings] %setting) brukes ikke: kontrasten er %ratio:1, minst %needed:1 kreves.</translation>
     </message>
+    <message>
+        <source>Accessibility</source>
+        <translation>Tilgjengelighet</translation>
+    </message>
+    <message>
+        <source>Check the accessibility of the page (WCAG 2.2 AA)</source>
+        <translation>Kontroller sidens tilgjengelighet (WCAG 2.2 AA)</translation>
+    </message>
+    <message>
+        <source>Checking the accessibility ...</source>
+        <translation>Kontrollerer tilgjengeligheten ...</translation>
+    </message>
+    <message>
+        <source>The automatic check found no accessibility problems.</source>
+        <translation>Den automatiske kontrollen fant ingen tilgjengelighetsproblemer.</translation>
+    </message>
+    <message>
+        <source>%n accessibility problems</source>
+        <translation>%n tilgjengelighetsproblemer</translation>
+    </message>
+    <message>
+        <source>Critical</source>
+        <translation>Kritisk</translation>
+    </message>
+    <message>
+        <source>Serious</source>
+        <translation>Alvorlig</translation>
+    </message>
+    <message>
+        <source>Moderate</source>
+        <translation>Moderat</translation>
+    </message>
+    <message>
+        <source>Minor</source>
+        <translation>Mindre</translation>
+    </message>
+    <message>
+        <source>Field: %name</source>
+        <translation>Felt: %name</translation>
+    </message>
+    <message>
+        <source>Block: %name</source>
+        <translation>Blokk: %name</translation>
+    </message>
+    <message>
+        <source>Template: %name</source>
+        <translation>Mal: %name</translation>
+    </message>
+    <message>
+        <source>More about this rule</source>
+        <translation>Mer om denne regelen</translation>
+    </message>
+    <message>
+        <source>The accessibility check could not run.</source>
+        <translation>Tilgjengelighetskontrollen kunne ikke kjøres.</translation>
+    </message>
+    <message>
+        <source>An automatic check finds only some problems: also try the page with the keyboard alone and with a screen reader.</source>
+        <translation>En automatisk kontroll finner bare noen problemer: prøv også siden med bare tastaturet og med en skjermleser.</translation>
+    </message>
+    <message>
+        <source>The rule texts come from axe-core, in English.</source>
+        <translation>Regeltekstene kommer fra axe-core, på engelsk.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

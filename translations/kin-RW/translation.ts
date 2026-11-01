@@ -2071,6 +2071,70 @@
         <source>The accent color %color (expwt.ini [BrandingSettings] %setting) is not used: its contrast is %ratio:1, at least %needed:1 is needed.</source>
         <translation>Ibara ry'ingenzi %color (expwt.ini [BrandingSettings] %setting) ntirikoreshwa: itandukaniro ryaryo ni %ratio:1, hakenewe nibura %needed:1.</translation>
     </message>
+    <message>
+        <source>Accessibility</source>
+        <translation>Kugerwaho</translation>
+    </message>
+    <message>
+        <source>Check the accessibility of the page (WCAG 2.2 AA)</source>
+        <translation>Genzura uko urupapuro rugerwaho (WCAG 2.2 AA)</translation>
+    </message>
+    <message>
+        <source>Checking the accessibility ...</source>
+        <translation>Kugenzura uko rugerwaho ...</translation>
+    </message>
+    <message>
+        <source>The automatic check found no accessibility problems.</source>
+        <translation>Igenzura ryikora ntiryabonye ikibazo cyo kugerwaho.</translation>
+    </message>
+    <message>
+        <source>%n accessibility problems</source>
+        <translation>Ibibazo %n byo kugerwaho</translation>
+    </message>
+    <message>
+        <source>Critical</source>
+        <translation>Gikomeye cyane</translation>
+    </message>
+    <message>
+        <source>Serious</source>
+        <translation>Gikomeye</translation>
+    </message>
+    <message>
+        <source>Moderate</source>
+        <translation>Kiringaniye</translation>
+    </message>
+    <message>
+        <source>Minor</source>
+        <translation>Gito</translation>
+    </message>
+    <message>
+        <source>Field: %name</source>
+        <translation>Umwanya: %name</translation>
+    </message>
+    <message>
+        <source>Block: %name</source>
+        <translation>Igice: %name</translation>
+    </message>
+    <message>
+        <source>Template: %name</source>
+        <translation>Icyitegererezo: %name</translation>
+    </message>
+    <message>
+        <source>More about this rule</source>
+        <translation>Byinshi kuri iri tegeko</translation>
+    </message>
+    <message>
+        <source>The accessibility check could not run.</source>
+        <translation>Igenzura ryo kugerwaho ntiryashoboye gukora.</translation>
+    </message>
+    <message>
+        <source>An automatic check finds only some problems: also try the page with the keyboard alone and with a screen reader.</source>
+        <translation>Igenzura ryikora ribona ibibazo bimwe gusa: gerageza urupapuro kandi ukoresheje mwandikisho gusa n'usoma ecran.</translation>
+    </message>
+    <message>
+        <source>The rule texts come from axe-core, in English.</source>
+        <translation>Inyandiko z'amategeko ziva muri axe-core, mu Cyongereza.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

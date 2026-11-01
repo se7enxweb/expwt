@@ -2071,6 +2071,70 @@
         <source>The accent color %color (expwt.ini [BrandingSettings] %setting) is not used: its contrast is %ratio:1, at least %needed:1 is needed.</source>
         <translation>rItlh SaH %color (expwt.ini [BrandingSettings] %setting) lo'lu'be': Hutlh'e' %ratio:1 'oH, %needed:1 puS poQlu'.</translation>
     </message>
+    <message>
+        <source>Accessibility</source>
+        <translation>naDev 'el laH</translation>
+    </message>
+    <message>
+        <source>Check the accessibility of the page (WCAG 2.2 AA)</source>
+        <translation>nav 'el laH yIwIv (WCAG 2.2 AA)</translation>
+    </message>
+    <message>
+        <source>Checking the accessibility ...</source>
+        <translation>'el laH lunuDtaH ...</translation>
+    </message>
+    <message>
+        <source>The automatic check found no accessibility problems.</source>
+        <translation>nuDmeH jo' ghoSbe'bogh 'el laH Qagh tu'be'.</translation>
+    </message>
+    <message>
+        <source>%n accessibility problems</source>
+        <translation>'el laH Qaghmey %n</translation>
+    </message>
+    <message>
+        <source>Critical</source>
+        <translation>potlh law'</translation>
+    </message>
+    <message>
+        <source>Serious</source>
+        <translation>potlh</translation>
+    </message>
+    <message>
+        <source>Moderate</source>
+        <translation>motlh</translation>
+    </message>
+    <message>
+        <source>Minor</source>
+        <translation>mach</translation>
+    </message>
+    <message>
+        <source>Field: %name</source>
+        <translation>Dey: %name</translation>
+    </message>
+    <message>
+        <source>Block: %name</source>
+        <translation>ghom: %name</translation>
+    </message>
+    <message>
+        <source>Template: %name</source>
+        <translation>mIllogh nav: %name</translation>
+    </message>
+    <message>
+        <source>More about this rule</source>
+        <translation>chutvam De' latlh</translation>
+    </message>
+    <message>
+        <source>The accessibility check could not run.</source>
+        <translation>'el laH nuDlu'meH Qapbe'.</translation>
+    </message>
+    <message>
+        <source>An automatic check finds only some problems: also try the page with the keyboard alone and with a screen reader.</source>
+        <translation>'op Qaghmey neH tu' nuDmeH jo' nIteb Qapbogh: nav yInuD SeHlaw neH lo'taHvIS, 'ej jIH laDwI' lo'taHvIS je.</translation>
+    </message>
+    <message>
+        <source>The rule texts come from axe-core, in English.</source>
+        <translation>axe-core Hevlu' chut ghItlhmey, DIvI' Hol Daq.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

@@ -2071,6 +2071,70 @@
         <source>The accent color %color (expwt.ini [BrandingSettings] %setting) is not used: its contrast is %ratio:1, at least %needed:1 is needed.</source>
         <translation>Color insignis %color (expwt.ini [BrandingSettings] %setting) non adhibetur: discrimen eius est %ratio:1, saltem %needed:1 requiritur.</translation>
     </message>
+    <message>
+        <source>Accessibility</source>
+        <translation>Accessibilitas</translation>
+    </message>
+    <message>
+        <source>Check the accessibility of the page (WCAG 2.2 AA)</source>
+        <translation>Accessibilitatem paginae inspice (WCAG 2.2 AA)</translation>
+    </message>
+    <message>
+        <source>Checking the accessibility ...</source>
+        <translation>Accessibilitas inspicitur ...</translation>
+    </message>
+    <message>
+        <source>The automatic check found no accessibility problems.</source>
+        <translation>Inspectio automatica nulla accessibilitatis vitia invenit.</translation>
+    </message>
+    <message>
+        <source>%n accessibility problems</source>
+        <translation>%n vitia accessibilitatis</translation>
+    </message>
+    <message>
+        <source>Critical</source>
+        <translation>Gravissimum</translation>
+    </message>
+    <message>
+        <source>Serious</source>
+        <translation>Grave</translation>
+    </message>
+    <message>
+        <source>Moderate</source>
+        <translation>Mediocre</translation>
+    </message>
+    <message>
+        <source>Minor</source>
+        <translation>Leve</translation>
+    </message>
+    <message>
+        <source>Field: %name</source>
+        <translation>Campus: %name</translation>
+    </message>
+    <message>
+        <source>Block: %name</source>
+        <translation>Truncus: %name</translation>
+    </message>
+    <message>
+        <source>Template: %name</source>
+        <translation>Exemplar: %name</translation>
+    </message>
+    <message>
+        <source>More about this rule</source>
+        <translation>Plura de hac regula</translation>
+    </message>
+    <message>
+        <source>The accessibility check could not run.</source>
+        <translation>Inspectio accessibilitatis fieri non potuit.</translation>
+    </message>
+    <message>
+        <source>An automatic check finds only some problems: also try the page with the keyboard alone and with a screen reader.</source>
+        <translation>Inspectio automatica quaedam tantum vitia invenit: paginam etiam sola claviatura et lectore visorii experire.</translation>
+    </message>
+    <message>
+        <source>The rule texts come from axe-core, in English.</source>
+        <translation>Textus regularum ex axe-core veniunt, Anglice.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

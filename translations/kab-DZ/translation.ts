@@ -2071,6 +2071,70 @@
         <source>The accent color %color (expwt.ini [BrandingSettings] %setting) is not used: its contrast is %ratio:1, at least %needed:1 is needed.</source>
         <translation>Ini n usebrureq %color (expwt.ini [BrandingSettings] %setting) ur yettwaseqdac ara: amgired-is d %ratio:1, ilaq ma drus %needed:1.</translation>
     </message>
+    <message>
+        <source>Accessibility</source>
+        <translation>Tanekcamt</translation>
+    </message>
+    <message>
+        <source>Check the accessibility of the page (WCAG 2.2 AA)</source>
+        <translation>Senqed tanekcamt n usebter (WCAG 2.2 AA)</translation>
+    </message>
+    <message>
+        <source>Checking the accessibility ...</source>
+        <translation>Asenqed n tnekcamt ...</translation>
+    </message>
+    <message>
+        <source>The automatic check found no accessibility problems.</source>
+        <translation>Asenqed awurman ur yufi ara ugur n tnekcamt.</translation>
+    </message>
+    <message>
+        <source>%n accessibility problems</source>
+        <translation>%n n wuguren n tnekcamt</translation>
+    </message>
+    <message>
+        <source>Critical</source>
+        <translation>Ugur ameqqran</translation>
+    </message>
+    <message>
+        <source>Serious</source>
+        <translation>Ixṣer</translation>
+    </message>
+    <message>
+        <source>Moderate</source>
+        <translation>Alemmas</translation>
+    </message>
+    <message>
+        <source>Minor</source>
+        <translation>Meẓẓi</translation>
+    </message>
+    <message>
+        <source>Field: %name</source>
+        <translation>Urti: %name</translation>
+    </message>
+    <message>
+        <source>Block: %name</source>
+        <translation>Iḥder: %name</translation>
+    </message>
+    <message>
+        <source>Template: %name</source>
+        <translation>Tamudemt: %name</translation>
+    </message>
+    <message>
+        <source>More about this rule</source>
+        <translation>Ugar ɣef yilugan-a</translation>
+    </message>
+    <message>
+        <source>The accessibility check could not run.</source>
+        <translation>Asenqed n tnekcamt ur yezmir ara ad yeddu.</translation>
+    </message>
+    <message>
+        <source>An automatic check finds only some problems: also try the page with the keyboard alone and with a screen reader.</source>
+        <translation>Asenqed awurman yettaf kra kan seg wuguren: ɛreḍ daɣen asebter s unasiw kan akked umeɣṛay n ugdil.</translation>
+    </message>
+    <message>
+        <source>The rule texts come from axe-core, in English.</source>
+        <translation>Iḍrisen n yilugan kkan-d seg axe-core, s teglizit.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

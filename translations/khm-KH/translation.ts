@@ -2071,6 +2071,70 @@
         <source>The accent color %color (expwt.ini [BrandingSettings] %setting) is not used: its contrast is %ratio:1, at least %needed:1 is needed.</source>
         <translation>ពណ៌សង្កត់ %color (expwt.ini [BrandingSettings] %setting) មិនត្រូវបានប្រើទេ៖ កម្រិតពន្លឺផ្ទុយរបស់វាគឺ %ratio:1 ត្រូវការយ៉ាងហោចណាស់ %needed:1។</translation>
     </message>
+    <message>
+        <source>Accessibility</source>
+        <translation>ភាពងាយស្រួលចូលប្រើ</translation>
+    </message>
+    <message>
+        <source>Check the accessibility of the page (WCAG 2.2 AA)</source>
+        <translation>ពិនិត្យភាពងាយស្រួលចូលប្រើនៃទំព័រ (WCAG 2.2 AA)</translation>
+    </message>
+    <message>
+        <source>Checking the accessibility ...</source>
+        <translation>កំពុងពិនិត្យភាពងាយស្រួលចូលប្រើ ...</translation>
+    </message>
+    <message>
+        <source>The automatic check found no accessibility problems.</source>
+        <translation>ការពិនិត្យស្វ័យប្រវត្តិមិនបានរកឃើញបញ្ហាភាពងាយស្រួលចូលប្រើទេ។</translation>
+    </message>
+    <message>
+        <source>%n accessibility problems</source>
+        <translation>បញ្ហាភាពងាយស្រួលចូលប្រើ %n</translation>
+    </message>
+    <message>
+        <source>Critical</source>
+        <translation>ធ្ងន់ធ្ងរបំផុត</translation>
+    </message>
+    <message>
+        <source>Serious</source>
+        <translation>ធ្ងន់ធ្ងរ</translation>
+    </message>
+    <message>
+        <source>Moderate</source>
+        <translation>មធ្យម</translation>
+    </message>
+    <message>
+        <source>Minor</source>
+        <translation>តិចតួច</translation>
+    </message>
+    <message>
+        <source>Field: %name</source>
+        <translation>វាល៖ %name</translation>
+    </message>
+    <message>
+        <source>Block: %name</source>
+        <translation>ប្លុក៖ %name</translation>
+    </message>
+    <message>
+        <source>Template: %name</source>
+        <translation>គំរូ៖ %name</translation>
+    </message>
+    <message>
+        <source>More about this rule</source>
+        <translation>ព័ត៌មានបន្ថែមអំពីច្បាប់នេះ</translation>
+    </message>
+    <message>
+        <source>The accessibility check could not run.</source>
+        <translation>មិនអាចដំណើរការការពិនិត្យភាពងាយស្រួលចូលប្រើបានទេ។</translation>
+    </message>
+    <message>
+        <source>An automatic check finds only some problems: also try the page with the keyboard alone and with a screen reader.</source>
+        <translation>ការពិនិត្យស្វ័យប្រវត្តិរកឃើញតែបញ្ហាមួយចំនួនប៉ុណ្ណោះ៖ សាកល្បងទំព័រនេះដោយប្រើតែក្តារចុច និងប្រើកម្មវិធីអានអេក្រង់ផងដែរ។</translation>
+    </message>
+    <message>
+        <source>The rule texts come from axe-core, in English.</source>
+        <translation>អត្ថបទច្បាប់មកពី axe-core ជាភាសាអង់គ្លេស។</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

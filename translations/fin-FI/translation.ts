@@ -2071,6 +2071,70 @@
         <source>The accent color %color (expwt.ini [BrandingSettings] %setting) is not used: its contrast is %ratio:1, at least %needed:1 is needed.</source>
         <translation>Korostusväriä %color (expwt.ini [BrandingSettings] %setting) ei käytetä: sen kontrasti on %ratio:1, vähintään %needed:1 tarvitaan.</translation>
     </message>
+    <message>
+        <source>Accessibility</source>
+        <translation>Saavutettavuus</translation>
+    </message>
+    <message>
+        <source>Check the accessibility of the page (WCAG 2.2 AA)</source>
+        <translation>Tarkista sivun saavutettavuus (WCAG 2.2 AA)</translation>
+    </message>
+    <message>
+        <source>Checking the accessibility ...</source>
+        <translation>Tarkistetaan saavutettavuutta ...</translation>
+    </message>
+    <message>
+        <source>The automatic check found no accessibility problems.</source>
+        <translation>Automaattinen tarkistus ei löytänyt saavutettavuusongelmia.</translation>
+    </message>
+    <message>
+        <source>%n accessibility problems</source>
+        <translation>%n saavutettavuusongelmaa</translation>
+    </message>
+    <message>
+        <source>Critical</source>
+        <translation>Kriittinen</translation>
+    </message>
+    <message>
+        <source>Serious</source>
+        <translation>Vakava</translation>
+    </message>
+    <message>
+        <source>Moderate</source>
+        <translation>Kohtalainen</translation>
+    </message>
+    <message>
+        <source>Minor</source>
+        <translation>Vähäinen</translation>
+    </message>
+    <message>
+        <source>Field: %name</source>
+        <translation>Kenttä: %name</translation>
+    </message>
+    <message>
+        <source>Block: %name</source>
+        <translation>Lohko: %name</translation>
+    </message>
+    <message>
+        <source>Template: %name</source>
+        <translation>Malli: %name</translation>
+    </message>
+    <message>
+        <source>More about this rule</source>
+        <translation>Lisää tästä säännöstä</translation>
+    </message>
+    <message>
+        <source>The accessibility check could not run.</source>
+        <translation>Saavutettavuustarkistusta ei voitu suorittaa.</translation>
+    </message>
+    <message>
+        <source>An automatic check finds only some problems: also try the page with the keyboard alone and with a screen reader.</source>
+        <translation>Automaattinen tarkistus löytää vain osan ongelmista: kokeile sivua myös pelkällä näppäimistöllä ja ruudunlukijalla.</translation>
+    </message>
+    <message>
+        <source>The rule texts come from axe-core, in English.</source>
+        <translation>Sääntöjen tekstit tulevat axe-coresta, englanniksi.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

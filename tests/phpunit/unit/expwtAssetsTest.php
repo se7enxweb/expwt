@@ -147,6 +147,9 @@ class expwtAssetsTest extends PHPUnit\Framework\TestCase
         $out = array();
         foreach ( glob( self::ext() . '/design/standard/javascript/*.js' ) as $file )
         {
+            // axe-core (E11) is the file it publishes, not the sidebar's code
+            if ( basename( $file ) === 'expwt-axe.min.js' )
+                continue;
             preg_match_all( "/\\bt\\('((?:[^'\\\\]|\\\\.)*)'\\)/", file_get_contents( $file ), $m );
             foreach ( $m[1] as $s )
                 $out[] = stripslashes( $s );

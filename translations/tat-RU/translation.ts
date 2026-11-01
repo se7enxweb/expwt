@@ -2071,6 +2071,70 @@
         <source>The accent color %color (expwt.ini [BrandingSettings] %setting) is not used: its contrast is %ratio:1, at least %needed:1 is needed.</source>
         <translation>%color басым төсе (expwt.ini [BrandingSettings] %setting) кулланылмый: аның контрасты %ratio:1, ким дигәндә %needed:1 кирәк.</translation>
     </message>
+    <message>
+        <source>Accessibility</source>
+        <translation>Үтемлелек</translation>
+    </message>
+    <message>
+        <source>Check the accessibility of the page (WCAG 2.2 AA)</source>
+        <translation>Битнең үтемлелеген тикшерү (WCAG 2.2 AA)</translation>
+    </message>
+    <message>
+        <source>Checking the accessibility ...</source>
+        <translation>Үтемлелек тикшерелә ...</translation>
+    </message>
+    <message>
+        <source>The automatic check found no accessibility problems.</source>
+        <translation>Автоматик тикшерү үтемлелек проблемаларын тапмады.</translation>
+    </message>
+    <message>
+        <source>%n accessibility problems</source>
+        <translation>Үтемлелекнең %n проблемасы</translation>
+    </message>
+    <message>
+        <source>Critical</source>
+        <translation>Критик</translation>
+    </message>
+    <message>
+        <source>Serious</source>
+        <translation>Җитди</translation>
+    </message>
+    <message>
+        <source>Moderate</source>
+        <translation>Уртача</translation>
+    </message>
+    <message>
+        <source>Minor</source>
+        <translation>Әһәмиятсез</translation>
+    </message>
+    <message>
+        <source>Field: %name</source>
+        <translation>Кыр: %name</translation>
+    </message>
+    <message>
+        <source>Block: %name</source>
+        <translation>Блок: %name</translation>
+    </message>
+    <message>
+        <source>Template: %name</source>
+        <translation>Үрнәк: %name</translation>
+    </message>
+    <message>
+        <source>More about this rule</source>
+        <translation>Бу кагыйдә турында тулырак</translation>
+    </message>
+    <message>
+        <source>The accessibility check could not run.</source>
+        <translation>Үтемлелекне тикшерүне башлап булмады.</translation>
+    </message>
+    <message>
+        <source>An automatic check finds only some problems: also try the page with the keyboard alone and with a screen reader.</source>
+        <translation>Автоматик тикшерү проблемаларның бер өлешен генә таба: битне клавиатура белән генә һәм экран укучы белән дә сынап карагыз.</translation>
+    </message>
+    <message>
+        <source>The rule texts come from axe-core, in English.</source>
+        <translation>Кагыйдә текстлары axe-core'дан алынган, инглиз телендә.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

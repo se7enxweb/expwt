@@ -2071,6 +2071,70 @@
         <source>The accent color %color (expwt.ini [BrandingSettings] %setting) is not used: its contrast is %ratio:1, at least %needed:1 is needed.</source>
         <translation>Culoarea de accent %color (expwt.ini [BrandingSettings] %setting) nu este folosită: contrastul ei este %ratio:1, este nevoie de cel puțin %needed:1.</translation>
     </message>
+    <message>
+        <source>Accessibility</source>
+        <translation>Accesibilitate</translation>
+    </message>
+    <message>
+        <source>Check the accessibility of the page (WCAG 2.2 AA)</source>
+        <translation>Verifică accesibilitatea paginii (WCAG 2.2 AA)</translation>
+    </message>
+    <message>
+        <source>Checking the accessibility ...</source>
+        <translation>Se verifică accesibilitatea ...</translation>
+    </message>
+    <message>
+        <source>The automatic check found no accessibility problems.</source>
+        <translation>Verificarea automată nu a găsit probleme de accesibilitate.</translation>
+    </message>
+    <message>
+        <source>%n accessibility problems</source>
+        <translation>%n probleme de accesibilitate</translation>
+    </message>
+    <message>
+        <source>Critical</source>
+        <translation>Critic</translation>
+    </message>
+    <message>
+        <source>Serious</source>
+        <translation>Grav</translation>
+    </message>
+    <message>
+        <source>Moderate</source>
+        <translation>Moderat</translation>
+    </message>
+    <message>
+        <source>Minor</source>
+        <translation>Minor</translation>
+    </message>
+    <message>
+        <source>Field: %name</source>
+        <translation>Câmp: %name</translation>
+    </message>
+    <message>
+        <source>Block: %name</source>
+        <translation>Bloc: %name</translation>
+    </message>
+    <message>
+        <source>Template: %name</source>
+        <translation>Șablon: %name</translation>
+    </message>
+    <message>
+        <source>More about this rule</source>
+        <translation>Mai multe despre această regulă</translation>
+    </message>
+    <message>
+        <source>The accessibility check could not run.</source>
+        <translation>Verificarea accesibilității nu a putut rula.</translation>
+    </message>
+    <message>
+        <source>An automatic check finds only some problems: also try the page with the keyboard alone and with a screen reader.</source>
+        <translation>O verificare automată găsește doar unele probleme: încercați pagina și doar cu tastatura, și cu un cititor de ecran.</translation>
+    </message>
+    <message>
+        <source>The rule texts come from axe-core, in English.</source>
+        <translation>Textele regulilor provin din axe-core, în engleză.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

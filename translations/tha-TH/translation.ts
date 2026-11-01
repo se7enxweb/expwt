@@ -2071,6 +2071,70 @@
         <source>The accent color %color (expwt.ini [BrandingSettings] %setting) is not used: its contrast is %ratio:1, at least %needed:1 is needed.</source>
         <translation>ไม่ได้ใช้สีเน้น %color (expwt.ini [BrandingSettings] %setting): คอนทราสต์ของสีนี้คือ %ratio:1 ต้องมีอย่างน้อย %needed:1</translation>
     </message>
+    <message>
+        <source>Accessibility</source>
+        <translation>การเข้าถึง</translation>
+    </message>
+    <message>
+        <source>Check the accessibility of the page (WCAG 2.2 AA)</source>
+        <translation>ตรวจสอบการเข้าถึงของหน้า (WCAG 2.2 AA)</translation>
+    </message>
+    <message>
+        <source>Checking the accessibility ...</source>
+        <translation>กำลังตรวจสอบการเข้าถึง ...</translation>
+    </message>
+    <message>
+        <source>The automatic check found no accessibility problems.</source>
+        <translation>การตรวจสอบอัตโนมัติไม่พบปัญหาการเข้าถึง</translation>
+    </message>
+    <message>
+        <source>%n accessibility problems</source>
+        <translation>ปัญหาการเข้าถึง %n รายการ</translation>
+    </message>
+    <message>
+        <source>Critical</source>
+        <translation>วิกฤต</translation>
+    </message>
+    <message>
+        <source>Serious</source>
+        <translation>ร้ายแรง</translation>
+    </message>
+    <message>
+        <source>Moderate</source>
+        <translation>ปานกลาง</translation>
+    </message>
+    <message>
+        <source>Minor</source>
+        <translation>เล็กน้อย</translation>
+    </message>
+    <message>
+        <source>Field: %name</source>
+        <translation>ฟิลด์: %name</translation>
+    </message>
+    <message>
+        <source>Block: %name</source>
+        <translation>บล็อก: %name</translation>
+    </message>
+    <message>
+        <source>Template: %name</source>
+        <translation>เทมเพลต: %name</translation>
+    </message>
+    <message>
+        <source>More about this rule</source>
+        <translation>เพิ่มเติมเกี่ยวกับกฎนี้</translation>
+    </message>
+    <message>
+        <source>The accessibility check could not run.</source>
+        <translation>ไม่สามารถเรียกใช้การตรวจสอบการเข้าถึงได้</translation>
+    </message>
+    <message>
+        <source>An automatic check finds only some problems: also try the page with the keyboard alone and with a screen reader.</source>
+        <translation>การตรวจสอบอัตโนมัติพบปัญหาเพียงบางส่วนเท่านั้น: ลองใช้หน้านี้ด้วยแป้นพิมพ์อย่างเดียวและด้วยโปรแกรมอ่านหน้าจอด้วย</translation>
+    </message>
+    <message>
+        <source>The rule texts come from axe-core, in English.</source>
+        <translation>ข้อความของกฎมาจาก axe-core เป็นภาษาอังกฤษ</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

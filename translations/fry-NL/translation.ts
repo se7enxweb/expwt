@@ -2071,6 +2071,70 @@
         <source>The accent color %color (expwt.ini [BrandingSettings] %setting) is not used: its contrast is %ratio:1, at least %needed:1 is needed.</source>
         <translation>De aksintkleur %color (expwt.ini [BrandingSettings] %setting) wurdt net brûkt: it kontrast is %ratio:1, der is op syn minst %needed:1 nedich.</translation>
     </message>
+    <message>
+        <source>Accessibility</source>
+        <translation>Tagonklikens</translation>
+    </message>
+    <message>
+        <source>Check the accessibility of the page (WCAG 2.2 AA)</source>
+        <translation>De tagonklikens fan 'e side kontrolearje (WCAG 2.2 AA)</translation>
+    </message>
+    <message>
+        <source>Checking the accessibility ...</source>
+        <translation>Tagonklikens wurdt kontrolearre ...</translation>
+    </message>
+    <message>
+        <source>The automatic check found no accessibility problems.</source>
+        <translation>De automatyske kontrôle hat gjin tagonklikensproblemen fûn.</translation>
+    </message>
+    <message>
+        <source>%n accessibility problems</source>
+        <translation>%n tagonklikensproblemen</translation>
+    </message>
+    <message>
+        <source>Critical</source>
+        <translation>Kritysk</translation>
+    </message>
+    <message>
+        <source>Serious</source>
+        <translation>Serieus</translation>
+    </message>
+    <message>
+        <source>Moderate</source>
+        <translation>Matich</translation>
+    </message>
+    <message>
+        <source>Minor</source>
+        <translation>Lyts</translation>
+    </message>
+    <message>
+        <source>Field: %name</source>
+        <translation>Fjild: %name</translation>
+    </message>
+    <message>
+        <source>Block: %name</source>
+        <translation>Blok: %name</translation>
+    </message>
+    <message>
+        <source>Template: %name</source>
+        <translation>Sjabloan: %name</translation>
+    </message>
+    <message>
+        <source>More about this rule</source>
+        <translation>Mear oer dizze regel</translation>
+    </message>
+    <message>
+        <source>The accessibility check could not run.</source>
+        <translation>De tagonklikenskontrôle koe net útfierd wurde.</translation>
+    </message>
+    <message>
+        <source>An automatic check finds only some problems: also try the page with the keyboard alone and with a screen reader.</source>
+        <translation>In automatyske kontrôle fynt mar in part fan 'e problemen: besykje de side ek mei allinnich it toetseboerd en mei in skermlêzer.</translation>
+    </message>
+    <message>
+        <source>The rule texts come from axe-core, in English.</source>
+        <translation>De teksten fan 'e regels komme út axe-core, yn it Ingelsk.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

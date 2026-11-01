@@ -2071,6 +2071,70 @@
         <source>The accent color %color (expwt.ini [BrandingSettings] %setting) is not used: its contrast is %ratio:1, at least %needed:1 is needed.</source>
         <translation>Nid yw'r lliw acen %color (expwt.ini [BrandingSettings] %setting) yn cael ei ddefnyddio: ei gyferbyniad yw %ratio:1, mae angen o leiaf %needed:1.</translation>
     </message>
+    <message>
+        <source>Accessibility</source>
+        <translation>Hygyrchedd</translation>
+    </message>
+    <message>
+        <source>Check the accessibility of the page (WCAG 2.2 AA)</source>
+        <translation>Gwirio hygyrchedd y dudalen (WCAG 2.2 AA)</translation>
+    </message>
+    <message>
+        <source>Checking the accessibility ...</source>
+        <translation>Wrthi'n gwirio'r hygyrchedd ...</translation>
+    </message>
+    <message>
+        <source>The automatic check found no accessibility problems.</source>
+        <translation>Ni chafodd y gwiriad awtomatig unrhyw broblemau hygyrchedd.</translation>
+    </message>
+    <message>
+        <source>%n accessibility problems</source>
+        <translation>%n problem hygyrchedd</translation>
+    </message>
+    <message>
+        <source>Critical</source>
+        <translation>Critigol</translation>
+    </message>
+    <message>
+        <source>Serious</source>
+        <translation>Difrifol</translation>
+    </message>
+    <message>
+        <source>Moderate</source>
+        <translation>Cymedrol</translation>
+    </message>
+    <message>
+        <source>Minor</source>
+        <translation>Bach</translation>
+    </message>
+    <message>
+        <source>Field: %name</source>
+        <translation>Maes: %name</translation>
+    </message>
+    <message>
+        <source>Block: %name</source>
+        <translation>Bloc: %name</translation>
+    </message>
+    <message>
+        <source>Template: %name</source>
+        <translation>Templed: %name</translation>
+    </message>
+    <message>
+        <source>More about this rule</source>
+        <translation>Rhagor am y rheol hon</translation>
+    </message>
+    <message>
+        <source>The accessibility check could not run.</source>
+        <translation>Nid oedd modd rhedeg y gwiriad hygyrchedd.</translation>
+    </message>
+    <message>
+        <source>An automatic check finds only some problems: also try the page with the keyboard alone and with a screen reader.</source>
+        <translation>Dim ond rhai problemau y mae gwiriad awtomatig yn eu canfod: rhowch gynnig ar y dudalen hefyd gyda'r bysellfwrdd yn unig a gyda darllenydd sgrin.</translation>
+    </message>
+    <message>
+        <source>The rule texts come from axe-core, in English.</source>
+        <translation>Daw testunau'r rheolau o axe-core, yn Saesneg.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

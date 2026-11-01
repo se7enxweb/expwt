@@ -2071,6 +2071,70 @@
         <source>The accent color %color (expwt.ini [BrandingSettings] %setting) is not used: its contrast is %ratio:1, at least %needed:1 is needed.</source>
         <translation>La akcenta koloro %color (expwt.ini [BrandingSettings] %setting) ne estas uzata: ĝia kontrasto estas %ratio:1, necesas almenaŭ %needed:1.</translation>
     </message>
+    <message>
+        <source>Accessibility</source>
+        <translation>Alirebleco</translation>
+    </message>
+    <message>
+        <source>Check the accessibility of the page (WCAG 2.2 AA)</source>
+        <translation>Kontroli la alireblecon de la paĝo (WCAG 2.2 AA)</translation>
+    </message>
+    <message>
+        <source>Checking the accessibility ...</source>
+        <translation>Kontrolante la alireblecon ...</translation>
+    </message>
+    <message>
+        <source>The automatic check found no accessibility problems.</source>
+        <translation>La aŭtomata kontrolo trovis neniujn alireblecajn problemojn.</translation>
+    </message>
+    <message>
+        <source>%n accessibility problems</source>
+        <translation>%n alireblecaj problemoj</translation>
+    </message>
+    <message>
+        <source>Critical</source>
+        <translation>Kritika</translation>
+    </message>
+    <message>
+        <source>Serious</source>
+        <translation>Serioza</translation>
+    </message>
+    <message>
+        <source>Moderate</source>
+        <translation>Modera</translation>
+    </message>
+    <message>
+        <source>Minor</source>
+        <translation>Malgranda</translation>
+    </message>
+    <message>
+        <source>Field: %name</source>
+        <translation>Kampo: %name</translation>
+    </message>
+    <message>
+        <source>Block: %name</source>
+        <translation>Bloko: %name</translation>
+    </message>
+    <message>
+        <source>Template: %name</source>
+        <translation>Ŝablono: %name</translation>
+    </message>
+    <message>
+        <source>More about this rule</source>
+        <translation>Pli pri ĉi tiu regulo</translation>
+    </message>
+    <message>
+        <source>The accessibility check could not run.</source>
+        <translation>La alirebleca kontrolo ne povis ruliĝi.</translation>
+    </message>
+    <message>
+        <source>An automatic check finds only some problems: also try the page with the keyboard alone and with a screen reader.</source>
+        <translation>Aŭtomata kontrolo trovas nur kelkajn problemojn: provu la paĝon ankaŭ nur per la klavaro kaj per ekranlegilo.</translation>
+    </message>
+    <message>
+        <source>The rule texts come from axe-core, in English.</source>
+        <translation>La regulaj tekstoj venas el axe-core, en la angla.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

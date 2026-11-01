@@ -2071,6 +2071,70 @@
         <source>The accent color %color (expwt.ini [BrandingSettings] %setting) is not used: its contrast is %ratio:1, at least %needed:1 is needed.</source>
         <translation>གཙོ་ཚོན་ %color (expwt.ini [BrandingSettings] %setting) བེད་སྤྱོད་མི་བྱེད། དེའི་ཁྱད་ཚད་ནི་ %ratio:1 ཡིན། ཉུང་མཐར་ %needed:1 དགོས།</translation>
     </message>
+    <message>
+        <source>Accessibility</source>
+        <translation>ལག་ཏུ་ལེན་བདེ་བ།</translation>
+    </message>
+    <message>
+        <source>Check the accessibility of the page (WCAG 2.2 AA)</source>
+        <translation>ཤོག་ངོས་ཀྱི་ལག་ཏུ་ལེན་བདེ་བ་ཞིབ་བཤེར་བྱེད། (WCAG 2.2 AA)</translation>
+    </message>
+    <message>
+        <source>Checking the accessibility ...</source>
+        <translation>ལག་ཏུ་ལེན་བདེ་བ་ཞིབ་བཤེར་བྱེད་བཞིན་པ ...</translation>
+    </message>
+    <message>
+        <source>The automatic check found no accessibility problems.</source>
+        <translation>རང་འགུལ་ཞིབ་བཤེར་གྱིས་ལག་ཏུ་ལེན་བདེ་བའི་དཀའ་ངལ་གང་ཡང་མ་རྙེད།</translation>
+    </message>
+    <message>
+        <source>%n accessibility problems</source>
+        <translation>ལག་ཏུ་ལེན་བདེ་བའི་དཀའ་ངལ་ %n</translation>
+    </message>
+    <message>
+        <source>Critical</source>
+        <translation>ཉེན་ཁ་ཆེ།</translation>
+    </message>
+    <message>
+        <source>Serious</source>
+        <translation>ཚབས་ཆེ།</translation>
+    </message>
+    <message>
+        <source>Moderate</source>
+        <translation>འབྲིང་།</translation>
+    </message>
+    <message>
+        <source>Minor</source>
+        <translation>ཆུང་།</translation>
+    </message>
+    <message>
+        <source>Field: %name</source>
+        <translation>ཁོངས། %name</translation>
+    </message>
+    <message>
+        <source>Block: %name</source>
+        <translation>དུམ་བུ། %name</translation>
+    </message>
+    <message>
+        <source>Template: %name</source>
+        <translation>དཔེ་པང་། %name</translation>
+    </message>
+    <message>
+        <source>More about this rule</source>
+        <translation>སྒྲིག་གཞི་འདིའི་སྐོར་མང་བ།</translation>
+    </message>
+    <message>
+        <source>The accessibility check could not run.</source>
+        <translation>ལག་ཏུ་ལེན་བདེ་བའི་ཞིབ་བཤེར་འཁོར་མ་ཐུབ།</translation>
+    </message>
+    <message>
+        <source>An automatic check finds only some problems: also try the page with the keyboard alone and with a screen reader.</source>
+        <translation>རང་འགུལ་ཞིབ་བཤེར་གྱིས་དཀའ་ངལ་ཁ་ཤས་ཁོ་ན་རྙེད། ཤོག་ངོས་དེ་མཐེབ་གཞོང་ཁོ་ནས་དང་བརྙན་ཡོལ་ཀློག་ཆས་ཀྱིས་ཀྱང་ཚོད་ལྟ་གྱིས།</translation>
+    </message>
+    <message>
+        <source>The rule texts come from axe-core, in English.</source>
+        <translation>སྒྲིག་གཞིའི་ཡི་གེ་ axe-core ནས་ཡིན། དབྱིན་ཡིག་ཏུ།</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

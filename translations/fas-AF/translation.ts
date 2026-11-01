@@ -2071,6 +2071,70 @@
         <source>The accent color %color (expwt.ini [BrandingSettings] %setting) is not used: its contrast is %ratio:1, at least %needed:1 is needed.</source>
         <translation>رنگ تأکیدی %color (expwt.ini [BrandingSettings] %setting) استفاده نمی‌شود: کنتراست آن %ratio:1 است، دست‌کم %needed:1 لازم است.</translation>
     </message>
+    <message>
+        <source>Accessibility</source>
+        <translation>دسترس‌پذیری</translation>
+    </message>
+    <message>
+        <source>Check the accessibility of the page (WCAG 2.2 AA)</source>
+        <translation>بررسی دسترس‌پذیری صفحه (WCAG 2.2 AA)</translation>
+    </message>
+    <message>
+        <source>Checking the accessibility ...</source>
+        <translation>در حال بررسی دسترس‌پذیری ...</translation>
+    </message>
+    <message>
+        <source>The automatic check found no accessibility problems.</source>
+        <translation>بررسی خودکار هیچ مشکل دسترس‌پذیری نیافت.</translation>
+    </message>
+    <message>
+        <source>%n accessibility problems</source>
+        <translation>%n مشکل دسترس‌پذیری</translation>
+    </message>
+    <message>
+        <source>Critical</source>
+        <translation>بحرانی</translation>
+    </message>
+    <message>
+        <source>Serious</source>
+        <translation>جدی</translation>
+    </message>
+    <message>
+        <source>Moderate</source>
+        <translation>متوسط</translation>
+    </message>
+    <message>
+        <source>Minor</source>
+        <translation>جزئی</translation>
+    </message>
+    <message>
+        <source>Field: %name</source>
+        <translation>فیلد: %name</translation>
+    </message>
+    <message>
+        <source>Block: %name</source>
+        <translation>بلاک: %name</translation>
+    </message>
+    <message>
+        <source>Template: %name</source>
+        <translation>قالب: %name</translation>
+    </message>
+    <message>
+        <source>More about this rule</source>
+        <translation>بیشتر درباره این قاعده</translation>
+    </message>
+    <message>
+        <source>The accessibility check could not run.</source>
+        <translation>بررسی دسترس‌پذیری اجرا نشد.</translation>
+    </message>
+    <message>
+        <source>An automatic check finds only some problems: also try the page with the keyboard alone and with a screen reader.</source>
+        <translation>بررسی خودکار فقط برخی مشکلات را می‌یابد: صفحه را تنها با صفحه‌کلید و با صفحه‌خوان نیز امتحان کنید.</translation>
+    </message>
+    <message>
+        <source>The rule texts come from axe-core, in English.</source>
+        <translation>متن‌های قواعد از axe-core آمده‌اند، به انگلیسی.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

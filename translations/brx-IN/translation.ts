@@ -2071,6 +2071,70 @@
         <source>The accent color %color (expwt.ini [BrandingSettings] %setting) is not used: its contrast is %ratio:1, at least %needed:1 is needed.</source>
         <translation>एक्सेन्ट गाब %color (expwt.ini [BrandingSettings] %setting) बाहायनाय जाया: बेनि कन्ट्रास्ट %ratio:1, खमैबो %needed:1 नांगौ।</translation>
     </message>
+    <message>
+        <source>Accessibility</source>
+        <translation>सुलभता</translation>
+    </message>
+    <message>
+        <source>Check the accessibility of the page (WCAG 2.2 AA)</source>
+        <translation>बिलाइनि सुलभता नायबिजिर (WCAG 2.2 AA)</translation>
+    </message>
+    <message>
+        <source>Checking the accessibility ...</source>
+        <translation>सुलभता नायबिजिरदों ...</translation>
+    </message>
+    <message>
+        <source>The automatic check found no accessibility problems.</source>
+        <translation>गावनो गाव नायबिजिरनाय आव सुलभतानि जेबो जेंना मोनाखै।</translation>
+    </message>
+    <message>
+        <source>%n accessibility problems</source>
+        <translation>सुलभतानि %n जेंना</translation>
+    </message>
+    <message>
+        <source>Critical</source>
+        <translation>गोख्रों</translation>
+    </message>
+    <message>
+        <source>Serious</source>
+        <translation>गेदेर</translation>
+    </message>
+    <message>
+        <source>Moderate</source>
+        <translation>गेजेरनि</translation>
+    </message>
+    <message>
+        <source>Minor</source>
+        <translation>फिसा</translation>
+    </message>
+    <message>
+        <source>Field: %name</source>
+        <translation>फिल्ड: %name</translation>
+    </message>
+    <message>
+        <source>Block: %name</source>
+        <translation>ब्लक: %name</translation>
+    </message>
+    <message>
+        <source>Template: %name</source>
+        <translation>टेम्प्लेट: %name</translation>
+    </message>
+    <message>
+        <source>More about this rule</source>
+        <translation>बे आइननि सोमोन्दै बांसिन</translation>
+    </message>
+    <message>
+        <source>The accessibility check could not run.</source>
+        <translation>सुलभता नायबिजिरनाया खामानि मावनो हाया।</translation>
+    </message>
+    <message>
+        <source>An automatic check finds only some problems: also try the page with the keyboard alone and with a screen reader.</source>
+        <translation>गावनो गाव नायबिजिरनाया मोनसे बाहागो जेंनासोलो मोनो: बिलाइखौ कीबर्डजों हारसिंनो आरो स्क्रीन रीडारजोंबो नाजा।</translation>
+    </message>
+    <message>
+        <source>The rule texts come from axe-core, in English.</source>
+        <translation>आइननि लिरनायफोरा axe-core निफ्राय फैयो, इंराजियाव।</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

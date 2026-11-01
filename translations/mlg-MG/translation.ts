@@ -2071,6 +2071,70 @@
         <source>The accent color %color (expwt.ini [BrandingSettings] %setting) is not used: its contrast is %ratio:1, at least %needed:1 is needed.</source>
         <translation>Tsy ampiasaina ny loko manindry %color (expwt.ini [BrandingSettings] %setting): %ratio:1 ny fifanoherany, ilaina farafahakeliny %needed:1.</translation>
     </message>
+    <message>
+        <source>Accessibility</source>
+        <translation>Fahafahana miditra</translation>
+    </message>
+    <message>
+        <source>Check the accessibility of the page (WCAG 2.2 AA)</source>
+        <translation>Hamarino ny fahafahana miditra amin'ny pejy (WCAG 2.2 AA)</translation>
+    </message>
+    <message>
+        <source>Checking the accessibility ...</source>
+        <translation>Manamarina ny fahafahana miditra ...</translation>
+    </message>
+    <message>
+        <source>The automatic check found no accessibility problems.</source>
+        <translation>Tsy nahita olana momba ny fahafahana miditra ny fanamarinana mandeha ho azy.</translation>
+    </message>
+    <message>
+        <source>%n accessibility problems</source>
+        <translation>Olana %n momba ny fahafahana miditra</translation>
+    </message>
+    <message>
+        <source>Critical</source>
+        <translation>Tena lehibe</translation>
+    </message>
+    <message>
+        <source>Serious</source>
+        <translation>Lehibe</translation>
+    </message>
+    <message>
+        <source>Moderate</source>
+        <translation>Antonony</translation>
+    </message>
+    <message>
+        <source>Minor</source>
+        <translation>Kely</translation>
+    </message>
+    <message>
+        <source>Field: %name</source>
+        <translation>Saha: %name</translation>
+    </message>
+    <message>
+        <source>Block: %name</source>
+        <translation>Bloka: %name</translation>
+    </message>
+    <message>
+        <source>Template: %name</source>
+        <translation>Modely: %name</translation>
+    </message>
+    <message>
+        <source>More about this rule</source>
+        <translation>Bebe kokoa momba ity fitsipika ity</translation>
+    </message>
+    <message>
+        <source>The accessibility check could not run.</source>
+        <translation>Tsy afaka nandeha ny fanamarinana ny fahafahana miditra.</translation>
+    </message>
+    <message>
+        <source>An automatic check finds only some problems: also try the page with the keyboard alone and with a screen reader.</source>
+        <translation>Olana sasany ihany no hitan'ny fanamarinana mandeha ho azy: andramo koa ny pejy amin'ny fafana fotsiny sy amin'ny mpamaky efijery.</translation>
+    </message>
+    <message>
+        <source>The rule texts come from axe-core, in English.</source>
+        <translation>Avy amin'ny axe-core ny lahatsoratry ny fitsipika, amin'ny teny anglisy.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

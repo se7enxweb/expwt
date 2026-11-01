@@ -2071,6 +2071,70 @@
         <source>The accent color %color (expwt.ini [BrandingSettings] %setting) is not used: its contrast is %ratio:1, at least %needed:1 is needed.</source>
         <translation>အသားပေးအရောင် %color (expwt.ini [BrandingSettings] %setting) ကို အသုံးမပြုပါ- ၎င်း၏ ခြားနားမှုမှာ %ratio:1 ဖြစ်ပြီး အနည်းဆုံး %needed:1 လိုအပ်သည်။</translation>
     </message>
+    <message>
+        <source>Accessibility</source>
+        <translation>အသုံးပြုနိုင်မှု</translation>
+    </message>
+    <message>
+        <source>Check the accessibility of the page (WCAG 2.2 AA)</source>
+        <translation>စာမျက်နှာ၏ အသုံးပြုနိုင်မှုကို စစ်ဆေးရန် (WCAG 2.2 AA)</translation>
+    </message>
+    <message>
+        <source>Checking the accessibility ...</source>
+        <translation>အသုံးပြုနိုင်မှုကို စစ်ဆေးနေသည် ...</translation>
+    </message>
+    <message>
+        <source>The automatic check found no accessibility problems.</source>
+        <translation>အလိုအလျောက် စစ်ဆေးမှုတွင် အသုံးပြုနိုင်မှု ပြဿနာ မတွေ့ပါ။</translation>
+    </message>
+    <message>
+        <source>%n accessibility problems</source>
+        <translation>အသုံးပြုနိုင်မှု ပြဿနာ %n ခု</translation>
+    </message>
+    <message>
+        <source>Critical</source>
+        <translation>အရေးကြီးဆုံး</translation>
+    </message>
+    <message>
+        <source>Serious</source>
+        <translation>ပြင်းထန်</translation>
+    </message>
+    <message>
+        <source>Moderate</source>
+        <translation>အလယ်အလတ်</translation>
+    </message>
+    <message>
+        <source>Minor</source>
+        <translation>အသေးအဖွဲ</translation>
+    </message>
+    <message>
+        <source>Field: %name</source>
+        <translation>အကွက်- %name</translation>
+    </message>
+    <message>
+        <source>Block: %name</source>
+        <translation>ဘလော့- %name</translation>
+    </message>
+    <message>
+        <source>Template: %name</source>
+        <translation>ပုံစံ- %name</translation>
+    </message>
+    <message>
+        <source>More about this rule</source>
+        <translation>ဤစည်းမျဉ်းအကြောင်း ပိုမို</translation>
+    </message>
+    <message>
+        <source>The accessibility check could not run.</source>
+        <translation>အသုံးပြုနိုင်မှု စစ်ဆေးမှုကို လုပ်ဆောင်၍ မရပါ။</translation>
+    </message>
+    <message>
+        <source>An automatic check finds only some problems: also try the page with the keyboard alone and with a screen reader.</source>
+        <translation>အလိုအလျောက် စစ်ဆေးမှုသည် ပြဿနာအချို့ကိုသာ တွေ့သည်- စာမျက်နှာကို ကီးဘုတ်တစ်ခုတည်းဖြင့်နှင့် မျက်နှာပြင်ဖတ်စနစ်ဖြင့်လည်း စမ်းကြည့်ပါ။</translation>
+    </message>
+    <message>
+        <source>The rule texts come from axe-core, in English.</source>
+        <translation>စည်းမျဉ်းစာသားများသည် axe-core မှ ဖြစ်ပြီး အင်္ဂလိပ်ဘာသာဖြင့် ဖြစ်သည်။</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

@@ -2071,6 +2071,70 @@
         <source>The accent color %color (expwt.ini [BrandingSettings] %setting) is not used: its contrast is %ratio:1, at least %needed:1 is needed.</source>
         <translation>އެކްސެންޓް ކުލަ %color (expwt.ini [BrandingSettings] %setting) ބޭނުން ނުކުރެވޭ: އޭގެ ކޮންޓްރާސްޓަކީ %ratio:1، މަދުވެގެން %needed:1 ބޭނުންވޭ.</translation>
     </message>
+    <message>
+        <source>Accessibility</source>
+        <translation>އެކްސެސިބިލިޓީ</translation>
+    </message>
+    <message>
+        <source>Check the accessibility of the page (WCAG 2.2 AA)</source>
+        <translation>ޞަފްޙާގެ އެކްސެސިބިލިޓީ ޗެކްކުރޭ (WCAG 2.2 AA)</translation>
+    </message>
+    <message>
+        <source>Checking the accessibility ...</source>
+        <translation>އެކްސެސިބިލިޓީ ޗެކްކުރަނީ ...</translation>
+    </message>
+    <message>
+        <source>The automatic check found no accessibility problems.</source>
+        <translation>އޮޓޮމެޓިކް ޗެކުން އެއްވެސް އެކްސެސިބިލިޓީ މައްސަލައެއް ނުފެނުނު.</translation>
+    </message>
+    <message>
+        <source>%n accessibility problems</source>
+        <translation>އެކްސެސިބިލިޓީގެ %n މައްސަލަ</translation>
+    </message>
+    <message>
+        <source>Critical</source>
+        <translation>ވަރަށް ބޮޑު</translation>
+    </message>
+    <message>
+        <source>Serious</source>
+        <translation>ބޮޑު</translation>
+    </message>
+    <message>
+        <source>Moderate</source>
+        <translation>މެދުމިނުގެ</translation>
+    </message>
+    <message>
+        <source>Minor</source>
+        <translation>ކުޑަ</translation>
+    </message>
+    <message>
+        <source>Field: %name</source>
+        <translation>ފީލްޑް: %name</translation>
+    </message>
+    <message>
+        <source>Block: %name</source>
+        <translation>ބްލޮކް: %name</translation>
+    </message>
+    <message>
+        <source>Template: %name</source>
+        <translation>ޓެމްޕްލޭޓް: %name</translation>
+    </message>
+    <message>
+        <source>More about this rule</source>
+        <translation>މި ޤަވާޢިދާ ބެހޭ އިތުރު</translation>
+    </message>
+    <message>
+        <source>The accessibility check could not run.</source>
+        <translation>އެކްސެސިބިލިޓީ ޗެކް ނުހިންގުނު.</translation>
+    </message>
+    <message>
+        <source>An automatic check finds only some problems: also try the page with the keyboard alone and with a screen reader.</source>
+        <translation>އޮޓޮމެޓިކް ޗެކަކުން ފެންނަނީ ބައެއް މައްސަލަތަކެވެ: ޞަފްޙާ ހަމައެކަނި ކީބޯޑުންނާއި ސްކްރީން ރީޑަރަކުންވެސް ތަޖުރިބާކޮށްލާ.</translation>
+    </message>
+    <message>
+        <source>The rule texts come from axe-core, in English.</source>
+        <translation>ޤަވާޢިދުގެ ލިޔުންތައް އަންނަނީ axe-core އިން، އިނގިރޭސިން.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

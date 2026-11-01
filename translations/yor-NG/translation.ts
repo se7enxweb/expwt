@@ -2071,6 +2071,70 @@
         <source>The accent color %color (expwt.ini [BrandingSettings] %setting) is not used: its contrast is %ratio:1, at least %needed:1 is needed.</source>
         <translation>A kò lo àwọ̀ ìtẹnumọ́ %color (expwt.ini [BrandingSettings] %setting): ìyàtọ̀ rẹ̀ jẹ́ %ratio:1, ó kéré tán %needed:1 ni a nílò.</translation>
     </message>
+    <message>
+        <source>Accessibility</source>
+        <translation>Ìráyè</translation>
+    </message>
+    <message>
+        <source>Check the accessibility of the page (WCAG 2.2 AA)</source>
+        <translation>Ṣàyẹ̀wò ìráyè ojú-ìwé náà (WCAG 2.2 AA)</translation>
+    </message>
+    <message>
+        <source>Checking the accessibility ...</source>
+        <translation>Ń ṣàyẹ̀wò ìráyè ...</translation>
+    </message>
+    <message>
+        <source>The automatic check found no accessibility problems.</source>
+        <translation>Àyẹ̀wò aládàáṣe kò rí ìṣòro ìráyè kankan.</translation>
+    </message>
+    <message>
+        <source>%n accessibility problems</source>
+        <translation>Ìṣòro ìráyè %n</translation>
+    </message>
+    <message>
+        <source>Critical</source>
+        <translation>Ó ṣe pàtàkì jù</translation>
+    </message>
+    <message>
+        <source>Serious</source>
+        <translation>Ó le</translation>
+    </message>
+    <message>
+        <source>Moderate</source>
+        <translation>Àárín</translation>
+    </message>
+    <message>
+        <source>Minor</source>
+        <translation>Kékeré</translation>
+    </message>
+    <message>
+        <source>Field: %name</source>
+        <translation>Pápá: %name</translation>
+    </message>
+    <message>
+        <source>Block: %name</source>
+        <translation>Búlọ́ọ̀kù: %name</translation>
+    </message>
+    <message>
+        <source>Template: %name</source>
+        <translation>Àwòṣe: %name</translation>
+    </message>
+    <message>
+        <source>More about this rule</source>
+        <translation>Síwájú sí i nípa òfin yìí</translation>
+    </message>
+    <message>
+        <source>The accessibility check could not run.</source>
+        <translation>Àyẹ̀wò ìráyè kò lè ṣiṣẹ́.</translation>
+    </message>
+    <message>
+        <source>An automatic check finds only some problems: also try the page with the keyboard alone and with a screen reader.</source>
+        <translation>Àyẹ̀wò aládàáṣe máa ń rí díẹ̀ lára àwọn ìṣòro nìkan: tún gbìyànjú ojú-ìwé náà pẹ̀lú bọ́tìnnì nìkan àti pẹ̀lú olùka ojú-iboju.</translation>
+    </message>
+    <message>
+        <source>The rule texts come from axe-core, in English.</source>
+        <translation>Àwọn ọ̀rọ̀ òfin náà wá láti axe-core, ní èdè Gẹ̀ẹ́sì.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

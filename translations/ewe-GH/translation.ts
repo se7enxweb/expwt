@@ -2071,6 +2071,70 @@
         <source>The accent color %color (expwt.ini [BrandingSettings] %setting) is not used: its contrast is %ratio:1, at least %needed:1 is needed.</source>
         <translation>Wometsɔa amadede %color (expwt.ini [BrandingSettings] %setting) wɔa dɔ o: eƒe vovototo nye %ratio:1, ehiã be wòanye %needed:1 ya teti.</translation>
     </message>
+    <message>
+        <source>Accessibility</source>
+        <translation>Mɔɖeɖe na amesiame</translation>
+    </message>
+    <message>
+        <source>Check the accessibility of the page (WCAG 2.2 AA)</source>
+        <translation>Kpɔ ale si mɔ le axa la ŋu na amesiame (WCAG 2.2 AA)</translation>
+    </message>
+    <message>
+        <source>Checking the accessibility ...</source>
+        <translation>Wole mɔɖeɖe na amesiame kpɔm ...</translation>
+    </message>
+    <message>
+        <source>The automatic check found no accessibility problems.</source>
+        <translation>Ɖokuisi dodokpɔ la mekpɔ kuxi aɖeke le mɔɖeɖe na amesiame ŋu o.</translation>
+    </message>
+    <message>
+        <source>%n accessibility problems</source>
+        <translation>Mɔɖeɖe na amesiame ƒe kuxi %n</translation>
+    </message>
+    <message>
+        <source>Critical</source>
+        <translation>Vevi ŋutɔ</translation>
+    </message>
+    <message>
+        <source>Serious</source>
+        <translation>Sesẽ</translation>
+    </message>
+    <message>
+        <source>Moderate</source>
+        <translation>Titina</translation>
+    </message>
+    <message>
+        <source>Minor</source>
+        <translation>Sue</translation>
+    </message>
+    <message>
+        <source>Field: %name</source>
+        <translation>Teƒe: %name</translation>
+    </message>
+    <message>
+        <source>Block: %name</source>
+        <translation>Block: %name</translation>
+    </message>
+    <message>
+        <source>Template: %name</source>
+        <translation>Template: %name</translation>
+    </message>
+    <message>
+        <source>More about this rule</source>
+        <translation>Nu bubuwo tso se sia ŋu</translation>
+    </message>
+    <message>
+        <source>The accessibility check could not run.</source>
+        <translation>Mɔɖeɖe na amesiame ƒe dodokpɔ la mete ŋu wɔ dɔ o.</translation>
+    </message>
+    <message>
+        <source>An automatic check finds only some problems: also try the page with the keyboard alone and with a screen reader.</source>
+        <translation>Ɖokuisi dodokpɔ kpɔa kuxiawo dometɔ aɖewo ko: te axa la kpɔ kple keyboard ɖeɖe ko kple screen reader hã.</translation>
+    </message>
+    <message>
+        <source>The rule texts come from axe-core, in English.</source>
+        <translation>Se ƒe nyawo tso axe-core, le Eŋlisigbe me.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

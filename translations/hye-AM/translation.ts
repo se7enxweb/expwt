@@ -2071,6 +2071,70 @@
         <source>The accent color %color (expwt.ini [BrandingSettings] %setting) is not used: its contrast is %ratio:1, at least %needed:1 is needed.</source>
         <translation>%color շեշտադրման գույնը (expwt.ini [BrandingSettings] %setting) չի օգտագործվում. դրա կոնտրաստը %ratio:1 է, անհրաժեշտ է առնվազն %needed:1:</translation>
     </message>
+    <message>
+        <source>Accessibility</source>
+        <translation>Մատչելիություն</translation>
+    </message>
+    <message>
+        <source>Check the accessibility of the page (WCAG 2.2 AA)</source>
+        <translation>Ստուգել էջի մատչելիությունը (WCAG 2.2 AA)</translation>
+    </message>
+    <message>
+        <source>Checking the accessibility ...</source>
+        <translation>Մատչելիությունը ստուգվում է ...</translation>
+    </message>
+    <message>
+        <source>The automatic check found no accessibility problems.</source>
+        <translation>Ավտոմատ ստուգումը մատչելիության խնդիրներ չգտավ:</translation>
+    </message>
+    <message>
+        <source>%n accessibility problems</source>
+        <translation>Մատչելիության %n խնդիր</translation>
+    </message>
+    <message>
+        <source>Critical</source>
+        <translation>Կրիտիկական</translation>
+    </message>
+    <message>
+        <source>Serious</source>
+        <translation>Լուրջ</translation>
+    </message>
+    <message>
+        <source>Moderate</source>
+        <translation>Միջին</translation>
+    </message>
+    <message>
+        <source>Minor</source>
+        <translation>Աննշան</translation>
+    </message>
+    <message>
+        <source>Field: %name</source>
+        <translation>Դաշտ՝ %name</translation>
+    </message>
+    <message>
+        <source>Block: %name</source>
+        <translation>Բլոկ՝ %name</translation>
+    </message>
+    <message>
+        <source>Template: %name</source>
+        <translation>Կաղապար՝ %name</translation>
+    </message>
+    <message>
+        <source>More about this rule</source>
+        <translation>Ավելին այս կանոնի մասին</translation>
+    </message>
+    <message>
+        <source>The accessibility check could not run.</source>
+        <translation>Մատչելիության ստուգումը չհաջողվեց գործարկել:</translation>
+    </message>
+    <message>
+        <source>An automatic check finds only some problems: also try the page with the keyboard alone and with a screen reader.</source>
+        <translation>Ավտոմատ ստուգումը գտնում է միայն որոշ խնդիրներ. փորձեք էջը նաև միայն ստեղնաշարով և էկրանի ընթերցիչով:</translation>
+    </message>
+    <message>
+        <source>The rule texts come from axe-core, in English.</source>
+        <translation>Կանոնների տեքստերը axe-core-ից են, անգլերենով:</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

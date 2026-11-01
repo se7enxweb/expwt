@@ -2071,6 +2071,70 @@
         <source>The accent color %color (expwt.ini [BrandingSettings] %setting) is not used: its contrast is %ratio:1, at least %needed:1 is needed.</source>
         <translation>Ní úsáidtear an dath béime %color (expwt.ini [BrandingSettings] %setting): is é %ratio:1 a chodarsnacht, tá %needed:1 ar a laghad ag teastáil.</translation>
     </message>
+    <message>
+        <source>Accessibility</source>
+        <translation>Inrochtaineacht</translation>
+    </message>
+    <message>
+        <source>Check the accessibility of the page (WCAG 2.2 AA)</source>
+        <translation>Seiceáil inrochtaineacht an leathanaigh (WCAG 2.2 AA)</translation>
+    </message>
+    <message>
+        <source>Checking the accessibility ...</source>
+        <translation>Ag seiceáil na hinrochtaineachta ...</translation>
+    </message>
+    <message>
+        <source>The automatic check found no accessibility problems.</source>
+        <translation>Níor aimsigh an seiceáil uathoibríoch aon fhadhb inrochtaineachta.</translation>
+    </message>
+    <message>
+        <source>%n accessibility problems</source>
+        <translation>%n fadhb inrochtaineachta</translation>
+    </message>
+    <message>
+        <source>Critical</source>
+        <translation>Criticiúil</translation>
+    </message>
+    <message>
+        <source>Serious</source>
+        <translation>Tromchúiseach</translation>
+    </message>
+    <message>
+        <source>Moderate</source>
+        <translation>Measartha</translation>
+    </message>
+    <message>
+        <source>Minor</source>
+        <translation>Mion</translation>
+    </message>
+    <message>
+        <source>Field: %name</source>
+        <translation>Réimse: %name</translation>
+    </message>
+    <message>
+        <source>Block: %name</source>
+        <translation>Bloc: %name</translation>
+    </message>
+    <message>
+        <source>Template: %name</source>
+        <translation>Teimpléad: %name</translation>
+    </message>
+    <message>
+        <source>More about this rule</source>
+        <translation>Tuilleadh faoin riail seo</translation>
+    </message>
+    <message>
+        <source>The accessibility check could not run.</source>
+        <translation>Níorbh fhéidir an seiceáil inrochtaineachta a rith.</translation>
+    </message>
+    <message>
+        <source>An automatic check finds only some problems: also try the page with the keyboard alone and with a screen reader.</source>
+        <translation>Ní aimsíonn seiceáil uathoibríoch ach cuid de na fadhbanna: bain triail as an leathanach freisin leis an méarchlár amháin agus le léitheoir scáileáin.</translation>
+    </message>
+    <message>
+        <source>The rule texts come from axe-core, in English.</source>
+        <translation>Tagann téacsanna na rialacha ó axe-core, i mBéarla.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

@@ -2071,6 +2071,70 @@
         <source>The accent color %color (expwt.ini [BrandingSettings] %setting) is not used: its contrast is %ratio:1, at least %needed:1 is needed.</source>
         <translation>لون التمييز %color (expwt.ini [BrandingSettings] %setting) غير مستخدم: تباينه %ratio:1، والمطلوب %needed:1 على الأقل.</translation>
     </message>
+    <message>
+        <source>Accessibility</source>
+        <translation>إمكانية الوصول</translation>
+    </message>
+    <message>
+        <source>Check the accessibility of the page (WCAG 2.2 AA)</source>
+        <translation>تحقق من إمكانية الوصول إلى الصفحة (WCAG 2.2 AA)</translation>
+    </message>
+    <message>
+        <source>Checking the accessibility ...</source>
+        <translation>جارٍ التحقق من إمكانية الوصول ...</translation>
+    </message>
+    <message>
+        <source>The automatic check found no accessibility problems.</source>
+        <translation>لم يجد الفحص التلقائي أي مشكلات في إمكانية الوصول.</translation>
+    </message>
+    <message>
+        <source>%n accessibility problems</source>
+        <translation>%n مشكلات في إمكانية الوصول</translation>
+    </message>
+    <message>
+        <source>Critical</source>
+        <translation>حرجة</translation>
+    </message>
+    <message>
+        <source>Serious</source>
+        <translation>خطيرة</translation>
+    </message>
+    <message>
+        <source>Moderate</source>
+        <translation>متوسطة</translation>
+    </message>
+    <message>
+        <source>Minor</source>
+        <translation>طفيفة</translation>
+    </message>
+    <message>
+        <source>Field: %name</source>
+        <translation>الحقل: %name</translation>
+    </message>
+    <message>
+        <source>Block: %name</source>
+        <translation>الكتلة: %name</translation>
+    </message>
+    <message>
+        <source>Template: %name</source>
+        <translation>القالب: %name</translation>
+    </message>
+    <message>
+        <source>More about this rule</source>
+        <translation>المزيد عن هذه القاعدة</translation>
+    </message>
+    <message>
+        <source>The accessibility check could not run.</source>
+        <translation>تعذّر تشغيل فحص إمكانية الوصول.</translation>
+    </message>
+    <message>
+        <source>An automatic check finds only some problems: also try the page with the keyboard alone and with a screen reader.</source>
+        <translation>الفحص التلقائي يجد بعض المشكلات فقط: جرّب الصفحة أيضًا بلوحة المفاتيح وحدها وبقارئ الشاشة.</translation>
+    </message>
+    <message>
+        <source>The rule texts come from axe-core, in English.</source>
+        <translation>نصوص القواعد مأخوذة من axe-core، باللغة الإنجليزية.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

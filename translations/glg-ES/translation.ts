@@ -2071,6 +2071,70 @@
         <source>The accent color %color (expwt.ini [BrandingSettings] %setting) is not used: its contrast is %ratio:1, at least %needed:1 is needed.</source>
         <translation>A cor de acento %color (expwt.ini [BrandingSettings] %setting) non se usa: o seu contraste é %ratio:1, necesítase polo menos %needed:1.</translation>
     </message>
+    <message>
+        <source>Accessibility</source>
+        <translation>Accesibilidade</translation>
+    </message>
+    <message>
+        <source>Check the accessibility of the page (WCAG 2.2 AA)</source>
+        <translation>Comprobar a accesibilidade da páxina (WCAG 2.2 AA)</translation>
+    </message>
+    <message>
+        <source>Checking the accessibility ...</source>
+        <translation>Comprobando a accesibilidade ...</translation>
+    </message>
+    <message>
+        <source>The automatic check found no accessibility problems.</source>
+        <translation>A comprobación automática non atopou problemas de accesibilidade.</translation>
+    </message>
+    <message>
+        <source>%n accessibility problems</source>
+        <translation>%n problemas de accesibilidade</translation>
+    </message>
+    <message>
+        <source>Critical</source>
+        <translation>Crítico</translation>
+    </message>
+    <message>
+        <source>Serious</source>
+        <translation>Grave</translation>
+    </message>
+    <message>
+        <source>Moderate</source>
+        <translation>Moderado</translation>
+    </message>
+    <message>
+        <source>Minor</source>
+        <translation>Leve</translation>
+    </message>
+    <message>
+        <source>Field: %name</source>
+        <translation>Campo: %name</translation>
+    </message>
+    <message>
+        <source>Block: %name</source>
+        <translation>Bloque: %name</translation>
+    </message>
+    <message>
+        <source>Template: %name</source>
+        <translation>Modelo: %name</translation>
+    </message>
+    <message>
+        <source>More about this rule</source>
+        <translation>Máis sobre esta regra</translation>
+    </message>
+    <message>
+        <source>The accessibility check could not run.</source>
+        <translation>Non se puido executar a comprobación de accesibilidade.</translation>
+    </message>
+    <message>
+        <source>An automatic check finds only some problems: also try the page with the keyboard alone and with a screen reader.</source>
+        <translation>Unha comprobación automática só atopa algúns problemas: proba tamén a páxina só co teclado e cun lector de pantalla.</translation>
+    </message>
+    <message>
+        <source>The rule texts come from axe-core, in English.</source>
+        <translation>Os textos das regras veñen de axe-core, en inglés.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

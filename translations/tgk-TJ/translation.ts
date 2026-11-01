@@ -2071,6 +2071,70 @@
         <source>The accent color %color (expwt.ini [BrandingSettings] %setting) is not used: its contrast is %ratio:1, at least %needed:1 is needed.</source>
         <translation>Ранги таъкид %color (expwt.ini [BrandingSettings] %setting) истифода намешавад: контрасти он %ratio:1 аст, ақаллан %needed:1 лозим аст.</translation>
     </message>
+    <message>
+        <source>Accessibility</source>
+        <translation>Дастрасӣ</translation>
+    </message>
+    <message>
+        <source>Check the accessibility of the page (WCAG 2.2 AA)</source>
+        <translation>Санҷиши дастрасии саҳифа (WCAG 2.2 AA)</translation>
+    </message>
+    <message>
+        <source>Checking the accessibility ...</source>
+        <translation>Дастрасӣ санҷида мешавад ...</translation>
+    </message>
+    <message>
+        <source>The automatic check found no accessibility problems.</source>
+        <translation>Санҷиши худкор ягон мушкили дастрасӣ наёфт.</translation>
+    </message>
+    <message>
+        <source>%n accessibility problems</source>
+        <translation>%n мушкили дастрасӣ</translation>
+    </message>
+    <message>
+        <source>Critical</source>
+        <translation>Ҷиддӣ</translation>
+    </message>
+    <message>
+        <source>Serious</source>
+        <translation>Вазнин</translation>
+    </message>
+    <message>
+        <source>Moderate</source>
+        <translation>Миёна</translation>
+    </message>
+    <message>
+        <source>Minor</source>
+        <translation>Ночиз</translation>
+    </message>
+    <message>
+        <source>Field: %name</source>
+        <translation>Майдон: %name</translation>
+    </message>
+    <message>
+        <source>Block: %name</source>
+        <translation>Блок: %name</translation>
+    </message>
+    <message>
+        <source>Template: %name</source>
+        <translation>Қолаб: %name</translation>
+    </message>
+    <message>
+        <source>More about this rule</source>
+        <translation>Маълумоти бештар дар бораи ин қоида</translation>
+    </message>
+    <message>
+        <source>The accessibility check could not run.</source>
+        <translation>Санҷиши дастрасиро иҷро кардан нашуд.</translation>
+    </message>
+    <message>
+        <source>An automatic check finds only some problems: also try the page with the keyboard alone and with a screen reader.</source>
+        <translation>Санҷиши худкор танҳо баъзе мушкилотро меёбад: саҳифаро танҳо бо клавиатура ва бо хонандаи экран низ санҷед.</translation>
+    </message>
+    <message>
+        <source>The rule texts come from axe-core, in English.</source>
+        <translation>Матнҳои қоидаҳо аз axe-core гирифта шудаанд, ба забони англисӣ.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

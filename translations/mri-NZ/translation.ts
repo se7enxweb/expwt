@@ -2071,6 +2071,70 @@
         <source>The accent color %color (expwt.ini [BrandingSettings] %setting) is not used: its contrast is %ratio:1, at least %needed:1 is needed.</source>
         <translation>Kāore te tae arotahi %color (expwt.ini [BrandingSettings] %setting) i te whakamahia: ko %ratio:1 tōna rerekētanga, me %needed:1 te iti rawa.</translation>
     </message>
+    <message>
+        <source>Accessibility</source>
+        <translation>Āheinga</translation>
+    </message>
+    <message>
+        <source>Check the accessibility of the page (WCAG 2.2 AA)</source>
+        <translation>Tirohia te āheinga o te whārangi (WCAG 2.2 AA)</translation>
+    </message>
+    <message>
+        <source>Checking the accessibility ...</source>
+        <translation>Kei te tirotiro i te āheinga ...</translation>
+    </message>
+    <message>
+        <source>The automatic check found no accessibility problems.</source>
+        <translation>Kāore te arowhai aunoa i kite i tētahi raruraru āheinga.</translation>
+    </message>
+    <message>
+        <source>%n accessibility problems</source>
+        <translation>%n ngā raruraru āheinga</translation>
+    </message>
+    <message>
+        <source>Critical</source>
+        <translation>Waiwai</translation>
+    </message>
+    <message>
+        <source>Serious</source>
+        <translation>Taumaha</translation>
+    </message>
+    <message>
+        <source>Moderate</source>
+        <translation>Āhua</translation>
+    </message>
+    <message>
+        <source>Minor</source>
+        <translation>Iti</translation>
+    </message>
+    <message>
+        <source>Field: %name</source>
+        <translation>Āpure: %name</translation>
+    </message>
+    <message>
+        <source>Block: %name</source>
+        <translation>Paraka: %name</translation>
+    </message>
+    <message>
+        <source>Template: %name</source>
+        <translation>Tauira: %name</translation>
+    </message>
+    <message>
+        <source>More about this rule</source>
+        <translation>He kōrero anō mō tēnei ture</translation>
+    </message>
+    <message>
+        <source>The accessibility check could not run.</source>
+        <translation>Kāore i taea te whakahaere i te arowhai āheinga.</translation>
+    </message>
+    <message>
+        <source>An automatic check finds only some problems: also try the page with the keyboard alone and with a screen reader.</source>
+        <translation>Ka kitea e te arowhai aunoa ētahi raruraru anake: whakamātauria hoki te whārangi ki te papapātuhi anake, ki tētahi kaipānui mata hoki.</translation>
+    </message>
+    <message>
+        <source>The rule texts come from axe-core, in English.</source>
+        <translation>Nō axe-core ngā kuputuhi o ngā ture, i te reo Pākehā.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

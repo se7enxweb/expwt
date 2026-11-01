@@ -2071,6 +2071,70 @@
         <source>The accent color %color (expwt.ini [BrandingSettings] %setting) is not used: its contrast is %ratio:1, at least %needed:1 is needed.</source>
         <translation>অ্যাকসেন্ট রং %color (expwt.ini [BrandingSettings] %setting) ব্যবহার করা হচ্ছে না: এর কনট্রাস্ট %ratio:1, অন্তত %needed:1 প্রয়োজন।</translation>
     </message>
+    <message>
+        <source>Accessibility</source>
+        <translation>অ্যাক্সেসিবিলিটি</translation>
+    </message>
+    <message>
+        <source>Check the accessibility of the page (WCAG 2.2 AA)</source>
+        <translation>পৃষ্ঠার অ্যাক্সেসিবিলিটি পরীক্ষা করুন (WCAG 2.2 AA)</translation>
+    </message>
+    <message>
+        <source>Checking the accessibility ...</source>
+        <translation>অ্যাক্সেসিবিলিটি পরীক্ষা করা হচ্ছে ...</translation>
+    </message>
+    <message>
+        <source>The automatic check found no accessibility problems.</source>
+        <translation>স্বয়ংক্রিয় পরীক্ষায় কোনো অ্যাক্সেসিবিলিটি সমস্যা পাওয়া যায়নি।</translation>
+    </message>
+    <message>
+        <source>%n accessibility problems</source>
+        <translation>%n টি অ্যাক্সেসিবিলিটি সমস্যা</translation>
+    </message>
+    <message>
+        <source>Critical</source>
+        <translation>জটিল</translation>
+    </message>
+    <message>
+        <source>Serious</source>
+        <translation>গুরুতর</translation>
+    </message>
+    <message>
+        <source>Moderate</source>
+        <translation>মাঝারি</translation>
+    </message>
+    <message>
+        <source>Minor</source>
+        <translation>সামান্য</translation>
+    </message>
+    <message>
+        <source>Field: %name</source>
+        <translation>ফিল্ড: %name</translation>
+    </message>
+    <message>
+        <source>Block: %name</source>
+        <translation>ব্লক: %name</translation>
+    </message>
+    <message>
+        <source>Template: %name</source>
+        <translation>টেমপ্লেট: %name</translation>
+    </message>
+    <message>
+        <source>More about this rule</source>
+        <translation>এই নিয়ম সম্পর্কে আরও</translation>
+    </message>
+    <message>
+        <source>The accessibility check could not run.</source>
+        <translation>অ্যাক্সেসিবিলিটি পরীক্ষা চালানো যায়নি।</translation>
+    </message>
+    <message>
+        <source>An automatic check finds only some problems: also try the page with the keyboard alone and with a screen reader.</source>
+        <translation>স্বয়ংক্রিয় পরীক্ষা কেবল কিছু সমস্যা খুঁজে পায়: পৃষ্ঠাটি শুধু কীবোর্ড দিয়ে এবং স্ক্রিন রিডার দিয়েও চেষ্টা করুন।</translation>
+    </message>
+    <message>
+        <source>The rule texts come from axe-core, in English.</source>
+        <translation>নিয়মের লেখাগুলো axe-core থেকে আসে, ইংরেজিতে।</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

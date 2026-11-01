@@ -2071,6 +2071,70 @@
         <source>The accent color %color (expwt.ini [BrandingSettings] %setting) is not used: its contrast is %ratio:1, at least %needed:1 is needed.</source>
         <translation>די אַקצענט־קאָליר %color (expwt.ini [BrandingSettings] %setting) ווערט נישט גענוצט: איר קאָנטראַסט איז %ratio:1, מע דאַרף כאָטש %needed:1.</translation>
     </message>
+    <message>
+        <source>Accessibility</source>
+        <translation>צוטריטלעכקייט</translation>
+    </message>
+    <message>
+        <source>Check the accessibility of the page (WCAG 2.2 AA)</source>
+        <translation>קאָנטראָלירן די צוטריטלעכקייט פֿונעם בלאַט (WCAG 2.2 AA)</translation>
+    </message>
+    <message>
+        <source>Checking the accessibility ...</source>
+        <translation>מע קאָנטראָלירט די צוטריטלעכקייט ...</translation>
+    </message>
+    <message>
+        <source>The automatic check found no accessibility problems.</source>
+        <translation>די אויטאָמאַטישע קאָנטראָל האָט נישט געפֿונען קיין צוטריטלעכקייט־פּראָבלעמען.</translation>
+    </message>
+    <message>
+        <source>%n accessibility problems</source>
+        <translation>%n צוטריטלעכקייט־פּראָבלעמען</translation>
+    </message>
+    <message>
+        <source>Critical</source>
+        <translation>קריטיש</translation>
+    </message>
+    <message>
+        <source>Serious</source>
+        <translation>ערנסט</translation>
+    </message>
+    <message>
+        <source>Moderate</source>
+        <translation>מיטל</translation>
+    </message>
+    <message>
+        <source>Minor</source>
+        <translation>קליין</translation>
+    </message>
+    <message>
+        <source>Field: %name</source>
+        <translation>פֿעלד: %name</translation>
+    </message>
+    <message>
+        <source>Block: %name</source>
+        <translation>בלאָק: %name</translation>
+    </message>
+    <message>
+        <source>Template: %name</source>
+        <translation>מוסטער: %name</translation>
+    </message>
+    <message>
+        <source>More about this rule</source>
+        <translation>מער וועגן דעם כּלל</translation>
+    </message>
+    <message>
+        <source>The accessibility check could not run.</source>
+        <translation>די צוטריטלעכקייט־קאָנטראָל האָט נישט געקענט לויפֿן.</translation>
+    </message>
+    <message>
+        <source>An automatic check finds only some problems: also try the page with the keyboard alone and with a screen reader.</source>
+        <translation>אַן אויטאָמאַטישע קאָנטראָל געפֿינט נאָר טייל פּראָבלעמען: פּרוּווט דעם בלאַט אויך נאָר מיט דער קלאַוויאַטור און מיט אַ עקראַן־לייענער.</translation>
+    </message>
+    <message>
+        <source>The rule texts come from axe-core, in English.</source>
+        <translation>די טעקסטן פֿון די כּללים קומען פֿון axe-core, אויף ענגליש.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

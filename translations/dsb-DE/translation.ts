@@ -2071,6 +2071,70 @@
         <source>The accent color %color (expwt.ini [BrandingSettings] %setting) is not used: its contrast is %ratio:1, at least %needed:1 is needed.</source>
         <translation>Akcentowa barwa %color (expwt.ini [BrandingSettings] %setting) se njewužywa: jeje kontrast jo %ratio:1, trjeba se nanejmjenjej %needed:1.</translation>
     </message>
+    <message>
+        <source>Accessibility</source>
+        <translation>Pśistupnosć</translation>
+    </message>
+    <message>
+        <source>Check the accessibility of the page (WCAG 2.2 AA)</source>
+        <translation>Pśistupnosć boka kontrolěrowaś (WCAG 2.2 AA)</translation>
+    </message>
+    <message>
+        <source>Checking the accessibility ...</source>
+        <translation>Pśistupnosć se kontrolěrujo ...</translation>
+    </message>
+    <message>
+        <source>The automatic check found no accessibility problems.</source>
+        <translation>Awtomatiska kontrola njejo žedne problemy z pśistupnosću namakała.</translation>
+    </message>
+    <message>
+        <source>%n accessibility problems</source>
+        <translation>%n problemow z pśistupnosću</translation>
+    </message>
+    <message>
+        <source>Critical</source>
+        <translation>Kritiski</translation>
+    </message>
+    <message>
+        <source>Serious</source>
+        <translation>Wažny</translation>
+    </message>
+    <message>
+        <source>Moderate</source>
+        <translation>Srědny</translation>
+    </message>
+    <message>
+        <source>Minor</source>
+        <translation>Mały</translation>
+    </message>
+    <message>
+        <source>Field: %name</source>
+        <translation>Pólo: %name</translation>
+    </message>
+    <message>
+        <source>Block: %name</source>
+        <translation>Blok: %name</translation>
+    </message>
+    <message>
+        <source>Template: %name</source>
+        <translation>Pśedłoga: %name</translation>
+    </message>
+    <message>
+        <source>More about this rule</source>
+        <translation>Wěcej wó toś tom pšawidle</translation>
+    </message>
+    <message>
+        <source>The accessibility check could not run.</source>
+        <translation>Kontrola pśistupnosći njejo se dała startowaś.</translation>
+    </message>
+    <message>
+        <source>An automatic check finds only some problems: also try the page with the keyboard alone and with a screen reader.</source>
+        <translation>Awtomatiska kontrola namakajo jano někotare problemy: wopytajśo bok teke jano z tastaturu a z cytakom wobrazowki.</translation>
+    </message>
+    <message>
+        <source>The rule texts come from axe-core, in English.</source>
+        <translation>Teksty pšawidłow póchadaju z axe-core, w engelšćinje.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

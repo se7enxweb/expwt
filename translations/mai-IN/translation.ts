@@ -2071,6 +2071,70 @@
         <source>The accent color %color (expwt.ini [BrandingSettings] %setting) is not used: its contrast is %ratio:1, at least %needed:1 is needed.</source>
         <translation>एक्सेंट रंग %color (expwt.ini [BrandingSettings] %setting) प्रयोग नहि भ' रहल अछि: एकर कंट्रास्ट %ratio:1 अछि, कम सँ कम %needed:1 आवश्यक अछि।</translation>
     </message>
+    <message>
+        <source>Accessibility</source>
+        <translation>सुलभता</translation>
+    </message>
+    <message>
+        <source>Check the accessibility of the page (WCAG 2.2 AA)</source>
+        <translation>पन्नाक सुलभता जाँचू (WCAG 2.2 AA)</translation>
+    </message>
+    <message>
+        <source>Checking the accessibility ...</source>
+        <translation>सुलभता जाँचल जा रहल अछि ...</translation>
+    </message>
+    <message>
+        <source>The automatic check found no accessibility problems.</source>
+        <translation>स्वचालित जाँचमे सुलभताक कोनो समस्या नहि भेटल।</translation>
+    </message>
+    <message>
+        <source>%n accessibility problems</source>
+        <translation>सुलभताक %n समस्या</translation>
+    </message>
+    <message>
+        <source>Critical</source>
+        <translation>गंभीर</translation>
+    </message>
+    <message>
+        <source>Serious</source>
+        <translation>भारी</translation>
+    </message>
+    <message>
+        <source>Moderate</source>
+        <translation>मध्यम</translation>
+    </message>
+    <message>
+        <source>Minor</source>
+        <translation>सामान्य</translation>
+    </message>
+    <message>
+        <source>Field: %name</source>
+        <translation>फील्ड: %name</translation>
+    </message>
+    <message>
+        <source>Block: %name</source>
+        <translation>ब्लॉक: %name</translation>
+    </message>
+    <message>
+        <source>Template: %name</source>
+        <translation>टेम्पलेट: %name</translation>
+    </message>
+    <message>
+        <source>More about this rule</source>
+        <translation>एहि नियमक विषयमे आओर</translation>
+    </message>
+    <message>
+        <source>The accessibility check could not run.</source>
+        <translation>सुलभता जाँच नहि चलि सकल।</translation>
+    </message>
+    <message>
+        <source>An automatic check finds only some problems: also try the page with the keyboard alone and with a screen reader.</source>
+        <translation>स्वचालित जाँच किछुए समस्या पकड़ैत अछि: पन्नाकेँ केवल कीबोर्डसँ आ स्क्रीन रीडरसँ सेहो आजमाउ।</translation>
+    </message>
+    <message>
+        <source>The rule texts come from axe-core, in English.</source>
+        <translation>नियमक पाठ axe-core सँ अबैत अछि, अंग्रेजीमे।</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

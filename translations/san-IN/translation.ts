@@ -2071,6 +2071,70 @@
         <source>The accent color %color (expwt.ini [BrandingSettings] %setting) is not used: its contrast is %ratio:1, at least %needed:1 is needed.</source>
         <translation>बलवर्णः %color (expwt.ini [BrandingSettings] %setting) न उपयुज्यते: तस्य वैषम्यम् %ratio:1 अस्ति, न्यूनातिन्यूनम् %needed:1 आवश्यकम्।</translation>
     </message>
+    <message>
+        <source>Accessibility</source>
+        <translation>सुगम्यता</translation>
+    </message>
+    <message>
+        <source>Check the accessibility of the page (WCAG 2.2 AA)</source>
+        <translation>पृष्ठस्य सुगम्यतां परीक्षस्व (WCAG 2.2 AA)</translation>
+    </message>
+    <message>
+        <source>Checking the accessibility ...</source>
+        <translation>सुगम्यता परीक्ष्यते ...</translation>
+    </message>
+    <message>
+        <source>The automatic check found no accessibility problems.</source>
+        <translation>स्वचालितपरीक्षया सुगम्यतायाः काऽपि समस्या न लब्धा।</translation>
+    </message>
+    <message>
+        <source>%n accessibility problems</source>
+        <translation>सुगम्यतायाः %n समस्याः</translation>
+    </message>
+    <message>
+        <source>Critical</source>
+        <translation>सङ्कटपूर्णा</translation>
+    </message>
+    <message>
+        <source>Serious</source>
+        <translation>गम्भीरा</translation>
+    </message>
+    <message>
+        <source>Moderate</source>
+        <translation>मध्यमा</translation>
+    </message>
+    <message>
+        <source>Minor</source>
+        <translation>अल्पा</translation>
+    </message>
+    <message>
+        <source>Field: %name</source>
+        <translation>क्षेत्रम्: %name</translation>
+    </message>
+    <message>
+        <source>Block: %name</source>
+        <translation>खण्डः: %name</translation>
+    </message>
+    <message>
+        <source>Template: %name</source>
+        <translation>प्रतिरूपम्: %name</translation>
+    </message>
+    <message>
+        <source>More about this rule</source>
+        <translation>अस्य नियमस्य विषये अधिकम्</translation>
+    </message>
+    <message>
+        <source>The accessibility check could not run.</source>
+        <translation>सुगम्यतापरीक्षा चालयितुं न शक्ता।</translation>
+    </message>
+    <message>
+        <source>An automatic check finds only some problems: also try the page with the keyboard alone and with a screen reader.</source>
+        <translation>स्वचालितपरीक्षा काश्चन समस्याः एव विन्दति: पृष्ठं केवलं कुञ्जीपटलेन पटलवाचकेन च अपि परीक्षस्व।</translation>
+    </message>
+    <message>
+        <source>The rule texts come from axe-core, in English.</source>
+        <translation>नियमानां पाठाः axe-core इत्यस्मात् आगच्छन्ति, आङ्ग्लभाषायाम्।</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

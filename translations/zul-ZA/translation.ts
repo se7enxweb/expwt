@@ -2071,6 +2071,70 @@
         <source>The accent color %color (expwt.ini [BrandingSettings] %setting) is not used: its contrast is %ratio:1, at least %needed:1 is needed.</source>
         <translation>Umbala wokugcizelela %color (expwt.ini [BrandingSettings] %setting) awusetshenziswa: umehluko wawo ngu-%ratio:1, kudingeka okungenani u-%needed:1.</translation>
     </message>
+    <message>
+        <source>Accessibility</source>
+        <translation>Ukufinyeleleka</translation>
+    </message>
+    <message>
+        <source>Check the accessibility of the page (WCAG 2.2 AA)</source>
+        <translation>Hlola ukufinyeleleka kwekhasi (WCAG 2.2 AA)</translation>
+    </message>
+    <message>
+        <source>Checking the accessibility ...</source>
+        <translation>Kuhlolwa ukufinyeleleka ...</translation>
+    </message>
+    <message>
+        <source>The automatic check found no accessibility problems.</source>
+        <translation>Ukuhlola okuzenzakalelayo akutholanga zinkinga zokufinyeleleka.</translation>
+    </message>
+    <message>
+        <source>%n accessibility problems</source>
+        <translation>Izinkinga zokufinyeleleka ezingu-%n</translation>
+    </message>
+    <message>
+        <source>Critical</source>
+        <translation>Ebucayi</translation>
+    </message>
+    <message>
+        <source>Serious</source>
+        <translation>Enkulu</translation>
+    </message>
+    <message>
+        <source>Moderate</source>
+        <translation>Emaphakathi</translation>
+    </message>
+    <message>
+        <source>Minor</source>
+        <translation>Encane</translation>
+    </message>
+    <message>
+        <source>Field: %name</source>
+        <translation>Inkambu: %name</translation>
+    </message>
+    <message>
+        <source>Block: %name</source>
+        <translation>Ibhulokhi: %name</translation>
+    </message>
+    <message>
+        <source>Template: %name</source>
+        <translation>Ithempulethi: %name</translation>
+    </message>
+    <message>
+        <source>More about this rule</source>
+        <translation>Okwengeziwe ngalo mthetho</translation>
+    </message>
+    <message>
+        <source>The accessibility check could not run.</source>
+        <translation>Ukuhlola ukufinyeleleka akukwazanga ukusebenza.</translation>
+    </message>
+    <message>
+        <source>An automatic check finds only some problems: also try the page with the keyboard alone and with a screen reader.</source>
+        <translation>Ukuhlola okuzenzakalelayo kuthola ezinye izinkinga kuphela: zama nekhasi ngekhibhodi kuphela nangesifundi sesikrini.</translation>
+    </message>
+    <message>
+        <source>The rule texts come from axe-core, in English.</source>
+        <translation>Imibhalo yemithetho ivela ku-axe-core, ngesiNgisi.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

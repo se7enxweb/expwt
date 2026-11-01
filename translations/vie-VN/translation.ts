@@ -2071,6 +2071,70 @@
         <source>The accent color %color (expwt.ini [BrandingSettings] %setting) is not used: its contrast is %ratio:1, at least %needed:1 is needed.</source>
         <translation>Màu nhấn %color (expwt.ini [BrandingSettings] %setting) không được dùng: độ tương phản của nó là %ratio:1, cần ít nhất %needed:1.</translation>
     </message>
+    <message>
+        <source>Accessibility</source>
+        <translation>Khả năng tiếp cận</translation>
+    </message>
+    <message>
+        <source>Check the accessibility of the page (WCAG 2.2 AA)</source>
+        <translation>Kiểm tra khả năng tiếp cận của trang (WCAG 2.2 AA)</translation>
+    </message>
+    <message>
+        <source>Checking the accessibility ...</source>
+        <translation>Đang kiểm tra khả năng tiếp cận ...</translation>
+    </message>
+    <message>
+        <source>The automatic check found no accessibility problems.</source>
+        <translation>Kiểm tra tự động không tìm thấy vấn đề nào về khả năng tiếp cận.</translation>
+    </message>
+    <message>
+        <source>%n accessibility problems</source>
+        <translation>%n vấn đề về khả năng tiếp cận</translation>
+    </message>
+    <message>
+        <source>Critical</source>
+        <translation>Nghiêm trọng nhất</translation>
+    </message>
+    <message>
+        <source>Serious</source>
+        <translation>Nghiêm trọng</translation>
+    </message>
+    <message>
+        <source>Moderate</source>
+        <translation>Trung bình</translation>
+    </message>
+    <message>
+        <source>Minor</source>
+        <translation>Nhỏ</translation>
+    </message>
+    <message>
+        <source>Field: %name</source>
+        <translation>Trường: %name</translation>
+    </message>
+    <message>
+        <source>Block: %name</source>
+        <translation>Khối: %name</translation>
+    </message>
+    <message>
+        <source>Template: %name</source>
+        <translation>Mẫu: %name</translation>
+    </message>
+    <message>
+        <source>More about this rule</source>
+        <translation>Thêm về quy tắc này</translation>
+    </message>
+    <message>
+        <source>The accessibility check could not run.</source>
+        <translation>Không thể chạy kiểm tra khả năng tiếp cận.</translation>
+    </message>
+    <message>
+        <source>An automatic check finds only some problems: also try the page with the keyboard alone and with a screen reader.</source>
+        <translation>Kiểm tra tự động chỉ tìm được một số vấn đề: hãy thử trang chỉ với bàn phím và với trình đọc màn hình nữa.</translation>
+    </message>
+    <message>
+        <source>The rule texts come from axe-core, in English.</source>
+        <translation>Nội dung quy tắc lấy từ axe-core, bằng tiếng Anh.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

@@ -2071,6 +2071,70 @@
         <source>The accent color %color (expwt.ini [BrandingSettings] %setting) is not used: its contrast is %ratio:1, at least %needed:1 is needed.</source>
         <translation>Hindi ginagamit ang accent color na %color (expwt.ini [BrandingSettings] %setting): ang contrast nito ay %ratio:1, kailangan ng hindi bababa sa %needed:1.</translation>
     </message>
+    <message>
+        <source>Accessibility</source>
+        <translation>Accessibility</translation>
+    </message>
+    <message>
+        <source>Check the accessibility of the page (WCAG 2.2 AA)</source>
+        <translation>Suriin ang accessibility ng pahina (WCAG 2.2 AA)</translation>
+    </message>
+    <message>
+        <source>Checking the accessibility ...</source>
+        <translation>Sinusuri ang accessibility ...</translation>
+    </message>
+    <message>
+        <source>The automatic check found no accessibility problems.</source>
+        <translation>Walang nakitang problema sa accessibility ang awtomatikong pagsusuri.</translation>
+    </message>
+    <message>
+        <source>%n accessibility problems</source>
+        <translation>%n problema sa accessibility</translation>
+    </message>
+    <message>
+        <source>Critical</source>
+        <translation>Kritikal</translation>
+    </message>
+    <message>
+        <source>Serious</source>
+        <translation>Seryoso</translation>
+    </message>
+    <message>
+        <source>Moderate</source>
+        <translation>Katamtaman</translation>
+    </message>
+    <message>
+        <source>Minor</source>
+        <translation>Maliit</translation>
+    </message>
+    <message>
+        <source>Field: %name</source>
+        <translation>Field: %name</translation>
+    </message>
+    <message>
+        <source>Block: %name</source>
+        <translation>Block: %name</translation>
+    </message>
+    <message>
+        <source>Template: %name</source>
+        <translation>Template: %name</translation>
+    </message>
+    <message>
+        <source>More about this rule</source>
+        <translation>Higit pa tungkol sa panuntunang ito</translation>
+    </message>
+    <message>
+        <source>The accessibility check could not run.</source>
+        <translation>Hindi tumakbo ang pagsusuri sa accessibility.</translation>
+    </message>
+    <message>
+        <source>An automatic check finds only some problems: also try the page with the keyboard alone and with a screen reader.</source>
+        <translation>Ilan lang na problema ang nakikita ng awtomatikong pagsusuri: subukan din ang pahina gamit lang ang keyboard at gamit ang screen reader.</translation>
+    </message>
+    <message>
+        <source>The rule texts come from axe-core, in English.</source>
+        <translation>Galing sa axe-core ang mga teksto ng panuntunan, sa Ingles.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

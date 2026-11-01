@@ -2071,6 +2071,70 @@
         <source>The accent color %color (expwt.ini [BrandingSettings] %setting) is not used: its contrast is %ratio:1, at least %needed:1 is needed.</source>
         <translation>Warna aksen %color (expwt.ini [BrandingSettings] %setting) henteu dianggo: kontrasna %ratio:1, diperyogikeun sahenteuna %needed:1.</translation>
     </message>
+    <message>
+        <source>Accessibility</source>
+        <translation>Aksésibilitas</translation>
+    </message>
+    <message>
+        <source>Check the accessibility of the page (WCAG 2.2 AA)</source>
+        <translation>Pariksa aksésibilitas kaca (WCAG 2.2 AA)</translation>
+    </message>
+    <message>
+        <source>Checking the accessibility ...</source>
+        <translation>Mariksa aksésibilitas ...</translation>
+    </message>
+    <message>
+        <source>The automatic check found no accessibility problems.</source>
+        <translation>Pamariksaan otomatis teu manggihan masalah aksésibilitas.</translation>
+    </message>
+    <message>
+        <source>%n accessibility problems</source>
+        <translation>%n masalah aksésibilitas</translation>
+    </message>
+    <message>
+        <source>Critical</source>
+        <translation>Kritis</translation>
+    </message>
+    <message>
+        <source>Serious</source>
+        <translation>Serius</translation>
+    </message>
+    <message>
+        <source>Moderate</source>
+        <translation>Sedeng</translation>
+    </message>
+    <message>
+        <source>Minor</source>
+        <translation>Leutik</translation>
+    </message>
+    <message>
+        <source>Field: %name</source>
+        <translation>Widang: %name</translation>
+    </message>
+    <message>
+        <source>Block: %name</source>
+        <translation>Blok: %name</translation>
+    </message>
+    <message>
+        <source>Template: %name</source>
+        <translation>Citakan: %name</translation>
+    </message>
+    <message>
+        <source>More about this rule</source>
+        <translation>Langkung seueur ngeunaan aturan ieu</translation>
+    </message>
+    <message>
+        <source>The accessibility check could not run.</source>
+        <translation>Pamariksaan aksésibilitas teu tiasa dijalankeun.</translation>
+    </message>
+    <message>
+        <source>An automatic check finds only some problems: also try the page with the keyboard alone and with a screen reader.</source>
+        <translation>Pamariksaan otomatis ngan manggihan sababaraha masalah: cobian ogé kaca ieu ngan ku kibor sareng ku pamaca layar.</translation>
+    </message>
+    <message>
+        <source>The rule texts come from axe-core, in English.</source>
+        <translation>Téks aturan asalna ti axe-core, dina basa Inggris.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

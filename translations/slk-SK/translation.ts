@@ -2071,6 +2071,70 @@
         <source>The accent color %color (expwt.ini [BrandingSettings] %setting) is not used: its contrast is %ratio:1, at least %needed:1 is needed.</source>
         <translation>Farba zvýraznenia %color (expwt.ini [BrandingSettings] %setting) sa nepoužíva: jej kontrast je %ratio:1, potrebný je aspoň %needed:1.</translation>
     </message>
+    <message>
+        <source>Accessibility</source>
+        <translation>Prístupnosť</translation>
+    </message>
+    <message>
+        <source>Check the accessibility of the page (WCAG 2.2 AA)</source>
+        <translation>Skontrolovať prístupnosť stránky (WCAG 2.2 AA)</translation>
+    </message>
+    <message>
+        <source>Checking the accessibility ...</source>
+        <translation>Kontroluje sa prístupnosť ...</translation>
+    </message>
+    <message>
+        <source>The automatic check found no accessibility problems.</source>
+        <translation>Automatická kontrola nenašla žiadne problémy s prístupnosťou.</translation>
+    </message>
+    <message>
+        <source>%n accessibility problems</source>
+        <translation>%n problémov s prístupnosťou</translation>
+    </message>
+    <message>
+        <source>Critical</source>
+        <translation>Kritický</translation>
+    </message>
+    <message>
+        <source>Serious</source>
+        <translation>Závažný</translation>
+    </message>
+    <message>
+        <source>Moderate</source>
+        <translation>Stredný</translation>
+    </message>
+    <message>
+        <source>Minor</source>
+        <translation>Drobný</translation>
+    </message>
+    <message>
+        <source>Field: %name</source>
+        <translation>Pole: %name</translation>
+    </message>
+    <message>
+        <source>Block: %name</source>
+        <translation>Blok: %name</translation>
+    </message>
+    <message>
+        <source>Template: %name</source>
+        <translation>Šablóna: %name</translation>
+    </message>
+    <message>
+        <source>More about this rule</source>
+        <translation>Viac o tomto pravidle</translation>
+    </message>
+    <message>
+        <source>The accessibility check could not run.</source>
+        <translation>Kontrolu prístupnosti nebolo možné spustiť.</translation>
+    </message>
+    <message>
+        <source>An automatic check finds only some problems: also try the page with the keyboard alone and with a screen reader.</source>
+        <translation>Automatická kontrola nájde len niektoré problémy: vyskúšajte stránku aj len s klávesnicou a s čítačkou obrazovky.</translation>
+    </message>
+    <message>
+        <source>The rule texts come from axe-core, in English.</source>
+        <translation>Texty pravidiel pochádzajú z axe-core, v angličtine.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

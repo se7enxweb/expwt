@@ -2071,6 +2071,70 @@
         <source>The accent color %color (expwt.ini [BrandingSettings] %setting) is not used: its contrast is %ratio:1, at least %needed:1 is needed.</source>
         <translation>ആക്സന്റ് നിറം %color (expwt.ini [BrandingSettings] %setting) ഉപയോഗിക്കുന്നില്ല: അതിന്റെ കോൺട്രാസ്റ്റ് %ratio:1 ആണ്, കുറഞ്ഞത് %needed:1 ആവശ്യമാണ്.</translation>
     </message>
+    <message>
+        <source>Accessibility</source>
+        <translation>പ്രാപ്യത</translation>
+    </message>
+    <message>
+        <source>Check the accessibility of the page (WCAG 2.2 AA)</source>
+        <translation>പേജിന്റെ പ്രാപ്യത പരിശോധിക്കുക (WCAG 2.2 AA)</translation>
+    </message>
+    <message>
+        <source>Checking the accessibility ...</source>
+        <translation>പ്രാപ്യത പരിശോധിക്കുന്നു ...</translation>
+    </message>
+    <message>
+        <source>The automatic check found no accessibility problems.</source>
+        <translation>സ്വയമേവയുള്ള പരിശോധനയിൽ പ്രാപ്യതാ പ്രശ്നങ്ങളൊന്നും കണ്ടെത്തിയില്ല.</translation>
+    </message>
+    <message>
+        <source>%n accessibility problems</source>
+        <translation>%n പ്രാപ്യതാ പ്രശ്നങ്ങൾ</translation>
+    </message>
+    <message>
+        <source>Critical</source>
+        <translation>നിർണായകം</translation>
+    </message>
+    <message>
+        <source>Serious</source>
+        <translation>ഗുരുതരം</translation>
+    </message>
+    <message>
+        <source>Moderate</source>
+        <translation>മിതം</translation>
+    </message>
+    <message>
+        <source>Minor</source>
+        <translation>ചെറുത്</translation>
+    </message>
+    <message>
+        <source>Field: %name</source>
+        <translation>ഫീൽഡ്: %name</translation>
+    </message>
+    <message>
+        <source>Block: %name</source>
+        <translation>ബ്ലോക്ക്: %name</translation>
+    </message>
+    <message>
+        <source>Template: %name</source>
+        <translation>ടെംപ്ലേറ്റ്: %name</translation>
+    </message>
+    <message>
+        <source>More about this rule</source>
+        <translation>ഈ നിയമത്തെക്കുറിച്ച് കൂടുതൽ</translation>
+    </message>
+    <message>
+        <source>The accessibility check could not run.</source>
+        <translation>പ്രാപ്യതാ പരിശോധന പ്രവർത്തിപ്പിക്കാനായില്ല.</translation>
+    </message>
+    <message>
+        <source>An automatic check finds only some problems: also try the page with the keyboard alone and with a screen reader.</source>
+        <translation>സ്വയമേവയുള്ള പരിശോധന ചില പ്രശ്നങ്ങൾ മാത്രമേ കണ്ടെത്തൂ: പേജ് കീബോർഡ് മാത്രം ഉപയോഗിച്ചും സ്ക്രീൻ റീഡർ ഉപയോഗിച്ചും പരീക്ഷിക്കുക.</translation>
+    </message>
+    <message>
+        <source>The rule texts come from axe-core, in English.</source>
+        <translation>നിയമങ്ങളുടെ വാചകങ്ങൾ axe-core-ൽ നിന്നാണ്, ഇംഗ്ലീഷിൽ.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

@@ -2071,6 +2071,70 @@
         <source>The accent color %color (expwt.ini [BrandingSettings] %setting) is not used: its contrast is %ratio:1, at least %needed:1 is needed.</source>
         <translation>ສີເນັ້ນ %color (expwt.ini [BrandingSettings] %setting) ບໍ່ໄດ້ຖືກໃຊ້: ຄວາມຄົມຊັດຂອງມັນແມ່ນ %ratio:1, ຕ້ອງການຢ່າງໜ້ອຍ %needed:1.</translation>
     </message>
+    <message>
+        <source>Accessibility</source>
+        <translation>ການເຂົ້າເຖິງ</translation>
+    </message>
+    <message>
+        <source>Check the accessibility of the page (WCAG 2.2 AA)</source>
+        <translation>ກວດສອບການເຂົ້າເຖິງຂອງໜ້າ (WCAG 2.2 AA)</translation>
+    </message>
+    <message>
+        <source>Checking the accessibility ...</source>
+        <translation>ກຳລັງກວດສອບການເຂົ້າເຖິງ ...</translation>
+    </message>
+    <message>
+        <source>The automatic check found no accessibility problems.</source>
+        <translation>ການກວດສອບອັດຕະໂນມັດບໍ່ພົບບັນຫາການເຂົ້າເຖິງ.</translation>
+    </message>
+    <message>
+        <source>%n accessibility problems</source>
+        <translation>ບັນຫາການເຂົ້າເຖິງ %n ຢ່າງ</translation>
+    </message>
+    <message>
+        <source>Critical</source>
+        <translation>ວິກິດ</translation>
+    </message>
+    <message>
+        <source>Serious</source>
+        <translation>ຮ້າຍແຮງ</translation>
+    </message>
+    <message>
+        <source>Moderate</source>
+        <translation>ປານກາງ</translation>
+    </message>
+    <message>
+        <source>Minor</source>
+        <translation>ເລັກນ້ອຍ</translation>
+    </message>
+    <message>
+        <source>Field: %name</source>
+        <translation>ຊ່ອງ: %name</translation>
+    </message>
+    <message>
+        <source>Block: %name</source>
+        <translation>ບລັອກ: %name</translation>
+    </message>
+    <message>
+        <source>Template: %name</source>
+        <translation>ແມ່ແບບ: %name</translation>
+    </message>
+    <message>
+        <source>More about this rule</source>
+        <translation>ເພີ່ມເຕີມກ່ຽວກັບກົດນີ້</translation>
+    </message>
+    <message>
+        <source>The accessibility check could not run.</source>
+        <translation>ບໍ່ສາມາດດຳເນີນການກວດສອບການເຂົ້າເຖິງໄດ້.</translation>
+    </message>
+    <message>
+        <source>An automatic check finds only some problems: also try the page with the keyboard alone and with a screen reader.</source>
+        <translation>ການກວດສອບອັດຕະໂນມັດພົບພຽງບາງບັນຫາເທົ່ານັ້ນ: ລອງໃຊ້ໜ້ານີ້ດ້ວຍແປ້ນພິມຢ່າງດຽວ ແລະ ດ້ວຍໂປຣແກຣມອ່ານໜ້າຈໍນຳ.</translation>
+    </message>
+    <message>
+        <source>The rule texts come from axe-core, in English.</source>
+        <translation>ຂໍ້ຄວາມຂອງກົດມາຈາກ axe-core, ເປັນພາສາອັງກິດ.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

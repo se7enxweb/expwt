@@ -2071,6 +2071,70 @@
         <source>The accent color %color (expwt.ini [BrandingSettings] %setting) is not used: its contrast is %ratio:1, at least %needed:1 is needed.</source>
         <translation>Rangi ya msisitizo %color (expwt.ini [BrandingSettings] %setting) haitumiki: utofautishaji wake ni %ratio:1, angalau %needed:1 unahitajika.</translation>
     </message>
+    <message>
+        <source>Accessibility</source>
+        <translation>Ufikivu</translation>
+    </message>
+    <message>
+        <source>Check the accessibility of the page (WCAG 2.2 AA)</source>
+        <translation>Kagua ufikivu wa ukurasa (WCAG 2.2 AA)</translation>
+    </message>
+    <message>
+        <source>Checking the accessibility ...</source>
+        <translation>Inakagua ufikivu ...</translation>
+    </message>
+    <message>
+        <source>The automatic check found no accessibility problems.</source>
+        <translation>Ukaguzi wa kiotomatiki haukupata matatizo ya ufikivu.</translation>
+    </message>
+    <message>
+        <source>%n accessibility problems</source>
+        <translation>Matatizo %n ya ufikivu</translation>
+    </message>
+    <message>
+        <source>Critical</source>
+        <translation>Hatari</translation>
+    </message>
+    <message>
+        <source>Serious</source>
+        <translation>Makubwa</translation>
+    </message>
+    <message>
+        <source>Moderate</source>
+        <translation>Wastani</translation>
+    </message>
+    <message>
+        <source>Minor</source>
+        <translation>Madogo</translation>
+    </message>
+    <message>
+        <source>Field: %name</source>
+        <translation>Sehemu: %name</translation>
+    </message>
+    <message>
+        <source>Block: %name</source>
+        <translation>Kizuizi: %name</translation>
+    </message>
+    <message>
+        <source>Template: %name</source>
+        <translation>Kiolezo: %name</translation>
+    </message>
+    <message>
+        <source>More about this rule</source>
+        <translation>Zaidi kuhusu kanuni hii</translation>
+    </message>
+    <message>
+        <source>The accessibility check could not run.</source>
+        <translation>Ukaguzi wa ufikivu haukuweza kuendeshwa.</translation>
+    </message>
+    <message>
+        <source>An automatic check finds only some problems: also try the page with the keyboard alone and with a screen reader.</source>
+        <translation>Ukaguzi wa kiotomatiki hupata baadhi tu ya matatizo: jaribu pia ukurasa kwa kibodi pekee na kwa kisoma skrini.</translation>
+    </message>
+    <message>
+        <source>The rule texts come from axe-core, in English.</source>
+        <translation>Maandishi ya kanuni yanatoka axe-core, kwa Kiingereza.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

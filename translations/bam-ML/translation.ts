@@ -2071,6 +2071,70 @@
         <source>The accent color %color (expwt.ini [BrandingSettings] %setting) is not used: its contrast is %ratio:1, at least %needed:1 is needed.</source>
         <translation>Accent kulɛri %color (expwt.ini [BrandingSettings] %setting) tɛ baara la: a ka danfara ye %ratio:1 ye, %needed:1 dɔgɔyalen de ka kan.</translation>
     </message>
+    <message>
+        <source>Accessibility</source>
+        <translation>Sɔrɔli nɔgɔya</translation>
+    </message>
+    <message>
+        <source>Check the accessibility of the page (WCAG 2.2 AA)</source>
+        <translation>Ɲɛ in sɔrɔli nɔgɔya lajɛ (WCAG 2.2 AA)</translation>
+    </message>
+    <message>
+        <source>Checking the accessibility ...</source>
+        <translation>Sɔrɔli nɔgɔya bɛ lajɛ ...</translation>
+    </message>
+    <message>
+        <source>The automatic check found no accessibility problems.</source>
+        <translation>Lajɛli yɛrɛma ma gɛlɛya si sɔrɔ sɔrɔli nɔgɔya la.</translation>
+    </message>
+    <message>
+        <source>%n accessibility problems</source>
+        <translation>Sɔrɔli nɔgɔya gɛlɛya %n</translation>
+    </message>
+    <message>
+        <source>Critical</source>
+        <translation>Kunbaba</translation>
+    </message>
+    <message>
+        <source>Serious</source>
+        <translation>Jugu</translation>
+    </message>
+    <message>
+        <source>Moderate</source>
+        <translation>Cɛmancɛ</translation>
+    </message>
+    <message>
+        <source>Minor</source>
+        <translation>Fitinin</translation>
+    </message>
+    <message>
+        <source>Field: %name</source>
+        <translation>Yɔrɔ: %name</translation>
+    </message>
+    <message>
+        <source>Block: %name</source>
+        <translation>Bulɔki: %name</translation>
+    </message>
+    <message>
+        <source>Template: %name</source>
+        <translation>Misali: %name</translation>
+    </message>
+    <message>
+        <source>More about this rule</source>
+        <translation>Sariya in kan kunnafoni wɛrɛw</translation>
+    </message>
+    <message>
+        <source>The accessibility check could not run.</source>
+        <translation>Sɔrɔli nɔgɔya lajɛli ma se ka kɛ.</translation>
+    </message>
+    <message>
+        <source>An automatic check finds only some problems: also try the page with the keyboard alone and with a screen reader.</source>
+        <translation>Lajɛli yɛrɛma bɛ gɛlɛya dɔw dɔrɔn sɔrɔ: ɲɛ in lajɛ kilaviye dɔrɔn na ani ekaran kalanna fana na.</translation>
+    </message>
+    <message>
+        <source>The rule texts come from axe-core, in English.</source>
+        <translation>Sariya sɛbɛnw bɔra axe-core la, angilɛkan na.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

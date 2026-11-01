@@ -2071,6 +2071,70 @@
         <source>The accent color %color (expwt.ini [BrandingSettings] %setting) is not used: its contrast is %ratio:1, at least %needed:1 is needed.</source>
         <translation>Akcento spalva %color (expwt.ini [BrandingSettings] %setting) nenaudojama: jos kontrastas yra %ratio:1, reikia bent %needed:1.</translation>
     </message>
+    <message>
+        <source>Accessibility</source>
+        <translation>Prieinamumas</translation>
+    </message>
+    <message>
+        <source>Check the accessibility of the page (WCAG 2.2 AA)</source>
+        <translation>Tikrinti puslapio prieinamumą (WCAG 2.2 AA)</translation>
+    </message>
+    <message>
+        <source>Checking the accessibility ...</source>
+        <translation>Tikrinamas prieinamumas ...</translation>
+    </message>
+    <message>
+        <source>The automatic check found no accessibility problems.</source>
+        <translation>Automatinė patikra nerado prieinamumo problemų.</translation>
+    </message>
+    <message>
+        <source>%n accessibility problems</source>
+        <translation>Prieinamumo problemų: %n</translation>
+    </message>
+    <message>
+        <source>Critical</source>
+        <translation>Kritinė</translation>
+    </message>
+    <message>
+        <source>Serious</source>
+        <translation>Rimta</translation>
+    </message>
+    <message>
+        <source>Moderate</source>
+        <translation>Vidutinė</translation>
+    </message>
+    <message>
+        <source>Minor</source>
+        <translation>Nedidelė</translation>
+    </message>
+    <message>
+        <source>Field: %name</source>
+        <translation>Laukas: %name</translation>
+    </message>
+    <message>
+        <source>Block: %name</source>
+        <translation>Blokas: %name</translation>
+    </message>
+    <message>
+        <source>Template: %name</source>
+        <translation>Šablonas: %name</translation>
+    </message>
+    <message>
+        <source>More about this rule</source>
+        <translation>Daugiau apie šią taisyklę</translation>
+    </message>
+    <message>
+        <source>The accessibility check could not run.</source>
+        <translation>Prieinamumo patikros nepavyko paleisti.</translation>
+    </message>
+    <message>
+        <source>An automatic check finds only some problems: also try the page with the keyboard alone and with a screen reader.</source>
+        <translation>Automatinė patikra randa tik dalį problemų: išbandykite puslapį ir vien klaviatūra, ir su ekrano skaitytuvu.</translation>
+    </message>
+    <message>
+        <source>The rule texts come from axe-core, in English.</source>
+        <translation>Taisyklių tekstai paimti iš axe-core, anglų kalba.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

@@ -2071,6 +2071,70 @@
         <source>The accent color %color (expwt.ini [BrandingSettings] %setting) is not used: its contrast is %ratio:1, at least %needed:1 is needed.</source>
         <translation>ايڪسينٽ رنگ %color (expwt.ini [BrandingSettings] %setting) استعمال نٿو ٿئي: ان جو ڪنٽراسٽ %ratio:1 آهي، گهٽ ۾ گهٽ %needed:1 گهربل آهي.</translation>
     </message>
+    <message>
+        <source>Accessibility</source>
+        <translation>رسائي</translation>
+    </message>
+    <message>
+        <source>Check the accessibility of the page (WCAG 2.2 AA)</source>
+        <translation>صفحي جي رسائي جانچيو (WCAG 2.2 AA)</translation>
+    </message>
+    <message>
+        <source>Checking the accessibility ...</source>
+        <translation>رسائي جانچي پئي وڃي ...</translation>
+    </message>
+    <message>
+        <source>The automatic check found no accessibility problems.</source>
+        <translation>خودڪار جانچ ۾ رسائي جو ڪو به مسئلو نه مليو.</translation>
+    </message>
+    <message>
+        <source>%n accessibility problems</source>
+        <translation>رسائي جا %n مسئلا</translation>
+    </message>
+    <message>
+        <source>Critical</source>
+        <translation>نازڪ</translation>
+    </message>
+    <message>
+        <source>Serious</source>
+        <translation>سنجيده</translation>
+    </message>
+    <message>
+        <source>Moderate</source>
+        <translation>وچولو</translation>
+    </message>
+    <message>
+        <source>Minor</source>
+        <translation>معمولي</translation>
+    </message>
+    <message>
+        <source>Field: %name</source>
+        <translation>فيلڊ: %name</translation>
+    </message>
+    <message>
+        <source>Block: %name</source>
+        <translation>بلاڪ: %name</translation>
+    </message>
+    <message>
+        <source>Template: %name</source>
+        <translation>ٽيمپليٽ: %name</translation>
+    </message>
+    <message>
+        <source>More about this rule</source>
+        <translation>هن اصول بابت وڌيڪ</translation>
+    </message>
+    <message>
+        <source>The accessibility check could not run.</source>
+        <translation>رسائي جي جانچ هلي نه سگهي.</translation>
+    </message>
+    <message>
+        <source>An automatic check finds only some problems: also try the page with the keyboard alone and with a screen reader.</source>
+        <translation>خودڪار جانچ رڳو ڪجهه مسئلا ڳولي ٿي: صفحي کي رڳو ڪيبورڊ سان ۽ اسڪرين ريڊر سان به آزمايو.</translation>
+    </message>
+    <message>
+        <source>The rule texts come from axe-core, in English.</source>
+        <translation>اصولن جا متن axe-core مان اچن ٿا، انگريزيءَ ۾.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

@@ -2071,6 +2071,70 @@
         <source>The accent color %color (expwt.ini [BrandingSettings] %setting) is not used: its contrast is %ratio:1, at least %needed:1 is needed.</source>
         <translation>యాక్సెంట్ రంగు %color (expwt.ini [BrandingSettings] %setting) ఉపయోగించబడదు: దాని కాంట్రాస్ట్ %ratio:1, కనీసం %needed:1 అవసరం.</translation>
     </message>
+    <message>
+        <source>Accessibility</source>
+        <translation>ప్రాప్యత</translation>
+    </message>
+    <message>
+        <source>Check the accessibility of the page (WCAG 2.2 AA)</source>
+        <translation>పేజీ ప్రాప్యతను తనిఖీ చేయండి (WCAG 2.2 AA)</translation>
+    </message>
+    <message>
+        <source>Checking the accessibility ...</source>
+        <translation>ప్రాప్యతను తనిఖీ చేస్తోంది ...</translation>
+    </message>
+    <message>
+        <source>The automatic check found no accessibility problems.</source>
+        <translation>స్వయంచాలక తనిఖీలో ప్రాప్యత సమస్యలు ఏవీ కనిపించలేదు.</translation>
+    </message>
+    <message>
+        <source>%n accessibility problems</source>
+        <translation>%n ప్రాప్యత సమస్యలు</translation>
+    </message>
+    <message>
+        <source>Critical</source>
+        <translation>క్లిష్టమైనది</translation>
+    </message>
+    <message>
+        <source>Serious</source>
+        <translation>తీవ్రమైనది</translation>
+    </message>
+    <message>
+        <source>Moderate</source>
+        <translation>మధ్యస్థం</translation>
+    </message>
+    <message>
+        <source>Minor</source>
+        <translation>చిన్నది</translation>
+    </message>
+    <message>
+        <source>Field: %name</source>
+        <translation>ఫీల్డ్: %name</translation>
+    </message>
+    <message>
+        <source>Block: %name</source>
+        <translation>బ్లాక్: %name</translation>
+    </message>
+    <message>
+        <source>Template: %name</source>
+        <translation>టెంప్లేట్: %name</translation>
+    </message>
+    <message>
+        <source>More about this rule</source>
+        <translation>ఈ నియమం గురించి మరింత</translation>
+    </message>
+    <message>
+        <source>The accessibility check could not run.</source>
+        <translation>ప్రాప్యత తనిఖీని అమలు చేయలేకపోయాము.</translation>
+    </message>
+    <message>
+        <source>An automatic check finds only some problems: also try the page with the keyboard alone and with a screen reader.</source>
+        <translation>స్వయంచాలక తనిఖీ కొన్ని సమస్యలను మాత్రమే కనుగొంటుంది: పేజీని కీబోర్డ్‌తో మాత్రమే మరియు స్క్రీన్ రీడర్‌తో కూడా ప్రయత్నించండి.</translation>
+    </message>
+    <message>
+        <source>The rule texts come from axe-core, in English.</source>
+        <translation>నియమాల పాఠాలు axe-core నుండి వస్తాయి, ఆంగ్లంలో.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

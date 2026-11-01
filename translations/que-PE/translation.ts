@@ -2071,6 +2071,70 @@
         <source>The accent color %color (expwt.ini [BrandingSettings] %setting) is not used: its contrast is %ratio:1, at least %needed:1 is needed.</source>
         <translation>Rikuchiq llimp'i %color (expwt.ini [BrandingSettings] %setting) mana llamk'achisqachu: contrasten %ratio:1, aschallanpas %needed:1 necesitakun.</translation>
     </message>
+    <message>
+        <source>Accessibility</source>
+        <translation>Haykuy atiy</translation>
+    </message>
+    <message>
+        <source>Check the accessibility of the page (WCAG 2.2 AA)</source>
+        <translation>Paginap haykuy atiyninta qhaway (WCAG 2.2 AA)</translation>
+    </message>
+    <message>
+        <source>Checking the accessibility ...</source>
+        <translation>Haykuy atiyta qhawachkan ...</translation>
+    </message>
+    <message>
+        <source>The automatic check found no accessibility problems.</source>
+        <translation>Kikinmanta qhawariyqa mana ima haykuy atiy sasachakuytapas tarirqanchu.</translation>
+    </message>
+    <message>
+        <source>%n accessibility problems</source>
+        <translation>%n haykuy atiy sasachakuykuna</translation>
+    </message>
+    <message>
+        <source>Critical</source>
+        <translation>Ancha hatun</translation>
+    </message>
+    <message>
+        <source>Serious</source>
+        <translation>Hatun</translation>
+    </message>
+    <message>
+        <source>Moderate</source>
+        <translation>Chawpi</translation>
+    </message>
+    <message>
+        <source>Minor</source>
+        <translation>Huch'uy</translation>
+    </message>
+    <message>
+        <source>Field: %name</source>
+        <translation>Pampa: %name</translation>
+    </message>
+    <message>
+        <source>Block: %name</source>
+        <translation>Rak'i: %name</translation>
+    </message>
+    <message>
+        <source>Template: %name</source>
+        <translation>Plantilla: %name</translation>
+    </message>
+    <message>
+        <source>More about this rule</source>
+        <translation>Kay kamachikuymanta astawan</translation>
+    </message>
+    <message>
+        <source>The accessibility check could not run.</source>
+        <translation>Haykuy atiy qhawariyqa mana purirqanchu.</translation>
+    </message>
+    <message>
+        <source>An automatic check finds only some problems: also try the page with the keyboard alone and with a screen reader.</source>
+        <translation>Kikinmanta qhawariyqa wakin sasachakuykunallata tarin: paginata tecladowanlla hinallataq pantalla ñawinchiqwan ima pruebay.</translation>
+    </message>
+    <message>
+        <source>The rule texts come from axe-core, in English.</source>
+        <translation>Kamachikuykunap qillqankunaqa axe-coremanta hamun, inglés simipi.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

@@ -2071,6 +2071,70 @@
         <source>The accent color %color (expwt.ini [BrandingSettings] %setting) is not used: its contrast is %ratio:1, at least %needed:1 is needed.</source>
         <translation>Halluun cimsaa %color (expwt.ini [BrandingSettings] %setting) hin fayyadamne: garaagarummaan isaa %ratio:1 dha, yoo xiqqaate %needed:1 barbaachisa.</translation>
     </message>
+    <message>
+        <source>Accessibility</source>
+        <translation>Argamummaa</translation>
+    </message>
+    <message>
+        <source>Check the accessibility of the page (WCAG 2.2 AA)</source>
+        <translation>Argamummaa fuulaa mirkaneessi (WCAG 2.2 AA)</translation>
+    </message>
+    <message>
+        <source>Checking the accessibility ...</source>
+        <translation>Argamummaan mirkanaa'aa jira ...</translation>
+    </message>
+    <message>
+        <source>The automatic check found no accessibility problems.</source>
+        <translation>Mirkaneessi ofumaan hojjetu rakkoo argamummaa tokkollee hin arganne.</translation>
+    </message>
+    <message>
+        <source>%n accessibility problems</source>
+        <translation>Rakkoowwan argamummaa %n</translation>
+    </message>
+    <message>
+        <source>Critical</source>
+        <translation>Baay'ee hamaa</translation>
+    </message>
+    <message>
+        <source>Serious</source>
+        <translation>Hamaa</translation>
+    </message>
+    <message>
+        <source>Moderate</source>
+        <translation>Giddugaleessa</translation>
+    </message>
+    <message>
+        <source>Minor</source>
+        <translation>Xiqqaa</translation>
+    </message>
+    <message>
+        <source>Field: %name</source>
+        <translation>Dirree: %name</translation>
+    </message>
+    <message>
+        <source>Block: %name</source>
+        <translation>Gudaa: %name</translation>
+    </message>
+    <message>
+        <source>Template: %name</source>
+        <translation>Fakkii: %name</translation>
+    </message>
+    <message>
+        <source>More about this rule</source>
+        <translation>Waa'ee seera kanaa dabalata</translation>
+    </message>
+    <message>
+        <source>The accessibility check could not run.</source>
+        <translation>Mirkaneessi argamummaa hojjechuu hin dandeenye.</translation>
+    </message>
+    <message>
+        <source>An automatic check finds only some problems: also try the page with the keyboard alone and with a screen reader.</source>
+        <translation>Mirkaneessi ofumaan hojjetu rakkoowwan muraasa qofa argata: fuula kana kiiboordii qofaan fi dubbisaa iskiriinii waliinis yaali.</translation>
+    </message>
+    <message>
+        <source>The rule texts come from axe-core, in English.</source>
+        <translation>Barreeffamoonni seeraa axe-core irraa dhufu, Afaan Ingiliiziitiin.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

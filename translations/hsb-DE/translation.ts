@@ -2071,6 +2071,70 @@
         <source>The accent color %color (expwt.ini [BrandingSettings] %setting) is not used: its contrast is %ratio:1, at least %needed:1 is needed.</source>
         <translation>Akcentowa barba %color (expwt.ini [BrandingSettings] %setting) so njewužiwa: jeje kontrast je %ratio:1, trjeba so znajmjeńša %needed:1.</translation>
     </message>
+    <message>
+        <source>Accessibility</source>
+        <translation>Přistupnosć</translation>
+    </message>
+    <message>
+        <source>Check the accessibility of the page (WCAG 2.2 AA)</source>
+        <translation>Přistupnosć strony přepruwować (WCAG 2.2 AA)</translation>
+    </message>
+    <message>
+        <source>Checking the accessibility ...</source>
+        <translation>Přistupnosć so přepruwuje ...</translation>
+    </message>
+    <message>
+        <source>The automatic check found no accessibility problems.</source>
+        <translation>Awtomatiske přepruwowanje njeje žane problemy z přistupnosću namakało.</translation>
+    </message>
+    <message>
+        <source>%n accessibility problems</source>
+        <translation>%n problemow z přistupnosću</translation>
+    </message>
+    <message>
+        <source>Critical</source>
+        <translation>Kritiski</translation>
+    </message>
+    <message>
+        <source>Serious</source>
+        <translation>Wažny</translation>
+    </message>
+    <message>
+        <source>Moderate</source>
+        <translation>Srjedźny</translation>
+    </message>
+    <message>
+        <source>Minor</source>
+        <translation>Mały</translation>
+    </message>
+    <message>
+        <source>Field: %name</source>
+        <translation>Polo: %name</translation>
+    </message>
+    <message>
+        <source>Block: %name</source>
+        <translation>Blok: %name</translation>
+    </message>
+    <message>
+        <source>Template: %name</source>
+        <translation>Předłoha: %name</translation>
+    </message>
+    <message>
+        <source>More about this rule</source>
+        <translation>Wjace wo tutym prawidle</translation>
+    </message>
+    <message>
+        <source>The accessibility check could not run.</source>
+        <translation>Přepruwowanje přistupnosće njeda so startować.</translation>
+    </message>
+    <message>
+        <source>An automatic check finds only some problems: also try the page with the keyboard alone and with a screen reader.</source>
+        <translation>Awtomatiske přepruwowanje namaka jenož někotre problemy: spytajće stronu tež jenož z tastaturu a z čitakom wobrazowki.</translation>
+    </message>
+    <message>
+        <source>The rule texts come from axe-core, in English.</source>
+        <translation>Teksty prawidłow pochadźeja z axe-core, w jendźelšćinje.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

@@ -2071,6 +2071,70 @@
         <source>The accent color %color (expwt.ini [BrandingSettings] %setting) is not used: its contrast is %ratio:1, at least %needed:1 is needed.</source>
         <translation>アクセントカラー %color (expwt.ini [BrandingSettings] %setting) は使用されません: コントラストは %ratio:1 で、少なくとも %needed:1 が必要です。</translation>
     </message>
+    <message>
+        <source>Accessibility</source>
+        <translation>アクセシビリティ</translation>
+    </message>
+    <message>
+        <source>Check the accessibility of the page (WCAG 2.2 AA)</source>
+        <translation>ページのアクセシビリティを確認 (WCAG 2.2 AA)</translation>
+    </message>
+    <message>
+        <source>Checking the accessibility ...</source>
+        <translation>アクセシビリティを確認しています ...</translation>
+    </message>
+    <message>
+        <source>The automatic check found no accessibility problems.</source>
+        <translation>自動チェックではアクセシビリティの問題は見つかりませんでした。</translation>
+    </message>
+    <message>
+        <source>%n accessibility problems</source>
+        <translation>アクセシビリティの問題 %n 件</translation>
+    </message>
+    <message>
+        <source>Critical</source>
+        <translation>致命的</translation>
+    </message>
+    <message>
+        <source>Serious</source>
+        <translation>重大</translation>
+    </message>
+    <message>
+        <source>Moderate</source>
+        <translation>中程度</translation>
+    </message>
+    <message>
+        <source>Minor</source>
+        <translation>軽微</translation>
+    </message>
+    <message>
+        <source>Field: %name</source>
+        <translation>フィールド: %name</translation>
+    </message>
+    <message>
+        <source>Block: %name</source>
+        <translation>ブロック: %name</translation>
+    </message>
+    <message>
+        <source>Template: %name</source>
+        <translation>テンプレート: %name</translation>
+    </message>
+    <message>
+        <source>More about this rule</source>
+        <translation>このルールの詳細</translation>
+    </message>
+    <message>
+        <source>The accessibility check could not run.</source>
+        <translation>アクセシビリティチェックを実行できませんでした。</translation>
+    </message>
+    <message>
+        <source>An automatic check finds only some problems: also try the page with the keyboard alone and with a screen reader.</source>
+        <translation>自動チェックで見つかるのは一部の問題だけです: キーボードだけで、またスクリーンリーダーでもページを試してください。</translation>
+    </message>
+    <message>
+        <source>The rule texts come from axe-core, in English.</source>
+        <translation>ルールのテキストは axe-core から取得したもので、英語です。</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

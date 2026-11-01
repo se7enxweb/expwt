@@ -2071,6 +2071,70 @@
         <source>The accent color %color (expwt.ini [BrandingSettings] %setting) is not used: its contrast is %ratio:1, at least %needed:1 is needed.</source>
         <translation>ʻAʻole hoʻohana ʻia ke kala hoʻoikaika %color (expwt.ini [BrandingSettings] %setting): ʻo %ratio:1 kona ʻokoʻa, pono ma ka liʻiliʻi loa %needed:1.</translation>
     </message>
+    <message>
+        <source>Accessibility</source>
+        <translation>Hiki ke komo</translation>
+    </message>
+    <message>
+        <source>Check the accessibility of the page (WCAG 2.2 AA)</source>
+        <translation>E nānā i ka hiki ke komo o ka ʻaoʻao (WCAG 2.2 AA)</translation>
+    </message>
+    <message>
+        <source>Checking the accessibility ...</source>
+        <translation>Ke nānā nei i ka hiki ke komo ...</translation>
+    </message>
+    <message>
+        <source>The automatic check found no accessibility problems.</source>
+        <translation>ʻAʻole i loaʻa i ka nānā ʻakomi kekahi pilikia hiki ke komo.</translation>
+    </message>
+    <message>
+        <source>%n accessibility problems</source>
+        <translation>%n pilikia hiki ke komo</translation>
+    </message>
+    <message>
+        <source>Critical</source>
+        <translation>Koʻikoʻi loa</translation>
+    </message>
+    <message>
+        <source>Serious</source>
+        <translation>Koʻikoʻi</translation>
+    </message>
+    <message>
+        <source>Moderate</source>
+        <translation>Waena</translation>
+    </message>
+    <message>
+        <source>Minor</source>
+        <translation>Liʻiliʻi</translation>
+    </message>
+    <message>
+        <source>Field: %name</source>
+        <translation>Kahua: %name</translation>
+    </message>
+    <message>
+        <source>Block: %name</source>
+        <translation>Poloka: %name</translation>
+    </message>
+    <message>
+        <source>Template: %name</source>
+        <translation>Anakuhi: %name</translation>
+    </message>
+    <message>
+        <source>More about this rule</source>
+        <translation>Nā mea hou e pili ana i kēia lula</translation>
+    </message>
+    <message>
+        <source>The accessibility check could not run.</source>
+        <translation>ʻAʻole hiki ke holo i ka nānā hiki ke komo.</translation>
+    </message>
+    <message>
+        <source>An automatic check finds only some problems: also try the page with the keyboard alone and with a screen reader.</source>
+        <translation>Loaʻa i ka nānā ʻakomi kekahi pilikia wale nō: e hoʻāʻo hoʻi i ka ʻaoʻao me ka papa pihi wale nō a me ka mea heluhelu pale.</translation>
+    </message>
+    <message>
+        <source>The rule texts come from axe-core, in English.</source>
+        <translation>No axe-core mai nā kikokikona o nā lula, ma ka ʻōlelo Pelekānia.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

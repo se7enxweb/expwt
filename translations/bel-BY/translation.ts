@@ -2071,6 +2071,70 @@
         <source>The accent color %color (expwt.ini [BrandingSettings] %setting) is not used: its contrast is %ratio:1, at least %needed:1 is needed.</source>
         <translation>Акцэнтны колер %color (expwt.ini [BrandingSettings] %setting) не выкарыстоўваецца: яго кантраст %ratio:1, патрэбна не менш за %needed:1.</translation>
     </message>
+    <message>
+        <source>Accessibility</source>
+        <translation>Даступнасць</translation>
+    </message>
+    <message>
+        <source>Check the accessibility of the page (WCAG 2.2 AA)</source>
+        <translation>Праверыць даступнасць старонкі (WCAG 2.2 AA)</translation>
+    </message>
+    <message>
+        <source>Checking the accessibility ...</source>
+        <translation>Праверка даступнасці ...</translation>
+    </message>
+    <message>
+        <source>The automatic check found no accessibility problems.</source>
+        <translation>Аўтаматычная праверка не знайшла праблем з даступнасцю.</translation>
+    </message>
+    <message>
+        <source>%n accessibility problems</source>
+        <translation>%n праблем з даступнасцю</translation>
+    </message>
+    <message>
+        <source>Critical</source>
+        <translation>Крытычная</translation>
+    </message>
+    <message>
+        <source>Serious</source>
+        <translation>Сур'ёзная</translation>
+    </message>
+    <message>
+        <source>Moderate</source>
+        <translation>Умераная</translation>
+    </message>
+    <message>
+        <source>Minor</source>
+        <translation>Нязначная</translation>
+    </message>
+    <message>
+        <source>Field: %name</source>
+        <translation>Поле: %name</translation>
+    </message>
+    <message>
+        <source>Block: %name</source>
+        <translation>Блок: %name</translation>
+    </message>
+    <message>
+        <source>Template: %name</source>
+        <translation>Шаблон: %name</translation>
+    </message>
+    <message>
+        <source>More about this rule</source>
+        <translation>Падрабязней пра гэта правіла</translation>
+    </message>
+    <message>
+        <source>The accessibility check could not run.</source>
+        <translation>Не ўдалося запусціць праверку даступнасці.</translation>
+    </message>
+    <message>
+        <source>An automatic check finds only some problems: also try the page with the keyboard alone and with a screen reader.</source>
+        <translation>Аўтаматычная праверка знаходзіць толькі частку праблем: паспрабуйце старонку таксама толькі з клавіятурай і з чытачом экрана.</translation>
+    </message>
+    <message>
+        <source>The rule texts come from axe-core, in English.</source>
+        <translation>Тэксты правіл узяты з axe-core, на англійскай мове.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

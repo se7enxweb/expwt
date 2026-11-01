@@ -2071,6 +2071,70 @@
         <source>The accent color %color (expwt.ini [BrandingSettings] %setting) is not used: its contrast is %ratio:1, at least %needed:1 is needed.</source>
         <translation>ڕەنگی جەختکردنەوەی %color (expwt.ini [BrandingSettings] %setting) بەکارناهێنرێت: جیاوازییەکەی %ratio:1 ە، لانیکەم %needed:1 پێویستە.</translation>
     </message>
+    <message>
+        <source>Accessibility</source>
+        <translation>دەستڕاگەیشتن</translation>
+    </message>
+    <message>
+        <source>Check the accessibility of the page (WCAG 2.2 AA)</source>
+        <translation>دەستڕاگەیشتنی پەڕەکە بپشکنە (WCAG 2.2 AA)</translation>
+    </message>
+    <message>
+        <source>Checking the accessibility ...</source>
+        <translation>دەستڕاگەیشتن دەپشکنرێت ...</translation>
+    </message>
+    <message>
+        <source>The automatic check found no accessibility problems.</source>
+        <translation>پشکنینی خۆکار هیچ کێشەیەکی دەستڕاگەیشتنی نەدۆزییەوە.</translation>
+    </message>
+    <message>
+        <source>%n accessibility problems</source>
+        <translation>%n کێشەی دەستڕاگەیشتن</translation>
+    </message>
+    <message>
+        <source>Critical</source>
+        <translation>مەترسیدار</translation>
+    </message>
+    <message>
+        <source>Serious</source>
+        <translation>جددی</translation>
+    </message>
+    <message>
+        <source>Moderate</source>
+        <translation>مامناوەند</translation>
+    </message>
+    <message>
+        <source>Minor</source>
+        <translation>بچووک</translation>
+    </message>
+    <message>
+        <source>Field: %name</source>
+        <translation>خانە: %name</translation>
+    </message>
+    <message>
+        <source>Block: %name</source>
+        <translation>بلۆک: %name</translation>
+    </message>
+    <message>
+        <source>Template: %name</source>
+        <translation>قاڵب: %name</translation>
+    </message>
+    <message>
+        <source>More about this rule</source>
+        <translation>زیاتر دەربارەی ئەم یاسایە</translation>
+    </message>
+    <message>
+        <source>The accessibility check could not run.</source>
+        <translation>پشکنینی دەستڕاگەیشتن نەیتوانی کار بکات.</translation>
+    </message>
+    <message>
+        <source>An automatic check finds only some problems: also try the page with the keyboard alone and with a screen reader.</source>
+        <translation>پشکنینی خۆکار تەنها هەندێک کێشە دەدۆزێتەوە: پەڕەکە تەنها بە تەختەکلیل و بە خوێنەرەوەی شاشەش تاقی بکەرەوە.</translation>
+    </message>
+    <message>
+        <source>The rule texts come from axe-core, in English.</source>
+        <translation>دەقی یاساکان لە axe-core ەوە دێن، بە ئینگلیزی.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

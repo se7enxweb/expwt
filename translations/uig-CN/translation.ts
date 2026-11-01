@@ -2071,6 +2071,70 @@
         <source>The accent color %color (expwt.ini [BrandingSettings] %setting) is not used: its contrast is %ratio:1, at least %needed:1 is needed.</source>
         <translation>%color گەۋدىلەندۈرۈش رەڭگى (expwt.ini [BrandingSettings] %setting) ئىشلىتىلمەيدۇ: ئۇنىڭ سېلىشتۇرما دەرىجىسى %ratio:1، كەم دېگەندە %needed:1 كېرەك.</translation>
     </message>
+    <message>
+        <source>Accessibility</source>
+        <translation>قولايلىق</translation>
+    </message>
+    <message>
+        <source>Check the accessibility of the page (WCAG 2.2 AA)</source>
+        <translation>بەتنىڭ قولايلىقىنى تەكشۈرۈش (WCAG 2.2 AA)</translation>
+    </message>
+    <message>
+        <source>Checking the accessibility ...</source>
+        <translation>قولايلىق تەكشۈرۈلۈۋاتىدۇ ...</translation>
+    </message>
+    <message>
+        <source>The automatic check found no accessibility problems.</source>
+        <translation>ئاپتوماتىك تەكشۈرۈش ھېچقانداق قولايلىق مەسىلىسى تاپمىدى.</translation>
+    </message>
+    <message>
+        <source>%n accessibility problems</source>
+        <translation>%n قولايلىق مەسىلىسى</translation>
+    </message>
+    <message>
+        <source>Critical</source>
+        <translation>ھالقىلىق</translation>
+    </message>
+    <message>
+        <source>Serious</source>
+        <translation>ئېغىر</translation>
+    </message>
+    <message>
+        <source>Moderate</source>
+        <translation>ئوتتۇرا</translation>
+    </message>
+    <message>
+        <source>Minor</source>
+        <translation>يېنىك</translation>
+    </message>
+    <message>
+        <source>Field: %name</source>
+        <translation>بۆلەك: %name</translation>
+    </message>
+    <message>
+        <source>Block: %name</source>
+        <translation>بلوك: %name</translation>
+    </message>
+    <message>
+        <source>Template: %name</source>
+        <translation>قېلىپ: %name</translation>
+    </message>
+    <message>
+        <source>More about this rule</source>
+        <translation>بۇ قائىدە ھەققىدە تېخىمۇ كۆپ</translation>
+    </message>
+    <message>
+        <source>The accessibility check could not run.</source>
+        <translation>قولايلىق تەكشۈرۈشنى ئىجرا قىلغىلى بولمىدى.</translation>
+    </message>
+    <message>
+        <source>An automatic check finds only some problems: also try the page with the keyboard alone and with a screen reader.</source>
+        <translation>ئاپتوماتىك تەكشۈرۈش پەقەت بەزى مەسىلىلەرنىلا تاپىدۇ: بەتنى پەقەت كۇنۇپكا تاختىسى بىلەن ۋە ئېكران ئوقۇغۇچ بىلەنمۇ سىناپ بېقىڭ.</translation>
+    </message>
+    <message>
+        <source>The rule texts come from axe-core, in English.</source>
+        <translation>قائىدە تېكىستلىرى axe-core دىن كەلگەن، ئىنگلىزچە.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

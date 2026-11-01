@@ -2071,6 +2071,70 @@
         <source>The accent color %color (expwt.ini [BrandingSettings] %setting) is not used: its contrast is %ratio:1, at least %needed:1 is needed.</source>
         <translation>N'eo ket implijet al liv-lakaat-war-wel %color (expwt.ini [BrandingSettings] %setting): %ratio:1 eo e genvezh, %needed:1 da nebeutañ a zo ezhomm.</translation>
     </message>
+    <message>
+        <source>Accessibility</source>
+        <translation>Haezadusted</translation>
+    </message>
+    <message>
+        <source>Check the accessibility of the page (WCAG 2.2 AA)</source>
+        <translation>Gwiriañ haezadusted ar bajenn (WCAG 2.2 AA)</translation>
+    </message>
+    <message>
+        <source>Checking the accessibility ...</source>
+        <translation>O wiriañ an haezadusted ...</translation>
+    </message>
+    <message>
+        <source>The automatic check found no accessibility problems.</source>
+        <translation>N'en deus kavet ar gwiriañ emgefreek kudenn haezadusted ebet.</translation>
+    </message>
+    <message>
+        <source>%n accessibility problems</source>
+        <translation>%n kudenn haezadusted</translation>
+    </message>
+    <message>
+        <source>Critical</source>
+        <translation>Pouezus-tre</translation>
+    </message>
+    <message>
+        <source>Serious</source>
+        <translation>Grevus</translation>
+    </message>
+    <message>
+        <source>Moderate</source>
+        <translation>Etre</translation>
+    </message>
+    <message>
+        <source>Minor</source>
+        <translation>Bihan</translation>
+    </message>
+    <message>
+        <source>Field: %name</source>
+        <translation>Maezienn: %name</translation>
+    </message>
+    <message>
+        <source>Block: %name</source>
+        <translation>Bloc'h: %name</translation>
+    </message>
+    <message>
+        <source>Template: %name</source>
+        <translation>Patrom: %name</translation>
+    </message>
+    <message>
+        <source>More about this rule</source>
+        <translation>Muioc'h diwar-benn ar reolenn-mañ</translation>
+    </message>
+    <message>
+        <source>The accessibility check could not run.</source>
+        <translation>N'eus ket bet gallet lañsañ gwiriañ an haezadusted.</translation>
+    </message>
+    <message>
+        <source>An automatic check finds only some problems: also try the page with the keyboard alone and with a screen reader.</source>
+        <translation>Ur gwiriañ emgefreek a gav kudennoù zo hepken: klaskit ar bajenn ivez gant ar c'hlavier hepken ha gant ul lenner skramm.</translation>
+    </message>
+    <message>
+        <source>The rule texts come from axe-core, in English.</source>
+        <translation>Testennoù ar reolennoù a zeu eus axe-core, e saozneg.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

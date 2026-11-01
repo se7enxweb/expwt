@@ -2071,6 +2071,70 @@
         <source>The accent color %color (expwt.ini [BrandingSettings] %setting) is not used: its contrast is %ratio:1, at least %needed:1 is needed.</source>
         <translation>강조색 %color (expwt.ini [BrandingSettings] %setting)는 쓰이지 않습니다: 대비도는 %ratio:1이며 적어도 %needed:1이 필요합니다.</translation>
     </message>
+    <message>
+        <source>Accessibility</source>
+        <translation>접근성</translation>
+    </message>
+    <message>
+        <source>Check the accessibility of the page (WCAG 2.2 AA)</source>
+        <translation>페지의 접근성 검사 (WCAG 2.2 AA)</translation>
+    </message>
+    <message>
+        <source>Checking the accessibility ...</source>
+        <translation>접근성을 검사하는 중 ...</translation>
+    </message>
+    <message>
+        <source>The automatic check found no accessibility problems.</source>
+        <translation>자동검사에서 접근성 문제를 찾지 못했습니다.</translation>
+    </message>
+    <message>
+        <source>%n accessibility problems</source>
+        <translation>접근성 문제 %n개</translation>
+    </message>
+    <message>
+        <source>Critical</source>
+        <translation>치명적</translation>
+    </message>
+    <message>
+        <source>Serious</source>
+        <translation>심각</translation>
+    </message>
+    <message>
+        <source>Moderate</source>
+        <translation>보통</translation>
+    </message>
+    <message>
+        <source>Minor</source>
+        <translation>경미</translation>
+    </message>
+    <message>
+        <source>Field: %name</source>
+        <translation>마당: %name</translation>
+    </message>
+    <message>
+        <source>Block: %name</source>
+        <translation>블로크: %name</translation>
+    </message>
+    <message>
+        <source>Template: %name</source>
+        <translation>형판: %name</translation>
+    </message>
+    <message>
+        <source>More about this rule</source>
+        <translation>이 규칙에 대하여 더 보기</translation>
+    </message>
+    <message>
+        <source>The accessibility check could not run.</source>
+        <translation>접근성 검사를 실행할수 없었습니다.</translation>
+    </message>
+    <message>
+        <source>An automatic check finds only some problems: also try the page with the keyboard alone and with a screen reader.</source>
+        <translation>자동검사는 일부 문제만 찾습니다: 건반만으로, 그리고 화면읽기프로그람으로도 페지를 시험해보십시오.</translation>
+    </message>
+    <message>
+        <source>The rule texts come from axe-core, in English.</source>
+        <translation>규칙 본문은 axe-core에서 온것이며 영어로 되여있습니다.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

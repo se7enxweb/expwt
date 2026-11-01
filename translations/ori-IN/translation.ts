@@ -2071,6 +2071,70 @@
         <source>The accent color %color (expwt.ini [BrandingSettings] %setting) is not used: its contrast is %ratio:1, at least %needed:1 is needed.</source>
         <translation>ଆକ୍ସେଣ୍ଟ ରଙ୍ଗ %color (expwt.ini [BrandingSettings] %setting) ବ୍ୟବହାର ହେଉନାହିଁ: ଏହାର କଣ୍ଟ୍ରାଷ୍ଟ %ratio:1, ଅତି କମରେ %needed:1 ଆବଶ୍ୟକ।</translation>
     </message>
+    <message>
+        <source>Accessibility</source>
+        <translation>ସୁଗମତା</translation>
+    </message>
+    <message>
+        <source>Check the accessibility of the page (WCAG 2.2 AA)</source>
+        <translation>ପୃଷ୍ଠାର ସୁଗମତା ଯାଞ୍ଚ କରନ୍ତୁ (WCAG 2.2 AA)</translation>
+    </message>
+    <message>
+        <source>Checking the accessibility ...</source>
+        <translation>ସୁଗମତା ଯାଞ୍ଚ ହେଉଛି ...</translation>
+    </message>
+    <message>
+        <source>The automatic check found no accessibility problems.</source>
+        <translation>ସ୍ୱୟଂଚାଳିତ ଯାଞ୍ଚରେ କୌଣସି ସୁଗମତା ସମସ୍ୟା ମିଳିଲା ନାହିଁ।</translation>
+    </message>
+    <message>
+        <source>%n accessibility problems</source>
+        <translation>%n ଟି ସୁଗମତା ସମସ୍ୟା</translation>
+    </message>
+    <message>
+        <source>Critical</source>
+        <translation>ଗୁରୁତର</translation>
+    </message>
+    <message>
+        <source>Serious</source>
+        <translation>ଗମ୍ଭୀର</translation>
+    </message>
+    <message>
+        <source>Moderate</source>
+        <translation>ମଧ୍ୟମ</translation>
+    </message>
+    <message>
+        <source>Minor</source>
+        <translation>ସାମାନ୍ୟ</translation>
+    </message>
+    <message>
+        <source>Field: %name</source>
+        <translation>ଫିଲ୍ଡ: %name</translation>
+    </message>
+    <message>
+        <source>Block: %name</source>
+        <translation>ବ୍ଲକ୍: %name</translation>
+    </message>
+    <message>
+        <source>Template: %name</source>
+        <translation>ଟେମ୍ପଲେଟ୍: %name</translation>
+    </message>
+    <message>
+        <source>More about this rule</source>
+        <translation>ଏହି ନିୟମ ବିଷୟରେ ଅଧିକ</translation>
+    </message>
+    <message>
+        <source>The accessibility check could not run.</source>
+        <translation>ସୁଗମତା ଯାଞ୍ଚ ଚାଲିପାରିଲା ନାହିଁ।</translation>
+    </message>
+    <message>
+        <source>An automatic check finds only some problems: also try the page with the keyboard alone and with a screen reader.</source>
+        <translation>ସ୍ୱୟଂଚାଳିତ ଯାଞ୍ଚ କେବଳ କିଛି ସମସ୍ୟା ଖୋଜେ: ପୃଷ୍ଠାଟିକୁ କେବଳ କିବୋର୍ଡ ଏବଂ ସ୍କ୍ରିନ୍ ରିଡର୍ ସହିତ ମଧ୍ୟ ଚେଷ୍ଟା କରନ୍ତୁ।</translation>
+    </message>
+    <message>
+        <source>The rule texts come from axe-core, in English.</source>
+        <translation>ନିୟମର ପାଠ axe-core ରୁ ଆସେ, ଇଂରାଜୀରେ।</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

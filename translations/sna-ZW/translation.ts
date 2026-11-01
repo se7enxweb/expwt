@@ -2071,6 +2071,70 @@
         <source>The accent color %color (expwt.ini [BrandingSettings] %setting) is not used: its contrast is %ratio:1, at least %needed:1 is needed.</source>
         <translation>Ruvara rwekusimbisa %color (expwt.ini [BrandingSettings] %setting) haurishandiswi: musiyano wayo i %ratio:1, panodiwa kanenge %needed:1.</translation>
     </message>
+    <message>
+        <source>Accessibility</source>
+        <translation>Kuwanikwa</translation>
+    </message>
+    <message>
+        <source>Check the accessibility of the page (WCAG 2.2 AA)</source>
+        <translation>Tarisa kuwanikwa kwepeji (WCAG 2.2 AA)</translation>
+    </message>
+    <message>
+        <source>Checking the accessibility ...</source>
+        <translation>Kutarisa kuwanikwa ...</translation>
+    </message>
+    <message>
+        <source>The automatic check found no accessibility problems.</source>
+        <translation>Ongororo yega haina kuwana dambudziko rekuwanikwa.</translation>
+    </message>
+    <message>
+        <source>%n accessibility problems</source>
+        <translation>Matambudziko %n ekuwanikwa</translation>
+    </message>
+    <message>
+        <source>Critical</source>
+        <translation>Rakaipisisa</translation>
+    </message>
+    <message>
+        <source>Serious</source>
+        <translation>Rakaipa</translation>
+    </message>
+    <message>
+        <source>Moderate</source>
+        <translation>Repakati</translation>
+    </message>
+    <message>
+        <source>Minor</source>
+        <translation>Diki</translation>
+    </message>
+    <message>
+        <source>Field: %name</source>
+        <translation>Nzvimbo: %name</translation>
+    </message>
+    <message>
+        <source>Block: %name</source>
+        <translation>Bhuroko: %name</translation>
+    </message>
+    <message>
+        <source>Template: %name</source>
+        <translation>Tembureti: %name</translation>
+    </message>
+    <message>
+        <source>More about this rule</source>
+        <translation>Zvimwe pamusoro pemutemo uyu</translation>
+    </message>
+    <message>
+        <source>The accessibility check could not run.</source>
+        <translation>Ongororo yekuwanikwa haina kukwanisa kushanda.</translation>
+    </message>
+    <message>
+        <source>An automatic check finds only some problems: also try the page with the keyboard alone and with a screen reader.</source>
+        <translation>Ongororo yega inowana mamwe matambudziko chete: edza peji iyi nekhibhodhi chete uye nemuverengi wechidzitiro.</translation>
+    </message>
+    <message>
+        <source>The rule texts come from axe-core, in English.</source>
+        <translation>Zvinyorwa zvemitemo zvinobva ku axe-core, muChirungu.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

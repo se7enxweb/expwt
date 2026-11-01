@@ -2071,6 +2071,70 @@
         <source>The accent color %color (expwt.ini [BrandingSettings] %setting) is not used: its contrast is %ratio:1, at least %needed:1 is needed.</source>
         <translation>Noone tiinnduɗo %color (expwt.ini [BrandingSettings] %setting) huutortaaka: seertude mum ko %ratio:1, ina hatojini %needed:1 tal-tal.</translation>
     </message>
+    <message>
+        <source>Accessibility</source>
+        <translation>Heɓugol</translation>
+    </message>
+    <message>
+        <source>Check the accessibility of the page (WCAG 2.2 AA)</source>
+        <translation>Ƴeewto heɓugol hello ngoo (WCAG 2.2 AA)</translation>
+    </message>
+    <message>
+        <source>Checking the accessibility ...</source>
+        <translation>Ina ƴeewtee heɓugol ...</translation>
+    </message>
+    <message>
+        <source>The automatic check found no accessibility problems.</source>
+        <translation>Ƴeewtagol jaajtiingol yiyaani caɗeele heɓugol.</translation>
+    </message>
+    <message>
+        <source>%n accessibility problems</source>
+        <translation>Caɗeele heɓugol %n</translation>
+    </message>
+    <message>
+        <source>Critical</source>
+        <translation>Teeŋtuɗo</translation>
+    </message>
+    <message>
+        <source>Serious</source>
+        <translation>Mawɗo</translation>
+    </message>
+    <message>
+        <source>Moderate</source>
+        <translation>Hakkundeejo</translation>
+    </message>
+    <message>
+        <source>Minor</source>
+        <translation>Tokooso</translation>
+    </message>
+    <message>
+        <source>Field: %name</source>
+        <translation>Nokku: %name</translation>
+    </message>
+    <message>
+        <source>Block: %name</source>
+        <translation>Bulok: %name</translation>
+    </message>
+    <message>
+        <source>Template: %name</source>
+        <translation>Misal: %name</translation>
+    </message>
+    <message>
+        <source>More about this rule</source>
+        <translation>Ko ɓuri e oo sarɗi</translation>
+    </message>
+    <message>
+        <source>The accessibility check could not run.</source>
+        <translation>Ƴeewtagol heɓugol waawaani dogde.</translation>
+    </message>
+    <message>
+        <source>An automatic check finds only some problems: also try the page with the keyboard alone and with a screen reader.</source>
+        <translation>Ƴeewtagol jaajtiingol ina yiya caɗeele seeɗa tan: ƴeewto hello ngoo kadi e tappirde tan e jangoowo yaynirde.</translation>
+    </message>
+    <message>
+        <source>The rule texts come from axe-core, in English.</source>
+        <translation>Binndi sarɗiiji ɗii iwi ko e axe-core, e Engeleere.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

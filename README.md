@@ -25,3 +25,7 @@ date field for it." in place of the input. How to add the field: the guide, "Pub
 schedule of earlier expwt versions moves to the kernel with `./console exp:wt:migrate-from-ezwt --apply`.
 
 License: GNU General Public License v2.0 (or any later version).
+
+Third-party: `design/standard/javascript/expwt-axe.min.js` is axe-core 4.11.3 by Deque Systems, Inc., unchanged as
+published on the npm registry (Mozilla Public License 2.0, its notice kept in the file; source:
+https://github.com/dequelabs/axe-core). The SEO panel's accessibility check loads it only when it runs.

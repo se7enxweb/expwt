@@ -2071,6 +2071,70 @@
         <source>The accent color %color (expwt.ini [BrandingSettings] %setting) is not used: its contrast is %ratio:1, at least %needed:1 is needed.</source>
         <translation>ሕብሪ ኣጽንዖት %color (expwt.ini [BrandingSettings] %setting) ኣይጥቀመሉን፡ ፍልልዩ %ratio:1 እዩ፡ እንተወሓደ %needed:1 የድሊ።</translation>
     </message>
+    <message>
+        <source>Accessibility</source>
+        <translation>ተበጻሕነት</translation>
+    </message>
+    <message>
+        <source>Check the accessibility of the page (WCAG 2.2 AA)</source>
+        <translation>ተበጻሕነት እቲ ገጽ ፈትሽ (WCAG 2.2 AA)</translation>
+    </message>
+    <message>
+        <source>Checking the accessibility ...</source>
+        <translation>ተበጻሕነት ይፍተሽ ኣሎ ...</translation>
+    </message>
+    <message>
+        <source>The automatic check found no accessibility problems.</source>
+        <translation>እቲ ኣውቶማቲክ ፍተሻ ዝኾነ ጸገም ተበጻሕነት ኣይረኸበን።</translation>
+    </message>
+    <message>
+        <source>%n accessibility problems</source>
+        <translation>%n ጸገማት ተበጻሕነት</translation>
+    </message>
+    <message>
+        <source>Critical</source>
+        <translation>ወሳኒ</translation>
+    </message>
+    <message>
+        <source>Serious</source>
+        <translation>ከቢድ</translation>
+    </message>
+    <message>
+        <source>Moderate</source>
+        <translation>ማእከላይ</translation>
+    </message>
+    <message>
+        <source>Minor</source>
+        <translation>ንኡስ</translation>
+    </message>
+    <message>
+        <source>Field: %name</source>
+        <translation>መዐቀኒ፦ %name</translation>
+    </message>
+    <message>
+        <source>Block: %name</source>
+        <translation>ብሎክ፦ %name</translation>
+    </message>
+    <message>
+        <source>Template: %name</source>
+        <translation>ቅጥዒ፦ %name</translation>
+    </message>
+    <message>
+        <source>More about this rule</source>
+        <translation>ብዛዕባ እዚ ሕጊ ተወሳኺ</translation>
+    </message>
+    <message>
+        <source>The accessibility check could not run.</source>
+        <translation>ፍተሻ ተበጻሕነት ክሰርሕ ኣይከኣለን።</translation>
+    </message>
+    <message>
+        <source>An automatic check finds only some problems: also try the page with the keyboard alone and with a screen reader.</source>
+        <translation>ኣውቶማቲክ ፍተሻ ገለ ጸገማት ጥራይ ይረክብ፦ እቲ ገጽ ብመፍትሕ ሰሌዳ ጥራይን ብኣንባቢ ስክሪንን እውን ፈትኑ።</translation>
+    </message>
+    <message>
+        <source>The rule texts come from axe-core, in English.</source>
+        <translation>ጽሑፋት ሕግታት ካብ axe-core እዮም፣ ብእንግሊዝኛ።</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

@@ -2071,6 +2071,70 @@
         <source>The accent color %color (expwt.ini [BrandingSettings] %setting) is not used: its contrast is %ratio:1, at least %needed:1 is needed.</source>
         <translation>აქცენტის ფერი %color (expwt.ini [BrandingSettings] %setting) არ გამოიყენება: მისი კონტრასტია %ratio:1, საჭიროა მინიმუმ %needed:1.</translation>
     </message>
+    <message>
+        <source>Accessibility</source>
+        <translation>ხელმისაწვდომობა</translation>
+    </message>
+    <message>
+        <source>Check the accessibility of the page (WCAG 2.2 AA)</source>
+        <translation>გვერდის ხელმისაწვდომობის შემოწმება (WCAG 2.2 AA)</translation>
+    </message>
+    <message>
+        <source>Checking the accessibility ...</source>
+        <translation>ხელმისაწვდომობა მოწმდება ...</translation>
+    </message>
+    <message>
+        <source>The automatic check found no accessibility problems.</source>
+        <translation>ავტომატურმა შემოწმებამ ხელმისაწვდომობის პრობლემები ვერ იპოვა.</translation>
+    </message>
+    <message>
+        <source>%n accessibility problems</source>
+        <translation>ხელმისაწვდომობის %n პრობლემა</translation>
+    </message>
+    <message>
+        <source>Critical</source>
+        <translation>კრიტიკული</translation>
+    </message>
+    <message>
+        <source>Serious</source>
+        <translation>სერიოზული</translation>
+    </message>
+    <message>
+        <source>Moderate</source>
+        <translation>საშუალო</translation>
+    </message>
+    <message>
+        <source>Minor</source>
+        <translation>უმნიშვნელო</translation>
+    </message>
+    <message>
+        <source>Field: %name</source>
+        <translation>ველი: %name</translation>
+    </message>
+    <message>
+        <source>Block: %name</source>
+        <translation>ბლოკი: %name</translation>
+    </message>
+    <message>
+        <source>Template: %name</source>
+        <translation>შაბლონი: %name</translation>
+    </message>
+    <message>
+        <source>More about this rule</source>
+        <translation>მეტი ამ წესის შესახებ</translation>
+    </message>
+    <message>
+        <source>The accessibility check could not run.</source>
+        <translation>ხელმისაწვდომობის შემოწმება ვერ გაეშვა.</translation>
+    </message>
+    <message>
+        <source>An automatic check finds only some problems: also try the page with the keyboard alone and with a screen reader.</source>
+        <translation>ავტომატური შემოწმება მხოლოდ ზოგიერთ პრობლემას პოულობს: გვერდი სცადეთ მხოლოდ კლავიატურითაც და ეკრანის წამკითხველითაც.</translation>
+    </message>
+    <message>
+        <source>The rule texts come from axe-core, in English.</source>
+        <translation>წესების ტექსტები axe-core-იდანაა, ინგლისურად.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

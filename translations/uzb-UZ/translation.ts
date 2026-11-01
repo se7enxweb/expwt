@@ -2071,6 +2071,70 @@
         <source>The accent color %color (expwt.ini [BrandingSettings] %setting) is not used: its contrast is %ratio:1, at least %needed:1 is needed.</source>
         <translation>%color urg'u rangi (expwt.ini [BrandingSettings] %setting) ishlatilmaydi: uning kontrasti %ratio:1, kamida %needed:1 kerak.</translation>
     </message>
+    <message>
+        <source>Accessibility</source>
+        <translation>Foydalanish imkoniyati</translation>
+    </message>
+    <message>
+        <source>Check the accessibility of the page (WCAG 2.2 AA)</source>
+        <translation>Sahifaning foydalanish imkoniyatini tekshirish (WCAG 2.2 AA)</translation>
+    </message>
+    <message>
+        <source>Checking the accessibility ...</source>
+        <translation>Foydalanish imkoniyati tekshirilmoqda ...</translation>
+    </message>
+    <message>
+        <source>The automatic check found no accessibility problems.</source>
+        <translation>Avtomatik tekshiruv foydalanish imkoniyati bilan bog'liq muammo topmadi.</translation>
+    </message>
+    <message>
+        <source>%n accessibility problems</source>
+        <translation>%n ta foydalanish imkoniyati muammosi</translation>
+    </message>
+    <message>
+        <source>Critical</source>
+        <translation>Jiddiy xavfli</translation>
+    </message>
+    <message>
+        <source>Serious</source>
+        <translation>Jiddiy</translation>
+    </message>
+    <message>
+        <source>Moderate</source>
+        <translation>O'rtacha</translation>
+    </message>
+    <message>
+        <source>Minor</source>
+        <translation>Kichik</translation>
+    </message>
+    <message>
+        <source>Field: %name</source>
+        <translation>Maydon: %name</translation>
+    </message>
+    <message>
+        <source>Block: %name</source>
+        <translation>Blok: %name</translation>
+    </message>
+    <message>
+        <source>Template: %name</source>
+        <translation>Shablon: %name</translation>
+    </message>
+    <message>
+        <source>More about this rule</source>
+        <translation>Bu qoida haqida batafsil</translation>
+    </message>
+    <message>
+        <source>The accessibility check could not run.</source>
+        <translation>Foydalanish imkoniyati tekshiruvini ishga tushirib bo'lmadi.</translation>
+    </message>
+    <message>
+        <source>An automatic check finds only some problems: also try the page with the keyboard alone and with a screen reader.</source>
+        <translation>Avtomatik tekshiruv faqat ayrim muammolarni topadi: sahifani faqat klaviatura bilan va ekran o'quvchisi bilan ham sinab ko'ring.</translation>
+    </message>
+    <message>
+        <source>The rule texts come from axe-core, in English.</source>
+        <translation>Qoida matnlari axe-core'dan olingan, ingliz tilida.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

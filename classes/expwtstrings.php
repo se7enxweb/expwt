@@ -515,6 +515,22 @@ class expwtStrings
         'Show all',
         'All frames are shown.',
         'Website sidebar of Exponential',
+        'Accessibility',
+        'Check the accessibility of the page (WCAG 2.2 AA)',
+        'Checking the accessibility ...',
+        'The automatic check found no accessibility problems.',
+        '%n accessibility problems',
+        'Critical',
+        'Serious',
+        'Moderate',
+        'Minor',
+        'Field: %name',
+        'Block: %name',
+        'Template: %name',
+        'More about this rule',
+        'The accessibility check could not run.',
+        'An automatic check finds only some problems: also try the page with the keyboard alone and with a screen reader.',
+        'The rule texts come from axe-core, in English.',
     );
     /* sources:end */
 

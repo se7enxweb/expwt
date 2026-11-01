@@ -2071,6 +2071,70 @@
         <source>The accent color %color (expwt.ini [BrandingSettings] %setting) is not used: its contrast is %ratio:1, at least %needed:1 is needed.</source>
         <translation>Il-kulur tal-enfasi %color (expwt.ini [BrandingSettings] %setting) mhuwiex użat: il-kuntrast tiegħu huwa %ratio:1, hemm bżonn ta' mill-inqas %needed:1.</translation>
     </message>
+    <message>
+        <source>Accessibility</source>
+        <translation>Aċċessibbiltà</translation>
+    </message>
+    <message>
+        <source>Check the accessibility of the page (WCAG 2.2 AA)</source>
+        <translation>Iċċekkja l-aċċessibbiltà tal-paġna (WCAG 2.2 AA)</translation>
+    </message>
+    <message>
+        <source>Checking the accessibility ...</source>
+        <translation>Qed tiġi ċċekkjata l-aċċessibbiltà ...</translation>
+    </message>
+    <message>
+        <source>The automatic check found no accessibility problems.</source>
+        <translation>Il-kontroll awtomatiku ma sab l-ebda problema ta' aċċessibbiltà.</translation>
+    </message>
+    <message>
+        <source>%n accessibility problems</source>
+        <translation>%n problemi ta' aċċessibbiltà</translation>
+    </message>
+    <message>
+        <source>Critical</source>
+        <translation>Kritiku</translation>
+    </message>
+    <message>
+        <source>Serious</source>
+        <translation>Serju</translation>
+    </message>
+    <message>
+        <source>Moderate</source>
+        <translation>Moderat</translation>
+    </message>
+    <message>
+        <source>Minor</source>
+        <translation>Żgħir</translation>
+    </message>
+    <message>
+        <source>Field: %name</source>
+        <translation>Qasam: %name</translation>
+    </message>
+    <message>
+        <source>Block: %name</source>
+        <translation>Blokk: %name</translation>
+    </message>
+    <message>
+        <source>Template: %name</source>
+        <translation>Mudell: %name</translation>
+    </message>
+    <message>
+        <source>More about this rule</source>
+        <translation>Aktar dwar din ir-regola</translation>
+    </message>
+    <message>
+        <source>The accessibility check could not run.</source>
+        <translation>Il-kontroll tal-aċċessibbiltà ma setax jaħdem.</translation>
+    </message>
+    <message>
+        <source>An automatic check finds only some problems: also try the page with the keyboard alone and with a screen reader.</source>
+        <translation>Kontroll awtomatiku jsib biss xi problemi: ipprova l-paġna wkoll bit-tastiera biss u b'qarrej tal-iskrin.</translation>
+    </message>
+    <message>
+        <source>The rule texts come from axe-core, in English.</source>
+        <translation>It-testi tar-regoli ġejjin minn axe-core, bl-Ingliż.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

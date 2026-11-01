@@ -2071,6 +2071,70 @@
         <source>The accent color %color (expwt.ini [BrandingSettings] %setting) is not used: its contrast is %ratio:1, at least %needed:1 is needed.</source>
         <translation>%color nabarmentze-kolorea (expwt.ini [BrandingSettings] %setting) ez da erabiltzen: bere kontrastea %ratio:1 da, gutxienez %needed:1 behar da.</translation>
     </message>
+    <message>
+        <source>Accessibility</source>
+        <translation>Irisgarritasuna</translation>
+    </message>
+    <message>
+        <source>Check the accessibility of the page (WCAG 2.2 AA)</source>
+        <translation>Egiaztatu orriaren irisgarritasuna (WCAG 2.2 AA)</translation>
+    </message>
+    <message>
+        <source>Checking the accessibility ...</source>
+        <translation>Irisgarritasuna egiaztatzen ...</translation>
+    </message>
+    <message>
+        <source>The automatic check found no accessibility problems.</source>
+        <translation>Egiaztapen automatikoak ez du irisgarritasun-arazorik aurkitu.</translation>
+    </message>
+    <message>
+        <source>%n accessibility problems</source>
+        <translation>%n irisgarritasun-arazo</translation>
+    </message>
+    <message>
+        <source>Critical</source>
+        <translation>Kritikoa</translation>
+    </message>
+    <message>
+        <source>Serious</source>
+        <translation>Larria</translation>
+    </message>
+    <message>
+        <source>Moderate</source>
+        <translation>Ertaina</translation>
+    </message>
+    <message>
+        <source>Minor</source>
+        <translation>Txikia</translation>
+    </message>
+    <message>
+        <source>Field: %name</source>
+        <translation>Eremua: %name</translation>
+    </message>
+    <message>
+        <source>Block: %name</source>
+        <translation>Blokea: %name</translation>
+    </message>
+    <message>
+        <source>Template: %name</source>
+        <translation>Txantiloia: %name</translation>
+    </message>
+    <message>
+        <source>More about this rule</source>
+        <translation>Arau honi buruz gehiago</translation>
+    </message>
+    <message>
+        <source>The accessibility check could not run.</source>
+        <translation>Ezin izan da irisgarritasun-egiaztapena exekutatu.</translation>
+    </message>
+    <message>
+        <source>An automatic check finds only some problems: also try the page with the keyboard alone and with a screen reader.</source>
+        <translation>Egiaztapen automatiko batek arazo batzuk baino ez ditu aurkitzen: probatu orria teklatuarekin bakarrik eta pantaila-irakurgailu batekin ere.</translation>
+    </message>
+    <message>
+        <source>The rule texts come from axe-core, in English.</source>
+        <translation>Arauen testuak axe-core-tik datoz, ingelesez.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

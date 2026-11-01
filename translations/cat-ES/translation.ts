@@ -2071,6 +2071,70 @@
         <source>The accent color %color (expwt.ini [BrandingSettings] %setting) is not used: its contrast is %ratio:1, at least %needed:1 is needed.</source>
         <translation>El color d'accent %color (expwt.ini [BrandingSettings] %setting) no s'utilitza: el seu contrast és %ratio:1, cal com a mínim %needed:1.</translation>
     </message>
+    <message>
+        <source>Accessibility</source>
+        <translation>Accessibilitat</translation>
+    </message>
+    <message>
+        <source>Check the accessibility of the page (WCAG 2.2 AA)</source>
+        <translation>Comprova l'accessibilitat de la pàgina (WCAG 2.2 AA)</translation>
+    </message>
+    <message>
+        <source>Checking the accessibility ...</source>
+        <translation>S'està comprovant l'accessibilitat ...</translation>
+    </message>
+    <message>
+        <source>The automatic check found no accessibility problems.</source>
+        <translation>La comprovació automàtica no ha trobat cap problema d'accessibilitat.</translation>
+    </message>
+    <message>
+        <source>%n accessibility problems</source>
+        <translation>%n problemes d'accessibilitat</translation>
+    </message>
+    <message>
+        <source>Critical</source>
+        <translation>Crític</translation>
+    </message>
+    <message>
+        <source>Serious</source>
+        <translation>Greu</translation>
+    </message>
+    <message>
+        <source>Moderate</source>
+        <translation>Moderat</translation>
+    </message>
+    <message>
+        <source>Minor</source>
+        <translation>Menor</translation>
+    </message>
+    <message>
+        <source>Field: %name</source>
+        <translation>Camp: %name</translation>
+    </message>
+    <message>
+        <source>Block: %name</source>
+        <translation>Bloc: %name</translation>
+    </message>
+    <message>
+        <source>Template: %name</source>
+        <translation>Plantilla: %name</translation>
+    </message>
+    <message>
+        <source>More about this rule</source>
+        <translation>Més sobre aquesta regla</translation>
+    </message>
+    <message>
+        <source>The accessibility check could not run.</source>
+        <translation>No s'ha pogut executar la comprovació d'accessibilitat.</translation>
+    </message>
+    <message>
+        <source>An automatic check finds only some problems: also try the page with the keyboard alone and with a screen reader.</source>
+        <translation>Una comprovació automàtica només troba alguns problemes: proveu també la pàgina només amb el teclat i amb un lector de pantalla.</translation>
+    </message>
+    <message>
+        <source>The rule texts come from axe-core, in English.</source>
+        <translation>Els textos de les regles provenen d'axe-core, en anglès.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

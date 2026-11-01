@@ -2071,6 +2071,70 @@
         <source>The accent color %color (expwt.ini [BrandingSettings] %setting) is not used: its contrast is %ratio:1, at least %needed:1 is needed.</source>
         <translation>Di accent color %color (expwt.ini [BrandingSettings] %setting) no dey use: im contrast na %ratio:1, at least %needed:1 dey needed.</translation>
     </message>
+    <message>
+        <source>Accessibility</source>
+        <translation>Accessibility</translation>
+    </message>
+    <message>
+        <source>Check the accessibility of the page (WCAG 2.2 AA)</source>
+        <translation>Check di accessibility of di page (WCAG 2.2 AA)</translation>
+    </message>
+    <message>
+        <source>Checking the accessibility ...</source>
+        <translation>E dey check di accessibility ...</translation>
+    </message>
+    <message>
+        <source>The automatic check found no accessibility problems.</source>
+        <translation>Di automatic check no find any accessibility wahala.</translation>
+    </message>
+    <message>
+        <source>%n accessibility problems</source>
+        <translation>%n accessibility wahala</translation>
+    </message>
+    <message>
+        <source>Critical</source>
+        <translation>Critical</translation>
+    </message>
+    <message>
+        <source>Serious</source>
+        <translation>Serious</translation>
+    </message>
+    <message>
+        <source>Moderate</source>
+        <translation>Moderate</translation>
+    </message>
+    <message>
+        <source>Minor</source>
+        <translation>Small</translation>
+    </message>
+    <message>
+        <source>Field: %name</source>
+        <translation>Field: %name</translation>
+    </message>
+    <message>
+        <source>Block: %name</source>
+        <translation>Block: %name</translation>
+    </message>
+    <message>
+        <source>Template: %name</source>
+        <translation>Template: %name</translation>
+    </message>
+    <message>
+        <source>More about this rule</source>
+        <translation>More about dis rule</translation>
+    </message>
+    <message>
+        <source>The accessibility check could not run.</source>
+        <translation>Di accessibility check no fit run.</translation>
+    </message>
+    <message>
+        <source>An automatic check finds only some problems: also try the page with the keyboard alone and with a screen reader.</source>
+        <translation>Automatic check dey find only some wahala: try di page too with only keyboard and with screen reader.</translation>
+    </message>
+    <message>
+        <source>The rule texts come from axe-core, in English.</source>
+        <translation>Di rule texts come from axe-core, for English.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

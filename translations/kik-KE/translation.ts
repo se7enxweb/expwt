@@ -2071,6 +2071,70 @@
         <source>The accent color %color (expwt.ini [BrandingSettings] %setting) is not used: its contrast is %ratio:1, at least %needed:1 is needed.</source>
         <translation>Rangi wa kũonania %color (expwt.ini [BrandingSettings] %setting) ndũrahũthĩrwo: ngũũrani yaguo nĩ %ratio:1, nĩ kwagĩrĩire gũkorwo na %needed:1 o nginya.</translation>
     </message>
+    <message>
+        <source>Accessibility</source>
+        <translation>Kũhota gũtoonyeka</translation>
+    </message>
+    <message>
+        <source>Check the accessibility of the page (WCAG 2.2 AA)</source>
+        <translation>Rora kũhota gũtoonyeka kwa ũrata (WCAG 2.2 AA)</translation>
+    </message>
+    <message>
+        <source>Checking the accessibility ...</source>
+        <translation>Kũrorwo kũhota gũtoonyeka ...</translation>
+    </message>
+    <message>
+        <source>The automatic check found no accessibility problems.</source>
+        <translation>Ũroria wa kĩĩ-mwene ndwonire thĩna o na ũmwe wa gũtoonyeka.</translation>
+    </message>
+    <message>
+        <source>%n accessibility problems</source>
+        <translation>Mathĩna %n ma gũtoonyeka</translation>
+    </message>
+    <message>
+        <source>Critical</source>
+        <translation>Nĩ ma bata mũno</translation>
+    </message>
+    <message>
+        <source>Serious</source>
+        <translation>Nĩ ma hinya</translation>
+    </message>
+    <message>
+        <source>Moderate</source>
+        <translation>Ma gatagatĩ</translation>
+    </message>
+    <message>
+        <source>Minor</source>
+        <translation>Manini</translation>
+    </message>
+    <message>
+        <source>Field: %name</source>
+        <translation>Kĩhumo: %name</translation>
+    </message>
+    <message>
+        <source>Block: %name</source>
+        <translation>Block: %name</translation>
+    </message>
+    <message>
+        <source>Template: %name</source>
+        <translation>Template: %name</translation>
+    </message>
+    <message>
+        <source>More about this rule</source>
+        <translation>Maũndũ mangĩ ma watho ũyũ</translation>
+    </message>
+    <message>
+        <source>The accessibility check could not run.</source>
+        <translation>Ũroria wa gũtoonyeka ndũngĩahotire gũthiĩ.</translation>
+    </message>
+    <message>
+        <source>An automatic check finds only some problems: also try the page with the keyboard alone and with a screen reader.</source>
+        <translation>Ũroria wa kĩĩ-mwene wonaga mathĩna mamwe tu: geria ũrata ũyũ na kibodi tu o na na screen reader.</translation>
+    </message>
+    <message>
+        <source>The rule texts come from axe-core, in English.</source>
+        <translation>Ndeto cia mawatho ciumĩte axe-core, na Gĩthũngũ.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

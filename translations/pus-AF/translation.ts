@@ -2071,6 +2071,70 @@
         <source>The accent color %color (expwt.ini [BrandingSettings] %setting) is not used: its contrast is %ratio:1, at least %needed:1 is needed.</source>
         <translation>د ټينګار رنګ %color (expwt.ini [BrandingSettings] %setting) نه کارول کېږي: د هغه توپیر %ratio:1 دی، لږ تر لږه %needed:1 ته اړتیا ده.</translation>
     </message>
+    <message>
+        <source>Accessibility</source>
+        <translation>لاسرسی</translation>
+    </message>
+    <message>
+        <source>Check the accessibility of the page (WCAG 2.2 AA)</source>
+        <translation>د پاڼې لاسرسی وګورئ (WCAG 2.2 AA)</translation>
+    </message>
+    <message>
+        <source>Checking the accessibility ...</source>
+        <translation>لاسرسی کتل کېږي ...</translation>
+    </message>
+    <message>
+        <source>The automatic check found no accessibility problems.</source>
+        <translation>اتوماتیک کتنې د لاسرسي کومه ستونزه ونه موندله.</translation>
+    </message>
+    <message>
+        <source>%n accessibility problems</source>
+        <translation>د لاسرسي %n ستونزې</translation>
+    </message>
+    <message>
+        <source>Critical</source>
+        <translation>ډېره جدي</translation>
+    </message>
+    <message>
+        <source>Serious</source>
+        <translation>جدي</translation>
+    </message>
+    <message>
+        <source>Moderate</source>
+        <translation>منځنۍ</translation>
+    </message>
+    <message>
+        <source>Minor</source>
+        <translation>کوچنۍ</translation>
+    </message>
+    <message>
+        <source>Field: %name</source>
+        <translation>ساحه: %name</translation>
+    </message>
+    <message>
+        <source>Block: %name</source>
+        <translation>بلاک: %name</translation>
+    </message>
+    <message>
+        <source>Template: %name</source>
+        <translation>کينډۍ: %name</translation>
+    </message>
+    <message>
+        <source>More about this rule</source>
+        <translation>د دې قاعدې په اړه نور</translation>
+    </message>
+    <message>
+        <source>The accessibility check could not run.</source>
+        <translation>د لاسرسي کتنه ونه چلېده.</translation>
+    </message>
+    <message>
+        <source>An automatic check finds only some problems: also try the page with the keyboard alone and with a screen reader.</source>
+        <translation>اتوماتیک کتنه یوازې ځینې ستونزې مومي: پاڼه یوازې د کیبورډ او د پردې لوستونکي سره هم وازمویئ.</translation>
+    </message>
+    <message>
+        <source>The rule texts come from axe-core, in English.</source>
+        <translation>د قاعدو متنونه له axe-core څخه دي، په انګلیسي.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

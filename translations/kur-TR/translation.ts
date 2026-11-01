@@ -2071,6 +2071,70 @@
         <source>The accent color %color (expwt.ini [BrandingSettings] %setting) is not used: its contrast is %ratio:1, at least %needed:1 is needed.</source>
         <translation>Rengê tekezkirinê %color (expwt.ini [BrandingSettings] %setting) nayê bikaranîn: kontrasta wî %ratio:1 e, herî kêm %needed:1 pêwîst e.</translation>
     </message>
+    <message>
+        <source>Accessibility</source>
+        <translation>Gihîştinbarî</translation>
+    </message>
+    <message>
+        <source>Check the accessibility of the page (WCAG 2.2 AA)</source>
+        <translation>Gihîştinbariya rûpelê kontrol bike (WCAG 2.2 AA)</translation>
+    </message>
+    <message>
+        <source>Checking the accessibility ...</source>
+        <translation>Gihîştinbarî tê kontrolkirin ...</translation>
+    </message>
+    <message>
+        <source>The automatic check found no accessibility problems.</source>
+        <translation>Kontrola otomatîk tu pirsgirêka gihîştinbariyê nedît.</translation>
+    </message>
+    <message>
+        <source>%n accessibility problems</source>
+        <translation>%n pirsgirêkên gihîştinbariyê</translation>
+    </message>
+    <message>
+        <source>Critical</source>
+        <translation>Krîtîk</translation>
+    </message>
+    <message>
+        <source>Serious</source>
+        <translation>Giran</translation>
+    </message>
+    <message>
+        <source>Moderate</source>
+        <translation>Navîn</translation>
+    </message>
+    <message>
+        <source>Minor</source>
+        <translation>Biçûk</translation>
+    </message>
+    <message>
+        <source>Field: %name</source>
+        <translation>Qad: %name</translation>
+    </message>
+    <message>
+        <source>Block: %name</source>
+        <translation>Blok: %name</translation>
+    </message>
+    <message>
+        <source>Template: %name</source>
+        <translation>Şablon: %name</translation>
+    </message>
+    <message>
+        <source>More about this rule</source>
+        <translation>Zêdetir li ser vê qaîdeyê</translation>
+    </message>
+    <message>
+        <source>The accessibility check could not run.</source>
+        <translation>Kontrola gihîştinbariyê nikarî bixebite.</translation>
+    </message>
+    <message>
+        <source>An automatic check finds only some problems: also try the page with the keyboard alone and with a screen reader.</source>
+        <translation>Kontroleke otomatîk tenê hin pirsgirêkan dibîne: rûpelê bi tenê klavyeyê û bi xwînerê ekranê jî biceribîne.</translation>
+    </message>
+    <message>
+        <source>The rule texts come from axe-core, in English.</source>
+        <translation>Nivîsên qaîdeyan ji axe-core tên, bi Îngilîzî.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

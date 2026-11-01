@@ -2071,6 +2071,70 @@
         <source>The accent color %color (expwt.ini [BrandingSettings] %setting) is not used: its contrast is %ratio:1, at least %needed:1 is needed.</source>
         <translation>Anaghị eji agba mmesi ike %color (expwt.ini [BrandingSettings] %setting): ọdịiche ya bụ %ratio:1, achọrọ opekata mpe %needed:1.</translation>
     </message>
+    <message>
+        <source>Accessibility</source>
+        <translation>Ịnweta ohere</translation>
+    </message>
+    <message>
+        <source>Check the accessibility of the page (WCAG 2.2 AA)</source>
+        <translation>Lelee ohere ịnweta peeji ahụ (WCAG 2.2 AA)</translation>
+    </message>
+    <message>
+        <source>Checking the accessibility ...</source>
+        <translation>Na-elele ohere ịnweta ...</translation>
+    </message>
+    <message>
+        <source>The automatic check found no accessibility problems.</source>
+        <translation>Nlele akpaka ahụghị nsogbu ịnweta ohere ọ bụla.</translation>
+    </message>
+    <message>
+        <source>%n accessibility problems</source>
+        <translation>Nsogbu ịnweta ohere %n</translation>
+    </message>
+    <message>
+        <source>Critical</source>
+        <translation>Dị oke mkpa</translation>
+    </message>
+    <message>
+        <source>Serious</source>
+        <translation>Dị njọ</translation>
+    </message>
+    <message>
+        <source>Moderate</source>
+        <translation>Nke etiti</translation>
+    </message>
+    <message>
+        <source>Minor</source>
+        <translation>Nke nta</translation>
+    </message>
+    <message>
+        <source>Field: %name</source>
+        <translation>Ubi: %name</translation>
+    </message>
+    <message>
+        <source>Block: %name</source>
+        <translation>Ngọngọ: %name</translation>
+    </message>
+    <message>
+        <source>Template: %name</source>
+        <translation>Ndebiri: %name</translation>
+    </message>
+    <message>
+        <source>More about this rule</source>
+        <translation>Ihe ndị ọzọ gbasara iwu a</translation>
+    </message>
+    <message>
+        <source>The accessibility check could not run.</source>
+        <translation>Nlele ịnweta ohere enweghị ike ịgba ọsọ.</translation>
+    </message>
+    <message>
+        <source>An automatic check finds only some problems: also try the page with the keyboard alone and with a screen reader.</source>
+        <translation>Nlele akpaka na-achọta ụfọdụ nsogbu naanị: nwalee peeji ahụ kwa naanị na kiiboodu na ihe na-agụ ihuenyo.</translation>
+    </message>
+    <message>
+        <source>The rule texts come from axe-core, in English.</source>
+        <translation>Ederede iwu ndị ahụ si na axe-core, n'asụsụ Bekee.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

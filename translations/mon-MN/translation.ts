@@ -2071,6 +2071,70 @@
         <source>The accent color %color (expwt.ini [BrandingSettings] %setting) is not used: its contrast is %ratio:1, at least %needed:1 is needed.</source>
         <translation>%color онцлох өнгө (expwt.ini [BrandingSettings] %setting) ашиглагдахгүй: түүний контраст %ratio:1, дор хаяж %needed:1 шаардлагатай.</translation>
     </message>
+    <message>
+        <source>Accessibility</source>
+        <translation>Хүртээмж</translation>
+    </message>
+    <message>
+        <source>Check the accessibility of the page (WCAG 2.2 AA)</source>
+        <translation>Хуудасны хүртээмжийг шалгах (WCAG 2.2 AA)</translation>
+    </message>
+    <message>
+        <source>Checking the accessibility ...</source>
+        <translation>Хүртээмжийг шалгаж байна ...</translation>
+    </message>
+    <message>
+        <source>The automatic check found no accessibility problems.</source>
+        <translation>Автомат шалгалт хүртээмжийн асуудал олсонгүй.</translation>
+    </message>
+    <message>
+        <source>%n accessibility problems</source>
+        <translation>Хүртээмжийн %n асуудал</translation>
+    </message>
+    <message>
+        <source>Critical</source>
+        <translation>Ноцтой</translation>
+    </message>
+    <message>
+        <source>Serious</source>
+        <translation>Хүнд</translation>
+    </message>
+    <message>
+        <source>Moderate</source>
+        <translation>Дунд</translation>
+    </message>
+    <message>
+        <source>Minor</source>
+        <translation>Бага</translation>
+    </message>
+    <message>
+        <source>Field: %name</source>
+        <translation>Талбар: %name</translation>
+    </message>
+    <message>
+        <source>Block: %name</source>
+        <translation>Блок: %name</translation>
+    </message>
+    <message>
+        <source>Template: %name</source>
+        <translation>Загвар: %name</translation>
+    </message>
+    <message>
+        <source>More about this rule</source>
+        <translation>Энэ дүрмийн талаар дэлгэрэнгүй</translation>
+    </message>
+    <message>
+        <source>The accessibility check could not run.</source>
+        <translation>Хүртээмжийн шалгалтыг ажиллуулж чадсангүй.</translation>
+    </message>
+    <message>
+        <source>An automatic check finds only some problems: also try the page with the keyboard alone and with a screen reader.</source>
+        <translation>Автомат шалгалт зөвхөн зарим асуудлыг олдог: хуудсыг зөвхөн гараар болон дэлгэц уншигчаар бас туршаад үзээрэй.</translation>
+    </message>
+    <message>
+        <source>The rule texts come from axe-core, in English.</source>
+        <translation>Дүрмийн бичвэрүүд axe-core-оос ирсэн, англи хэлээр.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

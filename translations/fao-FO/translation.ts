@@ -2071,6 +2071,70 @@
         <source>The accent color %color (expwt.ini [BrandingSettings] %setting) is not used: its contrast is %ratio:1, at least %needed:1 is needed.</source>
         <translation>Dentlitur %color (expwt.ini [BrandingSettings] %setting) verður ikki brúktur: kontrasturin er %ratio:1, í minsta lagi %needed:1 krevst.</translation>
     </message>
+    <message>
+        <source>Accessibility</source>
+        <translation>Atkomuleiki</translation>
+    </message>
+    <message>
+        <source>Check the accessibility of the page (WCAG 2.2 AA)</source>
+        <translation>Kanna atkomuleikan á síðuni (WCAG 2.2 AA)</translation>
+    </message>
+    <message>
+        <source>Checking the accessibility ...</source>
+        <translation>Kannar atkomuleikan ...</translation>
+    </message>
+    <message>
+        <source>The automatic check found no accessibility problems.</source>
+        <translation>Sjálvvirka kanningin fann ongar trupulleikar við atkomuleika.</translation>
+    </message>
+    <message>
+        <source>%n accessibility problems</source>
+        <translation>%n trupulleikar við atkomuleika</translation>
+    </message>
+    <message>
+        <source>Critical</source>
+        <translation>Avgerandi</translation>
+    </message>
+    <message>
+        <source>Serious</source>
+        <translation>Álvarsamur</translation>
+    </message>
+    <message>
+        <source>Moderate</source>
+        <translation>Miðal</translation>
+    </message>
+    <message>
+        <source>Minor</source>
+        <translation>Lítil</translation>
+    </message>
+    <message>
+        <source>Field: %name</source>
+        <translation>Teigur: %name</translation>
+    </message>
+    <message>
+        <source>Block: %name</source>
+        <translation>Blokkur: %name</translation>
+    </message>
+    <message>
+        <source>Template: %name</source>
+        <translation>Formur: %name</translation>
+    </message>
+    <message>
+        <source>More about this rule</source>
+        <translation>Meira um hesa regluna</translation>
+    </message>
+    <message>
+        <source>The accessibility check could not run.</source>
+        <translation>Kanningin av atkomuleika kundi ikki koyra.</translation>
+    </message>
+    <message>
+        <source>An automatic check finds only some problems: also try the page with the keyboard alone and with a screen reader.</source>
+        <translation>Ein sjálvvirkin kanning finnur bert summar trupulleikar: royn eisini síðuna bert við knappaborðinum og við einum skíggjalesara.</translation>
+    </message>
+    <message>
+        <source>The rule texts come from axe-core, in English.</source>
+        <translation>Reglutekstirnir koma frá axe-core, á enskum.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

@@ -2071,6 +2071,70 @@
         <source>The accent color %color (expwt.ini [BrandingSettings] %setting) is not used: its contrast is %ratio:1, at least %needed:1 is needed.</source>
         <translation>%color vurgu rengi (expwt.ini [BrandingSettings] %setting) kullanılmıyor: kontrastı %ratio:1, en az %needed:1 gerekir.</translation>
     </message>
+    <message>
+        <source>Accessibility</source>
+        <translation>Erişilebilirlik</translation>
+    </message>
+    <message>
+        <source>Check the accessibility of the page (WCAG 2.2 AA)</source>
+        <translation>Sayfanın erişilebilirliğini denetle (WCAG 2.2 AA)</translation>
+    </message>
+    <message>
+        <source>Checking the accessibility ...</source>
+        <translation>Erişilebilirlik denetleniyor ...</translation>
+    </message>
+    <message>
+        <source>The automatic check found no accessibility problems.</source>
+        <translation>Otomatik denetim hiçbir erişilebilirlik sorunu bulmadı.</translation>
+    </message>
+    <message>
+        <source>%n accessibility problems</source>
+        <translation>%n erişilebilirlik sorunu</translation>
+    </message>
+    <message>
+        <source>Critical</source>
+        <translation>Kritik</translation>
+    </message>
+    <message>
+        <source>Serious</source>
+        <translation>Ciddi</translation>
+    </message>
+    <message>
+        <source>Moderate</source>
+        <translation>Orta</translation>
+    </message>
+    <message>
+        <source>Minor</source>
+        <translation>Küçük</translation>
+    </message>
+    <message>
+        <source>Field: %name</source>
+        <translation>Alan: %name</translation>
+    </message>
+    <message>
+        <source>Block: %name</source>
+        <translation>Blok: %name</translation>
+    </message>
+    <message>
+        <source>Template: %name</source>
+        <translation>Şablon: %name</translation>
+    </message>
+    <message>
+        <source>More about this rule</source>
+        <translation>Bu kural hakkında daha fazla</translation>
+    </message>
+    <message>
+        <source>The accessibility check could not run.</source>
+        <translation>Erişilebilirlik denetimi çalıştırılamadı.</translation>
+    </message>
+    <message>
+        <source>An automatic check finds only some problems: also try the page with the keyboard alone and with a screen reader.</source>
+        <translation>Otomatik bir denetim sorunların yalnızca bir kısmını bulur: sayfayı yalnızca klavyeyle ve bir ekran okuyucuyla da deneyin.</translation>
+    </message>
+    <message>
+        <source>The rule texts come from axe-core, in English.</source>
+        <translation>Kural metinleri axe-core'dan gelir, İngilizce.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

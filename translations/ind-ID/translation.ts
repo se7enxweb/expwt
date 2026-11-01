@@ -2071,6 +2071,70 @@
         <source>The accent color %color (expwt.ini [BrandingSettings] %setting) is not used: its contrast is %ratio:1, at least %needed:1 is needed.</source>
         <translation>Warna aksen %color (expwt.ini [BrandingSettings] %setting) tidak digunakan: kontrasnya %ratio:1, diperlukan setidaknya %needed:1.</translation>
     </message>
+    <message>
+        <source>Accessibility</source>
+        <translation>Aksesibilitas</translation>
+    </message>
+    <message>
+        <source>Check the accessibility of the page (WCAG 2.2 AA)</source>
+        <translation>Periksa aksesibilitas halaman (WCAG 2.2 AA)</translation>
+    </message>
+    <message>
+        <source>Checking the accessibility ...</source>
+        <translation>Memeriksa aksesibilitas ...</translation>
+    </message>
+    <message>
+        <source>The automatic check found no accessibility problems.</source>
+        <translation>Pemeriksaan otomatis tidak menemukan masalah aksesibilitas.</translation>
+    </message>
+    <message>
+        <source>%n accessibility problems</source>
+        <translation>%n masalah aksesibilitas</translation>
+    </message>
+    <message>
+        <source>Critical</source>
+        <translation>Kritis</translation>
+    </message>
+    <message>
+        <source>Serious</source>
+        <translation>Serius</translation>
+    </message>
+    <message>
+        <source>Moderate</source>
+        <translation>Sedang</translation>
+    </message>
+    <message>
+        <source>Minor</source>
+        <translation>Ringan</translation>
+    </message>
+    <message>
+        <source>Field: %name</source>
+        <translation>Bidang: %name</translation>
+    </message>
+    <message>
+        <source>Block: %name</source>
+        <translation>Blok: %name</translation>
+    </message>
+    <message>
+        <source>Template: %name</source>
+        <translation>Templat: %name</translation>
+    </message>
+    <message>
+        <source>More about this rule</source>
+        <translation>Selengkapnya tentang aturan ini</translation>
+    </message>
+    <message>
+        <source>The accessibility check could not run.</source>
+        <translation>Pemeriksaan aksesibilitas tidak dapat dijalankan.</translation>
+    </message>
+    <message>
+        <source>An automatic check finds only some problems: also try the page with the keyboard alone and with a screen reader.</source>
+        <translation>Pemeriksaan otomatis hanya menemukan sebagian masalah: coba juga halaman ini hanya dengan keyboard dan dengan pembaca layar.</translation>
+    </message>
+    <message>
+        <source>The rule texts come from axe-core, in English.</source>
+        <translation>Teks aturan berasal dari axe-core, dalam bahasa Inggris.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

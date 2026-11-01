@@ -2071,6 +2071,70 @@
         <source>The accent color %color (expwt.ini [BrandingSettings] %setting) is not used: its contrast is %ratio:1, at least %needed:1 is needed.</source>
         <translation>强调色 %color (expwt.ini [BrandingSettings] %setting) 未被使用：其对比度为 %ratio:1，至少需要 %needed:1。</translation>
     </message>
+    <message>
+        <source>Accessibility</source>
+        <translation>无障碍</translation>
+    </message>
+    <message>
+        <source>Check the accessibility of the page (WCAG 2.2 AA)</source>
+        <translation>检查页面的无障碍性 (WCAG 2.2 AA)</translation>
+    </message>
+    <message>
+        <source>Checking the accessibility ...</source>
+        <translation>正在检查无障碍性 ...</translation>
+    </message>
+    <message>
+        <source>The automatic check found no accessibility problems.</source>
+        <translation>自动检查未发现无障碍问题。</translation>
+    </message>
+    <message>
+        <source>%n accessibility problems</source>
+        <translation>%n 个无障碍问题</translation>
+    </message>
+    <message>
+        <source>Critical</source>
+        <translation>严重</translation>
+    </message>
+    <message>
+        <source>Serious</source>
+        <translation>重要</translation>
+    </message>
+    <message>
+        <source>Moderate</source>
+        <translation>中等</translation>
+    </message>
+    <message>
+        <source>Minor</source>
+        <translation>轻微</translation>
+    </message>
+    <message>
+        <source>Field: %name</source>
+        <translation>字段：%name</translation>
+    </message>
+    <message>
+        <source>Block: %name</source>
+        <translation>区块：%name</translation>
+    </message>
+    <message>
+        <source>Template: %name</source>
+        <translation>模板：%name</translation>
+    </message>
+    <message>
+        <source>More about this rule</source>
+        <translation>关于此规则的更多信息</translation>
+    </message>
+    <message>
+        <source>The accessibility check could not run.</source>
+        <translation>无法运行无障碍检查。</translation>
+    </message>
+    <message>
+        <source>An automatic check finds only some problems: also try the page with the keyboard alone and with a screen reader.</source>
+        <translation>自动检查只能发现部分问题：请同时只用键盘并使用屏幕阅读器试用该页面。</translation>
+    </message>
+    <message>
+        <source>The rule texts come from axe-core, in English.</source>
+        <translation>规则文本来自 axe-core，为英文。</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

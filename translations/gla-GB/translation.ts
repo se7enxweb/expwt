@@ -2071,6 +2071,70 @@
         <source>The accent color %color (expwt.ini [BrandingSettings] %setting) is not used: its contrast is %ratio:1, at least %needed:1 is needed.</source>
         <translation>Chan eil an dath soillseachaidh %color (expwt.ini [BrandingSettings] %setting) ga chleachdadh: 's e %ratio:1 a tha sa chontrarrachd aige, feumar %needed:1 air a char as lugha.</translation>
     </message>
+    <message>
+        <source>Accessibility</source>
+        <translation>So-ruigsinneachd</translation>
+    </message>
+    <message>
+        <source>Check the accessibility of the page (WCAG 2.2 AA)</source>
+        <translation>Thoir sùil air so-ruigsinneachd na duilleige (WCAG 2.2 AA)</translation>
+    </message>
+    <message>
+        <source>Checking the accessibility ...</source>
+        <translation>A' toirt sùil air an so-ruigsinneachd ...</translation>
+    </message>
+    <message>
+        <source>The automatic check found no accessibility problems.</source>
+        <translation>Cha do lorg an sgrùdadh fèin-obrachail duilgheadas so-ruigsinneachd sam bith.</translation>
+    </message>
+    <message>
+        <source>%n accessibility problems</source>
+        <translation>%n duilgheadas so-ruigsinneachd</translation>
+    </message>
+    <message>
+        <source>Critical</source>
+        <translation>Èiginneach</translation>
+    </message>
+    <message>
+        <source>Serious</source>
+        <translation>Dona</translation>
+    </message>
+    <message>
+        <source>Moderate</source>
+        <translation>Meadhanach</translation>
+    </message>
+    <message>
+        <source>Minor</source>
+        <translation>Beag</translation>
+    </message>
+    <message>
+        <source>Field: %name</source>
+        <translation>Raon: %name</translation>
+    </message>
+    <message>
+        <source>Block: %name</source>
+        <translation>Bloca: %name</translation>
+    </message>
+    <message>
+        <source>Template: %name</source>
+        <translation>Teamplaid: %name</translation>
+    </message>
+    <message>
+        <source>More about this rule</source>
+        <translation>Barrachd mun riaghailt seo</translation>
+    </message>
+    <message>
+        <source>The accessibility check could not run.</source>
+        <translation>Cha b' urrainn dhan sgrùdadh so-ruigsinneachd ruith.</translation>
+    </message>
+    <message>
+        <source>An automatic check finds only some problems: also try the page with the keyboard alone and with a screen reader.</source>
+        <translation>Cha lorg sgrùdadh fèin-obrachail ach cuid de dhuilgheadasan: feuch an duilleag cuideachd leis a' mheur-chlàr a-mhàin agus le leughadair-sgrìn.</translation>
+    </message>
+    <message>
+        <source>The rule texts come from axe-core, in English.</source>
+        <translation>Tha teacsaichean nan riaghailtean a' tighinn à axe-core, sa Bheurla.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

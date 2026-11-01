@@ -2071,6 +2071,70 @@
         <source>The accent color %color (expwt.ini [BrandingSettings] %setting) is not used: its contrast is %ratio:1, at least %needed:1 is needed.</source>
         <translation>Το χρώμα έμφασης %color (expwt.ini [BrandingSettings] %setting) δεν χρησιμοποιείται: η αντίθεσή του είναι %ratio:1, απαιτείται τουλάχιστον %needed:1.</translation>
     </message>
+    <message>
+        <source>Accessibility</source>
+        <translation>Προσβασιμότητα</translation>
+    </message>
+    <message>
+        <source>Check the accessibility of the page (WCAG 2.2 AA)</source>
+        <translation>Έλεγχος της προσβασιμότητας της σελίδας (WCAG 2.2 AA)</translation>
+    </message>
+    <message>
+        <source>Checking the accessibility ...</source>
+        <translation>Έλεγχος προσβασιμότητας ...</translation>
+    </message>
+    <message>
+        <source>The automatic check found no accessibility problems.</source>
+        <translation>Ο αυτόματος έλεγχος δεν βρήκε προβλήματα προσβασιμότητας.</translation>
+    </message>
+    <message>
+        <source>%n accessibility problems</source>
+        <translation>%n προβλήματα προσβασιμότητας</translation>
+    </message>
+    <message>
+        <source>Critical</source>
+        <translation>Κρίσιμο</translation>
+    </message>
+    <message>
+        <source>Serious</source>
+        <translation>Σοβαρό</translation>
+    </message>
+    <message>
+        <source>Moderate</source>
+        <translation>Μέτριο</translation>
+    </message>
+    <message>
+        <source>Minor</source>
+        <translation>Μικρό</translation>
+    </message>
+    <message>
+        <source>Field: %name</source>
+        <translation>Πεδίο: %name</translation>
+    </message>
+    <message>
+        <source>Block: %name</source>
+        <translation>Μπλοκ: %name</translation>
+    </message>
+    <message>
+        <source>Template: %name</source>
+        <translation>Πρότυπο: %name</translation>
+    </message>
+    <message>
+        <source>More about this rule</source>
+        <translation>Περισσότερα για αυτόν τον κανόνα</translation>
+    </message>
+    <message>
+        <source>The accessibility check could not run.</source>
+        <translation>Ο έλεγχος προσβασιμότητας δεν μπόρεσε να εκτελεστεί.</translation>
+    </message>
+    <message>
+        <source>An automatic check finds only some problems: also try the page with the keyboard alone and with a screen reader.</source>
+        <translation>Ένας αυτόματος έλεγχος βρίσκει μόνο ορισμένα προβλήματα: δοκιμάστε επίσης τη σελίδα μόνο με το πληκτρολόγιο και με αναγνώστη οθόνης.</translation>
+    </message>
+    <message>
+        <source>The rule texts come from axe-core, in English.</source>
+        <translation>Τα κείμενα των κανόνων προέρχονται από το axe-core, στα αγγλικά.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

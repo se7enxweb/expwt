@@ -2071,6 +2071,70 @@
         <source>The accent color %color (expwt.ini [BrandingSettings] %setting) is not used: its contrast is %ratio:1, at least %needed:1 is needed.</source>
         <translation>Accent kɔla %color (expwt.ini [BrandingSettings] %setting) no, wɔmfa nni dwuma: ne contrast yɛ %ratio:1, ɛhia sɛ ɛyɛ %needed:1 kakra.</translation>
     </message>
+    <message>
+        <source>Accessibility</source>
+        <translation>Accessibility</translation>
+    </message>
+    <message>
+        <source>Check the accessibility of the page (WCAG 2.2 AA)</source>
+        <translation>Hwɛ sɛ krataafa no yɛ mmerɛw ma obiara (WCAG 2.2 AA)</translation>
+    </message>
+    <message>
+        <source>Checking the accessibility ...</source>
+        <translation>Ɛrehwɛ accessibility no ...</translation>
+    </message>
+    <message>
+        <source>The automatic check found no accessibility problems.</source>
+        <translation>Nhwehwɛmu a ɛyɛ ne ho adwuma no anhu accessibility ɔhaw biara.</translation>
+    </message>
+    <message>
+        <source>%n accessibility problems</source>
+        <translation>Accessibility ɔhaw %n</translation>
+    </message>
+    <message>
+        <source>Critical</source>
+        <translation>Ɛyɛ den paa</translation>
+    </message>
+    <message>
+        <source>Serious</source>
+        <translation>Ɛyɛ den</translation>
+    </message>
+    <message>
+        <source>Moderate</source>
+        <translation>Ɛyɛ mfinimfini</translation>
+    </message>
+    <message>
+        <source>Minor</source>
+        <translation>Ɛyɛ ketewa</translation>
+    </message>
+    <message>
+        <source>Field: %name</source>
+        <translation>Field: %name</translation>
+    </message>
+    <message>
+        <source>Block: %name</source>
+        <translation>Block: %name</translation>
+    </message>
+    <message>
+        <source>Template: %name</source>
+        <translation>Template: %name</translation>
+    </message>
+    <message>
+        <source>More about this rule</source>
+        <translation>Nneɛma pii fa mmara yi ho</translation>
+    </message>
+    <message>
+        <source>The accessibility check could not run.</source>
+        <translation>Accessibility nhwehwɛmu no antumi anyɛ adwuma.</translation>
+    </message>
+    <message>
+        <source>An automatic check finds only some problems: also try the page with the keyboard alone and with a screen reader.</source>
+        <translation>Nhwehwɛmu a ɛyɛ ne ho adwuma hu ɔhaw no bi nko ara: sɔ krataafa no hwɛ wɔ keyboard nko ara so ne screen reader so nso.</translation>
+    </message>
+    <message>
+        <source>The rule texts come from axe-core, in English.</source>
+        <translation>Mmara no nsɛm fi axe-core, wɔ Borɔfo kasa mu.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

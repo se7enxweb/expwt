@@ -2071,6 +2071,70 @@
         <source>The accent color %color (expwt.ini [BrandingSettings] %setting) is not used: its contrast is %ratio:1, at least %needed:1 is needed.</source>
         <translation>Langi ya kolakisa %color (expwt.ini [BrandingSettings] %setting) esalelami te: bokeseni na yango ezali %ratio:1, esengeli ata %needed:1.</translation>
     </message>
+    <message>
+        <source>Accessibility</source>
+        <translation>Kokɔta na pɛtɛɛ</translation>
+    </message>
+    <message>
+        <source>Check the accessibility of the page (WCAG 2.2 AA)</source>
+        <translation>Tala soki lokasa ekɔtɛli na pɛtɛɛ (WCAG 2.2 AA)</translation>
+    </message>
+    <message>
+        <source>Checking the accessibility ...</source>
+        <translation>Kotala kokɔta na pɛtɛɛ ...</translation>
+    </message>
+    <message>
+        <source>The automatic check found no accessibility problems.</source>
+        <translation>Botali ya yango moko emoni likambo moko te ya kokɔta na pɛtɛɛ.</translation>
+    </message>
+    <message>
+        <source>%n accessibility problems</source>
+        <translation>Makambo %n ya kokɔta na pɛtɛɛ</translation>
+    </message>
+    <message>
+        <source>Critical</source>
+        <translation>Ya makasi mingi</translation>
+    </message>
+    <message>
+        <source>Serious</source>
+        <translation>Ya makasi</translation>
+    </message>
+    <message>
+        <source>Moderate</source>
+        <translation>Ya katikati</translation>
+    </message>
+    <message>
+        <source>Minor</source>
+        <translation>Ya moke</translation>
+    </message>
+    <message>
+        <source>Field: %name</source>
+        <translation>Esika: %name</translation>
+    </message>
+    <message>
+        <source>Block: %name</source>
+        <translation>Eteni: %name</translation>
+    </message>
+    <message>
+        <source>Template: %name</source>
+        <translation>Ndakisa: %name</translation>
+    </message>
+    <message>
+        <source>More about this rule</source>
+        <translation>Mingi mpo na mobeko oyo</translation>
+    </message>
+    <message>
+        <source>The accessibility check could not run.</source>
+        <translation>Botali ya kokɔta na pɛtɛɛ ekokaki kosala te.</translation>
+    </message>
+    <message>
+        <source>An automatic check finds only some problems: also try the page with the keyboard alone and with a screen reader.</source>
+        <translation>Botali ya yango moko emonaka kaka makambo mosusu: meka lokasa mpe na clavier kaka mpe na motángi ya ekrá.</translation>
+    </message>
+    <message>
+        <source>The rule texts come from axe-core, in English.</source>
+        <translation>Makomi ya mibeko ewutí na axe-core, na Lingɛlɛ́sa.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

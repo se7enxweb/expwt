@@ -793,6 +793,10 @@ button.wt-seo-item { cursor: pointer; }
 button.wt-seo-item:hover { border-color: var(--a4-accent); }
 .wt-seo-item > .wt-chip { flex: none; }
 .wt-seo-text { min-inline-size: 0; overflow-wrap: break-word; }
+/* the accessibility check (E11): below the SEO findings; where a finding is, under its text; the rule's page beside the item */
+.wt-a11y { margin-block-start: var(--a4-space-4); }
+.wt-a11y-where { display: block; font-size: var(--a4-text-xs); overflow-wrap: anywhere; }
+.wt-a11y-more { display: inline-block; margin-block-start: var(--a4-space-1); margin-inline-start: var(--a4-space-2); font-size: var(--a4-text-xs); }
 .wt-field[data-wanted="true"] { outline: 2px solid var(--a4-accent); outline-offset: 2px; border-radius: var(--a4-radius-s); }
 
 /* the Sites panel (F27): each site or language one row, its name and language, its buttons below */

@@ -2071,6 +2071,70 @@
         <source>The accent color %color (expwt.ini [BrandingSettings] %setting) is not used: its contrast is %ratio:1, at least %needed:1 is needed.</source>
         <translation>ಆಕ್ಸೆಂಟ್ ಬಣ್ಣ %color (expwt.ini [BrandingSettings] %setting) ಬಳಸಲಾಗುತ್ತಿಲ್ಲ: ಇದರ ಕಾಂಟ್ರಾಸ್ಟ್ %ratio:1, ಕನಿಷ್ಠ %needed:1 ಅಗತ್ಯವಿದೆ.</translation>
     </message>
+    <message>
+        <source>Accessibility</source>
+        <translation>ಪ್ರವೇಶಸಾಧ್ಯತೆ</translation>
+    </message>
+    <message>
+        <source>Check the accessibility of the page (WCAG 2.2 AA)</source>
+        <translation>ಪುಟದ ಪ್ರವೇಶಸಾಧ್ಯತೆಯನ್ನು ಪರಿಶೀಲಿಸಿ (WCAG 2.2 AA)</translation>
+    </message>
+    <message>
+        <source>Checking the accessibility ...</source>
+        <translation>ಪ್ರವೇಶಸಾಧ್ಯತೆಯನ್ನು ಪರಿಶೀಲಿಸಲಾಗುತ್ತಿದೆ ...</translation>
+    </message>
+    <message>
+        <source>The automatic check found no accessibility problems.</source>
+        <translation>ಸ್ವಯಂಚಾಲಿತ ಪರಿಶೀಲನೆಯಲ್ಲಿ ಯಾವುದೇ ಪ್ರವೇಶಸಾಧ್ಯತೆ ಸಮಸ್ಯೆ ಕಂಡುಬಂದಿಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>%n accessibility problems</source>
+        <translation>%n ಪ್ರವೇಶಸಾಧ್ಯತೆ ಸಮಸ್ಯೆಗಳು</translation>
+    </message>
+    <message>
+        <source>Critical</source>
+        <translation>ನಿರ್ಣಾಯಕ</translation>
+    </message>
+    <message>
+        <source>Serious</source>
+        <translation>ಗಂಭೀರ</translation>
+    </message>
+    <message>
+        <source>Moderate</source>
+        <translation>ಮಧ್ಯಮ</translation>
+    </message>
+    <message>
+        <source>Minor</source>
+        <translation>ಸಣ್ಣ</translation>
+    </message>
+    <message>
+        <source>Field: %name</source>
+        <translation>ಕ್ಷೇತ್ರ: %name</translation>
+    </message>
+    <message>
+        <source>Block: %name</source>
+        <translation>ಬ್ಲಾಕ್: %name</translation>
+    </message>
+    <message>
+        <source>Template: %name</source>
+        <translation>ಟೆಂಪ್ಲೇಟ್: %name</translation>
+    </message>
+    <message>
+        <source>More about this rule</source>
+        <translation>ಈ ನಿಯಮದ ಬಗ್ಗೆ ಇನ್ನಷ್ಟು</translation>
+    </message>
+    <message>
+        <source>The accessibility check could not run.</source>
+        <translation>ಪ್ರವೇಶಸಾಧ್ಯತೆ ಪರಿಶೀಲನೆ ನಡೆಸಲಾಗಲಿಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>An automatic check finds only some problems: also try the page with the keyboard alone and with a screen reader.</source>
+        <translation>ಸ್ವಯಂಚಾಲಿತ ಪರಿಶೀಲನೆ ಕೆಲವು ಸಮಸ್ಯೆಗಳನ್ನು ಮಾತ್ರ ಕಂಡುಹಿಡಿಯುತ್ತದೆ: ಪುಟವನ್ನು ಕೇವಲ ಕೀಬೋರ್ಡ್‌ನಿಂದ ಮತ್ತು ಸ್ಕ್ರೀನ್ ರೀಡರ್‌ನಿಂದಲೂ ಪ್ರಯತ್ನಿಸಿ.</translation>
+    </message>
+    <message>
+        <source>The rule texts come from axe-core, in English.</source>
+        <translation>ನಿಯಮಗಳ ಪಠ್ಯಗಳು axe-core ನಿಂದ ಬರುತ್ತವೆ, ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

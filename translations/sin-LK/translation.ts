@@ -2071,6 +2071,70 @@
         <source>The accent color %color (expwt.ini [BrandingSettings] %setting) is not used: its contrast is %ratio:1, at least %needed:1 is needed.</source>
         <translation>උච්චාරණ වර්ණය %color (expwt.ini [BrandingSettings] %setting) භාවිත නොවේ: එහි වෙනස්කම %ratio:1 වේ, අවම වශයෙන් %needed:1 අවශ්‍යයි.</translation>
     </message>
+    <message>
+        <source>Accessibility</source>
+        <translation>ප්‍රවේශ්‍යතාව</translation>
+    </message>
+    <message>
+        <source>Check the accessibility of the page (WCAG 2.2 AA)</source>
+        <translation>පිටුවේ ප්‍රවේශ්‍යතාව පරීක්ෂා කරන්න (WCAG 2.2 AA)</translation>
+    </message>
+    <message>
+        <source>Checking the accessibility ...</source>
+        <translation>ප්‍රවේශ්‍යතාව පරීක්ෂා කරමින් ...</translation>
+    </message>
+    <message>
+        <source>The automatic check found no accessibility problems.</source>
+        <translation>ස්වයංක්‍රීය පරීක්ෂාවට ප්‍රවේශ්‍යතා ගැටලු කිසිවක් හමු නොවීය.</translation>
+    </message>
+    <message>
+        <source>%n accessibility problems</source>
+        <translation>ප්‍රවේශ්‍යතා ගැටලු %n</translation>
+    </message>
+    <message>
+        <source>Critical</source>
+        <translation>තීරණාත්මක</translation>
+    </message>
+    <message>
+        <source>Serious</source>
+        <translation>බරපතල</translation>
+    </message>
+    <message>
+        <source>Moderate</source>
+        <translation>මධ්‍යම</translation>
+    </message>
+    <message>
+        <source>Minor</source>
+        <translation>සුළු</translation>
+    </message>
+    <message>
+        <source>Field: %name</source>
+        <translation>ක්ෂේත්‍රය: %name</translation>
+    </message>
+    <message>
+        <source>Block: %name</source>
+        <translation>කොටස: %name</translation>
+    </message>
+    <message>
+        <source>Template: %name</source>
+        <translation>අච්චුව: %name</translation>
+    </message>
+    <message>
+        <source>More about this rule</source>
+        <translation>මෙම නීතිය ගැන තවත්</translation>
+    </message>
+    <message>
+        <source>The accessibility check could not run.</source>
+        <translation>ප්‍රවේශ්‍යතා පරීක්ෂාව ධාවනය කළ නොහැකි විය.</translation>
+    </message>
+    <message>
+        <source>An automatic check finds only some problems: also try the page with the keyboard alone and with a screen reader.</source>
+        <translation>ස්වයංක්‍රීය පරීක්ෂාවක් සමහර ගැටලු පමණක් සොයා ගනී: පිටුව යතුරුපුවරුවෙන් පමණක් සහ තිර කියවනයකින්ද උත්සාහ කරන්න.</translation>
+    </message>
+    <message>
+        <source>The rule texts come from axe-core, in English.</source>
+        <translation>නීති පාඨ axe-core වෙතින් පැමිණේ, ඉංග්‍රීසියෙන්.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

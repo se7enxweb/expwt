@@ -655,6 +655,35 @@ class expwtPureTest extends PHPUnit\Framework\TestCase
         $this->assertStringStartsWith( 'PASS', (string)end( $out ) );
     }
 
+    /** E10 and E11: the branding in the browser and the findings of the accessibility check (tests/js, Node) */
+    public function testTheBrandingAndTheAccessibilityCheckInTheBrowser()
+    {
+        $node = trim( (string)shell_exec( 'command -v node 2>&1' ) );
+        if ( $node === '' || !is_executable( $node ) )
+            $this->markTestSkipped( 'Node is not installed' );
+        foreach ( array( 'brand.test.js', 'a11y.test.js' ) as $script )
+        {
+            $out = array();
+            exec( escapeshellarg( $node ) . ' ' . escapeshellarg( dirname( __DIR__, 2 ) . '/js/' . $script ) . ' 2>&1', $out, $status );
+            $this->assertSame( 0, $status, implode( "\n", $out ) );
+            $this->assertStringStartsWith( 'PASS', (string)end( $out ), $script );
+        }
+    }
+
+    /** E11: axe-core is shipped as published (4.11.3, MPL-2.0, its notice kept) and only the SEO panel loads it */
+    public function testAxeCoreIsShippedUnchangedAndLoadedOnDemand()
+    {
+        $root = dirname( __DIR__, 3 );
+        $axe = $root . '/design/standard/javascript/expwt-axe.min.js';
+        $this->assertSame( 'aa3d175a5355071c889fe0dabe2e6b1dbe82f986', sha1_file( $axe ), 'axe-core 4.11.3 from the npm registry, unchanged' );
+        $this->assertStringStartsWith( "/*! axe v4.11.3\n", (string)file_get_contents( $axe, false, null, 0, 20 ) );
+        $panels = (string)file_get_contents( $root . '/design/standard/javascript/expwt-panels.js' );
+        $this->assertStringContainsString( 'ctx.boot.urls.axe', $panels );
+        $this->assertStringNotContainsString( 'expwt-axe', (string)file_get_contents( $root . '/design/standard/javascript/expwt.js' ), 'not in the closed tab' );
+        $this->assertStringContainsString( 'axe-core', (string)file_get_contents( $root . '/README.md' ), 'named with its license' );
+    }
+
+
     /** F30: the user's own shortcuts are checked on the server as in the browser, and only those that differ are kept */
     public function testTheUsersShortcutsAreCheckedAndKeptOnlyWhenTheyDiffer()
     {

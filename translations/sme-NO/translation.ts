@@ -2071,6 +2071,70 @@
         <source>The accent color %color (expwt.ini [BrandingSettings] %setting) is not used: its contrast is %ratio:1, at least %needed:1 is needed.</source>
         <translation>Deattuhanivdni %color (expwt.ini [BrandingSettings] %setting) ii geavahuvvo: dan kontrásta lea %ratio:1, unnimusat %needed:1 dárbbašuvvo.</translation>
     </message>
+    <message>
+        <source>Accessibility</source>
+        <translation>Olahahttivuohta</translation>
+    </message>
+    <message>
+        <source>Check the accessibility of the page (WCAG 2.2 AA)</source>
+        <translation>Dárkkis siiddu olahahttivuođa (WCAG 2.2 AA)</translation>
+    </message>
+    <message>
+        <source>Checking the accessibility ...</source>
+        <translation>Dárkkista olahahttivuođa ...</translation>
+    </message>
+    <message>
+        <source>The automatic check found no accessibility problems.</source>
+        <translation>Automáhtalaš dárkkisteapmi ii gávdnan olahahttivuođa váttisvuođaid.</translation>
+    </message>
+    <message>
+        <source>%n accessibility problems</source>
+        <translation>%n olahahttivuođa váttisvuođa</translation>
+    </message>
+    <message>
+        <source>Critical</source>
+        <translation>Kritihkalaš</translation>
+    </message>
+    <message>
+        <source>Serious</source>
+        <translation>Duođalaš</translation>
+    </message>
+    <message>
+        <source>Moderate</source>
+        <translation>Gaskamearálaš</translation>
+    </message>
+    <message>
+        <source>Minor</source>
+        <translation>Unna</translation>
+    </message>
+    <message>
+        <source>Field: %name</source>
+        <translation>Gietti: %name</translation>
+    </message>
+    <message>
+        <source>Block: %name</source>
+        <translation>Blohkka: %name</translation>
+    </message>
+    <message>
+        <source>Template: %name</source>
+        <translation>Málle: %name</translation>
+    </message>
+    <message>
+        <source>More about this rule</source>
+        <translation>Eanet dán njuolggadusa birra</translation>
+    </message>
+    <message>
+        <source>The accessibility check could not run.</source>
+        <translation>Olahahttivuođa dárkkisteapmi ii sáhttán vuodjit.</translation>
+    </message>
+    <message>
+        <source>An automatic check finds only some problems: also try the page with the keyboard alone and with a screen reader.</source>
+        <translation>Automáhtalaš dárkkisteapmi gávdná dušše muhtin váttisvuođaid: geahččal siiddu maiddái dušše boallobeavddiin ja šearbmalohkkiin.</translation>
+    </message>
+    <message>
+        <source>The rule texts come from axe-core, in English.</source>
+        <translation>Njuolggadusaid teavsttat bohtet axe-core:s, eŋgelasgillii.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

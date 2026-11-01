@@ -2071,6 +2071,70 @@
         <source>The accent color %color (expwt.ini [BrandingSettings] %setting) is not used: its contrast is %ratio:1, at least %needed:1 is needed.</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Accessibility</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Check the accessibility of the page (WCAG 2.2 AA)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Checking the accessibility ...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The automatic check found no accessibility problems.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>%n accessibility problems</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Critical</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Serious</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Moderate</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Minor</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Field: %name</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Block: %name</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Template: %name</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>More about this rule</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The accessibility check could not run.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>An automatic check finds only some problems: also try the page with the keyboard alone and with a screen reader.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The rule texts come from axe-core, in English.</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

@@ -2071,6 +2071,70 @@
         <source>The accent color %color (expwt.ini [BrandingSettings] %setting) is not used: its contrast is %ratio:1, at least %needed:1 is needed.</source>
         <translation>%color екпін түсі (expwt.ini [BrandingSettings] %setting) пайдаланылмайды: оның контрасты %ratio:1, кемінде %needed:1 қажет.</translation>
     </message>
+    <message>
+        <source>Accessibility</source>
+        <translation>Қолжетімділік</translation>
+    </message>
+    <message>
+        <source>Check the accessibility of the page (WCAG 2.2 AA)</source>
+        <translation>Беттің қолжетімділігін тексеру (WCAG 2.2 AA)</translation>
+    </message>
+    <message>
+        <source>Checking the accessibility ...</source>
+        <translation>Қолжетімділік тексерілуде ...</translation>
+    </message>
+    <message>
+        <source>The automatic check found no accessibility problems.</source>
+        <translation>Автоматты тексеру қолжетімділік мәселелерін тапқан жоқ.</translation>
+    </message>
+    <message>
+        <source>%n accessibility problems</source>
+        <translation>Қолжетімділіктің %n мәселесі</translation>
+    </message>
+    <message>
+        <source>Critical</source>
+        <translation>Сыни</translation>
+    </message>
+    <message>
+        <source>Serious</source>
+        <translation>Елеулі</translation>
+    </message>
+    <message>
+        <source>Moderate</source>
+        <translation>Орташа</translation>
+    </message>
+    <message>
+        <source>Minor</source>
+        <translation>Шамалы</translation>
+    </message>
+    <message>
+        <source>Field: %name</source>
+        <translation>Өріс: %name</translation>
+    </message>
+    <message>
+        <source>Block: %name</source>
+        <translation>Блок: %name</translation>
+    </message>
+    <message>
+        <source>Template: %name</source>
+        <translation>Үлгі: %name</translation>
+    </message>
+    <message>
+        <source>More about this rule</source>
+        <translation>Бұл ереже туралы толығырақ</translation>
+    </message>
+    <message>
+        <source>The accessibility check could not run.</source>
+        <translation>Қолжетімділікті тексеру іске қосылмады.</translation>
+    </message>
+    <message>
+        <source>An automatic check finds only some problems: also try the page with the keyboard alone and with a screen reader.</source>
+        <translation>Автоматты тексеру мәселелердің бір бөлігін ғана табады: бетті тек пернетақтамен және экран оқу құралымен де байқап көріңіз.</translation>
+    </message>
+    <message>
+        <source>The rule texts come from axe-core, in English.</source>
+        <translation>Ережелердің мәтіндері axe-core-дан алынған, ағылшын тілінде.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

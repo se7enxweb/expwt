@@ -2071,6 +2071,70 @@
         <source>The accent color %color (expwt.ini [BrandingSettings] %setting) is not used: its contrast is %ratio:1, at least %needed:1 is needed.</source>
         <translation>የአጽንዖት ቀለሙ %color (expwt.ini [BrandingSettings] %setting) ጥቅም ላይ አይውልም፦ ንፅፅሩ %ratio:1 ነው፣ ቢያንስ %needed:1 ያስፈልጋል።</translation>
     </message>
+    <message>
+        <source>Accessibility</source>
+        <translation>ተደራሽነት</translation>
+    </message>
+    <message>
+        <source>Check the accessibility of the page (WCAG 2.2 AA)</source>
+        <translation>የገጹን ተደራሽነት ፈትሽ (WCAG 2.2 AA)</translation>
+    </message>
+    <message>
+        <source>Checking the accessibility ...</source>
+        <translation>ተደራሽነቱ እየተፈተሸ ነው ...</translation>
+    </message>
+    <message>
+        <source>The automatic check found no accessibility problems.</source>
+        <translation>ራስ-ሰር ፍተሻው ምንም የተደራሽነት ችግር አላገኘም።</translation>
+    </message>
+    <message>
+        <source>%n accessibility problems</source>
+        <translation>%n የተደራሽነት ችግሮች</translation>
+    </message>
+    <message>
+        <source>Critical</source>
+        <translation>ወሳኝ</translation>
+    </message>
+    <message>
+        <source>Serious</source>
+        <translation>ከባድ</translation>
+    </message>
+    <message>
+        <source>Moderate</source>
+        <translation>መካከለኛ</translation>
+    </message>
+    <message>
+        <source>Minor</source>
+        <translation>ቀላል</translation>
+    </message>
+    <message>
+        <source>Field: %name</source>
+        <translation>መስክ፦ %name</translation>
+    </message>
+    <message>
+        <source>Block: %name</source>
+        <translation>ብሎክ፦ %name</translation>
+    </message>
+    <message>
+        <source>Template: %name</source>
+        <translation>አብነት፦ %name</translation>
+    </message>
+    <message>
+        <source>More about this rule</source>
+        <translation>ስለዚህ ደንብ ተጨማሪ</translation>
+    </message>
+    <message>
+        <source>The accessibility check could not run.</source>
+        <translation>የተደራሽነት ፍተሻው መሥራት አልቻለም።</translation>
+    </message>
+    <message>
+        <source>An automatic check finds only some problems: also try the page with the keyboard alone and with a screen reader.</source>
+        <translation>ራስ-ሰር ፍተሻ አንዳንድ ችግሮችን ብቻ ያገኛል፦ ገጹን በቁልፍ ሰሌዳ ብቻ እና በስክሪን አንባቢ ሞክሩት።</translation>
+    </message>
+    <message>
+        <source>The rule texts come from axe-core, in English.</source>
+        <translation>የደንቦቹ ጽሑፎች ከaxe-core የመጡ ናቸው፣ በእንግሊዝኛ።</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

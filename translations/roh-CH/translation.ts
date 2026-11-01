@@ -2071,6 +2071,70 @@
         <source>The accent color %color (expwt.ini [BrandingSettings] %setting) is not used: its contrast is %ratio:1, at least %needed:1 is needed.</source>
         <translation>La colur d'accent %color (expwt.ini [BrandingSettings] %setting) na vegn betg duvrada: ses contrast è %ratio:1, i dovra almain %needed:1.</translation>
     </message>
+    <message>
+        <source>Accessibility</source>
+        <translation>Accessibilitad</translation>
+    </message>
+    <message>
+        <source>Check the accessibility of the page (WCAG 2.2 AA)</source>
+        <translation>Controllar l'accessibilitad da la pagina (WCAG 2.2 AA)</translation>
+    </message>
+    <message>
+        <source>Checking the accessibility ...</source>
+        <translation>L'accessibilitad vegn controllada ...</translation>
+    </message>
+    <message>
+        <source>The automatic check found no accessibility problems.</source>
+        <translation>La controlla automatica n'ha chattà nagins problems d'accessibilitad.</translation>
+    </message>
+    <message>
+        <source>%n accessibility problems</source>
+        <translation>%n problems d'accessibilitad</translation>
+    </message>
+    <message>
+        <source>Critical</source>
+        <translation>Critic</translation>
+    </message>
+    <message>
+        <source>Serious</source>
+        <translation>Grev</translation>
+    </message>
+    <message>
+        <source>Moderate</source>
+        <translation>Moderà</translation>
+    </message>
+    <message>
+        <source>Minor</source>
+        <translation>Pitschen</translation>
+    </message>
+    <message>
+        <source>Field: %name</source>
+        <translation>Champ: %name</translation>
+    </message>
+    <message>
+        <source>Block: %name</source>
+        <translation>Bloc: %name</translation>
+    </message>
+    <message>
+        <source>Template: %name</source>
+        <translation>Model: %name</translation>
+    </message>
+    <message>
+        <source>More about this rule</source>
+        <translation>Dapli davart questa regla</translation>
+    </message>
+    <message>
+        <source>The accessibility check could not run.</source>
+        <translation>La controlla d'accessibilitad n'ha betg pudì vegnir exequida.</translation>
+    </message>
+    <message>
+        <source>An automatic check finds only some problems: also try the page with the keyboard alone and with a screen reader.</source>
+        <translation>Ina controlla automatica chatta mo intgins problems: empruvai la pagina era mo cun la tastatura e cun in lectur da visur.</translation>
+    </message>
+    <message>
+        <source>The rule texts come from axe-core, in English.</source>
+        <translation>Ils texts da las reglas derivan dad axe-core, en englais.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

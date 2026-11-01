@@ -3063,9 +3063,15 @@
       root.appendChild(h('p', { text: t('This page is not content of the site. Open a page of the site to edit it.') }));
       return;
     }
+    /* the SEO findings, then the accessibility check (E11) below them, which keeps its result when SEO runs again */
+    var box = h('div', { class: 'wt-seo' });
+    root.appendChild(box);
+    var access = h('div', { class: 'wt-a11y' });
+    root.appendChild(access);
+    a11y(ctx, access);
     var run = function () {
-      root.textContent = '';
-      root.appendChild(h('p', { class: 'wt-muted', text: t('Checking ...') }));
+      box.textContent = '';
+      box.appendChild(h('p', { class: 'wt-muted', text: t('Checking ...') }));
       var seen = seoFacts();
       /* the links in parts: each part one read (a GET), short enough for every server */
       var parts = [];
@@ -3076,9 +3082,9 @@
         var links = [];
         answers.forEach(function (a) { links = links.concat(a.links); });
         seen.facts.links = links;
-        root.textContent = '';
-        drawSeo(ctx, root, SEO.rules(seen.facts, t), seen.els, fields, run);
-      }, function (err) { root.textContent = ''; failure(ctx, err); });
+        box.textContent = '';
+        drawSeo(ctx, box, SEO.rules(seen.facts, t), seen.els, fields, run);
+      }, function (err) { box.textContent = ''; failure(ctx, err); });
     };
     run();
   }
@@ -3124,6 +3130,163 @@
   function seoJump(ctx, target) {
     if (target.element) { ctx.host.flash(target.element); }
     if (target.field) { ctx.host.openField(target.field); }
+  }
+
+  /* ---------------------------------------------------------------------------------------------- accessibility */
+
+  /* The accessibility check (E11), on demand in the SEO panel: axe-core (shipped unchanged as expwt-axe.min.js,
+     loaded only when the check runs, for users with expwt/edit) checks the rendered page against WCAG 2.2 AA, the
+     sidebar left out. Each finding names where it is: the field of the page (the kernel's markers, F20), the layout
+     block (its ngl-vt-<view type> class) and the template (the kernel's template debug comments, where they are on).
+     A11y.findings() is pure, for the tests (tests/js/a11y.test.js): axe's violations to one finding per element,
+     the worst first; place(selector) says where an element is. */
+  var A11y = {
+    TAGS: ['wcag2a', 'wcag2aa', 'wcag21a', 'wcag21aa', 'wcag22aa'],
+    IMPACT: ['critical', 'serious', 'moderate', 'minor'],
+    LIMIT: 200,
+    findings: function (violations, place) {
+      var out = [];
+      (Array.isArray(violations) ? violations : []).forEach(function (v) {
+        (Array.isArray(v.nodes) ? v.nodes : []).forEach(function (n, i) {
+          var target = n && Array.isArray(n.target) && n.target.length === 1 && typeof n.target[0] === 'string' ? n.target[0] : null;
+          out.push({
+            id: String(v.id) + '-' + i, rule: String(v.id || ''),
+            impact: A11y.IMPACT.indexOf(n.impact || v.impact) >= 0 ? (n.impact || v.impact) : 'minor',
+            help: String(v.help || ''),
+            url: /^https:\/\/dequeuniversity\.com\//.test(String(v.helpUrl || '')) ? String(v.helpUrl) : '',
+            target: target,
+            where: target && place ? place(target) : null
+          });
+        });
+      });
+      return out.map(function (x, i) { return [x, i]; })
+        .sort(function (a, b) { return A11y.IMPACT.indexOf(a[0].impact) - A11y.IMPACT.indexOf(b[0].impact) || a[1] - b[1]; })
+        .map(function (x) { return x[0]; }).slice(0, A11y.LIMIT);
+    },
+    /* the layout block of an element: the view type of its innermost ngl-block (ngl-vt-<view type>), or '' */
+    block: function (classes) {
+      var m = /(?:^|\s)ngl-vt-([A-Za-z0-9_-]+)/.exec(String(classes || ''));
+      return m ? m[1] : '';
+    },
+    /* the template of a template debug comment (START: including template: <path> (...)), or '' */
+    template: function (comment) {
+      var m = /^\s*START: including template: ([^\s()]+)/.exec(String(comment || ''));
+      return m ? m[1] : '';
+    }
+  };
+
+  /* The template the kernel's template debug comments say an element of the page comes from, or '' */
+  function templateAt(el) {
+    if (!el || !document.createTreeWalker) { return ''; }
+    var walker = document.createTreeWalker(document.body, NodeFilter.SHOW_COMMENT);
+    var stack = [];
+    var node;
+    var found = '';
+    while ((node = walker.nextNode())) {
+      var path = A11y.template(node.data);
+      if (path) {
+        stack.push({ open: node, path: path });
+      } else if (/^\s*STOP: including template:/.test(node.data || '') && stack.length) {
+        var open = stack.pop();
+        var r = document.createRange();
+        r.setStartAfter(open.open);
+        r.setEndBefore(node);
+        if (r.intersectsNode(el)) { found = open.path; }
+      }
+    }
+    return found;
+  }
+
+  /* Where an element of the page (a selector of axe) is: element, field, block, template */
+  function a11yPlace(selector) {
+    var el = null;
+    try { el = document.querySelector(selector); } catch (e) { return null; }
+    if (!el || el.closest('exp-wt')) { return null; }
+    var marked = fieldAt(el);
+    var block = el.closest('.ngl-block');
+    return {
+      element: el,
+      field: marked && String(marked.object) && marked.field ? marked.field : '',
+      block: block ? A11y.block(block.className) : '',
+      template: templateAt(el)
+    };
+  }
+
+  /* axe-core, loaded once into the page (it checks the page, so it runs there, never in the sidebar) */
+  var axeLoading = null;
+  function loadAxe(url) {
+    if (window.axe && typeof window.axe.run === 'function') { return Promise.resolve(window.axe); }
+    if (!axeLoading) {
+      axeLoading = new Promise(function (resolve, reject) {
+        var s = document.createElement('script');
+        s.src = url;
+        s.async = true;
+        s.onload = function () { if (window.axe && typeof window.axe.run === 'function') { resolve(window.axe); } else { reject(new Error('axe')); } };
+        s.onerror = function () { axeLoading = null; reject(new Error('axe')); };
+        document.head.appendChild(s);
+      });
+    }
+    return axeLoading;
+  }
+
+  function a11y(ctx, root) {
+    var h = ctx.h;
+    var t = ctx.t;
+    var url = ctx.boot && ctx.boot.urls && ctx.boot.urls.axe;
+    if (!url) { return; }
+    var result = h('div', { class: 'wt-a11y-result', 'aria-live': 'polite' });
+    var button = h('button', { type: 'button', class: 'wt-btn', text: t('Check the accessibility of the page (WCAG 2.2 AA)'), onclick: function () { run(); } });
+    root.appendChild(h('div', { class: 'wt-section wt-page-head' }, [h('h3', { text: t('Accessibility') }), button]));
+    root.appendChild(result);
+    root.appendChild(h('p', { class: 'wt-muted', text: t('An automatic check finds only some problems: also try the page with the keyboard alone and with a screen reader.') + ' '
+      + t('The rule texts come from axe-core, in English.') }));
+    function run() {
+      button.disabled = true;
+      result.textContent = '';
+      result.appendChild(h('p', { class: 'wt-muted', text: t('Checking the accessibility ...') }));
+      loadAxe(url).then(function (axe) {
+        return axe.run({ include: [['html']], exclude: [['exp-wt']] }, { runOnly: { type: 'tag', values: A11y.TAGS }, resultTypes: ['violations'] });
+      }).then(function (r) {
+        button.disabled = false;
+        drawA11y(ctx, result, A11y.findings(r.violations, a11yPlace));
+      }, function () {
+        button.disabled = false;
+        result.textContent = '';
+        result.appendChild(h('div', { class: 'wt-notice is-warn', role: 'alert', text: t('The accessibility check could not run.') }));
+      });
+    }
+  }
+
+  function drawA11y(ctx, root, findings) {
+    var h = ctx.h;
+    var t = ctx.t;
+    root.textContent = '';
+    if (!findings.length) {
+      root.appendChild(h('p', { text: t('The automatic check found no accessibility problems.') }));
+      return;
+    }
+    root.appendChild(h('p', { class: 'wt-a11y-count', text: t('%n accessibility problems').replace('%n', findings.length) }));
+    var label = { critical: t('Critical'), serious: t('Serious'), moderate: t('Moderate'), minor: t('Minor') };
+    var list = h('ul', { class: 'wt-seo-list' });
+    findings.forEach(function (f) {
+      var w = f.where;
+      var where = [];
+      if (w && w.field) { where.push(t('Field: %name').replace('%name', w.field)); }
+      if (w && w.block) { where.push(t('Block: %name').replace('%name', w.block)); }
+      if (w && w.template) { where.push(t('Template: %name').replace('%name', w.template)); }
+      var body = [h('span', { class: 'wt-chip is-' + (f.impact === 'critical' || f.impact === 'serious' ? 'bad' : 'warn'), text: label[f.impact] }),
+        h('span', { class: 'wt-seo-text' }, [f.help, where.length ? h('span', { class: 'wt-muted wt-a11y-where', text: where.join(' · ') }) : null])];
+      var target = w ? { element: w.element, field: w.field } : null;
+      var item = target ? h('button', { type: 'button', class: 'wt-seo-item', 'data-rule': f.rule, onclick: function () { seoJump(ctx, target); } }, body)
+        : h('div', { class: 'wt-seo-item', 'data-rule': f.rule }, body);
+      if (target) {
+        item.setAttribute('title', target.field ? t('Open the field') : t('Show it on the page'));
+        item.setAttribute('data-target', target.field ? 'field' : 'page');
+      }
+      list.appendChild(h('li', { 'data-level': f.impact }, [item,
+        f.url ? h('a', { class: 'wt-a11y-more', href: f.url, target: '_blank', rel: 'noopener noreferrer', text: t('More about this rule') }) : null]));
+    });
+    root.appendChild(list);
   }
 
   /* ---------------------------------------------------------------------------------------------- sites */
@@ -3604,6 +3767,7 @@
 
   window.ExpwtMigrations = Migrations;
   window.ExpwtSeo = SEO;
+  window.ExpwtA11y = A11y;
   window.ExpwtComments = { actions: commentActions };
   window.ExpwtUrls = { address: addressOf };
   window.ExpwtCalendar = Calendar;

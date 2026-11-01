@@ -2071,6 +2071,70 @@
         <source>The accent color %color (expwt.ini [BrandingSettings] %setting) is not used: its contrast is %ratio:1, at least %needed:1 is needed.</source>
         <translation>A(z) %color kiemelőszín (expwt.ini [BrandingSettings] %setting) nincs használatban: a kontrasztja %ratio:1, legalább %needed:1 szükséges.</translation>
     </message>
+    <message>
+        <source>Accessibility</source>
+        <translation>Akadálymentesség</translation>
+    </message>
+    <message>
+        <source>Check the accessibility of the page (WCAG 2.2 AA)</source>
+        <translation>Az oldal akadálymentességének ellenőrzése (WCAG 2.2 AA)</translation>
+    </message>
+    <message>
+        <source>Checking the accessibility ...</source>
+        <translation>Akadálymentesség ellenőrzése ...</translation>
+    </message>
+    <message>
+        <source>The automatic check found no accessibility problems.</source>
+        <translation>Az automatikus ellenőrzés nem talált akadálymentességi problémát.</translation>
+    </message>
+    <message>
+        <source>%n accessibility problems</source>
+        <translation>%n akadálymentességi probléma</translation>
+    </message>
+    <message>
+        <source>Critical</source>
+        <translation>Kritikus</translation>
+    </message>
+    <message>
+        <source>Serious</source>
+        <translation>Súlyos</translation>
+    </message>
+    <message>
+        <source>Moderate</source>
+        <translation>Közepes</translation>
+    </message>
+    <message>
+        <source>Minor</source>
+        <translation>Enyhe</translation>
+    </message>
+    <message>
+        <source>Field: %name</source>
+        <translation>Mező: %name</translation>
+    </message>
+    <message>
+        <source>Block: %name</source>
+        <translation>Blokk: %name</translation>
+    </message>
+    <message>
+        <source>Template: %name</source>
+        <translation>Sablon: %name</translation>
+    </message>
+    <message>
+        <source>More about this rule</source>
+        <translation>Bővebben erről a szabályról</translation>
+    </message>
+    <message>
+        <source>The accessibility check could not run.</source>
+        <translation>Az akadálymentességi ellenőrzés nem tudott lefutni.</translation>
+    </message>
+    <message>
+        <source>An automatic check finds only some problems: also try the page with the keyboard alone and with a screen reader.</source>
+        <translation>Az automatikus ellenőrzés csak a problémák egy részét találja meg: próbálja ki az oldalt csak billentyűzettel és képernyőolvasóval is.</translation>
+    </message>
+    <message>
+        <source>The rule texts come from axe-core, in English.</source>
+        <translation>A szabályok szövegei az axe-core-ból származnak, angolul.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

@@ -2071,6 +2071,70 @@
         <source>The accent color %color (expwt.ini [BrandingSettings] %setting) is not used: its contrast is %ratio:1, at least %needed:1 is needed.</source>
         <translation>উচ্চাৰণ ৰং %color (expwt.ini [BrandingSettings] %setting) ব্যৱহাৰ কৰা হোৱা নাই: ইয়াৰ কনট্ৰাষ্ট %ratio:1, কমেও %needed:1 প্ৰয়োজন।</translation>
     </message>
+    <message>
+        <source>Accessibility</source>
+        <translation>অভিগম্যতা</translation>
+    </message>
+    <message>
+        <source>Check the accessibility of the page (WCAG 2.2 AA)</source>
+        <translation>পৃষ্ঠাটোৰ অভিগম্যতা পৰীক্ষা কৰক (WCAG 2.2 AA)</translation>
+    </message>
+    <message>
+        <source>Checking the accessibility ...</source>
+        <translation>অভিগম্যতা পৰীক্ষা কৰি থকা হৈছে ...</translation>
+    </message>
+    <message>
+        <source>The automatic check found no accessibility problems.</source>
+        <translation>স্বয়ংক্ৰিয় পৰীক্ষাই কোনো অভিগম্যতা সমস্যা পোৱা নাই।</translation>
+    </message>
+    <message>
+        <source>%n accessibility problems</source>
+        <translation>%n টা অভিগম্যতা সমস্যা</translation>
+    </message>
+    <message>
+        <source>Critical</source>
+        <translation>গুৰুতৰ</translation>
+    </message>
+    <message>
+        <source>Serious</source>
+        <translation>গভীৰ</translation>
+    </message>
+    <message>
+        <source>Moderate</source>
+        <translation>মধ্যমীয়া</translation>
+    </message>
+    <message>
+        <source>Minor</source>
+        <translation>সামান্য</translation>
+    </message>
+    <message>
+        <source>Field: %name</source>
+        <translation>ফিল্ড: %name</translation>
+    </message>
+    <message>
+        <source>Block: %name</source>
+        <translation>ব্লক: %name</translation>
+    </message>
+    <message>
+        <source>Template: %name</source>
+        <translation>টেমপ্লেট: %name</translation>
+    </message>
+    <message>
+        <source>More about this rule</source>
+        <translation>এই নিয়মৰ বিষয়ে অধিক</translation>
+    </message>
+    <message>
+        <source>The accessibility check could not run.</source>
+        <translation>অভিগম্যতা পৰীক্ষা চলাব পৰা নগ'ল।</translation>
+    </message>
+    <message>
+        <source>An automatic check finds only some problems: also try the page with the keyboard alone and with a screen reader.</source>
+        <translation>স্বয়ংক্ৰিয় পৰীক্ষাই কেৱল কিছুমান সমস্যাহে পায়: পৃষ্ঠাটো কেৱল কীবৰ্ডেৰে আৰু স্ক্ৰীণ ৰীডাৰেৰেও চেষ্টা কৰক।</translation>
+    </message>
+    <message>
+        <source>The rule texts come from axe-core, in English.</source>
+        <translation>নিয়মৰ পাঠবোৰ axe-coreৰ পৰা অহা, ইংৰাজীত।</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

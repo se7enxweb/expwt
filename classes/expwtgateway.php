@@ -101,7 +101,16 @@ class expwtGateway
     /** @return array the addresses of the kernel's own views the sidebar opens */
     public function urls()
     {
-        return array( 'logout' => self::url( '/user/logout' ), 'admin' => self::adminUrl() );
+        $urls = array( 'logout' => self::url( '/user/logout' ), 'admin' => self::adminUrl() );
+        // the accessibility check (E11) of the SEO panel, which needs expwt/edit: axe-core, loaded only when it runs
+        // (never packed: it is the file axe-core publishes, unchanged)
+        if ( $this->capabilities()['edit'] && class_exists( 'ezjscPacker' ) )
+        {
+            $axe = ezjscPacker::buildJavascriptFiles( array( 'expwt-axe.min.js' ), 0 );
+            if ( is_array( $axe ) && $axe )
+                $urls['axe'] = (string)reset( $axe );
+        }
+        return $urls;
     }
 
     /** @return array source => translation, the panels' strings in the user's language */

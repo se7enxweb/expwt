@@ -2071,6 +2071,70 @@
         <source>The accent color %color (expwt.ini [BrandingSettings] %setting) is not used: its contrast is %ratio:1, at least %needed:1 is needed.</source>
         <translation>Langi y'okulaga %color (expwt.ini [BrandingSettings] %setting) tekozesebwa: enjawulo yaayo eri %ratio:1, wetaagisa waakiri %needed:1.</translation>
     </message>
+    <message>
+        <source>Accessibility</source>
+        <translation>Okutuukirika</translation>
+    </message>
+    <message>
+        <source>Check the accessibility of the page (WCAG 2.2 AA)</source>
+        <translation>Kebera engeri omuko gye gutuukirikamu (WCAG 2.2 AA)</translation>
+    </message>
+    <message>
+        <source>Checking the accessibility ...</source>
+        <translation>Okukebera okutuukirika ...</translation>
+    </message>
+    <message>
+        <source>The automatic check found no accessibility problems.</source>
+        <translation>Okukebera okwa kompyuta tekuzudde buzibu bwa kutuukirika.</translation>
+    </message>
+    <message>
+        <source>%n accessibility problems</source>
+        <translation>Obuzibu %n obw'okutuukirika</translation>
+    </message>
+    <message>
+        <source>Critical</source>
+        <translation>Bwa maanyi nnyo</translation>
+    </message>
+    <message>
+        <source>Serious</source>
+        <translation>Bwa maanyi</translation>
+    </message>
+    <message>
+        <source>Moderate</source>
+        <translation>Bwa wakati</translation>
+    </message>
+    <message>
+        <source>Minor</source>
+        <translation>Butono</translation>
+    </message>
+    <message>
+        <source>Field: %name</source>
+        <translation>Ekifo: %name</translation>
+    </message>
+    <message>
+        <source>Block: %name</source>
+        <translation>Ekitundu: %name</translation>
+    </message>
+    <message>
+        <source>Template: %name</source>
+        <translation>Ekyokulabirako: %name</translation>
+    </message>
+    <message>
+        <source>More about this rule</source>
+        <translation>Ebisingawo ku tteeka lino</translation>
+    </message>
+    <message>
+        <source>The accessibility check could not run.</source>
+        <translation>Okukebera okutuukirika tekwasobodde kukola.</translation>
+    </message>
+    <message>
+        <source>An automatic check finds only some problems: also try the page with the keyboard alone and with a screen reader.</source>
+        <translation>Okukebera okwa kompyuta kuzuula obuzibu obumu bwokka: gezesa omuko ne kibboodi yokka era ne screen reader.</translation>
+    </message>
+    <message>
+        <source>The rule texts come from axe-core, in English.</source>
+        <translation>Ebiwandiiko by'amateeka biva mu axe-core, mu Lungereza.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

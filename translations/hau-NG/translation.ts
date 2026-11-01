@@ -2071,6 +2071,70 @@
         <source>The accent color %color (expwt.ini [BrandingSettings] %setting) is not used: its contrast is %ratio:1, at least %needed:1 is needed.</source>
         <translation>Ba a amfani da launin karin haske %color (expwt.ini [BrandingSettings] %setting): bambancinsa %ratio:1 ne, ana bukatar akalla %needed:1.</translation>
     </message>
+    <message>
+        <source>Accessibility</source>
+        <translation>Samun dama</translation>
+    </message>
+    <message>
+        <source>Check the accessibility of the page (WCAG 2.2 AA)</source>
+        <translation>Duba samun damar shafin (WCAG 2.2 AA)</translation>
+    </message>
+    <message>
+        <source>Checking the accessibility ...</source>
+        <translation>Ana duba samun dama ...</translation>
+    </message>
+    <message>
+        <source>The automatic check found no accessibility problems.</source>
+        <translation>Binciken kai tsaye bai sami matsalar samun dama ba.</translation>
+    </message>
+    <message>
+        <source>%n accessibility problems</source>
+        <translation>Matsalolin samun dama %n</translation>
+    </message>
+    <message>
+        <source>Critical</source>
+        <translation>Mai tsanani sosai</translation>
+    </message>
+    <message>
+        <source>Serious</source>
+        <translation>Mai tsanani</translation>
+    </message>
+    <message>
+        <source>Moderate</source>
+        <translation>Matsakaici</translation>
+    </message>
+    <message>
+        <source>Minor</source>
+        <translation>Ƙarami</translation>
+    </message>
+    <message>
+        <source>Field: %name</source>
+        <translation>Fili: %name</translation>
+    </message>
+    <message>
+        <source>Block: %name</source>
+        <translation>Toshe: %name</translation>
+    </message>
+    <message>
+        <source>Template: %name</source>
+        <translation>Samfuri: %name</translation>
+    </message>
+    <message>
+        <source>More about this rule</source>
+        <translation>Ƙari game da wannan doka</translation>
+    </message>
+    <message>
+        <source>The accessibility check could not run.</source>
+        <translation>Binciken samun dama bai iya gudana ba.</translation>
+    </message>
+    <message>
+        <source>An automatic check finds only some problems: also try the page with the keyboard alone and with a screen reader.</source>
+        <translation>Binciken kai tsaye yana samun wasu matsaloli kawai: gwada shafin kuma da madannai kawai da kuma mai karanta allo.</translation>
+    </message>
+    <message>
+        <source>The rule texts come from axe-core, in English.</source>
+        <translation>Rubutun dokokin sun fito daga axe-core, cikin Turanci.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

@@ -2071,6 +2071,70 @@
         <source>The accent color %color (expwt.ini [BrandingSettings] %setting) is not used: its contrast is %ratio:1, at least %needed:1 is needed.</source>
         <translation>%color nygtama reňki (expwt.ini [BrandingSettings] %setting) ulanylmaýar: onuň kontrasty %ratio:1, azyndan %needed:1 gerek.</translation>
     </message>
+    <message>
+        <source>Accessibility</source>
+        <translation>Elýeterlilik</translation>
+    </message>
+    <message>
+        <source>Check the accessibility of the page (WCAG 2.2 AA)</source>
+        <translation>Sahypanyň elýeterliligini barla (WCAG 2.2 AA)</translation>
+    </message>
+    <message>
+        <source>Checking the accessibility ...</source>
+        <translation>Elýeterlilik barlanýar ...</translation>
+    </message>
+    <message>
+        <source>The automatic check found no accessibility problems.</source>
+        <translation>Awtomatik barlag elýeterlilik meselesini tapmady.</translation>
+    </message>
+    <message>
+        <source>%n accessibility problems</source>
+        <translation>%n elýeterlilik meselesi</translation>
+    </message>
+    <message>
+        <source>Critical</source>
+        <translation>Möhüm</translation>
+    </message>
+    <message>
+        <source>Serious</source>
+        <translation>Çynlakaý</translation>
+    </message>
+    <message>
+        <source>Moderate</source>
+        <translation>Orta</translation>
+    </message>
+    <message>
+        <source>Minor</source>
+        <translation>Ownuk</translation>
+    </message>
+    <message>
+        <source>Field: %name</source>
+        <translation>Meýdan: %name</translation>
+    </message>
+    <message>
+        <source>Block: %name</source>
+        <translation>Blok: %name</translation>
+    </message>
+    <message>
+        <source>Template: %name</source>
+        <translation>Şablon: %name</translation>
+    </message>
+    <message>
+        <source>More about this rule</source>
+        <translation>Bu düzgün barada giňişleýin</translation>
+    </message>
+    <message>
+        <source>The accessibility check could not run.</source>
+        <translation>Elýeterlilik barlagyny işledip bolmady.</translation>
+    </message>
+    <message>
+        <source>An automatic check finds only some problems: also try the page with the keyboard alone and with a screen reader.</source>
+        <translation>Awtomatik barlag diňe käbir meseleleri tapýar: sahypany diňe klawiatura bilen we ekran okaýjy bilen hem synap görüň.</translation>
+    </message>
+    <message>
+        <source>The rule texts come from axe-core, in English.</source>
+        <translation>Düzgünleriň tekstleri axe-core-dan, iňlis dilinde.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

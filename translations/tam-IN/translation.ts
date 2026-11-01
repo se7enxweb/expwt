@@ -2071,6 +2071,70 @@
         <source>The accent color %color (expwt.ini [BrandingSettings] %setting) is not used: its contrast is %ratio:1, at least %needed:1 is needed.</source>
         <translation>உச்சரிப்பு நிறம் %color (expwt.ini [BrandingSettings] %setting) பயன்படுத்தப்படவில்லை: அதன் மாறுபாடு %ratio:1, குறைந்தது %needed:1 தேவை.</translation>
     </message>
+    <message>
+        <source>Accessibility</source>
+        <translation>அணுகல்தன்மை</translation>
+    </message>
+    <message>
+        <source>Check the accessibility of the page (WCAG 2.2 AA)</source>
+        <translation>பக்கத்தின் அணுகல்தன்மையைச் சரிபார் (WCAG 2.2 AA)</translation>
+    </message>
+    <message>
+        <source>Checking the accessibility ...</source>
+        <translation>அணுகல்தன்மை சரிபார்க்கப்படுகிறது ...</translation>
+    </message>
+    <message>
+        <source>The automatic check found no accessibility problems.</source>
+        <translation>தானியங்கு சரிபார்ப்பில் அணுகல்தன்மைச் சிக்கல்கள் எதுவும் கண்டறியப்படவில்லை.</translation>
+    </message>
+    <message>
+        <source>%n accessibility problems</source>
+        <translation>%n அணுகல்தன்மைச் சிக்கல்கள்</translation>
+    </message>
+    <message>
+        <source>Critical</source>
+        <translation>மிக முக்கியம்</translation>
+    </message>
+    <message>
+        <source>Serious</source>
+        <translation>தீவிரம்</translation>
+    </message>
+    <message>
+        <source>Moderate</source>
+        <translation>மிதமானது</translation>
+    </message>
+    <message>
+        <source>Minor</source>
+        <translation>சிறியது</translation>
+    </message>
+    <message>
+        <source>Field: %name</source>
+        <translation>புலம்: %name</translation>
+    </message>
+    <message>
+        <source>Block: %name</source>
+        <translation>தொகுதி: %name</translation>
+    </message>
+    <message>
+        <source>Template: %name</source>
+        <translation>வார்ப்புரு: %name</translation>
+    </message>
+    <message>
+        <source>More about this rule</source>
+        <translation>இந்த விதியைப் பற்றி மேலும்</translation>
+    </message>
+    <message>
+        <source>The accessibility check could not run.</source>
+        <translation>அணுகல்தன்மைச் சரிபார்ப்பை இயக்க முடியவில்லை.</translation>
+    </message>
+    <message>
+        <source>An automatic check finds only some problems: also try the page with the keyboard alone and with a screen reader.</source>
+        <translation>தானியங்கு சரிபார்ப்பு சில சிக்கல்களை மட்டுமே கண்டறியும்: பக்கத்தை விசைப்பலகை மட்டும் கொண்டும் திரை வாசிப்பான் கொண்டும் முயலவும்.</translation>
+    </message>
+    <message>
+        <source>The rule texts come from axe-core, in English.</source>
+        <translation>விதிகளின் உரைகள் axe-core இலிருந்து வருகின்றன, ஆங்கிலத்தில்.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>
