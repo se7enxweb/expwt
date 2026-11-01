@@ -31,7 +31,8 @@ var server = 1800000000000;
 /* the device's clock 5 minutes behind the server's */
 var device = server - 300000;
 same('rendered for this view: after the load began', P.cached({ at: server - 400 }, server, device, device - 1000), false);
-same('rendered just before the load began counts as this view (slack)', P.cached({ at: server - 2500 }, server, device, device - 1000), false);
+same('rendered just before the load began counts as this view (slack)', P.cached({ at: server - 1400 }, server, device, device - 1000), false);
+same('a copy two seconds old came from a cache', P.cached({ at: server - 3000 }, server, device, device - 1000), true);
 same('a render an hour old came from a cache', P.cached({ at: server - 3600000 }, server, device, device - 1000), true);
 same('a fast device clock does not make a fresh page look cached', P.cached({ at: server - 400 }, server, server + 600000, server + 600000 - 1000), false);
 same('without the server time: unknown, not cached', P.cached({ at: 1 }, 0, device, device), false);

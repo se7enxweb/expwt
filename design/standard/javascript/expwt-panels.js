@@ -3469,7 +3469,7 @@
        bytes()   memory: "18 MB"
        share()   a block's time as a part of the slowest block's, 0 to 100 */
   var Performance = {
-    SLACK: 2000,
+    SLACK: 500,
     cached: function (render, now, clientNow, navStart) {
       if (!render || !render.at || !now || !clientNow || !navStart) { return false; }
       return render.at - (now - clientNow) < navStart - Performance.SLACK;
@@ -3515,8 +3515,10 @@
       return h('li', {}, [h('span', { class: 'wt-perf-name', text: name }), state ? chip(state) : null, h('span', { class: 'wt-perf-ms', text: Performance.ms(ms, lang) })]);
     }
     root.appendChild(h('p', { class: 'wt-muted', text: t('Loading ...') }));
+    /* the device's clock at the middle of the request: the server's time was taken then, give or take half the round trip */
+    var asked = Date.now();
     ctx.call('performance.load', {}).then(function (s) {
-      var clientNow = Date.now();
+      var clientNow = Math.round((asked + Date.now()) / 2);
       root.textContent = '';
       if (!r) {
         root.appendChild(h('div', { class: 'wt-notice is-warn', role: 'status', text: t('This page carries no figures of its render.') }));
