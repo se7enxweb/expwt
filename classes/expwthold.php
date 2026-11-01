@@ -132,7 +132,8 @@ class expwtHold
     {
         $row = eZSiteData::fetchByName( self::KEY_PREFIX . (int)$objectId );
         if ( !$row instanceof eZSiteData )
-            return null;
+            // a hold placed by the kernel (the auto-hold, Setup > Recent content): its own data, when there is any
+            return class_exists( 'expReviewHoldAuto' ) && method_exists( 'expReviewHoldAuto', 'meta' ) ? expReviewHoldAuto::meta( (int)$objectId ) : null;
         $data = json_decode( (string)$row->attribute( 'value' ), true );
         return is_array( $data ) ? $data : null;
     }
@@ -163,7 +164,11 @@ class expwtHold
         if ( !in_array( (int)$target->attribute( 'id' ), $allowed, true ) )
             throw new expwtApiError( 403, 'forbidden', $hold ? 'You may not hold this page.' : 'You may not release this page.' );
         $before = self::meta( $id );
-        eZOperationHandler::execute( 'content', 'updateobjectstate', array( 'object_id' => $id, 'state_id_list' => array( (int)$target->attribute( 'id' ) ) ) );
+        if ( !$hold && class_exists( 'expReviewHoldAuto' ) && method_exists( 'expReviewHoldAuto', 'release' ) )
+            // Exponential 6.0.15 with the auto-hold: the kernel releases it and reveals what the auto-hold hid
+            expReviewHoldAuto::release( $object, $reason );
+        else
+            eZOperationHandler::execute( 'content', 'updateobjectstate', array( 'object_id' => $id, 'state_id_list' => array( (int)$target->attribute( 'id' ) ) ) );
         eZContentObject::clearCache( array( $id ) );
         $object = eZContentObject::fetch( $id );
         if ( !$object instanceof eZContentObject || self::isHeld( $object ) !== (bool)$hold )

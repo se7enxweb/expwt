@@ -2139,6 +2139,11 @@
         h('h3', { id: 'wt-hold-h', text: v.kind === 'held' ? t('Held for review') : t('Review hold') })
       ]);
       v.lines.forEach(function (line) { notice.appendChild(h('p', { text: line })); });
+      /* moderators: Setup > Recent content, where every held item waits (Exponential 6.0.15, moderation/read) */
+      var urls = ctx.boot && ctx.boot.urls;
+      if (urls && urls.moderation && v.kind !== 'missing') {
+        notice.appendChild(h('p', {}, [h('a', { href: urls.moderation + (v.kind === 'held' ? '/(held)/yes' : ''), text: urls.moderationLabel || 'Recent content' })]));
+      }
       box.appendChild(notice);
       if (!v.action) { return; }
       var id = 'wt-hold-reason';

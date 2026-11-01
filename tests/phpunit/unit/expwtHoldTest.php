@@ -85,4 +85,19 @@ class expwtHoldTest extends PHPUnit\Framework\TestCase
                          'You may not hold this page.', 'You may not release this page.' ) as $s )
             $this->assertContains( $s, expwtStrings::SOURCES, $s );
     }
+
+    /** The link to Setup > Recent content degrades: no administration siteaccess, or a kernel without the module */
+    public function testTheModerationLinkNeedsTheKernelsModule()
+    {
+        $user = $this->getMockBuilder( 'eZUser' )->disableOriginalConstructor()->onlyMethods( array( 'hasAccessTo' ) )->getMock();
+        $user->method( 'hasAccessTo' )->willReturn( array( 'accessWord' => 'yes' ) );
+        $this->assertNull( expwtGateway::moderationUrl( $user, null ) );
+        if ( class_exists( 'expModerationAdmin' ) )
+            $this->assertSame( '/admin/moderation/recent', expwtGateway::moderationUrl( $user, '/admin/' ) );
+        else
+            $this->assertNull( expwtGateway::moderationUrl( $user, '/admin/' ), 'an older kernel: no link' );
+        $no = $this->getMockBuilder( 'eZUser' )->disableOriginalConstructor()->onlyMethods( array( 'hasAccessTo' ) )->getMock();
+        $no->method( 'hasAccessTo' )->willReturn( array( 'accessWord' => 'no' ) );
+        $this->assertNull( expwtGateway::moderationUrl( $no, '/admin/' ) );
+    }
 }

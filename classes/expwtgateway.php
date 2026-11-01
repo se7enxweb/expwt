@@ -110,6 +110,15 @@ class expwtGateway
             if ( is_array( $axe ) && $axe )
                 $urls['axe'] = (string)reset( $axe );
         }
+        // Setup > Recent content (Exponential 6.0.15, the module moderation) for moderators: a link in the Page panel's
+        // review hold; its name in the kernel's own words, so the sidebar needs no text of its own. Nothing on a
+        // kernel without the module (the policy is then never granted).
+        $moderation = self::moderationUrl( $this->currentUser(), self::adminUrl() );
+        if ( $moderation !== null )
+        {
+            $urls['moderation'] = $moderation;
+            $urls['moderationLabel'] = ezpI18n::tr( 'design/admin/parts/setup/menu', 'Recent content' );
+        }
         return $urls;
     }
 
@@ -1680,6 +1689,14 @@ class expwtGateway
         // the trash is where spam goes: done
         if ( in_array( $status, array( 'TRASHED', 'DELETED' ), true ) )
             $status = 'DONE';
+        // a comment the kernel's auto-hold held (Exponential 6.0.15): approving it releases the hold too, where the
+        // moderator may (state/assign); otherwise it stays held, shown but not editable, until a reviewer releases it
+        if ( $decision === 'approve' && $status === 'DONE' && class_exists( 'expReviewHoldAuto' ) && class_exists( 'expReviewHold' ) )
+        {
+            $commentObject = eZContentObject::fetch( (int)$comment->attribute( 'contentobject_id' ) );
+            if ( $commentObject instanceof eZContentObject && expReviewHold::isHeld( $commentObject ) )
+                expReviewHoldAuto::release( $commentObject, '' );
+        }
         eZContentCacheManager::clearContentCacheIfNeeded( (int)$comment->attribute( 'contentobject_id' ) );
         $parent = eZContentObjectTreeNode::fetch( $parentId );
         if ( $parent instanceof eZContentObjectTreeNode )
@@ -3789,6 +3806,22 @@ class expwtGateway
     }
 
     /** @return string|null the administration's address (site.ini [SiteSettings] AdminSiteURL... first admin siteaccess) */
+    /**
+     * The address of Setup > Recent content (moderation/recent) for a user with moderation/read, null otherwise or on a
+     * kernel without the module.
+     *
+     * @param eZUser $user
+     * @param string|null $admin the administration's base (adminUrl())
+     * @return string|null
+     */
+    public static function moderationUrl( eZUser $user, $admin )
+    {
+        if ( $admin === null || !class_exists( 'expModerationAdmin' ) )
+            return null;
+        $access = $user->hasAccessTo( 'moderation', 'read' );
+        return isset( $access['accessWord'] ) && $access['accessWord'] !== 'no' ? rtrim( (string)$admin, '/' ) . '/moderation/recent' : null;
+    }
+
     protected static function adminUrl()
     {
         $ini = eZINI::instance();
