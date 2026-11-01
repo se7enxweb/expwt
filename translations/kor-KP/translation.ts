@@ -1699,5 +1699,125 @@
         <source>Calendar</source>
         <translation>달력</translation>
     </message>
+    <message>
+        <source>The migrations cannot be read now.</source>
+        <translation>이행을 지금 읽을수 없습니다.</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>실패</translation>
+    </message>
+    <message>
+        <source>Running</source>
+        <translation>실행중</translation>
+    </message>
+    <message>
+        <source>Rolled back</source>
+        <translation>되돌림</translation>
+    </message>
+    <message>
+        <source>Pushed</source>
+        <translation>푸시됨</translation>
+    </message>
+    <message>
+        <source>Waiting for its push</source>
+        <translation>푸시 대기중</translation>
+    </message>
+    <message>
+        <source>Off</source>
+        <translation>끔</translation>
+    </message>
+    <message>
+        <source>No remote</source>
+        <translation>원격 없음</translation>
+    </message>
+    <message>
+        <source>Nothing to push</source>
+        <translation>푸시할것 없음</translation>
+    </message>
+    <message>
+        <source>Read only: running and rolling back stay in the administration.</source>
+        <translation>읽기 전용: 실행과 되돌리기는 관리에서 합니다.</translation>
+    </message>
+    <message>
+        <source>The migration tables do not exist yet: exp:upgrade --apply makes them.</source>
+        <translation>이행표가 아직 없습니다: exp:upgrade --apply가 만듭니다.</translation>
+    </message>
+    <message>
+        <source>A run is active</source>
+        <translation>실행이 진행중입니다</translation>
+    </message>
+    <message>
+        <source>%purpose, by %user since %time</source>
+        <translation>%purpose, %user, 시작: %time</translation>
+    </message>
+    <message>
+        <source>%n problems reading the migrations</source>
+        <translation>이행을 읽는데서 문제 %n개</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>대기중</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>대기중인 이행이 없습니다.</translation>
+    </message>
+    <message>
+        <source>%n more in the administration</source>
+        <translation>관리에 %n개 더 있음</translation>
+    </message>
+    <message>
+        <source>Recorded, but the file is gone</source>
+        <translation>기록되였지만 파일이 없습니다</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>마지막 실행</translation>
+    </message>
+    <message>
+        <source>No migration has run yet.</source>
+        <translation>아직 실행된 이행이 없습니다.</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>실행</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>상태</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>시작</translation>
+    </message>
+    <message>
+        <source>Finished</source>
+        <translation>완료</translation>
+    </message>
+    <message>
+        <source>Run by</source>
+        <translation>실행자</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>설명</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>꼬리표</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>푸시</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>이행</translation>
+    </message>
+    <message>
+        <source>%n migrations need attention</source>
+        <translation>이행 %n개에 주의가 필요합니다</translation>
+    </message>
 </context>
 </TS>

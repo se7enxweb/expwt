@@ -1699,5 +1699,125 @@
         <source>Calendar</source>
         <translation>Kalendár</translation>
     </message>
+    <message>
+        <source>The migrations cannot be read now.</source>
+        <translation>Migrácie sa teraz nedajú načítať.</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Zlyhala</translation>
+    </message>
+    <message>
+        <source>Running</source>
+        <translation>Prebieha</translation>
+    </message>
+    <message>
+        <source>Rolled back</source>
+        <translation>Vrátená</translation>
+    </message>
+    <message>
+        <source>Pushed</source>
+        <translation>Odoslané</translation>
+    </message>
+    <message>
+        <source>Waiting for its push</source>
+        <translation>Čaká na odoslanie</translation>
+    </message>
+    <message>
+        <source>Off</source>
+        <translation>Vypnuté</translation>
+    </message>
+    <message>
+        <source>No remote</source>
+        <translation>Žiadny vzdialený repozitár</translation>
+    </message>
+    <message>
+        <source>Nothing to push</source>
+        <translation>Nie je čo odoslať</translation>
+    </message>
+    <message>
+        <source>Read only: running and rolling back stay in the administration.</source>
+        <translation>Iba na čítanie: spúšťanie a vracanie zostáva v administrácii.</translation>
+    </message>
+    <message>
+        <source>The migration tables do not exist yet: exp:upgrade --apply makes them.</source>
+        <translation>Tabuľky migrácií ešte neexistujú: vytvorí ich exp:upgrade --apply.</translation>
+    </message>
+    <message>
+        <source>A run is active</source>
+        <translation>Prebieha spustenie</translation>
+    </message>
+    <message>
+        <source>%purpose, by %user since %time</source>
+        <translation>%purpose, %user od %time</translation>
+    </message>
+    <message>
+        <source>%n problems reading the migrations</source>
+        <translation>Problémy pri čítaní migrácií: %n</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Čakajúce</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>Žiadna migrácia nečaká.</translation>
+    </message>
+    <message>
+        <source>%n more in the administration</source>
+        <translation>Ďalšie v administrácii: %n</translation>
+    </message>
+    <message>
+        <source>Recorded, but the file is gone</source>
+        <translation>Zaznamenaná, ale súbor zmizol</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>Posledné spustenie</translation>
+    </message>
+    <message>
+        <source>No migration has run yet.</source>
+        <translation>Zatiaľ sa nespustila žiadna migrácia.</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Spustenie</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Stav</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Začaté</translation>
+    </message>
+    <message>
+        <source>Finished</source>
+        <translation>Dokončené</translation>
+    </message>
+    <message>
+        <source>Run by</source>
+        <translation>Spustil</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>Popis</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>Značka</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>Odoslanie</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Migrácie</translation>
+    </message>
+    <message>
+        <source>%n migrations need attention</source>
+        <translation>Migrácie vyžadujúce pozornosť: %n</translation>
+    </message>
 </context>
 </TS>

@@ -1699,5 +1699,125 @@
         <source>Calendar</source>
         <translation>Maramataka</translation>
     </message>
+    <message>
+        <source>The migrations cannot be read now.</source>
+        <translation>Kāore e taea te pānui i ngā hekenga ināianei.</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>I rahua</translation>
+    </message>
+    <message>
+        <source>Running</source>
+        <translation>E rere ana</translation>
+    </message>
+    <message>
+        <source>Rolled back</source>
+        <translation>Kua whakahokia</translation>
+    </message>
+    <message>
+        <source>Pushed</source>
+        <translation>Kua panaia</translation>
+    </message>
+    <message>
+        <source>Waiting for its push</source>
+        <translation>E tatari ana kia panaia</translation>
+    </message>
+    <message>
+        <source>Off</source>
+        <translation>Kua weto</translation>
+    </message>
+    <message>
+        <source>No remote</source>
+        <translation>Kāore he pūranga mamao</translation>
+    </message>
+    <message>
+        <source>Nothing to push</source>
+        <translation>Kāore he mea hei pana</translation>
+    </message>
+    <message>
+        <source>Read only: running and rolling back stay in the administration.</source>
+        <translation>Pānui anake: ko te rere me te whakahoki ka noho ki te whakahaere.</translation>
+    </message>
+    <message>
+        <source>The migration tables do not exist yet: exp:upgrade --apply makes them.</source>
+        <translation>Kāore anō kia puta ngā ripanga hekenga: mā exp:upgrade --apply e hanga.</translation>
+    </message>
+    <message>
+        <source>A run is active</source>
+        <translation>He rerenga kei te haere</translation>
+    </message>
+    <message>
+        <source>%purpose, by %user since %time</source>
+        <translation>%purpose, nā %user mai i %time</translation>
+    </message>
+    <message>
+        <source>%n problems reading the migrations</source>
+        <translation>%n raruraru i te pānui i ngā hekenga</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>E tatari ana</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>Kāore he hekenga e tatari ana.</translation>
+    </message>
+    <message>
+        <source>%n more in the administration</source>
+        <translation>%n anō kei te whakahaere</translation>
+    </message>
+    <message>
+        <source>Recorded, but the file is gone</source>
+        <translation>Kua tuhia, engari kua ngaro te kōnae</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>Rerenga whakamutunga</translation>
+    </message>
+    <message>
+        <source>No migration has run yet.</source>
+        <translation>Kāore anō tētahi hekenga kia rere.</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Rerenga</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Tūnga</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>I tīmata</translation>
+    </message>
+    <message>
+        <source>Finished</source>
+        <translation>I oti</translation>
+    </message>
+    <message>
+        <source>Run by</source>
+        <translation>I whakaterea e</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>Taitara</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>Tūtohu</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>Pana</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Hekenga</translation>
+    </message>
+    <message>
+        <source>%n migrations need attention</source>
+        <translation>%n hekenga me aro atu</translation>
+    </message>
 </context>
 </TS>

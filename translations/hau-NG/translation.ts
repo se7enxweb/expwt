@@ -1699,5 +1699,125 @@
         <source>Calendar</source>
         <translation>Kalanda</translation>
     </message>
+    <message>
+        <source>The migrations cannot be read now.</source>
+        <translation>Ba za a iya karanta ƙauran yanzu ba.</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Ya gaza</translation>
+    </message>
+    <message>
+        <source>Running</source>
+        <translation>Yana gudana</translation>
+    </message>
+    <message>
+        <source>Rolled back</source>
+        <translation>An mayar</translation>
+    </message>
+    <message>
+        <source>Pushed</source>
+        <translation>An tura</translation>
+    </message>
+    <message>
+        <source>Waiting for its push</source>
+        <translation>Yana jiran turawa</translation>
+    </message>
+    <message>
+        <source>Off</source>
+        <translation>A kashe</translation>
+    </message>
+    <message>
+        <source>No remote</source>
+        <translation>Babu wurin nesa</translation>
+    </message>
+    <message>
+        <source>Nothing to push</source>
+        <translation>Babu abin turawa</translation>
+    </message>
+    <message>
+        <source>Read only: running and rolling back stay in the administration.</source>
+        <translation>Karatu kawai: aiwatarwa da mayarwa suna nan a cikin gudanarwa.</translation>
+    </message>
+    <message>
+        <source>The migration tables do not exist yet: exp:upgrade --apply makes them.</source>
+        <translation>Teburorin ƙaura ba su wanzu ba tukuna: exp:upgrade --apply yana ƙirƙirar su.</translation>
+    </message>
+    <message>
+        <source>A run is active</source>
+        <translation>Wani aiki yana gudana</translation>
+    </message>
+    <message>
+        <source>%purpose, by %user since %time</source>
+        <translation>%purpose, daga %user tun %time</translation>
+    </message>
+    <message>
+        <source>%n problems reading the migrations</source>
+        <translation>Matsaloli %n wajen karanta ƙauran</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Ana jira</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>Babu ƙaurar da ke jira.</translation>
+    </message>
+    <message>
+        <source>%n more in the administration</source>
+        <translation>Ƙarin %n a cikin gudanarwa</translation>
+    </message>
+    <message>
+        <source>Recorded, but the file is gone</source>
+        <translation>An rubuta, amma fayil ɗin ya ɓace</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>Aiki na ƙarshe</translation>
+    </message>
+    <message>
+        <source>No migration has run yet.</source>
+        <translation>Babu ƙaurar da aka aiwatar tukuna.</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Aiki</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Yanayi</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>An fara</translation>
+    </message>
+    <message>
+        <source>Finished</source>
+        <translation>An gama</translation>
+    </message>
+    <message>
+        <source>Run by</source>
+        <translation>Wanda ya aiwatar</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>Take</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>Alama</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>Turawa</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Ƙaura</translation>
+    </message>
+    <message>
+        <source>%n migrations need attention</source>
+        <translation>Ƙaura %n na buƙatar kulawa</translation>
+    </message>
 </context>
 </TS>

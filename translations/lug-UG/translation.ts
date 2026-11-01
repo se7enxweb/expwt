@@ -1699,5 +1699,125 @@
         <source>Calendar</source>
         <translation>Kalenda</translation>
     </message>
+    <message>
+        <source>The migrations cannot be read now.</source>
+        <translation>Enkyukakyuka tezisobola kusomebwa kati.</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Kilemye</translation>
+    </message>
+    <message>
+        <source>Running</source>
+        <translation>Kikola</translation>
+    </message>
+    <message>
+        <source>Rolled back</source>
+        <translation>Kizziddwayo emabega</translation>
+    </message>
+    <message>
+        <source>Pushed</source>
+        <translation>Kisindikiddwa</translation>
+    </message>
+    <message>
+        <source>Waiting for its push</source>
+        <translation>Kirindiridde okusindikibwa</translation>
+    </message>
+    <message>
+        <source>Off</source>
+        <translation>Kiggaddwa</translation>
+    </message>
+    <message>
+        <source>No remote</source>
+        <translation>Tewali tterekero lya wala</translation>
+    </message>
+    <message>
+        <source>Nothing to push</source>
+        <translation>Tewali kya kusindika</translation>
+    </message>
+    <message>
+        <source>Read only: running and rolling back stay in the administration.</source>
+        <translation>Kusoma kwokka: okudduka n'okuzza emabega bisigala mu bukulembeze.</translation>
+    </message>
+    <message>
+        <source>The migration tables do not exist yet: exp:upgrade --apply makes them.</source>
+        <translation>Emmeeza z'enkyukakyuka tezinnabaawo: exp:upgrade --apply y'ezikola.</translation>
+    </message>
+    <message>
+        <source>A run is active</source>
+        <translation>Okudduka kuliko</translation>
+    </message>
+    <message>
+        <source>%purpose, by %user since %time</source>
+        <translation>%purpose, %user okuva %time</translation>
+    </message>
+    <message>
+        <source>%n problems reading the migrations</source>
+        <translation>Ebizibu %n mu kusoma enkyukakyuka</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Birindiridde</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>Tewali nkyukakyuka erindiridde.</translation>
+    </message>
+    <message>
+        <source>%n more in the administration</source>
+        <translation>%n endala mu bukulembeze</translation>
+    </message>
+    <message>
+        <source>Recorded, but the file is gone</source>
+        <translation>Kyawandiikibwa, naye fayiro tekyaliwo</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>Okudduka okusembayo</translation>
+    </message>
+    <message>
+        <source>No migration has run yet.</source>
+        <translation>Tewannabaawo nkyukakyuka edduse.</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Okudduka</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Embeera</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Kyatandika</translation>
+    </message>
+    <message>
+        <source>Finished</source>
+        <translation>Kyaggwa</translation>
+    </message>
+    <message>
+        <source>Run by</source>
+        <translation>Eyakidduka</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>Omutwe</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>Akabonero</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>Okusindika</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Enkyukakyuka</translation>
+    </message>
+    <message>
+        <source>%n migrations need attention</source>
+        <translation>Enkyukakyuka %n zeetaaga okufiibwako</translation>
+    </message>
 </context>
 </TS>

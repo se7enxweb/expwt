@@ -1699,5 +1699,125 @@
         <source>Calendar</source>
         <translation>Calendr</translation>
     </message>
+    <message>
+        <source>The migrations cannot be read now.</source>
+        <translation>Ni ellir darllen y mudiadau nawr.</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Wedi methu</translation>
+    </message>
+    <message>
+        <source>Running</source>
+        <translation>Yn rhedeg</translation>
+    </message>
+    <message>
+        <source>Rolled back</source>
+        <translation>Wedi'i dadwneud</translation>
+    </message>
+    <message>
+        <source>Pushed</source>
+        <translation>Wedi'i wthio</translation>
+    </message>
+    <message>
+        <source>Waiting for its push</source>
+        <translation>Yn aros i'w wthio</translation>
+    </message>
+    <message>
+        <source>Off</source>
+        <translation>I ffwrdd</translation>
+    </message>
+    <message>
+        <source>No remote</source>
+        <translation>Dim storfa bell</translation>
+    </message>
+    <message>
+        <source>Nothing to push</source>
+        <translation>Dim i'w wthio</translation>
+    </message>
+    <message>
+        <source>Read only: running and rolling back stay in the administration.</source>
+        <translation>Darllen yn unig: mae rhedeg a dadwneud yn aros yn y weinyddiaeth.</translation>
+    </message>
+    <message>
+        <source>The migration tables do not exist yet: exp:upgrade --apply makes them.</source>
+        <translation>Nid yw'r tablau mudo'n bodoli eto: mae exp:upgrade --apply yn eu creu.</translation>
+    </message>
+    <message>
+        <source>A run is active</source>
+        <translation>Mae rhediad ar waith</translation>
+    </message>
+    <message>
+        <source>%purpose, by %user since %time</source>
+        <translation>%purpose, gan %user ers %time</translation>
+    </message>
+    <message>
+        <source>%n problems reading the migrations</source>
+        <translation>%n problem wrth ddarllen y mudiadau</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Yn aros</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>Does dim mudiad yn aros.</translation>
+    </message>
+    <message>
+        <source>%n more in the administration</source>
+        <translation>%n arall yn y weinyddiaeth</translation>
+    </message>
+    <message>
+        <source>Recorded, but the file is gone</source>
+        <translation>Wedi'i gofnodi, ond mae'r ffeil wedi mynd</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>Rhediad olaf</translation>
+    </message>
+    <message>
+        <source>No migration has run yet.</source>
+        <translation>Does dim mudiad wedi rhedeg eto.</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Rhediad</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Cyflwr</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Dechreuwyd</translation>
+    </message>
+    <message>
+        <source>Finished</source>
+        <translation>Gorffennwyd</translation>
+    </message>
+    <message>
+        <source>Run by</source>
+        <translation>Rhedwyd gan</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>Capsiwn</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>Tag</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>Gwthio</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Mudiadau</translation>
+    </message>
+    <message>
+        <source>%n migrations need attention</source>
+        <translation>%n mudiad angen sylw</translation>
+    </message>
 </context>
 </TS>

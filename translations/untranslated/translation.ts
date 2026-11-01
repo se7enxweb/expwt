@@ -1699,5 +1699,125 @@
         <source>Calendar</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>The migrations cannot be read now.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Running</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Rolled back</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Pushed</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Waiting for its push</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Off</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>No remote</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Nothing to push</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Read only: running and rolling back stay in the administration.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The migration tables do not exist yet: exp:upgrade --apply makes them.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>A run is active</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>%purpose, by %user since %time</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>%n problems reading the migrations</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>%n more in the administration</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Recorded, but the file is gone</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>No migration has run yet.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Finished</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Run by</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>%n migrations need attention</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 </TS>

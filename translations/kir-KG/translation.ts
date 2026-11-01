@@ -1699,5 +1699,125 @@
         <source>Calendar</source>
         <translation>Календарь</translation>
     </message>
+    <message>
+        <source>The migrations cannot be read now.</source>
+        <translation>Миграцияларды азыр окуу мүмкүн эмес.</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Ийгиликсиз</translation>
+    </message>
+    <message>
+        <source>Running</source>
+        <translation>Аткарылууда</translation>
+    </message>
+    <message>
+        <source>Rolled back</source>
+        <translation>Артка кайтарылды</translation>
+    </message>
+    <message>
+        <source>Pushed</source>
+        <translation>Жөнөтүлдү</translation>
+    </message>
+    <message>
+        <source>Waiting for its push</source>
+        <translation>Жөнөтүүнү күтүүдө</translation>
+    </message>
+    <message>
+        <source>Off</source>
+        <translation>Өчүк</translation>
+    </message>
+    <message>
+        <source>No remote</source>
+        <translation>Алыскы сактагыч жок</translation>
+    </message>
+    <message>
+        <source>Nothing to push</source>
+        <translation>Жөнөтө турган эч нерсе жок</translation>
+    </message>
+    <message>
+        <source>Read only: running and rolling back stay in the administration.</source>
+        <translation>Окуу үчүн гана: иштетүү жана артка кайтаруу башкарууда калат.</translation>
+    </message>
+    <message>
+        <source>The migration tables do not exist yet: exp:upgrade --apply makes them.</source>
+        <translation>Миграция таблицалары али жок: аларды exp:upgrade --apply түзөт.</translation>
+    </message>
+    <message>
+        <source>A run is active</source>
+        <translation>Иштетүү активдүү</translation>
+    </message>
+    <message>
+        <source>%purpose, by %user since %time</source>
+        <translation>%purpose, %user, башталышы: %time</translation>
+    </message>
+    <message>
+        <source>%n problems reading the migrations</source>
+        <translation>Миграцияларды окууда %n көйгөй</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Күтүүдө</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>Күтүүдөгү миграция жок.</translation>
+    </message>
+    <message>
+        <source>%n more in the administration</source>
+        <translation>Башкарууда дагы %n</translation>
+    </message>
+    <message>
+        <source>Recorded, but the file is gone</source>
+        <translation>Катталган, бирок файл жок</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>Акыркы иштетүү</translation>
+    </message>
+    <message>
+        <source>No migration has run yet.</source>
+        <translation>Али эч бир миграция иштетиле элек.</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Иштетүү</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Абалы</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Башталды</translation>
+    </message>
+    <message>
+        <source>Finished</source>
+        <translation>Аяктады</translation>
+    </message>
+    <message>
+        <source>Run by</source>
+        <translation>Иштеткен</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>Аталышы</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>Тег</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>Жөнөтүү</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Миграциялар</translation>
+    </message>
+    <message>
+        <source>%n migrations need attention</source>
+        <translation>%n миграция көңүл бурууну талап кылат</translation>
+    </message>
 </context>
 </TS>

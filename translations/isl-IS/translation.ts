@@ -1699,5 +1699,125 @@
         <source>Calendar</source>
         <translation>Dagatal</translation>
     </message>
+    <message>
+        <source>The migrations cannot be read now.</source>
+        <translation>Ekki er hægt að lesa flutningana núna.</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Mistókst</translation>
+    </message>
+    <message>
+        <source>Running</source>
+        <translation>Í keyrslu</translation>
+    </message>
+    <message>
+        <source>Rolled back</source>
+        <translation>Afturkallað</translation>
+    </message>
+    <message>
+        <source>Pushed</source>
+        <translation>Ýtt</translation>
+    </message>
+    <message>
+        <source>Waiting for its push</source>
+        <translation>Bíður eftir ýtingu</translation>
+    </message>
+    <message>
+        <source>Off</source>
+        <translation>Slökkt</translation>
+    </message>
+    <message>
+        <source>No remote</source>
+        <translation>Engin fjargeymsla</translation>
+    </message>
+    <message>
+        <source>Nothing to push</source>
+        <translation>Ekkert að ýta</translation>
+    </message>
+    <message>
+        <source>Read only: running and rolling back stay in the administration.</source>
+        <translation>Aðeins lestur: keyrsla og afturköllun fara fram í stjórnborði.</translation>
+    </message>
+    <message>
+        <source>The migration tables do not exist yet: exp:upgrade --apply makes them.</source>
+        <translation>Flutningstöflurnar eru ekki til enn: exp:upgrade --apply býr þær til.</translation>
+    </message>
+    <message>
+        <source>A run is active</source>
+        <translation>Keyrsla er virk</translation>
+    </message>
+    <message>
+        <source>%purpose, by %user since %time</source>
+        <translation>%purpose, af %user síðan %time</translation>
+    </message>
+    <message>
+        <source>%n problems reading the migrations</source>
+        <translation>%n vandamál við lestur flutninganna</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Í bið</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>Enginn flutningur í bið.</translation>
+    </message>
+    <message>
+        <source>%n more in the administration</source>
+        <translation>%n til viðbótar í stjórnborði</translation>
+    </message>
+    <message>
+        <source>Recorded, but the file is gone</source>
+        <translation>Skráð, en skráin er horfin</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>Síðasta keyrsla</translation>
+    </message>
+    <message>
+        <source>No migration has run yet.</source>
+        <translation>Enginn flutningur hefur verið keyrður enn.</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Keyrsla</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Staða</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Hafið</translation>
+    </message>
+    <message>
+        <source>Finished</source>
+        <translation>Lokið</translation>
+    </message>
+    <message>
+        <source>Run by</source>
+        <translation>Keyrt af</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>Heiti</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>Merki</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>Ýting</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Flutningar</translation>
+    </message>
+    <message>
+        <source>%n migrations need attention</source>
+        <translation>%n flutningar þarfnast athygli</translation>
+    </message>
 </context>
 </TS>

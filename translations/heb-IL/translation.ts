@@ -1699,5 +1699,125 @@
         <source>Calendar</source>
         <translation>לוח שנה</translation>
     </message>
+    <message>
+        <source>The migrations cannot be read now.</source>
+        <translation>לא ניתן לקרוא את ההגירות כעת.</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>נכשל</translation>
+    </message>
+    <message>
+        <source>Running</source>
+        <translation>פועל</translation>
+    </message>
+    <message>
+        <source>Rolled back</source>
+        <translation>בוטל לאחור</translation>
+    </message>
+    <message>
+        <source>Pushed</source>
+        <translation>נדחף</translation>
+    </message>
+    <message>
+        <source>Waiting for its push</source>
+        <translation>ממתין לדחיפה</translation>
+    </message>
+    <message>
+        <source>Off</source>
+        <translation>כבוי</translation>
+    </message>
+    <message>
+        <source>No remote</source>
+        <translation>אין מאגר מרוחק</translation>
+    </message>
+    <message>
+        <source>Nothing to push</source>
+        <translation>אין מה לדחוף</translation>
+    </message>
+    <message>
+        <source>Read only: running and rolling back stay in the administration.</source>
+        <translation>קריאה בלבד: הרצה וביטול לאחור נשארים בניהול.</translation>
+    </message>
+    <message>
+        <source>The migration tables do not exist yet: exp:upgrade --apply makes them.</source>
+        <translation>טבלאות ההגירה עדיין לא קיימות: exp:upgrade --apply יוצר אותן.</translation>
+    </message>
+    <message>
+        <source>A run is active</source>
+        <translation>ריצה פעילה</translation>
+    </message>
+    <message>
+        <source>%purpose, by %user since %time</source>
+        <translation>%purpose, על ידי %user מאז %time</translation>
+    </message>
+    <message>
+        <source>%n problems reading the migrations</source>
+        <translation>%n בעיות בקריאת ההגירות</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>ממתין</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>אין הגירה ממתינה.</translation>
+    </message>
+    <message>
+        <source>%n more in the administration</source>
+        <translation>עוד %n בניהול</translation>
+    </message>
+    <message>
+        <source>Recorded, but the file is gone</source>
+        <translation>נרשם, אך הקובץ חסר</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>ריצה אחרונה</translation>
+    </message>
+    <message>
+        <source>No migration has run yet.</source>
+        <translation>עדיין לא הורצה אף הגירה.</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>ריצה</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>מצב</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>התחיל</translation>
+    </message>
+    <message>
+        <source>Finished</source>
+        <translation>הסתיים</translation>
+    </message>
+    <message>
+        <source>Run by</source>
+        <translation>הורץ על ידי</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>כיתוב</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>תגית</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>דחיפה</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>הגירות</translation>
+    </message>
+    <message>
+        <source>%n migrations need attention</source>
+        <translation>%n הגירות דורשות תשומת לב</translation>
+    </message>
 </context>
 </TS>

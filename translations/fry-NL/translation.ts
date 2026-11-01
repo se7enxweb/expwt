@@ -1699,5 +1699,125 @@
         <source>Calendar</source>
         <translation>Kalinder</translation>
     </message>
+    <message>
+        <source>The migrations cannot be read now.</source>
+        <translation>De migraasjes kinne no net lêzen wurde.</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Mislearre</translation>
+    </message>
+    <message>
+        <source>Running</source>
+        <translation>Dwaande</translation>
+    </message>
+    <message>
+        <source>Rolled back</source>
+        <translation>Weromdraaid</translation>
+    </message>
+    <message>
+        <source>Pushed</source>
+        <translation>Pusht</translation>
+    </message>
+    <message>
+        <source>Waiting for its push</source>
+        <translation>Wachtet op push</translation>
+    </message>
+    <message>
+        <source>Off</source>
+        <translation>Út</translation>
+    </message>
+    <message>
+        <source>No remote</source>
+        <translation>Gjin remote</translation>
+    </message>
+    <message>
+        <source>Nothing to push</source>
+        <translation>Neat te pushen</translation>
+    </message>
+    <message>
+        <source>Read only: running and rolling back stay in the administration.</source>
+        <translation>Allinnich lêze: útfiere en weromdraaie bliuwe yn it behear.</translation>
+    </message>
+    <message>
+        <source>The migration tables do not exist yet: exp:upgrade --apply makes them.</source>
+        <translation>De migraasjetabellen besteane noch net: exp:upgrade --apply makket se oan.</translation>
+    </message>
+    <message>
+        <source>A run is active</source>
+        <translation>In run is aktyf</translation>
+    </message>
+    <message>
+        <source>%purpose, by %user since %time</source>
+        <translation>%purpose, troch %user sûnt %time</translation>
+    </message>
+    <message>
+        <source>%n problems reading the migrations</source>
+        <translation>%n problemen by it lêzen fan de migraasjes</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Yn ôfwachting</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>Gjin migraasje yn ôfwachting.</translation>
+    </message>
+    <message>
+        <source>%n more in the administration</source>
+        <translation>Noch %n yn it behear</translation>
+    </message>
+    <message>
+        <source>Recorded, but the file is gone</source>
+        <translation>Fêstlein, mar it bestân is fuort</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>Lêste run</translation>
+    </message>
+    <message>
+        <source>No migration has run yet.</source>
+        <translation>Noch gjin migraasje útfierd.</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Run</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Status</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Begûn</translation>
+    </message>
+    <message>
+        <source>Finished</source>
+        <translation>Klear</translation>
+    </message>
+    <message>
+        <source>Run by</source>
+        <translation>Útfierd troch</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>Byskrift</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>Tag</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>Push</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Migraasjes</translation>
+    </message>
+    <message>
+        <source>%n migrations need attention</source>
+        <translation>%n migraasjes freegje omtinken</translation>
+    </message>
 </context>
 </TS>

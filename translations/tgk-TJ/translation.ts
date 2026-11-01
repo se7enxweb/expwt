@@ -1699,5 +1699,125 @@
         <source>Calendar</source>
         <translation>Тақвим</translation>
     </message>
+    <message>
+        <source>The migrations cannot be read now.</source>
+        <translation>Миграцияҳоро ҳоло хондан мумкин нест.</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Ноком</translation>
+    </message>
+    <message>
+        <source>Running</source>
+        <translation>Иҷро мешавад</translation>
+    </message>
+    <message>
+        <source>Rolled back</source>
+        <translation>Бозгардонида шуд</translation>
+    </message>
+    <message>
+        <source>Pushed</source>
+        <translation>Фиристода шуд</translation>
+    </message>
+    <message>
+        <source>Waiting for its push</source>
+        <translation>Интизори фиристодан</translation>
+    </message>
+    <message>
+        <source>Off</source>
+        <translation>Хомӯш</translation>
+    </message>
+    <message>
+        <source>No remote</source>
+        <translation>Анбори дурдаст нест</translation>
+    </message>
+    <message>
+        <source>Nothing to push</source>
+        <translation>Чизе барои фиристодан нест</translation>
+    </message>
+    <message>
+        <source>Read only: running and rolling back stay in the administration.</source>
+        <translation>Танҳо барои хондан: иҷро ва бозгардонӣ дар идоракунӣ анҷом дода мешаванд.</translation>
+    </message>
+    <message>
+        <source>The migration tables do not exist yet: exp:upgrade --apply makes them.</source>
+        <translation>Ҷадвалҳои миграция ҳоло вуҷуд надоранд: exp:upgrade --apply онҳоро месозад.</translation>
+    </message>
+    <message>
+        <source>A run is active</source>
+        <translation>Иҷро фаъол аст</translation>
+    </message>
+    <message>
+        <source>%purpose, by %user since %time</source>
+        <translation>%purpose, аз ҷониби %user аз %time</translation>
+    </message>
+    <message>
+        <source>%n problems reading the migrations</source>
+        <translation>%n мушкил ҳангоми хондани миграцияҳо</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Дар интизорӣ</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>Ягон миграция дар интизорӣ нест.</translation>
+    </message>
+    <message>
+        <source>%n more in the administration</source>
+        <translation>Боз %n дар идоракунӣ</translation>
+    </message>
+    <message>
+        <source>Recorded, but the file is gone</source>
+        <translation>Сабт шудааст, вале файл нест</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>Иҷрои охирин</translation>
+    </message>
+    <message>
+        <source>No migration has run yet.</source>
+        <translation>Ҳанӯз ягон миграция иҷро нашудааст.</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Иҷро</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Ҳолат</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Оғоз шуд</translation>
+    </message>
+    <message>
+        <source>Finished</source>
+        <translation>Анҷом ёфт</translation>
+    </message>
+    <message>
+        <source>Run by</source>
+        <translation>Иҷрокунанда</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>Сарлавҳа</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>Барчасп</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>Фиристодан</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Миграцияҳо</translation>
+    </message>
+    <message>
+        <source>%n migrations need attention</source>
+        <translation>%n миграция диққатро талаб мекунад</translation>
+    </message>
 </context>
 </TS>

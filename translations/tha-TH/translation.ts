@@ -1699,5 +1699,125 @@
         <source>Calendar</source>
         <translation>ปฏิทิน</translation>
     </message>
+    <message>
+        <source>The migrations cannot be read now.</source>
+        <translation>ไม่สามารถอ่านการย้ายข้อมูลได้ในขณะนี้</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>ล้มเหลว</translation>
+    </message>
+    <message>
+        <source>Running</source>
+        <translation>กำลังทำงาน</translation>
+    </message>
+    <message>
+        <source>Rolled back</source>
+        <translation>ย้อนกลับแล้ว</translation>
+    </message>
+    <message>
+        <source>Pushed</source>
+        <translation>พุชแล้ว</translation>
+    </message>
+    <message>
+        <source>Waiting for its push</source>
+        <translation>รอการพุช</translation>
+    </message>
+    <message>
+        <source>Off</source>
+        <translation>ปิด</translation>
+    </message>
+    <message>
+        <source>No remote</source>
+        <translation>ไม่มีรีโมต</translation>
+    </message>
+    <message>
+        <source>Nothing to push</source>
+        <translation>ไม่มีอะไรให้พุช</translation>
+    </message>
+    <message>
+        <source>Read only: running and rolling back stay in the administration.</source>
+        <translation>อ่านอย่างเดียว: การรันและการย้อนกลับทำในส่วนผู้ดูแล</translation>
+    </message>
+    <message>
+        <source>The migration tables do not exist yet: exp:upgrade --apply makes them.</source>
+        <translation>ยังไม่มีตารางการย้ายข้อมูล: exp:upgrade --apply จะสร้างให้</translation>
+    </message>
+    <message>
+        <source>A run is active</source>
+        <translation>มีการรันที่กำลังทำงาน</translation>
+    </message>
+    <message>
+        <source>%purpose, by %user since %time</source>
+        <translation>%purpose โดย %user ตั้งแต่ %time</translation>
+    </message>
+    <message>
+        <source>%n problems reading the migrations</source>
+        <translation>พบปัญหา %n รายการขณะอ่านการย้ายข้อมูล</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>รอดำเนินการ</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>ไม่มีการย้ายข้อมูลที่รอดำเนินการ</translation>
+    </message>
+    <message>
+        <source>%n more in the administration</source>
+        <translation>อีก %n รายการในส่วนผู้ดูแล</translation>
+    </message>
+    <message>
+        <source>Recorded, but the file is gone</source>
+        <translation>มีบันทึก แต่ไฟล์หายไป</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>การรันล่าสุด</translation>
+    </message>
+    <message>
+        <source>No migration has run yet.</source>
+        <translation>ยังไม่เคยรันการย้ายข้อมูล</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>การรัน</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>สถานะ</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>เริ่ม</translation>
+    </message>
+    <message>
+        <source>Finished</source>
+        <translation>เสร็จสิ้น</translation>
+    </message>
+    <message>
+        <source>Run by</source>
+        <translation>รันโดย</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>คำบรรยาย</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>แท็ก</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>พุช</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>การย้ายข้อมูล</translation>
+    </message>
+    <message>
+        <source>%n migrations need attention</source>
+        <translation>การย้ายข้อมูล %n รายการต้องได้รับการดูแล</translation>
+    </message>
 </context>
 </TS>

@@ -1699,5 +1699,125 @@
         <source>Calendar</source>
         <translation>Féilire</translation>
     </message>
+    <message>
+        <source>The migrations cannot be read now.</source>
+        <translation>Ní féidir na himirceanna a léamh anois.</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Theip air</translation>
+    </message>
+    <message>
+        <source>Running</source>
+        <translation>Ag rith</translation>
+    </message>
+    <message>
+        <source>Rolled back</source>
+        <translation>Rolladh siar</translation>
+    </message>
+    <message>
+        <source>Pushed</source>
+        <translation>Brúite</translation>
+    </message>
+    <message>
+        <source>Waiting for its push</source>
+        <translation>Ag fanacht lena bhrú</translation>
+    </message>
+    <message>
+        <source>Off</source>
+        <translation>As</translation>
+    </message>
+    <message>
+        <source>No remote</source>
+        <translation>Gan chianstór</translation>
+    </message>
+    <message>
+        <source>Nothing to push</source>
+        <translation>Níl aon rud le brú</translation>
+    </message>
+    <message>
+        <source>Read only: running and rolling back stay in the administration.</source>
+        <translation>Léamh amháin: fanann rith agus rolladh siar sa riarachán.</translation>
+    </message>
+    <message>
+        <source>The migration tables do not exist yet: exp:upgrade --apply makes them.</source>
+        <translation>Níl táblaí na n-imirceanna ann fós: cruthaíonn exp:upgrade --apply iad.</translation>
+    </message>
+    <message>
+        <source>A run is active</source>
+        <translation>Tá rith ar siúl</translation>
+    </message>
+    <message>
+        <source>%purpose, by %user since %time</source>
+        <translation>%purpose, ag %user ó %time</translation>
+    </message>
+    <message>
+        <source>%n problems reading the migrations</source>
+        <translation>%n fadhb ag léamh na n-imirceanna</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Ar feitheamh</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>Níl aon imirce ar feitheamh.</translation>
+    </message>
+    <message>
+        <source>%n more in the administration</source>
+        <translation>%n eile sa riarachán</translation>
+    </message>
+    <message>
+        <source>Recorded, but the file is gone</source>
+        <translation>Taifeadta, ach tá an comhad imithe</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>An rith deireanach</translation>
+    </message>
+    <message>
+        <source>No migration has run yet.</source>
+        <translation>Níor ritheadh aon imirce fós.</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Rith</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Staid</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Tosaithe</translation>
+    </message>
+    <message>
+        <source>Finished</source>
+        <translation>Críochnaithe</translation>
+    </message>
+    <message>
+        <source>Run by</source>
+        <translation>Rite ag</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>Fotheideal</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>Clib</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>Brú</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Imirceanna</translation>
+    </message>
+    <message>
+        <source>%n migrations need attention</source>
+        <translation>Tá aird ag teastáil ó %n imirce</translation>
+    </message>
 </context>
 </TS>

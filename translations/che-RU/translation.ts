@@ -1699,5 +1699,125 @@
         <source>Calendar</source>
         <translation>Календарь</translation>
     </message>
+    <message>
+        <source>The migrations cannot be read now.</source>
+        <translation>Миграцеш хӀинца еша йиш яц.</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Ца хилла</translation>
+    </message>
+    <message>
+        <source>Running</source>
+        <translation>Кхочушдеш ю</translation>
+    </message>
+    <message>
+        <source>Rolled back</source>
+        <translation>Юхаерзийна</translation>
+    </message>
+    <message>
+        <source>Pushed</source>
+        <translation>ДӀахьажийна</translation>
+    </message>
+    <message>
+        <source>Waiting for its push</source>
+        <translation>ДӀахьажорна хьоьжуш ю</translation>
+    </message>
+    <message>
+        <source>Off</source>
+        <translation>ДӀайайина</translation>
+    </message>
+    <message>
+        <source>No remote</source>
+        <translation>Генара хранилище дац</translation>
+    </message>
+    <message>
+        <source>Nothing to push</source>
+        <translation>ДӀахьажо хӀумма а дац</translation>
+    </message>
+    <message>
+        <source>Read only: running and rolling back stay in the administration.</source>
+        <translation>Еша бен: кхочушдар а, юхаерзор а администрацехь дуьсу.</translation>
+    </message>
+    <message>
+        <source>The migration tables do not exist yet: exp:upgrade --apply makes them.</source>
+        <translation>Миграцийн таблицаш хӀинца а яц: exp:upgrade --apply уьш кхуллу.</translation>
+    </message>
+    <message>
+        <source>A run is active</source>
+        <translation>Кхочушдар жигара ду</translation>
+    </message>
+    <message>
+        <source>%purpose, by %user since %time</source>
+        <translation>%purpose, %user, %time дуьйна</translation>
+    </message>
+    <message>
+        <source>%n problems reading the migrations</source>
+        <translation>Миграцеш ешарехь %n халонаш</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Хьоьжуш</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>Хьоьжуш миграци яц.</translation>
+    </message>
+    <message>
+        <source>%n more in the administration</source>
+        <translation>Администрацехь кхин %n</translation>
+    </message>
+    <message>
+        <source>Recorded, but the file is gone</source>
+        <translation>ДӀаяздина, амма файл яц</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>ТӀаьххьара кхочушдар</translation>
+    </message>
+    <message>
+        <source>No migration has run yet.</source>
+        <translation>ХӀинца а цхьа а миграци кхочуш ца йина.</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Кхочушдар</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Хьал</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Доладелла</translation>
+    </message>
+    <message>
+        <source>Finished</source>
+        <translation>Чекхделла</translation>
+    </message>
+    <message>
+        <source>Run by</source>
+        <translation>Кхочушдинарг</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>ЦӀе</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>Билгало</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>ДӀахьажор</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Миграцеш</translation>
+    </message>
+    <message>
+        <source>%n migrations need attention</source>
+        <translation>%n миграцина тидам оьшу</translation>
+    </message>
 </context>
 </TS>

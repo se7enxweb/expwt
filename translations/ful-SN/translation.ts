@@ -1699,5 +1699,125 @@
         <source>Calendar</source>
         <translation>Kalandiye</translation>
     </message>
+    <message>
+        <source>The migrations cannot be read now.</source>
+        <translation>Eggi ɗii waawaa janngeede jooni.</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Woorii</translation>
+    </message>
+    <message>
+        <source>Running</source>
+        <translation>Ena dogga</translation>
+    </message>
+    <message>
+        <source>Rolled back</source>
+        <translation>Rutti</translation>
+    </message>
+    <message>
+        <source>Pushed</source>
+        <translation>Neldaama</translation>
+    </message>
+    <message>
+        <source>Waiting for its push</source>
+        <translation>Ena sabbii nelde</translation>
+    </message>
+    <message>
+        <source>Off</source>
+        <translation>Ñifaa</translation>
+    </message>
+    <message>
+        <source>No remote</source>
+        <translation>Alaa ndeenka woɗɗunde</translation>
+    </message>
+    <message>
+        <source>Nothing to push</source>
+        <translation>Alaa ko neldetee</translation>
+    </message>
+    <message>
+        <source>Read only: running and rolling back stay in the administration.</source>
+        <translation>Janngude tan: dogginde e ruttinde ena heddii e jiiloowo.</translation>
+    </message>
+    <message>
+        <source>The migration tables do not exist yet: exp:upgrade --apply makes them.</source>
+        <translation>Taabule eggi ɗii alaa tawo: exp:upgrade --apply ina sosa ɗe.</translation>
+    </message>
+    <message>
+        <source>A run is active</source>
+        <translation>Dogginde ina woni</translation>
+    </message>
+    <message>
+        <source>%purpose, by %user since %time</source>
+        <translation>%purpose, ko %user gila %time</translation>
+    </message>
+    <message>
+        <source>%n problems reading the migrations</source>
+        <translation>%n caɗeele e janngude eggi</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Ena sabbii</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>Alaa eggo sabbiingo.</translation>
+    </message>
+    <message>
+        <source>%n more in the administration</source>
+        <translation>%n goɗɗe e jiiloowo</translation>
+    </message>
+    <message>
+        <source>Recorded, but the file is gone</source>
+        <translation>Winndaama, kono fiilde nde majjii</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>Dogginde sakkitorde</translation>
+    </message>
+    <message>
+        <source>No migration has run yet.</source>
+        <translation>Alaa eggo doggi tawo.</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Dogginde</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Ngonka</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Fuɗɗii</translation>
+    </message>
+    <message>
+        <source>Finished</source>
+        <translation>Gasii</translation>
+    </message>
+    <message>
+        <source>Run by</source>
+        <translation>Dogginaa ko</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>Tiitoonde</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>Tag</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>Nelde</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Eggi</translation>
+    </message>
+    <message>
+        <source>%n migrations need attention</source>
+        <translation>%n eggi ina njiɗi reentaade</translation>
+    </message>
 </context>
 </TS>

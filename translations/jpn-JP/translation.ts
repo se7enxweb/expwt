@@ -1699,5 +1699,125 @@
         <source>Calendar</source>
         <translation>カレンダー</translation>
     </message>
+    <message>
+        <source>The migrations cannot be read now.</source>
+        <translation>現在マイグレーションを読み込めません。</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>失敗</translation>
+    </message>
+    <message>
+        <source>Running</source>
+        <translation>実行中</translation>
+    </message>
+    <message>
+        <source>Rolled back</source>
+        <translation>ロールバック済み</translation>
+    </message>
+    <message>
+        <source>Pushed</source>
+        <translation>プッシュ済み</translation>
+    </message>
+    <message>
+        <source>Waiting for its push</source>
+        <translation>プッシュ待ち</translation>
+    </message>
+    <message>
+        <source>Off</source>
+        <translation>オフ</translation>
+    </message>
+    <message>
+        <source>No remote</source>
+        <translation>リモートなし</translation>
+    </message>
+    <message>
+        <source>Nothing to push</source>
+        <translation>プッシュするものはありません</translation>
+    </message>
+    <message>
+        <source>Read only: running and rolling back stay in the administration.</source>
+        <translation>読み取り専用：実行とロールバックは管理画面で行います。</translation>
+    </message>
+    <message>
+        <source>The migration tables do not exist yet: exp:upgrade --apply makes them.</source>
+        <translation>マイグレーションテーブルはまだありません：exp:upgrade --apply で作成されます。</translation>
+    </message>
+    <message>
+        <source>A run is active</source>
+        <translation>実行中の処理があります</translation>
+    </message>
+    <message>
+        <source>%purpose, by %user since %time</source>
+        <translation>%purpose（%user、%time から）</translation>
+    </message>
+    <message>
+        <source>%n problems reading the migrations</source>
+        <translation>マイグレーションの読み込みで %n 件の問題</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>保留中</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>保留中のマイグレーションはありません。</translation>
+    </message>
+    <message>
+        <source>%n more in the administration</source>
+        <translation>管理画面にあと %n 件</translation>
+    </message>
+    <message>
+        <source>Recorded, but the file is gone</source>
+        <translation>記録済みですがファイルがありません</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>前回の実行</translation>
+    </message>
+    <message>
+        <source>No migration has run yet.</source>
+        <translation>まだマイグレーションは実行されていません。</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>実行</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>状態</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>開始</translation>
+    </message>
+    <message>
+        <source>Finished</source>
+        <translation>終了</translation>
+    </message>
+    <message>
+        <source>Run by</source>
+        <translation>実行者</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>キャプション</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>タグ</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>プッシュ</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>マイグレーション</translation>
+    </message>
+    <message>
+        <source>%n migrations need attention</source>
+        <translation>%n 件のマイグレーションに対応が必要です</translation>
+    </message>
 </context>
 </TS>

@@ -1699,5 +1699,125 @@
         <source>Calendar</source>
         <translation>Kalender</translation>
     </message>
+    <message>
+        <source>The migrations cannot be read now.</source>
+        <translation>Migreringene kan ikke leses nå.</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Mislyktes</translation>
+    </message>
+    <message>
+        <source>Running</source>
+        <translation>Kjører</translation>
+    </message>
+    <message>
+        <source>Rolled back</source>
+        <translation>Rullet tilbake</translation>
+    </message>
+    <message>
+        <source>Pushed</source>
+        <translation>Pushet</translation>
+    </message>
+    <message>
+        <source>Waiting for its push</source>
+        <translation>Venter på push</translation>
+    </message>
+    <message>
+        <source>Off</source>
+        <translation>Av</translation>
+    </message>
+    <message>
+        <source>No remote</source>
+        <translation>Ingen fjernlager</translation>
+    </message>
+    <message>
+        <source>Nothing to push</source>
+        <translation>Ingenting å pushe</translation>
+    </message>
+    <message>
+        <source>Read only: running and rolling back stay in the administration.</source>
+        <translation>Kun lesing: kjøring og tilbakerulling skjer i administrasjonen.</translation>
+    </message>
+    <message>
+        <source>The migration tables do not exist yet: exp:upgrade --apply makes them.</source>
+        <translation>Migreringstabellene finnes ikke ennå: exp:upgrade --apply oppretter dem.</translation>
+    </message>
+    <message>
+        <source>A run is active</source>
+        <translation>En kjøring pågår</translation>
+    </message>
+    <message>
+        <source>%purpose, by %user since %time</source>
+        <translation>%purpose, av %user siden %time</translation>
+    </message>
+    <message>
+        <source>%n problems reading the migrations</source>
+        <translation>%n problemer ved lesing av migreringene</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Venter</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>Ingen migrering venter.</translation>
+    </message>
+    <message>
+        <source>%n more in the administration</source>
+        <translation>%n til i administrasjonen</translation>
+    </message>
+    <message>
+        <source>Recorded, but the file is gone</source>
+        <translation>Registrert, men filen er borte</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>Siste kjøring</translation>
+    </message>
+    <message>
+        <source>No migration has run yet.</source>
+        <translation>Ingen migrering har kjørt ennå.</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Kjøring</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Tilstand</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Startet</translation>
+    </message>
+    <message>
+        <source>Finished</source>
+        <translation>Fullført</translation>
+    </message>
+    <message>
+        <source>Run by</source>
+        <translation>Kjørt av</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>Tittel</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>Tagg</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>Push</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Migreringer</translation>
+    </message>
+    <message>
+        <source>%n migrations need attention</source>
+        <translation>%n migreringer trenger tilsyn</translation>
+    </message>
 </context>
 </TS>

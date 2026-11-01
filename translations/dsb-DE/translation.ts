@@ -1699,5 +1699,125 @@
         <source>Calendar</source>
         <translation>Kalendaŕ</translation>
     </message>
+    <message>
+        <source>The migrations cannot be read now.</source>
+        <translation>Migracije njedaju se něnto cytaś.</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Njeraźone</translation>
+    </message>
+    <message>
+        <source>Running</source>
+        <translation>Běžy</translation>
+    </message>
+    <message>
+        <source>Rolled back</source>
+        <translation>Slědk wześe</translation>
+    </message>
+    <message>
+        <source>Pushed</source>
+        <translation>Wótpósłane</translation>
+    </message>
+    <message>
+        <source>Waiting for its push</source>
+        <translation>Caka na wótpósłanje</translation>
+    </message>
+    <message>
+        <source>Off</source>
+        <translation>Wušaltowane</translation>
+    </message>
+    <message>
+        <source>No remote</source>
+        <translation>Žeden zdalony repozitorij</translation>
+    </message>
+    <message>
+        <source>Nothing to push</source>
+        <translation>Nic za wótpósłanje</translation>
+    </message>
+    <message>
+        <source>Read only: running and rolling back stay in the administration.</source>
+        <translation>Jano cytaś: wuwjeźenje a slědkwześe wóstanjotej w administraciji.</translation>
+    </message>
+    <message>
+        <source>The migration tables do not exist yet: exp:upgrade --apply makes them.</source>
+        <translation>Tabele migracijow hyšći njeeksistěruju: exp:upgrade --apply je napórajo.</translation>
+    </message>
+    <message>
+        <source>A run is active</source>
+        <translation>Jadno wuwjeźenje jo aktiwne</translation>
+    </message>
+    <message>
+        <source>%purpose, by %user since %time</source>
+        <translation>%purpose, wót %user wót %time</translation>
+    </message>
+    <message>
+        <source>%n problems reading the migrations</source>
+        <translation>%n problemow pśi cytanju migracijow</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Caka</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>Žedna migracija njecaka.</translation>
+    </message>
+    <message>
+        <source>%n more in the administration</source>
+        <translation>Hyšći %n w administraciji</translation>
+    </message>
+    <message>
+        <source>Recorded, but the file is gone</source>
+        <translation>Zapisane, ale dataja jo pšec</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>Slědne wuwjeźenje</translation>
+    </message>
+    <message>
+        <source>No migration has run yet.</source>
+        <translation>Hyšći žedna migracija njejo była wuwjeźona.</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Wuwjeźenje</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Staw</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Zachopjone</translation>
+    </message>
+    <message>
+        <source>Finished</source>
+        <translation>Dokóńcone</translation>
+    </message>
+    <message>
+        <source>Run by</source>
+        <translation>Wuwjadł</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>Pópis</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>Wobznamjenje</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>Wótpósłanje</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Migracije</translation>
+    </message>
+    <message>
+        <source>%n migrations need attention</source>
+        <translation>%n migracijow trjeba kedźbnosć</translation>
+    </message>
 </context>
 </TS>

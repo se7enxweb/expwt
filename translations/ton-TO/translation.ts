@@ -1699,5 +1699,125 @@
         <source>Calendar</source>
         <translation>Kalena</translation>
     </message>
+    <message>
+        <source>The migrations cannot be read now.</source>
+        <translation>ʻOku ʻikai lava ʻo lau ʻa e ngaahi hiki he taimí ni.</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Kuo ʻikai lavameʻa</translation>
+    </message>
+    <message>
+        <source>Running</source>
+        <translation>ʻOku lele</translation>
+    </message>
+    <message>
+        <source>Rolled back</source>
+        <translation>Kuo toe fakafoki</translation>
+    </message>
+    <message>
+        <source>Pushed</source>
+        <translation>Kuo ʻave</translation>
+    </message>
+    <message>
+        <source>Waiting for its push</source>
+        <translation>Tatali ke ʻave</translation>
+    </message>
+    <message>
+        <source>Off</source>
+        <translation>Tāmateʻi</translation>
+    </message>
+    <message>
+        <source>No remote</source>
+        <translation>ʻIkai ha tauhiʻanga mamaʻo</translation>
+    </message>
+    <message>
+        <source>Nothing to push</source>
+        <translation>ʻIkai ha meʻa ke ʻave</translation>
+    </message>
+    <message>
+        <source>Read only: running and rolling back stay in the administration.</source>
+        <translation>Lau pē: ko e fakalele mo e fakafoki ʻoku fai ʻi he puleʻanga.</translation>
+    </message>
+    <message>
+        <source>The migration tables do not exist yet: exp:upgrade --apply makes them.</source>
+        <translation>ʻOku teʻeki ai ke ʻi ai ʻa e ngaahi tēpile hiki: ʻoku faʻu ia ʻe exp:upgrade --apply.</translation>
+    </message>
+    <message>
+        <source>A run is active</source>
+        <translation>ʻOku ʻi ai ha fakalele ʻoku ngāue</translation>
+    </message>
+    <message>
+        <source>%purpose, by %user since %time</source>
+        <translation>%purpose, ʻe %user talu mei %time</translation>
+    </message>
+    <message>
+        <source>%n problems reading the migrations</source>
+        <translation>Palopalema ʻe %n ʻi hono lau ʻa e ngaahi hiki</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Tatali</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>ʻIkai ha hiki ʻoku tatali.</translation>
+    </message>
+    <message>
+        <source>%n more in the administration</source>
+        <translation>%n kehe ʻi he puleʻanga</translation>
+    </message>
+    <message>
+        <source>Recorded, but the file is gone</source>
+        <translation>Kuo lēkooti, ka kuo mole ʻa e faile</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>Fakalele fakamuimui</translation>
+    </message>
+    <message>
+        <source>No migration has run yet.</source>
+        <translation>Teʻeki ai ke fakalele ha hiki.</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Fakalele</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Tuʻunga</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Kamata</translation>
+    </message>
+    <message>
+        <source>Finished</source>
+        <translation>ʻOsi</translation>
+    </message>
+    <message>
+        <source>Run by</source>
+        <translation>Fakalele ʻe</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>Hingoa</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>Tāki</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>ʻAve</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Ngaahi hiki</translation>
+    </message>
+    <message>
+        <source>%n migrations need attention</source>
+        <translation>Hiki ʻe %n ʻoku fiemaʻu ke tokangaʻi</translation>
+    </message>
 </context>
 </TS>

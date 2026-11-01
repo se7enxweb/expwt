@@ -1699,5 +1699,125 @@
         <source>Calendar</source>
         <translation>ꯀꯦꯂꯦꯟꯗꯔ</translation>
     </message>
+    <message>
+        <source>The migrations cannot be read now.</source>
+        <translation>মাইগ্রেসনশিং হৌজিক পাবা ঙম্দে।</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>থুরেংদ্রে</translation>
+    </message>
+    <message>
+        <source>Running</source>
+        <translation>চলি লৈরি</translation>
+    </message>
+    <message>
+        <source>Rolled back</source>
+        <translation>হন্দোকখ্রে</translation>
+    </message>
+    <message>
+        <source>Pushed</source>
+        <translation>পুশ তৌখ্রে</translation>
+    </message>
+    <message>
+        <source>Waiting for its push</source>
+        <translation>পুশ তৌনবা ঙাইরি</translation>
+    </message>
+    <message>
+        <source>Off</source>
+        <translation>অফ</translation>
+    </message>
+    <message>
+        <source>No remote</source>
+        <translation>রিমোট লৈতে</translation>
+    </message>
+    <message>
+        <source>Nothing to push</source>
+        <translation>পুশ তৌনবা কারিসু লৈতে</translation>
+    </message>
+    <message>
+        <source>Read only: running and rolling back stay in the administration.</source>
+        <translation>পাবা খক: চলহনবা অমসুং হন্দোকপা এদমিনিষ্ট্রেসনদা লৈরি।</translation>
+    </message>
+    <message>
+        <source>The migration tables do not exist yet: exp:upgrade --apply makes them.</source>
+        <translation>মাইগ্রেসন টেবলশিং হৌজিক ফাওবা লৈতে: exp:upgrade --apply না সেম্বনি।</translation>
+    </message>
+    <message>
+        <source>A run is active</source>
+        <translation>রন অমা চলি লৈরি</translation>
+    </message>
+    <message>
+        <source>%purpose, by %user since %time</source>
+        <translation>%purpose, %user না %time দগী</translation>
+    </message>
+    <message>
+        <source>%n problems reading the migrations</source>
+        <translation>মাইগ্রেসনশিং পাবদা অৱাবা %n</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>ঙাইরিবা</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>ঙাইরিবা মাইগ্রেসন অমত্তা লৈতে।</translation>
+    </message>
+    <message>
+        <source>%n more in the administration</source>
+        <translation>এদমিনিষ্ট্রেসনদা অহেনবা %n</translation>
+    </message>
+    <message>
+        <source>Recorded, but the file is gone</source>
+        <translation>থমখ্রে, অদুবু ফাইল অদু লৈত্রে</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>অরোইবা রন</translation>
+    </message>
+    <message>
+        <source>No migration has run yet.</source>
+        <translation>মাইগ্রেসন অমত্তা হৌজিক ফাওবা চলহন্দ্রি।</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>রন</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>ফিভম</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>হৌখি</translation>
+    </message>
+    <message>
+        <source>Finished</source>
+        <translation>লোইখি</translation>
+    </message>
+    <message>
+        <source>Run by</source>
+        <translation>চলহনখিবা</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>কেপসন</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>টেগ</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>পুশ</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>মাইগ্রেসনশিং</translation>
+    </message>
+    <message>
+        <source>%n migrations need attention</source>
+        <translation>মাইগ্রেসন %n না মিৎয়েং থম্বা দরকার লৈ</translation>
+    </message>
 </context>
 </TS>

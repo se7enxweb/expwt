@@ -1699,5 +1699,125 @@
         <source>Calendar</source>
         <translation>Calendario</translation>
     </message>
+    <message>
+        <source>The migrations cannot be read now.</source>
+        <translation>Por ahora no se pueden leer las migraciones.</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Fallida</translation>
+    </message>
+    <message>
+        <source>Running</source>
+        <translation>En ejecución</translation>
+    </message>
+    <message>
+        <source>Rolled back</source>
+        <translation>Revertida</translation>
+    </message>
+    <message>
+        <source>Pushed</source>
+        <translation>Enviado</translation>
+    </message>
+    <message>
+        <source>Waiting for its push</source>
+        <translation>Esperando su envío</translation>
+    </message>
+    <message>
+        <source>Off</source>
+        <translation>Desactivado</translation>
+    </message>
+    <message>
+        <source>No remote</source>
+        <translation>Sin remoto</translation>
+    </message>
+    <message>
+        <source>Nothing to push</source>
+        <translation>Nada que enviar</translation>
+    </message>
+    <message>
+        <source>Read only: running and rolling back stay in the administration.</source>
+        <translation>Solo lectura: ejecutar y revertir se hacen en la administración.</translation>
+    </message>
+    <message>
+        <source>The migration tables do not exist yet: exp:upgrade --apply makes them.</source>
+        <translation>Las tablas de migraciones todavía no existen: exp:upgrade --apply las crea.</translation>
+    </message>
+    <message>
+        <source>A run is active</source>
+        <translation>Hay una ejecución activa</translation>
+    </message>
+    <message>
+        <source>%purpose, by %user since %time</source>
+        <translation>%purpose, por %user desde %time</translation>
+    </message>
+    <message>
+        <source>%n problems reading the migrations</source>
+        <translation>%n problemas al leer las migraciones</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Pendiente</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>No hay migraciones pendientes.</translation>
+    </message>
+    <message>
+        <source>%n more in the administration</source>
+        <translation>%n más en la administración</translation>
+    </message>
+    <message>
+        <source>Recorded, but the file is gone</source>
+        <translation>Registrada, pero el archivo ya no está</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>Última ejecución</translation>
+    </message>
+    <message>
+        <source>No migration has run yet.</source>
+        <translation>Todavía no se ha ejecutado ninguna migración.</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Ejecución</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Estado</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Iniciada</translation>
+    </message>
+    <message>
+        <source>Finished</source>
+        <translation>Finalizada</translation>
+    </message>
+    <message>
+        <source>Run by</source>
+        <translation>Ejecutada por</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>Rótulo</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>Etiqueta</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>Envío</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Migraciones</translation>
+    </message>
+    <message>
+        <source>%n migrations need attention</source>
+        <translation>%n migraciones requieren atención</translation>
+    </message>
 </context>
 </TS>

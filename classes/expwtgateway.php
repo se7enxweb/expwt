@@ -2171,6 +2171,210 @@ class expwtGateway
                 'before' => $before, 'after' => array( 'kind' => $kind ) + $after ) );
     }
 
+    // ---------------------------------------------------------------------------------------- the migrations
+
+    /** How long the number on the Migrations tab is kept in the user's session, in seconds */
+    const MIGRATIONS_SECONDS = 60;
+
+    /** At most this many pending migrations are listed (the rest are counted) */
+    const MIGRATIONS_LISTED = 50;
+
+    /**
+     * Whether the kernel has what the Migrations panel reads: the status report of its migrations
+     * (expMigrationStatus::report(), Exponential 6.0.15) and the module migration with its policy function read
+     * (Setup > Migrations). Without either the panel is not offered at all; there is no fallback to another policy.
+     *
+     * @return bool
+     */
+    public static function migrationKernel()
+    {
+        if ( !class_exists( 'expMigrationStatus' ) || !method_exists( 'expMigrationStatus', 'report' ) || !class_exists( 'eZModule' ) )
+            return false;
+        $module = eZModule::exists( 'migration' );
+        if ( !$module instanceof eZModule )
+            return false;
+        $functions = $module->attribute( 'available_functions' );
+        return is_array( $functions ) && isset( $functions['read'] );
+    }
+
+    /** @return bool the user may see the migrations: a user of the sidebar with the kernel's migration/read */
+    public function readsMigrations()
+    {
+        $caps = $this->capabilities();
+        return !empty( $caps['use'] ) && self::migrationKernel() && $this->may( 'migration', 'read' );
+    }
+
+    /**
+     * The Migrations panel in the boot answer: null for a user without migration/read or a kernel without the
+     * migrations; else how many need attention (pending, failed, recorded without their file), the badge on the
+     * panel's tab. The number is kept in the user's session for MIGRATIONS_SECONDS: the boot of every page asks.
+     *
+     * @return array|null attention
+     */
+    public function migrationsOffer()
+    {
+        if ( !$this->readsMigrations() )
+            return null;
+        $http = eZHTTPTool::instance();
+        $userId = $this->userId();
+        $kept = $http->hasSessionVariable( 'expwtMigrations' ) ? $http->sessionVariable( 'expwtMigrations' ) : null;
+        if ( is_array( $kept ) && isset( $kept['user'], $kept['count'], $kept['at'] )
+             && (int)$kept['user'] === $userId && time() - (int)$kept['at'] < self::MIGRATIONS_SECONDS )
+            return array( 'attention' => (int)$kept['count'] );
+        try
+        {
+            $count = self::migrationsView( expMigrationStatus::report( array( 'runs' => 1 ) ), null )['attention'];
+        }
+        catch ( Throwable $e )
+        {
+            eZDebug::writeError( get_class( $e ) . ': ' . $e->getMessage(), __METHOD__ );
+            $count = 0;
+        }
+        $http->setSessionVariable( 'expwtMigrations', array( 'user' => $userId, 'count' => $count, 'at' => time() ) );
+        return array( 'attention' => $count );
+    }
+
+    /**
+     * The Migrations panel (R4.5): read-only, the state of the installation's migrations as Setup > Migrations shows
+     * it. Running and rolling back stay in the administration; every item links there.
+     *
+     * @return array migrationsView()
+     * @throws expwtApiError 403 without migration/read (or without the migrations in the kernel), 503 when the
+     *                       report cannot be made
+     */
+    public function migrations()
+    {
+        if ( !$this->readsMigrations() )
+            throw new expwtApiError( 403, 'forbidden', 'You may not do this.' );
+        try
+        {
+            $report = expMigrationStatus::report( array( 'runs' => 1 ) );
+        }
+        catch ( Throwable $e )
+        {
+            eZDebug::writeError( get_class( $e ) . ': ' . $e->getMessage(), __METHOD__ );
+            throw new expwtApiError( 503, 'migrations_unavailable', 'The migrations cannot be read now.' );
+        }
+        $view = self::migrationsView( $report, $this->migrationsAdmin() );
+        eZHTTPTool::instance()->setSessionVariable( 'expwtMigrations', array( 'user' => $this->userId(), 'count' => $view['attention'], 'at' => time() ) );
+        return $view;
+    }
+
+    /**
+     * The administration the panel links to: [SiteAccessSettings] AdminSiteAccessList[] as everywhere in the sidebar,
+     * else the administration the kernel's site menu finds for the user (ezpSiteAccessMenu: by its design, the one
+     * named admin first), as an address of its own (scheme and host included when it has another host).
+     *
+     * @return string|null ending in /, null when there is none the user may log in to
+     */
+    protected function migrationsAdmin()
+    {
+        $base = self::adminUrl();
+        if ( $base || !class_exists( 'ezpSiteAccessMenu' ) )
+            return $base;
+        try
+        {
+            // the menu's own list, with the administrations in it whatever the menu shows of them
+            $settings = ezpSiteAccessMenu::settings();
+            $current = eZSiteAccess::current();
+            $user = $this->currentUser();
+            $menu = ezpSiteAccessMenu::build( ezpSiteAccessMenu::names( $settings ), ezpSiteAccessURL::frontSiteAccess(),
+                                              $current ? (string)$current['name'] : '', $settings['admin'],
+                                              array( 'ezpSiteAccessMenu', 'siteAccessInfo' ), array( 'ezpSiteAccessURL', 'root' ),
+                                              function ( $name ) use ( $user ) { return (bool)$user->canLoginToSiteAccess( array( 'name' => (string)$name ) ); },
+                                              true );
+            $found = null;
+            foreach ( isset( $menu['groups'] ) ? (array)$menu['groups'] : array() as $group )
+                if ( $group['identifier'] === 'admin' )
+                    foreach ( (array)$group['items'] as $item )
+                        if ( !empty( $item['url'] ) && ( $found === null || $item['identifier'] === 'admin' ) )
+                            $found = $item['url'];
+            return $found !== null ? rtrim( $found, '/' ) . '/' : null;
+        }
+        catch ( Throwable $e )
+        {
+            eZDebug::writeError( get_class( $e ) . ': ' . $e->getMessage(), __METHOD__ );
+            return null;
+        }
+    }
+
+    /**
+     * What the panel shows of a status report (exp-migration/1, expMigrationStatus::report()). Pure.
+     *
+     * Only what a reader of Setup > Migrations sees there: no file paths, process ids or host names; a failed run's
+     * message at most 300 characters.
+     *
+     * @param array $report
+     * @param string|null $admin the administration's base address ("/admin/"), null for no links
+     * @return array pending (id, source, description, url), more (pending not listed), failed, orphans, last (the
+     *               latest run or null), lock (who runs now or null), table, problems, attention
+     */
+    public static function migrationsView( array $report, $admin )
+    {
+        $link = function ( $path ) use ( $admin ) { return $admin ? $admin . $path : null; };
+        $logLink = function ( $runId ) use ( $link ) {
+            return is_string( $runId ) && $runId !== '' ? $link( 'migration/log/' . rawurlencode( $runId ) ) : $link( 'migration/history' );
+        };
+        $item = function ( array $m ) use ( $link ) {
+            return array( 'id' => (string)( isset( $m['id'] ) ? $m['id'] : '' ), 'source' => (string)( isset( $m['source'] ) ? $m['source'] : '' ),
+                          'description' => (string)( isset( $m['description'] ) ? $m['description'] : '' ), 'url' => $link( 'migration/status' ) );
+        };
+        $pending = array();
+        $failed = array();
+        foreach ( isset( $report['migrations'] ) ? (array)$report['migrations'] : array() as $m )
+        {
+            $state = isset( $m['state'] ) ? $m['state'] : '';
+            if ( $state === 'pending' )
+                $pending[] = $item( $m );
+            else if ( $state === 'failed' )
+            {
+                $entry = $item( $m );
+                $runId = isset( $m['record']['run_id'] ) ? $m['record']['run_id'] : null;
+                if ( $runId )
+                    $entry['url'] = $logLink( $runId );
+                $failed[] = $entry;
+            }
+        }
+        $orphans = array();
+        foreach ( isset( $report['orphans'] ) ? (array)$report['orphans'] : array() as $o )
+            $orphans[] = array( 'id' => (string)$o['id'], 'source' => (string)$o['source'], 'state' => (string)$o['state'],
+                                'url' => $logLink( isset( $o['run_id'] ) ? $o['run_id'] : null ) );
+        $last = null;
+        if ( !empty( $report['runs'][0] ) )
+        {
+            $run = $report['runs'][0];
+            $caption = !empty( $run['caption_post'] ) ? $run['caption_post'] : ( !empty( $run['caption_pre'] ) ? $run['caption_pre'] : '' );
+            $last = array( 'id' => (string)$run['run_id'], 'state' => (string)$run['state'],
+                           'started' => isset( $run['started_at'] ) ? $run['started_at'] : null,
+                           'finished' => isset( $run['finished_at'] ) ? $run['finished_at'] : null,
+                           'by' => (string)( isset( $run['run_by'] ) ? $run['run_by'] : '' ),
+                           'caption' => (string)$caption, 'tag' => (string)( isset( $run['tag_name'] ) ? $run['tag_name'] : '' ),
+                           'push' => (string)( isset( $run['push_state'] ) ? $run['push_state'] : '' ),
+                           'message' => isset( $run['state'] ) && $run['state'] === 'failed' && isset( $run['message'] ) ? substr( (string)$run['message'], 0, 300 ) : '',
+                           'url' => $logLink( $run['run_id'] ) );
+        }
+        $lock = null;
+        if ( !empty( $report['lock'] ) && is_array( $report['lock'] ) )
+        {
+            $h = $report['lock'];
+            $lock = array( 'purpose' => (string)( isset( $h['purpose'] ) ? $h['purpose'] : '' ), 'by' => (string)( isset( $h['user'] ) ? $h['user'] : '' ),
+                           'started' => !empty( $h['started'] ) && is_numeric( $h['started'] ) ? date( 'c', (int)$h['started'] ) : null,
+                           'url' => $link( 'migration/status' ) );
+        }
+        return array(
+            'pending' => array_slice( $pending, 0, self::MIGRATIONS_LISTED ),
+            'more' => max( 0, count( $pending ) - self::MIGRATIONS_LISTED ),
+            'failed' => $failed,
+            'orphans' => $orphans,
+            'last' => $last,
+            'lock' => $lock,
+            'table' => !isset( $report['table'] ) || (bool)$report['table'],
+            'problems' => isset( $report['errors'] ) ? count( (array)$report['errors'] ) : 0,
+            'attention' => count( $pending ) + count( $failed ) + count( $orphans ),
+            'url' => $link( 'migration/status' ),
+        );
+    }
+
     // ------------------------------------------------------------------------------------------------ the inbox
 
     /** @return bool the user may use the kernel's collaboration (the module's policy), where the approvals are */

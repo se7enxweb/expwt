@@ -1699,5 +1699,125 @@
         <source>Calendar</source>
         <translation>ዓውደ ኣዋርሕ</translation>
     </message>
+    <message>
+        <source>The migrations cannot be read now.</source>
+        <translation>ማይግሬሽናት ሕጂ ክንበቡ ኣይክእሉን።</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>ፈሺሉ</translation>
+    </message>
+    <message>
+        <source>Running</source>
+        <translation>ይሰርሕ ኣሎ</translation>
+    </message>
+    <message>
+        <source>Rolled back</source>
+        <translation>ተመሊሱ</translation>
+    </message>
+    <message>
+        <source>Pushed</source>
+        <translation>ተሰዲዱ</translation>
+    </message>
+    <message>
+        <source>Waiting for its push</source>
+        <translation>ንምስዳድ ይጽበ</translation>
+    </message>
+    <message>
+        <source>Off</source>
+        <translation>ጠፊኡ</translation>
+    </message>
+    <message>
+        <source>No remote</source>
+        <translation>ርሑቕ መኽዘን የለን</translation>
+    </message>
+    <message>
+        <source>Nothing to push</source>
+        <translation>ዝስደድ የለን</translation>
+    </message>
+    <message>
+        <source>Read only: running and rolling back stay in the administration.</source>
+        <translation>ንምንባብ ጥራይ: ምስራሕን ምምላስን ኣብ ምምሕዳር ይካየዱ።</translation>
+    </message>
+    <message>
+        <source>The migration tables do not exist yet: exp:upgrade --apply makes them.</source>
+        <translation>ሰሌዳታት ማይግሬሽን ገና የለዉን: exp:upgrade --apply ይፈጥሮም።</translation>
+    </message>
+    <message>
+        <source>A run is active</source>
+        <translation>ሓደ ምስራሕ ንጡፍ እዩ</translation>
+    </message>
+    <message>
+        <source>%purpose, by %user since %time</source>
+        <translation>%purpose፣ ብ %user ካብ %time</translation>
+    </message>
+    <message>
+        <source>%n problems reading the migrations</source>
+        <translation>ማይግሬሽናት ኣብ ምንባብ %n ጸገማት</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>ኣብ ምጽባይ</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>ዝጽበ ማይግሬሽን የለን።</translation>
+    </message>
+    <message>
+        <source>%n more in the administration</source>
+        <translation>ኣብ ምምሕዳር %n ተወሰኽቲ</translation>
+    </message>
+    <message>
+        <source>Recorded, but the file is gone</source>
+        <translation>ተመዝጊቡ፣ ግን እቲ ፋይል የለን</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>ናይ መወዳእታ ምስራሕ</translation>
+    </message>
+    <message>
+        <source>No migration has run yet.</source>
+        <translation>ገና ዝሰርሐ ማይግሬሽን የለን።</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>ምስራሕ</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>ኩነታት</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>ተጀሚሩ</translation>
+    </message>
+    <message>
+        <source>Finished</source>
+        <translation>ተወዲኡ</translation>
+    </message>
+    <message>
+        <source>Run by</source>
+        <translation>ዘሰርሖ</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>ርእሲ</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>ታግ</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>ምስዳድ</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>ማይግሬሽናት</translation>
+    </message>
+    <message>
+        <source>%n migrations need attention</source>
+        <translation>%n ማይግሬሽናት ኣቓልቦ የድልዮም</translation>
+    </message>
 </context>
 </TS>

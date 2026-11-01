@@ -1699,5 +1699,125 @@
         <source>Calendar</source>
         <translation>Kalendaro</translation>
     </message>
+    <message>
+        <source>The migrations cannot be read now.</source>
+        <translation>La migradoj ne legeblas nun.</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Malsukcesis</translation>
+    </message>
+    <message>
+        <source>Running</source>
+        <translation>Rulata</translation>
+    </message>
+    <message>
+        <source>Rolled back</source>
+        <translation>Malfarita</translation>
+    </message>
+    <message>
+        <source>Pushed</source>
+        <translation>Puŝita</translation>
+    </message>
+    <message>
+        <source>Waiting for its push</source>
+        <translation>Atendas sian puŝon</translation>
+    </message>
+    <message>
+        <source>Off</source>
+        <translation>Malŝaltita</translation>
+    </message>
+    <message>
+        <source>No remote</source>
+        <translation>Neniu fora deponejo</translation>
+    </message>
+    <message>
+        <source>Nothing to push</source>
+        <translation>Nenio por puŝi</translation>
+    </message>
+    <message>
+        <source>Read only: running and rolling back stay in the administration.</source>
+        <translation>Nur legebla: rulado kaj malfarado restas en la administrado.</translation>
+    </message>
+    <message>
+        <source>The migration tables do not exist yet: exp:upgrade --apply makes them.</source>
+        <translation>La migradaj tabeloj ankoraŭ ne ekzistas: exp:upgrade --apply kreas ilin.</translation>
+    </message>
+    <message>
+        <source>A run is active</source>
+        <translation>Rulado estas aktiva</translation>
+    </message>
+    <message>
+        <source>%purpose, by %user since %time</source>
+        <translation>%purpose, de %user ekde %time</translation>
+    </message>
+    <message>
+        <source>%n problems reading the migrations</source>
+        <translation>%n problemoj dum legado de la migradoj</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Atendata</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>Neniu migrado atendas.</translation>
+    </message>
+    <message>
+        <source>%n more in the administration</source>
+        <translation>%n pliaj en la administrado</translation>
+    </message>
+    <message>
+        <source>Recorded, but the file is gone</source>
+        <translation>Registrita, sed la dosiero malaperis</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>Lasta rulado</translation>
+    </message>
+    <message>
+        <source>No migration has run yet.</source>
+        <translation>Neniu migrado ankoraŭ ruliĝis.</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Rulado</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Stato</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Komencita</translation>
+    </message>
+    <message>
+        <source>Finished</source>
+        <translation>Finita</translation>
+    </message>
+    <message>
+        <source>Run by</source>
+        <translation>Rulita de</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>Titolo</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>Etikedo</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>Puŝo</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Migradoj</translation>
+    </message>
+    <message>
+        <source>%n migrations need attention</source>
+        <translation>%n migradoj bezonas atenton</translation>
+    </message>
 </context>
 </TS>

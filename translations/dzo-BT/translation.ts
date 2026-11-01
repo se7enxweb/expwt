@@ -1699,5 +1699,125 @@
         <source>Calendar</source>
         <translation>ཟླ་ཐོ།</translation>
     </message>
+    <message>
+        <source>The migrations cannot be read now.</source>
+        <translation>ད་ལྟོ་ སྤོ་སྒྱུར་ཚུ་ ལྷག་མ་ཚུགས།</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>འཐུས་ཤོར་བྱུང་ཡི།</translation>
+    </message>
+    <message>
+        <source>Running</source>
+        <translation>གཡོག་བཀོལ་དོ།</translation>
+    </message>
+    <message>
+        <source>Rolled back</source>
+        <translation>ལོག་བཏང་ཡི།</translation>
+    </message>
+    <message>
+        <source>Pushed</source>
+        <translation>བཏང་ཡི།</translation>
+    </message>
+    <message>
+        <source>Waiting for its push</source>
+        <translation>བཏང་ནི་ལུ་ བསྒུག་དོ།</translation>
+    </message>
+    <message>
+        <source>Off</source>
+        <translation>ཁ་བསྡམས།</translation>
+    </message>
+    <message>
+        <source>No remote</source>
+        <translation>ཐག་རིང་མཛོད་མེད།</translation>
+    </message>
+    <message>
+        <source>Nothing to push</source>
+        <translation>བཏང་ནི་ག་ནི་ཡང་མེད།</translation>
+    </message>
+    <message>
+        <source>Read only: running and rolling back stay in the administration.</source>
+        <translation>ལྷག་ནི་རྐྱངམ་ཅིག: གཡོག་བཀོལ་ནི་དང་ ལོག་གཏང་ནི་ བདག་སྐྱོང་ནང་ལུ་ ལུསཔ་ཨིན།</translation>
+    </message>
+    <message>
+        <source>The migration tables do not exist yet: exp:upgrade --apply makes them.</source>
+        <translation>སྤོ་སྒྱུར་ཐིག་ཁྲམ་ཚུ་ ད་ཚུན་ མེད: exp:upgrade --apply གིས་ བཟོཝ་ཨིན།</translation>
+    </message>
+    <message>
+        <source>A run is active</source>
+        <translation>གཡོག་བཀོལ་གཅིག་ ལག་ལེན་འཐབ་དོ།</translation>
+    </message>
+    <message>
+        <source>%purpose, by %user since %time</source>
+        <translation>%purpose, %user གིས་ %time ལས་ཚུར།</translation>
+    </message>
+    <message>
+        <source>%n problems reading the migrations</source>
+        <translation>སྤོ་སྒྱུར་ལྷག་པའི་སྐབས་ དཀའ་ངལ་ %n</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>བསྒུག་དོ།</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>བསྒུག་དོ་བའི་ སྤོ་སྒྱུར་མེད།</translation>
+    </message>
+    <message>
+        <source>%n more in the administration</source>
+        <translation>བདག་སྐྱོང་ནང་ ཧེང་བཀལ་ %n</translation>
+    </message>
+    <message>
+        <source>Recorded, but the file is gone</source>
+        <translation>ཐོ་བཀོད་ཡོདཔ་ དེ་འབདཝ་ད་ ཡིག་སྣོད་མེད།</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>མཇུག་གི་གཡོག་བཀོལ།</translation>
+    </message>
+    <message>
+        <source>No migration has run yet.</source>
+        <translation>ད་ཚུན་ སྤོ་སྒྱུར་ག་ཡང་ གཡོག་མ་བཀོལ།</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>གཡོག་བཀོལ།</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>གནས་སྟངས།</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>འགོ་བཙུགས།</translation>
+    </message>
+    <message>
+        <source>Finished</source>
+        <translation>ཚར་ཡི།</translation>
+    </message>
+    <message>
+        <source>Run by</source>
+        <translation>གཡོག་བཀོལ་མི།</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>མགོ་མིང་།</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>ངོ་རྟགས།</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>བཏང་ནི།</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>སྤོ་སྒྱུར་ཚུ།</translation>
+    </message>
+    <message>
+        <source>%n migrations need attention</source>
+        <translation>སྤོ་སྒྱུར་ %n ལུ་ དོ་སྣང་དགོ།</translation>
+    </message>
 </context>
 </TS>

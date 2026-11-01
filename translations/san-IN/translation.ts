@@ -1699,5 +1699,125 @@
         <source>Calendar</source>
         <translation>पञ्चाङ्गम्</translation>
     </message>
+    <message>
+        <source>The migrations cannot be read now.</source>
+        <translation>स्थानान्तरणानि इदानीं पठितुं न शक्यन्ते।</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>विफलम्</translation>
+    </message>
+    <message>
+        <source>Running</source>
+        <translation>प्रचलति</translation>
+    </message>
+    <message>
+        <source>Rolled back</source>
+        <translation>प्रत्यावर्तितम्</translation>
+    </message>
+    <message>
+        <source>Pushed</source>
+        <translation>प्रेषितम्</translation>
+    </message>
+    <message>
+        <source>Waiting for its push</source>
+        <translation>प्रेषणं प्रतीक्षते</translation>
+    </message>
+    <message>
+        <source>Off</source>
+        <translation>निष्क्रियम्</translation>
+    </message>
+    <message>
+        <source>No remote</source>
+        <translation>दूरस्थं भाण्डारं नास्ति</translation>
+    </message>
+    <message>
+        <source>Nothing to push</source>
+        <translation>प्रेषणीयं किमपि नास्ति</translation>
+    </message>
+    <message>
+        <source>Read only: running and rolling back stay in the administration.</source>
+        <translation>केवलं पठनाय: चालनं प्रत्यावर्तनं च प्रशासने एव भवतः।</translation>
+    </message>
+    <message>
+        <source>The migration tables do not exist yet: exp:upgrade --apply makes them.</source>
+        <translation>स्थानान्तरणसारण्यः अद्यापि न सन्ति: exp:upgrade --apply ताः रचयति।</translation>
+    </message>
+    <message>
+        <source>A run is active</source>
+        <translation>एकं चालनं सक्रियम् अस्ति</translation>
+    </message>
+    <message>
+        <source>%purpose, by %user since %time</source>
+        <translation>%purpose, %user द्वारा %time तः</translation>
+    </message>
+    <message>
+        <source>%n problems reading the migrations</source>
+        <translation>स्थानान्तरणानां पठने %n समस्याः</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>प्रतीक्षमाणम्</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>किमपि स्थानान्तरणं प्रतीक्षमाणं नास्ति।</translation>
+    </message>
+    <message>
+        <source>%n more in the administration</source>
+        <translation>प्रशासने अन्यानि %n</translation>
+    </message>
+    <message>
+        <source>Recorded, but the file is gone</source>
+        <translation>अभिलिखितम्, किन्तु सञ्चिका नास्ति</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>अन्तिमं चालनम्</translation>
+    </message>
+    <message>
+        <source>No migration has run yet.</source>
+        <translation>अद्यापि किमपि स्थानान्तरणं न चालितम्।</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>चालनम्</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>स्थितिः</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>आरब्धम्</translation>
+    </message>
+    <message>
+        <source>Finished</source>
+        <translation>समाप्तम्</translation>
+    </message>
+    <message>
+        <source>Run by</source>
+        <translation>चालकः</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>शीर्षकम्</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>चिह्नम्</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>प्रेषणम्</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>स्थानान्तरणानि</translation>
+    </message>
+    <message>
+        <source>%n migrations need attention</source>
+        <translation>%n स्थानान्तरणेषु ध्यानम् आवश्यकम्</translation>
+    </message>
 </context>
 </TS>

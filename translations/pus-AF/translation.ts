@@ -1699,5 +1699,125 @@
         <source>Calendar</source>
         <translation>جنتري</translation>
     </message>
+    <message>
+        <source>The migrations cannot be read now.</source>
+        <translation>مهاجرتونه اوس نه شي لوستل کېدای.</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>ناکام</translation>
+    </message>
+    <message>
+        <source>Running</source>
+        <translation>روان دی</translation>
+    </message>
+    <message>
+        <source>Rolled back</source>
+        <translation>بېرته وګرځول شو</translation>
+    </message>
+    <message>
+        <source>Pushed</source>
+        <translation>واستول شو</translation>
+    </message>
+    <message>
+        <source>Waiting for its push</source>
+        <translation>د استولو په تمه</translation>
+    </message>
+    <message>
+        <source>Off</source>
+        <translation>بند</translation>
+    </message>
+    <message>
+        <source>No remote</source>
+        <translation>لرې زېرمتون نشته</translation>
+    </message>
+    <message>
+        <source>Nothing to push</source>
+        <translation>د استولو لپاره هېڅ نشته</translation>
+    </message>
+    <message>
+        <source>Read only: running and rolling back stay in the administration.</source>
+        <translation>یوازې لوستل: چلول او بېرته ګرځول په ادارې کې پاتې کېږي.</translation>
+    </message>
+    <message>
+        <source>The migration tables do not exist yet: exp:upgrade --apply makes them.</source>
+        <translation>د مهاجرت جدولونه لا نشته: exp:upgrade --apply یې جوړوي.</translation>
+    </message>
+    <message>
+        <source>A run is active</source>
+        <translation>یو چلون فعال دی</translation>
+    </message>
+    <message>
+        <source>%purpose, by %user since %time</source>
+        <translation>%purpose، د %user له خوا له %time راهیسې</translation>
+    </message>
+    <message>
+        <source>%n problems reading the migrations</source>
+        <translation>د مهاجرتونو په لوستلو کې %n ستونزې</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>پاتې</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>هېڅ مهاجرت پاتې نه دی.</translation>
+    </message>
+    <message>
+        <source>%n more in the administration</source>
+        <translation>په ادارې کې %n نور</translation>
+    </message>
+    <message>
+        <source>Recorded, but the file is gone</source>
+        <translation>ثبت شوی، خو دوتنه نشته</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>وروستی چلون</translation>
+    </message>
+    <message>
+        <source>No migration has run yet.</source>
+        <translation>تر اوسه هېڅ مهاجرت نه دی چلول شوی.</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>چلون</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>حالت</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>پیل شو</translation>
+    </message>
+    <message>
+        <source>Finished</source>
+        <translation>پای ته ورسېد</translation>
+    </message>
+    <message>
+        <source>Run by</source>
+        <translation>چلوونکی</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>سرلیک</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>ټګ</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>استول</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>مهاجرتونه</translation>
+    </message>
+    <message>
+        <source>%n migrations need attention</source>
+        <translation>%n مهاجرتونه پاملرنې ته اړتیا لري</translation>
+    </message>
 </context>
 </TS>

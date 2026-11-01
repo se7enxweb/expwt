@@ -1699,5 +1699,125 @@
         <source>Calendar</source>
         <translation>Calendar</translation>
     </message>
+    <message>
+        <source>The migrations cannot be read now.</source>
+        <translation>We no fit read di migrations now.</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>E fail</translation>
+    </message>
+    <message>
+        <source>Running</source>
+        <translation>E dey run</translation>
+    </message>
+    <message>
+        <source>Rolled back</source>
+        <translation>Dem don roll am back</translation>
+    </message>
+    <message>
+        <source>Pushed</source>
+        <translation>E don push</translation>
+    </message>
+    <message>
+        <source>Waiting for its push</source>
+        <translation>E dey wait make dem push am</translation>
+    </message>
+    <message>
+        <source>Off</source>
+        <translation>E off</translation>
+    </message>
+    <message>
+        <source>No remote</source>
+        <translation>No remote</translation>
+    </message>
+    <message>
+        <source>Nothing to push</source>
+        <translation>Nothing dey to push</translation>
+    </message>
+    <message>
+        <source>Read only: running and rolling back stay in the administration.</source>
+        <translation>Na only to read: to run and to roll back still dey for di administration.</translation>
+    </message>
+    <message>
+        <source>The migration tables do not exist yet: exp:upgrade --apply makes them.</source>
+        <translation>Di migration tables never dey yet: exp:upgrade --apply dey make dem.</translation>
+    </message>
+    <message>
+        <source>A run is active</source>
+        <translation>One run dey active</translation>
+    </message>
+    <message>
+        <source>%purpose, by %user since %time</source>
+        <translation>%purpose, by %user since %time</translation>
+    </message>
+    <message>
+        <source>%n problems reading the migrations</source>
+        <translation>%n wahala as we dey read di migrations</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>E dey wait</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>No migration dey wait.</translation>
+    </message>
+    <message>
+        <source>%n more in the administration</source>
+        <translation>%n more for di administration</translation>
+    </message>
+    <message>
+        <source>Recorded, but the file is gone</source>
+        <translation>Dem record am, but di file don go</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>Last run</translation>
+    </message>
+    <message>
+        <source>No migration has run yet.</source>
+        <translation>No migration don run yet.</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Run</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Status</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>E start</translation>
+    </message>
+    <message>
+        <source>Finished</source>
+        <translation>E finish</translation>
+    </message>
+    <message>
+        <source>Run by</source>
+        <translation>Who run am</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>Caption</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>Tag</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>Push</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Migrations</translation>
+    </message>
+    <message>
+        <source>%n migrations need attention</source>
+        <translation>%n migrations need attention</translation>
+    </message>
 </context>
 </TS>

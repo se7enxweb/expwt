@@ -1699,5 +1699,125 @@
         <source>Calendar</source>
         <translation>Calendar</translation>
     </message>
+    <message>
+        <source>The migrations cannot be read now.</source>
+        <translation>The migrations cannot be read now.</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Failed</translation>
+    </message>
+    <message>
+        <source>Running</source>
+        <translation>Running</translation>
+    </message>
+    <message>
+        <source>Rolled back</source>
+        <translation>Rolled back</translation>
+    </message>
+    <message>
+        <source>Pushed</source>
+        <translation>Pushed</translation>
+    </message>
+    <message>
+        <source>Waiting for its push</source>
+        <translation>Waiting for its push</translation>
+    </message>
+    <message>
+        <source>Off</source>
+        <translation>Off</translation>
+    </message>
+    <message>
+        <source>No remote</source>
+        <translation>No remote</translation>
+    </message>
+    <message>
+        <source>Nothing to push</source>
+        <translation>Nothing to push</translation>
+    </message>
+    <message>
+        <source>Read only: running and rolling back stay in the administration.</source>
+        <translation>Read only: running and rolling back stay in the administration.</translation>
+    </message>
+    <message>
+        <source>The migration tables do not exist yet: exp:upgrade --apply makes them.</source>
+        <translation>The migration tables do not exist yet: exp:upgrade --apply makes them.</translation>
+    </message>
+    <message>
+        <source>A run is active</source>
+        <translation>A run is active</translation>
+    </message>
+    <message>
+        <source>%purpose, by %user since %time</source>
+        <translation>%purpose, by %user since %time</translation>
+    </message>
+    <message>
+        <source>%n problems reading the migrations</source>
+        <translation>%n problems reading the migrations</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Pending</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>No migration is pending.</translation>
+    </message>
+    <message>
+        <source>%n more in the administration</source>
+        <translation>%n more in the administration</translation>
+    </message>
+    <message>
+        <source>Recorded, but the file is gone</source>
+        <translation>Recorded, but the file is gone</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>Last run</translation>
+    </message>
+    <message>
+        <source>No migration has run yet.</source>
+        <translation>No migration has run yet.</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Run</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>State</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Started</translation>
+    </message>
+    <message>
+        <source>Finished</source>
+        <translation>Finished</translation>
+    </message>
+    <message>
+        <source>Run by</source>
+        <translation>Run by</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>Caption</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>Tag</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>Push</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Migrations</translation>
+    </message>
+    <message>
+        <source>%n migrations need attention</source>
+        <translation>%n migrations need attention</translation>
+    </message>
 </context>
 </TS>

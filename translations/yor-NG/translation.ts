@@ -1699,5 +1699,125 @@
         <source>Calendar</source>
         <translation>Kàlẹ́ńdà</translation>
     </message>
+    <message>
+        <source>The migrations cannot be read now.</source>
+        <translation>A kò lè ka àwọn ìṣípò báyìí.</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Kùnà</translation>
+    </message>
+    <message>
+        <source>Running</source>
+        <translation>Ń ṣiṣẹ́</translation>
+    </message>
+    <message>
+        <source>Rolled back</source>
+        <translation>Ti dá padà</translation>
+    </message>
+    <message>
+        <source>Pushed</source>
+        <translation>Ti fi ránṣẹ́</translation>
+    </message>
+    <message>
+        <source>Waiting for its push</source>
+        <translation>Ń dúró de fífiránṣẹ́</translation>
+    </message>
+    <message>
+        <source>Off</source>
+        <translation>Pa</translation>
+    </message>
+    <message>
+        <source>No remote</source>
+        <translation>Kò sí ibi ìpamọ́ jíjìnnà</translation>
+    </message>
+    <message>
+        <source>Nothing to push</source>
+        <translation>Kò sí nǹkan láti fi ránṣẹ́</translation>
+    </message>
+    <message>
+        <source>Read only: running and rolling back stay in the administration.</source>
+        <translation>Kíkà nìkan: ṣíṣe àti dídápadà wà nínú ìṣàkóso.</translation>
+    </message>
+    <message>
+        <source>The migration tables do not exist yet: exp:upgrade --apply makes them.</source>
+        <translation>Àwọn tábìlì ìṣípò kò tíì sí: exp:upgrade --apply ló ń ṣe wọ́n.</translation>
+    </message>
+    <message>
+        <source>A run is active</source>
+        <translation>Ìṣiṣẹ́ kan ń lọ lọ́wọ́</translation>
+    </message>
+    <message>
+        <source>%purpose, by %user since %time</source>
+        <translation>%purpose, láti ọwọ́ %user láti %time</translation>
+    </message>
+    <message>
+        <source>%n problems reading the migrations</source>
+        <translation>Ìṣòro %n nígbà kíka àwọn ìṣípò</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Ń dúró</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>Kò sí ìṣípò tí ń dúró.</translation>
+    </message>
+    <message>
+        <source>%n more in the administration</source>
+        <translation>%n mìíràn nínú ìṣàkóso</translation>
+    </message>
+    <message>
+        <source>Recorded, but the file is gone</source>
+        <translation>Ti gba sílẹ̀, ṣùgbọ́n fáìlì náà ti lọ</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>Ìṣiṣẹ́ tó kẹ́yìn</translation>
+    </message>
+    <message>
+        <source>No migration has run yet.</source>
+        <translation>Kò tíì sí ìṣípò tí a ṣiṣẹ́.</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Ìṣiṣẹ́</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Ipò</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Bẹ̀rẹ̀</translation>
+    </message>
+    <message>
+        <source>Finished</source>
+        <translation>Parí</translation>
+    </message>
+    <message>
+        <source>Run by</source>
+        <translation>Ẹni tó ṣiṣẹ́ rẹ̀</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>Àkọlé</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>Àmì</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>Fífiránṣẹ́</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Àwọn ìṣípò</translation>
+    </message>
+    <message>
+        <source>%n migrations need attention</source>
+        <translation>Ìṣípò %n nílò àkíyèsí</translation>
+    </message>
 </context>
 </TS>

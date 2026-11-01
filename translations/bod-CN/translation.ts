@@ -1699,5 +1699,125 @@
         <source>Calendar</source>
         <translation>ལོ་ཐོ།</translation>
     </message>
+    <message>
+        <source>The migrations cannot be read now.</source>
+        <translation>ད་ལྟ་སྤོ་སྒྱུར་ཀློག་མི་ཐུབ།</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>ཕམ་སོང་།</translation>
+    </message>
+    <message>
+        <source>Running</source>
+        <translation>འཁོར་བཞིན་པ།</translation>
+    </message>
+    <message>
+        <source>Rolled back</source>
+        <translation>ཕྱིར་ལོག་བྱས་ཟིན།</translation>
+    </message>
+    <message>
+        <source>Pushed</source>
+        <translation>བསྐུར་ཟིན།</translation>
+    </message>
+    <message>
+        <source>Waiting for its push</source>
+        <translation>བསྐུར་རྒྱུ་སྒུག་བཞིན་པ།</translation>
+    </message>
+    <message>
+        <source>Off</source>
+        <translation>ཁ་བརྒྱབ།</translation>
+    </message>
+    <message>
+        <source>No remote</source>
+        <translation>ཐག་རིང་མཛོད་ཁང་མེད།</translation>
+    </message>
+    <message>
+        <source>Nothing to push</source>
+        <translation>བསྐུར་རྒྱུ་ཅི་ཡང་མེད།</translation>
+    </message>
+    <message>
+        <source>Read only: running and rolling back stay in the administration.</source>
+        <translation>ཀློག་པ་ཁོ་ན: འཁོར་སྐྱོད་དང་ཕྱིར་ལོག་ནི་དོ་དམ་ནང་ལུས་ཡོད།</translation>
+    </message>
+    <message>
+        <source>The migration tables do not exist yet: exp:upgrade --apply makes them.</source>
+        <translation>སྤོ་སྒྱུར་རེའུ་མིག་ད་དུང་མེད: exp:upgrade --apply ཡིས་བཟོ་གི་ཡོད།</translation>
+    </message>
+    <message>
+        <source>A run is active</source>
+        <translation>འཁོར་སྐྱོད་ཅིག་འགུལ་བཞིན་ཡོད།</translation>
+    </message>
+    <message>
+        <source>%purpose, by %user since %time</source>
+        <translation>%purpose, %user ཡིས་ %time ནས།</translation>
+    </message>
+    <message>
+        <source>%n problems reading the migrations</source>
+        <translation>སྤོ་སྒྱུར་ཀློག་སྐབས་དཀའ་ངལ་ %n</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>སྒུག་བཞིན་པ།</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>སྒུག་བཞིན་པའི་སྤོ་སྒྱུར་མེད།</translation>
+    </message>
+    <message>
+        <source>%n more in the administration</source>
+        <translation>དོ་དམ་ནང་ད་དུང་ %n</translation>
+    </message>
+    <message>
+        <source>Recorded, but the file is gone</source>
+        <translation>ཐོ་འགོད་བྱས་ཡོད། འོན་ཀྱང་ཡིག་ཆ་མེད།</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>མཐའ་མའི་འཁོར་སྐྱོད།</translation>
+    </message>
+    <message>
+        <source>No migration has run yet.</source>
+        <translation>ད་བར་སྤོ་སྒྱུར་གང་ཡང་འཁོར་མེད།</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>འཁོར་སྐྱོད།</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>གནས་སྟངས།</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>འགོ་བཙུགས།</translation>
+    </message>
+    <message>
+        <source>Finished</source>
+        <translation>ལེགས་གྲུབ།</translation>
+    </message>
+    <message>
+        <source>Run by</source>
+        <translation>འཁོར་མཁན།</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>འགོ་བརྗོད།</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>རྟགས།</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>བསྐུར་བ།</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>སྤོ་སྒྱུར།</translation>
+    </message>
+    <message>
+        <source>%n migrations need attention</source>
+        <translation>སྤོ་སྒྱུར་ %n ལ་དོ་སྣང་དགོས།</translation>
+    </message>
 </context>
 </TS>

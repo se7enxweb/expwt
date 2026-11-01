@@ -1699,5 +1699,125 @@
         <source>Calendar</source>
         <translation>Ikhalenda</translation>
     </message>
+    <message>
+        <source>The migrations cannot be read now.</source>
+        <translation>Ukufuduswa akukwazi ukufundwa manje.</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Kwehlulekile</translation>
+    </message>
+    <message>
+        <source>Running</source>
+        <translation>Kuyasebenza</translation>
+    </message>
+    <message>
+        <source>Rolled back</source>
+        <translation>Kubuyiselwe emuva</translation>
+    </message>
+    <message>
+        <source>Pushed</source>
+        <translation>Kuthunyelwe</translation>
+    </message>
+    <message>
+        <source>Waiting for its push</source>
+        <translation>Kulinde ukuthunyelwa</translation>
+    </message>
+    <message>
+        <source>Off</source>
+        <translation>Kucishiwe</translation>
+    </message>
+    <message>
+        <source>No remote</source>
+        <translation>Ayikho indawo ekude</translation>
+    </message>
+    <message>
+        <source>Nothing to push</source>
+        <translation>Akukho okokuthumela</translation>
+    </message>
+    <message>
+        <source>Read only: running and rolling back stay in the administration.</source>
+        <translation>Ukufunda kuphela: ukuqhuba nokubuyisela emuva kwenziwa kwezokuphatha.</translation>
+    </message>
+    <message>
+        <source>The migration tables do not exist yet: exp:upgrade --apply makes them.</source>
+        <translation>Amathebula okufuduswa awekho okwamanje: exp:upgrade --apply iyawenza.</translation>
+    </message>
+    <message>
+        <source>A run is active</source>
+        <translation>Ukuqhuba kuyasebenza</translation>
+    </message>
+    <message>
+        <source>%purpose, by %user since %time</source>
+        <translation>%purpose, ngu %user kusukela ngo %time</translation>
+    </message>
+    <message>
+        <source>%n problems reading the migrations</source>
+        <translation>Izinkinga ezi %n ekufundeni ukufuduswa</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Kulindile</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>Akukho kufuduswa okulindile.</translation>
+    </message>
+    <message>
+        <source>%n more in the administration</source>
+        <translation>Okunye okungu %n kwezokuphatha</translation>
+    </message>
+    <message>
+        <source>Recorded, but the file is gone</source>
+        <translation>Kurekhodiwe, kodwa ifayela alisekho</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>Ukuqhuba kokugcina</translation>
+    </message>
+    <message>
+        <source>No migration has run yet.</source>
+        <translation>Akukho kufuduswa okuqhutshwe okwamanje.</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Ukuqhuba</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Isimo</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Kuqalile</translation>
+    </message>
+    <message>
+        <source>Finished</source>
+        <translation>Kuqediwe</translation>
+    </message>
+    <message>
+        <source>Run by</source>
+        <translation>Kuqhutshwe ngu</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>Isihloko</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>Ithegi</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>Ukuthumela</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Ukufuduswa</translation>
+    </message>
+    <message>
+        <source>%n migrations need attention</source>
+        <translation>Ukufuduswa okungu %n kudinga ukunakwa</translation>
+    </message>
 </context>
 </TS>

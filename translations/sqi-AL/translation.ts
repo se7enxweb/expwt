@@ -1699,5 +1699,125 @@
         <source>Calendar</source>
         <translation>Kalendar</translation>
     </message>
+    <message>
+        <source>The migrations cannot be read now.</source>
+        <translation>Migrimet nuk mund të lexohen tani.</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Dështoi</translation>
+    </message>
+    <message>
+        <source>Running</source>
+        <translation>Në ekzekutim</translation>
+    </message>
+    <message>
+        <source>Rolled back</source>
+        <translation>U rikthye</translation>
+    </message>
+    <message>
+        <source>Pushed</source>
+        <translation>U dërgua</translation>
+    </message>
+    <message>
+        <source>Waiting for its push</source>
+        <translation>Në pritje të dërgimit</translation>
+    </message>
+    <message>
+        <source>Off</source>
+        <translation>Joaktiv</translation>
+    </message>
+    <message>
+        <source>No remote</source>
+        <translation>Pa depo të largët</translation>
+    </message>
+    <message>
+        <source>Nothing to push</source>
+        <translation>Asgjë për të dërguar</translation>
+    </message>
+    <message>
+        <source>Read only: running and rolling back stay in the administration.</source>
+        <translation>Vetëm për lexim: ekzekutimi dhe rikthimi bëhen në administrim.</translation>
+    </message>
+    <message>
+        <source>The migration tables do not exist yet: exp:upgrade --apply makes them.</source>
+        <translation>Tabelat e migrimeve nuk ekzistojnë ende: exp:upgrade --apply i krijon.</translation>
+    </message>
+    <message>
+        <source>A run is active</source>
+        <translation>Një ekzekutim është aktiv</translation>
+    </message>
+    <message>
+        <source>%purpose, by %user since %time</source>
+        <translation>%purpose, nga %user që nga %time</translation>
+    </message>
+    <message>
+        <source>%n problems reading the migrations</source>
+        <translation>%n probleme gjatë leximit të migrimeve</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Në pritje</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>Asnjë migrim nuk është në pritje.</translation>
+    </message>
+    <message>
+        <source>%n more in the administration</source>
+        <translation>Edhe %n në administrim</translation>
+    </message>
+    <message>
+        <source>Recorded, but the file is gone</source>
+        <translation>I regjistruar, por skedari mungon</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>Ekzekutimi i fundit</translation>
+    </message>
+    <message>
+        <source>No migration has run yet.</source>
+        <translation>Ende nuk është ekzekutuar asnjë migrim.</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Ekzekutimi</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Gjendja</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Filloi</translation>
+    </message>
+    <message>
+        <source>Finished</source>
+        <translation>Përfundoi</translation>
+    </message>
+    <message>
+        <source>Run by</source>
+        <translation>Ekzekutuar nga</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>Titulli</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>Etiketa</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>Dërgimi</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Migrimet</translation>
+    </message>
+    <message>
+        <source>%n migrations need attention</source>
+        <translation>%n migrime kërkojnë vëmendje</translation>
+    </message>
 </context>
 </TS>

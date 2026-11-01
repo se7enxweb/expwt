@@ -1699,5 +1699,125 @@
         <source>Calendar</source>
         <translation>Kalendari</translation>
     </message>
+    <message>
+        <source>The migrations cannot be read now.</source>
+        <translation>Flytingarnar kunnu ikki lesast nú.</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Miseydnaðist</translation>
+    </message>
+    <message>
+        <source>Running</source>
+        <translation>Koyrir</translation>
+    </message>
+    <message>
+        <source>Rolled back</source>
+        <translation>Rullað aftur</translation>
+    </message>
+    <message>
+        <source>Pushed</source>
+        <translation>Skumpað</translation>
+    </message>
+    <message>
+        <source>Waiting for its push</source>
+        <translation>Bíðar eftir skumping</translation>
+    </message>
+    <message>
+        <source>Off</source>
+        <translation>Sløkt</translation>
+    </message>
+    <message>
+        <source>No remote</source>
+        <translation>Eingin fjargoymsla</translation>
+    </message>
+    <message>
+        <source>Nothing to push</source>
+        <translation>Einki at skumpa</translation>
+    </message>
+    <message>
+        <source>Read only: running and rolling back stay in the administration.</source>
+        <translation>Bert lesing: koyring og afturrulling verða í umsitingini.</translation>
+    </message>
+    <message>
+        <source>The migration tables do not exist yet: exp:upgrade --apply makes them.</source>
+        <translation>Flytingartalvurnar eru ikki til enn: exp:upgrade --apply ger tær.</translation>
+    </message>
+    <message>
+        <source>A run is active</source>
+        <translation>Ein koyring er virkin</translation>
+    </message>
+    <message>
+        <source>%purpose, by %user since %time</source>
+        <translation>%purpose, av %user síðan %time</translation>
+    </message>
+    <message>
+        <source>%n problems reading the migrations</source>
+        <translation>%n trupulleikar við at lesa flytingarnar</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Bíðar</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>Eingin flyting bíðar.</translation>
+    </message>
+    <message>
+        <source>%n more in the administration</source>
+        <translation>%n fleiri í umsitingini</translation>
+    </message>
+    <message>
+        <source>Recorded, but the file is gone</source>
+        <translation>Skrásett, men fílan er horvin</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>Seinasta koyring</translation>
+    </message>
+    <message>
+        <source>No migration has run yet.</source>
+        <translation>Eingin flyting er koyrd enn.</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Koyring</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Støða</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Byrjað</translation>
+    </message>
+    <message>
+        <source>Finished</source>
+        <translation>Liðugt</translation>
+    </message>
+    <message>
+        <source>Run by</source>
+        <translation>Koyrd av</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>Heiti</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>Merki</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>Skumping</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Flytingar</translation>
+    </message>
+    <message>
+        <source>%n migrations need attention</source>
+        <translation>%n flytingar krevja ans</translation>
+    </message>
 </context>
 </TS>

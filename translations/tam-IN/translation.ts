@@ -1699,5 +1699,125 @@
         <source>Calendar</source>
         <translation>நாட்காட்டி</translation>
     </message>
+    <message>
+        <source>The migrations cannot be read now.</source>
+        <translation>இடம்பெயர்வுகளை இப்போது படிக்க முடியவில்லை.</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>தோல்வியடைந்தது</translation>
+    </message>
+    <message>
+        <source>Running</source>
+        <translation>இயங்குகிறது</translation>
+    </message>
+    <message>
+        <source>Rolled back</source>
+        <translation>திரும்பப்பெறப்பட்டது</translation>
+    </message>
+    <message>
+        <source>Pushed</source>
+        <translation>அனுப்பப்பட்டது</translation>
+    </message>
+    <message>
+        <source>Waiting for its push</source>
+        <translation>அனுப்பக் காத்திருக்கிறது</translation>
+    </message>
+    <message>
+        <source>Off</source>
+        <translation>முடக்கப்பட்டது</translation>
+    </message>
+    <message>
+        <source>No remote</source>
+        <translation>தொலை களஞ்சியம் இல்லை</translation>
+    </message>
+    <message>
+        <source>Nothing to push</source>
+        <translation>அனுப்ப எதுவும் இல்லை</translation>
+    </message>
+    <message>
+        <source>Read only: running and rolling back stay in the administration.</source>
+        <translation>படிக்க மட்டும்: இயக்குவதும் திரும்பப்பெறுவதும் நிர்வாகத்தில் நடைபெறும்.</translation>
+    </message>
+    <message>
+        <source>The migration tables do not exist yet: exp:upgrade --apply makes them.</source>
+        <translation>இடம்பெயர்வு அட்டவணைகள் இன்னும் இல்லை: exp:upgrade --apply அவற்றை உருவாக்கும்.</translation>
+    </message>
+    <message>
+        <source>A run is active</source>
+        <translation>ஒரு ஓட்டம் செயலில் உள்ளது</translation>
+    </message>
+    <message>
+        <source>%purpose, by %user since %time</source>
+        <translation>%purpose, %user மூலம் %time முதல்</translation>
+    </message>
+    <message>
+        <source>%n problems reading the migrations</source>
+        <translation>இடம்பெயர்வுகளைப் படிப்பதில் %n சிக்கல்கள்</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>நிலுவையில்</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>நிலுவையில் உள்ள இடம்பெயர்வு எதுவும் இல்லை.</translation>
+    </message>
+    <message>
+        <source>%n more in the administration</source>
+        <translation>நிர்வாகத்தில் மேலும் %n</translation>
+    </message>
+    <message>
+        <source>Recorded, but the file is gone</source>
+        <translation>பதிவு செய்யப்பட்டது, ஆனால் கோப்பு இல்லை</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>கடைசி ஓட்டம்</translation>
+    </message>
+    <message>
+        <source>No migration has run yet.</source>
+        <translation>இதுவரை எந்த இடம்பெயர்வும் இயக்கப்படவில்லை.</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>ஓட்டம்</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>நிலை</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>தொடங்கியது</translation>
+    </message>
+    <message>
+        <source>Finished</source>
+        <translation>முடிந்தது</translation>
+    </message>
+    <message>
+        <source>Run by</source>
+        <translation>இயக்கியவர்</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>தலைப்பு</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>குறிச்சொல்</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>அனுப்புதல்</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>இடம்பெயர்வுகள்</translation>
+    </message>
+    <message>
+        <source>%n migrations need attention</source>
+        <translation>%n இடம்பெயர்வுகளுக்கு கவனம் தேவை</translation>
+    </message>
 </context>
 </TS>

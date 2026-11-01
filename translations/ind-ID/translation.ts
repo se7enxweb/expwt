@@ -1699,5 +1699,125 @@
         <source>Calendar</source>
         <translation>Kalender</translation>
     </message>
+    <message>
+        <source>The migrations cannot be read now.</source>
+        <translation>Migrasi tidak dapat dibaca sekarang.</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Gagal</translation>
+    </message>
+    <message>
+        <source>Running</source>
+        <translation>Berjalan</translation>
+    </message>
+    <message>
+        <source>Rolled back</source>
+        <translation>Dikembalikan</translation>
+    </message>
+    <message>
+        <source>Pushed</source>
+        <translation>Di-push</translation>
+    </message>
+    <message>
+        <source>Waiting for its push</source>
+        <translation>Menunggu push</translation>
+    </message>
+    <message>
+        <source>Off</source>
+        <translation>Mati</translation>
+    </message>
+    <message>
+        <source>No remote</source>
+        <translation>Tidak ada remote</translation>
+    </message>
+    <message>
+        <source>Nothing to push</source>
+        <translation>Tidak ada yang perlu di-push</translation>
+    </message>
+    <message>
+        <source>Read only: running and rolling back stay in the administration.</source>
+        <translation>Hanya baca: menjalankan dan mengembalikan tetap di administrasi.</translation>
+    </message>
+    <message>
+        <source>The migration tables do not exist yet: exp:upgrade --apply makes them.</source>
+        <translation>Tabel migrasi belum ada: exp:upgrade --apply membuatnya.</translation>
+    </message>
+    <message>
+        <source>A run is active</source>
+        <translation>Sebuah proses sedang aktif</translation>
+    </message>
+    <message>
+        <source>%purpose, by %user since %time</source>
+        <translation>%purpose, oleh %user sejak %time</translation>
+    </message>
+    <message>
+        <source>%n problems reading the migrations</source>
+        <translation>%n masalah saat membaca migrasi</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Tertunda</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>Tidak ada migrasi yang tertunda.</translation>
+    </message>
+    <message>
+        <source>%n more in the administration</source>
+        <translation>%n lagi di administrasi</translation>
+    </message>
+    <message>
+        <source>Recorded, but the file is gone</source>
+        <translation>Tercatat, tetapi berkasnya sudah tidak ada</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>Proses terakhir</translation>
+    </message>
+    <message>
+        <source>No migration has run yet.</source>
+        <translation>Belum ada migrasi yang dijalankan.</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Proses</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Status</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Dimulai</translation>
+    </message>
+    <message>
+        <source>Finished</source>
+        <translation>Selesai</translation>
+    </message>
+    <message>
+        <source>Run by</source>
+        <translation>Dijalankan oleh</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>Keterangan</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>Tag</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>Push</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Migrasi</translation>
+    </message>
+    <message>
+        <source>%n migrations need attention</source>
+        <translation>%n migrasi perlu perhatian</translation>
+    </message>
 </context>
 </TS>

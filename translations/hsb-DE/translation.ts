@@ -1699,5 +1699,125 @@
         <source>Calendar</source>
         <translation>Protyka</translation>
     </message>
+    <message>
+        <source>The migrations cannot be read now.</source>
+        <translation>Migracije njehodźa so nětko čitać.</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Njeporadźene</translation>
+    </message>
+    <message>
+        <source>Running</source>
+        <translation>Běži</translation>
+    </message>
+    <message>
+        <source>Rolled back</source>
+        <translation>Wróćo wjedźene</translation>
+    </message>
+    <message>
+        <source>Pushed</source>
+        <translation>Pushowane</translation>
+    </message>
+    <message>
+        <source>Waiting for its push</source>
+        <translation>Čaka na push</translation>
+    </message>
+    <message>
+        <source>Off</source>
+        <translation>Wupinjene</translation>
+    </message>
+    <message>
+        <source>No remote</source>
+        <translation>Žadyn remote</translation>
+    </message>
+    <message>
+        <source>Nothing to push</source>
+        <translation>Ničo za push</translation>
+    </message>
+    <message>
+        <source>Read only: running and rolling back stay in the administration.</source>
+        <translation>Jenož čitać: wuwjedźenje a wróćowjedźenje wostanjetej w administraciji.</translation>
+    </message>
+    <message>
+        <source>The migration tables do not exist yet: exp:upgrade --apply makes them.</source>
+        <translation>Tabele migracijow hišće njeeksistuja: exp:upgrade --apply je wutwori.</translation>
+    </message>
+    <message>
+        <source>A run is active</source>
+        <translation>Přeběh je aktiwny</translation>
+    </message>
+    <message>
+        <source>%purpose, by %user since %time</source>
+        <translation>%purpose, %user, wot %time</translation>
+    </message>
+    <message>
+        <source>%n problems reading the migrations</source>
+        <translation>%n problemow při čitanju migracijow</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Wočakuje so</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>Žana migracija njewočakuje so.</translation>
+    </message>
+    <message>
+        <source>%n more in the administration</source>
+        <translation>%n dalšich w administraciji</translation>
+    </message>
+    <message>
+        <source>Recorded, but the file is gone</source>
+        <translation>Zapisane, ale dataja je preč</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>Posledni přeběh</translation>
+    </message>
+    <message>
+        <source>No migration has run yet.</source>
+        <translation>Hišće žana migracija njeje běžała.</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Přeběh</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Status</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Započate</translation>
+    </message>
+    <message>
+        <source>Finished</source>
+        <translation>Dokónčene</translation>
+    </message>
+    <message>
+        <source>Run by</source>
+        <translation>Wuwjedł</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>Titul</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>Tag</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>Push</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Migracije</translation>
+    </message>
+    <message>
+        <source>%n migrations need attention</source>
+        <translation>%n migracijow trjeba kedźbnosć</translation>
+    </message>
 </context>
 </TS>

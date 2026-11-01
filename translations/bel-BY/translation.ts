@@ -1699,5 +1699,125 @@
         <source>Calendar</source>
         <translation>Каляндар</translation>
     </message>
+    <message>
+        <source>The migrations cannot be read now.</source>
+        <translation>Міграцыі зараз немагчыма прачытаць.</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Памылка</translation>
+    </message>
+    <message>
+        <source>Running</source>
+        <translation>Выконваецца</translation>
+    </message>
+    <message>
+        <source>Rolled back</source>
+        <translation>Адкочана</translation>
+    </message>
+    <message>
+        <source>Pushed</source>
+        <translation>Адпраўлена</translation>
+    </message>
+    <message>
+        <source>Waiting for its push</source>
+        <translation>Чакае адпраўкі</translation>
+    </message>
+    <message>
+        <source>Off</source>
+        <translation>Выключана</translation>
+    </message>
+    <message>
+        <source>No remote</source>
+        <translation>Няма аддаленага рэпазітарыя</translation>
+    </message>
+    <message>
+        <source>Nothing to push</source>
+        <translation>Няма чаго адпраўляць</translation>
+    </message>
+    <message>
+        <source>Read only: running and rolling back stay in the administration.</source>
+        <translation>Толькі для чытання: запуск і адкат застаюцца ў адміністраванні.</translation>
+    </message>
+    <message>
+        <source>The migration tables do not exist yet: exp:upgrade --apply makes them.</source>
+        <translation>Табліц міграцый яшчэ няма: exp:upgrade --apply стварае іх.</translation>
+    </message>
+    <message>
+        <source>A run is active</source>
+        <translation>Запуск актыўны</translation>
+    </message>
+    <message>
+        <source>%purpose, by %user since %time</source>
+        <translation>%purpose, %user з %time</translation>
+    </message>
+    <message>
+        <source>%n problems reading the migrations</source>
+        <translation>Праблем пры чытанні міграцый: %n</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Чакае</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>Няма міграцый, якія чакаюць.</translation>
+    </message>
+    <message>
+        <source>%n more in the administration</source>
+        <translation>Яшчэ %n у адміністраванні</translation>
+    </message>
+    <message>
+        <source>Recorded, but the file is gone</source>
+        <translation>Запісана, але файла больш няма</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>Апошні запуск</translation>
+    </message>
+    <message>
+        <source>No migration has run yet.</source>
+        <translation>Ніводная міграцыя яшчэ не выконвалася.</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Запуск</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Стан</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Пачата</translation>
+    </message>
+    <message>
+        <source>Finished</source>
+        <translation>Завершана</translation>
+    </message>
+    <message>
+        <source>Run by</source>
+        <translation>Запусціў</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>Подпіс</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>Тэг</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>Адпраўка</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Міграцыі</translation>
+    </message>
+    <message>
+        <source>%n migrations need attention</source>
+        <translation>Міграцый, якія патрабуюць увагі: %n</translation>
+    </message>
 </context>
 </TS>

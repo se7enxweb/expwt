@@ -1699,5 +1699,125 @@
         <source>Calendar</source>
         <translation>Kalendarz</translation>
     </message>
+    <message>
+        <source>The migrations cannot be read now.</source>
+        <translation>Nie można teraz odczytać migracji.</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Niepowodzenie</translation>
+    </message>
+    <message>
+        <source>Running</source>
+        <translation>W toku</translation>
+    </message>
+    <message>
+        <source>Rolled back</source>
+        <translation>Wycofana</translation>
+    </message>
+    <message>
+        <source>Pushed</source>
+        <translation>Wypchnięta</translation>
+    </message>
+    <message>
+        <source>Waiting for its push</source>
+        <translation>Czeka na wypchnięcie</translation>
+    </message>
+    <message>
+        <source>Off</source>
+        <translation>Wyłączone</translation>
+    </message>
+    <message>
+        <source>No remote</source>
+        <translation>Brak zdalnego repozytorium</translation>
+    </message>
+    <message>
+        <source>Nothing to push</source>
+        <translation>Nic do wypchnięcia</translation>
+    </message>
+    <message>
+        <source>Read only: running and rolling back stay in the administration.</source>
+        <translation>Tylko do odczytu: uruchamianie i wycofywanie odbywa się w administracji.</translation>
+    </message>
+    <message>
+        <source>The migration tables do not exist yet: exp:upgrade --apply makes them.</source>
+        <translation>Tabele migracji jeszcze nie istnieją: tworzy je exp:upgrade --apply.</translation>
+    </message>
+    <message>
+        <source>A run is active</source>
+        <translation>Trwa uruchomienie</translation>
+    </message>
+    <message>
+        <source>%purpose, by %user since %time</source>
+        <translation>%purpose, przez %user od %time</translation>
+    </message>
+    <message>
+        <source>%n problems reading the migrations</source>
+        <translation>Problemy podczas odczytu migracji: %n</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Oczekujące</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>Brak oczekujących migracji.</translation>
+    </message>
+    <message>
+        <source>%n more in the administration</source>
+        <translation>%n więcej w administracji</translation>
+    </message>
+    <message>
+        <source>Recorded, but the file is gone</source>
+        <translation>Zarejestrowana, ale pliku już nie ma</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>Ostatnie uruchomienie</translation>
+    </message>
+    <message>
+        <source>No migration has run yet.</source>
+        <translation>Żadna migracja nie była jeszcze uruchomiona.</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Uruchomienie</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Stan</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Rozpoczęto</translation>
+    </message>
+    <message>
+        <source>Finished</source>
+        <translation>Zakończono</translation>
+    </message>
+    <message>
+        <source>Run by</source>
+        <translation>Uruchomił(a)</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>Podpis</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>Tag</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>Wypchnięcie</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Migracje</translation>
+    </message>
+    <message>
+        <source>%n migrations need attention</source>
+        <translation>Migracje wymagające uwagi: %n</translation>
+    </message>
 </context>
 </TS>

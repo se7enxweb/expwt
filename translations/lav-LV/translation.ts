@@ -1699,5 +1699,125 @@
         <source>Calendar</source>
         <translation>Kalendārs</translation>
     </message>
+    <message>
+        <source>The migrations cannot be read now.</source>
+        <translation>Migrācijas pašlaik nevar nolasīt.</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Neizdevās</translation>
+    </message>
+    <message>
+        <source>Running</source>
+        <translation>Darbojas</translation>
+    </message>
+    <message>
+        <source>Rolled back</source>
+        <translation>Atritināta</translation>
+    </message>
+    <message>
+        <source>Pushed</source>
+        <translation>Nosūtīta</translation>
+    </message>
+    <message>
+        <source>Waiting for its push</source>
+        <translation>Gaida nosūtīšanu</translation>
+    </message>
+    <message>
+        <source>Off</source>
+        <translation>Izslēgts</translation>
+    </message>
+    <message>
+        <source>No remote</source>
+        <translation>Nav attālās krātuves</translation>
+    </message>
+    <message>
+        <source>Nothing to push</source>
+        <translation>Nav ko nosūtīt</translation>
+    </message>
+    <message>
+        <source>Read only: running and rolling back stay in the administration.</source>
+        <translation>Tikai lasīšanai: palaišana un atritināšana notiek administrācijā.</translation>
+    </message>
+    <message>
+        <source>The migration tables do not exist yet: exp:upgrade --apply makes them.</source>
+        <translation>Migrāciju tabulas vēl nepastāv: exp:upgrade --apply tās izveido.</translation>
+    </message>
+    <message>
+        <source>A run is active</source>
+        <translation>Notiek palaišana</translation>
+    </message>
+    <message>
+        <source>%purpose, by %user since %time</source>
+        <translation>%purpose, palaida %user, kopš %time</translation>
+    </message>
+    <message>
+        <source>%n problems reading the migrations</source>
+        <translation>%n problēmas, nolasot migrācijas</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Gaida</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>Neviena migrācija negaida.</translation>
+    </message>
+    <message>
+        <source>%n more in the administration</source>
+        <translation>Vēl %n administrācijā</translation>
+    </message>
+    <message>
+        <source>Recorded, but the file is gone</source>
+        <translation>Reģistrēta, bet fails ir pazudis</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>Pēdējā palaišana</translation>
+    </message>
+    <message>
+        <source>No migration has run yet.</source>
+        <translation>Neviena migrācija vēl nav palaista.</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Palaišana</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Stāvoklis</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Sākta</translation>
+    </message>
+    <message>
+        <source>Finished</source>
+        <translation>Pabeigta</translation>
+    </message>
+    <message>
+        <source>Run by</source>
+        <translation>Palaida</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>Paraksts</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>Tags</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>Nosūtīšana</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Migrācijas</translation>
+    </message>
+    <message>
+        <source>%n migrations need attention</source>
+        <translation>%n migrācijām nepieciešama uzmanība</translation>
+    </message>
 </context>
 </TS>

@@ -1699,5 +1699,125 @@
         <source>Calendar</source>
         <translation>Kalena</translation>
     </message>
+    <message>
+        <source>The migrations cannot be read now.</source>
+        <translation>ʻAʻole hiki ke heluhelu ʻia nā neʻe i kēia manawa.</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Ua hāʻule</translation>
+    </message>
+    <message>
+        <source>Running</source>
+        <translation>E holo ana</translation>
+    </message>
+    <message>
+        <source>Rolled back</source>
+        <translation>Ua hoʻihoʻi ʻia</translation>
+    </message>
+    <message>
+        <source>Pushed</source>
+        <translation>Ua pahu ʻia</translation>
+    </message>
+    <message>
+        <source>Waiting for its push</source>
+        <translation>E kali ana i ka pahu</translation>
+    </message>
+    <message>
+        <source>Off</source>
+        <translation>Pio</translation>
+    </message>
+    <message>
+        <source>No remote</source>
+        <translation>ʻAʻohe mamao</translation>
+    </message>
+    <message>
+        <source>Nothing to push</source>
+        <translation>ʻAʻohe mea e pahu ai</translation>
+    </message>
+    <message>
+        <source>Read only: running and rolling back stay in the administration.</source>
+        <translation>Heluhelu wale: noho ka holo ʻana a me ka hoʻihoʻi ʻana ma ka hoʻokele.</translation>
+    </message>
+    <message>
+        <source>The migration tables do not exist yet: exp:upgrade --apply makes them.</source>
+        <translation>ʻAʻole i loaʻa nā papa neʻe: na exp:upgrade --apply e hana iā lākou.</translation>
+    </message>
+    <message>
+        <source>A run is active</source>
+        <translation>Ke holo nei kekahi holo</translation>
+    </message>
+    <message>
+        <source>%purpose, by %user since %time</source>
+        <translation>%purpose, na %user mai %time</translation>
+    </message>
+    <message>
+        <source>%n problems reading the migrations</source>
+        <translation>%n pilikia ma ka heluhelu ʻana i nā neʻe</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>E kali ana</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>ʻAʻohe neʻe e kali ana.</translation>
+    </message>
+    <message>
+        <source>%n more in the administration</source>
+        <translation>%n hou aku ma ka hoʻokele</translation>
+    </message>
+    <message>
+        <source>Recorded, but the file is gone</source>
+        <translation>Ua kākau ʻia, akā ua nalo ka faila</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>Holo hope</translation>
+    </message>
+    <message>
+        <source>No migration has run yet.</source>
+        <translation>ʻAʻohe neʻe i holo ʻia.</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Holo</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Kūlana</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Hoʻomaka</translation>
+    </message>
+    <message>
+        <source>Finished</source>
+        <translation>Pau</translation>
+    </message>
+    <message>
+        <source>Run by</source>
+        <translation>Holo ʻia e</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>Kāpena</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>Lepili</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>Pahu</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Nā neʻe</translation>
+    </message>
+    <message>
+        <source>%n migrations need attention</source>
+        <translation>Pono ka nānā ʻana i nā neʻe he %n</translation>
+    </message>
 </context>
 </TS>

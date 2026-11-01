@@ -1699,5 +1699,125 @@
         <source>Calendar</source>
         <translation>كالېندار</translation>
     </message>
+    <message>
+        <source>The migrations cannot be read now.</source>
+        <translation>كۆچۈشلەرنى ھازىر ئوقۇغىلى بولمايدۇ.</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>مەغلۇپ بولدى</translation>
+    </message>
+    <message>
+        <source>Running</source>
+        <translation>ئىجرا بولۇۋاتىدۇ</translation>
+    </message>
+    <message>
+        <source>Rolled back</source>
+        <translation>قايتۇرۇلدى</translation>
+    </message>
+    <message>
+        <source>Pushed</source>
+        <translation>ئىتتىرىلدى</translation>
+    </message>
+    <message>
+        <source>Waiting for its push</source>
+        <translation>ئىتتىرىشنى كۈتۈۋاتىدۇ</translation>
+    </message>
+    <message>
+        <source>Off</source>
+        <translation>تاقاق</translation>
+    </message>
+    <message>
+        <source>No remote</source>
+        <translation>يىراقتىكى ئامبار يوق</translation>
+    </message>
+    <message>
+        <source>Nothing to push</source>
+        <translation>ئىتتىرىدىغان نەرسە يوق</translation>
+    </message>
+    <message>
+        <source>Read only: running and rolling back stay in the administration.</source>
+        <translation>پەقەت ئوقۇشقىلا: ئىجرا قىلىش ۋە قايتۇرۇش باشقۇرۇشتا ئېلىپ بېرىلىدۇ.</translation>
+    </message>
+    <message>
+        <source>The migration tables do not exist yet: exp:upgrade --apply makes them.</source>
+        <translation>كۆچۈش جەدۋەللىرى تېخى يوق: exp:upgrade --apply ئۇلارنى قۇرىدۇ.</translation>
+    </message>
+    <message>
+        <source>A run is active</source>
+        <translation>بىر ئىجرا ئاكتىپ</translation>
+    </message>
+    <message>
+        <source>%purpose, by %user since %time</source>
+        <translation>%purpose، %user تەرىپىدىن %time دىن بۇيان</translation>
+    </message>
+    <message>
+        <source>%n problems reading the migrations</source>
+        <translation>كۆچۈشلەرنى ئوقۇشتا %n مەسىلە</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>كۈتۈۋاتىدۇ</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>كۈتۈۋاتقان كۆچۈش يوق.</translation>
+    </message>
+    <message>
+        <source>%n more in the administration</source>
+        <translation>باشقۇرۇشتا يەنە %n</translation>
+    </message>
+    <message>
+        <source>Recorded, but the file is gone</source>
+        <translation>خاتىرىلەنگەن، ئەمما ھۆججەت يوق</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>ئاخىرقى ئىجرا</translation>
+    </message>
+    <message>
+        <source>No migration has run yet.</source>
+        <translation>تېخى ھېچقانداق كۆچۈش ئىجرا قىلىنمىدى.</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>ئىجرا</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>ھالەت</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>باشلاندى</translation>
+    </message>
+    <message>
+        <source>Finished</source>
+        <translation>تاماملاندى</translation>
+    </message>
+    <message>
+        <source>Run by</source>
+        <translation>ئىجرا قىلغۇچى</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>ماۋزۇ</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>بەلگە</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>ئىتتىرىش</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>كۆچۈشلەر</translation>
+    </message>
+    <message>
+        <source>%n migrations need attention</source>
+        <translation>%n كۆچۈش دىققەت تەلەپ قىلىدۇ</translation>
+    </message>
 </context>
 </TS>

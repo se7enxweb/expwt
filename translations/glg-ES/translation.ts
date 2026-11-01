@@ -1699,5 +1699,125 @@
         <source>Calendar</source>
         <translation>Calendario</translation>
     </message>
+    <message>
+        <source>The migrations cannot be read now.</source>
+        <translation>Non se poden ler as migracións agora.</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Fallou</translation>
+    </message>
+    <message>
+        <source>Running</source>
+        <translation>En execución</translation>
+    </message>
+    <message>
+        <source>Rolled back</source>
+        <translation>Revertida</translation>
+    </message>
+    <message>
+        <source>Pushed</source>
+        <translation>Enviado</translation>
+    </message>
+    <message>
+        <source>Waiting for its push</source>
+        <translation>Á espera do envío</translation>
+    </message>
+    <message>
+        <source>Off</source>
+        <translation>Desactivado</translation>
+    </message>
+    <message>
+        <source>No remote</source>
+        <translation>Sen remoto</translation>
+    </message>
+    <message>
+        <source>Nothing to push</source>
+        <translation>Nada que enviar</translation>
+    </message>
+    <message>
+        <source>Read only: running and rolling back stay in the administration.</source>
+        <translation>Só lectura: a execución e a reversión quedan na administración.</translation>
+    </message>
+    <message>
+        <source>The migration tables do not exist yet: exp:upgrade --apply makes them.</source>
+        <translation>As táboas de migracións aínda non existen: exp:upgrade --apply créaas.</translation>
+    </message>
+    <message>
+        <source>A run is active</source>
+        <translation>Hai unha execución activa</translation>
+    </message>
+    <message>
+        <source>%purpose, by %user since %time</source>
+        <translation>%purpose, por %user desde %time</translation>
+    </message>
+    <message>
+        <source>%n problems reading the migrations</source>
+        <translation>%n problemas ao ler as migracións</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Pendente</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>Non hai ningunha migración pendente.</translation>
+    </message>
+    <message>
+        <source>%n more in the administration</source>
+        <translation>%n máis na administración</translation>
+    </message>
+    <message>
+        <source>Recorded, but the file is gone</source>
+        <translation>Rexistrada, pero o ficheiro xa non existe</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>Última execución</translation>
+    </message>
+    <message>
+        <source>No migration has run yet.</source>
+        <translation>Aínda non se executou ningunha migración.</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Execución</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Estado</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Iniciada</translation>
+    </message>
+    <message>
+        <source>Finished</source>
+        <translation>Rematada</translation>
+    </message>
+    <message>
+        <source>Run by</source>
+        <translation>Executada por</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>Título</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>Etiqueta</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>Envío</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Migracións</translation>
+    </message>
+    <message>
+        <source>%n migrations need attention</source>
+        <translation>%n migracións precisan atención</translation>
+    </message>
 </context>
 </TS>

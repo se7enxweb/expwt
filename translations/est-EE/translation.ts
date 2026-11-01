@@ -1699,5 +1699,125 @@
         <source>Calendar</source>
         <translation>Kalender</translation>
     </message>
+    <message>
+        <source>The migrations cannot be read now.</source>
+        <translation>Migratsioone ei saa praegu lugeda.</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Ebaõnnestus</translation>
+    </message>
+    <message>
+        <source>Running</source>
+        <translation>Käib</translation>
+    </message>
+    <message>
+        <source>Rolled back</source>
+        <translation>Tagasi võetud</translation>
+    </message>
+    <message>
+        <source>Pushed</source>
+        <translation>Saadetud</translation>
+    </message>
+    <message>
+        <source>Waiting for its push</source>
+        <translation>Ootab saatmist</translation>
+    </message>
+    <message>
+        <source>Off</source>
+        <translation>Väljas</translation>
+    </message>
+    <message>
+        <source>No remote</source>
+        <translation>Kaugrepot pole</translation>
+    </message>
+    <message>
+        <source>Nothing to push</source>
+        <translation>Pole midagi saata</translation>
+    </message>
+    <message>
+        <source>Read only: running and rolling back stay in the administration.</source>
+        <translation>Ainult lugemiseks: käivitamine ja tagasivõtmine jäävad haldusesse.</translation>
+    </message>
+    <message>
+        <source>The migration tables do not exist yet: exp:upgrade --apply makes them.</source>
+        <translation>Migratsioonitabeleid veel pole: exp:upgrade --apply loob need.</translation>
+    </message>
+    <message>
+        <source>A run is active</source>
+        <translation>Üks käivitus on aktiivne</translation>
+    </message>
+    <message>
+        <source>%purpose, by %user since %time</source>
+        <translation>%purpose, %user alates %time</translation>
+    </message>
+    <message>
+        <source>%n problems reading the migrations</source>
+        <translation>Migratsioonide lugemisel %n probleemi</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Ootel</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>Ükski migratsioon pole ootel.</translation>
+    </message>
+    <message>
+        <source>%n more in the administration</source>
+        <translation>Veel %n halduses</translation>
+    </message>
+    <message>
+        <source>Recorded, but the file is gone</source>
+        <translation>Salvestatud, aga fail on kadunud</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>Viimane käivitus</translation>
+    </message>
+    <message>
+        <source>No migration has run yet.</source>
+        <translation>Ühtegi migratsiooni pole veel käivitatud.</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Käivitus</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Olek</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Alustatud</translation>
+    </message>
+    <message>
+        <source>Finished</source>
+        <translation>Lõpetatud</translation>
+    </message>
+    <message>
+        <source>Run by</source>
+        <translation>Käivitaja</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>Pealdis</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>Silt</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>Saatmine</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Migratsioonid</translation>
+    </message>
+    <message>
+        <source>%n migrations need attention</source>
+        <translation>%n migratsiooni vajavad tähelepanu</translation>
+    </message>
 </context>
 </TS>

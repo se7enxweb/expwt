@@ -1699,5 +1699,125 @@
         <source>Calendar</source>
         <translation>Tanggalan</translation>
     </message>
+    <message>
+        <source>The migrations cannot be read now.</source>
+        <translation>Migrasi ora bisa diwaca saiki.</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Gagal</translation>
+    </message>
+    <message>
+        <source>Running</source>
+        <translation>Mlaku</translation>
+    </message>
+    <message>
+        <source>Rolled back</source>
+        <translation>Dibalèkaké</translation>
+    </message>
+    <message>
+        <source>Pushed</source>
+        <translation>Wis di-push</translation>
+    </message>
+    <message>
+        <source>Waiting for its push</source>
+        <translation>Ngenteni push</translation>
+    </message>
+    <message>
+        <source>Off</source>
+        <translation>Mati</translation>
+    </message>
+    <message>
+        <source>No remote</source>
+        <translation>Ora ana remote</translation>
+    </message>
+    <message>
+        <source>Nothing to push</source>
+        <translation>Ora ana sing kudu di-push</translation>
+    </message>
+    <message>
+        <source>Read only: running and rolling back stay in the administration.</source>
+        <translation>Mung diwaca: nglakokaké lan mbalèkaké tetep ing administrasi.</translation>
+    </message>
+    <message>
+        <source>The migration tables do not exist yet: exp:upgrade --apply makes them.</source>
+        <translation>Tabel migrasi durung ana: exp:upgrade --apply nggawé tabel kasebut.</translation>
+    </message>
+    <message>
+        <source>A run is active</source>
+        <translation>Ana proses sing aktif</translation>
+    </message>
+    <message>
+        <source>%purpose, by %user since %time</source>
+        <translation>%purpose, déning %user wiwit %time</translation>
+    </message>
+    <message>
+        <source>%n problems reading the migrations</source>
+        <translation>%n masalah nalika maca migrasi</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Ngenteni</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>Ora ana migrasi sing ngenteni.</translation>
+    </message>
+    <message>
+        <source>%n more in the administration</source>
+        <translation>%n liyané ing administrasi</translation>
+    </message>
+    <message>
+        <source>Recorded, but the file is gone</source>
+        <translation>Kacathet, nanging berkasé wis ora ana</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>Proses pungkasan</translation>
+    </message>
+    <message>
+        <source>No migration has run yet.</source>
+        <translation>Durung ana migrasi sing dilakokaké.</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Proses</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Status</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Diwiwiti</translation>
+    </message>
+    <message>
+        <source>Finished</source>
+        <translation>Rampung</translation>
+    </message>
+    <message>
+        <source>Run by</source>
+        <translation>Dilakokaké déning</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>Katrangan</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>Tag</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>Push</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Migrasi</translation>
+    </message>
+    <message>
+        <source>%n migrations need attention</source>
+        <translation>%n migrasi butuh kawigatèn</translation>
+    </message>
 </context>
 </TS>

@@ -1699,5 +1699,125 @@
         <source>Calendar</source>
         <translation>క్యాలెండర్</translation>
     </message>
+    <message>
+        <source>The migrations cannot be read now.</source>
+        <translation>మైగ్రేషన్‌లను ఇప్పుడు చదవలేము.</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>విఫలమైంది</translation>
+    </message>
+    <message>
+        <source>Running</source>
+        <translation>నడుస్తోంది</translation>
+    </message>
+    <message>
+        <source>Rolled back</source>
+        <translation>వెనక్కి తీసుకోబడింది</translation>
+    </message>
+    <message>
+        <source>Pushed</source>
+        <translation>పంపబడింది</translation>
+    </message>
+    <message>
+        <source>Waiting for its push</source>
+        <translation>పంపడానికి వేచి ఉంది</translation>
+    </message>
+    <message>
+        <source>Off</source>
+        <translation>ఆఫ్</translation>
+    </message>
+    <message>
+        <source>No remote</source>
+        <translation>రిమోట్ లేదు</translation>
+    </message>
+    <message>
+        <source>Nothing to push</source>
+        <translation>పంపడానికి ఏమీ లేదు</translation>
+    </message>
+    <message>
+        <source>Read only: running and rolling back stay in the administration.</source>
+        <translation>చదవడానికి మాత్రమే: అమలు చేయడం మరియు వెనక్కి తీసుకోవడం నిర్వహణలోనే జరుగుతాయి.</translation>
+    </message>
+    <message>
+        <source>The migration tables do not exist yet: exp:upgrade --apply makes them.</source>
+        <translation>మైగ్రేషన్ పట్టికలు ఇంకా లేవు: exp:upgrade --apply వాటిని సృష్టిస్తుంది.</translation>
+    </message>
+    <message>
+        <source>A run is active</source>
+        <translation>ఒక అమలు సక్రియంగా ఉంది</translation>
+    </message>
+    <message>
+        <source>%purpose, by %user since %time</source>
+        <translation>%purpose, %user ద్వారా %time నుండి</translation>
+    </message>
+    <message>
+        <source>%n problems reading the migrations</source>
+        <translation>మైగ్రేషన్‌లను చదవడంలో %n సమస్యలు</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>పెండింగ్‌లో ఉంది</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>పెండింగ్‌లో ఉన్న మైగ్రేషన్ ఏదీ లేదు.</translation>
+    </message>
+    <message>
+        <source>%n more in the administration</source>
+        <translation>నిర్వహణలో మరో %n</translation>
+    </message>
+    <message>
+        <source>Recorded, but the file is gone</source>
+        <translation>నమోదైంది, కానీ ఫైల్ లేదు</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>చివరి అమలు</translation>
+    </message>
+    <message>
+        <source>No migration has run yet.</source>
+        <translation>ఇంకా ఏ మైగ్రేషన్ అమలు కాలేదు.</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>అమలు</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>స్థితి</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>ప్రారంభమైంది</translation>
+    </message>
+    <message>
+        <source>Finished</source>
+        <translation>ముగిసింది</translation>
+    </message>
+    <message>
+        <source>Run by</source>
+        <translation>అమలు చేసినవారు</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>శీర్షిక</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>ట్యాగ్</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>పుష్</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>మైగ్రేషన్‌లు</translation>
+    </message>
+    <message>
+        <source>%n migrations need attention</source>
+        <translation>%n మైగ్రేషన్‌లకు శ్రద్ధ అవసరం</translation>
+    </message>
 </context>
 </TS>

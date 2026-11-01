@@ -1699,5 +1699,125 @@
         <source>Calendar</source>
         <translation>Kalender</translation>
     </message>
+    <message>
+        <source>The migrations cannot be read now.</source>
+        <translation>Migreringerne kan ikke læses lige nu.</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Mislykket</translation>
+    </message>
+    <message>
+        <source>Running</source>
+        <translation>Kører</translation>
+    </message>
+    <message>
+        <source>Rolled back</source>
+        <translation>Rullet tilbage</translation>
+    </message>
+    <message>
+        <source>Pushed</source>
+        <translation>Pushet</translation>
+    </message>
+    <message>
+        <source>Waiting for its push</source>
+        <translation>Venter på push</translation>
+    </message>
+    <message>
+        <source>Off</source>
+        <translation>Fra</translation>
+    </message>
+    <message>
+        <source>No remote</source>
+        <translation>Intet fjernlager</translation>
+    </message>
+    <message>
+        <source>Nothing to push</source>
+        <translation>Intet at pushe</translation>
+    </message>
+    <message>
+        <source>Read only: running and rolling back stay in the administration.</source>
+        <translation>Skrivebeskyttet: kørsel og tilbagerulning foregår i administrationen.</translation>
+    </message>
+    <message>
+        <source>The migration tables do not exist yet: exp:upgrade --apply makes them.</source>
+        <translation>Migreringstabellerne findes endnu ikke: exp:upgrade --apply opretter dem.</translation>
+    </message>
+    <message>
+        <source>A run is active</source>
+        <translation>En kørsel er aktiv</translation>
+    </message>
+    <message>
+        <source>%purpose, by %user since %time</source>
+        <translation>%purpose, af %user siden %time</translation>
+    </message>
+    <message>
+        <source>%n problems reading the migrations</source>
+        <translation>%n problemer med at læse migreringerne</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Afventer</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>Ingen migrering afventer.</translation>
+    </message>
+    <message>
+        <source>%n more in the administration</source>
+        <translation>%n mere i administrationen</translation>
+    </message>
+    <message>
+        <source>Recorded, but the file is gone</source>
+        <translation>Registreret, men filen er væk</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>Seneste kørsel</translation>
+    </message>
+    <message>
+        <source>No migration has run yet.</source>
+        <translation>Ingen migrering er kørt endnu.</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Kørsel</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Tilstand</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Startet</translation>
+    </message>
+    <message>
+        <source>Finished</source>
+        <translation>Afsluttet</translation>
+    </message>
+    <message>
+        <source>Run by</source>
+        <translation>Kørt af</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>Betegnelse</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>Tag</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>Push</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Migreringer</translation>
+    </message>
+    <message>
+        <source>%n migrations need attention</source>
+        <translation>%n migreringer kræver opmærksomhed</translation>
+    </message>
 </context>
 </TS>

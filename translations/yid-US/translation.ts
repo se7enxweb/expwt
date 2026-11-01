@@ -1699,5 +1699,125 @@
         <source>Calendar</source>
         <translation>קאַלענדאַר</translation>
     </message>
+    <message>
+        <source>The migrations cannot be read now.</source>
+        <translation>די מיגראַציעס קענען איצט ניט געלייענט ווערן.</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>דורכגעפֿאַלן</translation>
+    </message>
+    <message>
+        <source>Running</source>
+        <translation>לויפֿט</translation>
+    </message>
+    <message>
+        <source>Rolled back</source>
+        <translation>צוריקגעדרייט</translation>
+    </message>
+    <message>
+        <source>Pushed</source>
+        <translation>געשיקט</translation>
+    </message>
+    <message>
+        <source>Waiting for its push</source>
+        <translation>וואַרט אויף שיקן</translation>
+    </message>
+    <message>
+        <source>Off</source>
+        <translation>אויסגעלאָשן</translation>
+    </message>
+    <message>
+        <source>No remote</source>
+        <translation>קיין ווײַטער רעפּאָזיטאָריע</translation>
+    </message>
+    <message>
+        <source>Nothing to push</source>
+        <translation>גאָרנישט צו שיקן</translation>
+    </message>
+    <message>
+        <source>Read only: running and rolling back stay in the administration.</source>
+        <translation>נאָר לייענען: לויפֿן און צוריקדרייען בלײַבן אין דער אַדמיניסטראַציע.</translation>
+    </message>
+    <message>
+        <source>The migration tables do not exist yet: exp:upgrade --apply makes them.</source>
+        <translation>די מיגראַציע־טאַבעלעס עקזיסטירן נאָך ניט: exp:upgrade --apply מאַכט זיי.</translation>
+    </message>
+    <message>
+        <source>A run is active</source>
+        <translation>א לויף איז אַקטיוו</translation>
+    </message>
+    <message>
+        <source>%purpose, by %user since %time</source>
+        <translation>%purpose, פֿון %user זינט %time</translation>
+    </message>
+    <message>
+        <source>%n problems reading the migrations</source>
+        <translation>%n פּראָבלעמען בײַם לייענען די מיגראַציעס</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>וואַרטנדיק</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>קיין מיגראַציע וואַרט ניט.</translation>
+    </message>
+    <message>
+        <source>%n more in the administration</source>
+        <translation>נאָך %n אין דער אַדמיניסטראַציע</translation>
+    </message>
+    <message>
+        <source>Recorded, but the file is gone</source>
+        <translation>פֿאַרשריבן, אָבער די טעקע איז פֿאַרשוווּנדן</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>לעצטער לויף</translation>
+    </message>
+    <message>
+        <source>No migration has run yet.</source>
+        <translation>קיין מיגראַציע איז נאָך ניט געלאָפֿן.</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>לויף</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>צושטאַנד</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>אָנגעהויבן</translation>
+    </message>
+    <message>
+        <source>Finished</source>
+        <translation>פֿאַרענדיקט</translation>
+    </message>
+    <message>
+        <source>Run by</source>
+        <translation>געלאָפֿן פֿון</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>אונטערשריפֿט</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>טאַג</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>שיקן</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>מיגראַציעס</translation>
+    </message>
+    <message>
+        <source>%n migrations need attention</source>
+        <translation>%n מיגראַציעס דאַרפֿן אויפֿמערקזאַמקייט</translation>
+    </message>
 </context>
 </TS>

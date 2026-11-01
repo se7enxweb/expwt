@@ -1699,5 +1699,125 @@
         <source>Calendar</source>
         <translation>Awitay</translation>
     </message>
+    <message>
+        <source>The migrations cannot be read now.</source>
+        <translation>Ur nezmir ara ad nɣer tunigin tura.</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Ur yeddi ara</translation>
+    </message>
+    <message>
+        <source>Running</source>
+        <translation>Itteddu</translation>
+    </message>
+    <message>
+        <source>Rolled back</source>
+        <translation>Yuɣal ɣer deffir</translation>
+    </message>
+    <message>
+        <source>Pushed</source>
+        <translation>Yettwaceggeɛ</translation>
+    </message>
+    <message>
+        <source>Waiting for its push</source>
+        <translation>Yettraǧu tuceggaɛt</translation>
+    </message>
+    <message>
+        <source>Off</source>
+        <translation>Yensa</translation>
+    </message>
+    <message>
+        <source>No remote</source>
+        <translation>Ulac remote</translation>
+    </message>
+    <message>
+        <source>Nothing to push</source>
+        <translation>Ulac ara yettwaceggɛen</translation>
+    </message>
+    <message>
+        <source>Read only: running and rolling back stay in the administration.</source>
+        <translation>Taɣuri kan: aselkem d tuɣalin ɣer deffir qqimen deg tedbelt.</translation>
+    </message>
+    <message>
+        <source>The migration tables do not exist yet: exp:upgrade --apply makes them.</source>
+        <translation>Tifelwin n tunigin ulac-itent ar tura: exp:upgrade --apply ad tent-yesnulfu.</translation>
+    </message>
+    <message>
+        <source>A run is active</source>
+        <translation>Aselkem itteddu</translation>
+    </message>
+    <message>
+        <source>%purpose, by %user since %time</source>
+        <translation>%purpose, sɣur %user seg %time</translation>
+    </message>
+    <message>
+        <source>%n problems reading the migrations</source>
+        <translation>%n n wuguren deg tɣuri n tunigin</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Yettraǧu</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>Ulac tuniga yettraǧun.</translation>
+    </message>
+    <message>
+        <source>%n more in the administration</source>
+        <translation>%n nniḍen deg tedbelt</translation>
+    </message>
+    <message>
+        <source>Recorded, but the file is gone</source>
+        <translation>Yettwaseklas, maca afaylu ulac-it</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>Aselkem aneggaru</translation>
+    </message>
+    <message>
+        <source>No migration has run yet.</source>
+        <translation>Ar tura ulac tuniga i iteddun.</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Aselkem</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Addad</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Yebda</translation>
+    </message>
+    <message>
+        <source>Finished</source>
+        <translation>Yemmed</translation>
+    </message>
+    <message>
+        <source>Run by</source>
+        <translation>Yesselkem-it</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>Azwel</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>Tabzimt</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>Tuceggaɛt</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Tunigin</translation>
+    </message>
+    <message>
+        <source>%n migrations need attention</source>
+        <translation>%n n tunigin ḥwaǧent ɛinayen</translation>
+    </message>
 </context>
 </TS>

@@ -1699,5 +1699,125 @@
         <source>Calendar</source>
         <translation>ڕۆژژمێر</translation>
     </message>
+    <message>
+        <source>The migrations cannot be read now.</source>
+        <translation>ئێستا ناتوانرێت کۆچەکان بخوێندرێنەوە.</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>سەرنەکەوت</translation>
+    </message>
+    <message>
+        <source>Running</source>
+        <translation>لە کاردایە</translation>
+    </message>
+    <message>
+        <source>Rolled back</source>
+        <translation>گەڕێندرایەوە</translation>
+    </message>
+    <message>
+        <source>Pushed</source>
+        <translation>پاڵنرا</translation>
+    </message>
+    <message>
+        <source>Waiting for its push</source>
+        <translation>چاوەڕێی پاڵنانە</translation>
+    </message>
+    <message>
+        <source>Off</source>
+        <translation>کوژاوە</translation>
+    </message>
+    <message>
+        <source>No remote</source>
+        <translation>هیچ ڕیمۆتێک نییە</translation>
+    </message>
+    <message>
+        <source>Nothing to push</source>
+        <translation>هیچ شتێک نییە بۆ پاڵنان</translation>
+    </message>
+    <message>
+        <source>Read only: running and rolling back stay in the administration.</source>
+        <translation>تەنها خوێندنەوە: کارپێکردن و گەڕاندنەوە لە بەڕێوەبردندا دەمێننەوە.</translation>
+    </message>
+    <message>
+        <source>The migration tables do not exist yet: exp:upgrade --apply makes them.</source>
+        <translation>خشتەکانی کۆچ هێشتا بوونیان نییە: exp:upgrade --apply دروستیان دەکات.</translation>
+    </message>
+    <message>
+        <source>A run is active</source>
+        <translation>کارپێکردنێک چالاکە</translation>
+    </message>
+    <message>
+        <source>%purpose, by %user since %time</source>
+        <translation>%purpose، لەلایەن %user لە %time ەوە</translation>
+    </message>
+    <message>
+        <source>%n problems reading the migrations</source>
+        <translation>%n کێشە لە خوێندنەوەی کۆچەکاندا</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>چاوەڕوان</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>هیچ کۆچێک چاوەڕوان نییە.</translation>
+    </message>
+    <message>
+        <source>%n more in the administration</source>
+        <translation>%n ی تر لە بەڕێوەبردندا</translation>
+    </message>
+    <message>
+        <source>Recorded, but the file is gone</source>
+        <translation>تۆمارکراوە، بەڵام فایلەکە نەماوە</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>دوایین کارپێکردن</translation>
+    </message>
+    <message>
+        <source>No migration has run yet.</source>
+        <translation>هێشتا هیچ کۆچێک کاری پێنەکراوە.</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>کارپێکردن</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>دۆخ</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>دەستپێکرد</translation>
+    </message>
+    <message>
+        <source>Finished</source>
+        <translation>تەواوبوو</translation>
+    </message>
+    <message>
+        <source>Run by</source>
+        <translation>کارپێکراو لەلایەن</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>ناونیشان</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>تاگ</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>پاڵنان</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>کۆچەکان</translation>
+    </message>
+    <message>
+        <source>%n migrations need attention</source>
+        <translation>%n کۆچ پێویستیان بە سەرنجە</translation>
+    </message>
 </context>
 </TS>

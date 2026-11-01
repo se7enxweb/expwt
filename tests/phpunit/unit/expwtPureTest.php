@@ -802,6 +802,62 @@ class expwtPureTest extends PHPUnit\Framework\TestCase
         $this->assertFalse( expwtAccess::writes( 'insights.load' ) );
     }
 
+    /** R4.5: what the Migrations panel shows of a status report (exp-migration/1), and nothing more */
+    public function testTheMigrationsViewOfAStatusReport()
+    {
+        $report = array(
+            'schema' => 'exp-migration/1', 'mode' => 'status', 'table' => true, 'errors' => array( 'x: broken' ),
+            'migrations' => array(
+                array( 'id' => '20261031120000_add_news', 'source' => 'site', 'description' => 'Adds the news class', 'file' => 'migrations/a.php', 'state' => 'pending', 'record' => null ),
+                array( 'id' => '20261030120000_old', 'source' => 'site', 'description' => '', 'state' => 'done', 'record' => array( 'state' => 'done', 'run_id' => 'r1' ) ),
+                array( 'id' => '20261029120000_bad', 'source' => 'extension:shop', 'description' => 'Breaks', 'state' => 'failed', 'record' => array( 'state' => 'failed', 'run_id' => '20261031-1/x' ) ),
+                array( 'id' => '6.0.15-x', 'source' => 'kernel', 'description' => 'Kernel step', 'state' => 'not-needed', 'record' => null ),
+            ),
+            'orphans' => array( array( 'id' => 'gone', 'source' => 'site', 'state' => 'done', 'file' => '/secret/path.php', 'run_id' => 'r0', 'finished_at' => null ) ),
+            'runs' => array( array( 'run_id' => 'r2', 'state' => 'failed', 'started_at' => '2026-10-31T10:00:00+00:00', 'finished_at' => '2026-10-31T10:01:00+00:00',
+                                    'run_by' => 'admin', 'environment' => 'prod', 'caption_pre' => 'pre-r2', 'caption_post' => '', 'commit_id' => 'abc',
+                                    'tag_name' => 'migrations/prod/r2', 'push_state' => 'pending', 'message' => str_repeat( 'e', 400 ) ) ),
+            'lock' => array( 'name' => 'upgrade', 'purpose' => 'migration run r3', 'user' => 'admin', 'pid' => 4242, 'host' => 'db1', 'started' => 1793000000 ),
+        );
+        $v = expwtGateway::migrationsView( $report, '/admin/' );
+        $this->assertSame( array( array( 'id' => '20261031120000_add_news', 'source' => 'site', 'description' => 'Adds the news class', 'url' => '/admin/migration/status' ) ), $v['pending'] );
+        $this->assertSame( '/admin/migration/log/20261031-1%2Fx', $v['failed'][0]['url'], 'a failed one links to the log of its run' );
+        $this->assertSame( array( array( 'id' => 'gone', 'source' => 'site', 'state' => 'done', 'url' => '/admin/migration/log/r0' ) ), $v['orphans'], 'no file path' );
+        $this->assertSame( 3, $v['attention'] );
+        $this->assertSame( 1, $v['problems'] );
+        $this->assertSame( 'pre-r2', $v['last']['caption'], 'the caption after the run, else the one before' );
+        $this->assertSame( 'migrations/prod/r2', $v['last']['tag'] );
+        $this->assertSame( 'pending', $v['last']['push'] );
+        $this->assertSame( 300, strlen( $v['last']['message'] ) );
+        $this->assertSame( '/admin/migration/log/r2', $v['last']['url'] );
+        $this->assertSame( array( 'purpose', 'by', 'started', 'url' ), array_keys( $v['lock'] ), 'no process id, no host' );
+        $this->assertSame( date( 'c', 1793000000 ), $v['lock']['started'] );
+
+        $none = expwtGateway::migrationsView( array( 'table' => false, 'migrations' => array(), 'runs' => array(), 'lock' => null ), null );
+        $this->assertSame( array(), $none['pending'] );
+        $this->assertNull( $none['last'] );
+        $this->assertNull( $none['lock'] );
+        $this->assertFalse( $none['table'] );
+        $this->assertSame( 0, $none['attention'] );
+        $this->assertNull( $none['url'], 'no links without an administration' );
+
+        $many = array( 'migrations' => array() );
+        for ( $i = 0; $i < expwtGateway::MIGRATIONS_LISTED + 5; $i++ )
+            $many['migrations'][] = array( 'id' => "m$i", 'source' => 'site', 'description' => '', 'state' => 'pending' );
+        $v = expwtGateway::migrationsView( $many, '/admin/' );
+        $this->assertCount( expwtGateway::MIGRATIONS_LISTED, $v['pending'] );
+        $this->assertSame( 5, $v['more'] );
+        $this->assertSame( expwtGateway::MIGRATIONS_LISTED + 5, $v['attention'] );
+    }
+
+    /** Without expMigrationStatus (a kernel before 6.0.15) the panel is never offered */
+    public function testNoMigrationsPanelWithoutTheKernelsMigrations()
+    {
+        if ( class_exists( 'expMigrationStatus' ) )
+            $this->markTestSkipped( 'this kernel has its migrations' );
+        $this->assertFalse( expwtGateway::migrationKernel() );
+    }
+
     public function testInjectBeforeTheLastBodyEndOnce()
     {
         $page = '<html><body><p>x</p></body></html>';

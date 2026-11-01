@@ -2841,9 +2841,119 @@
     }, function (err) { root.textContent = ''; failure(ctx, err); });
   }
 
+  /* ---------------------------------------------------------------------------------------------- migrations */
+
+  /* The Migrations panel's pure parts (R4.5), for the tests (tests/js/migrations.test.js): the chip of a state, how
+     many need attention, a time of the report (ISO 8601) as the user's language writes it. */
+  var Migrations = {
+    chip: function (state) {
+      if (state === 'failed') { return 'is-bad'; }
+      if (state === 'done' || state === 'pushed') { return 'is-ok'; }
+      if (state === 'running' || state === 'pending') { return 'is-warn'; }
+      return '';
+    },
+    attention: function (r) {
+      return (r.pending || []).length + (r.more || 0) + (r.failed || []).length + (r.orphans || []).length;
+    },
+    at: function (iso, lang) {
+      if (!iso) { return ''; }
+      var d = new Date(iso);
+      if (isNaN(d.getTime())) { return String(iso); }
+      try { return new Intl.DateTimeFormat(lang, { dateStyle: 'medium', timeStyle: 'short' }).format(d); } catch (e) { return d.toLocaleString(); }
+    }
+  };
+
+  /* The installation's migrations, read-only (R4.5), for a user with the kernel's migration/read: who runs now (the
+     installation lock), the failed ones, the pending ones (id, source, description), those recorded whose file is
+     gone, and the last run (state, when, who, caption, tag, push). Every item links to Setup > Migrations in the
+     administration, where running and rolling back stay. The number that needs attention is the badge on the tab. */
+  function migrations(ctx, root) {
+    var h = ctx.h;
+    var t = ctx.t;
+    var lang = (document.documentElement && document.documentElement.lang) || undefined;
+    var runText = { done: t('Done'), failed: t('Failed'), running: t('Running'), 'rolled-back': t('Rolled back') };
+    var pushText = { pushed: t('Pushed'), pending: t('Waiting for its push'), disabled: t('Off'), 'no-remote': t('No remote'), none: t('Nothing to push') };
+    function open(url) {
+      return url ? h('a', { class: 'wt-btn', href: url, text: t('Open in the administration') }) : null;
+    }
+    function chip(text, state) {
+      return h('span', { class: 'wt-chip' + (Migrations.chip(state) ? ' ' + Migrations.chip(state) : ''), text: text });
+    }
+    function item(m, extra) {
+      return h('li', { class: 'wt-mig' }, [
+        h('div', { class: 'wt-mig-info' }, [
+          h('span', { class: 'wt-mig-id', text: m.id }),
+          h('span', { class: 'wt-url-meta' }, [h('span', { class: 'wt-chip', text: m.source })].concat(extra || [])),
+          m.description ? h('span', { class: 'wt-muted wt-mig-desc', text: m.description }) : null
+        ]),
+        open(m.url)
+      ]);
+    }
+    function section(id, title, children) {
+      return h('section', { class: 'wt-section', 'aria-labelledby': id }, [h('h3', { id: id, text: title })].concat(children));
+    }
+    function row(label, value) {
+      return value ? [h('dt', { text: label }), h('dd', {}, [value])] : [];
+    }
+    root.appendChild(h('p', { class: 'wt-muted', text: t('Loading ...') }));
+    ctx.call('migrations.load', {}).then(function (r) {
+      root.textContent = '';
+      if (ctx.migrations) { ctx.migrations(r.attention); }
+      root.appendChild(h('p', { class: 'wt-muted', text: t('Read only: running and rolling back stay in the administration.') }));
+      if (!r.table) {
+        root.appendChild(h('div', { class: 'wt-notice is-warn', role: 'status', text: t('The migration tables do not exist yet: exp:upgrade --apply makes them.') }));
+      }
+      if (r.lock) {
+        root.appendChild(h('div', { class: 'wt-notice is-warn wt-mig-lock', role: 'status' }, [
+          h('strong', { text: t('A run is active') }),
+          h('span', { text: t('%purpose, by %user since %time').replace('%purpose', r.lock.purpose).replace('%user', r.lock.by).replace('%time', Migrations.at(r.lock.started, lang)) }),
+          open(r.lock.url)
+        ]));
+      }
+      if (r.problems) {
+        root.appendChild(h('div', { class: 'wt-notice is-bad', role: 'status', text: t('%n problems reading the migrations').replace('%n', r.problems) }));
+      }
+      if (r.failed.length) {
+        root.appendChild(section('wt-mig-f', t('Failed'), [h('ul', { class: 'wt-list wt-mig-list' }, r.failed.map(function (m) {
+          return item(m, [chip(t('Failed'), 'failed')]);
+        }))]));
+      }
+      var pending = r.pending.length
+        ? [h('ul', { class: 'wt-list wt-mig-list' }, r.pending.map(function (m) { return item(m, [chip(t('Pending'), 'pending')]); }))]
+        : [h('p', { class: 'wt-muted', text: t('No migration is pending.') })];
+      if (r.more) { pending.push(h('p', { class: 'wt-muted', text: t('%n more in the administration').replace('%n', r.more) })); }
+      root.appendChild(section('wt-mig-p', t('Pending'), pending));
+      if (r.orphans.length) {
+        root.appendChild(section('wt-mig-o', t('Recorded, but the file is gone'), [h('ul', { class: 'wt-list wt-mig-list' }, r.orphans.map(function (m) {
+          return item(m, [chip(runText[m.state] || m.state, m.state)]);
+        }))]));
+      }
+      var last = r.last;
+      if (!last) {
+        root.appendChild(section('wt-mig-l', t('Last run'), [h('p', { class: 'wt-muted', text: t('No migration has run yet.') })]));
+        return;
+      }
+      var facts = [].concat(
+        row(t('Run'), h('span', { class: 'wt-mig-id', text: last.id })),
+        row(t('State'), chip(runText[last.state] || last.state, last.state)),
+        row(t('Started'), Migrations.at(last.started, lang)),
+        row(t('Finished'), Migrations.at(last.finished, lang)),
+        row(t('Run by'), last.by),
+        row(t('Caption'), last.caption),
+        row(t('Tag'), last.tag),
+        row(t('Push'), last.push ? chip(pushText[last.push] || last.push, last.push) : null)
+      );
+      var children = [h('dl', { class: 'wt-mig-run' }, facts)];
+      if (last.message) { children.push(h('p', { class: 'wt-notice is-bad', text: last.message })); }
+      if (last.url) { children.push(h('div', { class: 'wt-row' }, [open(last.url)])); }
+      root.appendChild(section('wt-mig-l', t('Last run'), children));
+    }, function (err) { root.textContent = ''; failure(ctx, err); });
+  }
+
+  window.ExpwtMigrations = Migrations;
   window.ExpwtSeo = SEO;
   window.ExpwtComments = { actions: commentActions };
   window.ExpwtUrls = { address: addressOf };
   window.ExpwtCalendar = Calendar;
-  window.ExpwtPanels = { page: page, create: create, structure: structure, seo: seo, sites: sites, forms: forms, newsletter: newsletter, urls: urls, calendar: calendar, insights: insights, inbox: inbox, me: me, shortcuts: shortcuts };
+  window.ExpwtPanels = { page: page, create: create, structure: structure, seo: seo, sites: sites, forms: forms, newsletter: newsletter, urls: urls, calendar: calendar, insights: insights, inbox: inbox, migrations: migrations, me: me, shortcuts: shortcuts };
 }());

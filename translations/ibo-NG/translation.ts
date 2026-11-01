@@ -1699,5 +1699,125 @@
         <source>Calendar</source>
         <translation>Kalenda</translation>
     </message>
+    <message>
+        <source>The migrations cannot be read now.</source>
+        <translation>Enweghị ike ịgụ mbugharị ugbu a.</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Dara</translation>
+    </message>
+    <message>
+        <source>Running</source>
+        <translation>Na-agba ọsọ</translation>
+    </message>
+    <message>
+        <source>Rolled back</source>
+        <translation>Eweghachiri</translation>
+    </message>
+    <message>
+        <source>Pushed</source>
+        <translation>Ezigara</translation>
+    </message>
+    <message>
+        <source>Waiting for its push</source>
+        <translation>Na-eche ka ezipụ ya</translation>
+    </message>
+    <message>
+        <source>Off</source>
+        <translation>Gbanyụrụ</translation>
+    </message>
+    <message>
+        <source>No remote</source>
+        <translation>Enweghị remote</translation>
+    </message>
+    <message>
+        <source>Nothing to push</source>
+        <translation>Ọ dịghị ihe a ga-ezipụ</translation>
+    </message>
+    <message>
+        <source>Read only: running and rolling back stay in the administration.</source>
+        <translation>Ịgụ naanị: ịgba ọsọ na iweghachi na-anọ na nchịkwa.</translation>
+    </message>
+    <message>
+        <source>The migration tables do not exist yet: exp:upgrade --apply makes them.</source>
+        <translation>Tebụl mbugharị adịbeghị: exp:upgrade --apply na-emepụta ha.</translation>
+    </message>
+    <message>
+        <source>A run is active</source>
+        <translation>Mgba ọsọ na-arụ ọrụ</translation>
+    </message>
+    <message>
+        <source>%purpose, by %user since %time</source>
+        <translation>%purpose, site n'aka %user kemgbe %time</translation>
+    </message>
+    <message>
+        <source>%n problems reading the migrations</source>
+        <translation>Nsogbu %n n'ịgụ mbugharị</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Na-echere</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>Ọ dịghị mbugharị na-echere.</translation>
+    </message>
+    <message>
+        <source>%n more in the administration</source>
+        <translation>%n ọzọ na nchịkwa</translation>
+    </message>
+    <message>
+        <source>Recorded, but the file is gone</source>
+        <translation>E dekọrọ ya, mana faịlụ ahụ apụọla</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>Mgba ọsọ ikpeazụ</translation>
+    </message>
+    <message>
+        <source>No migration has run yet.</source>
+        <translation>Ọ dịbeghị mbugharị gbara ọsọ.</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Mgba ọsọ</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Ọnọdụ</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Malitere</translation>
+    </message>
+    <message>
+        <source>Finished</source>
+        <translation>Emechara</translation>
+    </message>
+    <message>
+        <source>Run by</source>
+        <translation>Onye gbara ya</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>Nkọwa</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>Mkpado</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>Nziga</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Mbugharị</translation>
+    </message>
+    <message>
+        <source>%n migrations need attention</source>
+        <translation>Mbugharị %n chọrọ nlebara anya</translation>
+    </message>
 </context>
 </TS>

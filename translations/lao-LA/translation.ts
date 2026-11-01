@@ -1699,5 +1699,125 @@
         <source>Calendar</source>
         <translation>ປະຕິທິນ</translation>
     </message>
+    <message>
+        <source>The migrations cannot be read now.</source>
+        <translation>ບໍ່ສາມາດອ່ານການຍ້າຍຂໍ້ມູນໄດ້ໃນຕອນນີ້.</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>ລົ້ມເຫຼວ</translation>
+    </message>
+    <message>
+        <source>Running</source>
+        <translation>ກຳລັງແລ່ນ</translation>
+    </message>
+    <message>
+        <source>Rolled back</source>
+        <translation>ຍົກເລີກຄືນແລ້ວ</translation>
+    </message>
+    <message>
+        <source>Pushed</source>
+        <translation>ພຸດແລ້ວ</translation>
+    </message>
+    <message>
+        <source>Waiting for its push</source>
+        <translation>ລໍຖ້າການພຸດ</translation>
+    </message>
+    <message>
+        <source>Off</source>
+        <translation>ປິດ</translation>
+    </message>
+    <message>
+        <source>No remote</source>
+        <translation>ບໍ່ມີບ່ອນເກັບໄລຍະໄກ</translation>
+    </message>
+    <message>
+        <source>Nothing to push</source>
+        <translation>ບໍ່ມີຫຍັງໃຫ້ພຸດ</translation>
+    </message>
+    <message>
+        <source>Read only: running and rolling back stay in the administration.</source>
+        <translation>ອ່ານຢ່າງດຽວ: ການແລ່ນ ແລະ ການຍົກເລີກຄືນ ເຮັດໃນການຈັດການ.</translation>
+    </message>
+    <message>
+        <source>The migration tables do not exist yet: exp:upgrade --apply makes them.</source>
+        <translation>ຕາຕະລາງການຍ້າຍຂໍ້ມູນຍັງບໍ່ມີ: exp:upgrade --apply ຈະສ້າງພວກມັນ.</translation>
+    </message>
+    <message>
+        <source>A run is active</source>
+        <translation>ມີການແລ່ນກຳລັງດຳເນີນຢູ່</translation>
+    </message>
+    <message>
+        <source>%purpose, by %user since %time</source>
+        <translation>%purpose, ໂດຍ %user ຕັ້ງແຕ່ %time</translation>
+    </message>
+    <message>
+        <source>%n problems reading the migrations</source>
+        <translation>ມີ %n ບັນຫາໃນການອ່ານການຍ້າຍຂໍ້ມູນ</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>ລໍຖ້າ</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>ບໍ່ມີການຍ້າຍຂໍ້ມູນທີ່ລໍຖ້າ.</translation>
+    </message>
+    <message>
+        <source>%n more in the administration</source>
+        <translation>ອີກ %n ລາຍການໃນການຈັດການ</translation>
+    </message>
+    <message>
+        <source>Recorded, but the file is gone</source>
+        <translation>ບັນທຶກໄວ້ແລ້ວ ແຕ່ໄຟລ໌ບໍ່ມີແລ້ວ</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>ການແລ່ນຄັ້ງສຸດທ້າຍ</translation>
+    </message>
+    <message>
+        <source>No migration has run yet.</source>
+        <translation>ຍັງບໍ່ມີການຍ້າຍຂໍ້ມູນໃດແລ່ນເທື່ອ.</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>ການແລ່ນ</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>ສະຖານະ</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>ເລີ່ມ</translation>
+    </message>
+    <message>
+        <source>Finished</source>
+        <translation>ສຳເລັດ</translation>
+    </message>
+    <message>
+        <source>Run by</source>
+        <translation>ແລ່ນໂດຍ</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>ຄຳອະທິບາຍ</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>ແທັກ</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>ພຸດ</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>ການຍ້າຍຂໍ້ມູນ</translation>
+    </message>
+    <message>
+        <source>%n migrations need attention</source>
+        <translation>%n ການຍ້າຍຂໍ້ມູນຕ້ອງການຄວາມສົນໃຈ</translation>
+    </message>
 </context>
 </TS>

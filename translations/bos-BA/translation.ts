@@ -1699,5 +1699,125 @@
         <source>Calendar</source>
         <translation>Kalendar</translation>
     </message>
+    <message>
+        <source>The migrations cannot be read now.</source>
+        <translation>Migracije se trenutno ne mogu pročitati.</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Neuspjelo</translation>
+    </message>
+    <message>
+        <source>Running</source>
+        <translation>U toku</translation>
+    </message>
+    <message>
+        <source>Rolled back</source>
+        <translation>Vraćeno</translation>
+    </message>
+    <message>
+        <source>Pushed</source>
+        <translation>Poslano</translation>
+    </message>
+    <message>
+        <source>Waiting for its push</source>
+        <translation>Čeka slanje</translation>
+    </message>
+    <message>
+        <source>Off</source>
+        <translation>Isključeno</translation>
+    </message>
+    <message>
+        <source>No remote</source>
+        <translation>Nema udaljenog repozitorija</translation>
+    </message>
+    <message>
+        <source>Nothing to push</source>
+        <translation>Nema ništa za slanje</translation>
+    </message>
+    <message>
+        <source>Read only: running and rolling back stay in the administration.</source>
+        <translation>Samo za čitanje: pokretanje i vraćanje ostaju u administraciji.</translation>
+    </message>
+    <message>
+        <source>The migration tables do not exist yet: exp:upgrade --apply makes them.</source>
+        <translation>Tabele migracija još ne postoje: exp:upgrade --apply ih pravi.</translation>
+    </message>
+    <message>
+        <source>A run is active</source>
+        <translation>Pokretanje je aktivno</translation>
+    </message>
+    <message>
+        <source>%purpose, by %user since %time</source>
+        <translation>%purpose, korisnik %user od %time</translation>
+    </message>
+    <message>
+        <source>%n problems reading the migrations</source>
+        <translation>Problema pri čitanju migracija: %n</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Na čekanju</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>Nijedna migracija nije na čekanju.</translation>
+    </message>
+    <message>
+        <source>%n more in the administration</source>
+        <translation>Još %n u administraciji</translation>
+    </message>
+    <message>
+        <source>Recorded, but the file is gone</source>
+        <translation>Zabilježeno, ali datoteke više nema</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>Posljednje pokretanje</translation>
+    </message>
+    <message>
+        <source>No migration has run yet.</source>
+        <translation>Nijedna migracija još nije pokrenuta.</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Pokretanje</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Stanje</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Započeto</translation>
+    </message>
+    <message>
+        <source>Finished</source>
+        <translation>Završeno</translation>
+    </message>
+    <message>
+        <source>Run by</source>
+        <translation>Pokrenuo</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>Natpis</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>Oznaka</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>Slanje</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Migracije</translation>
+    </message>
+    <message>
+        <source>%n migrations need attention</source>
+        <translation>Migracija kojima treba pažnja: %n</translation>
+    </message>
 </context>
 </TS>

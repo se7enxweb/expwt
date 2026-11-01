@@ -1699,5 +1699,125 @@
         <source>Calendar</source>
         <translation>Kalindaryu</translation>
     </message>
+    <message>
+        <source>The migrations cannot be read now.</source>
+        <translation>Kunanqa manam migracionkunata ñawinchayta atikunchu.</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Pantasqa</translation>
+    </message>
+    <message>
+        <source>Running</source>
+        <translation>Purichkan</translation>
+    </message>
+    <message>
+        <source>Rolled back</source>
+        <translation>Kutichisqa</translation>
+    </message>
+    <message>
+        <source>Pushed</source>
+        <translation>Kachasqa</translation>
+    </message>
+    <message>
+        <source>Waiting for its push</source>
+        <translation>Kachanankama suyachkan</translation>
+    </message>
+    <message>
+        <source>Off</source>
+        <translation>Wañuchisqa</translation>
+    </message>
+    <message>
+        <source>No remote</source>
+        <translation>Mana karu waqaychana kanchu</translation>
+    </message>
+    <message>
+        <source>Nothing to push</source>
+        <translation>Mana imapas kachanapaq kanchu</translation>
+    </message>
+    <message>
+        <source>Read only: running and rolling back stay in the administration.</source>
+        <translation>Ñawinchanallapaq: purichiyqa kutichiyqa kamachiypi qhepanku.</translation>
+    </message>
+    <message>
+        <source>The migration tables do not exist yet: exp:upgrade --apply makes them.</source>
+        <translation>Migracionpa tablankuna manaraq kanchu: exp:upgrade --apply paykunata ruran.</translation>
+    </message>
+    <message>
+        <source>A run is active</source>
+        <translation>Huk purichiy ruwakuchkan</translation>
+    </message>
+    <message>
+        <source>%purpose, by %user since %time</source>
+        <translation>%purpose, %user, %time-manta</translation>
+    </message>
+    <message>
+        <source>%n problems reading the migrations</source>
+        <translation>Migracionkunata ñawinchaspa %n sasachakuykuna</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Suyachkan</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>Manam ima migracionpas suyachkanchu.</translation>
+    </message>
+    <message>
+        <source>%n more in the administration</source>
+        <translation>Kamachiypi %n aswan</translation>
+    </message>
+    <message>
+        <source>Recorded, but the file is gone</source>
+        <translation>Qillqasqa, ichaqa willañiqiqa manaña kanchu</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>Qhepa purichiy</translation>
+    </message>
+    <message>
+        <source>No migration has run yet.</source>
+        <translation>Manaraq ima migracionpas purinchu.</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Purichiy</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Imayna kay</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Qallarisqa</translation>
+    </message>
+    <message>
+        <source>Finished</source>
+        <translation>Tukusqa</translation>
+    </message>
+    <message>
+        <source>Run by</source>
+        <translation>Purichiq</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>Sutichay</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>Unanchay</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>Kachay</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Migracionkuna</translation>
+    </message>
+    <message>
+        <source>%n migrations need attention</source>
+        <translation>%n migracionkuna qhawanata munanku</translation>
+    </message>
 </context>
 </TS>

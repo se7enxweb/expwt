@@ -32,7 +32,7 @@ class expwtRegistryApiTest extends PHPUnit\Framework\TestCase
     private static function raw()
     {
         return array(
-            'panels' => array( 'migrations' => array( 'Label' => 'Migrations', 'Context' => 'extension/expmigrate', 'Script' => 'expmigrate-expwt.js',
+            'panels' => array( 'deploys' => array( 'Label' => 'Deploys', 'Context' => 'extension/expmigrate', 'Script' => 'expmigrate-expwt.js',
                                                       'Stylesheet' => 'expmigrate-expwt.css', 'Before' => 'me', 'Function' => 'admin', 'Policy' => array( 'setup/system_info' ) ),
                                'page' => array( 'Label' => 'Mine', 'Script' => 'x.js' ),
                                'nolabel' => array( 'Script' => 'x.js' ),
@@ -43,10 +43,10 @@ class expwtRegistryApiTest extends PHPUnit\Framework\TestCase
                                 'expmigrate.broken' => array( 'Class' => 'NoSuchClassAnywhere' ),
                                 'draft.save' => array( 'Class' => 'expwtTestMigrationsActions' ),
                                 'nodot' => array( 'Class' => 'expwtTestMigrationsActions' ) ),
-            'highlights' => array( 'migration_tables' => array( 'Panel' => 'migrations', 'Selector' => 'table.migration-status', 'Label' => 'Migration status' ),
-                                   'evil' => array( 'Panel' => 'migrations', 'Selector' => 'x}body{display:none' ),
+            'highlights' => array( 'migration_tables' => array( 'Panel' => 'deploys', 'Selector' => 'table.migration-status', 'Label' => 'Migration status' ),
+                                   'evil' => array( 'Panel' => 'deploys', 'Selector' => 'x}body{display:none' ),
                                    'orphan' => array( 'Panel' => 'nowhere', 'Selector' => 'p' ) ),
-            'search' => array( 'migrations' => array( 'Label' => 'Migrations', 'Action' => 'expmigrate.status', 'Function' => 'admin' ),
+            'search' => array( 'deploys' => array( 'Label' => 'Deploys', 'Action' => 'expmigrate.status', 'Function' => 'admin' ),
                                'lost' => array( 'Label' => 'Lost', 'Action' => 'expmigrate.none' ) ),
         );
     }
@@ -98,10 +98,10 @@ class expwtRegistryApiTest extends PHPUnit\Framework\TestCase
     public function testWrongEntriesAreLeftOutAndNamed()
     {
         $r = expwtRegistry::fromArray( self::raw() );
-        $this->assertSame( array( 'migrations' ), array_keys( $r['panels'] ) );
+        $this->assertSame( array( 'deploys' ), array_keys( $r['panels'] ) );
         $this->assertSame( array( 'expmigrate.status', 'expmigrate.run', 'expmigrate.broken' ), array_keys( $r['actions'] ), 'a name of the sidebar or without a dot is refused' );
         $this->assertSame( array( 'migration_tables' ), array_keys( $r['highlights'] ), 'no selector that breaks out of a rule, no unknown panel' );
-        $this->assertSame( array( 'migrations' ), array_keys( $r['search'] ) );
+        $this->assertSame( array( 'deploys' ), array_keys( $r['search'] ) );
         $this->assertCount( 8, $r['refused'] );
         $this->assertSame( array( 'module' => 'setup', 'view' => 'system_upgrade', 'post' => array() ), $r['actions']['expmigrate.run']['kernelView'] );
         $this->assertTrue( $r['actions']['expmigrate.run']['writes'] );
@@ -135,7 +135,7 @@ class expwtRegistryApiTest extends PHPUnit\Framework\TestCase
     public function testBootTellsWhatTheUserGets()
     {
         $d = $this->api()->call( 'boot', array(), 'GET' )['body']['data']['registry'];
-        $this->assertSame( array( array( 'id' => 'migrations', 'label' => 'Migrations', 'before' => 'me', 'script' => '/packed/expmigrate-expwt.js',
+        $this->assertSame( array( array( 'id' => 'deploys', 'label' => 'Deploys', 'before' => 'me', 'script' => '/packed/expmigrate-expwt.js',
                                          'stylesheet' => '/packed/expmigrate-expwt.css' ) ), $d['panels'] );
         $this->assertSame( array( 'expmigrate.status' => array( 'writes' => false ), 'expmigrate.run' => array( 'writes' => true ),
                                   'expmigrate.broken' => array( 'writes' => false ) ), $d['actions'] );

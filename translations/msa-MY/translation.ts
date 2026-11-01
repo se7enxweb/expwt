@@ -1699,5 +1699,125 @@
         <source>Calendar</source>
         <translation>Kalendar</translation>
     </message>
+    <message>
+        <source>The migrations cannot be read now.</source>
+        <translation>Migrasi tidak dapat dibaca sekarang.</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Gagal</translation>
+    </message>
+    <message>
+        <source>Running</source>
+        <translation>Sedang berjalan</translation>
+    </message>
+    <message>
+        <source>Rolled back</source>
+        <translation>Digulung balik</translation>
+    </message>
+    <message>
+        <source>Pushed</source>
+        <translation>Dihantar</translation>
+    </message>
+    <message>
+        <source>Waiting for its push</source>
+        <translation>Menunggu penghantarannya</translation>
+    </message>
+    <message>
+        <source>Off</source>
+        <translation>Mati</translation>
+    </message>
+    <message>
+        <source>No remote</source>
+        <translation>Tiada repositori jauh</translation>
+    </message>
+    <message>
+        <source>Nothing to push</source>
+        <translation>Tiada apa untuk dihantar</translation>
+    </message>
+    <message>
+        <source>Read only: running and rolling back stay in the administration.</source>
+        <translation>Baca sahaja: menjalankan dan menggulung balik kekal dalam pentadbiran.</translation>
+    </message>
+    <message>
+        <source>The migration tables do not exist yet: exp:upgrade --apply makes them.</source>
+        <translation>Jadual migrasi belum wujud: exp:upgrade --apply menciptanya.</translation>
+    </message>
+    <message>
+        <source>A run is active</source>
+        <translation>Satu larian sedang aktif</translation>
+    </message>
+    <message>
+        <source>%purpose, by %user since %time</source>
+        <translation>%purpose, oleh %user sejak %time</translation>
+    </message>
+    <message>
+        <source>%n problems reading the migrations</source>
+        <translation>%n masalah semasa membaca migrasi</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Belum selesai</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>Tiada migrasi yang belum selesai.</translation>
+    </message>
+    <message>
+        <source>%n more in the administration</source>
+        <translation>%n lagi dalam pentadbiran</translation>
+    </message>
+    <message>
+        <source>Recorded, but the file is gone</source>
+        <translation>Direkodkan, tetapi fail sudah tiada</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>Larian terakhir</translation>
+    </message>
+    <message>
+        <source>No migration has run yet.</source>
+        <translation>Belum ada migrasi yang dijalankan.</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Larian</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Keadaan</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Dimulakan</translation>
+    </message>
+    <message>
+        <source>Finished</source>
+        <translation>Selesai</translation>
+    </message>
+    <message>
+        <source>Run by</source>
+        <translation>Dijalankan oleh</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>Kapsyen</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>Tag</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>Penghantaran</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Migrasi</translation>
+    </message>
+    <message>
+        <source>%n migrations need attention</source>
+        <translation>%n migrasi perlu perhatian</translation>
+    </message>
 </context>
 </TS>

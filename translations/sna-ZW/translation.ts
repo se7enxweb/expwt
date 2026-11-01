@@ -1699,5 +1699,125 @@
         <source>Calendar</source>
         <translation>Karenda</translation>
     </message>
+    <message>
+        <source>The migrations cannot be read now.</source>
+        <translation>Mamigireshoni haakwanisi kuverengwa izvozvi.</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Zvakundikana</translation>
+    </message>
+    <message>
+        <source>Running</source>
+        <translation>Kuri kumhanya</translation>
+    </message>
+    <message>
+        <source>Rolled back</source>
+        <translation>Zvadzoserwa</translation>
+    </message>
+    <message>
+        <source>Pushed</source>
+        <translation>Zvatumirwa</translation>
+    </message>
+    <message>
+        <source>Waiting for its push</source>
+        <translation>Kumirira kutumirwa</translation>
+    </message>
+    <message>
+        <source>Off</source>
+        <translation>Zvakadzimwa</translation>
+    </message>
+    <message>
+        <source>No remote</source>
+        <translation>Hapana remote</translation>
+    </message>
+    <message>
+        <source>Nothing to push</source>
+        <translation>Hapana chekutumira</translation>
+    </message>
+    <message>
+        <source>Read only: running and rolling back stay in the administration.</source>
+        <translation>Kuverenga chete: kumhanyisa nekudzosera zvinoitirwa mukutonga.</translation>
+    </message>
+    <message>
+        <source>The migration tables do not exist yet: exp:upgrade --apply makes them.</source>
+        <translation>Matafura emigireshoni haasati avapo: exp:upgrade --apply inoagadzira.</translation>
+    </message>
+    <message>
+        <source>A run is active</source>
+        <translation>Kumhanyisa kuri kuitika</translation>
+    </message>
+    <message>
+        <source>%purpose, by %user since %time</source>
+        <translation>%purpose, na %user kubva %time</translation>
+    </message>
+    <message>
+        <source>%n problems reading the migrations</source>
+        <translation>Matambudziko %n pakuverenga mamigireshoni</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Zvakamirira</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>Hapana migireshoni yakamirira.</translation>
+    </message>
+    <message>
+        <source>%n more in the administration</source>
+        <translation>Mamwe %n mukutonga</translation>
+    </message>
+    <message>
+        <source>Recorded, but the file is gone</source>
+        <translation>Yakanyorwa, asi faira harichipo</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>Kumhanyisa kwekupedzisira</translation>
+    </message>
+    <message>
+        <source>No migration has run yet.</source>
+        <translation>Hapana migireshoni yakamhanyiswa parizvino.</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Kumhanyisa</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Mamiriro</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Zvatanga</translation>
+    </message>
+    <message>
+        <source>Finished</source>
+        <translation>Zvapera</translation>
+    </message>
+    <message>
+        <source>Run by</source>
+        <translation>Yakamhanyiswa na</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>Zita</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>Tag</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>Kutumira</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Mamigireshoni</translation>
+    </message>
+    <message>
+        <source>%n migrations need attention</source>
+        <translation>Mamigireshoni %n anoda kutariswa</translation>
+    </message>
 </context>
 </TS>

@@ -1699,5 +1699,125 @@
         <source>Calendar</source>
         <translation>კალენდარი</translation>
     </message>
+    <message>
+        <source>The migrations cannot be read now.</source>
+        <translation>მიგრაციების წაკითხვა ახლა შეუძლებელია.</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>ვერ შესრულდა</translation>
+    </message>
+    <message>
+        <source>Running</source>
+        <translation>მიმდინარეობს</translation>
+    </message>
+    <message>
+        <source>Rolled back</source>
+        <translation>უკან დაბრუნდა</translation>
+    </message>
+    <message>
+        <source>Pushed</source>
+        <translation>გაგზავნილია</translation>
+    </message>
+    <message>
+        <source>Waiting for its push</source>
+        <translation>ელოდება გაგზავნას</translation>
+    </message>
+    <message>
+        <source>Off</source>
+        <translation>გამორთულია</translation>
+    </message>
+    <message>
+        <source>No remote</source>
+        <translation>დისტანციური საცავი არ არის</translation>
+    </message>
+    <message>
+        <source>Nothing to push</source>
+        <translation>გასაგზავნი არაფერია</translation>
+    </message>
+    <message>
+        <source>Read only: running and rolling back stay in the administration.</source>
+        <translation>მხოლოდ წაკითხვა: გაშვება და უკან დაბრუნება ადმინისტრირებაში რჩება.</translation>
+    </message>
+    <message>
+        <source>The migration tables do not exist yet: exp:upgrade --apply makes them.</source>
+        <translation>მიგრაციის ცხრილები ჯერ არ არსებობს: მათ exp:upgrade --apply ქმნის.</translation>
+    </message>
+    <message>
+        <source>A run is active</source>
+        <translation>გაშვება აქტიურია</translation>
+    </message>
+    <message>
+        <source>%purpose, by %user since %time</source>
+        <translation>%purpose, %user, დაწყება: %time</translation>
+    </message>
+    <message>
+        <source>%n problems reading the migrations</source>
+        <translation>%n პრობლემა მიგრაციების წაკითხვისას</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>მოლოდინში</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>მოლოდინში მიგრაცია არ არის.</translation>
+    </message>
+    <message>
+        <source>%n more in the administration</source>
+        <translation>კიდევ %n ადმინისტრირებაში</translation>
+    </message>
+    <message>
+        <source>Recorded, but the file is gone</source>
+        <translation>ჩაწერილია, მაგრამ ფაილი აღარ არსებობს</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>ბოლო გაშვება</translation>
+    </message>
+    <message>
+        <source>No migration has run yet.</source>
+        <translation>ჯერ არცერთი მიგრაცია არ გაშვებულა.</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>გაშვება</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>მდგომარეობა</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>დაიწყო</translation>
+    </message>
+    <message>
+        <source>Finished</source>
+        <translation>დასრულდა</translation>
+    </message>
+    <message>
+        <source>Run by</source>
+        <translation>გაუშვა</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>წარწერა</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>ტეგი</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>გაგზავნა</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>მიგრაციები</translation>
+    </message>
+    <message>
+        <source>%n migrations need attention</source>
+        <translation>%n მიგრაციას ყურადღება სჭირდება</translation>
+    </message>
 </context>
 </TS>

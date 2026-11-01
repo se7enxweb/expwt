@@ -1699,5 +1699,125 @@
         <source>Calendar</source>
         <translation>Lịch</translation>
     </message>
+    <message>
+        <source>The migrations cannot be read now.</source>
+        <translation>Hiện không thể đọc các bản di chuyển.</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Thất bại</translation>
+    </message>
+    <message>
+        <source>Running</source>
+        <translation>Đang chạy</translation>
+    </message>
+    <message>
+        <source>Rolled back</source>
+        <translation>Đã hoàn tác</translation>
+    </message>
+    <message>
+        <source>Pushed</source>
+        <translation>Đã đẩy</translation>
+    </message>
+    <message>
+        <source>Waiting for its push</source>
+        <translation>Đang chờ đẩy</translation>
+    </message>
+    <message>
+        <source>Off</source>
+        <translation>Tắt</translation>
+    </message>
+    <message>
+        <source>No remote</source>
+        <translation>Không có kho từ xa</translation>
+    </message>
+    <message>
+        <source>Nothing to push</source>
+        <translation>Không có gì để đẩy</translation>
+    </message>
+    <message>
+        <source>Read only: running and rolling back stay in the administration.</source>
+        <translation>Chỉ đọc: việc chạy và hoàn tác được thực hiện trong trang quản trị.</translation>
+    </message>
+    <message>
+        <source>The migration tables do not exist yet: exp:upgrade --apply makes them.</source>
+        <translation>Các bảng di chuyển chưa tồn tại: exp:upgrade --apply sẽ tạo chúng.</translation>
+    </message>
+    <message>
+        <source>A run is active</source>
+        <translation>Đang có một lượt chạy</translation>
+    </message>
+    <message>
+        <source>%purpose, by %user since %time</source>
+        <translation>%purpose, bởi %user từ %time</translation>
+    </message>
+    <message>
+        <source>%n problems reading the migrations</source>
+        <translation>%n lỗi khi đọc các bản di chuyển</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Đang chờ</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>Không có bản di chuyển nào đang chờ.</translation>
+    </message>
+    <message>
+        <source>%n more in the administration</source>
+        <translation>Thêm %n trong trang quản trị</translation>
+    </message>
+    <message>
+        <source>Recorded, but the file is gone</source>
+        <translation>Đã ghi nhận, nhưng tệp không còn</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>Lượt chạy gần nhất</translation>
+    </message>
+    <message>
+        <source>No migration has run yet.</source>
+        <translation>Chưa có bản di chuyển nào được chạy.</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Lượt chạy</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Trạng thái</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Bắt đầu</translation>
+    </message>
+    <message>
+        <source>Finished</source>
+        <translation>Kết thúc</translation>
+    </message>
+    <message>
+        <source>Run by</source>
+        <translation>Người chạy</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>Chú thích</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>Thẻ</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>Đẩy</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Di chuyển</translation>
+    </message>
+    <message>
+        <source>%n migrations need attention</source>
+        <translation>%n bản di chuyển cần chú ý</translation>
+    </message>
 </context>
 </TS>

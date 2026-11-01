@@ -1699,5 +1699,125 @@
         <source>Calendar</source>
         <translation>Calendièr</translation>
     </message>
+    <message>
+        <source>The migrations cannot be read now.</source>
+        <translation>Las migracions se pòdon pas legir ara.</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Fracassada</translation>
+    </message>
+    <message>
+        <source>Running</source>
+        <translation>En cors</translation>
+    </message>
+    <message>
+        <source>Rolled back</source>
+        <translation>Anullada</translation>
+    </message>
+    <message>
+        <source>Pushed</source>
+        <translation>Mandada</translation>
+    </message>
+    <message>
+        <source>Waiting for its push</source>
+        <translation>Espèra son mandadís</translation>
+    </message>
+    <message>
+        <source>Off</source>
+        <translation>Desactivat</translation>
+    </message>
+    <message>
+        <source>No remote</source>
+        <translation>Pas de depaus distant</translation>
+    </message>
+    <message>
+        <source>Nothing to push</source>
+        <translation>Pas res de mandar</translation>
+    </message>
+    <message>
+        <source>Read only: running and rolling back stay in the administration.</source>
+        <translation>Lectura sola: l'execucion e l'anullacion demòran dins l'administracion.</translation>
+    </message>
+    <message>
+        <source>The migration tables do not exist yet: exp:upgrade --apply makes them.</source>
+        <translation>Las taulas de migracion existisson pas encara: exp:upgrade --apply las crèa.</translation>
+    </message>
+    <message>
+        <source>A run is active</source>
+        <translation>Una execucion es activa</translation>
+    </message>
+    <message>
+        <source>%purpose, by %user since %time</source>
+        <translation>%purpose, per %user dempuèi %time</translation>
+    </message>
+    <message>
+        <source>%n problems reading the migrations</source>
+        <translation>%n problèmas en legir las migracions</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>En espèra</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>Cap de migracion es pas en espèra.</translation>
+    </message>
+    <message>
+        <source>%n more in the administration</source>
+        <translation>%n de mai dins l'administracion</translation>
+    </message>
+    <message>
+        <source>Recorded, but the file is gone</source>
+        <translation>Enregistrada, mas lo fichièr es pas mai aquí</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>Darrièra execucion</translation>
+    </message>
+    <message>
+        <source>No migration has run yet.</source>
+        <translation>Cap de migracion s'es pas encara executada.</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Execucion</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Estat</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Començada</translation>
+    </message>
+    <message>
+        <source>Finished</source>
+        <translation>Acabada</translation>
+    </message>
+    <message>
+        <source>Run by</source>
+        <translation>Executada per</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>Legenda</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>Etiqueta</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>Mandadís</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Migracions</translation>
+    </message>
+    <message>
+        <source>%n migrations need attention</source>
+        <translation>%n migracions demandan d'atencion</translation>
+    </message>
 </context>
 </TS>

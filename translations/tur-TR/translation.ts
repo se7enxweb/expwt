@@ -1699,5 +1699,125 @@
         <source>Calendar</source>
         <translation>Takvim</translation>
     </message>
+    <message>
+        <source>The migrations cannot be read now.</source>
+        <translation>Geçişler şu anda okunamıyor.</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Başarısız</translation>
+    </message>
+    <message>
+        <source>Running</source>
+        <translation>Çalışıyor</translation>
+    </message>
+    <message>
+        <source>Rolled back</source>
+        <translation>Geri alındı</translation>
+    </message>
+    <message>
+        <source>Pushed</source>
+        <translation>Gönderildi</translation>
+    </message>
+    <message>
+        <source>Waiting for its push</source>
+        <translation>Gönderilmeyi bekliyor</translation>
+    </message>
+    <message>
+        <source>Off</source>
+        <translation>Kapalı</translation>
+    </message>
+    <message>
+        <source>No remote</source>
+        <translation>Uzak depo yok</translation>
+    </message>
+    <message>
+        <source>Nothing to push</source>
+        <translation>Gönderilecek bir şey yok</translation>
+    </message>
+    <message>
+        <source>Read only: running and rolling back stay in the administration.</source>
+        <translation>Salt okunur: çalıştırma ve geri alma yönetimde yapılır.</translation>
+    </message>
+    <message>
+        <source>The migration tables do not exist yet: exp:upgrade --apply makes them.</source>
+        <translation>Geçiş tabloları henüz yok: exp:upgrade --apply bunları oluşturur.</translation>
+    </message>
+    <message>
+        <source>A run is active</source>
+        <translation>Bir çalıştırma etkin</translation>
+    </message>
+    <message>
+        <source>%purpose, by %user since %time</source>
+        <translation>%purpose, %user tarafından, %time itibarıyla</translation>
+    </message>
+    <message>
+        <source>%n problems reading the migrations</source>
+        <translation>Geçişler okunurken %n sorun</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Bekliyor</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>Bekleyen geçiş yok.</translation>
+    </message>
+    <message>
+        <source>%n more in the administration</source>
+        <translation>Yönetimde %n tane daha</translation>
+    </message>
+    <message>
+        <source>Recorded, but the file is gone</source>
+        <translation>Kaydedildi, ancak dosya yok</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>Son çalıştırma</translation>
+    </message>
+    <message>
+        <source>No migration has run yet.</source>
+        <translation>Henüz hiçbir geçiş çalıştırılmadı.</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Çalıştırma</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Durum</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Başladı</translation>
+    </message>
+    <message>
+        <source>Finished</source>
+        <translation>Bitti</translation>
+    </message>
+    <message>
+        <source>Run by</source>
+        <translation>Çalıştıran</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>Başlık</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>Etiket</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>Gönderim</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Geçişler</translation>
+    </message>
+    <message>
+        <source>%n migrations need attention</source>
+        <translation>%n geçiş dikkat gerektiriyor</translation>
+    </message>
 </context>
 </TS>

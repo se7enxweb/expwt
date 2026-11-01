@@ -1699,5 +1699,125 @@
         <source>Calendar</source>
         <translation>Arminaat</translation>
     </message>
+    <message>
+        <source>The migrations cannot be read now.</source>
+        <translation>Mënuñu jàng migrasioŋ yi léegi.</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Lajj na</translation>
+    </message>
+    <message>
+        <source>Running</source>
+        <translation>Mi ngi dox</translation>
+    </message>
+    <message>
+        <source>Rolled back</source>
+        <translation>Delloo nañu ko</translation>
+    </message>
+    <message>
+        <source>Pushed</source>
+        <translation>Yónnee nañu ko</translation>
+    </message>
+    <message>
+        <source>Waiting for its push</source>
+        <translation>Mi ngi xaar ñu yónnee ko</translation>
+    </message>
+    <message>
+        <source>Off</source>
+        <translation>Fey</translation>
+    </message>
+    <message>
+        <source>No remote</source>
+        <translation>Amul remote</translation>
+    </message>
+    <message>
+        <source>Nothing to push</source>
+        <translation>Amul dara lu ñuy yónnee</translation>
+    </message>
+    <message>
+        <source>Read only: running and rolling back stay in the administration.</source>
+        <translation>Jàng rekk: doxal ak delloo ñu ngi ko def ci njiite li.</translation>
+    </message>
+    <message>
+        <source>The migration tables do not exist yet: exp:upgrade --apply makes them.</source>
+        <translation>Tablo migrasioŋ yi amaguñu: exp:upgrade --apply mooy sos leen.</translation>
+    </message>
+    <message>
+        <source>A run is active</source>
+        <translation>Am na doxal buy dox</translation>
+    </message>
+    <message>
+        <source>%purpose, by %user since %time</source>
+        <translation>%purpose, ci %user dale ko %time</translation>
+    </message>
+    <message>
+        <source>%n problems reading the migrations</source>
+        <translation>%n jafe-jafe bu ñuy jàng migrasioŋ yi</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Ci xaar</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>Amul migrasioŋ buy xaar.</translation>
+    </message>
+    <message>
+        <source>%n more in the administration</source>
+        <translation>%n yeneen ci njiite li</translation>
+    </message>
+    <message>
+        <source>Recorded, but the file is gone</source>
+        <translation>Bind nañu ko, waaye fichier bi amul</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>Doxal bu mujj</translation>
+    </message>
+    <message>
+        <source>No migration has run yet.</source>
+        <translation>Benn migrasioŋ doxagul.</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Doxal</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Anam</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Tàmbali na</translation>
+    </message>
+    <message>
+        <source>Finished</source>
+        <translation>Jeex na</translation>
+    </message>
+    <message>
+        <source>Run by</source>
+        <translation>Ki ko doxal</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>Tur</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>Màndarga</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>Yónnee</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Migrasioŋ yi</translation>
+    </message>
+    <message>
+        <source>%n migrations need attention</source>
+        <translation>%n migrasioŋ soxla nañu topptoo</translation>
+    </message>
 </context>
 </TS>

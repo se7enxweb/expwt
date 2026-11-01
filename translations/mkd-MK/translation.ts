@@ -1699,5 +1699,125 @@
         <source>Calendar</source>
         <translation>Календар</translation>
     </message>
+    <message>
+        <source>The migrations cannot be read now.</source>
+        <translation>Миграциите не можат да се прочитаат сега.</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Неуспешно</translation>
+    </message>
+    <message>
+        <source>Running</source>
+        <translation>Се извршува</translation>
+    </message>
+    <message>
+        <source>Rolled back</source>
+        <translation>Вратено</translation>
+    </message>
+    <message>
+        <source>Pushed</source>
+        <translation>Испратено</translation>
+    </message>
+    <message>
+        <source>Waiting for its push</source>
+        <translation>Чека испраќање</translation>
+    </message>
+    <message>
+        <source>Off</source>
+        <translation>Исклучено</translation>
+    </message>
+    <message>
+        <source>No remote</source>
+        <translation>Нема оддалечено складиште</translation>
+    </message>
+    <message>
+        <source>Nothing to push</source>
+        <translation>Нема што да се испрати</translation>
+    </message>
+    <message>
+        <source>Read only: running and rolling back stay in the administration.</source>
+        <translation>Само за читање: извршувањето и враќањето остануваат во администрацијата.</translation>
+    </message>
+    <message>
+        <source>The migration tables do not exist yet: exp:upgrade --apply makes them.</source>
+        <translation>Табелите за миграции сè уште не постојат: exp:upgrade --apply ги создава.</translation>
+    </message>
+    <message>
+        <source>A run is active</source>
+        <translation>Активно е извршување</translation>
+    </message>
+    <message>
+        <source>%purpose, by %user since %time</source>
+        <translation>%purpose, извршува %user од %time</translation>
+    </message>
+    <message>
+        <source>%n problems reading the migrations</source>
+        <translation>%n проблеми при читање на миграциите</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>На чекање</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>Нема миграција на чекање.</translation>
+    </message>
+    <message>
+        <source>%n more in the administration</source>
+        <translation>Уште %n во администрацијата</translation>
+    </message>
+    <message>
+        <source>Recorded, but the file is gone</source>
+        <translation>Запишано, но датотеката ја нема</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>Последно извршување</translation>
+    </message>
+    <message>
+        <source>No migration has run yet.</source>
+        <translation>Сè уште не е извршена ниедна миграција.</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Извршување</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Состојба</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Започнато</translation>
+    </message>
+    <message>
+        <source>Finished</source>
+        <translation>Завршено</translation>
+    </message>
+    <message>
+        <source>Run by</source>
+        <translation>Извршил</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>Наслов</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>Ознака</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>Испраќање</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Миграции</translation>
+    </message>
+    <message>
+        <source>%n migrations need attention</source>
+        <translation>%n миграции бараат внимание</translation>
+    </message>
 </context>
 </TS>

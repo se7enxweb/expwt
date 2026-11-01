@@ -1699,5 +1699,125 @@
         <source>Calendar</source>
         <translation>የቀን መቁጠሪያ</translation>
     </message>
+    <message>
+        <source>The migrations cannot be read now.</source>
+        <translation>ፍልሰቶቹን አሁን ማንበብ አይቻልም።</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>አልተሳካም</translation>
+    </message>
+    <message>
+        <source>Running</source>
+        <translation>በሂደት ላይ</translation>
+    </message>
+    <message>
+        <source>Rolled back</source>
+        <translation>ተመልሷል</translation>
+    </message>
+    <message>
+        <source>Pushed</source>
+        <translation>ተገፍቷል</translation>
+    </message>
+    <message>
+        <source>Waiting for its push</source>
+        <translation>መግፋቱን በመጠበቅ ላይ</translation>
+    </message>
+    <message>
+        <source>Off</source>
+        <translation>ጠፍቷል</translation>
+    </message>
+    <message>
+        <source>No remote</source>
+        <translation>ሩቅ ማከማቻ የለም</translation>
+    </message>
+    <message>
+        <source>Nothing to push</source>
+        <translation>የሚገፋ ነገር የለም</translation>
+    </message>
+    <message>
+        <source>Read only: running and rolling back stay in the administration.</source>
+        <translation>ለንባብ ብቻ፦ ማስኬድና መመለስ በአስተዳደሩ ውስጥ ይቀራሉ።</translation>
+    </message>
+    <message>
+        <source>The migration tables do not exist yet: exp:upgrade --apply makes them.</source>
+        <translation>የፍልሰት ሰንጠረዦቹ ገና የሉም፦ exp:upgrade --apply ይፈጥራቸዋል።</translation>
+    </message>
+    <message>
+        <source>A run is active</source>
+        <translation>አንድ ሩጫ ንቁ ነው</translation>
+    </message>
+    <message>
+        <source>%purpose, by %user since %time</source>
+        <translation>%purpose፣ በ%user ከ%time ጀምሮ</translation>
+    </message>
+    <message>
+        <source>%n problems reading the migrations</source>
+        <translation>ፍልሰቶቹን በማንበብ ላይ %n ችግሮች</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>በመጠባበቅ ላይ</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>የሚጠብቅ ፍልሰት የለም።</translation>
+    </message>
+    <message>
+        <source>%n more in the administration</source>
+        <translation>በአስተዳደሩ ውስጥ %n ተጨማሪ</translation>
+    </message>
+    <message>
+        <source>Recorded, but the file is gone</source>
+        <translation>ተመዝግቧል፣ ግን ፋይሉ የለም</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>የመጨረሻ ሩጫ</translation>
+    </message>
+    <message>
+        <source>No migration has run yet.</source>
+        <translation>እስካሁን ምንም ፍልሰት አልሄደም።</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>ሩጫ</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>ሁኔታ</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>ተጀምሯል</translation>
+    </message>
+    <message>
+        <source>Finished</source>
+        <translation>ተጠናቋል</translation>
+    </message>
+    <message>
+        <source>Run by</source>
+        <translation>ያስኬደው</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>መግለጫ</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>መለያ</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>ግፋ</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>ፍልሰቶች</translation>
+    </message>
+    <message>
+        <source>%n migrations need attention</source>
+        <translation>%n ፍልሰቶች ትኩረት ይፈልጋሉ</translation>
+    </message>
 </context>
 </TS>

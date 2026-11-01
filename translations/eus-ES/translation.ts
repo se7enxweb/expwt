@@ -1699,5 +1699,125 @@
         <source>Calendar</source>
         <translation>Egutegia</translation>
     </message>
+    <message>
+        <source>The migrations cannot be read now.</source>
+        <translation>Ezin dira migrazioak orain irakurri.</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Huts egin du</translation>
+    </message>
+    <message>
+        <source>Running</source>
+        <translation>Exekutatzen</translation>
+    </message>
+    <message>
+        <source>Rolled back</source>
+        <translation>Desegina</translation>
+    </message>
+    <message>
+        <source>Pushed</source>
+        <translation>Bidalita</translation>
+    </message>
+    <message>
+        <source>Waiting for its push</source>
+        <translation>Bidalketaren zain</translation>
+    </message>
+    <message>
+        <source>Off</source>
+        <translation>Desaktibatuta</translation>
+    </message>
+    <message>
+        <source>No remote</source>
+        <translation>Urruneko biltegirik ez</translation>
+    </message>
+    <message>
+        <source>Nothing to push</source>
+        <translation>Ez dago ezer bidaltzeko</translation>
+    </message>
+    <message>
+        <source>Read only: running and rolling back stay in the administration.</source>
+        <translation>Irakurtzeko soilik: exekutatzea eta desegitea administrazioan geratzen dira.</translation>
+    </message>
+    <message>
+        <source>The migration tables do not exist yet: exp:upgrade --apply makes them.</source>
+        <translation>Migrazio-taulak ez dira oraindik existitzen: exp:upgrade --apply komandoak sortzen ditu.</translation>
+    </message>
+    <message>
+        <source>A run is active</source>
+        <translation>Exekuzio bat aktibo dago</translation>
+    </message>
+    <message>
+        <source>%purpose, by %user since %time</source>
+        <translation>%purpose, %user erabiltzaileak %time geroztik</translation>
+    </message>
+    <message>
+        <source>%n problems reading the migrations</source>
+        <translation>%n arazo migrazioak irakurtzean</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Zain</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>Ez dago migraziorik zain.</translation>
+    </message>
+    <message>
+        <source>%n more in the administration</source>
+        <translation>Beste %n administrazioan</translation>
+    </message>
+    <message>
+        <source>Recorded, but the file is gone</source>
+        <translation>Erregistratuta, baina fitxategia ez dago</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>Azken exekuzioa</translation>
+    </message>
+    <message>
+        <source>No migration has run yet.</source>
+        <translation>Oraindik ez da migraziorik exekutatu.</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Exekuzioa</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Egoera</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Hasita</translation>
+    </message>
+    <message>
+        <source>Finished</source>
+        <translation>Amaituta</translation>
+    </message>
+    <message>
+        <source>Run by</source>
+        <translation>Exekutatzailea</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>Epigrafea</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>Etiketa</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>Bidalketa</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Migrazioak</translation>
+    </message>
+    <message>
+        <source>%n migrations need attention</source>
+        <translation>%n migraziok arreta behar dute</translation>
+    </message>
 </context>
 </TS>

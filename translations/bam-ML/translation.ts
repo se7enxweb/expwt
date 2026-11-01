@@ -1699,5 +1699,125 @@
         <source>Calendar</source>
         <translation>Kalandiriye</translation>
     </message>
+    <message>
+        <source>The migrations cannot be read now.</source>
+        <translation>Migrasiyɔnw tɛ se ka kalan sisan.</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>A ma se</translation>
+    </message>
+    <message>
+        <source>Running</source>
+        <translation>A bɛ taa</translation>
+    </message>
+    <message>
+        <source>Rolled back</source>
+        <translation>A seginna kɔ</translation>
+    </message>
+    <message>
+        <source>Pushed</source>
+        <translation>A cilen don</translation>
+    </message>
+    <message>
+        <source>Waiting for its push</source>
+        <translation>A bɛ a cili makɔnɔ</translation>
+    </message>
+    <message>
+        <source>Off</source>
+        <translation>A datugura</translation>
+    </message>
+    <message>
+        <source>No remote</source>
+        <translation>Yɔrɔjan maralan tɛ</translation>
+    </message>
+    <message>
+        <source>Nothing to push</source>
+        <translation>Foyi tɛ ka ci</translation>
+    </message>
+    <message>
+        <source>Read only: running and rolling back stay in the administration.</source>
+        <translation>Kalan dɔrɔn: baara kɛli ani segin kɔ bɛ to ɲɛmɔgɔya la.</translation>
+    </message>
+    <message>
+        <source>The migration tables do not exist yet: exp:upgrade --apply makes them.</source>
+        <translation>Migrasiyɔn tabaliw tɛ yen fɔlɔ: exp:upgrade --apply b'u dilan.</translation>
+    </message>
+    <message>
+        <source>A run is active</source>
+        <translation>Baara kɛli dɔ bɛ taa</translation>
+    </message>
+    <message>
+        <source>%purpose, by %user since %time</source>
+        <translation>%purpose, %user fɛ kabini %time</translation>
+    </message>
+    <message>
+        <source>%n problems reading the migrations</source>
+        <translation>Gɛlɛya %n migrasiyɔnw kalanni na</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>A bɛ makɔnɔ</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>Migrasiyɔn si tɛ makɔnɔ.</translation>
+    </message>
+    <message>
+        <source>%n more in the administration</source>
+        <translation>%n wɛrɛ ɲɛmɔgɔya la</translation>
+    </message>
+    <message>
+        <source>Recorded, but the file is gone</source>
+        <translation>A sɛbɛnna, nka filɛ tɛ yen tugun</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>Baara kɛli laban</translation>
+    </message>
+    <message>
+        <source>No migration has run yet.</source>
+        <translation>Migrasiyɔn si ma kɛ fɔlɔ.</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Baara kɛli</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Cogo</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>A daminɛna</translation>
+    </message>
+    <message>
+        <source>Finished</source>
+        <translation>A banna</translation>
+    </message>
+    <message>
+        <source>Run by</source>
+        <translation>Min y'a kɛ</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>Tɔgɔ</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>Taamasiyɛn</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>Cili</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Migrasiyɔnw</translation>
+    </message>
+    <message>
+        <source>%n migrations need attention</source>
+        <translation>Migrasiyɔn %n bɛ hakili ɲini</translation>
+    </message>
 </context>
 </TS>

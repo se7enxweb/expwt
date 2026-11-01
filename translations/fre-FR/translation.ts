@@ -1699,5 +1699,125 @@
         <source>Calendar</source>
         <translation>Calendrier</translation>
     </message>
+    <message>
+        <source>The migrations cannot be read now.</source>
+        <translation>Les migrations ne peuvent pas être lues pour le moment.</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Échec</translation>
+    </message>
+    <message>
+        <source>Running</source>
+        <translation>En cours</translation>
+    </message>
+    <message>
+        <source>Rolled back</source>
+        <translation>Annulée</translation>
+    </message>
+    <message>
+        <source>Pushed</source>
+        <translation>Poussé</translation>
+    </message>
+    <message>
+        <source>Waiting for its push</source>
+        <translation>En attente de push</translation>
+    </message>
+    <message>
+        <source>Off</source>
+        <translation>Désactivé</translation>
+    </message>
+    <message>
+        <source>No remote</source>
+        <translation>Aucun dépôt distant</translation>
+    </message>
+    <message>
+        <source>Nothing to push</source>
+        <translation>Rien à pousser</translation>
+    </message>
+    <message>
+        <source>Read only: running and rolling back stay in the administration.</source>
+        <translation>Lecture seule : l'exécution et l'annulation restent dans l'administration.</translation>
+    </message>
+    <message>
+        <source>The migration tables do not exist yet: exp:upgrade --apply makes them.</source>
+        <translation>Les tables de migration n'existent pas encore : exp:upgrade --apply les crée.</translation>
+    </message>
+    <message>
+        <source>A run is active</source>
+        <translation>Une exécution est en cours</translation>
+    </message>
+    <message>
+        <source>%purpose, by %user since %time</source>
+        <translation>%purpose, par %user depuis %time</translation>
+    </message>
+    <message>
+        <source>%n problems reading the migrations</source>
+        <translation>%n problèmes de lecture des migrations</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>En attente</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>Aucune migration en attente.</translation>
+    </message>
+    <message>
+        <source>%n more in the administration</source>
+        <translation>%n de plus dans l'administration</translation>
+    </message>
+    <message>
+        <source>Recorded, but the file is gone</source>
+        <translation>Enregistrée, mais le fichier n'existe plus</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>Dernière exécution</translation>
+    </message>
+    <message>
+        <source>No migration has run yet.</source>
+        <translation>Aucune migration n'a encore été exécutée.</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Exécution</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>État</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Début</translation>
+    </message>
+    <message>
+        <source>Finished</source>
+        <translation>Fin</translation>
+    </message>
+    <message>
+        <source>Run by</source>
+        <translation>Exécutée par</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>Légende</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>Tag</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>Push</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Migrations</translation>
+    </message>
+    <message>
+        <source>%n migrations need attention</source>
+        <translation>%n migrations demandent votre attention</translation>
+    </message>
 </context>
 </TS>

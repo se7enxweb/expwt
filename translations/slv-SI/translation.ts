@@ -1699,5 +1699,125 @@
         <source>Calendar</source>
         <translation>Koledar</translation>
     </message>
+    <message>
+        <source>The migrations cannot be read now.</source>
+        <translation>Migracij trenutno ni mogoče prebrati.</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Neuspešno</translation>
+    </message>
+    <message>
+        <source>Running</source>
+        <translation>Se izvaja</translation>
+    </message>
+    <message>
+        <source>Rolled back</source>
+        <translation>Razveljavljeno</translation>
+    </message>
+    <message>
+        <source>Pushed</source>
+        <translation>Potisnjeno</translation>
+    </message>
+    <message>
+        <source>Waiting for its push</source>
+        <translation>Čaka na potisk</translation>
+    </message>
+    <message>
+        <source>Off</source>
+        <translation>Izklopljeno</translation>
+    </message>
+    <message>
+        <source>No remote</source>
+        <translation>Ni oddaljenega skladišča</translation>
+    </message>
+    <message>
+        <source>Nothing to push</source>
+        <translation>Ničesar za potisk</translation>
+    </message>
+    <message>
+        <source>Read only: running and rolling back stay in the administration.</source>
+        <translation>Samo za branje: zagon in razveljavitev ostajata v administraciji.</translation>
+    </message>
+    <message>
+        <source>The migration tables do not exist yet: exp:upgrade --apply makes them.</source>
+        <translation>Tabele migracij še ne obstajajo: ustvari jih exp:upgrade --apply.</translation>
+    </message>
+    <message>
+        <source>A run is active</source>
+        <translation>Zagon je aktiven</translation>
+    </message>
+    <message>
+        <source>%purpose, by %user since %time</source>
+        <translation>%purpose, %user od %time</translation>
+    </message>
+    <message>
+        <source>%n problems reading the migrations</source>
+        <translation>Težave pri branju migracij: %n</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Na čakanju</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>Nobena migracija ne čaka.</translation>
+    </message>
+    <message>
+        <source>%n more in the administration</source>
+        <translation>Še %n v administraciji</translation>
+    </message>
+    <message>
+        <source>Recorded, but the file is gone</source>
+        <translation>Zabeleženo, a datoteke ni več</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>Zadnji zagon</translation>
+    </message>
+    <message>
+        <source>No migration has run yet.</source>
+        <translation>Nobena migracija se še ni izvedla.</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Zagon</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Stanje</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Začeto</translation>
+    </message>
+    <message>
+        <source>Finished</source>
+        <translation>Končano</translation>
+    </message>
+    <message>
+        <source>Run by</source>
+        <translation>Zagnal</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>Napis</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>Oznaka</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>Potisk</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Migracije</translation>
+    </message>
+    <message>
+        <source>%n migrations need attention</source>
+        <translation>Migracije, ki zahtevajo pozornost: %n</translation>
+    </message>
 </context>
 </TS>

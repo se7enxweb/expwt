@@ -1699,5 +1699,125 @@
         <source>Calendar</source>
         <translation>Tetiandro</translation>
     </message>
+    <message>
+        <source>The migrations cannot be read now.</source>
+        <translation>Tsy azo vakiana amin'izao ny fifindrana.</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Tsy nahomby</translation>
+    </message>
+    <message>
+        <source>Running</source>
+        <translation>Mandeha</translation>
+    </message>
+    <message>
+        <source>Rolled back</source>
+        <translation>Naverina</translation>
+    </message>
+    <message>
+        <source>Pushed</source>
+        <translation>Nalefa</translation>
+    </message>
+    <message>
+        <source>Waiting for its push</source>
+        <translation>Miandry ny fandefasana azy</translation>
+    </message>
+    <message>
+        <source>Off</source>
+        <translation>Najanona</translation>
+    </message>
+    <message>
+        <source>No remote</source>
+        <translation>Tsy misy toeram-pitahirizana lavitra</translation>
+    </message>
+    <message>
+        <source>Nothing to push</source>
+        <translation>Tsy misy halefa</translation>
+    </message>
+    <message>
+        <source>Read only: running and rolling back stay in the administration.</source>
+        <translation>Famakiana ihany: ny fampandehanana sy ny famerenana dia ao amin'ny fitantanana.</translation>
+    </message>
+    <message>
+        <source>The migration tables do not exist yet: exp:upgrade --apply makes them.</source>
+        <translation>Mbola tsy misy ny tabilaon'ny fifindrana: exp:upgrade --apply no mamorona azy ireo.</translation>
+    </message>
+    <message>
+        <source>A run is active</source>
+        <translation>Misy fampandehanana mandeha</translation>
+    </message>
+    <message>
+        <source>%purpose, by %user since %time</source>
+        <translation>%purpose, nataon'i %user hatramin'ny %time</translation>
+    </message>
+    <message>
+        <source>%n problems reading the migrations</source>
+        <translation>Olana %n tamin'ny famakiana ny fifindrana</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Miandry</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>Tsy misy fifindrana miandry.</translation>
+    </message>
+    <message>
+        <source>%n more in the administration</source>
+        <translation>%n hafa ao amin'ny fitantanana</translation>
+    </message>
+    <message>
+        <source>Recorded, but the file is gone</source>
+        <translation>Voasoratra, saingy tsy eo intsony ilay rakitra</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>Fampandehanana farany</translation>
+    </message>
+    <message>
+        <source>No migration has run yet.</source>
+        <translation>Mbola tsy nisy fifindrana nandeha.</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Fampandehanana</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Toe-javatra</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Natomboka</translation>
+    </message>
+    <message>
+        <source>Finished</source>
+        <translation>Vita</translation>
+    </message>
+    <message>
+        <source>Run by</source>
+        <translation>Nampandehanin'i</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>Lohateny</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>Marika</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>Fandefasana</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Fifindrana</translation>
+    </message>
+    <message>
+        <source>%n migrations need attention</source>
+        <translation>Fifindrana %n mila jerena</translation>
+    </message>
 </context>
 </TS>

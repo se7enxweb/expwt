@@ -17,34 +17,34 @@
  * policy of what it changes, as the sidebar's own actions do.
  *
  *   [RegistrySettings]
- *   PanelList[]=migrations
- *   ActionList[]=expmigrate.status
+ *   PanelList[]=deploys
+ *   ActionList[]=expdeploy.status
  *
- *   [Panel_migrations]
- *   Label=Migrations                       (the English source; translated in Context)
- *   Context=extension/expmigrate
- *   Script=expmigrate-expwt.js             (registers the panel: expwtRegister( 'panel', 'migrations', fn ))
- *   Stylesheet=expmigrate-expwt.css        (optional; inside the sidebar's Shadow DOM, the sidebar's tokens apply)
+ *   [Panel_deploys]
+ *   Label=Deploys                          (the English source; translated in Context)
+ *   Context=extension/expdeploy
+ *   Script=expdeploy-expwt.js              (registers the panel: expwtRegister( 'panel', 'deploys', fn ))
+ *   Stylesheet=expdeploy-expwt.css         (optional; inside the sidebar's Shadow DOM, the sidebar's tokens apply)
  *   Before=me                              (optional: the tab before this panel's; default: before Me)
  *   Function=admin                         (optional: the expwt function needed; default use)
  *   Policy[]=setup/system_info             (optional: kernel policies needed, all of them)
  *
- *   [Action_expmigrate.status]
- *   Class=expmigrateExpwtActions           (implements expwtActionHandler)
+ *   [Action_expdeploy.status]
+ *   Class=expdeployExpwtActions            (implements expwtActionHandler)
  *   Writes=false                           (true: POST only, CSRF token, never cached)
  *   Function=admin
  *   Policy[]=setup/system_info
  *   KernelView=setup/system_upgrade        (optional: the administration view it stands for, for "Verify it's you")
  *
- *   [Highlight_migrations_tables]
- *   Panel=migrations
- *   Selector=table.migration-status
- *   Label=Migration status
+ *   [Highlight_deploys_tables]
+ *   Panel=deploys
+ *   Selector=table.deploy-status
+ *   Label=Deploy status
  *
- *   [SearchProvider_migrations]
- *   Label=Migrations
- *   Context=extension/expmigrate
- *   Action=expmigrate.search               (an action of the registry; input query, offset; answers items)
+ *   [SearchProvider_deploys]
+ *   Label=Deploys
+ *   Context=extension/expdeploy
+ *   Action=expdeploy.search                (an action of the registry; input query, offset; answers items)
  *
  * Pure: plain arrays, tested without a database; fromIni() reads the settings.
  *
@@ -56,7 +56,7 @@
 class expwtRegistry
 {
     /** The panels of the sidebar itself: no extension takes their ids */
-    const CORE_PANELS = array( 'welcome', 'page', 'create', 'structure', 'seo', 'sites', 'forms', 'newsletter', 'urls', 'calendar', 'insights', 'inbox', 'me' );
+    const CORE_PANELS = array( 'welcome', 'page', 'create', 'structure', 'seo', 'sites', 'forms', 'newsletter', 'urls', 'calendar', 'insights', 'inbox', 'migrations', 'me' );
 
     /** kinds => the list setting of [RegistrySettings] and the prefix of their groups */
     const KINDS = array( 'panels' => array( 'PanelList', 'Panel_' ), 'actions' => array( 'ActionList', 'Action_' ),

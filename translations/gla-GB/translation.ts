@@ -1699,5 +1699,125 @@
         <source>Calendar</source>
         <translation>Mìosachan</translation>
     </message>
+    <message>
+        <source>The migrations cannot be read now.</source>
+        <translation>Cha ghabh na h-imrichean leughadh an-dràsta.</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Dh'fhàillig e</translation>
+    </message>
+    <message>
+        <source>Running</source>
+        <translation>'Ga ruith</translation>
+    </message>
+    <message>
+        <source>Rolled back</source>
+        <translation>Air a thilleadh</translation>
+    </message>
+    <message>
+        <source>Pushed</source>
+        <translation>Air a phutadh</translation>
+    </message>
+    <message>
+        <source>Waiting for its push</source>
+        <translation>A' feitheamh ri putadh</translation>
+    </message>
+    <message>
+        <source>Off</source>
+        <translation>Dheth</translation>
+    </message>
+    <message>
+        <source>No remote</source>
+        <translation>Gun chèin</translation>
+    </message>
+    <message>
+        <source>Nothing to push</source>
+        <translation>Chan eil dad ri phutadh</translation>
+    </message>
+    <message>
+        <source>Read only: running and rolling back stay in the administration.</source>
+        <translation>Leughadh a-mhàin: tha ruith is tilleadh fhathast san rianachd.</translation>
+    </message>
+    <message>
+        <source>The migration tables do not exist yet: exp:upgrade --apply makes them.</source>
+        <translation>Chan eil clàran nan imrichean ann fhathast: cruthaichidh exp:upgrade --apply iad.</translation>
+    </message>
+    <message>
+        <source>A run is active</source>
+        <translation>Tha ruith gnìomhach</translation>
+    </message>
+    <message>
+        <source>%purpose, by %user since %time</source>
+        <translation>%purpose, le %user o %time</translation>
+    </message>
+    <message>
+        <source>%n problems reading the migrations</source>
+        <translation>%n duilgheadasan le leughadh nan imrichean</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>A' feitheamh</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>Chan eil imrich a' feitheamh.</translation>
+    </message>
+    <message>
+        <source>%n more in the administration</source>
+        <translation>%n a bharrachd san rianachd</translation>
+    </message>
+    <message>
+        <source>Recorded, but the file is gone</source>
+        <translation>Clàraichte, ach tha am faidhle air falbh</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>An ruith mu dheireadh</translation>
+    </message>
+    <message>
+        <source>No migration has run yet.</source>
+        <translation>Cha deach imrich sam bith a ruith fhathast.</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Ruith</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Staid</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Air tòiseachadh</translation>
+    </message>
+    <message>
+        <source>Finished</source>
+        <translation>Deiseil</translation>
+    </message>
+    <message>
+        <source>Run by</source>
+        <translation>Air a ruith le</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>Fo-thiotal</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>Taga</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>Putadh</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Imrichean</translation>
+    </message>
+    <message>
+        <source>%n migrations need attention</source>
+        <translation>Feumaidh %n imrichean aire</translation>
+    </message>
 </context>
 </TS>

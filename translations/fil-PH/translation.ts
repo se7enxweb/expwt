@@ -1699,5 +1699,125 @@
         <source>Calendar</source>
         <translation>Kalendaryo</translation>
     </message>
+    <message>
+        <source>The migrations cannot be read now.</source>
+        <translation>Hindi mabasa ang mga migration ngayon.</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Nabigo</translation>
+    </message>
+    <message>
+        <source>Running</source>
+        <translation>Tumatakbo</translation>
+    </message>
+    <message>
+        <source>Rolled back</source>
+        <translation>Ibinalik</translation>
+    </message>
+    <message>
+        <source>Pushed</source>
+        <translation>Na-push</translation>
+    </message>
+    <message>
+        <source>Waiting for its push</source>
+        <translation>Naghihintay ng push</translation>
+    </message>
+    <message>
+        <source>Off</source>
+        <translation>Naka-off</translation>
+    </message>
+    <message>
+        <source>No remote</source>
+        <translation>Walang remote</translation>
+    </message>
+    <message>
+        <source>Nothing to push</source>
+        <translation>Walang ipu-push</translation>
+    </message>
+    <message>
+        <source>Read only: running and rolling back stay in the administration.</source>
+        <translation>Basa lamang: ang pagpapatakbo at pagbabalik ay nasa administrasyon.</translation>
+    </message>
+    <message>
+        <source>The migration tables do not exist yet: exp:upgrade --apply makes them.</source>
+        <translation>Wala pang mga table ng migration: ginagawa ang mga ito ng exp:upgrade --apply.</translation>
+    </message>
+    <message>
+        <source>A run is active</source>
+        <translation>May aktibong run</translation>
+    </message>
+    <message>
+        <source>%purpose, by %user since %time</source>
+        <translation>%purpose, ni %user mula %time</translation>
+    </message>
+    <message>
+        <source>%n problems reading the migrations</source>
+        <translation>%n problema sa pagbasa ng mga migration</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Nakabinbin</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>Walang nakabinbing migration.</translation>
+    </message>
+    <message>
+        <source>%n more in the administration</source>
+        <translation>%n pa sa administrasyon</translation>
+    </message>
+    <message>
+        <source>Recorded, but the file is gone</source>
+        <translation>Naitala, pero wala na ang file</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>Huling run</translation>
+    </message>
+    <message>
+        <source>No migration has run yet.</source>
+        <translation>Wala pang migration na tumakbo.</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Run</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Estado</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Sinimulan</translation>
+    </message>
+    <message>
+        <source>Finished</source>
+        <translation>Natapos</translation>
+    </message>
+    <message>
+        <source>Run by</source>
+        <translation>Pinatakbo ni</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>Caption</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>Tag</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>Push</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Mga migration</translation>
+    </message>
+    <message>
+        <source>%n migrations need attention</source>
+        <translation>%n migration ang nangangailangan ng pansin</translation>
+    </message>
 </context>
 </TS>

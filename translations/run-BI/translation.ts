@@ -1699,5 +1699,125 @@
         <source>Calendar</source>
         <translation>Kalendariyo</translation>
     </message>
+    <message>
+        <source>The migrations cannot be read now.</source>
+        <translation>Imyimuko ntishobora gusomwa ubu.</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Vyanse</translation>
+    </message>
+    <message>
+        <source>Running</source>
+        <translation>Biriko birakora</translation>
+    </message>
+    <message>
+        <source>Rolled back</source>
+        <translation>Vyasubijwe inyuma</translation>
+    </message>
+    <message>
+        <source>Pushed</source>
+        <translation>Vyarungitswe</translation>
+    </message>
+    <message>
+        <source>Waiting for its push</source>
+        <translation>Birarindiriye kurungikwa</translation>
+    </message>
+    <message>
+        <source>Off</source>
+        <translation>Vyazimijwe</translation>
+    </message>
+    <message>
+        <source>No remote</source>
+        <translation>Nta bubiko bwa kure</translation>
+    </message>
+    <message>
+        <source>Nothing to push</source>
+        <translation>Nta co kurungika</translation>
+    </message>
+    <message>
+        <source>Read only: running and rolling back stay in the administration.</source>
+        <translation>Gusoma gusa: gukoresha no gusubiza inyuma biguma mu buyobozi.</translation>
+    </message>
+    <message>
+        <source>The migration tables do not exist yet: exp:upgrade --apply makes them.</source>
+        <translation>Imbonerahamwe z'imyimuko ntizirabaho: exp:upgrade --apply ni yo izirema.</translation>
+    </message>
+    <message>
+        <source>A run is active</source>
+        <translation>Ikoreshwa rimwe ririko riraba</translation>
+    </message>
+    <message>
+        <source>%purpose, by %user since %time</source>
+        <translation>%purpose, na %user kuva %time</translation>
+    </message>
+    <message>
+        <source>%n problems reading the migrations</source>
+        <translation>Ingorane %n mu gusoma imyimuko</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Birarindiriye</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>Nta mwimuko urindiriye.</translation>
+    </message>
+    <message>
+        <source>%n more in the administration</source>
+        <translation>Izindi %n mu buyobozi</translation>
+    </message>
+    <message>
+        <source>Recorded, but the file is gone</source>
+        <translation>Vyanditswe, mugabo idosiye ntikiriho</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>Ikoreshwa rya nyuma</translation>
+    </message>
+    <message>
+        <source>No migration has run yet.</source>
+        <translation>Nta mwimuko urakoreshwa.</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Ikoreshwa</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Uko bimeze</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Vyatanguye</translation>
+    </message>
+    <message>
+        <source>Finished</source>
+        <translation>Vyarangiye</translation>
+    </message>
+    <message>
+        <source>Run by</source>
+        <translation>Uwabikoresheje</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>Umutwe</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>Ikimenyetso</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>Kurungika</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Imyimuko</translation>
+    </message>
+    <message>
+        <source>%n migrations need attention</source>
+        <translation>Imyimuko %n ikeneye kwitabwaho</translation>
+    </message>
 </context>
 </TS>

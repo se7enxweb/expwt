@@ -1699,5 +1699,125 @@
         <source>Calendar</source>
         <translation>ប្រតិទិន</translation>
     </message>
+    <message>
+        <source>The migrations cannot be read now.</source>
+        <translation>មិនអាចអានការផ្ទេរទិន្នន័យបានទេឥឡូវនេះ។</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>បរាជ័យ</translation>
+    </message>
+    <message>
+        <source>Running</source>
+        <translation>កំពុងដំណើរការ</translation>
+    </message>
+    <message>
+        <source>Rolled back</source>
+        <translation>បានត្រឡប់ថយក្រោយ</translation>
+    </message>
+    <message>
+        <source>Pushed</source>
+        <translation>បាន push</translation>
+    </message>
+    <message>
+        <source>Waiting for its push</source>
+        <translation>កំពុងរង់ចាំ push</translation>
+    </message>
+    <message>
+        <source>Off</source>
+        <translation>បិទ</translation>
+    </message>
+    <message>
+        <source>No remote</source>
+        <translation>គ្មាន remote</translation>
+    </message>
+    <message>
+        <source>Nothing to push</source>
+        <translation>គ្មានអ្វីត្រូវ push</translation>
+    </message>
+    <message>
+        <source>Read only: running and rolling back stay in the administration.</source>
+        <translation>អានតែប៉ុណ្ណោះ៖ ការដំណើរការ និងការត្រឡប់ថយក្រោយនៅតែក្នុងការគ្រប់គ្រង។</translation>
+    </message>
+    <message>
+        <source>The migration tables do not exist yet: exp:upgrade --apply makes them.</source>
+        <translation>តារាងការផ្ទេរមិនទាន់មាននៅឡើយ៖ exp:upgrade --apply បង្កើតពួកវា។</translation>
+    </message>
+    <message>
+        <source>A run is active</source>
+        <translation>មានការដំណើរការមួយកំពុងសកម្ម</translation>
+    </message>
+    <message>
+        <source>%purpose, by %user since %time</source>
+        <translation>%purpose ដោយ %user តាំងពី %time</translation>
+    </message>
+    <message>
+        <source>%n problems reading the migrations</source>
+        <translation>បញ្ហា %n ក្នុងការអានការផ្ទេរ</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>កំពុងរង់ចាំ</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>គ្មានការផ្ទេរកំពុងរង់ចាំទេ។</translation>
+    </message>
+    <message>
+        <source>%n more in the administration</source>
+        <translation>%n ទៀតក្នុងការគ្រប់គ្រង</translation>
+    </message>
+    <message>
+        <source>Recorded, but the file is gone</source>
+        <translation>បានកត់ត្រា ប៉ុន្តែឯកសារបាត់</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>ការដំណើរការចុងក្រោយ</translation>
+    </message>
+    <message>
+        <source>No migration has run yet.</source>
+        <translation>មិនទាន់មានការផ្ទេរណាមួយដំណើរការនៅឡើយ។</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>ការដំណើរការ</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>ស្ថានភាព</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>បានចាប់ផ្តើម</translation>
+    </message>
+    <message>
+        <source>Finished</source>
+        <translation>បានបញ្ចប់</translation>
+    </message>
+    <message>
+        <source>Run by</source>
+        <translation>ដំណើរការដោយ</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>ចំណងជើង</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>ស្លាក</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>Push</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>ការផ្ទេរ</translation>
+    </message>
+    <message>
+        <source>%n migrations need attention</source>
+        <translation>ការផ្ទេរ %n ត្រូវការការយកចិត្តទុកដាក់</translation>
+    </message>
 </context>
 </TS>

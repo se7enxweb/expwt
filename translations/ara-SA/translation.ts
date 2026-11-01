@@ -1699,5 +1699,125 @@
         <source>Calendar</source>
         <translation>التقويم</translation>
     </message>
+    <message>
+        <source>The migrations cannot be read now.</source>
+        <translation>لا يمكن قراءة عمليات الترحيل الآن.</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>فشل</translation>
+    </message>
+    <message>
+        <source>Running</source>
+        <translation>قيد التشغيل</translation>
+    </message>
+    <message>
+        <source>Rolled back</source>
+        <translation>تم التراجع</translation>
+    </message>
+    <message>
+        <source>Pushed</source>
+        <translation>تم الدفع</translation>
+    </message>
+    <message>
+        <source>Waiting for its push</source>
+        <translation>بانتظار دفعه</translation>
+    </message>
+    <message>
+        <source>Off</source>
+        <translation>متوقف</translation>
+    </message>
+    <message>
+        <source>No remote</source>
+        <translation>لا يوجد مستودع بعيد</translation>
+    </message>
+    <message>
+        <source>Nothing to push</source>
+        <translation>لا شيء للدفع</translation>
+    </message>
+    <message>
+        <source>Read only: running and rolling back stay in the administration.</source>
+        <translation>للقراءة فقط: التشغيل والتراجع يبقيان في الإدارة.</translation>
+    </message>
+    <message>
+        <source>The migration tables do not exist yet: exp:upgrade --apply makes them.</source>
+        <translation>جداول الترحيل غير موجودة بعد: يُنشئها exp:upgrade --apply.</translation>
+    </message>
+    <message>
+        <source>A run is active</source>
+        <translation>يوجد تشغيل نشط</translation>
+    </message>
+    <message>
+        <source>%purpose, by %user since %time</source>
+        <translation>%purpose، بواسطة %user منذ %time</translation>
+    </message>
+    <message>
+        <source>%n problems reading the migrations</source>
+        <translation>%n مشكلات في قراءة عمليات الترحيل</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>معلّق</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>لا يوجد ترحيل معلّق.</translation>
+    </message>
+    <message>
+        <source>%n more in the administration</source>
+        <translation>%n أخرى في الإدارة</translation>
+    </message>
+    <message>
+        <source>Recorded, but the file is gone</source>
+        <translation>مسجّل، لكن الملف لم يعد موجودًا</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>آخر تشغيل</translation>
+    </message>
+    <message>
+        <source>No migration has run yet.</source>
+        <translation>لم يُشغَّل أي ترحيل بعد.</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>التشغيل</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>الحالة</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>البدء</translation>
+    </message>
+    <message>
+        <source>Finished</source>
+        <translation>الانتهاء</translation>
+    </message>
+    <message>
+        <source>Run by</source>
+        <translation>شغّله</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>التسمية</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>الوسم</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>الدفع</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>عمليات الترحيل</translation>
+    </message>
+    <message>
+        <source>%n migrations need attention</source>
+        <translation>%n عمليات ترحيل تحتاج إلى انتباه</translation>
+    </message>
 </context>
 </TS>

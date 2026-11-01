@@ -1699,5 +1699,125 @@
         <source>Calendar</source>
         <translation>کیلنڈر</translation>
     </message>
+    <message>
+        <source>The migrations cannot be read now.</source>
+        <translation>مائیگریشنز اس وقت نہیں پڑھی جا سکتیں۔</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>ناکام</translation>
+    </message>
+    <message>
+        <source>Running</source>
+        <translation>جاری</translation>
+    </message>
+    <message>
+        <source>Rolled back</source>
+        <translation>واپس لیا گیا</translation>
+    </message>
+    <message>
+        <source>Pushed</source>
+        <translation>بھیج دیا گیا</translation>
+    </message>
+    <message>
+        <source>Waiting for its push</source>
+        <translation>بھیجے جانے کا منتظر</translation>
+    </message>
+    <message>
+        <source>Off</source>
+        <translation>بند</translation>
+    </message>
+    <message>
+        <source>No remote</source>
+        <translation>کوئی ریموٹ نہیں</translation>
+    </message>
+    <message>
+        <source>Nothing to push</source>
+        <translation>بھیجنے کو کچھ نہیں</translation>
+    </message>
+    <message>
+        <source>Read only: running and rolling back stay in the administration.</source>
+        <translation>صرف پڑھنے کے لیے: چلانا اور واپس لینا انتظامیہ میں ہی ہوتا ہے۔</translation>
+    </message>
+    <message>
+        <source>The migration tables do not exist yet: exp:upgrade --apply makes them.</source>
+        <translation>مائیگریشن ٹیبلز ابھی موجود نہیں: exp:upgrade --apply انہیں بناتا ہے۔</translation>
+    </message>
+    <message>
+        <source>A run is active</source>
+        <translation>ایک رن جاری ہے</translation>
+    </message>
+    <message>
+        <source>%purpose, by %user since %time</source>
+        <translation>%purpose، %user کی طرف سے %time سے</translation>
+    </message>
+    <message>
+        <source>%n problems reading the migrations</source>
+        <translation>مائیگریشنز پڑھنے میں %n مسائل</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>زیر التوا</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>کوئی مائیگریشن زیر التوا نہیں۔</translation>
+    </message>
+    <message>
+        <source>%n more in the administration</source>
+        <translation>انتظامیہ میں %n مزید</translation>
+    </message>
+    <message>
+        <source>Recorded, but the file is gone</source>
+        <translation>درج ہے، لیکن فائل موجود نہیں</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>آخری رن</translation>
+    </message>
+    <message>
+        <source>No migration has run yet.</source>
+        <translation>ابھی تک کوئی مائیگریشن نہیں چلی۔</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>رن</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>حالت</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>شروع</translation>
+    </message>
+    <message>
+        <source>Finished</source>
+        <translation>مکمل</translation>
+    </message>
+    <message>
+        <source>Run by</source>
+        <translation>چلانے والا</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>عنوان</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>ٹیگ</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>پُش</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>مائیگریشنز</translation>
+    </message>
+    <message>
+        <source>%n migrations need attention</source>
+        <translation>%n مائیگریشنز توجہ طلب ہیں</translation>
+    </message>
 </context>
 </TS>

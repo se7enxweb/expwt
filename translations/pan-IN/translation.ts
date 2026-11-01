@@ -1699,5 +1699,125 @@
         <source>Calendar</source>
         <translation>ਕੈਲੰਡਰ</translation>
     </message>
+    <message>
+        <source>The migrations cannot be read now.</source>
+        <translation>ਮਾਈਗ੍ਰੇਸ਼ਨ ਹੁਣ ਪੜ੍ਹੇ ਨਹੀਂ ਜਾ ਸਕਦੇ।</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>ਅਸਫਲ</translation>
+    </message>
+    <message>
+        <source>Running</source>
+        <translation>ਚੱਲ ਰਿਹਾ ਹੈ</translation>
+    </message>
+    <message>
+        <source>Rolled back</source>
+        <translation>ਵਾਪਸ ਲਿਆ ਗਿਆ</translation>
+    </message>
+    <message>
+        <source>Pushed</source>
+        <translation>ਪੁਸ਼ ਕੀਤਾ ਗਿਆ</translation>
+    </message>
+    <message>
+        <source>Waiting for its push</source>
+        <translation>ਪੁਸ਼ ਦੀ ਉਡੀਕ ਵਿੱਚ</translation>
+    </message>
+    <message>
+        <source>Off</source>
+        <translation>ਬੰਦ</translation>
+    </message>
+    <message>
+        <source>No remote</source>
+        <translation>ਕੋਈ ਰਿਮੋਟ ਨਹੀਂ</translation>
+    </message>
+    <message>
+        <source>Nothing to push</source>
+        <translation>ਪੁਸ਼ ਕਰਨ ਲਈ ਕੁਝ ਨਹੀਂ</translation>
+    </message>
+    <message>
+        <source>Read only: running and rolling back stay in the administration.</source>
+        <translation>ਸਿਰਫ਼ ਪੜ੍ਹਨ ਲਈ: ਚਲਾਉਣਾ ਅਤੇ ਵਾਪਸ ਲੈਣਾ ਪ੍ਰਸ਼ਾਸਨ ਵਿੱਚ ਹੀ ਹੁੰਦਾ ਹੈ।</translation>
+    </message>
+    <message>
+        <source>The migration tables do not exist yet: exp:upgrade --apply makes them.</source>
+        <translation>ਮਾਈਗ੍ਰੇਸ਼ਨ ਟੇਬਲ ਅਜੇ ਮੌਜੂਦ ਨਹੀਂ ਹਨ: exp:upgrade --apply ਉਹਨਾਂ ਨੂੰ ਬਣਾਉਂਦਾ ਹੈ।</translation>
+    </message>
+    <message>
+        <source>A run is active</source>
+        <translation>ਇੱਕ ਰਨ ਸਰਗਰਮ ਹੈ</translation>
+    </message>
+    <message>
+        <source>%purpose, by %user since %time</source>
+        <translation>%purpose, %user ਵੱਲੋਂ %time ਤੋਂ</translation>
+    </message>
+    <message>
+        <source>%n problems reading the migrations</source>
+        <translation>ਮਾਈਗ੍ਰੇਸ਼ਨ ਪੜ੍ਹਨ ਵਿੱਚ %n ਸਮੱਸਿਆਵਾਂ</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>ਬਾਕੀ</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>ਕੋਈ ਮਾਈਗ੍ਰੇਸ਼ਨ ਬਾਕੀ ਨਹੀਂ।</translation>
+    </message>
+    <message>
+        <source>%n more in the administration</source>
+        <translation>ਪ੍ਰਸ਼ਾਸਨ ਵਿੱਚ %n ਹੋਰ</translation>
+    </message>
+    <message>
+        <source>Recorded, but the file is gone</source>
+        <translation>ਦਰਜ ਹੈ, ਪਰ ਫ਼ਾਈਲ ਨਹੀਂ ਹੈ</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>ਆਖਰੀ ਰਨ</translation>
+    </message>
+    <message>
+        <source>No migration has run yet.</source>
+        <translation>ਅਜੇ ਤੱਕ ਕੋਈ ਮਾਈਗ੍ਰੇਸ਼ਨ ਨਹੀਂ ਚੱਲਿਆ।</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>ਰਨ</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>ਸਥਿਤੀ</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>ਸ਼ੁਰੂ ਹੋਇਆ</translation>
+    </message>
+    <message>
+        <source>Finished</source>
+        <translation>ਖਤਮ ਹੋਇਆ</translation>
+    </message>
+    <message>
+        <source>Run by</source>
+        <translation>ਚਲਾਉਣ ਵਾਲਾ</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>ਕੈਪਸ਼ਨ</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>ਟੈਗ</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>ਪੁਸ਼</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>ਮਾਈਗ੍ਰੇਸ਼ਨ</translation>
+    </message>
+    <message>
+        <source>%n migrations need attention</source>
+        <translation>%n ਮਾਈਗ੍ਰੇਸ਼ਨਾਂ ਵੱਲ ਧਿਆਨ ਦੀ ਲੋੜ ਹੈ</translation>
+    </message>
 </context>
 </TS>

@@ -1699,5 +1699,125 @@
         <source>Calendar</source>
         <translation>Calendarium</translation>
     </message>
+    <message>
+        <source>The migrations cannot be read now.</source>
+        <translation>Migrationes nunc legi non possunt.</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Defecit</translation>
+    </message>
+    <message>
+        <source>Running</source>
+        <translation>Currit</translation>
+    </message>
+    <message>
+        <source>Rolled back</source>
+        <translation>Revocata</translation>
+    </message>
+    <message>
+        <source>Pushed</source>
+        <translation>Missa</translation>
+    </message>
+    <message>
+        <source>Waiting for its push</source>
+        <translation>Missionem exspectat</translation>
+    </message>
+    <message>
+        <source>Off</source>
+        <translation>Inactivum</translation>
+    </message>
+    <message>
+        <source>No remote</source>
+        <translation>Nullum repositorium remotum</translation>
+    </message>
+    <message>
+        <source>Nothing to push</source>
+        <translation>Nihil mittendum</translation>
+    </message>
+    <message>
+        <source>Read only: running and rolling back stay in the administration.</source>
+        <translation>Lectio tantum: currere et revocare in administratione manent.</translation>
+    </message>
+    <message>
+        <source>The migration tables do not exist yet: exp:upgrade --apply makes them.</source>
+        <translation>Tabulae migrationum nondum exstant: exp:upgrade --apply eas facit.</translation>
+    </message>
+    <message>
+        <source>A run is active</source>
+        <translation>Cursus agitur</translation>
+    </message>
+    <message>
+        <source>%purpose, by %user since %time</source>
+        <translation>%purpose, ab %user ex %time</translation>
+    </message>
+    <message>
+        <source>%n problems reading the migrations</source>
+        <translation>%n difficultates in migrationibus legendis</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Exspectantes</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>Nulla migratio exspectat.</translation>
+    </message>
+    <message>
+        <source>%n more in the administration</source>
+        <translation>%n plures in administratione</translation>
+    </message>
+    <message>
+        <source>Recorded, but the file is gone</source>
+        <translation>Inscripta, sed fasciculus abest</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>Ultimus cursus</translation>
+    </message>
+    <message>
+        <source>No migration has run yet.</source>
+        <translation>Nulla migratio adhuc cucurrit.</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Cursus</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Status</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Coeptum</translation>
+    </message>
+    <message>
+        <source>Finished</source>
+        <translation>Finitum</translation>
+    </message>
+    <message>
+        <source>Run by</source>
+        <translation>Cursum egit</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>Titulus</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>Nota</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>Missio</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Migrationes</translation>
+    </message>
+    <message>
+        <source>%n migrations need attention</source>
+        <translation>%n migrationes curam requirunt</translation>
+    </message>
 </context>
 </TS>

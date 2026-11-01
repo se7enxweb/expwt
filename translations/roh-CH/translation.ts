@@ -1699,5 +1699,125 @@
         <source>Calendar</source>
         <translation>Chalender</translation>
     </message>
+    <message>
+        <source>The migrations cannot be read now.</source>
+        <translation>Las migraziuns na pon ussa betg vegnir legidas.</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Fallì</translation>
+    </message>
+    <message>
+        <source>Running</source>
+        <translation>En process</translation>
+    </message>
+    <message>
+        <source>Rolled back</source>
+        <translation>Revocà</translation>
+    </message>
+    <message>
+        <source>Pushed</source>
+        <translation>Tramess</translation>
+    </message>
+    <message>
+        <source>Waiting for its push</source>
+        <translation>Spetga sin la trametta</translation>
+    </message>
+    <message>
+        <source>Off</source>
+        <translation>Deactivà</translation>
+    </message>
+    <message>
+        <source>No remote</source>
+        <translation>Nagin repository a distanza</translation>
+    </message>
+    <message>
+        <source>Nothing to push</source>
+        <translation>Nagut da trametter</translation>
+    </message>
+    <message>
+        <source>Read only: running and rolling back stay in the administration.</source>
+        <translation>Mo per leger: exequir e revocar resta en l'administraziun.</translation>
+    </message>
+    <message>
+        <source>The migration tables do not exist yet: exp:upgrade --apply makes them.</source>
+        <translation>Las tabellas da migraziun n'existan anc betg: exp:upgrade --apply las crea.</translation>
+    </message>
+    <message>
+        <source>A run is active</source>
+        <translation>Ina execuziun è activa</translation>
+    </message>
+    <message>
+        <source>%purpose, by %user since %time</source>
+        <translation>%purpose, da %user dapi %time</translation>
+    </message>
+    <message>
+        <source>%n problems reading the migrations</source>
+        <translation>%n problems cun leger las migraziuns</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Pendent</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>Nagina migraziun n'è pendenta.</translation>
+    </message>
+    <message>
+        <source>%n more in the administration</source>
+        <translation>Anc %n en l'administraziun</translation>
+    </message>
+    <message>
+        <source>Recorded, but the file is gone</source>
+        <translation>Registrà, ma la datoteca è svanida</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>Ultima execuziun</translation>
+    </message>
+    <message>
+        <source>No migration has run yet.</source>
+        <translation>Anc nagina migraziun n'è vegnida exequida.</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Execuziun</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Stadi</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Cumenzà</translation>
+    </message>
+    <message>
+        <source>Finished</source>
+        <translation>Terminà</translation>
+    </message>
+    <message>
+        <source>Run by</source>
+        <translation>Exequì da</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>Legenda</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>Tag</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>Trametta</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Migraziuns</translation>
+    </message>
+    <message>
+        <source>%n migrations need attention</source>
+        <translation>%n migraziuns dovran attenziun</translation>
+    </message>
 </context>
 </TS>

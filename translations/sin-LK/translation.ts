@@ -1699,5 +1699,125 @@
         <source>Calendar</source>
         <translation>දින දර්ශනය</translation>
     </message>
+    <message>
+        <source>The migrations cannot be read now.</source>
+        <translation>සංක්‍රමණ දැන් කියවිය නොහැක.</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>අසාර්ථකයි</translation>
+    </message>
+    <message>
+        <source>Running</source>
+        <translation>ධාවනය වෙමින්</translation>
+    </message>
+    <message>
+        <source>Rolled back</source>
+        <translation>ආපසු හරවන ලදී</translation>
+    </message>
+    <message>
+        <source>Pushed</source>
+        <translation>යවන ලදී</translation>
+    </message>
+    <message>
+        <source>Waiting for its push</source>
+        <translation>යැවීමට රැඳී සිටී</translation>
+    </message>
+    <message>
+        <source>Off</source>
+        <translation>අක්‍රියයි</translation>
+    </message>
+    <message>
+        <source>No remote</source>
+        <translation>දුරස්ථ ගබඩාවක් නැත</translation>
+    </message>
+    <message>
+        <source>Nothing to push</source>
+        <translation>යැවීමට කිසිවක් නැත</translation>
+    </message>
+    <message>
+        <source>Read only: running and rolling back stay in the administration.</source>
+        <translation>කියවීමට පමණි: ධාවනය සහ ආපසු හැරවීම පරිපාලනයේම සිදු වේ.</translation>
+    </message>
+    <message>
+        <source>The migration tables do not exist yet: exp:upgrade --apply makes them.</source>
+        <translation>සංක්‍රමණ වගු තවම නොපවතී: exp:upgrade --apply ඒවා සාදයි.</translation>
+    </message>
+    <message>
+        <source>A run is active</source>
+        <translation>ධාවනයක් සක්‍රියයි</translation>
+    </message>
+    <message>
+        <source>%purpose, by %user since %time</source>
+        <translation>%purpose, %user විසින් %time සිට</translation>
+    </message>
+    <message>
+        <source>%n problems reading the migrations</source>
+        <translation>සංක්‍රමණ කියවීමේදී ගැටලු %n ක්</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>පොරොත්තුවෙන්</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>පොරොත්තුවෙන් ඇති සංක්‍රමණයක් නැත.</translation>
+    </message>
+    <message>
+        <source>%n more in the administration</source>
+        <translation>පරිපාලනයේ තවත් %n ක්</translation>
+    </message>
+    <message>
+        <source>Recorded, but the file is gone</source>
+        <translation>වාර්තා කර ඇත, නමුත් ගොනුව නැත</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>අවසන් ධාවනය</translation>
+    </message>
+    <message>
+        <source>No migration has run yet.</source>
+        <translation>තවම කිසිදු සංක්‍රමණයක් ධාවනය කර නැත.</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>ධාවනය</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>තත්ත්වය</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>ආරම්භ විය</translation>
+    </message>
+    <message>
+        <source>Finished</source>
+        <translation>අවසන් විය</translation>
+    </message>
+    <message>
+        <source>Run by</source>
+        <translation>ධාවනය කළේ</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>සිරස්තලය</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>ටැගය</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>යැවීම</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>සංක්‍රමණ</translation>
+    </message>
+    <message>
+        <source>%n migrations need attention</source>
+        <translation>සංක්‍රමණ %n කට අවධානය අවශ්‍යයි</translation>
+    </message>
 </context>
 </TS>

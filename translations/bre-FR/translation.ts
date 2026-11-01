@@ -1699,5 +1699,125 @@
         <source>Calendar</source>
         <translation>Deiziadur</translation>
     </message>
+    <message>
+        <source>The migrations cannot be read now.</source>
+        <translation>N'haller ket lenn ar migradurioù bremañ.</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>C'hwitet</translation>
+    </message>
+    <message>
+        <source>Running</source>
+        <translation>O vont en-dro</translation>
+    </message>
+    <message>
+        <source>Rolled back</source>
+        <translation>Nullet</translation>
+    </message>
+    <message>
+        <source>Pushed</source>
+        <translation>Kaset</translation>
+    </message>
+    <message>
+        <source>Waiting for its push</source>
+        <translation>O c'hortoz bezañ kaset</translation>
+    </message>
+    <message>
+        <source>Off</source>
+        <translation>Lazhet</translation>
+    </message>
+    <message>
+        <source>No remote</source>
+        <translation>Diell pell ebet</translation>
+    </message>
+    <message>
+        <source>Nothing to push</source>
+        <translation>Netra da gas</translation>
+    </message>
+    <message>
+        <source>Read only: running and rolling back stay in the administration.</source>
+        <translation>Lenn hepken: lañsañ ha nullañ a chom er merañ.</translation>
+    </message>
+    <message>
+        <source>The migration tables do not exist yet: exp:upgrade --apply makes them.</source>
+        <translation>N'eus ket eus taolennoù ar migradurioù c'hoazh: exp:upgrade --apply a grou anezho.</translation>
+    </message>
+    <message>
+        <source>A run is active</source>
+        <translation>Ul lañsadenn a zo war ober</translation>
+    </message>
+    <message>
+        <source>%purpose, by %user since %time</source>
+        <translation>%purpose, gant %user abaoe %time</translation>
+    </message>
+    <message>
+        <source>%n problems reading the migrations</source>
+        <translation>%n kudenn o lenn ar migradurioù</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>O c'hortoz</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>Migradur ebet o c'hortoz.</translation>
+    </message>
+    <message>
+        <source>%n more in the administration</source>
+        <translation>%n all er merañ</translation>
+    </message>
+    <message>
+        <source>Recorded, but the file is gone</source>
+        <translation>Enrollet, met aet eo ar restr</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>Lañsadenn diwezhañ</translation>
+    </message>
+    <message>
+        <source>No migration has run yet.</source>
+        <translation>Migradur ebet n'eo bet lañset c'hoazh.</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Lañsadenn</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Stad</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Kroget</translation>
+    </message>
+    <message>
+        <source>Finished</source>
+        <translation>Graet</translation>
+    </message>
+    <message>
+        <source>Run by</source>
+        <translation>Lañset gant</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>Titl</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>Tikedenn</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>Kas</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Migradurioù</translation>
+    </message>
+    <message>
+        <source>%n migrations need attention</source>
+        <translation>%n migradur o deus ezhomm a evezh</translation>
+    </message>
 </context>
 </TS>

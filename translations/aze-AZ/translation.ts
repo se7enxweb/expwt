@@ -1699,5 +1699,125 @@
         <source>Calendar</source>
         <translation>Təqvim</translation>
     </message>
+    <message>
+        <source>The migrations cannot be read now.</source>
+        <translation>Miqrasiyaları indi oxumaq mümkün deyil.</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Uğursuz</translation>
+    </message>
+    <message>
+        <source>Running</source>
+        <translation>İcra olunur</translation>
+    </message>
+    <message>
+        <source>Rolled back</source>
+        <translation>Geri qaytarıldı</translation>
+    </message>
+    <message>
+        <source>Pushed</source>
+        <translation>Göndərildi</translation>
+    </message>
+    <message>
+        <source>Waiting for its push</source>
+        <translation>Göndərilməsini gözləyir</translation>
+    </message>
+    <message>
+        <source>Off</source>
+        <translation>Söndürülüb</translation>
+    </message>
+    <message>
+        <source>No remote</source>
+        <translation>Uzaq depo yoxdur</translation>
+    </message>
+    <message>
+        <source>Nothing to push</source>
+        <translation>Göndəriləcək heç nə yoxdur</translation>
+    </message>
+    <message>
+        <source>Read only: running and rolling back stay in the administration.</source>
+        <translation>Yalnız oxumaq üçün: icra və geri qaytarma idarəetmədə qalır.</translation>
+    </message>
+    <message>
+        <source>The migration tables do not exist yet: exp:upgrade --apply makes them.</source>
+        <translation>Miqrasiya cədvəlləri hələ mövcud deyil: exp:upgrade --apply onları yaradır.</translation>
+    </message>
+    <message>
+        <source>A run is active</source>
+        <translation>Bir icra aktivdir</translation>
+    </message>
+    <message>
+        <source>%purpose, by %user since %time</source>
+        <translation>%purpose, %user tərəfindən, %time vaxtından</translation>
+    </message>
+    <message>
+        <source>%n problems reading the migrations</source>
+        <translation>Miqrasiyaları oxuyarkən %n problem</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Gözləyir</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>Gözləyən miqrasiya yoxdur.</translation>
+    </message>
+    <message>
+        <source>%n more in the administration</source>
+        <translation>İdarəetmədə daha %n</translation>
+    </message>
+    <message>
+        <source>Recorded, but the file is gone</source>
+        <translation>Qeydə alınıb, amma fayl yoxdur</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>Son icra</translation>
+    </message>
+    <message>
+        <source>No migration has run yet.</source>
+        <translation>Hələ heç bir miqrasiya icra olunmayıb.</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>İcra</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Vəziyyət</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Başladı</translation>
+    </message>
+    <message>
+        <source>Finished</source>
+        <translation>Bitdi</translation>
+    </message>
+    <message>
+        <source>Run by</source>
+        <translation>İcra edən</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>Başlıq</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>Teq</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>Göndərmə</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Miqrasiyalar</translation>
+    </message>
+    <message>
+        <source>%n migrations need attention</source>
+        <translation>%n miqrasiya diqqət tələb edir</translation>
+    </message>
 </context>
 </TS>

@@ -1699,5 +1699,125 @@
         <source>Calendar</source>
         <translation>Kalendaryo</translation>
     </message>
+    <message>
+        <source>The migrations cannot be read now.</source>
+        <translation>Dili mabasa ang mga migration karon.</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Napakyas</translation>
+    </message>
+    <message>
+        <source>Running</source>
+        <translation>Nagdagan</translation>
+    </message>
+    <message>
+        <source>Rolled back</source>
+        <translation>Gibalik</translation>
+    </message>
+    <message>
+        <source>Pushed</source>
+        <translation>Na-push</translation>
+    </message>
+    <message>
+        <source>Waiting for its push</source>
+        <translation>Naghulat sa push niini</translation>
+    </message>
+    <message>
+        <source>Off</source>
+        <translation>Gipalong</translation>
+    </message>
+    <message>
+        <source>No remote</source>
+        <translation>Walay remote</translation>
+    </message>
+    <message>
+        <source>Nothing to push</source>
+        <translation>Walay i-push</translation>
+    </message>
+    <message>
+        <source>Read only: running and rolling back stay in the administration.</source>
+        <translation>Basa lang: ang pagdagan ug pagbalik anaa sa administrasyon.</translation>
+    </message>
+    <message>
+        <source>The migration tables do not exist yet: exp:upgrade --apply makes them.</source>
+        <translation>Wala pa ang mga table sa migration: exp:upgrade --apply ang mohimo niini.</translation>
+    </message>
+    <message>
+        <source>A run is active</source>
+        <translation>Adunay aktibong run</translation>
+    </message>
+    <message>
+        <source>%purpose, by %user since %time</source>
+        <translation>%purpose, ni %user sukad %time</translation>
+    </message>
+    <message>
+        <source>%n problems reading the migrations</source>
+        <translation>%n ka problema sa pagbasa sa mga migration</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Naghulat</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>Walay migration nga naghulat.</translation>
+    </message>
+    <message>
+        <source>%n more in the administration</source>
+        <translation>%n pa sa administrasyon</translation>
+    </message>
+    <message>
+        <source>Recorded, but the file is gone</source>
+        <translation>Narekord, apan wala na ang file</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>Katapusang run</translation>
+    </message>
+    <message>
+        <source>No migration has run yet.</source>
+        <translation>Wala pay migration nga nadagan.</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Run</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Kahimtang</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Gisugdan</translation>
+    </message>
+    <message>
+        <source>Finished</source>
+        <translation>Nahuman</translation>
+    </message>
+    <message>
+        <source>Run by</source>
+        <translation>Gidagan ni</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>Caption</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>Tag</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>Push</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Mga migration</translation>
+    </message>
+    <message>
+        <source>%n migrations need attention</source>
+        <translation>%n ka migration nanginahanglan og pagtagad</translation>
+    </message>
 </context>
 </TS>

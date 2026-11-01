@@ -1699,5 +1699,125 @@
         <source>Calendar</source>
         <translation>Ημερολόγιο</translation>
     </message>
+    <message>
+        <source>The migrations cannot be read now.</source>
+        <translation>Οι μεταναστεύσεις δεν μπορούν να διαβαστούν τώρα.</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Απέτυχε</translation>
+    </message>
+    <message>
+        <source>Running</source>
+        <translation>Εκτελείται</translation>
+    </message>
+    <message>
+        <source>Rolled back</source>
+        <translation>Αναιρέθηκε</translation>
+    </message>
+    <message>
+        <source>Pushed</source>
+        <translation>Στάλθηκε</translation>
+    </message>
+    <message>
+        <source>Waiting for its push</source>
+        <translation>Αναμένει αποστολή</translation>
+    </message>
+    <message>
+        <source>Off</source>
+        <translation>Ανενεργό</translation>
+    </message>
+    <message>
+        <source>No remote</source>
+        <translation>Χωρίς απομακρυσμένο αποθετήριο</translation>
+    </message>
+    <message>
+        <source>Nothing to push</source>
+        <translation>Τίποτα για αποστολή</translation>
+    </message>
+    <message>
+        <source>Read only: running and rolling back stay in the administration.</source>
+        <translation>Μόνο ανάγνωση: η εκτέλεση και η αναίρεση γίνονται στη διαχείριση.</translation>
+    </message>
+    <message>
+        <source>The migration tables do not exist yet: exp:upgrade --apply makes them.</source>
+        <translation>Οι πίνακες μεταναστεύσεων δεν υπάρχουν ακόμη: το exp:upgrade --apply τους δημιουργεί.</translation>
+    </message>
+    <message>
+        <source>A run is active</source>
+        <translation>Μια εκτέλεση είναι ενεργή</translation>
+    </message>
+    <message>
+        <source>%purpose, by %user since %time</source>
+        <translation>%purpose, από %user από τις %time</translation>
+    </message>
+    <message>
+        <source>%n problems reading the migrations</source>
+        <translation>%n προβλήματα κατά την ανάγνωση των μεταναστεύσεων</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Σε αναμονή</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>Καμία μετανάστευση σε αναμονή.</translation>
+    </message>
+    <message>
+        <source>%n more in the administration</source>
+        <translation>Ακόμη %n στη διαχείριση</translation>
+    </message>
+    <message>
+        <source>Recorded, but the file is gone</source>
+        <translation>Καταγράφηκε, αλλά το αρχείο δεν υπάρχει</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>Τελευταία εκτέλεση</translation>
+    </message>
+    <message>
+        <source>No migration has run yet.</source>
+        <translation>Δεν έχει εκτελεστεί ακόμη καμία μετανάστευση.</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Εκτέλεση</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Κατάσταση</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Έναρξη</translation>
+    </message>
+    <message>
+        <source>Finished</source>
+        <translation>Λήξη</translation>
+    </message>
+    <message>
+        <source>Run by</source>
+        <translation>Εκτελέστηκε από</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>Λεζάντα</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>Ετικέτα</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>Αποστολή</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Μεταναστεύσεις</translation>
+    </message>
+    <message>
+        <source>%n migrations need attention</source>
+        <translation>%n μεταναστεύσεις χρειάζονται προσοχή</translation>
+    </message>
 </context>
 </TS>

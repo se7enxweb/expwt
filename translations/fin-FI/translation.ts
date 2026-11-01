@@ -1699,5 +1699,125 @@
         <source>Calendar</source>
         <translation>Kalenteri</translation>
     </message>
+    <message>
+        <source>The migrations cannot be read now.</source>
+        <translation>Migraatioita ei voi lukea nyt.</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Epäonnistui</translation>
+    </message>
+    <message>
+        <source>Running</source>
+        <translation>Käynnissä</translation>
+    </message>
+    <message>
+        <source>Rolled back</source>
+        <translation>Peruttu</translation>
+    </message>
+    <message>
+        <source>Pushed</source>
+        <translation>Työnnetty</translation>
+    </message>
+    <message>
+        <source>Waiting for its push</source>
+        <translation>Odottaa työntöä</translation>
+    </message>
+    <message>
+        <source>Off</source>
+        <translation>Pois</translation>
+    </message>
+    <message>
+        <source>No remote</source>
+        <translation>Ei etävarastoa</translation>
+    </message>
+    <message>
+        <source>Nothing to push</source>
+        <translation>Ei työnnettävää</translation>
+    </message>
+    <message>
+        <source>Read only: running and rolling back stay in the administration.</source>
+        <translation>Vain luku: ajaminen ja peruminen tehdään hallinnassa.</translation>
+    </message>
+    <message>
+        <source>The migration tables do not exist yet: exp:upgrade --apply makes them.</source>
+        <translation>Migraatiotauluja ei ole vielä: exp:upgrade --apply luo ne.</translation>
+    </message>
+    <message>
+        <source>A run is active</source>
+        <translation>Ajo on käynnissä</translation>
+    </message>
+    <message>
+        <source>%purpose, by %user since %time</source>
+        <translation>%purpose, %user, alkaen %time</translation>
+    </message>
+    <message>
+        <source>%n problems reading the migrations</source>
+        <translation>%n ongelmaa migraatioiden lukemisessa</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Odottaa</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>Ei odottavia migraatioita.</translation>
+    </message>
+    <message>
+        <source>%n more in the administration</source>
+        <translation>%n lisää hallinnassa</translation>
+    </message>
+    <message>
+        <source>Recorded, but the file is gone</source>
+        <translation>Kirjattu, mutta tiedosto puuttuu</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>Viimeisin ajo</translation>
+    </message>
+    <message>
+        <source>No migration has run yet.</source>
+        <translation>Yhtään migraatiota ei ole vielä ajettu.</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Ajo</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Tila</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Aloitettu</translation>
+    </message>
+    <message>
+        <source>Finished</source>
+        <translation>Päättynyt</translation>
+    </message>
+    <message>
+        <source>Run by</source>
+        <translation>Ajaja</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>Otsikko</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>Tagi</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>Työntö</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Migraatiot</translation>
+    </message>
+    <message>
+        <source>%n migrations need attention</source>
+        <translation>%n migraatiota vaatii huomiota</translation>
+    </message>
 </context>
 </TS>

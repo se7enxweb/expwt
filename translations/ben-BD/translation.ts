@@ -1699,5 +1699,125 @@
         <source>Calendar</source>
         <translation>ক্যালেন্ডার</translation>
     </message>
+    <message>
+        <source>The migrations cannot be read now.</source>
+        <translation>মাইগ্রেশনগুলো এখন পড়া যাচ্ছে না।</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>ব্যর্থ</translation>
+    </message>
+    <message>
+        <source>Running</source>
+        <translation>চলছে</translation>
+    </message>
+    <message>
+        <source>Rolled back</source>
+        <translation>ফিরিয়ে নেওয়া হয়েছে</translation>
+    </message>
+    <message>
+        <source>Pushed</source>
+        <translation>পুশ করা হয়েছে</translation>
+    </message>
+    <message>
+        <source>Waiting for its push</source>
+        <translation>পুশের অপেক্ষায়</translation>
+    </message>
+    <message>
+        <source>Off</source>
+        <translation>বন্ধ</translation>
+    </message>
+    <message>
+        <source>No remote</source>
+        <translation>কোনো রিমোট নেই</translation>
+    </message>
+    <message>
+        <source>Nothing to push</source>
+        <translation>পুশ করার কিছু নেই</translation>
+    </message>
+    <message>
+        <source>Read only: running and rolling back stay in the administration.</source>
+        <translation>শুধু পড়ার জন্য: চালানো ও ফিরিয়ে নেওয়া প্রশাসনেই থাকে।</translation>
+    </message>
+    <message>
+        <source>The migration tables do not exist yet: exp:upgrade --apply makes them.</source>
+        <translation>মাইগ্রেশন টেবিলগুলো এখনো নেই: exp:upgrade --apply সেগুলো তৈরি করে।</translation>
+    </message>
+    <message>
+        <source>A run is active</source>
+        <translation>একটি রান সক্রিয়</translation>
+    </message>
+    <message>
+        <source>%purpose, by %user since %time</source>
+        <translation>%purpose, %user দ্বারা %time থেকে</translation>
+    </message>
+    <message>
+        <source>%n problems reading the migrations</source>
+        <translation>মাইগ্রেশন পড়তে %nটি সমস্যা</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>অপেক্ষমাণ</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>কোনো মাইগ্রেশন অপেক্ষমাণ নেই।</translation>
+    </message>
+    <message>
+        <source>%n more in the administration</source>
+        <translation>প্রশাসনে আরও %nটি</translation>
+    </message>
+    <message>
+        <source>Recorded, but the file is gone</source>
+        <translation>রেকর্ড করা, কিন্তু ফাইলটি নেই</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>শেষ রান</translation>
+    </message>
+    <message>
+        <source>No migration has run yet.</source>
+        <translation>এখনো কোনো মাইগ্রেশন চলেনি।</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>রান</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>অবস্থা</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>শুরু</translation>
+    </message>
+    <message>
+        <source>Finished</source>
+        <translation>শেষ</translation>
+    </message>
+    <message>
+        <source>Run by</source>
+        <translation>চালিয়েছেন</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>ক্যাপশন</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>ট্যাগ</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>পুশ</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>মাইগ্রেশন</translation>
+    </message>
+    <message>
+        <source>%n migrations need attention</source>
+        <translation>%nটি মাইগ্রেশনে মনোযোগ প্রয়োজন</translation>
+    </message>
 </context>
 </TS>

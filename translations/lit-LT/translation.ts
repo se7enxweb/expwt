@@ -1699,5 +1699,125 @@
         <source>Calendar</source>
         <translation>Kalendorius</translation>
     </message>
+    <message>
+        <source>The migrations cannot be read now.</source>
+        <translation>Migracijų dabar nepavyksta perskaityti.</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Nepavyko</translation>
+    </message>
+    <message>
+        <source>Running</source>
+        <translation>Vykdoma</translation>
+    </message>
+    <message>
+        <source>Rolled back</source>
+        <translation>Atšaukta</translation>
+    </message>
+    <message>
+        <source>Pushed</source>
+        <translation>Išsiųsta</translation>
+    </message>
+    <message>
+        <source>Waiting for its push</source>
+        <translation>Laukia išsiuntimo</translation>
+    </message>
+    <message>
+        <source>Off</source>
+        <translation>Išjungta</translation>
+    </message>
+    <message>
+        <source>No remote</source>
+        <translation>Nėra nuotolinės saugyklos</translation>
+    </message>
+    <message>
+        <source>Nothing to push</source>
+        <translation>Nėra ką išsiųsti</translation>
+    </message>
+    <message>
+        <source>Read only: running and rolling back stay in the administration.</source>
+        <translation>Tik skaitymas: vykdymas ir atšaukimas lieka administravime.</translation>
+    </message>
+    <message>
+        <source>The migration tables do not exist yet: exp:upgrade --apply makes them.</source>
+        <translation>Migracijų lentelių dar nėra: jas sukuria exp:upgrade --apply.</translation>
+    </message>
+    <message>
+        <source>A run is active</source>
+        <translation>Vyksta vykdymas</translation>
+    </message>
+    <message>
+        <source>%purpose, by %user since %time</source>
+        <translation>%purpose, vykdo %user nuo %time</translation>
+    </message>
+    <message>
+        <source>%n problems reading the migrations</source>
+        <translation>Skaitant migracijas kilo problemų: %n</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Laukia</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>Nėra laukiančių migracijų.</translation>
+    </message>
+    <message>
+        <source>%n more in the administration</source>
+        <translation>Dar %n administravime</translation>
+    </message>
+    <message>
+        <source>Recorded, but the file is gone</source>
+        <translation>Užregistruota, bet failo nebėra</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>Paskutinis vykdymas</translation>
+    </message>
+    <message>
+        <source>No migration has run yet.</source>
+        <translation>Dar nebuvo vykdyta jokia migracija.</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Vykdymas</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Būsena</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Pradėta</translation>
+    </message>
+    <message>
+        <source>Finished</source>
+        <translation>Baigta</translation>
+    </message>
+    <message>
+        <source>Run by</source>
+        <translation>Vykdė</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>Antraštė</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>Žyma</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>Išsiuntimas</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Migracijos</translation>
+    </message>
+    <message>
+        <source>%n migrations need attention</source>
+        <translation>Dėmesio reikia migracijoms: %n</translation>
+    </message>
 </context>
 </TS>

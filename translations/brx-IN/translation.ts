@@ -1699,5 +1699,125 @@
         <source>Calendar</source>
         <translation>केलेन्डार</translation>
     </message>
+    <message>
+        <source>The migrations cannot be read now.</source>
+        <translation>माइग्रेसनफोरखौ दिनै फरायनो हाया।</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>फेल जाबाय</translation>
+    </message>
+    <message>
+        <source>Running</source>
+        <translation>सोलिगासिनो दं</translation>
+    </message>
+    <message>
+        <source>Rolled back</source>
+        <translation>फिननाय जाबाय</translation>
+    </message>
+    <message>
+        <source>Pushed</source>
+        <translation>पुस खालामबाय</translation>
+    </message>
+    <message>
+        <source>Waiting for its push</source>
+        <translation>पुस खालामनायनि थाखाय नेथ'गासिनो दं</translation>
+    </message>
+    <message>
+        <source>Off</source>
+        <translation>बन्द</translation>
+    </message>
+    <message>
+        <source>No remote</source>
+        <translation>रिम'ट गैया</translation>
+    </message>
+    <message>
+        <source>Nothing to push</source>
+        <translation>पुस खालामनो जेबो गैया</translation>
+    </message>
+    <message>
+        <source>Read only: running and rolling back stay in the administration.</source>
+        <translation>फरायनो थाखाय सिर्फ: सोलिनाय आरो फिननायफोरा प्रशासनाव थायो।</translation>
+    </message>
+    <message>
+        <source>The migration tables do not exist yet: exp:upgrade --apply makes them.</source>
+        <translation>माइग्रेसन टेबुलफोरा दासिमबो गैया: exp:upgrade --apply बेसोरखौ सोरजियो।</translation>
+    </message>
+    <message>
+        <source>A run is active</source>
+        <translation>मोनसे रान सक्रिय</translation>
+    </message>
+    <message>
+        <source>%purpose, by %user since %time</source>
+        <translation>%purpose, %user जों %time निफ्राय</translation>
+    </message>
+    <message>
+        <source>%n problems reading the migrations</source>
+        <translation>माइग्रेसनफोरखौ फरायनायाव %n समस्या</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>बाकी</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>जेबो माइग्रेसन बाकी गैया।</translation>
+    </message>
+    <message>
+        <source>%n more in the administration</source>
+        <translation>प्रशासनाव %n बांसिन</translation>
+    </message>
+    <message>
+        <source>Recorded, but the file is gone</source>
+        <translation>थिसनना लाखिबाय, नाथाय फाइलआ गैया</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>जोबथा रान</translation>
+    </message>
+    <message>
+        <source>No migration has run yet.</source>
+        <translation>दासिमबो जेबो माइग्रेसन सोलिखै।</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>रान</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>थासारि</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>जागायबाय</translation>
+    </message>
+    <message>
+        <source>Finished</source>
+        <translation>जाखांबाय</translation>
+    </message>
+    <message>
+        <source>Run by</source>
+        <translation>सोलिग्रा</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>कैप्सन</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>टेग</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>पुस</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>माइग्रेसनफोर</translation>
+    </message>
+    <message>
+        <source>%n migrations need attention</source>
+        <translation>%n माइग्रेसनआव गोसो होनांगौ</translation>
+    </message>
 </context>
 </TS>

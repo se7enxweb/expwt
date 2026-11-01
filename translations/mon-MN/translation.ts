@@ -1699,5 +1699,125 @@
         <source>Calendar</source>
         <translation>Хуанли</translation>
     </message>
+    <message>
+        <source>The migrations cannot be read now.</source>
+        <translation>Шилжүүлгүүдийг одоо унших боломжгүй.</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Амжилтгүй</translation>
+    </message>
+    <message>
+        <source>Running</source>
+        <translation>Ажиллаж байна</translation>
+    </message>
+    <message>
+        <source>Rolled back</source>
+        <translation>Буцаагдсан</translation>
+    </message>
+    <message>
+        <source>Pushed</source>
+        <translation>Илгээгдсэн</translation>
+    </message>
+    <message>
+        <source>Waiting for its push</source>
+        <translation>Илгээхийг хүлээж байна</translation>
+    </message>
+    <message>
+        <source>Off</source>
+        <translation>Унтраалттай</translation>
+    </message>
+    <message>
+        <source>No remote</source>
+        <translation>Алсын агуулах байхгүй</translation>
+    </message>
+    <message>
+        <source>Nothing to push</source>
+        <translation>Илгээх зүйл алга</translation>
+    </message>
+    <message>
+        <source>Read only: running and rolling back stay in the administration.</source>
+        <translation>Зөвхөн унших: ажиллуулах болон буцаах нь удирдлагад хийгдэнэ.</translation>
+    </message>
+    <message>
+        <source>The migration tables do not exist yet: exp:upgrade --apply makes them.</source>
+        <translation>Шилжүүлгийн хүснэгтүүд хараахан байхгүй: exp:upgrade --apply тэдгээрийг үүсгэнэ.</translation>
+    </message>
+    <message>
+        <source>A run is active</source>
+        <translation>Ажиллуулалт идэвхтэй байна</translation>
+    </message>
+    <message>
+        <source>%purpose, by %user since %time</source>
+        <translation>%purpose, %user, %time-аас хойш</translation>
+    </message>
+    <message>
+        <source>%n problems reading the migrations</source>
+        <translation>Шилжүүлгийг уншихад %n асуудал гарлаа</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Хүлээгдэж буй</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>Хүлээгдэж буй шилжүүлэг алга.</translation>
+    </message>
+    <message>
+        <source>%n more in the administration</source>
+        <translation>Удирдлагад өөр %n</translation>
+    </message>
+    <message>
+        <source>Recorded, but the file is gone</source>
+        <translation>Бүртгэгдсэн боловч файл алга</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>Сүүлийн ажиллуулалт</translation>
+    </message>
+    <message>
+        <source>No migration has run yet.</source>
+        <translation>Одоогоор ямар ч шилжүүлэг ажиллаагүй.</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Ажиллуулалт</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Төлөв</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Эхэлсэн</translation>
+    </message>
+    <message>
+        <source>Finished</source>
+        <translation>Дууссан</translation>
+    </message>
+    <message>
+        <source>Run by</source>
+        <translation>Ажиллуулсан</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>Тайлбар</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>Шошго</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>Илгээлт</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Шилжүүлгүүд</translation>
+    </message>
+    <message>
+        <source>%n migrations need attention</source>
+        <translation>%n шилжүүлэгт анхаарал шаардлагатай</translation>
+    </message>
 </context>
 </TS>

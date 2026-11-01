@@ -1699,5 +1699,125 @@
         <source>Calendar</source>
         <translation>'ISjaH</translation>
     </message>
+    <message>
+        <source>The migrations cannot be read now.</source>
+        <translation>DaH ghoSmey laDlaHbe'.</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Qapbe'</translation>
+    </message>
+    <message>
+        <source>Running</source>
+        <translation>ruchtaH</translation>
+    </message>
+    <message>
+        <source>Rolled back</source>
+        <translation>chegh</translation>
+    </message>
+    <message>
+        <source>Pushed</source>
+        <translation>ngeHlu'pu'</translation>
+    </message>
+    <message>
+        <source>Waiting for its push</source>
+        <translation>ngeHmeH loS</translation>
+    </message>
+    <message>
+        <source>Off</source>
+        <translation>chu'Ha'</translation>
+    </message>
+    <message>
+        <source>No remote</source>
+        <translation>Hop De'wI' tu'lu'be'</translation>
+    </message>
+    <message>
+        <source>Nothing to push</source>
+        <translation>ngeHmeH pagh</translation>
+    </message>
+    <message>
+        <source>Read only: running and rolling back stay in the administration.</source>
+        <translation>laDmeH neH: ruchmoHghach cheghmoHghachje loHmeH Daq ta'lu'.</translation>
+    </message>
+    <message>
+        <source>The migration tables do not exist yet: exp:upgrade --apply makes them.</source>
+        <translation>ghoSmey raSmey tu'lu'be'taH: exp:upgrade --apply chenmoH.</translation>
+    </message>
+    <message>
+        <source>A run is active</source>
+        <translation>ruchtaH wa'</translation>
+    </message>
+    <message>
+        <source>%purpose, by %user since %time</source>
+        <translation>%purpose, %user, %time vo'</translation>
+    </message>
+    <message>
+        <source>%n problems reading the migrations</source>
+        <translation>ghoSmey laDtaHvIS %n Seng</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>loStaH</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>ghoS loStaH tu'lu'be'.</translation>
+    </message>
+    <message>
+        <source>%n more in the administration</source>
+        <translation>loHmeH Daq latlh %n</translation>
+    </message>
+    <message>
+        <source>Recorded, but the file is gone</source>
+        <translation>qonlu'pu', 'ach teywI' Qaw'lu'pu'</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>ruchghach Qav</translation>
+    </message>
+    <message>
+        <source>No migration has run yet.</source>
+        <translation>ghoS ruchmoHlu'pu'be' wej.</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>ruchghach</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Dotlh</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>tagh</translation>
+    </message>
+    <message>
+        <source>Finished</source>
+        <translation>rIn</translation>
+    </message>
+    <message>
+        <source>Run by</source>
+        <translation>ruchmoHwI'</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>pong</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>per</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>ngeH</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>ghoSmey</translation>
+    </message>
+    <message>
+        <source>%n migrations need attention</source>
+        <translation>%n ghoSmey qImlu'nIS</translation>
+    </message>
 </context>
 </TS>

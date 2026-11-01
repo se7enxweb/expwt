@@ -93,6 +93,9 @@ class expwtApiTestGateway extends expwtGateway
     public function calendarPublish( array $in ) { return $this->record( 'calendarPublish', $in ); }
     public function calendarTakeDown( array $in ) { return $this->record( 'calendarTakeDown', $in ); }
     public function calendarVariant( array $in ) { return $this->record( 'calendarVariant', $in ); }
+    public $migrations = array( 'attention' => 2 );
+    public function migrationsOffer() { return $this->migrations; }
+    public function migrations() { return $this->record( 'migrations', array() ); }
     public $registered = array( 'panels' => array(), 'actions' => array(), 'highlights' => array(), 'search' => array() );
     public $policies = array();
     public function registeredActions() { return $this->registered['actions']; }
@@ -413,11 +416,30 @@ class expwtApiTest extends PHPUnit\Framework\TestCase
         $this->assertSame( $this->gateway->saved, $r['body']['data']['state'] );
     }
 
+    /** R4.5: the migrations are read-only, a GET for every user of the sidebar; the gateway decides by migration/read */
+    public function testTheMigrationsAreReadOnlyAndInTheBoot()
+    {
+        $api = $this->api();
+        $this->assertFalse( expwtAccess::writes( 'migrations.load' ) );
+        $this->assertSame( 'use', expwtAccess::functionFor( 'migrations.load' ) );
+        $this->assertNull( expwtAccess::kernelView( 'migrations.load' ), 'nothing to verify: it changes nothing' );
+        $this->assertSame( 200, $api->call( 'migrations.load', array( 'run' => 1 ), 'GET' )['status'] );
+        $this->assertSame( array( 'migrations', array() ), $this->gateway->calls[0], 'no input reaches the gateway' );
+        $this->assertSame( array( 'attention' => 2 ), $api->call( 'boot', array(), 'GET' )['body']['data']['migrations'] );
+        $this->gateway->migrations = null;
+        $this->assertNull( $api->call( 'boot', array(), 'GET' )['body']['data']['migrations'], 'no panel without migration/read' );
+        $this->gateway->throw = new expwtApiError( 403, 'forbidden', 'You may not do this.' );
+        $this->assertSame( 403, $api->call( 'migrations.load', array(), 'GET' )['status'], 'the gateway refuses without migration/read' );
+        $this->assertSame( 403, $this->api( array() )->call( 'migrations.load', array(), 'GET' )['status'], 'without expwt/use' );
+        $this->assertContains( 'migrations', expwtState::PANELS );
+        $this->assertContains( 'migrations', expwtRegistry::CORE_PANELS, 'no extension takes the id' );
+    }
+
     public function testBootTellsTheSidebarEverythingOnce()
     {
         $r = $this->api()->call( 'boot', array(), 'GET' );
         $d = $r['body']['data'];
-        $this->assertSame( array( 'user', 'capabilities', 'state', 'theme', 'token', 'transport', 'urls', 'strings', 'inbox', 'newsletter', 'comments', 'registry', 'settings' ), array_keys( $d ) );
+        $this->assertSame( array( 'user', 'capabilities', 'state', 'theme', 'token', 'transport', 'urls', 'strings', 'inbox', 'newsletter', 'comments', 'migrations', 'registry', 'settings' ), array_keys( $d ) );
         $this->assertSame( 'dark', $d['theme'], 'follows the administration (F10)' );
         $this->assertSame( 'tok', $d['token'] );
         $this->assertSame( 'Bearbeiten', $d['strings']['Edit'] );

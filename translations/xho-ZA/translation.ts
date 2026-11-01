@@ -1699,5 +1699,125 @@
         <source>Calendar</source>
         <translation>Ikhalenda</translation>
     </message>
+    <message>
+        <source>The migrations cannot be read now.</source>
+        <translation>Iimfuduko azinakufundwa ngoku.</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Ayiphumelelanga</translation>
+    </message>
+    <message>
+        <source>Running</source>
+        <translation>Iyasebenza</translation>
+    </message>
+    <message>
+        <source>Rolled back</source>
+        <translation>Ibuyiselwe umva</translation>
+    </message>
+    <message>
+        <source>Pushed</source>
+        <translation>Ithunyelwe</translation>
+    </message>
+    <message>
+        <source>Waiting for its push</source>
+        <translation>Ilinde ukuthunyelwa</translation>
+    </message>
+    <message>
+        <source>Off</source>
+        <translation>Icinyiwe</translation>
+    </message>
+    <message>
+        <source>No remote</source>
+        <translation>Akukho ndawo ikude</translation>
+    </message>
+    <message>
+        <source>Nothing to push</source>
+        <translation>Akukho nto yokuthumela</translation>
+    </message>
+    <message>
+        <source>Read only: running and rolling back stay in the administration.</source>
+        <translation>Ukufunda kuphela: ukuqhuba nokubuyisela umva kwenziwa kulawulo.</translation>
+    </message>
+    <message>
+        <source>The migration tables do not exist yet: exp:upgrade --apply makes them.</source>
+        <translation>Iitheyibhile zemfuduko azikabikho: exp:upgrade --apply iyazenza.</translation>
+    </message>
+    <message>
+        <source>A run is active</source>
+        <translation>Ukuqhuba kuyasebenza</translation>
+    </message>
+    <message>
+        <source>%purpose, by %user since %time</source>
+        <translation>%purpose, ngu %user ukusukela ngo %time</translation>
+    </message>
+    <message>
+        <source>%n problems reading the migrations</source>
+        <translation>Iingxaki ezi %n ekufundeni iimfuduko</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Ilindile</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>Akukho mfuduko ilindileyo.</translation>
+    </message>
+    <message>
+        <source>%n more in the administration</source>
+        <translation>Ezinye ezi %n kulawulo</translation>
+    </message>
+    <message>
+        <source>Recorded, but the file is gone</source>
+        <translation>Ibhaliwe, kodwa ifayile ayisekho</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>Ukuqhuba kokugqibela</translation>
+    </message>
+    <message>
+        <source>No migration has run yet.</source>
+        <translation>Akukho mfuduko iqhutywe okwangoku.</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Ukuqhuba</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Imeko</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Iqalisiwe</translation>
+    </message>
+    <message>
+        <source>Finished</source>
+        <translation>Igqityiwe</translation>
+    </message>
+    <message>
+        <source>Run by</source>
+        <translation>Iqhutywe ngu</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>Isihloko</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>Ithegi</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>Ukuthumela</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Iimfuduko</translation>
+    </message>
+    <message>
+        <source>%n migrations need attention</source>
+        <translation>Iimfuduko ezi %n zifuna ingqalelo</translation>
+    </message>
 </context>
 </TS>

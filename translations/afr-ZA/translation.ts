@@ -1699,5 +1699,125 @@
         <source>Calendar</source>
         <translation>Kalender</translation>
     </message>
+    <message>
+        <source>The migrations cannot be read now.</source>
+        <translation>Die migrasies kan nie nou gelees word nie.</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Misluk</translation>
+    </message>
+    <message>
+        <source>Running</source>
+        <translation>Loop</translation>
+    </message>
+    <message>
+        <source>Rolled back</source>
+        <translation>Teruggerol</translation>
+    </message>
+    <message>
+        <source>Pushed</source>
+        <translation>Gestoot</translation>
+    </message>
+    <message>
+        <source>Waiting for its push</source>
+        <translation>Wag vir sy stoot</translation>
+    </message>
+    <message>
+        <source>Off</source>
+        <translation>Af</translation>
+    </message>
+    <message>
+        <source>No remote</source>
+        <translation>Geen afstandbewaarplek nie</translation>
+    </message>
+    <message>
+        <source>Nothing to push</source>
+        <translation>Niks om te stoot nie</translation>
+    </message>
+    <message>
+        <source>Read only: running and rolling back stay in the administration.</source>
+        <translation>Slegs lees: uitvoer en terugrol bly in die administrasie.</translation>
+    </message>
+    <message>
+        <source>The migration tables do not exist yet: exp:upgrade --apply makes them.</source>
+        <translation>Die migrasietabelle bestaan nog nie: exp:upgrade --apply skep hulle.</translation>
+    </message>
+    <message>
+        <source>A run is active</source>
+        <translation>'n Lopie is aktief</translation>
+    </message>
+    <message>
+        <source>%purpose, by %user since %time</source>
+        <translation>%purpose, deur %user sedert %time</translation>
+    </message>
+    <message>
+        <source>%n problems reading the migrations</source>
+        <translation>%n probleme met die lees van die migrasies</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Hangend</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>Geen migrasie is hangend nie.</translation>
+    </message>
+    <message>
+        <source>%n more in the administration</source>
+        <translation>Nog %n in die administrasie</translation>
+    </message>
+    <message>
+        <source>Recorded, but the file is gone</source>
+        <translation>Aangeteken, maar die lêer is weg</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>Laaste lopie</translation>
+    </message>
+    <message>
+        <source>No migration has run yet.</source>
+        <translation>Nog geen migrasie het geloop nie.</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Lopie</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Toestand</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Begin</translation>
+    </message>
+    <message>
+        <source>Finished</source>
+        <translation>Klaar</translation>
+    </message>
+    <message>
+        <source>Run by</source>
+        <translation>Uitgevoer deur</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>Onderskrif</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>Etiket</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>Stoot</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Migrasies</translation>
+    </message>
+    <message>
+        <source>%n migrations need attention</source>
+        <translation>%n migrasies vra aandag</translation>
+    </message>
 </context>
 </TS>

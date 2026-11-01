@@ -1699,5 +1699,125 @@
         <source>Calendar</source>
         <translation>Senenama</translation>
     </message>
+    <message>
+        <source>The migrations cannot be read now.</source>
+        <translation>Migrasiýalary häzir okap bolanok.</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Şowsuz</translation>
+    </message>
+    <message>
+        <source>Running</source>
+        <translation>Işleýär</translation>
+    </message>
+    <message>
+        <source>Rolled back</source>
+        <translation>Yzyna gaýtaryldy</translation>
+    </message>
+    <message>
+        <source>Pushed</source>
+        <translation>Iberildi</translation>
+    </message>
+    <message>
+        <source>Waiting for its push</source>
+        <translation>Iberilmegine garaşýar</translation>
+    </message>
+    <message>
+        <source>Off</source>
+        <translation>Öçük</translation>
+    </message>
+    <message>
+        <source>No remote</source>
+        <translation>Uzakdaky ammar ýok</translation>
+    </message>
+    <message>
+        <source>Nothing to push</source>
+        <translation>Iberere zat ýok</translation>
+    </message>
+    <message>
+        <source>Read only: running and rolling back stay in the administration.</source>
+        <translation>Diňe okamak üçin: işletmek we yzyna gaýtarmak dolandyryşda galýar.</translation>
+    </message>
+    <message>
+        <source>The migration tables do not exist yet: exp:upgrade --apply makes them.</source>
+        <translation>Migrasiýa tablisalary entek ýok: exp:upgrade --apply olary döredýär.</translation>
+    </message>
+    <message>
+        <source>A run is active</source>
+        <translation>Bir işletme işjeň</translation>
+    </message>
+    <message>
+        <source>%purpose, by %user since %time</source>
+        <translation>%purpose, %user tarapyndan, %time bäri</translation>
+    </message>
+    <message>
+        <source>%n problems reading the migrations</source>
+        <translation>Migrasiýalary okamakda %n mesele</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Garaşylýar</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>Garaşylýan migrasiýa ýok.</translation>
+    </message>
+    <message>
+        <source>%n more in the administration</source>
+        <translation>Dolandyryşda ýene %n</translation>
+    </message>
+    <message>
+        <source>Recorded, but the file is gone</source>
+        <translation>Ýazga alnan, ýöne faýl ýok</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>Soňky işletme</translation>
+    </message>
+    <message>
+        <source>No migration has run yet.</source>
+        <translation>Entek hiç bir migrasiýa işledilmedi.</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Işletme</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Ýagdaý</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Başlandy</translation>
+    </message>
+    <message>
+        <source>Finished</source>
+        <translation>Tamamlandy</translation>
+    </message>
+    <message>
+        <source>Run by</source>
+        <translation>Işleden</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>Ady</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>Bellik</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>Iberiş</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Migrasiýalar</translation>
+    </message>
+    <message>
+        <source>%n migrations need attention</source>
+        <translation>%n migrasiýa üns talap edýär</translation>
+    </message>
 </context>
 </TS>

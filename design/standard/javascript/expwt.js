@@ -629,6 +629,8 @@
       if (c.insights) { list.push({ id: 'insights', label: this.t('Insights') }); }
       /* the approvals waiting for the user (F29), for a user of the kernel's collaboration */
       if (this.boot && this.boot.inbox) { list.push({ id: 'inbox', label: this.t('Inbox') }); }
+      /* the installation's migrations, read-only (R4.5), for a user with the kernel's migration/read */
+      if (this.boot && this.boot.migrations) { list.push({ id: 'migrations', label: this.t('Migrations') }); }
       list.push({ id: 'me', label: this.t('Me') });
       /* the panels of other extensions (decision 32), each before the panel its registration names */
       this.registry().panels.forEach(function (p) {
@@ -676,6 +678,24 @@
       this.tablist.hidden = list.length < 2;
       if (this.waiting) { this.setWaiting(this.waiting); }
       if (this.commentsWaiting) { this.setComments(this.commentsWaiting); }
+      if (this.migrationsAttention) { this.setMigrations(this.migrationsAttention); }
+    }
+
+    /* The migrations that need attention (R4.5: pending, failed, recorded without their file): a badge on the
+       Migrations panel's tab, none at 0; screen readers hear "%n migrations need attention". The panel sets it again
+       each time it loads. */
+    setMigrations(n) {
+      var self = this;
+      this.migrationsAttention = Math.max(0, parseInt(n, 10) || 0);
+      (this.tabButtons || []).filter(function (b) { return b.getAttribute('data-panel') === 'migrations'; }).forEach(function (el) {
+        var old = el.querySelector('[data-badge="migrations"]');
+        if (old) { old.remove(); }
+        if (self.migrationsAttention > 0) {
+          el.appendChild(h('span', { class: 'wt-badge', 'data-badge': 'migrations' }, [
+            h('span', { 'aria-hidden': 'true', text: String(self.migrationsAttention) }),
+            h('span', { class: 'wt-sr', text: ' ' + self.t('%n migrations need attention').replace('%n', self.migrationsAttention) })]));
+        }
+      });
     }
 
     /* The comments of the page waiting for moderation (E4: hidden comments the user may approve): a badge on the Page
@@ -1240,6 +1260,7 @@
         self.labelKeys();
         self.setWaiting(self.boot.inbox ? self.boot.inbox.count : 0);
         self.setComments(self.boot.comments ? self.boot.comments.waiting : 0);
+        self.setMigrations(self.boot.migrations ? self.boot.migrations.attention : 0);
         /* changes of this page kept on this device only (F28): a mark on the tab; opened, the Page panel offers them */
         var local = null;
         try { local = window.localStorage; } catch (e) { local = null; }
@@ -1292,7 +1313,7 @@
       var t = this.boot.transport;
       var registered = this.registry().actions || {};
       var write = Object.prototype.hasOwnProperty.call(registered, action) ? !!registered[action].writes
-        : ['me', 'page.load', 'create.classes', 'tree.children', 'inbox.load', 'insights.load', 'seo.check', 'newsletter.load', 'comments.load', 'urls.load', 'calendar.load', 'boot'].indexOf(action) < 0;
+        : ['me', 'page.load', 'create.classes', 'tree.children', 'inbox.load', 'insights.load', 'seo.check', 'newsletter.load', 'comments.load', 'urls.load', 'calendar.load', 'migrations.load', 'boot'].indexOf(action) < 0;
       var json = JSON.stringify(input || {});
       var headers = { 'X-CSRF-Token': this.boot.token || '' };
       var p;
@@ -1604,6 +1625,7 @@
         state: this.state,
         setState: function (change) { self.setState(change); },
         waiting: function (n) { self.setWaiting(n); },
+        migrations: function (n) { self.setMigrations(n); },
         registry: function () { return self.registry(); },
         deviceOnly: function (on) {
           if (on === undefined) { return self.deviceOnly; }

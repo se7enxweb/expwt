@@ -1699,5 +1699,125 @@
         <source>Calendar</source>
         <translation>Salname</translation>
     </message>
+    <message>
+        <source>The migrations cannot be read now.</source>
+        <translation>Migrasyon niha nayên xwendin.</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Têk çû</translation>
+    </message>
+    <message>
+        <source>Running</source>
+        <translation>Dixebite</translation>
+    </message>
+    <message>
+        <source>Rolled back</source>
+        <translation>Paşve hat vegerandin</translation>
+    </message>
+    <message>
+        <source>Pushed</source>
+        <translation>Hat şandin</translation>
+    </message>
+    <message>
+        <source>Waiting for its push</source>
+        <translation>Li benda şandinê ye</translation>
+    </message>
+    <message>
+        <source>Off</source>
+        <translation>Girtî</translation>
+    </message>
+    <message>
+        <source>No remote</source>
+        <translation>Depoya dûr tune</translation>
+    </message>
+    <message>
+        <source>Nothing to push</source>
+        <translation>Tiştek ji bo şandinê tune</translation>
+    </message>
+    <message>
+        <source>Read only: running and rolling back stay in the administration.</source>
+        <translation>Tenê xwendin: xebitandin û paşvegerandin di rêveberiyê de dimînin.</translation>
+    </message>
+    <message>
+        <source>The migration tables do not exist yet: exp:upgrade --apply makes them.</source>
+        <translation>Tabloyên migrasyonê hîn tune ne: exp:upgrade --apply wan çêdike.</translation>
+    </message>
+    <message>
+        <source>A run is active</source>
+        <translation>Xebitandinek çalak e</translation>
+    </message>
+    <message>
+        <source>%purpose, by %user since %time</source>
+        <translation>%purpose, ji aliyê %user ve ji %time ve</translation>
+    </message>
+    <message>
+        <source>%n problems reading the migrations</source>
+        <translation>%n pirsgirêk di xwendina migrasyonan de</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Li bendê</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>Tu migrasyon li bendê nîne.</translation>
+    </message>
+    <message>
+        <source>%n more in the administration</source>
+        <translation>%n zêdetir di rêveberiyê de</translation>
+    </message>
+    <message>
+        <source>Recorded, but the file is gone</source>
+        <translation>Hatiye tomarkirin, lê pel winda ye</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>Xebitandina dawî</translation>
+    </message>
+    <message>
+        <source>No migration has run yet.</source>
+        <translation>Hîn tu migrasyon nehatiye xebitandin.</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Xebitandin</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Rewş</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Dest pê kir</translation>
+    </message>
+    <message>
+        <source>Finished</source>
+        <translation>Qediya</translation>
+    </message>
+    <message>
+        <source>Run by</source>
+        <translation>Xebitandox</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>Sernivîs</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>Etîket</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>Şandin</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Migrasyon</translation>
+    </message>
+    <message>
+        <source>%n migrations need attention</source>
+        <translation>%n migrasyon hewceyî baldariyê ne</translation>
+    </message>
 </context>
 </TS>

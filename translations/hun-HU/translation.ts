@@ -1699,5 +1699,125 @@
         <source>Calendar</source>
         <translation>Naptár</translation>
     </message>
+    <message>
+        <source>The migrations cannot be read now.</source>
+        <translation>A migrációk most nem olvashatók.</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Sikertelen</translation>
+    </message>
+    <message>
+        <source>Running</source>
+        <translation>Fut</translation>
+    </message>
+    <message>
+        <source>Rolled back</source>
+        <translation>Visszagörgetve</translation>
+    </message>
+    <message>
+        <source>Pushed</source>
+        <translation>Feltöltve</translation>
+    </message>
+    <message>
+        <source>Waiting for its push</source>
+        <translation>Feltöltésre vár</translation>
+    </message>
+    <message>
+        <source>Off</source>
+        <translation>Ki</translation>
+    </message>
+    <message>
+        <source>No remote</source>
+        <translation>Nincs távoli tároló</translation>
+    </message>
+    <message>
+        <source>Nothing to push</source>
+        <translation>Nincs mit feltölteni</translation>
+    </message>
+    <message>
+        <source>Read only: running and rolling back stay in the administration.</source>
+        <translation>Csak olvasható: a futtatás és a visszagörgetés az adminisztrációban marad.</translation>
+    </message>
+    <message>
+        <source>The migration tables do not exist yet: exp:upgrade --apply makes them.</source>
+        <translation>A migrációs táblák még nem léteznek: az exp:upgrade --apply létrehozza őket.</translation>
+    </message>
+    <message>
+        <source>A run is active</source>
+        <translation>Egy futtatás aktív</translation>
+    </message>
+    <message>
+        <source>%purpose, by %user since %time</source>
+        <translation>%purpose, %user, %time óta</translation>
+    </message>
+    <message>
+        <source>%n problems reading the migrations</source>
+        <translation>%n probléma a migrációk olvasásakor</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Függőben</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>Nincs függő migráció.</translation>
+    </message>
+    <message>
+        <source>%n more in the administration</source>
+        <translation>Még %n az adminisztrációban</translation>
+    </message>
+    <message>
+        <source>Recorded, but the file is gone</source>
+        <translation>Rögzítve, de a fájl már nincs meg</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>Utolsó futtatás</translation>
+    </message>
+    <message>
+        <source>No migration has run yet.</source>
+        <translation>Még nem futott migráció.</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Futtatás</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Állapot</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Indítva</translation>
+    </message>
+    <message>
+        <source>Finished</source>
+        <translation>Befejezve</translation>
+    </message>
+    <message>
+        <source>Run by</source>
+        <translation>Futtatta</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>Felirat</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>Címke</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>Feltöltés</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Migrációk</translation>
+    </message>
+    <message>
+        <source>%n migrations need attention</source>
+        <translation>%n migráció figyelmet igényel</translation>
+    </message>
 </context>
 </TS>

@@ -1699,5 +1699,125 @@
         <source>Calendar</source>
         <translation>Kalenda</translation>
     </message>
+    <message>
+        <source>The migrations cannot be read now.</source>
+        <translation>Yɛrentumi nkenkan nsesamu no seesei.</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Ɛantumi anyɛ yie</translation>
+    </message>
+    <message>
+        <source>Running</source>
+        <translation>Ɛrekɔ so</translation>
+    </message>
+    <message>
+        <source>Rolled back</source>
+        <translation>Wɔasan ayi</translation>
+    </message>
+    <message>
+        <source>Pushed</source>
+        <translation>Wɔapia</translation>
+    </message>
+    <message>
+        <source>Waiting for its push</source>
+        <translation>Ɛretwɛn ne pia</translation>
+    </message>
+    <message>
+        <source>Off</source>
+        <translation>Adum</translation>
+    </message>
+    <message>
+        <source>No remote</source>
+        <translation>Akyirikyiri kora biara nni hɔ</translation>
+    </message>
+    <message>
+        <source>Nothing to push</source>
+        <translation>Biribiara nni hɔ a wɔbɛpia</translation>
+    </message>
+    <message>
+        <source>Read only: running and rolling back stay in the administration.</source>
+        <translation>Kenkan nko: nhyɛmu ne san-yi wɔ nhyehyɛe no mu.</translation>
+    </message>
+    <message>
+        <source>The migration tables do not exist yet: exp:upgrade --apply makes them.</source>
+        <translation>Nsesamu pon no nni hɔ mmom: exp:upgrade --apply bɛyɛ wɔn.</translation>
+    </message>
+    <message>
+        <source>A run is active</source>
+        <translation>Adwumayɛ bi rekɔ so</translation>
+    </message>
+    <message>
+        <source>%purpose, by %user since %time</source>
+        <translation>%purpose, %user fi %time</translation>
+    </message>
+    <message>
+        <source>%n problems reading the migrations</source>
+        <translation>Ɔhaw %n wɔ nsesamu no kenkan mu</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Ɛretwɛn</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>Nsesamu biara ntwɛn.</translation>
+    </message>
+    <message>
+        <source>%n more in the administration</source>
+        <translation>%n bio wɔ nhyehyɛe no mu</translation>
+    </message>
+    <message>
+        <source>Recorded, but the file is gone</source>
+        <translation>Wɔakyerɛw, nanso fael no ayera</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>Adwumayɛ a etwa to</translation>
+    </message>
+    <message>
+        <source>No migration has run yet.</source>
+        <translation>Nsesamu biara nnya nkɔɔ so.</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Adwumayɛ</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Tebea</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Ahyɛase</translation>
+    </message>
+    <message>
+        <source>Finished</source>
+        <translation>Awie</translation>
+    </message>
+    <message>
+        <source>Run by</source>
+        <translation>Nea ɔyɛe</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>Din</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>Tag</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>Pia</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Nsesamu</translation>
+    </message>
+    <message>
+        <source>%n migrations need attention</source>
+        <translation>Nsesamu %n hia adwene</translation>
+    </message>
 </context>
 </TS>

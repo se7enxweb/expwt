@@ -1699,5 +1699,125 @@
         <source>Calendar</source>
         <translation>ⴰⵙⵎⵉⵡⴰⵙ</translation>
     </message>
+    <message>
+        <source>The migrations cannot be read now.</source>
+        <translation>ⵓⵔ ⵣⵎⵉⵔⵖ ⴰⴷ ⵖⵔⵖ ⵜⵉⵎⵓⵙⵙⵓⵜⵉⵏ ⴷⵖⵉ.</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>ⵢⵓⵡⵔ</translation>
+    </message>
+    <message>
+        <source>Running</source>
+        <translation>ⵉⵜⵜⵎⵓⵙⵙⵓ</translation>
+    </message>
+    <message>
+        <source>Rolled back</source>
+        <translation>ⵢⵓⵖⵓⵍ</translation>
+    </message>
+    <message>
+        <source>Pushed</source>
+        <translation>ⵢⵜⵜⵓⵣⵏ</translation>
+    </message>
+    <message>
+        <source>Waiting for its push</source>
+        <translation>ⵉⵜⵜⵔⴰⵊⵓ ⴰⵣⵏ</translation>
+    </message>
+    <message>
+        <source>Off</source>
+        <translation>ⵉⵜⵜⵓⵙⵅⵙⵉ</translation>
+    </message>
+    <message>
+        <source>No remote</source>
+        <translation>ⵓⵍⴰ ⴰⵙⵎⵓⵔⴰⵙ ⴰⵎⵢⴰⵏⵓⴳ</translation>
+    </message>
+    <message>
+        <source>Nothing to push</source>
+        <translation>ⵓⵍⴰ ⴰⵢⵏ ⵔⴰ ⵢⵜⵜⵓⵣⵏ</translation>
+    </message>
+    <message>
+        <source>Read only: running and rolling back stay in the administration.</source>
+        <translation>ⵖⴰⵙ ⵜⵉⵖⵔⵉ: ⴰⵙⵎⵓⵙⵙⵓ ⴷ ⵓⵙⵓⵖⵍ ⵇⵇⵉⵎⵏ ⴳ ⵓⵙⵡⵓⴷⴷⵓ.</translation>
+    </message>
+    <message>
+        <source>The migration tables do not exist yet: exp:upgrade --apply makes them.</source>
+        <translation>ⵓⵔ ⵜⵍⵍⵉⵏ ⵜⴼⵍⵡⵉⵏ ⵏ ⵜⵎⵓⵙⵙⵓⵜⵉⵏ ⵅⴰⵙ: exp:upgrade --apply ⴰⵔ ⵜⵏⵜ ⵉⵙⴽⴰⵔ.</translation>
+    </message>
+    <message>
+        <source>A run is active</source>
+        <translation>ⵢⴰⵏ ⵓⵙⵎⵓⵙⵙⵓ ⵉⵍⵍⴰ ⵢⵓⵔⵎⵉⴷ</translation>
+    </message>
+    <message>
+        <source>%purpose, by %user since %time</source>
+        <translation>%purpose, ⵙⵖⵓⵔ %user ⵙⴳ %time</translation>
+    </message>
+    <message>
+        <source>%n problems reading the migrations</source>
+        <translation>%n ⵏ ⵜⵎⵙⴰⵔⵉⵏ ⴳ ⵜⵖⵔⵉ ⵏ ⵜⵎⵓⵙⵙⵓⵜⵉⵏ</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>ⴳ ⵓⵔⴰⵊⵓ</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>ⵓⵍⴰ ⵜⴰⵎⵓⵙⵙⵓⵜ ⵉⵍⵍⴰⵏ ⴳ ⵓⵔⴰⵊⵓ.</translation>
+    </message>
+    <message>
+        <source>%n more in the administration</source>
+        <translation>%n ⵢⴰⴹⵏ ⴳ ⵓⵙⵡⵓⴷⴷⵓ</translation>
+    </message>
+    <message>
+        <source>Recorded, but the file is gone</source>
+        <translation>ⵜⵜⵓⵙⵊⵍ, ⵎⴰⵛ ⴰⴼⴰⵢⵍⵓ ⵉⵔⵡⵍ</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>ⴰⵙⵎⵓⵙⵙⵓ ⴰⵎⴳⴳⴰⵔⵓ</translation>
+    </message>
+    <message>
+        <source>No migration has run yet.</source>
+        <translation>ⵓⵔ ⵜⵙⵎⵓⵙⵙⵓ ⴽⵔⴰ ⵏ ⵜⵎⵓⵙⵙⵓⵜ ⵅⴰⵙ.</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>ⴰⵙⵎⵓⵙⵙⵓ</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>ⴰⴷⴷⴰⴷ</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>ⵉⴱⴷⴰ</translation>
+    </message>
+    <message>
+        <source>Finished</source>
+        <translation>ⵉⵜⵜⵓⵙⴽⵔ</translation>
+    </message>
+    <message>
+        <source>Run by</source>
+        <translation>ⵙⵖⵓⵔ</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>ⴰⵣⵡⵍ</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>ⴰⵎⴰⵜⴰⵔ</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>ⴰⵣⵏ</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>ⵜⵉⵎⵓⵙⵙⵓⵜⵉⵏ</translation>
+    </message>
+    <message>
+        <source>%n migrations need attention</source>
+        <translation>%n ⵏ ⵜⵎⵓⵙⵙⵓⵜⵉⵏ ⵃⵜⴰⵊⵏⵜ ⴰⵙⵙⵎⵓⵜⵜⴳ</translation>
+    </message>
 </context>
 </TS>

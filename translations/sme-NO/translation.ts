@@ -1699,5 +1699,125 @@
         <source>Calendar</source>
         <translation>Kaleandar</translation>
     </message>
+    <message>
+        <source>The migrations cannot be read now.</source>
+        <translation>Migrašuvnnaid ii sáhte dál lohkat.</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Filtii</translation>
+    </message>
+    <message>
+        <source>Running</source>
+        <translation>Johtá</translation>
+    </message>
+    <message>
+        <source>Rolled back</source>
+        <translation>Máhcahuvvon</translation>
+    </message>
+    <message>
+        <source>Pushed</source>
+        <translation>Sáddejuvvon</translation>
+    </message>
+    <message>
+        <source>Waiting for its push</source>
+        <translation>Vuordá sáddema</translation>
+    </message>
+    <message>
+        <source>Off</source>
+        <translation>Eret</translation>
+    </message>
+    <message>
+        <source>No remote</source>
+        <translation>Ii gáiddus vuorká</translation>
+    </message>
+    <message>
+        <source>Nothing to push</source>
+        <translation>Ii mihkkege sáddet</translation>
+    </message>
+    <message>
+        <source>Read only: running and rolling back stay in the administration.</source>
+        <translation>Dušše lohkat: vuodjin ja máhcaheapmi dahkkojuvvojit hálddahusas.</translation>
+    </message>
+    <message>
+        <source>The migration tables do not exist yet: exp:upgrade --apply makes them.</source>
+        <translation>Migrašuvdnatabeallat eai leat vel: exp:upgrade --apply ráhkada daid.</translation>
+    </message>
+    <message>
+        <source>A run is active</source>
+        <translation>Vuodjin lea aktiivvalaš</translation>
+    </message>
+    <message>
+        <source>%purpose, by %user since %time</source>
+        <translation>%purpose, %user, %time rájes</translation>
+    </message>
+    <message>
+        <source>%n problems reading the migrations</source>
+        <translation>%n váttisvuođa migrašuvnnaid lohkamis</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Vuordimis</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>Ii oktage migrašuvdna leat vuordimis.</translation>
+    </message>
+    <message>
+        <source>%n more in the administration</source>
+        <translation>Vel %n hálddahusas</translation>
+    </message>
+    <message>
+        <source>Recorded, but the file is gone</source>
+        <translation>Registrerejuvvon, muhto fiila lea jávkan</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>Maŋimuš vuodjin</translation>
+    </message>
+    <message>
+        <source>No migration has run yet.</source>
+        <translation>Ii oktage migrašuvdna leat vel vuddjojuvvon.</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Vuodjin</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Dilli</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Álggahuvvon</translation>
+    </message>
+    <message>
+        <source>Finished</source>
+        <translation>Gárvvis</translation>
+    </message>
+    <message>
+        <source>Run by</source>
+        <translation>Vuodji</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>Govvateaksta</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>Merka</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>Sádden</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Migrašuvnnat</translation>
+    </message>
+    <message>
+        <source>%n migrations need attention</source>
+        <translation>%n migrašuvnna dárbbašit fuomášumi</translation>
+    </message>
 </context>
 </TS>

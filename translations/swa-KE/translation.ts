@@ -1699,5 +1699,125 @@
         <source>Calendar</source>
         <translation>Kalenda</translation>
     </message>
+    <message>
+        <source>The migrations cannot be read now.</source>
+        <translation>Uhamishaji hauwezi kusomwa sasa.</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Imeshindwa</translation>
+    </message>
+    <message>
+        <source>Running</source>
+        <translation>Inaendeshwa</translation>
+    </message>
+    <message>
+        <source>Rolled back</source>
+        <translation>Imerudishwa nyuma</translation>
+    </message>
+    <message>
+        <source>Pushed</source>
+        <translation>Imesukumwa</translation>
+    </message>
+    <message>
+        <source>Waiting for its push</source>
+        <translation>Inasubiri kusukumwa</translation>
+    </message>
+    <message>
+        <source>Off</source>
+        <translation>Imezimwa</translation>
+    </message>
+    <message>
+        <source>No remote</source>
+        <translation>Hakuna hazina ya mbali</translation>
+    </message>
+    <message>
+        <source>Nothing to push</source>
+        <translation>Hakuna cha kusukuma</translation>
+    </message>
+    <message>
+        <source>Read only: running and rolling back stay in the administration.</source>
+        <translation>Kusoma tu: kuendesha na kurudisha nyuma hufanyika kwenye usimamizi.</translation>
+    </message>
+    <message>
+        <source>The migration tables do not exist yet: exp:upgrade --apply makes them.</source>
+        <translation>Majedwali ya uhamishaji bado hayapo: exp:upgrade --apply huyaunda.</translation>
+    </message>
+    <message>
+        <source>A run is active</source>
+        <translation>Uendeshaji unaendelea</translation>
+    </message>
+    <message>
+        <source>%purpose, by %user since %time</source>
+        <translation>%purpose, na %user tangu %time</translation>
+    </message>
+    <message>
+        <source>%n problems reading the migrations</source>
+        <translation>Matatizo %n wakati wa kusoma uhamishaji</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Inasubiri</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>Hakuna uhamishaji unaosubiri.</translation>
+    </message>
+    <message>
+        <source>%n more in the administration</source>
+        <translation>%n zaidi kwenye usimamizi</translation>
+    </message>
+    <message>
+        <source>Recorded, but the file is gone</source>
+        <translation>Imerekodiwa, lakini faili haipo tena</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>Uendeshaji wa mwisho</translation>
+    </message>
+    <message>
+        <source>No migration has run yet.</source>
+        <translation>Hakuna uhamishaji ulioendeshwa bado.</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Uendeshaji</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Hali</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Ilianza</translation>
+    </message>
+    <message>
+        <source>Finished</source>
+        <translation>Ilimalizika</translation>
+    </message>
+    <message>
+        <source>Run by</source>
+        <translation>Iliendeshwa na</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>Maelezo</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>Lebo</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>Kusukuma</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Uhamishaji</translation>
+    </message>
+    <message>
+        <source>%n migrations need attention</source>
+        <translation>Uhamishaji %n unahitaji uangalifu</translation>
+    </message>
 </context>
 </TS>

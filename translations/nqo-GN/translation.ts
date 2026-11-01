@@ -1699,5 +1699,125 @@
         <source>Calendar</source>
         <translation>ߕߎ߬ߡߊ߬ߘߊ߬ߙߋ߲</translation>
     </message>
+    <message>
+        <source>The migrations cannot be read now.</source>
+        <translation>ߡߌߜ߭ߙߊߛߌߦߐ߲ ߠߎ߬ ߕߍ߫ ߛߋ߫ ߞߊ߬ߙߊ߲߬ ߠߊ߫ ߛߌߛߊ߲߫.</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>ߊ߬ ߡߊ߫ ߢߊ߬</translation>
+    </message>
+    <message>
+        <source>Running</source>
+        <translation>ߊ߬ ߦߋ߫ ߞߍ߫ ߟߊ߫</translation>
+    </message>
+    <message>
+        <source>Rolled back</source>
+        <translation>ߊ߬ ߟߊߛߊ߬ߦߌ߬ߣߍ߲߫ ߘߊ߫</translation>
+    </message>
+    <message>
+        <source>Pushed</source>
+        <translation>ߊ߬ ߗߌߣߍ߲߫ ߘߊ߫</translation>
+    </message>
+    <message>
+        <source>Waiting for its push</source>
+        <translation>ߊ߬ ߦߋ߫ ߗߌߟߌ ߡߊߞߐ߲ߒ߬ ߠߊ߫</translation>
+    </message>
+    <message>
+        <source>Off</source>
+        <translation>ߊ߬ ߟߊߓߊ߲߬ߣߍ߲߫</translation>
+    </message>
+    <message>
+        <source>No remote</source>
+        <translation>ߦߙߐ߫ ߖߊ߲߬ߡߊ߲ ߕߍ߫ ߦߋ߲߬</translation>
+    </message>
+    <message>
+        <source>Nothing to push</source>
+        <translation>ߝߋ߲߫ ߕߍ߫ ߦߋ߲߬ ߗߌߟߌ ߞߊ߲߫</translation>
+    </message>
+    <message>
+        <source>Read only: running and rolling back stay in the administration.</source>
+        <translation>ߞߊ߬ߙߊ߲߬ߠߌ ߘߐߙߐ߲߫: ߞߍߟߌ ߣߌ߫ ߟߊߛߊ߬ߦߌ߬ߟߌ ߓߍ߯ ߞߍ߫ ߟߊ߫ ߡߊ߬ߟߊ߫ ߞߎߡߊ߲ ߘߐ߫.</translation>
+    </message>
+    <message>
+        <source>The migration tables do not exist yet: exp:upgrade --apply makes them.</source>
+        <translation>ߡߌߜ߭ߙߊߛߌߦߐ߲ ߕߊߓߟߏ ߟߎ߬ ߕߍ߫ ߦߋ߲߬ ߝߟߐ߫: exp:upgrade --apply ߦߋ߫ ߏ߬ ߟߎ߬ ߘߊ߲߫ ߠߊ߫.</translation>
+    </message>
+    <message>
+        <source>A run is active</source>
+        <translation>ߞߍߟߌ ߘߏ߫ ߦߋ߫ ߞߍ߫ ߟߊ߫</translation>
+    </message>
+    <message>
+        <source>%purpose, by %user since %time</source>
+        <translation>%purpose߸ %user ߓߟߏ߫ ߞߊ߬ ߓߐ߫ %time ߡߊ߬</translation>
+    </message>
+    <message>
+        <source>%n problems reading the migrations</source>
+        <translation>ߝߌߟߌ %n ߡߌߜ߭ߙߊߛߌߦߐ߲ ߠߎ߬ ߞߊ߬ߙߊ߲߬ߠߌ ߘߐ߫</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>ߊ߬ ߦߋ߫ ߡߊߞߐ߲ߒ߬ ߠߊ߫</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>ߡߌߜ߭ߙߊߛߌߦߐ߲ ߛߌ߫ ߕߍ߫ ߡߊߞߐ߲ߒ߬ ߠߊ߫.</translation>
+    </message>
+    <message>
+        <source>%n more in the administration</source>
+        <translation>%n ߜߘߍ߫ ߡߊ߬ߟߊ߫ ߞߎߡߊ߲ ߘߐ߫</translation>
+    </message>
+    <message>
+        <source>Recorded, but the file is gone</source>
+        <translation>ߊ߬ ߛߓߍߣߍ߲߫ ߘߊ߫߸ ߞߏ߬ߣߌ߲߬ ߞߐߕߐ߯ ߕߍ߫ ߦߋ߲߬ ߕߎ߲߫</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>ߞߍߟߌ ߟߊߓߊ߲</translation>
+    </message>
+    <message>
+        <source>No migration has run yet.</source>
+        <translation>ߡߌߜ߭ߙߊߛߌߦߐ߲ ߛߌ߫ ߡߊ߫ ߞߍ߫ ߝߟߐ߫.</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>ߞߍߟߌ</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>ߓߊߓߏ</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>ߊ߬ ߘߊߡߌ߬ߘߊ߬ߣߍ߲߫</translation>
+    </message>
+    <message>
+        <source>Finished</source>
+        <translation>ߊ߬ ߓߊ߲ߣߍ߲߫</translation>
+    </message>
+    <message>
+        <source>Run by</source>
+        <translation>ߞߍߟߌߟߊ</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>ߞߎ߲ߕߐ߮</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>ߕߊ߲߬ߓߊ߬ߟߌ</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>ߗߌߟߌ</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>ߡߌߜ߭ߙߊߛߌߦߐ߲ ߠߎ߬</translation>
+    </message>
+    <message>
+        <source>%n migrations need attention</source>
+        <translation>ߡߌߜ߭ߙߊߛߌߦߐ߲ %n ߦߋ߫ ߖߊ߲߬ߕߏ߬ߟߌ ߝߍ߬</translation>
+    </message>
 </context>
 </TS>

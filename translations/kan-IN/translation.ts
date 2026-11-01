@@ -1699,5 +1699,125 @@
         <source>Calendar</source>
         <translation>ಕ್ಯಾಲೆಂಡರ್</translation>
     </message>
+    <message>
+        <source>The migrations cannot be read now.</source>
+        <translation>ಮೈಗ್ರೇಶನ್‌ಗಳನ್ನು ಈಗ ಓದಲಾಗುವುದಿಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>ವಿಫಲವಾಗಿದೆ</translation>
+    </message>
+    <message>
+        <source>Running</source>
+        <translation>ಚಾಲನೆಯಲ್ಲಿದೆ</translation>
+    </message>
+    <message>
+        <source>Rolled back</source>
+        <translation>ಹಿಂದಕ್ಕೆ ಸರಿಸಲಾಗಿದೆ</translation>
+    </message>
+    <message>
+        <source>Pushed</source>
+        <translation>ಪುಶ್ ಮಾಡಲಾಗಿದೆ</translation>
+    </message>
+    <message>
+        <source>Waiting for its push</source>
+        <translation>ಪುಶ್‌ಗಾಗಿ ಕಾಯುತ್ತಿದೆ</translation>
+    </message>
+    <message>
+        <source>Off</source>
+        <translation>ಆಫ್</translation>
+    </message>
+    <message>
+        <source>No remote</source>
+        <translation>ರಿಮೋಟ್ ಇಲ್ಲ</translation>
+    </message>
+    <message>
+        <source>Nothing to push</source>
+        <translation>ಪುಶ್ ಮಾಡಲು ಏನೂ ಇಲ್ಲ</translation>
+    </message>
+    <message>
+        <source>Read only: running and rolling back stay in the administration.</source>
+        <translation>ಓದಲು ಮಾತ್ರ: ಚಲಾಯಿಸುವುದು ಮತ್ತು ಹಿಂದಕ್ಕೆ ಸರಿಸುವುದು ಆಡಳಿತದಲ್ಲೇ ಉಳಿಯುತ್ತದೆ.</translation>
+    </message>
+    <message>
+        <source>The migration tables do not exist yet: exp:upgrade --apply makes them.</source>
+        <translation>ಮೈಗ್ರೇಶನ್ ಕೋಷ್ಟಕಗಳು ಇನ್ನೂ ಇಲ್ಲ: exp:upgrade --apply ಅವನ್ನು ರಚಿಸುತ್ತದೆ.</translation>
+    </message>
+    <message>
+        <source>A run is active</source>
+        <translation>ಒಂದು ರನ್ ಸಕ್ರಿಯವಾಗಿದೆ</translation>
+    </message>
+    <message>
+        <source>%purpose, by %user since %time</source>
+        <translation>%purpose, %user ಅವರಿಂದ, %time ರಿಂದ</translation>
+    </message>
+    <message>
+        <source>%n problems reading the migrations</source>
+        <translation>ಮೈಗ್ರೇಶನ್‌ಗಳನ್ನು ಓದುವಲ್ಲಿ %n ಸಮಸ್ಯೆಗಳು</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>ಬಾಕಿ ಇದೆ</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>ಯಾವುದೇ ಮೈಗ್ರೇಶನ್ ಬಾಕಿ ಇಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>%n more in the administration</source>
+        <translation>ಆಡಳಿತದಲ್ಲಿ ಇನ್ನೂ %n</translation>
+    </message>
+    <message>
+        <source>Recorded, but the file is gone</source>
+        <translation>ದಾಖಲಾಗಿದೆ, ಆದರೆ ಫೈಲ್ ಇಲ್ಲ</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>ಕೊನೆಯ ರನ್</translation>
+    </message>
+    <message>
+        <source>No migration has run yet.</source>
+        <translation>ಇನ್ನೂ ಯಾವುದೇ ಮೈಗ್ರೇಶನ್ ಚಲಾಯಿಸಿಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>ರನ್</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>ಸ್ಥಿತಿ</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>ಪ್ರಾರಂಭವಾಯಿತು</translation>
+    </message>
+    <message>
+        <source>Finished</source>
+        <translation>ಮುಗಿದಿದೆ</translation>
+    </message>
+    <message>
+        <source>Run by</source>
+        <translation>ಚಲಾಯಿಸಿದವರು</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>ಶೀರ್ಷಿಕೆ</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>ಟ್ಯಾಗ್</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>ಪುಶ್</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>ಮೈಗ್ರೇಶನ್‌ಗಳು</translation>
+    </message>
+    <message>
+        <source>%n migrations need attention</source>
+        <translation>%n ಮೈಗ್ರೇಶನ್‌ಗಳಿಗೆ ಗಮನ ಬೇಕು</translation>
+    </message>
 </context>
 </TS>

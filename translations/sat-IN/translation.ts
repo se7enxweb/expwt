@@ -1699,5 +1699,125 @@
         <source>Calendar</source>
         <translation>ᱠᱮᱞᱮᱱᱰᱟᱨ</translation>
     </message>
+    <message>
+        <source>The migrations cannot be read now.</source>
+        <translation>ᱢᱟᱭᱜᱨᱮᱥᱚᱱ ᱠᱚ ᱱᱤᱛ ᱯᱟᱲᱦᱟᱣ ᱵᱟᱝ ᱜᱟᱱᱚᱜ ᱠᱟᱱᱟ᱾</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>ᱯᱷᱮᱞ</translation>
+    </message>
+    <message>
+        <source>Running</source>
+        <translation>ᱪᱟᱞᱟᱜ ᱠᱟᱱᱟ</translation>
+    </message>
+    <message>
+        <source>Rolled back</source>
+        <translation>ᱨᱩᱣᱟᱹᱲ ᱮᱱᱟ</translation>
+    </message>
+    <message>
+        <source>Pushed</source>
+        <translation>ᱠᱩᱞ ᱮᱱᱟ</translation>
+    </message>
+    <message>
+        <source>Waiting for its push</source>
+        <translation>ᱠᱩᱞ ᱞᱟᱹᱜᱤᱫ ᱛᱟᱺᱜᱤ ᱠᱟᱱᱟ</translation>
+    </message>
+    <message>
+        <source>Off</source>
+        <translation>ᱵᱚᱸᱫ</translation>
+    </message>
+    <message>
+        <source>No remote</source>
+        <translation>ᱨᱤᱢᱳᱴ ᱵᱟᱹᱱᱩᱜᱼᱟ</translation>
+    </message>
+    <message>
+        <source>Nothing to push</source>
+        <translation>ᱠᱩᱞ ᱞᱟᱹᱜᱤᱫ ᱪᱮᱫ ᱦᱚᱸ ᱵᱟᱹᱱᱩᱜᱼᱟ</translation>
+    </message>
+    <message>
+        <source>Read only: running and rolling back stay in the administration.</source>
+        <translation>ᱯᱟᱲᱦᱟᱣ ᱞᱟᱹᱜᱤᱫ ᱜᱮ: ᱪᱟᱞᱟᱣ ᱟᱨ ᱨᱩᱣᱟᱹᱲ ᱠᱟᱹᱢᱤ ᱯᱨᱚᱥᱟᱥᱚᱱ ᱨᱮ ᱜᱮ ᱦᱩᱭᱩᱜ ᱠᱟᱱᱟ᱾</translation>
+    </message>
+    <message>
+        <source>The migration tables do not exist yet: exp:upgrade --apply makes them.</source>
+        <translation>ᱢᱟᱭᱜᱨᱮᱥᱚᱱ ᱴᱮᱵᱩᱞ ᱠᱚ ᱱᱤᱛ ᱦᱚᱸ ᱵᱟᱹᱱᱩᱜ ᱠᱚᱭ: exp:upgrade --apply ᱠᱚ ᱵᱮᱱᱟᱣᱟ᱾</translation>
+    </message>
+    <message>
+        <source>A run is active</source>
+        <translation>ᱢᱤᱫ ᱪᱟᱞᱟᱣ ᱪᱟᱹᱞᱩ ᱢᱮᱱᱟᱜᱼᱟ</translation>
+    </message>
+    <message>
+        <source>%purpose, by %user since %time</source>
+        <translation>%purpose, %user ᱦᱚᱛᱮᱛᱮ %time ᱠᱷᱚᱱ</translation>
+    </message>
+    <message>
+        <source>%n problems reading the migrations</source>
+        <translation>ᱢᱟᱭᱜᱨᱮᱥᱚᱱ ᱯᱟᱲᱦᱟᱣ ᱨᱮ %n ᱮᱴᱠᱮᱴᱚᱬᱮ</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>ᱛᱟᱺᱜᱤ ᱨᱮ</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>ᱡᱟᱦᱟᱸ ᱢᱟᱭᱜᱨᱮᱥᱚᱱ ᱦᱚᱸ ᱛᱟᱺᱜᱤ ᱨᱮ ᱵᱟᱹᱱᱩᱜᱼᱟ᱾</translation>
+    </message>
+    <message>
+        <source>%n more in the administration</source>
+        <translation>ᱯᱨᱚᱥᱟᱥᱚᱱ ᱨᱮ ᱟᱨᱦᱚᱸ %n</translation>
+    </message>
+    <message>
+        <source>Recorded, but the file is gone</source>
+        <translation>ᱚᱞ ᱟᱠᱟᱱᱟ, ᱢᱮᱱᱠᱷᱟᱱ ᱯᱷᱟᱭᱤᱞ ᱵᱟᱹᱱᱩᱜᱼᱟ</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>ᱢᱩᱪᱟᱹᱫ ᱪᱟᱞᱟᱣ</translation>
+    </message>
+    <message>
+        <source>No migration has run yet.</source>
+        <translation>ᱱᱤᱛ ᱦᱟᱹᱵᱤᱡ ᱡᱟᱦᱟᱸ ᱢᱟᱭᱜᱨᱮᱥᱚᱱ ᱦᱚᱸ ᱵᱟᱝ ᱪᱟᱞᱟᱣ ᱟᱠᱟᱱᱟ᱾</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>ᱪᱟᱞᱟᱣ</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>ᱦᱟᱹᱞᱚᱛ</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>ᱮᱛᱦᱚᱵ</translation>
+    </message>
+    <message>
+        <source>Finished</source>
+        <translation>ᱢᱩᱪᱟᱹᱫ</translation>
+    </message>
+    <message>
+        <source>Run by</source>
+        <translation>ᱪᱟᱞᱟᱣᱤᱡ</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>ᱧᱩᱛᱩᱢ</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>ᱴᱮᱜᱽ</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>ᱠᱩᱞ</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>ᱢᱟᱭᱜᱨᱮᱥᱚᱱ ᱠᱚ</translation>
+    </message>
+    <message>
+        <source>%n migrations need attention</source>
+        <translation>%n ᱢᱟᱭᱜᱨᱮᱥᱚᱱ ᱫᱷᱭᱟᱱ ᱫᱟᱨᱠᱟᱨ</translation>
+    </message>
 </context>
 </TS>

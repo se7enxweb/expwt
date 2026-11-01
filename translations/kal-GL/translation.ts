@@ -1699,5 +1699,125 @@
         <source>Calendar</source>
         <translation>Ullorsiutit</translation>
     </message>
+    <message>
+        <source>The migrations cannot be read now.</source>
+        <translation>Nuutsinerit massakkut atuarneqarsinnaanngillat.</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Iluatsinngilaq</translation>
+    </message>
+    <message>
+        <source>Running</source>
+        <translation>Ingerlavoq</translation>
+    </message>
+    <message>
+        <source>Rolled back</source>
+        <translation>Utertinneqarpoq</translation>
+    </message>
+    <message>
+        <source>Pushed</source>
+        <translation>Nassiunneqarpoq</translation>
+    </message>
+    <message>
+        <source>Waiting for its push</source>
+        <translation>Nassiunneqarnissani utaqqivaa</translation>
+    </message>
+    <message>
+        <source>Off</source>
+        <translation>Qamitaq</translation>
+    </message>
+    <message>
+        <source>No remote</source>
+        <translation>Remote-qanngilaq</translation>
+    </message>
+    <message>
+        <source>Nothing to push</source>
+        <translation>Nassiussassaqanngilaq</translation>
+    </message>
+    <message>
+        <source>Read only: running and rolling back stay in the administration.</source>
+        <translation>Atuarneqarsinnaannaavoq: aallartitsineq utertitsinerlu aqutsinermi pisarput.</translation>
+    </message>
+    <message>
+        <source>The migration tables do not exist yet: exp:upgrade --apply makes them.</source>
+        <translation>Nuutsinerit allattorsimaffii suli pilersinneqanngillat: exp:upgrade --apply taakkuninnga pilersitsisarpoq.</translation>
+    </message>
+    <message>
+        <source>A run is active</source>
+        <translation>Ingerlatsineq ingerlavoq</translation>
+    </message>
+    <message>
+        <source>%purpose, by %user since %time</source>
+        <translation>%purpose, %user, aallarnerfik %time</translation>
+    </message>
+    <message>
+        <source>%n problems reading the migrations</source>
+        <translation>Nuutsinerit atuarnerini ajornartorsiutit %n</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Utaqqisoq</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>Nuutsinermik utaqqisoqanngilaq.</translation>
+    </message>
+    <message>
+        <source>%n more in the administration</source>
+        <translation>Aqutsinermi %n suli</translation>
+    </message>
+    <message>
+        <source>Recorded, but the file is gone</source>
+        <translation>Nalunaarsorneqarpoq, kisianni fili peerpoq</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>Ingerlatsineq kingulleq</translation>
+    </message>
+    <message>
+        <source>No migration has run yet.</source>
+        <translation>Suli nuutsinermik ingerlatsisoqanngilaq.</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Ingerlatsineq</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Killiffik</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Aallartinneqarpoq</translation>
+    </message>
+    <message>
+        <source>Finished</source>
+        <translation>Naammassivoq</translation>
+    </message>
+    <message>
+        <source>Run by</source>
+        <translation>Ingerlatsisoq</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>Taaguut</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>Tag</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>Nassiussineq</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Nuutsinerit</translation>
+    </message>
+    <message>
+        <source>%n migrations need attention</source>
+        <translation>Nuutsinerit %n isiginiarneqartariaqarput</translation>
+    </message>
 </context>
 </TS>

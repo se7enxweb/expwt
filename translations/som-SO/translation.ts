@@ -1699,5 +1699,125 @@
         <source>Calendar</source>
         <translation>Kalandar</translation>
     </message>
+    <message>
+        <source>The migrations cannot be read now.</source>
+        <translation>Guurinta hadda lama akhrin karo.</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Wuu fashilmay</translation>
+    </message>
+    <message>
+        <source>Running</source>
+        <translation>Socda</translation>
+    </message>
+    <message>
+        <source>Rolled back</source>
+        <translation>Dib loo celiyay</translation>
+    </message>
+    <message>
+        <source>Pushed</source>
+        <translation>La diray</translation>
+    </message>
+    <message>
+        <source>Waiting for its push</source>
+        <translation>Sugaya dirista</translation>
+    </message>
+    <message>
+        <source>Off</source>
+        <translation>Dansan</translation>
+    </message>
+    <message>
+        <source>No remote</source>
+        <translation>Kayd fog ma jiro</translation>
+    </message>
+    <message>
+        <source>Nothing to push</source>
+        <translation>Wax la diro ma jiro</translation>
+    </message>
+    <message>
+        <source>Read only: running and rolling back stay in the administration.</source>
+        <translation>Akhris kaliya: socodsiinta iyo dib-u-celinta waxay ku jiraan maamulka.</translation>
+    </message>
+    <message>
+        <source>The migration tables do not exist yet: exp:upgrade --apply makes them.</source>
+        <translation>Shaxanka guurinta weli ma jiraan: exp:upgrade --apply ayaa sameeya.</translation>
+    </message>
+    <message>
+        <source>A run is active</source>
+        <translation>Socodsiin ayaa firfircoon</translation>
+    </message>
+    <message>
+        <source>%purpose, by %user since %time</source>
+        <translation>%purpose, waxaa sameeyay %user tan iyo %time</translation>
+    </message>
+    <message>
+        <source>%n problems reading the migrations</source>
+        <translation>%n dhibaato marka la akhrinayo guurinta</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Sugaya</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>Ma jiro guurin sugaya.</translation>
+    </message>
+    <message>
+        <source>%n more in the administration</source>
+        <translation>%n kale oo ku jira maamulka</translation>
+    </message>
+    <message>
+        <source>Recorded, but the file is gone</source>
+        <translation>La diiwaangeliyay, laakiin faylka ma jiro</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>Socodsiintii ugu dambeysay</translation>
+    </message>
+    <message>
+        <source>No migration has run yet.</source>
+        <translation>Weli ma jirto guurin la socodsiiyay.</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Socodsiin</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Xaalad</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Bilaabmay</translation>
+    </message>
+    <message>
+        <source>Finished</source>
+        <translation>Dhammaaday</translation>
+    </message>
+    <message>
+        <source>Run by</source>
+        <translation>Waxaa socodsiiyay</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>Cinwaan</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>Calaamad</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>Dirid</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Guurinta</translation>
+    </message>
+    <message>
+        <source>%n migrations need attention</source>
+        <translation>%n guurin ayaa u baahan fiiro</translation>
+    </message>
 </context>
 </TS>

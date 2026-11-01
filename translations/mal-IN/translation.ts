@@ -1699,5 +1699,125 @@
         <source>Calendar</source>
         <translation>കലണ്ടർ</translation>
     </message>
+    <message>
+        <source>The migrations cannot be read now.</source>
+        <translation>മൈഗ്രേഷനുകൾ ഇപ്പോൾ വായിക്കാൻ കഴിയില്ല.</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>പരാജയപ്പെട്ടു</translation>
+    </message>
+    <message>
+        <source>Running</source>
+        <translation>പ്രവർത്തിക്കുന്നു</translation>
+    </message>
+    <message>
+        <source>Rolled back</source>
+        <translation>തിരികെ എടുത്തു</translation>
+    </message>
+    <message>
+        <source>Pushed</source>
+        <translation>പുഷ് ചെയ്തു</translation>
+    </message>
+    <message>
+        <source>Waiting for its push</source>
+        <translation>പുഷിനായി കാത്തിരിക്കുന്നു</translation>
+    </message>
+    <message>
+        <source>Off</source>
+        <translation>ഓഫ്</translation>
+    </message>
+    <message>
+        <source>No remote</source>
+        <translation>റിമോട്ട് ഇല്ല</translation>
+    </message>
+    <message>
+        <source>Nothing to push</source>
+        <translation>പുഷ് ചെയ്യാൻ ഒന്നുമില്ല</translation>
+    </message>
+    <message>
+        <source>Read only: running and rolling back stay in the administration.</source>
+        <translation>വായന മാത്രം: പ്രവർത്തിപ്പിക്കലും തിരികെ എടുക്കലും അഡ്മിനിസ്ട്രേഷനിൽ തന്നെ.</translation>
+    </message>
+    <message>
+        <source>The migration tables do not exist yet: exp:upgrade --apply makes them.</source>
+        <translation>മൈഗ്രേഷൻ പട്ടികകൾ ഇതുവരെ ഇല്ല: exp:upgrade --apply അവ സൃഷ്ടിക്കുന്നു.</translation>
+    </message>
+    <message>
+        <source>A run is active</source>
+        <translation>ഒരു റൺ സജീവമാണ്</translation>
+    </message>
+    <message>
+        <source>%purpose, by %user since %time</source>
+        <translation>%purpose, %user മുഖേന %time മുതൽ</translation>
+    </message>
+    <message>
+        <source>%n problems reading the migrations</source>
+        <translation>മൈഗ്രേഷനുകൾ വായിക്കുന്നതിൽ %n പ്രശ്നങ്ങൾ</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>തീർപ്പാക്കാനുള്ളത്</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>തീർപ്പാക്കാനുള്ള മൈഗ്രേഷനുകളൊന്നുമില്ല.</translation>
+    </message>
+    <message>
+        <source>%n more in the administration</source>
+        <translation>അഡ്മിനിസ്ട്രേഷനിൽ %n എണ്ണം കൂടി</translation>
+    </message>
+    <message>
+        <source>Recorded, but the file is gone</source>
+        <translation>രേഖപ്പെടുത്തി, പക്ഷേ ഫയൽ ഇല്ല</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>അവസാന റൺ</translation>
+    </message>
+    <message>
+        <source>No migration has run yet.</source>
+        <translation>ഇതുവരെ ഒരു മൈഗ്രേഷനും പ്രവർത്തിച്ചിട്ടില്ല.</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>റൺ</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>നില</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>ആരംഭിച്ചത്</translation>
+    </message>
+    <message>
+        <source>Finished</source>
+        <translation>പൂർത്തിയായത്</translation>
+    </message>
+    <message>
+        <source>Run by</source>
+        <translation>പ്രവർത്തിപ്പിച്ചത്</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>അടിക്കുറിപ്പ്</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>ടാഗ്</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>പുഷ്</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>മൈഗ്രേഷനുകൾ</translation>
+    </message>
+    <message>
+        <source>%n migrations need attention</source>
+        <translation>%n മൈഗ്രേഷനുകൾക്ക് ശ്രദ്ധ ആവശ്യമാണ്</translation>
+    </message>
 </context>
 </TS>

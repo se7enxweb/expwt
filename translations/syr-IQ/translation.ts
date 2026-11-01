@@ -1699,5 +1699,125 @@
         <source>Calendar</source>
         <translation>ܣܕܪ ܝܘܡܬܐ</translation>
     </message>
+    <message>
+        <source>The migrations cannot be read now.</source>
+        <translation>ܠܐ ܡܫܟܚܝܢ ܫܘܢܝ̈ܐ ܠܡܬܩܪܝܘ ܗܫܐ.</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>ܠܐ ܐܬܓܡܪ</translation>
+    </message>
+    <message>
+        <source>Running</source>
+        <translation>ܪܗܛ</translation>
+    </message>
+    <message>
+        <source>Rolled back</source>
+        <translation>ܐܬܗܦܟ</translation>
+    </message>
+    <message>
+        <source>Pushed</source>
+        <translation>ܐܫܬܕܪ</translation>
+    </message>
+    <message>
+        <source>Waiting for its push</source>
+        <translation>ܡܣܟܐ ܠܫܘܕܪܗ</translation>
+    </message>
+    <message>
+        <source>Off</source>
+        <translation>ܡܛܦܝ</translation>
+    </message>
+    <message>
+        <source>No remote</source>
+        <translation>ܠܝܬ ܐܘܨܪܐ ܪܚܝܩܐ</translation>
+    </message>
+    <message>
+        <source>Nothing to push</source>
+        <translation>ܠܝܬ ܡܕܡ ܠܫܘܕܪܐ</translation>
+    </message>
+    <message>
+        <source>Read only: running and rolling back stay in the administration.</source>
+        <translation>ܠܩܪܝܢܐ ܒܠܚܘܕ: ܪܗܛܐ ܘܗܦܟܬܐ ܒܡܕܒܪܢܘܬܐ ܗܘܝܢ.</translation>
+    </message>
+    <message>
+        <source>The migration tables do not exist yet: exp:upgrade --apply makes them.</source>
+        <translation>ܠܘܚ̈ܐ ܕܫܘܢܝ̈ܐ ܠܐ ܐܝܬܝܗܘܢ ܥܕܡܐ ܠܗܫܐ: exp:upgrade --apply ܥܒܕ ܠܗܘܢ.</translation>
+    </message>
+    <message>
+        <source>A run is active</source>
+        <translation>ܪܗܛܐ ܚܕ ܦܥܝܠ</translation>
+    </message>
+    <message>
+        <source>%purpose, by %user since %time</source>
+        <translation>%purpose، ܡܢ %user ܡܢ %time</translation>
+    </message>
+    <message>
+        <source>%n problems reading the migrations</source>
+        <translation>%n ܥܘܩ̈ܐ ܒܩܪܝܢܐ ܕܫܘܢܝ̈ܐ</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>ܡܣܟܐ</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>ܠܝܬ ܫܘܢܝܐ ܡܣܟܐ.</translation>
+    </message>
+    <message>
+        <source>%n more in the administration</source>
+        <translation>%n ܝܬܝܪ ܒܡܕܒܪܢܘܬܐ</translation>
+    </message>
+    <message>
+        <source>Recorded, but the file is gone</source>
+        <translation>ܟܬܝܒ، ܐܠܐ ܦܢܩܝܬܐ ܠܝܬܝܗ</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>ܪܗܛܐ ܐܚܪܝܐ</translation>
+    </message>
+    <message>
+        <source>No migration has run yet.</source>
+        <translation>ܥܕܡܐ ܠܗܫܐ ܠܐ ܪܗܛ ܫܘܢܝܐ.</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>ܪܗܛܐ</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>ܐܝܟܢܝܘܬܐ</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>ܫܪܐ</translation>
+    </message>
+    <message>
+        <source>Finished</source>
+        <translation>ܫܠܡ</translation>
+    </message>
+    <message>
+        <source>Run by</source>
+        <translation>ܡܪܗܛܢܐ</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>ܟܘܢܝܐ</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>ܢܝܫܐ</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>ܫܘܕܪܐ</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>ܫܘܢܝ̈ܐ</translation>
+    </message>
+    <message>
+        <source>%n migrations need attention</source>
+        <translation>%n ܫܘܢܝ̈ܐ ܣܢܝܩܝܢ ܠܚܘܪܐ</translation>
+    </message>
 </context>
 </TS>

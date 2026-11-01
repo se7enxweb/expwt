@@ -1699,5 +1699,125 @@
         <source>Calendar</source>
         <translation>कैलेंडर</translation>
     </message>
+    <message>
+        <source>The migrations cannot be read now.</source>
+        <translation>माइग्रेशन अभी पढ़ल ना जा सकेला।</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>फेल</translation>
+    </message>
+    <message>
+        <source>Running</source>
+        <translation>चल रहल बा</translation>
+    </message>
+    <message>
+        <source>Rolled back</source>
+        <translation>वापस लिहल गइल</translation>
+    </message>
+    <message>
+        <source>Pushed</source>
+        <translation>पुश भइल</translation>
+    </message>
+    <message>
+        <source>Waiting for its push</source>
+        <translation>पुश के इंतजार में</translation>
+    </message>
+    <message>
+        <source>Off</source>
+        <translation>बंद</translation>
+    </message>
+    <message>
+        <source>No remote</source>
+        <translation>कवनो रिमोट ना</translation>
+    </message>
+    <message>
+        <source>Nothing to push</source>
+        <translation>पुश करे खातिर कुछ ना</translation>
+    </message>
+    <message>
+        <source>Read only: running and rolling back stay in the administration.</source>
+        <translation>सिरिफ पढ़े खातिर: चलावल आ वापस लिहल प्रशासन में रहेला।</translation>
+    </message>
+    <message>
+        <source>The migration tables do not exist yet: exp:upgrade --apply makes them.</source>
+        <translation>माइग्रेशन टेबल अबहीं नइखे: exp:upgrade --apply ओकनी के बनावेला।</translation>
+    </message>
+    <message>
+        <source>A run is active</source>
+        <translation>एगो रन चालू बा</translation>
+    </message>
+    <message>
+        <source>%purpose, by %user since %time</source>
+        <translation>%purpose, %user द्वारा %time से</translation>
+    </message>
+    <message>
+        <source>%n problems reading the migrations</source>
+        <translation>माइग्रेशन पढ़े में %n गो समस्या</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>बाकी</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>कवनो माइग्रेशन बाकी नइखे।</translation>
+    </message>
+    <message>
+        <source>%n more in the administration</source>
+        <translation>प्रशासन में %n गो अउरी</translation>
+    </message>
+    <message>
+        <source>Recorded, but the file is gone</source>
+        <translation>दर्ज बा, बाकिर फाइल ना रहल</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>आखिरी रन</translation>
+    </message>
+    <message>
+        <source>No migration has run yet.</source>
+        <translation>अबहीं ले कवनो माइग्रेशन ना चलल।</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>रन</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>स्थिति</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>सुरू भइल</translation>
+    </message>
+    <message>
+        <source>Finished</source>
+        <translation>खतम भइल</translation>
+    </message>
+    <message>
+        <source>Run by</source>
+        <translation>चलावे वाला</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>कैप्शन</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>टैग</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>पुश</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>माइग्रेशन</translation>
+    </message>
+    <message>
+        <source>%n migrations need attention</source>
+        <translation>%n गो माइग्रेशन पर ध्यान चाहीं</translation>
+    </message>
 </context>
 </TS>

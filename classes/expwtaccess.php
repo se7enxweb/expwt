@@ -95,6 +95,9 @@ class expwtAccess
         'calendar.publish'  => array( 'edit', true, 'content', 'edit', 'PublishButton' ),
         'calendar.takedown' => array( 'edit', true, 'content', 'edit', 'PublishButton' ),
         'calendar.variant'  => array( 'layouts', true, 'explayouts_ui_api', 'app', '' ),
+        // the installation's migrations (R4.5), read-only: pending, failed, the last run, who runs now; the kernel's
+        // migration/read decides (expwtGateway::readsMigrations()), running and rolling back stay in the administration
+        'migrations.load'   => array( 'use', false, '', '', '' ),
     );
 
     /**

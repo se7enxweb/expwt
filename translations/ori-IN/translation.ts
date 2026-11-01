@@ -1699,5 +1699,125 @@
         <source>Calendar</source>
         <translation>କ୍ୟାଲେଣ୍ଡର</translation>
     </message>
+    <message>
+        <source>The migrations cannot be read now.</source>
+        <translation>ମାଇଗ୍ରେସନଗୁଡ଼ିକ ବର୍ତ୍ତମାନ ପଢ଼ାଯାଇପାରିବ ନାହିଁ।</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>ବିଫଳ</translation>
+    </message>
+    <message>
+        <source>Running</source>
+        <translation>ଚାଲୁଛି</translation>
+    </message>
+    <message>
+        <source>Rolled back</source>
+        <translation>ଫେରାଇ ନିଆଗଲା</translation>
+    </message>
+    <message>
+        <source>Pushed</source>
+        <translation>ପୁସ୍ ହୋଇଗଲା</translation>
+    </message>
+    <message>
+        <source>Waiting for its push</source>
+        <translation>ପୁସ୍ ପାଇଁ ଅପେକ୍ଷାରେ</translation>
+    </message>
+    <message>
+        <source>Off</source>
+        <translation>ବନ୍ଦ</translation>
+    </message>
+    <message>
+        <source>No remote</source>
+        <translation>କୌଣସି ରିମୋଟ୍ ନାହିଁ</translation>
+    </message>
+    <message>
+        <source>Nothing to push</source>
+        <translation>ପୁସ୍ କରିବାକୁ କିଛି ନାହିଁ</translation>
+    </message>
+    <message>
+        <source>Read only: running and rolling back stay in the administration.</source>
+        <translation>କେବଳ ପଢ଼ିବା: ଚଲାଇବା ଓ ଫେରାଇବା ପ୍ରଶାସନରେ ହିଁ ହୁଏ।</translation>
+    </message>
+    <message>
+        <source>The migration tables do not exist yet: exp:upgrade --apply makes them.</source>
+        <translation>ମାଇଗ୍ରେସନ ଟେବୁଲଗୁଡ଼ିକ ଏପର୍ଯ୍ୟନ୍ତ ନାହିଁ: exp:upgrade --apply ସେଗୁଡ଼ିକ ତିଆରି କରେ।</translation>
+    </message>
+    <message>
+        <source>A run is active</source>
+        <translation>ଗୋଟିଏ ରନ୍ ସକ୍ରିୟ ଅଛି</translation>
+    </message>
+    <message>
+        <source>%purpose, by %user since %time</source>
+        <translation>%purpose, %user ଦ୍ୱାରା %time ଠାରୁ</translation>
+    </message>
+    <message>
+        <source>%n problems reading the migrations</source>
+        <translation>ମାଇଗ୍ରେସନ ପଢ଼ିବାରେ %n ସମସ୍ୟା</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>ବାକି</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>କୌଣସି ମାଇଗ୍ରେସନ ବାକି ନାହିଁ।</translation>
+    </message>
+    <message>
+        <source>%n more in the administration</source>
+        <translation>ପ୍ରଶାସନରେ ଆଉ %n</translation>
+    </message>
+    <message>
+        <source>Recorded, but the file is gone</source>
+        <translation>ରେକର୍ଡ ହୋଇଛି, କିନ୍ତୁ ଫାଇଲ୍ ନାହିଁ</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>ଶେଷ ରନ୍</translation>
+    </message>
+    <message>
+        <source>No migration has run yet.</source>
+        <translation>ଏପର୍ଯ୍ୟନ୍ତ କୌଣସି ମାଇଗ୍ରେସନ ଚାଲିନାହିଁ।</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>ରନ୍</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>ସ୍ଥିତି</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>ଆରମ୍ଭ</translation>
+    </message>
+    <message>
+        <source>Finished</source>
+        <translation>ସମାପ୍ତ</translation>
+    </message>
+    <message>
+        <source>Run by</source>
+        <translation>ଚଳାଇଥିବା ବ୍ୟକ୍ତି</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>କ୍ୟାପସନ୍</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>ଟ୍ୟାଗ୍</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>ପୁସ୍</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>ମାଇଗ୍ରେସନ</translation>
+    </message>
+    <message>
+        <source>%n migrations need attention</source>
+        <translation>%n ମାଇଗ୍ରେସନ ଧ୍ୟାନ ଆବଶ୍ୟକ କରେ</translation>
+    </message>
 </context>
 </TS>

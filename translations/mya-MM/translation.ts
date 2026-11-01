@@ -1699,5 +1699,125 @@
         <source>Calendar</source>
         <translation>ပြက္ခဒိန်</translation>
     </message>
+    <message>
+        <source>The migrations cannot be read now.</source>
+        <translation>ယခု ရွှေ့ပြောင်းမှုများကို ဖတ်၍မရပါ။</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>မအောင်မြင်ပါ</translation>
+    </message>
+    <message>
+        <source>Running</source>
+        <translation>လုပ်ဆောင်နေသည်</translation>
+    </message>
+    <message>
+        <source>Rolled back</source>
+        <translation>ပြန်ရုပ်သိမ်းပြီး</translation>
+    </message>
+    <message>
+        <source>Pushed</source>
+        <translation>ပို့ပြီး</translation>
+    </message>
+    <message>
+        <source>Waiting for its push</source>
+        <translation>ပို့ရန် စောင့်နေသည်</translation>
+    </message>
+    <message>
+        <source>Off</source>
+        <translation>ပိတ်ထားသည်</translation>
+    </message>
+    <message>
+        <source>No remote</source>
+        <translation>အဝေးသိုလှောင်ရာ မရှိ</translation>
+    </message>
+    <message>
+        <source>Nothing to push</source>
+        <translation>ပို့စရာ မရှိ</translation>
+    </message>
+    <message>
+        <source>Read only: running and rolling back stay in the administration.</source>
+        <translation>ဖတ်ရန်သာ- လုပ်ဆောင်ခြင်းနှင့် ပြန်ရုပ်သိမ်းခြင်းကို စီမံခန့်ခွဲမှုတွင် ပြုလုပ်သည်။</translation>
+    </message>
+    <message>
+        <source>The migration tables do not exist yet: exp:upgrade --apply makes them.</source>
+        <translation>ရွှေ့ပြောင်းမှုဇယားများ မရှိသေးပါ- exp:upgrade --apply က ၎င်းတို့ကို ဖန်တီးသည်။</translation>
+    </message>
+    <message>
+        <source>A run is active</source>
+        <translation>လုပ်ဆောင်မှုတစ်ခု ဆောင်ရွက်နေသည်</translation>
+    </message>
+    <message>
+        <source>%purpose, by %user since %time</source>
+        <translation>%purpose၊ %user မှ %time ကတည်းက</translation>
+    </message>
+    <message>
+        <source>%n problems reading the migrations</source>
+        <translation>ရွှေ့ပြောင်းမှုများ ဖတ်ရာတွင် ပြဿနာ %n ခု</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>ဆိုင်းငံ့ထားသည်</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>ဆိုင်းငံ့ထားသော ရွှေ့ပြောင်းမှု မရှိပါ။</translation>
+    </message>
+    <message>
+        <source>%n more in the administration</source>
+        <translation>စီမံခန့်ခွဲမှုတွင် နောက်ထပ် %n ခု</translation>
+    </message>
+    <message>
+        <source>Recorded, but the file is gone</source>
+        <translation>မှတ်တမ်းတင်ထားသော်လည်း ဖိုင်မရှိတော့ပါ</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>နောက်ဆုံး လုပ်ဆောင်မှု</translation>
+    </message>
+    <message>
+        <source>No migration has run yet.</source>
+        <translation>ရွှေ့ပြောင်းမှု မည်သည့်တစ်ခုမျှ မလုပ်ဆောင်ရသေးပါ။</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>လုပ်ဆောင်မှု</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>အခြေအနေ</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>စတင်ချိန်</translation>
+    </message>
+    <message>
+        <source>Finished</source>
+        <translation>ပြီးဆုံးချိန်</translation>
+    </message>
+    <message>
+        <source>Run by</source>
+        <translation>လုပ်ဆောင်သူ</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>ခေါင်းစဉ်</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>တဂ်</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>ပို့ခြင်း</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>ရွှေ့ပြောင်းမှုများ</translation>
+    </message>
+    <message>
+        <source>%n migrations need attention</source>
+        <translation>ရွှေ့ပြောင်းမှု %n ခု အာရုံစိုက်ရန် လိုအပ်သည်</translation>
+    </message>
 </context>
 </TS>

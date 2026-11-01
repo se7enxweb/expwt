@@ -1699,5 +1699,125 @@
         <source>Calendar</source>
         <translation>日历</translation>
     </message>
+    <message>
+        <source>The migrations cannot be read now.</source>
+        <translation>现在无法读取迁移。</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>失败</translation>
+    </message>
+    <message>
+        <source>Running</source>
+        <translation>运行中</translation>
+    </message>
+    <message>
+        <source>Rolled back</source>
+        <translation>已回滚</translation>
+    </message>
+    <message>
+        <source>Pushed</source>
+        <translation>已推送</translation>
+    </message>
+    <message>
+        <source>Waiting for its push</source>
+        <translation>等待推送</translation>
+    </message>
+    <message>
+        <source>Off</source>
+        <translation>已关闭</translation>
+    </message>
+    <message>
+        <source>No remote</source>
+        <translation>无远程仓库</translation>
+    </message>
+    <message>
+        <source>Nothing to push</source>
+        <translation>无可推送内容</translation>
+    </message>
+    <message>
+        <source>Read only: running and rolling back stay in the administration.</source>
+        <translation>只读：运行和回滚请在管理后台进行。</translation>
+    </message>
+    <message>
+        <source>The migration tables do not exist yet: exp:upgrade --apply makes them.</source>
+        <translation>迁移表尚不存在：exp:upgrade --apply 会创建它们。</translation>
+    </message>
+    <message>
+        <source>A run is active</source>
+        <translation>有一次运行正在进行</translation>
+    </message>
+    <message>
+        <source>%purpose, by %user since %time</source>
+        <translation>%purpose，由 %user 自 %time 起</translation>
+    </message>
+    <message>
+        <source>%n problems reading the migrations</source>
+        <translation>读取迁移时出现 %n 个问题</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>待执行</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>没有待执行的迁移。</translation>
+    </message>
+    <message>
+        <source>%n more in the administration</source>
+        <translation>管理后台中还有 %n 个</translation>
+    </message>
+    <message>
+        <source>Recorded, but the file is gone</source>
+        <translation>已记录，但文件已不存在</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>上次运行</translation>
+    </message>
+    <message>
+        <source>No migration has run yet.</source>
+        <translation>尚未运行过任何迁移。</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>运行</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>状态</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>开始</translation>
+    </message>
+    <message>
+        <source>Finished</source>
+        <translation>结束</translation>
+    </message>
+    <message>
+        <source>Run by</source>
+        <translation>运行者</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>快照名称</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>标签</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>推送</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>迁移</translation>
+    </message>
+    <message>
+        <source>%n migrations need attention</source>
+        <translation>%n 个迁移需要注意</translation>
+    </message>
 </context>
 </TS>

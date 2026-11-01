@@ -1699,5 +1699,125 @@
         <source>Calendar</source>
         <translation>Manaka</translation>
     </message>
+    <message>
+        <source>The migrations cannot be read now.</source>
+        <translation>Bambongwana ekoki kotángama sikoyo te.</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Elongi te</translation>
+    </message>
+    <message>
+        <source>Running</source>
+        <translation>Ezali kotambola</translation>
+    </message>
+    <message>
+        <source>Rolled back</source>
+        <translation>Ezongisami nsima</translation>
+    </message>
+    <message>
+        <source>Pushed</source>
+        <translation>Etindami</translation>
+    </message>
+    <message>
+        <source>Waiting for its push</source>
+        <translation>Ezali kozela kotindama</translation>
+    </message>
+    <message>
+        <source>Off</source>
+        <translation>Ekangami</translation>
+    </message>
+    <message>
+        <source>No remote</source>
+        <translation>Ebombelo ya mosika ezali te</translation>
+    </message>
+    <message>
+        <source>Nothing to push</source>
+        <translation>Eloko ya kotinda ezali te</translation>
+    </message>
+    <message>
+        <source>Read only: running and rolling back stay in the administration.</source>
+        <translation>Kotánga kaka: kotambwisa mpe kozongisa nsima esalemaka na boyangeli.</translation>
+    </message>
+    <message>
+        <source>The migration tables do not exist yet: exp:upgrade --apply makes them.</source>
+        <translation>Bitabule ya bambongwana ezali naino te: exp:upgrade --apply esalaka yango.</translation>
+    </message>
+    <message>
+        <source>A run is active</source>
+        <translation>Botamboli moko ezali kosalema</translation>
+    </message>
+    <message>
+        <source>%purpose, by %user since %time</source>
+        <translation>%purpose, na %user banda %time</translation>
+    </message>
+    <message>
+        <source>%n problems reading the migrations</source>
+        <translation>Mikakatano %n na kotánga bambongwana</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Ezali kozela</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>Mbongwana moko te ezali kozela.</translation>
+    </message>
+    <message>
+        <source>%n more in the administration</source>
+        <translation>%n mosusu na boyangeli</translation>
+    </message>
+    <message>
+        <source>Recorded, but the file is gone</source>
+        <translation>Ekomami, kasi fisyé ezali lisusu te</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>Botamboli ya nsuka</translation>
+    </message>
+    <message>
+        <source>No migration has run yet.</source>
+        <translation>Mbongwana moko te etambwisami naino.</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Botamboli</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Ezalela</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Ebandi</translation>
+    </message>
+    <message>
+        <source>Finished</source>
+        <translation>Esili</translation>
+    </message>
+    <message>
+        <source>Run by</source>
+        <translation>Etambwisami na</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>Nkombo</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>Elembo</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>Kotinda</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Bambongwana</translation>
+    </message>
+    <message>
+        <source>%n migrations need attention</source>
+        <translation>Bambongwana %n esengeli kokebama</translation>
+    </message>
 </context>
 </TS>

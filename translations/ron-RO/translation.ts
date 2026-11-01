@@ -1699,5 +1699,125 @@
         <source>Calendar</source>
         <translation>Calendar</translation>
     </message>
+    <message>
+        <source>The migrations cannot be read now.</source>
+        <translation>Migrările nu pot fi citite acum.</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Eșuată</translation>
+    </message>
+    <message>
+        <source>Running</source>
+        <translation>În execuție</translation>
+    </message>
+    <message>
+        <source>Rolled back</source>
+        <translation>Anulată</translation>
+    </message>
+    <message>
+        <source>Pushed</source>
+        <translation>Trimisă</translation>
+    </message>
+    <message>
+        <source>Waiting for its push</source>
+        <translation>Așteaptă trimiterea</translation>
+    </message>
+    <message>
+        <source>Off</source>
+        <translation>Dezactivat</translation>
+    </message>
+    <message>
+        <source>No remote</source>
+        <translation>Fără depozit la distanță</translation>
+    </message>
+    <message>
+        <source>Nothing to push</source>
+        <translation>Nimic de trimis</translation>
+    </message>
+    <message>
+        <source>Read only: running and rolling back stay in the administration.</source>
+        <translation>Doar citire: rularea și anularea rămân în administrare.</translation>
+    </message>
+    <message>
+        <source>The migration tables do not exist yet: exp:upgrade --apply makes them.</source>
+        <translation>Tabelele de migrare nu există încă: exp:upgrade --apply le creează.</translation>
+    </message>
+    <message>
+        <source>A run is active</source>
+        <translation>O rulare este activă</translation>
+    </message>
+    <message>
+        <source>%purpose, by %user since %time</source>
+        <translation>%purpose, de %user din %time</translation>
+    </message>
+    <message>
+        <source>%n problems reading the migrations</source>
+        <translation>%n probleme la citirea migrărilor</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>În așteptare</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>Nicio migrare nu este în așteptare.</translation>
+    </message>
+    <message>
+        <source>%n more in the administration</source>
+        <translation>Încă %n în administrare</translation>
+    </message>
+    <message>
+        <source>Recorded, but the file is gone</source>
+        <translation>Înregistrată, dar fișierul nu mai există</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>Ultima rulare</translation>
+    </message>
+    <message>
+        <source>No migration has run yet.</source>
+        <translation>Nicio migrare nu a rulat încă.</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Rulare</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Stare</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Începută</translation>
+    </message>
+    <message>
+        <source>Finished</source>
+        <translation>Terminată</translation>
+    </message>
+    <message>
+        <source>Run by</source>
+        <translation>Rulată de</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>Legendă</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>Etichetă</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>Trimitere</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Migrări</translation>
+    </message>
+    <message>
+        <source>%n migrations need attention</source>
+        <translation>%n migrări necesită atenție</translation>
+    </message>
 </context>
 </TS>

@@ -1699,5 +1699,125 @@
         <source>Calendar</source>
         <translation>לוח שנה</translation>
     </message>
+    <message>
+        <source>The migrations cannot be read now.</source>
+        <translation>לא אפשר למקרי שניותא השתא.</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>נפל</translation>
+    </message>
+    <message>
+        <source>Running</source>
+        <translation>רהיט</translation>
+    </message>
+    <message>
+        <source>Rolled back</source>
+        <translation>אתהדר</translation>
+    </message>
+    <message>
+        <source>Pushed</source>
+        <translation>אתדחי</translation>
+    </message>
+    <message>
+        <source>Waiting for its push</source>
+        <translation>מסכי לדחייה</translation>
+    </message>
+    <message>
+        <source>Off</source>
+        <translation>מטפי</translation>
+    </message>
+    <message>
+        <source>No remote</source>
+        <translation>לית רחיקא</translation>
+    </message>
+    <message>
+        <source>Nothing to push</source>
+        <translation>לית מידעם למדחי</translation>
+    </message>
+    <message>
+        <source>Read only: running and rolling back stay in the administration.</source>
+        <translation>קריאה בלחוד: הרצה והדרה קיימין בשולטנא.</translation>
+    </message>
+    <message>
+        <source>The migration tables do not exist yet: exp:upgrade --apply makes them.</source>
+        <translation>פתורי שניותא לא איתנהון עד כען: exp:upgrade --apply עביד להון.</translation>
+    </message>
+    <message>
+        <source>A run is active</source>
+        <translation>הרצה פעילה</translation>
+    </message>
+    <message>
+        <source>%purpose, by %user since %time</source>
+        <translation>%purpose, על ידי %user מן %time</translation>
+    </message>
+    <message>
+        <source>%n problems reading the migrations</source>
+        <translation>%n קשיין במקרי שניותא</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>מסכי</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>לית שניותא מסכיא.</translation>
+    </message>
+    <message>
+        <source>%n more in the administration</source>
+        <translation>%n יתיר בשולטנא</translation>
+    </message>
+    <message>
+        <source>Recorded, but the file is gone</source>
+        <translation>רשים, ברם קובצא אזל</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>הרצה בתרייתא</translation>
+    </message>
+    <message>
+        <source>No migration has run yet.</source>
+        <translation>לא הרצו שניותא עד כען.</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>הרצה</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>מצבא</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>שרי</translation>
+    </message>
+    <message>
+        <source>Finished</source>
+        <translation>שלים</translation>
+    </message>
+    <message>
+        <source>Run by</source>
+        <translation>הריץ</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>כתובא</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>תגא</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>דחייה</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>שניותא</translation>
+    </message>
+    <message>
+        <source>%n migrations need attention</source>
+        <translation>%n שניותא בעיין עיונא</translation>
+    </message>
 </context>
 </TS>

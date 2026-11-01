@@ -1699,5 +1699,125 @@
         <source>Calendar</source>
         <translation>Kalenda</translation>
     </message>
+    <message>
+        <source>The migrations cannot be read now.</source>
+        <translation>Womate ŋu axlẽ migration-wo fifia o.</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Mete o</translation>
+    </message>
+    <message>
+        <source>Running</source>
+        <translation>Ele dɔ wɔm</translation>
+    </message>
+    <message>
+        <source>Rolled back</source>
+        <translation>Wotrɔe yi megbe</translation>
+    </message>
+    <message>
+        <source>Pushed</source>
+        <translation>Wodoe ɖa</translation>
+    </message>
+    <message>
+        <source>Waiting for its push</source>
+        <translation>Ele lalam be woado ye ɖa</translation>
+    </message>
+    <message>
+        <source>Off</source>
+        <translation>Wotsii</translation>
+    </message>
+    <message>
+        <source>No remote</source>
+        <translation>Remote aɖeke meli o</translation>
+    </message>
+    <message>
+        <source>Nothing to push</source>
+        <translation>Naneke meli be woado ɖa o</translation>
+    </message>
+    <message>
+        <source>Read only: running and rolling back stay in the administration.</source>
+        <translation>Xexlẽ ko: dɔwɔwɔ kple tɔtrɔ yi megbe nɔa dzikpɔƒe.</translation>
+    </message>
+    <message>
+        <source>The migration tables do not exist yet: exp:upgrade --apply makes them.</source>
+        <translation>Migration tabletɔwo meli haɖe o: exp:upgrade --apply wɔa wo.</translation>
+    </message>
+    <message>
+        <source>A run is active</source>
+        <translation>Dɔwɔwɔ aɖe le edzi</translation>
+    </message>
+    <message>
+        <source>%purpose, by %user since %time</source>
+        <translation>%purpose, %user tso %time</translation>
+    </message>
+    <message>
+        <source>%n problems reading the migrations</source>
+        <translation>Kuxi %n le migration-wo xexlẽ me</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Le lalam</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>Migration aɖeke mele lalam o.</translation>
+    </message>
+    <message>
+        <source>%n more in the administration</source>
+        <translation>%n bubuwo le dzikpɔƒe</translation>
+    </message>
+    <message>
+        <source>Recorded, but the file is gone</source>
+        <translation>Woŋlɔe ɖi, gake faɛl la megali o</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>Dɔwɔwɔ mamlɛtɔ</translation>
+    </message>
+    <message>
+        <source>No migration has run yet.</source>
+        <translation>Migration aɖeke mewɔ dɔ haɖe o.</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Dɔwɔwɔ</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Nɔnɔme</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Edze egɔme</translation>
+    </message>
+    <message>
+        <source>Finished</source>
+        <translation>Wowu enu</translation>
+    </message>
+    <message>
+        <source>Run by</source>
+        <translation>Ame si wɔe</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>Ŋkɔ</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>Tag</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>Doɖa</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Migration-wo</translation>
+    </message>
+    <message>
+        <source>%n migrations need attention</source>
+        <translation>Migration %n hiã ŋkuléleɖeŋu</translation>
+    </message>
 </context>
 </TS>

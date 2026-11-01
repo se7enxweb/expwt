@@ -1699,5 +1699,125 @@
         <source>Calendar</source>
         <translation>Calendário</translation>
     </message>
+    <message>
+        <source>The migrations cannot be read now.</source>
+        <translation>Não é possível ler as migrações agora.</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Falhou</translation>
+    </message>
+    <message>
+        <source>Running</source>
+        <translation>Em execução</translation>
+    </message>
+    <message>
+        <source>Rolled back</source>
+        <translation>Revertida</translation>
+    </message>
+    <message>
+        <source>Pushed</source>
+        <translation>Enviada</translation>
+    </message>
+    <message>
+        <source>Waiting for its push</source>
+        <translation>Aguardando o envio</translation>
+    </message>
+    <message>
+        <source>Off</source>
+        <translation>Desativado</translation>
+    </message>
+    <message>
+        <source>No remote</source>
+        <translation>Sem remoto</translation>
+    </message>
+    <message>
+        <source>Nothing to push</source>
+        <translation>Nada para enviar</translation>
+    </message>
+    <message>
+        <source>Read only: running and rolling back stay in the administration.</source>
+        <translation>Somente leitura: a execução e a reversão ficam na administração.</translation>
+    </message>
+    <message>
+        <source>The migration tables do not exist yet: exp:upgrade --apply makes them.</source>
+        <translation>As tabelas de migração ainda não existem: exp:upgrade --apply as cria.</translation>
+    </message>
+    <message>
+        <source>A run is active</source>
+        <translation>Uma execução está ativa</translation>
+    </message>
+    <message>
+        <source>%purpose, by %user since %time</source>
+        <translation>%purpose, por %user desde %time</translation>
+    </message>
+    <message>
+        <source>%n problems reading the migrations</source>
+        <translation>%n problemas ao ler as migrações</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Pendentes</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>Nenhuma migração pendente.</translation>
+    </message>
+    <message>
+        <source>%n more in the administration</source>
+        <translation>Mais %n na administração</translation>
+    </message>
+    <message>
+        <source>Recorded, but the file is gone</source>
+        <translation>Registrada, mas o arquivo não existe mais</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>Última execução</translation>
+    </message>
+    <message>
+        <source>No migration has run yet.</source>
+        <translation>Nenhuma migração foi executada ainda.</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Execução</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Estado</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Iniciada</translation>
+    </message>
+    <message>
+        <source>Finished</source>
+        <translation>Concluída</translation>
+    </message>
+    <message>
+        <source>Run by</source>
+        <translation>Executada por</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>Legenda</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>Tag</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>Envio</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Migrações</translation>
+    </message>
+    <message>
+        <source>%n migrations need attention</source>
+        <translation>%n migrações precisam de atenção</translation>
+    </message>
 </context>
 </TS>

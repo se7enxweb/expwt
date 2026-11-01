@@ -960,3 +960,13 @@ button.wt-seo-item:hover { border-color: var(--a4-accent); }
 .wt-cal-kind.is-publish { background: var(--a4-ok-bg); color: var(--a4-ok); }
 .wt-cal-kind.is-takedown { background: var(--a4-bad-bg); color: var(--a4-bad); }
 .wt-cal-kind.is-variant, .wt-cal-kind.is-variant-end { background: var(--a4-info-bg); color: var(--a4-info); }
+
+/* the migrations (R4.5): an id, its source and description beside the link to the administration, wrapping on a
+   narrow panel; the facts of the last run as label and value */
+.wt-mig-list > li.wt-mig { flex-wrap: wrap; }
+.wt-mig-info { display: flex; flex-direction: column; gap: var(--a4-space-1); flex: 1 1 calc(var(--a4-space-7) * 3); min-inline-size: 0; overflow-wrap: anywhere; }
+.wt-mig-id { font-family: var(--a4-mono); font-size: var(--a4-text-s); overflow-wrap: anywhere; }
+.wt-mig-lock { display: flex; flex-wrap: wrap; align-items: center; gap: var(--a4-space-1) var(--a4-space-2); overflow-wrap: anywhere; }
+.wt-mig-run { display: grid; grid-template-columns: minmax(0, max-content) minmax(0, 1fr); gap: var(--a4-space-1) var(--a4-space-3); margin: 0 0 var(--a4-space-2); }
+.wt-mig-run dt { color: var(--a4-muted); font-size: var(--a4-text-s); }
+.wt-mig-run dd { margin: 0; min-inline-size: 0; overflow-wrap: anywhere; }

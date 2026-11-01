@@ -1699,5 +1699,125 @@
         <source>Calendar</source>
         <translation>Taqvim</translation>
     </message>
+    <message>
+        <source>The migrations cannot be read now.</source>
+        <translation>Migratsiyalarni hozir oʻqib boʻlmaydi.</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Muvaffaqiyatsiz</translation>
+    </message>
+    <message>
+        <source>Running</source>
+        <translation>Bajarilmoqda</translation>
+    </message>
+    <message>
+        <source>Rolled back</source>
+        <translation>Orqaga qaytarildi</translation>
+    </message>
+    <message>
+        <source>Pushed</source>
+        <translation>Yuborildi</translation>
+    </message>
+    <message>
+        <source>Waiting for its push</source>
+        <translation>Yuborilishini kutmoqda</translation>
+    </message>
+    <message>
+        <source>Off</source>
+        <translation>Oʻchiq</translation>
+    </message>
+    <message>
+        <source>No remote</source>
+        <translation>Masofaviy ombor yoʻq</translation>
+    </message>
+    <message>
+        <source>Nothing to push</source>
+        <translation>Yuboriladigan narsa yoʻq</translation>
+    </message>
+    <message>
+        <source>Read only: running and rolling back stay in the administration.</source>
+        <translation>Faqat oʻqish uchun: ishga tushirish va orqaga qaytarish boshqaruvda qoladi.</translation>
+    </message>
+    <message>
+        <source>The migration tables do not exist yet: exp:upgrade --apply makes them.</source>
+        <translation>Migratsiya jadvallari hali mavjud emas: exp:upgrade --apply ularni yaratadi.</translation>
+    </message>
+    <message>
+        <source>A run is active</source>
+        <translation>Ishga tushirish faol</translation>
+    </message>
+    <message>
+        <source>%purpose, by %user since %time</source>
+        <translation>%purpose, %user tomonidan, %time dan beri</translation>
+    </message>
+    <message>
+        <source>%n problems reading the migrations</source>
+        <translation>Migratsiyalarni oʻqishda %n ta muammo</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Kutilmoqda</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>Kutilayotgan migratsiya yoʻq.</translation>
+    </message>
+    <message>
+        <source>%n more in the administration</source>
+        <translation>Boshqaruvda yana %n ta</translation>
+    </message>
+    <message>
+        <source>Recorded, but the file is gone</source>
+        <translation>Qayd etilgan, lekin fayl yoʻq</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>Oxirgi ishga tushirish</translation>
+    </message>
+    <message>
+        <source>No migration has run yet.</source>
+        <translation>Hali birorta migratsiya ishga tushirilmagan.</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Ishga tushirish</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Holat</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Boshlangan</translation>
+    </message>
+    <message>
+        <source>Finished</source>
+        <translation>Tugagan</translation>
+    </message>
+    <message>
+        <source>Run by</source>
+        <translation>Ishga tushirgan</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>Sarlavha</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>Teg</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>Yuborish</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Migratsiyalar</translation>
+    </message>
+    <message>
+        <source>%n migrations need attention</source>
+        <translation>%n ta migratsiya eʼtibor talab qiladi</translation>
+    </message>
 </context>
 </TS>

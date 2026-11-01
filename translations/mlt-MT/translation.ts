@@ -1699,5 +1699,125 @@
         <source>Calendar</source>
         <translation>Kalendarju</translation>
     </message>
+    <message>
+        <source>The migrations cannot be read now.</source>
+        <translation>Il-migrazzjonijiet ma jistgħux jinqraw issa.</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Falla</translation>
+    </message>
+    <message>
+        <source>Running</source>
+        <translation>Għaddej</translation>
+    </message>
+    <message>
+        <source>Rolled back</source>
+        <translation>Imreġġa' lura</translation>
+    </message>
+    <message>
+        <source>Pushed</source>
+        <translation>Mibgħut</translation>
+    </message>
+    <message>
+        <source>Waiting for its push</source>
+        <translation>Qed jistenna l-push tiegħu</translation>
+    </message>
+    <message>
+        <source>Off</source>
+        <translation>Mitfi</translation>
+    </message>
+    <message>
+        <source>No remote</source>
+        <translation>L-ebda remote</translation>
+    </message>
+    <message>
+        <source>Nothing to push</source>
+        <translation>Xejn x'jintbagħat</translation>
+    </message>
+    <message>
+        <source>Read only: running and rolling back stay in the administration.</source>
+        <translation>Qari biss: it-tħaddim u t-treġġigħ lura jibqgħu fl-amministrazzjoni.</translation>
+    </message>
+    <message>
+        <source>The migration tables do not exist yet: exp:upgrade --apply makes them.</source>
+        <translation>It-tabelli tal-migrazzjonijiet għadhom ma jeżistux: exp:upgrade --apply joħloqhom.</translation>
+    </message>
+    <message>
+        <source>A run is active</source>
+        <translation>Hemm tħaddim attiv</translation>
+    </message>
+    <message>
+        <source>%purpose, by %user since %time</source>
+        <translation>%purpose, minn %user, mibdi %time</translation>
+    </message>
+    <message>
+        <source>%n problems reading the migrations</source>
+        <translation>%n problemi fil-qari tal-migrazzjonijiet</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Pendenti</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>L-ebda migrazzjoni mhi pendenti.</translation>
+    </message>
+    <message>
+        <source>%n more in the administration</source>
+        <translation>%n oħra fl-amministrazzjoni</translation>
+    </message>
+    <message>
+        <source>Recorded, but the file is gone</source>
+        <translation>Irreġistrata, iżda l-fajl m'għadux hemm</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>L-aħħar tħaddim</translation>
+    </message>
+    <message>
+        <source>No migration has run yet.</source>
+        <translation>L-ebda migrazzjoni għadha ma tħaddmet.</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Tħaddim</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Stat</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Beda</translation>
+    </message>
+    <message>
+        <source>Finished</source>
+        <translation>Spiċċa</translation>
+    </message>
+    <message>
+        <source>Run by</source>
+        <translation>Imħaddem minn</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>Titlu</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>Tikketta</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>Push</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Migrazzjonijiet</translation>
+    </message>
+    <message>
+        <source>%n migrations need attention</source>
+        <translation>%n migrazzjonijiet jeħtieġu attenzjoni</translation>
+    </message>
 </context>
 </TS>

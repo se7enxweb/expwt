@@ -1699,5 +1699,125 @@
         <source>Calendar</source>
         <translation>Օրացույց</translation>
     </message>
+    <message>
+        <source>The migrations cannot be read now.</source>
+        <translation>Միգրացիաները հիմա հնարավոր չէ կարդալ։</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Ձախողվեց</translation>
+    </message>
+    <message>
+        <source>Running</source>
+        <translation>Ընթացքում է</translation>
+    </message>
+    <message>
+        <source>Rolled back</source>
+        <translation>Հետ է գլորվել</translation>
+    </message>
+    <message>
+        <source>Pushed</source>
+        <translation>Ուղարկված է</translation>
+    </message>
+    <message>
+        <source>Waiting for its push</source>
+        <translation>Սպասում է ուղարկման</translation>
+    </message>
+    <message>
+        <source>Off</source>
+        <translation>Անջատված</translation>
+    </message>
+    <message>
+        <source>No remote</source>
+        <translation>Հեռակա պահոց չկա</translation>
+    </message>
+    <message>
+        <source>Nothing to push</source>
+        <translation>Ուղարկելու բան չկա</translation>
+    </message>
+    <message>
+        <source>Read only: running and rolling back stay in the administration.</source>
+        <translation>Միայն ընթերցում. գործարկումը և հետ գլորումը մնում են կառավարման մեջ։</translation>
+    </message>
+    <message>
+        <source>The migration tables do not exist yet: exp:upgrade --apply makes them.</source>
+        <translation>Միգրացիայի աղյուսակները դեռ գոյություն չունեն. դրանք ստեղծում է exp:upgrade --apply հրամանը։</translation>
+    </message>
+    <message>
+        <source>A run is active</source>
+        <translation>Գործարկում է ընթանում</translation>
+    </message>
+    <message>
+        <source>%purpose, by %user since %time</source>
+        <translation>%purpose, օգտատեր՝ %user, սկսած՝ %time</translation>
+    </message>
+    <message>
+        <source>%n problems reading the migrations</source>
+        <translation>Միգրացիաները կարդալիս՝ %n խնդիր</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Սպասվող</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>Սպասվող միգրացիա չկա։</translation>
+    </message>
+    <message>
+        <source>%n more in the administration</source>
+        <translation>Եվս %n՝ կառավարման մեջ</translation>
+    </message>
+    <message>
+        <source>Recorded, but the file is gone</source>
+        <translation>Գրանցված է, բայց ֆայլը չկա</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>Վերջին գործարկումը</translation>
+    </message>
+    <message>
+        <source>No migration has run yet.</source>
+        <translation>Դեռ ոչ մի միգրացիա չի գործարկվել։</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Գործարկում</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Վիճակ</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Սկսվել է</translation>
+    </message>
+    <message>
+        <source>Finished</source>
+        <translation>Ավարտվել է</translation>
+    </message>
+    <message>
+        <source>Run by</source>
+        <translation>Գործարկող</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>Անվանում</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>Պիտակ</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>Ուղարկում</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Միգրացիաներ</translation>
+    </message>
+    <message>
+        <source>%n migrations need attention</source>
+        <translation>%n միգրացիա ուշադրության կարիք ունի</translation>
+    </message>
 </context>
 </TS>

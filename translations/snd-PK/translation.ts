@@ -1699,5 +1699,125 @@
         <source>Calendar</source>
         <translation>ڪئلينڊر</translation>
     </message>
+    <message>
+        <source>The migrations cannot be read now.</source>
+        <translation>مائگريشنون هن وقت پڙهي نٿيون سگهجن.</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>ناڪام</translation>
+    </message>
+    <message>
+        <source>Running</source>
+        <translation>هلي رهيو آهي</translation>
+    </message>
+    <message>
+        <source>Rolled back</source>
+        <translation>واپس ورتو ويو</translation>
+    </message>
+    <message>
+        <source>Pushed</source>
+        <translation>موڪليو ويو</translation>
+    </message>
+    <message>
+        <source>Waiting for its push</source>
+        <translation>موڪلڻ جو انتظار</translation>
+    </message>
+    <message>
+        <source>Off</source>
+        <translation>بند</translation>
+    </message>
+    <message>
+        <source>No remote</source>
+        <translation>ڪو ريموٽ ناهي</translation>
+    </message>
+    <message>
+        <source>Nothing to push</source>
+        <translation>موڪلڻ لاءِ ڪجهه ناهي</translation>
+    </message>
+    <message>
+        <source>Read only: running and rolling back stay in the administration.</source>
+        <translation>صرف پڙهڻ لاءِ: هلائڻ ۽ واپس وٺڻ انتظاميه ۾ ٿئي ٿو.</translation>
+    </message>
+    <message>
+        <source>The migration tables do not exist yet: exp:upgrade --apply makes them.</source>
+        <translation>مائگريشن جدولون اڃا موجود ناهن: exp:upgrade --apply انهن کي ٺاهي ٿو.</translation>
+    </message>
+    <message>
+        <source>A run is active</source>
+        <translation>هڪ رن جاري آهي</translation>
+    </message>
+    <message>
+        <source>%purpose, by %user since %time</source>
+        <translation>%purpose، %user طرفان %time کان</translation>
+    </message>
+    <message>
+        <source>%n problems reading the migrations</source>
+        <translation>مائگريشنون پڙهڻ ۾ %n مسئلا</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>التوا ۾</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>ڪا به مائگريشن التوا ۾ ناهي.</translation>
+    </message>
+    <message>
+        <source>%n more in the administration</source>
+        <translation>انتظاميه ۾ %n وڌيڪ</translation>
+    </message>
+    <message>
+        <source>Recorded, but the file is gone</source>
+        <translation>درج ٿيل، پر فائل موجود ناهي</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>آخري رن</translation>
+    </message>
+    <message>
+        <source>No migration has run yet.</source>
+        <translation>اڃا ڪا به مائگريشن نه هلي آهي.</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>رن</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>حالت</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>شروع</translation>
+    </message>
+    <message>
+        <source>Finished</source>
+        <translation>مڪمل</translation>
+    </message>
+    <message>
+        <source>Run by</source>
+        <translation>هلائيندڙ</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>عنوان</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>ٽيگ</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>پُش</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>مائگريشنون</translation>
+    </message>
+    <message>
+        <source>%n migrations need attention</source>
+        <translation>%n مائگريشنن کي ڌيان جي ضرورت آهي</translation>
+    </message>
 </context>
 </TS>

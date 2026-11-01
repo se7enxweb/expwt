@@ -1699,5 +1699,125 @@
         <source>Calendar</source>
         <translation>Kalendari</translation>
     </message>
+    <message>
+        <source>The migrations cannot be read now.</source>
+        <translation>Ntibishoboka gusoma iyimurwa ubu.</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Byanze</translation>
+    </message>
+    <message>
+        <source>Running</source>
+        <translation>Biri gukora</translation>
+    </message>
+    <message>
+        <source>Rolled back</source>
+        <translation>Byasubijwe inyuma</translation>
+    </message>
+    <message>
+        <source>Pushed</source>
+        <translation>Byoherejwe</translation>
+    </message>
+    <message>
+        <source>Waiting for its push</source>
+        <translation>Bitegereje koherezwa</translation>
+    </message>
+    <message>
+        <source>Off</source>
+        <translation>Bizimije</translation>
+    </message>
+    <message>
+        <source>No remote</source>
+        <translation>Nta remote</translation>
+    </message>
+    <message>
+        <source>Nothing to push</source>
+        <translation>Nta cyo kohereza</translation>
+    </message>
+    <message>
+        <source>Read only: running and rolling back stay in the administration.</source>
+        <translation>Gusoma gusa: gukoresha no gusubiza inyuma biguma mu buyobozi.</translation>
+    </message>
+    <message>
+        <source>The migration tables do not exist yet: exp:upgrade --apply makes them.</source>
+        <translation>Imbonerahamwe z'iyimurwa ntiziraboneka: exp:upgrade --apply ni yo izikora.</translation>
+    </message>
+    <message>
+        <source>A run is active</source>
+        <translation>Hari ikoreshwa riri gukora</translation>
+    </message>
+    <message>
+        <source>%purpose, by %user since %time</source>
+        <translation>%purpose, na %user kuva %time</translation>
+    </message>
+    <message>
+        <source>%n problems reading the migrations</source>
+        <translation>Ibibazo %n mu gusoma iyimurwa</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Bitegereje</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>Nta yimurwa ritegereje.</translation>
+    </message>
+    <message>
+        <source>%n more in the administration</source>
+        <translation>Andi %n mu buyobozi</translation>
+    </message>
+    <message>
+        <source>Recorded, but the file is gone</source>
+        <translation>Byanditswe, ariko dosiye ntikiriho</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>Ikoreshwa riheruka</translation>
+    </message>
+    <message>
+        <source>No migration has run yet.</source>
+        <translation>Nta yimurwa ryari ryakoreshwa.</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Ikoreshwa</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Imiterere</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Byatangiye</translation>
+    </message>
+    <message>
+        <source>Finished</source>
+        <translation>Byarangiye</translation>
+    </message>
+    <message>
+        <source>Run by</source>
+        <translation>Byakozwe na</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>Umutwe</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>Ikirango</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>Kohereza</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Iyimurwa</translation>
+    </message>
+    <message>
+        <source>%n migrations need attention</source>
+        <translation>Iyimurwa %n rikeneye kwitabwaho</translation>
+    </message>
 </context>
 </TS>

@@ -1699,5 +1699,125 @@
         <source>Calendar</source>
         <translation>Kalenda</translation>
     </message>
+    <message>
+        <source>The migrations cannot be read now.</source>
+        <translation>Mĩthamĩo ndĩngĩthomeka rĩu.</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Nĩ yaremwo</translation>
+    </message>
+    <message>
+        <source>Running</source>
+        <translation>Nĩ ĩrathiĩ</translation>
+    </message>
+    <message>
+        <source>Rolled back</source>
+        <translation>Nĩ yacokio</translation>
+    </message>
+    <message>
+        <source>Pushed</source>
+        <translation>Nĩ yatũmwo</translation>
+    </message>
+    <message>
+        <source>Waiting for its push</source>
+        <translation>Ĩrĩetereire gũtũmwo</translation>
+    </message>
+    <message>
+        <source>Off</source>
+        <translation>Nĩ ĩthimĩtwo</translation>
+    </message>
+    <message>
+        <source>No remote</source>
+        <translation>Gũtirĩ remote</translation>
+    </message>
+    <message>
+        <source>Nothing to push</source>
+        <translation>Gũtirĩ kĩa gũtũma</translation>
+    </message>
+    <message>
+        <source>Read only: running and rolling back stay in the administration.</source>
+        <translation>Gũthoma tu: gũtwara na gũcokia nĩ gũtigaraga ũrũgamĩrĩri-inĩ.</translation>
+    </message>
+    <message>
+        <source>The migration tables do not exist yet: exp:upgrade --apply makes them.</source>
+        <translation>Metha cia mĩthamĩo itirĩ ho rĩu: exp:upgrade --apply nĩyo ĩciumbaga.</translation>
+    </message>
+    <message>
+        <source>A run is active</source>
+        <translation>Mũthiĩ nĩ ũrathiĩ</translation>
+    </message>
+    <message>
+        <source>%purpose, by %user since %time</source>
+        <translation>%purpose, nĩ %user kuuma %time</translation>
+    </message>
+    <message>
+        <source>%n problems reading the migrations</source>
+        <translation>Mathĩĩna %n gũthoma mĩthamĩo</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Ĩrĩetereire</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>Gũtirĩ mũthamĩo ũrĩetereire.</translation>
+    </message>
+    <message>
+        <source>%n more in the administration</source>
+        <translation>%n ingĩ ũrũgamĩrĩri-inĩ</translation>
+    </message>
+    <message>
+        <source>Recorded, but the file is gone</source>
+        <translation>Nĩ yandĩkĩtwo, no faili ndĩrĩ ho</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>Mũthiĩ wa mũthia</translation>
+    </message>
+    <message>
+        <source>No migration has run yet.</source>
+        <translation>Gũtirĩ mũthamĩo wathiĩ o na rĩmwe.</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Mũthiĩ</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Ũrĩa ĩtariĩ</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Yambĩrĩirio</translation>
+    </message>
+    <message>
+        <source>Finished</source>
+        <translation>Nĩ ndarĩkia</translation>
+    </message>
+    <message>
+        <source>Run by</source>
+        <translation>Yathiĩrĩirio nĩ</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>Rĩĩtwa</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>Tag</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>Gũtũma</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Mĩthamĩo</translation>
+    </message>
+    <message>
+        <source>%n migrations need attention</source>
+        <translation>Mĩthamĩo %n nĩ ĩbatairio kũmenyererwo</translation>
+    </message>
 </context>
 </TS>

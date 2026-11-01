@@ -215,6 +215,8 @@ class expwtApi
                 return $g->calendarTakeDown( self::ids( $input, array( 'nodeId' ) ) + self::strings( $input, array( 'at' ) ) );
             case 'calendar.variant':
                 return $g->calendarVariant( self::ids( $input, array( 'conditionId' ) ) + self::strings( $input, array( 'which', 'at' ) ) );
+            case 'migrations.load':
+                return $g->migrations();
             case 'page.elsewhere':
                 return $g->elsewhere( self::ids( $input, array( 'nodeId' ) ) );
             case 'seo.check':
@@ -259,6 +261,9 @@ class expwtApi
             // the comments of the page (E4): their number and how many wait for moderation, the badge on the Page
             // panel's tab; null without expwt/edit or comments
             'comments' => $g->commentsOffer( self::ids( $input, array( 'nodeId' ) ) ),
+            // the Migrations panel (R4.5): with the kernel's migration/read, how many migrations need attention (the
+            // badge on its tab); null without the policy or without the migrations in the kernel (no panel)
+            'migrations' => $g->migrationsOffer(),
             // what other extensions add and this user gets (decision 32): panels, highlights, search providers, and
             // which of their actions write
             'registry' => $g->registryForBoot(),

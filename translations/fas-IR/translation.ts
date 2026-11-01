@@ -1699,5 +1699,125 @@
         <source>Calendar</source>
         <translation>تقویم</translation>
     </message>
+    <message>
+        <source>The migrations cannot be read now.</source>
+        <translation>مهاجرت‌ها اکنون قابل خواندن نیستند.</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>ناموفق</translation>
+    </message>
+    <message>
+        <source>Running</source>
+        <translation>در حال اجرا</translation>
+    </message>
+    <message>
+        <source>Rolled back</source>
+        <translation>برگردانده شد</translation>
+    </message>
+    <message>
+        <source>Pushed</source>
+        <translation>ارسال شد</translation>
+    </message>
+    <message>
+        <source>Waiting for its push</source>
+        <translation>در انتظار ارسال</translation>
+    </message>
+    <message>
+        <source>Off</source>
+        <translation>خاموش</translation>
+    </message>
+    <message>
+        <source>No remote</source>
+        <translation>بدون مخزن راه دور</translation>
+    </message>
+    <message>
+        <source>Nothing to push</source>
+        <translation>چیزی برای ارسال نیست</translation>
+    </message>
+    <message>
+        <source>Read only: running and rolling back stay in the administration.</source>
+        <translation>فقط خواندنی: اجرا و برگرداندن در مدیریت انجام می‌شود.</translation>
+    </message>
+    <message>
+        <source>The migration tables do not exist yet: exp:upgrade --apply makes them.</source>
+        <translation>جدول‌های مهاجرت هنوز وجود ندارند: exp:upgrade --apply آن‌ها را می‌سازد.</translation>
+    </message>
+    <message>
+        <source>A run is active</source>
+        <translation>یک اجرا فعال است</translation>
+    </message>
+    <message>
+        <source>%purpose, by %user since %time</source>
+        <translation>%purpose، توسط %user از %time</translation>
+    </message>
+    <message>
+        <source>%n problems reading the migrations</source>
+        <translation>%n مشکل در خواندن مهاجرت‌ها</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>در انتظار</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>هیچ مهاجرتی در انتظار نیست.</translation>
+    </message>
+    <message>
+        <source>%n more in the administration</source>
+        <translation>%n مورد دیگر در مدیریت</translation>
+    </message>
+    <message>
+        <source>Recorded, but the file is gone</source>
+        <translation>ثبت شده، اما فایل وجود ندارد</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>آخرین اجرا</translation>
+    </message>
+    <message>
+        <source>No migration has run yet.</source>
+        <translation>هنوز هیچ مهاجرتی اجرا نشده است.</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>اجرا</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>وضعیت</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>شروع</translation>
+    </message>
+    <message>
+        <source>Finished</source>
+        <translation>پایان</translation>
+    </message>
+    <message>
+        <source>Run by</source>
+        <translation>اجرا توسط</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>عنوان</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>برچسب</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>ارسال</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>مهاجرت‌ها</translation>
+    </message>
+    <message>
+        <source>%n migrations need attention</source>
+        <translation>%n مهاجرت نیاز به توجه دارد</translation>
+    </message>
 </context>
 </TS>

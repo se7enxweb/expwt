@@ -1699,5 +1699,125 @@
         <source>Calendar</source>
         <translation>Kalendář</translation>
     </message>
+    <message>
+        <source>The migrations cannot be read now.</source>
+        <translation>Migrace teď nelze načíst.</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>Selhalo</translation>
+    </message>
+    <message>
+        <source>Running</source>
+        <translation>Probíhá</translation>
+    </message>
+    <message>
+        <source>Rolled back</source>
+        <translation>Vráceno</translation>
+    </message>
+    <message>
+        <source>Pushed</source>
+        <translation>Odesláno</translation>
+    </message>
+    <message>
+        <source>Waiting for its push</source>
+        <translation>Čeká na odeslání</translation>
+    </message>
+    <message>
+        <source>Off</source>
+        <translation>Vypnuto</translation>
+    </message>
+    <message>
+        <source>No remote</source>
+        <translation>Žádný vzdálený repozitář</translation>
+    </message>
+    <message>
+        <source>Nothing to push</source>
+        <translation>Není co odeslat</translation>
+    </message>
+    <message>
+        <source>Read only: running and rolling back stay in the administration.</source>
+        <translation>Pouze pro čtení: spouštění a vracení zůstávají v administraci.</translation>
+    </message>
+    <message>
+        <source>The migration tables do not exist yet: exp:upgrade --apply makes them.</source>
+        <translation>Tabulky migrací zatím neexistují: exp:upgrade --apply je vytvoří.</translation>
+    </message>
+    <message>
+        <source>A run is active</source>
+        <translation>Probíhá běh</translation>
+    </message>
+    <message>
+        <source>%purpose, by %user since %time</source>
+        <translation>%purpose, spustil %user od %time</translation>
+    </message>
+    <message>
+        <source>%n problems reading the migrations</source>
+        <translation>Problémy při čtení migrací: %n</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>Čeká</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>Žádná migrace nečeká.</translation>
+    </message>
+    <message>
+        <source>%n more in the administration</source>
+        <translation>Dalších %n v administraci</translation>
+    </message>
+    <message>
+        <source>Recorded, but the file is gone</source>
+        <translation>Zaznamenáno, ale soubor chybí</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>Poslední běh</translation>
+    </message>
+    <message>
+        <source>No migration has run yet.</source>
+        <translation>Zatím neproběhla žádná migrace.</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>Běh</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>Stav</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>Zahájeno</translation>
+    </message>
+    <message>
+        <source>Finished</source>
+        <translation>Dokončeno</translation>
+    </message>
+    <message>
+        <source>Run by</source>
+        <translation>Spustil</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>Popisek</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>Značka</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>Odeslání</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>Migrace</translation>
+    </message>
+    <message>
+        <source>%n migrations need attention</source>
+        <translation>Migrace vyžadující pozornost: %n</translation>
+    </message>
 </context>
 </TS>

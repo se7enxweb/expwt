@@ -1699,5 +1699,125 @@
         <source>Calendar</source>
         <translation>کیلنڈر</translation>
     </message>
+    <message>
+        <source>The migrations cannot be read now.</source>
+        <translation>مایگریشن ہیٚکہٕ نہٕ وُنہِ پٔرِتھ۔</translation>
+    </message>
+    <message>
+        <source>Failed</source>
+        <translation>ناکام</translation>
+    </message>
+    <message>
+        <source>Running</source>
+        <translation>چلان</translation>
+    </message>
+    <message>
+        <source>Rolled back</source>
+        <translation>واپس پھیرنہٕ آمُت</translation>
+    </message>
+    <message>
+        <source>Pushed</source>
+        <translation>پُش کوٚرمُت</translation>
+    </message>
+    <message>
+        <source>Waiting for its push</source>
+        <translation>پُشُک انتظار</translation>
+    </message>
+    <message>
+        <source>Off</source>
+        <translation>بند</translation>
+    </message>
+    <message>
+        <source>No remote</source>
+        <translation>کانٛہہ ریموٹ نہٕ</translation>
+    </message>
+    <message>
+        <source>Nothing to push</source>
+        <translation>پُش کرنہٕ خٲطرٕ کینٛہہ نہٕ</translation>
+    </message>
+    <message>
+        <source>Read only: running and rolling back stay in the administration.</source>
+        <translation>صرف پرنہٕ خٲطرٕ: چلاوُن تہٕ واپس پھیرُن چھُ انتظامیہ منٛز۔</translation>
+    </message>
+    <message>
+        <source>The migration tables do not exist yet: exp:upgrade --apply makes them.</source>
+        <translation>مایگریشن ٹیبل چھِ نہٕ وُنہِ: exp:upgrade --apply چھُ یِم بناوان۔</translation>
+    </message>
+    <message>
+        <source>A run is active</source>
+        <translation>اکھ رَن چھُ چلان</translation>
+    </message>
+    <message>
+        <source>%purpose, by %user since %time</source>
+        <translation>%purpose، %user سٕندِ زٔرِیعہ %time پیٹھٕ</translation>
+    </message>
+    <message>
+        <source>%n problems reading the migrations</source>
+        <translation>مایگریشن پرنس منٛز %n مسلہٕ</translation>
+    </message>
+    <message>
+        <source>Pending</source>
+        <translation>باقی</translation>
+    </message>
+    <message>
+        <source>No migration is pending.</source>
+        <translation>کانٛہہ مایگریشن چھُ نہٕ باقی۔</translation>
+    </message>
+    <message>
+        <source>%n more in the administration</source>
+        <translation>انتظامیہ منٛز %n بیٚیہِ</translation>
+    </message>
+    <message>
+        <source>Recorded, but the file is gone</source>
+        <translation>درج، مگر فائل چھےٚ نہٕ</translation>
+    </message>
+    <message>
+        <source>Last run</source>
+        <translation>آخری رَن</translation>
+    </message>
+    <message>
+        <source>No migration has run yet.</source>
+        <translation>وُنہِ چھُ نہٕ کانٛہہ مایگریشن چلیومُت۔</translation>
+    </message>
+    <message>
+        <source>Run</source>
+        <translation>رَن</translation>
+    </message>
+    <message>
+        <source>State</source>
+        <translation>حالت</translation>
+    </message>
+    <message>
+        <source>Started</source>
+        <translation>شروٗع</translation>
+    </message>
+    <message>
+        <source>Finished</source>
+        <translation>مُکمل</translation>
+    </message>
+    <message>
+        <source>Run by</source>
+        <translation>چلاوَن وول</translation>
+    </message>
+    <message>
+        <source>Caption</source>
+        <translation>عنوان</translation>
+    </message>
+    <message>
+        <source>Tag</source>
+        <translation>ٹیگ</translation>
+    </message>
+    <message>
+        <source>Push</source>
+        <translation>پُش</translation>
+    </message>
+    <message>
+        <source>Migrations</source>
+        <translation>مایگریشن</translation>
+    </message>
+    <message>
+        <source>%n migrations need attention</source>
+        <translation>%n مایگریشنن چھےٚ توجہٕ ہٕنز ضرورت</translation>
+    </message>
 </context>
 </TS>
