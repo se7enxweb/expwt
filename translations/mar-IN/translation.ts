@@ -2335,6 +2335,90 @@
         <source>Which link?</source>
         <translation>कोणती लिंक?</translation>
     </message>
+    <message>
+        <source>Review hold</source>
+        <translation>पुनरावलोकन रोख</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>पुनरावलोकनासाठी रोखले आहे</translation>
+    </message>
+    <message>
+        <source>Held by %name since %time.</source>
+        <translation>%name यांनी %time पासून रोखले आहे.</translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation>कारण: %reason</translation>
+    </message>
+    <message>
+        <source>You may still edit it, but publishing waits until it is released, unless your role allows it.</source>
+        <translation>तुम्ही अजूनही ते संपादित करू शकता, पण तुमची भूमिका परवानगी देत नसल्यास, ते मुक्त होईपर्यंत प्रकाशन थांबेल.</translation>
+    </message>
+    <message>
+        <source>Nobody edits or publishes this page until a reviewer releases it.</source>
+        <translation>पुनरावलोकक ते मुक्त करेपर्यंत कोणीही हे पान संपादित किंवा प्रकाशित करत नाही.</translation>
+    </message>
+    <message>
+        <source>Review holds need the object state group review_hold: run the upgrade step 6.0.15-review-hold (Exponential 6.0.15 or later).</source>
+        <translation>पुनरावलोकन रोखासाठी ऑब्जेक्ट स्थिती गट review_hold आवश्यक आहे: अपग्रेड पायरी 6.0.15-review-hold चालवा (Exponential 6.0.15 किंवा नंतरची).</translation>
+    </message>
+    <message>
+        <source>Why is it held? (kept in the audit)</source>
+        <translation>ते का रोखले आहे? (ऑडिटमध्ये ठेवले जाते)</translation>
+    </message>
+    <message>
+        <source>Note for the audit (optional)</source>
+        <translation>ऑडिटसाठी टीप (पर्यायी)</translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation>पुनरावलोकनासाठी रोखा</translation>
+    </message>
+    <message>
+        <source>Release</source>
+        <translation>मुक्त करा</translation>
+    </message>
+    <message>
+        <source>Say why the page is held.</source>
+        <translation>पान का रोखले आहे ते सांगा.</translation>
+    </message>
+    <message>
+        <source>The page is held for review.</source>
+        <translation>पान पुनरावलोकनासाठी रोखले आहे.</translation>
+    </message>
+    <message>
+        <source>The hold is released.</source>
+        <translation>रोख मुक्त केला आहे.</translation>
+    </message>
+    <message>
+        <source>This page is held for review. It can be published once a reviewer releases it.</source>
+        <translation>हे पान पुनरावलोकनासाठी रोखले आहे. पुनरावलोककाने ते मुक्त केल्यावर ते प्रकाशित करता येईल.</translation>
+    </message>
+    <message>
+        <source>Review holds need Exponential 6.0.15 or later, with its upgrade step run.</source>
+        <translation>पुनरावलोकन रोखासाठी Exponential 6.0.15 किंवा नंतरची, तिची अपग्रेड पायरी चालवलेली असणे आवश्यक आहे.</translation>
+    </message>
+    <message>
+        <source>This page is already held for review.</source>
+        <translation>हे पान आधीच पुनरावलोकनासाठी रोखले आहे.</translation>
+    </message>
+    <message>
+        <source>This page is not held.</source>
+        <translation>हे पान रोखलेले नाही.</translation>
+    </message>
+    <message>
+        <source>You may not hold this page.</source>
+        <translation>तुम्हाला हे पान रोखण्याची परवानगी नाही.</translation>
+    </message>
+    <message>
+        <source>You may not release this page.</source>
+        <translation>तुम्हाला हे पान मुक्त करण्याची परवानगी नाही.</translation>
+    </message>
+    <message>
+        <source>The hold was not changed. Try again.</source>
+        <translation>रोख बदलला नाही. पुन्हा प्रयत्न करा.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

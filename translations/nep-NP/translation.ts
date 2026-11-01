@@ -2335,6 +2335,90 @@
         <source>Which link?</source>
         <translation>कुन लिङ्क?</translation>
     </message>
+    <message>
+        <source>Review hold</source>
+        <translation>समीक्षा रोक</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>समीक्षाका लागि रोकिएको</translation>
+    </message>
+    <message>
+        <source>Held by %name since %time.</source>
+        <translation>%name ले %time देखि रोकेको।</translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation>कारण: %reason</translation>
+    </message>
+    <message>
+        <source>You may still edit it, but publishing waits until it is released, unless your role allows it.</source>
+        <translation>तपाईं अझै सम्पादन गर्न सक्नुहुन्छ, तर तपाईंको भूमिकाले अनुमति नदिएसम्म रोक हटाइएपछि मात्र प्रकाशित हुन्छ।</translation>
+    </message>
+    <message>
+        <source>Nobody edits or publishes this page until a reviewer releases it.</source>
+        <translation>समीक्षकले रोक नहटाएसम्म कसैले पनि यो पृष्ठ सम्पादन वा प्रकाशित गर्दैन।</translation>
+    </message>
+    <message>
+        <source>Review holds need the object state group review_hold: run the upgrade step 6.0.15-review-hold (Exponential 6.0.15 or later).</source>
+        <translation>समीक्षा रोकका लागि review_hold वस्तु अवस्था समूह चाहिन्छ: अपग्रेड चरण 6.0.15-review-hold चलाउनुहोस् (Exponential 6.0.15 वा पछिको)।</translation>
+    </message>
+    <message>
+        <source>Why is it held? (kept in the audit)</source>
+        <translation>किन रोकिएको हो? (अडिटमा राखिन्छ)</translation>
+    </message>
+    <message>
+        <source>Note for the audit (optional)</source>
+        <translation>अडिटका लागि टिप्पणी (वैकल्पिक)</translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation>समीक्षाका लागि रोक्नुहोस्</translation>
+    </message>
+    <message>
+        <source>Release</source>
+        <translation>रोक हटाउनुहोस्</translation>
+    </message>
+    <message>
+        <source>Say why the page is held.</source>
+        <translation>पृष्ठ किन रोकिएको हो, लेख्नुहोस्।</translation>
+    </message>
+    <message>
+        <source>The page is held for review.</source>
+        <translation>पृष्ठ समीक्षाका लागि रोकिएको छ।</translation>
+    </message>
+    <message>
+        <source>The hold is released.</source>
+        <translation>रोक हटाइयो।</translation>
+    </message>
+    <message>
+        <source>This page is held for review. It can be published once a reviewer releases it.</source>
+        <translation>यो पृष्ठ समीक्षाका लागि रोकिएको छ। समीक्षकले रोक हटाएपछि यसलाई प्रकाशित गर्न सकिन्छ।</translation>
+    </message>
+    <message>
+        <source>Review holds need Exponential 6.0.15 or later, with its upgrade step run.</source>
+        <translation>समीक्षा रोकका लागि Exponential 6.0.15 वा पछिको संस्करण र यसको अपग्रेड चरण चलाइएको हुनुपर्छ।</translation>
+    </message>
+    <message>
+        <source>This page is already held for review.</source>
+        <translation>यो पृष्ठ पहिल्यै समीक्षाका लागि रोकिएको छ।</translation>
+    </message>
+    <message>
+        <source>This page is not held.</source>
+        <translation>यो पृष्ठ रोकिएको छैन।</translation>
+    </message>
+    <message>
+        <source>You may not hold this page.</source>
+        <translation>तपाईंलाई यो पृष्ठ रोक्ने अनुमति छैन।</translation>
+    </message>
+    <message>
+        <source>You may not release this page.</source>
+        <translation>तपाईंलाई यो पृष्ठको रोक हटाउने अनुमति छैन।</translation>
+    </message>
+    <message>
+        <source>The hold was not changed. Try again.</source>
+        <translation>रोक परिवर्तन भएन। फेरि प्रयास गर्नुहोस्।</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

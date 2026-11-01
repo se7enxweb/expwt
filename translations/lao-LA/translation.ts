@@ -2335,6 +2335,90 @@
         <source>Which link?</source>
         <translation>ລິ້ງໃດ?</translation>
     </message>
+    <message>
+        <source>Review hold</source>
+        <translation>ການລະງັບເພື່ອກວດທານ</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>ຖືກລະງັບໄວ້ເພື່ອກວດທານ</translation>
+    </message>
+    <message>
+        <source>Held by %name since %time.</source>
+        <translation>ລະງັບໂດຍ %name ຕັ້ງແຕ່ %time.</translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation>ເຫດຜົນ: %reason</translation>
+    </message>
+    <message>
+        <source>You may still edit it, but publishing waits until it is released, unless your role allows it.</source>
+        <translation>ທ່ານຍັງສາມາດແກ້ໄຂໄດ້ ແຕ່ການເຜີຍແຜ່ຈະລໍຖ້າຈົນກວ່າຈະຖືກປົດ ເວັ້ນເສຍແຕ່ບົດບາດຂອງທ່ານອະນຸຍາດ.</translation>
+    </message>
+    <message>
+        <source>Nobody edits or publishes this page until a reviewer releases it.</source>
+        <translation>ບໍ່ມີໃຜແກ້ໄຂ ຫຼື ເຜີຍແຜ່ໜ້ານີ້ໄດ້ ຈົນກວ່າຜູ້ກວດທານຈະປົດມັນ.</translation>
+    </message>
+    <message>
+        <source>Review holds need the object state group review_hold: run the upgrade step 6.0.15-review-hold (Exponential 6.0.15 or later).</source>
+        <translation>ການລະງັບເພື່ອກວດທານຕ້ອງການກຸ່ມສະຖານະວັດຖຸ review_hold: ໃຫ້ແລ່ນຂັ້ນຕອນອັບເກຣດ 6.0.15-review-hold (Exponential 6.0.15 ຫຼື ໃໝ່ກວ່າ).</translation>
+    </message>
+    <message>
+        <source>Why is it held? (kept in the audit)</source>
+        <translation>ເປັນຫຍັງຈຶ່ງຖືກລະງັບ? (ເກັບໄວ້ໃນການກວດສອບ)</translation>
+    </message>
+    <message>
+        <source>Note for the audit (optional)</source>
+        <translation>ບັນທຶກສຳລັບການກວດສອບ (ບໍ່ບັງຄັບ)</translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation>ລະງັບເພື່ອກວດທານ</translation>
+    </message>
+    <message>
+        <source>Release</source>
+        <translation>ປົດ</translation>
+    </message>
+    <message>
+        <source>Say why the page is held.</source>
+        <translation>ບອກເຫດຜົນທີ່ໜ້ານີ້ຖືກລະງັບ.</translation>
+    </message>
+    <message>
+        <source>The page is held for review.</source>
+        <translation>ໜ້ານີ້ຖືກລະງັບໄວ້ເພື່ອກວດທານແລ້ວ.</translation>
+    </message>
+    <message>
+        <source>The hold is released.</source>
+        <translation>ການລະງັບຖືກປົດແລ້ວ.</translation>
+    </message>
+    <message>
+        <source>This page is held for review. It can be published once a reviewer releases it.</source>
+        <translation>ໜ້ານີ້ຖືກລະງັບໄວ້ເພື່ອກວດທານ. ສາມາດເຜີຍແຜ່ໄດ້ເມື່ອຜູ້ກວດທານປົດມັນ.</translation>
+    </message>
+    <message>
+        <source>Review holds need Exponential 6.0.15 or later, with its upgrade step run.</source>
+        <translation>ການລະງັບເພື່ອກວດທານຕ້ອງການ Exponential 6.0.15 ຫຼື ໃໝ່ກວ່າ ພ້ອມແລ່ນຂັ້ນຕອນອັບເກຣດຂອງມັນແລ້ວ.</translation>
+    </message>
+    <message>
+        <source>This page is already held for review.</source>
+        <translation>ໜ້ານີ້ຖືກລະງັບໄວ້ເພື່ອກວດທານຢູ່ແລ້ວ.</translation>
+    </message>
+    <message>
+        <source>This page is not held.</source>
+        <translation>ໜ້ານີ້ບໍ່ໄດ້ຖືກລະງັບ.</translation>
+    </message>
+    <message>
+        <source>You may not hold this page.</source>
+        <translation>ທ່ານບໍ່ສາມາດລະງັບໜ້ານີ້ໄດ້.</translation>
+    </message>
+    <message>
+        <source>You may not release this page.</source>
+        <translation>ທ່ານບໍ່ສາມາດປົດໜ້ານີ້ໄດ້.</translation>
+    </message>
+    <message>
+        <source>The hold was not changed. Try again.</source>
+        <translation>ການລະງັບບໍ່ໄດ້ຖືກປ່ຽນ. ກະລຸນາລອງໃໝ່.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

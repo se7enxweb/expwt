@@ -2335,6 +2335,90 @@
         <source>Which link?</source>
         <translation>Xiriirkee?</translation>
     </message>
+    <message>
+        <source>Review hold</source>
+        <translation>Joojinta dib-u-eegista</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>Loo joojiyay dib-u-eegis</translation>
+    </message>
+    <message>
+        <source>Held by %name since %time.</source>
+        <translation>Waxaa joojiyay %name tan iyo %time.</translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation>Sababta: %reason</translation>
+    </message>
+    <message>
+        <source>You may still edit it, but publishing waits until it is released, unless your role allows it.</source>
+        <translation>Weli waad wax ka beddeli kartaa, laakiin daabacaaddu way sugaysaa ilaa laga sii daayo, haddii doorkaagu aanu oggolaan mooyee.</translation>
+    </message>
+    <message>
+        <source>Nobody edits or publishes this page until a reviewer releases it.</source>
+        <translation>Qofna wax kama beddelo mana daabaco boggan ilaa dib-u-eegaha uu sii daayo.</translation>
+    </message>
+    <message>
+        <source>Review holds need the object state group review_hold: run the upgrade step 6.0.15-review-hold (Exponential 6.0.15 or later).</source>
+        <translation>Joojinta dib-u-eegistu waxay u baahan tahay kooxda xaaladda shayga review_hold: socodsii tallaabada cusboonaysiinta 6.0.15-review-hold (Exponential 6.0.15 ama ka dambe).</translation>
+    </message>
+    <message>
+        <source>Why is it held? (kept in the audit)</source>
+        <translation>Maxaa loo joojiyay? (waxaa lagu hayaa diiwaanka hubinta)</translation>
+    </message>
+    <message>
+        <source>Note for the audit (optional)</source>
+        <translation>Qoraal loogu talagalay diiwaanka hubinta (ikhtiyaari)</translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation>U jooji dib-u-eegis</translation>
+    </message>
+    <message>
+        <source>Release</source>
+        <translation>Sii daa</translation>
+    </message>
+    <message>
+        <source>Say why the page is held.</source>
+        <translation>Sheeg sababta boggan loo joojiyay.</translation>
+    </message>
+    <message>
+        <source>The page is held for review.</source>
+        <translation>Boggan waxaa loo joojiyay dib-u-eegis.</translation>
+    </message>
+    <message>
+        <source>The hold is released.</source>
+        <translation>Joojinta waa la sii daayay.</translation>
+    </message>
+    <message>
+        <source>This page is held for review. It can be published once a reviewer releases it.</source>
+        <translation>Boggan waxaa loo joojiyay dib-u-eegis. Waa la daabici karaa marka dib-u-eegaha uu sii daayo.</translation>
+    </message>
+    <message>
+        <source>Review holds need Exponential 6.0.15 or later, with its upgrade step run.</source>
+        <translation>Joojinta dib-u-eegistu waxay u baahan tahay Exponential 6.0.15 ama ka dambe, iyadoo tallaabadeeda cusboonaysiinta la socodsiiyay.</translation>
+    </message>
+    <message>
+        <source>This page is already held for review.</source>
+        <translation>Boggan horay ayaa loogu joojiyay dib-u-eegis.</translation>
+    </message>
+    <message>
+        <source>This page is not held.</source>
+        <translation>Boggan lama joojin.</translation>
+    </message>
+    <message>
+        <source>You may not hold this page.</source>
+        <translation>Ma joojin kartid boggan.</translation>
+    </message>
+    <message>
+        <source>You may not release this page.</source>
+        <translation>Ma sii dayn kartid boggan.</translation>
+    </message>
+    <message>
+        <source>The hold was not changed. Try again.</source>
+        <translation>Joojinta lama beddelin. Isku day mar kale.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

@@ -2335,6 +2335,90 @@
         <source>Which link?</source>
         <translation>rarwI' 'Iv?</translation>
     </message>
+    <message>
+        <source>Review hold</source>
+        <translation>nuDmeH ngaQmoH</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>nuDmeH ngaQmoHlu'ta'</translation>
+    </message>
+    <message>
+        <source>Held by %name since %time.</source>
+        <translation>%name ngaQmoHta' %time DaHjaj.</translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation>meq: %reason</translation>
+    </message>
+    <message>
+        <source>You may still edit it, but publishing waits until it is released, unless your role allows it.</source>
+        <translation>DaHjaj DachoHmoH 'e' DaqaD, 'ach mob 'e' yIloS HochvaD 'ang, Danga'chuqchugh vay'.</translation>
+    </message>
+    <message>
+        <source>Nobody edits or publishes this page until a reviewer releases it.</source>
+        <translation>nuDwI' ngaQHa'moHpa', nav vay' choHmoHbe' HochvaD 'angbe'.</translation>
+    </message>
+    <message>
+        <source>Review holds need the object state group review_hold: run the upgrade step 6.0.15-review-hold (Exponential 6.0.15 or later).</source>
+        <translation>nuDmeH ngaQmoHmey poQ review_hold Dotlh ghom: 6.0.15-review-hold Doq yIchu' (Exponential 6.0.15 pagh ret).</translation>
+    </message>
+    <message>
+        <source>Why is it held? (kept in the audit)</source>
+        <translation>qatlh ngaQmoHlu'? (ta'mey ghItlhDaq polmoHlu')</translation>
+    </message>
+    <message>
+        <source>Note for the audit (optional)</source>
+        <translation>ta'mey ghItlhvaD ghItlh mach (DuH)</translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation>nuDmeH yIngaQmoH</translation>
+    </message>
+    <message>
+        <source>Release</source>
+        <translation>yIngaQHa'moH</translation>
+    </message>
+    <message>
+        <source>Say why the page is held.</source>
+        <translation>qatlh nav ngaQmoHlu' yIja'.</translation>
+    </message>
+    <message>
+        <source>The page is held for review.</source>
+        <translation>nuDmeH nav ngaQmoHlu'.</translation>
+    </message>
+    <message>
+        <source>The hold is released.</source>
+        <translation>ngaQHa'moHlu'ta'.</translation>
+    </message>
+    <message>
+        <source>This page is held for review. It can be published once a reviewer releases it.</source>
+        <translation>nuDmeH nav ngaQmoHlu'. nuDwI' ngaQHa'moHDI', HochvaD 'anglaH.</translation>
+    </message>
+    <message>
+        <source>Review holds need Exponential 6.0.15 or later, with its upgrade step run.</source>
+        <translation>nuDmeH ngaQmoHmey poQ Exponential 6.0.15 pagh ret, Doq chu'lu'ta'bogh.</translation>
+    </message>
+    <message>
+        <source>This page is already held for review.</source>
+        <translation>nuDmeH nav ngaQmoHlu'pu'.</translation>
+    </message>
+    <message>
+        <source>This page is not held.</source>
+        <translation>nav ngaQmoHlu'be'.</translation>
+    </message>
+    <message>
+        <source>You may not hold this page.</source>
+        <translation>nav DangaQmoHlaHbe'.</translation>
+    </message>
+    <message>
+        <source>You may not release this page.</source>
+        <translation>nav DangaQHa'moHlaHbe'.</translation>
+    </message>
+    <message>
+        <source>The hold was not changed. Try again.</source>
+        <translation>ngaQmoH choHlu'be'. yInIDqa'.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

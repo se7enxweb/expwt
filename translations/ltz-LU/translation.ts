@@ -2335,6 +2335,90 @@
         <source>Which link?</source>
         <translation>Wéi ee Link?</translation>
     </message>
+    <message>
+        <source>Review hold</source>
+        <translation>Reviewsperr</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>Fir d'Iwwerpréiwung gespaart</translation>
+    </message>
+    <message>
+        <source>Held by %name since %time.</source>
+        <translation>Vum %name zënter %time gespaart.</translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation>Grond: %reason</translation>
+    </message>
+    <message>
+        <source>You may still edit it, but publishing waits until it is released, unless your role allows it.</source>
+        <translation>Dir kënnt se nach ëmmer beaarbechten, mee d'Publizéiere waart, bis se fräigi gëtt, ausser Är Roll erlaabt et.</translation>
+    </message>
+    <message>
+        <source>Nobody edits or publishes this page until a reviewer releases it.</source>
+        <translation>Keen beaarbecht oder publizéiert dës Säit, bis e Reviewer se fräigëtt.</translation>
+    </message>
+    <message>
+        <source>Review holds need the object state group review_hold: run the upgrade step 6.0.15-review-hold (Exponential 6.0.15 or later).</source>
+        <translation>Reviewsperre brauchen d'Grupp vun Objetszoustänn review_hold: féiert den Upgrade-Schrëtt 6.0.15-review-hold aus (Exponential 6.0.15 oder méi nei).</translation>
+    </message>
+    <message>
+        <source>Why is it held? (kept in the audit)</source>
+        <translation>Firwat ass se gespaart? (gëtt am Audit gespäichert)</translation>
+    </message>
+    <message>
+        <source>Note for the audit (optional)</source>
+        <translation>Notiz fir den Audit (optional)</translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation>Fir d'Iwwerpréiwung spären</translation>
+    </message>
+    <message>
+        <source>Release</source>
+        <translation>Fräiginn</translation>
+    </message>
+    <message>
+        <source>Say why the page is held.</source>
+        <translation>Gitt un, firwat d'Säit gespaart ass.</translation>
+    </message>
+    <message>
+        <source>The page is held for review.</source>
+        <translation>D'Säit ass fir d'Iwwerpréiwung gespaart.</translation>
+    </message>
+    <message>
+        <source>The hold is released.</source>
+        <translation>D'Spär ass opgehuewen.</translation>
+    </message>
+    <message>
+        <source>This page is held for review. It can be published once a reviewer releases it.</source>
+        <translation>Dës Säit ass fir d'Iwwerpréiwung gespaart. Si ka publizéiert ginn, soubal e Reviewer se fräigëtt.</translation>
+    </message>
+    <message>
+        <source>Review holds need Exponential 6.0.15 or later, with its upgrade step run.</source>
+        <translation>Reviewsperre brauchen Exponential 6.0.15 oder méi nei, mat sengem ausgeféierten Upgrade-Schrëtt.</translation>
+    </message>
+    <message>
+        <source>This page is already held for review.</source>
+        <translation>Dës Säit ass schonn fir d'Iwwerpréiwung gespaart.</translation>
+    </message>
+    <message>
+        <source>This page is not held.</source>
+        <translation>Dës Säit ass net gespaart.</translation>
+    </message>
+    <message>
+        <source>You may not hold this page.</source>
+        <translation>Dir dierft dës Säit net spären.</translation>
+    </message>
+    <message>
+        <source>You may not release this page.</source>
+        <translation>Dir dierft dës Säit net fräiginn.</translation>
+    </message>
+    <message>
+        <source>The hold was not changed. Try again.</source>
+        <translation>D'Spär gouf net geännert. Probéiert nach eng Kéier.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

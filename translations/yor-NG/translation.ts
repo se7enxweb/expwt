@@ -2335,6 +2335,90 @@
         <source>Which link?</source>
         <translation>Ìjápọ̀ wo?</translation>
     </message>
+    <message>
+        <source>Review hold</source>
+        <translation>Ìdádúró fún àyẹ̀wò</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>Ó dádúró fún àyẹ̀wò</translation>
+    </message>
+    <message>
+        <source>Held by %name since %time.</source>
+        <translation>%name ló dá a dúró láti %time.</translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation>Ìdí: %reason</translation>
+    </message>
+    <message>
+        <source>You may still edit it, but publishing waits until it is released, unless your role allows it.</source>
+        <translation>O ṣì lè ṣàtúnṣe rẹ̀, ṣùgbọ́n títẹ̀jáde yóò dúró títí tí a ó fi tú u sílẹ̀, àyàfi tí ipa rẹ bá gbà á láàyè.</translation>
+    </message>
+    <message>
+        <source>Nobody edits or publishes this page until a reviewer releases it.</source>
+        <translation>Kò sí ẹni tí yóò ṣàtúnṣe tàbí tẹ ojú ìwé yìí jáde títí olùyẹ̀wò yóò fi tú u sílẹ̀.</translation>
+    </message>
+    <message>
+        <source>Review holds need the object state group review_hold: run the upgrade step 6.0.15-review-hold (Exponential 6.0.15 or later).</source>
+        <translation>Ìdádúró fún àyẹ̀wò nílò ẹgbẹ́ ipò nǹkan review_hold: ṣiṣẹ́ ìgbésẹ̀ àtúnṣe 6.0.15-review-hold (Exponential 6.0.15 tàbí èyí tó tẹ̀lé e).</translation>
+    </message>
+    <message>
+        <source>Why is it held? (kept in the audit)</source>
+        <translation>Kí ló dé tí ó fi dádúró? (a ó pa á mọ́ nínú àyẹ̀wò ìwé)</translation>
+    </message>
+    <message>
+        <source>Note for the audit (optional)</source>
+        <translation>Àkíyèsí fún àyẹ̀wò ìwé (àṣàyàn)</translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation>Dá dúró fún àyẹ̀wò</translation>
+    </message>
+    <message>
+        <source>Release</source>
+        <translation>Tú sílẹ̀</translation>
+    </message>
+    <message>
+        <source>Say why the page is held.</source>
+        <translation>Sọ ìdí tí ojú ìwé náà fi dádúró.</translation>
+    </message>
+    <message>
+        <source>The page is held for review.</source>
+        <translation>Ojú ìwé náà ti dádúró fún àyẹ̀wò.</translation>
+    </message>
+    <message>
+        <source>The hold is released.</source>
+        <translation>A ti tú ìdádúró náà sílẹ̀.</translation>
+    </message>
+    <message>
+        <source>This page is held for review. It can be published once a reviewer releases it.</source>
+        <translation>Ojú ìwé yìí dádúró fún àyẹ̀wò. A lè tẹ̀ ẹ́ jáde ní kété tí olùyẹ̀wò bá tú u sílẹ̀.</translation>
+    </message>
+    <message>
+        <source>Review holds need Exponential 6.0.15 or later, with its upgrade step run.</source>
+        <translation>Ìdádúró fún àyẹ̀wò nílò Exponential 6.0.15 tàbí èyí tó tẹ̀lé e, pẹ̀lú ìgbésẹ̀ àtúnṣe rẹ̀ tí a ti ṣiṣẹ́.</translation>
+    </message>
+    <message>
+        <source>This page is already held for review.</source>
+        <translation>Ojú ìwé yìí ti dádúró fún àyẹ̀wò tẹ́lẹ̀.</translation>
+    </message>
+    <message>
+        <source>This page is not held.</source>
+        <translation>Ojú ìwé yìí kò dádúró.</translation>
+    </message>
+    <message>
+        <source>You may not hold this page.</source>
+        <translation>O kò lè dá ojú ìwé yìí dúró.</translation>
+    </message>
+    <message>
+        <source>You may not release this page.</source>
+        <translation>O kò lè tú ojú ìwé yìí sílẹ̀.</translation>
+    </message>
+    <message>
+        <source>The hold was not changed. Try again.</source>
+        <translation>Ìdádúró náà kò yí padà. Gbìyànjú lẹ́ẹ̀kan sí i.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

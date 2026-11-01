@@ -2335,6 +2335,90 @@
         <source>Which link?</source>
         <translation>Aling link?</translation>
     </message>
+    <message>
+        <source>Review hold</source>
+        <translation>Hold para sa review</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>Naka-hold para sa review</translation>
+    </message>
+    <message>
+        <source>Held by %name since %time.</source>
+        <translation>Naka-hold ni %name mula %time.</translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation>Dahilan: %reason</translation>
+    </message>
+    <message>
+        <source>You may still edit it, but publishing waits until it is released, unless your role allows it.</source>
+        <translation>Maaari mo pa rin itong i-edit, pero maghihintay ang pag-publish hanggang ma-release ito, maliban kung pinapayagan ito ng iyong role.</translation>
+    </message>
+    <message>
+        <source>Nobody edits or publishes this page until a reviewer releases it.</source>
+        <translation>Walang mag-e-edit o magpa-publish ng pahinang ito hanggang i-release ito ng isang reviewer.</translation>
+    </message>
+    <message>
+        <source>Review holds need the object state group review_hold: run the upgrade step 6.0.15-review-hold (Exponential 6.0.15 or later).</source>
+        <translation>Kailangan ng mga review hold ang object state group na review_hold: patakbuhin ang upgrade step na 6.0.15-review-hold (Exponential 6.0.15 o mas bago).</translation>
+    </message>
+    <message>
+        <source>Why is it held? (kept in the audit)</source>
+        <translation>Bakit ito naka-hold? (itatago sa audit)</translation>
+    </message>
+    <message>
+        <source>Note for the audit (optional)</source>
+        <translation>Tala para sa audit (opsyonal)</translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation>I-hold para sa review</translation>
+    </message>
+    <message>
+        <source>Release</source>
+        <translation>I-release</translation>
+    </message>
+    <message>
+        <source>Say why the page is held.</source>
+        <translation>Sabihin kung bakit naka-hold ang pahina.</translation>
+    </message>
+    <message>
+        <source>The page is held for review.</source>
+        <translation>Naka-hold ang pahina para sa review.</translation>
+    </message>
+    <message>
+        <source>The hold is released.</source>
+        <translation>Na-release na ang hold.</translation>
+    </message>
+    <message>
+        <source>This page is held for review. It can be published once a reviewer releases it.</source>
+        <translation>Naka-hold ang pahinang ito para sa review. Maaari itong i-publish kapag na-release ito ng isang reviewer.</translation>
+    </message>
+    <message>
+        <source>Review holds need Exponential 6.0.15 or later, with its upgrade step run.</source>
+        <translation>Kailangan ng mga review hold ang Exponential 6.0.15 o mas bago, na napatakbo ang upgrade step nito.</translation>
+    </message>
+    <message>
+        <source>This page is already held for review.</source>
+        <translation>Naka-hold na para sa review ang pahinang ito.</translation>
+    </message>
+    <message>
+        <source>This page is not held.</source>
+        <translation>Hindi naka-hold ang pahinang ito.</translation>
+    </message>
+    <message>
+        <source>You may not hold this page.</source>
+        <translation>Hindi mo maaaring i-hold ang pahinang ito.</translation>
+    </message>
+    <message>
+        <source>You may not release this page.</source>
+        <translation>Hindi mo maaaring i-release ang pahinang ito.</translation>
+    </message>
+    <message>
+        <source>The hold was not changed. Try again.</source>
+        <translation>Hindi nabago ang hold. Subukang muli.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

@@ -2335,6 +2335,90 @@
         <source>Which link?</source>
         <translation>කුමන සබැඳියද?</translation>
     </message>
+    <message>
+        <source>Review hold</source>
+        <translation>සමාලෝචන රඳවා තැබීම</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>සමාලෝචනය සඳහා රඳවා ඇත</translation>
+    </message>
+    <message>
+        <source>Held by %name since %time.</source>
+        <translation>%name විසින් %time සිට රඳවා ඇත.</translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation>හේතුව: %reason</translation>
+    </message>
+    <message>
+        <source>You may still edit it, but publishing waits until it is released, unless your role allows it.</source>
+        <translation>ඔබට තවමත් එය සංස්කරණය කළ හැකි නමුත්, ඔබේ භූමිකාව ඉඩ නොදෙන්නේ නම් එය නිදහස් කරන තුරු ප්‍රකාශනය රැඳී සිටී.</translation>
+    </message>
+    <message>
+        <source>Nobody edits or publishes this page until a reviewer releases it.</source>
+        <translation>සමාලෝචකයෙකු නිදහස් කරන තුරු කිසිවෙකු මෙම පිටුව සංස්කරණය හෝ ප්‍රකාශ නොකරයි.</translation>
+    </message>
+    <message>
+        <source>Review holds need the object state group review_hold: run the upgrade step 6.0.15-review-hold (Exponential 6.0.15 or later).</source>
+        <translation>සමාලෝචන රඳවා තැබීම් සඳහා review_hold වස්තු තත්ව කණ්ඩායම අවශ්‍යයි: 6.0.15-review-hold උත්ශ්‍රේණි පියවර ධාවනය කරන්න (Exponential 6.0.15 හෝ පසු).</translation>
+    </message>
+    <message>
+        <source>Why is it held? (kept in the audit)</source>
+        <translation>එය රඳවා ඇත්තේ ඇයි? (විගණනයේ තබා ගැනේ)</translation>
+    </message>
+    <message>
+        <source>Note for the audit (optional)</source>
+        <translation>විගණනය සඳහා සටහන (විකල්ප)</translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation>සමාලෝචනය සඳහා රඳවන්න</translation>
+    </message>
+    <message>
+        <source>Release</source>
+        <translation>නිදහස් කරන්න</translation>
+    </message>
+    <message>
+        <source>Say why the page is held.</source>
+        <translation>පිටුව රඳවා ඇත්තේ ඇයිදැයි සඳහන් කරන්න.</translation>
+    </message>
+    <message>
+        <source>The page is held for review.</source>
+        <translation>පිටුව සමාලෝචනය සඳහා රඳවා ඇත.</translation>
+    </message>
+    <message>
+        <source>The hold is released.</source>
+        <translation>රඳවා තැබීම නිදහස් කරන ලදී.</translation>
+    </message>
+    <message>
+        <source>This page is held for review. It can be published once a reviewer releases it.</source>
+        <translation>මෙම පිටුව සමාලෝචනය සඳහා රඳවා ඇත. සමාලෝචකයෙකු එය නිදහස් කළ පසු එය ප්‍රකාශ කළ හැක.</translation>
+    </message>
+    <message>
+        <source>Review holds need Exponential 6.0.15 or later, with its upgrade step run.</source>
+        <translation>සමාලෝචන රඳවා තැබීම් සඳහා Exponential 6.0.15 හෝ පසු, එහි උත්ශ්‍රේණි පියවර ධාවනය කර, අවශ්‍යයි.</translation>
+    </message>
+    <message>
+        <source>This page is already held for review.</source>
+        <translation>මෙම පිටුව දැනටමත් සමාලෝචනය සඳහා රඳවා ඇත.</translation>
+    </message>
+    <message>
+        <source>This page is not held.</source>
+        <translation>මෙම පිටුව රඳවා නැත.</translation>
+    </message>
+    <message>
+        <source>You may not hold this page.</source>
+        <translation>ඔබට මෙම පිටුව රඳවීමට අවසර නැත.</translation>
+    </message>
+    <message>
+        <source>You may not release this page.</source>
+        <translation>ඔබට මෙම පිටුව නිදහස් කිරීමට අවසර නැත.</translation>
+    </message>
+    <message>
+        <source>The hold was not changed. Try again.</source>
+        <translation>රඳවා තැබීම වෙනස් නොවීය. නැවත උත්සාහ කරන්න.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

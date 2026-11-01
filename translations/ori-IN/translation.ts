@@ -2335,6 +2335,90 @@
         <source>Which link?</source>
         <translation>କେଉଁ ଲିଙ୍କ?</translation>
     </message>
+    <message>
+        <source>Review hold</source>
+        <translation>ସମୀକ୍ଷା ରୋକ</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>ସମୀକ୍ଷା ପାଇଁ ରୋକାଯାଇଛି</translation>
+    </message>
+    <message>
+        <source>Held by %name since %time.</source>
+        <translation>%name %time ଠାରୁ ରୋକିଛନ୍ତି।</translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation>କାରଣ: %reason</translation>
+    </message>
+    <message>
+        <source>You may still edit it, but publishing waits until it is released, unless your role allows it.</source>
+        <translation>ଆପଣ ଏବେ ବି ଏହାକୁ ସମ୍ପାଦନ କରିପାରିବେ, କିନ୍ତୁ ଆପଣଙ୍କ ଭୂମିକା ଅନୁମତି ନ ଦେଲେ ରୋକ ହଟାଯିବା ପର୍ଯ୍ୟନ୍ତ ପ୍ରକାଶନ ଅପେକ୍ଷା କରେ।</translation>
+    </message>
+    <message>
+        <source>Nobody edits or publishes this page until a reviewer releases it.</source>
+        <translation>ଜଣେ ସମୀକ୍ଷକ ରୋକ ହଟାଇବା ପର୍ଯ୍ୟନ୍ତ କେହି ଏହି ପୃଷ୍ଠାକୁ ସମ୍ପାଦନ କିମ୍ବା ପ୍ରକାଶ କରନ୍ତି ନାହିଁ।</translation>
+    </message>
+    <message>
+        <source>Review holds need the object state group review_hold: run the upgrade step 6.0.15-review-hold (Exponential 6.0.15 or later).</source>
+        <translation>ସମୀକ୍ଷା ରୋକ ପାଇଁ review_hold ଅବଜେକ୍ଟ ସ୍ଥିତି ଗୋଷ୍ଠୀ ଆବଶ୍ୟକ: ଅପଗ୍ରେଡ୍ ପଦକ୍ଷେପ 6.0.15-review-hold ଚଲାନ୍ତୁ (Exponential 6.0.15 କିମ୍ବା ପରବର୍ତ୍ତୀ)।</translation>
+    </message>
+    <message>
+        <source>Why is it held? (kept in the audit)</source>
+        <translation>ଏହା କାହିଁକି ରୋକାଯାଇଛି? (ଅଡିଟରେ ରଖାଯାଏ)</translation>
+    </message>
+    <message>
+        <source>Note for the audit (optional)</source>
+        <translation>ଅଡିଟ ପାଇଁ ଟିପ୍ପଣୀ (ଇଚ୍ଛାଧୀନ)</translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation>ସମୀକ୍ଷା ପାଇଁ ରୋକନ୍ତୁ</translation>
+    </message>
+    <message>
+        <source>Release</source>
+        <translation>ରୋକ ହଟାନ୍ତୁ</translation>
+    </message>
+    <message>
+        <source>Say why the page is held.</source>
+        <translation>ପୃଷ୍ଠାଟି କାହିଁକି ରୋକାଯାଇଛି ଲେଖନ୍ତୁ।</translation>
+    </message>
+    <message>
+        <source>The page is held for review.</source>
+        <translation>ପୃଷ୍ଠାଟି ସମୀକ୍ଷା ପାଇଁ ରୋକାଯାଇଛି।</translation>
+    </message>
+    <message>
+        <source>The hold is released.</source>
+        <translation>ରୋକ ହଟାଯାଇଛି।</translation>
+    </message>
+    <message>
+        <source>This page is held for review. It can be published once a reviewer releases it.</source>
+        <translation>ଏହି ପୃଷ୍ଠା ସମୀକ୍ଷା ପାଇଁ ରୋକାଯାଇଛି। ଜଣେ ସମୀକ୍ଷକ ରୋକ ହଟାଇବା ପରେ ଏହାକୁ ପ୍ରକାଶ କରାଯାଇପାରିବ।</translation>
+    </message>
+    <message>
+        <source>Review holds need Exponential 6.0.15 or later, with its upgrade step run.</source>
+        <translation>ସମୀକ୍ଷା ରୋକ ପାଇଁ Exponential 6.0.15 କିମ୍ବା ପରବର୍ତ୍ତୀ ସଂସ୍କରଣ ଏବଂ ଏହାର ଅପଗ୍ରେଡ୍ ପଦକ୍ଷେପ ଚଲାଯିବା ଆବଶ୍ୟକ।</translation>
+    </message>
+    <message>
+        <source>This page is already held for review.</source>
+        <translation>ଏହି ପୃଷ୍ଠା ପୂର୍ବରୁ ସମୀକ୍ଷା ପାଇଁ ରୋକାଯାଇଛି।</translation>
+    </message>
+    <message>
+        <source>This page is not held.</source>
+        <translation>ଏହି ପୃଷ୍ଠା ରୋକାଯାଇନାହିଁ।</translation>
+    </message>
+    <message>
+        <source>You may not hold this page.</source>
+        <translation>ଆପଣଙ୍କୁ ଏହି ପୃଷ୍ଠା ରୋକିବାର ଅନୁମତି ନାହିଁ।</translation>
+    </message>
+    <message>
+        <source>You may not release this page.</source>
+        <translation>ଆପଣଙ୍କୁ ଏହି ପୃଷ୍ଠାର ରୋକ ହଟାଇବାର ଅନୁମତି ନାହିଁ।</translation>
+    </message>
+    <message>
+        <source>The hold was not changed. Try again.</source>
+        <translation>ରୋକ ବଦଳାଯାଇନାହିଁ। ପୁଣି ଚେଷ୍ଟା କରନ୍ତୁ।</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

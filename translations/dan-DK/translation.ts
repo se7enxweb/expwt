@@ -2335,6 +2335,90 @@
         <source>Which link?</source>
         <translation>Hvilket link?</translation>
     </message>
+    <message>
+        <source>Review hold</source>
+        <translation>Tilbageholdelse til gennemgang</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>Tilbageholdt til gennemgang</translation>
+    </message>
+    <message>
+        <source>Held by %name since %time.</source>
+        <translation>Tilbageholdt af %name siden %time.</translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation>Årsag: %reason</translation>
+    </message>
+    <message>
+        <source>You may still edit it, but publishing waits until it is released, unless your role allows it.</source>
+        <translation>Du kan stadig redigere den, men udgivelsen venter, til den frigives, medmindre din rolle tillader det.</translation>
+    </message>
+    <message>
+        <source>Nobody edits or publishes this page until a reviewer releases it.</source>
+        <translation>Ingen redigerer eller udgiver denne side, før en anmelder frigiver den.</translation>
+    </message>
+    <message>
+        <source>Review holds need the object state group review_hold: run the upgrade step 6.0.15-review-hold (Exponential 6.0.15 or later).</source>
+        <translation>Tilbageholdelser til gennemgang kræver objekttilstandsgruppen review_hold: kør opgraderingstrinnet 6.0.15-review-hold (Exponential 6.0.15 eller nyere).</translation>
+    </message>
+    <message>
+        <source>Why is it held? (kept in the audit)</source>
+        <translation>Hvorfor er den tilbageholdt? (gemmes i revisionssporet)</translation>
+    </message>
+    <message>
+        <source>Note for the audit (optional)</source>
+        <translation>Note til revisionssporet (valgfri)</translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation>Tilbagehold til gennemgang</translation>
+    </message>
+    <message>
+        <source>Release</source>
+        <translation>Frigiv</translation>
+    </message>
+    <message>
+        <source>Say why the page is held.</source>
+        <translation>Angiv, hvorfor siden er tilbageholdt.</translation>
+    </message>
+    <message>
+        <source>The page is held for review.</source>
+        <translation>Siden er tilbageholdt til gennemgang.</translation>
+    </message>
+    <message>
+        <source>The hold is released.</source>
+        <translation>Tilbageholdelsen er ophævet.</translation>
+    </message>
+    <message>
+        <source>This page is held for review. It can be published once a reviewer releases it.</source>
+        <translation>Denne side er tilbageholdt til gennemgang. Den kan udgives, når en anmelder frigiver den.</translation>
+    </message>
+    <message>
+        <source>Review holds need Exponential 6.0.15 or later, with its upgrade step run.</source>
+        <translation>Tilbageholdelser til gennemgang kræver Exponential 6.0.15 eller nyere med opgraderingstrinnet kørt.</translation>
+    </message>
+    <message>
+        <source>This page is already held for review.</source>
+        <translation>Denne side er allerede tilbageholdt til gennemgang.</translation>
+    </message>
+    <message>
+        <source>This page is not held.</source>
+        <translation>Denne side er ikke tilbageholdt.</translation>
+    </message>
+    <message>
+        <source>You may not hold this page.</source>
+        <translation>Du må ikke tilbageholde denne side.</translation>
+    </message>
+    <message>
+        <source>You may not release this page.</source>
+        <translation>Du må ikke frigive denne side.</translation>
+    </message>
+    <message>
+        <source>The hold was not changed. Try again.</source>
+        <translation>Tilbageholdelsen blev ikke ændret. Prøv igen.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

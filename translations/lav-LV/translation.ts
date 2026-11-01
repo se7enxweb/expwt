@@ -2335,6 +2335,90 @@
         <source>Which link?</source>
         <translation>Kura saite?</translation>
     </message>
+    <message>
+        <source>Review hold</source>
+        <translation>Aizturēšana pārskatīšanai</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>Aizturēta pārskatīšanai</translation>
+    </message>
+    <message>
+        <source>Held by %name since %time.</source>
+        <translation>Aizturējis %name kopš %time.</translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation>Iemesls: %reason</translation>
+    </message>
+    <message>
+        <source>You may still edit it, but publishing waits until it is released, unless your role allows it.</source>
+        <translation>Jūs joprojām varat to rediģēt, taču publicēšana gaida, līdz tā tiek atbrīvota, ja vien jūsu loma to neatļauj.</translation>
+    </message>
+    <message>
+        <source>Nobody edits or publishes this page until a reviewer releases it.</source>
+        <translation>Neviens nerediģē un nepublicē šo lapu, līdz pārskatītājs to atbrīvo.</translation>
+    </message>
+    <message>
+        <source>Review holds need the object state group review_hold: run the upgrade step 6.0.15-review-hold (Exponential 6.0.15 or later).</source>
+        <translation>Aizturēšanai pārskatīšanai nepieciešama objekta stāvokļu grupa review_hold: palaidiet jaunināšanas soli 6.0.15-review-hold (Exponential 6.0.15 vai jaunāka versija).</translation>
+    </message>
+    <message>
+        <source>Why is it held? (kept in the audit)</source>
+        <translation>Kāpēc tā ir aizturēta? (tiek saglabāts auditā)</translation>
+    </message>
+    <message>
+        <source>Note for the audit (optional)</source>
+        <translation>Piezīme auditam (neobligāti)</translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation>Aizturēt pārskatīšanai</translation>
+    </message>
+    <message>
+        <source>Release</source>
+        <translation>Atbrīvot</translation>
+    </message>
+    <message>
+        <source>Say why the page is held.</source>
+        <translation>Norādiet, kāpēc lapa ir aizturēta.</translation>
+    </message>
+    <message>
+        <source>The page is held for review.</source>
+        <translation>Lapa ir aizturēta pārskatīšanai.</translation>
+    </message>
+    <message>
+        <source>The hold is released.</source>
+        <translation>Aizturēšana ir atcelta.</translation>
+    </message>
+    <message>
+        <source>This page is held for review. It can be published once a reviewer releases it.</source>
+        <translation>Šī lapa ir aizturēta pārskatīšanai. To var publicēt, tiklīdz pārskatītājs to atbrīvo.</translation>
+    </message>
+    <message>
+        <source>Review holds need Exponential 6.0.15 or later, with its upgrade step run.</source>
+        <translation>Aizturēšanai pārskatīšanai nepieciešama Exponential 6.0.15 vai jaunāka versija ar palaistu tās jaunināšanas soli.</translation>
+    </message>
+    <message>
+        <source>This page is already held for review.</source>
+        <translation>Šī lapa jau ir aizturēta pārskatīšanai.</translation>
+    </message>
+    <message>
+        <source>This page is not held.</source>
+        <translation>Šī lapa nav aizturēta.</translation>
+    </message>
+    <message>
+        <source>You may not hold this page.</source>
+        <translation>Jums nav atļauts aizturēt šo lapu.</translation>
+    </message>
+    <message>
+        <source>You may not release this page.</source>
+        <translation>Jums nav atļauts atbrīvot šo lapu.</translation>
+    </message>
+    <message>
+        <source>The hold was not changed. Try again.</source>
+        <translation>Aizturēšana netika mainīta. Mēģiniet vēlreiz.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

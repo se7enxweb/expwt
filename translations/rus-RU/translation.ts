@@ -2335,6 +2335,90 @@
         <source>Which link?</source>
         <translation>Какая ссылка?</translation>
     </message>
+    <message>
+        <source>Review hold</source>
+        <translation>Удержание на проверку</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>Удерживается на проверке</translation>
+    </message>
+    <message>
+        <source>Held by %name since %time.</source>
+        <translation>Удерживается пользователем %name с %time.</translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation>Причина: %reason</translation>
+    </message>
+    <message>
+        <source>You may still edit it, but publishing waits until it is released, unless your role allows it.</source>
+        <translation>Вы по-прежнему можете её редактировать, но публикация ждёт снятия удержания, если ваша роль не разрешает иное.</translation>
+    </message>
+    <message>
+        <source>Nobody edits or publishes this page until a reviewer releases it.</source>
+        <translation>Никто не редактирует и не публикует эту страницу, пока проверяющий не снимет удержание.</translation>
+    </message>
+    <message>
+        <source>Review holds need the object state group review_hold: run the upgrade step 6.0.15-review-hold (Exponential 6.0.15 or later).</source>
+        <translation>Для удержаний на проверку нужна группа состояний объекта review_hold: выполните шаг обновления 6.0.15-review-hold (Exponential 6.0.15 или новее).</translation>
+    </message>
+    <message>
+        <source>Why is it held? (kept in the audit)</source>
+        <translation>Почему она удерживается? (сохраняется в журнале аудита)</translation>
+    </message>
+    <message>
+        <source>Note for the audit (optional)</source>
+        <translation>Примечание для аудита (необязательно)</translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation>Удержать на проверку</translation>
+    </message>
+    <message>
+        <source>Release</source>
+        <translation>Снять удержание</translation>
+    </message>
+    <message>
+        <source>Say why the page is held.</source>
+        <translation>Укажите, почему страница удерживается.</translation>
+    </message>
+    <message>
+        <source>The page is held for review.</source>
+        <translation>Страница удерживается на проверке.</translation>
+    </message>
+    <message>
+        <source>The hold is released.</source>
+        <translation>Удержание снято.</translation>
+    </message>
+    <message>
+        <source>This page is held for review. It can be published once a reviewer releases it.</source>
+        <translation>Эта страница удерживается на проверке. Её можно будет опубликовать, когда проверяющий снимет удержание.</translation>
+    </message>
+    <message>
+        <source>Review holds need Exponential 6.0.15 or later, with its upgrade step run.</source>
+        <translation>Для удержаний на проверку нужна Exponential 6.0.15 или новее с выполненным шагом обновления.</translation>
+    </message>
+    <message>
+        <source>This page is already held for review.</source>
+        <translation>Эта страница уже удерживается на проверке.</translation>
+    </message>
+    <message>
+        <source>This page is not held.</source>
+        <translation>Эта страница не удерживается.</translation>
+    </message>
+    <message>
+        <source>You may not hold this page.</source>
+        <translation>Вам нельзя удерживать эту страницу.</translation>
+    </message>
+    <message>
+        <source>You may not release this page.</source>
+        <translation>Вам нельзя снимать удержание с этой страницы.</translation>
+    </message>
+    <message>
+        <source>The hold was not changed. Try again.</source>
+        <translation>Удержание не изменено. Попробуйте ещё раз.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

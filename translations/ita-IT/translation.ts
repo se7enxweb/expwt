@@ -2335,6 +2335,90 @@
         <source>Which link?</source>
         <translation>Quale link?</translation>
     </message>
+    <message>
+        <source>Review hold</source>
+        <translation>Blocco per revisione</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>In attesa di revisione</translation>
+    </message>
+    <message>
+        <source>Held by %name since %time.</source>
+        <translation>Bloccata da %name dal %time.</translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation>Motivo: %reason</translation>
+    </message>
+    <message>
+        <source>You may still edit it, but publishing waits until it is released, unless your role allows it.</source>
+        <translation>Puoi ancora modificarla, ma la pubblicazione attende lo sblocco, a meno che il tuo ruolo non lo consenta.</translation>
+    </message>
+    <message>
+        <source>Nobody edits or publishes this page until a reviewer releases it.</source>
+        <translation>Nessuno modifica o pubblica questa pagina finché un revisore non la sblocca.</translation>
+    </message>
+    <message>
+        <source>Review holds need the object state group review_hold: run the upgrade step 6.0.15-review-hold (Exponential 6.0.15 or later).</source>
+        <translation>I blocchi per revisione richiedono il gruppo di stati oggetto review_hold: esegui il passaggio di aggiornamento 6.0.15-review-hold (Exponential 6.0.15 o successivo).</translation>
+    </message>
+    <message>
+        <source>Why is it held? (kept in the audit)</source>
+        <translation>Perché è bloccata? (conservato nel registro di controllo)</translation>
+    </message>
+    <message>
+        <source>Note for the audit (optional)</source>
+        <translation>Nota per il registro di controllo (facoltativa)</translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation>Blocca per revisione</translation>
+    </message>
+    <message>
+        <source>Release</source>
+        <translation>Sblocca</translation>
+    </message>
+    <message>
+        <source>Say why the page is held.</source>
+        <translation>Indica perché la pagina è bloccata.</translation>
+    </message>
+    <message>
+        <source>The page is held for review.</source>
+        <translation>La pagina è bloccata per revisione.</translation>
+    </message>
+    <message>
+        <source>The hold is released.</source>
+        <translation>Il blocco è stato rimosso.</translation>
+    </message>
+    <message>
+        <source>This page is held for review. It can be published once a reviewer releases it.</source>
+        <translation>Questa pagina è bloccata per revisione. Potrà essere pubblicata quando un revisore la sbloccherà.</translation>
+    </message>
+    <message>
+        <source>Review holds need Exponential 6.0.15 or later, with its upgrade step run.</source>
+        <translation>I blocchi per revisione richiedono Exponential 6.0.15 o successivo, con il relativo passaggio di aggiornamento eseguito.</translation>
+    </message>
+    <message>
+        <source>This page is already held for review.</source>
+        <translation>Questa pagina è già bloccata per revisione.</translation>
+    </message>
+    <message>
+        <source>This page is not held.</source>
+        <translation>Questa pagina non è bloccata.</translation>
+    </message>
+    <message>
+        <source>You may not hold this page.</source>
+        <translation>Non puoi bloccare questa pagina.</translation>
+    </message>
+    <message>
+        <source>You may not release this page.</source>
+        <translation>Non puoi sbloccare questa pagina.</translation>
+    </message>
+    <message>
+        <source>The hold was not changed. Try again.</source>
+        <translation>Il blocco non è stato modificato. Riprova.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

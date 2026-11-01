@@ -2335,6 +2335,90 @@
         <source>Which link?</source>
         <translation>Ktorý odkaz?</translation>
     </message>
+    <message>
+        <source>Review hold</source>
+        <translation>Pozastavenie na kontrolu</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>Pozastavené na kontrolu</translation>
+    </message>
+    <message>
+        <source>Held by %name since %time.</source>
+        <translation>Pozastavil(a) %name od %time.</translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation>Dôvod: %reason</translation>
+    </message>
+    <message>
+        <source>You may still edit it, but publishing waits until it is released, unless your role allows it.</source>
+        <translation>Stále ju môžete upravovať, ale zverejnenie počká, kým nebude uvoľnená, ak to vaša rola nepovoľuje inak.</translation>
+    </message>
+    <message>
+        <source>Nobody edits or publishes this page until a reviewer releases it.</source>
+        <translation>Nikto túto stránku neupravuje ani nezverejňuje, kým ju kontrolór neuvoľní.</translation>
+    </message>
+    <message>
+        <source>Review holds need the object state group review_hold: run the upgrade step 6.0.15-review-hold (Exponential 6.0.15 or later).</source>
+        <translation>Pozastavenia na kontrolu vyžadujú skupinu stavov objektu review_hold: spustite krok aktualizácie 6.0.15-review-hold (Exponential 6.0.15 alebo novší).</translation>
+    </message>
+    <message>
+        <source>Why is it held? (kept in the audit)</source>
+        <translation>Prečo je pozastavená? (uchováva sa v audite)</translation>
+    </message>
+    <message>
+        <source>Note for the audit (optional)</source>
+        <translation>Poznámka pre audit (voliteľné)</translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation>Pozastaviť na kontrolu</translation>
+    </message>
+    <message>
+        <source>Release</source>
+        <translation>Uvoľniť</translation>
+    </message>
+    <message>
+        <source>Say why the page is held.</source>
+        <translation>Uveďte, prečo je stránka pozastavená.</translation>
+    </message>
+    <message>
+        <source>The page is held for review.</source>
+        <translation>Stránka je pozastavená na kontrolu.</translation>
+    </message>
+    <message>
+        <source>The hold is released.</source>
+        <translation>Pozastavenie bolo uvoľnené.</translation>
+    </message>
+    <message>
+        <source>This page is held for review. It can be published once a reviewer releases it.</source>
+        <translation>Táto stránka je pozastavená na kontrolu. Zverejniť ju možno, keď ju kontrolór uvoľní.</translation>
+    </message>
+    <message>
+        <source>Review holds need Exponential 6.0.15 or later, with its upgrade step run.</source>
+        <translation>Pozastavenia na kontrolu vyžadujú Exponential 6.0.15 alebo novší so spusteným krokom aktualizácie.</translation>
+    </message>
+    <message>
+        <source>This page is already held for review.</source>
+        <translation>Táto stránka je už pozastavená na kontrolu.</translation>
+    </message>
+    <message>
+        <source>This page is not held.</source>
+        <translation>Táto stránka nie je pozastavená.</translation>
+    </message>
+    <message>
+        <source>You may not hold this page.</source>
+        <translation>Túto stránku nemôžete pozastaviť.</translation>
+    </message>
+    <message>
+        <source>You may not release this page.</source>
+        <translation>Túto stránku nemôžete uvoľniť.</translation>
+    </message>
+    <message>
+        <source>The hold was not changed. Try again.</source>
+        <translation>Pozastavenie sa nezmenilo. Skúste to znova.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

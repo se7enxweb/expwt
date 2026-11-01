@@ -2335,6 +2335,90 @@
         <source>Which link?</source>
         <translation>Milline link?</translation>
     </message>
+    <message>
+        <source>Review hold</source>
+        <translation>Ülevaatuseks kinni hoidmine</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>Ülevaatuseks kinni</translation>
+    </message>
+    <message>
+        <source>Held by %name since %time.</source>
+        <translation>Kinni hoidnud %name alates %time.</translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation>Põhjus: %reason</translation>
+    </message>
+    <message>
+        <source>You may still edit it, but publishing waits until it is released, unless your role allows it.</source>
+        <translation>Saate seda endiselt redigeerida, kuid avaldamine ootab, kuni see vabastatakse, kui teie roll seda ei luba.</translation>
+    </message>
+    <message>
+        <source>Nobody edits or publishes this page until a reviewer releases it.</source>
+        <translation>Keegi ei redigeeri ega avalda seda lehte enne, kui ülevaataja selle vabastab.</translation>
+    </message>
+    <message>
+        <source>Review holds need the object state group review_hold: run the upgrade step 6.0.15-review-hold (Exponential 6.0.15 or later).</source>
+        <translation>Ülevaatuseks kinni hoidmine vajab objekti olekugruppi review_hold: käivitage uuendusetapp 6.0.15-review-hold (Exponential 6.0.15 või uuem).</translation>
+    </message>
+    <message>
+        <source>Why is it held? (kept in the audit)</source>
+        <translation>Miks see kinni on? (säilitatakse auditis)</translation>
+    </message>
+    <message>
+        <source>Note for the audit (optional)</source>
+        <translation>Märkus auditi jaoks (valikuline)</translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation>Hoia ülevaatuseks kinni</translation>
+    </message>
+    <message>
+        <source>Release</source>
+        <translation>Vabasta</translation>
+    </message>
+    <message>
+        <source>Say why the page is held.</source>
+        <translation>Öelge, miks leht kinni on.</translation>
+    </message>
+    <message>
+        <source>The page is held for review.</source>
+        <translation>Leht on ülevaatuseks kinni.</translation>
+    </message>
+    <message>
+        <source>The hold is released.</source>
+        <translation>Kinnihoid on vabastatud.</translation>
+    </message>
+    <message>
+        <source>This page is held for review. It can be published once a reviewer releases it.</source>
+        <translation>See leht on ülevaatuseks kinni. Selle saab avaldada, kui ülevaataja selle vabastab.</translation>
+    </message>
+    <message>
+        <source>Review holds need Exponential 6.0.15 or later, with its upgrade step run.</source>
+        <translation>Ülevaatuseks kinni hoidmine vajab Exponential 6.0.15 või uuemat ning selle uuendusetapi käivitamist.</translation>
+    </message>
+    <message>
+        <source>This page is already held for review.</source>
+        <translation>See leht on juba ülevaatuseks kinni.</translation>
+    </message>
+    <message>
+        <source>This page is not held.</source>
+        <translation>See leht ei ole kinni.</translation>
+    </message>
+    <message>
+        <source>You may not hold this page.</source>
+        <translation>Teil ei ole lubatud seda lehte kinni hoida.</translation>
+    </message>
+    <message>
+        <source>You may not release this page.</source>
+        <translation>Teil ei ole lubatud seda lehte vabastada.</translation>
+    </message>
+    <message>
+        <source>The hold was not changed. Try again.</source>
+        <translation>Kinnihoidu ei muudetud. Proovige uuesti.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

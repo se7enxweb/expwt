@@ -2335,6 +2335,90 @@
         <source>Which link?</source>
         <translation>איזה קישור?</translation>
     </message>
+    <message>
+        <source>Review hold</source>
+        <translation>עיכוב לבדיקה</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>מעוכב לבדיקה</translation>
+    </message>
+    <message>
+        <source>Held by %name since %time.</source>
+        <translation>עוכב על ידי %name מאז %time.</translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation>סיבה: %reason</translation>
+    </message>
+    <message>
+        <source>You may still edit it, but publishing waits until it is released, unless your role allows it.</source>
+        <translation>עדיין אפשר לערוך אותו, אבל הפרסום ממתין עד לשחרור, אלא אם התפקיד שלך מאפשר זאת.</translation>
+    </message>
+    <message>
+        <source>Nobody edits or publishes this page until a reviewer releases it.</source>
+        <translation>אף אחד לא עורך או מפרסם את הדף הזה עד שבודק משחרר אותו.</translation>
+    </message>
+    <message>
+        <source>Review holds need the object state group review_hold: run the upgrade step 6.0.15-review-hold (Exponential 6.0.15 or later).</source>
+        <translation>עיכובים לבדיקה דורשים את קבוצת מצבי האובייקט review_hold: הריצו את שלב השדרוג 6.0.15-review-hold (Exponential 6.0.15 ואילך).</translation>
+    </message>
+    <message>
+        <source>Why is it held? (kept in the audit)</source>
+        <translation>למה הוא מעוכב? (נשמר ביומן הביקורת)</translation>
+    </message>
+    <message>
+        <source>Note for the audit (optional)</source>
+        <translation>הערה ליומן הביקורת (אופציונלי)</translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation>עיכוב לבדיקה</translation>
+    </message>
+    <message>
+        <source>Release</source>
+        <translation>שחרור</translation>
+    </message>
+    <message>
+        <source>Say why the page is held.</source>
+        <translation>ציינו למה הדף מעוכב.</translation>
+    </message>
+    <message>
+        <source>The page is held for review.</source>
+        <translation>הדף מעוכב לבדיקה.</translation>
+    </message>
+    <message>
+        <source>The hold is released.</source>
+        <translation>העיכוב שוחרר.</translation>
+    </message>
+    <message>
+        <source>This page is held for review. It can be published once a reviewer releases it.</source>
+        <translation>הדף הזה מעוכב לבדיקה. ניתן יהיה לפרסם אותו לאחר שבודק ישחרר אותו.</translation>
+    </message>
+    <message>
+        <source>Review holds need Exponential 6.0.15 or later, with its upgrade step run.</source>
+        <translation>עיכובים לבדיקה דורשים Exponential 6.0.15 ואילך, עם הרצת שלב השדרוג שלו.</translation>
+    </message>
+    <message>
+        <source>This page is already held for review.</source>
+        <translation>הדף הזה כבר מעוכב לבדיקה.</translation>
+    </message>
+    <message>
+        <source>This page is not held.</source>
+        <translation>הדף הזה אינו מעוכב.</translation>
+    </message>
+    <message>
+        <source>You may not hold this page.</source>
+        <translation>אין לך הרשאה לעכב את הדף הזה.</translation>
+    </message>
+    <message>
+        <source>You may not release this page.</source>
+        <translation>אין לך הרשאה לשחרר את הדף הזה.</translation>
+    </message>
+    <message>
+        <source>The hold was not changed. Try again.</source>
+        <translation>העיכוב לא שונה. נסו שוב.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

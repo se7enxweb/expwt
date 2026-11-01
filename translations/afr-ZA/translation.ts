@@ -2335,6 +2335,90 @@
         <source>Which link?</source>
         <translation>Watter skakel?</translation>
     </message>
+    <message>
+        <source>Review hold</source>
+        <translation>Hersieningsblokkering</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>Vir hersiening teruggehou</translation>
+    </message>
+    <message>
+        <source>Held by %name since %time.</source>
+        <translation>Teruggehou deur %name sedert %time.</translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation>Rede: %reason</translation>
+    </message>
+    <message>
+        <source>You may still edit it, but publishing waits until it is released, unless your role allows it.</source>
+        <translation>Jy kan dit steeds wysig, maar publisering wag totdat dit vrygestel word, tensy jou rol dit toelaat.</translation>
+    </message>
+    <message>
+        <source>Nobody edits or publishes this page until a reviewer releases it.</source>
+        <translation>Niemand wysig of publiseer hierdie bladsy totdat 'n hersiener dit vrystel nie.</translation>
+    </message>
+    <message>
+        <source>Review holds need the object state group review_hold: run the upgrade step 6.0.15-review-hold (Exponential 6.0.15 or later).</source>
+        <translation>Hersieningsblokkerings benodig die objekstatusgroep review_hold: voer die opgraderingstap 6.0.15-review-hold uit (Exponential 6.0.15 of later).</translation>
+    </message>
+    <message>
+        <source>Why is it held? (kept in the audit)</source>
+        <translation>Hoekom word dit teruggehou? (bewaar in die oudit)</translation>
+    </message>
+    <message>
+        <source>Note for the audit (optional)</source>
+        <translation>Nota vir die oudit (opsioneel)</translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation>Hou terug vir hersiening</translation>
+    </message>
+    <message>
+        <source>Release</source>
+        <translation>Stel vry</translation>
+    </message>
+    <message>
+        <source>Say why the page is held.</source>
+        <translation>Sê hoekom die bladsy teruggehou word.</translation>
+    </message>
+    <message>
+        <source>The page is held for review.</source>
+        <translation>Die bladsy word vir hersiening teruggehou.</translation>
+    </message>
+    <message>
+        <source>The hold is released.</source>
+        <translation>Die blokkering is opgehef.</translation>
+    </message>
+    <message>
+        <source>This page is held for review. It can be published once a reviewer releases it.</source>
+        <translation>Hierdie bladsy word vir hersiening teruggehou. Dit kan gepubliseer word sodra 'n hersiener dit vrystel.</translation>
+    </message>
+    <message>
+        <source>Review holds need Exponential 6.0.15 or later, with its upgrade step run.</source>
+        <translation>Hersieningsblokkerings benodig Exponential 6.0.15 of later, met sy opgraderingstap uitgevoer.</translation>
+    </message>
+    <message>
+        <source>This page is already held for review.</source>
+        <translation>Hierdie bladsy word reeds vir hersiening teruggehou.</translation>
+    </message>
+    <message>
+        <source>This page is not held.</source>
+        <translation>Hierdie bladsy word nie teruggehou nie.</translation>
+    </message>
+    <message>
+        <source>You may not hold this page.</source>
+        <translation>Jy mag nie hierdie bladsy terughou nie.</translation>
+    </message>
+    <message>
+        <source>You may not release this page.</source>
+        <translation>Jy mag nie hierdie bladsy vrystel nie.</translation>
+    </message>
+    <message>
+        <source>The hold was not changed. Try again.</source>
+        <translation>Die blokkering is nie verander nie. Probeer weer.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

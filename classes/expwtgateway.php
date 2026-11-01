@@ -211,6 +211,10 @@ class expwtGateway
                 'copy' => $node ? (bool)$object->canRead() : false,
             ),
             'lock' => $lock ? array( 'name' => (string)$lock['name'], 'since' => (int)$lock['since'] ) : null,
+            // the review hold (E14): held or not, who may place or release it; null without the kernel's state group,
+            // and then holdMissing tells those who administrate states
+            'hold' => $node ? expwtHold::forObject( $object, (bool)$object->canEdit( false, false, false, $language ) ) : null,
+            'holdMissing' => $node && expwtHold::group() === null && expwtHold::mayAdministrate( $this->currentUser() ),
             'urls' => array(
                 'view' => $node ? self::url( '/' . ltrim( (string)$node->attribute( 'url_alias' ), '/' ) ) : null,
                 'preview' => self::url( '/content/versionview/' . $id . '/' . $versionNumber . '/' . $language ),
@@ -3434,6 +3438,22 @@ class expwtGateway
      * through content/publish, where the wait-until-date event holds it until publishAt (SCHEDULED) and the hide
      * cronjob takes it down at unpublishAt. A workflow (an approval) may hold the publish: PENDING.
      */
+    /**
+     * Places a review hold on the page's object (E14): state/assign of the kernel decides, a reason is required.
+     */
+    public function holdPlace( array $in )
+    {
+        return array( 'hold' => expwtHold::change( $this->readableObject( $in ), true, isset( $in['reason'] ) ? $in['reason'] : '', $this->currentUser() ) );
+    }
+
+    /**
+     * Releases the review hold of the page's object (E14), with an optional note for the audit.
+     */
+    public function holdRelease( array $in )
+    {
+        return array( 'hold' => expwtHold::change( $this->readableObject( $in ), false, isset( $in['reason'] ) ? $in['reason'] : '', $this->currentUser() ) );
+    }
+
     public function publish( array $in )
     {
         $object = $this->readableObject( $in );
@@ -3451,6 +3471,9 @@ class expwtGateway
             throw new expwtApiError( 400, 'bad_value', 'This is not a date and time.' );
         if ( !$object->canEdit( false, false, false, $language ) )
             throw new expwtApiError( 403, 'forbidden', 'You may not do this.' );
+        // held for review (E14): the kernel would cancel the publication; say so before anything changes
+        if ( expwtHold::refusesPublish( $object ) )
+            throw new expwtApiError( 409, 'held', 'This page is held for review. It can be published once a reviewer releases it.' );
         if ( class_exists( 'expContentSchedule' ) )
         {
             $can = expContentSchedule::forObject( $object );

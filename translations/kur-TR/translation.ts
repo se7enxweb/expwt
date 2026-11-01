@@ -2335,6 +2335,90 @@
         <source>Which link?</source>
         <translation>Kîjan girêdan?</translation>
     </message>
+    <message>
+        <source>Review hold</source>
+        <translation>Rawestandina ji bo nirxandinê</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>Ji bo nirxandinê hatiye rawestandin</translation>
+    </message>
+    <message>
+        <source>Held by %name since %time.</source>
+        <translation>Ji aliyê %name ve ji %time ve hatiye rawestandin.</translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation>Sedem: %reason</translation>
+    </message>
+    <message>
+        <source>You may still edit it, but publishing waits until it is released, unless your role allows it.</source>
+        <translation>Hûn hîn jî dikarin wê sererast bikin, lê weşandin heta ku were berdan li bendê dimîne, heke rola we destûrê nede.</translation>
+    </message>
+    <message>
+        <source>Nobody edits or publishes this page until a reviewer releases it.</source>
+        <translation>Heta ku nirxînerek wê berde, kes vê rûpelê sererast nake û naweşîne.</translation>
+    </message>
+    <message>
+        <source>Review holds need the object state group review_hold: run the upgrade step 6.0.15-review-hold (Exponential 6.0.15 or later).</source>
+        <translation>Rawestandina ji bo nirxandinê koma rewşên objeyê review_hold hewce dike: gava nûkirinê 6.0.15-review-hold bimeşîne (Exponential 6.0.15 an nûtir).</translation>
+    </message>
+    <message>
+        <source>Why is it held? (kept in the audit)</source>
+        <translation>Çima hatiye rawestandin? (di kontrolê de tê parastin)</translation>
+    </message>
+    <message>
+        <source>Note for the audit (optional)</source>
+        <translation>Nîşe ji bo kontrolê (ne mecbûrî)</translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation>Ji bo nirxandinê rawestîne</translation>
+    </message>
+    <message>
+        <source>Release</source>
+        <translation>Berde</translation>
+    </message>
+    <message>
+        <source>Say why the page is held.</source>
+        <translation>Bêje çima rûpel hatiye rawestandin.</translation>
+    </message>
+    <message>
+        <source>The page is held for review.</source>
+        <translation>Rûpel ji bo nirxandinê hat rawestandin.</translation>
+    </message>
+    <message>
+        <source>The hold is released.</source>
+        <translation>Rawestandin hat berdan.</translation>
+    </message>
+    <message>
+        <source>This page is held for review. It can be published once a reviewer releases it.</source>
+        <translation>Ev rûpel ji bo nirxandinê hatiye rawestandin. Dema nirxînerek wê berde, dikare were weşandin.</translation>
+    </message>
+    <message>
+        <source>Review holds need Exponential 6.0.15 or later, with its upgrade step run.</source>
+        <translation>Rawestandina ji bo nirxandinê Exponential 6.0.15 an nûtir hewce dike, bi gava wê ya nûkirinê ya meşandî.</translation>
+    </message>
+    <message>
+        <source>This page is already held for review.</source>
+        <translation>Ev rûpel jixwe ji bo nirxandinê hatiye rawestandin.</translation>
+    </message>
+    <message>
+        <source>This page is not held.</source>
+        <translation>Ev rûpel nehatiye rawestandin.</translation>
+    </message>
+    <message>
+        <source>You may not hold this page.</source>
+        <translation>Destûra we tune ku vê rûpelê rawestînin.</translation>
+    </message>
+    <message>
+        <source>You may not release this page.</source>
+        <translation>Destûra we tune ku vê rûpelê berdin.</translation>
+    </message>
+    <message>
+        <source>The hold was not changed. Try again.</source>
+        <translation>Rawestandin nehat guhertin. Dîsa biceribîne.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

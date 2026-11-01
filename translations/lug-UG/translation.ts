@@ -2335,6 +2335,90 @@
         <source>Which link?</source>
         <translation>Nkolagana ki?</translation>
     </message>
+    <message>
+        <source>Review hold</source>
+        <translation>Okuyimiriza olw'okwekenneenya</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>Kiyimiriziddwa olw'okwekenneenya</translation>
+    </message>
+    <message>
+        <source>Held by %name since %time.</source>
+        <translation>Kiyimiriziddwa %name okuva %time.</translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation>Ensonga: %reason</translation>
+    </message>
+    <message>
+        <source>You may still edit it, but publishing waits until it is released, unless your role allows it.</source>
+        <translation>Okyasobola okukikyusa, naye okufulumya kulindirira okutuusa lwe kiteebwa, okuggyako ng'omulimu gwo gukikkiriza.</translation>
+    </message>
+    <message>
+        <source>Nobody edits or publishes this page until a reviewer releases it.</source>
+        <translation>Tewali ayinza kukyusa wadde okufulumya olupapula luno okutuusa omwekenneenya lw'alututa.</translation>
+    </message>
+    <message>
+        <source>Review holds need the object state group review_hold: run the upgrade step 6.0.15-review-hold (Exponential 6.0.15 or later).</source>
+        <translation>Okuyimiriza olw'okwekenneenya kwetaaga ekibinja ky'embeera z'ekintu review_hold: dduka eddaala ly'okulongoosa 6.0.15-review-hold (Exponential 6.0.15 oba ekiddako).</translation>
+    </message>
+    <message>
+        <source>Why is it held? (kept in the audit)</source>
+        <translation>Lwaki kiyimiriziddwa? (kiterekebwa mu kubala)</translation>
+    </message>
+    <message>
+        <source>Note for the audit (optional)</source>
+        <translation>Ekiwandiiko eky'okubala (si kya buwaze)</translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation>Yimiriza olw'okwekenneenya</translation>
+    </message>
+    <message>
+        <source>Release</source>
+        <translation>Teeba</translation>
+    </message>
+    <message>
+        <source>Say why the page is held.</source>
+        <translation>Gamba lwaki olupapula luyimiriziddwa.</translation>
+    </message>
+    <message>
+        <source>The page is held for review.</source>
+        <translation>Olupapula luyimiriziddwa olw'okwekenneenya.</translation>
+    </message>
+    <message>
+        <source>The hold is released.</source>
+        <translation>Okuyimiriza kuggiddwawo.</translation>
+    </message>
+    <message>
+        <source>This page is held for review. It can be published once a reviewer releases it.</source>
+        <translation>Olupapula luno luyimiriziddwa olw'okwekenneenya. Lusobola okufulumizibwa omwekenneenya ng'alutute.</translation>
+    </message>
+    <message>
+        <source>Review holds need Exponential 6.0.15 or later, with its upgrade step run.</source>
+        <translation>Okuyimiriza olw'okwekenneenya kwetaaga Exponential 6.0.15 oba ekiddako, nga eddaala lyakyo ery'okulongoosa lidduse.</translation>
+    </message>
+    <message>
+        <source>This page is already held for review.</source>
+        <translation>Olupapula luno lwamala dda okuyimirizibwa olw'okwekenneenya.</translation>
+    </message>
+    <message>
+        <source>This page is not held.</source>
+        <translation>Olupapula luno teluyimiriziddwa.</translation>
+    </message>
+    <message>
+        <source>You may not hold this page.</source>
+        <translation>Tokkirizibwa kuyimiriza lupapula luno.</translation>
+    </message>
+    <message>
+        <source>You may not release this page.</source>
+        <translation>Tokkirizibwa kuteeba lupapula luno.</translation>
+    </message>
+    <message>
+        <source>The hold was not changed. Try again.</source>
+        <translation>Okuyimiriza tekukyusiddwa. Gezaako nate.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

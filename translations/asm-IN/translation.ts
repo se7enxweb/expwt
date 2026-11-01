@@ -2335,6 +2335,90 @@
         <source>Which link?</source>
         <translation>কোন লিংক?</translation>
     </message>
+    <message>
+        <source>Review hold</source>
+        <translation>পৰ্যালোচনা স্থগিতকৰণ</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>পৰ্যালোচনাৰ বাবে স্থগিত</translation>
+    </message>
+    <message>
+        <source>Held by %name since %time.</source>
+        <translation>%name-এ %time-ৰ পৰা স্থগিত ৰাখিছে।</translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation>কাৰণ: %reason</translation>
+    </message>
+    <message>
+        <source>You may still edit it, but publishing waits until it is released, unless your role allows it.</source>
+        <translation>আপুনি এতিয়াও ইয়াক সম্পাদনা কৰিব পাৰে, কিন্তু আপোনাৰ ভূমিকাই অনুমতি নিদিলে মুক্ত নোহোৱালৈকে প্ৰকাশ অপেক্ষা কৰে।</translation>
+    </message>
+    <message>
+        <source>Nobody edits or publishes this page until a reviewer releases it.</source>
+        <translation>এজন পৰ্যালোচকে মুক্ত নকৰালৈকে কোনেও এই পৃষ্ঠা সম্পাদনা বা প্ৰকাশ নকৰে।</translation>
+    </message>
+    <message>
+        <source>Review holds need the object state group review_hold: run the upgrade step 6.0.15-review-hold (Exponential 6.0.15 or later).</source>
+        <translation>পৰ্যালোচনা স্থগিতকৰণৰ বাবে অবজেক্ট অৱস্থা গোট review_hold লাগে: আপগ্ৰেড পদক্ষেপ 6.0.15-review-hold চলাওক (Exponential 6.0.15 বা পিছৰ)।</translation>
+    </message>
+    <message>
+        <source>Why is it held? (kept in the audit)</source>
+        <translation>কিয় স্থগিত ৰখা হৈছে? (অডিটত ৰখা হয়)</translation>
+    </message>
+    <message>
+        <source>Note for the audit (optional)</source>
+        <translation>অডিটৰ বাবে টোকা (ঐচ্ছিক)</translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation>পৰ্যালোচনাৰ বাবে স্থগিত ৰাখক</translation>
+    </message>
+    <message>
+        <source>Release</source>
+        <translation>মুক্ত কৰক</translation>
+    </message>
+    <message>
+        <source>Say why the page is held.</source>
+        <translation>পৃষ্ঠাটো কিয় স্থগিত ৰখা হৈছে কওক।</translation>
+    </message>
+    <message>
+        <source>The page is held for review.</source>
+        <translation>পৃষ্ঠাটো পৰ্যালোচনাৰ বাবে স্থগিত ৰখা হৈছে।</translation>
+    </message>
+    <message>
+        <source>The hold is released.</source>
+        <translation>স্থগিতকৰণ মুক্ত কৰা হ'ল।</translation>
+    </message>
+    <message>
+        <source>This page is held for review. It can be published once a reviewer releases it.</source>
+        <translation>এই পৃষ্ঠাটো পৰ্যালোচনাৰ বাবে স্থগিত ৰখা হৈছে। এজন পৰ্যালোচকে মুক্ত কৰাৰ পিছত ইয়াক প্ৰকাশ কৰিব পাৰি।</translation>
+    </message>
+    <message>
+        <source>Review holds need Exponential 6.0.15 or later, with its upgrade step run.</source>
+        <translation>পৰ্যালোচনা স্থগিতকৰণৰ বাবে Exponential 6.0.15 বা পিছৰ সংস্কৰণ লাগে, ইয়াৰ আপগ্ৰেড পদক্ষেপ চলোৱা হ'ব লাগিব।</translation>
+    </message>
+    <message>
+        <source>This page is already held for review.</source>
+        <translation>এই পৃষ্ঠাটো ইতিমধ্যে পৰ্যালোচনাৰ বাবে স্থগিত ৰখা হৈছে।</translation>
+    </message>
+    <message>
+        <source>This page is not held.</source>
+        <translation>এই পৃষ্ঠাটো স্থগিত ৰখা হোৱা নাই।</translation>
+    </message>
+    <message>
+        <source>You may not hold this page.</source>
+        <translation>আপুনি এই পৃষ্ঠাটো স্থগিত ৰাখিব নোৱাৰে।</translation>
+    </message>
+    <message>
+        <source>You may not release this page.</source>
+        <translation>আপুনি এই পৃষ্ঠাটো মুক্ত কৰিব নোৱাৰে।</translation>
+    </message>
+    <message>
+        <source>The hold was not changed. Try again.</source>
+        <translation>স্থগিতকৰণ সলনি কৰা নহ'ল। পুনৰ চেষ্টা কৰক।</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

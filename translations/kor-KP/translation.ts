@@ -2335,6 +2335,90 @@
         <source>Which link?</source>
         <translation>어떤 링크입니까?</translation>
     </message>
+    <message>
+        <source>Review hold</source>
+        <translation>검토 보류</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>검토를 위해 보류됨</translation>
+    </message>
+    <message>
+        <source>Held by %name since %time.</source>
+        <translation>%name이(가) %time부터 보류함.</translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation>사유: %reason</translation>
+    </message>
+    <message>
+        <source>You may still edit it, but publishing waits until it is released, unless your role allows it.</source>
+        <translation>계속 편집할 수는 있지만, 역할에서 허용하지 않는 한 게시는 보류가 해제될 때까지 기다립니다.</translation>
+    </message>
+    <message>
+        <source>Nobody edits or publishes this page until a reviewer releases it.</source>
+        <translation>검토자가 해제할 때까지 아무도 이 페이지를 편집하거나 게시할 수 없습니다.</translation>
+    </message>
+    <message>
+        <source>Review holds need the object state group review_hold: run the upgrade step 6.0.15-review-hold (Exponential 6.0.15 or later).</source>
+        <translation>검토 보류에는 객체 상태 그룹 review_hold가 필요합니다. 업그레이드 단계 6.0.15-review-hold를 실행하십시오 (Exponential 6.0.15 이상).</translation>
+    </message>
+    <message>
+        <source>Why is it held? (kept in the audit)</source>
+        <translation>보류하는 이유는 무엇입니까? (감사 기록에 보관됨)</translation>
+    </message>
+    <message>
+        <source>Note for the audit (optional)</source>
+        <translation>감사용 메모 (선택 사항)</translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation>검토를 위해 보류</translation>
+    </message>
+    <message>
+        <source>Release</source>
+        <translation>해제</translation>
+    </message>
+    <message>
+        <source>Say why the page is held.</source>
+        <translation>페이지를 보류하는 이유를 입력하십시오.</translation>
+    </message>
+    <message>
+        <source>The page is held for review.</source>
+        <translation>페이지가 검토를 위해 보류되었습니다.</translation>
+    </message>
+    <message>
+        <source>The hold is released.</source>
+        <translation>보류가 해제되었습니다.</translation>
+    </message>
+    <message>
+        <source>This page is held for review. It can be published once a reviewer releases it.</source>
+        <translation>이 페이지는 검토를 위해 보류되어 있습니다. 검토자가 해제하면 게시할 수 있습니다.</translation>
+    </message>
+    <message>
+        <source>Review holds need Exponential 6.0.15 or later, with its upgrade step run.</source>
+        <translation>검토 보류에는 Exponential 6.0.15 이상과 해당 업그레이드 단계 실행이 필요합니다.</translation>
+    </message>
+    <message>
+        <source>This page is already held for review.</source>
+        <translation>이 페이지는 이미 검토를 위해 보류되어 있습니다.</translation>
+    </message>
+    <message>
+        <source>This page is not held.</source>
+        <translation>이 페이지는 보류되어 있지 않습니다.</translation>
+    </message>
+    <message>
+        <source>You may not hold this page.</source>
+        <translation>이 페이지를 보류할 권한이 없습니다.</translation>
+    </message>
+    <message>
+        <source>You may not release this page.</source>
+        <translation>이 페이지의 보류를 해제할 권한이 없습니다.</translation>
+    </message>
+    <message>
+        <source>The hold was not changed. Try again.</source>
+        <translation>보류가 변경되지 않았습니다. 다시 시도하십시오.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

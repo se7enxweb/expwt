@@ -217,6 +217,10 @@ class expwtApi
                 return $g->calendarVariant( self::ids( $input, array( 'conditionId' ) ) + self::strings( $input, array( 'which', 'at' ) ) );
             case 'performance.load':
                 return expwtPerformance::status();
+            case 'hold.place':
+                return $g->holdPlace( self::ids( $input, array( 'objectId' ) ) + self::strings( $input, array( 'reason' ) ) );
+            case 'hold.release':
+                return $g->holdRelease( self::ids( $input, array( 'objectId' ) ) + self::strings( $input, array( 'reason' ) ) );
             case 'export.fields':
                 return $g->exportFields( self::ids( $input, array( 'objectId', 'version' ) ) + self::strings( $input, array( 'which', 'language', 'format' ) ) );
             case 'share.load':

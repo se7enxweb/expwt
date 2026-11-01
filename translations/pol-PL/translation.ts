@@ -2335,6 +2335,90 @@
         <source>Which link?</source>
         <translation>Który link?</translation>
     </message>
+    <message>
+        <source>Review hold</source>
+        <translation>Wstrzymanie do przeglądu</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>Wstrzymano do przeglądu</translation>
+    </message>
+    <message>
+        <source>Held by %name since %time.</source>
+        <translation>Wstrzymane przez %name od %time.</translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation>Powód: %reason</translation>
+    </message>
+    <message>
+        <source>You may still edit it, but publishing waits until it is released, unless your role allows it.</source>
+        <translation>Nadal możesz ją edytować, ale publikacja czeka na zwolnienie, chyba że Twoja rola na to pozwala.</translation>
+    </message>
+    <message>
+        <source>Nobody edits or publishes this page until a reviewer releases it.</source>
+        <translation>Nikt nie edytuje ani nie publikuje tej strony, dopóki recenzent jej nie zwolni.</translation>
+    </message>
+    <message>
+        <source>Review holds need the object state group review_hold: run the upgrade step 6.0.15-review-hold (Exponential 6.0.15 or later).</source>
+        <translation>Wstrzymania do przeglądu wymagają grupy stanów obiektu review_hold: uruchom krok aktualizacji 6.0.15-review-hold (Exponential 6.0.15 lub nowszy).</translation>
+    </message>
+    <message>
+        <source>Why is it held? (kept in the audit)</source>
+        <translation>Dlaczego jest wstrzymana? (zapisywane w audycie)</translation>
+    </message>
+    <message>
+        <source>Note for the audit (optional)</source>
+        <translation>Uwaga do audytu (opcjonalnie)</translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation>Wstrzymaj do przeglądu</translation>
+    </message>
+    <message>
+        <source>Release</source>
+        <translation>Zwolnij</translation>
+    </message>
+    <message>
+        <source>Say why the page is held.</source>
+        <translation>Podaj, dlaczego strona jest wstrzymana.</translation>
+    </message>
+    <message>
+        <source>The page is held for review.</source>
+        <translation>Strona jest wstrzymana do przeglądu.</translation>
+    </message>
+    <message>
+        <source>The hold is released.</source>
+        <translation>Wstrzymanie zostało zwolnione.</translation>
+    </message>
+    <message>
+        <source>This page is held for review. It can be published once a reviewer releases it.</source>
+        <translation>Ta strona jest wstrzymana do przeglądu. Można ją opublikować, gdy recenzent ją zwolni.</translation>
+    </message>
+    <message>
+        <source>Review holds need Exponential 6.0.15 or later, with its upgrade step run.</source>
+        <translation>Wstrzymania do przeglądu wymagają Exponential 6.0.15 lub nowszego z uruchomionym krokiem aktualizacji.</translation>
+    </message>
+    <message>
+        <source>This page is already held for review.</source>
+        <translation>Ta strona jest już wstrzymana do przeglądu.</translation>
+    </message>
+    <message>
+        <source>This page is not held.</source>
+        <translation>Ta strona nie jest wstrzymana.</translation>
+    </message>
+    <message>
+        <source>You may not hold this page.</source>
+        <translation>Nie możesz wstrzymać tej strony.</translation>
+    </message>
+    <message>
+        <source>You may not release this page.</source>
+        <translation>Nie możesz zwolnić tej strony.</translation>
+    </message>
+    <message>
+        <source>The hold was not changed. Try again.</source>
+        <translation>Wstrzymanie nie zostało zmienione. Spróbuj ponownie.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

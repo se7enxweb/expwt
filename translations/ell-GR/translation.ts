@@ -2335,6 +2335,90 @@
         <source>Which link?</source>
         <translation>Ποιος σύνδεσμος;</translation>
     </message>
+    <message>
+        <source>Review hold</source>
+        <translation>Αναστολή για έλεγχο</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>Σε αναστολή για έλεγχο</translation>
+    </message>
+    <message>
+        <source>Held by %name since %time.</source>
+        <translation>Σε αναστολή από %name από %time.</translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation>Αιτία: %reason</translation>
+    </message>
+    <message>
+        <source>You may still edit it, but publishing waits until it is released, unless your role allows it.</source>
+        <translation>Μπορείτε ακόμη να την επεξεργαστείτε, αλλά η δημοσίευση περιμένει μέχρι να αρθεί η αναστολή, εκτός αν ο ρόλος σας το επιτρέπει.</translation>
+    </message>
+    <message>
+        <source>Nobody edits or publishes this page until a reviewer releases it.</source>
+        <translation>Κανείς δεν επεξεργάζεται ούτε δημοσιεύει αυτή τη σελίδα μέχρι να την αποδεσμεύσει ένας ελεγκτής.</translation>
+    </message>
+    <message>
+        <source>Review holds need the object state group review_hold: run the upgrade step 6.0.15-review-hold (Exponential 6.0.15 or later).</source>
+        <translation>Οι αναστολές για έλεγχο χρειάζονται την ομάδα καταστάσεων αντικειμένου review_hold: εκτελέστε το βήμα αναβάθμισης 6.0.15-review-hold (Exponential 6.0.15 ή νεότερο).</translation>
+    </message>
+    <message>
+        <source>Why is it held? (kept in the audit)</source>
+        <translation>Γιατί τίθεται σε αναστολή; (καταγράφεται στο αρχείο ελέγχου)</translation>
+    </message>
+    <message>
+        <source>Note for the audit (optional)</source>
+        <translation>Σημείωση για το αρχείο ελέγχου (προαιρετικό)</translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation>Αναστολή για έλεγχο</translation>
+    </message>
+    <message>
+        <source>Release</source>
+        <translation>Αποδέσμευση</translation>
+    </message>
+    <message>
+        <source>Say why the page is held.</source>
+        <translation>Πείτε γιατί η σελίδα τίθεται σε αναστολή.</translation>
+    </message>
+    <message>
+        <source>The page is held for review.</source>
+        <translation>Η σελίδα τέθηκε σε αναστολή για έλεγχο.</translation>
+    </message>
+    <message>
+        <source>The hold is released.</source>
+        <translation>Η αναστολή άρθηκε.</translation>
+    </message>
+    <message>
+        <source>This page is held for review. It can be published once a reviewer releases it.</source>
+        <translation>Αυτή η σελίδα είναι σε αναστολή για έλεγχο. Μπορεί να δημοσιευτεί μόλις την αποδεσμεύσει ένας ελεγκτής.</translation>
+    </message>
+    <message>
+        <source>Review holds need Exponential 6.0.15 or later, with its upgrade step run.</source>
+        <translation>Οι αναστολές για έλεγχο χρειάζονται Exponential 6.0.15 ή νεότερο, με εκτελεσμένο το βήμα αναβάθμισής του.</translation>
+    </message>
+    <message>
+        <source>This page is already held for review.</source>
+        <translation>Αυτή η σελίδα είναι ήδη σε αναστολή για έλεγχο.</translation>
+    </message>
+    <message>
+        <source>This page is not held.</source>
+        <translation>Αυτή η σελίδα δεν είναι σε αναστολή.</translation>
+    </message>
+    <message>
+        <source>You may not hold this page.</source>
+        <translation>Δεν επιτρέπεται να θέσετε αυτή τη σελίδα σε αναστολή.</translation>
+    </message>
+    <message>
+        <source>You may not release this page.</source>
+        <translation>Δεν επιτρέπεται να αποδεσμεύσετε αυτή τη σελίδα.</translation>
+    </message>
+    <message>
+        <source>The hold was not changed. Try again.</source>
+        <translation>Η αναστολή δεν άλλαξε. Δοκιμάστε ξανά.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

@@ -2335,6 +2335,90 @@
         <source>Which link?</source>
         <translation>ಯಾವ ಲಿಂಕ್?</translation>
     </message>
+    <message>
+        <source>Review hold</source>
+        <translation>ಪರಿಶೀಲನಾ ತಡೆ</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>ಪರಿಶೀಲನೆಗಾಗಿ ತಡೆಹಿಡಿಯಲಾಗಿದೆ</translation>
+    </message>
+    <message>
+        <source>Held by %name since %time.</source>
+        <translation>%time ರಿಂದ %name ತಡೆಹಿಡಿದಿದ್ದಾರೆ.</translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation>ಕಾರಣ: %reason</translation>
+    </message>
+    <message>
+        <source>You may still edit it, but publishing waits until it is released, unless your role allows it.</source>
+        <translation>ನೀವು ಇನ್ನೂ ಇದನ್ನು ಸಂಪಾದಿಸಬಹುದು, ಆದರೆ ನಿಮ್ಮ ಪಾತ್ರ ಅನುಮತಿಸದ ಹೊರತು, ಬಿಡುಗಡೆಯಾಗುವವರೆಗೆ ಪ್ರಕಟಣೆ ಕಾಯುತ್ತದೆ.</translation>
+    </message>
+    <message>
+        <source>Nobody edits or publishes this page until a reviewer releases it.</source>
+        <translation>ಪರಿಶೀಲಕರು ಬಿಡುಗಡೆ ಮಾಡುವವರೆಗೆ ಯಾರೂ ಈ ಪುಟವನ್ನು ಸಂಪಾದಿಸುವುದಿಲ್ಲ ಅಥವಾ ಪ್ರಕಟಿಸುವುದಿಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>Review holds need the object state group review_hold: run the upgrade step 6.0.15-review-hold (Exponential 6.0.15 or later).</source>
+        <translation>ಪರಿಶೀಲನಾ ತಡೆಗಳಿಗೆ ವಸ್ತು ಸ್ಥಿತಿ ಗುಂಪು review_hold ಅಗತ್ಯವಿದೆ: ಅಪ್‌ಗ್ರೇಡ್ ಹಂತ 6.0.15-review-hold ಅನ್ನು ಚಲಾಯಿಸಿ (Exponential 6.0.15 ಅಥವಾ ನಂತರದ್ದು).</translation>
+    </message>
+    <message>
+        <source>Why is it held? (kept in the audit)</source>
+        <translation>ಇದನ್ನು ಏಕೆ ತಡೆಹಿಡಿಯಲಾಗಿದೆ? (ಲೆಕ್ಕಪರಿಶೋಧನೆಯಲ್ಲಿ ಇರಿಸಲಾಗುತ್ತದೆ)</translation>
+    </message>
+    <message>
+        <source>Note for the audit (optional)</source>
+        <translation>ಲೆಕ್ಕಪರಿಶೋಧನೆಗಾಗಿ ಟಿಪ್ಪಣಿ (ಐಚ್ಛಿಕ)</translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation>ಪರಿಶೀಲನೆಗಾಗಿ ತಡೆಹಿಡಿ</translation>
+    </message>
+    <message>
+        <source>Release</source>
+        <translation>ಬಿಡುಗಡೆ ಮಾಡು</translation>
+    </message>
+    <message>
+        <source>Say why the page is held.</source>
+        <translation>ಪುಟವನ್ನು ಏಕೆ ತಡೆಹಿಡಿಯಲಾಗಿದೆ ಎಂದು ತಿಳಿಸಿ.</translation>
+    </message>
+    <message>
+        <source>The page is held for review.</source>
+        <translation>ಪುಟವನ್ನು ಪರಿಶೀಲನೆಗಾಗಿ ತಡೆಹಿಡಿಯಲಾಗಿದೆ.</translation>
+    </message>
+    <message>
+        <source>The hold is released.</source>
+        <translation>ತಡೆಯನ್ನು ಬಿಡುಗಡೆ ಮಾಡಲಾಗಿದೆ.</translation>
+    </message>
+    <message>
+        <source>This page is held for review. It can be published once a reviewer releases it.</source>
+        <translation>ಈ ಪುಟವನ್ನು ಪರಿಶೀಲನೆಗಾಗಿ ತಡೆಹಿಡಿಯಲಾಗಿದೆ. ಪರಿಶೀಲಕರು ಬಿಡುಗಡೆ ಮಾಡಿದ ನಂತರ ಇದನ್ನು ಪ್ರಕಟಿಸಬಹುದು.</translation>
+    </message>
+    <message>
+        <source>Review holds need Exponential 6.0.15 or later, with its upgrade step run.</source>
+        <translation>ಪರಿಶೀಲನಾ ತಡೆಗಳಿಗೆ Exponential 6.0.15 ಅಥವಾ ನಂತರದ್ದು ಮತ್ತು ಅದರ ಅಪ್‌ಗ್ರೇಡ್ ಹಂತವನ್ನು ಚಲಾಯಿಸಿರುವುದು ಅಗತ್ಯ.</translation>
+    </message>
+    <message>
+        <source>This page is already held for review.</source>
+        <translation>ಈ ಪುಟವನ್ನು ಈಗಾಗಲೇ ಪರಿಶೀಲನೆಗಾಗಿ ತಡೆಹಿಡಿಯಲಾಗಿದೆ.</translation>
+    </message>
+    <message>
+        <source>This page is not held.</source>
+        <translation>ಈ ಪುಟವನ್ನು ತಡೆಹಿಡಿಯಲಾಗಿಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>You may not hold this page.</source>
+        <translation>ಈ ಪುಟವನ್ನು ತಡೆಹಿಡಿಯಲು ನಿಮಗೆ ಅನುಮತಿಯಿಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>You may not release this page.</source>
+        <translation>ಈ ಪುಟವನ್ನು ಬಿಡುಗಡೆ ಮಾಡಲು ನಿಮಗೆ ಅನುಮತಿಯಿಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>The hold was not changed. Try again.</source>
+        <translation>ತಡೆಯನ್ನು ಬದಲಾಯಿಸಲಾಗಿಲ್ಲ. ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

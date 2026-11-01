@@ -2335,6 +2335,90 @@
         <source>Which link?</source>
         <translation>ކޮން ލިންކެއް؟</translation>
     </message>
+    <message>
+        <source>Review hold</source>
+        <translation>ރިވިއުއަށް ހިފަހައްޓާލުން</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>ރިވިއުއަށް ހިފަހައްޓާލެވިފައި</translation>
+    </message>
+    <message>
+        <source>Held by %name since %time.</source>
+        <translation>%name ހިފަހައްޓާލީ %time އިން ފެށިގެން.</translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation>ސަބަބު: %reason</translation>
+    </message>
+    <message>
+        <source>You may still edit it, but publishing waits until it is released, unless your role allows it.</source>
+        <translation>ތިބާއަށް މިހާރުވެސް އެޑިޓް ކުރެވޭނެ، ނަމަވެސް ތިބާގެ ރޯލުން ހުއްދަ ނުދޭނަމަ، ދޫކޮށްލެވެންދެން ޝާއިޢުކުރުން މަޑުކުރާނެ.</translation>
+    </message>
+    <message>
+        <source>Nobody edits or publishes this page until a reviewer releases it.</source>
+        <translation>ރިވިއުކުރާ މީހަކު ދޫކޮށްލަންދެން މި ޞަފްޙާ އެއްވެސް މީހަކު އެޑިޓެއް ނުވަތަ ޝާއިޢުއެއް ނުކުރާނެ.</translation>
+    </message>
+    <message>
+        <source>Review holds need the object state group review_hold: run the upgrade step 6.0.15-review-hold (Exponential 6.0.15 or later).</source>
+        <translation>ރިވިއު ހިފަހައްޓާލުމަށް އޮބްޖެކްޓް ސްޓޭޓް ގްރޫޕް review_hold ބޭނުންވޭ: އަޕްގްރޭޑް ސްޓެޕް 6.0.15-review-hold ހިންގާ (Exponential 6.0.15 ނުވަތަ ފަހުގެ).</translation>
+    </message>
+    <message>
+        <source>Why is it held? (kept in the audit)</source>
+        <translation>ހިފަހައްޓާލީ ކީއްވެ؟ (އޮޑިޓްގައި ރައްކާކުރެވޭ)</translation>
+    </message>
+    <message>
+        <source>Note for the audit (optional)</source>
+        <translation>އޮޑިޓަށް ނޯޓް (އިޚްތިޔާރީ)</translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation>ރިވިއުއަށް ހިފަހައްޓާ</translation>
+    </message>
+    <message>
+        <source>Release</source>
+        <translation>ދޫކޮށްލާ</translation>
+    </message>
+    <message>
+        <source>Say why the page is held.</source>
+        <translation>ޞަފްޙާ ހިފަހައްޓާލީ ކީއްވެކަން ބުނޭ.</translation>
+    </message>
+    <message>
+        <source>The page is held for review.</source>
+        <translation>ޞަފްޙާ ރިވިއުއަށް ހިފަހައްޓާލެވިއްޖެ.</translation>
+    </message>
+    <message>
+        <source>The hold is released.</source>
+        <translation>ހިފަހައްޓާލުން ދޫކޮށްލެވިއްޖެ.</translation>
+    </message>
+    <message>
+        <source>This page is held for review. It can be published once a reviewer releases it.</source>
+        <translation>މި ޞަފްޙާ ރިވިއުއަށް ހިފަހައްޓާލެވިފައިވޭ. ރިވިއުކުރާ މީހަކު ދޫކޮށްލުމުން ޝާއިޢުކުރެވޭނެ.</translation>
+    </message>
+    <message>
+        <source>Review holds need Exponential 6.0.15 or later, with its upgrade step run.</source>
+        <translation>ރިވިއު ހިފަހައްޓާލުމަށް Exponential 6.0.15 ނުވަތަ ފަހުގެ ވަރޝަނެއް ބޭނުންވޭ، އޭގެ އަޕްގްރޭޑް ސްޓެޕް ހިންގާފައި.</translation>
+    </message>
+    <message>
+        <source>This page is already held for review.</source>
+        <translation>މި ޞަފްޙާ ކުރިންވެސް ރިވިއުއަށް ހިފަހައްޓާލެވިފައިވޭ.</translation>
+    </message>
+    <message>
+        <source>This page is not held.</source>
+        <translation>މި ޞަފްޙާ ހިފަހައްޓާލެވިފައެއް ނުވޭ.</translation>
+    </message>
+    <message>
+        <source>You may not hold this page.</source>
+        <translation>މި ޞަފްޙާ ހިފަހައްޓާލުމުގެ ހުއްދައެއް ތިބާއަކަށް ނެތް.</translation>
+    </message>
+    <message>
+        <source>You may not release this page.</source>
+        <translation>މި ޞަފްޙާ ދޫކޮށްލުމުގެ ހުއްދައެއް ތިބާއަކަށް ނެތް.</translation>
+    </message>
+    <message>
+        <source>The hold was not changed. Try again.</source>
+        <translation>ހިފަހައްޓާލުން ބަދަލެއް ނުވި. އަލުން މަސައްކަތްކޮށްލާ.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

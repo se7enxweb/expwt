@@ -2335,6 +2335,90 @@
         <source>Which link?</source>
         <translation>ഏത് ലിങ്ക്?</translation>
     </message>
+    <message>
+        <source>Review hold</source>
+        <translation>അവലോകന തടഞ്ഞുവയ്ക്കൽ</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>അവലോകനത്തിനായി തടഞ്ഞുവച്ചിരിക്കുന്നു</translation>
+    </message>
+    <message>
+        <source>Held by %name since %time.</source>
+        <translation>%time മുതൽ %name തടഞ്ഞുവച്ചിരിക്കുന്നു.</translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation>കാരണം: %reason</translation>
+    </message>
+    <message>
+        <source>You may still edit it, but publishing waits until it is released, unless your role allows it.</source>
+        <translation>നിങ്ങൾക്ക് ഇപ്പോഴും ഇത് എഡിറ്റ് ചെയ്യാം, എന്നാൽ നിങ്ങളുടെ റോൾ അനുവദിക്കുന്നില്ലെങ്കിൽ, വിട്ടുകൊടുക്കുന്നതുവരെ പ്രസിദ്ധീകരണം കാത്തിരിക്കും.</translation>
+    </message>
+    <message>
+        <source>Nobody edits or publishes this page until a reviewer releases it.</source>
+        <translation>ഒരു അവലോകകൻ വിട്ടുകൊടുക്കുന്നതുവരെ ആരും ഈ പേജ് എഡിറ്റ് ചെയ്യുകയോ പ്രസിദ്ധീകരിക്കുകയോ ഇല്ല.</translation>
+    </message>
+    <message>
+        <source>Review holds need the object state group review_hold: run the upgrade step 6.0.15-review-hold (Exponential 6.0.15 or later).</source>
+        <translation>അവലോകന തടഞ്ഞുവയ്ക്കലുകൾക്ക് ഒബ്ജക്റ്റ് സ്റ്റേറ്റ് ഗ്രൂപ്പ് review_hold ആവശ്യമാണ്: അപ്‌ഗ്രേഡ് ഘട്ടം 6.0.15-review-hold പ്രവർത്തിപ്പിക്കുക (Exponential 6.0.15 അല്ലെങ്കിൽ പിന്നീടുള്ളത്).</translation>
+    </message>
+    <message>
+        <source>Why is it held? (kept in the audit)</source>
+        <translation>എന്തുകൊണ്ടാണ് ഇത് തടഞ്ഞുവച്ചത്? (ഓഡിറ്റിൽ സൂക്ഷിക്കും)</translation>
+    </message>
+    <message>
+        <source>Note for the audit (optional)</source>
+        <translation>ഓഡിറ്റിനുള്ള കുറിപ്പ് (ഓപ്ഷണൽ)</translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation>അവലോകനത്തിനായി തടഞ്ഞുവയ്ക്കുക</translation>
+    </message>
+    <message>
+        <source>Release</source>
+        <translation>വിട്ടുകൊടുക്കുക</translation>
+    </message>
+    <message>
+        <source>Say why the page is held.</source>
+        <translation>പേജ് എന്തുകൊണ്ട് തടഞ്ഞുവച്ചു എന്ന് പറയുക.</translation>
+    </message>
+    <message>
+        <source>The page is held for review.</source>
+        <translation>പേജ് അവലോകനത്തിനായി തടഞ്ഞുവച്ചു.</translation>
+    </message>
+    <message>
+        <source>The hold is released.</source>
+        <translation>തടഞ്ഞുവയ്ക്കൽ നീക്കി.</translation>
+    </message>
+    <message>
+        <source>This page is held for review. It can be published once a reviewer releases it.</source>
+        <translation>ഈ പേജ് അവലോകനത്തിനായി തടഞ്ഞുവച്ചിരിക്കുന്നു. ഒരു അവലോകകൻ വിട്ടുകൊടുത്താൽ ഇത് പ്രസിദ്ധീകരിക്കാം.</translation>
+    </message>
+    <message>
+        <source>Review holds need Exponential 6.0.15 or later, with its upgrade step run.</source>
+        <translation>അവലോകന തടഞ്ഞുവയ്ക്കലുകൾക്ക് Exponential 6.0.15 അല്ലെങ്കിൽ പിന്നീടുള്ളതും അതിന്റെ അപ്‌ഗ്രേഡ് ഘട്ടം പ്രവർത്തിപ്പിച്ചതും ആവശ്യമാണ്.</translation>
+    </message>
+    <message>
+        <source>This page is already held for review.</source>
+        <translation>ഈ പേജ് ഇതിനകം അവലോകനത്തിനായി തടഞ്ഞുവച്ചിരിക്കുന്നു.</translation>
+    </message>
+    <message>
+        <source>This page is not held.</source>
+        <translation>ഈ പേജ് തടഞ്ഞുവച്ചിട്ടില്ല.</translation>
+    </message>
+    <message>
+        <source>You may not hold this page.</source>
+        <translation>ഈ പേജ് തടഞ്ഞുവയ്ക്കാൻ നിങ്ങൾക്ക് അനുമതിയില്ല.</translation>
+    </message>
+    <message>
+        <source>You may not release this page.</source>
+        <translation>ഈ പേജ് വിട്ടുകൊടുക്കാൻ നിങ്ങൾക്ക് അനുമതിയില്ല.</translation>
+    </message>
+    <message>
+        <source>The hold was not changed. Try again.</source>
+        <translation>തടഞ്ഞുവയ്ക്കൽ മാറ്റിയിട്ടില്ല. വീണ്ടും ശ്രമിക്കുക.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

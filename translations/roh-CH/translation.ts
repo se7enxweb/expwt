@@ -2335,6 +2335,90 @@
         <source>Which link?</source>
         <translation>Tge colliaziun?</translation>
     </message>
+    <message>
+        <source>Review hold</source>
+        <translation>Retegnida per la revisiun</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>Retegnì per la revisiun</translation>
+    </message>
+    <message>
+        <source>Held by %name since %time.</source>
+        <translation>Retegnì da %name dapi %time.</translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation>Motiv: %reason</translation>
+    </message>
+    <message>
+        <source>You may still edit it, but publishing waits until it is released, unless your role allows it.</source>
+        <translation>Vus pudais anc adina la modifitgar, ma la publitgaziun spetga fin ch'ella è liberada, sche Vossa rolla na permetta betg auter.</translation>
+    </message>
+    <message>
+        <source>Nobody edits or publishes this page until a reviewer releases it.</source>
+        <translation>Nagin na modifitgescha u publitgescha questa pagina fin ch'in revisur la libera.</translation>
+    </message>
+    <message>
+        <source>Review holds need the object state group review_hold: run the upgrade step 6.0.15-review-hold (Exponential 6.0.15 or later).</source>
+        <translation>Las retegnidas per la revisiun dovran la gruppa da stadis d'object review_hold: exequi il pass d'actualisaziun 6.0.15-review-hold (Exponential 6.0.15 u pli nov).</translation>
+    </message>
+    <message>
+        <source>Why is it held? (kept in the audit)</source>
+        <translation>Pertge è ella retegnida? (memorisà en l'audit)</translation>
+    </message>
+    <message>
+        <source>Note for the audit (optional)</source>
+        <translation>Notizia per l'audit (facultativ)</translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation>Retegnair per la revisiun</translation>
+    </message>
+    <message>
+        <source>Release</source>
+        <translation>Liberar</translation>
+    </message>
+    <message>
+        <source>Say why the page is held.</source>
+        <translation>Indicai pertge che la pagina è retegnida.</translation>
+    </message>
+    <message>
+        <source>The page is held for review.</source>
+        <translation>La pagina è retegnida per la revisiun.</translation>
+    </message>
+    <message>
+        <source>The hold is released.</source>
+        <translation>La retegnida è liberada.</translation>
+    </message>
+    <message>
+        <source>This page is held for review. It can be published once a reviewer releases it.</source>
+        <translation>Questa pagina è retegnida per la revisiun. Ella po vegnir publitgada uschespert ch'in revisur la libera.</translation>
+    </message>
+    <message>
+        <source>Review holds need Exponential 6.0.15 or later, with its upgrade step run.</source>
+        <translation>Las retegnidas per la revisiun dovran Exponential 6.0.15 u pli nov, cun ses pass d'actualisaziun exequì.</translation>
+    </message>
+    <message>
+        <source>This page is already held for review.</source>
+        <translation>Questa pagina è gia retegnida per la revisiun.</translation>
+    </message>
+    <message>
+        <source>This page is not held.</source>
+        <translation>Questa pagina n'è betg retegnida.</translation>
+    </message>
+    <message>
+        <source>You may not hold this page.</source>
+        <translation>Vus na dastgais betg retegnair questa pagina.</translation>
+    </message>
+    <message>
+        <source>You may not release this page.</source>
+        <translation>Vus na dastgais betg liberar questa pagina.</translation>
+    </message>
+    <message>
+        <source>The hold was not changed. Try again.</source>
+        <translation>La retegnida n'è betg vegnida midada. Empruvai anc ina giada.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

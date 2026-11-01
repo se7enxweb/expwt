@@ -2335,6 +2335,90 @@
         <source>Which link?</source>
         <translation>எந்த இணைப்பு?</translation>
     </message>
+    <message>
+        <source>Review hold</source>
+        <translation>மதிப்பாய்வுக்கான நிறுத்திவைப்பு</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>மதிப்பாய்வுக்காக நிறுத்திவைக்கப்பட்டது</translation>
+    </message>
+    <message>
+        <source>Held by %name since %time.</source>
+        <translation>%name அவர்களால் %time முதல் நிறுத்திவைக்கப்பட்டது.</translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation>காரணம்: %reason</translation>
+    </message>
+    <message>
+        <source>You may still edit it, but publishing waits until it is released, unless your role allows it.</source>
+        <translation>நீங்கள் இன்னும் இதைத் திருத்தலாம், ஆனால் உங்கள் பங்கு அனுமதித்தால் தவிர, இது விடுவிக்கப்படும் வரை வெளியிடுதல் காத்திருக்கும்.</translation>
+    </message>
+    <message>
+        <source>Nobody edits or publishes this page until a reviewer releases it.</source>
+        <translation>ஒரு மதிப்பாய்வாளர் இந்தப் பக்கத்தை விடுவிக்கும் வரை யாரும் இதைத் திருத்தவோ வெளியிடவோ மாட்டார்கள்.</translation>
+    </message>
+    <message>
+        <source>Review holds need the object state group review_hold: run the upgrade step 6.0.15-review-hold (Exponential 6.0.15 or later).</source>
+        <translation>மதிப்பாய்வு நிறுத்திவைப்புகளுக்கு review_hold என்ற பொருள் நிலைக் குழு தேவை: மேம்படுத்தல் படி 6.0.15-review-hold ஐ இயக்கவும் (Exponential 6.0.15 அல்லது அதற்குப் பிந்தையது).</translation>
+    </message>
+    <message>
+        <source>Why is it held? (kept in the audit)</source>
+        <translation>ஏன் நிறுத்திவைக்கப்பட்டது? (தணிக்கையில் வைக்கப்படும்)</translation>
+    </message>
+    <message>
+        <source>Note for the audit (optional)</source>
+        <translation>தணிக்கைக்கான குறிப்பு (விருப்பத்தேர்வு)</translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation>மதிப்பாய்வுக்காக நிறுத்திவை</translation>
+    </message>
+    <message>
+        <source>Release</source>
+        <translation>விடுவி</translation>
+    </message>
+    <message>
+        <source>Say why the page is held.</source>
+        <translation>பக்கம் ஏன் நிறுத்திவைக்கப்பட்டது என்று கூறவும்.</translation>
+    </message>
+    <message>
+        <source>The page is held for review.</source>
+        <translation>பக்கம் மதிப்பாய்வுக்காக நிறுத்திவைக்கப்பட்டது.</translation>
+    </message>
+    <message>
+        <source>The hold is released.</source>
+        <translation>நிறுத்திவைப்பு விடுவிக்கப்பட்டது.</translation>
+    </message>
+    <message>
+        <source>This page is held for review. It can be published once a reviewer releases it.</source>
+        <translation>இந்தப் பக்கம் மதிப்பாய்வுக்காக நிறுத்திவைக்கப்பட்டுள்ளது. ஒரு மதிப்பாய்வாளர் விடுவித்தவுடன் இதை வெளியிடலாம்.</translation>
+    </message>
+    <message>
+        <source>Review holds need Exponential 6.0.15 or later, with its upgrade step run.</source>
+        <translation>மதிப்பாய்வு நிறுத்திவைப்புகளுக்கு Exponential 6.0.15 அல்லது அதற்குப் பிந்தையது, அதன் மேம்படுத்தல் படி இயக்கப்பட்டு, தேவை.</translation>
+    </message>
+    <message>
+        <source>This page is already held for review.</source>
+        <translation>இந்தப் பக்கம் ஏற்கனவே மதிப்பாய்வுக்காக நிறுத்திவைக்கப்பட்டுள்ளது.</translation>
+    </message>
+    <message>
+        <source>This page is not held.</source>
+        <translation>இந்தப் பக்கம் நிறுத்திவைக்கப்படவில்லை.</translation>
+    </message>
+    <message>
+        <source>You may not hold this page.</source>
+        <translation>இந்தப் பக்கத்தை நிறுத்திவைக்க உங்களுக்கு அனுமதி இல்லை.</translation>
+    </message>
+    <message>
+        <source>You may not release this page.</source>
+        <translation>இந்தப் பக்கத்தை விடுவிக்க உங்களுக்கு அனுமதி இல்லை.</translation>
+    </message>
+    <message>
+        <source>The hold was not changed. Try again.</source>
+        <translation>நிறுத்திவைப்பு மாற்றப்படவில்லை. மீண்டும் முயற்சிக்கவும்.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

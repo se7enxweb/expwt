@@ -2335,6 +2335,90 @@
         <source>Which link?</source>
         <translation>Коя връзка?</translation>
     </message>
+    <message>
+        <source>Review hold</source>
+        <translation>Задържане за преглед</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>Задържана за преглед</translation>
+    </message>
+    <message>
+        <source>Held by %name since %time.</source>
+        <translation>Задържана от %name от %time.</translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation>Причина: %reason</translation>
+    </message>
+    <message>
+        <source>You may still edit it, but publishing waits until it is released, unless your role allows it.</source>
+        <translation>Все още можете да я редактирате, но публикуването изчаква, докато не бъде освободена, освен ако ролята ви не го позволява.</translation>
+    </message>
+    <message>
+        <source>Nobody edits or publishes this page until a reviewer releases it.</source>
+        <translation>Никой не редактира и не публикува тази страница, докато рецензент не я освободи.</translation>
+    </message>
+    <message>
+        <source>Review holds need the object state group review_hold: run the upgrade step 6.0.15-review-hold (Exponential 6.0.15 or later).</source>
+        <translation>Задържането за преглед изисква групата състояния на обект review_hold: изпълнете стъпката за надграждане 6.0.15-review-hold (Exponential 6.0.15 или по-нов).</translation>
+    </message>
+    <message>
+        <source>Why is it held? (kept in the audit)</source>
+        <translation>Защо е задържана? (пази се в одита)</translation>
+    </message>
+    <message>
+        <source>Note for the audit (optional)</source>
+        <translation>Бележка за одита (по избор)</translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation>Задръж за преглед</translation>
+    </message>
+    <message>
+        <source>Release</source>
+        <translation>Освободи</translation>
+    </message>
+    <message>
+        <source>Say why the page is held.</source>
+        <translation>Посочете защо страницата е задържана.</translation>
+    </message>
+    <message>
+        <source>The page is held for review.</source>
+        <translation>Страницата е задържана за преглед.</translation>
+    </message>
+    <message>
+        <source>The hold is released.</source>
+        <translation>Задържането е отменено.</translation>
+    </message>
+    <message>
+        <source>This page is held for review. It can be published once a reviewer releases it.</source>
+        <translation>Тази страница е задържана за преглед. Може да бъде публикувана, след като рецензент я освободи.</translation>
+    </message>
+    <message>
+        <source>Review holds need Exponential 6.0.15 or later, with its upgrade step run.</source>
+        <translation>Задържането за преглед изисква Exponential 6.0.15 или по-нов с изпълнена стъпка за надграждане.</translation>
+    </message>
+    <message>
+        <source>This page is already held for review.</source>
+        <translation>Тази страница вече е задържана за преглед.</translation>
+    </message>
+    <message>
+        <source>This page is not held.</source>
+        <translation>Тази страница не е задържана.</translation>
+    </message>
+    <message>
+        <source>You may not hold this page.</source>
+        <translation>Нямате право да задържате тази страница.</translation>
+    </message>
+    <message>
+        <source>You may not release this page.</source>
+        <translation>Нямате право да освобождавате тази страница.</translation>
+    </message>
+    <message>
+        <source>The hold was not changed. Try again.</source>
+        <translation>Задържането не беше променено. Опитайте отново.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

@@ -2335,6 +2335,90 @@
         <source>Which link?</source>
         <translation>Quel lien ?</translation>
     </message>
+    <message>
+        <source>Review hold</source>
+        <translation>Blocage pour vérification</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>Bloquée pour vérification</translation>
+    </message>
+    <message>
+        <source>Held by %name since %time.</source>
+        <translation>Bloquée par %name depuis %time.</translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation>Motif : %reason</translation>
+    </message>
+    <message>
+        <source>You may still edit it, but publishing waits until it is released, unless your role allows it.</source>
+        <translation>Vous pouvez toujours la modifier, mais la publication attend sa libération, sauf si votre rôle le permet.</translation>
+    </message>
+    <message>
+        <source>Nobody edits or publishes this page until a reviewer releases it.</source>
+        <translation>Personne ne modifie ni ne publie cette page tant qu’un vérificateur ne l’a pas libérée.</translation>
+    </message>
+    <message>
+        <source>Review holds need the object state group review_hold: run the upgrade step 6.0.15-review-hold (Exponential 6.0.15 or later).</source>
+        <translation>Les blocages pour vérification nécessitent le groupe d’états d’objet review_hold : exécutez l’étape de mise à niveau 6.0.15-review-hold (Exponential 6.0.15 ou ultérieur).</translation>
+    </message>
+    <message>
+        <source>Why is it held? (kept in the audit)</source>
+        <translation>Pourquoi est-elle bloquée ? (conservé dans l’audit)</translation>
+    </message>
+    <message>
+        <source>Note for the audit (optional)</source>
+        <translation>Note pour l’audit (facultatif)</translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation>Bloquer pour vérification</translation>
+    </message>
+    <message>
+        <source>Release</source>
+        <translation>Libérer</translation>
+    </message>
+    <message>
+        <source>Say why the page is held.</source>
+        <translation>Indiquez pourquoi la page est bloquée.</translation>
+    </message>
+    <message>
+        <source>The page is held for review.</source>
+        <translation>La page est bloquée pour vérification.</translation>
+    </message>
+    <message>
+        <source>The hold is released.</source>
+        <translation>Le blocage est levé.</translation>
+    </message>
+    <message>
+        <source>This page is held for review. It can be published once a reviewer releases it.</source>
+        <translation>Cette page est bloquée pour vérification. Elle pourra être publiée dès qu’un vérificateur l’aura libérée.</translation>
+    </message>
+    <message>
+        <source>Review holds need Exponential 6.0.15 or later, with its upgrade step run.</source>
+        <translation>Les blocages pour vérification nécessitent Exponential 6.0.15 ou ultérieur, avec son étape de mise à niveau exécutée.</translation>
+    </message>
+    <message>
+        <source>This page is already held for review.</source>
+        <translation>Cette page est déjà bloquée pour vérification.</translation>
+    </message>
+    <message>
+        <source>This page is not held.</source>
+        <translation>Cette page n’est pas bloquée.</translation>
+    </message>
+    <message>
+        <source>You may not hold this page.</source>
+        <translation>Vous n’êtes pas autorisé à bloquer cette page.</translation>
+    </message>
+    <message>
+        <source>You may not release this page.</source>
+        <translation>Vous n’êtes pas autorisé à libérer cette page.</translation>
+    </message>
+    <message>
+        <source>The hold was not changed. Try again.</source>
+        <translation>Le blocage n’a pas été modifié. Réessayez.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

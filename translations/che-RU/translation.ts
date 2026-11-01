@@ -2335,6 +2335,90 @@
         <source>Which link?</source>
         <translation>Муьлха хьажорг?</translation>
     </message>
+    <message>
+        <source>Review hold</source>
+        <translation>Талларан сацор</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>Таллам бан сацийна</translation>
+    </message>
+    <message>
+        <source>Held by %name since %time.</source>
+        <translation>%name сацийна %time дуьйна.</translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation>Бахьана: %reason</translation>
+    </message>
+    <message>
+        <source>You may still edit it, but publishing waits until it is released, unless your role allows it.</source>
+        <translation>Хьуна хӀинца а хийцам бан йиш ю, амма арахецар сацийна ду иза паргӀатйаллалц, хьан роло пурба ца лахь.</translation>
+    </message>
+    <message>
+        <source>Nobody edits or publishes this page until a reviewer releases it.</source>
+        <translation>Талламхочо паргӀатйаллалц цхьаммо а хӀара агӀо ца хийцар я арахецар ца до.</translation>
+    </message>
+    <message>
+        <source>Review holds need the object state group review_hold: run the upgrade step 6.0.15-review-hold (Exponential 6.0.15 or later).</source>
+        <translation>Талларан сацорна объектан хьолан тоба review_hold оьшу: карладаккхаран гӀулч 6.0.15-review-hold лелае (Exponential 6.0.15 я керланиг).</translation>
+    </message>
+    <message>
+        <source>Why is it held? (kept in the audit)</source>
+        <translation>Стенна сацийна иза? (аудитехь лардо)</translation>
+    </message>
+    <message>
+        <source>Note for the audit (optional)</source>
+        <translation>Аудитана билгалдаккхар (ца оьшуш)</translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation>Таллам бан саца</translation>
+    </message>
+    <message>
+        <source>Release</source>
+        <translation>ПаргӀатйаккха</translation>
+    </message>
+    <message>
+        <source>Say why the page is held.</source>
+        <translation>АгӀо стенна сацийна дийца.</translation>
+    </message>
+    <message>
+        <source>The page is held for review.</source>
+        <translation>АгӀо таллам бан сацийна.</translation>
+    </message>
+    <message>
+        <source>The hold is released.</source>
+        <translation>Сацор дӀадаьккхина.</translation>
+    </message>
+    <message>
+        <source>This page is held for review. It can be published once a reviewer releases it.</source>
+        <translation>ХӀара агӀо таллам бан сацийна ю. Талламхочо паргӀатйаьккхинчул тӀаьхьа иза арахеца мега.</translation>
+    </message>
+    <message>
+        <source>Review holds need Exponential 6.0.15 or later, with its upgrade step run.</source>
+        <translation>Талларан сацорна Exponential 6.0.15 я керланиг оьшу, цуьнан карладаккхаран гӀулч лелийна хила.</translation>
+    </message>
+    <message>
+        <source>This page is already held for review.</source>
+        <translation>ХӀара агӀо хӀинцале а таллам бан сацийна ю.</translation>
+    </message>
+    <message>
+        <source>This page is not held.</source>
+        <translation>ХӀара агӀо сацийна яц.</translation>
+    </message>
+    <message>
+        <source>You may not hold this page.</source>
+        <translation>Хьуна хӀара агӀо сацо пурба дац.</translation>
+    </message>
+    <message>
+        <source>You may not release this page.</source>
+        <translation>Хьуна хӀара агӀо паргӀатйаккха пурба дац.</translation>
+    </message>
+    <message>
+        <source>The hold was not changed. Try again.</source>
+        <translation>Сацор ца хийцира. Юха хьажа.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

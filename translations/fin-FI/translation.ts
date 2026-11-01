@@ -2335,6 +2335,90 @@
         <source>Which link?</source>
         <translation>Mikä linkki?</translation>
     </message>
+    <message>
+        <source>Review hold</source>
+        <translation>Tarkastuspito</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>Pidossa tarkastusta varten</translation>
+    </message>
+    <message>
+        <source>Held by %name since %time.</source>
+        <translation>Pidossa käyttäjän %name toimesta %time alkaen.</translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation>Syy: %reason</translation>
+    </message>
+    <message>
+        <source>You may still edit it, but publishing waits until it is released, unless your role allows it.</source>
+        <translation>Voit yhä muokata sitä, mutta julkaisu odottaa, kunnes pito vapautetaan, ellei roolisi salli sitä.</translation>
+    </message>
+    <message>
+        <source>Nobody edits or publishes this page until a reviewer releases it.</source>
+        <translation>Kukaan ei muokkaa tai julkaise tätä sivua, ennen kuin tarkastaja vapauttaa sen.</translation>
+    </message>
+    <message>
+        <source>Review holds need the object state group review_hold: run the upgrade step 6.0.15-review-hold (Exponential 6.0.15 or later).</source>
+        <translation>Tarkastuspidot tarvitsevat objektin tilaryhmän review_hold: suorita päivitysvaihe 6.0.15-review-hold (Exponential 6.0.15 tai uudempi).</translation>
+    </message>
+    <message>
+        <source>Why is it held? (kept in the audit)</source>
+        <translation>Miksi se on pidossa? (säilytetään auditoinnissa)</translation>
+    </message>
+    <message>
+        <source>Note for the audit (optional)</source>
+        <translation>Huomautus auditointia varten (valinnainen)</translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation>Pidä tarkastusta varten</translation>
+    </message>
+    <message>
+        <source>Release</source>
+        <translation>Vapauta</translation>
+    </message>
+    <message>
+        <source>Say why the page is held.</source>
+        <translation>Kerro, miksi sivu on pidossa.</translation>
+    </message>
+    <message>
+        <source>The page is held for review.</source>
+        <translation>Sivu on pidossa tarkastusta varten.</translation>
+    </message>
+    <message>
+        <source>The hold is released.</source>
+        <translation>Pito on vapautettu.</translation>
+    </message>
+    <message>
+        <source>This page is held for review. It can be published once a reviewer releases it.</source>
+        <translation>Tämä sivu on pidossa tarkastusta varten. Sen voi julkaista, kun tarkastaja vapauttaa sen.</translation>
+    </message>
+    <message>
+        <source>Review holds need Exponential 6.0.15 or later, with its upgrade step run.</source>
+        <translation>Tarkastuspidot tarvitsevat Exponential 6.0.15:n tai uudemman, ja sen päivitysvaiheen on oltava suoritettu.</translation>
+    </message>
+    <message>
+        <source>This page is already held for review.</source>
+        <translation>Tämä sivu on jo pidossa tarkastusta varten.</translation>
+    </message>
+    <message>
+        <source>This page is not held.</source>
+        <translation>Tämä sivu ei ole pidossa.</translation>
+    </message>
+    <message>
+        <source>You may not hold this page.</source>
+        <translation>Et saa asettaa tätä sivua pitoon.</translation>
+    </message>
+    <message>
+        <source>You may not release this page.</source>
+        <translation>Et saa vapauttaa tätä sivua.</translation>
+    </message>
+    <message>
+        <source>The hold was not changed. Try again.</source>
+        <translation>Pitoa ei muutettu. Yritä uudelleen.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

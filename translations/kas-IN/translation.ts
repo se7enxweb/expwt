@@ -2335,6 +2335,90 @@
         <source>Which link?</source>
         <translation>کۆنسہٕ لِنک؟</translation>
     </message>
+    <message>
+        <source>Review hold</source>
+        <translation>جایزٕ خٲطرٕ روٗکاوٕ</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>جایزٕ خٲطرٕ روٗکنہٕ آمٕژ</translation>
+    </message>
+    <message>
+        <source>Held by %name since %time.</source>
+        <translation>%name ہٕن %time پٮ۪ٹھٕ روٗکمٕژ۔</translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation>وجہ: %reason</translation>
+    </message>
+    <message>
+        <source>You may still edit it, but publishing waits until it is released, unless your role allows it.</source>
+        <translation>توہہ ہیٚکِو اَتھ وُنہِ تَرمیم کٔرِتھ، مگر شایع کرُن روٗزِ انتظار کران یوٚت تام یہ آزاد آسہِ گژھان، اگر نہٕ تُہُند رول اَمِچ اجازت دِیہِ۔</translation>
+    </message>
+    <message>
+        <source>Nobody edits or publishes this page until a reviewer releases it.</source>
+        <translation>یوٚت تام نہٕ کانٛہہ جایزٕ نِنَن وول اَتھ آزاد کرِ، کانٛہہ ہیٚکہِ نہٕ یہ صفحہٕ تَرمیم یا شایع کٔرِتھ۔</translation>
+    </message>
+    <message>
+        <source>Review holds need the object state group review_hold: run the upgrade step 6.0.15-review-hold (Exponential 6.0.15 or later).</source>
+        <translation>جایزٕ خٲطرٕ روٗکاوٕ چھُ آبجیکٹ حالتٕچ گروپ review_hold ضروری: اپ گریڈ قدم 6.0.15-review-hold چلٲوِو (Exponential 6.0.15 یا پَتہٕ کُن)۔</translation>
+    </message>
+    <message>
+        <source>Why is it held? (kept in the audit)</source>
+        <translation>یہ کیازِ چھُ روٗکمُت؟ (آڈٹس منٛز تھاونہٕ یِوان)</translation>
+    </message>
+    <message>
+        <source>Note for the audit (optional)</source>
+        <translation>آڈٹ خٲطرٕ نوٹ (اختیٲری)</translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation>جایزٕ خٲطرٕ روٗکِو</translation>
+    </message>
+    <message>
+        <source>Release</source>
+        <translation>آزاد کٔرِو</translation>
+    </message>
+    <message>
+        <source>Say why the page is held.</source>
+        <translation>ؤنِو صفحہٕ کیازِ چھُ روٗکمُت۔</translation>
+    </message>
+    <message>
+        <source>The page is held for review.</source>
+        <translation>صفحہٕ آو جایزٕ خٲطرٕ روٗکنہٕ۔</translation>
+    </message>
+    <message>
+        <source>The hold is released.</source>
+        <translation>روٗکاوٕ آو آزاد کرنہٕ۔</translation>
+    </message>
+    <message>
+        <source>This page is held for review. It can be published once a reviewer releases it.</source>
+        <translation>یہ صفحہٕ چھُ جایزٕ خٲطرٕ روٗکمُت۔ ییلہِ کانٛہہ جایزٕ نِنَن وول اَتھ آزاد کرِ، ہیٚکہِ یہ شایع گٔژھِتھ۔</translation>
+    </message>
+    <message>
+        <source>Review holds need Exponential 6.0.15 or later, with its upgrade step run.</source>
+        <translation>جایزٕ خٲطرٕ روٗکاوٕ چھُ Exponential 6.0.15 یا پَتہٕ کُن ضروری، تہٕ اَمہِ ہُند اپ گریڈ قدم چلاونہٕ آمُت۔</translation>
+    </message>
+    <message>
+        <source>This page is already held for review.</source>
+        <translation>یہ صفحہٕ چھُ گۄڈے جایزٕ خٲطرٕ روٗکمُت۔</translation>
+    </message>
+    <message>
+        <source>This page is not held.</source>
+        <translation>یہ صفحہٕ چھُ نہٕ روٗکمُت۔</translation>
+    </message>
+    <message>
+        <source>You may not hold this page.</source>
+        <translation>توہہ ہیٚکِو نہٕ یہ صفحہٕ روٗکِتھ۔</translation>
+    </message>
+    <message>
+        <source>You may not release this page.</source>
+        <translation>توہہ ہیٚکِو نہٕ یہ صفحہٕ آزاد کٔرِتھ۔</translation>
+    </message>
+    <message>
+        <source>The hold was not changed. Try again.</source>
+        <translation>روٗکاوٕ آو نہٕ بدلاونہٕ۔ دوبارٕ کوٗشِش کٔرِو۔</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

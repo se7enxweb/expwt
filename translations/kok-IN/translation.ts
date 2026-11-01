@@ -2335,6 +2335,90 @@
         <source>Which link?</source>
         <translation>खंयचो दुवो?</translation>
     </message>
+    <message>
+        <source>Review hold</source>
+        <translation>आढाव्या खातीर रोखप</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>आढाव्या खातीर रोखून दवरला</translation>
+    </message>
+    <message>
+        <source>Held by %name since %time.</source>
+        <translation>%name हांणी %time सावन रोखून दवरला.</translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation>कारण: %reason</translation>
+    </message>
+    <message>
+        <source>You may still edit it, but publishing waits until it is released, unless your role allows it.</source>
+        <translation>तुमी अजून तें संपादन करूंक शकतात, पूण तुमची भूमिका परवानगी दिना जाल्यार, सोडयसर प्रकाशन वाट पळयता.</translation>
+    </message>
+    <message>
+        <source>Nobody edits or publishes this page until a reviewer releases it.</source>
+        <translation>आढावो घेवपी तें सोडयसर कोणूच हें पान संपादन वा प्रकाशीत करूंक शकना.</translation>
+    </message>
+    <message>
+        <source>Review holds need the object state group review_hold: run the upgrade step 6.0.15-review-hold (Exponential 6.0.15 or later).</source>
+        <translation>आढाव्या खातीर रोखपाक वस्तू स्थिती गट review_hold गरजेचो: अपग्रेड पावल 6.0.15-review-hold चालयात (Exponential 6.0.15 वा उपरांतचें).</translation>
+    </message>
+    <message>
+        <source>Why is it held? (kept in the audit)</source>
+        <translation>तें कित्याक रोखलां? (ऑडिटांत दवरतात)</translation>
+    </message>
+    <message>
+        <source>Note for the audit (optional)</source>
+        <translation>ऑडिटाखातीर टिपण (पर्यायी)</translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation>आढाव्या खातीर रोखात</translation>
+    </message>
+    <message>
+        <source>Release</source>
+        <translation>सोडात</translation>
+    </message>
+    <message>
+        <source>Say why the page is held.</source>
+        <translation>पान कित्याक रोखलां तें सांगात.</translation>
+    </message>
+    <message>
+        <source>The page is held for review.</source>
+        <translation>पान आढाव्या खातीर रोखलां.</translation>
+    </message>
+    <message>
+        <source>The hold is released.</source>
+        <translation>रोखप सोडलां.</translation>
+    </message>
+    <message>
+        <source>This page is held for review. It can be published once a reviewer releases it.</source>
+        <translation>हें पान आढाव्या खातीर रोखलां. आढावो घेवपी तें सोडटकच तें प्रकाशीत करूंक मेळटा.</translation>
+    </message>
+    <message>
+        <source>Review holds need Exponential 6.0.15 or later, with its upgrade step run.</source>
+        <translation>आढाव्या खातीर रोखपाक Exponential 6.0.15 वा उपरांतचें, ताचें अपग्रेड पावल चलयल्लें आसूंक जाय.</translation>
+    </message>
+    <message>
+        <source>This page is already held for review.</source>
+        <translation>हें पान आदींच आढाव्या खातीर रोखलां.</translation>
+    </message>
+    <message>
+        <source>This page is not held.</source>
+        <translation>हें पान रोखूंक ना.</translation>
+    </message>
+    <message>
+        <source>You may not hold this page.</source>
+        <translation>तुमकां हें पान रोखपाची परवानगी ना.</translation>
+    </message>
+    <message>
+        <source>You may not release this page.</source>
+        <translation>तुमकां हें पान सोडपाची परवानगी ना.</translation>
+    </message>
+    <message>
+        <source>The hold was not changed. Try again.</source>
+        <translation>रोखप बदलूंक ना. परतून यत्न करात.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

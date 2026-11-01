@@ -2335,6 +2335,90 @@
         <source>Which link?</source>
         <translation>የትኛው አገናኝ?</translation>
     </message>
+    <message>
+        <source>Review hold</source>
+        <translation>የግምገማ እገዳ</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>ለግምገማ ተይዟል</translation>
+    </message>
+    <message>
+        <source>Held by %name since %time.</source>
+        <translation>በ%name ከ%time ጀምሮ ተይዟል።</translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation>ምክንያት፦ %reason</translation>
+    </message>
+    <message>
+        <source>You may still edit it, but publishing waits until it is released, unless your role allows it.</source>
+        <translation>አሁንም ማርትዕ ይችላሉ፣ ነገር ግን ሚናዎ ካልፈቀደ በስተቀር ማተም እስኪለቀቅ ድረስ ይጠብቃል።</translation>
+    </message>
+    <message>
+        <source>Nobody edits or publishes this page until a reviewer releases it.</source>
+        <translation>ገምጋሚ እስኪለቀው ድረስ ማንም ይህን ገጽ አያርትዕም ወይም አያትምም።</translation>
+    </message>
+    <message>
+        <source>Review holds need the object state group review_hold: run the upgrade step 6.0.15-review-hold (Exponential 6.0.15 or later).</source>
+        <translation>የግምገማ እገዳዎች የነገር ሁኔታ ቡድን review_hold ያስፈልጋቸዋል፦ የማሻሻያ ደረጃውን 6.0.15-review-hold ያሂዱ (Exponential 6.0.15 ወይም ከዚያ በኋላ)።</translation>
+    </message>
+    <message>
+        <source>Why is it held? (kept in the audit)</source>
+        <translation>ለምን ተያዘ? (በኦዲቱ ውስጥ ይቀመጣል)</translation>
+    </message>
+    <message>
+        <source>Note for the audit (optional)</source>
+        <translation>ለኦዲቱ ማስታወሻ (አማራጭ)</translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation>ለግምገማ ያዝ</translation>
+    </message>
+    <message>
+        <source>Release</source>
+        <translation>ልቀቅ</translation>
+    </message>
+    <message>
+        <source>Say why the page is held.</source>
+        <translation>ገጹ ለምን እንደተያዘ ይግለጹ።</translation>
+    </message>
+    <message>
+        <source>The page is held for review.</source>
+        <translation>ገጹ ለግምገማ ተይዟል።</translation>
+    </message>
+    <message>
+        <source>The hold is released.</source>
+        <translation>እገዳው ተነስቷል።</translation>
+    </message>
+    <message>
+        <source>This page is held for review. It can be published once a reviewer releases it.</source>
+        <translation>ይህ ገጽ ለግምገማ ተይዟል። ገምጋሚ ሲለቀው ሊታተም ይችላል።</translation>
+    </message>
+    <message>
+        <source>Review holds need Exponential 6.0.15 or later, with its upgrade step run.</source>
+        <translation>የግምገማ እገዳዎች Exponential 6.0.15 ወይም ከዚያ በኋላ፣ የማሻሻያ ደረጃው ተሂዶ ያስፈልጋቸዋል።</translation>
+    </message>
+    <message>
+        <source>This page is already held for review.</source>
+        <translation>ይህ ገጽ አስቀድሞ ለግምገማ ተይዟል።</translation>
+    </message>
+    <message>
+        <source>This page is not held.</source>
+        <translation>ይህ ገጽ አልተያዘም።</translation>
+    </message>
+    <message>
+        <source>You may not hold this page.</source>
+        <translation>ይህን ገጽ መያዝ አይፈቀድልዎትም።</translation>
+    </message>
+    <message>
+        <source>You may not release this page.</source>
+        <translation>ይህን ገጽ መልቀቅ አይፈቀድልዎትም።</translation>
+    </message>
+    <message>
+        <source>The hold was not changed. Try again.</source>
+        <translation>እገዳው አልተቀየረም። እንደገና ይሞክሩ።</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

@@ -2335,6 +2335,90 @@
         <source>Which link?</source>
         <translation>Kadodo kae?</translation>
     </message>
+    <message>
+        <source>Review hold</source>
+        <translation>Lélé ɖi na ŋkuléɖeŋu</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>Wolé eɖi na ŋkuléɖeŋu</translation>
+    </message>
+    <message>
+        <source>Held by %name since %time.</source>
+        <translation>%name lée ɖi tso %time.</translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation>Susu: %reason</translation>
+    </message>
+    <message>
+        <source>You may still edit it, but publishing waits until it is released, unless your role allows it.</source>
+        <translation>Àte ŋu atrɔ asi le eŋu kokoko, gake ɖeɖe ɖe dutoƒo alala va se ɖe esime woaɖe asi le eŋu, negbe ne wò dɔdeasi ɖe mɔ.</translation>
+    </message>
+    <message>
+        <source>Nobody edits or publishes this page until a reviewer releases it.</source>
+        <translation>Ame aɖeke matrɔ asi le axa sia ŋu alo aɖe ɖe dutoƒo o va se ɖe esime ŋkuléɖeŋutɔ aɖe naɖe asi le eŋu.</translation>
+    </message>
+    <message>
+        <source>Review holds need the object state group review_hold: run the upgrade step 6.0.15-review-hold (Exponential 6.0.15 or later).</source>
+        <translation>Lélé ɖi na ŋkuléɖeŋu hiã nuwo ƒe nɔnɔme ƒe ha review_hold: wɔ ɖoɖowɔɖeŋgɔ ƒe afɔɖeɖe 6.0.15-review-hold (Exponential 6.0.15 alo yeyetɔ).</translation>
+    </message>
+    <message>
+        <source>Why is it held? (kept in the audit)</source>
+        <translation>Nukatae wolée ɖi? (wodzranɛ ɖo ɖe kɔntabubu me)</translation>
+    </message>
+    <message>
+        <source>Note for the audit (optional)</source>
+        <translation>Nyagbe na kɔntabubu (ne èdi)</translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation>Lée ɖi na ŋkuléɖeŋu</translation>
+    </message>
+    <message>
+        <source>Release</source>
+        <translation>Ɖe asi le eŋu</translation>
+    </message>
+    <message>
+        <source>Say why the page is held.</source>
+        <translation>Gblɔ nusita wolé axa la ɖi.</translation>
+    </message>
+    <message>
+        <source>The page is held for review.</source>
+        <translation>Wolé axa la ɖi na ŋkuléɖeŋu.</translation>
+    </message>
+    <message>
+        <source>The hold is released.</source>
+        <translation>Woɖe asi le lélé la ŋu.</translation>
+    </message>
+    <message>
+        <source>This page is held for review. It can be published once a reviewer releases it.</source>
+        <translation>Wolé axa sia ɖi na ŋkuléɖeŋu. Woate ŋu aɖee ɖe dutoƒo ne ŋkuléɖeŋutɔ aɖe ɖe asi le eŋu.</translation>
+    </message>
+    <message>
+        <source>Review holds need Exponential 6.0.15 or later, with its upgrade step run.</source>
+        <translation>Lélé ɖi na ŋkuléɖeŋu hiã Exponential 6.0.15 alo yeyetɔ, kple eƒe ɖoɖowɔɖeŋgɔ ƒe afɔɖeɖe si wowɔ.</translation>
+    </message>
+    <message>
+        <source>This page is already held for review.</source>
+        <translation>Wolé axa sia ɖi na ŋkuléɖeŋu xoxo.</translation>
+    </message>
+    <message>
+        <source>This page is not held.</source>
+        <translation>Womelé axa sia ɖi o.</translation>
+    </message>
+    <message>
+        <source>You may not hold this page.</source>
+        <translation>Mèɖe mɔ be nàlé axa sia ɖi o.</translation>
+    </message>
+    <message>
+        <source>You may not release this page.</source>
+        <translation>Mèɖe mɔ be nàɖe asi le axa sia ŋu o.</translation>
+    </message>
+    <message>
+        <source>The hold was not changed. Try again.</source>
+        <translation>Wometrɔ lélé la o. Gate kpɔ ake.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

@@ -2335,6 +2335,90 @@
         <source>Which link?</source>
         <translation>ܐܝܢܐ ܐܣܘܪܐ؟</translation>
     </message>
+    <message>
+        <source>Review hold</source>
+        <translation>ܟܠܝܐ ܠܒܨܝܐ</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>ܟܠܝܐ ܠܒܨܝܐ</translation>
+    </message>
+    <message>
+        <source>Held by %name since %time.</source>
+        <translation>ܟܠܝܐ ܡܢ %name ܡܢ %time.</translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation>ܥܠܬܐ: %reason</translation>
+    </message>
+    <message>
+        <source>You may still edit it, but publishing waits until it is released, unless your role allows it.</source>
+        <translation>ܡܨܐ ܐܢܬ ܥܕܟܝܠ ܠܫܚܠܦܘܬܗ، ܐܠܐ ܦܪܣܐ ܡܣܟܐ ܥܕܡܐ ܕܡܫܬܪܝܐ، ܐܠܐ ܐܢ ܬܦܩܕܬܟ ܡܦܣܝܐ.</translation>
+    </message>
+    <message>
+        <source>Nobody edits or publishes this page until a reviewer releases it.</source>
+        <translation>ܐܢܫ ܠܐ ܡܫܚܠܦ ܘܠܐ ܦܪܣ ܦܐܬܐ ܗܕܐ ܥܕܡܐ ܕܒܨܘܝܐ ܫܪܐ ܠܗ.</translation>
+    </message>
+    <message>
+        <source>Review holds need the object state group review_hold: run the upgrade step 6.0.15-review-hold (Exponential 6.0.15 or later).</source>
+        <translation>ܟܠܝܐ ܠܒܨܝܐ ܣܢܝܩܝܢ ܠܟܢܫܐ ܕܐܝܟܢܝܘܬܐ ܕܨܒܘܬܐ review_hold: ܥܒܕ ܕܪܓܐ ܕܥܘܠܝܐ 6.0.15-review-hold (Exponential 6.0.15 ܐܘ ܒܬܪܝܐ).</translation>
+    </message>
+    <message>
+        <source>Why is it held? (kept in the audit)</source>
+        <translation>ܠܡܢܐ ܟܠܝܐ؟ (ܢܛܝܪ ܒܒܨܝܐ ܕܚܘܫܒܢܐ)</translation>
+    </message>
+    <message>
+        <source>Note for the audit (optional)</source>
+        <translation>ܡܥܝܪܢܘܬܐ ܠܒܨܝܐ ܕܚܘܫܒܢܐ (ܓܒܝܐ)</translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation>ܟܠܝ ܠܒܨܝܐ</translation>
+    </message>
+    <message>
+        <source>Release</source>
+        <translation>ܫܪܝ</translation>
+    </message>
+    <message>
+        <source>Say why the page is held.</source>
+        <translation>ܐܡܪ ܠܡܢܐ ܦܐܬܐ ܟܠܝܐ.</translation>
+    </message>
+    <message>
+        <source>The page is held for review.</source>
+        <translation>ܦܐܬܐ ܟܠܝܐ ܠܒܨܝܐ.</translation>
+    </message>
+    <message>
+        <source>The hold is released.</source>
+        <translation>ܟܠܝܐ ܐܫܬܪܝ.</translation>
+    </message>
+    <message>
+        <source>This page is held for review. It can be published once a reviewer releases it.</source>
+        <translation>ܦܐܬܐ ܗܕܐ ܟܠܝܐ ܠܒܨܝܐ. ܡܫܟܚܐ ܕܬܬܦܪܣ ܡܐ ܕܒܨܘܝܐ ܫܪܐ ܠܗ.</translation>
+    </message>
+    <message>
+        <source>Review holds need Exponential 6.0.15 or later, with its upgrade step run.</source>
+        <translation>ܟܠܝܐ ܠܒܨܝܐ ܣܢܝܩܝܢ ܠ-Exponential 6.0.15 ܐܘ ܒܬܪܝܐ، ܥܡ ܕܪܓܐ ܕܥܘܠܝܐ ܕܝܠܗ ܥܒܝܕܐ.</translation>
+    </message>
+    <message>
+        <source>This page is already held for review.</source>
+        <translation>ܦܐܬܐ ܗܕܐ ܟܒܪ ܟܠܝܐ ܠܒܨܝܐ.</translation>
+    </message>
+    <message>
+        <source>This page is not held.</source>
+        <translation>ܦܐܬܐ ܗܕܐ ܠܐ ܟܠܝܐ.</translation>
+    </message>
+    <message>
+        <source>You may not hold this page.</source>
+        <translation>ܠܐ ܡܨܐ ܐܢܬ ܠܡܟܠܐ ܦܐܬܐ ܗܕܐ.</translation>
+    </message>
+    <message>
+        <source>You may not release this page.</source>
+        <translation>ܠܐ ܡܨܐ ܐܢܬ ܠܡܫܪܐ ܦܐܬܐ ܗܕܐ.</translation>
+    </message>
+    <message>
+        <source>The hold was not changed. Try again.</source>
+        <translation>ܟܠܝܐ ܠܐ ܐܫܬܚܠܦ. ܢܣܝ ܬܘܒ.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

@@ -2335,6 +2335,90 @@
         <source>Which link?</source>
         <translation>Welcher Link?</translation>
     </message>
+    <message>
+        <source>Review hold</source>
+        <translation>Prüfsperre</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>Zur Prüfung gesperrt</translation>
+    </message>
+    <message>
+        <source>Held by %name since %time.</source>
+        <translation>Gesperrt von %name seit %time.</translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation>Grund: %reason</translation>
+    </message>
+    <message>
+        <source>You may still edit it, but publishing waits until it is released, unless your role allows it.</source>
+        <translation>Sie können sie weiterhin bearbeiten, aber die Veröffentlichung wartet, bis die Sperre freigegeben ist, außer Ihre Rolle erlaubt es.</translation>
+    </message>
+    <message>
+        <source>Nobody edits or publishes this page until a reviewer releases it.</source>
+        <translation>Niemand bearbeitet oder veröffentlicht diese Seite, bis ein Prüfer sie freigibt.</translation>
+    </message>
+    <message>
+        <source>Review holds need the object state group review_hold: run the upgrade step 6.0.15-review-hold (Exponential 6.0.15 or later).</source>
+        <translation>Prüfsperren benötigen die Objektstatusgruppe review_hold: Führen Sie den Upgrade-Schritt 6.0.15-review-hold aus (Exponential 6.0.15 oder neuer).</translation>
+    </message>
+    <message>
+        <source>Why is it held? (kept in the audit)</source>
+        <translation>Warum ist sie gesperrt? (wird im Audit gespeichert)</translation>
+    </message>
+    <message>
+        <source>Note for the audit (optional)</source>
+        <translation>Notiz für das Audit (optional)</translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation>Zur Prüfung sperren</translation>
+    </message>
+    <message>
+        <source>Release</source>
+        <translation>Freigeben</translation>
+    </message>
+    <message>
+        <source>Say why the page is held.</source>
+        <translation>Geben Sie an, warum die Seite gesperrt ist.</translation>
+    </message>
+    <message>
+        <source>The page is held for review.</source>
+        <translation>Die Seite ist zur Prüfung gesperrt.</translation>
+    </message>
+    <message>
+        <source>The hold is released.</source>
+        <translation>Die Prüfsperre ist aufgehoben.</translation>
+    </message>
+    <message>
+        <source>This page is held for review. It can be published once a reviewer releases it.</source>
+        <translation>Diese Seite ist zur Prüfung gesperrt. Sie kann veröffentlicht werden, sobald ein Prüfer sie freigibt.</translation>
+    </message>
+    <message>
+        <source>Review holds need Exponential 6.0.15 or later, with its upgrade step run.</source>
+        <translation>Prüfsperren benötigen Exponential 6.0.15 oder neuer, mit ausgeführtem Upgrade-Schritt.</translation>
+    </message>
+    <message>
+        <source>This page is already held for review.</source>
+        <translation>Diese Seite ist bereits zur Prüfung gesperrt.</translation>
+    </message>
+    <message>
+        <source>This page is not held.</source>
+        <translation>Diese Seite ist nicht gesperrt.</translation>
+    </message>
+    <message>
+        <source>You may not hold this page.</source>
+        <translation>Sie dürfen diese Seite nicht sperren.</translation>
+    </message>
+    <message>
+        <source>You may not release this page.</source>
+        <translation>Sie dürfen diese Seite nicht freigeben.</translation>
+    </message>
+    <message>
+        <source>The hold was not changed. Try again.</source>
+        <translation>Die Prüfsperre wurde nicht geändert. Versuchen Sie es erneut.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

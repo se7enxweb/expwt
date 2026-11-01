@@ -2335,6 +2335,90 @@
         <source>Which link?</source>
         <translation>قايسى ئۇلانما؟</translation>
     </message>
+    <message>
+        <source>Review hold</source>
+        <translation>تەكشۈرۈش ئۈچۈن توختىتىش</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>تەكشۈرۈش ئۈچۈن توختىتىلدى</translation>
+    </message>
+    <message>
+        <source>Held by %name since %time.</source>
+        <translation>%name تەرىپىدىن %time دىن بۇيان توختىتىلدى.</translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation>سەۋەب: %reason</translation>
+    </message>
+    <message>
+        <source>You may still edit it, but publishing waits until it is released, unless your role allows it.</source>
+        <translation>سىز ئۇنى يەنىلا تەھرىرلىيەلەيسىز، لېكىن رولىڭىز رۇخسەت قىلمىسا، ئېلان قىلىش ئۇ قويۇپ بېرىلگۈچە ساقلايدۇ.</translation>
+    </message>
+    <message>
+        <source>Nobody edits or publishes this page until a reviewer releases it.</source>
+        <translation>تەكشۈرگۈچى قويۇپ بەرمىگۈچە، ھېچكىم بۇ بەتنى تەھرىرلىمەيدۇ ۋە ئېلان قىلمايدۇ.</translation>
+    </message>
+    <message>
+        <source>Review holds need the object state group review_hold: run the upgrade step 6.0.15-review-hold (Exponential 6.0.15 or later).</source>
+        <translation>تەكشۈرۈش توختىتىشلىرى review_hold ئوبيېكت ھالەت گۇرۇپپىسىنى تەلەپ قىلىدۇ: 6.0.15-review-hold يېڭىلاش قەدىمىنى ئىجرا قىلىڭ (Exponential 6.0.15 ياكى ئۇنىڭدىن يېڭى).</translation>
+    </message>
+    <message>
+        <source>Why is it held? (kept in the audit)</source>
+        <translation>نېمە ئۈچۈن توختىتىلدى؟ (تەپتىشتە ساقلىنىدۇ)</translation>
+    </message>
+    <message>
+        <source>Note for the audit (optional)</source>
+        <translation>تەپتىش ئۈچۈن ئىزاھ (ئىختىيارىي)</translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation>تەكشۈرۈش ئۈچۈن توختات</translation>
+    </message>
+    <message>
+        <source>Release</source>
+        <translation>قويۇپ بەر</translation>
+    </message>
+    <message>
+        <source>Say why the page is held.</source>
+        <translation>بەتنىڭ نېمە ئۈچۈن توختىتىلغانلىقىنى ئېيتىڭ.</translation>
+    </message>
+    <message>
+        <source>The page is held for review.</source>
+        <translation>بەت تەكشۈرۈش ئۈچۈن توختىتىلدى.</translation>
+    </message>
+    <message>
+        <source>The hold is released.</source>
+        <translation>توختىتىش قويۇپ بېرىلدى.</translation>
+    </message>
+    <message>
+        <source>This page is held for review. It can be published once a reviewer releases it.</source>
+        <translation>بۇ بەت تەكشۈرۈش ئۈچۈن توختىتىلدى. تەكشۈرگۈچى قويۇپ بەرگەندىن كېيىن ئېلان قىلغىلى بولىدۇ.</translation>
+    </message>
+    <message>
+        <source>Review holds need Exponential 6.0.15 or later, with its upgrade step run.</source>
+        <translation>تەكشۈرۈش توختىتىشلىرى يېڭىلاش قەدىمى ئىجرا قىلىنغان Exponential 6.0.15 ياكى ئۇنىڭدىن يېڭىسىنى تەلەپ قىلىدۇ.</translation>
+    </message>
+    <message>
+        <source>This page is already held for review.</source>
+        <translation>بۇ بەت ئاللىقاچان تەكشۈرۈش ئۈچۈن توختىتىلغان.</translation>
+    </message>
+    <message>
+        <source>This page is not held.</source>
+        <translation>بۇ بەت توختىتىلمىغان.</translation>
+    </message>
+    <message>
+        <source>You may not hold this page.</source>
+        <translation>سىز بۇ بەتنى توختىتالمايسىز.</translation>
+    </message>
+    <message>
+        <source>You may not release this page.</source>
+        <translation>سىز بۇ بەتنى قويۇپ بېرەلمەيسىز.</translation>
+    </message>
+    <message>
+        <source>The hold was not changed. Try again.</source>
+        <translation>توختىتىش ئۆزگەرتىلمىدى. قايتا سىناڭ.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

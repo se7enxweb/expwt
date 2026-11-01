@@ -252,6 +252,31 @@ Text wieder ein und speichert ihn in den Entwurf) und **Verwerfen**. Ein Feld, d
 Server geändert hat, geht durch die Zusammenführung Feld für Feld (oben). Veröffentlichen oder Verwerfen des Entwurfs
 entfernt die Kopie.
 
+### Prüfsperre
+
+Eine Seite lässt sich **zur Prüfung sperren**, solange jemand sie prüft (Rechtsabteilung, Compliance, ein Kunde, eine
+Sperrfrist): Bis ein Prüfer sie freigibt, bearbeitet und veröffentlicht sie niemand. Besucher sehen weiter die
+veröffentlichte Seite.
+
+- Die Sperre ist der Objektzustand `review_hold/held` des Kernels (Exponential 6.0.15, angelegt vom Upgrade-Schritt
+  `6.0.15-review-hold`, Anleitung zum Teil des Kernels: `doc/eng-us/features/6.0/review-hold.md`). Der Schritt ergänzt
+  jede Policy `content/edit` und `content/publish` um die Einschränkung `StateGroup_review_hold = not_held`: So
+  verweigern die eigenen Policies der Rollen das Bearbeiten einer gesperrten Seite, und der Kernel bricht das
+  Veröffentlichen einer gesperrten Seite ab, wenn `content/publish` des Benutzers den gesperrten Zustand nicht erlaubt
+  (auch ein geplantes oder freigegebenes Veröffentlichen: die Version bleibt ein Entwurf).
+- Der Bereich „Seite“ zeigt die Sperre oben: **Zur Prüfung gesperrt**, von wem und seit wann, den Grund und was sie für
+  Sie bedeutet. Wer die Seite nicht bearbeiten darf, sieht kein Formular; eine Rolle, deren Policy den gesperrten
+  Zustand erlaubt (und ein Administrator), bearbeitet weiter und erfährt, dass das Veröffentlichen wartet.
+- **Zur Prüfung sperren** und **Freigeben** bekommt, wem `state/assign` des Kernels die Gruppe erlaubt (die Rolle
+  **Review hold**, die der Schritt anlegt und niemandem zuweist; Administratoren). Beim Sperren fragt die Seitenleiste
+  nach dem Grund, beim Freigeben nach einer freiwilligen Notiz. Beides wird mit dem Grund im Audit festgehalten
+  (`content.expwt.hold.place`, `content.expwt.hold.release`), neben `content.object.state` des Kernels; ein
+  abgebrochenes Veröffentlichen ist `content.object.hold.refused`. Die Aktionen der Seitenleiste brauchen nur
+  `expwt/use`: Es entscheidet die Policy des Kernels.
+- Eine Sperre aus der Administration (die Zustände des Objekts) wird ebenso gezeigt, nur ohne wer und warum.
+- Ohne die Zustandsgruppe (ein älterer Kernel, oder der Schritt lief noch nicht) gibt es keine Sperre: Der Bereich
+  „Seite“ nennt denen, die Zustände verwalten, den Schritt, und sonst ändert sich nichts.
+
 ### Barrierefreiheitsprüfung
 
 Der Bereich SEO endet mit **Barrierefreiheit der Seite prüfen (WCAG 2.2 AA)**: Auf Anforderung prüft axe-core die
@@ -489,7 +514,7 @@ neue Übersetzung, deren Felder noch den Text der Hauptsprache enthalten.
 
 | Policy | Erlaubt |
 |---|---|
-| `expwt/use` | die Seitenleiste selbst, den Bereich Ich, das Lesen im Bereich Seite |
+| `expwt/use` | die Seitenleiste selbst, den Bereich Ich, das Lesen im Bereich Seite, das Setzen und Aufheben einer Prüfsperre (wo `state/assign` des Kernels es erlaubt) |
 | `expwt/edit` | Bearbeiten im Entwurf, Vorschau, die Gerätevorschau, Veröffentlichen, weiche Sperren, die SEO-Prüfung und die Barrierefreiheitsprüfung |
 | `expwt/create` | den Bereich Anlegen |
 | `expwt/structure` | den Bereich Struktur |

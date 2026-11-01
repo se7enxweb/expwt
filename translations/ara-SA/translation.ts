@@ -2335,6 +2335,90 @@
         <source>Which link?</source>
         <translation>أي رابط؟</translation>
     </message>
+    <message>
+        <source>Review hold</source>
+        <translation>تعليق المراجعة</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>معلّقة للمراجعة</translation>
+    </message>
+    <message>
+        <source>Held by %name since %time.</source>
+        <translation>علّقها %name منذ %time.</translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation>السبب: %reason</translation>
+    </message>
+    <message>
+        <source>You may still edit it, but publishing waits until it is released, unless your role allows it.</source>
+        <translation>لا يزال بإمكانك تحريرها، لكن النشر ينتظر حتى يُرفع التعليق، ما لم يسمح دورك بذلك.</translation>
+    </message>
+    <message>
+        <source>Nobody edits or publishes this page until a reviewer releases it.</source>
+        <translation>لا أحد يحرر هذه الصفحة أو ينشرها حتى يرفع أحد المراجعين التعليق عنها.</translation>
+    </message>
+    <message>
+        <source>Review holds need the object state group review_hold: run the upgrade step 6.0.15-review-hold (Exponential 6.0.15 or later).</source>
+        <translation>تحتاج تعليقات المراجعة إلى مجموعة حالات الكائن review_hold: شغّل خطوة الترقية 6.0.15-review-hold (Exponential 6.0.15 أو أحدث).</translation>
+    </message>
+    <message>
+        <source>Why is it held? (kept in the audit)</source>
+        <translation>لماذا عُلّقت؟ (يُحفظ في سجل التدقيق)</translation>
+    </message>
+    <message>
+        <source>Note for the audit (optional)</source>
+        <translation>ملاحظة لسجل التدقيق (اختياري)</translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation>علّق للمراجعة</translation>
+    </message>
+    <message>
+        <source>Release</source>
+        <translation>رفع التعليق</translation>
+    </message>
+    <message>
+        <source>Say why the page is held.</source>
+        <translation>اذكر سبب تعليق الصفحة.</translation>
+    </message>
+    <message>
+        <source>The page is held for review.</source>
+        <translation>الصفحة معلّقة للمراجعة.</translation>
+    </message>
+    <message>
+        <source>The hold is released.</source>
+        <translation>رُفع التعليق.</translation>
+    </message>
+    <message>
+        <source>This page is held for review. It can be published once a reviewer releases it.</source>
+        <translation>هذه الصفحة معلّقة للمراجعة. يمكن نشرها بعد أن يرفع أحد المراجعين التعليق.</translation>
+    </message>
+    <message>
+        <source>Review holds need Exponential 6.0.15 or later, with its upgrade step run.</source>
+        <translation>تحتاج تعليقات المراجعة إلى Exponential 6.0.15 أو أحدث، مع تشغيل خطوة الترقية الخاصة به.</translation>
+    </message>
+    <message>
+        <source>This page is already held for review.</source>
+        <translation>هذه الصفحة معلّقة للمراجعة بالفعل.</translation>
+    </message>
+    <message>
+        <source>This page is not held.</source>
+        <translation>هذه الصفحة غير معلّقة.</translation>
+    </message>
+    <message>
+        <source>You may not hold this page.</source>
+        <translation>لا يُسمح لك بتعليق هذه الصفحة.</translation>
+    </message>
+    <message>
+        <source>You may not release this page.</source>
+        <translation>لا يُسمح لك برفع التعليق عن هذه الصفحة.</translation>
+    </message>
+    <message>
+        <source>The hold was not changed. Try again.</source>
+        <translation>لم يتغير التعليق. حاول مرة أخرى.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

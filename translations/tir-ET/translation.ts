@@ -2335,6 +2335,90 @@
         <source>Which link?</source>
         <translation>ኣየናይ መላግቦ?</translation>
     </message>
+    <message>
+        <source>Review hold</source>
+        <translation>ንግምገማ ምዕጋት</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>ንግምገማ ተዓጊቱ</translation>
+    </message>
+    <message>
+        <source>Held by %name since %time.</source>
+        <translation>ብ%name ካብ %time ጀሚሩ ተዓጊቱ።</translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation>ምኽንያት: %reason</translation>
+    </message>
+    <message>
+        <source>You may still edit it, but publishing waits until it is released, unless your role allows it.</source>
+        <translation>ሕጂ እውን ከተመዓራርዮ ትኽእሉ ኢኹም፡ ግን ሓላፍነትኩም እንተዘይፈቒዱ፡ ምሕታም ክሳብ ዝፍታሕ ይጽበ።</translation>
+    </message>
+    <message>
+        <source>Nobody edits or publishes this page until a reviewer releases it.</source>
+        <translation>ገምጋሚ ክሳብ ዝፈትሖ ዋላ ሓደ ነዚ ገጽ ኣየመዓራርዮን ኣየሕትሞን።</translation>
+    </message>
+    <message>
+        <source>Review holds need the object state group review_hold: run the upgrade step 6.0.15-review-hold (Exponential 6.0.15 or later).</source>
+        <translation>ምዕጋት ግምገማ ጉጅለ ኩነታት ኦብጀክት review_hold የድልዮ: ስጉምቲ ምምሕያሽ 6.0.15-review-hold ኣካይዱ (Exponential 6.0.15 ወይ ዝሓደሰ)።</translation>
+    </message>
+    <message>
+        <source>Why is it held? (kept in the audit)</source>
+        <translation>ስለምንታይ ተዓጊቱ? (ኣብ ኦዲት ይዕቀብ)</translation>
+    </message>
+    <message>
+        <source>Note for the audit (optional)</source>
+        <translation>መዘኻኸሪ ንኦዲት (ኣማራጺ)</translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation>ንግምገማ ዓግት</translation>
+    </message>
+    <message>
+        <source>Release</source>
+        <translation>ፍታሕ</translation>
+    </message>
+    <message>
+        <source>Say why the page is held.</source>
+        <translation>እቲ ገጽ ስለምንታይ ከም ዝተዓገተ ግለጹ።</translation>
+    </message>
+    <message>
+        <source>The page is held for review.</source>
+        <translation>እቲ ገጽ ንግምገማ ተዓጊቱ ኣሎ።</translation>
+    </message>
+    <message>
+        <source>The hold is released.</source>
+        <translation>እቲ ምዕጋት ተፈቲሑ።</translation>
+    </message>
+    <message>
+        <source>This page is held for review. It can be published once a reviewer releases it.</source>
+        <translation>እዚ ገጽ ንግምገማ ተዓጊቱ ኣሎ። ገምጋሚ ምስ ፈትሖ ክሕተም ይኽእል።</translation>
+    </message>
+    <message>
+        <source>Review holds need Exponential 6.0.15 or later, with its upgrade step run.</source>
+        <translation>ምዕጋት ግምገማ Exponential 6.0.15 ወይ ዝሓደሰ፡ ምስ ዝተኻየደ ስጉምቲ ምምሕያሹ፡ የድልዮ።</translation>
+    </message>
+    <message>
+        <source>This page is already held for review.</source>
+        <translation>እዚ ገጽ ድሮ ንግምገማ ተዓጊቱ ኣሎ።</translation>
+    </message>
+    <message>
+        <source>This page is not held.</source>
+        <translation>እዚ ገጽ ኣይተዓገተን።</translation>
+    </message>
+    <message>
+        <source>You may not hold this page.</source>
+        <translation>ነዚ ገጽ ክትዓግትዎ ኣይፍቀደልኩምን።</translation>
+    </message>
+    <message>
+        <source>You may not release this page.</source>
+        <translation>ነዚ ገጽ ክትፈትሕዎ ኣይፍቀደልኩምን።</translation>
+    </message>
+    <message>
+        <source>The hold was not changed. Try again.</source>
+        <translation>እቲ ምዕጋት ኣይተቐየረን። እንደገና ፈትኑ።</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

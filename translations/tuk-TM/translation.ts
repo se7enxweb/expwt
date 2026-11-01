@@ -2335,6 +2335,90 @@
         <source>Which link?</source>
         <translation>Haýsy salgylanma?</translation>
     </message>
+    <message>
+        <source>Review hold</source>
+        <translation>Gözden geçirmek üçin saklamak</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>Gözden geçirmek üçin saklanýar</translation>
+    </message>
+    <message>
+        <source>Held by %name since %time.</source>
+        <translation>%name tarapyndan %time bäri saklanýar.</translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation>Sebäp: %reason</translation>
+    </message>
+    <message>
+        <source>You may still edit it, but publishing waits until it is released, unless your role allows it.</source>
+        <translation>Ony henizem üýtgedip bilersiňiz, ýöne roluňyz rugsat bermese, neşir etmek ol boşadylýança garaşýar.</translation>
+    </message>
+    <message>
+        <source>Nobody edits or publishes this page until a reviewer releases it.</source>
+        <translation>Barlaýjy boşadýança bu sahypany hiç kim üýtgetmeýär we neşir etmeýär.</translation>
+    </message>
+    <message>
+        <source>Review holds need the object state group review_hold: run the upgrade step 6.0.15-review-hold (Exponential 6.0.15 or later).</source>
+        <translation>Gözden geçirmek üçin saklamalar review_hold obýekt ýagdaý toparyny talap edýär: 6.0.15-review-hold täzelenme ädimini işlediň (Exponential 6.0.15 ýa-da soňky).</translation>
+    </message>
+    <message>
+        <source>Why is it held? (kept in the audit)</source>
+        <translation>Näme üçin saklanýar? (auditde saklanýar)</translation>
+    </message>
+    <message>
+        <source>Note for the audit (optional)</source>
+        <translation>Audit üçin bellik (hökmany däl)</translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation>Gözden geçirmek üçin sakla</translation>
+    </message>
+    <message>
+        <source>Release</source>
+        <translation>Boşat</translation>
+    </message>
+    <message>
+        <source>Say why the page is held.</source>
+        <translation>Sahypanyň näme üçin saklanýandygyny aýdyň.</translation>
+    </message>
+    <message>
+        <source>The page is held for review.</source>
+        <translation>Sahypa gözden geçirmek üçin saklanýar.</translation>
+    </message>
+    <message>
+        <source>The hold is released.</source>
+        <translation>Saklama boşadyldy.</translation>
+    </message>
+    <message>
+        <source>This page is held for review. It can be published once a reviewer releases it.</source>
+        <translation>Bu sahypa gözden geçirmek üçin saklanýar. Barlaýjy ony boşadan badyna neşir edilip bilner.</translation>
+    </message>
+    <message>
+        <source>Review holds need Exponential 6.0.15 or later, with its upgrade step run.</source>
+        <translation>Gözden geçirmek üçin saklamalar täzelenme ädimi işledilen Exponential 6.0.15 ýa-da soňkyny talap edýär.</translation>
+    </message>
+    <message>
+        <source>This page is already held for review.</source>
+        <translation>Bu sahypa eýýäm gözden geçirmek üçin saklanýar.</translation>
+    </message>
+    <message>
+        <source>This page is not held.</source>
+        <translation>Bu sahypa saklanmaýar.</translation>
+    </message>
+    <message>
+        <source>You may not hold this page.</source>
+        <translation>Siz bu sahypany saklap bilmeýärsiňiz.</translation>
+    </message>
+    <message>
+        <source>You may not release this page.</source>
+        <translation>Siz bu sahypany boşadyp bilmeýärsiňiz.</translation>
+    </message>
+    <message>
+        <source>The hold was not changed. Try again.</source>
+        <translation>Saklama üýtgedilmedi. Täzeden synanyşyň.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

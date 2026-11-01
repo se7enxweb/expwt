@@ -2335,6 +2335,90 @@
         <source>Which link?</source>
         <translation>کوم لینک؟</translation>
     </message>
+    <message>
+        <source>Review hold</source>
+        <translation>د بیاکتنې ځنډ</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>د بیاکتنې لپاره ځنډول شوې</translation>
+    </message>
+    <message>
+        <source>Held by %name since %time.</source>
+        <translation>%name له %time راهیسې ځنډولې ده.</translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation>لامل: %reason</translation>
+    </message>
+    <message>
+        <source>You may still edit it, but publishing waits until it is released, unless your role allows it.</source>
+        <translation>تاسو لا هم کولای شئ سمه یې کړئ، خو خپرول تر هغه انتظار باسي چې خوشې شي، مګر دا چې ستاسو رول اجازه ورکړي.</translation>
+    </message>
+    <message>
+        <source>Nobody edits or publishes this page until a reviewer releases it.</source>
+        <translation>هېڅوک دا پاڼه نه سموي او نه یې خپروي تر هغه چې یو بیاکتونکی یې خوشې کړي.</translation>
+    </message>
+    <message>
+        <source>Review holds need the object state group review_hold: run the upgrade step 6.0.15-review-hold (Exponential 6.0.15 or later).</source>
+        <translation>د بیاکتنې ځنډونه د شي د حالت ډله review_hold ته اړتیا لري: د لوړولو ګام 6.0.15-review-hold وچلوئ (Exponential 6.0.15 یا وروسته).</translation>
+    </message>
+    <message>
+        <source>Why is it held? (kept in the audit)</source>
+        <translation>ولې ځنډول شوې ده؟ (په پلټنه کې ساتل کېږي)</translation>
+    </message>
+    <message>
+        <source>Note for the audit (optional)</source>
+        <translation>د پلټنې لپاره یادونه (اختیاري)</translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation>د بیاکتنې لپاره ځنډول</translation>
+    </message>
+    <message>
+        <source>Release</source>
+        <translation>خوشې کول</translation>
+    </message>
+    <message>
+        <source>Say why the page is held.</source>
+        <translation>ووایاست چې پاڼه ولې ځنډول شوې ده.</translation>
+    </message>
+    <message>
+        <source>The page is held for review.</source>
+        <translation>پاڼه د بیاکتنې لپاره ځنډول شوې ده.</translation>
+    </message>
+    <message>
+        <source>The hold is released.</source>
+        <translation>ځنډ خوشې شو.</translation>
+    </message>
+    <message>
+        <source>This page is held for review. It can be published once a reviewer releases it.</source>
+        <translation>دا پاڼه د بیاکتنې لپاره ځنډول شوې ده. کله چې یو بیاکتونکی یې خوشې کړي، خپرېدای شي.</translation>
+    </message>
+    <message>
+        <source>Review holds need Exponential 6.0.15 or later, with its upgrade step run.</source>
+        <translation>د بیاکتنې ځنډونه Exponential 6.0.15 یا وروسته ته اړتیا لري، چې د لوړولو ګام یې چلول شوی وي.</translation>
+    </message>
+    <message>
+        <source>This page is already held for review.</source>
+        <translation>دا پاڼه دمخه د بیاکتنې لپاره ځنډول شوې ده.</translation>
+    </message>
+    <message>
+        <source>This page is not held.</source>
+        <translation>دا پاڼه نه ده ځنډول شوې.</translation>
+    </message>
+    <message>
+        <source>You may not hold this page.</source>
+        <translation>تاسو اجازه نه لرئ چې دا پاڼه وځنډوئ.</translation>
+    </message>
+    <message>
+        <source>You may not release this page.</source>
+        <translation>تاسو اجازه نه لرئ چې دا پاڼه خوشې کړئ.</translation>
+    </message>
+    <message>
+        <source>The hold was not changed. Try again.</source>
+        <translation>ځنډ بدل نه شو. بیا هڅه وکړئ.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

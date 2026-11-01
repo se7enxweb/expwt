@@ -2335,6 +2335,90 @@
         <source>Which link?</source>
         <translation>Kedu njikọ?</translation>
     </message>
+    <message>
+        <source>Review hold</source>
+        <translation>Njide maka nyocha</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>Ejidere maka nyocha</translation>
+    </message>
+    <message>
+        <source>Held by %name since %time.</source>
+        <translation>%name jidere ya kemgbe %time.</translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation>Ihe kpatara ya: %reason</translation>
+    </message>
+    <message>
+        <source>You may still edit it, but publishing waits until it is released, unless your role allows it.</source>
+        <translation>Ị ka nwere ike idezi ya, mana mbipụta na-eche ruo mgbe a hapụrụ ya, ọ gwụla ma ọrụ gị kwere ya.</translation>
+    </message>
+    <message>
+        <source>Nobody edits or publishes this page until a reviewer releases it.</source>
+        <translation>Ọ dịghị onye na-edezi ma ọ bụ na-ebipụta ibe a ruo mgbe onye nyocha hapụrụ ya.</translation>
+    </message>
+    <message>
+        <source>Review holds need the object state group review_hold: run the upgrade step 6.0.15-review-hold (Exponential 6.0.15 or later).</source>
+        <translation>Njide nyocha chọrọ otu ọnọdụ ihe review_hold: mee nzọụkwụ nkwalite 6.0.15-review-hold (Exponential 6.0.15 ma ọ bụ nke ọhụrụ karị).</translation>
+    </message>
+    <message>
+        <source>Why is it held? (kept in the audit)</source>
+        <translation>Gịnị mere e ji jide ya? (a na-edebe ya na nyocha akaụntụ)</translation>
+    </message>
+    <message>
+        <source>Note for the audit (optional)</source>
+        <translation>Ndetu maka nyocha akaụntụ (nhọrọ)</translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation>Jide maka nyocha</translation>
+    </message>
+    <message>
+        <source>Release</source>
+        <translation>Hapụ</translation>
+    </message>
+    <message>
+        <source>Say why the page is held.</source>
+        <translation>Kwuo ihe mere e ji jide ibe a.</translation>
+    </message>
+    <message>
+        <source>The page is held for review.</source>
+        <translation>E jidere ibe a maka nyocha.</translation>
+    </message>
+    <message>
+        <source>The hold is released.</source>
+        <translation>A hapụla njide ahụ.</translation>
+    </message>
+    <message>
+        <source>This page is held for review. It can be published once a reviewer releases it.</source>
+        <translation>E jidere ibe a maka nyocha. Enwere ike ibipụta ya ozugbo onye nyocha hapụrụ ya.</translation>
+    </message>
+    <message>
+        <source>Review holds need Exponential 6.0.15 or later, with its upgrade step run.</source>
+        <translation>Njide nyocha chọrọ Exponential 6.0.15 ma ọ bụ nke ọhụrụ karị, ya na nzọụkwụ nkwalite ya emeela.</translation>
+    </message>
+    <message>
+        <source>This page is already held for review.</source>
+        <translation>E jidelarị ibe a maka nyocha.</translation>
+    </message>
+    <message>
+        <source>This page is not held.</source>
+        <translation>E jideghị ibe a.</translation>
+    </message>
+    <message>
+        <source>You may not hold this page.</source>
+        <translation>Ekweghị gị ijide ibe a.</translation>
+    </message>
+    <message>
+        <source>You may not release this page.</source>
+        <translation>Ekweghị gị ịhapụ ibe a.</translation>
+    </message>
+    <message>
+        <source>The hold was not changed. Try again.</source>
+        <translation>Agbanweghị njide ahụ. Nwaa ọzọ.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

@@ -2335,6 +2335,90 @@
         <source>Which link?</source>
         <translation>Hangi bağlantı?</translation>
     </message>
+    <message>
+        <source>Review hold</source>
+        <translation>İnceleme beklemesi</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>İnceleme için bekletiliyor</translation>
+    </message>
+    <message>
+        <source>Held by %name since %time.</source>
+        <translation>%name tarafından %time tarihinden beri bekletiliyor.</translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation>Neden: %reason</translation>
+    </message>
+    <message>
+        <source>You may still edit it, but publishing waits until it is released, unless your role allows it.</source>
+        <translation>Yine de düzenleyebilirsiniz, ancak rolünüz izin vermiyorsa yayımlama, serbest bırakılana kadar bekler.</translation>
+    </message>
+    <message>
+        <source>Nobody edits or publishes this page until a reviewer releases it.</source>
+        <translation>Bir inceleyici serbest bırakana kadar kimse bu sayfayı düzenlemez veya yayımlamaz.</translation>
+    </message>
+    <message>
+        <source>Review holds need the object state group review_hold: run the upgrade step 6.0.15-review-hold (Exponential 6.0.15 or later).</source>
+        <translation>İnceleme beklemeleri review_hold nesne durumu grubunu gerektirir: 6.0.15-review-hold yükseltme adımını çalıştırın (Exponential 6.0.15 veya üzeri).</translation>
+    </message>
+    <message>
+        <source>Why is it held? (kept in the audit)</source>
+        <translation>Neden bekletiliyor? (denetim kaydında tutulur)</translation>
+    </message>
+    <message>
+        <source>Note for the audit (optional)</source>
+        <translation>Denetim kaydı için not (isteğe bağlı)</translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation>İnceleme için beklet</translation>
+    </message>
+    <message>
+        <source>Release</source>
+        <translation>Serbest bırak</translation>
+    </message>
+    <message>
+        <source>Say why the page is held.</source>
+        <translation>Sayfanın neden bekletildiğini belirtin.</translation>
+    </message>
+    <message>
+        <source>The page is held for review.</source>
+        <translation>Sayfa inceleme için bekletiliyor.</translation>
+    </message>
+    <message>
+        <source>The hold is released.</source>
+        <translation>Bekleme kaldırıldı.</translation>
+    </message>
+    <message>
+        <source>This page is held for review. It can be published once a reviewer releases it.</source>
+        <translation>Bu sayfa inceleme için bekletiliyor. Bir inceleyici serbest bıraktığında yayımlanabilir.</translation>
+    </message>
+    <message>
+        <source>Review holds need Exponential 6.0.15 or later, with its upgrade step run.</source>
+        <translation>İnceleme beklemeleri, yükseltme adımı çalıştırılmış Exponential 6.0.15 veya üzerini gerektirir.</translation>
+    </message>
+    <message>
+        <source>This page is already held for review.</source>
+        <translation>Bu sayfa zaten inceleme için bekletiliyor.</translation>
+    </message>
+    <message>
+        <source>This page is not held.</source>
+        <translation>Bu sayfa bekletilmiyor.</translation>
+    </message>
+    <message>
+        <source>You may not hold this page.</source>
+        <translation>Bu sayfayı bekletemezsiniz.</translation>
+    </message>
+    <message>
+        <source>You may not release this page.</source>
+        <translation>Bu sayfayı serbest bırakamazsınız.</translation>
+    </message>
+    <message>
+        <source>The hold was not changed. Try again.</source>
+        <translation>Bekleme değiştirilmedi. Yeniden deneyin.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

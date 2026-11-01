@@ -2335,6 +2335,90 @@
         <source>Which link?</source>
         <translation>မည်သည့်လင့်ခ်နည်း။</translation>
     </message>
+    <message>
+        <source>Review hold</source>
+        <translation>စိစစ်ရန် ဆိုင်းငံ့ထားမှု</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>စိစစ်ရန် ဆိုင်းငံ့ထားသည်</translation>
+    </message>
+    <message>
+        <source>Held by %name since %time.</source>
+        <translation>%name က %time မှစ၍ ဆိုင်းငံ့ထားသည်။</translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation>အကြောင်းရင်း: %reason</translation>
+    </message>
+    <message>
+        <source>You may still edit it, but publishing waits until it is released, unless your role allows it.</source>
+        <translation>သင် ဆက်လက်တည်းဖြတ်နိုင်သေးသော်လည်း သင့်အခန်းကဏ္ဍက ခွင့်မပြုလျှင် လွှတ်ပေးသည်အထိ ထုတ်ဝေခြင်းကို စောင့်ရမည်။</translation>
+    </message>
+    <message>
+        <source>Nobody edits or publishes this page until a reviewer releases it.</source>
+        <translation>စိစစ်သူက လွှတ်ပေးသည်အထိ ဤစာမျက်နှာကို မည်သူမျှ တည်းဖြတ်ခြင်း သို့မဟုတ် ထုတ်ဝေခြင်း မပြုရ။</translation>
+    </message>
+    <message>
+        <source>Review holds need the object state group review_hold: run the upgrade step 6.0.15-review-hold (Exponential 6.0.15 or later).</source>
+        <translation>စိစစ်ရန် ဆိုင်းငံ့ထားမှုများအတွက် review_hold အရာဝတ္ထုအခြေအနေအုပ်စု လိုအပ်သည်: 6.0.15-review-hold အဆင့်မြှင့်တင်ခြင်းအဆင့်ကို လုပ်ဆောင်ပါ (Exponential 6.0.15 သို့မဟုတ် နောက်ပိုင်း)။</translation>
+    </message>
+    <message>
+        <source>Why is it held? (kept in the audit)</source>
+        <translation>ဘာကြောင့် ဆိုင်းငံ့ထားသနည်း။ (စာရင်းစစ်မှတ်တမ်းတွင် သိမ်းထားမည်)</translation>
+    </message>
+    <message>
+        <source>Note for the audit (optional)</source>
+        <translation>စာရင်းစစ်မှတ်တမ်းအတွက် မှတ်ချက် (မဖြစ်မနေမဟုတ်)</translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation>စိစစ်ရန် ဆိုင်းငံ့ပါ</translation>
+    </message>
+    <message>
+        <source>Release</source>
+        <translation>လွှတ်ပေးရန်</translation>
+    </message>
+    <message>
+        <source>Say why the page is held.</source>
+        <translation>စာမျက်နှာကို ဘာကြောင့် ဆိုင်းငံ့ထားသည်ကို ဖော်ပြပါ။</translation>
+    </message>
+    <message>
+        <source>The page is held for review.</source>
+        <translation>စာမျက်နှာကို စိစစ်ရန် ဆိုင်းငံ့ထားသည်။</translation>
+    </message>
+    <message>
+        <source>The hold is released.</source>
+        <translation>ဆိုင်းငံ့ထားမှုကို လွှတ်ပေးလိုက်ပြီ။</translation>
+    </message>
+    <message>
+        <source>This page is held for review. It can be published once a reviewer releases it.</source>
+        <translation>ဤစာမျက်နှာကို စိစစ်ရန် ဆိုင်းငံ့ထားသည်။ စိစစ်သူက လွှတ်ပေးပြီးနောက် ထုတ်ဝေနိုင်သည်။</translation>
+    </message>
+    <message>
+        <source>Review holds need Exponential 6.0.15 or later, with its upgrade step run.</source>
+        <translation>စိစစ်ရန် ဆိုင်းငံ့ထားမှုများအတွက် Exponential 6.0.15 သို့မဟုတ် နောက်ပိုင်းနှင့် ၎င်း၏ အဆင့်မြှင့်တင်ခြင်းအဆင့်ကို လုပ်ဆောင်ထားရန် လိုအပ်သည်။</translation>
+    </message>
+    <message>
+        <source>This page is already held for review.</source>
+        <translation>ဤစာမျက်နှာကို စိစစ်ရန် ဆိုင်းငံ့ထားပြီးဖြစ်သည်။</translation>
+    </message>
+    <message>
+        <source>This page is not held.</source>
+        <translation>ဤစာမျက်နှာကို ဆိုင်းငံ့မထားပါ။</translation>
+    </message>
+    <message>
+        <source>You may not hold this page.</source>
+        <translation>ဤစာမျက်နှာကို ဆိုင်းငံ့ခွင့် သင့်တွင်မရှိပါ။</translation>
+    </message>
+    <message>
+        <source>You may not release this page.</source>
+        <translation>ဤစာမျက်နှာကို လွှတ်ပေးခွင့် သင့်တွင်မရှိပါ။</translation>
+    </message>
+    <message>
+        <source>The hold was not changed. Try again.</source>
+        <translation>ဆိုင်းငံ့ထားမှု မပြောင်းလဲခဲ့ပါ။ ထပ်စမ်းကြည့်ပါ။</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

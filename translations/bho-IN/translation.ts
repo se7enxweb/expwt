@@ -2335,6 +2335,90 @@
         <source>Which link?</source>
         <translation>कवन लिंक?</translation>
     </message>
+    <message>
+        <source>Review hold</source>
+        <translation>समीक्षा रोक</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>समीक्षा खातिर रोकल</translation>
+    </message>
+    <message>
+        <source>Held by %name since %time.</source>
+        <translation>%name %time से रोकले बाड़ें।</translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation>कारण: %reason</translation>
+    </message>
+    <message>
+        <source>You may still edit it, but publishing waits until it is released, unless your role allows it.</source>
+        <translation>रउआ अबहियों एकरा के संपादित कर सकीलें, बाकिर छपाई तबले रुकल रही जबले ई छोड़ल ना जाई, जदि रउआ भूमिका एकर इजाजत ना देत होखे।</translation>
+    </message>
+    <message>
+        <source>Nobody edits or publishes this page until a reviewer releases it.</source>
+        <translation>जबले कवनो समीक्षक एकरा के छोड़ ना दी, तबले केहू एह पन्ना के ना संपादित करी ना छापी।</translation>
+    </message>
+    <message>
+        <source>Review holds need the object state group review_hold: run the upgrade step 6.0.15-review-hold (Exponential 6.0.15 or later).</source>
+        <translation>समीक्षा रोक खातिर ऑब्जेक्ट स्टेट ग्रुप review_hold चाहीं: अपग्रेड स्टेप 6.0.15-review-hold चलाईं (Exponential 6.0.15 भा बाद के)।</translation>
+    </message>
+    <message>
+        <source>Why is it held? (kept in the audit)</source>
+        <translation>काहे रोकल बा? (ऑडिट में रखल जाला)</translation>
+    </message>
+    <message>
+        <source>Note for the audit (optional)</source>
+        <translation>ऑडिट खातिर नोट (मरजी से)</translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation>समीक्षा खातिर रोकीं</translation>
+    </message>
+    <message>
+        <source>Release</source>
+        <translation>छोड़ीं</translation>
+    </message>
+    <message>
+        <source>Say why the page is held.</source>
+        <translation>बताईं कि पन्ना काहे रोकल बा।</translation>
+    </message>
+    <message>
+        <source>The page is held for review.</source>
+        <translation>पन्ना समीक्षा खातिर रोकल गइल।</translation>
+    </message>
+    <message>
+        <source>The hold is released.</source>
+        <translation>रोक हटा दिहल गइल।</translation>
+    </message>
+    <message>
+        <source>This page is held for review. It can be published once a reviewer releases it.</source>
+        <translation>ई पन्ना समीक्षा खातिर रोकल बा। कवनो समीक्षक के छोड़ला के बाद एकरा के छापल जा सकेला।</translation>
+    </message>
+    <message>
+        <source>Review holds need Exponential 6.0.15 or later, with its upgrade step run.</source>
+        <translation>समीक्षा रोक खातिर Exponential 6.0.15 भा बाद के चाहीं, ओकर अपग्रेड स्टेप चलावल होखे के चाहीं।</translation>
+    </message>
+    <message>
+        <source>This page is already held for review.</source>
+        <translation>ई पन्ना पहिलहीं से समीक्षा खातिर रोकल बा।</translation>
+    </message>
+    <message>
+        <source>This page is not held.</source>
+        <translation>ई पन्ना रोकल नइखे।</translation>
+    </message>
+    <message>
+        <source>You may not hold this page.</source>
+        <translation>रउआ एह पन्ना के ना रोक सकीलें।</translation>
+    </message>
+    <message>
+        <source>You may not release this page.</source>
+        <translation>रउआ एह पन्ना के ना छोड़ सकीलें।</translation>
+    </message>
+    <message>
+        <source>The hold was not changed. Try again.</source>
+        <translation>रोक ना बदलल। फेर से कोसिस करीं।</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

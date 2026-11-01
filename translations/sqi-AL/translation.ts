@@ -2335,6 +2335,90 @@
         <source>Which link?</source>
         <translation>Cila lidhje?</translation>
     </message>
+    <message>
+        <source>Review hold</source>
+        <translation>Mbajtje për shqyrtim</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>Mbajtur për shqyrtim</translation>
+    </message>
+    <message>
+        <source>Held by %name since %time.</source>
+        <translation>Mbajtur nga %name që nga %time.</translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation>Arsyeja: %reason</translation>
+    </message>
+    <message>
+        <source>You may still edit it, but publishing waits until it is released, unless your role allows it.</source>
+        <translation>Mund ta redaktoni ende, por publikimi pret derisa të lirohet, përveç nëse roli juaj e lejon.</translation>
+    </message>
+    <message>
+        <source>Nobody edits or publishes this page until a reviewer releases it.</source>
+        <translation>Askush nuk e redakton ose publikon këtë faqe derisa një shqyrtues ta lirojë.</translation>
+    </message>
+    <message>
+        <source>Review holds need the object state group review_hold: run the upgrade step 6.0.15-review-hold (Exponential 6.0.15 or later).</source>
+        <translation>Mbajtjet për shqyrtim kërkojnë grupin e gjendjeve të objektit review_hold: ekzekutoni hapin e përditësimit 6.0.15-review-hold (Exponential 6.0.15 ose më i ri).</translation>
+    </message>
+    <message>
+        <source>Why is it held? (kept in the audit)</source>
+        <translation>Pse mbahet? (ruhet në auditim)</translation>
+    </message>
+    <message>
+        <source>Note for the audit (optional)</source>
+        <translation>Shënim për auditimin (opsional)</translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation>Mbaj për shqyrtim</translation>
+    </message>
+    <message>
+        <source>Release</source>
+        <translation>Liro</translation>
+    </message>
+    <message>
+        <source>Say why the page is held.</source>
+        <translation>Thoni pse mbahet faqja.</translation>
+    </message>
+    <message>
+        <source>The page is held for review.</source>
+        <translation>Faqja mbahet për shqyrtim.</translation>
+    </message>
+    <message>
+        <source>The hold is released.</source>
+        <translation>Mbajtja u lirua.</translation>
+    </message>
+    <message>
+        <source>This page is held for review. It can be published once a reviewer releases it.</source>
+        <translation>Kjo faqe mbahet për shqyrtim. Mund të publikohet sapo një shqyrtues ta lirojë.</translation>
+    </message>
+    <message>
+        <source>Review holds need Exponential 6.0.15 or later, with its upgrade step run.</source>
+        <translation>Mbajtjet për shqyrtim kërkojnë Exponential 6.0.15 ose më të ri, me hapin e tij të përditësimit të ekzekutuar.</translation>
+    </message>
+    <message>
+        <source>This page is already held for review.</source>
+        <translation>Kjo faqe mbahet tashmë për shqyrtim.</translation>
+    </message>
+    <message>
+        <source>This page is not held.</source>
+        <translation>Kjo faqe nuk mbahet.</translation>
+    </message>
+    <message>
+        <source>You may not hold this page.</source>
+        <translation>Nuk mund ta mbani këtë faqe.</translation>
+    </message>
+    <message>
+        <source>You may not release this page.</source>
+        <translation>Nuk mund ta lironi këtë faqe.</translation>
+    </message>
+    <message>
+        <source>The hold was not changed. Try again.</source>
+        <translation>Mbajtja nuk u ndryshua. Provoni përsëri.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

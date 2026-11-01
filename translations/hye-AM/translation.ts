@@ -2335,6 +2335,90 @@
         <source>Which link?</source>
         <translation>Ո՞ր հղումը</translation>
     </message>
+    <message>
+        <source>Review hold</source>
+        <translation>Պահում ստուգման համար</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>Պահված է ստուգման համար</translation>
+    </message>
+    <message>
+        <source>Held by %name since %time.</source>
+        <translation>Պահել է %name-ը՝ %time-ից.</translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation>Պատճառ՝ %reason</translation>
+    </message>
+    <message>
+        <source>You may still edit it, but publishing waits until it is released, unless your role allows it.</source>
+        <translation>Դուք դեռ կարող եք խմբագրել այն, բայց հրապարակումը սպասում է մինչև այն ազատվի, եթե ձեր դերը դա չի թույլատրում.</translation>
+    </message>
+    <message>
+        <source>Nobody edits or publishes this page until a reviewer releases it.</source>
+        <translation>Ոչ ոք չի խմբագրում կամ հրապարակում այս էջը, մինչև ստուգողն այն չազատի.</translation>
+    </message>
+    <message>
+        <source>Review holds need the object state group review_hold: run the upgrade step 6.0.15-review-hold (Exponential 6.0.15 or later).</source>
+        <translation>Ստուգման պահումներին անհրաժեշտ է օբյեկտի վիճակների review_hold խումբը. գործարկեք 6.0.15-review-hold թարմացման քայլը (Exponential 6.0.15 կամ ավելի նոր).</translation>
+    </message>
+    <message>
+        <source>Why is it held? (kept in the audit)</source>
+        <translation>Ինչու՞ է այն պահված. (պահվում է աուդիտում)</translation>
+    </message>
+    <message>
+        <source>Note for the audit (optional)</source>
+        <translation>Նշում աուդիտի համար (ըստ ցանկության)</translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation>Պահել ստուգման համար</translation>
+    </message>
+    <message>
+        <source>Release</source>
+        <translation>Ազատել</translation>
+    </message>
+    <message>
+        <source>Say why the page is held.</source>
+        <translation>Նշեք, թե ինչու է էջը պահված.</translation>
+    </message>
+    <message>
+        <source>The page is held for review.</source>
+        <translation>Էջը պահված է ստուգման համար.</translation>
+    </message>
+    <message>
+        <source>The hold is released.</source>
+        <translation>Պահումն ազատված է.</translation>
+    </message>
+    <message>
+        <source>This page is held for review. It can be published once a reviewer releases it.</source>
+        <translation>Այս էջը պահված է ստուգման համար. Այն կարելի է հրապարակել, երբ ստուգողն այն ազատի.</translation>
+    </message>
+    <message>
+        <source>Review holds need Exponential 6.0.15 or later, with its upgrade step run.</source>
+        <translation>Ստուգման պահումներին անհրաժեշտ է Exponential 6.0.15 կամ ավելի նոր՝ դրա թարմացման քայլը գործարկված.</translation>
+    </message>
+    <message>
+        <source>This page is already held for review.</source>
+        <translation>Այս էջն արդեն պահված է ստուգման համար.</translation>
+    </message>
+    <message>
+        <source>This page is not held.</source>
+        <translation>Այս էջը պահված չէ.</translation>
+    </message>
+    <message>
+        <source>You may not hold this page.</source>
+        <translation>Դուք չեք կարող պահել այս էջը.</translation>
+    </message>
+    <message>
+        <source>You may not release this page.</source>
+        <translation>Դուք չեք կարող ազատել այս էջը.</translation>
+    </message>
+    <message>
+        <source>The hold was not changed. Try again.</source>
+        <translation>Պահումը չի փոխվել. Կրկին փորձեք.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

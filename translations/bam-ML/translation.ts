@@ -2335,6 +2335,90 @@
         <source>Which link?</source>
         <translation>Jɛɲɔgɔnyasira jumɛn?</translation>
     </message>
+    <message>
+        <source>Review hold</source>
+        <translation>Lajɛli minɛ</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>Minɛna lajɛli kama</translation>
+    </message>
+    <message>
+        <source>Held by %name since %time.</source>
+        <translation>%name ye a minɛ kabini %time.</translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation>Kun: %reason</translation>
+    </message>
+    <message>
+        <source>You may still edit it, but publishing waits until it is released, unless your role allows it.</source>
+        <translation>I bɛ se k'a yɛlɛma hali bi, nka a bila kɛnɛ kan bɛ makɔnɔ fo a ka bila, ni i ka jɔyɔrɔ t'a sira di.</translation>
+    </message>
+    <message>
+        <source>Nobody edits or publishes this page until a reviewer releases it.</source>
+        <translation>Mɔgɔ si tɛ nin ɲɛ yɛlɛma walima k'a bila kɛnɛ kan fo lajɛlikɛla dɔ k'a bila.</translation>
+    </message>
+    <message>
+        <source>Review holds need the object state group review_hold: run the upgrade step 6.0.15-review-hold (Exponential 6.0.15 or later).</source>
+        <translation>Lajɛli minɛ mago bɛ object state group review_hold la: upgrade step 6.0.15-review-hold boli (Exponential 6.0.15 walima min nana o kɔ).</translation>
+    </message>
+    <message>
+        <source>Why is it held? (kept in the audit)</source>
+        <translation>Mun na a minɛna? (a bɛ mara audit kɔnɔ)</translation>
+    </message>
+    <message>
+        <source>Note for the audit (optional)</source>
+        <translation>Kunnafoni audit ye (n'i y'a fɛ)</translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation>Minɛ lajɛli kama</translation>
+    </message>
+    <message>
+        <source>Release</source>
+        <translation>A bila</translation>
+    </message>
+    <message>
+        <source>Say why the page is held.</source>
+        <translation>A fɔ mun na ɲɛ minɛna.</translation>
+    </message>
+    <message>
+        <source>The page is held for review.</source>
+        <translation>Ɲɛ minɛna lajɛli kama.</translation>
+    </message>
+    <message>
+        <source>The hold is released.</source>
+        <translation>Minɛ bilala.</translation>
+    </message>
+    <message>
+        <source>This page is held for review. It can be published once a reviewer releases it.</source>
+        <translation>Nin ɲɛ minɛna lajɛli kama. A bɛ se ka bila kɛnɛ kan ni lajɛlikɛla dɔ y'a bila.</translation>
+    </message>
+    <message>
+        <source>Review holds need Exponential 6.0.15 or later, with its upgrade step run.</source>
+        <translation>Lajɛli minɛ mago bɛ Exponential 6.0.15 walima min nana o kɔ la, n'a ka upgrade step bolila.</translation>
+    </message>
+    <message>
+        <source>This page is already held for review.</source>
+        <translation>Nin ɲɛ minɛna lajɛli kama kaban.</translation>
+    </message>
+    <message>
+        <source>This page is not held.</source>
+        <translation>Nin ɲɛ ma minɛ.</translation>
+    </message>
+    <message>
+        <source>You may not hold this page.</source>
+        <translation>I tɛ se ka nin ɲɛ minɛ.</translation>
+    </message>
+    <message>
+        <source>You may not release this page.</source>
+        <translation>I tɛ se ka nin ɲɛ bila.</translation>
+    </message>
+    <message>
+        <source>The hold was not changed. Try again.</source>
+        <translation>Minɛ ma yɛlɛma. A lajɛ tuguni.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

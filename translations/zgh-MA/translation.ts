@@ -2335,6 +2335,90 @@
         <source>Which link?</source>
         <translation>ⵎⴰⵏ ⴰⵥⴷⴰⵢ?</translation>
     </message>
+    <message>
+        <source>Review hold</source>
+        <translation>ⴰⵃⴱⴰⵙ ⵉ ⵓⵙⵙⵉⴼⴹ</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>ⵉⵜⵜⵓⵃⴱⴰⵙ ⵉ ⵓⵙⵙⵉⴼⴹ</translation>
+    </message>
+    <message>
+        <source>Held by %name since %time.</source>
+        <translation>ⵉⵃⴱⵙ ⵜ %name ⵙⴳ %time.</translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation>ⴰⵙⵔⴰⴳ: %reason</translation>
+    </message>
+    <message>
+        <source>You may still edit it, but publishing waits until it is released, unless your role allows it.</source>
+        <translation>ⵜⵣⴹⴰⵔⴷ ⴰⴷ ⵜ ⵜⵙⵏⴼⵍⴷ ⴰⵔ ⴷⵖⵉ, ⵎⴰⵛⴰ ⴰⵙⵙⵓⴼⵖ ⵉⵔⴰⵔⴰ ⴰⵔ ⴷ ⵉⵜⵜⵓⵙⵔⴰⵃ, ⵖⴰⵙ ⵎⴽ ⵉⵙⵓⵔⴳ ⵓⵎⵙⴰⵙ ⵏⵏⴽ.</translation>
+    </message>
+    <message>
+        <source>Nobody edits or publishes this page until a reviewer releases it.</source>
+        <translation>ⵓⵔ ⵉⵙⵏⴼⴰⵍ ⵢⴰⵏ ⵓⵍⴰ ⵉⵙⵙⵓⴼⵖ ⵜⴰⵙⵏⴰ ⴰⴷ ⴰⵔ ⵜⵜ ⵉⵙⵔⴰⵃ ⵓⵎⵙⵙⵉⴼⴹ.</translation>
+    </message>
+    <message>
+        <source>Review holds need the object state group review_hold: run the upgrade step 6.0.15-review-hold (Exponential 6.0.15 or later).</source>
+        <translation>ⵉⵃⴱⴰⵙⵏ ⵏ ⵓⵙⵙⵉⴼⴹ ⵔⴰⵏ ⵜⴰⵔⴰⴱⴱⵓⵜ ⵏ ⵡⴰⴷⴷⴰⴷ ⵏ ⵜⵖⴰⵡⵙⴰ review_hold: ⵙⵙⵡⵓⵔⵉ ⵜⴰⴼⵙⵜ ⵏ ⵓⵙⵎⴰⵢⵏⵓ 6.0.15-review-hold (Exponential 6.0.15 ⵏⵖ ⴷⴼⴼⵉⵔ ⴰⵙ).</translation>
+    </message>
+    <message>
+        <source>Why is it held? (kept in the audit)</source>
+        <translation>ⵎⴰⵅ ⵉⵃⴱⵙ? (ⵉⵜⵜⵓⵃⴹⴰ ⴳ ⵓⵙⵎⵔⴰⵙ)</translation>
+    </message>
+    <message>
+        <source>Note for the audit (optional)</source>
+        <translation>ⵜⴰⵏⵓⵜⴰ ⵉ ⵓⵙⵎⵔⴰⵙ (ⵙ ⵓⵙⵜⴰⵢ)</translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation>ⵃⴱⵙ ⵉ ⵓⵙⵙⵉⴼⴹ</translation>
+    </message>
+    <message>
+        <source>Release</source>
+        <translation>ⵙⵔⵃ</translation>
+    </message>
+    <message>
+        <source>Say why the page is held.</source>
+        <translation>ⵉⵏⵉ ⵎⴰⵅ ⵜⵃⴱⵙ ⵜⴰⵙⵏⴰ.</translation>
+    </message>
+    <message>
+        <source>The page is held for review.</source>
+        <translation>ⵜⴰⵙⵏⴰ ⵜⵜⵓⵃⴱⴰⵙ ⵉ ⵓⵙⵙⵉⴼⴹ.</translation>
+    </message>
+    <message>
+        <source>The hold is released.</source>
+        <translation>ⴰⵃⴱⴰⵙ ⵉⵜⵜⵓⵙⵔⵃ.</translation>
+    </message>
+    <message>
+        <source>This page is held for review. It can be published once a reviewer releases it.</source>
+        <translation>ⵜⴰⵙⵏⴰ ⴰⴷ ⵜⵜⵓⵃⴱⴰⵙ ⵉ ⵓⵙⵙⵉⴼⴹ. ⵜⵣⴹⴰⵔ ⴰⴷ ⵜⵜⵓⵙⵙⵓⴼⵖ ⵖⴰⵙ ⵎⴰ ⵜⵜ ⵉⵙⵔⵃ ⵓⵎⵙⵙⵉⴼⴹ.</translation>
+    </message>
+    <message>
+        <source>Review holds need Exponential 6.0.15 or later, with its upgrade step run.</source>
+        <translation>ⵉⵃⴱⴰⵙⵏ ⵏ ⵓⵙⵙⵉⴼⴹ ⵔⴰⵏ Exponential 6.0.15 ⵏⵖ ⴷⴼⴼⵉⵔ ⴰⵙ, ⵙ ⵜⴰⴼⵙⵜ ⵏⵏⵙ ⵏ ⵓⵙⵎⴰⵢⵏⵓ ⵢⵜⵜⵓⵙⵡⵓⵔⵉⵏ.</translation>
+    </message>
+    <message>
+        <source>This page is already held for review.</source>
+        <translation>ⵜⴰⵙⵏⴰ ⴰⴷ ⵜⵜⵓⵃⴱⴰⵙ ⵢⴰⴷ ⵉ ⵓⵙⵙⵉⴼⴹ.</translation>
+    </message>
+    <message>
+        <source>This page is not held.</source>
+        <translation>ⵜⴰⵙⵏⴰ ⴰⴷ ⵓⵔ ⵜⵜⵓⵃⴱⴰⵙ.</translation>
+    </message>
+    <message>
+        <source>You may not hold this page.</source>
+        <translation>ⵓⵔ ⵜⵣⴹⴰⵔⴷ ⴰⴷ ⵜⵃⴱⵙⴷ ⵜⴰⵙⵏⴰ ⴰⴷ.</translation>
+    </message>
+    <message>
+        <source>You may not release this page.</source>
+        <translation>ⵓⵔ ⵜⵣⴹⴰⵔⴷ ⴰⴷ ⵜⵙⵔⵃⴷ ⵜⴰⵙⵏⴰ ⴰⴷ.</translation>
+    </message>
+    <message>
+        <source>The hold was not changed. Try again.</source>
+        <translation>ⴰⵃⴱⴰⵙ ⵓⵔ ⵉⵜⵜⵓⵙⵏⴼⵍ. ⴰⵍⵙ ⵜⵉⴽⴽⵍⵜ ⵢⴰⴹⵏ.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

@@ -2335,6 +2335,90 @@
         <source>Which link?</source>
         <translation>Cén nasc?</translation>
     </message>
+    <message>
+        <source>Review hold</source>
+        <translation>Coinneáil le haghaidh athbhreithnithe</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>Coinnithe le haghaidh athbhreithnithe</translation>
+    </message>
+    <message>
+        <source>Held by %name since %time.</source>
+        <translation>Coinnithe ag %name ó %time.</translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation>Cúis: %reason</translation>
+    </message>
+    <message>
+        <source>You may still edit it, but publishing waits until it is released, unless your role allows it.</source>
+        <translation>Is féidir leat é a chur in eagar fós, ach fanann an foilsiú go dtí go scaoiltear é, mura gceadaíonn do ról é.</translation>
+    </message>
+    <message>
+        <source>Nobody edits or publishes this page until a reviewer releases it.</source>
+        <translation>Ní chuireann aon duine an leathanach seo in eagar ná ní fhoilsíonn sé é go dtí go scaoileann athbhreithneoir é.</translation>
+    </message>
+    <message>
+        <source>Review holds need the object state group review_hold: run the upgrade step 6.0.15-review-hold (Exponential 6.0.15 or later).</source>
+        <translation>Teastaíonn an grúpa staide oibiachta review_hold ó choinneálacha athbhreithnithe: rith an chéim uasghrádaithe 6.0.15-review-hold (Exponential 6.0.15 nó níos déanaí).</translation>
+    </message>
+    <message>
+        <source>Why is it held? (kept in the audit)</source>
+        <translation>Cén fáth a bhfuil sé coinnithe? (coinnítear san iniúchadh é)</translation>
+    </message>
+    <message>
+        <source>Note for the audit (optional)</source>
+        <translation>Nóta don iniúchadh (roghnach)</translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation>Coinnigh le haghaidh athbhreithnithe</translation>
+    </message>
+    <message>
+        <source>Release</source>
+        <translation>Scaoil</translation>
+    </message>
+    <message>
+        <source>Say why the page is held.</source>
+        <translation>Abair cén fáth a bhfuil an leathanach coinnithe.</translation>
+    </message>
+    <message>
+        <source>The page is held for review.</source>
+        <translation>Tá an leathanach coinnithe le haghaidh athbhreithnithe.</translation>
+    </message>
+    <message>
+        <source>The hold is released.</source>
+        <translation>Scaoileadh an choinneáil.</translation>
+    </message>
+    <message>
+        <source>This page is held for review. It can be published once a reviewer releases it.</source>
+        <translation>Tá an leathanach seo coinnithe le haghaidh athbhreithnithe. Is féidir é a fhoilsiú nuair a scaoileann athbhreithneoir é.</translation>
+    </message>
+    <message>
+        <source>Review holds need Exponential 6.0.15 or later, with its upgrade step run.</source>
+        <translation>Teastaíonn Exponential 6.0.15 nó níos déanaí ó choinneálacha athbhreithnithe, agus a chéim uasghrádaithe rite.</translation>
+    </message>
+    <message>
+        <source>This page is already held for review.</source>
+        <translation>Tá an leathanach seo coinnithe le haghaidh athbhreithnithe cheana.</translation>
+    </message>
+    <message>
+        <source>This page is not held.</source>
+        <translation>Níl an leathanach seo coinnithe.</translation>
+    </message>
+    <message>
+        <source>You may not hold this page.</source>
+        <translation>Níl cead agat an leathanach seo a choinneáil.</translation>
+    </message>
+    <message>
+        <source>You may not release this page.</source>
+        <translation>Níl cead agat an leathanach seo a scaoileadh.</translation>
+    </message>
+    <message>
+        <source>The hold was not changed. Try again.</source>
+        <translation>Níor athraíodh an choinneáil. Bain triail eile as.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

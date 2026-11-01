@@ -2335,6 +2335,90 @@
         <source>Which link?</source>
         <translation>Аль холбоос?</translation>
     </message>
+    <message>
+        <source>Review hold</source>
+        <translation>Хянан шалгах түр зогсоолт</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>Хянан шалгахаар түр зогсоосон</translation>
+    </message>
+    <message>
+        <source>Held by %name since %time.</source>
+        <translation>%name %time-аас хойш зогсоосон.</translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation>Шалтгаан: %reason</translation>
+    </message>
+    <message>
+        <source>You may still edit it, but publishing waits until it is released, unless your role allows it.</source>
+        <translation>Та засах боломжтой хэвээр, гэхдээ таны үүрэг зөвшөөрөхгүй бол нийтлэх нь чөлөөлөгдөх хүртэл хүлээнэ.</translation>
+    </message>
+    <message>
+        <source>Nobody edits or publishes this page until a reviewer releases it.</source>
+        <translation>Хянагч чөлөөлөх хүртэл энэ хуудсыг хэн ч засахгүй, нийтлэхгүй.</translation>
+    </message>
+    <message>
+        <source>Review holds need the object state group review_hold: run the upgrade step 6.0.15-review-hold (Exponential 6.0.15 or later).</source>
+        <translation>Хянан шалгах түр зогсоолтод review_hold объектын төлөвийн бүлэг хэрэгтэй: 6.0.15-review-hold шинэчлэлийн алхмыг ажиллуулна уу (Exponential 6.0.15 буюу түүнээс хойшх).</translation>
+    </message>
+    <message>
+        <source>Why is it held? (kept in the audit)</source>
+        <translation>Яагаад зогсоосон бэ? (аудитад хадгалагдана)</translation>
+    </message>
+    <message>
+        <source>Note for the audit (optional)</source>
+        <translation>Аудитын тэмдэглэл (заавал биш)</translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation>Хянан шалгахаар зогсоох</translation>
+    </message>
+    <message>
+        <source>Release</source>
+        <translation>Чөлөөлөх</translation>
+    </message>
+    <message>
+        <source>Say why the page is held.</source>
+        <translation>Хуудсыг яагаад зогсоосныг бичнэ үү.</translation>
+    </message>
+    <message>
+        <source>The page is held for review.</source>
+        <translation>Хуудсыг хянан шалгахаар зогсоолоо.</translation>
+    </message>
+    <message>
+        <source>The hold is released.</source>
+        <translation>Зогсоолтыг чөлөөллөө.</translation>
+    </message>
+    <message>
+        <source>This page is held for review. It can be published once a reviewer releases it.</source>
+        <translation>Энэ хуудсыг хянан шалгахаар зогсоосон. Хянагч чөлөөлсний дараа нийтлэх боломжтой.</translation>
+    </message>
+    <message>
+        <source>Review holds need Exponential 6.0.15 or later, with its upgrade step run.</source>
+        <translation>Хянан шалгах түр зогсоолтод Exponential 6.0.15 буюу түүнээс хойшх хувилбар, шинэчлэлийн алхам нь ажилласан байх шаардлагатай.</translation>
+    </message>
+    <message>
+        <source>This page is already held for review.</source>
+        <translation>Энэ хуудсыг аль хэдийн хянан шалгахаар зогсоосон.</translation>
+    </message>
+    <message>
+        <source>This page is not held.</source>
+        <translation>Энэ хуудсыг зогсоогоогүй.</translation>
+    </message>
+    <message>
+        <source>You may not hold this page.</source>
+        <translation>Та энэ хуудсыг зогсоох эрхгүй.</translation>
+    </message>
+    <message>
+        <source>You may not release this page.</source>
+        <translation>Та энэ хуудсыг чөлөөлөх эрхгүй.</translation>
+    </message>
+    <message>
+        <source>The hold was not changed. Try again.</source>
+        <translation>Зогсоолт өөрчлөгдсөнгүй. Дахин оролдоно уу.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

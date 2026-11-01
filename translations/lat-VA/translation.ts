@@ -2335,6 +2335,90 @@
         <source>Which link?</source>
         <translation>Quis nexus?</translation>
     </message>
+    <message>
+        <source>Review hold</source>
+        <translation>Retentio ad recognitionem</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>Ad recognitionem retenta</translation>
+    </message>
+    <message>
+        <source>Held by %name since %time.</source>
+        <translation>Retenta ab %name ex %time.</translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation>Causa: %reason</translation>
+    </message>
+    <message>
+        <source>You may still edit it, but publishing waits until it is released, unless your role allows it.</source>
+        <translation>Eam adhuc recensere potes, sed publicatio exspectat donec dimittatur, nisi munus tuum id permittit.</translation>
+    </message>
+    <message>
+        <source>Nobody edits or publishes this page until a reviewer releases it.</source>
+        <translation>Nemo hanc paginam recenset aut publicat donec recognitor eam dimittat.</translation>
+    </message>
+    <message>
+        <source>Review holds need the object state group review_hold: run the upgrade step 6.0.15-review-hold (Exponential 6.0.15 or later).</source>
+        <translation>Retentiones ad recognitionem gregem statuum obiecti review_hold requirunt: gradum renovationis 6.0.15-review-hold exsequere (Exponential 6.0.15 vel recentius).</translation>
+    </message>
+    <message>
+        <source>Why is it held? (kept in the audit)</source>
+        <translation>Cur retenta est? (in actis servatur)</translation>
+    </message>
+    <message>
+        <source>Note for the audit (optional)</source>
+        <translation>Nota pro actis (ad libitum)</translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation>Retine ad recognitionem</translation>
+    </message>
+    <message>
+        <source>Release</source>
+        <translation>Dimitte</translation>
+    </message>
+    <message>
+        <source>Say why the page is held.</source>
+        <translation>Dic cur pagina retenta sit.</translation>
+    </message>
+    <message>
+        <source>The page is held for review.</source>
+        <translation>Pagina ad recognitionem retenta est.</translation>
+    </message>
+    <message>
+        <source>The hold is released.</source>
+        <translation>Retentio dimissa est.</translation>
+    </message>
+    <message>
+        <source>This page is held for review. It can be published once a reviewer releases it.</source>
+        <translation>Haec pagina ad recognitionem retenta est. Publicari potest cum recognitor eam dimiserit.</translation>
+    </message>
+    <message>
+        <source>Review holds need Exponential 6.0.15 or later, with its upgrade step run.</source>
+        <translation>Retentiones ad recognitionem Exponential 6.0.15 vel recentius requirunt, gradu renovationis eius exsecuto.</translation>
+    </message>
+    <message>
+        <source>This page is already held for review.</source>
+        <translation>Haec pagina iam ad recognitionem retenta est.</translation>
+    </message>
+    <message>
+        <source>This page is not held.</source>
+        <translation>Haec pagina non retenta est.</translation>
+    </message>
+    <message>
+        <source>You may not hold this page.</source>
+        <translation>Hanc paginam retinere non licet tibi.</translation>
+    </message>
+    <message>
+        <source>You may not release this page.</source>
+        <translation>Hanc paginam dimittere non licet tibi.</translation>
+    </message>
+    <message>
+        <source>The hold was not changed. Try again.</source>
+        <translation>Retentio non mutata est. Iterum conare.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

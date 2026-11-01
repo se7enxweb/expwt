@@ -2335,6 +2335,90 @@
         <source>Which link?</source>
         <translation>སྦྲེལ་མཐུད་གང་ཡིན།</translation>
     </message>
+    <message>
+        <source>Review hold</source>
+        <translation>ཞིབ་བཤེར་འགོག་འཛིན།</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>ཞིབ་བཤེར་ཆེད་འགོག་ཡོད།</translation>
+    </message>
+    <message>
+        <source>Held by %name since %time.</source>
+        <translation>%name ཡིས་ %time ནས་འགོག་ཡོད།</translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation>རྒྱུ་མཚན། %reason</translation>
+    </message>
+    <message>
+        <source>You may still edit it, but publishing waits until it is released, unless your role allows it.</source>
+        <translation>ཁྱེད་ཀྱིས་ད་དུང་རྩོམ་སྒྲིག་བྱེད་ཆོག་ནའང་། ཁྱེད་ཀྱི་འགན་ཁུར་གྱིས་ཆོག་མཆན་མ་སྤྲད་ན་གློད་མ་ཐུབ་བར་འགྲེམས་སྤེལ་སྒུག་དགོས།</translation>
+    </message>
+    <message>
+        <source>Nobody edits or publishes this page until a reviewer releases it.</source>
+        <translation>ཞིབ་བཤེར་བ་ཞིག་གིས་གློད་མ་ཐུབ་བར་སུས་ཀྱང་ཤོག་ངོས་འདི་རྩོམ་སྒྲིག་དང་འགྲེམས་སྤེལ་མི་བྱེད།</translation>
+    </message>
+    <message>
+        <source>Review holds need the object state group review_hold: run the upgrade step 6.0.15-review-hold (Exponential 6.0.15 or later).</source>
+        <translation>ཞིབ་བཤེར་འགོག་འཛིན་ལ་དངོས་པོའི་གནས་སྟངས་ཚོ་ review_hold དགོས། རིམ་སྤོར་གོམ་པ་ 6.0.15-review-hold འཁོར་སྐྱོད་གནང་། (Exponential 6.0.15 ཡང་ན་དེ་རྗེས།)</translation>
+    </message>
+    <message>
+        <source>Why is it held? (kept in the audit)</source>
+        <translation>ཅིའི་ཕྱིར་འགོག་ཡོད། (ཞིབ་དཔྱད་ནང་ཉར་ཚགས།)</translation>
+    </message>
+    <message>
+        <source>Note for the audit (optional)</source>
+        <translation>ཞིབ་དཔྱད་ཆེད་ཟིན་ཐོ། (འདེམས་རུང་།)</translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation>ཞིབ་བཤེར་ཆེད་འགོག</translation>
+    </message>
+    <message>
+        <source>Release</source>
+        <translation>གློད།</translation>
+    </message>
+    <message>
+        <source>Say why the page is held.</source>
+        <translation>ཤོག་ངོས་ཅིའི་ཕྱིར་འགོག་ཡོད་པ་བྲིས།</translation>
+    </message>
+    <message>
+        <source>The page is held for review.</source>
+        <translation>ཤོག་ངོས་ཞིབ་བཤེར་ཆེད་འགོག་ཟིན།</translation>
+    </message>
+    <message>
+        <source>The hold is released.</source>
+        <translation>འགོག་འཛིན་གློད་ཟིན།</translation>
+    </message>
+    <message>
+        <source>This page is held for review. It can be published once a reviewer releases it.</source>
+        <translation>ཤོག་ངོས་འདི་ཞིབ་བཤེར་ཆེད་འགོག་ཡོད། ཞིབ་བཤེར་བ་ཞིག་གིས་གློད་རྗེས་འགྲེམས་སྤེལ་བྱེད་ཆོག</translation>
+    </message>
+    <message>
+        <source>Review holds need Exponential 6.0.15 or later, with its upgrade step run.</source>
+        <translation>ཞིབ་བཤེར་འགོག་འཛིན་ལ་ Exponential 6.0.15 ཡང་ན་དེ་རྗེས་དང་། དེའི་རིམ་སྤོར་གོམ་པ་འཁོར་སྐྱོད་བྱས་ཡོད་དགོས།</translation>
+    </message>
+    <message>
+        <source>This page is already held for review.</source>
+        <translation>ཤོག་ངོས་འདི་སྔར་ནས་ཞིབ་བཤེར་ཆེད་འགོག་ཡོད།</translation>
+    </message>
+    <message>
+        <source>This page is not held.</source>
+        <translation>ཤོག་ངོས་འདི་འགོག་མེད།</translation>
+    </message>
+    <message>
+        <source>You may not hold this page.</source>
+        <translation>ཁྱེད་ཀྱིས་ཤོག་ངོས་འདི་འགོག་མི་ཆོག</translation>
+    </message>
+    <message>
+        <source>You may not release this page.</source>
+        <translation>ཁྱེད་ཀྱིས་ཤོག་ངོས་འདི་གློད་མི་ཆོག</translation>
+    </message>
+    <message>
+        <source>The hold was not changed. Try again.</source>
+        <translation>འགོག་འཛིན་བསྒྱུར་མེད། ཡང་བསྐྱར་ཚོད་ལྟ་གནང་།</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

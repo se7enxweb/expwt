@@ -2335,6 +2335,90 @@
         <source>Which link?</source>
         <translation>Kotry wotkaz?</translation>
     </message>
+    <message>
+        <source>Review hold</source>
+        <translation>Zadźerženje za přepruwowanje</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>Zadźeržane za přepruwowanje</translation>
+    </message>
+    <message>
+        <source>Held by %name since %time.</source>
+        <translation>Zadźeržane wot %name wot %time.</translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation>Přičina: %reason</translation>
+    </message>
+    <message>
+        <source>You may still edit it, but publishing waits until it is released, unless your role allows it.</source>
+        <translation>Móžeće ju dale wobdźěłać, ale wozjewjenje čaka, doniž so njewupušći, chibazo waša róla to dowoli.</translation>
+    </message>
+    <message>
+        <source>Nobody edits or publishes this page until a reviewer releases it.</source>
+        <translation>Nichtó tutu stronu njewobdźěła abo njewozjewi, doniž ju přepruwowar njewupušći.</translation>
+    </message>
+    <message>
+        <source>Review holds need the object state group review_hold: run the upgrade step 6.0.15-review-hold (Exponential 6.0.15 or later).</source>
+        <translation>Zadźerženja za přepruwowanje trjebaja skupinu objektowych stawow review_hold: wuwjedźće aktualizowanski krok 6.0.15-review-hold (Exponential 6.0.15 abo nowši).</translation>
+    </message>
+    <message>
+        <source>Why is it held? (kept in the audit)</source>
+        <translation>Čehodla je zadźeržana? (składuje so w awdiće)</translation>
+    </message>
+    <message>
+        <source>Note for the audit (optional)</source>
+        <translation>Přispomnjenka za awdit (opcionalnje)</translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation>Za přepruwowanje zadźeržeć</translation>
+    </message>
+    <message>
+        <source>Release</source>
+        <translation>Wupušćić</translation>
+    </message>
+    <message>
+        <source>Say why the page is held.</source>
+        <translation>Prajće, čehodla je strona zadźeržana.</translation>
+    </message>
+    <message>
+        <source>The page is held for review.</source>
+        <translation>Strona je za přepruwowanje zadźeržana.</translation>
+    </message>
+    <message>
+        <source>The hold is released.</source>
+        <translation>Zadźerženje je wupušćene.</translation>
+    </message>
+    <message>
+        <source>This page is held for review. It can be published once a reviewer releases it.</source>
+        <translation>Tuta strona je za přepruwowanje zadźeržana. Hdyž ju přepruwowar wupušći, da so wozjewić.</translation>
+    </message>
+    <message>
+        <source>Review holds need Exponential 6.0.15 or later, with its upgrade step run.</source>
+        <translation>Zadźerženja za přepruwowanje trjebaja Exponential 6.0.15 abo nowši z wuwjedźenym aktualizowanskim krokom.</translation>
+    </message>
+    <message>
+        <source>This page is already held for review.</source>
+        <translation>Tuta strona je hižo za přepruwowanje zadźeržana.</translation>
+    </message>
+    <message>
+        <source>This page is not held.</source>
+        <translation>Tuta strona njeje zadźeržana.</translation>
+    </message>
+    <message>
+        <source>You may not hold this page.</source>
+        <translation>Njesměće tutu stronu zadźeržeć.</translation>
+    </message>
+    <message>
+        <source>You may not release this page.</source>
+        <translation>Njesměće tutu stronu wupušćić.</translation>
+    </message>
+    <message>
+        <source>The hold was not changed. Try again.</source>
+        <translation>Zadźerženje njeje so změniło. Spytajće hišće raz.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

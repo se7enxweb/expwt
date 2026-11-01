@@ -2335,6 +2335,90 @@
         <source>Which link?</source>
         <translation>Link bɛn?</translation>
     </message>
+    <message>
+        <source>Review hold</source>
+        <translation>Nhwehwɛmu nkyeree</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>Wɔakyere so ama nhwehwɛmu</translation>
+    </message>
+    <message>
+        <source>Held by %name since %time.</source>
+        <translation>%name na ɔkyere so fi %time.</translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation>Nea enti: %reason</translation>
+    </message>
+    <message>
+        <source>You may still edit it, but publishing waits until it is released, unless your role allows it.</source>
+        <translation>Wobɛtumi asesa mu da so, nanso tintim twɛn kosi sɛ wɔbɛgyae mu, gye sɛ wo dibea ma kwan.</translation>
+    </message>
+    <message>
+        <source>Nobody edits or publishes this page until a reviewer releases it.</source>
+        <translation>Obiara nsesa anaa ntintim krataafa yi kosi sɛ reviewer bi bɛgyae mu.</translation>
+    </message>
+    <message>
+        <source>Review holds need the object state group review_hold: run the upgrade step 6.0.15-review-hold (Exponential 6.0.15 or later).</source>
+        <translation>Nhwehwɛmu nkyeree hia object state group review_hold: yɛ upgrade step 6.0.15-review-hold (Exponential 6.0.15 anaa nea ɛba akyi).</translation>
+    </message>
+    <message>
+        <source>Why is it held? (kept in the audit)</source>
+        <translation>Adɛn nti na wɔakyere so? (wɔde sie audit no mu)</translation>
+    </message>
+    <message>
+        <source>Note for the audit (optional)</source>
+        <translation>Nsɛm ma audit no (wopɛ a)</translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation>Kyere so ma nhwehwɛmu</translation>
+    </message>
+    <message>
+        <source>Release</source>
+        <translation>Gyae mu</translation>
+    </message>
+    <message>
+        <source>Say why the page is held.</source>
+        <translation>Ka nea enti a wɔakyere krataafa no so.</translation>
+    </message>
+    <message>
+        <source>The page is held for review.</source>
+        <translation>Wɔakyere krataafa no so ama nhwehwɛmu.</translation>
+    </message>
+    <message>
+        <source>The hold is released.</source>
+        <translation>Wɔagyae nkyeree no mu.</translation>
+    </message>
+    <message>
+        <source>This page is held for review. It can be published once a reviewer releases it.</source>
+        <translation>Wɔakyere krataafa yi so ama nhwehwɛmu. Wobɛtumi atintim bere a reviewer bi agyae mu.</translation>
+    </message>
+    <message>
+        <source>Review holds need Exponential 6.0.15 or later, with its upgrade step run.</source>
+        <translation>Nhwehwɛmu nkyeree hia Exponential 6.0.15 anaa nea ɛba akyi, a wɔayɛ ne upgrade step no.</translation>
+    </message>
+    <message>
+        <source>This page is already held for review.</source>
+        <translation>Wɔakyere krataafa yi so ama nhwehwɛmu dedaw.</translation>
+    </message>
+    <message>
+        <source>This page is not held.</source>
+        <translation>Wɔnkyeree krataafa yi so.</translation>
+    </message>
+    <message>
+        <source>You may not hold this page.</source>
+        <translation>Wontumi nkyere krataafa yi so.</translation>
+    </message>
+    <message>
+        <source>You may not release this page.</source>
+        <translation>Wontumi ngyae krataafa yi mu.</translation>
+    </message>
+    <message>
+        <source>The hold was not changed. Try again.</source>
+        <translation>Wɔansesa nkyeree no. Sɔ hwɛ bio.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

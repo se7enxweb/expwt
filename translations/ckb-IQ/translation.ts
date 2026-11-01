@@ -2335,6 +2335,90 @@
         <source>Which link?</source>
         <translation>کام بەستەر؟</translation>
     </message>
+    <message>
+        <source>Review hold</source>
+        <translation>ڕاگرتن بۆ پێداچوونەوە</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>ڕاگیراوە بۆ پێداچوونەوە</translation>
+    </message>
+    <message>
+        <source>Held by %name since %time.</source>
+        <translation>لەلایەن %name لە %time ـەوە ڕاگیراوە.</translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation>هۆکار: %reason</translation>
+    </message>
+    <message>
+        <source>You may still edit it, but publishing waits until it is released, unless your role allows it.</source>
+        <translation>هێشتا دەتوانیت دەستکاری بکەیت، بەڵام بڵاوکردنەوە چاوەڕێ دەکات تا ئازاد دەکرێت، مەگەر ڕۆڵەکەت ڕێگە بدات.</translation>
+    </message>
+    <message>
+        <source>Nobody edits or publishes this page until a reviewer releases it.</source>
+        <translation>کەس دەستکاری ئەم پەڕەیە ناکات و بڵاوی ناکاتەوە تا پێداچەرەوەیەک ئازادی دەکات.</translation>
+    </message>
+    <message>
+        <source>Review holds need the object state group review_hold: run the upgrade step 6.0.15-review-hold (Exponential 6.0.15 or later).</source>
+        <translation>ڕاگرتنی پێداچوونەوە پێویستی بە گرووپی دۆخی ئۆبجێکت review_hold هەیە: هەنگاوی نوێکردنەوەی 6.0.15-review-hold جێبەجێ بکە (Exponential 6.0.15 یان نوێتر).</translation>
+    </message>
+    <message>
+        <source>Why is it held? (kept in the audit)</source>
+        <translation>بۆچی ڕاگیراوە؟ (لە وردبینیدا دەپارێزرێت)</translation>
+    </message>
+    <message>
+        <source>Note for the audit (optional)</source>
+        <translation>تێبینی بۆ وردبینی (ئارەزوومەندانە)</translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation>ڕایبگرە بۆ پێداچوونەوە</translation>
+    </message>
+    <message>
+        <source>Release</source>
+        <translation>ئازادکردن</translation>
+    </message>
+    <message>
+        <source>Say why the page is held.</source>
+        <translation>بڵێ بۆچی پەڕەکە ڕاگیراوە.</translation>
+    </message>
+    <message>
+        <source>The page is held for review.</source>
+        <translation>پەڕەکە بۆ پێداچوونەوە ڕاگیرا.</translation>
+    </message>
+    <message>
+        <source>The hold is released.</source>
+        <translation>ڕاگرتنەکە ئازاد کرا.</translation>
+    </message>
+    <message>
+        <source>This page is held for review. It can be published once a reviewer releases it.</source>
+        <translation>ئەم پەڕەیە بۆ پێداچوونەوە ڕاگیراوە. دوای ئەوەی پێداچەرەوەیەک ئازادی کرد دەتوانرێت بڵاو بکرێتەوە.</translation>
+    </message>
+    <message>
+        <source>Review holds need Exponential 6.0.15 or later, with its upgrade step run.</source>
+        <translation>ڕاگرتنی پێداچوونەوە پێویستی بە Exponential 6.0.15 یان نوێتر هەیە، لەگەڵ جێبەجێکردنی هەنگاوی نوێکردنەوەکەی.</translation>
+    </message>
+    <message>
+        <source>This page is already held for review.</source>
+        <translation>ئەم پەڕەیە پێشتر بۆ پێداچوونەوە ڕاگیراوە.</translation>
+    </message>
+    <message>
+        <source>This page is not held.</source>
+        <translation>ئەم پەڕەیە ڕانەگیراوە.</translation>
+    </message>
+    <message>
+        <source>You may not hold this page.</source>
+        <translation>ڕێگەت پێ نادرێت ئەم پەڕەیە ڕابگریت.</translation>
+    </message>
+    <message>
+        <source>You may not release this page.</source>
+        <translation>ڕێگەت پێ نادرێت ئەم پەڕەیە ئازاد بکەیت.</translation>
+    </message>
+    <message>
+        <source>The hold was not changed. Try again.</source>
+        <translation>ڕاگرتنەکە نەگۆڕدرا. دووبارە هەوڵ بدەرەوە.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

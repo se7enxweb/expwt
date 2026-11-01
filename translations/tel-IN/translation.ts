@@ -2335,6 +2335,90 @@
         <source>Which link?</source>
         <translation>ఏ లింక్?</translation>
     </message>
+    <message>
+        <source>Review hold</source>
+        <translation>సమీక్ష కోసం నిలుపుదల</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>సమీక్ష కోసం నిలిపివేయబడింది</translation>
+    </message>
+    <message>
+        <source>Held by %name since %time.</source>
+        <translation>%time నుండి %name ద్వారా నిలిపివేయబడింది.</translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation>కారణం: %reason</translation>
+    </message>
+    <message>
+        <source>You may still edit it, but publishing waits until it is released, unless your role allows it.</source>
+        <translation>మీరు ఇప్పటికీ దీన్ని సవరించవచ్చు, కానీ మీ పాత్ర అనుమతిస్తే తప్ప, ఇది విడుదలయ్యే వరకు ప్రచురణ వేచి ఉంటుంది.</translation>
+    </message>
+    <message>
+        <source>Nobody edits or publishes this page until a reviewer releases it.</source>
+        <translation>సమీక్షకుడు ఈ పేజీని విడుదల చేసే వరకు ఎవరూ దీన్ని సవరించరు లేదా ప్రచురించరు.</translation>
+    </message>
+    <message>
+        <source>Review holds need the object state group review_hold: run the upgrade step 6.0.15-review-hold (Exponential 6.0.15 or later).</source>
+        <translation>సమీక్ష నిలుపుదలలకు review_hold ఆబ్జెక్ట్ స్థితి సమూహం అవసరం: అప్‌గ్రేడ్ దశ 6.0.15-review-hold ను అమలు చేయండి (Exponential 6.0.15 లేదా తరువాతిది).</translation>
+    </message>
+    <message>
+        <source>Why is it held? (kept in the audit)</source>
+        <translation>ఇది ఎందుకు నిలిపివేయబడింది? (ఆడిట్‌లో ఉంచబడుతుంది)</translation>
+    </message>
+    <message>
+        <source>Note for the audit (optional)</source>
+        <translation>ఆడిట్ కోసం గమనిక (ఐచ్ఛికం)</translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation>సమీక్ష కోసం నిలిపివేయండి</translation>
+    </message>
+    <message>
+        <source>Release</source>
+        <translation>విడుదల చేయండి</translation>
+    </message>
+    <message>
+        <source>Say why the page is held.</source>
+        <translation>పేజీ ఎందుకు నిలిపివేయబడిందో చెప్పండి.</translation>
+    </message>
+    <message>
+        <source>The page is held for review.</source>
+        <translation>పేజీ సమీక్ష కోసం నిలిపివేయబడింది.</translation>
+    </message>
+    <message>
+        <source>The hold is released.</source>
+        <translation>నిలుపుదల విడుదల చేయబడింది.</translation>
+    </message>
+    <message>
+        <source>This page is held for review. It can be published once a reviewer releases it.</source>
+        <translation>ఈ పేజీ సమీక్ష కోసం నిలిపివేయబడింది. సమీక్షకుడు విడుదల చేసిన వెంటనే దీన్ని ప్రచురించవచ్చు.</translation>
+    </message>
+    <message>
+        <source>Review holds need Exponential 6.0.15 or later, with its upgrade step run.</source>
+        <translation>సమీక్ష నిలుపుదలలకు Exponential 6.0.15 లేదా తరువాతిది, దాని అప్‌గ్రేడ్ దశ అమలు చేయబడి, అవసరం.</translation>
+    </message>
+    <message>
+        <source>This page is already held for review.</source>
+        <translation>ఈ పేజీ ఇప్పటికే సమీక్ష కోసం నిలిపివేయబడింది.</translation>
+    </message>
+    <message>
+        <source>This page is not held.</source>
+        <translation>ఈ పేజీ నిలిపివేయబడలేదు.</translation>
+    </message>
+    <message>
+        <source>You may not hold this page.</source>
+        <translation>ఈ పేజీని నిలిపివేయడానికి మీకు అనుమతి లేదు.</translation>
+    </message>
+    <message>
+        <source>You may not release this page.</source>
+        <translation>ఈ పేజీని విడుదల చేయడానికి మీకు అనుమతి లేదు.</translation>
+    </message>
+    <message>
+        <source>The hold was not changed. Try again.</source>
+        <translation>నిలుపుదల మార్చబడలేదు. మళ్ళీ ప్రయత్నించండి.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

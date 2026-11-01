@@ -2335,6 +2335,90 @@
         <source>Which link?</source>
         <translation>וועלכער לינק?</translation>
     </message>
+    <message>
+        <source>Review hold</source>
+        <translation>אָפּהאַלטן פֿאַר איבערקוק</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>אָפּגעהאַלטן פֿאַר איבערקוק</translation>
+    </message>
+    <message>
+        <source>Held by %name since %time.</source>
+        <translation>אָפּגעהאַלטן פֿון %name זינט %time.</translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation>סיבה: %reason</translation>
+    </message>
+    <message>
+        <source>You may still edit it, but publishing waits until it is released, unless your role allows it.</source>
+        <translation>איר קענט עס נאָך רעדאַקטירן, אָבער דאָס פֿאַרעפֿנטלעכן וואַרט ביז עס ווערט באַפֿרײַט, סײַדן אײַער ראָלע דערלויבט עס.</translation>
+    </message>
+    <message>
+        <source>Nobody edits or publishes this page until a reviewer releases it.</source>
+        <translation>קיינער רעדאַקטירט ניט און פֿאַרעפֿנטלעכט ניט די דאָזיקע זײַט ביז אַן איבערקוקער באַפֿרײַט זי.</translation>
+    </message>
+    <message>
+        <source>Review holds need the object state group review_hold: run the upgrade step 6.0.15-review-hold (Exponential 6.0.15 or later).</source>
+        <translation>אָפּהאַלטן פֿאַר איבערקוק דאַרפֿן די אָביעקט־צושטאַנד־גרופּע review_hold: לויפֿט דעם אַפּגרייד־שריט 6.0.15-review-hold (Exponential 6.0.15 אָדער שפּעטער).</translation>
+    </message>
+    <message>
+        <source>Why is it held? (kept in the audit)</source>
+        <translation>פֿאַר וואָס איז זי אָפּגעהאַלטן? (ווערט אָפּגעהיט אין דער אױדיט)</translation>
+    </message>
+    <message>
+        <source>Note for the audit (optional)</source>
+        <translation>באַמערקונג פֿאַר דער אױדיט (אָפּציאָנעל)</translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation>אָפּהאַלטן פֿאַר איבערקוק</translation>
+    </message>
+    <message>
+        <source>Release</source>
+        <translation>באַפֿרײַען</translation>
+    </message>
+    <message>
+        <source>Say why the page is held.</source>
+        <translation>זאָגט פֿאַר וואָס די זײַט איז אָפּגעהאַלטן.</translation>
+    </message>
+    <message>
+        <source>The page is held for review.</source>
+        <translation>די זײַט איז אָפּגעהאַלטן פֿאַר איבערקוק.</translation>
+    </message>
+    <message>
+        <source>The hold is released.</source>
+        <translation>דאָס אָפּהאַלטן איז באַפֿרײַט.</translation>
+    </message>
+    <message>
+        <source>This page is held for review. It can be published once a reviewer releases it.</source>
+        <translation>די דאָזיקע זײַט איז אָפּגעהאַלטן פֿאַר איבערקוק. זי קען ווערן פֿאַרעפֿנטלעכט ווי נאָר אַן איבערקוקער באַפֿרײַט זי.</translation>
+    </message>
+    <message>
+        <source>Review holds need Exponential 6.0.15 or later, with its upgrade step run.</source>
+        <translation>אָפּהאַלטן פֿאַר איבערקוק דאַרפֿן Exponential 6.0.15 אָדער שפּעטער, מיט זײַן אַפּגרייד־שריט געלאָפֿן.</translation>
+    </message>
+    <message>
+        <source>This page is already held for review.</source>
+        <translation>די דאָזיקע זײַט איז שוין אָפּגעהאַלטן פֿאַר איבערקוק.</translation>
+    </message>
+    <message>
+        <source>This page is not held.</source>
+        <translation>די דאָזיקע זײַט איז ניט אָפּגעהאַלטן.</translation>
+    </message>
+    <message>
+        <source>You may not hold this page.</source>
+        <translation>איר טאָרט ניט אָפּהאַלטן די דאָזיקע זײַט.</translation>
+    </message>
+    <message>
+        <source>You may not release this page.</source>
+        <translation>איר טאָרט ניט באַפֿרײַען די דאָזיקע זײַט.</translation>
+    </message>
+    <message>
+        <source>The hold was not changed. Try again.</source>
+        <translation>דאָס אָפּהאַלטן איז ניט געביטן געוואָרן. פּרובירט נאָך אַ מאָל.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

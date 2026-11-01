@@ -2335,6 +2335,90 @@
         <source>Which link?</source>
         <translation>কোন লিঙ্ক?</translation>
     </message>
+    <message>
+        <source>Review hold</source>
+        <translation>পর্যালোচনা স্থগিতাদেশ</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>পর্যালোচনার জন্য স্থগিত</translation>
+    </message>
+    <message>
+        <source>Held by %name since %time.</source>
+        <translation>%name কর্তৃক %time থেকে স্থগিত।</translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation>কারণ: %reason</translation>
+    </message>
+    <message>
+        <source>You may still edit it, but publishing waits until it is released, unless your role allows it.</source>
+        <translation>আপনি এখনও এটি সম্পাদনা করতে পারেন, তবে আপনার ভূমিকা অনুমতি না দিলে মুক্ত না হওয়া পর্যন্ত প্রকাশ অপেক্ষা করে।</translation>
+    </message>
+    <message>
+        <source>Nobody edits or publishes this page until a reviewer releases it.</source>
+        <translation>একজন পর্যালোচক মুক্ত না করা পর্যন্ত কেউ এই পৃষ্ঠা সম্পাদনা বা প্রকাশ করে না।</translation>
+    </message>
+    <message>
+        <source>Review holds need the object state group review_hold: run the upgrade step 6.0.15-review-hold (Exponential 6.0.15 or later).</source>
+        <translation>পর্যালোচনা স্থগিতাদেশের জন্য অবজেক্ট স্টেট গ্রুপ review_hold প্রয়োজন: আপগ্রেড ধাপ 6.0.15-review-hold চালান (Exponential 6.0.15 বা পরবর্তী)।</translation>
+    </message>
+    <message>
+        <source>Why is it held? (kept in the audit)</source>
+        <translation>কেন স্থগিত? (অডিটে রাখা হয়)</translation>
+    </message>
+    <message>
+        <source>Note for the audit (optional)</source>
+        <translation>অডিটের জন্য নোট (ঐচ্ছিক)</translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation>পর্যালোচনার জন্য স্থগিত করুন</translation>
+    </message>
+    <message>
+        <source>Release</source>
+        <translation>মুক্ত করুন</translation>
+    </message>
+    <message>
+        <source>Say why the page is held.</source>
+        <translation>পৃষ্ঠাটি কেন স্থগিত তা লিখুন।</translation>
+    </message>
+    <message>
+        <source>The page is held for review.</source>
+        <translation>পৃষ্ঠাটি পর্যালোচনার জন্য স্থগিত করা হয়েছে।</translation>
+    </message>
+    <message>
+        <source>The hold is released.</source>
+        <translation>স্থগিতাদেশ তুলে নেওয়া হয়েছে।</translation>
+    </message>
+    <message>
+        <source>This page is held for review. It can be published once a reviewer releases it.</source>
+        <translation>এই পৃষ্ঠাটি পর্যালোচনার জন্য স্থগিত। একজন পর্যালোচক মুক্ত করলে এটি প্রকাশ করা যাবে।</translation>
+    </message>
+    <message>
+        <source>Review holds need Exponential 6.0.15 or later, with its upgrade step run.</source>
+        <translation>পর্যালোচনা স্থগিতাদেশের জন্য Exponential 6.0.15 বা পরবর্তী সংস্করণ প্রয়োজন, এর আপগ্রেড ধাপ চালানো থাকতে হবে।</translation>
+    </message>
+    <message>
+        <source>This page is already held for review.</source>
+        <translation>এই পৃষ্ঠাটি ইতিমধ্যে পর্যালোচনার জন্য স্থগিত।</translation>
+    </message>
+    <message>
+        <source>This page is not held.</source>
+        <translation>এই পৃষ্ঠাটি স্থগিত নয়।</translation>
+    </message>
+    <message>
+        <source>You may not hold this page.</source>
+        <translation>আপনি এই পৃষ্ঠাটি স্থগিত করতে পারবেন না।</translation>
+    </message>
+    <message>
+        <source>You may not release this page.</source>
+        <translation>আপনি এই পৃষ্ঠাটি মুক্ত করতে পারবেন না।</translation>
+    </message>
+    <message>
+        <source>The hold was not changed. Try again.</source>
+        <translation>স্থগিতাদেশ পরিবর্তন হয়নি। আবার চেষ্টা করুন।</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

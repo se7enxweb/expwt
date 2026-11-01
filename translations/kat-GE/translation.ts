@@ -2335,6 +2335,90 @@
         <source>Which link?</source>
         <translation>რომელი ბმული?</translation>
     </message>
+    <message>
+        <source>Review hold</source>
+        <translation>განხილვის შეჩერება</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>შეჩერებულია განხილვისთვის</translation>
+    </message>
+    <message>
+        <source>Held by %name since %time.</source>
+        <translation>შეაჩერა %name-მ %time-დან.</translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation>მიზეზი: %reason</translation>
+    </message>
+    <message>
+        <source>You may still edit it, but publishing waits until it is released, unless your role allows it.</source>
+        <translation>კვლავ შეგიძლიათ მისი რედაქტირება, მაგრამ გამოქვეყნება დაელოდება გათავისუფლებას, თუ თქვენი როლი ამის ნებას არ იძლევა.</translation>
+    </message>
+    <message>
+        <source>Nobody edits or publishes this page until a reviewer releases it.</source>
+        <translation>სანამ განმხილველი არ გაათავისუფლებს, ამ გვერდს ვერავინ დაარედაქტირებს ან გამოაქვეყნებს.</translation>
+    </message>
+    <message>
+        <source>Review holds need the object state group review_hold: run the upgrade step 6.0.15-review-hold (Exponential 6.0.15 or later).</source>
+        <translation>განხილვის შეჩერებას სჭირდება ობიექტის მდგომარეობის ჯგუფი review_hold: გაუშვით განახლების ნაბიჯი 6.0.15-review-hold (Exponential 6.0.15 ან უფრო ახალი).</translation>
+    </message>
+    <message>
+        <source>Why is it held? (kept in the audit)</source>
+        <translation>რატომ არის შეჩერებული? (ინახება აუდიტში)</translation>
+    </message>
+    <message>
+        <source>Note for the audit (optional)</source>
+        <translation>შენიშვნა აუდიტისთვის (არასავალდებულო)</translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation>შეჩერება განხილვისთვის</translation>
+    </message>
+    <message>
+        <source>Release</source>
+        <translation>გათავისუფლება</translation>
+    </message>
+    <message>
+        <source>Say why the page is held.</source>
+        <translation>მიუთითეთ, რატომ არის გვერდი შეჩერებული.</translation>
+    </message>
+    <message>
+        <source>The page is held for review.</source>
+        <translation>გვერდი შეჩერებულია განხილვისთვის.</translation>
+    </message>
+    <message>
+        <source>The hold is released.</source>
+        <translation>შეჩერება მოხსნილია.</translation>
+    </message>
+    <message>
+        <source>This page is held for review. It can be published once a reviewer releases it.</source>
+        <translation>ეს გვერდი შეჩერებულია განხილვისთვის. მისი გამოქვეყნება შესაძლებელი იქნება, როგორც კი განმხილველი გაათავისუფლებს.</translation>
+    </message>
+    <message>
+        <source>Review holds need Exponential 6.0.15 or later, with its upgrade step run.</source>
+        <translation>განხილვის შეჩერებას სჭირდება Exponential 6.0.15 ან უფრო ახალი, გაშვებული განახლების ნაბიჯით.</translation>
+    </message>
+    <message>
+        <source>This page is already held for review.</source>
+        <translation>ეს გვერდი უკვე შეჩერებულია განხილვისთვის.</translation>
+    </message>
+    <message>
+        <source>This page is not held.</source>
+        <translation>ეს გვერდი შეჩერებული არ არის.</translation>
+    </message>
+    <message>
+        <source>You may not hold this page.</source>
+        <translation>თქვენ არ შეგიძლიათ ამ გვერდის შეჩერება.</translation>
+    </message>
+    <message>
+        <source>You may not release this page.</source>
+        <translation>თქვენ არ შეგიძლიათ ამ გვერდის გათავისუფლება.</translation>
+    </message>
+    <message>
+        <source>The hold was not changed. Try again.</source>
+        <translation>შეჩერება არ შეცვლილა. სცადეთ ხელახლა.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

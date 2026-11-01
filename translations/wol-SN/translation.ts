@@ -2335,6 +2335,90 @@
         <source>Which link?</source>
         <translation>Ban lëkkalekaay?</translation>
     </message>
+    <message>
+        <source>Review hold</source>
+        <translation>Taxawal ngir saytu</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>Taxawal na ngir saytu</translation>
+    </message>
+    <message>
+        <source>Held by %name since %time.</source>
+        <translation>%name moo ko taxawal li dale %time.</translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation>Ngirte: %reason</translation>
+    </message>
+    <message>
+        <source>You may still edit it, but publishing waits until it is released, unless your role allows it.</source>
+        <translation>Mën ngaa ko soppi ba tey, waaye siiwal dina xaar ba ñu ko bàyyi, su fekkee sa wàll mayul ko.</translation>
+    </message>
+    <message>
+        <source>Nobody edits or publishes this page until a reviewer releases it.</source>
+        <translation>Kenn du ko soppi te du siiwal xët wii ba benn saytukat bàyyi ko.</translation>
+    </message>
+    <message>
+        <source>Review holds need the object state group review_hold: run the upgrade step 6.0.15-review-hold (Exponential 6.0.15 or later).</source>
+        <translation>Taxawal ngir saytu soxla na mbooloo nekinu objet review_hold: doxal tànk yeesal bi 6.0.15-review-hold (Exponential 6.0.15 walla lu ko gënn bees).</translation>
+    </message>
+    <message>
+        <source>Why is it held? (kept in the audit)</source>
+        <translation>Lu tax ñu taxawal ko? (dañu koy denc ci audit bi)</translation>
+    </message>
+    <message>
+        <source>Note for the audit (optional)</source>
+        <translation>Bind ngir audit bi (bu la neexee)</translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation>Taxawal ngir saytu</translation>
+    </message>
+    <message>
+        <source>Release</source>
+        <translation>Bàyyi</translation>
+    </message>
+    <message>
+        <source>Say why the page is held.</source>
+        <translation>Wax lu tax xët wi taxaw.</translation>
+    </message>
+    <message>
+        <source>The page is held for review.</source>
+        <translation>Xët wi taxawal nañu ko ngir saytu.</translation>
+    </message>
+    <message>
+        <source>The hold is released.</source>
+        <translation>Taxawal gi bàyyi nañu ko.</translation>
+    </message>
+    <message>
+        <source>This page is held for review. It can be published once a reviewer releases it.</source>
+        <translation>Xët wii taxawal nañu ko ngir saytu. Mën nañu ko siiwal bu benn saytukat bàyyee ko.</translation>
+    </message>
+    <message>
+        <source>Review holds need Exponential 6.0.15 or later, with its upgrade step run.</source>
+        <translation>Taxawal ngir saytu soxla na Exponential 6.0.15 walla lu ko gënn bees, ak tànk yeesal bi doxal.</translation>
+    </message>
+    <message>
+        <source>This page is already held for review.</source>
+        <translation>Xët wii taxawal nañu ko ba noppi ngir saytu.</translation>
+    </message>
+    <message>
+        <source>This page is not held.</source>
+        <translation>Xët wii taxawalu ñu ko.</translation>
+    </message>
+    <message>
+        <source>You may not hold this page.</source>
+        <translation>Mënuloo taxawal xët wii.</translation>
+    </message>
+    <message>
+        <source>You may not release this page.</source>
+        <translation>Mënuloo bàyyi xët wii.</translation>
+    </message>
+    <message>
+        <source>The hold was not changed. Try again.</source>
+        <translation>Taxawal gi soppiku wul. Jéemaatal.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

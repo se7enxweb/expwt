@@ -2335,6 +2335,90 @@
         <source>Which link?</source>
         <translation>ʻO ka loulou hea?</translation>
     </message>
+    <message>
+        <source>Review hold</source>
+        <translation>Kāohi no ka loiloi</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>Kāohi ʻia no ka loiloi</translation>
+    </message>
+    <message>
+        <source>Held by %name since %time.</source>
+        <translation>Kāohi ʻia e %name mai %time mai.</translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation>Kumu: %reason</translation>
+    </message>
+    <message>
+        <source>You may still edit it, but publishing waits until it is released, unless your role allows it.</source>
+        <translation>Hiki iā ʻoe ke hoʻoponopono iā ia, akā kali ka hoʻopuka ʻana a hoʻokuʻu ʻia, ke ʻole e ʻae kou kuleana.</translation>
+    </message>
+    <message>
+        <source>Nobody edits or publishes this page until a reviewer releases it.</source>
+        <translation>ʻAʻohe mea e hoʻoponopono a hoʻopuka paha i kēia ʻaoʻao a hoʻokuʻu ka mea loiloi iā ia.</translation>
+    </message>
+    <message>
+        <source>Review holds need the object state group review_hold: run the upgrade step 6.0.15-review-hold (Exponential 6.0.15 or later).</source>
+        <translation>Pono nā kāohi loiloi i ka pūʻulu kūlana mea review_hold: e holo i ka ʻanuʻu hoʻonui 6.0.15-review-hold (Exponential 6.0.15 a i ʻole ma hope).</translation>
+    </message>
+    <message>
+        <source>Why is it held? (kept in the audit)</source>
+        <translation>No ke aha i kāohi ʻia ai? (mālama ʻia i ka moʻo loiloi)</translation>
+    </message>
+    <message>
+        <source>Note for the audit (optional)</source>
+        <translation>Palapala no ka moʻo loiloi (koho)</translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation>Kāohi no ka loiloi</translation>
+    </message>
+    <message>
+        <source>Release</source>
+        <translation>Hoʻokuʻu</translation>
+    </message>
+    <message>
+        <source>Say why the page is held.</source>
+        <translation>E haʻi i ke kumu i kāohi ʻia ai ka ʻaoʻao.</translation>
+    </message>
+    <message>
+        <source>The page is held for review.</source>
+        <translation>Ua kāohi ʻia ka ʻaoʻao no ka loiloi.</translation>
+    </message>
+    <message>
+        <source>The hold is released.</source>
+        <translation>Ua hoʻokuʻu ʻia ke kāohi.</translation>
+    </message>
+    <message>
+        <source>This page is held for review. It can be published once a reviewer releases it.</source>
+        <translation>Ua kāohi ʻia kēia ʻaoʻao no ka loiloi. Hiki ke hoʻopuka ʻia ke hoʻokuʻu ka mea loiloi iā ia.</translation>
+    </message>
+    <message>
+        <source>Review holds need Exponential 6.0.15 or later, with its upgrade step run.</source>
+        <translation>Pono nā kāohi loiloi iā Exponential 6.0.15 a i ʻole ma hope, me ka holo ʻana o kona ʻanuʻu hoʻonui.</translation>
+    </message>
+    <message>
+        <source>This page is already held for review.</source>
+        <translation>Ua kāohi ʻia kēia ʻaoʻao no ka loiloi.</translation>
+    </message>
+    <message>
+        <source>This page is not held.</source>
+        <translation>ʻAʻole i kāohi ʻia kēia ʻaoʻao.</translation>
+    </message>
+    <message>
+        <source>You may not hold this page.</source>
+        <translation>ʻAʻole ʻae ʻia ʻoe e kāohi i kēia ʻaoʻao.</translation>
+    </message>
+    <message>
+        <source>You may not release this page.</source>
+        <translation>ʻAʻole ʻae ʻia ʻoe e hoʻokuʻu i kēia ʻaoʻao.</translation>
+    </message>
+    <message>
+        <source>The hold was not changed. Try again.</source>
+        <translation>ʻAʻole i loli ke kāohi. E hoʻāʻo hou.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

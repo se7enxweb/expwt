@@ -2335,6 +2335,90 @@
         <source>Which link?</source>
         <translation>Pa ddolen?</translation>
     </message>
+    <message>
+        <source>Review hold</source>
+        <translation>Daliad adolygu</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>Wedi'i dal i'w hadolygu</translation>
+    </message>
+    <message>
+        <source>Held by %name since %time.</source>
+        <translation>Wedi'i dal gan %name ers %time.</translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation>Rheswm: %reason</translation>
+    </message>
+    <message>
+        <source>You may still edit it, but publishing waits until it is released, unless your role allows it.</source>
+        <translation>Gallwch ei golygu o hyd, ond mae cyhoeddi'n aros nes iddi gael ei rhyddhau, oni bai bod eich rôl yn caniatáu hynny.</translation>
+    </message>
+    <message>
+        <source>Nobody edits or publishes this page until a reviewer releases it.</source>
+        <translation>Does neb yn golygu nac yn cyhoeddi'r dudalen hon nes i adolygydd ei rhyddhau.</translation>
+    </message>
+    <message>
+        <source>Review holds need the object state group review_hold: run the upgrade step 6.0.15-review-hold (Exponential 6.0.15 or later).</source>
+        <translation>Mae daliadau adolygu angen y grŵp cyflyrau gwrthrych review_hold: rhedwch y cam uwchraddio 6.0.15-review-hold (Exponential 6.0.15 neu'n hwyrach).</translation>
+    </message>
+    <message>
+        <source>Why is it held? (kept in the audit)</source>
+        <translation>Pam mae'n cael ei dal? (cedwir yn yr archwiliad)</translation>
+    </message>
+    <message>
+        <source>Note for the audit (optional)</source>
+        <translation>Nodyn ar gyfer yr archwiliad (dewisol)</translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation>Dal i'w hadolygu</translation>
+    </message>
+    <message>
+        <source>Release</source>
+        <translation>Rhyddhau</translation>
+    </message>
+    <message>
+        <source>Say why the page is held.</source>
+        <translation>Dywedwch pam mae'r dudalen yn cael ei dal.</translation>
+    </message>
+    <message>
+        <source>The page is held for review.</source>
+        <translation>Mae'r dudalen wedi'i dal i'w hadolygu.</translation>
+    </message>
+    <message>
+        <source>The hold is released.</source>
+        <translation>Mae'r daliad wedi'i ryddhau.</translation>
+    </message>
+    <message>
+        <source>This page is held for review. It can be published once a reviewer releases it.</source>
+        <translation>Mae'r dudalen hon wedi'i dal i'w hadolygu. Gellir ei chyhoeddi pan fydd adolygydd yn ei rhyddhau.</translation>
+    </message>
+    <message>
+        <source>Review holds need Exponential 6.0.15 or later, with its upgrade step run.</source>
+        <translation>Mae daliadau adolygu angen Exponential 6.0.15 neu'n hwyrach, gyda'i gam uwchraddio wedi'i redeg.</translation>
+    </message>
+    <message>
+        <source>This page is already held for review.</source>
+        <translation>Mae'r dudalen hon eisoes wedi'i dal i'w hadolygu.</translation>
+    </message>
+    <message>
+        <source>This page is not held.</source>
+        <translation>Nid yw'r dudalen hon wedi'i dal.</translation>
+    </message>
+    <message>
+        <source>You may not hold this page.</source>
+        <translation>Ni chewch ddal y dudalen hon.</translation>
+    </message>
+    <message>
+        <source>You may not release this page.</source>
+        <translation>Ni chewch ryddhau'r dudalen hon.</translation>
+    </message>
+    <message>
+        <source>The hold was not changed. Try again.</source>
+        <translation>Ni newidiwyd y daliad. Rhowch gynnig arall arni.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

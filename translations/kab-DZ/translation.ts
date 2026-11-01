@@ -2335,6 +2335,90 @@
         <source>Which link?</source>
         <translation>Anwa aseɣwen?</translation>
     </message>
+    <message>
+        <source>Review hold</source>
+        <translation>Aṭṭaf i uselken</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>Yettwaṭṭef i uselken</translation>
+    </message>
+    <message>
+        <source>Held by %name since %time.</source>
+        <translation>Yettwaṭṭef sɣur %name seg %time.</translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation>Taɣẓint: %reason</translation>
+    </message>
+    <message>
+        <source>You may still edit it, but publishing waits until it is released, unless your role allows it.</source>
+        <translation>Mazal tzemreḍ ad t-tẓergeḍ, maca asiẓreg ad yerǧu alamma yettwasreḥ, ma yella ur t-yesirig ara twuri-k.</translation>
+    </message>
+    <message>
+        <source>Nobody edits or publishes this page until a reviewer releases it.</source>
+        <translation>Ulac win ara iẓergen neɣ ara isiẓergen asebter-a alamma yesreḥ-it umselken.</translation>
+    </message>
+    <message>
+        <source>Review holds need the object state group review_hold: run the upgrade step 6.0.15-review-hold (Exponential 6.0.15 or later).</source>
+        <translation>Aṭṭaf i uselken yesra agraw n waddaden n tɣawsa review_hold: sendeh tasurift n uleqqem 6.0.15-review-hold (Exponential 6.0.15 neɣ ugar).</translation>
+    </message>
+    <message>
+        <source>Why is it held? (kept in the audit)</source>
+        <translation>Acuɣer yettwaṭṭef? (yettwaḥrez deg uɣmis n usenqed)</translation>
+    </message>
+    <message>
+        <source>Note for the audit (optional)</source>
+        <translation>Tazmilt i usenqed (d afrayan)</translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation>Ṭṭef i uselken</translation>
+    </message>
+    <message>
+        <source>Release</source>
+        <translation>Serreḥ</translation>
+    </message>
+    <message>
+        <source>Say why the page is held.</source>
+        <translation>Ini-d acuɣer yettwaṭṭef usebter.</translation>
+    </message>
+    <message>
+        <source>The page is held for review.</source>
+        <translation>Asebter yettwaṭṭef i uselken.</translation>
+    </message>
+    <message>
+        <source>The hold is released.</source>
+        <translation>Aṭṭaf yettwaserreḥ.</translation>
+    </message>
+    <message>
+        <source>This page is held for review. It can be published once a reviewer releases it.</source>
+        <translation>Asebter-a yettwaṭṭef i uselken. Yezmer ad yettwasiẓreg mi ara t-yesreḥ umselken.</translation>
+    </message>
+    <message>
+        <source>Review holds need Exponential 6.0.15 or later, with its upgrade step run.</source>
+        <translation>Aṭṭaf i uselken yesra Exponential 6.0.15 neɣ ugar, s tsurift-is n uleqqem yettwasendhen.</translation>
+    </message>
+    <message>
+        <source>This page is already held for review.</source>
+        <translation>Asebter-a yettwaṭṭef yakan i uselken.</translation>
+    </message>
+    <message>
+        <source>This page is not held.</source>
+        <translation>Asebter-a ur yettwaṭṭef ara.</translation>
+    </message>
+    <message>
+        <source>You may not hold this page.</source>
+        <translation>Ur tettusirgeḍ ara ad teṭṭfeḍ asebter-a.</translation>
+    </message>
+    <message>
+        <source>You may not release this page.</source>
+        <translation>Ur tettusirgeḍ ara ad tserrḥeḍ asebter-a.</translation>
+    </message>
+    <message>
+        <source>The hold was not changed. Try again.</source>
+        <translation>Aṭṭaf ur yettubeddel ara. Ɛreḍ tikkelt-nniḍen.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

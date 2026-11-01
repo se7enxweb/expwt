@@ -2335,6 +2335,90 @@
         <source>Which link?</source>
         <translation>Lien nini?</translation>
     </message>
+    <message>
+        <source>Review hold</source>
+        <translation>Kosimba mpo na botaleli</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>Esimbami mpo na botaleli</translation>
+    </message>
+    <message>
+        <source>Held by %name since %time.</source>
+        <translation>Esimbami na %name banda %time.</translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation>Ntina: %reason</translation>
+    </message>
+    <message>
+        <source>You may still edit it, but publishing waits until it is released, unless your role allows it.</source>
+        <translation>Okoki kaka kobongisa yango, kasi kobimisa ekozela kino ekofungolama, longola soki mosala na yo epesi ndingisa.</translation>
+    </message>
+    <message>
+        <source>Nobody edits or publishes this page until a reviewer releases it.</source>
+        <translation>Moto moko te akobongisa to akobimisa lokasa oyo kino motaleli akofungola yango.</translation>
+    </message>
+    <message>
+        <source>Review holds need the object state group review_hold: run the upgrade step 6.0.15-review-hold (Exponential 6.0.15 or later).</source>
+        <translation>Kosimba mpo na botaleli esengeli lisanga ya bizaleli ya eloko review_hold: salá etape ya bobongisi 6.0.15-review-hold (Exponential 6.0.15 to oyo eleki).</translation>
+    </message>
+    <message>
+        <source>Why is it held? (kept in the audit)</source>
+        <translation>Mpo na nini esimbami? (ebombami na kontrole)</translation>
+    </message>
+    <message>
+        <source>Note for the audit (optional)</source>
+        <translation>Likebisi mpo na kontrole (ya kopona)</translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation>Simbá mpo na botaleli</translation>
+    </message>
+    <message>
+        <source>Release</source>
+        <translation>Fungolá</translation>
+    </message>
+    <message>
+        <source>Say why the page is held.</source>
+        <translation>Lobá mpo na nini lokasa esimbami.</translation>
+    </message>
+    <message>
+        <source>The page is held for review.</source>
+        <translation>Lokasa esimbami mpo na botaleli.</translation>
+    </message>
+    <message>
+        <source>The hold is released.</source>
+        <translation>Kosimba efungolami.</translation>
+    </message>
+    <message>
+        <source>This page is held for review. It can be published once a reviewer releases it.</source>
+        <translation>Lokasa oyo esimbami mpo na botaleli. Ekoki kobimisama soki motaleli afungoli yango.</translation>
+    </message>
+    <message>
+        <source>Review holds need Exponential 6.0.15 or later, with its upgrade step run.</source>
+        <translation>Kosimba mpo na botaleli esengeli Exponential 6.0.15 to oyo eleki, na etape na yango ya bobongisi esalemi.</translation>
+    </message>
+    <message>
+        <source>This page is already held for review.</source>
+        <translation>Lokasa oyo esimbami kala mpo na botaleli.</translation>
+    </message>
+    <message>
+        <source>This page is not held.</source>
+        <translation>Lokasa oyo esimbami te.</translation>
+    </message>
+    <message>
+        <source>You may not hold this page.</source>
+        <translation>Ozali na ndingisa te ya kosimba lokasa oyo.</translation>
+    </message>
+    <message>
+        <source>You may not release this page.</source>
+        <translation>Ozali na ndingisa te ya kofungola lokasa oyo.</translation>
+    </message>
+    <message>
+        <source>The hold was not changed. Try again.</source>
+        <translation>Kosimba ebongwani te. Meká lisusu.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

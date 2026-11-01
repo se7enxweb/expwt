@@ -2335,6 +2335,90 @@
         <source>Which link?</source>
         <translation>Tautan mana?</translation>
     </message>
+    <message>
+        <source>Review hold</source>
+        <translation>Penahanan untuk tinjauan</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>Ditahan untuk ditinjau</translation>
+    </message>
+    <message>
+        <source>Held by %name since %time.</source>
+        <translation>Ditahan oleh %name sejak %time.</translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation>Alasan: %reason</translation>
+    </message>
+    <message>
+        <source>You may still edit it, but publishing waits until it is released, unless your role allows it.</source>
+        <translation>Anda masih dapat menyuntingnya, tetapi penerbitan menunggu hingga dilepas, kecuali peran Anda mengizinkannya.</translation>
+    </message>
+    <message>
+        <source>Nobody edits or publishes this page until a reviewer releases it.</source>
+        <translation>Tidak ada yang menyunting atau menerbitkan halaman ini sampai peninjau melepasnya.</translation>
+    </message>
+    <message>
+        <source>Review holds need the object state group review_hold: run the upgrade step 6.0.15-review-hold (Exponential 6.0.15 or later).</source>
+        <translation>Penahanan untuk tinjauan memerlukan grup status objek review_hold: jalankan langkah pembaruan 6.0.15-review-hold (Exponential 6.0.15 atau yang lebih baru).</translation>
+    </message>
+    <message>
+        <source>Why is it held? (kept in the audit)</source>
+        <translation>Mengapa ditahan? (disimpan dalam audit)</translation>
+    </message>
+    <message>
+        <source>Note for the audit (optional)</source>
+        <translation>Catatan untuk audit (opsional)</translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation>Tahan untuk ditinjau</translation>
+    </message>
+    <message>
+        <source>Release</source>
+        <translation>Lepaskan</translation>
+    </message>
+    <message>
+        <source>Say why the page is held.</source>
+        <translation>Sebutkan alasan halaman ditahan.</translation>
+    </message>
+    <message>
+        <source>The page is held for review.</source>
+        <translation>Halaman ditahan untuk ditinjau.</translation>
+    </message>
+    <message>
+        <source>The hold is released.</source>
+        <translation>Penahanan telah dilepas.</translation>
+    </message>
+    <message>
+        <source>This page is held for review. It can be published once a reviewer releases it.</source>
+        <translation>Halaman ini ditahan untuk ditinjau. Halaman dapat diterbitkan setelah peninjau melepasnya.</translation>
+    </message>
+    <message>
+        <source>Review holds need Exponential 6.0.15 or later, with its upgrade step run.</source>
+        <translation>Penahanan untuk tinjauan memerlukan Exponential 6.0.15 atau yang lebih baru, dengan langkah pembaruannya dijalankan.</translation>
+    </message>
+    <message>
+        <source>This page is already held for review.</source>
+        <translation>Halaman ini sudah ditahan untuk ditinjau.</translation>
+    </message>
+    <message>
+        <source>This page is not held.</source>
+        <translation>Halaman ini tidak ditahan.</translation>
+    </message>
+    <message>
+        <source>You may not hold this page.</source>
+        <translation>Anda tidak diizinkan menahan halaman ini.</translation>
+    </message>
+    <message>
+        <source>You may not release this page.</source>
+        <translation>Anda tidak diizinkan melepas halaman ini.</translation>
+    </message>
+    <message>
+        <source>The hold was not changed. Try again.</source>
+        <translation>Penahanan tidak diubah. Coba lagi.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

@@ -2335,6 +2335,90 @@
         <source>Which link?</source>
         <translation>माबे लिंक?</translation>
     </message>
+    <message>
+        <source>Review hold</source>
+        <translation>सानस्रिनाय होनथाबनाय</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>सानस्रिनायनि थाखाय होनथाबनाय</translation>
+    </message>
+    <message>
+        <source>Held by %name since %time.</source>
+        <translation>%name आ %time निफ्राय होनथाबदों।</translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation>जाहोन: %reason</translation>
+    </message>
+    <message>
+        <source>You may still edit it, but publishing waits until it is released, unless your role allows it.</source>
+        <translation>नोंथाङा बेखौ दासिमबो सुजुनो हायो, नाथाय नोंथांनि बिहोमाया गनायथि होयाब्ला, बेखौ उदायनो होनायाव फोसावनाया नेथ्रो।</translation>
+    </message>
+    <message>
+        <source>Nobody edits or publishes this page until a reviewer releases it.</source>
+        <translation>मोनसे सानस्रिगिराया उदायनो होनायाव सोरबाबो बे बिलाइखानाखौ सुजुया एबा फोसावया।</translation>
+    </message>
+    <message>
+        <source>Review holds need the object state group review_hold: run the upgrade step 6.0.15-review-hold (Exponential 6.0.15 or later).</source>
+        <translation>सानस्रिनाय होनथाबनायनि थाखाय ओबजेक्ट स्टेट ग्रुप review_hold नांगौ: आपग्रेड स्टेप 6.0.15-review-hold खामानि (Exponential 6.0.15 एबा उनथिं)।</translation>
+    </message>
+    <message>
+        <source>Why is it held? (kept in the audit)</source>
+        <translation>मानो होनथाबनाय जादों? (ओडिटआव दोनथाबनाय जायो)</translation>
+    </message>
+    <message>
+        <source>Note for the audit (optional)</source>
+        <translation>ओडिटनि थाखाय नोट (गावनि गोसोमोन)</translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation>सानस्रिनायनि थाखाय होनथाब</translation>
+    </message>
+    <message>
+        <source>Release</source>
+        <translation>उदायनो हो</translation>
+    </message>
+    <message>
+        <source>Say why the page is held.</source>
+        <translation>बिलाइखानाखौ मानो होनथाबनाय जादों बुङो।</translation>
+    </message>
+    <message>
+        <source>The page is held for review.</source>
+        <translation>बिलाइखानाखौ सानस्रिनायनि थाखाय होनथाबनाय जादों।</translation>
+    </message>
+    <message>
+        <source>The hold is released.</source>
+        <translation>होनथाबनायखौ उदायनो होनाय जादों।</translation>
+    </message>
+    <message>
+        <source>This page is held for review. It can be published once a reviewer releases it.</source>
+        <translation>बे बिलाइखानाखौ सानस्रिनायनि थाखाय होनथाबनाय जादों। मोनसे सानस्रिगिराया उदायनो होब्ला बेखौ फोसावनो हायो।</translation>
+    </message>
+    <message>
+        <source>Review holds need Exponential 6.0.15 or later, with its upgrade step run.</source>
+        <translation>सानस्रिनाय होनथाबनायनि थाखाय Exponential 6.0.15 एबा उनथिं नांगौ, बेनि आपग्रेड स्टेप खामानिनाय जायोब्ला।</translation>
+    </message>
+    <message>
+        <source>This page is already held for review.</source>
+        <translation>बे बिलाइखानाखौ सिगांनिफ्रायनो सानस्रिनायनि थाखाय होनथाबनाय जादों।</translation>
+    </message>
+    <message>
+        <source>This page is not held.</source>
+        <translation>बे बिलाइखानाखौ होनथाबनाय जाया।</translation>
+    </message>
+    <message>
+        <source>You may not hold this page.</source>
+        <translation>नोंथाङा बे बिलाइखानाखौ होनथाबनो हाया।</translation>
+    </message>
+    <message>
+        <source>You may not release this page.</source>
+        <translation>नोंथाङा बे बिलाइखानाखौ उदायनो होनो हाया।</translation>
+    </message>
+    <message>
+        <source>The hold was not changed. Try again.</source>
+        <translation>होनथाबनायखौ सोलायनाय जाया। फिन नाजा।</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

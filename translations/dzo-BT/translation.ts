@@ -2335,6 +2335,90 @@
         <source>Which link?</source>
         <translation>འབྲེལ་མཐུད་ག་ཅི་ཨིན?</translation>
     </message>
+    <message>
+        <source>Review hold</source>
+        <translation>བསྐྱར་ཞིབ་ཀྱི་བཀག་འཛིན།</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>བསྐྱར་ཞིབ་ཀྱི་དོན་ལུ་བཀག་འཛིན་འབད་ཡོད།</translation>
+    </message>
+    <message>
+        <source>Held by %name since %time.</source>
+        <translation>%name གིས་ %time ལས་ཕར་ བཀག་འཛིན་འབད་ཡོད།</translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation>རྒྱུ་མཚན། %reason</translation>
+    </message>
+    <message>
+        <source>You may still edit it, but publishing waits until it is released, unless your role allows it.</source>
+        <translation>ཁྱོད་ཀྱིས་ ད་ལྟོ་ཡང་ ཞུན་དག་འབད་ཚུགས། དེ་འབདཝ་ད་ ཁྱོད་ཀྱི་ལཱ་འགན་གྱིས་ གནང་བ་མ་བྱིན་པ་ཅིན་ དཔེ་སྐྲུན་འདི་ བཀག་འཛིན་གློད་ཚུན་ སྒུག་དགོ།</translation>
+    </message>
+    <message>
+        <source>Nobody edits or publishes this page until a reviewer releases it.</source>
+        <translation>བསྐྱར་ཞིབ་པ་ཅིག་གིས་ བཀག་འཛིན་མ་གློད་ཚུན་ ཤོག་ལེབ་འདི་ མི་ཀྱིས་ཞུན་དག་དང་ དཔེ་སྐྲུན་མི་འབད།</translation>
+    </message>
+    <message>
+        <source>Review holds need the object state group review_hold: run the upgrade step 6.0.15-review-hold (Exponential 6.0.15 or later).</source>
+        <translation>བསྐྱར་ཞིབ་ཀྱི་བཀག་འཛིན་ལུ་ དངོས་པོའི་གནས་སྟངས་སྡེ་ཚན་ review_hold དགོ། ཡར་དྲག་གི་རིམ་པ་ 6.0.15-review-hold གཡོག་བཀོལ། (Exponential 6.0.15 ཡང་ན་ དེ་ལས་གསརཔ།)</translation>
+    </message>
+    <message>
+        <source>Why is it held? (kept in the audit)</source>
+        <translation>ག་ཅི་སྦེ་ བཀག་འཛིན་འབད་ཡི་ག? (རྩིས་ཞིབ་ནང་ བཞག་འོང་།)</translation>
+    </message>
+    <message>
+        <source>Note for the audit (optional)</source>
+        <translation>རྩིས་ཞིབ་ཀྱི་དོན་ལུ་ དྲན་འཛིན། (གདམ་ཁ།)</translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation>བསྐྱར་ཞིབ་ཀྱི་དོན་ལུ་ བཀག་འཛིན་འབད།</translation>
+    </message>
+    <message>
+        <source>Release</source>
+        <translation>གློད།</translation>
+    </message>
+    <message>
+        <source>Say why the page is held.</source>
+        <translation>ཤོག་ལེབ་འདི་ ག་ཅི་སྦེ་ བཀག་འཛིན་འབད་ཡི་ག་ སླབ།</translation>
+    </message>
+    <message>
+        <source>The page is held for review.</source>
+        <translation>ཤོག་ལེབ་འདི་ བསྐྱར་ཞིབ་ཀྱི་དོན་ལུ་ བཀག་འཛིན་འབད་ཡོད།</translation>
+    </message>
+    <message>
+        <source>The hold is released.</source>
+        <translation>བཀག་འཛིན་འདི་ གློད་ཡོད།</translation>
+    </message>
+    <message>
+        <source>This page is held for review. It can be published once a reviewer releases it.</source>
+        <translation>ཤོག་ལེབ་འདི་ བསྐྱར་ཞིབ་ཀྱི་དོན་ལུ་ བཀག་འཛིན་འབད་ཡོད། བསྐྱར་ཞིབ་པ་ཅིག་གིས་ གློད་ཞིནམ་ལས་ དཔེ་སྐྲུན་འབད་ཚུགས།</translation>
+    </message>
+    <message>
+        <source>Review holds need Exponential 6.0.15 or later, with its upgrade step run.</source>
+        <translation>བསྐྱར་ཞིབ་ཀྱི་བཀག་འཛིན་ལུ་ Exponential 6.0.15 ཡང་ན་ དེ་ལས་གསརཔ་དང་ དེའི་ཡར་དྲག་གི་རིམ་པ་ གཡོག་བཀོལ་དགོ།</translation>
+    </message>
+    <message>
+        <source>This page is already held for review.</source>
+        <translation>ཤོག་ལེབ་འདི་ ཧེ་མ་ལས་ བསྐྱར་ཞིབ་ཀྱི་དོན་ལུ་ བཀག་འཛིན་འབད་ཡོད།</translation>
+    </message>
+    <message>
+        <source>This page is not held.</source>
+        <translation>ཤོག་ལེབ་འདི་ བཀག་འཛིན་མ་འབད།</translation>
+    </message>
+    <message>
+        <source>You may not hold this page.</source>
+        <translation>ཁྱོད་ཀྱིས་ ཤོག་ལེབ་འདི་ བཀག་འཛིན་འབད་མི་ཆོག</translation>
+    </message>
+    <message>
+        <source>You may not release this page.</source>
+        <translation>ཁྱོད་ཀྱིས་ ཤོག་ལེབ་འདི་ གློད་མི་ཆོག</translation>
+    </message>
+    <message>
+        <source>The hold was not changed. Try again.</source>
+        <translation>བཀག་འཛིན་འདི་ བསྒྱུར་བཅོས་མ་འབད། ལོག་སྟེ་ འབད་རྩོལ་བསྐྱེད།</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

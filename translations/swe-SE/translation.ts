@@ -2335,6 +2335,90 @@
         <source>Which link?</source>
         <translation>Vilken länk?</translation>
     </message>
+    <message>
+        <source>Review hold</source>
+        <translation>Granskningsspärr</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>Spärrad för granskning</translation>
+    </message>
+    <message>
+        <source>Held by %name since %time.</source>
+        <translation>Spärrad av %name sedan %time.</translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation>Orsak: %reason</translation>
+    </message>
+    <message>
+        <source>You may still edit it, but publishing waits until it is released, unless your role allows it.</source>
+        <translation>Du kan fortfarande redigera den, men publiceringen väntar tills den släpps, om inte din roll tillåter det.</translation>
+    </message>
+    <message>
+        <source>Nobody edits or publishes this page until a reviewer releases it.</source>
+        <translation>Ingen redigerar eller publicerar den här sidan förrän en granskare släpper den.</translation>
+    </message>
+    <message>
+        <source>Review holds need the object state group review_hold: run the upgrade step 6.0.15-review-hold (Exponential 6.0.15 or later).</source>
+        <translation>Granskningsspärrar kräver objekttillståndsgruppen review_hold: kör uppgraderingssteget 6.0.15-review-hold (Exponential 6.0.15 eller senare).</translation>
+    </message>
+    <message>
+        <source>Why is it held? (kept in the audit)</source>
+        <translation>Varför är den spärrad? (sparas i granskningsloggen)</translation>
+    </message>
+    <message>
+        <source>Note for the audit (optional)</source>
+        <translation>Anteckning för granskningsloggen (valfritt)</translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation>Spärra för granskning</translation>
+    </message>
+    <message>
+        <source>Release</source>
+        <translation>Släpp</translation>
+    </message>
+    <message>
+        <source>Say why the page is held.</source>
+        <translation>Ange varför sidan är spärrad.</translation>
+    </message>
+    <message>
+        <source>The page is held for review.</source>
+        <translation>Sidan är spärrad för granskning.</translation>
+    </message>
+    <message>
+        <source>The hold is released.</source>
+        <translation>Spärren är släppt.</translation>
+    </message>
+    <message>
+        <source>This page is held for review. It can be published once a reviewer releases it.</source>
+        <translation>Den här sidan är spärrad för granskning. Den kan publiceras så snart en granskare släpper den.</translation>
+    </message>
+    <message>
+        <source>Review holds need Exponential 6.0.15 or later, with its upgrade step run.</source>
+        <translation>Granskningsspärrar kräver Exponential 6.0.15 eller senare, med dess uppgraderingssteg kört.</translation>
+    </message>
+    <message>
+        <source>This page is already held for review.</source>
+        <translation>Den här sidan är redan spärrad för granskning.</translation>
+    </message>
+    <message>
+        <source>This page is not held.</source>
+        <translation>Den här sidan är inte spärrad.</translation>
+    </message>
+    <message>
+        <source>You may not hold this page.</source>
+        <translation>Du får inte spärra den här sidan.</translation>
+    </message>
+    <message>
+        <source>You may not release this page.</source>
+        <translation>Du får inte släppa den här sidan.</translation>
+    </message>
+    <message>
+        <source>The hold was not changed. Try again.</source>
+        <translation>Spärren ändrades inte. Försök igen.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

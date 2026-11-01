@@ -2335,6 +2335,90 @@
         <source>Which link?</source>
         <translation>Hvilken lenke?</translation>
     </message>
+    <message>
+        <source>Review hold</source>
+        <translation>Vurderingsstopp</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>Holdt tilbake for vurdering</translation>
+    </message>
+    <message>
+        <source>Held by %name since %time.</source>
+        <translation>Holdt tilbake av %name siden %time.</translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation>Grunn: %reason</translation>
+    </message>
+    <message>
+        <source>You may still edit it, but publishing waits until it is released, unless your role allows it.</source>
+        <translation>Du kan fortsatt redigere den, men publiseringen venter til den er frigitt, med mindre rollen din tillater det.</translation>
+    </message>
+    <message>
+        <source>Nobody edits or publishes this page until a reviewer releases it.</source>
+        <translation>Ingen redigerer eller publiserer denne siden før en vurderer frigir den.</translation>
+    </message>
+    <message>
+        <source>Review holds need the object state group review_hold: run the upgrade step 6.0.15-review-hold (Exponential 6.0.15 or later).</source>
+        <translation>Vurderingsstopp krever objekttilstandsgruppen review_hold: kjør oppgraderingstrinnet 6.0.15-review-hold (Exponential 6.0.15 eller nyere).</translation>
+    </message>
+    <message>
+        <source>Why is it held? (kept in the audit)</source>
+        <translation>Hvorfor holdes den tilbake? (lagres i revisjonsloggen)</translation>
+    </message>
+    <message>
+        <source>Note for the audit (optional)</source>
+        <translation>Merknad til revisjonsloggen (valgfritt)</translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation>Hold tilbake for vurdering</translation>
+    </message>
+    <message>
+        <source>Release</source>
+        <translation>Frigi</translation>
+    </message>
+    <message>
+        <source>Say why the page is held.</source>
+        <translation>Oppgi hvorfor siden holdes tilbake.</translation>
+    </message>
+    <message>
+        <source>The page is held for review.</source>
+        <translation>Siden holdes tilbake for vurdering.</translation>
+    </message>
+    <message>
+        <source>The hold is released.</source>
+        <translation>Stoppet er frigitt.</translation>
+    </message>
+    <message>
+        <source>This page is held for review. It can be published once a reviewer releases it.</source>
+        <translation>Denne siden holdes tilbake for vurdering. Den kan publiseres når en vurderer frigir den.</translation>
+    </message>
+    <message>
+        <source>Review holds need Exponential 6.0.15 or later, with its upgrade step run.</source>
+        <translation>Vurderingsstopp krever Exponential 6.0.15 eller nyere, med oppgraderingstrinnet kjørt.</translation>
+    </message>
+    <message>
+        <source>This page is already held for review.</source>
+        <translation>Denne siden holdes allerede tilbake for vurdering.</translation>
+    </message>
+    <message>
+        <source>This page is not held.</source>
+        <translation>Denne siden holdes ikke tilbake.</translation>
+    </message>
+    <message>
+        <source>You may not hold this page.</source>
+        <translation>Du har ikke lov til å holde tilbake denne siden.</translation>
+    </message>
+    <message>
+        <source>You may not release this page.</source>
+        <translation>Du har ikke lov til å frigi denne siden.</translation>
+    </message>
+    <message>
+        <source>The hold was not changed. Try again.</source>
+        <translation>Stoppet ble ikke endret. Prøv igjen.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

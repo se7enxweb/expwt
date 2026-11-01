@@ -2335,6 +2335,90 @@
         <source>Which link?</source>
         <translation>តំណមួយណា?</translation>
     </message>
+    <message>
+        <source>Review hold</source>
+        <translation>ការផ្អាកសម្រាប់ពិនិត្យ</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>ត្រូវបានផ្អាកសម្រាប់ពិនិត្យ</translation>
+    </message>
+    <message>
+        <source>Held by %name since %time.</source>
+        <translation>ផ្អាកដោយ %name តាំងពី %time។</translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation>មូលហេតុ៖ %reason</translation>
+    </message>
+    <message>
+        <source>You may still edit it, but publishing waits until it is released, unless your role allows it.</source>
+        <translation>អ្នកនៅតែអាចកែសម្រួលវាបាន ប៉ុន្តែការបោះពុម្ពផ្សាយត្រូវរង់ចាំរហូតដល់វាត្រូវបានដោះលែង លុះត្រាតែតួនាទីរបស់អ្នកអនុញ្ញាត។</translation>
+    </message>
+    <message>
+        <source>Nobody edits or publishes this page until a reviewer releases it.</source>
+        <translation>គ្មាននរណាកែសម្រួល ឬបោះពុម្ពផ្សាយទំព័រនេះទេ រហូតដល់អ្នកពិនិត្យដោះលែងវា។</translation>
+    </message>
+    <message>
+        <source>Review holds need the object state group review_hold: run the upgrade step 6.0.15-review-hold (Exponential 6.0.15 or later).</source>
+        <translation>ការផ្អាកសម្រាប់ពិនិត្យត្រូវការក្រុមស្ថានភាពវត្ថុ review_hold៖ ដំណើរការជំហានធ្វើបច្ចុប្បន្នភាព 6.0.15-review-hold (Exponential 6.0.15 ឬថ្មីជាងនេះ)។</translation>
+    </message>
+    <message>
+        <source>Why is it held? (kept in the audit)</source>
+        <translation>ហេតុអ្វីបានជាវាត្រូវបានផ្អាក? (រក្សាទុកក្នុងសវនកម្ម)</translation>
+    </message>
+    <message>
+        <source>Note for the audit (optional)</source>
+        <translation>កំណត់ចំណាំសម្រាប់សវនកម្ម (ស្រេចចិត្ត)</translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation>ផ្អាកសម្រាប់ពិនិត្យ</translation>
+    </message>
+    <message>
+        <source>Release</source>
+        <translation>ដោះលែង</translation>
+    </message>
+    <message>
+        <source>Say why the page is held.</source>
+        <translation>សូមប្រាប់ពីមូលហេតុដែលទំព័រត្រូវបានផ្អាក។</translation>
+    </message>
+    <message>
+        <source>The page is held for review.</source>
+        <translation>ទំព័រត្រូវបានផ្អាកសម្រាប់ពិនិត្យ។</translation>
+    </message>
+    <message>
+        <source>The hold is released.</source>
+        <translation>ការផ្អាកត្រូវបានដោះលែង។</translation>
+    </message>
+    <message>
+        <source>This page is held for review. It can be published once a reviewer releases it.</source>
+        <translation>ទំព័រនេះត្រូវបានផ្អាកសម្រាប់ពិនិត្យ។ វាអាចបោះពុម្ពផ្សាយបាន នៅពេលអ្នកពិនិត្យដោះលែងវា។</translation>
+    </message>
+    <message>
+        <source>Review holds need Exponential 6.0.15 or later, with its upgrade step run.</source>
+        <translation>ការផ្អាកសម្រាប់ពិនិត្យត្រូវការ Exponential 6.0.15 ឬថ្មីជាងនេះ ដោយបានដំណើរការជំហានធ្វើបច្ចុប្បន្នភាពរបស់វា។</translation>
+    </message>
+    <message>
+        <source>This page is already held for review.</source>
+        <translation>ទំព័រនេះត្រូវបានផ្អាកសម្រាប់ពិនិត្យរួចហើយ។</translation>
+    </message>
+    <message>
+        <source>This page is not held.</source>
+        <translation>ទំព័រនេះមិនត្រូវបានផ្អាកទេ។</translation>
+    </message>
+    <message>
+        <source>You may not hold this page.</source>
+        <translation>អ្នកមិនអាចផ្អាកទំព័រនេះបានទេ។</translation>
+    </message>
+    <message>
+        <source>You may not release this page.</source>
+        <translation>អ្នកមិនអាចដោះលែងទំព័រនេះបានទេ។</translation>
+    </message>
+    <message>
+        <source>The hold was not changed. Try again.</source>
+        <translation>ការផ្អាកមិនត្រូវបានផ្លាស់ប្តូរទេ។ សូមព្យាយាមម្តងទៀត។</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

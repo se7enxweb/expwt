@@ -205,13 +205,17 @@
       ]));
     }
     drawLock(p.lock);
+    /* the review hold (E14): held or not, by whom and why, Hold for review / Release for those the kernel lets */
+    if (p.hold || p.holdMissing) { root.appendChild(hold(ctx, p)); }
     /* what this device kept and the server never got (F28): offered back, see offer() */
     var offerBox = h('div', {});
     root.appendChild(offerBox);
 
     if (!p.can.edit) {
       ctx.host.pendingField = null;
-      root.appendChild(h('p', { class: 'wt-notice', text: t('You may read this page but not edit it.') }));
+      if (!(p.hold && p.hold.held)) {
+        root.appendChild(h('p', { class: 'wt-notice', text: t('You may read this page but not edit it.') }));
+      }
       return;
     }
 
@@ -2092,6 +2096,77 @@
         detail.appendChild(h('p', { class: 'wt-muted', text: err && err.message ? err.message : t('Something went wrong on the server.') }));
       });
     }
+  }
+
+  /* ---------------------------------------------------------------------------------------------- review hold */
+
+  /* The review hold (E14): the kernel's object state review_hold/held stops editing and publishing of the page until
+     a reviewer releases it. Pure (tests/js/hold.test.js): what the box says and offers, from page.load's hold:
+       kind     'missing' (no state group: told to those who administrate states), 'held' or 'free'
+       lines    the texts under the title, in order (who and since, the reason, what it means for this user)
+       action   'place', 'release' or '' (the kernel's state/assign decides)
+       reason   whether the form asks for a reason, and whether it is required */
+  var Hold = {
+    view: function (p, t, when) {
+      if (!p.hold) {
+        return { kind: 'missing', lines: [t('Review holds need the object state group review_hold: run the upgrade step 6.0.15-review-hold (Exponential 6.0.15 or later).')], action: '', reason: null };
+      }
+      var hd = p.hold;
+      if (!hd.held) {
+        return { kind: 'free', lines: [], action: hd.canPlace ? 'place' : '', reason: hd.canPlace ? { required: true } : null };
+      }
+      var lines = [];
+      if (hd.by && hd.since) {
+        lines.push(t('Held by %name since %time.').replace('%name', hd.by).replace('%time', when(hd.since)));
+      }
+      if (hd.reason) { lines.push(t('Reason: %reason').replace('%reason', hd.reason)); }
+      lines.push(hd.editable ? t('You may still edit it, but publishing waits until it is released, unless your role allows it.')
+        : t('Nobody edits or publishes this page until a reviewer releases it.'));
+      return { kind: 'held', lines: lines, action: hd.canRelease ? 'release' : '', reason: hd.canRelease ? { required: false } : null };
+    }
+  };
+
+  function hold(ctx, p) {
+    var h = ctx.h;
+    var t = ctx.t;
+    var box = h('section', { class: 'wt-section wt-hold', 'aria-labelledby': 'wt-hold-h' });
+    function draw() {
+      box.textContent = '';
+      var v = Hold.view(p, t, when);
+      if (v.kind === 'free' && !v.action) { box.hidden = true; return; }
+      box.hidden = false;
+      var notice = h('div', { class: 'wt-notice' + (v.kind === 'held' ? ' is-warn' : ''), role: 'status' }, [
+        h('h3', { id: 'wt-hold-h', text: v.kind === 'held' ? t('Held for review') : t('Review hold') })
+      ]);
+      v.lines.forEach(function (line) { notice.appendChild(h('p', { text: line })); });
+      box.appendChild(notice);
+      if (!v.action) { return; }
+      var id = 'wt-hold-reason';
+      var reason = h('textarea', { id: id, rows: '2', maxlength: '500', required: v.reason.required ? '' : null });
+      var label = v.action === 'place' ? t('Why is it held? (kept in the audit)') : t('Note for the audit (optional)');
+      var button = h('button', { type: 'submit', class: 'wt-btn' + (v.action === 'place' ? '' : ' is-primary'),
+        text: v.action === 'place' ? t('Hold for review') : t('Release') });
+      var form = h('form', { class: 'wt-hold-form', novalidate: true, onsubmit: function (e) {
+        e.preventDefault();
+        if (v.reason.required && !reason.value.trim()) {
+          ctx.say(t('Say why the page is held.'), 'bad');
+          reason.focus();
+          return;
+        }
+        button.disabled = true;
+        ctx.call(v.action === 'place' ? 'hold.place' : 'hold.release', { objectId: p.objectId, reason: reason.value }).then(function () {
+          ctx.say(v.action === 'place' ? t('The page is held for review.') : t('The hold is released.'), 'ok');
+          /* what the user may do changed with the state: the panel again, from the server */
+          ctx.show('page');
+        }, function (err) { button.disabled = false; failure(ctx, err); });
+      } }, [
+        h('label', { class: 'wt-field', for: id }, [h('span', { text: label }), reason]),
+        h('div', { class: 'wt-row' }, [button])
+      ]);
+      box.appendChild(form);
+    }
+    draw();
+    return box;
   }
 
   /* ---------------------------------------------------------------------------------------------- comments */
@@ -4115,6 +4190,7 @@
   window.ExpwtMigrations = Migrations;
   window.ExpwtPerformance = Performance;
   window.ExpwtExport = Export;
+  window.ExpwtHold = Hold;
   window.ExpwtSeo = SEO;
   window.ExpwtA11y = A11y;
   window.ExpwtComments = { actions: commentActions };

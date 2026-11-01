@@ -2335,6 +2335,90 @@
         <source>Which link?</source>
         <translation>Ko e fehokotaki fē?</translation>
     </message>
+    <message>
+        <source>Review hold</source>
+        <translation>Taʻofi ki he sivi</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>Taʻofi ki he sivi</translation>
+    </message>
+    <message>
+        <source>Held by %name since %time.</source>
+        <translation>Taʻofi ʻe %name talu mei %time.</translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation>ʻUhinga: %reason</translation>
+    </message>
+    <message>
+        <source>You may still edit it, but publishing waits until it is released, unless your role allows it.</source>
+        <translation>ʻE kei lava pē ke ke liliu ia, ka ko e pulusi ʻe tatali kae ʻoua kuo tukuange ia, tukukehe kapau ʻoku fakangofua ʻe ho fatongiá.</translation>
+    </message>
+    <message>
+        <source>Nobody edits or publishes this page until a reviewer releases it.</source>
+        <translation>ʻOku ʻikai ha taha ʻe liliu pe pulusi ʻa e peesi ko ʻeni kae ʻoua kuo tukuange ia ʻe ha tokotaha sivi.</translation>
+    </message>
+    <message>
+        <source>Review holds need the object state group review_hold: run the upgrade step 6.0.15-review-hold (Exponential 6.0.15 or later).</source>
+        <translation>ʻOku fiemaʻu ʻe he taʻofi ki he sivi ʻa e kulupu tuʻunga meʻa review_hold: fakaʻaongaʻi ʻa e sitepu fakaleleiʻi 6.0.15-review-hold (Exponential 6.0.15 pe hoko mai).</translation>
+    </message>
+    <message>
+        <source>Why is it held? (kept in the audit)</source>
+        <translation>Ko e hā ʻoku taʻofi ai? (tauhi ʻi he ʻaotiti)</translation>
+    </message>
+    <message>
+        <source>Note for the audit (optional)</source>
+        <translation>Fakamatala ki he ʻaotiti (ʻikai fiemaʻu)</translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation>Taʻofi ki he sivi</translation>
+    </message>
+    <message>
+        <source>Release</source>
+        <translation>Tukuange</translation>
+    </message>
+    <message>
+        <source>Say why the page is held.</source>
+        <translation>Fakahā ʻa e ʻuhinga ʻoku taʻofi ai ʻa e peesi.</translation>
+    </message>
+    <message>
+        <source>The page is held for review.</source>
+        <translation>Kuo taʻofi ʻa e peesi ki he sivi.</translation>
+    </message>
+    <message>
+        <source>The hold is released.</source>
+        <translation>Kuo tukuange ʻa e taʻofi.</translation>
+    </message>
+    <message>
+        <source>This page is held for review. It can be published once a reviewer releases it.</source>
+        <translation>Kuo taʻofi ʻa e peesi ko ʻeni ki he sivi. ʻE lava ke pulusi ia ʻi he taimi ʻe tukuange ai ʻe ha tokotaha sivi.</translation>
+    </message>
+    <message>
+        <source>Review holds need Exponential 6.0.15 or later, with its upgrade step run.</source>
+        <translation>ʻOku fiemaʻu ʻe he taʻofi ki he sivi ʻa e Exponential 6.0.15 pe hoko mai, mo hono sitepu fakaleleiʻi kuo fakaʻaongaʻi.</translation>
+    </message>
+    <message>
+        <source>This page is already held for review.</source>
+        <translation>Kuo ʻosi taʻofi ʻa e peesi ko ʻeni ki he sivi.</translation>
+    </message>
+    <message>
+        <source>This page is not held.</source>
+        <translation>ʻOku ʻikai taʻofi ʻa e peesi ko ʻeni.</translation>
+    </message>
+    <message>
+        <source>You may not hold this page.</source>
+        <translation>ʻOku ʻikai ke ke lava ʻo taʻofi ʻa e peesi ko ʻeni.</translation>
+    </message>
+    <message>
+        <source>You may not release this page.</source>
+        <translation>ʻOku ʻikai ke ke lava ʻo tukuange ʻa e peesi ko ʻeni.</translation>
+    </message>
+    <message>
+        <source>The hold was not changed. Try again.</source>
+        <translation>Naʻe ʻikai liliu ʻa e taʻofi. Toe feinga.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

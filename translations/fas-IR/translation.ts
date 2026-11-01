@@ -2335,6 +2335,90 @@
         <source>Which link?</source>
         <translation>کدام پیوند؟</translation>
     </message>
+    <message>
+        <source>Review hold</source>
+        <translation>توقف برای بازبینی</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>متوقف برای بازبینی</translation>
+    </message>
+    <message>
+        <source>Held by %name since %time.</source>
+        <translation>متوقف‌شده توسط %name از %time.</translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation>دلیل: %reason</translation>
+    </message>
+    <message>
+        <source>You may still edit it, but publishing waits until it is released, unless your role allows it.</source>
+        <translation>هنوز می‌توانید آن را ویرایش کنید، اما انتشار تا آزاد شدن آن منتظر می‌ماند، مگر اینکه نقش شما اجازه دهد.</translation>
+    </message>
+    <message>
+        <source>Nobody edits or publishes this page until a reviewer releases it.</source>
+        <translation>تا زمانی که یک بازبین آن را آزاد نکند، هیچ‌کس این صفحه را ویرایش یا منتشر نمی‌کند.</translation>
+    </message>
+    <message>
+        <source>Review holds need the object state group review_hold: run the upgrade step 6.0.15-review-hold (Exponential 6.0.15 or later).</source>
+        <translation>توقف برای بازبینی به گروه وضعیت شیء review_hold نیاز دارد: مرحلهٔ ارتقای 6.0.15-review-hold را اجرا کنید (Exponential 6.0.15 یا جدیدتر).</translation>
+    </message>
+    <message>
+        <source>Why is it held? (kept in the audit)</source>
+        <translation>چرا متوقف شده است؟ (در ممیزی نگه داشته می‌شود)</translation>
+    </message>
+    <message>
+        <source>Note for the audit (optional)</source>
+        <translation>یادداشت برای ممیزی (اختیاری)</translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation>توقف برای بازبینی</translation>
+    </message>
+    <message>
+        <source>Release</source>
+        <translation>آزادسازی</translation>
+    </message>
+    <message>
+        <source>Say why the page is held.</source>
+        <translation>بگویید چرا صفحه متوقف شده است.</translation>
+    </message>
+    <message>
+        <source>The page is held for review.</source>
+        <translation>صفحه برای بازبینی متوقف شد.</translation>
+    </message>
+    <message>
+        <source>The hold is released.</source>
+        <translation>توقف آزاد شد.</translation>
+    </message>
+    <message>
+        <source>This page is held for review. It can be published once a reviewer releases it.</source>
+        <translation>این صفحه برای بازبینی متوقف شده است. پس از آزاد شدن توسط یک بازبین می‌تواند منتشر شود.</translation>
+    </message>
+    <message>
+        <source>Review holds need Exponential 6.0.15 or later, with its upgrade step run.</source>
+        <translation>توقف برای بازبینی به Exponential 6.0.15 یا جدیدتر، با اجرای مرحلهٔ ارتقای آن، نیاز دارد.</translation>
+    </message>
+    <message>
+        <source>This page is already held for review.</source>
+        <translation>این صفحه از قبل برای بازبینی متوقف شده است.</translation>
+    </message>
+    <message>
+        <source>This page is not held.</source>
+        <translation>این صفحه متوقف نیست.</translation>
+    </message>
+    <message>
+        <source>You may not hold this page.</source>
+        <translation>شما اجازه ندارید این صفحه را متوقف کنید.</translation>
+    </message>
+    <message>
+        <source>You may not release this page.</source>
+        <translation>شما اجازه ندارید این صفحه را آزاد کنید.</translation>
+    </message>
+    <message>
+        <source>The hold was not changed. Try again.</source>
+        <translation>توقف تغییر نکرد. دوباره تلاش کنید.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

@@ -2335,6 +2335,90 @@
         <source>Which link?</source>
         <translation>哪個連結？</translation>
     </message>
+    <message>
+        <source>Review hold</source>
+        <translation>審核凍結</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>已凍結待審核</translation>
+    </message>
+    <message>
+        <source>Held by %name since %time.</source>
+        <translation>由 %name 自 %time 起凍結。</translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation>原因：%reason</translation>
+    </message>
+    <message>
+        <source>You may still edit it, but publishing waits until it is released, unless your role allows it.</source>
+        <translation>您仍可編輯，但發佈須等到解除凍結後才能進行，除非您的角色允許。</translation>
+    </message>
+    <message>
+        <source>Nobody edits or publishes this page until a reviewer releases it.</source>
+        <translation>在審核者解除凍結之前，任何人都不能編輯或發佈此頁面。</translation>
+    </message>
+    <message>
+        <source>Review holds need the object state group review_hold: run the upgrade step 6.0.15-review-hold (Exponential 6.0.15 or later).</source>
+        <translation>審核凍結需要物件狀態群組 review_hold：請執行升級步驟 6.0.15-review-hold（Exponential 6.0.15 或更新版本）。</translation>
+    </message>
+    <message>
+        <source>Why is it held? (kept in the audit)</source>
+        <translation>為何凍結？（記錄在稽核中）</translation>
+    </message>
+    <message>
+        <source>Note for the audit (optional)</source>
+        <translation>稽核備註（選填）</translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation>凍結待審核</translation>
+    </message>
+    <message>
+        <source>Release</source>
+        <translation>解除凍結</translation>
+    </message>
+    <message>
+        <source>Say why the page is held.</source>
+        <translation>請說明凍結此頁面的原因。</translation>
+    </message>
+    <message>
+        <source>The page is held for review.</source>
+        <translation>頁面已凍結待審核。</translation>
+    </message>
+    <message>
+        <source>The hold is released.</source>
+        <translation>凍結已解除。</translation>
+    </message>
+    <message>
+        <source>This page is held for review. It can be published once a reviewer releases it.</source>
+        <translation>此頁面已凍結待審核。審核者解除凍結後即可發佈。</translation>
+    </message>
+    <message>
+        <source>Review holds need Exponential 6.0.15 or later, with its upgrade step run.</source>
+        <translation>審核凍結需要 Exponential 6.0.15 或更新版本，並已執行其升級步驟。</translation>
+    </message>
+    <message>
+        <source>This page is already held for review.</source>
+        <translation>此頁面已處於審核凍結狀態。</translation>
+    </message>
+    <message>
+        <source>This page is not held.</source>
+        <translation>此頁面未被凍結。</translation>
+    </message>
+    <message>
+        <source>You may not hold this page.</source>
+        <translation>您無權凍結此頁面。</translation>
+    </message>
+    <message>
+        <source>You may not release this page.</source>
+        <translation>您無權解除此頁面的凍結。</translation>
+    </message>
+    <message>
+        <source>The hold was not changed. Try again.</source>
+        <translation>凍結未變更。請再試一次。</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

@@ -2335,6 +2335,90 @@
         <source>Which link?</source>
         <translation>Кайсы шилтеме?</translation>
     </message>
+    <message>
+        <source>Review hold</source>
+        <translation>Текшерүүгө кармоо</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>Текшерүүгө кармалган</translation>
+    </message>
+    <message>
+        <source>Held by %name since %time.</source>
+        <translation>%name %time бери кармап турат.</translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation>Себеби: %reason</translation>
+    </message>
+    <message>
+        <source>You may still edit it, but publishing waits until it is released, unless your role allows it.</source>
+        <translation>Аны дагы эле түзөтө аласыз, бирок ролуңуз уруксат бербесе, жарыялоо бошотулганга чейин күтөт.</translation>
+    </message>
+    <message>
+        <source>Nobody edits or publishes this page until a reviewer releases it.</source>
+        <translation>Текшерүүчү бошотмоюнча бул баракты эч ким түзөтпөйт жана жарыялабайт.</translation>
+    </message>
+    <message>
+        <source>Review holds need the object state group review_hold: run the upgrade step 6.0.15-review-hold (Exponential 6.0.15 or later).</source>
+        <translation>Текшерүүгө кармоо үчүн review_hold объект абалдарынын тобу керек: 6.0.15-review-hold жаңыртуу кадамын иштетиңиз (Exponential 6.0.15 же жаңыраак).</translation>
+    </message>
+    <message>
+        <source>Why is it held? (kept in the audit)</source>
+        <translation>Эмне үчүн кармалган? (аудитте сакталат)</translation>
+    </message>
+    <message>
+        <source>Note for the audit (optional)</source>
+        <translation>Аудит үчүн эскертүү (милдеттүү эмес)</translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation>Текшерүүгө кармоо</translation>
+    </message>
+    <message>
+        <source>Release</source>
+        <translation>Бошотуу</translation>
+    </message>
+    <message>
+        <source>Say why the page is held.</source>
+        <translation>Барак эмне үчүн кармалганын көрсөтүңүз.</translation>
+    </message>
+    <message>
+        <source>The page is held for review.</source>
+        <translation>Барак текшерүүгө кармалды.</translation>
+    </message>
+    <message>
+        <source>The hold is released.</source>
+        <translation>Кармоо бошотулду.</translation>
+    </message>
+    <message>
+        <source>This page is held for review. It can be published once a reviewer releases it.</source>
+        <translation>Бул барак текшерүүгө кармалган. Текшерүүчү бошоткондон кийин аны жарыялоого болот.</translation>
+    </message>
+    <message>
+        <source>Review holds need Exponential 6.0.15 or later, with its upgrade step run.</source>
+        <translation>Текшерүүгө кармоо үчүн Exponential 6.0.15 же жаңыраагы жана анын жаңыртуу кадамы иштетилген болушу керек.</translation>
+    </message>
+    <message>
+        <source>This page is already held for review.</source>
+        <translation>Бул барак текшерүүгө кармалып калган.</translation>
+    </message>
+    <message>
+        <source>This page is not held.</source>
+        <translation>Бул барак кармалган эмес.</translation>
+    </message>
+    <message>
+        <source>You may not hold this page.</source>
+        <translation>Бул баракты кармоого уруксатыңыз жок.</translation>
+    </message>
+    <message>
+        <source>You may not release this page.</source>
+        <translation>Бул баракты бошотууга уруксатыңыз жок.</translation>
+    </message>
+    <message>
+        <source>The hold was not changed. Try again.</source>
+        <translation>Кармоо өзгөртүлгөн жок. Кайра аракет кылыңыз.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

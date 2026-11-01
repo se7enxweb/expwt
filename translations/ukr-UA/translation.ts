@@ -2335,6 +2335,90 @@
         <source>Which link?</source>
         <translation>Яке посилання?</translation>
     </message>
+    <message>
+        <source>Review hold</source>
+        <translation>Утримання для перевірки</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>Утримано для перевірки</translation>
+    </message>
+    <message>
+        <source>Held by %name since %time.</source>
+        <translation>Утримано користувачем %name з %time.</translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation>Причина: %reason</translation>
+    </message>
+    <message>
+        <source>You may still edit it, but publishing waits until it is released, unless your role allows it.</source>
+        <translation>Ви все ще можете її редагувати, але публікація чекає, доки утримання не знімуть, якщо ваша роль цього не дозволяє.</translation>
+    </message>
+    <message>
+        <source>Nobody edits or publishes this page until a reviewer releases it.</source>
+        <translation>Ніхто не редагує й не публікує цю сторінку, доки рецензент її не звільнить.</translation>
+    </message>
+    <message>
+        <source>Review holds need the object state group review_hold: run the upgrade step 6.0.15-review-hold (Exponential 6.0.15 or later).</source>
+        <translation>Утримання для перевірки потребують групи станів об'єкта review_hold: виконайте крок оновлення 6.0.15-review-hold (Exponential 6.0.15 або новіший).</translation>
+    </message>
+    <message>
+        <source>Why is it held? (kept in the audit)</source>
+        <translation>Чому утримано? (зберігається в журналі аудиту)</translation>
+    </message>
+    <message>
+        <source>Note for the audit (optional)</source>
+        <translation>Примітка для журналу аудиту (необов'язково)</translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation>Утримати для перевірки</translation>
+    </message>
+    <message>
+        <source>Release</source>
+        <translation>Звільнити</translation>
+    </message>
+    <message>
+        <source>Say why the page is held.</source>
+        <translation>Вкажіть, чому сторінку утримано.</translation>
+    </message>
+    <message>
+        <source>The page is held for review.</source>
+        <translation>Сторінку утримано для перевірки.</translation>
+    </message>
+    <message>
+        <source>The hold is released.</source>
+        <translation>Утримання знято.</translation>
+    </message>
+    <message>
+        <source>This page is held for review. It can be published once a reviewer releases it.</source>
+        <translation>Цю сторінку утримано для перевірки. Її можна опублікувати, щойно рецензент її звільнить.</translation>
+    </message>
+    <message>
+        <source>Review holds need Exponential 6.0.15 or later, with its upgrade step run.</source>
+        <translation>Утримання для перевірки потребують Exponential 6.0.15 або новішого з виконаним кроком оновлення.</translation>
+    </message>
+    <message>
+        <source>This page is already held for review.</source>
+        <translation>Цю сторінку вже утримано для перевірки.</translation>
+    </message>
+    <message>
+        <source>This page is not held.</source>
+        <translation>Цю сторінку не утримано.</translation>
+    </message>
+    <message>
+        <source>You may not hold this page.</source>
+        <translation>Ви не можете утримати цю сторінку.</translation>
+    </message>
+    <message>
+        <source>You may not release this page.</source>
+        <translation>Ви не можете звільнити цю сторінку.</translation>
+    </message>
+    <message>
+        <source>The hold was not changed. Try again.</source>
+        <translation>Утримання не змінено. Спробуйте ще раз.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

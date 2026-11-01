@@ -2335,6 +2335,90 @@
         <source>Which link?</source>
         <translation>Koji link?</translation>
     </message>
+    <message>
+        <source>Review hold</source>
+        <translation>Zadržavanje radi pregleda</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>Zadržano radi pregleda</translation>
+    </message>
+    <message>
+        <source>Held by %name since %time.</source>
+        <translation>Zadržava: %name, od %time.</translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation>Razlog: %reason</translation>
+    </message>
+    <message>
+        <source>You may still edit it, but publishing waits until it is released, unless your role allows it.</source>
+        <translation>I dalje je možete uređivati, ali objavljivanje čeka dok se ne oslobodi, osim ako vaša uloga to dopušta.</translation>
+    </message>
+    <message>
+        <source>Nobody edits or publishes this page until a reviewer releases it.</source>
+        <translation>Niko ne uređuje niti objavljuje ovu stranicu dok je recenzent ne oslobodi.</translation>
+    </message>
+    <message>
+        <source>Review holds need the object state group review_hold: run the upgrade step 6.0.15-review-hold (Exponential 6.0.15 or later).</source>
+        <translation>Zadržavanja radi pregleda trebaju grupu stanja objekta review_hold: pokrenite korak nadogradnje 6.0.15-review-hold (Exponential 6.0.15 ili noviji).</translation>
+    </message>
+    <message>
+        <source>Why is it held? (kept in the audit)</source>
+        <translation>Zašto je zadržana? (čuva se u reviziji)</translation>
+    </message>
+    <message>
+        <source>Note for the audit (optional)</source>
+        <translation>Napomena za reviziju (opcionalno)</translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation>Zadrži radi pregleda</translation>
+    </message>
+    <message>
+        <source>Release</source>
+        <translation>Oslobodi</translation>
+    </message>
+    <message>
+        <source>Say why the page is held.</source>
+        <translation>Navedite zašto je stranica zadržana.</translation>
+    </message>
+    <message>
+        <source>The page is held for review.</source>
+        <translation>Stranica je zadržana radi pregleda.</translation>
+    </message>
+    <message>
+        <source>The hold is released.</source>
+        <translation>Zadržavanje je ukinuto.</translation>
+    </message>
+    <message>
+        <source>This page is held for review. It can be published once a reviewer releases it.</source>
+        <translation>Ova stranica je zadržana radi pregleda. Može se objaviti kada je recenzent oslobodi.</translation>
+    </message>
+    <message>
+        <source>Review holds need Exponential 6.0.15 or later, with its upgrade step run.</source>
+        <translation>Zadržavanja radi pregleda trebaju Exponential 6.0.15 ili noviji, s pokrenutim korakom nadogradnje.</translation>
+    </message>
+    <message>
+        <source>This page is already held for review.</source>
+        <translation>Ova stranica je već zadržana radi pregleda.</translation>
+    </message>
+    <message>
+        <source>This page is not held.</source>
+        <translation>Ova stranica nije zadržana.</translation>
+    </message>
+    <message>
+        <source>You may not hold this page.</source>
+        <translation>Ne smijete zadržati ovu stranicu.</translation>
+    </message>
+    <message>
+        <source>You may not release this page.</source>
+        <translation>Ne smijete osloboditi ovu stranicu.</translation>
+    </message>
+    <message>
+        <source>The hold was not changed. Try again.</source>
+        <translation>Zadržavanje nije promijenjeno. Pokušajte ponovo.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

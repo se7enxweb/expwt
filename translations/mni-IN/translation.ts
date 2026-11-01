@@ -2335,6 +2335,90 @@
         <source>Which link?</source>
         <translation>লিংক করি?</translation>
     </message>
+    <message>
+        <source>Review hold</source>
+        <translation>রিভিউ হোল্ড</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>রিভিউগীদমক্তা থম্লে</translation>
+    </message>
+    <message>
+        <source>Held by %name since %time.</source>
+        <translation>%name না %time দগী থম্লে।</translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation>মরম: %reason</translation>
+    </message>
+    <message>
+        <source>You may still edit it, but publishing waits until it is released, unless your role allows it.</source>
+        <translation>নহাক্না মসি এডিট তৌবা ঙম্মি, অদুবু মসি থাদোক্তবা ফাওবা প্রকাশ তৌবা ঙাইগনি, নহাক্কী রোল না য়াহনদ্রবদি।</translation>
+    </message>
+    <message>
+        <source>Nobody edits or publishes this page until a reviewer releases it.</source>
+        <translation>রিভিউ তৌবা মীওই অমনা থাদোক্তবা ফাওবা কনানা মসি পেজ এডিট তৌবা নত্রগা প্রকাশ তৌবা ঙমদে।</translation>
+    </message>
+    <message>
+        <source>Review holds need the object state group review_hold: run the upgrade step 6.0.15-review-hold (Exponential 6.0.15 or later).</source>
+        <translation>রিভিউ হোল্দা অবজেক্ট স্টেট গ্রুপ review_hold মথৌ তাই: অপগ্রেড স্টেপ 6.0.15-review-hold চলাক্উ (Exponential 6.0.15 নত্রগা মতুংগী)।</translation>
+    </message>
+    <message>
+        <source>Why is it held? (kept in the audit)</source>
+        <translation>করিগী থম্লিবনো? (অডিটতা থম্গনি)</translation>
+    </message>
+    <message>
+        <source>Note for the audit (optional)</source>
+        <translation>অডিটকীদমক্তা নোট (অপাম্বা)</translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation>রিভিউগীদমক্তা থম্মু</translation>
+    </message>
+    <message>
+        <source>Release</source>
+        <translation>থাদোক্লু</translation>
+    </message>
+    <message>
+        <source>Say why the page is held.</source>
+        <translation>পেজ অসি করিগী থম্লিবনো হায়বিয়ু।</translation>
+    </message>
+    <message>
+        <source>The page is held for review.</source>
+        <translation>পেজ অসি রিভিউগীদমক্তা থম্লে।</translation>
+    </message>
+    <message>
+        <source>The hold is released.</source>
+        <translation>হোল্ড অসি থাদোক্লে।</translation>
+    </message>
+    <message>
+        <source>This page is held for review. It can be published once a reviewer releases it.</source>
+        <translation>পেজ অসি রিভিউগীদমক্তা থম্লে। রিভিউ তৌবা মীওই অমনা থাদোক্লবা মতুংদা প্রকাশ তৌবা ঙম্মি।</translation>
+    </message>
+    <message>
+        <source>Review holds need Exponential 6.0.15 or later, with its upgrade step run.</source>
+        <translation>রিভিউ হোল্দা Exponential 6.0.15 নত্রগা মতুংগী, অপগ্রেড স্টেপ চলাক্লবা মথৌ তাই।</translation>
+    </message>
+    <message>
+        <source>This page is already held for review.</source>
+        <translation>পেজ অসি হান্নদগী রিভিউগীদমক্তা থম্লে।</translation>
+    </message>
+    <message>
+        <source>This page is not held.</source>
+        <translation>পেজ অসি থম্দ্রি।</translation>
+    </message>
+    <message>
+        <source>You may not hold this page.</source>
+        <translation>নহাক্না পেজ অসি থম্বা য়াদে।</translation>
+    </message>
+    <message>
+        <source>You may not release this page.</source>
+        <translation>নহাক্না পেজ অসি থাদোকপা য়াদে।</translation>
+    </message>
+    <message>
+        <source>The hold was not changed. Try again.</source>
+        <translation>হোল্ড অসি হোংদ্রে। অমুক হন্না হোৎনবিয়ু।</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

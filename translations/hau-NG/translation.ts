@@ -2335,6 +2335,90 @@
         <source>Which link?</source>
         <translation>Wane mahaɗi?</translation>
     </message>
+    <message>
+        <source>Review hold</source>
+        <translation>Dakatarwa don bita</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>An dakatar don bita</translation>
+    </message>
+    <message>
+        <source>Held by %name since %time.</source>
+        <translation>%name ya dakatar tun %time.</translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation>Dalili: %reason</translation>
+    </message>
+    <message>
+        <source>You may still edit it, but publishing waits until it is released, unless your role allows it.</source>
+        <translation>Har yanzu za ka iya gyara shi, amma wallafa tana jira har sai an sake shi, sai dai idan matsayinka ya ba da dama.</translation>
+    </message>
+    <message>
+        <source>Nobody edits or publishes this page until a reviewer releases it.</source>
+        <translation>Babu wanda zai gyara ko ya wallafa wannan shafi har sai mai bita ya sake shi.</translation>
+    </message>
+    <message>
+        <source>Review holds need the object state group review_hold: run the upgrade step 6.0.15-review-hold (Exponential 6.0.15 or later).</source>
+        <translation>Dakatarwar bita tana bukatar rukunin yanayin abu review_hold: gudanar da matakin haɓakawa 6.0.15-review-hold (Exponential 6.0.15 ko sabo).</translation>
+    </message>
+    <message>
+        <source>Why is it held? (kept in the audit)</source>
+        <translation>Me ya sa aka dakatar da shi? (ana ajiye shi a cikin binciken)</translation>
+    </message>
+    <message>
+        <source>Note for the audit (optional)</source>
+        <translation>Bayani don binciken (na zaɓi)</translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation>Dakatar don bita</translation>
+    </message>
+    <message>
+        <source>Release</source>
+        <translation>Saki</translation>
+    </message>
+    <message>
+        <source>Say why the page is held.</source>
+        <translation>Faɗi dalilin da ya sa aka dakatar da shafin.</translation>
+    </message>
+    <message>
+        <source>The page is held for review.</source>
+        <translation>An dakatar da shafin don bita.</translation>
+    </message>
+    <message>
+        <source>The hold is released.</source>
+        <translation>An saki dakatarwar.</translation>
+    </message>
+    <message>
+        <source>This page is held for review. It can be published once a reviewer releases it.</source>
+        <translation>An dakatar da wannan shafi don bita. Ana iya wallafa shi da zarar mai bita ya sake shi.</translation>
+    </message>
+    <message>
+        <source>Review holds need Exponential 6.0.15 or later, with its upgrade step run.</source>
+        <translation>Dakatarwar bita tana bukatar Exponential 6.0.15 ko sabo, tare da gudanar da matakin haɓakawarsa.</translation>
+    </message>
+    <message>
+        <source>This page is already held for review.</source>
+        <translation>An riga an dakatar da wannan shafi don bita.</translation>
+    </message>
+    <message>
+        <source>This page is not held.</source>
+        <translation>Ba a dakatar da wannan shafi ba.</translation>
+    </message>
+    <message>
+        <source>You may not hold this page.</source>
+        <translation>Ba a ba ka izinin dakatar da wannan shafi ba.</translation>
+    </message>
+    <message>
+        <source>You may not release this page.</source>
+        <translation>Ba a ba ka izinin sakin wannan shafi ba.</translation>
+    </message>
+    <message>
+        <source>The hold was not changed. Try again.</source>
+        <translation>Ba a canza dakatarwar ba. Sake gwadawa.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

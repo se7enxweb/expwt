@@ -58,6 +58,10 @@ class expwtAccess
         // how the page was rendered (E12): the figures come in the page itself, this adds the server's time and what the
         // kernel collects; for admins and developers (expwt/performance)
         'performance.load' => array( 'performance', false, '', '', '' ),
+        // the review hold (E14): placed and released with a reason; the kernel's state/assign of the group review_hold
+        // decides who may (a reviewer may have expwt/use only)
+        'hold.place'      => array( 'use', true, 'state', 'assign', '' ),
+        'hold.release'    => array( 'use', true, 'state', 'assign', '' ),
         // the page as a file (E13): its fields as Markdown or Word, of the published version or one's own draft; a POST,
         // so it asks "Verify it's you" as the administration's exports do (REAUTH_GROUPS)
         'export.fields'   => array( 'use', true, '', '', '' ),

@@ -2335,6 +2335,90 @@
         <source>Which link?</source>
         <translation>ߛߘߌ߬ߜߋ߲ ߖߐ߲߫؟</translation>
     </message>
+    <message>
+        <source>Review hold</source>
+        <translation>ߝߊ߲߬ߞߊ߬ߝߐ ߟߊߦߟߍ߬ߟߌ</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>ߟߊߦߟߍ߬ߣߍ߲߫ ߝߊ߲߬ߞߊ߬ߝߐ ߞߊ߲߬</translation>
+    </message>
+    <message>
+        <source>Held by %name since %time.</source>
+        <translation>%name ߟߋ ߞߊ߬ ߊ߬ ߟߊߦߟߍ߬ ߞߊ߬ ߓߊ߲߫ %time ߡߊ߬.</translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation>ߞߎ߲߭: %reason</translation>
+    </message>
+    <message>
+        <source>You may still edit it, but publishing waits until it is released, unless your role allows it.</source>
+        <translation>ߌ ߘߌ߫ ߛߋ߫ ߞߊ߬ ߊ߬ ߦߍߟߍߡߊ߫ ߝߟߐ߫߸ ߞߏ߬ߣߌ߲߬ ߊ߬ ߓߌߟߊߟߌ ߞߍߣߍ ߞߊ߲ ߓߘߊ߫ ߡߊ߬ߞߐ߲߬ߠߐ߲߫ ߝߏ߫ ߊ߬ ߦߙߌ߬ߞߊ߬ߣߍ߲߫ ߞߐ߫߸ ߣߴߌ ߟߊ߫ ߓߟߏߓߌߟߊ ߡߊ߫ ߛߍ߲߬ ߊ߬ ߡߊ߬.</translation>
+    </message>
+    <message>
+        <source>Nobody edits or publishes this page until a reviewer releases it.</source>
+        <translation>ߡߍ߲ߛߍ߲߫ ߕߍߣߊ߬ ߞߐߜ߳ߍ ߣߌ߲߬ ߦߍߟߍߡߊ߫ ߥߟߊ߫ ߞߊ߬ ߊ߬ ߓߌߟߊ ߞߍߣߍ ߞߊ߲߬ ߝߏ߫ ߝߊ߲߬ߞߊ߬ߝߐߟߊ ߦߋ߫ ߊ߬ ߦߙߌ߬ߞߊ߫.</translation>
+    </message>
+    <message>
+        <source>Review holds need the object state group review_hold: run the upgrade step 6.0.15-review-hold (Exponential 6.0.15 or later).</source>
+        <translation>ߝߊ߲߬ߞߊ߬ߝߐ ߟߊߦߟߍ߬ߟߌ ߓߘߊ߫ ߝߍ߬ߘߎ߬ߡߊ߬ ߞߊ߲ߞߋ ߞߙߎ review_hold ߝߍ߬: ߟߊߘߐ߬ߦߊ߬ߟߌ ߛߊ߲߬ߞߊ߬ߘߐ 6.0.15-review-hold ߕߊ߯ߡߊ߬ߛߊ߬ߦߌ߲߬ (Exponential 6.0.15 ߥߟߊ߫ ߡߍ߲ ߝߊ߲߭ ߓߘߊ߫ ߟߊߛߋ߫ ߊ߬ ߞߐ߫).</translation>
+    </message>
+    <message>
+        <source>Why is it held? (kept in the audit)</source>
+        <translation>ߊ߬ ߟߊߦߟߍ߬ߣߍ߲߫ ߞߎ߲߭ ߖߐ߲߫ ߡߊ߬؟ (ߊ߬ ߓߘߊ߫ ߟߊߡߊߙߊ߫ ߛߓߍߟߌ ߘߐ߫)</translation>
+    </message>
+    <message>
+        <source>Note for the audit (optional)</source>
+        <translation>ߛߓߍߟߌ߫ ߟߊߡߊߙߊ߫ ߛߓߍߟߌ ߓߟߏ߫ (ߣߴߌ ߓߊ߯ ߝߍ߬)</translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation>ߟߊߦߟߍ߬ ߝߊ߲߬ߞߊ߬ߝߐ ߞߊ߲߬</translation>
+    </message>
+    <message>
+        <source>Release</source>
+        <translation>ߦߙߌ߬ߞߊ߫</translation>
+    </message>
+    <message>
+        <source>Say why the page is held.</source>
+        <translation>ߞߐߜ߳ߍ ߟߊߦߟߍ߬ߣߍ߲߫ ߞߎ߲߭ ߝߐ߫.</translation>
+    </message>
+    <message>
+        <source>The page is held for review.</source>
+        <translation>ߞߐߜ߳ߍ ߟߊߦߟߍ߬ߣߍ߲߫ ߝߊ߲߬ߞߊ߬ߝߐ ߞߊ߲߬.</translation>
+    </message>
+    <message>
+        <source>The hold is released.</source>
+        <translation>ߟߊߦߟߍ߬ߟߌ ߦߙߌ߬ߞߊ߬ߣߍ߲߫ ߠߋ߬.</translation>
+    </message>
+    <message>
+        <source>This page is held for review. It can be published once a reviewer releases it.</source>
+        <translation>ߞߐߜ߳ߍ ߣߌ߲߬ ߟߊߦߟߍ߬ߣߍ߲߫ ߝߊ߲߬ߞߊ߬ߝߐ ߞߊ߲߬. ߝߊ߲߬ߞߊ߬ߝߐߟߊ ߘߌ߫ ߊ߬ ߦߙߌ߬ߞߊ߫ ߕߎ߬ߡߊ ߡߍ߲ ߠߊ߫߸ ߊ߬ ߘߌ߫ ߛߋ߫ ߓߌߟߊ߬ ߟߊ߫ ߞߍߣߍ ߞߊ߲߬.</translation>
+    </message>
+    <message>
+        <source>Review holds need Exponential 6.0.15 or later, with its upgrade step run.</source>
+        <translation>ߝߊ߲߬ߞߊ߬ߝߐ ߟߊߦߟߍ߬ߟߌ ߓߘߊ߫ Exponential 6.0.15 ߥߟߊ߫ ߡߍ߲ ߝߊ߲߭ ߓߘߊ߫ ߟߊߛߋ߫ ߊ߬ ߞߐ߫ ߝߍ߬߸ ߊ߬ ߟߊߘߐ߬ߦߊ߬ߟߌ ߛߊ߲߬ߞߊ߬ߘߐ ߕߊ߯ߡߊ߬ߛߊ߬ߦߌ߲߬ߣߍ߲߫.</translation>
+    </message>
+    <message>
+        <source>This page is already held for review.</source>
+        <translation>ߞߐߜ߳ߍ ߣߌ߲߬ ߟߊߦߟߍ߬ߣߍ߲߫ ߞߊ߬ ߓߊ߲߫ ߝߊ߲߬ߞߊ߬ߝߐ ߞߊ߲߬.</translation>
+    </message>
+    <message>
+        <source>This page is not held.</source>
+        <translation>ߞߐߜ߳ߍ ߣߌ߲߬ ߡߊ߫ ߟߊߦߟߍ߬.</translation>
+    </message>
+    <message>
+        <source>You may not hold this page.</source>
+        <translation>ߌ ߡߊ߫ ߘߌ߬ߢߍ߬ ߞߊ߬ ߞߐߜ߳ߍ ߣߌ߲߬ ߟߊߦߟߍ߬.</translation>
+    </message>
+    <message>
+        <source>You may not release this page.</source>
+        <translation>ߌ ߡߊ߫ ߘߌ߬ߢߍ߬ ߞߊ߬ ߞߐߜ߳ߍ ߣߌ߲߬ ߦߙߌ߬ߞߊ߫.</translation>
+    </message>
+    <message>
+        <source>The hold was not changed. Try again.</source>
+        <translation>ߟߊߦߟߍ߬ߟߌ ߡߊ߫ ߡߊ߬ߝߊ߬ߟߋ߲߫. ߊ߬ ߞߍ߫ ߕߎ߲߯.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

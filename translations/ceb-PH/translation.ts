@@ -2335,6 +2335,90 @@
         <source>Which link?</source>
         <translation>Unsang link?</translation>
     </message>
+    <message>
+        <source>Review hold</source>
+        <translation>Pagpugong sa pagrepaso</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>Gipugngan para sa pagrepaso</translation>
+    </message>
+    <message>
+        <source>Held by %name since %time.</source>
+        <translation>Gipugngan ni %name sukad %time.</translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation>Rason: %reason</translation>
+    </message>
+    <message>
+        <source>You may still edit it, but publishing waits until it is released, unless your role allows it.</source>
+        <translation>Mahimo pa nimo kining usbon, apan ang pagpatik maghulat hangtod buhian kini, gawas kon tugotan sa imong papel.</translation>
+    </message>
+    <message>
+        <source>Nobody edits or publishes this page until a reviewer releases it.</source>
+        <translation>Walay mag-usab o magpatik niining panid hangtod buhian kini sa usa ka tigrepaso.</translation>
+    </message>
+    <message>
+        <source>Review holds need the object state group review_hold: run the upgrade step 6.0.15-review-hold (Exponential 6.0.15 or later).</source>
+        <translation>Ang pagpugong sa pagrepaso nagkinahanglan sa object state group nga review_hold: padagana ang upgrade step 6.0.15-review-hold (Exponential 6.0.15 o mas bag-o).</translation>
+    </message>
+    <message>
+        <source>Why is it held? (kept in the audit)</source>
+        <translation>Nganong gipugngan kini? (gitipigan sa audit)</translation>
+    </message>
+    <message>
+        <source>Note for the audit (optional)</source>
+        <translation>Nota alang sa audit (opsyonal)</translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation>Pugngi para sa pagrepaso</translation>
+    </message>
+    <message>
+        <source>Release</source>
+        <translation>Buhii</translation>
+    </message>
+    <message>
+        <source>Say why the page is held.</source>
+        <translation>Isulti kon nganong gipugngan ang panid.</translation>
+    </message>
+    <message>
+        <source>The page is held for review.</source>
+        <translation>Gipugngan ang panid para sa pagrepaso.</translation>
+    </message>
+    <message>
+        <source>The hold is released.</source>
+        <translation>Gibuhian na ang pagpugong.</translation>
+    </message>
+    <message>
+        <source>This page is held for review. It can be published once a reviewer releases it.</source>
+        <translation>Kini nga panid gipugngan para sa pagrepaso. Mahimo kining ipatik kon buhian na kini sa usa ka tigrepaso.</translation>
+    </message>
+    <message>
+        <source>Review holds need Exponential 6.0.15 or later, with its upgrade step run.</source>
+        <translation>Ang pagpugong sa pagrepaso nagkinahanglan og Exponential 6.0.15 o mas bag-o, nga napadagan na ang upgrade step niini.</translation>
+    </message>
+    <message>
+        <source>This page is already held for review.</source>
+        <translation>Kini nga panid gipugngan na para sa pagrepaso.</translation>
+    </message>
+    <message>
+        <source>This page is not held.</source>
+        <translation>Kini nga panid wala gipugngi.</translation>
+    </message>
+    <message>
+        <source>You may not hold this page.</source>
+        <translation>Dili ka tugotan nga mopugong niining panid.</translation>
+    </message>
+    <message>
+        <source>You may not release this page.</source>
+        <translation>Dili ka tugotan nga mobuhi niining panid.</translation>
+    </message>
+    <message>
+        <source>The hold was not changed. Try again.</source>
+        <translation>Wala mausab ang pagpugong. Sulayi pag-usab.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

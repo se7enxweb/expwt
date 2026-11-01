@@ -2335,6 +2335,90 @@
         <source>Which link?</source>
         <translation>Melyik hivatkozás?</translation>
     </message>
+    <message>
+        <source>Review hold</source>
+        <translation>Ellenőrzési zárolás</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>Ellenőrzésre zárolva</translation>
+    </message>
+    <message>
+        <source>Held by %name since %time.</source>
+        <translation>Zárolta: %name, %time óta.</translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation>Indok: %reason</translation>
+    </message>
+    <message>
+        <source>You may still edit it, but publishing waits until it is released, unless your role allows it.</source>
+        <translation>Továbbra is szerkesztheti, de a közzététel vár, amíg fel nem oldják, kivéve, ha a szerepköre megengedi.</translation>
+    </message>
+    <message>
+        <source>Nobody edits or publishes this page until a reviewer releases it.</source>
+        <translation>Senki sem szerkeszti vagy teszi közzé ezt az oldalt, amíg egy ellenőr fel nem oldja.</translation>
+    </message>
+    <message>
+        <source>Review holds need the object state group review_hold: run the upgrade step 6.0.15-review-hold (Exponential 6.0.15 or later).</source>
+        <translation>Az ellenőrzési zároláshoz szükséges a review_hold objektumállapot-csoport: futtassa a 6.0.15-review-hold frissítési lépést (Exponential 6.0.15 vagy újabb).</translation>
+    </message>
+    <message>
+        <source>Why is it held? (kept in the audit)</source>
+        <translation>Miért van zárolva? (a naplóban megmarad)</translation>
+    </message>
+    <message>
+        <source>Note for the audit (optional)</source>
+        <translation>Megjegyzés a naplóhoz (nem kötelező)</translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation>Zárolás ellenőrzésre</translation>
+    </message>
+    <message>
+        <source>Release</source>
+        <translation>Feloldás</translation>
+    </message>
+    <message>
+        <source>Say why the page is held.</source>
+        <translation>Adja meg, miért van zárolva az oldal.</translation>
+    </message>
+    <message>
+        <source>The page is held for review.</source>
+        <translation>Az oldal ellenőrzésre zárolva.</translation>
+    </message>
+    <message>
+        <source>The hold is released.</source>
+        <translation>A zárolás feloldva.</translation>
+    </message>
+    <message>
+        <source>This page is held for review. It can be published once a reviewer releases it.</source>
+        <translation>Ez az oldal ellenőrzésre zárolva van. Közzétehető, amint egy ellenőr feloldja.</translation>
+    </message>
+    <message>
+        <source>Review holds need Exponential 6.0.15 or later, with its upgrade step run.</source>
+        <translation>Az ellenőrzési zároláshoz Exponential 6.0.15 vagy újabb szükséges, lefuttatott frissítési lépéssel.</translation>
+    </message>
+    <message>
+        <source>This page is already held for review.</source>
+        <translation>Ez az oldal már ellenőrzésre zárolva van.</translation>
+    </message>
+    <message>
+        <source>This page is not held.</source>
+        <translation>Ez az oldal nincs zárolva.</translation>
+    </message>
+    <message>
+        <source>You may not hold this page.</source>
+        <translation>Nem zárolhatja ezt az oldalt.</translation>
+    </message>
+    <message>
+        <source>You may not release this page.</source>
+        <translation>Nem oldhatja fel ezt az oldalt.</translation>
+    </message>
+    <message>
+        <source>The hold was not changed. Try again.</source>
+        <translation>A zárolás nem változott. Próbálja újra.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

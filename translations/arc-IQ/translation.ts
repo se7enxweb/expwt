@@ -2335,6 +2335,90 @@
         <source>Which link?</source>
         <translation>איזא קשרא?</translation>
     </message>
+    <message>
+        <source>Review hold</source>
+        <translation>עכבת בוחנא</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>עכיבא לבוחנא</translation>
+    </message>
+    <message>
+        <source>Held by %name since %time.</source>
+        <translation>עכיבא מן %name מן %time.</translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation>עלתא: %reason</translation>
+    </message>
+    <message>
+        <source>You may still edit it, but publishing waits until it is released, unless your role allows it.</source>
+        <translation>עד כען מצית לשנויה, ברם פרסומא נטר עד דמשתריא, אלא אן תפקידך שביק.</translation>
+    </message>
+    <message>
+        <source>Nobody edits or publishes this page until a reviewer releases it.</source>
+        <translation>לא אנש משני או מפרסם הנא דפא עד דבחונא חד שרא לה.</translation>
+    </message>
+    <message>
+        <source>Review holds need the object state group review_hold: run the upgrade step 6.0.15-review-hold (Exponential 6.0.15 or later).</source>
+        <translation>עכבת בוחנא צריכא לקבוצת מצבי צביונא review_hold: הפעל דרגת שודרגא 6.0.15-review-hold (Exponential 6.0.15 או בתרה).</translation>
+    </message>
+    <message>
+        <source>Why is it held? (kept in the audit)</source>
+        <translation>למנא עכיבא? (נטירא בבדיקתא)</translation>
+    </message>
+    <message>
+        <source>Note for the audit (optional)</source>
+        <translation>מלתא לבדיקתא (צביונאית)</translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation>עכב לבוחנא</translation>
+    </message>
+    <message>
+        <source>Release</source>
+        <translation>שרי</translation>
+    </message>
+    <message>
+        <source>Say why the page is held.</source>
+        <translation>אמר למנא דפא עכיבא.</translation>
+    </message>
+    <message>
+        <source>The page is held for review.</source>
+        <translation>דפא עכיבא לבוחנא.</translation>
+    </message>
+    <message>
+        <source>The hold is released.</source>
+        <translation>עכבתא שריא.</translation>
+    </message>
+    <message>
+        <source>This page is held for review. It can be published once a reviewer releases it.</source>
+        <translation>הנא דפא עכיבא לבוחנא. מצי מתפרסם כד בחונא חד שרא לה.</translation>
+    </message>
+    <message>
+        <source>Review holds need Exponential 6.0.15 or later, with its upgrade step run.</source>
+        <translation>עכבת בוחנא צריכא Exponential 6.0.15 או בתרה, עם דרגת שודרגא דילה עבידא.</translation>
+    </message>
+    <message>
+        <source>This page is already held for review.</source>
+        <translation>הנא דפא כבר עכיבא לבוחנא.</translation>
+    </message>
+    <message>
+        <source>This page is not held.</source>
+        <translation>הנא דפא לא עכיבא.</translation>
+    </message>
+    <message>
+        <source>You may not hold this page.</source>
+        <translation>לא שליט לך למעכב הנא דפא.</translation>
+    </message>
+    <message>
+        <source>You may not release this page.</source>
+        <translation>לא שליט לך למשרא הנא דפא.</translation>
+    </message>
+    <message>
+        <source>The hold was not changed. Try again.</source>
+        <translation>עכבתא לא אשתניאת. נסי תוב.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

@@ -2335,6 +2335,90 @@
         <source>Which link?</source>
         <translation>Ko tēhea hono?</translation>
     </message>
+    <message>
+        <source>Review hold</source>
+        <translation>Pupuri arotake</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>Kua puritia mō te arotake</translation>
+    </message>
+    <message>
+        <source>Held by %name since %time.</source>
+        <translation>I puritia e %name mai i %time.</translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation>Take: %reason</translation>
+    </message>
+    <message>
+        <source>You may still edit it, but publishing waits until it is released, unless your role allows it.</source>
+        <translation>Ka taea tonu e koe te whakatika, engari ka tatari te whakaputa kia tukuna rā anō, ki te kore tō tūranga e whakaae.</translation>
+    </message>
+    <message>
+        <source>Nobody edits or publishes this page until a reviewer releases it.</source>
+        <translation>Kāore he tangata e whakatika, e whakaputa rānei i tēnei whārangi kia tukuna rā anō e tētahi kaiarotake.</translation>
+    </message>
+    <message>
+        <source>Review holds need the object state group review_hold: run the upgrade step 6.0.15-review-hold (Exponential 6.0.15 or later).</source>
+        <translation>Me whai ngā pupuri arotake i te rōpū tūnga ahanoa review_hold: whakahaerehia te hipanga whakahou 6.0.15-review-hold (Exponential 6.0.15, i muri mai rānei).</translation>
+    </message>
+    <message>
+        <source>Why is it held? (kept in the audit)</source>
+        <translation>He aha i puritia ai? (ka puritia ki te arotake kaute)</translation>
+    </message>
+    <message>
+        <source>Note for the audit (optional)</source>
+        <translation>He tuhinga mō te arotake kaute (kōwhiringa)</translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation>Puritia mō te arotake</translation>
+    </message>
+    <message>
+        <source>Release</source>
+        <translation>Tukuna</translation>
+    </message>
+    <message>
+        <source>Say why the page is held.</source>
+        <translation>Kīia te take i puritia ai te whārangi.</translation>
+    </message>
+    <message>
+        <source>The page is held for review.</source>
+        <translation>Kua puritia te whārangi mō te arotake.</translation>
+    </message>
+    <message>
+        <source>The hold is released.</source>
+        <translation>Kua tukuna te pupuri.</translation>
+    </message>
+    <message>
+        <source>This page is held for review. It can be published once a reviewer releases it.</source>
+        <translation>Kua puritia tēnei whārangi mō te arotake. Ka taea te whakaputa ina tukuna e tētahi kaiarotake.</translation>
+    </message>
+    <message>
+        <source>Review holds need Exponential 6.0.15 or later, with its upgrade step run.</source>
+        <translation>Me whai ngā pupuri arotake i Exponential 6.0.15, i muri mai rānei, me te hipanga whakahou kua whakahaerehia.</translation>
+    </message>
+    <message>
+        <source>This page is already held for review.</source>
+        <translation>Kua puritia kētia tēnei whārangi mō te arotake.</translation>
+    </message>
+    <message>
+        <source>This page is not held.</source>
+        <translation>Kāore tēnei whārangi i te puritia.</translation>
+    </message>
+    <message>
+        <source>You may not hold this page.</source>
+        <translation>Kāore e whakaaetia kia puritia e koe tēnei whārangi.</translation>
+    </message>
+    <message>
+        <source>You may not release this page.</source>
+        <translation>Kāore e whakaaetia kia tukuna e koe tēnei whārangi.</translation>
+    </message>
+    <message>
+        <source>The hold was not changed. Try again.</source>
+        <translation>Kāore i whakarerekēhia te pupuri. Whakamātauria anō.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

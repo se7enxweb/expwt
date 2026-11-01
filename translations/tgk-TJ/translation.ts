@@ -2335,6 +2335,90 @@
         <source>Which link?</source>
         <translation>Кадом пайванд?</translation>
     </message>
+    <message>
+        <source>Review hold</source>
+        <translation>Нигоҳдорӣ барои баррасӣ</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>Барои баррасӣ нигоҳ дошта шудааст</translation>
+    </message>
+    <message>
+        <source>Held by %name since %time.</source>
+        <translation>Аз ҷониби %name аз %time нигоҳ дошта шудааст.</translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation>Сабаб: %reason</translation>
+    </message>
+    <message>
+        <source>You may still edit it, but publishing waits until it is released, unless your role allows it.</source>
+        <translation>Шумо ҳоло ҳам метавонед онро таҳрир кунед, аммо нашр то озод шудани он интизор мешавад, магар нақши шумо иҷозат диҳад.</translation>
+    </message>
+    <message>
+        <source>Nobody edits or publishes this page until a reviewer releases it.</source>
+        <translation>То даме ки баррасикунанда ин саҳифаро озод накунад, ҳеҷ кас онро таҳрир ва нашр намекунад.</translation>
+    </message>
+    <message>
+        <source>Review holds need the object state group review_hold: run the upgrade step 6.0.15-review-hold (Exponential 6.0.15 or later).</source>
+        <translation>Нигоҳдориҳо барои баррасӣ гурӯҳи ҳолати объекти review_hold-ро талаб мекунанд: қадами навсозии 6.0.15-review-hold-ро иҷро кунед (Exponential 6.0.15 ё навтар).</translation>
+    </message>
+    <message>
+        <source>Why is it held? (kept in the audit)</source>
+        <translation>Чаро нигоҳ дошта шудааст? (дар аудит нигоҳ дошта мешавад)</translation>
+    </message>
+    <message>
+        <source>Note for the audit (optional)</source>
+        <translation>Эзоҳ барои аудит (ихтиёрӣ)</translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation>Барои баррасӣ нигоҳ доштан</translation>
+    </message>
+    <message>
+        <source>Release</source>
+        <translation>Озод кардан</translation>
+    </message>
+    <message>
+        <source>Say why the page is held.</source>
+        <translation>Бигӯед, ки чаро саҳифа нигоҳ дошта шудааст.</translation>
+    </message>
+    <message>
+        <source>The page is held for review.</source>
+        <translation>Саҳифа барои баррасӣ нигоҳ дошта шудааст.</translation>
+    </message>
+    <message>
+        <source>The hold is released.</source>
+        <translation>Нигоҳдорӣ бекор карда шуд.</translation>
+    </message>
+    <message>
+        <source>This page is held for review. It can be published once a reviewer releases it.</source>
+        <translation>Ин саҳифа барои баррасӣ нигоҳ дошта шудааст. Пас аз озод кардани баррасикунанда онро нашр кардан мумкин аст.</translation>
+    </message>
+    <message>
+        <source>Review holds need Exponential 6.0.15 or later, with its upgrade step run.</source>
+        <translation>Нигоҳдориҳо барои баррасӣ Exponential 6.0.15 ё навтарро бо қадами навсозии иҷрошудааш талаб мекунанд.</translation>
+    </message>
+    <message>
+        <source>This page is already held for review.</source>
+        <translation>Ин саҳифа аллакай барои баррасӣ нигоҳ дошта шудааст.</translation>
+    </message>
+    <message>
+        <source>This page is not held.</source>
+        <translation>Ин саҳифа нигоҳ дошта нашудааст.</translation>
+    </message>
+    <message>
+        <source>You may not hold this page.</source>
+        <translation>Шумо наметавонед ин саҳифаро нигоҳ доред.</translation>
+    </message>
+    <message>
+        <source>You may not release this page.</source>
+        <translation>Шумо наметавонед ин саҳифаро озод кунед.</translation>
+    </message>
+    <message>
+        <source>The hold was not changed. Try again.</source>
+        <translation>Нигоҳдорӣ тағйир наёфт. Бори дигар кӯшиш кунед.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

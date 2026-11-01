@@ -2335,6 +2335,90 @@
         <source>Which link?</source>
         <translation>Que ligazón?</translation>
     </message>
+    <message>
+        <source>Review hold</source>
+        <translation>Retención para revisión</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>Retida para revisión</translation>
+    </message>
+    <message>
+        <source>Held by %name since %time.</source>
+        <translation>Retida por %name desde %time.</translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation>Motivo: %reason</translation>
+    </message>
+    <message>
+        <source>You may still edit it, but publishing waits until it is released, unless your role allows it.</source>
+        <translation>Aínda pode editala, pero a publicación agarda ata que se libere, agás que o seu rol o permita.</translation>
+    </message>
+    <message>
+        <source>Nobody edits or publishes this page until a reviewer releases it.</source>
+        <translation>Ninguén edita nin publica esta páxina ata que un revisor a libere.</translation>
+    </message>
+    <message>
+        <source>Review holds need the object state group review_hold: run the upgrade step 6.0.15-review-hold (Exponential 6.0.15 or later).</source>
+        <translation>As retencións para revisión necesitan o grupo de estados de obxecto review_hold: execute o paso de actualización 6.0.15-review-hold (Exponential 6.0.15 ou posterior).</translation>
+    </message>
+    <message>
+        <source>Why is it held? (kept in the audit)</source>
+        <translation>Por que está retida? (gárdase na auditoría)</translation>
+    </message>
+    <message>
+        <source>Note for the audit (optional)</source>
+        <translation>Nota para a auditoría (opcional)</translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation>Reter para revisión</translation>
+    </message>
+    <message>
+        <source>Release</source>
+        <translation>Liberar</translation>
+    </message>
+    <message>
+        <source>Say why the page is held.</source>
+        <translation>Indique por que está retida a páxina.</translation>
+    </message>
+    <message>
+        <source>The page is held for review.</source>
+        <translation>A páxina está retida para revisión.</translation>
+    </message>
+    <message>
+        <source>The hold is released.</source>
+        <translation>A retención liberouse.</translation>
+    </message>
+    <message>
+        <source>This page is held for review. It can be published once a reviewer releases it.</source>
+        <translation>Esta páxina está retida para revisión. Poderá publicarse cando un revisor a libere.</translation>
+    </message>
+    <message>
+        <source>Review holds need Exponential 6.0.15 or later, with its upgrade step run.</source>
+        <translation>As retencións para revisión necesitan Exponential 6.0.15 ou posterior, co seu paso de actualización executado.</translation>
+    </message>
+    <message>
+        <source>This page is already held for review.</source>
+        <translation>Esta páxina xa está retida para revisión.</translation>
+    </message>
+    <message>
+        <source>This page is not held.</source>
+        <translation>Esta páxina non está retida.</translation>
+    </message>
+    <message>
+        <source>You may not hold this page.</source>
+        <translation>Non pode reter esta páxina.</translation>
+    </message>
+    <message>
+        <source>You may not release this page.</source>
+        <translation>Non pode liberar esta páxina.</translation>
+    </message>
+    <message>
+        <source>The hold was not changed. Try again.</source>
+        <translation>A retención non cambiou. Ténteo de novo.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

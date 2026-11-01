@@ -2335,6 +2335,90 @@
         <source>Which link?</source>
         <translation>Kótary wótkaz?</translation>
     </message>
+    <message>
+        <source>Review hold</source>
+        <translation>Zaźaržanje za pśeglědowanje</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>Zaźaržany za pśeglědowanje</translation>
+    </message>
+    <message>
+        <source>Held by %name since %time.</source>
+        <translation>Zaźaržany wót %name wót %time.</translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation>Pśicyna: %reason</translation>
+    </message>
+    <message>
+        <source>You may still edit it, but publishing waits until it is released, unless your role allows it.</source>
+        <translation>Móžośo jen hyšći wobźěłaś, ale wózjawjenje caka, až se pušćijo, jolic waša rola to njedowólujo.</translation>
+    </message>
+    <message>
+        <source>Nobody edits or publishes this page until a reviewer releases it.</source>
+        <translation>Nichten toś ten bok njewobźěłujo ani njewózjawijo, až jen pśeglědowaŕ pušćijo.</translation>
+    </message>
+    <message>
+        <source>Review holds need the object state group review_hold: run the upgrade step 6.0.15-review-hold (Exponential 6.0.15 or later).</source>
+        <translation>Zaźaržanja za pśeglědowanje trjebaju kupku stawow objekta review_hold: wuwjeźćo aktualizěrowański kšac 6.0.15-review-hold (Exponential 6.0.15 abo nowšy).</translation>
+    </message>
+    <message>
+        <source>Why is it held? (kept in the audit)</source>
+        <translation>Cogodla jo zaźaržany? (wóstanjo w awdiśe)</translation>
+    </message>
+    <message>
+        <source>Note for the audit (optional)</source>
+        <translation>Pokazka za awdit (opcionalny)</translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation>Za pśeglědowanje zaźaržaś</translation>
+    </message>
+    <message>
+        <source>Release</source>
+        <translation>Pušćiś</translation>
+    </message>
+    <message>
+        <source>Say why the page is held.</source>
+        <translation>Pódajśo, cogodla bok jo zaźaržany.</translation>
+    </message>
+    <message>
+        <source>The page is held for review.</source>
+        <translation>Bok jo zaźaržany za pśeglědowanje.</translation>
+    </message>
+    <message>
+        <source>The hold is released.</source>
+        <translation>Zaźaržanje jo pušćone.</translation>
+    </message>
+    <message>
+        <source>This page is held for review. It can be published once a reviewer releases it.</source>
+        <translation>Toś ten bok jo zaźaržany za pśeglědowanje. Móžo se wózjawiś, gaž jen pśeglědowaŕ pušćijo.</translation>
+    </message>
+    <message>
+        <source>Review holds need Exponential 6.0.15 or later, with its upgrade step run.</source>
+        <translation>Zaźaržanja za pśeglědowanje trjebaju Exponential 6.0.15 abo nowšy z wuwjeźonym aktualizěrowańskim kšacom.</translation>
+    </message>
+    <message>
+        <source>This page is already held for review.</source>
+        <translation>Toś ten bok jo južo zaźaržany za pśeglědowanje.</translation>
+    </message>
+    <message>
+        <source>This page is not held.</source>
+        <translation>Toś ten bok njejo zaźaržany.</translation>
+    </message>
+    <message>
+        <source>You may not hold this page.</source>
+        <translation>Toś ten bok njesmějośo zaźaržaś.</translation>
+    </message>
+    <message>
+        <source>You may not release this page.</source>
+        <translation>Toś ten bok njesmějośo pušćiś.</translation>
+    </message>
+    <message>
+        <source>The hold was not changed. Try again.</source>
+        <translation>Zaźaržanje njejo se změniło. Wopytajśo hyšći raz.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

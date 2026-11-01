@@ -2335,6 +2335,90 @@
         <source>Which link?</source>
         <translation>Welke link?</translation>
     </message>
+    <message>
+        <source>Review hold</source>
+        <translation>Reviewblokkade</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>Vastgehouden voor review</translation>
+    </message>
+    <message>
+        <source>Held by %name since %time.</source>
+        <translation>Vastgehouden door %name sinds %time.</translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation>Reden: %reason</translation>
+    </message>
+    <message>
+        <source>You may still edit it, but publishing waits until it is released, unless your role allows it.</source>
+        <translation>Je kunt hem nog steeds bewerken, maar publiceren wacht tot hij is vrijgegeven, tenzij je rol het toestaat.</translation>
+    </message>
+    <message>
+        <source>Nobody edits or publishes this page until a reviewer releases it.</source>
+        <translation>Niemand bewerkt of publiceert deze pagina totdat een reviewer hem vrijgeeft.</translation>
+    </message>
+    <message>
+        <source>Review holds need the object state group review_hold: run the upgrade step 6.0.15-review-hold (Exponential 6.0.15 or later).</source>
+        <translation>Reviewblokkades hebben de objectstatusgroep review_hold nodig: voer de upgradestap 6.0.15-review-hold uit (Exponential 6.0.15 of later).</translation>
+    </message>
+    <message>
+        <source>Why is it held? (kept in the audit)</source>
+        <translation>Waarom wordt hij vastgehouden? (bewaard in de audit)</translation>
+    </message>
+    <message>
+        <source>Note for the audit (optional)</source>
+        <translation>Notitie voor de audit (optioneel)</translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation>Vasthouden voor review</translation>
+    </message>
+    <message>
+        <source>Release</source>
+        <translation>Vrijgeven</translation>
+    </message>
+    <message>
+        <source>Say why the page is held.</source>
+        <translation>Geef aan waarom de pagina wordt vastgehouden.</translation>
+    </message>
+    <message>
+        <source>The page is held for review.</source>
+        <translation>De pagina wordt vastgehouden voor review.</translation>
+    </message>
+    <message>
+        <source>The hold is released.</source>
+        <translation>De blokkade is opgeheven.</translation>
+    </message>
+    <message>
+        <source>This page is held for review. It can be published once a reviewer releases it.</source>
+        <translation>Deze pagina wordt vastgehouden voor review. Hij kan worden gepubliceerd zodra een reviewer hem vrijgeeft.</translation>
+    </message>
+    <message>
+        <source>Review holds need Exponential 6.0.15 or later, with its upgrade step run.</source>
+        <translation>Reviewblokkades hebben Exponential 6.0.15 of later nodig, met de upgradestap uitgevoerd.</translation>
+    </message>
+    <message>
+        <source>This page is already held for review.</source>
+        <translation>Deze pagina wordt al vastgehouden voor review.</translation>
+    </message>
+    <message>
+        <source>This page is not held.</source>
+        <translation>Deze pagina wordt niet vastgehouden.</translation>
+    </message>
+    <message>
+        <source>You may not hold this page.</source>
+        <translation>Je mag deze pagina niet vasthouden.</translation>
+    </message>
+    <message>
+        <source>You may not release this page.</source>
+        <translation>Je mag deze pagina niet vrijgeven.</translation>
+    </message>
+    <message>
+        <source>The hold was not changed. Try again.</source>
+        <translation>De blokkade is niet gewijzigd. Probeer het opnieuw.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

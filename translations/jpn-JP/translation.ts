@@ -2335,6 +2335,90 @@
         <source>Which link?</source>
         <translation>どのリンクですか？</translation>
     </message>
+    <message>
+        <source>Review hold</source>
+        <translation>レビュー保留</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>レビューのため保留中</translation>
+    </message>
+    <message>
+        <source>Held by %name since %time.</source>
+        <translation>%name が %time から保留中。</translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation>理由: %reason</translation>
+    </message>
+    <message>
+        <source>You may still edit it, but publishing waits until it is released, unless your role allows it.</source>
+        <translation>編集は引き続きできますが、ロールで許可されていない限り、公開は保留が解除されるまで待機します。</translation>
+    </message>
+    <message>
+        <source>Nobody edits or publishes this page until a reviewer releases it.</source>
+        <translation>レビュー担当者が解除するまで、このページを編集または公開することはできません。</translation>
+    </message>
+    <message>
+        <source>Review holds need the object state group review_hold: run the upgrade step 6.0.15-review-hold (Exponential 6.0.15 or later).</source>
+        <translation>レビュー保留にはオブジェクト状態グループ review_hold が必要です。アップグレードステップ 6.0.15-review-hold を実行してください (Exponential 6.0.15 以降)。</translation>
+    </message>
+    <message>
+        <source>Why is it held? (kept in the audit)</source>
+        <translation>保留の理由 (監査記録に保存されます)</translation>
+    </message>
+    <message>
+        <source>Note for the audit (optional)</source>
+        <translation>監査用メモ (任意)</translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation>レビューのため保留</translation>
+    </message>
+    <message>
+        <source>Release</source>
+        <translation>解除</translation>
+    </message>
+    <message>
+        <source>Say why the page is held.</source>
+        <translation>ページを保留する理由を入力してください。</translation>
+    </message>
+    <message>
+        <source>The page is held for review.</source>
+        <translation>ページはレビューのため保留されました。</translation>
+    </message>
+    <message>
+        <source>The hold is released.</source>
+        <translation>保留は解除されました。</translation>
+    </message>
+    <message>
+        <source>This page is held for review. It can be published once a reviewer releases it.</source>
+        <translation>このページはレビューのため保留中です。レビュー担当者が解除すると公開できます。</translation>
+    </message>
+    <message>
+        <source>Review holds need Exponential 6.0.15 or later, with its upgrade step run.</source>
+        <translation>レビュー保留には Exponential 6.0.15 以降と、そのアップグレードステップの実行が必要です。</translation>
+    </message>
+    <message>
+        <source>This page is already held for review.</source>
+        <translation>このページはすでにレビューのため保留中です。</translation>
+    </message>
+    <message>
+        <source>This page is not held.</source>
+        <translation>このページは保留されていません。</translation>
+    </message>
+    <message>
+        <source>You may not hold this page.</source>
+        <translation>このページを保留する権限がありません。</translation>
+    </message>
+    <message>
+        <source>You may not release this page.</source>
+        <translation>このページの保留を解除する権限がありません。</translation>
+    </message>
+    <message>
+        <source>The hold was not changed. Try again.</source>
+        <translation>保留は変更されませんでした。もう一度お試しください。</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

@@ -2335,6 +2335,90 @@
         <source>Which link?</source>
         <translation>Hansı keçid?</translation>
     </message>
+    <message>
+        <source>Review hold</source>
+        <translation>Yoxlama üçün saxlama</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>Yoxlama üçün saxlanılıb</translation>
+    </message>
+    <message>
+        <source>Held by %name since %time.</source>
+        <translation>%name tərəfindən %time vaxtından saxlanılıb.</translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation>Səbəb: %reason</translation>
+    </message>
+    <message>
+        <source>You may still edit it, but publishing waits until it is released, unless your role allows it.</source>
+        <translation>Siz onu yenə redaktə edə bilərsiniz, lakin rolunuz icazə vermirsə, dərc onun azad edilməsini gözləyir.</translation>
+    </message>
+    <message>
+        <source>Nobody edits or publishes this page until a reviewer releases it.</source>
+        <translation>Yoxlayıcı onu azad edənə qədər heç kim bu səhifəni redaktə və ya dərc etmir.</translation>
+    </message>
+    <message>
+        <source>Review holds need the object state group review_hold: run the upgrade step 6.0.15-review-hold (Exponential 6.0.15 or later).</source>
+        <translation>Yoxlama saxlamaları üçün obyekt vəziyyəti qrupu review_hold lazımdır: 6.0.15-review-hold yeniləmə addımını işə salın (Exponential 6.0.15 və ya daha yeni).</translation>
+    </message>
+    <message>
+        <source>Why is it held? (kept in the audit)</source>
+        <translation>Niyə saxlanılıb? (auditdə saxlanılır)</translation>
+    </message>
+    <message>
+        <source>Note for the audit (optional)</source>
+        <translation>Audit üçün qeyd (istəyə bağlı)</translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation>Yoxlama üçün saxla</translation>
+    </message>
+    <message>
+        <source>Release</source>
+        <translation>Azad et</translation>
+    </message>
+    <message>
+        <source>Say why the page is held.</source>
+        <translation>Səhifənin niyə saxlandığını yazın.</translation>
+    </message>
+    <message>
+        <source>The page is held for review.</source>
+        <translation>Səhifə yoxlama üçün saxlanılıb.</translation>
+    </message>
+    <message>
+        <source>The hold is released.</source>
+        <translation>Saxlama aradan qaldırıldı.</translation>
+    </message>
+    <message>
+        <source>This page is held for review. It can be published once a reviewer releases it.</source>
+        <translation>Bu səhifə yoxlama üçün saxlanılıb. Yoxlayıcı onu azad etdikdən sonra dərc edilə bilər.</translation>
+    </message>
+    <message>
+        <source>Review holds need Exponential 6.0.15 or later, with its upgrade step run.</source>
+        <translation>Yoxlama saxlamaları üçün yeniləmə addımı işə salınmış Exponential 6.0.15 və ya daha yeni versiya lazımdır.</translation>
+    </message>
+    <message>
+        <source>This page is already held for review.</source>
+        <translation>Bu səhifə artıq yoxlama üçün saxlanılıb.</translation>
+    </message>
+    <message>
+        <source>This page is not held.</source>
+        <translation>Bu səhifə saxlanılmayıb.</translation>
+    </message>
+    <message>
+        <source>You may not hold this page.</source>
+        <translation>Bu səhifəni saxlamağa icazəniz yoxdur.</translation>
+    </message>
+    <message>
+        <source>You may not release this page.</source>
+        <translation>Bu səhifəni azad etməyə icazəniz yoxdur.</translation>
+    </message>
+    <message>
+        <source>The hold was not changed. Try again.</source>
+        <translation>Saxlama dəyişdirilmədi. Yenidən cəhd edin.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

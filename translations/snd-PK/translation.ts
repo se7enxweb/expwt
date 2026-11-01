@@ -2335,6 +2335,90 @@
         <source>Which link?</source>
         <translation>ڪهڙي لنڪ؟</translation>
     </message>
+    <message>
+        <source>Review hold</source>
+        <translation>جائزي لاءِ روڪ</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>جائزي لاءِ روڪيل</translation>
+    </message>
+    <message>
+        <source>Held by %name since %time.</source>
+        <translation>%name طرفان %time کان روڪيل.</translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation>سبب: %reason</translation>
+    </message>
+    <message>
+        <source>You may still edit it, but publishing waits until it is released, unless your role allows it.</source>
+        <translation>توهان اڃا به ان ۾ ترميم ڪري سگهو ٿا، پر شايع ڪرڻ ان وقت تائين انتظار ڪندو جيستائين اهو آزاد نه ٿئي، جيستائين توهان جو ڪردار ان جي اجازت نه ڏئي.</translation>
+    </message>
+    <message>
+        <source>Nobody edits or publishes this page until a reviewer releases it.</source>
+        <translation>جيستائين ڪو جائزو وٺندڙ هن صفحي کي آزاد نه ڪري، تيستائين ڪو به ان ۾ ترميم يا ان کي شايع نٿو ڪري.</translation>
+    </message>
+    <message>
+        <source>Review holds need the object state group review_hold: run the upgrade step 6.0.15-review-hold (Exponential 6.0.15 or later).</source>
+        <translation>جائزي لاءِ روڪ کي آبجيڪٽ اسٽيٽ گروپ review_hold جي ضرورت آهي: اپگريڊ قدم 6.0.15-review-hold هلايو (Exponential 6.0.15 يا بعد وارو).</translation>
+    </message>
+    <message>
+        <source>Why is it held? (kept in the audit)</source>
+        <translation>اهو ڇو روڪيل آهي؟ (آڊٽ ۾ محفوظ)</translation>
+    </message>
+    <message>
+        <source>Note for the audit (optional)</source>
+        <translation>آڊٽ لاءِ نوٽ (اختياري)</translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation>جائزي لاءِ روڪيو</translation>
+    </message>
+    <message>
+        <source>Release</source>
+        <translation>آزاد ڪريو</translation>
+    </message>
+    <message>
+        <source>Say why the page is held.</source>
+        <translation>ٻڌايو ته صفحو ڇو روڪيل آهي.</translation>
+    </message>
+    <message>
+        <source>The page is held for review.</source>
+        <translation>صفحو جائزي لاءِ روڪيل آهي.</translation>
+    </message>
+    <message>
+        <source>The hold is released.</source>
+        <translation>روڪ ختم ڪئي وئي.</translation>
+    </message>
+    <message>
+        <source>This page is held for review. It can be published once a reviewer releases it.</source>
+        <translation>هي صفحو جائزي لاءِ روڪيل آهي. جڏهن ڪو جائزو وٺندڙ ان کي آزاد ڪري، تڏهن ان کي شايع ڪري سگهجي ٿو.</translation>
+    </message>
+    <message>
+        <source>Review holds need Exponential 6.0.15 or later, with its upgrade step run.</source>
+        <translation>جائزي لاءِ روڪ کي Exponential 6.0.15 يا بعد وارو گهرجي، ان جي اپگريڊ قدم هلائڻ سان.</translation>
+    </message>
+    <message>
+        <source>This page is already held for review.</source>
+        <translation>هي صفحو اڳ ۾ ئي جائزي لاءِ روڪيل آهي.</translation>
+    </message>
+    <message>
+        <source>This page is not held.</source>
+        <translation>هي صفحو روڪيل ناهي.</translation>
+    </message>
+    <message>
+        <source>You may not hold this page.</source>
+        <translation>توهان هن صفحي کي روڪي نٿا سگهو.</translation>
+    </message>
+    <message>
+        <source>You may not release this page.</source>
+        <translation>توهان هن صفحي کي آزاد نٿا ڪري سگهو.</translation>
+    </message>
+    <message>
+        <source>The hold was not changed. Try again.</source>
+        <translation>روڪ تبديل نه ٿي. ٻيهر ڪوشش ڪريو.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

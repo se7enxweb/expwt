@@ -2335,6 +2335,90 @@
         <source>Which link?</source>
         <translation>Liên kết nào?</translation>
     </message>
+    <message>
+        <source>Review hold</source>
+        <translation>Tạm giữ để xem xét</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>Đang tạm giữ để xem xét</translation>
+    </message>
+    <message>
+        <source>Held by %name since %time.</source>
+        <translation>Được %name tạm giữ từ %time.</translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation>Lý do: %reason</translation>
+    </message>
+    <message>
+        <source>You may still edit it, but publishing waits until it is released, unless your role allows it.</source>
+        <translation>Bạn vẫn có thể chỉnh sửa, nhưng việc xuất bản phải chờ đến khi được giải phóng, trừ khi vai trò của bạn cho phép.</translation>
+    </message>
+    <message>
+        <source>Nobody edits or publishes this page until a reviewer releases it.</source>
+        <translation>Không ai chỉnh sửa hay xuất bản trang này cho đến khi người xem xét giải phóng nó.</translation>
+    </message>
+    <message>
+        <source>Review holds need the object state group review_hold: run the upgrade step 6.0.15-review-hold (Exponential 6.0.15 or later).</source>
+        <translation>Tạm giữ để xem xét cần nhóm trạng thái đối tượng review_hold: hãy chạy bước nâng cấp 6.0.15-review-hold (Exponential 6.0.15 trở lên).</translation>
+    </message>
+    <message>
+        <source>Why is it held? (kept in the audit)</source>
+        <translation>Vì sao bị tạm giữ? (được lưu trong nhật ký kiểm tra)</translation>
+    </message>
+    <message>
+        <source>Note for the audit (optional)</source>
+        <translation>Ghi chú cho nhật ký kiểm tra (tùy chọn)</translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation>Tạm giữ để xem xét</translation>
+    </message>
+    <message>
+        <source>Release</source>
+        <translation>Giải phóng</translation>
+    </message>
+    <message>
+        <source>Say why the page is held.</source>
+        <translation>Hãy cho biết vì sao trang bị tạm giữ.</translation>
+    </message>
+    <message>
+        <source>The page is held for review.</source>
+        <translation>Trang đã được tạm giữ để xem xét.</translation>
+    </message>
+    <message>
+        <source>The hold is released.</source>
+        <translation>Đã giải phóng tạm giữ.</translation>
+    </message>
+    <message>
+        <source>This page is held for review. It can be published once a reviewer releases it.</source>
+        <translation>Trang này đang được tạm giữ để xem xét. Có thể xuất bản ngay khi người xem xét giải phóng.</translation>
+    </message>
+    <message>
+        <source>Review holds need Exponential 6.0.15 or later, with its upgrade step run.</source>
+        <translation>Tạm giữ để xem xét cần Exponential 6.0.15 trở lên, đã chạy bước nâng cấp của nó.</translation>
+    </message>
+    <message>
+        <source>This page is already held for review.</source>
+        <translation>Trang này đã được tạm giữ để xem xét.</translation>
+    </message>
+    <message>
+        <source>This page is not held.</source>
+        <translation>Trang này không bị tạm giữ.</translation>
+    </message>
+    <message>
+        <source>You may not hold this page.</source>
+        <translation>Bạn không được tạm giữ trang này.</translation>
+    </message>
+    <message>
+        <source>You may not release this page.</source>
+        <translation>Bạn không được giải phóng trang này.</translation>
+    </message>
+    <message>
+        <source>The hold was not changed. Try again.</source>
+        <translation>Tạm giữ không thay đổi. Hãy thử lại.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

@@ -2335,6 +2335,90 @@
         <source>Which link?</source>
         <translation>Dè an ceangal?</translation>
     </message>
+    <message>
+        <source>Review hold</source>
+        <translation>Grabadh airson lèirmheas</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>Air a ghrabadh airson lèirmheas</translation>
+    </message>
+    <message>
+        <source>Held by %name since %time.</source>
+        <translation>Air a ghrabadh le %name bho %time.</translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation>Adhbhar: %reason</translation>
+    </message>
+    <message>
+        <source>You may still edit it, but publishing waits until it is released, unless your role allows it.</source>
+        <translation>Faodaidh tu a dheasachadh fhathast, ach feithidh am foillseachadh gus an tèid a shaoradh, mur a ceadaich an dreuchd agad e.</translation>
+    </message>
+    <message>
+        <source>Nobody edits or publishes this page until a reviewer releases it.</source>
+        <translation>Cha deasaich no cha bhi duine a’ foillseachadh na duilleige seo gus an saor lèirmheasaiche i.</translation>
+    </message>
+    <message>
+        <source>Review holds need the object state group review_hold: run the upgrade step 6.0.15-review-hold (Exponential 6.0.15 or later).</source>
+        <translation>Feumaidh grabaidhean lèirmheis am buidheann staid oibseict review_hold: ruith an ceum àrdachaidh 6.0.15-review-hold (Exponential 6.0.15 no nas ùire).</translation>
+    </message>
+    <message>
+        <source>Why is it held? (kept in the audit)</source>
+        <translation>Carson a tha i air a grabadh? (air a chumail san sgrùdadh)</translation>
+    </message>
+    <message>
+        <source>Note for the audit (optional)</source>
+        <translation>Nòta airson an sgrùdaidh (roghainneil)</translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation>Grab airson lèirmheas</translation>
+    </message>
+    <message>
+        <source>Release</source>
+        <translation>Saor</translation>
+    </message>
+    <message>
+        <source>Say why the page is held.</source>
+        <translation>Innis carson a tha an duilleag air a grabadh.</translation>
+    </message>
+    <message>
+        <source>The page is held for review.</source>
+        <translation>Tha an duilleag air a grabadh airson lèirmheas.</translation>
+    </message>
+    <message>
+        <source>The hold is released.</source>
+        <translation>Chaidh an grabadh a shaoradh.</translation>
+    </message>
+    <message>
+        <source>This page is held for review. It can be published once a reviewer releases it.</source>
+        <translation>Tha an duilleag seo air a grabadh airson lèirmheas. Gabhaidh a foillseachadh nuair a shaoras lèirmheasaiche i.</translation>
+    </message>
+    <message>
+        <source>Review holds need Exponential 6.0.15 or later, with its upgrade step run.</source>
+        <translation>Feumaidh grabaidhean lèirmheis Exponential 6.0.15 no nas ùire, le a cheum àrdachaidh air a ruith.</translation>
+    </message>
+    <message>
+        <source>This page is already held for review.</source>
+        <translation>Tha an duilleag seo air a grabadh airson lèirmheas mu thràth.</translation>
+    </message>
+    <message>
+        <source>This page is not held.</source>
+        <translation>Chan eil an duilleag seo air a grabadh.</translation>
+    </message>
+    <message>
+        <source>You may not hold this page.</source>
+        <translation>Chan fhaod thu an duilleag seo a ghrabadh.</translation>
+    </message>
+    <message>
+        <source>You may not release this page.</source>
+        <translation>Chan fhaod thu an duilleag seo a shaoradh.</translation>
+    </message>
+    <message>
+        <source>The hold was not changed. Try again.</source>
+        <translation>Cha deach an grabadh atharrachadh. Feuch ris a-rithist.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

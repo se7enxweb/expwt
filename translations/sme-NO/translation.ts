@@ -2335,6 +2335,90 @@
         <source>Which link?</source>
         <translation>Guhte liŋka?</translation>
     </message>
+    <message>
+        <source>Review hold</source>
+        <translation>Dárkkistanbisán</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>Bisuhuvvon dárkkisteami várás</translation>
+    </message>
+    <message>
+        <source>Held by %name since %time.</source>
+        <translation>%name lea bisuhan dan %time rájes.</translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation>Sivva: %reason</translation>
+    </message>
+    <message>
+        <source>You may still edit it, but publishing waits until it is released, unless your role allows it.</source>
+        <translation>Sáhtát ain rievdadit dan, muhto almmuheapmi vuordá dassážii go dat luitojuvvo, jus du rolla ii divtte eará.</translation>
+    </message>
+    <message>
+        <source>Nobody edits or publishes this page until a reviewer releases it.</source>
+        <translation>Ii oktage rievdat iige almmut dán siiddu ovdal go dárkkisteaddji luitá dan.</translation>
+    </message>
+    <message>
+        <source>Review holds need the object state group review_hold: run the upgrade step 6.0.15-review-hold (Exponential 6.0.15 or later).</source>
+        <translation>Dárkkistanbisánat dárbbašit objeaktadili joavkku review_hold: vuoje ođasmahttinlávkki 6.0.15-review-hold (Exponential 6.0.15 dahje ođđasut).</translation>
+    </message>
+    <message>
+        <source>Why is it held? (kept in the audit)</source>
+        <translation>Manne dat lea bisuhuvvon? (vurkejuvvo reviišuvdnii)</translation>
+    </message>
+    <message>
+        <source>Note for the audit (optional)</source>
+        <translation>Mearkkašupmi reviišuvdnii (eaktodáhtolaš)</translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation>Bisut dárkkisteami várás</translation>
+    </message>
+    <message>
+        <source>Release</source>
+        <translation>Luoitte</translation>
+    </message>
+    <message>
+        <source>Say why the page is held.</source>
+        <translation>Čilge manne siidu lea bisuhuvvon.</translation>
+    </message>
+    <message>
+        <source>The page is held for review.</source>
+        <translation>Siidu lea bisuhuvvon dárkkisteami várás.</translation>
+    </message>
+    <message>
+        <source>The hold is released.</source>
+        <translation>Bisán lea luitojuvvon.</translation>
+    </message>
+    <message>
+        <source>This page is held for review. It can be published once a reviewer releases it.</source>
+        <translation>Dát siidu lea bisuhuvvon dárkkisteami várás. Dan sáhttá almmuhit go dárkkisteaddji luitá dan.</translation>
+    </message>
+    <message>
+        <source>Review holds need Exponential 6.0.15 or later, with its upgrade step run.</source>
+        <translation>Dárkkistanbisánat dárbbašit Exponential 6.0.15 dahje ođđaset, ja dan ođasmahttinlávki galgá leat vuddjojuvvon.</translation>
+    </message>
+    <message>
+        <source>This page is already held for review.</source>
+        <translation>Dát siidu lea juo bisuhuvvon dárkkisteami várás.</translation>
+    </message>
+    <message>
+        <source>This page is not held.</source>
+        <translation>Dát siidu ii leat bisuhuvvon.</translation>
+    </message>
+    <message>
+        <source>You may not hold this page.</source>
+        <translation>Don it oaččo bisuhit dán siiddu.</translation>
+    </message>
+    <message>
+        <source>You may not release this page.</source>
+        <translation>Don it oaččo luoitit dán siiddu.</translation>
+    </message>
+    <message>
+        <source>The hold was not changed. Try again.</source>
+        <translation>Bisán ii rievdan. Geahččal ođđasit.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

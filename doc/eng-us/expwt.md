@@ -230,6 +230,28 @@ language). If the window closed, the connection dropped or the browser crashed b
 **Restore** (puts the text back and saves it to the draft) and **Discard**. A field someone else changed on the server
 in the meantime goes through the field by field merge (above). Publishing or discarding the draft removes the copy.
 
+### Review hold
+
+A page can be **held for review** while somebody checks it (legal, compliance, a client, an embargo): until a reviewer
+releases it, nobody edits or publishes it. Visitors keep seeing the published page.
+
+- The hold is the kernel's object state `review_hold/held` (Exponential 6.0.15, made by the upgrade step
+  `6.0.15-review-hold`, guide of the kernel's part: `doc/eng-us/features/6.0/review-hold.md`). The step adds the
+  limitation `StateGroup_review_hold = not_held` to every `content/edit` and `content/publish` policy, so the roles'
+  own policies refuse to edit a held page, and the kernel cancels the publication of a held page for a user whose
+  `content/publish` does not allow it (a scheduled or approved publication included: its version stays a draft).
+- The Page panel shows the hold on top: **Held for review**, by whom and since when, the reason, and what it means for
+  you. Those who may not edit the page see no form; a role whose policy allows the held state (and an administrator)
+  still edits, and is told that publishing waits.
+- **Hold for review** and **Release** are offered to those the kernel's `state/assign` allows for the group (the role
+  **Review hold** that the step creates, assigned to nobody; administrators). Placing a hold asks why; releasing takes
+  an optional note. Both are recorded in the audit with the reason (`content.expwt.hold.place`,
+  `content.expwt.hold.release`), besides the kernel's own `content.object.state`; a refused publication is
+  `content.object.hold.refused`. The sidebar's actions need `expwt/use` only: the kernel's policy decides.
+- A hold placed in the administration (the object's States) shows too, without who and why.
+- Without the state group (an older kernel, or the step not run) there is no hold: the Page panel tells those who
+  administrate states which step to run, and nothing else changes.
+
 ### Accessibility check
 
 The SEO panel ends with **Check the accessibility of the page (WCAG 2.2 AA)**: on demand, axe-core checks the page as
@@ -448,7 +470,7 @@ translation whose fields still hold the text of the main language.
 
 | Policy | Allows |
 |---|---|
-| `expwt/use` | the sidebar itself, the Me panel, reading the Page panel |
+| `expwt/use` | the sidebar itself, the Me panel, reading the Page panel, placing and releasing a review hold (where the kernel's `state/assign` allows it) |
 | `expwt/edit` | editing on a draft, preview, the device preview, publishing, soft locks, the SEO check and the accessibility check |
 | `expwt/create` | the Create panel |
 | `expwt/structure` | the Structure panel |

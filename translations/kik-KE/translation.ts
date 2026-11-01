@@ -2335,6 +2335,90 @@
         <source>Which link?</source>
         <translation>Link ĩrĩkũ?</translation>
     </message>
+    <message>
+        <source>Review hold</source>
+        <translation>Kũgirio nĩ ũndũ wa ũthuthuria</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>Nĩ kũgirĩtio nĩ ũndũ wa ũthuthuria</translation>
+    </message>
+    <message>
+        <source>Held by %name since %time.</source>
+        <translation>Kũgirĩtio nĩ %name kuuma %time.</translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation>Gĩtũmi: %reason</translation>
+    </message>
+    <message>
+        <source>You may still edit it, but publishing waits until it is released, unless your role allows it.</source>
+        <translation>No ũrũcenjie o na rĩu, no gũcabithia nĩ gũgweterera nginya rũrekio, tiga ũrĩa wĩra waku wĩtĩkĩrĩtie.</translation>
+    </message>
+    <message>
+        <source>Nobody edits or publishes this page until a reviewer releases it.</source>
+        <translation>Gũtirĩ mũndũ ũgũcenjia kana gũcabithia ũrũ ũrũ nginya mũthuthuria arũrekie.</translation>
+    </message>
+    <message>
+        <source>Review holds need the object state group review_hold: run the upgrade step 6.0.15-review-hold (Exponential 6.0.15 or later).</source>
+        <translation>Kũgirio nĩ ũndũ wa ũthuthuria nĩ kũbataraga gĩkundi kĩa maũndũ ma kĩndũ review_hold: hingũra kĩgerero kĩa kũgarũrũra 6.0.15-review-hold (Exponential 6.0.15 kana kĩa thutha).</translation>
+    </message>
+    <message>
+        <source>Why is it held? (kept in the audit)</source>
+        <translation>Nĩ kĩĩ gĩtũmĩte rũgirio? (nĩ kĩigagwo thĩinĩ wa audit)</translation>
+    </message>
+    <message>
+        <source>Note for the audit (optional)</source>
+        <translation>Mwandĩko wa audit (ti wa kũbatara)</translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation>Gira nĩ ũndũ wa ũthuthuria</translation>
+    </message>
+    <message>
+        <source>Release</source>
+        <translation>Rekia</translation>
+    </message>
+    <message>
+        <source>Say why the page is held.</source>
+        <translation>Ugĩa nĩ kĩĩ gĩtũmĩte ũrũ ũgirio.</translation>
+    </message>
+    <message>
+        <source>The page is held for review.</source>
+        <translation>Ũrũ nĩ ũgirĩtio nĩ ũndũ wa ũthuthuria.</translation>
+    </message>
+    <message>
+        <source>The hold is released.</source>
+        <translation>Kũgirio nĩ kwarekio.</translation>
+    </message>
+    <message>
+        <source>This page is held for review. It can be published once a reviewer releases it.</source>
+        <translation>Ũrũ ũrũ nĩ ũgirĩtio nĩ ũndũ wa ũthuthuria. No ũcabithio mũthuthuria arĩkia kũũrekia.</translation>
+    </message>
+    <message>
+        <source>Review holds need Exponential 6.0.15 or later, with its upgrade step run.</source>
+        <translation>Kũgirio nĩ ũndũ wa ũthuthuria nĩ kũbataraga Exponential 6.0.15 kana kĩa thutha, na kĩgerero gĩakĩo kĩa kũgarũrũra kĩhingũrĩtwo.</translation>
+    </message>
+    <message>
+        <source>This page is already held for review.</source>
+        <translation>Ũrũ ũrũ nĩ ũgirĩtio o ro nĩ ũndũ wa ũthuthuria.</translation>
+    </message>
+    <message>
+        <source>This page is not held.</source>
+        <translation>Ũrũ ũrũ ndũgirĩtio.</translation>
+    </message>
+    <message>
+        <source>You may not hold this page.</source>
+        <translation>Ndwĩtĩkĩrĩtio kũgira ũrũ ũrũ.</translation>
+    </message>
+    <message>
+        <source>You may not release this page.</source>
+        <translation>Ndwĩtĩkĩrĩtio kũrekia ũrũ ũrũ.</translation>
+    </message>
+    <message>
+        <source>The hold was not changed. Try again.</source>
+        <translation>Kũgirio gũtiacenjio. Geria rĩngĩ.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

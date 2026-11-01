@@ -995,6 +995,11 @@ button.wt-seo-item:hover { border-color: var(--a4-accent); }
 @media (forced-colors: active) {
   .wt-rec-dot { background: CanvasText; }
 }
+/* The review hold in the Page panel (E14): the notice with its title and lines, the reason and the button under it. */
+.wt-hold .wt-notice h3 { margin: 0 0 var(--a4-space-1); font-size: var(--a4-text-m); color: inherit; }
+.wt-hold .wt-notice p { margin: 0 0 var(--a4-space-1); overflow-wrap: anywhere; }
+.wt-hold .wt-notice p:last-child { margin-block-end: 0; }
+.wt-hold-form textarea { resize: vertical; }
 /* The Export panel (E13): the share links (each a column: its state, who and how often, the
    address with Copy, Withdraw), the address field taking what room the row has. */
 .wt-exp-links { margin-block-start: var(--a4-space-3); }

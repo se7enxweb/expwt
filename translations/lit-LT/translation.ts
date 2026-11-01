@@ -2335,6 +2335,90 @@
         <source>Which link?</source>
         <translation>Kuri nuoroda?</translation>
     </message>
+    <message>
+        <source>Review hold</source>
+        <translation>Sulaikymas peržiūrai</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>Sulaikytas peržiūrai</translation>
+    </message>
+    <message>
+        <source>Held by %name since %time.</source>
+        <translation>Sulaikė %name nuo %time.</translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation>Priežastis: %reason</translation>
+    </message>
+    <message>
+        <source>You may still edit it, but publishing waits until it is released, unless your role allows it.</source>
+        <translation>Vis dar galite jį redaguoti, bet paskelbimas laukia, kol jis bus atleistas, nebent jūsų vaidmuo tai leidžia.</translation>
+    </message>
+    <message>
+        <source>Nobody edits or publishes this page until a reviewer releases it.</source>
+        <translation>Niekas neredaguoja ir neskelbia šio puslapio, kol peržiūrėtojas jo neatleidžia.</translation>
+    </message>
+    <message>
+        <source>Review holds need the object state group review_hold: run the upgrade step 6.0.15-review-hold (Exponential 6.0.15 or later).</source>
+        <translation>Sulaikymams peržiūrai reikia objekto būsenų grupės review_hold: paleiskite naujinimo žingsnį 6.0.15-review-hold (Exponential 6.0.15 ar naujesnė).</translation>
+    </message>
+    <message>
+        <source>Why is it held? (kept in the audit)</source>
+        <translation>Kodėl jis sulaikytas? (saugoma audite)</translation>
+    </message>
+    <message>
+        <source>Note for the audit (optional)</source>
+        <translation>Pastaba auditui (neprivaloma)</translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation>Sulaikyti peržiūrai</translation>
+    </message>
+    <message>
+        <source>Release</source>
+        <translation>Atleisti</translation>
+    </message>
+    <message>
+        <source>Say why the page is held.</source>
+        <translation>Nurodykite, kodėl puslapis sulaikytas.</translation>
+    </message>
+    <message>
+        <source>The page is held for review.</source>
+        <translation>Puslapis sulaikytas peržiūrai.</translation>
+    </message>
+    <message>
+        <source>The hold is released.</source>
+        <translation>Sulaikymas atšauktas.</translation>
+    </message>
+    <message>
+        <source>This page is held for review. It can be published once a reviewer releases it.</source>
+        <translation>Šis puslapis sulaikytas peržiūrai. Jį galima paskelbti, kai peržiūrėtojas jį atleidžia.</translation>
+    </message>
+    <message>
+        <source>Review holds need Exponential 6.0.15 or later, with its upgrade step run.</source>
+        <translation>Sulaikymams peržiūrai reikia Exponential 6.0.15 ar naujesnės, su paleistu jos naujinimo žingsniu.</translation>
+    </message>
+    <message>
+        <source>This page is already held for review.</source>
+        <translation>Šis puslapis jau sulaikytas peržiūrai.</translation>
+    </message>
+    <message>
+        <source>This page is not held.</source>
+        <translation>Šis puslapis nesulaikytas.</translation>
+    </message>
+    <message>
+        <source>You may not hold this page.</source>
+        <translation>Jums neleidžiama sulaikyti šio puslapio.</translation>
+    </message>
+    <message>
+        <source>You may not release this page.</source>
+        <translation>Jums neleidžiama atleisti šio puslapio.</translation>
+    </message>
+    <message>
+        <source>The hold was not changed. Try again.</source>
+        <translation>Sulaikymas nepakeistas. Bandykite dar kartą.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

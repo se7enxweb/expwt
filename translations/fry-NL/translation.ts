@@ -2335,6 +2335,90 @@
         <source>Which link?</source>
         <translation>Hokker keppeling?</translation>
     </message>
+    <message>
+        <source>Review hold</source>
+        <translation>Beoardielingsblokkade</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>Blokkearre foar beoardieling</translation>
+    </message>
+    <message>
+        <source>Held by %name since %time.</source>
+        <translation>Blokkearre troch %name sûnt %time.</translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation>Reden: %reason</translation>
+    </message>
+    <message>
+        <source>You may still edit it, but publishing waits until it is released, unless your role allows it.</source>
+        <translation>Jo kinne it noch bewurkje, mar publisearjen wachtet oant it frijjûn is, útsein as jo rol it tastiet.</translation>
+    </message>
+    <message>
+        <source>Nobody edits or publishes this page until a reviewer releases it.</source>
+        <translation>Nimmen bewurket of publisearret dizze side oant in beoardieler him frijjout.</translation>
+    </message>
+    <message>
+        <source>Review holds need the object state group review_hold: run the upgrade step 6.0.15-review-hold (Exponential 6.0.15 or later).</source>
+        <translation>Beoardielingsblokkades hawwe de objektsteatgroep review_hold nedich: fier de fernijingsstap 6.0.15-review-hold út (Exponential 6.0.15 of letter).</translation>
+    </message>
+    <message>
+        <source>Why is it held? (kept in the audit)</source>
+        <translation>Wêrom is it blokkearre? (bewarre yn de audit)</translation>
+    </message>
+    <message>
+        <source>Note for the audit (optional)</source>
+        <translation>Notysje foar de audit (opsjoneel)</translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation>Blokkearje foar beoardieling</translation>
+    </message>
+    <message>
+        <source>Release</source>
+        <translation>Frijjaan</translation>
+    </message>
+    <message>
+        <source>Say why the page is held.</source>
+        <translation>Sis wêrom't de side blokkearre is.</translation>
+    </message>
+    <message>
+        <source>The page is held for review.</source>
+        <translation>De side is blokkearre foar beoardieling.</translation>
+    </message>
+    <message>
+        <source>The hold is released.</source>
+        <translation>De blokkade is frijjûn.</translation>
+    </message>
+    <message>
+        <source>This page is held for review. It can be published once a reviewer releases it.</source>
+        <translation>Dizze side is blokkearre foar beoardieling. Hy kin publisearre wurde sa gau't in beoardieler him frijjout.</translation>
+    </message>
+    <message>
+        <source>Review holds need Exponential 6.0.15 or later, with its upgrade step run.</source>
+        <translation>Beoardielingsblokkades hawwe Exponential 6.0.15 of letter nedich, mei de fernijingsstap derfan útfierd.</translation>
+    </message>
+    <message>
+        <source>This page is already held for review.</source>
+        <translation>Dizze side is al blokkearre foar beoardieling.</translation>
+    </message>
+    <message>
+        <source>This page is not held.</source>
+        <translation>Dizze side is net blokkearre.</translation>
+    </message>
+    <message>
+        <source>You may not hold this page.</source>
+        <translation>Jo meie dizze side net blokkearje.</translation>
+    </message>
+    <message>
+        <source>You may not release this page.</source>
+        <translation>Jo meie dizze side net frijjaan.</translation>
+    </message>
+    <message>
+        <source>The hold was not changed. Try again.</source>
+        <translation>De blokkade is net feroare. Besykje it nochris.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

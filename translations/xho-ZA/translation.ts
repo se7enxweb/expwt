@@ -2335,6 +2335,90 @@
         <source>Which link?</source>
         <translation>Leliphi ikhonkco?</translation>
     </message>
+    <message>
+        <source>Review hold</source>
+        <translation>Ukubanjwa ukuze kuhlolwe</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>Kubanjwe ukuze kuhlolwe</translation>
+    </message>
+    <message>
+        <source>Held by %name since %time.</source>
+        <translation>Kubanjwe ngu-%name ukususela ngo-%time.</translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation>Isizathu: %reason</translation>
+    </message>
+    <message>
+        <source>You may still edit it, but publishing waits until it is released, unless your role allows it.</source>
+        <translation>Usenokuyihlela, kodwa ukushicilela kulinda de ikhululwe, ngaphandle kokuba indima yakho iyakuvumela.</translation>
+    </message>
+    <message>
+        <source>Nobody edits or publishes this page until a reviewer releases it.</source>
+        <translation>Akukho mntu uhlela okanye opapasha eli phepha de umhloli alikhulule.</translation>
+    </message>
+    <message>
+        <source>Review holds need the object state group review_hold: run the upgrade step 6.0.15-review-hold (Exponential 6.0.15 or later).</source>
+        <translation>Ukubanjwa ukuze kuhlolwe kudinga iqela lemeko yento review_hold: qhuba inyathelo lokuphucula 6.0.15-review-hold (Exponential 6.0.15 okanye kamva).</translation>
+    </message>
+    <message>
+        <source>Why is it held? (kept in the audit)</source>
+        <translation>Kutheni libanjiwe? (ligcinwa kuphicotho)</translation>
+    </message>
+    <message>
+        <source>Note for the audit (optional)</source>
+        <translation>Inqaku lophicotho (ukhetho)</translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation>Bamba ukuze kuhlolwe</translation>
+    </message>
+    <message>
+        <source>Release</source>
+        <translation>Khulula</translation>
+    </message>
+    <message>
+        <source>Say why the page is held.</source>
+        <translation>Chaza ukuba kutheni iphepha libanjiwe.</translation>
+    </message>
+    <message>
+        <source>The page is held for review.</source>
+        <translation>Iphepha libanjwe ukuze kuhlolwe.</translation>
+    </message>
+    <message>
+        <source>The hold is released.</source>
+        <translation>Ukubanjwa kukhululiwe.</translation>
+    </message>
+    <message>
+        <source>This page is held for review. It can be published once a reviewer releases it.</source>
+        <translation>Eli phepha libanjwe ukuze kuhlolwe. Lingashicilelwa xa umhloli elikhulula.</translation>
+    </message>
+    <message>
+        <source>Review holds need Exponential 6.0.15 or later, with its upgrade step run.</source>
+        <translation>Ukubanjwa ukuze kuhlolwe kudinga i-Exponential 6.0.15 okanye kamva, kuqhutywe inyathelo layo lokuphucula.</translation>
+    </message>
+    <message>
+        <source>This page is already held for review.</source>
+        <translation>Eli phepha sele libanjwe ukuze kuhlolwe.</translation>
+    </message>
+    <message>
+        <source>This page is not held.</source>
+        <translation>Eli phepha alibanjwanga.</translation>
+    </message>
+    <message>
+        <source>You may not hold this page.</source>
+        <translation>Awuvumelekanga ukubamba eli phepha.</translation>
+    </message>
+    <message>
+        <source>You may not release this page.</source>
+        <translation>Awuvumelekanga ukukhulula eli phepha.</translation>
+    </message>
+    <message>
+        <source>The hold was not changed. Try again.</source>
+        <translation>Ukubanjwa akutshintshwanga. Zama kwakhona.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

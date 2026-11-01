@@ -2335,6 +2335,90 @@
         <source>Which link?</source>
         <translation>Zein esteka?</translation>
     </message>
+    <message>
+        <source>Review hold</source>
+        <translation>Berrikuspenerako atxikipena</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>Berrikuspenerako atxikita</translation>
+    </message>
+    <message>
+        <source>Held by %name since %time.</source>
+        <translation>%name erabiltzaileak atxikita %time-(e)tik.</translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation>Arrazoia: %reason</translation>
+    </message>
+    <message>
+        <source>You may still edit it, but publishing waits until it is released, unless your role allows it.</source>
+        <translation>Oraindik edita dezakezu, baina argitaratzeak itxaron egiten du askatu arte, zure rolak baimentzen ez badu behintzat.</translation>
+    </message>
+    <message>
+        <source>Nobody edits or publishes this page until a reviewer releases it.</source>
+        <translation>Inork ez du orri hau editatzen ez argitaratzen berrikusle batek askatu arte.</translation>
+    </message>
+    <message>
+        <source>Review holds need the object state group review_hold: run the upgrade step 6.0.15-review-hold (Exponential 6.0.15 or later).</source>
+        <translation>Berrikuspenerako atxikipenek review_hold objektu-egoeren taldea behar dute: exekutatu 6.0.15-review-hold eguneratze-urratsa (Exponential 6.0.15 edo berriagoa).</translation>
+    </message>
+    <message>
+        <source>Why is it held? (kept in the audit)</source>
+        <translation>Zergatik dago atxikita? (auditorian gordetzen da)</translation>
+    </message>
+    <message>
+        <source>Note for the audit (optional)</source>
+        <translation>Auditoriarako oharra (aukerakoa)</translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation>Atxiki berrikuspenerako</translation>
+    </message>
+    <message>
+        <source>Release</source>
+        <translation>Askatu</translation>
+    </message>
+    <message>
+        <source>Say why the page is held.</source>
+        <translation>Esan zergatik dagoen orria atxikita.</translation>
+    </message>
+    <message>
+        <source>The page is held for review.</source>
+        <translation>Orria berrikuspenerako atxikita dago.</translation>
+    </message>
+    <message>
+        <source>The hold is released.</source>
+        <translation>Atxikipena askatu da.</translation>
+    </message>
+    <message>
+        <source>This page is held for review. It can be published once a reviewer releases it.</source>
+        <translation>Orri hau berrikuspenerako atxikita dago. Berrikusle batek askatzen duenean argitaratu ahal izango da.</translation>
+    </message>
+    <message>
+        <source>Review holds need Exponential 6.0.15 or later, with its upgrade step run.</source>
+        <translation>Berrikuspenerako atxikipenek Exponential 6.0.15 edo berriagoa behar dute, haren eguneratze-urratsa exekutatuta.</translation>
+    </message>
+    <message>
+        <source>This page is already held for review.</source>
+        <translation>Orri hau dagoeneko berrikuspenerako atxikita dago.</translation>
+    </message>
+    <message>
+        <source>This page is not held.</source>
+        <translation>Orri hau ez dago atxikita.</translation>
+    </message>
+    <message>
+        <source>You may not hold this page.</source>
+        <translation>Ezin duzu orri hau atxiki.</translation>
+    </message>
+    <message>
+        <source>You may not release this page.</source>
+        <translation>Ezin duzu orri hau askatu.</translation>
+    </message>
+    <message>
+        <source>The hold was not changed. Try again.</source>
+        <translation>Atxikipena ez da aldatu. Saiatu berriro.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

@@ -2335,6 +2335,90 @@
         <source>Which link?</source>
         <translation>Uwuhe muhuza?</translation>
     </message>
+    <message>
+        <source>Review hold</source>
+        <translation>Uguhagarika kugira gisuzumwe</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>Vyahagaritswe kugira bisuzumwe</translation>
+    </message>
+    <message>
+        <source>Held by %name since %time.</source>
+        <translation>Vyahagaritswe na %name kuva %time.</translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation>Imvo: %reason</translation>
+    </message>
+    <message>
+        <source>You may still edit it, but publishing waits until it is released, unless your role allows it.</source>
+        <translation>Uracashobora kuyihindura, ariko gusohora birindira gushika irekuwe, keretse uruhara rwawe rubikwemerera.</translation>
+    </message>
+    <message>
+        <source>Nobody edits or publishes this page until a reviewer releases it.</source>
+        <translation>Nta n'umwe ahindura canke asohora uru rupapuro gushika umusuzumyi arurekuye.</translation>
+    </message>
+    <message>
+        <source>Review holds need the object state group review_hold: run the upgrade step 6.0.15-review-hold (Exponential 6.0.15 or later).</source>
+        <translation>Uguhagarika kugira gisuzumwe gukenera umugwi w'imimerere y'ikintu review_hold: kora intambwe yo kuvugurura 6.0.15-review-hold (Exponential 6.0.15 canke iyiheruka).</translation>
+    </message>
+    <message>
+        <source>Why is it held? (kept in the audit)</source>
+        <translation>Ni kubera iki rwahagaritswe? (bibikwa mu igenzura)</translation>
+    </message>
+    <message>
+        <source>Note for the audit (optional)</source>
+        <translation>Iciyumviro c'igenzura (si itegeko)</translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation>Hagarika kugira gisuzumwe</translation>
+    </message>
+    <message>
+        <source>Release</source>
+        <translation>Rekura</translation>
+    </message>
+    <message>
+        <source>Say why the page is held.</source>
+        <translation>Vuga igituma urupapuro rwahagaritswe.</translation>
+    </message>
+    <message>
+        <source>The page is held for review.</source>
+        <translation>Urupapuro rwahagaritswe kugira rusuzumwe.</translation>
+    </message>
+    <message>
+        <source>The hold is released.</source>
+        <translation>Uguhagarika kwarekuwe.</translation>
+    </message>
+    <message>
+        <source>This page is held for review. It can be published once a reviewer releases it.</source>
+        <translation>Uru rupapuro rwahagaritswe kugira rusuzumwe. Rushobora gusohorwa umusuzumyi amaze kururekura.</translation>
+    </message>
+    <message>
+        <source>Review holds need Exponential 6.0.15 or later, with its upgrade step run.</source>
+        <translation>Uguhagarika kugira gisuzumwe gukenera Exponential 6.0.15 canke iyiheruka, n'intambwe yayo yo kuvugurura yakozwe.</translation>
+    </message>
+    <message>
+        <source>This page is already held for review.</source>
+        <translation>Uru rupapuro rwamaze guhagarikwa kugira rusuzumwe.</translation>
+    </message>
+    <message>
+        <source>This page is not held.</source>
+        <translation>Uru rupapuro ntirwahagaritswe.</translation>
+    </message>
+    <message>
+        <source>You may not hold this page.</source>
+        <translation>Ntiwemerewe guhagarika uru rupapuro.</translation>
+    </message>
+    <message>
+        <source>You may not release this page.</source>
+        <translation>Ntiwemerewe kurekura uru rupapuro.</translation>
+    </message>
+    <message>
+        <source>The hold was not changed. Try again.</source>
+        <translation>Uguhagarika ntikwahinduwe. Subira ugerageze.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

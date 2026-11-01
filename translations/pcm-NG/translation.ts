@@ -2335,6 +2335,90 @@
         <source>Which link?</source>
         <translation>Which link?</translation>
     </message>
+    <message>
+        <source>Review hold</source>
+        <translation>Review hold</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>Dem hold am for review</translation>
+    </message>
+    <message>
+        <source>Held by %name since %time.</source>
+        <translation>%name hold am since %time.</translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation>Reason: %reason</translation>
+    </message>
+    <message>
+        <source>You may still edit it, but publishing waits until it is released, unless your role allows it.</source>
+        <translation>You fit still edit am, but publish go wait until dem release am, unless your role allow am.</translation>
+    </message>
+    <message>
+        <source>Nobody edits or publishes this page until a reviewer releases it.</source>
+        <translation>Nobody go edit or publish dis page until reviewer release am.</translation>
+    </message>
+    <message>
+        <source>Review holds need the object state group review_hold: run the upgrade step 6.0.15-review-hold (Exponential 6.0.15 or later).</source>
+        <translation>Review holds need di object state group review_hold: run di upgrade step 6.0.15-review-hold (Exponential 6.0.15 or later).</translation>
+    </message>
+    <message>
+        <source>Why is it held? (kept in the audit)</source>
+        <translation>Why dem hold am? (e go dey for audit)</translation>
+    </message>
+    <message>
+        <source>Note for the audit (optional)</source>
+        <translation>Note for audit (if you want)</translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation>Hold for review</translation>
+    </message>
+    <message>
+        <source>Release</source>
+        <translation>Release</translation>
+    </message>
+    <message>
+        <source>Say why the page is held.</source>
+        <translation>Talk why dem hold di page.</translation>
+    </message>
+    <message>
+        <source>The page is held for review.</source>
+        <translation>Di page dey hold for review.</translation>
+    </message>
+    <message>
+        <source>The hold is released.</source>
+        <translation>Di hold don release.</translation>
+    </message>
+    <message>
+        <source>This page is held for review. It can be published once a reviewer releases it.</source>
+        <translation>Dis page dey hold for review. Dem fit publish am once reviewer release am.</translation>
+    </message>
+    <message>
+        <source>Review holds need Exponential 6.0.15 or later, with its upgrade step run.</source>
+        <translation>Review holds need Exponential 6.0.15 or later, with im upgrade step don run.</translation>
+    </message>
+    <message>
+        <source>This page is already held for review.</source>
+        <translation>Dis page don already dey hold for review.</translation>
+    </message>
+    <message>
+        <source>This page is not held.</source>
+        <translation>Dis page no dey hold.</translation>
+    </message>
+    <message>
+        <source>You may not hold this page.</source>
+        <translation>You no fit hold dis page.</translation>
+    </message>
+    <message>
+        <source>You may not release this page.</source>
+        <translation>You no fit release dis page.</translation>
+    </message>
+    <message>
+        <source>The hold was not changed. Try again.</source>
+        <translation>Di hold no change. Try again.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

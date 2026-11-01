@@ -2335,6 +2335,90 @@
         <source>Which link?</source>
         <translation>कतमः सम्बन्धः?</translation>
     </message>
+    <message>
+        <source>Review hold</source>
+        <translation>समीक्षानिरोधः</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>समीक्षार्थं निरुद्धम्</translation>
+    </message>
+    <message>
+        <source>Held by %name since %time.</source>
+        <translation>%name इत्यनेन %time आरभ्य निरुद्धम्।</translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation>कारणम्: %reason</translation>
+    </message>
+    <message>
+        <source>You may still edit it, but publishing waits until it is released, unless your role allows it.</source>
+        <translation>भवान् अद्यापि एतत् सम्पादयितुं शक्नोति, किन्तु भवतः भूमिका अनुमतिं न ददाति चेत् प्रकाशनं मोचनपर्यन्तं प्रतीक्षते।</translation>
+    </message>
+    <message>
+        <source>Nobody edits or publishes this page until a reviewer releases it.</source>
+        <translation>यावत् समीक्षकः न मोचयति तावत् कोऽपि एतत् पृष्ठं न सम्पादयति न प्रकाशयति।</translation>
+    </message>
+    <message>
+        <source>Review holds need the object state group review_hold: run the upgrade step 6.0.15-review-hold (Exponential 6.0.15 or later).</source>
+        <translation>समीक्षानिरोधाय review_hold इति वस्तुस्थितिसमूहः आवश्यकः: 6.0.15-review-hold इति उन्नयनसोपानं चालयतु (Exponential 6.0.15 अथवा परम्)।</translation>
+    </message>
+    <message>
+        <source>Why is it held? (kept in the audit)</source>
+        <translation>किमर्थं निरुद्धम्? (लेखापरीक्षायां रक्ष्यते)</translation>
+    </message>
+    <message>
+        <source>Note for the audit (optional)</source>
+        <translation>लेखापरीक्षायै टिप्पणी (वैकल्पिकम्)</translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation>समीक्षार्थं निरुन्धतु</translation>
+    </message>
+    <message>
+        <source>Release</source>
+        <translation>मोचयतु</translation>
+    </message>
+    <message>
+        <source>Say why the page is held.</source>
+        <translation>पृष्ठं किमर्थं निरुद्धम् इति वदतु।</translation>
+    </message>
+    <message>
+        <source>The page is held for review.</source>
+        <translation>पृष्ठं समीक्षार्थं निरुद्धम्।</translation>
+    </message>
+    <message>
+        <source>The hold is released.</source>
+        <translation>निरोधः मोचितः।</translation>
+    </message>
+    <message>
+        <source>This page is held for review. It can be published once a reviewer releases it.</source>
+        <translation>एतत् पृष्ठं समीक्षार्थं निरुद्धम्। समीक्षकेण मोचिते सति एतत् प्रकाशयितुं शक्यते।</translation>
+    </message>
+    <message>
+        <source>Review holds need Exponential 6.0.15 or later, with its upgrade step run.</source>
+        <translation>समीक्षानिरोधाय Exponential 6.0.15 अथवा परम्, तस्य उन्नयनसोपानेन चालितेन सह, आवश्यकम्।</translation>
+    </message>
+    <message>
+        <source>This page is already held for review.</source>
+        <translation>एतत् पृष्ठं पूर्वमेव समीक्षार्थं निरुद्धम्।</translation>
+    </message>
+    <message>
+        <source>This page is not held.</source>
+        <translation>एतत् पृष्ठं न निरुद्धम्।</translation>
+    </message>
+    <message>
+        <source>You may not hold this page.</source>
+        <translation>भवान् एतत् पृष्ठं निरोद्धुं न अर्हति।</translation>
+    </message>
+    <message>
+        <source>You may not release this page.</source>
+        <translation>भवान् एतत् पृष्ठं मोचयितुं न अर्हति।</translation>
+    </message>
+    <message>
+        <source>The hold was not changed. Try again.</source>
+        <translation>निरोधः न परिवर्तितः। पुनः प्रयतताम्।</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

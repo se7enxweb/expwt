@@ -2335,6 +2335,90 @@
         <source>Which link?</source>
         <translation>Якая спасылка?</translation>
     </message>
+    <message>
+        <source>Review hold</source>
+        <translation>Утрыманне на праверку</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>Утрымліваецца на праверцы</translation>
+    </message>
+    <message>
+        <source>Held by %name since %time.</source>
+        <translation>Утрымлівае %name з %time.</translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation>Прычына: %reason</translation>
+    </message>
+    <message>
+        <source>You may still edit it, but publishing waits until it is released, unless your role allows it.</source>
+        <translation>Вы ўсё яшчэ можаце яе рэдагаваць, але публікацыя чакае, пакуль яе не вызваляць, калі толькі ваша роля гэтага не дазваляе.</translation>
+    </message>
+    <message>
+        <source>Nobody edits or publishes this page until a reviewer releases it.</source>
+        <translation>Ніхто не рэдагуе і не публікуе гэту старонку, пакуль рэцэнзент яе не вызваліць.</translation>
+    </message>
+    <message>
+        <source>Review holds need the object state group review_hold: run the upgrade step 6.0.15-review-hold (Exponential 6.0.15 or later).</source>
+        <translation>Для ўтрымання на праверку патрэбна група станаў аб'екта review_hold: запусціце крок абнаўлення 6.0.15-review-hold (Exponential 6.0.15 або навейшы).</translation>
+    </message>
+    <message>
+        <source>Why is it held? (kept in the audit)</source>
+        <translation>Чаму яна ўтрымліваецца? (захоўваецца ў аўдыце)</translation>
+    </message>
+    <message>
+        <source>Note for the audit (optional)</source>
+        <translation>Нататка для аўдыту (неабавязкова)</translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation>Утрымаць на праверку</translation>
+    </message>
+    <message>
+        <source>Release</source>
+        <translation>Вызваліць</translation>
+    </message>
+    <message>
+        <source>Say why the page is held.</source>
+        <translation>Укажыце, чаму старонка ўтрымліваецца.</translation>
+    </message>
+    <message>
+        <source>The page is held for review.</source>
+        <translation>Старонка ўтрымліваецца на праверцы.</translation>
+    </message>
+    <message>
+        <source>The hold is released.</source>
+        <translation>Утрыманне знята.</translation>
+    </message>
+    <message>
+        <source>This page is held for review. It can be published once a reviewer releases it.</source>
+        <translation>Гэта старонка ўтрымліваецца на праверцы. Яе можна апублікаваць, калі рэцэнзент яе вызваліць.</translation>
+    </message>
+    <message>
+        <source>Review holds need Exponential 6.0.15 or later, with its upgrade step run.</source>
+        <translation>Для ўтрымання на праверку патрэбны Exponential 6.0.15 або навейшы з выкананым крокам абнаўлення.</translation>
+    </message>
+    <message>
+        <source>This page is already held for review.</source>
+        <translation>Гэта старонка ўжо ўтрымліваецца на праверцы.</translation>
+    </message>
+    <message>
+        <source>This page is not held.</source>
+        <translation>Гэта старонка не ўтрымліваецца.</translation>
+    </message>
+    <message>
+        <source>You may not hold this page.</source>
+        <translation>Вам нельга ўтрымліваць гэту старонку.</translation>
+    </message>
+    <message>
+        <source>You may not release this page.</source>
+        <translation>Вам нельга вызваляць гэту старонку.</translation>
+    </message>
+    <message>
+        <source>The hold was not changed. Try again.</source>
+        <translation>Утрыманне не зменена. Паспрабуйце яшчэ раз.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

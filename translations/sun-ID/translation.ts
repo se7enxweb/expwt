@@ -2335,6 +2335,90 @@
         <source>Which link?</source>
         <translation>Tautan nu mana?</translation>
     </message>
+    <message>
+        <source>Review hold</source>
+        <translation>Tahan pikeun ditinjau</translation>
+    </message>
+    <message>
+        <source>Held for review</source>
+        <translation>Ditahan pikeun ditinjau</translation>
+    </message>
+    <message>
+        <source>Held by %name since %time.</source>
+        <translation>Ditahan ku %name ti saprak %time.</translation>
+    </message>
+    <message>
+        <source>Reason: %reason</source>
+        <translation>Alesan: %reason</translation>
+    </message>
+    <message>
+        <source>You may still edit it, but publishing waits until it is released, unless your role allows it.</source>
+        <translation>Anjeun masih bisa ngédit, tapi nerbitkeun kudu ngadagoan nepi ka dileupaskeun, iwal peran anjeun ngidinan.</translation>
+    </message>
+    <message>
+        <source>Nobody edits or publishes this page until a reviewer releases it.</source>
+        <translation>Teu aya anu ngédit atawa nerbitkeun kaca ieu nepi ka panilik ngaleupaskeunana.</translation>
+    </message>
+    <message>
+        <source>Review holds need the object state group review_hold: run the upgrade step 6.0.15-review-hold (Exponential 6.0.15 or later).</source>
+        <translation>Tahanan tinjauan butuh grup kaayaan objék review_hold: jalankeun léngkah ningkatkeun 6.0.15-review-hold (Exponential 6.0.15 atawa nu leuwih anyar).</translation>
+    </message>
+    <message>
+        <source>Why is it held? (kept in the audit)</source>
+        <translation>Naha ditahan? (disimpen dina audit)</translation>
+    </message>
+    <message>
+        <source>Note for the audit (optional)</source>
+        <translation>Catetan pikeun audit (pilihan)</translation>
+    </message>
+    <message>
+        <source>Hold for review</source>
+        <translation>Tahan pikeun ditinjau</translation>
+    </message>
+    <message>
+        <source>Release</source>
+        <translation>Leupaskeun</translation>
+    </message>
+    <message>
+        <source>Say why the page is held.</source>
+        <translation>Sebutkeun naha kaca ditahan.</translation>
+    </message>
+    <message>
+        <source>The page is held for review.</source>
+        <translation>Kaca ditahan pikeun ditinjau.</translation>
+    </message>
+    <message>
+        <source>The hold is released.</source>
+        <translation>Tahanan geus dileupaskeun.</translation>
+    </message>
+    <message>
+        <source>This page is held for review. It can be published once a reviewer releases it.</source>
+        <translation>Kaca ieu ditahan pikeun ditinjau. Bisa diterbitkeun sanggeus panilik ngaleupaskeunana.</translation>
+    </message>
+    <message>
+        <source>Review holds need Exponential 6.0.15 or later, with its upgrade step run.</source>
+        <translation>Tahanan tinjauan butuh Exponential 6.0.15 atawa nu leuwih anyar, kalayan léngkah ningkatkeunana geus dijalankeun.</translation>
+    </message>
+    <message>
+        <source>This page is already held for review.</source>
+        <translation>Kaca ieu geus ditahan pikeun ditinjau.</translation>
+    </message>
+    <message>
+        <source>This page is not held.</source>
+        <translation>Kaca ieu henteu ditahan.</translation>
+    </message>
+    <message>
+        <source>You may not hold this page.</source>
+        <translation>Anjeun teu meunang nahan kaca ieu.</translation>
+    </message>
+    <message>
+        <source>You may not release this page.</source>
+        <translation>Anjeun teu meunang ngaleupaskeun kaca ieu.</translation>
+    </message>
+    <message>
+        <source>The hold was not changed. Try again.</source>
+        <translation>Tahanan teu robah. Cobian deui.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>
