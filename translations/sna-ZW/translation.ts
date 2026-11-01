@@ -2419,6 +2419,54 @@
         <source>The hold was not changed. Try again.</source>
         <translation>Kumiswa hakuna kuchinjwa. Edza zvakare.</translation>
     </message>
+    <message>
+        <source>Reading and display</source>
+        <translation>Kuverenga nekuratidza</translation>
+    </message>
+    <message>
+        <source>Text size</source>
+        <translation>Saizi yemavara</translation>
+    </message>
+    <message>
+        <source>Normal</source>
+        <translation>Zvakajairwa</translation>
+    </message>
+    <message>
+        <source>Large</source>
+        <translation>Zvikuru</translation>
+    </message>
+    <message>
+        <source>Larger</source>
+        <translation>Zvikuru kupfuura</translation>
+    </message>
+    <message>
+        <source>Largest</source>
+        <translation>Zvikurusa</translation>
+    </message>
+    <message>
+        <source>High contrast</source>
+        <translation>Musiyano wakakwirira</translation>
+    </message>
+    <message>
+        <source>Reduce motion</source>
+        <translation>Deredza kufamba</translation>
+    </message>
+    <message>
+        <source>Readable font</source>
+        <translation>Mavara ari nyore kuverenga</translation>
+    </message>
+    <message>
+        <source>Underline links</source>
+        <translation>Tara mutsetse pasi pemalink</translation>
+    </message>
+    <message>
+        <source>Back to the site's own look</source>
+        <translation>Dzokera kuchitarisiko chesaiti pachayo</translation>
+    </message>
+    <message>
+        <source>Kept on this device only, for every page of this site.</source>
+        <translation>Zvakachengetwa pachishandiso ichi chete, papeji yega yega yesaiti ino.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

@@ -2419,6 +2419,54 @@
         <source>The hold was not changed. Try again.</source>
         <translation>Ba a canza dakatarwar ba. Sake gwadawa.</translation>
     </message>
+    <message>
+        <source>Reading and display</source>
+        <translation>Karatu da nuni</translation>
+    </message>
+    <message>
+        <source>Text size</source>
+        <translation>Girman rubutu</translation>
+    </message>
+    <message>
+        <source>Normal</source>
+        <translation>Na al'ada</translation>
+    </message>
+    <message>
+        <source>Large</source>
+        <translation>Babba</translation>
+    </message>
+    <message>
+        <source>Larger</source>
+        <translation>Mafi girma kaɗan</translation>
+    </message>
+    <message>
+        <source>Largest</source>
+        <translation>Mafi girma</translation>
+    </message>
+    <message>
+        <source>High contrast</source>
+        <translation>Babban bambanci</translation>
+    </message>
+    <message>
+        <source>Reduce motion</source>
+        <translation>Rage motsi</translation>
+    </message>
+    <message>
+        <source>Readable font</source>
+        <translation>Rubutu mai saukin karantawa</translation>
+    </message>
+    <message>
+        <source>Underline links</source>
+        <translation>Ja layi ƙarƙashin hanyoyin haɗi</translation>
+    </message>
+    <message>
+        <source>Back to the site's own look</source>
+        <translation>Koma zuwa kamannin shafin na asali</translation>
+    </message>
+    <message>
+        <source>Kept on this device only, for every page of this site.</source>
+        <translation>An adana a wannan na'urar kawai, don kowane shafi na wannan gidan yanar gizo.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

@@ -2419,6 +2419,54 @@
         <source>The hold was not changed. Try again.</source>
         <translation>ߟߊߦߟߍ߬ߟߌ ߡߊ߫ ߡߊ߬ߝߊ߬ߟߋ߲߫. ߊ߬ ߞߍ߫ ߕߎ߲߯.</translation>
     </message>
+    <message>
+        <source>Reading and display</source>
+        <translation>ߘߐ߬ߖߊ߬ߘߋ߲ ߣߌ߫ ߦߌ߬ߘߊ߬ߟߌ</translation>
+    </message>
+    <message>
+        <source>Text size</source>
+        <translation>ߛߓߍߟߌ ߓߊ߲߬ߓߊ</translation>
+    </message>
+    <message>
+        <source>Normal</source>
+        <translation>ߗߋ߬ߡߍ߲߫</translation>
+    </message>
+    <message>
+        <source>Large</source>
+        <translation>ߓߏ߲߬</translation>
+    </message>
+    <message>
+        <source>Larger</source>
+        <translation>ߓߏ߲߬ߘߊ߫ ߞߏߛߓߍ߫</translation>
+    </message>
+    <message>
+        <source>Largest</source>
+        <translation>ߓߏ߲߬ߓߊ ߓߍ߯ ߘߐ߫</translation>
+    </message>
+    <message>
+        <source>High contrast</source>
+        <translation>ߓߐ߲߬ߘߐ߬ߓߊ ߞߐߘߐ߲߬</translation>
+    </message>
+    <message>
+        <source>Reduce motion</source>
+        <translation>ߟߊߥߟߌ ߟߊߘߐ߯ߛߌ߬</translation>
+    </message>
+    <message>
+        <source>Readable font</source>
+        <translation>ߛߓߍߛߎ߲߯ ߘߐ߬ߖߊ߬ߘߋ߲߬ ߘߐ߬ߣߍ߲</translation>
+    </message>
+    <message>
+        <source>Underline links</source>
+        <translation>ߛߘߌ߬ߜߋ߲ ߠߎ߬ ߞߘߐ߫ ߛߌ߬ߘߌ߲߫</translation>
+    </message>
+    <message>
+        <source>Back to the site's own look</source>
+        <translation>ߞߊ߬ ߓߐ߲߬ߘߊ ߦߋ߫ ߛߌߟߊ߫ ߞߍ߫ ߞߍߢߊ ߘߐ߫</translation>
+    </message>
+    <message>
+        <source>Kept on this device only, for every page of this site.</source>
+        <translation>ߊ߬ ߟߊߡߙߊ߬ ߣߌ߲߬ ߡߙߊ߬ߟߊ߲ ߣߌ߲߬ ߠߋ߬ ߘߐ߫ ߘߋߣߍ߲߫, ߛߌߟߊ߫ ߣߌ߲߬ ߞߐߜߍ ߓߍ߯ ߦߋ߫.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

@@ -2419,6 +2419,54 @@
         <source>The hold was not changed. Try again.</source>
         <translation>Rawestandin nehat guhertin. Dîsa biceribîne.</translation>
     </message>
+    <message>
+        <source>Reading and display</source>
+        <translation>Xwendin û nîşandan</translation>
+    </message>
+    <message>
+        <source>Text size</source>
+        <translation>Mezinahiya nivîsê</translation>
+    </message>
+    <message>
+        <source>Normal</source>
+        <translation>Normal</translation>
+    </message>
+    <message>
+        <source>Large</source>
+        <translation>Mezin</translation>
+    </message>
+    <message>
+        <source>Larger</source>
+        <translation>Mezintir</translation>
+    </message>
+    <message>
+        <source>Largest</source>
+        <translation>Herî mezin</translation>
+    </message>
+    <message>
+        <source>High contrast</source>
+        <translation>Berevajiya bilind</translation>
+    </message>
+    <message>
+        <source>Reduce motion</source>
+        <translation>Tevgerê kêm bike</translation>
+    </message>
+    <message>
+        <source>Readable font</source>
+        <translation>Tîpên hêsan ên xwendinê</translation>
+    </message>
+    <message>
+        <source>Underline links</source>
+        <translation>Xet bin girêdanan bike</translation>
+    </message>
+    <message>
+        <source>Back to the site's own look</source>
+        <translation>Vegere xuyabûna malperê ya xwe</translation>
+    </message>
+    <message>
+        <source>Kept on this device only, for every page of this site.</source>
+        <translation>Tenê li ser vê amûrê tê tomarkirin, ji bo her rûpelek vê malperê.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

@@ -2419,6 +2419,54 @@
         <source>The hold was not changed. Try again.</source>
         <translation>Kāore i whakarerekēhia te pupuri. Whakamātauria anō.</translation>
     </message>
+    <message>
+        <source>Reading and display</source>
+        <translation>Pānui me te whakaatu</translation>
+    </message>
+    <message>
+        <source>Text size</source>
+        <translation>Te rahi o te kuputuhi</translation>
+    </message>
+    <message>
+        <source>Normal</source>
+        <translation>Noa</translation>
+    </message>
+    <message>
+        <source>Large</source>
+        <translation>Nui</translation>
+    </message>
+    <message>
+        <source>Larger</source>
+        <translation>Nui ake</translation>
+    </message>
+    <message>
+        <source>Largest</source>
+        <translation>Nui rawa</translation>
+    </message>
+    <message>
+        <source>High contrast</source>
+        <translation>Pūrata teitei</translation>
+    </message>
+    <message>
+        <source>Reduce motion</source>
+        <translation>Whakaitihia te nekehanga</translation>
+    </message>
+    <message>
+        <source>Readable font</source>
+        <translation>Momotuhi māmā te pānui</translation>
+    </message>
+    <message>
+        <source>Underline links</source>
+        <translation>Tāraro i ngā hononga</translation>
+    </message>
+    <message>
+        <source>Back to the site's own look</source>
+        <translation>Hoki ki te āhua ake o te pae</translation>
+    </message>
+    <message>
+        <source>Kept on this device only, for every page of this site.</source>
+        <translation>Ka puritia ki tēnei pūrere anake, mō ia whārangi o tēnei pae.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

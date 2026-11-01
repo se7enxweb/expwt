@@ -2419,6 +2419,54 @@
         <source>The hold was not changed. Try again.</source>
         <translation>Naʻe ʻikai liliu ʻa e taʻofi. Toe feinga.</translation>
     </message>
+    <message>
+        <source>Reading and display</source>
+        <translation>Lau mo e fakahā</translation>
+    </message>
+    <message>
+        <source>Text size</source>
+        <translation>Lahi ʻo e tohi</translation>
+    </message>
+    <message>
+        <source>Normal</source>
+        <translation>Anga maheni</translation>
+    </message>
+    <message>
+        <source>Large</source>
+        <translation>Lahi</translation>
+    </message>
+    <message>
+        <source>Larger</source>
+        <translation>Lahi ange</translation>
+    </message>
+    <message>
+        <source>Largest</source>
+        <translation>Lahi taha</translation>
+    </message>
+    <message>
+        <source>High contrast</source>
+        <translation>Kehekehe lahi</translation>
+    </message>
+    <message>
+        <source>Reduce motion</source>
+        <translation>Fakasiʻisiʻi ʻa e ngaue</translation>
+    </message>
+    <message>
+        <source>Readable font</source>
+        <translation>Mataʻitohi faingofua ke lau</translation>
+    </message>
+    <message>
+        <source>Underline links</source>
+        <translation>Tohi laine ʻi lalo ʻo e ngaahi link</translation>
+    </message>
+    <message>
+        <source>Back to the site's own look</source>
+        <translation>Foki ki he fōtunga totonu ʻo e uepisaiti</translation>
+    </message>
+    <message>
+        <source>Kept on this device only, for every page of this site.</source>
+        <translation>Tauhi ʻi he meʻangāue ko ʻeni pē, ki he peesi kotoa pē ʻo e uepisaiti ko ʻeni.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

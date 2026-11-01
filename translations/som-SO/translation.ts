@@ -2419,6 +2419,54 @@
         <source>The hold was not changed. Try again.</source>
         <translation>Joojinta lama beddelin. Isku day mar kale.</translation>
     </message>
+    <message>
+        <source>Reading and display</source>
+        <translation>Akhris iyo muuqaal</translation>
+    </message>
+    <message>
+        <source>Text size</source>
+        <translation>Cabbirka qoraalka</translation>
+    </message>
+    <message>
+        <source>Normal</source>
+        <translation>Caadi</translation>
+    </message>
+    <message>
+        <source>Large</source>
+        <translation>Weyn</translation>
+    </message>
+    <message>
+        <source>Larger</source>
+        <translation>Ka weyn</translation>
+    </message>
+    <message>
+        <source>Largest</source>
+        <translation>Ugu weyn</translation>
+    </message>
+    <message>
+        <source>High contrast</source>
+        <translation>Kala duwanaansho sare</translation>
+    </message>
+    <message>
+        <source>Reduce motion</source>
+        <translation>Yaree dhaqdhaqaaqa</translation>
+    </message>
+    <message>
+        <source>Readable font</source>
+        <translation>Far si fudud loo akhriyo</translation>
+    </message>
+    <message>
+        <source>Underline links</source>
+        <translation>Hoosta ka xariiq xiriirinta</translation>
+    </message>
+    <message>
+        <source>Back to the site's own look</source>
+        <translation>Ku noqo muuqaalka bogga laftiisa</translation>
+    </message>
+    <message>
+        <source>Kept on this device only, for every page of this site.</source>
+        <translation>Waxaa lagu kaydiyay qalabkan oo keliya, bog kasta oo boggan ka mid ah.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

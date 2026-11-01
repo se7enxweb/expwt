@@ -2419,6 +2419,54 @@
         <source>The hold was not changed. Try again.</source>
         <translation>Tsy niova ny fitanana. Andramo indray.</translation>
     </message>
+    <message>
+        <source>Reading and display</source>
+        <translation>Famakiana sy fampisehoana</translation>
+    </message>
+    <message>
+        <source>Text size</source>
+        <translation>Haben'ny soratra</translation>
+    </message>
+    <message>
+        <source>Normal</source>
+        <translation>Mahazatra</translation>
+    </message>
+    <message>
+        <source>Large</source>
+        <translation>Lehibe</translation>
+    </message>
+    <message>
+        <source>Larger</source>
+        <translation>Lehibe kokoa</translation>
+    </message>
+    <message>
+        <source>Largest</source>
+        <translation>Lehibe indrindra</translation>
+    </message>
+    <message>
+        <source>High contrast</source>
+        <translation>Fifanoherana avo</translation>
+    </message>
+    <message>
+        <source>Reduce motion</source>
+        <translation>Ahenay ny fihetsehana</translation>
+    </message>
+    <message>
+        <source>Readable font</source>
+        <translation>Endritsoratra mora vakiana</translation>
+    </message>
+    <message>
+        <source>Underline links</source>
+        <translation>Asio tsipika eo ambanin'ny rohy</translation>
+    </message>
+    <message>
+        <source>Back to the site's own look</source>
+        <translation>Miverina amin'ny endriky ny tranonkala</translation>
+    </message>
+    <message>
+        <source>Kept on this device only, for every page of this site.</source>
+        <translation>Voatahiry amin'ity fitaovana ity ihany, ho an'ny pejy rehetra amin'ity tranonkala ity.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

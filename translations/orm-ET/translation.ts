@@ -2419,6 +2419,54 @@
         <source>The hold was not changed. Try again.</source>
         <translation>Qabannaan hin jijjiiramne. Irra deebi'ii yaali.</translation>
     </message>
+    <message>
+        <source>Reading and display</source>
+        <translation>Dubbisuu fi agarsiisuu</translation>
+    </message>
+    <message>
+        <source>Text size</source>
+        <translation>Hamma barreeffamaa</translation>
+    </message>
+    <message>
+        <source>Normal</source>
+        <translation>Idilee</translation>
+    </message>
+    <message>
+        <source>Large</source>
+        <translation>Guddaa</translation>
+    </message>
+    <message>
+        <source>Larger</source>
+        <translation>Caalaa guddaa</translation>
+    </message>
+    <message>
+        <source>Largest</source>
+        <translation>Hunda caalaa guddaa</translation>
+    </message>
+    <message>
+        <source>High contrast</source>
+        <translation>Faallaa ol'aanaa</translation>
+    </message>
+    <message>
+        <source>Reduce motion</source>
+        <translation>Sochii hir'isi</translation>
+    </message>
+    <message>
+        <source>Readable font</source>
+        <translation>Qubee salphaatti dubbifamu</translation>
+    </message>
+    <message>
+        <source>Underline links</source>
+        <translation>Hidhamtoota jala sarari</translation>
+    </message>
+    <message>
+        <source>Back to the site's own look</source>
+        <translation>Gara bifa marsariitichaa ofii isaatti deebi'i</translation>
+    </message>
+    <message>
+        <source>Kept on this device only, for every page of this site.</source>
+        <translation>Meeshaa kana qofa irratti kuufame, fuula marsariitii kanaa hundaaf.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

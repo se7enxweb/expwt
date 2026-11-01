@@ -2419,6 +2419,54 @@
         <source>The hold was not changed. Try again.</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Reading and display</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Text size</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Normal</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Large</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Larger</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Largest</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>High contrast</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Reduce motion</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Readable font</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Underline links</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Back to the site's own look</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Kept on this device only, for every page of this site.</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

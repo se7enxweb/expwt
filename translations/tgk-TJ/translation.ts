@@ -2419,6 +2419,54 @@
         <source>The hold was not changed. Try again.</source>
         <translation>Нигоҳдорӣ тағйир наёфт. Бори дигар кӯшиш кунед.</translation>
     </message>
+    <message>
+        <source>Reading and display</source>
+        <translation>Хониш ва намоиш</translation>
+    </message>
+    <message>
+        <source>Text size</source>
+        <translation>Андозаи матн</translation>
+    </message>
+    <message>
+        <source>Normal</source>
+        <translation>Муқаррарӣ</translation>
+    </message>
+    <message>
+        <source>Large</source>
+        <translation>Калон</translation>
+    </message>
+    <message>
+        <source>Larger</source>
+        <translation>Калонтар</translation>
+    </message>
+    <message>
+        <source>Largest</source>
+        <translation>Калонтарин</translation>
+    </message>
+    <message>
+        <source>High contrast</source>
+        <translation>Контрасти баланд</translation>
+    </message>
+    <message>
+        <source>Reduce motion</source>
+        <translation>Кам кардани ҳаракат</translation>
+    </message>
+    <message>
+        <source>Readable font</source>
+        <translation>Ҳарфҳои осонхонда</translation>
+    </message>
+    <message>
+        <source>Underline links</source>
+        <translation>Зери пайвандҳо хат кашидан</translation>
+    </message>
+    <message>
+        <source>Back to the site's own look</source>
+        <translation>Бозгашт ба намуди худи сомона</translation>
+    </message>
+    <message>
+        <source>Kept on this device only, for every page of this site.</source>
+        <translation>Танҳо дар ҳамин дастгоҳ нигоҳ дошта мешавад, барои ҳар саҳифаи ин сомона.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

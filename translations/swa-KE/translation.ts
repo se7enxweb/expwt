@@ -2419,6 +2419,54 @@
         <source>The hold was not changed. Try again.</source>
         <translation>Kusimamishwa hakukubadilishwa. Jaribu tena.</translation>
     </message>
+    <message>
+        <source>Reading and display</source>
+        <translation>Kusoma na kuonyesha</translation>
+    </message>
+    <message>
+        <source>Text size</source>
+        <translation>Ukubwa wa maandishi</translation>
+    </message>
+    <message>
+        <source>Normal</source>
+        <translation>Kawaida</translation>
+    </message>
+    <message>
+        <source>Large</source>
+        <translation>Kubwa</translation>
+    </message>
+    <message>
+        <source>Larger</source>
+        <translation>Kubwa zaidi</translation>
+    </message>
+    <message>
+        <source>Largest</source>
+        <translation>Kubwa kabisa</translation>
+    </message>
+    <message>
+        <source>High contrast</source>
+        <translation>Utofautishaji wa juu</translation>
+    </message>
+    <message>
+        <source>Reduce motion</source>
+        <translation>Punguza mwendo</translation>
+    </message>
+    <message>
+        <source>Readable font</source>
+        <translation>Fonti rahisi kusoma</translation>
+    </message>
+    <message>
+        <source>Underline links</source>
+        <translation>Pigia viungo mstari</translation>
+    </message>
+    <message>
+        <source>Back to the site's own look</source>
+        <translation>Rudi kwenye mwonekano asili wa tovuti</translation>
+    </message>
+    <message>
+        <source>Kept on this device only, for every page of this site.</source>
+        <translation>Imehifadhiwa kwenye kifaa hiki pekee, kwa kila ukurasa wa tovuti hii.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

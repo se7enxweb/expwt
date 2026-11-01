@@ -2419,6 +2419,54 @@
         <source>The hold was not changed. Try again.</source>
         <translation>冻结未更改。请重试。</translation>
     </message>
+    <message>
+        <source>Reading and display</source>
+        <translation>阅读与显示</translation>
+    </message>
+    <message>
+        <source>Text size</source>
+        <translation>文字大小</translation>
+    </message>
+    <message>
+        <source>Normal</source>
+        <translation>标准</translation>
+    </message>
+    <message>
+        <source>Large</source>
+        <translation>大</translation>
+    </message>
+    <message>
+        <source>Larger</source>
+        <translation>较大</translation>
+    </message>
+    <message>
+        <source>Largest</source>
+        <translation>最大</translation>
+    </message>
+    <message>
+        <source>High contrast</source>
+        <translation>高对比度</translation>
+    </message>
+    <message>
+        <source>Reduce motion</source>
+        <translation>减弱动态效果</translation>
+    </message>
+    <message>
+        <source>Readable font</source>
+        <translation>易读字体</translation>
+    </message>
+    <message>
+        <source>Underline links</source>
+        <translation>为链接加下划线</translation>
+    </message>
+    <message>
+        <source>Back to the site's own look</source>
+        <translation>恢复网站的原始外观</translation>
+    </message>
+    <message>
+        <source>Kept on this device only, for every page of this site.</source>
+        <translation>仅保存在此设备上，适用于本网站的每个页面。</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

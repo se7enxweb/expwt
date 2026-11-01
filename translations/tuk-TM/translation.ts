@@ -2419,6 +2419,54 @@
         <source>The hold was not changed. Try again.</source>
         <translation>Saklama üýtgedilmedi. Täzeden synanyşyň.</translation>
     </message>
+    <message>
+        <source>Reading and display</source>
+        <translation>Okamak we görkezmek</translation>
+    </message>
+    <message>
+        <source>Text size</source>
+        <translation>Tekstiň ölçegi</translation>
+    </message>
+    <message>
+        <source>Normal</source>
+        <translation>Adaty</translation>
+    </message>
+    <message>
+        <source>Large</source>
+        <translation>Uly</translation>
+    </message>
+    <message>
+        <source>Larger</source>
+        <translation>Has uly</translation>
+    </message>
+    <message>
+        <source>Largest</source>
+        <translation>Iň uly</translation>
+    </message>
+    <message>
+        <source>High contrast</source>
+        <translation>Ýokary kontrast</translation>
+    </message>
+    <message>
+        <source>Reduce motion</source>
+        <translation>Hereketi azalt</translation>
+    </message>
+    <message>
+        <source>Readable font</source>
+        <translation>Aňsat okalýan şrift</translation>
+    </message>
+    <message>
+        <source>Underline links</source>
+        <translation>Baglanyşyklaryň aşagyny çyz</translation>
+    </message>
+    <message>
+        <source>Back to the site's own look</source>
+        <translation>Saýtyň öz görnüşine gaýt</translation>
+    </message>
+    <message>
+        <source>Kept on this device only, for every page of this site.</source>
+        <translation>Diňe şu enjamda saklanýar, bu saýtyň her sahypasy üçin.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

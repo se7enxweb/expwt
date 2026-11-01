@@ -2419,6 +2419,54 @@
         <source>The hold was not changed. Try again.</source>
         <translation>凍結未變更。請再試一次。</translation>
     </message>
+    <message>
+        <source>Reading and display</source>
+        <translation>閱讀與顯示</translation>
+    </message>
+    <message>
+        <source>Text size</source>
+        <translation>文字大小</translation>
+    </message>
+    <message>
+        <source>Normal</source>
+        <translation>標準</translation>
+    </message>
+    <message>
+        <source>Large</source>
+        <translation>大</translation>
+    </message>
+    <message>
+        <source>Larger</source>
+        <translation>較大</translation>
+    </message>
+    <message>
+        <source>Largest</source>
+        <translation>最大</translation>
+    </message>
+    <message>
+        <source>High contrast</source>
+        <translation>高對比</translation>
+    </message>
+    <message>
+        <source>Reduce motion</source>
+        <translation>減少動態效果</translation>
+    </message>
+    <message>
+        <source>Readable font</source>
+        <translation>易讀字型</translation>
+    </message>
+    <message>
+        <source>Underline links</source>
+        <translation>為連結加底線</translation>
+    </message>
+    <message>
+        <source>Back to the site's own look</source>
+        <translation>恢復網站原本的外觀</translation>
+    </message>
+    <message>
+        <source>Kept on this device only, for every page of this site.</source>
+        <translation>僅儲存在此裝置上，適用於本網站的每個頁面。</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

@@ -2419,6 +2419,54 @@
         <source>The hold was not changed. Try again.</source>
         <translation>Ni newidiwyd y daliad. Rhowch gynnig arall arni.</translation>
     </message>
+    <message>
+        <source>Reading and display</source>
+        <translation>Darllen ac arddangos</translation>
+    </message>
+    <message>
+        <source>Text size</source>
+        <translation>Maint testun</translation>
+    </message>
+    <message>
+        <source>Normal</source>
+        <translation>Arferol</translation>
+    </message>
+    <message>
+        <source>Large</source>
+        <translation>Mawr</translation>
+    </message>
+    <message>
+        <source>Larger</source>
+        <translation>Mwy</translation>
+    </message>
+    <message>
+        <source>Largest</source>
+        <translation>Mwyaf</translation>
+    </message>
+    <message>
+        <source>High contrast</source>
+        <translation>Cyferbyniad uchel</translation>
+    </message>
+    <message>
+        <source>Reduce motion</source>
+        <translation>Lleihau symudiad</translation>
+    </message>
+    <message>
+        <source>Readable font</source>
+        <translation>Ffont hawdd ei ddarllen</translation>
+    </message>
+    <message>
+        <source>Underline links</source>
+        <translation>Tanlinellu dolenni</translation>
+    </message>
+    <message>
+        <source>Back to the site's own look</source>
+        <translation>Yn ôl i olwg y wefan ei hun</translation>
+    </message>
+    <message>
+        <source>Kept on this device only, for every page of this site.</source>
+        <translation>Wedi'i gadw ar y ddyfais hon yn unig, ar gyfer pob tudalen o'r wefan hon.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

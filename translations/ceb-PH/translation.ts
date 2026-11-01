@@ -2419,6 +2419,54 @@
         <source>The hold was not changed. Try again.</source>
         <translation>Wala mausab ang pagpugong. Sulayi pag-usab.</translation>
     </message>
+    <message>
+        <source>Reading and display</source>
+        <translation>Pagbasa ug pagpakita</translation>
+    </message>
+    <message>
+        <source>Text size</source>
+        <translation>Gidak-on sa teksto</translation>
+    </message>
+    <message>
+        <source>Normal</source>
+        <translation>Normal</translation>
+    </message>
+    <message>
+        <source>Large</source>
+        <translation>Dako</translation>
+    </message>
+    <message>
+        <source>Larger</source>
+        <translation>Mas dako</translation>
+    </message>
+    <message>
+        <source>Largest</source>
+        <translation>Pinakadako</translation>
+    </message>
+    <message>
+        <source>High contrast</source>
+        <translation>Taas nga contrast</translation>
+    </message>
+    <message>
+        <source>Reduce motion</source>
+        <translation>Pagkunhod sa lihok</translation>
+    </message>
+    <message>
+        <source>Readable font</source>
+        <translation>Sayon basahon nga font</translation>
+    </message>
+    <message>
+        <source>Underline links</source>
+        <translation>Linyahi ang mga link</translation>
+    </message>
+    <message>
+        <source>Back to the site's own look</source>
+        <translation>Balik sa kaugalingong hitsura sa site</translation>
+    </message>
+    <message>
+        <source>Kept on this device only, for every page of this site.</source>
+        <translation>Gitipigan ra niining device, para sa matag panid niini nga site.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

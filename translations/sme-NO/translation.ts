@@ -2419,6 +2419,54 @@
         <source>The hold was not changed. Try again.</source>
         <translation>Bisán ii rievdan. Geahččal ođđasit.</translation>
     </message>
+    <message>
+        <source>Reading and display</source>
+        <translation>Lohkan ja čájeheapmi</translation>
+    </message>
+    <message>
+        <source>Text size</source>
+        <translation>Teavstta sturrodat</translation>
+    </message>
+    <message>
+        <source>Normal</source>
+        <translation>Dábálaš</translation>
+    </message>
+    <message>
+        <source>Large</source>
+        <translation>Stuoris</translation>
+    </message>
+    <message>
+        <source>Larger</source>
+        <translation>Stuorát</translation>
+    </message>
+    <message>
+        <source>Largest</source>
+        <translation>Stuorimus</translation>
+    </message>
+    <message>
+        <source>High contrast</source>
+        <translation>Alla kontrásta</translation>
+    </message>
+    <message>
+        <source>Reduce motion</source>
+        <translation>Unnit lihkadusa</translation>
+    </message>
+    <message>
+        <source>Readable font</source>
+        <translation>Álkit lohkkojuvvon fonta</translation>
+    </message>
+    <message>
+        <source>Underline links</source>
+        <translation>Vuolláisárggut liŋkkaid</translation>
+    </message>
+    <message>
+        <source>Back to the site's own look</source>
+        <translation>Ruovttoluotta neahttabáikki iežas hápmái</translation>
+    </message>
+    <message>
+        <source>Kept on this device only, for every page of this site.</source>
+        <translation>Vurkejuvvon dušše dán ovttadahkii, juohke siidui dán neahttabáikkis.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

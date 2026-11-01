@@ -2419,6 +2419,54 @@
         <source>The hold was not changed. Try again.</source>
         <translation>Spärren ändrades inte. Försök igen.</translation>
     </message>
+    <message>
+        <source>Reading and display</source>
+        <translation>Läsning och visning</translation>
+    </message>
+    <message>
+        <source>Text size</source>
+        <translation>Textstorlek</translation>
+    </message>
+    <message>
+        <source>Normal</source>
+        <translation>Normal</translation>
+    </message>
+    <message>
+        <source>Large</source>
+        <translation>Stor</translation>
+    </message>
+    <message>
+        <source>Larger</source>
+        <translation>Större</translation>
+    </message>
+    <message>
+        <source>Largest</source>
+        <translation>Störst</translation>
+    </message>
+    <message>
+        <source>High contrast</source>
+        <translation>Hög kontrast</translation>
+    </message>
+    <message>
+        <source>Reduce motion</source>
+        <translation>Minska rörelse</translation>
+    </message>
+    <message>
+        <source>Readable font</source>
+        <translation>Lättläst typsnitt</translation>
+    </message>
+    <message>
+        <source>Underline links</source>
+        <translation>Stryk under länkar</translation>
+    </message>
+    <message>
+        <source>Back to the site's own look</source>
+        <translation>Tillbaka till webbplatsens eget utseende</translation>
+    </message>
+    <message>
+        <source>Kept on this device only, for every page of this site.</source>
+        <translation>Sparas bara på den här enheten, för varje sida på den här webbplatsen.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

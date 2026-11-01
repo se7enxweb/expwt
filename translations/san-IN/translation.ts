@@ -2419,6 +2419,54 @@
         <source>The hold was not changed. Try again.</source>
         <translation>निरोधः न परिवर्तितः। पुनः प्रयतताम्।</translation>
     </message>
+    <message>
+        <source>Reading and display</source>
+        <translation>पठनं प्रदर्शनं च</translation>
+    </message>
+    <message>
+        <source>Text size</source>
+        <translation>पाठस्य आकारः</translation>
+    </message>
+    <message>
+        <source>Normal</source>
+        <translation>सामान्यम्</translation>
+    </message>
+    <message>
+        <source>Large</source>
+        <translation>बृहत्</translation>
+    </message>
+    <message>
+        <source>Larger</source>
+        <translation>बृहत्तरम्</translation>
+    </message>
+    <message>
+        <source>Largest</source>
+        <translation>बृहत्तमम्</translation>
+    </message>
+    <message>
+        <source>High contrast</source>
+        <translation>उच्चविरोधः</translation>
+    </message>
+    <message>
+        <source>Reduce motion</source>
+        <translation>गतिं न्यूनीकुरु</translation>
+    </message>
+    <message>
+        <source>Readable font</source>
+        <translation>सुपाठ्या लिपिः</translation>
+    </message>
+    <message>
+        <source>Underline links</source>
+        <translation>सम्बन्धान् अधोरेखय</translation>
+    </message>
+    <message>
+        <source>Back to the site's own look</source>
+        <translation>जालस्थानस्य स्वरूपं प्रति प्रत्यागच्छ</translation>
+    </message>
+    <message>
+        <source>Kept on this device only, for every page of this site.</source>
+        <translation>केवलम् अस्मिन् उपकरणे रक्षितम्, अस्य जालस्थानस्य प्रत्येकपृष्ठाय।</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

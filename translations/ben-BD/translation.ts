@@ -2419,6 +2419,54 @@
         <source>The hold was not changed. Try again.</source>
         <translation>স্থগিতাদেশ পরিবর্তন হয়নি। আবার চেষ্টা করুন।</translation>
     </message>
+    <message>
+        <source>Reading and display</source>
+        <translation>পড়া ও প্রদর্শন</translation>
+    </message>
+    <message>
+        <source>Text size</source>
+        <translation>টেক্সটের আকার</translation>
+    </message>
+    <message>
+        <source>Normal</source>
+        <translation>সাধারণ</translation>
+    </message>
+    <message>
+        <source>Large</source>
+        <translation>বড়</translation>
+    </message>
+    <message>
+        <source>Larger</source>
+        <translation>আরও বড়</translation>
+    </message>
+    <message>
+        <source>Largest</source>
+        <translation>সবচেয়ে বড়</translation>
+    </message>
+    <message>
+        <source>High contrast</source>
+        <translation>উচ্চ কনট্রাস্ট</translation>
+    </message>
+    <message>
+        <source>Reduce motion</source>
+        <translation>গতি কমান</translation>
+    </message>
+    <message>
+        <source>Readable font</source>
+        <translation>সহজে পড়ার মতো ফন্ট</translation>
+    </message>
+    <message>
+        <source>Underline links</source>
+        <translation>লিঙ্কে নিচে দাগ দিন</translation>
+    </message>
+    <message>
+        <source>Back to the site's own look</source>
+        <translation>সাইটের নিজস্ব চেহারায় ফিরুন</translation>
+    </message>
+    <message>
+        <source>Kept on this device only, for every page of this site.</source>
+        <translation>শুধু এই ডিভাইসে রাখা হয়, এই সাইটের প্রতিটি পৃষ্ঠার জন্য।</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

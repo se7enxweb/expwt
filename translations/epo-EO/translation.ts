@@ -2419,6 +2419,54 @@
         <source>The hold was not changed. Try again.</source>
         <translation>La reteno ne ŝanĝiĝis. Provu denove.</translation>
     </message>
+    <message>
+        <source>Reading and display</source>
+        <translation>Legado kaj montrado</translation>
+    </message>
+    <message>
+        <source>Text size</source>
+        <translation>Tekstogrando</translation>
+    </message>
+    <message>
+        <source>Normal</source>
+        <translation>Normala</translation>
+    </message>
+    <message>
+        <source>Large</source>
+        <translation>Granda</translation>
+    </message>
+    <message>
+        <source>Larger</source>
+        <translation>Pli granda</translation>
+    </message>
+    <message>
+        <source>Largest</source>
+        <translation>Plej granda</translation>
+    </message>
+    <message>
+        <source>High contrast</source>
+        <translation>Alta kontrasto</translation>
+    </message>
+    <message>
+        <source>Reduce motion</source>
+        <translation>Malpliigi movojn</translation>
+    </message>
+    <message>
+        <source>Readable font</source>
+        <translation>Facile legebla tiparo</translation>
+    </message>
+    <message>
+        <source>Underline links</source>
+        <translation>Substreki ligilojn</translation>
+    </message>
+    <message>
+        <source>Back to the site's own look</source>
+        <translation>Reen al la propra aspekto de la retejo</translation>
+    </message>
+    <message>
+        <source>Kept on this device only, for every page of this site.</source>
+        <translation>Konservita nur en ĉi tiu aparato, por ĉiu paĝo de ĉi tiu retejo.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

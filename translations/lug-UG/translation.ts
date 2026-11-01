@@ -2419,6 +2419,54 @@
         <source>The hold was not changed. Try again.</source>
         <translation>Okuyimiriza tekukyusiddwa. Gezaako nate.</translation>
     </message>
+    <message>
+        <source>Reading and display</source>
+        <translation>Okusoma n'okulaga</translation>
+    </message>
+    <message>
+        <source>Text size</source>
+        <translation>Obunene bw'ebiwandiiko</translation>
+    </message>
+    <message>
+        <source>Normal</source>
+        <translation>Bya bulijjo</translation>
+    </message>
+    <message>
+        <source>Large</source>
+        <translation>Binene</translation>
+    </message>
+    <message>
+        <source>Larger</source>
+        <translation>Binene okusingawo</translation>
+    </message>
+    <message>
+        <source>Largest</source>
+        <translation>Binene nnyo</translation>
+    </message>
+    <message>
+        <source>High contrast</source>
+        <translation>Enjawulo ennene</translation>
+    </message>
+    <message>
+        <source>Reduce motion</source>
+        <translation>Kendeeza entambula</translation>
+    </message>
+    <message>
+        <source>Readable font</source>
+        <translation>Ennukuta ennyangu okusoma</translation>
+    </message>
+    <message>
+        <source>Underline links</source>
+        <translation>Ssaako olusittale wansi w'enkolagana</translation>
+    </message>
+    <message>
+        <source>Back to the site's own look</source>
+        <translation>Ddayo ku ndabika ya site yennyini</translation>
+    </message>
+    <message>
+        <source>Kept on this device only, for every page of this site.</source>
+        <translation>Biterekeddwa ku kyuma kino kyokka, ku buli lupapula lwa site eno.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

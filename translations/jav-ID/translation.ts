@@ -2419,6 +2419,54 @@
         <source>The hold was not changed. Try again.</source>
         <translation>Tahanan ora diowahi. Coba maneh.</translation>
     </message>
+    <message>
+        <source>Reading and display</source>
+        <translation>Maca lan tampilan</translation>
+    </message>
+    <message>
+        <source>Text size</source>
+        <translation>Ukuran teks</translation>
+    </message>
+    <message>
+        <source>Normal</source>
+        <translation>Normal</translation>
+    </message>
+    <message>
+        <source>Large</source>
+        <translation>Gedhé</translation>
+    </message>
+    <message>
+        <source>Larger</source>
+        <translation>Luwih gedhé</translation>
+    </message>
+    <message>
+        <source>Largest</source>
+        <translation>Paling gedhé</translation>
+    </message>
+    <message>
+        <source>High contrast</source>
+        <translation>Kontras dhuwur</translation>
+    </message>
+    <message>
+        <source>Reduce motion</source>
+        <translation>Kurangi obahan</translation>
+    </message>
+    <message>
+        <source>Readable font</source>
+        <translation>Font sing gampang diwaca</translation>
+    </message>
+    <message>
+        <source>Underline links</source>
+        <translation>Garis ngisor pranala</translation>
+    </message>
+    <message>
+        <source>Back to the site's own look</source>
+        <translation>Bali menyang tampilan asli situs</translation>
+    </message>
+    <message>
+        <source>Kept on this device only, for every page of this site.</source>
+        <translation>Mung disimpen ing piranti iki, kanggo saben kaca situs iki.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

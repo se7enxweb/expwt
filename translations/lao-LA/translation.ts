@@ -2419,6 +2419,54 @@
         <source>The hold was not changed. Try again.</source>
         <translation>ການລະງັບບໍ່ໄດ້ຖືກປ່ຽນ. ກະລຸນາລອງໃໝ່.</translation>
     </message>
+    <message>
+        <source>Reading and display</source>
+        <translation>ການອ່ານ ແລະ ການສະແດງຜົນ</translation>
+    </message>
+    <message>
+        <source>Text size</source>
+        <translation>ຂະໜາດຕົວໜັງສື</translation>
+    </message>
+    <message>
+        <source>Normal</source>
+        <translation>ປົກກະຕິ</translation>
+    </message>
+    <message>
+        <source>Large</source>
+        <translation>ໃຫຍ່</translation>
+    </message>
+    <message>
+        <source>Larger</source>
+        <translation>ໃຫຍ່ຂຶ້ນ</translation>
+    </message>
+    <message>
+        <source>Largest</source>
+        <translation>ໃຫຍ່ທີ່ສຸດ</translation>
+    </message>
+    <message>
+        <source>High contrast</source>
+        <translation>ຄວາມຄົມຊັດສູງ</translation>
+    </message>
+    <message>
+        <source>Reduce motion</source>
+        <translation>ຫຼຸດການເຄື່ອນໄຫວ</translation>
+    </message>
+    <message>
+        <source>Readable font</source>
+        <translation>ຟອນທີ່ອ່ານງ່າຍ</translation>
+    </message>
+    <message>
+        <source>Underline links</source>
+        <translation>ຂີດກ້ອງລິ້ງ</translation>
+    </message>
+    <message>
+        <source>Back to the site's own look</source>
+        <translation>ກັບຄືນສູ່ຮູບແບບເດີມຂອງເວັບໄຊ</translation>
+    </message>
+    <message>
+        <source>Kept on this device only, for every page of this site.</source>
+        <translation>ເກັບໄວ້ໃນອຸປະກອນນີ້ເທົ່ານັ້ນ, ສຳລັບທຸກໜ້າຂອງເວັບໄຊນີ້.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

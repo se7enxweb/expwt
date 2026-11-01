@@ -2419,6 +2419,54 @@
         <source>The hold was not changed. Try again.</source>
         <translation>Kũgirio gũtiacenjio. Geria rĩngĩ.</translation>
     </message>
+    <message>
+        <source>Reading and display</source>
+        <translation>Gũthoma na kuonania</translation>
+    </message>
+    <message>
+        <source>Text size</source>
+        <translation>Wariĩ wa ndemwa</translation>
+    </message>
+    <message>
+        <source>Normal</source>
+        <translation>Kĩrĩa kĩa hingo ciothe</translation>
+    </message>
+    <message>
+        <source>Large</source>
+        <translation>Inene</translation>
+    </message>
+    <message>
+        <source>Larger</source>
+        <translation>Nene makĩria</translation>
+    </message>
+    <message>
+        <source>Largest</source>
+        <translation>Nene mũno</translation>
+    </message>
+    <message>
+        <source>High contrast</source>
+        <translation>Ũtiganu mũnene</translation>
+    </message>
+    <message>
+        <source>Reduce motion</source>
+        <translation>Nyihia ithiĩ</translation>
+    </message>
+    <message>
+        <source>Readable font</source>
+        <translation>Ndemwa njĩhũthũ gũthoma</translation>
+    </message>
+    <message>
+        <source>Underline links</source>
+        <translation>Ũrĩ mũtaro rungu rwa ngwatanio</translation>
+    </message>
+    <message>
+        <source>Back to the site's own look</source>
+        <translation>Cooka kũrĩ ũhaana wa mũkuruwa ũcio</translation>
+    </message>
+    <message>
+        <source>Kept on this device only, for every page of this site.</source>
+        <translation>Ĩigĩtwo kĩndũ-inĩ gĩkĩ tu, nĩ ũndũ wa karatathi o gothe ka mũkuruwa ũyũ.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

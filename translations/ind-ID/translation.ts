@@ -2419,6 +2419,54 @@
         <source>The hold was not changed. Try again.</source>
         <translation>Penahanan tidak diubah. Coba lagi.</translation>
     </message>
+    <message>
+        <source>Reading and display</source>
+        <translation>Membaca dan tampilan</translation>
+    </message>
+    <message>
+        <source>Text size</source>
+        <translation>Ukuran teks</translation>
+    </message>
+    <message>
+        <source>Normal</source>
+        <translation>Normal</translation>
+    </message>
+    <message>
+        <source>Large</source>
+        <translation>Besar</translation>
+    </message>
+    <message>
+        <source>Larger</source>
+        <translation>Lebih besar</translation>
+    </message>
+    <message>
+        <source>Largest</source>
+        <translation>Terbesar</translation>
+    </message>
+    <message>
+        <source>High contrast</source>
+        <translation>Kontras tinggi</translation>
+    </message>
+    <message>
+        <source>Reduce motion</source>
+        <translation>Kurangi gerakan</translation>
+    </message>
+    <message>
+        <source>Readable font</source>
+        <translation>Font mudah dibaca</translation>
+    </message>
+    <message>
+        <source>Underline links</source>
+        <translation>Garis bawahi tautan</translation>
+    </message>
+    <message>
+        <source>Back to the site's own look</source>
+        <translation>Kembali ke tampilan asli situs</translation>
+    </message>
+    <message>
+        <source>Kept on this device only, for every page of this site.</source>
+        <translation>Hanya disimpan di perangkat ini, untuk setiap halaman situs ini.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

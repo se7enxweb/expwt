@@ -2419,6 +2419,54 @@
         <source>The hold was not changed. Try again.</source>
         <translation>ਰੋਕ ਨਹੀਂ ਬਦਲੀ ਗਈ। ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।</translation>
     </message>
+    <message>
+        <source>Reading and display</source>
+        <translation>ਪੜ੍ਹਨਾ ਅਤੇ ਡਿਸਪਲੇ</translation>
+    </message>
+    <message>
+        <source>Text size</source>
+        <translation>ਟੈਕਸਟ ਦਾ ਆਕਾਰ</translation>
+    </message>
+    <message>
+        <source>Normal</source>
+        <translation>ਸਧਾਰਨ</translation>
+    </message>
+    <message>
+        <source>Large</source>
+        <translation>ਵੱਡਾ</translation>
+    </message>
+    <message>
+        <source>Larger</source>
+        <translation>ਹੋਰ ਵੱਡਾ</translation>
+    </message>
+    <message>
+        <source>Largest</source>
+        <translation>ਸਭ ਤੋਂ ਵੱਡਾ</translation>
+    </message>
+    <message>
+        <source>High contrast</source>
+        <translation>ਉੱਚ ਕੰਟ੍ਰਾਸਟ</translation>
+    </message>
+    <message>
+        <source>Reduce motion</source>
+        <translation>ਗਤੀ ਘਟਾਓ</translation>
+    </message>
+    <message>
+        <source>Readable font</source>
+        <translation>ਆਸਾਨੀ ਨਾਲ ਪੜ੍ਹਿਆ ਜਾਣ ਵਾਲਾ ਫ਼ੌਂਟ</translation>
+    </message>
+    <message>
+        <source>Underline links</source>
+        <translation>ਲਿੰਕਾਂ ਹੇਠ ਲਕੀਰ</translation>
+    </message>
+    <message>
+        <source>Back to the site's own look</source>
+        <translation>ਸਾਈਟ ਦੀ ਆਪਣੀ ਦਿੱਖ 'ਤੇ ਵਾਪਸ ਜਾਓ</translation>
+    </message>
+    <message>
+        <source>Kept on this device only, for every page of this site.</source>
+        <translation>ਸਿਰਫ਼ ਇਸ ਡਿਵਾਈਸ 'ਤੇ ਰੱਖਿਆ, ਇਸ ਸਾਈਟ ਦੇ ਹਰ ਪੰਨੇ ਲਈ।</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

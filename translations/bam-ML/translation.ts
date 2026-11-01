@@ -2419,6 +2419,54 @@
         <source>The hold was not changed. Try again.</source>
         <translation>Minɛ ma yɛlɛma. A lajɛ tuguni.</translation>
     </message>
+    <message>
+        <source>Reading and display</source>
+        <translation>Kalan ni jira</translation>
+    </message>
+    <message>
+        <source>Text size</source>
+        <translation>Sɛbɛnni bonya</translation>
+    </message>
+    <message>
+        <source>Normal</source>
+        <translation>Cogo gansan</translation>
+    </message>
+    <message>
+        <source>Large</source>
+        <translation>Belebele</translation>
+    </message>
+    <message>
+        <source>Larger</source>
+        <translation>Ka belebele</translation>
+    </message>
+    <message>
+        <source>Largest</source>
+        <translation>Belebele bɛɛ ko</translation>
+    </message>
+    <message>
+        <source>High contrast</source>
+        <translation>Kɔntrasi kɔrɔtɔlen</translation>
+    </message>
+    <message>
+        <source>Reduce motion</source>
+        <translation>Lamaga dɔgɔya</translation>
+    </message>
+    <message>
+        <source>Readable font</source>
+        <translation>Sɛbɛnsun min kalan ka nɔgɔn</translation>
+    </message>
+    <message>
+        <source>Underline links</source>
+        <translation>Ka jiriw jukɔrɔ sɛbɛn</translation>
+    </message>
+    <message>
+        <source>Back to the site's own look</source>
+        <translation>Segin siti yɛrɛ cogoya ma</translation>
+    </message>
+    <message>
+        <source>Kept on this device only, for every page of this site.</source>
+        <translation>Mara bɛ nin minɛn in kan dɔrɔn, nin siti in ɲɛ bɛɛ kama.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

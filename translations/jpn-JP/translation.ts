@@ -2419,6 +2419,54 @@
         <source>The hold was not changed. Try again.</source>
         <translation>保留は変更されませんでした。もう一度お試しください。</translation>
     </message>
+    <message>
+        <source>Reading and display</source>
+        <translation>読みやすさと表示</translation>
+    </message>
+    <message>
+        <source>Text size</source>
+        <translation>文字サイズ</translation>
+    </message>
+    <message>
+        <source>Normal</source>
+        <translation>標準</translation>
+    </message>
+    <message>
+        <source>Large</source>
+        <translation>大</translation>
+    </message>
+    <message>
+        <source>Larger</source>
+        <translation>より大きく</translation>
+    </message>
+    <message>
+        <source>Largest</source>
+        <translation>最大</translation>
+    </message>
+    <message>
+        <source>High contrast</source>
+        <translation>ハイコントラスト</translation>
+    </message>
+    <message>
+        <source>Reduce motion</source>
+        <translation>視差効果を減らす</translation>
+    </message>
+    <message>
+        <source>Readable font</source>
+        <translation>読みやすいフォント</translation>
+    </message>
+    <message>
+        <source>Underline links</source>
+        <translation>リンクに下線を表示</translation>
+    </message>
+    <message>
+        <source>Back to the site's own look</source>
+        <translation>サイト本来の表示に戻す</translation>
+    </message>
+    <message>
+        <source>Kept on this device only, for every page of this site.</source>
+        <translation>このデバイスにのみ保存され、このサイトのすべてのページに適用されます。</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

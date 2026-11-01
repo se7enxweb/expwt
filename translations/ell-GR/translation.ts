@@ -2419,6 +2419,54 @@
         <source>The hold was not changed. Try again.</source>
         <translation>Η αναστολή δεν άλλαξε. Δοκιμάστε ξανά.</translation>
     </message>
+    <message>
+        <source>Reading and display</source>
+        <translation>Ανάγνωση και εμφάνιση</translation>
+    </message>
+    <message>
+        <source>Text size</source>
+        <translation>Μέγεθος κειμένου</translation>
+    </message>
+    <message>
+        <source>Normal</source>
+        <translation>Κανονικό</translation>
+    </message>
+    <message>
+        <source>Large</source>
+        <translation>Μεγάλο</translation>
+    </message>
+    <message>
+        <source>Larger</source>
+        <translation>Μεγαλύτερο</translation>
+    </message>
+    <message>
+        <source>Largest</source>
+        <translation>Το μεγαλύτερο</translation>
+    </message>
+    <message>
+        <source>High contrast</source>
+        <translation>Υψηλή αντίθεση</translation>
+    </message>
+    <message>
+        <source>Reduce motion</source>
+        <translation>Μείωση κίνησης</translation>
+    </message>
+    <message>
+        <source>Readable font</source>
+        <translation>Ευανάγνωστη γραμματοσειρά</translation>
+    </message>
+    <message>
+        <source>Underline links</source>
+        <translation>Υπογράμμιση συνδέσμων</translation>
+    </message>
+    <message>
+        <source>Back to the site's own look</source>
+        <translation>Επιστροφή στην αρχική εμφάνιση του ιστότοπου</translation>
+    </message>
+    <message>
+        <source>Kept on this device only, for every page of this site.</source>
+        <translation>Αποθηκεύεται μόνο σε αυτήν τη συσκευή, για κάθε σελίδα αυτού του ιστότοπου.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

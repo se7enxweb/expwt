@@ -2419,6 +2419,54 @@
         <source>The hold was not changed. Try again.</source>
         <translation>Wstrzymanie nie zostało zmienione. Spróbuj ponownie.</translation>
     </message>
+    <message>
+        <source>Reading and display</source>
+        <translation>Czytanie i wyświetlanie</translation>
+    </message>
+    <message>
+        <source>Text size</source>
+        <translation>Rozmiar tekstu</translation>
+    </message>
+    <message>
+        <source>Normal</source>
+        <translation>Normalny</translation>
+    </message>
+    <message>
+        <source>Large</source>
+        <translation>Duży</translation>
+    </message>
+    <message>
+        <source>Larger</source>
+        <translation>Większy</translation>
+    </message>
+    <message>
+        <source>Largest</source>
+        <translation>Największy</translation>
+    </message>
+    <message>
+        <source>High contrast</source>
+        <translation>Wysoki kontrast</translation>
+    </message>
+    <message>
+        <source>Reduce motion</source>
+        <translation>Ogranicz ruch</translation>
+    </message>
+    <message>
+        <source>Readable font</source>
+        <translation>Czytelna czcionka</translation>
+    </message>
+    <message>
+        <source>Underline links</source>
+        <translation>Podkreślaj linki</translation>
+    </message>
+    <message>
+        <source>Back to the site's own look</source>
+        <translation>Wróć do wyglądu witryny</translation>
+    </message>
+    <message>
+        <source>Kept on this device only, for every page of this site.</source>
+        <translation>Zapisane tylko na tym urządzeniu, dla każdej strony tej witryny.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

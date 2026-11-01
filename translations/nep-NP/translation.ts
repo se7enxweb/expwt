@@ -2419,6 +2419,54 @@
         <source>The hold was not changed. Try again.</source>
         <translation>रोक परिवर्तन भएन। फेरि प्रयास गर्नुहोस्।</translation>
     </message>
+    <message>
+        <source>Reading and display</source>
+        <translation>पढाइ र प्रदर्शन</translation>
+    </message>
+    <message>
+        <source>Text size</source>
+        <translation>पाठको आकार</translation>
+    </message>
+    <message>
+        <source>Normal</source>
+        <translation>सामान्य</translation>
+    </message>
+    <message>
+        <source>Large</source>
+        <translation>ठूलो</translation>
+    </message>
+    <message>
+        <source>Larger</source>
+        <translation>अझ ठूलो</translation>
+    </message>
+    <message>
+        <source>Largest</source>
+        <translation>सबैभन्दा ठूलो</translation>
+    </message>
+    <message>
+        <source>High contrast</source>
+        <translation>उच्च कन्ट्रास्ट</translation>
+    </message>
+    <message>
+        <source>Reduce motion</source>
+        <translation>गति घटाउनुहोस्</translation>
+    </message>
+    <message>
+        <source>Readable font</source>
+        <translation>सजिलै पढिने फन्ट</translation>
+    </message>
+    <message>
+        <source>Underline links</source>
+        <translation>लिङ्कमा रेखाङ्कन</translation>
+    </message>
+    <message>
+        <source>Back to the site's own look</source>
+        <translation>साइटको आफ्नै रूपमा फर्कनुहोस्</translation>
+    </message>
+    <message>
+        <source>Kept on this device only, for every page of this site.</source>
+        <translation>यो उपकरणमा मात्र राखिएको, यो साइटको हरेक पृष्ठका लागि।</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

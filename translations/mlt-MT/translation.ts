@@ -2419,6 +2419,54 @@
         <source>The hold was not changed. Try again.</source>
         <translation>Iż-żamma ma nbidlitx. Erġa' pprova.</translation>
     </message>
+    <message>
+        <source>Reading and display</source>
+        <translation>Qari u wiri</translation>
+    </message>
+    <message>
+        <source>Text size</source>
+        <translation>Daqs tat-test</translation>
+    </message>
+    <message>
+        <source>Normal</source>
+        <translation>Normali</translation>
+    </message>
+    <message>
+        <source>Large</source>
+        <translation>Kbir</translation>
+    </message>
+    <message>
+        <source>Larger</source>
+        <translation>Ikbar</translation>
+    </message>
+    <message>
+        <source>Largest</source>
+        <translation>L-akbar</translation>
+    </message>
+    <message>
+        <source>High contrast</source>
+        <translation>Kuntrast għoli</translation>
+    </message>
+    <message>
+        <source>Reduce motion</source>
+        <translation>Naqqas il-moviment</translation>
+    </message>
+    <message>
+        <source>Readable font</source>
+        <translation>Tipa faċli biex tinqara</translation>
+    </message>
+    <message>
+        <source>Underline links</source>
+        <translation>Issottolinja l-links</translation>
+    </message>
+    <message>
+        <source>Back to the site's own look</source>
+        <translation>Lura għad-dehra tas-sit innifsu</translation>
+    </message>
+    <message>
+        <source>Kept on this device only, for every page of this site.</source>
+        <translation>Maħżun fuq dan it-tagħmir biss, għal kull paġna ta' dan is-sit.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

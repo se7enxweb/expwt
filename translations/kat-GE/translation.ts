@@ -2419,6 +2419,54 @@
         <source>The hold was not changed. Try again.</source>
         <translation>შეჩერება არ შეცვლილა. სცადეთ ხელახლა.</translation>
     </message>
+    <message>
+        <source>Reading and display</source>
+        <translation>კითხვა და ჩვენება</translation>
+    </message>
+    <message>
+        <source>Text size</source>
+        <translation>ტექსტის ზომა</translation>
+    </message>
+    <message>
+        <source>Normal</source>
+        <translation>ჩვეულებრივი</translation>
+    </message>
+    <message>
+        <source>Large</source>
+        <translation>დიდი</translation>
+    </message>
+    <message>
+        <source>Larger</source>
+        <translation>უფრო დიდი</translation>
+    </message>
+    <message>
+        <source>Largest</source>
+        <translation>ყველაზე დიდი</translation>
+    </message>
+    <message>
+        <source>High contrast</source>
+        <translation>მაღალი კონტრასტი</translation>
+    </message>
+    <message>
+        <source>Reduce motion</source>
+        <translation>მოძრაობის შემცირება</translation>
+    </message>
+    <message>
+        <source>Readable font</source>
+        <translation>ადვილად წასაკითხი შრიფტი</translation>
+    </message>
+    <message>
+        <source>Underline links</source>
+        <translation>ბმულების ხაზგასმა</translation>
+    </message>
+    <message>
+        <source>Back to the site's own look</source>
+        <translation>საიტის საკუთარ იერზე დაბრუნება</translation>
+    </message>
+    <message>
+        <source>Kept on this device only, for every page of this site.</source>
+        <translation>ინახება მხოლოდ ამ მოწყობილობაზე, ამ საიტის ყველა გვერდისთვის.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

@@ -2419,6 +2419,54 @@
         <source>The hold was not changed. Try again.</source>
         <translation>Зогсоолт өөрчлөгдсөнгүй. Дахин оролдоно уу.</translation>
     </message>
+    <message>
+        <source>Reading and display</source>
+        <translation>Унших ба харагдац</translation>
+    </message>
+    <message>
+        <source>Text size</source>
+        <translation>Текстийн хэмжээ</translation>
+    </message>
+    <message>
+        <source>Normal</source>
+        <translation>Энгийн</translation>
+    </message>
+    <message>
+        <source>Large</source>
+        <translation>Том</translation>
+    </message>
+    <message>
+        <source>Larger</source>
+        <translation>Илүү том</translation>
+    </message>
+    <message>
+        <source>Largest</source>
+        <translation>Хамгийн том</translation>
+    </message>
+    <message>
+        <source>High contrast</source>
+        <translation>Өндөр контраст</translation>
+    </message>
+    <message>
+        <source>Reduce motion</source>
+        <translation>Хөдөлгөөнийг багасгах</translation>
+    </message>
+    <message>
+        <source>Readable font</source>
+        <translation>Уншихад хялбар фонт</translation>
+    </message>
+    <message>
+        <source>Underline links</source>
+        <translation>Холбоосыг доогуур зураастай</translation>
+    </message>
+    <message>
+        <source>Back to the site's own look</source>
+        <translation>Сайтын өөрийн харагдац руу буцах</translation>
+    </message>
+    <message>
+        <source>Kept on this device only, for every page of this site.</source>
+        <translation>Зөвхөн энэ төхөөрөмжид хадгалагдана, энэ сайтын хуудас бүрт.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

@@ -2419,6 +2419,54 @@
         <source>The hold was not changed. Try again.</source>
         <translation>דאָס אָפּהאַלטן איז ניט געביטן געוואָרן. פּרובירט נאָך אַ מאָל.</translation>
     </message>
+    <message>
+        <source>Reading and display</source>
+        <translation>לייענען און ווייַזן</translation>
+    </message>
+    <message>
+        <source>Text size</source>
+        <translation>טעקסט־גרייס</translation>
+    </message>
+    <message>
+        <source>Normal</source>
+        <translation>נאָרמאַל</translation>
+    </message>
+    <message>
+        <source>Large</source>
+        <translation>גרויס</translation>
+    </message>
+    <message>
+        <source>Larger</source>
+        <translation>גרעסער</translation>
+    </message>
+    <message>
+        <source>Largest</source>
+        <translation>צום גרעסטן</translation>
+    </message>
+    <message>
+        <source>High contrast</source>
+        <translation>הויכער קאָנטראַסט</translation>
+    </message>
+    <message>
+        <source>Reduce motion</source>
+        <translation>פֿאַרקלענערן באַוועגונג</translation>
+    </message>
+    <message>
+        <source>Readable font</source>
+        <translation>גרינג לייענבאַרער שריפֿט</translation>
+    </message>
+    <message>
+        <source>Underline links</source>
+        <translation>אונטערשטרײַכן לינקען</translation>
+    </message>
+    <message>
+        <source>Back to the site's own look</source>
+        <translation>צוריק צום אייגענעם אויסזען פֿונעם זײַטל</translation>
+    </message>
+    <message>
+        <source>Kept on this device only, for every page of this site.</source>
+        <translation>נאָר אויף דעם דאָזיקן מכשיר געהאַלטן, פֿאַר יעדן בלאַט פֿון דעם זײַטל.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

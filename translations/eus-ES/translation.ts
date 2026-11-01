@@ -2419,6 +2419,54 @@
         <source>The hold was not changed. Try again.</source>
         <translation>Atxikipena ez da aldatu. Saiatu berriro.</translation>
     </message>
+    <message>
+        <source>Reading and display</source>
+        <translation>Irakurketa eta bistaratzea</translation>
+    </message>
+    <message>
+        <source>Text size</source>
+        <translation>Testuaren tamaina</translation>
+    </message>
+    <message>
+        <source>Normal</source>
+        <translation>Normala</translation>
+    </message>
+    <message>
+        <source>Large</source>
+        <translation>Handia</translation>
+    </message>
+    <message>
+        <source>Larger</source>
+        <translation>Handiagoa</translation>
+    </message>
+    <message>
+        <source>Largest</source>
+        <translation>Handiena</translation>
+    </message>
+    <message>
+        <source>High contrast</source>
+        <translation>Kontraste handia</translation>
+    </message>
+    <message>
+        <source>Reduce motion</source>
+        <translation>Murriztu mugimendua</translation>
+    </message>
+    <message>
+        <source>Readable font</source>
+        <translation>Letra-tipo irakurterraza</translation>
+    </message>
+    <message>
+        <source>Underline links</source>
+        <translation>Azpimarratu estekak</translation>
+    </message>
+    <message>
+        <source>Back to the site's own look</source>
+        <translation>Itzuli gunearen berezko itxurara</translation>
+    </message>
+    <message>
+        <source>Kept on this device only, for every page of this site.</source>
+        <translation>Gailu honetan soilik gordeta, gune honetako orri guztietarako.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

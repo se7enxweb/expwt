@@ -2419,6 +2419,54 @@
         <source>The hold was not changed. Try again.</source>
         <translation>Պահումը չի փոխվել. Կրկին փորձեք.</translation>
     </message>
+    <message>
+        <source>Reading and display</source>
+        <translation>Ընթերցում և ցուցադրում</translation>
+    </message>
+    <message>
+        <source>Text size</source>
+        <translation>Տեքստի չափ</translation>
+    </message>
+    <message>
+        <source>Normal</source>
+        <translation>Սովորական</translation>
+    </message>
+    <message>
+        <source>Large</source>
+        <translation>Մեծ</translation>
+    </message>
+    <message>
+        <source>Larger</source>
+        <translation>Ավելի մեծ</translation>
+    </message>
+    <message>
+        <source>Largest</source>
+        <translation>Ամենամեծ</translation>
+    </message>
+    <message>
+        <source>High contrast</source>
+        <translation>Բարձր կոնտրաստ</translation>
+    </message>
+    <message>
+        <source>Reduce motion</source>
+        <translation>Նվազեցնել շարժումը</translation>
+    </message>
+    <message>
+        <source>Readable font</source>
+        <translation>Հեշտ ընթեռնելի տառատեսակ</translation>
+    </message>
+    <message>
+        <source>Underline links</source>
+        <translation>Ընդգծել հղումները</translation>
+    </message>
+    <message>
+        <source>Back to the site's own look</source>
+        <translation>Վերադառնալ կայքի սեփական տեսքին</translation>
+    </message>
+    <message>
+        <source>Kept on this device only, for every page of this site.</source>
+        <translation>Պահվում է միայն այս սարքում՝ այս կայքի յուրաքանչյուր էջի համար։</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

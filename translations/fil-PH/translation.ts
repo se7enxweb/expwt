@@ -2419,6 +2419,54 @@
         <source>The hold was not changed. Try again.</source>
         <translation>Hindi nabago ang hold. Subukang muli.</translation>
     </message>
+    <message>
+        <source>Reading and display</source>
+        <translation>Pagbasa at pagpapakita</translation>
+    </message>
+    <message>
+        <source>Text size</source>
+        <translation>Laki ng text</translation>
+    </message>
+    <message>
+        <source>Normal</source>
+        <translation>Normal</translation>
+    </message>
+    <message>
+        <source>Large</source>
+        <translation>Malaki</translation>
+    </message>
+    <message>
+        <source>Larger</source>
+        <translation>Mas malaki</translation>
+    </message>
+    <message>
+        <source>Largest</source>
+        <translation>Pinakamalaki</translation>
+    </message>
+    <message>
+        <source>High contrast</source>
+        <translation>Mataas na contrast</translation>
+    </message>
+    <message>
+        <source>Reduce motion</source>
+        <translation>Bawasan ang galaw</translation>
+    </message>
+    <message>
+        <source>Readable font</source>
+        <translation>Font na madaling basahin</translation>
+    </message>
+    <message>
+        <source>Underline links</source>
+        <translation>Salungguhitan ang mga link</translation>
+    </message>
+    <message>
+        <source>Back to the site's own look</source>
+        <translation>Bumalik sa sariling hitsura ng site</translation>
+    </message>
+    <message>
+        <source>Kept on this device only, for every page of this site.</source>
+        <translation>Nakatago lang sa device na ito, para sa bawat pahina ng site na ito.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

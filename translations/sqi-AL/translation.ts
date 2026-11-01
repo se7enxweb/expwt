@@ -2419,6 +2419,54 @@
         <source>The hold was not changed. Try again.</source>
         <translation>Mbajtja nuk u ndryshua. Provoni përsëri.</translation>
     </message>
+    <message>
+        <source>Reading and display</source>
+        <translation>Leximi dhe shfaqja</translation>
+    </message>
+    <message>
+        <source>Text size</source>
+        <translation>Madhësia e tekstit</translation>
+    </message>
+    <message>
+        <source>Normal</source>
+        <translation>Normale</translation>
+    </message>
+    <message>
+        <source>Large</source>
+        <translation>E madhe</translation>
+    </message>
+    <message>
+        <source>Larger</source>
+        <translation>Më e madhe</translation>
+    </message>
+    <message>
+        <source>Largest</source>
+        <translation>Më e madhja</translation>
+    </message>
+    <message>
+        <source>High contrast</source>
+        <translation>Kontrast i lartë</translation>
+    </message>
+    <message>
+        <source>Reduce motion</source>
+        <translation>Zvogëlo lëvizjen</translation>
+    </message>
+    <message>
+        <source>Readable font</source>
+        <translation>Font i lexueshëm</translation>
+    </message>
+    <message>
+        <source>Underline links</source>
+        <translation>Nënvizo lidhjet</translation>
+    </message>
+    <message>
+        <source>Back to the site's own look</source>
+        <translation>Kthehu te pamja e vetë sajtit</translation>
+    </message>
+    <message>
+        <source>Kept on this device only, for every page of this site.</source>
+        <translation>Ruhet vetëm në këtë pajisje, për çdo faqe të këtij sajti.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

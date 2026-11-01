@@ -2419,6 +2419,54 @@
         <source>The hold was not changed. Try again.</source>
         <translation>ತಡೆಯನ್ನು ಬದಲಾಯಿಸಲಾಗಿಲ್ಲ. ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ.</translation>
     </message>
+    <message>
+        <source>Reading and display</source>
+        <translation>ಓದುವಿಕೆ ಮತ್ತು ಪ್ರದರ್ಶನ</translation>
+    </message>
+    <message>
+        <source>Text size</source>
+        <translation>ಪಠ್ಯದ ಗಾತ್ರ</translation>
+    </message>
+    <message>
+        <source>Normal</source>
+        <translation>ಸಾಮಾನ್ಯ</translation>
+    </message>
+    <message>
+        <source>Large</source>
+        <translation>ದೊಡ್ಡದು</translation>
+    </message>
+    <message>
+        <source>Larger</source>
+        <translation>ಇನ್ನಷ್ಟು ದೊಡ್ಡದು</translation>
+    </message>
+    <message>
+        <source>Largest</source>
+        <translation>ಅತಿ ದೊಡ್ಡದು</translation>
+    </message>
+    <message>
+        <source>High contrast</source>
+        <translation>ಹೆಚ್ಚಿನ ಕಾಂಟ್ರಾಸ್ಟ್</translation>
+    </message>
+    <message>
+        <source>Reduce motion</source>
+        <translation>ಚಲನೆಯನ್ನು ಕಡಿಮೆ ಮಾಡಿ</translation>
+    </message>
+    <message>
+        <source>Readable font</source>
+        <translation>ಸುಲಭವಾಗಿ ಓದಬಹುದಾದ ಫಾಂಟ್</translation>
+    </message>
+    <message>
+        <source>Underline links</source>
+        <translation>ಲಿಂಕ್‌ಗಳಿಗೆ ಅಡಿಗೆರೆ ಹಾಕಿ</translation>
+    </message>
+    <message>
+        <source>Back to the site's own look</source>
+        <translation>ಸೈಟ್‌ನ ಸ್ವಂತ ನೋಟಕ್ಕೆ ಹಿಂತಿರುಗಿ</translation>
+    </message>
+    <message>
+        <source>Kept on this device only, for every page of this site.</source>
+        <translation>ಈ ಸಾಧನದಲ್ಲಿ ಮಾತ್ರ ಇರಿಸಲಾಗಿದೆ, ಈ ಸೈಟ್‌ನ ಪ್ರತಿ ಪುಟಕ್ಕೂ.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

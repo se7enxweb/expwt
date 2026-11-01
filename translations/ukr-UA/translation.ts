@@ -2419,6 +2419,54 @@
         <source>The hold was not changed. Try again.</source>
         <translation>Утримання не змінено. Спробуйте ще раз.</translation>
     </message>
+    <message>
+        <source>Reading and display</source>
+        <translation>Читання та відображення</translation>
+    </message>
+    <message>
+        <source>Text size</source>
+        <translation>Розмір тексту</translation>
+    </message>
+    <message>
+        <source>Normal</source>
+        <translation>Звичайний</translation>
+    </message>
+    <message>
+        <source>Large</source>
+        <translation>Великий</translation>
+    </message>
+    <message>
+        <source>Larger</source>
+        <translation>Більший</translation>
+    </message>
+    <message>
+        <source>Largest</source>
+        <translation>Найбільший</translation>
+    </message>
+    <message>
+        <source>High contrast</source>
+        <translation>Висока контрастність</translation>
+    </message>
+    <message>
+        <source>Reduce motion</source>
+        <translation>Зменшити рух</translation>
+    </message>
+    <message>
+        <source>Readable font</source>
+        <translation>Легкий для читання шрифт</translation>
+    </message>
+    <message>
+        <source>Underline links</source>
+        <translation>Підкреслювати посилання</translation>
+    </message>
+    <message>
+        <source>Back to the site's own look</source>
+        <translation>Повернути власний вигляд сайту</translation>
+    </message>
+    <message>
+        <source>Kept on this device only, for every page of this site.</source>
+        <translation>Зберігається лише на цьому пристрої, для кожної сторінки цього сайту.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

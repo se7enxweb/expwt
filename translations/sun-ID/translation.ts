@@ -2419,6 +2419,54 @@
         <source>The hold was not changed. Try again.</source>
         <translation>Tahanan teu robah. Cobian deui.</translation>
     </message>
+    <message>
+        <source>Reading and display</source>
+        <translation>Maca jeung tampilan</translation>
+    </message>
+    <message>
+        <source>Text size</source>
+        <translation>Ukuran téks</translation>
+    </message>
+    <message>
+        <source>Normal</source>
+        <translation>Normal</translation>
+    </message>
+    <message>
+        <source>Large</source>
+        <translation>Gedé</translation>
+    </message>
+    <message>
+        <source>Larger</source>
+        <translation>Leuwih gedé</translation>
+    </message>
+    <message>
+        <source>Largest</source>
+        <translation>Panggedéna</translation>
+    </message>
+    <message>
+        <source>High contrast</source>
+        <translation>Kontras luhur</translation>
+    </message>
+    <message>
+        <source>Reduce motion</source>
+        <translation>Kurangan gerak</translation>
+    </message>
+    <message>
+        <source>Readable font</source>
+        <translation>Font nu gampang dibaca</translation>
+    </message>
+    <message>
+        <source>Underline links</source>
+        <translation>Garis handap tutumbu</translation>
+    </message>
+    <message>
+        <source>Back to the site's own look</source>
+        <translation>Balik deui ka tampilan asli situs</translation>
+    </message>
+    <message>
+        <source>Kept on this device only, for every page of this site.</source>
+        <translation>Ngan disimpen dina alat ieu, pikeun unggal kaca situs ieu.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

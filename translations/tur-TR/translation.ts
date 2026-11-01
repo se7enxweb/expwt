@@ -2419,6 +2419,54 @@
         <source>The hold was not changed. Try again.</source>
         <translation>Bekleme değiştirilmedi. Yeniden deneyin.</translation>
     </message>
+    <message>
+        <source>Reading and display</source>
+        <translation>Okuma ve görünüm</translation>
+    </message>
+    <message>
+        <source>Text size</source>
+        <translation>Metin boyutu</translation>
+    </message>
+    <message>
+        <source>Normal</source>
+        <translation>Normal</translation>
+    </message>
+    <message>
+        <source>Large</source>
+        <translation>Büyük</translation>
+    </message>
+    <message>
+        <source>Larger</source>
+        <translation>Daha büyük</translation>
+    </message>
+    <message>
+        <source>Largest</source>
+        <translation>En büyük</translation>
+    </message>
+    <message>
+        <source>High contrast</source>
+        <translation>Yüksek kontrast</translation>
+    </message>
+    <message>
+        <source>Reduce motion</source>
+        <translation>Hareketi azalt</translation>
+    </message>
+    <message>
+        <source>Readable font</source>
+        <translation>Kolay okunur yazı tipi</translation>
+    </message>
+    <message>
+        <source>Underline links</source>
+        <translation>Bağlantıların altını çiz</translation>
+    </message>
+    <message>
+        <source>Back to the site's own look</source>
+        <translation>Sitenin kendi görünümüne dön</translation>
+    </message>
+    <message>
+        <source>Kept on this device only, for every page of this site.</source>
+        <translation>Yalnızca bu cihazda saklanır, bu sitenin her sayfası için.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

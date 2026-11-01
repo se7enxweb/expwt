@@ -2419,6 +2419,54 @@
         <source>The hold was not changed. Try again.</source>
         <translation>Níor athraíodh an choinneáil. Bain triail eile as.</translation>
     </message>
+    <message>
+        <source>Reading and display</source>
+        <translation>Léamh agus taispeáint</translation>
+    </message>
+    <message>
+        <source>Text size</source>
+        <translation>Méid an téacs</translation>
+    </message>
+    <message>
+        <source>Normal</source>
+        <translation>Gnáth</translation>
+    </message>
+    <message>
+        <source>Large</source>
+        <translation>Mór</translation>
+    </message>
+    <message>
+        <source>Larger</source>
+        <translation>Níos mó</translation>
+    </message>
+    <message>
+        <source>Largest</source>
+        <translation>Is mó</translation>
+    </message>
+    <message>
+        <source>High contrast</source>
+        <translation>Codarsnacht ard</translation>
+    </message>
+    <message>
+        <source>Reduce motion</source>
+        <translation>Laghdaigh gluaiseacht</translation>
+    </message>
+    <message>
+        <source>Readable font</source>
+        <translation>Cló atá éasca le léamh</translation>
+    </message>
+    <message>
+        <source>Underline links</source>
+        <translation>Cuir líne faoi naisc</translation>
+    </message>
+    <message>
+        <source>Back to the site's own look</source>
+        <translation>Ar ais go cuma an tsuímh féin</translation>
+    </message>
+    <message>
+        <source>Kept on this device only, for every page of this site.</source>
+        <translation>Coinnithe ar an ngléas seo amháin, do gach leathanach den suíomh seo.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

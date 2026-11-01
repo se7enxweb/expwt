@@ -2419,6 +2419,54 @@
         <source>The hold was not changed. Try again.</source>
         <translation>Stoppet ble ikke endret. Prøv igjen.</translation>
     </message>
+    <message>
+        <source>Reading and display</source>
+        <translation>Lesing og visning</translation>
+    </message>
+    <message>
+        <source>Text size</source>
+        <translation>Tekststørrelse</translation>
+    </message>
+    <message>
+        <source>Normal</source>
+        <translation>Normal</translation>
+    </message>
+    <message>
+        <source>Large</source>
+        <translation>Stor</translation>
+    </message>
+    <message>
+        <source>Larger</source>
+        <translation>Større</translation>
+    </message>
+    <message>
+        <source>Largest</source>
+        <translation>Størst</translation>
+    </message>
+    <message>
+        <source>High contrast</source>
+        <translation>Høy kontrast</translation>
+    </message>
+    <message>
+        <source>Reduce motion</source>
+        <translation>Reduser bevegelse</translation>
+    </message>
+    <message>
+        <source>Readable font</source>
+        <translation>Lettlest skrift</translation>
+    </message>
+    <message>
+        <source>Underline links</source>
+        <translation>Understrek lenker</translation>
+    </message>
+    <message>
+        <source>Back to the site's own look</source>
+        <translation>Tilbake til nettstedets eget utseende</translation>
+    </message>
+    <message>
+        <source>Kept on this device only, for every page of this site.</source>
+        <translation>Lagres bare på denne enheten, for alle sider på dette nettstedet.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

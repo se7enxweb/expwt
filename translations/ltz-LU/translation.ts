@@ -2419,6 +2419,54 @@
         <source>The hold was not changed. Try again.</source>
         <translation>D'Spär gouf net geännert. Probéiert nach eng Kéier.</translation>
     </message>
+    <message>
+        <source>Reading and display</source>
+        <translation>Liesen an Duerstellung</translation>
+    </message>
+    <message>
+        <source>Text size</source>
+        <translation>Textgréisst</translation>
+    </message>
+    <message>
+        <source>Normal</source>
+        <translation>Normal</translation>
+    </message>
+    <message>
+        <source>Large</source>
+        <translation>Grouss</translation>
+    </message>
+    <message>
+        <source>Larger</source>
+        <translation>Méi grouss</translation>
+    </message>
+    <message>
+        <source>Largest</source>
+        <translation>Am gréissten</translation>
+    </message>
+    <message>
+        <source>High contrast</source>
+        <translation>Héije Kontrast</translation>
+    </message>
+    <message>
+        <source>Reduce motion</source>
+        <translation>Beweegung reduzéieren</translation>
+    </message>
+    <message>
+        <source>Readable font</source>
+        <translation>Gutt liesbar Schrëft</translation>
+    </message>
+    <message>
+        <source>Underline links</source>
+        <translation>Linken ënnersträichen</translation>
+    </message>
+    <message>
+        <source>Back to the site's own look</source>
+        <translation>Zréck zum eegene Look vum Site</translation>
+    </message>
+    <message>
+        <source>Kept on this device only, for every page of this site.</source>
+        <translation>Just op dësem Apparat gespäichert, fir all Säit vun dësem Site.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

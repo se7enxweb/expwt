@@ -16,11 +16,11 @@ class expwtAuditBranch implements expAuditTaxonomyBranch
         return array(
             // a draft's publish date, a page's take-down date or a layout variant's time, moved in the calendar
             'content.expwt.schedule.change' => array( 'label' => 'Schedule moved in the website sidebar', 'severity' => 'info', 'channel' => 'content', 'default' => 'on' ),
-            // an image's focal point or crop rectangle set in a draft (E7)
             // a review hold placed or released in the Page panel (E14), with the reviewer's reason (the kernel records the
             // state itself as content.object.state)
             'content.expwt.hold.place' => array( 'label' => 'Review hold placed in the website sidebar', 'severity' => 'notice', 'channel' => 'content', 'default' => 'on' ),
             'content.expwt.hold.release' => array( 'label' => 'Review hold released in the website sidebar', 'severity' => 'notice', 'channel' => 'content', 'default' => 'on' ),
+            // an image's focal point or crop rectangle set in a draft (E7)
             'content.expwt.image.focal' => array( 'label' => 'Image focal point set in the website sidebar', 'severity' => 'info', 'channel' => 'content', 'default' => 'on' ),
         );
     }

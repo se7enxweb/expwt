@@ -2419,6 +2419,54 @@
         <source>The hold was not changed. Try again.</source>
         <translation>ngaQmoH choHlu'be'. yInIDqa'.</translation>
     </message>
+    <message>
+        <source>Reading and display</source>
+        <translation>laD 'ej cha'</translation>
+    </message>
+    <message>
+        <source>Text size</source>
+        <translation>ghItlh tIn</translation>
+    </message>
+    <message>
+        <source>Normal</source>
+        <translation>motlh</translation>
+    </message>
+    <message>
+        <source>Large</source>
+        <translation>tIn</translation>
+    </message>
+    <message>
+        <source>Larger</source>
+        <translation>tInqu'</translation>
+    </message>
+    <message>
+        <source>Largest</source>
+        <translation>tInwI''a'</translation>
+    </message>
+    <message>
+        <source>High contrast</source>
+        <translation>wov 'ej Hurgh law'</translation>
+    </message>
+    <message>
+        <source>Reduce motion</source>
+        <translation>vIHmey yIghoS</translation>
+    </message>
+    <message>
+        <source>Readable font</source>
+        <translation>ghItlh laDlu'meH ngeD</translation>
+    </message>
+    <message>
+        <source>Underline links</source>
+        <translation>rarwI'mey bIngDaq tlhegh</translation>
+    </message>
+    <message>
+        <source>Back to the site's own look</source>
+        <translation>Daq tu'qom wa'DIch yIchegh</translation>
+    </message>
+    <message>
+        <source>Kept on this device only, for every page of this site.</source>
+        <translation>jan vamDaq neH polta', Daq vam nav Hoch.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

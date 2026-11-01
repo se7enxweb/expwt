@@ -2419,6 +2419,54 @@
         <source>The hold was not changed. Try again.</source>
         <translation>ʻAʻole i loli ke kāohi. E hoʻāʻo hou.</translation>
     </message>
+    <message>
+        <source>Reading and display</source>
+        <translation>Heluhelu a hōʻike</translation>
+    </message>
+    <message>
+        <source>Text size</source>
+        <translation>Ka nui o ka hua palapala</translation>
+    </message>
+    <message>
+        <source>Normal</source>
+        <translation>Maʻamau</translation>
+    </message>
+    <message>
+        <source>Large</source>
+        <translation>Nui</translation>
+    </message>
+    <message>
+        <source>Larger</source>
+        <translation>Nui aʻe</translation>
+    </message>
+    <message>
+        <source>Largest</source>
+        <translation>Nui loa</translation>
+    </message>
+    <message>
+        <source>High contrast</source>
+        <translation>Kaʻokoʻa kiʻekiʻe</translation>
+    </message>
+    <message>
+        <source>Reduce motion</source>
+        <translation>Hōʻemi i ka neʻe</translation>
+    </message>
+    <message>
+        <source>Readable font</source>
+        <translation>Hua palapala maʻalahi ke heluhelu</translation>
+    </message>
+    <message>
+        <source>Underline links</source>
+        <translation>Kaha i lalo o nā loulou</translation>
+    </message>
+    <message>
+        <source>Back to the site's own look</source>
+        <translation>Hoʻi i ke ʻano ponoʻī o ka pūnaewele</translation>
+    </message>
+    <message>
+        <source>Kept on this device only, for every page of this site.</source>
+        <translation>Mālama ʻia ma kēia mea hana wale nō, no kēlā me kēia ʻaoʻao o kēia pūnaewele.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

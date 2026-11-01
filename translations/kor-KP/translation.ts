@@ -2419,6 +2419,54 @@
         <source>The hold was not changed. Try again.</source>
         <translation>보류가 변경되지 않았습니다. 다시 시도하십시오.</translation>
     </message>
+    <message>
+        <source>Reading and display</source>
+        <translation>읽기 및 표시</translation>
+    </message>
+    <message>
+        <source>Text size</source>
+        <translation>글자 크기</translation>
+    </message>
+    <message>
+        <source>Normal</source>
+        <translation>보통</translation>
+    </message>
+    <message>
+        <source>Large</source>
+        <translation>크게</translation>
+    </message>
+    <message>
+        <source>Larger</source>
+        <translation>더 크게</translation>
+    </message>
+    <message>
+        <source>Largest</source>
+        <translation>가장 크게</translation>
+    </message>
+    <message>
+        <source>High contrast</source>
+        <translation>높은 대비</translation>
+    </message>
+    <message>
+        <source>Reduce motion</source>
+        <translation>동작 줄이기</translation>
+    </message>
+    <message>
+        <source>Readable font</source>
+        <translation>읽기 쉬운 글꼴</translation>
+    </message>
+    <message>
+        <source>Underline links</source>
+        <translation>련결 밑줄 표시</translation>
+    </message>
+    <message>
+        <source>Back to the site's own look</source>
+        <translation>사이트 본래의 모양으로 돌아가기</translation>
+    </message>
+    <message>
+        <source>Kept on this device only, for every page of this site.</source>
+        <translation>이 장치에만 보관되며, 이 사이트의 모든 페지에 적용됩니다.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

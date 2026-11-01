@@ -2419,6 +2419,54 @@
         <source>The hold was not changed. Try again.</source>
         <translation>La retención nun camudó. Volvi tentalo.</translation>
     </message>
+    <message>
+        <source>Reading and display</source>
+        <translation>Llectura y visualización</translation>
+    </message>
+    <message>
+        <source>Text size</source>
+        <translation>Tamañu del testu</translation>
+    </message>
+    <message>
+        <source>Normal</source>
+        <translation>Normal</translation>
+    </message>
+    <message>
+        <source>Large</source>
+        <translation>Grande</translation>
+    </message>
+    <message>
+        <source>Larger</source>
+        <translation>Más grande</translation>
+    </message>
+    <message>
+        <source>Largest</source>
+        <translation>Lo más grande</translation>
+    </message>
+    <message>
+        <source>High contrast</source>
+        <translation>Contraste altu</translation>
+    </message>
+    <message>
+        <source>Reduce motion</source>
+        <translation>Amenorgar el movimientu</translation>
+    </message>
+    <message>
+        <source>Readable font</source>
+        <translation>Fonte fácil de lleer</translation>
+    </message>
+    <message>
+        <source>Underline links</source>
+        <translation>Solliñar enllaces</translation>
+    </message>
+    <message>
+        <source>Back to the site's own look</source>
+        <translation>Volver al aspeutu propiu del sitiu</translation>
+    </message>
+    <message>
+        <source>Kept on this device only, for every page of this site.</source>
+        <translation>Guardao namái nesti preséu, pa toles páxines d'esti sitiu.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

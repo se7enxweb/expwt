@@ -2419,6 +2419,54 @@
         <source>The hold was not changed. Try again.</source>
         <translation>Hark'ayqa manam tikrasqachu. Wakmanta ruway.</translation>
     </message>
+    <message>
+        <source>Reading and display</source>
+        <translation>Ñawinchay hinaspa rikuchiy</translation>
+    </message>
+    <message>
+        <source>Text size</source>
+        <translation>Qillqap sayaynin</translation>
+    </message>
+    <message>
+        <source>Normal</source>
+        <translation>Sapa kutin hina</translation>
+    </message>
+    <message>
+        <source>Large</source>
+        <translation>Hatun</translation>
+    </message>
+    <message>
+        <source>Larger</source>
+        <translation>Aswan hatun</translation>
+    </message>
+    <message>
+        <source>Largest</source>
+        <translation>Ancha hatun</translation>
+    </message>
+    <message>
+        <source>High contrast</source>
+        <translation>Hatun contraste</translation>
+    </message>
+    <message>
+        <source>Reduce motion</source>
+        <translation>Kuyuyta pisiyachiy</translation>
+    </message>
+    <message>
+        <source>Readable font</source>
+        <translation>Ñawinchanapaq facil letra</translation>
+    </message>
+    <message>
+        <source>Underline links</source>
+        <translation>Tinkikunata uranpi siqiy</translation>
+    </message>
+    <message>
+        <source>Back to the site's own look</source>
+        <translation>Kutiy sitiop kikin rikchayninman</translation>
+    </message>
+    <message>
+        <source>Kept on this device only, for every page of this site.</source>
+        <translation>Kay antapi sapalla waqaychasqa, kay sitiop sapa rapinpaq.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

@@ -2419,6 +2419,54 @@
         <source>The hold was not changed. Try again.</source>
         <translation>འགོག་འཛིན་བསྒྱུར་མེད། ཡང་བསྐྱར་ཚོད་ལྟ་གནང་།</translation>
     </message>
+    <message>
+        <source>Reading and display</source>
+        <translation>ཀློག་པ་དང་མངོན་སྟོན།</translation>
+    </message>
+    <message>
+        <source>Text size</source>
+        <translation>ཡི་གེའི་ཆེ་ཆུང་།</translation>
+    </message>
+    <message>
+        <source>Normal</source>
+        <translation>རྒྱུན་ལྡན།</translation>
+    </message>
+    <message>
+        <source>Large</source>
+        <translation>ཆེན་པོ།</translation>
+    </message>
+    <message>
+        <source>Larger</source>
+        <translation>དེ་བས་ཆེ་བ།</translation>
+    </message>
+    <message>
+        <source>Largest</source>
+        <translation>ཆེས་ཆེ་བ།</translation>
+    </message>
+    <message>
+        <source>High contrast</source>
+        <translation>ཁྱད་པར་མཐོ་བ།</translation>
+    </message>
+    <message>
+        <source>Reduce motion</source>
+        <translation>འགུལ་སྐྱོད་ཉུང་དུ་གཏོང་།</translation>
+    </message>
+    <message>
+        <source>Readable font</source>
+        <translation>ཀློག་བདེ་བའི་ཡིག་གཟུགས།</translation>
+    </message>
+    <message>
+        <source>Underline links</source>
+        <translation>སྦྲེལ་མཐུད་འོག་ཐིག་འཐེན།</translation>
+    </message>
+    <message>
+        <source>Back to the site's own look</source>
+        <translation>དྲ་ཚིགས་ཀྱི་རང་བཞིན་གྱི་རྣམ་པར་ཕྱིར་ལོག</translation>
+    </message>
+    <message>
+        <source>Kept on this device only, for every page of this site.</source>
+        <translation>སྒྲིག་ཆས་འདི་ཁོ་ནར་ཉར་ཡོད། དྲ་ཚིགས་འདིའི་ཤོག་ངོས་ཡོངས་ལ།</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

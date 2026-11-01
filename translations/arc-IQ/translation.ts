@@ -2419,6 +2419,54 @@
         <source>The hold was not changed. Try again.</source>
         <translation>עכבתא לא אשתניאת. נסי תוב.</translation>
     </message>
+    <message>
+        <source>Reading and display</source>
+        <translation>קריתא וחזותא</translation>
+    </message>
+    <message>
+        <source>Text size</source>
+        <translation>רבותא דכתבא</translation>
+    </message>
+    <message>
+        <source>Normal</source>
+        <translation>פשיטא</translation>
+    </message>
+    <message>
+        <source>Large</source>
+        <translation>רבא</translation>
+    </message>
+    <message>
+        <source>Larger</source>
+        <translation>רבא יתיר</translation>
+    </message>
+    <message>
+        <source>Largest</source>
+        <translation>רבא מן כלהון</translation>
+    </message>
+    <message>
+        <source>High contrast</source>
+        <translation>פרשותא רמתא</translation>
+    </message>
+    <message>
+        <source>Reduce motion</source>
+        <translation>בצר זועא</translation>
+    </message>
+    <message>
+        <source>Readable font</source>
+        <translation>כתבא פשיק למקרא</translation>
+    </message>
+    <message>
+        <source>Underline links</source>
+        <translation>סרטו תחות אסורא</translation>
+    </message>
+    <message>
+        <source>Back to the site's own look</source>
+        <translation>הפך לחזותא דילה דאתרא</translation>
+    </message>
+    <message>
+        <source>Kept on this device only, for every page of this site.</source>
+        <translation>נטיר על הנא מאנא בלחוד, לכל דף דהנא אתרא.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

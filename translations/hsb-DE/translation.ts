@@ -2419,6 +2419,54 @@
         <source>The hold was not changed. Try again.</source>
         <translation>Zadźerženje njeje so změniło. Spytajće hišće raz.</translation>
     </message>
+    <message>
+        <source>Reading and display</source>
+        <translation>Čitanje a zwobraznjenje</translation>
+    </message>
+    <message>
+        <source>Text size</source>
+        <translation>Wulkosć teksta</translation>
+    </message>
+    <message>
+        <source>Normal</source>
+        <translation>Normalny</translation>
+    </message>
+    <message>
+        <source>Large</source>
+        <translation>Wulki</translation>
+    </message>
+    <message>
+        <source>Larger</source>
+        <translation>Wjetši</translation>
+    </message>
+    <message>
+        <source>Largest</source>
+        <translation>Najwjetši</translation>
+    </message>
+    <message>
+        <source>High contrast</source>
+        <translation>Wysoki kontrast</translation>
+    </message>
+    <message>
+        <source>Reduce motion</source>
+        <translation>Pohibowanje pomjeńšić</translation>
+    </message>
+    <message>
+        <source>Readable font</source>
+        <translation>Lochko čitajomne pismo</translation>
+    </message>
+    <message>
+        <source>Underline links</source>
+        <translation>Wotkazy podšmórnyć</translation>
+    </message>
+    <message>
+        <source>Back to the site's own look</source>
+        <translation>Wróćo k napohladej sydła</translation>
+    </message>
+    <message>
+        <source>Kept on this device only, for every page of this site.</source>
+        <translation>Jenož na tutym graće składowane, za kóždu stronu tutoho sydła.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

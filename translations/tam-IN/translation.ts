@@ -2419,6 +2419,54 @@
         <source>The hold was not changed. Try again.</source>
         <translation>நிறுத்திவைப்பு மாற்றப்படவில்லை. மீண்டும் முயற்சிக்கவும்.</translation>
     </message>
+    <message>
+        <source>Reading and display</source>
+        <translation>வாசிப்பும் காட்சியும்</translation>
+    </message>
+    <message>
+        <source>Text size</source>
+        <translation>உரையின் அளவு</translation>
+    </message>
+    <message>
+        <source>Normal</source>
+        <translation>இயல்பு</translation>
+    </message>
+    <message>
+        <source>Large</source>
+        <translation>பெரியது</translation>
+    </message>
+    <message>
+        <source>Larger</source>
+        <translation>மேலும் பெரியது</translation>
+    </message>
+    <message>
+        <source>Largest</source>
+        <translation>மிகப் பெரியது</translation>
+    </message>
+    <message>
+        <source>High contrast</source>
+        <translation>உயர் மாறுபாடு</translation>
+    </message>
+    <message>
+        <source>Reduce motion</source>
+        <translation>இயக்கத்தைக் குறை</translation>
+    </message>
+    <message>
+        <source>Readable font</source>
+        <translation>எளிதில் படிக்கக்கூடிய எழுத்துரு</translation>
+    </message>
+    <message>
+        <source>Underline links</source>
+        <translation>இணைப்புகளுக்கு அடிக்கோடிடு</translation>
+    </message>
+    <message>
+        <source>Back to the site's own look</source>
+        <translation>தளத்தின் சொந்தத் தோற்றத்திற்குத் திரும்பு</translation>
+    </message>
+    <message>
+        <source>Kept on this device only, for every page of this site.</source>
+        <translation>இந்தச் சாதனத்தில் மட்டுமே வைக்கப்படும், இந்தத் தளத்தின் ஒவ்வொரு பக்கத்திற்கும்.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

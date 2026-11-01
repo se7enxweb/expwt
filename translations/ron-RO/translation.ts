@@ -2419,6 +2419,54 @@
         <source>The hold was not changed. Try again.</source>
         <translation>Reținerea nu a fost modificată. Încercați din nou.</translation>
     </message>
+    <message>
+        <source>Reading and display</source>
+        <translation>Citire și afișare</translation>
+    </message>
+    <message>
+        <source>Text size</source>
+        <translation>Dimensiunea textului</translation>
+    </message>
+    <message>
+        <source>Normal</source>
+        <translation>Normală</translation>
+    </message>
+    <message>
+        <source>Large</source>
+        <translation>Mare</translation>
+    </message>
+    <message>
+        <source>Larger</source>
+        <translation>Mai mare</translation>
+    </message>
+    <message>
+        <source>Largest</source>
+        <translation>Cea mai mare</translation>
+    </message>
+    <message>
+        <source>High contrast</source>
+        <translation>Contrast ridicat</translation>
+    </message>
+    <message>
+        <source>Reduce motion</source>
+        <translation>Reducere mișcare</translation>
+    </message>
+    <message>
+        <source>Readable font</source>
+        <translation>Font ușor de citit</translation>
+    </message>
+    <message>
+        <source>Underline links</source>
+        <translation>Subliniază linkurile</translation>
+    </message>
+    <message>
+        <source>Back to the site's own look</source>
+        <translation>Înapoi la aspectul propriu al site-ului</translation>
+    </message>
+    <message>
+        <source>Kept on this device only, for every page of this site.</source>
+        <translation>Păstrat doar pe acest dispozitiv, pentru fiecare pagină a acestui site.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

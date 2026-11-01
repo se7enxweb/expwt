@@ -2419,6 +2419,54 @@
         <source>The hold was not changed. Try again.</source>
         <translation>Retentio non mutata est. Iterum conare.</translation>
     </message>
+    <message>
+        <source>Reading and display</source>
+        <translation>Lectio et species</translation>
+    </message>
+    <message>
+        <source>Text size</source>
+        <translation>Magnitudo textus</translation>
+    </message>
+    <message>
+        <source>Normal</source>
+        <translation>Usitata</translation>
+    </message>
+    <message>
+        <source>Large</source>
+        <translation>Magna</translation>
+    </message>
+    <message>
+        <source>Larger</source>
+        <translation>Maior</translation>
+    </message>
+    <message>
+        <source>Largest</source>
+        <translation>Maxima</translation>
+    </message>
+    <message>
+        <source>High contrast</source>
+        <translation>Contrarietas alta</translation>
+    </message>
+    <message>
+        <source>Reduce motion</source>
+        <translation>Motum minuere</translation>
+    </message>
+    <message>
+        <source>Readable font</source>
+        <translation>Litterae facile legibiles</translation>
+    </message>
+    <message>
+        <source>Underline links</source>
+        <translation>Nexus sublineare</translation>
+    </message>
+    <message>
+        <source>Back to the site's own look</source>
+        <translation>Redire ad speciem propriam situs</translation>
+    </message>
+    <message>
+        <source>Kept on this device only, for every page of this site.</source>
+        <translation>In hoc tantum instrumento servatum, pro omni pagina huius situs.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

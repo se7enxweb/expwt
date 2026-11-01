@@ -2419,6 +2419,54 @@
         <source>The hold was not changed. Try again.</source>
         <translation>Zaźaržanje njejo se změniło. Wopytajśo hyšći raz.</translation>
     </message>
+    <message>
+        <source>Reading and display</source>
+        <translation>Cytanje a zwobraznjenje</translation>
+    </message>
+    <message>
+        <source>Text size</source>
+        <translation>Wjelikosć teksta</translation>
+    </message>
+    <message>
+        <source>Normal</source>
+        <translation>Normalny</translation>
+    </message>
+    <message>
+        <source>Large</source>
+        <translation>Wjeliki</translation>
+    </message>
+    <message>
+        <source>Larger</source>
+        <translation>Wětšy</translation>
+    </message>
+    <message>
+        <source>Largest</source>
+        <translation>Nejwětšy</translation>
+    </message>
+    <message>
+        <source>High contrast</source>
+        <translation>Wusoki kontrast</translation>
+    </message>
+    <message>
+        <source>Reduce motion</source>
+        <translation>Pómjeńšyś pógibowanje</translation>
+    </message>
+    <message>
+        <source>Readable font</source>
+        <translation>Lažko cytajobne pismo</translation>
+    </message>
+    <message>
+        <source>Underline links</source>
+        <translation>Wótkaze pódšmarowaś</translation>
+    </message>
+    <message>
+        <source>Back to the site's own look</source>
+        <translation>Slědk k napóglědoju sedła</translation>
+    </message>
+    <message>
+        <source>Kept on this device only, for every page of this site.</source>
+        <translation>Jano na toś tom rěźe składowane, za kuždy bok toś togo sedła.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

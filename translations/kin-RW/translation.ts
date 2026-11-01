@@ -2419,6 +2419,54 @@
         <source>The hold was not changed. Try again.</source>
         <translation>Ihagarikwa ntiryahinduwe. Ongera ugerageze.</translation>
     </message>
+    <message>
+        <source>Reading and display</source>
+        <translation>Gusoma no kwerekana</translation>
+    </message>
+    <message>
+        <source>Text size</source>
+        <translation>Ingano y'inyandiko</translation>
+    </message>
+    <message>
+        <source>Normal</source>
+        <translation>Bisanzwe</translation>
+    </message>
+    <message>
+        <source>Large</source>
+        <translation>Binini</translation>
+    </message>
+    <message>
+        <source>Larger</source>
+        <translation>Binini kurushaho</translation>
+    </message>
+    <message>
+        <source>Largest</source>
+        <translation>Binini cyane</translation>
+    </message>
+    <message>
+        <source>High contrast</source>
+        <translation>Itandukaniro rihanitse</translation>
+    </message>
+    <message>
+        <source>Reduce motion</source>
+        <translation>Gabanya urujya n'uruza</translation>
+    </message>
+    <message>
+        <source>Readable font</source>
+        <translation>Imyandikire yoroshye gusoma</translation>
+    </message>
+    <message>
+        <source>Underline links</source>
+        <translation>Shyira umurongo munsi y'amahuza</translation>
+    </message>
+    <message>
+        <source>Back to the site's own look</source>
+        <translation>Garuka ku isura y'urubuga nyirizina</translation>
+    </message>
+    <message>
+        <source>Kept on this device only, for every page of this site.</source>
+        <translation>Bibitswe kuri iki gikoresho gusa, kuri buri paji y'uru rubuga.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

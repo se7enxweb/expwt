@@ -2419,6 +2419,54 @@
         <source>The hold was not changed. Try again.</source>
         <translation>ဆိုင်းငံ့ထားမှု မပြောင်းလဲခဲ့ပါ။ ထပ်စမ်းကြည့်ပါ။</translation>
     </message>
+    <message>
+        <source>Reading and display</source>
+        <translation>ဖတ်ရှုခြင်းနှင့် ပြသခြင်း</translation>
+    </message>
+    <message>
+        <source>Text size</source>
+        <translation>စာလုံးအရွယ်အစား</translation>
+    </message>
+    <message>
+        <source>Normal</source>
+        <translation>ပုံမှန်</translation>
+    </message>
+    <message>
+        <source>Large</source>
+        <translation>ကြီး</translation>
+    </message>
+    <message>
+        <source>Larger</source>
+        <translation>ပိုကြီး</translation>
+    </message>
+    <message>
+        <source>Largest</source>
+        <translation>အကြီးဆုံး</translation>
+    </message>
+    <message>
+        <source>High contrast</source>
+        <translation>အလင်းအမှောင် ကွာခြားမှု မြင့်</translation>
+    </message>
+    <message>
+        <source>Reduce motion</source>
+        <translation>လှုပ်ရှားမှု လျှော့ချရန်</translation>
+    </message>
+    <message>
+        <source>Readable font</source>
+        <translation>ဖတ်ရလွယ်သော ဖောင့်</translation>
+    </message>
+    <message>
+        <source>Underline links</source>
+        <translation>လင့်ခ်များကို မျဉ်းသားရန်</translation>
+    </message>
+    <message>
+        <source>Back to the site's own look</source>
+        <translation>ဆိုက်၏ မူလပုံစံသို့ ပြန်သွားရန်</translation>
+    </message>
+    <message>
+        <source>Kept on this device only, for every page of this site.</source>
+        <translation>ဤစက်ပစ္စည်းပေါ်တွင်သာ သိမ်းထားသည်၊ ဤဆိုက်၏ စာမျက်နှာတိုင်းအတွက်။</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

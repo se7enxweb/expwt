@@ -2419,6 +2419,54 @@
         <source>The hold was not changed. Try again.</source>
         <translation>Saxlama dəyişdirilmədi. Yenidən cəhd edin.</translation>
     </message>
+    <message>
+        <source>Reading and display</source>
+        <translation>Oxuma və görünüş</translation>
+    </message>
+    <message>
+        <source>Text size</source>
+        <translation>Mətn ölçüsü</translation>
+    </message>
+    <message>
+        <source>Normal</source>
+        <translation>Normal</translation>
+    </message>
+    <message>
+        <source>Large</source>
+        <translation>Böyük</translation>
+    </message>
+    <message>
+        <source>Larger</source>
+        <translation>Daha böyük</translation>
+    </message>
+    <message>
+        <source>Largest</source>
+        <translation>Ən böyük</translation>
+    </message>
+    <message>
+        <source>High contrast</source>
+        <translation>Yüksək kontrast</translation>
+    </message>
+    <message>
+        <source>Reduce motion</source>
+        <translation>Hərəkəti azalt</translation>
+    </message>
+    <message>
+        <source>Readable font</source>
+        <translation>Asan oxunan şrift</translation>
+    </message>
+    <message>
+        <source>Underline links</source>
+        <translation>Keçidlərin altını xətt çək</translation>
+    </message>
+    <message>
+        <source>Back to the site's own look</source>
+        <translation>Saytın öz görünüşünə qayıt</translation>
+    </message>
+    <message>
+        <source>Kept on this device only, for every page of this site.</source>
+        <translation>Yalnız bu cihazda saxlanılır, bu saytın hər səhifəsi üçün.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

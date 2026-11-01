@@ -2419,6 +2419,54 @@
         <source>The hold was not changed. Try again.</source>
         <translation>నిలుపుదల మార్చబడలేదు. మళ్ళీ ప్రయత్నించండి.</translation>
     </message>
+    <message>
+        <source>Reading and display</source>
+        <translation>చదవడం మరియు ప్రదర్శన</translation>
+    </message>
+    <message>
+        <source>Text size</source>
+        <translation>టెక్స్ట్ పరిమాణం</translation>
+    </message>
+    <message>
+        <source>Normal</source>
+        <translation>సాధారణం</translation>
+    </message>
+    <message>
+        <source>Large</source>
+        <translation>పెద్దది</translation>
+    </message>
+    <message>
+        <source>Larger</source>
+        <translation>ఇంకా పెద్దది</translation>
+    </message>
+    <message>
+        <source>Largest</source>
+        <translation>అతి పెద్దది</translation>
+    </message>
+    <message>
+        <source>High contrast</source>
+        <translation>అధిక కాంట్రాస్ట్</translation>
+    </message>
+    <message>
+        <source>Reduce motion</source>
+        <translation>కదలికను తగ్గించు</translation>
+    </message>
+    <message>
+        <source>Readable font</source>
+        <translation>సులభంగా చదవగలిగే ఫాంట్</translation>
+    </message>
+    <message>
+        <source>Underline links</source>
+        <translation>లింక్‌లకు అండర్‌లైన్</translation>
+    </message>
+    <message>
+        <source>Back to the site's own look</source>
+        <translation>సైట్ స్వంత రూపానికి తిరిగి వెళ్ళు</translation>
+    </message>
+    <message>
+        <source>Kept on this device only, for every page of this site.</source>
+        <translation>ఈ పరికరంలో మాత్రమే ఉంచబడుతుంది, ఈ సైట్‌లోని ప్రతి పేజీకి.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

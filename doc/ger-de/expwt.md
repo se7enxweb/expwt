@@ -107,7 +107,7 @@ der Stelle von ezwt in den aktiven Erweiterungen. Ein Probelauf listet die Ände
 
 | Bereich | Für | Was |
 |---|---|---|
-| Willkommen | nicht angemeldete Besucher (`ShowToAnonymous`) | anmelden, registrieren, suchen, hell oder dunkel |
+| Willkommen | nicht angemeldete Besucher (`ShowToAnonymous`) | anmelden, registrieren, suchen, hell oder dunkel, Lesen und Darstellung für die ganze Website (siehe „Barrierefreiheit für Besucher“ unten) |
 | Seite | `expwt/use` (lesen), `expwt/edit` (ändern) | die Felder der Seite in einem Formular, auf der Seite bearbeiten, Entwurf speichern, Vorschau, die Seite auf mehreren Geräten nebeneinander (siehe „Gerätevorschau“ unten), der volle Editor, jetzt oder zu einem Zeitpunkt veröffentlichen, zu einem Zeitpunkt zurückziehen, Entwurf verwerfen; unter jedem Bildfeld sein Fokuspunkt und Zuschnitt mit einer Vorschau jeder Größe (siehe „Fokuspunkt und Zuschnitt“ unten) |
 | Seite: Kommentare | `expwt/edit`; jede Aktion die Richtlinie des Kernels für den Kommentar (`content/hide`, `content/remove`) oder für die Seite (`content/create` eines Kommentars) | die Kommentare der Seite, an Ort und Stelle moderiert, unter den Feldern des Bereichs Seite. Die Kommentare sind Inhalte unter der Seite (die Klasse aus expservices.ini `[Community] CommentClass`, vorgegeben `comment`), daher sind die Inhaltsrichtlinien des Kernels die Richtlinien der Kommentare. Neueste zuerst, höchstens 50; verborgene Kommentare sind die, die auf Moderation warten, und erscheinen, markiert, nur für die, die sie einblenden dürfen (`content/hide` des Kommentars). **Freigeben** zeigt einen verborgenen Kommentar, **Verbergen** verbirgt einen sichtbaren (beides `content/hide`, über die Verbergen-Operation des Kernels wie Verbergen und Einblenden der Administration); **Spam ...** fragt im Bereich noch einmal und verschiebt den Kommentar in den Papierkorb (`content/remove`; in der Administration aus dem Papierkorb wiederherstellbar). **Antworten** schreibt einen Kommentar des Benutzers unter die Seite (Betreff „Re: " und der Betreff des Kommentars, der Name des Benutzers als Autor), veröffentlicht über die Veröffentlichung des Kernels, ein Freigabe-Workflow greift also; **Kommentar schreiben** tut dasselbe für die Seite selbst. „Bestätigen Sie, dass Sie es sind" fragt genau dort, wo die Administration beim Verbergen, Entfernen und Veröffentlichen fragt. Jede Moderation und Antwort wird protokolliert (`content.comment.approve`, `.hide`, `.spam`, `.reply`). Die Zahl der Kommentare, die auf Moderation warten, steht als Zähler auf dem Reiter des Bereichs Seite (aus dem Start der Seitenleiste, keine zusätzliche Anfrage; keiner bei 0). Mit `[Comments] HideNew=enabled` wartet ein neuer Kommentar auf Moderation: Ein Kommentar, den jemand zum ersten Mal veröffentlicht, der ihn nicht freigeben darf (kein `content/hide` des Kommentars: ein Besucher, ein Mitglied), wird gleich nach dem Veröffentlichen verborgen, innerhalb der Veröffentlichung des Kernels, die Seite zeigt ihn also nie; eigene Kommentare und Antworten der Moderatoren bleiben sichtbar |
 | Anlegen | `expwt/create` | eine neue Seite unter oder neben dieser: die Klassen, die Sie dort anlegen dürfen, ein Titel, dann im Bereich Seite ausfüllen und veröffentlichen |
@@ -251,6 +251,33 @@ der Browser vorher ab, zeigt der geschlossene Reiter auf dieser Seite beim näch
 Text wieder ein und speichert ihn in den Entwurf) und **Verwerfen**. Ein Feld, das inzwischen jemand anderes auf dem
 Server geändert hat, geht durch die Zusammenführung Feld für Feld (oben). Veröffentlichen oder Verwerfen des Entwurfs
 entfernt die Kopie.
+
+### Barrierefreiheit für Besucher
+
+Wo nicht angemeldete Besucher die Seitenleiste sehen (`ShowToAnonymous=enabled`, oder `policy` mit `expwt/use` für die
+Rolle Anonymous), hat ihr Bereich „Willkommen“ **Lesen und Darstellung**: Einstellungen für die ganze Website, nicht nur
+für die Seitenleiste.
+
+- **Textgröße:** Normal, Groß (125 %), Größer (150 %), Am größten (200 %). Sie skaliert die eigene Grundgröße der Website,
+  ein Design in `rem` (media, smarty_media, twig_media und die meisten Themes) wächst also überall und bricht um, statt zu
+  zoomen.
+- **Hoher Kontrast:** Text in einer Farbe auf einem Hintergrund (schwarz auf weiß, weiß auf schwarz, wo die Website oder
+  das System dunkel ist), Links in einer eigenen Farbe, jeder Rahmen in der Textfarbe, ein kräftiger Fokusrahmen;
+  Hintergrundbilder und Schatten entfallen. Bilder, Videos und die Seitenleiste bleiben, wie sie sind.
+- **Bewegung reduzieren:** Animationen und Übergänge enden sofort, weiches Scrollen ist aus (zusätzlich zu dem, was die
+  Website für „Bewegung reduzieren“ des Systems tut).
+- **Gut lesbare Schrift:** eine schlichte serifenlose Schrift mit etwas mehr Buchstaben- und Wortabstand und höherem
+  Zeilenabstand; Code und Symbolzeichen behalten ihre.
+- **Links unterstreichen:** jeder Link unterstrichen.
+
+Die Auswahl wird **auf diesem Gerät** gespeichert (im lokalen Speicher des Browsers, `expwt.visitor`), nie auf dem
+Server, und gilt auf jeder Seite der Website, sobald sie lädt. **Zurück zum Aussehen der Website** vergisst sie. Sie
+wirkt über Attribute auf `<html>` (`data-expwt-text`, `data-expwt-a11y`) und ein Stylesheet aus Tokens (`--expwt-a11y-*`,
+mit hellen und dunklen Werten), das nur diese Attribute einschalten: Für einen Besucher ohne Auswahl ändert sich nichts,
+kein Inline-Style wird geschrieben. Damit die Auswahl gegen Farben, Schriften und Animationen eines Themes gewinnt, sind
+die Regeln absichtlich `!important`. Ein angemeldeter Benutzer auf demselben Gerät behält die Auswahl. Mit
+`ShowToAnonymous=disabled` (der Voreinstellung) bekommen Besucher keine Seitenleiste, also auch nichts hiervon, und
+kein Byte mehr.
 
 ### Prüfsperre
 

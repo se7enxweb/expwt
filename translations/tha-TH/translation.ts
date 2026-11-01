@@ -2419,6 +2419,54 @@
         <source>The hold was not changed. Try again.</source>
         <translation>การระงับไม่ได้เปลี่ยนแปลง โปรดลองอีกครั้ง</translation>
     </message>
+    <message>
+        <source>Reading and display</source>
+        <translation>การอ่านและการแสดงผล</translation>
+    </message>
+    <message>
+        <source>Text size</source>
+        <translation>ขนาดตัวอักษร</translation>
+    </message>
+    <message>
+        <source>Normal</source>
+        <translation>ปกติ</translation>
+    </message>
+    <message>
+        <source>Large</source>
+        <translation>ใหญ่</translation>
+    </message>
+    <message>
+        <source>Larger</source>
+        <translation>ใหญ่ขึ้น</translation>
+    </message>
+    <message>
+        <source>Largest</source>
+        <translation>ใหญ่ที่สุด</translation>
+    </message>
+    <message>
+        <source>High contrast</source>
+        <translation>ความเปรียบต่างสูง</translation>
+    </message>
+    <message>
+        <source>Reduce motion</source>
+        <translation>ลดการเคลื่อนไหว</translation>
+    </message>
+    <message>
+        <source>Readable font</source>
+        <translation>แบบอักษรที่อ่านง่าย</translation>
+    </message>
+    <message>
+        <source>Underline links</source>
+        <translation>ขีดเส้นใต้ลิงก์</translation>
+    </message>
+    <message>
+        <source>Back to the site's own look</source>
+        <translation>กลับไปใช้รูปลักษณ์เดิมของเว็บไซต์</translation>
+    </message>
+    <message>
+        <source>Kept on this device only, for every page of this site.</source>
+        <translation>เก็บไว้ในอุปกรณ์นี้เท่านั้น สำหรับทุกหน้าของเว็บไซต์นี้</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

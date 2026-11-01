@@ -2419,6 +2419,54 @@
         <source>The hold was not changed. Try again.</source>
         <translation>Daraade nde waylaaka. Eto kadi.</translation>
     </message>
+    <message>
+        <source>Reading and display</source>
+        <translation>Janngugol e hollirde</translation>
+    </message>
+    <message>
+        <source>Text size</source>
+        <translation>Mawnugo binndi</translation>
+    </message>
+    <message>
+        <source>Normal</source>
+        <translation>Ko woowaa</translation>
+    </message>
+    <message>
+        <source>Large</source>
+        <translation>Mawɗo</translation>
+    </message>
+    <message>
+        <source>Larger</source>
+        <translation>Ɓuri mawnude</translation>
+    </message>
+    <message>
+        <source>Largest</source>
+        <translation>Ɓurɗo mawnude fof</translation>
+    </message>
+    <message>
+        <source>High contrast</source>
+        <translation>Luural toowngal</translation>
+    </message>
+    <message>
+        <source>Reduce motion</source>
+        <translation>Ustu dillere</translation>
+    </message>
+    <message>
+        <source>Readable font</source>
+        <translation>Binndi newɗi janngude</translation>
+    </message>
+    <message>
+        <source>Underline links</source>
+        <translation>Ɗoo ɗowi les jokkorɗe</translation>
+    </message>
+    <message>
+        <source>Back to the site's own look</source>
+        <translation>Rutto e mbaadi lowre ndee e hoore mayre</translation>
+    </message>
+    <message>
+        <source>Kept on this device only, for every page of this site.</source>
+        <translation>Danndaa e ngal kaɓirgal tan, ngam hello kala e ndee lowre.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

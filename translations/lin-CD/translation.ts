@@ -2419,6 +2419,54 @@
         <source>The hold was not changed. Try again.</source>
         <translation>Kosimba ebongwani te. Meká lisusu.</translation>
     </message>
+    <message>
+        <source>Reading and display</source>
+        <translation>Kotánga mpe komónisa</translation>
+    </message>
+    <message>
+        <source>Text size</source>
+        <translation>Monene ya makomi</translation>
+    </message>
+    <message>
+        <source>Normal</source>
+        <translation>Ya momesano</translation>
+    </message>
+    <message>
+        <source>Large</source>
+        <translation>Monene</translation>
+    </message>
+    <message>
+        <source>Larger</source>
+        <translation>Monene koleka</translation>
+    </message>
+    <message>
+        <source>Largest</source>
+        <translation>Monene mingi</translation>
+    </message>
+    <message>
+        <source>High contrast</source>
+        <translation>Bokeseni makasi</translation>
+    </message>
+    <message>
+        <source>Reduce motion</source>
+        <translation>Kitisá mobulu</translation>
+    </message>
+    <message>
+        <source>Readable font</source>
+        <translation>Makomi ya kotánga pɛtɛɛ</translation>
+    </message>
+    <message>
+        <source>Underline links</source>
+        <translation>Tyá molɔngɔ́ na nsé ya ba lien</translation>
+    </message>
+    <message>
+        <source>Back to the site's own look</source>
+        <translation>Zóngá na lolenge ya site yango moko</translation>
+    </message>
+    <message>
+        <source>Kept on this device only, for every page of this site.</source>
+        <translation>Ebombami kaka na esaleli oyo, mpo na lokasa nyonso ya site oyo.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

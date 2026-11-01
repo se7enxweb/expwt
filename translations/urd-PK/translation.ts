@@ -2419,6 +2419,54 @@
         <source>The hold was not changed. Try again.</source>
         <translation>روک تبدیل نہیں ہوئی۔ دوبارہ کوشش کریں۔</translation>
     </message>
+    <message>
+        <source>Reading and display</source>
+        <translation>پڑھنا اور ڈسپلے</translation>
+    </message>
+    <message>
+        <source>Text size</source>
+        <translation>متن کا سائز</translation>
+    </message>
+    <message>
+        <source>Normal</source>
+        <translation>عام</translation>
+    </message>
+    <message>
+        <source>Large</source>
+        <translation>بڑا</translation>
+    </message>
+    <message>
+        <source>Larger</source>
+        <translation>مزید بڑا</translation>
+    </message>
+    <message>
+        <source>Largest</source>
+        <translation>سب سے بڑا</translation>
+    </message>
+    <message>
+        <source>High contrast</source>
+        <translation>ہائی کنٹراسٹ</translation>
+    </message>
+    <message>
+        <source>Reduce motion</source>
+        <translation>حرکت کم کریں</translation>
+    </message>
+    <message>
+        <source>Readable font</source>
+        <translation>آسانی سے پڑھا جانے والا فونٹ</translation>
+    </message>
+    <message>
+        <source>Underline links</source>
+        <translation>لنکس کو خط کشیدہ کریں</translation>
+    </message>
+    <message>
+        <source>Back to the site's own look</source>
+        <translation>سائٹ کی اپنی شکل پر واپس جائیں</translation>
+    </message>
+    <message>
+        <source>Kept on this device only, for every page of this site.</source>
+        <translation>صرف اس آلے پر محفوظ، اس سائٹ کے ہر صفحے کے لیے۔</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

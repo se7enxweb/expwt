@@ -2419,6 +2419,54 @@
         <source>The hold was not changed. Try again.</source>
         <translation>Pitoa ei muutettu. Yritä uudelleen.</translation>
     </message>
+    <message>
+        <source>Reading and display</source>
+        <translation>Lukeminen ja näyttö</translation>
+    </message>
+    <message>
+        <source>Text size</source>
+        <translation>Tekstin koko</translation>
+    </message>
+    <message>
+        <source>Normal</source>
+        <translation>Normaali</translation>
+    </message>
+    <message>
+        <source>Large</source>
+        <translation>Suuri</translation>
+    </message>
+    <message>
+        <source>Larger</source>
+        <translation>Suurempi</translation>
+    </message>
+    <message>
+        <source>Largest</source>
+        <translation>Suurin</translation>
+    </message>
+    <message>
+        <source>High contrast</source>
+        <translation>Suuri kontrasti</translation>
+    </message>
+    <message>
+        <source>Reduce motion</source>
+        <translation>Vähennä liikettä</translation>
+    </message>
+    <message>
+        <source>Readable font</source>
+        <translation>Helppolukuinen fontti</translation>
+    </message>
+    <message>
+        <source>Underline links</source>
+        <translation>Alleviivaa linkit</translation>
+    </message>
+    <message>
+        <source>Back to the site's own look</source>
+        <translation>Takaisin sivuston omaan ulkoasuun</translation>
+    </message>
+    <message>
+        <source>Kept on this device only, for every page of this site.</source>
+        <translation>Tallennettu vain tälle laitteelle, tämän sivuston jokaiselle sivulle.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

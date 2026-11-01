@@ -2419,6 +2419,54 @@
         <source>The hold was not changed. Try again.</source>
         <translation>ځنډ بدل نه شو. بیا هڅه وکړئ.</translation>
     </message>
+    <message>
+        <source>Reading and display</source>
+        <translation>لوستل او ښودنه</translation>
+    </message>
+    <message>
+        <source>Text size</source>
+        <translation>د متن اندازه</translation>
+    </message>
+    <message>
+        <source>Normal</source>
+        <translation>عادي</translation>
+    </message>
+    <message>
+        <source>Large</source>
+        <translation>لوی</translation>
+    </message>
+    <message>
+        <source>Larger</source>
+        <translation>لا لوی</translation>
+    </message>
+    <message>
+        <source>Largest</source>
+        <translation>تر ټولو لوی</translation>
+    </message>
+    <message>
+        <source>High contrast</source>
+        <translation>لوړ تضاد</translation>
+    </message>
+    <message>
+        <source>Reduce motion</source>
+        <translation>حرکت کم کړئ</translation>
+    </message>
+    <message>
+        <source>Readable font</source>
+        <translation>په اسانۍ لوستل کېدونکی فونټ</translation>
+    </message>
+    <message>
+        <source>Underline links</source>
+        <translation>تړنو ته لاندې کرښه</translation>
+    </message>
+    <message>
+        <source>Back to the site's own look</source>
+        <translation>د سایټ خپل بڼې ته ستنېدل</translation>
+    </message>
+    <message>
+        <source>Kept on this device only, for every page of this site.</source>
+        <translation>یوازې په دې وسیله ساتل کېږي، د دې سایټ د هرې پاڼې لپاره.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

@@ -22,7 +22,11 @@ class expwtStrings
                        'Light or dark', 'Like the site', 'Like the system', 'Light', 'Dark', 'The sidebar was moved.', 'The sidebar is on the left.',
                        'The sidebar is on the right.', 'The sidebar is at the top.', 'The sidebar is at the bottom.',
                        'Ctrl and an arrow key put it on another edge.', 'Height of the sidebar', 'Loading ...',
-                       'The sidebar could not reach the server.', 'Try again' );
+                       'The sidebar could not reach the server.', 'Try again',
+                       // visitor accessibility in the Welcome panel (E15)
+                       'Reading and display', 'Text size', 'Normal', 'Large', 'Larger', 'Largest', 'High contrast',
+                       'Reduce motion', 'Readable font', 'Underline links', 'Back to the site\'s own look',
+                       'Kept on this device only, for every page of this site.' );
 
     /* sources:start (generated: every string of the panels, the views and the refusals) */
     const SOURCES = array(
@@ -602,6 +606,18 @@ class expwtStrings
         'You may not hold this page.',
         'You may not release this page.',
         'The hold was not changed. Try again.',
+        'Reading and display',
+        'Text size',
+        'Normal',
+        'Large',
+        'Larger',
+        'Largest',
+        'High contrast',
+        'Reduce motion',
+        'Readable font',
+        'Underline links',
+        'Back to the site\'s own look',
+        'Kept on this device only, for every page of this site.',
     );
     /* sources:end */
 

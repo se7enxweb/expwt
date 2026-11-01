@@ -2419,6 +2419,54 @@
         <source>The hold was not changed. Try again.</source>
         <translation>Sulaikymas nepakeistas. Bandykite dar kartą.</translation>
     </message>
+    <message>
+        <source>Reading and display</source>
+        <translation>Skaitymas ir rodinys</translation>
+    </message>
+    <message>
+        <source>Text size</source>
+        <translation>Teksto dydis</translation>
+    </message>
+    <message>
+        <source>Normal</source>
+        <translation>Įprastas</translation>
+    </message>
+    <message>
+        <source>Large</source>
+        <translation>Didelis</translation>
+    </message>
+    <message>
+        <source>Larger</source>
+        <translation>Didesnis</translation>
+    </message>
+    <message>
+        <source>Largest</source>
+        <translation>Didžiausias</translation>
+    </message>
+    <message>
+        <source>High contrast</source>
+        <translation>Didelis kontrastas</translation>
+    </message>
+    <message>
+        <source>Reduce motion</source>
+        <translation>Mažinti judesį</translation>
+    </message>
+    <message>
+        <source>Readable font</source>
+        <translation>Lengvai skaitomas šriftas</translation>
+    </message>
+    <message>
+        <source>Underline links</source>
+        <translation>Pabraukti nuorodas</translation>
+    </message>
+    <message>
+        <source>Back to the site's own look</source>
+        <translation>Grįžti prie svetainės išvaizdos</translation>
+    </message>
+    <message>
+        <source>Kept on this device only, for every page of this site.</source>
+        <translation>Saugoma tik šiame įrenginyje, kiekvienam šios svetainės puslapiui.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

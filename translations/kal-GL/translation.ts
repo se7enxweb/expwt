@@ -2419,6 +2419,54 @@
         <source>The hold was not changed. Try again.</source>
         <translation>Unitsitsineq allanngortinneqanngilaq. Misiliiteqqiguk.</translation>
     </message>
+    <message>
+        <source>Reading and display</source>
+        <translation>Atuarneq takutitsinerlu</translation>
+    </message>
+    <message>
+        <source>Text size</source>
+        <translation>Allakkap angissusia</translation>
+    </message>
+    <message>
+        <source>Normal</source>
+        <translation>Nalinginnaasoq</translation>
+    </message>
+    <message>
+        <source>Large</source>
+        <translation>Angisooq</translation>
+    </message>
+    <message>
+        <source>Larger</source>
+        <translation>Angineroq</translation>
+    </message>
+    <message>
+        <source>Largest</source>
+        <translation>Angineq</translation>
+    </message>
+    <message>
+        <source>High contrast</source>
+        <translation>Kontrasti qaffasissoq</translation>
+    </message>
+    <message>
+        <source>Reduce motion</source>
+        <translation>Aalaneq annikillisiguk</translation>
+    </message>
+    <message>
+        <source>Readable font</source>
+        <translation>Allanneq atuarnissaanut oqitsoq</translation>
+    </message>
+    <message>
+        <source>Underline links</source>
+        <translation>Innersuussutit ataannik titarlugit</translation>
+    </message>
+    <message>
+        <source>Back to the site's own look</source>
+        <translation>Nittartakkap isikkuanut uterit</translation>
+    </message>
+    <message>
+        <source>Kept on this device only, for every page of this site.</source>
+        <translation>Atortumi matumani kisimi toqqorneqarpoq, nittartakkami matumani quppernerit tamaasa.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

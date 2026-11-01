@@ -2419,6 +2419,54 @@
         <source>The hold was not changed. Try again.</source>
         <translation>Wometrɔ lélé la o. Gate kpɔ ake.</translation>
     </message>
+    <message>
+        <source>Reading and display</source>
+        <translation>Nuxexlẽ kple ɖeɖefia</translation>
+    </message>
+    <message>
+        <source>Text size</source>
+        <translation>Nuŋɔŋlɔ ƒe lolome</translation>
+    </message>
+    <message>
+        <source>Normal</source>
+        <translation>Gbɔdzɔgbɔdzɔ</translation>
+    </message>
+    <message>
+        <source>Large</source>
+        <translation>Gã</translation>
+    </message>
+    <message>
+        <source>Larger</source>
+        <translation>Gã wu</translation>
+    </message>
+    <message>
+        <source>Largest</source>
+        <translation>Gã wu kekeake</translation>
+    </message>
+    <message>
+        <source>High contrast</source>
+        <translation>Vovototo gã</translation>
+    </message>
+    <message>
+        <source>Reduce motion</source>
+        <translation>Ɖe ʋuʋu dzi kpɔtɔ</translation>
+    </message>
+    <message>
+        <source>Readable font</source>
+        <translation>Nuŋɔŋlɔ si xexlẽ bɔbɔe</translation>
+    </message>
+    <message>
+        <source>Underline links</source>
+        <translation>Te fli ɖe kadodowo te</translation>
+    </message>
+    <message>
+        <source>Back to the site's own look</source>
+        <translation>Trɔ yi nyatakakadzraɖoƒe la ŋutɔ ƒe dzedzeme dzi</translation>
+    </message>
+    <message>
+        <source>Kept on this device only, for every page of this site.</source>
+        <translation>Wodzrae ɖo ɖe dɔwɔnu sia dzi ko, na nyatakakadzraɖoƒe sia ƒe axa ɖesiaɖe.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

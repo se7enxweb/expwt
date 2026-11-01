@@ -2419,6 +2419,54 @@
         <source>The hold was not changed. Try again.</source>
         <translation>रोक नेईं बदली। फ्ही कोशश करो।</translation>
     </message>
+    <message>
+        <source>Reading and display</source>
+        <translation>पढ़ना ते दिक्खना</translation>
+    </message>
+    <message>
+        <source>Text size</source>
+        <translation>टैक्स्ट दा आकार</translation>
+    </message>
+    <message>
+        <source>Normal</source>
+        <translation>आम</translation>
+    </message>
+    <message>
+        <source>Large</source>
+        <translation>बड्डा</translation>
+    </message>
+    <message>
+        <source>Larger</source>
+        <translation>होर बड्डा</translation>
+    </message>
+    <message>
+        <source>Largest</source>
+        <translation>सारें शा बड्डा</translation>
+    </message>
+    <message>
+        <source>High contrast</source>
+        <translation>उच्च कंट्रास्ट</translation>
+    </message>
+    <message>
+        <source>Reduce motion</source>
+        <translation>हिलजुल घट्ट करो</translation>
+    </message>
+    <message>
+        <source>Readable font</source>
+        <translation>सौखा पढ़ने आह्‌ला फ़ॉन्ट</translation>
+    </message>
+    <message>
+        <source>Underline links</source>
+        <translation>लिंकें हेठ लकीर</translation>
+    </message>
+    <message>
+        <source>Back to the site's own look</source>
+        <translation>साइट दे अपने रूप पर परतो</translation>
+    </message>
+    <message>
+        <source>Kept on this device only, for every page of this site.</source>
+        <translation>सिर्फ इस डिवाइस पर रक्खेआ गेदा, इस साइट दे हर सफे आस्तै।</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

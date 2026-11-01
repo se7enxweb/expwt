@@ -2419,6 +2419,54 @@
         <source>The hold was not changed. Try again.</source>
         <translation>Zadržanje ni bilo spremenjeno. Poskusite znova.</translation>
     </message>
+    <message>
+        <source>Reading and display</source>
+        <translation>Branje in prikaz</translation>
+    </message>
+    <message>
+        <source>Text size</source>
+        <translation>Velikost besedila</translation>
+    </message>
+    <message>
+        <source>Normal</source>
+        <translation>Običajna</translation>
+    </message>
+    <message>
+        <source>Large</source>
+        <translation>Velika</translation>
+    </message>
+    <message>
+        <source>Larger</source>
+        <translation>Večja</translation>
+    </message>
+    <message>
+        <source>Largest</source>
+        <translation>Največja</translation>
+    </message>
+    <message>
+        <source>High contrast</source>
+        <translation>Visok kontrast</translation>
+    </message>
+    <message>
+        <source>Reduce motion</source>
+        <translation>Zmanjšaj gibanje</translation>
+    </message>
+    <message>
+        <source>Readable font</source>
+        <translation>Lahko berljiva pisava</translation>
+    </message>
+    <message>
+        <source>Underline links</source>
+        <translation>Podčrtaj povezave</translation>
+    </message>
+    <message>
+        <source>Back to the site's own look</source>
+        <translation>Nazaj na izvirni videz spletnega mesta</translation>
+    </message>
+    <message>
+        <source>Kept on this device only, for every page of this site.</source>
+        <translation>Shranjeno samo v tej napravi, za vsako stran tega spletnega mesta.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

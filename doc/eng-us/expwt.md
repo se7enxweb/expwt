@@ -99,7 +99,7 @@ extensions. A dry run lists the changes first.
 
 | Panel | For | What |
 |---|---|---|
-| Welcome | visitors not signed in (`ShowToAnonymous`) | sign in, register, search, light or dark |
+| Welcome | visitors not signed in (`ShowToAnonymous`) | sign in, register, search, light or dark, reading and display for the whole site (see "Visitor accessibility" below) |
 | Page | `expwt/use` (reading), `expwt/edit` (changing) | the page's fields in a form, editing on the page, save the draft, preview, the page on several devices side by side (see "Device preview" below), the full editor, publish now or at a date, take down at a date, discard the draft; under each image field its focal point and crop with a preview of every size (see "Focal point and crop" below) |
 | Page: comments | `expwt/edit`; each action the kernel's policy of the comment (`content/hide`, `content/remove`) or of the page (`content/create` of a comment) | the page's comments, moderated in place, below the fields of the Page panel. The comments are content below the page (the class of expservices.ini `[Community] CommentClass`, `comment` by default), so the kernel's content policies are the comments' policies. Newest first, at most 50; hidden comments are the ones waiting for moderation and are listed, marked, only for those who may reveal them (`content/hide` of the comment). **Approve** shows a hidden comment, **Hide** hides a shown one (both `content/hide`, through the kernel's hide operation, as the administration's Hide and Reveal); **Spam ...** asks once more in the panel and moves the comment to the trash (`content/remove`; it can be restored from the trash in the administration). **Reply** writes a comment below the page by the user (subject "Re: " and the comment's subject, the user's name as the author), published through the kernel's publishing, so an approval workflow applies; **Write a comment** does the same for the page itself. "Verify it's you" asks exactly where the administration asks for hiding, removing and publishing. Each moderation and reply is audited (`content.comment.approve`, `.hide`, `.spam`, `.reply`). The number of comments waiting for moderation is a badge on the Page panel's tab (from the boot, no extra request; none at 0). With `[Comments] HideNew=enabled` a new comment waits for moderation: a comment published for the first time by someone who may not approve it (no `content/hide` of the comment: a visitor, a member) is hidden right after publishing, inside the kernel's publish operation, so the page never shows it; moderators' own comments and their replies stay visible |
 | Create | `expwt/create` | a new page below or beside this one: the classes you may create there, a title, then fill it in the Page panel and publish |
@@ -229,6 +229,30 @@ language). If the window closed, the connection dropped or the browser crashed b
 **!** on that page next time ("Unsaved changes on this page"), and the Page panel says which fields and from when, with
 **Restore** (puts the text back and saves it to the draft) and **Discard**. A field someone else changed on the server
 in the meantime goes through the field by field merge (above). Publishing or discarding the draft removes the copy.
+
+### Visitor accessibility
+
+Where visitors who are not signed in see the sidebar (`ShowToAnonymous=enabled`, or `policy` with `expwt/use` for the
+Anonymous role), its Welcome panel has **Reading and display**: settings for the whole site, not only the sidebar.
+
+- **Text size:** Normal, Large (125%), Larger (150%), Largest (200%). It scales the site's own root size, so a design
+  sized in `rem` (media, smarty_media, twig_media and most themes) grows everywhere, wrapping instead of zooming.
+- **High contrast:** text in one color on one background (black on white, white on black where the site or the system
+  is dark), links in a color of their own, every border in the text color, a strong focus outline; background images
+  and shadows go. Images, video and the sidebar stay as they are.
+- **Reduce motion:** animations and transitions end at once, smooth scrolling is off (on top of what the site does for
+  the system's own "reduce motion").
+- **Readable font:** a plain sans-serif typeface with a little more letter and word spacing and a taller line height;
+  code and icon glyphs keep theirs.
+- **Underline links:** every link underlined.
+
+The choices are kept **on this device** (the browser's local storage, `expwt.visitor`), never on the server, and apply
+on every page of the site as it loads. **Back to the site's own look** forgets them. They work through attributes on
+`<html>` (`data-expwt-text`, `data-expwt-a11y`) and one stylesheet of tokens (`--expwt-a11y-*`, with light and dark
+values) that only those attributes switch on: nothing changes for a visitor who chose nothing, no inline style is
+written. To have the site win over a theme's own colors, fonts and animations the rules are `!important`, on purpose.
+A signed-in user on the same device keeps the choices. With `ShowToAnonymous=disabled` (the default) visitors get no
+sidebar, so none of this, and not one byte more.
 
 ### Review hold
 

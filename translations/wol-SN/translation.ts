@@ -2419,6 +2419,54 @@
         <source>The hold was not changed. Try again.</source>
         <translation>Taxawal gi soppiku wul. Jéemaatal.</translation>
     </message>
+    <message>
+        <source>Reading and display</source>
+        <translation>Jàng ak wone</translation>
+    </message>
+    <message>
+        <source>Text size</source>
+        <translation>Dayo mbind mi</translation>
+    </message>
+    <message>
+        <source>Normal</source>
+        <translation>Ni mu daan di deme</translation>
+    </message>
+    <message>
+        <source>Large</source>
+        <translation>Mag</translation>
+    </message>
+    <message>
+        <source>Larger</source>
+        <translation>Gën a mag</translation>
+    </message>
+    <message>
+        <source>Largest</source>
+        <translation>Mag ni mu mana mage</translation>
+    </message>
+    <message>
+        <source>High contrast</source>
+        <translation>Wuute bu kawe</translation>
+    </message>
+    <message>
+        <source>Reduce motion</source>
+        <translation>Wàññi yëngu-yëngu</translation>
+    </message>
+    <message>
+        <source>Readable font</source>
+        <translation>Mbind mu yomb a jàng</translation>
+    </message>
+    <message>
+        <source>Underline links</source>
+        <translation>Rëdd ci suufu lëkkalekaay yi</translation>
+    </message>
+    <message>
+        <source>Back to the site's own look</source>
+        <translation>Dellu ci melokaanu dalu bi ci boppam</translation>
+    </message>
+    <message>
+        <source>Kept on this device only, for every page of this site.</source>
+        <translation>Denc nañu ko ci jumtukaay bii rekk, ngir xët wu nekk ci dalu bii.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

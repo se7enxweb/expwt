@@ -2419,6 +2419,54 @@
         <source>The hold was not changed. Try again.</source>
         <translation>La retenguda es pas estada modificada. Ensajatz tornarmai.</translation>
     </message>
+    <message>
+        <source>Reading and display</source>
+        <translation>Lectura e afichatge</translation>
+    </message>
+    <message>
+        <source>Text size</source>
+        <translation>Talha del tèxte</translation>
+    </message>
+    <message>
+        <source>Normal</source>
+        <translation>Normala</translation>
+    </message>
+    <message>
+        <source>Large</source>
+        <translation>Granda</translation>
+    </message>
+    <message>
+        <source>Larger</source>
+        <translation>Mai granda</translation>
+    </message>
+    <message>
+        <source>Largest</source>
+        <translation>La mai granda</translation>
+    </message>
+    <message>
+        <source>High contrast</source>
+        <translation>Contraste naut</translation>
+    </message>
+    <message>
+        <source>Reduce motion</source>
+        <translation>Reduire los movements</translation>
+    </message>
+    <message>
+        <source>Readable font</source>
+        <translation>Poliça de bon legir</translation>
+    </message>
+    <message>
+        <source>Underline links</source>
+        <translation>Soslinhar los ligams</translation>
+    </message>
+    <message>
+        <source>Back to the site's own look</source>
+        <translation>Tornar a l'aparéncia pròpria del site</translation>
+    </message>
+    <message>
+        <source>Kept on this device only, for every page of this site.</source>
+        <translation>Gardat sonque sus aqueste aparelh, per cada pagina d'aqueste site.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

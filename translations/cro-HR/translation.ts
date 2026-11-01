@@ -2419,6 +2419,54 @@
         <source>The hold was not changed. Try again.</source>
         <translation>Zadržavanje nije promijenjeno. Pokušajte ponovno.</translation>
     </message>
+    <message>
+        <source>Reading and display</source>
+        <translation>Čitanje i prikaz</translation>
+    </message>
+    <message>
+        <source>Text size</source>
+        <translation>Veličina teksta</translation>
+    </message>
+    <message>
+        <source>Normal</source>
+        <translation>Normalno</translation>
+    </message>
+    <message>
+        <source>Large</source>
+        <translation>Veliko</translation>
+    </message>
+    <message>
+        <source>Larger</source>
+        <translation>Veće</translation>
+    </message>
+    <message>
+        <source>Largest</source>
+        <translation>Najveće</translation>
+    </message>
+    <message>
+        <source>High contrast</source>
+        <translation>Visoki kontrast</translation>
+    </message>
+    <message>
+        <source>Reduce motion</source>
+        <translation>Smanji pokrete</translation>
+    </message>
+    <message>
+        <source>Readable font</source>
+        <translation>Čitljiv font</translation>
+    </message>
+    <message>
+        <source>Underline links</source>
+        <translation>Podcrtaj poveznice</translation>
+    </message>
+    <message>
+        <source>Back to the site's own look</source>
+        <translation>Natrag na izvorni izgled web-mjesta</translation>
+    </message>
+    <message>
+        <source>Kept on this device only, for every page of this site.</source>
+        <translation>Spremljeno samo na ovom uređaju, za svaku stranicu ovog web-mjesta.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

@@ -2419,6 +2419,54 @@
         <source>The hold was not changed. Try again.</source>
         <translation>Тоткарлау үзгәртелмәде. Яңадан тырышып карагыз.</translation>
     </message>
+    <message>
+        <source>Reading and display</source>
+        <translation>Уку һәм күрсәтү</translation>
+    </message>
+    <message>
+        <source>Text size</source>
+        <translation>Текст зурлыгы</translation>
+    </message>
+    <message>
+        <source>Normal</source>
+        <translation>Гадәти</translation>
+    </message>
+    <message>
+        <source>Large</source>
+        <translation>Зур</translation>
+    </message>
+    <message>
+        <source>Larger</source>
+        <translation>Зуррак</translation>
+    </message>
+    <message>
+        <source>Largest</source>
+        <translation>Иң зур</translation>
+    </message>
+    <message>
+        <source>High contrast</source>
+        <translation>Югары контраст</translation>
+    </message>
+    <message>
+        <source>Reduce motion</source>
+        <translation>Хәрәкәтне киметү</translation>
+    </message>
+    <message>
+        <source>Readable font</source>
+        <translation>Җиңел укыла торган шрифт</translation>
+    </message>
+    <message>
+        <source>Underline links</source>
+        <translation>Сылтамаларның астына сызу</translation>
+    </message>
+    <message>
+        <source>Back to the site's own look</source>
+        <translation>Сайтның үз кыяфәтенә кайту</translation>
+    </message>
+    <message>
+        <source>Kept on this device only, for every page of this site.</source>
+        <translation>Бары тик бу җайланмада саклана, бу сайтның һәр бите өчен.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

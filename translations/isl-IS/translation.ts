@@ -2419,6 +2419,54 @@
         <source>The hold was not changed. Try again.</source>
         <translation>Biðinni var ekki breytt. Reyndu aftur.</translation>
     </message>
+    <message>
+        <source>Reading and display</source>
+        <translation>Lestur og birting</translation>
+    </message>
+    <message>
+        <source>Text size</source>
+        <translation>Leturstærð</translation>
+    </message>
+    <message>
+        <source>Normal</source>
+        <translation>Venjuleg</translation>
+    </message>
+    <message>
+        <source>Large</source>
+        <translation>Stór</translation>
+    </message>
+    <message>
+        <source>Larger</source>
+        <translation>Stærri</translation>
+    </message>
+    <message>
+        <source>Largest</source>
+        <translation>Stærst</translation>
+    </message>
+    <message>
+        <source>High contrast</source>
+        <translation>Mikil birtuskil</translation>
+    </message>
+    <message>
+        <source>Reduce motion</source>
+        <translation>Minnka hreyfingu</translation>
+    </message>
+    <message>
+        <source>Readable font</source>
+        <translation>Auðlæsilegt letur</translation>
+    </message>
+    <message>
+        <source>Underline links</source>
+        <translation>Undirstrika tengla</translation>
+    </message>
+    <message>
+        <source>Back to the site's own look</source>
+        <translation>Aftur í eigið útlit vefsins</translation>
+    </message>
+    <message>
+        <source>Kept on this device only, for every page of this site.</source>
+        <translation>Aðeins vistað í þessu tæki, fyrir hverja síðu þessa vefs.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

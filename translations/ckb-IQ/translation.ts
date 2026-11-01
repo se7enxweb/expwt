@@ -2419,6 +2419,54 @@
         <source>The hold was not changed. Try again.</source>
         <translation>ڕاگرتنەکە نەگۆڕدرا. دووبارە هەوڵ بدەرەوە.</translation>
     </message>
+    <message>
+        <source>Reading and display</source>
+        <translation>خوێندنەوە و پیشاندان</translation>
+    </message>
+    <message>
+        <source>Text size</source>
+        <translation>قەبارەی دەق</translation>
+    </message>
+    <message>
+        <source>Normal</source>
+        <translation>ئاسایی</translation>
+    </message>
+    <message>
+        <source>Large</source>
+        <translation>گەورە</translation>
+    </message>
+    <message>
+        <source>Larger</source>
+        <translation>گەورەتر</translation>
+    </message>
+    <message>
+        <source>Largest</source>
+        <translation>گەورەترین</translation>
+    </message>
+    <message>
+        <source>High contrast</source>
+        <translation>کۆنتراستی بەرز</translation>
+    </message>
+    <message>
+        <source>Reduce motion</source>
+        <translation>کەمکردنەوەی جووڵە</translation>
+    </message>
+    <message>
+        <source>Readable font</source>
+        <translation>فۆنتی ئاسان بۆ خوێندنەوە</translation>
+    </message>
+    <message>
+        <source>Underline links</source>
+        <translation>هێڵ لەژێر بەستەرەکان</translation>
+    </message>
+    <message>
+        <source>Back to the site's own look</source>
+        <translation>گەڕانەوە بۆ شێوەی خودی ماڵپەڕەکە</translation>
+    </message>
+    <message>
+        <source>Kept on this device only, for every page of this site.</source>
+        <translation>تەنها لەسەر ئەم ئامێرە پاشەکەوت دەکرێت، بۆ هەموو پەڕەیەکی ئەم ماڵپەڕە.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

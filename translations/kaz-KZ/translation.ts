@@ -2419,6 +2419,54 @@
         <source>The hold was not changed. Try again.</source>
         <translation>Ұстау өзгертілмеді. Қайталап көріңіз.</translation>
     </message>
+    <message>
+        <source>Reading and display</source>
+        <translation>Оқу және көрініс</translation>
+    </message>
+    <message>
+        <source>Text size</source>
+        <translation>Мәтін өлшемі</translation>
+    </message>
+    <message>
+        <source>Normal</source>
+        <translation>Қалыпты</translation>
+    </message>
+    <message>
+        <source>Large</source>
+        <translation>Үлкен</translation>
+    </message>
+    <message>
+        <source>Larger</source>
+        <translation>Үлкенірек</translation>
+    </message>
+    <message>
+        <source>Largest</source>
+        <translation>Ең үлкен</translation>
+    </message>
+    <message>
+        <source>High contrast</source>
+        <translation>Жоғары контраст</translation>
+    </message>
+    <message>
+        <source>Reduce motion</source>
+        <translation>Қозғалысты азайту</translation>
+    </message>
+    <message>
+        <source>Readable font</source>
+        <translation>Оңай оқылатын қаріп</translation>
+    </message>
+    <message>
+        <source>Underline links</source>
+        <translation>Сілтемелердің астын сызу</translation>
+    </message>
+    <message>
+        <source>Back to the site's own look</source>
+        <translation>Сайттың өз көрінісіне оралу</translation>
+    </message>
+    <message>
+        <source>Kept on this device only, for every page of this site.</source>
+        <translation>Тек осы құрылғыда сақталады, осы сайттың әр бетіне арналған.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

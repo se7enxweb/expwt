@@ -2419,6 +2419,54 @@
         <source>The hold was not changed. Try again.</source>
         <translation>ការផ្អាកមិនត្រូវបានផ្លាស់ប្តូរទេ។ សូមព្យាយាមម្តងទៀត។</translation>
     </message>
+    <message>
+        <source>Reading and display</source>
+        <translation>ការអាន និងការបង្ហាញ</translation>
+    </message>
+    <message>
+        <source>Text size</source>
+        <translation>ទំហំអក្សរ</translation>
+    </message>
+    <message>
+        <source>Normal</source>
+        <translation>ធម្មតា</translation>
+    </message>
+    <message>
+        <source>Large</source>
+        <translation>ធំ</translation>
+    </message>
+    <message>
+        <source>Larger</source>
+        <translation>ធំជាង</translation>
+    </message>
+    <message>
+        <source>Largest</source>
+        <translation>ធំបំផុត</translation>
+    </message>
+    <message>
+        <source>High contrast</source>
+        <translation>កម្រិតពណ៌ខ្ពស់</translation>
+    </message>
+    <message>
+        <source>Reduce motion</source>
+        <translation>កាត់បន្ថយចលនា</translation>
+    </message>
+    <message>
+        <source>Readable font</source>
+        <translation>ពុម្ពអក្សរងាយអាន</translation>
+    </message>
+    <message>
+        <source>Underline links</source>
+        <translation>គូសបន្ទាត់ក្រោមតំណ</translation>
+    </message>
+    <message>
+        <source>Back to the site's own look</source>
+        <translation>ត្រឡប់ទៅរូបរាងដើមរបស់គេហទំព័រ</translation>
+    </message>
+    <message>
+        <source>Kept on this device only, for every page of this site.</source>
+        <translation>រក្សាទុកតែនៅលើឧបករណ៍នេះប៉ុណ្ណោះ សម្រាប់គ្រប់ទំព័រនៃគេហទំព័រនេះ។</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

@@ -2419,6 +2419,54 @@
         <source>The hold was not changed. Try again.</source>
         <translation>Pozastavenie sa nezmenilo. Skúste to znova.</translation>
     </message>
+    <message>
+        <source>Reading and display</source>
+        <translation>Čítanie a zobrazenie</translation>
+    </message>
+    <message>
+        <source>Text size</source>
+        <translation>Veľkosť textu</translation>
+    </message>
+    <message>
+        <source>Normal</source>
+        <translation>Normálne</translation>
+    </message>
+    <message>
+        <source>Large</source>
+        <translation>Veľké</translation>
+    </message>
+    <message>
+        <source>Larger</source>
+        <translation>Väčšie</translation>
+    </message>
+    <message>
+        <source>Largest</source>
+        <translation>Najväčšie</translation>
+    </message>
+    <message>
+        <source>High contrast</source>
+        <translation>Vysoký kontrast</translation>
+    </message>
+    <message>
+        <source>Reduce motion</source>
+        <translation>Obmedziť pohyb</translation>
+    </message>
+    <message>
+        <source>Readable font</source>
+        <translation>Ľahko čitateľné písmo</translation>
+    </message>
+    <message>
+        <source>Underline links</source>
+        <translation>Podčiarkovať odkazy</translation>
+    </message>
+    <message>
+        <source>Back to the site's own look</source>
+        <translation>Späť na vlastný vzhľad webu</translation>
+    </message>
+    <message>
+        <source>Kept on this device only, for every page of this site.</source>
+        <translation>Uložené len v tomto zariadení, pre každú stránku tohto webu.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

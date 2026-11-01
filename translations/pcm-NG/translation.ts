@@ -2419,6 +2419,54 @@
         <source>The hold was not changed. Try again.</source>
         <translation>Di hold no change. Try again.</translation>
     </message>
+    <message>
+        <source>Reading and display</source>
+        <translation>Reading and display</translation>
+    </message>
+    <message>
+        <source>Text size</source>
+        <translation>Text size</translation>
+    </message>
+    <message>
+        <source>Normal</source>
+        <translation>Normal</translation>
+    </message>
+    <message>
+        <source>Large</source>
+        <translation>Big</translation>
+    </message>
+    <message>
+        <source>Larger</source>
+        <translation>Bigger</translation>
+    </message>
+    <message>
+        <source>Largest</source>
+        <translation>Biggest</translation>
+    </message>
+    <message>
+        <source>High contrast</source>
+        <translation>High contrast</translation>
+    </message>
+    <message>
+        <source>Reduce motion</source>
+        <translation>Reduce movement</translation>
+    </message>
+    <message>
+        <source>Readable font</source>
+        <translation>Font wey easy to read</translation>
+    </message>
+    <message>
+        <source>Underline links</source>
+        <translation>Put line under links</translation>
+    </message>
+    <message>
+        <source>Back to the site's own look</source>
+        <translation>Go back to how di site self dey look</translation>
+    </message>
+    <message>
+        <source>Kept on this device only, for every page of this site.</source>
+        <translation>Na only dis device e dey keep am, for every page of dis site.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

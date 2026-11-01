@@ -2419,6 +2419,54 @@
         <source>The hold was not changed. Try again.</source>
         <translation>To'xtatish o'zgartirilmadi. Qayta urinib ko'ring.</translation>
     </message>
+    <message>
+        <source>Reading and display</source>
+        <translation>Oʻqish va koʻrinish</translation>
+    </message>
+    <message>
+        <source>Text size</source>
+        <translation>Matn oʻlchami</translation>
+    </message>
+    <message>
+        <source>Normal</source>
+        <translation>Oddiy</translation>
+    </message>
+    <message>
+        <source>Large</source>
+        <translation>Katta</translation>
+    </message>
+    <message>
+        <source>Larger</source>
+        <translation>Kattaroq</translation>
+    </message>
+    <message>
+        <source>Largest</source>
+        <translation>Eng katta</translation>
+    </message>
+    <message>
+        <source>High contrast</source>
+        <translation>Yuqori kontrast</translation>
+    </message>
+    <message>
+        <source>Reduce motion</source>
+        <translation>Harakatni kamaytirish</translation>
+    </message>
+    <message>
+        <source>Readable font</source>
+        <translation>Oson oʻqiladigan shrift</translation>
+    </message>
+    <message>
+        <source>Underline links</source>
+        <translation>Havolalar tagiga chizish</translation>
+    </message>
+    <message>
+        <source>Back to the site's own look</source>
+        <translation>Saytning oʻz koʻrinishiga qaytish</translation>
+    </message>
+    <message>
+        <source>Kept on this device only, for every page of this site.</source>
+        <translation>Faqat shu qurilmada saqlanadi, bu saytning har bir sahifasi uchun.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

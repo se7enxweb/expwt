@@ -2419,6 +2419,54 @@
         <source>The hold was not changed. Try again.</source>
         <translation>Agbanweghị njide ahụ. Nwaa ọzọ.</translation>
     </message>
+    <message>
+        <source>Reading and display</source>
+        <translation>Ịgụ na ngosipụta</translation>
+    </message>
+    <message>
+        <source>Text size</source>
+        <translation>Nha ederede</translation>
+    </message>
+    <message>
+        <source>Normal</source>
+        <translation>Nkịtị</translation>
+    </message>
+    <message>
+        <source>Large</source>
+        <translation>Buru ibu</translation>
+    </message>
+    <message>
+        <source>Larger</source>
+        <translation>Ka ibu</translation>
+    </message>
+    <message>
+        <source>Largest</source>
+        <translation>Kacha ibu</translation>
+    </message>
+    <message>
+        <source>High contrast</source>
+        <translation>Ọdịiche dị elu</translation>
+    </message>
+    <message>
+        <source>Reduce motion</source>
+        <translation>Belata mmegharị</translation>
+    </message>
+    <message>
+        <source>Readable font</source>
+        <translation>Mkpụrụedemede dị mfe ịgụ</translation>
+    </message>
+    <message>
+        <source>Underline links</source>
+        <translation>Dọọ ahịrị n'okpuru njikọ</translation>
+    </message>
+    <message>
+        <source>Back to the site's own look</source>
+        <translation>Laghachi n'ọdịdị saịtị ahụ n'onwe ya</translation>
+    </message>
+    <message>
+        <source>Kept on this device only, for every page of this site.</source>
+        <translation>Edebere naanị na ngwaọrụ a, maka ibe ọ bụla nke saịtị a.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

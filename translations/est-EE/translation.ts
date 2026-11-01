@@ -2419,6 +2419,54 @@
         <source>The hold was not changed. Try again.</source>
         <translation>Kinnihoidu ei muudetud. Proovige uuesti.</translation>
     </message>
+    <message>
+        <source>Reading and display</source>
+        <translation>Lugemine ja kuva</translation>
+    </message>
+    <message>
+        <source>Text size</source>
+        <translation>Teksti suurus</translation>
+    </message>
+    <message>
+        <source>Normal</source>
+        <translation>Tavaline</translation>
+    </message>
+    <message>
+        <source>Large</source>
+        <translation>Suur</translation>
+    </message>
+    <message>
+        <source>Larger</source>
+        <translation>Suurem</translation>
+    </message>
+    <message>
+        <source>Largest</source>
+        <translation>Suurim</translation>
+    </message>
+    <message>
+        <source>High contrast</source>
+        <translation>Kõrge kontrastsus</translation>
+    </message>
+    <message>
+        <source>Reduce motion</source>
+        <translation>Vähenda liikumist</translation>
+    </message>
+    <message>
+        <source>Readable font</source>
+        <translation>Hästi loetav font</translation>
+    </message>
+    <message>
+        <source>Underline links</source>
+        <translation>Allajoonitud lingid</translation>
+    </message>
+    <message>
+        <source>Back to the site's own look</source>
+        <translation>Tagasi saidi enda välimusele</translation>
+    </message>
+    <message>
+        <source>Kept on this device only, for every page of this site.</source>
+        <translation>Salvestatud ainult selles seadmes, selle saidi igal lehel.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

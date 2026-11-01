@@ -2419,6 +2419,54 @@
         <source>The hold was not changed. Try again.</source>
         <translation>A zárolás nem változott. Próbálja újra.</translation>
     </message>
+    <message>
+        <source>Reading and display</source>
+        <translation>Olvasás és megjelenítés</translation>
+    </message>
+    <message>
+        <source>Text size</source>
+        <translation>Szövegméret</translation>
+    </message>
+    <message>
+        <source>Normal</source>
+        <translation>Normál</translation>
+    </message>
+    <message>
+        <source>Large</source>
+        <translation>Nagy</translation>
+    </message>
+    <message>
+        <source>Larger</source>
+        <translation>Nagyobb</translation>
+    </message>
+    <message>
+        <source>Largest</source>
+        <translation>Legnagyobb</translation>
+    </message>
+    <message>
+        <source>High contrast</source>
+        <translation>Nagy kontraszt</translation>
+    </message>
+    <message>
+        <source>Reduce motion</source>
+        <translation>Mozgás csökkentése</translation>
+    </message>
+    <message>
+        <source>Readable font</source>
+        <translation>Könnyen olvasható betűtípus</translation>
+    </message>
+    <message>
+        <source>Underline links</source>
+        <translation>Hivatkozások aláhúzása</translation>
+    </message>
+    <message>
+        <source>Back to the site's own look</source>
+        <translation>Vissza a webhely saját megjelenéséhez</translation>
+    </message>
+    <message>
+        <source>Kept on this device only, for every page of this site.</source>
+        <translation>Csak ezen az eszközön tárolva, a webhely minden oldalához.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

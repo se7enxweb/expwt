@@ -2419,6 +2419,54 @@
         <source>The hold was not changed. Try again.</source>
         <translation>Tạm giữ không thay đổi. Hãy thử lại.</translation>
     </message>
+    <message>
+        <source>Reading and display</source>
+        <translation>Đọc và hiển thị</translation>
+    </message>
+    <message>
+        <source>Text size</source>
+        <translation>Cỡ chữ</translation>
+    </message>
+    <message>
+        <source>Normal</source>
+        <translation>Bình thường</translation>
+    </message>
+    <message>
+        <source>Large</source>
+        <translation>Lớn</translation>
+    </message>
+    <message>
+        <source>Larger</source>
+        <translation>Lớn hơn</translation>
+    </message>
+    <message>
+        <source>Largest</source>
+        <translation>Lớn nhất</translation>
+    </message>
+    <message>
+        <source>High contrast</source>
+        <translation>Độ tương phản cao</translation>
+    </message>
+    <message>
+        <source>Reduce motion</source>
+        <translation>Giảm chuyển động</translation>
+    </message>
+    <message>
+        <source>Readable font</source>
+        <translation>Phông chữ dễ đọc</translation>
+    </message>
+    <message>
+        <source>Underline links</source>
+        <translation>Gạch chân liên kết</translation>
+    </message>
+    <message>
+        <source>Back to the site's own look</source>
+        <translation>Quay lại giao diện gốc của trang</translation>
+    </message>
+    <message>
+        <source>Kept on this device only, for every page of this site.</source>
+        <translation>Chỉ lưu trên thiết bị này, cho mọi trang của trang web này.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

@@ -2419,6 +2419,54 @@
         <source>The hold was not changed. Try again.</source>
         <translation>Кармоо өзгөртүлгөн жок. Кайра аракет кылыңыз.</translation>
     </message>
+    <message>
+        <source>Reading and display</source>
+        <translation>Окуу жана көрүнүш</translation>
+    </message>
+    <message>
+        <source>Text size</source>
+        <translation>Тексттин өлчөмү</translation>
+    </message>
+    <message>
+        <source>Normal</source>
+        <translation>Кадимки</translation>
+    </message>
+    <message>
+        <source>Large</source>
+        <translation>Чоң</translation>
+    </message>
+    <message>
+        <source>Larger</source>
+        <translation>Чоңураак</translation>
+    </message>
+    <message>
+        <source>Largest</source>
+        <translation>Эң чоң</translation>
+    </message>
+    <message>
+        <source>High contrast</source>
+        <translation>Жогорку контраст</translation>
+    </message>
+    <message>
+        <source>Reduce motion</source>
+        <translation>Кыймылды азайтуу</translation>
+    </message>
+    <message>
+        <source>Readable font</source>
+        <translation>Оңой окулуучу арип</translation>
+    </message>
+    <message>
+        <source>Underline links</source>
+        <translation>Шилтемелердин астын сызуу</translation>
+    </message>
+    <message>
+        <source>Back to the site's own look</source>
+        <translation>Сайттын өз көрүнүшүнө кайтуу</translation>
+    </message>
+    <message>
+        <source>Kept on this device only, for every page of this site.</source>
+        <translation>Ушул түзмөктө гана сакталат, бул сайттын ар бир барагы үчүн.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

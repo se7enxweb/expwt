@@ -2419,6 +2419,54 @@
         <source>The hold was not changed. Try again.</source>
         <translation>Задържането не беше променено. Опитайте отново.</translation>
     </message>
+    <message>
+        <source>Reading and display</source>
+        <translation>Четене и изглед</translation>
+    </message>
+    <message>
+        <source>Text size</source>
+        <translation>Размер на текста</translation>
+    </message>
+    <message>
+        <source>Normal</source>
+        <translation>Нормален</translation>
+    </message>
+    <message>
+        <source>Large</source>
+        <translation>Голям</translation>
+    </message>
+    <message>
+        <source>Larger</source>
+        <translation>По-голям</translation>
+    </message>
+    <message>
+        <source>Largest</source>
+        <translation>Най-голям</translation>
+    </message>
+    <message>
+        <source>High contrast</source>
+        <translation>Висок контраст</translation>
+    </message>
+    <message>
+        <source>Reduce motion</source>
+        <translation>Намаляване на движението</translation>
+    </message>
+    <message>
+        <source>Readable font</source>
+        <translation>Лесен за четене шрифт</translation>
+    </message>
+    <message>
+        <source>Underline links</source>
+        <translation>Подчертаване на връзките</translation>
+    </message>
+    <message>
+        <source>Back to the site's own look</source>
+        <translation>Връщане към собствения вид на сайта</translation>
+    </message>
+    <message>
+        <source>Kept on this device only, for every page of this site.</source>
+        <translation>Съхранява се само на това устройство, за всяка страница на този сайт.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

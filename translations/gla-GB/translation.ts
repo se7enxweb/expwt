@@ -2419,6 +2419,54 @@
         <source>The hold was not changed. Try again.</source>
         <translation>Cha deach an grabadh atharrachadh. Feuch ris a-rithist.</translation>
     </message>
+    <message>
+        <source>Reading and display</source>
+        <translation>Leughadh is taisbeanadh</translation>
+    </message>
+    <message>
+        <source>Text size</source>
+        <translation>Meud an teacsa</translation>
+    </message>
+    <message>
+        <source>Normal</source>
+        <translation>Àbhaisteach</translation>
+    </message>
+    <message>
+        <source>Large</source>
+        <translation>Mòr</translation>
+    </message>
+    <message>
+        <source>Larger</source>
+        <translation>Nas motha</translation>
+    </message>
+    <message>
+        <source>Largest</source>
+        <translation>As motha</translation>
+    </message>
+    <message>
+        <source>High contrast</source>
+        <translation>Iomsgaradh àrd</translation>
+    </message>
+    <message>
+        <source>Reduce motion</source>
+        <translation>Lùghdaich gluasad</translation>
+    </message>
+    <message>
+        <source>Readable font</source>
+        <translation>Cruth-clò furasta a leughadh</translation>
+    </message>
+    <message>
+        <source>Underline links</source>
+        <translation>Cuir loidhne fo cheanglaichean</translation>
+    </message>
+    <message>
+        <source>Back to the site's own look</source>
+        <translation>Air ais gu coltas na làraich fhèin</translation>
+    </message>
+    <message>
+        <source>Kept on this device only, for every page of this site.</source>
+        <translation>Air a ghleidheadh air an uidheam seo a-mhàin, airson gach duilleag den làrach seo.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

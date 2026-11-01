@@ -2419,6 +2419,54 @@
         <source>The hold was not changed. Try again.</source>
         <translation>La retegnida n'è betg vegnida midada. Empruvai anc ina giada.</translation>
     </message>
+    <message>
+        <source>Reading and display</source>
+        <translation>Leger e preschentaziun</translation>
+    </message>
+    <message>
+        <source>Text size</source>
+        <translation>Grondezza dal text</translation>
+    </message>
+    <message>
+        <source>Normal</source>
+        <translation>Normal</translation>
+    </message>
+    <message>
+        <source>Large</source>
+        <translation>Grond</translation>
+    </message>
+    <message>
+        <source>Larger</source>
+        <translation>Pli grond</translation>
+    </message>
+    <message>
+        <source>Largest</source>
+        <translation>Il pli grond</translation>
+    </message>
+    <message>
+        <source>High contrast</source>
+        <translation>Contrast aut</translation>
+    </message>
+    <message>
+        <source>Reduce motion</source>
+        <translation>Reducir il moviment</translation>
+    </message>
+    <message>
+        <source>Readable font</source>
+        <translation>Scrittira bain legibla</translation>
+    </message>
+    <message>
+        <source>Underline links</source>
+        <translation>Suttastritgar colliaziuns</translation>
+    </message>
+    <message>
+        <source>Back to the site's own look</source>
+        <translation>Enavos a l'apparientscha da la website</translation>
+    </message>
+    <message>
+        <source>Kept on this device only, for every page of this site.</source>
+        <translation>Memorisà mo sin quest apparat, per mintga pagina da questa website.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

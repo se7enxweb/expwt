@@ -2419,6 +2419,54 @@
         <source>The hold was not changed. Try again.</source>
         <translation>হোল্ড অসি হোংদ্রে। অমুক হন্না হোৎনবিয়ু।</translation>
     </message>
+    <message>
+        <source>Reading and display</source>
+        <translation>পাবা অমসুং উৎপা</translation>
+    </message>
+    <message>
+        <source>Text size</source>
+        <translation>টেক্সত্কী মচাউ</translation>
+    </message>
+    <message>
+        <source>Normal</source>
+        <translation>নোর্মেল</translation>
+    </message>
+    <message>
+        <source>Large</source>
+        <translation>অচৌবা</translation>
+    </message>
+    <message>
+        <source>Larger</source>
+        <translation>হেন্না অচৌবা</translation>
+    </message>
+    <message>
+        <source>Largest</source>
+        <translation>খ্বাইদগী অচৌবা</translation>
+    </message>
+    <message>
+        <source>High contrast</source>
+        <translation>হাই কন্ট্রাস্ট</translation>
+    </message>
+    <message>
+        <source>Reduce motion</source>
+        <translation>চৎনবা হন্থহনবা</translation>
+    </message>
+    <message>
+        <source>Readable font</source>
+        <translation>পানবা লাইবা ফন্ট</translation>
+    </message>
+    <message>
+        <source>Underline links</source>
+        <translation>লিংকশিংগী মখাদা লাইন থাবা</translation>
+    </message>
+    <message>
+        <source>Back to the site's own look</source>
+        <translation>সাইত্তগী মশাগী মওংদা হল্লকপা</translation>
+    </message>
+    <message>
+        <source>Kept on this device only, for every page of this site.</source>
+        <translation>মসি ডিভাইসতা খক্তদা থম্লি, সাইত অসিগী লমায় খুদিংমক্কীদমক।</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

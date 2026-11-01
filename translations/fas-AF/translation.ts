@@ -2419,6 +2419,54 @@
         <source>The hold was not changed. Try again.</source>
         <translation>توقف تغییر نکرد. دوباره تلاش کنید.</translation>
     </message>
+    <message>
+        <source>Reading and display</source>
+        <translation>خواندن و نمایش</translation>
+    </message>
+    <message>
+        <source>Text size</source>
+        <translation>اندازهٔ متن</translation>
+    </message>
+    <message>
+        <source>Normal</source>
+        <translation>عادی</translation>
+    </message>
+    <message>
+        <source>Large</source>
+        <translation>بزرگ</translation>
+    </message>
+    <message>
+        <source>Larger</source>
+        <translation>بزرگ‌تر</translation>
+    </message>
+    <message>
+        <source>Largest</source>
+        <translation>بزرگ‌ترین</translation>
+    </message>
+    <message>
+        <source>High contrast</source>
+        <translation>تضاد بالا</translation>
+    </message>
+    <message>
+        <source>Reduce motion</source>
+        <translation>کاهش حرکت</translation>
+    </message>
+    <message>
+        <source>Readable font</source>
+        <translation>قلم خوانا</translation>
+    </message>
+    <message>
+        <source>Underline links</source>
+        <translation>زیرخط‌دار کردن پیوندها</translation>
+    </message>
+    <message>
+        <source>Back to the site's own look</source>
+        <translation>بازگشت به ظاهر خود سایت</translation>
+    </message>
+    <message>
+        <source>Kept on this device only, for every page of this site.</source>
+        <translation>فقط روی همین دستگاه نگهداری می‌شود، برای همهٔ صفحه‌های این سایت.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

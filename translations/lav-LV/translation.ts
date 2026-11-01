@@ -2419,6 +2419,54 @@
         <source>The hold was not changed. Try again.</source>
         <translation>Aizturēšana netika mainīta. Mēģiniet vēlreiz.</translation>
     </message>
+    <message>
+        <source>Reading and display</source>
+        <translation>Lasīšana un attēlojums</translation>
+    </message>
+    <message>
+        <source>Text size</source>
+        <translation>Teksta lielums</translation>
+    </message>
+    <message>
+        <source>Normal</source>
+        <translation>Parasts</translation>
+    </message>
+    <message>
+        <source>Large</source>
+        <translation>Liels</translation>
+    </message>
+    <message>
+        <source>Larger</source>
+        <translation>Lielāks</translation>
+    </message>
+    <message>
+        <source>Largest</source>
+        <translation>Vislielākais</translation>
+    </message>
+    <message>
+        <source>High contrast</source>
+        <translation>Augsts kontrasts</translation>
+    </message>
+    <message>
+        <source>Reduce motion</source>
+        <translation>Samazināt kustību</translation>
+    </message>
+    <message>
+        <source>Readable font</source>
+        <translation>Viegli lasāms fonts</translation>
+    </message>
+    <message>
+        <source>Underline links</source>
+        <translation>Pasvītrot saites</translation>
+    </message>
+    <message>
+        <source>Back to the site's own look</source>
+        <translation>Atpakaļ uz vietnes pašas izskatu</translation>
+    </message>
+    <message>
+        <source>Kept on this device only, for every page of this site.</source>
+        <translation>Saglabāts tikai šajā ierīcē, katrai šīs vietnes lapai.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

@@ -2419,6 +2419,54 @@
         <source>The hold was not changed. Try again.</source>
         <translation>N'eo ket bet cheñchet an dalc'h. Klaskit en-dro.</translation>
     </message>
+    <message>
+        <source>Reading and display</source>
+        <translation>Lenn ha diskwel</translation>
+    </message>
+    <message>
+        <source>Text size</source>
+        <translation>Ment an testenn</translation>
+    </message>
+    <message>
+        <source>Normal</source>
+        <translation>Boas</translation>
+    </message>
+    <message>
+        <source>Large</source>
+        <translation>Bras</translation>
+    </message>
+    <message>
+        <source>Larger</source>
+        <translation>Brasoc'h</translation>
+    </message>
+    <message>
+        <source>Largest</source>
+        <translation>Ar brasañ</translation>
+    </message>
+    <message>
+        <source>High contrast</source>
+        <translation>Dargemm uhel</translation>
+    </message>
+    <message>
+        <source>Reduce motion</source>
+        <translation>Digreskiñ al luskoù</translation>
+    </message>
+    <message>
+        <source>Readable font</source>
+        <translation>Nodrezh aes da lenn</translation>
+    </message>
+    <message>
+        <source>Underline links</source>
+        <translation>Islinennañ an ereoù</translation>
+    </message>
+    <message>
+        <source>Back to the site's own look</source>
+        <translation>Distreiñ da neuz al lec'hienn</translation>
+    </message>
+    <message>
+        <source>Kept on this device only, for every page of this site.</source>
+        <translation>Miret war an trevnad-mañ hepken, evit pep pajenn eus al lec'hienn-mañ.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

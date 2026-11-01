@@ -2419,6 +2419,54 @@
         <source>The hold was not changed. Try again.</source>
         <translation>Wɔansesa nkyeree no. Sɔ hwɛ bio.</translation>
     </message>
+    <message>
+        <source>Reading and display</source>
+        <translation>Akenkan ne nhwɛso</translation>
+    </message>
+    <message>
+        <source>Text size</source>
+        <translation>Nkyerɛwde kɛse</translation>
+    </message>
+    <message>
+        <source>Normal</source>
+        <translation>Daa deɛ</translation>
+    </message>
+    <message>
+        <source>Large</source>
+        <translation>Kɛse</translation>
+    </message>
+    <message>
+        <source>Larger</source>
+        <translation>Kɛse kakra</translation>
+    </message>
+    <message>
+        <source>Largest</source>
+        <translation>Kɛseɛ koraa</translation>
+    </message>
+    <message>
+        <source>High contrast</source>
+        <translation>Nsonsonoeɛ a ɛyɛ den</translation>
+    </message>
+    <message>
+        <source>Reduce motion</source>
+        <translation>Te nneɛma a ɛkeka ho so</translation>
+    </message>
+    <message>
+        <source>Readable font</source>
+        <translation>Nkyerɛwde a ɛyɛ mmerɛw sɛ wobɛkan</translation>
+    </message>
+    <message>
+        <source>Underline links</source>
+        <translation>Twa ntwamu wɔ link ase</translation>
+    </message>
+    <message>
+        <source>Back to the site's own look</source>
+        <translation>San kɔ wɛbsaet no ankasa ne nhwɛso so</translation>
+    </message>
+    <message>
+        <source>Kept on this device only, for every page of this site.</source>
+        <translation>Ɛwɔ saa mfiri yi so nko ara, ma wɛbsaet yi kratafa biara.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

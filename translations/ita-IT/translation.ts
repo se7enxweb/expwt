@@ -2419,6 +2419,54 @@
         <source>The hold was not changed. Try again.</source>
         <translation>Il blocco non è stato modificato. Riprova.</translation>
     </message>
+    <message>
+        <source>Reading and display</source>
+        <translation>Lettura e visualizzazione</translation>
+    </message>
+    <message>
+        <source>Text size</source>
+        <translation>Dimensione testo</translation>
+    </message>
+    <message>
+        <source>Normal</source>
+        <translation>Normale</translation>
+    </message>
+    <message>
+        <source>Large</source>
+        <translation>Grande</translation>
+    </message>
+    <message>
+        <source>Larger</source>
+        <translation>Più grande</translation>
+    </message>
+    <message>
+        <source>Largest</source>
+        <translation>Massima</translation>
+    </message>
+    <message>
+        <source>High contrast</source>
+        <translation>Contrasto elevato</translation>
+    </message>
+    <message>
+        <source>Reduce motion</source>
+        <translation>Riduci movimento</translation>
+    </message>
+    <message>
+        <source>Readable font</source>
+        <translation>Carattere facile da leggere</translation>
+    </message>
+    <message>
+        <source>Underline links</source>
+        <translation>Sottolinea i link</translation>
+    </message>
+    <message>
+        <source>Back to the site's own look</source>
+        <translation>Torna all'aspetto originale del sito</translation>
+    </message>
+    <message>
+        <source>Kept on this device only, for every page of this site.</source>
+        <translation>Salvato solo su questo dispositivo, per ogni pagina di questo sito.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

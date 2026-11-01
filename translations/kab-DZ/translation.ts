@@ -2419,6 +2419,54 @@
         <source>The hold was not changed. Try again.</source>
         <translation>Aṭṭaf ur yettubeddel ara. Ɛreḍ tikkelt-nniḍen.</translation>
     </message>
+    <message>
+        <source>Reading and display</source>
+        <translation>Taɣuri d uskan</translation>
+    </message>
+    <message>
+        <source>Text size</source>
+        <translation>Teɣzi n uḍris</translation>
+    </message>
+    <message>
+        <source>Normal</source>
+        <translation>Amagnu</translation>
+    </message>
+    <message>
+        <source>Large</source>
+        <translation>Meqqer</translation>
+    </message>
+    <message>
+        <source>Larger</source>
+        <translation>Meqqer ugar</translation>
+    </message>
+    <message>
+        <source>Largest</source>
+        <translation>Meqqer akk</translation>
+    </message>
+    <message>
+        <source>High contrast</source>
+        <translation>Amgired ameqqran</translation>
+    </message>
+    <message>
+        <source>Reduce motion</source>
+        <translation>Senqes amussu</translation>
+    </message>
+    <message>
+        <source>Readable font</source>
+        <translation>Tasefsit ishilen i tɣuri</translation>
+    </message>
+    <message>
+        <source>Underline links</source>
+        <translation>Derrer iseɣwan</translation>
+    </message>
+    <message>
+        <source>Back to the site's own look</source>
+        <translation>Uɣal ɣer udem n usmel s yiman-is</translation>
+    </message>
+    <message>
+        <source>Kept on this device only, for every page of this site.</source>
+        <translation>Yettwasekles ɣef yibenk-a kan, i yal asebter n usmel-a.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

@@ -2419,6 +2419,54 @@
         <source>The hold was not changed. Try again.</source>
         <translation>La retenció no s'ha canviat. Torna-ho a provar.</translation>
     </message>
+    <message>
+        <source>Reading and display</source>
+        <translation>Lectura i visualització</translation>
+    </message>
+    <message>
+        <source>Text size</source>
+        <translation>Mida del text</translation>
+    </message>
+    <message>
+        <source>Normal</source>
+        <translation>Normal</translation>
+    </message>
+    <message>
+        <source>Large</source>
+        <translation>Gran</translation>
+    </message>
+    <message>
+        <source>Larger</source>
+        <translation>Més gran</translation>
+    </message>
+    <message>
+        <source>Largest</source>
+        <translation>El més gran</translation>
+    </message>
+    <message>
+        <source>High contrast</source>
+        <translation>Contrast alt</translation>
+    </message>
+    <message>
+        <source>Reduce motion</source>
+        <translation>Redueix el moviment</translation>
+    </message>
+    <message>
+        <source>Readable font</source>
+        <translation>Tipus de lletra llegible</translation>
+    </message>
+    <message>
+        <source>Underline links</source>
+        <translation>Subratlla els enllaços</translation>
+    </message>
+    <message>
+        <source>Back to the site's own look</source>
+        <translation>Torna a l'aspecte propi del lloc</translation>
+    </message>
+    <message>
+        <source>Kept on this device only, for every page of this site.</source>
+        <translation>Desat només en aquest dispositiu, per a cada pàgina d'aquest lloc.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

@@ -2419,6 +2419,54 @@
         <source>The hold was not changed. Try again.</source>
         <translation>Сацор ца хийцира. Юха хьажа.</translation>
     </message>
+    <message>
+        <source>Reading and display</source>
+        <translation>Ешар а гайтар а</translation>
+    </message>
+    <message>
+        <source>Text size</source>
+        <translation>Йозанан барам</translation>
+    </message>
+    <message>
+        <source>Normal</source>
+        <translation>ЧӀагӀа</translation>
+    </message>
+    <message>
+        <source>Large</source>
+        <translation>Доккха</translation>
+    </message>
+    <message>
+        <source>Larger</source>
+        <translation>Цул доккха</translation>
+    </message>
+    <message>
+        <source>Largest</source>
+        <translation>Уггар доккха</translation>
+    </message>
+    <message>
+        <source>High contrast</source>
+        <translation>Лакха контраст</translation>
+    </message>
+    <message>
+        <source>Reduce motion</source>
+        <translation>Болар лахдан</translation>
+    </message>
+    <message>
+        <source>Readable font</source>
+        <translation>Еша атта шрифт</translation>
+    </message>
+    <message>
+        <source>Underline links</source>
+        <translation>Хьажоргашна бухахь сиз хьакха</translation>
+    </message>
+    <message>
+        <source>Back to the site's own look</source>
+        <translation>Сайтан шен куьце юхадерза</translation>
+    </message>
+    <message>
+        <source>Kept on this device only, for every page of this site.</source>
+        <translation>ХӀокху гӀирсахь бен ца ларйо, хӀокху сайтан хӀора агӀонан.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

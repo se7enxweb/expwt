@@ -2419,6 +2419,54 @@
         <source>The hold was not changed. Try again.</source>
         <translation>തടഞ്ഞുവയ്ക്കൽ മാറ്റിയിട്ടില്ല. വീണ്ടും ശ്രമിക്കുക.</translation>
     </message>
+    <message>
+        <source>Reading and display</source>
+        <translation>വായനയും ഡിസ്‌പ്ലേയും</translation>
+    </message>
+    <message>
+        <source>Text size</source>
+        <translation>ടെക്‌സ്റ്റ് വലുപ്പം</translation>
+    </message>
+    <message>
+        <source>Normal</source>
+        <translation>സാധാരണ</translation>
+    </message>
+    <message>
+        <source>Large</source>
+        <translation>വലുത്</translation>
+    </message>
+    <message>
+        <source>Larger</source>
+        <translation>കൂടുതൽ വലുത്</translation>
+    </message>
+    <message>
+        <source>Largest</source>
+        <translation>ഏറ്റവും വലുത്</translation>
+    </message>
+    <message>
+        <source>High contrast</source>
+        <translation>ഉയർന്ന കോൺട്രാസ്റ്റ്</translation>
+    </message>
+    <message>
+        <source>Reduce motion</source>
+        <translation>ചലനം കുറയ്ക്കുക</translation>
+    </message>
+    <message>
+        <source>Readable font</source>
+        <translation>എളുപ്പം വായിക്കാവുന്ന ഫോണ്ട്</translation>
+    </message>
+    <message>
+        <source>Underline links</source>
+        <translation>ലിങ്കുകൾക്ക് അടിവരയിടുക</translation>
+    </message>
+    <message>
+        <source>Back to the site's own look</source>
+        <translation>സൈറ്റിന്റെ സ്വന്തം രൂപത്തിലേക്ക് മടങ്ങുക</translation>
+    </message>
+    <message>
+        <source>Kept on this device only, for every page of this site.</source>
+        <translation>ഈ ഉപകരണത്തിൽ മാത്രം സൂക്ഷിക്കുന്നു, ഈ സൈറ്റിലെ എല്ലാ പേജിനും.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

@@ -2419,6 +2419,54 @@
         <source>The hold was not changed. Try again.</source>
         <translation>روٗکاوٕ آو نہٕ بدلاونہٕ۔ دوبارٕ کوٗشِش کٔرِو۔</translation>
     </message>
+    <message>
+        <source>Reading and display</source>
+        <translation>پرُن تہٕ ہاوُن</translation>
+    </message>
+    <message>
+        <source>Text size</source>
+        <translation>متنُک ساییز</translation>
+    </message>
+    <message>
+        <source>Normal</source>
+        <translation>عام</translation>
+    </message>
+    <message>
+        <source>Large</source>
+        <translation>بوڑ</translation>
+    </message>
+    <message>
+        <source>Larger</source>
+        <translation>زیادٕ بوڑ</translation>
+    </message>
+    <message>
+        <source>Largest</source>
+        <translation>سارِوے کھوتہٕ بوڑ</translation>
+    </message>
+    <message>
+        <source>High contrast</source>
+        <translation>ہائی کنٹراسٹ</translation>
+    </message>
+    <message>
+        <source>Reduce motion</source>
+        <translation>حرکت کم کٔرِو</translation>
+    </message>
+    <message>
+        <source>Readable font</source>
+        <translation>آسٲنی سان پرنہٕ یِنَس وول فانٹ</translation>
+    </message>
+    <message>
+        <source>Underline links</source>
+        <translation>لِنکن تَل لٲن دِیِو</translation>
+    </message>
+    <message>
+        <source>Back to the site's own look</source>
+        <translation>سائٹٕچ پننِس شکلِس پیٹھ واپس</translation>
+    </message>
+    <message>
+        <source>Kept on this device only, for every page of this site.</source>
+        <translation>صرف یتھ ڈیوائسس پیٹھ محفوظ، یتھ سائٹٕچ پرٛتھ صفحس خٲطرٕ۔</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

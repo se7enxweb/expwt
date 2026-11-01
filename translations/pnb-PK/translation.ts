@@ -2419,6 +2419,54 @@
         <source>The hold was not changed. Try again.</source>
         <translation>روک نہیں بدلی گئی۔ فیر کوشش کرو۔</translation>
     </message>
+    <message>
+        <source>Reading and display</source>
+        <translation>پڑھنا تے وکھالا</translation>
+    </message>
+    <message>
+        <source>Text size</source>
+        <translation>لکھت دا سائز</translation>
+    </message>
+    <message>
+        <source>Normal</source>
+        <translation>عام</translation>
+    </message>
+    <message>
+        <source>Large</source>
+        <translation>وڈا</translation>
+    </message>
+    <message>
+        <source>Larger</source>
+        <translation>ہور وڈا</translation>
+    </message>
+    <message>
+        <source>Largest</source>
+        <translation>سب توں وڈا</translation>
+    </message>
+    <message>
+        <source>High contrast</source>
+        <translation>اُچا کنٹراسٹ</translation>
+    </message>
+    <message>
+        <source>Reduce motion</source>
+        <translation>حرکت گھٹاؤ</translation>
+    </message>
+    <message>
+        <source>Readable font</source>
+        <translation>سوکھا پڑھیا جان والا فونٹ</translation>
+    </message>
+    <message>
+        <source>Underline links</source>
+        <translation>لنکاں ہیٹھ لکیر</translation>
+    </message>
+    <message>
+        <source>Back to the site's own look</source>
+        <translation>سائٹ دی اپنی شکل ول واپس</translation>
+    </message>
+    <message>
+        <source>Kept on this device only, for every page of this site.</source>
+        <translation>بس ایس ڈیوائس تے رکھیا، ایس سائٹ دے ہر صفحے لئی۔</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

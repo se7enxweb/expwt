@@ -2419,6 +2419,54 @@
         <source>The hold was not changed. Try again.</source>
         <translation>Die Prüfsperre wurde nicht geändert. Versuchen Sie es erneut.</translation>
     </message>
+    <message>
+        <source>Reading and display</source>
+        <translation>Lesen und Darstellung</translation>
+    </message>
+    <message>
+        <source>Text size</source>
+        <translation>Textgröße</translation>
+    </message>
+    <message>
+        <source>Normal</source>
+        <translation>Normal</translation>
+    </message>
+    <message>
+        <source>Large</source>
+        <translation>Groß</translation>
+    </message>
+    <message>
+        <source>Larger</source>
+        <translation>Größer</translation>
+    </message>
+    <message>
+        <source>Largest</source>
+        <translation>Am größten</translation>
+    </message>
+    <message>
+        <source>High contrast</source>
+        <translation>Hoher Kontrast</translation>
+    </message>
+    <message>
+        <source>Reduce motion</source>
+        <translation>Bewegung reduzieren</translation>
+    </message>
+    <message>
+        <source>Readable font</source>
+        <translation>Gut lesbare Schrift</translation>
+    </message>
+    <message>
+        <source>Underline links</source>
+        <translation>Links unterstreichen</translation>
+    </message>
+    <message>
+        <source>Back to the site's own look</source>
+        <translation>Zurück zum Aussehen der Website</translation>
+    </message>
+    <message>
+        <source>Kept on this device only, for every page of this site.</source>
+        <translation>Nur auf diesem Gerät gespeichert, für jede Seite dieser Website.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

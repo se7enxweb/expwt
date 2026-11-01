@@ -2419,6 +2419,54 @@
         <source>The hold was not changed. Try again.</source>
         <translation>Ukubanjwa akushintshiwe. Zama futhi.</translation>
     </message>
+    <message>
+        <source>Reading and display</source>
+        <translation>Ukufunda nokubonisa</translation>
+    </message>
+    <message>
+        <source>Text size</source>
+        <translation>Usayizi wombhalo</translation>
+    </message>
+    <message>
+        <source>Normal</source>
+        <translation>Okuvamile</translation>
+    </message>
+    <message>
+        <source>Large</source>
+        <translation>Kukhulu</translation>
+    </message>
+    <message>
+        <source>Larger</source>
+        <translation>Kukhudlwana</translation>
+    </message>
+    <message>
+        <source>Largest</source>
+        <translation>Kukhulu kakhulu</translation>
+    </message>
+    <message>
+        <source>High contrast</source>
+        <translation>Ukugqama okuphezulu</translation>
+    </message>
+    <message>
+        <source>Reduce motion</source>
+        <translation>Nciphisa ukunyakaza</translation>
+    </message>
+    <message>
+        <source>Readable font</source>
+        <translation>Ifonti efundeka kalula</translation>
+    </message>
+    <message>
+        <source>Underline links</source>
+        <translation>Dwebela izixhumanisi</translation>
+    </message>
+    <message>
+        <source>Back to the site's own look</source>
+        <translation>Buyela ekubukekeni kwesayithi uqobo</translation>
+    </message>
+    <message>
+        <source>Kept on this device only, for every page of this site.</source>
+        <translation>Kugcinwe kule divayisi kuphela, ekhasini ngalinye lale sayithi.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

@@ -2419,6 +2419,54 @@
         <source>The hold was not changed. Try again.</source>
         <translation>እገዳው አልተቀየረም። እንደገና ይሞክሩ።</translation>
     </message>
+    <message>
+        <source>Reading and display</source>
+        <translation>ንባብ እና ማሳያ</translation>
+    </message>
+    <message>
+        <source>Text size</source>
+        <translation>የጽሑፍ መጠን</translation>
+    </message>
+    <message>
+        <source>Normal</source>
+        <translation>መደበኛ</translation>
+    </message>
+    <message>
+        <source>Large</source>
+        <translation>ትልቅ</translation>
+    </message>
+    <message>
+        <source>Larger</source>
+        <translation>ትልቅ የሆነ</translation>
+    </message>
+    <message>
+        <source>Largest</source>
+        <translation>በጣም ትልቅ</translation>
+    </message>
+    <message>
+        <source>High contrast</source>
+        <translation>ከፍተኛ ንፅፅር</translation>
+    </message>
+    <message>
+        <source>Reduce motion</source>
+        <translation>እንቅስቃሴን ቀንስ</translation>
+    </message>
+    <message>
+        <source>Readable font</source>
+        <translation>በቀላሉ የሚነበብ ፊደል</translation>
+    </message>
+    <message>
+        <source>Underline links</source>
+        <translation>አገናኞችን አስምር</translation>
+    </message>
+    <message>
+        <source>Back to the site's own look</source>
+        <translation>ወደ ጣቢያው የራሱ ገጽታ ተመለስ</translation>
+    </message>
+    <message>
+        <source>Kept on this device only, for every page of this site.</source>
+        <translation>በዚህ መሣሪያ ላይ ብቻ ተቀምጧል፣ ለዚህ ጣቢያ ለእያንዳንዱ ገጽ።</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

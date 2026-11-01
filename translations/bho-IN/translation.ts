@@ -2419,6 +2419,54 @@
         <source>The hold was not changed. Try again.</source>
         <translation>रोक ना बदलल। फेर से कोसिस करीं।</translation>
     </message>
+    <message>
+        <source>Reading and display</source>
+        <translation>पढ़ाई आ देखावट</translation>
+    </message>
+    <message>
+        <source>Text size</source>
+        <translation>टेक्स्ट के आकार</translation>
+    </message>
+    <message>
+        <source>Normal</source>
+        <translation>सामान्य</translation>
+    </message>
+    <message>
+        <source>Large</source>
+        <translation>बड़</translation>
+    </message>
+    <message>
+        <source>Larger</source>
+        <translation>आउर बड़</translation>
+    </message>
+    <message>
+        <source>Largest</source>
+        <translation>सबसे बड़</translation>
+    </message>
+    <message>
+        <source>High contrast</source>
+        <translation>हाई कंट्रास्ट</translation>
+    </message>
+    <message>
+        <source>Reduce motion</source>
+        <translation>हलचल घटाईं</translation>
+    </message>
+    <message>
+        <source>Readable font</source>
+        <translation>आसानी से पढ़े लायक फ़ॉन्ट</translation>
+    </message>
+    <message>
+        <source>Underline links</source>
+        <translation>लिंक के नीचे लकीर</translation>
+    </message>
+    <message>
+        <source>Back to the site's own look</source>
+        <translation>साइट के आपन रूप पर लवटीं</translation>
+    </message>
+    <message>
+        <source>Kept on this device only, for every page of this site.</source>
+        <translation>खाली एही डिवाइस पर रखल, एह साइट के हर पन्ना खातिर।</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

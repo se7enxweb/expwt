@@ -2419,6 +2419,54 @@
         <source>The hold was not changed. Try again.</source>
         <translation>Le blocage n’a pas été modifié. Réessayez.</translation>
     </message>
+    <message>
+        <source>Reading and display</source>
+        <translation>Lecture et affichage</translation>
+    </message>
+    <message>
+        <source>Text size</source>
+        <translation>Taille du texte</translation>
+    </message>
+    <message>
+        <source>Normal</source>
+        <translation>Normale</translation>
+    </message>
+    <message>
+        <source>Large</source>
+        <translation>Grande</translation>
+    </message>
+    <message>
+        <source>Larger</source>
+        <translation>Plus grande</translation>
+    </message>
+    <message>
+        <source>Largest</source>
+        <translation>La plus grande</translation>
+    </message>
+    <message>
+        <source>High contrast</source>
+        <translation>Contraste élevé</translation>
+    </message>
+    <message>
+        <source>Reduce motion</source>
+        <translation>Réduire les animations</translation>
+    </message>
+    <message>
+        <source>Readable font</source>
+        <translation>Police facile à lire</translation>
+    </message>
+    <message>
+        <source>Underline links</source>
+        <translation>Souligner les liens</translation>
+    </message>
+    <message>
+        <source>Back to the site's own look</source>
+        <translation>Revenir à l'apparence d'origine du site</translation>
+    </message>
+    <message>
+        <source>Kept on this device only, for every page of this site.</source>
+        <translation>Enregistré sur cet appareil uniquement, pour chaque page de ce site.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

@@ -2419,6 +2419,54 @@
         <source>The hold was not changed. Try again.</source>
         <translation>Ìdádúró náà kò yí padà. Gbìyànjú lẹ́ẹ̀kan sí i.</translation>
     </message>
+    <message>
+        <source>Reading and display</source>
+        <translation>Kíkà àti ìfihàn</translation>
+    </message>
+    <message>
+        <source>Text size</source>
+        <translation>Ìwọ̀n ọ̀rọ̀</translation>
+    </message>
+    <message>
+        <source>Normal</source>
+        <translation>Déédéé</translation>
+    </message>
+    <message>
+        <source>Large</source>
+        <translation>Ńlá</translation>
+    </message>
+    <message>
+        <source>Larger</source>
+        <translation>Tóbi jù</translation>
+    </message>
+    <message>
+        <source>Largest</source>
+        <translation>Tóbi jùlọ</translation>
+    </message>
+    <message>
+        <source>High contrast</source>
+        <translation>Ìyàtọ̀ gíga</translation>
+    </message>
+    <message>
+        <source>Reduce motion</source>
+        <translation>Dín ìṣípò kù</translation>
+    </message>
+    <message>
+        <source>Readable font</source>
+        <translation>Fọ́ǹtì tí ó rọrùn láti kà</translation>
+    </message>
+    <message>
+        <source>Underline links</source>
+        <translation>Fa ìlà sí abẹ́ àwọn ìjápọ̀</translation>
+    </message>
+    <message>
+        <source>Back to the site's own look</source>
+        <translation>Padà sí ìrísí ojú-òpó náà fúnra rẹ̀</translation>
+    </message>
+    <message>
+        <source>Kept on this device only, for every page of this site.</source>
+        <translation>A tọ́jú rẹ̀ sórí ẹ̀rọ yìí nìkan, fún gbogbo ojú-ewé ojú-òpó yìí.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

@@ -2419,6 +2419,54 @@
         <source>The hold was not changed. Try again.</source>
         <translation>ܟܠܝܐ ܠܐ ܐܫܬܚܠܦ. ܢܣܝ ܬܘܒ.</translation>
     </message>
+    <message>
+        <source>Reading and display</source>
+        <translation>ܩܪܝܢܐ ܘܚܘܝܐ</translation>
+    </message>
+    <message>
+        <source>Text size</source>
+        <translation>ܪܒܘܬܐ ܕܟܬܒܐ</translation>
+    </message>
+    <message>
+        <source>Normal</source>
+        <translation>ܦܫܝܛܐ</translation>
+    </message>
+    <message>
+        <source>Large</source>
+        <translation>ܪܒܐ</translation>
+    </message>
+    <message>
+        <source>Larger</source>
+        <translation>ܪܒ ܝܬܝܪ</translation>
+    </message>
+    <message>
+        <source>Largest</source>
+        <translation>ܪܒ ܡܢ ܟܠ</translation>
+    </message>
+    <message>
+        <source>High contrast</source>
+        <translation>ܦܘܪܫܢܐ ܪܡܐ</translation>
+    </message>
+    <message>
+        <source>Reduce motion</source>
+        <translation>ܒܨܪ ܙܘܥܐ</translation>
+    </message>
+    <message>
+        <source>Readable font</source>
+        <translation>ܟܬܒܐ ܦܫܝܩܐ ܠܩܪܝܢܐ</translation>
+    </message>
+    <message>
+        <source>Underline links</source>
+        <translation>ܣܪܛ ܬܚܝܬ ܐܣܘܪܐ</translation>
+    </message>
+    <message>
+        <source>Back to the site's own look</source>
+        <translation>ܗܦܘܟ ܠܚܙܘܐ ܕܝܠܗ ܕܐܬܪܐ</translation>
+    </message>
+    <message>
+        <source>Kept on this device only, for every page of this site.</source>
+        <translation>ܢܛܝܪ ܥܠ ܗܢܐ ܡܐܢܐ ܒܠܚܘܕ، ܠܟܠ ܦܐܬܐ ܕܗܢܐ ܐܬܪܐ.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

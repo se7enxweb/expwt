@@ -2419,6 +2419,54 @@
         <source>The hold was not changed. Try again.</source>
         <translation>होनथाबनायखौ सोलायनाय जाया। फिन नाजा।</translation>
     </message>
+    <message>
+        <source>Reading and display</source>
+        <translation>फरायनाय आरो दिन्थिनाय</translation>
+    </message>
+    <message>
+        <source>Text size</source>
+        <translation>लिरनायनि महर</translation>
+    </message>
+    <message>
+        <source>Normal</source>
+        <translation>सरासनस्रा</translation>
+    </message>
+    <message>
+        <source>Large</source>
+        <translation>गेदेर</translation>
+    </message>
+    <message>
+        <source>Larger</source>
+        <translation>बांसिन गेदेर</translation>
+    </message>
+    <message>
+        <source>Largest</source>
+        <translation>सबायखौ गेदेर</translation>
+    </message>
+    <message>
+        <source>High contrast</source>
+        <translation>गोजौ कन्ट्रास्ट</translation>
+    </message>
+    <message>
+        <source>Reduce motion</source>
+        <translation>सेंनाय खमायहो</translation>
+    </message>
+    <message>
+        <source>Readable font</source>
+        <translation>गोरलैयै फरायनो हानाय फन्ट</translation>
+    </message>
+    <message>
+        <source>Underline links</source>
+        <translation>लिंकनि सिङाव सुंद्रा हो</translation>
+    </message>
+    <message>
+        <source>Back to the site's own look</source>
+        <translation>साइटनि गावनि महराव फिन</translation>
+    </message>
+    <message>
+        <source>Kept on this device only, for every page of this site.</source>
+        <translation>बेनि डिभाइसआव मोनसेल' दोननाय, बे साइटनि बिलाइ बिलाइनि थाखाय।</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

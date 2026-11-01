@@ -2419,6 +2419,54 @@
         <source>The hold was not changed. Try again.</source>
         <translation>Утрыманне не зменена. Паспрабуйце яшчэ раз.</translation>
     </message>
+    <message>
+        <source>Reading and display</source>
+        <translation>Чытанне і адлюстраванне</translation>
+    </message>
+    <message>
+        <source>Text size</source>
+        <translation>Памер тэксту</translation>
+    </message>
+    <message>
+        <source>Normal</source>
+        <translation>Звычайны</translation>
+    </message>
+    <message>
+        <source>Large</source>
+        <translation>Вялікі</translation>
+    </message>
+    <message>
+        <source>Larger</source>
+        <translation>Большы</translation>
+    </message>
+    <message>
+        <source>Largest</source>
+        <translation>Найбольшы</translation>
+    </message>
+    <message>
+        <source>High contrast</source>
+        <translation>Высокая кантраснасць</translation>
+    </message>
+    <message>
+        <source>Reduce motion</source>
+        <translation>Паменшыць рух</translation>
+    </message>
+    <message>
+        <source>Readable font</source>
+        <translation>Лёгкачытальны шрыфт</translation>
+    </message>
+    <message>
+        <source>Underline links</source>
+        <translation>Падкрэсліваць спасылкі</translation>
+    </message>
+    <message>
+        <source>Back to the site's own look</source>
+        <translation>Вярнуць уласны выгляд сайта</translation>
+    </message>
+    <message>
+        <source>Kept on this device only, for every page of this site.</source>
+        <translation>Захоўваецца толькі на гэтай прыладзе, для кожнай старонкі гэтага сайта.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

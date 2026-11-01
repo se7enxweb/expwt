@@ -304,6 +304,94 @@
   /* The page's own stylesheet: the push of the page and the outlines of inline editing (never an attribute style). */
   var pageSheet = null;
 
+  /* Visitor accessibility (E15): what a visitor chose in the Welcome panel for the whole site, kept on this device
+     (localStorage expwt.visitor): text size, high contrast, reduced motion, a readable font, underlined links. Applied
+     as attributes on <html> (data-expwt-text, data-expwt-a11y) and one adopted stylesheet of tokens (--expwt-a11y-*,
+     light and dark) that only those attributes switch on. The site's own rules lose against these on purpose
+     (!important): a visitor who needs high contrast must get it whatever the theme sets. The text size scales the
+     site's own root size, measured before it is changed. Pure parts (normalize, attrs, css) in tests/js/visitor.test.js. */
+  var VISITOR = 'expwt.visitor';
+  var Visitor = {
+    SIZES: [100, 125, 150, 200],
+    FLAGS: ['contrast', 'motion', 'font', 'underline'],
+    normalize: function (v) {
+      v = v && typeof v === 'object' ? v : {};
+      var out = { size: Visitor.SIZES.indexOf(Number(v.size)) >= 0 ? Number(v.size) : 100 };
+      Visitor.FLAGS.forEach(function (f) { out[f] = v[f] === true; });
+      return out;
+    },
+    isDefault: function (p) {
+      return p.size === 100 && !Visitor.FLAGS.some(function (f) { return p[f]; });
+    },
+    attrs: function (p) {
+      var flags = Visitor.FLAGS.filter(function (f) { return p[f]; });
+      return { text: p.size !== 100 ? String(p.size) : null, a11y: flags.length ? flags.join(' ') : null };
+    },
+    /* base: the site's own root font size in px (16 where it cannot be read) */
+    css: function (base) {
+      var px = base > 0 ? base : 16;
+      var A = 'html[data-expwt-a11y~="';
+      var dark = '--expwt-a11y-fg:#fff;--expwt-a11y-bg:#000;--expwt-a11y-link:#ffe14d;--expwt-a11y-focus:#7fdbff';
+      var keep = ':not(exp-wt):not(img):not(video):not(picture):not(canvas):not(iframe):not(svg):not(svg *)';
+      var icon = ':not(i):not([class*="icon"]):not([aria-hidden="true"])';
+      var glyph = ':not(exp-wt):not(code):not(pre):not(kbd):not(samp):not(i):not([class*="icon"]):not([class*="fa-"]):not([aria-hidden="true"])';
+      return ':root{--expwt-a11y-fg:#000;--expwt-a11y-bg:#fff;--expwt-a11y-link:#0a3bb8;--expwt-a11y-focus:#b3005f;'
+        + '--expwt-a11y-font:Verdana,Tahoma,"Segoe UI",system-ui,sans-serif}'
+        + 'html[data-exp-theme="dark"]{' + dark + '}'
+        + '@media (prefers-color-scheme:dark){html:not([data-exp-theme="light"]){' + dark + '}}'
+        + Visitor.SIZES.filter(function (s) { return s !== 100; }).map(function (s) {
+          return 'html[data-expwt-text="' + s + '"]{font-size:' + (Math.round(px * s) / 100) + 'px!important}';
+        }).join('')
+        + A + 'contrast"],' + A + 'contrast"] body{background:var(--expwt-a11y-bg)!important;color:var(--expwt-a11y-fg)!important}'
+        /* opaque, never transparent: a banner, a dialog or a sticky header over the page stays readable */
+        + A + 'contrast"] body :where(*' + keep + icon + '){color:var(--expwt-a11y-fg)!important;background-color:var(--expwt-a11y-bg)!important;'
+        + 'background-image:none!important;border-color:currentColor!important;text-shadow:none!important;box-shadow:none!important}'
+        /* an icon keeps its image on no background of its own; an empty decorative bar (a menu button's lines) takes the
+           text color, as text would */
+        + A + 'contrast"] body :is(i,[class*="icon"],[aria-hidden="true"]):not(exp-wt):not(svg *){color:var(--expwt-a11y-fg)!important;'
+        + 'background-color:transparent!important;text-shadow:none!important;box-shadow:none!important}'
+        + A + 'contrast"] body [aria-hidden="true"]:empty:not(i):not([class*="icon"]),'
+        + A + 'contrast"] body [aria-hidden="true"]:empty:not(i):not([class*="icon"])::before,'
+        + A + 'contrast"] body [aria-hidden="true"]:empty:not(i):not([class*="icon"])::after{background-color:var(--expwt-a11y-fg)!important}'
+        + A + 'contrast"] :is(button,input,select,textarea){border:2px solid var(--expwt-a11y-fg)!important}'
+        /* links (an icon link too) in their own color: more specific than the icon rule above */
+        + A + 'contrast"] body a[href]:not(exp-wt):not(svg *),' + A + 'contrast"] body a[href] *' + keep + '{color:var(--expwt-a11y-link)!important}'
+        + A + 'contrast"] :focus-visible{outline:3px solid var(--expwt-a11y-focus)!important;outline-offset:2px!important}'
+        + 'html[data-expwt-a11y~="motion"]{scroll-behavior:auto!important}'
+        + A + 'motion"] *,' + A + 'motion"] *::before,' + A + 'motion"] *::after{animation-duration:1ms!important;'
+        + 'animation-iteration-count:1!important;animation-delay:0s!important;transition-duration:1ms!important;'
+        + 'transition-delay:0s!important;scroll-behavior:auto!important}'
+        + A + 'font"] body,' + A + 'font"] body *' + glyph + '{font-family:var(--expwt-a11y-font)!important;'
+        + 'letter-spacing:.02em!important;word-spacing:.06em!important}'
+        + A + 'font"] body :is(p,li,dd,dt,blockquote,td,th,figcaption){line-height:1.6!important}'
+        + A + 'underline"] a[href]{text-decoration-line:underline!important;text-decoration-thickness:max(1px,.08em)!important;'
+        + 'text-underline-offset:.18em!important}';
+    },
+    sheet: null,
+    base: 0,
+    apply: function (p) {
+      var root = document.documentElement;
+      var at = Visitor.attrs(p);
+      if (!canAdopt) { return; }
+      if (!Visitor.sheet && Visitor.isDefault(p)) { return; }
+      if (!Visitor.base) {
+        /* the site's own root size, read before data-expwt-text changes it */
+        var had = root.getAttribute('data-expwt-text');
+        if (had) { root.removeAttribute('data-expwt-text'); }
+        Visitor.base = parseFloat(window.getComputedStyle(root).fontSize) || 16;
+        if (had) { root.setAttribute('data-expwt-text', had); }
+      }
+      if (!Visitor.sheet) {
+        Visitor.sheet = new CSSStyleSheet();
+        Visitor.sheet.replaceSync(Visitor.css(Visitor.base));
+        document.adoptedStyleSheets = document.adoptedStyleSheets.concat([Visitor.sheet]);
+      }
+      if (at.text) { root.setAttribute('data-expwt-text', at.text); } else { root.removeAttribute('data-expwt-text'); }
+      if (at.a11y) { root.setAttribute('data-expwt-a11y', at.a11y); } else { root.removeAttribute('data-expwt-a11y'); }
+    }
+  };
+  window.ExpwtVisitor = Visitor;
+
   /* Printing and saving as a PDF (E13): the sidebar, its spacers and the room it takes are never printed; while the
      Export panel prints, data-expwt-print on <html> carries its choices: "content" leaves out the site's header,
      menus, aside and footer (those inside the main content stay), "urls" writes the address after each link. */
@@ -335,6 +423,8 @@
       try {
         if (window.frameElement && window.frameElement.hasAttribute('data-expwt-split')) { return; }
       } catch (e) { /* a frame of another origin */ }
+      /* what the visitor chose for reading this site on this device (E15), on every page, before anything else */
+      Visitor.apply(Visitor.normalize(store(VISITOR)));
       var self = this;
       try {
         this.cfg = JSON.parse(this.getAttribute('data-config') || '{}');
@@ -1777,6 +1867,50 @@
         h('button', { type: 'submit', class: 'wt-btn', text: this.t('Search') })
       ]));
       b.appendChild(this.themeChooser());
+      b.appendChild(this.visitorChooser());
+    }
+
+    /* Reading and display for the whole site (E15): text size, high contrast, reduced motion, a readable font and
+       underlined links, kept on this device; "Back to the site's own look" forgets them. */
+    visitorChooser() {
+      var self = this;
+      var p = Visitor.normalize(store(VISITOR));
+      var group = h('fieldset', { class: 'wt-section wt-choice wt-visitor' }, [h('legend', { text: this.t('Reading and display') })]);
+      var size = h('select', { id: 'wt-visitor-size', onchange: function () { change({ size: Number(size.value) }); } });
+      [[100, this.t('Normal')], [125, this.t('Large')], [150, this.t('Larger')], [200, this.t('Largest')]].forEach(function (o) {
+        size.appendChild(h('option', { value: String(o[0]), selected: p.size === o[0] ? '' : null, text: o[1] + ' (' + o[0] + '%)' }));
+      });
+      group.appendChild(h('label', { class: 'wt-field', for: 'wt-visitor-size' }, [h('span', { text: this.t('Text size') }), size]));
+      var boxes = {};
+      [['contrast', this.t('High contrast')], ['motion', this.t('Reduce motion')], ['font', this.t('Readable font')],
+        ['underline', this.t('Underline links')]].forEach(function (o) {
+        var id = 'wt-visitor-' + o[0];
+        boxes[o[0]] = h('input', { type: 'checkbox', id: id, checked: p[o[0]], onchange: function () {
+          var c = {};
+          c[o[0]] = boxes[o[0]].checked;
+          change(c);
+        } });
+        group.appendChild(h('label', { class: 'wt-check', for: id }, [boxes[o[0]], o[1]]));
+      });
+      var reset = h('button', { type: 'button', class: 'wt-btn', text: this.t('Back to the site\'s own look'), onclick: function () {
+        p = Visitor.normalize({});
+        size.value = '100';
+        Visitor.FLAGS.forEach(function (f) { boxes[f].checked = false; });
+        save();
+      } });
+      group.appendChild(h('div', { class: 'wt-row' }, [reset]));
+      group.appendChild(h('p', { class: 'wt-muted', text: this.t('Kept on this device only, for every page of this site.') }));
+      function save() {
+        store(VISITOR, Visitor.isDefault(p) ? null : p);
+        Visitor.apply(p);
+        reset.disabled = Visitor.isDefault(p);
+      }
+      function change(c) {
+        p = Visitor.normalize(Object.assign({}, p, c));
+        save();
+      }
+      reset.disabled = Visitor.isDefault(p);
+      return group;
     }
 
     themeChooser() {

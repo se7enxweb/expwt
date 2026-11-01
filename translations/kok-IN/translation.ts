@@ -2419,6 +2419,54 @@
         <source>The hold was not changed. Try again.</source>
         <translation>रोखप बदलूंक ना. परतून यत्न करात.</translation>
     </message>
+    <message>
+        <source>Reading and display</source>
+        <translation>वाचप आनी दाखोवप</translation>
+    </message>
+    <message>
+        <source>Text size</source>
+        <translation>मजकुराचो आकार</translation>
+    </message>
+    <message>
+        <source>Normal</source>
+        <translation>सामान्य</translation>
+    </message>
+    <message>
+        <source>Large</source>
+        <translation>व्हडलो</translation>
+    </message>
+    <message>
+        <source>Larger</source>
+        <translation>आनीक व्हडलो</translation>
+    </message>
+    <message>
+        <source>Largest</source>
+        <translation>सगळ्यांत व्हडलो</translation>
+    </message>
+    <message>
+        <source>High contrast</source>
+        <translation>उंच काँट्रास्ट</translation>
+    </message>
+    <message>
+        <source>Reduce motion</source>
+        <translation>हालचाल उणी करात</translation>
+    </message>
+    <message>
+        <source>Readable font</source>
+        <translation>सोंपेपणान वाचूं येता असो फॉन्ट</translation>
+    </message>
+    <message>
+        <source>Underline links</source>
+        <translation>लिंकांच्या सकयल रेघ</translation>
+    </message>
+    <message>
+        <source>Back to the site's own look</source>
+        <translation>सायटीच्या स्वताच्या रुपाचेर परत वचात</translation>
+    </message>
+    <message>
+        <source>Kept on this device only, for every page of this site.</source>
+        <translation>फकत ह्या डिवायसार दवरला, ह्या सायटीच्या दर पानाखातीर.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

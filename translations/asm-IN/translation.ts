@@ -2419,6 +2419,54 @@
         <source>The hold was not changed. Try again.</source>
         <translation>স্থগিতকৰণ সলনি কৰা নহ'ল। পুনৰ চেষ্টা কৰক।</translation>
     </message>
+    <message>
+        <source>Reading and display</source>
+        <translation>পঢ়া আৰু প্ৰদৰ্শন</translation>
+    </message>
+    <message>
+        <source>Text size</source>
+        <translation>পাঠৰ আকাৰ</translation>
+    </message>
+    <message>
+        <source>Normal</source>
+        <translation>সাধাৰণ</translation>
+    </message>
+    <message>
+        <source>Large</source>
+        <translation>ডাঙৰ</translation>
+    </message>
+    <message>
+        <source>Larger</source>
+        <translation>অধিক ডাঙৰ</translation>
+    </message>
+    <message>
+        <source>Largest</source>
+        <translation>আটাইতকৈ ডাঙৰ</translation>
+    </message>
+    <message>
+        <source>High contrast</source>
+        <translation>উচ্চ কনট্ৰাষ্ট</translation>
+    </message>
+    <message>
+        <source>Reduce motion</source>
+        <translation>গতি হ্ৰাস কৰক</translation>
+    </message>
+    <message>
+        <source>Readable font</source>
+        <translation>সহজে পঢ়িব পৰা ফণ্ট</translation>
+    </message>
+    <message>
+        <source>Underline links</source>
+        <translation>লিংকৰ তলত ৰেখা দিয়ক</translation>
+    </message>
+    <message>
+        <source>Back to the site's own look</source>
+        <translation>ছাইটৰ নিজৰ ৰূপলৈ উভতি যাওক</translation>
+    </message>
+    <message>
+        <source>Kept on this device only, for every page of this site.</source>
+        <translation>কেৱল এই ডিভাইচত সংৰক্ষিত, এই ছাইটৰ প্ৰতিটো পৃষ্ঠাৰ বাবে।</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>
