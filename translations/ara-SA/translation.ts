@@ -1943,5 +1943,17 @@
         <source>1920 wide at 200% zoom</source>
         <translation>عرض 1920 بتكبير 200%</translation>
     </message>
+    <message>
+        <source>Frames shown</source>
+        <translation>الإطارات المعروضة</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>اعرض الكل</translation>
+    </message>
+    <message>
+        <source>All frames are shown.</source>
+        <translation>كل الإطارات معروضة.</translation>
+    </message>
 </context>
 </TS>

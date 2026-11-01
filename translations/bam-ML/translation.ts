@@ -1943,5 +1943,17 @@
         <source>1920 wide at 200% zoom</source>
         <translation>1920 bonya zoom 200% la</translation>
     </message>
+    <message>
+        <source>Frames shown</source>
+        <translation>Kadiri minnu jirala</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>U bɛɛ jira</translation>
+    </message>
+    <message>
+        <source>All frames are shown.</source>
+        <translation>Kadiriw bɛɛ jirala.</translation>
+    </message>
 </context>
 </TS>

@@ -1943,5 +1943,17 @@
         <source>1920 wide at 200% zoom</source>
         <translation>Bal'inni 1920 zuumii 200% irratti</translation>
     </message>
+    <message>
+        <source>Frames shown</source>
+        <translation>Fireemota mul'atan</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Hunda agarsiisi</translation>
+    </message>
+    <message>
+        <source>All frames are shown.</source>
+        <translation>Fireemonni hundi mul'ataniiru.</translation>
+    </message>
 </context>
 </TS>

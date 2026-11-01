@@ -1943,5 +1943,17 @@
         <source>1920 wide at 200% zoom</source>
         <translation>Firehiya 1920 bi zoom a 200%</translation>
     </message>
+    <message>
+        <source>Frames shown</source>
+        <translation>Çarçoveyên tên nîşandan</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Hemûyan nîşan bide</translation>
+    </message>
+    <message>
+        <source>All frames are shown.</source>
+        <translation>Hemû çarçove tên nîşandan.</translation>
+    </message>
 </context>
 </TS>

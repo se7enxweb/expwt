@@ -1943,5 +1943,17 @@
         <source>1920 wide at 200% zoom</source>
         <translation>1920 silissusilik 200% zoomimik</translation>
     </message>
+    <message>
+        <source>Frames shown</source>
+        <translation>Ilusaasat takutinneqartut</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Tamaasa takutiguk</translation>
+    </message>
+    <message>
+        <source>All frames are shown.</source>
+        <translation>Ilusaasat tamarmik takutinneqarput.</translation>
+    </message>
 </context>
 </TS>

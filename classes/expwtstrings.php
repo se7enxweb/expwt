@@ -511,6 +511,9 @@ class expwtStrings
         'Tablet',
         'Desktop',
         '1920 wide at 200% zoom',
+        'Frames shown',
+        'Show all',
+        'All frames are shown.',
     );
     /* sources:end */
 

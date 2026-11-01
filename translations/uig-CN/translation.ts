@@ -1943,5 +1943,17 @@
         <source>1920 wide at 200% zoom</source>
         <translation>200% چوڭايتىلغاندا كەڭلىكى 1920</translation>
     </message>
+    <message>
+        <source>Frames shown</source>
+        <translation>كۆرسىتىلگەن رامكىلار</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>ھەممىنى كۆرسەت</translation>
+    </message>
+    <message>
+        <source>All frames are shown.</source>
+        <translation>بارلىق رامكىلار كۆرسىتىلدى.</translation>
+    </message>
 </context>
 </TS>

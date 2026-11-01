@@ -1943,5 +1943,17 @@
         <source>1920 wide at 200% zoom</source>
         <translation>پانی 1920 لەگەڵ زووم ٪200</translation>
     </message>
+    <message>
+        <source>Frames shown</source>
+        <translation>چوارچێوە نیشاندراوەکان</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>هەمووی نیشان بدە</translation>
+    </message>
+    <message>
+        <source>All frames are shown.</source>
+        <translation>هەموو چوارچێوەکان نیشان دەدرێن.</translation>
+    </message>
 </context>
 </TS>

@@ -1943,5 +1943,17 @@
         <source>1920 wide at 200% zoom</source>
         <translation>Ubugari bwa 1920 kuri zoom ya 200%</translation>
     </message>
+    <message>
+        <source>Frames shown</source>
+        <translation>Amakadiri agaragara</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Erekana byose</translation>
+    </message>
+    <message>
+        <source>All frames are shown.</source>
+        <translation>Amakadiri yose aragaragara.</translation>
+    </message>
 </context>
 </TS>

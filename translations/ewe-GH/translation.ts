@@ -1943,5 +1943,17 @@
         <source>1920 wide at 200% zoom</source>
         <translation>1920 ƒe kekeme kple 200% ƒe zoom</translation>
     </message>
+    <message>
+        <source>Frames shown</source>
+        <translation>Ðoɖo siwo wofia</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Fia wo katã</translation>
+    </message>
+    <message>
+        <source>All frames are shown.</source>
+        <translation>Wole ɖoɖoawo katã fiam.</translation>
+    </message>
 </context>
 </TS>

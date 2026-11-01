@@ -1943,5 +1943,17 @@
         <source>1920 wide at 200% zoom</source>
         <translation>২০০% জুমত ১৯২০ বহল</translation>
     </message>
+    <message>
+        <source>Frames shown</source>
+        <translation>দেখুওৱা ফ্ৰেমসমূহ</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>সকলো দেখুৱাওক</translation>
+    </message>
+    <message>
+        <source>All frames are shown.</source>
+        <translation>সকলো ফ্ৰেম দেখুওৱা হৈছে।</translation>
+    </message>
 </context>
 </TS>

@@ -1943,5 +1943,17 @@
         <source>1920 wide at 200% zoom</source>
         <translation>ስፍሓት 1920 ኣብ 200% ምዕባይ</translation>
     </message>
+    <message>
+        <source>Frames shown</source>
+        <translation>ዝረኣዩ ፍሬማት</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>ኩሉ ኣርኢ</translation>
+    </message>
+    <message>
+        <source>All frames are shown.</source>
+        <translation>ኩሎም ፍሬማት ይረኣዩ ኣለዉ።</translation>
+    </message>
 </context>
 </TS>

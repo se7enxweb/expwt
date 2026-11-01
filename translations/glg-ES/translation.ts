@@ -1943,5 +1943,17 @@
         <source>1920 wide at 200% zoom</source>
         <translation>1920 de ancho con zoom do 200%</translation>
     </message>
+    <message>
+        <source>Frames shown</source>
+        <translation>Marcos amosados</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Amosar todos</translation>
+    </message>
+    <message>
+        <source>All frames are shown.</source>
+        <translation>Amósanse todos os marcos.</translation>
+    </message>
 </context>
 </TS>

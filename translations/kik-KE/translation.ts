@@ -1943,5 +1943,17 @@
         <source>1920 wide at 200% zoom</source>
         <translation>1920 wariĩ na zoom ya 200%</translation>
     </message>
+    <message>
+        <source>Frames shown</source>
+        <translation>Frame iria cionanītio</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Onania ciothe</translation>
+    </message>
+    <message>
+        <source>All frames are shown.</source>
+        <translation>Frame ciothe nī ciraonanio.</translation>
+    </message>
 </context>
 </TS>

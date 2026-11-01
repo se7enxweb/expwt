@@ -57,9 +57,34 @@ same('the published page when chosen', D.src(urls, 'published'), urls.published)
 same('the published page without a draft', D.src({ published: '/p', draft: null }, 'draft'), '/p');
 
 var custom = { min: 240, max: 2560, height: 900 };
-same('nothing remembered', D.remembered(null, ['a'], custom), { shown: null, widths: [], modes: {} });
+same('nothing remembered', D.remembered(null, ['a'], custom), { shown: null, widths: [], hidden: [], modes: {} });
 same('only what is still there and valid', D.remembered({ shown: ['a', 'gone'], widths: [300, '300', 9999, 'x', 500, 600, 700, 800], modes: { a: 'dark', b: 'darker', w300: 'light' } }, ['a', 'b'], custom),
-  { shown: ['a'], widths: [300, 500, 600, 700], modes: { a: 'dark', w300: 'light' } });
+  { shown: ['a'], widths: [300, 500, 600, 700], hidden: [], modes: { a: 'dark', w300: 'light' } });
 same('nothing shown is remembered as nothing', D.remembered({ shown: [] }, ['a'], custom).shown, []);
+same('the widths hidden: only widths there are, each once', D.remembered({ widths: [300, 500], hidden: [500, '500', 700, 'x', 300] }, ['a'], custom).hidden, [500, 300]);
+same('no widths hidden remembered (a choice of before)', D.remembered({ shown: ['a'], widths: [300] }, ['a'], custom).hidden, []);
+
+/* the toggles of the frames shown */
+var ids = ['iphone13', 'pixel7', 'tablet', 'zoom200', 'desktop'];
+var all = D.all(ids);
+same('show all: every device, no width hidden', all, { shown: ids, hidden: [] });
+same('show all is a copy', all.shown !== ids, true);
+var c = D.flip(all, { id: 'tablet' }, ids);
+same('a device hidden', c, { shown: ['iphone13', 'pixel7', 'zoom200', 'desktop'], hidden: [] });
+same('the choice before stays as it was', all.shown.length, 5);
+same('shown again, in the order of the settings', D.flip(D.flip(c, { id: 'iphone13' }, ids), { id: 'iphone13' }, ids).shown, ['iphone13', 'pixel7', 'zoom200', 'desktop']);
+same('a device shown again keeps its place', D.flip(c, { id: 'tablet' }, ids).shown, ids);
+c = D.flip(c, { width: 1024 }, ids);
+same('a width of one own hidden', c.hidden, [1024]);
+same('and shown again', D.flip(c, { width: 1024 }, ids).hidden, []);
+same('not all shown', D.allShown(c, ids, [1024]), false);
+same('all shown', D.allShown(D.all(ids), ids, [1024]), true);
+same('a width hidden counts only while it is there', D.allShown({ shown: ids, hidden: [1024] }, ids, []), true);
+same('the frames visible: devices first, then the widths', D.visible({ shown: ['desktop', 'iphone13'], hidden: [500] }, ids, [300, 500, 700]),
+  [{ id: 'iphone13' }, { id: 'desktop' }, { width: 300 }, { width: 700 }]);
+same('nothing visible', D.visible({ shown: [], hidden: [300] }, ids, [300]), []);
+same('all hidden, show all brings them all back', D.visible(D.all(ids), ids, [300]).length, 6);
+var fitted = D.fit([{ width: 390, height: 844 }, { width: 1440, height: 900 }], 1400, 700, 12);
+same('fewer frames are larger: two of five shown fit one row at a larger scale', fitted.row && fitted.scales[0] > D.fit([phone, pixel, zoom, desk], 1400, 700, 12).scales[0], true);
 
 process.exit(failed ? 1 : 0);

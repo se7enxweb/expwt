@@ -1943,5 +1943,17 @@
         <source>1920 wide at 200% zoom</source>
         <translation>ទទឹង 1920 នៅពេលពង្រីក 200%</translation>
     </message>
+    <message>
+        <source>Frames shown</source>
+        <translation>ស៊ុមដែលបង្ហាញ</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>បង្ហាញទាំងអស់</translation>
+    </message>
+    <message>
+        <source>All frames are shown.</source>
+        <translation>ស៊ុមទាំងអស់ត្រូវបានបង្ហាញ។</translation>
+    </message>
 </context>
 </TS>

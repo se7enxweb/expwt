@@ -1943,5 +1943,17 @@
         <source>1920 wide at 200% zoom</source>
         <translation>1920 széles 200%-os nagyításnál</translation>
     </message>
+    <message>
+        <source>Frames shown</source>
+        <translation>Megjelenített keretek</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Mindet mutasd</translation>
+    </message>
+    <message>
+        <source>All frames are shown.</source>
+        <translation>Minden keret látható.</translation>
+    </message>
 </context>
 </TS>

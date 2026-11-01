@@ -1943,5 +1943,17 @@
         <source>1920 wide at 200% zoom</source>
         <translation>กว้าง 1920 ที่ซูม 200%</translation>
     </message>
+    <message>
+        <source>Frames shown</source>
+        <translation>เฟรมที่แสดง</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>แสดงทั้งหมด</translation>
+    </message>
+    <message>
+        <source>All frames are shown.</source>
+        <translation>แสดงเฟรมทั้งหมดแล้ว</translation>
+    </message>
 </context>
 </TS>

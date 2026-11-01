@@ -1943,5 +1943,17 @@
         <source>1920 wide at 200% zoom</source>
         <translation>1920 寬，縮放 200%</translation>
     </message>
+    <message>
+        <source>Frames shown</source>
+        <translation>顯示的框架</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>全部顯示</translation>
+    </message>
+    <message>
+        <source>All frames are shown.</source>
+        <translation>所有框架皆已顯示。</translation>
+    </message>
 </context>
 </TS>

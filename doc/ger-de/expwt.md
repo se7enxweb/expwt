@@ -202,9 +202,17 @@ Bild-Datentyps); mit einem älteren Kernel wird der Teil nicht gezeigt, und die 
 
 - Die Rahmen aus `expwt.ini [DevicePreviewSettings] DeviceList[]`: iPhone 13 (390 x 844), Pixel 7 (412 x 915), ein
   Tablet (820 x 1180), **1920 breit bei 200 % Zoom** (ein 1920 Pixel breites Fenster mit 200 % Zoom, das die Seite
-  wie bei 960 Pixeln aufbaut: der Fall einer Leserin, die die Seite vergrößert) und ein Desktop (1440 x 900). Haken
-  Sie die Geräte an, die Sie sehen wollen; **Eine eigene Breite** fügt einen Rahmen beliebiger Breite von 240 bis 2560
-  Pixeln hinzu (bis zu vier), **Den Rahmen entfernen** nimmt ihn wieder weg.
+  wie bei 960 Pixeln aufbaut: der Fall einer Leserin, die die Seite vergrößert) und ein Desktop (1440 x 900).
+  **Eine eigene Breite** fügt einen Rahmen beliebiger Breite von 240 bis 2560 Pixeln hinzu (bis zu vier), **Den Rahmen
+  entfernen** nimmt ihn wieder weg.
+- **Gezeigte Rahmen:** eine Reihe von Umschaltern, einer je Gerät und je eigener Breite; ein gedrückter Umschalter (mit
+  Häkchen) zeigt seinen Rahmen. Ein Umschalter blendet seinen Rahmen sofort aus oder ein, und die übrigen Rahmen werden
+  größer, bis sie den Platz füllen (ein Rahmen lädt, wenn er zum ersten Mal gezeigt wird). **Alle zeigen** holt jeden
+  Rahmen zurück. Beim ersten Öffnen der Vorschau sind alle Rahmen zu sehen, oder die aus `ShownDeviceList[]`, wo die
+  Installation welche nennt; danach merkt sich dieser Browser Ihre Wahl (in seinem lokalen Speicher, nichts auf dem
+  Server). Die Reihe bricht in einem schmalen Fenster um und scrollt in einem niedrigen in der Leiste; die Umschalter
+  sind Schaltflächen, mit Tab erreichbar und mit Leertaste oder Enter gedrückt. Eine Seite, die in einem Rahmen lädt
+  (etwa ihr Cookie-Hinweis), nimmt dem Dialog den Tastaturfokus nicht weg.
 - Jeder Rahmen ist das Fenster des Geräts, verkleinert, bis er passt: eine Reihe, wo jeder Rahmen lesbar bleibt, sonst
   jeder Rahmen für sich, so groß, wie das Fenster erlaubt, die Rahmen untereinander umbrochen. Ein Rahmen scrollt für
   sich, und seine Links funktionieren darin.
@@ -380,7 +388,7 @@ Stylesheet) bleibt unter 50 KB gzip; ein Test hält ihn dort.
 | `[CreateSettings] HiddenClassList[]` | common_ini_settings | Klassen, die Anlegen nie anbietet |
 | `[LockSettings] LockSeconds` | 300 | wie lange eine weiche Sperre ohne Lebenszeichen hält |
 | `[DevicePreviewSettings] DeviceList[]` | iPhone 13, Pixel 7, Tablet, 1920 bei 200 % Zoom, Desktop | die Rahmen der Gerätevorschau, je `id;Name;Breite;Höhe` (CSS-Pixel, 240 bis 2560 breit, 240 bis 2400 hoch); der Name wird übersetzt, wo der Katalog der Seitenleiste ihn hat |
-| `ShownDeviceList[]` | (leer) | die Rahmen, die beim Öffnen der Vorschau gezeigt werden (IDs aus `DeviceList[]`); leer: alle |
+| `ShownDeviceList[]` | (leer) | die Rahmen, die beim ersten Öffnen der Vorschau in einem Browser gezeigt werden (IDs aus `DeviceList[]`); leer: alle. Danach merkt sich der Browser die Umschalter |
 | `[Comments] HideNew` | disabled | enabled: Ein Kommentar (expservices.ini `[Community] CommentClass`, sonst `comment`), der zum ersten Mal veröffentlicht wird, wird gleich danach verborgen, wenn sein Ersteller ihn nicht freigeben darf (kein `content/hide` des Kommentars); der Bereich Seite listet ihn als wartend auf Moderation, **Freigeben** zeigt ihn. Das erledigt der Inhalts-Bearbeitungs-Handler von expwt (content.ini `[EditSettings] ExtensionDirectories[]=expwt`), den der Kernel in jeder Veröffentlichung aufruft (Web, Befehle, Cronjobs, Workflows), über das Verbergen des Kernels; kein Workflow einzurichten |
 
 ## Erweiterungen fügen der Seitenleiste etwas hinzu

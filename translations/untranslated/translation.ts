@@ -1943,5 +1943,17 @@
         <source>1920 wide at 200% zoom</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Frames shown</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>All frames are shown.</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 </TS>

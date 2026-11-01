@@ -1943,5 +1943,17 @@
         <source>1920 wide at 200% zoom</source>
         <translation>%200 yakınlaştırmada 1920 genişlik</translation>
     </message>
+    <message>
+        <source>Frames shown</source>
+        <translation>Gösterilen çerçeveler</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Tümünü göster</translation>
+    </message>
+    <message>
+        <source>All frames are shown.</source>
+        <translation>Tüm çerçeveler gösteriliyor.</translation>
+    </message>
 </context>
 </TS>

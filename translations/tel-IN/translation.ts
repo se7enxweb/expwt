@@ -1943,5 +1943,17 @@
         <source>1920 wide at 200% zoom</source>
         <translation>200% జూమ్‌లో 1920 వెడల్పు</translation>
     </message>
+    <message>
+        <source>Frames shown</source>
+        <translation>చూపిన ఫ్రేమ్‌లు</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>అన్నీ చూపండి</translation>
+    </message>
+    <message>
+        <source>All frames are shown.</source>
+        <translation>అన్ని ఫ్రేమ్‌లు చూపబడుతున్నాయి.</translation>
+    </message>
 </context>
 </TS>

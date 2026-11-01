@@ -1943,5 +1943,17 @@
         <source>1920 wide at 200% zoom</source>
         <translation>1920 פותיא בזום 200%</translation>
     </message>
+    <message>
+        <source>Frames shown</source>
+        <translation>מסגרתא דמתחזין</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>חזי כלהון</translation>
+    </message>
+    <message>
+        <source>All frames are shown.</source>
+        <translation>כלהון מסגרתא מתחזין.</translation>
+    </message>
 </context>
 </TS>

@@ -1943,5 +1943,17 @@
         <source>1920 wide at 200% zoom</source>
         <translation>Fífẹ̀ 1920 ní 200% ìfàmóra</translation>
     </message>
+    <message>
+        <source>Frames shown</source>
+        <translation>Àwọn férémù tí a fihàn</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Fi gbogbo rẹ̀ hàn</translation>
+    </message>
+    <message>
+        <source>All frames are shown.</source>
+        <translation>Gbogbo férémù ni a ń fihàn.</translation>
+    </message>
 </context>
 </TS>

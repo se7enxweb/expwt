@@ -1943,5 +1943,17 @@
         <source>1920 wide at 200% zoom</source>
         <translation>1920 de large a 200 % de zoom</translation>
     </message>
+    <message>
+        <source>Frames shown</source>
+        <translation>Quadres afichats</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Tot afichar</translation>
+    </message>
+    <message>
+        <source>All frames are shown.</source>
+        <translation>Totes los quadres son afichats.</translation>
+    </message>
 </context>
 </TS>

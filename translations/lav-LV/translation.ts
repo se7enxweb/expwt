@@ -1943,5 +1943,17 @@
         <source>1920 wide at 200% zoom</source>
         <translation>1920 plats ar 200% tālummaiņu</translation>
     </message>
+    <message>
+        <source>Frames shown</source>
+        <translation>Rādītie kadri</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Rādīt visus</translation>
+    </message>
+    <message>
+        <source>All frames are shown.</source>
+        <translation>Visi kadri tiek rādīti.</translation>
+    </message>
 </context>
 </TS>

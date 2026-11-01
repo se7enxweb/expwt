@@ -1943,5 +1943,17 @@
         <source>1920 wide at 200% zoom</source>
         <translation>په ۲۰۰٪ زوم کې ۱۹۲۰ پلن</translation>
     </message>
+    <message>
+        <source>Frames shown</source>
+        <translation>ښودل شوي چوکاټونه</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>ټول وښایاست</translation>
+    </message>
+    <message>
+        <source>All frames are shown.</source>
+        <translation>ټول چوکاټونه ښودل کېږي.</translation>
+    </message>
 </context>
 </TS>

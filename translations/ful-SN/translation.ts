@@ -1943,5 +1943,17 @@
         <source>1920 wide at 200% zoom</source>
         <translation>1920 yaajeende e zoom 200%</translation>
     </message>
+    <message>
+        <source>Frames shown</source>
+        <translation>Kaadiriiji feeñinaaɗi</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Hollu fof</translation>
+    </message>
+    <message>
+        <source>All frames are shown.</source>
+        <translation>Kaadiriiji fof ina feeñi.</translation>
+    </message>
 </context>
 </TS>

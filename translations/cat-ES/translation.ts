@@ -1943,5 +1943,17 @@
         <source>1920 wide at 200% zoom</source>
         <translation>1920 d'amplada amb zoom del 200%</translation>
     </message>
+    <message>
+        <source>Frames shown</source>
+        <translation>Marcs mostrats</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Mostra-ho tot</translation>
+    </message>
+    <message>
+        <source>All frames are shown.</source>
+        <translation>Es mostren tots els marcs.</translation>
+    </message>
 </context>
 </TS>

@@ -1943,5 +1943,17 @@
         <source>1920 wide at 200% zoom</source>
         <translation>200% झूमवर 1920 रुंद</translation>
     </message>
+    <message>
+        <source>Frames shown</source>
+        <translation>दाखवलेल्या चौकटी</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>सर्व दाखवा</translation>
+    </message>
+    <message>
+        <source>All frames are shown.</source>
+        <translation>सर्व चौकटी दाखवल्या आहेत.</translation>
+    </message>
 </context>
 </TS>

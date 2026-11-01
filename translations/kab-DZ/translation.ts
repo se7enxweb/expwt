@@ -1943,5 +1943,17 @@
         <source>1920 wide at 200% zoom</source>
         <translation>1920 n teɣzi s zoom n 200%</translation>
     </message>
+    <message>
+        <source>Frames shown</source>
+        <translation>Iɣraben yettwaskanen</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Sken akk</translation>
+    </message>
+    <message>
+        <source>All frames are shown.</source>
+        <translation>Akk iɣraben ttwaskanen.</translation>
+    </message>
 </context>
 </TS>

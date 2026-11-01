@@ -1943,5 +1943,17 @@
         <source>1920 wide at 200% zoom</source>
         <translation>1920 breed bij 200% zoom</translation>
     </message>
+    <message>
+        <source>Frames shown</source>
+        <translation>Getoonde frames</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Alles tonen</translation>
+    </message>
+    <message>
+        <source>All frames are shown.</source>
+        <translation>Alle frames worden getoond.</translation>
+    </message>
 </context>
 </TS>

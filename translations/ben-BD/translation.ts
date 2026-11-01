@@ -1943,5 +1943,17 @@
         <source>1920 wide at 200% zoom</source>
         <translation>২০০% জুমে ১৯২০ প্রস্থ</translation>
     </message>
+    <message>
+        <source>Frames shown</source>
+        <translation>দেখানো ফ্রেম</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>সব দেখান</translation>
+    </message>
+    <message>
+        <source>All frames are shown.</source>
+        <translation>সব ফ্রেম দেখানো হচ্ছে।</translation>
+    </message>
 </context>
 </TS>

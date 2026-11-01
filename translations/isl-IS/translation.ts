@@ -1943,5 +1943,17 @@
         <source>1920 wide at 200% zoom</source>
         <translation>1920 á breidd með 200% aðdrætti</translation>
     </message>
+    <message>
+        <source>Frames shown</source>
+        <translation>Rammar sem sjást</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Sýna alla</translation>
+    </message>
+    <message>
+        <source>All frames are shown.</source>
+        <translation>Allir rammar sjást.</translation>
+    </message>
 </context>
 </TS>

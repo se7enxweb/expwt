@@ -1027,3 +1027,11 @@ button.wt-seo-item:hover { border-color: var(--a4-accent); }
 .wt-dev-frame { display: block; inline-size: calc(var(--wt-dw, 390) * 1px); block-size: calc(var(--wt-dh, 844) * 1px); border: 0; transform: scale(var(--wt-ds, 0.25)); transform-origin: 0 0; background: var(--a4-surface); }
 .wt-dev-frame.is-light { color-scheme: light; }
 .wt-dev-frame.is-dark { color-scheme: dark; }
+/* the toggles of the frames shown (a pressed toggle: its frame is shown) and Show all: a row that wraps inside the bar
+   (the bar scrolls on its own on a low window), never wider than the dialog. A hidden frame takes no room. */
+.wt-dev-picks { flex: 1 1 100%; }
+.wt-dev-toggles { display: flex; flex-wrap: wrap; align-items: center; gap: var(--a4-space-1) var(--a4-space-2); min-inline-size: 0; max-inline-size: 100%; }
+.wt-dev-toggle { max-inline-size: 100%; text-align: start; overflow-wrap: anywhere; }
+.wt-dev-all { margin-inline-start: var(--a4-space-2); }
+.wt-dev-item[hidden], .wt-dev-empty[hidden] { display: none; }
+.wt-dev-all[aria-disabled="true"] { border-style: dashed; color: var(--a4-muted); cursor: default; }

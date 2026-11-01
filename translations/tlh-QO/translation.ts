@@ -1943,5 +1943,17 @@
         <source>1920 wide at 200% zoom</source>
         <translation>1920 'ez 200% zoom</translation>
     </message>
+    <message>
+        <source>Frames shown</source>
+        <translation>chel 'aghlu'pu'bogh</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Hoch yI'agh</translation>
+    </message>
+    <message>
+        <source>All frames are shown.</source>
+        <translation>Hoch chel 'aghlu'.</translation>
+    </message>
 </context>
 </TS>

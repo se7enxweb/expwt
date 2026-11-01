@@ -1943,5 +1943,17 @@
         <source>1920 wide at 200% zoom</source>
         <translation>1920 lai 200% suumiga</translation>
     </message>
+    <message>
+        <source>Frames shown</source>
+        <translation>Näidatud raamid</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Näita kõiki</translation>
+    </message>
+    <message>
+        <source>All frames are shown.</source>
+        <translation>Kõik raamid on näidatud.</translation>
+    </message>
 </context>
 </TS>

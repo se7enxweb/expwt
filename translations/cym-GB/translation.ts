@@ -1943,5 +1943,17 @@
         <source>1920 wide at 200% zoom</source>
         <translation>1920 o led ar chwyddo 200%</translation>
     </message>
+    <message>
+        <source>Frames shown</source>
+        <translation>Fframiau a ddangosir</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Dangos y cyfan</translation>
+    </message>
+    <message>
+        <source>All frames are shown.</source>
+        <translation>Mae pob ffrâm yn cael ei dangos.</translation>
+    </message>
 </context>
 </TS>

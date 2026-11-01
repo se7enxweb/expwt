@@ -1943,5 +1943,17 @@
         <source>1920 wide at 200% zoom</source>
         <translation>Latitudo 1920 cum zoom 200%</translation>
     </message>
+    <message>
+        <source>Frames shown</source>
+        <translation>Tabulae ostensae</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Omnes ostende</translation>
+    </message>
+    <message>
+        <source>All frames are shown.</source>
+        <translation>Omnes tabulae ostenduntur.</translation>
+    </message>
 </context>
 </TS>

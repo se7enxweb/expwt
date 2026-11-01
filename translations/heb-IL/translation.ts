@@ -1943,5 +1943,17 @@
         <source>1920 wide at 200% zoom</source>
         <translation>רוחב 1920 בהגדלה של 200%</translation>
     </message>
+    <message>
+        <source>Frames shown</source>
+        <translation>מסגרות מוצגות</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>הצגת הכול</translation>
+    </message>
+    <message>
+        <source>All frames are shown.</source>
+        <translation>כל המסגרות מוצגות.</translation>
+    </message>
 </context>
 </TS>

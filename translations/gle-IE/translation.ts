@@ -1943,5 +1943,17 @@
         <source>1920 wide at 200% zoom</source>
         <translation>1920 ar leithead ag zúmáil 200%</translation>
     </message>
+    <message>
+        <source>Frames shown</source>
+        <translation>Frámaí a thaispeántar</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Taispeáin gach ceann</translation>
+    </message>
+    <message>
+        <source>All frames are shown.</source>
+        <translation>Taispeántar gach fráma.</translation>
+    </message>
 </context>
 </TS>

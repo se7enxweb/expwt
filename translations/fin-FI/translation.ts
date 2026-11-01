@@ -1943,5 +1943,17 @@
         <source>1920 wide at 200% zoom</source>
         <translation>1920 leveä 200 %:n zoomauksella</translation>
     </message>
+    <message>
+        <source>Frames shown</source>
+        <translation>Näytetyt kehykset</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Näytä kaikki</translation>
+    </message>
+    <message>
+        <source>All frames are shown.</source>
+        <translation>Kaikki kehykset näytetään.</translation>
+    </message>
 </context>
 </TS>

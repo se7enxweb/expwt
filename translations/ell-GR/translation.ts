@@ -1943,5 +1943,17 @@
         <source>1920 wide at 200% zoom</source>
         <translation>1920 πλάτος με μεγέθυνση 200%</translation>
     </message>
+    <message>
+        <source>Frames shown</source>
+        <translation>Πλαίσια που εμφανίζονται</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Εμφάνιση όλων</translation>
+    </message>
+    <message>
+        <source>All frames are shown.</source>
+        <translation>Εμφανίζονται όλα τα πλαίσια.</translation>
+    </message>
 </context>
 </TS>

@@ -187,8 +187,15 @@ the whole window, to see how it lays out before it is published.
 
 - The frames of `expwt.ini [DevicePreviewSettings] DeviceList[]`: iPhone 13 (390 x 844), Pixel 7 (412 x 915), a
   tablet (820 x 1180), **1920 wide at 200% zoom** (a 1920 pixel window zoomed to 200%, which lays the page out at 960
-  pixels: the case of a reader who enlarges the page) and a desktop (1440 x 900). Tick the devices to show; **A width
-  of your own** adds a frame of any width from 240 to 2560 pixels (up to four), **Remove the frame** takes it away.
+  pixels: the case of a reader who enlarges the page) and a desktop (1440 x 900). **A width of your own** adds a frame
+  of any width from 240 to 2560 pixels (up to four), **Remove the frame** takes it away.
+- **Frames shown:** a row of toggles, one per device and one per width of your own; a pressed toggle (with a check
+  mark) shows its frame. A toggle hides or shows its frame at once and the frames left grow to fill the room (a frame
+  is loaded the first time it is shown). **Show all** brings every frame back. Every frame is shown when the preview
+  first opens, or those of `ShownDeviceList[]` where the installation names some; after that, this browser remembers
+  your choice (in its local storage, nothing on the server). The row wraps on a narrow window and scrolls inside the
+  bar on a low one; the toggles are buttons, reached with Tab and pressed with Space or Enter. A page loading in a
+  frame (its cookie notice, say) does not take the keyboard focus from the dialog.
 - Each frame is the device's window, scaled down to fit: one row where every frame stays readable, else each frame on
   its own, as large as the window allows, the frames wrapping below each other. A frame scrolls on its own, and its
   links work in it.
@@ -352,7 +359,7 @@ sidebar is first opened. The closed tab (script and stylesheet) stays below 50 K
 | `[CreateSettings] HiddenClassList[]` | common_ini_settings | classes Create never offers |
 | `[LockSettings] LockSeconds` | 300 | how long a soft lock lasts without a heartbeat |
 | `[DevicePreviewSettings] DeviceList[]` | iPhone 13, Pixel 7, tablet, 1920 at 200% zoom, desktop | the frames of the device preview, each `id;name;width;height` (CSS pixels, 240 to 2560 wide, 240 to 2400 high); the name is translated where the sidebar's catalogue has it |
-| `ShownDeviceList[]` | (empty) | the frames shown when the preview opens (ids of `DeviceList[]`); empty: all of them |
+| `ShownDeviceList[]` | (empty) | the frames shown when the preview first opens in a browser (ids of `DeviceList[]`); empty: all of them. After that the browser remembers the toggles |
 | `[Comments] HideNew` | disabled | enabled: a comment (expservices.ini `[Community] CommentClass`, else `comment`) published for the first time is hidden right after publishing when its creator may not approve it (no `content/hide` of the comment); the Page panel lists it as waiting for moderation and **Approve** reveals it. Done by expwt's content edit handler (content.ini `[EditSettings] ExtensionDirectories[]=expwt`), which the kernel calls in every publish operation (the web, commands, cronjobs, workflows), through the kernel's hide; no workflow to set up |
 
 ## Adding to the sidebar from another extension

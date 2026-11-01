@@ -1943,5 +1943,17 @@
         <source>1920 wide at 200% zoom</source>
         <translation>200% miqyasda 1920 en</translation>
     </message>
+    <message>
+        <source>Frames shown</source>
+        <translation>Göstərilən çərçivələr</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Hamısını göstər</translation>
+    </message>
+    <message>
+        <source>All frames are shown.</source>
+        <translation>Bütün çərçivələr göstərilir.</translation>
+    </message>
 </context>
 </TS>

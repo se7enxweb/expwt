@@ -1943,5 +1943,17 @@
         <source>1920 wide at 200% zoom</source>
         <translation>200% ulaltmada 1920 ini</translation>
     </message>
+    <message>
+        <source>Frames shown</source>
+        <translation>Görkezilýän çarçuwalar</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Hemmesini görkez</translation>
+    </message>
+    <message>
+        <source>All frames are shown.</source>
+        <translation>Ähli çarçuwalar görkezilýär.</translation>
+    </message>
 </context>
 </TS>

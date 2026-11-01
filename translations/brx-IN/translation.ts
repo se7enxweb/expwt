@@ -1943,5 +1943,17 @@
         <source>1920 wide at 200% zoom</source>
         <translation>200% जुमआव 1920 गुवारथि</translation>
     </message>
+    <message>
+        <source>Frames shown</source>
+        <translation>दिन्थिजाबाय फ्रेमफोर</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>गासैबो दिन्थि</translation>
+    </message>
+    <message>
+        <source>All frames are shown.</source>
+        <translation>गासै फ्रेमफोरखौ दिन्थिजादों।</translation>
+    </message>
 </context>
 </TS>

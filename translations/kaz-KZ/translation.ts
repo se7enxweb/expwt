@@ -1943,5 +1943,17 @@
         <source>1920 wide at 200% zoom</source>
         <translation>200% масштабта 1920 ен</translation>
     </message>
+    <message>
+        <source>Frames shown</source>
+        <translation>Көрсетілген кадрлар</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Барлығын көрсету</translation>
+    </message>
+    <message>
+        <source>All frames are shown.</source>
+        <translation>Барлық кадрлар көрсетілді.</translation>
+    </message>
 </context>
 </TS>

@@ -1943,5 +1943,17 @@
         <source>1920 wide at 200% zoom</source>
         <translation>1920 pločio, 200% mastelis</translation>
     </message>
+    <message>
+        <source>Frames shown</source>
+        <translation>Rodomi rėmeliai</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Rodyti visus</translation>
+    </message>
+    <message>
+        <source>All frames are shown.</source>
+        <translation>Rodomi visi rėmeliai.</translation>
+    </message>
 </context>
 </TS>

@@ -1943,5 +1943,17 @@
         <source>1920 wide at 200% zoom</source>
         <translation>200% විශාලනයෙන් 1920 පළල</translation>
     </message>
+    <message>
+        <source>Frames shown</source>
+        <translation>පෙන්වන රාමු</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>සියල්ල පෙන්වන්න</translation>
+    </message>
+    <message>
+        <source>All frames are shown.</source>
+        <translation>සියලු රාමු පෙන්වයි.</translation>
+    </message>
 </context>
 </TS>

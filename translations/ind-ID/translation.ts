@@ -1943,5 +1943,17 @@
         <source>1920 wide at 200% zoom</source>
         <translation>Lebar 1920 pada zoom 200%</translation>
     </message>
+    <message>
+        <source>Frames shown</source>
+        <translation>Bingkai yang ditampilkan</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Tampilkan semua</translation>
+    </message>
+    <message>
+        <source>All frames are shown.</source>
+        <translation>Semua bingkai ditampilkan.</translation>
+    </message>
 </context>
 </TS>

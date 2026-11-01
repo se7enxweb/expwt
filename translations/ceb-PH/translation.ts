@@ -1943,5 +1943,17 @@
         <source>1920 wide at 200% zoom</source>
         <translation>1920 ang gilapdon sa 200% nga zoom</translation>
     </message>
+    <message>
+        <source>Frames shown</source>
+        <translation>Mga frame nga gipakita</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Ipakita tanan</translation>
+    </message>
+    <message>
+        <source>All frames are shown.</source>
+        <translation>Gipakita ang tanang frame.</translation>
+    </message>
 </context>
 </TS>

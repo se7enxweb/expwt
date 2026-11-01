@@ -1943,5 +1943,17 @@
         <source>1920 wide at 200% zoom</source>
         <translation>200% 확대에서 너비 1920</translation>
     </message>
+    <message>
+        <source>Frames shown</source>
+        <translation>표시된 프레임</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>모두 표시</translation>
+    </message>
+    <message>
+        <source>All frames are shown.</source>
+        <translation>모든 프레임이 표시됩니다.</translation>
+    </message>
 </context>
 </TS>

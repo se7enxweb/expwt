@@ -1943,5 +1943,17 @@
         <source>1920 wide at 200% zoom</source>
         <translation>200% masshtabda 1920 kenglik</translation>
     </message>
+    <message>
+        <source>Frames shown</source>
+        <translation>Koʻrsatilgan ramkalar</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Hammasini koʻrsatish</translation>
+    </message>
+    <message>
+        <source>All frames are shown.</source>
+        <translation>Barcha ramkalar koʻrsatilmoqda.</translation>
+    </message>
 </context>
 </TS>

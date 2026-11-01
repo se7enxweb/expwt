@@ -1943,5 +1943,17 @@
         <source>1920 wide at 200% zoom</source>
         <translation>জুম ২০০% দা ১৯২০ চৌথা</translation>
     </message>
+    <message>
+        <source>Frames shown</source>
+        <translation>উৎপা ফ্রেমশিং</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>পুম্নমক উৎপা</translation>
+    </message>
+    <message>
+        <source>All frames are shown.</source>
+        <translation>ফ্রেম পুম্নমক উৎলি।</translation>
+    </message>
 </context>
 </TS>

@@ -1943,5 +1943,17 @@
         <source>1920 wide at 200% zoom</source>
         <translation>1920 у шырыню пры павелічэнні 200%</translation>
     </message>
+    <message>
+        <source>Frames shown</source>
+        <translation>Паказаныя рамкі</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Паказаць усе</translation>
+    </message>
+    <message>
+        <source>All frames are shown.</source>
+        <translation>Паказаны ўсе рамкі.</translation>
+    </message>
 </context>
 </TS>

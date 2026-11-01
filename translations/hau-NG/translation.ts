@@ -1943,5 +1943,17 @@
         <source>1920 wide at 200% zoom</source>
         <translation>Faɗin 1920 a girman 200%</translation>
     </message>
+    <message>
+        <source>Frames shown</source>
+        <translation>Firam da ake nunawa</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Nuna duka</translation>
+    </message>
+    <message>
+        <source>All frames are shown.</source>
+        <translation>Ana nuna duk firam.</translation>
+    </message>
 </context>
 </TS>

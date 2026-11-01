@@ -1943,5 +1943,17 @@
         <source>1920 wide at 200% zoom</source>
         <translation>୨୦୦% ଜୁମ୍ ରେ ୧୯୨୦ ଓସାର</translation>
     </message>
+    <message>
+        <source>Frames shown</source>
+        <translation>ଦେଖାଯାଇଥିବା ଫ୍ରେମ୍</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>ସବୁ ଦେଖାନ୍ତୁ</translation>
+    </message>
+    <message>
+        <source>All frames are shown.</source>
+        <translation>ସମସ୍ତ ଫ୍ରେମ୍ ଦେଖାଯାଉଛି।</translation>
+    </message>
 </context>
 </TS>

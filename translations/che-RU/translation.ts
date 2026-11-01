@@ -1943,5 +1943,17 @@
         <source>1920 wide at 200% zoom</source>
         <translation>1920 шоралла 200% масштабехь</translation>
     </message>
+    <message>
+        <source>Frames shown</source>
+        <translation>Гайтина рамкаш</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Массо а гайта</translation>
+    </message>
+    <message>
+        <source>All frames are shown.</source>
+        <translation>Массо а рамкаш гойтуш ю.</translation>
+    </message>
 </context>
 </TS>

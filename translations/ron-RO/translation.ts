@@ -1943,5 +1943,17 @@
         <source>1920 wide at 200% zoom</source>
         <translation>Lățime 1920 la zoom 200%</translation>
     </message>
+    <message>
+        <source>Frames shown</source>
+        <translation>Cadre afișate</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Afișează tot</translation>
+    </message>
+    <message>
+        <source>All frames are shown.</source>
+        <translation>Toate cadrele sunt afișate.</translation>
+    </message>
 </context>
 </TS>

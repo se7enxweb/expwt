@@ -1943,5 +1943,17 @@
         <source>1920 wide at 200% zoom</source>
         <translation>1920 bred vid 200 % zoom</translation>
     </message>
+    <message>
+        <source>Frames shown</source>
+        <translation>Visade ramar</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Visa alla</translation>
+    </message>
+    <message>
+        <source>All frames are shown.</source>
+        <translation>Alla ramar visas.</translation>
+    </message>
 </context>
 </TS>

@@ -1943,5 +1943,17 @@
         <source>1920 wide at 200% zoom</source>
         <translation>Ambane 1920 kanthi zoom 200%</translation>
     </message>
+    <message>
+        <source>Frames shown</source>
+        <translation>Pigura sing ditampilake</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Tampilake kabeh</translation>
+    </message>
+    <message>
+        <source>All frames are shown.</source>
+        <translation>Kabeh pigura ditampilake.</translation>
+    </message>
 </context>
 </TS>

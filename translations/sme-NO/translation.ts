@@ -1943,5 +1943,17 @@
         <source>1920 wide at 200% zoom</source>
         <translation>1920 govddas 200 % stuorrudusas</translation>
     </message>
+    <message>
+        <source>Frames shown</source>
+        <translation>Čájehuvvon rámmat</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Čájet buot</translation>
+    </message>
+    <message>
+        <source>All frames are shown.</source>
+        <translation>Buot rámmat čájehuvvojit.</translation>
+    </message>
 </context>
 </TS>

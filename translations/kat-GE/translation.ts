@@ -1943,5 +1943,17 @@
         <source>1920 wide at 200% zoom</source>
         <translation>1920 სიგანე 200%-იანი მასშტაბით</translation>
     </message>
+    <message>
+        <source>Frames shown</source>
+        <translation>ნაჩვენები ჩარჩოები</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>ყველას ჩვენება</translation>
+    </message>
+    <message>
+        <source>All frames are shown.</source>
+        <translation>ყველა ჩარჩო ნაჩვენებია.</translation>
+    </message>
 </context>
 </TS>

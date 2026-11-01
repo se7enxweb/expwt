@@ -1943,5 +1943,17 @@
         <source>1920 wide at 200% zoom</source>
         <translation>ກວ້າງ 1920 ທີ່ການຊູມ 200%</translation>
     </message>
+    <message>
+        <source>Frames shown</source>
+        <translation>ກອບທີ່ສະແດງ</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>ສະແດງທັງໝົດ</translation>
+    </message>
+    <message>
+        <source>All frames are shown.</source>
+        <translation>ສະແດງກອບທັງໝົດແລ້ວ.</translation>
+    </message>
 </context>
 </TS>

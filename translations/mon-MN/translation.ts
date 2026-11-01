@@ -1943,5 +1943,17 @@
         <source>1920 wide at 200% zoom</source>
         <translation>200% томруулалттай 1920 өргөн</translation>
     </message>
+    <message>
+        <source>Frames shown</source>
+        <translation>Харуулсан хүрээнүүд</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Бүгдийг харуулах</translation>
+    </message>
+    <message>
+        <source>All frames are shown.</source>
+        <translation>Бүх хүрээ харагдаж байна.</translation>
+    </message>
 </context>
 </TS>

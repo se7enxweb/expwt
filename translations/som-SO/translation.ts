@@ -1943,5 +1943,17 @@
         <source>1920 wide at 200% zoom</source>
         <translation>1920 ballac ah oo 200% la weyneeyay</translation>
     </message>
+    <message>
+        <source>Frames shown</source>
+        <translation>Fariimyada la muujiyay</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Muuji dhammaan</translation>
+    </message>
+    <message>
+        <source>All frames are shown.</source>
+        <translation>Dhammaan fariimyada waa la muujiyay.</translation>
+    </message>
 </context>
 </TS>

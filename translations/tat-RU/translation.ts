@@ -1943,5 +1943,17 @@
         <source>1920 wide at 200% zoom</source>
         <translation>1920 киңлек, 200% зум белән</translation>
     </message>
+    <message>
+        <source>Frames shown</source>
+        <translation>Күрсәтелгән рамкалар</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Барысын да күрсәтү</translation>
+    </message>
+    <message>
+        <source>All frames are shown.</source>
+        <translation>Барлык рамкалар да күрсәтелә.</translation>
+    </message>
 </context>
 </TS>

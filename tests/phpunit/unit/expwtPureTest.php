@@ -941,7 +941,7 @@ class expwtPureTest extends PHPUnit\Framework\TestCase
         $this->assertSame( 3, $v['draft']['version'] );
         $this->assertSame( '/a?x=1&in=sidebar#top', expwtGateway::framed( '/a?x=1#top' ) );
         $this->assertTrue( expwtHook::framePage( expwtGateway::framed( '/site/news/a' ) ), 'the frames get no sidebar of their own' );
-        foreach ( array( 'Devices', 'Device preview', 'Tablet', 'Desktop', '1920 wide at 200% zoom' ) as $text )
+        foreach ( array( 'Devices', 'Device preview', 'Tablet', 'Desktop', '1920 wide at 200% zoom', 'Frames shown', 'Show all', 'All frames are shown.' ) as $text )
             $this->assertContains( $text, expwtStrings::SOURCES, 'translated' );
     }
 

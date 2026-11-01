@@ -1943,5 +1943,17 @@
         <source>1920 wide at 200% zoom</source>
         <translation>1920ko zabalera %200eko zoomarekin</translation>
     </message>
+    <message>
+        <source>Frames shown</source>
+        <translation>Erakutsitako markoak</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Erakutsi guztiak</translation>
+    </message>
+    <message>
+        <source>All frames are shown.</source>
+        <translation>Marko guztiak erakusten dira.</translation>
+    </message>
 </context>
 </TS>

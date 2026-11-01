@@ -1943,5 +1943,17 @@
         <source>1920 wide at 200% zoom</source>
         <translation>1920 wisa' b'zoom ta' 200%</translation>
     </message>
+    <message>
+        <source>Frames shown</source>
+        <translation>Oqfsa murija</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Uri kollox</translation>
+    </message>
+    <message>
+        <source>All frames are shown.</source>
+        <translation>L-oqfsa kollha qed jintwerew.</translation>
+    </message>
 </context>
 </TS>

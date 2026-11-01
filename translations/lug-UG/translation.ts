@@ -1943,5 +1943,17 @@
         <source>1920 wide at 200% zoom</source>
         <translation>1920 obugazi ne zoom ya 200%</translation>
     </message>
+    <message>
+        <source>Frames shown</source>
+        <translation>Ffuleemu ezirabika</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Laga byonna</translation>
+    </message>
+    <message>
+        <source>All frames are shown.</source>
+        <translation>Ffuleemu zonna zirabika.</translation>
+    </message>
 </context>
 </TS>

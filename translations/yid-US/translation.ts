@@ -1943,5 +1943,17 @@
         <source>1920 wide at 200% zoom</source>
         <translation>1920 ברייט בײַ 200% פֿאַרגרעסערונג</translation>
     </message>
+    <message>
+        <source>Frames shown</source>
+        <translation>געוויזענע ראַמען</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>ווײַז אַלע</translation>
+    </message>
+    <message>
+        <source>All frames are shown.</source>
+        <translation>אַלע ראַמען ווערן געוויזן.</translation>
+    </message>
 </context>
 </TS>

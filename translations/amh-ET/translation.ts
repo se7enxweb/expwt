@@ -1943,5 +1943,17 @@
         <source>1920 wide at 200% zoom</source>
         <translation>1920 ስፋት በ200% ማጉላት</translation>
     </message>
+    <message>
+        <source>Frames shown</source>
+        <translation>የሚታዩ ፍሬሞች</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>ሁሉንም አሳይ</translation>
+    </message>
+    <message>
+        <source>All frames are shown.</source>
+        <translation>ሁሉም ፍሬሞች ይታያሉ።</translation>
+    </message>
 </context>
 </TS>

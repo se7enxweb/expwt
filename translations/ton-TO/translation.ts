@@ -1943,5 +1943,17 @@
         <source>1920 wide at 200% zoom</source>
         <translation>Fālahi 1920 ʻi he fakalahi 200%</translation>
     </message>
+    <message>
+        <source>Frames shown</source>
+        <translation>Ngaahi fuʻu kuo fakahā</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Fakahā kotoa</translation>
+    </message>
+    <message>
+        <source>All frames are shown.</source>
+        <translation>ʻOku fakahā ʻa e ngaahi fuʻu kotoa.</translation>
+    </message>
 </context>
 </TS>

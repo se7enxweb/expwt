@@ -1943,5 +1943,17 @@
         <source>1920 wide at 200% zoom</source>
         <translation>1920 breet bei 200% Zoom</translation>
     </message>
+    <message>
+        <source>Frames shown</source>
+        <translation>Gewisen Rummen</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Alles weisen</translation>
+    </message>
+    <message>
+        <source>All frames are shown.</source>
+        <translation>All Rumme ginn ugewisen.</translation>
+    </message>
 </context>
 </TS>

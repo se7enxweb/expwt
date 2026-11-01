@@ -1943,5 +1943,17 @@
         <source>1920 wide at 200% zoom</source>
         <translation>Upana wa 1920 kwa ukuzaji wa 200%</translation>
     </message>
+    <message>
+        <source>Frames shown</source>
+        <translation>Fremu zinazoonyeshwa</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Onyesha zote</translation>
+    </message>
+    <message>
+        <source>All frames are shown.</source>
+        <translation>Fremu zote zinaonyeshwa.</translation>
+    </message>
 </context>
 </TS>

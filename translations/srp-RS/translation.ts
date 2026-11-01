@@ -1943,5 +1943,17 @@
         <source>1920 wide at 200% zoom</source>
         <translation>Ширина 1920 са зумом 200%</translation>
     </message>
+    <message>
+        <source>Frames shown</source>
+        <translation>Приказани оквири</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Прикажи све</translation>
+    </message>
+    <message>
+        <source>All frames are shown.</source>
+        <translation>Приказани су сви оквири.</translation>
+    </message>
 </context>
 </TS>

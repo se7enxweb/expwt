@@ -1943,5 +1943,17 @@
         <source>1920 wide at 200% zoom</source>
         <translation>၂၀၀% ချဲ့ထားသော အကျယ် ၁၉၂၀</translation>
     </message>
+    <message>
+        <source>Frames shown</source>
+        <translation>ပြသထားသော ဘောင်များ</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>အားလုံးပြရန်</translation>
+    </message>
+    <message>
+        <source>All frames are shown.</source>
+        <translation>ဘောင်အားလုံးကို ပြသထားသည်။</translation>
+    </message>
 </context>
 </TS>

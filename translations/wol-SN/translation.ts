@@ -1943,5 +1943,17 @@
         <source>1920 wide at 200% zoom</source>
         <translation>1920 yaatu ak zoom 200%</translation>
     </message>
+    <message>
+        <source>Frames shown</source>
+        <translation>Kadar yi ñu wone</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Won lépp</translation>
+    </message>
+    <message>
+        <source>All frames are shown.</source>
+        <translation>Kadar yépp a ngi wone.</translation>
+    </message>
 </context>
 </TS>

@@ -1943,5 +1943,17 @@
         <source>1920 wide at 200% zoom</source>
         <translation>1920 breed teen 200% zoem</translation>
     </message>
+    <message>
+        <source>Frames shown</source>
+        <translation>Rame gewys</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Wys alles</translation>
+    </message>
+    <message>
+        <source>All frames are shown.</source>
+        <translation>Alle rame word gewys.</translation>
+    </message>
 </context>
 </TS>

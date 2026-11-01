@@ -1943,5 +1943,17 @@
         <source>1920 wide at 200% zoom</source>
         <translation>1920 obosara na 200% zuum</translation>
     </message>
+    <message>
+        <source>Frames shown</source>
+        <translation>Ihe ókè egosiri</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Gosi ha niile</translation>
+    </message>
+    <message>
+        <source>All frames are shown.</source>
+        <translation>A na-egosi ihe ókè niile.</translation>
+    </message>
 </context>
 </TS>

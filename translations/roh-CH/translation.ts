@@ -1943,5 +1943,17 @@
         <source>1920 wide at 200% zoom</source>
         <translation>1920 ladezza cun 200% zoom</translation>
     </message>
+    <message>
+        <source>Frames shown</source>
+        <translation>Maletgs mussads</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Mussar tut</translation>
+    </message>
+    <message>
+        <source>All frames are shown.</source>
+        <translation>Tut ils maletgs vegnan mussads.</translation>
+    </message>
 </context>
 </TS>

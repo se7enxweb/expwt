@@ -1943,5 +1943,17 @@
         <source>1920 wide at 200% zoom</source>
         <translation>1920 tɛtrɛtɛ wɔ 200% zoom mu</translation>
     </message>
+    <message>
+        <source>Frames shown</source>
+        <translation>Frame a wɔda no adi</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Kyerɛ ne nyinaa</translation>
+    </message>
+    <message>
+        <source>All frames are shown.</source>
+        <translation>Wɔada frame no nyinaa adi.</translation>
+    </message>
 </context>
 </TS>

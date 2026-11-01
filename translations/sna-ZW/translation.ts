@@ -1943,5 +1943,17 @@
         <source>1920 wide at 200% zoom</source>
         <translation>1920 mupamhi pa200% zoom</translation>
     </message>
+    <message>
+        <source>Frames shown</source>
+        <translation>Mafuremu ari kuratidzwa</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Ratidza zvese</translation>
+    </message>
+    <message>
+        <source>All frames are shown.</source>
+        <translation>Mafuremu ese ari kuratidzwa.</translation>
+    </message>
 </context>
 </TS>

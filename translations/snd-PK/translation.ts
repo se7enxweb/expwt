@@ -1943,5 +1943,17 @@
         <source>1920 wide at 200% zoom</source>
         <translation>1920 ويڪر 200% زوم تي</translation>
     </message>
+    <message>
+        <source>Frames shown</source>
+        <translation>ڏيکاريل فريم</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>سڀ ڏيکاريو</translation>
+    </message>
+    <message>
+        <source>All frames are shown.</source>
+        <translation>سڀ فريم ڏيکاريا پيا وڃن.</translation>
+    </message>
 </context>
 </TS>

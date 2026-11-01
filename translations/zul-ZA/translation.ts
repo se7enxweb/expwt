@@ -1943,5 +1943,17 @@
         <source>1920 wide at 200% zoom</source>
         <translation>1920 ububanzi ku-zoom engu-200%</translation>
     </message>
+    <message>
+        <source>Frames shown</source>
+        <translation>Izinhlaka ezikhonjisiwe</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Bonisa konke</translation>
+    </message>
+    <message>
+        <source>All frames are shown.</source>
+        <translation>Zonke izinhlaka ziyaboniswa.</translation>
+    </message>
 </context>
 </TS>

@@ -1943,5 +1943,17 @@
         <source>1920 wide at 200% zoom</source>
         <translation>Rộng 1920 ở mức thu phóng 200%</translation>
     </message>
+    <message>
+        <source>Frames shown</source>
+        <translation>Khung đang hiện</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Hiện tất cả</translation>
+    </message>
+    <message>
+        <source>All frames are shown.</source>
+        <translation>Tất cả các khung đang hiện.</translation>
+    </message>
 </context>
 </TS>

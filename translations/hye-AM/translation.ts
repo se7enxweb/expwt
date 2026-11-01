@@ -1943,5 +1943,17 @@
         <source>1920 wide at 200% zoom</source>
         <translation>1920 լայնություն 200% խոշորացմամբ</translation>
     </message>
+    <message>
+        <source>Frames shown</source>
+        <translation>Ցուցադրված շրջանակներ</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Ցույց տալ բոլորը</translation>
+    </message>
+    <message>
+        <source>All frames are shown.</source>
+        <translation>Բոլոր շրջանակները ցուցադրված են։</translation>
+    </message>
 </context>
 </TS>

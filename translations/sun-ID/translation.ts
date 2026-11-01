@@ -1943,5 +1943,17 @@
         <source>1920 wide at 200% zoom</source>
         <translation>Lébar 1920 kalayan zoom 200%</translation>
     </message>
+    <message>
+        <source>Frames shown</source>
+        <translation>Pigura nu dipidangkeun</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Pidangkeun sadayana</translation>
+    </message>
+    <message>
+        <source>All frames are shown.</source>
+        <translation>Sadaya pigura dipidangkeun.</translation>
+    </message>
 </context>
 </TS>

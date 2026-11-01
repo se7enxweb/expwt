@@ -1943,5 +1943,17 @@
         <source>1920 wide at 200% zoom</source>
         <translation>1920 ny sakany amin'ny zoom 200%</translation>
     </message>
+    <message>
+        <source>Frames shown</source>
+        <translation>Rafitra aseho</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Asehoy daholo</translation>
+    </message>
+    <message>
+        <source>All frames are shown.</source>
+        <translation>Aseho daholo ny rafitra rehetra.</translation>
+    </message>
 </context>
 </TS>

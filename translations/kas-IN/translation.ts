@@ -1943,5 +1943,17 @@
         <source>1920 wide at 200% zoom</source>
         <translation>200% زوم پیٹھ 1920 چوڑ</translation>
     </message>
+    <message>
+        <source>Frames shown</source>
+        <translation>ہاونہٕ آمتی فریم</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>سورُے ہاوِو</translation>
+    </message>
+    <message>
+        <source>All frames are shown.</source>
+        <translation>سٲری فریم چھِ ہاونہٕ یِوان۔</translation>
+    </message>
 </context>
 </TS>

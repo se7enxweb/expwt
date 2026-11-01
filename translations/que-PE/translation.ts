@@ -1943,5 +1943,17 @@
         <source>1920 wide at 200% zoom</source>
         <translation>1920 mast'aq 200% hatunchasqa</translation>
     </message>
+    <message>
+        <source>Frames shown</source>
+        <translation>Rikuchisqa markukuna</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Llapanta rikuchiy</translation>
+    </message>
+    <message>
+        <source>All frames are shown.</source>
+        <translation>Llapan markukunam rikuchisqa.</translation>
+    </message>
 </context>
 </TS>

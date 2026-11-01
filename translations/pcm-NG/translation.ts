@@ -1943,5 +1943,17 @@
         <source>1920 wide at 200% zoom</source>
         <translation>1920 wide for 200% zoom</translation>
     </message>
+    <message>
+        <source>Frames shown</source>
+        <translation>Frame wey dey show</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Show all</translation>
+    </message>
+    <message>
+        <source>All frames are shown.</source>
+        <translation>All di frame dey show.</translation>
+    </message>
 </context>
 </TS>

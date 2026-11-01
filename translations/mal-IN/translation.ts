@@ -1943,5 +1943,17 @@
         <source>1920 wide at 200% zoom</source>
         <translation>200% സൂമിൽ 1920 വീതി</translation>
     </message>
+    <message>
+        <source>Frames shown</source>
+        <translation>കാണിക്കുന്ന ഫ്രെയിമുകൾ</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>എല്ലാം കാണിക്കുക</translation>
+    </message>
+    <message>
+        <source>All frames are shown.</source>
+        <translation>എല്ലാ ഫ്രെയിമുകളും കാണിക്കുന്നു.</translation>
+    </message>
 </context>
 </TS>

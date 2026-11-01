@@ -1943,5 +1943,17 @@
         <source>1920 wide at 200% zoom</source>
         <translation>200% ಜೂಮ್‌ನಲ್ಲಿ 1920 ಅಗಲ</translation>
     </message>
+    <message>
+        <source>Frames shown</source>
+        <translation>ತೋರಿಸಿದ ಫ್ರೇಮ್‌ಗಳು</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>ಎಲ್ಲವನ್ನೂ ತೋರಿಸಿ</translation>
+    </message>
+    <message>
+        <source>All frames are shown.</source>
+        <translation>ಎಲ್ಲಾ ಫ್ರೇಮ್‌ಗಳನ್ನು ತೋರಿಸಲಾಗುತ್ತಿದೆ.</translation>
+    </message>
 </context>
 </TS>

@@ -1943,5 +1943,17 @@
         <source>1920 wide at 200% zoom</source>
         <translation>1920 larĝa kun 200% zomo</translation>
     </message>
+    <message>
+        <source>Frames shown</source>
+        <translation>Montrataj kadroj</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Montri ĉiujn</translation>
+    </message>
+    <message>
+        <source>All frames are shown.</source>
+        <translation>Ĉiuj kadroj estas montrataj.</translation>
+    </message>
 </context>
 </TS>

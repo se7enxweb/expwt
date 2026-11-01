@@ -1943,5 +1943,17 @@
         <source>1920 wide at 200% zoom</source>
         <translation>1920 di larghezza con zoom al 200%</translation>
     </message>
+    <message>
+        <source>Frames shown</source>
+        <translation>Riquadri mostrati</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Mostra tutti</translation>
+    </message>
+    <message>
+        <source>All frames are shown.</source>
+        <translation>Tutti i riquadri sono mostrati.</translation>
+    </message>
 </context>
 </TS>

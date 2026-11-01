@@ -1943,5 +1943,17 @@
         <source>1920 wide at 200% zoom</source>
         <translation>200% பெரிதாக்கத்தில் 1920 அகலம்</translation>
     </message>
+    <message>
+        <source>Frames shown</source>
+        <translation>காட்டப்படும் சட்டகங்கள்</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>அனைத்தையும் காட்டு</translation>
+    </message>
+    <message>
+        <source>All frames are shown.</source>
+        <translation>அனைத்து சட்டகங்களும் காட்டப்படுகின்றன.</translation>
+    </message>
 </context>
 </TS>

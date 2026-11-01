@@ -1943,5 +1943,17 @@
         <source>1920 wide at 200% zoom</source>
         <translation>1920 de leud aig sùm 200%</translation>
     </message>
+    <message>
+        <source>Frames shown</source>
+        <translation>Frèamaichean gan sealltainn</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Seall na h-uile</translation>
+    </message>
+    <message>
+        <source>All frames are shown.</source>
+        <translation>Tha gach frèam ga shealltainn.</translation>
+    </message>
 </context>
 </TS>

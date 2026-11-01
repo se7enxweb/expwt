@@ -1943,5 +1943,17 @@
         <source>1920 wide at 200% zoom</source>
         <translation>200% ޒޫމްގައި 1920 ފުޅާ</translation>
     </message>
+    <message>
+        <source>Frames shown</source>
+        <translation>ދައްކާ ފްރޭމްތައް</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>ހުރިހާ ދައްކާ</translation>
+    </message>
+    <message>
+        <source>All frames are shown.</source>
+        <translation>ހުރިހާ ފްރޭމެއް ދައްކަނީ.</translation>
+    </message>
 </context>
 </TS>

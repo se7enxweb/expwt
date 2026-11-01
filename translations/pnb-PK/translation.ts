@@ -1943,5 +1943,17 @@
         <source>1920 wide at 200% zoom</source>
         <translation>200% زوم اتے 1920 چوڑا</translation>
     </message>
+    <message>
+        <source>Frames shown</source>
+        <translation>وکھائے گئے فریم</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>سارے وکھاؤ</translation>
+    </message>
+    <message>
+        <source>All frames are shown.</source>
+        <translation>سارے فریم وکھائے جا رہے نیں۔</translation>
+    </message>
 </context>
 </TS>

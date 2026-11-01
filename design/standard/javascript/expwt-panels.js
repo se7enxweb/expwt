@@ -3332,17 +3332,48 @@
     src: function (urls, which) {
       return which === 'draft' && urls.draft ? urls.draft : urls.published;
     },
-    /* what this device remembers of the preview: the frames shown, the widths added, the mode of each frame */
+    /* what this device remembers of the preview: the frames shown, the widths added, those of them hidden, the mode
+       of each frame */
     remembered: function (raw, ids, custom) {
       var r = raw && typeof raw === 'object' ? raw : {};
       var shown = Array.isArray(r.shown) ? r.shown.filter(function (id) { return ids.indexOf(id) >= 0; }) : null;
       var widths = Array.isArray(r.widths) ? r.widths.map(function (w) { return Devices.custom(w, custom.min, custom.max); })
         .filter(function (w, i, all) { return w !== null && all.indexOf(w) === i; }).slice(0, 4) : [];
+      var hidden = Array.isArray(r.hidden) ? r.hidden.map(function (w) { return Devices.custom(w, custom.min, custom.max); })
+        .filter(function (w, i, all) { return w !== null && widths.indexOf(w) >= 0 && all.indexOf(w) === i; }) : [];
       var modes = {};
       if (r.modes && typeof r.modes === 'object') {
         Object.keys(r.modes).forEach(function (k) { if (r.modes[k] === 'light' || r.modes[k] === 'dark') { modes[k] = r.modes[k]; } });
       }
-      return { shown: shown, widths: widths, modes: modes };
+      return { shown: shown, widths: widths, hidden: hidden, modes: modes };
+    },
+    /* The toggles of the frames (one per device, one per width of one's own). A choice is { shown: device ids in the
+       order of the settings, hidden: widths of one's own that are not shown }.
+       flip()     shows a frame that is hidden and hides one that is shown (item: { id } of a device or { width })
+       all()      every frame shown
+       allShown() whether every frame is shown already
+       visible()  the frames shown, the devices first, in the order of the toggles */
+    flip: function (choice, item, ids) {
+      var shown = choice.shown.slice();
+      var hidden = choice.hidden.slice();
+      if (item.width !== undefined && item.id === undefined) {
+        hidden = hidden.indexOf(item.width) >= 0 ? hidden.filter(function (w) { return w !== item.width; }) : hidden.concat([item.width]);
+      } else {
+        var on = shown.indexOf(item.id) < 0;
+        shown = ids.filter(function (id) { return id === item.id ? on : shown.indexOf(id) >= 0; });
+      }
+      return { shown: shown, hidden: hidden };
+    },
+    all: function (ids) {
+      return { shown: ids.slice(), hidden: [] };
+    },
+    allShown: function (choice, ids, widths) {
+      return ids.every(function (id) { return choice.shown.indexOf(id) >= 0; })
+        && widths.every(function (w) { return choice.hidden.indexOf(w) < 0; });
+    },
+    visible: function (choice, ids, widths) {
+      return ids.filter(function (id) { return choice.shown.indexOf(id) >= 0; }).map(function (id) { return { id: id }; })
+        .concat(widths.filter(function (w) { return choice.hidden.indexOf(w) < 0; }).map(function (w) { return { width: w }; }));
     }
   };
 
@@ -3360,12 +3391,13 @@
       try { storage = window.localStorage; } catch (e) { storage = null; }
       var ids = r.devices.map(function (d) { return d.id; });
       var kept = Devices.remembered(storage ? Autosave.read(storage, Devices.KEY) : null, ids, r.custom);
-      var shown = kept.shown || r.shown.slice();
+      /* the frames shown: what this browser remembers, else ShownDeviceList[] of the installation */
+      var choice = { shown: kept.shown || r.shown.slice(), hidden: kept.hidden };
       var widths = kept.widths;
       var modes = kept.modes;
       var which = r.urls.draft ? 'draft' : 'published';
       function keep() {
-        if (storage) { Autosave.write(storage, Devices.KEY, { shown: shown, widths: widths, modes: modes }); }
+        if (storage) { Autosave.write(storage, Devices.KEY, { shown: choice.shown, widths: widths, hidden: choice.hidden, modes: modes }); }
       }
       if (host.devicesView) { host.devicesView.remove(); }
       var body = h('div', { class: 'wt-dev-body' });
@@ -3384,15 +3416,31 @@
           return h('label', { class: 'wt-check' }, [input, label]);
         })));
       }
-      /* the devices shown */
-      var picks = h('fieldset', { class: 'wt-dev-group' }, [h('legend', { text: t('Devices') })].concat(r.devices.map(function (d) {
-        var input = h('input', { type: 'checkbox', value: d.id, checked: shown.indexOf(d.id) >= 0, onchange: function () {
-          shown = ids.filter(function (id) { return id === d.id ? input.checked : shown.indexOf(id) >= 0; });
+      /* the frames shown: a toggle per device and per width of one's own (pressed: shown), and Show all. A toggle
+         hides or shows its frame at once (a frame not shown yet loads then), the others fit the room again. */
+      var toggles = h('div', { class: 'wt-dev-toggles' });
+      var picks = h('fieldset', { class: 'wt-dev-group wt-dev-picks' }, [h('legend', { text: t('Frames shown') }), toggles]);
+      function nameOf(item) {
+        if (item.width !== undefined) { return t('%w pixels wide').replace('%w', item.width); }
+        return r.devices[ids.indexOf(item.id)].name;
+      }
+      function drawToggles() {
+        toggles.textContent = '';
+        r.devices.map(function (d) { return { id: d.id }; }).concat(widths.map(function (w) { return { width: w }; })).forEach(function (item) {
+          toggles.appendChild(h('button', { type: 'button', class: 'wt-btn wt-dev-toggle', 'data-key': item.width !== undefined ? 'w' + item.width : item.id,
+            'aria-pressed': 'false', text: nameOf(item), onclick: function () {
+              choice = Devices.flip(choice, item, ids);
+              keep();
+              apply();
+            } }));
+        });
+        toggles.appendChild(h('button', { type: 'button', class: 'wt-btn wt-dev-all', text: t('Show all'), onclick: function () {
+          choice = Devices.all(ids);
           keep();
-          draw();
-        } });
-        return h('label', { class: 'wt-check' }, [input, d.name]);
-      })));
+          apply();
+          status.textContent = t('All frames are shown.');
+        } }));
+      }
       /* a frame of a width of one's own */
       var widthInput = h('input', { type: 'number', id: 'wt-dev-width', min: String(r.custom.min), max: String(r.custom.max), step: '1', inputmode: 'numeric' });
       var widthNote = h('span', { class: 'wt-muted', id: 'wt-dev-width-note', text: t('From %min to %max pixels').replace('%min', r.custom.min).replace('%max', r.custom.max) });
@@ -3409,6 +3457,8 @@
         widthInput.removeAttribute('aria-invalid');
         widthNote.textContent = t('From %min to %max pixels').replace('%min', r.custom.min).replace('%max', r.custom.max);
         if (widths.indexOf(w) < 0) { widths = widths.concat([w]).slice(-4); }
+        /* a width added (or added again) is shown */
+        choice = { shown: choice.shown, hidden: choice.hidden.filter(function (x) { return x !== w && widths.indexOf(x) >= 0; }) };
         widthInput.value = '';
         keep();
         draw();
@@ -3432,6 +3482,15 @@
       view.appendChild(status);
 
       var frames = [];
+      /* A page loading in a frame may take the focus (the site's cookie notice focuses itself): while a frame loads and
+         a moment after, the focus goes back to where it was in the dialog, so the toggles stay usable with the keyboard.
+         A frame entered on purpose later (a click, Tab) keeps it. */
+      var lastFocus = null;
+      view.addEventListener('focusin', function (e) { if (e.target && e.target.tagName !== 'IFRAME') { lastFocus = e.target; } });
+      function keepFocus(entry) {
+        if (Date.now() > entry.until || !lastFocus || !lastFocus.isConnected || host.shadowRoot.activeElement !== entry.frame) { return; }
+        try { lastFocus.focus({ preventScroll: true }); } catch (e) { /* gone */ }
+      }
       /* light or dark in one frame: the design's attribute on that frame's page; where the design has none, its
          color-scheme follows the frame (the iframe's class) */
       function applyMode(entry) {
@@ -3449,15 +3508,21 @@
       }
       function frameOf(d, custom) {
         var key = custom ? 'w' + d.width : d.id;
-        var frame = h('iframe', { class: 'wt-dev-frame', 'data-expwt-split': '', title: t('Preview on %device').replace('%device', d.name), src: Devices.src(r.urls, which) });
-        var entry = { key: key, device: d, frame: frame };
-        frame.addEventListener('load', function () { applyMode(entry); });
+        /* the address is given when the frame is first shown (apply), so a hidden frame loads nothing */
+        var frame = h('iframe', { class: 'wt-dev-frame', 'data-expwt-split': '', title: t('Preview on %device').replace('%device', d.name) });
+        var entry = { key: key, device: d, frame: frame, item: custom ? { width: d.width } : { id: d.id }, loaded: false };
+        frame.addEventListener('load', function () {
+          applyMode(entry);
+          entry.until = Date.now() + 2000;
+          [0, 250, 750, 1500, 2000].forEach(function (ms) { window.setTimeout(function () { keepFocus(entry); }, ms); });
+        });
+        frame.addEventListener('focus', function () { keepFocus(entry); });
         var select = h('select', { 'aria-label': t('Light or dark') + ': ' + d.name, onchange: function () {
           var before = modes[key] || '';
           if (select.value) { modes[key] = select.value; } else { delete modes[key]; }
           keep();
           /* back to the site's own mode: the frame loads again, as the site has it */
-          if (before && !select.value) { frame.src = Devices.src(r.urls, which); } else { applyMode(entry); }
+          if (before && !select.value) { entry.until = Infinity; frame.src = Devices.src(r.urls, which); } else { applyMode(entry); }
         } }, [['', t('Like the site')], ['light', t('Light')], ['dark', t('Dark')]].map(function (o) {
           var opt = h('option', { value: o[0], text: o[1] });
           if ((modes[key] || '') === o[0]) { opt.setAttribute('selected', ''); }
@@ -3469,6 +3534,7 @@
           select,
           custom ? h('button', { type: 'button', class: 'wt-btn', 'aria-label': t('Remove the frame') + ': ' + d.name, text: t('Remove the frame'), onclick: function () {
             widths = widths.filter(function (w) { return w !== d.width; });
+            choice = { shown: choice.shown, hidden: choice.hidden.filter(function (w) { return w !== d.width; }) };
             keep();
             draw();
           } }) : null
@@ -3476,31 +3542,54 @@
         entry.figure = h('figure', { class: 'wt-dev-item', 'data-device': key }, [caption, h('div', { class: 'wt-dev-screen' }, [frame])]);
         return entry;
       }
+      var empty = h('p', { class: 'wt-muted wt-dev-empty', text: t('Choose a device above.') });
+      /* every frame there is (all devices and widths), then those not chosen hidden */
       function draw() {
         body.textContent = '';
-        frames = r.devices.filter(function (d) { return shown.indexOf(d.id) >= 0; }).map(function (d) { return frameOf(d, false); })
+        frames = r.devices.map(function (d) { return frameOf(d, false); })
           .concat(widths.map(function (w) { return frameOf({ id: 'w' + w, name: t('%w pixels wide').replace('%w', w), width: w, height: r.custom.height }, true); }));
-        if (!frames.length) {
-          body.appendChild(h('p', { class: 'wt-muted', text: t('Choose a device above.') }));
-          return;
-        }
+        body.appendChild(empty);
         frames.forEach(function (f) { body.appendChild(f.figure); });
+        drawToggles();
+        apply();
+      }
+      /* the choice on the toggles and the frames: shown or hidden, a frame shown the first time loads; then the fit */
+      function apply() {
+        var on = Devices.visible(choice, ids, widths).map(function (item) { return item.width !== undefined ? 'w' + item.width : item.id; });
+        Array.prototype.forEach.call(toggles.querySelectorAll('.wt-dev-toggle'), function (b) {
+          b.setAttribute('aria-pressed', on.indexOf(b.getAttribute('data-key')) >= 0 ? 'true' : 'false');
+        });
+        frames.forEach(function (f) {
+          var shownNow = on.indexOf(f.key) >= 0;
+          f.figure.hidden = !shownNow;
+          if (shownNow && !f.loaded) { f.loaded = true; f.until = Infinity; f.frame.src = Devices.src(r.urls, which); }
+        });
+        /* Show all stays where it is (and focusable) when everything is shown; it says so */
+        var showAll = toggles.querySelector('.wt-dev-all');
+        if (showAll) { showAll.setAttribute('aria-disabled', Devices.allShown(choice, ids, widths) ? 'true' : 'false'); }
+        empty.hidden = on.length > 0;
         layout();
       }
-      function layout() {
-        if (!frames.length || !body.clientWidth) { return; }
+      function layout(again) {
+        var visible = frames.filter(function (f) { return !f.figure.hidden; });
+        if (!visible.length || !body.clientWidth) { return; }
         var cs = window.getComputedStyle(body);
         var gap = parseFloat(cs.columnGap) || 0;
         var width = body.clientWidth - (parseFloat(cs.paddingLeft) || 0) - (parseFloat(cs.paddingRight) || 0);
-        var cap = frames[0].figure.querySelector('.wt-dev-cap');
-        var height = body.clientHeight - (parseFloat(cs.paddingTop) || 0) - (parseFloat(cs.paddingBottom) || 0) - (cap ? cap.offsetHeight : 0) - gap;
-        var fit = Devices.fit(frames.map(function (f) { return f.device; }), width, Math.max(160, height), gap);
+        var cap = visible[0].figure.querySelector('.wt-dev-cap');
+        var capHeight = cap ? cap.offsetHeight : 0;
+        var bodyWidth = body.clientWidth;
+        var height = body.clientHeight - (parseFloat(cs.paddingTop) || 0) - (parseFloat(cs.paddingBottom) || 0) - capHeight - gap;
+        var fit = Devices.fit(visible.map(function (f) { return f.device; }), width, Math.max(160, height), gap);
         body.classList.toggle('is-row', fit.row);
-        frames.forEach(function (f, i) {
+        visible.forEach(function (f, i) {
           f.figure.style.setProperty('--wt-dw', String(f.device.width));
           f.figure.style.setProperty('--wt-dh', String(f.device.height));
           f.figure.style.setProperty('--wt-ds', String(fit.scales[i]));
         });
+        /* a frame of another size can wrap its caption onto more or fewer lines (or bring or take away the body's
+           scrollbar): measured once more with the new sizes */
+        if (!again && ((cap ? cap.offsetHeight : 0) !== capHeight || body.clientWidth !== bodyWidth)) { layout(true); }
       }
       var observer = window.ResizeObserver ? new ResizeObserver(function () { layout(); }) : null;
       host.shadowRoot.appendChild(view);

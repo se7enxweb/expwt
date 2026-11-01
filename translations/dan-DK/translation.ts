@@ -1943,5 +1943,17 @@
         <source>1920 wide at 200% zoom</source>
         <translation>1920 bred ved 200 % zoom</translation>
     </message>
+    <message>
+        <source>Frames shown</source>
+        <translation>Viste rammer</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Vis alle</translation>
+    </message>
+    <message>
+        <source>All frames are shown.</source>
+        <translation>Alle rammer vises.</translation>
+    </message>
 </context>
 </TS>

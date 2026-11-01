@@ -1943,5 +1943,17 @@
         <source>1920 wide at 200% zoom</source>
         <translation>پهنای 1920 با بزرگ‌نمایی 200%</translation>
     </message>
+    <message>
+        <source>Frames shown</source>
+        <translation>قاب‌های نمایش‌داده‌شده</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>نمایش همه</translation>
+    </message>
+    <message>
+        <source>All frames are shown.</source>
+        <translation>همهٔ قاب‌ها نمایش داده می‌شوند.</translation>
+    </message>
 </context>
 </TS>

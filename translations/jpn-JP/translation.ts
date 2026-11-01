@@ -1943,5 +1943,17 @@
         <source>1920 wide at 200% zoom</source>
         <translation>幅1920(ズーム200%)</translation>
     </message>
+    <message>
+        <source>Frames shown</source>
+        <translation>表示するフレーム</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>すべて表示</translation>
+    </message>
+    <message>
+        <source>All frames are shown.</source>
+        <translation>すべてのフレームを表示しています。</translation>
+    </message>
 </context>
 </TS>

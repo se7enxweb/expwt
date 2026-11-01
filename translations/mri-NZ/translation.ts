@@ -1943,5 +1943,17 @@
         <source>1920 wide at 200% zoom</source>
         <translation>1920 te whānui i te 200% te whakarahi</translation>
     </message>
+    <message>
+        <source>Frames shown</source>
+        <translation>Ngā anga e whakaaturia ana</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Whakaaturia katoa</translation>
+    </message>
+    <message>
+        <source>All frames are shown.</source>
+        <translation>Kei te whakaaturia ngā anga katoa.</translation>
+    </message>
 </context>
 </TS>

@@ -1943,5 +1943,17 @@
         <source>1920 wide at 200% zoom</source>
         <translation>1920 ka laulā ma ka hoʻomāhua 200%</translation>
     </message>
+    <message>
+        <source>Frames shown</source>
+        <translation>Nā kiʻi-pā i hōʻike ʻia</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Hōʻike i nā mea a pau</translation>
+    </message>
+    <message>
+        <source>All frames are shown.</source>
+        <translation>Ua hōʻike ʻia nā kiʻi-pā a pau.</translation>
+    </message>
 </context>
 </TS>

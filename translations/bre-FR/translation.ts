@@ -1943,5 +1943,17 @@
         <source>1920 wide at 200% zoom</source>
         <translation>1920 led gant zoom 200%</translation>
     </message>
+    <message>
+        <source>Frames shown</source>
+        <translation>Frammoù diskouezet</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>Diskouez pep tra</translation>
+    </message>
+    <message>
+        <source>All frames are shown.</source>
+        <translation>An holl frammoù a zo diskouezet.</translation>
+    </message>
 </context>
 </TS>

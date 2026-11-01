@@ -1943,5 +1943,17 @@
         <source>1920 wide at 200% zoom</source>
         <translation>200% ઝૂમ પર 1920 પહોળાઈ</translation>
     </message>
+    <message>
+        <source>Frames shown</source>
+        <translation>બતાવેલી ફ્રેમ</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>બધું બતાવો</translation>
+    </message>
+    <message>
+        <source>All frames are shown.</source>
+        <translation>બધી ફ્રેમ બતાવાઈ રહી છે.</translation>
+    </message>
 </context>
 </TS>

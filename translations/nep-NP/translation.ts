@@ -1943,5 +1943,17 @@
         <source>1920 wide at 200% zoom</source>
         <translation>२००% जुममा १९२० चौडा</translation>
     </message>
+    <message>
+        <source>Frames shown</source>
+        <translation>देखाइएका फ्रेमहरू</translation>
+    </message>
+    <message>
+        <source>Show all</source>
+        <translation>सबै देखाउनुहोस्</translation>
+    </message>
+    <message>
+        <source>All frames are shown.</source>
+        <translation>सबै फ्रेमहरू देखाइएका छन्।</translation>
+    </message>
 </context>
 </TS>
