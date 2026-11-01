@@ -2059,6 +2059,18 @@
         <source>Restored the panels of the version of %time.</source>
         <translation>Gabateewwan gosa %time deebi'aniiru.</translation>
     </message>
+    <message>
+        <source>Website sidebar of Exponential</source>
+        <translation>Barreessaa cinaa marsariitii Exponential</translation>
+    </message>
+    <message>
+        <source>The logo %logo (expwt.ini [BrandingSettings] Logo) is not used: it must be a path from the site root or an https address of an image.</source>
+        <translation>Asxaan %logo (expwt.ini [BrandingSettings] Logo) hin fayyadamne: daandii hundee marsariitii irraa ka'u ykn teessoo https suuraa tokkoo ta'uu qaba.</translation>
+    </message>
+    <message>
+        <source>The accent color %color (expwt.ini [BrandingSettings] %setting) is not used: its contrast is %ratio:1, at least %needed:1 is needed.</source>
+        <translation>Halluun cimsaa %color (expwt.ini [BrandingSettings] %setting) hin fayyadamne: garaagarummaan isaa %ratio:1 dha, yoo xiqqaate %needed:1 barbaachisa.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

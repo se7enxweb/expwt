@@ -2059,6 +2059,18 @@
         <source>Restored the panels of the version of %time.</source>
         <translation>Επαναφέρθηκαν τα πλαίσια της έκδοσης της %time.</translation>
     </message>
+    <message>
+        <source>Website sidebar of Exponential</source>
+        <translation>Πλαϊνή στήλη ιστότοπου του Exponential</translation>
+    </message>
+    <message>
+        <source>The logo %logo (expwt.ini [BrandingSettings] Logo) is not used: it must be a path from the site root or an https address of an image.</source>
+        <translation>Το λογότυπο %logo (expwt.ini [BrandingSettings] Logo) δεν χρησιμοποιείται: πρέπει να είναι διαδρομή από τη ρίζα του ιστότοπου ή διεύθυνση https μιας εικόνας.</translation>
+    </message>
+    <message>
+        <source>The accent color %color (expwt.ini [BrandingSettings] %setting) is not used: its contrast is %ratio:1, at least %needed:1 is needed.</source>
+        <translation>Το χρώμα έμφασης %color (expwt.ini [BrandingSettings] %setting) δεν χρησιμοποιείται: η αντίθεσή του είναι %ratio:1, απαιτείται τουλάχιστον %needed:1.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

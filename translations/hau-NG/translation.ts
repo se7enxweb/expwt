@@ -2059,6 +2059,18 @@
         <source>Restored the panels of the version of %time.</source>
         <translation>An maido da fanonin sigar %time.</translation>
     </message>
+    <message>
+        <source>Website sidebar of Exponential</source>
+        <translation>Labarun gefe na yanar gizo na Exponential</translation>
+    </message>
+    <message>
+        <source>The logo %logo (expwt.ini [BrandingSettings] Logo) is not used: it must be a path from the site root or an https address of an image.</source>
+        <translation>Ba a amfani da tambarin %logo (expwt.ini [BrandingSettings] Logo): dole ne ya zama hanya daga tushen shafin ko adireshin https na hoto.</translation>
+    </message>
+    <message>
+        <source>The accent color %color (expwt.ini [BrandingSettings] %setting) is not used: its contrast is %ratio:1, at least %needed:1 is needed.</source>
+        <translation>Ba a amfani da launin karin haske %color (expwt.ini [BrandingSettings] %setting): bambancinsa %ratio:1 ne, ana bukatar akalla %needed:1.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

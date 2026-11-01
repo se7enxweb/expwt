@@ -36,6 +36,10 @@
 <p class="a4-notice is-warn">{'Another settings file decides these settings for %siteaccess: what is saved here only takes effect without it.'|i18n( 'extension/expwt',, hash( '%siteaccess', $siteaccess ) )|wash}</p>
 {/if}
 
+{foreach $brand_refused as $message}
+<p class="a4-notice is-warn">{$message|wash}</p>
+{/foreach}
+
 {if $role_id}
 <section class="a4-card" aria-labelledby="expwt-panels-role">
 <div class="a4-card-head"><h2 class="a4-h2" id="expwt-panels-role">{$role_name|wash} <span class="a4-meta">{$siteaccess|wash}</span></h2></div>

@@ -2059,6 +2059,18 @@
         <source>Restored the panels of the version of %time.</source>
         <translation>Ebipande bya verisoni ya %time bizziddwawo.</translation>
     </message>
+    <message>
+        <source>Website sidebar of Exponential</source>
+        <translation>Ekiwayi ky'ebbali eky'omukutu ekya Exponential</translation>
+    </message>
+    <message>
+        <source>The logo %logo (expwt.ini [BrandingSettings] Logo) is not used: it must be a path from the site root or an https address of an image.</source>
+        <translation>Akabonero %logo (expwt.ini [BrandingSettings] Logo) tekakozesebwa: kalina okuba ekkubo okuva ku kikolo ky'omukutu oba endagiriro ya https ey'ekifaananyi.</translation>
+    </message>
+    <message>
+        <source>The accent color %color (expwt.ini [BrandingSettings] %setting) is not used: its contrast is %ratio:1, at least %needed:1 is needed.</source>
+        <translation>Langi y'okulaga %color (expwt.ini [BrandingSettings] %setting) tekozesebwa: enjawulo yaayo eri %ratio:1, wetaagisa waakiri %needed:1.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

@@ -2059,6 +2059,18 @@
         <source>Restored the panels of the version of %time.</source>
         <translation>Chaidh panailean an tionndaidh bho %time aiseag.</translation>
     </message>
+    <message>
+        <source>Website sidebar of Exponential</source>
+        <translation>Bàr-taoibh na làraich-lìn le Exponential</translation>
+    </message>
+    <message>
+        <source>The logo %logo (expwt.ini [BrandingSettings] Logo) is not used: it must be a path from the site root or an https address of an image.</source>
+        <translation>Chan eil an suaicheantas %logo (expwt.ini [BrandingSettings] Logo) ga chleachdadh: feumaidh e a bhith na shlighe o fhreumh na làraich no na sheòladh https dealbha.</translation>
+    </message>
+    <message>
+        <source>The accent color %color (expwt.ini [BrandingSettings] %setting) is not used: its contrast is %ratio:1, at least %needed:1 is needed.</source>
+        <translation>Chan eil an dath soillseachaidh %color (expwt.ini [BrandingSettings] %setting) ga chleachdadh: 's e %ratio:1 a tha sa chontrarrachd aige, feumar %needed:1 air a char as lugha.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

@@ -2059,6 +2059,18 @@
         <source>Restored the panels of the version of %time.</source>
         <translation>Versionimi %time-imeersumi allaffiit uterteqqinneqarput.</translation>
     </message>
+    <message>
+        <source>Website sidebar of Exponential</source>
+        <translation>Exponential-ip nittartakkami saniatigut sanerussaa</translation>
+    </message>
+    <message>
+        <source>The logo %logo (expwt.ini [BrandingSettings] Logo) is not used: it must be a path from the site root or an https address of an image.</source>
+        <translation>Ilisarnaat %logo (expwt.ini [BrandingSettings] Logo) atorneqanngilaq: nittartakkap tunngaviata aqqutaa imaluunniit assip https-mi najugaa pisariaqarpoq.</translation>
+    </message>
+    <message>
+        <source>The accent color %color (expwt.ini [BrandingSettings] %setting) is not used: its contrast is %ratio:1, at least %needed:1 is needed.</source>
+        <translation>Qalipaat erseqqissaataasoq %color (expwt.ini [BrandingSettings] %setting) atorneqanngilaq: assigiinngissutaa %ratio:1-iuvoq, minnerpaamik %needed:1 pisariaqarpoq.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

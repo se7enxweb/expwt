@@ -2059,6 +2059,18 @@
         <source>Restored the panels of the version of %time.</source>
         <translation>Panel saka versi %time wis dibalekake.</translation>
     </message>
+    <message>
+        <source>Website sidebar of Exponential</source>
+        <translation>Bilah sisih situs web saka Exponential</translation>
+    </message>
+    <message>
+        <source>The logo %logo (expwt.ini [BrandingSettings] Logo) is not used: it must be a path from the site root or an https address of an image.</source>
+        <translation>Logo %logo (expwt.ini [BrandingSettings] Logo) ora dienggo: kudu dalan saka oyot situs utawa alamat https saka gambar.</translation>
+    </message>
+    <message>
+        <source>The accent color %color (expwt.ini [BrandingSettings] %setting) is not used: its contrast is %ratio:1, at least %needed:1 is needed.</source>
+        <translation>Werna aksen %color (expwt.ini [BrandingSettings] %setting) ora dienggo: kontrase %ratio:1, dibutuhake paling sethithik %needed:1.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

@@ -2059,6 +2059,18 @@
         <source>Restored the panels of the version of %time.</source>
         <translation>Panno yu versiyoŋu %time delsi nañu.</translation>
     </message>
+    <message>
+        <source>Website sidebar of Exponential</source>
+        <translation>Barru wetu dalu bi bu Exponential</translation>
+    </message>
+    <message>
+        <source>The logo %logo (expwt.ini [BrandingSettings] Logo) is not used: it must be a path from the site root or an https address of an image.</source>
+        <translation>Logo %logo (expwt.ini [BrandingSettings] Logo) jëfandikoowul: war na doon yoon bu tàmbalee ci reenu dalu bi walla adrees https bu nataal.</translation>
+    </message>
+    <message>
+        <source>The accent color %color (expwt.ini [BrandingSettings] %setting) is not used: its contrast is %ratio:1, at least %needed:1 is needed.</source>
+        <translation>Melo bu fés %color (expwt.ini [BrandingSettings] %setting) jëfandikoowul: wuute gi mooy %ratio:1, soxla na lu tollu ci %needed:1 lu néew.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

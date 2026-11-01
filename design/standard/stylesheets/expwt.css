@@ -322,7 +322,9 @@ select:focus-visible, textarea:focus-visible, [contenteditable]:focus-visible, [
   border-top: 1px solid var(--a4-line);
   box-shadow: var(--a4-shadow-up);
 }
-:host([data-orient="horizontal"]) .wt-head { display: contents; }
+:host([data-orient="horizontal"]) .wt-head, :host([data-orient="horizontal"]) .wt-brand { display: contents; }
+/* on top and bottom the bar has one row for the tabs and actions: the logo of a branding (E10) stays in the panel's head on the sides */
+:host([data-orient="horizontal"]) .wt-logo { display: none; }
 :host([data-orient="horizontal"]) .wt-head h2 {
   position: absolute;
   inline-size: 1px;
@@ -509,7 +511,10 @@ select:focus-visible, textarea:focus-visible, [contenteditable]:focus-visible, [
   padding: var(--a4-space-3) var(--a4-space-4);
   border-block-end: 1px solid var(--a4-line);
 }
-.wt-head h2 { flex: 1; margin: 0; font-size: var(--a4-text-l); font-weight: var(--a4-weight-heading); }
+.wt-head h2 { flex: 1; min-inline-size: 0; margin: 0; font-size: var(--a4-text-l); font-weight: var(--a4-weight-heading); overflow-wrap: anywhere; }
+/* the name and logo of a branding (E10): the logo at most the height of a line of the heading and a third of the head */
+.wt-brand { display: flex; flex: 1; align-items: center; gap: var(--a4-space-2); min-inline-size: 0; }
+.wt-logo { display: block; block-size: var(--a4-space-6); inline-size: auto; max-inline-size: 33%; object-fit: contain; flex: none; }
 
 .wt-tabs { display: flex; flex-wrap: wrap; gap: var(--a4-space-1); padding: var(--a4-space-2) var(--a4-space-4); border-block-end: 1px solid var(--a4-line); }
 .wt-tabs [role="tab"] {

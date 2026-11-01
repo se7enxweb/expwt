@@ -2059,6 +2059,18 @@
         <source>Restored the panels of the version of %time.</source>
         <translation>Gibalik ang mga panel sa bersyon sa %time.</translation>
     </message>
+    <message>
+        <source>Website sidebar of Exponential</source>
+        <translation>Sidebar sa website sa Exponential</translation>
+    </message>
+    <message>
+        <source>The logo %logo (expwt.ini [BrandingSettings] Logo) is not used: it must be a path from the site root or an https address of an image.</source>
+        <translation>Ang logo %logo (expwt.ini [BrandingSettings] Logo) wala gigamit: kinahanglan kini usa ka path gikan sa root sa site o usa ka https nga adres sa hulagway.</translation>
+    </message>
+    <message>
+        <source>The accent color %color (expwt.ini [BrandingSettings] %setting) is not used: its contrast is %ratio:1, at least %needed:1 is needed.</source>
+        <translation>Ang accent nga kolor %color (expwt.ini [BrandingSettings] %setting) wala gigamit: ang contrast niini %ratio:1, kinahanglan labing menos %needed:1.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

@@ -2059,6 +2059,18 @@
         <source>Restored the panels of the version of %time.</source>
         <translation>Igalisen n lqem n %time ttwarran-d.</translation>
     </message>
+    <message>
+        <source>Website sidebar of Exponential</source>
+        <translation>Afeggag n yidis n usmel web n Exponential</translation>
+    </message>
+    <message>
+        <source>The logo %logo (expwt.ini [BrandingSettings] Logo) is not used: it must be a path from the site root or an https address of an image.</source>
+        <translation>Alugu %logo (expwt.ini [BrandingSettings] Logo) ur yettwaseqdac ara: ilaq ad yili d abrid seg uẓar n usmel neɣ d tansa https n tugna.</translation>
+    </message>
+    <message>
+        <source>The accent color %color (expwt.ini [BrandingSettings] %setting) is not used: its contrast is %ratio:1, at least %needed:1 is needed.</source>
+        <translation>Ini n usebrureq %color (expwt.ini [BrandingSettings] %setting) ur yettwaseqdac ara: amgired-is d %ratio:1, ilaq ma drus %needed:1.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

@@ -2059,6 +2059,18 @@
         <source>Restored the panels of the version of %time.</source>
         <translation>%time wersiýasynyň panelleri dikeldildi.</translation>
     </message>
+    <message>
+        <source>Website sidebar of Exponential</source>
+        <translation>Exponential saýtynyň gapdal paneli</translation>
+    </message>
+    <message>
+        <source>The logo %logo (expwt.ini [BrandingSettings] Logo) is not used: it must be a path from the site root or an https address of an image.</source>
+        <translation>%logo nyşany (expwt.ini [BrandingSettings] Logo) ulanylmaýar: ol saýtyň kökünden ýol ýa-da suratyň https salgysy bolmaly.</translation>
+    </message>
+    <message>
+        <source>The accent color %color (expwt.ini [BrandingSettings] %setting) is not used: its contrast is %ratio:1, at least %needed:1 is needed.</source>
+        <translation>%color nygtama reňki (expwt.ini [BrandingSettings] %setting) ulanylmaýar: onuň kontrasty %ratio:1, azyndan %needed:1 gerek.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

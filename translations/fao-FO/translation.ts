@@ -2059,6 +2059,18 @@
         <source>Restored the panels of the version of %time.</source>
         <translation>Panelirnar frá útgávuni frá %time eru endurstovnaðar.</translation>
     </message>
+    <message>
+        <source>Website sidebar of Exponential</source>
+        <translation>Síðubjálki á heimasíðuni frá Exponential</translation>
+    </message>
+    <message>
+        <source>The logo %logo (expwt.ini [BrandingSettings] Logo) is not used: it must be a path from the site root or an https address of an image.</source>
+        <translation>Merkið %logo (expwt.ini [BrandingSettings] Logo) verður ikki brúkt: tað má vera ein leið frá rótini á heimasíðuni ella ein https-adressa til eina mynd.</translation>
+    </message>
+    <message>
+        <source>The accent color %color (expwt.ini [BrandingSettings] %setting) is not used: its contrast is %ratio:1, at least %needed:1 is needed.</source>
+        <translation>Dentlitur %color (expwt.ini [BrandingSettings] %setting) verður ikki brúktur: kontrasturin er %ratio:1, í minsta lagi %needed:1 krevst.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

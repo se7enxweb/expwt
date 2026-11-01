@@ -2059,6 +2059,18 @@
         <source>Restored the panels of the version of %time.</source>
         <translation>%time গী ভার্সনগী পেনেলশিং হন্দোকখ্রে।</translation>
     </message>
+    <message>
+        <source>Website sidebar of Exponential</source>
+        <translation>Exponential গী ৱেবসাইত সাইদবার</translation>
+    </message>
+    <message>
+        <source>The logo %logo (expwt.ini [BrandingSettings] Logo) is not used: it must be a path from the site root or an https address of an image.</source>
+        <translation>লোগো %logo (expwt.ini [BrandingSettings] Logo) শিজিন্নদে: মসি সাইত্তা রুত্তগী লম্বী অমা নত্ত্রগা মফম অমগী https এদ্রেস ওইগদবনি।</translation>
+    </message>
+    <message>
+        <source>The accent color %color (expwt.ini [BrandingSettings] %setting) is not used: its contrast is %ratio:1, at least %needed:1 is needed.</source>
+        <translation>এক্সেন্ত মচু %color (expwt.ini [BrandingSettings] %setting) শিজিন্নদে: মসিগী কন্ত্রাস্ত %ratio:1নি, খ্বাইদগী ৱাংনা %needed:1 মথৌ তাই।</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

@@ -2059,6 +2059,18 @@
         <source>Restored the panels of the version of %time.</source>
         <translation>De panelen van de versie van %time zijn hersteld.</translation>
     </message>
+    <message>
+        <source>Website sidebar of Exponential</source>
+        <translation>Zijbalk van de website van Exponential</translation>
+    </message>
+    <message>
+        <source>The logo %logo (expwt.ini [BrandingSettings] Logo) is not used: it must be a path from the site root or an https address of an image.</source>
+        <translation>Het logo %logo (expwt.ini [BrandingSettings] Logo) wordt niet gebruikt: het moet een pad vanaf de root van de site of een https-adres van een afbeelding zijn.</translation>
+    </message>
+    <message>
+        <source>The accent color %color (expwt.ini [BrandingSettings] %setting) is not used: its contrast is %ratio:1, at least %needed:1 is needed.</source>
+        <translation>De accentkleur %color (expwt.ini [BrandingSettings] %setting) wordt niet gebruikt: het contrast is %ratio:1, er is minstens %needed:1 nodig.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

@@ -1838,6 +1838,8 @@
         list,
         h('h3', { text: t('On the tab') }), tab,
         h('p', { class: 'wt-muted', text: t('On a Mac, Option+Shift with a letter types a character in a text field: there the field gets it.') }),
+        /* the credit stays whatever the branding of the siteaccess (E10) */
+        h('p', { class: 'wt-muted wt-credit', text: t('Website sidebar of Exponential') }),
         h('div', { class: 'wt-row' }, [h('button', { type: 'button', class: 'wt-btn', text: t('Change them in the Me panel'), onclick: function () {
           close();
           if (!host.state.open) { host.toggle(true); }

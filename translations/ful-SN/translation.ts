@@ -2059,6 +2059,18 @@
         <source>Restored the panels of the version of %time.</source>
         <translation>Panooji yamre %time ngarti.</translation>
     </message>
+    <message>
+        <source>Website sidebar of Exponential</source>
+        <translation>Palal sera lowre Exponential</translation>
+    </message>
+    <message>
+        <source>The logo %logo (expwt.ini [BrandingSettings] Logo) is not used: it must be a path from the site root or an https address of an image.</source>
+        <translation>Logo %logo (expwt.ini [BrandingSettings] Logo) huutortaaka: ina foti wonde laawol iwde e daɗol lowre ndee walla ñiiɓirde https natal.</translation>
+    </message>
+    <message>
+        <source>The accent color %color (expwt.ini [BrandingSettings] %setting) is not used: its contrast is %ratio:1, at least %needed:1 is needed.</source>
+        <translation>Noone tiinnduɗo %color (expwt.ini [BrandingSettings] %setting) huutortaaka: seertude mum ko %ratio:1, ina hatojini %needed:1 tal-tal.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

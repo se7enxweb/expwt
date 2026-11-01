@@ -514,6 +514,7 @@ class expwtStrings
         'Frames shown',
         'Show all',
         'All frames are shown.',
+        'Website sidebar of Exponential',
     );
     /* sources:end */
 

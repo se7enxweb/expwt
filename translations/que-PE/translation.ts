@@ -2059,6 +2059,18 @@
         <source>Restored the panels of the version of %time.</source>
         <translation>%time versiónpa panelninkuna kutichisqa.</translation>
     </message>
+    <message>
+        <source>Website sidebar of Exponential</source>
+        <translation>Exponentialpa web sitiop waqta barran</translation>
+    </message>
+    <message>
+        <source>The logo %logo (expwt.ini [BrandingSettings] Logo) is not used: it must be a path from the site root or an https address of an image.</source>
+        <translation>Logo %logo (expwt.ini [BrandingSettings] Logo) mana llamk'achisqachu: sitiop saphinmanta ñan kanan tiyan utaq huk siq'ip https tiyananmi.</translation>
+    </message>
+    <message>
+        <source>The accent color %color (expwt.ini [BrandingSettings] %setting) is not used: its contrast is %ratio:1, at least %needed:1 is needed.</source>
+        <translation>Rikuchiq llimp'i %color (expwt.ini [BrandingSettings] %setting) mana llamk'achisqachu: contrasten %ratio:1, aschallanpas %needed:1 necesitakun.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

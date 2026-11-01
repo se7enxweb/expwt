@@ -2059,6 +2059,18 @@
         <source>Restored the panels of the version of %time.</source>
         <translation>לוחא דנוסחא ד%time אתפניו.</translation>
     </message>
+    <message>
+        <source>Website sidebar of Exponential</source>
+        <translation>סטרא דגנבא דאתרא דExponential</translation>
+    </message>
+    <message>
+        <source>The logo %logo (expwt.ini [BrandingSettings] Logo) is not used: it must be a path from the site root or an https address of an image.</source>
+        <translation>רשמא %logo (expwt.ini [BrandingSettings] Logo) לא משתמש: לבעא דנהוא שבילא מן עקרא דאתרא או משמע https דצורתא.</translation>
+    </message>
+    <message>
+        <source>The accent color %color (expwt.ini [BrandingSettings] %setting) is not used: its contrast is %ratio:1, at least %needed:1 is needed.</source>
+        <translation>גונא דטעמא %color (expwt.ini [BrandingSettings] %setting) לא משתמש: פרשותה %ratio:1, לכל הפחות %needed:1 סניק.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

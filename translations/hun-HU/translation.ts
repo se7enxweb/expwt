@@ -2059,6 +2059,18 @@
         <source>Restored the panels of the version of %time.</source>
         <translation>A(z) %time időpontú verzió paneljei visszaállítva.</translation>
     </message>
+    <message>
+        <source>Website sidebar of Exponential</source>
+        <translation>Az Exponential webhely-oldalsávja</translation>
+    </message>
+    <message>
+        <source>The logo %logo (expwt.ini [BrandingSettings] Logo) is not used: it must be a path from the site root or an https address of an image.</source>
+        <translation>A(z) %logo logó (expwt.ini [BrandingSettings] Logo) nincs használatban: a webhely gyökerétől induló útvonalnak vagy egy kép https-címének kell lennie.</translation>
+    </message>
+    <message>
+        <source>The accent color %color (expwt.ini [BrandingSettings] %setting) is not used: its contrast is %ratio:1, at least %needed:1 is needed.</source>
+        <translation>A(z) %color kiemelőszín (expwt.ini [BrandingSettings] %setting) nincs használatban: a kontrasztja %ratio:1, legalább %needed:1 szükséges.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

@@ -2059,6 +2059,18 @@
         <source>Restored the panels of the version of %time.</source>
         <translation>Adferwyd paneli fersiwn %time.</translation>
     </message>
+    <message>
+        <source>Website sidebar of Exponential</source>
+        <translation>Bar ochr y wefan gan Exponential</translation>
+    </message>
+    <message>
+        <source>The logo %logo (expwt.ini [BrandingSettings] Logo) is not used: it must be a path from the site root or an https address of an image.</source>
+        <translation>Nid yw'r logo %logo (expwt.ini [BrandingSettings] Logo) yn cael ei ddefnyddio: rhaid iddo fod yn llwybr o wraidd y wefan neu'n gyfeiriad https delwedd.</translation>
+    </message>
+    <message>
+        <source>The accent color %color (expwt.ini [BrandingSettings] %setting) is not used: its contrast is %ratio:1, at least %needed:1 is needed.</source>
+        <translation>Nid yw'r lliw acen %color (expwt.ini [BrandingSettings] %setting) yn cael ei ddefnyddio: ei gyferbyniad yw %ratio:1, mae angen o leiaf %needed:1.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

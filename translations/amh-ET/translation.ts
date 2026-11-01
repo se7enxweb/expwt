@@ -2059,6 +2059,18 @@
         <source>Restored the panels of the version of %time.</source>
         <translation>የ%time ስሪት ፓነሎች ተመልሰዋል።</translation>
     </message>
+    <message>
+        <source>Website sidebar of Exponential</source>
+        <translation>የExponential የድር ጣቢያ የጎን አሞሌ</translation>
+    </message>
+    <message>
+        <source>The logo %logo (expwt.ini [BrandingSettings] Logo) is not used: it must be a path from the site root or an https address of an image.</source>
+        <translation>አርማው %logo (expwt.ini [BrandingSettings] Logo) ጥቅም ላይ አይውልም፦ ከጣቢያው ሥር የሚጀምር ዱካ ወይም የምስል https አድራሻ መሆን አለበት።</translation>
+    </message>
+    <message>
+        <source>The accent color %color (expwt.ini [BrandingSettings] %setting) is not used: its contrast is %ratio:1, at least %needed:1 is needed.</source>
+        <translation>የአጽንዖት ቀለሙ %color (expwt.ini [BrandingSettings] %setting) ጥቅም ላይ አይውልም፦ ንፅፅሩ %ratio:1 ነው፣ ቢያንስ %needed:1 ያስፈልጋል።</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

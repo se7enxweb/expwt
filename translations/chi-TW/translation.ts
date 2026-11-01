@@ -2059,6 +2059,18 @@
         <source>Restored the panels of the version of %time.</source>
         <translation>已還原 %time 版本的面板。</translation>
     </message>
+    <message>
+        <source>Website sidebar of Exponential</source>
+        <translation>Exponential 網站側邊欄</translation>
+    </message>
+    <message>
+        <source>The logo %logo (expwt.ini [BrandingSettings] Logo) is not used: it must be a path from the site root or an https address of an image.</source>
+        <translation>標誌 %logo (expwt.ini [BrandingSettings] Logo) 未被使用：它必須是從網站根目錄開始的路徑或圖片的 https 位址。</translation>
+    </message>
+    <message>
+        <source>The accent color %color (expwt.ini [BrandingSettings] %setting) is not used: its contrast is %ratio:1, at least %needed:1 is needed.</source>
+        <translation>強調色 %color (expwt.ini [BrandingSettings] %setting) 未被使用：其對比度為 %ratio:1，至少需要 %needed:1。</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

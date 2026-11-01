@@ -2059,6 +2059,18 @@
         <source>Restored the panels of the version of %time.</source>
         <translation>Palautettiin version %time paneelit.</translation>
     </message>
+    <message>
+        <source>Website sidebar of Exponential</source>
+        <translation>Exponentialin sivuston sivupalkki</translation>
+    </message>
+    <message>
+        <source>The logo %logo (expwt.ini [BrandingSettings] Logo) is not used: it must be a path from the site root or an https address of an image.</source>
+        <translation>Logoa %logo (expwt.ini [BrandingSettings] Logo) ei käytetä: sen on oltava polku sivuston juuresta tai kuvan https-osoite.</translation>
+    </message>
+    <message>
+        <source>The accent color %color (expwt.ini [BrandingSettings] %setting) is not used: its contrast is %ratio:1, at least %needed:1 is needed.</source>
+        <translation>Korostusväriä %color (expwt.ini [BrandingSettings] %setting) ei käytetä: sen kontrasti on %ratio:1, vähintään %needed:1 tarvitaan.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

@@ -2059,6 +2059,18 @@
         <source>Restored the panels of the version of %time.</source>
         <translation>Atkurti %time versijos skydeliai.</translation>
     </message>
+    <message>
+        <source>Website sidebar of Exponential</source>
+        <translation>Exponential svetainės šoninė juosta</translation>
+    </message>
+    <message>
+        <source>The logo %logo (expwt.ini [BrandingSettings] Logo) is not used: it must be a path from the site root or an https address of an image.</source>
+        <translation>Logotipas %logo (expwt.ini [BrandingSettings] Logo) nenaudojamas: jis turi būti kelias nuo svetainės šaknies arba paveikslėlio https adresas.</translation>
+    </message>
+    <message>
+        <source>The accent color %color (expwt.ini [BrandingSettings] %setting) is not used: its contrast is %ratio:1, at least %needed:1 is needed.</source>
+        <translation>Akcento spalva %color (expwt.ini [BrandingSettings] %setting) nenaudojama: jos kontrastas yra %ratio:1, reikia bent %needed:1.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

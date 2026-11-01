@@ -2059,6 +2059,18 @@
         <source>Restored the panels of the version of %time.</source>
         <translation>Панелҳои нусхаи %time барқарор шуданд.</translation>
     </message>
+    <message>
+        <source>Website sidebar of Exponential</source>
+        <translation>Панели паҳлӯии сомонаи Exponential</translation>
+    </message>
+    <message>
+        <source>The logo %logo (expwt.ini [BrandingSettings] Logo) is not used: it must be a path from the site root or an https address of an image.</source>
+        <translation>Логотипи %logo (expwt.ini [BrandingSettings] Logo) истифода намешавад: он бояд роҳ аз решаи сомона ё суроғаи https-и тасвир бошад.</translation>
+    </message>
+    <message>
+        <source>The accent color %color (expwt.ini [BrandingSettings] %setting) is not used: its contrast is %ratio:1, at least %needed:1 is needed.</source>
+        <translation>Ранги таъкид %color (expwt.ini [BrandingSettings] %setting) истифода намешавад: контрасти он %ratio:1 аст, ақаллан %needed:1 лозим аст.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

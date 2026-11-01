@@ -2059,6 +2059,18 @@
         <source>Restored the panels of the version of %time.</source>
         <translation>%time नि बिसाननि पेनेलफोरखौ फिन लाबोनानै।</translation>
     </message>
+    <message>
+        <source>Website sidebar of Exponential</source>
+        <translation>Exponential-नि वेबसाइट साइडबार</translation>
+    </message>
+    <message>
+        <source>The logo %logo (expwt.ini [BrandingSettings] Logo) is not used: it must be a path from the site root or an https address of an image.</source>
+        <translation>लगो %logo (expwt.ini [BrandingSettings] Logo) बाहायनाय जाया: बेयो साइटनि रुटनिफ्राय लामा एबा मोनसे सावगारिनि https थं जाथाराव नांगोन।</translation>
+    </message>
+    <message>
+        <source>The accent color %color (expwt.ini [BrandingSettings] %setting) is not used: its contrast is %ratio:1, at least %needed:1 is needed.</source>
+        <translation>एक्सेन्ट गाब %color (expwt.ini [BrandingSettings] %setting) बाहायनाय जाया: बेनि कन्ट्रास्ट %ratio:1, खमैबो %needed:1 नांगौ।</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

@@ -2059,6 +2059,18 @@
         <source>Restored the panels of the version of %time.</source>
         <translation>Wogbugbɔ %time ƒe tɔtrɔ ƒe kpɔɖeƒewo vɛ.</translation>
     </message>
+    <message>
+        <source>Website sidebar of Exponential</source>
+        <translation>Exponential ƒe nyatakakadzraɖoƒe ƒe axadzimɔ</translation>
+    </message>
+    <message>
+        <source>The logo %logo (expwt.ini [BrandingSettings] Logo) is not used: it must be a path from the site root or an https address of an image.</source>
+        <translation>Wometsɔa dzesi %logo (expwt.ini [BrandingSettings] Logo) wɔa dɔ o: ele be wòanye mɔ tso nyatakakadzraɖoƒe ƒe ke me alo nɔnɔmetata aɖe ƒe https adrɛs.</translation>
+    </message>
+    <message>
+        <source>The accent color %color (expwt.ini [BrandingSettings] %setting) is not used: its contrast is %ratio:1, at least %needed:1 is needed.</source>
+        <translation>Wometsɔa amadede %color (expwt.ini [BrandingSettings] %setting) wɔa dɔ o: eƒe vovototo nye %ratio:1, ehiã be wòanye %needed:1 ya teti.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

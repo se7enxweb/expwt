@@ -2059,6 +2059,18 @@
         <source>Restored the panels of the version of %time.</source>
         <translation>%timeৰ সংস্কৰণৰ পেনেলসমূহ পুনৰুদ্ধাৰ কৰা হ'ল।</translation>
     </message>
+    <message>
+        <source>Website sidebar of Exponential</source>
+        <translation>Exponentialৰ ৱেবছাইট চাইডবাৰ</translation>
+    </message>
+    <message>
+        <source>The logo %logo (expwt.ini [BrandingSettings] Logo) is not used: it must be a path from the site root or an https address of an image.</source>
+        <translation>ল'গ' %logo (expwt.ini [BrandingSettings] Logo) ব্যৱহাৰ কৰা হোৱা নাই: ই ছাইটৰ মূলৰ পৰা এটা পথ বা এখন ছবিৰ https ঠিকনা হ'ব লাগিব।</translation>
+    </message>
+    <message>
+        <source>The accent color %color (expwt.ini [BrandingSettings] %setting) is not used: its contrast is %ratio:1, at least %needed:1 is needed.</source>
+        <translation>উচ্চাৰণ ৰং %color (expwt.ini [BrandingSettings] %setting) ব্যৱহাৰ কৰা হোৱা নাই: ইয়াৰ কনট্ৰাষ্ট %ratio:1, কমেও %needed:1 প্ৰয়োজন।</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

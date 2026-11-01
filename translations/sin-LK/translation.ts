@@ -2059,6 +2059,18 @@
         <source>Restored the panels of the version of %time.</source>
         <translation>%time අනුවාදයේ පුවරු ප්‍රතිසාධනය කෙරිණි.</translation>
     </message>
+    <message>
+        <source>Website sidebar of Exponential</source>
+        <translation>Exponential හි වෙබ් අඩවි පැති තීරුව</translation>
+    </message>
+    <message>
+        <source>The logo %logo (expwt.ini [BrandingSettings] Logo) is not used: it must be a path from the site root or an https address of an image.</source>
+        <translation>ලාංඡනය %logo (expwt.ini [BrandingSettings] Logo) භාවිත නොවේ: එය අඩවියේ මූලයේ සිට මාර්ගයක් හෝ රූපයක https ලිපිනයක් විය යුතුය.</translation>
+    </message>
+    <message>
+        <source>The accent color %color (expwt.ini [BrandingSettings] %setting) is not used: its contrast is %ratio:1, at least %needed:1 is needed.</source>
+        <translation>උච්චාරණ වර්ණය %color (expwt.ini [BrandingSettings] %setting) භාවිත නොවේ: එහි වෙනස්කම %ratio:1 වේ, අවම වශයෙන් %needed:1 අවශ්‍යයි.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

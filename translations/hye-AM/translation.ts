@@ -2059,6 +2059,18 @@
         <source>Restored the panels of the version of %time.</source>
         <translation>Վերականգնվեցին %time տարբերակի վահանակները։</translation>
     </message>
+    <message>
+        <source>Website sidebar of Exponential</source>
+        <translation>Exponential-ի կայքի կողագոտի</translation>
+    </message>
+    <message>
+        <source>The logo %logo (expwt.ini [BrandingSettings] Logo) is not used: it must be a path from the site root or an https address of an image.</source>
+        <translation>%logo պատկերանիշը (expwt.ini [BrandingSettings] Logo) չի օգտագործվում. այն պետք է լինի ուղի կայքի արմատից կամ պատկերի https հասցե:</translation>
+    </message>
+    <message>
+        <source>The accent color %color (expwt.ini [BrandingSettings] %setting) is not used: its contrast is %ratio:1, at least %needed:1 is needed.</source>
+        <translation>%color շեշտադրման գույնը (expwt.ini [BrandingSettings] %setting) չի օգտագործվում. դրա կոնտրաստը %ratio:1 է, անհրաժեշտ է առնվազն %needed:1:</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

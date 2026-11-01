@@ -2059,6 +2059,18 @@
         <source>Restored the panels of the version of %time.</source>
         <translation>Kuo fakafoki ʻa e ngaahi papa ʻo e veesiona ʻo e %time.</translation>
     </message>
+    <message>
+        <source>Website sidebar of Exponential</source>
+        <translation>Kauʻi tafaʻaki ʻo e uepisaiti ʻa Exponential</translation>
+    </message>
+    <message>
+        <source>The logo %logo (expwt.ini [BrandingSettings] Logo) is not used: it must be a path from the site root or an https address of an image.</source>
+        <translation>ʻOku ʻikai ngāueʻaki ʻa e lōkō %logo (expwt.ini [BrandingSettings] Logo): kuo pau ke ko ha hala mei he aka ʻo e uepisaiti pe ko ha tuasila https ʻo ha ʻīmisi.</translation>
+    </message>
+    <message>
+        <source>The accent color %color (expwt.ini [BrandingSettings] %setting) is not used: its contrast is %ratio:1, at least %needed:1 is needed.</source>
+        <translation>ʻOku ʻikai ngāueʻaki ʻa e lanu fakamamafa %color (expwt.ini [BrandingSettings] %setting): ko hono faikehekehe ko e %ratio:1, ʻoku fiemaʻu ʻo siʻisiʻi taha ki he %needed:1.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

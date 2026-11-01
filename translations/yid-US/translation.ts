@@ -2059,6 +2059,18 @@
         <source>Restored the panels of the version of %time.</source>
         <translation>די פּאַנעלן פֿון דער ווערסיע פֿון %time זענען צוריקגעשטעלט.</translation>
     </message>
+    <message>
+        <source>Website sidebar of Exponential</source>
+        <translation>וועבזײַטל־זײַטבאַר פֿון Exponential</translation>
+    </message>
+    <message>
+        <source>The logo %logo (expwt.ini [BrandingSettings] Logo) is not used: it must be a path from the site root or an https address of an image.</source>
+        <translation>דער לאָגאָ %logo (expwt.ini [BrandingSettings] Logo) ווערט נישט גענוצט: ער מוז זײַן אַ וועג פֿונעם וואָרצל פֿונעם זײַטל אָדער אַ https־אַדרעס פֿון אַ בילד.</translation>
+    </message>
+    <message>
+        <source>The accent color %color (expwt.ini [BrandingSettings] %setting) is not used: its contrast is %ratio:1, at least %needed:1 is needed.</source>
+        <translation>די אַקצענט־קאָליר %color (expwt.ini [BrandingSettings] %setting) ווערט נישט גענוצט: איר קאָנטראַסט איז %ratio:1, מע דאַרף כאָטש %needed:1.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

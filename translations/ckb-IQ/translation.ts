@@ -2059,6 +2059,18 @@
         <source>Restored the panels of the version of %time.</source>
         <translation>پانێڵەکانی وەشانی %time گەڕێندرانەوە.</translation>
     </message>
+    <message>
+        <source>Website sidebar of Exponential</source>
+        <translation>لاتەنیشتی ماڵپەڕی Exponential</translation>
+    </message>
+    <message>
+        <source>The logo %logo (expwt.ini [BrandingSettings] Logo) is not used: it must be a path from the site root or an https address of an image.</source>
+        <translation>لۆگۆی %logo (expwt.ini [BrandingSettings] Logo) بەکارناهێنرێت: دەبێت ڕێڕەوێک بێت لە ڕەگی ماڵپەڕەوە یان ناونیشانێکی https ی وێنەیەک.</translation>
+    </message>
+    <message>
+        <source>The accent color %color (expwt.ini [BrandingSettings] %setting) is not used: its contrast is %ratio:1, at least %needed:1 is needed.</source>
+        <translation>ڕەنگی جەختکردنەوەی %color (expwt.ini [BrandingSettings] %setting) بەکارناهێنرێت: جیاوازییەکەی %ratio:1 ە، لانیکەم %needed:1 پێویستە.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

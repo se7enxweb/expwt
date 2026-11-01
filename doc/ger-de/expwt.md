@@ -306,6 +306,39 @@ Die Startantwort enthält die Regel der Rollen des Benutzers (`panels`: `order`,
 Seitenleiste wendet sie auf die Reiter an, die sie baut (die Tastenkürzel Alt+Umschalt+1 bis 9 folgen der neuen
 Reihenfolge).
 
+### Branding je Siteaccess
+
+Ein Siteaccess kann der Seitenleiste einen eigenen Namen, ein Logo und eine Akzentfarbe geben (White Label), in
+`settings/siteaccess/<Siteaccess>/expwt.ini.append.php`:
+
+```ini
+[BrandingSettings]
+Name=Acme Editor
+Logo=/extension/acme/design/acme/images/sidebar-logo.svg
+AccentColor=#1d3557
+# AccentColorDark=#8da4c4   (leer: AccentColor, aufgehellt, bis sie auf der dunklen Leiste besteht)
+```
+
+- **Name** steht anstelle von „Website-Seitenleiste" in der Überschrift, im Tooltip des Reiters und in dem, was
+  Screenreader ansagen (höchstens 60 Zeichen, nicht übersetzt).
+- **Logo** steht neben dem Namen am linken und rechten Rand (höchstens 32 Pixel hoch; die einzeilige Leiste oben und
+  unten lässt es weg). Ein Pfad ab der Wurzel der Website oder eine `https`-Adresse einer svg-, png-, webp-, jpg-, gif-
+  oder avif-Datei; alles andere wird nicht verwendet.
+- **AccentColor** färbt den gewählten Reiter, die Hauptschaltflächen, gedrückte Schalter, Links und den Fokusrahmen. Sie
+  wird vor der Verwendung nach WCAG 2.2 AA geprüft: Weißer oder fast schwarzer Text muss auf ihr 4,5:1 erreichen, und
+  sie selbst 3:1 gegen die Leiste und ihre Karten. Links und Fokusrahmen bekommen einen Ton desselben Farbtons, der
+  4,5:1 erreicht. Eine Farbe, die durchfällt (oder keine `#rrggbb`-/`#rgb`-Farbe ist, gewertet als 0:1), wird nicht
+  verwendet - die Seitenleiste behält ihren eigenen Akzent -, und Setup > Bereiche der Website-Seitenleiste sagt es für
+  diesen Siteaccess, mit dem Kontrast, den sie hat, und dem, der nötig ist. Ebenso für ein Logo, das nicht verwendet
+  wird.
+- **AccentColorDark** wird genauso gegen die dunkle Leiste geprüft; leer, hellt die Seitenleiste AccentColor schrittweise
+  auf, bis sie dort besteht.
+- Die Werte erreichen die Seitenleiste als Stylesheet ihres Shadow DOM (kein style-Attribut), und nur auf Seiten, die
+  die Seitenleiste zeigen: Für einen Siteaccess ohne Branding kommt nichts hinzu.
+- Die Hilfe (die Tastenkürzel, Alt+Umschalt+H) sagt immer „Website-Seitenleiste von Exponential", wie auch immer das
+  Branding ist.
+- Die Feldeditoren im Rahmen der Seitenleiste behalten den Akzent der Administration.
+
 ## Felder und ihre Editoren
 
 Der Bereich „Seite" bearbeitet jedes Feld mit dem Editor, den die Administration für seinen Datentyp hat; er zeigt nie
@@ -463,6 +496,8 @@ dieser Reihenfolge, und den Wert, der gilt.
 | `[DevicePreviewSettings] DeviceList[]` | iPhone 13, Pixel 7, Tablet, 1920 bei 200 % Zoom, Desktop | die Rahmen der Gerätevorschau, je `id;Name;Breite;Höhe` (CSS-Pixel, 240 bis 2560 breit, 240 bis 2400 hoch); der Name wird übersetzt, wo der Katalog der Seitenleiste ihn hat |
 | `ShownDeviceList[]` | (leer) | die Rahmen, die beim ersten Öffnen der Vorschau in einem Browser gezeigt werden (IDs aus `DeviceList[]`); leer: alle. Danach merkt sich der Browser die Umschalter |
 | `[RolePanelSettings] RoleList[]`, `[RolePanels_<Rollen-ID>] PanelOrder[]`, `HiddenPanelList[]` | (nicht gesetzt) | die Bereiche je Rolle, eingestellt unter Setup > Bereiche der Website-Seitenleiste je Siteaccess (siehe „Bereiche je Rolle"); nie in den Einstellungen einer Erweiterung setzen, die dann für jeden Siteaccess entscheiden würden |
+| `[BrandingSettings] Name`, `Logo` | (leer) | der Name der Seitenleiste anstelle von „Website-Seitenleiste" und ein Logo daneben, je Siteaccess (siehe „Branding je Siteaccess") |
+| `AccentColor`, `AccentColorDark` | (leer) | der Akzent im hellen und dunklen Modus, `#rrggbb`, geprüft nach WCAG 2.2 AA (4,5:1 für den Text darauf, 3:1 gegen die Leiste); eine Farbe, die durchfällt, wird nicht verwendet, und Setup sagt warum; eine leere dunkle wird aus der hellen abgeleitet |
 | `[Comments] HideNew` | disabled | enabled: Ein Kommentar (expservices.ini `[Community] CommentClass`, sonst `comment`), der zum ersten Mal veröffentlicht wird, wird gleich danach verborgen, wenn sein Ersteller ihn nicht freigeben darf (kein `content/hide` des Kommentars); der Bereich Seite listet ihn als wartend auf Moderation, **Freigeben** zeigt ihn. Das erledigt der Inhalts-Bearbeitungs-Handler von expwt (content.ini `[EditSettings] ExtensionDirectories[]=expwt`), den der Kernel in jeder Veröffentlichung aufruft (Web, Befehle, Cronjobs, Workflows), über das Verbergen des Kernels; kein Workflow einzurichten |
 
 ## Erweiterungen fügen der Seitenleiste etwas hinzu

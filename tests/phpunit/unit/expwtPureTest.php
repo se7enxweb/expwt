@@ -992,6 +992,7 @@ class expwtPureTest extends PHPUnit\Framework\TestCase
         };
         $this->assertSame( self::settings( array() ), expwtSettings::fromIni( $ini ), 'the commented values are the defaults' );
         $this->assertSame( 'disabled', $groups['Comments']['HideNew'] );
+        $this->assertSame( expwtBranding::fromArray( array() ), expwtBranding::fromIni( $ini ), 'no branding shipped' );
         $this->assertSame( array(), $groups['RolePanelSettings']['RoleList'], 'no panels per role shipped' );
     }
 }

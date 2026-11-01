@@ -2059,6 +2059,18 @@
         <source>Restored the panels of the version of %time.</source>
         <translation>Assavet eo bet panelloù stumm %time.</translation>
     </message>
+    <message>
+        <source>Website sidebar of Exponential</source>
+        <translation>Barrenn-gostez al lec'hienn gant Exponential</translation>
+    </message>
+    <message>
+        <source>The logo %logo (expwt.ini [BrandingSettings] Logo) is not used: it must be a path from the site root or an https address of an image.</source>
+        <translation>N'eo ket implijet al logo %logo (expwt.ini [BrandingSettings] Logo): un hent adalek gwrizienn al lec'hienn pe ur chomlec'h https ur skeudenn a rank bezañ.</translation>
+    </message>
+    <message>
+        <source>The accent color %color (expwt.ini [BrandingSettings] %setting) is not used: its contrast is %ratio:1, at least %needed:1 is needed.</source>
+        <translation>N'eo ket implijet al liv-lakaat-war-wel %color (expwt.ini [BrandingSettings] %setting): %ratio:1 eo e genvezh, %needed:1 da nebeutañ a zo ezhomm.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

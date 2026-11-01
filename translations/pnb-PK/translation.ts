@@ -2059,6 +2059,18 @@
         <source>Restored the panels of the version of %time.</source>
         <translation>%time دے ورژن دے پینل بحال کیتے گئے۔</translation>
     </message>
+    <message>
+        <source>Website sidebar of Exponential</source>
+        <translation>Exponential دا ویب سائٹ سائیڈ بار</translation>
+    </message>
+    <message>
+        <source>The logo %logo (expwt.ini [BrandingSettings] Logo) is not used: it must be a path from the site root or an https address of an image.</source>
+        <translation>لوگو %logo (expwt.ini [BrandingSettings] Logo) ورتیا نئیں جا رہیا: ایہ سائٹ دی جڑ توں اک راہ یا کسے تصویر دا https پتہ ہونا چاہیدا اے۔</translation>
+    </message>
+    <message>
+        <source>The accent color %color (expwt.ini [BrandingSettings] %setting) is not used: its contrast is %ratio:1, at least %needed:1 is needed.</source>
+        <translation>ایکسینٹ رنگ %color (expwt.ini [BrandingSettings] %setting) ورتیا نئیں جا رہیا: ایہدا کنٹراسٹ %ratio:1 اے، گھٹ توں گھٹ %needed:1 چاہیدا اے۔</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

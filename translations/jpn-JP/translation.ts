@@ -2059,6 +2059,18 @@
         <source>Restored the panels of the version of %time.</source>
         <translation>%time のバージョンのパネルを復元しました。</translation>
     </message>
+    <message>
+        <source>Website sidebar of Exponential</source>
+        <translation>Exponential のウェブサイトのサイドバー</translation>
+    </message>
+    <message>
+        <source>The logo %logo (expwt.ini [BrandingSettings] Logo) is not used: it must be a path from the site root or an https address of an image.</source>
+        <translation>ロゴ %logo (expwt.ini [BrandingSettings] Logo) は使用されません: サイトのルートからのパスか、画像の https アドレスである必要があります。</translation>
+    </message>
+    <message>
+        <source>The accent color %color (expwt.ini [BrandingSettings] %setting) is not used: its contrast is %ratio:1, at least %needed:1 is needed.</source>
+        <translation>アクセントカラー %color (expwt.ini [BrandingSettings] %setting) は使用されません: コントラストは %ratio:1 で、少なくとも %needed:1 が必要です。</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

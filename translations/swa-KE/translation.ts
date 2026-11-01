@@ -2059,6 +2059,18 @@
         <source>Restored the panels of the version of %time.</source>
         <translation>Paneli za toleo la %time zimerejeshwa.</translation>
     </message>
+    <message>
+        <source>Website sidebar of Exponential</source>
+        <translation>Upau wa pembeni wa tovuti wa Exponential</translation>
+    </message>
+    <message>
+        <source>The logo %logo (expwt.ini [BrandingSettings] Logo) is not used: it must be a path from the site root or an https address of an image.</source>
+        <translation>Nembo %logo (expwt.ini [BrandingSettings] Logo) haitumiki: lazima iwe njia kutoka mzizi wa tovuti au anwani ya https ya picha.</translation>
+    </message>
+    <message>
+        <source>The accent color %color (expwt.ini [BrandingSettings] %setting) is not used: its contrast is %ratio:1, at least %needed:1 is needed.</source>
+        <translation>Rangi ya msisitizo %color (expwt.ini [BrandingSettings] %setting) haitumiki: utofautishaji wake ni %ratio:1, angalau %needed:1 unahitajika.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

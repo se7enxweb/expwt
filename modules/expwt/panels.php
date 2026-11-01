@@ -236,6 +236,14 @@ $tpl->setVariable( 'flash', $flash );
 $tpl->setVariable( 'file', $editor !== null ? $editor->relativePath() : '' );
 $tpl->setVariable( 'history', $history );
 $tpl->setVariable( 'decided_elsewhere', $decidedElsewhere );
+// E10: what of the siteaccess's branding (expwt.ini [BrandingSettings]) is not used, and why
+$brandRefused = array();
+foreach ( $siteIni !== null && class_exists( 'expwtBranding' ) ? expwtBranding::fromIni( $siteIni )['refused'] : array() as $r )
+    $brandRefused[] = $r['setting'] === 'Logo'
+        ? $t( 'The logo %logo (expwt.ini [BrandingSettings] Logo) is not used: it must be a path from the site root or an https address of an image.', array( '%logo' => $r['value'] ) )
+        : $t( 'The accent color %color (expwt.ini [BrandingSettings] %setting) is not used: its contrast is %ratio:1, at least %needed:1 is needed.',
+              array( '%color' => $r['value'], '%setting' => $r['setting'], '%ratio' => number_format( $r['ratio'], 2 ), '%needed' => number_format( $r['needed'], 1 ) ) );
+$tpl->setVariable( 'brand_refused', $brandRefused );
 $tpl->setVariable( 'here', $here );
 
 $Result = array(

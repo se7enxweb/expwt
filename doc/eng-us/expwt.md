@@ -278,6 +278,37 @@ HiddenPanelList[]=seo
 The boot answer carries the rule of the user's roles (`panels`: `order`, `hidden`; null without one); the sidebar
 applies it to the tabs it builds (the shortcuts Alt+Shift+1 to 9 follow the new order).
 
+### Branding per siteaccess
+
+A siteaccess can give the sidebar its own name, logo and accent color (white label), in
+`settings/siteaccess/<siteaccess>/expwt.ini.append.php`:
+
+```ini
+[BrandingSettings]
+Name=Acme Editor
+Logo=/extension/acme/design/acme/images/sidebar-logo.svg
+AccentColor=#1d3557
+# AccentColorDark=#8da4c4   (empty: AccentColor, lightened until it passes on the dark panel)
+```
+
+- **Name** takes the place of "Website sidebar" in the panel's heading, the tab's tooltip and what screen readers
+  announce (at most 60 characters, not translated).
+- **Logo** stands beside the name on the left and right edges (32 pixels high at most; the one-row bar on top and
+  bottom leaves it out). A path from the site's root or an `https` address of an svg, png, webp, jpg, gif or avif file;
+  anything else is not used.
+- **AccentColor** colors the selected tab, the main buttons, the pressed toggles, links and the focus ring. It is
+  checked against WCAG 2.2 AA before it is used: white or near-black text has to reach 4.5:1 on it, and it 3:1 against
+  the panel and its cards. Links and the focus ring take a shade of the same hue that reaches 4.5:1. A color that
+  fails (or is no `#rrggbb` / `#rgb` color, counted as 0:1) is not used - the sidebar keeps its own accent - and
+  Setup > Website sidebar panels says so for that siteaccess, with the contrast it has and the one it needs. The same
+  goes for a logo that is not used.
+- **AccentColorDark** is checked the same way against the dark panel; empty, the sidebar lightens AccentColor in
+  steps until it passes there.
+- The tokens reach the sidebar as a stylesheet of its Shadow DOM (no style attribute), and only on pages that show the
+  sidebar: nothing is added for a siteaccess without branding.
+- Help (the keyboard shortcuts, Alt+Shift+H) always says "Website sidebar of Exponential", whatever the branding.
+- The field editors in the sidebar's frame keep the administration's accent.
+
 ## Fields and their editors
 
 The Page panel edits every field with the editor the administration has for its datatype; it never shows a field in
@@ -427,6 +458,8 @@ order, and the value in effect.
 | `[DevicePreviewSettings] DeviceList[]` | iPhone 13, Pixel 7, tablet, 1920 at 200% zoom, desktop | the frames of the device preview, each `id;name;width;height` (CSS pixels, 240 to 2560 wide, 240 to 2400 high); the name is translated where the sidebar's catalogue has it |
 | `ShownDeviceList[]` | (empty) | the frames shown when the preview first opens in a browser (ids of `DeviceList[]`); empty: all of them. After that the browser remembers the toggles |
 | `[RolePanelSettings] RoleList[]`, `[RolePanels_<role id>] PanelOrder[]`, `HiddenPanelList[]` | (not set) | the panels per role, set in Setup > Website sidebar panels per siteaccess (see "Panels per role"); never set them in an extension's settings, which would decide for every siteaccess |
+| `[BrandingSettings] Name`, `Logo` | (empty) | the sidebar's name in place of "Website sidebar" and a logo beside it, per siteaccess (see "Branding per siteaccess") |
+| `AccentColor`, `AccentColorDark` | (empty) | the accent in light and dark mode, `#rrggbb`, checked against WCAG 2.2 AA (4.5:1 for the text on it, 3:1 against the panel); one that fails is not used and Setup says why; an empty dark one is derived from the light one |
 | `[Comments] HideNew` | disabled | enabled: a comment (expservices.ini `[Community] CommentClass`, else `comment`) published for the first time is hidden right after publishing when its creator may not approve it (no `content/hide` of the comment); the Page panel lists it as waiting for moderation and **Approve** reveals it. Done by expwt's content edit handler (content.ini `[EditSettings] ExtensionDirectories[]=expwt`), which the kernel calls in every publish operation (the web, commands, cronjobs, workflows), through the kernel's hide; no workflow to set up |
 
 ## Adding to the sidebar from another extension

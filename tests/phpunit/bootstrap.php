@@ -19,7 +19,7 @@ $expwtClasses = array(
     'expwtFieldMarkerHandler' => 'expwtfieldmarkerhandler.php',
     'expwtRegistry' => 'expwtregistry.php', 'expwtCalendar' => 'expwtcalendar.php',
     'expwtCommentModeration' => 'expwtcommentmoderation.php', 'expwtImages' => 'expwtimages.php',
-    'expwtRolePanels' => 'expwtrolepanels.php',
+    'expwtRolePanels' => 'expwtrolepanels.php', 'expwtBranding' => 'expwtbranding.php',
 );
 foreach ( $expwtClasses as $expwtClass => $expwtFile )
 {

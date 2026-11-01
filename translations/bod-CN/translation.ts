@@ -2059,6 +2059,18 @@
         <source>Restored the panels of the version of %time.</source>
         <translation>%timeཡི་པར་གཞིའི་པང་ལེབ་སླར་གསོ་བྱས་ཟིན།</translation>
     </message>
+    <message>
+        <source>Website sidebar of Exponential</source>
+        <translation>Exponential གྱི་དྲ་ཚིགས་ཀྱི་ཟུར་ཕྱོགས་སྡེ་ཚན།</translation>
+    </message>
+    <message>
+        <source>The logo %logo (expwt.ini [BrandingSettings] Logo) is not used: it must be a path from the site root or an https address of an image.</source>
+        <translation>མཚོན་རྟགས་ %logo (expwt.ini [BrandingSettings] Logo) བེད་སྤྱོད་མི་བྱེད། དེ་ནི་དྲ་ཚིགས་ཀྱི་རྩ་བ་ནས་འགོ་བའི་ལམ་ཐིག་གམ་པར་རིས་ཤིག་གི་ https ཁ་བྱང་ཡིན་དགོས།</translation>
+    </message>
+    <message>
+        <source>The accent color %color (expwt.ini [BrandingSettings] %setting) is not used: its contrast is %ratio:1, at least %needed:1 is needed.</source>
+        <translation>གཙོ་ཚོན་ %color (expwt.ini [BrandingSettings] %setting) བེད་སྤྱོད་མི་བྱེད། དེའི་ཁྱད་ཚད་ནི་ %ratio:1 ཡིན། ཉུང་མཐར་ %needed:1 དགོས།</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

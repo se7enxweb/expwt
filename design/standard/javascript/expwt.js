@@ -145,6 +145,36 @@
   };
   window.ExpwtPanelOrder = PanelOrder;
 
+  /* The branding of the siteaccess (E10, cfg.brand from expwt.ini [BrandingSettings], checked on the server): the
+     name in place of "Website sidebar", a logo beside it, and the accent tokens for light and dark as a stylesheet of
+     the shadow root (never an attribute style). Only the known tokens with a color value pass, so nothing else can
+     reach the stylesheet. */
+  var Brand = {
+    TOKENS: ['--a4-accent', '--a4-accent-hover', '--a4-accent-strong', '--a4-accent-press', '--a4-accent-text',
+             '--a4-accent-soft', '--a4-on-accent', '--a4-on-accent-hover', '--a4-ring'],
+    VALUE: /^(#[0-9a-f]{6}|rgba\(\d{1,3}, \d{1,3}, \d{1,3}, 0\.\d{1,2}\))$/,
+    block: function (tokens) {
+      if (!tokens || typeof tokens !== 'object') { return ''; }
+      return Brand.TOKENS.filter(function (k) { return Brand.VALUE.test(String(tokens[k] || '')); })
+        .map(function (k) { return k + ':' + tokens[k]; }).join(';');
+    },
+    css: function (brand) {
+      if (!brand || typeof brand !== 'object') { return ''; }
+      var light = Brand.block(brand.light);
+      var dark = Brand.block(brand.dark);
+      return (light ? ':host{' + light + '}' : '') + (dark ? ':host([data-theme="dark"]){' + dark + '}' : '');
+    },
+    name: function (brand, fallback) {
+      var n = brand && typeof brand.name === 'string' ? brand.name.trim() : '';
+      return n || fallback;
+    },
+    logo: function (brand) {
+      var l = brand && typeof brand.logo === 'string' ? brand.logo : '';
+      return /^(https:\/\/[A-Za-z0-9.-]+(:\d+)?)?\/(?!\/)[^"'<>\s\\]*$/.test(l) ? l : '';
+    }
+  };
+  window.ExpwtBrand = Brand;
+
   /* a node into a parent: moveBefore() keeps a frame's page as it is (no reload) where the browser has it */
   function move(parent, node, before) {
     if (typeof parent.moveBefore === 'function' && node.isConnected && parent.isConnected && node.getRootNode() === parent.getRootNode()) {
@@ -375,6 +405,12 @@
       if (canAdopt) {
         this.vars = new CSSStyleSheet();
         root.adoptedStyleSheets = [this.vars];
+        var brandCss = Brand.css(this.cfg.brand);
+        if (brandCss) {
+          this.brandSheet = new CSSStyleSheet();
+          this.brandSheet.replaceSync(brandCss);
+          root.adoptedStyleSheets = root.adoptedStyleSheets.concat([this.brandSheet]);
+        }
       }
       if (this.cfg.css) {
         /* The stylesheet arrives after the first frames: until it has, the tab would be drawn as a bare browser
@@ -398,14 +434,14 @@
       this.tab = h('button', {
         type: 'button', class: 'wt-tab', 'aria-expanded': 'false', 'aria-controls': 'wt-panel',
         'aria-keyshortcuts': 'Alt+Shift+' + (this.cfg.key || 'E'),
-        title: this.t('Website sidebar') + ' (Alt+Shift+' + (this.cfg.key || 'E') + ')',
+        title: this.brandName() + ' (Alt+Shift+' + (this.cfg.key || 'E') + ')',
         onpointerdown: function (e) { self.dragStart(e); },
         onkeydown: function (e) { self.tabKey(e); },
         onclick: function (e) { if (self.dragged) { e.preventDefault(); self.dragged = false; return; } self.toggle(); }
       }, [
         icon(['M4 6h16', 'M4 12h16', 'M4 18h10']),
         h('span', { class: 'wt-tab-label', text: this.anonymous ? this.t('Menu') : this.t('Edit') }),
-        h('span', { class: 'wt-sr', text: this.t('Website sidebar') + '. ' + this.t('Arrow keys move it, Enter opens it.') + ' '
+        h('span', { class: 'wt-sr', text: this.brandName() + '. ' + this.t('Arrow keys move it, Enter opens it.') + ' '
           + this.t('Ctrl and an arrow key put it on another edge.') })
       ]);
       this.resizer = h('div', {
@@ -414,7 +450,8 @@
         onpointerdown: function (e) { self.resizeStart(e); },
         onkeydown: function (e) { self.resizeKey(e); }
       });
-      this.heading = h('h2', { id: 'wt-title', tabindex: '-1', text: this.t('Website sidebar') });
+      this.heading = h('h2', { id: 'wt-title', tabindex: '-1', text: this.brandName() });
+      var logo = Brand.logo(this.cfg.brand);
       this.tablist = h('div', { class: 'wt-tabs', role: 'tablist', 'aria-label': this.t('Panels') });
       /* On top and bottom the open panel's main actions (Save draft, Publish ...) stand in the bar's one row, next
          to the panels' tabs, so they never scroll away; on left and right they stay in the panel (primary()). */
@@ -427,7 +464,7 @@
       }, [
         this.resizer,
         h('div', { class: 'wt-head' }, [
-          this.heading,
+          h('div', { class: 'wt-brand' }, [logo ? h('img', { class: 'wt-logo', src: logo, alt: '' }) : null, this.heading]),
           h('button', { type: 'button', class: 'wt-btn is-icon', 'aria-label': this.t('Close the sidebar'), title: this.t('Close the sidebar'),
             onclick: function () { self.toggle(false, true); } }, ['×'])
         ]),
@@ -1210,7 +1247,7 @@
     labelKeys() {
       var k = 'Alt+Shift+' + this.keys().open;
       this.tab.setAttribute('aria-keyshortcuts', k);
-      this.tab.title = this.t('Website sidebar') + ' (' + k + ')';
+      this.tab.title = this.brandName() + ' (' + k + ')';
     }
 
     shortcut(e) {
@@ -1237,6 +1274,11 @@
       } else if (action === 'help') {
         this.loadPanels().then(function (panels) { if (panels.shortcuts) { panels.shortcuts(self.context()); } });
       }
+    }
+
+    /* The sidebar's name: the siteaccess's branding (E10), else "Website sidebar" */
+    brandName() {
+      return Brand.name(this.cfg.brand, this.t('Website sidebar'));
     }
 
     say(text, kind) {

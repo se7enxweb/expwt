@@ -2059,6 +2059,18 @@
         <source>Restored the panels of the version of %time.</source>
         <translation>Obnovljene plošče različice z dne %time.</translation>
     </message>
+    <message>
+        <source>Website sidebar of Exponential</source>
+        <translation>Stranska vrstica spletnega mesta Exponential</translation>
+    </message>
+    <message>
+        <source>The logo %logo (expwt.ini [BrandingSettings] Logo) is not used: it must be a path from the site root or an https address of an image.</source>
+        <translation>Logotip %logo (expwt.ini [BrandingSettings] Logo) se ne uporablja: biti mora pot od korena spletnega mesta ali naslov https slike.</translation>
+    </message>
+    <message>
+        <source>The accent color %color (expwt.ini [BrandingSettings] %setting) is not used: its contrast is %ratio:1, at least %needed:1 is needed.</source>
+        <translation>Barva poudarka %color (expwt.ini [BrandingSettings] %setting) se ne uporablja: njen kontrast je %ratio:1, potrebno je vsaj %needed:1.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

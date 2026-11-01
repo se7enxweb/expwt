@@ -91,7 +91,7 @@ class expwtHook
             $panels = $anonymous ? '' : self::packed( 'js', array( 'expwt-panels.js' ) );
         }
         $url = function ( $path ) { eZURI::transformURI( $path ); return $path; };
-        return array(
+        $context = array(
             'enabled' => $settings['enabled'], 'anonymous' => $anonymous, 'show_to_anonymous' => $settings['show_to_anonymous'],
             'may_use' => $mayUse, 'script' => $script,
             'config' => array(
@@ -106,6 +106,11 @@ class expwtHook
                 'strings' => expwtStrings::tab(),
             ),
         );
+        // E10: the siteaccess's name, logo and accent (expwt.ini [BrandingSettings]); not one byte for the sidebar's own look
+        $brand = class_exists( 'expwtBranding' ) ? expwtBranding::client( expwtBranding::fromIni(), eZSys::wwwDir() ) : array();
+        if ( $brand )
+            $context['config']['brand'] = $brand;
+        return $context;
     }
 
     /** @return bool the page is shown in the sidebar's frame (?in=sidebar: a field's editor, its browse): no sidebar in it */

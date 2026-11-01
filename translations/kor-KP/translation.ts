@@ -2059,6 +2059,18 @@
         <source>Restored the panels of the version of %time.</source>
         <translation>%time 버전의 패널을 복구했습니다.</translation>
     </message>
+    <message>
+        <source>Website sidebar of Exponential</source>
+        <translation>Exponential의 웹사이트 옆창</translation>
+    </message>
+    <message>
+        <source>The logo %logo (expwt.ini [BrandingSettings] Logo) is not used: it must be a path from the site root or an https address of an image.</source>
+        <translation>로고 %logo (expwt.ini [BrandingSettings] Logo)는 쓰이지 않습니다: 싸이트 뿌리로부터의 경로이거나 화상의 https 주소여야 합니다.</translation>
+    </message>
+    <message>
+        <source>The accent color %color (expwt.ini [BrandingSettings] %setting) is not used: its contrast is %ratio:1, at least %needed:1 is needed.</source>
+        <translation>강조색 %color (expwt.ini [BrandingSettings] %setting)는 쓰이지 않습니다: 대비도는 %ratio:1이며 적어도 %needed:1이 필요합니다.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

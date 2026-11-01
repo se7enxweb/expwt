@@ -2059,6 +2059,18 @@
         <source>Restored the panels of the version of %time.</source>
         <translation>Naverina ny tontonan'ny dikan-teny tamin'ny %time.</translation>
     </message>
+    <message>
+        <source>Website sidebar of Exponential</source>
+        <translation>Tsipika anilan'ny tranonkala avy amin'ny Exponential</translation>
+    </message>
+    <message>
+        <source>The logo %logo (expwt.ini [BrandingSettings] Logo) is not used: it must be a path from the site root or an https address of an image.</source>
+        <translation>Tsy ampiasaina ny sary famantarana %logo (expwt.ini [BrandingSettings] Logo): tsy maintsy lalana avy amin'ny fototry ny tranonkala na adiresy https an'ny sary izy.</translation>
+    </message>
+    <message>
+        <source>The accent color %color (expwt.ini [BrandingSettings] %setting) is not used: its contrast is %ratio:1, at least %needed:1 is needed.</source>
+        <translation>Tsy ampiasaina ny loko manindry %color (expwt.ini [BrandingSettings] %setting): %ratio:1 ny fifanoherany, ilaina farafahakeliny %needed:1.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>
