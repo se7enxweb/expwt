@@ -9,7 +9,8 @@
 
 class expwtSettings
 {
-    /** The values when expwt.ini has none (the shipped expwt.ini has the same) */
+    /** The values when expwt.ini has none: the shipped expwt.ini documents them commented out and sets nothing, so a
+     *  siteaccess can set every one (the kernel reads an extension in ActiveExtensions[] after settings/siteaccess/) */
     const DEFAULTS = array(
         'enabled' => false,
         'show_to_anonymous' => 'disabled',

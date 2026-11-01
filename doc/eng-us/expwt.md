@@ -388,6 +388,21 @@ sidebar is first opened. The closed tab (script and stylesheet) stays below 50 K
 
 ## Settings (expwt.ini)
 
+**Where they go.** expwt's own `settings/expwt.ini` sets nothing: every setting is there commented out, with its
+default, and the defaults are in the code. The reason is the kernel's order of settings files (later wins):
+`settings/`, the `ActiveAccessExtensions[]` of the siteaccess, `extension/*/settings/siteaccess/<siteaccess>/`,
+`settings/siteaccess/<siteaccess>/`, the `ActiveExtensions[]` (the first one listed is read last),
+`settings/override/`. A value in the settings of an extension in `ActiveExtensions[]` therefore wins over every
+siteaccess. So:
+
+- per siteaccess: `settings/siteaccess/<siteaccess>/expwt.ini.append.php`;
+- for every siteaccess: `settings/override/expwt.ini.append.php`, or the `settings/expwt.ini.append.php` of a settings
+  extension of your own in `ActiveExtensions[]` (which then also wins over every siteaccess for what it sets);
+- never uncomment a line in `extension/expwt/settings/expwt.ini`: copy it into one of those files.
+
+`./console exp:ini where expwt.ini/ExpwtSettings/Enabled <siteaccess>` lists every file that sets a value, in this
+order, and the value in effect.
+
 | Setting | Default | |
 |---|---|---|
 | `[ExpwtSettings] Enabled` | disabled | the sidebar on this siteaccess |

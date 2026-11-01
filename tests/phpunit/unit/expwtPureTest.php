@@ -916,7 +916,7 @@ class expwtPureTest extends PHPUnit\Framework\TestCase
         $this->assertSame( array( 'iphone13', 'pixel7', 'tablet', 'zoom200', 'desktop' ), array_column( $shipped['devices'], 'id' ) );
         $this->assertSame( array( 'id' => 'zoom200', 'name' => '1920 wide at 200% zoom', 'width' => 960, 'height' => 900 ), $shipped['devices'][3] );
         $this->assertSame( 1, preg_match( '/^\[DevicePreviewSettings\]$(.*?)^\[/ms', file_get_contents( dirname( __DIR__, 3 ) . '/settings/expwt.ini' ), $group ) );
-        preg_match_all( '/^DeviceList\[\]=(.+)$/m', $group[1], $lines );
+        preg_match_all( '/^#DeviceList\[\]=(.+)$/m', $group[1], $lines );
         $lines = $lines[1];
         $this->assertSame( $shipped['devices'], expwtSettings::devices( $lines ), 'expwt.ini ships the defaults' );
 
@@ -953,5 +953,45 @@ class expwtPureTest extends PHPUnit\Framework\TestCase
         $with = '<html><body><exp-wt></exp-wt></body></html>';
         $this->assertSame( $with, expwtHook::inject( $with, '<M>' ), 'the hook placed it already' );
         $this->assertSame( '{"a":1}', expwtHook::inject( '{"a":1}', '<M>' ), 'not a page' );
+    }
+
+    /**
+     * The shipped expwt.ini sets nothing (every value commented out), because the kernel reads an extension in
+     * ActiveExtensions[] after settings/siteaccess/<siteaccess>/: a value set there would win over every siteaccess.
+     * Its commented values are the code's defaults.
+     */
+    public function testTheShippedSettingsSetNothingAndDocumentTheDefaults()
+    {
+        $text = (string)file_get_contents( dirname( __DIR__, 3 ) . '/settings/expwt.ini' );
+        $this->assertSame( 0, preg_match( '/^[A-Za-z][A-Za-z0-9_]*(\[\])?\s*(=|$)/m', $text, $set ), 'expwt.ini sets ' . ( $set ? $set[0] : '' ) );
+        // the commented values, read as if they were set
+        $groups = array();
+        $group = null;
+        foreach ( preg_split( '/\R/', $text ) as $line )
+        {
+            if ( preg_match( '/^\[([A-Za-z0-9_]+)\]\s*$/', $line, $m ) )
+                $group = $m[1];
+            else if ( $group !== null && preg_match( '/^#([A-Z][A-Za-z0-9]*)(\[\])?(?:=(.*))?$/', $line, $m ) )
+            {
+                if ( isset( $m[2] ) && $m[2] === '[]' )
+                {
+                    if ( !isset( $m[3] ) )
+                        $groups[$group][$m[1]] = array();
+                    else
+                        $groups[$group][$m[1]][] = $m[3];
+                }
+                else if ( isset( $m[3] ) )
+                    $groups[$group][$m[1]] = $m[3];
+            }
+        }
+        $ini = new class( $groups ) {
+            private $g;
+            public function __construct( array $g ) { $this->g = $g; }
+            public function hasVariable( $group, $name ) { return isset( $this->g[$group] ) && array_key_exists( $name, $this->g[$group] ); }
+            public function variable( $group, $name ) { return $this->g[$group][$name]; }
+        };
+        $this->assertSame( self::settings( array() ), expwtSettings::fromIni( $ini ), 'the commented values are the defaults' );
+        $this->assertSame( 'disabled', $groups['Comments']['HideNew'] );
+        $this->assertSame( array(), $groups['RolePanelSettings']['RoleList'], 'no panels per role shipped' );
     }
 }

@@ -59,7 +59,7 @@ class expwtCommentModerationTest extends PHPUnit\Framework\TestCase
         $root = dirname( __DIR__, 3 );
         $ini = (string)file_get_contents( $root . '/settings/expwt.ini' );
         $this->assertMatchesRegularExpression( '/^\[Comments\]\s*$/m', $ini );
-        $this->assertMatchesRegularExpression( '/^HideNew=disabled\s*$/m', $ini, 'off by default for every other installation' );
+        $this->assertMatchesRegularExpression( '/^#HideNew=disabled\s*$/m', $ini, 'off by default for every other installation (documented, commented out)' );
         $content = (string)file_get_contents( $root . '/settings/content.ini.append.php' );
         $this->assertMatchesRegularExpression( '/^\[EditSettings\]\s*\nExtensionDirectories\[\]=expwt\s*$/m', $content );
         // the kernel includes <extension>/content/<extension>handler.php and calls <extension>Handler::publish()

@@ -422,6 +422,22 @@ Stylesheet) bleibt unter 50 KB gzip; ein Test hält ihn dort.
 
 ## Einstellungen (expwt.ini)
 
+**Wohin sie gehören.** Die eigene `settings/expwt.ini` von expwt setzt nichts: Jede Einstellung steht dort
+auskommentiert mit ihrem Standard, und die Standards stehen im Code. Der Grund ist die Reihenfolge, in der der Kernel
+die Einstellungsdateien liest (die spätere gewinnt): `settings/`, die `ActiveAccessExtensions[]` des Siteaccess,
+`extension/*/settings/siteaccess/<Siteaccess>/`, `settings/siteaccess/<Siteaccess>/`, die `ActiveExtensions[]` (die
+zuerst genannte wird zuletzt gelesen), `settings/override/`. Ein Wert in den Einstellungen einer Erweiterung aus
+`ActiveExtensions[]` gewinnt also gegen jeden Siteaccess. Deshalb:
+
+- pro Siteaccess: `settings/siteaccess/<Siteaccess>/expwt.ini.append.php`;
+- für alle Siteaccesses: `settings/override/expwt.ini.append.php` oder die `settings/expwt.ini.append.php` einer
+  eigenen Einstellungs-Erweiterung in `ActiveExtensions[]` (die dann für das, was sie setzt, ebenfalls gegen jeden
+  Siteaccess gewinnt);
+- nie eine Zeile in `extension/expwt/settings/expwt.ini` einkommentieren, sondern sie in eine dieser Dateien kopieren.
+
+`./console exp:ini where expwt.ini/ExpwtSettings/Enabled <Siteaccess>` listet jede Datei, die einen Wert setzt, in
+dieser Reihenfolge, und den Wert, der gilt.
+
 | Einstellung | Standard | |
 |---|---|---|
 | `[ExpwtSettings] Enabled` | disabled | die Seitenleiste in diesem Siteaccess |
