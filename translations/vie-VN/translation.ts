@@ -2135,6 +2135,62 @@
         <source>The rule texts come from axe-core, in English.</source>
         <translation>Nội dung quy tắc lấy từ axe-core, bằng tiếng Anh.</translation>
     </message>
+    <message>
+        <source>Performance</source>
+        <translation>Hiệu năng</translation>
+    </message>
+    <message>
+        <source>Render time</source>
+        <translation>Thời gian kết xuất</translation>
+    </message>
+    <message>
+        <source>SQL statements</source>
+        <translation>Câu lệnh SQL</translation>
+    </message>
+    <message>
+        <source>Peak memory</source>
+        <translation>Bộ nhớ đỉnh</translation>
+    </message>
+    <message>
+        <source>From the cache</source>
+        <translation>Từ bộ nhớ đệm</translation>
+    </message>
+    <message>
+        <source>Generated</source>
+        <translation>Đã tạo</translation>
+    </message>
+    <message>
+        <source>This page carries no figures of its render.</source>
+        <translation>Trang này không có số liệu về lần kết xuất của nó.</translation>
+    </message>
+    <message>
+        <source>This page came from a cache: it was not rendered for this view. The figures are of the render at %time.</source>
+        <translation>Trang này đến từ bộ nhớ đệm: nó không được kết xuất cho lượt xem này. Số liệu là của lần kết xuất lúc %time.</translation>
+    </message>
+    <message>
+        <source>Only the time and memory: the kernel collects the rest with debug output on for you, or for expwt/performance from Exponential 6.0.15 on.</source>
+        <translation>Chỉ thời gian và bộ nhớ: phần còn lại được nhân thu thập khi đầu ra gỡ lỗi được bật cho bạn, hoặc cho expwt/performance từ Exponential 6.0.15.</translation>
+    </message>
+    <message>
+        <source>Content view cache</source>
+        <translation>Bộ nhớ đệm chế độ xem nội dung</translation>
+    </message>
+    <message>
+        <source>Cache-blocks</source>
+        <translation>Khối bộ nhớ đệm</translation>
+    </message>
+    <message>
+        <source>%hits of %count from the cache</source>
+        <translation>%hits trên %count từ bộ nhớ đệm</translation>
+    </message>
+    <message>
+        <source>Time per layout block</source>
+        <translation>Thời gian mỗi khối bố cục</translation>
+    </message>
+    <message>
+        <source>No layout block on this page.</source>
+        <translation>Không có khối bố cục nào trên trang này.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

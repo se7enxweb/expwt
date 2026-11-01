@@ -2135,6 +2135,62 @@
         <source>The rule texts come from axe-core, in English.</source>
         <translation>De teksten van de regels komen uit axe-core, in het Engels.</translation>
     </message>
+    <message>
+        <source>Performance</source>
+        <translation>Prestaties</translation>
+    </message>
+    <message>
+        <source>Render time</source>
+        <translation>Rendertijd</translation>
+    </message>
+    <message>
+        <source>SQL statements</source>
+        <translation>SQL-statements</translation>
+    </message>
+    <message>
+        <source>Peak memory</source>
+        <translation>Piekgeheugen</translation>
+    </message>
+    <message>
+        <source>From the cache</source>
+        <translation>Uit de cache</translation>
+    </message>
+    <message>
+        <source>Generated</source>
+        <translation>Gegenereerd</translation>
+    </message>
+    <message>
+        <source>This page carries no figures of its render.</source>
+        <translation>Deze pagina heeft geen cijfers over haar rendering.</translation>
+    </message>
+    <message>
+        <source>This page came from a cache: it was not rendered for this view. The figures are of the render at %time.</source>
+        <translation>Deze pagina kwam uit een cache: ze is niet voor deze weergave gerenderd. De cijfers zijn van de rendering om %time.</translation>
+    </message>
+    <message>
+        <source>Only the time and memory: the kernel collects the rest with debug output on for you, or for expwt/performance from Exponential 6.0.15 on.</source>
+        <translation>Alleen de tijd en het geheugen: de kernel verzamelt de rest met debuguitvoer aan voor u, of voor expwt/performance vanaf Exponential 6.0.15.</translation>
+    </message>
+    <message>
+        <source>Content view cache</source>
+        <translation>Cache van de inhoudsweergave</translation>
+    </message>
+    <message>
+        <source>Cache-blocks</source>
+        <translation>Cacheblokken</translation>
+    </message>
+    <message>
+        <source>%hits of %count from the cache</source>
+        <translation>%hits van %count uit de cache</translation>
+    </message>
+    <message>
+        <source>Time per layout block</source>
+        <translation>Tijd per layoutblok</translation>
+    </message>
+    <message>
+        <source>No layout block on this page.</source>
+        <translation>Geen layoutblok op deze pagina.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

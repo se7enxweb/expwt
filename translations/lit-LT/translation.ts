@@ -2135,6 +2135,62 @@
         <source>The rule texts come from axe-core, in English.</source>
         <translation>Taisyklių tekstai paimti iš axe-core, anglų kalba.</translation>
     </message>
+    <message>
+        <source>Performance</source>
+        <translation>Našumas</translation>
+    </message>
+    <message>
+        <source>Render time</source>
+        <translation>Atvaizdavimo laikas</translation>
+    </message>
+    <message>
+        <source>SQL statements</source>
+        <translation>SQL sakiniai</translation>
+    </message>
+    <message>
+        <source>Peak memory</source>
+        <translation>Didžiausia atmintis</translation>
+    </message>
+    <message>
+        <source>From the cache</source>
+        <translation>Iš podėlio</translation>
+    </message>
+    <message>
+        <source>Generated</source>
+        <translation>Sugeneruota</translation>
+    </message>
+    <message>
+        <source>This page carries no figures of its render.</source>
+        <translation>Šiame puslapyje nėra jo atvaizdavimo skaičių.</translation>
+    </message>
+    <message>
+        <source>This page came from a cache: it was not rendered for this view. The figures are of the render at %time.</source>
+        <translation>Šis puslapis atkeliavo iš podėlio: jis nebuvo atvaizduotas šiam peržiūrėjimui. Skaičiai yra iš atvaizdavimo %time.</translation>
+    </message>
+    <message>
+        <source>Only the time and memory: the kernel collects the rest with debug output on for you, or for expwt/performance from Exponential 6.0.15 on.</source>
+        <translation>Tik laikas ir atmintis: likusius branduolys renka, kai jums įjungta derinimo išvestis, arba expwt/performance nuo Exponential 6.0.15.</translation>
+    </message>
+    <message>
+        <source>Content view cache</source>
+        <translation>Turinio rodinio podėlis</translation>
+    </message>
+    <message>
+        <source>Cache-blocks</source>
+        <translation>Podėlio blokai</translation>
+    </message>
+    <message>
+        <source>%hits of %count from the cache</source>
+        <translation>%hits iš %count iš podėlio</translation>
+    </message>
+    <message>
+        <source>Time per layout block</source>
+        <translation>Laikas vienam maketo blokui</translation>
+    </message>
+    <message>
+        <source>No layout block on this page.</source>
+        <translation>Šiame puslapyje nėra maketo bloko.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

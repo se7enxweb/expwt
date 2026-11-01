@@ -2135,6 +2135,62 @@
         <source>The rule texts come from axe-core, in English.</source>
         <translation>Ederede iwu ndị ahụ si na axe-core, n'asụsụ Bekee.</translation>
     </message>
+    <message>
+        <source>Performance</source>
+        <translation>Arụmọrụ</translation>
+    </message>
+    <message>
+        <source>Render time</source>
+        <translation>Oge nsụgharị</translation>
+    </message>
+    <message>
+        <source>SQL statements</source>
+        <translation>Nkwupụta SQL</translation>
+    </message>
+    <message>
+        <source>Peak memory</source>
+        <translation>Ebe nchekwa kachasị</translation>
+    </message>
+    <message>
+        <source>From the cache</source>
+        <translation>Site na cache</translation>
+    </message>
+    <message>
+        <source>Generated</source>
+        <translation>E mepụtara</translation>
+    </message>
+    <message>
+        <source>This page carries no figures of its render.</source>
+        <translation>Ibe a enweghị ọnụọgụ ọ bụla gbasara nsụgharị ya.</translation>
+    </message>
+    <message>
+        <source>This page came from a cache: it was not rendered for this view. The figures are of the render at %time.</source>
+        <translation>Ibe a sitere na cache: e nsụgharịghị ya maka nlele a. Ọnụọgụ ndị a sitere na nsụgharị nke %time.</translation>
+    </message>
+    <message>
+        <source>Only the time and memory: the kernel collects the rest with debug output on for you, or for expwt/performance from Exponential 6.0.15 on.</source>
+        <translation>Naanị oge na ebe nchekwa: kernel na-anakọta ndị ọzọ mgbe mmepụta debug gbanyere maka gị, ma ọ bụ maka expwt/performance site na Exponential 6.0.15.</translation>
+    </message>
+    <message>
+        <source>Content view cache</source>
+        <translation>Cache nlele ọdịnaya</translation>
+    </message>
+    <message>
+        <source>Cache-blocks</source>
+        <translation>Mgbochi cache</translation>
+    </message>
+    <message>
+        <source>%hits of %count from the cache</source>
+        <translation>%hits n'ime %count site na cache</translation>
+    </message>
+    <message>
+        <source>Time per layout block</source>
+        <translation>Oge maka mgbochi nhazi ọ bụla</translation>
+    </message>
+    <message>
+        <source>No layout block on this page.</source>
+        <translation>Enweghị mgbochi nhazi na ibe a.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

@@ -2135,6 +2135,62 @@
         <source>The rule texts come from axe-core, in English.</source>
         <translation>Teksty pšawidłow póchadaju z axe-core, w engelšćinje.</translation>
     </message>
+    <message>
+        <source>Performance</source>
+        <translation>Wukon</translation>
+    </message>
+    <message>
+        <source>Render time</source>
+        <translation>Cas zwobraznjenja</translation>
+    </message>
+    <message>
+        <source>SQL statements</source>
+        <translation>SQL-pśikaze</translation>
+    </message>
+    <message>
+        <source>Peak memory</source>
+        <translation>Maksimalny skład</translation>
+    </message>
+    <message>
+        <source>From the cache</source>
+        <translation>Z cache</translation>
+    </message>
+    <message>
+        <source>Generated</source>
+        <translation>Wutwórjone</translation>
+    </message>
+    <message>
+        <source>This page carries no figures of its render.</source>
+        <translation>Toś ten bok njama žedne licby swójogo zwobraznjenja.</translation>
+    </message>
+    <message>
+        <source>This page came from a cache: it was not rendered for this view. The figures are of the render at %time.</source>
+        <translation>Toś ten bok jo pśišeł z cache: njejo se zwobraznił za toś ten naglěd. Licby su ze zwobraznjenja w %time.</translation>
+    </message>
+    <message>
+        <source>Only the time and memory: the kernel collects the rest with debug output on for you, or for expwt/performance from Exponential 6.0.15 on.</source>
+        <translation>Jano cas a skład: zbytk zběra jědro ze zašaltowanym wudaśim za pytanje zmólkow za was, abo za expwt/performance wót Exponential 6.0.15.</translation>
+    </message>
+    <message>
+        <source>Content view cache</source>
+        <translation>Cache naglěda wopśimjeśa</translation>
+    </message>
+    <message>
+        <source>Cache-blocks</source>
+        <translation>Cache-bloki</translation>
+    </message>
+    <message>
+        <source>%hits of %count from the cache</source>
+        <translation>%hits z %count z cache</translation>
+    </message>
+    <message>
+        <source>Time per layout block</source>
+        <translation>Cas na blok wugótowanja</translation>
+    </message>
+    <message>
+        <source>No layout block on this page.</source>
+        <translation>Na toś tom boku njejo žeden blok wugótowanja.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

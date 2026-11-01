@@ -2135,6 +2135,62 @@
         <source>The rule texts come from axe-core, in English.</source>
         <translation>قائىدە تېكىستلىرى axe-core دىن كەلگەن، ئىنگلىزچە.</translation>
     </message>
+    <message>
+        <source>Performance</source>
+        <translation>ئىقتىدار</translation>
+    </message>
+    <message>
+        <source>Render time</source>
+        <translation>كۆرسىتىش ۋاقتى</translation>
+    </message>
+    <message>
+        <source>SQL statements</source>
+        <translation>SQL جۈملىلىرى</translation>
+    </message>
+    <message>
+        <source>Peak memory</source>
+        <translation>ئەڭ يۇقىرى ئىچكى ساقلىغۇچ</translation>
+    </message>
+    <message>
+        <source>From the cache</source>
+        <translation>غەملەكتىن</translation>
+    </message>
+    <message>
+        <source>Generated</source>
+        <translation>ھاسىل قىلىندى</translation>
+    </message>
+    <message>
+        <source>This page carries no figures of its render.</source>
+        <translation>بۇ بەتتە ئۇنىڭ كۆرسىتىلىشى توغرىسىدا ھېچقانداق سان يوق.</translation>
+    </message>
+    <message>
+        <source>This page came from a cache: it was not rendered for this view. The figures are of the render at %time.</source>
+        <translation>بۇ بەت غەملەكتىن كەلدى: بۇ كۆرۈش ئۈچۈن كۆرسىتىلمىدى. سانلار %time دىكى كۆرسىتىشنىڭ.</translation>
+    </message>
+    <message>
+        <source>Only the time and memory: the kernel collects the rest with debug output on for you, or for expwt/performance from Exponential 6.0.15 on.</source>
+        <translation>پەقەت ۋاقىت ۋە ئىچكى ساقلىغۇچ: قالغىنىنى يادرو سىز ئۈچۈن خاتالىق تەكشۈرۈش چىقىرىشى ئوچۇق بولغاندا، ياكى Exponential 6.0.15 دىن باشلاپ expwt/performance ئۈچۈن توپلايدۇ.</translation>
+    </message>
+    <message>
+        <source>Content view cache</source>
+        <translation>مەزمۇن كۆرۈنۈشى غەملىكى</translation>
+    </message>
+    <message>
+        <source>Cache-blocks</source>
+        <translation>غەملەك بۆلەكلىرى</translation>
+    </message>
+    <message>
+        <source>%hits of %count from the cache</source>
+        <translation>%count دىن %hits غەملەكتىن</translation>
+    </message>
+    <message>
+        <source>Time per layout block</source>
+        <translation>ھەر بىر ئورۇنلاشتۇرۇش بۆلىكىنىڭ ۋاقتى</translation>
+    </message>
+    <message>
+        <source>No layout block on this page.</source>
+        <translation>بۇ بەتتە ئورۇنلاشتۇرۇش بۆلىكى يوق.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

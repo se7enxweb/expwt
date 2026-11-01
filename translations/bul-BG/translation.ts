@@ -2135,6 +2135,62 @@
         <source>The rule texts come from axe-core, in English.</source>
         <translation>Текстовете на правилата идват от axe-core, на английски.</translation>
     </message>
+    <message>
+        <source>Performance</source>
+        <translation>Производителност</translation>
+    </message>
+    <message>
+        <source>Render time</source>
+        <translation>Време за рендиране</translation>
+    </message>
+    <message>
+        <source>SQL statements</source>
+        <translation>SQL заявки</translation>
+    </message>
+    <message>
+        <source>Peak memory</source>
+        <translation>Пикова памет</translation>
+    </message>
+    <message>
+        <source>From the cache</source>
+        <translation>От кеша</translation>
+    </message>
+    <message>
+        <source>Generated</source>
+        <translation>Генерирана</translation>
+    </message>
+    <message>
+        <source>This page carries no figures of its render.</source>
+        <translation>Тази страница няма данни за своето рендиране.</translation>
+    </message>
+    <message>
+        <source>This page came from a cache: it was not rendered for this view. The figures are of the render at %time.</source>
+        <translation>Тази страница дойде от кеш: не е рендирана за това показване. Данните са от рендирането в %time.</translation>
+    </message>
+    <message>
+        <source>Only the time and memory: the kernel collects the rest with debug output on for you, or for expwt/performance from Exponential 6.0.15 on.</source>
+        <translation>Само времето и паметта: останалото ядрото събира при включен изход за отстраняване на грешки за вас или за expwt/performance от Exponential 6.0.15 нататък.</translation>
+    </message>
+    <message>
+        <source>Content view cache</source>
+        <translation>Кеш на изгледа на съдържанието</translation>
+    </message>
+    <message>
+        <source>Cache-blocks</source>
+        <translation>Кеш блокове</translation>
+    </message>
+    <message>
+        <source>%hits of %count from the cache</source>
+        <translation>%hits от %count от кеша</translation>
+    </message>
+    <message>
+        <source>Time per layout block</source>
+        <translation>Време за блок от оформлението</translation>
+    </message>
+    <message>
+        <source>No layout block on this page.</source>
+        <translation>На тази страница няма блок от оформлението.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

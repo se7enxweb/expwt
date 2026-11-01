@@ -2135,6 +2135,62 @@
         <source>The rule texts come from axe-core, in English.</source>
         <translation>Teks aturan berasal dari axe-core, dalam bahasa Inggris.</translation>
     </message>
+    <message>
+        <source>Performance</source>
+        <translation>Performa</translation>
+    </message>
+    <message>
+        <source>Render time</source>
+        <translation>Waktu render</translation>
+    </message>
+    <message>
+        <source>SQL statements</source>
+        <translation>Pernyataan SQL</translation>
+    </message>
+    <message>
+        <source>Peak memory</source>
+        <translation>Memori puncak</translation>
+    </message>
+    <message>
+        <source>From the cache</source>
+        <translation>Dari cache</translation>
+    </message>
+    <message>
+        <source>Generated</source>
+        <translation>Dibuat</translation>
+    </message>
+    <message>
+        <source>This page carries no figures of its render.</source>
+        <translation>Halaman ini tidak membawa angka tentang render-nya.</translation>
+    </message>
+    <message>
+        <source>This page came from a cache: it was not rendered for this view. The figures are of the render at %time.</source>
+        <translation>Halaman ini berasal dari cache: halaman ini tidak di-render untuk tampilan ini. Angkanya berasal dari render pada %time.</translation>
+    </message>
+    <message>
+        <source>Only the time and memory: the kernel collects the rest with debug output on for you, or for expwt/performance from Exponential 6.0.15 on.</source>
+        <translation>Hanya waktu dan memori: kernel mengumpulkan sisanya saat keluaran debug aktif untuk Anda, atau untuk expwt/performance mulai Exponential 6.0.15.</translation>
+    </message>
+    <message>
+        <source>Content view cache</source>
+        <translation>Cache tampilan konten</translation>
+    </message>
+    <message>
+        <source>Cache-blocks</source>
+        <translation>Blok cache</translation>
+    </message>
+    <message>
+        <source>%hits of %count from the cache</source>
+        <translation>%hits dari %count dari cache</translation>
+    </message>
+    <message>
+        <source>Time per layout block</source>
+        <translation>Waktu per blok tata letak</translation>
+    </message>
+    <message>
+        <source>No layout block on this page.</source>
+        <translation>Tidak ada blok tata letak di halaman ini.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

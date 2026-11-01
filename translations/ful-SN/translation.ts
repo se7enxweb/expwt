@@ -2135,6 +2135,62 @@
         <source>The rule texts come from axe-core, in English.</source>
         <translation>Binndi sarɗiiji ɗii iwi ko e axe-core, e Engeleere.</translation>
     </message>
+    <message>
+        <source>Performance</source>
+        <translation>Golle</translation>
+    </message>
+    <message>
+        <source>Render time</source>
+        <translation>Waktu jaytinol</translation>
+    </message>
+    <message>
+        <source>SQL statements</source>
+        <translation>Laabi SQL</translation>
+    </message>
+    <message>
+        <source>Peak memory</source>
+        <translation>Teskorde ɓurnde</translation>
+    </message>
+    <message>
+        <source>From the cache</source>
+        <translation>Iwde e cache</translation>
+    </message>
+    <message>
+        <source>Generated</source>
+        <translation>Tafaama</translation>
+    </message>
+    <message>
+        <source>This page carries no figures of its render.</source>
+        <translation>Ngoo hello alaa limle jaytinol mum.</translation>
+    </message>
+    <message>
+        <source>This page came from a cache: it was not rendered for this view. The figures are of the render at %time.</source>
+        <translation>Ngoo hello iwii ka cache: ndeke jaytinaaka ngam ndee yiyannde. Limle ɗee ko jaytinol waɗaangol %time.</translation>
+    </message>
+    <message>
+        <source>Only the time and memory: the kernel collects the rest with debug output on for you, or for expwt/performance from Exponential 6.0.15 on.</source>
+        <translation>Waktu e teskorde tan: kernel oo ina hawra heddiiɗe ɗee so debug output ina uddita ngam maa, walla ngam expwt/performance gila Exponential 6.0.15.</translation>
+    </message>
+    <message>
+        <source>Content view cache</source>
+        <translation>Cache yiyannde loowdi</translation>
+    </message>
+    <message>
+        <source>Cache-blocks</source>
+        <translation>Cache-blocks</translation>
+    </message>
+    <message>
+        <source>%hits of %count from the cache</source>
+        <translation>%hits e nder %count iwde e cache</translation>
+    </message>
+    <message>
+        <source>Time per layout block</source>
+        <translation>Waktu e kala layout block</translation>
+    </message>
+    <message>
+        <source>No layout block on this page.</source>
+        <translation>Alaa layout block e ngoo hello.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

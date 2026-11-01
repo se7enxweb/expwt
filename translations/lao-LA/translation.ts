@@ -2135,6 +2135,62 @@
         <source>The rule texts come from axe-core, in English.</source>
         <translation>ຂໍ້ຄວາມຂອງກົດມາຈາກ axe-core, ເປັນພາສາອັງກິດ.</translation>
     </message>
+    <message>
+        <source>Performance</source>
+        <translation>ປະສິດທິພາບ</translation>
+    </message>
+    <message>
+        <source>Render time</source>
+        <translation>ເວລາສະແດງຜົນ</translation>
+    </message>
+    <message>
+        <source>SQL statements</source>
+        <translation>ຄຳສັ່ງ SQL</translation>
+    </message>
+    <message>
+        <source>Peak memory</source>
+        <translation>ໜ່ວຍຄວາມຈຳສູງສຸດ</translation>
+    </message>
+    <message>
+        <source>From the cache</source>
+        <translation>ຈາກແຄຊ</translation>
+    </message>
+    <message>
+        <source>Generated</source>
+        <translation>ສ້າງແລ້ວ</translation>
+    </message>
+    <message>
+        <source>This page carries no figures of its render.</source>
+        <translation>ໜ້ານີ້ບໍ່ມີຕົວເລກການສະແດງຜົນຂອງມັນ.</translation>
+    </message>
+    <message>
+        <source>This page came from a cache: it was not rendered for this view. The figures are of the render at %time.</source>
+        <translation>ໜ້ານີ້ມາຈາກແຄຊ: ມັນບໍ່ໄດ້ຖືກສະແດງຜົນສຳລັບການເບິ່ງນີ້. ຕົວເລກແມ່ນຂອງການສະແດງຜົນເມື່ອ %time.</translation>
+    </message>
+    <message>
+        <source>Only the time and memory: the kernel collects the rest with debug output on for you, or for expwt/performance from Exponential 6.0.15 on.</source>
+        <translation>ພຽງແຕ່ເວລາ ແລະ ໜ່ວຍຄວາມຈຳ: ເຄີເນວເກັບກຳສ່ວນທີ່ເຫຼືອເມື່ອເປີດຜົນອອກດີບັກໃຫ້ທ່ານ, ຫຼື ສຳລັບ expwt/performance ຕັ້ງແຕ່ Exponential 6.0.15.</translation>
+    </message>
+    <message>
+        <source>Content view cache</source>
+        <translation>ແຄຊມຸມມອງເນື້ອຫາ</translation>
+    </message>
+    <message>
+        <source>Cache-blocks</source>
+        <translation>ບລັອກແຄຊ</translation>
+    </message>
+    <message>
+        <source>%hits of %count from the cache</source>
+        <translation>%hits ຈາກ %count ຈາກແຄຊ</translation>
+    </message>
+    <message>
+        <source>Time per layout block</source>
+        <translation>ເວລາຕໍ່ບລັອກໂຄງຮ່າງ</translation>
+    </message>
+    <message>
+        <source>No layout block on this page.</source>
+        <translation>ບໍ່ມີບລັອກໂຄງຮ່າງໃນໜ້ານີ້.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

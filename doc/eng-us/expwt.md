@@ -113,6 +113,7 @@ extensions. A dry run lists the changes first.
 | Insights | `expwt/insights` | read-only, from the kernel's own statistics, no third-party tracking: the page's views (the view counter the cronjob `updateviewcount` fills from the access log; where it is off the panel says so), the searches on this site for words of the page's title (the kernel's search log, with how often and how many results), and that the kernel records no referrers |
 | Inbox | `expwt/use` (approving also the kernel's `collaboration` policy) | the approvals of the publishing workflow that wait for you (the kernel's approve event): each page with its author and last comment, **Open the draft**, and for its approvers a comment with **Approve** or **Deny**, decided through the kernel's own `collaboration/action` view, exactly as in the administration (the workflow publishes an approved page on its next run; a denied one is a draft of its author again). Beside them the other notifications, from the kernel's own collaboration and workflow (no extra mail): **Comments and mentions** (items with a comment of someone else you have not read, "Mentions you" where the last one names you as @login), **Your pages** (your pages an approver approved or denied since you last looked, within 30 days) and **Scheduled tasks that failed** (your workflow processes that stopped with an error within 30 days, with the full editor of the page). Comments and results are shown to every user who takes part in the item (an author without the `collaboration` policy, as in the shipped Editor role, too). **Mark as read** does what opening the item in the administration does; **Open in the administration** (for users with the `collaboration` policy) opens it there. Their number together (each item once) is a badge on the closed tab and on the panel's tab ("3 new in your inbox"), counted with a few queries and kept for a minute; opening the panel, marking as read or deciding counts again at once |
 | Migrations | `expwt/use` and the kernel's `migration/read` (Exponential 6.0.15 and later); without that policy, or on a kernel without migrations, there is no Migrations tab | read-only: the state of the installation's migrations as Setup > Migrations in the administration shows it, on every page. A run that is active now (the installation lock: what it does, who started it and since when), the **failed** migrations (each with its source and description), the **pending** ones (id, source, description; the first 50, the rest counted), the migrations **recorded, but whose file is gone**, and the **last run**: its state, when it started and finished, who ran it, its caption, tag and push state (a failed run with its message). Each item has **Open in the administration** (the status, or the log of its run), where running, resuming and rolling back stay: the sidebar has no button that changes anything here. The number of pending, failed and recorded-without-file migrations is a badge on the panel's tab, counted once a minute at most |
+| Performance | `expwt/performance` (administrators and developers) | read-only: how this page was rendered, from the kernel's debug bar data of the render itself (not of the sidebar's requests): the render time, the SQL statements and their time, peak memory, the content view cache (from the cache, generated, off), the cache-blocks (how many came from the cache, the slowest ones) and the time of every layout block, a block inside a container indented. A page that came from a cache was not rendered for this view: the panel says so and names the time of the render its figures are of. See "Performance panel" |
 | Me | `expwt/use` | your account at a glance and the kernel's own pages for it (account, password, passkeys, sessions and devices, security, notifications, drafts, bookmarks), the sidebar's preferences, sign out |
 
 ### Editing
@@ -326,6 +327,28 @@ AccentColor=#1d3557
 - Help (the keyboard shortcuts, Alt+Shift+H) always says "Website sidebar of Exponential", whatever the branding.
 - The field editors in the sidebar's frame keep the administration's accent.
 
+### Performance panel
+
+For administrators and developers (`expwt/performance`), the Performance panel shows how the page in the window was
+rendered, from the figures of the kernel's debug bar:
+
+- **What it shows:** the render time, the SQL statements (how many and their time), peak memory, the content view
+  cache (from the cache, generated, off), the cache-blocks (how many came from the cache, the slowest with their
+  template and line) and the **time per layout block** in the order they rendered, each named by its block template,
+  with a meter against the slowest one; a block inside a container is indented.
+- **Where the figures come from:** the render of the page itself, taken when it ends and carried in the page on the
+  sidebar's element, only for a user with `expwt/performance`: no storage, no extra request, and not one byte for
+  anybody else. The panel's one request (`performance.load`) adds the server's time and is refused without the policy.
+- **Debug output not needed** (Exponential 6.0.15 and later): the kernel collects the figures without any debug output
+  for the users of `site.ini [DebugSettings] CollectStatsPolicyList[]`, and expwt puts `expwt/performance` there. On an
+  older kernel, or with the setting emptied, the kernel collects them only while debug output is on for the user
+  (`DebugByIP`, `DebugByUser`); otherwise the panel has the render time and memory and says why. The time per layout
+  block needs the kernel's template tree (`debugbar.ini [DebugBarSettings] RenderTree`, on unless switched off).
+- **Pages from a cache:** a page from the role-aware page cache, a proxy or the browser's history was not rendered for
+  this view. The panel compares the render's time with the page's load (on the server's clock, whatever the device's
+  says) and then says "This page came from a cache" with the time of the render its figures are of. Velocity and
+  Apache with PHP-FPM give the same figures.
+
 ## Fields and their editors
 
 The Page panel edits every field with the editor the administration has for its datatype; it never shows a field in
@@ -407,6 +430,7 @@ translation whose fields still hold the text of the main language.
 | `expwt/admin` | Setup > Website sidebar panels (with the kernel's `settings/view`, and `settings/edit` to change them); the administration's panels of later phases |
 | `expwt/layouts`, `expwt/templates`, `expwt/shop` | the panels of later phases (defined now) |
 | `expwt/insights` | the Insights panel: the page's views and the site's searches for words of its title, from the kernel's own statistics |
+| `expwt/performance` | the Performance panel: how the page was rendered (time, SQL, caches, layout blocks); for administrators and developers |
 
 The expwt policies decide what the sidebar offers; every action also checks the kernel's policy of what it changes
 (`content/edit` of the object, `content/create` below the parent, `content/hide`, `content/remove` ...) through the

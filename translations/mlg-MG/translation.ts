@@ -2135,6 +2135,62 @@
         <source>The rule texts come from axe-core, in English.</source>
         <translation>Avy amin'ny axe-core ny lahatsoratry ny fitsipika, amin'ny teny anglisy.</translation>
     </message>
+    <message>
+        <source>Performance</source>
+        <translation>Fahombiazana</translation>
+    </message>
+    <message>
+        <source>Render time</source>
+        <translation>Fotoana fanehoana</translation>
+    </message>
+    <message>
+        <source>SQL statements</source>
+        <translation>Baiko SQL</translation>
+    </message>
+    <message>
+        <source>Peak memory</source>
+        <translation>Fitadidiana ambony indrindra</translation>
+    </message>
+    <message>
+        <source>From the cache</source>
+        <translation>Avy amin'ny cache</translation>
+    </message>
+    <message>
+        <source>Generated</source>
+        <translation>Noforonina</translation>
+    </message>
+    <message>
+        <source>This page carries no figures of its render.</source>
+        <translation>Tsy misy isa momba ny fanehoana azy ity pejy ity.</translation>
+    </message>
+    <message>
+        <source>This page came from a cache: it was not rendered for this view. The figures are of the render at %time.</source>
+        <translation>Avy amin'ny cache ity pejy ity: tsy naseho ho an'ity fijerena ity. Ny isa dia avy amin'ny fanehoana tamin'ny %time.</translation>
+    </message>
+    <message>
+        <source>Only the time and memory: the kernel collects the rest with debug output on for you, or for expwt/performance from Exponential 6.0.15 on.</source>
+        <translation>Ny fotoana sy ny fitadidiana ihany: ny kernel no manangona ny ambiny rehefa velona ho anao ny vokatra debug, na ho an'ny expwt/performance nanomboka tamin'ny Exponential 6.0.15.</translation>
+    </message>
+    <message>
+        <source>Content view cache</source>
+        <translation>Cache fijerena votoaty</translation>
+    </message>
+    <message>
+        <source>Cache-blocks</source>
+        <translation>Sakana cache</translation>
+    </message>
+    <message>
+        <source>%hits of %count from the cache</source>
+        <translation>%hits amin'ny %count avy amin'ny cache</translation>
+    </message>
+    <message>
+        <source>Time per layout block</source>
+        <translation>Fotoana isaky ny sakana layout</translation>
+    </message>
+    <message>
+        <source>No layout block on this page.</source>
+        <translation>Tsy misy sakana layout eto amin'ity pejy ity.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

@@ -2135,6 +2135,62 @@
         <source>The rule texts come from axe-core, in English.</source>
         <translation>Τα κείμενα των κανόνων προέρχονται από το axe-core, στα αγγλικά.</translation>
     </message>
+    <message>
+        <source>Performance</source>
+        <translation>Απόδοση</translation>
+    </message>
+    <message>
+        <source>Render time</source>
+        <translation>Χρόνος απόδοσης</translation>
+    </message>
+    <message>
+        <source>SQL statements</source>
+        <translation>Εντολές SQL</translation>
+    </message>
+    <message>
+        <source>Peak memory</source>
+        <translation>Μέγιστη μνήμη</translation>
+    </message>
+    <message>
+        <source>From the cache</source>
+        <translation>Από την κρυφή μνήμη</translation>
+    </message>
+    <message>
+        <source>Generated</source>
+        <translation>Δημιουργήθηκε</translation>
+    </message>
+    <message>
+        <source>This page carries no figures of its render.</source>
+        <translation>Αυτή η σελίδα δεν φέρει στοιχεία για την απόδοσή της.</translation>
+    </message>
+    <message>
+        <source>This page came from a cache: it was not rendered for this view. The figures are of the render at %time.</source>
+        <translation>Αυτή η σελίδα ήρθε από κρυφή μνήμη: δεν αποδόθηκε για αυτή την προβολή. Τα στοιχεία είναι της απόδοσης στις %time.</translation>
+    </message>
+    <message>
+        <source>Only the time and memory: the kernel collects the rest with debug output on for you, or for expwt/performance from Exponential 6.0.15 on.</source>
+        <translation>Μόνο ο χρόνος και η μνήμη: τα υπόλοιπα ο πυρήνας τα συλλέγει με την έξοδο αποσφαλμάτωσης ενεργή για εσάς, ή για το expwt/performance από το Exponential 6.0.15 και μετά.</translation>
+    </message>
+    <message>
+        <source>Content view cache</source>
+        <translation>Κρυφή μνήμη προβολής περιεχομένου</translation>
+    </message>
+    <message>
+        <source>Cache-blocks</source>
+        <translation>Μπλοκ κρυφής μνήμης</translation>
+    </message>
+    <message>
+        <source>%hits of %count from the cache</source>
+        <translation>%hits από %count από την κρυφή μνήμη</translation>
+    </message>
+    <message>
+        <source>Time per layout block</source>
+        <translation>Χρόνος ανά μπλοκ διάταξης</translation>
+    </message>
+    <message>
+        <source>No layout block on this page.</source>
+        <translation>Κανένα μπλοκ διάταξης σε αυτή τη σελίδα.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

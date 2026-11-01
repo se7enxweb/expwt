@@ -2135,6 +2135,62 @@
         <source>The rule texts come from axe-core, in English.</source>
         <translation>规则文本来自 axe-core，为英文。</translation>
     </message>
+    <message>
+        <source>Performance</source>
+        <translation>性能</translation>
+    </message>
+    <message>
+        <source>Render time</source>
+        <translation>渲染时间</translation>
+    </message>
+    <message>
+        <source>SQL statements</source>
+        <translation>SQL 语句</translation>
+    </message>
+    <message>
+        <source>Peak memory</source>
+        <translation>峰值内存</translation>
+    </message>
+    <message>
+        <source>From the cache</source>
+        <translation>来自缓存</translation>
+    </message>
+    <message>
+        <source>Generated</source>
+        <translation>已生成</translation>
+    </message>
+    <message>
+        <source>This page carries no figures of its render.</source>
+        <translation>此页面没有渲染数据。</translation>
+    </message>
+    <message>
+        <source>This page came from a cache: it was not rendered for this view. The figures are of the render at %time.</source>
+        <translation>此页面来自缓存：本次访问未进行渲染。数据来自 %time 的渲染。</translation>
+    </message>
+    <message>
+        <source>Only the time and memory: the kernel collects the rest with debug output on for you, or for expwt/performance from Exponential 6.0.15 on.</source>
+        <translation>仅有时间和内存：其余数据由内核在为您开启调试输出时收集，或从 Exponential 6.0.15 起为 expwt/performance 收集。</translation>
+    </message>
+    <message>
+        <source>Content view cache</source>
+        <translation>内容视图缓存</translation>
+    </message>
+    <message>
+        <source>Cache-blocks</source>
+        <translation>缓存块</translation>
+    </message>
+    <message>
+        <source>%hits of %count from the cache</source>
+        <translation>%count 个中 %hits 个来自缓存</translation>
+    </message>
+    <message>
+        <source>Time per layout block</source>
+        <translation>每个布局区块的时间</translation>
+    </message>
+    <message>
+        <source>No layout block on this page.</source>
+        <translation>此页面没有布局区块。</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

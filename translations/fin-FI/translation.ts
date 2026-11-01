@@ -2135,6 +2135,62 @@
         <source>The rule texts come from axe-core, in English.</source>
         <translation>Sääntöjen tekstit tulevat axe-coresta, englanniksi.</translation>
     </message>
+    <message>
+        <source>Performance</source>
+        <translation>Suorituskyky</translation>
+    </message>
+    <message>
+        <source>Render time</source>
+        <translation>Renderöintiaika</translation>
+    </message>
+    <message>
+        <source>SQL statements</source>
+        <translation>SQL-lauseet</translation>
+    </message>
+    <message>
+        <source>Peak memory</source>
+        <translation>Muistin huippu</translation>
+    </message>
+    <message>
+        <source>From the cache</source>
+        <translation>Välimuistista</translation>
+    </message>
+    <message>
+        <source>Generated</source>
+        <translation>Luotu</translation>
+    </message>
+    <message>
+        <source>This page carries no figures of its render.</source>
+        <translation>Tällä sivulla ei ole lukuja sen renderöinnistä.</translation>
+    </message>
+    <message>
+        <source>This page came from a cache: it was not rendered for this view. The figures are of the render at %time.</source>
+        <translation>Tämä sivu tuli välimuistista: sitä ei renderöity tätä näyttöä varten. Luvut ovat renderöinnistä kello %time.</translation>
+    </message>
+    <message>
+        <source>Only the time and memory: the kernel collects the rest with debug output on for you, or for expwt/performance from Exponential 6.0.15 on.</source>
+        <translation>Vain aika ja muisti: loput ydin kerää, kun virheenjäljitystuloste on päällä sinulle, tai expwt/performance-oikeudelle alkaen Exponential 6.0.15.</translation>
+    </message>
+    <message>
+        <source>Content view cache</source>
+        <translation>Sisältönäkymän välimuisti</translation>
+    </message>
+    <message>
+        <source>Cache-blocks</source>
+        <translation>Välimuistilohkot</translation>
+    </message>
+    <message>
+        <source>%hits of %count from the cache</source>
+        <translation>%hits / %count välimuistista</translation>
+    </message>
+    <message>
+        <source>Time per layout block</source>
+        <translation>Aika asettelulohkoa kohden</translation>
+    </message>
+    <message>
+        <source>No layout block on this page.</source>
+        <translation>Tällä sivulla ei ole asettelulohkoja.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

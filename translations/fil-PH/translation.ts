@@ -2135,6 +2135,62 @@
         <source>The rule texts come from axe-core, in English.</source>
         <translation>Galing sa axe-core ang mga teksto ng panuntunan, sa Ingles.</translation>
     </message>
+    <message>
+        <source>Performance</source>
+        <translation>Performance</translation>
+    </message>
+    <message>
+        <source>Render time</source>
+        <translation>Oras ng pag-render</translation>
+    </message>
+    <message>
+        <source>SQL statements</source>
+        <translation>Mga SQL statement</translation>
+    </message>
+    <message>
+        <source>Peak memory</source>
+        <translation>Pinakamataas na memorya</translation>
+    </message>
+    <message>
+        <source>From the cache</source>
+        <translation>Mula sa cache</translation>
+    </message>
+    <message>
+        <source>Generated</source>
+        <translation>Ginawa</translation>
+    </message>
+    <message>
+        <source>This page carries no figures of its render.</source>
+        <translation>Walang numero ang pahinang ito tungkol sa pag-render nito.</translation>
+    </message>
+    <message>
+        <source>This page came from a cache: it was not rendered for this view. The figures are of the render at %time.</source>
+        <translation>Galing ang pahinang ito sa isang cache: hindi ito na-render para sa pagtingin na ito. Ang mga numero ay mula sa pag-render noong %time.</translation>
+    </message>
+    <message>
+        <source>Only the time and memory: the kernel collects the rest with debug output on for you, or for expwt/performance from Exponential 6.0.15 on.</source>
+        <translation>Ang oras at memorya lamang: kinokolekta ng kernel ang iba kapag naka-on ang debug output para sa iyo, o para sa expwt/performance mula Exponential 6.0.15.</translation>
+    </message>
+    <message>
+        <source>Content view cache</source>
+        <translation>Cache ng content view</translation>
+    </message>
+    <message>
+        <source>Cache-blocks</source>
+        <translation>Mga cache-block</translation>
+    </message>
+    <message>
+        <source>%hits of %count from the cache</source>
+        <translation>%hits sa %count mula sa cache</translation>
+    </message>
+    <message>
+        <source>Time per layout block</source>
+        <translation>Oras bawat layout block</translation>
+    </message>
+    <message>
+        <source>No layout block on this page.</source>
+        <translation>Walang layout block sa pahinang ito.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

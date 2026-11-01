@@ -2135,6 +2135,62 @@
         <source>The rule texts come from axe-core, in English.</source>
         <translation>Arauen testuak axe-core-tik datoz, ingelesez.</translation>
     </message>
+    <message>
+        <source>Performance</source>
+        <translation>Errendimendua</translation>
+    </message>
+    <message>
+        <source>Render time</source>
+        <translation>Errendatze-denbora</translation>
+    </message>
+    <message>
+        <source>SQL statements</source>
+        <translation>SQL sententziak</translation>
+    </message>
+    <message>
+        <source>Peak memory</source>
+        <translation>Memoria gorena</translation>
+    </message>
+    <message>
+        <source>From the cache</source>
+        <translation>Cachetik</translation>
+    </message>
+    <message>
+        <source>Generated</source>
+        <translation>Sortua</translation>
+    </message>
+    <message>
+        <source>This page carries no figures of its render.</source>
+        <translation>Orri honek ez du bere errendatzearen daturik.</translation>
+    </message>
+    <message>
+        <source>This page came from a cache: it was not rendered for this view. The figures are of the render at %time.</source>
+        <translation>Orri hau cache batetik etorri da: ez da ikuspegi honetarako errendatu. Datuak %time orduko errendatzearenak dira.</translation>
+    </message>
+    <message>
+        <source>Only the time and memory: the kernel collects the rest with debug output on for you, or for expwt/performance from Exponential 6.0.15 on.</source>
+        <translation>Denbora eta memoria soilik: gainerakoa nukleoak biltzen du arazketa-irteera zuretzat aktibatuta dagoenean, edo expwt/performance-rentzat Exponential 6.0.15-etik aurrera.</translation>
+    </message>
+    <message>
+        <source>Content view cache</source>
+        <translation>Edukiaren ikuspegiaren cachea</translation>
+    </message>
+    <message>
+        <source>Cache-blocks</source>
+        <translation>Cache-blokeak</translation>
+    </message>
+    <message>
+        <source>%hits of %count from the cache</source>
+        <translation>%count-etik %hits cachetik</translation>
+    </message>
+    <message>
+        <source>Time per layout block</source>
+        <translation>Denbora diseinu-bloke bakoitzeko</translation>
+    </message>
+    <message>
+        <source>No layout block on this page.</source>
+        <translation>Ez dago diseinu-blokerik orri honetan.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

@@ -2135,6 +2135,62 @@
         <source>The rule texts come from axe-core, in English.</source>
         <translation>ጽሑፋት ሕግታት ካብ axe-core እዮም፣ ብእንግሊዝኛ።</translation>
     </message>
+    <message>
+        <source>Performance</source>
+        <translation>ኣፈጻጽማ</translation>
+    </message>
+    <message>
+        <source>Render time</source>
+        <translation>ግዜ ምርኣይ</translation>
+    </message>
+    <message>
+        <source>SQL statements</source>
+        <translation>ሓረጋት SQL</translation>
+    </message>
+    <message>
+        <source>Peak memory</source>
+        <translation>ዝለዓለ ዝኽሪ</translation>
+    </message>
+    <message>
+        <source>From the cache</source>
+        <translation>ካብ መኽዘን</translation>
+    </message>
+    <message>
+        <source>Generated</source>
+        <translation>ዝተፈጥረ</translation>
+    </message>
+    <message>
+        <source>This page carries no figures of its render.</source>
+        <translation>እዚ ገጽ ናይ ኣሰራርሓኡ ዝኾነ ኣሃዝ የብሉን።</translation>
+    </message>
+    <message>
+        <source>This page came from a cache: it was not rendered for this view. The figures are of the render at %time.</source>
+        <translation>እዚ ገጽ ካብ መኽዘን እዩ መጺኡ፦ ንዚ ምርኣይ ኣይተሰርሐን። እቶም ኣሃዛት ናይቲ ኣብ %time ዝተሰርሐ እዮም።</translation>
+    </message>
+    <message>
+        <source>Only the time and memory: the kernel collects the rest with debug output on for you, or for expwt/performance from Exponential 6.0.15 on.</source>
+        <translation>ግዜን ዝኽርን ጥራይ፦ እቲ ዝተረፈ ከርነል ዝእክቦ ውጽኢት መእረሚ ንዓኻ ክውላዕ ከሎ፣ ወይ ንexpwt/performance ካብ Exponential 6.0.15 ጀሚሩ እዩ።</translation>
+    </message>
+    <message>
+        <source>Content view cache</source>
+        <translation>መኽዘን ትሕዝቶ ምርኣይ</translation>
+    </message>
+    <message>
+        <source>Cache-blocks</source>
+        <translation>ብሎካት መኽዘን</translation>
+    </message>
+    <message>
+        <source>%hits of %count from the cache</source>
+        <translation>ካብ %count %hits ካብ መኽዘን</translation>
+    </message>
+    <message>
+        <source>Time per layout block</source>
+        <translation>ግዜ ንነፍሲ ወከፍ ብሎክ ኣቀማምጣ</translation>
+    </message>
+    <message>
+        <source>No layout block on this page.</source>
+        <translation>ኣብዚ ገጽ ብሎክ ኣቀማምጣ የለን።</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

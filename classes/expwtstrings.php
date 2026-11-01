@@ -531,6 +531,20 @@ class expwtStrings
         'The accessibility check could not run.',
         'An automatic check finds only some problems: also try the page with the keyboard alone and with a screen reader.',
         'The rule texts come from axe-core, in English.',
+        'Performance',
+        'Render time',
+        'SQL statements',
+        'Peak memory',
+        'From the cache',
+        'Generated',
+        'This page carries no figures of its render.',
+        'This page came from a cache: it was not rendered for this view. The figures are of the render at %time.',
+        'Only the time and memory: the kernel collects the rest with debug output on for you, or for expwt/performance from Exponential 6.0.15 on.',
+        'Content view cache',
+        'Cache-blocks',
+        '%hits of %count from the cache',
+        'Time per layout block',
+        'No layout block on this page.',
     );
     /* sources:end */
 

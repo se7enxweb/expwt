@@ -2135,6 +2135,62 @@
         <source>The rule texts come from axe-core, in English.</source>
         <translation>Tha teacsaichean nan riaghailtean a' tighinn à axe-core, sa Bheurla.</translation>
     </message>
+    <message>
+        <source>Performance</source>
+        <translation>Coileanadh</translation>
+    </message>
+    <message>
+        <source>Render time</source>
+        <translation>Ùine reandaraidh</translation>
+    </message>
+    <message>
+        <source>SQL statements</source>
+        <translation>Aithrisean SQL</translation>
+    </message>
+    <message>
+        <source>Peak memory</source>
+        <translation>Cuimhne as àirde</translation>
+    </message>
+    <message>
+        <source>From the cache</source>
+        <translation>On tasgadan</translation>
+    </message>
+    <message>
+        <source>Generated</source>
+        <translation>Air a ghintinn</translation>
+    </message>
+    <message>
+        <source>This page carries no figures of its render.</source>
+        <translation>Chan eil àireamhan mu a reandaradh air an duilleag seo.</translation>
+    </message>
+    <message>
+        <source>This page came from a cache: it was not rendered for this view. The figures are of the render at %time.</source>
+        <translation>Thàinig an duilleag seo à tasgadan: cha deach a reandaradh airson an t-seallaidh seo. Tha na h-àireamhan on reandaradh aig %time.</translation>
+    </message>
+    <message>
+        <source>Only the time and memory: the kernel collects the rest with debug output on for you, or for expwt/performance from Exponential 6.0.15 on.</source>
+        <translation>An ùine is a' chuimhne a-mhàin: cruinnichidh an kernel an còrr le às-chur dì-bhugachaidh air dhut, no airson expwt/performance o Exponential 6.0.15 air adhart.</translation>
+    </message>
+    <message>
+        <source>Content view cache</source>
+        <translation>Tasgadan sealladh susbainte</translation>
+    </message>
+    <message>
+        <source>Cache-blocks</source>
+        <translation>Blocaichean tasgadain</translation>
+    </message>
+    <message>
+        <source>%hits of %count from the cache</source>
+        <translation>%hits à %count on tasgadan</translation>
+    </message>
+    <message>
+        <source>Time per layout block</source>
+        <translation>Ùine airson gach bloca co-dhealbhachd</translation>
+    </message>
+    <message>
+        <source>No layout block on this page.</source>
+        <translation>Chan eil bloca co-dhealbhachd air an duilleag seo.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

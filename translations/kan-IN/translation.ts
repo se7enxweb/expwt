@@ -2135,6 +2135,62 @@
         <source>The rule texts come from axe-core, in English.</source>
         <translation>ನಿಯಮಗಳ ಪಠ್ಯಗಳು axe-core ನಿಂದ ಬರುತ್ತವೆ, ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ.</translation>
     </message>
+    <message>
+        <source>Performance</source>
+        <translation>ಕಾರ್ಯಕ್ಷಮತೆ</translation>
+    </message>
+    <message>
+        <source>Render time</source>
+        <translation>ರೆಂಡರ್ ಸಮಯ</translation>
+    </message>
+    <message>
+        <source>SQL statements</source>
+        <translation>SQL ಹೇಳಿಕೆಗಳು</translation>
+    </message>
+    <message>
+        <source>Peak memory</source>
+        <translation>ಗರಿಷ್ಠ ಮೆಮೊರಿ</translation>
+    </message>
+    <message>
+        <source>From the cache</source>
+        <translation>ಕ್ಯಾಶ್‌ನಿಂದ</translation>
+    </message>
+    <message>
+        <source>Generated</source>
+        <translation>ರಚಿಸಲಾಗಿದೆ</translation>
+    </message>
+    <message>
+        <source>This page carries no figures of its render.</source>
+        <translation>ಈ ಪುಟದಲ್ಲಿ ಅದರ ರೆಂಡರ್‌ನ ಯಾವುದೇ ಅಂಕಿಅಂಶಗಳಿಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>This page came from a cache: it was not rendered for this view. The figures are of the render at %time.</source>
+        <translation>ಈ ಪುಟ ಕ್ಯಾಶ್‌ನಿಂದ ಬಂದಿದೆ: ಈ ವೀಕ್ಷಣೆಗಾಗಿ ಇದನ್ನು ರೆಂಡರ್ ಮಾಡಲಾಗಿಲ್ಲ. ಅಂಕಿಅಂಶಗಳು %time ರ ರೆಂಡರ್‌ನವು.</translation>
+    </message>
+    <message>
+        <source>Only the time and memory: the kernel collects the rest with debug output on for you, or for expwt/performance from Exponential 6.0.15 on.</source>
+        <translation>ಸಮಯ ಮತ್ತು ಮೆಮೊರಿ ಮಾತ್ರ: ಉಳಿದವನ್ನು ಕರ್ನಲ್ ನಿಮಗಾಗಿ ಡೀಬಗ್ ಔಟ್‌ಪುಟ್ ಆನ್ ಇದ್ದಾಗ, ಅಥವಾ Exponential 6.0.15 ರಿಂದ expwt/performance ಗಾಗಿ ಸಂಗ್ರಹಿಸುತ್ತದೆ.</translation>
+    </message>
+    <message>
+        <source>Content view cache</source>
+        <translation>ವಿಷಯ ವೀಕ್ಷಣೆ ಕ್ಯಾಶ್</translation>
+    </message>
+    <message>
+        <source>Cache-blocks</source>
+        <translation>ಕ್ಯಾಶ್ ಬ್ಲಾಕ್‌ಗಳು</translation>
+    </message>
+    <message>
+        <source>%hits of %count from the cache</source>
+        <translation>%count ರಲ್ಲಿ %hits ಕ್ಯಾಶ್‌ನಿಂದ</translation>
+    </message>
+    <message>
+        <source>Time per layout block</source>
+        <translation>ಪ್ರತಿ ಲೇಔಟ್ ಬ್ಲಾಕ್‌ಗೆ ಸಮಯ</translation>
+    </message>
+    <message>
+        <source>No layout block on this page.</source>
+        <translation>ಈ ಪುಟದಲ್ಲಿ ಯಾವುದೇ ಲೇಔಟ್ ಬ್ಲಾಕ್ ಇಲ್ಲ.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

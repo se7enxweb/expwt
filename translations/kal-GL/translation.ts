@@ -2135,6 +2135,62 @@
         <source>The rule texts come from axe-core, in English.</source>
         <translation>Maleruagassat allagaat axe-core-mit pipput, tuluttut.</translation>
     </message>
+    <message>
+        <source>Performance</source>
+        <translation>Suliamik ingerlatsineq</translation>
+    </message>
+    <message>
+        <source>Render time</source>
+        <translation>Saqqummersitsinermi piffissaq</translation>
+    </message>
+    <message>
+        <source>SQL statements</source>
+        <translation>SQL-peqqussutit</translation>
+    </message>
+    <message>
+        <source>Peak memory</source>
+        <translation>Puiginngitsuutip annerpaaffia</translation>
+    </message>
+    <message>
+        <source>From the cache</source>
+        <translation>Cache-mit</translation>
+    </message>
+    <message>
+        <source>Generated</source>
+        <translation>Pilersinneqarpoq</translation>
+    </message>
+    <message>
+        <source>This page carries no figures of its render.</source>
+        <translation>Quppernermi uani saqqummersitsinermut kisitsisaqanngilaq.</translation>
+    </message>
+    <message>
+        <source>This page came from a cache: it was not rendered for this view. The figures are of the render at %time.</source>
+        <translation>Qupperneq una cache-mit pivoq: takunninnermut uunga saqqummersinneqanngilaq. Kisitsisit saqqummersitsinermit %time-mi pisumit pipput.</translation>
+    </message>
+    <message>
+        <source>Only the time and memory: the kernel collects the rest with debug output on for you, or for expwt/performance from Exponential 6.0.15 on.</source>
+        <translation>Piffissaq puiginngitsuullu kisimik: sinnerinik kernel katersisarpoq debug-imik saqqummersitsineq illit atugassannut ikkussaappat, imaluunniit expwt/performance-mut Exponential 6.0.15-imiit.</translation>
+    </message>
+    <message>
+        <source>Content view cache</source>
+        <translation>Imarisamik takutitsinermi cache</translation>
+    </message>
+    <message>
+        <source>Cache-blocks</source>
+        <translation>Cache-blokit</translation>
+    </message>
+    <message>
+        <source>%hits of %count from the cache</source>
+        <translation>%count-niit %hits cache-mit</translation>
+    </message>
+    <message>
+        <source>Time per layout block</source>
+        <translation>Piffissaq layout-blokimut ataatsimut</translation>
+    </message>
+    <message>
+        <source>No layout block on this page.</source>
+        <translation>Quppernermi uani layout-blokeqanngilaq.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

@@ -2135,6 +2135,62 @@
         <source>The rule texts come from axe-core, in English.</source>
         <translation>די טעקסטן פֿון די כּללים קומען פֿון axe-core, אויף ענגליש.</translation>
     </message>
+    <message>
+        <source>Performance</source>
+        <translation>פּערפֿאָרמאַנס</translation>
+    </message>
+    <message>
+        <source>Render time</source>
+        <translation>רענדער־צײַט</translation>
+    </message>
+    <message>
+        <source>SQL statements</source>
+        <translation>SQL באַפֿעלן</translation>
+    </message>
+    <message>
+        <source>Peak memory</source>
+        <translation>שפּיץ־זכּרון</translation>
+    </message>
+    <message>
+        <source>From the cache</source>
+        <translation>פֿון דעם קעש</translation>
+    </message>
+    <message>
+        <source>Generated</source>
+        <translation>געשאַפֿן</translation>
+    </message>
+    <message>
+        <source>This page carries no figures of its render.</source>
+        <translation>די בלאַט האָט ניט קיין ציפֿערן פֿון איר רענדערן.</translation>
+    </message>
+    <message>
+        <source>This page came from a cache: it was not rendered for this view. The figures are of the render at %time.</source>
+        <translation>די בלאַט איז געקומען פֿון אַ קעש: זי איז ניט גערענדערט געוואָרן פֿאַר דעם באַקוק. די ציפֿערן זײַנען פֿון דעם רענדערן אום %time.</translation>
+    </message>
+    <message>
+        <source>Only the time and memory: the kernel collects the rest with debug output on for you, or for expwt/performance from Exponential 6.0.15 on.</source>
+        <translation>נאָר די צײַט און דער זכּרון: דעם רעשט זאַמלט דער קערן ווען דער דיבאַג־אַרויסגאַנג איז אָנגעצונדן פֿאַר דיר, אָדער פֿאַר expwt/performance פֿון Exponential 6.0.15 אָן.</translation>
+    </message>
+    <message>
+        <source>Content view cache</source>
+        <translation>קעש פֿון אינהאַלט־אָנבליק</translation>
+    </message>
+    <message>
+        <source>Cache-blocks</source>
+        <translation>קעש־בלאָקן</translation>
+    </message>
+    <message>
+        <source>%hits of %count from the cache</source>
+        <translation>%hits פֿון %count פֿון דעם קעש</translation>
+    </message>
+    <message>
+        <source>Time per layout block</source>
+        <translation>צײַט פּער אויסלייג־בלאָק</translation>
+    </message>
+    <message>
+        <source>No layout block on this page.</source>
+        <translation>קיין אויסלייג־בלאָק אויף דער בלאַט.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

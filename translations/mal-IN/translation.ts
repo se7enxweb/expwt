@@ -2135,6 +2135,62 @@
         <source>The rule texts come from axe-core, in English.</source>
         <translation>നിയമങ്ങളുടെ വാചകങ്ങൾ axe-core-ൽ നിന്നാണ്, ഇംഗ്ലീഷിൽ.</translation>
     </message>
+    <message>
+        <source>Performance</source>
+        <translation>പ്രകടനം</translation>
+    </message>
+    <message>
+        <source>Render time</source>
+        <translation>റെൻഡർ സമയം</translation>
+    </message>
+    <message>
+        <source>SQL statements</source>
+        <translation>SQL സ്റ്റേറ്റ്മെന്റുകൾ</translation>
+    </message>
+    <message>
+        <source>Peak memory</source>
+        <translation>പരമാവധി മെമ്മറി</translation>
+    </message>
+    <message>
+        <source>From the cache</source>
+        <translation>കാഷെയിൽ നിന്ന്</translation>
+    </message>
+    <message>
+        <source>Generated</source>
+        <translation>സൃഷ്ടിച്ചത്</translation>
+    </message>
+    <message>
+        <source>This page carries no figures of its render.</source>
+        <translation>ഈ പേജിൽ അതിന്റെ റെൻഡറിന്റെ കണക്കുകളൊന്നുമില്ല.</translation>
+    </message>
+    <message>
+        <source>This page came from a cache: it was not rendered for this view. The figures are of the render at %time.</source>
+        <translation>ഈ പേജ് ഒരു കാഷെയിൽ നിന്നാണ് വന്നത്: ഈ കാഴ്ചയ്ക്കായി ഇത് റെൻഡർ ചെയ്തിട്ടില്ല. കണക്കുകൾ %time ലെ റെൻഡറിന്റേതാണ്.</translation>
+    </message>
+    <message>
+        <source>Only the time and memory: the kernel collects the rest with debug output on for you, or for expwt/performance from Exponential 6.0.15 on.</source>
+        <translation>സമയവും മെമ്മറിയും മാത്രം: ബാക്കി കേർണൽ ശേഖരിക്കുന്നത് നിങ്ങൾക്ക് ഡീബഗ് ഔട്ട്പുട്ട് ഓണായിരിക്കുമ്പോഴോ, Exponential 6.0.15 മുതൽ expwt/performance നോ ആണ്.</translation>
+    </message>
+    <message>
+        <source>Content view cache</source>
+        <translation>ഉള്ളടക്ക കാഴ്ച കാഷെ</translation>
+    </message>
+    <message>
+        <source>Cache-blocks</source>
+        <translation>കാഷെ ബ്ലോക്കുകൾ</translation>
+    </message>
+    <message>
+        <source>%hits of %count from the cache</source>
+        <translation>%count ൽ %hits കാഷെയിൽ നിന്ന്</translation>
+    </message>
+    <message>
+        <source>Time per layout block</source>
+        <translation>ഓരോ ലേഔട്ട് ബ്ലോക്കിനുമുള്ള സമയം</translation>
+    </message>
+    <message>
+        <source>No layout block on this page.</source>
+        <translation>ഈ പേജിൽ ലേഔട്ട് ബ്ലോക്കില്ല.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

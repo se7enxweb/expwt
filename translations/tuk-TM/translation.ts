@@ -2135,6 +2135,62 @@
         <source>The rule texts come from axe-core, in English.</source>
         <translation>Düzgünleriň tekstleri axe-core-dan, iňlis dilinde.</translation>
     </message>
+    <message>
+        <source>Performance</source>
+        <translation>Öndürijilik</translation>
+    </message>
+    <message>
+        <source>Render time</source>
+        <translation>Render wagty</translation>
+    </message>
+    <message>
+        <source>SQL statements</source>
+        <translation>SQL buýruklary</translation>
+    </message>
+    <message>
+        <source>Peak memory</source>
+        <translation>Iň ýokary ýat</translation>
+    </message>
+    <message>
+        <source>From the cache</source>
+        <translation>Keşden</translation>
+    </message>
+    <message>
+        <source>Generated</source>
+        <translation>Döredildi</translation>
+    </message>
+    <message>
+        <source>This page carries no figures of its render.</source>
+        <translation>Bu sahypada onuň renderiniň hiç hili sany ýok.</translation>
+    </message>
+    <message>
+        <source>This page came from a cache: it was not rendered for this view. The figures are of the render at %time.</source>
+        <translation>Bu sahypa keşden geldi: ol bu görmek üçin render edilmedi. Sanlar %time wagtyndaky rendere degişli.</translation>
+    </message>
+    <message>
+        <source>Only the time and memory: the kernel collects the rest with debug output on for you, or for expwt/performance from Exponential 6.0.15 on.</source>
+        <translation>Diňe wagt we ýat: galanyny ýadro siziň üçin düzediş çykyşy açyk bolanda ýa-da Exponential 6.0.15-den başlap expwt/performance üçin ýygnaýar.</translation>
+    </message>
+    <message>
+        <source>Content view cache</source>
+        <translation>Mazmun görnüşiniň keşi</translation>
+    </message>
+    <message>
+        <source>Cache-blocks</source>
+        <translation>Keş bloklary</translation>
+    </message>
+    <message>
+        <source>%hits of %count from the cache</source>
+        <translation>%count içinden %hits keşden</translation>
+    </message>
+    <message>
+        <source>Time per layout block</source>
+        <translation>Her ýerleşiş bloky üçin wagt</translation>
+    </message>
+    <message>
+        <source>No layout block on this page.</source>
+        <translation>Bu sahypada ýerleşiş bloky ýok.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

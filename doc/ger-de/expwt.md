@@ -121,6 +121,7 @@ der Stelle von ezwt in den aktiven Erweiterungen. Ein Probelauf listet die Ände
 | Einblicke | `expwt/insights` | nur lesend, aus den eigenen Statistiken des Kernels, ohne Tracking Dritter: die Aufrufe der Seite (der Aufrufzähler, den der Cronjob `updateviewcount` aus dem Zugriffsprotokoll füllt; ist er aus, sagt der Bereich das), die Suchen auf der Website nach Wörtern des Seitentitels (das Suchprotokoll des Kernels, mit Anzahl und Treffern) und dass der Kernel keine Herkunftsseiten erfasst |
 | Posteingang | `expwt/use` (für das Freigeben auch die Richtlinie `collaboration` des Kernels) | die Freigaben des Veröffentlichungs-Workflows, die auf Sie warten (das Freigabe-Ereignis des Kernels): jede Seite mit Autor und letztem Kommentar, **Entwurf öffnen**, und für ihre Freigebenden ein Kommentar mit **Freigeben** oder **Ablehnen**, entschieden über die eigene Ansicht `collaboration/action` des Kernels, genau wie in der Administration (der Workflow veröffentlicht eine freigegebene Seite bei seinem nächsten Lauf; eine abgelehnte ist wieder ein Entwurf ihres Autors). Ihre Anzahl steht als Zähler auf dem geschlossenen Reiter und auf dem Reiter des Bereichs Daneben die anderen Benachrichtigungen, aus der Zusammenarbeit und den Workflows des Kernels (keine zusätzliche Mail): **Kommentare und Erwähnungen** (Einträge mit einem ungelesenen Kommentar eines anderen, „Erwähnt Sie", wo der letzte Sie als @Login nennt), **Ihre Seiten** (Ihre Seiten, die seit Ihrem letzten Blick freigegeben oder abgelehnt wurden, innerhalb von 30 Tagen) und **Geplante Aufgaben, die fehlgeschlagen sind** (Ihre Workflow-Prozesse, die innerhalb von 30 Tagen mit einem Fehler stehen blieben, mit dem vollständigen Editor der Seite). Kommentare und Ergebnisse sieht jeder, der am Eintrag beteiligt ist (auch ein Autor ohne die Richtlinie `collaboration`, wie in der ausgelieferten Rolle Editor). **Als gelesen markieren** tut, was das Öffnen des Eintrags in der Administration tut; **In der Administration öffnen** (mit der Richtlinie `collaboration`) öffnet ihn dort. Ihre Anzahl zusammen (jeder Eintrag einmal) steht als Zähler auf dem geschlossenen Reiter und dem Reiter des Bereichs, mit wenigen Abfragen gezählt und eine Minute behalten; Öffnen des Bereichs, Markieren als gelesen oder eine Entscheidung zählen sofort neu |
 | Migrationen | `expwt/use` und `migration/read` des Kernels (ab Exponential 6.0.15); ohne diese Richtlinie oder auf einem Kernel ohne Migrationen gibt es keinen Reiter Migrationen | nur lesend: der Stand der Migrationen der Installation, wie ihn Einrichtung > Migrationen in der Administration zeigt, auf jeder Seite. Ein gerade laufender Lauf (die Sperre der Installation: was er tut, wer ihn gestartet hat und seit wann), die **fehlgeschlagenen** Migrationen (jede mit Quelle und Beschreibung), die **ausstehenden** (ID, Quelle, Beschreibung; die ersten 50, der Rest gezählt), die Migrationen, die **verzeichnet sind, deren Datei aber fehlt**, und der **letzte Lauf**: sein Status, wann er begann und endete, wer ihn ausgeführt hat, sein Sicherungspunkt, sein Tag und sein Push-Status (ein fehlgeschlagener Lauf mit seiner Meldung). Jeder Eintrag hat **In der Administration öffnen** (der Stand oder das Protokoll seines Laufs); Ausführen, Fortsetzen und Zurücknehmen bleiben dort: die Seitenleiste hat hier keine Schaltfläche, die etwas ändert. Die Zahl der ausstehenden, fehlgeschlagenen und ohne Datei verzeichneten Migrationen steht als Zähler auf dem Reiter des Bereichs, höchstens einmal pro Minute gezählt |
+| Performance | `expwt/performance` (Administratoren und Entwickler) | nur lesend: wie diese Seite gerendert wurde, aus den Daten der Debug-Leiste des Kernels zum Rendern der Seite selbst (nicht zu den Anfragen der Seitenleiste): die Renderzeit, die SQL-Anweisungen und ihre Zeit, der Spitzenspeicher, der Content-View-Cache (aus dem Cache, erzeugt, aus), die Cache-Blöcke (wie viele aus dem Cache kamen, die langsamsten) und die Zeit jedes Layout-Blocks, ein Block in einem Container eingerückt. Eine Seite aus einem Cache wurde nicht für diesen Aufruf gerendert: der Bereich sagt es und nennt die Zeit des Renderns, von dem seine Zahlen stammen. Siehe „Bereich Performance" |
 | Ich | `expwt/use` | Ihr Konto auf einen Blick und die Seiten des Kernels dafür (Konto, Passwort, Passkeys, Sitzungen und Geräte, Sicherheit, Benachrichtigungen, Entwürfe, Lesezeichen), die Einstellungen der Seitenleiste, abmelden |
 
 ### Bearbeiten
@@ -357,6 +358,30 @@ AccentColor=#1d3557
   Branding ist.
 - Die Feldeditoren im Rahmen der Seitenleiste behalten den Akzent der Administration.
 
+### Bereich Performance
+
+Für Administratoren und Entwickler (`expwt/performance`) zeigt der Bereich „Performance", wie die Seite im Fenster
+gerendert wurde, aus den Zahlen der Debug-Leiste des Kernels:
+
+- **Was er zeigt:** die Renderzeit, die SQL-Anweisungen (wie viele und ihre Zeit), den Spitzenspeicher, den
+  Content-View-Cache (aus dem Cache, erzeugt, aus), die Cache-Blöcke (wie viele aus dem Cache kamen, die langsamsten
+  mit Template und Zeile) und die **Zeit je Layout-Block** in der Reihenfolge des Renderns, jeder nach seinem
+  Block-Template benannt, mit einer Anzeige gegenüber dem langsamsten; ein Block in einem Container ist eingerückt.
+- **Woher die Zahlen kommen:** vom Rendern der Seite selbst, an seinem Ende erfasst und in der Seite am Element der
+  Seitenleiste mitgegeben, nur für Benutzer mit `expwt/performance`: kein Speicher, keine zusätzliche Anfrage und kein
+  Byte für andere. Die eine Anfrage des Bereichs (`performance.load`) ergänzt die Zeit des Servers und wird ohne die
+  Richtlinie abgelehnt.
+- **Ohne Debug-Ausgabe** (ab Exponential 6.0.15): der Kernel erfasst die Zahlen ohne jede Debug-Ausgabe für die
+  Benutzer von `site.ini [DebugSettings] CollectStatsPolicyList[]`, und expwt trägt dort `expwt/performance` ein. Auf
+  einem älteren Kernel oder mit geleerter Einstellung erfasst der Kernel sie nur, solange die Debug-Ausgabe für den
+  Benutzer an ist (`DebugByIP`, `DebugByUser`); sonst zeigt der Bereich Renderzeit und Speicher und sagt, warum. Die
+  Zeit je Layout-Block braucht den Template-Baum des Kernels (`debugbar.ini [DebugBarSettings] RenderTree`, an, solange
+  nicht ausgeschaltet).
+- **Seiten aus einem Cache:** eine Seite aus dem rollenbezogenen Seiten-Cache, einem Proxy oder dem Verlauf des Browsers
+  wurde nicht für diesen Aufruf gerendert. Der Bereich vergleicht die Zeit des Renderns mit dem Laden der Seite (nach der
+  Uhr des Servers, was immer die des Geräts sagt) und sagt dann „Diese Seite kam aus einem Cache" mit der Zeit des
+  Renderns, von dem seine Zahlen stammen. Velocity und Apache mit PHP-FPM liefern dieselben Zahlen.
+
 ## Felder und ihre Editoren
 
 Der Bereich „Seite" bearbeitet jedes Feld mit dem Editor, den die Administration für seinen Datentyp hat; er zeigt nie
@@ -443,6 +468,7 @@ neue Übersetzung, deren Felder noch den Text der Hauptsprache enthalten.
 | `expwt/admin` | Setup > Bereiche der Website-Seitenleiste (mit `settings/view` des Kernels, und `settings/edit`, um sie zu ändern); die Verwaltungsbereiche späterer Phasen |
 | `expwt/layouts`, `expwt/templates`, `expwt/shop` | die Bereiche späterer Phasen (schon jetzt definiert) |
 | `expwt/insights` | der Bereich „Einblicke": die Aufrufe der Seite und die Suchen der Website nach Wörtern ihres Titels, aus den eigenen Statistiken des Kernels |
+| `expwt/performance` | der Bereich „Performance": wie die Seite gerendert wurde (Zeit, SQL, Caches, Layout-Blöcke); für Administratoren und Entwickler |
 
 Die Policies von expwt entscheiden, was die Seitenleiste anbietet; jede Aktion prüft zusätzlich die Policy des Kernels
 für das, was sie ändert (`content/edit` des Objekts, `content/create` unter dem Elternknoten, `content/hide`,

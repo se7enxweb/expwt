@@ -2135,6 +2135,62 @@
         <source>The rule texts come from axe-core, in English.</source>
         <translation>Besedila pravil so iz axe-core, v angleščini.</translation>
     </message>
+    <message>
+        <source>Performance</source>
+        <translation>Zmogljivost</translation>
+    </message>
+    <message>
+        <source>Render time</source>
+        <translation>Čas upodabljanja</translation>
+    </message>
+    <message>
+        <source>SQL statements</source>
+        <translation>Stavki SQL</translation>
+    </message>
+    <message>
+        <source>Peak memory</source>
+        <translation>Najvišji pomnilnik</translation>
+    </message>
+    <message>
+        <source>From the cache</source>
+        <translation>Iz predpomnilnika</translation>
+    </message>
+    <message>
+        <source>Generated</source>
+        <translation>Ustvarjeno</translation>
+    </message>
+    <message>
+        <source>This page carries no figures of its render.</source>
+        <translation>Ta stran nima podatkov o svojem upodabljanju.</translation>
+    </message>
+    <message>
+        <source>This page came from a cache: it was not rendered for this view. The figures are of the render at %time.</source>
+        <translation>Ta stran je prišla iz predpomnilnika: za ta prikaz ni bila upodobljena. Podatki so od upodabljanja ob %time.</translation>
+    </message>
+    <message>
+        <source>Only the time and memory: the kernel collects the rest with debug output on for you, or for expwt/performance from Exponential 6.0.15 on.</source>
+        <translation>Samo čas in pomnilnik: ostalo jedro zbira, ko je za vas vklopljen izhod za odpravljanje napak, ali za expwt/performance od Exponential 6.0.15.</translation>
+    </message>
+    <message>
+        <source>Content view cache</source>
+        <translation>Predpomnilnik pogleda vsebine</translation>
+    </message>
+    <message>
+        <source>Cache-blocks</source>
+        <translation>Bloki predpomnilnika</translation>
+    </message>
+    <message>
+        <source>%hits of %count from the cache</source>
+        <translation>%hits od %count iz predpomnilnika</translation>
+    </message>
+    <message>
+        <source>Time per layout block</source>
+        <translation>Čas na blok postavitve</translation>
+    </message>
+    <message>
+        <source>No layout block on this page.</source>
+        <translation>Na tej strani ni bloka postavitve.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

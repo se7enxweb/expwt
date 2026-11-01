@@ -2135,6 +2135,62 @@
         <source>The rule texts come from axe-core, in English.</source>
         <translation>Els textos de les regles provenen d'axe-core, en anglès.</translation>
     </message>
+    <message>
+        <source>Performance</source>
+        <translation>Rendiment</translation>
+    </message>
+    <message>
+        <source>Render time</source>
+        <translation>Temps de renderització</translation>
+    </message>
+    <message>
+        <source>SQL statements</source>
+        <translation>Sentències SQL</translation>
+    </message>
+    <message>
+        <source>Peak memory</source>
+        <translation>Memòria màxima</translation>
+    </message>
+    <message>
+        <source>From the cache</source>
+        <translation>De la memòria cau</translation>
+    </message>
+    <message>
+        <source>Generated</source>
+        <translation>Generada</translation>
+    </message>
+    <message>
+        <source>This page carries no figures of its render.</source>
+        <translation>Aquesta pàgina no té xifres de la seva renderització.</translation>
+    </message>
+    <message>
+        <source>This page came from a cache: it was not rendered for this view. The figures are of the render at %time.</source>
+        <translation>Aquesta pàgina ve d'una memòria cau: no s'ha renderitzat per a aquesta visualització. Les xifres són de la renderització de les %time.</translation>
+    </message>
+    <message>
+        <source>Only the time and memory: the kernel collects the rest with debug output on for you, or for expwt/performance from Exponential 6.0.15 on.</source>
+        <translation>Només el temps i la memòria: el nucli recull la resta amb la sortida de depuració activada per a vostè, o per a expwt/performance a partir d'Exponential 6.0.15.</translation>
+    </message>
+    <message>
+        <source>Content view cache</source>
+        <translation>Memòria cau de la vista de contingut</translation>
+    </message>
+    <message>
+        <source>Cache-blocks</source>
+        <translation>Blocs de memòria cau</translation>
+    </message>
+    <message>
+        <source>%hits of %count from the cache</source>
+        <translation>%hits de %count de la memòria cau</translation>
+    </message>
+    <message>
+        <source>Time per layout block</source>
+        <translation>Temps per bloc de disseny</translation>
+    </message>
+    <message>
+        <source>No layout block on this page.</source>
+        <translation>No hi ha cap bloc de disseny en aquesta pàgina.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

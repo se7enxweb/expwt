@@ -2135,6 +2135,62 @@
         <source>The rule texts come from axe-core, in English.</source>
         <translation>Àwọn ọ̀rọ̀ òfin náà wá láti axe-core, ní èdè Gẹ̀ẹ́sì.</translation>
     </message>
+    <message>
+        <source>Performance</source>
+        <translation>Iṣẹ́ ṣíṣe</translation>
+    </message>
+    <message>
+        <source>Render time</source>
+        <translation>Àkókò ìfihàn</translation>
+    </message>
+    <message>
+        <source>SQL statements</source>
+        <translation>Àwọn gbólóhùn SQL</translation>
+    </message>
+    <message>
+        <source>Peak memory</source>
+        <translation>Ìrántí tó ga jùlọ</translation>
+    </message>
+    <message>
+        <source>From the cache</source>
+        <translation>Láti inú cache</translation>
+    </message>
+    <message>
+        <source>Generated</source>
+        <translation>Ti ṣẹ̀dá</translation>
+    </message>
+    <message>
+        <source>This page carries no figures of its render.</source>
+        <translation>Ojú-ìwé yìí kò ní àwọn nọ́mbà ìfihàn rẹ̀.</translation>
+    </message>
+    <message>
+        <source>This page came from a cache: it was not rendered for this view. The figures are of the render at %time.</source>
+        <translation>Ojú-ìwé yìí wá láti inú cache: a kò fi hàn fún wíwò yìí. Àwọn nọ́mbà náà jẹ́ ti ìfihàn ní %time.</translation>
+    </message>
+    <message>
+        <source>Only the time and memory: the kernel collects the rest with debug output on for you, or for expwt/performance from Exponential 6.0.15 on.</source>
+        <translation>Àkókò àti ìrántí nìkan: kernel máa ń kó ìyókù jọ nígbà tí ìjáde debug bá wà ní títàn fún ọ, tàbí fún expwt/performance láti Exponential 6.0.15.</translation>
+    </message>
+    <message>
+        <source>Content view cache</source>
+        <translation>Cache ìwòye àkóónú</translation>
+    </message>
+    <message>
+        <source>Cache-blocks</source>
+        <translation>Àwọn búlọ́ọ̀kù cache</translation>
+    </message>
+    <message>
+        <source>%hits of %count from the cache</source>
+        <translation>%hits nínú %count láti inú cache</translation>
+    </message>
+    <message>
+        <source>Time per layout block</source>
+        <translation>Àkókò fún búlọ́ọ̀kù ìfilélẹ̀ kọ̀ọ̀kan</translation>
+    </message>
+    <message>
+        <source>No layout block on this page.</source>
+        <translation>Kò sí búlọ́ọ̀kù ìfilélẹ̀ lórí ojú-ìwé yìí.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

@@ -2135,6 +2135,62 @@
         <source>The rule texts come from axe-core, in English.</source>
         <translation>טקסטי הכללים מגיעים מ-axe-core, באנגלית.</translation>
     </message>
+    <message>
+        <source>Performance</source>
+        <translation>ביצועים</translation>
+    </message>
+    <message>
+        <source>Render time</source>
+        <translation>זמן רינדור</translation>
+    </message>
+    <message>
+        <source>SQL statements</source>
+        <translation>הצהרות SQL</translation>
+    </message>
+    <message>
+        <source>Peak memory</source>
+        <translation>שיא זיכרון</translation>
+    </message>
+    <message>
+        <source>From the cache</source>
+        <translation>מהמטמון</translation>
+    </message>
+    <message>
+        <source>Generated</source>
+        <translation>נוצר</translation>
+    </message>
+    <message>
+        <source>This page carries no figures of its render.</source>
+        <translation>בעמוד זה אין נתונים על הרינדור שלו.</translation>
+    </message>
+    <message>
+        <source>This page came from a cache: it was not rendered for this view. The figures are of the render at %time.</source>
+        <translation>העמוד הזה הגיע ממטמון: הוא לא רונדר עבור הצפייה הזו. הנתונים הם של הרינדור בשעה %time.</translation>
+    </message>
+    <message>
+        <source>Only the time and memory: the kernel collects the rest with debug output on for you, or for expwt/performance from Exponential 6.0.15 on.</source>
+        <translation>רק הזמן והזיכרון: את השאר הליבה אוספת כשפלט ניפוי הבאגים מופעל עבורך, או עבור expwt/performance החל מ־Exponential 6.0.15.</translation>
+    </message>
+    <message>
+        <source>Content view cache</source>
+        <translation>מטמון תצוגת התוכן</translation>
+    </message>
+    <message>
+        <source>Cache-blocks</source>
+        <translation>בלוקי מטמון</translation>
+    </message>
+    <message>
+        <source>%hits of %count from the cache</source>
+        <translation>%hits מתוך %count מהמטמון</translation>
+    </message>
+    <message>
+        <source>Time per layout block</source>
+        <translation>זמן לכל בלוק פריסה</translation>
+    </message>
+    <message>
+        <source>No layout block on this page.</source>
+        <translation>אין בלוק פריסה בעמוד זה.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

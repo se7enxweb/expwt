@@ -2135,6 +2135,62 @@
         <source>The rule texts come from axe-core, in English.</source>
         <translation>Матнҳои қоидаҳо аз axe-core гирифта шудаанд, ба забони англисӣ.</translation>
     </message>
+    <message>
+        <source>Performance</source>
+        <translation>Самаранокӣ</translation>
+    </message>
+    <message>
+        <source>Render time</source>
+        <translation>Вақти рендер</translation>
+    </message>
+    <message>
+        <source>SQL statements</source>
+        <translation>Дастурҳои SQL</translation>
+    </message>
+    <message>
+        <source>Peak memory</source>
+        <translation>Хотираи авҷ</translation>
+    </message>
+    <message>
+        <source>From the cache</source>
+        <translation>Аз кэш</translation>
+    </message>
+    <message>
+        <source>Generated</source>
+        <translation>Сохта шуд</translation>
+    </message>
+    <message>
+        <source>This page carries no figures of its render.</source>
+        <translation>Ин саҳифа ягон рақами рендери худро надорад.</translation>
+    </message>
+    <message>
+        <source>This page came from a cache: it was not rendered for this view. The figures are of the render at %time.</source>
+        <translation>Ин саҳифа аз кэш омад: барои ин дидан рендер нашудааст. Рақамҳо аз рендери соати %time мебошанд.</translation>
+    </message>
+    <message>
+        <source>Only the time and memory: the kernel collects the rest with debug output on for you, or for expwt/performance from Exponential 6.0.15 on.</source>
+        <translation>Танҳо вақт ва хотира: боқимондаро ядро ҳангоми фаъол будани бароварди ислоҳи хато барои шумо ё барои expwt/performance аз Exponential 6.0.15 сар карда ҷамъ мекунад.</translation>
+    </message>
+    <message>
+        <source>Content view cache</source>
+        <translation>Кэши намуди мундариҷа</translation>
+    </message>
+    <message>
+        <source>Cache-blocks</source>
+        <translation>Блокҳои кэш</translation>
+    </message>
+    <message>
+        <source>%hits of %count from the cache</source>
+        <translation>%hits аз %count аз кэш</translation>
+    </message>
+    <message>
+        <source>Time per layout block</source>
+        <translation>Вақт барои ҳар блоки тарҳбандӣ</translation>
+    </message>
+    <message>
+        <source>No layout block on this page.</source>
+        <translation>Дар ин саҳифа блоки тарҳбандӣ нест.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

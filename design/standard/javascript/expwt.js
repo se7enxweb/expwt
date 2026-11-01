@@ -330,6 +330,12 @@
         this.cfg = {};
       }
       this.strings = this.cfg.strings || {};
+      /* how this page was rendered (E12): only for a user with expwt/performance, set by the server at the end of the render */
+      try {
+        this.renderData = this.hasAttribute('data-render') ? JSON.parse(this.getAttribute('data-render')) : null;
+      } catch (e) {
+        this.renderData = null;
+      }
       this.anonymous = !!this.cfg.anonymous;
       this.boot = null;
       this.panels = {};
@@ -686,6 +692,8 @@
       if (this.boot && this.boot.inbox) { list.push({ id: 'inbox', label: this.t('Inbox') }); }
       /* the installation's migrations, read-only (R4.5), for a user with the kernel's migration/read */
       if (this.boot && this.boot.migrations) { list.push({ id: 'migrations', label: this.t('Migrations') }); }
+      /* how this page was rendered (E12): time, SQL, caches and the layout blocks, for admins and developers */
+      if (c.performance) { list.push({ id: 'performance', label: this.t('Performance') }); }
       list.push({ id: 'me', label: this.t('Me') });
       /* the panels of other extensions (decision 32), each before the panel its registration names */
       this.registry().panels.forEach(function (p) {
@@ -1374,7 +1382,7 @@
       var t = this.boot.transport;
       var registered = this.registry().actions || {};
       var write = Object.prototype.hasOwnProperty.call(registered, action) ? !!registered[action].writes
-        : ['me', 'page.load', 'create.classes', 'tree.children', 'inbox.load', 'insights.load', 'seo.check', 'newsletter.load', 'comments.load', 'urls.load', 'calendar.load', 'migrations.load', 'images.load', 'preview.devices', 'boot'].indexOf(action) < 0;
+        : ['me', 'page.load', 'create.classes', 'tree.children', 'inbox.load', 'insights.load', 'seo.check', 'newsletter.load', 'comments.load', 'urls.load', 'calendar.load', 'migrations.load', 'performance.load', 'images.load', 'preview.devices', 'boot'].indexOf(action) < 0;
       var json = JSON.stringify(input || {});
       var headers = { 'X-CSRF-Token': this.boot.token || '' };
       var p;
@@ -1687,6 +1695,7 @@
         setState: function (change) { self.setState(change); },
         waiting: function (n) { self.setWaiting(n); },
         migrations: function (n) { self.setMigrations(n); },
+        render: this.renderData,
         registry: function () { return self.registry(); },
         deviceOnly: function (on) {
           if (on === undefined) { return self.deviceOnly; }

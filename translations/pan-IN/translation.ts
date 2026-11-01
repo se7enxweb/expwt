@@ -2135,6 +2135,62 @@
         <source>The rule texts come from axe-core, in English.</source>
         <translation>ਨਿਯਮਾਂ ਦੇ ਪਾਠ axe-core ਤੋਂ ਆਉਂਦੇ ਹਨ, ਅੰਗਰੇਜ਼ੀ ਵਿੱਚ।</translation>
     </message>
+    <message>
+        <source>Performance</source>
+        <translation>ਕਾਰਗੁਜ਼ਾਰੀ</translation>
+    </message>
+    <message>
+        <source>Render time</source>
+        <translation>ਰੈਂਡਰ ਸਮਾਂ</translation>
+    </message>
+    <message>
+        <source>SQL statements</source>
+        <translation>SQL ਸਟੇਟਮੈਂਟ</translation>
+    </message>
+    <message>
+        <source>Peak memory</source>
+        <translation>ਸਭ ਤੋਂ ਵੱਧ ਮੈਮੋਰੀ</translation>
+    </message>
+    <message>
+        <source>From the cache</source>
+        <translation>ਕੈਸ਼ ਤੋਂ</translation>
+    </message>
+    <message>
+        <source>Generated</source>
+        <translation>ਬਣਾਇਆ ਗਿਆ</translation>
+    </message>
+    <message>
+        <source>This page carries no figures of its render.</source>
+        <translation>ਇਸ ਪੰਨੇ ਉੱਤੇ ਇਸਦੇ ਰੈਂਡਰ ਦੇ ਕੋਈ ਅੰਕੜੇ ਨਹੀਂ ਹਨ।</translation>
+    </message>
+    <message>
+        <source>This page came from a cache: it was not rendered for this view. The figures are of the render at %time.</source>
+        <translation>ਇਹ ਪੰਨਾ ਕੈਸ਼ ਤੋਂ ਆਇਆ ਹੈ: ਇਸ ਦੇਖਣ ਲਈ ਇਸਨੂੰ ਰੈਂਡਰ ਨਹੀਂ ਕੀਤਾ ਗਿਆ। ਅੰਕੜੇ %time ਦੇ ਰੈਂਡਰ ਦੇ ਹਨ।</translation>
+    </message>
+    <message>
+        <source>Only the time and memory: the kernel collects the rest with debug output on for you, or for expwt/performance from Exponential 6.0.15 on.</source>
+        <translation>ਸਿਰਫ਼ ਸਮਾਂ ਅਤੇ ਮੈਮੋਰੀ: ਬਾਕੀ ਕਰਨਲ ਤਦ ਇਕੱਠਾ ਕਰਦਾ ਹੈ ਜਦੋਂ ਤੁਹਾਡੇ ਲਈ ਡੀਬੱਗ ਆਉਟਪੁੱਟ ਚਾਲੂ ਹੋਵੇ, ਜਾਂ Exponential 6.0.15 ਤੋਂ expwt/performance ਲਈ।</translation>
+    </message>
+    <message>
+        <source>Content view cache</source>
+        <translation>ਸਮੱਗਰੀ ਦ੍ਰਿਸ਼ ਕੈਸ਼</translation>
+    </message>
+    <message>
+        <source>Cache-blocks</source>
+        <translation>ਕੈਸ਼-ਬਲਾਕ</translation>
+    </message>
+    <message>
+        <source>%hits of %count from the cache</source>
+        <translation>%count ਵਿੱਚੋਂ %hits ਕੈਸ਼ ਤੋਂ</translation>
+    </message>
+    <message>
+        <source>Time per layout block</source>
+        <translation>ਹਰ ਲੇਆਉਟ ਬਲਾਕ ਦਾ ਸਮਾਂ</translation>
+    </message>
+    <message>
+        <source>No layout block on this page.</source>
+        <translation>ਇਸ ਪੰਨੇ ਉੱਤੇ ਕੋਈ ਲੇਆਉਟ ਬਲਾਕ ਨਹੀਂ ਹੈ।</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

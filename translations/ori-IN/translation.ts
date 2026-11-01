@@ -2135,6 +2135,62 @@
         <source>The rule texts come from axe-core, in English.</source>
         <translation>ନିୟମର ପାଠ axe-core ରୁ ଆସେ, ଇଂରାଜୀରେ।</translation>
     </message>
+    <message>
+        <source>Performance</source>
+        <translation>କାର୍ଯ୍ୟଦକ୍ଷତା</translation>
+    </message>
+    <message>
+        <source>Render time</source>
+        <translation>ରେଣ୍ଡର ସମୟ</translation>
+    </message>
+    <message>
+        <source>SQL statements</source>
+        <translation>SQL ଷ୍ଟେଟମେଣ୍ଟ</translation>
+    </message>
+    <message>
+        <source>Peak memory</source>
+        <translation>ସର୍ବାଧିକ ମେମୋରୀ</translation>
+    </message>
+    <message>
+        <source>From the cache</source>
+        <translation>କ୍ୟାଶରୁ</translation>
+    </message>
+    <message>
+        <source>Generated</source>
+        <translation>ସୃଷ୍ଟି ହୋଇଛି</translation>
+    </message>
+    <message>
+        <source>This page carries no figures of its render.</source>
+        <translation>ଏହି ପୃଷ୍ଠାରେ ଏହାର ରେଣ୍ଡରର କୌଣସି ତଥ୍ୟ ନାହିଁ।</translation>
+    </message>
+    <message>
+        <source>This page came from a cache: it was not rendered for this view. The figures are of the render at %time.</source>
+        <translation>ଏହି ପୃଷ୍ଠା କ୍ୟାଶରୁ ଆସିଛି: ଏହି ଦେଖିବା ପାଇଁ ଏହାକୁ ରେଣ୍ଡର କରାଯାଇନାହିଁ। ତଥ୍ୟଗୁଡ଼ିକ %time ର ରେଣ୍ଡରର।</translation>
+    </message>
+    <message>
+        <source>Only the time and memory: the kernel collects the rest with debug output on for you, or for expwt/performance from Exponential 6.0.15 on.</source>
+        <translation>କେବଳ ସମୟ ଓ ମେମୋରୀ: ବାକି କର୍ଣ୍ଣେଲ ସଂଗ୍ରହ କରେ ଯେତେବେଳେ ଆପଣଙ୍କ ପାଇଁ ଡିବଗ୍ ଆଉଟପୁଟ୍ ଚାଲୁ ଥାଏ, କିମ୍ବା Exponential 6.0.15 ଠାରୁ expwt/performance ପାଇଁ।</translation>
+    </message>
+    <message>
+        <source>Content view cache</source>
+        <translation>ବିଷୟବସ୍ତୁ ଦୃଶ୍ୟ କ୍ୟାଶ</translation>
+    </message>
+    <message>
+        <source>Cache-blocks</source>
+        <translation>କ୍ୟାଶ-ବ୍ଲକ</translation>
+    </message>
+    <message>
+        <source>%hits of %count from the cache</source>
+        <translation>%count ମଧ୍ୟରୁ %hits କ୍ୟାଶରୁ</translation>
+    </message>
+    <message>
+        <source>Time per layout block</source>
+        <translation>ପ୍ରତି ଲେଆଉଟ୍ ବ୍ଲକର ସମୟ</translation>
+    </message>
+    <message>
+        <source>No layout block on this page.</source>
+        <translation>ଏହି ପୃଷ୍ଠାରେ କୌଣସି ଲେଆଉଟ୍ ବ୍ଲକ ନାହିଁ।</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

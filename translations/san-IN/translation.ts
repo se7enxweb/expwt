@@ -2135,6 +2135,62 @@
         <source>The rule texts come from axe-core, in English.</source>
         <translation>नियमानां पाठाः axe-core इत्यस्मात् आगच्छन्ति, आङ्ग्लभाषायाम्।</translation>
     </message>
+    <message>
+        <source>Performance</source>
+        <translation>कार्यक्षमता</translation>
+    </message>
+    <message>
+        <source>Render time</source>
+        <translation>प्रदर्शनकालः</translation>
+    </message>
+    <message>
+        <source>SQL statements</source>
+        <translation>SQL वाक्यानि</translation>
+    </message>
+    <message>
+        <source>Peak memory</source>
+        <translation>अधिकतमा स्मृतिः</translation>
+    </message>
+    <message>
+        <source>From the cache</source>
+        <translation>सञ्चिकातः</translation>
+    </message>
+    <message>
+        <source>Generated</source>
+        <translation>निर्मितम्</translation>
+    </message>
+    <message>
+        <source>This page carries no figures of its render.</source>
+        <translation>अस्मिन् पृष्ठे तस्य प्रदर्शनस्य सङ्ख्याः न सन्ति।</translation>
+    </message>
+    <message>
+        <source>This page came from a cache: it was not rendered for this view. The figures are of the render at %time.</source>
+        <translation>इदं पृष्ठं सञ्चिकातः आगतम्: अस्य दर्शनस्य कृते न प्रदर्शितम्। सङ्ख्याः %time समये कृतस्य प्रदर्शनस्य सन्ति।</translation>
+    </message>
+    <message>
+        <source>Only the time and memory: the kernel collects the rest with debug output on for you, or for expwt/performance from Exponential 6.0.15 on.</source>
+        <translation>केवलं कालः स्मृतिः च: शेषं कर्नेल् सङ्गृह्णाति यदा भवतः कृते डीबग्-निर्गमः सक्रियः, अथवा Exponential 6.0.15 तः expwt/performance कृते।</translation>
+    </message>
+    <message>
+        <source>Content view cache</source>
+        <translation>विषयदर्शनस्य सञ्चिका</translation>
+    </message>
+    <message>
+        <source>Cache-blocks</source>
+        <translation>सञ्चिका-खण्डाः</translation>
+    </message>
+    <message>
+        <source>%hits of %count from the cache</source>
+        <translation>%count मध्ये %hits सञ्चिकातः</translation>
+    </message>
+    <message>
+        <source>Time per layout block</source>
+        <translation>प्रत्येकस्य विन्यासखण्डस्य कालः</translation>
+    </message>
+    <message>
+        <source>No layout block on this page.</source>
+        <translation>अस्मिन् पृष्ठे विन्यासखण्डः नास्ति।</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

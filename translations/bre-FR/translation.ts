@@ -2135,6 +2135,62 @@
         <source>The rule texts come from axe-core, in English.</source>
         <translation>Testennoù ar reolennoù a zeu eus axe-core, e saozneg.</translation>
     </message>
+    <message>
+        <source>Performance</source>
+        <translation>Efedusted</translation>
+    </message>
+    <message>
+        <source>Render time</source>
+        <translation>Amzer renderiñ</translation>
+    </message>
+    <message>
+        <source>SQL statements</source>
+        <translation>Disklêriadurioù SQL</translation>
+    </message>
+    <message>
+        <source>Peak memory</source>
+        <translation>Memor uhelañ</translation>
+    </message>
+    <message>
+        <source>From the cache</source>
+        <translation>Eus ar grubuilh</translation>
+    </message>
+    <message>
+        <source>Generated</source>
+        <translation>Ganet</translation>
+    </message>
+    <message>
+        <source>This page carries no figures of its render.</source>
+        <translation>N'eus niver ebet eus he renderiñ war ar bajenn-mañ.</translation>
+    </message>
+    <message>
+        <source>This page came from a cache: it was not rendered for this view. The figures are of the render at %time.</source>
+        <translation>Deuet eo ar bajenn-mañ eus ur grubuilh: n'eo ket bet renderet evit ar gwel-mañ. An niveroù a zo re ar renderiñ da %time.</translation>
+    </message>
+    <message>
+        <source>Only the time and memory: the kernel collects the rest with debug output on for you, or for expwt/performance from Exponential 6.0.15 on.</source>
+        <translation>An amzer hag ar memor hepken: an dakenn a zastum ar peurrest pa vez gweredekaet an ec'hankad diveugañ evidoc'h, pe evit expwt/performance adalek Exponential 6.0.15.</translation>
+    </message>
+    <message>
+        <source>Content view cache</source>
+        <translation>Krubuilh gwel an endalc'had</translation>
+    </message>
+    <message>
+        <source>Cache-blocks</source>
+        <translation>Bloc'hoù krubuilh</translation>
+    </message>
+    <message>
+        <source>%hits of %count from the cache</source>
+        <translation>%hits diwar %count eus ar grubuilh</translation>
+    </message>
+    <message>
+        <source>Time per layout block</source>
+        <translation>Amzer dre vloc'h pajennaozañ</translation>
+    </message>
+    <message>
+        <source>No layout block on this page.</source>
+        <translation>Bloc'h pajennaozañ ebet war ar bajenn-mañ.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

@@ -2135,6 +2135,62 @@
         <source>The rule texts come from axe-core, in English.</source>
         <translation>Maandishi ya kanuni yanatoka axe-core, kwa Kiingereza.</translation>
     </message>
+    <message>
+        <source>Performance</source>
+        <translation>Utendaji</translation>
+    </message>
+    <message>
+        <source>Render time</source>
+        <translation>Muda wa kuonyesha</translation>
+    </message>
+    <message>
+        <source>SQL statements</source>
+        <translation>Taarifa za SQL</translation>
+    </message>
+    <message>
+        <source>Peak memory</source>
+        <translation>Kumbukumbu ya juu kabisa</translation>
+    </message>
+    <message>
+        <source>From the cache</source>
+        <translation>Kutoka kwenye akiba</translation>
+    </message>
+    <message>
+        <source>Generated</source>
+        <translation>Imetengenezwa</translation>
+    </message>
+    <message>
+        <source>This page carries no figures of its render.</source>
+        <translation>Ukurasa huu hauna takwimu za uonyeshaji wake.</translation>
+    </message>
+    <message>
+        <source>This page came from a cache: it was not rendered for this view. The figures are of the render at %time.</source>
+        <translation>Ukurasa huu ulitoka kwenye akiba: haukuonyeshwa kwa mwonekano huu. Takwimu ni za uonyeshaji wa %time.</translation>
+    </message>
+    <message>
+        <source>Only the time and memory: the kernel collects the rest with debug output on for you, or for expwt/performance from Exponential 6.0.15 on.</source>
+        <translation>Muda na kumbukumbu tu: kernel hukusanya vingine wakati matokeo ya utatuzi yamewashwa kwa ajili yako, au kwa expwt/performance kuanzia Exponential 6.0.15.</translation>
+    </message>
+    <message>
+        <source>Content view cache</source>
+        <translation>Akiba ya mwonekano wa maudhui</translation>
+    </message>
+    <message>
+        <source>Cache-blocks</source>
+        <translation>Vizuizi vya akiba</translation>
+    </message>
+    <message>
+        <source>%hits of %count from the cache</source>
+        <translation>%hits kati ya %count kutoka kwenye akiba</translation>
+    </message>
+    <message>
+        <source>Time per layout block</source>
+        <translation>Muda kwa kila kizuizi cha mpangilio</translation>
+    </message>
+    <message>
+        <source>No layout block on this page.</source>
+        <translation>Hakuna kizuizi cha mpangilio kwenye ukurasa huu.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

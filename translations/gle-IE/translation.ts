@@ -2135,6 +2135,62 @@
         <source>The rule texts come from axe-core, in English.</source>
         <translation>Tagann téacsanna na rialacha ó axe-core, i mBéarla.</translation>
     </message>
+    <message>
+        <source>Performance</source>
+        <translation>Feidhmíocht</translation>
+    </message>
+    <message>
+        <source>Render time</source>
+        <translation>Am rindreála</translation>
+    </message>
+    <message>
+        <source>SQL statements</source>
+        <translation>Ráitis SQL</translation>
+    </message>
+    <message>
+        <source>Peak memory</source>
+        <translation>Buaicchuimhne</translation>
+    </message>
+    <message>
+        <source>From the cache</source>
+        <translation>Ón taisce</translation>
+    </message>
+    <message>
+        <source>Generated</source>
+        <translation>Ginte</translation>
+    </message>
+    <message>
+        <source>This page carries no figures of its render.</source>
+        <translation>Níl aon fhigiúirí faoina rindreáil ar an leathanach seo.</translation>
+    </message>
+    <message>
+        <source>This page came from a cache: it was not rendered for this view. The figures are of the render at %time.</source>
+        <translation>Tháinig an leathanach seo ó thaisce: níor rindreáladh é don amharc seo. Is ón rindreáil ag %time na figiúirí.</translation>
+    </message>
+    <message>
+        <source>Only the time and memory: the kernel collects the rest with debug output on for you, or for expwt/performance from Exponential 6.0.15 on.</source>
+        <translation>An t-am agus an chuimhne amháin: bailíonn an eithne an chuid eile le haschur dífhabhtaithe ar siúl duit, nó do expwt/performance ó Exponential 6.0.15 ar aghaidh.</translation>
+    </message>
+    <message>
+        <source>Content view cache</source>
+        <translation>Taisce amharc ábhair</translation>
+    </message>
+    <message>
+        <source>Cache-blocks</source>
+        <translation>Bloic taisce</translation>
+    </message>
+    <message>
+        <source>%hits of %count from the cache</source>
+        <translation>%hits as %count ón taisce</translation>
+    </message>
+    <message>
+        <source>Time per layout block</source>
+        <translation>Am in aghaidh an bhloic leagain amach</translation>
+    </message>
+    <message>
+        <source>No layout block on this page.</source>
+        <translation>Níl aon bhloc leagain amach ar an leathanach seo.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

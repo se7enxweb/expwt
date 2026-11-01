@@ -2135,6 +2135,62 @@
         <source>The rule texts come from axe-core, in English.</source>
         <translation>ข้อความของกฎมาจาก axe-core เป็นภาษาอังกฤษ</translation>
     </message>
+    <message>
+        <source>Performance</source>
+        <translation>ประสิทธิภาพ</translation>
+    </message>
+    <message>
+        <source>Render time</source>
+        <translation>เวลาเรนเดอร์</translation>
+    </message>
+    <message>
+        <source>SQL statements</source>
+        <translation>คำสั่ง SQL</translation>
+    </message>
+    <message>
+        <source>Peak memory</source>
+        <translation>หน่วยความจำสูงสุด</translation>
+    </message>
+    <message>
+        <source>From the cache</source>
+        <translation>จากแคช</translation>
+    </message>
+    <message>
+        <source>Generated</source>
+        <translation>สร้างใหม่</translation>
+    </message>
+    <message>
+        <source>This page carries no figures of its render.</source>
+        <translation>หน้านี้ไม่มีตัวเลขการเรนเดอร์ของตัวเอง</translation>
+    </message>
+    <message>
+        <source>This page came from a cache: it was not rendered for this view. The figures are of the render at %time.</source>
+        <translation>หน้านี้มาจากแคช: ไม่ได้เรนเดอร์สำหรับการดูครั้งนี้ ตัวเลขเป็นของการเรนเดอร์เมื่อ %time</translation>
+    </message>
+    <message>
+        <source>Only the time and memory: the kernel collects the rest with debug output on for you, or for expwt/performance from Exponential 6.0.15 on.</source>
+        <translation>เฉพาะเวลาและหน่วยความจำ: เคอร์เนลจะเก็บส่วนที่เหลือเมื่อเปิดเอาต์พุตดีบักให้คุณ หรือสำหรับ expwt/performance ตั้งแต่ Exponential 6.0.15</translation>
+    </message>
+    <message>
+        <source>Content view cache</source>
+        <translation>แคชมุมมองเนื้อหา</translation>
+    </message>
+    <message>
+        <source>Cache-blocks</source>
+        <translation>บล็อกแคช</translation>
+    </message>
+    <message>
+        <source>%hits of %count from the cache</source>
+        <translation>%hits จาก %count มาจากแคช</translation>
+    </message>
+    <message>
+        <source>Time per layout block</source>
+        <translation>เวลาต่อบล็อกเลย์เอาต์</translation>
+    </message>
+    <message>
+        <source>No layout block on this page.</source>
+        <translation>ไม่มีบล็อกเลย์เอาต์ในหน้านี้</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

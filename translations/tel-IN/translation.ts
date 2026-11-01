@@ -2135,6 +2135,62 @@
         <source>The rule texts come from axe-core, in English.</source>
         <translation>నియమాల పాఠాలు axe-core నుండి వస్తాయి, ఆంగ్లంలో.</translation>
     </message>
+    <message>
+        <source>Performance</source>
+        <translation>పనితీరు</translation>
+    </message>
+    <message>
+        <source>Render time</source>
+        <translation>రెండర్ సమయం</translation>
+    </message>
+    <message>
+        <source>SQL statements</source>
+        <translation>SQL స్టేట్‌మెంట్‌లు</translation>
+    </message>
+    <message>
+        <source>Peak memory</source>
+        <translation>గరిష్ఠ మెమరీ</translation>
+    </message>
+    <message>
+        <source>From the cache</source>
+        <translation>కాష్ నుండి</translation>
+    </message>
+    <message>
+        <source>Generated</source>
+        <translation>రూపొందించబడింది</translation>
+    </message>
+    <message>
+        <source>This page carries no figures of its render.</source>
+        <translation>ఈ పేజీలో దాని రెండర్ గణాంకాలు ఏవీ లేవు.</translation>
+    </message>
+    <message>
+        <source>This page came from a cache: it was not rendered for this view. The figures are of the render at %time.</source>
+        <translation>ఈ పేజీ కాష్ నుండి వచ్చింది: ఈ వీక్షణ కోసం ఇది రెండర్ చేయబడలేదు. గణాంకాలు %time నాటి రెండర్‌వి.</translation>
+    </message>
+    <message>
+        <source>Only the time and memory: the kernel collects the rest with debug output on for you, or for expwt/performance from Exponential 6.0.15 on.</source>
+        <translation>సమయం మరియు మెమరీ మాత్రమే: మిగతావి కెర్నల్ మీ కోసం డీబగ్ అవుట్‌పుట్ ఆన్‌లో ఉన్నప్పుడు, లేదా Exponential 6.0.15 నుండి expwt/performance కోసం సేకరిస్తుంది.</translation>
+    </message>
+    <message>
+        <source>Content view cache</source>
+        <translation>కంటెంట్ వీక్షణ కాష్</translation>
+    </message>
+    <message>
+        <source>Cache-blocks</source>
+        <translation>కాష్ బ్లాక్‌లు</translation>
+    </message>
+    <message>
+        <source>%hits of %count from the cache</source>
+        <translation>%count లో %hits కాష్ నుండి</translation>
+    </message>
+    <message>
+        <source>Time per layout block</source>
+        <translation>ప్రతి లేఅవుట్ బ్లాక్‌కు సమయం</translation>
+    </message>
+    <message>
+        <source>No layout block on this page.</source>
+        <translation>ఈ పేజీలో లేఅవుట్ బ్లాక్ ఏదీ లేదు.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

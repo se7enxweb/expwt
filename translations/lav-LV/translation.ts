@@ -2135,6 +2135,62 @@
         <source>The rule texts come from axe-core, in English.</source>
         <translation>Noteikumu teksti nāk no axe-core, angļu valodā.</translation>
     </message>
+    <message>
+        <source>Performance</source>
+        <translation>Veiktspēja</translation>
+    </message>
+    <message>
+        <source>Render time</source>
+        <translation>Renderēšanas laiks</translation>
+    </message>
+    <message>
+        <source>SQL statements</source>
+        <translation>SQL priekšraksti</translation>
+    </message>
+    <message>
+        <source>Peak memory</source>
+        <translation>Maksimālā atmiņa</translation>
+    </message>
+    <message>
+        <source>From the cache</source>
+        <translation>No kešatmiņas</translation>
+    </message>
+    <message>
+        <source>Generated</source>
+        <translation>Ģenerēta</translation>
+    </message>
+    <message>
+        <source>This page carries no figures of its render.</source>
+        <translation>Šai lapai nav skaitļu par tās renderēšanu.</translation>
+    </message>
+    <message>
+        <source>This page came from a cache: it was not rendered for this view. The figures are of the render at %time.</source>
+        <translation>Šī lapa nāca no kešatmiņas: tā netika renderēta šim skatījumam. Skaitļi ir no renderēšanas plkst. %time.</translation>
+    </message>
+    <message>
+        <source>Only the time and memory: the kernel collects the rest with debug output on for you, or for expwt/performance from Exponential 6.0.15 on.</source>
+        <translation>Tikai laiks un atmiņa: pārējo kodols apkopo, kad jums ir ieslēgta atkļūdošanas izvade, vai expwt/performance sākot ar Exponential 6.0.15.</translation>
+    </message>
+    <message>
+        <source>Content view cache</source>
+        <translation>Satura skata kešatmiņa</translation>
+    </message>
+    <message>
+        <source>Cache-blocks</source>
+        <translation>Kešatmiņas bloki</translation>
+    </message>
+    <message>
+        <source>%hits of %count from the cache</source>
+        <translation>%hits no %count no kešatmiņas</translation>
+    </message>
+    <message>
+        <source>Time per layout block</source>
+        <translation>Laiks katram izkārtojuma blokam</translation>
+    </message>
+    <message>
+        <source>No layout block on this page.</source>
+        <translation>Šajā lapā nav izkārtojuma bloka.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

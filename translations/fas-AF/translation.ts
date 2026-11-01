@@ -2135,6 +2135,62 @@
         <source>The rule texts come from axe-core, in English.</source>
         <translation>متن‌های قواعد از axe-core آمده‌اند، به انگلیسی.</translation>
     </message>
+    <message>
+        <source>Performance</source>
+        <translation>کارکرد</translation>
+    </message>
+    <message>
+        <source>Render time</source>
+        <translation>زمان رندر</translation>
+    </message>
+    <message>
+        <source>SQL statements</source>
+        <translation>دستورهای SQL</translation>
+    </message>
+    <message>
+        <source>Peak memory</source>
+        <translation>بیشترین حافظه</translation>
+    </message>
+    <message>
+        <source>From the cache</source>
+        <translation>از حافظهٔ نهان</translation>
+    </message>
+    <message>
+        <source>Generated</source>
+        <translation>ساخته شده</translation>
+    </message>
+    <message>
+        <source>This page carries no figures of its render.</source>
+        <translation>این صفحه هیچ رقمی از رندر خود ندارد.</translation>
+    </message>
+    <message>
+        <source>This page came from a cache: it was not rendered for this view. The figures are of the render at %time.</source>
+        <translation>این صفحه از یک حافظهٔ نهان آمد: برای این دیدن رندر نشده است. رقم‌ها مربوط به رندر در ساعت %time اند.</translation>
+    </message>
+    <message>
+        <source>Only the time and memory: the kernel collects the rest with debug output on for you, or for expwt/performance from Exponential 6.0.15 on.</source>
+        <translation>تنها زمان و حافظه: باقی را هسته زمانی جمع می‌کند که خروجی اشکال‌زدایی برای شما روشن باشد، یا برای expwt/performance از Exponential 6.0.15 به بعد.</translation>
+    </message>
+    <message>
+        <source>Content view cache</source>
+        <translation>حافظهٔ نهان نمای محتوا</translation>
+    </message>
+    <message>
+        <source>Cache-blocks</source>
+        <translation>بلاک‌های حافظهٔ نهان</translation>
+    </message>
+    <message>
+        <source>%hits of %count from the cache</source>
+        <translation>%hits از %count از حافظهٔ نهان</translation>
+    </message>
+    <message>
+        <source>Time per layout block</source>
+        <translation>زمان برای هر بلاک ترتیب</translation>
+    </message>
+    <message>
+        <source>No layout block on this page.</source>
+        <translation>در این صفحه هیچ بلاک ترتیب نیست.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

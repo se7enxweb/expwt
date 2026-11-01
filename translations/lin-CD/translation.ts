@@ -2135,6 +2135,62 @@
         <source>The rule texts come from axe-core, in English.</source>
         <translation>Makomi ya mibeko ewutí na axe-core, na Lingɛlɛ́sa.</translation>
     </message>
+    <message>
+        <source>Performance</source>
+        <translation>Bokasi</translation>
+    </message>
+    <message>
+        <source>Render time</source>
+        <translation>Ntango ya kolakisa</translation>
+    </message>
+    <message>
+        <source>SQL statements</source>
+        <translation>Mitindo ya SQL</translation>
+    </message>
+    <message>
+        <source>Peak memory</source>
+        <translation>Memwale ya likolo</translation>
+    </message>
+    <message>
+        <source>From the cache</source>
+        <translation>Uta na cache</translation>
+    </message>
+    <message>
+        <source>Generated</source>
+        <translation>Esalami</translation>
+    </message>
+    <message>
+        <source>This page carries no figures of its render.</source>
+        <translation>Lokasa oyo ezali na mituya ya kolakisama na yango te.</translation>
+    </message>
+    <message>
+        <source>This page came from a cache: it was not rendered for this view. The figures are of the render at %time.</source>
+        <translation>Lokasa oyo euti na cache: balakisaki yango te mpo na botali oyo. Mituya ezali ya kolakisama ya %time.</translation>
+    </message>
+    <message>
+        <source>Only the time and memory: the kernel collects the rest with debug output on for you, or for expwt/performance from Exponential 6.0.15 on.</source>
+        <translation>Kaka ntango mpe memwale: kernel esangisaka oyo etikali ntango debug output efungwami mpo na yo, to mpo na expwt/performance kobanda Exponential 6.0.15.</translation>
+    </message>
+    <message>
+        <source>Content view cache</source>
+        <translation>Cache ya botali makambo</translation>
+    </message>
+    <message>
+        <source>Cache-blocks</source>
+        <translation>Biteni ya cache</translation>
+    </message>
+    <message>
+        <source>%hits of %count from the cache</source>
+        <translation>%hits na kati ya %count uta na cache</translation>
+    </message>
+    <message>
+        <source>Time per layout block</source>
+        <translation>Ntango na eteni moko moko ya layout</translation>
+    </message>
+    <message>
+        <source>No layout block on this page.</source>
+        <translation>Eteni ya layout ezali na lokasa oyo te.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

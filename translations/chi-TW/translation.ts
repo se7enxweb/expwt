@@ -2135,6 +2135,62 @@
         <source>The rule texts come from axe-core, in English.</source>
         <translation>規則文字來自 axe-core，為英文。</translation>
     </message>
+    <message>
+        <source>Performance</source>
+        <translation>效能</translation>
+    </message>
+    <message>
+        <source>Render time</source>
+        <translation>算繪時間</translation>
+    </message>
+    <message>
+        <source>SQL statements</source>
+        <translation>SQL 陳述式</translation>
+    </message>
+    <message>
+        <source>Peak memory</source>
+        <translation>記憶體峰值</translation>
+    </message>
+    <message>
+        <source>From the cache</source>
+        <translation>來自快取</translation>
+    </message>
+    <message>
+        <source>Generated</source>
+        <translation>已產生</translation>
+    </message>
+    <message>
+        <source>This page carries no figures of its render.</source>
+        <translation>此頁面沒有算繪數據。</translation>
+    </message>
+    <message>
+        <source>This page came from a cache: it was not rendered for this view. The figures are of the render at %time.</source>
+        <translation>此頁面來自快取：本次檢視並未算繪。數據來自 %time 的算繪。</translation>
+    </message>
+    <message>
+        <source>Only the time and memory: the kernel collects the rest with debug output on for you, or for expwt/performance from Exponential 6.0.15 on.</source>
+        <translation>僅有時間與記憶體：其餘數據由核心在為您開啟除錯輸出時收集，或自 Exponential 6.0.15 起為 expwt/performance 收集。</translation>
+    </message>
+    <message>
+        <source>Content view cache</source>
+        <translation>內容檢視快取</translation>
+    </message>
+    <message>
+        <source>Cache-blocks</source>
+        <translation>快取區塊</translation>
+    </message>
+    <message>
+        <source>%hits of %count from the cache</source>
+        <translation>%count 個中 %hits 個來自快取</translation>
+    </message>
+    <message>
+        <source>Time per layout block</source>
+        <translation>每個版面區塊的時間</translation>
+    </message>
+    <message>
+        <source>No layout block on this page.</source>
+        <translation>此頁面沒有版面區塊。</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

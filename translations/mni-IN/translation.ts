@@ -2135,6 +2135,62 @@
         <source>The rule texts come from axe-core, in English.</source>
         <translation>নিয়মগী ৱাহৈশিং axe-coreদগী লাকই, ইংলিশতা।</translation>
     </message>
+    <message>
+        <source>Performance</source>
+        <translation>থবক পাংথোকপা</translation>
+    </message>
+    <message>
+        <source>Render time</source>
+        <translation>রেন্দর তৌবগী মতম</translation>
+    </message>
+    <message>
+        <source>SQL statements</source>
+        <translation>SQL ৱাফম</translation>
+    </message>
+    <message>
+        <source>Peak memory</source>
+        <translation>খ্বাইদগী ৱাংবা মেমোরী</translation>
+    </message>
+    <message>
+        <source>From the cache</source>
+        <translation>কেশতগী</translation>
+    </message>
+    <message>
+        <source>Generated</source>
+        <translation>শেম্লে</translation>
+    </message>
+    <message>
+        <source>This page carries no figures of its render.</source>
+        <translation>লমায় অসিদা মসিগী রেন্দরগী মশিং অমত্তা লৈতে।</translation>
+    </message>
+    <message>
+        <source>This page came from a cache: it was not rendered for this view. The figures are of the render at %time.</source>
+        <translation>লমায় অসি কেশতগী লাকখি: য়েংবা অসিগীদমক রেন্দর তৌখিদে। মশিংশিং অসি %time দা তৌরবা রেন্দরগীনি।</translation>
+    </message>
+    <message>
+        <source>Only the time and memory: the kernel collects the rest with debug output on for you, or for expwt/performance from Exponential 6.0.15 on.</source>
+        <translation>মতম অমসুং মেমোরী খক্তা: অতোপ্পা খুদিংমক কর্নেলনা নখোয়গীদমক দিবগ আউতপুত চালু ওইরিবা মতমদা, নত্রগা Exponential 6.0.15 দগী হৌরগা expwt/performance গীদমক খোমজিনবনি।</translation>
+    </message>
+    <message>
+        <source>Content view cache</source>
+        <translation>কন্তেন্ত য়েংবগী কেশ</translation>
+    </message>
+    <message>
+        <source>Cache-blocks</source>
+        <translation>কেশ-ব্লোক</translation>
+    </message>
+    <message>
+        <source>%hits of %count from the cache</source>
+        <translation>%count গী মনুংদগী %hits কেশতগী</translation>
+    </message>
+    <message>
+        <source>Time per layout block</source>
+        <translation>লেআউত ব্লোক খুদিংগী মতম</translation>
+    </message>
+    <message>
+        <source>No layout block on this page.</source>
+        <translation>লমায় অসিদা লেআউত ব্লোক অমত্তা লৈতে।</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

@@ -2135,6 +2135,62 @@
         <source>The rule texts come from axe-core, in English.</source>
         <translation>Mbind yi ci sàrt yi ñu ngi jóge ci axe-core, ci àngale.</translation>
     </message>
+    <message>
+        <source>Performance</source>
+        <translation>Liggéey</translation>
+    </message>
+    <message>
+        <source>Render time</source>
+        <translation>Diirub wone</translation>
+    </message>
+    <message>
+        <source>SQL statements</source>
+        <translation>Digle SQL</translation>
+    </message>
+    <message>
+        <source>Peak memory</source>
+        <translation>Xel mu gën a mag</translation>
+    </message>
+    <message>
+        <source>From the cache</source>
+        <translation>Ci cache bi</translation>
+    </message>
+    <message>
+        <source>Generated</source>
+        <translation>Defar nañu ko</translation>
+    </message>
+    <message>
+        <source>This page carries no figures of its render.</source>
+        <translation>Xët wii amul benn limu ci ni ñu ko wone.</translation>
+    </message>
+    <message>
+        <source>This page came from a cache: it was not rendered for this view. The figures are of the render at %time.</source>
+        <translation>Xët wii ci cache la jóge: wonewuñu ko ngir gis gii. Lim yi ñoo bokk ci wone bi ñu def ci %time.</translation>
+    </message>
+    <message>
+        <source>Only the time and memory: the kernel collects the rest with debug output on for you, or for expwt/performance from Exponential 6.0.15 on.</source>
+        <translation>Diir bi ak xel mi rekk: kernel bi dafay dajale li des bu debug output ubbiku ngir yow, walla ngir expwt/performance dale ci Exponential 6.0.15.</translation>
+    </message>
+    <message>
+        <source>Content view cache</source>
+        <translation>Cache gisum ëmbit</translation>
+    </message>
+    <message>
+        <source>Cache-blocks</source>
+        <translation>Blok yu cache</translation>
+    </message>
+    <message>
+        <source>%hits of %count from the cache</source>
+        <translation>%hits ci %count ci cache bi</translation>
+    </message>
+    <message>
+        <source>Time per layout block</source>
+        <translation>Diir ci blok layout bu nekk</translation>
+    </message>
+    <message>
+        <source>No layout block on this page.</source>
+        <translation>Amul benn blok layout ci xët wii.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

@@ -2135,6 +2135,62 @@
         <source>The rule texts come from axe-core, in English.</source>
         <translation>Nivîsên qaîdeyan ji axe-core tên, bi Îngilîzî.</translation>
     </message>
+    <message>
+        <source>Performance</source>
+        <translation>Performans</translation>
+    </message>
+    <message>
+        <source>Render time</source>
+        <translation>Dema renderê</translation>
+    </message>
+    <message>
+        <source>SQL statements</source>
+        <translation>Daxuyaniyên SQL</translation>
+    </message>
+    <message>
+        <source>Peak memory</source>
+        <translation>Bîra herî bilind</translation>
+    </message>
+    <message>
+        <source>From the cache</source>
+        <translation>Ji cacheyê</translation>
+    </message>
+    <message>
+        <source>Generated</source>
+        <translation>Hate çêkirin</translation>
+    </message>
+    <message>
+        <source>This page carries no figures of its render.</source>
+        <translation>Di vê rûpelê de tu hejmarên renderê wê tune ne.</translation>
+    </message>
+    <message>
+        <source>This page came from a cache: it was not rendered for this view. The figures are of the render at %time.</source>
+        <translation>Ev rûpel ji cacheyekê hat: ji bo vê dîtinê nehat renderkirin. Hejmar yên renderê di %time de ne.</translation>
+    </message>
+    <message>
+        <source>Only the time and memory: the kernel collects the rest with debug output on for you, or for expwt/performance from Exponential 6.0.15 on.</source>
+        <translation>Tenê dem û bîr: kernel yên mayî berhev dike dema ku derana debugê ji bo te vekirî be, an ji bo expwt/performance ji Exponential 6.0.15 û pê ve.</translation>
+    </message>
+    <message>
+        <source>Content view cache</source>
+        <translation>Cacheya dîtina naverokê</translation>
+    </message>
+    <message>
+        <source>Cache-blocks</source>
+        <translation>Blokên cacheyê</translation>
+    </message>
+    <message>
+        <source>%hits of %count from the cache</source>
+        <translation>%hits ji %count ji cacheyê</translation>
+    </message>
+    <message>
+        <source>Time per layout block</source>
+        <translation>Dem ji bo her bloka xêzkirinê</translation>
+    </message>
+    <message>
+        <source>No layout block on this page.</source>
+        <translation>Di vê rûpelê de tu bloka xêzkirinê tune.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

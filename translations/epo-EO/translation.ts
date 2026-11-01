@@ -2135,6 +2135,62 @@
         <source>The rule texts come from axe-core, in English.</source>
         <translation>La regulaj tekstoj venas el axe-core, en la angla.</translation>
     </message>
+    <message>
+        <source>Performance</source>
+        <translation>Rendimento</translation>
+    </message>
+    <message>
+        <source>Render time</source>
+        <translation>Bildigtempo</translation>
+    </message>
+    <message>
+        <source>SQL statements</source>
+        <translation>SQL-ordonoj</translation>
+    </message>
+    <message>
+        <source>Peak memory</source>
+        <translation>Pinta memoro</translation>
+    </message>
+    <message>
+        <source>From the cache</source>
+        <translation>El la kaŝmemoro</translation>
+    </message>
+    <message>
+        <source>Generated</source>
+        <translation>Generita</translation>
+    </message>
+    <message>
+        <source>This page carries no figures of its render.</source>
+        <translation>Ĉi tiu paĝo ne portas ciferojn pri sia bildigo.</translation>
+    </message>
+    <message>
+        <source>This page came from a cache: it was not rendered for this view. The figures are of the render at %time.</source>
+        <translation>Ĉi tiu paĝo venis el kaŝmemoro: ĝi ne estis bildigita por ĉi tiu vido. La ciferoj estas de la bildigo je %time.</translation>
+    </message>
+    <message>
+        <source>Only the time and memory: the kernel collects the rest with debug output on for you, or for expwt/performance from Exponential 6.0.15 on.</source>
+        <translation>Nur la tempo kaj memoro: la kerno kolektas la ceteron kun sencimiga eligo ŝaltita por vi, aŭ por expwt/performance ekde Exponential 6.0.15.</translation>
+    </message>
+    <message>
+        <source>Content view cache</source>
+        <translation>Kaŝmemoro de enhava vido</translation>
+    </message>
+    <message>
+        <source>Cache-blocks</source>
+        <translation>Kaŝmemoraj blokoj</translation>
+    </message>
+    <message>
+        <source>%hits of %count from the cache</source>
+        <translation>%hits el %count el la kaŝmemoro</translation>
+    </message>
+    <message>
+        <source>Time per layout block</source>
+        <translation>Tempo po aranĝa bloko</translation>
+    </message>
+    <message>
+        <source>No layout block on this page.</source>
+        <translation>Neniu aranĝa bloko en ĉi tiu paĝo.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

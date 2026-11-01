@@ -979,6 +979,16 @@ button.wt-seo-item:hover { border-color: var(--a4-accent); }
 .wt-mig-run { display: grid; grid-template-columns: minmax(0, max-content) minmax(0, 1fr); gap: var(--a4-space-1) var(--a4-space-3); margin: 0 0 var(--a4-space-2); }
 .wt-mig-run dt { color: var(--a4-muted); font-size: var(--a4-text-s); }
 .wt-mig-run dd { margin: 0; min-inline-size: 0; overflow-wrap: anywhere; }
+/* The Performance panel (E12): the figures of the render, the slowest cache-blocks and templates, and the time of each
+   layout block with a meter against the slowest one; a block inside a container is indented by its level. */
+.wt-perf-figure { display: inline-flex; flex-wrap: wrap; align-items: center; gap: var(--a4-space-1) var(--a4-space-2); }
+.wt-perf-list > li { flex-wrap: wrap; }
+.wt-perf-name { flex: 1 1 calc(var(--a4-space-7) * 2); min-inline-size: 0; font-family: var(--a4-mono); font-size: var(--a4-text-s); overflow-wrap: anywhere; }
+.wt-perf-ms { flex: none; font-variant-numeric: tabular-nums; font-size: var(--a4-text-s); }
+.wt-perf-meter { flex: 0 1 var(--a4-space-7); min-inline-size: 0; inline-size: var(--a4-space-7); block-size: var(--a4-space-2); accent-color: var(--a4-accent); }
+.wt-perf-l1 { padding-inline-start: var(--a4-space-3); }
+.wt-perf-l2 { padding-inline-start: var(--a4-space-5); }
+.wt-perf-l3 { padding-inline-start: var(--a4-space-7); }
 /* The focal point and crop of an image field (E7): the original with the marker and the crop box, positioned by the
    custom properties the panel sets (fractions of the image as percentages), and a live preview of each alias: the
    original placed in a frame of the alias's shape. Nothing wider than the panel. The image is never mirrored: the

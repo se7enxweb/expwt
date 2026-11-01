@@ -2135,6 +2135,62 @@
         <source>The rule texts come from axe-core, in English.</source>
         <translation>It-testi tar-regoli ġejjin minn axe-core, bl-Ingliż.</translation>
     </message>
+    <message>
+        <source>Performance</source>
+        <translation>Prestazzjoni</translation>
+    </message>
+    <message>
+        <source>Render time</source>
+        <translation>Ħin tar-rendering</translation>
+    </message>
+    <message>
+        <source>SQL statements</source>
+        <translation>Dikjarazzjonijiet SQL</translation>
+    </message>
+    <message>
+        <source>Peak memory</source>
+        <translation>Memorja massima</translation>
+    </message>
+    <message>
+        <source>From the cache</source>
+        <translation>Mill-cache</translation>
+    </message>
+    <message>
+        <source>Generated</source>
+        <translation>Iġġenerata</translation>
+    </message>
+    <message>
+        <source>This page carries no figures of its render.</source>
+        <translation>Din il-paġna ma fihiex figuri tar-rendering tagħha.</translation>
+    </message>
+    <message>
+        <source>This page came from a cache: it was not rendered for this view. The figures are of the render at %time.</source>
+        <translation>Din il-paġna ġiet minn cache: ma ġietx rendered għal dan il-wiri. Il-figuri huma tar-rendering tal-%time.</translation>
+    </message>
+    <message>
+        <source>Only the time and memory: the kernel collects the rest with debug output on for you, or for expwt/performance from Exponential 6.0.15 on.</source>
+        <translation>Il-ħin u l-memorja biss: il-bqija jiġborha l-kernel bl-output tad-debug mixgħul għalik, jew għal expwt/performance minn Exponential 6.0.15.</translation>
+    </message>
+    <message>
+        <source>Content view cache</source>
+        <translation>Cache tal-wiri tal-kontenut</translation>
+    </message>
+    <message>
+        <source>Cache-blocks</source>
+        <translation>Blokki tal-cache</translation>
+    </message>
+    <message>
+        <source>%hits of %count from the cache</source>
+        <translation>%hits minn %count mill-cache</translation>
+    </message>
+    <message>
+        <source>Time per layout block</source>
+        <translation>Ħin għal kull blokk tat-tqassim</translation>
+    </message>
+    <message>
+        <source>No layout block on this page.</source>
+        <translation>L-ebda blokk tat-tqassim f'din il-paġna.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

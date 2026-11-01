@@ -2135,6 +2135,62 @@
         <source>The rule texts come from axe-core, in English.</source>
         <translation>Texty pravidel pocházejí z axe-core, v angličtině.</translation>
     </message>
+    <message>
+        <source>Performance</source>
+        <translation>Výkon</translation>
+    </message>
+    <message>
+        <source>Render time</source>
+        <translation>Doba vykreslení</translation>
+    </message>
+    <message>
+        <source>SQL statements</source>
+        <translation>SQL dotazy</translation>
+    </message>
+    <message>
+        <source>Peak memory</source>
+        <translation>Špičková paměť</translation>
+    </message>
+    <message>
+        <source>From the cache</source>
+        <translation>Z mezipaměti</translation>
+    </message>
+    <message>
+        <source>Generated</source>
+        <translation>Vygenerováno</translation>
+    </message>
+    <message>
+        <source>This page carries no figures of its render.</source>
+        <translation>Tato stránka nenese žádné údaje o svém vykreslení.</translation>
+    </message>
+    <message>
+        <source>This page came from a cache: it was not rendered for this view. The figures are of the render at %time.</source>
+        <translation>Tato stránka přišla z mezipaměti: pro toto zobrazení nebyla vykreslena. Údaje jsou z vykreslení v %time.</translation>
+    </message>
+    <message>
+        <source>Only the time and memory: the kernel collects the rest with debug output on for you, or for expwt/performance from Exponential 6.0.15 on.</source>
+        <translation>Jen čas a paměť: zbytek jádro sbírá se zapnutým ladicím výstupem pro vás, nebo pro expwt/performance od Exponential 6.0.15.</translation>
+    </message>
+    <message>
+        <source>Content view cache</source>
+        <translation>Mezipaměť zobrazení obsahu</translation>
+    </message>
+    <message>
+        <source>Cache-blocks</source>
+        <translation>Bloky mezipaměti</translation>
+    </message>
+    <message>
+        <source>%hits of %count from the cache</source>
+        <translation>%hits z %count z mezipaměti</translation>
+    </message>
+    <message>
+        <source>Time per layout block</source>
+        <translation>Čas na blok rozvržení</translation>
+    </message>
+    <message>
+        <source>No layout block on this page.</source>
+        <translation>Na této stránce není žádný blok rozvržení.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

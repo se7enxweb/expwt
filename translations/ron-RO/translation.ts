@@ -2135,6 +2135,62 @@
         <source>The rule texts come from axe-core, in English.</source>
         <translation>Textele regulilor provin din axe-core, în engleză.</translation>
     </message>
+    <message>
+        <source>Performance</source>
+        <translation>Performanță</translation>
+    </message>
+    <message>
+        <source>Render time</source>
+        <translation>Timp de randare</translation>
+    </message>
+    <message>
+        <source>SQL statements</source>
+        <translation>Instrucțiuni SQL</translation>
+    </message>
+    <message>
+        <source>Peak memory</source>
+        <translation>Memorie maximă</translation>
+    </message>
+    <message>
+        <source>From the cache</source>
+        <translation>Din cache</translation>
+    </message>
+    <message>
+        <source>Generated</source>
+        <translation>Generată</translation>
+    </message>
+    <message>
+        <source>This page carries no figures of its render.</source>
+        <translation>Această pagină nu are cifre despre randarea sa.</translation>
+    </message>
+    <message>
+        <source>This page came from a cache: it was not rendered for this view. The figures are of the render at %time.</source>
+        <translation>Această pagină a venit dintr-un cache: nu a fost randată pentru această afișare. Cifrele sunt de la randarea de la %time.</translation>
+    </message>
+    <message>
+        <source>Only the time and memory: the kernel collects the rest with debug output on for you, or for expwt/performance from Exponential 6.0.15 on.</source>
+        <translation>Doar timpul și memoria: restul îl colectează nucleul cu ieșirea de depanare activată pentru dvs., sau pentru expwt/performance începând cu Exponential 6.0.15.</translation>
+    </message>
+    <message>
+        <source>Content view cache</source>
+        <translation>Cache pentru vizualizarea conținutului</translation>
+    </message>
+    <message>
+        <source>Cache-blocks</source>
+        <translation>Blocuri de cache</translation>
+    </message>
+    <message>
+        <source>%hits of %count from the cache</source>
+        <translation>%hits din %count din cache</translation>
+    </message>
+    <message>
+        <source>Time per layout block</source>
+        <translation>Timp pe bloc de aspect</translation>
+    </message>
+    <message>
+        <source>No layout block on this page.</source>
+        <translation>Niciun bloc de aspect pe această pagină.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

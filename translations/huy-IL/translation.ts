@@ -2135,6 +2135,62 @@
         <source>The rule texts come from axe-core, in English.</source>
         <translation>כתבי דינא אתין מן axe-core, בלשן אנגליא.</translation>
     </message>
+    <message>
+        <source>Performance</source>
+        <translation>עובדנותא</translation>
+    </message>
+    <message>
+        <source>Render time</source>
+        <translation>זבנא דצורתא</translation>
+    </message>
+    <message>
+        <source>SQL statements</source>
+        <translation>פתגמי SQL</translation>
+    </message>
+    <message>
+        <source>Peak memory</source>
+        <translation>זכרונא עלאה</translation>
+    </message>
+    <message>
+        <source>From the cache</source>
+        <translation>מן גניזתא</translation>
+    </message>
+    <message>
+        <source>Generated</source>
+        <translation>אתעביד</translation>
+    </message>
+    <message>
+        <source>This page carries no figures of its render.</source>
+        <translation>דפא הדא לית בה מניני דצורתה.</translation>
+    </message>
+    <message>
+        <source>This page came from a cache: it was not rendered for this view. The figures are of the render at %time.</source>
+        <translation>דפא הדא אתיא מן גניזתא: לא אתציירת לחזותא הדא. מניניא דצורתא דב־%time אינון.</translation>
+    </message>
+    <message>
+        <source>Only the time and memory: the kernel collects the rest with debug output on for you, or for expwt/performance from Exponential 6.0.15 on.</source>
+        <translation>זבנא וזכרונא בלחוד: קרנא כניש שארא כד פלט תקונא פתיח לך, או ל־expwt/performance מן Exponential 6.0.15 ולהלא.</translation>
+    </message>
+    <message>
+        <source>Content view cache</source>
+        <translation>גניזתא דחזות תוכנא</translation>
+    </message>
+    <message>
+        <source>Cache-blocks</source>
+        <translation>פלגוותא דגניזתא</translation>
+    </message>
+    <message>
+        <source>%hits of %count from the cache</source>
+        <translation>%hits מן %count מן גניזתא</translation>
+    </message>
+    <message>
+        <source>Time per layout block</source>
+        <translation>זבנא לכל פלגותא דסדורא</translation>
+    </message>
+    <message>
+        <source>No layout block on this page.</source>
+        <translation>לית פלגותא דסדורא בדפא הדא.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

@@ -2135,6 +2135,62 @@
         <source>The rule texts come from axe-core, in English.</source>
         <translation>Iḍrisen n yilugan kkan-d seg axe-core, s teglizit.</translation>
     </message>
+    <message>
+        <source>Performance</source>
+        <translation>Tamellit</translation>
+    </message>
+    <message>
+        <source>Render time</source>
+        <translation>Akud n uskan</translation>
+    </message>
+    <message>
+        <source>SQL statements</source>
+        <translation>Tinaḍin SQL</translation>
+    </message>
+    <message>
+        <source>Peak memory</source>
+        <translation>Takatut tafellayt</translation>
+    </message>
+    <message>
+        <source>From the cache</source>
+        <translation>Seg tkatut tuffirt</translation>
+    </message>
+    <message>
+        <source>Generated</source>
+        <translation>Yettwasnulfa</translation>
+    </message>
+    <message>
+        <source>This page carries no figures of its render.</source>
+        <translation>Asebter-a ur yesɛi ula d amḍan ɣef uskan-is.</translation>
+    </message>
+    <message>
+        <source>This page came from a cache: it was not rendered for this view. The figures are of the render at %time.</source>
+        <translation>Asebter-a yekka-d seg tkatut tuffirt: ur yettwaskan ara i tmeẓri-a. Imḍanen d wid n uskan n %time.</translation>
+    </message>
+    <message>
+        <source>Only the time and memory: the kernel collects the rest with debug output on for you, or for expwt/performance from Exponential 6.0.15 on.</source>
+        <translation>Akud d tkatut kan: ayen nniḍen yettalas-it ukennas mi ara yili tuffɣa n tseɣtit teddu i kečč, neɣ i expwt/performance seg Exponential 6.0.15.</translation>
+    </message>
+    <message>
+        <source>Content view cache</source>
+        <translation>Takatut tuffirt n tmeẓri n ugbur</translation>
+    </message>
+    <message>
+        <source>Cache-blocks</source>
+        <translation>Iḥedren n tkatut tuffirt</translation>
+    </message>
+    <message>
+        <source>%hits of %count from the cache</source>
+        <translation>%hits seg %count seg tkatut tuffirt</translation>
+    </message>
+    <message>
+        <source>Time per layout block</source>
+        <translation>Akud i yal iḥder n tneɣruft</translation>
+    </message>
+    <message>
+        <source>No layout block on this page.</source>
+        <translation>Ulac iḥder n tneɣruft deg usebter-a.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

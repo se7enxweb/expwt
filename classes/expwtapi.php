@@ -215,6 +215,8 @@ class expwtApi
                 return $g->calendarTakeDown( self::ids( $input, array( 'nodeId' ) ) + self::strings( $input, array( 'at' ) ) );
             case 'calendar.variant':
                 return $g->calendarVariant( self::ids( $input, array( 'conditionId' ) ) + self::strings( $input, array( 'which', 'at' ) ) );
+            case 'performance.load':
+                return expwtPerformance::status();
             case 'migrations.load':
                 return $g->migrations();
             case 'images.load':

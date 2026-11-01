@@ -2135,6 +2135,62 @@
         <source>The rule texts come from axe-core, in English.</source>
         <translation>Дүрмийн бичвэрүүд axe-core-оос ирсэн, англи хэлээр.</translation>
     </message>
+    <message>
+        <source>Performance</source>
+        <translation>Гүйцэтгэл</translation>
+    </message>
+    <message>
+        <source>Render time</source>
+        <translation>Рендерийн хугацаа</translation>
+    </message>
+    <message>
+        <source>SQL statements</source>
+        <translation>SQL хүсэлтүүд</translation>
+    </message>
+    <message>
+        <source>Peak memory</source>
+        <translation>Санах ойн оргил</translation>
+    </message>
+    <message>
+        <source>From the cache</source>
+        <translation>Кэшээс</translation>
+    </message>
+    <message>
+        <source>Generated</source>
+        <translation>Үүсгэсэн</translation>
+    </message>
+    <message>
+        <source>This page carries no figures of its render.</source>
+        <translation>Энэ хуудсанд түүний рендерийн ямар ч тоо алга.</translation>
+    </message>
+    <message>
+        <source>This page came from a cache: it was not rendered for this view. The figures are of the render at %time.</source>
+        <translation>Энэ хуудас кэшээс ирсэн: энэ үзэлтэд зориулж рендерлээгүй. Тоонууд нь %time үеийн рендерийнх.</translation>
+    </message>
+    <message>
+        <source>Only the time and memory: the kernel collects the rest with debug output on for you, or for expwt/performance from Exponential 6.0.15 on.</source>
+        <translation>Зөвхөн хугацаа ба санах ой: үлдсэнийг цөм танд дибаг гаралт асаалттай үед, эсвэл Exponential 6.0.15-аас эхлэн expwt/performance-д цуглуулдаг.</translation>
+    </message>
+    <message>
+        <source>Content view cache</source>
+        <translation>Агуулгын харагдацын кэш</translation>
+    </message>
+    <message>
+        <source>Cache-blocks</source>
+        <translation>Кэш блокууд</translation>
+    </message>
+    <message>
+        <source>%hits of %count from the cache</source>
+        <translation>%count-аас %hits кэшээс</translation>
+    </message>
+    <message>
+        <source>Time per layout block</source>
+        <translation>Байршлын блок тус бүрийн хугацаа</translation>
+    </message>
+    <message>
+        <source>No layout block on this page.</source>
+        <translation>Энэ хуудсанд байршлын блок алга.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

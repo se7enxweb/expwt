@@ -2135,6 +2135,62 @@
         <source>The rule texts come from axe-core, in English.</source>
         <translation>Бакъонийн текстaш axe-core-ера ю, ингалсан маттахь.</translation>
     </message>
+    <message>
+        <source>Performance</source>
+        <translation>Продуктивность</translation>
+    </message>
+    <message>
+        <source>Render time</source>
+        <translation>Рендеран хан</translation>
+    </message>
+    <message>
+        <source>SQL statements</source>
+        <translation>SQL-запросаш</translation>
+    </message>
+    <message>
+        <source>Peak memory</source>
+        <translation>Лакхара эс</translation>
+    </message>
+    <message>
+        <source>From the cache</source>
+        <translation>Кэшера</translation>
+    </message>
+    <message>
+        <source>Generated</source>
+        <translation>Кхоьллина</translation>
+    </message>
+    <message>
+        <source>This page carries no figures of its render.</source>
+        <translation>ХӀокху агӀонан рендеран терахьаш дац.</translation>
+    </message>
+    <message>
+        <source>This page came from a cache: it was not rendered for this view. The figures are of the render at %time.</source>
+        <translation>ХӀара агӀо кэшера еана: хӀокху хьажарна иза рендер ца йина. Терахьаш %time хиллачу рендеран ду.</translation>
+    </message>
+    <message>
+        <source>Only the time and memory: the kernel collects the rest with debug output on for you, or for expwt/performance from Exponential 6.0.15 on.</source>
+        <translation>Хан а, эс а бен: дисинарг ядро гулдо хьуна отладкин арадаккхар дагийча, я expwt/performance-на Exponential 6.0.15 тӀера.</translation>
+    </message>
+    <message>
+        <source>Content view cache</source>
+        <translation>Чулацаман хьажаран кэш</translation>
+    </message>
+    <message>
+        <source>Cache-blocks</source>
+        <translation>Кэш-блокаш</translation>
+    </message>
+    <message>
+        <source>%hits of %count from the cache</source>
+        <translation>%count чуьра %hits кэшера</translation>
+    </message>
+    <message>
+        <source>Time per layout block</source>
+        <translation>Хан хӀора макетан блокана</translation>
+    </message>
+    <message>
+        <source>No layout block on this page.</source>
+        <translation>ХӀокху агӀонгахь макетан блок яц.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

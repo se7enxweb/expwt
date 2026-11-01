@@ -2135,6 +2135,62 @@
         <source>The rule texts come from axe-core, in English.</source>
         <translation>Imibhalo yemigaqo ivela ku-axe-core, ngesiNgesi.</translation>
     </message>
+    <message>
+        <source>Performance</source>
+        <translation>Ukusebenza</translation>
+    </message>
+    <message>
+        <source>Render time</source>
+        <translation>Ixesha lokubonisa</translation>
+    </message>
+    <message>
+        <source>SQL statements</source>
+        <translation>Iingxelo ze-SQL</translation>
+    </message>
+    <message>
+        <source>Peak memory</source>
+        <translation>Eyona memori iphezulu</translation>
+    </message>
+    <message>
+        <source>From the cache</source>
+        <translation>Ukusuka kwi-cache</translation>
+    </message>
+    <message>
+        <source>Generated</source>
+        <translation>Yenziwe</translation>
+    </message>
+    <message>
+        <source>This page carries no figures of its render.</source>
+        <translation>Eli phepha alinawo amanani okuboniswa kwalo.</translation>
+    </message>
+    <message>
+        <source>This page came from a cache: it was not rendered for this view. The figures are of the render at %time.</source>
+        <translation>Eli phepha livela kwi-cache: alizange liboniswe kolu jongo. Amanani ngawokuboniswa nge-%time.</translation>
+    </message>
+    <message>
+        <source>Only the time and memory: the kernel collects the rest with debug output on for you, or for expwt/performance from Exponential 6.0.15 on.</source>
+        <translation>Ixesha nememori kuphela: okunye ikernel ikuqokelela xa imveliso yokulungisa iimpazamo ivuliwe kuwe, okanye kwi-expwt/performance ukusuka kwi-Exponential 6.0.15.</translation>
+    </message>
+    <message>
+        <source>Content view cache</source>
+        <translation>I-cache yokujonga umxholo</translation>
+    </message>
+    <message>
+        <source>Cache-blocks</source>
+        <translation>Iibhloko ze-cache</translation>
+    </message>
+    <message>
+        <source>%hits of %count from the cache</source>
+        <translation>%hits kwezi %count ukusuka kwi-cache</translation>
+    </message>
+    <message>
+        <source>Time per layout block</source>
+        <translation>Ixesha kwibhloko nganye yoyilo</translation>
+    </message>
+    <message>
+        <source>No layout block on this page.</source>
+        <translation>Akukho bhloko yoyilo kweli phepha.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

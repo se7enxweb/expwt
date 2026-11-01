@@ -2135,6 +2135,62 @@
         <source>The rule texts come from axe-core, in English.</source>
         <translation>བཅའ་ཁྲིམས་ཀྱི་ཡིག་ཆ་ཚུ་ axe-core ལས་ཨིན། ཨིན་ཇི་ཁ་ལུ།</translation>
     </message>
+    <message>
+        <source>Performance</source>
+        <translation>ལཱ་གི་ཚད།</translation>
+    </message>
+    <message>
+        <source>Render time</source>
+        <translation>སྟོན་ནིའི་དུས་ཚོད།</translation>
+    </message>
+    <message>
+        <source>SQL statements</source>
+        <translation>SQL བརྗོད་པ།</translation>
+    </message>
+    <message>
+        <source>Peak memory</source>
+        <translation>དྲན་ཚད་མཐོ་ཤོས།</translation>
+    </message>
+    <message>
+        <source>From the cache</source>
+        <translation>འཇོག་མཛོད་ལས།</translation>
+    </message>
+    <message>
+        <source>Generated</source>
+        <translation>བཟོ་ཡོདཔ།</translation>
+    </message>
+    <message>
+        <source>This page carries no figures of its render.</source>
+        <translation>ཤོག་ལེབ་འདི་ནང་ སྟོན་ནིའི་གྱངས་ཁ་ག་ནི་ཡང་མེད།</translation>
+    </message>
+    <message>
+        <source>This page came from a cache: it was not rendered for this view. The figures are of the render at %time.</source>
+        <translation>ཤོག་ལེབ་འདི་ འཇོག་མཛོད་ལས་འོང་ཡོདཔ། བལྟ་ནི་འདི་གི་དོན་ལུ་ སྟོན་མ་བཏུབ། གྱངས་ཁ་ཚུ་ %time ལུ་སྟོན་མི་གི་ཨིན།</translation>
+    </message>
+    <message>
+        <source>Only the time and memory: the kernel collects the rest with debug output on for you, or for expwt/performance from Exponential 6.0.15 on.</source>
+        <translation>དུས་ཚོད་དང་དྲན་ཚད་རྐྱངམ་ཅིག ལྷག་ལུས་ཚུ་ སྙིང་པོ་གིས་ ཁྱོད་ཀྱི་དོན་ལུ་ debug ཐོན་འབྲས་ཕྱེ་བའི་སྐབས་ ཡང་ན་ Exponential 6.0.15 ལས་ expwt/performance གི་དོན་ལུ་ བསྡུ་ལེན་འབདཝ་ཨིན།</translation>
+    </message>
+    <message>
+        <source>Content view cache</source>
+        <translation>ནང་དོན་བལྟ་ནིའི་འཇོག་མཛོད།</translation>
+    </message>
+    <message>
+        <source>Cache-blocks</source>
+        <translation>འཇོག་མཛོད་དུམ་བུ།</translation>
+    </message>
+    <message>
+        <source>%hits of %count from the cache</source>
+        <translation>%count ནང་ལས་ %hits འཇོག་མཛོད་ལས།</translation>
+    </message>
+    <message>
+        <source>Time per layout block</source>
+        <translation>སྒྲིག་བཀོད་དུམ་བུ་རེ་རེའི་དུས་ཚོད།</translation>
+    </message>
+    <message>
+        <source>No layout block on this page.</source>
+        <translation>ཤོག་ལེབ་འདི་ནང་ སྒྲིག་བཀོད་དུམ་བུ་མེད།</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

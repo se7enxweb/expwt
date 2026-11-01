@@ -2135,6 +2135,62 @@
         <source>The rule texts come from axe-core, in English.</source>
         <translation>Rubutun dokokin sun fito daga axe-core, cikin Turanci.</translation>
     </message>
+    <message>
+        <source>Performance</source>
+        <translation>Aiki</translation>
+    </message>
+    <message>
+        <source>Render time</source>
+        <translation>Lokacin nunawa</translation>
+    </message>
+    <message>
+        <source>SQL statements</source>
+        <translation>Bayanan SQL</translation>
+    </message>
+    <message>
+        <source>Peak memory</source>
+        <translation>Mafi girman ƙwaƙwalwa</translation>
+    </message>
+    <message>
+        <source>From the cache</source>
+        <translation>Daga ma'aji</translation>
+    </message>
+    <message>
+        <source>Generated</source>
+        <translation>An samar</translation>
+    </message>
+    <message>
+        <source>This page carries no figures of its render.</source>
+        <translation>Wannan shafi ba shi da alƙaluman nunawarsa.</translation>
+    </message>
+    <message>
+        <source>This page came from a cache: it was not rendered for this view. The figures are of the render at %time.</source>
+        <translation>Wannan shafi ya fito daga ma'aji: ba a nuna shi don wannan kallo ba. Alƙaluman na nunawar da aka yi a %time ne.</translation>
+    </message>
+    <message>
+        <source>Only the time and memory: the kernel collects the rest with debug output on for you, or for expwt/performance from Exponential 6.0.15 on.</source>
+        <translation>Lokaci da ƙwaƙwalwa kawai: kernel yana tattara sauran idan fitarwar gyara kurakurai tana kunne a gare ka, ko don expwt/performance daga Exponential 6.0.15.</translation>
+    </message>
+    <message>
+        <source>Content view cache</source>
+        <translation>Ma'ajin kallon abun ciki</translation>
+    </message>
+    <message>
+        <source>Cache-blocks</source>
+        <translation>Tubalan ma'aji</translation>
+    </message>
+    <message>
+        <source>%hits of %count from the cache</source>
+        <translation>%hits cikin %count daga ma'aji</translation>
+    </message>
+    <message>
+        <source>Time per layout block</source>
+        <translation>Lokaci ga kowane tubalin tsari</translation>
+    </message>
+    <message>
+        <source>No layout block on this page.</source>
+        <translation>Babu tubalin tsari a wannan shafi.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

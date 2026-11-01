@@ -31,7 +31,13 @@ Groups[]=newsletter
 Enabled=true
 Rules[]
 
-# Editing on the page: the kernel marks every rendered attribute (field, object, version) for a user
+# The Performance panel (E12): the kernel collects how each page was rendered (time, SQL, view cache,
+# cache-blocks, the template tree) for a user with expwt/performance also without debug output
+# (Exponential 6.0.15 on; an older kernel ignores the setting and collects with debug output only)
+[DebugSettings]
+CollectStatsPolicyList[]=expwt/performance
+
+# Editing on the page:the kernel marks every rendered attribute (field, object, version) for a user
 # who may edit with the sidebar; visitors' pages stay as they are
 [ContentFieldMarkerSettings]
 Handlers[]=expwtFieldMarkerHandler

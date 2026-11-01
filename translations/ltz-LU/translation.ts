@@ -2135,6 +2135,62 @@
         <source>The rule texts come from axe-core, in English.</source>
         <translation>D'Texter vun de Reegele kommen aus axe-core, op Englesch.</translation>
     </message>
+    <message>
+        <source>Performance</source>
+        <translation>Leeschtung</translation>
+    </message>
+    <message>
+        <source>Render time</source>
+        <translation>Renderzäit</translation>
+    </message>
+    <message>
+        <source>SQL statements</source>
+        <translation>SQL-Uweisungen</translation>
+    </message>
+    <message>
+        <source>Peak memory</source>
+        <translation>Spëtzespäicher</translation>
+    </message>
+    <message>
+        <source>From the cache</source>
+        <translation>Aus dem Cache</translation>
+    </message>
+    <message>
+        <source>Generated</source>
+        <translation>Generéiert</translation>
+    </message>
+    <message>
+        <source>This page carries no figures of its render.</source>
+        <translation>Dës Säit huet keng Zuelen iwwer hiert Renneren.</translation>
+    </message>
+    <message>
+        <source>This page came from a cache: it was not rendered for this view. The figures are of the render at %time.</source>
+        <translation>Dës Säit koum aus engem Cache: si gouf fir dësen Opruff net gerennert. D'Zuelen sinn vum Renneren um %time.</translation>
+    </message>
+    <message>
+        <source>Only the time and memory: the kernel collects the rest with debug output on for you, or for expwt/performance from Exponential 6.0.15 on.</source>
+        <translation>Nëmmen Zäit a Späicher: de Rescht sammelt de Kernel mat ageschalter Debug-Ausgab fir Iech, oder fir expwt/performance ab Exponential 6.0.15.</translation>
+    </message>
+    <message>
+        <source>Content view cache</source>
+        <translation>Cache vun der Inhaltsusiicht</translation>
+    </message>
+    <message>
+        <source>Cache-blocks</source>
+        <translation>Cache-Blocken</translation>
+    </message>
+    <message>
+        <source>%hits of %count from the cache</source>
+        <translation>%hits vun %count aus dem Cache</translation>
+    </message>
+    <message>
+        <source>Time per layout block</source>
+        <translation>Zäit pro Layout-Block</translation>
+    </message>
+    <message>
+        <source>No layout block on this page.</source>
+        <translation>Kee Layout-Block op dëser Säit.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

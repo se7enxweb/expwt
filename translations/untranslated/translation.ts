@@ -2135,6 +2135,62 @@
         <source>The rule texts come from axe-core, in English.</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Performance</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Render time</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>SQL statements</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Peak memory</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>From the cache</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Generated</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>This page carries no figures of its render.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>This page came from a cache: it was not rendered for this view. The figures are of the render at %time.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Only the time and memory: the kernel collects the rest with debug output on for you, or for expwt/performance from Exponential 6.0.15 on.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Content view cache</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Cache-blocks</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>%hits of %count from the cache</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Time per layout block</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>No layout block on this page.</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

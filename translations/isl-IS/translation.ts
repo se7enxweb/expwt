@@ -2135,6 +2135,62 @@
         <source>The rule texts come from axe-core, in English.</source>
         <translation>Textar reglnanna koma úr axe-core, á ensku.</translation>
     </message>
+    <message>
+        <source>Performance</source>
+        <translation>Afköst</translation>
+    </message>
+    <message>
+        <source>Render time</source>
+        <translation>Birtingartími</translation>
+    </message>
+    <message>
+        <source>SQL statements</source>
+        <translation>SQL-skipanir</translation>
+    </message>
+    <message>
+        <source>Peak memory</source>
+        <translation>Hámarksminni</translation>
+    </message>
+    <message>
+        <source>From the cache</source>
+        <translation>Úr skyndiminni</translation>
+    </message>
+    <message>
+        <source>Generated</source>
+        <translation>Búin til</translation>
+    </message>
+    <message>
+        <source>This page carries no figures of its render.</source>
+        <translation>Þessi síða ber engar tölur um birtingu sína.</translation>
+    </message>
+    <message>
+        <source>This page came from a cache: it was not rendered for this view. The figures are of the render at %time.</source>
+        <translation>Þessi síða kom úr skyndiminni: hún var ekki birt fyrir þessa skoðun. Tölurnar eru frá birtingunni kl. %time.</translation>
+    </message>
+    <message>
+        <source>Only the time and memory: the kernel collects the rest with debug output on for you, or for expwt/performance from Exponential 6.0.15 on.</source>
+        <translation>Aðeins tími og minni: kjarninn safnar restinni með villuleitarúttak kveikt fyrir þig, eða fyrir expwt/performance frá Exponential 6.0.15.</translation>
+    </message>
+    <message>
+        <source>Content view cache</source>
+        <translation>Skyndiminni efnissýnar</translation>
+    </message>
+    <message>
+        <source>Cache-blocks</source>
+        <translation>Skyndiminnisblokkir</translation>
+    </message>
+    <message>
+        <source>%hits of %count from the cache</source>
+        <translation>%hits af %count úr skyndiminni</translation>
+    </message>
+    <message>
+        <source>Time per layout block</source>
+        <translation>Tími á hverja útlitsblokk</translation>
+    </message>
+    <message>
+        <source>No layout block on this page.</source>
+        <translation>Engin útlitsblokk á þessari síðu.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

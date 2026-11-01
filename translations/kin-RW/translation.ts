@@ -2135,6 +2135,62 @@
         <source>The rule texts come from axe-core, in English.</source>
         <translation>Inyandiko z'amategeko ziva muri axe-core, mu Cyongereza.</translation>
     </message>
+    <message>
+        <source>Performance</source>
+        <translation>Imikorere</translation>
+    </message>
+    <message>
+        <source>Render time</source>
+        <translation>Igihe cyo kugaragaza</translation>
+    </message>
+    <message>
+        <source>SQL statements</source>
+        <translation>Amabwiriza ya SQL</translation>
+    </message>
+    <message>
+        <source>Peak memory</source>
+        <translation>Ububiko bwo hejuru</translation>
+    </message>
+    <message>
+        <source>From the cache</source>
+        <translation>Biva mu bubiko bw'agateganyo</translation>
+    </message>
+    <message>
+        <source>Generated</source>
+        <translation>Byakozwe</translation>
+    </message>
+    <message>
+        <source>This page carries no figures of its render.</source>
+        <translation>Uru rupapuro nta mibare rufite y'igaragazwa ryarwo.</translation>
+    </message>
+    <message>
+        <source>This page came from a cache: it was not rendered for this view. The figures are of the render at %time.</source>
+        <translation>Uru rupapuro rwaturutse mu bubiko bw'agateganyo: ntirwagaragajwe kuri uku kureba. Imibare ni iy'igaragazwa ryo ku %time.</translation>
+    </message>
+    <message>
+        <source>Only the time and memory: the kernel collects the rest with debug output on for you, or for expwt/performance from Exponential 6.0.15 on.</source>
+        <translation>Igihe n'ububiko gusa: ibindi byegeranywa na kernel iyo ibisohoka byo gukosora amakosa bifunguye kuri wowe, cyangwa kuri expwt/performance guhera kuri Exponential 6.0.15.</translation>
+    </message>
+    <message>
+        <source>Content view cache</source>
+        <translation>Ububiko bw'agateganyo bwo kureba ibikubiyemo</translation>
+    </message>
+    <message>
+        <source>Cache-blocks</source>
+        <translation>Ibice by'ububiko bw'agateganyo</translation>
+    </message>
+    <message>
+        <source>%hits of %count from the cache</source>
+        <translation>%hits kuri %count biva mu bubiko bw'agateganyo</translation>
+    </message>
+    <message>
+        <source>Time per layout block</source>
+        <translation>Igihe kuri buri gice cy'imiterere</translation>
+    </message>
+    <message>
+        <source>No layout block on this page.</source>
+        <translation>Nta gice cy'imiterere kiri kuri uru rupapuro.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

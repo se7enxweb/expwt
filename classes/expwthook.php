@@ -196,14 +196,19 @@ class expwtHook
                 $ini->setVariable( 'DebugSettings', 'DebugOutput', 'disabled' );
                 return $html;
             }
-            if ( !is_string( $html ) || stripos( $html, '</body>' ) === false || strpos( $html, '<' . self::TAG ) !== false )
+            if ( !is_string( $html ) || stripos( $html, '</body>' ) === false )
                 return $html;
-            $settings = expwtSettings::fromIni();
-            // not on this siteaccess (an administration without ShowInAdmin=enabled, SiteAccessList[], SiteAccessExcludeList[]): off
-            $settings['enabled'] = expwtSettings::onHere( $settings ) && !self::inFrame();
-            if ( !$settings['enabled'] || !$settings['inject_without_hook'] )
-                return $html;
-            return self::inject( $html, self::markup( self::context( self::currentNodeId() ) ) );
+            if ( strpos( $html, '<' . self::TAG ) === false )
+            {
+                $settings = expwtSettings::fromIni();
+                // not on this siteaccess (an administration without ShowInAdmin=enabled, SiteAccessList[], SiteAccessExcludeList[]): off
+                $settings['enabled'] = expwtSettings::onHere( $settings ) && !self::inFrame();
+                if ( !$settings['enabled'] || !$settings['inject_without_hook'] )
+                    return $html;
+                $html = self::inject( $html, self::markup( self::context( self::currentNodeId() ) ) );
+            }
+            // E12: how this page was rendered, on the sidebar's element, for a user with expwt/performance only
+            return class_exists( 'expwtPerformance' ) ? expwtPerformance::preOutput( $html ) : $html;
         }
         catch ( Exception $e )
         {

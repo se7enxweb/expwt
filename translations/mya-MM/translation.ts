@@ -2135,6 +2135,62 @@
         <source>The rule texts come from axe-core, in English.</source>
         <translation>စည်းမျဉ်းစာသားများသည် axe-core မှ ဖြစ်ပြီး အင်္ဂလိပ်ဘာသာဖြင့် ဖြစ်သည်။</translation>
     </message>
+    <message>
+        <source>Performance</source>
+        <translation>စွမ်းဆောင်ရည်</translation>
+    </message>
+    <message>
+        <source>Render time</source>
+        <translation>ပြသချိန်</translation>
+    </message>
+    <message>
+        <source>SQL statements</source>
+        <translation>SQL ကြေညာချက်များ</translation>
+    </message>
+    <message>
+        <source>Peak memory</source>
+        <translation>အမြင့်ဆုံး မှတ်ဉာဏ်</translation>
+    </message>
+    <message>
+        <source>From the cache</source>
+        <translation>ကက်ရှ်မှ</translation>
+    </message>
+    <message>
+        <source>Generated</source>
+        <translation>ထုတ်လုပ်ပြီး</translation>
+    </message>
+    <message>
+        <source>This page carries no figures of its render.</source>
+        <translation>ဤစာမျက်နှာတွင် ၎င်း၏ ပြသမှု ကိန်းဂဏန်း မရှိပါ။</translation>
+    </message>
+    <message>
+        <source>This page came from a cache: it was not rendered for this view. The figures are of the render at %time.</source>
+        <translation>ဤစာမျက်နှာသည် ကက်ရှ်မှ လာခြင်းဖြစ်သည်- ဤကြည့်ရှုမှုအတွက် ပြသမထုတ်ပါ။ ကိန်းဂဏန်းများသည် %time ၏ ပြသမှုမှ ဖြစ်သည်။</translation>
+    </message>
+    <message>
+        <source>Only the time and memory: the kernel collects the rest with debug output on for you, or for expwt/performance from Exponential 6.0.15 on.</source>
+        <translation>အချိန်နှင့် မှတ်ဉာဏ်သာ- ကျန်ရှိသည်များကို သင့်အတွက် debug output ဖွင့်ထားချိန်တွင်၊ သို့မဟုတ် Exponential 6.0.15 မှစ၍ expwt/performance အတွက် kernel က စုဆောင်းသည်။</translation>
+    </message>
+    <message>
+        <source>Content view cache</source>
+        <translation>အကြောင်းအရာ မြင်ကွင်း ကက်ရှ်</translation>
+    </message>
+    <message>
+        <source>Cache-blocks</source>
+        <translation>ကက်ရှ် ဘလောက်များ</translation>
+    </message>
+    <message>
+        <source>%hits of %count from the cache</source>
+        <translation>%count ခုအနက် %hits ခု ကက်ရှ်မှ</translation>
+    </message>
+    <message>
+        <source>Time per layout block</source>
+        <translation>layout ဘလောက်တစ်ခုစီ၏ အချိန်</translation>
+    </message>
+    <message>
+        <source>No layout block on this page.</source>
+        <translation>ဤစာမျက်နှာတွင် layout ဘလောက် မရှိပါ။</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

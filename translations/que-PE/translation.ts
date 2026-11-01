@@ -2135,6 +2135,62 @@
         <source>The rule texts come from axe-core, in English.</source>
         <translation>Kamachikuykunap qillqankunaqa axe-coremanta hamun, inglés simipi.</translation>
     </message>
+    <message>
+        <source>Performance</source>
+        <translation>Llamkay</translation>
+    </message>
+    <message>
+        <source>Render time</source>
+        <translation>Rikuchiy pacha</translation>
+    </message>
+    <message>
+        <source>SQL statements</source>
+        <translation>SQL kamachikuykuna</translation>
+    </message>
+    <message>
+        <source>Peak memory</source>
+        <translation>Aswan hatun yuyay</translation>
+    </message>
+    <message>
+        <source>From the cache</source>
+        <translation>Cache nisqamanta</translation>
+    </message>
+    <message>
+        <source>Generated</source>
+        <translation>Paqarichisqa</translation>
+    </message>
+    <message>
+        <source>This page carries no figures of its render.</source>
+        <translation>Kay paginaqa manam rikuchisqanmanta yupaykunata apanchu.</translation>
+    </message>
+    <message>
+        <source>This page came from a cache: it was not rendered for this view. The figures are of the render at %time.</source>
+        <translation>Kay paginaqa huk cache nisqamantam hamurqan: manam kay qhawanapaq rikuchisqachu karqan. Yupaykunaqa %time pachapi rikuchisqamantam.</translation>
+    </message>
+    <message>
+        <source>Only the time and memory: the kernel collects the rest with debug output on for you, or for expwt/performance from Exponential 6.0.15 on.</source>
+        <translation>Pachallata yuyaytawan: kernel nisqam puchuqta huñun qampaq debug lluqsiy kichasqa kaptin, utaq expwt/performance nisqapaq Exponential 6.0.15 nisqamanta.</translation>
+    </message>
+    <message>
+        <source>Content view cache</source>
+        <translation>Contenido qhawanap cache nisqan</translation>
+    </message>
+    <message>
+        <source>Cache-blocks</source>
+        <translation>Cache rak'ikuna</translation>
+    </message>
+    <message>
+        <source>%hits of %count from the cache</source>
+        <translation>%count nisqamanta %hits cache nisqamanta</translation>
+    </message>
+    <message>
+        <source>Time per layout block</source>
+        <translation>Sapa layout rak'ipaq pacha</translation>
+    </message>
+    <message>
+        <source>No layout block on this page.</source>
+        <translation>Manam kay paginapi layout rak'i kanchu.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

@@ -2135,6 +2135,62 @@
         <source>The rule texts come from axe-core, in English.</source>
         <translation>اصولن جا متن axe-core مان اچن ٿا، انگريزيءَ ۾.</translation>
     </message>
+    <message>
+        <source>Performance</source>
+        <translation>ڪارڪردگي</translation>
+    </message>
+    <message>
+        <source>Render time</source>
+        <translation>رينڊر جو وقت</translation>
+    </message>
+    <message>
+        <source>SQL statements</source>
+        <translation>SQL بيان</translation>
+    </message>
+    <message>
+        <source>Peak memory</source>
+        <translation>وڌ ۾ وڌ ميموري</translation>
+    </message>
+    <message>
+        <source>From the cache</source>
+        <translation>ڪيش مان</translation>
+    </message>
+    <message>
+        <source>Generated</source>
+        <translation>ٺاهيل</translation>
+    </message>
+    <message>
+        <source>This page carries no figures of its render.</source>
+        <translation>هن صفحي تي ان جي رينڊر جا ڪي انگ اکر ناهن.</translation>
+    </message>
+    <message>
+        <source>This page came from a cache: it was not rendered for this view. The figures are of the render at %time.</source>
+        <translation>هي صفحو ڪيش مان آيو آهي: هن ڏسڻ لاءِ ان کي رينڊر نه ڪيو ويو. انگ اکر %time جي رينڊر جا آهن.</translation>
+    </message>
+    <message>
+        <source>Only the time and memory: the kernel collects the rest with debug output on for you, or for expwt/performance from Exponential 6.0.15 on.</source>
+        <translation>رڳو وقت ۽ ميموري: باقي ڪرنل تڏهن گڏ ڪري ٿو جڏهن توهان لاءِ ڊيبگ آئوٽ پٽ چالو هجي، يا Exponential 6.0.15 کان expwt/performance لاءِ.</translation>
+    </message>
+    <message>
+        <source>Content view cache</source>
+        <translation>مواد ڏيک ڪيش</translation>
+    </message>
+    <message>
+        <source>Cache-blocks</source>
+        <translation>ڪيش بلاڪ</translation>
+    </message>
+    <message>
+        <source>%hits of %count from the cache</source>
+        <translation>%count مان %hits ڪيش مان</translation>
+    </message>
+    <message>
+        <source>Time per layout block</source>
+        <translation>هر ليآئوٽ بلاڪ جو وقت</translation>
+    </message>
+    <message>
+        <source>No layout block on this page.</source>
+        <translation>هن صفحي تي ڪو ليآئوٽ بلاڪ ناهي.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

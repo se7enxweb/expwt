@@ -2135,6 +2135,62 @@
         <source>The rule texts come from axe-core, in English.</source>
         <translation>Կանոնների տեքստերը axe-core-ից են, անգլերենով:</translation>
     </message>
+    <message>
+        <source>Performance</source>
+        <translation>Արտադրողականություն</translation>
+    </message>
+    <message>
+        <source>Render time</source>
+        <translation>Արտապատկերման ժամանակ</translation>
+    </message>
+    <message>
+        <source>SQL statements</source>
+        <translation>SQL հրահանգներ</translation>
+    </message>
+    <message>
+        <source>Peak memory</source>
+        <translation>Հիշողության գագաթ</translation>
+    </message>
+    <message>
+        <source>From the cache</source>
+        <translation>Քեշից</translation>
+    </message>
+    <message>
+        <source>Generated</source>
+        <translation>Ստեղծված</translation>
+    </message>
+    <message>
+        <source>This page carries no figures of its render.</source>
+        <translation>Այս էջը չունի իր արտապատկերման թվեր։</translation>
+    </message>
+    <message>
+        <source>This page came from a cache: it was not rendered for this view. The figures are of the render at %time.</source>
+        <translation>Այս էջը եկել է քեշից. այն չի արտապատկերվել այս դիտման համար։ Թվերը %time-ի արտապատկերմանն են։</translation>
+    </message>
+    <message>
+        <source>Only the time and memory: the kernel collects the rest with debug output on for you, or for expwt/performance from Exponential 6.0.15 on.</source>
+        <translation>Միայն ժամանակը և հիշողությունը. մնացածը միջուկը հավաքում է, երբ վրիպազերծման ելքը միացված է ձեզ համար, կամ expwt/performance-ի համար Exponential 6.0.15-ից սկսած։</translation>
+    </message>
+    <message>
+        <source>Content view cache</source>
+        <translation>Բովանդակության դիտման քեշ</translation>
+    </message>
+    <message>
+        <source>Cache-blocks</source>
+        <translation>Քեշ-բլոկներ</translation>
+    </message>
+    <message>
+        <source>%hits of %count from the cache</source>
+        <translation>%count-ից %hits-ը քեշից</translation>
+    </message>
+    <message>
+        <source>Time per layout block</source>
+        <translation>Ժամանակ յուրաքանչյուր դասավորության բլոկի համար</translation>
+    </message>
+    <message>
+        <source>No layout block on this page.</source>
+        <translation>Այս էջում դասավորության բլոկ չկա։</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

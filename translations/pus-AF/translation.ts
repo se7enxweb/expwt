@@ -2135,6 +2135,62 @@
         <source>The rule texts come from axe-core, in English.</source>
         <translation>د قاعدو متنونه له axe-core څخه دي، په انګلیسي.</translation>
     </message>
+    <message>
+        <source>Performance</source>
+        <translation>فعالیت</translation>
+    </message>
+    <message>
+        <source>Render time</source>
+        <translation>د رینډر وخت</translation>
+    </message>
+    <message>
+        <source>SQL statements</source>
+        <translation>SQL بیانونه</translation>
+    </message>
+    <message>
+        <source>Peak memory</source>
+        <translation>تر ټولو لوړه حافظه</translation>
+    </message>
+    <message>
+        <source>From the cache</source>
+        <translation>له کش څخه</translation>
+    </message>
+    <message>
+        <source>Generated</source>
+        <translation>جوړ شوی</translation>
+    </message>
+    <message>
+        <source>This page carries no figures of its render.</source>
+        <translation>دا پاڼه د خپل رینډر هیڅ شمېرې نه لري.</translation>
+    </message>
+    <message>
+        <source>This page came from a cache: it was not rendered for this view. The figures are of the render at %time.</source>
+        <translation>دا پاڼه له یوه کش څخه راغلې: د دې کتنې لپاره نه ده رینډر شوې. شمېرې د %time د رینډر دي.</translation>
+    </message>
+    <message>
+        <source>Only the time and memory: the kernel collects the rest with debug output on for you, or for expwt/performance from Exponential 6.0.15 on.</source>
+        <translation>یوازې وخت او حافظه: پاتې نور کرنل هغه وخت راټولوي چې ستاسو لپاره د ډیبګ وتنه فعاله وي، یا د expwt/performance لپاره له Exponential 6.0.15 څخه وروسته.</translation>
+    </message>
+    <message>
+        <source>Content view cache</source>
+        <translation>د منځپانګې د لید کش</translation>
+    </message>
+    <message>
+        <source>Cache-blocks</source>
+        <translation>د کش بلاکونه</translation>
+    </message>
+    <message>
+        <source>%hits of %count from the cache</source>
+        <translation>له %count څخه %hits له کش څخه</translation>
+    </message>
+    <message>
+        <source>Time per layout block</source>
+        <translation>د هر ترتیب بلاک وخت</translation>
+    </message>
+    <message>
+        <source>No layout block on this page.</source>
+        <translation>په دې پاڼه کې د ترتیب بلاک نشته.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

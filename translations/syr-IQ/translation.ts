@@ -2135,6 +2135,62 @@
         <source>The rule texts come from axe-core, in English.</source>
         <translation>ܟܬܒ̈ܐ ܕܢܡܘ̈ܣܐ ܐܬܝܢ ܡܢ axe-core، ܒܠܫܢܐ ܐܢܓܠܝܐ.</translation>
     </message>
+    <message>
+        <source>Performance</source>
+        <translation>ܥܒܕܢܘܬܐ</translation>
+    </message>
+    <message>
+        <source>Render time</source>
+        <translation>ܙܒܢܐ ܕܨܘܪܬܐ</translation>
+    </message>
+    <message>
+        <source>SQL statements</source>
+        <translation>ܦܬܓ̈ܡܐ SQL</translation>
+    </message>
+    <message>
+        <source>Peak memory</source>
+        <translation>ܥܘܗܕܢܐ ܥܠܝܐ</translation>
+    </message>
+    <message>
+        <source>From the cache</source>
+        <translation>ܡܢ ܓܢܙܐ</translation>
+    </message>
+    <message>
+        <source>Generated</source>
+        <translation>ܐܬܥܒܕ</translation>
+    </message>
+    <message>
+        <source>This page carries no figures of its render.</source>
+        <translation>ܦܐܬܐ ܗܕܐ ܠܝܬ ܒܗ ܡܢܝܢܐ ܕܨܘܪܬܗ.</translation>
+    </message>
+    <message>
+        <source>This page came from a cache: it was not rendered for this view. The figures are of the render at %time.</source>
+        <translation>ܦܐܬܐ ܗܕܐ ܐܬܬ ܡܢ ܓܢܙܐ: ܠܐ ܐܬܨܝܪܬ ܠܚܙܬܐ ܗܕܐ. ܡܢܝܢܐ ܕܨܘܪܬܐ ܕܒ %time ܐܢܘܢ.</translation>
+    </message>
+    <message>
+        <source>Only the time and memory: the kernel collects the rest with debug output on for you, or for expwt/performance from Exponential 6.0.15 on.</source>
+        <translation>ܙܒܢܐ ܘܥܘܗܕܢܐ ܒܠܚܘܕ: ܩܪܢܐ ܟܢܫ ܫܪܟܐ ܟܕ ܡܦܩܢܐ ܕܬܘܪܨܐ ܦܬܝܚ ܠܟ، ܐܘ ܠ expwt/performance ܡܢ Exponential 6.0.15 ܘܠܗܠ.</translation>
+    </message>
+    <message>
+        <source>Content view cache</source>
+        <translation>ܓܢܙܐ ܕܚܙܬܐ ܕܬܘܟܢܐ</translation>
+    </message>
+    <message>
+        <source>Cache-blocks</source>
+        <translation>ܦܠܓܘܬ̈ܐ ܕܓܢܙܐ</translation>
+    </message>
+    <message>
+        <source>%hits of %count from the cache</source>
+        <translation>%hits ܡܢ %count ܡܢ ܓܢܙܐ</translation>
+    </message>
+    <message>
+        <source>Time per layout block</source>
+        <translation>ܙܒܢܐ ܠܟܠ ܦܠܓܘܬܐ ܕܣܘܕܪܐ</translation>
+    </message>
+    <message>
+        <source>No layout block on this page.</source>
+        <translation>ܠܝܬ ܦܠܓܘܬܐ ܕܣܘܕܪܐ ܒܦܐܬܐ ܗܕܐ.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

@@ -2135,6 +2135,62 @@
         <source>The rule texts come from axe-core, in English.</source>
         <translation>नियमक पाठ axe-core सँ अबैत अछि, अंग्रेजीमे।</translation>
     </message>
+    <message>
+        <source>Performance</source>
+        <translation>प्रदर्शन</translation>
+    </message>
+    <message>
+        <source>Render time</source>
+        <translation>रेंडर समय</translation>
+    </message>
+    <message>
+        <source>SQL statements</source>
+        <translation>SQL कथन</translation>
+    </message>
+    <message>
+        <source>Peak memory</source>
+        <translation>अधिकतम मेमोरी</translation>
+    </message>
+    <message>
+        <source>From the cache</source>
+        <translation>कैश सँ</translation>
+    </message>
+    <message>
+        <source>Generated</source>
+        <translation>बनाओल गेल</translation>
+    </message>
+    <message>
+        <source>This page carries no figures of its render.</source>
+        <translation>एहि पृष्ठ पर एकर रेंडरक कोनो आँकड़ा नहि अछि।</translation>
+    </message>
+    <message>
+        <source>This page came from a cache: it was not rendered for this view. The figures are of the render at %time.</source>
+        <translation>ई पृष्ठ कैश सँ आएल अछि: एहि देखबाक लेल एकरा रेंडर नहि कएल गेल। आँकड़ा %time क रेंडरक अछि।</translation>
+    </message>
+    <message>
+        <source>Only the time and memory: the kernel collects the rest with debug output on for you, or for expwt/performance from Exponential 6.0.15 on.</source>
+        <translation>मात्र समय आ मेमोरी: बाँकी कर्नेल तखन जमा करैत अछि जखन अहाँक लेल डिबग आउटपुट चालू हो, वा Exponential 6.0.15 सँ expwt/performance क लेल।</translation>
+    </message>
+    <message>
+        <source>Content view cache</source>
+        <translation>सामग्री दृश्य कैश</translation>
+    </message>
+    <message>
+        <source>Cache-blocks</source>
+        <translation>कैश-ब्लॉक</translation>
+    </message>
+    <message>
+        <source>%hits of %count from the cache</source>
+        <translation>%count मे सँ %hits कैश सँ</translation>
+    </message>
+    <message>
+        <source>Time per layout block</source>
+        <translation>प्रति लेआउट ब्लॉक समय</translation>
+    </message>
+    <message>
+        <source>No layout block on this page.</source>
+        <translation>एहि पृष्ठ पर कोनो लेआउट ब्लॉक नहि अछि।</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

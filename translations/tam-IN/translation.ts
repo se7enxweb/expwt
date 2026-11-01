@@ -2135,6 +2135,62 @@
         <source>The rule texts come from axe-core, in English.</source>
         <translation>விதிகளின் உரைகள் axe-core இலிருந்து வருகின்றன, ஆங்கிலத்தில்.</translation>
     </message>
+    <message>
+        <source>Performance</source>
+        <translation>செயல்திறன்</translation>
+    </message>
+    <message>
+        <source>Render time</source>
+        <translation>ரெண்டர் நேரம்</translation>
+    </message>
+    <message>
+        <source>SQL statements</source>
+        <translation>SQL கூற்றுகள்</translation>
+    </message>
+    <message>
+        <source>Peak memory</source>
+        <translation>உச்ச நினைவகம்</translation>
+    </message>
+    <message>
+        <source>From the cache</source>
+        <translation>தற்காலிக சேமிப்பிலிருந்து</translation>
+    </message>
+    <message>
+        <source>Generated</source>
+        <translation>உருவாக்கப்பட்டது</translation>
+    </message>
+    <message>
+        <source>This page carries no figures of its render.</source>
+        <translation>இந்தப் பக்கத்தில் அதன் ரெண்டரின் எந்த எண்ணிக்கையும் இல்லை.</translation>
+    </message>
+    <message>
+        <source>This page came from a cache: it was not rendered for this view. The figures are of the render at %time.</source>
+        <translation>இந்தப் பக்கம் தற்காலிக சேமிப்பிலிருந்து வந்தது: இந்தப் பார்வைக்காக இது ரெண்டர் செய்யப்படவில்லை. எண்ணிக்கைகள் %time இல் நடந்த ரெண்டருடையவை.</translation>
+    </message>
+    <message>
+        <source>Only the time and memory: the kernel collects the rest with debug output on for you, or for expwt/performance from Exponential 6.0.15 on.</source>
+        <translation>நேரமும் நினைவகமும் மட்டும்: மீதியை கெர்னல் உங்களுக்குப் பிழைத்திருத்த வெளியீடு இயக்கத்தில் இருக்கும்போது, அல்லது Exponential 6.0.15 முதல் expwt/performance க்காக சேகரிக்கிறது.</translation>
+    </message>
+    <message>
+        <source>Content view cache</source>
+        <translation>உள்ளடக்கப் பார்வை தற்காலிக சேமிப்பு</translation>
+    </message>
+    <message>
+        <source>Cache-blocks</source>
+        <translation>தற்காலிக சேமிப்புத் தொகுதிகள்</translation>
+    </message>
+    <message>
+        <source>%hits of %count from the cache</source>
+        <translation>%count இல் %hits தற்காலிக சேமிப்பிலிருந்து</translation>
+    </message>
+    <message>
+        <source>Time per layout block</source>
+        <translation>ஒவ்வொரு தளவமைப்புத் தொகுதிக்கான நேரம்</translation>
+    </message>
+    <message>
+        <source>No layout block on this page.</source>
+        <translation>இந்தப் பக்கத்தில் தளவமைப்புத் தொகுதி இல்லை.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

@@ -2135,6 +2135,62 @@
         <source>The rule texts come from axe-core, in English.</source>
         <translation>წესების ტექსტები axe-core-იდანაა, ინგლისურად.</translation>
     </message>
+    <message>
+        <source>Performance</source>
+        <translation>წარმადობა</translation>
+    </message>
+    <message>
+        <source>Render time</source>
+        <translation>რენდერის დრო</translation>
+    </message>
+    <message>
+        <source>SQL statements</source>
+        <translation>SQL ბრძანებები</translation>
+    </message>
+    <message>
+        <source>Peak memory</source>
+        <translation>მეხსიერების პიკი</translation>
+    </message>
+    <message>
+        <source>From the cache</source>
+        <translation>ქეშიდან</translation>
+    </message>
+    <message>
+        <source>Generated</source>
+        <translation>გენერირებული</translation>
+    </message>
+    <message>
+        <source>This page carries no figures of its render.</source>
+        <translation>ამ გვერდს არ აქვს თავისი რენდერის მონაცემები.</translation>
+    </message>
+    <message>
+        <source>This page came from a cache: it was not rendered for this view. The figures are of the render at %time.</source>
+        <translation>ეს გვერდი ქეშიდან მოვიდა: ამ ნახვისთვის არ დარენდერებულა. მონაცემები ეკუთვნის %time-ის რენდერს.</translation>
+    </message>
+    <message>
+        <source>Only the time and memory: the kernel collects the rest with debug output on for you, or for expwt/performance from Exponential 6.0.15 on.</source>
+        <translation>მხოლოდ დრო და მეხსიერება: დანარჩენს ბირთვი აგროვებს, როცა თქვენთვის გამართვის გამოტანა ჩართულია, ან expwt/performance-ისთვის Exponential 6.0.15-დან.</translation>
+    </message>
+    <message>
+        <source>Content view cache</source>
+        <translation>შიგთავსის ხედის ქეში</translation>
+    </message>
+    <message>
+        <source>Cache-blocks</source>
+        <translation>ქეშ-ბლოკები</translation>
+    </message>
+    <message>
+        <source>%hits of %count from the cache</source>
+        <translation>%count-დან %hits ქეშიდან</translation>
+    </message>
+    <message>
+        <source>Time per layout block</source>
+        <translation>დრო განლაგების თითო ბლოკზე</translation>
+    </message>
+    <message>
+        <source>No layout block on this page.</source>
+        <translation>ამ გვერდზე განლაგების ბლოკი არ არის.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

@@ -2135,6 +2135,62 @@
         <source>The rule texts come from axe-core, in English.</source>
         <translation>اصولاں دیاں لکھتاں axe-core توں آندیاں نیں، انگریزی وچ۔</translation>
     </message>
+    <message>
+        <source>Performance</source>
+        <translation>کارکردگی</translation>
+    </message>
+    <message>
+        <source>Render time</source>
+        <translation>رینڈر ویلا</translation>
+    </message>
+    <message>
+        <source>SQL statements</source>
+        <translation>SQL بیان</translation>
+    </message>
+    <message>
+        <source>Peak memory</source>
+        <translation>سب توں ودھ میموری</translation>
+    </message>
+    <message>
+        <source>From the cache</source>
+        <translation>کیش توں</translation>
+    </message>
+    <message>
+        <source>Generated</source>
+        <translation>بنایا گیا</translation>
+    </message>
+    <message>
+        <source>This page carries no figures of its render.</source>
+        <translation>ایس صفحے تے ایہدے رینڈر دے کوئی انکڑے نئیں۔</translation>
+    </message>
+    <message>
+        <source>This page came from a cache: it was not rendered for this view. The figures are of the render at %time.</source>
+        <translation>ایہہ صفحہ کیش توں آیا اے: ایس ویکھن لئی ایہنوں رینڈر نئیں کیتا گیا۔ انکڑے %time دے رینڈر دے نیں۔</translation>
+    </message>
+    <message>
+        <source>Only the time and memory: the kernel collects the rest with debug output on for you, or for expwt/performance from Exponential 6.0.15 on.</source>
+        <translation>صرف ویلا تے میموری: باقی کرنل اودوں اکٹھا کردا اے جدوں تہاڈے لئی ڈیبگ آؤٹ پٹ چالو ہووے، یا Exponential 6.0.15 توں expwt/performance لئی۔</translation>
+    </message>
+    <message>
+        <source>Content view cache</source>
+        <translation>مواد ویو کیش</translation>
+    </message>
+    <message>
+        <source>Cache-blocks</source>
+        <translation>کیش بلاک</translation>
+    </message>
+    <message>
+        <source>%hits of %count from the cache</source>
+        <translation>%count وچوں %hits کیش توں</translation>
+    </message>
+    <message>
+        <source>Time per layout block</source>
+        <translation>ہر لے آؤٹ بلاک دا ویلا</translation>
+    </message>
+    <message>
+        <source>No layout block on this page.</source>
+        <translation>ایس صفحے تے کوئی لے آؤٹ بلاک نئیں۔</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

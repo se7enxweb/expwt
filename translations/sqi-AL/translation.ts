@@ -2135,6 +2135,62 @@
         <source>The rule texts come from axe-core, in English.</source>
         <translation>Tekstet e rregullave vijnë nga axe-core, në anglisht.</translation>
     </message>
+    <message>
+        <source>Performance</source>
+        <translation>Performanca</translation>
+    </message>
+    <message>
+        <source>Render time</source>
+        <translation>Koha e renderimit</translation>
+    </message>
+    <message>
+        <source>SQL statements</source>
+        <translation>Deklarata SQL</translation>
+    </message>
+    <message>
+        <source>Peak memory</source>
+        <translation>Kulmi i kujtesës</translation>
+    </message>
+    <message>
+        <source>From the cache</source>
+        <translation>Nga memoria e përkohshme</translation>
+    </message>
+    <message>
+        <source>Generated</source>
+        <translation>E gjeneruar</translation>
+    </message>
+    <message>
+        <source>This page carries no figures of its render.</source>
+        <translation>Kjo faqe nuk mbart shifra për renderimin e saj.</translation>
+    </message>
+    <message>
+        <source>This page came from a cache: it was not rendered for this view. The figures are of the render at %time.</source>
+        <translation>Kjo faqe erdhi nga një memorie e përkohshme: nuk u renderua për këtë shikim. Shifrat janë të renderimit në %time.</translation>
+    </message>
+    <message>
+        <source>Only the time and memory: the kernel collects the rest with debug output on for you, or for expwt/performance from Exponential 6.0.15 on.</source>
+        <translation>Vetëm koha dhe kujtesa: pjesën tjetër e mbledh bërthama me daljen e korrigjimit të aktivizuar për ju, ose për expwt/performance nga Exponential 6.0.15.</translation>
+    </message>
+    <message>
+        <source>Content view cache</source>
+        <translation>Memoria e përkohshme e pamjes së përmbajtjes</translation>
+    </message>
+    <message>
+        <source>Cache-blocks</source>
+        <translation>Blloqe të memories së përkohshme</translation>
+    </message>
+    <message>
+        <source>%hits of %count from the cache</source>
+        <translation>%hits nga %count nga memoria e përkohshme</translation>
+    </message>
+    <message>
+        <source>Time per layout block</source>
+        <translation>Koha për bllok faqosjeje</translation>
+    </message>
+    <message>
+        <source>No layout block on this page.</source>
+        <translation>Asnjë bllok faqosjeje në këtë faqe.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

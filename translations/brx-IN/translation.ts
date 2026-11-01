@@ -2135,6 +2135,62 @@
         <source>The rule texts come from axe-core, in English.</source>
         <translation>आइननि लिरनायफोरा axe-core निफ्राय फैयो, इंराजियाव।</translation>
     </message>
+    <message>
+        <source>Performance</source>
+        <translation>परफरमेन्स</translation>
+    </message>
+    <message>
+        <source>Render time</source>
+        <translation>रेन्डार समाव</translation>
+    </message>
+    <message>
+        <source>SQL statements</source>
+        <translation>SQL फोरमायनाय</translation>
+    </message>
+    <message>
+        <source>Peak memory</source>
+        <translation>गोजौसिन मेमरि</translation>
+    </message>
+    <message>
+        <source>From the cache</source>
+        <translation>कैसनिफ्राय</translation>
+    </message>
+    <message>
+        <source>Generated</source>
+        <translation>सोरजिनाय</translation>
+    </message>
+    <message>
+        <source>This page carries no figures of its render.</source>
+        <translation>बे बिलाइआव बेनि रेन्डारनि जेबो अनजिमा गैया।</translation>
+    </message>
+    <message>
+        <source>This page came from a cache: it was not rendered for this view. The figures are of the render at %time.</source>
+        <translation>बे बिलाइया कैसनिफ्राय फैदों: बे नायनायनि थाखाय बेखौ रेन्डार खालामा। अनजिमाफोरा %time आव जाबाय रेन्डारनि।</translation>
+    </message>
+    <message>
+        <source>Only the time and memory: the kernel collects the rest with debug output on for you, or for expwt/performance from Exponential 6.0.15 on.</source>
+        <translation>समाव आरो मेमरि लाखिनाय: बाहागोनि कर्नेलआ नोंनि थाखाय डिबाग आउटपुट जागायनायाव, एबा Exponential 6.0.15 निफ्राय expwt/performance नि थाखाय बुथुमो।</translation>
+    </message>
+    <message>
+        <source>Content view cache</source>
+        <translation>आयदा नायनाय कैस</translation>
+    </message>
+    <message>
+        <source>Cache-blocks</source>
+        <translation>कैस-ब्लक</translation>
+    </message>
+    <message>
+        <source>%hits of %count from the cache</source>
+        <translation>%count निफ्राय %hits कैसनिफ्राय</translation>
+    </message>
+    <message>
+        <source>Time per layout block</source>
+        <translation>लेआउट ब्लक फ्रोमबो समाव</translation>
+    </message>
+    <message>
+        <source>No layout block on this page.</source>
+        <translation>बे बिलाइआव जेबो लेआउट ब्लक गैया।</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

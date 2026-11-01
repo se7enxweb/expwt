@@ -2135,6 +2135,62 @@
         <source>The rule texts come from axe-core, in English.</source>
         <translation>Reeglite tekstid pärinevad axe-core'ist, inglise keeles.</translation>
     </message>
+    <message>
+        <source>Performance</source>
+        <translation>Jõudlus</translation>
+    </message>
+    <message>
+        <source>Render time</source>
+        <translation>Renderdusaeg</translation>
+    </message>
+    <message>
+        <source>SQL statements</source>
+        <translation>SQL-laused</translation>
+    </message>
+    <message>
+        <source>Peak memory</source>
+        <translation>Tippmälu</translation>
+    </message>
+    <message>
+        <source>From the cache</source>
+        <translation>Vahemälust</translation>
+    </message>
+    <message>
+        <source>Generated</source>
+        <translation>Genereeritud</translation>
+    </message>
+    <message>
+        <source>This page carries no figures of its render.</source>
+        <translation>Sellel lehel pole oma renderduse kohta numbreid.</translation>
+    </message>
+    <message>
+        <source>This page came from a cache: it was not rendered for this view. The figures are of the render at %time.</source>
+        <translation>See leht tuli vahemälust: seda ei renderdatud selle vaate jaoks. Numbrid on renderdusest kell %time.</translation>
+    </message>
+    <message>
+        <source>Only the time and memory: the kernel collects the rest with debug output on for you, or for expwt/performance from Exponential 6.0.15 on.</source>
+        <translation>Ainult aeg ja mälu: ülejäänu kogub tuum, kui silumisväljund on teie jaoks sisse lülitatud, või expwt/performance jaoks alates Exponential 6.0.15.</translation>
+    </message>
+    <message>
+        <source>Content view cache</source>
+        <translation>Sisuvaate vahemälu</translation>
+    </message>
+    <message>
+        <source>Cache-blocks</source>
+        <translation>Vahemälu plokid</translation>
+    </message>
+    <message>
+        <source>%hits of %count from the cache</source>
+        <translation>%hits %count-st vahemälust</translation>
+    </message>
+    <message>
+        <source>Time per layout block</source>
+        <translation>Aeg paigutusploki kohta</translation>
+    </message>
+    <message>
+        <source>No layout block on this page.</source>
+        <translation>Sellel lehel pole ühtegi paigutusplokki.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

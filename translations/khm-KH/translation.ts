@@ -2135,6 +2135,62 @@
         <source>The rule texts come from axe-core, in English.</source>
         <translation>អត្ថបទច្បាប់មកពី axe-core ជាភាសាអង់គ្លេស។</translation>
     </message>
+    <message>
+        <source>Performance</source>
+        <translation>ដំណើរការ</translation>
+    </message>
+    <message>
+        <source>Render time</source>
+        <translation>ពេលវេលាបង្ហាញ</translation>
+    </message>
+    <message>
+        <source>SQL statements</source>
+        <translation>សេចក្តីថ្លែង SQL</translation>
+    </message>
+    <message>
+        <source>Peak memory</source>
+        <translation>អង្គចងចាំខ្ពស់បំផុត</translation>
+    </message>
+    <message>
+        <source>From the cache</source>
+        <translation>ពីឃ្លាំងសម្ងាត់</translation>
+    </message>
+    <message>
+        <source>Generated</source>
+        <translation>បានបង្កើត</translation>
+    </message>
+    <message>
+        <source>This page carries no figures of its render.</source>
+        <translation>ទំព័រនេះមិនមានតួលេខនៃការបង្ហាញរបស់វាទេ។</translation>
+    </message>
+    <message>
+        <source>This page came from a cache: it was not rendered for this view. The figures are of the render at %time.</source>
+        <translation>ទំព័រនេះមកពីឃ្លាំងសម្ងាត់៖ វាមិនត្រូវបានបង្ហាញសម្រាប់ការមើលនេះទេ។ តួលេខគឺជារបស់ការបង្ហាញនៅ %time ។</translation>
+    </message>
+    <message>
+        <source>Only the time and memory: the kernel collects the rest with debug output on for you, or for expwt/performance from Exponential 6.0.15 on.</source>
+        <translation>តែពេលវេលា និងអង្គចងចាំប៉ុណ្ណោះ៖ ខឺណែលប្រមូលផ្នែកដែលនៅសល់ នៅពេលលទ្ធផលបំបាត់កំហុសបើកសម្រាប់អ្នក ឬសម្រាប់ expwt/performance ចាប់ពី Exponential 6.0.15 ។</translation>
+    </message>
+    <message>
+        <source>Content view cache</source>
+        <translation>ឃ្លាំងសម្ងាត់ទិដ្ឋភាពមាតិកា</translation>
+    </message>
+    <message>
+        <source>Cache-blocks</source>
+        <translation>ប្លុកឃ្លាំងសម្ងាត់</translation>
+    </message>
+    <message>
+        <source>%hits of %count from the cache</source>
+        <translation>%hits ក្នុងចំណោម %count ពីឃ្លាំងសម្ងាត់</translation>
+    </message>
+    <message>
+        <source>Time per layout block</source>
+        <translation>ពេលវេលាក្នុងមួយប្លុកប្លង់</translation>
+    </message>
+    <message>
+        <source>No layout block on this page.</source>
+        <translation>គ្មានប្លុកប្លង់នៅលើទំព័រនេះទេ។</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

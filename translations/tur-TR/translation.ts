@@ -2135,6 +2135,62 @@
         <source>The rule texts come from axe-core, in English.</source>
         <translation>Kural metinleri axe-core'dan gelir, İngilizce.</translation>
     </message>
+    <message>
+        <source>Performance</source>
+        <translation>Performans</translation>
+    </message>
+    <message>
+        <source>Render time</source>
+        <translation>İşleme süresi</translation>
+    </message>
+    <message>
+        <source>SQL statements</source>
+        <translation>SQL ifadeleri</translation>
+    </message>
+    <message>
+        <source>Peak memory</source>
+        <translation>En yüksek bellek</translation>
+    </message>
+    <message>
+        <source>From the cache</source>
+        <translation>Önbellekten</translation>
+    </message>
+    <message>
+        <source>Generated</source>
+        <translation>Oluşturuldu</translation>
+    </message>
+    <message>
+        <source>This page carries no figures of its render.</source>
+        <translation>Bu sayfa işlenmesine dair hiçbir değer taşımıyor.</translation>
+    </message>
+    <message>
+        <source>This page came from a cache: it was not rendered for this view. The figures are of the render at %time.</source>
+        <translation>Bu sayfa bir önbellekten geldi: bu görüntüleme için işlenmedi. Değerler %time saatindeki işlemeye aittir.</translation>
+    </message>
+    <message>
+        <source>Only the time and memory: the kernel collects the rest with debug output on for you, or for expwt/performance from Exponential 6.0.15 on.</source>
+        <translation>Yalnızca süre ve bellek: geri kalanını çekirdek, sizin için hata ayıklama çıktısı açıkken veya Exponential 6.0.15 sürümünden itibaren expwt/performance için toplar.</translation>
+    </message>
+    <message>
+        <source>Content view cache</source>
+        <translation>İçerik görünümü önbelleği</translation>
+    </message>
+    <message>
+        <source>Cache-blocks</source>
+        <translation>Önbellek blokları</translation>
+    </message>
+    <message>
+        <source>%hits of %count from the cache</source>
+        <translation>%count içinden %hits önbellekten</translation>
+    </message>
+    <message>
+        <source>Time per layout block</source>
+        <translation>Düzen bloğu başına süre</translation>
+    </message>
+    <message>
+        <source>No layout block on this page.</source>
+        <translation>Bu sayfada düzen bloğu yok.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

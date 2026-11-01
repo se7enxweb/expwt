@@ -2135,6 +2135,62 @@
         <source>The rule texts come from axe-core, in English.</source>
         <translation>Sariya sɛbɛnw bɔra axe-core la, angilɛkan na.</translation>
     </message>
+    <message>
+        <source>Performance</source>
+        <translation>Kɛcogo</translation>
+    </message>
+    <message>
+        <source>Render time</source>
+        <translation>Jirali waati</translation>
+    </message>
+    <message>
+        <source>SQL statements</source>
+        <translation>SQL ɲininkaliw</translation>
+    </message>
+    <message>
+        <source>Peak memory</source>
+        <translation>Hakilimara caman</translation>
+    </message>
+    <message>
+        <source>From the cache</source>
+        <translation>Ka bɔ cache la</translation>
+    </message>
+    <message>
+        <source>Generated</source>
+        <translation>Dilannen</translation>
+    </message>
+    <message>
+        <source>This page carries no figures of its render.</source>
+        <translation>Nin ɲɛ in tɛ a jiralicogo jateden si ta.</translation>
+    </message>
+    <message>
+        <source>This page came from a cache: it was not rendered for this view. The figures are of the render at %time.</source>
+        <translation>Nin ɲɛ in bɔra cache dɔ la: a ma jira nin lajɛ in kama. Jatew ye jirali ta ye min kɛra %time.</translation>
+    </message>
+    <message>
+        <source>Only the time and memory: the kernel collects the rest with debug output on for you, or for expwt/performance from Exponential 6.0.15 on.</source>
+        <translation>Waati ni hakilimara dɔrɔn: kernel bɛ tɔ lajɛ ni debug bɔli dayɛlɛnen don i ye, walima expwt/performance ye ka bɔ Exponential 6.0.15 la.</translation>
+    </message>
+    <message>
+        <source>Content view cache</source>
+        <translation>Kɔnɔkow lajɛli cache</translation>
+    </message>
+    <message>
+        <source>Cache-blocks</source>
+        <translation>Cache-bulokiw</translation>
+    </message>
+    <message>
+        <source>%hits of %count from the cache</source>
+        <translation>%hits %count la ka bɔ cache la</translation>
+    </message>
+    <message>
+        <source>Time per layout block</source>
+        <translation>Waati layout-buloki kelen-kelen bɛɛ</translation>
+    </message>
+    <message>
+        <source>No layout block on this page.</source>
+        <translation>Layout-buloki si tɛ nin ɲɛ in kan.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

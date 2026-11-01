@@ -2135,6 +2135,62 @@
         <source>The rule texts come from axe-core, in English.</source>
         <translation>የደንቦቹ ጽሑፎች ከaxe-core የመጡ ናቸው፣ በእንግሊዝኛ።</translation>
     </message>
+    <message>
+        <source>Performance</source>
+        <translation>አፈጻጸም</translation>
+    </message>
+    <message>
+        <source>Render time</source>
+        <translation>የማሳያ ጊዜ</translation>
+    </message>
+    <message>
+        <source>SQL statements</source>
+        <translation>SQL መግለጫዎች</translation>
+    </message>
+    <message>
+        <source>Peak memory</source>
+        <translation>ከፍተኛ ማህደረ ትውስታ</translation>
+    </message>
+    <message>
+        <source>From the cache</source>
+        <translation>ከመሸጎጫው</translation>
+    </message>
+    <message>
+        <source>Generated</source>
+        <translation>የተፈጠረ</translation>
+    </message>
+    <message>
+        <source>This page carries no figures of its render.</source>
+        <translation>ይህ ገጽ የአሰራሩ ምንም አሃዞች የሉትም።</translation>
+    </message>
+    <message>
+        <source>This page came from a cache: it was not rendered for this view. The figures are of the render at %time.</source>
+        <translation>ይህ ገጽ ከመሸጎጫ የመጣ ነው፦ ለዚህ እይታ አልተሰራም። አሃዞቹ በ %time የተሰራው ናቸው።</translation>
+    </message>
+    <message>
+        <source>Only the time and memory: the kernel collects the rest with debug output on for you, or for expwt/performance from Exponential 6.0.15 on.</source>
+        <translation>ጊዜና ማህደረ ትውስታ ብቻ፦ ከርነሉ ቀሪውን የሚሰበስበው የማረሚያ ውጤት ለእርስዎ ሲበራ ወይም ለ expwt/performance ከ Exponential 6.0.15 ጀምሮ ነው።</translation>
+    </message>
+    <message>
+        <source>Content view cache</source>
+        <translation>የይዘት እይታ መሸጎጫ</translation>
+    </message>
+    <message>
+        <source>Cache-blocks</source>
+        <translation>የመሸጎጫ ብሎኮች</translation>
+    </message>
+    <message>
+        <source>%hits of %count from the cache</source>
+        <translation>ከ %count ውስጥ %hits ከመሸጎጫው</translation>
+    </message>
+    <message>
+        <source>Time per layout block</source>
+        <translation>ጊዜ በእያንዳንዱ የአቀማመጥ ብሎክ</translation>
+    </message>
+    <message>
+        <source>No layout block on this page.</source>
+        <translation>በዚህ ገጽ ላይ ምንም የአቀማመጥ ብሎክ የለም።</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

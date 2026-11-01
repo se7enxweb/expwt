@@ -2135,6 +2135,62 @@
         <source>The rule texts come from axe-core, in English.</source>
         <translation>Тексти правил узято з axe-core, англійською мовою.</translation>
     </message>
+    <message>
+        <source>Performance</source>
+        <translation>Продуктивність</translation>
+    </message>
+    <message>
+        <source>Render time</source>
+        <translation>Час рендерингу</translation>
+    </message>
+    <message>
+        <source>SQL statements</source>
+        <translation>SQL-запити</translation>
+    </message>
+    <message>
+        <source>Peak memory</source>
+        <translation>Пікова пам'ять</translation>
+    </message>
+    <message>
+        <source>From the cache</source>
+        <translation>З кешу</translation>
+    </message>
+    <message>
+        <source>Generated</source>
+        <translation>Згенеровано</translation>
+    </message>
+    <message>
+        <source>This page carries no figures of its render.</source>
+        <translation>Ця сторінка не має даних про свій рендеринг.</translation>
+    </message>
+    <message>
+        <source>This page came from a cache: it was not rendered for this view. The figures are of the render at %time.</source>
+        <translation>Ця сторінка надійшла з кешу: для цього перегляду її не рендерили. Дані стосуються рендерингу о %time.</translation>
+    </message>
+    <message>
+        <source>Only the time and memory: the kernel collects the rest with debug output on for you, or for expwt/performance from Exponential 6.0.15 on.</source>
+        <translation>Лише час і пам'ять: решту ядро збирає з увімкненим налагоджувальним виводом для вас або для expwt/performance починаючи з Exponential 6.0.15.</translation>
+    </message>
+    <message>
+        <source>Content view cache</source>
+        <translation>Кеш перегляду вмісту</translation>
+    </message>
+    <message>
+        <source>Cache-blocks</source>
+        <translation>Кеш-блоки</translation>
+    </message>
+    <message>
+        <source>%hits of %count from the cache</source>
+        <translation>%hits з %count з кешу</translation>
+    </message>
+    <message>
+        <source>Time per layout block</source>
+        <translation>Час на блок макета</translation>
+    </message>
+    <message>
+        <source>No layout block on this page.</source>
+        <translation>На цій сторінці немає блоків макета.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

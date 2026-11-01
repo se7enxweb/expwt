@@ -2135,6 +2135,62 @@
         <source>The rule texts come from axe-core, in English.</source>
         <translation>규칙 설명은 axe-core에서 가져온 것으로 영어입니다.</translation>
     </message>
+    <message>
+        <source>Performance</source>
+        <translation>성능</translation>
+    </message>
+    <message>
+        <source>Render time</source>
+        <translation>렌더링 시간</translation>
+    </message>
+    <message>
+        <source>SQL statements</source>
+        <translation>SQL 문</translation>
+    </message>
+    <message>
+        <source>Peak memory</source>
+        <translation>최대 메모리</translation>
+    </message>
+    <message>
+        <source>From the cache</source>
+        <translation>캐시에서</translation>
+    </message>
+    <message>
+        <source>Generated</source>
+        <translation>생성됨</translation>
+    </message>
+    <message>
+        <source>This page carries no figures of its render.</source>
+        <translation>이 페이지에는 렌더링 수치가 없습니다.</translation>
+    </message>
+    <message>
+        <source>This page came from a cache: it was not rendered for this view. The figures are of the render at %time.</source>
+        <translation>이 페이지는 캐시에서 왔습니다: 이번 보기를 위해 렌더링되지 않았습니다. 수치는 %time 렌더링의 것입니다.</translation>
+    </message>
+    <message>
+        <source>Only the time and memory: the kernel collects the rest with debug output on for you, or for expwt/performance from Exponential 6.0.15 on.</source>
+        <translation>시간과 메모리만: 나머지는 커널이 사용자에게 디버그 출력이 켜져 있을 때, 또는 Exponential 6.0.15부터 expwt/performance에 대해 수집합니다.</translation>
+    </message>
+    <message>
+        <source>Content view cache</source>
+        <translation>콘텐츠 뷰 캐시</translation>
+    </message>
+    <message>
+        <source>Cache-blocks</source>
+        <translation>캐시 블록</translation>
+    </message>
+    <message>
+        <source>%hits of %count from the cache</source>
+        <translation>%count개 중 %hits개가 캐시에서</translation>
+    </message>
+    <message>
+        <source>Time per layout block</source>
+        <translation>레이아웃 블록별 시간</translation>
+    </message>
+    <message>
+        <source>No layout block on this page.</source>
+        <translation>이 페이지에는 레이아웃 블록이 없습니다.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

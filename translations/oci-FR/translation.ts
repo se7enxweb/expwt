@@ -2135,6 +2135,62 @@
         <source>The rule texts come from axe-core, in English.</source>
         <translation>Los tèxtes de las règlas venon d'axe-core, en anglés.</translation>
     </message>
+    <message>
+        <source>Performance</source>
+        <translation>Performança</translation>
+    </message>
+    <message>
+        <source>Render time</source>
+        <translation>Temps de rendut</translation>
+    </message>
+    <message>
+        <source>SQL statements</source>
+        <translation>Instruccions SQL</translation>
+    </message>
+    <message>
+        <source>Peak memory</source>
+        <translation>Memòria maximala</translation>
+    </message>
+    <message>
+        <source>From the cache</source>
+        <translation>Del cache</translation>
+    </message>
+    <message>
+        <source>Generated</source>
+        <translation>Generada</translation>
+    </message>
+    <message>
+        <source>This page carries no figures of its render.</source>
+        <translation>Aquesta pagina pòrta pas cap de chifra sus son rendut.</translation>
+    </message>
+    <message>
+        <source>This page came from a cache: it was not rendered for this view. The figures are of the render at %time.</source>
+        <translation>Aquesta pagina ven d'un cache: es pas estada renduda per aquesta visualizacion. Las chifras son las del rendut de %time.</translation>
+    </message>
+    <message>
+        <source>Only the time and memory: the kernel collects the rest with debug output on for you, or for expwt/performance from Exponential 6.0.15 on.</source>
+        <translation>Sonque lo temps e la memòria: lo nucli amassa la rèsta amb la sortida de desbugatge activada per vos, o per expwt/performance a partir d'Exponential 6.0.15.</translation>
+    </message>
+    <message>
+        <source>Content view cache</source>
+        <translation>Cache de la vista del contengut</translation>
+    </message>
+    <message>
+        <source>Cache-blocks</source>
+        <translation>Blòcs de cache</translation>
+    </message>
+    <message>
+        <source>%hits of %count from the cache</source>
+        <translation>%hits sus %count del cache</translation>
+    </message>
+    <message>
+        <source>Time per layout block</source>
+        <translation>Temps per blòc de disposicion</translation>
+    </message>
+    <message>
+        <source>No layout block on this page.</source>
+        <translation>Cap de blòc de disposicion sus aquesta pagina.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

@@ -2135,6 +2135,62 @@
         <source>The rule texts come from axe-core, in English.</source>
         <translation>ⵉⴹⵔⵉⵙⵏ ⵏ ⵉⵍⴳⵉⵏⵏ ⴽⴽⴰⵏ ⴷ ⵙⴳ axe-core, ⵙ ⵜⵏⴳⵍⵉⵣⵜ.</translation>
     </message>
+    <message>
+        <source>Performance</source>
+        <translation>ⵜⴰⵎⵙⴽⴰⵔⵜ</translation>
+    </message>
+    <message>
+        <source>Render time</source>
+        <translation>ⴰⴽⵓⴷ ⵏ ⵓⵙⵎⴰⵍ</translation>
+    </message>
+    <message>
+        <source>SQL statements</source>
+        <translation>ⵜⵉⵏⴰⴹⵉⵏ ⵏ SQL</translation>
+    </message>
+    <message>
+        <source>Peak memory</source>
+        <translation>ⵜⴰⴽⵜⵓⵜ ⵜⴰⵎⵇⵔⴰⵏⵜ</translation>
+    </message>
+    <message>
+        <source>From the cache</source>
+        <translation>ⵙⴳ ⵜⴽⵜⵓⵜ ⵜⴰⵏⵓⴼⵍⵜ</translation>
+    </message>
+    <message>
+        <source>Generated</source>
+        <translation>ⵉⵜⵜⵓⵙⵏⴼⵍⵓⵍ</translation>
+    </message>
+    <message>
+        <source>This page carries no figures of its render.</source>
+        <translation>ⵜⴰⵙⵏⴰ ⴰⴷ ⵓⵔ ⴷⴰⵔⵙ ⴰⵏⵓⵎⵓⵔ ⵏ ⵓⵙⵎⴰⵍ ⵏⵏⵙ.</translation>
+    </message>
+    <message>
+        <source>This page came from a cache: it was not rendered for this view. The figures are of the render at %time.</source>
+        <translation>ⵜⴰⵙⵏⴰ ⴰⴷ ⵜⴽⴽⴰ ⴷ ⵙⴳ ⵜⴽⵜⵓⵜ ⵜⴰⵏⵓⴼⵍⵜ: ⵓⵔ ⵜⵜⵓⵙⵎⴰⵍ ⵉ ⵜⵉⵥⵕⵉ ⴰ. ⵉⵏⵓⵎⵓⵔⵏ ⵏ ⵓⵙⵎⴰⵍ ⵏ %time.</translation>
+    </message>
+    <message>
+        <source>Only the time and memory: the kernel collects the rest with debug output on for you, or for expwt/performance from Exponential 6.0.15 on.</source>
+        <translation>ⴰⴽⵓⴷ ⴷ ⵜⴽⵜⵓⵜ ⵖⴰⵙ: ⴰⵢⵏⵏ ⵉⵇⵇⵉⵎⵏ ⵉⵙⵙⵓⵎⵓⵔ ⵜⵏ ⵓⴽⵏⴰⵙ ⵎⵍⵎⵉ ⵉⵍⵍⴰ ⵓⵙⵓⴼⵖ ⵏ ⵓⵙⴳⵣⵍ ⵉⵜⵜⵓⵙⵎⵔⵙ ⵉ ⴽⵢⵉ, ⵏⵖ ⵉ expwt/performance ⵙⴳ Exponential 6.0.15.</translation>
+    </message>
+    <message>
+        <source>Content view cache</source>
+        <translation>ⵜⴰⴽⵜⵓⵜ ⵜⴰⵏⵓⴼⵍⵜ ⵏ ⵜⵉⵥⵕⵉ ⵏ ⵜⵓⵎⴰⵢⵜ</translation>
+    </message>
+    <message>
+        <source>Cache-blocks</source>
+        <translation>ⵉⴱⵍⵓⴽⵏ ⵏ ⵜⴽⵜⵓⵜ ⵜⴰⵏⵓⴼⵍⵜ</translation>
+    </message>
+    <message>
+        <source>%hits of %count from the cache</source>
+        <translation>%hits ⵙⴳ %count ⵙⴳ ⵜⴽⵜⵓⵜ ⵜⴰⵏⵓⴼⵍⵜ</translation>
+    </message>
+    <message>
+        <source>Time per layout block</source>
+        <translation>ⴰⴽⵓⴷ ⵉ ⴽⵓ ⴰⴱⵍⵓⴽ ⵏ ⵓⵙⵏⵙⵙⵓ</translation>
+    </message>
+    <message>
+        <source>No layout block on this page.</source>
+        <translation>ⵓⵔ ⵉⵍⵍⵉ ⵓⴱⵍⵓⴽ ⵏ ⵓⵙⵏⵙⵙⵓ ⴳ ⵜⴰⵙⵏⴰ ⴰ.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

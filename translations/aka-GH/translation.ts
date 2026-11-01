@@ -2135,6 +2135,62 @@
         <source>The rule texts come from axe-core, in English.</source>
         <translation>Mmara no nsɛm fi axe-core, wɔ Borɔfo kasa mu.</translation>
     </message>
+    <message>
+        <source>Performance</source>
+        <translation>Performance</translation>
+    </message>
+    <message>
+        <source>Render time</source>
+        <translation>Render bere</translation>
+    </message>
+    <message>
+        <source>SQL statements</source>
+        <translation>SQL statements</translation>
+    </message>
+    <message>
+        <source>Peak memory</source>
+        <translation>Memory a ɛkɔɔ soro koraa</translation>
+    </message>
+    <message>
+        <source>From the cache</source>
+        <translation>Efi cache no mu</translation>
+    </message>
+    <message>
+        <source>Generated</source>
+        <translation>Wɔayɛ no seesei</translation>
+    </message>
+    <message>
+        <source>This page carries no figures of its render.</source>
+        <translation>Krataafa yi nni ne render ho akontaa biara.</translation>
+    </message>
+    <message>
+        <source>This page came from a cache: it was not rendered for this view. The figures are of the render at %time.</source>
+        <translation>Krataafa yi fi cache bi mu: wɔanrender no mma nhwɛ yi. Akontaa no yɛ render a ɛkɔɔ so %time no de.</translation>
+    </message>
+    <message>
+        <source>Only the time and memory: the kernel collects the rest with debug output on for you, or for expwt/performance from Exponential 6.0.15 on.</source>
+        <translation>Bere ne memory nko ara: kernel no boaboa nkae no ano bere a debug output abue ma wo, anaa ma expwt/performance fi Exponential 6.0.15 rekɔ.</translation>
+    </message>
+    <message>
+        <source>Content view cache</source>
+        <translation>Content view cache</translation>
+    </message>
+    <message>
+        <source>Cache-blocks</source>
+        <translation>Cache-blocks</translation>
+    </message>
+    <message>
+        <source>%hits of %count from the cache</source>
+        <translation>%hits wɔ %count mu fi cache no mu</translation>
+    </message>
+    <message>
+        <source>Time per layout block</source>
+        <translation>Bere wɔ layout block biara so</translation>
+    </message>
+    <message>
+        <source>No layout block on this page.</source>
+        <translation>Layout block biara nni krataafa yi so.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

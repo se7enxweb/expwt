@@ -24,7 +24,7 @@ class expwtAccess
      * The policy functions of the module expwt (modules/expwt/module.php), one per area. Those of later phases are
      * defined now, so roles can be prepared before the panels arrive.
      */
-    const FUNCTIONS = array( 'use', 'edit', 'create', 'structure', 'layouts', 'templates', 'shop', 'admin', 'insights' );
+    const FUNCTIONS = array( 'use', 'edit', 'create', 'structure', 'layouts', 'templates', 'shop', 'admin', 'insights', 'performance' );
 
     /**
      * action => array( expwt function, writes, kernel module, kernel view, kernel POST button )
@@ -55,6 +55,9 @@ class expwtAccess
         'inbox.decide'    => array( 'use', true, 'collaboration', 'action', 'CollaborationActionCustom' ),
         // the page's insights from the kernel's own statistics (F25)
         'insights.load'   => array( 'insights', false, '', '', '' ),
+        // how the page was rendered (E12): the figures come in the page itself, this adds the server's time and what the
+        // kernel collects; for admins and developers (expwt/performance)
+        'performance.load' => array( 'performance', false, '', '', '' ),
         // the SEO check of the page (F26): read-only, for those who edit with the sidebar
         'seo.check'       => array( 'edit', false, '', '', '' ),
         // the page on the other sites and in its other languages (F27)

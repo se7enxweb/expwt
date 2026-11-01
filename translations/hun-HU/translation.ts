@@ -2135,6 +2135,62 @@
         <source>The rule texts come from axe-core, in English.</source>
         <translation>A szabályok szövegei az axe-core-ból származnak, angolul.</translation>
     </message>
+    <message>
+        <source>Performance</source>
+        <translation>Teljesítmény</translation>
+    </message>
+    <message>
+        <source>Render time</source>
+        <translation>Renderelési idő</translation>
+    </message>
+    <message>
+        <source>SQL statements</source>
+        <translation>SQL-utasítások</translation>
+    </message>
+    <message>
+        <source>Peak memory</source>
+        <translation>Csúcsmemória</translation>
+    </message>
+    <message>
+        <source>From the cache</source>
+        <translation>Gyorsítótárból</translation>
+    </message>
+    <message>
+        <source>Generated</source>
+        <translation>Generálva</translation>
+    </message>
+    <message>
+        <source>This page carries no figures of its render.</source>
+        <translation>Ez az oldal nem hordoz adatokat a rendereléséről.</translation>
+    </message>
+    <message>
+        <source>This page came from a cache: it was not rendered for this view. The figures are of the render at %time.</source>
+        <translation>Ez az oldal gyorsítótárból jött: nem ehhez a megtekintéshez renderelték. Az adatok a %time időpontban végzett renderelésből valók.</translation>
+    </message>
+    <message>
+        <source>Only the time and memory: the kernel collects the rest with debug output on for you, or for expwt/performance from Exponential 6.0.15 on.</source>
+        <translation>Csak az idő és a memória: a többit a kernel akkor gyűjti, ha a hibakeresési kimenet be van kapcsolva Önnek, vagy expwt/performance esetén az Exponential 6.0.15-től.</translation>
+    </message>
+    <message>
+        <source>Content view cache</source>
+        <translation>Tartalomnézet gyorsítótára</translation>
+    </message>
+    <message>
+        <source>Cache-blocks</source>
+        <translation>Gyorsítótár-blokkok</translation>
+    </message>
+    <message>
+        <source>%hits of %count from the cache</source>
+        <translation>%count közül %hits a gyorsítótárból</translation>
+    </message>
+    <message>
+        <source>Time per layout block</source>
+        <translation>Idő elrendezésblokkonként</translation>
+    </message>
+    <message>
+        <source>No layout block on this page.</source>
+        <translation>Ezen az oldalon nincs elrendezésblokk.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

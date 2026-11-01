@@ -2135,6 +2135,62 @@
         <source>The rule texts come from axe-core, in English.</source>
         <translation>Teksty reguł pochodzą z axe-core, po angielsku.</translation>
     </message>
+    <message>
+        <source>Performance</source>
+        <translation>Wydajność</translation>
+    </message>
+    <message>
+        <source>Render time</source>
+        <translation>Czas renderowania</translation>
+    </message>
+    <message>
+        <source>SQL statements</source>
+        <translation>Instrukcje SQL</translation>
+    </message>
+    <message>
+        <source>Peak memory</source>
+        <translation>Szczytowa pamięć</translation>
+    </message>
+    <message>
+        <source>From the cache</source>
+        <translation>Z pamięci podręcznej</translation>
+    </message>
+    <message>
+        <source>Generated</source>
+        <translation>Wygenerowano</translation>
+    </message>
+    <message>
+        <source>This page carries no figures of its render.</source>
+        <translation>Ta strona nie zawiera danych o swoim renderowaniu.</translation>
+    </message>
+    <message>
+        <source>This page came from a cache: it was not rendered for this view. The figures are of the render at %time.</source>
+        <translation>Ta strona pochodzi z pamięci podręcznej: nie została wyrenderowana dla tego wyświetlenia. Dane pochodzą z renderowania o %time.</translation>
+    </message>
+    <message>
+        <source>Only the time and memory: the kernel collects the rest with debug output on for you, or for expwt/performance from Exponential 6.0.15 on.</source>
+        <translation>Tylko czas i pamięć: resztę jądro zbiera przy włączonym wyjściu debugowania dla Ciebie lub dla expwt/performance od Exponential 6.0.15.</translation>
+    </message>
+    <message>
+        <source>Content view cache</source>
+        <translation>Pamięć podręczna widoku treści</translation>
+    </message>
+    <message>
+        <source>Cache-blocks</source>
+        <translation>Bloki pamięci podręcznej</translation>
+    </message>
+    <message>
+        <source>%hits of %count from the cache</source>
+        <translation>%hits z %count z pamięci podręcznej</translation>
+    </message>
+    <message>
+        <source>Time per layout block</source>
+        <translation>Czas na blok układu</translation>
+    </message>
+    <message>
+        <source>No layout block on this page.</source>
+        <translation>Brak bloków układu na tej stronie.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

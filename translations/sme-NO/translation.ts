@@ -2135,6 +2135,62 @@
         <source>The rule texts come from axe-core, in English.</source>
         <translation>Njuolggadusaid teavsttat bohtet axe-core:s, eŋgelasgillii.</translation>
     </message>
+    <message>
+        <source>Performance</source>
+        <translation>Doaibma</translation>
+    </message>
+    <message>
+        <source>Render time</source>
+        <translation>Čájehanáigi</translation>
+    </message>
+    <message>
+        <source>SQL statements</source>
+        <translation>SQL-cealkagat</translation>
+    </message>
+    <message>
+        <source>Peak memory</source>
+        <translation>Eanemus muitu</translation>
+    </message>
+    <message>
+        <source>From the cache</source>
+        <translation>Gaskaboddosis</translation>
+    </message>
+    <message>
+        <source>Generated</source>
+        <translation>Ráhkaduvvon</translation>
+    </message>
+    <message>
+        <source>This page carries no figures of its render.</source>
+        <translation>Dán siiddus eai leat logut iežas čájeheamis.</translation>
+    </message>
+    <message>
+        <source>This page came from a cache: it was not rendered for this view. The figures are of the render at %time.</source>
+        <translation>Dát siidu bođii gaskaboddosis: dat ii čájehuvvon dán čájeheapmái. Logut leat čájeheamis dii. %time.</translation>
+    </message>
+    <message>
+        <source>Only the time and memory: the kernel collects the rest with debug output on for you, or for expwt/performance from Exponential 6.0.15 on.</source>
+        <translation>Dušše áigi ja muitu: loahpa čoaggá guovddáš go meattáhusohcanbáđus lea doalahuvvon du várás, dahje expwt/performance várás Exponential 6.0.15 rájes.</translation>
+    </message>
+    <message>
+        <source>Content view cache</source>
+        <translation>Sisdoallučájeheami gaskaboddu</translation>
+    </message>
+    <message>
+        <source>Cache-blocks</source>
+        <translation>Gaskaboddoblohkat</translation>
+    </message>
+    <message>
+        <source>%hits of %count from the cache</source>
+        <translation>%hits %count:s gaskaboddosis</translation>
+    </message>
+    <message>
+        <source>Time per layout block</source>
+        <translation>Áigi juohke hábmenblohkkii</translation>
+    </message>
+    <message>
+        <source>No layout block on this page.</source>
+        <translation>Ii oktage hábmenblohkka dán siiddus.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

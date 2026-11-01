@@ -2135,6 +2135,62 @@
         <source>The rule texts come from axe-core, in English.</source>
         <translation>নিয়মের লেখাগুলো axe-core থেকে আসে, ইংরেজিতে।</translation>
     </message>
+    <message>
+        <source>Performance</source>
+        <translation>পারফরম্যান্স</translation>
+    </message>
+    <message>
+        <source>Render time</source>
+        <translation>রেন্ডার সময়</translation>
+    </message>
+    <message>
+        <source>SQL statements</source>
+        <translation>SQL স্টেটমেন্ট</translation>
+    </message>
+    <message>
+        <source>Peak memory</source>
+        <translation>সর্বোচ্চ মেমরি</translation>
+    </message>
+    <message>
+        <source>From the cache</source>
+        <translation>ক্যাশ থেকে</translation>
+    </message>
+    <message>
+        <source>Generated</source>
+        <translation>তৈরি করা হয়েছে</translation>
+    </message>
+    <message>
+        <source>This page carries no figures of its render.</source>
+        <translation>এই পৃষ্ঠায় এর রেন্ডারের কোনো পরিসংখ্যান নেই।</translation>
+    </message>
+    <message>
+        <source>This page came from a cache: it was not rendered for this view. The figures are of the render at %time.</source>
+        <translation>এই পৃষ্ঠাটি একটি ক্যাশ থেকে এসেছে: এই দেখার জন্য এটি রেন্ডার করা হয়নি। পরিসংখ্যানগুলো %time-এর রেন্ডারের।</translation>
+    </message>
+    <message>
+        <source>Only the time and memory: the kernel collects the rest with debug output on for you, or for expwt/performance from Exponential 6.0.15 on.</source>
+        <translation>শুধু সময় ও মেমরি: বাকিটা কার্নেল সংগ্রহ করে যখন আপনার জন্য ডিবাগ আউটপুট চালু থাকে, অথবা Exponential 6.0.15 থেকে expwt/performance-এর জন্য।</translation>
+    </message>
+    <message>
+        <source>Content view cache</source>
+        <translation>কনটেন্ট ভিউ ক্যাশ</translation>
+    </message>
+    <message>
+        <source>Cache-blocks</source>
+        <translation>ক্যাশ-ব্লক</translation>
+    </message>
+    <message>
+        <source>%hits of %count from the cache</source>
+        <translation>%count টির মধ্যে %hits টি ক্যাশ থেকে</translation>
+    </message>
+    <message>
+        <source>Time per layout block</source>
+        <translation>প্রতি লেআউট ব্লকের সময়</translation>
+    </message>
+    <message>
+        <source>No layout block on this page.</source>
+        <translation>এই পৃষ্ঠায় কোনো লেআউট ব্লক নেই।</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

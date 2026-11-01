@@ -2135,6 +2135,62 @@
         <source>The rule texts come from axe-core, in English.</source>
         <translation>Qoraallada xeerarku waxay ka yimaadeen axe-core, Ingiriis ahaan.</translation>
     </message>
+    <message>
+        <source>Performance</source>
+        <translation>Waxqabad</translation>
+    </message>
+    <message>
+        <source>Render time</source>
+        <translation>Waqtiga soo bandhigga</translation>
+    </message>
+    <message>
+        <source>SQL statements</source>
+        <translation>Weedhaha SQL</translation>
+    </message>
+    <message>
+        <source>Peak memory</source>
+        <translation>Xusuusta ugu sarreysa</translation>
+    </message>
+    <message>
+        <source>From the cache</source>
+        <translation>Ka yimid kaydka</translation>
+    </message>
+    <message>
+        <source>Generated</source>
+        <translation>La sameeyay</translation>
+    </message>
+    <message>
+        <source>This page carries no figures of its render.</source>
+        <translation>Boggan ma sido tirooyin ku saabsan soo bandhiggiisa.</translation>
+    </message>
+    <message>
+        <source>This page came from a cache: it was not rendered for this view. The figures are of the render at %time.</source>
+        <translation>Boggan wuxuu ka yimid kayd ku-meelgaar ah: looma soo bandhigin daawashadan. Tirooyinku waa kuwa soo bandhigga %time.</translation>
+    </message>
+    <message>
+        <source>Only the time and memory: the kernel collects the rest with debug output on for you, or for expwt/performance from Exponential 6.0.15 on.</source>
+        <translation>Waqtiga iyo xusuusta oo keliya: inta kale kernel-ku wuxuu ururiyaa marka wax-soo-saarka debug laguu shido, ama expwt/performance laga bilaabo Exponential 6.0.15.</translation>
+    </message>
+    <message>
+        <source>Content view cache</source>
+        <translation>Kaydka muuqaalka nuxurka</translation>
+    </message>
+    <message>
+        <source>Cache-blocks</source>
+        <translation>Qaybaha kaydka</translation>
+    </message>
+    <message>
+        <source>%hits of %count from the cache</source>
+        <translation>%hits ka mid ah %count kaydka</translation>
+    </message>
+    <message>
+        <source>Time per layout block</source>
+        <translation>Waqtiga qayb kasta oo qaabeyn ah</translation>
+    </message>
+    <message>
+        <source>No layout block on this page.</source>
+        <translation>Qayb qaabeyn ah kuma jirto boggan.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

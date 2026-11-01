@@ -2135,6 +2135,62 @@
         <source>The rule texts come from axe-core, in English.</source>
         <translation>Zvinyorwa zvemitemo zvinobva ku axe-core, muChirungu.</translation>
     </message>
+    <message>
+        <source>Performance</source>
+        <translation>Mashandiro</translation>
+    </message>
+    <message>
+        <source>Render time</source>
+        <translation>Nguva yekuratidza</translation>
+    </message>
+    <message>
+        <source>SQL statements</source>
+        <translation>Zvirevo zve SQL</translation>
+    </message>
+    <message>
+        <source>Peak memory</source>
+        <translation>Ndangariro yepamusoro</translation>
+    </message>
+    <message>
+        <source>From the cache</source>
+        <translation>Kubva mu cache</translation>
+    </message>
+    <message>
+        <source>Generated</source>
+        <translation>Zvagadzirwa</translation>
+    </message>
+    <message>
+        <source>This page carries no figures of its render.</source>
+        <translation>Peji rino harina nhamba dzekuratidzwa kwaro.</translation>
+    </message>
+    <message>
+        <source>This page came from a cache: it was not rendered for this view. The figures are of the render at %time.</source>
+        <translation>Peji rino rakabva mu cache: harina kuratidzwa pakuona uku. Nhamba ndedzekuratidzwa kwa %time.</translation>
+    </message>
+    <message>
+        <source>Only the time and memory: the kernel collects the rest with debug output on for you, or for expwt/performance from Exponential 6.0.15 on.</source>
+        <translation>Nguva nendangariro chete: zvimwe kernel inozviunganidza kana debug output yakabatidzwa kwauri, kana kune expwt/performance kubva paExponential 6.0.15.</translation>
+    </message>
+    <message>
+        <source>Content view cache</source>
+        <translation>Cache yekuona zviri mukati</translation>
+    </message>
+    <message>
+        <source>Cache-blocks</source>
+        <translation>Mabhuroko e cache</translation>
+    </message>
+    <message>
+        <source>%hits of %count from the cache</source>
+        <translation>%hits pa %count kubva mu cache</translation>
+    </message>
+    <message>
+        <source>Time per layout block</source>
+        <translation>Nguva pabhuroko rega rega re layout</translation>
+    </message>
+    <message>
+        <source>No layout block on this page.</source>
+        <translation>Hapana bhuroko re layout papeji rino.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

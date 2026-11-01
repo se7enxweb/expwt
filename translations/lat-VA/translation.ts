@@ -2135,6 +2135,62 @@
         <source>The rule texts come from axe-core, in English.</source>
         <translation>Textus regularum ex axe-core veniunt, Anglice.</translation>
     </message>
+    <message>
+        <source>Performance</source>
+        <translation>Efficacia</translation>
+    </message>
+    <message>
+        <source>Render time</source>
+        <translation>Tempus reddendi</translation>
+    </message>
+    <message>
+        <source>SQL statements</source>
+        <translation>Mandata SQL</translation>
+    </message>
+    <message>
+        <source>Peak memory</source>
+        <translation>Memoria summa</translation>
+    </message>
+    <message>
+        <source>From the cache</source>
+        <translation>E cella</translation>
+    </message>
+    <message>
+        <source>Generated</source>
+        <translation>Generata</translation>
+    </message>
+    <message>
+        <source>This page carries no figures of its render.</source>
+        <translation>Haec pagina nullos numeros redditionis suae fert.</translation>
+    </message>
+    <message>
+        <source>This page came from a cache: it was not rendered for this view. The figures are of the render at %time.</source>
+        <translation>Haec pagina e cella venit: ad hunc aspectum reddita non est. Numeri sunt redditionis hora %time factae.</translation>
+    </message>
+    <message>
+        <source>Only the time and memory: the kernel collects the rest with debug output on for you, or for expwt/performance from Exponential 6.0.15 on.</source>
+        <translation>Tempus et memoria tantum: cetera nucleus colligit cum exitus emendationis tibi accensus est, aut ad expwt/performance ab Exponential 6.0.15.</translation>
+    </message>
+    <message>
+        <source>Content view cache</source>
+        <translation>Cella aspectus contenti</translation>
+    </message>
+    <message>
+        <source>Cache-blocks</source>
+        <translation>Trunci cellae</translation>
+    </message>
+    <message>
+        <source>%hits of %count from the cache</source>
+        <translation>%hits ex %count e cella</translation>
+    </message>
+    <message>
+        <source>Time per layout block</source>
+        <translation>Tempus per truncum dispositionis</translation>
+    </message>
+    <message>
+        <source>No layout block on this page.</source>
+        <translation>Nullus truncus dispositionis in hac pagina.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

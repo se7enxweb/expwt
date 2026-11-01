@@ -3459,6 +3459,112 @@
     }, function (err) { root.textContent = ''; failure(ctx, err); });
   }
 
+  /* --------------------------------------------------------------------------------------------- performance */
+
+  /* The Performance panel's pure parts (E12), for the tests (tests/js/performance.test.js).
+       cached()  the page was not rendered for this view: its render is older than the page's load (the page cache,
+                 a proxy, the browser's history). now and clientNow are the server's and the device's clocks at the
+                 same moment, navStart when the page's load began on the device (performance.timeOrigin).
+       ms()      a time as the panel writes it: "84 ms", "1.24 s"
+       bytes()   memory: "18 MB"
+       share()   a block's time as a part of the slowest block's, 0 to 100 */
+  var Performance = {
+    SLACK: 2000,
+    cached: function (render, now, clientNow, navStart) {
+      if (!render || !render.at || !now || !clientNow || !navStart) { return false; }
+      return render.at - (now - clientNow) < navStart - Performance.SLACK;
+    },
+    ms: function (v, lang) {
+      if (v === null || v === undefined || isNaN(v)) { return ''; }
+      var f = function (n, d) {
+        try { return new Intl.NumberFormat(lang, { maximumFractionDigits: d }).format(n); } catch (e) { return String(Math.round(n * Math.pow(10, d)) / Math.pow(10, d)); }
+      };
+      return v >= 1000 ? f(v / 1000, 2) + ' s' : f(v, v < 10 ? 1 : 0) + ' ms';
+    },
+    bytes: function (b, lang) {
+      if (!b) { return ''; }
+      var mb = b / 1048576;
+      try { return new Intl.NumberFormat(lang, { maximumFractionDigits: mb < 10 ? 1 : 0 }).format(mb) + ' MB'; } catch (e) { return Math.round(mb) + ' MB'; }
+    },
+    share: function (ms, max) {
+      if (!max || !ms) { return 0; }
+      return Math.max(0, Math.min(100, Math.round(ms / max * 100)));
+    }
+  };
+
+  /* How this page was rendered (E12), for admins and developers (expwt/performance): the page time, the SQL statements,
+     peak memory, the content view cache, the cache-blocks and the time of every layout block. The figures are the
+     kernel's debug bar data of the render itself; they came with the page (ctx.render), the action only adds the
+     server's time and what the kernel collects. A page from a cache was not rendered for this view: the panel says so. */
+  function performance(ctx, root) {
+    var h = ctx.h;
+    var t = ctx.t;
+    var lang = (document.documentElement && document.documentElement.lang) || undefined;
+    var r = ctx.render;
+    var stateText = { hit: t('From the cache'), generated: t('Generated'), expired: t('Generated'), uncached: t('Generated'), off: t('Off'), pending: t('Pending') };
+    function section(id, title, children) {
+      return h('section', { class: 'wt-section', 'aria-labelledby': id }, [h('h3', { id: id, text: title })].concat(children));
+    }
+    function row(label, value) {
+      return value ? [h('dt', { text: label }), h('dd', {}, [h('span', { class: 'wt-perf-figure', text: value })])] : [];
+    }
+    function chip(state) {
+      return h('span', { class: 'wt-chip' + (state === 'hit' ? ' is-ok' : state === 'off' || state === 'pending' ? '' : ' is-warn'), text: stateText[state] || state });
+    }
+    function item(name, state, ms) {
+      return h('li', {}, [h('span', { class: 'wt-perf-name', text: name }), state ? chip(state) : null, h('span', { class: 'wt-perf-ms', text: Performance.ms(ms, lang) })]);
+    }
+    root.appendChild(h('p', { class: 'wt-muted', text: t('Loading ...') }));
+    ctx.call('performance.load', {}).then(function (s) {
+      var clientNow = Date.now();
+      root.textContent = '';
+      if (!r) {
+        root.appendChild(h('div', { class: 'wt-notice is-warn', role: 'status', text: t('This page carries no figures of its render.') }));
+        return;
+      }
+      var start = window.performance && window.performance.timeOrigin ? window.performance.timeOrigin : 0;
+      if (Performance.cached(r, s.now, clientNow, start)) {
+        var when = new Date(r.at - (s.now - clientNow));
+        var at = when.toLocaleString();
+        try { at = new Intl.DateTimeFormat(lang, { dateStyle: 'medium', timeStyle: 'medium' }).format(when); } catch (e) { /* the default */ }
+        root.appendChild(h('div', { class: 'wt-notice is-warn wt-perf-cached', role: 'status', text: t('This page came from a cache: it was not rendered for this view. The figures are of the render at %time.').replace('%time', at) }));
+      }
+      root.appendChild(h('dl', { class: 'wt-mig-run wt-perf-facts' }, [].concat(
+        row(t('Render time'), Performance.ms(r.total_ms, lang)),
+        row(t('SQL statements'), r.sql ? r.sql.count + ' · ' + Performance.ms(r.sql.ms, lang) : ''),
+        row(t('Peak memory'), Performance.bytes(r.memory, lang))
+      )));
+      if (r.source === 'none') {
+        root.appendChild(h('div', { class: 'wt-notice', role: 'status', text: t('Only the time and memory: the kernel collects the rest with debug output on for you, or for expwt/performance from Exponential 6.0.15 on.') }));
+        return;
+      }
+      if (r.view_cache) {
+        root.appendChild(section('wt-perf-v', t('Content view cache'), [h('p', {}, [chip(r.view_cache.state),
+          r.view_cache.ms ? h('span', { class: 'wt-perf-ms', text: ' ' + Performance.ms(r.view_cache.ms, lang) }) : null])]));
+      }
+      if (r.cache_blocks && r.cache_blocks.count) {
+        var cb = r.cache_blocks;
+        root.appendChild(section('wt-perf-c', t('Cache-blocks'), [
+          h('p', { text: t('%hits of %count from the cache').replace('%hits', cb.hits).replace('%count', cb.count) }),
+          h('ul', { class: 'wt-list wt-perf-list' }, cb.slowest.map(function (b) { return item(b.template + (b.line ? ':' + b.line : ''), b.state, b.ms); }))
+        ]));
+      }
+      var blocks = r.blocks || [];
+      /* blocks from the content view cache or a cache-block were not rendered now: the figures above say so */
+      if (!blocks.length && ((r.view_cache && r.view_cache.state === 'hit') || (r.cache_blocks && r.cache_blocks.hits))) { return; }
+      var max = blocks.reduce(function (m, b) { return Math.max(m, b.ms || 0); }, 0);
+      root.appendChild(section('wt-perf-b', t('Time per layout block'), blocks.length
+        ? [h('ol', { class: 'wt-list wt-perf-list' }, blocks.map(function (b) {
+          return h('li', { class: 'wt-perf-l' + Math.min(3, b.level || 0) }, [
+            h('span', { class: 'wt-perf-name', text: b.template }),
+            h('meter', { class: 'wt-perf-meter', min: '0', max: '100', value: String(Performance.share(b.ms, max)), 'aria-hidden': 'true' }),
+            h('span', { class: 'wt-perf-ms', text: Performance.ms(b.ms, lang) })
+          ]);
+        }))]
+        : [h('p', { class: 'wt-muted', text: t('No layout block on this page.') })]));
+    }, function (err) { root.textContent = ''; failure(ctx, err); });
+  }
+
   /* ------------------------------------------------------------------ the device preview (E8) */
 
   /* Pure (tests/js/devices.test.js): how the frames of the device preview fit the window, the width typed for a frame
@@ -3766,6 +3872,7 @@
   }
 
   window.ExpwtMigrations = Migrations;
+  window.ExpwtPerformance = Performance;
   window.ExpwtSeo = SEO;
   window.ExpwtA11y = A11y;
   window.ExpwtComments = { actions: commentActions };
@@ -3773,5 +3880,5 @@
   window.ExpwtCalendar = Calendar;
   window.ExpwtFocal = Focal;
   window.ExpwtDevices = Devices;
-  window.ExpwtPanels = { page: page, create: create, structure: structure, seo: seo, sites: sites, forms: forms, newsletter: newsletter, urls: urls, calendar: calendar, insights: insights, inbox: inbox, migrations: migrations, me: me, shortcuts: shortcuts };
+  window.ExpwtPanels = { page: page, create: create, structure: structure, seo: seo, sites: sites, forms: forms, newsletter: newsletter, urls: urls, calendar: calendar, insights: insights, inbox: inbox, migrations: migrations, performance: performance, me: me, shortcuts: shortcuts };
 }());

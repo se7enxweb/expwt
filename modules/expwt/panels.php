@@ -71,7 +71,7 @@ $siteIni = $siteAccess !== null ? expSettingsPage::chainFor( 'expwt.ini', $siteA
 // their registration names), with its label
 $labels = array( 'page' => 'Page', 'create' => 'Create', 'structure' => 'Structure', 'seo' => 'SEO', 'sites' => 'Sites',
                  'forms' => 'Forms', 'newsletter' => 'Newsletter', 'urls' => 'URLs', 'calendar' => 'Calendar',
-                 'insights' => 'Insights', 'inbox' => 'Inbox', 'migrations' => 'Migrations', 'me' => 'Me' );
+                 'insights' => 'Insights', 'inbox' => 'Inbox', 'migrations' => 'Migrations', 'performance' => 'Performance', 'me' => 'Me' );
 $panelLabels = array();
 foreach ( expwtState::PANELS as $id )
     $panelLabels[$id] = $t( isset( $labels[$id] ) ? $labels[$id] : $id );

@@ -2135,6 +2135,62 @@
         <source>The rule texts come from axe-core, in English.</source>
         <translation>Ережелердің мәтіндері axe-core-дан алынған, ағылшын тілінде.</translation>
     </message>
+    <message>
+        <source>Performance</source>
+        <translation>Өнімділік</translation>
+    </message>
+    <message>
+        <source>Render time</source>
+        <translation>Рендер уақыты</translation>
+    </message>
+    <message>
+        <source>SQL statements</source>
+        <translation>SQL сұраулары</translation>
+    </message>
+    <message>
+        <source>Peak memory</source>
+        <translation>Ең жоғары жад</translation>
+    </message>
+    <message>
+        <source>From the cache</source>
+        <translation>Кэштен</translation>
+    </message>
+    <message>
+        <source>Generated</source>
+        <translation>Жасалды</translation>
+    </message>
+    <message>
+        <source>This page carries no figures of its render.</source>
+        <translation>Бұл бетте оның рендерінің ешқандай көрсеткіші жоқ.</translation>
+    </message>
+    <message>
+        <source>This page came from a cache: it was not rendered for this view. The figures are of the render at %time.</source>
+        <translation>Бұл бет кэштен келді: ол осы қарау үшін рендерленбеген. Көрсеткіштер %time кезіндегі рендерге тиесілі.</translation>
+    </message>
+    <message>
+        <source>Only the time and memory: the kernel collects the rest with debug output on for you, or for expwt/performance from Exponential 6.0.15 on.</source>
+        <translation>Тек уақыт пен жад: қалғанын ядро сіз үшін түзету шығысы қосулы болғанда немесе Exponential 6.0.15 нұсқасынан бастап expwt/performance үшін жинайды.</translation>
+    </message>
+    <message>
+        <source>Content view cache</source>
+        <translation>Мазмұн көрінісінің кэші</translation>
+    </message>
+    <message>
+        <source>Cache-blocks</source>
+        <translation>Кэш блоктары</translation>
+    </message>
+    <message>
+        <source>%hits of %count from the cache</source>
+        <translation>%count ішінен %hits кэштен</translation>
+    </message>
+    <message>
+        <source>Time per layout block</source>
+        <translation>Әр макет блогына уақыт</translation>
+    </message>
+    <message>
+        <source>No layout block on this page.</source>
+        <translation>Бұл бетте макет блогы жоқ.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

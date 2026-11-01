@@ -2135,6 +2135,62 @@
         <source>The rule texts come from axe-core, in English.</source>
         <translation>قانونن ہِنٛدۍ متن چھِ axe-core پیٚٹھٕ یِوان، انگریزی منز۔</translation>
     </message>
+    <message>
+        <source>Performance</source>
+        <translation>کارکردگی</translation>
+    </message>
+    <message>
+        <source>Render time</source>
+        <translation>رینڈر وَکھ</translation>
+    </message>
+    <message>
+        <source>SQL statements</source>
+        <translation>SQL بیان</translation>
+    </message>
+    <message>
+        <source>Peak memory</source>
+        <translation>زیادٕ کھوتہٕ میموری</translation>
+    </message>
+    <message>
+        <source>From the cache</source>
+        <translation>کیشہٕ پیٹھٕ</translation>
+    </message>
+    <message>
+        <source>Generated</source>
+        <translation>بنوومُت</translation>
+    </message>
+    <message>
+        <source>This page carries no figures of its render.</source>
+        <translation>یتھ صفحس پیٹھ چھُ نہٕ امہِ ہندِ رینڈرُک کانٛہہ اعداد۔</translation>
+    </message>
+    <message>
+        <source>This page came from a cache: it was not rendered for this view. The figures are of the render at %time.</source>
+        <translation>یہ صفحہٕ آو کیشہٕ پیٹھٕ: یتھ وچھنس خٲطرٕ آو نہٕ یہ رینڈر کرنہٕ۔ اعداد چھِ %time کِس رینڈرٕ کۍ۔</translation>
+    </message>
+    <message>
+        <source>Only the time and memory: the kernel collects the rest with debug output on for you, or for expwt/performance from Exponential 6.0.15 on.</source>
+        <translation>صرف وَکھ تہٕ میموری: باقی چھُ کرنل تمہِ ساعتہٕ جمع کران ییلہِ تُہٕنٛدِ خٲطرٕ ڈیبگ آوٹ پُٹ آن آسہِ، یا Exponential 6.0.15 پیٹھٕ expwt/performance خٲطرٕ۔</translation>
+    </message>
+    <message>
+        <source>Content view cache</source>
+        <translation>مواد وچھنُک کیش</translation>
+    </message>
+    <message>
+        <source>Cache-blocks</source>
+        <translation>کیش بلاک</translation>
+    </message>
+    <message>
+        <source>%hits of %count from the cache</source>
+        <translation>%count منٛزٕ %hits کیشہٕ پیٹھٕ</translation>
+    </message>
+    <message>
+        <source>Time per layout block</source>
+        <translation>پرٛتھ لےآؤٹ بلاکُک وَکھ</translation>
+    </message>
+    <message>
+        <source>No layout block on this page.</source>
+        <translation>یتھ صفحس پیٹھ چھُ نہٕ کانٛہہ لےآؤٹ بلاک۔</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

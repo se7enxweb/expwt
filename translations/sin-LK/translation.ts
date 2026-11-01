@@ -2135,6 +2135,62 @@
         <source>The rule texts come from axe-core, in English.</source>
         <translation>නීති පාඨ axe-core වෙතින් පැමිණේ, ඉංග්‍රීසියෙන්.</translation>
     </message>
+    <message>
+        <source>Performance</source>
+        <translation>කාර්ය සාධනය</translation>
+    </message>
+    <message>
+        <source>Render time</source>
+        <translation>විදැහුම් කාලය</translation>
+    </message>
+    <message>
+        <source>SQL statements</source>
+        <translation>SQL ප්‍රකාශ</translation>
+    </message>
+    <message>
+        <source>Peak memory</source>
+        <translation>උපරිම මතකය</translation>
+    </message>
+    <message>
+        <source>From the cache</source>
+        <translation>හැඹිලියෙන්</translation>
+    </message>
+    <message>
+        <source>Generated</source>
+        <translation>ජනනය කළා</translation>
+    </message>
+    <message>
+        <source>This page carries no figures of its render.</source>
+        <translation>මෙම පිටුවේ එහි විදැහුමේ කිසිදු සංඛ්‍යාවක් නැත.</translation>
+    </message>
+    <message>
+        <source>This page came from a cache: it was not rendered for this view. The figures are of the render at %time.</source>
+        <translation>මෙම පිටුව හැඹිලියකින් පැමිණියේය: මෙම බැලීම සඳහා එය විදැහුම් නොකළේය. සංඛ්‍යා %time හි විදැහුමේ ය.</translation>
+    </message>
+    <message>
+        <source>Only the time and memory: the kernel collects the rest with debug output on for you, or for expwt/performance from Exponential 6.0.15 on.</source>
+        <translation>කාලය සහ මතකය පමණි: ඉතිරිය කර්නලය එකතු කරන්නේ ඔබට දෝෂ නිරාකරණ ප්‍රතිදානය සක්‍රිය විට, හෝ Exponential 6.0.15 සිට expwt/performance සඳහාය.</translation>
+    </message>
+    <message>
+        <source>Content view cache</source>
+        <translation>අන්තර්ගත දසුන් හැඹිලිය</translation>
+    </message>
+    <message>
+        <source>Cache-blocks</source>
+        <translation>හැඹිලි කොටස්</translation>
+    </message>
+    <message>
+        <source>%hits of %count from the cache</source>
+        <translation>%count න් %hits හැඹිලියෙන්</translation>
+    </message>
+    <message>
+        <source>Time per layout block</source>
+        <translation>එක් පිරිසැලසුම් කොටසකට කාලය</translation>
+    </message>
+    <message>
+        <source>No layout block on this page.</source>
+        <translation>මෙම පිටුවේ පිරිසැලසුම් කොටසක් නැත.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

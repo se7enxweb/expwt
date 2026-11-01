@@ -2135,6 +2135,62 @@
         <source>The rule texts come from axe-core, in English.</source>
         <translation>Daw testunau'r rheolau o axe-core, yn Saesneg.</translation>
     </message>
+    <message>
+        <source>Performance</source>
+        <translation>Perfformiad</translation>
+    </message>
+    <message>
+        <source>Render time</source>
+        <translation>Amser rendro</translation>
+    </message>
+    <message>
+        <source>SQL statements</source>
+        <translation>Datganiadau SQL</translation>
+    </message>
+    <message>
+        <source>Peak memory</source>
+        <translation>Cof brig</translation>
+    </message>
+    <message>
+        <source>From the cache</source>
+        <translation>O'r storfa</translation>
+    </message>
+    <message>
+        <source>Generated</source>
+        <translation>Wedi'i gynhyrchu</translation>
+    </message>
+    <message>
+        <source>This page carries no figures of its render.</source>
+        <translation>Nid oes gan y dudalen hon ffigurau am ei rendro.</translation>
+    </message>
+    <message>
+        <source>This page came from a cache: it was not rendered for this view. The figures are of the render at %time.</source>
+        <translation>Daeth y dudalen hon o storfa: ni chafodd ei rendro ar gyfer yr olwg hon. Mae'r ffigurau o'r rendro am %time.</translation>
+    </message>
+    <message>
+        <source>Only the time and memory: the kernel collects the rest with debug output on for you, or for expwt/performance from Exponential 6.0.15 on.</source>
+        <translation>Dim ond yr amser a'r cof: mae'r cnewyllyn yn casglu'r gweddill gydag allbwn dadfygio ymlaen i chi, neu ar gyfer expwt/performance o Exponential 6.0.15 ymlaen.</translation>
+    </message>
+    <message>
+        <source>Content view cache</source>
+        <translation>Storfa golwg cynnwys</translation>
+    </message>
+    <message>
+        <source>Cache-blocks</source>
+        <translation>Blociau storfa</translation>
+    </message>
+    <message>
+        <source>%hits of %count from the cache</source>
+        <translation>%hits o %count o'r storfa</translation>
+    </message>
+    <message>
+        <source>Time per layout block</source>
+        <translation>Amser fesul bloc cynllun</translation>
+    </message>
+    <message>
+        <source>No layout block on this page.</source>
+        <translation>Dim bloc cynllun ar y dudalen hon.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

@@ -2135,6 +2135,62 @@
         <source>The rule texts come from axe-core, in English.</source>
         <translation>ʻOku haʻu ʻa e ngaahi tohi ʻo e lao mei he axe-core, ʻi he lea faka-Pilitānia.</translation>
     </message>
+    <message>
+        <source>Performance</source>
+        <translation>Ngāue</translation>
+    </message>
+    <message>
+        <source>Render time</source>
+        <translation>Taimi fakahāhā</translation>
+    </message>
+    <message>
+        <source>SQL statements</source>
+        <translation>Ngaahi fakamatala SQL</translation>
+    </message>
+    <message>
+        <source>Peak memory</source>
+        <translation>Manatu māʻolunga taha</translation>
+    </message>
+    <message>
+        <source>From the cache</source>
+        <translation>Mei he cache</translation>
+    </message>
+    <message>
+        <source>Generated</source>
+        <translation>Kuo faʻu</translation>
+    </message>
+    <message>
+        <source>This page carries no figures of its render.</source>
+        <translation>ʻOku ʻikai ha fika ʻo hono fakahāhā ʻi he peesi ko ʻeni.</translation>
+    </message>
+    <message>
+        <source>This page came from a cache: it was not rendered for this view. The figures are of the render at %time.</source>
+        <translation>Naʻe haʻu ʻa e peesi ko ʻeni mei ha cache: naʻe ʻikai fakahāhā ia ki he sio ko ʻeni. Ko e ngaahi fika ʻo e fakahāhā ʻi he %time.</translation>
+    </message>
+    <message>
+        <source>Only the time and memory: the kernel collects the rest with debug output on for you, or for expwt/performance from Exponential 6.0.15 on.</source>
+        <translation>Ko e taimi mo e manatu pē: ʻoku tānaki ʻe he kernel ʻa e toengá ʻi he taimi ʻoku ʻā ai ʻa e debug output maʻau, pe maʻa e expwt/performance mei he Exponential 6.0.15.</translation>
+    </message>
+    <message>
+        <source>Content view cache</source>
+        <translation>Cache sio ki he fakamatala</translation>
+    </message>
+    <message>
+        <source>Cache-blocks</source>
+        <translation>Ngaahi poloka cache</translation>
+    </message>
+    <message>
+        <source>%hits of %count from the cache</source>
+        <translation>%hits ʻi he %count mei he cache</translation>
+    </message>
+    <message>
+        <source>Time per layout block</source>
+        <translation>Taimi ki he poloka fokotuʻutuʻu taki taha</translation>
+    </message>
+    <message>
+        <source>No layout block on this page.</source>
+        <translation>ʻOku ʻikai ha poloka fokotuʻutuʻu ʻi he peesi ko ʻeni.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

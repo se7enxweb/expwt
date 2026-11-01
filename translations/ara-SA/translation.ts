@@ -2135,6 +2135,62 @@
         <source>The rule texts come from axe-core, in English.</source>
         <translation>نصوص القواعد مأخوذة من axe-core، باللغة الإنجليزية.</translation>
     </message>
+    <message>
+        <source>Performance</source>
+        <translation>الأداء</translation>
+    </message>
+    <message>
+        <source>Render time</source>
+        <translation>وقت العرض</translation>
+    </message>
+    <message>
+        <source>SQL statements</source>
+        <translation>عبارات SQL</translation>
+    </message>
+    <message>
+        <source>Peak memory</source>
+        <translation>ذروة الذاكرة</translation>
+    </message>
+    <message>
+        <source>From the cache</source>
+        <translation>من ذاكرة التخزين المؤقت</translation>
+    </message>
+    <message>
+        <source>Generated</source>
+        <translation>مُولَّدة</translation>
+    </message>
+    <message>
+        <source>This page carries no figures of its render.</source>
+        <translation>لا تحمل هذه الصفحة أي أرقام عن عرضها.</translation>
+    </message>
+    <message>
+        <source>This page came from a cache: it was not rendered for this view. The figures are of the render at %time.</source>
+        <translation>جاءت هذه الصفحة من ذاكرة تخزين مؤقت: لم تُعرض لهذه الزيارة. الأرقام هي للعرض الذي جرى في %time.</translation>
+    </message>
+    <message>
+        <source>Only the time and memory: the kernel collects the rest with debug output on for you, or for expwt/performance from Exponential 6.0.15 on.</source>
+        <translation>الوقت والذاكرة فقط: تجمع النواة الباقي عند تشغيل مخرجات التصحيح لك، أو لـ expwt/performance بدءًا من Exponential 6.0.15.</translation>
+    </message>
+    <message>
+        <source>Content view cache</source>
+        <translation>ذاكرة التخزين المؤقت لعرض المحتوى</translation>
+    </message>
+    <message>
+        <source>Cache-blocks</source>
+        <translation>كتل التخزين المؤقت</translation>
+    </message>
+    <message>
+        <source>%hits of %count from the cache</source>
+        <translation>%hits من %count من ذاكرة التخزين المؤقت</translation>
+    </message>
+    <message>
+        <source>Time per layout block</source>
+        <translation>الوقت لكل كتلة تخطيط</translation>
+    </message>
+    <message>
+        <source>No layout block on this page.</source>
+        <translation>لا توجد كتلة تخطيط في هذه الصفحة.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

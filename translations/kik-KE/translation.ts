@@ -2135,6 +2135,62 @@
         <source>The rule texts come from axe-core, in English.</source>
         <translation>Ndeto cia mawatho ciumĩte axe-core, na Gĩthũngũ.</translation>
     </message>
+    <message>
+        <source>Performance</source>
+        <translation>Wĩra</translation>
+    </message>
+    <message>
+        <source>Render time</source>
+        <translation>Ihinda rĩa kuonania</translation>
+    </message>
+    <message>
+        <source>SQL statements</source>
+        <translation>Mĩario ya SQL</translation>
+    </message>
+    <message>
+        <source>Peak memory</source>
+        <translation>Ũmenyo ũrĩa mũnene</translation>
+    </message>
+    <message>
+        <source>From the cache</source>
+        <translation>Kuuma cache</translation>
+    </message>
+    <message>
+        <source>Generated</source>
+        <translation>Gũthondekwo</translation>
+    </message>
+    <message>
+        <source>This page carries no figures of its render.</source>
+        <translation>Ngurumo ĩno ndĩrĩ na namba cia kuonanio gwayo.</translation>
+    </message>
+    <message>
+        <source>This page came from a cache: it was not rendered for this view. The figures are of the render at %time.</source>
+        <translation>Ngurumo ĩno yoimire cache: ndĩonanirio nĩ ũndũ wa kũrorwo gũkũ. Namba nĩ cia kuonanio kwa %time.</translation>
+    </message>
+    <message>
+        <source>Only the time and memory: the kernel collects the rest with debug output on for you, or for expwt/performance from Exponential 6.0.15 on.</source>
+        <translation>Ihinda na ũmenyo tu: kernel ĩcookanagĩrĩria icio ingĩ rĩrĩa debug output ĩhingũrĩtwo nĩ ũndũ waku, kana nĩ ũndũ wa expwt/performance kuuma Exponential 6.0.15.</translation>
+    </message>
+    <message>
+        <source>Content view cache</source>
+        <translation>Cache ya kũrora maũndũ</translation>
+    </message>
+    <message>
+        <source>Cache-blocks</source>
+        <translation>Cache-blocks</translation>
+    </message>
+    <message>
+        <source>%hits of %count from the cache</source>
+        <translation>%hits harĩ %count kuuma cache</translation>
+    </message>
+    <message>
+        <source>Time per layout block</source>
+        <translation>Ihinda o layout block</translation>
+    </message>
+    <message>
+        <source>No layout block on this page.</source>
+        <translation>Gũtirĩ layout block ngurumo-inĩ ĩno.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

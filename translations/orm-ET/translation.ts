@@ -2135,6 +2135,62 @@
         <source>The rule texts come from axe-core, in English.</source>
         <translation>Barreeffamoonni seeraa axe-core irraa dhufu, Afaan Ingiliiziitiin.</translation>
     </message>
+    <message>
+        <source>Performance</source>
+        <translation>Raawwii</translation>
+    </message>
+    <message>
+        <source>Render time</source>
+        <translation>Yeroo agarsiisuu</translation>
+    </message>
+    <message>
+        <source>SQL statements</source>
+        <translation>Ibsa SQL</translation>
+    </message>
+    <message>
+        <source>Peak memory</source>
+        <translation>Yaadannoo olaanaa</translation>
+    </message>
+    <message>
+        <source>From the cache</source>
+        <translation>Cache irraa</translation>
+    </message>
+    <message>
+        <source>Generated</source>
+        <translation>Uumame</translation>
+    </message>
+    <message>
+        <source>This page carries no figures of its render.</source>
+        <translation>Fuulli kun lakkoofsa agarsiifama isaa tokkollee hin qabu.</translation>
+    </message>
+    <message>
+        <source>This page came from a cache: it was not rendered for this view. The figures are of the render at %time.</source>
+        <translation>Fuulli kun cache irraa dhufe: ilaalcha kanaaf hin agarsiifamne. Lakkoofsonni kan agarsiifama %time ti.</translation>
+    </message>
+    <message>
+        <source>Only the time and memory: the kernel collects the rest with debug output on for you, or for expwt/performance from Exponential 6.0.15 on.</source>
+        <translation>Yeroo fi yaadannoo qofa: kan hafe kernel walitti qaba yeroo bahaan debug siif banamee jiru, ykn expwt/performance'f Exponential 6.0.15 irraa eegalee.</translation>
+    </message>
+    <message>
+        <source>Content view cache</source>
+        <translation>Cache ilaalcha qabiyyee</translation>
+    </message>
+    <message>
+        <source>Cache-blocks</source>
+        <translation>Kutaalee cache</translation>
+    </message>
+    <message>
+        <source>%hits of %count from the cache</source>
+        <translation>%count keessaa %hits cache irraa</translation>
+    </message>
+    <message>
+        <source>Time per layout block</source>
+        <translation>Yeroo kutaa qindaa'ina tokkoof</translation>
+    </message>
+    <message>
+        <source>No layout block on this page.</source>
+        <translation>Fuula kana irratti kutaan qindaa'inaa hin jiru.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

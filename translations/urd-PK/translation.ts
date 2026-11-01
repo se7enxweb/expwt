@@ -2135,6 +2135,62 @@
         <source>The rule texts come from axe-core, in English.</source>
         <translation>اصولوں کے متن axe-core سے آتے ہیں، انگریزی میں۔</translation>
     </message>
+    <message>
+        <source>Performance</source>
+        <translation>کارکردگی</translation>
+    </message>
+    <message>
+        <source>Render time</source>
+        <translation>رینڈر کا وقت</translation>
+    </message>
+    <message>
+        <source>SQL statements</source>
+        <translation>SQL بیانات</translation>
+    </message>
+    <message>
+        <source>Peak memory</source>
+        <translation>زیادہ سے زیادہ میموری</translation>
+    </message>
+    <message>
+        <source>From the cache</source>
+        <translation>کیش سے</translation>
+    </message>
+    <message>
+        <source>Generated</source>
+        <translation>تیار کیا گیا</translation>
+    </message>
+    <message>
+        <source>This page carries no figures of its render.</source>
+        <translation>اس صفحے پر اس کے رینڈر کے کوئی اعداد و شمار نہیں ہیں۔</translation>
+    </message>
+    <message>
+        <source>This page came from a cache: it was not rendered for this view. The figures are of the render at %time.</source>
+        <translation>یہ صفحہ کیش سے آیا ہے: اس دیکھنے کے لیے اسے رینڈر نہیں کیا گیا۔ اعداد و شمار %time کے رینڈر کے ہیں۔</translation>
+    </message>
+    <message>
+        <source>Only the time and memory: the kernel collects the rest with debug output on for you, or for expwt/performance from Exponential 6.0.15 on.</source>
+        <translation>صرف وقت اور میموری: باقی کرنل تب جمع کرتا ہے جب آپ کے لیے ڈیبگ آؤٹ پٹ آن ہو، یا Exponential 6.0.15 سے expwt/performance کے لیے۔</translation>
+    </message>
+    <message>
+        <source>Content view cache</source>
+        <translation>مواد کے منظر کا کیش</translation>
+    </message>
+    <message>
+        <source>Cache-blocks</source>
+        <translation>کیش بلاک</translation>
+    </message>
+    <message>
+        <source>%hits of %count from the cache</source>
+        <translation>%count میں سے %hits کیش سے</translation>
+    </message>
+    <message>
+        <source>Time per layout block</source>
+        <translation>ہر لے آؤٹ بلاک کا وقت</translation>
+    </message>
+    <message>
+        <source>No layout block on this page.</source>
+        <translation>اس صفحے پر کوئی لے آؤٹ بلاک نہیں ہے۔</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>

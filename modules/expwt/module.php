@@ -74,3 +74,6 @@ $FunctionList['shop'] = array();
 $FunctionList['admin'] = array();
 // The Insights panel: the page's views and the site's searches from the kernel's own statistics (F25)
 $FunctionList['insights'] = array();
+// The Performance panel: how the page was rendered (time, SQL, caches, layout blocks) from the kernel's debug bar data
+// (E12); for administrators and developers
+$FunctionList['performance'] = array();

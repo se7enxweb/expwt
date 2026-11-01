@@ -2135,6 +2135,62 @@
         <source>The rule texts come from axe-core, in English.</source>
         <translation>Téks aturan asalna ti axe-core, dina basa Inggris.</translation>
     </message>
+    <message>
+        <source>Performance</source>
+        <translation>Kinerja</translation>
+    </message>
+    <message>
+        <source>Render time</source>
+        <translation>Waktos render</translation>
+    </message>
+    <message>
+        <source>SQL statements</source>
+        <translation>Pernyataan SQL</translation>
+    </message>
+    <message>
+        <source>Peak memory</source>
+        <translation>Mémori puncak</translation>
+    </message>
+    <message>
+        <source>From the cache</source>
+        <translation>Tina cache</translation>
+    </message>
+    <message>
+        <source>Generated</source>
+        <translation>Dijieun</translation>
+    </message>
+    <message>
+        <source>This page carries no figures of its render.</source>
+        <translation>Kaca ieu henteu mawa angka ngeunaan render-na.</translation>
+    </message>
+    <message>
+        <source>This page came from a cache: it was not rendered for this view. The figures are of the render at %time.</source>
+        <translation>Kaca ieu asalna tina cache: henteu di-render pikeun tampilan ieu. Angkana tina render dina %time.</translation>
+    </message>
+    <message>
+        <source>Only the time and memory: the kernel collects the rest with debug output on for you, or for expwt/performance from Exponential 6.0.15 on.</source>
+        <translation>Ngan waktos sareng mémori: kernel ngumpulkeun sésana nalika kaluaran debug hurung pikeun anjeun, atanapi pikeun expwt/performance ti Exponential 6.0.15.</translation>
+    </message>
+    <message>
+        <source>Content view cache</source>
+        <translation>Cache tampilan eusi</translation>
+    </message>
+    <message>
+        <source>Cache-blocks</source>
+        <translation>Blok cache</translation>
+    </message>
+    <message>
+        <source>%hits of %count from the cache</source>
+        <translation>%hits tina %count tina cache</translation>
+    </message>
+    <message>
+        <source>Time per layout block</source>
+        <translation>Waktos per blok tata letak</translation>
+    </message>
+    <message>
+        <source>No layout block on this page.</source>
+        <translation>Teu aya blok tata letak dina kaca ieu.</translation>
+    </message>
 </context>
 <context>
     <name>design/admin/parts/setup/menu</name>
