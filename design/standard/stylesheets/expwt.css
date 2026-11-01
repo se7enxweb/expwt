@@ -988,6 +988,8 @@ button.wt-seo-item:hover { border-color: var(--a4-accent); }
 .wt-rec-dot { display: inline-block; inline-size: var(--a4-space-2); block-size: var(--a4-space-2); border-radius: 50%; background: var(--a4-bad); box-shadow: 0 0 0 3px var(--a4-bad-bg); }
 .wt-badge.wt-rec-badge, :host([data-theme="dark"]) .wt-badge.wt-rec-badge,
 .wt-tabs [role="tab"][aria-selected="true"] .wt-badge.wt-rec-badge { min-inline-size: 0; padding: 0 var(--a4-space-1); background: transparent; }
+/* on the selected tab (the accent fill) the dot turns light, so it stays visible */
+.wt-tabs [role="tab"][aria-selected="true"] .wt-rec-dot { background: var(--a4-surface); box-shadow: none; }
 @media (prefers-reduced-motion: no-preference) {
   .wt-rec-dot { animation: wt-rec-pulse 1.4s ease-in-out infinite; }
 }
