@@ -1819,5 +1819,53 @@
         <source>%n migrations need attention</source>
         <translation>སྤོ་སྒྱུར་ %n ལུ་ དོ་སྣང་དགོ།</translation>
     </message>
+    <message>
+        <source>This image cannot have a focal point.</source>
+        <translation>པར་འདི་ལུ་ དམིགས་ཚད་ཡོད་མི་ཚུགས།</translation>
+    </message>
+    <message>
+        <source>Focal points are not available here.</source>
+        <translation>དམིགས་ཚད་ཚུ་ ནཱ་ལུ་མེད།</translation>
+    </message>
+    <message>
+        <source>Focal point and crop</source>
+        <translation>དམིགས་ཚད་དང་ བཏོག་ནི།</translation>
+    </message>
+    <message>
+        <source>Focal point</source>
+        <translation>དམིགས་ཚད།</translation>
+    </message>
+    <message>
+        <source>Crop box</source>
+        <translation>བཏོག་སྒྲོམ།</translation>
+    </message>
+    <message>
+        <source>Crop</source>
+        <translation>བཏོག</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>སླར་སྒྲིག</translation>
+    </message>
+    <message>
+        <source>Click or drag on the image to set the focal point. Arrow keys move it; on the crop box, Shift and an arrow key change its size.</source>
+        <translation>དམིགས་ཚད་གཞི་སྒྲིག་འབད་ནིའི་དོན་ལུ་ པར་གུ་ ཨེབ་གཏང་ ཡང་ན་ འཐེན། མདའ་རྟགས་ལྡེ་མིག་གིས་ དེ་སྤོ་བཏང་འབདཝ་ཨིན། བཏོག་སྒྲོམ་གུ་ Shift དང་ མདའ་རྟགས་ལྡེ་མིག་གིས་ དེའི་ཚད་སོར་བཏང་འབདཝ་ཨིན།</translation>
+    </message>
+    <message>
+        <source>How each size will look</source>
+        <translation>ཚད་རེ་རེ་ག་དེ་སྦེ་མཐོང་ནི་ཨིན་ན།</translation>
+    </message>
+    <message>
+        <source>The templates of this page use no size of this image yet.</source>
+        <translation>ཤོག་ལེབ་འདི་གི་ ཊེམ་པེལེཊི་ཚུ་གིས་ ད་ལྟོ་ཚུན་ པར་འདི་གི་ཚད་ག་ཅི་ཡང་ ལག་ལེན་མ་འཐབ་པས།</translation>
+    </message>
+    <message>
+        <source>This size keeps its own crop.</source>
+        <translation>ཚད་འདི་གིས་ རང་སོའི་བཏོག་ནི་ བཞགཔ་ཨིན།</translation>
+    </message>
+    <message>
+        <source>Saved: the sizes are made again around the focal point.</source>
+        <translation>སྲུང་བཞག་ཡི། ཚད་ཚུ་ དམིགས་ཚད་ཀྱི་མཐའ་སྐོར་ལུ་ ལོག་བཟོཝ་ཨིན།</translation>
+    </message>
 </context>
 </TS>

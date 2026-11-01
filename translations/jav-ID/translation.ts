@@ -1819,5 +1819,53 @@
         <source>%n migrations need attention</source>
         <translation>%n migrasi butuh kawigatèn</translation>
     </message>
+    <message>
+        <source>This image cannot have a focal point.</source>
+        <translation>Gambar iki ora bisa duwe titik fokus.</translation>
+    </message>
+    <message>
+        <source>Focal points are not available here.</source>
+        <translation>Titik fokus ora kasedhiya ing kene.</translation>
+    </message>
+    <message>
+        <source>Focal point and crop</source>
+        <translation>Titik fokus lan potongan</translation>
+    </message>
+    <message>
+        <source>Focal point</source>
+        <translation>Titik fokus</translation>
+    </message>
+    <message>
+        <source>Crop box</source>
+        <translation>Kothak potongan</translation>
+    </message>
+    <message>
+        <source>Crop</source>
+        <translation>Potong</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>Setel maneh</translation>
+    </message>
+    <message>
+        <source>Click or drag on the image to set the focal point. Arrow keys move it; on the crop box, Shift and an arrow key change its size.</source>
+        <translation>Klik utawa seret ing gambar kanggo nyetel titik fokus. Tombol panah mindhahake; ing kothak potongan, Shift lan tombol panah ngowahi ukurane.</translation>
+    </message>
+    <message>
+        <source>How each size will look</source>
+        <translation>Kepiye saben ukuran bakal katon</translation>
+    </message>
+    <message>
+        <source>The templates of this page use no size of this image yet.</source>
+        <translation>Cithakan kaca iki durung nggunakake ukuran apa wae saka gambar iki.</translation>
+    </message>
+    <message>
+        <source>This size keeps its own crop.</source>
+        <translation>Ukuran iki njaga potongane dhewe.</translation>
+    </message>
+    <message>
+        <source>Saved: the sizes are made again around the focal point.</source>
+        <translation>Disimpen: ukuran-ukuran digawe maneh ing sakubenge titik fokus.</translation>
+    </message>
 </context>
 </TS>

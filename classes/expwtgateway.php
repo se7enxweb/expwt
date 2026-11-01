@@ -190,6 +190,8 @@ class expwtGateway
             'schedule' => $schedule,
             // what Exponential Intelligence offers for the fields of this page (E1), null where it is not there
             'ai' => $this->aiOffer(),
+            // the focal point and crop of image fields (E7): only with a kernel that stores them
+            'images' => expwtImages::available(),
             'can' => array(
                 'edit' => (bool)$object->canEdit( false, false, false, $language ),
                 'create' => $node ? (bool)$node->canCreate() : false,
@@ -2373,6 +2375,156 @@ class expwtGateway
             'attention' => count( $pending ) + count( $failed ) + count( $orphans ),
             'url' => $link( 'migration/status' ),
         );
+    }
+
+    // ------------------------------------------------------------------------- an image's focal point and crop (E7)
+
+    /**
+     * An image field of the page for its Images part (E7): the original, the focal point and crop rectangle of the
+     * version the user edits (their draft in the language, else the published version), and the aliases the page's
+     * templates use (expwtImages::relevantAliases()), each with its filters from the original (the browser previews
+     * them live) and its file as it is now. Needs content/edit of the page in the language.
+     *
+     * @param array $in objectId, version (the user's draft), language, field
+     * @return array supported, version, field, original, focal, crop, aliases
+     */
+    public function images( array $in )
+    {
+        list( $object, $version, $language, $attribute, $draft ) = $this->imageField( $in, false );
+        return $this->imageInfo( $version, $attribute, $draft );
+    }
+
+    /**
+     * Sets the focal point and crop rectangle of an image field in the user's draft (made by the first save, as the
+     * field's own editor makes it), through the kernel's eZImageAliasHandler::setFocalPoint(): the image's aliases
+     * are made again around it in that draft only; the published page changes when the draft is published. Audited
+     * as content.expwt.image.focal.
+     *
+     * @param array $in objectId, version, language, field, focal (x, y or null), crop (x, y, width, height or null)
+     * @return array as images(), with the draft
+     */
+    public function imagesSave( array $in )
+    {
+        $focal = expwtImages::point( isset( $in['focal'] ) ? $in['focal'] : null );
+        $crop = expwtImages::rectangle( isset( $in['crop'] ) ? $in['crop'] : null );
+        if ( $focal === false || $crop === false )
+            throw new expwtApiError( 400, 'bad_value', 'This value does not fit the field.' );
+        list( $object, $version, $language, $attribute, $draft ) = $this->imageField( $in, true );
+        $handler = $attribute->content();
+        if ( !is_object( $handler ) || !$handler->supportsFocalPoint() )
+            throw new expwtApiError( 400, 'bad_value', 'This image cannot have a focal point.' );
+        $before = array( 'focal' => $handler->focalPoint(), 'crop' => $handler->cropRectangle() );
+        $versionNumber = (int)$version->attribute( 'version' );
+        $db = eZDB::instance();
+        $db->begin();
+        if ( !$handler->setFocalPoint( $focal, $crop ) )
+        {
+            $db->rollback();
+            throw new expwtApiError( 400, 'bad_value', 'This image cannot have a focal point.' );
+        }
+        $handler->store( $attribute );
+        $attribute->store();
+        $version->setAttribute( 'modified', time() );
+        $version->store();
+        $db->commit();
+        ezpEvent::getInstance()->notify( 'content/cache/version', array( (int)$object->attribute( 'id' ), $versionNumber ) );
+        if ( class_exists( 'expAuditHook' ) && $before !== array( 'focal' => $focal, 'crop' => $crop ) )
+            expAuditHook::emit( 'content.expwt.image.focal', array(
+                'object' => array( 'type' => 'content_object', 'id' => (int)$object->attribute( 'id' ), 'version' => $versionNumber,
+                                   'language' => $language, 'field' => (string)$attribute->attribute( 'contentclass_attribute_identifier' ) ),
+                'verb' => 'change', 'before' => $before, 'after' => array( 'focal' => $focal, 'crop' => $crop ) ) );
+        // the stored attribute again, as the next request sees it
+        $dataMap = $object->fetchDataMap( $versionNumber, $language );
+        $field = (string)$attribute->attribute( 'contentclass_attribute_identifier' );
+        return $this->imageInfo( $version, isset( $dataMap[$field] ) ? $dataMap[$field] : $attribute, $version );
+    }
+
+    /**
+     * The image field of $in in the user's draft, or (reading, no draft yet) in the published version; with $create
+     * a draft is made in the language when the user has none, as the field's editor makes it (expwt/field).
+     *
+     * @return array eZContentObject, eZContentObjectVersion, language, eZContentObjectAttribute, the draft or null
+     */
+    protected function imageField( array $in, $create )
+    {
+        if ( !expwtImages::available() )
+            throw new expwtApiError( 404, 'images_off', 'Focal points are not available here.' );
+        $object = $this->readableObject( $in );
+        $language = isset( $in['language'] ) && $in['language'] !== '' ? (string)$in['language'] : (string)$object->attribute( 'initial_language_code' );
+        if ( !$object->canEdit( false, false, false, $language ) )
+            throw new expwtApiError( 403, 'forbidden', 'You may not do this.' );
+        $draft = isset( $in['version'] ) && $in['version'] ? $this->ownDraft( $object, $in['version'] ) : $this->latestOwnDraft( $object, $language );
+        if ( isset( $in['version'] ) && $in['version'] && !$draft )
+            throw new expwtApiError( 404, 'not_found', 'This draft is not there any more.' );
+        if ( !$draft && $create )
+        {
+            $db = eZDB::instance();
+            $db->begin();
+            $existing = in_array( $language, $object->availableLanguages(), true );
+            $draft = $object->createNewVersionIn( $language, $existing ? false : (string)$object->attribute( 'initial_language_code' ) );
+            $draft->setAttribute( 'status', eZContentObjectVersion::STATUS_DRAFT );
+            $draft->store();
+            $db->commit();
+        }
+        $version = $draft ?: $object->version( (int)$object->attribute( 'current_version' ) );
+        if ( !$version instanceof eZContentObjectVersion )
+            throw new expwtApiError( 404, 'not_found', 'This page is not there, or you may not read it.' );
+        $field = isset( $in['field'] ) ? (string)$in['field'] : '';
+        $dataMap = $object->fetchDataMap( (int)$version->attribute( 'version' ), $language );
+        if ( $field === '' || !isset( $dataMap[$field] ) || (string)$dataMap[$field]->attribute( 'data_type_string' ) !== 'ezimage' )
+            throw new expwtApiError( 400, 'bad_input', 'This field cannot be edited here.', array( 'field' => $field ) );
+        return array( $object, $version, $language, $dataMap[$field], $draft );
+    }
+
+    /** @return array what images() answers for an image attribute */
+    protected function imageInfo( eZContentObjectVersion $version, eZContentObjectAttribute $attribute, $draft )
+    {
+        $handler = $attribute->content();
+        $out = array( 'supported' => false, 'version' => $draft ? (int)$draft->attribute( 'version' ) : null,
+                      'field' => (string)$attribute->attribute( 'contentclass_attribute_identifier' ),
+                      'original' => null, 'focal' => null, 'crop' => null, 'aliases' => array() );
+        if ( !is_object( $handler ) || !$handler->supportsFocalPoint() )
+            return $out;
+        $original = $handler->attribute( 'original' );
+        $out['supported'] = true;
+        $out['original'] = array( 'url' => self::fileUrl( $original['url'] ), 'width' => (int)$original['width'], 'height' => (int)$original['height'],
+                                  'alt' => (string)$original['alternative_text'] );
+        $out['focal'] = $handler->focalPoint();
+        $out['crop'] = $handler->cropRectangle();
+
+        // the aliases the image has, in this version and in the published one (what the page's templates made)
+        $made = array_keys( $handler->aliasList() );
+        $object = $version->contentObject();
+        $published = $object ? (int)$object->attribute( 'current_version' ) : 0;
+        if ( $published && $published !== (int)$version->attribute( 'version' ) )
+        {
+            $map = $object->fetchDataMap( $published, (string)$attribute->attribute( 'language_code' ) );
+            $identifier = $out['field'];
+            if ( isset( $map[$identifier] ) && is_object( $map[$identifier]->content() ) )
+                $made = array_merge( $made, array_keys( $map[$identifier]->content()->aliasList() ) );
+        }
+        $aliasList = eZImageManager::factory()->aliasList();
+        foreach ( expwtImages::relevantAliases( $aliasList, array_values( array_unique( $made ) ) ) as $name )
+        {
+            $alias = $handler->imageAlias( $name );
+            $out['aliases'][] = array(
+                'name' => $name,
+                'filters' => expwtImages::chain( $aliasList, $name ),
+                'url' => is_array( $alias ) && !empty( $alias['url'] ) ? self::fileUrl( $alias['url'] ) : null,
+                'width' => is_array( $alias ) ? (int)$alias['width'] : 0,
+                'height' => is_array( $alias ) ? (int)$alias['height'] : 0,
+            );
+        }
+        return $out;
+    }
+
+    /** @return string the address of a stored file (var/.../storage/...) */
+    protected static function fileUrl( $path )
+    {
+        $path = (string)$path;
+        if ( $path === '' )
+            return '';
+        return rtrim( eZSys::wwwDir(), '/' ) . '/' . ltrim( $path, '/' );
     }
 
     // ------------------------------------------------------------------------------------------------ the inbox

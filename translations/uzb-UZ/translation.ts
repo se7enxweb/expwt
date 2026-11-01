@@ -1819,5 +1819,53 @@
         <source>%n migrations need attention</source>
         <translation>%n ta migratsiya eʼtibor talab qiladi</translation>
     </message>
+    <message>
+        <source>This image cannot have a focal point.</source>
+        <translation>Bu rasmda fokus nuqtasi bo'lishi mumkin emas.</translation>
+    </message>
+    <message>
+        <source>Focal points are not available here.</source>
+        <translation>Fokus nuqtalari bu yerda mavjud emas.</translation>
+    </message>
+    <message>
+        <source>Focal point and crop</source>
+        <translation>Fokus nuqtasi va kesish</translation>
+    </message>
+    <message>
+        <source>Focal point</source>
+        <translation>Fokus nuqtasi</translation>
+    </message>
+    <message>
+        <source>Crop box</source>
+        <translation>Kesish ramkasi</translation>
+    </message>
+    <message>
+        <source>Crop</source>
+        <translation>Kesish</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>Asliga qaytarish</translation>
+    </message>
+    <message>
+        <source>Click or drag on the image to set the focal point. Arrow keys move it; on the crop box, Shift and an arrow key change its size.</source>
+        <translation>Fokus nuqtasini belgilash uchun rasm ustiga bosing yoki suring. Strelka tugmalari uni siljitadi; kesish ramkasida Shift va strelka tugmasi uning o'lchamini o'zgartiradi.</translation>
+    </message>
+    <message>
+        <source>How each size will look</source>
+        <translation>Har bir o'lcham qanday ko'rinadi</translation>
+    </message>
+    <message>
+        <source>The templates of this page use no size of this image yet.</source>
+        <translation>Bu sahifa shablonlari hali bu rasmning hech bir o'lchamidan foydalanmaydi.</translation>
+    </message>
+    <message>
+        <source>This size keeps its own crop.</source>
+        <translation>Bu o'lcham o'z kesishini saqlaydi.</translation>
+    </message>
+    <message>
+        <source>Saved: the sizes are made again around the focal point.</source>
+        <translation>Saqlandi: o'lchamlar fokus nuqtasi atrofida qayta yaratiladi.</translation>
+    </message>
 </context>
 </TS>

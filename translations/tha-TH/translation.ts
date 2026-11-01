@@ -1819,5 +1819,53 @@
         <source>%n migrations need attention</source>
         <translation>การย้ายข้อมูล %n รายการต้องได้รับการดูแล</translation>
     </message>
+    <message>
+        <source>This image cannot have a focal point.</source>
+        <translation>รูปภาพนี้ไม่สามารถมีจุดโฟกัสได้</translation>
+    </message>
+    <message>
+        <source>Focal points are not available here.</source>
+        <translation>จุดโฟกัสไม่พร้อมใช้งานที่นี่</translation>
+    </message>
+    <message>
+        <source>Focal point and crop</source>
+        <translation>จุดโฟกัสและการครอบตัด</translation>
+    </message>
+    <message>
+        <source>Focal point</source>
+        <translation>จุดโฟกัส</translation>
+    </message>
+    <message>
+        <source>Crop box</source>
+        <translation>กรอบครอบตัด</translation>
+    </message>
+    <message>
+        <source>Crop</source>
+        <translation>ครอบตัด</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>รีเซ็ต</translation>
+    </message>
+    <message>
+        <source>Click or drag on the image to set the focal point. Arrow keys move it; on the crop box, Shift and an arrow key change its size.</source>
+        <translation>คลิกหรือลากบนรูปภาพเพื่อกำหนดจุดโฟกัส ปุ่มลูกศรใช้ย้ายจุด บนกรอบครอบตัด กด Shift พร้อมปุ่มลูกศรเพื่อเปลี่ยนขนาดกรอบ</translation>
+    </message>
+    <message>
+        <source>How each size will look</source>
+        <translation>แต่ละขนาดจะมีลักษณะอย่างไร</translation>
+    </message>
+    <message>
+        <source>The templates of this page use no size of this image yet.</source>
+        <translation>เทมเพลตของหน้านี้ยังไม่ได้ใช้ขนาดใดของรูปภาพนี้</translation>
+    </message>
+    <message>
+        <source>This size keeps its own crop.</source>
+        <translation>ขนาดนี้คงการครอบตัดของตัวเองไว้</translation>
+    </message>
+    <message>
+        <source>Saved: the sizes are made again around the focal point.</source>
+        <translation>บันทึกแล้ว: ขนาดต่าง ๆ ถูกสร้างใหม่โดยยึดจุดโฟกัสเป็นศูนย์กลาง</translation>
+    </message>
 </context>
 </TS>

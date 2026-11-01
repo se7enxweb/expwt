@@ -1819,5 +1819,53 @@
         <source>%n migrations need attention</source>
         <translation>%n миграция назар талап етеді</translation>
     </message>
+    <message>
+        <source>This image cannot have a focal point.</source>
+        <translation>Бұл суретте фокус нүктесі болмайды.</translation>
+    </message>
+    <message>
+        <source>Focal points are not available here.</source>
+        <translation>Фокус нүктелері мұнда қолжетімсіз.</translation>
+    </message>
+    <message>
+        <source>Focal point and crop</source>
+        <translation>Фокус нүктесі және кесу</translation>
+    </message>
+    <message>
+        <source>Focal point</source>
+        <translation>Фокус нүктесі</translation>
+    </message>
+    <message>
+        <source>Crop box</source>
+        <translation>Кесу жақтауы</translation>
+    </message>
+    <message>
+        <source>Crop</source>
+        <translation>Кесу</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>Қалпына келтіру</translation>
+    </message>
+    <message>
+        <source>Click or drag on the image to set the focal point. Arrow keys move it; on the crop box, Shift and an arrow key change its size.</source>
+        <translation>Фокус нүктесін орнату үшін суретті шертіңіз немесе сүйреңіз. Көрсеткі пернелері оны жылжытады; кесу жақтауында Shift пен көрсеткі пернесі оның өлшемін өзгертеді.</translation>
+    </message>
+    <message>
+        <source>How each size will look</source>
+        <translation>Әр өлшем қалай көрінеді</translation>
+    </message>
+    <message>
+        <source>The templates of this page use no size of this image yet.</source>
+        <translation>Бұл беттің үлгілері әлі бұл суреттің ешбір өлшемін пайдаланбайды.</translation>
+    </message>
+    <message>
+        <source>This size keeps its own crop.</source>
+        <translation>Бұл өлшем өз кесуін сақтайды.</translation>
+    </message>
+    <message>
+        <source>Saved: the sizes are made again around the focal point.</source>
+        <translation>Сақталды: өлшемдер фокус нүктесінің айналасында қайта жасалады.</translation>
+    </message>
 </context>
 </TS>

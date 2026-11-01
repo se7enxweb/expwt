@@ -1819,5 +1819,53 @@
         <source>%n migrations need attention</source>
         <translation>Iimfuduko ezi %n zifuna ingqalelo</translation>
     </message>
+    <message>
+        <source>This image cannot have a focal point.</source>
+        <translation>Lo mfanekiso awunakuba nendawo yokugxila.</translation>
+    </message>
+    <message>
+        <source>Focal points are not available here.</source>
+        <translation>Iindawo zokugxila azifumaneki apha.</translation>
+    </message>
+    <message>
+        <source>Focal point and crop</source>
+        <translation>Indawo yokugxila nokusika</translation>
+    </message>
+    <message>
+        <source>Focal point</source>
+        <translation>Indawo yokugxila</translation>
+    </message>
+    <message>
+        <source>Crop box</source>
+        <translation>Ibhokisi yokusika</translation>
+    </message>
+    <message>
+        <source>Crop</source>
+        <translation>Sika</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>Seta kwakhona</translation>
+    </message>
+    <message>
+        <source>Click or drag on the image to set the focal point. Arrow keys move it; on the crop box, Shift and an arrow key change its size.</source>
+        <translation>Cofa okanye utsale emfanekisweni ukuze usete indawo yokugxila. Amaqhosha otolo ayayishukumisa; kwibhokisi yokusika, uShift neqhosha lotolo batshintsha ubungakanani bayo.</translation>
+    </message>
+    <message>
+        <source>How each size will look</source>
+        <translation>Uza kubonakala njani ubungakanani ngabunye</translation>
+    </message>
+    <message>
+        <source>The templates of this page use no size of this image yet.</source>
+        <translation>Iitemplate zeli phepha azikasebenzisi bungakanani bukhoyo balo mfanekiso.</translation>
+    </message>
+    <message>
+        <source>This size keeps its own crop.</source>
+        <translation>Obu bungakanani bugcina ukusika kwabo.</translation>
+    </message>
+    <message>
+        <source>Saved: the sizes are made again around the focal point.</source>
+        <translation>Kugciniwe: ubungakanani benziwa kwakhona bujikeleze indawo yokugxila.</translation>
+    </message>
 </context>
 </TS>

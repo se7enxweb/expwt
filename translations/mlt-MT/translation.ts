@@ -1819,5 +1819,53 @@
         <source>%n migrations need attention</source>
         <translation>%n migrazzjonijiet jeħtieġu attenzjoni</translation>
     </message>
+    <message>
+        <source>This image cannot have a focal point.</source>
+        <translation>Din l-istampa ma jistax ikollha punt fokali.</translation>
+    </message>
+    <message>
+        <source>Focal points are not available here.</source>
+        <translation>Il-punti fokali mhumiex disponibbli hawn.</translation>
+    </message>
+    <message>
+        <source>Focal point and crop</source>
+        <translation>Punt fokali u qtugħ</translation>
+    </message>
+    <message>
+        <source>Focal point</source>
+        <translation>Punt fokali</translation>
+    </message>
+    <message>
+        <source>Crop box</source>
+        <translation>Kaxxa tal-qtugħ</translation>
+    </message>
+    <message>
+        <source>Crop</source>
+        <translation>Aqta'</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>Irrisettja</translation>
+    </message>
+    <message>
+        <source>Click or drag on the image to set the focal point. Arrow keys move it; on the crop box, Shift and an arrow key change its size.</source>
+        <translation>Ikklikkja jew iġbed fuq l-istampa biex tissettja l-punt fokali. Il-vleġeġ iċaqilquh; fuq il-kaxxa tal-qtugħ, Shift u vleġġa jibdlu d-daqs tagħha.</translation>
+    </message>
+    <message>
+        <source>How each size will look</source>
+        <translation>Kif se jidher kull daqs</translation>
+    </message>
+    <message>
+        <source>The templates of this page use no size of this image yet.</source>
+        <translation>Il-mudelli ta' din il-paġna għadhom ma jużaw l-ebda daqs ta' din l-istampa.</translation>
+    </message>
+    <message>
+        <source>This size keeps its own crop.</source>
+        <translation>Dan id-daqs iżomm il-qtugħ tiegħu stess.</translation>
+    </message>
+    <message>
+        <source>Saved: the sizes are made again around the focal point.</source>
+        <translation>Issejvjat: id-daqsijiet isiru mill-ġdid madwar il-punt fokali.</translation>
+    </message>
 </context>
 </TS>

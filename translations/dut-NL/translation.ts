@@ -1819,5 +1819,53 @@
         <source>%n migrations need attention</source>
         <translation>%n migraties vragen aandacht</translation>
     </message>
+    <message>
+        <source>This image cannot have a focal point.</source>
+        <translation>Deze afbeelding kan geen focuspunt hebben.</translation>
+    </message>
+    <message>
+        <source>Focal points are not available here.</source>
+        <translation>Focuspunten zijn hier niet beschikbaar.</translation>
+    </message>
+    <message>
+        <source>Focal point and crop</source>
+        <translation>Focuspunt en uitsnede</translation>
+    </message>
+    <message>
+        <source>Focal point</source>
+        <translation>Focuspunt</translation>
+    </message>
+    <message>
+        <source>Crop box</source>
+        <translation>Uitsnedekader</translation>
+    </message>
+    <message>
+        <source>Crop</source>
+        <translation>Bijsnijden</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>Herstellen</translation>
+    </message>
+    <message>
+        <source>Click or drag on the image to set the focal point. Arrow keys move it; on the crop box, Shift and an arrow key change its size.</source>
+        <translation>Klik of sleep op de afbeelding om het focuspunt in te stellen. De pijltoetsen verplaatsen het; op het uitsnedekader wijzigen Shift en een pijltoets de grootte.</translation>
+    </message>
+    <message>
+        <source>How each size will look</source>
+        <translation>Hoe elk formaat eruit zal zien</translation>
+    </message>
+    <message>
+        <source>The templates of this page use no size of this image yet.</source>
+        <translation>De sjablonen van deze pagina gebruiken nog geen formaat van deze afbeelding.</translation>
+    </message>
+    <message>
+        <source>This size keeps its own crop.</source>
+        <translation>Dit formaat behoudt zijn eigen uitsnede.</translation>
+    </message>
+    <message>
+        <source>Saved: the sizes are made again around the focal point.</source>
+        <translation>Opgeslagen: de formaten worden opnieuw rond het focuspunt gemaakt.</translation>
+    </message>
 </context>
 </TS>

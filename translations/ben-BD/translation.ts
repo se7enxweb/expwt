@@ -1819,5 +1819,53 @@
         <source>%n migrations need attention</source>
         <translation>%nটি মাইগ্রেশনে মনোযোগ প্রয়োজন</translation>
     </message>
+    <message>
+        <source>This image cannot have a focal point.</source>
+        <translation>এই ছবির কোনো ফোকাল পয়েন্ট থাকতে পারে না।</translation>
+    </message>
+    <message>
+        <source>Focal points are not available here.</source>
+        <translation>ফোকাল পয়েন্ট এখানে উপলব্ধ নয়।</translation>
+    </message>
+    <message>
+        <source>Focal point and crop</source>
+        <translation>ফোকাল পয়েন্ট ও ক্রপ</translation>
+    </message>
+    <message>
+        <source>Focal point</source>
+        <translation>ফোকাল পয়েন্ট</translation>
+    </message>
+    <message>
+        <source>Crop box</source>
+        <translation>ক্রপ বাক্স</translation>
+    </message>
+    <message>
+        <source>Crop</source>
+        <translation>ক্রপ</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>রিসেট</translation>
+    </message>
+    <message>
+        <source>Click or drag on the image to set the focal point. Arrow keys move it; on the crop box, Shift and an arrow key change its size.</source>
+        <translation>ফোকাল পয়েন্ট নির্ধারণ করতে ছবিতে ক্লিক করুন বা টানুন। তীর কী এটিকে সরায়; ক্রপ বাক্সে Shift ও একটি তীর কী এর আকার পরিবর্তন করে।</translation>
+    </message>
+    <message>
+        <source>How each size will look</source>
+        <translation>প্রতিটি আকার কেমন দেখাবে</translation>
+    </message>
+    <message>
+        <source>The templates of this page use no size of this image yet.</source>
+        <translation>এই পৃষ্ঠার টেমপ্লেটগুলো এখনও এই ছবির কোনো আকার ব্যবহার করে না।</translation>
+    </message>
+    <message>
+        <source>This size keeps its own crop.</source>
+        <translation>এই আকারটি নিজের ক্রপ রাখে।</translation>
+    </message>
+    <message>
+        <source>Saved: the sizes are made again around the focal point.</source>
+        <translation>সংরক্ষিত: আকারগুলো ফোকাল পয়েন্টের চারপাশে আবার তৈরি করা হয়।</translation>
+    </message>
 </context>
 </TS>

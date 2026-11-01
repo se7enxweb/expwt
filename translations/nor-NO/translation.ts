@@ -1819,5 +1819,53 @@
         <source>%n migrations need attention</source>
         <translation>%n migreringer trenger tilsyn</translation>
     </message>
+    <message>
+        <source>This image cannot have a focal point.</source>
+        <translation>Dette bildet kan ikke ha et fokuspunkt.</translation>
+    </message>
+    <message>
+        <source>Focal points are not available here.</source>
+        <translation>Fokuspunkter er ikke tilgjengelige her.</translation>
+    </message>
+    <message>
+        <source>Focal point and crop</source>
+        <translation>Fokuspunkt og beskjæring</translation>
+    </message>
+    <message>
+        <source>Focal point</source>
+        <translation>Fokuspunkt</translation>
+    </message>
+    <message>
+        <source>Crop box</source>
+        <translation>Beskjæringsramme</translation>
+    </message>
+    <message>
+        <source>Crop</source>
+        <translation>Beskjær</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>Tilbakestill</translation>
+    </message>
+    <message>
+        <source>Click or drag on the image to set the focal point. Arrow keys move it; on the crop box, Shift and an arrow key change its size.</source>
+        <translation>Klikk eller dra i bildet for å angi fokuspunktet. Piltastene flytter det; på beskjæringsrammen endrer Shift og en piltast størrelsen.</translation>
+    </message>
+    <message>
+        <source>How each size will look</source>
+        <translation>Slik vil hver størrelse se ut</translation>
+    </message>
+    <message>
+        <source>The templates of this page use no size of this image yet.</source>
+        <translation>Malene på denne siden bruker ennå ingen størrelse av dette bildet.</translation>
+    </message>
+    <message>
+        <source>This size keeps its own crop.</source>
+        <translation>Denne størrelsen beholder sin egen beskjæring.</translation>
+    </message>
+    <message>
+        <source>Saved: the sizes are made again around the focal point.</source>
+        <translation>Lagret: størrelsene lages på nytt rundt fokuspunktet.</translation>
+    </message>
 </context>
 </TS>

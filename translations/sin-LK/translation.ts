@@ -1819,5 +1819,53 @@
         <source>%n migrations need attention</source>
         <translation>සංක්‍රමණ %n කට අවධානය අවශ්‍යයි</translation>
     </message>
+    <message>
+        <source>This image cannot have a focal point.</source>
+        <translation>මෙම රූපයට නාභිගත ලක්ෂ්‍යයක් තිබිය නොහැක.</translation>
+    </message>
+    <message>
+        <source>Focal points are not available here.</source>
+        <translation>නාභිගත ලක්ෂ්‍ය මෙහි ලබා ගත නොහැක.</translation>
+    </message>
+    <message>
+        <source>Focal point and crop</source>
+        <translation>නාභිගත ලක්ෂ්‍යය සහ කැපීම</translation>
+    </message>
+    <message>
+        <source>Focal point</source>
+        <translation>නාභිගත ලක්ෂ්‍යය</translation>
+    </message>
+    <message>
+        <source>Crop box</source>
+        <translation>කැපුම් කොටුව</translation>
+    </message>
+    <message>
+        <source>Crop</source>
+        <translation>කපන්න</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>යළි සකසන්න</translation>
+    </message>
+    <message>
+        <source>Click or drag on the image to set the focal point. Arrow keys move it; on the crop box, Shift and an arrow key change its size.</source>
+        <translation>නාභිගත ලක්ෂ්‍යය සැකසීමට රූපය මත ක්ලික් කරන්න හෝ අදින්න. ඊතල යතුරු එය චලනය කරයි; කැපුම් කොටුව මත Shift සහ ඊතල යතුරක් එහි ප්‍රමාණය වෙනස් කරයි.</translation>
+    </message>
+    <message>
+        <source>How each size will look</source>
+        <translation>එක් එක් ප්‍රමාණය පෙනෙන ආකාරය</translation>
+    </message>
+    <message>
+        <source>The templates of this page use no size of this image yet.</source>
+        <translation>මෙම පිටුවේ අච්චු තවමත් මෙම රූපයේ කිසිදු ප්‍රමාණයක් භාවිත නොකරයි.</translation>
+    </message>
+    <message>
+        <source>This size keeps its own crop.</source>
+        <translation>මෙම ප්‍රමාණය තමන්ගේම කැපීම තබා ගනී.</translation>
+    </message>
+    <message>
+        <source>Saved: the sizes are made again around the focal point.</source>
+        <translation>සුරකින ලදී: ප්‍රමාණ නාභිගත ලක්ෂ්‍යය වටා නැවත සාදනු ලැබේ.</translation>
+    </message>
 </context>
 </TS>

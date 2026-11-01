@@ -1819,5 +1819,53 @@
         <source>%n migrations need attention</source>
         <translation>%n টা মাইগ্ৰেচনত মনোযোগ লাগে</translation>
     </message>
+    <message>
+        <source>This image cannot have a focal point.</source>
+        <translation>এই ছবিখনৰ ফ'কাল পইণ্ট থাকিব নোৱাৰে।</translation>
+    </message>
+    <message>
+        <source>Focal points are not available here.</source>
+        <translation>ইয়াত ফ'কাল পইণ্ট উপলব্ধ নহয়।</translation>
+    </message>
+    <message>
+        <source>Focal point and crop</source>
+        <translation>ফ'কাল পইণ্ট আৰু ক্ৰপ</translation>
+    </message>
+    <message>
+        <source>Focal point</source>
+        <translation>ফ'কাল পইণ্ট</translation>
+    </message>
+    <message>
+        <source>Crop box</source>
+        <translation>ক্ৰপ বাকচ</translation>
+    </message>
+    <message>
+        <source>Crop</source>
+        <translation>ক্ৰপ</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>পুনৰ ছেট কৰক</translation>
+    </message>
+    <message>
+        <source>Click or drag on the image to set the focal point. Arrow keys move it; on the crop box, Shift and an arrow key change its size.</source>
+        <translation>ফ'কাল পইণ্ট নিৰ্ধাৰণ কৰিবলৈ ছবিখনত ক্লিক কৰক বা টানক। কাঁড়চিহ্নৰ কীয়ে ইয়াক লৰায়; ক্ৰপ বাকচত Shift আৰু কাঁড়চিহ্নৰ কীয়ে ইয়াৰ আকাৰ সলনি কৰে।</translation>
+    </message>
+    <message>
+        <source>How each size will look</source>
+        <translation>প্ৰতিটো আকাৰ কেনেকুৱা দেখা যাব</translation>
+    </message>
+    <message>
+        <source>The templates of this page use no size of this image yet.</source>
+        <translation>এই পৃষ্ঠাৰ টেমপ্লেটসমূহে এতিয়াও এই ছবিখনৰ কোনো আকাৰ ব্যৱহাৰ কৰা নাই।</translation>
+    </message>
+    <message>
+        <source>This size keeps its own crop.</source>
+        <translation>এই আকাৰে নিজৰ ক্ৰপ ৰাখে।</translation>
+    </message>
+    <message>
+        <source>Saved: the sizes are made again around the focal point.</source>
+        <translation>ছেভ কৰা হ'ল: আকাৰসমূহ ফ'কাল পইণ্টৰ চাৰিওফালে পুনৰ তৈয়াৰ কৰা হয়।</translation>
+    </message>
 </context>
 </TS>

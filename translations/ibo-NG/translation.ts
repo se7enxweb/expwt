@@ -1819,5 +1819,53 @@
         <source>%n migrations need attention</source>
         <translation>Mbugharị %n chọrọ nlebara anya</translation>
     </message>
+    <message>
+        <source>This image cannot have a focal point.</source>
+        <translation>Onyonyo a enweghị ike inwe ebe nlekwasị anya.</translation>
+    </message>
+    <message>
+        <source>Focal points are not available here.</source>
+        <translation>Ebe nlekwasị anya adịghị ebe a.</translation>
+    </message>
+    <message>
+        <source>Focal point and crop</source>
+        <translation>Ebe nlekwasị anya na ịkpụ</translation>
+    </message>
+    <message>
+        <source>Focal point</source>
+        <translation>Ebe nlekwasị anya</translation>
+    </message>
+    <message>
+        <source>Crop box</source>
+        <translation>Igbe ịkpụ</translation>
+    </message>
+    <message>
+        <source>Crop</source>
+        <translation>Kpụọ</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>Tọgharịa</translation>
+    </message>
+    <message>
+        <source>Click or drag on the image to set the focal point. Arrow keys move it; on the crop box, Shift and an arrow key change its size.</source>
+        <translation>Pịa ma ọ bụ dọkpụrụ n'elu onyonyo ahụ iji tọọ ebe nlekwasị anya. Igodo akụ na-ebugharị ya; n'igbe ịkpụ, Shift na igodo akụ na-agbanwe nha ya.</translation>
+    </message>
+    <message>
+        <source>How each size will look</source>
+        <translation>Otu nha ọ bụla ga-adị</translation>
+    </message>
+    <message>
+        <source>The templates of this page use no size of this image yet.</source>
+        <translation>Ndebiri ibe a ejibeghị nha ọ bụla nke onyonyo a.</translation>
+    </message>
+    <message>
+        <source>This size keeps its own crop.</source>
+        <translation>Nha a na-edobe ịkpụ nke ya.</translation>
+    </message>
+    <message>
+        <source>Saved: the sizes are made again around the focal point.</source>
+        <translation>Echekwara: a na-emegharị nha ndị ahụ gburugburu ebe nlekwasị anya.</translation>
+    </message>
 </context>
 </TS>

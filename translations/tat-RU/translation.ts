@@ -1819,5 +1819,53 @@
         <source>%n migrations need attention</source>
         <translation>%n миграция игътибар сорый</translation>
     </message>
+    <message>
+        <source>This image cannot have a focal point.</source>
+        <translation>Бу рәсемнең фокус ноктасы була алмый.</translation>
+    </message>
+    <message>
+        <source>Focal points are not available here.</source>
+        <translation>Фокус нокталары монда юк.</translation>
+    </message>
+    <message>
+        <source>Focal point and crop</source>
+        <translation>Фокус ноктасы һәм кисү</translation>
+    </message>
+    <message>
+        <source>Focal point</source>
+        <translation>Фокус ноктасы</translation>
+    </message>
+    <message>
+        <source>Crop box</source>
+        <translation>Кисү рамкасы</translation>
+    </message>
+    <message>
+        <source>Crop</source>
+        <translation>Кисү</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>Ташлау</translation>
+    </message>
+    <message>
+        <source>Click or drag on the image to set the focal point. Arrow keys move it; on the crop box, Shift and an arrow key change its size.</source>
+        <translation>Фокус ноктасын билгеләү өчен рәсемгә басыгыз яки сөйрәгез. Ук төймәләре аны күчерә; кисү рамкасында Shift һәм ук төймәсе аның зурлыгын үзгәртә.</translation>
+    </message>
+    <message>
+        <source>How each size will look</source>
+        <translation>Һәр зурлык ничек күренәчәк</translation>
+    </message>
+    <message>
+        <source>The templates of this page use no size of this image yet.</source>
+        <translation>Бу битнең шаблоннары әлегә бу рәсемнең бер зурлыгын да кулланмый.</translation>
+    </message>
+    <message>
+        <source>This size keeps its own crop.</source>
+        <translation>Бу зурлык үз кисүен саклый.</translation>
+    </message>
+    <message>
+        <source>Saved: the sizes are made again around the focal point.</source>
+        <translation>Сакланды: зурлыклар фокус ноктасы тирәсендә яңадан ясала.</translation>
+    </message>
 </context>
 </TS>

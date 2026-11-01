@@ -1819,5 +1819,53 @@
         <source>%n migrations need attention</source>
         <translation>%n миграцина тидам оьшу</translation>
     </message>
+    <message>
+        <source>This image cannot have a focal point.</source>
+        <translation>Кху суьртан фокусан тӀадам хила йиш яц.</translation>
+    </message>
+    <message>
+        <source>Focal points are not available here.</source>
+        <translation>Фокусан тӀадамаш кхузахь дац.</translation>
+    </message>
+    <message>
+        <source>Focal point and crop</source>
+        <translation>Фокусан тӀадам а, хадор а</translation>
+    </message>
+    <message>
+        <source>Focal point</source>
+        <translation>Фокусан тӀадам</translation>
+    </message>
+    <message>
+        <source>Crop box</source>
+        <translation>Хадоран рамка</translation>
+    </message>
+    <message>
+        <source>Crop</source>
+        <translation>Хадо</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>ДӀатаса</translation>
+    </message>
+    <message>
+        <source>Click or drag on the image to set the focal point. Arrow keys move it; on the crop box, Shift and an arrow key change its size.</source>
+        <translation>Фокусан тӀадам хӀотто суьртана тӀе таӀа я озае. Стрелкийн клавишаш цунна меттиг хуьйцу; хадоран рамкина тӀехь Shift а, стрелкин клавиша а цуьнан барам хуьйцу.</translation>
+    </message>
+    <message>
+        <source>How each size will look</source>
+        <translation>ХӀора барам муха хир бу</translation>
+    </message>
+    <message>
+        <source>The templates of this page use no size of this image yet.</source>
+        <translation>ХӀокху агӀонан кепаш кху суьртан цхьа а барам лелош яц хӀинца а.</translation>
+    </message>
+    <message>
+        <source>This size keeps its own crop.</source>
+        <translation>ХӀокху барамо шен хадор лардо.</translation>
+    </message>
+    <message>
+        <source>Saved: the sizes are made again around the focal point.</source>
+        <translation>ДӀаязйина: барамаш фокусан тӀадаман гонахь юха бо.</translation>
+    </message>
 </context>
 </TS>

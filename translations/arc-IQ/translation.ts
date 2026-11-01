@@ -1819,5 +1819,53 @@
         <source>%n migrations need attention</source>
         <translation>%n שוניא סניקין לחזיא</translation>
     </message>
+    <message>
+        <source>This image cannot have a focal point.</source>
+        <translation>לית אפשר לצורתא הדא נקודת חזוא.</translation>
+    </message>
+    <message>
+        <source>Focal points are not available here.</source>
+        <translation>נקודי חזוא לא אית הכא.</translation>
+    </message>
+    <message>
+        <source>Focal point and crop</source>
+        <translation>נקודת חזוא וגזירתא</translation>
+    </message>
+    <message>
+        <source>Focal point</source>
+        <translation>נקודת חזוא</translation>
+    </message>
+    <message>
+        <source>Crop box</source>
+        <translation>תיבת גזירתא</translation>
+    </message>
+    <message>
+        <source>Crop</source>
+        <translation>גזור</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>אתחל מן ריש</translation>
+    </message>
+    <message>
+        <source>Click or drag on the image to set the focal point. Arrow keys move it; on the crop box, Shift and an arrow key change its size.</source>
+        <translation>נקוש או גרור על צורתא למקבע נקודת חזוא. מקלידי גירא מזיעין לה; על תיבת גזירתא, Shift ומקליד גירא משנין רבותה.</translation>
+    </message>
+    <message>
+        <source>How each size will look</source>
+        <translation>איכנא תתחזי כל מדה</translation>
+    </message>
+    <message>
+        <source>The templates of this page use no size of this image yet.</source>
+        <translation>תבניתא דדפא הדא לא משמשין עדן בשום מדה דצורתא הדא.</translation>
+    </message>
+    <message>
+        <source>This size keeps its own crop.</source>
+        <translation>מדה הדא נטרא גזירתה דילה.</translation>
+    </message>
+    <message>
+        <source>Saved: the sizes are made again around the focal point.</source>
+        <translation>אתנטר: מדיא מתעבדין תוב חזור נקודת חזוא.</translation>
+    </message>
 </context>
 </TS>

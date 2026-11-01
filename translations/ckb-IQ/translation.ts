@@ -1819,5 +1819,53 @@
         <source>%n migrations need attention</source>
         <translation>%n کۆچ پێویستیان بە سەرنجە</translation>
     </message>
+    <message>
+        <source>This image cannot have a focal point.</source>
+        <translation>ئەم وێنەیە ناتوانێت خاڵی سەرنجی هەبێت.</translation>
+    </message>
+    <message>
+        <source>Focal points are not available here.</source>
+        <translation>خاڵەکانی سەرنج لێرە بەردەست نین.</translation>
+    </message>
+    <message>
+        <source>Focal point and crop</source>
+        <translation>خاڵی سەرنج و بڕین</translation>
+    </message>
+    <message>
+        <source>Focal point</source>
+        <translation>خاڵی سەرنج</translation>
+    </message>
+    <message>
+        <source>Crop box</source>
+        <translation>چوارچێوەی بڕین</translation>
+    </message>
+    <message>
+        <source>Crop</source>
+        <translation>بڕین</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>ڕێکخستنەوە</translation>
+    </message>
+    <message>
+        <source>Click or drag on the image to set the focal point. Arrow keys move it; on the crop box, Shift and an arrow key change its size.</source>
+        <translation>کرتە بکە یان ڕابکێشە لەسەر وێنەکە بۆ دانانی خاڵی سەرنج. کلیلەکانی تیر دەیجوڵێنن؛ لەسەر چوارچێوەی بڕین، Shift و کلیلێکی تیر قەبارەکەی دەگۆڕن.</translation>
+    </message>
+    <message>
+        <source>How each size will look</source>
+        <translation>هەر قەبارەیەک چۆن دەردەکەوێت</translation>
+    </message>
+    <message>
+        <source>The templates of this page use no size of this image yet.</source>
+        <translation>قاڵبەکانی ئەم پەڕەیە هێشتا هیچ قەبارەیەکی ئەم وێنەیە بەکارناهێنن.</translation>
+    </message>
+    <message>
+        <source>This size keeps its own crop.</source>
+        <translation>ئەم قەبارەیە بڕینی تایبەتی خۆی دەهێڵێتەوە.</translation>
+    </message>
+    <message>
+        <source>Saved: the sizes are made again around the focal point.</source>
+        <translation>پاشەکەوت کرا: قەبارەکان دووبارە لە دەوری خاڵی سەرنج دروست دەکرێنەوە.</translation>
+    </message>
 </context>
 </TS>

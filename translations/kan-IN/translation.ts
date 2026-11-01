@@ -1819,5 +1819,53 @@
         <source>%n migrations need attention</source>
         <translation>%n ಮೈಗ್ರೇಶನ್‌ಗಳಿಗೆ ಗಮನ ಬೇಕು</translation>
     </message>
+    <message>
+        <source>This image cannot have a focal point.</source>
+        <translation>ಈ ಚಿತ್ರಕ್ಕೆ ಕೇಂದ್ರಬಿಂದು ಇರಲು ಸಾಧ್ಯವಿಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>Focal points are not available here.</source>
+        <translation>ಕೇಂದ್ರಬಿಂದುಗಳು ಇಲ್ಲಿ ಲಭ್ಯವಿಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>Focal point and crop</source>
+        <translation>ಕೇಂದ್ರಬಿಂದು ಮತ್ತು ಕ್ರಾಪ್</translation>
+    </message>
+    <message>
+        <source>Focal point</source>
+        <translation>ಕೇಂದ್ರಬಿಂದು</translation>
+    </message>
+    <message>
+        <source>Crop box</source>
+        <translation>ಕ್ರಾಪ್ ಪೆಟ್ಟಿಗೆ</translation>
+    </message>
+    <message>
+        <source>Crop</source>
+        <translation>ಕ್ರಾಪ್ ಮಾಡಿ</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>ಮರುಹೊಂದಿಸಿ</translation>
+    </message>
+    <message>
+        <source>Click or drag on the image to set the focal point. Arrow keys move it; on the crop box, Shift and an arrow key change its size.</source>
+        <translation>ಕೇಂದ್ರಬಿಂದುವನ್ನು ಹೊಂದಿಸಲು ಚಿತ್ರದ ಮೇಲೆ ಕ್ಲಿಕ್ ಮಾಡಿ ಅಥವಾ ಎಳೆಯಿರಿ. ಬಾಣದ ಕೀಲಿಗಳು ಅದನ್ನು ಸರಿಸುತ್ತವೆ; ಕ್ರಾಪ್ ಪೆಟ್ಟಿಗೆಯಲ್ಲಿ, Shift ಮತ್ತು ಬಾಣದ ಕೀಲಿ ಅದರ ಗಾತ್ರವನ್ನು ಬದಲಾಯಿಸುತ್ತವೆ.</translation>
+    </message>
+    <message>
+        <source>How each size will look</source>
+        <translation>ಪ್ರತಿ ಗಾತ್ರ ಹೇಗೆ ಕಾಣುತ್ತದೆ</translation>
+    </message>
+    <message>
+        <source>The templates of this page use no size of this image yet.</source>
+        <translation>ಈ ಪುಟದ ಟೆಂಪ್ಲೇಟ್‌ಗಳು ಇನ್ನೂ ಈ ಚಿತ್ರದ ಯಾವುದೇ ಗಾತ್ರವನ್ನು ಬಳಸುವುದಿಲ್ಲ.</translation>
+    </message>
+    <message>
+        <source>This size keeps its own crop.</source>
+        <translation>ಈ ಗಾತ್ರವು ತನ್ನದೇ ಕ್ರಾಪ್ ಅನ್ನು ಉಳಿಸಿಕೊಳ್ಳುತ್ತದೆ.</translation>
+    </message>
+    <message>
+        <source>Saved: the sizes are made again around the focal point.</source>
+        <translation>ಉಳಿಸಲಾಗಿದೆ: ಗಾತ್ರಗಳನ್ನು ಕೇಂದ್ರಬಿಂದುವಿನ ಸುತ್ತ ಮತ್ತೆ ರಚಿಸಲಾಗುತ್ತದೆ.</translation>
+    </message>
 </context>
 </TS>

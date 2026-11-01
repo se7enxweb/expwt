@@ -1819,5 +1819,53 @@
         <source>%n migrations need attention</source>
         <translation>Migrasiyɔn %n bɛ hakili ɲini</translation>
     </message>
+    <message>
+        <source>This image cannot have a focal point.</source>
+        <translation>Ja nin tɛ se ka sinsinni yɔrɔ sɔrɔ.</translation>
+    </message>
+    <message>
+        <source>Focal points are not available here.</source>
+        <translation>Sinsinni yɔrɔw tɛ yan.</translation>
+    </message>
+    <message>
+        <source>Focal point and crop</source>
+        <translation>Sinsinni yɔrɔ ni tigɛli</translation>
+    </message>
+    <message>
+        <source>Focal point</source>
+        <translation>Sinsinni yɔrɔ</translation>
+    </message>
+    <message>
+        <source>Crop box</source>
+        <translation>Tigɛli kɛsu</translation>
+    </message>
+    <message>
+        <source>Crop</source>
+        <translation>Tigɛ</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>Segin a cogo fɔlɔ la</translation>
+    </message>
+    <message>
+        <source>Click or drag on the image to set the focal point. Arrow keys move it; on the crop box, Shift and an arrow key change its size.</source>
+        <translation>A digi walima a sama ja kan ka sinsinni yɔrɔ sigi. Bɛrɛ butɔnw b'a lamaga; tigɛli kɛsu kan, Shift ni bɛrɛ butɔn b'a bonya yɛlɛma.</translation>
+    </message>
+    <message>
+        <source>How each size will look</source>
+        <translation>Bonya kelen-kelen bɛɛ na bɔ cogo min na</translation>
+    </message>
+    <message>
+        <source>The templates of this page use no size of this image yet.</source>
+        <translation>Ɲɛ nin ka modɛliw ma ja nin bonya si kɛ fɔlɔ.</translation>
+    </message>
+    <message>
+        <source>This size keeps its own crop.</source>
+        <translation>Bonya nin b'a yɛrɛ tigɛli mara.</translation>
+    </message>
+    <message>
+        <source>Saved: the sizes are made again around the focal point.</source>
+        <translation>A marala: bonyaw bɛ dilan kokura sinsinni yɔrɔ lamini na.</translation>
+    </message>
 </context>
 </TS>

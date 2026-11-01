@@ -1819,5 +1819,53 @@
         <source>%n migrations need attention</source>
         <translation>%n migraziuns dovran attenziun</translation>
     </message>
+    <message>
+        <source>This image cannot have a focal point.</source>
+        <translation>Quest maletg na po betg avair in punct focal.</translation>
+    </message>
+    <message>
+        <source>Focal points are not available here.</source>
+        <translation>Puncts focals n'èn betg disponibels qua.</translation>
+    </message>
+    <message>
+        <source>Focal point and crop</source>
+        <translation>Punct focal e tagl</translation>
+    </message>
+    <message>
+        <source>Focal point</source>
+        <translation>Punct focal</translation>
+    </message>
+    <message>
+        <source>Crop box</source>
+        <translation>Rom da tagl</translation>
+    </message>
+    <message>
+        <source>Crop</source>
+        <translation>Tagliar</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>Reinizialisar</translation>
+    </message>
+    <message>
+        <source>Click or drag on the image to set the focal point. Arrow keys move it; on the crop box, Shift and an arrow key change its size.</source>
+        <translation>Cliccai u tirai sin il maletg per fixar il punct focal. Las tastas da frizza al spostan; sin il rom da tagl midan Shift ed ina tasta da frizza sia grondezza.</translation>
+    </message>
+    <message>
+        <source>How each size will look</source>
+        <translation>Co che mintga grondezza vegn a parair</translation>
+    </message>
+    <message>
+        <source>The templates of this page use no size of this image yet.</source>
+        <translation>Ils models da questa pagina na dovran anc nagina grondezza da quest maletg.</translation>
+    </message>
+    <message>
+        <source>This size keeps its own crop.</source>
+        <translation>Questa grondezza mantegna ses agen tagl.</translation>
+    </message>
+    <message>
+        <source>Saved: the sizes are made again around the focal point.</source>
+        <translation>Memorisà: las grondezzas vegnan fatgas da nov enturn il punct focal.</translation>
+    </message>
 </context>
 </TS>

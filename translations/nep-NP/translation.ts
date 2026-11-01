@@ -1819,5 +1819,53 @@
         <source>%n migrations need attention</source>
         <translation>%n माइग्रेसनलाई ध्यान चाहिन्छ</translation>
     </message>
+    <message>
+        <source>This image cannot have a focal point.</source>
+        <translation>यो तस्बिरमा फोकल बिन्दु हुन सक्दैन।</translation>
+    </message>
+    <message>
+        <source>Focal points are not available here.</source>
+        <translation>फोकल बिन्दुहरू यहाँ उपलब्ध छैनन्।</translation>
+    </message>
+    <message>
+        <source>Focal point and crop</source>
+        <translation>फोकल बिन्दु र क्रप</translation>
+    </message>
+    <message>
+        <source>Focal point</source>
+        <translation>फोकल बिन्दु</translation>
+    </message>
+    <message>
+        <source>Crop box</source>
+        <translation>क्रप बाकस</translation>
+    </message>
+    <message>
+        <source>Crop</source>
+        <translation>क्रप</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>रिसेट</translation>
+    </message>
+    <message>
+        <source>Click or drag on the image to set the focal point. Arrow keys move it; on the crop box, Shift and an arrow key change its size.</source>
+        <translation>फोकल बिन्दु सेट गर्न तस्बिरमा क्लिक गर्नुहोस् वा तान्नुहोस्। तीर कुञ्जीहरूले यसलाई सार्छन्; क्रप बाकसमा Shift र तीर कुञ्जीले यसको आकार बदल्छ।</translation>
+    </message>
+    <message>
+        <source>How each size will look</source>
+        <translation>प्रत्येक आकार कस्तो देखिनेछ</translation>
+    </message>
+    <message>
+        <source>The templates of this page use no size of this image yet.</source>
+        <translation>यस पृष्ठका टेम्प्लेटहरूले अझै यो तस्बिरको कुनै पनि आकार प्रयोग गर्दैनन्।</translation>
+    </message>
+    <message>
+        <source>This size keeps its own crop.</source>
+        <translation>यो आकारले आफ्नै क्रप राख्छ।</translation>
+    </message>
+    <message>
+        <source>Saved: the sizes are made again around the focal point.</source>
+        <translation>सुरक्षित गरियो: आकारहरू फोकल बिन्दुको वरिपरि फेरि बनाइन्छन्।</translation>
+    </message>
 </context>
 </TS>

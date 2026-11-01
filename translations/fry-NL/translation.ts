@@ -1819,5 +1819,53 @@
         <source>%n migrations need attention</source>
         <translation>%n migraasjes freegje omtinken</translation>
     </message>
+    <message>
+        <source>This image cannot have a focal point.</source>
+        <translation>Dizze ôfbylding kin gjin fokuspunt hawwe.</translation>
+    </message>
+    <message>
+        <source>Focal points are not available here.</source>
+        <translation>Fokuspunten binne hjir net beskikber.</translation>
+    </message>
+    <message>
+        <source>Focal point and crop</source>
+        <translation>Fokuspunt en útsnijen</translation>
+    </message>
+    <message>
+        <source>Focal point</source>
+        <translation>Fokuspunt</translation>
+    </message>
+    <message>
+        <source>Crop box</source>
+        <translation>Útsnijkader</translation>
+    </message>
+    <message>
+        <source>Crop</source>
+        <translation>Útsnije</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>Weromsette</translation>
+    </message>
+    <message>
+        <source>Click or drag on the image to set the focal point. Arrow keys move it; on the crop box, Shift and an arrow key change its size.</source>
+        <translation>Klik of sleep op de ôfbylding om it fokuspunt yn te stellen. De pylktoetsen ferpleatse it; op it útsnijkader feroarje Shift en in pylktoets de grutte.</translation>
+    </message>
+    <message>
+        <source>How each size will look</source>
+        <translation>Sa sjocht elke grutte der út</translation>
+    </message>
+    <message>
+        <source>The templates of this page use no size of this image yet.</source>
+        <translation>De sjabloanen fan dizze side brûke noch gjin grutte fan dizze ôfbylding.</translation>
+    </message>
+    <message>
+        <source>This size keeps its own crop.</source>
+        <translation>Dizze grutte hâldt syn eigen útsnijing.</translation>
+    </message>
+    <message>
+        <source>Saved: the sizes are made again around the focal point.</source>
+        <translation>Bewarre: de grutten wurde opnij makke om it fokuspunt hinne.</translation>
+    </message>
 </context>
 </TS>

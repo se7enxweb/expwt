@@ -1819,5 +1819,53 @@
         <source>%n migrations need attention</source>
         <translation>%n hekenga me aro atu</translation>
     </message>
+    <message>
+        <source>This image cannot have a focal point.</source>
+        <translation>Kāore e taea e tēnei atahanga te whai ira arotahi.</translation>
+    </message>
+    <message>
+        <source>Focal points are not available here.</source>
+        <translation>Kāore he ira arotahi i konei.</translation>
+    </message>
+    <message>
+        <source>Focal point and crop</source>
+        <translation>Ira arotahi me te tapahi</translation>
+    </message>
+    <message>
+        <source>Focal point</source>
+        <translation>Ira arotahi</translation>
+    </message>
+    <message>
+        <source>Crop box</source>
+        <translation>Pouaka tapahi</translation>
+    </message>
+    <message>
+        <source>Crop</source>
+        <translation>Tapahi</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>Tautuhi anō</translation>
+    </message>
+    <message>
+        <source>Click or drag on the image to set the focal point. Arrow keys move it; on the crop box, Shift and an arrow key change its size.</source>
+        <translation>Pāwhiri, tō rānei ki te atahanga hei tautuhi i te ira arotahi. Mā ngā pātuhi pere e neke; i runga i te pouaka tapahi, mā Shift me tētahi pātuhi pere e huri tōna rahi.</translation>
+    </message>
+    <message>
+        <source>How each size will look</source>
+        <translation>Te āhua o ia rahi</translation>
+    </message>
+    <message>
+        <source>The templates of this page use no size of this image yet.</source>
+        <translation>Kāore anō ngā tauira o tēnei whārangi kia whakamahi i tētahi rahi o tēnei atahanga.</translation>
+    </message>
+    <message>
+        <source>This size keeps its own crop.</source>
+        <translation>Ka pupuri tēnei rahi i tana ake tapahi.</translation>
+    </message>
+    <message>
+        <source>Saved: the sizes are made again around the focal point.</source>
+        <translation>Kua tiakina: ka hanga anō ngā rahi huri noa i te ira arotahi.</translation>
+    </message>
 </context>
 </TS>

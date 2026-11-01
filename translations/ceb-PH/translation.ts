@@ -1819,5 +1819,53 @@
         <source>%n migrations need attention</source>
         <translation>%n ka migration nanginahanglan og pagtagad</translation>
     </message>
+    <message>
+        <source>This image cannot have a focal point.</source>
+        <translation>Kining hulagway dili makabaton og focal point.</translation>
+    </message>
+    <message>
+        <source>Focal points are not available here.</source>
+        <translation>Ang mga focal point dili magamit dinhi.</translation>
+    </message>
+    <message>
+        <source>Focal point and crop</source>
+        <translation>Focal point ug pag-crop</translation>
+    </message>
+    <message>
+        <source>Focal point</source>
+        <translation>Focal point</translation>
+    </message>
+    <message>
+        <source>Crop box</source>
+        <translation>Kahon sa pag-crop</translation>
+    </message>
+    <message>
+        <source>Crop</source>
+        <translation>I-crop</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>I-reset</translation>
+    </message>
+    <message>
+        <source>Click or drag on the image to set the focal point. Arrow keys move it; on the crop box, Shift and an arrow key change its size.</source>
+        <translation>I-klik o i-drag sa hulagway aron itakda ang focal point. Ang mga arrow key mobalhin niini; sa kahon sa pag-crop, ang Shift ug usa ka arrow key mousab sa gidak-on niini.</translation>
+    </message>
+    <message>
+        <source>How each size will look</source>
+        <translation>Unsaon pagtan-aw sa matag gidak-on</translation>
+    </message>
+    <message>
+        <source>The templates of this page use no size of this image yet.</source>
+        <translation>Ang mga template niini nga panid wala pay gigamit nga gidak-on niini nga hulagway.</translation>
+    </message>
+    <message>
+        <source>This size keeps its own crop.</source>
+        <translation>Kini nga gidak-on nagtipig sa kaugalingon niini nga crop.</translation>
+    </message>
+    <message>
+        <source>Saved: the sizes are made again around the focal point.</source>
+        <translation>Natipig: ang mga gidak-on gihimo pag-usab palibot sa focal point.</translation>
+    </message>
 </context>
 </TS>

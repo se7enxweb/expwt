@@ -1819,5 +1819,53 @@
         <source>%n migrations need attention</source>
         <translation>%n migrasyon hewceyî baldariyê ne</translation>
     </message>
+    <message>
+        <source>This image cannot have a focal point.</source>
+        <translation>Ev wêne nikare xala navendê hebe.</translation>
+    </message>
+    <message>
+        <source>Focal points are not available here.</source>
+        <translation>Xalên navendê li vir ne berdest in.</translation>
+    </message>
+    <message>
+        <source>Focal point and crop</source>
+        <translation>Xala navendê û birrîn</translation>
+    </message>
+    <message>
+        <source>Focal point</source>
+        <translation>Xala navendê</translation>
+    </message>
+    <message>
+        <source>Crop box</source>
+        <translation>Qutiya birrînê</translation>
+    </message>
+    <message>
+        <source>Crop</source>
+        <translation>Birrîn</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>Ji nû ve saz bike</translation>
+    </message>
+    <message>
+        <source>Click or drag on the image to set the focal point. Arrow keys move it; on the crop box, Shift and an arrow key change its size.</source>
+        <translation>Ji bo danîna xala navendê li ser wêne bitikîne an bikişîne. Bişkojkên tîran wê digerînin; li ser qutiya birrînê, Shift û bişkojkeke tîrê mezinahiya wê diguherînin.</translation>
+    </message>
+    <message>
+        <source>How each size will look</source>
+        <translation>Her mezinahî dê çawa xuya bike</translation>
+    </message>
+    <message>
+        <source>The templates of this page use no size of this image yet.</source>
+        <translation>Şablonên vê rûpelê hîn tu mezinahiya vî wêneyî bi kar naynin.</translation>
+    </message>
+    <message>
+        <source>This size keeps its own crop.</source>
+        <translation>Ev mezinahî birrîna xwe diparêze.</translation>
+    </message>
+    <message>
+        <source>Saved: the sizes are made again around the focal point.</source>
+        <translation>Hate tomarkirin: mezinahî li dora xala navendê ji nû ve têne çêkirin.</translation>
+    </message>
 </context>
 </TS>

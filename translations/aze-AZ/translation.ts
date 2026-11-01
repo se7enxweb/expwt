@@ -1819,5 +1819,53 @@
         <source>%n migrations need attention</source>
         <translation>%n miqrasiya diqqət tələb edir</translation>
     </message>
+    <message>
+        <source>This image cannot have a focal point.</source>
+        <translation>Bu şəklin fokus nöqtəsi ola bilməz.</translation>
+    </message>
+    <message>
+        <source>Focal points are not available here.</source>
+        <translation>Fokus nöqtələri burada mövcud deyil.</translation>
+    </message>
+    <message>
+        <source>Focal point and crop</source>
+        <translation>Fokus nöqtəsi və kəsmə</translation>
+    </message>
+    <message>
+        <source>Focal point</source>
+        <translation>Fokus nöqtəsi</translation>
+    </message>
+    <message>
+        <source>Crop box</source>
+        <translation>Kəsmə çərçivəsi</translation>
+    </message>
+    <message>
+        <source>Crop</source>
+        <translation>Kəs</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>Sıfırla</translation>
+    </message>
+    <message>
+        <source>Click or drag on the image to set the focal point. Arrow keys move it; on the crop box, Shift and an arrow key change its size.</source>
+        <translation>Fokus nöqtəsini təyin etmək üçün şəklin üzərinə klikləyin və ya sürüşdürün. Ox düymələri onu hərəkət etdirir; kəsmə çərçivəsində Shift və ox düyməsi ölçüsünü dəyişir.</translation>
+    </message>
+    <message>
+        <source>How each size will look</source>
+        <translation>Hər ölçü necə görünəcək</translation>
+    </message>
+    <message>
+        <source>The templates of this page use no size of this image yet.</source>
+        <translation>Bu səhifənin şablonları hələ bu şəklin heç bir ölçüsündən istifadə etmir.</translation>
+    </message>
+    <message>
+        <source>This size keeps its own crop.</source>
+        <translation>Bu ölçü öz kəsməsini saxlayır.</translation>
+    </message>
+    <message>
+        <source>Saved: the sizes are made again around the focal point.</source>
+        <translation>Yadda saxlanıldı: ölçülər fokus nöqtəsi ətrafında yenidən yaradılır.</translation>
+    </message>
 </context>
 </TS>

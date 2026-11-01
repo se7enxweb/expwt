@@ -1819,5 +1819,53 @@
         <source>%n migrations need attention</source>
         <translation>Pono ka nānā ʻana i nā neʻe he %n</translation>
     </message>
+    <message>
+        <source>This image cannot have a focal point.</source>
+        <translation>ʻAʻole hiki i kēia kiʻi ke loaʻa he kiko nānā.</translation>
+    </message>
+    <message>
+        <source>Focal points are not available here.</source>
+        <translation>ʻAʻole loaʻa nā kiko nānā ma ʻaneʻi.</translation>
+    </message>
+    <message>
+        <source>Focal point and crop</source>
+        <translation>Kiko nānā a me ka ʻoki</translation>
+    </message>
+    <message>
+        <source>Focal point</source>
+        <translation>Kiko nānā</translation>
+    </message>
+    <message>
+        <source>Crop box</source>
+        <translation>Pahu ʻoki</translation>
+    </message>
+    <message>
+        <source>Crop</source>
+        <translation>ʻOki</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>Hoʻonohonoho hou</translation>
+    </message>
+    <message>
+        <source>Click or drag on the image to set the focal point. Arrow keys move it; on the crop box, Shift and an arrow key change its size.</source>
+        <translation>Kaomi a kauō paha ma ke kiʻi e hoʻonoho ai i ke kiko nānā. Hoʻoneʻe nā pihi pua iā ia; ma ka pahu ʻoki, hoʻololi ʻo Shift a me kekahi pihi pua i kona nui.</translation>
+    </message>
+    <message>
+        <source>How each size will look</source>
+        <translation>Ke ʻano o kēlā me kēia nui</translation>
+    </message>
+    <message>
+        <source>The templates of this page use no size of this image yet.</source>
+        <translation>ʻAʻole hoʻohana nā lauana o kēia ʻaoʻao i kekahi nui o kēia kiʻi i kēia manawa.</translation>
+    </message>
+    <message>
+        <source>This size keeps its own crop.</source>
+        <translation>Mālama kēia nui i kona ʻoki ponoʻī.</translation>
+    </message>
+    <message>
+        <source>Saved: the sizes are made again around the focal point.</source>
+        <translation>Mālama ʻia: hana hou ʻia nā nui a puni ke kiko nānā.</translation>
+    </message>
 </context>
 </TS>

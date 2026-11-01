@@ -1819,5 +1819,53 @@
         <source>%n migrations need attention</source>
         <translation>%n migracionkuna qhawanata munanku</translation>
     </message>
+    <message>
+        <source>This image cannot have a focal point.</source>
+        <translation>Kay rikchayqa manam focal puntoyuq kayta atinchu.</translation>
+    </message>
+    <message>
+        <source>Focal points are not available here.</source>
+        <translation>Focal puntokunaqa manam kaypichu kan.</translation>
+    </message>
+    <message>
+        <source>Focal point and crop</source>
+        <translation>Focal punto hinaspa kuchuy</translation>
+    </message>
+    <message>
+        <source>Focal point</source>
+        <translation>Focal punto</translation>
+    </message>
+    <message>
+        <source>Crop box</source>
+        <translation>Kuchuna caja</translation>
+    </message>
+    <message>
+        <source>Crop</source>
+        <translation>Kuchuy</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>Musuqmanta churay</translation>
+    </message>
+    <message>
+        <source>Click or drag on the image to set the focal point. Arrow keys move it; on the crop box, Shift and an arrow key change its size.</source>
+        <translation>Rikchaypi ñit'iy utaq aysay focal punto churanaykipaq. Flecha llavekunam kuyuchin; kuchuna cajapiqa Shift hinaspa flecha llavem hatun kayninta tikran.</translation>
+    </message>
+    <message>
+        <source>How each size will look</source>
+        <translation>Sapa hatun kay imaynam rikukunqa</translation>
+    </message>
+    <message>
+        <source>The templates of this page use no size of this image yet.</source>
+        <translation>Kay p'anqapa plantillankunaqa manaraqmi kay rikchaypa mayqin hatun kaynintapas llamk'achinchu.</translation>
+    </message>
+    <message>
+        <source>This size keeps its own crop.</source>
+        <translation>Kay hatun kayqa kikin kuchuynintam waqaychan.</translation>
+    </message>
+    <message>
+        <source>Saved: the sizes are made again around the focal point.</source>
+        <translation>Waqaychasqa: hatun kaykunaqa focal punto muyuriqpi musuqmanta ruwasqa kanku.</translation>
+    </message>
 </context>
 </TS>

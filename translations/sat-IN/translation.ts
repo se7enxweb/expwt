@@ -1819,5 +1819,53 @@
         <source>%n migrations need attention</source>
         <translation>%n ᱢᱟᱭᱜᱨᱮᱥᱚᱱ ᱫᱷᱭᱟᱱ ᱫᱟᱨᱠᱟᱨ</translation>
     </message>
+    <message>
+        <source>This image cannot have a focal point.</source>
+        <translation>ᱱᱚᱶᱟ ᱪᱤᱛᱟᱹᱨ ᱨᱮ ᱯᱷᱚᱠᱟᱥ ᱴᱩᱰᱟᱹᱜ ᱵᱟᱝ ᱦᱩᱭ ᱫᱟᱲᱮᱭᱟᱜᱼᱟ᱾</translation>
+    </message>
+    <message>
+        <source>Focal points are not available here.</source>
+        <translation>ᱯᱷᱚᱠᱟᱥ ᱴᱩᱰᱟᱹᱜ ᱱᱚᱸᱰᱮ ᱵᱟᱝ ᱧᱟᱢᱚᱜᱼᱟ᱾</translation>
+    </message>
+    <message>
+        <source>Focal point and crop</source>
+        <translation>ᱯᱷᱚᱠᱟᱥ ᱴᱩᱰᱟᱹᱜ ᱟᱨ ᱠᱟᱴ</translation>
+    </message>
+    <message>
+        <source>Focal point</source>
+        <translation>ᱯᱷᱚᱠᱟᱥ ᱴᱩᱰᱟᱹᱜ</translation>
+    </message>
+    <message>
+        <source>Crop box</source>
+        <translation>ᱠᱟᱴ ᱵᱟᱠᱥᱟ</translation>
+    </message>
+    <message>
+        <source>Crop</source>
+        <translation>ᱠᱟᱴ</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>ᱫᱩᱦᱲᱟᱹ ᱥᱮᱴ</translation>
+    </message>
+    <message>
+        <source>Click or drag on the image to set the focal point. Arrow keys move it; on the crop box, Shift and an arrow key change its size.</source>
+        <translation>ᱯᱷᱚᱠᱟᱥ ᱴᱩᱰᱟᱹᱜ ᱥᱮᱴ ᱞᱟᱹᱜᱤᱫ ᱪᱤᱛᱟᱹᱨ ᱨᱮ ᱚᱛᱟᱭ ᱢᱮ ᱟᱨᱵᱟᱝ ᱚᱨ ᱢᱮ᱾ ᱛᱤᱨ ᱪᱟᱹᱵᱤ ᱥᱟᱶ ᱩᱪᱟᱹᱲᱚᱜᱼᱟ; ᱠᱟᱴ ᱵᱟᱠᱥᱟ ᱨᱮ Shift ᱟᱨ ᱛᱤᱨ ᱪᱟᱹᱵᱤ ᱥᱟᱶ ᱢᱟᱯ ᱵᱚᱫᱚᱞᱚᱜᱼᱟ᱾</translation>
+    </message>
+    <message>
+        <source>How each size will look</source>
+        <translation>ᱡᱚᱛᱚ ᱢᱟᱯ ᱪᱮᱫ ᱞᱮᱠᱟ ᱧᱮᱞᱚᱜᱼᱟ</translation>
+    </message>
+    <message>
+        <source>The templates of this page use no size of this image yet.</source>
+        <translation>ᱱᱚᱶᱟ ᱥᱟᱦᱴᱟ ᱨᱮᱭᱟᱜ ᱪᱷᱟᱸᱪ ᱫᱚ ᱱᱤᱛ ᱦᱟᱹᱵᱤᱡ ᱱᱚᱶᱟ ᱪᱤᱛᱟᱹᱨ ᱨᱮᱭᱟᱜ ᱡᱟᱦᱟᱸ ᱢᱟᱯ ᱵᱟᱝ ᱵᱮᱵᱷᱟᱨᱟ᱾</translation>
+    </message>
+    <message>
+        <source>This size keeps its own crop.</source>
+        <translation>ᱱᱚᱶᱟ ᱢᱟᱯ ᱫᱚ ᱟᱡᱟᱜ ᱠᱟᱴ ᱫᱚᱦᱚᱭᱟᱭ᱾</translation>
+    </message>
+    <message>
+        <source>Saved: the sizes are made again around the focal point.</source>
+        <translation>ᱨᱟᱠᱷᱟᱣ ᱮᱱᱟ: ᱢᱟᱯ ᱠᱚ ᱯᱷᱚᱠᱟᱥ ᱴᱩᱰᱟᱹᱜ ᱜᱷᱮᱨᱟᱣ ᱫᱩᱦᱲᱟᱹ ᱵᱮᱱᱟᱣᱚᱜᱼᱟ᱾</translation>
+    </message>
 </context>
 </TS>

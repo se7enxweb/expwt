@@ -1819,5 +1819,53 @@
         <source>%n migrations need attention</source>
         <translation>%n مهاجرتونه پاملرنې ته اړتیا لري</translation>
     </message>
+    <message>
+        <source>This image cannot have a focal point.</source>
+        <translation>دا انځور فوکل ټکی نشي لرلی.</translation>
+    </message>
+    <message>
+        <source>Focal points are not available here.</source>
+        <translation>فوکل ټکي دلته شتون نه لري.</translation>
+    </message>
+    <message>
+        <source>Focal point and crop</source>
+        <translation>فوکل ټکی او پرې کول</translation>
+    </message>
+    <message>
+        <source>Focal point</source>
+        <translation>فوکل ټکی</translation>
+    </message>
+    <message>
+        <source>Crop box</source>
+        <translation>د پرې کولو چوکاټ</translation>
+    </message>
+    <message>
+        <source>Crop</source>
+        <translation>پرې کول</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>بیا تنظیم</translation>
+    </message>
+    <message>
+        <source>Click or drag on the image to set the focal point. Arrow keys move it; on the crop box, Shift and an arrow key change its size.</source>
+        <translation>د فوکل ټکي ټاکلو لپاره پر انځور کلیک وکړئ یا یې کش کړئ. د غشي کیلي یې خوځوي؛ د پرې کولو پر چوکاټ، Shift او د غشي کیلي یې اندازه بدلوي.</translation>
+    </message>
+    <message>
+        <source>How each size will look</source>
+        <translation>هره اندازه به څنګه ښکاري</translation>
+    </message>
+    <message>
+        <source>The templates of this page use no size of this image yet.</source>
+        <translation>د دې پاڼې کينډۍ لا د دې انځور هېڅ اندازه نه کاروي.</translation>
+    </message>
+    <message>
+        <source>This size keeps its own crop.</source>
+        <translation>دا اندازه خپل پرې کول ساتي.</translation>
+    </message>
+    <message>
+        <source>Saved: the sizes are made again around the focal point.</source>
+        <translation>خوندي شو: اندازې د فوکل ټکي شاوخوا بیا جوړېږي.</translation>
+    </message>
 </context>
 </TS>

@@ -1819,5 +1819,53 @@
         <source>%n migrations need attention</source>
         <translation>%n flutningar þarfnast athygli</translation>
     </message>
+    <message>
+        <source>This image cannot have a focal point.</source>
+        <translation>Þessi mynd getur ekki haft brennipunkt.</translation>
+    </message>
+    <message>
+        <source>Focal points are not available here.</source>
+        <translation>Brennipunktar eru ekki í boði hér.</translation>
+    </message>
+    <message>
+        <source>Focal point and crop</source>
+        <translation>Brennipunktur og skurður</translation>
+    </message>
+    <message>
+        <source>Focal point</source>
+        <translation>Brennipunktur</translation>
+    </message>
+    <message>
+        <source>Crop box</source>
+        <translation>Skurðarrammi</translation>
+    </message>
+    <message>
+        <source>Crop</source>
+        <translation>Skera</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>Endurstilla</translation>
+    </message>
+    <message>
+        <source>Click or drag on the image to set the focal point. Arrow keys move it; on the crop box, Shift and an arrow key change its size.</source>
+        <translation>Smelltu eða dragðu á myndinni til að setja brennipunktinn. Örvalyklarnir færa hann; á skurðarrammanum breyta Shift og örvalykill stærð hans.</translation>
+    </message>
+    <message>
+        <source>How each size will look</source>
+        <translation>Svona lítur hver stærð út</translation>
+    </message>
+    <message>
+        <source>The templates of this page use no size of this image yet.</source>
+        <translation>Sniðmát þessarar síðu nota enn enga stærð þessarar myndar.</translation>
+    </message>
+    <message>
+        <source>This size keeps its own crop.</source>
+        <translation>Þessi stærð heldur sínum eigin skurði.</translation>
+    </message>
+    <message>
+        <source>Saved: the sizes are made again around the focal point.</source>
+        <translation>Vistað: stærðirnar eru gerðar aftur í kringum brennipunktinn.</translation>
+    </message>
 </context>
 </TS>

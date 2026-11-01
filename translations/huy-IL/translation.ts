@@ -1819,5 +1819,53 @@
         <source>%n migrations need attention</source>
         <translation>%n שניותא בעיין עיונא</translation>
     </message>
+    <message>
+        <source>This image cannot have a focal point.</source>
+        <translation>לצורתא הדא לא מצי הוי נקודתא דעינא.</translation>
+    </message>
+    <message>
+        <source>Focal points are not available here.</source>
+        <translation>נקודתא דעינא ליתנהון הכא.</translation>
+    </message>
+    <message>
+        <source>Focal point and crop</source>
+        <translation>נקודתא דעינא וקטיעתא</translation>
+    </message>
+    <message>
+        <source>Focal point</source>
+        <translation>נקודתא דעינא</translation>
+    </message>
+    <message>
+        <source>Crop box</source>
+        <translation>תיבותא דקטיעתא</translation>
+    </message>
+    <message>
+        <source>Crop</source>
+        <translation>קטע</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>אהדר</translation>
+    </message>
+    <message>
+        <source>Click or drag on the image to set the focal point. Arrow keys move it; on the crop box, Shift and an arrow key change its size.</source>
+        <translation>דחוק או גרור על צורתא למשוי נקודתא דעינא. מפתחי גירא מנידין לה; על תיבותא דקטיעתא, Shift ומפתחא דגירא משנין שיעורה.</translation>
+    </message>
+    <message>
+        <source>How each size will look</source>
+        <translation>היכי מתחזי כל שיעורא</translation>
+    </message>
+    <message>
+        <source>The templates of this page use no size of this image yet.</source>
+        <translation>תבניתא דדפא הדא עדיין לא משתמשין בשום שיעורא דצורתא הדא.</translation>
+    </message>
+    <message>
+        <source>This size keeps its own crop.</source>
+        <translation>שיעורא הדין נטר קטיעתא דיליה.</translation>
+    </message>
+    <message>
+        <source>Saved: the sizes are made again around the focal point.</source>
+        <translation>נטירא: שיעוריא מתעבדין תוב סחור סחור לנקודתא דעינא.</translation>
+    </message>
 </context>
 </TS>

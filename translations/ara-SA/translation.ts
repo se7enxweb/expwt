@@ -1819,5 +1819,53 @@
         <source>%n migrations need attention</source>
         <translation>%n عمليات ترحيل تحتاج إلى انتباه</translation>
     </message>
+    <message>
+        <source>This image cannot have a focal point.</source>
+        <translation>لا يمكن أن تكون لهذه الصورة نقطة تركيز.</translation>
+    </message>
+    <message>
+        <source>Focal points are not available here.</source>
+        <translation>نقاط التركيز غير متاحة هنا.</translation>
+    </message>
+    <message>
+        <source>Focal point and crop</source>
+        <translation>نقطة التركيز والاقتصاص</translation>
+    </message>
+    <message>
+        <source>Focal point</source>
+        <translation>نقطة التركيز</translation>
+    </message>
+    <message>
+        <source>Crop box</source>
+        <translation>مربع الاقتصاص</translation>
+    </message>
+    <message>
+        <source>Crop</source>
+        <translation>اقتصاص</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>إعادة تعيين</translation>
+    </message>
+    <message>
+        <source>Click or drag on the image to set the focal point. Arrow keys move it; on the crop box, Shift and an arrow key change its size.</source>
+        <translation>انقر أو اسحب على الصورة لتحديد نقطة التركيز. تحرّكها مفاتيح الأسهم؛ وعلى مربع الاقتصاص يغيّر Shift مع مفتاح سهم حجمه.</translation>
+    </message>
+    <message>
+        <source>How each size will look</source>
+        <translation>كيف سيبدو كل حجم</translation>
+    </message>
+    <message>
+        <source>The templates of this page use no size of this image yet.</source>
+        <translation>لا تستخدم قوالب هذه الصفحة أي حجم من هذه الصورة بعد.</translation>
+    </message>
+    <message>
+        <source>This size keeps its own crop.</source>
+        <translation>يحتفظ هذا الحجم باقتصاصه الخاص.</translation>
+    </message>
+    <message>
+        <source>Saved: the sizes are made again around the focal point.</source>
+        <translation>تم الحفظ: يُعاد إنشاء الأحجام حول نقطة التركيز.</translation>
+    </message>
 </context>
 </TS>

@@ -1819,5 +1819,53 @@
         <source>%n migrations need attention</source>
         <translation>Iyimurwa %n rikeneye kwitabwaho</translation>
     </message>
+    <message>
+        <source>This image cannot have a focal point.</source>
+        <translation>Iyi shusho ntishobora kugira akadomo k'ingenzi.</translation>
+    </message>
+    <message>
+        <source>Focal points are not available here.</source>
+        <translation>Udomo tw'ingenzi ntituboneka hano.</translation>
+    </message>
+    <message>
+        <source>Focal point and crop</source>
+        <translation>Akadomo k'ingenzi no gukata</translation>
+    </message>
+    <message>
+        <source>Focal point</source>
+        <translation>Akadomo k'ingenzi</translation>
+    </message>
+    <message>
+        <source>Crop box</source>
+        <translation>Agasanduku ko gukata</translation>
+    </message>
+    <message>
+        <source>Crop</source>
+        <translation>Kata</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>Subiza uko byari</translation>
+    </message>
+    <message>
+        <source>Click or drag on the image to set the focal point. Arrow keys move it; on the crop box, Shift and an arrow key change its size.</source>
+        <translation>Kanda cyangwa ukurure ku ishusho kugira ngo ushyireho akadomo k'ingenzi. Utubuto tw'imyambi turakimura; ku gasanduku ko gukata, Shift n'akabuto k'umwambi bihindura ingano yako.</translation>
+    </message>
+    <message>
+        <source>How each size will look</source>
+        <translation>Uko buri ngano izagaragara</translation>
+    </message>
+    <message>
+        <source>The templates of this page use no size of this image yet.</source>
+        <translation>Inyandikorugero z'iyi paji ntiziriho gukoresha ingano n'imwe y'iyi shusho.</translation>
+    </message>
+    <message>
+        <source>This size keeps its own crop.</source>
+        <translation>Iyi ngano igumana igikata cyayo.</translation>
+    </message>
+    <message>
+        <source>Saved: the sizes are made again around the focal point.</source>
+        <translation>Byabitswe: ingano zongera gukorwa zishingiye ku kadomo k'ingenzi.</translation>
+    </message>
 </context>
 </TS>

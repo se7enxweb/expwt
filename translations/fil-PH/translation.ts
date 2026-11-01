@@ -1819,5 +1819,53 @@
         <source>%n migrations need attention</source>
         <translation>%n migration ang nangangailangan ng pansin</translation>
     </message>
+    <message>
+        <source>This image cannot have a focal point.</source>
+        <translation>Hindi maaaring magkaroon ng focal point ang larawang ito.</translation>
+    </message>
+    <message>
+        <source>Focal points are not available here.</source>
+        <translation>Hindi available dito ang mga focal point.</translation>
+    </message>
+    <message>
+        <source>Focal point and crop</source>
+        <translation>Focal point at crop</translation>
+    </message>
+    <message>
+        <source>Focal point</source>
+        <translation>Focal point</translation>
+    </message>
+    <message>
+        <source>Crop box</source>
+        <translation>Kahon ng crop</translation>
+    </message>
+    <message>
+        <source>Crop</source>
+        <translation>I-crop</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>I-reset</translation>
+    </message>
+    <message>
+        <source>Click or drag on the image to set the focal point. Arrow keys move it; on the crop box, Shift and an arrow key change its size.</source>
+        <translation>Mag-click o mag-drag sa larawan para itakda ang focal point. Inililipat ito ng mga arrow key; sa kahon ng crop, binabago ng Shift at isang arrow key ang laki nito.</translation>
+    </message>
+    <message>
+        <source>How each size will look</source>
+        <translation>Ganito ang magiging hitsura ng bawat laki</translation>
+    </message>
+    <message>
+        <source>The templates of this page use no size of this image yet.</source>
+        <translation>Wala pang ginagamit na laki ng larawang ito ang mga template ng pahinang ito.</translation>
+    </message>
+    <message>
+        <source>This size keeps its own crop.</source>
+        <translation>Pinananatili ng laking ito ang sarili nitong crop.</translation>
+    </message>
+    <message>
+        <source>Saved: the sizes are made again around the focal point.</source>
+        <translation>Nai-save: muling ginagawa ang mga laki sa paligid ng focal point.</translation>
+    </message>
 </context>
 </TS>

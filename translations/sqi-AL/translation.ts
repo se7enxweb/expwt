@@ -1819,5 +1819,53 @@
         <source>%n migrations need attention</source>
         <translation>%n migrime kërkojnë vëmendje</translation>
     </message>
+    <message>
+        <source>This image cannot have a focal point.</source>
+        <translation>Kjo figurë nuk mund të ketë pikë fokale.</translation>
+    </message>
+    <message>
+        <source>Focal points are not available here.</source>
+        <translation>Pikat fokale nuk janë të disponueshme këtu.</translation>
+    </message>
+    <message>
+        <source>Focal point and crop</source>
+        <translation>Pika fokale dhe prerja</translation>
+    </message>
+    <message>
+        <source>Focal point</source>
+        <translation>Pika fokale</translation>
+    </message>
+    <message>
+        <source>Crop box</source>
+        <translation>Kutia e prerjes</translation>
+    </message>
+    <message>
+        <source>Crop</source>
+        <translation>Prit</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>Rivendos</translation>
+    </message>
+    <message>
+        <source>Click or drag on the image to set the focal point. Arrow keys move it; on the crop box, Shift and an arrow key change its size.</source>
+        <translation>Klikoni ose tërhiqni mbi figurë për të caktuar pikën fokale. Tastet e shigjetave e lëvizin; te kutia e prerjes, Shift dhe një tast shigjete ndryshojnë madhësinë e saj.</translation>
+    </message>
+    <message>
+        <source>How each size will look</source>
+        <translation>Si do të duket secila madhësi</translation>
+    </message>
+    <message>
+        <source>The templates of this page use no size of this image yet.</source>
+        <translation>Shabllonet e kësaj faqeje ende nuk përdorin asnjë madhësi të kësaj figure.</translation>
+    </message>
+    <message>
+        <source>This size keeps its own crop.</source>
+        <translation>Kjo madhësi ruan prerjen e vet.</translation>
+    </message>
+    <message>
+        <source>Saved: the sizes are made again around the focal point.</source>
+        <translation>U ruajt: madhësitë bëhen sërish rreth pikës fokale.</translation>
+    </message>
 </context>
 </TS>

@@ -1819,5 +1819,53 @@
         <source>%n migrations need attention</source>
         <translation>%n माइग्रेसनआव गोसो होनांगौ</translation>
     </message>
+    <message>
+        <source>This image cannot have a focal point.</source>
+        <translation>बे सावगारिआव फकाल पइन्ट थानो हाया।</translation>
+    </message>
+    <message>
+        <source>Focal points are not available here.</source>
+        <translation>फकाल पइन्टफोर बेयाव मोनथाव नङा।</translation>
+    </message>
+    <message>
+        <source>Focal point and crop</source>
+        <translation>फकाल पइन्ट आरो क्रप</translation>
+    </message>
+    <message>
+        <source>Focal point</source>
+        <translation>फकाल पइन्ट</translation>
+    </message>
+    <message>
+        <source>Crop box</source>
+        <translation>क्रप बाकस</translation>
+    </message>
+    <message>
+        <source>Crop</source>
+        <translation>क्रप</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>फिन सेट</translation>
+    </message>
+    <message>
+        <source>Click or drag on the image to set the focal point. Arrow keys move it; on the crop box, Shift and an arrow key change its size.</source>
+        <translation>फकाल पइन्ट सेट खालामनो सावगारिआव क्लिक खालाम एबा बोनो। थिर कीफोरा बेखौ सोनाय; क्रप बाकसआव Shift आरो थिर कीआ बेनि महर सोलाय।</translation>
+    </message>
+    <message>
+        <source>How each size will look</source>
+        <translation>मोनफ्रोम महरा माबोरै नुजाथाव जागोन</translation>
+    </message>
+    <message>
+        <source>The templates of this page use no size of this image yet.</source>
+        <translation>बे बिलाइनि टेमप्लेटफोरा दासिमबो बे सावगारिनि मोनसेबो महर बाहायाखै।</translation>
+    </message>
+    <message>
+        <source>This size keeps its own crop.</source>
+        <translation>बे महरा गावनि क्रप दोनो।</translation>
+    </message>
+    <message>
+        <source>Saved: the sizes are made again around the focal point.</source>
+        <translation>दोनबाय: महरफोरखौ फकाल पइन्टनि गेजेरजों फिन बानायनाय जायो।</translation>
+    </message>
 </context>
 </TS>

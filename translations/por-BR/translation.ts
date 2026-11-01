@@ -1819,5 +1819,53 @@
         <source>%n migrations need attention</source>
         <translation>%n migrações precisam de atenção</translation>
     </message>
+    <message>
+        <source>This image cannot have a focal point.</source>
+        <translation>Esta imagem não pode ter um ponto focal.</translation>
+    </message>
+    <message>
+        <source>Focal points are not available here.</source>
+        <translation>Pontos focais não estão disponíveis aqui.</translation>
+    </message>
+    <message>
+        <source>Focal point and crop</source>
+        <translation>Ponto focal e recorte</translation>
+    </message>
+    <message>
+        <source>Focal point</source>
+        <translation>Ponto focal</translation>
+    </message>
+    <message>
+        <source>Crop box</source>
+        <translation>Caixa de recorte</translation>
+    </message>
+    <message>
+        <source>Crop</source>
+        <translation>Recortar</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>Redefinir</translation>
+    </message>
+    <message>
+        <source>Click or drag on the image to set the focal point. Arrow keys move it; on the crop box, Shift and an arrow key change its size.</source>
+        <translation>Clique ou arraste na imagem para definir o ponto focal. As teclas de seta o movem; na caixa de recorte, Shift e uma tecla de seta alteram seu tamanho.</translation>
+    </message>
+    <message>
+        <source>How each size will look</source>
+        <translation>Como cada tamanho vai ficar</translation>
+    </message>
+    <message>
+        <source>The templates of this page use no size of this image yet.</source>
+        <translation>Os templates desta página ainda não usam nenhum tamanho desta imagem.</translation>
+    </message>
+    <message>
+        <source>This size keeps its own crop.</source>
+        <translation>Este tamanho mantém seu próprio recorte.</translation>
+    </message>
+    <message>
+        <source>Saved: the sizes are made again around the focal point.</source>
+        <translation>Salvo: os tamanhos são gerados de novo em torno do ponto focal.</translation>
+    </message>
 </context>
 </TS>

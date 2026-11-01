@@ -1819,5 +1819,53 @@
         <source>%n migrations need attention</source>
         <translation>%n הגירות דורשות תשומת לב</translation>
     </message>
+    <message>
+        <source>This image cannot have a focal point.</source>
+        <translation>לתמונה זו לא ניתן להגדיר נקודת מוקד.</translation>
+    </message>
+    <message>
+        <source>Focal points are not available here.</source>
+        <translation>נקודות מוקד אינן זמינות כאן.</translation>
+    </message>
+    <message>
+        <source>Focal point and crop</source>
+        <translation>נקודת מוקד וחיתוך</translation>
+    </message>
+    <message>
+        <source>Focal point</source>
+        <translation>נקודת מוקד</translation>
+    </message>
+    <message>
+        <source>Crop box</source>
+        <translation>תיבת חיתוך</translation>
+    </message>
+    <message>
+        <source>Crop</source>
+        <translation>חיתוך</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>איפוס</translation>
+    </message>
+    <message>
+        <source>Click or drag on the image to set the focal point. Arrow keys move it; on the crop box, Shift and an arrow key change its size.</source>
+        <translation>יש ללחוץ או לגרור על התמונה כדי לקבוע את נקודת המוקד. מקשי החצים מזיזים אותה; על תיבת החיתוך, Shift ומקש חץ משנים את גודלה.</translation>
+    </message>
+    <message>
+        <source>How each size will look</source>
+        <translation>כך ייראה כל גודל</translation>
+    </message>
+    <message>
+        <source>The templates of this page use no size of this image yet.</source>
+        <translation>התבניות של דף זה עדיין אינן משתמשות באף גודל של תמונה זו.</translation>
+    </message>
+    <message>
+        <source>This size keeps its own crop.</source>
+        <translation>גודל זה שומר על החיתוך שלו.</translation>
+    </message>
+    <message>
+        <source>Saved: the sizes are made again around the focal point.</source>
+        <translation>נשמר: הגדלים נוצרים מחדש סביב נקודת המוקד.</translation>
+    </message>
 </context>
 </TS>

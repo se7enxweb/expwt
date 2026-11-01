@@ -1819,5 +1819,53 @@
         <source>%n migrations need attention</source>
         <translation>%n माइग्रेशन पर ध्यान देब आवश्यक</translation>
     </message>
+    <message>
+        <source>This image cannot have a focal point.</source>
+        <translation>एहि चित्रमे फोकल बिन्दु नहि भ' सकैत अछि।</translation>
+    </message>
+    <message>
+        <source>Focal points are not available here.</source>
+        <translation>एतय फोकल बिन्दु उपलब्ध नहि अछि।</translation>
+    </message>
+    <message>
+        <source>Focal point and crop</source>
+        <translation>फोकल बिन्दु आ क्रॉप</translation>
+    </message>
+    <message>
+        <source>Focal point</source>
+        <translation>फोकल बिन्दु</translation>
+    </message>
+    <message>
+        <source>Crop box</source>
+        <translation>क्रॉप बक्सा</translation>
+    </message>
+    <message>
+        <source>Crop</source>
+        <translation>क्रॉप</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>रीसेट</translation>
+    </message>
+    <message>
+        <source>Click or drag on the image to set the focal point. Arrow keys move it; on the crop box, Shift and an arrow key change its size.</source>
+        <translation>फोकल बिन्दु सेट करबाक लेल चित्र पर क्लिक करू वा खींचू। तीर कुंजी ओकरा घुमबैत अछि; क्रॉप बक्सा पर Shift आ तीर कुंजी ओकर आकार बदलैत अछि।</translation>
+    </message>
+    <message>
+        <source>How each size will look</source>
+        <translation>प्रत्येक आकार केहन देखाएत</translation>
+    </message>
+    <message>
+        <source>The templates of this page use no size of this image yet.</source>
+        <translation>एहि पृष्ठक टेम्पलेट एखन धरि एहि चित्रक कोनो आकार उपयोग नहि करैत अछि।</translation>
+    </message>
+    <message>
+        <source>This size keeps its own crop.</source>
+        <translation>ई आकार अपन क्रॉप रखैत अछि।</translation>
+    </message>
+    <message>
+        <source>Saved: the sizes are made again around the focal point.</source>
+        <translation>सहेजल गेल: आकार फोकल बिन्दुक चारूकात फेरसँ बनाओल जाइत अछि।</translation>
+    </message>
 </context>
 </TS>

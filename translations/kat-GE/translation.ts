@@ -1819,5 +1819,53 @@
         <source>%n migrations need attention</source>
         <translation>%n მიგრაციას ყურადღება სჭირდება</translation>
     </message>
+    <message>
+        <source>This image cannot have a focal point.</source>
+        <translation>ამ სურათს არ შეიძლება ჰქონდეს ფოკუსის წერტილი.</translation>
+    </message>
+    <message>
+        <source>Focal points are not available here.</source>
+        <translation>ფოკუსის წერტილები აქ ხელმისაწვდომი არ არის.</translation>
+    </message>
+    <message>
+        <source>Focal point and crop</source>
+        <translation>ფოკუსის წერტილი და ამოჭრა</translation>
+    </message>
+    <message>
+        <source>Focal point</source>
+        <translation>ფოკუსის წერტილი</translation>
+    </message>
+    <message>
+        <source>Crop box</source>
+        <translation>ამოჭრის ჩარჩო</translation>
+    </message>
+    <message>
+        <source>Crop</source>
+        <translation>ამოჭრა</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>განულება</translation>
+    </message>
+    <message>
+        <source>Click or drag on the image to set the focal point. Arrow keys move it; on the crop box, Shift and an arrow key change its size.</source>
+        <translation>დააწკაპუნეთ ან გადაათრიეთ სურათზე ფოკუსის წერტილის დასაყენებლად. ისრიანი ღილაკები მას გადააადგილებენ; ამოჭრის ჩარჩოზე Shift და ისრიანი ღილაკი მის ზომას ცვლიან.</translation>
+    </message>
+    <message>
+        <source>How each size will look</source>
+        <translation>როგორ გამოჩნდება თითოეული ზომა</translation>
+    </message>
+    <message>
+        <source>The templates of this page use no size of this image yet.</source>
+        <translation>ამ გვერდის შაბლონები ჯერ არ იყენებენ ამ სურათის არცერთ ზომას.</translation>
+    </message>
+    <message>
+        <source>This size keeps its own crop.</source>
+        <translation>ეს ზომა ინარჩუნებს საკუთარ ამოჭრას.</translation>
+    </message>
+    <message>
+        <source>Saved: the sizes are made again around the focal point.</source>
+        <translation>შენახულია: ზომები ხელახლა იქმნება ფოკუსის წერტილის გარშემო.</translation>
+    </message>
 </context>
 </TS>

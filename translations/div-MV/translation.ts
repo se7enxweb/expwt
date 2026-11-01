@@ -1819,5 +1819,53 @@
         <source>%n migrations need attention</source>
         <translation>%n މައިގްރޭޝަނަކަށް ސަމާލުކަން ބޭނުން</translation>
     </message>
+    <message>
+        <source>This image cannot have a focal point.</source>
+        <translation>މި ފޮޓޯއަށް ފޯކަލް ޕޮއިންޓެއް ނުލެވޭނެ.</translation>
+    </message>
+    <message>
+        <source>Focal points are not available here.</source>
+        <translation>ފޯކަލް ޕޮއިންޓްތައް މިތާނގައި ނެތް.</translation>
+    </message>
+    <message>
+        <source>Focal point and crop</source>
+        <translation>ފޯކަލް ޕޮއިންޓާއި ކްރޮޕް</translation>
+    </message>
+    <message>
+        <source>Focal point</source>
+        <translation>ފޯކަލް ޕޮއިންޓް</translation>
+    </message>
+    <message>
+        <source>Crop box</source>
+        <translation>ކްރޮޕް ބޮކްސް</translation>
+    </message>
+    <message>
+        <source>Crop</source>
+        <translation>ކްރޮޕް</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>ރީސެޓް</translation>
+    </message>
+    <message>
+        <source>Click or drag on the image to set the focal point. Arrow keys move it; on the crop box, Shift and an arrow key change its size.</source>
+        <translation>ފޯކަލް ޕޮއިންޓް ކަނޑައަޅަން ފޮޓޯގެ މައްޗަށް ކްލިކް ކުރައްވާ ނުވަތަ ދަމާލައްވާ. ތިރީގެ ކީތަކުން އެ ހަރަކާތްކުރެވޭ؛ ކްރޮޕް ބޮކްސްގެ މައްޗަށް Shift އާއި ތިރީގެ ކީއަކުން އޭގެ ސައިޒު ބަދަލުވޭ.</translation>
+    </message>
+    <message>
+        <source>How each size will look</source>
+        <translation>ކޮންމެ ސައިޒެއް ފެންނާނެ ގޮތް</translation>
+    </message>
+    <message>
+        <source>The templates of this page use no size of this image yet.</source>
+        <translation>މި ޞަފްޙާގެ ޓެމްޕްލޭޓްތަކުން މި ފޮޓޯގެ އެއްވެސް ސައިޒެއް އަދި ބޭނުމެއް ނުކުރޭ.</translation>
+    </message>
+    <message>
+        <source>This size keeps its own crop.</source>
+        <translation>މި ސައިޒު އޭގެ އަމިއްލަ ކްރޮޕް ބަހައްޓާ.</translation>
+    </message>
+    <message>
+        <source>Saved: the sizes are made again around the focal point.</source>
+        <translation>ސޭވްކުރެވިއްޖެ: ސައިޒުތައް ފޯކަލް ޕޮއިންޓުގެ ވަށައިގެން އަލުން ހެދޭ.</translation>
+    </message>
 </context>
 </TS>

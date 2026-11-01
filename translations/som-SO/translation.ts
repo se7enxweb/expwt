@@ -1819,5 +1819,53 @@
         <source>%n migrations need attention</source>
         <translation>%n guurin ayaa u baahan fiiro</translation>
     </message>
+    <message>
+        <source>This image cannot have a focal point.</source>
+        <translation>Sawirkan ma yeelan karo bar diiradeed.</translation>
+    </message>
+    <message>
+        <source>Focal points are not available here.</source>
+        <translation>Baraha diiradda halkan lagama heli karo.</translation>
+    </message>
+    <message>
+        <source>Focal point and crop</source>
+        <translation>Barta diiradda iyo goynta</translation>
+    </message>
+    <message>
+        <source>Focal point</source>
+        <translation>Barta diiradda</translation>
+    </message>
+    <message>
+        <source>Crop box</source>
+        <translation>Sanduuqa goynta</translation>
+    </message>
+    <message>
+        <source>Crop</source>
+        <translation>Goo</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>Dib u deji</translation>
+    </message>
+    <message>
+        <source>Click or drag on the image to set the focal point. Arrow keys move it; on the crop box, Shift and an arrow key change its size.</source>
+        <translation>Guji ama ku jiid sawirka si aad u dejiso barta diiradda. Furayaasha fallaarta ayaa dhaqaajiya; sanduuqa goynta, Shift iyo furaha fallaarta ayaa beddela cabbirkiisa.</translation>
+    </message>
+    <message>
+        <source>How each size will look</source>
+        <translation>Sida cabbir kastaa u ekaan doono</translation>
+    </message>
+    <message>
+        <source>The templates of this page use no size of this image yet.</source>
+        <translation>Qaababka boggan weli ma isticmaalaan cabbir kasta oo sawirkan ah.</translation>
+    </message>
+    <message>
+        <source>This size keeps its own crop.</source>
+        <translation>Cabbirkani wuxuu hayaa goyntiisa gaarka ah.</translation>
+    </message>
+    <message>
+        <source>Saved: the sizes are made again around the focal point.</source>
+        <translation>Waa la keydiyey: cabbirrada ayaa dib loogu sameeyaa barta diiradda agteeda.</translation>
+    </message>
 </context>
 </TS>

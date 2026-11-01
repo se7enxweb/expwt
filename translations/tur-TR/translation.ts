@@ -1819,5 +1819,53 @@
         <source>%n migrations need attention</source>
         <translation>%n geçiş dikkat gerektiriyor</translation>
     </message>
+    <message>
+        <source>This image cannot have a focal point.</source>
+        <translation>Bu görselin odak noktası olamaz.</translation>
+    </message>
+    <message>
+        <source>Focal points are not available here.</source>
+        <translation>Odak noktaları burada kullanılamaz.</translation>
+    </message>
+    <message>
+        <source>Focal point and crop</source>
+        <translation>Odak noktası ve kırpma</translation>
+    </message>
+    <message>
+        <source>Focal point</source>
+        <translation>Odak noktası</translation>
+    </message>
+    <message>
+        <source>Crop box</source>
+        <translation>Kırpma kutusu</translation>
+    </message>
+    <message>
+        <source>Crop</source>
+        <translation>Kırp</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>Sıfırla</translation>
+    </message>
+    <message>
+        <source>Click or drag on the image to set the focal point. Arrow keys move it; on the crop box, Shift and an arrow key change its size.</source>
+        <translation>Odak noktasını belirlemek için görselin üzerine tıklayın veya sürükleyin. Ok tuşları onu taşır; kırpma kutusunda Shift ve bir ok tuşu boyutunu değiştirir.</translation>
+    </message>
+    <message>
+        <source>How each size will look</source>
+        <translation>Her boyut nasıl görünecek</translation>
+    </message>
+    <message>
+        <source>The templates of this page use no size of this image yet.</source>
+        <translation>Bu sayfanın şablonları henüz bu görselin hiçbir boyutunu kullanmıyor.</translation>
+    </message>
+    <message>
+        <source>This size keeps its own crop.</source>
+        <translation>Bu boyut kendi kırpmasını korur.</translation>
+    </message>
+    <message>
+        <source>Saved: the sizes are made again around the focal point.</source>
+        <translation>Kaydedildi: boyutlar odak noktasının çevresinde yeniden oluşturulur.</translation>
+    </message>
 </context>
 </TS>

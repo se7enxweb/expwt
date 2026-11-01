@@ -293,6 +293,9 @@
       place(f, row);
     });
     p.fields.forEach(function (f) { aiTools(f); });
+    /* the Images part of each image field (E7), told when its editor saved a new image */
+    var imageParts = {};
+    p.fields.forEach(function (f) { imageTools(f); });
     groupOrder.forEach(function (id) {
       order.push(groups[id].el);
       form.appendChild(groups[id].el);
@@ -564,6 +567,204 @@
       ]));
     }
 
+    /* The focal point and crop of an image field (E7), with a kernel that stores them (p.images): below the field's
+       editor, closed until opened. Click or drag on the image sets the focal point (arrow keys move it); Crop adds a
+       box, moved by dragging it or with the arrow keys, sized by its corners or with Shift and the arrow keys. Every
+       alias the page's templates use is previewed live (Focal.plan(), what the kernel computes); Save draft writes
+       both into the user's draft (images.save), where the kernel makes the aliases again around the point; the
+       previews then show those files. Nothing reaches the published page before the draft is published. */
+    function imageTools(f) {
+      var row = rows[f.identifier];
+      if (!p.images || f.input !== 'image' || !row) { return; }
+      var key = 'wt-focal-' + f.identifier;
+      var data = null;
+      var focal = null;
+      var crop = null;
+      var saved = false;
+      var drag = null;
+      var dirty = false;
+      var body = h('div', { class: 'wt-focal-body' });
+      var part = h('details', { class: 'wt-focal', 'data-focal': f.identifier }, [h('summary', { text: t('Focal point and crop') }), body]);
+      var note = h('p', { class: 'wt-ai-note', role: 'status', 'aria-live': 'polite' });
+      row.appendChild(part);
+      /* a new image saved by the field's editor: read again, unless a focal point waits to be saved here */
+      imageParts[f.identifier] = { reload: function () { if (part.open && !dirty) { load(); } else if (!part.open) { data = null; } } };
+      part.addEventListener('toggle', function () { if (part.open && !data) { load(); } });
+
+      function load() {
+        body.textContent = '';
+        body.appendChild(h('p', { class: 'wt-muted', text: t('Loading ...') }));
+        var input = { objectId: p.objectId, language: p.language, field: f.identifier };
+        if (version) { input.version = version; }
+        ctx.call('images.load', input).then(function (r) { saved = false; draw(r); }, function (err) {
+          body.textContent = '';
+          body.appendChild(h('p', { class: 'wt-notice is-bad', text: err && err.message ? err.message : t('Something went wrong on the server.') }));
+        });
+      }
+      function draw(r) {
+        data = r;
+        dirty = false;
+        focal = r.focal;
+        crop = r.crop;
+        body.textContent = '';
+        if (!r.supported) {
+          body.appendChild(h('p', { class: 'wt-muted', text: t('This image cannot have a focal point.') }));
+          return;
+        }
+        var img = h('img', { class: 'wt-focal-img', src: r.original.url, alt: r.original.alt || '', draggable: 'false',
+          width: r.original.width || null, height: r.original.height || null });
+        var marker = h('button', { type: 'button', class: 'wt-focal-point', id: key + '-point', 'aria-label': t('Focal point'),
+          'aria-describedby': key + '-help' });
+        var corners = ['nw', 'ne', 'sw', 'se'].map(function (c) { return h('span', { class: 'wt-focal-handle is-' + c, 'data-corner': c }); });
+        var box = h('div', { class: 'wt-focal-crop', tabindex: '0', role: 'group', 'aria-label': t('Crop box'), 'aria-describedby': key + '-help' }, corners);
+        var stage = h('div', { class: 'wt-focal-stage' }, [img, box, marker]);
+        var cropBtn = h('button', { type: 'button', class: 'wt-btn', 'aria-pressed': crop ? 'true' : 'false', text: t('Crop'), onclick: function () {
+          crop = crop ? null : Focal.start();
+          if (crop && focal) { focal = Focal.nudge(focal, 0, 0, crop); }
+          changed();
+        } });
+        var resetBtn = h('button', { type: 'button', class: 'wt-btn', text: t('Reset'), onclick: function () { focal = null; crop = null; changed(); } });
+        var saveBtn = h('button', { type: 'button', class: 'wt-btn is-primary', text: t('Save draft'), onclick: save });
+        var previews = h('div', { class: 'wt-focal-previews' });
+        body.appendChild(h('p', { class: 'wt-muted', id: key + '-help', text: t('Click or drag on the image to set the focal point. Arrow keys move it; on the crop box, Shift and an arrow key change its size.') }));
+        body.appendChild(stage);
+        body.appendChild(h('div', { class: 'wt-row' }, [cropBtn, resetBtn, saveBtn]));
+        body.appendChild(note);
+        body.appendChild(h('h4', { class: 'wt-focal-title', text: t('How each size will look') }));
+        body.appendChild(previews);
+
+        function place() {
+          /* without a focal point the marker waits in the middle, faint, so the keyboard reaches it too */
+          var at = focal || { x: 0.5, y: 0.5 };
+          marker.classList.toggle('is-unset', !focal);
+          marker.style.setProperty('--wt-fx', (at.x * 100) + '%');
+          marker.style.setProperty('--wt-fy', (at.y * 100) + '%');
+          box.hidden = !crop;
+          if (crop) {
+            box.style.setProperty('--wt-cx', (crop.x * 100) + '%');
+            box.style.setProperty('--wt-cy', (crop.y * 100) + '%');
+            box.style.setProperty('--wt-cw', (crop.width * 100) + '%');
+            box.style.setProperty('--wt-ch', (crop.height * 100) + '%');
+          }
+          cropBtn.setAttribute('aria-pressed', crop ? 'true' : 'false');
+          stage.classList.toggle('is-cropping', !!crop);
+        }
+        function preview() {
+          previews.textContent = '';
+          if (!r.aliases.length) {
+            previews.appendChild(h('p', { class: 'wt-muted', text: t('The templates of this page use no size of this image yet.') }));
+            return;
+          }
+          r.aliases.forEach(function (a) {
+            var plan = Focal.plan(a.filters, r.original.width, r.original.height, focal, crop);
+            var view = saved ? null : Focal.view(plan, r.original.width, r.original.height);
+            var frame;
+            var size = '';
+            if (view) {
+              /* live: the original placed in a frame of the alias's shape, as the kernel will cut it */
+              var shown = h('img', { class: 'wt-focal-live', src: r.original.url, alt: '', draggable: 'false' });
+              shown.style.setProperty('--wt-iw', view.imageWidth + '%');
+              shown.style.setProperty('--wt-il', view.left + '%');
+              shown.style.setProperty('--wt-it', view.top + '%');
+              frame = h('div', { class: 'wt-focal-frame' }, [shown]);
+              frame.style.setProperty('--wt-ratio', String(view.ratio));
+              frame.style.setProperty('--wt-max', Math.max(1, plan.width) + 'px');
+              size = plan.width + ' × ' + plan.height;
+            } else if (a.url) {
+              /* saved, or a size the preview cannot follow: the alias's file as the kernel made it */
+              frame = h('div', { class: 'wt-focal-frame is-file' }, [h('img', { class: 'wt-focal-file', src: a.url, alt: '', width: a.width || null, height: a.height || null })]);
+              frame.style.setProperty('--wt-max', Math.max(1, a.width) + 'px');
+              size = a.width + ' × ' + a.height;
+            } else {
+              frame = h('p', { class: 'wt-muted', text: t('This size keeps its own crop.') });
+            }
+            previews.appendChild(h('figure', { class: 'wt-focal-preview', 'data-alias': a.name }, [frame,
+              h('figcaption', {}, [h('span', { class: 'wt-focal-name', text: a.name }), h('span', { class: 'wt-muted', text: size })])]));
+          });
+        }
+        function changed() {
+          saved = false;
+          dirty = true;
+          note.textContent = '';
+          place();
+          preview();
+        }
+
+        /* the pointer on the image: the focal point, the crop box moved, or one of its corners */
+        stage.addEventListener('pointerdown', function (e) {
+          if (e.button !== undefined && e.button !== 0) { return; }
+          var at = Focal.point(img.getBoundingClientRect(), e.clientX, e.clientY);
+          var corner = e.target.getAttribute && e.target.getAttribute('data-corner');
+          if (crop && corner) {
+            drag = { kind: 'corner', corner: corner };
+          } else if (crop && e.target === box) {
+            drag = { kind: 'box', from: at, start: crop };
+          } else {
+            drag = { kind: 'point' };
+            focal = Focal.nudge(at, 0, 0, crop);
+            changed();
+          }
+          stage.setPointerCapture(e.pointerId);
+          e.preventDefault();
+        });
+        stage.addEventListener('pointermove', function (e) {
+          if (!drag) { return; }
+          var at = Focal.point(img.getBoundingClientRect(), e.clientX, e.clientY);
+          if (drag.kind === 'point') { focal = Focal.nudge(at, 0, 0, crop); }
+          if (drag.kind === 'box') { crop = Focal.move(drag.start, at.x - drag.from.x, at.y - drag.from.y); }
+          if (drag.kind === 'corner') { crop = Focal.resize(crop, drag.corner, at); }
+          if (drag.kind !== 'point' && focal) { focal = Focal.nudge(focal, 0, 0, crop); }
+          changed();
+        });
+        function stop() { drag = null; }
+        stage.addEventListener('pointerup', stop);
+        stage.addEventListener('pointercancel', stop);
+        marker.addEventListener('keydown', function (e) {
+          var d = Focal.step(e.key, e.shiftKey);
+          if (!d) { return; }
+          e.preventDefault();
+          focal = Focal.nudge(focal || { x: 0.5, y: 0.5 }, d[0], d[1], crop);
+          changed();
+        });
+        box.addEventListener('keydown', function (e) {
+          var d = Focal.step(e.key, e.shiftKey);
+          if (!d || !crop) { return; }
+          e.preventDefault();
+          crop = e.shiftKey ? Focal.grow(crop, d[0], d[1]) : Focal.move(crop, d[0], d[1]);
+          if (focal) { focal = Focal.nudge(focal, 0, 0, crop); }
+          changed();
+        });
+        place();
+        preview();
+
+        function save() {
+          var entry = frames[f.identifier];
+          var first = entry && entry.frame && entry.ready && entry.changed ? serial(function () { return saveOne(entry); }) : Promise.resolve();
+          saveBtn.disabled = true;
+          note.textContent = t('Saving ...');
+          first.then(function () {
+            return serial(function () {
+              var send = Focal.body(focal, crop);
+              return ctx.call('images.save', { objectId: p.objectId, version: version, language: p.language, field: f.identifier, focal: send.focal, crop: send.crop });
+            });
+          }).then(function (res) {
+            saveBtn.disabled = false;
+            if (res.version && res.version !== version) { version = res.version; discardBtn.hidden = false; drawChips(); }
+            /* the field's editor shows the draft's image again; the previews show the files the kernel made */
+            if (entry && entry.frame) { entry.ready = false; entry.changed = false; entry.frame.src = frameSrc(f); }
+            saved = true;
+            draw(res);
+            note.textContent = t('Saved: the sizes are made again around the focal point.');
+            ctx.say(t('The draft is saved.'), 'ok');
+            keep();
+          }, function (err) {
+            saveBtn.disabled = false;
+            note.textContent = err && err.message ? err.message : t('Something went wrong on the server.');
+          });
+        }
+      }
+    }
+
     /* Every field that has an editor of its own is open in it (F32): a frame (expwt/field) per field, loaded when the
        field comes into view. It shows the user's draft, or the published page while there is none; the panel's one
        Save draft and Publish save each frame in turn (the first save makes the draft, the others go into it; a
@@ -696,6 +897,7 @@
         if (entry) { entry.ready = true; entry.changed = false; }
         if (entry && entry.quiet) { autosaved(); } else { ctx.say(t('The draft is saved.'), 'ok'); }
         if (entry && entry.waiter) { entry.waiter.resolve(true); entry.waiter = null; }
+        if (entry && imageParts[entry.field.identifier]) { imageParts[entry.field.identifier].reload(); }
         keep();
       } else if (m.expwt === 'field-changed') {
         /* typed into: autosave saves it once the focus has left it; the frame keeps its copy on this device */
@@ -2167,6 +2369,144 @@
     }
   }
 
+  /* ------------------------------------------------------------------------------------- focal point (E7) */
+
+  /* Pure (tests/js/focal.test.js): what the kernel's expImageFocalPoint::plan() computes, for live previews while the
+     focal point or the crop box moves: the crop box cut out first, every geometry/crop filter centered on the focal
+     point (inside the image), the size followed through the scale filters; a filter whose size is not known stops it.
+     source: the part of the original the alias shows (original pixels), or null when it is not known. Points and
+     boxes are fractions of the original (0 to 1). */
+  var Focal = {
+    KEEP: ['colorspace', 'colorspace/gray', 'colorspace/transparent', 'luminance/gray', 'luminance/sepia', 'color/monochrome',
+      'filter/noise', 'filter/swirl', 'border/color', 'border/width', 'flatten'],
+    MIN: 0.01,
+    round: function (v) { return Math.round(v * 1e6) / 1e6; },
+    clamp: function (v, lo, hi) { return Math.max(lo, Math.min(hi, v)); },
+    num: function (v) { var n = parseFloat(v); return isNaN(n) ? null : n; },
+    scale: function (name, data, w, h) {
+      var a = Focal.num(data[0]);
+      var b = Focal.num(data[1]);
+      var r;
+      switch (name) {
+        case 'geometry/scale': case 'geometry/scaledownonly':
+          if (!a || !b) { return null; }
+          r = Math.min(a / w, b / h);
+          if (name === 'geometry/scaledownonly') { r = Math.min(1, r); }
+          break;
+        case 'geometry/scalewidth': case 'geometry/scalewidthdownonly':
+          if (!a) { return null; }
+          r = a / w;
+          if (name === 'geometry/scalewidthdownonly') { r = Math.min(1, r); }
+          break;
+        case 'geometry/scaleheight': case 'geometry/scaleheightdownonly':
+          if (!a) { return null; }
+          r = a / h;
+          if (name === 'geometry/scaleheightdownonly') { r = Math.min(1, r); }
+          break;
+        case 'geometry/scaleexact':
+          return a && b ? [a, b] : null;
+        case 'geometry/scalepercent':
+          return a ? [Math.max(1, Math.round(w * a / 100)), Math.max(1, Math.round(h * (b || a) / 100))] : null;
+        default:
+          return null;
+      }
+      return [Math.max(1, Math.round(w * r)), Math.max(1, Math.round(h * r))];
+    },
+    cropFilter: function (crop, width, height) {
+      var x = Math.round(crop.x * width);
+      var y = Math.round(crop.y * height);
+      return [Math.max(1, Math.min(Math.round(crop.width * width), width - x)), Math.max(1, Math.min(Math.round(crop.height * height), height - y)), x, y];
+    },
+    plan: function (filters, width, height, focal, crop) {
+      var out = { width: null, height: null, focal: null, source: null };
+      if (!(width > 0 && height > 0)) { return out; }
+      var w = width, h = height, sx = 0, sy = 0, sw = width, sh = height;
+      if (crop) {
+        var c = Focal.cropFilter(crop, width, height);
+        sx = c[2]; sy = c[3]; sw = c[0]; sh = c[1]; w = c[0]; h = c[1];
+      }
+      var has = !!focal;
+      var fx = has ? Focal.clamp(focal.x * width - sx, 0, w) : w / 2;
+      var fy = has ? Focal.clamp(focal.y * height - sy, 0, h) : h / 2;
+      for (var i = 0; i < filters.length; i++) {
+        var name = filters[i].name || '';
+        var data = filters[i].data || [];
+        var s = Focal.scale(name, data, w, h);
+        if (s) { fx *= s[0] / w; fy *= s[1] / h; w = s[0]; h = s[1]; continue; }
+        if (name === 'geometry/crop' && Focal.num(data[0]) !== null && Focal.num(data[1]) !== null) {
+          var cw = parseInt(data[0], 10), ch = parseInt(data[1], 10), iw = Math.round(w), ih = Math.round(h), x, y;
+          if (has) {
+            x = Focal.clamp(Math.round(fx - cw / 2), 0, Math.max(0, iw - cw));
+            y = Focal.clamp(Math.round(fy - ch / 2), 0, Math.max(0, ih - ch));
+          } else {
+            x = Focal.clamp(parseInt(data[2], 10) || 0, 0, iw);
+            y = Focal.clamp(parseInt(data[3], 10) || 0, 0, ih);
+          }
+          var nw = Math.max(0, Math.min(cw, iw - x)), nh = Math.max(0, Math.min(ch, ih - y));
+          sx += x * sw / w; sy += y * sh / h; sw = nw * sw / w; sh = nh * sh / h;
+          fx -= x; fy -= y; w = nw; h = nh;
+          if (w <= 0 || h <= 0) { return out; }
+          continue;
+        }
+        if (name === 'border' && Focal.num(data[0]) !== null && Focal.num(data[1]) !== null) {
+          fx += parseInt(data[0], 10); fy += parseInt(data[1], 10);
+          w += 2 * parseInt(data[0], 10); h += 2 * parseInt(data[1], 10);
+          continue;
+        }
+        if (Focal.KEEP.indexOf(name) < 0) { return out; }
+      }
+      out.width = Math.round(w);
+      out.height = Math.round(h);
+      out.focal = { x: Focal.round(Focal.clamp(fx / w, 0, 1)), y: Focal.round(Focal.clamp(fy / h, 0, 1)) };
+      out.source = { x: Math.round(sx * 100) / 100, y: Math.round(sy * 100) / 100, width: Math.round(sw * 100) / 100, height: Math.round(sh * 100) / 100 };
+      return out;
+    },
+    /* the preview of a plan in a frame: the image's width and offsets in percent of the frame, the frame's ratio */
+    view: function (plan, width, height) {
+      if (!plan.source || !plan.source.width || !plan.source.height) { return null; }
+      var s = plan.source;
+      return { ratio: Focal.round(plan.width / plan.height), imageWidth: Focal.round(width / s.width * 100),
+        left: Focal.round(-s.x / s.width * 100), top: Focal.round(-s.y / s.height * 100) };
+    },
+    /* a point of the image from a pointer on it (its client box) */
+    point: function (box, clientX, clientY) {
+      return { x: Focal.round(Focal.clamp((clientX - box.left) / box.width, 0, 1)), y: Focal.round(Focal.clamp((clientY - box.top) / box.height, 0, 1)) };
+    },
+    /* the focal point moved by dx, dy (fractions), inside the crop box when there is one */
+    nudge: function (p, dx, dy, crop) {
+      var lo = crop ? { x: crop.x, y: crop.y } : { x: 0, y: 0 };
+      var hi = crop ? { x: crop.x + crop.width, y: crop.y + crop.height } : { x: 1, y: 1 };
+      return { x: Focal.round(Focal.clamp(p.x + dx, lo.x, hi.x)), y: Focal.round(Focal.clamp(p.y + dy, lo.y, hi.y)) };
+    },
+    /* the crop box moved by dx, dy, inside the image */
+    move: function (c, dx, dy) {
+      return { x: Focal.round(Focal.clamp(c.x + dx, 0, 1 - c.width)), y: Focal.round(Focal.clamp(c.y + dy, 0, 1 - c.height)), width: c.width, height: c.height };
+    },
+    /* the crop box with one corner (nw, ne, sw, se) dragged to p, at least MIN wide and high, inside the image */
+    resize: function (c, corner, p) {
+      var x1 = c.x, y1 = c.y, x2 = c.x + c.width, y2 = c.y + c.height;
+      if (corner.indexOf('w') >= 0) { x1 = Focal.clamp(p.x, 0, x2 - Focal.MIN); } else { x2 = Focal.clamp(p.x, x1 + Focal.MIN, 1); }
+      if (corner.indexOf('n') === 0) { y1 = Focal.clamp(p.y, 0, y2 - Focal.MIN); } else { y2 = Focal.clamp(p.y, y1 + Focal.MIN, 1); }
+      return { x: Focal.round(x1), y: Focal.round(y1), width: Focal.round(x2 - x1), height: Focal.round(y2 - y1) };
+    },
+    /* the crop box made larger or smaller by dw, dh from its top left corner, inside the image */
+    grow: function (c, dw, dh) {
+      return { x: c.x, y: c.y, width: Focal.round(Focal.clamp(c.width + dw, Focal.MIN, 1 - c.x)), height: Focal.round(Focal.clamp(c.height + dh, Focal.MIN, 1 - c.y)) };
+    },
+    /* the crop box a click on Crop starts with: the middle 80% */
+    start: function () { return { x: 0.1, y: 0.1, width: 0.8, height: 0.8 }; },
+    /* what Save sends: null for no focal point or no crop box (the whole image is none) */
+    body: function (focal, crop) {
+      var whole = crop && crop.x <= 0 && crop.y <= 0 && crop.width >= 1 && crop.height >= 1;
+      return { focal: focal ? { x: focal.x, y: focal.y } : null, crop: crop && !whole ? { x: crop.x, y: crop.y, width: crop.width, height: crop.height } : null };
+    },
+    /* the arrow keys: a step of 1% (10% with Shift) */
+    step: function (key, shift) {
+      var d = shift ? 0.1 : 0.01;
+      return { ArrowLeft: [-d, 0], ArrowRight: [d, 0], ArrowUp: [0, -d], ArrowDown: [0, d] }[key] || null;
+    }
+  };
+
   /* ---------------------------------------------------------------------------------------------- calendar */
 
   /* Pure (tests/js/calendar.test.js): the month grid (six weeks from the Monday on or before the 1st), the days of the
@@ -2955,5 +3295,6 @@
   window.ExpwtComments = { actions: commentActions };
   window.ExpwtUrls = { address: addressOf };
   window.ExpwtCalendar = Calendar;
+  window.ExpwtFocal = Focal;
   window.ExpwtPanels = { page: page, create: create, structure: structure, seo: seo, sites: sites, forms: forms, newsletter: newsletter, urls: urls, calendar: calendar, insights: insights, inbox: inbox, migrations: migrations, me: me, shortcuts: shortcuts };
 }());

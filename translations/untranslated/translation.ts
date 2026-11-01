@@ -1819,5 +1819,53 @@
         <source>%n migrations need attention</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>This image cannot have a focal point.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Focal points are not available here.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Focal point and crop</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Focal point</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Crop box</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Crop</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Click or drag on the image to set the focal point. Arrow keys move it; on the crop box, Shift and an arrow key change its size.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>How each size will look</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The templates of this page use no size of this image yet.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>This size keeps its own crop.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Saved: the sizes are made again around the focal point.</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 </TS>

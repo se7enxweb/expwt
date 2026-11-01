@@ -1819,5 +1819,53 @@
         <source>%n migrations need attention</source>
         <translation>Migracija kojima je potrebna pažnja: %n</translation>
     </message>
+    <message>
+        <source>This image cannot have a focal point.</source>
+        <translation>Ova slika ne može imati žižnu tačku.</translation>
+    </message>
+    <message>
+        <source>Focal points are not available here.</source>
+        <translation>Žižne tačke ovde nisu dostupne.</translation>
+    </message>
+    <message>
+        <source>Focal point and crop</source>
+        <translation>Žižna tačka i isecanje</translation>
+    </message>
+    <message>
+        <source>Focal point</source>
+        <translation>Žižna tačka</translation>
+    </message>
+    <message>
+        <source>Crop box</source>
+        <translation>Okvir isecanja</translation>
+    </message>
+    <message>
+        <source>Crop</source>
+        <translation>Iseci</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>Poništi</translation>
+    </message>
+    <message>
+        <source>Click or drag on the image to set the focal point. Arrow keys move it; on the crop box, Shift and an arrow key change its size.</source>
+        <translation>Kliknite ili prevucite po slici da biste postavili žižnu tačku. Tasteri sa strelicama je pomeraju; na okviru isecanja Shift i taster sa strelicom menjaju njegovu veličinu.</translation>
+    </message>
+    <message>
+        <source>How each size will look</source>
+        <translation>Kako će izgledati svaka veličina</translation>
+    </message>
+    <message>
+        <source>The templates of this page use no size of this image yet.</source>
+        <translation>Šabloni ove stranice još ne koriste nijednu veličinu ove slike.</translation>
+    </message>
+    <message>
+        <source>This size keeps its own crop.</source>
+        <translation>Ova veličina zadržava sopstveno isecanje.</translation>
+    </message>
+    <message>
+        <source>Saved: the sizes are made again around the focal point.</source>
+        <translation>Sačuvano: veličine se ponovo prave oko žižne tačke.</translation>
+    </message>
 </context>
 </TS>

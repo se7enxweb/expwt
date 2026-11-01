@@ -1819,5 +1819,53 @@
         <source>%n migrations need attention</source>
         <translation>Imyimuko %n ikeneye kwitabwaho</translation>
     </message>
+    <message>
+        <source>This image cannot have a focal point.</source>
+        <translation>Iyi shusho ntishobora kugira akadomo nyamukuru.</translation>
+    </message>
+    <message>
+        <source>Focal points are not available here.</source>
+        <translation>Utudomo nyamukuru ntituboneka ng'aha.</translation>
+    </message>
+    <message>
+        <source>Focal point and crop</source>
+        <translation>Akadomo nyamukuru n'ugukata</translation>
+    </message>
+    <message>
+        <source>Focal point</source>
+        <translation>Akadomo nyamukuru</translation>
+    </message>
+    <message>
+        <source>Crop box</source>
+        <translation>Agasandugu ko gukata</translation>
+    </message>
+    <message>
+        <source>Crop</source>
+        <translation>Kata</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>Subiza nk'uko vyari</translation>
+    </message>
+    <message>
+        <source>Click or drag on the image to set the focal point. Arrow keys move it; on the crop box, Shift and an arrow key change its size.</source>
+        <translation>Fyonda canke ukwegere ku shusho kugira ushiremwo akadomo nyamukuru. Utubuto tw'imyampi turakimura; ku gasandugu ko gukata, Shift n'agabuto k'umwampi bihindura ubunini bwako.</translation>
+    </message>
+    <message>
+        <source>How each size will look</source>
+        <translation>Uko ubunini bwose buzoboneka</translation>
+    </message>
+    <message>
+        <source>The templates of this page use no size of this image yet.</source>
+        <translation>Ingero z'uru rupapuro ntiziraronka gukoresha ubunini na bumwe bw'iyi shusho.</translation>
+    </message>
+    <message>
+        <source>This size keeps its own crop.</source>
+        <translation>Ubu bunini bugumana ugukata kwabwo.</translation>
+    </message>
+    <message>
+        <source>Saved: the sizes are made again around the focal point.</source>
+        <translation>Vyabitswe: ubunini burasubira gukorwa bukikuje akadomo nyamukuru.</translation>
+    </message>
 </context>
 </TS>

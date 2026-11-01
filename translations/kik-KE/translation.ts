@@ -1819,5 +1819,53 @@
         <source>%n migrations need attention</source>
         <translation>Mĩthamĩo %n nĩ ĩbatairio kũmenyererwo</translation>
     </message>
+    <message>
+        <source>This image cannot have a focal point.</source>
+        <translation>Mbica ĩno ndĩngĩkorwo na kĩhinya kĩa kwĩrorera.</translation>
+    </message>
+    <message>
+        <source>Focal points are not available here.</source>
+        <translation>Ihinya cia kwĩrorera itirĩ haha.</translation>
+    </message>
+    <message>
+        <source>Focal point and crop</source>
+        <translation>Kĩhinya kĩa kwĩrorera na gũtinia</translation>
+    </message>
+    <message>
+        <source>Focal point</source>
+        <translation>Kĩhinya kĩa kwĩrorera</translation>
+    </message>
+    <message>
+        <source>Crop box</source>
+        <translation>Gĩthandũkũ kĩa gũtinia</translation>
+    </message>
+    <message>
+        <source>Crop</source>
+        <translation>Tinia</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>Cookia mbere</translation>
+    </message>
+    <message>
+        <source>Click or drag on the image to set the focal point. Arrow keys move it; on the crop box, Shift and an arrow key change its size.</source>
+        <translation>Hũra kana ũgucie igũrũ rĩa mbica nĩguo ũige kĩhinya kĩa kwĩrorera. Thwiti cia mĩguĩ nĩ ikĩthamagia; igũrũ rĩa gĩthandũkũ kĩa gũtinia, Shift na thwiti ya mũguĩ nĩ igarũraga ũnene wakĩo.</translation>
+    </message>
+    <message>
+        <source>How each size will look</source>
+        <translation>Ũrĩa ũnene o wothe ũkoneka</translation>
+    </message>
+    <message>
+        <source>The templates of this page use no size of this image yet.</source>
+        <translation>Mĩhiano ya karatathi gaka ndĩrĩ yahũthĩra ũnene o na ũmwe wa mbica ĩno.</translation>
+    </message>
+    <message>
+        <source>This size keeps its own crop.</source>
+        <translation>Ũnene ũyũ nĩ ũiganagia gũtinia kwaguo.</translation>
+    </message>
+    <message>
+        <source>Saved: the sizes are made again around the focal point.</source>
+        <translation>Nĩ kũigĩtwo: ũnene nĩ ũrathondekwo rĩngĩ gũthiũrũrũka kĩhinya kĩa kwĩrorera.</translation>
+    </message>
 </context>
 </TS>

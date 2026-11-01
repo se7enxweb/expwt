@@ -272,6 +272,57 @@ class expwtPureTest extends PHPUnit\Framework\TestCase
         $this->assertStringStartsWith( 'PASS', (string)end( $out ) );
     }
 
+    /** E7: the focal point and crop the browser sends, and the aliases an image field previews */
+    public function testTheFocalPointValuesAndTheAliasesPreviewed()
+    {
+        $this->assertSame( array( 'x' => 0.25, 'y' => 1.0 ), expwtImages::point( array( 'x' => '0.25', 'y' => 1 ) ) );
+        $this->assertNull( expwtImages::point( null ) );
+        $this->assertNull( expwtImages::point( '' ) );
+        foreach ( array( array( 'x' => 2, 'y' => 0 ), array( 'x' => 0.5 ), array( 'x' => 'a', 'y' => 0 ), 'middle', array( 'x' => -0.1, 'y' => 0 ) ) as $bad )
+            $this->assertFalse( expwtImages::point( $bad ), var_export( $bad, true ) );
+        $this->assertSame( array( 'x' => 0.1, 'y' => 0.0, 'width' => 0.5, 'height' => 0.75 ),
+                           expwtImages::rectangle( array( 'x' => 0.1, 'y' => '0', 'width' => 0.5, 'height' => 0.75 ) ) );
+        $this->assertNull( expwtImages::rectangle( array( 'x' => 0, 'y' => 0, 'width' => 1, 'height' => 1 ) ), 'the whole image is none' );
+        $this->assertNull( expwtImages::rectangle( null ) );
+        foreach ( array( array( 'x' => 0.6, 'y' => 0, 'width' => 0.5, 'height' => 1 ), array( 'x' => 0, 'y' => 0, 'width' => 0.001, 'height' => 1 ),
+                         array( 'x' => 0, 'y' => 0, 'width' => 0.5 ), 'invalid' ) as $bad )
+            $this->assertFalse( expwtImages::rectangle( $bad ), var_export( $bad, true ) );
+
+        if ( !class_exists( 'expImageFocalPoint' ) )
+            $this->markTestSkipped( 'The kernel has no focal points (Exponential 6.0.15 has them)' );
+        $this->assertTrue( expwtImages::available() );
+        $f = function ( $name, $data ) { return array( 'name' => $name, 'data' => $data ); };
+        $aliasList = array(
+            'original' => array( 'reference' => false, 'filters' => array() ),
+            'small' => array( 'reference' => false, 'filters' => array( $f( 'geometry/scaledownonly', array( 100, 100 ) ) ) ),
+            'unused' => array( 'reference' => false, 'filters' => array( $f( 'geometry/scaledownonly', array( 50, 50 ) ) ) ),
+            'reference' => array( 'reference' => false, 'filters' => array( $f( 'geometry/scaledownonly', array( 600, 600 ) ) ) ),
+            'teaser' => array( 'reference' => 'reference', 'filters' => array( $f( 'geometry/crop', array( 300, 200, 0, 0 ) ) ) ),
+        );
+        $this->assertSame( array( 'small', 'teaser' ), expwtImages::relevantAliases( $aliasList, array( 'original', 'small' ) ),
+                           'the aliases made, and those that crop; never the original' );
+        $this->assertSame( array( array( 'name' => 'geometry/scaledownonly', 'data' => array( '600', '600' ) ),
+                                  array( 'name' => 'geometry/crop', 'data' => array( '300', '200', '0', '0' ) ) ),
+                           expwtImages::chain( $aliasList, 'teaser' ), 'the filters from the original, through the reference' );
+        $this->assertTrue( expwtImages::crops( expwtImages::chain( $aliasList, 'teaser' ) ) );
+        $this->assertFalse( expwtImages::crops( expwtImages::chain( $aliasList, 'small' ) ) );
+        $many = array();
+        for ( $i = 0; $i < 40; $i++ )
+            $many['a' . $i] = array( 'reference' => false, 'filters' => array( $f( 'geometry/crop', array( 10, 10, 0, 0 ) ) ) );
+        $this->assertCount( expwtImages::MAX_ALIASES, expwtImages::relevantAliases( $many, array() ) );
+    }
+
+    /** E7: the live previews compute what the kernel computes (tests/js/focal.test.js, Node) */
+    public function testTheFocalPointPreviews()
+    {
+        $node = trim( (string)shell_exec( 'command -v node 2>&1' ) );
+        if ( $node === '' || !is_executable( $node ) )
+            $this->markTestSkipped( 'Node is not installed' );
+        exec( escapeshellarg( $node ) . ' ' . escapeshellarg( dirname( __DIR__, 2 ) . '/js/focal.test.js' ) . ' 2>&1', $out, $status );
+        $this->assertSame( 0, $status, implode( "\n", $out ) );
+        $this->assertStringStartsWith( 'PASS', (string)end( $out ) );
+    }
+
     /** E5: what the panel sends as an address (tests/js/urls.test.js, Node) */
     public function testTheAddressesAsTyped()
     {

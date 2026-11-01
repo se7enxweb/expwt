@@ -1819,5 +1819,53 @@
         <source>%n migrations need attention</source>
         <translation>Міграцій, що потребують уваги: %n</translation>
     </message>
+    <message>
+        <source>This image cannot have a focal point.</source>
+        <translation>Це зображення не може мати точки фокусу.</translation>
+    </message>
+    <message>
+        <source>Focal points are not available here.</source>
+        <translation>Точки фокусу тут недоступні.</translation>
+    </message>
+    <message>
+        <source>Focal point and crop</source>
+        <translation>Точка фокусу та обрізання</translation>
+    </message>
+    <message>
+        <source>Focal point</source>
+        <translation>Точка фокусу</translation>
+    </message>
+    <message>
+        <source>Crop box</source>
+        <translation>Рамка обрізання</translation>
+    </message>
+    <message>
+        <source>Crop</source>
+        <translation>Обрізати</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>Скинути</translation>
+    </message>
+    <message>
+        <source>Click or drag on the image to set the focal point. Arrow keys move it; on the crop box, Shift and an arrow key change its size.</source>
+        <translation>Клацніть або перетягніть по зображенню, щоб задати точку фокусу. Клавіші зі стрілками переміщують її; на рамці обрізання Shift і клавіша зі стрілкою змінюють її розмір.</translation>
+    </message>
+    <message>
+        <source>How each size will look</source>
+        <translation>Як виглядатиме кожен розмір</translation>
+    </message>
+    <message>
+        <source>The templates of this page use no size of this image yet.</source>
+        <translation>Шаблони цієї сторінки ще не використовують жодного розміру цього зображення.</translation>
+    </message>
+    <message>
+        <source>This size keeps its own crop.</source>
+        <translation>Цей розмір зберігає власне обрізання.</translation>
+    </message>
+    <message>
+        <source>Saved: the sizes are made again around the focal point.</source>
+        <translation>Збережено: розміри створюються заново навколо точки фокусу.</translation>
+    </message>
 </context>
 </TS>

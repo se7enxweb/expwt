@@ -1819,5 +1819,53 @@
         <source>%n migrations need attention</source>
         <translation>%n migrasi butuh perhatian</translation>
     </message>
+    <message>
+        <source>This image cannot have a focal point.</source>
+        <translation>Gambar ieu teu tiasa gaduh titik fokus.</translation>
+    </message>
+    <message>
+        <source>Focal points are not available here.</source>
+        <translation>Titik fokus teu sayogi di dieu.</translation>
+    </message>
+    <message>
+        <source>Focal point and crop</source>
+        <translation>Titik fokus jeung potongan</translation>
+    </message>
+    <message>
+        <source>Focal point</source>
+        <translation>Titik fokus</translation>
+    </message>
+    <message>
+        <source>Crop box</source>
+        <translation>Kotak potongan</translation>
+    </message>
+    <message>
+        <source>Crop</source>
+        <translation>Potong</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>Setél deui</translation>
+    </message>
+    <message>
+        <source>Click or drag on the image to set the focal point. Arrow keys move it; on the crop box, Shift and an arrow key change its size.</source>
+        <translation>Klik atanapi sered dina gambar pikeun nangtukeun titik fokus. Kenop panah mindahkeunana; dina kotak potongan, Shift sareng kenop panah ngarobih ukuranana.</translation>
+    </message>
+    <message>
+        <source>How each size will look</source>
+        <translation>Kumaha unggal ukuran bakal katingali</translation>
+    </message>
+    <message>
+        <source>The templates of this page use no size of this image yet.</source>
+        <translation>Citakan kaca ieu acan nganggo ukuran naon waé tina gambar ieu.</translation>
+    </message>
+    <message>
+        <source>This size keeps its own crop.</source>
+        <translation>Ukuran ieu ngajaga potonganana nyalira.</translation>
+    </message>
+    <message>
+        <source>Saved: the sizes are made again around the focal point.</source>
+        <translation>Disimpen: ukuran-ukuran dijieun deui di sabudeureun titik fokus.</translation>
+    </message>
 </context>
 </TS>

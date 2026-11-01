@@ -1819,5 +1819,53 @@
         <source>%n migrations need attention</source>
         <translation>%n ܫܘܢܝ̈ܐ ܣܢܝܩܝܢ ܠܚܘܪܐ</translation>
     </message>
+    <message>
+        <source>This image cannot have a focal point.</source>
+        <translation>ܨܘܪܬܐ ܗܕܐ ܠܐ ܡܨܝܐ ܕܢܗܘܐ ܠܗ ܢܘܩܙܐ ܕܚܘܪܐ.</translation>
+    </message>
+    <message>
+        <source>Focal points are not available here.</source>
+        <translation>ܢܘܩܙܐ ܕܚܘܪܐ ܠܐ ܐܝܬ ܠܗܘܢ ܗܪܟܐ.</translation>
+    </message>
+    <message>
+        <source>Focal point and crop</source>
+        <translation>ܢܘܩܙܐ ܕܚܘܪܐ ܘܓܕܡܐ</translation>
+    </message>
+    <message>
+        <source>Focal point</source>
+        <translation>ܢܘܩܙܐ ܕܚܘܪܐ</translation>
+    </message>
+    <message>
+        <source>Crop box</source>
+        <translation>ܩܘܦܣܐ ܕܓܕܡܐ</translation>
+    </message>
+    <message>
+        <source>Crop</source>
+        <translation>ܓܕܘܡ</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>ܬܘܒ ܣܝܡ</translation>
+    </message>
+    <message>
+        <source>Click or drag on the image to set the focal point. Arrow keys move it; on the crop box, Shift and an arrow key change its size.</source>
+        <translation>ܢܩܘܫ ܐܘ ܓܪܘܪ ܥܠ ܨܘܪܬܐ ܕܬܣܝܡ ܢܘܩܙܐ ܕܚܘܪܐ. ܩܠܝܕ̈ܐ ܕܓܐܪ̈ܐ ܡܫܢܝܢ ܠܗ؛ ܥܠ ܩܘܦܣܐ ܕܓܕܡܐ Shift ܘܩܠܝܕܐ ܕܓܐܪܐ ܡܫܚܠܦܝܢ ܪܒܘܬܗ.</translation>
+    </message>
+    <message>
+        <source>How each size will look</source>
+        <translation>ܐܝܟܢܐ ܬܬܚܙܐ ܟܠ ܪܒܘܬܐ</translation>
+    </message>
+    <message>
+        <source>The templates of this page use no size of this image yet.</source>
+        <translation>ܛܘܦ̈ܣܐ ܕܦܐܬܐ ܗܕܐ ܥܕܡܐ ܠܗܫܐ ܠܐ ܡܦܠܚܝܢ ܐܦ ܠܐ ܪܒܘܬܐ ܚܕܐ ܕܨܘܪܬܐ ܗܕܐ.</translation>
+    </message>
+    <message>
+        <source>This size keeps its own crop.</source>
+        <translation>ܪܒܘܬܐ ܗܕܐ ܢܛܪܐ ܓܕܡܐ ܕܝܠܗ.</translation>
+    </message>
+    <message>
+        <source>Saved: the sizes are made again around the focal point.</source>
+        <translation>ܐܬܢܛܪ: ܪ̈ܒܘܬܐ ܡܬܥܒܕܢ ܡܢ ܕܪܝܫ ܚܕܪ ܢܘܩܙܐ ܕܚܘܪܐ.</translation>
+    </message>
 </context>
 </TS>

@@ -1819,5 +1819,53 @@
         <source>%n migrations need attention</source>
         <translation>%n गो माइग्रेशन पर ध्यान चाहीं</translation>
     </message>
+    <message>
+        <source>This image cannot have a focal point.</source>
+        <translation>एह फोटो के फोकल पॉइंट ना हो सकेला।</translation>
+    </message>
+    <message>
+        <source>Focal points are not available here.</source>
+        <translation>फोकल पॉइंट इहाँ उपलब्ध नइखे।</translation>
+    </message>
+    <message>
+        <source>Focal point and crop</source>
+        <translation>फोकल पॉइंट आ क्रॉप</translation>
+    </message>
+    <message>
+        <source>Focal point</source>
+        <translation>फोकल पॉइंट</translation>
+    </message>
+    <message>
+        <source>Crop box</source>
+        <translation>क्रॉप बॉक्स</translation>
+    </message>
+    <message>
+        <source>Crop</source>
+        <translation>क्रॉप</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>रीसेट</translation>
+    </message>
+    <message>
+        <source>Click or drag on the image to set the focal point. Arrow keys move it; on the crop box, Shift and an arrow key change its size.</source>
+        <translation>फोकल पॉइंट तय करे खातिर फोटो पर क्लिक करीं भा खींचीं। तीर वाला कुंजी एकरा के खिसकावेला; क्रॉप बॉक्स पर Shift आ तीर वाला कुंजी एकर आकार बदलेला।</translation>
+    </message>
+    <message>
+        <source>How each size will look</source>
+        <translation>हर आकार कइसन लउकी</translation>
+    </message>
+    <message>
+        <source>The templates of this page use no size of this image yet.</source>
+        <translation>एह पन्ना के टेम्पलेट अबहीं एह फोटो के कवनो आकार इस्तेमाल ना करेलें।</translation>
+    </message>
+    <message>
+        <source>This size keeps its own crop.</source>
+        <translation>ई आकार आपन क्रॉप रखेला।</translation>
+    </message>
+    <message>
+        <source>Saved: the sizes are made again around the focal point.</source>
+        <translation>सहेजल गइल: आकार फोकल पॉइंट के चारों ओर फेर से बनावल जाला।</translation>
+    </message>
 </context>
 </TS>

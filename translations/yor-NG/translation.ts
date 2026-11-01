@@ -1819,5 +1819,53 @@
         <source>%n migrations need attention</source>
         <translation>Ìṣípò %n nílò àkíyèsí</translation>
     </message>
+    <message>
+        <source>This image cannot have a focal point.</source>
+        <translation>Àwòrán yìí kò lè ní ojú-àfiyèsí.</translation>
+    </message>
+    <message>
+        <source>Focal points are not available here.</source>
+        <translation>Ojú-àfiyèsí kò sí níbí.</translation>
+    </message>
+    <message>
+        <source>Focal point and crop</source>
+        <translation>Ojú-àfiyèsí àti gígé</translation>
+    </message>
+    <message>
+        <source>Focal point</source>
+        <translation>Ojú-àfiyèsí</translation>
+    </message>
+    <message>
+        <source>Crop box</source>
+        <translation>Àpótí gígé</translation>
+    </message>
+    <message>
+        <source>Crop</source>
+        <translation>Gé</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>Tún ṣètò</translation>
+    </message>
+    <message>
+        <source>Click or drag on the image to set the focal point. Arrow keys move it; on the crop box, Shift and an arrow key change its size.</source>
+        <translation>Tẹ tàbí fà lórí àwòrán láti ṣètò ojú-àfiyèsí. Àwọn bọ́tìnnì ọfà ń gbé e kiri; lórí àpótí gígé, Shift àti bọ́tìnnì ọfà kan ń yí ìwọ̀n rẹ̀ padà.</translation>
+    </message>
+    <message>
+        <source>How each size will look</source>
+        <translation>Bí ìwọ̀n kọ̀ọ̀kan yóò ṣe rí</translation>
+    </message>
+    <message>
+        <source>The templates of this page use no size of this image yet.</source>
+        <translation>Àwọn àwòṣe ojú-ìwé yìí kò tíì lo ìwọ̀n kankan ti àwòrán yìí.</translation>
+    </message>
+    <message>
+        <source>This size keeps its own crop.</source>
+        <translation>Ìwọ̀n yìí ń pa gígé tirẹ̀ mọ́.</translation>
+    </message>
+    <message>
+        <source>Saved: the sizes are made again around the focal point.</source>
+        <translation>Ó ti fipamọ́: a tún ṣe àwọn ìwọ̀n yíká ojú-àfiyèsí.</translation>
+    </message>
 </context>
 </TS>

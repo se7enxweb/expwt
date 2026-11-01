@@ -1819,5 +1819,53 @@
         <source>%n migrations need attention</source>
         <translation>Tá aird ag teastáil ó %n imirce</translation>
     </message>
+    <message>
+        <source>This image cannot have a focal point.</source>
+        <translation>Ní féidir fócasphointe a bheith ag an íomhá seo.</translation>
+    </message>
+    <message>
+        <source>Focal points are not available here.</source>
+        <translation>Níl fócasphointí ar fáil anseo.</translation>
+    </message>
+    <message>
+        <source>Focal point and crop</source>
+        <translation>Fócasphointe agus bearradh</translation>
+    </message>
+    <message>
+        <source>Focal point</source>
+        <translation>Fócasphointe</translation>
+    </message>
+    <message>
+        <source>Crop box</source>
+        <translation>Bosca bearrtha</translation>
+    </message>
+    <message>
+        <source>Crop</source>
+        <translation>Bearr</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>Athshocraigh</translation>
+    </message>
+    <message>
+        <source>Click or drag on the image to set the focal point. Arrow keys move it; on the crop box, Shift and an arrow key change its size.</source>
+        <translation>Cliceáil nó tarraing ar an íomhá chun an fócasphointe a shocrú. Bogann na saigheadeochracha é; ar an mbosca bearrtha, athraíonn Shift agus saigheadeochair a mhéid.</translation>
+    </message>
+    <message>
+        <source>How each size will look</source>
+        <translation>An chuma a bheidh ar gach méid</translation>
+    </message>
+    <message>
+        <source>The templates of this page use no size of this image yet.</source>
+        <translation>Ní úsáideann teimpléid an leathanaigh seo aon mhéid den íomhá seo fós.</translation>
+    </message>
+    <message>
+        <source>This size keeps its own crop.</source>
+        <translation>Coinníonn an méid seo a bhearradh féin.</translation>
+    </message>
+    <message>
+        <source>Saved: the sizes are made again around the focal point.</source>
+        <translation>Sábháilte: déantar na méideanna arís timpeall an fhócasphointe.</translation>
+    </message>
 </context>
 </TS>

@@ -1819,5 +1819,53 @@
         <source>%n migrations need attention</source>
         <translation>%n ፍልሰቶች ትኩረት ይፈልጋሉ</translation>
     </message>
+    <message>
+        <source>This image cannot have a focal point.</source>
+        <translation>ይህ ምስል የትኩረት ነጥብ ሊኖረው አይችልም።</translation>
+    </message>
+    <message>
+        <source>Focal points are not available here.</source>
+        <translation>የትኩረት ነጥቦች እዚህ አይገኙም።</translation>
+    </message>
+    <message>
+        <source>Focal point and crop</source>
+        <translation>የትኩረት ነጥብ እና መከርከም</translation>
+    </message>
+    <message>
+        <source>Focal point</source>
+        <translation>የትኩረት ነጥብ</translation>
+    </message>
+    <message>
+        <source>Crop box</source>
+        <translation>የመከርከሚያ ሳጥን</translation>
+    </message>
+    <message>
+        <source>Crop</source>
+        <translation>መከርከም</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>ዳግም አስጀምር</translation>
+    </message>
+    <message>
+        <source>Click or drag on the image to set the focal point. Arrow keys move it; on the crop box, Shift and an arrow key change its size.</source>
+        <translation>የትኩረት ነጥቡን ለማዘጋጀት በምስሉ ላይ ጠቅ ያድርጉ ወይም ይጎትቱ። የቀስት ቁልፎች ያንቀሳቅሱታል፤ በመከርከሚያ ሳጥኑ ላይ Shift እና የቀስት ቁልፍ መጠኑን ይቀይራሉ።</translation>
+    </message>
+    <message>
+        <source>How each size will look</source>
+        <translation>እያንዳንዱ መጠን እንዴት እንደሚታይ</translation>
+    </message>
+    <message>
+        <source>The templates of this page use no size of this image yet.</source>
+        <translation>የዚህ ገጽ አብነቶች እስካሁን የዚህን ምስል ምንም መጠን አይጠቀሙም።</translation>
+    </message>
+    <message>
+        <source>This size keeps its own crop.</source>
+        <translation>ይህ መጠን የራሱን መከርከም ይይዛል።</translation>
+    </message>
+    <message>
+        <source>Saved: the sizes are made again around the focal point.</source>
+        <translation>ተቀምጧል፦ መጠኖቹ በትኩረት ነጥቡ ዙሪያ እንደገና ይሠራሉ።</translation>
+    </message>
 </context>
 </TS>

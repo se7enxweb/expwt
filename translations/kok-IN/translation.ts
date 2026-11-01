@@ -1819,5 +1819,53 @@
         <source>%n migrations need attention</source>
         <translation>%n मायग्रेशनांक लक्ष दिवपाचें आसा</translation>
     </message>
+    <message>
+        <source>This image cannot have a focal point.</source>
+        <translation>ह्या चित्राक फोकल पॉइंट आसूंक शकना.</translation>
+    </message>
+    <message>
+        <source>Focal points are not available here.</source>
+        <translation>फोकल पॉइंट हांगा उपलब्ध नात.</translation>
+    </message>
+    <message>
+        <source>Focal point and crop</source>
+        <translation>फोकल पॉइंट आनी क्रॉप</translation>
+    </message>
+    <message>
+        <source>Focal point</source>
+        <translation>फोकल पॉइंट</translation>
+    </message>
+    <message>
+        <source>Crop box</source>
+        <translation>क्रॉप बॉक्स</translation>
+    </message>
+    <message>
+        <source>Crop</source>
+        <translation>क्रॉप करात</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>रिसेट करात</translation>
+    </message>
+    <message>
+        <source>Click or drag on the image to set the focal point. Arrow keys move it; on the crop box, Shift and an arrow key change its size.</source>
+        <translation>फोकल पॉइंट थारावंक चित्राचेर क्लिक करात वा ओडात. बाण कळो ताका हालयतात; क्रॉप बॉक्साचेर, Shift आनी बाण कळ ताचो आकार बदलतात.</translation>
+    </message>
+    <message>
+        <source>How each size will look</source>
+        <translation>दरेक आकार कसो दिसतलो</translation>
+    </message>
+    <message>
+        <source>The templates of this page use no size of this image yet.</source>
+        <translation>ह्या पानाचे टेम्प्लेट अजून ह्या चित्राचो खंयचोच आकार वापरिनात.</translation>
+    </message>
+    <message>
+        <source>This size keeps its own crop.</source>
+        <translation>हो आकार आपलो स्वताचो क्रॉप दवरता.</translation>
+    </message>
+    <message>
+        <source>Saved: the sizes are made again around the focal point.</source>
+        <translation>सांबाळ्ळां: आकार फोकल पॉइंटा भोंवतणी परत तयार जातात.</translation>
+    </message>
 </context>
 </TS>

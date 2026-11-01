@@ -1819,5 +1819,53 @@
         <source>%n migrations need attention</source>
         <translation>%n bản di chuyển cần chú ý</translation>
     </message>
+    <message>
+        <source>This image cannot have a focal point.</source>
+        <translation>Ảnh này không thể có điểm lấy nét.</translation>
+    </message>
+    <message>
+        <source>Focal points are not available here.</source>
+        <translation>Điểm lấy nét không khả dụng ở đây.</translation>
+    </message>
+    <message>
+        <source>Focal point and crop</source>
+        <translation>Điểm lấy nét và cắt ảnh</translation>
+    </message>
+    <message>
+        <source>Focal point</source>
+        <translation>Điểm lấy nét</translation>
+    </message>
+    <message>
+        <source>Crop box</source>
+        <translation>Khung cắt</translation>
+    </message>
+    <message>
+        <source>Crop</source>
+        <translation>Cắt</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>Đặt lại</translation>
+    </message>
+    <message>
+        <source>Click or drag on the image to set the focal point. Arrow keys move it; on the crop box, Shift and an arrow key change its size.</source>
+        <translation>Nhấp hoặc kéo trên ảnh để đặt điểm lấy nét. Các phím mũi tên di chuyển điểm; trên khung cắt, Shift và một phím mũi tên thay đổi kích thước khung.</translation>
+    </message>
+    <message>
+        <source>How each size will look</source>
+        <translation>Mỗi kích thước sẽ trông thế nào</translation>
+    </message>
+    <message>
+        <source>The templates of this page use no size of this image yet.</source>
+        <translation>Các mẫu của trang này chưa dùng kích thước nào của ảnh này.</translation>
+    </message>
+    <message>
+        <source>This size keeps its own crop.</source>
+        <translation>Kích thước này giữ khung cắt riêng.</translation>
+    </message>
+    <message>
+        <source>Saved: the sizes are made again around the focal point.</source>
+        <translation>Đã lưu: các kích thước được tạo lại quanh điểm lấy nét.</translation>
+    </message>
 </context>
 </TS>

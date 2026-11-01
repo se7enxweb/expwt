@@ -1819,5 +1819,53 @@
         <source>%n migrations need attention</source>
         <translation>Bambongwana %n esengeli kokebama</translation>
     </message>
+    <message>
+        <source>This image cannot have a focal point.</source>
+        <translation>Elilingi oyo ekoki kozala na esika ya ntina te.</translation>
+    </message>
+    <message>
+        <source>Focal points are not available here.</source>
+        <translation>Bisika ya ntina ezali awa te.</translation>
+    </message>
+    <message>
+        <source>Focal point and crop</source>
+        <translation>Esika ya ntina mpe kokata</translation>
+    </message>
+    <message>
+        <source>Focal point</source>
+        <translation>Esika ya ntina</translation>
+    </message>
+    <message>
+        <source>Crop box</source>
+        <translation>Ebombelo ya kokata</translation>
+    </message>
+    <message>
+        <source>Crop</source>
+        <translation>Kata</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>Zongisa ndenge ya ebandeli</translation>
+    </message>
+    <message>
+        <source>Click or drag on the image to set the focal point. Arrow keys move it; on the crop box, Shift and an arrow key change its size.</source>
+        <translation>Finá to benda likoló ya elilingi mpo na kotya esika ya ntina. Bafungola ya flèche bakotambwisa yango; likoló ya ebombelo ya kokata, Shift na fungola ya flèche ebongolaka monene na yango.</translation>
+    </message>
+    <message>
+        <source>How each size will look</source>
+        <translation>Ndenge monene moko na moko ekomonana</translation>
+    </message>
+    <message>
+        <source>The templates of this page use no size of this image yet.</source>
+        <translation>Ba modèle ya lokasa oyo basaleli naino monene moko te ya elilingi oyo.</translation>
+    </message>
+    <message>
+        <source>This size keeps its own crop.</source>
+        <translation>Monene oyo ebatelaka kokata na yango moko.</translation>
+    </message>
+    <message>
+        <source>Saved: the sizes are made again around the focal point.</source>
+        <translation>Ebombami: ba monene bakosalema lisusu zingazinga ya esika ya ntina.</translation>
+    </message>
 </context>
 </TS>

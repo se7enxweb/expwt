@@ -1819,5 +1819,53 @@
         <source>%n migrations need attention</source>
         <translation>%n migrations need attention</translation>
     </message>
+    <message>
+        <source>This image cannot have a focal point.</source>
+        <translation>Dis picture no fit get focal point.</translation>
+    </message>
+    <message>
+        <source>Focal points are not available here.</source>
+        <translation>Focal point no dey available for here.</translation>
+    </message>
+    <message>
+        <source>Focal point and crop</source>
+        <translation>Focal point and crop</translation>
+    </message>
+    <message>
+        <source>Focal point</source>
+        <translation>Focal point</translation>
+    </message>
+    <message>
+        <source>Crop box</source>
+        <translation>Crop box</translation>
+    </message>
+    <message>
+        <source>Crop</source>
+        <translation>Crop</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>Reset</translation>
+    </message>
+    <message>
+        <source>Click or drag on the image to set the focal point. Arrow keys move it; on the crop box, Shift and an arrow key change its size.</source>
+        <translation>Click or drag for the picture to set the focal point. Arrow keys go move am; for the crop box, Shift and arrow key go change im size.</translation>
+    </message>
+    <message>
+        <source>How each size will look</source>
+        <translation>How each size go look</translation>
+    </message>
+    <message>
+        <source>The templates of this page use no size of this image yet.</source>
+        <translation>The templates for dis page never use any size of dis picture yet.</translation>
+    </message>
+    <message>
+        <source>This size keeps its own crop.</source>
+        <translation>Dis size dey keep im own crop.</translation>
+    </message>
+    <message>
+        <source>Saved: the sizes are made again around the focal point.</source>
+        <translation>E don save: dem go make the sizes again round the focal point.</translation>
+    </message>
 </context>
 </TS>

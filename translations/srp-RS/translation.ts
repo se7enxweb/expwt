@@ -1819,5 +1819,53 @@
         <source>%n migrations need attention</source>
         <translation>Миграција којима је потребна пажња: %n</translation>
     </message>
+    <message>
+        <source>This image cannot have a focal point.</source>
+        <translation>Ова слика не може имати жижну тачку.</translation>
+    </message>
+    <message>
+        <source>Focal points are not available here.</source>
+        <translation>Жижне тачке овде нису доступне.</translation>
+    </message>
+    <message>
+        <source>Focal point and crop</source>
+        <translation>Жижна тачка и исецање</translation>
+    </message>
+    <message>
+        <source>Focal point</source>
+        <translation>Жижна тачка</translation>
+    </message>
+    <message>
+        <source>Crop box</source>
+        <translation>Оквир исецања</translation>
+    </message>
+    <message>
+        <source>Crop</source>
+        <translation>Исеци</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>Поништи</translation>
+    </message>
+    <message>
+        <source>Click or drag on the image to set the focal point. Arrow keys move it; on the crop box, Shift and an arrow key change its size.</source>
+        <translation>Кликните или превуците по слици да бисте поставили жижну тачку. Тастери са стрелицама је померају; на оквиру исецања Shift и тастер са стрелицом мењају његову величину.</translation>
+    </message>
+    <message>
+        <source>How each size will look</source>
+        <translation>Како ће изгледати свака величина</translation>
+    </message>
+    <message>
+        <source>The templates of this page use no size of this image yet.</source>
+        <translation>Шаблони ове странице још не користе ниједну величину ове слике.</translation>
+    </message>
+    <message>
+        <source>This size keeps its own crop.</source>
+        <translation>Ова величина задржава сопствено исецање.</translation>
+    </message>
+    <message>
+        <source>Saved: the sizes are made again around the focal point.</source>
+        <translation>Сачувано: величине се поново праве око жижне тачке.</translation>
+    </message>
 </context>
 </TS>

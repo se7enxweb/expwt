@@ -1819,5 +1819,53 @@
         <source>%n migrations need attention</source>
         <translation>Mamigireshoni %n anoda kutariswa</translation>
     </message>
+    <message>
+        <source>This image cannot have a focal point.</source>
+        <translation>Mufananidzo uyu haugoni kuva nepfungwa yekutarisa.</translation>
+    </message>
+    <message>
+        <source>Focal points are not available here.</source>
+        <translation>Mapfungwa ekutarisa haawanikwe pano.</translation>
+    </message>
+    <message>
+        <source>Focal point and crop</source>
+        <translation>Pfungwa yekutarisa uye kucheka</translation>
+    </message>
+    <message>
+        <source>Focal point</source>
+        <translation>Pfungwa yekutarisa</translation>
+    </message>
+    <message>
+        <source>Crop box</source>
+        <translation>Bhokisi rekucheka</translation>
+    </message>
+    <message>
+        <source>Crop</source>
+        <translation>Cheka</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>Dzosera</translation>
+    </message>
+    <message>
+        <source>Click or drag on the image to set the focal point. Arrow keys move it; on the crop box, Shift and an arrow key change its size.</source>
+        <translation>Dzvanya kana kukweva pamufananidzo kuti uise pfungwa yekutarisa. Makiyi emiseve anoifambisa; pabhokisi rekucheka, Shift nekiyi yemuseve zvinoshandura saizi yaro.</translation>
+    </message>
+    <message>
+        <source>How each size will look</source>
+        <translation>Kuti saizi imwe neimwe ichaita sei</translation>
+    </message>
+    <message>
+        <source>The templates of this page use no size of this image yet.</source>
+        <translation>Matemplate epeji iyi haasati ashandisa saizi ipi zvayo yemufananidzo uyu.</translation>
+    </message>
+    <message>
+        <source>This size keeps its own crop.</source>
+        <translation>Saizi iyi inochengeta kucheka kwayo.</translation>
+    </message>
+    <message>
+        <source>Saved: the sizes are made again around the focal point.</source>
+        <translation>Zvachengetwa: masaizi anogadzirwa patsva akatenderedza pfungwa yekutarisa.</translation>
+    </message>
 </context>
 </TS>

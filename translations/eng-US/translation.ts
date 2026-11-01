@@ -1819,5 +1819,53 @@
         <source>%n migrations need attention</source>
         <translation>%n migrations need attention</translation>
     </message>
+    <message>
+        <source>This image cannot have a focal point.</source>
+        <translation>This image cannot have a focal point.</translation>
+    </message>
+    <message>
+        <source>Focal points are not available here.</source>
+        <translation>Focal points are not available here.</translation>
+    </message>
+    <message>
+        <source>Focal point and crop</source>
+        <translation>Focal point and crop</translation>
+    </message>
+    <message>
+        <source>Focal point</source>
+        <translation>Focal point</translation>
+    </message>
+    <message>
+        <source>Crop box</source>
+        <translation>Crop box</translation>
+    </message>
+    <message>
+        <source>Crop</source>
+        <translation>Crop</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>Reset</translation>
+    </message>
+    <message>
+        <source>Click or drag on the image to set the focal point. Arrow keys move it; on the crop box, Shift and an arrow key change its size.</source>
+        <translation>Click or drag on the image to set the focal point. Arrow keys move it; on the crop box, Shift and an arrow key change its size.</translation>
+    </message>
+    <message>
+        <source>How each size will look</source>
+        <translation>How each size will look</translation>
+    </message>
+    <message>
+        <source>The templates of this page use no size of this image yet.</source>
+        <translation>The templates of this page use no size of this image yet.</translation>
+    </message>
+    <message>
+        <source>This size keeps its own crop.</source>
+        <translation>This size keeps its own crop.</translation>
+    </message>
+    <message>
+        <source>Saved: the sizes are made again around the focal point.</source>
+        <translation>Saved: the sizes are made again around the focal point.</translation>
+    </message>
 </context>
 </TS>

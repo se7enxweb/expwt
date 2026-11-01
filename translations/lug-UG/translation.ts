@@ -1819,5 +1819,53 @@
         <source>%n migrations need attention</source>
         <translation>Enkyukakyuka %n zeetaaga okufiibwako</translation>
     </message>
+    <message>
+        <source>This image cannot have a focal point.</source>
+        <translation>Ekifaananyi kino tekiyinza kuba na kifo kikulu.</translation>
+    </message>
+    <message>
+        <source>Focal points are not available here.</source>
+        <translation>Ebifo ebikulu tebiriiwo wano.</translation>
+    </message>
+    <message>
+        <source>Focal point and crop</source>
+        <translation>Ekifo ekikulu n'okusala</translation>
+    </message>
+    <message>
+        <source>Focal point</source>
+        <translation>Ekifo ekikulu</translation>
+    </message>
+    <message>
+        <source>Crop box</source>
+        <translation>Ekisanduuko ky'okusala</translation>
+    </message>
+    <message>
+        <source>Crop</source>
+        <translation>Sala</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>Zzaawo</translation>
+    </message>
+    <message>
+        <source>Click or drag on the image to set the focal point. Arrow keys move it; on the crop box, Shift and an arrow key change its size.</source>
+        <translation>Nyiga oba walula ku kifaananyi okuteekawo ekifo ekikulu. Ebisumuluzo by'obusaale bikitambuza; ku kisanduuko ky'okusala, Shift n'ekisumuluzo ky'akasaale bikyusa obunene bwakyo.</translation>
+    </message>
+    <message>
+        <source>How each size will look</source>
+        <translation>Obunene bwonna bwe bunaalabika</translation>
+    </message>
+    <message>
+        <source>The templates of this page use no size of this image yet.</source>
+        <translation>Ebikozesebwa by'olupapula luno tebinnakozesa bunene bwonna bwa kifaananyi kino.</translation>
+    </message>
+    <message>
+        <source>This size keeps its own crop.</source>
+        <translation>Obunene buno bukuuma okusala kwabwo.</translation>
+    </message>
+    <message>
+        <source>Saved: the sizes are made again around the focal point.</source>
+        <translation>Kiterekeddwa: obunene bukolebwa buggya okwetooloola ekifo ekikulu.</translation>
+    </message>
 </context>
 </TS>

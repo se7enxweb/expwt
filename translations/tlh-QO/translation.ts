@@ -1819,5 +1819,53 @@
         <source>%n migrations need attention</source>
         <translation>%n ghoSmey qImlu'nIS</translation>
     </message>
+    <message>
+        <source>This image cannot have a focal point.</source>
+        <translation>mIllogh Qonvammo' buSwI' Daq tu'lu'laHbe'.</translation>
+    </message>
+    <message>
+        <source>Focal points are not available here.</source>
+        <translation>naDev buSwI' Daq lo'laHbe'lu'.</translation>
+    </message>
+    <message>
+        <source>Focal point and crop</source>
+        <translation>buSwI' Daq 'ej pe'meH</translation>
+    </message>
+    <message>
+        <source>Focal point</source>
+        <translation>buSwI' Daq</translation>
+    </message>
+    <message>
+        <source>Crop box</source>
+        <translation>pe'meH ngaSwI'</translation>
+    </message>
+    <message>
+        <source>Crop</source>
+        <translation>pe'</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>taghqa'</translation>
+    </message>
+    <message>
+        <source>Click or drag on the image to set the focal point. Arrow keys move it; on the crop box, Shift and an arrow key change its size.</source>
+        <translation>buSwI' Daq DawIvmeH mIllogh Qon yI'uy pagh yIbot. naQ'ay' leQmey vIHmoH; pe'meH ngaSwI'Daq Shift naQ'ay' leQ je chen Dalmoh.</translation>
+    </message>
+    <message>
+        <source>How each size will look</source>
+        <translation>Hoch 'ab Daq qa'chuq 'e'</translation>
+    </message>
+    <message>
+        <source>The templates of this page use no size of this image yet.</source>
+        <translation>naDev nav mIllogh Qon 'ab wa' DIlo'be'lu'.</translation>
+    </message>
+    <message>
+        <source>This size keeps its own crop.</source>
+        <translation>'ab vam pe'meH pIm pol.</translation>
+    </message>
+    <message>
+        <source>Saved: the sizes are made again around the focal point.</source>
+        <translation>pollu'ta': buSwI' Daq Dechmo' 'abmey cherqa'lu'.</translation>
+    </message>
 </context>
 </TS>

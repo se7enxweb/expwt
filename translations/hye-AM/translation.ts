@@ -1819,5 +1819,53 @@
         <source>%n migrations need attention</source>
         <translation>%n միգրացիա ուշադրության կարիք ունի</translation>
     </message>
+    <message>
+        <source>This image cannot have a focal point.</source>
+        <translation>Այս պատկերը չի կարող ունենալ կիզակետ։</translation>
+    </message>
+    <message>
+        <source>Focal points are not available here.</source>
+        <translation>Կիզակետերը այստեղ հասանելի չեն։</translation>
+    </message>
+    <message>
+        <source>Focal point and crop</source>
+        <translation>Կիզակետ և կտրում</translation>
+    </message>
+    <message>
+        <source>Focal point</source>
+        <translation>Կիզակետ</translation>
+    </message>
+    <message>
+        <source>Crop box</source>
+        <translation>Կտրման շրջանակ</translation>
+    </message>
+    <message>
+        <source>Crop</source>
+        <translation>Կտրել</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>Վերակայել</translation>
+    </message>
+    <message>
+        <source>Click or drag on the image to set the focal point. Arrow keys move it; on the crop box, Shift and an arrow key change its size.</source>
+        <translation>Սեղմեք կամ քաշեք պատկերի վրա՝ կիզակետը սահմանելու համար։ Սլաքների ստեղները տեղաշարժում են այն, կտրման շրջանակի վրա Shift-ը և սլաքի ստեղնը փոխում են դրա չափը։</translation>
+    </message>
+    <message>
+        <source>How each size will look</source>
+        <translation>Ինչպես կերևա յուրաքանչյուր չափ</translation>
+    </message>
+    <message>
+        <source>The templates of this page use no size of this image yet.</source>
+        <translation>Այս էջի ձևանմուշները դեռ չեն օգտագործում այս պատկերի որևէ չափ։</translation>
+    </message>
+    <message>
+        <source>This size keeps its own crop.</source>
+        <translation>Այս չափը պահպանում է իր սեփական կտրումը։</translation>
+    </message>
+    <message>
+        <source>Saved: the sizes are made again around the focal point.</source>
+        <translation>Պահպանված է․ չափերը նորից ստեղծվում են կիզակետի շուրջ։</translation>
+    </message>
 </context>
 </TS>

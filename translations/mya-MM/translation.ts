@@ -1819,5 +1819,53 @@
         <source>%n migrations need attention</source>
         <translation>ရွှေ့ပြောင်းမှု %n ခု အာရုံစိုက်ရန် လိုအပ်သည်</translation>
     </message>
+    <message>
+        <source>This image cannot have a focal point.</source>
+        <translation>ဤပုံတွင် အာရုံစိုက်အမှတ် မထားနိုင်ပါ။</translation>
+    </message>
+    <message>
+        <source>Focal points are not available here.</source>
+        <translation>အာရုံစိုက်အမှတ်များကို ဤနေရာတွင် မရရှိနိုင်ပါ။</translation>
+    </message>
+    <message>
+        <source>Focal point and crop</source>
+        <translation>အာရုံစိုက်အမှတ်နှင့် ဖြတ်တောက်ခြင်း</translation>
+    </message>
+    <message>
+        <source>Focal point</source>
+        <translation>အာရုံစိုက်အမှတ်</translation>
+    </message>
+    <message>
+        <source>Crop box</source>
+        <translation>ဖြတ်တောက်ဘောင်</translation>
+    </message>
+    <message>
+        <source>Crop</source>
+        <translation>ဖြတ်တောက်ရန်</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>ပြန်လည်သတ်မှတ်ရန်</translation>
+    </message>
+    <message>
+        <source>Click or drag on the image to set the focal point. Arrow keys move it; on the crop box, Shift and an arrow key change its size.</source>
+        <translation>အာရုံစိုက်အမှတ် သတ်မှတ်ရန် ပုံပေါ်တွင် နှိပ်ပါ သို့မဟုတ် ဆွဲပါ။ မြှားခလုတ်များဖြင့် ရွှေ့နိုင်သည်၊ ဖြတ်တောက်ဘောင်ပေါ်တွင် Shift နှင့် မြှားခလုတ်ဖြင့် အရွယ်အစားကို ပြောင်းနိုင်သည်။</translation>
+    </message>
+    <message>
+        <source>How each size will look</source>
+        <translation>အရွယ်အစားတစ်ခုစီ မည်သို့ ပေါ်မည်</translation>
+    </message>
+    <message>
+        <source>The templates of this page use no size of this image yet.</source>
+        <translation>ဤစာမျက်နှာ၏ ပုံစံများသည် ဤပုံ၏ မည်သည့်အရွယ်အစားကိုမျှ မသုံးသေးပါ။</translation>
+    </message>
+    <message>
+        <source>This size keeps its own crop.</source>
+        <translation>ဤအရွယ်အစားသည် ၎င်း၏ကိုယ်ပိုင် ဖြတ်တောက်မှုကို ထိန်းထားသည်။</translation>
+    </message>
+    <message>
+        <source>Saved: the sizes are made again around the focal point.</source>
+        <translation>သိမ်းပြီး: အရွယ်အစားများကို အာရုံစိုက်အမှတ်ပတ်လည်တွင် ပြန်လည်ပြုလုပ်သည်။</translation>
+    </message>
 </context>
 </TS>

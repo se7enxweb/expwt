@@ -1819,5 +1819,53 @@
         <source>%n migrations need attention</source>
         <translation>%n ການຍ້າຍຂໍ້ມູນຕ້ອງການຄວາມສົນໃຈ</translation>
     </message>
+    <message>
+        <source>This image cannot have a focal point.</source>
+        <translation>ຮູບນີ້ບໍ່ສາມາດມີຈຸດໂຟກັສໄດ້.</translation>
+    </message>
+    <message>
+        <source>Focal points are not available here.</source>
+        <translation>ຈຸດໂຟກັສບໍ່ມີໃຫ້ໃຊ້ຢູ່ນີ້.</translation>
+    </message>
+    <message>
+        <source>Focal point and crop</source>
+        <translation>ຈຸດໂຟກັສ ແລະ ການຕັດ</translation>
+    </message>
+    <message>
+        <source>Focal point</source>
+        <translation>ຈຸດໂຟກັສ</translation>
+    </message>
+    <message>
+        <source>Crop box</source>
+        <translation>ກອບຕັດ</translation>
+    </message>
+    <message>
+        <source>Crop</source>
+        <translation>ຕັດ</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>ຕັ້ງຄ່າຄືນ</translation>
+    </message>
+    <message>
+        <source>Click or drag on the image to set the focal point. Arrow keys move it; on the crop box, Shift and an arrow key change its size.</source>
+        <translation>ຄລິກ ຫຼື ລາກເທິງຮູບເພື່ອກຳນົດຈຸດໂຟກັສ. ປຸ່ມລູກສອນຍ້າຍມັນ; ເທິງກອບຕັດ, Shift ແລະ ປຸ່ມລູກສອນປ່ຽນຂະໜາດຂອງມັນ.</translation>
+    </message>
+    <message>
+        <source>How each size will look</source>
+        <translation>ແຕ່ລະຂະໜາດຈະເບິ່ງເປັນແນວໃດ</translation>
+    </message>
+    <message>
+        <source>The templates of this page use no size of this image yet.</source>
+        <translation>ແມ່ແບບຂອງໜ້ານີ້ຍັງບໍ່ໄດ້ໃຊ້ຂະໜາດໃດຂອງຮູບນີ້ເທື່ອ.</translation>
+    </message>
+    <message>
+        <source>This size keeps its own crop.</source>
+        <translation>ຂະໜາດນີ້ຮັກສາການຕັດຂອງມັນເອງ.</translation>
+    </message>
+    <message>
+        <source>Saved: the sizes are made again around the focal point.</source>
+        <translation>ບັນທຶກແລ້ວ: ຂະໜາດຕ່າງໆຖືກສ້າງຄືນອ້ອມຈຸດໂຟກັສ.</translation>
+    </message>
 </context>
 </TS>

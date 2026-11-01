@@ -1819,5 +1819,53 @@
         <source>%n migrations need attention</source>
         <translation>%n migraatiota vaatii huomiota</translation>
     </message>
+    <message>
+        <source>This image cannot have a focal point.</source>
+        <translation>Tälle kuvalle ei voi asettaa polttopistettä.</translation>
+    </message>
+    <message>
+        <source>Focal points are not available here.</source>
+        <translation>Polttopisteet eivät ole käytettävissä tässä.</translation>
+    </message>
+    <message>
+        <source>Focal point and crop</source>
+        <translation>Polttopiste ja rajaus</translation>
+    </message>
+    <message>
+        <source>Focal point</source>
+        <translation>Polttopiste</translation>
+    </message>
+    <message>
+        <source>Crop box</source>
+        <translation>Rajauslaatikko</translation>
+    </message>
+    <message>
+        <source>Crop</source>
+        <translation>Rajaa</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>Palauta</translation>
+    </message>
+    <message>
+        <source>Click or drag on the image to set the focal point. Arrow keys move it; on the crop box, Shift and an arrow key change its size.</source>
+        <translation>Aseta polttopiste napsauttamalla tai vetämällä kuvaa. Nuolinäppäimet siirtävät sitä; rajauslaatikossa Shift ja nuolinäppäin muuttavat sen kokoa.</translation>
+    </message>
+    <message>
+        <source>How each size will look</source>
+        <translation>Miltä kukin koko näyttää</translation>
+    </message>
+    <message>
+        <source>The templates of this page use no size of this image yet.</source>
+        <translation>Tämän sivun mallit eivät vielä käytä mitään tämän kuvan kokoa.</translation>
+    </message>
+    <message>
+        <source>This size keeps its own crop.</source>
+        <translation>Tällä koolla on oma rajauksensa.</translation>
+    </message>
+    <message>
+        <source>Saved: the sizes are made again around the focal point.</source>
+        <translation>Tallennettu: koot luodaan uudelleen polttopisteen ympärille.</translation>
+    </message>
 </context>
 </TS>

@@ -1819,5 +1819,53 @@
         <source>%n migrations need attention</source>
         <translation>%n मायग्रेशनकडे लक्ष देणे आवश्यक</translation>
     </message>
+    <message>
+        <source>This image cannot have a focal point.</source>
+        <translation>या प्रतिमेला फोकल पॉइंट असू शकत नाही.</translation>
+    </message>
+    <message>
+        <source>Focal points are not available here.</source>
+        <translation>फोकल पॉइंट येथे उपलब्ध नाहीत.</translation>
+    </message>
+    <message>
+        <source>Focal point and crop</source>
+        <translation>फोकल पॉइंट आणि क्रॉप</translation>
+    </message>
+    <message>
+        <source>Focal point</source>
+        <translation>फोकल पॉइंट</translation>
+    </message>
+    <message>
+        <source>Crop box</source>
+        <translation>क्रॉप चौकट</translation>
+    </message>
+    <message>
+        <source>Crop</source>
+        <translation>क्रॉप</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>रीसेट</translation>
+    </message>
+    <message>
+        <source>Click or drag on the image to set the focal point. Arrow keys move it; on the crop box, Shift and an arrow key change its size.</source>
+        <translation>फोकल पॉइंट सेट करण्यासाठी प्रतिमेवर क्लिक करा किंवा ओढा. बाण कळा तो हलवतात; क्रॉप चौकटीवर Shift आणि बाण कळ तिचा आकार बदलतात.</translation>
+    </message>
+    <message>
+        <source>How each size will look</source>
+        <translation>प्रत्येक आकार कसा दिसेल</translation>
+    </message>
+    <message>
+        <source>The templates of this page use no size of this image yet.</source>
+        <translation>या पृष्ठाचे साचे अद्याप या प्रतिमेचा कोणताही आकार वापरत नाहीत.</translation>
+    </message>
+    <message>
+        <source>This size keeps its own crop.</source>
+        <translation>हा आकार स्वतःचा क्रॉप ठेवतो.</translation>
+    </message>
+    <message>
+        <source>Saved: the sizes are made again around the focal point.</source>
+        <translation>जतन केले: आकार फोकल पॉइंटभोवती पुन्हा तयार केले जातात.</translation>
+    </message>
 </context>
 </TS>

@@ -1819,5 +1819,53 @@
         <source>%n migrations need attention</source>
         <translation>%n migradur o deus ezhomm a evezh</translation>
     </message>
+    <message>
+        <source>This image cannot have a focal point.</source>
+        <translation>N'hall ket ar skeudenn-mañ kaout ur poent fokus.</translation>
+    </message>
+    <message>
+        <source>Focal points are not available here.</source>
+        <translation>N'eus ket a boentoù fokus amañ.</translation>
+    </message>
+    <message>
+        <source>Focal point and crop</source>
+        <translation>Poent fokus ha didroc'hañ</translation>
+    </message>
+    <message>
+        <source>Focal point</source>
+        <translation>Poent fokus</translation>
+    </message>
+    <message>
+        <source>Crop box</source>
+        <translation>Boest didroc'hañ</translation>
+    </message>
+    <message>
+        <source>Crop</source>
+        <translation>Didroc'hañ</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>Adderaouekaat</translation>
+    </message>
+    <message>
+        <source>Click or drag on the image to set the focal point. Arrow keys move it; on the crop box, Shift and an arrow key change its size.</source>
+        <translation>Klikit pe riklit war ar skeudenn evit lakaat ar poent fokus. Gant an alc'hwezioù bir e vez fiñvet; war ar voest didroc'hañ, Shift hag un alc'hwez bir a cheñch he ment.</translation>
+    </message>
+    <message>
+        <source>How each size will look</source>
+        <translation>Penaos e vo pep ment</translation>
+    </message>
+    <message>
+        <source>The templates of this page use no size of this image yet.</source>
+        <translation>Ne implij ket c'hoazh patromoù ar bajenn-mañ ment ebet eus ar skeudenn-mañ.</translation>
+    </message>
+    <message>
+        <source>This size keeps its own crop.</source>
+        <translation>Ar vent-mañ a vir he didroc'hañ dezhi hec'h-unan.</translation>
+    </message>
+    <message>
+        <source>Saved: the sizes are made again around the focal point.</source>
+        <translation>Enrollet: adgraet e vez ar mentoù en-dro d'ar poent fokus.</translation>
+    </message>
 </context>
 </TS>

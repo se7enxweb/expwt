@@ -1819,5 +1819,53 @@
         <source>%n migrations need attention</source>
         <translation>%n миграция диққатро талаб мекунад</translation>
     </message>
+    <message>
+        <source>This image cannot have a focal point.</source>
+        <translation>Ин тасвир нуқтаи фокус дошта наметавонад.</translation>
+    </message>
+    <message>
+        <source>Focal points are not available here.</source>
+        <translation>Нуқтаҳои фокус дар ин ҷо дастрас нестанд.</translation>
+    </message>
+    <message>
+        <source>Focal point and crop</source>
+        <translation>Нуқтаи фокус ва буриш</translation>
+    </message>
+    <message>
+        <source>Focal point</source>
+        <translation>Нуқтаи фокус</translation>
+    </message>
+    <message>
+        <source>Crop box</source>
+        <translation>Чорчӯбаи буриш</translation>
+    </message>
+    <message>
+        <source>Crop</source>
+        <translation>Буридан</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>Аз нав танзим кардан</translation>
+    </message>
+    <message>
+        <source>Click or drag on the image to set the focal point. Arrow keys move it; on the crop box, Shift and an arrow key change its size.</source>
+        <translation>Барои муқаррар кардани нуқтаи фокус дар тасвир клик кунед ё кашед. Тугмаҳои тирча онро мекӯчонанд; дар чорчӯбаи буриш Shift ва тугмаи тирча андозаи онро иваз мекунанд.</translation>
+    </message>
+    <message>
+        <source>How each size will look</source>
+        <translation>Ҳар андоза чӣ гуна менамояд</translation>
+    </message>
+    <message>
+        <source>The templates of this page use no size of this image yet.</source>
+        <translation>Қолабҳои ин саҳифа ҳоло ягон андозаи ин тасвирро истифода намебаранд.</translation>
+    </message>
+    <message>
+        <source>This size keeps its own crop.</source>
+        <translation>Ин андоза буриши худро нигоҳ медорад.</translation>
+    </message>
+    <message>
+        <source>Saved: the sizes are made again around the focal point.</source>
+        <translation>Захира шуд: андозаҳо дар атрофи нуқтаи фокус аз нав сохта мешаванд.</translation>
+    </message>
 </context>
 </TS>

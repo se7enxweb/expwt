@@ -1819,5 +1819,53 @@
         <source>%n migrations need attention</source>
         <translation>%n migratsiooni vajavad tähelepanu</translation>
     </message>
+    <message>
+        <source>This image cannot have a focal point.</source>
+        <translation>Sellel pildil ei saa olla fookuspunkti.</translation>
+    </message>
+    <message>
+        <source>Focal points are not available here.</source>
+        <translation>Fookuspunktid pole siin saadaval.</translation>
+    </message>
+    <message>
+        <source>Focal point and crop</source>
+        <translation>Fookuspunkt ja kärpimine</translation>
+    </message>
+    <message>
+        <source>Focal point</source>
+        <translation>Fookuspunkt</translation>
+    </message>
+    <message>
+        <source>Crop box</source>
+        <translation>Kärpimiskast</translation>
+    </message>
+    <message>
+        <source>Crop</source>
+        <translation>Kärbi</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>Lähtesta</translation>
+    </message>
+    <message>
+        <source>Click or drag on the image to set the focal point. Arrow keys move it; on the crop box, Shift and an arrow key change its size.</source>
+        <translation>Fookuspunkti määramiseks klõpsake või lohistage pildil. Nooleklahvid liigutavad seda; kärpimiskastil muudavad Shift ja nooleklahv selle suurust.</translation>
+    </message>
+    <message>
+        <source>How each size will look</source>
+        <translation>Kuidas iga suurus välja näeb</translation>
+    </message>
+    <message>
+        <source>The templates of this page use no size of this image yet.</source>
+        <translation>Selle lehe mallid ei kasuta veel ühtegi selle pildi suurust.</translation>
+    </message>
+    <message>
+        <source>This size keeps its own crop.</source>
+        <translation>See suurus säilitab oma kärpimise.</translation>
+    </message>
+    <message>
+        <source>Saved: the sizes are made again around the focal point.</source>
+        <translation>Salvestatud: suurused tehakse uuesti fookuspunkti ümber.</translation>
+    </message>
 </context>
 </TS>

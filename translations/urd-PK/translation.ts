@@ -1819,5 +1819,53 @@
         <source>%n migrations need attention</source>
         <translation>%n مائیگریشنز توجہ طلب ہیں</translation>
     </message>
+    <message>
+        <source>This image cannot have a focal point.</source>
+        <translation>اس تصویر کا فوکل پوائنٹ نہیں ہو سکتا۔</translation>
+    </message>
+    <message>
+        <source>Focal points are not available here.</source>
+        <translation>فوکل پوائنٹس یہاں دستیاب نہیں ہیں۔</translation>
+    </message>
+    <message>
+        <source>Focal point and crop</source>
+        <translation>فوکل پوائنٹ اور کراپ</translation>
+    </message>
+    <message>
+        <source>Focal point</source>
+        <translation>فوکل پوائنٹ</translation>
+    </message>
+    <message>
+        <source>Crop box</source>
+        <translation>کراپ باکس</translation>
+    </message>
+    <message>
+        <source>Crop</source>
+        <translation>کراپ کریں</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>ری سیٹ کریں</translation>
+    </message>
+    <message>
+        <source>Click or drag on the image to set the focal point. Arrow keys move it; on the crop box, Shift and an arrow key change its size.</source>
+        <translation>فوکل پوائنٹ مقرر کرنے کے لیے تصویر پر کلک کریں یا گھسیٹیں۔ تیر والی کلیدیں اسے حرکت دیتی ہیں؛ کراپ باکس پر Shift اور تیر والی کلید اس کا سائز بدلتی ہیں۔</translation>
+    </message>
+    <message>
+        <source>How each size will look</source>
+        <translation>ہر سائز کیسا نظر آئے گا</translation>
+    </message>
+    <message>
+        <source>The templates of this page use no size of this image yet.</source>
+        <translation>اس صفحے کے سانچے ابھی اس تصویر کا کوئی سائز استعمال نہیں کرتے۔</translation>
+    </message>
+    <message>
+        <source>This size keeps its own crop.</source>
+        <translation>یہ سائز اپنا کراپ برقرار رکھتا ہے۔</translation>
+    </message>
+    <message>
+        <source>Saved: the sizes are made again around the focal point.</source>
+        <translation>محفوظ ہو گیا: سائز فوکل پوائنٹ کے گرد دوبارہ بنائے جاتے ہیں۔</translation>
+    </message>
 </context>
 </TS>

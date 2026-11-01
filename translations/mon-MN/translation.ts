@@ -1819,5 +1819,53 @@
         <source>%n migrations need attention</source>
         <translation>%n шилжүүлэгт анхаарал шаардлагатай</translation>
     </message>
+    <message>
+        <source>This image cannot have a focal point.</source>
+        <translation>Энэ зураг фокусын цэгтэй байж болохгүй.</translation>
+    </message>
+    <message>
+        <source>Focal points are not available here.</source>
+        <translation>Фокусын цэг энд боломжгүй.</translation>
+    </message>
+    <message>
+        <source>Focal point and crop</source>
+        <translation>Фокусын цэг ба тайралт</translation>
+    </message>
+    <message>
+        <source>Focal point</source>
+        <translation>Фокусын цэг</translation>
+    </message>
+    <message>
+        <source>Crop box</source>
+        <translation>Тайрах хүрээ</translation>
+    </message>
+    <message>
+        <source>Crop</source>
+        <translation>Тайрах</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>Дахин тохируулах</translation>
+    </message>
+    <message>
+        <source>Click or drag on the image to set the focal point. Arrow keys move it; on the crop box, Shift and an arrow key change its size.</source>
+        <translation>Фокусын цэгийг тогтоохын тулд зураг дээр дарах эсвэл чирнэ үү. Сум товчлуурууд үүнийг зөөнө; тайрах хүрээн дээр Shift ба сум товчлуур хэмжээг нь өөрчилнө.</translation>
+    </message>
+    <message>
+        <source>How each size will look</source>
+        <translation>Хэмжээ тус бүр хэрхэн харагдах</translation>
+    </message>
+    <message>
+        <source>The templates of this page use no size of this image yet.</source>
+        <translation>Энэ хуудасны загварууд энэ зургийн ямар ч хэмжээг одоогоор ашиглаагүй байна.</translation>
+    </message>
+    <message>
+        <source>This size keeps its own crop.</source>
+        <translation>Энэ хэмжээ өөрийн тайралтыг хадгална.</translation>
+    </message>
+    <message>
+        <source>Saved: the sizes are made again around the focal point.</source>
+        <translation>Хадгалагдлаа: хэмжээнүүдийг фокусын цэгийг тойруулан дахин үүсгэнэ.</translation>
+    </message>
 </context>
 </TS>

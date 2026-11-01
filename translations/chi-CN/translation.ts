@@ -1819,5 +1819,53 @@
         <source>%n migrations need attention</source>
         <translation>%n 个迁移需要注意</translation>
     </message>
+    <message>
+        <source>This image cannot have a focal point.</source>
+        <translation>此图片不能设置焦点。</translation>
+    </message>
+    <message>
+        <source>Focal points are not available here.</source>
+        <translation>此处不可使用焦点。</translation>
+    </message>
+    <message>
+        <source>Focal point and crop</source>
+        <translation>焦点和裁剪</translation>
+    </message>
+    <message>
+        <source>Focal point</source>
+        <translation>焦点</translation>
+    </message>
+    <message>
+        <source>Crop box</source>
+        <translation>裁剪框</translation>
+    </message>
+    <message>
+        <source>Crop</source>
+        <translation>裁剪</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>重置</translation>
+    </message>
+    <message>
+        <source>Click or drag on the image to set the focal point. Arrow keys move it; on the crop box, Shift and an arrow key change its size.</source>
+        <translation>在图片上单击或拖动以设置焦点。方向键可移动焦点；在裁剪框上，Shift 加方向键可调整其大小。</translation>
+    </message>
+    <message>
+        <source>How each size will look</source>
+        <translation>各尺寸的效果</translation>
+    </message>
+    <message>
+        <source>The templates of this page use no size of this image yet.</source>
+        <translation>此页面的模板尚未使用此图片的任何尺寸。</translation>
+    </message>
+    <message>
+        <source>This size keeps its own crop.</source>
+        <translation>此尺寸保留其自身的裁剪。</translation>
+    </message>
+    <message>
+        <source>Saved: the sizes are made again around the focal point.</source>
+        <translation>已保存：各尺寸将围绕焦点重新生成。</translation>
+    </message>
 </context>
 </TS>

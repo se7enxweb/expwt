@@ -1819,5 +1819,53 @@
         <source>%n migrations need attention</source>
         <translation>%n مائیگریشناں ول دھیان دی لوڑ اے</translation>
     </message>
+    <message>
+        <source>This image cannot have a focal point.</source>
+        <translation>ایس تصویر دا فوکل پوائنٹ نئیں ہو سکدا۔</translation>
+    </message>
+    <message>
+        <source>Focal points are not available here.</source>
+        <translation>فوکل پوائنٹ ایتھے دستیاب نئیں۔</translation>
+    </message>
+    <message>
+        <source>Focal point and crop</source>
+        <translation>فوکل پوائنٹ تے کراپ</translation>
+    </message>
+    <message>
+        <source>Focal point</source>
+        <translation>فوکل پوائنٹ</translation>
+    </message>
+    <message>
+        <source>Crop box</source>
+        <translation>کراپ ڈبا</translation>
+    </message>
+    <message>
+        <source>Crop</source>
+        <translation>کراپ</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>ری سیٹ</translation>
+    </message>
+    <message>
+        <source>Click or drag on the image to set the focal point. Arrow keys move it; on the crop box, Shift and an arrow key change its size.</source>
+        <translation>فوکل پوائنٹ سیٹ کرن لئی تصویر تے کلک کرو یا کھچو۔ تیر والیاں کنجیاں اینوں ہلاندیاں نیں؛ کراپ ڈبے تے Shift تے تیر والی کنجی اوہدا سائز بدلدیاں نیں۔</translation>
+    </message>
+    <message>
+        <source>How each size will look</source>
+        <translation>ہر سائز کیویں دسے گا</translation>
+    </message>
+    <message>
+        <source>The templates of this page use no size of this image yet.</source>
+        <translation>ایس صفحے دے ٹیمپلیٹ ہلے ایس تصویر دا کوئی سائز نئیں ورتدے۔</translation>
+    </message>
+    <message>
+        <source>This size keeps its own crop.</source>
+        <translation>ایہ سائز اپنا کراپ رکھدا اے۔</translation>
+    </message>
+    <message>
+        <source>Saved: the sizes are made again around the focal point.</source>
+        <translation>محفوظ ہو گیا: سائز فوکل پوائنٹ دے دوالے مڑ بنائے جاندے نیں۔</translation>
+    </message>
 </context>
 </TS>

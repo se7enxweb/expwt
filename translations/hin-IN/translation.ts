@@ -1819,5 +1819,53 @@
         <source>%n migrations need attention</source>
         <translation>%n माइग्रेशन पर ध्यान देना ज़रूरी है</translation>
     </message>
+    <message>
+        <source>This image cannot have a focal point.</source>
+        <translation>इस छवि में फ़ोकल पॉइंट नहीं हो सकता।</translation>
+    </message>
+    <message>
+        <source>Focal points are not available here.</source>
+        <translation>फ़ोकल पॉइंट यहाँ उपलब्ध नहीं हैं।</translation>
+    </message>
+    <message>
+        <source>Focal point and crop</source>
+        <translation>फ़ोकल पॉइंट और क्रॉप</translation>
+    </message>
+    <message>
+        <source>Focal point</source>
+        <translation>फ़ोकल पॉइंट</translation>
+    </message>
+    <message>
+        <source>Crop box</source>
+        <translation>क्रॉप बॉक्स</translation>
+    </message>
+    <message>
+        <source>Crop</source>
+        <translation>क्रॉप करें</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>रीसेट करें</translation>
+    </message>
+    <message>
+        <source>Click or drag on the image to set the focal point. Arrow keys move it; on the crop box, Shift and an arrow key change its size.</source>
+        <translation>फ़ोकल पॉइंट सेट करने के लिए छवि पर क्लिक करें या खींचें। ऐरो कुंजियाँ इसे खिसकाती हैं; क्रॉप बॉक्स पर, Shift और एक ऐरो कुंजी उसका आकार बदलती हैं।</translation>
+    </message>
+    <message>
+        <source>How each size will look</source>
+        <translation>हर आकार कैसा दिखेगा</translation>
+    </message>
+    <message>
+        <source>The templates of this page use no size of this image yet.</source>
+        <translation>इस पेज के टेम्पलेट अभी इस छवि के किसी आकार का उपयोग नहीं करते।</translation>
+    </message>
+    <message>
+        <source>This size keeps its own crop.</source>
+        <translation>यह आकार अपना क्रॉप बनाए रखता है।</translation>
+    </message>
+    <message>
+        <source>Saved: the sizes are made again around the focal point.</source>
+        <translation>सहेजा गया: आकार फ़ोकल पॉइंट के आसपास फिर से बनाए जाते हैं।</translation>
+    </message>
 </context>
 </TS>

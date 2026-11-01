@@ -1819,5 +1819,53 @@
         <source>%n migrations need attention</source>
         <translation>Ƙaura %n na buƙatar kulawa</translation>
     </message>
+    <message>
+        <source>This image cannot have a focal point.</source>
+        <translation>Wannan hoto ba zai iya samun wurin mayar da hankali ba.</translation>
+    </message>
+    <message>
+        <source>Focal points are not available here.</source>
+        <translation>Wuraren mayar da hankali ba su samuwa a nan.</translation>
+    </message>
+    <message>
+        <source>Focal point and crop</source>
+        <translation>Wurin mayar da hankali da yanka</translation>
+    </message>
+    <message>
+        <source>Focal point</source>
+        <translation>Wurin mayar da hankali</translation>
+    </message>
+    <message>
+        <source>Crop box</source>
+        <translation>Akwatin yanka</translation>
+    </message>
+    <message>
+        <source>Crop</source>
+        <translation>Yanka</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>Sake saitawa</translation>
+    </message>
+    <message>
+        <source>Click or drag on the image to set the focal point. Arrow keys move it; on the crop box, Shift and an arrow key change its size.</source>
+        <translation>Danna ko ja a kan hoton don saita wurin mayar da hankali. Maɓallan kibiya suna motsa shi; a kan akwatin yanka, Shift da maɓallin kibiya suna canza girmansa.</translation>
+    </message>
+    <message>
+        <source>How each size will look</source>
+        <translation>Yadda kowane girma zai bayyana</translation>
+    </message>
+    <message>
+        <source>The templates of this page use no size of this image yet.</source>
+        <translation>Samfuran wannan shafi ba su yi amfani da wani girman wannan hoto ba tukuna.</translation>
+    </message>
+    <message>
+        <source>This size keeps its own crop.</source>
+        <translation>Wannan girma yana riƙe da yankansa.</translation>
+    </message>
+    <message>
+        <source>Saved: the sizes are made again around the focal point.</source>
+        <translation>An ajiye: ana sake yin girman a kewayen wurin mayar da hankali.</translation>
+    </message>
 </context>
 </TS>

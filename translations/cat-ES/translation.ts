@@ -1819,5 +1819,53 @@
         <source>%n migrations need attention</source>
         <translation>%n migracions requereixen atenció</translation>
     </message>
+    <message>
+        <source>This image cannot have a focal point.</source>
+        <translation>Aquesta imatge no pot tenir un punt focal.</translation>
+    </message>
+    <message>
+        <source>Focal points are not available here.</source>
+        <translation>Els punts focals no estan disponibles aquí.</translation>
+    </message>
+    <message>
+        <source>Focal point and crop</source>
+        <translation>Punt focal i retall</translation>
+    </message>
+    <message>
+        <source>Focal point</source>
+        <translation>Punt focal</translation>
+    </message>
+    <message>
+        <source>Crop box</source>
+        <translation>Requadre de retall</translation>
+    </message>
+    <message>
+        <source>Crop</source>
+        <translation>Retalla</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>Restableix</translation>
+    </message>
+    <message>
+        <source>Click or drag on the image to set the focal point. Arrow keys move it; on the crop box, Shift and an arrow key change its size.</source>
+        <translation>Feu clic o arrossegueu sobre la imatge per definir el punt focal. Les tecles de fletxa el mouen; al requadre de retall, Maj i una tecla de fletxa en canvien la mida.</translation>
+    </message>
+    <message>
+        <source>How each size will look</source>
+        <translation>Com es veurà cada mida</translation>
+    </message>
+    <message>
+        <source>The templates of this page use no size of this image yet.</source>
+        <translation>Les plantilles d'aquesta pàgina encara no fan servir cap mida d'aquesta imatge.</translation>
+    </message>
+    <message>
+        <source>This size keeps its own crop.</source>
+        <translation>Aquesta mida conserva el seu propi retall.</translation>
+    </message>
+    <message>
+        <source>Saved: the sizes are made again around the focal point.</source>
+        <translation>Desat: les mides es tornen a generar al voltant del punt focal.</translation>
+    </message>
 </context>
 </TS>

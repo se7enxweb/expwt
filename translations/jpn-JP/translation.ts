@@ -1819,5 +1819,53 @@
         <source>%n migrations need attention</source>
         <translation>%n 件のマイグレーションに対応が必要です</translation>
     </message>
+    <message>
+        <source>This image cannot have a focal point.</source>
+        <translation>この画像にはフォーカルポイントを設定できません。</translation>
+    </message>
+    <message>
+        <source>Focal points are not available here.</source>
+        <translation>ここではフォーカルポイントを使用できません。</translation>
+    </message>
+    <message>
+        <source>Focal point and crop</source>
+        <translation>フォーカルポイントとトリミング</translation>
+    </message>
+    <message>
+        <source>Focal point</source>
+        <translation>フォーカルポイント</translation>
+    </message>
+    <message>
+        <source>Crop box</source>
+        <translation>トリミング枠</translation>
+    </message>
+    <message>
+        <source>Crop</source>
+        <translation>トリミング</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>リセット</translation>
+    </message>
+    <message>
+        <source>Click or drag on the image to set the focal point. Arrow keys move it; on the crop box, Shift and an arrow key change its size.</source>
+        <translation>画像をクリックまたはドラッグしてフォーカルポイントを設定します。矢印キーで移動し、トリミング枠では Shift と矢印キーでサイズを変更します。</translation>
+    </message>
+    <message>
+        <source>How each size will look</source>
+        <translation>各サイズの表示</translation>
+    </message>
+    <message>
+        <source>The templates of this page use no size of this image yet.</source>
+        <translation>このページのテンプレートは、この画像のサイズをまだ使用していません。</translation>
+    </message>
+    <message>
+        <source>This size keeps its own crop.</source>
+        <translation>このサイズは独自のトリミングを保持します。</translation>
+    </message>
+    <message>
+        <source>Saved: the sizes are made again around the focal point.</source>
+        <translation>保存しました: 各サイズはフォーカルポイントを中心に再作成されます。</translation>
+    </message>
 </context>
 </TS>

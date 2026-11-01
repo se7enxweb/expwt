@@ -1819,5 +1819,53 @@
         <source>%n migrations need attention</source>
         <translation>%n migrašuvnna dárbbašit fuomášumi</translation>
     </message>
+    <message>
+        <source>This image cannot have a focal point.</source>
+        <translation>Dán govas ii sáhte leat fokusčuokkis.</translation>
+    </message>
+    <message>
+        <source>Focal points are not available here.</source>
+        <translation>Fokusčuoggát eai leat olámuttus dáppe.</translation>
+    </message>
+    <message>
+        <source>Focal point and crop</source>
+        <translation>Fokusčuokkis ja čuohppan</translation>
+    </message>
+    <message>
+        <source>Focal point</source>
+        <translation>Fokusčuokkis</translation>
+    </message>
+    <message>
+        <source>Crop box</source>
+        <translation>Čuohppanráfu</translation>
+    </message>
+    <message>
+        <source>Crop</source>
+        <translation>Čuoppa</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>Máhcat</translation>
+    </message>
+    <message>
+        <source>Click or drag on the image to set the focal point. Arrow keys move it; on the crop box, Shift and an arrow key change its size.</source>
+        <translation>Coahkkal dahje gease gova alde vai bidjat fokusčuoggá. Njuolla-boalut sirdet dan; čuohppanráfus Shift ja njuollaboallu rievdadit dan sturrodaga.</translation>
+    </message>
+    <message>
+        <source>How each size will look</source>
+        <translation>Movt juohke sturrodat oaidno</translation>
+    </message>
+    <message>
+        <source>The templates of this page use no size of this image yet.</source>
+        <translation>Dán siiddu málle eai vel geavat ovttage dán gova sturrodaga.</translation>
+    </message>
+    <message>
+        <source>This size keeps its own crop.</source>
+        <translation>Dát sturrodat doallá iežas čuohppama.</translation>
+    </message>
+    <message>
+        <source>Saved: the sizes are made again around the focal point.</source>
+        <translation>Vurkejuvvon: sturrodagat dahkkojuvvojit ođđasit fokusčuoggá birra.</translation>
+    </message>
 </context>
 </TS>

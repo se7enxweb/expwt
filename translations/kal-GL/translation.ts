@@ -1819,5 +1819,53 @@
         <source>%n migrations need attention</source>
         <translation>Nuutsinerit %n isiginiarneqartariaqarput</translation>
     </message>
+    <message>
+        <source>This image cannot have a focal point.</source>
+        <translation>Assi una qiterlersuiffissaqarsinnaanngilaq.</translation>
+    </message>
+    <message>
+        <source>Focal points are not available here.</source>
+        <translation>Qiterlersuiffiit maani pissarsiarineqarsinnaanngillat.</translation>
+    </message>
+    <message>
+        <source>Focal point and crop</source>
+        <translation>Qiterlersuiffik kipiinerlu</translation>
+    </message>
+    <message>
+        <source>Focal point</source>
+        <translation>Qiterlersuiffik</translation>
+    </message>
+    <message>
+        <source>Crop box</source>
+        <translation>Kipiinermut killeqarfik</translation>
+    </message>
+    <message>
+        <source>Crop</source>
+        <translation>Kipiguk</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>Aallaqqaataanut uteruk</translation>
+    </message>
+    <message>
+        <source>Click or drag on the image to set the focal point. Arrow keys move it; on the crop box, Shift and an arrow key change its size.</source>
+        <translation>Qiterlersuiffik inissinniarukku assimut tooruk imaluunniit nussukkiuk. Tasiussat qaqqoqqiissutit nuussisarpaat; kipiinermut killeqarfimmi Shift tasiussarlu angissusia allanngortittarpaat.</translation>
+    </message>
+    <message>
+        <source>How each size will look</source>
+        <translation>Angissutsit tamarmik qanoq isikkoqassanersut</translation>
+    </message>
+    <message>
+        <source>The templates of this page use no size of this image yet.</source>
+        <translation>Quppernerup matuma ilisarnaatai suli assip matuma angissusianik atuinngillat.</translation>
+    </message>
+    <message>
+        <source>This size keeps its own crop.</source>
+        <translation>Angissuseq una nammineq kipiinini attassavaa.</translation>
+    </message>
+    <message>
+        <source>Saved: the sizes are made again around the focal point.</source>
+        <translation>Toqqorneqarpoq: angissutsit qiterlersuiffiup eqqaani nutaamik pilersinneqarput.</translation>
+    </message>
 </context>
 </TS>

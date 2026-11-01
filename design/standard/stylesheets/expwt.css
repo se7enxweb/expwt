@@ -970,3 +970,37 @@ button.wt-seo-item:hover { border-color: var(--a4-accent); }
 .wt-mig-run { display: grid; grid-template-columns: minmax(0, max-content) minmax(0, 1fr); gap: var(--a4-space-1) var(--a4-space-3); margin: 0 0 var(--a4-space-2); }
 .wt-mig-run dt { color: var(--a4-muted); font-size: var(--a4-text-s); }
 .wt-mig-run dd { margin: 0; min-inline-size: 0; overflow-wrap: anywhere; }
+/* The focal point and crop of an image field (E7): the original with the marker and the crop box, positioned by the
+   custom properties the panel sets (fractions of the image as percentages), and a live preview of each alias: the
+   original placed in a frame of the alias's shape. Nothing wider than the panel. The image is never mirrored: the
+   marker, the crop box and the previews are placed with physical left and top, in a right-to-left language too. */
+.wt-focal { min-inline-size: 0; margin-block-start: var(--a4-space-2); border: 1px solid var(--a4-line); border-radius: var(--a4-radius-s); background: var(--a4-surface); }
+.wt-focal > summary { padding: var(--a4-space-2) var(--a4-space-3); cursor: pointer; font-weight: bold; }
+.wt-focal > summary:focus-visible { outline: 3px solid var(--a4-ring); outline-offset: 2px; }
+.wt-focal-body { display: grid; gap: var(--a4-space-2); min-inline-size: 0; padding: 0 var(--a4-space-3) var(--a4-space-3); }
+.wt-focal-body > p { margin: 0; overflow-wrap: break-word; }
+.wt-focal-stage { position: relative; justify-self: start; max-inline-size: 100%; line-height: 0; touch-action: none; user-select: none; cursor: crosshair; overflow: hidden; border-radius: var(--a4-radius-s); }
+.wt-focal-img { display: block; max-inline-size: 100%; block-size: auto; pointer-events: none; }
+.wt-focal-point { position: absolute; left: var(--wt-fx, 50%); top: var(--wt-fy, 50%); inline-size: var(--a4-space-5); block-size: var(--a4-space-5);
+  margin: calc(var(--a4-space-5) / -2); padding: 0; border: 3px solid var(--a4-on-accent); border-radius: 50%; background: var(--a4-accent); box-shadow: 0 0 0 2px var(--a4-ink); cursor: grab; }
+.wt-focal-point.is-unset { opacity: 0.55; background: transparent; }
+.wt-focal-point:focus-visible { outline: 3px solid var(--a4-ring); outline-offset: 3px; }
+.wt-focal-crop { position: absolute; left: var(--wt-cx, 10%); top: var(--wt-cy, 10%); inline-size: var(--wt-cw, 80%); block-size: var(--wt-ch, 80%);
+  box-sizing: border-box; border: 2px dashed var(--a4-on-accent); outline: 1px solid var(--a4-ink); box-shadow: 0 0 0 100vmax var(--a4-overlay); cursor: move; }
+.wt-focal-crop[hidden] { display: none; }
+.wt-focal-crop:focus-visible { outline: 3px solid var(--a4-ring); outline-offset: 0; }
+.wt-focal-handle { position: absolute; inline-size: var(--a4-space-4); block-size: var(--a4-space-4); box-sizing: border-box; border: 2px solid var(--a4-ink); border-radius: 50%; background: var(--a4-on-accent); }
+.wt-focal-handle.is-nw { left: calc(var(--a4-space-4) / -2); top: calc(var(--a4-space-4) / -2); cursor: nwse-resize; }
+.wt-focal-handle.is-ne { right: calc(var(--a4-space-4) / -2); top: calc(var(--a4-space-4) / -2); cursor: nesw-resize; }
+.wt-focal-handle.is-sw { left: calc(var(--a4-space-4) / -2); bottom: calc(var(--a4-space-4) / -2); cursor: nesw-resize; }
+.wt-focal-handle.is-se { right: calc(var(--a4-space-4) / -2); bottom: calc(var(--a4-space-4) / -2); cursor: nwse-resize; }
+.wt-focal-title { margin: var(--a4-space-2) 0 0; font-size: var(--a4-text-m); }
+.wt-focal-previews { display: flex; flex-wrap: wrap; align-items: flex-start; gap: var(--a4-space-3); min-inline-size: 0; }
+.wt-focal-preview { display: grid; gap: var(--a4-space-1); flex: 0 1 auto; min-inline-size: 0; max-inline-size: 100%; margin: 0; }
+.wt-focal-preview > figcaption { display: flex; flex-wrap: wrap; gap: 0 var(--a4-space-2); font-size: var(--a4-text-xs); overflow-wrap: anywhere; }
+.wt-focal-name { font-weight: bold; }
+.wt-focal-frame { position: relative; inline-size: min(var(--wt-max, 100%), calc(var(--a4-space-7) * 4), 100%); aspect-ratio: var(--wt-ratio, auto); overflow: hidden;
+  border: 1px solid var(--a4-line); border-radius: var(--a4-radius-s); background: var(--a4-soft); }
+.wt-focal-frame.is-file { aspect-ratio: auto; line-height: 0; }
+.wt-focal-live { position: absolute; left: var(--wt-il, 0%); top: var(--wt-it, 0%); inline-size: var(--wt-iw, 100%); max-inline-size: none; block-size: auto; }
+.wt-focal-file { display: block; inline-size: 100%; block-size: auto; }

@@ -1819,5 +1819,53 @@
         <source>%n migrations need attention</source>
         <translation>%n migracijow trjeba kedźbnosć</translation>
     </message>
+    <message>
+        <source>This image cannot have a focal point.</source>
+        <translation>Tutón wobraz njemóže fokusowy dypk měć.</translation>
+    </message>
+    <message>
+        <source>Focal points are not available here.</source>
+        <translation>Fokusowe dypki tu k dispoziciji njejsu.</translation>
+    </message>
+    <message>
+        <source>Focal point and crop</source>
+        <translation>Fokusowy dypk a wurězk</translation>
+    </message>
+    <message>
+        <source>Focal point</source>
+        <translation>Fokusowy dypk</translation>
+    </message>
+    <message>
+        <source>Crop box</source>
+        <translation>Wurězkowy wobłuk</translation>
+    </message>
+    <message>
+        <source>Crop</source>
+        <translation>Wurězać</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>Wróćo stajić</translation>
+    </message>
+    <message>
+        <source>Click or drag on the image to set the focal point. Arrow keys move it; on the crop box, Shift and an arrow key change its size.</source>
+        <translation>Klikńće abo ćehńće na wobrazu, zo byšće fokusowy dypk postajił. Šipowe tasty jón přesuwaja; na wurězkowym wobłuku Shift a šipowa tasta jeho wulkosć měnjatej.</translation>
+    </message>
+    <message>
+        <source>How each size will look</source>
+        <translation>Kak kóžda wulkosć wupada</translation>
+    </message>
+    <message>
+        <source>The templates of this page use no size of this image yet.</source>
+        <translation>Předłohi tuteje strony hišće žanu wulkosć tutoho wobraza njewužiwaja.</translation>
+    </message>
+    <message>
+        <source>This size keeps its own crop.</source>
+        <translation>Tuta wulkosć swój wurězk wobchowa.</translation>
+    </message>
+    <message>
+        <source>Saved: the sizes are made again around the focal point.</source>
+        <translation>Składowane: wulkosće so wokoło fokusoweho dypka znowa wutworja.</translation>
+    </message>
 </context>
 </TS>

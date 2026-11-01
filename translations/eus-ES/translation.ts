@@ -1819,5 +1819,53 @@
         <source>%n migrations need attention</source>
         <translation>%n migraziok arreta behar dute</translation>
     </message>
+    <message>
+        <source>This image cannot have a focal point.</source>
+        <translation>Irudi honek ezin du foku-punturik izan.</translation>
+    </message>
+    <message>
+        <source>Focal points are not available here.</source>
+        <translation>Foku-puntuak ez daude erabilgarri hemen.</translation>
+    </message>
+    <message>
+        <source>Focal point and crop</source>
+        <translation>Foku-puntua eta moztea</translation>
+    </message>
+    <message>
+        <source>Focal point</source>
+        <translation>Foku-puntua</translation>
+    </message>
+    <message>
+        <source>Crop box</source>
+        <translation>Mozteko koadroa</translation>
+    </message>
+    <message>
+        <source>Crop</source>
+        <translation>Moztu</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>Berrezarri</translation>
+    </message>
+    <message>
+        <source>Click or drag on the image to set the focal point. Arrow keys move it; on the crop box, Shift and an arrow key change its size.</source>
+        <translation>Egin klik edo arrastatu irudiaren gainean foku-puntua ezartzeko. Gezi-teklek mugitzen dute; mozteko koadroan, Shift eta gezi-tekla batek tamaina aldatzen diote.</translation>
+    </message>
+    <message>
+        <source>How each size will look</source>
+        <translation>Tamaina bakoitzaren itxura</translation>
+    </message>
+    <message>
+        <source>The templates of this page use no size of this image yet.</source>
+        <translation>Orri honetako txantiloiek ez dute oraindik irudi honen tamainarik erabiltzen.</translation>
+    </message>
+    <message>
+        <source>This size keeps its own crop.</source>
+        <translation>Tamaina honek bere moztea gordetzen du.</translation>
+    </message>
+    <message>
+        <source>Saved: the sizes are made again around the focal point.</source>
+        <translation>Gordeta: tamainak berriro egiten dira foku-puntuaren inguruan.</translation>
+    </message>
 </context>
 </TS>

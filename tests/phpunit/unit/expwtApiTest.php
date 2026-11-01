@@ -96,6 +96,8 @@ class expwtApiTestGateway extends expwtGateway
     public $migrations = array( 'attention' => 2 );
     public function migrationsOffer() { return $this->migrations; }
     public function migrations() { return $this->record( 'migrations', array() ); }
+    public function images( array $in ) { return $this->record( 'images', $in ); }
+    public function imagesSave( array $in ) { return $this->record( 'imagesSave', $in ); }
     public $registered = array( 'panels' => array(), 'actions' => array(), 'highlights' => array(), 'search' => array() );
     public $policies = array();
     public function registeredActions() { return $this->registered['actions']; }
@@ -310,6 +312,41 @@ class expwtApiTest extends PHPUnit\Framework\TestCase
         $caps = array_fill_keys( expwtAccess::FUNCTIONS, true );
         $caps['edit'] = false;
         $this->assertSame( 403, $this->api( $caps )->call( 'calendar.load', array( 'nodeId' => 93 ), 'GET' )['status'] );
+    }
+
+    /** E7: an image's focal point and crop: loading is a read for those who edit, saving a write by POST that stands
+        for the administration's content/edit; the values reach the gateway as numbers, never anything else */
+    public function testTheFocalPointGoesToTheGatewayCleaned()
+    {
+        $api = $this->api();
+        $this->assertFalse( expwtAccess::writes( 'images.load' ) );
+        $this->assertTrue( expwtAccess::writes( 'images.save' ) );
+        $this->assertSame( 'edit', expwtAccess::functionFor( 'images.load' ) );
+        $this->assertSame( 'edit', expwtAccess::functionFor( 'images.save' ) );
+        $this->assertSame( array( 'module' => 'content', 'view' => 'edit', 'post' => array( 'StoreButton' => '1' ) ), expwtAccess::kernelView( 'images.save' ) );
+        $this->assertSame( 405, $api->call( 'images.save', array( 'objectId' => 7 ), 'GET' )['status'] );
+
+        $api->call( 'images.load', array( 'objectId' => '7', 'version' => '0', 'language' => 'eng-US', 'field' => 'image', 'nodeId' => 3 ), 'GET' );
+        $this->assertSame( array( 'images', array( 'objectId' => 7, 'language' => 'eng-US', 'field' => 'image' ) ), $this->gateway->calls[0] );
+        $api->call( 'images.save', array( 'objectId' => 7, 'version' => '4', 'language' => 'eng-US', 'field' => 'image',
+                                          'focal' => array( 'x' => '0.25', 'y' => 1, 'z' => 9 ),
+                                          'crop' => array( 'x' => 0, 'y' => 0.1, 'width' => 0.5, 'height' => array( 1 ) ) ), 'POST' );
+        $this->assertSame( array( 'imagesSave', array( 'objectId' => 7, 'version' => 4, 'language' => 'eng-US', 'field' => 'image',
+                                                       'focal' => array( 'x' => 0.25, 'y' => 1.0 ),
+                                                       'crop' => array( 'x' => 0.0, 'y' => 0.1, 'width' => 0.5, 'height' => null ) ) ), $this->gateway->calls[1] );
+        $api->call( 'images.save', array( 'objectId' => 7, 'field' => 'image', 'focal' => null, 'crop' => 'all' ), 'POST' );
+        $this->assertSame( array( 'objectId' => 7, 'field' => 'image', 'focal' => null, 'crop' => 'invalid' ), $this->gateway->calls[2][1] );
+
+        // what the gateway does with them: a missing or wrong number refuses, null and the whole image are none
+        $this->assertFalse( expwtImages::rectangle( $this->gateway->calls[1][1]['crop'] ) );
+        $this->assertFalse( expwtImages::rectangle( 'invalid' ) );
+        $this->assertNull( expwtImages::point( null ) );
+
+        // without expwt/edit: no focal point at all
+        $caps = array_fill_keys( expwtAccess::FUNCTIONS, true );
+        $caps['edit'] = false;
+        $this->assertSame( 403, $this->api( $caps )->call( 'images.load', array( 'objectId' => 7, 'field' => 'image' ), 'GET' )['status'] );
+        $this->assertSame( 403, $this->api( $caps )->call( 'images.save', array( 'objectId' => 7, 'field' => 'image' ), 'POST' )['status'] );
     }
 
     /** E5: the page's addresses: loading is a read; an alias and a wildcard are writes by POST that stand for the

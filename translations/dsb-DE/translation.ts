@@ -1819,5 +1819,53 @@
         <source>%n migrations need attention</source>
         <translation>%n migracijow trjeba kedźbnosć</translation>
     </message>
+    <message>
+        <source>This image cannot have a focal point.</source>
+        <translation>Toś ten wobraz njamóžo měś fokusowy dypk.</translation>
+    </message>
+    <message>
+        <source>Focal points are not available here.</source>
+        <translation>Fokusowe dypki njejsu how k dispoziciji.</translation>
+    </message>
+    <message>
+        <source>Focal point and crop</source>
+        <translation>Fokusowy dypk a wurězk</translation>
+    </message>
+    <message>
+        <source>Focal point</source>
+        <translation>Fokusowy dypk</translation>
+    </message>
+    <message>
+        <source>Crop box</source>
+        <translation>Wurězkowy wobłuk</translation>
+    </message>
+    <message>
+        <source>Crop</source>
+        <translation>Wurězaś</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>Slědk stajiś</translation>
+    </message>
+    <message>
+        <source>Click or drag on the image to set the focal point. Arrow keys move it; on the crop box, Shift and an arrow key change its size.</source>
+        <translation>Klikniśo abo śěgniśo na wobrazu, aby fokusowy dypk póstajił. Šypkowe tasty jen pśesuwaju; na wurězkowem wobłuku Shift a šypkowa tasta jogo wjelikosć změnjujotej.</translation>
+    </message>
+    <message>
+        <source>How each size will look</source>
+        <translation>Kak buźo kužda wjelikosć wuglědaś</translation>
+    </message>
+    <message>
+        <source>The templates of this page use no size of this image yet.</source>
+        <translation>Pśedłogi toś togo boka hyšći žednu wjelikosć toś togo wobraza njewužywaju.</translation>
+    </message>
+    <message>
+        <source>This size keeps its own crop.</source>
+        <translation>Toś ta wjelikosć wobchowa swój swójski wurězk.</translation>
+    </message>
+    <message>
+        <source>Saved: the sizes are made again around the focal point.</source>
+        <translation>Składowane: wjelikosći se znowego wokoło fokusowego dypka napóraju.</translation>
+    </message>
 </context>
 </TS>

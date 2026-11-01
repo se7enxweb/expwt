@@ -1819,5 +1819,53 @@
         <source>%n migrations need attention</source>
         <translation>%n ମାଇଗ୍ରେସନ ଧ୍ୟାନ ଆବଶ୍ୟକ କରେ</translation>
     </message>
+    <message>
+        <source>This image cannot have a focal point.</source>
+        <translation>ଏହି ଚିତ୍ରରେ ଫୋକାଲ ପଏଣ୍ଟ ରହିପାରିବ ନାହିଁ।</translation>
+    </message>
+    <message>
+        <source>Focal points are not available here.</source>
+        <translation>ଫୋକାଲ ପଏଣ୍ଟ ଏଠାରେ ଉପଲବ୍ଧ ନାହିଁ।</translation>
+    </message>
+    <message>
+        <source>Focal point and crop</source>
+        <translation>ଫୋକାଲ ପଏଣ୍ଟ ଓ କ୍ରପ</translation>
+    </message>
+    <message>
+        <source>Focal point</source>
+        <translation>ଫୋକାଲ ପଏଣ୍ଟ</translation>
+    </message>
+    <message>
+        <source>Crop box</source>
+        <translation>କ୍ରପ ବାକ୍ସ</translation>
+    </message>
+    <message>
+        <source>Crop</source>
+        <translation>କ୍ରପ</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>ରିସେଟ</translation>
+    </message>
+    <message>
+        <source>Click or drag on the image to set the focal point. Arrow keys move it; on the crop box, Shift and an arrow key change its size.</source>
+        <translation>ଫୋକାଲ ପଏଣ୍ଟ ସେଟ କରିବାକୁ ଚିତ୍ର ଉପରେ କ୍ଲିକ କରନ୍ତୁ କିମ୍ବା ଟାଣନ୍ତୁ। ତୀର ଚାବିଗୁଡ଼ିକ ଏହାକୁ ଘୁଞ୍ଚାନ୍ତି; କ୍ରପ ବାକ୍ସ ଉପରେ Shift ଓ ତୀର ଚାବି ଏହାର ଆକାର ବଦଳାଏ।</translation>
+    </message>
+    <message>
+        <source>How each size will look</source>
+        <translation>ପ୍ରତ୍ୟେକ ଆକାର କିପରି ଦେଖାଯିବ</translation>
+    </message>
+    <message>
+        <source>The templates of this page use no size of this image yet.</source>
+        <translation>ଏହି ପୃଷ୍ଠାର ଟେମ୍ପଲେଟଗୁଡ଼ିକ ଏପର୍ଯ୍ୟନ୍ତ ଏହି ଚିତ୍ରର କୌଣସି ଆକାର ବ୍ୟବହାର କରୁନାହାନ୍ତି।</translation>
+    </message>
+    <message>
+        <source>This size keeps its own crop.</source>
+        <translation>ଏହି ଆକାର ନିଜର କ୍ରପ ରଖେ।</translation>
+    </message>
+    <message>
+        <source>Saved: the sizes are made again around the focal point.</source>
+        <translation>ସଞ୍ଚିତ ହେଲା: ଆକାରଗୁଡ଼ିକ ଫୋକାଲ ପଏଣ୍ଟ ଚାରିପାଖେ ପୁଣି ତିଆରି ହୁଏ।</translation>
+    </message>
 </context>
 </TS>

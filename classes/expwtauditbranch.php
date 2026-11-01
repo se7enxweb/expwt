@@ -1,6 +1,6 @@
 <?php
 /**
- * The audit taxonomy branch of the website sidebar: what its calendar moves (E6). Registered in
+ * The audit taxonomy branch of the website sidebar: what its calendar moves (E6) and the focal points it sets (E7). Registered in
  * settings/audit.ini.append.php. Everything else the sidebar changes is recorded under the kernel's own names (a
  * publish, an alias, a move ...), as the administration records it.
  *
@@ -16,6 +16,8 @@ class expwtAuditBranch implements expAuditTaxonomyBranch
         return array(
             // a draft's publish date, a page's take-down date or a layout variant's time, moved in the calendar
             'content.expwt.schedule.change' => array( 'label' => 'Schedule moved in the website sidebar', 'severity' => 'info', 'channel' => 'content', 'default' => 'on' ),
+            // an image's focal point or crop rectangle set in a draft (E7)
+            'content.expwt.image.focal' => array( 'label' => 'Image focal point set in the website sidebar', 'severity' => 'info', 'channel' => 'content', 'default' => 'on' ),
         );
     }
 }

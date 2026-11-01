@@ -1819,5 +1819,53 @@
         <source>%n migrations need attention</source>
         <translation>%n migrācijām nepieciešama uzmanība</translation>
     </message>
+    <message>
+        <source>This image cannot have a focal point.</source>
+        <translation>Šim attēlam nevar būt fokusa punkta.</translation>
+    </message>
+    <message>
+        <source>Focal points are not available here.</source>
+        <translation>Fokusa punkti šeit nav pieejami.</translation>
+    </message>
+    <message>
+        <source>Focal point and crop</source>
+        <translation>Fokusa punkts un apgriešana</translation>
+    </message>
+    <message>
+        <source>Focal point</source>
+        <translation>Fokusa punkts</translation>
+    </message>
+    <message>
+        <source>Crop box</source>
+        <translation>Apgriešanas rāmis</translation>
+    </message>
+    <message>
+        <source>Crop</source>
+        <translation>Apgriezt</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>Atiestatīt</translation>
+    </message>
+    <message>
+        <source>Click or drag on the image to set the focal point. Arrow keys move it; on the crop box, Shift and an arrow key change its size.</source>
+        <translation>Noklikšķiniet vai velciet attēlā, lai iestatītu fokusa punktu. Bulttaustiņi to pārvieto; uz apgriešanas rāmja Shift un bulttaustiņš maina tā izmēru.</translation>
+    </message>
+    <message>
+        <source>How each size will look</source>
+        <translation>Kā izskatīsies katrs izmērs</translation>
+    </message>
+    <message>
+        <source>The templates of this page use no size of this image yet.</source>
+        <translation>Šīs lapas veidnes vēl neizmanto nevienu šī attēla izmēru.</translation>
+    </message>
+    <message>
+        <source>This size keeps its own crop.</source>
+        <translation>Šim izmēram ir sava apgriešana.</translation>
+    </message>
+    <message>
+        <source>Saved: the sizes are made again around the focal point.</source>
+        <translation>Saglabāts: izmēri tiek izveidoti no jauna ap fokusa punktu.</translation>
+    </message>
 </context>
 </TS>

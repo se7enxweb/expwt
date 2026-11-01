@@ -1819,5 +1819,53 @@
         <source>%n migrations need attention</source>
         <translation>Міграцый, якія патрабуюць увагі: %n</translation>
     </message>
+    <message>
+        <source>This image cannot have a focal point.</source>
+        <translation>Гэта выява не можа мець пункт фокусу.</translation>
+    </message>
+    <message>
+        <source>Focal points are not available here.</source>
+        <translation>Пункты фокусу тут недаступныя.</translation>
+    </message>
+    <message>
+        <source>Focal point and crop</source>
+        <translation>Пункт фокусу і кадраванне</translation>
+    </message>
+    <message>
+        <source>Focal point</source>
+        <translation>Пункт фокусу</translation>
+    </message>
+    <message>
+        <source>Crop box</source>
+        <translation>Рамка кадравання</translation>
+    </message>
+    <message>
+        <source>Crop</source>
+        <translation>Кадраваць</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>Скінуць</translation>
+    </message>
+    <message>
+        <source>Click or drag on the image to set the focal point. Arrow keys move it; on the crop box, Shift and an arrow key change its size.</source>
+        <translation>Пстрыкніце або перацягніце на выяве, каб задаць пункт фокусу. Клавішы са стрэлкамі перамяшчаюць яго; на рамцы кадравання Shift і клавіша са стрэлкай змяняюць яе памер.</translation>
+    </message>
+    <message>
+        <source>How each size will look</source>
+        <translation>Як будзе выглядаць кожны памер</translation>
+    </message>
+    <message>
+        <source>The templates of this page use no size of this image yet.</source>
+        <translation>Шаблоны гэтай старонкі пакуль не выкарыстоўваюць ніводнага памеру гэтай выявы.</translation>
+    </message>
+    <message>
+        <source>This size keeps its own crop.</source>
+        <translation>Гэты памер захоўвае ўласнае кадраванне.</translation>
+    </message>
+    <message>
+        <source>Saved: the sizes are made again around the focal point.</source>
+        <translation>Захавана: памеры ствараюцца нанова вакол пункта фокусу.</translation>
+    </message>
 </context>
 </TS>

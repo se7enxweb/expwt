@@ -1819,5 +1819,53 @@
         <source>%n migrations need attention</source>
         <translation>Hiki ʻe %n ʻoku fiemaʻu ke tokangaʻi</translation>
     </message>
+    <message>
+        <source>This image cannot have a focal point.</source>
+        <translation>'Oku 'ikai lava ke ma'u 'e he fakatātā ni ha poini fakatokanga.</translation>
+    </message>
+    <message>
+        <source>Focal points are not available here.</source>
+        <translation>'Oku 'ikai ma'u heni 'a e ngaahi poini fakatokanga.</translation>
+    </message>
+    <message>
+        <source>Focal point and crop</source>
+        <translation>Poini fakatokanga mo e tu'usi</translation>
+    </message>
+    <message>
+        <source>Focal point</source>
+        <translation>Poini fakatokanga</translation>
+    </message>
+    <message>
+        <source>Crop box</source>
+        <translation>Puha tu'usi</translation>
+    </message>
+    <message>
+        <source>Crop</source>
+        <translation>Tu'usi</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>Toe fokotu'u</translation>
+    </message>
+    <message>
+        <source>Click or drag on the image to set the focal point. Arrow keys move it; on the crop box, Shift and an arrow key change its size.</source>
+        <translation>Lomi pe toho 'i he fakatātā ke fokotu'u 'a e poini fakatokanga. 'Oku hiki ia 'e he ngaahi kī ngahau; 'i he puha tu'usi, 'oku liliu hono lahi 'e he Shift mo ha kī ngahau.</translation>
+    </message>
+    <message>
+        <source>How each size will look</source>
+        <translation>Ko e hā e hā 'a e lahi taki taha</translation>
+    </message>
+    <message>
+        <source>The templates of this page use no size of this image yet.</source>
+        <translation>'Oku te'eki ke ngāue'aki 'e he ngaahi sīpinga 'o e peesi ni ha lahi 'o e fakatātā ni.</translation>
+    </message>
+    <message>
+        <source>This size keeps its own crop.</source>
+        <translation>'Oku tauhi 'e he lahi ni hono tu'usi pē 'o'ona.</translation>
+    </message>
+    <message>
+        <source>Saved: the sizes are made again around the focal point.</source>
+        <translation>Kuo tauhi: 'oku toe ngaohi 'a e ngaahi lahi 'o takatakai 'i he poini fakatokanga.</translation>
+    </message>
 </context>
 </TS>

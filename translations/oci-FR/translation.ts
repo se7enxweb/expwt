@@ -1819,5 +1819,53 @@
         <source>%n migrations need attention</source>
         <translation>%n migracions demandan d'atencion</translation>
     </message>
+    <message>
+        <source>This image cannot have a focal point.</source>
+        <translation>Aqueste imatge pòt pas aver de punt focal.</translation>
+    </message>
+    <message>
+        <source>Focal points are not available here.</source>
+        <translation>Los punts focals son pas disponibles aicí.</translation>
+    </message>
+    <message>
+        <source>Focal point and crop</source>
+        <translation>Punt focal e talhada</translation>
+    </message>
+    <message>
+        <source>Focal point</source>
+        <translation>Punt focal</translation>
+    </message>
+    <message>
+        <source>Crop box</source>
+        <translation>Quadre de talhada</translation>
+    </message>
+    <message>
+        <source>Crop</source>
+        <translation>Talhar</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>Reïnicializar</translation>
+    </message>
+    <message>
+        <source>Click or drag on the image to set the focal point. Arrow keys move it; on the crop box, Shift and an arrow key change its size.</source>
+        <translation>Clicatz o lisatz sus l'imatge per definir lo punt focal. Las tòcas de sageta lo desplaçan; sul quadre de talhada, Shift e una tòca de sageta ne cambian la talha.</translation>
+    </message>
+    <message>
+        <source>How each size will look</source>
+        <translation>Cossí se veirà cada talha</translation>
+    </message>
+    <message>
+        <source>The templates of this page use no size of this image yet.</source>
+        <translation>Los modèls d'aquesta pagina utilizan pas encara cap de talha d'aqueste imatge.</translation>
+    </message>
+    <message>
+        <source>This size keeps its own crop.</source>
+        <translation>Aquesta talha garda sa pròpria talhada.</translation>
+    </message>
+    <message>
+        <source>Saved: the sizes are made again around the focal point.</source>
+        <translation>Enregistrat: las talhas son tornadas far a l'entorn del punt focal.</translation>
+    </message>
 </context>
 </TS>

@@ -108,7 +108,7 @@ der Stelle von ezwt in den aktiven Erweiterungen. Ein Probelauf listet die Ände
 | Bereich | Für | Was |
 |---|---|---|
 | Willkommen | nicht angemeldete Besucher (`ShowToAnonymous`) | anmelden, registrieren, suchen, hell oder dunkel |
-| Seite | `expwt/use` (lesen), `expwt/edit` (ändern) | die Felder der Seite in einem Formular, auf der Seite bearbeiten, Entwurf speichern, Vorschau, der volle Editor, jetzt oder zu einem Zeitpunkt veröffentlichen, zu einem Zeitpunkt zurückziehen, Entwurf verwerfen |
+| Seite | `expwt/use` (lesen), `expwt/edit` (ändern) | die Felder der Seite in einem Formular, auf der Seite bearbeiten, Entwurf speichern, Vorschau, der volle Editor, jetzt oder zu einem Zeitpunkt veröffentlichen, zu einem Zeitpunkt zurückziehen, Entwurf verwerfen; unter jedem Bildfeld sein Fokuspunkt und Zuschnitt mit einer Vorschau jeder Größe (siehe „Fokuspunkt und Zuschnitt“ unten) |
 | Seite: Kommentare | `expwt/edit`; jede Aktion die Richtlinie des Kernels für den Kommentar (`content/hide`, `content/remove`) oder für die Seite (`content/create` eines Kommentars) | die Kommentare der Seite, an Ort und Stelle moderiert, unter den Feldern des Bereichs Seite. Die Kommentare sind Inhalte unter der Seite (die Klasse aus expservices.ini `[Community] CommentClass`, vorgegeben `comment`), daher sind die Inhaltsrichtlinien des Kernels die Richtlinien der Kommentare. Neueste zuerst, höchstens 50; verborgene Kommentare sind die, die auf Moderation warten, und erscheinen, markiert, nur für die, die sie einblenden dürfen (`content/hide` des Kommentars). **Freigeben** zeigt einen verborgenen Kommentar, **Verbergen** verbirgt einen sichtbaren (beides `content/hide`, über die Verbergen-Operation des Kernels wie Verbergen und Einblenden der Administration); **Spam ...** fragt im Bereich noch einmal und verschiebt den Kommentar in den Papierkorb (`content/remove`; in der Administration aus dem Papierkorb wiederherstellbar). **Antworten** schreibt einen Kommentar des Benutzers unter die Seite (Betreff „Re: " und der Betreff des Kommentars, der Name des Benutzers als Autor), veröffentlicht über die Veröffentlichung des Kernels, ein Freigabe-Workflow greift also; **Kommentar schreiben** tut dasselbe für die Seite selbst. „Bestätigen Sie, dass Sie es sind" fragt genau dort, wo die Administration beim Verbergen, Entfernen und Veröffentlichen fragt. Jede Moderation und Antwort wird protokolliert (`content.comment.approve`, `.hide`, `.spam`, `.reply`). Die Zahl der Kommentare, die auf Moderation warten, steht als Zähler auf dem Reiter des Bereichs Seite (aus dem Start der Seitenleiste, keine zusätzliche Anfrage; keiner bei 0). Mit `[Comments] HideNew=enabled` wartet ein neuer Kommentar auf Moderation: Ein Kommentar, den jemand zum ersten Mal veröffentlicht, der ihn nicht freigeben darf (kein `content/hide` des Kommentars: ein Besucher, ein Mitglied), wird gleich nach dem Veröffentlichen verborgen, innerhalb der Veröffentlichung des Kernels, die Seite zeigt ihn also nie; eigene Kommentare und Antworten der Moderatoren bleiben sichtbar |
 | Anlegen | `expwt/create` | eine neue Seite unter oder neben dieser: die Klassen, die Sie dort anlegen dürfen, ein Titel, dann im Bereich Seite ausfüllen und veröffentlichen |
 | Struktur | `expwt/structure` | ausblenden und einblenden, verschieben und einen weiteren Ort hinzufügen (der Platz wird in einem Baum auf der Website gewählt), in den Papierkorb, die Seiten darunter per Ziehen oder mit den Pfeilschaltflächen sortieren |
@@ -174,6 +174,28 @@ Seitenleiste hat keinen eigenen Zeitplan und keinen eigenen Cronjob.
   Audit-Taxonomie, standardmäßig an), mit dem Zeitpunkt davor und danach.
 - Was die Installation nicht eingerichtet hat, steht unter „Auf dieser Website nicht eingerichtet“: kein Ereignis
   „Wait until date“ am Veröffentlichen-Trigger, oder keine Klasse und kein oberer Knoten in `[HideSettings]`.
+
+**Fokuspunkt und Zuschnitt** eines Bildfelds (im Seiten-Panel, unter dem Editor des Felds, geschlossen, bis man es
+öffnet). Er braucht einen Exponential-Kernel, der sie speichert (6.0.15: Fokuspunkt und Zuschnittsrechteck des
+Bild-Datentyps); mit einem älteren Kernel wird der Teil nicht gezeigt, und die Seitenleiste lehnt seine Aktionen ab.
+
+- Klicken oder ziehen Sie auf dem Bild, um den Fokuspunkt zu setzen, den Teil des Bildes, der sichtbar bleiben muss;
+  die Pfeiltasten verschieben ihn (mit Umschalt in größeren Schritten). **Zuschneiden** fügt einen Rahmen hinzu:
+  ziehen Sie ihn oder seine Ecken; auf dem fokussierten Rahmen verschieben ihn die Pfeiltasten, und Umschalt mit einer
+  Pfeiltaste ändert seine Größe. **Zurücksetzen** entfernt beides.
+- **So sieht jede Größe aus** zeigt jede Bildvariante, die die Templates der Seite verwenden (jede Variante, die das
+  Bild schon hat, in der veröffentlichten Seite oder im Entwurf, und jede Variante mit einem Filter `geometry/crop`),
+  live, während Sie den Punkt oder den Rahmen bewegen, berechnet wie der Kernel die Variante berechnet: Der Rahmen wird
+  zuerst ausgeschnitten, und jeder Zuschnittfilter der Variante wird auf den Fokuspunkt zentriert. Eine Variante aus
+  einem Filter, dem die Vorschau nicht folgen kann, zeigt ihre Datei, wie sie ist.
+- **Entwurf speichern** schreibt Fokuspunkt und Zuschnitt in Ihren Entwurf (das erste Speichern legt den Entwurf an,
+  wie der Editor des Felds es tut). Der Kernel speichert das Original für den Entwurf neu und erzeugt seine Größen um
+  den Punkt neu; die Vorschauen zeigen dann diese Dateien. Die veröffentlichte Seite ändert sich erst, wenn der
+  Entwurf veröffentlicht wird, auf dem üblichen Weg (und mit seiner Freigabe, wo es eine gibt).
+- Braucht `expwt/edit` und das `content/edit` des Kernels für die Seite in ihrer Sprache; „Bestätigen Sie, dass Sie es
+  sind" fragt, wie das Bearbeiten in der Administration fragt. Jede Änderung wird als `content.expwt.image.focal`
+  protokolliert, mit den Werten davor und danach.
+- Aktionen `images.load` und `images.save`. Ein SVG-Bild hat keinen Fokuspunkt (seine Größen sind die Originaldatei).
 
 **Upgrade von einer früheren expwt-Version:** Sie führte einen eigenen Zeitplan (die Site-Data-Zeilen `expwt_publish_*`
 und `expwt_unpublish_*`, den Cronjob-Teil `expwt_scheduled`). `./console exp:wt:migrate-from-ezwt` zeigt, was überführt

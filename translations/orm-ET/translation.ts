@@ -1819,5 +1819,53 @@
         <source>%n migrations need attention</source>
         <translation>Godaansonni %n xiyyeeffannaa barbaadu</translation>
     </message>
+    <message>
+        <source>This image cannot have a focal point.</source>
+        <translation>Suuraan kun qabxii xiyyeeffannaa qabaachuu hin danda'u.</translation>
+    </message>
+    <message>
+        <source>Focal points are not available here.</source>
+        <translation>Qabxiileen xiyyeeffannaa asitti hin argaman.</translation>
+    </message>
+    <message>
+        <source>Focal point and crop</source>
+        <translation>Qabxii xiyyeeffannaa fi ciruu</translation>
+    </message>
+    <message>
+        <source>Focal point</source>
+        <translation>Qabxii xiyyeeffannaa</translation>
+    </message>
+    <message>
+        <source>Crop box</source>
+        <translation>Saanduqa ciruu</translation>
+    </message>
+    <message>
+        <source>Crop</source>
+        <translation>Ciri</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>Haaraa godhi</translation>
+    </message>
+    <message>
+        <source>Click or drag on the image to set the focal point. Arrow keys move it; on the crop box, Shift and an arrow key change its size.</source>
+        <translation>Qabxii xiyyeeffannaa kaa'uuf suuraa irratti cuqaasi ykn harkisi. Furtuuwwan xiyyaa ni socho'u; saanduqa ciruu irratti, Shift fi furtuun xiyyaa hamma isaa jijjiiru.</translation>
+    </message>
+    <message>
+        <source>How each size will look</source>
+        <translation>Hammi tokkoon tokkoon akkamitti akka mul'atu</translation>
+    </message>
+    <message>
+        <source>The templates of this page use no size of this image yet.</source>
+        <translation>Tempileetiin fuula kanaa ammallee hamma suuraa kanaa kamiyyuu hin fayyadaman.</translation>
+    </message>
+    <message>
+        <source>This size keeps its own crop.</source>
+        <translation>Hammi kun ciruu mataa isaa eega.</translation>
+    </message>
+    <message>
+        <source>Saved: the sizes are made again around the focal point.</source>
+        <translation>Olkaa'ameera: hammoonni qabxii xiyyeeffannaa naannoo irra deebi'amanii hojjetamu.</translation>
+    </message>
 </context>
 </TS>

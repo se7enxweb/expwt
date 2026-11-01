@@ -1819,5 +1819,53 @@
         <source>%n migrations need attention</source>
         <translation>ការផ្ទេរ %n ត្រូវការការយកចិត្តទុកដាក់</translation>
     </message>
+    <message>
+        <source>This image cannot have a focal point.</source>
+        <translation>រូបភាពនេះមិនអាចមានចំណុចផ្ដោតបានទេ។</translation>
+    </message>
+    <message>
+        <source>Focal points are not available here.</source>
+        <translation>ចំណុចផ្ដោតមិនមាននៅទីនេះទេ។</translation>
+    </message>
+    <message>
+        <source>Focal point and crop</source>
+        <translation>ចំណុចផ្ដោត និងការកាត់</translation>
+    </message>
+    <message>
+        <source>Focal point</source>
+        <translation>ចំណុចផ្ដោត</translation>
+    </message>
+    <message>
+        <source>Crop box</source>
+        <translation>ប្រអប់កាត់</translation>
+    </message>
+    <message>
+        <source>Crop</source>
+        <translation>កាត់</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>កំណត់ឡើងវិញ</translation>
+    </message>
+    <message>
+        <source>Click or drag on the image to set the focal point. Arrow keys move it; on the crop box, Shift and an arrow key change its size.</source>
+        <translation>ចុច ឬអូសលើរូបភាព ដើម្បីកំណត់ចំណុចផ្ដោត។ គ្រាប់ចុចព្រួញផ្លាស់ទីវា នៅលើប្រអប់កាត់ Shift និងគ្រាប់ចុចព្រួញប្ដូរទំហំរបស់វា។</translation>
+    </message>
+    <message>
+        <source>How each size will look</source>
+        <translation>ទំហំនីមួយៗនឹងមើលទៅយ៉ាងដូចម្ដេច</translation>
+    </message>
+    <message>
+        <source>The templates of this page use no size of this image yet.</source>
+        <translation>គំរូនៃទំព័រនេះមិនទាន់ប្រើទំហំណាមួយនៃរូបភាពនេះនៅឡើយទេ។</translation>
+    </message>
+    <message>
+        <source>This size keeps its own crop.</source>
+        <translation>ទំហំនេះរក្សាការកាត់ផ្ទាល់ខ្លួនរបស់វា។</translation>
+    </message>
+    <message>
+        <source>Saved: the sizes are made again around the focal point.</source>
+        <translation>បានរក្សាទុក៖ ទំហំត្រូវបានបង្កើតឡើងវិញជុំវិញចំណុចផ្ដោត។</translation>
+    </message>
 </context>
 </TS>

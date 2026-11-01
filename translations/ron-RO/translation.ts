@@ -1819,5 +1819,53 @@
         <source>%n migrations need attention</source>
         <translation>%n migrări necesită atenție</translation>
     </message>
+    <message>
+        <source>This image cannot have a focal point.</source>
+        <translation>Această imagine nu poate avea un punct focal.</translation>
+    </message>
+    <message>
+        <source>Focal points are not available here.</source>
+        <translation>Punctele focale nu sunt disponibile aici.</translation>
+    </message>
+    <message>
+        <source>Focal point and crop</source>
+        <translation>Punct focal și decupare</translation>
+    </message>
+    <message>
+        <source>Focal point</source>
+        <translation>Punct focal</translation>
+    </message>
+    <message>
+        <source>Crop box</source>
+        <translation>Cadru de decupare</translation>
+    </message>
+    <message>
+        <source>Crop</source>
+        <translation>Decupează</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>Resetează</translation>
+    </message>
+    <message>
+        <source>Click or drag on the image to set the focal point. Arrow keys move it; on the crop box, Shift and an arrow key change its size.</source>
+        <translation>Faceți clic sau trageți pe imagine pentru a seta punctul focal. Tastele săgeți îl mută; pe cadrul de decupare, Shift și o tastă săgeată îi schimbă dimensiunea.</translation>
+    </message>
+    <message>
+        <source>How each size will look</source>
+        <translation>Cum va arăta fiecare dimensiune</translation>
+    </message>
+    <message>
+        <source>The templates of this page use no size of this image yet.</source>
+        <translation>Șabloanele acestei pagini nu folosesc încă nicio dimensiune a acestei imagini.</translation>
+    </message>
+    <message>
+        <source>This size keeps its own crop.</source>
+        <translation>Această dimensiune își păstrează propria decupare.</translation>
+    </message>
+    <message>
+        <source>Saved: the sizes are made again around the focal point.</source>
+        <translation>Salvat: dimensiunile sunt refăcute în jurul punctului focal.</translation>
+    </message>
 </context>
 </TS>

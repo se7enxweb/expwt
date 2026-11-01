@@ -1819,5 +1819,53 @@
         <source>%n migrations need attention</source>
         <translation>%n μεταναστεύσεις χρειάζονται προσοχή</translation>
     </message>
+    <message>
+        <source>This image cannot have a focal point.</source>
+        <translation>Αυτή η εικόνα δεν μπορεί να έχει σημείο εστίασης.</translation>
+    </message>
+    <message>
+        <source>Focal points are not available here.</source>
+        <translation>Τα σημεία εστίασης δεν είναι διαθέσιμα εδώ.</translation>
+    </message>
+    <message>
+        <source>Focal point and crop</source>
+        <translation>Σημείο εστίασης και περικοπή</translation>
+    </message>
+    <message>
+        <source>Focal point</source>
+        <translation>Σημείο εστίασης</translation>
+    </message>
+    <message>
+        <source>Crop box</source>
+        <translation>Πλαίσιο περικοπής</translation>
+    </message>
+    <message>
+        <source>Crop</source>
+        <translation>Περικοπή</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>Επαναφορά</translation>
+    </message>
+    <message>
+        <source>Click or drag on the image to set the focal point. Arrow keys move it; on the crop box, Shift and an arrow key change its size.</source>
+        <translation>Κάντε κλικ ή σύρετε πάνω στην εικόνα για να ορίσετε το σημείο εστίασης. Τα πλήκτρα βέλους το μετακινούν· στο πλαίσιο περικοπής, το Shift και ένα πλήκτρο βέλους αλλάζουν το μέγεθός του.</translation>
+    </message>
+    <message>
+        <source>How each size will look</source>
+        <translation>Πώς θα φαίνεται κάθε μέγεθος</translation>
+    </message>
+    <message>
+        <source>The templates of this page use no size of this image yet.</source>
+        <translation>Τα πρότυπα αυτής της σελίδας δεν χρησιμοποιούν ακόμη κανένα μέγεθος αυτής της εικόνας.</translation>
+    </message>
+    <message>
+        <source>This size keeps its own crop.</source>
+        <translation>Αυτό το μέγεθος διατηρεί τη δική του περικοπή.</translation>
+    </message>
+    <message>
+        <source>Saved: the sizes are made again around the focal point.</source>
+        <translation>Αποθηκεύτηκε: τα μεγέθη δημιουργούνται ξανά γύρω από το σημείο εστίασης.</translation>
+    </message>
 </context>
 </TS>

@@ -1819,5 +1819,53 @@
         <source>%n migrations need attention</source>
         <translation>%n migreringer kræver opmærksomhed</translation>
     </message>
+    <message>
+        <source>This image cannot have a focal point.</source>
+        <translation>Dette billede kan ikke have et fokuspunkt.</translation>
+    </message>
+    <message>
+        <source>Focal points are not available here.</source>
+        <translation>Fokuspunkter er ikke tilgængelige her.</translation>
+    </message>
+    <message>
+        <source>Focal point and crop</source>
+        <translation>Fokuspunkt og beskæring</translation>
+    </message>
+    <message>
+        <source>Focal point</source>
+        <translation>Fokuspunkt</translation>
+    </message>
+    <message>
+        <source>Crop box</source>
+        <translation>Beskæringsramme</translation>
+    </message>
+    <message>
+        <source>Crop</source>
+        <translation>Beskær</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>Nulstil</translation>
+    </message>
+    <message>
+        <source>Click or drag on the image to set the focal point. Arrow keys move it; on the crop box, Shift and an arrow key change its size.</source>
+        <translation>Klik eller træk på billedet for at angive fokuspunktet. Piletasterne flytter det; på beskæringsrammen ændrer Shift og en piletast dens størrelse.</translation>
+    </message>
+    <message>
+        <source>How each size will look</source>
+        <translation>Sådan vil hver størrelse se ud</translation>
+    </message>
+    <message>
+        <source>The templates of this page use no size of this image yet.</source>
+        <translation>Skabelonerne på denne side bruger endnu ingen størrelse af dette billede.</translation>
+    </message>
+    <message>
+        <source>This size keeps its own crop.</source>
+        <translation>Denne størrelse beholder sin egen beskæring.</translation>
+    </message>
+    <message>
+        <source>Saved: the sizes are made again around the focal point.</source>
+        <translation>Gemt: størrelserne laves igen omkring fokuspunktet.</translation>
+    </message>
 </context>
 </TS>

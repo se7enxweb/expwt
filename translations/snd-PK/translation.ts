@@ -1819,5 +1819,53 @@
         <source>%n migrations need attention</source>
         <translation>%n مائگريشنن کي ڌيان جي ضرورت آهي</translation>
     </message>
+    <message>
+        <source>This image cannot have a focal point.</source>
+        <translation>هن تصوير جو فوڪل پوائنٽ نٿو ٿي سگهي.</translation>
+    </message>
+    <message>
+        <source>Focal points are not available here.</source>
+        <translation>فوڪل پوائنٽ هتي موجود ناهن.</translation>
+    </message>
+    <message>
+        <source>Focal point and crop</source>
+        <translation>فوڪل پوائنٽ ۽ ڪراپ</translation>
+    </message>
+    <message>
+        <source>Focal point</source>
+        <translation>فوڪل پوائنٽ</translation>
+    </message>
+    <message>
+        <source>Crop box</source>
+        <translation>ڪراپ خانو</translation>
+    </message>
+    <message>
+        <source>Crop</source>
+        <translation>ڪراپ ڪريو</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>ري سيٽ ڪريو</translation>
+    </message>
+    <message>
+        <source>Click or drag on the image to set the focal point. Arrow keys move it; on the crop box, Shift and an arrow key change its size.</source>
+        <translation>فوڪل پوائنٽ مقرر ڪرڻ لاءِ تصوير تي ڪلڪ ڪريو يا ڇڪيو. تير واريون ڪنجيون ان کي هلائين ٿيون؛ ڪراپ خاني تي Shift ۽ تير واري ڪنجي ان جي ماپ بدلائين ٿيون.</translation>
+    </message>
+    <message>
+        <source>How each size will look</source>
+        <translation>هر ماپ ڪيئن نظر ايندي</translation>
+    </message>
+    <message>
+        <source>The templates of this page use no size of this image yet.</source>
+        <translation>هن صفحي جا سانچا اڃا هن تصوير جي ڪا به ماپ استعمال نٿا ڪن.</translation>
+    </message>
+    <message>
+        <source>This size keeps its own crop.</source>
+        <translation>هيءَ ماپ پنهنجو ڪراپ رکي ٿي.</translation>
+    </message>
+    <message>
+        <source>Saved: the sizes are made again around the focal point.</source>
+        <translation>محفوظ ٿيو: ماپون فوڪل پوائنٽ جي چوڌاري ٻيهر ٺاهيون وڃن ٿيون.</translation>
+    </message>
 </context>
 </TS>

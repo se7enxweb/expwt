@@ -1819,5 +1819,53 @@
         <source>%n migrations need attention</source>
         <translation>%n mudiad angen sylw</translation>
     </message>
+    <message>
+        <source>This image cannot have a focal point.</source>
+        <translation>Ni all y ddelwedd hon gael canolbwynt.</translation>
+    </message>
+    <message>
+        <source>Focal points are not available here.</source>
+        <translation>Nid oes canolbwyntiau ar gael yma.</translation>
+    </message>
+    <message>
+        <source>Focal point and crop</source>
+        <translation>Canolbwynt a thocio</translation>
+    </message>
+    <message>
+        <source>Focal point</source>
+        <translation>Canolbwynt</translation>
+    </message>
+    <message>
+        <source>Crop box</source>
+        <translation>Blwch tocio</translation>
+    </message>
+    <message>
+        <source>Crop</source>
+        <translation>Tocio</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>Ailosod</translation>
+    </message>
+    <message>
+        <source>Click or drag on the image to set the focal point. Arrow keys move it; on the crop box, Shift and an arrow key change its size.</source>
+        <translation>Cliciwch neu llusgwch ar y ddelwedd i osod y canolbwynt. Mae'r bysellau saeth yn ei symud; ar y blwch tocio, mae Shift a bysell saeth yn newid ei faint.</translation>
+    </message>
+    <message>
+        <source>How each size will look</source>
+        <translation>Sut bydd pob maint yn edrych</translation>
+    </message>
+    <message>
+        <source>The templates of this page use no size of this image yet.</source>
+        <translation>Nid yw templedi'r dudalen hon yn defnyddio unrhyw faint o'r ddelwedd hon eto.</translation>
+    </message>
+    <message>
+        <source>This size keeps its own crop.</source>
+        <translation>Mae'r maint hwn yn cadw ei docio ei hun.</translation>
+    </message>
+    <message>
+        <source>Saved: the sizes are made again around the focal point.</source>
+        <translation>Wedi'i gadw: mae'r meintiau'n cael eu gwneud eto o amgylch y canolbwynt.</translation>
+    </message>
 </context>
 </TS>

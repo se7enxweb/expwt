@@ -1819,5 +1819,53 @@
         <source>%n migrations need attention</source>
         <translation>%n מיגראַציעס דאַרפֿן אויפֿמערקזאַמקייט</translation>
     </message>
+    <message>
+        <source>This image cannot have a focal point.</source>
+        <translation>דאָס בילד קען נישט האָבן קיין פֿאָקוס־פּונקט.</translation>
+    </message>
+    <message>
+        <source>Focal points are not available here.</source>
+        <translation>פֿאָקוס־פּונקטן זענען דאָ נישט פֿאַראַן.</translation>
+    </message>
+    <message>
+        <source>Focal point and crop</source>
+        <translation>פֿאָקוס־פּונקט און אויסשניט</translation>
+    </message>
+    <message>
+        <source>Focal point</source>
+        <translation>פֿאָקוס־פּונקט</translation>
+    </message>
+    <message>
+        <source>Crop box</source>
+        <translation>אויסשניט־ראַם</translation>
+    </message>
+    <message>
+        <source>Crop</source>
+        <translation>אויסשנײַדן</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>צוריקשטעלן</translation>
+    </message>
+    <message>
+        <source>Click or drag on the image to set the focal point. Arrow keys move it; on the crop box, Shift and an arrow key change its size.</source>
+        <translation>קליקט אָדער שלעפּט אויפֿן בילד כּדי צו באַשטימען דעם פֿאָקוס־פּונקט. די פֿײַל־קלאַווישן רירן אים; אויף דער אויסשניט־ראַם ענדערן Shift און אַ פֿײַל־קלאַוויש איר גרייס.</translation>
+    </message>
+    <message>
+        <source>How each size will look</source>
+        <translation>ווי יעדע גרייס וועט אויסזען</translation>
+    </message>
+    <message>
+        <source>The templates of this page use no size of this image yet.</source>
+        <translation>די מוסטערן פֿון דעם בלאַט ניצן נאָך קיין גרייס פֿון דעם בילד נישט.</translation>
+    </message>
+    <message>
+        <source>This size keeps its own crop.</source>
+        <translation>די גרייס האַלט איר אייגענעם אויסשניט.</translation>
+    </message>
+    <message>
+        <source>Saved: the sizes are made again around the focal point.</source>
+        <translation>געהיט: די גרייסן ווערן ווידער געמאַכט אַרום דעם פֿאָקוס־פּונקט.</translation>
+    </message>
 </context>
 </TS>

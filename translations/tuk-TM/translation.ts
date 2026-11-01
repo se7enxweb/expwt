@@ -1819,5 +1819,53 @@
         <source>%n migrations need attention</source>
         <translation>%n migrasiýa üns talap edýär</translation>
     </message>
+    <message>
+        <source>This image cannot have a focal point.</source>
+        <translation>Bu suratyň fokus nokady bolup bilmeýär.</translation>
+    </message>
+    <message>
+        <source>Focal points are not available here.</source>
+        <translation>Fokus nokatlary bu ýerde elýeterli däl.</translation>
+    </message>
+    <message>
+        <source>Focal point and crop</source>
+        <translation>Fokus nokady we kesmek</translation>
+    </message>
+    <message>
+        <source>Focal point</source>
+        <translation>Fokus nokady</translation>
+    </message>
+    <message>
+        <source>Crop box</source>
+        <translation>Kesiş çarçuwasy</translation>
+    </message>
+    <message>
+        <source>Crop</source>
+        <translation>Kes</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>Täzeden sazla</translation>
+    </message>
+    <message>
+        <source>Click or drag on the image to set the focal point. Arrow keys move it; on the crop box, Shift and an arrow key change its size.</source>
+        <translation>Fokus nokadyny bellemek üçin surata basyň ýa-da süýräň. Ok düwmeleri ony süýşürýär; kesiş çarçuwasynda Shift we ok düwmesi onuň ölçegini üýtgedýär.</translation>
+    </message>
+    <message>
+        <source>How each size will look</source>
+        <translation>Her ölçeg nähili görüner</translation>
+    </message>
+    <message>
+        <source>The templates of this page use no size of this image yet.</source>
+        <translation>Bu sahypanyň şablonlary entek bu suratyň hiç bir ölçegini ulanmaýar.</translation>
+    </message>
+    <message>
+        <source>This size keeps its own crop.</source>
+        <translation>Bu ölçeg öz kesişini saklaýar.</translation>
+    </message>
+    <message>
+        <source>Saved: the sizes are made again around the focal point.</source>
+        <translation>Ýatda saklandy: ölçegler fokus nokadynyň töwereginde täzeden döredilýär.</translation>
+    </message>
 </context>
 </TS>

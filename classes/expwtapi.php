@@ -217,6 +217,13 @@ class expwtApi
                 return $g->calendarVariant( self::ids( $input, array( 'conditionId' ) ) + self::strings( $input, array( 'which', 'at' ) ) );
             case 'migrations.load':
                 return $g->migrations();
+            case 'images.load':
+                return $g->images( self::ids( $input, array( 'objectId', 'version' ) ) + self::strings( $input, array( 'language', 'field' ) ) );
+            case 'images.save':
+                // the focal point and crop as numbers (expwtImages checks them), null or absent for none
+                return $g->imagesSave( self::ids( $input, array( 'objectId', 'version' ) ) + self::strings( $input, array( 'language', 'field' ) )
+                                       + array( 'focal' => self::numbers( $input, 'focal', array( 'x', 'y' ) ),
+                                                'crop' => self::numbers( $input, 'crop', array( 'x', 'y', 'width', 'height' ) ) ) );
             case 'page.elsewhere':
                 return $g->elsewhere( self::ids( $input, array( 'nodeId' ) ) );
             case 'seo.check':
@@ -284,6 +291,26 @@ class expwtApi
         foreach ( $names as $name )
             if ( isset( $input[$name] ) && is_numeric( $input[$name] ) && (int)$input[$name] > 0 )
                 $out[$name] = (int)$input[$name];
+        return $out;
+    }
+
+    /**
+     * @param array $input
+     * @param string $name an object of the input (focal, crop)
+     * @param string[] $keys
+     * @return array|null|string its keys as numbers (or as given when not numeric, for the gateway to refuse); null when
+     *                        it is absent or null; 'invalid' when it is not an object
+     */
+    public static function numbers( array $input, $name, array $keys )
+    {
+        if ( !isset( $input[$name] ) || $input[$name] === '' )
+            return null;
+        if ( !is_array( $input[$name] ) )
+            return 'invalid';
+        $out = array();
+        foreach ( $keys as $key )
+            $out[$key] = isset( $input[$name][$key] ) && is_scalar( $input[$name][$key] )
+                ? ( is_numeric( $input[$name][$key] ) ? (float)$input[$name][$key] : (string)$input[$name][$key] ) : null;
         return $out;
     }
 

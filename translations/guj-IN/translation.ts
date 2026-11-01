@@ -1819,5 +1819,53 @@
         <source>%n migrations need attention</source>
         <translation>%n માઇગ્રેશનને ધ્યાનની જરૂર છે</translation>
     </message>
+    <message>
+        <source>This image cannot have a focal point.</source>
+        <translation>આ છબીમાં ફોકલ પોઇન્ટ હોઈ શકતો નથી.</translation>
+    </message>
+    <message>
+        <source>Focal points are not available here.</source>
+        <translation>ફોકલ પોઇન્ટ અહીં ઉપલબ્ધ નથી.</translation>
+    </message>
+    <message>
+        <source>Focal point and crop</source>
+        <translation>ફોકલ પોઇન્ટ અને ક્રોપ</translation>
+    </message>
+    <message>
+        <source>Focal point</source>
+        <translation>ફોકલ પોઇન્ટ</translation>
+    </message>
+    <message>
+        <source>Crop box</source>
+        <translation>ક્રોપ બોક્સ</translation>
+    </message>
+    <message>
+        <source>Crop</source>
+        <translation>ક્રોપ કરો</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>રીસેટ કરો</translation>
+    </message>
+    <message>
+        <source>Click or drag on the image to set the focal point. Arrow keys move it; on the crop box, Shift and an arrow key change its size.</source>
+        <translation>ફોકલ પોઇન્ટ સેટ કરવા માટે છબી પર ક્લિક કરો અથવા ખેંચો. એરો કી તેને ખસેડે છે; ક્રોપ બોક્સ પર, Shift અને એરો કી તેનું કદ બદલે છે.</translation>
+    </message>
+    <message>
+        <source>How each size will look</source>
+        <translation>દરેક કદ કેવું દેખાશે</translation>
+    </message>
+    <message>
+        <source>The templates of this page use no size of this image yet.</source>
+        <translation>આ પેજના ટેમ્પલેટ હજુ આ છબીનું કોઈ કદ વાપરતા નથી.</translation>
+    </message>
+    <message>
+        <source>This size keeps its own crop.</source>
+        <translation>આ કદ પોતાનો ક્રોપ જાળવી રાખે છે.</translation>
+    </message>
+    <message>
+        <source>Saved: the sizes are made again around the focal point.</source>
+        <translation>સાચવ્યું: કદ ફોકલ પોઇન્ટની આસપાસ ફરીથી બનાવવામાં આવે છે.</translation>
+    </message>
 </context>
 </TS>

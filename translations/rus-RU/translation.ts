@@ -1819,5 +1819,53 @@
         <source>%n migrations need attention</source>
         <translation>Миграций, требующих внимания: %n</translation>
     </message>
+    <message>
+        <source>This image cannot have a focal point.</source>
+        <translation>У этого изображения не может быть точки фокуса.</translation>
+    </message>
+    <message>
+        <source>Focal points are not available here.</source>
+        <translation>Точки фокуса здесь недоступны.</translation>
+    </message>
+    <message>
+        <source>Focal point and crop</source>
+        <translation>Точка фокуса и обрезка</translation>
+    </message>
+    <message>
+        <source>Focal point</source>
+        <translation>Точка фокуса</translation>
+    </message>
+    <message>
+        <source>Crop box</source>
+        <translation>Рамка обрезки</translation>
+    </message>
+    <message>
+        <source>Crop</source>
+        <translation>Обрезать</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>Сбросить</translation>
+    </message>
+    <message>
+        <source>Click or drag on the image to set the focal point. Arrow keys move it; on the crop box, Shift and an arrow key change its size.</source>
+        <translation>Щёлкните или перетащите по изображению, чтобы задать точку фокуса. Клавиши со стрелками перемещают её; на рамке обрезки Shift и клавиша со стрелкой меняют её размер.</translation>
+    </message>
+    <message>
+        <source>How each size will look</source>
+        <translation>Как будет выглядеть каждый размер</translation>
+    </message>
+    <message>
+        <source>The templates of this page use no size of this image yet.</source>
+        <translation>Шаблоны этой страницы пока не используют ни одного размера этого изображения.</translation>
+    </message>
+    <message>
+        <source>This size keeps its own crop.</source>
+        <translation>Этот размер сохраняет собственную обрезку.</translation>
+    </message>
+    <message>
+        <source>Saved: the sizes are made again around the focal point.</source>
+        <translation>Сохранено: размеры создаются заново вокруг точки фокуса.</translation>
+    </message>
 </context>
 </TS>

@@ -1819,5 +1819,53 @@
         <source>%n migrations need attention</source>
         <translation>Миграции, изискващи внимание: %n</translation>
     </message>
+    <message>
+        <source>This image cannot have a focal point.</source>
+        <translation>Това изображение не може да има фокусна точка.</translation>
+    </message>
+    <message>
+        <source>Focal points are not available here.</source>
+        <translation>Фокусните точки не са налични тук.</translation>
+    </message>
+    <message>
+        <source>Focal point and crop</source>
+        <translation>Фокусна точка и изрязване</translation>
+    </message>
+    <message>
+        <source>Focal point</source>
+        <translation>Фокусна точка</translation>
+    </message>
+    <message>
+        <source>Crop box</source>
+        <translation>Рамка за изрязване</translation>
+    </message>
+    <message>
+        <source>Crop</source>
+        <translation>Изрязване</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>Нулиране</translation>
+    </message>
+    <message>
+        <source>Click or drag on the image to set the focal point. Arrow keys move it; on the crop box, Shift and an arrow key change its size.</source>
+        <translation>Щракнете или плъзнете върху изображението, за да зададете фокусната точка. Клавишите със стрелки я преместват; върху рамката за изрязване Shift и клавиш със стрелка променят размера ѝ.</translation>
+    </message>
+    <message>
+        <source>How each size will look</source>
+        <translation>Как ще изглежда всеки размер</translation>
+    </message>
+    <message>
+        <source>The templates of this page use no size of this image yet.</source>
+        <translation>Шаблоните на тази страница все още не използват никой размер на това изображение.</translation>
+    </message>
+    <message>
+        <source>This size keeps its own crop.</source>
+        <translation>Този размер запазва собственото си изрязване.</translation>
+    </message>
+    <message>
+        <source>Saved: the sizes are made again around the focal point.</source>
+        <translation>Запазено: размерите се създават отново около фокусната точка.</translation>
+    </message>
 </context>
 </TS>

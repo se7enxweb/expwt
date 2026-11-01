@@ -1819,5 +1819,53 @@
         <source>%n migrations need attention</source>
         <translation>Migration %n hiã ŋkuléleɖeŋu</translation>
     </message>
+    <message>
+        <source>This image cannot have a focal point.</source>
+        <translation>Nɔnɔmetata sia mate ŋu akpɔ teƒe vevitɔ o.</translation>
+    </message>
+    <message>
+        <source>Focal points are not available here.</source>
+        <translation>Teƒe vevitɔwo mele afi sia o.</translation>
+    </message>
+    <message>
+        <source>Focal point and crop</source>
+        <translation>Teƒe vevitɔ kple lãlã</translation>
+    </message>
+    <message>
+        <source>Focal point</source>
+        <translation>Teƒe vevitɔ</translation>
+    </message>
+    <message>
+        <source>Crop box</source>
+        <translation>Lãlã ƒe aɖaka</translation>
+    </message>
+    <message>
+        <source>Crop</source>
+        <translation>Lã</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>Gbugbɔ ɖoe</translation>
+    </message>
+    <message>
+        <source>Click or drag on the image to set the focal point. Arrow keys move it; on the crop box, Shift and an arrow key change its size.</source>
+        <translation>Zi alo he ɖe nɔnɔmetata la dzi be nàɖo teƒe vevitɔ la. Aŋutrɔ ƒe safuiwo ʋãnɛ; le lãlã ƒe aɖaka la dzi, Shift kple aŋutrɔ ƒe safui trɔa eƒe lolome.</translation>
+    </message>
+    <message>
+        <source>How each size will look</source>
+        <translation>Alesi lolome ɖesiaɖe adze</translation>
+    </message>
+    <message>
+        <source>The templates of this page use no size of this image yet.</source>
+        <translation>Axa sia ƒe kpɔɖeŋuwo mezã nɔnɔmetata sia ƒe lolome aɖeke haɖe o.</translation>
+    </message>
+    <message>
+        <source>This size keeps its own crop.</source>
+        <translation>Lolome sia léa eya ŋutɔ ƒe lãlã ɖe asi.</translation>
+    </message>
+    <message>
+        <source>Saved: the sizes are made again around the focal point.</source>
+        <translation>Wodzrae ɖo: wogawɔa lolomewo ɖe teƒe vevitɔ la ŋu.</translation>
+    </message>
 </context>
 </TS>

@@ -1819,5 +1819,53 @@
         <source>%n migrations need attention</source>
         <translation>%n migradoj bezonas atenton</translation>
     </message>
+    <message>
+        <source>This image cannot have a focal point.</source>
+        <translation>Ĉi tiu bildo ne povas havi fokuspunkton.</translation>
+    </message>
+    <message>
+        <source>Focal points are not available here.</source>
+        <translation>Fokuspunktoj ne disponeblas ĉi tie.</translation>
+    </message>
+    <message>
+        <source>Focal point and crop</source>
+        <translation>Fokuspunkto kaj tondado</translation>
+    </message>
+    <message>
+        <source>Focal point</source>
+        <translation>Fokuspunkto</translation>
+    </message>
+    <message>
+        <source>Crop box</source>
+        <translation>Tondokadro</translation>
+    </message>
+    <message>
+        <source>Crop</source>
+        <translation>Tondi</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>Restarigi</translation>
+    </message>
+    <message>
+        <source>Click or drag on the image to set the focal point. Arrow keys move it; on the crop box, Shift and an arrow key change its size.</source>
+        <translation>Alklaku aŭ trenu sur la bildo por difini la fokuspunkton. La sagoklavoj movas ĝin; sur la tondokadro, Shift kaj sagoklavo ŝanĝas ĝian grandon.</translation>
+    </message>
+    <message>
+        <source>How each size will look</source>
+        <translation>Kiel aspektos ĉiu grando</translation>
+    </message>
+    <message>
+        <source>The templates of this page use no size of this image yet.</source>
+        <translation>La ŝablonoj de ĉi tiu paĝo ankoraŭ uzas neniun grandon de ĉi tiu bildo.</translation>
+    </message>
+    <message>
+        <source>This size keeps its own crop.</source>
+        <translation>Ĉi tiu grando konservas sian propran tondadon.</translation>
+    </message>
+    <message>
+        <source>Saved: the sizes are made again around the focal point.</source>
+        <translation>Konservita: la grandoj estas refaritaj ĉirkaŭ la fokuspunkto.</translation>
+    </message>
 </context>
 </TS>

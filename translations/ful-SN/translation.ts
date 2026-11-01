@@ -1819,5 +1819,53 @@
         <source>%n migrations need attention</source>
         <translation>%n eggi ina njiɗi reentaade</translation>
     </message>
+    <message>
+        <source>This image cannot have a focal point.</source>
+        <translation>Natal ngal waawaa jogaade tonngoode hakkille.</translation>
+    </message>
+    <message>
+        <source>Focal points are not available here.</source>
+        <translation>Tonngooje hakkille ngalaa ɗoo.</translation>
+    </message>
+    <message>
+        <source>Focal point and crop</source>
+        <translation>Tonngoode hakkille e taƴgol</translation>
+    </message>
+    <message>
+        <source>Focal point</source>
+        <translation>Tonngoode hakkille</translation>
+    </message>
+    <message>
+        <source>Crop box</source>
+        <translation>Kees taƴgol</translation>
+    </message>
+    <message>
+        <source>Crop</source>
+        <translation>Taƴ</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>Fuɗɗito</translation>
+    </message>
+    <message>
+        <source>Click or drag on the image to set the focal point. Arrow keys move it; on the crop box, Shift and an arrow key change its size.</source>
+        <translation>Dobo walla foor e natal ngal ngam waɗde tonngoode hakkille. Tuuɗe sowle ndee ina dirta nde; e kees taƴgol, Shift e tuuɗe sowle ina waylita mawnugol mayre.</translation>
+    </message>
+    <message>
+        <source>How each size will look</source>
+        <translation>No mawnugol kala yiyortoo</translation>
+    </message>
+    <message>
+        <source>The templates of this page use no size of this image yet.</source>
+        <translation>Tiimtirɗe hello ngoo huutoraaki tawo mawnugol natal ngal.</translation>
+    </message>
+    <message>
+        <source>This size keeps its own crop.</source>
+        <translation>Mawnugol ngol ina jogii taƴgol mum.</translation>
+    </message>
+    <message>
+        <source>Saved: the sizes are made again around the focal point.</source>
+        <translation>Mooftaama: mawnuuji ɗii ina waɗee kadi takko tonngoode hakkille.</translation>
+    </message>
 </context>
 </TS>

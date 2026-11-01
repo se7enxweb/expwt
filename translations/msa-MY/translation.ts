@@ -1819,5 +1819,53 @@
         <source>%n migrations need attention</source>
         <translation>%n migrasi perlu perhatian</translation>
     </message>
+    <message>
+        <source>This image cannot have a focal point.</source>
+        <translation>Imej ini tidak boleh mempunyai titik fokus.</translation>
+    </message>
+    <message>
+        <source>Focal points are not available here.</source>
+        <translation>Titik fokus tidak tersedia di sini.</translation>
+    </message>
+    <message>
+        <source>Focal point and crop</source>
+        <translation>Titik fokus dan pangkasan</translation>
+    </message>
+    <message>
+        <source>Focal point</source>
+        <translation>Titik fokus</translation>
+    </message>
+    <message>
+        <source>Crop box</source>
+        <translation>Kotak pangkas</translation>
+    </message>
+    <message>
+        <source>Crop</source>
+        <translation>Pangkas</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>Set semula</translation>
+    </message>
+    <message>
+        <source>Click or drag on the image to set the focal point. Arrow keys move it; on the crop box, Shift and an arrow key change its size.</source>
+        <translation>Klik atau seret pada imej untuk menetapkan titik fokus. Kekunci anak panah menggerakkannya; pada kotak pangkas, Shift dan kekunci anak panah mengubah saiznya.</translation>
+    </message>
+    <message>
+        <source>How each size will look</source>
+        <translation>Rupa setiap saiz</translation>
+    </message>
+    <message>
+        <source>The templates of this page use no size of this image yet.</source>
+        <translation>Templat halaman ini belum menggunakan sebarang saiz imej ini.</translation>
+    </message>
+    <message>
+        <source>This size keeps its own crop.</source>
+        <translation>Saiz ini mengekalkan pangkasannya sendiri.</translation>
+    </message>
+    <message>
+        <source>Saved: the sizes are made again around the focal point.</source>
+        <translation>Disimpan: saiz-saiz dibuat semula di sekitar titik fokus.</translation>
+    </message>
 </context>
 </TS>

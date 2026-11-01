@@ -1819,5 +1819,53 @@
         <source>%n migrations need attention</source>
         <translation>%n Migratioune brauchen Opmierksamkeet</translation>
     </message>
+    <message>
+        <source>This image cannot have a focal point.</source>
+        <translation>Dëst Bild kann kee Fokuspunkt hunn.</translation>
+    </message>
+    <message>
+        <source>Focal points are not available here.</source>
+        <translation>Fokuspunkten sinn hei net disponibel.</translation>
+    </message>
+    <message>
+        <source>Focal point and crop</source>
+        <translation>Fokuspunkt an Ausschnëtt</translation>
+    </message>
+    <message>
+        <source>Focal point</source>
+        <translation>Fokuspunkt</translation>
+    </message>
+    <message>
+        <source>Crop box</source>
+        <translation>Ausschnëttsrumm</translation>
+    </message>
+    <message>
+        <source>Crop</source>
+        <translation>Ausschneiden</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>Zrécksetzen</translation>
+    </message>
+    <message>
+        <source>Click or drag on the image to set the focal point. Arrow keys move it; on the crop box, Shift and an arrow key change its size.</source>
+        <translation>Klickt oder zitt op d'Bild, fir de Fokuspunkt ze setzen. D'Pfeiltaste beweegen en; um Ausschnëttsrumm änneren Shift an eng Pfeiltast seng Gréisst.</translation>
+    </message>
+    <message>
+        <source>How each size will look</source>
+        <translation>Wéi all Gréisst ausgesäit</translation>
+    </message>
+    <message>
+        <source>The templates of this page use no size of this image yet.</source>
+        <translation>D'Schablounen vun dëser Säit benotzen nach keng Gréisst vun dësem Bild.</translation>
+    </message>
+    <message>
+        <source>This size keeps its own crop.</source>
+        <translation>Dës Gréisst behält hiren eegenen Ausschnëtt.</translation>
+    </message>
+    <message>
+        <source>Saved: the sizes are made again around the focal point.</source>
+        <translation>Gespäichert: d'Gréissten ginn ëm de Fokuspunkt nei gemaach.</translation>
+    </message>
 </context>
 </TS>

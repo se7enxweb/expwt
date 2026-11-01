@@ -1819,5 +1819,53 @@
         <source>%n migrations need attention</source>
         <translation>Migrácie vyžadujúce pozornosť: %n</translation>
     </message>
+    <message>
+        <source>This image cannot have a focal point.</source>
+        <translation>Tento obrázok nemôže mať ohniskový bod.</translation>
+    </message>
+    <message>
+        <source>Focal points are not available here.</source>
+        <translation>Ohniskové body tu nie sú k dispozícii.</translation>
+    </message>
+    <message>
+        <source>Focal point and crop</source>
+        <translation>Ohniskový bod a orezanie</translation>
+    </message>
+    <message>
+        <source>Focal point</source>
+        <translation>Ohniskový bod</translation>
+    </message>
+    <message>
+        <source>Crop box</source>
+        <translation>Rámček orezania</translation>
+    </message>
+    <message>
+        <source>Crop</source>
+        <translation>Orezať</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>Obnoviť</translation>
+    </message>
+    <message>
+        <source>Click or drag on the image to set the focal point. Arrow keys move it; on the crop box, Shift and an arrow key change its size.</source>
+        <translation>Kliknite alebo ťahajte na obrázku a nastavte ohniskový bod. Šípky ho posúvajú; na rámčeku orezania mení Shift so šípkou jeho veľkosť.</translation>
+    </message>
+    <message>
+        <source>How each size will look</source>
+        <translation>Ako bude vyzerať každá veľkosť</translation>
+    </message>
+    <message>
+        <source>The templates of this page use no size of this image yet.</source>
+        <translation>Šablóny tejto stránky zatiaľ nepoužívajú žiadnu veľkosť tohto obrázka.</translation>
+    </message>
+    <message>
+        <source>This size keeps its own crop.</source>
+        <translation>Táto veľkosť si ponecháva vlastné orezanie.</translation>
+    </message>
+    <message>
+        <source>Saved: the sizes are made again around the focal point.</source>
+        <translation>Uložené: veľkosti sa vytvoria znova okolo ohniskového bodu.</translation>
+    </message>
 </context>
 </TS>

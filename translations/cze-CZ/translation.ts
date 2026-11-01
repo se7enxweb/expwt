@@ -1819,5 +1819,53 @@
         <source>%n migrations need attention</source>
         <translation>Migrace vyžadující pozornost: %n</translation>
     </message>
+    <message>
+        <source>This image cannot have a focal point.</source>
+        <translation>Tento obrázek nemůže mít ohnisko.</translation>
+    </message>
+    <message>
+        <source>Focal points are not available here.</source>
+        <translation>Ohniska zde nejsou k dispozici.</translation>
+    </message>
+    <message>
+        <source>Focal point and crop</source>
+        <translation>Ohnisko a ořez</translation>
+    </message>
+    <message>
+        <source>Focal point</source>
+        <translation>Ohnisko</translation>
+    </message>
+    <message>
+        <source>Crop box</source>
+        <translation>Rámeček ořezu</translation>
+    </message>
+    <message>
+        <source>Crop</source>
+        <translation>Oříznout</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>Obnovit</translation>
+    </message>
+    <message>
+        <source>Click or drag on the image to set the focal point. Arrow keys move it; on the crop box, Shift and an arrow key change its size.</source>
+        <translation>Klikněte nebo táhněte na obrázku a nastavte ohnisko. Šipky jej posouvají; na rámečku ořezu mění Shift se šipkou jeho velikost.</translation>
+    </message>
+    <message>
+        <source>How each size will look</source>
+        <translation>Jak bude vypadat každá velikost</translation>
+    </message>
+    <message>
+        <source>The templates of this page use no size of this image yet.</source>
+        <translation>Šablony této stránky zatím nepoužívají žádnou velikost tohoto obrázku.</translation>
+    </message>
+    <message>
+        <source>This size keeps its own crop.</source>
+        <translation>Tato velikost si ponechává vlastní ořez.</translation>
+    </message>
+    <message>
+        <source>Saved: the sizes are made again around the focal point.</source>
+        <translation>Uloženo: velikosti se znovu vytvoří kolem ohniska.</translation>
+    </message>
 </context>
 </TS>

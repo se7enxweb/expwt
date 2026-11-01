@@ -1819,5 +1819,53 @@
         <source>%n migrations need attention</source>
         <translation>%n migrasioŋ soxla nañu topptoo</translation>
     </message>
+    <message>
+        <source>This image cannot have a focal point.</source>
+        <translation>Nataal bii mënul am toombu xool.</translation>
+    </message>
+    <message>
+        <source>Focal points are not available here.</source>
+        <translation>Toombi xool amuñu fii.</translation>
+    </message>
+    <message>
+        <source>Focal point and crop</source>
+        <translation>Toombu xool ak dagg</translation>
+    </message>
+    <message>
+        <source>Focal point</source>
+        <translation>Toombu xool</translation>
+    </message>
+    <message>
+        <source>Crop box</source>
+        <translation>Kees bu dagg</translation>
+    </message>
+    <message>
+        <source>Crop</source>
+        <translation>Dagg</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>Delloo ni mu meloon</translation>
+    </message>
+    <message>
+        <source>Click or drag on the image to set the focal point. Arrow keys move it; on the crop box, Shift and an arrow key change its size.</source>
+        <translation>Bësal walla rëddal ci nataal bi ngir taxawal toombu xool bi. Butoŋi fett yi dañu koy randal; ci kees bu dagg bi, Shift ak butoŋu fett dañuy soppi ni mu rëye.</translation>
+    </message>
+    <message>
+        <source>How each size will look</source>
+        <translation>Naka la bépp dayo di mel</translation>
+    </message>
+    <message>
+        <source>The templates of this page use no size of this image yet.</source>
+        <translation>Royuwaayi xët wii jëfandikoguñu ba leegi benn dayo ci nataal bii.</translation>
+    </message>
+    <message>
+        <source>This size keeps its own crop.</source>
+        <translation>Dayo bii dafay denc daggam bopp.</translation>
+    </message>
+    <message>
+        <source>Saved: the sizes are made again around the focal point.</source>
+        <translation>Denc na: dayo yi dañu leen di defaraat ci wetu toombu xool bi.</translation>
+    </message>
 </context>
 </TS>

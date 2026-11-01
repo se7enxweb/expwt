@@ -1819,5 +1819,53 @@
         <source>%n migrations need attention</source>
         <translation>%n migrasies vra aandag</translation>
     </message>
+    <message>
+        <source>This image cannot have a focal point.</source>
+        <translation>Hierdie prent kan nie 'n fokuspunt hê nie.</translation>
+    </message>
+    <message>
+        <source>Focal points are not available here.</source>
+        <translation>Fokuspunte is nie hier beskikbaar nie.</translation>
+    </message>
+    <message>
+        <source>Focal point and crop</source>
+        <translation>Fokuspunt en uitsny</translation>
+    </message>
+    <message>
+        <source>Focal point</source>
+        <translation>Fokuspunt</translation>
+    </message>
+    <message>
+        <source>Crop box</source>
+        <translation>Uitsnyraam</translation>
+    </message>
+    <message>
+        <source>Crop</source>
+        <translation>Uitsny</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>Herstel</translation>
+    </message>
+    <message>
+        <source>Click or drag on the image to set the focal point. Arrow keys move it; on the crop box, Shift and an arrow key change its size.</source>
+        <translation>Klik of sleep op die prent om die fokuspunt te stel. Pyltjiesleutels skuif dit; op die uitsnyraam verander Shift en 'n pyltjiesleutel die grootte.</translation>
+    </message>
+    <message>
+        <source>How each size will look</source>
+        <translation>Hoe elke grootte sal lyk</translation>
+    </message>
+    <message>
+        <source>The templates of this page use no size of this image yet.</source>
+        <translation>Die sjablone van hierdie bladsy gebruik nog geen grootte van hierdie prent nie.</translation>
+    </message>
+    <message>
+        <source>This size keeps its own crop.</source>
+        <translation>Hierdie grootte behou sy eie uitsnit.</translation>
+    </message>
+    <message>
+        <source>Saved: the sizes are made again around the focal point.</source>
+        <translation>Gestoor: die groottes word weer rondom die fokuspunt gemaak.</translation>
+    </message>
 </context>
 </TS>

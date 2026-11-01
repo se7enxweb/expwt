@@ -100,7 +100,7 @@ extensions. A dry run lists the changes first.
 | Panel | For | What |
 |---|---|---|
 | Welcome | visitors not signed in (`ShowToAnonymous`) | sign in, register, search, light or dark |
-| Page | `expwt/use` (reading), `expwt/edit` (changing) | the page's fields in a form, editing on the page, save the draft, preview, the full editor, publish now or at a date, take down at a date, discard the draft |
+| Page | `expwt/use` (reading), `expwt/edit` (changing) | the page's fields in a form, editing on the page, save the draft, preview, the full editor, publish now or at a date, take down at a date, discard the draft; under each image field its focal point and crop with a preview of every size (see "Focal point and crop" below) |
 | Page: comments | `expwt/edit`; each action the kernel's policy of the comment (`content/hide`, `content/remove`) or of the page (`content/create` of a comment) | the page's comments, moderated in place, below the fields of the Page panel. The comments are content below the page (the class of expservices.ini `[Community] CommentClass`, `comment` by default), so the kernel's content policies are the comments' policies. Newest first, at most 50; hidden comments are the ones waiting for moderation and are listed, marked, only for those who may reveal them (`content/hide` of the comment). **Approve** shows a hidden comment, **Hide** hides a shown one (both `content/hide`, through the kernel's hide operation, as the administration's Hide and Reveal); **Spam ...** asks once more in the panel and moves the comment to the trash (`content/remove`; it can be restored from the trash in the administration). **Reply** writes a comment below the page by the user (subject "Re: " and the comment's subject, the user's name as the author), published through the kernel's publishing, so an approval workflow applies; **Write a comment** does the same for the page itself. "Verify it's you" asks exactly where the administration asks for hiding, removing and publishing. Each moderation and reply is audited (`content.comment.approve`, `.hide`, `.spam`, `.reply`). The number of comments waiting for moderation is a badge on the Page panel's tab (from the boot, no extra request; none at 0). With `[Comments] HideNew=enabled` a new comment waits for moderation: a comment published for the first time by someone who may not approve it (no `content/hide` of the comment: a visitor, a member) is hidden right after publishing, inside the kernel's publish operation, so the page never shows it; moderators' own comments and their replies stay visible |
 | Create | `expwt/create` | a new page below or beside this one: the classes you may create there, a title, then fill it in the Page panel and publish |
 | Structure | `expwt/structure` | hide and reveal, move and add a location (choose the place in a tree on the site), move to the trash, sort the pages below by dragging or with the up and down buttons |
@@ -162,6 +162,25 @@ schedule and no cronjob of its own.
   default), with the date before and after.
 - What the installation has not set up is said under "Not set up on this site": no "Wait until date" event on the
   publish trigger, or no `[HideSettings]` class and top node.
+
+**Focal point and crop** of an image field (in the Page panel, under the field's editor, closed until opened). It needs
+an Exponential kernel that stores them (6.0.15: the image datatype's focal point and crop rectangle); with an older
+kernel the part is not shown and the sidebar refuses its actions.
+
+- Click or drag on the image to set the focal point, the part of the picture that must stay in view; the arrow keys
+  move it (Shift: in larger steps). **Crop** adds a box: drag it, or drag its corners; on the focused box the arrow
+  keys move it and Shift with an arrow key changes its size. **Reset** removes both.
+- **How each size will look** previews every image alias the page's templates use (each alias the image already has,
+  in the published page or the draft, and every alias with a `geometry/crop` filter), live while you move the point
+  or the box, computed as the kernel computes the alias: the crop box is cut out first, and every crop filter of the
+  alias is centered on the focal point. An alias made by a filter the preview cannot follow shows its file as it is.
+- **Save draft** writes the focal point and the crop into your draft (the first save makes the draft, as the field's
+  editor does). The kernel stores the original again for the draft and makes its sizes again around the point; the
+  previews then show those files. The published page changes only when the draft is published, through the usual
+  publish (and its approval, where there is one).
+- Needs `expwt/edit` and the kernel's `content/edit` of the page in its language; "Verify it's you" asks as the
+  administration's edit asks. Each change is audited as `content.expwt.image.focal`, with the values before and after.
+- Actions `images.load` and `images.save`. An SVG image has no focal point (its sizes are the original file).
 
 **Upgrading from an earlier expwt:** it kept its own schedule (the site data rows `expwt_publish_*` and
 `expwt_unpublish_*`, the cronjob part `expwt_scheduled`). Run `./console exp:wt:migrate-from-ezwt` to see what moves

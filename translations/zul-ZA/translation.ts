@@ -1819,5 +1819,53 @@
         <source>%n migrations need attention</source>
         <translation>Ukufuduswa okungu %n kudinga ukunakwa</translation>
     </message>
+    <message>
+        <source>This image cannot have a focal point.</source>
+        <translation>Lesi sithombe asikwazi ukuba nendawo yokugxila.</translation>
+    </message>
+    <message>
+        <source>Focal points are not available here.</source>
+        <translation>Izindawo zokugxila azitholakali lapha.</translation>
+    </message>
+    <message>
+        <source>Focal point and crop</source>
+        <translation>Indawo yokugxila nokusika</translation>
+    </message>
+    <message>
+        <source>Focal point</source>
+        <translation>Indawo yokugxila</translation>
+    </message>
+    <message>
+        <source>Crop box</source>
+        <translation>Ibhokisi lokusika</translation>
+    </message>
+    <message>
+        <source>Crop</source>
+        <translation>Sika</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>Setha kabusha</translation>
+    </message>
+    <message>
+        <source>Click or drag on the image to set the focal point. Arrow keys move it; on the crop box, Shift and an arrow key change its size.</source>
+        <translation>Chofoza noma udonse esithombeni ukuze usethe indawo yokugxila. Okhiye bomcibisholo bayayihambisa; ebhokisini lokusika, u-Shift nokhiye womcibisholo bashintsha usayizi walo.</translation>
+    </message>
+    <message>
+        <source>How each size will look</source>
+        <translation>Ukuthi usayizi ngamunye uzobukeka kanjani</translation>
+    </message>
+    <message>
+        <source>The templates of this page use no size of this image yet.</source>
+        <translation>Izifanekiso zaleli khasi azikasebenzisi noma yimuphi usayizi walesi sithombe.</translation>
+    </message>
+    <message>
+        <source>This size keeps its own crop.</source>
+        <translation>Lo sayizi ugcina ukusika kwawo.</translation>
+    </message>
+    <message>
+        <source>Saved: the sizes are made again around the focal point.</source>
+        <translation>Kulondoloziwe: osayizi benziwa kabusha bezungeze indawo yokugxila.</translation>
+    </message>
 </context>
 </TS>

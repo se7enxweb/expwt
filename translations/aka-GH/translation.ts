@@ -1819,5 +1819,53 @@
         <source>%n migrations need attention</source>
         <translation>Nsesamu %n hia adwene</translation>
     </message>
+    <message>
+        <source>This image cannot have a focal point.</source>
+        <translation>Mfonini yi ntumi nnya beaeɛ titiriw.</translation>
+    </message>
+    <message>
+        <source>Focal points are not available here.</source>
+        <translation>Beaeɛ titiriw nni ha.</translation>
+    </message>
+    <message>
+        <source>Focal point and crop</source>
+        <translation>Beaeɛ titiriw ne twitwa</translation>
+    </message>
+    <message>
+        <source>Focal point</source>
+        <translation>Beaeɛ titiriw</translation>
+    </message>
+    <message>
+        <source>Crop box</source>
+        <translation>Adaka a wɔde twitwa</translation>
+    </message>
+    <message>
+        <source>Crop</source>
+        <translation>Twitwa</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>San yɛ no foforo</translation>
+    </message>
+    <message>
+        <source>Click or drag on the image to set the focal point. Arrow keys move it; on the crop box, Shift and an arrow key change its size.</source>
+        <translation>Mia anaa twe wɔ mfonini no so na fa beaeɛ titiriw no si hɔ. Agyan nsafe de kɔ; wɔ twitwa adaka no so, Shift ne agyan safe sesa ne kɛseɛ.</translation>
+    </message>
+    <message>
+        <source>How each size will look</source>
+        <translation>Sɛnea kɛseɛ biara bɛyɛ</translation>
+    </message>
+    <message>
+        <source>The templates of this page use no size of this image yet.</source>
+        <translation>Krataafa yi nhwɛsoɔ mfaa mfonini yi kɛseɛ biara nnii dwuma da.</translation>
+    </message>
+    <message>
+        <source>This size keeps its own crop.</source>
+        <translation>Kɛseɛ yi kura ne twitwa ankasa.</translation>
+    </message>
+    <message>
+        <source>Saved: the sizes are made again around the focal point.</source>
+        <translation>Wɔakora so: wɔasan ayɛ kɛseɛ no nyinaa atwa beaeɛ titiriw no ho ahyia.</translation>
+    </message>
 </context>
 </TS>

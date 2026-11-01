@@ -1819,5 +1819,53 @@
         <source>%n migrations need attention</source>
         <translation>%n ਮਾਈਗ੍ਰੇਸ਼ਨਾਂ ਵੱਲ ਧਿਆਨ ਦੀ ਲੋੜ ਹੈ</translation>
     </message>
+    <message>
+        <source>This image cannot have a focal point.</source>
+        <translation>ਇਸ ਚਿੱਤਰ ਦਾ ਫੋਕਲ ਪੁਆਇੰਟ ਨਹੀਂ ਹੋ ਸਕਦਾ।</translation>
+    </message>
+    <message>
+        <source>Focal points are not available here.</source>
+        <translation>ਫੋਕਲ ਪੁਆਇੰਟ ਇੱਥੇ ਉਪਲਬਧ ਨਹੀਂ ਹਨ।</translation>
+    </message>
+    <message>
+        <source>Focal point and crop</source>
+        <translation>ਫੋਕਲ ਪੁਆਇੰਟ ਅਤੇ ਕ੍ਰੌਪ</translation>
+    </message>
+    <message>
+        <source>Focal point</source>
+        <translation>ਫੋਕਲ ਪੁਆਇੰਟ</translation>
+    </message>
+    <message>
+        <source>Crop box</source>
+        <translation>ਕ੍ਰੌਪ ਬਾਕਸ</translation>
+    </message>
+    <message>
+        <source>Crop</source>
+        <translation>ਕ੍ਰੌਪ</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>ਰੀਸੈੱਟ</translation>
+    </message>
+    <message>
+        <source>Click or drag on the image to set the focal point. Arrow keys move it; on the crop box, Shift and an arrow key change its size.</source>
+        <translation>ਫੋਕਲ ਪੁਆਇੰਟ ਸੈੱਟ ਕਰਨ ਲਈ ਚਿੱਤਰ ਉੱਤੇ ਕਲਿੱਕ ਕਰੋ ਜਾਂ ਖਿੱਚੋ। ਤੀਰ ਕੁੰਜੀਆਂ ਇਸਨੂੰ ਹਿਲਾਉਂਦੀਆਂ ਹਨ; ਕ੍ਰੌਪ ਬਾਕਸ ਉੱਤੇ Shift ਅਤੇ ਤੀਰ ਕੁੰਜੀ ਇਸਦਾ ਆਕਾਰ ਬਦਲਦੀਆਂ ਹਨ।</translation>
+    </message>
+    <message>
+        <source>How each size will look</source>
+        <translation>ਹਰ ਆਕਾਰ ਕਿਵੇਂ ਦਿਸੇਗਾ</translation>
+    </message>
+    <message>
+        <source>The templates of this page use no size of this image yet.</source>
+        <translation>ਇਸ ਪੰਨੇ ਦੇ ਟੈਂਪਲੇਟ ਅਜੇ ਇਸ ਚਿੱਤਰ ਦਾ ਕੋਈ ਆਕਾਰ ਨਹੀਂ ਵਰਤਦੇ।</translation>
+    </message>
+    <message>
+        <source>This size keeps its own crop.</source>
+        <translation>ਇਹ ਆਕਾਰ ਆਪਣਾ ਕ੍ਰੌਪ ਰੱਖਦਾ ਹੈ।</translation>
+    </message>
+    <message>
+        <source>Saved: the sizes are made again around the focal point.</source>
+        <translation>ਸੰਭਾਲਿਆ ਗਿਆ: ਆਕਾਰ ਫੋਕਲ ਪੁਆਇੰਟ ਦੇ ਦੁਆਲੇ ਦੁਬਾਰਾ ਬਣਾਏ ਜਾਂਦੇ ਹਨ।</translation>
+    </message>
 </context>
 </TS>

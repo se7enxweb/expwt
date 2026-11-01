@@ -1819,5 +1819,53 @@
         <source>%n migrations need attention</source>
         <translation>%n миграции бараат внимание</translation>
     </message>
+    <message>
+        <source>This image cannot have a focal point.</source>
+        <translation>Оваа слика не може да има фокусна точка.</translation>
+    </message>
+    <message>
+        <source>Focal points are not available here.</source>
+        <translation>Фокусните точки не се достапни тука.</translation>
+    </message>
+    <message>
+        <source>Focal point and crop</source>
+        <translation>Фокусна точка и сечење</translation>
+    </message>
+    <message>
+        <source>Focal point</source>
+        <translation>Фокусна точка</translation>
+    </message>
+    <message>
+        <source>Crop box</source>
+        <translation>Рамка за сечење</translation>
+    </message>
+    <message>
+        <source>Crop</source>
+        <translation>Исечи</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>Ресетирај</translation>
+    </message>
+    <message>
+        <source>Click or drag on the image to set the focal point. Arrow keys move it; on the crop box, Shift and an arrow key change its size.</source>
+        <translation>Кликнете или влечете на сликата за да ја поставите фокусната точка. Стрелките ја поместуваат; на рамката за сечење, Shift и стрелка ја менуваат нејзината големина.</translation>
+    </message>
+    <message>
+        <source>How each size will look</source>
+        <translation>Како ќе изгледа секоја големина</translation>
+    </message>
+    <message>
+        <source>The templates of this page use no size of this image yet.</source>
+        <translation>Шаблоните на оваа страница сè уште не користат ниту една големина на оваа слика.</translation>
+    </message>
+    <message>
+        <source>This size keeps its own crop.</source>
+        <translation>Оваа големина го задржува своето сопствено сечење.</translation>
+    </message>
+    <message>
+        <source>Saved: the sizes are made again around the focal point.</source>
+        <translation>Зачувано: големините се прават повторно околу фокусната точка.</translation>
+    </message>
 </context>
 </TS>

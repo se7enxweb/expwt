@@ -1819,5 +1819,53 @@
         <source>%n migrations need attention</source>
         <translation>%n n tunigin ḥwaǧent ɛinayen</translation>
     </message>
+    <message>
+        <source>This image cannot have a focal point.</source>
+        <translation>Tugna-a ur tezmir ara ad tesɛu tanqiḍt n usaḍas.</translation>
+    </message>
+    <message>
+        <source>Focal points are not available here.</source>
+        <translation>Tinqiḍin n usaḍas ulac-itent da.</translation>
+    </message>
+    <message>
+        <source>Focal point and crop</source>
+        <translation>Tanqiḍt n usaḍas d ugzam</translation>
+    </message>
+    <message>
+        <source>Focal point</source>
+        <translation>Tanqiḍt n usaḍas</translation>
+    </message>
+    <message>
+        <source>Crop box</source>
+        <translation>Tanaka n ugzam</translation>
+    </message>
+    <message>
+        <source>Crop</source>
+        <translation>Gzem</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>Wennez</translation>
+    </message>
+    <message>
+        <source>Click or drag on the image to set the focal point. Arrow keys move it; on the crop box, Shift and an arrow key change its size.</source>
+        <translation>Sit neɣ zuɣer ɣef tugna akken ad tesbaduḍ tanqiḍt n usaḍas. Tisura n yineccaben ttḥerriken-tt; ɣef tnaka n ugzam, Shift d tsarut n uneccab beddlen tiddi-ines.</translation>
+    </message>
+    <message>
+        <source>How each size will look</source>
+        <translation>Amek ara d-tban yal tiddi</translation>
+    </message>
+    <message>
+        <source>The templates of this page use no size of this image yet.</source>
+        <translation>Timudmiwin n usebter-a mazal ur sseqdacent ula d yiwet n tiddi n tugna-a.</translation>
+    </message>
+    <message>
+        <source>This size keeps its own crop.</source>
+        <translation>Tiddi-a teṭṭef agzam-ines.</translation>
+    </message>
+    <message>
+        <source>Saved: the sizes are made again around the focal point.</source>
+        <translation>Yettwasekles: tiddiwin ttwagent tikkelt nniḍen ɣef tnqiḍt n usaḍas.</translation>
+    </message>
 </context>
 </TS>

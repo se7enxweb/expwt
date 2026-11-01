@@ -480,6 +480,18 @@ class expwtStrings
         'Push',
         'Migrations',
         '%n migrations need attention',
+        'This image cannot have a focal point.',
+        'Focal points are not available here.',
+        'Focal point and crop',
+        'Focal point',
+        'Crop box',
+        'Crop',
+        'Reset',
+        'Click or drag on the image to set the focal point. Arrow keys move it; on the crop box, Shift and an arrow key change its size.',
+        'How each size will look',
+        'The templates of this page use no size of this image yet.',
+        'This size keeps its own crop.',
+        'Saved: the sizes are made again around the focal point.',
     );
     /* sources:end */
 

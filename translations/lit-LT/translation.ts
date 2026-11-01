@@ -1819,5 +1819,53 @@
         <source>%n migrations need attention</source>
         <translation>Dėmesio reikia migracijoms: %n</translation>
     </message>
+    <message>
+        <source>This image cannot have a focal point.</source>
+        <translation>Šis vaizdas negali turėti židinio taško.</translation>
+    </message>
+    <message>
+        <source>Focal points are not available here.</source>
+        <translation>Židinio taškai čia nepasiekiami.</translation>
+    </message>
+    <message>
+        <source>Focal point and crop</source>
+        <translation>Židinio taškas ir apkarpymas</translation>
+    </message>
+    <message>
+        <source>Focal point</source>
+        <translation>Židinio taškas</translation>
+    </message>
+    <message>
+        <source>Crop box</source>
+        <translation>Apkarpymo rėmelis</translation>
+    </message>
+    <message>
+        <source>Crop</source>
+        <translation>Apkarpyti</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>Atstatyti</translation>
+    </message>
+    <message>
+        <source>Click or drag on the image to set the focal point. Arrow keys move it; on the crop box, Shift and an arrow key change its size.</source>
+        <translation>Spustelėkite arba vilkite vaizde, kad nustatytumėte židinio tašką. Rodyklių klavišai jį perkelia; ant apkarpymo rėmelio Shift ir rodyklės klavišas keičia jo dydį.</translation>
+    </message>
+    <message>
+        <source>How each size will look</source>
+        <translation>Kaip atrodys kiekvienas dydis</translation>
+    </message>
+    <message>
+        <source>The templates of this page use no size of this image yet.</source>
+        <translation>Šio puslapio šablonai dar nenaudoja jokio šio vaizdo dydžio.</translation>
+    </message>
+    <message>
+        <source>This size keeps its own crop.</source>
+        <translation>Šis dydis išlaiko savo apkarpymą.</translation>
+    </message>
+    <message>
+        <source>Saved: the sizes are made again around the focal point.</source>
+        <translation>Išsaugota: dydžiai sukuriami iš naujo aplink židinio tašką.</translation>
+    </message>
 </context>
 </TS>

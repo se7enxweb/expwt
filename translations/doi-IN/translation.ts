@@ -1819,5 +1819,53 @@
         <source>%n migrations need attention</source>
         <translation>%n माइग्रेशनें पर ध्यान लोड़चदा</translation>
     </message>
+    <message>
+        <source>This image cannot have a focal point.</source>
+        <translation>इस तस्वीरा दा फोकल पॉइंट नेईं होई सकदा।</translation>
+    </message>
+    <message>
+        <source>Focal points are not available here.</source>
+        <translation>फोकल पॉइंट इत्थें उपलब्ध नेईं न।</translation>
+    </message>
+    <message>
+        <source>Focal point and crop</source>
+        <translation>फोकल पॉइंट ते क्रॉप</translation>
+    </message>
+    <message>
+        <source>Focal point</source>
+        <translation>फोकल पॉइंट</translation>
+    </message>
+    <message>
+        <source>Crop box</source>
+        <translation>क्रॉप बक्सा</translation>
+    </message>
+    <message>
+        <source>Crop</source>
+        <translation>क्रॉप</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>रीसेट</translation>
+    </message>
+    <message>
+        <source>Click or drag on the image to set the focal point. Arrow keys move it; on the crop box, Shift and an arrow key change its size.</source>
+        <translation>फोकल पॉइंट तैऽ करने लेई तस्वीरा पर क्लिक करो जां खिच्चो। तीर आह्‌ली कुंजियां इसगी हिलांदियां न; क्रॉप बक्से पर Shift ते तीर आह्‌ली कुंजी इसदा आकार बदलदियां न।</translation>
+    </message>
+    <message>
+        <source>How each size will look</source>
+        <translation>हर आकार कनेहा लभग</translation>
+    </message>
+    <message>
+        <source>The templates of this page use no size of this image yet.</source>
+        <translation>इस सफे दे टेम्पलेट अजें इस तस्वीरा दा कोई आकार नेईं बरतदे।</translation>
+    </message>
+    <message>
+        <source>This size keeps its own crop.</source>
+        <translation>एह् आकार अपना क्रॉप रखदा ऐ।</translation>
+    </message>
+    <message>
+        <source>Saved: the sizes are made again around the focal point.</source>
+        <translation>सेव होई गेआ: आकार फोकल पॉइंट दे चौंने पास्सै फ्ही बनाए जंदे न।</translation>
+    </message>
 </context>
 </TS>

@@ -1819,5 +1819,53 @@
         <source>%n migrations need attention</source>
         <translation>སྤོ་སྒྱུར་ %n ལ་དོ་སྣང་དགོས།</translation>
     </message>
+    <message>
+        <source>This image cannot have a focal point.</source>
+        <translation>པར་རིས་འདིར་དམིགས་ཚད་ཡོད་མི་ཐུབ།</translation>
+    </message>
+    <message>
+        <source>Focal points are not available here.</source>
+        <translation>དམིགས་ཚད་འདིར་མེད།</translation>
+    </message>
+    <message>
+        <source>Focal point and crop</source>
+        <translation>དམིགས་ཚད་དང་བཅད་པ།</translation>
+    </message>
+    <message>
+        <source>Focal point</source>
+        <translation>དམིགས་ཚད།</translation>
+    </message>
+    <message>
+        <source>Crop box</source>
+        <translation>བཅད་སྒྲོམ།</translation>
+    </message>
+    <message>
+        <source>Crop</source>
+        <translation>བཅད།</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>བསྐྱར་སྒྲིག</translation>
+    </message>
+    <message>
+        <source>Click or drag on the image to set the focal point. Arrow keys move it; on the crop box, Shift and an arrow key change its size.</source>
+        <translation>དམིགས་ཚད་གཏན་འཁེལ་བྱེད་པར་པར་རིས་ཀྱི་སྟེང་དུ་མནན་པའམ་འདྲུད། མདའ་མིག་ལྡེ་མིག་གིས་དེ་སྤོ། བཅད་སྒྲོམ་གྱི་སྟེང་དུ་ Shift དང་མདའ་མིག་ལྡེ་མིག་གིས་དེའི་ཆེ་ཆུང་བསྒྱུར།</translation>
+    </message>
+    <message>
+        <source>How each size will look</source>
+        <translation>ཆེ་ཆུང་རེ་རེ་ཇི་ལྟར་མངོན་འགྱུར།</translation>
+    </message>
+    <message>
+        <source>The templates of this page use no size of this image yet.</source>
+        <translation>ཤོག་ངོས་འདིའི་མ་དཔེས་ད་དུང་པར་རིས་འདིའི་ཆེ་ཆུང་གང་ཡང་བེད་སྤྱོད་བྱས་མེད།</translation>
+    </message>
+    <message>
+        <source>This size keeps its own crop.</source>
+        <translation>ཆེ་ཆུང་འདིས་རང་གི་བཅད་པ་ཉར།</translation>
+    </message>
+    <message>
+        <source>Saved: the sizes are made again around the focal point.</source>
+        <translation>ཉར་ཟིན། ཆེ་ཆུང་རྣམས་དམིགས་ཚད་ཀྱི་མཐའ་སྐོར་དུ་བསྐྱར་དུ་བཟོ།</translation>
+    </message>
 </context>
 </TS>

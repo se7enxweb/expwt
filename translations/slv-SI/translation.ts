@@ -1819,5 +1819,53 @@
         <source>%n migrations need attention</source>
         <translation>Migracije, ki zahtevajo pozornost: %n</translation>
     </message>
+    <message>
+        <source>This image cannot have a focal point.</source>
+        <translation>Ta slika ne more imeti žarišča.</translation>
+    </message>
+    <message>
+        <source>Focal points are not available here.</source>
+        <translation>Žarišča tukaj niso na voljo.</translation>
+    </message>
+    <message>
+        <source>Focal point and crop</source>
+        <translation>Žarišče in obrezovanje</translation>
+    </message>
+    <message>
+        <source>Focal point</source>
+        <translation>Žarišče</translation>
+    </message>
+    <message>
+        <source>Crop box</source>
+        <translation>Okvir obrezovanja</translation>
+    </message>
+    <message>
+        <source>Crop</source>
+        <translation>Obreži</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>Ponastavi</translation>
+    </message>
+    <message>
+        <source>Click or drag on the image to set the focal point. Arrow keys move it; on the crop box, Shift and an arrow key change its size.</source>
+        <translation>Kliknite ali povlecite po sliki, da nastavite žarišče. Puščične tipke ga premikajo; na okvirju obrezovanja Shift in puščična tipka spremenita njegovo velikost.</translation>
+    </message>
+    <message>
+        <source>How each size will look</source>
+        <translation>Kako bo videti vsaka velikost</translation>
+    </message>
+    <message>
+        <source>The templates of this page use no size of this image yet.</source>
+        <translation>Predloge te strani še ne uporabljajo nobene velikosti te slike.</translation>
+    </message>
+    <message>
+        <source>This size keeps its own crop.</source>
+        <translation>Ta velikost ohrani svoje obrezovanje.</translation>
+    </message>
+    <message>
+        <source>Saved: the sizes are made again around the focal point.</source>
+        <translation>Shranjeno: velikosti se znova izdelajo okoli žarišča.</translation>
+    </message>
 </context>
 </TS>

@@ -1819,5 +1819,53 @@
         <source>%n migrations need attention</source>
         <translation>%n миграция көңүл бурууну талап кылат</translation>
     </message>
+    <message>
+        <source>This image cannot have a focal point.</source>
+        <translation>Бул сүрөттө фокус чекити болушу мүмкүн эмес.</translation>
+    </message>
+    <message>
+        <source>Focal points are not available here.</source>
+        <translation>Фокус чекиттери бул жерде жеткиликсиз.</translation>
+    </message>
+    <message>
+        <source>Focal point and crop</source>
+        <translation>Фокус чекити жана кесүү</translation>
+    </message>
+    <message>
+        <source>Focal point</source>
+        <translation>Фокус чекити</translation>
+    </message>
+    <message>
+        <source>Crop box</source>
+        <translation>Кесүү алкагы</translation>
+    </message>
+    <message>
+        <source>Crop</source>
+        <translation>Кесүү</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>Баштапкы абалга келтирүү</translation>
+    </message>
+    <message>
+        <source>Click or drag on the image to set the focal point. Arrow keys move it; on the crop box, Shift and an arrow key change its size.</source>
+        <translation>Фокус чекитин коюу үчүн сүрөттү басыңыз же сүйрөңүз. Жебе баскычтары аны жылдырат; кесүү алкагында Shift жана жебе баскычы анын өлчөмүн өзгөртөт.</translation>
+    </message>
+    <message>
+        <source>How each size will look</source>
+        <translation>Ар бир өлчөм кандай көрүнөт</translation>
+    </message>
+    <message>
+        <source>The templates of this page use no size of this image yet.</source>
+        <translation>Бул барактын шаблондору бул сүрөттүн эч бир өлчөмүн азырынча колдонбойт.</translation>
+    </message>
+    <message>
+        <source>This size keeps its own crop.</source>
+        <translation>Бул өлчөм өзүнүн кесүүсүн сактайт.</translation>
+    </message>
+    <message>
+        <source>Saved: the sizes are made again around the focal point.</source>
+        <translation>Сакталды: өлчөмдөр фокус чекитинин айланасында кайра жасалат.</translation>
+    </message>
 </context>
 </TS>

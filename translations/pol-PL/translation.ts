@@ -1819,5 +1819,53 @@
         <source>%n migrations need attention</source>
         <translation>Migracje wymagające uwagi: %n</translation>
     </message>
+    <message>
+        <source>This image cannot have a focal point.</source>
+        <translation>Ten obraz nie może mieć punktu centralnego.</translation>
+    </message>
+    <message>
+        <source>Focal points are not available here.</source>
+        <translation>Punkty centralne nie są tu dostępne.</translation>
+    </message>
+    <message>
+        <source>Focal point and crop</source>
+        <translation>Punkt centralny i kadrowanie</translation>
+    </message>
+    <message>
+        <source>Focal point</source>
+        <translation>Punkt centralny</translation>
+    </message>
+    <message>
+        <source>Crop box</source>
+        <translation>Ramka kadrowania</translation>
+    </message>
+    <message>
+        <source>Crop</source>
+        <translation>Kadruj</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>Resetuj</translation>
+    </message>
+    <message>
+        <source>Click or drag on the image to set the focal point. Arrow keys move it; on the crop box, Shift and an arrow key change its size.</source>
+        <translation>Kliknij lub przeciągnij na obrazie, aby ustawić punkt centralny. Klawisze strzałek go przesuwają; na ramce kadrowania Shift i klawisz strzałki zmieniają jej rozmiar.</translation>
+    </message>
+    <message>
+        <source>How each size will look</source>
+        <translation>Jak będzie wyglądał każdy rozmiar</translation>
+    </message>
+    <message>
+        <source>The templates of this page use no size of this image yet.</source>
+        <translation>Szablony tej strony nie używają jeszcze żadnego rozmiaru tego obrazu.</translation>
+    </message>
+    <message>
+        <source>This size keeps its own crop.</source>
+        <translation>Ten rozmiar zachowuje własne kadrowanie.</translation>
+    </message>
+    <message>
+        <source>Saved: the sizes are made again around the focal point.</source>
+        <translation>Zapisano: rozmiary są tworzone na nowo wokół punktu centralnego.</translation>
+    </message>
 </context>
 </TS>

@@ -98,6 +98,10 @@ class expwtAccess
         // the installation's migrations (R4.5), read-only: pending, failed, the last run, who runs now; the kernel's
         // migration/read decides (expwtGateway::readsMigrations()), running and rolling back stay in the administration
         'migrations.load'   => array( 'use', false, '', '', '' ),
+        // an image field's focal point and crop (E7, with a kernel that stores them): its aliases previewed, and the
+        // focal point and crop written into the user's draft as content/edit saves a field (content/edit of the page)
+        'images.load'       => array( 'edit', false, '', '', '' ),
+        'images.save'       => array( 'edit', true, 'content', 'edit', 'StoreButton' ),
     );
 
     /**

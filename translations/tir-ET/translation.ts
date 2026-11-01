@@ -1819,5 +1819,53 @@
         <source>%n migrations need attention</source>
         <translation>%n ማይግሬሽናት ኣቓልቦ የድልዮም</translation>
     </message>
+    <message>
+        <source>This image cannot have a focal point.</source>
+        <translation>እዚ ስእሊ እዚ ማእከላይ ነጥቢ ክህልዎ ኣይክእልን።</translation>
+    </message>
+    <message>
+        <source>Focal points are not available here.</source>
+        <translation>ማእከላይ ነጥብታት ኣብዚ ኣይርከቡን።</translation>
+    </message>
+    <message>
+        <source>Focal point and crop</source>
+        <translation>ማእከላይ ነጥቢን ምቑራጽን</translation>
+    </message>
+    <message>
+        <source>Focal point</source>
+        <translation>ማእከላይ ነጥቢ</translation>
+    </message>
+    <message>
+        <source>Crop box</source>
+        <translation>ሳጹን ምቑራጽ</translation>
+    </message>
+    <message>
+        <source>Crop</source>
+        <translation>ቑረጽ</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>ዳግም ኣቐምጥ</translation>
+    </message>
+    <message>
+        <source>Click or drag on the image to set the focal point. Arrow keys move it; on the crop box, Shift and an arrow key change its size.</source>
+        <translation>ማእከላይ ነጥቢ ንምቕማጥ ኣብ ስእሊ ጠውቑ ወይ ስሓቡ። መፍትሕ ምልክት ኣንፈት የንቀሳቕሶ፤ ኣብ ሳጹን ምቑራጽ Shiftን መፍትሕ ምልክት ኣንፈትን መጠኑ ይቕይሩ።</translation>
+    </message>
+    <message>
+        <source>How each size will look</source>
+        <translation>ነፍሲ ወከፍ መጠን ከመይ ከም ዝመስል</translation>
+    </message>
+    <message>
+        <source>The templates of this page use no size of this image yet.</source>
+        <translation>ቅጥዕታት ናይዚ ገጽ እዚ ክሳብ ሕጂ ዝኾነ መጠን ናይዚ ስእሊ ኣይጥቀሙን።</translation>
+    </message>
+    <message>
+        <source>This size keeps its own crop.</source>
+        <translation>እዚ መጠን እዚ ናይ ገዛእ ርእሱ ምቑራጽ ይሕዝ።</translation>
+    </message>
+    <message>
+        <source>Saved: the sizes are made again around the focal point.</source>
+        <translation>ተቐሚጡ: መጠናት ኣብ ዙርያ ማእከላይ ነጥቢ ዳግም ይስርሑ።</translation>
+    </message>
 </context>
 </TS>

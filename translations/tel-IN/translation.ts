@@ -1819,5 +1819,53 @@
         <source>%n migrations need attention</source>
         <translation>%n మైగ్రేషన్‌లకు శ్రద్ధ అవసరం</translation>
     </message>
+    <message>
+        <source>This image cannot have a focal point.</source>
+        <translation>ఈ చిత్రానికి ఫోకల్ పాయింట్ ఉండకూడదు.</translation>
+    </message>
+    <message>
+        <source>Focal points are not available here.</source>
+        <translation>ఫోకల్ పాయింట్లు ఇక్కడ అందుబాటులో లేవు.</translation>
+    </message>
+    <message>
+        <source>Focal point and crop</source>
+        <translation>ఫోకల్ పాయింట్ మరియు కత్తిరింపు</translation>
+    </message>
+    <message>
+        <source>Focal point</source>
+        <translation>ఫోకల్ పాయింట్</translation>
+    </message>
+    <message>
+        <source>Crop box</source>
+        <translation>కత్తిరింపు పెట్టె</translation>
+    </message>
+    <message>
+        <source>Crop</source>
+        <translation>కత్తిరించు</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>రీసెట్ చేయి</translation>
+    </message>
+    <message>
+        <source>Click or drag on the image to set the focal point. Arrow keys move it; on the crop box, Shift and an arrow key change its size.</source>
+        <translation>ఫోకల్ పాయింట్‌ను సెట్ చేయడానికి చిత్రంపై క్లిక్ చేయండి లేదా లాగండి. బాణం కీలు దానిని కదిలిస్తాయి; కత్తిరింపు పెట్టెపై Shift మరియు బాణం కీ దాని పరిమాణాన్ని మారుస్తాయి.</translation>
+    </message>
+    <message>
+        <source>How each size will look</source>
+        <translation>ప్రతి పరిమాణం ఎలా కనిపిస్తుంది</translation>
+    </message>
+    <message>
+        <source>The templates of this page use no size of this image yet.</source>
+        <translation>ఈ పేజీ యొక్క టెంప్లేట్‌లు ఇంకా ఈ చిత్రం యొక్క ఏ పరిమాణాన్నీ ఉపయోగించడం లేదు.</translation>
+    </message>
+    <message>
+        <source>This size keeps its own crop.</source>
+        <translation>ఈ పరిమాణం తన సొంత కత్తిరింపును ఉంచుకుంటుంది.</translation>
+    </message>
+    <message>
+        <source>Saved: the sizes are made again around the focal point.</source>
+        <translation>సేవ్ చేయబడింది: పరిమాణాలు ఫోకల్ పాయింట్ చుట్టూ మళ్లీ తయారవుతాయి.</translation>
+    </message>
 </context>
 </TS>

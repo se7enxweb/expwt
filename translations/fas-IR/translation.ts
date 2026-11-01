@@ -1819,5 +1819,53 @@
         <source>%n migrations need attention</source>
         <translation>%n مهاجرت نیاز به توجه دارد</translation>
     </message>
+    <message>
+        <source>This image cannot have a focal point.</source>
+        <translation>این تصویر نمی‌تواند نقطهٔ کانونی داشته باشد.</translation>
+    </message>
+    <message>
+        <source>Focal points are not available here.</source>
+        <translation>نقطه‌های کانونی در اینجا در دسترس نیستند.</translation>
+    </message>
+    <message>
+        <source>Focal point and crop</source>
+        <translation>نقطهٔ کانونی و برش</translation>
+    </message>
+    <message>
+        <source>Focal point</source>
+        <translation>نقطهٔ کانونی</translation>
+    </message>
+    <message>
+        <source>Crop box</source>
+        <translation>کادر برش</translation>
+    </message>
+    <message>
+        <source>Crop</source>
+        <translation>برش</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>بازنشانی</translation>
+    </message>
+    <message>
+        <source>Click or drag on the image to set the focal point. Arrow keys move it; on the crop box, Shift and an arrow key change its size.</source>
+        <translation>برای تعیین نقطهٔ کانونی روی تصویر کلیک کنید یا بکشید. کلیدهای جهت‌نما آن را جابه‌جا می‌کنند؛ روی کادر برش، Shift و یک کلید جهت‌نما اندازهٔ آن را تغییر می‌دهند.</translation>
+    </message>
+    <message>
+        <source>How each size will look</source>
+        <translation>هر اندازه چگونه به نظر خواهد رسید</translation>
+    </message>
+    <message>
+        <source>The templates of this page use no size of this image yet.</source>
+        <translation>قالب‌های این صفحه هنوز از هیچ اندازه‌ای از این تصویر استفاده نمی‌کنند.</translation>
+    </message>
+    <message>
+        <source>This size keeps its own crop.</source>
+        <translation>این اندازه برش خودش را حفظ می‌کند.</translation>
+    </message>
+    <message>
+        <source>Saved: the sizes are made again around the focal point.</source>
+        <translation>ذخیره شد: اندازه‌ها دوباره حول نقطهٔ کانونی ساخته می‌شوند.</translation>
+    </message>
 </context>
 </TS>

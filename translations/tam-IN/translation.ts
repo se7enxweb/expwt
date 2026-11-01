@@ -1819,5 +1819,53 @@
         <source>%n migrations need attention</source>
         <translation>%n இடம்பெயர்வுகளுக்கு கவனம் தேவை</translation>
     </message>
+    <message>
+        <source>This image cannot have a focal point.</source>
+        <translation>இந்தப் படத்திற்குக் குவியப் புள்ளி இருக்க முடியாது.</translation>
+    </message>
+    <message>
+        <source>Focal points are not available here.</source>
+        <translation>குவியப் புள்ளிகள் இங்கே கிடைக்காது.</translation>
+    </message>
+    <message>
+        <source>Focal point and crop</source>
+        <translation>குவியப் புள்ளியும் செதுக்கலும்</translation>
+    </message>
+    <message>
+        <source>Focal point</source>
+        <translation>குவியப் புள்ளி</translation>
+    </message>
+    <message>
+        <source>Crop box</source>
+        <translation>செதுக்கல் பெட்டி</translation>
+    </message>
+    <message>
+        <source>Crop</source>
+        <translation>செதுக்கு</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>மீட்டமை</translation>
+    </message>
+    <message>
+        <source>Click or drag on the image to set the focal point. Arrow keys move it; on the crop box, Shift and an arrow key change its size.</source>
+        <translation>குவியப் புள்ளியை அமைக்கப் படத்தில் சொடுக்கவும் அல்லது இழுக்கவும். அம்புக்குறி விசைகள் அதை நகர்த்தும்; செதுக்கல் பெட்டியில் Shift மற்றும் அம்புக்குறி விசை அதன் அளவை மாற்றும்.</translation>
+    </message>
+    <message>
+        <source>How each size will look</source>
+        <translation>ஒவ்வொரு அளவும் எப்படித் தோன்றும்</translation>
+    </message>
+    <message>
+        <source>The templates of this page use no size of this image yet.</source>
+        <translation>இந்தப் பக்கத்தின் வார்ப்புருக்கள் இன்னும் இந்தப் படத்தின் எந்த அளவையும் பயன்படுத்தவில்லை.</translation>
+    </message>
+    <message>
+        <source>This size keeps its own crop.</source>
+        <translation>இந்த அளவு தனக்கென்ற செதுக்கலை வைத்திருக்கும்.</translation>
+    </message>
+    <message>
+        <source>Saved: the sizes are made again around the focal point.</source>
+        <translation>சேமிக்கப்பட்டது: அளவுகள் குவியப் புள்ளியைச் சுற்றி மீண்டும் உருவாக்கப்படுகின்றன.</translation>
+    </message>
 </context>
 </TS>

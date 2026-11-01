@@ -1819,5 +1819,53 @@
         <source>%n migrations need attention</source>
         <translation>%n migráció figyelmet igényel</translation>
     </message>
+    <message>
+        <source>This image cannot have a focal point.</source>
+        <translation>Ennek a képnek nem lehet fókuszpontja.</translation>
+    </message>
+    <message>
+        <source>Focal points are not available here.</source>
+        <translation>A fókuszpontok itt nem érhetők el.</translation>
+    </message>
+    <message>
+        <source>Focal point and crop</source>
+        <translation>Fókuszpont és vágás</translation>
+    </message>
+    <message>
+        <source>Focal point</source>
+        <translation>Fókuszpont</translation>
+    </message>
+    <message>
+        <source>Crop box</source>
+        <translation>Vágókeret</translation>
+    </message>
+    <message>
+        <source>Crop</source>
+        <translation>Vágás</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>Visszaállítás</translation>
+    </message>
+    <message>
+        <source>Click or drag on the image to set the focal point. Arrow keys move it; on the crop box, Shift and an arrow key change its size.</source>
+        <translation>Kattintson vagy húzzon a képen a fókuszpont beállításához. A nyílbillentyűk mozgatják; a vágókereten a Shift és egy nyílbillentyű a méretét változtatja.</translation>
+    </message>
+    <message>
+        <source>How each size will look</source>
+        <translation>Így fog kinézni az egyes méretek</translation>
+    </message>
+    <message>
+        <source>The templates of this page use no size of this image yet.</source>
+        <translation>Az oldal sablonjai még nem használják ennek a képnek egyik méretét sem.</translation>
+    </message>
+    <message>
+        <source>This size keeps its own crop.</source>
+        <translation>Ez a méret megtartja a saját vágását.</translation>
+    </message>
+    <message>
+        <source>Saved: the sizes are made again around the focal point.</source>
+        <translation>Mentve: a méretek újra elkészülnek a fókuszpont körül.</translation>
+    </message>
 </context>
 </TS>

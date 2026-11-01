@@ -1819,5 +1819,53 @@
         <source>%n migrations need attention</source>
         <translation>ߡߌߜ߭ߙߊߛߌߦߐ߲ %n ߦߋ߫ ߖߊ߲߬ߕߏ߬ߟߌ ߝߍ߬</translation>
     </message>
+    <message>
+        <source>This image cannot have a focal point.</source>
+        <translation>ߖߌ߬ߦߊ ߣߌ߲߬ ߕߍ߫ ߛߋ߫ ߞߊ߬ ߞߎ߲߬ߠߊ߬ߦߌߟߊ߲ ߘߌ߫.</translation>
+    </message>
+    <message>
+        <source>Focal points are not available here.</source>
+        <translation>ߞߎ߲߬ߠߊ߬ߦߌߟߊ߲ ߕߍ߫ ߦߋ߲߬.</translation>
+    </message>
+    <message>
+        <source>Focal point and crop</source>
+        <translation>ߞߎ߲߬ߠߊ߬ߦߌߟߊ߲ ߣߌ߫ ߕߍ߰ߟߌ</translation>
+    </message>
+    <message>
+        <source>Focal point</source>
+        <translation>ߞߎ߲߬ߠߊ߬ߦߌߟߊ߲</translation>
+    </message>
+    <message>
+        <source>Crop box</source>
+        <translation>ߕߍ߰ߟߌ ߞߙߎ߬ߞߙߎ</translation>
+    </message>
+    <message>
+        <source>Crop</source>
+        <translation>ߊ߬ ߕߍ߰</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>ߊ߬ ߟߊߛߐ߬ߘߐ߲߬ ߞߎߘߊ ߟߊ߫</translation>
+    </message>
+    <message>
+        <source>Click or drag on the image to set the focal point. Arrow keys move it; on the crop box, Shift and an arrow key change its size.</source>
+        <translation>ߌ ߦߋ߫ ߖߌ߬ߦߊ ߛߐ߰ ߥߟߊ߫ ߊ߬ ߛߊ߬ߘߊ߬ ߞߊ߬ ߞߎ߲߬ߠߊ߬ߦߌߟߊ߲ ߟߊߘߏ߲߬. ߓߊ߲ߘߌ ߛߙߍߘߍ ߟߎ߬ ߓߍ߯ ߊ߬ ߟߊߥߊ߫ ߟߊ߫; ߕߍ߰ߟߌ ߞߙߎ߬ߞߙߎ ߞߊ߲߬߸ Shift ߣߌ߫ ߓߊ߲ߘߌ ߛߙߍߘߍ ߓߍ߯ ߊ߬ ߓߏ߲߬ߓߊ߬ߦߊ ߡߊߝߊ߬ߟߋ߲߫ ߟߊ߫.</translation>
+    </message>
+    <message>
+        <source>How each size will look</source>
+        <translation>ߓߏ߲߬ߓߊ߬ߦߊ ߞߘߐ߫ ߞߋߟߋ߲ ߓߍ߯ ߦߋ߫ ߟߊ߫ ߘߌ߬</translation>
+    </message>
+    <message>
+        <source>The templates of this page use no size of this image yet.</source>
+        <translation>ߞߐߜߍ ߣߌ߲߬ ߠߎ߬ ߛߎ߲ߝߘߍ ߡߊ߫ ߖߌ߬ߦߊ ߣߌ߲߬ ߓߏ߲߬ߓߊ߬ߦߊ߫ ߛߌ߫ ߟߊߓߊ߰ߙߊ߫ ߝߟߐ߫.</translation>
+    </message>
+    <message>
+        <source>This size keeps its own crop.</source>
+        <translation>ߓߏ߲߬ߓߊ߬ߦߊ ߣߌ߲߬ ߦߋ߫ ߊ߬ ߖߘߍ߬ ߕߍ߰ߟߌ ߟߊߡߊߙߊ߫ ߟߊ߫.</translation>
+    </message>
+    <message>
+        <source>Saved: the sizes are made again around the focal point.</source>
+        <translation>ߊ߬ ߟߊߡߊߙߊ߫ ߘߊ߫: ߓߏ߲߬ߓߊ߬ߦߊ ߟߎ߬ ߓߍ߯ ߘߊ߲߬ ߠߊ߫ ߕߎ߲߯ ߞߎ߲߬ߠߊ߬ߦߌߟߊ߲ ߟߊߞߙߊ߬ߡߊ߬.</translation>
+    </message>
 </context>
 </TS>

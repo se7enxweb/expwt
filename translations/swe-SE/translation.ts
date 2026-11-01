@@ -1819,5 +1819,53 @@
         <source>%n migrations need attention</source>
         <translation>%n migreringar behöver åtgärdas</translation>
     </message>
+    <message>
+        <source>This image cannot have a focal point.</source>
+        <translation>Den här bilden kan inte ha någon fokuspunkt.</translation>
+    </message>
+    <message>
+        <source>Focal points are not available here.</source>
+        <translation>Fokuspunkter är inte tillgängliga här.</translation>
+    </message>
+    <message>
+        <source>Focal point and crop</source>
+        <translation>Fokuspunkt och beskärning</translation>
+    </message>
+    <message>
+        <source>Focal point</source>
+        <translation>Fokuspunkt</translation>
+    </message>
+    <message>
+        <source>Crop box</source>
+        <translation>Beskärningsruta</translation>
+    </message>
+    <message>
+        <source>Crop</source>
+        <translation>Beskär</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>Återställ</translation>
+    </message>
+    <message>
+        <source>Click or drag on the image to set the focal point. Arrow keys move it; on the crop box, Shift and an arrow key change its size.</source>
+        <translation>Klicka eller dra i bilden för att ange fokuspunkten. Piltangenterna flyttar den; på beskärningsrutan ändrar Skift och en piltangent dess storlek.</translation>
+    </message>
+    <message>
+        <source>How each size will look</source>
+        <translation>Så ser varje storlek ut</translation>
+    </message>
+    <message>
+        <source>The templates of this page use no size of this image yet.</source>
+        <translation>Mallarna på den här sidan använder ännu ingen storlek av den här bilden.</translation>
+    </message>
+    <message>
+        <source>This size keeps its own crop.</source>
+        <translation>Den här storleken behåller sin egen beskärning.</translation>
+    </message>
+    <message>
+        <source>Saved: the sizes are made again around the focal point.</source>
+        <translation>Sparat: storlekarna skapas på nytt runt fokuspunkten.</translation>
+    </message>
 </context>
 </TS>

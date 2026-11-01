@@ -1819,5 +1819,53 @@
         <source>%n migrations need attention</source>
         <translation>%n ⵏ ⵜⵎⵓⵙⵙⵓⵜⵉⵏ ⵃⵜⴰⵊⵏⵜ ⴰⵙⵙⵎⵓⵜⵜⴳ</translation>
     </message>
+    <message>
+        <source>This image cannot have a focal point.</source>
+        <translation>ⵓⵔ ⵜⵥⴹⴰⵕ ⵜⵡⵍⴰⴼⵜ ⴰ ⴰⴷ ⵜⵙⵄⵓ ⵜⵉⵏⵇⵉⴹⵜ ⵏ ⵓⵙⵎⵓⵏ.</translation>
+    </message>
+    <message>
+        <source>Focal points are not available here.</source>
+        <translation>ⵜⵉⵏⵇⵉⴹⵉⵏ ⵏ ⵓⵙⵎⵓⵏ ⵓⵔ ⵍⵍⵉⵏⵜ ⴷⴰ.</translation>
+    </message>
+    <message>
+        <source>Focal point and crop</source>
+        <translation>ⵜⵉⵏⵇⵉⴹⵜ ⵏ ⵓⵙⵎⵓⵏ ⴷ ⵓⴱⵓⵖⵍⵓ</translation>
+    </message>
+    <message>
+        <source>Focal point</source>
+        <translation>ⵜⵉⵏⵇⵉⴹⵜ ⵏ ⵓⵙⵎⵓⵏ</translation>
+    </message>
+    <message>
+        <source>Crop box</source>
+        <translation>ⵜⴰⵙⵏⴷⵓⵇⵜ ⵏ ⵓⴱⵓⵖⵍⵓ</translation>
+    </message>
+    <message>
+        <source>Crop</source>
+        <translation>ⴱⴱⵉ</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>ⵙⵏⴼⵍⵓⵍ ⴷⴰⵖ</translation>
+    </message>
+    <message>
+        <source>Click or drag on the image to set the focal point. Arrow keys move it; on the crop box, Shift and an arrow key change its size.</source>
+        <translation>ⵙⵙⵏⵜⵉ ⵏⵖ ⵊⴱⴷ ⵖⴼ ⵜⵡⵍⴰⴼⵜ ⴰⴼⴰⴷ ⴰⴷ ⵜⵙⴱⴷⴷⴷ ⵜⵉⵏⵇⵉⴹⵜ ⵏ ⵓⵙⵎⵓⵏ. ⵜⵉⵙⵓⵔⴰ ⵏ ⵜⵏⵉⵍⵜ ⴰⵔ ⵜⵜ ⵙⵎⵓⵙⵙⴰⵢⵏⵜ; ⵖⴼ ⵜⵙⵏⴷⵓⵇⵜ ⵏ ⵓⴱⵓⵖⵍⵓ, Shift ⴷ ⵜⵙⴰⵔⵓⵜ ⵏ ⵜⵏⵉⵍⵜ ⴰⵔ ⵙⵏⴼⴰⵍⵏ ⵜⵉⴷⴷⵉ ⵏⵏⵙ.</translation>
+    </message>
+    <message>
+        <source>How each size will look</source>
+        <translation>ⵎⴰⵎⴽ ⴰⵔ ⴷ ⵜⵜⴱⴰⵢⴰⵏ ⴽⵓ ⵜⵉⴷⴷⵉ</translation>
+    </message>
+    <message>
+        <source>The templates of this page use no size of this image yet.</source>
+        <translation>ⵉⵎⴷⵢⴰⵜⵏ ⵏ ⵜⴰⵙⵏⴰ ⴰ ⵓⵔ ⵙⵎⵔⵙⵏ ⴰⵔ ⴷⵖⵉ ⵜⴰⵢⵏⵏ ⵜⵉⴷⴷⵉ ⵏ ⵜⵡⵍⴰⴼⵜ ⴰ.</translation>
+    </message>
+    <message>
+        <source>This size keeps its own crop.</source>
+        <translation>ⵜⵉⴷⴷⵉ ⴰ ⴰⵔ ⵜⵃⵟⵟⵓ ⴰⴱⵓⵖⵍⵓ ⵏⵏⵙ.</translation>
+    </message>
+    <message>
+        <source>Saved: the sizes are made again around the focal point.</source>
+        <translation>ⵉⵜⵜⵓⵃⴹⴰ: ⵜⵉⴷⴷⵉⵡⵉⵏ ⴰⵔ ⵜⵜⵓⵙⴽⴰⵔⵏⵜ ⴷⴰⵖ ⴳ ⵡⴰⵏⴰⴽ ⵏ ⵜⵏⵇⵉⴹⵜ ⵏ ⵓⵙⵎⵓⵏ.</translation>
+    </message>
 </context>
 </TS>

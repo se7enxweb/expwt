@@ -1819,5 +1819,53 @@
         <source>%n migrations need attention</source>
         <translation>%n മൈഗ്രേഷനുകൾക്ക് ശ്രദ്ധ ആവശ്യമാണ്</translation>
     </message>
+    <message>
+        <source>This image cannot have a focal point.</source>
+        <translation>ഈ ചിത്രത്തിന് ഫോക്കൽ പോയിന്റ് ഉണ്ടാകാൻ കഴിയില്ല.</translation>
+    </message>
+    <message>
+        <source>Focal points are not available here.</source>
+        <translation>ഫോക്കൽ പോയിന്റുകൾ ഇവിടെ ലഭ്യമല്ല.</translation>
+    </message>
+    <message>
+        <source>Focal point and crop</source>
+        <translation>ഫോക്കൽ പോയിന്റും ക്രോപ്പും</translation>
+    </message>
+    <message>
+        <source>Focal point</source>
+        <translation>ഫോക്കൽ പോയിന്റ്</translation>
+    </message>
+    <message>
+        <source>Crop box</source>
+        <translation>ക്രോപ്പ് ബോക്സ്</translation>
+    </message>
+    <message>
+        <source>Crop</source>
+        <translation>ക്രോപ്പ്</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>പുനഃസജ്ജമാക്കുക</translation>
+    </message>
+    <message>
+        <source>Click or drag on the image to set the focal point. Arrow keys move it; on the crop box, Shift and an arrow key change its size.</source>
+        <translation>ഫോക്കൽ പോയിന്റ് സജ്ജമാക്കാൻ ചിത്രത്തിൽ ക്ലിക്ക് ചെയ്യുകയോ വലിക്കുകയോ ചെയ്യുക. ആരോ കീകൾ അതിനെ നീക്കുന്നു; ക്രോപ്പ് ബോക്സിൽ Shift-ഉം ഒരു ആരോ കീയും അതിന്റെ വലുപ്പം മാറ്റുന്നു.</translation>
+    </message>
+    <message>
+        <source>How each size will look</source>
+        <translation>ഓരോ വലുപ്പവും എങ്ങനെ കാണപ്പെടും</translation>
+    </message>
+    <message>
+        <source>The templates of this page use no size of this image yet.</source>
+        <translation>ഈ പേജിന്റെ ടെംപ്ലേറ്റുകൾ ഇതുവരെ ഈ ചിത്രത്തിന്റെ ഒരു വലുപ്പവും ഉപയോഗിക്കുന്നില്ല.</translation>
+    </message>
+    <message>
+        <source>This size keeps its own crop.</source>
+        <translation>ഈ വലുപ്പം സ്വന്തം ക്രോപ്പ് നിലനിർത്തുന്നു.</translation>
+    </message>
+    <message>
+        <source>Saved: the sizes are made again around the focal point.</source>
+        <translation>സംരക്ഷിച്ചു: വലുപ്പങ്ങൾ ഫോക്കൽ പോയിന്റിന് ചുറ്റും വീണ്ടും നിർമ്മിക്കുന്നു.</translation>
+    </message>
 </context>
 </TS>

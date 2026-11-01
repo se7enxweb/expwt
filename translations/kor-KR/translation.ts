@@ -1819,5 +1819,53 @@
         <source>%n migrations need attention</source>
         <translation>마이그레이션 %n개에 조치가 필요합니다</translation>
     </message>
+    <message>
+        <source>This image cannot have a focal point.</source>
+        <translation>이 이미지에는 초점을 지정할 수 없습니다.</translation>
+    </message>
+    <message>
+        <source>Focal points are not available here.</source>
+        <translation>여기서는 초점을 사용할 수 없습니다.</translation>
+    </message>
+    <message>
+        <source>Focal point and crop</source>
+        <translation>초점 및 자르기</translation>
+    </message>
+    <message>
+        <source>Focal point</source>
+        <translation>초점</translation>
+    </message>
+    <message>
+        <source>Crop box</source>
+        <translation>자르기 상자</translation>
+    </message>
+    <message>
+        <source>Crop</source>
+        <translation>자르기</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>초기화</translation>
+    </message>
+    <message>
+        <source>Click or drag on the image to set the focal point. Arrow keys move it; on the crop box, Shift and an arrow key change its size.</source>
+        <translation>이미지를 클릭하거나 끌어서 초점을 지정하세요. 화살표 키로 초점을 옮기고, 자르기 상자에서는 Shift와 화살표 키로 크기를 바꿉니다.</translation>
+    </message>
+    <message>
+        <source>How each size will look</source>
+        <translation>각 크기의 모습</translation>
+    </message>
+    <message>
+        <source>The templates of this page use no size of this image yet.</source>
+        <translation>이 페이지의 템플릿은 아직 이 이미지의 어떤 크기도 사용하지 않습니다.</translation>
+    </message>
+    <message>
+        <source>This size keeps its own crop.</source>
+        <translation>이 크기는 자체 자르기를 유지합니다.</translation>
+    </message>
+    <message>
+        <source>Saved: the sizes are made again around the focal point.</source>
+        <translation>저장됨: 크기들을 초점을 중심으로 다시 만듭니다.</translation>
+    </message>
 </context>
 </TS>

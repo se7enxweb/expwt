@@ -1819,5 +1819,53 @@
         <source>%n migrations need attention</source>
         <translation>%n مایگریشنن چھےٚ توجہٕ ہٕنز ضرورت</translation>
     </message>
+    <message>
+        <source>This image cannot have a focal point.</source>
+        <translation>یَتھ تصویرِ ہُند فوکل پوائنٹ ہیٚکہٕ نہٕ آسِتھ۔</translation>
+    </message>
+    <message>
+        <source>Focal points are not available here.</source>
+        <translation>فوکل پوائنٹ چھِ نہٕ یتھ جاے دستیاب۔</translation>
+    </message>
+    <message>
+        <source>Focal point and crop</source>
+        <translation>فوکل پوائنٹ تہٕ کراپ</translation>
+    </message>
+    <message>
+        <source>Focal point</source>
+        <translation>فوکل پوائنٹ</translation>
+    </message>
+    <message>
+        <source>Crop box</source>
+        <translation>کراپ باکس</translation>
+    </message>
+    <message>
+        <source>Crop</source>
+        <translation>کراپ کٔرِو</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>ری سیٹ کٔرِو</translation>
+    </message>
+    <message>
+        <source>Click or drag on the image to set the focal point. Arrow keys move it; on the crop box, Shift and an arrow key change its size.</source>
+        <translation>فوکل پوائنٹ مقرر کرنہٕ خٲطرٕ کٔرِو تصویرِ پیٹھ کلِک یا ڈریگ۔ ایرو کیز چھِ اَتھ ژلاوان؛ کراپ باکسس پیٹھ چھِ Shift تہٕ ایرو کی اَمیُک سائز بدلاوان۔</translation>
+    </message>
+    <message>
+        <source>How each size will look</source>
+        <translation>پرٛتھ سائز کِتھ پٲٹھۍ باسہِ</translation>
+    </message>
+    <message>
+        <source>The templates of this page use no size of this image yet.</source>
+        <translation>یَتھ صفحُک ٹیمپلیٹ چھِ نہٕ وُنیک تام یَتھ تصویرِ ہُند کانٛہہ سائز استعمال کران۔</translation>
+    </message>
+    <message>
+        <source>This size keeps its own crop.</source>
+        <translation>یہِ سائز چھُ پنُن کراپ تھاوان۔</translation>
+    </message>
+    <message>
+        <source>Saved: the sizes are made again around the focal point.</source>
+        <translation>محفوظ: سائز چھِ فوکل پوائنٹس گرٕدٕ نَوِ سرٕ بناونہٕ یِوان۔</translation>
+    </message>
 </context>
 </TS>

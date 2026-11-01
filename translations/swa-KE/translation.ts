@@ -1819,5 +1819,53 @@
         <source>%n migrations need attention</source>
         <translation>Uhamishaji %n unahitaji uangalifu</translation>
     </message>
+    <message>
+        <source>This image cannot have a focal point.</source>
+        <translation>Picha hii haiwezi kuwa na sehemu ya kulenga.</translation>
+    </message>
+    <message>
+        <source>Focal points are not available here.</source>
+        <translation>Sehemu za kulenga hazipatikani hapa.</translation>
+    </message>
+    <message>
+        <source>Focal point and crop</source>
+        <translation>Sehemu ya kulenga na kukata</translation>
+    </message>
+    <message>
+        <source>Focal point</source>
+        <translation>Sehemu ya kulenga</translation>
+    </message>
+    <message>
+        <source>Crop box</source>
+        <translation>Kisanduku cha kukata</translation>
+    </message>
+    <message>
+        <source>Crop</source>
+        <translation>Kata</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>Weka upya</translation>
+    </message>
+    <message>
+        <source>Click or drag on the image to set the focal point. Arrow keys move it; on the crop box, Shift and an arrow key change its size.</source>
+        <translation>Bofya au buruta kwenye picha ili kuweka sehemu ya kulenga. Vitufe vya mishale vinaisogeza; kwenye kisanduku cha kukata, Shift na kitufe cha mshale hubadilisha ukubwa wake.</translation>
+    </message>
+    <message>
+        <source>How each size will look</source>
+        <translation>Jinsi kila ukubwa utakavyoonekana</translation>
+    </message>
+    <message>
+        <source>The templates of this page use no size of this image yet.</source>
+        <translation>Violezo vya ukurasa huu bado havitumii ukubwa wowote wa picha hii.</translation>
+    </message>
+    <message>
+        <source>This size keeps its own crop.</source>
+        <translation>Ukubwa huu unahifadhi ukataji wake wenyewe.</translation>
+    </message>
+    <message>
+        <source>Saved: the sizes are made again around the focal point.</source>
+        <translation>Imehifadhiwa: ukubwa unatengenezwa upya kuzunguka sehemu ya kulenga.</translation>
+    </message>
 </context>
 </TS>

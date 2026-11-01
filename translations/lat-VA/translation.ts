@@ -1819,5 +1819,53 @@
         <source>%n migrations need attention</source>
         <translation>%n migrationes curam requirunt</translation>
     </message>
+    <message>
+        <source>This image cannot have a focal point.</source>
+        <translation>Haec imago punctum focale habere non potest.</translation>
+    </message>
+    <message>
+        <source>Focal points are not available here.</source>
+        <translation>Puncta focalia hic praesto non sunt.</translation>
+    </message>
+    <message>
+        <source>Focal point and crop</source>
+        <translation>Punctum focale et resectio</translation>
+    </message>
+    <message>
+        <source>Focal point</source>
+        <translation>Punctum focale</translation>
+    </message>
+    <message>
+        <source>Crop box</source>
+        <translation>Capsa resectionis</translation>
+    </message>
+    <message>
+        <source>Crop</source>
+        <translation>Reseca</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>Restitue</translation>
+    </message>
+    <message>
+        <source>Click or drag on the image to set the focal point. Arrow keys move it; on the crop box, Shift and an arrow key change its size.</source>
+        <translation>Preme vel trahe in imagine ut punctum focale statuas. Claves sagittarum id movent; in capsa resectionis Shift et clavis sagittae magnitudinem eius mutant.</translation>
+    </message>
+    <message>
+        <source>How each size will look</source>
+        <translation>Quomodo quaeque magnitudo apparebit</translation>
+    </message>
+    <message>
+        <source>The templates of this page use no size of this image yet.</source>
+        <translation>Formulae huius paginae nullam adhuc huius imaginis magnitudinem adhibent.</translation>
+    </message>
+    <message>
+        <source>This size keeps its own crop.</source>
+        <translation>Haec magnitudo suam resectionem servat.</translation>
+    </message>
+    <message>
+        <source>Saved: the sizes are made again around the focal point.</source>
+        <translation>Servatum: magnitudines circa punctum focale denuo fiunt.</translation>
+    </message>
 </context>
 </TS>

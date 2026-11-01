@@ -1819,5 +1819,53 @@
         <source>%n migrations need attention</source>
         <translation>%n स्थानान्तरणेषु ध्यानम् आवश्यकम्</translation>
     </message>
+    <message>
+        <source>This image cannot have a focal point.</source>
+        <translation>अस्य चित्रस्य केन्द्रबिन्दुः न भवितुम् अर्हति।</translation>
+    </message>
+    <message>
+        <source>Focal points are not available here.</source>
+        <translation>केन्द्रबिन्दवः अत्र न उपलभ्यन्ते।</translation>
+    </message>
+    <message>
+        <source>Focal point and crop</source>
+        <translation>केन्द्रबिन्दुः कर्तनं च</translation>
+    </message>
+    <message>
+        <source>Focal point</source>
+        <translation>केन्द्रबिन्दुः</translation>
+    </message>
+    <message>
+        <source>Crop box</source>
+        <translation>कर्तनपेटिका</translation>
+    </message>
+    <message>
+        <source>Crop</source>
+        <translation>कर्तय</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>पुनःस्थापय</translation>
+    </message>
+    <message>
+        <source>Click or drag on the image to set the focal point. Arrow keys move it; on the crop box, Shift and an arrow key change its size.</source>
+        <translation>केन्द्रबिन्दुं स्थापयितुं चित्रे नुद अथवा कर्ष। बाणकुञ्चिकाः तं चालयन्ति; कर्तनपेटिकायां Shift बाणकुञ्चिका च तस्याः आकारं परिवर्तयतः।</translation>
+    </message>
+    <message>
+        <source>How each size will look</source>
+        <translation>प्रत्येकः आकारः कथं दृश्येत</translation>
+    </message>
+    <message>
+        <source>The templates of this page use no size of this image yet.</source>
+        <translation>अस्य पृष्ठस्य प्रतिरूपाणि अद्यापि अस्य चित्रस्य कमपि आकारं न उपयुञ्जन्ति।</translation>
+    </message>
+    <message>
+        <source>This size keeps its own crop.</source>
+        <translation>अयम् आकारः स्वकीयं कर्तनं रक्षति।</translation>
+    </message>
+    <message>
+        <source>Saved: the sizes are made again around the focal point.</source>
+        <translation>रक्षितम्: आकाराः केन्द्रबिन्दुं परितः पुनः निर्मीयन्ते।</translation>
+    </message>
 </context>
 </TS>

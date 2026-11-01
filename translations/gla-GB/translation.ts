@@ -1819,5 +1819,53 @@
         <source>%n migrations need attention</source>
         <translation>Feumaidh %n imrichean aire</translation>
     </message>
+    <message>
+        <source>This image cannot have a focal point.</source>
+        <translation>Chan urrainn puing-fòcais a bhith aig an dealbh seo.</translation>
+    </message>
+    <message>
+        <source>Focal points are not available here.</source>
+        <translation>Chan eil puingean-fòcais ri fhaighinn an seo.</translation>
+    </message>
+    <message>
+        <source>Focal point and crop</source>
+        <translation>Puing-fòcais is bearradh</translation>
+    </message>
+    <message>
+        <source>Focal point</source>
+        <translation>Puing-fòcais</translation>
+    </message>
+    <message>
+        <source>Crop box</source>
+        <translation>Bogsa bearraidh</translation>
+    </message>
+    <message>
+        <source>Crop</source>
+        <translation>Bearr</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>Ath-shuidhich</translation>
+    </message>
+    <message>
+        <source>Click or drag on the image to set the focal point. Arrow keys move it; on the crop box, Shift and an arrow key change its size.</source>
+        <translation>Briog no slaod air an dealbh gus am puing-fòcais a shuidheachadh. Gluaisidh na h-iuchraichean saighde e; air a’ bhogsa bhearraidh, atharraichidh Shift is iuchair saighde a mheud.</translation>
+    </message>
+    <message>
+        <source>How each size will look</source>
+        <translation>Mar a choimheadas gach meud</translation>
+    </message>
+    <message>
+        <source>The templates of this page use no size of this image yet.</source>
+        <translation>Chan eil teamplaidean na duilleige seo a’ cleachdadh meud sam bith dhen dealbh seo fhathast.</translation>
+    </message>
+    <message>
+        <source>This size keeps its own crop.</source>
+        <translation>Cumaidh am meud seo a bhearradh fhèin.</translation>
+    </message>
+    <message>
+        <source>Saved: the sizes are made again around the focal point.</source>
+        <translation>Air a shàbhaladh: thèid na meudan a dhèanamh às ùr timcheall air a’ phuing-fòcais.</translation>
+    </message>
 </context>
 </TS>

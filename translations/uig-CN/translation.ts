@@ -1819,5 +1819,53 @@
         <source>%n migrations need attention</source>
         <translation>%n كۆچۈش دىققەت تەلەپ قىلىدۇ</translation>
     </message>
+    <message>
+        <source>This image cannot have a focal point.</source>
+        <translation>بۇ رەسىمنىڭ فوكۇس نۇقتىسى بولالمايدۇ.</translation>
+    </message>
+    <message>
+        <source>Focal points are not available here.</source>
+        <translation>فوكۇس نۇقتىلىرى بۇ يەردە يوق.</translation>
+    </message>
+    <message>
+        <source>Focal point and crop</source>
+        <translation>فوكۇس نۇقتىسى ۋە كېسىش</translation>
+    </message>
+    <message>
+        <source>Focal point</source>
+        <translation>فوكۇس نۇقتىسى</translation>
+    </message>
+    <message>
+        <source>Crop box</source>
+        <translation>كېسىش رامكىسى</translation>
+    </message>
+    <message>
+        <source>Crop</source>
+        <translation>كەس</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>ئەسلىگە قايتۇر</translation>
+    </message>
+    <message>
+        <source>Click or drag on the image to set the focal point. Arrow keys move it; on the crop box, Shift and an arrow key change its size.</source>
+        <translation>فوكۇس نۇقتىسىنى بېكىتىش ئۈچۈن رەسىمنى چېكىڭ ياكى سۆرەڭ. يا ئوق كۇنۇپكىلىرى ئۇنى يۆتكەيدۇ؛ كېسىش رامكىسىدا Shift ۋە يا ئوق كۇنۇپكىسى ئۇنىڭ چوڭلۇقىنى ئۆزگەرتىدۇ.</translation>
+    </message>
+    <message>
+        <source>How each size will look</source>
+        <translation>ھەر بىر چوڭلۇق قانداق كۆرۈنىدۇ</translation>
+    </message>
+    <message>
+        <source>The templates of this page use no size of this image yet.</source>
+        <translation>بۇ بەتنىڭ قېلىپلىرى تېخى بۇ رەسىمنىڭ ھېچقانداق چوڭلۇقىنى ئىشلەتمىدى.</translation>
+    </message>
+    <message>
+        <source>This size keeps its own crop.</source>
+        <translation>بۇ چوڭلۇق ئۆزىنىڭ كېسىشىنى ساقلايدۇ.</translation>
+    </message>
+    <message>
+        <source>Saved: the sizes are made again around the focal point.</source>
+        <translation>ساقلاندى: چوڭلۇقلار فوكۇس نۇقتىسى ئەتراپىدا قايتا ياسىلىدۇ.</translation>
+    </message>
 </context>
 </TS>

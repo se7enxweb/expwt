@@ -1819,5 +1819,53 @@
         <source>%n migrations need attention</source>
         <translation>Fifindrana %n mila jerena</translation>
     </message>
+    <message>
+        <source>This image cannot have a focal point.</source>
+        <translation>Tsy afaka manana teboka ifantohana ity sary ity.</translation>
+    </message>
+    <message>
+        <source>Focal points are not available here.</source>
+        <translation>Tsy misy teboka ifantohana eto.</translation>
+    </message>
+    <message>
+        <source>Focal point and crop</source>
+        <translation>Teboka ifantohana sy fanapahana</translation>
+    </message>
+    <message>
+        <source>Focal point</source>
+        <translation>Teboka ifantohana</translation>
+    </message>
+    <message>
+        <source>Crop box</source>
+        <translation>Boaty fanapahana</translation>
+    </message>
+    <message>
+        <source>Crop</source>
+        <translation>Tapaho</translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation>Averina</translation>
+    </message>
+    <message>
+        <source>Click or drag on the image to set the focal point. Arrow keys move it; on the crop box, Shift and an arrow key change its size.</source>
+        <translation>Tsindrio na sintony eo amin'ny sary mba hametrahana ny teboka ifantohana. Ny bokotra zana-tsipika no mamindra azy; eo amin'ny boaty fanapahana, Shift sy bokotra zana-tsipika no manova ny habeny.</translation>
+    </message>
+    <message>
+        <source>How each size will look</source>
+        <translation>Ny endriky ny habe tsirairay</translation>
+    </message>
+    <message>
+        <source>The templates of this page use no size of this image yet.</source>
+        <translation>Ny modelin'ity pejy ity dia mbola tsy mampiasa habe na iray aza amin'ity sary ity.</translation>
+    </message>
+    <message>
+        <source>This size keeps its own crop.</source>
+        <translation>Ity habe ity dia mitazona ny fanapahany manokana.</translation>
+    </message>
+    <message>
+        <source>Saved: the sizes are made again around the focal point.</source>
+        <translation>Voatahiry: averina amboarina manodidina ny teboka ifantohana ireo habe.</translation>
+    </message>
 </context>
 </TS>
